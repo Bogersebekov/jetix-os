@@ -9,36 +9,19 @@ chars: 685889
 approx_tokens: 171472
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 685891
+phase4_chars_after: 680483
+phase4_saved_pct: 0.8
 ---
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
 STRATEGY
- 
- 
- 
- 
- 
+
+
 CO
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
 THOMASC. SCHELLING
 |
 
@@ -68,7 +51,7 @@ and London, England
 ISBN O-&74-84031-3
 90000
 Coverdesign: Virginia J. Mason
-9
+
 "780674°840317
 
 
@@ -82,15 +65,13 @@ LONDON, ENGLAND
 
 © Copyright 1960, 1980 by the President and Fellows
 of Harvard College
-20
-19
-18
-17
+
+
 «+16
 £5
 I4
 £3
-12
+
 Printed in the United States of America
 Library of Congress Catalog Card Number 60-11560
 ISBN 0-674-84031-3 (paper)
@@ -111,8 +92,7 @@ its examples, the book is mostly all right.
 Comments in Chapter 1 about the low estate of military strategy in
 universities and military services are now so obviously wrong that
 they can safely be left for their historical value. A more serious
-issue is whether students — and students may bethe only ones nowa-
-days who read the book for the first time — will recognize names
+issue is whether students — and students may bethe only ones nowadays who read the book for the first time — will recognize names
 like Quemoy, Khrushchev, and Mossadeq or will know how Miss
 Rheingold used to be chosen.
 Wecanall be thankful that Appendix A is not out of date.
@@ -121,8 +101,7 @@ written on the premise that atomic weapons had not been used since
 Nagasaki. May the book enjoy manynew printings with that premise
 intact.
 Someof the ideas that I thought original in Chapter ro have since
-become fashionable. Some have even gone on to become unfashion-
-able.
+become fashionable. Some have even gone on to become unfashionable.
 There is now a vast literature on arms limitation, including
 some things I’ve written, but Chapterro still says as much in relation
 to the Strategic Arms Limitation Treaty, and says it as clearly, as
@@ -144,11 +123,8 @@ that had then been variously described as “theory of bargaining,”
 I wanted to show that
 some elementary theory, cutting across economics, sociology and
 political science, even law and philosophy and perhaps anthropology,
-could be useful not only to formal theorists but also to people con-
-cerned with practical problems.
-I hoped too, and I now think mis-
-takenly, that the theory of games might be redirected toward applica-
-tions in these several fields.
+could be useful not only to formal theorists but also to people concerned with practical problems.
+I hoped too, and I now think mistakenly, that the theory of games might be redirected toward applications in these several fields.
 With notable exceptions like Howard
 Raiffa, Martin Shubik, and
 Nigel Howard, game
@@ -164,7 +140,7 @@ policy makers and practitioners.
 (Only a few years ago, in writing
 about alternative Soviet and American attitudes toward particular
 weapons that might be subject to arms control, I used a few 2 XK
-2
+
 matrices to help readers of the article see the differences. The editor
 of the journal, which I shall not name, insisted on my deleting the
 matrices to avoid intimidating an audience that, though less sure
@@ -175,20 +151,15 @@ by telling me they liked it or learned from it. But the response that
 warms me most after twenty years
 is the late John
 Strachey’s.
-John Strachey, whose books I had read in college, had been an out-
-standing Marxist economist in the 1930s. After the war he had been
+John Strachey, whose books I had read in college, had been an outstanding Marxist economist in the 1930s. After the war he had been
 defense minister in Britain’s Labor Government.
 Some of us
 at
-Harvard’s Center for International Affairs invited him to visit be-
-cause he was writing a book on disarmament and arms control. When
+Harvard’s Center for International Affairs invited him to visit because he was writing a book on disarmament and arms control. When
 he called on me he exclaimed how much this book had donefor his
 thinking, and as he talked with enthusiasm I tried to guess which
-of my sophisticated ideas in which chapters had made so muchdiffer-
-ence to him.
-It turned out it wasn’t any particular idea in any par-
-ticular chapter. Until he read this book, he had simply not compre-
-hended that an inherently non-zero-sum conflict could
+of my sophisticated ideas in which chapters had made so muchdifference to him.
+It turned out it wasn’t any particular idea in any particular chapter. Until he read this book, he had simply not comprehended that an inherently non-zero-sum conflict could
 exist.
 He
 
@@ -209,8 +180,6 @@ hadn’t even knownit wasn’t obvious. With modesty and dignity he
 confessed it to me. You never know whatwill comeof writing a book.
 Tuomas C. SCHELLING
 Cambridge, Massachusetts
-
-
 
 
 II.
@@ -250,86 +219,55 @@ Concept
 for
 ‘“‘Noncooperative” Games
 INDEX
-3
-21
+
+
 8r
-83
-119
-162
-173
-175
-187
-205
-207
-230
-255
-257
-267
-201
-395
-
-
 
 
 PART I
 ELEMENTS OF A
 THEORY OF STRATEGY
 
-
-
-
-1
 THE RETARDED SCIENCE OF
 INTERNATIONAL STRATEGY
-Among diverse theories of conflict — corresponding to the di-
-verse meanings of the word “conflict” —a main dividing line is
+Among diverse theories of conflict — corresponding to the diverse meanings of the word “conflict” —a main dividing line is
 between those that treat conflict as a pathological state and seek
 its causes and treatment, and those that take conflict for granted
 and study the behavior associated with it. Among thelatter there
 is a further division between those that examinethe participants
-in a conflict in all their complexity— with regard to both “ra-
-tional” and “irrational” behavior, conscious and unconscious, and
+in a conflict in all their complexity— with regard to both “rational” and “irrational” behavior, conscious and unconscious, and
 to motivations as well as to calculations — and those that focus
 on the morerational, conscious, artful kind of behavior. Crudely
 speaking, the latter treat conflict as a kind of contest, in which
-the participants are trying to “win.” A study of conscious,intelli-
-gent, sophisticated conflict behavior— of successful behavior —
-is like a search for rules of “correct” behavior in a contest-win-
-ning sense.
+the participants are trying to “win.” A study of conscious,intelligent, sophisticated conflict behavior— of successful behavior —
+is like a search for rules of “correct” behavior in a contest-winning sense.
 Wecancall this field of study the strategy of conflict.1 We can
 be interested in it for at least three reasons. We may be involved
-in a conflict ourselves; weall are, in fact, participants in interna-
-tional conflict, and we want to “win” in some proper sense. We
+in a conflict ourselves; weall are, in fact, participants in international conflict, and we want to “win” in some proper sense. We
 may wish to understand how participants actually do conduct
 themselves in conflict situations; an understanding of “correct”
 play may give us a bench mark for the study of actual behavior.
-*The term “strategy” is taken, here, from the theory of games, which dis-
-tinguishes games of skill, games of chance, and gamesofstrategy, the latter
+*The term “strategy” is taken, here, from the theory of games, which distinguishes games of skill, games of chance, and gamesofstrategy, the latter
 being those in which the best course of action for each player depends on what
 the other players do. The term is intended to focus on the interdependence of
 the adversaries’ decisions and on their expectations about each other’s behavior.
 This is not the military usage.
 
-
-4
 ELEMENTS OF A THEORY OF STRATEGY
 We may wish to control or influence the behavior of others in
 conflict, and we want, therefore, to know how the variables that
 are subject to our control can affect their behavior.
 If we confine our study to the theory of strategy, we seriously
 restrict ourselves by the assumption of rational behavior — not
-just of intelligent behavior, but of behavior motivated by a con-
-scious calculation of advantages, a calculation that in turn is
+just of intelligent behavior, but of behavior motivated by a conscious calculation of advantages, a calculation that in turn is
 based on an explicit and internally consistent value system. We
 thuslimit the applicability of any results we reach. If our interest
 is the study of actual behavior, the results we reach underthis
 constraint may proveto be either a good approximation of reality
 or a caricature. Any abstraction runs a risk of this sort, and we
 have to be prepared to use judgment with any results we reach.
-The advantage of cultivating the area of “strategy” for theo-
-retical developmentis not that, of all possible approaches,it is the
-one that evidently stays closest to the truth, but that the assump-
-tion of rational behavior is a productive one. It gives a grip on
+The advantage of cultivating the area of “strategy” for theoretical developmentis not that, of all possible approaches,it is the
+one that evidently stays closest to the truth, but that the assumption of rational behavior is a productive one. It gives a grip on
 the subject that is peculiarly conducive to the development of
 theory. It permits us to identify our own analytical processes
 with those of the hypothetical participants in a conflict; and by
@@ -354,7 +292,7 @@ adversary. It means gaining relative to one’s own value system;
 
 
 INTERNATIONAL STRATEGY
-5
+
 and this may be done by bargaining, by mutual accommodation,
 and by the avoidance of mutually damaging behavior. If war to
 the finish has becomeinevitable, there is nothing left but pure
@@ -383,38 +321,27 @@ Tostudy the strategy of conflict is to take the view that most
 conflict situations are essentially bargaining situations. They are
 Situations in which the ability of one participant to gain his ends
 is dependent to an important degree on the choices or decisions
-that the other participant will make. The bargaining maybe ex-
-plicit, as when one offers a concession; or it may be bytacit ma-
-neuver, as when one occupies or evacuates strategic territory. It
+that the other participant will make. The bargaining maybe explicit, as when one offers a concession; or it may be bytacit maneuver, as when one occupies or evacuates strategic territory. It
 May, as in the ordinary haggling of the market-place, take the
-status quo as its zero point and seek arrangementsthatyield posi-
-tive gains to both sides; or it may involve threats of damage,in-
-cluding mutual damage,as in a strike, boycott, or price war,or in
+status quo as its zero point and seek arrangementsthatyield positive gains to both sides; or it may involve threats of damage,including mutual damage,as in a strike, boycott, or price war,or in
 extortion.
 Viewing conflict behavior as a bargaining process is useful in
 keeping us from becoming exclusively preoccupied either with the
 
-
-6
 ELEMENTS OF A THEORY OF STRATEGY
-conflict or with the commoninterest. To characterize the ma-
-neuvers and actions of limited war as a bargaining processis to
+conflict or with the commoninterest. To characterize the maneuvers and actions of limited war as a bargaining processis to
 emphasize that, in addition to the divergence of interest over the
-variables in dispute, there is a powerful commoninterest in reach-
-ing an outcome that is not enormously destructive of values to
+variables in dispute, there is a powerful commoninterest in reaching an outcome that is not enormously destructive of values to
 both sides. A “successful” employees’ strike
 is not one that
 destroys the employer financially, it may even be one that never
 takes place. Something similar can be true of war.
-The idea of “deterrence” has had an evolution that is instruc-
-tive for our purpose. It is a dozen years since deterrence was ar-
-ticulated as the keystone of our national strategy, and during
+The idea of “deterrence” has had an evolution that is instructive for our purpose. It is a dozen years since deterrence was articulated as the keystone of our national strategy, and during
 those years the concept has been refined and improved. We have
 learned that a threat has to be credible to beefficacious, and that
 its credibility may depend on the costs andrisks associated with
 fulfillment for the party making the threat. We have developed
-the idea of making a threat credible by getting ourselves com-
-mitted to its fulfillment, through the stretching of a “trip wire”
+the idea of making a threat credible by getting ourselves committed to its fulfillment, through the stretching of a “trip wire”
 across the enemy’s path of advance, or by makingfulfillment a
 matter of national honor and prestige —as in the case, say, of
 the Formosa Resolution. We have recognized that a readiness to
@@ -425,13 +352,11 @@ retaliatory threat may be morecredible if the means of carrying
 it out and the responsibility for retaliation are placed in the hands
 of those whoseresolution is strongest, as in recent suggestions for
 “nuclear sharing.” We have observed that the rationality of the
-adversary is pertinent to the efficacy of a threat, and that mad-
-men, like small children, can often not be controlled by threats.
+adversary is pertinent to the efficacy of a threat, and that madmen, like small children, can often not be controlled by threats.
 We have recognized that the efficacy of the threat may depend
 on what alternatives are available to the potential enemy, who,
 if he is not to react like a trapped lion, must be left some tolerable
-recourse. We have cometo realize that a threat of all-out retalia-
-tion gives the enemy every incentive, in the event he should
+recourse. We have cometo realize that a threat of all-out retaliation gives the enemy every incentive, in the event he should
 choose not to heed the threat, to initiate his transgression with an
 all-out strike at us;
 it eliminates lesser courses of action and
@@ -442,16 +367,10 @@ INTERNATIONAL STRATEGY
 q
 threat of massive destruction may deter an enemy only if there
 is a corresponding implicit promise of nondestruction in the event
-he complies, so that we must consider whether too great a capac-
-ity to strike him by surprise may induce him to strike first to
+he complies, so that we must consider whether too great a capacity to strike him by surprise may induce him to strike first to
 avoid being disarmed bya first strike from us. And recently, in
-connection with the so-called “measures to safeguard against sur-
-prise attack,” we have begun to consider the possibility of im-
-proving mutual deterrence through armscontrol.
-What is impressive is not how complicated the idea of deter-
-rence has become, and how carefully it has been refined and de-
-veloped, but how slow the process has been, how vague the con-
-cepts still are, and how inelegant the current theory of deterrence
+connection with the so-called “measures to safeguard against surprise attack,” we have begun to consider the possibility of improving mutual deterrence through armscontrol.
+What is impressive is not how complicated the idea of deterrence has become, and how carefully it has been refined and developed, but how slow the process has been, how vague the concepts still are, and how inelegant the current theory of deterrence
 is. This is not said to depreciate the efforts of people who have
 struggled with the deterrence concept over the last dozen years.
 On strategic matters of which deterrence is an example, those
@@ -461,21 +380,17 @@ have had to create their own as they went along. There is no
 scientific literature on deterrence that begins to compare with,
 say, the literature on inflation, Asiatic flu, elementary-school
 reading, or smog.
-Furthermore, those who have grappled with ideas like deter-
-rence, being motivated largely by immediate problems, have not
-primarily been concerned with the cumulative process of develop-
-ing a theoretical structure. This seems to be true not only of
+Furthermore, those who have grappled with ideas like deterrence, being motivated largely by immediate problems, have not
+primarily been concerned with the cumulative process of developing a theoretical structure. This seems to be true not only of
 policy-makers and journalists but of the more scholarly as well.
 Whetherit reflects the scholars’ interests or that of the editors,
 the literature on deterrence and related concepts has been mainly
 preoccupied with solving immediate problems rather than with a
 methodology for dealing with problems.? We do not even have a
 *There are some excellent examples to the contrary, like C. W. Sherwin,
-“Securing Peace Through Military Technology,” Bulletin of the Atomic Scien-
-tists, 12:159-164 (May 1956).
+“Securing Peace Through Military Technology,” Bulletin of the Atomic Scientists, 12:159-164 (May 1956).
 And Sherwin’s reference there to a paper by
-Warren Amster reminds us that when theory is stimulated by military prob-
-lems, as so much ofit currently is, it may not receive open publication. There
+Warren Amster reminds us that when theory is stimulated by military problems, as so much ofit currently is, it may not receive open publication. There
 are
 undoubtedly,
 also,
@@ -493,8 +408,6 @@ Problems.
 The recent devotion of an entire issue of Conflict Resolution to
 Anatol Rapoport’s magnificent essay on “Lewis F. Richardson’s Mathematical
 
-
-8
 ELEMENTS OF A THEORY OF STRATEGY
 decent terminology; occasional terms like “active” and “passive”
 deterrence do not begin to fill the need.
@@ -505,9 +418,7 @@ identifiable academic counterpart. Those who makepolicy in the
 fields of economics, medicine, public health, soil conservation,
 education, or criminal law, can readily identify their scholarly
 counterpart in the academic world. (In economics the numberof
-trained people who are doing research and writing books com-
-pares well with the number engaged in economic policy or ad-
-ministration.)
+trained people who are doing research and writing books compares well with the number engaged in economic policy or administration.)
 But where
 is the academic counterpart of the
 military profession ?
@@ -517,13 +428,11 @@ these are undergraduate schools, devoted mainly
 to teaching
 rather than to research. Not —or not yet on any great scale —
 in the war colleges and other nontechnical advanced educational
-institutions within the military services; these have not yet de-
-veloped the permanent faculty, the research orientation, and the
+institutions within the military services; these have not yet developed the permanent faculty, the research orientation, and the
 value system required for sustained and systematic theoretical
 development.
 Within the universities, military strategy in this country has
-been the preoccupation of a small numberof historians and polit-
-ical scientists, supported on a scale that suggests that deterring
+been the preoccupation of a small numberof historians and political scientists, supported on a scale that suggests that deterring
 the Russians from a conquest of Europe is about as important as
 enforcing the antitrust laws. This is said not to disparage the
 accomplishments, but to emphasize that within the universities
@@ -543,22 +452,18 @@ other direction.
 
 
 INTERNATIONAL STRATEGY
-9
-research institutions like The RAND Corporation and the In-
-stitute for Defense Analysis are importantly helping to fill the
+
+research institutions like The RAND Corporation and the Institute for Defense Analysis are importantly helping to fill the
 need but, for our purpose, can be cited as evidence of the need.
 One may ask whether the military services themselves might
 not be able to produce a growing body of theory to illuminate
 ideas like deterrence or limited war. After all, theory does not
 have to be developed solely by specialists isolated in universities.
-If the military services are intellectually prepared to make ef-
-fective use of military force, it might seem that they are equipped
+If the military services are intellectually prepared to make effective use of military force, it might seem that they are equipped
 to theorize about it. But here a useful distinction can be made
-between the application of force and the threat of force. Deter-
-rence is concerned with the exploitation of potential force. It is
+between the application of force and the threat of force. Deterrence is concerned with the exploitation of potential force. It is
 concerned with persuading a potential enemy that he should in
-his own interest avoid certain courses of activity. There is an im-
-poitant difference between the intellectual skills required
+his own interest avoid certain courses of activity. There is an impoitant difference between the intellectual skills required
 for
 carrying out a military mission and for using potential military
 capability to pursue a nation’s objectives. A theory of deterrence
@@ -607,49 +512,37 @@ no time at either place for study of the long development of military thought
 and theory.
 .
 .
-. If ever more extensive periods of higher training become pos-
-sible in our Army — periods of two or three years’ duration — the greatest of
+. If ever more extensive periods of higher training become possible in our Army — periods of two or three years’ duration — the greatest of
 the military thinkers would surely deserve a course of study in themselves”
 (pp. xi-xii).
 
-
-10
 ELEMENTS OF A THEORY OF STRATEGY
 other participants to do. A deterrent threat meets this definition
 nicely; it works only because of what the other player expects us
 to do in response to his choice of moves, and we can afford to
 make the threat only because we expect it to have an influence
 on his choice. But in international strategy the promise of game
-theory is so far unfulfilled. Game theory has been extremely help-
-ful in the formulation of problems and theclarification of con-
-cepts, but its greatest successes have been in otherfields. It has,
+theory is so far unfulfilled. Game theory has been extremely helpful in the formulation of problems and theclarification of concepts, but its greatest successes have been in otherfields. It has,
 on the whole, been pitched at a level of abstraction where it has
 madelittle contact with the elements of a problem like deterrence.‘
 The idea of deterrence figures so prominently in someareas of
-conflict other than international affairs that one might have sup-
-posed the existence of a well-cultivated theory already available
+conflict other than international affairs that one might have supposed the existence of a well-cultivated theory already available
 to be exploited for international applications. Deterrence has
 been an important concept in criminal law for a long time.
 Legislators, jurists, lawyers, and legal scholars might be supposed
 to have subjected the concept to rigorous and systematic scrutiny
-for manygenerations. To be sure, deterrence is not the sole con-
-sideration involved in criminal law, nor even necessarily the most
+for manygenerations. To be sure, deterrence is not the sole consideration involved in criminal law, nor even necessarily the most
 important;
 still, it has figured prominently enough for one to
 suppose the existence of a theory that would take into account
-the kinds and sizes of penalties available to be imposed on a con-
-victed criminal, the potential criminal’s value system, the profit-
-ability of crime, the law-enforcement system’s ability to appre-
-hend criminals and to get them convicted, the criminal’s aware-
-ness of the law and of the probability of apprehension and
+the kinds and sizes of penalties available to be imposed on a convicted criminal, the potential criminal’s value system, the profitability of crime, the law-enforcement system’s ability to apprehend criminals and to get them convicted, the criminal’s awareness of the law and of the probability of apprehension and
 conviction, the extent
 to which different types of crime are
 motivated by rational calculation, the resoluteness of society
 to be neither niggardly nor soft-hearted in the expensive and
 disagreeable application of the penalty and how well this reso-
 “Jessie Bernard, writing on “The Theory of Games as a Modern Sociology
-of Conflict,” gives a somewhat similar appraisal but adds that “we may ex-
-pect that the mathematics required to make a fruitful application of the theorv
+of Conflict,” gives a somewhat similar appraisal but adds that “we may expect that the mathematics required to make a fruitful application of the theorv
 of games to sociological phenomena will emerge in the not-too-distant future”
 (The American Journal of Sociology, 59:418, March 1954). My own view is
 that the present deficiencies are not in the mathematics, and that the theory
@@ -658,7 +551,7 @@ the subject as though it were, or should be, solely a branch of mathematics,
 
 
 INTERNATIONAL STRATEGY
-11
+
 Juteness (or lack of it) is known to the criminal, the likelihood
 of mistakes in the system, the possibilities for third parties
 to exploit the system for personal gain, the role of communication
@@ -666,42 +559,34 @@ between organized society and the criminal, the organization of
 criminals to defeat the system, and so on.
 It is not only criminals, however, but our own children that
 have to be deterred. Some aspects of deterrence stand out vividly
-in child discipline: the importance of rationality and self-disci-
-pline on the part of the person to be deterred, of his ability to
+in child discipline: the importance of rationality and self-discipline on the part of the person to be deterred, of his ability to
 comprehendthe threat if he hears it and to hear it through the
 din and noise, of the threatener’s determination to fulfill the
 threat
 if need be—and, more important,
 of the threatened
 party’s conviction that the threat will be carried out. Clearer
-perhaps in child discipline than in criminal deterrence is the im-
-portant possibility that the threatened punishmentwill hurt the
+perhaps in child discipline than in criminal deterrence is the important possibility that the threatened punishmentwill hurt the
 threatener as muchas it will the one threatened, perhaps more.
 There is an analogy between a parent’s threat to a child and the
 threat that a wealthy paternalistic nation makes to the weak and
-disorganized governmentof a poor nation in, say, extending for-
-eign aid and demanding “sound” economic policies or cooperative
+disorganized governmentof a poor nation in, say, extending foreign aid and demanding “sound” economic policies or cooperative
 military policies in return.
 And the analogy reminds us that, even in international affairs,
 deterrence is as relevant to relations between friends as between
 potential enemies. (The threat to withdraw to a “peripheral
-Strategy” if France failed to ratify the European Defense Com-
-munity Treaty was subject to many of the same disabilities
+Strategy” if France failed to ratify the European Defense Community Treaty was subject to many of the same disabilities
 as a threat of retaliation.) The deterrence concept requires that
 there be both conflict and common interest between the parties
-involved; it is as inapplicable to a situation of pure and com-
-plete antagonism of interest as it is to the case of pure and
+involved; it is as inapplicable to a situation of pure and complete antagonism of interest as it is to the case of pure and
 Complete common interest. Between these extremes, deterring
 an ally and deterring an enemydiffer only by degrees, and in fact
 we may have to develop a more coherent theory before we can
 even say in a meaningful way whether we have more in common
 with Russia or with Greece, relative to the conflicts between us.°
-*It may be important to emphasize that, in referring to a “common in-
-terest,” I do not mean that they must have whatis usually referred to as a
+*It may be important to emphasize that, in referring to a “common interest,” I do not mean that they must have whatis usually referred to as a
 Similarity in their value systems. They may just be in the same boat together:
 
-
-12
 ELEMENTS OF A THEORY OF STRATEGY
 The deterrence idea also crops up casually in everydayaffairs.
 Automobile drivers have an evident commoninterest in avoiding
@@ -710,26 +595,19 @@ shall slam on his brakes andlet the other through. Collision being
 about as mutual as anything can be, and often the only thing that
 one can threaten, the maneuvers by which one conveys a threat
 of mutual damageto another driver aggressing on one’s right of
-way are an instructive example of the kind of threat that is con-
-veyed not by words but byactions, and of the threat in which the
-pledge to fulfill is made not by verbal announcement but by los-
-ing the powerto do otherwise.
+way are an instructive example of the kind of threat that is conveyed not by words but byactions, and of the threat in which the
+pledge to fulfill is made not by verbal announcement but by losing the powerto do otherwise.
 Finally, there is the important area of the underworld. Gang
-warandinternational war have a lot in common. Nations and out-
-laws both lack enforceable legal systems to help themgoverntheir
+warandinternational war have a lot in common. Nations and outlaws both lack enforceable legal systems to help themgoverntheir
 affairs. Both engage in the ultimate in violence. Both have an
-interest in avoiding violence, but the threat of violence is con-
-tinually on call. It is interesting that racketeers, as well as gangs
-of delinquents, engage in limited war, disarmament and disen-
-gagement, surprise attack, retaliation and threat of retaliation;
+interest in avoiding violence, but the threat of violence is continually on call. It is interesting that racketeers, as well as gangs
+of delinquents, engage in limited war, disarmament and disengagement, surprise attack, retaliation and threat of retaliation;
 they worry about “appeasement” and loss of face; and they
 make alliances and agreements with the same disability that
-nations are subject to—the inability to appeal to higher au-
-thority in the interest of contract enforcement.
+nations are subject to—the inability to appeal to higher authority in the interest of contract enforcement.
 There are consequently a number of other areas available for
 study that may yield insight into the one that concerns us, the
-international area. Often a principle that in our own field of in-
-terest is hidden in a mass of detail, or has too complicated a
+international area. Often a principle that in our own field of interest is hidden in a mass of detail, or has too complicated a
 structure, or that we cannot see because of a predisposition, is
 easier to perceive in another field where it enjoys simplicity and
 vividness or where weare not blinded by our predispositions. It
@@ -755,128 +633,99 @@ exploits that potential commoninterest.
 
 
 INTERNATIONAL STRATEGY
-13
+
 a Mossadeq bythe use of threats when oneis fresh from a vain
 attempt at using threats to keep a small child from hurting a dog
 or a small dog from hurtinga child.
-None of these other areas of conflict seems to have been mas-
-tered by a well-developed theory that can, with modification, be
-used in the analysis of international affairs. Sociologists, includ-
-ing those who study criminal behavior in underworld conflict,
+None of these other areas of conflict seems to have been mastered by a well-developed theory that can, with modification, be
+used in the analysis of international affairs. Sociologists, including those who study criminal behavior in underworld conflict,
 have not traditionally been much concerned with what we would
 call the strategy of conflict. Nor does the literature on law and
 criminology reveal an appreciable body of explicit theory on the
 subject. I cannot confidently assert that there are no handbooks,
 textbooks, or original works on the pure theory of blackmail
-circulating in the underworld; but certainly no expurgated ver-
-sion, showing how to use extortion and howtoresist it, has shown
+circulating in the underworld; but certainly no expurgated version, showing how to use extortion and howtoresist it, has shown
 up as “New Ways in Child Guidance,” in spite of the demand
 forit.®
 What would “theory”in this field of strategy consist of ? What
 questions would it try to answer? What ideas would it try to
 unify, clarify, or communicate moreeffectively? To begin with,
 it should define the essentials of the situation and of the behavior
-in question. Deterrence — to continue with deterrence as a typi-
-cal strategic concept — is concerned with influencing the choices
+in question. Deterrence — to continue with deterrence as a typical strategic concept — is concerned with influencing the choices
 that another party will make, and doing it by influencing his
 expectations of how we will behave. It involves confronting him
 with evidence for believing that our behavior will be determined
 by his behavior.
-But what configuration of value systems for the two partici-
-pants —of the “payoffs,” in the language of game theory —
-makes a deterrent threat credible? How do we measure the mix-
-ture of conflict and commoninterest required to generate a “de-
-terrence” situation? What communication is required, and what
+But what configuration of value systems for the two participants —of the “payoffs,” in the language of game theory —
+makes a deterrent threat credible? How do we measure the mixture of conflict and commoninterest required to generate a “deterrence” situation? What communication is required, and what
 Meansof authenticating the evidence communicated ? What kind
-of “rationality” is required of the party to be deterred — a knowl-
-edge of his own value system, an ability to perceive alternatives
+of “rationality” is required of the party to be deterred — a knowledge of his own value system, an ability to perceive alternatives
 *Progress is being made. Daniel Ellsberg included a lecture on “The Theory
 and Practice of Blackmail,” and one on “The Political Uses of Madness,” in
 1s series on “The Art of Coercion,” sponsored by the Lowell Institute, Boston,
 March 1959.
 
-
-14
 ELEMENTS OF A THEORY OF STRATEGY
 and to calculate with probabilities, an ability to demonstrate (or
 an inability to conceal) his own rationality ?
-Whatis the need for trust, or enforcement of promises? Specifi-
-cally, in addition to threatening damage, need one also guarantee
+Whatis the need for trust, or enforcement of promises? Specifically, in addition to threatening damage, need one also guarantee
 to withhold the damage if compliance is forthcoming; or does
 this depend on the configuration of “payoffs” involved? What
 “legal system,” communication system, or information
-struc-
-ture is needed to make the necessary promises enforceable?
+structure is needed to make the necessary promises enforceable?
 Can one threaten that he will “probably” fulfill a threat; or
 musthe threaten that he certainly will? What is the meaning of a
 threat that one will “probably”fulfill when it is clear that, if he
 retained any choice, he’d have noincentive to fulfill it after the
-act? More generally, what are the devices by which one gets com-
-mitted to fulfillment that he would otherwise be knownto shrink
+act? More generally, what are the devices by which one gets committed to fulfillment that he would otherwise be knownto shrink
 from, considering that if a commitment makesthe threat credible
-enough to beeffective it need not be carried out. Whatis the dif-
-ference, if any, between a threat that deters action and one that
+enough to beeffective it need not be carried out. Whatis the difference, if any, between a threat that deters action and one that
 compels action, or a threat designed to safeguard a second party
 from his own mistakes? Are there any logical differences among
 deterrent, disciplinary, and extortionate threats ?
 Howis the situation affected by a third participant, who has
-his own mixture of conflict and common interest with those al-
-ready present, who has access to or control of the communication
+his own mixture of conflict and common interest with those already present, who has access to or control of the communication
 system, whose behavior is rational or irrational in one sense or
-another, who enjoys trust or some means of contract enforce-
-ment with one or another of the two principals? How are these
+another, who enjoys trust or some means of contract enforcement with one or another of the two principals? How are these
 questions affected by the existence of a legal system that permits
 and prohibits certain actions, that is available to inflict penalty
-on nonfulfillment of contract, or that can demand authentic in-
-formation from the participants. To what extent can we ration-
-alize concepts like “reputation,” “face,” or “trust,” in terms of a
+on nonfulfillment of contract, or that can demand authentic information from the participants. To what extent can we rationalize concepts like “reputation,” “face,” or “trust,” in terms of a
 real or hypothetical legal system, in terms of modification of the
 participants’ value systems, or in terms of relationships of the
-players concerned to additional participants, real or hypotheti-
-cal?
+players concerned to additional participants, real or hypothetical?
 This brief sample of questions may suggest that there is scope
 for the creation of “theory.” There is something here that looks
 like a mixture of game theory, organization theory, communica-
 
 
 INTERNATIONAL STRATEGY
-15
+
 tion theory, theory of evidence, theory of choice, and theory of
 collective decision. It is faithful to our definition of “strategy”:
 it takes conflict for granted, but also assumes commoninterest
-between the adversaries; it assumes a “rational” value-maximiz-
-ing mode of behavior; and
+between the adversaries; it assumes a “rational” value-maximizing mode of behavior; and
 it focuses on the fact that each
-participant’s “best” choice of action depends on what he ex-
-pects the other to do, and that “strategic behavior” is concerned
+participant’s “best” choice of action depends on what he expects the other to do, and that “strategic behavior” is concerned
 with influencing another’s choice by working on his expectation
 of how one’s own behavioris related to his.
 There are two points worth stressing. One
 is that, though
-“strategy of conflict” sounds cold-blooded, the theory is not con-
-cerned with theefficient application of violence or anything of the
+“strategy of conflict” sounds cold-blooded, the theory is not concerned with theefficient application of violence or anything of the
 sort; it is not essentially a theory of aggression or of resistance
 or of war. Threats of war, yes, or threats of anything else; but it
 is the employment of threats, or of threats and promises, or more
-generally of the conditioning of one’s own behavior on the be-
-havior of others, that the theory is about.
+generally of the conditioning of one’s own behavior on the behavior of others, that the theory is about.
 Second, such a theory
 is nondiscriminatory as between the
 conflict and the common interest, as between its applicability to
 potential enemies and its applicability to potential friends. The
 theory degenerates at one extremeif there is no scope for mutual
-accommodation, no common interest at all even in avoiding mu-
-tual disaster; it degenerates at the other extreme if there is no
-conflict at all and no problem in identifying and reaching com-
-mon goals. But in the area between those two extremesthe theory
-is noncommittal about the mixture of conflict and common in-
-terest; we can equally well call it the theory of precarious part-
-nership or the theory of incomplete antagonism.” (In Chapter 9
-it is pointed out that some central aspects of the problem ofsur-
-prise attack in international affairs are structurally identical with
+accommodation, no common interest at all even in avoiding mutual disaster; it degenerates at the other extreme if there is no
+conflict at all and no problem in identifying and reaching common goals. But in the area between those two extremesthe theory
+is noncommittal about the mixture of conflict and common interest; we can equally well call it the theory of precarious partnership or the theory of incomplete antagonism.” (In Chapter 9
+it is pointed out that some central aspects of the problem ofsurprise attack in international affairs are structurally identical with
 the problem of mutually suspicious partners.)
-Both of these points — the neutrality of the theory with re-
-Spect to the degree of conflict involved, and the definition of
+Both of these points — the neutrality of the theory with reSpect to the degree of conflict involved, and the definition of
 “strategy” as concerned with constraining an adversary through
 "In using the word “threat” I have not intended any necessarily aggressive
 or hostile connotations. In an explicit negotiation between friends or in tacit
@@ -884,22 +733,17 @@ Cooperation between them, the threat of disagreement or of reduced cooperation,
 expressed or implied, is a sanction by which they support their demands, just as
 &@ commercial transaction an offer is enforced by threat of “no sale.”
 
-
-16
 ELEMENTS OF A THEORY OF STRATEGY
 his expectation of the consequences of his actions — suggest that
 we mightcall our subject the theory of interdependent decision.
 Threats and responses
 to
-threats, reprisals and counter-re-
-prisals, limited war, arms races, brinkmanship, surprise attack,
-trusting and cheating can be viewed as either hot-headedor cool-
-headed activities. In suggesting that they can usefully be viewed,
+threats, reprisals and counter-reprisals, limited war, arms races, brinkmanship, surprise attack,
+trusting and cheating can be viewed as either hot-headedor coolheaded activities. In suggesting that they can usefully be viewed,
 in the development of theory, as cool-headed activities, it is not
 asserted that they are in fact entirely cool-headed. Rather it is
 asserted that the assumption of rational behavior is a productive
-one in the generation of systematic theory. If behavior were ac-
-tually cool-headed, valid and relevant theory would probably be
+one in the generation of systematic theory. If behavior were actually cool-headed, valid and relevant theory would probably be
 easier to create than it actually is. If we view our results as a
 bench mark for further approximation to reality, not as a fully
 adequate theory, we should manage to protect ourselves from the
@@ -909,30 +753,21 @@ participants coolly and “rationally” calculate their advantages
 according to a consistent value system forces us to think more
 thoroughly about the meaning of “irrationality.” Decision-makers
 are not simply distributed along a one-dimensional scale that
-stretches from complete rationality at one end to complete ir-
-rationality at the other. Rationality is a collection of attributes,
-and departures from complete rationality may be in manydif-
-ferent directions. Irrationality can imply a disorderly and incon-
-sistent value system, faulty calculation, an inability to receive
+stretches from complete rationality at one end to complete irrationality at the other. Rationality is a collection of attributes,
+and departures from complete rationality may be in manydifferent directions. Irrationality can imply a disorderly and inconsistent value system, faulty calculation, an inability to receive
 messages or to communicateefficiently; it can imply random or
-haphazard influences in the reaching of decisions or the trans-
-mission of them, or in the receipt or conveyance of information;
-and it sometimes merely reflects the collective nature of a deci-
-sion among individuals who do not have identical value systems
-and whose organizational arrangements and communication sys-
-tems do not cause them to actlike a single entity.
+haphazard influences in the reaching of decisions or the transmission of them, or in the receipt or conveyance of information;
+and it sometimes merely reflects the collective nature of a decision among individuals who do not have identical value systems
+and whose organizational arrangements and communication systems do not cause them to actlike a single entity.
 As a matter of fact, many of the critical elements that go into
 a model of rational behavior can be identified with particular
-types of rationality or irrationality. The value system, the com-
-munication system, the information system, the collective deci-
-sion process, or a parameter representing the probability of error
+types of rationality or irrationality. The value system, the communication system, the information system, the collective decision process, or a parameter representing the probability of error
 
 
 INTERNATIONAL STRATEGY
-17
+
 or loss of control, can be viewed as an effort to formalize the
-study of “irrationality.” Hitler, the French Parliament, the com-
-mander
+study of “irrationality.” Hitler, the French Parliament, the commander
 of a bomber,
 the radar
 operators
@@ -944,62 +779,44 @@ Some of them can be accounted for within a theory of rational
 behavior. (Even the neurotic, with inconsistent values and no
 method of reconciling them, motivated to suppress rather than to
 reconcile his conflicting goals, may for some purposes be viewed
-as a pair of “rational” entities with distinct value systems, reach-
-ing collective decisions through a voting process that has some
+as a pair of “rational” entities with distinct value systems, reaching collective decisions through a voting process that has some
 haphazard or random element, asymmetrical communications,
 andso forth.)
 The apparent restrictiveness of an assumption of “rational”
-behavior — of a calculating, value-maximizing strategy of deci-
-sion — is mitigated by two additional observations. One, which
-I can only allege at second hand,is that even among the emo-
-tionally unbalanced, among
+behavior — of a calculating, value-maximizing strategy of decision — is mitigated by two additional observations. One, which
+I can only allege at second hand,is that even among the emotionally unbalanced, among
 thecertified “irrationals,” there is
 often observed an intuitive appreciation of the principles of
 strategy, or at least of particular applications of them. I am told
-that inmates of mental hospitals often seem to cultivate, deliber-
-ately or instinctively, value systems that make them less sus-
-ceptible to disciplinary threats and more capable of exercising
+that inmates of mental hospitals often seem to cultivate, deliberately or instinctively, value systems that make them less susceptible to disciplinary threats and more capable of exercising
 coercion themselves. A careless or even self-destructive attitude
 toward injury —“T’ll cut a vein in my arm
 if you don’t let
-me .. .”’—can be a genuine strategic advantage; so can a culti-
-vated inability to hear or to comprehend,or a reputation for fre-
-quentlapses of self-control that make punitive threats ineffectual
+me .. .”’—can be a genuine strategic advantage; so can a cultivated inability to hear or to comprehend,or a reputation for frequentlapses of self-control that make punitive threats ineffectual
 as deterrents. (Again I am reminded of my children.) As a matter
 of fact, one of the advantages of an explicit theory of “rational”
-Strategic decision in situations of mixed conflict and commonin-
-terest is that, by showing the strategic basis of certain paradoxi-
-cal tactics, it can display how sound andrational someofthetac-
-tics are that are practiced by the untutored and the infirm. It may
+Strategic decision in situations of mixed conflict and commoninterest is that, by showing the strategic basis of certain paradoxical tactics, it can display how sound andrational someofthetactics are that are practiced by the untutored and the infirm. It may
 hot be an exaggeration to say that our sophistication sometimes
 Suppresses sound intuitions, and one of the effects of an explicit
 theory may be to restore some intuitive notions that were only
 Superficially “irrational.”
 
-
-18
 ELEMENTS OF A THEORY OF STRATEGY
-The second observation is related to the first. It is that an ex-
-plicit theory of “rational” decision, and of the strategic conse-
-quences of such decisions, makes perfectly clear that it is not a
+The second observation is related to the first. It is that an explicit theory of “rational” decision, and of the strategic consequences of such decisions, makes perfectly clear that it is not a
 universal advantage in situations of conflict to be inalienably and
 manifestly rational in decision and motivation. Many of the
 attributes of rationality, as in several illustrations mentioned
 earlier, are strategic disabilities in certain conflict situations. It
 may be perfectly rational to wish oneself not altogether rational,
 or —if that language is philosophically objectionable — to wish
-for the power to suspend certain rational capabilities in par-
-ticular situations. And one cam suspend or destroy his own “ra-
-tionality,” at least to a limited extent; one can do this because
+for the power to suspend certain rational capabilities in particular situations. And one cam suspend or destroy his own “rationality,” at least to a limited extent; one can do this because
 the attributes that go to make uprationality are not inalienable,
-deeply personal, integral attributes of the human soul, but in-
-clude such things as one’s hearing aid, the reliability of the mails,
+deeply personal, integral attributes of the human soul, but include such things as one’s hearing aid, the reliability of the mails,
 the legal system, and the rationality of one’s agents and partners.
 In principle, one might evade extortion equally well by drugging
 his brain, conspicuously isolating himself geographically, getting
 his assets legally impounded, or breaking the hand that he uses
-in signing checks. In a theory of strategy, several of these de-
-fenses can be represented as impairments of rationality if we wish
+in signing checks. In a theory of strategy, several of these defenses can be represented as impairments of rationality if we wish
 to represent them so. A theory that makesrationality an explicit
 postulate is able not only to modify the postulate and examine
 its meaning but to take someof the mystery outof it. As a matter
@@ -1007,51 +824,41 @@ of fact, the paradoxical role of “rationality” in these conflict
 situations is evidence of the likely help that a systematic theory
 could provide.
 And the results reached by a theoretical analysis of strategic
-behavior are often somewhat paradoxical; they often do contra-
-dict commonsense or accepted rules. It is not true, as illustrated
-in the example of extortion, that in the face of a threat it is in-
-variably an advantage to be rational, particularly if the fact of
-being rational or irrational cannot be concealed. It is not invari-
-ably an advantage, in the face of a threat, to have a communica-
-tion system in good order, to have complete information, or to
+behavior are often somewhat paradoxical; they often do contradict commonsense or accepted rules. It is not true, as illustrated
+in the example of extortion, that in the face of a threat it is invariably an advantage to be rational, particularly if the fact of
+being rational or irrational cannot be concealed. It is not invariably an advantage, in the face of a threat, to have a communication system in good order, to have complete information, or to
 be in full command of one’s own actions or of one’s own assets.
 Mossadeq and my small children have already been referred to;
 but the sametactic is illustrated by the burning of bridges behind
 
 
 INTERNATIONAL STRATEGY
-19
+
 oneself to persuade an adversary that one cannot be induced to
 retreat. An old English law that made it a serious crime to pay
 tribute to coastal pirates does not necessarily appear either cruel
 or anomalousin the light of a theory of strategy. It is interesting
-that political democracyitself relies on a particular communica-
-tion system in which the transmittal of authentic evidence is
+that political democracyitself relies on a particular communication system in which the transmittal of authentic evidence is
 precluded: the mandatory secret ballot is a scheme to deny the
 voter any means of proving which way he voted. Being stripped
 of his power to prove how he voted, he is stripped of his power
-to be intimidated. Powerless to prove whether or not he com-
-plied with a threat, he knows—and so do those who would
+to be intimidated. Powerless to prove whether or not he complied with a threat, he knows—and so do those who would
 threaten him — that any punishment would be unrelated to the
 way he actually voted.
-The well-known principle that one should pick good nego-
-tiators to represent him and then give them complete flexibility
+The well-known principle that one should pick good negotiators to represent him and then give them complete flexibility
 and authority—-a principle commonly voiced by negotiators
 themselves —is by no means
 asself-evident as its proponents
-suggest; the power of a negotiator often rests on a manifest in-
-ability to make concessions and to meet demands.® Similarly,
+suggest; the power of a negotiator often rests on a manifest inability to make concessions and to meet demands.® Similarly,
 while prudence suggests leaving open a way of escape when one
 threatens an adversary with mutually painful reprisal, any visible
 means of escape may make the threat less credible. The very
-notion that it may be a strategic advantage to relinquish cer-
-tain options deliberately, or even to give up all control over one’s
+notion that it may be a strategic advantage to relinquish certain options deliberately, or even to give up all control over one’s
 future actions and make his responses automatic, seems to be
 a hard one to swallow.
 Many of these examples involve some denial of the value of
 skill, resourcefulness, rationality, knowledge, control, or freedom
-of choice. They are all, in principle, valid in certain circum-
-Stances; but seeing through their strangeness and comprehending
+of choice. They are all, in principle, valid in certain circumStances; but seeing through their strangeness and comprehending
 the logic behind them
 is often a good deal easier
 if one has
@@ -1066,12 +873,9 @@ for
 example, T. C. Schelling, “American Foreign Assistance,” World Politics (July
 1955), pp. 614-15.
 
-
-20
 ELEMENTS OF A THEORY OF STRATEGY
 cerns the relative virtues of clean and dirty bombs. Bernard
-Brodie has pointed out that when one considers the special re-
-quirements of deterrence, in contrast to the requirements of a
+Brodie has pointed out that when one considers the special requirements of deterrence, in contrast to the requirements of a
 war that one expects to fight, one may see some utility in the
 super-dirty bomb.® As remarked in Chapter 10, this conclusion
 is not so strange if we recognize the “balance of terror” as simply
@@ -1085,55 +889,38 @@ good faith, and mutual respect. To the extent that this point
 of view actually encourages trust and respectit is good. But where
 trust and good faith do not exist and cannot be made to by our
 acting as though they did, we may wish to solicit advice from the
-underworld, or from ancient despotisms, on how to makeagree-
-ments work when trust and good faith are lacking and there
-is no legal recourse for breach of contract. The ancients ex-
-changed hostages, drank wine from the sameglass to demonstrate
-the absence of poison, met in public places to inhibit the mas-
-sacre of one by the other, and even deliberately exchanged spies
+underworld, or from ancient despotisms, on how to makeagreements work when trust and good faith are lacking and there
+is no legal recourse for breach of contract. The ancients exchanged hostages, drank wine from the sameglass to demonstrate
+the absence of poison, met in public places to inhibit the massacre of one by the other, and even deliberately exchanged spies
 to facilitate transmittal of authentic information. It seemslikely
 that a well-developed theory of strategy could throw light on the
 efficacy of some of those old devices, suggest the circumstances to
 which they apply, and discover modern equivalents that, though
-offensive to our taste, may be desperately needed in the regula-
-tion of conflict.
+offensive to our taste, may be desperately needed in the regulation of conflict.
 * Compare p. 239 below.
 
-
-2
 AN ESSAY ON BARGAINING
-This chapter presents a tactical approach to the analysis of bar-
-gaining. The subject includes both explicit bargaining and the
+This chapter presents a tactical approach to the analysis of bargaining. The subject includes both explicit bargaining and the
 tacit kind in which adversaries watch and interpret each other’s
 behavior, each aware that his own actions are being interpreted
 and anticipated, each acting with a view to the expectations that
 he creates. In economics the subject covers wage negotiations,
-tariff negotiations, competition where competitors are few, settle-
-ments out of court, and the real estate agent and his customer.
-Outside economics it ranges from the threat of massive retalia-
-tion to taking the right of way from a taxi.
-Our concern will not be with the part of bargaining that con-
-sists of exploring for mutually profitable adjustments, and that
-might be called the “efficiency” aspect of bargaining. For ex-
-ample, can an insurance firm save money, and make client
+tariff negotiations, competition where competitors are few, settlements out of court, and the real estate agent and his customer.
+Outside economics it ranges from the threat of massive retaliation to taking the right of way from a taxi.
+Our concern will not be with the part of bargaining that consists of exploring for mutually profitable adjustments, and that
+might be called the “efficiency” aspect of bargaining. For example, can an insurance firm save money, and make client
 happier, by offering a cash settlement rather than repairing the
 client’s car; can an employer save moneyby granting a voluntary
 wage increase to employees who agree to take a substantial part
 of their wages in merchandise? Instead, we shall be concerned
-with what might be called the “distributional” aspect of bar-
-gaining: the situations in which a better bargain for one means
-less for the other. When the businessis finally sold to the one in-
-terested buyer, what price does it go for? When two dynamite
+with what might be called the “distributional” aspect of bargaining: the situations in which a better bargain for one means
+less for the other. When the businessis finally sold to the one interested buyer, what price does it go for? When two dynamite
 trucks meet on a road wide enough for one, who backs up?
 These are situations that ultimately involve an element of pure
 bargaining — bargaining in which each party is guided mainly
 by his expectations of what the other will accept. But with each
-Guided by expectations and knowing that the other is too, ex-
-Pectations become compounded. A bargain is struck when some-
-body makes a final, sufficient concession. Why does he concede?
+Guided by expectations and knowing that the other is too, exPectations become compounded. A bargain is struck when somebody makes a final, sufficient concession. Why does he concede?
 
-
-22
 ELEMENTS OF A THEORY OF STRATEGY
 Because he thinks the other will not. “I must concede because
 he won’t. He won’t because he thinks I will. He thinks I will
@@ -1154,9 +941,7 @@ The purpose of this chapter is to call attention to an important
 class of tactics, of a kind that is peculiarly appropriate to the
 logic of indeterminate situations. The essence of these tactics is
 some voluntary but irreversible sacrifice of freedom of choice.
-They rest on the paradox that the power to constrain an adver-
-sary may depend on the powerto bind oneself; that, in bargain-
-ing, weakness is often strength, freedom may be freedom to
+They rest on the paradox that the power to constrain an adversary may depend on the powerto bind oneself; that, in bargaining, weakness is often strength, freedom may be freedom to
 capitulate, and to burn bridges behind one maysuffice to undo
 an opponent.
 BARGAINING POWER: THE POWER TO BIND ONESELF
@@ -1166,8 +951,7 @@ the skillful. It does, of course, if those qualities are defined to
 mean only that negotiations are won by those who win. But,if
 the terms imply that it is an advantage to be moreintelligent or
 more skilled in debate, or to have more financial] resources, more
-physical strength, more military potency, or moreability to with-
-stand losses, then the term does a disservice. These qualities are
+physical strength, more military potency, or moreability to withstand losses, then the term does a disservice. These qualities are
 by no meansuniversal advantages in bargaining situations; they
 often have a contrary value.
 The sophisticated negotiator may find it difficult to seem as
@@ -1177,15 +961,10 @@ he is more likely to get the $10 if his eyes are bloodshot. The
 
 
 AN ESSAY ON BARGAINING
-23
+
 threat of mutual destruction cannot be used to deter an adversary
 who is too unintelligent to comprehend it or too weak to enforce
-his will on those he represents. The government that cannot con-
-trol its balance of payments, or collect taxes, or muster the politi-
-cal unity to defend itself, may enjoy assistance that would be de-
-nied it if it could control its own resources. And, to cite an ex-
-ample familiar from economic theory, “price leadership” in oli-
-gopoly may be an unprofitable distinction evaded by the small
+his will on those he represents. The government that cannot control its balance of payments, or collect taxes, or muster the political unity to defend itself, may enjoy assistance that would be denied it if it could control its own resources. And, to cite an example familiar from economic theory, “price leadership” in oligopoly may be an unprofitable distinction evaded by the small
 firms and assumed perforce by the large one.
 Bargaining powerhas also been described as the powerto fool
 and bluff, “the ability to set the best price for yourself and fool
@@ -1196,66 +975,53 @@ lie about his income or misrepresent the size of his family. The
 other is purely tactical. Suppose each knows everything about the
 other, and each knows what the other knows. What is there to
 fool about? The buyer may say that, though he’d really pay up
-to twenty and theseller knowsit, heis firmly resolved as a tacti-
-cal matter not to budge abovesixteen. If the seller capitulates,
+to twenty and theseller knowsit, heis firmly resolved as a tactical matter not to budge abovesixteen. If the seller capitulates,
 was he fooled? Or was he convinced of the truth? Or did the
 buyer really not know what he would do nextif the tactic failed?
 If the buyer really “feels” himself firmly resolved, and baseshis
 resolve on the conviction that the seller will capitulate, and the
-seller does, the buyer may say afterwards that he was “not fool-
-ing.” Whatever has occurred, it is not adequately conveyed by
+seller does, the buyer may say afterwards that he was “not fooling.” Whatever has occurred, it is not adequately conveyed by
 the notions of bluffing and fooling.
 How does one person make another believe something? The
 answer depends importantly on the factual question,“Is it true?”
 It is easier to prove the truth of something that is true than of
 something false. To prove the truth about our health we can call
-on a reputable doctor; to prove the truth about our costs or in-
-Come we maylet the person look at books that have been audited
+on a reputable doctor; to prove the truth about our costs or inCome we maylet the person look at books that have been audited
 by a reputable firm or the Bureau of Internal Revenue. But to
 Persuade him of something false we may have no such convincing
 evidence.
-‘J. N. Morgan, “Bilateral Monopoly and the Competitive Output,” Quer-
-terly Journal of Economics, 63:376n6 (August 1949).
+‘J. N. Morgan, “Bilateral Monopoly and the Competitive Output,” Querterly Journal of Economics, 63:376n6 (August 1949).
 
-
-24
 ELEMENTS OF A THEORY OF STRATEGY
 When one wishes to persuade someone that he would not pay
 more than $16,000 for a house thatis really worth $20,000 to him,
-what can he do to take advantage of the usually superior cred-
-ibility of the truth over a false assertion? Answer: makeit true.
+what can he do to take advantage of the usually superior credibility of the truth over a false assertion? Answer: makeit true.
 How can a buyer makeit true? If he likes the house becauseit is
 near his business, he might move his business, persuading the
 seller that the house is really now worth only $16,000 to him. This
 would be unprofitable; he is no better off than if he had paid the
 higher price.
-But suppose the buyer could make an irrevocable and en-
-forceable bet with somethird party, duly recorded andcertified,
+But suppose the buyer could make an irrevocable and enforceable bet with somethird party, duly recorded andcertified,
 according to which he would pay for the house no more than
 $16,000, or forfeit $5,000. The seller has lost; the buyer need
-simply present the truth. Unless the seller is enraged and with-
-holds the house in sheer spite, the situation has been rigged
-against him; the “objective” situation — the buyer’s true incen-
-tive has
+simply present the truth. Unless the seller is enraged and withholds the house in sheer spite, the situation has been rigged
+against him; the “objective” situation — the buyer’s true incentive has
 been
 voluntarily,
 conspicuously,
 and_
 irreversibly
-changed. Theseller can take it or leave it. This example demon-
-Strates that if the buyer can accept an irrevocable commitment,
+changed. Theseller can take it or leave it. This example demonStrates that if the buyer can accept an irrevocable commitment,
 in a way that
 is unambiguously visible to the seller, he can
 Squeeze the range
 of indeterminacy down to the point most
-favorable to him.It also suggests, by its artificiality, that the tac-
-tic is one that may or may not be available; whether the buyer
+favorable to him.It also suggests, by its artificiality, that the tactic is one that may or may not be available; whether the buyer
 can find an effective device for committing himself may depend
 on whoheis, whotheseller is, where they live, and a numberof
 legal and institutional arrangements (including, in our artificial
 example, whether bets are legally enforceable).
-If both men live in a culture where “cross my heart” is uni-
-versally accepted as potent, all the buyer has to dois allege that
+If both men live in a culture where “cross my heart” is universally accepted as potent, all the buyer has to dois allege that
 he will pay no more than $16,000, using this invocation of penalty,
 and he wins — or at least he wins if the seller does not beat him
 to it by shouting “$19,000, cross my heart.” If the buyer is an
@@ -1263,12 +1029,11 @@ agent authorized by a boardof directors to buy at $16,000 but not
 a cent more, and the directors cannot constitutionally meet again
 for several months and the buyer cannot exceed his authority,
 and if all this can be made knownto the seller, then the buyer
-“wins” —-if, again, the seller has not tied himself up with a com-
-mitment to $19,000. Or, if the buyer can assert that he will pay
+“wins” —-if, again, the seller has not tied himself up with a commitment to $19,000. Or, if the buyer can assert that he will pay
 
 
 AN ESSAY ON BARGAINING
-25
+
 no more than $16,000 so firmly that he would suffer intolerable
 loss of personal prestige or bargaining reputation by paying more,
 and if the fact of his paying more would necessarily be known,
@@ -1276,32 +1041,23 @@ and if the seller appreciates all this, then a loud declaration by
 itself may provide the commitment. The device, of course, is a
 needless surrenderofflexibility unless it can be made fully evident
 and understandable to theseller.
-Incidentally, some of the more contractual kinds of commit-
-ments are notas effective as they at first seem. In the example of
+Incidentally, some of the more contractual kinds of commitments are notas effective as they at first seem. In the example of
 the self-inflicted penalty through the bet, it remains possible for
 the seller to seek out the third party and offer a modest sum in
 consideration of the latter’s releasing the buyer from the bet,
-threatening to sell the house for $16,000 if the release is not forth-
-coming. The effect of the bet — as of most such contractual com-
-mitments — is to shift the locus and personnel of the negotiation,
-in the hope that the third party will be less available for negotia-
-tion or less subject to an incentive to concede. To put it dif-
-ferently, a contractual commitmentis usually the assumption of
+threatening to sell the house for $16,000 if the release is not forthcoming. The effect of the bet — as of most such contractual commitments — is to shift the locus and personnel of the negotiation,
+in the hope that the third party will be less available for negotiation or less subject to an incentive to concede. To put it differently, a contractual commitmentis usually the assumption of
 a contingent “transfer cost,” not a “real cost”; andif all interested
-parties can be brought into the negotiation the range of inde-
-terminacy remainsas it was. But if the third party were available
-only at substantial transportation cost, to that extent a truly ir-
-revocable commitment would have been assumed. (If bets were
+parties can be brought into the negotiation the range of indeterminacy remainsas it was. But if the third party were available
+only at substantial transportation cost, to that extent a truly irrevocable commitment would have been assumed. (If bets were
 made with a numberof people, the “real costs” of bringing them
 into the negotiation might be made prohibitive.) ?
 * Perhaps the “ideal” solution to the bilateral monopoly problem is as follows.
 One memberof the pair shifts his marginal cost curve so that joint profits are
-how zero at the output at which joint profits originally would have been maxi-
-mized. He does this through an irrevocable sale-leaseback arrangement;
+how zero at the output at which joint profits originally would have been maximized. He does this through an irrevocable sale-leaseback arrangement;
 hesells
 a royalty contract to some third party for a lump sum,the royalties so related
-to his output that joint costs exceed joint revenue at all other outputs. He can-
-not now afford to produce at any price or output except that price and output
+to his output that joint costs exceed joint revenue at all other outputs. He cannot now afford to produce at any price or output except that price and output
 at which the entire original joint profits accrue to him; the other memberof the
 bilateral monopoly sees the contract, appreciates the situation, and accepts his
 true minimum profits. The “winner” really gains the entire original profit via
@@ -1310,19 +1066,13 @@ incentives because it is independent of what he produces. The third party pays
 the lump sum (minus a small discount for inducement) because he knows that
 the second party will have to capitulate and that therefore he will in fact get
 his contingent royalty. The hitch is that the royalty-rights buyer must not be
-available to the “losing member”; otherwise the latter can force him to re-
-nhounce his royalty claim by threatening not to reach a bargain, thus restoring
+available to the “losing member”; otherwise the latter can force him to renhounce his royalty claim by threatening not to reach a bargain, thus restoring
 
-
-26
 ELEMENTS OF A THEORY OF STRATEGY
 The most interesting parts of our topic concern whether and
-how commitments can be taken; but it is worth while to con-
-sider briefly a model in which practical problems are absent —
-a world in which absolute commitments are freely available. Con-
-sider a culture in which “cross my heart”is universally recognized
-as absolutely binding. Any offer accompanied by this invoca-
-tion is a final offer, and is so recognized. If each party knows the
+how commitments can be taken; but it is worth while to consider briefly a model in which practical problems are absent —
+a world in which absolute commitments are freely available. Consider a culture in which “cross my heart”is universally recognized
+as absolutely binding. Any offer accompanied by this invocation is a final offer, and is so recognized. If each party knows the
 other’s true reservation price, the object is to be first with a firm
 offer. Complete responsibility for the outcomethen rests with the
 other, who can takeit or leave it as he chooses (and who chooses
@@ -1344,55 +1094,43 @@ by receipt of the other’s. (On the other hand, if the one who
 cannot communicate can feign ignorance of his own inability,
 the other too may be deterred from his own commitment by fear
 of the first’s unwitting commitment.)
-If the commitments de-
-pend not just on words but on special forms or ceremonies,
+If the commitments depend not just on words but on special forms or ceremonies,
 ignorance of the other party’s commitment ceremonies may be an
 advantageif the ignoranceis fully appreciated, since it makes the
 other aware that only his own restraint can avert stalemate.
 Suppose only part of the population belongs to the cult in
-which “cross my heart” is (or is believed to be) absolutely bind-
-the original marginal cost situation. But we may imagine the development of
+which “cross my heart” is (or is believed to be) absolutely bindthe original marginal cost situation. But we may imagine the development of
 institutions that specialize in royalty purchases, whose ultimate success depends
 on a reputation for never renegotiating, and whose incentives can thus not be
 appealed to in any single negotiation.
 
 
 AN ESSAY ON BARGAINING
-27
+
 ing. If everyone knows (and is known to know) everyoneelse’s
-affiliation, those belonging to this particular cult have the advan-
-tage. They can commit themselves, the others cannot. If the
+affiliation, those belonging to this particular cult have the advantage. They can commit themselves, the others cannot. If the
 buyer says “$16,o00, cross my heart’ his offer is final;
 if the
-seller says “$19,000” he is (and is known to be) only “bargain-
-ing.”
+seller says “$19,000” he is (and is known to be) only “bargaining.”
 If each does not know the other’s true reservation price there is
 an initial stage in which each tries to discover the other’s and
 misrepresent his own, as in ordinary bargaining. But the process
 of discovery and revelation becomes quickly merged with the
-process of creating and discovering commitments; the commit-
-ments permanently change, for all practical purposes, the “true”
+process of creating and discovering commitments; the commitments permanently change, for all practical purposes, the “true”
 reservation prices. If one party has, and the other has not, the
 belief in a binding ceremony, the latter pursues the “ordinary”
 bargaining technique of asserting his reservation price, while the
 former proceeds to make his.
-The foregoing discussion has tried to suggest both the plausi-
-bility and the logic of self-commitment. Some examples may
-suggest the relevance of the tactic, although an observer can sel-
-dom distinguish with confidence the consciously logical, the in-
-tuitive, or the inadvertent use of a visible tactic. First, it has not
-been uncommonfor union officials to stir up excitement and de-
-termination on the part of the membership during or prior to a
-wage negotiation. If the union is going to insist on $2 and ex-
-pects the managementto counter with $1.60, an effort is made to
+The foregoing discussion has tried to suggest both the plausibility and the logic of self-commitment. Some examples may
+suggest the relevance of the tactic, although an observer can seldom distinguish with confidence the consciously logical, the intuitive, or the inadvertent use of a visible tactic. First, it has not
+been uncommonfor union officials to stir up excitement and determination on the part of the membership during or prior to a
+wage negotiation. If the union is going to insist on $2 and expects the managementto counter with $1.60, an effort is made to
 persuade the membership not only that the management could
-pay $2 but even perhaps that the negotiators themselves are in-
-competent if they fail to obtain close to $2. The purpose — or,
+pay $2 but even perhaps that the negotiators themselves are incompetent if they fail to obtain close to $2. The purpose — or,
 rather, a plausible purpose suggested by our analysis —is to
 make clear to the management that the negotiators could not
 accept less than $2 even if they wished to because they no longer
-Control the members or because they would lose their own posi-
-tions if they tried. In other words, the negotiators reduce the
+Control the members or because they would lose their own positions if they tried. In other words, the negotiators reduce the
 Scope of their own authority and confront the managementwith
 |
 the threat of a strike that the union itself cannot avert, even
@@ -1400,17 +1138,12 @@ though it was the union’s own action that eliminated its power
 to-prevent the strike.
 Something similar occurs when the United States Government
 
-
-28
 ELEMENTS OF A THEORY OF STRATEGY
-negotiates with other governments on, say, the uses to which for-
-eign assistance will be put, or tariff reduction. If the executive
+negotiates with other governments on, say, the uses to which foreign assistance will be put, or tariff reduction. If the executive
 branch is free to negotiate the best arrangementit can, it nay be
-unable to make any position stick and may end by conceding con-
-troversial points because its partners know,or believe obstinately,
+unable to make any position stick and may end by conceding controversial points because its partners know,or believe obstinately,
 that the United States would rather concede than terminate the
-negotiations. But, if the executive branch negotiates underlegisla-
-tive authority, with its position constrained by law, and
+negotiations. But, if the executive branch negotiates underlegislative authority, with its position constrained by law, and
 it
 is
 evident that Congress will not be reconvened to change the law
@@ -1428,13 +1161,10 @@ These examples have certain characteristics in common.First,
 they clearly depend not only on incurring a commitment but on
 communicating it persuasively to the other party. Second,it is by
 no means easy to establish the commitment, nor is it entirely
-clear to either of the parties concerned just how strong the com-
-mitmentis. Third, similar activity may be available to the parties
+clear to either of the parties concerned just how strong the commitmentis. Third, similar activity may be available to the parties
 on both sides. Fourth, the possibility of commitment, though
-perhaps available to both sides, is by no means equally avail-
-able; the ability of a democratic government to get itself tied
-by public opinion may be different from the ability of a totali-
-tarian government to incur such a commitment. Fifth, they all
+perhaps available to both sides, is by no means equally available; the ability of a democratic government to get itself tied
+by public opinion may be different from the ability of a totalitarian government to incur such a commitment. Fifth, they all
 run the risk of establishing an immovable position that goes
 beyond the ability of the other to concede, and thereby provoke
 the likelihood of stalemate or breakdown.
@@ -1445,7 +1175,7 @@ situations may make the commitmenttactic easy or difficult to
 
 
 AN ESSAY ON BARGAINING
-29
+
 use, or make it more available to one party than the other, or
 affect the likelihood of simultaneous commitmentor stalemate.
 Use of a Bargaining Agent. The use of a bargaining agent affects
@@ -1463,13 +1193,9 @@ Second, an “agent” may be broughtin as a principal in his own
 right, with an incentive structure of his own that differs from his
 principal’s. This device is involved in automobile insurance; the
 private citizen, in settling out of court, cannot threaten suit as
-effectively as the insurance companysince the latter is more con-
-spicuously obliged to carry out such threats to maintain its own
+effectively as the insurance companysince the latter is more conspicuously obliged to carry out such threats to maintain its own
 reputation for subsequent accidents.’
-Secrecy vs. Publicity. A potent means of commitment, and some-
-times the only means, is the pledge of one’s reputation. If na-
-tional representatives can arrange to be charged with appease-
-ment for every small concession, they place concession visibly
+Secrecy vs. Publicity. A potent means of commitment, and sometimes the only means, is the pledge of one’s reputation. If national representatives can arrange to be charged with appeasement for every small concession, they place concession visibly
 beyond their own reach. If a union with other plants to deal with
 can arrange to make any retreat dramatically visible, it places its
 bargaining reputation in jeopardy and thereby becomesvisibly
@@ -1486,8 +1212,6 @@ avoid a strike. As in the bilateral monopoly solution suggested earlier, there
 IS a transfer of interest to a third party with a resulting visible shift in one’s
 Own incentive structure.
 
-
-30
 ELEMENTS OF A THEORY OF STRATEGY
 fashion publicity is required. Both the initial offer and the final
 outcome would have to be known; andif secrecy surroundseither
@@ -1498,46 +1222,39 @@ the relevant public; or if both parties fear the potentialities for
 stalemate in the simultaneous use of this tactic, they may try to
 enforce an agreement on secrecy.
 Intersecting Negotiations. If a union is simultaneously engaged,
-or will shortly be engaged, in many negotiations while the manage-
-ment has no other plants and deals with no other unions, the
+or will shortly be engaged, in many negotiations while the management has no other plants and deals with no other unions, the
 management cannot convincingly stake its bargaining reputation
 while the union can. The advantage goes to the party that can
 persuasively point to an array of other negotiations in which its
 own position would be prejudiced if it made a concession in this
 one. (The “reputation value” of the bargain maybeless related
-to the outcome thanto the firmness with which someinitial bar-
-gaining position is adhered to.) Defense against this tactic may
+to the outcome thanto the firmness with which someinitial bargaining position is adhered to.) Defense against this tactic may
 involve, among other things, both misinterpretation of the other
-party’s position and an effort to make the eventual outcomein-
-commensurable with the initial positions. If the subjects under
+party’s position and an effort to make the eventual outcomeincommensurable with the initial positions. If the subjects under
 negotiation can be enlarged in the process of negotiation, or the
 wage figure replaced by fringe benefits that cannot be reduced to
 a wage equivalent, an “out” is provided to the party that has
 committed itself; and the availability of this “out” weakens the
 commitmentitself, to the disadvantage of the committed party.
-Continuous Negotiations. A special case of interrelated negotia-
-tions occurs when the same two parties are to negotiate other
+Continuous Negotiations. A special case of interrelated negotiations occurs when the same two parties are to negotiate other
 topics, simultaneously or in the future. The logic of this case is
 more subtle; to persuade the other that one cannot afford to
 recede, one says in effect, “If I conceded to you here, you would
 revise your estimate of me in our other negotiations; to protect
 my reputation with you I must stand firm.” The second party is
-simultaneously the “third party” to whom one’s bargaining reputa-
-tion can be pledged. This situation occurs in the threat of local
+simultaneously the “third party” to whom one’s bargaining reputation can be pledged. This situation occurs in the threat of local
 resistance to local aggression. The party threatening achievesits
 
 
 AN ESSAY ON BARGAINING
-31
-commitment, and hence the credibility of its threat, not by re-
-ferring to what it would gain from carrying out the threat in this
+
+commitment, and hence the credibility of its threat, not by referring to what it would gain from carrying out the threat in this
 articular instance but by pointing to the long-run value of a
 fulfilled threat in enhancing the credibility of future threats.
 The Restrictive Agenda. When there are two objects to negotiate,
 the decision
 to negotiate them simultaneously or in separate
-forums or at separate times is by no means neutral to the out-
-come, particularly when there is a latent extortionate threat that
+forums or at separate times is by no means neutral to the outcome, particularly when there is a latent extortionate threat that
 can be exploited only if it can be attached to some moreordinary,
 legitimate, bargaining situation. The protection against extortion
 depends on refusal, unavailability, or inability, to negotiate. But
@@ -1553,8 +1270,7 @@ commodities, or if there are ground rules that forbid mention of
 other tariffs while cheese and automobiles remain unsettled, this
 extortionate weapon must await another opportunity. If the threat
 that would be brought to the conference table is one that cannot
-stand publicity, publicity itself may prevent its effective com-
-munication.
+stand publicity, publicity itself may prevent its effective communication.
 The Possibility of Compensation. As Fellner has pointed out,
 agreement may be dependent on some means of redistributing
 costs or gains.* If duopolists, for example, divide markets in a
@@ -1562,43 +1278,32 @@ way that maximizes their combined profits, some initial accrual
 of profits is thereby determined ; any other division of the profits
 requires that one firm be able to compensate the other. If the fact
 of compensation would be evidence of illegal collusion, or if the
-Motive for compensation would be misunderstood by the stock-
-holders,or if the two do not sufficiently trust each other, someless
+Motive for compensation would be misunderstood by the stockholders,or if the two do not sufficiently trust each other, someless
 optimum level of joint profits may be required in order that the
-“wW. Fellner, Competition Among the Few (New York, 1949), Pp. 34-35, 19I-
-97, 231-32, 234.
+“wW. Fellner, Competition Among the Few (New York, 1949), Pp. 34-35, 19I97, 231-32, 234.
 
-
-32
 ELEMENTS OF A THEORY OF STRATEGY
 initial accrual of profits to the two firms be in closer accordance
 with an agreed division of gains between them.
 When agreement must be reached on something that
-is in-
-herently a one-man act, any division of the cost depends on
+is inherently a one-man act, any division of the cost depends on
 compensation. The “agenda” assumes particular importance in
-these cases, since a principal means of compensation is a conces-
-sion on some other object. If two simultaneous negotiations can
+these cases, since a principal means of compensation is a concession on some other object. If two simultaneous negotiations can
 be brought into a contingent relationship with each other, a
 means of compensation is available. If they are kept separate.
 each remains an indivisible object.
 It may be to the advantage of one party to keep a bargain
 isolated, and to the other to join it to some second bargain. If
 there are two projects, each with a cost of three, and each with
-a value of two to A and a value of four to B, and each is in-
-herently a “one-man”project in its execution, and if compensa-
-tion is institutionally impossible, B will be forced to pay the
+a value of two to A and a value of four to B, and each is inherently a “one-man”project in its execution, and if compensation is institutionally impossible, B will be forced to pay the
 entire cost of each as long as the two projects are kept separate.
-He cannot usefully threaten nonperformance, since A has noin-
-centive to carry out either project by himself. But if B can link
+He cannot usefully threaten nonperformance, since A has noincentive to carry out either project by himself. But if B can link
 the projects together, offering to carry out one while A carries
-out the other, and can effectively threaten to abandon both un-
-less A carries out one of them,A is left an option with a gain of
+out the other, and can effectively threaten to abandon both unless A carries out one of them,A is left an option with a gain of
 four and a cost of three, which he takes, and B cuts his cost in
 half,
 An importantlimitation of economic problems, as prototypesof
-bargaining situations, is that they tend disproportionately to in-
-volve divisible objects and compensable activities. If a drainage
+bargaining situations, is that they tend disproportionately to involve divisible objects and compensable activities. If a drainage
 ditch in the back of one house will protect both houses; andif it
 costs $1,000 and is worth $800 to each home-owner; neither would
 undertake it separately, but we nevertheless usually assume that
@@ -1613,14 +1318,11 @@ road, the ensuing deadlock is aggravated by the absence of a cus-
 
 
 AN ESSAY ON BARGAINING
-33
-tom of bidding to pay for the right of way. Parliamentary dead-
-locks occur when logrolling is impracticable. Measures that re-
-quire unanimous agreement can often be initiated only if several
+
+tom of bidding to pay for the right of way. Parliamentary deadlocks occur when logrolling is impracticable. Measures that require unanimous agreement can often be initiated only if several
 are bundled together.5
 The Mechanics of Negotiation. A numberof other characteristics
-deserve mention, although weshall not work out their implica-
-tions. Is there a penalty on the conveyance of false information?
+deserve mention, although weshall not work out their implications. Is there a penalty on the conveyance of false information?
 Is there a penalty on called bluffs, that is, can one put forth an
 offer and withdraw it after it has been accepted? Is there a penalty
 on hiring an agent who pretends to be an interested party and
@@ -1631,9 +1333,7 @@ stri«..ure of an auction, a Dutch auction, a sealed bid system, or
 some other formal arrangement? Is there a status quo, so that
 unavailability for negotiation can win the status quo for the party
 that prefers it? Is renegotiation possible in case of stalemate?
-Whatare the costs of stalemate? Can compliance with the agree-
-ment be observed? What, in general, are the means of communi-
-cation, and are any of them susceptible of being put out of order
+Whatare the costs of stalemate? Can compliance with the agreement be observed? What, in general, are the means of communication, and are any of them susceptible of being put out of order
 by one party or the other? If there are several items to negotiate,
 are they negotiated in one comprehensive negotiation, separately
 in a particular order so that each pieceis finished before the next
@@ -1641,8 +1341,7 @@ is taken up, or simultaneously through different agents or under
 different rules.
 The importance of manyof these structural questions becomes
 evident when onereflects on parliamentary technique. Rules that
-permit a president to veto an appropriation bill only in its en-
-tirety, or that require each amendment to be voted before the
+permit a president to veto an appropriation bill only in its entirety, or that require each amendment to be voted before the
 Original act is voted on, or a priority system accorded to different
 kinds of motions, substantially
 alter the
@@ -1654,8 +1353,6 @@ Vote earlier to eliminate that possibility, thereby leaving only
 the occupation of Western Germany may havereflected either this principle or
 the onein the preceding paragraph.
 
-
-34
 ELEMENTS OF A THEORY OF STRATEGY
 first and third choices about which his preference is known to be
 so Strong that no threat will be made.
@@ -1667,11 +1364,8 @@ is too continuous to provide good resting places, except at nice
 round numberslike $2.00. But a commitment to the principle of
 “profit sharing,” “cost-of-living increases,” or any other basis for
 a numerical calculation that comes out at $2.0714, may provide
-a foothold for a commitment. Furthermore, one may create some-
-thing of a commitment by putting the principles and precedents
-themselves in jeopardy. If in the past one has successfully main-
-tained the principle of, say, nonrecognition of governments im-
-posed byforce, and elects to nail his demandsto that principle in
+a foothold for a commitment. Furthermore, one may create something of a commitment by putting the principles and precedents
+themselves in jeopardy. If in the past one has successfully maintained the principle of, say, nonrecognition of governments imposed byforce, and elects to nail his demandsto that principle in
 the present negotiation, he not only adduces precedent behind his
 claim but risks the principle itself. Having pledged it, he may
 persuade his adversary that he would accept stalemate rather than
@@ -1687,9 +1381,7 @@ a rationalized reinterpretation of the original commitment, one
 that is persuasive to the adversary himself.
 More interesting is the use of casuistry to release an opponent
 from a commitment. If one can demonstrate to an opponent that
-the latter is not committed, or that he has miscalculated his com-
-mitment, one mayin fact undo or revise the opponent’s commit-
-ment. Or if one can confuse the opponent’s commitment, so that
+the latter is not committed, or that he has miscalculated his commitment, one mayin fact undo or revise the opponent’s commitment. Or if one can confuse the opponent’s commitment, so that
 his constituents or principals or audience cannot exactly identify
 compliance with the commitment — show that “productivity”is
 ambiguous,
@@ -1698,9 +1390,8 @@ meanings— one may undoit or lower its value. In these casesit
 
 
 AN ESSAY ON BARGAINING
-35
-is to the opponent’s disadvantage that this commitmentbe success-
-fully refuted by argument. But when the opponent has resolved
+
+is to the opponent’s disadvantage that this commitmentbe successfully refuted by argument. But when the opponent has resolved
 to make a moderate concession one may help him by proving that
 he can make a moderate concession consistent with his former
 sition, and that if he does there are no groundsfor believingit
@@ -1711,8 +1402,7 @@ be made.®
 THE THREAT
 When onethreatensto fight if attacked or to cut his price if his
 competitor does, the threat is no more than a communication of
-one’s @wn incentives, designed to impress on the other the auto-
-matic consequences of his act. And, incidentally, if it succeeds in
+one’s @wn incentives, designed to impress on the other the automatic consequences of his act. And, incidentally, if it succeeds in
 deterring, it benefits both parties.
 But more than communication is involved when one threatens
 an act that he would have no incentive to perform but that is
@@ -1744,19 +1434,14 @@ Even the “pure” bilateral monopoly case becomes somewhatof this natureif
 pendent on whether agreement is reached than on how favorable the terms
 Of the agreementare.
 
-
-36
 ELEMENTS OF A THEORY OF STRATEGY
 centive to carry it out either before the event or after. He does
 have an incentive to bind himself to fulfill the threat, if he thinks
-the threat may be successful, because the threat and notits ful-
-fillment gains the end; and fulfillment
+the threat may be successful, because the threat and notits fulfillment gains the end; and fulfillment
 is not required
 if the
 threat succeeds. The morecertain the contingent fulfillmentis,
-the less likely is actual fulfillment. But the threat’s efficacy de-
-pends on the credulity of the other party, and the threat is in-
-effectual unless the threatener can rearrange or display his own
+the less likely is actual fulfillment. But the threat’s efficacy depends on the credulity of the other party, and the threat is ineffectual unless the threatener can rearrange or display his own
 incentives so as to demonstrate that he would, ex post, have an
 incentive to carry it out.”
 Weare back again at the commitment. How can one commit
@@ -1777,20 +1462,16 @@ reputation with the threatened person himself, on groundsthatit
 would be worth the costs and pains to give a lesson to the latter
 if he fails to heed the threat. Or one may try to arrange a legal
 commitment, perhaps through contracting with a third party?
-"Incidentally, the deterrent threat has some interesting quantitative charac-
-teristics, reflecting the general asymmetry between rewards and punishments
+"Incidentally, the deterrent threat has some interesting quantitative characteristics, reflecting the general asymmetry between rewards and punishments
 It is not necessary, for example, that the threat promise more damage to the
 party threatened than to the party carrying it out. The threat to smash an old
 car with a new one may succeed
 if believed, or to sue expensively for smali
 damages, or to start a price war. Also, as far as the power to deter is concerned,
 there is no such thing as “too large” a threat; if it is large enough to succeed,
-it is not carried out anyway. A threat is only “too large” if its very size inter-
-feres with
+it is not carried out anyway. A threat is only “too large” if its very size interferes with
 its credibility. Atomic destruction
-for small misdemeanors, like ex-
-pensive incarceration for overtime parking, would be superfluous but not ex-
-orbitant unless the threatened person considered
+for small misdemeanors, like expensive incarceration for overtime parking, would be superfluous but not exorbitant unless the threatened person considered
 it too awful to be real and
 ignoredit.
 “Mutual
@@ -1800,15 +1481,14 @@ nations might best be
 
 
 AN ESSAY ON BARGAINING
-37
+
 Or if one can turn the whole business over to an agent whose
 salary
 (or business reputation)
 depends on carrying out the
 threat but who is unalterably relieved of any responsibility for
 the further costs, one mayshift the incentive.
-The commitmentproblem is nicely illustrated by the legal doc-
-trine of the “last clear chance” which recognizes that, in the
+The commitmentproblem is nicely illustrated by the legal doctrine of the “last clear chance” which recognizes that, in the
 events that led up to an accident, there was some point at which
 the accident becameinevitable as a result of prior actions, and
 that the abilities of the two parties to prevent it may not have
@@ -1825,17 +1505,15 @@ inheres in what is weakness by other standards. When a person —
 or a country — has lost the power to help himself, or the power
 to avert mutual damage, the other interested party has no choice
 but to assume the cost or responsibility. “Coercive deficiency”
-is the term Arthur Smithies uses to describe the tactic of deliber-
-ately exhausting one’s annual budgetary allowanceso early in the
+is the term Arthur Smithies uses to describe the tactic of deliberately exhausting one’s annual budgetary allowanceso early in the
 year that the need for more fundsis irresistibly urgent.®
 A related tactic is maneuvering into a status quo from which
 one can be dislodged only by an overt act, an act that precipitates
 mutual damage because the maneuvering party has relinquished
-the power to retreat. If one carries explosives visibly on his per-
-son, in a manner that makes destruction obviously inevitable for
+the power to retreat. If one carries explosives visibly on his person, in a manner that makes destruction obviously inevitable for
 himself and for any assailant, he may deter assault much more
 than if he retained any control over the explosives. If one com-
- 
+
 viewed in this light, that is, not as undertaken to reassure the small nations nor
 in exchange for a quid pro quo, but rather as a device for surrendering an
 embarrassing freedom of choice.
@@ -1852,8 +1530,6 @@ Politics,
 7:609-625
 (July 1955), regarding the sameprinciple in foreign aid allocations.
 
-
-38
 ELEMENTS OF A THEORY OF STRATEGY
 mits a token force of troops that would be unable to escape, the
 commitmentto full resistance is increased. Walter Lippmann has
@@ -1863,8 +1539,7 @@ creating an uproar.
 Similar techniques may be available to the one threatened. His
 best defense, of course, is to carry out the act before the threatis
 made; in that case there is neither incentive nor commitment for
-retaliation. If he cannot hasten the act itself, he may commit him-
-self to it; if the person to be threatened is already committed,
+retaliation. If he cannot hasten the act itself, he may commit himself to it; if the person to be threatened is already committed,
 the one who would threaten cannot deter with his threat, he can
 only make certain the mutually disastrous consequences that he
 threatens.?° If the person to be threatened can arrange before
@@ -1877,9 +1552,7 @@ he would gain in spite of threat fulfillment (or perhaps only that
 he thinks he would), the threatener may have to give up the
 threat as costly and fruitless; or if one can misrepresent himself
 as either unable to comprehend a threat, or too obstinate to heed
-it, he may deter the threat itself. Best of all may be genuine ig-
-norance, obstinacy, or simple disbelief, since it may be more con-
-vincing to the prospective threatener; but of courseif it fails to
+it, he may deter the threat itself. Best of all may be genuine ignorance, obstinacy, or simple disbelief, since it may be more convincing to the prospective threatener; but of courseif it fails to
 persuade him and he commits himself to the threat, both sides
 lose. Finally, both the threat and the commitment have to be
 communicated ; if the threatened person can be unavailable for
@@ -1891,26 +1564,20 @@ threat. Some trucks carry signs that say, “Alarm and lock system not subject
 to the driver’s control.” The time Jock on bank vaults serves much the same
 purpose, as does the mandatory secret ballot in elections. So does starting an
 invasion with a small advance force that, though too small and premature to
-win the objective, attaches too much “face” to the enterprise to permit with-
-drawal]: the larger force can then be readied without fear of inviting a purely
+win the objective, attaches too much “face” to the enterprise to permit withdrawal]: the larger force can then be readied without fear of inviting a purely
 deterrent threat. At many universities the faculty is protected by a rule that
 denies instructors the power to change a course grade once it has been recorded.
 
 
 AN ESSAY ON BARGAINING
-39
+
 be does so in an obvious effort to avert threat, he may deter the
-threat itself.1 But the time to show disbelief or obstinacy is be-
-fore the threat is made, that is, before the commitmentis taken,
-not just before the threat is fulfilled; it does no good to be in-
-credulous, or out of town, when the messenger arrives with the
+threat itself.1 But the time to show disbelief or obstinacy is before the threat is made, that is, before the commitmentis taken,
+not just before the threat is fulfilled; it does no good to be incredulous, or out of town, when the messenger arrives with the
 committed threat.
 In threat situations, as in ordinary bargaining, commitments
 are not altogether clear; each party cannot exactly estimate the
-costs and values to the other side of the two related actions in-
-volved in the threat; the process of commitment may be a pro-
-gressive one, the commitments acquiring their firmness by a se-
-quence
+costs and values to the other side of the two related actions involved in the threat; the process of commitment may be a progressive one, the commitments acquiring their firmness by a sequence
 of
 actions. Communication
 is
@@ -1934,14 +1601,12 @@ parties’ getting committed to incompatible positions, or one party’s
 ™The racketeer cannot sell protection if he cannot find his customer at home;
 nor can the kidnapper expect any ransom
 if he cannot communicate with
-friends or relatives. Thus, as a perhaps impractical suggestion, a law that re-
-quired the immediate confinement of all interested friends and relatives when
+friends or relatives. Thus, as a perhaps impractical suggestion, a law that required the immediate confinement of all interested friends and relatives when
 a kidnapping occurred might make the prospects for ransom unprofitably dim.
 The rotation of watchmen and policemen, or their assignment in random pairs,
 not only limits their exploitation of bribes but protects them from threats.
 *It is a remarkable institutional fact that there is no simple, universal way
-for persons or nations to assume commitments of the kind we have been dis-
-Cussing. There are numerous ways they can try, but most of them are quite
+for persons or nations to assume commitments of the kind we have been disCussing. There are numerous ways they can try, but most of them are quite
 ambiguous,
 unsure,
 or only
@@ -1956,18 +1621,14 @@ theory would
 reduce
 itself to game
 Strategy and the mechanics of communication; but in most of the contemporary
-world the topic is mainly an empirical and institutional one of who can com-
-Tait, how, and with what assurance of appreciation by the otherside.
+world the topic is mainly an empirical and institutional one of who can comTait, how, and with what assurance of appreciation by the otherside.
 
-
-40
 ELEMENTS OF A THEORY OF STRATEGY
 mistakenly committing himself to a position that the other truly
 would not accept. If there appears a possibility of undoing the
 commitment, both parties have an interest in doing so. How to
 undoit is a matter on which their interests diverge, since different
-ways of undoing it lead to different outcomes. Furthermore,“un-
-doing” does not mean neglecting a commitment regardless of
+ways of undoing it lead to different outcomes. Furthermore,“undoing” does not mean neglecting a commitment regardless of
 reputation; “undoing,” if the commitment of reputation wasreal,
 means disconnecting the threat from one’s reputation, perhaps
 one’s own reputation with the threatened person himself. It is
@@ -1975,12 +1636,9 @@ therefore a subtle and tenuous situation in which, though both
 have an interest in undoing the commitment, they may be quite
 unable to collaborate in undoing it.
 Special care may be needed in defining the threat, both the
-act that is threatened against and the counter act that is threat-
-ened. Thedifficulty arises from the fact, just noted, that once the
-former has been done the incentive to perform the later has dis-
-appeared. Thecredibility of the threat before the act depends on
-how visible to the threatened partyis the inability of the threaten-
-ing party to rationalize his way out of his commitmentonceit
+act that is threatened against and the counter act that is threatened. Thedifficulty arises from the fact, just noted, that once the
+former has been done the incentive to perform the later has disappeared. Thecredibility of the threat before the act depends on
+how visible to the threatened partyis the inability of the threatening party to rationalize his way out of his commitmentonceit
 has failed its purpose. Any loopholes the threatening party leaves
 himself, if they are visible to the threatened party, weaken the
 visible commitmentand hence reducethe credibility of the threat.
@@ -1988,41 +1646,32 @@ visible commitmentand hence reducethe credibility of the threat.
 Formosa Resolution and Treaty.)
 It is essential, therefore, for maximum credibility, to leave as
 little room as possible for judgmentor discretion in carrying out
-the threat. If one is committed to punish a certain type of be-
-havior when it reaches certain limits, but the limits are not care-
-fully and objectively defined, the party threatened will realize
+the threat. If one is committed to punish a certain type of behavior when it reaches certain limits, but the limits are not carefully and objectively defined, the party threatened will realize
 that when the time comes to decide whether the threat must be
 enforced or not, his interest and that of the threatening party will
-coincide in an attempt to avoid the mutually unpleasant con-
-sequences.
+coincide in an attempt to avoid the mutually unpleasant consequences.
 In order to makea threat precise, so that its terms are visible
-both to the threatened party and to any third parties whosereac-
-tion to the whole affair is of value to the adversaries, it may be
+both to the threatened party and to any third parties whosereaction to the whole affair is of value to the adversaries, it may be
 necessary to introduce some arbitrary elements. The threat must
 involve overt acts rather than intentions; it must be attached to
 the visible deeds, not invisible ones; it may have to attachitself
 
 
 AN ESSAY ON BARGAINING
-41
-to certain ancillary actions that are of no consequence in them-
-selves to the threatening party. It may, for example, have to put
+
+to certain ancillary actions that are of no consequence in themselves to the threatening party. It may, for example, have to put
 a penalty on the carrying of weapons rather than their use; on
-suspicious behavior rather than observed misdemeanors; on prox-
-jmity to a crime rather than the crimeitself. And, finally, the act
+suspicious behavior rather than observed misdemeanors; on proxjmity to a crime rather than the crimeitself. And, finally, the act
 of punishment must be one whose effect or influence is clearly
 discernible.}*
 In order that one be able to pledge his reputation behind a
-threat, there must be continuity between the present and sub-
-sequent issues that will arise. This need for continuity suggests a
+threat, there must be continuity between the present and subsequent issues that will arise. This need for continuity suggests a
 means of making the original threat more effective; if it can be
 decomposedinto a series of consecutive smaller threats, there is an
 opportunity to demonstrate on the first few transgressions that
-the threat will be carried out on the rest. Even the first few be-
-come more plausible, since there is a more obvious incentive to
+the threat will be carried out on the rest. Even the first few become more plausible, since there is a more obvious incentive to
 fulfill them as a “lesson.”
-This principle is perhaps most relevant to acts that are in-
-herently a matter of degree. In foreign aid programs the overt
+This principle is perhaps most relevant to acts that are inherently a matter of degree. In foreign aid programs the overt
 act of terminating assistance may be so obviously painful to both
 sides as not to be taken seriously by the recipient, but if each
 small misuse of funds is to be accompanied by a small reduction
@@ -2032,15 +1681,12 @@ will receive more credulity; or if it does not at first, a few lessons
 may be persuasive without too much damage.'*
 The threatening party may not, of course, be able to divide the
 act into steps. (Both the act to be deterred and the punishment
-must be divisible.) But the principle at least suggests the un-
-wisdom of defining aggression, or transgression, in terms of some
-_™* During 1950, the Economic Cooperation Administration declared its inten-
-tion to reward Marshall Plan countries that followed especially sound policies,
+must be divisible.) But the principle at least suggests the unwisdom of defining aggression, or transgression, in terms of some
+_™* During 1950, the Economic Cooperation Administration declared its intention to reward Marshall Plan countries that followed especially sound policies,
 and to penalize those that did not, through the device of larger or smaller aid
 allotments. But since the base figures had not been determined, and since their
 determination would ultimately involve judgment rather than formulas, there
-would be no way afterwards to see whether in fact the additions and sub-
-tractions were made, and the plan suffered from implausibility.
+would be no way afterwards to see whether in fact the additions and subtractions were made, and the plan suffered from implausibility.
 ; " Perhaps the common requirement
 for amortization of loans at frequent
 intervals, rather than ia a lump sum at the end of the loan period,reflects an
@@ -2048,19 +1694,15 @@ analogous principle, as does the custom of giving frequent examinations in a
 College course to avoid letting a student’s failure hinge exclusively on a single
 Stading decision after the course is finished.
 
-
-42
 ELEMENTS OF A THEORY OF STRATEGY
 critical degree or amount that will be deemed intolerable. When
 the act to be deterred is inherently a sequence of steps whose
-cumulative effect is what matters, a threat geared to the incre-
-ments may be morecredible than one that must be carried out
+cumulative effect is what matters, a threat geared to the increments may be morecredible than one that must be carried out
 either all at once or not at all when someparticular point has been
 reached. It may even be impossible to define a “critical point”
 with sufficient clarity to be persuasive.
 To make the threatened acts divisible, the acts themselves
-may have to be modified. Parts of an act that cannot be decom-
-posed may haveto be left out; ancillary acts that go with the
+may have to be modified. Parts of an act that cannot be decomposed may haveto be left out; ancillary acts that go with the
 event, though of no interest in themselves, may be objects to
 which a threat can effectively be attached. For example, actions
 that are only preparatory to the main act, and by themselves do
@@ -2093,37 +1735,28 @@ after they had announced that any effort of their allies to dislodge them would
 
 
 AN ESSAY ON BARGAINING
-43
-A piecemeal approach mayalso be used by the threatenedper-
-son. If he cannot obviate the threat by hastening the entire act,
+
+A piecemeal approach mayalso be used by the threatenedperson. If he cannot obviate the threat by hastening the entire act,
 he may hasten someinitial stage that clearly commits him to
-eventual completion. Or, if his act is divisible while the threat-
-ener’s retaliation comes only in the large economysize, perform-
-ing it as a series of increments may deny the threatener the
+eventual completion. Or, if his act is divisible while the threatener’s retaliation comes only in the large economysize, performing it as a series of increments may deny the threatener the
 dramatic overt act that would trigger his response.
 THE PROMISE
-Among the legal privileges of corporations, two that are men-
-tioned in textbooks are the right to sue and the “right” to be
+Among the legal privileges of corporations, two that are mentioned in textbooks are the right to sue and the “right” to be
 sued. Who wants to be sued! But the right to be sued is the
 nower to make a promise: to borrow money,to enter a contract,
 to do business with someone who might be damaged.If suit does
 arise, the “right” seems a liability in retrospect; beforehand it
 was a prerequisite to doing business.
-In brief, the right to be sued is the power to accept a commit-
-ment. In the commitments discussed up to this point,
+In brief, the right to be sued is the power to accept a commitment. In the commitments discussed up to this point,
 it was
 essential that one’s adversary (or “partner,” however we wish to
-describe him) not have the power to release one from the com-
-mitment; the commitment was, in effect, to some third party,
+describe him) not have the power to release one from the commitment; the commitment was, in effect, to some third party,
 real or fictitious. The promise is a commitment to the second
 party in the bargain and is required wheneverthe final action of
-one or of each is outside the other’s control. It is required when-
-ever an agreement leaves any incentive to cheat.?®
-This need for promises is more than incidental; it has an insti-
-tutional importance of its own. It is not always easy to make a
+one or of each is outside the other’s control. It is required whenever an agreement leaves any incentive to cheat.?®
+This need for promises is more than incidental; it has an institutional importance of its own. It is not always easy to make a
 convincing, self-binding, promise. Both the kidnapper who would
-like to release his prisoner, and the prisoner, may search des-
-Perately for a way to commit the latter against informing on his
+like to release his prisoner, and the prisoner, may search desPerately for a way to commit the latter against informing on his
 Captor, without finding one. If the victim has committed an act
 a,
 be treated as a hostile act. See Harry S Truman, Year of Decisions (New York,
@@ -2131,23 +1764,18 @@ be treated as a hostile act. See Harry S Truman, Year of Decisions (New York,
 ofThe Second World War (Boston, 1953), pp. 566-68.
 *The threat may seem to be a promise if the pledge behindit is only one’s
 reputation with his adversary; but it is not a promise from which the second
-Party can unilaterally release the threatener, since he cannot convincingly dis-
-Sociate his own future estimate of the threatener from the latter’s performance.
+Party can unilaterally release the threatener, since he cannot convincingly disSociate his own future estimate of the threatener from the latter’s performance.
 
-
-44
 ELEMENTS OF A THEORY OF STRATEGY
 whose disclosure could lead to blackmail, he may confess it; if
 not, he might commit one in the presence of his captor, to create
-the bond that will ensure his silence. But these extreme possibili-
-ties illustrate how difficult, as well as important, it may be to
+the bond that will ensure his silence. But these extreme possibilities illustrate how difficult, as well as important, it may be to
 assume a promise. If the law will not enforce price agreements;
 or if the union is unable to obligate itself to a no-strike pledge:
 or if a contractor has no assets to pay damagesif he loses a suit,
 and the law will not imprison debtors; orif there is no “audience”
 to which one can pledge his reputation; it may not be possible to
-strike a bargain, or at least the same bargain that would other-
-wise be struck.
+strike a bargain, or at least the same bargain that would otherwise be struck.
 Bargaining may have to concern itself with an “incentive”
 system as well as the division of gains. Oligopolists may lobby for
 a “fair-trade” law; or exchange shares of stocks. An agreement to
@@ -2162,31 +1790,26 @@ secret election, or a government agrees to recommendanacttoits
 parliament, or an employee agrees not to steal from inventory,or
 a teacher agrees to keep his political opinions out of class, or a
 country agrees to stimulate exports “as much as possible,” there
-is no reliable way to observe or measure compliance. The ob-
-servable outcomeis subject to a numberofinfluences, only one of
+is no reliable way to observe or measure compliance. The observable outcomeis subject to a numberofinfluences, only one of
 which is covered by the agreement. The bargain may therefore
 have to be expressed in terms of something observable, even though
 what is observable is not the intended object of the bargain. One
 may have to pay the bribed voter if the election is won, not on
 how he voted; to pay a salesman a commission onsales, rather
-than on skill and effort; to reward policemen according to statis-
-tics on crime rather than on attention to duty; or to punish all
+than on skill and effort; to reward policemen according to statistics on crime rather than on attention to duty; or to punish all
 employees for the transgressions of one. And, where performance
 is a matter of degree, the bargain may have to define arbitrary
-limits distinguishing performance from nonperformance; a speci-
-Tn an earlier age, hostages were exchanged.
+limits distinguishing performance from nonperformance; a speciTn an earlier age, hostages were exchanged.
 
 
 AN ESSAY ON BARGAINING
-45
-fied loss of inventory treated as evidence of theft; a specified in-
-crease
+
+fied loss of inventory treated as evidence of theft; a specified increase
 in
 exports considered an “adequate”
 effort;
 specified
-samples of performance taken as representative of total per-
-formance./®
+samples of performance taken as representative of total performance./®
 The tactic of decomposition applies to promises as well as to
 threats. What makes many agreements enforceable is only the
 recognition of future opportunities for agreement that will be
@@ -2195,17 +1818,14 @@ whose value outweighs the momentary gain from cheating in the
 present instance. Each party must be confident that the other
 will not jeopardize future opportunities by destroying trust at
 the outset. This confidence does not always exist; and one of the
-purposes of piecemeal bargainsis to cultivate the necessary mu-
-tual expectations. Neither may be willing to trust the other’s
+purposes of piecemeal bargainsis to cultivate the necessary mutual expectations. Neither may be willing to trust the other’s
 prudence (or the other’s confidence in the first’s prudence, and
-so forth) on a large issue. But, if a number of preparatory bar-
-gains can be struck on a small scale, each maybe willing to risk
+so forth) on a large issue. But, if a number of preparatory bargains can be struck on a small scale, each maybe willing to risk
 a small investment to create a tradition of trust. The purpose is
 to let each party demonstrate that he appreciates the need for
 trust and that he knows the other does too. So, if a major issue
 has to be negotiated, it may be necessary to seek out and negotiate
-some minor items for “practice,” to establish the necessary confi-
-dence in each other’s awareness of the long-term value of good
+some minor items for “practice,” to establish the necessary confidence in each other’s awareness of the long-term value of good
 faith.
 Evenif the future will bring no recurrence, it may be possible to
 create the equivalence of continuity by dividing the bargaining
@@ -2214,17 +1834,13 @@ dollars to the Red Cross on condition the other does, each may be
 tempted to cheat if the other contributes first, and each one’s
 anticipation of the other’s cheating will inhibit agreement. But
 if the contribution is divided into consecutive small contributions,
-each can try the other’s good faith for a small price. Further-
-More, since each can keep the other on short tether to the finish,
+each can try the other’s good faith for a small price. FurtherMore, since each can keep the other on short tether to the finish,
 nO one ever need risk more than one small contribution at a time.
 Finally, this change in the incentive structure itself takes most
 ™Inability to assume an enforceable promise, like inability to perform the
-activity demanded, may protect one from an extortionate threat. The manda-
-tory secret ballot is a nuisance to the voter who would like to sell his vote, but
+activity demanded, may protect one from an extortionate threat. The mandatory secret ballot is a nuisance to the voter who would like to sell his vote, but
 Protection to the one who would fear coercion.
 
-
-46
 ELEMENTS OF A THEORY OF STRATEGY
 of the risk out of the initial contribution; the value of established
 trust is made obviously visible to both.
@@ -2233,8 +1849,7 @@ only occur whenat least one party takes initiative in proposing a
 bargain. A deterrent to initiative is the information it yields, or
 may seem to yield, about one’s eagerness. But if each has visible
 reason to expect the other to meet him half way, because of a
-history of successful bargaining, that very history provides pro-
-tection against the inference of overeagerness.}®
+history of successful bargaining, that very history provides protection against the inference of overeagerness.}®
 AN ILLUSTRATIVE GAME
 Various bargaining situations involving commitments, threats,
 promises, and communication problems, can be illustrated by
@@ -2242,22 +1857,16 @@ variants of a game in which each of two persons has pair of
 alternatives from which to choose. North chooses either A or a;
 East chooses either B or 8. Each person’s gain depends on the
 choices of both. Each of the four possible combined choices, AB,
-AB, aB,or af, yields a particular gain or loss for North and a par-
-ticular gain or loss for East. No compensation is payable between
-North and East. In general, each person’s preference may de-
-pend on the choice the other makes.
-Each such game can be quantitatively represented in a two-
-dimensional graph, with North’s gain measured vertically and
+AB, aB,or af, yields a particular gain or loss for North and a particular gain or loss for East. No compensation is payable between
+North and East. In general, each person’s preference may depend on the choice the other makes.
+Each such game can be quantitatively represented in a twodimensional graph, with North’s gain measured vertically and
 East’s horizontally, and the values of the four combined choices
 denoted by points labeled AB, Af, af, and aB. In spite of the
-simplicity of the game there is actually a large number of qualita-
-tively different variants, depending not only on the relative posi-
-tions of the four points in the plane but also on the “rules” about
+simplicity of the game there is actually a large number of qualitatively different variants, depending not only on the relative positions of the four points in the plane but also on the “rules” about
 order of moves, possibility of communication,
 availability of
 means of commitment, enforceability of promises, and whether
-1 Perhaps two adversaries who look forward to some large negotiated settle-
-ment would do well to keep avenues open for negotiation of minor issues. If,
+1 Perhaps two adversaries who look forward to some large negotiated settlement would do well to keep avenues open for negotiation of minor issues. If,
 for example, the numberof loose ends in dispute between East and West should
 narrow down so much that nothing remains to be negotiated but the “ultimate
 issue” (some final, permanent disposition of all territories and armaments) the
@@ -2268,42 +1877,34 @@ the whole settlement, the possibility of preparatory bargains might disappear.
 
 
 AN ESSAY ON BARGAINING
-47
+
 two or more games between two persons can be joined together.
-The variations can be multiplied almost without limit by select-
-ing different hypotheses about what each player knowsor guesses
+The variations can be multiplied almost without limit by selecting different hypotheses about what each player knowsor guesses
 about the “values” of the four outcomes for the other player, and
-what he guesses the other party guesses about himself. For con-
-venience we assumehere that the eight “values” are obvious in an
+what he guesses the other party guesses about himself. For convenience we assumehere that the eight “values” are obvious in an
 obvious way to both persons. And, just as we have ruled out
 compensation, we rule outalso threats of actions that lie outside
 the game. A very small sample of such games is presented.
 North
 . AB
 -aB
- 
+
 AB
 East
 a8
 Fic.
-1
+
 Figure 1 represents an “ordinary” bargaining situation if we
-adopt the rule that North and East must reach explicit agree-
-ment before they choose. Af and aB can be thoughtof as alterna-
-tive agreements that they may reach, while AB andaf, with zero
+adopt the rule that North and East must reach explicit agreement before they choose. Af and aB can be thoughtof as alternative agreements that they may reach, while AB andaf, with zero
 values for both persons, can be interpreted as the bargaining
 equivalent of “no sale.” Whoever can first commit himself wins.
 If North can commit himself to A he will secure A, since he
-leaves East a choice between Af and AB and the formeris ob-
-viously East’s choice under the circumstances. If East could have
+leaves East a choice between Af and AB and the formeris obviously East’s choice under the circumstances. If East could have
 Committed himself first to B, however, North would have been
 restricted to a choice of aB or no agreement (that is, of aB or
-AB) and would have agreed to aB. As a matter of fact, first com-
-mitment is a kind of “first move”; and in a game with the same
+AB) and would have agreed to aB. As a matter of fact, first commitment is a kind of “first move”; and in a game with the same
 Qumbers but with moves in turn, first move would be an ad-
 
-
-48
 ELEMENTS OF A THEORY OF STRATEGY
 vantage. If, by mistake, both parties get committed, North to 4
 and East to B, they lock themselves in stalemate at AB.
@@ -2317,17 +1918,16 @@ North
 . AB
 .aB
 .AB
- 
+
 East
- 
+
 Fic. 2
 but if East can effectively threaten the mutually undesirable af,
 he leaves North only a choice of a8 or AB and North chooses the
 latter. Note that it is not sufficient for East to commit his choice
 in advance, as it was in Figure 1; he must commit himself to a
 conditional choice, B or 8 depending on whether North chooses A
-or a. If East committed his choice he would obtain only the ad-
-vantage of “first move”; and in the present game, if moves were
+or a. If East committed his choice he would obtain only the advantage of “first move”; and in the present game, if moves were
 in turn, North would win at aB regardless of who movedfirst.
 (East would choose B rather than 8, to leave North a choice of aB
 or AB rather than of a8 or AB; and North would take aB. North,
@@ -2340,22 +1940,21 @@ worse. Both would, however, prefer AB to aB; but to reach 4/
 
 
 AN ESSAY ON BARGAINING
-49
+
 North
 .aB
 . AB
 .aB
 . AB
- 
+
 East
- 
+
 Fic. 3
 they must trust each other or be able
 to make enforceable
 promises. Whoevergoesfirst, the other has an incentive to cheat;
 if North chooses 4, East can take AB, and if East chooses 8 first,
-North can choose of. If moves are simultaneous each has an in-
-centive to cheat, and each may expect the other to cheat; and
+North can choose of. If moves are simultaneous each has an incentive to cheat, and each may expect the other to cheat; and
 either deliberate cheating, or self-protection against the other’s
 incentive to cheat, indicates choices of a and B. At least one party
 North
@@ -2363,16 +1962,14 @@ af
 . AB
 .aB
 . AB
- 
+
 East
- 
+
 Fic. 4
 Must be able to commit himself to abstention; then the other
 Can movefirst. If both must move simultaneously, both must be
 able to make enforceable promises.
 
-
-50
 ELEMENTS OF A THEORY OF STRATEGY
 Figure 4 is the same as Fig. 3 except that aB has been moved
 leftward. Here, in the absence of communication, North winsat
@@ -2387,7 +1984,7 @@ is better than AB for North, and AB is what he gets with A if
 East is free to choose B. East must commit himself to do, for
 either a or A, the opposite of what he would do if he were not
 committed: abstention from AB or immolation at aB.
- 
+
 North
 @ aB
 . AB
@@ -2398,8 +1995,7 @@ Fic. 5
 Finally, Figs. 5 and 6 show two gamesthat separately contain
 nothing of interest but together make possible an extortionate
 threat. Figure 5 has a minimaxsolution at 2B; either can achieve
-aB, neither can enforce anything better, no collaboration is pos-
-sible, no threat can be made. Figure 6, though contrasting with
+aB, neither can enforce anything better, no collaboration is possible, no threat can be made. Figure 6, though contrasting with
 Fig. 5 in the identity of interest between the two parties,
 1s
 similarly devoid of any need for collaboration or communication
@@ -2409,32 +2005,28 @@ But suppose the two gamesare simultaneously up for decision:
 
 
 AN ESSAY ON BARGAINING
-51
+
 North
 . AB
 . AB
 -aB
- 
+
 East
- 
+
 Fic. 6
 aid the same two parties are involved in both. If either party
 can commit himself to a threat he may improve his position.
 East, for example, could threaten to choose 8 rather than B in
-game 6, unless North chose A rather than a in game5; alterna-
-tively, North could threaten a in game 6 unless East chose B in
+game 6, unless North chose A rather than a in game5; alternatively, North could threaten a in game 6 unless East chose B in
 game s5. Assuming the intervals large enough in game 6, and the
 threat persuasively committed and communicated, the threatener
 gains in game 5 at no cost in game6. Becausehis threat succeeds
 he does not carry it out; so he gets AB in 6 as well as his preferred
-choice in game 5. To express this result differently, game 6 sup-
-plies what was ruled out earlier, namely, the threat of an act
+choice in game 5. To express this result differently, game 6 supplies what was ruled out earlier, namely, the threat of an act
 “outside the game.” From the point of view of game s, game6 is
 an extraneousact, and East might as well threaten to burn North’s
-house down if he does not choose A in 5. But such purely extor-
-tionate threats are not always easy to make; they often require
-an occasion, an object, and a means of communication, and ad-
-ditionally often suffer from illegality, immorality, or resistance
+house down if he does not choose A in 5. But such purely extortionate threats are not always easy to make; they often require
+an occasion, an object, and a means of communication, and additionally often suffer from illegality, immorality, or resistance
 out of sheer stubbornness. The joining of two negotiations on the
 Same agenda may thus succeed where a purely gratuitous threat
 would be impracticable.
@@ -2453,30 +2045,22 @@ game. If North can force game 6 to be playedfirst, and is unable
 to commit himself in response to a threat, the threat is obviated.
 If he can commit his choice in game 5 before the threat is made,
 he is safe. But if he can commit himself in game 5, and game6 is
-to be played first, East could threaten to choose @ in game 6 un-
-less North assumed a prior commitment to A in game 5; in this
+to be played first, East could threaten to choose @ in game 6 unless North assumed a prior commitment to A in game 5; in this
 case North’s ability to commit himself is a disadvantage, since
 it permits him to be forced into “playing” game 5 aheadof6.
 Incidentally, dropping AB vertically in Fig. 2 to below the level
 a8 would illustrate an important principle, namely, that moving
-one point in a manner “unfavorable” to North may actually im-
-prove the outcomefor him. The threat that kept him from win-
-ning in Fig. 2 depends on the comparative attractiveness of AB
-over of for North; if AB is made worse for him than af he be-
-comes immuneto the threat, which then is not made, and he wins
-at oB. This is an abstract example of the principle that, in bargain-
-ing, weakness maybestrength.
+one point in a manner “unfavorable” to North may actually improve the outcomefor him. The threat that kept him from winning in Fig. 2 depends on the comparative attractiveness of AB
+over of for North; if AB is made worse for him than af he becomes immuneto the threat, which then is not made, and he wins
+at oB. This is an abstract example of the principle that, in bargaining, weakness maybestrength.
 
-
-3
 BARGAINING, COMMUNICATION, AND
 LIMITED WAR
 Limited war requires limits; so do strategic maneuvers if they
 are to be stabilized short of war. But limits require agreement
 or at least some kind of mutual recognition and acquiescence.
 And agreement on limits is difficult to reach, not only because of
-the uncertainties and the acute divergence of interests but be-
-cause negotiation
+the uncertainties and the acute divergence of interests but because negotiation
 is severely inhibited both during war and
 before
 it begins and because communication becomes difficult
@@ -2486,33 +2070,26 @@ to enhance the other’s fear of war; or one side or both may fear
 that even a show of willingness to negotiate will be interpreted
 as excessive eagerness.
 The study of
-tacit bargaining — bargaining in which com-
-munication
+tacit bargaining — bargaining in which communication
 is incomplete or impossible — assumes importance,
 therefore, in connection with limited war, or, for that matter,
 with limited competition, jurisdictional maneuvers, jockeying in
 a traffic jam, or getting along with a neighbor that one does not
 Speak to. The problem is to develop a modus vivendi when one
 or both parties either cannot or will not negotiate explicitly or
-when neither would trust the other with respect to any agree-
-ment explicitly reached. The present chapter will examine some
-of the concepts and principles that seem to underlie tacit bar-
-8aining and will attempt to draw a few illustrative conclusions
+when neither would trust the other with respect to any agreement explicitly reached. The present chapter will examine some
+of the concepts and principles that seem to underlie tacit bar8aining and will attempt to draw a few illustrative conclusions
 about the problem of limited war or analogous situations. It
 Will also suggest that these same principles may often provide a
 Powerful clue to understanding even the logically dissimilar case
 of explicit bargaining with full communication and enforcement.
 
-
-54
 ELEMENTS OF A THEORY OF STRATEGY
 The most interesting situations and the most important are
 those in which there is a conflict of interest between the parties
-involved. But it is instructive to begin with the special simpli-
-fied case in which two or more parties have identical interests
+involved. But it is instructive to begin with the special simplified case in which two or more parties have identical interests
 and face the problem not of reconciling interests but only of
-coordinating their actions for their mutual benefit, when com-
-munication is impossible. This special case brings out clearly
+coordinating their actions for their mutual benefit, when communication is impossible. This special case brings out clearly
 the principle that will then serve to solve the problem of tacit
 “bargaining” over conflicting preferences.
 TACIT COORDINATION (COMMON INTERESTS)
@@ -2547,15 +2124,13 @@ map suggest some particular meeting place so unambiguously
 
 
 BARGAINING, COMMUNICATION, LIMITED WAR
-55
- 
+
 iW
 Road
 Building
 Pond
 Fic. 7
-that each will be confident that the other reads the same sugges-
-tion with confidence?
+that each will be confident that the other reads the same suggestion with confidence?
 The writer has tried this and other analogous problems on an
 unscientific sample of respondents; and the conclusion is that
 people often can coordinate. The following abstract puzzles are
@@ -2570,30 +2145,23 @@ Out of a total of 41; the number
 7 led roo by slight margin, with
 13 in
 third place. The upper left corner in problem 3 received 24 votes out of a
-total of 41, and all but 3 of the remainder were distributed in the same diag-
-Onal line. Problem 4, which mayreflect the location of the sample in New
+total of 41, and all but 3 of the remainder were distributed in the same diagOnal line. Problem 4, which mayreflect the location of the sample in New
 aven, Connecticut, showed an absolute majority managing to get together at
 Grand Central Station
 (information booth), and virtually
-all of them suc-
-ceeded in meeting at 12 noon. Problem 6 showed a variety of answers, but two-
-fifths of all persons succeeded in concerting on the number 1; and in problem
+all of them succeeded in meeting at 12 noon. Problem 6 showed a variety of answers, but twofifths of all persons succeeded in concerting on the number 1; and in problem
 ?, Out of 41 people, 12 got together on $1,000,000, and only 3 entries consisted
 Of numbers that were not a power of 10; of those 3, 2 were $64 and, in the
 
-
-56
 ELEMENTS OF A THEORY OF STRATEGY
 1. Name “heads”or “tails.” If you and your partner namethe
 same, you both wina prize.
 2, Circle one of the numbers listed in the line below. You
 win if you all succeed in circling the same number.
-7
+
 wo
-13
-26
-99
-555
+
+
 3. Put a check mark in one of the sixteen squares. You win
 if you all succeed in checking the same square.
 OOOO
@@ -2601,25 +2169,21 @@ OOOd
 OOOO
 OOOd
 4. You are to meet somebody in New York City. You have
-not been instructed where to meet; you have no prior under-
-standing with the person on where to meet; and you cannot com-
-municate with each other. You are simply told that you will have
+not been instructed where to meet; you have no prior understanding with the person on where to meet; and you cannot communicate with each other. You are simply told that you will have
 to guess where to meet and that he is being told the same thing
 and that you will just have to try to make your guesses coincide.
 5. You were told the date but not the hour of the meeting in
 No. 4; the two of you must guess the exact minute of the day
 for meeting. At what time will you appear at the meeting place
 that you elected in No. 4?
-6. Write somepositive number. If you all write the same num-
-ber, you win.
+6. Write somepositive number. If you all write the same number, you win.
 7. Name an amount of money.
 If you all name the same
 amount, you can have as much as you named.
 8. You are to divide $100 into two piles, labeled A and B.
 more up-to-date version, $64,000! Problem 8 caused no difficulty to 36 out of
 41, who split the total fifty-fifty. Problem 9 secured a majority of 20 out of
-22 for Robinson. An alternative formulation of it, in which Jones and Robin-
-son were tied on the first ballot at 28 votes each, was intended by the author
+22 for Robinson. An alternative formulation of it, in which Jones and Robinson were tied on the first ballot at 28 votes each, was intended by the author
 to demonstrate the difficulty of concerting in case of tie; but the respondents
 surmounted the difficulty and gave Jones 16 out of 18 votes (apparently on
 the basis of Jones’s earlier position on the list), proving the main point but
@@ -2635,22 +2199,22 @@ at the bridge.
 
 
 BARGAINING, COMMUNICATION, LIMITED WAR
-57
+
 Your partner is to divide another $100 into two piles labeled A
 and B. If you allot the same amounts to A and B, respectively,
 that your partner does, each of you gets $100; if your amounts
 differ from his, neither of you gets anything.
 g. On the first ballot, candidates polled as follows:
 Smith
-19
+
 Robinson
-29
+
 Jones
-28
+
 White
-9
+
 Brown
-15
+
 The second ballot is about to be taken. You have no interest in
 the outcome, except that you will be rewarded if someone gets a
 majority on the second ballot and you vote for the one who
@@ -2662,15 +2226,13 @@ areartificial, but they illustrate the point.
 People can often concert their intentions or expectations with
 others if each knows that the other is trying to do the same.
 Most situations — perhaps every situation for people who are
-practiced at this kind of game — provide some clue for coordi-
-nating behavior, some focal point for each person’s expectation
+practiced at this kind of game — provide some clue for coordinating behavior, some focal point for each person’s expectation
 of what the other expects him to expect to be expected to do.
 Finding the key, or rather finding @ key—-any key that
 is
 mutually recognized as the key becomes the key — may depend
 on imagination more than on logic, it may depend on analogy,
-precedent, accidental arrangement, symmetry, aesthetic or geo-
-metric configuration, casuistic reasoning, and who the parties are
+precedent, accidental arrangement, symmetry, aesthetic or geometric configuration, casuistic reasoning, and who the parties are
 and what they know about each other. Whimsy may send the
 man and his wife to the “lost and found”; or logic may lead
 each to reflect and to expect the other to reflect on where they
@@ -2685,8 +2247,6 @@ these “solutions” to the
 Problems, that is, of the clues or coordinators or focal points, is
 ‘ome kind of prominence or conspicuousness. Butit is a promi-
 
-
-58
 ELEMENTS OF A THEORY OF STRATEGY
 nence that depends on time and place and who the people are.
 Ordinary folk lost on a plane circular area may naturally go to
@@ -2699,8 +2259,7 @@ with alternative maps indicated clearly that a map with many
 houses and a single crossroads sends people to the crossroads,
 while one with manycrossroads and a single house sends most of
 them to the house. Partly this may reflect only that uniqueness
-conveys prominence; but it may be more important that unique-
-ness avoids ambiguousness. Houses may
+conveys prominence; but it may be more important that uniqueness avoids ambiguousness. Houses may
 beintrinsically more
 prominent than anything else on the map; but if there are three
 of them, none more prominent than the others, there is but one
@@ -2724,21 +2283,18 @@ overriding interest is to concert ideas; and if a particular spot
 *That this would be “correct” reasoning, incidentally, is suggested by one
 of the author’s map experiments. On a map with a single house and many
 crossroads, the eleven people who chose the houseall met, while the four who
-chose crossroads all chose different crossroads and did not even meet one an-
-other.
+chose crossroads all chose different crossroads and did not even meet one another.
 
 
 BARGAINING, COMMUNICATION, LIMITED WAR
-59
+
 commandsattention as the “obvious” place to meet, the winner
 of the bargain is simply the one who happensto be closertoit.
 Even if the one who is farthest from the focal point knows that
 he is, he cannot withhold his acquiescence and argue for a fairer
 division of the walking; the “proposal” for the bargain that is
 provided by the mapitself — if, in fact, it provides one— is the
-only extantoffer ; and without communication, there is no counter-
-proposal that can be made. The conflict gets reconciled — or per-
-haps we should say ignored —as a by-product of the dominant
+only extantoffer ; and without communication, there is no counterproposal that can be made. The conflict gets reconciled — or perhaps we should say ignored —as a by-product of the dominant
 need for coordination.
 “Win” and “lose” may not be quite accurate, since both may
 lose by comparison with what they could have agreed on through
@@ -2766,12 +2322,9 @@ receive messages:
 if one can announce his position and state
 that his transmitter works but not his receiver, saying that he
 Will wait where he is until the other arrives, the latter has no
-Choice. He can make noeffective counteroffer, since no counter-
-offer could be heard.
+Choice. He can make noeffective counteroffer, since no counteroffer could be heard.
 * This is an instance of the general paradox, illustrated at length in Chap-
 
-
-60
 ELEMENTS OF A THEORY OF STRATEGY
 The writer has tried a sample of conflicting-interest games on
 a number of people, including games that are biased in favor of
@@ -2779,8 +2332,7 @@ one party or the other; and on the whole, the outcome suggests
 the same conclusion that was reached in the purely cooperative
 games, All these games require coordination; they also, however,
 provide several alternative choices over which the two parties’
-interests differ. Yet, among all the available options, some par-
-ticular one usually seems to be the focal point for coordinated
+interests differ. Yet, among all the available options, some particular one usually seems to be the focal point for coordinated
 choice, and the party to whom
 it is a relatively unfavorable
 choice quite often takes it simply because he knows that the
@@ -2794,10 +2346,8 @@ his own expectation of what the other will expect him to expect
 to be expected to do. The need for agreement overrules the
 potential disagreement, and each must concert with the other
 or lose altogether. Some of these gamesare arrived at by slightly
-changing the problemsgiven earlier, as we did for the map prob-
-lem by supposing that walking is onerous.
-1. A and B are to choose “heads” or “tails” without com-
-municating. If both choose “heads,” A gets $3 and B gets $2;
+changing the problemsgiven earlier, as we did for the map problem by supposing that walking is onerous.
+1. A and B are to choose “heads” or “tails” without communicating. If both choose “heads,” A gets $3 and B gets $2;
 if both choose “tails,” A gets $2 and B gets $3. If they choose
 differently, neither gets anything. You are A (or B); which do
 you choose? (Note that if both choose at random, there is only
@@ -2815,10 +2365,10 @@ source of “strength.”
 
 
 BARGAINING, COMMUNICATION, LIMITED WAR
-61
+
 you gets anything. Yourletter is A (or B, or C); write here the
 three letters in the order you choose:
- 
+
 ’
 )
 .
@@ -2846,7 +2396,7 @@ depend on the letter you both pick; but the prizes are not the
 same for each of you, and the letter that would yield you the
 highest prize may or may not be his most profitable letter. For
 you the prizes would be as follows:
- 
+
 $4
 ULL
 $2
@@ -2858,13 +2408,10 @@ $1
 You have no idea what his schedule of prizes looks like. You
 begin by proposing to him the letter R, that being your best
 letter. Before he can reply, the master-of-ceremonies intervenes
-to say that you were not supposed to be allowed to communi-
-Cate and that any further communication will disqualify you
+to say that you were not supposed to be allowed to communiCate and that any further communication will disqualify you
 oth. You must simply write down one of the letters, hoping
 that the other chooses the same letter. Which letter do you
 
-
-62
 ELEMENTS OF A THEORY OF STRATEGY
 choose? (Alternate formulation for the second half of the sample
 shows schedule of K~$3, G-$1, W-$4, L~$5, R-$2, and has the
@@ -2880,20 +2427,16 @@ opposed. Once the troops are dispatched, the outcome depends
 only on the lines that the two commanders have orderedtheir
 troops to occupy. If the lines overlap, the troops will be assumed
 to meet andfight, to the disadvantage of both sides. If the troops
-take up positions that leave any appreciable space unoccupied be-
-tween them,the situation will be assumed “unstable” and a clash
+take up positions that leave any appreciable space unoccupied between them,the situation will be assumed “unstable” and a clash
 inevitable. Only if the troops are ordered to occupy identical
 lines or lines that leave virtually no unoccupied space between
-them will a clash be avoided. In that case, each side obtains suc-
-cessfully the area it occupies, the advantage going to the side
+them will a clash be avoided. In that case, each side obtains successfully the area it occupies, the advantage going to the side
 that has the most valuable area in terms of land and facilities.
 You command the forces located at the point marked X (Y).
 Draw on the map the line that you send your troops to occupy.
-7. A and B have incomes of $100 and $150 per year, respec-
-tively. They are notified of each other’s income and told that
+7. A and B have incomes of $100 and $150 per year, respectively. They are notified of each other’s income and told that
 they must begin paying taxes totaling $25 per year. If they can
-reach agreement on shares of this total, they may share the an-
-nual tax bill in whatever manner they agree on. But they must
+reach agreement on shares of this total, they may share the annual tax bill in whatever manner they agree on. But they must
 reach agreement without communication; each is to write down
 the share he proposes to pay, and if the shares total $25 or more,
 each will pay exactly what he proposed. If the proposed shares
@@ -2904,28 +2447,22 @@ You are A (B); how much do you propose to pay? $
 A cannot have his money back until he agrees with the finder 0!
 a suitable reward, and B cannot keep any except what A agree
 to. If no agreement is reached, the money goes to the house. Thé
- 
 
 
 BARGAINING, COMMUNICATION, LIMITED WAR
-63
+
 amountis $16, and A offers $2 as a reward. B refuses, demanding
 half the money for himself. An argument ensues, and the house
 intervenes, insisting that each write his claim, once and forall,
 without further communication. If the claims are consistent with
 the $16 total, each will receive exactly what he claims; but if
 together they claim more than $16, the funds will be confiscated
-by the house. As they sit pondering what claims to write, a well-
-known and respected mediator enters and offers to help. He can-
-not, he says, participate in any bargaining, but he can make a
+by the house. As they sit pondering what claims to write, a wellknown and respected mediator enters and offers to help. He cannot, he says, participate in any bargaining, but he can make a
 “fair” proposal. He approaches A and says, “I think a reasonable
-division under the circumstances would be a 2-1 split, the origi-
-nal owner getting two-thirds and the finder one-third, perhaps
+division under the circumstances would be a 2-1 split, the original owner getting two-thirds and the finder one-third, perhaps
 rounded off to $11 and $5, respectively. I shall make the same
-suggestion to him.” Without waiting for any response, he ap-
-vroaches the finder, makes the same suggestion, and says that
-he made the same suggestion to the original owner. Again with-
-out waiting for any response, he departs. You are A (B); what
+suggestion to him.” Without waiting for any response, he apvroaches the finder, makes the same suggestion, and says that
+he made the same suggestion to the original owner. Again without waiting for any response, he departs. You are A (B); what
 claim do you write?
 The outcomes in the writer’s informal sample are given in
 the footnote.4 In those problems where there is some asymmetry
@@ -2950,9 +2487,9 @@ In problem 6,14 of 22 X’s and 14 of 23 Y’s drew their boundaries exactly alo
 ihe tiver. The “correctness” of this solution is emphatically shown by the fact
 atthe other 15, who eschewed theriver, produced 14 different lines. Of 8 X 7
 erssible pairs among them, there were 55 failures and
-1
+
 success. Problem
-7
+
 ined 5 out of 6 of those with incomes of $150 and 7 out of ro of those with
 Comes of $100 concerting on a 15-10 division of the tax. In problem 8 both
 se who lost money and those who found it, 8 and 7 persons respectively,
@@ -2961,13 +2498,10 @@ Unani
 .
 Ranimously concerted on the mediator’s suggestion of an even $5 reward.
 
-
-64
 ELEMENTS OF A THEORY OF STRATEGY
 the “outcome.” The general conclusion, as given in more detail
 in the footnote, is that the participants can “solve” their problem
-in a substantial proportion of the cases; they certainly do con-
-spicuously better than any chance methods would have permitted,
+in a substantial proportion of the cases; they certainly do conspicuously better than any chance methods would have permitted,
 and even the disadvantaged party in the biased games permits
 himself to be disciplined by the message that the gameprovides
 for their coordination.
@@ -2980,16 +2514,14 @@ because there is nothing to contradict the first offer. Roads might
 seem, in principle, as plausible as rivers, especially since their
 variety permits a less arbitrary choice. But, precisely because of
 their variety, the map cannot say which road; so roads must be
-discarded in favor of the unique and unambiguousriver. (Per-
-haps in a symmetrical map of uniform terrain, the outcome
+discarded in favor of the unique and unambiguousriver. (Perhaps in a symmetrical map of uniform terrain, the outcome
 would be more akin to the so-so split in the $100 example — a
 diagonal division in half, perhaps — but the irregularity of the
 map rather precludes a geometrical solution.)
 The tax problem illustrates a strong power of suggestion in
 the income figures. The abstract logic of this problem is identical
 with that of the $100 division; in fact, it could be reworded as
-follows: each party pays $25 in taxes, and a refund of $25 is avail-
-able to be divided among the twoparties if they can agree on how
+follows: each party pays $25 in taxes, and a refund of $25 is available to be divided among the twoparties if they can agree on how
 to divide it. This formulation is logically equivalent to the one
 in problem 7, and, as such, it differs from problem 4 only in the
 amountof $25 instead of $100. Yet the inclusion of incomefigures,
@@ -3000,22 +2532,19 @@ rather than
 if incomes are relevant,
 is 4
 perfectly proportional tax so obvious, when perhaps there are
-grounds for graduated rates? The answer must be that no par-
-ticular graduation of rates is so obvious as to go without saying:
+grounds for graduated rates? The answer must be that no particular graduation of rates is so obvious as to go without saying:
 and if speech is impossible, by default the uniquely simple and
 recognizable principle of proportionality has to be adopted.First
 the income figures take the initial plausibility away from a s50-5°
 
 
 BARGAINING, COMMUNICATION, LIMITED WAR
-65
+
 split ;
 then the simplicity of proportionality makes 10-15 the
-only one that could possibly be considered capable of tacit recog-
-nition. The sameprinciple is displayed by an experiment in which
+only one that could possibly be considered capable of tacit recognition. The sameprinciple is displayed by an experiment in which
 question 7 was deliberately cluttered up with additional data —
-on family size, spending habits, and so on. Herethe uniqueattrac-
-tion of
+on family size, spending habits, and so on. Herethe uniqueattraction of
 the income-proportionate
 split apparently became so
 diluted that the preponderant reply from both the high-income
@@ -3032,9 +2561,7 @@ compelling equality in any moralistic or legalistic sense, so the
 provides the only other signal that is visible; its potency as a
 coordinator is seen even in the rounding to $11 and $5, which
 was universally accepted.
-In each of these situations the outcome is determined by some-
-thing that is fairly arbitrary. It is not a particularly “fair” out-
-come, from either an observer’s point of view or the points of
+In each of these situations the outcome is determined by something that is fairly arbitrary. It is not a particularly “fair” outcome, from either an observer’s point of view or the points of
 view of the participants. Even the 50-50 split is arbitrary in its
 reliance on a kind of recognizable mathematical purity; and
 if it is “fair,” it is so only because we have no concrete data by
@@ -3045,15 +2572,12 @@ Over kidnap ransom is not particularly “fair,” but
 it has the
 mathematical qualities of problem 4.
 If we ask what determines the outcome in these cases, the
-answer again is in the coordination problem. Each of these prob-
-lems requires coordination for a commongain, even though there
+answer again is in the coordination problem. Each of these problems requires coordination for a commongain, even though there
 lS rivalry among alternative lines of common action. But, among
 the various choices, there is usually one or only a few that can
 Serve as coordinator. Take the case of the first offer in problem s.
 The strongest argument in favor of R is the rhetorical question,
 
-
-66
 ELEMENTS OF A THEORY OF STRATEGY
 “Tf not R, what then?” There is no answer so obvious as to
 give more than a random chance of concerting, even if both
@@ -3086,17 +2610,14 @@ a variant of question 5 used in some questionnaires). Since you
 have no basis for guessing his preference and could not even do
 him a favor or make a “fair” compromise if you wished to, the
 only basis for concerting is to see what message you can both
-read in your schedule. Your ownpreferred letter seems the indi-
-cated choice; it is hard to see why to pick any other or which other
+read in your schedule. Your ownpreferred letter seems the indicated choice; it is hard to see why to pick any other or which other
 to pick, since you have no basis for knowing what other letter
 is better for him than itself. His knowledge of your preference,
-combined with your ignorance of his and the lack of any alterna-
-tive basis for coordination, puts on him the responsibility of sim-
-ply choosing in your favor. (This, in fact, was the preponderant
+combined with your ignorance of his and the lack of any alternative basis for coordination, puts on him the responsibility of simply choosing in your favor. (This, in fact, was the preponderant
 
 
 BARGAINING, COMMUNICATION, LIMITED WAR
-67
+
 result among the small sample tested.) It is the same situation as
 when only one parachutist knew where the other was.°
 EXPLICIT BARGAINING
@@ -3109,21 +2630,14 @@ the status of incidental details.
 Yet there is abundant evidence that some such influence is
 powerfully present even in explicit bargaining. In bargains that
 involve numerical magnitudes, for example, there seems to be a
-strong magnetism in mathematical simplicity. A trivial illustra-
-tion is the tendency for the outcomes to be expressed in “round
+strong magnetism in mathematical simplicity. A trivial illustration is the tendency for the outcomes to be expressed in “round
 numbers”; the salesman who works out the arithmetic for his
-“rock-bottom”price on the automobile at $2,507.63 is fairly plead-
-ing to be relieved of $7.63. The frequency with which final agree-
-mentis precipitated by an offer to “split the difference”illustrates
+“rock-bottom”price on the automobile at $2,507.63 is fairly pleading to be relieved of $7.63. The frequency with which final agreementis precipitated by an offer to “split the difference”illustrates
 the same point, and the difference that is split is by no means
-always trivial. More impressive, perhaps, is the remarkable fre-
-quency with which long negotiations over complicated quantita-
-tive formulas or ad hoc shares in somecosts or benefits converge
+always trivial. More impressive, perhaps, is the remarkable frequency with which long negotiations over complicated quantitative formulas or ad hoc shares in somecosts or benefits converge
 ultimately on something as crudely simple as equal shares, shares
-proportionate to some common magnitude (gross national prod-
-uct, population, foreign-exchange deficit, and so forth), or the
-Shares agreed on in some previous but logically irrelevant negotia-
-tion.6
+proportionate to some common magnitude (gross national product, population, foreign-exchange deficit, and so forth), or the
+Shares agreed on in some previous but logically irrelevant negotiation.6
 Precedent seems to exercise an influence that greatly exceeds
 its logical importance or legal force. A strike settlement or an
 international debt settlement often sets a “pattern” that is fol-
@@ -3131,18 +2645,14 @@ international debt settlement often sets a “pattern” that is fol-
 was commented on in an earlier footnote.
 From great variety of formulas proposed for the contributions to UNRRA,
 € winner that emerged wasa straight 1 per cent of gross national product —
-mulawest conceivable formula and the roundest conceivable number. This for-
-a was, to be sure, the preferred position of the United States during the
+mulawest conceivable formula and the roundest conceivable number. This fora was, to be sure, the preferred position of the United States during the
 treason but that fact perhaps adds as much to the example as it detracts
 i
 
-
-68
 ELEMENTS OF A THEORY OF STRATEGY
 lowed almost by default in subsequent negotiations. Sometimes,
 to be sure, there is a reason for a measure of uniformity, and
-sometimes there is enough similarity in the circumstancesto ex-
-plain similar outcomes; but more often it seems that there is
+sometimes there is enough similarity in the circumstancesto explain similar outcomes; but more often it seems that there is
 simply no heart left in the bargaining when it takes place under
 the shadow of some dramatic and conspicuous precedent.” In
 similar fashion, mediators often display a power to precipitate
@@ -3156,13 +2666,10 @@ the vacuum of indeterminacy that otherwise exists: it is not the
 facts themselves, but the creation of a specific suggestion, that
 seemsto exercise the influence.
 There is, in a similar vein, a strong attraction to the status
-quo ante as well as to natural boundaries. Even parallels of lati-
-tude have recently exhibited their longevity as focal points for
+quo ante as well as to natural boundaries. Even parallels of latitude have recently exhibited their longevity as focal points for
 agreement. Certainly there are reasons of convenience in using
-rivers as the agreed stopping place for troops or using old bound-
-aries, whatever their current relevance; but often these features
-of the landscape seem less important for their practical con-
-venience than for their power to crystallize agreement.
+rivers as the agreed stopping place for troops or using old boundaries, whatever their current relevance; but often these features
+of the landscape seem less important for their practical convenience than for their power to crystallize agreement.
 These observations would be trivial if they meant only that
 bargaining results were expressed in simple and qualitative terms
 or that minor accommodations were made to roundoff the last
@@ -3182,42 +2689,33 @@ formula a few years after World WarII.
 
 
 BARGAINING, COMMUNICATION, LIMITED WAR
-69
-ind of default, as though there is simply no rationale for set-
-tling anywhere else. Or,
+
+ind of default, as though there is simply no rationale for settling anywhere else. Or,
 if the “natural” outcome
 is taken to
 reflect the relative skills of the parties to the bargain, it may be
 important to identify that skill as the ability to set the stage
 in such a way as to give prominence to someparticular outcome
-that would be favorable. The outcome may not be so much con-
-spicuously fair or conspicuously in balance with estimated bar-
-gaining powers as just plain “conspicuous.”
+that would be favorable. The outcome may not be so much conspicuously fair or conspicuously in balance with estimated bargaining powers as just plain “conspicuous.”
 This conclusion may seem to reduce the scope for bargaining
 skill, if the outcome is already determined by the configuration
 of the problem itself and where the focal point lies. But perhaps
-what it does is shift the locus whereskill is effective. The ‘“obvi-
-ous” outcome depends greatly on how the problem is formulated,
+what it does is shift the locus whereskill is effective. The ‘“obvious” outcome depends greatly on how the problem is formulated,
 on what analogies or precedents the definition of the bargaining
 issuc calls to mind, on the kinds of data that may be available to
 bear on the question in dispute. When the committee begins to
 argue over how to divide the costs, it is already constrained by
 whether the terms of reference refer to the “dues” to be shared or
-the “taxes” to be paid, by whether a servicing committee is prepar-
-ing national-income figures or balance-of-payments figures for
+the “taxes” to be paid, by whether a servicing committee is preparing national-income figures or balance-of-payments figures for
 their use, by whether the personnel of the committee brings certain
 precedents into prominence by having participated personally in
 earlier negotiations, by whether the inclusion of two separate
-issues on the same agenda will give special prominence and rele-
-vance to those particular features that they have in common.
-Muchof the skill has already been applied when the formal nego-
-tiations begin.
+issues on the same agenda will give special prominence and relevance to those particular features that they have in common.
+Muchof the skill has already been applied when the formal negotiations begin.
 If all this is correct, as it seems frequently to the authorto be,
-Our analysis of tacit bargaining may help to provide an under-
-Standing of the influence at work; and perhapsthe logic of tacit
+Our analysis of tacit bargaining may help to provide an underStanding of the influence at work; and perhapsthe logic of tacit
 bargaining even provides a basis for believing it to be correct.
-The fundamental problem in tacit bargaining is that of coordina-
-tion; we should inquire, then, what has to be coordinated in ex-
+The fundamental problem in tacit bargaining is that of coordination; we should inquire, then, what has to be coordinated in ex-
 “Perhaps anotherrole for skill is contained in this general approach.If oneis
 Unsuccessful in getting the problem so formulated that the “obvious” outcome
 1S near his own preferred position, he can proceed to confuse the issue. Find
@@ -3225,8 +2723,6 @@ taultiple definitions for all the terms and add “noise” to drown out the str
 Signal contained in the original formulation. The technique may not succeed,
 Ut in the variant of our income-tax problem mentioned aboveit certainly did.
 
-
-70
 ELEMENTS OF A THEORY OF STRATEGY
 plicit bargaining. The answer may be that explicit bargaining
 requires, for an ultimate agreement, some coordination of the
@@ -3238,18 +2734,15 @@ any potential outcome is one from which at least one of the
 parties, and probably both, would have been willing to retreat
 for the sake of agreement, and very often the other party knows
 it. Any potential outcome is therefore one that either party could
-have improved by insisting; yet he may have no basis for in-
-sisting, since the other knows or suspects that he would rather
+have improved by insisting; yet he may have no basis for insisting, since the other knows or suspects that he would rather
 concede than do without agreement. Each party’s strategy is
 guided mainly by what he expects the other to accept orinsist
 on;
 yet each knows that the other
 is guided by reciprocal
 thoughts. The final outcome must be a point from which neither
-expects the other to retreat; yet the main ingredient of this ex-
-pectation is what one thinks the other expects the first to expect,
-and so on. Somehow, out of this fluid and indeterminate situa-
-tion that seemingly provides no logical reason for anybody to
+expects the other to retreat; yet the main ingredient of this expectation is what one thinks the other expects the first to expect,
+and so on. Somehow, out of this fluid and indeterminate situation that seemingly provides no logical reason for anybody to
 expect anything except what he expects to be expected to expect,
 a decision
 is reached. These
@@ -3258,23 +2751,20 @@ reflexive expectations
 must somehow converge on a single point, at which each expects
 the other not to expect to be expected to retreat.
 If we then ask whatit is that can bring their expectations into
-convergence and bring the negotiation to a close, we might pro-
-pose that it is the intrinsic magnetism of particular outcomes,
+convergence and bring the negotiation to a close, we might propose that it is the intrinsic magnetism of particular outcomes,
 especially those that enjoy prominence, uniqueness, simplicity,
-precedent, or somerationale that makes them qualitatively dif-
-ferentiable from the continuum of possible alternatives. We could
+precedent, or somerationale that makes them qualitatively differentiable from the continuum of possible alternatives. We could
 argue that expectations tend not to converge on outcomesthat
 differ only by degree from alternative outcomes but that people
 have to dig in their heels at a groove in order to make any show
 of determination. One has to have a reason for standing firmly
-on a position; and along the continuum of qualitatively undiffer-
-entiable positions one finds no rationale. The rationale may not
+on a position; and along the continuum of qualitatively undifferentiable positions one finds no rationale. The rationale may not
 be strong at the arbitrary “focal point,” but at least it can defend
 itself with the argument “If not here, where?”
 
 
 BARGAINING, COMMUNICATION, LIMITED WAR
-71
+
 There is perhaps a little more to this need for a mutually
 identifiable resting place. If one is about to make a concession,
 he needs to control his adversary’s expectations; he needs a
@@ -3290,10 +2780,8 @@ If some troops have retreated to the river in our map, they
 will expect to be expected to make a stand. This is the one spot
 tg which they can retreat without necessarily being expected to
 retreat further, while, if they yield any further, there is no place
-left where they can be expected to make a determinedstand.Simi-
-larly, the advancing party can expect to force the other to retreat
-to the river without having his advance interpreted as an in-
-satiable demand for unlimited retreat. There is stability at the
+left where they can be expected to make a determinedstand.Similarly, the advancing party can expect to force the other to retreat
+to the river without having his advance interpreted as an insatiable demand for unlimited retreat. There is stability at the
 river — and perhaps nowhereelse.
 This proposition may seem intuitively plausible;
 it does to
@@ -3302,21 +2790,15 @@ for the tendency to settle at focal points. But the proposition
 would remain vague and somewhat mystical if it were not for the
 somewhat more tangible logic of tacit bargaining. The latter
 provides not only an analogy but the demonstration that the
-necessary psychic phenomenon — tacit coordination of expecta-
-tions — is a real possibility and in some contexts a remarkably
+necessary psychic phenomenon — tacit coordination of expectations — is a real possibility and in some contexts a remarkably
 reliable one. The “coordination” of expectations is analogous to
 the “coordination” of behavior when communication is cut off;
-and, in fact, they both involve nothing more norless than in-
-tuitively perceived mutual expectations. Thus the empirically
+and, in fact, they both involve nothing more norless than intuitively perceived mutual expectations. Thus the empirically
 Verifiable results of some of the tacit-bargaining games, as well
 as the more logical role of coordinated expectations in that case,
 Prove that expectations can be coordinated and that someof the
-Objective details of the situation can exercise a controlling influ-
-nce when the coordination of expectations is essential. Some-
-thing is perceived by both parties when communicationis absent;
+Objective details of the situation can exercise a controlling influnce when the coordination of expectations is essential. Something is perceived by both parties when communicationis absent;
 
-
-72
 ELEMENTS OF A THEORY OF STRATEGY
 it must still be perceptible, though undoubtedly of lesser force,
 when communication is possible. The possibility of communica.
@@ -3342,17 +2824,14 @@ evidence for the latter view. The evidence is simply that if they
 had to divide the $100 without communicating, they could concert
 on 50-50. Instead of relying on intuition, then, we can point to
 the fact that in a slightly different context — the tacit-bargaining
-context —-our argument has an objectively demonstrable inter-
-pretation.
+context —-our argument has an objectively demonstrable interpretation.
 To illustrate again: the ability of the two commanders in one
 of our problems to recognize the stabilizing power of the river —
 or, rather, their inability not to recognize itis substantiated
-by the evidence that if their survival depended on someagree-
-ment about where to stabilize their lines and communication
+by the evidence that if their survival depended on someagreement about where to stabilize their lines and communication
 were not allowed, they probably could perceive and appreciate
 the qualities of the river as a focus for their tacit agreement. So
-the tacit analogy at least demonstrates that the idea of “coordi-
-nating expectations” is meaningful rather than mystical.
+the tacit analogy at least demonstrates that the idea of “coordinating expectations” is meaningful rather than mystical.
 Perhaps we could push the argumentfurther still. Even
 in
 those cases in which the only distinguishing characteristic of 4
@@ -3361,21 +2840,16 @@ participants are known to appreciate, we might argue that the
 
 
 BARGAINING, COMMUNICATION, LIMITED WAR
-73
+
 moral force of fairness is greatly reinforced by the power of a
-«fair” result to focus attention, if it fills the vacuum of indeter-
-minacy that would otherwise exist. Similarly, when the pressure
+«fair” result to focus attention, if it fills the vacuum of indeterminacy that would otherwise exist. Similarly, when the pressure
 of public opinion seems to force the participants to the obviously
 «fair” or “reasonable” solution, we may exaggerate the “pressure”
 or at least misunderstand the way it works on the participants
 unless we give credit to its power to coordinate the participants’
-expectations. It may, to putit differently, be the power of sug-
-gestion, working through the mechanism described in this paper,
+expectations. It may, to putit differently, be the power of suggestion, working through the mechanism described in this paper,
 that makes public opinion or precedent or ethical standards so
-effective. Again, as evidence for this view, we need only to sup-
-pose that the participants had to reach ultimate agreement with-
-out communicating and visualize public opinion or some promi-
-nent ethical standard as providing a strong suggestion analogous
+effective. Again, as evidence for this view, we need only to suppose that the participants had to reach ultimate agreement without communicating and visualize public opinion or some prominent ethical standard as providing a strong suggestion analogous
 to the suggestions contained in our earlier examples. The mediator
 in problem 7 is a close analogy. Finally, even if it is truly the
 force of moral responsibility or sensitivity to public opinion that
@@ -3386,24 +2860,17 @@ for a simple, qualitative
 rationale often reflects the mechanism discussed in this paper.
 But, if this general line of reasoning is valid, any analysis of
 explicit bargaining must pay attention to what we might call
-the “communication” that is inherent in the bargaining situa-
-tions, the signals that the participants read in the inanimate de-
-tails of the case. And it meansthat tacit and explicit bargaining
-are not thoroughly separate concepts but that the various grada-
-tions from tacit bargaining up through types of incompleteness
+the “communication” that is inherent in the bargaining situations, the signals that the participants read in the inanimate details of the case. And it meansthat tacit and explicit bargaining
+are not thoroughly separate concepts but that the various gradations from tacit bargaining up through types of incompleteness
 or faulty or limited communication to full communication all
 Show some dependence on the need to coordinate expectations.
 Hence all show some degree of dependence of the participants
-themselves on their common inability to keep their eyes off cer-
-tain outcomes.
-This is not necessarily an argument for expecting explicit out-
-Comes as a rule to lean toward exactly those that would have
+themselves on their common inability to keep their eyes off certain outcomes.
+This is not necessarily an argument for expecting explicit outComes as a rule to lean toward exactly those that would have
 merged if communication had been impossible; the focal points
 May certainly be different when speech is allowed, except in
 Some of the artificial cases we have used in ourillustrations. But
 
-
-74
 ELEMENTS OF A THEORY OF STRATEGY
 what may be the main principle in tacit bargaining apparently
 may be at least one of the important principles in the analysis
@@ -3417,17 +2884,13 @@ Perhaps many kinds of social stability and the formation of
 interest groups reflect the same dependence on such coordinators
 as the terrain and the circumstances can provide: the band wagon
 at political conventions that often converts the slightest sign of
-plurality into an overwhelming majority; the power of constitu-
-tional legitimacy to commandpopular supportin times of anarchy
+plurality into an overwhelming majority; the power of constitutional legitimacy to commandpopular supportin times of anarchy
 or political vacuum; the legendary power of an old gang leader
 to bring order into the underworld, simply because obediencede.
-pends on the expectation that others will be obedient in punish-
-ing disobedience. The often expressed idea of a “rallying point”
+pends on the expectation that others will be obedient in punishing disobedience. The often expressed idea of a “rallying point”
 in social action seemsto reflect the same concept. In economics
 the phenomena of price leadership, various kinds of nonprice
-competition, and perhaps evenprice stability itself appear amen-
-able to an analysis that stresses the importance of tacit com-
-munication and its dependence on qualitatively identifiable and
+competition, and perhaps evenprice stability itself appear amenable to an analysis that stresses the importance of tacit communication and its dependence on qualitatively identifiable and
 fairly unambiguoussignals that can be read in the situationitself.
 “Spontaneous” revolt mayreflect similar principles: when leaders
 can easily be destroyed, people require some signal for their
@@ -3445,22 +2908,16 @@ practical problemsof tacit bargaining that usually confront U*
 
 
 BARGAINING, COMMUNICATION, LIMITED WAR
-75
+
 particularly the problems of strategic maneuver and limited war?
 It certainly suggests that it is possible to find limits to war —
-real war, jurisdictional war, or whatever — without overt nego-
-tiation. But it gives us no new strong sense of probability. War
+real war, jurisdictional war, or whatever — without overt negotiation. But it gives us no new strong sense of probability. War
 was limited in Korea, and gas was not used in World War II;
-on the possibility of limited war these two facts are more per-
-suasive than all the suggestions contained in the foregoing dis-
-cussion. If the analysis provides anything, then, it is not a judg-
-ment of the probability of successfully reaching tacit agreement
+on the possibility of limited war these two facts are more persuasive than all the suggestions contained in the foregoing discussion. If the analysis provides anything, then, it is not a judgment of the probability of successfully reaching tacit agreement
 but a better understanding of where to look for the terms of
 agreement.
-If there are important conclusions to be drawn, they are prob-
-ably these: (1) tacit agreements or agreementsarrived at through
-partial or haphazard negotiation require terms that are qualita-
-iively distinguishable from the alternatives and cannot simply
+If there are important conclusions to be drawn, they are probably these: (1) tacit agreements or agreementsarrived at through
+partial or haphazard negotiation require terms that are qualitaiively distinguishable from the alternatives and cannot simply
 be a matter of degree; (2) when agreement must be reached with
 incomplete communication, the participants must be ready to
 allow the situation itself to exercise substantial constraint over
@@ -3471,8 +2928,7 @@ can be coordinated.
 Gas was not used in World War II. The agreement, though not
 without antecedents, was largely a tacit one. It is interesting
 to speculate on whether any alternative agreement concerning
-poison gas could have been arrived at without formal communi-
-cation (or even, for that matter, with communication). “Some
+poison gas could have been arrived at without formal communication (or even, for that matter, with communication). “Some
 gas” raises complicated questions of how much, where, under
 what circumstances: “no gas” is simple and unambiguous. Gas
 only on military personnel; gas used only by defending forces;
@@ -3486,8 +2942,6 @@ allure at coordination on the first try may spoil the chances for
 acquiescence in any limits atall.
 he physical configuration of Korea must have helped in de-
 
-
-76
 ELEMENTS OF A THEORY OF STRATEGY
 fining the limits to war and in making geographical limits pos.
 sible. The area was surrounded by water, and theprincipal north.
@@ -3501,8 +2955,7 @@ determination to advance farther and that a retreat to the waist
 did not telegraph any intention to retreat farther.
 The Formosan Straits made it possible to stabilize a line be.
 tween the Communist and National government forces of China,
-not solely because water favored the defender and inhibited at-
-tack, but because an island is an integral unit and wateris a
+not solely because water favored the defender and inhibited attack, but because an island is an integral unit and wateris a
 conspicuous boundary. Thesacrifice of any part of the island
 would have made the resulting line unstable; the retention of
 any part of the mainland would have been similarly unstable.
@@ -3516,66 +2969,52 @@ of atomic weapons orselection of targets.® No definition of size
 or target is so obvious and natural that it goes without saying,
 except for “no size, on any target.’ American assistance to the
 French forces in Indochina was persuasively limited to material,
-not people; and it was appreciated that an enlargement to in-
-clude, say, air participation could be recognized as limited to
+not people; and it was appreciated that an enlargement to include, say, air participation could be recognized as limited to
 air, while it would not be possible to establish a limited amount
 of air or ground participation. One’s intentions to abstain from
 ground intervention can be conveyed by the complete withholding
 of ground forces; one cannot nearly so easily commit some forces
-and communicate a persuasive limit to the amount that one in-
-tends to commit.
+and communicate a persuasive limit to the amount that one intends to commit.
 The strategy of retaliation is affected by the need to communi:
 cate or coordinate on limits. Local aggression defines a place:
 * This point is developed at length in Appendix A.
 
 
 BARGAINING, COMMUNICATION, LIMITED WAR
-77
+
 with luck and natural boundaries, there may betacit acceptance
 of geographical limits or limits on types of targets. One side
 or both maybe willing to acceptlimited defeat rather than take
 the initiative in breaching the rules, and to act in a mannerthat
-reassures the other of such willingness. The “rules” maybere-
-spected because, if they are once broken, there is no assurance
+reassures the other of such willingness. The “rules” mayberespected because, if they are once broken, there is no assurance
 that any new ones can be found and jointly recognized in time
 to check the widening of the conflict. But if retaliation is left to
 the method and place of the retaliator’s own choosing, it may be
 much more difficult to convey to the victim what the proposed
-limits are, so that he has a chanceto accept them in his counter-
-retaliation. In fact, the initial departure of retaliation from the
-locality that provokes it may be a kind of declaration of inde-
-pendence that is not conducive to the creation of stable mutual
+limits are, so that he has a chanceto accept them in his counterretaliation. In fact, the initial departure of retaliation from the
+locality that provokes it may be a kind of declaration of independence that is not conducive to the creation of stable mutual
 capectations. Thus the problem of finding mutually recognized
 limits on war is doubly difficult if the definition implicit in the
 aggressor’s own act is not tolerable.
-In sum, the problem of limiting warfare involves not a con-
-tinuous range of possibilities from most favorable to least favor-
-able for either side; it is a lumpy, discrete world that is better
+In sum, the problem of limiting warfare involves not a continuous range of possibilities from most favorable to least favorable for either side; it is a lumpy, discrete world that is better
 able to recognize qualitative than quantitative differences, that is
 embarrassed by the multiplicity of choices, and that forces both
 sides to accept some dictation from the elements themselves. The
 writer suggests that the sameis true of restrained competition
 in every field in which it occurs.
 PRIOR ARRANGEMENTS
-While the main burden of this paper has been that tacit bar-
-gaining is possible and is susceptible of systematic analysis, there
+While the main burden of this paper has been that tacit bargaining is possible and is susceptible of systematic analysis, there
 IS no assurance that it will succeed in any particular case or that,
-whenit succeeds,it will yield to either party a particularly favor-
-able outcome compared with alternatives that might have been
+whenit succeeds,it will yield to either party a particularly favorable outcome compared with alternatives that might have been
 available if full communication had been allowed. There is no
-assurance that the next war, if it comes, will find mutually ob-
-Served limits in time and of a sort to afford protection, unless
+assurance that the next war, if it comes, will find mutually obServed limits in time and of a sort to afford protection, unless
 explicit negotiation can take place. There is reason, therefore,
 to consider what steps can be taken before the time for tacit
 
-
-78
 ELEMENTS OF A THEORY OF STRATEGY
-bargaining occurs, to enhance the likelihood of a successful out-
-come.
+bargaining occurs, to enhance the likelihood of a successful outcome.
 Keeping communication channels open seemsto be one obvious
-point. (At a minimum, this might mean assuring that a sur-
-render offer could be heard and responded to by either side.)
+point. (At a minimum, this might mean assuring that a surrender offer could be heard and responded to by either side.)
 The technical side of this principle would be identification of who
 would send and receive messages, upon what authority, over what
 facilities, using what intermediaries if intermediaries were used,
@@ -3586,12 +3025,8 @@ and busy instant in which each side must decide whether limited
 waris in full swing or full war has just begun; and twelve hours’
 confusion over how to make contact might spoil some of the
 chances for stabilizing the action within limits.
-Thought should be given to the possible usefulness of medi-
-ators or referees. To settle on influential mediators usually re-
-quires some prior understanding, or at least a precedent or a
-tradition or a sign of welcome. Even if we rule out overt arrange-
-ments for the contingency, evidences by each side of an apprecia-
-tion of the role of referees and mediators, even a little practice
+Thought should be given to the possible usefulness of mediators or referees. To settle on influential mediators usually requires some prior understanding, or at least a precedent or a
+tradition or a sign of welcome. Even if we rule out overt arrangements for the contingency, evidences by each side of an appreciation of the role of referees and mediators, even a little practice
 in their use, might help to prepare an instrument of the most
 extreme value in an awful contingency.
 But all such efforts may suffer from the unwillingness of an
@@ -3599,29 +3034,23 @@ adversary to engage in any preparatory steps. Not only may an
 adversary balk at giving signs of eagerness to come to agreement;
 it is even possible that one side in a potential war may have a
 tactical interest in keeping that war unrestrained and aggravating
-the likelihood of mutual destruction in case it comes. Why? Be-
-cause of the strategy of threats, bluffs, and deterrents. The will-
-ingness to start a war or take steps that maylead to war, whether
-aggression or retaliation to aggression, may depend onthe confi-
-dence with which a nation’s leaders think a war could be kept
-within limits. To be specific, the willingness of America to re-
-taliate against local aggression with atomic attack depends — and
+the likelihood of mutual destruction in case it comes. Why? Because of the strategy of threats, bluffs, and deterrents. The willingness to start a war or take steps that maylead to war, whether
+aggression or retaliation to aggression, may depend onthe confidence with which a nation’s leaders think a war could be kept
+within limits. To be specific, the willingness of America to retaliate against local aggression with atomic attack depends — and
 the Russians know that it depends — on how likely we considef
 it that such retaliation could itself remain limited. That is,
 it
 
 
 BARGAINING, COMMUNICATION, LIMITED WAR
-719
-depends on how likely it is in our judgment that we and the Rus-
-sjans, When we both desperately need to recognize limits within
+
+depends on how likely it is in our judgment that we and the Russjans, When we both desperately need to recognize limits within
 which either of us is willing to lose the war without enlarging
 those limits, will find such limits and come to mutually recognized
 acquiescence in them. If, then, Russian refusal to engage in any
 activity that might lead to the possibility of limited war deters
 our own resolution to act, they might risk forgoing such limits
-for the sake of reducing the threat of American action. One para-
-chutist in our example may know that the other will be careless
+for the sake of reducing the threat of American action. One parachutist in our example may know that the other will be careless
 with the plane if he is sure they can meet and save themselves;
 so if the first abstains from discussing the contingency, the other
 will have to ride quietly for fear of precipitating a fatal separation
@@ -3632,9 +3061,7 @@ a useful idea that emerges from oneof our earlier games.It is that
 negotiation or communication for the purpose of coordinating
 expectations need not be reciprocal: unilateral negotiation may
 provide the coordination that will save both parties. Furthermore,
-even an unwilling member cannot necessarily make himself un-
-available for the receipt of messages. Recall the man who pro-
-posed the letter R in one of the bargaining games: as long as the
+even an unwilling member cannot necessarily make himself unavailable for the receipt of messages. Recall the man who proposed the letter R in one of the bargaining games: as long as the
 partner heard — and it is obvious that he heard — the letter R
 is the only extant proposal, and, being unchallenged, it may
 coordinate
@@ -3642,8 +3069,7 @@ in default
 of any counterproposal nearly as well
 as if
 it had been explicitly accepted. (Even denial of it by
-the other party might not manageto dislodge its claim to promi-
-hence but rather simply prove
+the other party might not manageto dislodge its claim to promihence but rather simply prove
 his awareness
 of
 it, as long
@@ -3658,8 +3084,6 @@ it had been on the tip of his tongue to say, “How stupid,” or
 Not me, climbing hurts mylegs,’ when the plane failed. When
 Somesignal is desperately needed by both parties and both parties
 
-
-80
 ELEMENTS OF A THEORY OF STRATEGY
 know it, even a poor signal and a discriminatory one may com.
 mand recognition, in default of any other. Once the contingency
@@ -3673,16 +3097,11 @@ II
 A REORIENTATION OF
 GAME THEORY
 
-
-
-
-4
 TOWARD A THEORY OF
 INTERDEPENDENT DECISION
 On the strategy of pure conflict-—the zero-sum games —
 game theory has yielded important insight and advice. But on
-the strategy of action where conflict is mixed with mutual de-
-pendence — the nonzero-sum games involved in wars and threats
+the strategy of action where conflict is mixed with mutual dependence — the nonzero-sum games involved in wars and threats
 of war, strikes, negotiations, criminal deterrence, class war, race
 war, price war, and blackmail; maneuvering in a bureaucracy
 or in a traffic jam; and the coercion of one’s own children —
@@ -3690,26 +3109,21 @@ traditional game theory has not yielded comparable insight or
 advice. These are the “games” in which, though the element of
 conflict provides the dramatic interest, mutual dependence
 is
-part of the logical structure and demands somekindofcollabora-
-tion or mutual accommodation — tacit, if not explicit — even if
+part of the logical structure and demands somekindofcollaboration or mutual accommodation — tacit, if not explicit — even if
 only in the avoidance of mutual disaster. These are also gamesin
 which, though secrecy may play a strategic role, there is some
 essential need for the signaling of intentions and the meeting of
 minds. Finally, they are games in which what one player can
 do to avert mutual damageaffects what another player will do to
-avert it, so that it is not always an advantage to possess initia-
-tive, knowledge, or freedom of choice.
+avert it, so that it is not always an advantage to possess initiative, knowledge, or freedom of choice.
 Traditional game theory has, for the most part, applied to
-these mutual-dependence games (nonzero-sum games) the meth-
-ods and concepts that proved successful in studying the strategy
+these mutual-dependence games (nonzero-sum games) the methods and concepts that proved successful in studying the strategy
 of pure conflict. The present chapter and the one to follow
 attempt to enlarge the scope of gametheory, taking the zero-sum
 8ame to be a limiting case rather than a point of departure. The
 Proposed extension of the theory will be mainly along twolines.
 ne Is to identify the perceptual and suggestive element in the
 
-
-84
 A REORIENTATION OF GAME THEORY
 formation of mutually consistent expectations. The other
 (jp
@@ -3729,13 +3143,11 @@ and he can destroy it by adopting a minimax strategy, based, if
 necessary, on a randomizing mechanism. So the “rational strate.
 gies” pursued by two players in a situation of pure conflict — as
 typified by pursuit and evasion — should not be expected to re.
-veal what kind of behavior is conducive to mutual accommoda-
-tion, or how mutual dependence can be exploited for unilateral
+veal what kind of behavior is conducive to mutual accommodation, or how mutual dependence can be exploited for unilateral
 gain.
 If the zero-sum gameis the limiting case of pure conflict, what
 is the other extreme? It must be the “pure-collaboration” game
-in which the players win or lose together, having identical prefer-
-ences regarding the outcome. Whether they win fixed shares of
+in which the players win or lose together, having identical preferences regarding the outcome. Whether they win fixed shares of
 the total or shares that vary with the joint total, they must rank
 all possible outcomes identically, in their separate preference
 scales. (And, to avoid anyinitial conflict, it has to be evident to
@@ -3753,11 +3165,9 @@ course of the game. Players have to understand each other, to di*
 
 
 INTERDEPENDENT DECISION
-85
-cover patternsof individual behavior that make each player’s ac-
-tions predictable to the other; they have to test each other for a
-shared sense of pattern or regularity and to exploit clichés, con-
-yentions, and impromptu codesfor signaling their intentions and
+
+cover patternsof individual behavior that make each player’s actions predictable to the other; they have to test each other for a
+shared sense of pattern or regularity and to exploit clichés, conyentions, and impromptu codesfor signaling their intentions and
 responding to each other’s signals. They must communicateby hint
 and by suggestive behavior. Two vehicles trying to avoid collision,
 two people dancing together to unfamiliar music, or members of a
@@ -3767,15 +3177,11 @@ a concert audience, who must at some point “agree” on whetherto
 press for an encore or taper off together.
 If chess is the standard example of a zero-sum game, charades
 may typify the game of pure coordination; if pursuit epitomizes
-the zero-sum game, rendezvous may do the samefor the coordina-
-tion game.
+the zero-sum game, rendezvous may do the samefor the coordination game.
 An experiment of O. K. Moore and M.I. Berkowitz provides a
 nice mixture in which the two limiting cases are both visible. It
-involves a zero-sum game between two teams, each team consist-
-ing of three people. The three membersof the team haveidentical
-interests but, because of a special feature of the game, cannot be-
-have as a single entity. The special feature is that the three mem-
-bers of each team are separated and can communicate only by
+involves a zero-sum game between two teams, each team consisting of three people. The three membersof the team haveidentical
+interests but, because of a special feature of the game, cannot behave as a single entity. The special feature is that the three members of each team are separated and can communicate only by
 telephone and that all six telephones are connected on the same
 line so that everyone can hear both the other team and his own
 teammates. No prearrangement of codes is permitted. Between
@@ -3795,8 +3201,6 @@ Office of Naval Research, Technical Report, Contract No. SAR/NONR-609
 An extensive formal analysis of the coordination problem is developed by
 4cob Marschak, “Elements for a Theory of Teams,” and, “Toward an Eco-
 
-
-86
 A REORIENTATION OF GAME THEORY
 The experiments reported in Chapter 3 showed that coordinateg
 choiceis possible even in the complete absence of communication,
@@ -3810,25 +3214,20 @@ pendence on the conveyance andperception ofintentionsor plans,
 a phenomenon that brings out an essential aspect of the nonzero.
 sum game; and it stands in much the samerelation to it as the
 zero-sum game, namely, that of “limiting case.” One is the mixed
-conflict-cooperation game with all scope for cooperation elimi-
-nated ; the other is the mixed conflict-cooperation game with the
+conflict-cooperation game with all scope for cooperation eliminated ; the other is the mixed conflict-cooperation game with the
 conflict eliminated. In one the premiumis on secrecy, in the other
 on revelation.
 It is to be stressed that the pure-coordination gameis a game of
 strategy in the strict technical sense. It is a behavior situation in
 which each player’s best choice of action dependson the action he
 expects the other to take, which he knows depends,in turn, on the
-other’s expectations of his own. This interdependence of expecta-
-tions is precisely what distinguishes a game of strategy from a
+other’s expectations of his own. This interdependence of expectations is precisely what distinguishes a game of strategy from a
 gameof chance or a gameofskill. In the pure-coordination game
-the interests are convergent; in the pure-conflict game the in-
-terests are divergent; but in neither case can a choice of action be
+the interests are convergent; in the pure-conflict game the interests are divergent; but in neither case can a choice of action be
 made wisely without regard to the dependence of the outcome
 on the mutual expectations of the players.’
-nomic Theory of Organization and Information,” Cowles Foundation Discus-
-sion Papers, Nos. 94 and 95 (New Series), and, with Roy Radner, “Structural
-and Operational Communication Problems in Teams,” Cowles Foundation Ds-
-cussion Papers, Economics, No. 2076. Examples of relevant empirical work can
+nomic Theory of Organization and Information,” Cowles Foundation Discussion Papers, Nos. 94 and 95 (New Series), and, with Roy Radner, “Structural
+and Operational Communication Problems in Teams,” Cowles Foundation Dscussion Papers, Economics, No. 2076. Examples of relevant empirical work can
 be found in Alex Bavelas, “Communication Patterns in Task-oriented Groups:
 in D. Cartwright and A. F. Zander, Group Dynamics (Evanston, 1953), G A
 Heise and G. A. Miller, “Problem Solving by Small Groups Using Various
@@ -3842,13 +3241,11 @@ Psychology, 15.73-86 (February, 1932).
 
 
 INTERDEPENDENT DECISION
-87
+
 Recall the famous case of Holmes and Moriarty on separate
 trains, neither directly in touch with the other, each having to
 choose whether to get off at the next station. We can considerthree
-kinds of payoff. In one, Holmes winsa prize if they get off at dif-
-ferent Stations, Moriarty wins it if they get off at the same sta-
-tion; this is the zero-sum game, in which the preferences of the
+kinds of payoff. In one, Holmes winsa prize if they get off at different Stations, Moriarty wins it if they get off at the same station; this is the zero-sum game, in which the preferences of the
 two players are perfectly correlated inversely. In the second case,
 ‘Holmes and Moriarty will both be rewarded if they succeed in
 getting off at the same station, whatever station that may be; this
@@ -3862,9 +3259,7 @@ succeed in getting off at the same station, but Holmes gaining
 more if both he and Moriarty get off at one particular station,
 Mciarty gaining more if both get off at some other particular
 station, both losing unless they get off at the samestation. This
-is the usual nonzero-sum game, or “imperfect-correlation-of-pref-
-erences” game. This is the mixture of conflict and mutual de-
-pendence that epitomizes bargaining situations. By specifying
+is the usual nonzero-sum game, or “imperfect-correlation-of-preferences” game. This is the mixture of conflict and mutual dependence that epitomizes bargaining situations. By specifying
 particular communication andintelligence systemsfor the players,
 we can enrich the gameor makeit trivial or provide an advantage
 to one of the two players in the first and third variants.
@@ -3874,7 +3269,7 @@ other to do, knowing that the other is similarly guided, so that
 each is aware that each must try to guess what the second guesses
 the first will guess the second to guess and so on,in the familiar
 spiral of reciprocal expectations.
- 
+
 Morgenstern’s Theory of Games and Economic Behavior says: “The theory of
 such games of strategy deals precisely with the actions of several agents, in a
 Situation in which all actions are interdependent, and where, in general, there
@@ -3882,16 +3277,13 @@ IS no possibility of what we
 called parametrization that would enable each
 agent (player) to behave as if the actions of the others were given. In fact, it
 is this very lack of parametrization which is the essence of a game.” Similar
-language is used by R. Duncan Luce and Howard Raiffa in Games and Deci-
-Stons (New York, 1957): “Intuitively, the problem of conflict of interest is, for
+language is used by R. Duncan Luce and Howard Raiffa in Games and DeciStons (New York, 1957): “Intuitively, the problem of conflict of interest is, for
 each Participant, a problem of individual decision making under a mixture of
 risk and uncertainty, the uncertainty arising from his ignorance as to what
 the others will do” (p. 14). Their preoccupation is with the conflict, however;
 € case of coincident preferences they dispose of as trivial (pp. 59, 88), and
 they deal with such players as a single individual (p. 13).
 
-
-88
 A REORIENTATION OF GAME THEORY
 A RECLASSIFICATION OF GAMES
 Before going further, we can usefully reclassify gamesituations
@@ -3910,8 +3302,7 @@ would denote a negative slope and at least one pair a positive
 slope.*
 “If the nature of the game makesit desirable for a player to use a random
 device in the choice of his strategy, or feasible for the players to negotiate an
-enforcible agreement that, like a drawing of lots, depends on a chance mecha-
-nism, there may be room for cooperation in the choice of strategies even when
+enforcible agreement that, like a drawing of lots, depends on a chance mechanism, there may be room for cooperation in the choice of strategies even when
 there is perfect disagreement over the ranking of outcomes. In that case the
 points representing the pure-conflict game must meet the tighter restriction oi
 lying on a straight line, with the two axes measuring the players’ “utilities” in
@@ -3935,8 +3326,7 @@ for disagreement
 in
 the
 other,
-would have to show the expected values of all pertinent mixed (random) strate-
-gies lying along the downward-sloping and upward-sloping lines, respectively.
+would have to show the expected values of all pertinent mixed (random) strategies lying along the downward-sloping and upward-sloping lines, respectively.
 with axes measured in “utility units” of the kind mentioned; this in turn means
 that the points denoting outcomes must lie on a Straight line.
 Also, the pure games cannot admit “side payments.” If one of the partners
@@ -3944,8 +3334,7 @@ in a pure common-interest game threatens to sabotage the effect unless he is
 paid — assuming that the communication and enforcementstructure of the gam¢
 makes this possible—a conflict of interest is introduced; in effect, the point
 denoting the payment of a bribe would appear to the upperleft or lower right
-of another point or points on the upward-sloping line, producing the configura-
-tion of a mixed game. And if one of the players in a pure-conflict game ¢a?
+of another point or points on the upward-sloping line, producing the configuration of a mixed game. And if one of the players in a pure-conflict game ¢a?
 threaten damage or offer compensation to induce his opponent to yield in this
 game, there is scope for bargaining; there is no longer a relation of pure com
 flict, and the points denoting the threatened damage or promised compensatio?
@@ -3954,31 +3343,24 @@ outcomes must be allowed for. (Two simultaneous pure-conflict games, eve? !
 
 
 INTERDEPENDENT DECISION
-89
+
 We could stay close to traditional terminology, with respect to
-the strictly pure games, by calling them fixed-sum and fixed-pro-
-ortions games, getting the unwieldy variable-sum—variable-pro-
-ortions as the namefor all games except the limiting cases. We
-could also call them perfect-negative-correlation games and per-
-fect-positive-correlation games, referring
+the strictly pure games, by calling them fixed-sum and fixed-proortions games, getting the unwieldy variable-sum—variable-proortions as the namefor all games except the limiting cases. We
+could also call them perfect-negative-correlation games and perfect-positive-correlation games, referring
 to
 the correlation of
 their preferences with respect to outcomes, leaving for the richer
 mixed game the rather dull title of “imperfect-correlation game.”
 The difficulty is in finding a sufficiently rich name for the mixed
 game in which there is both conflict and mutual dependence.It is
-interesting that we have no very good word for the relation be-
-tween the players: in the common-interest game wecanrefer to
+interesting that we have no very good word for the relation between the players: in the common-interest game wecanrefer to
 them as “partners” and in the pure-conflict game as “opponents”
 or “adversaries”; but the mixed relation that is involved in wars,
 strikes, negotiations, and so forth, requires a more ambivalent
 term.® In the rest of this book I shall refer to the mixed game as a
 bargaining game or mixed-motive game, since these terms seem to
-catch the spirit. ““Mixed-motive” refers not, of course, to an in-
-dividual’s lack of clarity about his own preferences but rather
-to the ambivalence of his relation to the other player — the mix-
-ture of mutual dependence and conflict, of partnership and com-
-petition. “Nonzero-sum”refers to the mixed game together with
+catch the spirit. ““Mixed-motive” refers not, of course, to an individual’s lack of clarity about his own preferences but rather
+to the ambivalence of his relation to the other player — the mixture of mutual dependence and conflict, of partnership and competition. “Nonzero-sum”refers to the mixed game together with
 the pure common-interest game. And, because
 it characterizes
 the problem andthe activity involved, coordination game seems a
@@ -3989,12 +3371,9 @@ discussion of the pure coordination game, beyond that of Chapter
 they meet the restriction of straight lines, provide room for negotiation unless
 the slopes of the two lines happen to beidentical.)
 It deserves to be emphasized that nonzero-sum games can as properly be
-classed under theory of partnership as under theory of conflict; and for pro-
-viding insight into problems like that of limiting war, there is merit in using
-Words that bring out the commoninterest of the adversarics and the “bargain-
-ng process” involved in the military maneuvers themselves. As will be seen in
-lem g, even the problem of surprise attack is logically equivalent to a prob-
-t
+classed under theory of partnership as under theory of conflict; and for providing insight into problems like that of limiting war, there is merit in using
+Words that bring out the commoninterest of the adversarics and the “bargainng process” involved in the military maneuvers themselves. As will be seen in
+lem g, even the problem of surprise attack is logically equivalent to a probt
 in Partnership discipline. If theory
 of games has become endowed with a
 0 conflict-oriented
@@ -4002,40 +3381,30 @@ connotation,
 perhaps something
 like
 theory
-of interde-
-pendent decision would be a neutral term that equally covers the two limit-
-8 cases as well as the mixed case.
+of interdependent decision would be a neutral term that equally covers the two limit8 cases as well as the mixed case.
 
-
-90
 A REORIENTATION OF GAME THEORY
 3, will help to show that this is an important game in its own
 right and will identify certain qualities of the mixed gamethat
 appear mostclearly in the limiting case of pure coordination.
 Recall the various pure coordination problems of Chapter 3.
 Each of them evidently provided some focal point for a concerted
-choice, some clue to coordination, some rationale for the con-
-vergence of the participants’ mutual expectations. It was argued
+choice, some clue to coordination, some rationale for the convergence of the participants’ mutual expectations. It was argued
 there that the same kind of coordinating clue might be a potent
 force not only in pure coordination but in the mixed situation
 that includes conflict; and, in fact, the experiments demonstrated
 that, in the complete absence of communication, this is certainly
-true. But there are a numberof instances in which pure coordina-
-tion itself — the ¢acit procedure of identifying partners and con-
-certing plans with them — is a significant phenomenon. A good
+true. But there are a numberof instances in which pure coordination itself — the ¢acit procedure of identifying partners and concerting plans with them — is a significant phenomenon. A good
 example is the formation of riotous mobs.
 It is usually the essence of mob formation that the potential
 members have to know not only where and when to meetbutjust
 when to act so that they act in concert. Overt leadership solves
-the problem; but leadership can often be identified and elimi-
-nated by the authority trying to prevent mob action. In this case
+the problem; but leadership can often be identified and eliminated by the authority trying to prevent mob action. In this case
 the mob’s problem is to act in unison without overt leadership,
 to find some commonsignal that makes everyone confident that,
 if he acts on it, he will not be acting alone. Therole of “incidents”
 can thus be seen as a coordinating role; it is a substitute for overt
-leadership and communication. Without something like an inci-
-dent, it may be difficult to get action at all, since immunity re-
-quires that all know whento act together. Similarly, the city that
+leadership and communication. Without something like an incident, it may be difficult to get action at all, since immunity requires that all know whento act together. Similarly, the city that
 provides no “obvious” central point or dramatic site may be one
 in which mobsfindit difficult to congregate spontaneously ; there
 is no place so “obvious” that it is evident to everyone thatit is
@@ -4052,53 +3421,36 @@ or singled out for “election” to some post that everybody wants to escape.
 
 
 INTERDEPENDENT DECISION
-91
+
 dependence on tacit coordination and maneuver. When whites and
-Negroes see that an area will “inevitably” become occupied ex-
-clusively by Negroes, the “inevitability”
-is a feature of con-
-yergent expectation.” Whatis most directly perceived as inevitable
+Negroes see that an area will “inevitably” become occupied exclusively by Negroes, the “inevitability”
+is a feature of conyergent expectation.” Whatis most directly perceived as inevitable
 is not the final result but the expectation of it, which, in turn,
 makes the result inevitable. Everyone expects everyone else to
-expect everyone else to expect the result; and everyone is power-
-tess to deny it. There is no stable focal point except at the ex-
-tremes. Nobody can expect the tacit process to stop at 10, 30, or
+expect everyone else to expect the result; and everyone is powertess to deny it. There is no stable focal point except at the extremes. Nobody can expect the tacit process to stop at 10, 30, or
 6o per cent; no particular percentage commands agreement or
-provides a rallying point. If tradition suggests 100 per cent, tradi-
-tion could be contradicted only by explicit agreement; if coordina-
-tion has to be tacit, compromise may be impossible. People are at
+provides a rallying point. If tradition suggests 100 per cent, tradition could be contradicted only by explicit agreement; if coordination has to be tacit, compromise may be impossible. People are at
 the mercy of a faulty communication system that makes it easy
 to “agree” (tacitly)
 to move but impossible to agree to stay.
 Quota systems in housing developments, schools, and so forth,
-can be viewed as efforts to substitute an explicit game with com-
-munication and enforcement for a tacit game that has an un-
-desirably extreme“solution.”
+can be viewed as efforts to substitute an explicit game with communication and enforcement for a tacit game that has an undesirably extreme“solution.”
 The coordination game probably lies behind the stability of
-institutions and traditions and perhaps the phenomenon oflead-
-ership itself. Among the possible sets of rules that might govern
+institutions and traditions and perhaps the phenomenon ofleadership itself. Among the possible sets of rules that might govern
 a conflict, tradition points to the particular set that everyone can
-expect everyone else to be conscious of as a conspicuous candi-
-date for adoption; it wins by default over those that cannot read-
-ily be identified by tacit consent. The force of many rules of
+expect everyone else to be conscious of as a conspicuous candidate for adoption; it wins by default over those that cannot readily be identified by tacit consent. The force of many rules of
 etiquette and social restraint, including some (like the rule against
 ending a sentence with a preposition) that have been divested of
 their relevance or authority, seems to depend on their having
 become “solutions” to a coordination game: everyone expects
-everyone to expect everyone to expect observance, so that non-
-observance carries the pain of conspicuousness. Clothing styles
+everyone to expect everyone to expect observance, so that nonobservance carries the pain of conspicuousness. Clothing styles
 and motorcar fads may also reflect a game in which people do
 ot wish to be left out of any majority that forms and are not
-* The phenomenon,called “tipping,” is analyzed by M. Grodzins, “Metropoli-
-n Segregation,” Scientific American, 197:33-41
-(October, 1957). A more in-
-Ocuous example of explosively convergent expectations, based on tacit com-
-munication that has an almostelectric quality, is the snicker that ignites an
+* The phenomenon,called “tipping,” is analyzed by M. Grodzins, “Metropolin Segregation,” Scientific American, 197:33-41
+(October, 1957). A more inOcuous example of explosively convergent expectations, based on tacit communication that has an almostelectric quality, is the snicker that ignites an
 watburst of uncontrollable laughter in a nervous crowd. An important example
 8S the collapse of the Batista regime, or of the Fourth Republic.
 
-
-92
 A REORIENTATION OF GAME THEORY
 organized to keep majorities from forming. The concept of role
 in sociology, which explicitly involves the expectations that other.
@@ -4122,29 +3474,25 @@ in time to help mold the expectations of subsequent arrivals.
 There is a sense of “social contract,” the particular terms of
 which are sensed and accepted by each incoming generation. I am
 told that this persistence of a tradition in a social entity is one
-of the reasons why thelegal identity of an army division orregi-
-ment — its name and numberand history — is often deliberately
+of the reasons why thelegal identity of an army division orregiment — its name and numberand history — is often deliberately
 preserved whenits strength has fallen to where abolition might
 seem indicated: the tradition that goes with the legal identityof
 the group is an asset worth preserving for a future buildup. It may
 be the same phenomenon that makesit possible to collect income
-tax in some countries and not in others: if appropriate mutual ex-
-pectations exist, people will expect evasion to be on a scale small
+tax in some countries and not in others: if appropriate mutual expectations exist, people will expect evasion to be on a scale small
 enough not to overwhelm the authorities and may consequently
 pay up either out of a sense of reciprocated honesty or out of
-fear of apprehension, thus together justifying their own expecta-
-tions.
+fear of apprehension, thus together justifying their own expectations.
 Nature of the intellectual process in coordination. It should be
 emphasized that coordination is not a matter of guessing what the
 “average man”will do. Oneis not, in tacit coordination, trying [°
 
 
 INTERDEPENDENT DECISION
-93
+
 guess what another will do in an objective situation; one is trying
 to guess what the other will guess one’s self to guess the other to
-ess, and so on ad infinitum. (“Meeting” someone in the per-
-sonal column of a newspaperis a good example.*) The reasoning
+ess, and so on ad infinitum. (“Meeting” someone in the personal column of a newspaperis a good example.*) The reasoning
 pecomes disconnected from the objective situation, except insofar
 as the objective situation may provide some clue for a concerted
 choice. The analogy is not just trying to vote with the majority
@@ -4154,67 +3502,54 @@ us from outer space. “At what frequency shall we look? A long spectrum search
 for a weak signal of unknown frequency
 is difficult. But, just in the most
 favored radio region there lies a unique, objective standard of frequency, which
-must be known to every observer in the universe: the outstanding radio emis-
-sion
+must be known to every observer in the universe: the outstanding radio emission
 line
 at
 1420 megacycles of neutral hydrogen”
 (Giuseppe
 Cocconi and
-Philip Morrison, Nature, Sept. 19, 1959, pp. 844-846). The reasoning is ampli-
-fied by John Lear: “Any astronomer on earth would say, ‘Why, 1420 mega-
-cycles Ol course! That’s the characteristic radio emission line of neutral hydro-
-gen. Hydrogen being the most plentiful element beyond the earth, our neigh-
-bors would expect it to be looked for even by tyros in astronomy’” (“The
+Philip Morrison, Nature, Sept. 19, 1959, pp. 844-846). The reasoning is amplified by John Lear: “Any astronomer on earth would say, ‘Why, 1420 megacycles Ol course! That’s the characteristic radio emission line of neutral hydrogen. Hydrogen being the most plentiful element beyond the earth, our neighbors would expect it to be looked for even by tyros in astronomy’” (“The
 Search for Intelligent Life on Other Planets,” Saturday Review, Jan. 2, 1960,
 pp. 39-43). What signal to look for? Cocconi and Morrison suggest a sequence
 of small prime numbers of pulses, or simple arithmetic sums.
 And this suggests an alternative orientation of those experiments in which
 subjects are instructed
 to make guesses, throughout a long random sequence
-of red or green lights, whether red or green will come up next. Subjects appar-
-ently persist in guessing on the basis of some pattern they think they perceive,
+of red or green lights, whether red or green will come up next. Subjects apparently persist in guessing on the basis of some pattern they think they perceive,
 an “irrational” mode of behavior given their knowledge that the sequence is
 generated by a random device. But, as Herbert Simon points out, “Man is not
 only a learning animal; he is a pattern-finding and concept-forming animal”
-(“Theories of Decision-Making in Economics and Behavioral Science,” Ameri-
-can Economic Review, 44:272). Why
+(“Theories of Decision-Making in Economics and Behavioral Science,” American Economic Review, 44:272). Why
 not,
 then, add
 to
 the experiment a
-cooperating pattern-maker, who generates the signals subject to various con-
-straints and random interferences, and let the persistent pattern-seeking sub-
-Ject use his skill in finding the pattern planted by a cooperative partner rather
+cooperating pattern-maker, who generates the signals subject to various constraints and random interferences, and let the persistent pattern-seeking subJect use his skill in finding the pattern planted by a cooperative partner rather
 than spend it futilely on random series? If, to make it tax the communicators’
 ingenuity, we add a third party whose reward is inversely related to that of
 the cooperating partners, who is allowed to intercept the message and within
 limits to alter it, we have something akin to the game of Moore and Berkowitz
 described earlier. Enriching the materials available beyond the binary choice
 of red and green might provide scope for genuinely creative pattern forming,
-Of the kind that is interesting for Gestalt psychology, esthetics, and even higher-
-Order problem solving. Simon notes in the same article
+Of the kind that is interesting for Gestalt psychology, esthetics, and even higherOrder problem solving. Simon notes in the same article
 (p. 426) that even a
 Computer can be programed “to use something akin to imagery or metaphor
 imeening its proofs” of geometrical theorems. This is pattern seeking of real
 eto
 (It reminds us that the assumption of “malevolent nature” by the
 RivesBin gametheorist is not applicable to, say, mathematical invention. Nature
-0
+
 S
 hints; she presents her secrets in patterns that make them infinitely easier
 Suess than if an exhaustive scanning were required to find them.)
 
-
-94
 A REORIENTATION OF GAME THEORY
 majority and everyone knows it — not to predict Miss Rheingolq
 of 1960 but to buy the stock or real estate that everyone expects
 everyone to expect everyone to buy. Investment in diamonds may
 be a perfect example; the greatest of all may be the monetary
 role of gold, which can perhaps be explained only as the “solution”
-of a coordination game. (A common household version of the co-
-ordination game occurs when two people are cut off in a tele.
+of a coordination game. (A common household version of the coordination game occurs when two people are cut off in a tele.
 phone conversation; if they both call back, they only get busy
 signals.)
 Consider the game of “name a positive number.” Experiments
@@ -4224,9 +3559,7 @@ whenasked to pick the same numberthe others will pick when the
 others are equally interested in picking the same number, and
 everyone knows that everyone else is trying, the motivation is
 different. The preponderant choice is the number 1. And there
-seems to be goodlogic in this: there is no unique “favored num-
-ber”; the variety of candidates like 3, 7, and so forth, is em-
-barrassingly large, and there is no good wayof picking the “most
+seems to be goodlogic in this: there is no unique “favored number”; the variety of candidates like 3, 7, and so forth, is embarrassingly large, and there is no good wayof picking the “most
 favorite” or most conspicuous. If one then asks what number,
 amongall positive numbers, is most clearly unique, or what rule
 of selection would lead to unambiguous results, one may be struck
@@ -4241,10 +3574,8 @@ repeating in order to point out that, while
 it deals with exactly the problem
 dealt with here,
 its conception of the “solution”
-is mot at all the same: “Pro-
-fessional investment may be likened to those newspaper competitions in which
-the competitors have to pick out the six prettiest faces from a hundred photo-
-graphs,
+is mot at all the same: “Professional investment may be likened to those newspaper competitions in which
+the competitors have to pick out the six prettiest faces from a hundred photographs,
 the
 prize being awarded to the competitor whose choice most nearly
 corresponds to the average preferences of the competitors as a whole; so that
@@ -4269,67 +3600,29 @@ tacit
 
 
 INTERDEPENDENT DECISION
-95
-Game-theory formulation of the coordination problem. The pay-
-off matrix for a pure coordination problem would look something
+
+Game-theory formulation of the coordination problem. The payoff matrix for a pure coordination problem would look something
 ike that in Fig. 8. One player choosesa row,the other a column;
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-1
-0
-0
-0
-0
-0
-1
-0
-0
-0
-0
-0
-1
-0
-0
-0
-0
-0
-1
-0
-0
-0
-0
-0
-1
+
+
 Fic. 8
 and they receive the rewards denoted by the numbers contained
 in the cell where their choices intersect. If to each choice of one
 player there correspondsa single choice for the other that “wins”
 for both of them, we can arrange columnsso thatall the winning
-cells lie along the diagonal. In those cells there are positive pay-
-offs to both players, in the rest we can put zeros. (For our present
+cells lie along the diagonal. In those cells there are positive payoffs to both players, in the rest we can put zeros. (For our present
 purpose there is nothing lost by letting a single numberstand in
 each cell for the payoff to both players.)
 But we must rule out a possible axiom that might seem to be
 Suggested by analogy with other gametheories, namely, that (to
 use the term of Luce and Raiffa) the “labeling” of rows, columns,
 and players should makeno difference to the outcome.?° It is pre-
- 
+
 Play with multiple equilibria. To adapt “parametrically” to the behavior of
 others requires in this case that their behavior be observable, not conjectural;
 the nonparametric character of tacit coordination remains, no matter how large
 €number of players.
-Labeling of the players is explicitly ruled out by Luce and Raiffa (pp. 123-
-127) in discussing cooperative games and in effect is ruled out by Nash in his
+Labeling of the players is explicitly ruled out by Luce and Raiffa (pp. 123127) in discussing cooperative games and in effect is ruled out by Nash in his
 etry assumption (J. F. Nash, “The Bargaining Problem,” Econometrica,
 att 5~162
 [1950], and “Two Person
@@ -4344,12 +3637,9 @@ is
 “he abstract version of them as represented by a payoff matrix (which {s
 -»,
 an analytical device, not part of the game, and hence provides noleft-
-» UPper-lower, or numerical ordering of the actual strategies). A good ex-
-in which the labeling of players is the controlling factor is the interrupted
+» UPper-lower, or numerical ordering of the actual strategies). A good exin which the labeling of players is the controlling factor is the interrupted
 18:15
 
-
-96
 A REORIENTATION OF GAME THEORY
 cisely because strategies are “labeled” in some sense — that is,
 have symbolic or connotative characteristics that transcend the
@@ -4373,13 +3663,11 @@ ferent, there is less tendency for minorities to congregate at 3,
 choice, since it focuses attention on “first,” “middle,” “last,” and
 so forth.1! If strategies are not given sequential labels, that is,
 labels that can be ordered like numbers and alphabets, but are
-given individual names, and these are not presented in any par-
-ticular order, it is the names that must coordinate choice.
+given individual names, and these are not presented in any particular order, it is the names that must coordinate choice.
 And here it becomes emphatically clear that the intellectual
 processes of choosing a strategy in pure conflict and choosing a
 strategy of coordination are of wholly different sorts. At least this
-is so if one admits the “minimax” solution, randomized if neces-
-sary, in the zero-sum game. In the pure-coordination game,the
+is so if one admits the “minimax” solution, randomized if necessary, in the zero-sum game. In the pure-coordination game,the
 player’s objective is to make contact with the other player through
 some imaginative process of introspection, of searching for shared
 clues;
@@ -4409,10 +3697,9 @@ this postulate see Luce and Raiffa, p. 127.
 
 
 INTERDEPENDENT DECISION
-97
+
 To illustrate, suppose that I am to nameonecardin an ordinary
-deck of fifty-two and you are to guess which one I name. Tradi-
-tional game theory gives guidance on how to make mychoice on
+deck of fifty-two and you are to guess which one I name. Traditional game theory gives guidance on how to make mychoice on
 the assumption that I do not want you to outguess me; I can
 select at random and defy you to have a better than random
 chance of guessing what I name. Butif the gameis that I do want
@@ -4426,41 +3713,32 @@ use the labeling of the stations in order to do better than pure
 chance; and howto use it may depend more on imagination than
 on iogic, More on poetry or humor than on mathematics. It is
 noteworthy that traditional game theory does not assign a “value”
-to this game: how well people can concert in this fashion is some-
-thing that, though hopefully amenable to systematic analysis,
- 
-distribution of votes, say, among a panel of candidates. If a 55 per cent major-
-ity exists and knows that it does, among a hundred voters; if two out of six
+to this game: how well people can concert in this fashion is something that, though hopefully amenable to systematic analysis,
+
+distribution of votes, say, among a panel of candidates. If a 55 per cent majority exists and knows that it does, among a hundred voters; if two out of six
 candidates are congenial to it; and if the three candidates polling the largest
-numbers of votes become the board of directors, there is danger that unccordi-
-nated polling may concentrate too many votes on the first (or second) major-
-ity choice, leaving the minority two winning candidates with 22 votes apiece.
+numbers of votes become the board of directors, there is danger that unccordinated polling may concentrate too many votes on the first (or second) majority choice, leaving the minority two winning candidates with 22 votes apiece.
 But if each member of the majority flips a coin to cast his vote for one of
 his party’s men, the likelihood of one’s getting as few as 22 votes is only one
 chance in six. If the minority, too, lacks an overt means of collaborating and
 relies on a chance device, the majority’s chances are excellent.
-A partial randomized strategy may also be used to reduce an area of con-
-flict. Suppose two people, seated at North and East sides of a card table, are
+A partial randomized strategy may also be used to reduce an area of conflict. Suppose two people, seated at North and East sides of a card table, are
 to move to another card table adjacent that is identically oriented, must choose
 without communication what seats they will take at the other table, and will
 win prizes of $x apiece if they pick adjacent seats. This is an easy coordination
 Problem; but let us subvert the incentives, by giving an additional $2 premium
 to the player who is on the other’s right in the event they succeed in sitting
-Rext to each other. This game has no equilibrium point; interests do not con-
-Verge; there is no seating arrangement that would not give one anincentive to
+Rext to each other. This game has no equilibrium point; interests do not conVerge; there is no seating arrangement that would not give one anincentive to
 ae (Each may wish that he could promise to sit on the other’s left, but
 if
 Not.) A random strategy yields each player a minimax value of $1. But,
 ach decides where he would
 sit in
 the pure common-interest game, then
-tee:: coin to see whether he does sit there or sits opposite, the players guaran-
-equal at they neither choose the sameseat nor sit opposite each other and share
+tee:: coin to see whether he does sit there or sits opposite, the players guaranequal at they neither choose the sameseat nor sit opposite each other and share
 te chances of winning the premium. This is an equilibrium pair of (mixed)
 €les, worth an expected value of $2 apiece.
 
-
-98
 A REORIENTATION OF GAME THEORY
 cannot be discovered by reasoning a priori. This corner of Bame
 theory is inherently dependent on empirical evidence.18
@@ -4483,55 +3761,40 @@ would pay for a bit of coordinating information, and whatdifferent information
 patterns yield what chances of coordinating, to find ourselves in the middle of
 Marschak’s theory of teams.
 There is, incidentally, a version of “prisoners’ dilemma” for this game: two
-accomplices, apprehended before their alibi is prepared and interrogated sep-
-arately, must concert the
+accomplices, apprehended before their alibi is prepared and interrogated separately, must concert the
 alibis they invent or be revealed in their guilt. A
 tantalizing variant can be built by supposing that confession carries a lighter
-sentence than unconfessed guilt; each player has a “minimax” strategy of con-
-fession and must not only consider which particular alibi constitutes the best
-alibi strategy but Aow good it is (in terms of likely coincidence with his part-
-ner’s) and whetherthey share the decision to try it. The matrix might be:
- 
- 
- 
- 
-5
+sentence than unconfessed guilt; each player has a “minimax” strategy of confession and must not only consider which particular alibi constitutes the best
+alibi strategy but Aow good it is (in terms of likely coincidence with his partner’s) and whetherthey share the decision to try it. The matrix might be:
+
 °
 °
 °
-5
-5
-5
-5
-5
+
+
 I
 o
 °
 °
-5
+
 oO
-1
+
 °
 °
-5
+
 °
 °
 I
 o
- 
- 
- 
- 
- 
- 
+
+
 (Lower left entry in each cell is payoff to player choosing
 row, upper right to player choosing column.)
 
 
 INTERDEPENDENT DECISION
-99
-from decision processes that are limited to the abstract proper-
-ties of the situation.
+
+from decision processes that are limited to the abstract properties of the situation.
 A particular implication of this general point is that the game
 n “normal”
 (mathematically abstract)
@@ -4539,14 +3802,10 @@ form
 is not
 logically
 uivalent to the game in “extensive” (particular) form, once we
-admit the logic by which rational players concert their expecta-
-tions of each other. As pointed out in Chapter 3, these samecon-
-siderations seem to be powerfully present in explicit bargaining
+admit the logic by which rational players concert their expectations of each other. As pointed out in Chapter 3, these sameconsiderations seem to be powerfully present in explicit bargaining
 as well. A terminological implication of these considerations is
-that “noncooperative” is a poor name for the game of tacit co-
-ordination ; it is desperately cooperative in its own peculiar way
-and is still so when we add conflict and form the tacit mixed-
-motive game (In Appendix C it is argued that certain solution
+that “noncooperative” is a poor name for the game of tacit coordination ; it is desperately cooperative in its own peculiar way
+and is still so when we add conflict and form the tacit mixedmotive game (In Appendix C it is argued that certain solution
 concepts familiar in game theory can be given an interpretation
 in terms of the coordination concept.)
 SUGGESTION AND MUTUAL PERCEPTION IN THE
@@ -4554,25 +3813,19 @@ MIXED-MOTIVE GAME
 Coordination-gametheory, while interesting in its own right,is
 interesting mainly for the light that it sheds on the nature of the
 mixed-motive game. The coordination element shows up most
-strikingly in a purely tacit game, in which there is neither com-
-munication nor any sequence of moves by which the two players
+strikingly in a purely tacit game, in which there is neither communication nor any sequence of moves by which the two players
 accommodate themselves to each other. An example, similar to
 problem 6 on page 62, would be the following.
-One player is “located” in Cincinnati, the other in San Fran-
-cisco; they have identical maps of the United States and are to
+One player is “located” in Cincinnati, the other in San Francisco; they have identical maps of the United States and are to
 divide the country between them. Eachis to draw line dividing
 the United States into two parts; the line may be straight or
 curved, related or unrelated to physical or political landmarks.
-Ifthe two of them divide the mapdifferently, neither gets any-
-thing; but if they draw identical division lines on their maps,
+Ifthe two of them divide the mapdifferently, neither gets anything; but if they draw identical division lines on their maps,
 they are both rewarded. The reward for each player depends on
 what is contained in his piece after the division, that is, the piece
 that contains the city in which he is located. Let us leave these
-rewards vague; they may dependpartly on area, partly on popu-
-ation, partly on industrial wealth and agricultural resources,
+rewards vague; they may dependpartly on area, partly on popuation, partly on industrial wealth and agricultural resources,
 
-
-100
 A REORIENTATION OF GAME THEORY
 and so forth, and may differ somewhat for the two players, In
 other words, while all terrain is valuable, not all parts of the
@@ -4595,15 +3848,12 @@ difficult at all. But a successful outcome does depend on the
 kinds of factors that are controlling in the pure-coordination
 game; in fact, some games of this sort are “won” by the two
 players’ choosing exactly the same outcome as they would have
-chosen if the reward system gave them identical, instead of con-
-flicting, interests. The problem is to find somesignal or clue or
+chosen if the reward system gave them identical, instead of conflicting, interests. The problem is to find somesignal or clue or
 rationalization that both can perceive as the “right” one, with
 each party prepared to be disciplined by that signal or clue in the
 event that it appears to discriminate against him. They must
-find their clues where they can. (If the map they are using hap-
-pens, for example, to contain an embarrassing richness of clues,
-makingit difficult to single out any particular one, a fairly ar-
-bitrary line drawn as a suggestion by the referee, identical on
+find their clues where they can. (If the map they are using happens, for example, to contain an embarrassing richness of clues,
+makingit difficult to single out any particular one, a fairly arbitrary line drawn as a suggestion by the referee, identical on
 both maps, might have to be accepted as a “mediator,” even if it
 is substantially biased toward one of the players.)
 But this coordination element, especially in the case without
@@ -4615,40 +3865,33 @@ question arises, then, how important the coordination element ca"
 
 
 INTERDEPENDENT DECISION
-101
+
 be in mixed-motive games generally, since many of these take
 the form of overt bargaining with uninhibited speech.
 The pervasiveness of the coordination principle arises from
 two separate considerations. One, which was discussed in Chapter
 is that tacit bargaining provides an analytical model — perhaps
 only an analogy but perhapsan identification of the actual psychic
-and intellectual phenomenon — of the “rational” process of find-
-ing agreement in pure bargaining situations, those in which both
+and intellectual phenomenon — of the “rational” process of finding agreement in pure bargaining situations, those in which both
 arties recognize that there is a wide range of outcomespreferable
 to both of them over no agreementatall. The psychic phenomenon
 of “mutual perception” that can be verified as real and important
-in the tacit case has a role to play in the analysis of explicit bar-
-gaining. Coordination of expectations is the role.
+in the tacit case has a role to play in the analysis of explicit bargaining. Coordination of expectations is the role.
 Second, many of the bargaining processes or game situations
 that we want to analyze are at least partly tacit. In some cases,
-like maneuvering a car in a traffic jam, speech is physically pre-
-cluded; in others, like developing a modus vivendi with a neigh-
-bor, speech is inhibited in the interests of privacy. Illicit bargain-
-ing, or diplomatic bargaining that would be embarrassing to both
+like maneuvering a car in a traffic jam, speech is physically precluded; in others, like developing a modus vivendi with a neighbor, speech is inhibited in the interests of privacy. Illicit bargaining, or diplomatic bargaining that would be embarrassing to both
 sides if overheard by other countries, may be less than fully
 articulate. If the number of players in a gameis large,as it is in
 the bargaining process that determines the racial border lines
 between residential areas and professions, there may be
-noin-
-stitutional provision for explicit negotiation. In these cases, while
+noinstitutional provision for explicit negotiation. In these cases, while
 speech may be part of the bargaining process, actions are also
 part of it, and the gameis one of “maneuver” rather than just
 talk.
 Furthermore, if there are moves available to the players, so
 that it is an advantage to get on with the maneuver even while
 hegotiating, and particularly if some maneuvers becomevisible to
-the other player only after a time lag, there is no reason to sup-
-Pose that an instantaneous moratorium on maneuverwill reign
+the other player only after a time lag, there is no reason to supPose that an instantaneous moratorium on maneuverwill reign
 from the outset; in that case, the game progresses while the talk
 iS going on. If the moves had only symbolic significance, we could
 include them in the communication process along with speech;
@@ -4656,8 +3899,6 @@ but, typically, moves have a tactical significance, leaving the
 8ameirreversibly different from what it was before, and typically
 also their tactical significance raises them abovethe level of pure
 
-
-102
 A REORIENTATION OF GAME THEORY
 speech even in their communication content. One may say and
 say that a gun is loaded without being able to prove it until he
@@ -4670,8 +3911,7 @@ often cannot; and movescan often progress at a speed thatis de.
 termined unilaterally, not dependent on formalities of agreement
 at a conference.
 In other words, bargaining games quite typically involve a dy.
-namic process of mutual accommodation rather than pure com-
-munication culminating in a crystallized agreement. The jockey.
+namic process of mutual accommodation rather than pure communication culminating in a crystallized agreement. The jockey.
 ing for limits in limited war is a perfect example, and we might
 illustrate it by modifying the parlor game described above.
 Anillustrative tacit game. Suppose our two players with their
@@ -4688,22 +3928,17 @@ chips on states that are yet uncoveredor of placing them on states
 where there are already chips. If A puts two chips on state in
 Since it will be proposed in Chapter 6 that such games have, in fact, 4
 research value, as well as an illustrative value, it should be observed at the
-outset that there is a special problem of motivating the players in an experi-
-mental nonzero-sum game. In a zero-sum game, winning is measured relative
-to one’s immediate adversary, and the intellectual challenge and bilateral com-
-petition motivate the player toward the correct (and only) type of winning.
-But for a mixed-motive game, “winning” must be made to involve one’s abso-
-lute score, not his score relative to that of the person he plays with; the in-
-centives are distorted if the Play is dominated
+outset that there is a special problem of motivating the players in an experimental nonzero-sum game. In a zero-sum game, winning is measured relative
+to one’s immediate adversary, and the intellectual challenge and bilateral competition motivate the player toward the correct (and only) type of winning.
+But for a mixed-motive game, “winning” must be made to involve one’s absolute score, not his score relative to that of the person he plays with; the incentives are distorted if the Play is dominated
 bystric:ly bilateral competition.
 So, unless real rewards are given, the game has to be organized as a round robin
-or some such schedule that involves more than two players in a series of tw0-
-person plays, with the final outcome decided by therelative position of one’s
+or some such schedule that involves more than two players in a series of tw0person plays, with the final outcome decided by therelative position of one’s
 absolute score. (This is why there are no two-person nonzero-sum parlor games.
 
 
 INTERDEPENDENT DECISION
-103
+
 hich B previously put a chip, B’s is removed along with one of
 5 leaving one of A’s chips present to “claim” the state. And
 go the game goes until the players have used upall their chips; it
@@ -4718,8 +3953,7 @@ every one of his chips still on the board, that is, for those that
 were not removed when he “took” a state or “lost” it to the
 other player. He also gets moneyfor the states that he “possesses,”
 ‘hese being the states that he has chips on plus those without
-chips that are in the area containing his home base that is com-
-pletely inclosed by states that he does havechips on.
+chips that are in the area containing his home base that is completely inclosed by states that he does havechips on.
 These “rewards” for states possessed are specific dollar values
 attached to each of the 48 states; they vaguely follow a pattern
 suggestive of, say, “economic worth” or something of the sort.
@@ -4734,8 +3968,7 @@ learn what he can about the other’s value system by observing the
 other player’s moves.
 Here we have a mixed-motive game, which progresses by a
 Process of mutual accommodation —a series of moves in the
-Course of which the players suffer damage jointly if their ac-
-Commodation is poor. They maylose dollars by failing to predict
+Course of which the players suffer damage jointly if their acCommodation is poor. They maylose dollars by failing to predict
 Where each other will place his chips during the current move,
 in those cases where they prefer not to lose dollars fighting over
 a State. Each loses at least a dollar when one takes a state from
@@ -4743,8 +3976,6 @@ a State. Each loses at least a dollar when one takes a state from
 who loses a state attempts to recapture it by putting more chips
 On it. And not only do they lose a dollar with each dollar forfeited,
 
-
-104
 A REORIENTATION OF GAME THEORY
 but each player has fewer “chips” left from the point of view o;
 claiming states; and they may have to leave some states com.
@@ -4769,19 +4000,16 @@ as a “trade” for some other portion that he badly wants, he must
 not only make it conspicuously available to the other side but
 must somehow demarcateits limits by his own pattern of play.
 But where do the patterns come from? They are not very
-richly provided by the mathematical structure of the game,par-
-ticularly since we have purposely madeeach player’s value system
+richly provided by the mathematical structure of the game,particularly since we have purposely madeeach player’s value system
 too uncertain to the other to make considerations of symmetry,
 equality, and so forth, of any great help. Presumably, they find
-their patterns in such things as natural boundaries, familiar po-
-litical groupings, the economic characteristics of states that might
+their patterns in such things as natural boundaries, familiar political groupings, the economic characteristics of states that might
 enter their value systems, Gestalt psychology, and any clichés or
 traditions that they can work out for themselves in the process
 of play.'6
 * This has been evident in preliminary experiments with such a game.
 **If my neighbor’s fruit tree overhangs my yard and I pick exactly all the
-fruit on my side of the line, my neighbor can probably discern what my“pro-
-posal” is, and has a good idea of what he has acquiesced in for the future if he
+fruit on my side of the line, my neighbor can probably discern what my“proposal” is, and has a good idea of what he has acquiesced in for the future if he
 does not retaliate. But if, instead, I pick that same amountof fruit from bot
 sides of the line haphazardly or pick some amountthatis related, say, to the
 size of my family, he is less likely to perceive just what I have in mind. (He
@@ -4791,7 +4019,7 @@ the limit of my intentions.)
 
 
 INTERDEPENDENT DECISION
-105
+
 Explicit communication. Now let us changethe rules so that the
 jayers may talk as much as they please. How different would
 this make the game? In some respects, it should increase the
@@ -4814,16 +4042,14 @@ is different. The dependence of the two players on conveying their
 intentions to each other and perceiving the intentions of each
 other, of behaving in predictable patterns and acquiescing in rules
 or limits, is much the same asbefore.
-The contrast with a zero-sum game and the peculiarly self-
-effacing quality of a minimax solution is striking here. With a
+The contrast with a zero-sum game and the peculiarly selfeffacing quality of a minimax solution is striking here. With a
 minimax solution, a zero-sum game is reduced to a completely
 unilateral affair. One not only does not need to communicate with
 his opponent, he does not even need to know whothe opponent
 is or whether there is one. A randomized strategy is dramatically
 anticommunicative;
 it is a deliberate means of destroying any
-Possibility of communication, especially communication of inten-
-tions, inadvertent or otherwise. It is a means of expunging from
+Possibility of communication, especially communication of intentions, inadvertent or otherwise. It is a means of expunging from
 the game all details except the mathematical structure of the
 Payoff, and from the players all communicative relations.
 In chess it does not matter whether the pieces look like horses,
@@ -4832,8 +4058,6 @@ ecclesiastics, elephants, castles, or hamburger buns; whether the
 € squares are distorted to look like political or geographical
 Subdivisions. It does not matter what the players know about
 
-
-106
 A REORIENTATION OF GAME THEORY
 each other or whether they speak the same language and have q
 common culture; nor does it matter who played the game pre.
@@ -4858,12 +4082,9 @@ squares are distorted into different shapes; or what background
 story the players are told before they begin.
 Wehave now rigged the gameso that the players must bergain
 their way to an outcome, either vocally or by the successive
-movesthat they make, or both. They must find ways of regulat-
-ing their behavior, communicating their intentions, letting them-
-selves be led to some meeting of minds, tacit or explicit, to avoid
+movesthat they make, or both. They must find ways of regulating their behavior, communicating their intentions, letting themselves be led to some meeting of minds, tacit or explicit, to avoid
 mutual destruction of potential gains. The “incidental details”
-may facilitate the players’ discovery of expressive behavior pat-
-terns; and the extent to which the symbolic contents of the game
+may facilitate the players’ discovery of expressive behavior patterns; and the extent to which the symbolic contents of the game
 —the
 suggestions
 and
@@ -4880,23 +4101,20 @@ potential traditions can be perceived and jointly recognized, até
 
 
 INTERDEPENDENT DECISION
-107
+
 at all coincident with the mathematical contents of the
 me.”
 Brhe outcome
 is determined by the expectations that each
 jayer forms of how the other will play, where each of them
 n0wS that their expectations are substantially reciprocal. The
-ayers must jointly discover and mutually acquiesce in an out-
-come or in a modeof play that makes the outcome determinate.
+ayers must jointly discover and mutually acquiesce in an outcome or in a modeof play that makes the outcome determinate.
 They must together find “rules of the game” or together suffer
 the consequences.
 A good example of this problem of communicating intentions
-is that of getting across, persuasively, an intended pattern of re-
-taliation for particular acts that one proposes to consider “out of
+is that of getting across, persuasively, an intended pattern of retaliation for particular acts that one proposes to consider “out of
 pounds.” Without full communication, one’s ability to convey
-such a pattern of intentions is dependent not only on the con-
-textuai materials available
+such a pattern of intentions is dependent not only on the contextuai materials available
 for the formation of bounds and
 limits but on the capacity of the other player to recognize the
 formula (Gestalt) of retaliation when he sees a sample
@@ -4914,8 +4132,7 @@ have on its outcome and the dependence of the players on what
 * A good example is the question whether a clear line can be drawn between
 atomic and other weapons, the answer to which is reported now to be negative
 if explosive poweris the criterion, the explosive ranges having overlapped. But
-ere is nevertheless a difference if enough people think so, and they undoubt-
-edly do. It is a difference constructed of the pure fabric of expectations:
+ere is nevertheless a difference if enough people think so, and they undoubtedly do. It is a difference constructed of the pure fabric of expectations:
 it
 a ten years’ tradition that atomic weapons are different; people believe so
 and believe others to believe so, and even those who deny the difference will
@@ -4923,16 +4140,12 @@ Undoubtedly catch their breath, whenever the next one goes off in a war, in a
 Manner they cannot explain by reference to the force of the explosion. It is a
 Purely conventional difference, like the one that makes imprisonment not a
 Cruel and unusual” punishment or that makes, say, university representation
-0
-Parliament perfectly compatible with English democracy if it has always ex-
-but not if it has to be reinstated after a ten years’ lapse. The atomic-
-dee difference is also one that, probably, can be deliberately reinforced or
+
+Parliament perfectly compatible with English democracy if it has always exbut not if it has to be reinstated after a ten years’ lapse. The atomicdee difference is also one that, probably, can be deliberately reinforced or
 Tately blurred over time, as most traditions can. (This point is developed
 €ngth in Appendix A.)
 pot
 
-
-108
 A REORIENTATION OF GAME THEORY
 clues and signals the gameprovidesare relevant not merely tothe
 study of how players actually do behave in a nonzero-sum game
@@ -5014,7 +4227,7 @@ briefly be formulated like this
 psychological organization will always be 2
 ‘good’ as the prevailing conditions allow
 In this definition the term ‘good
-4
+
 undefined
 It embraces such properties as regularity, symmetry, simplicity and
 others which weshall meet in the course of our discussion” (K Koffka, Prim
@@ -5030,24 +4243,20 @@ scriptive psychology) must take these restraints into account
 
 
 INTERDEPENDENT DECISION
-109
+
 A hypothetical experiment. As anillustration of what the author
-has in mind, the following hypothetical experiment can be con-
-sidered. (Hopefully, some such experiment could be carried out.)
+has in mind, the following hypothetical experiment can be considered. (Hopefully, some such experiment could be carried out.)
 It is offered here as a conceptual analogue or, conceivably, an
 empirical test of the psychic phenomenon involved in bargaining.
 The first stage in the experimentis to invent a machine, perhaps
 on the principle of the lie detector, that will record or measure
-a person’s “recognition” or the focus of his attention or his alert-
-ness or his excitement. What we want is a machine that measures,
+a person’s “recognition” or the focus of his attention or his alertness or his excitement. What we want is a machine that measures,
 as the player scans an array of possible outcomes in someorderly
-fashion, the extent to which particular outcomescatch his atten-
-tion or generate excitement in the course of actual bargaining.
+fashion, the extent to which particular outcomescatch his attention or generate excitement in the course of actual bargaining.
 Given the machine, set up a bargaining game. For simplicity,
 make it one in which there are certain gains to be shared when
 agreciuent is reached on the shares. Give the game enough “topical
-content” to provide some room for argument, casuistry, alterna-
-tive rationales, and so forth; that is, provide more than a bare
+content” to provide some room for argument, casuistry, alternative rationales, and so forth; that is, provide more than a bare
 mathematical range with a conspicuous mid-point.
 Now havethe two players connected to their machines in such
 a way that each can see the meter on his own machine, each can
@@ -5070,8 +4279,6 @@ tend eventually to converge on a single outcome,in the sense that
 ir involuntary, physically identifiable reactions are at some
 ind of maximum for the same particular outcome amongall
 
-
-110
 A REORIENTATION OF GAME THEORY
 those to which the scanning deviceelicits their reactions. (Fo;
 control purposes, we might once have subjected each player to a
@@ -5091,8 +4298,7 @@ keep their attention from being drawn to particular outcomes,
 even unfavorable outcomes, and that a conscious effort to ignore
 a “focal point” may often enhance the focal power.) 1%
 Another variant would be to let the players bargain explicitly
-during the scanning and metering, with the scanning devicein-
-exorably eliciting their physical reactions in the course of the
+during the scanning and metering, with the scanning deviceinexorably eliciting their physical reactions in the course of the
 discussion in a mannervisible to both of them. (We could even,
 in this latter case, let a player adduce the evidence of the visible
 reaction meters if he wished to as a bargaining tactic, pointing out
@@ -5126,31 +4332,24 @@ have the same attraction as the goalkeeper had before.”
 
 INTERDEPENDENT DECISION
 lll
-ossible game outcomes and that these reactions would be con-
-spicuously
+ossible game outcomes and that these reactions would be conspicuously
 different among
 the
 different
 alternatives.
 Second,
 that these reactions, when the player knowsthat they are naked to
-his partner’s eye, would behave in a mannersuggestive of bar-
-gaining; that is, that the reactions of the two players, whenvisi-
-ble to both of them, would interact in a kind of “bargaining
+his partner’s eye, would behave in a mannersuggestive of bargaining; that is, that the reactions of the two players, whenvisible to both of them, would interact in a kind of “bargaining
 process.” Third, that this measured phenomenon, which weliken
 to a bargaining process, is part of, or is involved in, or is related
 to, the bargaining process as defined in the ordinary way. (An
-experiment of the sort described might prove especially interest-
-ing for the case of more than twopersons.)
+experiment of the sort described might prove especially interesting for the case of more than twopersons.)
 The experiment has not been carried out and is not adduced
-as evidence. It has been described here in order to give an opera-
-tional representation of the theoretical system that the author
+as evidence. It has been described here in order to give an operational representation of the theoretical system that the author
 has in mind in referring to the “convergence” of expectations and
-to suggest that the convergence that ultimately occurs in a bar-
-gaining process may depend on the dynamics of the processitself
+to suggest that the convergence that ultimately occurs in a bargaining process may depend on the dynamics of the processitself
 and not solely on the a priori data of the game.
-Some dynamic characteristics of focal-point solutions. The de-
-pendence of a “focal-point” solution on some characteristic that
+Some dynamic characteristics of focal-point solutions. The dependence of a “focal-point” solution on some characteristic that
 distinguishes it qualitatively from the surrounding alternatives
 has important dynamic considerations. For example,
 it often
@@ -5159,20 +4358,15 @@ it often
 meansthat the focal point is more persuasive as an exact expected
 outcome than as an approximation. If a bargainer has persistently
 been unsuccessfully demanding 50 per cent, compromise at 47
-per cent is unlikely; the small concession may be sign of col-
-lapse. Qualitative principles are hard to compromise, and focal
+per cent is unlikely; the small concession may be sign of collapse. Qualitative principles are hard to compromise, and focal
 Points generally depend on qualitative principles. One cannot
 €xpect to satisfy an aggressor by letting him have a few square
 miles on this side of a boundary; he knows that we both know
-that we both expect our side to retreat until we find some per-
-Suasive new boundary that can be rationalized.
-Tn fact, a focal point for agreement often owes its focal charac-
-ter to the fact that small concessions would be impossible, that
+that we both expect our side to retreat until we find some perSuasive new boundary that can be rationalized.
+Tn fact, a focal point for agreement often owes its focal character to the fact that small concessions would be impossible, that
 Small encroachments would lead to more and larger ones. One
 aws a line at some conspicuous boundaryor rests his case on
 
-
-112
 A REORIENTATION OF GAME THEORY
 some conspicuous principle that
 is supported mainly by
@@ -5194,17 +4388,13 @@ case it serves not as an outcome but as a sign of whereto look
 for the outcome. This is often true of a “test vote” in a legislative
 body or a “test issue” that arises in the relations between the
 players in some continuing game. Often it is a challenge or a dare
-or an act of defiance that, by its nature, must either elicit a sub-
-missive response from the other party or be submissively with-
-drawn.It is a small piece of the game that comes to symbolize the
+or an act of defiance that, by its nature, must either elicit a submissive response from the other party or be submissively withdrawn.It is a small piece of the game that comes to symbolize the
 gameitself, setting a pattern of expectations that extends beyond
 the substance of the point involved. Sometimesit is so intended
 and constitutes a deliberate tactic; in other cases the act or the
-issue develops an unintended symbolic significance, making com-
-promise impossible.
+issue develops an unintended symbolic significance, making compromise impossible.
 Diplomatic recognition of the Communist regime in China,
-loyalty oaths at universities, a strike settlement in a key in-
-dustry, surrender of the floor to an interrupter at a cocktail party,
+loyalty oaths at universities, a strike settlement in a key industry, surrender of the floor to an interrupter at a cocktail party,
 or the vote on some particular motion at a political convention
 mayall have this kind of significance. Sometimes,it is true, the
 outcome on this particular issue simply yields evidence of how
@@ -5221,18 +4411,16 @@ Often this phenomenoncanbe identified as an actual signal }"
 
 
 INTERDEPENDENT DECISION
-113
+
 a coordination game. The members of an unorganized coalition
 can often recognize the potentialities of concerted action without
 being sure that “agreement”exists to act in concert. One wantsto
 know how everyoneelse is going to act and whether everyoneelse
 will do what he knows he oughtto. A test vote in a legislature or
 some particular simultaneous action amongthe group, like a mass
-protest, is often a means of “ratifying” the existence of the coali-
-tion and of demonstrating that everybody expects everybodyelse
+protest, is often a means of “ratifying” the existence of the coalition and of demonstrating that everybody expects everybodyelse
 to act in concert. But even in a two-person game, as typified by
-the dare, the phenomenon of psychological dominance or sub-
-missiveness may prove to be psychologically identical with the
+the dare, the phenomenon of psychological dominance or submissiveness may prove to be psychologically identical with the
 resolution of a bargaining game.
 This process, by which particular moves in a gameoroffers and
 concessions achieve symbolic importance as indicators of where
@@ -5241,27 +4429,21 @@ an area in which experimental psychology can contribute to game
 theory.
 The Empirical Relevance of Mathematical Foci. We must avoid
 assuming that everything the analyst can perceive is perceived by
-the participants in a game, or that whatever exerts power of sug-
-gestion on the analyst does so on the participant in a game. In
+the participants in a game, or that whatever exerts power of suggestion on the analyst does so on the participant in a game. In
 particular, game characteristics that are relevant to sophisticated
 mathematical solutions (except when the samesolution can also
 be reached by an alternative, less sophisticated route) might not
-have this power of focusing expectations and influencing the out-
-come. They might haveit only if the players perceived each other
+have this power of focusing expectations and influencing the outcome. They might haveit only if the players perceived each other
 to be mathematicians. This may be the empirical interpretation
 of such “solutions” as those of Braithwaite, Nash, Harsanyi, and
 Others. It is that the mathematical properties of a game, like the
 aesthetic properties, the historical properties, the legal and moral
 Properties, the cultural properties, and all the other suggestive
 and connotative details, can serve to focus the expectations of
-Certain participants on certain solutions. If two players are them-
-selves mathematical game theorists, they may mutually perceive
-and be powerfully affected by potential solutions that have com-
-Pelling mathematical properties. Each may transcend, and know
+Certain participants on certain solutions. If two players are themselves mathematical game theorists, they may mutually perceive
+and be powerfully affected by potential solutions that have comPelling mathematical properties. Each may transcend, and know
 that the other will transcend, various adventitious details that, to
 
-
-114
 A REORIENTATION OF GAME THEORY
 nonmathematician game players, might be more relevant to the
 focusing of expectations than some of the quantitative properties
@@ -5272,40 +4454,34 @@ uniqueness or symmetry that would have nonmathematical defini.
 tions and nonmathematical appeal, too, or would happento coin.
 cide with qualitatively distinguishable points that could be ration.
 alized in an equally compelling nonmathematical way.)
-Thus mathematical solutions are one species of a genusof in-
-fluences that have the power to focus expectations; but they work
+Thus mathematical solutions are one species of a genusof influences that have the power to focus expectations; but they work
 through the same psychic mechanism — this power of suggestion
 that is able to bring expectations into convergence — as the other
 species. When husband and wife, separated in a departmentStore,
 gaily traipse off to the Lost and Found bya tacit and jocular
 mutual appreciation that it is the “obvious” place to meet, two
 mathematicians in the same situation — each aware that both are
-aware that both are mathematicians — might look for a geometri-
-cally unique point rather than one that depended on a play on
+aware that both are mathematicians — might look for a geometrically unique point rather than one that depended on a play on
 words.
 The main point here is independent of whether, under the
 “rules” of game theory, a rational player must be presumed to
-know as much mathematics as he ever has need for. Weare deal-
-ing here with the players’ shared appreciations, preoccupations,
+know as much mathematics as he ever has need for. Weare dealing here with the players’ shared appreciations, preoccupations,
 obsessions, and sensitivities to suggestion, not with the resources
 that they can draw on when necessary. If the phenomenon of
 “rational agreement” is fundamentally psychic — convergence of
 expectations — there is no presumption that mathematical game
 theory is essential to the process of reaching agreement, hence no
-basis for presuming that mathematics is a main source of in-
-spiration in the convergence process. (This topic is pursued fur-
-ther in Appendix B.)
+basis for presuming that mathematics is a main source of inspiration in the convergence process. (This topic is pursued further in Appendix B.)
 One may or may not agree with any particular hypothesis how
 a bargainer’s expectations are formed, either in the bargaining
 processor before it and either by the bargainingitself or by other
 forces. But it does seem clear that the outcome of a bargaining
-process is to be described most immediately, most straightfor-
-wardly, and most empirically in terms of some phenomenon ©
+process is to be described most immediately, most straightforwardly, and most empirically in terms of some phenomenon ©
 stabilized convergent expectations. Whether one agrees explicitly
 
 
 INTERDEPENDENT DECISION
-115
+
 to a bargain or agrees tacitly or accepts it by default, he must,if
 he has his wits about him, expect that he could do no better and
 recognize that the other party must reciprocate the feeling. Thus
@@ -5321,9 +4497,7 @@ Moves have an information content in the mixed-motive game.
 Nor can we set up as a general case the bargaining game in
 which each side has foreknowledge of the other’s preferences. To
 assume that either knows the “true” payoff matrix of the otheris
-often to make an extraordinary assumption about the institu-
-tional arrangements of the game. The reasonis that certain ele-
-ments in a bargaining gameare inherently unknowable for some
+often to make an extraordinary assumption about the institutional arrangements of the game. The reasonis that certain elements in a bargaining gameare inherently unknowable for some
 of the participants, except when there are special conditions. How
 can we know how badly the Russians would dislike an all-out war
 in which both sides were annihilated ? We cannot; and the reason
@@ -5334,18 +4508,14 @@ can they make us know it? How can they make us believe that
 what they tell us is true? How canthe prisoner being tortured for
 Secrets that he really does not know persuadehis captors that he
 does not know them? How could the Chinese, if they werereally
-determined to take Formosa at the cost of an all-out war, per-
-Suade us that they could not be deterred in any fashion and that
+determined to take Formosa at the cost of an all-out war, perSuade us that they could not be deterred in any fashion and that
 any threat on our part would only commit us both to all-out
 War p 20
-” The lack of any means of testing the truth is the very basis of that tan-
-welfa game in which each participant attaches positive value to the other's
+” The lack of any means of testing the truth is the very basis of that tanwelfa game in which each participant attaches positive value to the other's
 eae are, as when husband and wife discuss whether or not to go to a movie,
 Wan wanting to do whatever the other wants to do and wanting to seem to
 t it himself, knowing that the other is similarly expressing a preference
 
-
-116
 A REORIENTATION OF GAME THEORY
 In special cases the information can be conveyed. In an artifi.
 cial game, in which each player’s “value system” is contained on
@@ -5365,13 +4535,10 @@ preparedto sell his house for any price above ro, and two buyers,
 B and C, prepared to pay up to 15 and 25, respectively.”! (My
 numbers.) The novel part of the solution was that C might pay
 B a shareof his saving if, through B’s staying out of the market,
-C got the housefor less than 15. They proposed — andthis limita-
-tion was inherent in their concept of solution — that the most
+C got the housefor less than 15. They proposed — andthis limitation was inherent in their concept of solution — that the most
 B might receive from C was 15— 10=5. Whatis interesting about
-the information requirement of this solution is not that B’s reser-
-vation price of 15 is something that he might try to misrepresent,
-but that in the ordinary world he could not convincingly com-
-municate the truth if he wanted to. Not only does the “solution”
+the information requirement of this solution is not that B’s reservation price of 15 is something that he might try to misrepresent,
+but that in the ordinary world he could not convincingly communicate the truth if he wanted to. Not only does the “solution”
 concept — by its assumption of full information —rule out the
 intrusion of speculators (unless they genuinely want the house
 enough to give them a basis for sharing in the solution), but it
@@ -5395,15 +4562,12 @@ Behavior (Princeton, 1953), pp. 564ff.
 
 
 INTERDEPENDENT DECISION
-117
-one that D and E (speculators who are attracted by the observa-
-tion that B makesa pure bargaining profit in connection with an
+
+one that D and E (speculators who are attracted by the observation that B makesa pure bargaining profit in connection with an
 object that he never owns before or after) cannot counterfeit.
 There are undoubtedly special cases in which one can suppose
-that the other playeris like one’s self in basic values and can con-
-sequently estimate the other’s values by the simple application
-of symmetry. But in too many exciting cases one plays an op-
-ponent whois a wholly different kind of person. The father of a
+that the other playeris like one’s self in basic values and can consequently estimate the other’s values by the simple application
+of symmetry. But in too many exciting cases one plays an opponent whois a wholly different kind of person. The father of a
 kidnapped boy will not be very successful in guessing what his
 own bottom price would be if he had been the kidnapperinstead;
 it may not be easy for a British or French officer introspectively to
@@ -5413,31 +4577,24 @@ guess how much he wouldlike himself if he were the girl that he
 wants to date, or for the customerin the restaurant to know how
 much he would dislike a scene if he were the waiter instead.
 This is one of the reasons why talk is not a substitute for
-moves. Movescan in some wayalter the game, by incurring mani-
-fest costs, risks, or a reduced range of subsequent choice; they
+moves. Movescan in some wayalter the game, by incurring manifest costs, risks, or a reduced range of subsequent choice; they
 have an information content, or evidence content, of a different
 character from that of speech. Talk can be cheap when movesare
 not (except
 for the “talk” that takes the form of eforcible
 threats, promises, commitments, and so forth, and that is to be
-analyzed under the heading of moves rather than communica-
-tion anyway). Mutual accommodation ultimately requires, if the
-outcomeis to be efficient, that the division of gains be in accord-
-ance with “comparative advantage”; that is, the things a player
+analyzed under the heading of moves rather than communication anyway). Mutual accommodation ultimately requires, if the
+outcomeis to be efficient, that the division of gains be in accordance with “comparative advantage”; that is, the things a player
 concedes should be those that he wantsless than the other player,
 relative to the things he trades for. Each needs, therefore, to
 Communicate his value system with some truth, although each
-can also gain by deceiving. While one’s maneuvers are not un-
-ambiguous in their revelation of one’s value systems and may
-€ven be deliberately deceptive, they nevertheless have an evi-
-dential quality that mere speech has not.
+can also gain by deceiving. While one’s maneuvers are not unambiguous in their revelation of one’s value systems and may
+€ven be deliberately deceptive, they nevertheless have an evidential quality that mere speech has not.
 The uncertainty that can usually be presumed to exist about
 fach other’s value systems also reduces the usefulness of the
 Concept of mathematical symmetry as a normative or predictive
 Principle, Mathematical symmetry cannotbeperceived if one has
 
-
-118
 A REORIENTATION OF GAME THEORY
 access to only half the relevant magnitudes. To the extent that
 symmetryis helpful to the players in accommodating their move.
@@ -5449,8 +4606,7 @@ rather than underlying values.
 D
 ENFORCEMENT, COMMUNICATION, AND
 STRATEGIC MOVES
-Whenever we speak of deterrence, atomic blackmail, the bal-
-ance of terror, or an open-skies arrangement to reduce the fear of
+Whenever we speak of deterrence, atomic blackmail, the balance of terror, or an open-skies arrangement to reduce the fear of
 surprise attack ; when we characterize American troops in Europe
 as a irip wire or plate-glass window or propose that a threatened
 enemy be provided a face-saving exit; when we advert to the
@@ -5458,27 +4614,20 @@ impotence of a threat that is so enormous that the threatener
 would obviously shrink from carrying it out or observe that taxi
 drivers are given a wide berth because they are known to be
 indifferent to dents and scratches, we are evidently deep in game
-theory. Yet formal game theory has contributedlittle to the clari-
-fication of these ideas. The author suggests that nonzero-sum
+theory. Yet formal game theory has contributedlittle to the clarification of these ideas. The author suggests that nonzero-sum
 game theory may have missed its most promising field by being
 pitched at too abstract a level of analysis. By abstracting from
-communication and enforcement systems and by treating per-
-fect symmetry between players as the general case rather than a
+communication and enforcement systems and by treating perfect symmetry between players as the general case rather than a
 special one, game theory may have overshot the level at which
 the most fruitful work could be done and may have defined away
 Some of the essential ingredients of typical nonzero-sum games.
 Preoccupied with the solution to the nonzero-sum game, game
 theory has not done justice to some typical gamesituations or
-Same models and to the “moves” that are peculiar to nonzero-
-sum gamesof strategy.
+Same models and to the “moves” that are peculiar to nonzerosum gamesof strategy.
 What “model,” for example, epitomizes the controversy over
-Massive retaliation? What conditions are necessary for an effi-
-ves threat? What in game theory corresponds to the pro-
-lal situation “to have a bear by the tail”; how do we identify
+Massive retaliation? What conditions are necessary for an effives threat? What in game theory corresponds to the prolal situation “to have a bear by the tail”; how do we identify
 © Payoff matrix, the communication system, and the enforce-
 
-
-120
 A REORIENTATION OF GAME THEORY
 ment system that it embodies? Whatare the tactics by which
 pedestrians intimidate automobile drivers, or small countrieslarge
@@ -5496,16 +4645,13 @@ back on the beast; a pursuer armed only with a hand grenade
 who inadvertently gets too close to his victim and dares not use
 his weapon; two neighbors, each controlling dynamite in the
 other’s basement, trying to find mutual security through some
-arrangement of electric switches and detonators.” If we can an-
-alyze the structures of these games and develop a workingac-
-quaintance with standard models, we may provide insight into
+arrangement of electric switches and detonators.” If we can analyze the structures of these games and develop a workingacquaintance with standard models, we may provide insight into
 real problems by the use of our theory.
 To illustrate, an instructive model is that of twenty men held
 up for robbery or ransom by a single man whohasa gunandsix
 bullets. They can overwhelm him if they are willing to lose six
 of themselves, if they have a meansof deciding whichsix tolose.
-They can defeat him withoutloss if they can visibly commit them-
-selves to a threat to do so, if they can simultaneously commit
+They can defeat him withoutloss if they can visibly commit themselves to a threat to do so, if they can simultaneously commit
 themselves to a promise to abstain from capital punishment, once
 they have caught him. Hecan deter their threat if he can visibly
 commit himself to shoot in disregard of any subsequent threat
@@ -5523,7 +4669,7 @@ out a number of problems involving dynamite, detonators, and deterrence
 
 
 STRATEGIC MOVES
-121
+
 together, he can deter agreement. If the twenty cannotfind a way
 to divide the risk, there may be no oneto go first to carry out
 the threat, hence no way to make the threat persuasive; and if
@@ -5534,8 +4680,7 @@ overpower the remaining six and force them to advance, they
 can demonstrate that they could overwhelm the man; if so, the
 threat succeeds and the gunman surrenders, and even the six
 “expendables” gain through their own inability to avoid jeopardy.
-If the twenty could overwhelm the man but have no wayoflet-
-ting him escape, a promise of immunity may be necessary; but
+If the twenty could overwhelm the man but have no wayofletting him escape, a promise of immunity may be necessary; but
 if they cannot deny their capacity to identify him and testify
 against him later, it may be necessary to let him take a hostage.
 This, in turn, depends on the ability of nineteen to enforce their
@@ -5543,8 +4688,7 @@ own agreement to protect, by silence, whoever is currently the
 hostage
 .
 .
-. and so on. When wehaveidentified the critical in-
-gredients in several games of this sort, we may be in a better
+. and so on. When wehaveidentified the critical ingredients in several games of this sort, we may be in a better
 position to understand the basis of power of an unpopular despot
 or of a well-organized dominant minority, or the conditions for
 successful mutiny.
@@ -5559,13 +4703,10 @@ An example of a standard “move”is the commitment, analyzed
 at some length in Chapter 3. If the institutional environment
 Makes it possible for a potential buyer to make single “final”
 offer subject to extreme penalty in the event he should amend
-the offer — to commit himself — there remainsbut a single, well-
-determined decision for theseller: to sell at the price proposed or
+the offer — to commit himself — there remainsbut a single, welldetermined decision for theseller: to sell at the price proposed or
 to forego the sale. The possibility of commitment converts an
 determinate bargaining situation into a two-move game; one
 
-
-122
 A REORIENTATION OF GAME THEORY
 player assumes a commitment, and the other makesa final deci.
 sion. The game has becomedeterminate?
@@ -5582,15 +4723,13 @@ case of a tie, but we have not, by an assumption of symmetry,
 made ties a foregone conclusion.)
 But, although we have made the game “determinate” in the
 sense that we have no difficulty in identifying the “solution,”
-once we haveidentified which of the two players can first com-
-mit himself, it remains a game of strategy. Though the winner
+once we haveidentified which of the two players can first commit himself, it remains a game of strategy. Though the winner
 is the one who achieves his commitmentfirst, the game is not
 like a foot race that goes to the fastest. The difference is that
 the commitment does not automatically win under the rules of
 the game, either physically or legally. The outcomestill depends
 on the second player, over whom the first player has no direct
-control. The commitment is a strategic move, a move that in-
-duces the other player to choose in one’s favor. It constrains the
+control. The commitment is a strategic move, a move that induces the other player to choose in one’s favor. It constrains the
 other player’s choice by affecting his expectations.
 The power
 to commit one’s
@@ -5601,8 +4740,7 @@ is
 equivalent to
 “first move.” And
 if the
-institutional arrange-
-ments provide no meansfor incurring an irrevocable commitment
+institutional arrangements provide no meansfor incurring an irrevocable commitment
 *In the real estate example of Von Neumann and Morgenstern referred [0
 earlier (p. 116) buyer B (whose top price is 15) might raise the limit on what
 he can extract from buyer C (whose top price is 25) if he can find some means
@@ -5619,12 +4757,11 @@ mitment is demonstrable while subjective valuations are not.
 
 
 STRATEGIC MOVES
-123
+
 in a legal or contractual sense, one may accomplish the same
 thing by an irreversible maneuver that reduces his own freedom
 of chvice. One escapes an undesired invitation by commitment
-when he arranges a “prior” engagement; failing that, he can de-
-liberately catch cold. Luce and Raiffa have pointed out that the
+when he arranges a “prior” engagement; failing that, he can deliberately catch cold. Luce and Raiffa have pointed out that the
 same tactic can be used by a person against himself when he
 wants, for example, to go on a diet but does not trust himself.
 “He announces his intention, or accepts a wager that he will
@@ -5669,8 +4806,6 @@ than
 because the “threat” either is superfluous, and does not constitute a move, or
 ‘Onveys true information and relates to situations with an information struc-
 
-
-124
 A REORIENTATION OF GAME THEORY
 The threat differs from the ordinary commitment, however, in
 that it makes one’s course of action conditional on what the other
@@ -5687,18 +4822,15 @@ sense, move first or simultaneously, he can still force the legal
 equivalent of “first move” on the other by attaching his threat
 to a demand that the other promise in advance how he will be.
 have —if the game has communication and enforcement struc.
-tures that make promises feasible and that the party to be threat-
-ened cannot destroy in advance. The holdup man whoserich vic.
+tures that make promises feasible and that the party to be threatened cannot destroy in advance. The holdup man whoserich vic.
 tim happens to have no money on him at the time can make
 nothing of his opportunity unless he can extract a hostage while
 he awaits payment; and even that will not work unless he can
 himself find a way to assume a convincing commitmentto return
-the hostage in a manner that does not subject himself to identi-
-fication or capture.
+the hostage in a manner that does not subject himself to identification or capture.
 The fact that some kind of commitment, or at least appearance
 of commitment, must lie behind the threat and be successfully
-communicated to the threatened party is in contradiction to an-
-other notion that often appears in game theory. This is the notion
+communicated to the threatened party is in contradiction to another notion that often appears in game theory. This is the notion
 that a threat is desirable, or admissible, or plausible, only if the
 reaction threatened would cause worse damage to the threatened
 party than to the party making the threat. This is the view of
@@ -5718,19 +4850,16 @@ the “true” incentive structure, and the secondis, in effect, a “warning �
 
 
 STRATEGIC MOVES
-125
+
 Luce and Raiffa, who characterize threats by the phrase, “This
 will hurt you more than it hurts me,” explicitly making threats
 depend on interpersonal utility comparisons. In the event that
 poth players attempt to make plausible threats, they say, the
-result becomes indeterminate, depending on the “bargaining per-
-sonalities” of the players; “and to predict what will in fact hap-
-pen without first having a complete psychological and economic
+result becomes indeterminate, depending on the “bargaining personalities” of the players; “and to predict what will in fact happen without first having a complete psychological and economic
 analysis of the players seems foolish indeed.” ®
 *Pp. 110-11, 119-20, 143-44. Morton A. Kaplan, in applying game theory
 to international relations, also takes the position that “any criterion giving
-weight to the threat positions of the players involves an interpersonal com-
-parison
+weight to the threat positions of the players involves an interpersonal comparison
 of
 utilities.’
 (See his System and Process in International Politics
@@ -5741,15 +4870,14 @@ their view that
 only one of the players has a “plausible” threat to make, by confining their
 brief discussion to 2 X
 2 matrices. It is impossible to show, with a 2 XK
-2
+
 maiix, a game in which both players could be interested in making threats.
 A threat is essentially a credible declaration of a conditional choice for second
 move. It is profitable only if it yields a better payoff than either first move
 or second move alone and when one can make the other player move first
 either actually or by promise.
 (If second move alone is as good, the threat
-is unnecessary; and if first move were as good, one needs only an uncondi-
-tional commitment to his strategy choice, not a commitment to a conditional
+is unnecessary; and if first move were as good, one needs only an unconditional commitment to his strategy choice, not a commitment to a conditional
 choice.) But if this preference order holds for one player in a 2 &
 2 matrix,
 it cannot hold for the other player. The actual matrices used by Luce and
@@ -5775,10 +4903,8 @@ to his preferred strategy —that
 is,
 the legal equivalent of “first move” in advance of his partner’s threat. The
 “threat” tactic of J. F. Nash, which applies to bargaining games that have a
-continuous range of efficient outcomes— or that can be made to, by agree-
-Ment on the odds in a drawing of lots— differs from the threat discussed here,
-in that the threatener does not demand, on pain of mutual damage, a par-
-ttcular outcome but only some outcomein theefficient range; that is, he shifts
+continuous range of efficient outcomes— or that can be made to, by agreeMent on the odds in a drawing of lots— differs from the threat discussed here,
+in that the threatener does not demand, on pain of mutual damage, a parttcular outcome but only some outcomein theefficient range; that is, he shifts
 the zero point corresponding to “no agreement.” The motive for that threat
 is
 the expectation
@@ -5798,8 +4924,6 @@ the own commitment. This being so, the revocable commitments can only shift
 tome point — the “status quo” that will rule unless explicit agreement on
 © outcome is reached. The “asymmetry” that is present in the particular
 
-
-126
 A REORIENTATION OF GAME THEORY
 But the issue is both simpler and moreprecise than that. Con.
 sider the left-hand matrix in Fig. 9, where Column is assumedto
@@ -5811,24 +4935,14 @@ I
 di
 I
 II
- 
- 
- 
- 
+
+
 ii
-0
-0
+
+
 ii
-8
-0
- 
- 
- 
- 
- 
- 
- 
- 
+
+
 Fic. 9
 will choose strategy ii unless Column choosesIT; that is, he gives
 Column a choice of ii,I or i,II by committing himself to that
@@ -5856,7 +4970,7 @@ cerned with what the agreement provides as long as some agreementis reache?-
 
 
 STRATEGIC MOVES
-127
+
 air to choose from —ii,I versus i,[I — there is no doubt what
 Column will do. If I threaten to blow my brains all over your
 new suit unless you give me that last slice of toast, you'll give
@@ -5875,8 +4989,7 @@ change the gameitself —that in some fashion alter the payoff
 matrix, the order of choices, or the information structure of the
 game. If the gamebyits definition admits no movesof anysort,
 except mutual agreement and refusal to agree, then it may be
-true that the “personalities” of the players determine the out-
-come, in the sense that their expectations in a “moveless” game
+true that the “personalities” of the players determine the outcome, in the sense that their expectations in a “moveless” game
 converge by a process that is wholly psychic. But, if a threat is
 anything more than an assertion that is intended to appeal to
 the other player by powerof suggestion, we must ask what more
@@ -5890,11 +5003,9 @@ final decision beyond recall to another party whose incentive
 "Edward Banfield showed methis
 irresistible quotation about the Bhats
 and Chardns of the west of India, revered as bards. “In Guzerat they carry
-large sums in bullion, through tracts where a strong escort would be insuffi-
-cient to protect it. They are also guarantees of all agreements of chiefs among
+large sums in bullion, through tracts where a strong escort would be insufficient to protect it. They are also guarantees of all agreements of chiefs among
 themselves, and even with the government.
-Their power is derived from the sanctity of their character and their des-
-berate
+Their power is derived from the sanctity of their character and their desberate
 resolution.
 If
 a man
@@ -5922,8 +5033,6 @@ is exemplary, and they never hesitate to sacrifice their lives to
 oe Up an ascendency on which the importance of their cast depends” (The
 . Mountstuart Elphinstone, History of India (ed. 7; London, 1889], p. 211).
 
-
-128
 A REORIENTATION OF GAME THEORY
 structure would provide an ex post motive for fulfilment
 (as
@@ -5939,11 +5048,9 @@ that he has threatened somewhat implausibly to defend at great
 cost). A nice everyday example is given by Erving Goffman, who
 reminds us that “salesmen, especially street ‘stemmers,’ know
 that if they take a line that will be discredited unless the re.
-luctant customer buys, the customer maybe trapped by consider-
-ateness and buy in order to save the face of the salesman and
+luctant customer buys, the customer maybe trapped by considerateness and buy in order to save the face of the salesman and
 prevent what would ordinarily result in a scene.” 8
-There are, however, some ways in which this notion of com-
-mitment to a threat can be usefully loosened. Oneis to recognize
+There are, however, some ways in which this notion of commitment to a threat can be usefully loosened. Oneis to recognize
 that “firm” commitment amounts to
 the invocation of some
 wholly potent penalty, such that one would in all circumstances
@@ -5957,14 +5064,10 @@ supposing that the penalty is of finite size and not necessarily
 so large as to be controlling in all cases. In Fig. 1o Column wil!
 I
 I
- 
- 
- 
- 
- 
- 
+
+
 Fic.
-10
+
 * Goffman’s paperis a brilliant study in the relation of game theory to games
 manship and a pioneerillustration of the rich game-theoretic content of form’
 ized behavior structures
@@ -5976,30 +5079,21 @@ by implication — the law.
 
 
 STRATEGIC MOVES
-129
+
 win if he has first move, unless Row can commit himself to i.
-(Commitment obtains “first move” for Row.) But, if commit-
-ment means the attachment of a finite penalty to the choice of
+(Commitment obtains “first move” for Row.) But, if commitment means the attachment of a finite penalty to the choice of
 row ii and we show this in the matrix by subtracting from each
-of Row’s payoffs in ii some finite amount representing the pen-
-alty, then the commitmentwill be effective only if the penalty is
-reater than 2. Otherwise it is clear to Column that Row’s re-
-sponse to II will be ii, in spite of the commitment. In this case
+of Row’s payoffs in ii some finite amount representing the penalty, then the commitmentwill be effective only if the penalty is
+reater than 2. Otherwise it is clear to Column that Row’s response to II will be ii, in spite of the commitment. In this case
 the commitment is simply a loss that Row would impose on
 himself, so he avoidsit.
 Similarly with a threat. In Fig. 11 without threats, the solution
- 
- 
- 
- 
- 
- 
- 
- 
+
+
 I
 I
 III
-1
+
 —5
 —])
 -1
@@ -6008,39 +5102,35 @@ III
 —2
 ii
 —3$
-3
-2
+
+
 —4
-0
-2
+
+
 -—3
-1
-0
+
+
 ili
 —4
-1
+
 s
 Fic.
-11
+
 is at iii,II whether the rules call for Row to choose first, Column
 first, or both to choose simultaneously. Either player can winif
-he can move second and confront the other with a threat.® Col-
-umn would threaten I against iii, Row would threaten i against
+he can move second and confront the other with a threat.® Column would threaten I against iii, Row would threaten i against
 *If a player, Column, for example, cannot force first move on Row in a
 Mechanical sense, he can do so in a “legal” sense by threatening to choose I
 unless Row promises to chose ii. Full analysis in this case requires attention to
-the Penalties on promises as well as on threats. Since the physical and institu-
-tional arrangements
+the Penalties on promises as well as on threats. Since the physical and institutional arrangements
 for promises
 (that
 is,
 for commitments to
 the second
-Party) are generally of a quite different nature from those for unilateral com-
-Mitments
+Party) are generally of a quite different nature from those for unilateral comMitments
 (that
-is, commitments that the second player cannot himself dis-
-solve),
+is, commitments that the second player cannot himself dissolve),
 available
 penalties
 could
@@ -6054,13 +5144,10 @@ Promises— just as, in general, they would differ as between thefirst and secon
 Players, The particular payoffs shown in Fig. 4 would require penalties of at
 one I on a promise by Column or by Row. Note that in the case of a promise
 vokned by a threat,
-it is an advantage to the threatener to be able to in-
-his
+it is an advantage to the threatener to be able to inhis
 Penalty and a disadvantage to the victim to be able to invoke penalty on
 Wn breach of contract, that is, to be able to comply.
 
-
-130
 A REORIENTATION OF GAME THEORY
 II. But if the threat is secured by a penalty, the lower limit to
 any persuasive penalty that Column could invoke would be 4
@@ -6079,20 +5166,17 @@ calling a sufficiently terrible penalty on his own head.
 Note that the “hurt-more” comparison in this case refers not
 to whether Row or Column would be hurt more by what Row
 threatens but to whether Row would be hurt more by having to
-fulfil his own threat than Column would be hurt if, instead, Col-
-umn had made Ais threat. Actually, in the particular payoff matrix
+fulfil his own threat than Column would be hurt if, instead, Column had made Ais threat. Actually, in the particular payoff matrix
 shown, Row’s successful threat is one that would hurt him more
 in the fulfilment than it would hurt Column, while Column’s
 potential uzsuccessful threat would hurt him Jess to fulfil than it
 would hurt Row.
-Another loosening of the threat concept is to alter our assump-
-tion of rationality. Suppose there
+Another loosening of the threat concept is to alter our assumption of rationality. Suppose there
 is some probability Pr for
 player R, and some probability Pc for player C, that he will
 make a mistake or an irrational move, or that he will act in an
 unanticipated way because the other player is mistaken about
-the first player’s payoffs.1° This yields us a game in which thepos-
-sible gains and losses in committing one’s self to a threat must
+the first player’s payoffs.1° This yields us a game in which thepossible gains and losses in committing one’s self to a threat must
 take into account the possibility that a fully committed threat
 will not be heeded. If, then, the potential loss that will ensue
 from having to carry out the threat is greater for one player than
@@ -6105,7 +5189,7 @@ and the other player not, considering the possibility of “error.”
 
 
 STRATEGIC MOVES
-131
+
 pave opportunities for threats and there is danger of simultaneous
 commitment through the failure of one to observe the other’s
 commitment and to stop in time to save both.)
@@ -6113,41 +5197,26 @@ This modification in the threat concept —in the rationality
 stulate that underlies it —- goes somewhat in the direction of
 the “hurt-more” criterion. On the whole, though, game theory
 adds more insight into the strategy of bargaining by emphasizing
-the striking truth that the threat does mot depend on the threat-
-ener’s having less to suffer than the threatened party if the threat
+the striking truth that the threat does mot depend on the threatener’s having less to suffer than the threatened party if the threat
 had to be carried out rather than by exaggerating the possible
 truth contained in the intuitive first impression. Threats of war,
 of price war, of damage suit; threats to make a “scene”; most
-of the threats of organized society to prosecute crimes and mis-
-demeanors; and the concepts of extortion and deterrence gen-
-erally cannot be understood except by denying the utility-com-
-parison criterion. It is indeed the asymmetries in the threat situa-
-tion, as between the two players, that make threats a rich sub-
-ject for study; but the relevant asymmetries include those in
+of the threats of organized society to prosecute crimes and misdemeanors; and the concepts of extortion and deterrence generally cannot be understood except by denying the utility-comparison criterion. It is indeed the asymmetries in the threat situation, as between the two players, that make threats a rich subject for study; but the relevant asymmetries include those in
 the communication system, in the enforcibility of threats and of
-promises, in the speed of commitment, in the rationality of ex-
-pected responses, and, finally
-(in some cases) in the relative-
-damagecriterion.
+promises, in the speed of commitment, in the rationality of expected responses, and, finally
+(in some cases) in the relativedamagecriterion.
 PROMISES
 Enforcible promises cannot be taken for granted. Agreements
-Must be in enforcible terms and involve enforcible types of be-
-havior. Enforcement depends on at
+Must be in enforcible terms and involve enforcible types of behavior. Enforcement depends on at
 least two
 things — some
-authority somewhere to punish or coerce and an ability to dis-
-cern whether punishment or coercion is called for. The postwar
-discussions of disarmament proposals and inspection schemesin-
-dicate how difficult it may be, even if both sides should desper-
-ately desire to reach an enforcible agreement or find a persuasive
+authority somewhere to punish or coerce and an ability to discern whether punishment or coercion is called for. The postwar
+discussions of disarmament proposals and inspection schemesindicate how difficult it may be, even if both sides should desperately desire to reach an enforcible agreement or find a persuasive
 Means of enforcement. The problem is compounded whenneither
 Party trusts the other and each recognizes that neither trusts the
-Other and that neither can therefore anticipate the other’s compli-
-ance. Many of the technical problems of arms inspection would
+Other and that neither can therefore anticipate the other’s compliance. Many of the technical problems of arms inspection would
 ‘Sappear if there were some earthly meansof making enforcible
 
-
-132
 A REORIENTATION OF GAME THEORY
 promises or if the nations of the world all rendered unquestioneg
 allegiance to some unearthly authority. But, since noncompliance
@@ -6165,41 +5234,30 @@ commitments, given against a quid pro quothatis often a prom.
 ise in return. But there is incentive for a unilateral promise when
 it provides inducement to the other player to make a choice in
 the mutualinterest. In the left-hand matrix of Fig. 12, if choices
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
 I
 I
 I
 Il
 i
-0
+
 —1
 i
-0
+
 ~!1
-0
-2
-0
+
+
 Q
 nh
-2
-1
+
+
 ik
-0
-1
+
+
 —1
-1
-0
-1
+
+
 Fic. 12
 are to be simultaneous, only a pair of promises can beeffective:
 in the right-hand matrix, Row’s promise brings its own reward:
@@ -6217,7 +5275,7 @@ The witness to a crime has a motive for unilateral promise if the
 
 
 STRATEGIC MOVES
-133
+
 criminal wouldkill to keep him from squealing." A nation known
 to be on the threshold of an absolutely potent surprise-attack
 weapon may have reason to foreswear it unilaterally —if there
@@ -6229,26 +5287,18 @@ to a threat — is not obvious. It might seem that a promise is a
 commitment (conditional or unconditional) that the second party
 welcomes, one that is mutually advantageous, as in both the
 games shown in Fig. 12. But Fig. 13 shows a situation in which
- 
- 
- 
- 
- 
- 
+
+
 I
 i
 i
-5
-4
-2
-4
+
+
 ii
-1
-0
-1
-5
+
+
 Fic.
-13
+
 Row must couple a threat and a promise; he threatensii against
 I and promises i in the event of II. The promise insures Column
 a payoff of 4 rather than zero, once he has made a choice of II,
@@ -6261,16 +5311,13 @@ to Choose II, since a choice of II leaves him with an outcomeat
 li,II, zero instead of 1. Row’s threat can work only if the promise
 80es with it; the net effect of the promise is to makethe threat
 Work, yielding Column 4 instead of 5, gaining 5 rather than 2
-"This notion is celebrated in “Wet Saturday,” by John Collier, recently re-
-Produced by Alfred Hitchcock on TV. An inadvertent eavesdropper on a murder
+"This notion is celebrated in “Wet Saturday,” by John Collier, recently reProduced by Alfred Hitchcock on TV. An inadvertent eavesdropper on a murder
 'S Ordered at gunpoint to seal his lips by leaving his own fingerprints and other
 Ncriminating evidence, so that if the body is found he will be charged with
 as Murder. He should have insisted, however, on fabricating the evidence so
 (sn Share the guilt with the actual murderer; as it was, he got badly cheated.
 Ort Stories from the “New Yorker’ (London, 1951], pp. 171-178.)
 
-
-134
 A REORIENTATION OF GAME THEORY
 for Row. One cannot force spies, conspirators, or carriers of
 social diseases to reveal themselves solely by the threat of a re.
@@ -6290,17 +5337,13 @@ becomes obscured. (In fact, the definition breaks down whenever
 the equivalent of a promise is obtained by someirrevocable act
 rather than by a “legal” commitment.)
 Actually, whenever the alternative choices are more than two,
-threat and promise are likely to be mixed in any “reaction pat-
-tern” that one presents to the other. So it is probably best to
+threat and promise are likely to be mixed in any “reaction pattern” that one presents to the other. So it is probably best to
 consider the threat and the promise to be names for different
-aspects of the same tactic of selective and conditional self-com-
-mitment, which in certain simple instances can be identified in
+aspects of the same tactic of selective and conditional self-commitment, which in certain simple instances can be identified in
 terms of the second party’sinterest.
-Enforcement schemes. Agreements are unenforcible if no out-
-side authority exists to enforce them or if noncompliance would
+Enforcement schemes. Agreements are unenforcible if no outside authority exists to enforce them or if noncompliance would
 be inherently undetectable. The problem arises, then, of finding
-forms of agreement, or terms to agree on, that provide no incen-
-tive to cheat or that make noncompliance automatically visible
+forms of agreement, or terms to agree on, that provide no incentive to cheat or that make noncompliance automatically visible
 or that incur the penalties on which the possibility of enforcement
 rests. While the possibility of “trust” between two partners need
 not be ruled out, it should also not be taken for granted; and
@@ -6313,48 +5356,35 @@ tion of contempt proceedings.
 
 
 STRATEGIC MOVES
-135
+
 ain by cheating in a given instance is outweighed by the value
 of the tradition of trust that makes possible a long sequence of
 future agreement. By the same token, “trust” may be achieved
 for a Single discontinuous instance, if it can be divided into a
 succession of increments.
-There are, however, particular game situations that lend them-
-selves to enforcible agreement. One is an agreement that depends
+There are, however, particular game situations that lend themselves to enforcible agreement. One is an agreement that depends
 on some kind of coordination or complementarity. If two people
-have disagreed on where to meet for dinner; if two criminal ac-
-complices have disagreed on whatjoint alibi to give; or if mem-
-bers of a business firm or football team have disputed about
+have disagreed on where to meet for dinner; if two criminal accomplices have disagreed on whatjoint alibi to give; or if members of a business firm or football team have disputed about
 what prices they will quote or what tactic they will follow, they
-nevertheless have an overriding interest in the ultimate consist-
-ency of their actions. Once agreement is formally reached,it con-
-stitiites the only possible focal point for the necessary subsequent
+nevertheless have an overriding interest in the ultimate consistency of their actions. Once agreement is formally reached,it constitiites the only possible focal point for the necessary subsequent
 tacit collaboration; no one has a unilateral preference now to
 do anything but what he is expected to do. In the absence of
-any other means of enforcement, then, parties might be well ad-
-vised to try to find agreements that enjoy this property of inter-
-dependent expectations, even to the extent of importing into their
+any other means of enforcement, then, parties might be well advised to try to find agreements that enjoy this property of interdependent expectations, even to the extent of importing into their
 agreement certain elements whose sole purposeis to create severe
 jeopardy for noncoordination. Tearing the treasure map in half
-or letting one partner carry the gun and the other the ammuni-
-tion is a familiar example.
-The institution of dostages is an ancient technique that de-
-serves to be studied by game theory, as does the practice of
+or letting one partner carry the gun and the other the ammunition is a familiar example.
+The institution of dostages is an ancient technique that deserves to be studied by game theory, as does the practice of
 drinking wine from the same glass or of holding gang meetings
 in places so public that neither side could escape if it subjected
 the other to a massacre. The reported use of only drug addicts
-as agents or employees in a narcotics ring is a fairly straight-
-forward example of a unilateral hostage.
+as agents or employees in a narcotics ring is a fairly straightforward example of a unilateral hostage.
 Perhaps a sufficient interchange of populations between nations
-that hate each other or an agreement to move the governing agen-
-Cles of both countries to a single island where they would occupy
+that hate each other or an agreement to move the governing agenCles of both countries to a single island where they would occupy
 alternate blocks of the city could be resorted to if both sides
 Came sufficiently desperate to avoid mutual destruction. A
 Principal drawback to the exchange of hostages, on the assump-
 ‘00 of rational behavior, is the inherent unknowability of each
 
-
-136
 A REORIENTATION OF GAME THEORY
 other’s value system adverted to earlier. The king who sends his
 daughter as a hostage to his enemy’s court may be incapable
@@ -6371,8 +5401,7 @@ seem to be the slightest chance that America would ever initiate
 atomic destruction in Russia. We cannot be quite sure that the
 Russians would be quite sure of this. Nor can we be quite sure
 that a reciprocal program would be as much of a deterrent to
-the Russian government; unfortunately, even if the Russian gov-
-ernment were bound by the fear of harming Russian children,it
+the Russian government; unfortunately, even if the Russian government were bound by the fear of harming Russian children,it
 seems nearly impossible for it to persuade us so. Still, in many
 surprise-attack situations a unilateral promise
 is
@@ -6387,8 +5416,7 @@ technical
 control)
 if
 it related to defensive weapons and structures. To
-eschew defenseis, in effect, to make hostages of your entire popu-
-lation without bothering to put them physically into the other's
+eschew defenseis, in effect, to make hostages of your entire population without bothering to put them physically into the other's
 possession. Thus we can put our children at the mercy of the
 Russians and receive similar power over Russian children not
 only by physically trading them, with enormous discomfort and
@@ -6419,26 +5447,22 @@ inadvertent hostages.
 
 
 STRATEGIC MOVES
-137
+
 damage where they are as if he had them in his grasp. Thus the
 «balance of terror” that is so often adverted to is —if, in fact,
 it exists and
 is stable — equivalent to a total exchange of all
 conceivable hostages. (The analogy requires that the balance be
-stable, i.e., that neither side be able, by surprise attack, to de-
-stroy the other’s power to strike back, but just able to inflict a
+stable, i.e., that neither side be able, by surprise attack, to destroy the other’s power to strike back, but just able to inflict a
 surfeit of civilian agony.) *4
 Denial of enforcement. Enforcement of promises is also relevant
 to the influence of a third party that wishes to make anefficient
 outcome moredifficult for the other two players. A potent means
 of banningillegal activities has often been the outlawing of them,
-so that contracts became unenforcible. Failure to enforce gam-
-bling contracts or contracts in restraint of trade or contracts for
+so that contracts became unenforcible. Failure to enforce gambling contracts or contracts in restraint of trade or contracts for
 the delivery of liquor during prohibition has always been part
-oi the process of discouraging the activities themselves. Some-
-times, of course, prohibition of this sort delivers enormous power
-into the hands of anyone who can enforce contracts or make en-
-forcible promises.1° The denial of copyright liquor labels during
+oi the process of discouraging the activities themselves. Sometimes, of course, prohibition of this sort delivers enormous power
+into the hands of anyone who can enforce contracts or make enforcible promises.1° The denial of copyright liquor labels during
 prohibition meant that only the bigger gangs could guarantee
 the quality of their liquor and hence assisted them in developing
 monopoly control of the business. By the same token, laws to
@@ -6453,15 +5477,12 @@ Invoke against one’s own nonperformance. There is consequently
 nto a position in which one no longer has anyeffective choice
 Over how he shall behave or respond. The purpose of these tactics
 ». This concept is developed at length in Chapter 10.
-t has been argued that an important function of the racketeer is some-
-ls to help enforce agreements that are beyond the law. Price-cutting in the
+t has been argued that an important function of the racketeer is somels to help enforce agreements that are beyond the law. Price-cutting in the
 eo garment trade was punishable by explosion — the fee for the explosion
 ne ‘Paid by the price-fixing organization — according to R. L. Duffus, “The
 Netion of the Racketeer,” New Republic (March 27, 1929), pp. 166-68.
 tim
 
-
-138
 A REORIENTATION OF GAME THEORY
 is to get rid of an embarrassing initiative, making the outcome
 depend solely on the other party’s choice.
@@ -6477,7 +5498,7 @@ in
 contrast
 to
 the
-1950
+
 decade, it may be that by the 1960 decade the nations which are around
 the Sino-Soviet perimeter can possess an effective defense against full.
 scale conventional attack and thus confront any aggressor with the choice
@@ -6491,42 +5512,33 @@ The distinction between the type of deterrence he imputes to
 the 1950’s and the type he imputes to the 1960’s differs in the
 matter of who has to make that final decision; and the difference
 is important because the United States cannotfind, or bringitself
-to trust, a persuasive means of commitmentto the threat of mas-
-sive retaliation against certain types of aggression.
-There was a time, shortly after the first atomic bomb was ex-
-ploded, when
+to trust, a persuasive means of commitmentto the threat of massive retaliation against certain types of aggression.
+There was a time, shortly after the first atomic bomb was exploded, when
 there was some
 journalistic speculation about
-whether the earth’s atmosphere had a limited tolerance to nu-
-clear fission; the idea was bruited about that a mighty chain
+whether the earth’s atmosphere had a limited tolerance to nuclear fission; the idea was bruited about that a mighty chain
 reaction might destroy the earth’s atmosphere when somecritical
 number of bombs had already been exploded. Someone proposed
 that, if this were true and if we could calculate with accuracy
-that critical level of tolerance, we might neutralize atomic weap-
-ons for all time by a deliberate program of openly and dramati-
-cally exploding » — 1 bombs.
+that critical level of tolerance, we might neutralize atomic weapons for all time by a deliberate program of openly and dramatically exploding » — 1 bombs.
 This tactic of shifting responsibility to the other player was
 J, F. Dulles, “Challenge and Response in U. S. Policy,” Foreign Affairs
 (October, 1957). Very similar language is used by Dean Acheson (Power af
 Diplomacy (Cambridge, Mass., 1958], pp. 87-88)
 in discussing the role of 4
 sizable defense force in Europe: by requiring of the enemy a major attack,
-rather than a small one, it makes him believe that retaliation would ensue, be-
-cause “he would be making the decision for us...
+rather than a small one, it makes him believe that retaliation would ensue, because “he would be making the decision for us...
 . A defense in Europe 0!
 this magnitude will pass the decision to risk everything from the defense to the
 offense.”
 
 
 STRATEGIC MOVES
-139
-nicely accomplished by Lieutenant Colonel (then Major) Steven-
-son B. Canyon,
+
+nicely accomplished by Lieutenant Colonel (then Major) Stevenson B. Canyon,
 U.S.A.F.,
 in using his aircraft to protect a
-Chinese Nationalist surface vessel about to be captured by Com-
-munist surface forces in his comic strip. Unwilling and unauthor-
-ized to initiate hostilities and knowing that no threat to do so
+Chinese Nationalist surface vessel about to be captured by Communist surface forces in his comic strip. Unwilling and unauthorized to initiate hostilities and knowing that no threat to do so
 would be credited, he directed his planes to jettison gasoline in a
 purning ring about the aggressor forces, leaving to them the last
 clear chance of reversing their engines to avoid the flames. He
@@ -6544,12 +5556,10 @@ around Christmas Island, the site of the forthcoming British
 hydrogen bomb experiment.
 .
 .
-. The first object of the expedi-
-tion would be to prevent the British blast.” 8
+. The first object of the expedition would be to prevent the British blast.” 8
 IDENTIFICATION
 An important characteristic of any game is how much each
-side knows about the other’s value system; but a similar informa-
-tion problem
+side knows about the other’s value system; but a similar information problem
 arises with respect to sheer identification. The
 bank employee who would like to rob the bank if he could only
 Rail Strikers Sit in Tracks,” The New York Times (May 13, 1957), pp.
@@ -6561,20 +5571,17 @@ in Is driving the train is that he can stop it more quickly than his adversaries
 an get off the tracks, particularly if they have arranged to crowd themselves so
 t they could not vacate the track quickly. They can forestall his countertactic
 y locking themselves to the tracks and throwing away the key —if they can
-Persuasively inform the engineer of this before he has relinquished his own con-
-al of the engine.
+Persuasively inform the engineer of this before he has relinquished his own conal of the engine.
 rosy).na Debating Atomic
 ‘Suicide,’” The New
 York
 Times
 (March
 5,
-9
+
 .
 e
 
-
-140
 A REORIENTATION OF GAME THEORY
 find an outside collaborator and the bank robber who would like
 to rob the bank if only he could find an inside accomplice may
@@ -6587,28 +5594,24 @@ the kidnaper cannot operate properly if he cannottell the rich
 from the poor in advance; and the antisegregation minority in
 the South may never know whetherit is large or small because
 of the penalties on declaration.
-Identification, like communication, is not necessarily recipro-
-cal; and the act of self-identification may sometimes bereversible
+Identification, like communication, is not necessarily reciprocal; and the act of self-identification may sometimes bereversible
 and sometimes not. One may achieve more identification than
 he bargained for, once he declares his interest in an object. A
 nice example
 occurs
 in
 Shakespeare’s Measure for Measure.
-Angelo, acting in place of the Duke, has a prisoner whom hepro-
-poses to kill. He could torture him, but he has no incentiveto.
+Angelo, acting in place of the Duke, has a prisoner whom heproposes to kill. He could torture him, but he has no incentiveto.
 The victim has a sister, who arrives to plead for his life. Angelo,
 finding the sister attractive, proposes a dishonorable bargain; the
 sister declines, Angelo then threatens to torture the brother unless
 the sister submits. At this point the game has been expanded
-simply by the establishment of identity and of a line of communi-
-cation. Angelo’s only interest in torturing the brother is in what
+simply by the establishment of identity and of a line of communication. Angelo’s only interest in torturing the brother is in what
 he may gain by makinga threat to do so; once there is somebody
 available to whom the threat can profitably be communicated,
 the possibility of torture has value for Angelo — not the torture
 itself, but the threatening of it. The sister has gotten negative
-value out of her trip; having identified her interest and madeher-
-self available to receive the threatening message, she has been
+value out of her trip; having identified her interest and madeherself available to receive the threatening message, she has been
 forced to suffer what she would not have had to suffer if she had
 never madeher identity known or if she could have disappeared
 into the crowd before the threat was made.
@@ -6621,19 +5624,16 @@ the card to the policeman and paid a bribe. The role of thes
 
 
 STRATEGIC MOVES
-141
+
 cards was to identify the motorist as a person who,if the bribe
 was received, would keep quiet. It identified the motorist as a
 man whose promise was enforcible. But the card identifies the
-motorist only after he has been arrested; if the police could iden-
-tify card-carrying motorists by looking at them, they could con-
-centrate
+motorist only after he has been arrested; if the police could identify card-carrying motorists by looking at them, they could concentrate
 their arrests on card-carrying drivers, threatening a
 ticket unless payment were received. The card
 is contingent
 identification, at the option of the motorist. A similar situation
-— pertinent to the discussion of promises as well as to identifica-
-tion —is described by Sutherland: “Most coppers are more or
+— pertinent to the discussion of promises as well as to identification —is described by Sutherland: “Most coppers are more or
 less fair in their dealings with thieves simply because it pays
 them to be so. They will extend favors even after a pinch which
 they would not extend to nonprofessionals whom they lock up.
@@ -6641,31 +5641,21 @@ They realize that it is safe to do this and that high officials will
 not te informed, as might be the case if favors were extended to
 amateurs.” 1°
 Identification is also relevant to an important economic fact
-that tends to be ignored in the conventional economics of produc-
-tion and exchange, namely, the enormous potential for destruc-
-tion that is available and that is relevant because of the extor-
-tionate threats that could be supported by
+that tends to be ignored in the conventional economics of production and exchange, namely, the enormous potential for destruction that is available and that is relevant because of the extortionate threats that could be supported by
 it. The ordinary
-healthy high-school graduate, of slightly below average intelli-
-gence, has to work fairly hard to produce more than $3,000 or
+healthy high-school graduate, of slightly below average intelligence, has to work fairly hard to produce more than $3,000 or
 $4,000 of value per year; but he could destroy a hundred times
 that muchif he set his mind to it, according to the writer’s hasty
 calculations. Given an institutional arrangement in which he
 could generously abstain from destruction in return for a mere
 fraction of the value that he might have destroyed, the boy
 Clearly has a calling as an extortionist rather than as a mechanic
-or clerk. It is fortunate that extortion usually depends on self-
-erntification and overt communication by the extortionist him-
-Self,
-The importance of self-identification is attested by the signifi-
-Cance attached to the doctrine that an accused person should be
+or clerk. It is fortunate that extortion usually depends on selferntification and overt communication by the extortionist himSelf,
+The importance of self-identification is attested by the signifiCance attached to the doctrine that an accused person should be
 bermitted to know and to confront his accuser. It is also reflected
-i secret testimony before a Grand Jury, in cases where identi-
-able witnesses might be intimidated by potential defendants,
+i secret testimony before a Grand Jury, in cases where identiable witnesses might be intimidated by potential defendants,
 "ELH. Sutherland, The Professional Thief (Chicago, 1954), p. 126.
 
-
-142
 A REORIENTATION OF GAME THEORY
 and in efforts to keep secret the identity of eyewitnesses to a
 crime until the criminal is apprehended. (The strategy of law
@@ -6675,23 +5665,18 @@ DELEGATION
 Another “move” that is sometimes available is the delegation
 of part or all of one’s interest, or part or all of one’s initiative
 for decision, to some agent who becomes(or perhapsalreadyis)
-another player in the game. Insurance schemes permit the shar-
-ing of interests; the insurance companyhas a different incentive
+another player in the game. Insurance schemes permit the sharing of interests; the insurance companyhas a different incentive
 structure from the insured party and may bebetter able to make
-threats or resist them for that reason. Requiring several signa-
-tures on a check accomplishes a similar purpose. The use of a
+threats or resist them for that reason. Requiring several signatures on a check accomplishes a similar purpose. The use of a
 professional collecting agency by a business firm for the collec.
-tion of debts is a means of achieving unilateral rather than bi-
-lateral communication with its debtors and of being therefore
+tion of debts is a means of achieving unilateral rather than bilateral communication with its debtors and of being therefore
 unavailable to hear pleas or threats from the debtors. Providing
 ammunition to South Korean troops or giving them access to
-prisoner-of-war camps so that they can unilaterally release pris-
-oners is a tactical meansof relinquishing an embarrassing power
+prisoner-of-war camps so that they can unilaterally release prisoners is a tactical meansof relinquishing an embarrassing power
 of decision — embarrassing because it subjects one to coercive or
 deterrent threats or leaves one the capacity to back out of his
 own threat, hence the incapacity to make the threat persuasive.
-The mutual-defense agreement with the Nationalist govern-
-ment of China is probably to be viewed partly as a means of
+The mutual-defense agreement with the Nationalist government of China is probably to be viewed partly as a means of
 shifting the decision for response to someone whose resolution
 would be less doubtful; and more recently the proposal to put
 nuclear weapons in the hands of European governments has beet
@@ -6706,51 +5691,39 @@ fies a common means of making credible a response pattern that
 
 
 STRATEGIC MOVES
-143
+
 the original source of decision might have been thoughtto shrink
 from or to find profitless, once the threat had failed. (Just as it
-would be rational for a rational player to destroy his own ra-
-tionality in certain gamesituations, either to deter a threat that
+would be rational for a rational player to destroy his own rationality in certain gamesituations, either to deter a threat that
 might be made against him and that would be premised on his
-rationality or to makecredible a threat that he could not other-
-wise commit himself to, it may also be rational for a player to
+rationality or to makecredible a threat that he could not otherwise commit himself to, it may also be rational for a player to
 select irrational partners or agents.)
-In the matrix in Fig. 14 — disregarding the numbers in paren-
-theses — if Row has second move,he loses in the lower right-hand
- 
- 
- 
- 
- 
- 
+In the matrix in Fig. 14 — disregarding the numbers in parentheses — if Row has second move,he loses in the lower right-hand
+
+
 I
 II
 ;
-3
-2
+
+
 i
 (2)
 (1)
 §
-0
-4
-5
+
+
 ii
 (1)
 (0)
-0
-1
+
+
 Fic. 14
 corner, Column gaining his own preferred outcome. If a third
-party without powerof decision is scheduled to receive, as a by-
-product, the payoff in parentheses, Row can win if some meansis
+party without powerof decision is scheduled to receive, as a byproduct, the payoff in parentheses, Row can win if some meansis
 available for irreversibly surrendering his move to the third
 player. The payoffs of the latter are such that with second move
-he wins in the upperleft-hand corner, leaving the original Row-
-Player. The payoffs of the latter are such that with second move
-had to be financed by Row, whose own payoffs were correspond-
-ingly reduced, it would still be worth his while to make an ir-
-revocable assignment of portions of his various payoffs to the
+he wins in the upperleft-hand corner, leaving the original RowPlayer. The payoffs of the latter are such that with second move
+had to be financed by Row, whose own payoffs were correspondingly reduced, it would still be worth his while to make an irrevocable assignment of portions of his various payoffs to the
 third player, together with assignment of the decision; with the
 figures shown, he would still carry away a net value of 3 in the
 Upper left-hand corner, in contrast to x in the lowerright.)
@@ -6758,8 +5731,6 @@ MEDIATION
 The role of mediator is another element for analysis in game
 ‘ory. A mediator, whether imposed on the gamebyits original
 
-
-144
 A REORIENTATION OF GAME THEORY
 rules or adopted by the players to facilitate an efficient out.
 come, is probably best viewed as an element in the communica.
@@ -6781,8 +5752,7 @@ nizing. When there is no apparent focal point for agreement, he
 can create one by his power to make a dramatic suggestion. The
 bystander who jumps into an intersection and begins to direct
 traffic at an impromptu traffic jam is conceded the power to
-discriminate among cars by being able to offer a sufficient in-
-crease in efficiency to benefit even the cars most discriminated
+discriminate among cars by being able to offer a sufficient increase in efficiency to benefit even the cars most discriminated
 against; his directions have only the power of suggestion, but
 coordination requires the common acceptance of some sourceof
 suggestion. Similarly, the participants of a square dance mayall
@@ -6793,8 +5763,7 @@ mediator, and very likely it can err substantially toward oneside
 or the other before the disadvantaged side finds advantage in
 denying its authority. The principle is beautifully illustrated by
 the daylight-saving-time controversy; a majority that wants to
-do everything an hour earlier just cannot organize to do it un-
-less it gets legislative contro! of the clock. And when it does, a
+do everything an hour earlier just cannot organize to do it unless it gets legislative contro! of the clock. And when it does, a
 well-organized minority that opposed the change is usually quite
 unable to offset the change in clock time by any organized effort
 to change the nominal hour at which it gets up, eats, and does
@@ -6808,7 +5777,7 @@ pare two parties’ offers to each other, declaring whether or not the
 
 
 STRATEGIC MOVES
-145
+
 offers are compatible without revealing the actualoffers. He is a
 scanning device that can suppress part of the information put
 into it. He makes possible certain limited comparisons that are
@@ -6816,29 +5785,23 @@ peyond the mental powers ofthe participants, since no player can
 rsuasively commit himself to forget something.
 The problem of persuasively denying one’s self the knowledge
 that one receives by the left hand, while actively seeking it with
-the right hand,is nicely illustrated by the efforts of parts of gov-
-ernments to obtain accurate data on incomes for the purpose of
+the right hand,is nicely illustrated by the efforts of parts of governments to obtain accurate data on incomes for the purpose of
 statistical programs, while another part of the government is
 seeking the same data in order to impose taxes or to prosecute
 evasion. Governments have found it important to seek ways of
 guaranteeing that the statistical agency will deny the information
-it receives to the taxing agency, in order to receive the informa-
-tion in the first place. An analogous case of relying on an ex-
-plicit mediator is that of companies that turn trade secrets over
+it receives to the taxing agency, in order to receive the information in the first place. An analogous case of relying on an explicit mediator is that of companies that turn trade secrets over
 to a statistical bureau that is committed to destroy the individual
 data after computing the sums and averages that it will make
 public for the benefit of the contributing companies, or of public
-opinion services that suppress potentially embarrassing individ-
-ual data on political or sexual practices, publishing only the ag-
-gregates. The use of mediators to forestall identification seems to
+opinion services that suppress potentially embarrassing individual data on political or sexual practices, publishing only the aggregates. The use of mediators to forestall identification seems to
 be a common tactic when a buyer of large resources thinks a
 painting or a right-of-way can be bought cheap if the owner is
 unaware whoitis that is interested.
 Mediators may be converted into arbitrators by the irrevocable
 surrender of authority to him by the players. But arbitration
 agreements have
-to be made enforcible by the players’ de-
-liberately incurring jeopardy, providing
+to be made enforcible by the players’ deliberately incurring jeopardy, providing
 the referee with the
 Power to punish or surrendering to him something complementary
 to their own value systems. In turn, they must be able to trust
@@ -6855,8 +5818,6 @@ rality exists, a few partners or directors for a business may deliberately be
 :
 Sen from another culture where simple honesty and fairness are considered
 
-
-146
 A REORIENTATION OF GAME THEORY
 COMMUNICATION AND ITS DESTRUCTION
 Manyinteresting gametactics and gamesituations depend op
@@ -6874,32 +5835,27 @@ might infer the sanction of the threat itself.
 When the outcome depends on coordination, the timely de.
 struction of communication may be a winning tactic. When a
 man and his wife are arguing by telephone over where to meet
-for dinner, the argument is won by the wife if she simply an-
-nounces where she is going and hangs up. And the status quo
-is often preserved by a person who evadesdiscussion of alterna-
-tives, even to the extent of simply turning off his hearing aid.
+for dinner, the argument is won by the wife if she simply announces where she is going and hangs up. And the status quo
+is often preserved by a person who evadesdiscussion of alternatives, even to the extent of simply turning off his hearing aid.
 As discussed in the earlier part of this chapter, mob action often
 depends on communication in a way that makes it possible for
 the authorities to obstruct mob action by forbidding groups of
 three or more to congregate. But mobs can themselves intimidate
-the authorities if they are able to identify them and to com-
-municate with them, Evena tacit threat of subsequent ostracism
+the authorities if they are able to identify them and to communicate with them, Evena tacit threat of subsequent ostracism
 or violence may be communicated from a riotous mobto thelocal
 police, if the police are known to them and are persons who have
 to reside among them whentheoccasion is over. In that case the
 use of outsiders may forestall the mob’s intimidating
 threats
-against the authorities, partly by reducing the subsequent occa-
-sion for carrying out the threat but partly also through the
-difficulty of tacit communication between mob and police. Fed-
-eral troops in Little Rock may have enjoyed some immunity t?
+against the authorities, partly by reducing the subsequent occasion for carrying out the threat but partly also through the
+difficulty of tacit communication between mob and police. Federal troops in Little Rock may have enjoyed some immunity t?
 intimidation just by being outside the tacit communication struc
 to be commontraits or where a reputation for them is considered of much
 higher value,
 
 
 STRATEGIC MOVES
-147
+
 ture of the local populace and being patently less conversant with
 the local value system than were the local police. State troops
 were dramatically successful in quelling the Detroit race riot of
@@ -6908,8 +5864,7 @@ Sikhs, and other foreign-language troops against local uprising
 may owe someofits success to their poor capacity to receive the
 threats and promises that the enemies or victims might otherwise
 seek to convey. Even theisolation of officers from enlisted men in
-military service may tend to makeofficers less capable of receiv-
-ing and perceiving threats, hence less capable of beingeffectively
+military service may tend to makeofficers less capable of receiving and perceiving threats, hence less capable of beingeffectively
 threatened, and thus deterring intimidating threats themselves.
 It is important, of course, whether or not the threatener knows
 that his threat cannot be received; for if he thinks it can, andit
@@ -6924,8 +5879,7 @@ eye; they must not blush at the jeers; they must act as if they
 cannottell one rioter from another, even if one has been making
 himself conspicuous. Figuratively, if not literally, they should
 wear masks; even the uniform contributes to the suppression of
-identification and so itself makes reciprocal communication diffi-
-cult.
+identification and so itself makes reciprocal communication difficult.
 Conveyance of evidence. “Communication” refers to more than
 the transmission of messages. To communicate a threat, one has
 to communicate the commitment that goes with it, and similarly
@@ -6933,13 +5887,10 @@ With a promise; and to communicate a commitment requires
 More than communication of words. One has to communicate
 evidence that the commitmentexists; this may mean that one can
 Communicate a threat only if he can make the other person see
-Something with his own eyes or if he can find a device to au-
-thenticate certain allegations. One can send a signed check by
+Something with his own eyes or if he can find a device to authenticate certain allegations. One can send a signed check by
 mail, but one cannot demonstrate over the telephone that a check
 ats an authentic signature; one may show that he has a loaded
 
-
-148
 A REORIENTATION OF GAME THEORY
 gun but not prove it by simply saying so. From a game-theory
 point of view, the Paris pneumatique differs from an ordinar
@@ -6963,11 +5914,8 @@ rocal fear of surprise attack. Leo Szilard has even pointed to the
 paradox that one might wish to confer immunity on foreign spies
 rather than subject them to prosecution, since they may bethe
 only meansby which the enemycan obtain persuasive evidenceof
-the important truth that we are making no preparations for em-
-barking on a surprise attack.24
-It is interesting to observe that political democracy itself de-
-pends on a gamestructure in which the communication of evi-
-dence is impossible. What is the secret ballot but a device to rob
+the important truth that we are making no preparations for embarking on a surprise attack.24
+It is interesting to observe that political democracy itself depends on a gamestructure in which the communication of evidence is impossible. What is the secret ballot but a device to rob
 the voter of his power to sell his vote? It is not alone thesecrecy,
 but the mandatory secrecy, that robs him of his power. He not
 only may vote in secret, but he must if the system is to work. He
@@ -6975,12 +5923,10 @@ must be denied any means of proving which way he voted. And
 what he is robbed of is not just an asset that he mightsell; he
 is stripped of his power to be intimidated. He is made impotent
 to meet the demands of blackmail. There may be no limit to
-violence that he can be threatened with if he is truly free to bar-
-gain away his vote, since the threatened violence is not carried
+violence that he can be threatened with if he is truly free to bargain away his vote, since the threatened violence is not carried
 out anywayif it is frightening enough to persuade him. But when
 the voter is powerless to prove that he complied with the threat.
-both he and those who would threaten him know that any punish-
-ment would be unrelated to the way he actually voted. And the
+both he and those who would threaten him know that any punishment would be unrelated to the way he actually voted. And the
 threat, being useless, goesidle.
 "L.
 Szilard, “Disarmament and
@@ -6992,46 +5938,34 @@ Atomic Scientists, 2:297-307 (October, 1955).
 
 
 STRATEGIC MOVES
-149
+
 An interesting case of tacit and asymmetrical communication
 is that of a motorist in a busy intersection who knows that a
 licemanis directing traffic. If the motorist sees, and evidently
-sees, the policeman’s directions and ignores them, he is insub-
-ordinate ; and the policeman has both an incentive and an obliga-
-tion to give the man ticket. If the motorist avoids looking at
-the policeman, cannot see the directions, and ignores the direc-
-tions that he does not see, taking a right of way that he does not
+sees, the policeman’s directions and ignores them, he is insubordinate ; and the policeman has both an incentive and an obligation to give the man ticket. If the motorist avoids looking at
+the policeman, cannot see the directions, and ignores the directions that he does not see, taking a right of way that he does not
 deserve, he may be considered only stupid by the policeman, who
 has little incentive and no obligation to give the man ticket.
-Alternatively, if it is evident that the driver knew whatthe in-
-structions were and disobeyed them,it is to the policeman’s ad-
-yantage not to have seen the driver, otherwise he is obliged, for
+Alternatively, if it is evident that the driver knew whatthe instructions were and disobeyed them,it is to the policeman’s adyantage not to have seen the driver, otherwise he is obliged, for
 the reputation of the corps, to abandonhis pressing business and
 hail the driver down to give him a ticket. Children are skilled at
 avoiding the receipt of a warning glance from a parent, knowing
-that if they perceive it the parent is obliged to punish noncom-
-pliance; adults are equally skilled at not requesting the permis-
-sion they suspect would be denied, knowing that explicit denial is
-a sterner sanction, obliging the denying authorities to take cog-
-nizance of the transgression.??
+that if they perceive it the parent is obliged to punish noncompliance; adults are equally skilled at not requesting the permission they suspect would be denied, knowing that explicit denial is
+a sterner sanction, obliging the denying authorities to take cognizance of the transgression.??
 The efficacy of the communication structure can depend on the
-kinds of rationality that are imputed to the players. This is illus-
-trated by the game situation known as “having a bear by the
+kinds of rationality that are imputed to the players. This is illustrated by the game situation known as “having a bear by the
 tail.” The minimum requirement for an efficient outcome is that
 ™What might be
 called
 the
 “legal status”
 of communication
-is nicely de-
-veloped by Goffman: “Tact in regard to face-work often relies for its opera-
-tion on a tacit agreement to do business through the language of hint — the
+is nicely developed by Goffman: “Tact in regard to face-work often relies for its operation on a tacit agreement to do business through the language of hint — the
 language of innuendo, ambiguities, well placed pauses, carefully worded jokes,
 and so on. The rule regarding this unofficial kind of communication is that the
 Sender ought not to act as if he had officially conveyed the message he has
 hinted at, while the recipients have the right and the obligation to act as if
-they have notofficially received the message contained in the hint. Hinted com-
-munication,
+they have notofficially received the message contained in the hint. Hinted communication,
 then,
 is deniable communication.” He
 refers to the “unratified”
@@ -7044,19 +5978,13 @@ Points out that the obligation to respond, for example, to an insulting remark
 at one has inadvertently overheard may depend on whether the overhearing
 48 acquired “ratification” (pp. 224, 226).
 
-
-150
 A REORIENTATION OF GAME THEORY
 the bear be able to incur an enforcible promise and that he be
 able to transmit credible evidence that he is committed, either by
 a penalty incurred or by a maneuver that destroys his power not
 to comply (like extracting his own teeth and claws). But if the
-bear is of limited rationality, having a capacity for making ra-
-tional and consistent choices amongthe alternatives that he per-
-ceives but lacking the capacity to solve games — that is, lacking
-the capacity to determine introspectively the choices that a part-
-ner would make — the communication system must makeit pos-
-sible for him to receive a message from his partner. The partner
+bear is of limited rationality, having a capacity for making rational and consistent choices amongthe alternatives that he perceives but lacking the capacity to solve games — that is, lacking
+the capacity to determine introspectively the choices that a partner would make — the communication system must makeit possible for him to receive a message from his partner. The partner
 must then formulate the proposition (choice)
 for the bear and
 communicate it to him, in order that the bear may then respond
@@ -7084,40 +6012,19 @@ reduces — visibly and irreversibly— some of kis own payoffs in
 the matrix. This is what the move amounts to.?* Wecould also
 say that one openlyselects a strategy in advance for responding
 to the other’s choice; but more than selection is required. The
-player must invoke penalty on his own failure to pursue subse-
-quently the particular strategy of response that he hasselected
-beforehand. And to invoke a penalty on failure to follow a strat-
-egy is mathematically equivalent to subtracting the amount of
+player must invoke penalty on his own failure to pursue subsequently the particular strategy of response that he hasselected
+beforehand. And to invoke a penalty on failure to follow a strategy is mathematically equivalent to subtracting the amount of
 * Daniel Ellsberg, some of whose work in the field of strategy was contained
 in the lectures mentioned in Chapter 1, independently arrived at precisely th?
 formulation of the threat or commitment, namely, as a selective reduction °
 some of one’s own payoffs in the strategy matrix.
 
-
-151
-the penalty from one’s own payoffs in all cells that do notcorre-
-spond to the strategy so selected.4
+the penalty from one’s own payoffs in all cells that do notcorrespond to the strategy so selected.4
 Specifically, in Fig. 15 4, Row would commit himself to ii by
 subtracting from his own payoffs in the first row sufficiently
-large quantities — 5 in the example shown — to makeii a domi-
-STRATEGIC MOVES
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+large quantities — 5 in the example shown — to makeii a domiSTRATEGIC MOVES
+
+
 A
 B
 II
@@ -7125,32 +6032,31 @@ I
 II
 I
 i
-0
+
 i
-5
-0
+
+
 i
 —3
 —4
 g
 ii
-2
+
 ii
-1
-2
+
+
 ii
-0
+
 §
-0
-5
+
+
 —§
-0
+
 Fic. 15
 nant strategy, that is, a strategy that he would follow no matter
 which column the other player selects. The result would be the
 modified matrix shown in Fig. 15 B. (Committing himself to i
-™% Threats, promises, and unconditional commitments have already been illus-
-trated; a more general “reaction function” is illustrated in the accompanying
+™% Threats, promises, and unconditional commitments have already been illustrated; a more general “reaction function” is illustrated in the accompanying
 matrix. If Row can attach adequate penalties to his ownselection of any cells
 other than those starred, he leaves Column a simple maximization problem
 which Column solves by choosing his third strategy. Row has “won” almost his
@@ -7164,74 +6070,39 @@ the generalization of the tactic that, for simple two-way or three-way choices,
 can be identified as a “commitment,” “threat,” “promise,” or combination of
 them. (Further generalization would include randomized strategies; these are
 introduced in Chapter 7.)
- 
- 
- 
- 
+
+
 I
 II
 III
 IV
 Vv
 .
-6
-10
-2
-9
-7
+
+
 i
-1
-11
-10
-2
-10
+
+
 .
-9
-4
-0
-1
-15
+
+
 ii
 *
-8
-12
-25
-20
-3
-20
-15
-6
-17
+
+
 iii
 .
 ‘
-9
-2
-16
-18
-14
+
+
 .
-2
-10
-7
-3
+
+
 lV
 *
 *
-6
-8
-7
-5
-20
- 
- 
- 
- 
- 
-  
 
 
-152
 A REORIENTATION OF GAME THEORY
 with penalty of 5 would yield the matrix in Fig. 15 C.) Can we
 now build up a larger matrix that represents not only the actua]
@@ -7243,15 +6114,13 @@ simple game in which Row has the power to commit himself
 visibly in advance, and Column has first move in the origina!
 game, that is, chooses his column before Row makes his fina!
 choice of row.
-Originally Row, having second move,had fourstrategies avail-
-able. He could pick i no matter what; he could pick ii no matter
+Originally Row, having second move,had fourstrategies available. He could pick i no matter what; he could pick ii no matter
 what; he could play
 i to column I and ii to column IT; or he
 could play
 ii to column I and
 i to column II. Including the
-possibility of commitment, he now hasfirst the choice of commit-
-ting himself; and to each of these first choices he can attach any
+possibility of commitment, he now hasfirst the choice of committing himself; and to each of these first choices he can attach any
 one of the four strategies just mentioned for his final move. For
 example, he can commit himself to ii and play ii no matter what;
 he can commit himself to ii and play i no matter what; he can
@@ -7277,22 +6146,9 @@ to the other’s prior moves is now fully allowed for in the specifica
 
 
 STRATEGIC MOVES
-153
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
 I
-0
+
 Il
 IV
 V
@@ -7325,160 +6181,79 @@ a. Y
 2-11
 j
 0; 7-i, Li
-5
-5
-5
-5
-0
-0
-0
-0
-2
+
+
 g
-2
-2
-1
-1
-1
-1
+
+
 ii
 0; T-ii, Wii
-1
-1
-1
-1
-2
-2
-2
-2
-0
-0
-0
-0
-5
-5
-5
-5
+
+
 ii
 0; T-i; H-ii
-5
-5
-5
-5
-2
-2
-2
+
+
 g
-2
+
 g
 g
-2
-5
-5
-5
-5
+
+
 iv
 0; Iii, Oi
-1
-1
-1
-1
-0
-0
-0
-0
-0
-0
-0
-0
-1
-1
-1
-1
+
+
 v
 1; 14, Ii
-5
-5
-0
-0
-5
-5
-0
-0
-2
+
+
 g
-1
-1
-2
-2
-1
-1
+
+
 ef)
 a; Lai, IT-ii
-1
-1
-2
-2
-1
-1
+
+
 g
 g
 —5
 —5
-0
-0
+
+
 -3
 -5
-0
-0
+
+
 vii
 1; Li, Ui
-5
-5
+
+
 g
 g
-5
-5
+
+
 g
-2
-2
-2
-0
-0
-2
-2
-0
-0
+
+
 wil
 1; 1-ii, Ii
-1
-1
-0
-0
-1
-1
-0
-0
+
+
 -5
 —5
-1
-1
+
+
 —5
 -5
-1
-1
+
+
 x
 2; 14, Ii
-8
-0
-5
-0
-5
-0
-5
-0
+
+
 -$
-4
+
 -3
 -4
 -8
@@ -7487,70 +6262,42 @@ x
 —4
 x
 @ Iii, Wii
-1
+
 *2
-1
+
 "2
-1
+
 *2
-1
+
 *g
-0
-8
-0
-5
-0
-5
-0
-5
+
+
 xi
 9; Ti, Di
-5
-2
-5
-2
-5
-2
+
+
 &
 g
 -s
-5
+
 -3
 &
 -8
-5
-3
-5
+
+
 mi
 9 T-ii, Li
-1
-0
-1
-0
-1
-0
-1
-0
-0
+
+
 -4
-0
+
 —4
-0
+
 -4
-0
-4 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
 Fic.
-16
+
 tion of strategies in the enlarged version of the game; they are
 Strategies of response or adaptation.
 This
@@ -7562,8 +6309,6 @@ i and
 ii. Additionally, the symbol “2”
 Will denote Row’s commitment to row ii, “rx” a commitmentto row
 
-
-154
 A REORIENTATION OF GAME THEORY
 i, and “o”a decision not to commit himself. In the enlarged game,
 a single “strategy” for Column is now denoted by three pairs of
@@ -7585,15 +6330,13 @@ game, sending their agents to play for them, each agent fully
 instructed for all contingencies
 (that is, given one particular
 strategy for the enlarged game). To determine what instructions
-to give, Row and Column consider the matrix in Fig. 16; in ef-
-fect, they play the tacit game in that matrix, leaving to their
+to give, Row and Column consider the matrix in Fig. 16; in effect, they play the tacit game in that matrix, leaving to their
 agents just the role of messenger.
 Whatis the “solution” of this enlarged tacit game? Or, rather,
 can we identify an evident solution to the original game? And,
 if so, how does it show up in the enlarged matrix? Theoriginal
 gameclearly has a solution for rational players. (A) If Row is
-committed to row i, with a penalty of 5 for breaking his com-
-mitment, Column can see that row i will be chosen, no matter
+committed to row i, with a penalty of 5 for breaking his commitment, Column can see that row i will be chosen, no matter
 which column he chooses; Column chooses his preferred ceil in
 the upper row, which is the upperleft cell, i,I. And Row knows
 that, if he commits himself to row i, he gets the payoff in that
@@ -7605,13 +6348,12 @@ the highest row payoff in the column chosen; thus if Column
 chooses I, Row takes i, and Column gets 5; if Column takes II,
 Row takes ii, and Column gets 2. Column prefers I; this leaves
 Rowa payoff of 2; and Row cananticipate it. So Row’s best out
-come is to commit himself to row ii. This is the evident “solu-
-tion”; it has a payoff of [s 2], and it corresponds to the strategy
+come is to commit himself to row ii. This is the evident “solution”; it has a payoff of [s 2], and it corresponds to the strategy
 2; I-ii, II-ii for Row, and to all four strategies containing 2-I
 
 
 STRATEGIC MOVES
-155
+
 for Column. (What Column would have done in contingencies
 o and 1 is of no material consequence, once Row has made his
 first move.) These are the starred cells in Fig. 16, row x. (In
@@ -7621,11 +6363,9 @@ in which he has second move.)
 How do we characterize the cells, or pairs of strategies, that
 represent the “solution” in Fig. 16? They constitute a solution
 of the kind that has been called a solution in the complete weak
-sense.2> It can be arrived at, within the framework of the en-
-Jarged matrix, by a process of discarding “dominated” rows and
+sense.2> It can be arrived at, within the framework of the enJarged matrix, by a process of discarding “dominated” rows and
 strategies. A row is dominated by another row if every payoff
-to Row in the dominating row is at least as good as thecorre-
-sponding payoff in the dominated row and at least one payoff is
+to Row in the dominating row is at least as good as thecorresponding payoff in the dominated row and at least one payoff is
 better. Applying this criterion, the first row is dominated by the
 third, and westrike it out. (The argument might be that Row
 can safely eliminate the strategy represented in the first row,
@@ -7633,13 +6373,11 @@ since the third is at least as good in every contingency and better
 in some.) So is the second, so is the fourth; so are all the rest
 except the tenth. Neither the third nor the tenth row dominates
 the other, so for the moment we keep them both. Comparing
-columns, no single column dominates another; but, having elim-
-inated all rows but the third and tenth (arguing, perhaps, that
+columns, no single column dominates another; but, having eliminated all rows but the third and tenth (arguing, perhaps, that
 Row would not choose them anyway), Column can make his
 comparison between only the third and tenth cells in the columns,
 Now it is apparent that the second column dominates thefirst,
-the third, the fifth, and the seventh. After striking out thosecol-
-umns that are dominated in the reduced set of rows, we can look
+the third, the fifth, and the seventh. After striking out thosecolumns that are dominated in the reduced set of rows, we can look
 again at rowsiii and x. Originally, neither dominated the other;
 but, with the first, third, fifth, and seventh columns gone, the
 tenth row dominatesthe third. Striking out the third row, we are
@@ -7649,12 +6387,9 @@ Payofis are the same in the four intersections, indicating that it
 4 long as Row plays the tenth row. (That is, once Row has
 Committed himself to the second row of the original 2
 2 matrix,
-'8 15 A, as Column can expect him to do, it makes no differ-
-x
+'8 15 A, as Column can expect him to do, it makes no differx
 Compare Luce and Raiffa, pp. 106-09.
 
-
-156
 A REORIENTATION OF GAME THEORY
 ence what instructions Column gives his agent regarding the
 two contingencies that did not arise.) 78
@@ -7672,18 +6407,15 @@ last move would follow each next-to-last move, calculating the
 best next-to-last move for all possible sets of prior moves and so
 on back to the best first move of the game.
 While it is instructive and intellectually satisfying to see how
-such tactics as threats, commitments, and promises can be ab-
-sorbed into an enlarged, abstract “supergame” (game in “normal
+such tactics as threats, commitments, and promises can be absorbed into an enlarged, abstract “supergame” (game in “normal
 form”), it should be emphasized that we cannot learn anything
-about those tactics by studying games that are already in nor-
-mal form. The objects of our study, namely, these tactics together
+about those tactics by studying games that are already in normal form. The objects of our study, namely, these tactics together
 with the communication and enforcements structures that they
 depend on, and the timing of moves, have all disappeared by
 the time the game is in normal form. What we wantis a theory
 that systematizes the study of the various universal ingredients
 *It is worth noting that the order in which we discard the rows and columns
-that are eligible for discard can affect the form of the “solution.” In the pro-
-cedure outlined in the text, we first discarded all rows but the third and tenth;
+that are eligible for discard can affect the form of the “solution.” In the procedure outlined in the text, we first discarded all rows but the third and tenth;
 we then observed that columns I, III, V, and VII, were eligible for discard,
 and discarded them; at that stage, row iii was seen to be dominated, and it was
 discarded; and we were
@@ -7722,31 +6454,25 @@ however, are the samein either case. The rationale might be that at some st
 
 
 STRATEGIC MOVES
-157
+
 that make up the move-structure of games; too abstract a model
 will miss them.?7
-The matrix representation of a sequential game does help em-
-pasize, however, that the formal “determinateness” of games
+The matrix representation of a sequential game does help empasize, however, that the formal “determinateness” of games
 that are resolved by tactical moves does not detract from their
-essential game-of-strategy character. A threat “wins” and de-
-termines an outcome only because it induces the other player to
-choose in one’s favor. The other player retains his original free-
-dom of choice; and his choice still depends on his anticipation
+essential game-of-strategy character. A threat “wins” and determines an outcome only because it induces the other player to
+choose in one’s favor. The other player retains his original freedom of choice; and his choice still depends on his anticipation
 of the threatener’s final choice. The threatener’s first choice —
 to threaten or not — thus depends on whathe expects the threat-
- 
-Column sees that he needn’t reason any further, that Row has a clearly deter-
-mined choice that makes it inconsequential whether Column further narrows
-his decision, but that the exact point at which he perceives this, and what col-
-umns 2r¢ left uneliminated when he does perceive it, depends to some extent on
+
+Column sees that he needn’t reason any further, that Row has a clearly determined choice that makes it inconsequential whether Column further narrows
+his decision, but that the exact point at which he perceives this, and what columns 2r¢ left uneliminated when he does perceive it, depends to some extent on
 which of several alternative routes he pursues in his reasoning process. (If there
 were communication costs in narrowing his choice of strategy, Column might
 prefer to choose
 strategy 2-II only, leaving
 unspecified what choice would
 correspond to Row’s strategy o or 1. If, to take a contrary case, there are risks
-that Row’s strategy will be erroneously recorded or communicated, or unin-
-telligently chosen, Column reduces his risks by specifying o-I as well. In the
+that Row’s strategy will be erroneously recorded or communicated, or unintelligently chosen, Column reduces his risks by specifying o-I as well. In the
 Istter case he, in effect, treats row iii as not wholly unlikely in spite of
 its
 domination by row x. Andif, to take the matter further, he suspects that the
@@ -7754,13 +6480,11 @@ referee has a tendency to hear “row v” when other rows are actually chosen,
 he may further narrow his choice to o-I, 1-J, 2-II, the “solution” being the
 intersection of row x and Column II, since the intersection of v and IV is
 inferior to that of v and IJ and gives him grounds for this further refinement
-of his choice. In general, by attaching risks of error of various sort, or differ-
-ential costs of different ways to specify a strategy, a rather richer problem
+of his choice. In general, by attaching risks of error of various sort, or differential costs of different ways to specify a strategy, a rather richer problem
 fs formed, and one that can lead to different conclusions. The problemstreated
 in Chapters 7 and 9, involving certain forms of random behavior, error, or
 misinformation, can producethis kind ofresult.)
-"Incidentally, casting a particular gameinto supergame matrix form is gen-
-erally not a feasible technique of analysis; the number of rows and columns
+"Incidentally, casting a particular gameinto supergame matrix form is generally not a feasible technique of analysis; the number of rows and columns
 (that
 is,
 the number of sequential-move
@@ -7773,14 +6497,11 @@ delense” against threats, allow Columna still earlier opportunity to commit
 choice of column. That is, Column may first commit himself unconditionally
 € pleases, Row may then commit himself conditionally in whatever way he
 fases, then Column chooses a column and finally Row chooses a row. Let us
-complicate the game by limiting sizes of penalties or by inserting any un-
-hot or imperfect communication system, This “simple” game, which
+complicate the game by limiting sizes of penalties or by inserting any unhot or imperfect communication system, This “simple” game, which
 is
 terribly difficult to analyze in its extensive form, turns out to have more
 40 a “googol” (1 followed by a hundred zeros) of columns.
 
-
-158
 A REORIENTATION OF GAME THEORY
 ened player to expect the threatener to do. The reciprocal-expecta.
 tion character of the game remains; the threat, like the uncon.
@@ -7793,8 +6514,7 @@ It is, of course, a corollary principle that if the payoff matrix
 to begin with had already shown values for one of the players
 reduced in the same pattern as that in which he would reducejt
 deliberately at the winning move, he simply wins without need.
-ing to make the moveovertly. (This is the point that, in diagram-
-matic form, wasillustrated in the final paragraph of Chapter 2,
+ing to make the moveovertly. (This is the point that, in diagrammatic form, wasillustrated in the final paragraph of Chapter 2,
 and referred to as an abstract example of the principle that, in
 bargaining, weakness may be strength.) There is probably no
 single principle of game theory that epitomizes so strikingly
@@ -7802,17 +6522,12 @@ the mixed-motive game as this principle that a worsening of
 someor even all of the potential outcomes for a particular player
 and an improvement in none of them may bedistinctly — even
 dramatically — advantageous for the player so disadvantaged.It
-explains why a sufficiently severe and certain penalty on the pay-
-ment of blackmail can protect the potential victim, how the burn-
-ing of bridges behind one’s self while facing an enemy maydis-
-hearten an enemy and induce his retirement, or why a lady
-might, in an earlier era, defy the search party by haughtily plac-
-ing the sought object in her bosom.”8
+explains why a sufficiently severe and certain penalty on the payment of blackmail can protect the potential victim, how the burning of bridges behind one’s self while facing an enemy maydishearten an enemy and induce his retirement, or why a lady
+might, in an earlier era, defy the search party by haughtily placing the sought object in her bosom.”8
 *Tt also explains why a “promise” to abstain from a choice that would
 damage the other player may not be welcomed by him. A promise that permits
 him safely to make a particular choice may assure us that he would make st
-so that we can count on it and make someprior choice that is to his disadvan-
-tage. By the same token, adding values selectively to the other’s payoffs cam
+so that we can count on it and make someprior choice that is to his disadvantage. By the same token, adding values selectively to the other’s payoffs cam
 absolutely worsen his position —~if we have a means of making the addition
 In the accompanying matrix, assuming Row has first move, Row can “win’—
 he can gain 7 at Column’s expense — if he unilaterally guarantees to compensate
@@ -7825,13 +6540,12 @@ umn obviously prefers that Row be unable to commit himself to confer
 
 
 STRATEGIC MOVES
-159
+
 It was reported unofficially during the Korean War that when
 the Treasury Department blocked Communist Chinese financial
 assets, it also knowingly blocked some non-Communistassets as
 a means of immunizing the owners against extortionate threats
-against their relatives still in China, Quite likely, for owners lo-
-cated in the United States, the very penalties on transfer of funds
+against their relatives still in China, Quite likely, for owners located in the United States, the very penalties on transfer of funds
 to Communist China enhanced their capacity to resist extortion.
 Deliberately putting one’s ownassets in a form that made evasion
 of the law moredifficult, or lobbying for more severe penalties on
@@ -7841,54 +6555,26 @@ funds would be blocked might have been an indicated tactic
 for potential victims, to discourage the extortionate threat in
 advance.
 A similar principle is reflected in Article 26 of the Japanese
-peace treaty, which gives the United States certain claims if sub-
-sequent Japaneseterritorial concessions to other powers are more
+peace treaty, which gives the United States certain claims if subsequent Japaneseterritorial concessions to other powers are more
 favorable. When the Japanese were reported to be under pressure
 from the Russians for additional territorial concessions in 1956,
 Secretary of State John Foster Dulles pointedly described that
 article of the treaty in his press conference and said that he
 had recently “reminded the Japanese of the existence of that
-clause.” 29 The evident intention was to strengthen Japanese re-
-sistance; and it may be supposed that by “reminding” the Rus-
-Sians of the same clause through the medium of his press con-
-ference, Dulles helped to provide the Japanese with the familiar
+clause.” 29 The evident intention was to strengthen Japanese resistance; and it may be supposed that by “reminding” the RusSians of the same clause through the medium of his press conference, Dulles helped to provide the Japanese with the familiar
 bargaining claim, “If I did it for you, I’d have to do it for every-
- 
+
 “benefit.” (If the blackmailer cannot scale down his demands to where what he
-demands, plus the fine for paying blackmail, are less than the damagehethreat-
-ens, he may offer to pay his victim’s fine. This guarantees what his victim’s
+demands, plus the fine for paying blackmail, are less than the damagehethreatens, he may offer to pay his victim’s fine. This guarantees what his victim’s
 wens to the threat will be; so the threat is made, to the disadvantage of the
 ctim.)
- 
- 
-0
-10
-0
-8
+
+
 becomes
-10
-0
-10
-0
-1
-2
-1
-2
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-' * Transcript of the Remarks by Secretary of State Dulles at His News Con-
-erence, The New York Times (August 29, 1956), p. 4.
 
 
-160
+' * Transcript of the Remarks by Secretary of State Dulles at His News Conerence, The New York Times (August 29, 1956), p. 4.
+
 A REORIENTATION OF GAME THEORY
 one else.” It was, in terms used earlier, a “commitment” secureq
 by the penalty of a forfeit to the United States. (Paradoxically
@@ -7900,8 +6586,7 @@ If the essence of a gameof strategy is the dependence of each
 person’s proper choice of action on what he expects the other to
 do, it may be useful to define a “strategic move” as follows: A
 strategic move is one that influences the other person’s choice,
-in a manner favorable to one’s self, by affecting the other per-
-son’s expectations on how one’s self will behave. One constrains
+in a manner favorable to one’s self, by affecting the other person’s expectations on how one’s self will behave. One constrains
 the partner’s choice by constraining one’s own behavior. The
 object is to set up for one’s self and communicate persuasively
 to the other player a mode of behavior (including conditional
@@ -7910,16 +6595,13 @@ maximization problem whose solution for him is the optimum
 for one’s self, and to destroy the other’s ability to do the same.
 There is probably no contrast morestriking, in the comparison
 of the mixed-motive and the pure-conflict (zero-sum) game, than
-the significance of having one’s own strategy found out and ap-
-preciated by the opponent. Hardly anything captures thespirit
+the significance of having one’s own strategy found out and appreciated by the opponent. Hardly anything captures thespirit
 of the zero-sum game quite so much as the importance of “not
 being found out” and of employing a mode of decision thatis
 proof against deductive anticipation by the other player.8! Hardly
 anything epitomizes strategic behavior in the mixed-motive game
-so much as the advantage of being able to adopt a mode of be-
-havior that the other party will take for granted.
-© That one’s position can be painfully weakened by new legal powers is poign-
-antly suggested by one of the arguments raised against legalizing euthanasia,
+so much as the advantage of being able to adopt a mode of behavior that the other party will take for granted.
+© That one’s position can be painfully weakened by new legal powers is poignantly suggested by one of the arguments raised against legalizing euthanasia,
 granting hopeless incurables the right to authorize their own removal: “What
 . would betheeffect on old people with incurable infirmities who are already
 suspicious that those around them want to get rid of them?” (John Beaval:
@@ -7936,15 +6618,13 @@ out by the opponent into an absolutely central position.”
 
 
 STRATEGIC MOVES
-161
+
 It can, of course, be an advantage in the zero-sum game to
 have the opponent believe firmly in a particular mode of play
-for one’s self, but only if that belief is in error. In the mixed-
-motive game, oneis interested in conveying the truth about his
+for one’s self, but only if that belief is in error. In the mixedmotive game, oneis interested in conveying the truth about his
 own behavior — if, indeed, he has succeeded in constraining his
 own behavior along lines that, when anticipated, win.
-Another paradox of mixed-motive games is that genuine igno-
-rance can be an advantage to a player if it is recognized and
+Another paradox of mixed-motive games is that genuine ignorance can be an advantage to a player if it is recognized and
 taken into account by an opponent. This paradox, which can arise
 either in the coordination problem or in the immunity from a
 threat, has no counterpart in zero-sum games. And,similarly, in a
@@ -7953,8 +6633,6 @@ can never be an advantage to move first (to play the “minorant
 game”in the language of von Neumann and Morgenstern); in the
 mixed gameit certainly can.
 
-
-6
 GAME THEORY AND
 EXPERIMENTAL RESEARCH
 The foregoing discussion suggests several conclusions about
@@ -7962,19 +6640,14 @@ the methodology appropriate to a study of bargaining games,
 One is that the mathematical structure of the payoff function
 should not be permitted to dominate the analysis. A second one,
 somewhat more general, is that there is a danger in too much
-abstractness: we change the character of the game when wedras-
-tically alter the amount of contextual detail that it contains or
-when weeliminate such complicating factors as the players’ un-
-certainties about each other’s value systems. It
-is often con-
-textual detail that can guide the players to the discovery of a
+abstractness: we change the character of the game when wedrastically alter the amount of contextual detail that it contains or
+when weeliminate such complicating factors as the players’ uncertainties about each other’s value systems. It
+is often contextual detail that can guide the players to the discovery of a
 stable or, at least, mutually nondestructive outcome. In terms
 of an earlier example, the ability of Holmes and Moriarty to get
 off at the same station may depend on the presence of something
-in the problem other than its formal structure. It may be some-
-thing on the train or something in the station, something in their
-common background, or something that they hear over the loud-
-speaker when the train stops; and though it may be difficult to
+in the problem other than its formal structure. It may be something on the train or something in the station, something in their
+common background, or something that they hear over the loudspeaker when the train stops; and though it may be difficult to
 derive scientific generalizations about whatit is that serves their
 need for coordination, we have to recognize that the kinds of
 things that determine the outcome are what a highly abstract
@@ -7988,23 +6661,17 @@ of the study of mixed-motive games is necessarily empirical:
 
 
 GAME THEORY AND EXPERIMENTAL RESEARCH
-163
+
 This is not to say just that it is an empirical question how people
 do actually perform in mixed-motive games, especially games
-too complicated for intellectual mastery. It is a stronger state-
-ment: that the principles relevant to successful play, the strate-
-gic principles, the propositions of a mormative theory, cannot be
+too complicated for intellectual mastery. It is a stronger statement: that the principles relevant to successful play, the strategic principles, the propositions of a mormative theory, cannot be
 derived by purely analytical means from a priori considerations.
 In a zero-sum gamethe analyst is really dealing with only a
 single center of consciousness, a single source of decision. True,
-there are two players, each with his own consciousness ; but mini-
-max strategy converts the situation into one involving two essen-
-tially unilateral decisions. No spark of recognition needs to jump
+there are two players, each with his own consciousness ; but minimax strategy converts the situation into one involving two essentially unilateral decisions. No spark of recognition needs to jump
 between the two players; no meeting of minds is required; no
-hints have to be conveyed; no impressions, images, or under-
-standings have to be compared. Nosocial perception is involved.
-But in the mixed-motive game, two or more centers of conscious-
-ness are dependent on each other in an essential way. Something
+hints have to be conveyed; no impressions, images, or understandings have to be compared. Nosocial perception is involved.
+But in the mixed-motive game, two or more centers of consciousness are dependent on each other in an essential way. Something
 has to be communicated; at least some spark of recognition must
 pass between the players. There is generally a necessity for some
 social activity, however rudimentaryor tacit it may be; and both
@@ -8014,23 +6681,17 @@ individuals, who play with each other in absolute silence and
 without even knowing each other’s identity, must tacitly reach
 some meeting of minds.
 There is, consequently, no way that an analyst can reproduce
-the whole decision process either introspectively or by an axio-
-Matic method. There is no way to build a model for the inter-
-action of two or more decision units, with the behavior and ex-
-Pectations of those decision units being derived by purely formal
+the whole decision process either introspectively or by an axioMatic method. There is no way to build a model for the interaction of two or more decision units, with the behavior and exPectations of those decision units being derived by purely formal
 deduction. An analyst can deduce the decisionsof a single rational
 mind if he knows the criteria that govern the decisions; but he
 Cannot infer by purely formal analysis what can pass between
 two centers of consciousness. It takes at least two people to test
 that. (Two analysts can do it, but only by using themselves as
-Subjects in an experiment.) Taking a hint is fundamentally dif-
-rent from deciphering a formal communication or solving a
+Subjects in an experiment.) Taking a hint is fundamentally difrent from deciphering a formal communication or solving a
 Mathematical problem;
 it involves discovering a message that
 been planted within a context by someone who thinks he
 
-
-164
 A REORIENTATION OF GAME THEORY
 shares with the recipient certain impressions or associations. One
 cannot, without empirical evidence, deduce what understandings
@@ -8051,8 +6712,7 @@ formal analysis. We cannot build either a descriptive theory or
 a prescriptive theory on the assumption that there are certain
 intellectual processes that rational players are mot capable of, of
 the kind involved in “taking a hint”; it is an empirical question
-whether rational players, either jointly or individually, can actu-
-ally do better than a purely formal game theory predicts and
+whether rational players, either jointly or individually, can actually do better than a purely formal game theory predicts and
 should consequently ignore the strategic principles produced by
 such a theory.1
 1A good laboratory example of the communication-perception part of game
@@ -8073,59 +6733,48 @@ since an uncoordinated choice is a lost chance to make some money. M M
 Flood, “Some Experimental Games,” Management Science, 5:5-26
 (October
 1958).
-The question of how to communicate a proposaleffectively and how to in-
-terpret the other player’s proposal implicit in his pattern of play is evidentl’
+The question of how to communicate a proposaleffectively and how to interpret the other player’s proposal implicit in his pattern of play is evidentl’
 dependent on some mutual perception of a shared sense of pattern —a joint]
 recognized ability to complete a pattern of which a fragment has been disp!3‘ ed
 —not unlike the process involved in the experiments of the Gestalt psycholo-
 
 
 GAME THEORY AND EXPERIMENTAL RESEARCH
-165
+
 Again it should be emphasized that the reason why this kind
 of consideration does not arise in the zero-sum gameis that any
 such social interaction could not be to the advantage of both
-players simultaneously and that at least one of the rational play-
-ers would have both motive and ability to destroy all social
+players simultaneously and that at least one of the rational players would have both motive and ability to destroy all social
 communication. But in a nonzero-sum game that involves any
 jnitial uncertainty over which among the possible outcomes are
-jn fact efficient and any need for coordinated mutual accommo-
-dation to get to an efficient outcome, a rational player cannot
+jn fact efficient and any need for coordinated mutual accommodation to get to an efficient outcome, a rational player cannot
 absent himself in self-defense from the social process; he cannot
 turn off his hearing aid to avoid being constrained by what he
-hears, if complete radio silence makesefficient collaboration im-
-possible. Nor can herationally fail to open letter, once it is
+hears, if complete radio silence makesefficient collaboration impossible. Nor can herationally fail to open letter, once it is
 delivered, since the other party will have assumed that he will
 open it and have acted accordingly.
 At this point a question arises whether the game-theorytrail
 ramifies indefinitely over the whole domain of social psychology
 or leads into a more limited area particularly congenial to game
 theory. Are there some general propositions about cooperative
-behavior in mixed-motive games that can be discovered by ex-
-periment or observation and that yield a widely applicable in-
-sight into the universe of bargaining situations? Although suc-
-cess is not assured, there are certainly some promising areas for
+behavior in mixed-motive games that can be discovered by experiment or observation and that yield a widely applicable insight into the universe of bargaining situations? Although success is not assured, there are certainly some promising areas for
 research; and even if we cannot discover general propositions,
 we may at least disprove empirically some that are widely held.
 It does appear that game theory is badly underdeveloped from
 the experimentalside.
 Consider a game like the one described earlier, involving the
 movement of counters over a map, or the modified chess game
- 
+
 Bists mentioned in an earlier footnote. And, while a purely formal theory of
-Communication may derive certain minimum standards of “efficiency” in com-
-Munication that rational players ought to achieve, it is an empirical question
+Communication may derive certain minimum standards of “efficiency” in comMunication that rational players ought to achieve, it is an empirical question
 Whether players can do better than that. How well one can take a hint and
-What kinds of hints are most successful are empirical questions of social per-
-ception, probably amenable to experimental study. (The same problem arises
+What kinds of hints are most successful are empirical questions of social perception, probably amenable to experimental study. (The same problem arises
 two men at an auction recognize that they are jointly losing money by bid-
 & against each other andtry, without giving any overt evidence of collusion,
 9 concert on some pattern of reciprocal and alternating abstention from bid-
 ® that both saves them money jointly and distributes the savings and the
 °PPortunities between them.)
 
-
-166
 A REORIENTATION OF GAME THEORY
 that was made nonzero-sum. These can be taken to represent
 games in “limited war”; both players can gain by successfully
@@ -8139,29 +6788,20 @@ intentions are provided by the incidental details of the game, by
 such things as a configuration of the map or board, the suggested
 names of the pieces, the tradition or precedent that goes with
 the game, and the scenario or connotative background that is
-instilled into the players before the game begins. It is a suffi-
-ciently complicated game to require perceptive play by both sides
+instilled into the players before the game begins. It is a sufficiently complicated game to require perceptive play by both sides
 and the successful conveyance of intentions. If we suppose for a
 moment that the technical problem of constructing a playable
-game of that type has been mastered, it is worth while to con-
-sider what line of questions we might try to investigate or what
+game of that type has been mastered, it is worth while to consider what line of questions we might try to investigate or what
 hypotheses we mighttest.
 One such question would be this: by and large, does it appear
 that the players are any more successful in reaching an efficient
 solution, that is, a mutually nondestructive solution, when (a)
-full or nearly full communication is allowed, (5) no communi-
-cation or virtually none is allowed, other than what can be con-
-veyed by the moves themselves, or (c) communication is asym-
-metrical, with one party more able to send messages than heis
+full or nearly full communication is allowed, (5) no communication or virtually none is allowed, other than what can be conveyed by the moves themselves, or (c) communication is asymmetrical, with one party more able to send messages than heis
 to receive them? There is no guaranty that a single, universally
-applicable answer would emerge; nevertheless, some quite gen-
-eral valid propositions about the role of communication might
+applicable answer would emerge; nevertheless, some quite general valid propositions about the role of communication might
 well be discovered. The enormoussignificance of this questionis
 attested by some of the current controversies about whether the
-possibility of keeping war limited is greater if there is good com-
-munication between both sides, or if there are unilateral declara-
-tions ahead of time by one side or the other, or if there is vit-
-tually no overt communication between the belligerents.?
+possibility of keeping war limited is greater if there is good communication between both sides, or if there are unilateral declarations ahead of time by one side or the other, or if there is vittually no overt communication between the belligerents.?
 *To preclude any possible misunderstanding:
 the writer
 is not suggesting
@@ -8174,14 +6814,13 @@ tent that motivations affect social perception. The probability that the results
 
 
 GAME THEORY AND EXPERIMENTAL RESEARCH
-167
+
 Another set of questions, also pertinent to problems of limited
 war, international or other, would be whether a stable, efficient
 outcome is more likely when the connotations of the game —
 the names and interpretations that are overtly attached to the
 moves and pieces and objects on the board —are familiar and
-recognizable or when they are quite novel, unfamiliar, and un-
-likely to inspire similar notions in the two players. Is it —to
+recognizable or when they are quite novel, unfamiliar, and unlikely to inspire similar notions in the two players. Is it —to
 speak of the game in a particular extensive form — more likely
 that rational players can keep a war limited in Southeast Asia,
 using conventional and atomic weapons, or in a battle against
@@ -8202,8 +6841,7 @@ with two practiced players, two novices, or one novice and a
 practiced player; and in the latter pair, who has the advantage?
 In a gameofthis sort, how crucial] are the opening moves? If
 stable patterns of behavior, that is, “rules of the game,” are not
-discovered early, will they be discovered at all? Is mutually suc-
-cessful play more likely if the general philosophy of each player
+discovered early, will they be discovered at all? Is mutually successful play more likely if the general philosophy of each player
 is to begin with “tight” rules or highly “limited” weapons and
 resources, loosening them little only as the occasion demandsit,
 Or if each player sets himself wider limits at the outset in order
@@ -8211,13 +6849,9 @@ to avoid having to establish a practice of loosening rules as he
 R0es ?
 —
 ®f such research would find ready application, however, is enhanced by the
-observation that much current theorizing on, for instance, the role of com-
-Unication in limited war or the types of limitations most likely to be observed
-ems itself to be based only on what might be described as implicit experi-
-ntal games played introspectively.
+observation that much current theorizing on, for instance, the role of comUnication in limited war or the types of limitations most likely to be observed
+ems itself to be based only on what might be described as implicit experintal games played introspectively.
 
-
-168
 A REORIENTATION OF GAME THEORY
 How muchinfluence on a game of this sort can a “mediato;»
 have, and what kinds of mediating roles are most effective? Doe,
@@ -8237,8 +6871,7 @@ ing point, or when an “innovation”in tactics has been introduced,
 or when a particular move by the other side is to be interpreted
 as “retaliation” or a new initiative.
 Because a “law of reprisal” is essentially casuistic in nature.
-because the mutually recognized restraints in any form of “lim-
-ited war” are essentially based on something psychologically and
+because the mutually recognized restraints in any form of “limited war” are essentially based on something psychologically and
 sociologically akin to tradition; and because the received body
 of casuistry and tradition is often wholly inadequate to the game
 at hand
@@ -8261,9 +6894,8 @@ perceived, and accepted; patterns of action and response have '°
 
 
 GAME THEORY AND EXPERIMENTAL RESEARCH
-169
-be legitimized.’ In an almost unconsciously cooperative way, ad-
-yersaries must reach a mutually recognized definition of what
+
+be legitimized.’ In an almost unconsciously cooperative way, adyersaries must reach a mutually recognized definition of what
 constitutes an innovation, a challenging or assertive move, or a
 cooperative gesture, and they must develop some common norm
 regarding the kindof retaliation that fits the crime when a breach
@@ -8271,13 +6903,10 @@ of the rules occurs.*
 A “scenario” might, for example, identify one of the players as
 “aggressor”; it might give the outcomes of previous plays of the
 same game by other players; it might give a background story
-that would tend to identify some particular division of the ter-
-rain aS corresponding to an original “status quo”; or it might
-seem to attach a kind of moral claim of one of the players to par-
-ticular parts of the board. These background data would have no
+that would tend to identify some particular division of the terrain aS corresponding to an original “status quo”; or it might
+seem to attach a kind of moral claim of one of the players to particular parts of the board. These background data would have no
 influence on the logical or mathematical structure of the game;
-they would be intended to have no force except power of sugges-
-tion. Again, one might set up the board so that on thefirst play
+they would be intended to have no force except power of suggestion. Again, one might set up the board so that on thefirst play
 *A splendid example of the creation of norms in practice —and one that
 suggests that the process
 is susceptible of analysis— was the rather general
@@ -8300,17 +6929,14 @@ hostility in the game is a significant constraint on his ability to perceive the
 other player’s meaning, it becomes part of the “communication structure.” An
 experiment by Deutsch is pertinent. He let pairs of players play nonzero-sum
 games (in matrix form) tacitly for a sequence of two plays, the game providing
-both a “cooperative” and an “uncooperative” choice. Those who played un-
-Cooperatively against a cooperative partner had an opportunity, on the second
-lay, to respond to the implicit offer of cooperation. But, “when their expecta-
-tion of the other person’s choice was not confirmed, they tended to interpret
+both a “cooperative” and an “uncooperative” choice. Those who played unCooperatively against a cooperative partner had an opportunity, on the second
+lay, to respond to the implicit offer of cooperation. But, “when their expectation of the other person’s choice was not confirmed, they tended to interpret
 his choice as being a function of indifference or a basic lack of understanding
 4S to how the game ‘should’ be played.
 .
 .
 . In this group, knowledge of the
-Other person’s choice, because of the meaning attributed to it, tended to re-
-inforce the previous negative sentiments regarding the intentions of the other
+Other person’s choice, because of the meaning attributed to it, tended to reinforce the previous negative sentiments regarding the intentions of the other
 Person,” See Morton Deutsch, Conditions Affecting Cooperation, Research Cen-
 €r for Human Relations, New York University, 1957. (An article based on
 is ‘monograph,
@@ -8324,8 +6950,6 @@ Uspicion,” appeared in The Journal of Conflict Resolution, 2:265-279
 [De-
 “ember 1958].)
 
-
-170
 A REORIENTATION OF GAME THEORY
 it corresponds to the wayit stood in the middle of the same game
 as played earlier by two other players, and see whether the oy.
@@ -8344,8 +6968,7 @@ the process by which particular encounters become invested with
 symbolic importance, such that each player recognizes that heis
 establishing a role and reputation in the way he conducts him.
 self at a particular point in the game.
-Another dimension of the game that seems susceptible of an-
-alysis is the significance of the incrementalism that is involved
+Another dimension of the game that seems susceptible of analysis is the significance of the incrementalism that is involved
 in the moves and value systems. Take, for example, a gamethat
 involves moving pieces over a board or troops over someterrain.
 If players move in turn, each moving one piece one squareat a
@@ -8359,8 +6982,7 @@ avoided in subsequent play. If there is communication, there is
 time for the players to bargain verbally and to avoid movesthat
 involve mutual destruction. But suppose that, instead, the pieces
 can be moved several at a time in any direction and any distance
-and that the rules make the outcome of any hostile clash enor-
-mously destructive for one or both sides. Now the gameis 0
+and that the rules make the outcome of any hostile clash enormously destructive for one or both sides. Now the gameis 0
 so incremental;
 things can happen abruptly. There may be 2
 temptation toward surprise attack. While one can see what the
@@ -8371,13 +6993,11 @@ force of this power of suggestion.
 
 
 GAME THEORY AND EXPERIMENTAL RESEARCH
-171
-than a move or two ahead. There seemsto be less chance to de-
-yelop a modus vivendi, or tradition of trust, or dominant and
+
+than a move or two ahead. There seemsto be less chance to deyelop a modus vivendi, or tradition of trust, or dominant and
 submissive roles for the two players, because the pace of the game
 prings things to a head before much experience has been gained
-or much of an understanding reached. But does a moreincre-
-mental game make successful collaboration easier, or does it
+or much of an understanding reached. But does a moreincremental game make successful collaboration easier, or does it
 just invite a riskier mode of play? Or does this depend on what
 kinds of people the players are and on whatsuggestions we plant
 in the gameitself? Is the critical factor the incrementalism of
@@ -8388,11 +7008,8 @@ can be introduced into a game in one dimension to offset the
 lack of it in another? The relevance of these questionsis attested
 by the controversy over the role of nuclear weapons in limited
 war, the significance of the temptation to surprise attack in a
-situation that depends on mutual deterrence, and various pro-
-posals to reduce the tempo of modern warandtoisolate it geo-
-graphically, together with disagreement over whether there can
-be such a thing as limited war on the continent of western Eu-
-rope. Incrementalism may be comparatively amenable to formal
+situation that depends on mutual deterrence, and various proposals to reduce the tempo of modern warandtoisolate it geographically, together with disagreement over whether there can
+be such a thing as limited war on the continent of western Europe. Incrementalism may be comparatively amenable to formal
 analysis, once the necessary empirical benchmarks have been
 identified by experiment or observation.®
 These questions have concerned two-person games, except for
@@ -8400,21 +7017,15 @@ the possible role of the mediator. Similar games could be played
 by three or more participants, each on his own account; and the
 author conjectures that — at least among “successful” players —
 many of the empirical results would appear in sharperrelief with
-the larger number of players. More generally, the kind of coordi-
-Nation involved in the formation of mobs and coalitions may
-lend itself to experimental study. In contrast to the more sani-
-tary, symmetrical schemes that have sometimes been used
+the larger number of players. More generally, the kind of coordiNation involved in the formation of mobs and coalitions may
+lend itself to experimental study. In contrast to the more sanitary, symmetrical schemes that have sometimes been used
 to
 *“It is not only that limited war must find means to prevent the most
 €xtreme violence;
 it must also seek to slow down the tempo of modern war
-lest the rapidity with which operations succeed each other prevent the estab-
-ishment of a relation between political and military objectives. If this relation-
-ip is lost, any waris likely to grow by imperceptible stages into one all-out
+lest the rapidity with which operations succeed each other prevent the estabishment of a relation between political and military objectives. If this relationip is lost, any waris likely to grow by imperceptible stages into one all-out
 rer (Henry A. Kissinger, Nuclear Weapons and Foreign Policy [New York,
 
-
-172
 A REORIENTATION OF GAME THEORY
 study the formation of coalitions in game theory, it might prove
 more interesting to introduce deliberately certain asymmetries
@@ -8434,8 +7045,7 @@ more squares to be formed with the remaining pieces. He is interested in what
 happens when these deceptive “successes” occur. “For an individual who has
 completed a square it is understandably difficult to tear it apart. The ease with
 which he can take a course of action ‘away from the goal’ should depend to
-some extent upon his perception of the total situation. In this regard the pat-
-tern of communication should have well-defined
+some extent upon his perception of the total situation. In this regard the pattern of communication should have well-defined
 effects. ..
 . Preliminary runs
 ... have revealed ... that the binding forces against restructuring are very
@@ -8452,22 +7062,14 @@ PART Il
 STRATEGY WITH A
 RANDOM INGREDIENT
 
-
-
-
-7
 RANDOMIZATION OF PROMISES
 AND THREATS
-In the theory of gamesof pure conflict (zero-sum games) ran-
-domized strategies play a central role. It may be no exaggeration
+In the theory of gamesof pure conflict (zero-sum games) randomized strategies play a central role. It may be no exaggeration
 to say that the potentialities of randomized behavior account for
-most of the interest in game theory during the past one and one-
-half decades. The essence of randomization in a two-person zero-
-sum game
+most of the interest in game theory during the past one and onehalf decades. The essence of randomization in a two-person zerosum game
 is
 to preclude the adversary’s gaining intelligence
-about one’s own modeof play — to prevent his deductive antici-
-pation of how one may make up one’s own mind, and to protect
+about one’s own modeof play — to prevent his deductive anticipation of how one may make up one’s own mind, and to protect
 oneself from tell-tale regularities of behavior that an adversary
 might discern or from inadvertent bias in one’s choice that an
 adversary might anticipate. In the games that mix conflict with
@@ -8476,8 +7078,7 @@ role, and the role it does play is rather different.?
 1John von Neumann, speaking of “the fundamental theorem on the existence
 of good strategies,” namely the theorem that all zero-sum games with a finite
 number of pure strategies have a minimax-maximin equilibrium pair
-(‘“‘solu-
-tion”)
+(‘“‘solution”)
 if mixed strategies are allowed, said, “As far as I can see, there could
 be no theory of games on these bases without that theorem.
 .
@@ -8516,8 +7117,6 @@ is somewhat more
 Sophisticated, the first may better catch the spirit of the problem as it presents
 lf to a game player. And the first reminds us that the problem, even with
 
-
-176
 STRATEGY WITH A RANDOM INGREDIENT
 Randomization in the theory of these (“nonzero-sum”) games
 is not mainly concerned with preventing one’s strategy from
@@ -8526,18 +7125,14 @@ more concerned with making the other player anticipate one’s
 mode of play, and anticipate it correctly, than with disguising
 one’s strategy.
 There may of course be zero-sum components embeddedin a
-larger game. In limited war one may be concerned to communi-
-cate rather than to disguise the limits that one proposes to ob-
-serve, but within those limits may sortie his aircraft in a ran-
-domized way
+larger game. In limited war one may be concerned to communicate rather than to disguise the limits that one proposes to observe, but within those limits may sortie his aircraft in a randomized way
 to minimize
 the enemy’s
 tactical
 intelligence®
 Again, information samples may be exchanged, or agreements
 enforced on a sample basis, where neither party can afford to
-yield the other full knowledge. Arms-control agreements, for ex-
-ample, might have to be monitored by a sampling technique
+yield the other full knowledge. Arms-control agreements, for example, might have to be monitored by a sampling technique
 that yielded each side enough knowledge about the enemy’s
 forces to reveal compliance or noncompliance without yielding so
 much that the possibility of successful surprise attack on those
@@ -8569,8 +7164,7 @@ system.
 of secrecy or revelation. If in order to prove that one is committed to a threat.
 or that one is in fact capable of fulfilling the threat, one must display evidence
 of the commitment or the capability to the other party, the evidence may be of 4
-kind that necessarily yields information helpful to the second party in com-
-batting the threat. To prove to an enemy that one has a potent weapon that
+kind that necessarily yields information helpful to the second party in combatting the threat. To prove to an enemy that one has a potent weapon that
 can overcome his defenses we might have to demonstrate the weapon or some
 aspect of it, or provide technical knowledge to prove the weapon feasible;
 t®
@@ -8587,25 +7181,22 @@ their exact location rather than having to be prepared in all directions.
 
 
 RANDOMIZATION OF PROMISES AND THREATS
-177
+
 gets the object, and play “double or nothing” when we cannot
 make change. We can divide the obligation of citizenship equally
 by selecting draftees through a lottery, when we wanta fraction
 of the eligibles for a long period of service rather than all of
 them for a short one.
 In this role, randomization is evidently relevant to promises.
-If the only favors available to be promised are larger than neces-
-sary and notdivisible, a lottery that offers a specified probability
+If the only favors available to be promised are larger than necessary and notdivisible, a lottery that offers a specified probability
 of the favor’s being granted can scale down the expected value
 of the promise and reduce the cost to the person making it. An
-offer to help a person on a large scale in a contingency is some-
-what equivalent to offering the certainty of smaller help. (There
+offer to help a person on a large scale in a contingency is somewhat equivalent to offering the certainty of smaller help. (There
 maybethe additional advantage that the contingencyis correlated
 with his need.)
 But in this respect a promise is different from a threat. The
 difference is that a promise is costly when it succeeds, and a threat
-is costly when it fails. A successful threat is one that is not car-
-ried out. If I promise more than I need to as an inducement, and
+is costly when it fails. A successful threat is one that is not carried out. If I promise more than I need to as an inducement, and
 the promise succeeds, I pay more than I needed to. But a threat
 that is “too big” is likely to be superfluous rather than costly.
 If I threaten to blow us both to bits when it would have been
@@ -8613,8 +7204,7 @@ sufficient to threaten our discomfort, you'll likely still comply;
 since I have neither to discomfort us norto kill us, the error costs
 nothing. If all I had was a grenade to explode in our midst and
 wished for tear gas instead, I might scale down the grenade to
-the “size” of a tear-gas bomb by threatening an appropriate per-
-centage chance that the bomb would go off, killing us both,if
+the “size” of a tear-gas bomb by threatening an appropriate percentage chance that the bomb would go off, killing us both,if
 you failed to comply. But the need to do this is not as clear as in
 the case of a promise, where any excess in the value promised is
 So muchloss.
@@ -8628,8 +7218,6 @@ mb to make the threat persuasive, it is better to threaten with
 the Cheaper tear gas. But grenades may be cheaper, and then
 € incentive goes the other way. For many interesting threats
 
-
-178
 STRATEGY WITH A RANDOM INGREDIENT
 the greatest cost is the risk of having to carry it out, and the more
 ordinary “cost” is not a controlling factor.
@@ -8643,21 +7231,17 @@ is forthcoming, not by committing oneself to the certainty that
 the jointly painful punishment would be administered.
 I
 II
-0
-1
- 
- 
+
+
 .
-0
+
 ~X
 ll
-0
+
 -Y
 Fic. 17
- 
- 
- 
- 
+
+
 To illustrate, consider the matrix in Fig. 17, in which Column
 has first choice, followed by Row, but in which Row has the
 option of making a prior threat to constrain Column’s choice.
@@ -8678,7 +7262,7 @@ Alternatively, Row may get himself committed to his threat but
 
 
 RANDOMIZATION OF PROMISES AND THREATS
-179
+
 fail to communicate it convincingly to Column, so that Column
 mistakenly ignores the threat, condemning them both to the lower
 right-hand cell. Again, Column himself may have arranged a
@@ -8689,13 +7273,10 @@ to Row that eliminates the possibility of I; in that case, Row’s
 own commitment will only guarantee the worst outcome for
 poth players. Whatever the reasons for failure, there is perhaps
 some probability that the threat will fail. If we take it into
-account we may have a reason for Row to wish that the “puni-
-tive” payoffs in the lower right-hand cell were not quite as un-
-attractive as they are.
+account we may have a reason for Row to wish that the “punitive” payoffs in the lower right-hand cell were not quite as unattractive as they are.
 If Row is confined to “pure” strategies — if he must specify
 his threat or commitment without reference to error or chance —
-he can do nothing but wish that the numbersin the lowerright-
-hand cell were not so unattractive. But if he can randomize his
+he can do nothing but wish that the numbersin the lowerrighthand cell were not so unattractive. But if he can randomize his
 threat he can in fact “scale it down” to reduce somewhat the
 high cost of failure. If, for example, he can commit himself not
 to a choice of row ii in the event that column II is chosen, but
@@ -8706,21 +7287,17 @@ We can be morespecific. Let P stand for the probability that
 the threat will fail for any reason whatsoever. (For our present
 purpose this
 is an “autonomous” probability, independent of
-Row’s strategy.) Let Row now threaten to choose ii with prob-
-ability equal to x, in the event Column chooses II. In other words,
+Row’s strategy.) Let Row now threaten to choose ii with probability equal to x, in the event Column chooses II. In other words,
 if Column fails to comply there is a probability of x that Row
 Will choose ii to their mutual discomfort, and of (1 — +) that he
 Will choose i to their mutual relief. What value of 7 should Row
 Choose ?
 First, how large does w have to be to make the threat effective
 at all, that is, to make it effective assuming that it does motfail
-for any of the autonomousreasons involved in P? This is a ques-
-10n of Column’s choice when he is confronted with the risk 7.
+for any of the autonomousreasons involved in P? This is a ques10n of Column’s choice when he is confronted with the risk 7.
 Tf Column chooses I he gets o. If he chooses II his expectation is
 & Weighted average of 1 and —X, with weights of (1 — +) and x
 
-
-180
 STRATEGY WITH A RANDOM INGREDIENT
 respectively. If this average is less than o, he is motivated tp
 choose I — subject to the autonomous probability, P, that fo;
@@ -8749,16 +7326,15 @@ can expect from this particular matrix if he makes no threat —a
 value of + must be arranged that meets the condition
 1—~P—PrY>o
 r >
- 
- 
- 
+
+
 oF
 1—P
-1
+
 Poy7™
 Thusthe effective range for + in this exampleis given by
 1—P
-1
+
 I
 pT >r> 4X"
 And there is no threat at all worth making if there is no room
@@ -8774,18 +7350,16 @@ of measurement
 that
 scts
 his
-preferred payoff equal to +1 and his next preferred payoff to o. The full in-
-terpretation, then, of the expression 1/(1 + X),
+preferred payoff equal to +1 and his next preferred payoff to o. The full interpretation, then, of the expression 1/(1 + X),
 is: the ratio of (1)
-the dit-
-ference between Column’s upper right and upper left payoffs, to (2)
+the ditference between Column’s upper right and upper left payoffs, to (2)
 the su™
 
 
 RANDOMIZATION OF PROMISES AND THREATS
 181]
- 
- 
+
+
 r-P .
 I
 PY
@@ -8793,7 +7367,7 @@ PY
 or
 P
 X+I1
- 
+
 1-P
 ~*~ Y
 Only a “fractional” threat—a threat with w less than 1—is
@@ -8815,17 +7389,12 @@ cell, our assumption
 implies a bimodal distribution of
 payoffs in the population. It implies that we have either a man
 whose payoffs are adequately represented by the numbers in
-our matrix, or a man whose payoffs are so different that norele-
-vant threat — within the range of values up to # = 1 — willdis-
-suade him. If instead we supposed that the ratio of column
-payoffs in the upper and lower right-hand cells showed a bell-
-Shaped frequency distribution within the population, and that
-our particular adversary had been drawn at random,the proba-
-bility that our threat would succeed would vary directly with
+our matrix, or a man whose payoffs are so different that norelevant threat — within the range of values up to # = 1 — willdissuade him. If instead we supposed that the ratio of column
+payoffs in the upper and lower right-hand cells showed a bellShaped frequency distribution within the population, and that
+our particular adversary had been drawn at random,the probability that our threat would succeed would vary directly with
 of the differences between (a)
 his upper right and upper left payoff and (b)
-his lower right and upper left payoffs. The simplicity of the formulae thus re-
-flects advantage already taken of this scaling convenience.
+his lower right and upper left payoffs. The simplicity of the formulae thus reflects advantage already taken of this scaling convenience.
 It takes only one
 Parameter to
 characterize
@@ -8847,13 +7416,10 @@ Utility Measurement,” American Economic Review,
 43:
 26-50
 arch, 1953), or Luce and Raiffa, pp. 12-38.
- 
+
 <I
 or
- 
 
-
-182
 STRATEGY WITH A RANDOM INGREDIENT
 the value of x itself. The probability that a burglar drawn a
 random from the universe of burglars will be deterred by some
@@ -8871,22 +7437,18 @@ of communication with the adversary, there might be
 bette;
 reason for supposing the probability of failure to be independent
 of the particular threat being communicated.
-It is interesting to notice that attaching a probability of ful-
-fillment to our threat is, in the above model, substantially equiva-
-lent to scaling down the size of the threat moredirectly. To see
+It is interesting to notice that attaching a probability of fulfillment to our threat is, in the above model, substantially equivalent to scaling down the size of the threat moredirectly. To see
 this, interpret X in the lower right-hand cell as a fine that will
 be levied on both Row and Column, or a numberof lashes with
 the whip or days of imprisonment that both will suffer if the
 threat is fulfilled. If X is the maximum numberofdollars, lashes
 or days that Row can threaten, let « be interpreted as Row’s
-specification of what fraction of the maximum permissible pen-
-alty is to be exacted; if 7 is set at 0.5, for example, both Row
+specification of what fraction of the maximum permissible penalty is to be exacted; if 7 is set at 0.5, for example, both Row
 and Column receive exactly half their maximum punishments.
 If we interpret the matrix in this way, and ask what value of =
 provides the optimum threat from Row’s point of view, we go
 through the same analysis and we reach the same conclusion as
-before, namely, x is to be as small as possible subject to a mini-
-mum value equal to 1/(1 + X). Thus we can interpret = either
+before, namely, x is to be as small as possible subject to a minimum value equal to 1/(1 + X). Thus we can interpret = either
 as a probability of threat fulfillment or as the scale on which the
 threat is to be certainly carried out. Since the two formulations
 come to the same thing, and we can interpret 7 either way. 't
@@ -8899,13 +7461,12 @@ value of the outcome proportionately for both players, while 4
 
 
 RANDOMIZATION OF PROMISES AND THREATS
-183
+
 direct reduction in size might not be restricted to proportionate
 changes in value or utility for the two parties.) 5
 THE RISK OF INADVERTENT FULFILLMENT
 There is another “cost” element that can motivate a reduced
-threat. This is the risk that one will fulfill the threat inadver-
-tently, even if the adversary does comply with it (or would have
+threat. This is the risk that one will fulfill the threat inadvertently, even if the adversary does comply with it (or would have
 complied if the threat hadn’t gone off accidentally before he had
 a chance). The gun that threatens a burglar or hold-up victim
 may go off accidentally before he has a chance to comply. The
@@ -8927,8 +7488,7 @@ be, that the risk is present; the risk entailed by the high speed
 Must therefore be one that is small enough to be tolerable to
 the driver during this initial interval. If instead the car were
 definitely safe at all speeds under sixty but would certainly skid
-off the road at exactly sixty and there were no gradations be-
-tween that carried a moderate risk of accident, the driver could
+off the road at exactly sixty and there were no gradations between that carried a moderate risk of accident, the driver could
 have no incentive to incur a dangerous speed and the hitchhiker
 Would know it and not respond to a verbal threat of high speed.
 It is the possibility of a “fractional threat,” a threat that carries
@@ -8939,16 +7499,13 @@ itself, or be involved in the decision process whether the threatener
 Wishes it or not. So the interpretation of randomization as just a means of
 Manipulating the size of the threat is applicable only in somecases.
 
-
-184
 STRATEGY WITH A RANDOM INGREDIENT
 anything to work with; but to put it into effect he has to suffer
 it for somefinite period.
 If in situations of this kind we suppose — as is roughly true
 in the hitchhiker case — that the risk of inadvertent fulfillment
 is proportionate to the probability, 7, that one will fulfill the
-threat if the adversary does not comply — if the watchdog’s pro-
-pensity to bite innocent passersby is proportionate to his proclivity
+threat if the adversary does not comply — if the watchdog’s propensity to bite innocent passersby is proportionate to his proclivity
 to bite those who enter the premises—a formula is obtained
 that is not very dissimilar to the one already arrived at. Using
 the same matrix as before
@@ -8969,37 +7526,29 @@ parameter a, it may or may notbe possible to find a profitable
 value for z at all.
 or
 RANDOMIZED COMMITMENTS
-Having found a rationale for a “fractional threat,” we can in-
-quire whether the tactic of “unconditional commitment,” too, 1s
+Having found a rationale for a “fractional threat,” we can inquire whether the tactic of “unconditional commitment,” too, 1s
 one that in certain cases can advantageously be madeless than
 certain. As indicated in Chapters 3 and 5,6 a pure commitment
-— that is, a definite commitmentto a pure strategy — is equiva-
-lent to “first move” in a two-person, two-move game in which
-one would otherwise have to move second; it is a means of ob-
-taining the equivalent of first move. We have to relax that inter-
-pretation if we suppose that Row, who has second move in the
+— that is, a definite commitmentto a pure strategy — is equivalent to “first move” in a two-person, two-move game in which
+one would otherwise have to move second; it is a means of obtaining the equivalent of first move. We have to relax that interpretation if we suppose that Row, who has second move in the
 game but who has the option to commit himself ahead of time:
 commits himself to a 50-so chance of choosing row or ii. T°
 *Pp. 47, 122.
 
 
 RANDOMIZATION OF PROMISES AND THREATS
-185
+
 do this one must retain the right to move second, exploiting only
 the right to commit oneself ahead of time; if one had actually
-to move first, by a definite choice, the possibility of a random-
-ized commitment would be lost. (The randomized commitment
+to move first, by a definite choice, the possibility of a randomized commitment would be lost. (The randomized commitment
 is equivalent to a “first move” determined by a random device
 with odds set by the player, with the odds but not the actual
 move knownto the other player before his own move.)
 The same payoff matrix (Fig. 1) can be usedtoillustrate this
 situation if we change the rules of the game to permit Row an
-unconditional commitment prior to Column’s choice but not per-
-mitting him to makehis choice depend on Column’s.A firm com-
-mitment to ii induces a choice of column I but is wasted because
+unconditional commitment prior to Column’s choice but not permitting him to makehis choice depend on Column’s.A firm commitment to ii induces a choice of column I but is wasted because
 the lower left cell — to which Row is now committed — contains
-no reward. Row’s problem is that he needs rowii to induce Col-
-uma into I, but he needs row i to profit from I. A compromise
+no reward. Row’s problem is that he needs rowii to induce Columa into I, but he needs row i to profit from I. A compromise
 can be achieved by a randomized commitment — a commitment
 to a randomized choice. If Row is committed to flip a coin (50-50
 chance) to select
@@ -9008,8 +7557,7 @@ choose I as long as X is greater than 1.7 In that case Row gets
 an expected value of 0.5. If Row sets w (the probability of his
 choosing ii) at just above 1/(1 + X) he gets the largest expected
 value consistent with Column’s choice of I. (If Column’s payoff
-in the lower left cell differs from zero, say 0.5 or —o.5, the for-
-mula for optimum value of x differs somewhat.) If Row’s payoff
+in the lower left cell differs from zero, say 0.5 or —o.5, the formula for optimum value of x differs somewhat.) If Row’s payoff
 in the lower left cell were —1, no commitment with a greater
 than so per cent chanceofii would serve. And if that payoff were
 —X or worse, no probability mixture of i and ii would work;
@@ -9025,28 +7573,20 @@ ne eat is, as long as the payoff to Columnin the lowerright cell falls short of
 18 payoff in the upper left as much as the payoff in the upper right exceeds the
 Upper left, See the earlier footnote on the scaling of payoffs.
 
-
-186
 STRATEGY WITH A RANDOM INGREDIENT
- 
- 
- 
- 
- 
- 
+
+
 J
 II
 .
-4
-1
+
+
 i
-2
-1
-0
-2
+
+
 ii
-3
-2
+
+
 Fic. 18
 Column to choose I; no commitment at all leaves Columnpre.
 ferring II; a threat to choose i unless Column chooses I will be
@@ -9058,8 +7598,7 @@ disagreeing only over the choice of Row in that column. If he
 offers Column a 50-50 chance between rowsi and ii, Columngets
 an expected value of 2 in the first column, of 1.5 in the second,
 and choosesthe first. This leaves Row an expected value of 2.5.
-Since Row hasa preference for ii, he wants the highest probabil-
-ity of that row consistent with the need to provide Column with
+Since Row hasa preference for ii, he wants the highest probability of that row consistent with the need to provide Column with
 a preference for column J. That is, he wants the largest value of
 x for which (in the matrix shown)
 4(1— 2) > (1 — 7) + 29
@@ -9069,8 +7608,7 @@ of a fractional threat with a fractional promise. Row,in effect,
 “threatens” a relatively high probability of i in the event that IJ
 is chosen and “promises”it if I is chosen.
 He could do even better if he could make x conditional on
-Column’s choice. Any probability up to 0.75 for row ii, condi-
-tional on a choice of columnI, is a sufficient inducementif it i
+Column’s choice. Any probability up to 0.75 for row ii, conditional on a choice of columnI, is a sufficient inducementif it i
 certain that Row will retaliate for column II with row i. But i:
 he is limited to making his threat no worse than his promise !!
 good —if he has to attach the same probability to both of them
@@ -9081,8 +7619,6 @@ separate z for the promise, the upper limit is 0.75 for an expected
 payoff of 2.75 (and only 1.0 for Column).
 or
 
-
-8
 THE THREAT THAT LEAVES
 SOMETHING TO CHANCE
 It is typical of strategic threats that the punitive action — if
@@ -9102,19 +7638,14 @@ may not, and to say this is to confess that one has kept the
 power of decision — that one is not committed. To say only that
 one may carry out the threat, not that one certainly will, is to
 invite the opponent to guess whether one will prefer to punish
-himself and his opponent or to pass up the occasion. Further-
-More, if one says that he may — not that he will — and the op-
-ponent fails to heed the threat, and the threatener chooses not to
+himself and his opponent or to pass up the occasion. FurtherMore, if one says that he may — not that he will — and the opponent fails to heed the threat, and the threatener chooses not to
 Carry it out, he only confirms his opponent’s belief that when he
 has a clear choice to act or to abstain he will choose to abstain
 (consoling himself that he was not caught bluffing because he
 Never said that he would act for sure).
-There are threats of this kind nevertheless that may be ef-
-fective in spite of this loophole. They can work, however, only
+There are threats of this kind nevertheless that may be effective in spite of this loophole. They can work, however, only
 through a process that is a degree more complicated than firm
 
-
-188
 STRATEGY WITH A RANDOM INGREDIENT
 commitment to certain fulfillment. Furthermore, they may arise
 inadvertently and may
@@ -9130,8 +7661,7 @@ but, has an elementof, “I may or may not, and even I can’t be
 altogether sure.”
 Wheredoes the uncertain element in the decision come from? Jt
 must come from somewhere outside of the threatener’s control.
-Whetherwecall it “chance,” accident, third-party influence, im-
-perfection in the machinery of decision, or just processes that we
+Whetherwecall it “chance,” accident, third-party influence, imperfection in the machinery of decision, or just processes that we
 do not entirely understand, it is an ingredient in the situation
 that neither we nor the party we threaten can entirely control.
 An example is the threat of inadvertent war.
@@ -9143,8 +7673,7 @@ a misapprehension of enemy intentions or a correct apprehension
 of the enemy’s misapprehension of ours —is not an attractive
 one. As a general rule one wants to keep such a likelihood to a
 minimum ; and on the particular occasions whentension rises and
-strategic forces are put on extraordinary alert, when the incen-
-tive to react quickly is enhanced by the thought that the other
+strategic forces are put on extraordinary alert, when the incentive to react quickly is enhanced by the thought that the other
 side maystrike first, it seems particularly important to safeguard
 against impetuous decision, errors of judgment, and suspicious OF
 ambiguous modes of behavior. It seems likely that, for both
@@ -9158,10 +7687,9 @@ they have so frequently claimed — that an enhancedstatus for oUF
 
 
 THREAT THAT LEAVES SOMETHING TO CHANCE
-189
+
 retaliatory forces and for theirs may increase the danger of an
-accident or a false alarm,theirs or ours, or of some triggering in-
-cident, resulting in war. May they not perceive that the risk of
+accident or a false alarm,theirs or ours, or of some triggering incident, resulting in war. May they not perceive that the risk of
 gll-out war, then, depends on their own behavior, rising when they
 ageress and intimidate, falling when they relax their pressure
 against other countries?
@@ -9174,14 +7702,12 @@ uneasy about the possibility that their action might precipitate
 general war or initiate some dynamic process that could end
 only in massive war or massive Soviet withdrawal. They might
 not be confident that we and they could altogether foretell the
-consequences of our actions in an emergency,and keepthesitua-
-tion altogether under control.
+consequences of our actions in an emergency,and keepthesituation altogether under control.
 Here is a threat —if a mechanism like this exists — that we
 may act massively, not that we certainly will. It could be most
 credible. Its credibility stems from the fact that the possibility of
 precipitating major war in response to Soviet aggression is not
-limited to the possibility of our coolly deciding to attack ; it there-
-fore extends beyond the areas and the events for which a more
+limited to the possibility of our coolly deciding to attack ; it therefore extends beyond the areas and the events for which a more
 deliberate threat is in force. It does not depend on ourpreferring
 to launch all-out war, or on our being committed to, in the event
 the Russians confront us with the fait accompli of a moderately
@@ -9191,15 +7717,11 @@ Precipitating war under the circumstances.
 The threat —if we call this contingent-behavior mechanism a
 “threat” — has some interesting features. It may exist whether
 We realize it or not. Even those who have doubted whether our
-Massive-retaliation threat was a potent deterrent to minor aggres-
-Sion during the last several years, but are perplexed that the
+Massive-retaliation threat was a potent deterrent to minor aggresSion during the last several years, but are perplexed that the
 Russians have not engaged in more mischief than they have, can
-Note that the threat we voiced was backed by an additional im-
-Plicit threat that we might be triggered by Soviet actions in spite
+Note that the threat we voiced was backed by an additional imPlicit threat that we might be triggered by Soviet actions in spite
 of ourselves. Furthermore, even if we prefer not to incur even a
 
-
-190
 STRATEGY WITH A RANDOM INGREDIENT
 small probability of inadvertent war, and would not use this
 mechanism deliberately, the “threat” in question may be a by.
@@ -9207,9 +7729,7 @@ product of other actions that we have a powerful incentive to
 take. We may get this threat whether we like it or not when we
 (and the Russians) take precautions commensurate witha crisis:
 knowing this, the Russians may haveto take the risk into account,
-Finally, the threat is not discredited even if the Russians accom-
-plish their purpose without triggering war. If the Russiansesti-
-mate that the chance of inadvertent war during a particular month
+Finally, the threat is not discredited even if the Russians accomplish their purpose without triggering war. If the Russiansestimate that the chance of inadvertent war during a particular month
 rises from very small to not-so-small if they create a crisis, and
 they go ahead anyway, and no major war occurs, they still have
 little reason to suppose that their original estimate was wrong,
@@ -9217,20 +7737,17 @@ and little reason to suppose that repetition would beless risky,
 any more than a person who survives a single play of Russian
 roulette should decide it isn’t dangerousafterall.
 LIMITED WAR AS A GENERATOR OF RISK
-Limited war as a deterrent to aggression also requires inter-
-pretation as an action that enhances the probability of a greater
+Limited war as a deterrent to aggression also requires interpretation as an action that enhances the probability of a greater
 war. If we ask how the Western forces in Europe are expected to
 deter a Russian attack or to resist it if it comes, the answer
 usually runs in terms of a sequence of decisions. In case of attack
 on a moderate scale, we could makethe decision to fight limited
-war; it would not be a decision to proceed with mutual annihila-
-tion. If we can resist the Russians on a small scale, they must
+war; it would not be a decision to proceed with mutual annihilation. If we can resist the Russians on a small scale, they must
 either give up the idea or themselves take a step upward on the
 scale of violence. At some point there is a discontinuous jump
 from limited war to general war, and we hopeto confront them
 with that choice. If this is not the typical sequence of decisions
-envisaged, it at least seems typical in one respect: it involves de-
-liberate decisions — decisions to take an action or to abstain from
+envisaged, it at least seems typical in one respect: it involves deliberate decisions — decisions to take an action or to abstain from
 it, to initiate a war or not to, to step up the level of violence
 or not to, to respond to a challenge or not to.
 But another interpretation can be put on limited war. The
@@ -9248,22 +7765,18 @@ other party, together with one’s self, to a heightened risk of
 general war.!
 Here again is a threat that all-out war may occur, not that it
 certainly will occur, if the other party engages in certain actions.
-Again, whether it does or does not occur is not a matter alto-
-gether controlled by the threatener. Just how all-out war would
+Again, whether it does or does not occur is not a matter altogether controlled by the threatener. Just how all-out war would
 occur — just where the fault, initiative, or misunderstanding may
-occur —is not sure. Whatever it is that makes limited war be-
-tween great powers a risky thing, the risk is a genuine one that
+occur —is not sure. Whatever it is that makes limited war between great powers a risky thing, the risk is a genuine one that
 neither side can altogether dispel if it wants to. The final decision,
 or the critical action that initiates an irreversible process, is not
-something that should necessarily be expected to be taken al-
-together deliberately. “Chance” helps to decide whether general
+something that should necessarily be expected to be taken altogether deliberately. “Chance” helps to decide whether general
 war occurs or not, with odds that are a matter of judgment based
 on the nature of the limited war and the context in which it
 occurs.
 Why would one threaten limited war rather than all-out war to
 deter an attack? First, to threaten limited war — according to
-this analysis —is to threaten a risk of general war, not the cer-
-tainty of it; it is consequently a lesser threat than the massively
+this analysis —is to threaten a risk of general war, not the certainty of it; it is consequently a lesser threat than the massively
 retaliatory threat and more appropriate to certain contingencies.
 Second, it has the advantage, in case the enemy misjudges our
 intentions or commitments, of an intermediate stage: we can
@@ -9273,8 +7786,7 @@ the price we both pay for the enemy’s mistaken judgment. We
 Pay instead the lesser price of a risk of general war, a risk that
 the enemy can reduce by withdrawal or settlement.
 Third, in case the enemyis irrational or impetuous, or we have
-misjudged his motives or his commitments, or in case his ag-
-Stessive action has gotten up too much momentum tostop,orhis
+misjudged his motives or his commitments, or in case his agStessive action has gotten up too much momentum tostop,orhis
 ations are being carried out by puppets or satellites that are
 Pu, The same point is stressed by Glenn H. Snyder, “Deterrence by Denial and
 Ineshment”
@@ -9286,8 +7798,6 @@ Center
 of
 ternational Studies, January 2, 1959), Pp. 12, 29.
 
-
-192
 STRATEGY WITH A RANDOM INGREDIENT
 beyond his immediate powerto control, there is some prudencejp
 threatening risk rather than certainty.
@@ -9305,8 +7815,7 @@ enemy’s commitment to an action, or completely misjudge his
 ability to control his own agents,allies, or commanders, the more
 moderate risk may deter anything that is still within his control,
 If we give this interpretation to limited war, we can give a
-corresponding interpretation to enlargements, or threats of en-
-largement, of the war. The threat to introduce new weaponsinto
+corresponding interpretation to enlargements, or threats of enlargement, of the war. The threat to introduce new weaponsinto
 a limited war is not, according to this argument, to be judged
 solely according to the immediate military or political advantage,
 but also according to the deliberate risk of still larger war that
@@ -9322,8 +7831,7 @@ have is a graduatedseries of trip wires, each attached to a chance
 mechanism, with the daily probability of detonation increasing
 as the enemy moves from wire to wire. The critical feature of the
 analogy, it should be emphasized, is that whether or not the trip
-wire detonates general war is— at least to some extent — out-
-side our control, and the Russians know it.
+wire detonates general war is— at least to some extent — outside our control, and the Russians know it.
 The same interpretation might be true of Quemoy. One ca!
 argue that the Chinese or Russians were deterred by the prospec!
 of major war, not just by the prospect of losing a limited wat
@@ -9332,15 +7840,13 @@ that we would exercise every skill and caution to keep a W4!
 
 
 THREAT THAT LEAVES SOMETHING TO CHANCE
-193
+
 Jimited, and they were prepared to exercise skill and caution
 themselves, they may simply havefelt that the process that leads
-to bigger and bigger wars is not one that they or we fully under-
-stand or can foresee, and that the risk, though numerically small,
+to bigger and bigger wars is not one that they or we fully understand or can foresee, and that the risk, though numerically small,
 was appreciable.
 RISKY BEHAVIOR IN LIMITED WAR
-If one of the functions of limited war, then, is to pose the de-
-liberate risk of all-out war, in order to intimidate the enemy and
+If one of the functions of limited war, then, is to pose the deliberate risk of all-out war, in order to intimidate the enemy and
 to make pursuitof his limited objectives intolerably risky to him,
 the usual precepts for behavior in limited war need revision. The
 supreme objective may not be to assure that it stays limited, but
@@ -9356,8 +7862,7 @@ resistance will seem.)
 Deliberately raising the risk of all-out war is thus a tactic that
 fits the context of limited war. Of course, one cannot raise the
 tisk just by saying so. One cannot just announce to the enemy
-that yesterday one was only about 2 per cent ready to gotoall-
-out war but today it is 7 per cent and they had better watch out.
+that yesterday one was only about 2 per cent ready to gotoallout war but today it is 7 per cent and they had better watch out.
 One has to take actions that — assuming he and his adversary
 continue to be just as concerned and careful to keep the war
 limited — leave everyone just a little less sure that the war can
@@ -9365,15 +7870,11 @@ be kept under control.
 The idea is simply that a limited war can get out of hand by
 degrees. At any point one has some notion or sensation of how
 Much “out of control” it is. And various actions — innovations,
-breaches of limits, manifestations of “irresponsibility,” challeng-
-Ing and assertive acts, adoption of a menacing strategic posture,
-adoption of headstrong allies and collaborators, spoofing and har-
-assing
+breaches of limits, manifestations of “irresponsibility,” challengIng and assertive acts, adoption of a menacing strategic posture,
+adoption of headstrong allies and collaborators, spoofing and harassing
 tactics, introduction
 of new weapons, enlargement of
 
-
-194
 STRATEGY WITH A RANDOM INGREDIENT
 troop commitments or the area of conflict — tend to raise almost
 anyone’s judgment of how much “outof control” thesituation js
@@ -9387,11 +7888,9 @@ Limited local war is not the only context in which deliberately
 risky behavior may be used as a type of threat. Between the
 threats of massive retaliation and of limited war there is the
 possibility of less-than-massive retaliation, of graduated reprisal.
-Few serious analyses of war of limited reprisal have been pub-
-lished. The idea that one might “take out” a Russian city if
+Few serious analyses of war of limited reprisal have been published. The idea that one might “take out” a Russian city if
 Soviet troops invade a country, and keep “taking out” one every
-day until they quit, has been occasionally adverted to journalisti-
-cally but not systematically explored. Similar in spirit is the idea
+day until they quit, has been occasionally adverted to journalistically but not systematically explored. Similar in spirit is the idea
 of hostile action on a small scale—sinking ships, blockading
 ports, jamming communications, or whatever it may be.
 There are a number of Russian actions of an aggressive or
@@ -9414,9 +7913,8 @@ Princeton, April 9, 1959).
 
 
 THREAT THAT LEAVES SOMETHING TO CHANCE
-195
-Soviet mischief may need to be interpreted as an effort to in-
-timidate by the creation of a shared risk of general war.)
+
+Soviet mischief may need to be interpreted as an effort to intimidate by the creation of a shared risk of general war.)
 How do weinterpret a dramatic act like, say, limited nuclear
 reprisal on enemy territory? As in limited war, there again may
 be two parts to the “cost” imposed on an enemy.Oneis a direct
@@ -9452,8 +7950,6 @@ advance it may be enough to burn the bridges behind meas I face
 the enemy; to compel by threat an enemy’s retreat I have to be
 Committed to move forward, and this requires setting fire to the
 
-
-196
 STRATEGY WITH A RANDOM INGREDIENT
 grass behind me with the wind blowing toward the enemy.I cap
 block your car in the road by placing my car in your way; my
@@ -9479,40 +7975,36 @@ where oneis willing to set it going. Subjecting the enemy (and
 oneself) to a 1 per cent risk of enormous disaster for each week
 that he fails to comply is somewhat similar to subjecting him
 (and oneself) to a steady weekly damage rate equivalent to
-1
+
 per cent of disaster. (The words “somewhat” and “equivalent”
 may be interpreted very flexibly here.) 3
 “Rocking the boat” is a good example. If I say, “Row,orI'll
-tip the boat over and drown usboth,” you’ll say you don’t be-
-lieve me. But if I rock the boat so that it may tip over, you’ll be
+tip the boat over and drown usboth,” you’ll say you don’t believe me. But if I rock the boat so that it may tip over, you’ll be
 more impressed. If I can’t administer pain short of death for the
 two of us, a “little bit” of death, in the form of a small probability
 that the boat will tip over, is a near equivalent. But, to make it
 work, I must really put the boat in jeopardy; just saying that
 I may turn us both over is unconvincing.
 *To initiate risky action, if one cannot initiate it irreversibly, does not neces
-sarily “win” over an opponent: the latter maystill hope, by acting firm, to In-
-duce the initiator to back down. Onestill has to win the “war of nerves”
-1
+sarily “win” over an opponent: the latter maystill hope, by acting firm, to Induce the initiator to back down. Onestill has to win the “war of nerves”
+
 the adversary chooses to play it out for a while. But at least this symmetric4
 situation replaces one in which the asymmetry favored the opponent, who wo?
 by default if neither side acted.
 
 
 THREAT THAT LEAVES SOMETHING TO CHANCE
-197
+
 Ideally, for this purpose, I should havea little black box that
 contains a roulette wheel and a device that will detonate in a
 way that unquestionably provokes total war. I then set this little
 box down,tell the Russians that I have set it going so that once
 a day the roulette wheel will spin with a given probability
 (numerically specified and known to the Russians) that, on any
-day, the little box will provoke total war. I tell them — demon-
-strate to them — that the little box will keep running until my
+day, the little box will provoke total war. I tell them — demonstrate to them — that the little box will keep running until my
 demands have been complied with and that there is nothing I can
 do to stop it. Note that I do not insist that I shall decide on total
-war, or initiate it deliberately, if the box hits the critical combina-
-tion. I leave it all up to the box which automatically engulfs us
+war, or initiate it deliberately, if the box hits the critical combination. I leave it all up to the box which automatically engulfs us
 both in war if the right (wrong) combination comes up on any
 day.‘
 Given the fact that, even if the enemy complies, there is some
@@ -9547,8 +8039,6 @@ down. The Russians say they do not believe the country would do
 More automatic it is, the less incentive the enemy has to test my intentions in a
 War of nerves, prolonging the period of risk.
 
-
-198
 STRATEGY WITH A RANDOM INGREDIENT
 it; the country does it. The Russians protest and threaten, a day
 passes, the country does it again. Maybe one weapongets through
@@ -9568,8 +8058,7 @@ The sooner they get out, the sooner the risk of war (from this
 cause) will be terminated or reduced. The country applying the
 pressure is not saying, “Get out or we shall deliberately start a
 war.” The decision is not up to them, and does not depend on
-their displaying the manifest resolution for a final act. The Rus-
-sians may suppose that the country concerned will do everything
+their displaying the manifest resolution for a final act. The Russians may suppose that the country concerned will do everything
 it can to prevent total war; but they also have to recognize that
 with these things flying around, exploding now and then, and with
 themselves responding in whatever way they feel obliged to,it is
@@ -9577,8 +8066,7 @@ not altogether clear that the country concerned, and the Russians,
 know how to keep total war from occurring.
 This illustration is intended just as an analogy for other actions
 in which posing a risk of all-out war may not be so recognizable
-as an integral part of what is happening. To take a more im-
-mediate situation, suppose an armored columnweresentto Berlin
+as an integral part of what is happening. To take a more immediate situation, suppose an armored columnweresentto Berlin
 in the event that ground access were denied, or suppose, once 4
 transport squeeze on Berlin became intolerable, troops were sent
 in to claim and hold a corridor ; suppose actions were taken that,
@@ -9592,36 +8080,29 @@ little, could be the deliberate creation of a risk that we share with
 
 
 THREAT THAT LEAVES SOMETHING TO CHANCE
-199
+
 the Russians, providing them with the option either to terminate
 the risk by acting or to withdraw to meet our objectives.
 This is not the only interpretation of such action, of course.It
 may be that we could win militarily if the fight stays on a small
-scale, and that for the Russians to enlarge it would require a dis-
-continuous jump that they would be deterred from taking for
+scale, and that for the Russians to enlarge it would require a discontinuous jump that they would be deterred from taking for
 fear of provoking a discontinuousresponse. In that case theinitial
-limited war would contain a “deterrent” threat against enlarge-
-ment of the war. Even so, an important reason why the threat
+limited war would contain a “deterrent” threat against enlargement of the war. Even so, an important reason why the threat
 of even small-scale war might be effective is that such a war
 promises a small but appreciable increase in the probability of an
-enormous war, the probability being small enough that the Rus-
-sians believe the West could bringitself to create it, large enough
+enormous war, the probability being small enough that the Russians believe the West could bringitself to create it, large enough
 to make it unprofitable for them to let it occur.®
 Ii is worth noting that this interpretation suggests that the
-threat of limited war may be potent even whenthereis little ex-
-pectation that we would win it. In these terms, a limited local
+threat of limited war may be potent even whenthereis little expectation that we would win it. In these terms, a limited local
 war is not just local military action; it contains an element of
-“retaliation” on the Soviet homeland — not a small bi¢ of retalia-
-tion, but a small probability of a massive war.
+“retaliation” on the Soviet homeland — not a small bi¢ of retaliation, but a small probability of a massive war.
 BRINKMANSHIP
-The argument of this paper leads to a definition of brinkman-
-ship and a concept of the “brink of war.” The brinkis not, in this
+The argument of this paper leads to a definition of brinkmanship and a concept of the “brink of war.” The brinkis not, in this
 view, the sharp edge of a cliff where one can stand firmly, look
 down, and decide whetheror not to plunge. The brink is a curved
 Slope that one can stand on with somerisk of slipping, the slope
 gets steeper and therisk of slipping greater as one moves toward
-the chasm. But the slope and the risk of slipping are ratherir-
-regular; neither the person standing there nor onlookers can be
+the chasm. But the slope and the risk of slipping are ratherirregular; neither the person standing there nor onlookers can be
 quite sure just how great the risk is, or how muchit increases
 When one takes a few more steps downward. One does not, in
 *In the author’s opinion the dispatch of United States troops to Lebanon in
@@ -9629,8 +8110,6 @@ When one takes a few more steps downward. One does not, in
 € risk —a risk that the Communists could lessen or aggravate according to
 their response.
 
-
-200
 STRATEGY WITH A RANDOM INGREDIENT
 brinkmanship, frighten the adversary who is roped to him by
 getting so close to the edge that if one decides to jump one can
@@ -9652,8 +8131,7 @@ interpretation along these lines. It is sometimes argued that we
 need not threaten the enemy with the certainty of retaliation or
 the certainty of resistance, but just scare him with the possibility
 that we may strike back. This idea may be misconceivedif it
-means confronting the Russians with a possible response thatre-
-mains for us to decide on, one way or the other. The Russians
+means confronting the Russians with a possible response thatremains for us to decide on, one way or the other. The Russians
 may guess that after the event we should prefer not to strike
 back, particularly if they perform their aggression in moderate
 bites; and if we are unwilling to arrange so that we daveto strike
@@ -9673,37 +8151,29 @@ depending on how it suits as at the time, and that we shall not
 
 
 THREAT THAT LEAVES SOMETHING TO CHANCE
-201
+
 let the enemy make this decision for us, nor let him know just
 what to expect, may confront the enemy with what appears to be
 q bluff. But to get so involved in or near a neutral country with
-troops or other commitments that we are not altogether sure our-
-selves about whether we could evade a fight in case of invasion,
+troops or other commitments that we are not altogether sure ourselves about whether we could evade a fight in case of invasion,
 may genuinely keep the enemy guessing.
 In sum, it may makesense to try to keep the enemy guessing
 as long as weare not trying to keep him guessing about our own
 motivation. If the outcome is partly determined by events and
-processes that are manifestly somewhat beyond our comprehen-
-sion and control, we create genuine risk for him.
+processes that are manifestly somewhat beyond our comprehension and control, we create genuine risk for him.
 THE IMPERFECT PROCESS OF DECISION
 Underlying this threat that one “may”retaliate or precipitate
 war— the decision being somewhat beyond his control — is the
 notion that some of the most momentousdecisions of government
 are taken by a process that is not entirely predictable, not fully
-“under control,” not altogether deliberate. It implies that a na-
-tion can get even into a major war somewhatinadvertently, by a
+“under control,” not altogether deliberate. It implies that a nation can get even into a major war somewhatinadvertently, by a
 decision process that might be called “imperfect” in the sense that
-the response to particular contingencies cannot exactly be fore-
-told by any advance calculations, that the response to a particular
-contingency may depend on certain random or haphazard proc-
-esses, or that there will be faulty information, faulty communica-
-tion, misunderstanding, misuse of authority, panic, or human or
+the response to particular contingencies cannot exactly be foretold by any advance calculations, that the response to a particular
+contingency may depend on certain random or haphazard processes, or that there will be faulty information, faulty communication, misunderstanding, misuse of authority, panic, or human or
 mechanical] failure.
-This idea does not reflect an unusually cynical view of the deci-
-Sion process. In the first place, decisions do have to be taken on
+This idea does not reflect an unusually cynical view of the deciSion process. In the first place, decisions do have to be taken on
 the basis of incomplete evidence and ambiguous warning; andit
-is unreasonable to deny in principle the possibility of an irrevo-
-cable action taken on a false alarm. (Furthermore, one need not
+is unreasonable to deny in principle the possibility of an irrevocable action taken on a false alarm. (Furthermore, one need not
 be obsessed with the likelihood of false alarm to recognize that
 there may be levels below which this particular danger cannot
 be pushed without incurring other dangers that outweigh it!)
@@ -9711,8 +8181,6 @@ Second, war can occur because both sides become committed
 to irreconcilable positions from which neither is willing to back
 down, particularly if backing down requires assuming, even mo-
 
-
-202
 STRATEGY WITH A RANDOM INGREDIENT
 mentarily, a condition of military vulnerability. And it takes no
 cynic to recognize that two governments may misjudge each
@@ -9726,47 +8194,37 @@ pletely centralized dictatorship a number of persons participate
 in a decision, and they do not have identical value systems, judg.
 ments of enemy intentions, and estimates of military capabilities,
 A decision taken quickly in crisis may depend on whois present,
-on whetherparticular studies have been completed, on theinitia-
-tive and forcefulness shown by particular leaders and counsellors
+on whetherparticular studies have been completed, on theinitiative and forcefulness shown by particular leaders and counsellors
 whoare reacting to a quite unprecedented stimulus. Somepartsof
 the decision may be taken on delegated authority, and the person
 to whom the decision is delegated cannot necessarily reproduce
 the decision that would have been reached by a president or
-premier or cabinet in consultation with congressional or parlia-
-mentary leaders. There may even be somenecessary contradic-
-tions in the decision process, such as constitutional issues that
+premier or cabinet in consultation with congressional or parliamentary leaders. There may even be somenecessary contradictions in the decision process, such as constitutional issues that
 cannot besettled in advance but that makeit difficult to prepare
 fully for certain contingencies because the necessity to break law
-or precedent can be accepted only implicitly, not explicitly pre-
-pared for. Finally, the need to keep secrets puts limits on the
+or precedent can be accepted only implicitly, not explicitly prepared for. Finally, the need to keep secrets puts limits on the
 amount of advance preparation for contingencies that can be
 carried out.
-For this reason there is no such thing as a “firm” plan, inten-
-tion, or policy of a government to cover every contingency —
-even all important foreseeable contingencies. How the considera-
-tions add up, what interests are brought to bear, and how the
+For this reason there is no such thing as a “firm” plan, intention, or policy of a government to cover every contingency —
+even all important foreseeable contingencies. How the considerations add up, what interests are brought to bear, and how the
 collective decision procedure works in future crises is simply
 not fully determinable in advance.
 If on top of this we recognize that there are ordinary human
-limitations on the intellectual and emotional ability of govern-
-mental decision makers during the conduct of dangerous maneU-
-vers on the brink of war, it ought to be clear that there is such
+limitations on the intellectual and emotional ability of governmental decision makers during the conduct of dangerous maneUvers on the brink of war, it ought to be clear that there is such
 a thing as getting into a situation from whichit looks as though
 the nation may successfully extricate itself but in which there 1S
 
 
 THREAT THAT LEAVES SOMETHING TO CHANCE
-203
-some appreciable risk that, try as it does within the limits it al-
-Jowsitself, it may not succeed.
+
+some appreciable risk that, try as it does within the limits it alJowsitself, it may not succeed.
 One does not expect a governmentto call attention to its own
 failings in this regard and to communicate to an enemythatthis
 incomplete mastery of its own actions is an integral part of its
 strategy. There are also powerful public-relations reasons for not
 pointing out to an enemy that one is evenslightly susceptible to
 disastrous errors in judgment and false alarms, or that one is a
-little unsure how to escape from a risky situation. It is under-
-standable, too, that a government engaged in limited war does
+little unsure how to escape from a risky situation. It is understandable, too, that a government engaged in limited war does
 not state that it has been attracted to this military action by the
 possible risk of all-out war that it entails. The point is that these
 things go without saying.
@@ -9785,16 +8243,10 @@ expect it not to work, is mistaking two simple extremes for a
 more complicated range of probabilities.
 
 
-
-
 PART IV
 SURPRISE ATTACK:
 A STUDY IN MUTUAL DISTRUST
 
-
-
-
-9
 THE RECIPROCAL FEAR OF
 SURPRISE ATTACK
 If I go downstairs to investigate a noise at night, with a gun in
@@ -9815,19 +8267,14 @@ are less desired than no warat all, there is no “fundamental”
 basis for an attack by either side. Nevertheless,it looks as though
 & modest temptation on each side to sneak in a first blow—a
 temptation too small by itself to motivate an attack— might
-become compounded through a process of interacting expecta-
-tions, with additional motive for attack being produced by suc-
-Cessive cycles of “He thinks we think he thinks we think...
+become compounded through a process of interacting expectations, with additional motive for attack being produced by sucCessive cycles of “He thinks we think he thinks we think...
 he thinks we think he’ll attack; so he thinks we shall; so he will;
 SO we must.”
-It is interesting that this problem, though it arises most dra-
-Matically in situations that would usually be characterized as
+It is interesting that this problem, though it arises most draMatically in situations that would usually be characterized as
 Conflict, like that between the Russians and us or between the
 burglar and me, is logically equivalent to the problem of two or
 More partners who lack confidence in each other. If each is under
 
-
-208
 SURPRISE ATTACK
 some temptation to abscond with the joint assets; if each has a
 little suspicion that the other may be contemplating the same
@@ -9863,14 +8310,13 @@ attack even if he does not fear an attack himself. Second is the
 probability, Pe, that the other player thinks that I “really” pre
 fer to attack him, that is, that I will attack him even if I d0
 1Gametheorists will recognize this problem as the nonzcro-sum counterpart
-to what, for zero-sum games, has been called a “dueling game.” The nonzero-
-sum version considered here involves the question of whether to
+to what, for zero-sum games, has been called a “dueling game.” The nonzerosum version considered here involves the question of whether to
 shoot. 2?
 when to shoot.
 
 
 RECIPROCAL FEAR OF SURPRISE ATTACK
-209
+
 not fear an attack on me. Third is the probability, Ps, that he
 thinks J think ke “really” would; fourth is the probability, P,,
 that Ae thinks J think ke thinks J “really” would. Fifth, sixth,
@@ -9880,9 +8326,7 @@ each memberof the series. The over-all probability that he will
 attack is then given by:
 1 — (1 — P;)(1 — P2)(1 — Pg) +s:
 The trouble with this formulation is that nothing generates the
-series. Each probability is an ad hoc estimate, reflecting addi-
-tional data about the specific information structure of the par-
-ticular situation. We cannot, starting with a few terms in the
+series. Each probability is an ad hoc estimate, reflecting additional data about the specific information structure of the particular situation. We cannot, starting with a few terms in the
 series as data, project the rest to infinity, or however far it goes,
 and sperate mathematically on the whole series. The numberof
 terms in such a series can be only as much as a player has time
@@ -9890,17 +8334,14 @@ to estimate, or the intellectual stamina to keep in mind, since
 he has to produce each new term of the series by an independent
 estimating process. It is true, we might set up particular games
 with information structures that would yield a formula for the
-series — for example, a series of spins of a roulette wheel deter-
-mine whether the other player is told my “true” value system,
+series — for example, a series of spins of a roulette wheel determine whether the other player is told my “true” value system,
 whether I am told whether he has been told, whether he is told
 whether I have been told what he was told, and so forth — but
 these would be special games, and might not illuminate much
 the general situation we are trying to come to grips with. What
 we need is a formulation of the problem that permits us to work
-with a limited number of arbitrary parameters, representing per-
-haps the initial or “objective” terms in a series, in a context that
-automatically generates the values of any additional probabili-
-ties that may be conceived of through the indefinite reiteration
+with a limited number of arbitrary parameters, representing perhaps the initial or “objective” terms in a series, in a context that
+automatically generates the values of any additional probabilities that may be conceived of through the indefinite reiteration
 of “He thinks I think.” We need to formulate the problem in
 a way that makes each person’s expectations a function of the
 Other’s,
@@ -9908,8 +8349,6 @@ A “STRICTLY SOLUBLE” NONCOOPERATIVE GAME
 As a first try, we can assign to each of the two players a basic
 Parameter representing the likelihood that he would attack if
 
-
-210
 SURPRISE ATTACK
 he should not. The values of these parameters are to be fully
 known and known to be known by both players. What I mean
@@ -9920,21 +8359,15 @@ players both perceive that a joint policy of no-attack is the best
 of all possible outcomes for both of them, they will recognize this
 “solution” and elect to abstain. If, for example, the pay-off matrix
 is as shown in Fig. 19, each will have confidence in their mutua]
- 
- 
- 
- 
- 
- 
+
+
 I
 II
 Oo}
 —.3
 i
-0
-5
-5
-1
+
+
 ii
 —.5
 i
@@ -9942,15 +8375,13 @@ Fic. 19
 confidence and will elect the strategy that yields both players the
 best possible outcome. This seems to be a fairly modest demand
 on the rationality of the two players.? (It is a questionable one,
-I suppose, mainly if the superiority of joint no-attack over uni-
-lateral surprise attack is small, too small to make both players
+I suppose, mainly if the superiority of joint no-attack over unilateral surprise attack is small, too small to make both players
 completely confident that they understand each other. Andthis
 possibility— that somebody will be tempted to break discipline
 just to be on the safe side, or for fear that the other may try to
 be on the safe side —is allowed for in the second part of the
 behavior hypothesis, immediately following.)
-The second part of the hypothesis is that there is some proba-
-bility, P,, for player R, and P, for player C, that the player will
+The second part of the hypothesis is that there is some probability, P,, for player R, and P, for player C, that the player will
 in fact attack when he elects
 (or should elect) a strategy of
 no-attack, that is, that his decision will contradict the first part
@@ -9964,11 +8395,10 @@ not just over all other equilibrium points.
 
 
 RECIPROCAL FEAR OF SURPRISE ATTACK
-211
+
 parameter represents we shall leave open: it may be taken to be
 the probability that the player is irrational, or the probability
-that the pay-off matrix is misconceived and that he “really” pre-
-fers unilateral surprise attack, or the probability that somebody
+that the pay-off matrix is misconceived and that he “really” prefers unilateral surprise attack, or the probability that somebody
 will make a mistake and inadvertently send off the attacking
 force. This parameter, for each player,
 is “exogenous” in our
@@ -9977,9 +8407,7 @@ generated by the interaction of the two players.
 These two parameters, P, and P,, are assumed to be plainly
 visible to the two players; there is nothing secret or conjectural
 about them. This assumption might seem to beg the question we
-are trying to answer, but it does not. These two exogenouslikeli-
-hoods of attack do not by themselves indicate what the probabil-
-ity is that the players will in fact attack. They are only one
+are trying to answer, but it does not. These two exogenouslikelihoods of attack do not by themselves indicate what the probability is that the players will in fact attack. They are only one
 element. The problem is to see whether, given these basic sources
 of uncertainty, the interaction of the two players’ expectations
 generate additional motive to attack. We have to put at least
@@ -9991,14 +8419,11 @@ other to guess about them, what he guesses the other to guess
 that he himself guesses about them, and so on. Again we would
 have the infinite series of ad hoc specifications, with the extra
 difficulty
-of dealing with probability distributions of proba-
-bility distributions. The only way to break clean, and to pro-
-vide a point of departure for calculating what each should fear
+of dealing with probability distributions of probability distributions. The only way to break clean, and to provide a point of departure for calculating what each should fear
 the other to fear,
 is to make this one basic uncertainty for
 each player a matter of record. What we want to see is how an
-“objective” source of basic uncertainty generates a superstruc-
-ture of subjective anxieties about each other’s anxiety.
+“objective” source of basic uncertainty generates a superstructure of subjective anxieties about each other’s anxiety.
 Wenow havea situation that looks as though it would generate
 the compoundself-defense situation that we spoke of. The first
 Player must consider whether the other player’s likelihood of
@@ -10007,8 +8432,6 @@ reciprocally worried. Even a player whose own probability of
 “irrational” attack is known to be zero must consider that the
 Second may attack not only irrationally but also out of fear that
 
-
-212
 SURPRISE ATTACK
 the first, fearing the second’s attack, may try to strike first to
 forestall it. Thus it does seem as though we might get a com.
@@ -10017,45 +8440,34 @@ But we do not. We do notget any regular kind of “multiplier™
 effect out of this. The probabilities of attack by the two sides do
 not interact to yield a higher probability, except when they yield
 certainty. That is, the outcome of this game, starting with finite
-probabilities of “irrational” attack on both sides, is not an en-
-largement of those probabilities by the fear of surprise attack -
+probabilities of “irrational” attack on both sides, is not an enlargement of those probabilities by the fear of surprise attack -
 it is either joint attack or no attack. That is, it is a pair of
 decisions, not a pair of probabilities about behavior.
 We work this problem by recomputing the pay-offs in the
-original matrix, using the two parameters representing the proba-
-bility of “irrational” attack. The upper left cell in the matrix
+original matrix, using the two parameters representing the probability of “irrational” attack. The upper left cell in the matrix
 stays as it was. The lower right cell has its pay-offs recomputed,
 as a weighted average of the four cells. For,
 if both players
 choose the strategy of no-attack, there is a probability equal to
 (1 — P.)(1 — P,) that no attack will occur, a probability equal
 to P,(1 — P,) that R will attack and C will not, a probability
-equal to P,(1 — P,) that C will attack and R will not, and a prob-
-ability equal to P,P, that both will attack. In the same way, the
+equal to P,(1 — P,) that C will attack and R will not, and a probability equal to P,P, that both will attack. In the same way, the
 pay-offs in the lowerleft cell are a weighted average of the pay-offs
 in the left column; for if C elects to attack, he certainly does attack,
-while if R elects not to, he actually does or does not with proba-
-bilities P, and (1 — P,) respectively. Thus with probabilities o!
+while if R elects not to, he actually does or does not with probabilities P, and (1 — P,) respectively. Thus with probabilities o!
 irrational attack equal to 0.2 for each player, our original matrix
-would yield a modified matrix like the one in Fig. 20.3 With proba-
-I
+would yield a modified matrix like the one in Fig. 20.3 With probaI
 II
-0
+
 —A4
- 
-0
-4
-4
-64
- 
+
+
 ii
 -4
 .64
 Fic. 20
- 
- 
- 
- 
+
+
 *In effect we view the players as choosing — in the language of game theory
 — between one “pure” strategy and one “mixed” strategy the mixture specified
 by an autonomous parameter. (They could, of course, further mix the pure and
@@ -10063,40 +8475,35 @@ mixed strategies, but in the present instance there is no reason to.)
 
 
 RECIPROCAL FEAR OF SURPRISE ATTACK
-213
+
 I
 II
-0
+
 —.1
- 
- 
+
+
 .
 Al
-46
+
 ii
- 
- 
- 
+
+
 —.4
 —.14
 Fic. 21
- 
+
 bilities of irrational attack equal to 0.8 for C and 0.2 for R, we
 get Fig. 21. And with probabilities of 0.8 apiece for irrational
 attack, we get Fig. 22.
- 
- 
+
+
 ii
 —.1
 .04
- 
- 
- 
- 
+
+
 Fic. 22
-The probabilities of irrational attack in the first of our modi-
-fied matrices, namely the probabilities of o.2 for each of the play-
-ers, prove to be innocuous. That
+The probabilities of irrational attack in the first of our modified matrices, namely the probabilities of o.2 for each of the players, prove to be innocuous. That
 is, they are innocuous with
 respect to the choice of strategies. They yield a new pay-off matrix
 that still has a “strict solution” in the lower right corner. The
@@ -10114,13 +8521,10 @@ strategy.
 The last of our modified matrices, with a 0.8 probability for
 each player, is symmetrical and unstable; each player would
 how rather attack than hope for joint no-attack, and each knows
-that the other would too. This is a perverse situation, correspond-
-ing to the “prisoner’s dilemma” familiar in game theory; the
+that the other would too. This is a perverse situation, corresponding to the “prisoner’s dilemma” familiar in game theory; the
 Only efficient solution would be a binding agreement to elect
 ho-attack (which still leaves them suffering the reduced value
 
-
-214
 SURPRISE ATTACK
 of 0.04), if binding agreements were institutionally possible ang
 if play were forcibly postponed to give the players a chanceto
@@ -10147,27 +8551,20 @@ crime, an accuser going free unless himself accused, the accused one or ones
 receiving heavy sentences. See Luce and Raiffa, pp. 94 ff.
 *A somewhatdifferent, and rather interesting, case occurs if we put P, equal
 to o.2 and P, equal to 0.6. The modified matrix (for R only) is then:
- 
- 
- 
- 
- 
+
+
 R still has a “dominant strategy” of attack; he does better by attacking, no
 matter what C does. But in this case, as distinct from the case portrayed in
 Fig. 19, he is worse off than if neither side had elected to attack. It is C’s
 knowledge of R’s dominant strategy that causes them both to get zero. C’s
 “irrationality,” expressed in Pe, provides R with a motive for attacking in
-“self-defense”; but an element in that motive —a small “impurity” in theself-
-defense motive —is R’s possibility
+“self-defense”; but an element in that motive —a small “impurity” in theselfdefense motive —is R’s possibility
 of achieving surprise and thus of doing
 better than just meeting an incoming attack. If R were incapable of surprising
 C, even when hetried, his pay-off in the upper right cell of the original matrix
 would be zero, not 0.5, and the modified matrix for R would be:
- 
- 
- 
- 
- 
+
+
 This “worsens” both pay-offs for R in the right-hand column, but the upper
 more than the lower.
 It therefore eliminates R’s motive
@@ -10180,9 +8577,8 @@ even help them both if the “victim” is incapable of achieving surprise even 
 
 
 RECIPROCAL FEAR OF SURPRISE ATTACK
-215
-The limits to the values of our two parameters, P, and P,, be-
-ond which they make the situation unstable and provoke joint
+
+The limits to the values of our two parameters, P, and P,, beond which they make the situation unstable and provoke joint
 attack, are — letting 4 stand for the value obtained by unilateral
 surprise attack, — the value obtained by being attacked while
 not attacking, o the value obtained by simultaneous attack, and
@@ -10207,15 +8603,13 @@ thereby winning, is only Q, so that the expected value to be achieved through
 unilateral attack is only Qh. If Qh is less than 1, we are back to a matrix with
 a strictly preferred solution at joint no-attack; and, allowing for the probability
 of “irrational” attack, the game is stable if P. <1 — Qch and Py <1 — Qrh.
-Suppose that P. and Qc meet the first of these conditions: then it is to R’s ad-
-vantage, as well as C’s, that the second condition also be met. If P, is beyond
+Suppose that P. and Qc meet the first of these conditions: then it is to R’s advantage, as well as C’s, that the second condition also be met. If P, is beyond
 manipulation, R should wish that Q,, his own capacity for surprising an enemy,
 should be less than
 (1 — P,)/A. Only then can he, and C, gain more than
 zero. If R can, at his own expense, improve his “enemy’s” alert system, or if
 he can blunt his own surprise capacity in a visible way, to hold Q, below the
-t, he should do so. The principle is the same as that of two partners, some-
-What distrustful, who keep two separate private padlocks on the partnership
+t, he should do so. The principle is the same as that of two partners, someWhat distrustful, who keep two separate private padlocks on the partnership
 Vault. If one could not afford a padlock, the other should provide it to him at
 S own expense; only then can they do business together.
 A more general formula, covering the nonsymmetrical case, and using Ru,
@@ -10228,11 +8622,7 @@ Th
 noes of erroneously failing to attack. The criterion is the same, it may be
 ted, as if P and (1 — P) were sure probabilities rather than probabilities of
 Parture from, and adherence to, a “rational” behavior pattern.
- 
- 
 
-
-216
 SURPRISE ATTACK
 comes unstable, and the value of the game goes to o for both
 players.
@@ -10243,7 +8633,7 @@ oO
 Vv
 1.07
 -
-4
+
 4-———>
 -—-—
 oR
@@ -10251,16 +8641,15 @@ ND
 wD RH
 mM Nw
 &
- 
+
 -.14
 —P.—
 —.2-4
 — 34
 -—.3
 —4
-4
-5
-5
+
+
 Fic. 23. Value of the game to R and C, as a function of Po; Pr = 02.
 Vr, wef = 0.9 — 1.3Pe]: value of game to R, joint strategy of no-attack,
 Vr, o[ = 0.§ — 0.5Pce]: value of game to R, whoattacks while C elects not
@@ -10269,12 +8658,10 @@ Vo,ne[=0.7 — 0.3Pe]:
 value of game to
 C,
 joint strategy of
-no-
-attack; Ve, .[= 0.4]: value of game to C, who attacks while R elects not
+noattack; Ve, .[= 0.4]: value of game to C, who attacks while R elects not
 to.
- 
- 
- 
+
+
 can ignore the lesser of the two parameters if they are unequal.
 If both are below the critical limit, it does not matter what they
 are; if one is over the limit by eversolittle, it makes no difference
@@ -10287,7 +8674,7 @@ or becomescertainty.
 
 
 RECIPROCAL FEAR OF SURPRISE ATTACK
-217
+
 THE GAME AS A SEQUENCE OF MOVES IN TURN
 We get the same result if we try a game with moves-in-turn
 for the pay-off matrix that we have been using. Suppose R is
@@ -10305,8 +8692,7 @@ then, with probability P,. At his own last move, R knows what
 C will elect, and makes a predictable choice that depends on
 P,. At the preceding move, C knows what R will choose, takes P,
 into account and makes a predictable choice. At the movebefore
-that, R knows what C will choose to do on both subsequent occa-
-sions, takes into account the probability, 1 — (1 — P,), that C
+that, R knows what C will choose to do on both subsequent occasions, takes into account the probability, 1 — (1 — P,), that C
 may attack on either of the next two moves, and makes his own
 choice in a predictable way. And so on. If each player has a
 moves, with probability P, or P, of irrational attack at each
@@ -10318,8 +8704,7 @@ the limit for one of them he will prefer to attack and the other
 knowsit, so whoever hasfirst turn attacks at once.
 In other words, we are compounding probabilities, but still
 With an all-or-none effect, and without either player having to
-Combine both players’ irrationality parameters in the compound-
-ing process. Either the probability for at least one of them is
+Combine both players’ irrationality parameters in the compounding process. Either the probability for at least one of them is
 1g enough and the game long enoughto cause the first player
 to attack, or else no one attacks. And, if we make the over-all
 Probabilities of
@@ -10328,8 +8713,6 @@ of
 the number
 of turns, by letting the probability at each turn be equal to
 
-
-218
 SURPRISE ATTACK
 1 — (1 — P)'/", so that the compounded total is just P, or P,
 the outcomeof this gameis independent of the numberof turns
@@ -10375,16 +8758,13 @@ parameters are clearly evident to both of them.
 
 
 RECIPROCAL FEAR OF SURPRISE ATTACK
-219
+
 nervousness enhancesthe likelihood that I may shoot him even
 though I prefer not to. He sees my nervousness and gets nervous
 himself; that scares me more, and J am even morelikely to shoot.
 He sees this increment in my nervousness, and matches it with
 one of his own, scaring me further; and the probability that I
-will shoot goes up again. Now we can denote each person’s ner-
-yousness as a function of the other’s, and the likelihood of shoot-
-ing as a function of nervousness, and have a simple pair of simul-
-taneous differential equations that seem to yield precisely the
+will shoot goes up again. Now we can denote each person’s neryousness as a function of the other’s, and the likelihood of shooting as a function of nervousness, and have a simple pair of simultaneous differential equations that seem to yield precisely the
 kind of phenomenon westarted off to study.®
 And the reason they do is that this model does not involve
 criteria for decision;
@@ -10396,17 +8776,12 @@ select. Instead, our “nervousness model” is one in which people
 respond to the fear of attack by a change in the likelihood that
 they will themselves attack. Only in this way, by dealing with
 the probability of a player’s decision, and not with a rule for
-decision — that is, not with a model in which the player calcu-
-lates his best strategy and follows it—can we get the kind of
-“mutual aggravation” phenomenon that I described at the begin-
-ning of this chapter.
+decision — that is, not with a model in which the player calculates his best strategy and follows it—can we get the kind of
+“mutual aggravation” phenomenon that I described at the beginning of this chapter.
 Now, does this mean that our phenomenonis not one that can
 be displayed by rational, decisive players? How can we envisage
 a player reacting to a change in his environment, or to a new
-bit of information, by deciding that he will do something “some-
-what more probably” than before? A rational man maybener-
-vous, in which case our theory is physiological rather than in-
-tellectual; but can we conceive of the rational game player’s
+bit of information, by deciding that he will do something “somewhat more probably” than before? A rational man maybenervous, in which case our theory is physiological rather than intellectual; but can we conceive of the rational game player’s
 taking another look at the burglar and changing the adjustment
 on his roulette wheel ? ®
 *There is an important asymmetry in the problem as formulated here. We
@@ -10421,12 +8796,9 @@ One may not shoot when he ought to, and the other knows it. (There may
 be some chance that the burglar has wet ammunition or forgot to load his gun,
 and I may know that there is such a chance, he may know that I knowit, and
 tk forth.) This possibility would apparently be stabilizing, tending to reduce the
-elihood of a decision to attack as well as the exogenous likelihood of in-
-Advertent or irrational attack.
+elihood of a decision to attack as well as the exogenous likelihood of inAdvertent or irrational attack.
 Note that the usual rationale for a mixed strategy — that is, for rationally
 
-
-220
 SURPRISE ATTACK
 Of course, individual and group decisions may be different in
 this regard. We could think of a collective decision by vote, with
@@ -10445,8 +8817,7 @@ There
 is, however, a way to adapt our model even to the
 single, decisive, rational game player. It may be of fairly wide
 generality in partnership and surprise-attack problems. Andit
-directly involves a significant part of the actual problem of mili-
-tary surprise, namely the dependenceof decision on an imperfect
+directly involves a significant part of the actual problem of military surprise, namely the dependenceof decision on an imperfect
 warning system, and the possibility of both “type-1” and “type-2”
 errors in the decision process.
 PROBABILITY-BEHAVIOR GENERATED BY AN
@@ -10459,8 +8830,7 @@ nothing, or it may cause us to identify a seagull as an attacking
 plane, and provoke our inadvertent attack on the enemy. Both
 possibilities of error can presumably be reduced by spending
 more money and ingenuity on the system. But, for a given e%-
-penditure, it is generally true of decision criteria that a tighten-
-ing of the criteria with respect of one kind of error loosens them
+penditure, it is generally true of decision criteria that a tightening of the criteria with respect of one kind of error loosens them
 with respect to the other. To require less evidence of incoming
 readjusting
 one’s roulette wheel for decision—has no relation to the present
@@ -10468,20 +8838,15 @@ case.
 
 
 RECIPROCAL FEAR OF SURPRISE ATTACK
-221
+
 attack before “retaliating” is to require more evidence that they
 are really seagulls for holding back our own planes.
-But now we can have a model of a rational decider who re-
-sponds to an estimate of the probability of being attacked not
-by an overt decision to act or abstain, but by adjusting the like-
-lihood that he may mistakenly attack. One’s response to an in-
-crease in the probability of being attacked is to shift the criteria
+But now we can have a model of a rational decider who responds to an estimate of the probability of being attacked not
+by an overt decision to act or abstain, but by adjusting the likelihood that he may mistakenly attack. One’s response to an increase in the probability of being attacked is to shift the criteria
 for decision that are used in the warning system in the direction
-of lesser likelihood of a failure to respond, and hencein the direc-
-tion of greater likelihood of a false alarm that provokes one’s own
+of lesser likelihood of a failure to respond, and hencein the direction of greater likelihood of a false alarm that provokes one’s own
 “retaliation.” If each player’s response to an increased danger of
-surprise attack is to enhance his own proclivity toward inadver-
-tent attack, the probability of each player’s attack is now rising
+surprise attack is to enhance his own proclivity toward inadvertent attack, the probability of each player’s attack is now rising
 function of the other’s.!° Such a warning system is the rational,
 mechanical counterpart of our nervousness in facing the burglar.
 To build such a model (symmetrically, for simplicity) we can
@@ -10491,18 +8856,15 @@ again let A denote the value of “winning” a war, —A that of
 at all. (This time we can let # exceed 1, as long as (1 — R)# in
 the matrix below remains below
 1. But if “winning” gains a
-Pyrrhic victory, # will be a small fraction.) We assume that suc-
-cessful surprise wins the war; “successful surprise” means that
+Pyrrhic victory, # will be a small fraction.) We assume that successful surprise wins the war; “successful surprise” means that
 one attacks when the other does not end that the other’s warning
-system fails him. Let R denote thereliability of a player’s warn-
-ing system, that is, the probability that an attack,if it comes, will
+system fails him. Let R denote thereliability of a player’s warning system, that is, the probability that an attack,if it comes, will
 be identified and surprise forestalled. Then the pay-off matrix
 is as in Fig. 24.
 The probability that a player will attack when he should not,
 that is, that he will when his rational choice “should” be against
 attacking (in the sense used earlier), will consist of two parts.
-One, denoted by A,is the exogeneous likelihood of irrational at-
-tack; it excludes the possibility of an attack provoked by false
+One, denoted by A,is the exogeneous likelihood of irrational attack; it excludes the possibility of an attack provoked by false
 alarm. The probability of an attack through false alarm is de-
 * As noted below,
 this
@@ -10513,37 +8875,31 @@ attacked is associated with reduced vulnerability of the enemy to surprise attac
 it is possible for one’s response to be in the direction opposite to that described
 In the text.
 
-
-222
 SURPRISE ATTACK
 noted by B. Thus the two typesof error in the warning system are
 represented by B and (1 — R); and the main feature of the mode]
 is that B= f(R), f/(R) > o. Thatis, the more we reduce (1 — R)
 as a source of error, the more weincrease B, and vice versa.
- 
- 
- 
- 
- 
+
+
 J
 It
 .
-0
+
 -—(1—R)h
-1
-0
+
+
 (1-R,)h
 .
 (1—Rrh
-1
+
 ii
 -(1-Rph
-1
+
 Fic. 24
 Each player’s strategy choice concerns the pair of values for
 B and R that will minimize his expected losses, that is, maximize
-the expected value of the gamefor him. Letting V, denote theex-
-pected value of the game for R, the warning-system problem for
+the expected value of the gamefor him. Letting V, denote theexpected value of the game for R, the warning-system problem for
 R is to choose the pair of values for R and B, consistent with
 B = f(R), that maximizes !!
 V, = (1 — P.)(1 — Pr) + P(r — Pht — Ro)
@@ -10553,10 +8909,8 @@ V, = (1 — P.)(1 — Pr) + P(r — Pht — Ro)
 — (A, + B, — A,B.) (1 — Ay) (1 — By) A(t — Ry).
 Additionally, pursuant to the earlier matrix analysis, R should
 examinethe resulting “modified” pay-off matrix that results from
-using these “optimal” values of R, and B,, together with the ob-
-served (or expected optimal) values of R, and B,, to see whether
-joint no-attack is still the jointly preferred outcome. The condi-
-tions for a joint preference at no-attack, with optimally adjusted
+using these “optimal” values of R, and B,, together with the observed (or expected optimal) values of R, and B,, to see whether
+joint no-attack is still the jointly preferred outcome. The conditions for a joint preference at no-attack, with optimally adjusted
 warning systems, would be:
 “It is assumed for convenienceofillustration that an inadvertent attack due
 to false alarm is the same kind of attack as a premeditated attack, with the
@@ -10569,7 +8923,7 @@ fixed in this model.
 
 
 RECIPROCAL FEAR OF SURPRISE ATTACK
-223
+
 P, =
 As
 B, - A.Bo
@@ -10582,16 +8936,14 @@ OO,
 With symmetry, the denominatorsin the right-hand terms become
 just 1.
 Actually, as will be seen below, this second examination may
-be unnecessary; for certain behavior hypotheses, “optimal” ad-
-justment of R and B (for any value short of R = 1) requires
+be unnecessary; for certain behavior hypotheses, “optimal” adjustment of R and B (for any value short of R = 1) requires
 that the conditions for stability of the modified matrix be met.
 It remains to be specified how the players behave. Broadly
 speaking, we can makeeither of three hypotheses, corresponding
 more or less to the difference between “parametric behavior,” a
 “tacit game,” and a “bargaining game.”
 DYNAMIC ADJUSTMENT (PARAMETRIC BEHAVIOR)
-First we may try supposing that each player takes the prob-
-ability of being attacked as given, that is, as a parameter and not
+First we may try supposing that each player takes the probability of being attacked as given, that is, as a parameter and not
 a variable in his own loss function, and does the same with the
 reliability of his opponent’s warning system. That is, he directly
 observes the values of his opponent’s B and R, andselects the
@@ -10601,8 +8953,7 @@ tends
 to make each person’s choice
 of B a rising function of the probability that the other will
 attack. (It only “tends to,” since there is a possibility that the
-Corresponding change in the other’s R provides an offsetting in-
-ducement, as mentioned below.) If we think of the two players as
+Corresponding change in the other’s R provides an offsetting inducement, as mentioned below.) If we think of the two players as
 Continually adjusting their values of B and R, each with an eye
 On the other’s B and R, but always responding parametrically to
 the current probability of being attacked and not projecting the
@@ -10619,8 +8970,6 @@ Parameter values and shape of the f function. We can express
 Solve the two equations, and deduce thestability conditions for
 the equilibrium. We can also compute “multipliers” relating each
 
-
-224
 SURPRISE ATTACK
 player’s changes of B and R
 toshifts in the f function or to
@@ -10638,22 +8987,19 @@ earlier for V,, we get
 ,
 P.A(rt — B,)
 l= “GUP) [pha —R)] — Pk Ry
- 
+
 and, for k(1 — R.) <1 > A(1 — R,), f” > 0.
 Since f’ is presumed positive, the denominator must be positive
 if V, is to be maximized with R <1; but the condition that the
 denominator be positive is precisely the condition that P, must
 meet in order that player R still prefer joint no-attack. Thus,if
 both players have optimal adjustments with R < 1, those optimal
-values of R and B are also perforce consistent with joint pref-
-erence at no-attack.
+values of R and B are also perforce consistent with joint preference at no-attack.
 The relation of B, to B, under this behavior hypothesis, that
-is, the slope of the resulting function that yields R’s optimal B-
-value for given values of B., is obtained by differentiating both
+is, the slope of the resulting function that yields R’s optimal Bvalue for given values of B., is obtained by differentiating both
 sides of the above equation:
- 
-  
-  
+
+
 r
 ,
 .
@@ -10675,8 +9021,7 @@ where B, = $(R,) denotes the corresponding function for player
 C.
 Since of’/OR, is negative, small values of ¢’ may makeplayer
 R’s dB,/dB, negative;
-it does so by raising the “cost” of inad-
-vertent attack enough to outweigh the increase in the risk of
+it does so by raising the “cost” of inadvertent attack enough to outweigh the increase in the risk of
 being attacked. In other words, B, is a function not just of Be
 but of ¢(B,) as well; B, tends to be increased for a rise in Be
 but lowered for a rise in R,, while B, and R, rise together as ¥°
@@ -10684,11 +9029,10 @@ consider moving out the B, axis.
 
 
 RECIPROCAL FEAR OF SURPRISE ATTACK
-225
+
 A stable equilibrium requires that player R’s dB,/dB, and C’s
 gB-./adB, should have a product less than 1, that is, that with B,
-measured vertically and B, horizontally, C’s curve should inter-
-sect R’s from below. The general “multiplier” expression relating
+measured vertically and B, horizontally, C’s curve should intersect R’s from below. The general “multiplier” expression relating
 changes in the B’s and R’s to shifts in the functions
 (or to
 changes in the values of the A’s) contains 1 minus this product
@@ -10696,13 +9040,10 @@ jn the denominator.
 As remarked earlier, the denominator in the expression for f’
 disappears, and R,, B,, and f’ rise sharply, as # approaches the
 condition for an unstable matrix. (Actually, stability of the matrix
-game, as distinct from stability of a parametric-behavior equilib-
-rium, is not a relevant concept for the parametric-behavior hy-
-pothesis; to contemplate the matrix and to anticipate the other’s
+game, as distinct from stability of a parametric-behavior equilibrium, is not a relevant concept for the parametric-behavior hypothesis; to contemplate the matrix and to anticipate the other’s
 action is to project his behavior, not to observe it and adapt to
 it.)
-It may also be noted that player R may ignore 4, in his cal-
-culations. It drops out of the formula for optimum B, and R,.
+It may also be noted that player R may ignore 4, in his calculations. It drops out of the formula for optimum B, and R,.
 Intuitively, this is because the only contingency in which either
 the value of R, or the value of B, can make anydifference is the
 contingency that R mot launch “irrational” attack; if he does, B
@@ -10710,12 +9051,10 @@ and R are irrelevant to him. (However, A, doesaffect the condition
 for a stable matrix, since it does enter into the condition that P,
 must meet. So in projecting C’s adjustment, R would have to take
 A, into account. But “projecting” C’s behavior, rather than just
-observing B, and R, continuously, would make R’s behavior non-
-parametric, contradicting the present hypothesis. If player R
+observing B, and R, continuously, would make R’s behavior nonparametric, contradicting the present hypothesis. If player R
 Were considering the value of spending money to improve his
 Warning system, A, would affect the calculation since it affects
-the probability that the system makes any difference; this con-
-sideration is outside the present model.)
+the probability that the system makes any difference; this consideration is outside the present model.)
 A TACIT GAME
 We can make another behavior hypothesis, which maylead to
 € same result. Instead of supposing that each player sees how
@@ -10723,8 +9062,6 @@ the other’s R and B are adjusted, takes them as given, and re-
 ‘ponds to them; we can suppose that each player knows the
 technological opportunities of the other player — the functional
 
-
-226
 SURPRISE ATTACK
 relation between R and B for the other player — but cannot
 reliably observe how the other has adjusted the values of R anq
@@ -10736,14 +9073,10 @@ noncooperative game, in which each player must choose a value
 for B (that is, for R), not knowing what value the other has
 chosen but knowing the other’s pay-off matrix.
 In this case, we have a pay-off matrix with an “equilibrium
-point” at precisely the point, if any, where the parametric-beha-
-vior hypothesis yielded a stable equilibrium.’ In other words,
-what was the “solution” under the parametric-behavior hypoth-
-esis is still a candidate for being called a “solution” in the non-
-cooperative form of the game. (In neither case is the equilibrium
+point” at precisely the point, if any, where the parametric-behavior hypothesis yielded a stable equilibrium.’ In other words,
+what was the “solution” under the parametric-behavior hypothesis is still a candidate for being called a “solution” in the noncooperative form of the game. (In neither case is the equilibrium
 point necessarily unique. If it is not, the first hypothesis makes
-the outcome depend oninitial conditions and “shocks”; the sec-
-ond tends to complicate the intellectual problem of identifying
+the outcome depend oninitial conditions and “shocks”; the second tends to complicate the intellectual problem of identifying
 “solution”strategies.)
 This solution, of course, is inefficient for the two players.It is
 an example of “prisoner’s dilemma,” mentioned above (p. 214);
@@ -10751,16 +9084,14 @@ reciprocal increases in the values of the B’s have simply raised
 the likelihood of attack by each side.1® There are lesser values
 for the two B’s that would make both parties better off; and if
 the probabilities of deliberate sneak attack by the two players
-are equal (A’s are equal), an agreement to have no warning sys-
-tem at all, that is, no possibility of false alarm, would be the
+are equal (A’s are equal), an agreement to have no warning system at all, that is, no possibility of false alarm, would be the
 preferred bargain for the two parties if they were restricted to
 bargains that gave them identical warning systems.**
 * An equilibrium point, in game theory, is a pair of strategies for the two
 players such that each is optimal vis-a-vis the other. (There may be several
 such points.)
 % Economists may find the situation reminiscent of two producers who both
-allocate their limited productive resources between two commodities. One com-
-modity, “security against false alarm,” involves external economies; the other,
+allocate their limited productive resources between two commodities. One commodity, “security against false alarm,” involves external economies; the other,
 “security against surprise,” involves external diseconomies.
 %“Tf the A’s, B’s, and R’s are equal, V, and V. are equal to (r — P)*, which
 has a maximum at B =o. (If B has some minimum value greater than 0, We
@@ -10769,33 +9100,27 @@ aV,/dB = —2(1 — B)(1 — Ao) (1 — Ar) + (Ae — Ar) (k/f’),
 
 
 RECIPROCAL FEAR OF SURPRISE ATTACK
-227
+
 A BARGAINING GAME
 If we consider the possibility of the two players’ negotiating to
 reduce the sensitivity of their alert systems, in the interest of
-mutual reductions in B at the cost of smaller R’s, and assum-
-ing that enforcement of such an agreement were possible, there
+mutual reductions in B at the cost of smaller R’s, and assuming that enforcement of such an agreement were possible, there
 js no very convincing way of deriving a unique solution without
 further specification of the bargaining framework. If the solution
 has to be symmetrical and the game is symmetrical, thatis,if
 they negotiate over a common pair of values for R and B, the
 result is as just mentioned —o values for B, even if this means
 o for R, no warning system at all. If warning systems are to be
-identical, there is somecritical difference between the basic prob-
-abilities of deliberate sneak attack for the two people (between
+identical, there is somecritical difference between the basic probabilities of deliberate sneak attack for the two people (between
 A, and A.) beyond which a side payment would be required for
 an agreement on the abolition of warning systems.
 But, in general, this becomes a wide-open bargaining problem.
 It is even wider open than the present formulation suggests, since
 the players may not only manipulate values of R and B butof
-course can now threaten direct attack, or operate on theinstitu-
-tional arrangements that determine the values of the A’s.
-There is an enforcement difficulty with any agreement on re-
-duction of values of R and B in the mutual interest; it is that
-each other’s values of R and B may notbe observable. They de-
-pend— at least to an important extent -—on the criteria that
-will govern future decisions, not solely on the observable, physi-
-cal mechanics of an alert system. They depend on how long one
+course can now threaten direct attack, or operate on theinstitutional arrangements that determine the values of the A’s.
+There is an enforcement difficulty with any agreement on reduction of values of R and B in the mutual interest; it is that
+each other’s values of R and B may notbe observable. They depend— at least to an important extent -—on the criteria that
+will govern future decisions, not solely on the observable, physical mechanics of an alert system. They depend on how long one
 will wait to be “sure,” and on what risks one will accept in an
 €mergency. Furthermore, failure to keep the agreement,if it leads
 to anything, leads to war itself; so recriminations and damage
@@ -10805,13 +9130,10 @@ Which can be positive with A. greater than Ar and f’ small. In this case one
 of
 the players — the one with smaller A — has a preference for some warning
 System even if it must be commonto both of them, compared with noneat all;
-Ut it involves lesser values for B and R than parametric behavior (or a non-
-Operative game) would lead to, as can be seen by putting the above expression
+Ut it involves lesser values for B and R than parametric behavior (or a nonOperative game) would lead to, as can be seen by putting the above expression
 to o and comparing the resulting formula for f’ with that corresponding
 barametric behavior.
 
-
-228
 SURPRISE ATTACK
 rather than a border scrape or a minor transgression of one part.
 ner against another.
@@ -10825,8 +9147,7 @@ It may also be difficult to have an agreement that explicitly
 recognizes the A’s, since it may bepolitically difficult to admit
 that one’s A is above o.
 The players may be driven then to rely on arrangements that
-either observably blunt their own capacity for surprise or ob-
-servably improve
+either observably blunt their own capacity for surprise or observably improve
 their own and each other’s
 transformation
 curves relating R to (1 — B). Both sides may, for example, agree
@@ -10839,15 +9160,11 @@ potential, but instead have improved vulnerability to surprise
 attack themselves, would seem to be indicated. That is, instead
 of making R and B the terms of an agreement, they might be
 forced by the unobservability of R and B to work onthe f and ¢
-functions themselves, considering each of these functions to in-
-volve both one’s own alert system and the enemy’s (partner’s)
+functions themselves, considering each of these functions to involve both one’s own alert system and the enemy’s (partner’s)
 attack force. (It should be noted, however, that “innovations” in
-the warning systems — shifts of the f and ¢ functions in the di-
-rection of less B for a given level of RK and vice versa — are not
+the warning systems — shifts of the f and ¢ functions in the direction of less B for a given level of RK and vice versa — are not
 in all cases stabilizing. Those that raise the marginal cost of R
-may lead to higher values of B; these would be perverse innova-
-tions from the point of view of the two players together, analo-
-gous to an “improvement”in the prisoners’ dilemma matrix that
+may lead to higher values of B; these would be perverse innovations from the point of view of the two players together, analogous to an “improvement”in the prisoners’ dilemma matrix that
 raises each player’s pay-off for noncooperative strategies.)
 The bargaining-game formulation also lendsitself to bargain
 ing-tactic analysis. For example, if one player acts parametrically
@@ -10855,32 +9172,25 @@ and the other knows it and takes it into account, the first dis
 
 
 RECIPROCAL FEAR OF SURPRISE ATTACK
-229
+
 Jays a “reaction function” 15 which goes into the other’s formula
 for V which the latter tries to maximize. In general, the analysis
 of “strategic moves” of the kind discussed in Chapters 2, 5 and
-7, are relevant to this version of the surprise-attack, partnership-
-discipline game.
+7, are relevant to this version of the surprise-attack, partnershipdiscipline game.
 MORE THAN TWO PLAYERS
-Aninteresting variant of the problem would occurif the num-
-ber of players were increased, or if a third player were brought
+Aninteresting variant of the problem would occurif the number of players were increased, or if a third player were brought
 in aS an autonomousagent. To the extent that attack from other
-quarters must be anticipated, the incentive toward mutual re-
-duction of alert systems is reduced. It remains true, however, that
+quarters must be anticipated, the incentive toward mutual reduction of alert systems is reduced. It remains true, however, that
 any two players in a larger game can find some advantage in
-jointly modifying their alert systems,in the direction of lesser dan-
-ger of false alarm, by taking into account the “external disecono-
-mies” for each other that they leave out of account when behaving
-parametrically. Two armed watchmenpatrolling the same build-
-ing, each subject to some temptation to shoot on sight, would be
+jointly modifying their alert systems,in the direction of lesser danger of false alarm, by taking into account the “external diseconomies” for each other that they leave out of account when behaving
+parametrically. Two armed watchmenpatrolling the same building, each subject to some temptation to shoot on sight, would be
 better off if they could find some way of reaching an enforceable
 agreementto be a little less ready to shoot on sight, to reduce the
 likelihood of shooting each other. (Actually, the two-watchmen
 problem is a representation of our original model, if we let our
 original parameters, P, and P,, represent the relative likelihoods
 that a man met in darkness is a burglar rather than the other
-watchman. We have to introduce some uncertainty about a bur-
-glar’s behavior — that is, to let him join the gameasa rational
+watchman. We have to introduce some uncertainty about a burglar’s behavior — that is, to let him join the gameasa rational
 third participant trying to anticipate the others’ decisions — in
 order to add complications to what we already had.) 1°
 * Compare the note on p. 151 regarding the concept of “reaction function.”
@@ -10896,31 +9206,25 @@ COming in on the other’s radar screen. See his “Rationale of Catalytic War�
 for International Studies, Research Memorandum No. 3; Princeton
 hiversity, 1959).
 
-
-10
 SURPRISE ATTACK AND DISARMAMENT
 “Disarmament” has covered a variety of schemes, someip.
 genious and some sentimental, for cooperation among potentia]
 enemies to reduce the likelihood of war or to reduce its scope and
 violence. Most proposals have taken as a premise that a reduction
 in the quantity and potency of weapons, particularly of “offen.
-sive” weapons and of weapons that either deliberately or in-
-cidentally cause great civilian agony and destruction, promotes
+sive” weapons and of weapons that either deliberately or incidentally cause great civilian agony and destruction, promotes
 this purpose. Some schemes have been comprehensive;
 others
-have sought to identify particular areas where the commonin-
-terest is conspicuous, where the need for trust is minimal, and
+have sought to identify particular areas where the commoninterest is conspicuous, where the need for trust is minimal, and
 where a Significant start might be made which,
 if successful,
 would be a first step toward more comprehensive disarmament.
 Amongthese less comprehensive schemes, measures to safeguard
-against surprise attack have, since the President’s first “open-
-skies” proposal in 1955, come increasingly into prominence.
+against surprise attack have, since the President’s first “openskies” proposal in 1955, come increasingly into prominence.
 The focus on surprise attack has not reflected an abandonment
 of interest in a more ambitious dismantlement of arms; ratherit
 represents the philosophy of picking an area where success is
-most likely, in order to establish some tradition of successful co-
-operation. The search for safeguards against surprise attack has
+most likely, in order to establish some tradition of successful cooperation. The search for safeguards against surprise attack has
 generally been considered, in our government and elsewhere, not
 as an alternative to disarmament, but as a type of disarmament
 and a possible step toward more.
@@ -10933,52 +9237,40 @@ deterrent rather than aggressive. The proposal was also unortbho
 
 
 SURPRISE ATTACK AND DISARMAMENT
-231
+
 dox in its dramatic reminder that, important as it may be to keep
 secrets from an enemy and in some matters to keep him guessing
 about what ourplans are, it can be even more important to see
-that the enemy is mo? left to speculate about our intentions to-
-ward surprise attack against him éf in fact we are not planning any
+that the enemy is mo? left to speculate about our intentions toward surprise attack against him éf in fact we are not planning any
 such attack. We are interested not only in assuring ourselves with
 our own eyes that he is not preparing an attack against us; we are
 interested as well in assuring Aim through his own eyes that we
 are preparing no deliberate attack against him.
 The importance of not keeping that particular secret has an
-analoguein ouralleged political inability to attack first. As Gen-
-eral Leslie R. Groves remarkedin a speech, “If Russia knows we
-won’t attack first, the Kremlin will be very muchless aptto at-
-tack us...
-. Our reluctance to strike first is a military disad-
-vantage to us; but it is also, paradoxically, a factor in preventing
-a world conflict today.” + We live in an era in which a potent in-
-centive on either side — perhaps the main incentive— to initiate
+analoguein ouralleged political inability to attack first. As General Leslie R. Groves remarkedin a speech, “If Russia knows we
+won’t attack first, the Kremlin will be very muchless aptto attack us...
+. Our reluctance to strike first is a military disadvantage to us; but it is also, paradoxically, a factor in preventing
+a world conflict today.” + We live in an era in which a potent incentive on either side — perhaps the main incentive— to initiate
 total war with a surprise attack is the fear of being a poor second
 for not goingfirst. “Self-defense” becomes peculiarly compounded
 if we have to worry abouthis striking us to keep us from striking
 him to keep him from striking us.
 .
 .
-. The surprise-attack prob-
-lem, when viewed as a problem of reciprocal suspicion and ag-
-gravated “self-defense,” suggests that there are not only secrets
+. The surprise-attack problem, when viewed as a problem of reciprocal suspicion and aggravated “self-defense,” suggests that there are not only secrets
 we prefer not to keep, but military capabilities we might prefer
 not to have.
 Of course, it is even better if the other side does not have them
-either. So there may be advantages in thinking of the surprise-
-attack problem as one suitable for negotiation.
+either. So there may be advantages in thinking of the surpriseattack problem as one suitable for negotiation.
 The innovation in the surprise-attack approach goes further.
 It has to do with what the scheme is designed to protect and
 what armaments
 it takes for granted. An anti-surprise-attack
 Scheme has as its purpose not just to make atiack moredifficult
 but to reduce or to eliminate the advantage of striking first. It
-must assumethat if the advantageof striking first can be elimi-
-rine or severely reduced, the incentive to strike at all will be re-
-Uced.
+must assumethat if the advantageof striking first can be elimirine or severely reduced, the incentive to strike at all will be reUced.
 “The New York Times, December 29, 1957, P. 20.
 
-
-232
 SURPRISE ATTACK
 It is widely accepted that the United States has the military
 power virtually to obliterate the USSR, and vice versa. Andit js
@@ -11006,9 +9298,7 @@ The difference between a stable and an unstable balanceis
 illustrated by another offensive weapon against which no good
 defense was ever devised.? The “equalizer” of the Old West made
 it possible for esther man to kill the other; it did not assure that
-both would be killed. The tense consequences of this weapon sys-
-tem can be seen on TV almost any night. The advantage of shoot-
-ing first aggravates any incentive to shoot. As the survivor might
+both would be killed. The tense consequences of this weapon system can be seen on TV almost any night. The advantage of shooting first aggravates any incentive to shoot. As the survivor might
 put it, “He was about to kill me in self-defense, so I had to kill
 him in self-defense.” Or, “He, thinking I was about to kill him in
 self-defense, was aboutto kill me in self-defense, so I hadtokill
@@ -11027,31 +9317,25 @@ Yorks
 
 
 SURPRISE ATTACK AND DISARMAMENT
-233
+
 enough to shoot back with unimpaired aim, there would be no
 advantage in jumping the gun andlittle reason to fear that the
 other would tryit.
-The special significance of surprise attack thus lies in the pos-
-sible vulnerability of retaliatory forces. If these forces were them-
-selves invulnerable —if each side were confident that its own
+The special significance of surprise attack thus lies in the possible vulnerability of retaliatory forces. If these forces were themselves invulnerable —if each side were confident that its own
 forces could survive an attack, but also that it could not destroy
 the other’s power to strike back — there would be no powerful
 temptation to strike first. And there would be less need to react
 quickly to what might proveto be a false alarm.
-Thus schemes to avert surprise attack have as their most im-
-mediate objective the safety of weapons rather than the safety
+Thus schemes to avert surprise attack have as their most immediate objective the safety of weapons rather than the safety
 of people. Surprise-attack schemes,
 in contrast to other types of
-disarmamentproposals, are based on deterrence as the fundamen-
-tal prutection against attack. They seek to perfect and to sta-
-bilize mutual deterrence — to enhancethe integrity of particular
+disarmamentproposals, are based on deterrence as the fundamental prutection against attack. They seek to perfect and to stabilize mutual deterrence — to enhancethe integrity of particular
 weapon systems. Andit is precisely the weapons most destructive
 of people that an anti-surprise-attack scheme seeks to preserve
 — the weapons of retaliation, the weapons whose mission is to
 punish rather than to fight, to hurt the enemy afterwards, not to
 disarm him beforehand. A weapon that can hurt only people, and
-cannot possibly damage the other side’s striking force, is pro-
-foundly defensive: it provides its possessor no incentive to strike
+cannot possibly damage the other side’s striking force, is profoundly defensive: it provides its possessor no incentive to strike
 first. It is the weapon that is designed or deployed to destroy
 “military”
 targets—to
@@ -11063,24 +9347,18 @@ missiles
 and
 bombers — that can exploit the advantage of striking first and
 consequently provide a temptation to doso.
-In identifying the surprise-attack problem as the possible vul-
-nerability of each side’s retaliatory forces to surprise, we are at
+In identifying the surprise-attack problem as the possible vulnerability of each side’s retaliatory forces to surprise, we are at
 the point where measures against surprise attack differ drastically
 from more conventional notions of disarmament. We are also
 at the source of a number of anomalies and paradoxes that have
-to be faced if we are to recognize the virtues and defects of par-
-ticular schemes and to comprehend the motives behind them.Itis
+to be faced if we are to recognize the virtues and defects of particular schemes and to comprehend the motives behind them.Itis
 at this point, also, that we begin to question whether schemes
 @fainst surprise attack can be viewed as “first steps” toward
-More comprehensive disarmament in the traditional sense, or in-
-Stead are incompatible with other forms of disarmament. Can
+More comprehensive disarmament in the traditional sense, or inStead are incompatible with other forms of disarmament. Can
 
-
-234
 SURPRISE ATTACK
 measures to protect SAC be viewed as first steps towardits dis.
-mantlement ? Can weinitially take cooperative measures to per-
-fect and safeguard each side’s capacity to retaliate massively, in
+mantlement ? Can weinitially take cooperative measures to perfect and safeguard each side’s capacity to retaliate massively, in
 the interest of mutual deterrence, and do it as a step toward
 eliminating the threat of massive retaliation from a tense and
 troubled world?
@@ -11095,10 +9373,8 @@ Once we haveidentified the surprise-attack problem as the
 possible vulnerability of either side’s retaliatory force to a first
 strike by the other, it becomes necessary to evaluate military
 strength, defensive measures, and proposals for the inspection or
-limitation of armament, with precisely this type of strategic vul-
-nerability in mind. We do not, for example, assess American and
-Soviet strategic forces by counting up the bombers, missiles, sub-
-marines, and aircraft carriers on both sides, as though we wanted
+limitation of armament, with precisely this type of strategic vulnerability in mind. We do not, for example, assess American and
+Soviet strategic forces by counting up the bombers, missiles, submarines, and aircraft carriers on both sides, as though we wanted
 to see who could put on the most impressive peace-time parade.
 “Whois ahead”in the armsrace will usually be: whoever strikes
 first. And if we have to plan on the conservative assumption that
@@ -11106,13 +9382,11 @@ the other side will strike first, 200 bombers safe against attack
 may be worth as much as 2000 that have only a ro per cent chance
 of survival.
 Anassessment of defensive measures also comesoutdifferently
-if we put primary reliance on deterrence. Chicago cannot be hid-
-den, buried in a blast-proof cavern, or kept 1o miles off the
+if we put primary reliance on deterrence. Chicago cannot be hidden, buried in a blast-proof cavern, or kept 1o miles off the
 ground; but concealment, dispersal, hard shelter, and airborne
 alert are meaningful defenses in preserving the deterrent force.
 An active air defense of Chicago that has only a 50-50 chance
-*In case the reader feels that the argument presented here is correct in prin-
-ciple but uninteresting in fact because the continuous invulnerability of ov!
+*In case the reader feels that the argument presented here is correct in principle but uninteresting in fact because the continuous invulnerability of ov!
 retaliatory forces is assured beyond any worry, I should Jike to refer him to
 Albert
 Wohlstetter’s cogent
@@ -11122,9 +9396,8 @@ Foreign Affairs, 37:211-234 (January, 1959).
 
 
 SURPRISE ATTACK AND DISARMAMENT
-235
-of saving the city from a multi-megaton bomb would be a dis-
-couraging prospect, and we havelittle promise that we could
+
+of saving the city from a multi-megaton bomb would be a discouraging prospect, and we havelittle promise that we could
 even do that well; but an active defense that could guarantee the
 survival of a large fraction of our strategic striking force might
 be more than enoughto guarantee the Russians a prohibitive cost
@@ -11132,14 +9405,12 @@ jn retaliation. Similarly, a defense of Chicago that requires the
 enemyto triple the size of his attack may be a poor prospect; it
 may mean only that he invests in a larger initial attack. But a
 defense of our retaliatory force that requires the enemytotriple
-the size of his attack may substantially increase the enemy’s dif-
-ficulty of sneaking past our warning system, and appreciably
+the size of his attack may substantially increase the enemy’s difficulty of sneaking past our warning system, and appreciably
 change his likelihood of successfully precluding retaliation.
 The same kind of calculation is pertinent to an evaluation of
 arms limitations. If we look only at the problem of a Russian
 attack on Americancities, it may seem immaterial to the enemy
-whether he shoots his ICBM’s from close up or from afar; ac-
-curacy may not make much difference with a multi-megaton
+whether he shoots his ICBM’s from close up or from afar; accuracy may not make much difference with a multi-megaton
 bomb fired at metropolitan areas. But if he is trying to destroy
 a missile or bomber that has been sheltered deep underground
 with reinforced concrete, accuracy is no longer superfluous. An
@@ -11160,13 +9431,10 @@ is unfortunately pertinent.)
 On some questions, emphasis on the surprise-attack problem
 May lead to a downright reversal of the answer that one would get
 from moretraditional “disarmament”considerations. Consider the
-Case of a limitation on the number of missiles that might be al-
-lowed to both sides (if we ever reached the point in negotiations
+Case of a limitation on the number of missiles that might be allowed to both sides (if we ever reached the point in negotiations
 With Russia where an agreementlimiting the number of missiles
 Were pertinent and inspection seemed feasible). Suppose we had
 
-
-236
 SURPRISE ATTACK
 decided, from a consideration of population targets and enemy
 incentives, that we would need a minimum expectation of to
@@ -11187,19 +9455,15 @@ initial number on the “defending”side, the larger the multiple
 required by the attacker in order to reduce the victim’s residual
 supply to below some “safe” number.*
 From this point of view, a limitation on the numberof missiles
-would appear to be morestabilizing, the larger the number per-
-mitted. This would be so for two reasons. First, the larger the
-numberon bothsides, the greater is the absolute numberof mis-
-siles expected to be left over for retaliation in the event that
+would appear to be morestabilizing, the larger the number permitted. This would be so for two reasons. First, the larger the
+numberon bothsides, the greater is the absolute numberof missiles expected to be left over for retaliation in the event that
 either side should strike first, and therefore the greater
 is the
 deterrence to an attempted first strike. Second, the larger the
 numberof missiles on both sides, the greater must be the absolute
 and proportionate increase in missiles that either side would
-have to achieve in order to be capable of assuring, with any speci-
-fied probability, that the other’s left-over missiles would be less
-than some specified number after being attacked. Thus the dif-
-ficulty of one side’s cheating, by disguising and concealing extra
+have to achieve in order to be capable of assuring, with any specified probability, that the other’s left-over missiles would be less
+than some specified number after being attacked. Thus the difficulty of one side’s cheating, by disguising and concealing extra
 missiles, or breaking the engagement and racing to achieve 4
 dominant number,
 is more than proportionately enhanced by
@@ -11211,25 +9475,21 @@ salvos, which particular missiles have already destroyed their targets
 
 
 SURPRISE ATTACK AND DISARMAMENT
-237
-capacities of the two enemies, and within these budgetary capaci-
-ties the number of missiles is high, stability might be imposed
+
+capacities of the two enemies, and within these budgetary capacities the number of missiles is high, stability might be imposed
 py the economic limitation on whateither side could dorelative
 to what it would have to do to achieve mastery.
-Here is a case, then, in which an “arms race” does not neces-
-sarily lead to a more and more unstable situation. For anything
+Here is a case, then, in which an “arms race” does not necessarily lead to a more and more unstable situation. For anything
 like equal numbers on both sides, the likelihood of successfully
 wiping out the other side’s missiles becomes less and less as the
 missiles on both sides increase. And the tolerance of the system
 increases too. For small numberson bothsides, a ratio of 2 or 3
-to 1 may provide dominance to the larger side, a chance of strik-
-ing first and leaving the other side a small absolute numberfor
+to 1 may provide dominance to the larger side, a chance of striking first and leaving the other side a small absolute numberfor
 striking back. But if the initial numbers on both sides are higher,
 it may take a ratio of 10 to 1 rather than 2 or 3 to 1 to have a
 good chance of striking with impunity. Neither side needs to
 panic if it falls behind little bit, and neither has any great hope
-that it could draw far enough ahead to have the kind of domi-
-nance it would need.
+that it could draw far enough ahead to have the kind of dominance it would need.
 This greatly simplified view of a “missile duel” is much too
 specialized to be a strong argument for arms races rather than
 disarmament. But it does demonstrate that, within the logic of
@@ -11237,8 +9497,7 @@ stable deterrence, and of schemes for the prevention of surprise
 attack, the question of more vs. fewer weaponshas to be analyzed
 on its merits in individual cases. It is not a foregone conclusion
 that disarmament,in the literal sense, leads to stability.
-Our attitude toward missile submarines, and toward the prob-
-lem of devising submarine-detection techniques, should be much
+Our attitude toward missile submarines, and toward the problem of devising submarine-detection techniques, should be much
 affected by whether we are worried about enemyattack or enemy
 Surprise attack. If the submarine proves to be for many years a
 fairly invulnerable site for anti-population missiles, we should
@@ -11251,8 +9510,6 @@ like to see in adequate numbers onbothsides. If it should prove
 to be both undetectable and highly reliable, it would have the
 advantage of not needing to strike first in order to strike atall,
 
-
-238
 SURPRISE ATTACK
 of not fearing that an aggressor might hope to knock out the
 very forces that were supposed to deter him. True, it might seem
@@ -11267,17 +9524,13 @@ nuclear-weapon submarine; if in fact we have either no intention
 or no political capacity for a first strike, it would usually be
 helpful if the enemy were confidently assured of this. His own
 manifest invulnerability to our first strike could be to our ad.
-vantage if it relieved him of a principal concern that might moti-
-vate him to try striking first. If ke has to worry about the ex-
-posure of his strategic force to a surprise attack by us, we have to
+vantage if it relieved him of a principal concern that might motivate him to try striking first. If ke has to worry about the exposure of his strategic force to a surprise attack by us, we have to
 worry about it too.
 These thoughts also affect our attitude toward the search for
-submarine detection. The Navy is urgently seeking a better sys-
-tem of defense against submarines, and there is no question but
+submarine detection. The Navy is urgently seeking a better system of defense against submarines, and there is no question but
 that we have to devote ourselves intently to the problem. Yet
 perhaps we ought simultaneously to Aope that the problem
-isin-
-soluble. If it were insoluble (in the relative sense in which a
+isinsoluble. If it were insoluble (in the relative sense in which a
 technical problem can ever be insoluble) and submarines were
 destined to be comparatively safe vehicles for a decade or so,
 stable deterrence might be technologically possible. If submarines
@@ -11288,56 +9541,46 @@ know, and because we haveto learn all we can about detection
 to make our submarines less detectable; but like a person who
 has entered into an agreement with a partner that he cannot
 trust, we may search like the devil for a loophole, knowing that
-our partner is searching just as hard, while hoping that no loop-
-hole is to found.5
+our partner is searching just as hard, while hoping that no loophole is to found.5
 ®This paper being about principles, not about submarines, I can perhaps be
 excused for pretending here that undetectability on short notice in the open S€4
 is equivalent to invulnerability.
 
 
 SURPRISE ATTACK AND DISARMAMENT
-239
+
 Once we have pressed the argument this far, we may as well
 carry it all the way. If our problem is to guarantee to an enemy
 that we have the ability to strike a punitive blow after being
 struck ourselves—and to assure him that we know that he
 knows it so that we are under no temptation to doubt the potency
 of our own deterrence andstrike first— we should find virtue in
-technological discoveries that enhance the anti-population po-
-tency of our retaliatory weapons.If it is logical to take measures
+technological discoveries that enhance the anti-population potency of our retaliatory weapons.If it is logical to take measures
 to guarantee that a larger proportion of our retaliatory forces
 could survive a first strike on them, the same logic should make
 us welcome an increase in the potency of those that do survive.
-As Bernard Brodie has said, “When we consider the special re-
-quirements of deterrence, with its emphasis on the punitive aspect
+As Bernard Brodie has said, “When we consider the special requirements of deterrence, with its emphasis on the punitive aspect
 of retaliation, we may find a need even for super-dirty bombs.
 Since the emphasis must be on making certain that the enemy
 will fear even the smallest number of bombs that might be sent
 in retaliation, one wants these bombs to be, and thus to appear
 before the event, as horrendousaspossible.” ®
-The novelty of this reasoning disappears as soon as we recog-
-nize that the “balance of terror,”if it is stable, is simply a mas-
-sive and modern version of an ancient institution: the exchange
+The novelty of this reasoning disappears as soon as we recognize that the “balance of terror,”if it is stable, is simply a massive and modern version of an ancient institution: the exchange
 of hostages. In older times, one committed himself to a promise
-by delivering his hostages physically into the hands of his dis-
-trustful “partner”; today’s military technology makesit possible
+by delivering his hostages physically into the hands of his distrustful “partner”; today’s military technology makesit possible
 to have the lives of a potential enemy’s women and children
 within one’s grasp while he keeps those women and children
 thousands of miles away. As long as each side has the manifest
 power to destroy a nation and its population in response to an
 attack by the other, the “balance of terror” amounts to a tacit
-understanding backed by a total exchange of all conceivable hos-
-tages. We may not, of course, want to exchange quite that many
+understanding backed by a total exchange of all conceivable hostages. We may not, of course, want to exchange quite that many
 hostages in support of this particular understanding with this
-Particular enemy. But in a lawless world that provides no re-
-Course to damage suits for breach of this unwritten contract,
+Particular enemy. But in a lawless world that provides no reCourse to damage suits for breach of this unwritten contract,
 hostages may be the only device by which mutually distrustful
 and antagonistic partners can strike a bargain.7
 * Bernard Brodie, Strategy in the Missile Age (Princeton, 1959), p. 295.
 Should be emphasized that I am discussing only the problem of major
 
-
-240
 SURPRISE ATTACK
 This line of reasoning is not simply an enormousrationaliza.
 tion for an arms race. It does indeed suggest that “disarmament”
@@ -11353,8 +9596,7 @@ that are peculiarly suitable to the exploitation of a first strike
 and weaponsthat are peculiarly suitable to the retaliatory role.
 At one extreme is the “pure” strike-back type of weapon: the
 relatively inaccurate vehicle with a super-dirty bomb that can
-kill just about everything in the enemy’s country except a well-
-protected or well-hidden retaliatory force, and that itself is so
+kill just about everything in the enemy’s country except a wellprotected or well-hidden retaliatory force, and that itself is so
 well-protected
 or
 well-hidden
@@ -11367,15 +9609,11 @@ weapons that the other side might possess. Ideally, this weapon
 would suffer no disadvantage in waiting to strike second and
 gain no advantagein striking first. At the opposite extremeis a
 weapon that is itself so vulnerable that it could not survive to
-strike second, or a weapon so specialized for finding and destroy-
-ing the enemy’s retaliatory forces before they are launched that
+strike second, or a weapon so specialized for finding and destroying the enemy’s retaliatory forces before they are launched that
 it would lose most of its usefulness if it were held until the other
 side has already started. These “strike-first” weapons not only
-give their possessor a powerful incentive to strike first, and an in-
-centive to jump the gun in the event of ambiguous warning rather
-than to wait and make absolutely sure; they are a tacit declara-
-tion to the enemy that one expects to strike first. They conse-
-quently invite the enemyto strike a little before that and to act
+give their possessor a powerful incentive to strike first, and an incentive to jump the gun in the event of ambiguous warning rather
+than to wait and make absolutely sure; they are a tacit declaration to the enemy that one expects to strike first. They consequently invite the enemyto strike a little before that and to act
 with haste in the event he thinks that we think it’s time to act
 quickly.
 Between the extremesof the “pure”strike-first weapon and the
@@ -11389,13 +9627,12 @@ is touched on in the final pages of this chapter.
 
 
 SURPRISE ATTACK AND DISARMAMENT
-241
+
 “pure”strike-back weapon, there are the weaponsthatcanstrike
 first but do not need to, that can survive and servetheretaliatory
 purpose but that also might have an important effect on the other
 side’s retaliatory forces if used first. Perhaps most weapons fall
-in this category if reasonable precautions are taken for their pro-
-tection. So we cannot make a nice distinction betweenfirst-strike
+in this category if reasonable precautions are taken for their protection. So we cannot make a nice distinction betweenfirst-strike
 and second-strike weapons, extolling the one and disparaging the
 other in our approach to the surprise-attack problem. If we were
 to consider eliminating all weapons that had any possible effect
@@ -11407,32 +9644,25 @@ The most obvious candidates would be exposed, vulnerable
 weapons, It might seem anomaloustoinsist to the Russians that
 they cover any nakednessof their strategic forces, or for them to
 suggest that we protect better some of our own. Morelikely
-would be suggestions to abandon weapons that were provoca-
-tively exposed to the other side. Note how different in spirit this
+would be suggestions to abandon weapons that were provocatively exposed to the other side. Note how different in spirit this
 would be from the “ban the bomb”orientation. Whatever the
 propaganda implications of such a topic, it at least has the merit
-of viewing deterrence as something to be enhanced, not dis-
-mantled.
+of viewing deterrence as something to be enhanced, not dismantled.
 Second, restrictions on the deployment of forces that affect
 their counter-force potency rather than their counter-population
 potency might be sought. They will not be sought, however, until
 there is candid recognition that surprise-attack schemes are to
 be deliberately aimed at protecting, not degrading, each side’s
 strike-back capability. The discussion above of the effect of
-range on missile requirements, whatever its specific merits, sug-
-ests that this class of limitations is not an empty one.
+range on missile requirements, whatever its specific merits, sugests that this class of limitations is not an empty one.
 Third, there may be some useful exploration of cooperative
-Measures, or mutually accommodated modesof behavior, that re-
-duce the danger of war by misapprehension. Even voluntary ex-
-Change of information might help, if we and the Russians can
+Measures, or mutually accommodated modesof behavior, that reduce the danger of war by misapprehension. Even voluntary exChange of information might help, if we and the Russians can
 Unilaterally pick modes of behavior
 that, when the truth
 is
 * Furthermore, we are taking nothing but the surprise-attack problem into
 count here.
 
-
-242
 SURPRISE ATTACK
 known, are reassuring. This is presumably the idea behind pro.
 posals for inspection of air traffic in the north polar area, ang
@@ -11450,8 +9680,7 @@ Fifth, there may be measures that, by making surprise less
 likely, make a first strike less attractive. This point brings us
 back to the open-skies type of proposal.
 Most public discussion of the surprise-attack problem dur.
-ing the last few years has related to measures that might re-
-duce the likelihood of surprise, rather than measures to limit
+ing the last few years has related to measures that might reduce the likelihood of surprise, rather than measures to limit
 what weaponscould do if surprise were achieved. The open-skies
 proposal was based on the idea that with sufficient observation
 of each other’s military forces neither side could achieve surprise
@@ -11459,13 +9688,10 @@ and, lacking the advantage of surprise, would be deterred.
 The technical problem of devising a practical inspection scheme
 that could yield each side adequate warning of an attack by the
 other has become much moredifficult since the first open-skies
-proposal was made. With hydrogen weapons reducing the num-
-ber of aircraft that might be needed in a surprise attack, with
+proposal was made. With hydrogen weapons reducing the number of aircraft that might be needed in a surprise attack, with
 missiles promising to reduce the total time available between
 the initial actions in readying a strike and the explosion of
-weapons on target, and with mobile systems like missile sub-
-marines to keep under surveillance, it looks as though pure in-
-spection unaccompanied by any limits on the behavior of the
+weapons on target, and with mobile systems like missile submarines to keep under surveillance, it looks as though pure inspection unaccompanied by any limits on the behavior of the
 things to be inspected would be enormously difficult or enor
 mously ineffectual. The idea of examining photographs for strate
 gic indications of force movements and concentrations is simply
@@ -11474,7 +9700,7 @@ surveillance of strategic forces by a vast organization that coul
 
 
 SURPRISE ATTACK AND DISARMAMENT
-243
+
 transmit authentic messages reporting suspicious activity within
 at most a few hours, and eventually within a few minutes, in a
 way that is not intolerably susceptible of false alarms. Thereis
@@ -11492,9 +9718,7 @@ the deploymentof forces are used to makethe task of inspection
 more manageable, something may be accomplished. But though
 there may be promise in the idea of combining inspection and
 weapon limitations, there are also serious problems.
-One is a possible incompatibility between the need for inspec-
-tion and the need for concealment. When missiles become suffi-
-ciently accurate, it may become almost physically impossible to
+One is a possible incompatibility between the need for inspection and the need for concealment. When missiles become sufficiently accurate, it may become almost physically impossible to
 protect one’s ownretaliatory forces by the sheer provision of
 cement, or, if not impossible, exceedingly costly. Mobility and
 concealment may then have to be the source of security for the
@@ -11504,12 +9728,10 @@ it. To the extent that he can have our ownretaliatory weapons
 under continuous surveillance he has continuous information on
 their location.
 In other ways an inspection schemeon the scale required for
-protection against surprise attack might yield excessive informa-
-tion about the disposition of the other’s forces and make them
+protection against surprise attack might yield excessive information about the disposition of the other’s forces and make them
 more vulnerable. It is widely known, for example, that there was
 a time when hurricane winds immobilized an extremely large
-Portion of the B-36’s that then comprised our principal retalia-
-tory threat. The implications for surprise attack of such an
+Portion of the B-36’s that then comprised our principal retaliatory threat. The implications for surprise attack of such an
 event are evidently very different, depending on whether the
 €nemy knows only in a general way that this kind of thing can
 Ppen to us, or instead has definite information when it occurs
@@ -11533,25 +9755,20 @@ hoping to get in first; but this is an unattractive course if the
 warning is ambiguous. A false alarm then leads to war. And a
 true one precludes any last-minute deterrence.
 At the other extreme we can just wait and “get ready.” Andif
-the things we can do to get ready appreciably reduce thelikeli-
-hood that his attack will succeed —if they raise the likelihood
+the things we can do to get ready appreciably reduce thelikelihood that his attack will succeed —if they raise the likelihood
 that we can retaliate severely — we may want to make a quick
 demonstration to the enemy that weare ready, in the hope that
 our improved posture will deter his final decision.
 The important question is what we do that constitutes getting
 ready. If the answer is simply, “Be morealert,” why weren’t we
 morealert in the first place? Most of the obvious things that one
-would do if he had warning of an attack are things that one prob-
-ably would like to do perpetually in view of the ever-present possi-
-bility of an attack. And if our Strategic Air Command is con-
-tinually doing its best to reduce the time it takes to get aircraft
+would do if he had warning of an attack are things that one probably would like to do perpetually in view of the ever-present possibility of an attack. And if our Strategic Air Command is continually doing its best to reduce the time it takes to get aircraft
 ready and off the ground in the face of warning, or to keep the
 doors tightly shut on sheltered aircraft, or to keep aircraft safe
 in the air in combat-ready condition, there may not be much more
 they can do on short notice.
 Nevertheless, there are things that a nation can doin the face
-of imminent attack that it could not do continuously and indefi-
-nitely. One can evacuate or go underground, but not forever.
+of imminent attack that it could not do continuously and indefinitely. One can evacuate or go underground, but not forever.
 One can get his retaliatory forces safely off the ground, where
 they are no longer targets for enemy bombs; but they cannot
 stay in the air forever. One can put men on twenty-four-hour
@@ -11559,7 +9776,7 @@ duty, but not for many days in a row. One can ground all com:
 
 
 SURPRISE ATTACK AND DISARMAMENT
-245
+
 mercial aircraft to raise the reliability of the warning system,
 but the economic loss might be exorbitant
 if commercial and
@@ -11567,8 +9784,7 @@ private flying were foresworn for
 all time
 in the interest of
 making enemy aircraft more recognizable. There are, in other
-words, things that one can do to “get ready” in the face of ex-
-pected attack that one cannot be expected to do continuously.
+words, things that one can do to “get ready” in the face of expected attack that one cannot be expected to do continuously.
 But there is another question. How long can we keep it up?
 Suppose we cannot physically keep all aircraft in the air at all
 times, as is true, and that it may be too costly in all respects
@@ -11584,11 +9800,8 @@ the planes have to come down again? And if so, must we not
 strike in anticipation?
 This problem of “fatigue” is likely to plague any super-alert
 stance that one can take. The solution is in two parts. First,
-one musttry to design a super-alert response that has good en-
-durance andlittle fatigue, recognizing that this means compro-
-mising its peak effectiveness. Second, and most pertinent to the
-present subject, one may have to engage in a kind of crash dis-
-armament negotiation with the enemy during the period that
+one musttry to design a super-alert response that has good endurance andlittle fatigue, recognizing that this means compromising its peak effectiveness. Second, and most pertinent to the
+present subject, one may have to engage in a kind of crash disarmament negotiation with the enemy during the period that
 one has in fact taken measures to insure his own invulnerability
 of retaliation. If we can keep up a super-alert for a few days, we
 have a few days during which to attempt to demand or negotiate
@@ -11598,23 +9811,17 @@ them and sufficiently reassuring to us to permit us to return to
 mean devising and instituting a much more ambitious schemeof
 anti-surprise-attack measures than had been politically feasible
 during the earlier period. It would mean negotiating not just under
-the ordinary pressure of knowing that sneak attack is a long-
-term danger, but doing it with clear notice that if measures to
+the ordinary pressure of knowing that sneak attack is a longterm danger, but doing it with clear notice that if measures to
 
-
-246
 SURPRISE ATTACK
 make successful first-strike impossible have not been devised,
 agreed upon, and taken by a quick deadline, war by mutual con.
 sent has becomeinevitable.
 These reflections do not imply that extra warning would be
-either useless or embarrassing. What they indicate is that warn-
-ing by itself may not be enough. Extra warning provides an
+either useless or embarrassing. What they indicate is that warning by itself may not be enough. Extra warning provides an
 opportunity, but the opportunity has to be exploited with skill,
 Andpreparations for what one would do in the contingency may
-have to be made well ahead of time. Thereis barely time to de-
-liver an ultimatum to the Russians when we catch them prepar-
-ing to attack. Deciding what ultimatum would both meet our
+have to be made well ahead of time. Thereis barely time to deliver an ultimatum to the Russians when we catch them preparing to attack. Deciding what ultimatum would both meet our
 needs and be tolerable to the Russians is not only intellectually
 difficult, it is technically difficult, depending on such things as
 procedures to verify compliance. We could probably deliver an
@@ -11622,13 +9829,9 @@ effective ultimatum only if we had planned carefully ahead of
 time on whatit might contain.
 There are two quite distinct criteria for judging the efficacy
 of an inspection system,or for designing the system itself. Oneis
-how well the system gets at the truth in spite of efforts to con-
-ceal it; the other is how well it helps one to reveal the truth con-
-vincingly whenit is in his interest to do so. The difference is like
+how well the system gets at the truth in spite of efforts to conceal it; the other is how well it helps one to reveal the truth convincingly whenit is in his interest to do so. The difference is like
 that between a schemefor discovering the guilty and a scheme
-for permitting the innocent to establish innocence. Roughly speak-
-ing, one system arrives at a presumption of innocence in a nega-
-tive way, by an absence of positive evidence to the contrary;
+for permitting the innocent to establish innocence. Roughly speaking, one system arrives at a presumption of innocence in a negative way, by an absence of positive evidence to the contrary;
 the other scheme relies on positive evidence, and is pertinent to
 the particular situations in which one’s own interestis in letting
 the truth be known.
@@ -11644,10 +9847,9 @@ each side that the other may be about to pre-empt explodes by
 
 
 SURPRISE ATTACK AND DISARMAMENT
-247
+
 feedback into a war by mutual panic. In the case of a planned,
-deliberate, surprise attack, the aggressor has every reason to dis-
-guise the truth. But in the case of “inadvertent war,” both sides
+deliberate, surprise attack, the aggressor has every reason to disguise the truth. But in the case of “inadvertent war,” both sides
 have a Strong interest in conveying the truth if the truth can
 in fact be conveyed in a believable way in time to prevent the
 other side’s mistaken decision.
@@ -11659,10 +9861,8 @@ prove to us that they were notinitiating a surprise attack,if in
 fact they were not but they knew that we wereafraid they might
 be.
 Evidently it is not going to be enough just to tell the truth.
-There may indeed be some situations in which sheer verbal con-
-tact is enough to allay each side’s suspicions. If the Russians —
-just to take a wild example — suffered an accidental nuclear ex-
-plosion on oneof their own bases, it might be helpful to both sides
+There may indeed be some situations in which sheer verbal contact is enough to allay each side’s suspicions. If the Russians —
+just to take a wild example — suffered an accidental nuclear explosion on oneof their own bases, it might be helpful to both sides
 if they could simply reassure us quickly that they knew it was an
 accident, that they were not interpreting it as a harbinger of an
 attack by us, and so on. But, in most of the cases that one can
@@ -11680,8 +9880,6 @@ May take an action that might be misinterpreted as a strategic
 Strike. Suppose, for example, that we used the kinds ofaircraft
 that would alternatively be used in a strike against Russian bases,
 
-
-248
 SURPRISE ATTACK
 and flew them in directions that might be interpreted as aimeq
 at the Soviet Union itself —as might be the case if they were
@@ -11715,28 +9913,25 @@ would draw the natural conclusion that a real attack by the enemy wa‘
 taking place, and mankind would find itself involved in the whirlpool of
 atomic war.
 Assuming for the moment that a situation like that described
-might conceivably arise, how might the interacting misapprehen-
-sions of both sides be slowed down and reversed? If there weré
+might conceivably arise, how might the interacting misapprehensions of both sides be slowed down and reversed? If there weré
 some way of reversing motion on both sides, in a properly phased
 and authenticated way, a kind of balanced withdrawal by mutual
 consent might be possible.
 
 
 SURPRISE ATTACK AND DISARMAMENT
-249
+
 The bargaining environment is not a propitious one. At best
 there would be only hours in which to conduct the negotiations,
 and at worst no timeat all. The requirements for a successful
 outcome can analytically be divided into two parts. First there
 has to be discovered some “solution” — some pattern of action
-that reverses the trend toward mutual attack, and that consti-
-tutes a dynamically stable withdrawal to a less menacing alert
+that reverses the trend toward mutual attack, and that constitutes a dynamically stable withdrawal to a less menacing alert
 status, one that yields neither side a dangerous advantage in the
 process, and that is within the physical capabilities of the forces
 concerned. The second requirement is that compliance somehow
 be observable, verifiable, and provable. We cannot carry out our
-part of the bargain unless we have trustworthy means for moni-
-toring the other side’s compliance, and the sameis true for them.
+part of the bargain unless we have trustworthy means for monitoring the other side’s compliance, and the sameis true for them.
 Conceivably we would have an interest in cheating; but
 it is
 overwhelmingly more probable
@@ -11763,12 +9958,9 @@ criteria for reliability of an inspection system. It might be very
 difficult to design radar that would always catch the enemy — and
 by which he could always catch us—in an attempt at sneak
 attack ; it is quite another question how to design radar so that
-if we both wished to invite voluntary surveillance we could sub-
-Mit in a convincing way. In one case weare, in effect, evading
+if we both wished to invite voluntary surveillance we could subMit in a convincing way. In one case weare, in effect, evading
 his radar surveillance as best we can. In the other we may de-
 
-
-250
 SURPRISE ATTACK
 liberately “parade”in front of his radar, or submit to other means
 of long-distance recognition, as long as he does the samefor us,
@@ -11776,10 +9968,7 @@ LONGER-TERM SURVEILLANCE
 The difference between these crises and emergencysituations
 and the longer-term problems of policing arms limitations is in
 the kind of evidence that is required and in the strength of the
-motivation to provide it. The more “leisurely” process of inspec-
-tion is generally viewed as depending mainly on negative evi-
-dence, that is, the absence of evidence. One reduces the proba-
-bility of missing such evidence by enlarging and intensifying the
+motivation to provide it. The more “leisurely” process of inspection is generally viewed as depending mainly on negative evidence, that is, the absence of evidence. One reduces the probability of missing such evidence by enlarging and intensifying the
 system; and one supposes that the evasion is made difficult by
 the need to keep activities hidden over a long period. But in a
 crisis one requires more certain evidence; one does not have
@@ -11798,46 +9987,34 @@ and unforeseensituations, there is a good argumentforinstituting
 some flexible stand-by arrangements
 for communicating with
 potential enemies and inspecting each other. In particular there
-is a good argument for overbuilding an inspection system rela-
-tive to such use as has been agreed on. Having standby capacity
+is a good argument for overbuilding an inspection system relative to such use as has been agreed on. Having standby capacity
 to enlarge or intensify the system, or to augmentit with additional
 facilities and inspectors, may have a good deal to do with the
-usefulness of the system in time ofcrisis. To put the point dif-
-ferently, we should not judge the reliability and usefulness of 4
-system solely in terms of the motivations of the participants dur-
-ing “normal” operations; we should recognize that occasions may
+usefulness of the system in time ofcrisis. To put the point differently, we should not judge the reliability and usefulness of 4
+system solely in terms of the motivations of the participants during “normal” operations; we should recognize that occasions may
 
 
 SURPRISE ATTACK AND DISARMAMENT
-251
+
 arise when there is a powerful motive for crash negotiations on
 arms limitations, at least momentary limitations, with no time
 available for setting up observation and communication systems
 od hoc.
-To be specific: in the event there should be established an in-
-spection system to monitor an agreement to suspend nuclear
+To be specific: in the event there should be established an inspection system to monitor an agreement to suspend nuclear
 tests, we should consider carefully how both sides might take
 advantage of the inspectors and their facilities in the event of an
-acute military crisis. The mobility of the inspectors, their loca-
-tion, their communication facilities, their technical training and
+acute military crisis. The mobility of the inspectors, their location, their communication facilities, their technical training and
 surveillance equipment, there trustworthiness, and their numbers,
-should be evaluated and designed not just with nuclear-test de-
-tection in mind, but with some view to their serving a desperately
-critical need for a means of inspection, verification, and com-
-munication, in a crisis that threatens both us and the Russians
+should be evaluated and designed not just with nuclear-test detection in mind, but with some view to their serving a desperately
+critical need for a means of inspection, verification, and communication, in a crisis that threatens both us and the Russians
 with inadvertent war.
 From the foregoing considerations, it is not at all clear that the
-stability of the balance of terror — the lack of temptation to de-
-liberate surprise attack, and the immunity of the situation to
-false alarm — will be greatly affected by the military arrange-
-ments that we try to work out with the Russians. As nature re-
-veals her scientific and technological secrets over the coming
+stability of the balance of terror — the lack of temptation to deliberate surprise attack, and the immunity of the situation to
+false alarm — will be greatly affected by the military arrangements that we try to work out with the Russians. As nature reveals her scientific and technological secrets over the coming
 years, we may find that each side
 (if it does what it ought to
-do and does it rapidly enough) can substantially assure the in-
-vulnerability of its own retaliatory forces irrespective of what the
-other side does, and assure it in a convincing way, so that a power-
-fully stable mutual deterrence results. Alternatively, nature may
+do and does it rapidly enough) can substantially assure the invulnerability of its own retaliatory forces irrespective of what the
+other side does, and assure it in a convincing way, so that a powerfully stable mutual deterrence results. Alternatively, nature may
 have planted mischievous secrets ahead of us, so that we and
 the Russians continually find new ways to destroy retaliatory
 forces at a faster rate than we find new ways to protect them.
@@ -11849,8 +10026,6 @@ it even with cooperation. Still, some kind of cooperation with
 the Russians, or mutual restraint, formal or informal, tacit or
 *xplicit, may prove to makea significant difference in the stabil-
 
-
-252
 SURPRISE ATTACK
 ity of the balance of terror; and the stakes of course are very
 high. So although we cannot be sure that a deliberate policy
@@ -11876,9 +10051,7 @@ were substantially invulnerable to a first strike by ours. It can be
 argued that except under the most extreme provocation we would
 shrink from anyretaliatory strike that had nosignificant chance
 of eliminating or softening the Russian return strike. According
-to this argument, a pair of invulnerable SAC’sis a pair of neutral-
-ized SAC’s; and while that might be the best kind in a com-
-pletely bi-polar world, it is a luxury that we could not afford in
+to this argument, a pair of invulnerable SAC’sis a pair of neutralized SAC’s; and while that might be the best kind in a completely bi-polar world, it is a luxury that we could not afford in
 the existing world —a world in which there is a large “third
 area” in which we wish to deter Russian aggression by a threat
 more credible than that of mutual suicide.
@@ -11888,15 +10061,13 @@ us a blow of any size they please? Have the strategic forces any
 role when each is invulnerable to the other, except to neutralize
 each other and to guarantee, by their joint existence, their joint
 disuse?
-There is a role. Strategic forces would still be capable of carry-
-ing out “retaliation”in the punitive sense. If the threat of knock-
-ing out Russian or Chinese cities was originally thought to bé
+There is a role. Strategic forces would still be capable of carrying out “retaliation”in the punitive sense. If the threat of knocking out Russian or Chinese cities was originally thought to bé
 potent because of the sheer pain, economic loss, disorganization:
 and humiliation that would be involved, and not mainly becausé
 
 
 SURPRISE ATTACK AND DISARMAMENT
-253
+
 the military posture of the enemy in the immediate area of his
 aggression would be greatly affected, the main ingredient of the
 threat would still be present even if the other side’s SAC were
@@ -11908,18 +10079,15 @@ lose
 credibility with
 the loss of our hope that a skillfully conductedall-out strike might
 succeed in precluding counter-retaliation. But if we were ever to
-consider limited or graduated reprisals as a meansof putting pres-
-sure on the Russians to desist from actions intolerable to us, or
+consider limited or graduated reprisals as a meansof putting pressure on the Russians to desist from actions intolerable to us, or
 to consider extending a limited local war inside Russian borders
 in a way that maintained the pretence of local military action
 but was really intended to work through the sanction of civilian
 pain and the threat of more, this kind of retaliatory action, and
 the {hreat of it, might enjoy increased credibility with a reduction
-in the vulnerability of both sides’ strategic forces. It does, para-
-doxically, for the same reason that all kinds of limited war might
+in the vulnerability of both sides’ strategic forces. It does, paradoxically, for the same reason that all kinds of limited war might
 become less inhibited as the possibility of all-out surprise attack
-became unavailable. The risk involved in a bit of less-than-
-massive retaliation should be less than it is now because the fear
+became unavailable. The risk involved in a bit of less-thanmassive retaliation should be less than it is now because the fear
 of an all-out strike in return should be a good dealless. The fear
 that our limited retaliation would be mistaken for the first step
 in the initiation of all-out war should be less; the Russians would
@@ -11929,9 +10097,7 @@ obliteration.
 This is not to argue that limited retaliation, entailing therisk,
 if not the certainty, of limited counter-retaliation, cannot lead to
 total destruction, either slowly or by explosion into greater and
-greater retaliatory strikes, or would not be frightful to contem-
-plate even if kept limited. The problem of limiting a war ofre-
-prisal may be no easier than that of limiting local war, and it
+greater retaliatory strikes, or would not be frightful to contemplate even if kept limited. The problem of limiting a war ofreprisal may be no easier than that of limiting local war, and it
 May be harder. The argument here, however, does not depend on
 Making an exchange of limited punitive blows appear safe and
 attractive compared with limited local war, but safe enough and
@@ -11939,8 +10105,6 @@ attractive enough compared with all-out war to be a credible
 threat (and not a called bluff) in any case where we may have to
 rely on the threat of retaliation.
 
-
-254
 SURPRISE ATTACK
 The strategic forces would thus be “neutralized”only in respec
 of potential attacks on each other; they would still possess a pun}.
@@ -11955,8 +10119,7 @@ sive one) is more potent than the other (limited) one.
 Only an extreme optimist can think that we may ever have q
 clear choice of accepting or rejecting a scheme that would guaran.
 tee to make bothsides’ retaliatory forces totally and continuously
-invulnerable. But this question of what would happen to third-
-area deterrence, and the limited-retaliation possibility that
+invulnerable. But this question of what would happen to thirdarea deterrence, and the limited-retaliation possibility that
 it
 calls to mind, are pertinent to the question of what we mightlet
 ourselves hopefor.®
@@ -11965,8 +10128,6 @@ and Arms Control, The Twentieth Century Fund (New York, 1961).
 
 
 APPENDICES
-
-
 
 
 APPENDIX A
@@ -11980,8 +10141,7 @@ air-to-air combat,
 the
 technical characteristics of
 nuclear weapons have ceased to provide much basis, if any, for
-treating nuclear weaponsas peculiarly different from other weap-
-ons in the conduct of limited war. It has, of course, been argued
+treating nuclear weaponsas peculiarly different from other weapons in the conduct of limited war. It has, of course, been argued
 that there are political disadvantages in our using nuclear weapons
 in limited war, particularly in our using them first. Even those who
 consider a nuclear fireball as moral as napalm for burning a man
@@ -12002,12 +10162,10 @@ of
 limiting war.
 In
 the
-in-
-terest of limiting war or of understanding limited war, it may be
+interest of limiting war or of understanding limited war, it may be
 necessary to recognize that a distinction can exist between nuclear
 and other weapons even though the distinction is not physical
-but is psychic, perceptual, legalistic, or symbolic. That small-
-yield nuclears delivered with “pinpoint” accuracy are just a
+but is psychic, perceptual, legalistic, or symbolic. That smallyield nuclears delivered with “pinpoint” accuracy are just a
 form of artillery, and consequently do not prejudice the issue of
 limits in war, is an argument based exclusively on an analysis of
 Weaponseffects, not on an analysis of the limiting process — of
@@ -12017,8 +10175,6 @@ and modes of behavior are conducive to the finding and mutual
 Tecognition of limits. The premise of the “just-another-weapon”
 argumentis that, if there is no compelling weapon-effects basis
 
-
-258
 APPENDIX A
 for a distinction between nuclears and other weapons,there is no
 basis at all that is pertinent to the limiting process.
@@ -12026,12 +10182,10 @@ Is not the same point involved in discriminating among the
 users of weapons? There is no moredifference between Russians
 and Chinese than there is between nuclear and other weapons.
 similarly for the difference between Chinese and North Koreans,
-or between Americans and Nationalist Chinese, British and Jor-
-danians, Egyptians and Algerians. Yet nationality has been an
+or between Americans and Nationalist Chinese, British and Jordanians, Egyptians and Algerians. Yet nationality has been an
 important distinction in the process of limiting war or destroying
 its limits. Similarly, there is little difference between the terrain
-a hundred miles north of the Soviet-Iranian border and theter-
-rain a hundred miles south, or what lies above the Yalu and
+a hundred miles north of the Soviet-Iranian border and theterrain a hundred miles south, or what lies above the Yalu and
 below it, or the two sides of the Greek-Yugoslav border. Yet
 boundaries like these play an important role in the limiting
 process, quite aside from any physical difficulty in the crossing
@@ -12040,8 +10194,7 @@ with them.
 One could reply that these are “legal” distinctions and that
 legal distinctions are real ones while those between nuclear and
 other weaponsare fictitious. But they are not really legal; they
-are “legalistic.” There is no legal authority that forces the par-
-ticipants
+are “legalistic.” There is no legal authority that forces the participants
 in limited war to recognize political boundaries or
 nationalities;
 the Russians are not legally obliged to treat a
@@ -12050,8 +10203,7 @@ the war—as a dramatic act discontinuous with action up to
 their border. The Chinese were not legally obliged to retaliate
 (rather than just to resist)
 if we deliberately crossed the Yalu
-River; they did not lose any legal right to deny trespass by ad-
-mitting occasional thoroughfare. We are not legally obliged to
+River; they did not lose any legal right to deny trespass by admitting occasional thoroughfare. We are not legally obliged to
 take cognizance of Russian pilots if they participate in a limited
 war, or Russian “volunteers” in a Near Eastern ground army
 fighting against our side. The inhibition on the penetration of
@@ -12065,16 +10217,14 @@ response, to our symbolically discontinuous act.
 
 
 NUCLEAR WEAPONS AND LIMITED WAR
-259
-What makes the Soviet or Chinese border a pertinent or com-
-lling place to draw a line in the event of war in that area is
+
+What makes the Soviet or Chinese border a pertinent or comlling place to draw a line in the event of war in that area is
 principally that there is usually no other plausible line to draw.
 For Western troops to cross the Russian border is to challenge —
 not physically but symbolically — the territorial integrity of the
 USSR, and to demonstrate or at least to imply an intention to
 proceed. Unless one can find some “obvious” limit inside that
-porder, such that it would be clear to the Russians where wein-
-tended to stop in the event that we cross the border, and such
+porder, such that it would be clear to the Russians where weintended to stop in the event that we cross the border, and such
 that it would be obvious to us that there was a limit to how far
 the Russians would let us advance if we did cross it and that the
 Russians knew that we knewit, there is just no other stopping
@@ -12091,22 +10241,17 @@ the only line, but certainly one of the few — that one could draw
 in the region that could be tacitly recognized by both sides as the
 “obvious” geographical limit that both sides might observe. It
 has a compelling power of suggestion, a claim to attention, the
-denial of which might seem — in default of any plainly recogniz-
-able alternative — to be a denial of any limitation.
+denial of which might seem — in default of any plainly recognizable alternative — to be a denial of any limitation.
 But, if political-boundary and nationality considerationsstill
-seem to be legal, and therefore real, consider some other distinc-
-tions that are significant in the limiting process. We provided
+seem to be legal, and therefore real, consider some other distinctions that are significant in the limiting process. We provided
 much equipment but no manpower to the war in Indochina; we
 Provided equipment, leadership, and advice to the Greek troops
 during the guerrilla war, but no combat troops. We provide direct
-naval support to the Nationalist Chinese in the Straits of For-
-mosa. It has been thought that we might have given air support
+naval support to the Nationalist Chinese in the Straits of Formosa. It has been thought that we might have given air support
 to the French and Vietnamese in Indochina, without appearing
 to the Chinese and Russiansto be as “involved”as if we had put
 round forcesin.
 
-
-260
 APPENDIX A
 An economist can argue — with the same persuasiveness as
 those who argue that “pinpoint”-delivered small-yield weapons
@@ -12119,12 +10264,10 @@ redefinition of service functions in the light of modern weapons,
 and about the usefulness of defining military-service functions
 in terms of the means of locomotion, suggests that an air-ground
 distinction or a naval-ground distinction rests on nothing but
-tradition. But the point of all this is that, in limiting war, tradi-
-tion matters.
+tradition. But the point of all this is that, in limiting war, tradition matters.
 In fact, what we are dealing with in the analysis of limited
 war is tradition. We are dealing with precedent, convention, and
-the force of suggestion. We are dealing with the theory of un-
-written law — with conventions whose sanction in the aggregate
+the force of suggestion. We are dealing with the theory of unwritten law — with conventions whose sanction in the aggregate
 is the need for mutual forebearance to avoid mutual destruction.
 and whose sanction in each individual case is the risk that to
 breach a rule may collapse it and that to collapse it may lead
@@ -12150,7 +10293,7 @@ teristic of any limit in a limited war is the psychic, intellectual;
 
 
 NUCLEAR WEAPONS AND LIMITED WAR
-261
+
 or social characteristic of being mutually recognized by both
 sides as having some kind of authority, the authority deriving
 mainly from the sheer perception of mutual acknowledgement,
@@ -12158,22 +10301,18 @@ of a “tacit bargain.” And a particular limit gains in authority
 from the lack of confidence that either side may have in what
 alternative limits may be found if the limit is not adhered to.
 The rationale behind the limit is legalistic and casuistic, notlegal,
-moral, or physical. The limits may correspond to legal and physi-
-cal differences or to moral distinctions; indeed, they usually have
-to correspond to something that gives them a unique and qualita-
-tive character and that provides some focus for expectations to
+moral, or physical. The limits may correspond to legal and physical differences or to moral distinctions; indeed, they usually have
+to correspond to something that gives them a unique and qualitative character and that provides some focus for expectations to
 converge on. But the authority is in the expectations themselves,
 and not in the thing that expectations have attached themselves
 to.
 Whetherlimits on the use of atomic weapons, other than the
 particular limit of no use at all, can be defined in a plausible
-way is made more dubious, notless so, by the increasingly versa-
-tile character of atomic weapons. It is now widely recognized
+way is made more dubious, notless so, by the increasingly versatile character of atomic weapons. It is now widely recognized
 that there is a rather continuous gradation in the possible sizes
 of atomic-weapon effects, a rather continuous variation in the
 forms in which they can be used, in the means of conveyance, in
-the targets thev can be used on, and so forth. There seems con-
-sequently to be no “natural” break between certain limited uses
+the targets thev can be used on, and so forth. There seems consequently to be no “natural” break between certain limited uses
 and others. If we ask, then, where we might draw a line if we
 wished to limit somehow the size of the weapons, the means of
 conveyance, the situations in which or the targets on which they
@@ -12184,13 +10323,10 @@ another. But that is precisely why it is hard to find a rationale
 for any particular line. There is no degree of use, or size of
 Weapon, or numberof miles, that is so much moreplausible than
 Other degrees, sizes, or distances that it provides a focal point
-for both sides’ expectations. Legalistic limits have to be quali-
-tative and discrete, rather than quantitative and continuous.
+for both sides’ expectations. Legalistic limits have to be qualitative and discrete, rather than quantitative and continuous.
 This is not just a matter of making violations easy to recognize,
 Or of making adherence easy to enforce on one’s own com-
 
-
-262
 APPENDIX A
 manders;
 it concerns the need of any stable limit to have an
@@ -12203,16 +10339,14 @@ limits are generally found by a process of tacit maneuver and
 negotiation. They are jockeyed for, rather than negotiated ex.
 plicitly. But if the two sides must strike a “bargain” without
 explicit communication, the particular limit has to have some
-quality that distinguishes it from the continuum of possiblealter-
-natives; otherwise there is little basis for the confidence of each
+quality that distinguishes it from the continuum of possiblealternatives; otherwise there is little basis for the confidence of each
 side that the other acknowledges the same limit. Even a parallel
 of latitude, or an international date line, or the north pole, may
 have this quality when no other natural, plausible, “obvious”
 point or line is available for expectations to converge on.
 A test of this point with respect to atomic weapons might be
 to pose the following problem.! Let any of us try to cooperate
-for a prize: we are to sit down right now, separately and with-
-out any prior arrangements, and write out a proposed limitation
+for a prize: we are to sit down right now, separately and without any prior arrangements, and write out a proposed limitation
 on the use of nuclear weapons, in as little or as great detail as
 we please, allowing ourselves limitations of any description that
 appeals to us — size of weapons, use of weapons, whogets to use
@@ -12234,47 +10368,33 @@ My argumentis that there are particular limits — simple, dis-
 
 
 NUCLEAR WEAPONS AND LIMITED WAR
-263
+
 crete, qualitative, “obvious” limits— that are conducive to a
-concerted choice; those who specify other kinds of limits, I pre-
-dict, can find few partners or none at all whose limits coincide
-with theirs. (Since our object is to agree, we are to take no con-
-golation in the other virtues of our proposed limits; in this ex-
-ercise the main consideration in chosing any particular limits is
-the likelihood that if we chose those limits in an effort to coin-
-cide exactly with the limits of the others, knowing that they were
+concerted choice; those who specify other kinds of limits, I predict, can find few partners or none at all whose limits coincide
+with theirs. (Since our object is to agree, we are to take no congolation in the other virtues of our proposed limits; in this exercise the main consideration in chosing any particular limits is
+the likelihood that if we chose those limits in an effort to coincide exactly with the limits of the others, knowing that they were
 trying to coordinate theirs with ours, we would succeed.)
 I do not allege that this exercise proves what kinds of limits
-are capable of possessing stability and authority. It does demon-
-strate that certain characteristics of limits, particularly their
+are capable of possessing stability and authority. It does demonstrate that certain characteristics of limits, particularly their
 simplicity, uniqueness, discreteness, susceptibility of qualitative
 definition, and so forth, can be given an objective meaning, one
 that is at least pertinent to the process of tacit negotiation. It
 suggests that certain kinds of limits are capable of being jointly
-expected by both sides, of focusing expectations and being recog-
-nized as qualitatively distinct from the continuum of possible
+expected by both sides, of focusing expectations and being recognized as qualitatively distinct from the continuum of possible
 alternatives.
 The first conclusion to be drawn from this line of argumentis
-that there is a distinction between nuclear and nonnuclear weap-
-ons, a distinction relevant to the process of limiting war. It is a
+that there is a distinction between nuclear and nonnuclear weapons, a distinction relevant to the process of limiting war. It is a
 distinction that to some extent we can strengthen or weaken,
 clarify or blur. We can strengthen the tradition, and enhance
-the symbolic significance of this distinction, by talking and act-
-ing in a way that is dramatically consistent with it; we can
+the symbolic significance of this distinction, by talking and acting in a way that is dramatically consistent with it; we can
 erode the distinction— but not readily destroy it— by acting
-as though we do not believe in it, by emphasizing the “just-
-another-weapon” argument and by making it evident that we
-in fact have little compunction about using nuclears. Which pol-
-icy we should follow depends on whether we consider the dis-
-tinction between nuclear and other weapons to be an asset that
+as though we do not believe in it, by emphasizing the “justanother-weapon” argument and by making it evident that we
+in fact have little compunction about using nuclears. Which policy we should follow depends on whether we consider the distinction between nuclear and other weapons to be an asset that
 We share with the USSR, a useful distinction, a tradition that
-helps to minimize violence —or instead a nuisance, a propa-
-Sanda liability, a diplomatic obstruction, and an inhibition to
+helps to minimize violence —or instead a nuisance, a propaSanda liability, a diplomatic obstruction, and an inhibition to
 Sur decisive action and delegation of authority. Those who believe
 that atomic weapons oughtto be used at the earliest convenience,
 
-
-264
 APPENDIX A
 or whenever military expedience demands, should nevertheles,
 recognize the distinction that exists so that we can take action to
@@ -12290,8 +10410,7 @@ to believe that our initial use of atomic weapons in a local war
 were a challenge to the whole idea of limitations, a declaration
 that we would not be bound by anykinds of limits. We should
 want them to interpret our use of nuclear weapons as consistent
-with the concept of limited war and consistent with our willing-
-ness to collaborate tacitly in the discovery and recognition of
+with the concept of limited war and consistent with our willingness to collaborate tacitly in the discovery and recognition of
 limits; we should want our use of atomic weapons not to be
 charged with excessive symbolic content. So, if I am right that a
 distinction does exist in the sense pertinent to the limiting of
@@ -12305,13 +10424,11 @@ countries,
 might help to erode the distinction; the same might be true of a
 program for training friendly troops in underdeveloped countries
 in how to survive nuclear weapons explosions, using some actual
-weapons for the purpose in their own country.) If on the con-
-trary we wish to enhance the tacit understanding we have with
+weapons for the purpose in their own country.) If on the contrary we wish to enhance the tacit understanding we have with
 our enemies that nuclears are a class apart and subject to certain
 reservations, agreement on nuclear test suspension (or even just
 extensive discussion of such an agreement)
-will probably con-
-tribute to the purpose.’
+will probably contribute to the purpose.’
 A second conclusion is that the principal inhibition on the us¢
 of atomic weapons in limited war may disappear with their first
 issinge?
@@ -12322,23 +10439,19 @@ issinge?
 
 
 NUCLEAR WEAPONS AND LIMITED WAR
-265
+
 use. It is difficult to imagine that the tacit agreement that nuclear
-weapons are different would be as powerfully present on the oc-
-casion of the mext limited war after they had already been used
+weapons are different would be as powerfully present on the occasion of the mext limited war after they had already been used
 jn one. We can probablynot, therefore, ignore the distinction and
-use nuclears in a particular war where their use might be of ad-
-vantage to us and subsequently rely on the distinction in the hope
-that we and the enemy might both abstain. One potential limita-
-tion of war will be substantially discredited for all time if we
+use nuclears in a particular war where their use might be of advantage to us and subsequently rely on the distinction in the hope
+that we and the enemy might both abstain. One potential limitation of war will be substantially discredited for all time if we
 shatter the tradition and create a contrary precedent. (There may
 also be somelimits or sanctuary concepts that we take for granted
 that should be reexamined to see whether they wereoriginally
 by-products of the assumed nuclear ban and might disappear
 with it. We may want to look again at the role of naval vessels,
 for example, partly to anticipate enemy treatment of them, partly
-to avoid misinterpreting enemy intentions if he treats them dif-
-ferently after nuclears are brought into play.)
+to avoid misinterpreting enemy intentions if he treats them differently after nuclears are brought into play.)
 A third conclusion is that on the occasion of their first use
 we should perhaps beat least as concerned with the patterns and
 precedents that we establish, and with the “nuclear role” that
@@ -12351,19 +10464,12 @@ ourselves, and the role the enemy assumesin the process. Weshall
 be not only using them ad hoc for the little war in question, but
 importantly shaping the limited nuclear wars to come. (When a
 boy pulls a switch-blade knife on his teacher, the teacher is likely
-to feel, whatever the point at issue originally was, that the over-
-tiding policy question now is his behavior in the face of a switch-
-blade challenge.)
-Fourth, we should recognize that — at least on the first occa-
-Sion when nuclear weapons are used in limited war — the enemy
-too will really be engagedin at least two different kinds of limited-
-War activity at the same time. One will be the limited struggle
-Over the original objectives; the second will be the tacit negotia-
-tion or gamesmanship over the role of nuclear weapons themselves.
+to feel, whatever the point at issue originally was, that the overtiding policy question now is his behavior in the face of a switchblade challenge.)
+Fourth, we should recognize that — at least on the first occaSion when nuclear weapons are used in limited war — the enemy
+too will really be engagedin at least two different kinds of limitedWar activity at the same time. One will be the limited struggle
+Over the original objectives; the second will be the tacit negotiation or gamesmanship over the role of nuclear weapons themselves.
 To illustrate, we might in connection with Quemoydecide to use
 
-
-266
 APPENDIX A
 nuclear weapons; ordinarily it would be supposed that we shoulq
 do this only if it were quite necessary to the defense of Quemoy
@@ -12378,8 +10484,7 @@ role, but in demanding a kind of “parity” if not dominancein their
 own nuclear role. And, unless we are ready for some kind ofdeci.
 sive showdownin which weeither win all or lose all, we must be
 as willing to “negotiate” (by our actions) for limited objectives
-in terms of nuclear dominance, traditions and precedents of nu-
-clear use, and the “rules” we jointly create for future wars, as for
+in terms of nuclear dominance, traditions and precedents of nuclear use, and the “rules” we jointly create for future wars, as for
 any other types of objectives in limited war.
 
 
@@ -12390,11 +10495,9 @@ The first part of this appendix argues that the pure “moveless”
 bargaining game analyzed by Nash, Harsanyi, Luce and Raiffa,
 and others, may not exist or, if it does, is of a different character
 from what has been generally supposed; the point of departure
-for this argumentis the operational meaning of agreement, a con-
-cept that is almost invariably left undefined. The second part of
+for this argumentis the operational meaning of agreement, a concept that is almost invariably left undefined. The second part of
 the paper argues that symmetry in the solution of bargaining
-games cannot be supported on the notion of “rational expecta-
-tions”; the point of departure for this argumentis the operational
+games cannot be supported on the notion of “rational expectations”; the point of departure for this argumentis the operational
 identification of irrational expectations.
 A nontacit (“cooperative”) nonzero-sum game — a bargaining
 game —is not defined by its payoff matrix; the operations by
@@ -12403,11 +10506,9 @@ operations are sketched in by reference to the notion of “binding
 agreements” and the notion of free communication in the process
 of reaching agreement. Thus to say that two players may divide
 $100 as soon as they can agree on how todivideit, and that they
-May discuss the matter fully with each other, is generally con-
-Sidered sufficient to define a game.
+May discuss the matter fully with each other, is generally conSidered sufficient to define a game.
 *John F. Nash, “The Bargaining Problem,” Econometrica, 18:155-162 (April
-1950), and “Two-Person Cooperative Games,” Econometrica, 21:128-140 (Jan-
-Wary 1953); John Harsanyi, “Approaches to the Bargaining Problem Before
+1950), and “Two-Person Cooperative Games,” Econometrica, 21:128-140 (JanWary 1953); John Harsanyi, “Approaches to the Bargaining Problem Before
 and After the Theory of Games: a Critical Discussion of Zeuthen’s, Hicks’,
 and Nash’s
 Theories,” Econometrica, 24:144-157
@@ -12417,12 +10518,9 @@ R. Duncan
 Luce and Howard Raiffa, Games and Decisions (New York, 1957), pp. 114ff.
 *Luce and Raiffa, in
 effect, define cooperative two-person games
-byrefer-
-ence to a payoff matrix and the following three stipulations. (1) All preplay
+byreference to a payoff matrix and the following three stipulations. (1) All preplay
 Messages formulated by one player are transmitted without distortion to the
 
-
-268
 APPENDIX B
 A gameof this sort is symmetrical in its move structure, even
 though it may be asymmetrical in the configuration of payoffs.
@@ -12437,8 +10535,7 @@ because they follow the sameprinciples of rational behaviour or
 because they are subject to the same psychological laws).” 3
 WhatI want to dois to look at this notion of “agreement” on
 the assumption of perfect symmetry in the move structure of the
-game, paying close attention to the “legal details” of the bargain-
-ing process. We mustalso look at the meaning of “nonagreement.”
+game, paying close attention to the “legal details” of the bargaining process. We mustalso look at the meaning of “nonagreement.”
 Since any well-defined game must have somerule for its own
 termination, let us look at the rules for termination first.4
 If we are to avoid adding a whole new dimension to our payoff
@@ -12469,7 +10566,7 @@ case.
 
 
 FOR THE ABANDONMENT OF SYMMETRY
-269
+
 an explicit postulate in the models under examination; so we
 must assume that the game is somehow gotten over with.
 Perhaps the simplest way to terminate the game is to have a
@@ -12477,8 +10574,7 @@ bell ring at a time specified in advance. There are other ways,
 such as having the referee roll dice every few minutes,calling off
 the game whenever he rolls boxcars. (We might have the game
 terminate after a specified number of offers have been refused,
-but this would change the character of the game by making cer-
-tain kinds of communication “real moves” that leave the game
+but this would change the character of the game by making certain kinds of communication “real moves” that leave the game
 different from what it was before, and perforce lead us into such
 tactics as the exhaustion of offers.)
 For simplicity, suppose that the game will be terminated at a
@@ -12488,13 +10584,10 @@ the midnight bell rings, the players divide the gains in the way
 they have agreed;
 if no agreement exists, the players receive
 nothing.
-Next, what do we mean by “agreement”? For simplicity, sup-
-pose that each player keeps (or may keep) his current “official”
+Next, what do we mean by “agreement”? For simplicity, suppose that each player keeps (or may keep) his current “official”
 offer recorded in some mannerthat will be visible to the referee
 when the bell rings. Perhaps he keeps it written on a blackboard
-that the other player can see; perhaps he keepsit in a sealed en-
-velope that is surrendered to the referee when the bell rings; per-
-haps he keeps it punched into a private keyboard that records
+that the other player can see; perhaps he keepsit in a sealed envelope that is surrendered to the referee when the bell rings; perhaps he keeps it punched into a private keyboard that records
 his current offer in the referee’s room. When the bell rings, the
 blackboard
 is photographed, the envelope surrendered, or the
@@ -12508,12 +10601,8 @@ the players get nothing. (Defer, for a moment, ruling on what
 happens if the two players together have claimed less than the
 total available, whether they get as much as they have claimed
 or get nothing for lack of proper agreement. And, in what follows,
-it will not matter whether an exhaustive agreement reached be-
-fore midnight — that is, compatibility of the current offers occur-
-ting before midnight — terminates the game.)
+it will not matter whether an exhaustive agreement reached before midnight — that is, compatibility of the current offers occurting before midnight — terminates the game.)
 
-
-270
 APPENDIX B
 There are other ways of defining “agreement” in terms of the
 operations by which it is reached or recorded; but if we adhere
@@ -12560,9 +10649,8 @@ again below.
 
 
 FOR THE ABANDONMENT OF SYMMETRY
-271
-perfectly move-symmetrical bargaining game. It is that it neces-
-sarily gives way, at some definite penultimate moment, to a tacit
+
+perfectly move-symmetrical bargaining game. It is that it necessarily gives way, at some definite penultimate moment, to a tacit
 (noncooperative) bargaining game. And each player knowsthis
 The most informative way to characterize the game, then, is
 not that the players must reach overt agreement by the time the
@@ -12573,8 +10661,7 @@ play the tacit variant of the same game.
 Each player must be assumed to know this and may, if he
 wishes, by simply avoiding overt agreement, elect to play the
 tacit game instead. So, if we assume (for the moment) that the
-tacit game has a clearly recognized solution, and that the solu-
-tion is efficient, each player has a pure minimax behaviorstrategy
+tacit game has a clearly recognized solution, and that the solution is efficient, each player has a pure minimax behaviorstrategy
 during the earlier stage. Either can enforce this tacit solution by
 abstaining from agreement until the warning-bell rings; neither
 can achieve anything better from a rational opponent by verbal
@@ -12594,7 +10681,7 @@ not exist.7
 But this conclusion is unwarranted. First, a tacit game may not
 7In
 his
-1953
+
 article, “Two-person
 Cooperative Games,” Nash
 presents a
@@ -12605,8 +10692,7 @@ in
 its
 final
 stage. The model’s relation to the
-cooperative game was heuristic: it was to help to discover what might consti-
-tute “rational expectations” (and hence the indicated rational outcome) in the
+cooperative game was heuristic: it was to help to discover what might constitute “rational expectations” (and hence the indicated rational outcome) in the
 corresponding cooperative game. The argument of the present paper is that the
 relation is likely to be mechanical rather than intellectual if a symmetrical move
 Structure
@@ -12617,8 +10703,6 @@ to
 define the corresponding nontacit game that was the
 ultimate subject of study.
 
-
-272
 APPENDIX B
 have a confidently predicted efficient solution.? More than that
 certain details of the cooperative game that might have seeme
@@ -12652,15 +10736,13 @@ a
 clearly recognized
 zero
 point —
-that is, on an unambiguous outcome thatreigns in the absence of overt agrce-
-ment — cannot necessarily be applied to a cooperative game that is based on a
+that is, on an unambiguous outcome thatreigns in the absence of overt agrcement — cannot necessarily be applied to a cooperative game that is based on a
 matrix of choices. A matrix (unless perhaps all payoffs are zero except in the
 diagonal)
 does not have a zero point defined by
 the
 rules. There
-is conse-
-quently no “normal form” consisting of a convex region and associated zero
+is consequently no “normal form” consisting of a convex region and associated zero
 point unless there is available a fully adequate theory that “solves” the tacit
 game (and does so in a manner that the players can take for granted)
 One
@@ -12671,8 +10753,7 @@ take
 the
 playcrs’
 “security levels” (maximin values)
-as the zero point; but this is either arbi-
-trary or based on the hypothesis that,
+as the zero point; but this is either arbitrary or based on the hypothesis that,
 left to themselves, the players could
 succeed in doing no better than this in the tacit game. The latter hypothess
 especially where there are pure-strategy
@@ -12700,14 +10781,12 @@ is demanding 65 percent of the moncy at the
 
 
 FOR THE ABANDONMENT OF SYMMETRY
-273
+
 Now, in the explicit-bargaining (cooperative) case, if we had
 already concluded there was anefficient solution to this game —
-that is, that the players would in fact reach an exhaustive agree-
-ment — we should probably have considered this reformulation
+that is, that the players would in fact reach an exhaustive agreement — we should probably have considered this reformulation
 of the problem inconsequential. The reformulation says, in effect,
-only that bargaining should take the form of each player’s writ-
-jing downthetotality of his claim and that concessions shall take
+only that bargaining should take the form of each player’s writjing downthetotality of his claim and that concessions shall take
 the form of each player’s deleting items from his list of claims,
 with full agreement being reached when no more itemsare in
 conflict on the lists of claims. But, when we look at the tacit
@@ -12717,25 +10796,21 @@ rational reason for either player to demand less than the whole
 of the available reward; each knows this and knows that the
 other knowsit. There is no incentive to reduce one’s claim because
 any residual dispute costs the player no more than he would lose
-if he reduced his claim to eliminate the dispute. The single equi-
-librium point yields zero for both players. Thus the variant game,
+if he reduced his claim to eliminate the dispute. The single equilibrium point yields zero for both players. Thus the variant game,
 which seemed to differ inconsequentially, is drastically different
 from the original game; but it does not appear so until we have
 identified the terminal tacit game as a dominating influence.?°
-To take another example, suppose there are 100 individual ob-
-jects to be divided and that, although they are fungible as far
+To take another example, suppose there are 100 individual objects to be divided and that, although they are fungible as far
 as value is concerned, the agreement must specify precisely which
-individual items go to which individual players. If the rules re-
-quire that full and exhaustive agrcement be reached, then in the
+individual items go to which individual players. If the rules require that full and exhaustive agrcement be reached, then in the
 tacit game the players are dependent on their ability not only to
 divide the total value of the objects in coordinated fashion but to
- 
+
 end of the game, and the other 55 percent, the second has been accorded 35
 Percent and thefirst 45 percent; these amounts are outside the range of dispute
 and constitute the “agreement.”
 *It might seem that we can draw a by-product from the analysis here,
-Namely, the observation that in order to set up a “truly” cooperative (non-
-tacit) game, the legal definition of agreement must be such as to make the
+Namely, the observation that in order to set up a “truly” cooperative (nontacit) game, the legal definition of agreement must be such as to make the
 ultimate tacit game perverse, so that the players must reach binding agreement
 before the warning bell or suffer complete loss. But there
 is
@@ -12751,8 +10826,6 @@ is to make the perverse cooperative game into a benign one, one
 Minute shorter, which is equivalent to a tacit game two minutes shorter than
 the original.
 
-
-274
 APPENDIX B
 sort out the roo individual objects into two piles in identica)
 fashion. If, then, one of the players has demanded specific items
@@ -12767,22 +10840,16 @@ bias, Thus preplay communication has tactical significance in that
 it can affect the means of coordination once the tacit stage of the
 game has been reached.
 If now, in considering the tactical implications of this last
-point, we insist on a rule of symmetrical behavior, we must con-
-clude that if either player opened his mouth to drown out what
+point, we insist on a rule of symmetrical behavior, we must conclude that if either player opened his mouth to drown out what
 the other was about to say, he would alwaysfind the other player
 also with his mouth open, both knowing that if either spoke the
 other would be found to be speaking, neither able to hear the
-other, and so on. In other words, the assumption of complete sym-
-metry of behavior as a recognized foregone conclusion seems to
-preclude the very kind of action that might have seemed to en-
-rich the gameat the stage of preplay communication.
-But by now we havecertainly pressed the perfect move-sym-
-metrical game as far as is worthwhile.!1 We could go on to ana-
-“One detail may be worth pursuing, in line with an earlier footnote. Sup-
-pose that it takes one minute to make or change an offer and (in contrast to
+other, and so on. In other words, the assumption of complete symmetry of behavior as a recognized foregone conclusion seems to
+preclude the very kind of action that might have seemed to enrich the gameat the stage of preplay communication.
+But by now we havecertainly pressed the perfect move-symmetrical game as far as is worthwhile.!1 We could go on to ana-
+“One detail may be worth pursuing, in line with an earlier footnote. Suppose that it takes one minute to make or change an offer and (in contrast to
 the earlier version) that the process of recording a new offer, once started,
-cannot be stopped before it is completed. Under this procedure, any offer in-
-itiated during the next to last minute of the game is one’s final offer. If this
+cannot be stopped before it is completed. Under this procedure, any offer initiated during the next to last minute of the game is one’s final offer. If this
 final offer cannot be communicated to the other player before the expiration
 of the minute, the gameis essentially the same as before; “simultaneous” now
 means within a minute of each other for practical purposes, and again neither
@@ -12799,18 +10866,14 @@ it, he must accept whatever the other has offered. Thus “second move”los¢s
 
 
 FOR THE ABANDONMENT OF SYMMETRY
-275
-jyze this game in moredetail, considering such things as alterna-
-tive ways of terminating the gameorof defining “agreement,” and
+
+jyze this game in moredetail, considering such things as alternative ways of terminating the gameorof defining “agreement,” and
 so forth. It seems more worthwhile, however, to raise at this point
-the question of whether the perfectly “moveless” or “move-sym-
-metrical” gameis a profitable one to study. Is the nondiscrimina-
-tory, Move-symmetrical game a “general” game, one that gets
+the question of whether the perfectly “moveless” or “move-symmetrical” gameis a profitable one to study. Is the nondiscriminatory, Move-symmetrical game a “general” game, one that gets
 away from “special cases”? Or is it a special, limiting case in
 which the most interesting aspects of the cooperative game have
 yanished ?
-It should be emphasized that the fruitful alternative to sym-
-metry is not the assumption of asymmetry, but just nonsymmetry,
+It should be emphasized that the fruitful alternative to symmetry is not the assumption of asymmetry, but just nonsymmetry,
 admitting both symmetry and asymmetryaspossibilities without
 being committed to either as a foregone conclusion.
 An illustration may help. Suppose we were to analyze the game
@@ -12822,10 +10885,9 @@ We can predict rational behavior (running) and the outcome
 will occur at the end of a race and will not be taken for granted
 at the outset. We need an auxiliary rule to cover ties, but it
 need not dominate either the gameor the analysis.
-Consider the same gameplayed in a population in which every-
-body can run exactly as fast as anybody else, and everybody
+Consider the same gameplayed in a population in which everybody can run exactly as fast as anybody else, and everybody
 knows it. Now what happens? Every race endsin a tie, so the
- 
+
 if the first mover knows that the other is waiting. We now have a gamethat
 can be characterized as follows:
 the players dally around
@@ -12843,16 +10905,13 @@ Make simultaneous offers, and demand whateveris indicated by the tacit game;
 Of potential waits, we have strategies of wait-once-then-demand-g9-per-cent,
 Wait-once-demand-tacit-solution;
 wait-twice-demand-g9-per-cent,
-wait-twice-
-and-tacit-solution; and so on. This game (the “tacit supergame” consisting
+wait-twiceand-tacit-solution; and so on. This game (the “tacit supergame” consisting
 of all Strategies for playing the one-minute game) is then the game; andit has,
 We wish to accept it, its own “solution in the strict sense” which consists of
 all Strategies (all lengths of waits) that end in demands that correspond to the
 Yolution of the tacit game. (For the definition of a solution in the strict sense in
 & tacit two-person game, see Appendix C.)
 
-
-276
 APPENDIX B
 auxiliary rule is all that matters. But since a tie is a foregone
 conclusion, why would they bother to run?
@@ -12871,8 +10930,7 @@ actual game
 situation. “Moves” would include commitments,
 threats, promises; tampering with the communication system;
 invocation of penalties on promises, commitments, and threats:
-conveyance of true information, self-identification; and the in-
-jection of contextual detail
+conveyance of true information, self-identification; and the injection of contextual detail
 that may constrain expectations.
 particularly when communication is incomplete. Such “moves”
 were discussed in detail in Chapters 2-5.
@@ -12888,8 +10946,7 @@ a foot race, and the oneclosest to the turnstile wins. By analyzing
 the tactic, and its institutional or physical arrangements, we may
 determine who can makefirst use ofit.
 Wehavenot, it should be noted, converted the gameofstrategy
-into a game of skill by letting them race for the turnstile. It re-
-mains true that one wins when hegets to the turnstile first only
+into a game of skill by letting them race for the turnstile. It remains true that one wins when hegets to the turnstile first only
 through the other’s cooperation, only by constraining the other
 player’s choice of strategy. He does not win legally or physically
 by going through the turnstile; he wins strategically. He makes
@@ -12897,17 +10954,15 @@ the other player choose in his favor. It is a tactic in a game of
 
 
 FOR THE ABANDONMENT OF SYMMETRY
-277
-strategy, even though the use of it may depend on skill or loca-
-tional advantage.
+
+strategy, even though the use of it may depend on skill or locational advantage.
 We can even put a certain kind of symmetry into the game
 now, without destroying it; we can flip a coin to see whois
 nearest the turnstile when the game begins, or let the players be
 similarly located and similar of speed but with random elements
 to determine who gets to the turnstile first. Though the game is
 now nondiscriminatory, the outcome would still be asymmetrical
-because each player has an incentive to run to the turnstile, leav-
-ing behind a standing offer in his own favor.’
+because each player has an incentive to run to the turnstile, leaving behind a standing offer in his own favor.’
 Wecan include somerisk of “tie,” especially if there are two
 turnstiles and the players might go through them simultaneously.
 This constitutes “symmetry” as an interesting possibility, but not
@@ -12916,9 +10971,7 @@ beconie interesting possibilities if the actions and information
 structure are in fact conduciveto ties. But, with nonsymmetry as
 our philosophy, we do not need to be obsessed with the possibility
 of ties.
-Again, if one player can make anoffer and destroy communica-
-tion, he may thereby win the ensuing tacit game by having pro-
-vided the only extant offer that both players can converge on
+Again, if one player can make anoffer and destroy communication, he may thereby win the ensuing tacit game by having provided the only extant offer that both players can converge on
 when they badly need to concert their choices later during the
 final tacit stage. To be sure, we can consider what happens when
 identical capacities for destruction of communication are present,
@@ -12929,18 +10982,14 @@ In summary, the perfectly “moveless” or “move-symmetrical”
 cooperative gameis not a fruitful general case, but a limiting case
 that may degenerate into an ordinary tacit game. The cooperative
 game is rich and meaningful when “moves” are admitted; and
-muchofthe significance of the moves will vanish if complete sym-
-metry in their availability to the players is stamped into the
+muchofthe significance of the moves will vanish if complete symmetry in their availability to the players is stamped into the
 definition of the game.It is the moves that are interesting, not the
 *Tt could be argued at this point that the expected value of the gameisstill
-symmetrically divided between the players, and that the analyst may conse-
-quently still view the game as symmetrical in terms of average outcomes. But
+symmetrically divided between the players, and that the analyst may consequently still view the game as symmetrical in terms of average outcomes. But
 if he does so he commits himself to a minimum
 ofinsight into the game and
 the way the gamewill be played.
 
-
-278
 APPENDIX B
 game without moves; anc it
 is the potential asymmetry of the
@@ -12953,28 +11002,19 @@ cooperative game explicitly postulates symmetry, as does Har.
 sanyi’s. The symmetry postulate is certainly expedient; it often
 permits one to find a “solution” to a game and to stay — if he
 wishes to— within the realm of mathematics. There are few
-similarly potent concepts that compete with it as bases for soly-
-ing a game. Butthe justification for the symmetry postulate has
+similarly potent concepts that compete with it as bases for solying a game. Butthe justification for the symmetry postulate has
 not been just that it leads to nice results; it has been justified on
-grounds that the contradiction of symmetry would tend to con-
-tradict the rationality of the two players. This is the underpin-
-ning that I want to attack.
-What I am going to argue is that, though symmetry is con-
-sistent with the rationality of the players, it cannot be demon-
-strated that asymmetry
+grounds that the contradiction of symmetry would tend to contradict the rationality of the two players. This is the underpinning that I want to attack.
+What I am going to argue is that, though symmetry is consistent with the rationality of the players, it cannot be demonstrated that asymmetry
 is inconsistent with
 their rationality,
 while the inclusion of symmetry in the definition of rationality
-begs the question. I then want to offer what I think is am argu-
-ment in favor of symmetrical solutions, an argument that tends
+begs the question. I then want to offer what I think is am argument in favor of symmetrical solutions, an argument that tends
 to make symmetry but one of many potential influences on the
 outcome with no prima facie claim to pre-eminence.
-Explicit statements of the relation between symmetry and ra-
-tionality have been given by John Harsanyi. Hesays, “The bar-
-gaining problem has an obvious determinate solution in at least
+Explicit statements of the relation between symmetry and rationality have been given by John Harsanyi. Hesays, “The bargaining problem has an obvious determinate solution in at least
 one special case: viz., in situations that are completely symmetric
-with respect to the two bargaining parties. In this case it is nat-
-ural to assume that the two parties will tend to share the net
+with respect to the two bargaining parties. In this case it is natural to assume that the two parties will tend to share the net
 gain equally since neither would be prepared to grant the other
 better terms than the latter would grant him.” * In a later paper
 he refers to the symmetry axiom as the “fundamental postulate
@@ -12996,7 +11036,7 @@ to each of them.”
 
 
 FOR THE ABANDONMENT OF SYMMETRY
-279
+
 and says, “Intuitively the assumption underlying this axiom is
 that a rational bargainer will not expect a rational opponent to
 grant him larger concessions than he would make himself under
@@ -13026,11 +11066,9 @@ accept a common authority — the powerof the gameto dictateits
 own solution through their intellectual capacity to perceive it —
 “The full quotation deserves to be given: “What the Zeuthen-Nash theory
 of bargaining essentially proposes to do is to specify what are the expectations
-that two rational bargainers can consistently entertain as to each other’s bar-
-Raining strategies if they know each other’s utility functions. The fundamental
+that two rational bargainers can consistently entertain as to each other’s barRaining strategies if they know each other’s utility functions. The fundamental
 Postulate of the theory is a symmetry axiom, which states that the functions
-defining the two parties’ optimal strategies in terms of the data (or, equiva-
-lently, the
+defining the two parties’ optimal strategies in terms of the data (or, equivalently, the
 functions defining the two parties’
 final payoffs)
 have the same
@@ -13057,8 +11095,6 @@ Function,”
 Cowles Foundation Discussion Paper No. 46, December 11, 1957, quoted by
 Permission of the author.)
 
-
-280
 APPENDIX B
 and what they expect is that they both perceive the same soly.
 tion,
@@ -13080,8 +11116,7 @@ pectations — or must rest on other grounds. If it rests on other
 grounds, what are they and how firm is the support?
 To pursue the first question, whether symmetry can be de-
 * Viewed in this way, the intellectual process of arriving
-at “rational ex-
-pectations”
+at “rational expectations”
 in
 the
 full-communication
@@ -13111,8 +11146,7 @@ this point. With
 full information about each
 other’s value systems and a homogeneousset of gains to be divided, there may
 be an infinity of equivalent solutions, all yielding the same values to the two
-players, but no difficulty in agreeing on an arbitrary choice amongthis indiffer-
-ent set. But tacit bargaining often requires a further degree of coordination,
+players, but no difficulty in agreeing on an arbitrary choice amongthis indifferent set. But tacit bargaining often requires a further degree of coordination,
 namely, a
 coordinated
 choice even among equivalent divisions
@@ -13127,15 +11161,14 @@ of troops
 to
 take up positions representing
 claims (as in Question 6 on page 62); such claims may overlap and caus¢
-trouble even though the terrain values claimed are consistent. Thus the coordi-
-nation problem is different; and there is no a priori assurance that the solution
+trouble even though the terrain values claimed are consistent. Thus the coordination problem is different; and there is no a priori assurance that the solution
 to the tacit game (or to games with somewhat incomplete communication, 1”
 formation, and so forth) would be in the set of equivalent solutions to the
 fully explicit game.
 
 
 FOR THE ABANDONMENT OF SYMMETRY
-281
+
 duced from therationality of the players’ expectations, we can
 consider the rationality of the two players jointly and inquire
 whether a jointly expected nonsymmetrical outcome contradicts
@@ -13144,14 +11177,12 @@ share, and do share, the expectation of a particular outcome, and
 that outcomeis not symmetrical in a mathematical sense, can we
 demonstrate that their expectations are irrational, and that the
 rationality postulate is contradicted? Specifically, suppose that
-two players may have $100 to divide as soon as they agree ex-
-plicitly on how to divide it; and they quite readily agree that A
+two players may have $100 to divide as soon as they agree explicitly on how to divide it; and they quite readily agree that A
 shall have $80 and B shall have $20; and we know that dollar
 amounts in this particular case are proportionate to utilities, and
 the players do too. Can we demonstrate that the players have
 been irrational ?
-We must be careful not to make symmetry part of the defini-
-tion of rationality ; to do so would destroy the empirical relevance
+We must be careful not to make symmetry part of the definition of rationality ; to do so would destroy the empirical relevance
 of the theory and simply make symmetry an independent axiom.
 We must have a plausible definition of rationality that does not
 mention symmetry and show that asymmetry in the bargaining
@@ -13163,8 +11194,7 @@ self-interest, on the part of one or both of them, in their failure
 to pick a symmetrical point.
 Specifically, where is the “error” in B’s concession of $80 to
 A? He expected — he may tell us, and suppose that we have
-meansto check his veracity (a modest supposition if full informa-
-tion of utilities is already assumed!) — that A would “demand”
+meansto check his veracity (a modest supposition if full information of utilities is already assumed!) — that A would “demand”
 $80; he expected A to expect to get $80; he knew that A knew
 that he, B, expected to yield $80 and be content with $20; he
 knew that A knew that he knew this; and so on. A expected to
@@ -13175,8 +11205,6 @@ knew, that the outcome would ineluctably be $80 for A and $20
 for B. Both were correct in every expectation. The expectations
 of each were internally consistent and consistent with the other’s.
 
-
-282
 APPENDIX B
 We may be mystified about ow they reached such expectations.
 but the feat claims admiration as much as contempt. The “ra.
@@ -13188,21 +11216,17 @@ confidently perceived. If, at this point, we feel that we ourselves
 wouldn’t have perceived the same outcome, we can concludethat
 one of four hypothesesis false: (1) the rational-solution postulate,
 (2) the rationality of A and B, (3) our ownrationality, (4) the
-identity (in all essential respects) of the game that we intro-
-spectively play with the game that A and B havejust played. But
+identity (in all essential respects) of the game that we introspectively play with the game that A and B havejust played. But
 we cannot, on the evidence, declare the second to bethe false one
 — the rationality of A and B.
 Note that if B had insisted on $50, or if A had been content to
-demand $50, claiming to be rational and arguing in terms of con-
-fidence in a shared expectation of that outcome, both players
+demand $50, claiming to be rational and arguing in terms of confidence in a shared expectation of that outcome, both players
 would have been in “error” and wecould nottell, on the evidence,
 which one was irrational or whether they both were. Unless we
-made symmetry the definition of rationality we could only con-
-clude that at least one of the players wasirrational or that the
+made symmetry the definition of rationality we could only conclude that at least one of the players wasirrational or that the
 rational-solution postulate did not hold. What we have is at best
 a Single mecessary condition for the irrationality of both players
-jointly; we have nosufficient condition, and no necessary condi-
-tion that can be applied to a single player.
+jointly; we have nosufficient condition, and no necessary condition that can be applied to a single player.
 Nor can we trip them up if we ask them how they arrived at
 their expectations. Any grounds that are consistent would do,
 since any grounds that each expects the other confidently to
@@ -13213,22 +11237,17 @@ blackboard said A-$80, B-$20, or that they saw in a bulletin that
 two other players, named A’ and B’, split $80-$20, and that they
 confidently perceived that this was clear indication to both of
 them of what to expect — that this was the only “expectable”
-outcome — we cannot catch them in error and prove them irra-
-tional. They may beirrational; but the evidence will not showit.
+outcome — we cannot catch them in error and prove them irrational. They may beirrational; but the evidence will not showit.
 There is, however, a basis for denying my present argument.
-Since I have not actually applied an independent test of ration-
-ality to two players, given them the gameto play, and observed
+Since I have not actually applied an independent test of rationality to two players, given them the gameto play, and observed
 the 80:20 split that I just mentioned, but have only posed it as 4
 
 
 FOR THE ABANDONMENT OF SYMMETRY
-283
-possibility to see whether it would imply irrationality if it oc-
-curred, one might object that it could not occur. And the argu-
-ment would rest on the problem of coordination; it would run as
+
+possibility to see whether it would imply irrationality if it occurred, one might object that it could not occur. And the argument would rest on the problem of coordination; it would run as
 follows.
-If two players jointly expect @ priori the same outcome, and con-
-fidently recognize it as their common expectation, they must have
+If two players jointly expect @ priori the same outcome, and confidently recognize it as their common expectation, they must have
 the intellectual power to pick a particular point in common.If
 the whole $100 can be divided to the nearest penny, there are
 9,999 relevant divisions to consider, one of which would have to
@@ -13238,20 +11257,16 @@ their selections of one item out of 9,999, in the sense that their
 expectations focus or converge on it, except with odds of 9,999
 to 1 against them? The answer must be that they utilize some
 trick, or clue, or coordinating device that presents itself to them.
-They must, consciously or unconsciously, use a selection proce-
-dure that leads to unique results. There must be something about
+They must, consciously or unconsciously, use a selection procedure that leads to unique results. There must be something about
 the point they pick that distinguishes it — if not in their conscious
-reasoning, at least in our conscious analysis — from the contin-
-uum ofall possible alternatives.
+reasoning, at least in our conscious analysis — from the continuum ofall possible alternatives.
 Now,is it possible for two rational players, through anything
 other than sheer coincidence or magic, to focus their attention
-on the same particular outcome and each “rationally” be con-
-fident that the other is focussed on the same outcome with the
+on the same particular outcome and each “rationally” be confident that the other is focussed on the same outcome with the
 Same appreciation that it is mutually expected? And, if so, how
 can they?
 The answer is that they can, as demonstrated in Chapter 3.
-They may use any meansthat is available: any clue, any sug-
-gestion, any rule of elimination that leads to an unambiguous
+They may use any meansthat is available: any clue, any suggestion, any rule of elimination that leads to an unambiguous
 choice or a high probability of concerted choice. And oneof these
 rules, or clues, or suggestions, is mathematical symmetry.'®
 ; * The basic intellectual premise, or working hypothesis, for rational players
@@ -13272,8 +11287,7 @@ tacit game
 as
 the
 limit of a “smoothed” game as the smoothing approaches zero. While this view
-of the unsmoothed gameis in no sense logically necessary, it is a powerfully sug-
-Bestive one that can, in the absence of any better rationale for converging on a
+of the unsmoothed gameis in no sense logically necessary, it is a powerfully sugBestive one that can, in the absence of any better rationale for converging on a
 Single point, command the attention of players in need of a common choice.
 
 
@@ -13286,42 +11300,33 @@ appreciate too, there may be nothing to work on but a continuum
 of numbers, And all the numbers can be sorted according to
 whether they correspond to symmetrical or asymmetrical divisions.
 If all numbersbut one represent an asymmetrical split, then sheer
-mathematical symmetry is a sufficient rule and a supremely help-
-ful one in concerting on a commonchoice. And it maybe possible
+mathematical symmetry is a sufficient rule and a supremely helpful one in concerting on a commonchoice. And it maybe possible
 to set up a gamein such sanitary fashion, suppressing the identity
 of players and all contextual details, that there is literally no
 other visible basis for concerting unless impurities creep in.?7
-In other words, mathematical symmetry mayfocus the expecta-
-tions of two rational players because it does — granted the other
+In other words, mathematical symmetry mayfocus the expectations of two rational players because it does — granted the other
 assumedfeatures of the game,like full information on each other’s
 utility systems — provide one means of concerting expectations.
 Whetherit is a potent means may depend on whatalternatives are
 available.
 That there are other means of concerting, including somethat
 maysubstantially outweigh the notion of symmetry, seems amply
-demonstrated by the experiments in Chapter 3. So it is demon-
-strably possible to set up games in which mathematical sym-
-The limiting process provides a clue for picking one of the infinitely many equi-
-librium points that actually exist in the unsmoothed game. Of course, the premise
+demonstrated by the experiments in Chapter 3. So it is demonstrably possible to set up games in which mathematical symThe limiting process provides a clue for picking one of the infinitely many equilibrium points that actually exist in the unsmoothed game. Of course, the premise
 equally supports any other procedure that produces a candidate
 for
 election
 amongthe infinitely many potential choices.
 Tn this view, the theory of Nash (leading to the maximum-utility-product
 solution) is a response to the fact that even in the realm of mathematics there
-are offhand too many types of uniqueness or symmetry to provide an unam-
-biguous rule for selection, hence a need to adduce plausible criteria
+are offhand too many types of uniqueness or symmetry to provide an unambiguous rule for selection, hence a need to adduce plausible criteria
 (axioms)
-sufficient to yield an unambiguous selection. Braithwaite’s theory can be char-
-acterized the same way. The fact that the two solutions conflict implies tha:
+sufficient to yield an unambiguous selection. Braithwaite’s theory can be characterized the same way. The fact that the two solutions conflict implies tha:
 mathematicians may not have a sufficiently common mathematical aesthetic to
-Satisfy the first part of the Harsanyi postulate, that is, to coordinate their ex-
-pectations on the same outcome. (R. B. Braithwaite, Theory of Games as a
+Satisfy the first part of the Harsanyi postulate, that is, to coordinate their expectations on the same outcome. (R. B. Braithwaite, Theory of Games as a
 Tool for the Moral Philosopher (Cambridge, England,
 1955];
 Braithwaite’s
-solution is described in Luce and Raiffa, Games and Decisions, 145ff.) Braith-
-waite’s construction of the problem as a one-person arbitration problem, and
+solution is described in Luce and Raiffa, Games and Decisions, 145ff.) Braithwaite’s construction of the problem as a one-person arbitration problem, and
 Luce and Raiffa’s reformulation of Nash’s theory in terms of arbitration rather
 than strategy (pages 121-154), seem to emphasize that intellectual coordination
 is at the heart of the theory. A legalistic solution requires some rationalization
@@ -13329,49 +11334,34 @@ of a unique outcome; pure casuistry is helpful if the alternative is vacuum.
 
 
 FOR THE ABANDONMENT OF SYMMETRY
-285
+
 metry does provide the focus for coordinated expectations, and
 demonstrably possible to set up games in which someotheraspect
-of the game focusses expectations. (These other aspects are com-
-monly not contained in the mathematical structure of the game
+of the game focusses expectations. (These other aspects are commonly not contained in the mathematical structure of the game
 but are part of the “topical content”; that is, they usually depend
 on the “labeling” of players and strategies, to use the term of
 Luce and Raiffa mentioned in Chapter 4.)
-I have nobasis for arguing with what force, or in what percent-
-age of interesting games, mathematical symmetry does dominate
-“rational expectations.” But I think that the status of the sym-
-metry postulate is qualitatively changed by the admission that
+I have nobasis for arguing with what force, or in what percentage of interesting games, mathematical symmetry does dominate
+“rational expectations.” But I think that the status of the symmetry postulate is qualitatively changed by the admission that
 symmetry has competitors in the role of focussing expectations.
 For, if it were believed that rational players’ expectations could
 be brought into consistency only by some mathematical property
-of the payoff function, then symmetry might seem to have un-
-disputed claim, particularly if it is possible to find a unique
+of the payoff function, then symmetry might seem to have undisputed claim, particularly if it is possible to find a unique
 definition of symmetry that meets certain attractive axioms. But
 if one has to admit that other things —things not necessarily
 part of the mathematical structure of the payoff function — can
-do what symmetry does, then there is no @ priori reason to sup-
-pose that what symmetry does is 99 percent or 1 percent of the
-job. The appeal of symmetry is no longer mathematical, it is in-
-trospective; and further argumentis limited to the personal ap-
-peal of particular focussing devices to the game theorist as game
+do what symmetry does, then there is no @ priori reason to suppose that what symmetry does is 99 percent or 1 percent of the
+job. The appeal of symmetry is no longer mathematical, it is introspective; and further argumentis limited to the personal appeal of particular focussing devices to the game theorist as game
 player, or else to empirical observation.
-Thus a normative theory of games, a theory of strategy, depend-
-ing on intellectual coordination, has a component that is
-in-
-herently empirical ; it depends on how people can coordinate their
+Thus a normative theory of games, a theory of strategy, depending on intellectual coordination, has a component that is
+inherently empirical ; it depends on how people can coordinate their
 expectations. It depends therefore on skill and on context. The
 rational player must address himself to the empirical question of
 how, in the particular context of his own game, two rational
 players might achieve tacit coordination of choices, if he is to find
-in the game a basis for sharing an @ priori expectation of the out-
-come with his partner. The identification of symmetry with ra-
-tionality rests on the assumption that there are certain intellec-
-tual processes that rational players are incapable of, namely, con-
-certing choices on the basis of anything other than mathematical
+in the game a basis for sharing an @ priori expectation of the outcome with his partner. The identification of symmetry with rationality rests on the assumption that there are certain intellectual processes that rational players are incapable of, namely, concerting choices on the basis of anything other than mathematical
 symmetry, and that rational players should know this. It is an
 
-
-286
 APPENDIX B
 empirical question whether rational players can actually do what
 such a theory denies they can do and should consequently ignore
@@ -13381,31 +11371,24 @@ may illustrate the point. Imagine a game’s potential payoffs as
 consisting of all the points on or within some boundary in the
 upper-right quadrantrelative to a pair of rectangular coordinates,
 “Tt is interesting that in demanding a symmetrical solution to an ostensibly
-symmetrical tacit game, Luce and Raiffa dismiss the two most promising can-
-didates. They consider (Games and Decisions, 90-94) a matrix,
+symmetrical tacit game, Luce and Raiffa dismiss the two most promising candidates. They consider (Games and Decisions, 90-94) a matrix,
 I
 It
- 
- 
+
+
 ii
- 
- 
- 
- 
+
+
 and note that it has pure-strategy equilibrium points in the upper-left and
-lower-right corners. These are ruled out on grounds that “whatever rationaliza-
-tion I give for either i or ii there is, by the symmetry of the situation, a simi-
-lar rationalization for player 2, and so it seems inevitable that we both Jose.”
+lower-right corners. These are ruled out on grounds that “whatever rationalization I give for either i or ii there is, by the symmetry of the situation, a similar rationalization for player 2, and so it seems inevitable that we both Jose.”
 (I have substituted i and ii for their designations.) They then look at a pair
 of maximin strategies, which are unsatisfactory because they do not produce
 an equilibrium point, and a minimax strategy which they find even inferior.
 But the important question
 is whether players who are both
 rational and
-imaginative are quite as impotent as Luce and Raiffa insist. Can players corre-
-late strategies without communicating? This an empirical question;
-the ex-
-periments of Chapter 3 give an affirmative answer, or at least indicate that in
+imaginative are quite as impotent as Luce and Raiffa insist. Can players correlate strategies without communicating? This an empirical question;
+the experiments of Chapter 3 give an affirmative answer, or at least indicate that in
 particular cases the answer may be yes. Offhand it may seem hard for them to
 concert on a nonsymmetrical pair of strategies. But much the hardest part is
 just recognizing that they have to; the question of how to do it then becomes
@@ -13417,22 +11400,19 @@ arbitrarily condemns one
 of
 the players to a
 smaller gain than the other for reasons that may seem purely accidental or
-incidental. But we have to suppose that a rational player can discipline him-
-self to accept the lesser share if the clue points that way. Only a discriminatory
+incidental. But we have to suppose that a rational player can discipline himself to accept the lesser share if the clue points that way. Only a discriminatory
 clue can point to a concerted choice; to deny the discrimination is to deny the
 premise that a clue can be jointly found and jointly acted on in the interest
 of an outcome that is jointly far superior to any symmetrical outcome. Luce
 and Raiffa conclude their discussion of this particular game with the remark
 that “although this seemingly innocuous game possesses some symmetries it is
-difficult to see how to exploit them.” But the real key to this seemingly innocu-
-ous gameis that it may, particularly when presented in a context, possess some
+difficult to see how to exploit them.” But the real key to this seemingly innocuous gameis that it may, particularly when presented in a context, possess some
 asymmetries; and the object is to exploit them. See also pp. 298 ff.
 
 
 FOR THE ABANDONMENT OF SYMMETRY
-287
-Let us— whether or not we are strongly attracted to the sym-
-metry postulate, and whether or not weare especially attracted
+
+Let us— whether or not we are strongly attracted to the symmetry postulate, and whether or not weare especially attracted
 to the particular symmetry of the Nash solution — put ourselves
 in a frame of mind congenial to accepting the “Nash point”as the
 rational outcomeof an explicit bargaining game.!® Consider now
@@ -13440,17 +11420,14 @@ somevariants of this game.
 % The solution proposed by J. F. Nash for bargaining games in which both
 players have perfect knowledge of their own and each other’s utility systems
 (subjective valuations) is the outcome that maximizes the product of the two
-players’ utilities. If all possible outcomes are plotted on a graph whose rec-
-tangular coordinates measure the
+players’ utilities. If all possible outcomes are plotted on a graph whose rectangular coordinates measure the
 utilities that the two players derive from
 them, the solution is a unique point on the upper-right boundary of the region.
 (The point is unique because, if there were two, the two could be joined by a
 straight line representing available alternative outcomes achievable by mixing,
 with various odds, the probabilities of the original two outcomes; and points
 on the line connecting them would yield higher products of the two players’
-utilitics. In other words, the region is presumed convex by reason of the possi-
-bility of probability mixtures, and a convex region has a single maximum-
-utility-product point, or “Nash point.)
+utilitics. In other words, the region is presumed convex by reason of the possibility of probability mixtures, and a convex region has a single maximumutility-product point, or “Nash point.)
 A distinguishing feature of this particular “solution” is that it is independent
 of the exchange rate between the two players’ utility scales;
 it
@@ -13459,9 +11436,7 @@ words, invariant with respect to any fixed weights that we might attach to
 their respective utilities. And it meets some other conditions, notably including
 the condition that for any pair of fixed weights
 (or any exchange rate)
-re-
-lating the two players’ utility scales that yields a symmetrical region, the upper-
-right midpoint is the solution; that is, the best point symmetrical as between
+relating the two players’ utility scales that yields a symmetrical region, the upperright midpoint is the solution; that is, the best point symmetrical as between
 the two players is the solution. (It is the only solution that does meet all of
 the specified conditions; Nash showed that any solution meeting his conditions
 must lead to the outcomethat entails the maximum product for the two players’
@@ -13484,8 +11459,7 @@ Incidentally, it may deserve to be emphasized that the Nash theory is not
 just one that does not need a means for comparing two players’ utility scales
 —one that, being independent of interpersonal utility comparisons, can get
 along without them. Rather, since
-it uses the arbitrariness of the utility ex-
-change rate as a fundamental principle, the theory must be taken to depend
+it uses the arbitrariness of the utility exchange rate as a fundamental principle, the theory must be taken to depend
 on the
 inherent incommensurability
 of
@@ -13497,20 +11471,16 @@ Scales could in principle be compared, though with difficulty, the Nash theory
 Would not seem an attractive means of obviating difficult comparisons. If in
 Principle utilities were commensurable, there would be little virtue in a theory
 
-
-288
 APPENDIX B
 First, we are to play the same gamein its tacit form. Each of
 us picks a value along his own axis, and if the resulting point is
 on or within the boundary, we get the amounts
-(utilities) de-
-noted by the coordinates we pick. I conjecture that, in the frame
+(utilities) denoted by the coordinates we pick. I conjecture that, in the frame
 of mind I have asked for — a frame of mind that made the Nash
 point appeal to us in the explicit-bargaining game — we should
 probably pick the Nash point. Without asking precisely why,let
 us go on to anothervariant of the game. This variantis tacit too:
-but it differs in that we get nothing unless the point whose co-
-ordinates we pick is exactly on the boundary. We get nothing
+but it differs in that we get nothing unless the point whose coordinates we pick is exactly on the boundary. We get nothing
 unless we exhaust the available gains. Caution gets us nowhere;
 each must choose exactly as the other expects him to. I propose
 that in our present frame of mind we ought to take the Nash
@@ -13537,46 +11507,36 @@ tration may not be. Economic theory finds it convenient to use a notion of
 utility that makes utility theory correspond to choice theory, so that one can
 get “welfare economics” as a free by-product of a theory of economic choice.
 But
-if one were to forego this correspondence, for purposes of deriving prin-
-ciples of arbitration, one might be led either to an attempt to measure “util-
-ity” in some psychological or physiological way, or to
+if one were to forego this correspondence, for purposes of deriving principles of arbitration, one might be led either to an attempt to measure “utility” in some psychological or physiological way, or to
 establish
 legalistical'y
-some convention for making a comparison—a convention that, though arbi-
-trary, were compatible with the social purpose of arbitration
+some convention for making a comparison—a convention that, though arbitrary, were compatible with the social purpose of arbitration
 
 
 FOR THE ABANDONMENT OF SYMMETRY
-289
+
 boundaryis a straight line or circular arc (which again coincides
 with the Nash point); or some especially suggestive form that
 seems to point towards a particular point; or unless there is an
 impurity (such as a dot on the boundary, from a printer’s error,
 or a single point whose coordinates are whole numbers, and so
-forth), we maybeled to search for a “unique” definition of sym-
-metry to fall back on. And Nash-type symmetry is as plausible
-as any I can think of — not as simple as some (like the inter-
-section with a 45° line from the origin of the diagram andothers of
+forth), we maybeled to search for a “unique” definition of symmetry to fall back on. And Nash-type symmetry is as plausible
+as any I can think of — not as simple as some (like the intersection with a 45° line from the origin of the diagram andothers of
 that ilk), but less ambiguous on its own level of sophistication.
-And, if the Nash point appeals to us powerfully in the bargain-
-ing game, it must do so because we are confident that it appeals
+And, if the Nash point appeals to us powerfully in the bargaining game, it must do so because we are confident that it appeals
 equally to our partner who in turn we believe to be aware that
-our views coincide. It must therefore appeal to us in the pure-
-coordination game as a unique point that the partner will con-
-sider to be obviously obvious.
+our views coincide. It must therefore appeal to us in the purecoordination game as a unique point that the partner will consider to be obviously obvious.
 What does this prove or suggest? I am not arguing for the
 Nash point. I am arguing rather that the appeal of the Nash
 point to a gametheorist (as introspective game player) may be
 the reverse of the sequence I have just run through. It may be the
 focal quality of the Nash-point in the pure coordination game —
-the unequivocal usefulness of a uniquely defined symmetry con-
-cept, when no nonmathematical impurities are available to help
+the unequivocal usefulness of a uniquely defined symmetry concept, when no nonmathematical impurities are available to help
 — that makes it a controlling influence in the tacit and terribly
 cooperative boundary-line variant of the game;
 that
 in turn
-makes it a reliable guide in the less demanding tacit bounded-
-area variant of the game; and that in turn takes the heart out of
+makes it a reliable guide in the less demanding tacit boundedarea variant of the game; and that in turn takes the heart out of
 any player in the explicit bargaining game who might hope that
 expectations could focus anywhereelse.
 In other words, by postulating the meed for coordination of
@@ -13584,19 +11544,14 @@ expectations, we seem to have theoretical basis for something
 like the Nash axioms. What a theory like Nash’s needs is the
 premise that a solution exists;
 it is the observable phenomenon
-of tacit coordination that provides empirical evidence that (some-
-times) rational expectations can be tacitly focussed on a unique
+of tacit coordination that provides empirical evidence that (sometimes) rational expectations can be tacitly focussed on a unique
 (and perhapsefficient) outcome, and that leads one to suppose
 that the same may be possible in a game that provides nothing
 but mathematical properties to work on. The Nash theory is
 
-
-290
 APPENDIX B
-vindication of this supposition — complete vindicationif it domi-
-nates all competing mathematical solutions in terms of mathe.
-matical esthetics. The resulting focal point is limited to the uni-
-verse of mathematics, however, which should not be equated with
+vindication of this supposition — complete vindicationif it dominates all competing mathematical solutions in terms of mathe.
+matical esthetics. The resulting focal point is limited to the universe of mathematics, however, which should not be equated with
 the universe of game theory.
 
 
@@ -13609,35 +11564,26 @@ game theory, particularly that of solution in the strict sense for
 the “noncooperative” game. By “reasoning that lies behind these
 concepts” I mean the reasoning that is imputed to the rational
 players to whom the concepts should appeal.
- 
- 
- 
- 
- 
- 
+
+
 I
 II
-1
-0
+
+
 i
-1
-0
-0
-3
+
+
 ii
-0
-3
+
+
 Fic. 25
 The tacit games represented in Figs. 25 and 26 are said to have
 a solution in the strict sense. (In Fig. 26 a choice of either second
 or third strategy for each player constitutes the solution.) The
-definition of such a solution, given by Luce and Raiffa, is as fol-
-lows: “A non-cooperative gameis said to have a Solution in the
+definition of such a solution, given by Luce and Raiffa, is as follows: “A non-cooperative gameis said to have a Solution in the
 strict sense if: (1) There exists an equilibrium pair among the
-jointly admissible strategy pairs. (2) All jointly admissible equi-
-librium pairs are both interchangeable and equivalent.” ?
-*“Noncooperative” is the traditional name for the game without overt com-
-munication. Unfortunately
+jointly admissible strategy pairs. (2) All jointly admissible equilibrium pairs are both interchangeable and equivalent.” ?
+*“Noncooperative” is the traditional name for the game without overt communication. Unfortunately
 it may
 suggest that cooperation
 is absent when
@@ -13649,42 +11595,26 @@ reciprocated and taken for granted by each side — is an essential element, eve
 a dominant element, in manytacit nonzero-sum games.
 > Games and Decisions, p. 107f. This particular solution concept is akin to,
 
-
-292
 APPENDIX C
- 
- 
- 
- 
- 
- 
- 
- 
+
+
 I
 II
 III
-1
-0
-0
+
+
 i
-1
-0
-0
-0
-3
-3
+
+
 ii
-0
-3
-3
+
+
 .
-0
-3
-3
+
+
 hi
-0
-3
-3
+
+
 Fic. 26
 An equilibrium pair is a pair of strategies for the two players
 such that each is the player’s best strategy (or as good as any
@@ -13692,10 +11622,7 @@ other) that can be coupled with the other’s. A jointly admissible
 strategy pair is a pair that is not jointly dominated by another
 pair; that is, it yields a pair of payoffs that are not both inferior
 to the payoffs in some othercell. Equilibrium pairs are equivalent
-if, for each player separately, they yield equal payoffs; equilib-
-rium pairs are interchangeable if all pairs formed from thecorre-
-sponding strategies are also equilibrium points. (They are there-
-fore equivalent and interchangeable only if all pairs formed from
+if, for each player separately, they yield equal payoffs; equilibrium pairs are interchangeable if all pairs formed from thecorresponding strategies are also equilibrium points. (They are therefore equivalent and interchangeable only if all pairs formed from
 the corresponding strategies are equivalent.) Thus the stratecy
 pairs (ii, IT),
 (iii, III),
@@ -13704,13 +11631,11 @@ pairs (ii, IT),
 equivalent, interchangeable, jointly admissible equilibrium pairs.
 Luce and Raiffa, immediately after this definition, add the
 following comment, which can serve as our point of departure:
-“The second condition prohibits confusion in the case of non-
-unique jointly admissible equilibrium pairs.” (Myitalics.)
+“The second condition prohibits confusion in the case of nonunique jointly admissible equilibrium pairs.” (Myitalics.)
 It is precisely this problem of confusion, or ambiguousness,
 that was at the heart of the coordination game in Chapter 3.
 The game in Fig. 27 does not have a solution in the strict sense.
-The second andthird strategies for the two players are not in-
-terchangeable and
+The second andthird strategies for the two players are not interchangeable and
 equivalent —they do not
 yield
 equivalent
@@ -13720,7 +11645,7 @@ simply cause for confusion. In Fig. 25 they know exactly what
 but distinct from, that proposed by J. F. Nash in rg5r1. For a comparison of
 several
 related solution concepts see Chap.
-5
+
 of Luce and Raiffa, and
 J
 F
@@ -13729,39 +11654,21 @@ Nash, “Non-cooperative Games,” Annals of Mathematics, 54°286-295
 
 
 RE-INTERPRETATION OF A SOLUTION CONCEPT
-293
- 
- 
- 
- 
- 
- 
- 
- 
+
 I
 II
 III
-1
-0
-0
+
+
 i
-1
-0
-0
-0
-3
-0
+
+
 ii
-0
-3
-0
-0
-0
-3
+
+
 iii
-0
-0
-3
+
+
 Fic. 27
 strategies to choose; in Fig. 26 they know aswell as they need to;
 in Fig. 27 they do not. Failure to coordinate in Fig. 27 condemns
@@ -13772,35 +11679,21 @@ Whyis it that (ii, II) is the indicated solution in Fig. 25, rather
 than
 (i, I)? An offhand answer is that the payoff is better for
 (ii, II) than for
-(i, I). But this is only part of the answer. An-
-other part emerges if we look at Fig. 28, which is like Fig. 25
+(i, I). But this is only part of the answer. Another part emerges if we look at Fig. 28, which is like Fig. 25
 I
 II
-9
-0
- 
- 
+
+
 ii
-0
-10
- 
- 
- 
- 
+
+
 Fic. 28
-in preference ordering but different in absolute strengths of pref-
-erence, In Fig. 28 it looks as though the important thing is not
+in preference ordering but different in absolute strengths of preference, In Fig. 28 it looks as though the important thing is not
 to achieve ro rather than 9, but 9 or 10 rather than zero. Roughly
 speaking, the two equilibrium pairs are nearly equivalent but
-not interchangeable; and though the players maybe little con-
-cerned about whether they get 9 or to they are very much con-
-cerned not to get zero. Their main interest is to avoid “confu-
-sion.”
-They need to find someclue, or rule, or instruction to coordi-
-nate their choices. In a game as abstract as the matrix in Fig.
+not interchangeable; and though the players maybe little concerned about whether they get 9 or to they are very much concerned not to get zero. Their main interest is to avoid “confusion.”
+They need to find someclue, or rule, or instruction to coordinate their choices. In a game as abstract as the matrix in Fig.
 
-
-294
 APPENDIX C
 28, there is little to guide them but the numbers; and between
 the alternative rules of picking the lesser pair or the greater,
@@ -13814,34 +11707,22 @@ difference between 9 and ro that makesit possible to coordinate
 choices. In Fig. 29, if we suppose that they can find no rule
 I
 II
-10
-0
- 
-10
-0
- 
+
+
 ii
-0
-10
- 
- 
- 
- 
+
+
 Fic. 29
 for coordination, their expected value is presumably 5 apiece.
 (Actually the game in Fig. 29 if presented in the matrix as
-Shown may not cause difficulty. The empirical results of Chap-
-ter 3 imply that it need not. A specific matrix permits left-right,
-upper-lower, first-last-middle distinctions. For our present pur-
-pose, we must suppose that the strategies occur to the players in
-such form and with such labels that rational players are intellec-
-tually incapable of ordering them unambiguously. A completely
+Shown may not cause difficulty. The empirical results of Chapter 3 imply that it need not. A specific matrix permits left-right,
+upper-lower, first-last-middle distinctions. For our present purpose, we must suppose that the strategies occur to the players in
+such form and with such labels that rational players are intellectually incapable of ordering them unambiguously. A completely
 foolproof or geniusproof clueless game would presumably have
 to have scrambled labels and a perfectly symmetrical set of
 payoffs. Incidentally, a tacit game with infinitely many strategies
 apparently has no “pure” form; an infinity of strategies could
-only be presented to the players by means of a generating for-
-mula, and any generating formula is likely to offer the players
+only be presented to the players by means of a generating formula, and any generating formula is likely to offer the players
 some meansof ordering the strategies.)
 The situation may not be very different if we suppose that
 the strategy pair
@@ -13854,7 +11735,7 @@ cannot find it in the mathematical configuration of the payoffs,
 
 
 RE-INTERPRETATION OF A SOLUTION CONCEPT
-295
+
 they can look for it anywhere else. And strategies may occur in
 such fashion, or with such labels or connotations, as to provide
 a potential basis for ordering them or sorting them that rational
@@ -13862,10 +11743,8 @@ players find useful.$
 The suggestion of this appendix, then, is that an important
 property enjoyed by a “solution in the strict sense” — a reason
 why rational players might select it— is a signaling power, a
-meansof tacit communication, that is available to the two play-
-ers to facilitate their tacit cooperation when failure to coordinate
-choices would be serious. This is of course not the only signifi-
-cant property of such a solution; but it may be an important
+meansof tacit communication, that is available to the two players to facilitate their tacit cooperation when failure to coordinate
+choices would be serious. This is of course not the only significant property of such a solution; but it may be an important
 part of the rationale for a player’s choosingit.
 Another way to make this point is that we could, in games
 like
@@ -13880,18 +11759,15 @@ to see whether communication
 is worth the cost and
 what messages sent over what channels would constitute the
 “solution.” The “clues” under discussion in this paper would
-then appear to be so much free communication to be taken advan-
-tage of; and it is an empirical question what free communication
+then appear to be so much free communication to be taken advantage of; and it is an empirical question what free communication
 a rational player should be able to find and take for granted.
 Just as esthetic or syntactic constraints on a language help to
 eliminate garbles in a badly transmitted message, esthetic or
 dramaturgical constraints, casuistic or geometric constraints, can
-help to eliminate ambiguousness in a situation where tacit con-
-certed choice is required.
+help to eliminate ambiguousness in a situation where tacit concerted choice is required.
 The point can be pressed further. Consider the game in Fig.
 30. Again assume that the strategies occur in a way that makes
-ordering them intellectually impossible for rational players, spe-
-Cifically, not in the form of a particular square matrix, not
+ordering them intellectually impossible for rational players, speCifically, not in the form of a particular square matrix, not
 *The type of “rationality” or intellectual skill required in these games is
 something like that required in solving riddles. A riddle is a context in which
 one is invited to search for a clue, the rules being that the clue must not be
@@ -13903,51 +11779,30 @@ a message that
 in
 his judgment
 is hard to find
-but not too hard. In principle one can neither make up nor solve riddles with-
-out empirical experience; one cannot deduce a priori whether a rational partner
+but not too hard. In principle one can neither make up nor solve riddles without empirical experience; one cannot deduce a priori whether a rational partner
 can take a hint. “Hint theory” is an inherently empirical part of game theory.
 
-
-296
 APPENDIX C
 I
 mm
 Iv
- 
- 
- 
- 
- 
- 
- 
- 
- 
-10
+
 I
-0
-0
-0
-10
-10
+
+
 ij
-0
-0
-0
+
+
 i]
-10
+
 ere
-9
+
 lll
-0
-0
-0
-9
-10
+
+
 iv
-0
-0
-0
-10
+
+
 Fic. 30
 labeled with numbers orletters, or —if they are labeled — with
 the labels scrambled separately for the two players. There
@@ -13957,66 +11812,34 @@ discerned, the “solution” maybe the strategy pair (iii, III) with
 payoffs of 9 apiece. This is the least desired among the equilibrium
 points, but it enjoys uniqueness while the others offer confusion;
 it provides a clue to concert choices. In terms of the payoff
-structure alone (that is, without introducing “labels,” prefabri-
-cated matrices, or any other details outside the pure quantita-
-tive structure of the game), it is hard to see that this solution
+structure alone (that is, without introducing “labels,” prefabricated matrices, or any other details outside the pure quantitative structure of the game), it is hard to see that this solution
 is muchless, if at all less, compelling than the one in Fig. 31,
 I
 II
 I
 IV
- 
- 
- 
- 
-9
+
 i
-0
-0
-0
-9
-9
-0
-0
-0
-11
-9
-10
-111
-0
-0
-0
-10
-9
+
+
 iv
-0
-0
-0
-9
- 
- 
- 
- 
- 
+
+
 Fic. 31
 
 
 RE-INTERPRETATION OF A SOLUTION CONCEPT
-297
+
 although the
 latter meets the Luce-Raiffa definition and the
 former contradictsit.4
 I
 II
- 
- 
+
+
 ii
-0
-10
- 
- 
- 
- 
+
+
 Fic. 32
 The gamesin Figs. 32 and 33, neither of which has a solution
 in the strict sense, seem to represent the same point. It “looks as
@@ -14024,8 +11847,7 @@ though” the players have an argument for choosing
 (ii, II) in
 Fig. 33 One argument might be that, in the absence of any way
 of knowing whetherto aim for
-(i, I) or (ii, II), one should con-
-sider what insurance he can fall back on. The row chooser gets
+(i, I) or (ii, II), one should consider what insurance he can fall back on. The row chooser gets
 nothing if he wrongly chooses the upper row, he gets 5 if he
 wrongly chooses the lower row, “wrong” meaning that hefails
 to rendezvous with his partner for 10. He might then choose the
@@ -14035,25 +11857,16 @@ with this choice. Perhaps this is all that “rationality” requires
 of him; but it might be more perceptive to reason as follows.
 I
 II
-10
-5
- 
-10
-0
- 
+
+
 ii
-5
-10
- 
- 
- 
- 
+
+
 Fic. 33
 “Comparing just
 (i, I) and
 (ii, II) my partner and I have no
-way of concerting our choices. There must be some way, how-
-ever, so
+way of concerting our choices. There must be some way, however, so
 let’s look
 for
 it. The only other place to look is in
@@ -14063,16 +11876,12 @@ the cells
 “Empirical evidence for these and similar games can readily be obtained for
 himself by any reader who wants to pursue the point.
 
-
-298
 APPENDIX C
 to concert on 10 apiece? Yes, they do; they seem to “point
 toward”
 (ii, II). They provide either a reason or an excuse for
 believing or pretending that (ii, II) is better than (i, I); since
-we need an excuse, if not a reason, for pretending, if not be-
-lieving, that one of the equilibrium pairs is better, or more dis-
-tinguished, or more prominent, or moreeligible, than the other,
+we need an excuse, if not a reason, for pretending, if not believing, that one of the equilibrium pairs is better, or more distinguished, or more prominent, or moreeligible, than the other,
 and since I find no competing rule or instruction to follow or
 clue to pursue, we may as well agree to use this rule to reach
 a meeting of minds.”
@@ -14085,11 +11894,9 @@ take note of where the fives are, but only as a step in the process
 of coordinating intentions. The tendency for the matrix in Fig. 33
 to “converge” on (ii, II) is in principle the sameas if the printed
 matrix had arrows pointing toward the lower-right corner, arrows
-with no logical role or authority other than the power of sugges-
-tion and hence the ability to coordinate expectations.®
+with no logical role or authority other than the power of suggestion and hence the ability to coordinate expectations.®
 CONFLICTING INTEREST
-Wecan consider now the case of coordination mixed with con-
-flict. Figures 34 and 35 portray games that have equilibrium
+Wecan consider now the case of coordination mixed with conflict. Figures 34 and 35 portray games that have equilibrium
 points, two of them both jointly admissible, without a “solution
 in the strict sense” because the equilibrium pairs are neither
 equivalent nor interchangeable.
@@ -14111,26 +11918,20 @@ to play the game with a live partner and real money payoffs. (Alternatively
 
 
 RE-INTERPRETATION OF A SOLUTION CONCEPT
-299
- 
- 
- 
- 
- 
- 
+
 I
 II
-4
-0
+
+
 i
-6
-0
+
+
 .
-0
-6
+
+
 n
-0
-4
+
+
 Fic. 34
 of achieving either of the jointly admissible (efficient) outcomes.®
 The second may notbeinsoluble. Each player would rather accept
@@ -14139,24 +11940,17 @@ they have a common interest in cooperating to find a clue to
 common choice. Why not take the clue contained in the other
 cells, which seems to point toward
 (ii, II) ??
-we ask him how much he’d pay for the privilege of playing the different vari-
-ants in place of the one with 5.) If his response is fairly insensitive to varia-
-tions in that particular payoff as long as it is positive, and if nevertheless he
-attaches a high value to the game with some positive payoff and attaches some-
-thing like a random-strategy expected value for the game with zeros as in
+we ask him how much he’d pay for the privilege of playing the different variants in place of the one with 5.) If his response is fairly insensitive to variations in that particular payoff as long as it is positive, and if nevertheless he
+attaches a high value to the game with some positive payoff and attaches something like a random-strategy expected value for the game with zeros as in
 Fig. 32, we can conclude that the lower-left and upper-right payoffs are mainly
 of interest to him as signals. If, for example, he bids $9.50 for a chance to play
 the game in Fig. 33 (implying, perhaps, a 90 percent expectation that Column
-will choose II), $8.65 for the game with 5 replaced by 1 (implying an 85 per-
-cent expectation of II), and $9.95 for the game with § replaced by 9 (implying a
-95 percent expectation of ITI), and, finally, $5 for the game as in Fig. 32 (imply-
-ing a random expectation as between I and II), we could conclude that the
+will choose II), $8.65 for the game with 5 replaced by 1 (implying an 85 percent expectation of II), and $9.95 for the game with § replaced by 9 (implying a
+95 percent expectation of ITI), and, finally, $5 for the game as in Fig. 32 (implying a random expectation as between I and II), we could conclude that the
 function, or value to the player, of the upper-right and lower-left payoffs is
-largely that of coordinating clue. If instead he bids amounts that imply proba-
-bilities between I and II that are invariant, or nearly so, with respect to the
+largely that of coordinating clue. If instead he bids amounts that imply probabilities between I and II that are invariant, or nearly so, with respect to the
 upper-right and lower-left payoffs, and particularly if he bids the arithmetic
-mean, the insurance interpretation would be indicated. (Note that the adjec-
-tives “upper-right” and “lower-left” are only author’s shorthand here;
+mean, the insurance interpretation would be indicated. (Note that the adjectives “upper-right” and “lower-left” are only author’s shorthand here;
 they
 have no meaning to the player since we are considering the case of unlabeled
 Strategies, which must not be presented
@@ -14184,29 +11978,21 @@ It yields them
 payoffs of 3.6 apiece, and is therefore jointly dominated by the upper-left and
 lower-right cells.
 
-
-300
 APPENDIX C
- 
- 
- 
- 
- 
+
+
 I
 II
-4
-3
+
+
 i
-6
-2
-2
-6
+
+
 ii
-3
-4
+
+
 Fic. 35
-For one of the players this is not the most advantageous out-
-come, but beggars cannot be choosers when fortune gives the
+For one of the players this is not the most advantageous outcome, but beggars cannot be choosers when fortune gives the
 signals. What other clue is there? It might be equally fair to
 use the negative of this clue; just as it would be equally fair, if
 arrows pointed toward
@@ -14215,8 +12001,7 @@ arrows pointed toward
 the feathers as the signal rather than the arrowheads. But fair
 ness cannot help; in fact it makes coordination impossible. If
 all clues are equally plausible in reverse, we are back to confusion.
-Only a discriminatory clue can point to a concerted choice, deny-
-ing the discrimination is denying the premise that a clue can be
+Only a discriminatory clue can point to a concerted choice, denying the discrimination is denying the premise that a clue can be
 found and acted onjointly to achieve an efficient outcome in the
 face of conflicting preferences.®
 Here again the most potent clues may be those that we admit
@@ -14228,36 +12013,31 @@ moral obligation between us, the one approaching on the other’s
 left may nevertheless still slow down to let the other through
 first, to avoid emergency stops at the intersection; and the other
 driver may anticipate this.® The conventional priority system
-lacks legal or moral force; but it is so expedient when coordina-
-tion is needed that the one discriminated against mayyield to its
+lacks legal or moral force; but it is so expedient when coordination is needed that the one discriminated against mayyield to its
 *The power of similar mutually perceived signals seems to lie behind
 the
 concept of “psychological dominance” used by Luce and Raiffa to discuss the
 appeal in certain games of a jointly inadmissible equilibrium point. Sce Games
 and Decisions, pp. 109-10. See also the footnote on p. 286 for a comment on
 a similar game.
-* A conflict-of-interest problem of this type —two cars approaching an asym-
-metrical narrow place in the road from opposite directions — was included in the
+* A conflict-of-interest problem of this type —two cars approaching an asymmetrical narrow place in the road from opposite directions — was included in the
 questionnaire described in Chapter 3. The results bore out the general principle.
 but were omitted for brevity from Chapter 3.
 
 
 RE-INTERPRETATION OF A SOLUTION CONCEPT
-301
+
 discipline, recognizing that he should be grateful for an arbiter,
 even though it discriminates against him, and recognizing also
 that he is trapped by the other’s acceptance of the signal and
-expectation that both will comply. By this reasoning, as de-
-veloped in Chapter 3, the game in Fig. 34 may be soluble when
+expectation that both will comply. By this reasoning, as developed in Chapter 3, the game in Fig. 34 may be soluble when
 presented in a particular matrix form to both players (thatis,
 presented just as shown in Fig. 34), or when the winning strategy
 pairs are labeled “heads”and “tails,” i, ii, I, and II, and so forth.
 MANIPULATION BY A THIRD PARTY
 Incidentally, all of these games requiring coordination, both
 those with conflicting preferences and those with preferences that
-coincide, might be substantially subject to the control or influ-
-ence of a mediator. lf we give a third player power to send mes-
-sages to the original two tacit players, he is in a good position
+coincide, might be substantially subject to the control or influence of a mediator. lf we give a third player power to send messages to the original two tacit players, he is in a good position
 to help them; he is even in a good position to help himself if
 he gets a payoff that depends on the pair of strategies that the
 original two players choose. A benevolent mediator makes the
@@ -14269,49 +12049,32 @@ I
 II
 I
 =6IV
- 
- 
- 
- 
- 
- 
- 
- 
- 
-6
+
 ee)
-0
-0
-0
-5
-9
+
+
 ii
-0
+
 (3)
-0
-0
-7
+
+
 eee
-5
+
 iii
-0
-0
+
+
 (A)
-0
-8
-7
+
+
 iv
-0
-0
-0
+
+
 (1)
-9
+
 Fic. 36
 Recall problem no. 8 on p. 62 of Chapter 3, involving lost and found money
 and a self-appointed mediator.
 
-
-302
 APPENDIX C
 mediator
 (or communication monopolist) who is in a position
@@ -14323,8 +12086,7 @@ the other two players.
 INTERPRETATION OF THE PAYOFFS
 As a final point it may be noted that, for the line of reasoning
 developed here, it does not matter whether weinterpret the payoffs
-as objectively measurable entities, such as money or homogene-
-ous goods, or as “utilities” in the sense now familiar in game
+as objectively measurable entities, such as money or homogeneous goods, or as “utilities” in the sense now familiar in game
 theory. It does not depend on each person’s knowledge of the
 strengths of the other’s preferences, as long as the nominal
 payoffs are known. (If both the objective values and the utility
@@ -14334,25 +12096,20 @@ or ambiguousness would be aggravated.)
 NUMBER OF PLAYERS
 The discussion here has considered only two-person games,
 except for brief consideration of a third player who may bein
-a nontacit role. But the problem can be extended to any num-
-ber of players, with the rewards depending either on unanimous
-choice or on some kind of majority or plurality choice or success-
-ful coalitions (somewhat analogous to the lines of the actual
+a nontacit role. But the problem can be extended to any number of players, with the rewards depending either on unanimous
+choice or on some kind of majority or plurality choice or successful coalitions (somewhat analogous to the lines of the actual
 questionnaire procedure described in Chapter 3). The problem
-of ambiguousness may then becomemoreserious, and the coordi-
-nation aspect of the game may become even morerelevant to the
-rationale of a “solution.” It is probably in the realm of more-than-
-two-person games that coordination theory is most relevantof all,
+of ambiguousness may then becomemoreserious, and the coordination aspect of the game may become even morerelevant to the
+rationale of a “solution.” It is probably in the realm of more-thantwo-person games that coordination theory is most relevantof all,
 gamesinvolving the formulation of coalitions. Study of the signals
 and communication channels in coalition formation appears to be
 a fruitful meeting ground for gametheory andsociology.
 CONCLUSION
-In summary, coordination-game theory suggests that the “solu-
-tion in the strict sense” of a tacit nonzero-sum gameis to be
+In summary, coordination-game theory suggests that the “solution in the strict sense” of a tacit nonzero-sum gameis to be
 
 
 RE-INTERPRETATION OF A SOLUTION CONCEPT
-303
+
 understood partly, and in some cases largely, by reference to its
 signaling qualities. Since other sources of signals may be present
 even in the purely mathematical formulation of the game, the
@@ -14360,8 +12117,6 @@ particular qualities of the “solution in the strict sense” are but
 one of many potential determinants of a “rational solution.” It
 is partly an empirical question, not solely a matter of deduction
 @ priori, what signals can be appreciated.
-
-
 
 
 INDEX
@@ -14487,8 +12242,6 @@ Duffus, R. L., 137n
 Dulles, John Foster, 138, 159
 Duopolists, 31, 44
 
-
-306
 Elisberg, Daniel, 13, 150n
 Elphinstone, Mountstuart, 127n
 Empirical study, 98, 113, 285
@@ -14524,12 +12277,11 @@ Surprise attack
 Fellner, William J., 31
 Flood, M. M., 164n
 Focal points, 57, 59, 68, 70, 80, r111ff,
-144
+
 Football, rron
 Foreign aid, 11, rgn, 28, 41n
 Formosa, 6, 76, 115, 142, 192, 265f
-Games, 46, 56ff, 6off, 119ff; bargain-
-ing,
+Games, 46, 56ff, 6off, 119ff; bargaining,
 46ff,
 9goff,
 267ff
@@ -14538,13 +12290,10 @@ also
 Bargaining) ; collaboration, 84; and
 communication,
 see
-Communica-
-cation; coordination, see Coordina-
-tion; experimental, 54ff,
+Communicacation; coordination, see Coordination; experimental, 54ff,
 r1o9ff, 113,
 162ff,
-164n, 172n; and gamesman-
-ship, 128n; mixed-motive, 89, 102n,
+164n, 172n; and gamesmanship, 128n; mixed-motive, 89, 102n,
 103,
 158,
 160;
@@ -14579,8 +12328,7 @@ Randomization;
 moves,
 see
 INDEX
-Moves; random strategy, see Ran-
-domization;
+Moves; random strategy, see Randomization;
 solution,
 154ff, in the
 complete weak
@@ -14589,15 +12337,13 @@ sense,
 in
 the
 strict sense, 210, 275n, 291ff;
-stra-
-tegy,
+strategy,
 see
 Strategy;
 symmetry,
 see
 Symmetry; utility theory, 88, r15ff,
-125, 287n, 302 (See also Value sys-
-tem) ; zero-sum, see Zero-sum games
+125, 287n, 302 (See also Value system) ; zero-sum, see Zero-sum games
 Gang war, 12
 Gas warfare, 75
 Gestalt
@@ -14722,7 +12468,7 @@ Oskar,
 122n,
 160, 161
 Morrison, Philip, 93n
-307
+
 Mossadeq, 13, 18
 Moves,
 24,
@@ -14779,8 +12525,7 @@ Penalty, 128ff, 137, 150
 Pirates, 19
 Plate glass window, 119, 128
 Pneumatique, 148
-Police, 38, 140, 146, 149. See also Bur-
-glar; Racketeer; Right of way
+Police, 38, 140, 146, 149. See also Burglar; Racketeer; Right of way
 Positive evidence, 250
 Precedent, 34, 67. See also Tradition
 Price leadership, 23
@@ -14796,19 +12541,15 @@ Pure-collaboration game, 84. See also
 Coordination
 Quemoy, 192, 265f. See also Formosa
 
-
-308
 Quota systems, 91
 Racketeer
 12,
 137n.
 See
-also Black-
-mail;
+also Blackmail;
 Buglar;
 Extortion;
-Kid-
-napper; Police
+Kidnapper; Police
 Radner, Roy, 86n
 Raiffa,
 Howard,
@@ -14940,7 +12681,7 @@ Treaties,
 See
 Formosa
 Trip wire, 6, 119, 136n, 138, 187, 192,
-203
+
 Truman, Harry S, 43
 Trust,
 14, 134f
@@ -14976,8 +12717,7 @@ see
 Map;
 gang,
 12;
-inad-
-vertent,
+inadvertent,
 188ff,
 246ff;
 Korean,
@@ -14989,7 +12729,7 @@ nuclear,
 
 
 INDEX
-309
+
 see
 Nuclear
 weapons;

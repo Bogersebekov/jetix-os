@@ -9,12 +9,16 @@ chars: 1204453
 approx_tokens: 301113
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 1204455
+phase4_chars_after: 1201824
+phase4_saved_pct: 0.2
 ---
 
-Edited by Betsy Beyer, Chris Jones, 
+Edited by Betsy Beyer, Chris Jones,
 Jennifer Petoff & Niall Richard Murphy
-Site 
-Reliability 
+Site
+Reliability
 Engineering
 HOW GOOGLE RUNS PRODUCTION SYSTEMS
 www.it-ebooks.info
@@ -122,7 +126,7 @@ www.it-ebooks.info
 Table of Contents
 Foreword. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  xiii
 Preface. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  xv
-Part I. 
+Part I.
 Introduction
 1. Introduction. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  3
 The Sysadmin Approach to Service Management                                                      3
@@ -136,7 +140,7 @@ Other System Software                                                           
 Our Software Infrastructure                                                                                         19
 Our Development Environment                                                                                  19
 Shakespeare: A Sample Service                                                                                    20
-Part II. 
+Part II.
 Principles
 3. Embracing Risk. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  25
 Managing Risk                                                                                                                25
@@ -183,8 +187,8 @@ Recommendations                                                                 
 8. Release Engineering. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  87
 The Role of a Release Engineer                                                                                    87
 Philosophy                                                                                                                      88
-vi 
-| 
+vi
+|
 Table of Contents
 www.it-ebooks.info
 
@@ -201,7 +205,7 @@ Minimal APIs                                                                    
 Modularity                                                                                                                    100
 Release Simplicity                                                                                                        100
 A Simple Conclusion                                                                                                   101
-Part III. 
+Part III.
 Practices
 10. Practical Alerting from Time-Series Data. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  107
 The Rise of Borgmon                                                                                                  108
@@ -226,8 +230,8 @@ Theory                                                                          
 In Practice                                                                                                                     136
 Negative Results Are Magic                                                                                        144
 Case Study                                                                                                                     146
-Table of Contents 
-| 
+Table of Contents
+|
 vii
 www.it-ebooks.info
 
@@ -268,8 +272,8 @@ Auxon Case Study: Project Background and Problem Space                          
 Intent-Based Capacity Planning                                                                                209
 Fostering Software Engineering in SRE                                                                   218
 Conclusions                                                                                                                  222
-viii 
-| 
+viii
+|
 Table of Contents
 www.it-ebooks.info
 
@@ -311,8 +315,8 @@ Conclusion                                                                      
 24. Distributed Periodic Scheduling with Cron. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  315
 Cron                                                                                                                               315
 Cron Jobs and Idempotency                                                                                       316
-Table of Contents 
-| 
+Table of Contents
+|
 ix
 www.it-ebooks.info
 
@@ -344,7 +348,7 @@ Developing a Launch Checklist                                                   
 Selected Techniques for Reliable Launches                                                              380
 Development of LCE                                                                                                   384
 Conclusion                                                                                                                    387
-Part IV. 
+Part IV.
 Management
 28. Accelerating SREs to On-Call and Beyond. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  391
 You’ve Hired Your Next SRE(s), Now What?                                                          391
@@ -353,8 +357,8 @@ Creating Stellar Reverse Engineers and Improvisational Thinkers                 
 Five Practices for Aspiring On-Callers                                                                     400
 On-Call and Beyond: Rites of Passage, and Practicing Continuing Education  406
 Closing Thoughts                                                                                                         406
-x 
-| 
+x
+|
 Table of Contents
 www.it-ebooks.info
 
@@ -383,7 +387,7 @@ Production Readiness Reviews: Simple PRR Model                                  
 Evolving the Simple PRR Model: Early Engagement                                             448
 Evolving Services Development: Frameworks and SRE Platform                        451
 Conclusion                                                                                                                    456
-Part V. 
+Part V.
 Conclusions
 33. Lessons Learned from Other Industries. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  459
 Meet Our Industry Veterans                                                                                      460
@@ -393,8 +397,8 @@ Automating Away Repetitive Work and Operational Overhead                        
 Structured and Rational Decision Making                                                              469
 Conclusions                                                                                                                  470
 34. Conclusion. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  473
-Table of Contents 
-| 
+Table of Contents
+|
 xi
 www.it-ebooks.info
 
@@ -407,8 +411,8 @@ E. Launch Coordination Checklist. . . . . . . . . . . . . . . . . . . . . . . . 
 F. Example Production Meeting Minutes. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  497
 Bibliography. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  501
 Index. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  511
-xii 
-| 
+xii
+|
 Table of Contents
 www.it-ebooks.info
 
@@ -423,8 +427,7 @@ Google grew at a time when the traditional role of the system administrator was 
 transformed. It questioned system administration, as if to say: we can’t afford to hold
 tradition as an authority, we have to think anew, and we don’t have time to wait for
 everyone else to catch up. In the introduction to Principles of Network and System
-Administration [Bur99], I claimed that system administration was a form of human-
-computer engineering. This was strongly rejected by some reviewers, who said “we
+Administration [Bur99], I claimed that system administration was a form of humancomputer engineering. This was strongly rejected by some reviewers, who said “we
 are not yet at the stage where we can call it engineering.” At the time, I felt that the
 field had become lost, trapped in its own wizard culture, and could not see a way for‐
 ward. Then, Google drew a line in the silicon, forcing that fate into being. The revised
@@ -486,8 +489,8 @@ hands-on experiences, can also benefit from the lessons learned inside the cocoo
 — Mark Burgess
 author of In Search of Certainty
 Oslo, March 2016
-xiv 
-| 
+xiv
+|
 Foreword
 www.it-ebooks.info
 
@@ -548,8 +551,7 @@ structure such as Bigtable to products for external developers such as the Googl
 Cloud Platform.
 Although we have represented SRE as a broad discipline, it is no surprise that it arose
 in the fast-moving world of web services, and perhaps in origin owes something to
-the peculiarities of our infrastructure. It is equally no surprise that of all the post-
-deployment characteristics of software that we could choose to devote special atten‐
+the peculiarities of our infrastructure. It is equally no surprise that of all the postdeployment characteristics of software that we could choose to devote special atten‐
 tion to, reliability is the one we regard as primary.4 The domain of web services, both
 because the process of improving and changing server-side software is comparatively
 contained, and because managing change itself is so tightly coupled with failures of all
@@ -563,8 +565,8 @@ ples and more specific practices are separated where possible, and where it’s 
 ate to discuss a particular topic with Google-specific information, we trust that the
 reader will indulge us in this and will not be afraid to draw useful conclusions about
 their own environment.
-xvi 
-| 
+xvi
+|
 Preface
 www.it-ebooks.info
 
@@ -604,8 +606,8 @@ what would happen if the prelaunch program, P01, were inadvertently selected by 
 real astronaut during a real mission, during real midcourse. (Launching P01 inadver‐
 tently on a real mission would be a major problem, because it wipes out navigation
 data, and the computer was not equipped to pilot the craft with no navigation data.)
-Preface 
-| 
+Preface
+|
 xvii
 www.it-ebooks.info
 
@@ -637,8 +639,8 @@ groups you work in, or for the organizations you’re building, please bear the 
 in mind: thoroughness and dedication, belief in the value of preparation and docu‐
 mentation, and an awareness of what could go wrong, coupled with a strong desire to
 prevent it. Welcome to our emerging profession!
-xviii 
-| 
+xviii
+|
 Preface
 www.it-ebooks.info
 
@@ -675,8 +677,8 @@ Shows commands or other text that should be typed literally by the user.
 Constant width italic
 Shows text that should be replaced with user-supplied values or by values deter‐
 mined by context.
-Preface 
-| 
+Preface
+|
 xix
 www.it-ebooks.info
 
@@ -705,8 +707,8 @@ Safari® Books Online
 Safari Books Online is an on-demand digital library that deliv‐
 ers expert content in both book and video form from the
 world’s leading authors in technology and business.
-xx 
-| 
+xx
+|
 Preface
 www.it-ebooks.info
 
@@ -744,8 +746,8 @@ Acknowledgments
 This book would not have been possible without the tireless efforts of our authors
 and technical writers. We’d also like thank the following internal reviewers for provid‐
 ing especially valuable feedback: Alex Matey, Dermot Duffy, JC van Winkel, John T.
-Preface 
-| 
+Preface
+|
 xxi
 www.it-ebooks.info
 
@@ -783,8 +785,8 @@ Chapter 19: Debashish Chatterjee, Perry Lorier
 Chapters 20 and 21: Adam Fletcher, Christoph Pfisterer, Lukáš Ježek, Manjot Pahwa,
 Micha Riser, Noah Fiedel, Pavel Herrmann, Paweł Zuzelski, Perry Lorier, Ralf Wild‐
 enhues, Tudor-Ioan Salomie, Witold Baryluk
-xxii 
-| 
+xxii
+|
 Preface
 www.it-ebooks.info
 
@@ -825,8 +827,8 @@ Jason Petsod, Jeffry McNeil, Jeff Dean, Jeff Peck, Jennifer Mace, Jerry Cen, Jes
 John Brady, John Gunderman, John Kochmar, John Tobin, Jordyn Buchanan, Joseph
 Bironas, Julio Merino, Julius Plenz, Kate Ward, Kathy Polizzi, Katrina Sostek, Kenn
 Hamm, Kirk Russell, Kripa Krishnan, Larry Greenfield, Lea Oliveira, Luca Cittadini,
-Preface 
-| 
+Preface
+|
 xxiii
 www.it-ebooks.info
 
@@ -835,13 +837,11 @@ Lucas Pereira, Magnus Ringman, Mahesh Palekar, Marco Paganini, Mario Bonilla,
 Mathew Mills, Mathew Monroe, Matt D. Brown, Matt Proud, Max Saltonstall, Michal
 Jaszczyk, Mihai Bivol, Misha Brukman, Olivier Oansaldi, Patrick Bernier, Pierre Pala‐
 tin, Rob Shanley, Robert van Gent, Rory Ward, Rui Zhang-Shen, Salim Virji, Sanjay
-Ghemawat, Sarah Coty, Sean Dorward, Sean Quinlan, Sean Sechrest, Shari Trumbo-
-McHenry, Shawn Morrissey, Shun-Tak Leung, Stan Jedrus, Stefano Lattarini, Steven
+Ghemawat, Sarah Coty, Sean Dorward, Sean Quinlan, Sean Sechrest, Shari TrumboMcHenry, Shawn Morrissey, Shun-Tak Leung, Stan Jedrus, Stefano Lattarini, Steven
 Schirripa, Tanya Reilly, Terry Bolt, Tim Chaplin, Toby Weingartner, Tom Black, Udi
 Meiri, Victor Terron, Vlad Grama, Wes Hertlein, and Zoltan Egyed.
 We very much appreciate the thoughtful and in-depth feedback that we received from
-external reviewers: Andrew Fong, Björn Rabenstein, Charles Border, David Blank-
-Edelman, Frossie Economou, James Meickle, Josh Ryder, Mark Burgess, and Russ
+external reviewers: Andrew Fong, Björn Rabenstein, Charles Border, David BlankEdelman, Frossie Economou, James Meickle, Josh Ryder, Mark Burgess, and Russ
 Allbery.
 We would like to extend special thanks to Cian Synnott, original book team member
 and co-conspirator, who left Google before this project was completed but was deeply
@@ -852,8 +852,7 @@ their necessary and valued efforts wholeheartedly.
 The editors would also like to personally thank the following people:
 Betsy Beyer: To Grandmother (my personal hero), for supplying endless amounts of
 phone pep talks and popcorn, and to Riba, for supplying me with the sweatpants nec‐
-essary to fuel several late nights. These, of course, in addition to the cast of SRE all-
-stars who were indeed delightful collaborators.
+essary to fuel several late nights. These, of course, in addition to the cast of SRE allstars who were indeed delightful collaborators.
 Chris Jones: To Michelle, for saving me from a life of crime on the high seas and for
 her uncanny ability to find manzanas in unexpected places, and to those who’ve
 taught me about engineering over the years.
@@ -863,8 +862,8 @@ sugar on our “Dessert Island.”
 Niall Murphy: To Léan, Oisín, and Fiachra, who were considerably more patient than
 I had any right to expect with a substantially rantier father and husband than usual,
 for years. To Dermot, for the transfer offer.
-xxiv 
-| 
+xxiv
+|
 Preface
 www.it-ebooks.info
 
@@ -910,7 +909,7 @@ divided into discrete teams: “development” and “operations” or “ops.�
 The sysadmin model of service management has several advantages. For companies
 deciding how to run and staff a service, this approach is relatively easy to implement:
 as a familiar industry paradigm, there are many examples from which to learn and
-3
+
 www.it-ebooks.info
 
 
@@ -952,8 +951,8 @@ not all elements providing equal value. The dev team quickly learns how to respo
 They have fewer “launches” and more “flag flips,” “incremental updates,” or “cherry‐
 picks.” They adopt tactics such as sharding the product so that fewer features are sub‐
 ject to the launch review.
-4 
-| 
+
+|
 Chapter 1: Introduction
 www.it-ebooks.info
 
@@ -995,9 +994,9 @@ when the solution is complicated. SREs also end up sharing academic and intellec
 background with the rest of the development organization. Therefore, SRE is funda‐
 mentally doing work that has historically been done by an operations team, but using
 engineers with software expertise, and banking on the fact that these engineers are
-Google’s Approach to Service Management:  
-| 
-5
+Google’s Approach to Service Management:
+|
+
 www.it-ebooks.info
 
 
@@ -1041,8 +1040,8 @@ who otherwise may have difficulty learning how to build a million-core distribut
 system.
 Despite these net gains, the SRE model is characterized by its own distinct set of chal‐
 lenges. One continual challenge Google faces is hiring SREs: not only does SRE
-6 
-| 
+
+|
 Chapter 1: Introduction
 www.it-ebooks.info
 
@@ -1083,9 +1082,9 @@ practice, this is accomplished by monitoring the amount of operational work bein
 done by SREs, and redirecting excess operational work to the product development
 teams: reassigning bugs and tickets to development managers, [re]integrating devel‐
 opers into on-call pager rotations, and so on. The redirection ends when the opera‐
-Tenets of SRE 
-| 
-7
+Tenets of SRE
+|
+
 www.it-ebooks.info
 
 
@@ -1108,8 +1107,7 @@ Postmortems should be written for all significant incidents, regardless of wheth
 not they paged; postmortems that did not trigger a page are even more valuable, as
 they likely point to clear monitoring gaps. This investigation should establish what
 happened in detail, find all root causes of the event, and assign actions to correct the
-problem or improve how it is addressed next time. Google operates under a blame-
-free postmortem culture, with the goal of exposing faults and applying engineering to
+problem or improve how it is addressed next time. Google operates under a blamefree postmortem culture, with the goal of exposing faults and applying engineering to
 fix these faults, rather than avoiding or minimizing them.
 Pursuing Maximum Change Velocity Without Violating a Service’s SLO
 Product development and SRE teams can enjoy a productive working relationship by
@@ -1126,8 +1124,8 @@ vice (their laptop, their home WiFi, their ISP, the power grid…) and those sys
 collectively are far less than 99.999% available. Thus, the marginal difference between
 99.999% and 100% gets lost in the noise of other unavailability, and the user receives
 no benefit from the enormous effort required to add that last 0.001% of availability.
-8 
-| 
+
+|
 Chapter 1: Introduction
 www.it-ebooks.info
 
@@ -1168,9 +1166,9 @@ of action needs to be taken in response is fundamentally flawed. Monitoring shou
 never require a human to interpret any part of the alerting domain. Instead, software
 should do the interpreting, and humans should be notified only when they need to
 take action.
-Tenets of SRE 
-| 
-9
+Tenets of SRE
+|
+
 www.it-ebooks.info
 
 
@@ -1207,8 +1205,8 @@ fortune,”2 to prepare engineers to react to on-call events.
 Change Management
 SRE has found that roughly 70% of outages are due to changes in a live system. Best
 practices in this domain use automation to accomplish the following:
-10 
-| 
+
+|
 Chapter 1: Introduction
 www.it-ebooks.info
 
@@ -1247,9 +1245,9 @@ work when needed. Adding new capacity often involves spinning up a new instance
 or location, making significant modification to existing systems (configuration files,
 load balancers, networking), and validating that the new capacity performs and deliv‐
 ers correct results. Thus, it is a riskier operation than load shifting, which is often
-Tenets of SRE 
-| 
-11
+Tenets of SRE
+|
+
 www.it-ebooks.info
 
 
@@ -1279,8 +1277,8 @@ practices for managing large, complicated services. Motivated originally by fami
 set of repetitive tasks”—it has become much more: a set of principles, a set of practi‐
 ces, a set of incentives, and a field of endeavor within the larger software engineering
 discipline. The rest of the book explores the SRE Way in detail.
-12 
-| 
+
+|
 Chapter 1: Introduction
 www.it-ebooks.info
 
@@ -1293,22 +1291,20 @@ The Production Environment at Google,
 from the Viewpoint of an SRE
 Written by JC van Winkel
 Edited by Betsy Beyer
-Google datacenters are very different from most conventional datacenters and small-
-scale server farms. These differences present both extra problems and opportunities.
+Google datacenters are very different from most conventional datacenters and smallscale server farms. These differences present both extra problems and opportunities.
 This chapter discusses the challenges and opportunities that characterize Google
 datacenters and introduces terminology that is used throughout the book.
 Hardware
 Most of Google’s compute resources are in Google-designed datacenters with propri‐
 etary power distribution, cooling, networking, and compute hardware (see [Bar13]).
-Unlike “standard” colocation datacenters, the compute hardware in a Google-
-designed datacenter is the same across the board.1 To eliminate the confusion
+Unlike “standard” colocation datacenters, the compute hardware in a Googledesigned datacenter is the same across the board.1 To eliminate the confusion
 between server hardware and server software, we use the following terminology
 throughout the book:
 Machine
 A piece of hardware (or perhaps a VM)
 Server
 A piece of software that implements a service
-13
+
 www.it-ebooks.info
 
 
@@ -1332,8 +1328,8 @@ ated a very fast virtual switch with tens of thousands of ports. We accomplished
 by connecting hundreds of Google-built switches in a Clos network fabric [Clos53]
 named Jupiter [Sin15]. In its largest configuration, Jupiter supports 1.3 Pbps bisection
 bandwidth among servers.
-14 
-| 
+
+|
 Chapter 2: The Production Environment at Google, from the Viewpoint of an SRE
 www.it-ebooks.info
 
@@ -1360,9 +1356,9 @@ Managing Machines
 Borg, illustrated in Figure 2-2, is a distributed cluster operating system [Ver15], simi‐
 lar to Apache Mesos.2 Borg manages its jobs at the cluster level.
 Figure 2-2. High-level Borg cluster architecture
-System Software That “Organizes” the Hardware 
-| 
-15
+System Software That “Organizes” the Hardware
+|
+
 www.it-ebooks.info
 
 
@@ -1404,8 +1400,8 @@ machine is storing their data, which is where the next layer comes into play.
 2. A layer on top of D called Colossus creates a cluster-wide filesystem that offers
 usual filesystem semantics, as well as replication and encryption. Colossus is the
 successor to GFS, the Google File System [Ghe03].
-16 
-| 
+
+|
 Chapter 2: The Production Environment at Google, from the Viewpoint of an SRE
 www.it-ebooks.info
 
@@ -1431,9 +1427,9 @@ routers and use simple switching hardware.
 Network bandwidth needs to be allocated wisely. Just as Borg limits the compute
 resources that a task can use, the Bandwidth Enforcer (BwE) manages the available
 bandwidth to maximize the average available bandwidth. Optimizing bandwidth isn’t
-System Software That “Organizes” the Hardware 
-| 
-17
+System Software That “Organizes” the Hardware
+|
+
 www.it-ebooks.info
 
 
@@ -1469,8 +1465,8 @@ many instances of our Borgmon monitoring program (see Chapter 10). Borgmon reg�
 ularly “scrapes” metrics from monitored servers. These metrics can be used instanta‐
 neously for alerting and also stored for use in historic overviews (e.g., graphs). We
 can use monitoring in several ways:
-18 
-| 
+
+|
 Chapter 2: The Production Environment at Google, from the Viewpoint of an SRE
 www.it-ebooks.info
 
@@ -1505,9 +1501,9 @@ ment environment to make use of our infrastructure [Mor12b].
 Apart from a few groups that have their own open source repositories (e.g., Android
 and Chrome), Google Software Engineers work from a single shared repository
 [Pot16]. This has a few important practical implications for our workflows:
-Our Software Infrastructure 
-| 
-19
+Our Software Infrastructure
+|
+
 www.it-ebooks.info
 
 
@@ -1540,8 +1536,8 @@ This is faster if performed in parallel by multiple workers.
 The shuffle phase sorts the tuples by word.
 In the reduce phase, a tuple of (word, list of locations) is created.
 Each tuple is written to a row in a Bigtable, using the word as the key.
-20 
-| 
+
+|
 Chapter 2: The Production Environment at Google, from the Viewpoint of an SRE
 www.it-ebooks.info
 
@@ -1570,9 +1566,9 @@ This entire chain of events is executed in the blink of an eye—just a few hund
 liseconds! Because many moving parts are involved, there are many potential points
 of failure; in particular, a failing GSLB would wreak havoc. However, Google’s policies
 of rigorous testing and careful rollout, in addition to our proactive error recovery
-Shakespeare: A Sample Service 
-| 
-21
+Shakespeare: A Sample Service
+|
+
 www.it-ebooks.info
 
 
@@ -1610,8 +1606,8 @@ tual consistency, it isn’t a major problem because we don’t need to update t
 often.
 We’ve introduced a lot of terminology here; while you don’t need to remember it all,
 it’s useful for framing many of the other systems we’ll refer to later.
-22 
-| 
+
+|
 Chapter 2: The Production Environment at Google, from the Viewpoint of an SRE
 www.it-ebooks.info
 
@@ -1687,7 +1683,7 @@ chance of system failure. However, experience shows that as we build systems, co
 does not increase linearly as reliability increments—an incremental improvement in
 reliability may cost 100x more than the previous increment. The costliness has two
 dimensions:
-25
+
 www.it-ebooks.info
 
 
@@ -1729,8 +1725,8 @@ number of “nines” we would like to provide: 99.9%, 99.99%, or 99.999% availa
 Each additional nine corresponds to an order of magnitude improvement toward
 100% availability. For serving systems, this metric is traditionally calculated based on
 the proportion of system uptime (see Equation 3-1).
-26 
-| 
+
+|
 Chapter 3: Embracing Risk
 www.it-ebooks.info
 
@@ -1749,8 +1745,7 @@ lation makes it very likely that we are serving at least a subset of traffic for
 service somewhere in the world at any given time (i.e., we are at least partially “up” at
 all times). Therefore, instead of using metrics around uptime, we define availability in
 terms of the request success rate. Equation 3-2 shows how this yield-based metric is
-calculated over a rolling window (i.e., proportion of successful requests over a one-
-day window).
+calculated over a rolling window (i.e., proportion of successful requests over a oneday window).
 Equation 3-2. Aggregate availability
 availability = successful requests
 total requests
@@ -1773,9 +1768,9 @@ of our customer databases into a data warehouse to enable further analysis may b
 to run periodically. Using a request success rate defined in terms of records success‐
 fully and unsuccessfully processed, we can calculate a useful availability metric
 despite the fact that the batch system does not run constantly.
-Measuring Service Risk 
-| 
-27
+Measuring Service Risk
+|
+
 www.it-ebooks.info
 
 
@@ -1811,8 +1806,8 @@ as the following:
 • Do different types of failures have different effects on the service?
 • How can we use the service cost to help locate a service on the risk continuum?
 • What other service metrics are important to take into account?
-28 
-| 
+
+|
 Chapter 3: Embracing Risk
 www.it-ebooks.info
 
@@ -1854,9 +1849,9 @@ An illustrative example of the difference between full and partial outages natur
 arises in systems that serve private information. Consider a contact management
 application, and the difference between intermittent failures that cause profile pic‐
 tures to fail to render, versus a failure case that results in a user’s private contacts
-Risk Tolerance of Services 
-| 
-29
+Risk Tolerance of Services
+|
+
 www.it-ebooks.info
 
 
@@ -1895,8 +1890,8 @@ ground error rate of ISPs on the Internet. If failures are being measured from t
 end-user perspective and it is possible to drive the error rate for the service below the
 background error rate, those errors will fall within the noise for a given user’s Internet
 connection. While there are significant differences between ISPs and protocols (e.g.,
-30 
-| 
+
+|
 Chapter 3: Embracing Risk
 www.it-ebooks.info
 
@@ -1921,8 +1916,7 @@ third-party page when inserting contextual ads. The specific latency target, the
 dependent on the speed at which a given publisher’s page renders. This means that
 AdSense ads can generally be served hundreds of milliseconds slower than AdWords
 ads.
-This looser serving latency requirement has allowed us to make many smart trade-
-offs in provisioning (i.e., determining the quantity and locations of serving resources
+This looser serving latency requirement has allowed us to make many smart tradeoffs in provisioning (i.e., determining the quantity and locations of serving resources
 we use), which save us substantial cost over naive provisioning. In other words, given
 the relative insensitivity of the AdSense service to moderate changes in latency per‐
 formance, we are able to consolidate serving into fewer geographical locations, reduc‐
@@ -1937,9 +1931,9 @@ Consider Bigtable [Cha06], a massive-scale distributed storage system for struct
 data. Some consumer services serve data directly from Bigtable in the path of a user
 request. Such services need low latency and high reliability. Other teams use Bigtable
 as a repository for data that they use to perform offline analysis (e.g., MapReduce) on
-Risk Tolerance of Services 
-| 
-31
+Risk Tolerance of Services
+|
+
 www.it-ebooks.info
 
 
@@ -1978,11 +1972,10 @@ trade-offs when building their systems. With explicitly delineated levels of ser
 infrastructure providers can effectively externalize the difference in the cost it takes to
 provide service at a given level to clients. Exposing cost in this way motivates the cli‐
 ents to choose the level of service with the lowest cost that still meets their needs. For
-example, Google+ can decide to put data critical to enforcing user privacy in a high-
-availability, globally consistent datastore (e.g., a globally replicated SQL-like system
+example, Google+ can decide to put data critical to enforcing user privacy in a highavailability, globally consistent datastore (e.g., a globally replicated SQL-like system
 like Spanner [Cor12]), while putting optional data (data that isn’t critical, but that
-32 
-| 
+
+|
 Chapter 3: Embracing Risk
 www.it-ebooks.info
 
@@ -2010,7 +2003,7 @@ We’ve explored the ways to identify the risk tolerance of both consumer and in
 structure services. Now, we’ll discuss using that tolerance level to manage unreliabil‐
 ity via error budgets.
 Motivation for Error Budgets
-1
+
 Written by Mark Roth
 Edited by Carmela Quinito
 Other chapters in this book discuss how tensions can arise between product develop‐
@@ -2023,9 +2016,9 @@ try between the two teams further amplifies this inherent tension. The product d
 opers have more visibility into the time and effort involved in writing and releasing
 their code, while the SREs have more visibility into the service’s reliability (and the
 state of production in general).
-Motivation for Error Budgets 
-| 
-33
+Motivation for Error Budgets
+|
+
 www.it-ebooks.info
 
 
@@ -2065,8 +2058,8 @@ ing how much risk to allow.
 Our practice is then as follows:
 • Product Management defines an SLO, which sets an expectation of how much
 uptime the service should have per quarter.
-34 
-| 
+
+|
 Chapter 3: Embracing Risk
 www.it-ebooks.info
 
@@ -2106,9 +2099,9 @@ be reduced for the remainder of the quarter. The entire team supports this reduc
 because everyone shares the responsibility for uptime.
 The budget also helps to highlight some of the costs of overly high reliability targets,
 in terms of both inflexibility and slow innovation. If the team is having trouble
-Motivation for Error Budgets 
-| 
-35
+Motivation for Error Budgets
+|
+
 www.it-ebooks.info
 
 
@@ -2125,8 +2118,8 @@ and product development. Error budgets make it easier to decide the rate of
 releases and to effectively defuse discussions about outages with stakeholders,
 and allows multiple teams to reach the same conclusion about production risk
 without rancor.
-36 
-| 
+
+|
 Chapter 3: Embracing Risk
 www.it-ebooks.info
 
@@ -2155,7 +2148,7 @@ Many readers are likely familiar with the concept of an SLA, but the terms SLI a
 SLO are also worth careful definition, because in common use, the term SLA is over‐
 loaded and has taken on a number of meanings depending on context. We prefer to
 separate those meanings for clarity.
-37
+
 www.it-ebooks.info
 
 
@@ -2196,8 +2189,8 @@ under 100 milliseconds, and setting such a goal could in turn motivate you to wr
 your frontend with low-latency behaviors of various kinds or to buy certain kinds of
 low-latency equipment. (100 milliseconds is obviously an arbitrary value, but in gen‐
 eral lower latency numbers are good. There are excellent reasons to believe that fast is
-38 
-| 
+
+|
 Chapter 4: Service Level Objectives
 www.it-ebooks.info
 
@@ -2212,8 +2205,7 @@ Choosing and publishing SLOs to users sets expectations about how a service will
 perform. This strategy can reduce unfounded complaints to service owners about, for
 example, the service being slow. Without an explicit SLO, users often develop their
 own beliefs about desired performance, which may be unrelated to the beliefs held by
-the people designing and operating the service. This dynamic can lead to both over-
-reliance on the service, when users incorrectly believe that a service will be more
+the people designing and operating the service. This dynamic can lead to both overreliance on the service, when users incorrectly believe that a service will be more
 available than it actually is (as happened with Chubby: see “The Global Chubby Plan‐
 ned Outage”), and under-reliance, when prospective users believe a system is flakier
 and less reliable than it actually is.
@@ -2238,9 +2230,9 @@ Agreements
 Finally, SLAs are service level agreements: an explicit or implicit contract with your
 users that includes consequences of meeting (or missing) the SLOs they contain. The
 consequences are most easily recognized when they are financial—a rebate or a pen‐
-Service Level Terminology 
-| 
-39
+Service Level Terminology
+|
+
 www.it-ebooks.info
 
 
@@ -2274,8 +2266,8 @@ selection of a few indicators. Choosing too many indicators makes it hard to pay
 right level of attention to the indicators that matter, while choosing too few may leave
 significant behaviors of your system unexamined. We typically find that a handful of
 representative indicators are enough to evaluate and reason about a system’s health.
-40 
-| 
+
+|
 Chapter 4: Service Level Objectives
 www.it-ebooks.info
 
@@ -2316,9 +2308,9 @@ served, but even this apparently straightforward measurement implicitly aggregat
 data over the measurement window. Is the measurement obtained once a second, or
 by averaging requests over a minute? The latter may hide much higher instantaneous
 request rates in bursts that last for only a few seconds. Consider a system that serves
-Indicators in Practice 
-| 
-41
+Indicators in Practice
+|
+
 www.it-ebooks.info
 
 
@@ -2335,8 +2327,7 @@ request is served in about 50 ms, 5% of requests are 20 times slower! Monitoring
 alerting based only on the average latency would show no change in behavior over
 the course of the day, when there are in fact significant changes in the tail latency (the
 topmost line).
-Figure 4-1. 50th, 85th, 95th, and 99th percentile latencies for a system. Note that the Y-
-axis has a logarithmic scale.
+Figure 4-1. 50th, 85th, 95th, and 99th percentile latencies for a system. Note that the Yaxis has a logarithmic scale.
 Using percentiles for indicators allows you to consider the shape of the distribution
 and its differing attributes: a high-order percentile, such as the 99th or 99.9th, shows
 you a plausible worst-case value, while using the 50th percentile (also known as the
@@ -2346,8 +2337,8 @@ ted at high load by queuing effects. User studies have shown that people typical
 fer a slightly slower system to one with high variance in response time, so some SRE
 teams focus only on high percentile values, on the grounds that if the 99.9th percen‐
 tile behavior is good, then the typical experience is certainly going to be.
-42 
-| 
+
+|
 Chapter 4: Service Level Objectives
 www.it-ebooks.info
 
@@ -2384,9 +2375,9 @@ Start by thinking about (or finding out!) what your users care about, not what y
 can measure. Often, what your users care about is difficult or impossible to measure,
 so you’ll end up approximating users’ needs in some way. However, if you simply start
 with what’s easy to measure, you’ll end up with less useful SLOs. As a result, we’ve
-Objectives in Practice 
-| 
-43
+Objectives in Practice
+|
+
 www.it-ebooks.info
 
 
@@ -2421,8 +2412,8 @@ The rate at which SLOs are missed is a useful indicator for the user-perceived h
 of the service. It is helpful to track SLOs (and SLO violations) on a daily or weekly
 basis to see trends and get early warning of potential problems before they happen.
 Upper management will probably want a monthly or quarterly assessment, too.
-44 
-| 
+
+|
 Chapter 4: Service Level Objectives
 www.it-ebooks.info
 
@@ -2462,9 +2453,9 @@ with an SLO.
 Perfection can wait
 You can always refine SLO definitions and targets over time as you learn about a
 system’s behavior. It’s better to start with a loose target that you tighten than to
-Objectives in Practice 
-| 
-45
+Objectives in Practice
+|
+
 www.it-ebooks.info
 
 
@@ -2500,8 +2491,8 @@ respond to chronic problems before they become visible externally. An SLO
 buffer also makes it possible to accommodate reimplementations that trade per‐
 formance for other attributes, such as cost or ease of maintenance, without hav‐
 ing to disappoint users.
-46 
-| 
+
+|
 Chapter 4: Service Level Objectives
 www.it-ebooks.info
 
@@ -2526,9 +2517,9 @@ difficulty of meeting the SLOs contained in the SLA. Much of the advice on SLO c
 struction is also applicable for SLAs. It is wise to be conservative in what you adver‐
 tise to users, as the broader the constituency, the harder it is to change or delete SLAs
 that prove to be unwise or difficult to work with.
-Agreements in Practice 
-| 
-47
+Agreements in Practice
+|
+
 www.it-ebooks.info
 
 
@@ -2559,7 +2550,7 @@ value, and in that case, it’s not toil, either. Cleaning up the entire alertin
 tion for your service and removing clutter may be grungy, but it’s not toil.
 So what is toil? Toil is the kind of work tied to running a production service that
 tends to be manual, repetitive, automatable, tactical, devoid of enduring value, and
-49
+
 www.it-ebooks.info
 
 
@@ -2601,8 +2592,8 @@ If the work involved in a task scales up linearly with service size, traffic vol
 or user count, that task is probably toil. An ideally managed and designed service
 can grow by at least one order of magnitude with zero additional work, other
 than some one-time efforts to add resources.
-50 
-| 
+
+|
 Chapter 5: Eliminating Toil
 www.it-ebooks.info
 
@@ -2631,8 +2622,7 @@ follows that in a 6-person rotation, at least 2 of every 6 weeks are dedicated t
 shifts and interrupt handling, which means the lower bound on potential toil is 2/6 =
 33% of an SRE’s time. In an 8-person rotation, the lower bound is 2/8 = 25%.
 Consistent with this data, SREs report that their top source of toil is interrupts (that
-is, non-urgent service-related messages and emails). The next leading source is on-
-call (urgent) response, followed by releases and pushes. Even though our release and
+is, non-urgent service-related messages and emails). The next leading source is oncall (urgent) response, followed by releases and pushes. Even though our release and
 push processes are usually handled with a fair amount of automation, there’s still
 plenty of room for improvement in this area.
 Quarterly surveys of Google’s SREs show that the average time spent toiling is about
@@ -2641,9 +2631,9 @@ doesn’t capture outliers: some SREs claim 0% toil (pure development projects w
 on-call work) and others claim 80% toil. When individual SREs report excessive toil,
 it often indicates a need for managers to spread the toil load more evenly across the
 team and to encourage those SREs to find satisfying engineering projects.
-Why Less Toil Is Better 
-| 
-51
+Why Less Toil Is Better
+|
+
 www.it-ebooks.info
 
 
@@ -2683,8 +2673,8 @@ Toil doesn’t make everyone unhappy all the time, especially in small amounts. 
 dictable and repetitive tasks can be quite calming. They produce a sense of accom‐
 plishment and quick wins. They can be low-risk and low-stress activities. Some
 people gravitate toward tasks involving toil and may even enjoy that type of work.
-52 
-| 
+
+|
 Chapter 5: Eliminating Toil
 www.it-ebooks.info
 
@@ -2726,9 +2716,9 @@ more rewarding job.
 Causes breach of faith
 New hires or transfers who joined SRE with the promise of project work will feel
 cheated, which is bad for morale.
-Is Toil Always Bad? 
-| 
-53
+Is Toil Always Bad?
+|
+
 www.it-ebooks.info
 
 
@@ -2737,8 +2727,8 @@ If we all commit to eliminate a bit of toil each week with some good engineering
 steadily clean up our services, and we can shift our collective efforts to engineering
 for scale, architecting the next generation of services, and building cross-SRE tool‐
 chains. Let’s invent more, and toil less.
-54 
-| 
+
+|
 Chapter 5: Eliminating Toil
 www.it-ebooks.info
 
@@ -2768,7 +2758,7 @@ Testing externally visible behavior as a user would see it.
 Dashboard
 An application (usually web-based) that provides a summary view of a service’s
 core metrics. A dashboard may have filters, selectors, and so on, but is prebuilt to
-55
+
 www.it-ebooks.info
 
 
@@ -2799,14 +2789,13 @@ Any change to a service’s running software or its configuration.
 Why Monitor?
 There are many reasons to monitor a system, including:
 Analyzing long-term trends
-How big is my database and how fast is it growing? How quickly is my daily-
-active user count growing?
+How big is my database and how fast is it growing? How quickly is my dailyactive user count growing?
 Comparing over time or experiment groups
 Are queries faster with Acme Bucket of Bytes 2.72 versus Ajax DB 3.14? How
 much better is my memcache hit rate with an extra node? Is my site slower than
 it was last week?
-56 
-| 
+
+|
 Chapter 6: Monitoring Distributed Systems
 www.it-ebooks.info
 
@@ -2847,16 +2836,15 @@ generalize and centralize common monitoring infrastructure, but every SRE team
 typically has at least one “monitoring person.” (That being said, while it can be fun to
 have access to traffic graph dashboards and the like, SRE teams carefully avoid any
 situation that requires someone to “stare at a screen to watch for problems.”)
-Setting Reasonable Expectations for Monitoring 
-| 
-57
+Setting Reasonable Expectations for Monitoring
+|
+
 www.it-ebooks.info
 
 
 In general, Google has trended toward simpler and faster monitoring systems, with
 better tools for post hoc analysis. We avoid “magic” systems that try to learn thresh‐
-olds or automatically detect causality. Rules that detect unexpected changes in end-
-user request rates are one counterexample; while these rules are still kept as simple as
+olds or automatically detect causality. Rules that detect unexpected changes in enduser request rates are one counterexample; while these rules are still kept as simple as
 possible, they give a very quick detection of a very simple, specific, severe anomaly.
 Other uses of monitoring data such as capacity planning and traffic prediction can
 tolerate more fragility, and thus, more complexity. Observational experiments con‐
@@ -2886,8 +2874,8 @@ Your monitoring system should address two questions: what’s broken, and why?
 The “what’s broken” indicates the symptom; the “why” indicates a (possibly inter‐
 mediate) cause. Table 6-1 lists some hypothetical symptoms and corresponding
 causes.
-58 
-| 
+
+|
 Chapter 6: Monitoring Distributed Systems
 www.it-ebooks.info
 
@@ -2920,8 +2908,7 @@ forth.
 Note that in a multilayered system, one person’s symptom is another person’s cause.
 For example, suppose that a database’s performance is slow. Slow database reads are a
 symptom for the database SRE who detects them. However, for the frontend SRE
-observing a slow website, the same slow database reads are a cause. Therefore, white-
-box monitoring is sometimes symptom-oriented, and sometimes cause-oriented,
+observing a slow website, the same slow database reads are a cause. Therefore, whitebox monitoring is sometimes symptom-oriented, and sometimes cause-oriented,
 depending on just how informative your white-box is.
 When collecting telemetry for debugging, white-box monitoring is essential. If web
 servers seem slow on database-heavy requests, you need to know both how fast the
@@ -2932,9 +2919,9 @@ For paging, black-box monitoring has the key benefit of forcing discipline to on
 a human when a problem is both already ongoing and contributing to real symptoms.
 On the other hand, for not-yet-occurring but imminent problems, black-box moni‐
 toring is fairly useless.
-Black-Box Versus White-Box 
-| 
-59
+Black-Box Versus White-Box
+|
+
 www.it-ebooks.info
 
 
@@ -2977,8 +2964,8 @@ tion target is essential.
 In complex systems, saturation can be supplemented with higher-level load
 measurement: can your service properly handle double the traffic, handle only
 10% more traffic, or handle even less traffic than it currently receives? For very
-60 
-| 
+
+|
 Chapter 6: Monitoring Distributed Systems
 www.it-ebooks.info
 
@@ -3017,24 +3004,22 @@ between 0 ms and 10 ms, between 10 ms and 30 ms, between 30 ms and 100 ms,
 between 100 ms and 300 ms, and so on? Distributing the histogram boundaries
 approximately exponentially (in this case by factors of roughly 3) is often an easy way
 to visualize the distribution of your requests.
-Worrying About Your Tail (or, Instrumentation and Performance) 
-| 
-61
+Worrying About Your Tail (or, Instrumentation and Performance)
+|
+
 www.it-ebooks.info
 
 
 Choosing an Appropriate Resolution for Measurements
 Different aspects of a system should be measured with different levels of granularity.
 For example:
-• Observing CPU load over the time span of a minute won’t reveal even quite long-
-lived spikes that drive high tail latencies.
+• Observing CPU load over the time span of a minute won’t reveal even quite longlived spikes that drive high tail latencies.
 • On the other hand, for a web service targeting no more than 9 hours aggregate
 downtime per year (99.9% annual uptime), probing for a 200 (success) status
 more than once or twice a minute is probably unnecessarily frequent.
 • Similarly, checking hard drive fullness for a service targeting 99.9% availability
 more than once every 1–2 minutes is probably unnecessary.
-Take care in how you structure the granularity of your measurements. Collecting per-
-second measurements of CPU load might yield interesting data, but such frequent
+Take care in how you structure the granularity of your measurements. Collecting persecond measurements of CPU load might yield interesting data, but such frequent
 measurements may be very expensive to collect, store, and analyze. If your monitor‐
 ing goal calls for high resolution but doesn’t require extremely low latency, you can
 reduce these costs by performing internal sampling on the server, then configuring an
@@ -3056,8 +3041,8 @@ ferent metrics
 The sources of potential complexity are never-ending. Like all software systems,
 monitoring can become so complex that it’s fragile, complicated to change, and a
 maintenance burden.
-62 
-| 
+
+|
 Chapter 6: Monitoring Distributed Systems
 www.it-ebooks.info
 
@@ -3078,8 +3063,7 @@ In Google’s experience, basic collection and aggregation of metrics, paired wi
 ing and dashboards, has worked well as a relatively standalone system. (In fact Goo‐
 gle’s monitoring system is broken up into several binaries, but typically people learn
 about all aspects of these binaries.) It can be tempting to combine monitoring with
-other aspects of inspecting complex systems, such as detailed system profiling, single-
-process debugging, tracking details about exceptions or crashes, load testing, log col‐
+other aspects of inspecting complex systems, such as detailed system profiling, singleprocess debugging, tracking details about exceptions or crashes, load testing, log col‐
 lection and analysis, or traffic inspection. While most of these subjects share
 commonalities with basic monitoring, blending together too many results in overly
 complex and fragile systems. As in many other aspects of software engineering, main‐
@@ -3097,9 +3081,9 @@ When creating rules for monitoring and alerting, asking the following questions 
 help you avoid false positives and pager burnout:3
 • Does this rule detect an otherwise undetected condition that is urgent, actionable,
 and actively or imminently user-visible?4
-Tying These Principles Together 
-| 
-63
+Tying These Principles Together
+|
+
 www.it-ebooks.info
 
 
@@ -3109,8 +3093,7 @@ be able to ignore this alert, and how can I avoid this scenario?
 there detectable cases in which users aren’t being negatively impacted, such as
 drained traffic or test deployments, that should be filtered out?
 • Can I take action in response to this alert? Is that action urgent, or could it wait
-until morning? Could the action be safely automated? Will that action be a long-
-term fix, or just a short-term workaround?
+until morning? Could the action be safely automated? Will that action be a longterm fix, or just a short-term workaround?
 • Are other people getting paged for this issue, therefore rendering at least one of
 the pages unnecessary?
 These questions reflect a fundamental philosophy on pages and pagers:
@@ -3137,8 +3120,8 @@ Every page that happens today distracts a human from improving the system for
 tomorrow, so there is often a case for taking a short-term hit to availability or perfor‐
 mance in order to improve the long-term outlook for the system. Let’s take a look at
 two case studies that illustrate this trade-off.
-64 
-| 
+
+|
 Chapter 6: Monitoring Distributed Systems
 www.it-ebooks.info
 
@@ -3181,9 +3164,9 @@ just the right way to minimize impact to users. The team had several discussions
 about whether or not we should simply automate the entire loop from detecting the
 problem to nudging the rescheduler, until a better long-term solution was achieved,
 but some worried this kind of workaround would delay a real fix.
-Monitoring for the Long Term 
-| 
-65
+Monitoring for the Long Term
+|
+
 www.it-ebooks.info
 
 
@@ -3193,8 +3176,7 @@ trust of the team’s self-discipline: while some team members want to implement
 that the proper fix will be deprioritized indefinitely. This concern is credible, as it’s
 easy to build layers of unmaintainable technical debt by patching over problems
 instead of making real fixes. Managers and technical leaders play a key role in imple‐
-menting true, long-term fixes by supporting and prioritizing potentially time-
-consuming long-term fixes even when the initial “pain” of paging subsides.
+menting true, long-term fixes by supporting and prioritizing potentially timeconsuming long-term fixes even when the initial “pain” of paging subsides.
 Pages with rote, algorithmic responses should be a red flag. Unwillingness on the part
 of your team to automate such pages implies that the team lacks confidence that they
 can clean up their technical debt. This is a major problem worth escalating.
@@ -3206,8 +3188,7 @@ fraught with burnout and dependence on a small number of heroic team members.
 Taking a controlled, short-term decrease in availability is often a painful, but strategic
 trade for the long-run stability of the system. It’s important not to think of every page
 as an event in isolation, but to consider whether the overall level of paging leads
-toward a healthy, appropriately available system with a healthy, viable team and long-
-term outlook. We review statistics about page frequency (usually expressed as inci‐
+toward a healthy, appropriately available system with a healthy, viable team and longterm outlook. We review statistics about page frequency (usually expressed as inci‐
 dents per shift, where an incident might be composed of a few related pages) in
 quarterly reports with management, ensuring that decision makers are kept up to
 date on the pager load and overall health of their teams.
@@ -3225,8 +3206,8 @@ Over the long haul, achieving a successful on-call rotation and product includes
 choosing to alert on symptoms or imminent real problems, adapting your targets to
 goals that are actually achievable, and making sure that your monitoring supports
 rapid diagnosis.
-66 
-| 
+
+|
 Chapter 6: Monitoring Distributed Systems
 www.it-ebooks.info
 
@@ -3255,7 +3236,7 @@ Although scale is an obvious motivation for automation, there are many other rea
 sons to use it. Take the example of university computing systems, where many sys‐
 tems engineering folks started their careers. Systems administrators of that
 background were generally charged with running a collection of machines or some
-67
+
 www.it-ebooks.info
 
 
@@ -3296,8 +3277,8 @@ tion runs regularly and successfully enough, the result is a reduced mean time t
 repair (MTTR) for those common faults. You can then spend your time on other
 tasks instead, thereby achieving increased developer velocity because you don’t have
 to spend time either preventing a problem or (more commonly) cleaning up after it.
-68 
-| 
+
+|
 Chapter 7: The Evolution of Automation at Google
 www.it-ebooks.info
 
@@ -3336,9 +3317,9 @@ tem. If we have to staff humans to do the work, we are feeding the
 machines with the blood, sweat, and tears of human beings. Think
 The Matrix with less special effects and more pissed off System
 Administrators.”
-The Value of Automation 
-| 
-69
+The Value of Automation
+|
+
 www.it-ebooks.info
 
 
@@ -3378,18 +3359,16 @@ necessary for manageability and scalability.
 The Use Cases for Automation
 In the industry, automation is the term generally used for writing code to solve a wide
 variety of problems, although the motivations for writing this code, and the solutions
-70 
-| 
+
+|
 Chapter 7: The Evolution of Automation at Google
 www.it-ebooks.info
 
 
 5 Of course, not every system that needs to be managed actually provides callable APIs for management—forc‐
 ing some tooling to use, e.g., CLI invocations or automated website clicks.
-themselves, are often quite different. More broadly, in this view, automation is “meta-
-software”—software to act on software.
-As we implied earlier, there are a number of use cases for automation. Here is a non-
-exhaustive list of examples:
+themselves, are often quite different. More broadly, in this view, automation is “metasoftware”—software to act on software.
+As we implied earlier, there are a number of use cases for automation. Here is a nonexhaustive list of examples:
 • User account creation
 • Cluster turnup and turndown for services
 • Software or hardware installation preparation and decommissioning
@@ -3418,9 +3397,9 @@ scope of automation across the APIs accessible to the system,5 whereas Chef and 
 pet provide out-of-the-box abstractions with which services or other higher-level
 entities can be manipulated. The trade-off here is classic: higher-level abstractions are
 easier to manage and reason about, but when you encounter a “leaky abstraction,”
-The Use Cases for Automation 
-| 
-71
+The Use Cases for Automation
+|
+
 www.it-ebooks.info
 
 
@@ -3462,8 +3441,8 @@ cycle. Cluster failover is one classic example of infrequently executed automati
 failovers might only occur every few months, or infrequently enough that inconsis‐
 tencies between instances are introduced. The evolution of automation follows a
 path:
-72 
-| 
+
+|
 Chapter 7: The Evolution of Automation at Google
 www.it-ebooks.info
 
@@ -3490,8 +3469,7 @@ make access more reliable, and so on—which nonetheless need to be safely manag
 and rolled back if necessary. Beyond a certain volume of changes, it is infeasible for
 production-wide changes to be accomplished manually, and at some time before that
 point, it’s a waste to have manual oversight for a process where a large proportion of
-the changes are either trivial or accomplished successfully by basic relaunch-and-
-check strategies.
+the changes are either trivial or accomplished successfully by basic relaunch-andcheck strategies.
 Let’s use internal case studies to illustrate some of the preceding points in detail. The
 first case study is about how, due to some diligent, far-sighted work, we managed to
 achieve the self-professed nirvana of SRE: to automate ourselves out of a job.
@@ -3504,9 +3482,9 @@ had automated away the worst, but not all, of the routine work for standard repl
 replacements. We believed the Ads Database was well managed and that we had har‐
 vested most of the low-hanging fruit in terms of optimization and scale. However, as
 daily operations became comfortable, team members began to look at the next level
-Automate Yourself Out of a Job: Automate ALL the Things! 
-| 
-73
+Automate Yourself Out of a Job: Automate ALL the Things!
+|
+
 www.it-ebooks.info
 
 
@@ -3547,8 +3525,8 @@ to be changed to include significantly more failure-handling logic than before. 
 that the norm in the MySQL development world is to assume that the MySQL
 instance will be the most stable component in the stack, this switch meant customiz‐
 ing software like JDBC to be more tolerant of our failure-prone environment. How‐
-74 
-| 
+
+|
 Chapter 7: The Evolution of Automation at Google
 www.it-ebooks.info
 
@@ -3587,9 +3565,9 @@ The steps taken to get a cluster ready for use were something like the following
 vice, storage, and computing.
 5. Deploy the remaining racks of machines.
 6. Assign user-facing services resources, so their teams can set up the services.
-Soothing the Pain: Applying Automation to Cluster Turnups 
-| 
-75
+Soothing the Pain: Applying Automation to Cluster Turnups
+|
+
 www.it-ebooks.info
 
 
@@ -3604,8 +3582,7 @@ In one case, a multi-petabyte Bigtable cluster was configured to not use the fir
 ging) disk on 12-disk systems, for latency reasons. A year later, some automation
 assumed that if a machine’s first disk wasn’t being used, that machine didn’t have any
 storage configured; therefore, it was safe to wipe the machine and set it up from
-scratch. All of the Bigtable data was wiped, instantly. Thankfully we had multiple real-
-time replicas of the dataset, but such surprises are unwelcome. Automation needs to
+scratch. All of the Bigtable data was wiped, instantly. Thankfully we had multiple realtime replicas of the dataset, but such surprises are unwelcome. Automation needs to
 be careful about relying on implicit “safety” signals.
 Early automation focused on accelerating cluster delivery. This approach tended to
 rely upon creative use of SSH for tedious package distribution and service initializa‐
@@ -3630,8 +3607,8 @@ Prodtest (Production Test) was an ingenious solution to these unwelcome surprise
 We extended the Python unit test framework to allow for unit testing of real-world
 services. These unit tests have dependencies, allowing a chain of tests, and a failure in
 one test would quickly abort. Take the test shown in Figure 7-1 as an example.
-76 
-| 
+
+|
 Chapter 7: The Evolution of Automation at Google
 www.it-ebooks.info
 
@@ -3653,9 +3630,9 @@ and had a complete understanding of why each clusters took six or more weeks to 
 from “network-ready” to “serving live traffic.” Out of the blue, SRE received a mission
 from senior management: In three months, five new clusters will reach network-ready
 on the same day. Please turn them up in one week.
-Soothing the Pain: Applying Automation to Cluster Turnups 
-| 
-77
+Soothing the Pain: Applying Automation to Cluster Turnups
+|
+
 www.it-ebooks.info
 
 
@@ -3689,8 +3666,8 @@ Looking back, this approach was deeply flawed; the latency between the test, the
 and then a second test introduced flaky tests that sometimes worked and sometimes
 failed. Not all fixes were naturally idempotent, so a flaky test that was followed by a
 fix might render the system in an inconsistent state.
-78 
-| 
+
+|
 Chapter 7: The Evolution of Automation at Google
 www.it-ebooks.info
 
@@ -3712,9 +3689,9 @@ turnup so that we could track the remaining tasks, and who those tasks were assi
 to. If the human interactions regarding automation modules occurred between peo‐
 ple in the same room, cluster turnups could happen in a much shorter time. Finally,
 we had our competent, accurate, and timely automation process!
-Soothing the Pain: Applying Automation to Cluster Turnups 
-| 
-79
+Soothing the Pain: Applying Automation to Cluster Turnups
+|
+
 www.it-ebooks.info
 
 
@@ -3754,8 +3731,8 @@ code reviews, making it very difficult for someone to exceed their authority; gi
 someone the access to install packages would not let them view colocated logs. The
 Admin Server logged the RPC requestor, any parameters, and the results of all RPCs
 to enhance debugging and security audits.
-80 
-| 
+
+|
 Chapter 7: The Evolution of Automation at Google
 www.it-ebooks.info
 
@@ -3765,8 +3742,7 @@ Service-Oriented Cluster-Turnup
 In the next iteration, Admin Servers became part of service teams’ workflows, both as
 related to the machine-specific Admin Servers (for installing packages and rebooting)
 and cluster-level Admin Servers (for actions like draining or turning up a service).
-SREs moved from writing shell scripts in their home directories to building peer-
-reviewed RPC servers with fine-grained ACLs.
+SREs moved from writing shell scripts in their home directories to building peerreviewed RPC servers with fine-grained ACLs.
 Later on, after the realization that turnup processes had to be owned by the teams
 that owned the services fully sank in, we saw this as a way to approach cluster turnup
 as a Service-Oriented Architecture (SOA) problem: service owners would be respon‐
@@ -3793,9 +3769,9 @@ development of our cluster management systems.6 Like MySQL on Borg, which
 demonstrated the success of converting manual operations to automatic ones, and the
 cluster turnup process, which demonstrated the downside of not thinking carefully
 enough about where and how automation was implemented, developing cluster man‐
-Borg: Birth of the Warehouse-Scale Computer 
-| 
-81
+Borg: Birth of the Warehouse-Scale Computer
+|
+
 www.it-ebooks.info
 
 
@@ -3834,8 +3810,8 @@ for which API calls could be issued, to some central coordinator. This liberated
 dimensions of efficiency, flexibility, and reliability: unlike the previous model of
 machine “ownership,” Borg could allow machines to schedule, for example, batch and
 user-facing tasks on the same machine.
-82 
-| 
+
+|
 Chapter 7: The Evolution of Automation at Google
 www.it-ebooks.info
 
@@ -3878,9 +3854,9 @@ the downside of highly effective automation:9 human operators are progressively
 more relieved of useful direct contact with the system as the automation covers more
 and more daily activities over time. Inevitably, then, a situation arises in which the
 automation fails, and the humans are now unable to successfully operate the system.
-Reliability Is the Fundamental Feature 
-| 
-83
+Reliability Is the Fundamental Feature
+|
+
 www.it-ebooks.info
 
 
@@ -3900,8 +3876,7 @@ there are still strong arguments for more autonomous behavior of systems irrespe
 tive of size. Reliability is the fundamental feature, and autonomous, resilient behavior
 is one useful way to get that.
 Recommendations
-You might read the examples in this chapter and decide that you need to be Google-
-scale before you have anything to do with automation whatsoever. This is untrue, for
+You might read the examples in this chapter and decide that you need to be Googlescale before you have anything to do with automation whatsoever. This is untrue, for
 two reasons: automation provides more than just time saving, so it’s worth imple‐
 menting in more cases than a simple time-expended versus time-saved calculation
 might suggest. But the approach with the highest leverage actually occurs in the
@@ -3910,8 +3885,8 @@ ality faster, yet rarely makes for a resilient system. Autonomous operation is d
 to convincingly retrofit to sufficiently large systems, but standard good practices in
 software engineering will help considerably: having decoupled subsystems, introduc‐
 ing APIs, minimizing side effects, and so on.
-84 
-| 
+
+|
 Chapter 7: The Evolution of Automation at Google
 www.it-ebooks.info
 
@@ -3942,9 +3917,9 @@ good capacity planning (at least we got that right!). Meanwhile, we spent the be
 part of two days reinstalling the machines in the affected colo racks; then we spent the
 following weeks auditing and adding more sanity checks—including rate limiting—
 into our automation, and making our decommission workflow idempotent.
-Recommendations 
-| 
-85
+Recommendations
+|
+
 www.it-ebooks.info
 
 
@@ -3976,7 +3951,7 @@ The Role of a Release Engineer
 Google is a data-driven company and release engineering follows suit. We have tools
 that report on a host of metrics, such as how much time it takes for a code change to
 be deployed into production (in other words, release velocity) and statistics on what
-87
+
 www.it-ebooks.info
 
 
@@ -4016,8 +3991,8 @@ hourly builds and then select the version to actually deploy to production from 
 resulting pool of builds. Selection is based upon the test results and the features con‐
 tained in a given build. Other teams have adopted a “Push on Green” release model
 and deploy every build that passes all tests [Kle14].
-88 
-| 
+
+|
 Chapter 8: Release Engineering
 www.it-ebooks.info
 
@@ -4055,9 +4030,9 @@ Almost all changes to the codebase require a code review, which is a streamlined
 action integrated into our normal developer workflow. Our automated release system
 produces a report of all changes contained in a release, which is archived with other
 build artifacts. By allowing SREs to understand what changes are included in a new
-Philosophy 
-| 
-89
+Philosophy
+|
+
 www.it-ebooks.info
 
 
@@ -4094,8 +4069,8 @@ A continuous test system runs unit tests against the code in the mainline each t
 change is submitted, allowing us to detect build and test failures quickly. Release
 engineering recommends that the continuous build test targets correspond to the
 same test targets that gate the project release. We also recommend creating releases at
-90 
-| 
+
+|
 Chapter 8: Release Engineering
 www.it-ebooks.info
 
@@ -4131,9 +4106,9 @@ files called blueprints. Blueprints are written in an internal configuration lan
 and are used to define build and test targets, rules for deployment, and administrative
 information (like project owners). Role-based access control lists determine who can
 perform specific actions on a Rapid project.
-Continuous Build and Deployment 
-| 
-91
+Continuous Build and Deployment
+|
+
 www.it-ebooks.info
 
 
@@ -4159,8 +4134,8 @@ ronment after the completion of system tests.
 the last release is created.
 Rapid allows us to manage our release branches and cherry picks; individual cherry
 pick requests can be approved or rejected for inclusion in a release.
-92 
-| 
+
+|
 Chapter 8: Release Engineering
 www.it-ebooks.info
 
@@ -4202,9 +4177,9 @@ ices in Borg (and the systems that pre-dated Borg). Using this scheme, developer
 SREs modify configuration files at the head of the main branch. The changes are
 reviewed and then applied to the running system. As a result, binary releases and
 configuration changes are decoupled. While conceptually and procedurally simple,
-Configuration Management 
-| 
-93
+Configuration Management
+|
+
 www.it-ebooks.info
 
 
@@ -4242,8 +4217,8 @@ These files can be stored in Chubby, Bigtable, or our source-based filesystem
 [Kem11].
 In summary, project owners consider the different options for distributing and man‐
 aging configuration files and decide which works best on a case-by-case basis.
-94 
-| 
+
+|
 Chapter 8: Release Engineering
 www.it-ebooks.info
 
@@ -4283,9 +4258,9 @@ don’t always plan and budget for release engineering in the early stages of a 
 Therefore, when considering how to incorporate release engineering practices, be
 sure that you consider its role as applied to the entire lifecycle of your product or ser‐
 vice—particularly the early stages.
-Conclusions 
-| 
-95
+Conclusions
+|
+
 www.it-ebooks.info
 
 
@@ -4299,8 +4274,8 @@ tion Management Summit 2013, [McN13]
 • The 10 Commandments of Release Engineering, 2nd International Workshop on
 Release Engineering 2014, [McN14b]
 • Distributing Software in a Massively Parallel Environment, LISA 2014, [McN14c]
-96 
-| 
+
+|
 Chapter 8: Release Engineering
 www.it-ebooks.info
 
@@ -4328,7 +4303,7 @@ that I’ll need to try and fail once in order to really understand the task I n
 accomplish. Code that comes with an expiration date can be much more liberal with
 test coverage and release management because it will never be shipped to production
 or be seen by users.
-97
+
 www.it-ebooks.info
 
 
@@ -4367,8 +4342,8 @@ their creations, confrontations over large-scale purges of the source tree are n
 uncommon. Some might protest, “What if we need that code later?” “Why don’t we
 just comment the code out so we can easily add it again later?” or “Why don’t we gate
 the code with a flag instead of deleting it?” These are all terrible suggestions. Source
-98 
-| 
+
+|
 Chapter 9: Simplicity
 www.it-ebooks.info
 
@@ -4405,11 +4380,10 @@ the easier that API will be to understand, and the more effort we can devote to 
 ing those methods as good as they can possibly be. Again, a recurring theme appears:
 the conscious decision to not take on certain problems allows us to focus on our core
 problem and make the solutions we explicitly set out to create substantially better. In
-software, less is more! A small, simple API is usually also a hallmark of a well-
-understood problem.
-The “Negative Lines of Code” Metric 
-| 
-99
+software, less is more! A small, simple API is usually also a hallmark of a wellunderstood problem.
+The “Negative Lines of Code” Metric
+|
+
 www.it-ebooks.info
 
 
@@ -4434,8 +4408,7 @@ sion in a safe and considered way. The release cadence can vary throughout a sys
 instead of requiring a full production push of the entire system every time a feature is
 added or improved.
 As a system grows more complex, the separation of responsibility between APIs and
-between binaries becomes increasingly important. This is a direct analogy to object-
-oriented class design: just as it is understood that it is poor practice to write a “grab
+between binaries becomes increasingly important. This is a direct analogy to objectoriented class design: just as it is understood that it is poor practice to write a “grab
 bag” class that contains unrelated functions, it is also poor practice to create and put
 into production a “util” or “misc” binary. A well-designed distributed system consists
 of collaborators, each of which has a clear and well-scoped purpose.
@@ -4449,8 +4422,8 @@ released simultaneously. If we release 100 unrelated changes to a system at the 
 time and performance gets worse, understanding which changes impacted perfor‐
 mance, and how they did so, will take considerable effort or additional instrumenta‐
 tion. If the release is performed in smaller batches, we can move faster with more
-100 
-| 
+
+|
 Chapter 9: Simplicity
 www.it-ebooks.info
 
@@ -4466,9 +4439,9 @@ step of a given task. Instead, we are clarifying what it is we actually want to 
 plish and how we might most easily do so. Every time we say “no” to a feature, we are
 not restricting innovation; we are keeping the environment uncluttered of distrac‐
 tions so that focus remains squarely on innovation, and real engineering can proceed.
-A Simple Conclusion 
-| 
-101
+A Simple Conclusion
+|
+
 www.it-ebooks.info
 
 
@@ -4513,8 +4486,7 @@ Incident Response
 SREs don’t go on-call merely for the sake of it: rather, on-call support is a tool we use
 to achieve our larger mission and remain in touch with how distributed computing
 systems actually work (and fail!). If we could find a way to relieve ourselves of carry‐
-ing a pager, we would. In Chapter 11, Being On-Call, we explain how we balance on-
-call duties with our other responsibilities.
+ing a pager, we would. In Chapter 11, Being On-Call, we explain how we balance oncall duties with our other responsibilities.
 Once you’re aware that there is a problem, how do you make it go away? That doesn’t
 necessarily mean fixing it once and for all—maybe you can stop the bleeding by
 reducing the system’s precision or turning off some features temporarily, allowing it
@@ -4621,7 +4593,7 @@ Google’s monitoring systems don’t just measure simple metrics, such as the a
 response time of an unladen European web server; we also need to understand the
 distribution of those response times across all web servers in that region. This knowl‐
 edge enables us to identify the factors contributing to the latency tail.
-107
+
 www.it-ebooks.info
 
 
@@ -4635,8 +4607,7 @@ allow us to alert for high-level service objectives, but retain the granularity 
 individual components as needed.
 Google’s monitoring systems evolved over the course of 10 years from the traditional
 model of custom scripts that check responses and alert, wholly separated from visual
-display of trends, to a new paradigm. This new model made the collection of time-
-series a first-class role of the monitoring system, and replaced those check scripts
+display of trends, to a new paradigm. This new model made the collection of timeseries a first-class role of the monitoring system, and replaced those check scripts
 with a rich language for manipulating time-series into charts and alerts.
 The Rise of Borgmon
 Shortly after the job scheduling infrastructure Borg [Ver15] was created in 2003, a
@@ -4657,8 +4628,8 @@ common data exposition format; this enables mass data collection with low over�
 heads and avoids the costs of subprocess execution and network connection setup.
 We call this white-box monitoring (see Chapter 6 for a comparison of white-box and
 black-box monitoring).
-108 
-| 
+
+|
 Chapter 10: Practical Alerting from Time-Series Data
 www.it-ebooks.info
 
@@ -4684,8 +4655,7 @@ some strategically at each level. Typically, a team runs a single Borgmon per cl
 and a pair at the global level. Some very large services shard below the cluster level
 into many scraper Borgmon, which in turn feed to the cluster-level Borgmon.
 Instrumentation of Applications
-The /varz HTTP handler simply lists all the exported variables in plain text, as space-
-separated keys and values, one per line. A later extension added a mapped variable,
+The /varz HTTP handler simply lists all the exported variables in plain text, as spaceseparated keys and values, one per line. A later extension added a mapped variable,
 which allows the exporter to define several labels on a variable name, and then export
 a table of values or a histogram. An example map-valued variable looks like the fol‐
 lowing, showing 25 HTTP 200 responses and 12 HTTP 500s:
@@ -4696,9 +4666,9 @@ In hindsight, it’s apparent that this schemaless textual interface makes the b
 adding new instrumentation very low, which is a positive for both the software engi‐
 neering and SRE teams. However, this has a trade-off against ongoing maintenance;
 the decoupling of the variable definition from its use in Borgmon rules requires care‐
-Instrumentation of Applications 
-| 
-109
+Instrumentation of Applications
+|
+
 www.it-ebooks.info
 
 
@@ -4733,8 +4703,8 @@ Borgmon also records “synthetic” variables for each target in order to ident
 • What time the collection finished
 These synthetic variables make it easy to write rules to detect if the monitored tasks
 are unavailable.
-110 
-| 
+
+|
 Chapter 10: Practical Alerting from Time-Series Data
 www.it-ebooks.info
 
@@ -4763,9 +4733,9 @@ In practice, the structure is a fixed-sized block of memory, known as the time-s
 arena, with a garbage collector that expires the oldest entries once the arena is full.
 The time interval between the most recent and oldest entries in the arena is the hori‐
 zon, which indicates how much queryable data is kept in RAM. Typically, datacenter
-Storage in the Time-Series Arena 
-| 
-111
+Storage in the Time-Series Arena
+|
+
 www.it-ebooks.info
 
 
@@ -4773,8 +4743,7 @@ www.it-ebooks.info
 RAM for fast queries without costing too much RAM.
 and global Borgmon are sized to hold about 12 hours of data9 for rendering consoles,
 and much less time if they are the lowest-level collector shards. The memory require‐
-ment for a single data point is about 24 bytes, so we can fit 1 million unique time-
-series for 12 hours at 1-minute intervals in under 17 GB of RAM.
+ment for a single data point is about 24 bytes, so we can fit 1 million unique timeseries for 12 hours at 1-minute intervals in under 17 GB of RAM.
 Periodically, the in-memory state is archived to an external system known as the
 Time-Series Database (TSDB). Borgmon can query TSDB for older data and, while
 slower, TSDB is cheaper and larger than a Borgmon’s RAM.
@@ -4798,8 +4767,8 @@ The name given to the type of server being monitored
 service
 A loosely defined collection of jobs that provide a service to users, either internal
 or external
-112 
-| 
+
+|
 Chapter 10: Practical Alerting from Time-Series Data
 www.it-ebooks.info
 
@@ -4816,8 +4785,7 @@ search for a labelset returns all matching time-series in a vector. So we could 
 vector of results by removing the instance label in the preceding query, if there were
 more than one instance in the cluster. For example:
 {var=http_requests,job=webserver,service=web,zone=us-west}
-might have a result of five rows in a vector, with the most recent value in the time-
-series like so:
+might have a result of five rows in a vector, with the most recent value in the timeseries like so:
 {var=http_requests,job=webserver,instance=host0:80,service=web,zone=us-west} 10
 {var=http_requests,job=webserver,instance=host1:80,service=web,zone=us-west} 9
 {var=http_requests,job=webserver,instance=host2:80,service=web,zone=us-west} 11
@@ -4839,9 +4807,9 @@ data points in a 10-minute window, like so:10
 {var=http_requests,job=webserver,instance=host2:80, ...} 0 1 2 3 5 6 7 8 9 9 11
 {var=http_requests,job=webserver,instance=host3:80, ...} 0 0 0 0 0 0 0 0 0 0 0
 {var=http_requests,job=webserver,instance=host4:80, ...} 0 1 2 3 4 5 6 7 8 9 10
-Storage in the Time-Series Arena 
-| 
-113
+Storage in the Time-Series Arena
+|
+
 www.it-ebooks.info
 
 
@@ -4875,8 +4843,8 @@ Aggregation entails taking the sum of a set of time-series from the tasks in a j
 order to treat the job as a whole. From those sums, overall rates can be computed. For
 example, the total queries-per-second rate of a job in a datacenter is the sum of all the
 rates of change11 of all the query counters.12
-114 
-| 
+
+|
 Chapter 10: Practical Alerting from Time-Series Data
 www.it-ebooks.info
 
@@ -4919,9 +4887,9 @@ rules <<<
   {var=dc:http_requests:rate10m,job=webserver} =
     sum without instance({var=task:http_requests:rate10m,job=webserver})
 >>>
-Rule Evaluation 
-| 
-115
+Rule Evaluation
+|
+
 www.it-ebooks.info
 
 
@@ -4957,8 +4925,8 @@ pute a rate of errors, and then we can calculate the ratio of responses to reque
 understand how much useful work the service is doing. We can compare the ratio
 rate of errors to our service level objective (see Chapter 4) and alert if this objective is
 missed or in danger of being missed:
-116 
-| 
+
+|
 Chapter 10: Practical Alerting from Time-Series Data
 www.it-ebooks.info
 
@@ -5002,9 +4970,9 @@ The output of these rules might look like:14
 {var=dc:http_responses:rate10m,job=webserver,code=500, ...} 0.6
 {var=dc:http_errors:rate10m,job=webserver}
 {var=dc:http_errors:rate10m,job=webserver, ...} 0.6
-Rule Evaluation 
-| 
-117
+Rule Evaluation
+|
+
 www.it-ebooks.info
 
 
@@ -5045,8 +5013,8 @@ The alert rule contains a small template for filling out a message containing co
 tual information: which job the alert is for, the name of the alert, the numerical value
 of the triggering rule, and so on. The contextual information is filled out by Borgmon
 when the alert fires and is sent in the Alert RPC.
-118 
-| 
+
+|
 Chapter 10: Practical Alerting from Time-Series Data
 www.it-ebooks.info
 
@@ -5083,9 +5051,9 @@ they want to stream from the lower-tier Borgmon, so that the global Borgmon does
 not fill its arena with all the per-task time-series from the lower tiers. Thus, the aggre‐
 gation hierarchy builds local caches of relevant time-series that can be drilled down
 into when required.
-Sharding the Monitoring Topology 
-| 
-119
+Sharding the Monitoring Topology
+|
+
 www.it-ebooks.info
 
 
@@ -5105,13 +5073,12 @@ Teams at Google solve this coverage issue with Prober, which runs a protocol che
 against a target and reports success or failure. The prober can send alerts directly to
 Alertmanager, or its own varz can be collected by a Borgmon. Prober can validate the
 response payload of the protocol (e.g., the HTML contents of an HTTP response) and
-validate that the contents are expected, and even extract and export values as time-
-series. Teams often use Prober to export histograms of response times by operation
+validate that the contents are expected, and even extract and export values as timeseries. Teams often use Prober to export histograms of response times by operation
 type and payload size so that they can slice and dice the user-visible performance.
 Prober is a hybrid of the check-and-test model with some richer variable extraction
 to create time-series.
-120 
-| 
+
+|
 Chapter 10: Practical Alerting from Time-Series Data
 www.it-ebooks.info
 
@@ -5149,9 +5116,9 @@ The second class of library emerged as we built templates to manage the aggregat
 of data from a single-server task to the global service footprint. These libraries con‐
 tain generic aggregation rules for exported variables that engineers can use to model
 the topology of their service.
-Maintaining the Configuration 
-| 
-121
+Maintaining the Configuration
+|
+
 www.it-ebooks.info
 
 
@@ -5189,8 +5156,8 @@ Ensuring that the cost of maintenance scales sublinearly with the size of the se
 key to making monitoring (and all sustaining operations work) maintainable. This
 theme recurs in all SRE work, as SREs work to scale all aspects of their work to the
 global scale.
-122 
-| 
+
+|
 Chapter 10: Practical Alerting from Time-Series Data
 www.it-ebooks.info
 
@@ -5202,9 +5169,9 @@ Even though Borgmon remains internal to Google, the idea of treating time-series
 data as a data source for generating alerts is now accessible to everyone through those
 open source tools like Prometheus, Riemann, Heka, and Bosun, and probably others
 by the time you read this.
-Ten Years On… 
-| 
-123
+Ten Years On…
+|
+
 www.it-ebooks.info
 
 
@@ -5236,7 +5203,7 @@ purely operational teams in that they place heavy emphasis on the use of enginee
 to approach problems. These problems, which typically fall in the operational
 domain, exist at a scale that would be intractable without software engineering
 solutions.
-125
+
 www.it-ebooks.info
 
 
@@ -5270,15 +5237,14 @@ members and escalating as needed.
 Nonpaging production events, such as lower priority alerts or software releases, can
 also be handled and/or vetted by the on-call engineer during business hours. These
 activities are less urgent than paging events, which take priority over almost every
-other task, including project work. For more insight on interrupts and other non-
-paging events that contribute to operational load, see Chapter 29.
+other task, including project work. For more insight on interrupts and other nonpaging events that contribute to operational load, see Chapter 29.
 Many teams have both a primary and a secondary on-call rotation. The distribution
 of duties between the primary and the secondary varies from team to team. One team
 might employ the secondary as a fall-through for the pages the primary on-call
 misses. Another team might specify that the primary on-call handles only pages,
 while the secondary handles all other non-urgent production activities.
-126 
-| 
+
+|
 Chapter 11: Being On-Call
 www.it-ebooks.info
 
@@ -5291,8 +5257,7 @@ There are many ways to organize on-call rotations; for detailed analysis, refer 
 “Oncall” chapter of [Lim14].
 Balanced On-Call
 SRE teams have specific constraints on the quantity and quality of on-call shifts. The
-quantity of on-call can be calculated by the percent of time spent by engineers on on-
-call duties. The quality of on-call can be calculated by the number of incidents that
+quantity of on-call can be calculated by the percent of time spent by engineers on oncall duties. The quality of on-call can be calculated by the number of incidents that
 occur during an on-call shift.
 SRE managers have the responsibility of keeping the on-call workload balanced and
 sustainable across these two axes.
@@ -5305,8 +5270,7 @@ Using the 25% on-call rule, we can derive the minimum number of SREs required to
 sustain a 24/7 on-call rotation. Assuming that there are always two people on-call
 (primary and secondary, with different duties), the minimum number of engineers
 needed for on-call duty from a single-site team is eight: assuming week-long shifts,
-each engineer is on-call (primary or secondary) for one week every month. For dual-
-site teams, a reasonable minimum size of each team is six, both to honor the 25% rule
+each engineer is on-call (primary or secondary) for one week every month. For dualsite teams, a reasonable minimum size of each team is six, both to honor the 25% rule
 and to ensure a substantial and critical mass of engineers for the team.
 If a service entails enough work to justify growing a single-site team, we prefer to cre‐
 ate a multi-site team. A multi-site team is advantageous for two reasons:
@@ -5317,9 +5281,9 @@ do not lose touch with the production systems (see “A Treacherous Enemy:
 Operational Underload” on page 132).
 However, multi-site teams incur communication and coordination overhead. There‐
 fore, the decision to go multi-site or single-site should be based upon the trade-offs
-Balanced On-Call 
-| 
-127
+Balanced On-Call
+|
+
 www.it-ebooks.info
 
 
@@ -5332,8 +5296,7 @@ incident as a sequence of events and alerts that are related to the same root ca
 would be discussed as part of the same postmortem. We’ve found that on average,
 dealing with the tasks involved in an on-call incident—root-cause analysis, remedia‐
 tion, and follow-up activities like writing a postmortem and fixing bugs—takes 6
-hours. It follows that the maximum number of incidents per day is 2 per 12-hour on-
-call shift. In order to stay within this upper bound, the distribution of paging events
+hours. It follows that the maximum number of incidents per day is 2 per 12-hour oncall shift. In order to stay within this upper bound, the distribution of paging events
 should be very flat over time, with a likely median value of 0: if a given component or
 issue causes pages every day (median incidents/day > 1), it is likely that something
 else will break at some point, thus causing more incidents than should be permitted.
@@ -5342,8 +5305,7 @@ put in place to make sure that the operational load returns to a sustainable sta
 “Operational Overload” on page 130 and Chapter 30).
 Compensation
 Adequate compensation needs to be considered for out-of-hours support. Different
-organizations handle on-call compensation in different ways; Google offers time-off-
-in-lieu or straight cash compensation, capped at some proportion of overall salary.
+organizations handle on-call compensation in different ways; Google offers time-offin-lieu or straight cash compensation, capped at some proportion of overall salary.
 The compensation cap represents, in practice, a limit on the amount of on-call work
 that will be taken on by any individual. This compensation structure ensures incen‐
 tivization to be involved in on-call duties as required by the team, but also promotes a
@@ -5357,8 +5319,8 @@ methodology for thinking about and tackling problems is vital for the appropriat
 operation of services.
 Modern research identifies two distinct ways of thinking that an individual may, con‐
 sciously or subconsciously, choose when faced with challenges [Kah11]:
-128 
-| 
+
+|
 Chapter 11: Being On-Call
 www.it-ebooks.info
 
@@ -5400,9 +5362,9 @@ important on-call resources are:
 • A blameless postmortem culture ([Loo10], [All12])
 The developer teams of SRE-supported systems usually participate in a 24/7 on-call
 rotation, and it is always possible to escalate to these partner teams when necessary.
-Feeling Safe 
-| 
-129
+Feeling Safe
+|
+
 www.it-ebooks.info
 
 
@@ -5443,8 +5405,8 @@ Misconfigured monitoring is a common cause of operational overload. Paging alert
 should be aligned with the symptoms that threaten a service’s SLOs. All paging alerts
 should also be actionable. Low-priority alerts that bother the on-call engineer every
 hour (or more frequently) disrupt productivity, and the fatigue such alerts induce can
-130 
-| 
+
+|
 Chapter 11: Being On-Call
 www.it-ebooks.info
 
@@ -5484,9 +5446,9 @@ development teams attests to the balance of powers between the teams.2 This work
 relationship also exemplifies how the healthy tension between these two teams and
 the values that they represent—reliability versus feature velocity—is typically resolved
 by greatly benefiting the service and, by extension, the company as a whole.
-Avoiding Inappropriate Operational Load 
-| 
-131
+Avoiding Inappropriate Operational Load
+|
+
 www.it-ebooks.info
 
 
@@ -5514,8 +5476,8 @@ which SREs are responsible.
 While this approach might not be immediately applicable to all contexts in which
 engineers need to be on-call for IT services, we believe it represents a solid model that
 organizations can adopt in scaling to meet a growing volume of on-call work.
-132 
-| 
+
+|
 Chapter 11: Being On-Call
 www.it-ebooks.info
 
@@ -5544,7 +5506,7 @@ from first principles,1 we usually find this approach to be less efficient and l
 tive than understanding how things are supposed to work. Knowledge of the system
 typically limits the effectiveness of an SRE new to a system; there’s little substitute to
 learning how the system is designed and built.
-133
+
 www.it-ebooks.info
 
 
@@ -5564,8 +5526,8 @@ telemetry3 and logs to understand its current state. This information, combined 
 our knowledge of how the system is built, how it should operate, and its failure
 modes, enables us to identify some possible causes.
 Figure 12-1. A process for troubleshooting
-134 
-| 
+
+|
 Chapter 12: Effective Troubleshooting
 www.it-ebooks.info
 
@@ -5606,9 +5568,9 @@ tems.  The third trap is a set of logical fallacies that can be avoided by remem
 that not all failures are equally probable—as doctors are taught, “when you hear hoof‐
 beats, think of horses not zebras.”4 Also remember that, all things being equal, we
 should prefer simpler explanations.5
-Theory 
-| 
-135
+Theory
+|
+
 www.it-ebooks.info
 
 
@@ -5648,8 +5610,8 @@ email or instant messaging. Doing so creates a log of investigation and remediat
 activities that can be referenced in the future. Many teams discourage reporting prob‐
 lems directly to a person for several reasons: this practice introduces an additional
 step of transcribing the report into a bug, produces lower-quality reports that aren’t
-136 
-| 
+
+|
 Chapter 12: Effective Troubleshooting
 www.it-ebooks.info
 
@@ -5658,8 +5620,7 @@ visible to other members of the team, and tends to concentrate the problem-solvi
 load on a handful of team members that the reporters happen to know, rather than
 the person currently on duty (see also Chapter 29).
 Shakespeare Has a Problem
-You’re on-call for the Shakespeare search service and receive an alert, Shakespeare-
-BlackboxProbe_SearchFailure: your black-box monitoring hasn’t been able to find
+You’re on-call for the Shakespeare search service and receive an alert, ShakespeareBlackboxProbe_SearchFailure: your black-box monitoring hasn’t been able to find
 search results for “the forms of things unknown” for the past five minutes. The alert‐
 ing system has filed a bug—with links to the black-box prober’s recent results and to
 the playbook entry for this alert—and assigned it to you. Time to spring into action!
@@ -5689,9 +5650,9 @@ example, if a bug is leading to possibly unrecoverable data corruption, freezing
 system to prevent further failure may be better than letting this behavior continue.
 This realization is often quite unsettling and counterintuitive for new SREs, particu‐
 larly those whose prior experience was in product development organizations.
-In Practice 
-| 
-137
+In Practice
+|
+
 www.it-ebooks.info
 
 
@@ -5729,8 +5690,8 @@ infrastructure so that you can turn it on as needed, quickly and selectively.
 Exposing current state is the third trick in our toolbox. For example, Google servers
 have endpoints that show a sample of RPCs recently sent or received, so it’s possible
 to understand how any one server is communicating with others without referencing
-138 
-| 
+
+|
 Chapter 12: Effective Troubleshooting
 www.it-ebooks.info
 
@@ -5752,15 +5713,15 @@ prober sends an HTTP GET request to the /api/search endpoint:
 It expects to receive a response with an HTTP 200 response code and a JSON payload
 exactly matching:
 [{
- 
+
 "work": "A Midsummer Night's Dream",
- 
+
 "act": 5,
- 
+
 "scene": 1,
- 
+
 "line": 2526,
- 
+
 "speaker": "Theseus"
 }]
 The system is set up to send a probe once a minute; over the past 10 minutes, about
@@ -5776,9 +5737,9 @@ Diagnose
 A thorough understanding of the system’s design is decidedly helpful for coming up
 with plausible hypotheses about what’s gone wrong, but there are also some generic
 practices that will help even without domain knowledge.
-In Practice 
-| 
-139
+In Practice
+|
+
 www.it-ebooks.info
 
 
@@ -5793,8 +5754,7 @@ flowing between them—to determine whether a given component is working prop‐
 erly. Injecting known test data in order to check that the resulting output is expected
 (a form of black-box testing) at each step can be especially effective, as can injecting
 data intended to probe possible causes of errors. Having a solid reproducible test case
-makes debugging much faster, and it may be possible to use the case in a non-
-production environment where more invasive or riskier techniques are available than
+makes debugging much faster, and it may be possible to use the case in a nonproduction environment where more invasive or riskier techniques are available than
 would be possible in production.
 Dividing and conquering is a very useful general-purpose solution technique. In a
 multilayer system where work happens throughout a stack of components, it’s often
@@ -5810,8 +5770,8 @@ A malfunctioning system is often still trying to do something—just not the thi
 want it to be doing. Finding out what it’s doing, then asking why it’s doing that and
 where its resources are being used or where its output is going can help you under‐
 stand how things have gone wrong.10
-140 
-| 
+
+|
 Chapter 12: Effective Troubleshooting
 www.it-ebooks.info
 
@@ -5842,9 +5802,9 @@ the cluster. Correlating changes in a system’s performance and behavior with o
 events in the system and environment can also be helpful in constructing monitoring
 dashboards; for example, you might annotate a graph showing the system’s error rates
 with the start and end times of a deployment of a new version, as seen in Figure 12-2.
-In Practice 
-| 
-141
+In Practice
+|
+
 www.it-ebooks.info
 
 
@@ -5871,8 +5831,8 @@ caused by either a network failure between an application logic server and a dat
 server, or by the database refusing connections. Trying to connect to the database
 with the same credentials the application logic server uses can refute the second
 hypothesis, while pinging the database server may be able to refute the first, depend‐
-142 
-| 
+
+|
 Chapter 12: Effective Troubleshooting
 www.it-ebooks.info
 
@@ -5913,9 +5873,9 @@ prevent having to repeat these steps.14 If you performed active testing by chang
 system—for instance by giving more resources to a process—making changes in a
 systematic and documented fashion will help you return the system to its pre-test
 setup, rather than running in an unknown hodge-podge configuration.
-In Practice 
-| 
-143
+In Practice
+|
+
 www.it-ebooks.info
 
 
@@ -5957,8 +5917,8 @@ one application you build may not benefit from having its database on SSDs or fr
 creating indices for dense keys, the next one just might. Writing a script that allows
 you to easily try out these configuration changes ensures you don’t forget or miss
 optimizations in your next project.
-144 
-| 
+
+|
 Chapter 12: Effective Troubleshooting
 www.it-ebooks.info
 
@@ -5969,8 +5929,7 @@ Publishing negative results improves our industry’s data-driven culture. Accou
 ing for negative results and statistical insignificance reduces the bias in our metrics
 and provides an example to others of how to maturely accept uncertainty. By publish‐
 ing everything, you encourage others to do the same, and everyone in the industry
-collectively learns much more quickly. SRE has already learned this lesson with high-
-quality postmortems, which have had a large positive effect on production stability.
+collectively learns much more quickly. SRE has already learned this lesson with highquality postmortems, which have had a large positive effect on production stability.
 Publish your results. If you are interested in an experiment’s results, there’s a good
 chance that other people are as well. When you publish the results, those people do
 not have to design and run a similar experiment themselves. It’s tempting and com‐
@@ -5998,9 +5957,9 @@ failure occurs.
 • Reproducing the problem in a live production system may not be an option, either
 because of the complexity of getting the system into a state where the failure can
 be triggered, or because further downtime may be unacceptable. Having a non‐
-Negative Results Are Magic 
-| 
-145
+Negative Results Are Magic
+|
+
 www.it-ebooks.info
 
 
@@ -6028,8 +5987,8 @@ magnitude (as shown in Figure 12-4). Simultaneously, the amount of CPU time
 Clearly something was wrong. It was time to start troubleshooting.
 Figure 12-3. Application’s requests received per second, showing a brief spike and return
 to normal
-146 
-| 
+
+|
 Chapter 12: Effective Troubleshooting
 www.it-ebooks.info
 
@@ -6051,9 +6010,9 @@ ment were in flight. The service’s most recent code pushes and configuration p
 had completed days before. Furthermore, if the problem originated with the service,
 we’d expect to see similar effects on other apps using the same infrastructure. How‐
 ever, no other apps were experiencing similar effects.
-Case Study 
-| 
-147
+Case Study
+|
+
 www.it-ebooks.info
 
 
@@ -6095,8 +6054,8 @@ sure how soon we’d be able to identify the problem and fix it. Instead, we rec
 mended that the customer increase the resources allocated to their app to the most
 CPU-rich instance type available. Doing so reduced the app’s latency to acceptable
 levels, though not as low as we’d prefer. We concluded that the latency mitigation was
-148 
-| 
+
+|
 Chapter 12: Effective Troubleshooting
 www.it-ebooks.info
 
@@ -6117,8 +6076,7 @@ increased, but because this increase wasn’t very large—nor was it sustained�
 written it off as coincidental. However, this behavior did resemble a common pattern:
 an instance of the app is initialized by reading objects from the datastore, then storing
 them in the instance’s memory. By doing so, the instance avoids reading rarely chang‐
-ing configuration from the datastore on each request, and instead checks the in-
-memory objects. Then, the time it takes to handle requests will often scale with the
+ing configuration from the datastore on each request, and instead checks the inmemory objects. Then, the time it takes to handle requests will often scale with the
 amount of configuration data.19 We couldn’t prove that this behavior was the root of
 the problem, but it’s a common antipattern.
 The app developers added instrumentation to understand where the app was spend‐
@@ -6137,9 +6095,9 @@ superfluous whitelist objects then had to be checked on every request to the app
 which led to pathologically slow responses—without causing any RPC calls from the
 app to other services. Fixing the bug and removing those objects returned the app’s
 performance to expected levels.
-Case Study 
-| 
-149
+Case Study
+|
+
 www.it-ebooks.info
 
 
@@ -6165,8 +6123,8 @@ and understandable to novices, so that they, too, can become effective at solvin
 lems. Adopting a systematic approach to troubleshooting—as opposed to relying on
 luck or experience—can help bound your services’ time to recovery, leading to a bet‐
 ter experience for your users.
-150 
-| 
+
+|
 Chapter 12: Effective Troubleshooting
 www.it-ebooks.info
 
@@ -6195,7 +6153,7 @@ First of all, don’t panic! You aren’t alone, and the sky isn’t falling. Yo
 and trained to handle this sort of situation. Typically, no one is in physical danger—
 only those poor electrons are in peril. At the very worst, half of the Internet is down.
 So take a deep breath…and carry on.
-151
+
 www.it-ebooks.info
 
 
@@ -6229,8 +6187,8 @@ Within an hour of the original decision, all access was fully restored, and all 
 were able to connect once again. The broad impact of this test motivated a rapid and
 thorough fix to the libraries and a plan for periodic retesting to prevent such a major
 flaw from recurring.
-152 
-| 
+
+|
 Chapter 13: Emergency Response
 www.it-ebooks.info
 
@@ -6267,9 +6225,9 @@ don’t result in unexpected and undesired behavior. However, the scale and comp
 of Google’s infrastructure make it impossible to anticipate every dependency or inter‐
 action; sometimes configuration changes don’t go entirely according to plan.
 The following is one such example.
-Change-Induced Emergency 
-| 
-153
+Change-Induced Emergency
+|
+
 www.it-ebooks.info
 
 
@@ -6309,14 +6267,13 @@ updates were communicated often and clearly. Our out-of-band communications sys�
 tems kept everyone connected even while some of the more complicated software
 stacks were unusable. This experience reminded us why SRE retains highly reliable,
 low overhead backup systems, which we use regularly.
-154 
-| 
+
+|
 Chapter 13: Emergency Response
 www.it-ebooks.info
 
 
-In addition to these out-of-band communications systems, Google has command-
-line tools and alternative access methods that enable us to perform updates and roll
+In addition to these out-of-band communications systems, Google has commandline tools and alternative access methods that enable us to perform updates and roll
 back changes even when other interfaces are inaccessible. These tools and access
 methods worked well during the outage, with the caveat that engineers needed to be
 more familiar with the tools and to test them more routinely.
@@ -6351,9 +6308,9 @@ age lasted any longer, debugging would have been severely hindered.
 Process-Induced Emergency
 We have poured a considerable amount of time and energy into the automation that
 manages our machine fleet. It’s amazing how many jobs one can start, stop, or retool
-Process-Induced Emergency 
-| 
-155
+Process-Induced Emergency
+|
+
 www.it-ebooks.info
 
 
@@ -6394,8 +6351,8 @@ oritize reinstallations using a streamlined but manual process. The team was div
 into three parts, with each part responsible for one step in the manual reinstall pro‐
 cess. Within three days, the vast majority of capacity was back online, while any strag‐
 glers would be recovered over the next month or two.
-156 
-| 
+
+|
 Chapter 13: Emergency Response
 www.it-ebooks.info
 
@@ -6409,8 +6366,7 @@ proxies in these small installations, so large installations were not impacted. 
 engineers were able to quickly move traffic from smaller installations to large installa‐
 tions. By design, these large installations can handle a full load without difficulty.
 However, some network links became congested, and therefore required network
-engineers to develop workarounds. In order to reduce the impact on end users, on-
-call engineers targeted congested networks as their highest priority.
+engineers to develop workarounds. In order to reduce the impact on end users, oncall engineers targeted congested networks as their highest priority.
 The turndown process for the small installations worked efficiently and well. From
 start to finish, it took less than an hour to successfully turn down and securely wipe a
 large number of these installations.
@@ -6436,9 +6392,9 @@ Quality of Service (QoS) from the distant locations. The BIOS for each machine i
 the system dealt poorly with the failures.1 Depending on the network cards involved,
 the BIOS either halted or went into a constant reboot cycle. They were failing to
 transfer the boot files on each cycle and were further taxing the installers. On-call
-Process-Induced Emergency 
-| 
-157
+Process-Induced Emergency
+|
+
 www.it-ebooks.info
 
 
@@ -6477,8 +6433,8 @@ in these postmortems. Doing so will prevent a future outage that’s nearly iden
 and caused by nearly the same triggers as, an outage that has already been docu‐
 mented. Once you have a solid track record for learning from past outages, see what
 you can do to prevent future ones.
-158 
-| 
+
+|
 Chapter 13: Emergency Response
 www.it-ebooks.info
 
@@ -6515,9 +6471,9 @@ And as our systems evolve the cycle continues, with each outage or test resultin
 incremental improvements to both processes and systems. While the case studies in
 this chapter are specific to Google, this approach to emergency response can be
 applied over time to any organization of any size.
-Conclusion 
-| 
-159
+Conclusion
+|
+
 www.it-ebooks.info
 
 
@@ -6535,8 +6491,7 @@ out your response to potential incidents in advance, principled incident managem
 can go out the window in real-life situations.
 This chapter walks through a portrait of an incident that spirals out of control due to
 ad hoc incident management practices, outlines a well-managed approach to the inci‐
-dent, and reviews how the same incident might have played out if handled with well-
-functioning incident management.
+dent, and reviews how the same incident might have played out if handled with wellfunctioning incident management.
 Unmanaged Incidents
 Put yourself in the shoes of Mary, the on-call engineer for The Firm. It’s 2 p.m. on a
 Friday afternoon and your pager has just exploded. Black-box monitoring tells you
@@ -6548,7 +6503,7 @@ fic than the remaining datacenters can handle, so they start to overload. Before
 know it, the service is overloaded and unable to serve any requests.
 You stare at the logs for what seems like an eternity. Thousands of lines of logging
 suggest there’s an error in one of the recently updated modules, so you decide to
-161
+
 www.it-ebooks.info
 
 
@@ -6587,8 +6542,8 @@ Freelancing
 Malcolm was making changes to the system with the best of intentions. However, he
 didn’t coordinate with his coworkers—not even Mary, who was technically in charge
 of troubleshooting. His changes made a bad situation far worse.
-162 
-| 
+
+|
 Chapter 14: Managing Incidents
 www.it-ebooks.info
 
@@ -6624,9 +6579,9 @@ This person is the public face of the incident response task force. Their duties
 most definitely include issuing periodic updates to the incident response team
 and stakeholders (usually via email), and may extend to tasks such as keeping the
 incident document accurate and up to date.
-Elements of Incident Management Process 
-| 
-163
+Elements of Incident Management Process
+|
+
 www.it-ebooks.info
 
 
@@ -6664,8 +6619,8 @@ should be explicit in their handoff, specifically stating, “You’re now the i
 commander, okay?”, and should not leave the call until receiving firm acknowledg‐
 ment of handoff. The handoff should be communicated to others working on the
 incident so that it’s clear who is leading the incident management efforts at all times.
-164 
-| 
+
+|
 Chapter 14: Managing Incidents
 www.it-ebooks.info
 
@@ -6707,9 +6662,9 @@ have assumed responsibility for the bug, mitigated the problem, closed the incid
 and started work on the postmortem. Problem solved, she brews some fresh coffee
 and settles down to plan structural improvements so problems of this category don’t
 afflict the team again.
-A Managed Incident 
-| 
-165
+A Managed Incident
+|
+
 www.it-ebooks.info
 
 
@@ -6737,15 +6692,14 @@ turing this plan to scale smoothly, and regularly putting the plan to use, we we
 to reduce our mean time to recovery and provide staff a less stressful way to work on
 emergent problems. Any organization concerned with reliability would benefit from
 pursuing a similar strategy.
-166 
-| 
+
+|
 Chapter 14: Managing Incidents
 www.it-ebooks.info
 
 
 Best Practices for Incident Management
-Prioritize. Stop the bleeding, restore service, and preserve the evidence for root-
-causing.
+Prioritize. Stop the bleeding, restore service, and preserve the evidence for rootcausing.
 Prepare. Develop and document your incident management procedures in advance,
 in consultation with incident participants.
 Trust. Give full autonomy within the assigned role to all incident participants.
@@ -6757,9 +6711,9 @@ another tack in incident response.
 Practice. Use the process routinely so it becomes second nature.
 Change it around. Were you incident commander last time? Take on a different role
 this time. Encourage every team member to acquire familiarity with each role.
-In Summary 
-| 
-167
+In Summary
+|
+
 www.it-ebooks.info
 
 
@@ -6792,7 +6746,7 @@ mented, that all contributing root cause(s) are well understood, and, especially
 effective preventive actions are put in place to reduce the likelihood and/or impact of
 recurrence. A detailed survey of root-cause analysis techniques is beyond the scope of
 this chapter (instead, see [Roo04]); however, articles, best practices, and tools abound
-169
+
 www.it-ebooks.info
 
 
@@ -6830,8 +6784,8 @@ ten. Instead the postmortem is seen by engineers as an opportunity not only to f
 weakness, but to make Google more resilient as a whole. While a blameless postmor‐
 tem doesn’t simply vent frustration by pointing fingers, it should call out where and
 how services can be improved. Here are two examples:
-170 
-| 
+
+|
 Chapter 15: Postmortem Culture: Learning from Failure
 www.it-ebooks.info
 
@@ -6868,9 +6822,9 @@ provide input.
 Writing a postmortem also involves formal review and publication. In practice, teams
 share the first postmortem draft internally and solicit a group of senior engineers to
 assess the draft for completeness. Review criteria might include:
-Collaborate and Share Knowledge 
-| 
-171
+Collaborate and Share Knowledge
+|
+
 www.it-ebooks.info
 
 
@@ -6906,8 +6860,8 @@ seminate what we learn about system infrastructure. Some example activities incl
 Postmortem of the month
 In a monthly newsletter, an interesting and well-written postmortem is shared
 with the entire organization.
-172 
-| 
+
+|
 Chapter 15: Postmortem Culture: Learning from Failure
 www.it-ebooks.info
 
@@ -6937,9 +6891,9 @@ tice, both publicly through the social methods mentioned earlier, and through
 individual and team performance management.
 • Encourage senior leadership’s acknowledgment and participation. Even Larry
 Page talks about the high value of postmortems!
-Introducing a Postmortem Culture 
-| 
-173
+Introducing a Postmortem Culture
+|
+
 www.it-ebooks.info
 
 
@@ -6974,8 +6928,8 @@ ness of the postmortem culture.
 Beyond the operational aspects of incident management and follow-up, postmortem
 practice has been woven into the culture at Google: it’s now a cultural norm that any
 significant incident is followed by a comprehensive postmortem.
-174 
-| 
+
+|
 Chapter 15: Postmortem Culture: Learning from Failure
 www.it-ebooks.info
 
@@ -6999,9 +6953,9 @@ facilitate comprehension and automated analysis, we have recently enhanced our
 postmortem template (see Appendix D) with additional metadata fields. Future work
 in this domain includes machine learning to help predict our weaknesses, facilitate
 real-time incident investigation, and reduce duplicate incidents.
-Conclusion and Ongoing Improvements 
-| 
-175
+Conclusion and Ongoing Improvements
+|
+
 www.it-ebooks.info
 
 
@@ -7027,11 +6981,10 @@ spread don’t fall within their scope. Similarly, postmortems tend to provide u
 insights for improving a single service or set of services, but may miss opportunities
 that would have a small effect in individual cases, or opportunities that have a poor
 cost/benefit ratio, but that would have large horizontal impact.1
-We can also get useful information from questions such as, “How many alerts per on-
-call shift does this team get?”, “What’s the ratio of actionable/nonactionable alerts
+We can also get useful information from questions such as, “How many alerts per oncall shift does this team get?”, “What’s the ratio of actionable/nonactionable alerts
 over the last quarter?”, or even simply “Which of the services this team manages cre‐
 ates the most toil?”
-177
+
 www.it-ebooks.info
 
 
@@ -7061,8 +7014,8 @@ with the sole purpose of adding more recipients to the cc list), annotations can
 marked as “important.” If an annotation is important, other parts of the message are
 collapsed into the interface to cut down on clutter. Together, this provides more con‐
 text when referring to an incident than a possibly fragmented email thread.
-178 
-| 
+
+|
 Chapter 16: Tracking Outages
 www.it-ebooks.info
 
@@ -7078,9 +7031,9 @@ Building Your Own Outalator
 Many organizations use messaging systems like Slack, Hipchat, or even IRC for inter‐
 nal communication and/or updating status dashboards. These systems are great
 places to hook into with a system like Outalator.
-Outalator 
-| 
-179
+Outalator
+|
+
 www.it-ebooks.info
 
 
@@ -7121,8 +7074,8 @@ ful tool and better data. Overall, tags have been a remarkably powerful tool for
 to obtain and provide an overview of a given service’s pain points, even without
 much, or even any, formal analysis. As trivial as tagging appears, it is probably one of
 the Outalator’s most useful unique features.
-180 
-| 
+
+|
 Chapter 16: Tracking Outages
 www.it-ebooks.info
 
@@ -7164,9 +7117,9 @@ tions and include their subjects, tags, and “important” annotations in an em
 next on-call engineer (and an arbitrary cc list) in order to pass on recent state
 between shifts. For periodic reviews of the production services (which occur weekly
 for most teams), the Outalator also supports a “report mode,” in which the important
-Outalator 
-| 
-181
+Outalator
+|
+
 www.it-ebooks.info
 
 
@@ -7178,8 +7131,7 @@ outage has obvious benefits: it increases the speed of diagnosis and reduces loa
 other teams by acknowledging that there is indeed an incident. There are additional
 nonobvious benefits. To use Bigtable as an example, if a service has a disruption due
 to an apparent Bigtable incident, but you can see that the Bigtable SRE team has not
-been alerted, manually alerting the team is probably a good idea. Improved cross-
-team visibility can and does make a big difference in incident resolution, or at least in
+been alerted, manually alerting the team is probably a good idea. Improved crossteam visibility can and does make a big difference in incident resolution, or at least in
 incident mitigation.
 Some teams across the company have gone so far as to set up dummy escalator con‐
 figurations: no human receives the notifications sent there, but the notifications
@@ -7189,8 +7141,8 @@ this “system of record” use is to log and audit the use of privileged or rol
 than legal, audits). Another use is to record and automatically annotate runs of peri‐
 odic jobs that may not be idempotent—for example, automatic application of schema
 changes from version control to database systems.
-182 
-| 
+
+|
 Chapter 16: Tracking Outages
 www.it-ebooks.info
 
@@ -7220,12 +7172,11 @@ changes in the server fleet, which means that future behavior will be similar to
 past behavior.
 • You can confidently describe all changes to the site, in order for analysis to allow
 for the uncertainty incurred by each of these changes.
-183
+
 www.it-ebooks.info
 
 
-2 For further reading on equivalence, see http://stackoverflow.com/questions/1909280/equivalence-class-testing-
-vs-boundary-value-testing.
+2 For further reading on equivalence, see http://stackoverflow.com/questions/1909280/equivalence-class-testingvs-boundary-value-testing.
 Testing is the mechanism you use to demonstrate specific areas of equivalence when
 changes occur.2 Each test that passes both before and after a change reduces the
 uncertainty for which the analysis needs to allow. Thorough testing helps us predict
@@ -7258,8 +7209,8 @@ Between Failures (MTBF) experienced by your users.
 As MTBF increases in response to better testing, developers are encouraged to release
 features faster. Some of these features will, of course, have bugs. New bugs result in an
 opposite adjustment to release velocity as these bugs are found and fixed.
-184 
-| 
+
+|
 Chapter 17: Testing for Reliability
 www.it-ebooks.info
 
@@ -7284,9 +7235,9 @@ A unit test is the smallest and simplest form of software testing. These tests a
 employed to assess a separable unit of software, such as a class or function, for cor‐
 rectness independent of the larger software system that contains the unit. Unit tests
 are also employed as a form of specification to ensure that a function or module
-Types of Software Testing 
-| 
-185
+Types of Software Testing
+|
+
 www.it-ebooks.info
 
 
@@ -7326,8 +7277,8 @@ Another type of system test involves preventing bugs from sneaking back into the
 codebase. Regression tests can be analogized to a gallery of rogue bugs that his‐
 torically caused the system to fail or produce incorrect results. By documenting
 these bugs as tests at the system or integration level, engineers refactoring the
-186 
-| 
+
+|
 Chapter 17: Testing for Reliability
 www.it-ebooks.info
 
@@ -7368,9 +7319,9 @@ Similarly, a system test can use the configuration files to assemble its modules
 running the test. If the test passes, but its version is one in which the configuration
 test (discussed in the following section) fails, the result of the test is valid hermetically,
 but not operationally. Such an outcome is inconvenient.
-Types of Software Testing 
-| 
-187
+Types of Software Testing
+|
+
 www.it-ebooks.info
 
 
@@ -7409,8 +7360,8 @@ stress tests to find the limits on a web service. Stress tests answer questions 
 • How full can a database get before writes start to fail?
 • How many queries a second can be sent to an application server before it
 becomes overloaded, causing requests to fail?
-188 
-| 
+
+|
 Chapter 17: Testing for Reliability
 www.it-ebooks.info
 
@@ -7454,9 +7405,9 @@ number C and rate R.
 Dividing and correcting for K gives an estimate of U, the order of the underlying
 fault.6 Some examples:
 • U=1: The user’s request encountered code that is simply broken.
-Types of Software Testing 
-| 
-189
+Types of Software Testing
+|
+
 www.it-ebooks.info
 
 
@@ -7465,8 +7416,7 @@ see.
 • U=3: The randomly damaged data is also a valid identifier to a previous request.
 Most bugs are of order one: they scale linearly with the amount of user traffic [Per07].
 You can generally track down these bugs by converting logs of all requests with
-unusual responses into new regression tests. This strategy doesn’t work for higher-
-order bugs; a request that repeatedly fails if all the preceding requests are attempted
+unusual responses into new regression tests. This strategy doesn’t work for higherorder bugs; a request that repeatedly fails if all the preceding requests are attempted
 in order will suddenly pass if some requests are omitted. It is important to catch these
 higher-order bugs during release, because otherwise, operational workload can
 increase very quickly.
@@ -7494,11 +7444,10 @@ development and project management, if every task is high priority, none of the
 tasks are high priority. Can you stack-rank the components of the system you’re
 testing by any measure of importance?
 • Are there particular functions or classes that are absolutely mission-critical or
-business-critical? For example, code that involves billing is a commonly business-
-critical. Billing code is also frequently cleanly separable from other parts of the
+business-critical? For example, code that involves billing is a commonly businesscritical. Billing code is also frequently cleanly separable from other parts of the
 system.
-190 
-| 
+
+|
 Chapter 17: Testing for Reliability
 www.it-ebooks.info
 
@@ -7538,9 +7487,9 @@ complex and difficult.
 The concepts of stability and agility are traditionally in tension in the world of SRE.
 The last bullet point provides an interesting case where stability actually drives agility.
 When the build is predictably solid and reliable, developers can iterate faster!
-Creating a Test and Build Environment 
-| 
-191
+Creating a Test and Build Environment
+|
+
 www.it-ebooks.info
 
 
@@ -7561,8 +7510,7 @@ prospect of creating highly tested code as an engineering project rather than a 
 sophical mental exercise. Instead of repeating the ambiguous refrain “We need more
 tests,” set explicit goals and deadlines.
 Remember that not all software is created equal. Life-critical or revenue-critical sys‐
-tems demand substantially higher levels of test quality and coverage than a non-
-production script with a short shelf life.
+tems demand substantially higher levels of test quality and coverage than a nonproduction script with a short shelf life.
 Testing at Scale
 Now that we’ve covered the fundamentals of testing, let’s examine how SRE takes a
 systems perspective to testing in order to drive reliability at scale.
@@ -7580,8 +7528,8 @@ copy of the production environment, in principle, every small patch requires per
 forming a full disaster recovery iteration. Practical testing environments try to select
 branch points among the versions and merges. Doing so resolves the maximum
 amount of dependent uncertainty for the minimum number of iterations. Of course,
-192 
-| 
+
+|
 Chapter 17: Testing for Reliability
 www.it-ebooks.info
 
@@ -7589,8 +7537,7 @@ www.it-ebooks.info
 10 This section talks specifically about tools used by SRE that need to be scalable. However, SRE also develops
 and uses tools that don’t necessarily need to be scalable. The tools that don’t need to be scalable also need to be
 tested, but these tools are out of scope for this section, and therefore won’t be discussed here. Because their
-risk footprint is similar to user-facing applications, similar testing strategies are applicable on such SRE-
-developed tools.
+risk footprint is similar to user-facing applications, similar testing strategies are applicable on such SREdeveloped tools.
 when an area of uncertainty resolves into a fault, you need to select additional branch
 points.
 Testing Scalable Tools
@@ -7617,9 +7564,9 @@ replica cannot pass its health check. As a result, the replica isn’t released 
 risky software to only access unhealthy replicas.
 3. Use the replica health validating tool you use for black-box monitoring to
 remove the barrier.
-Testing at Scale 
-| 
-193
+Testing at Scale
+|
+
 www.it-ebooks.info
 
 
@@ -7653,8 +7600,8 @@ the code from finalizing the live migration. Even if there’s an integration te
 which the binary intentionally shuffles itself around, the test likely doesn’t use a
 production-sized model of the container fleet. It almost certainly isn’t allowed to use
 scarce high-latency intercontinental bandwidth for testing such races.
-194 
-| 
+
+|
 Chapter 17: Testing for Reliability
 www.it-ebooks.info
 
@@ -7687,9 +7634,9 @@ less challenging to test. This situation becomes complicated because the repair 
 is generally built separately from the serving production binary that it’s racing
 against. Consequently, you might need to build a unified instrumented binary to run
 within these tests so that the tools can observe transactions.
-Testing at Scale 
-| 
-195
+Testing at Scale
+|
+
 www.it-ebooks.info
 
 
@@ -7727,8 +7674,8 @@ actionable. These scenarios affect all the test attempts to varying extents and,
 they are coupled, reliably and quickly obtaining a list of actionable hypotheses (i.e.,
 components that are actually broken) means estimating all scenarios at the same
 time.
-196 
-| 
+
+|
 Chapter 17: Testing for Reliability
 www.it-ebooks.info
 
@@ -7766,9 +7713,9 @@ At what rate can you incorrectly flag a user’s patch as damaging by miscalcula
 environmental flakiness? It seems likely that users would vehemently complain if 1 in
 10 patches is rejected. But a rejection of 1 patch among 100 perfect patches might go
 without comment.
-Testing at Scale 
-| 
-197
+Testing at Scale
+|
+
 www.it-ebooks.info
 
 
@@ -7776,7 +7723,7 @@ This means you’re interested in the 42,000th root (one for each defined test b
 patch, and one for each defined test after the patch) of 0.99 (the fraction of patches
 that can be rejected). This calculation:
 0 . 99
-1
+
 2 × 21000
 suggests that those individual tests must run correctly over 99.9999% of the time.
 Hmm.
@@ -7809,8 +7756,8 @@ a software engineer would likely accept the test system giving the wrong answer 
 time in 10 or so. What risk are you willing to take with the migration if you know that
 testing may return a false negative and the situation could become really exciting,
 really quickly? Clearly, some areas of test coverage need a higher level of paranoia
-198 
-| 
+
+|
 Chapter 17: Testing for Reliability
 www.it-ebooks.info
 
@@ -7825,8 +7772,7 @@ testing was performed by humans against manually written instructions. This rele
 process was inefficient, but there was little need to automate it. The release effort was
 dominated by documentation, data migration, user retraining, and other factors.
 Mean Time Between Failure (MTBF) for those releases was one year, no matter how
-much testing took place. So many changes happened per release that some user-
-visible breakage was bound to be hiding in the software. Effectively, the reliability
+much testing took place. So many changes happened per release that some uservisible breakage was bound to be hiding in the software. Effectively, the reliability
 data from the previous release was irrelevant for the next release.
 Effective API/ABI management tools and interpreted languages that scale to large
 amounts of code now support building and executing a new software version every
@@ -7852,9 +7798,9 @@ If an SRE modifies a configuration file or adjusts an automation tool’s strate
 opposed to implementing a user feature), the engineering work matches the same
 conceptual model. When you are defining a release cadence based on reliability, it
 often makes sense to segment the reliability budget by functionality, or (more con‐
-Testing at Scale 
-| 
-199
+Testing at Scale
+|
+
 www.it-ebooks.info
 
 
@@ -7896,8 +7842,8 @@ editing.
 ing. Since breaking the glass impairs reliability, it’s generally a good idea to make
 the break noisy by (for example) filing a bug requesting a more robust resolution
 for next time.
-200 
-| 
+
+|
 Chapter 17: Testing for Reliability
 www.it-ebooks.info
 
@@ -7934,9 +7880,9 @@ ensure there’s a hard upper limit on how long the loading operation can take. 
 ever, the implementer needs to address schema faults, and most simple strategies for
 doing so don’t have an upper bound on runtime. Even worse, these strategies tend not
 to be robustly unit tested.
-Testing at Scale 
-| 
-201
+Testing at Scale
+|
+
 www.it-ebooks.info
 
 
@@ -7957,8 +7903,7 @@ is finding each anticipated form of misbehavior and making sure that some test (
 another tool’s tested input validator) reports that misbehavior. The tool that finds the
 problem might not be able to fix or even stop it, but should at least report the prob‐
 lem before a catastrophic outage occurs.
-For example, consider the configured list of all users (such as /etc/passwd on a non-
-networked Unix-style machine) and imagine an edit that unintentionally causes the
+For example, consider the configured list of all users (such as /etc/passwd on a nonnetworked Unix-style machine) and imagine an edit that unintentionally causes the
 parser to stop after parsing only half of the file. Because recently created users haven’t
 loaded, the machine will most likely continue to run without problem, and many
 users may not notice the fault. The tool that maintains home directories can easily
@@ -7977,8 +7922,8 @@ menting both kinds of coverage as an integration test is generally a good idea. 
 can replay the same bank of test requests as a release test. Splitting the known good
 requests into those that can be replayed against production and those that can’t yields
 three sets of requests:
-202 
-| 
+
+|
 Chapter 17: Testing for Reliability
 www.it-ebooks.info
 
@@ -8019,9 +7964,9 @@ This production test by probe does indeed offer protection to the site, plus cle
 back to the engineers. The earlier that feedback is given to engineers, the more useful
 it is. It’s also preferable that the test is automated so that the delivery of warnings to
 engineers is scalable.
-Testing at Scale 
-| 
-203
+Testing at Scale
+|
+
 www.it-ebooks.info
 
 
@@ -8062,8 +8007,8 @@ neering, you can only understand a problem by measuring it. The methodologies an
 techniques in this chapter provide a solid foundation for measuring faults and uncer‐
 tainty in a software system, and help engineers reason about the reliability of software
 as it’s written and released to users.
-204 
-| 
+
+|
 Chapter 17: Testing for Reliability
 www.it-ebooks.info
 
@@ -8094,7 +8039,7 @@ In many ways, the vast scale of Google production has necessitated internal soft
 development, because few third-party tools are designed at sufficient scale for Goo‐
 gle’s needs. The company’s history of successful software projects has led us to appre‐
 ciate the benefits of developing directly within SRE.
-205
+
 www.it-ebooks.info
 
 
@@ -8134,8 +8079,8 @@ desirability of team diversity is doubly true for SRE, where a variety of backgr
 and problem-solving approaches can help prevent blind spots. To this end, Google
 always strives to staff its SRE teams with a mix of engineers with traditional software
 development experience and engineers with systems engineering experience.
-206 
-| 
+
+|
 Chapter 18: Software Engineering in SRE
 www.it-ebooks.info
 
@@ -8172,9 +8117,9 @@ Plan. And each revision has trickle-down effects that must propagate throughout 
 plans of all subsequent quarters. For example, a shortfall this quarter must be made
 up in future quarters. Traditional capacity planning uses demand as a key driver, and
 manually shapes supply to fit demand in response to each change.
-Auxon Case Study: Project Background and Problem Space 
-| 
-207
+Auxon Case Study: Project Background and Problem Space
+|
+
 www.it-ebooks.info
 
 
@@ -8214,8 +8159,8 @@ This process may already paint a grim picture, but to make matters worse, the to
 requires are typically unreliable or cumbersome. Spreadsheets suffer severely from
 scalability problems and have limited error-checking abilities. Data becomes stale,
 and tracking changes becomes difficult. Teams often are forced to make simplifying
-208 
-| 
+
+|
 Chapter 18: Software Engineering in SRE
 www.it-ebooks.info
 
@@ -8256,9 +8201,9 @@ solution.
 Intent-Based Capacity Planning
 Intent is the rationale for how a service owner wants to run their service. Moving
 from concrete resource demands to motivating reasons in order to arrive at the true
-Intent-Based Capacity Planning 
-| 
-209
+Intent-Based Capacity Planning
+|
+
 www.it-ebooks.info
 
 
@@ -8298,8 +8243,8 @@ service. Foo expresses a requirement that Bar must be located within 30 millisec
 of network latency of Foo. This requirement has important repercussions for where
 we place both Foo and Bar, and intent-driven capacity planning must take these con‐
 straints into account.
-210 
-| 
+
+|
 Chapter 18: Software Engineering in SRE
 www.it-ebooks.info
 
@@ -8338,9 +8283,9 @@ allocation solution, and a prime example of an SRE-designed and developed softwa
 engineering product: it was built by a small group of software engineers and a techni‐
 cal program manager within SRE over the course of two years. Auxon is a perfect case
 study to demonstrate how software development can be fostered within SRE.
-Intent-Based Capacity Planning 
-| 
-211
+Intent-Based Capacity Planning
+|
+
 www.it-ebooks.info
 
 
@@ -8356,8 +8301,7 @@ servers.” Auxon collects this information either via a user configuration lang
 via a programmatic API, thus translating human intent into machine-parseable con‐
 straints. Requirements can be prioritized, a feature that’s useful if resources are insuf‐
 ficient to meet all requirements, and therefore trade-offs must be made. These
-requirements—the intent—are ultimately represented internally as a giant mixed-
-integer or linear program. Auxon solves the linear program, and uses the resultant
+requirements—the intent—are ultimately represented internally as a giant mixedinteger or linear program. Auxon solves the linear program, and uses the resultant
 bin packing solution to formulate an allocation plan for resources.
 Figure 18-1 and the explanations that follow it outline Auxon’s major components.
 Figure 18-1. The major components of Auxon
@@ -8370,8 +8314,8 @@ signals. Some services derive their future usage from demand forecasts—a forec
 queries per second broken down by continent. Not all services have a demand fore‐
 cast: some services (e.g., a storage service like Colossus) derive their demand purely
 from services that depend upon them.
-212 
-| 
+
+|
 Chapter 18: Software Engineering in SRE
 www.it-ebooks.info
 
@@ -8380,8 +8324,7 @@ Resource Supply provides data about the availability of base-level, fundamental
 resources: for example, the number of machines expected to be available for use at a
 particular point in the future. In linear program terminology, the resource supply acts
 as an upper bound that limits how services can grow and where services can be
-placed. Ultimately, we want to make the best use of this resource supply as the intent-
-based description of the combined group of services allows.
+placed. Ultimately, we want to make the best use of this resource supply as the intentbased description of the combined group of services allows.
 Resource Pricing provides data about how much base-level, fundamental resources
 cost. For instance, the cost of machines may vary globally based upon the space/
 power charges of a given facility. In linear program terminology, the prices inform
@@ -8413,9 +8356,9 @@ Requirements and Implementation: Successes and Lessons Learned
 Auxon was first imagined by an SRE and a technical program manager who had sepa‐
 rately been tasked by their respective teams with capacity planning large portions of
 Google’s infrastructure. Having performed manual capacity planning in spreadsheets,
-Intent-Based Capacity Planning 
-| 
-213
+Intent-Based Capacity Planning
+|
+
 www.it-ebooks.info
 
 
@@ -8458,8 +8401,8 @@ fuzzy requirements can be a frustrating challenge, but some degree of uncertaint
 need not be a showstopper. Use this fuzziness as an incentive to ensure that the soft‐
 ware is designed to be both general and modular. For instance, one of the aims of the
 Auxon project was to integrate with automation systems within Google to allow an
-214 
-| 
+
+|
 Chapter 18: Software Engineering in SRE
 www.it-ebooks.info
 
@@ -8500,9 +8443,9 @@ ware product—a single presentation or email announcement isn’t enough. Socia
 internal software tools to a large audience demands all of the following:
 • A consistent and coherent approach
 • User advocacy
-Intent-Based Capacity Planning 
-| 
-215
+Intent-Based Capacity Planning
+|
+
 www.it-ebooks.info
 
 
@@ -8542,8 +8485,8 @@ sufficient pain in the capacity planning process to try a new tool, especially a
 release with rough edges.
 The initial versions of Auxon intentionally targeted teams that had no existing
 capacity planning processes in place. Because these teams would have to invest con‐
-216 
-| 
+
+|
 Chapter 18: Software Engineering in SRE
 www.it-ebooks.info
 
@@ -8567,8 +8510,7 @@ users, you can address those fears personally, and demonstrate that rather than 
 ing the toil of performing a tedious task manually, the team instead owns the configu‐
 rations, processes, and ultimate results of their technical work. Later adopters are
 convinced by the happy examples of early adopters.
-Furthermore, because Google’s SRE teams are distributed across the globe, early-
-adopter advocates for a project are particularly beneficial, because they can serve as
+Furthermore, because Google’s SRE teams are distributed across the globe, earlyadopter advocates for a project are particularly beneficial, because they can serve as
 local experts for other teams interested in trying out the project.
 Designing at the right level
 An idea that we’ve termed agnosticism—writing the software to be generalized to
@@ -8583,9 +8525,9 @@ We’ve also consciously endeavored to avoid the pitfall of defining success as 
 adoption across the organization. In many cases, there are diminishing returns on
 closing the last mile to enable a feature set that is sufficient for every service in the
 long tail at Google.
-Intent-Based Capacity Planning 
-| 
-217
+Intent-Based Capacity Planning
+|
+
 www.it-ebooks.info
 
 
@@ -8626,8 +8568,8 @@ It’s important for the project to fit into the overall set of objectives for t
 tion, so that engineering leaders can weigh its potential impact and subsequently
 advocate for your project, both with their reporting teams and with other teams that
 might interface with their teams. Cross-organizational socialization and review help
-218 
-| 
+
+|
 Chapter 18: Software Engineering in SRE
 www.it-ebooks.info
 
@@ -8671,9 +8613,9 @@ impactful projects—when you’re thrashing between several tasks in the course
 hour. Therefore, the ability to work on a software project without interrupts is often
 an attractive reason for engineers to begin working on a development project. Such
 time must be aggressively defended.
-Fostering Software Engineering in SRE 
-| 
-219
+Fostering Software Engineering in SRE
+|
+
 www.it-ebooks.info
 
 
@@ -8714,8 +8656,8 @@ It’s important to define and communicate your strategy, plans, and—most impo
 tantly—the benefits SRE gains from this effort. SREs are a skeptical lot (in fact,
 skepticism is a trait for which we specifically hire); an SRE’s initial response to
 such an effort will likely be, “that sounds like too much overhead” or “it will
-220 
-| 
+
+|
 Chapter 18: Software Engineering in SRE
 www.it-ebooks.info
 
@@ -8759,9 +8701,9 @@ Don’t lower your standards
 As you start to develop software, you may be tempted to cut corners. Resist this
 urge by holding yourself to the same standards to which your product develop‐
 ment teams are held. For example:
-Fostering Software Engineering in SRE 
-| 
-221
+Fostering Software Engineering in SRE
+|
+
 www.it-ebooks.info
 
 
@@ -8787,8 +8729,8 @@ streamline inefficient processes or automate common tasks, these projects mean t
 the SRE team doesn’t have to scale linearly with the size of the services they support.
 Ultimately, the benefits of having SREs devoting some of their time to software devel‐
 opment are reaped by the company, the SRE organization, and the SREs themselves.
-222 
-| 
+
+|
 Chapter 18: Software Engineering in SRE
 www.it-ebooks.info
 
@@ -8819,7 +8761,7 @@ In reality, Google has thousands of machines and even more users, many of whom
 issue multiple requests at a time. Traffic load balancing is how we decide which of the
 many, many machines in our datacenters will serve a particular request. Ideally, traffic
 is distributed across multiple network links, datacenters, and machines in an “opti‐
-223
+
 www.it-ebooks.info
 
 
@@ -8845,8 +8787,7 @@ work. Therefore, optimal distribution of load focuses on optimal resource utiliz
 and protecting a single server from overloading.
 Of course, this example presents a vastly simplified picture. In reality, many more
 considerations factor into optimal load distribution: some requests may be directed
-to a datacenter that is slightly farther away in order to keep caches warm, or non-
-interactive traffic may be routed to a completely different region to avoid network
+to a datacenter that is slightly farther away in order to keep caches warm, or noninteractive traffic may be routed to a completely different region to avoid network
 congestion. Load balancing, especially for large systems, is anything but straightfor‐
 ward and static. At Google, we’ve approached the problem by load balancing at multi‐
 ple levels, two of which are described in the following sections. For the sake of
@@ -8859,8 +8800,8 @@ using DNS. This provides the perfect opportunity to introduce our first layer of
 balancing: DNS load balancing. The simplest solution is to return multiple A or AAAA
 records in the DNS reply and let the client pick an IP address arbitrarily. While con‐
 ceptually simple and trivial to implement, this solution poses multiple challenges.
-224 
-| 
+
+|
 Chapter 19: Load Balancing at the Frontend
 www.it-ebooks.info
 
@@ -8901,9 +8842,9 @@ given user’s request, but that nameserver may be responsible for serving thous
 millions of users, across regions varying from a single office to an entire continent.
 For instance, a large national ISP might run nameservers for its entire network from
 one datacenter, yet have network interconnects in each metropolitan area. The ISP’s
-Load Balancing Using DNS 
-| 
-225
+Load Balancing Using DNS
+|
+
 www.it-ebooks.info
 
 
@@ -8942,8 +8883,8 @@ Despite all of these problems, DNS is still the simplest and most effective way 
 ance load before the user’s connection even starts. On the other hand, it should be
 clear that load balancing with DNS on its own is not sufficient. Keep in mind that all
 DNS replies served should fit within the 512-byte limit3 set by RFC 1035 [Moc87].
-226 
-| 
+
+|
 Chapter 19: Load Balancing at the Frontend
 www.it-ebooks.info
 
@@ -8985,9 +8926,9 @@ selves, this remapping forces a reset of almost all of the existing connections.
 scenario is definitely not the best user experience, even if such events are infrequent.
 Fortunately, there is an alternate solution that doesn’t require keeping the state of
 every connection in memory, but won’t force all connections to reset when a single
-Load Balancing at the Virtual IP Address 
-| 
-227
+Load Balancing at the Virtual IP Address
+|
+
 www.it-ebooks.info
 
 
@@ -9030,8 +8971,8 @@ way our networks are designed and evolve. Unfortunately, encapsulation also come
 with a price: inflated packet size. Encapsulation introduces overhead (24 bytes in the
 case of IPv4+GRE, to be precise), which can cause the packet to exceed the available
 Maximum Transmission Unit (MTU) size and require fragmentation.
-228 
-| 
+
+|
 Chapter 19: Load Balancing at the Frontend
 www.it-ebooks.info
 
@@ -9042,9 +8983,9 @@ supports large Protocol Data Units. As with many things at scale, load balancing
 sounds simple on the surface—load balance early and load balance often—but the
 difficulty is in the details, both for frontend load balancing and for handling packets
 once they reach the datacenter.
-Load Balancing at the Virtual IP Address 
-| 
-229
+Load Balancing at the Virtual IP Address
+|
+
 www.it-ebooks.info
 
 
@@ -9079,7 +9020,7 @@ We should note that Google datacenters house a vastly diverse set of services th
 implement different combinations of the policies discussed in this chapter. Our work‐
 ing example, as just described, doesn’t fit any one service directly. It’s a generalized
 scenario that allows us to discuss the various techniques we’ve found useful for vari‐
-231
+
 www.it-ebooks.info
 
 
@@ -9108,8 +9049,8 @@ same time interval. During that time, the cross-datacenter load balancing algori
 must avoid sending any additional traffic to the datacenter, because doing so risks
 overloading some tasks.
 Figure 20-1. Two scenarios of per-task load distribution over time
-232 
-| 
+
+|
 Chapter 20: Load Balancing in the Datacenter
 www.it-ebooks.info
 
@@ -9136,9 +9077,9 @@ most backends, 100 is a reasonable limit; in the average case, requests tend to 
 fast enough that it is very rare for the number of active requests from a given client to
 reach this limit under normal operating conditions. This (very basic!) form of flow
 control also serves as a simplistic form of load balancing: if a given backend task
-Identifying Bad Tasks: Flow Control and Lame Ducks 
-| 
-233
+Identifying Bad Tasks: Flow Control and Lame Ducks
+|
+
 www.it-ebooks.info
 
 
@@ -9176,8 +9117,8 @@ requests that happened to be active on backend tasks that are shutting down. Bri
 ing down a backend task that has active requests without serving any errors facilitates
 code pushes, maintenance activities, or machine failures that may require restarting
 all related tasks. Such a shutdown would follow these general steps:
-234 
-| 
+
+|
 Chapter 20: Load Balancing in the Datacenter
 www.it-ebooks.info
 
@@ -9218,9 +9159,9 @@ when it occurs across many machines. Subsetting avoids the situation in which a 
 gle client connects to a very large number of backend tasks or a single backend task
 receives connections from a very large number of client tasks. In both cases, you
 potentially waste a very large amount of resources for very little gain.
-Limiting the Connections Pool with Subsetting 
-| 
-235
+Limiting the Connections Pool with Subsetting
+|
+
 www.it-ebooks.info
 
 
@@ -9261,8 +9202,8 @@ advance. This functionality is particularly important (and tricky) when the enti
 of client or backend tasks are restarted one at a time (e.g., to push a new version). As
 backends are pushed, we want clients to continue serving, transparently, with as little
 connection churn as possible.
-236 
-| 
+
+|
 Chapter 20: Load Balancing in the Datacenter
 www.it-ebooks.info
 
@@ -9287,9 +9228,9 @@ want to use in practice. The calculated load distribution changes every time we 
 the simulation while the general pattern remains.
 Figure 20-3. Connection distribution with 300 clients, 300 backends, and a subset size of
 30%
-Limiting the Connections Pool with Subsetting 
-| 
-237
+Limiting the Connections Pool with Subsetting
+|
+
 www.it-ebooks.info
 
 
@@ -9316,8 +9257,8 @@ def Subset(backends, client_id, subset_size):
   subset_id = client_id % subset_count
   start = subset_id * subset_size
   return backends[start:start + subset_size]
-238 
-| 
+
+|
 Chapter 20: Load Balancing in the Datacenter
 www.it-ebooks.info
 
@@ -9358,9 +9299,9 @@ backends and the desired subset size. For example:
 where shuffled_backend is the shuffled list created by each client. To assign a subset
 to a client task, we just take the subset that corresponds to its position within its
 round (e.g., (i % 4) for client[i] with four subsets):
-Limiting the Connections Pool with Subsetting 
-| 
-239
+Limiting the Connections Pool with Subsetting
+|
+
 www.it-ebooks.info
 
 
@@ -9384,8 +9325,8 @@ set of connections that are known to be healthy, let’s examine load balancing 
 These are the mechanisms used by client tasks to select which backend task in its sub‐
 set receives a client request. Many of the complexities in load balancing policies stem
 from the distributed nature of the decision-making process in which clients need to
-240 
-| 
+
+|
 Chapter 20: Load Balancing in the Datacenter
 www.it-ebooks.info
 
@@ -9396,8 +9337,7 @@ Load balancing policies can be very simple and not take into account any informa
 about the state of the backends (e.g., Round Robin) or can act with more information
 about the backends (e.g., Least-Loaded Round Robin or Weighted Round Robin).
 Simple Round Robin
-One very simple approach to load balancing has each client send requests in round-
-robin fashion to each backend task in its subset to which it can successfully connect
+One very simple approach to load balancing has each client send requests in roundrobin fashion to each backend task in its subset to which it can successfully connect
 and which isn’t in lame duck state. For many years, this was our most common
 approach, and it’s still used by many services.
 Unfortunately, while Round Robin has the advantage of being very simple and per‐
@@ -9424,9 +9364,9 @@ cheapest requests. Load balancing using Round Robin is even more difficult when
 query cost can’t be predicted in advance. For example, a query such as “return all
 emails received by user XYZ in the last day” could be very cheap (if the user has
 received little email over the course of the day) or extremely expensive.
-Load Balancing Policies 
-| 
-241
+Load Balancing Policies
+|
+
 www.it-ebooks.info
 
 
@@ -9444,8 +9384,7 @@ than paginating based on a fixed view of the data) will likely produce an incons
 view, repeating some messages and/or skipping others.
 To keep interfaces (and their implementations) simple, services are often defined to
 allow the most expensive requests to consume 100, 1,000, or even 10,000 times more
-resources than the cheapest requests. However, varying resource requirements per-
-request naturally mean that some backend tasks will be unlucky and occasionally
+resources than the cheapest requests. However, varying resource requirements perrequest naturally mean that some backend tasks will be unlucky and occasionally
 receive more expensive requests than others. The extent to which this situation affects
 load balancing depends on how expensive the most expensive requests are. For exam‐
 ple, for one of our Java backends, queries consume around 15 ms of CPU on average
@@ -9470,8 +9409,8 @@ significant effort because it required our job scheduler to account for resource
 alencies based on average machine performance across a sampling of services. For
 example, 2 CPU units in machine X (a “slow” machine) is equivalent to 0.8 CPU units
 in machine Y (a “fast” machine). With this information, the job scheduler is then
-242 
-| 
+
+|
 Chapter 20: Load Balancing in the Datacenter
 www.it-ebooks.info
 
@@ -9511,9 +9450,9 @@ Least-Loaded Round Robin
 An alternative approach to Simple Round Robin is to have each client task keep track
 of the number of active requests it has to each backend task in its subset and use
 Round Robin among the set of tasks with a minimal number of active requests.
-Load Balancing Policies 
-| 
-243
+Load Balancing Policies
+|
+
 www.it-ebooks.info
 
 
@@ -9529,16 +9468,8 @@ t6
 t7
 t8
 t9
-2
-1
-0
-0
-1
-0
-2
-0
-0
-1
+
+
 For a new request, the client would filter the list of potential backend tasks to just
 those tasks with the least number of connections (t2, t3, t5, t7, and t8) and choose a
 backend from that list. Let’s assume it picks t2. The client’s connection state table
@@ -9553,16 +9484,8 @@ t6
 t7
 t8
 t9
-2
-1
-1
-0
-1
-0
-2
-0
-0
-1
+
+
 Assuming none of the current requests have completed, on the next request, the
 backend candidate pool becomes t3, t5, t7, and t8.
 Let’s fast-forward until we’ve issued four new requests. Still assuming that no request
@@ -9577,16 +9500,8 @@ t6
 t7
 t8
 t9
-2
-1
-1
-1
-1
-1
-2
-1
-1
-1
+
+
 At this point the set of backend candidates is all tasks except t0 and t6. However, if the
 request against task t4 finishes, its current state becomes “0 active requests” and a
 new request will be assigned to t4.
@@ -9605,8 +9520,8 @@ amount of traffic to the unhealthy task, erroneously thinking that the task is a
 as opposed to fast-failing them! We say that the unhealthy task is now sinkholing traf‐
 fic. Fortunately, this pitfall can be solved relatively easily by modifying the policy to
 count recent errors as if they were active requests. This way, if a backend task
-244 
-| 
+
+|
 Chapter 20: Load Balancing in the Datacenter
 www.it-ebooks.info
 
@@ -9649,17 +9564,17 @@ utilization cost; failed requests result in a penalty that affects future decisi
 In practice, Weighted Round Robin has worked very well and significantly reduced
 the difference between the most and the least utilized tasks. Figure 20-6 shows the
 CPU rates for a random subset of backend tasks around the time its clients switched
-Load Balancing Policies 
-| 
-245
+Load Balancing Policies
+|
+
 www.it-ebooks.info
 
 
 from Least-Loaded to Weighted Round Robin. The spread from the least to the most
 loaded tasks decreased drastically.
 Figure 20-6. CPU distribution before and after enabling Weighted Round Robin
-246 
-| 
+
+|
 Chapter 20: Load Balancing in the Datacenter
 www.it-ebooks.info
 
@@ -9690,7 +9605,7 @@ prove insufficient to avoid overload when you’re operating at scale. At the en
 day, it’s best to build clients and backends to handle resource restrictions gracefully:
 redirect when possible, serve degraded results when necessary, and handle resource
 errors transparently when all else fails.
-247
+
 www.it-ebooks.info
 
 
@@ -9730,8 +9645,8 @@ owners of their backend dependencies, global overload never happens and backend
 services always have enough capacity to serve their customers. Unfortunately, we
 don’t live in a perfect world. Here in reality, global overload occurs quite frequently
 (especially for internal services that tend to have many clients run by many teams).
-248 
-| 
+
+|
 Chapter 21: Handling Overload
 www.it-ebooks.info
 
@@ -9770,9 +9685,9 @@ And even in the case where rejecting requests saves significant resources, those
 requests still consume some resources. If the amount of rejected requests is signifi‐
 cant, these numbers add up quickly. In such cases, the backend can become overloa‐
 ded even though the vast majority of its CPU is spent just rejecting requests!
-Client-Side Throttling 
-| 
-249
+Client-Side Throttling
+|
+
 www.it-ebooks.info
 
 
@@ -9811,8 +9726,8 @@ using a relatively simple implementation: there are no additional dependencies o
 latency penalties.
 For services where the cost of processing a request is very close to the cost of rejecting
 that request, allowing roughly half of the backend resources to be consumed by rejec‐
-250 
-| 
+
+|
 Chapter 21: Handling Overload
 www.it-ebooks.info
 
@@ -9840,8 +9755,7 @@ Criticality is another notion that we’ve found very useful in the context of g
 tas and throttling. A request made to a backend is associated with one of four possible
 criticality values, depending on how critical we consider that request:
 CRITICAL_PLUS
-Reserved for the most critical requests, those that will result in serious user-
-visible impact if they fail.
+Reserved for the most critical requests, those that will result in serious uservisible impact if they fail.
 CRITICAL
 The default value for requests sent from production jobs. These requests will
 result in user-visible impact, but the impact may be less severe than those of CRIT
@@ -9850,9 +9764,9 @@ CRITICAL and CRITICAL_PLUS traffic.
 SHEDDABLE_PLUS
 Traffic for which partial unavailability is expected. This is the default for batch
 jobs, which can retry requests minutes or even hours later.
-Criticality 
-| 
-251
+Criticality
+|
+
 www.it-ebooks.info
 
 
@@ -9890,8 +9804,8 @@ deep down the RPC stack they are. Our practice is thus to set the criticality as
 possible to the browsers or mobile clients—typically in the HTTP frontends that pro‐
 duce the HTML to be returned—and only override the criticality in specific cases
 where it makes sense at specific points in the stack.
-252 
-| 
+
+|
 Chapter 21: Handling Overload
 www.it-ebooks.info
 
@@ -9932,9 +9846,9 @@ A large subset of backend tasks in the datacenter are overloaded.
 If the cross-datacenter load balancing system is working perfectly (i.e., it can
 propagate state and react instantaneously to shifts in traffic), this condition will
 not occur.
-Utilization Signals 
-| 
-253
+Utilization Signals
+|
+
 www.it-ebooks.info
 
 
@@ -9976,8 +9890,8 @@ unlikely that attempting it again will help because the whole datacenter is like
 loaded.
 Secondly, we implement a per-client retry budget. Each client keeps track of the ratio
 of requests that correspond to retries. A request will only be retried as long as this
-254 
-| 
+
+|
 Chapter 21: Handling Overload
 www.it-ebooks.info
 
@@ -9986,8 +9900,7 @@ ratio is below 10%. The rationale is that if only a small subset of tasks are ov
 there will be relatively little need to retry.
 As a concrete example (of the worst-case scenario), let’s assume a datacenter is
 accepting a small amount of requests and rejecting a large portion of requests. Let X
-be the total rate of requests attempted against the datacenter according to the client-
-side logic. Due to the number of retries that will occur, the number of requests will
+be the total rate of requests attempted against the datacenter according to the clientside logic. Due to the number of retries that will occur, the number of requests will
 grow significantly, to somewhere just below 3X. Although we’ve effectively capped
 the growth caused by retries, a threefold increase in requests is significant, especially
 if the cost of rejecting versus processing a request is considerable. However, layering
@@ -10008,9 +9921,9 @@ end task in various example situations, over a sliding window (corresponding to
 is ignored (i.e., these numbers assume that the only limit to retries is the retry budget
 of three attempts per request), and subsetting could alter these numbers somewhat.
 Figure 21-1. Histograms of attempts in various conditions
-Handling Overload Errors 
-| 
-255
+Handling Overload Errors
+|
+
 www.it-ebooks.info
 
 
@@ -10035,8 +9948,8 @@ Figure 21-2. A stack of dependencies
 The key point is that a failed request from the DB Frontend should only be retried by
 Backend B, the layer immediately above it. If multiple layers retried, we’d have a com‐
 binatorial explosion.
-256 
-| 
+
+|
 Chapter 21: Handling Overload
 www.it-ebooks.info
 
@@ -10078,9 +9991,9 @@ a fuse. Another advantage of using the proxy is that it typically reduces the nu
 ber of connections against the backend, which can improve the load balancing
 against the backend (e.g., the proxy tasks can use bigger subsets and probably
 have a better view of the state of the backend tasks).
-Load from Connections 
-| 
-257
+Load from Connections
+|
+
 www.it-ebooks.info
 
 
@@ -10112,16 +10025,15 @@ operating at scale to protect against it; see Chapter 22.
 It’s a common mistake to assume that an overloaded backend should turn down and
 stop accepting all traffic. However, this assumption actually goes counter to the goal
 of robust load balancing. We actually want the backend to continue accepting as
-much traffic as possible, but to only accept that load as capacity frees up. A well-
-behaved backend, supported by robust load balancing policies, should accept only the
+much traffic as possible, but to only accept that load as capacity frees up. A wellbehaved backend, supported by robust load balancing policies, should accept only the
 requests that it can process and reject the rest gracefully.
 While we have a vast array of tools to implement good load balancing and overload
 protections, there is no magic bullet: load balancing often requires deep understand‐
 ing of a system and the semantics of its requests. The techniques described in this
 chapter have evolved along with the needs of many systems at Google, and will likely
 continue to evolve as the nature of our systems continues to change.
-258 
-| 
+
+|
 Chapter 21: Handling Overload
 www.it-ebooks.info
 
@@ -10142,7 +10054,7 @@ ity of failing, causing a domino effect that takes down all the replicas for a s
 We’ll use the Shakespeare search service discussed in “Shakespeare: A Sample Service”
 on page 20 as an example throughout this chapter. Its production configuration
 might look something like Figure 22-1.
-259
+
 www.it-ebooks.info
 
 
@@ -10157,8 +10069,8 @@ iations of this scenario.
 Suppose the frontend in cluster A is handling 1,000 requests per second (QPS), as in
 Figure 22-2.
 Figure 22-2. Normal server load distribution between clusters A and B
-260 
-| 
+
+|
 Chapter 22: Addressing Cascading Failures
 www.it-ebooks.info
 
@@ -10187,9 +10099,9 @@ crash, prompting the load balancer to distribute the resource problems to other
 servers. When this happens, the rate of successfully handled requests can drop and
 possibly send the cluster or an entire service into a cascade failure.
 Different types of resources can be exhausted, resulting in varying effects on servers.
-Causes of Cascading Failures and Designing to Avoid Them 
-| 
-261
+Causes of Cascading Failures and Designing to Avoid Them
+|
+
 www.it-ebooks.info
 
 
@@ -10203,8 +10115,7 @@ slower. This scenario can result in various secondary effects, including the fol
 Increased number of in-flight requests
 Because requests take longer to handle, more requests are handled concurrently
 (up to a possible maximum capacity at which queuing may occur). This affects
-almost all resources, including memory, number of active threads (in a thread-
-per-request server model), number of file descriptors, and backend resources
+almost all resources, including memory, number of active threads (in a threadper-request server model), number of file descriptors, and backend resources
 (which in turn can have other effects).
 Excessively long queue lengths
 If there is insufficient capacity to handle all the requests at steady state, the server
@@ -10227,8 +10138,8 @@ overload.
 Reduced CPU caching benefits
 As more CPU is used, the chance of spilling on to more cores increases, resulting
 in decreased usage of local caches and decreased CPU efficiency.
-262 
-| 
+
+|
 Chapter 22: Addressing Cascading Failures
 www.it-ebooks.info
 
@@ -10267,9 +10178,9 @@ For example, imagine the following scenario:
 3. CPU exhaustion slows down completion of requests.
 4. The increased number of in-progress requests causes more RAM to be used to
 process the requests.
-Causes of Cascading Failures and Designing to Avoid Them 
-| 
-263
+Causes of Cascading Failures and Designing to Avoid Them
+|
+
 www.it-ebooks.info
 
 
@@ -10310,8 +10221,8 @@ Approach to Unhealthy Tasks: Lame Duck State” on page 234) or fail health chec
 without crashing. The effect can be very similar to crashing: more servers appear
 unhealthy, the healthy servers tend to accept requests for a very brief period of time
 before becoming unhealthy, and fewer servers participate in handling requests.
-264 
-| 
+
+|
 Chapter 22: Addressing Cascading Failures
 www.it-ebooks.info
 
@@ -10339,8 +10250,7 @@ When overloaded at either the frontend or backend layers, fail early and cheaply
 For details, see “Load Shedding and Graceful Degradation” on page 267.
 Instrument higher-level systems to reject requests, rather than overloading servers
 Note that because rate limiting often doesn’t take overall service health into
-account, it may not be able to stop a failure that has already begun. Simple rate-
-limiting implementations are also likely to leave capacity unused. Rate limiting
+account, it may not be able to stop a failure that has already begun. Simple ratelimiting implementations are also likely to leave capacity unused. Rate limiting
 can be implemented in a number of places:
 • At the reverse proxies, by limiting the volume of requests by criteria such as
 IP address to mitigate attempted denial-of-service attacks and abusive
@@ -10352,9 +10262,9 @@ ond”) or more selective (“drop requests that aren’t from users who have
 recently interacted with the service” or “drop requests for low-priority opera‐
 tions like background synchronization, but keep serving interactive user
 sessions”).
-Preventing Server Overload 
-| 
-265
+Preventing Server Overload
+|
+
 www.it-ebooks.info
 
 
@@ -10394,8 +10304,8 @@ For a system with fairly steady traffic over time, it is usually better to have 
 queue lengths relative to the thread pool size (e.g., 50% or less), which results in the
 server rejecting requests early when it can’t sustain the rate of incoming requests. For
 example, Gmail often uses queueless servers, relying instead on failover to other
-266 
-| 
+
+|
 Chapter 22: Addressing Cascading Failures
 www.it-ebooks.info
 
@@ -10420,7 +10330,7 @@ approaches can reduce load by removing requests that are unlikely to be worth pr
 cessing [Mau15]. If a user’s web search is slow because an RPC has been queued for
 10 seconds, there’s a good chance the user has given up and refreshed their browser,
 issuing another request: there’s no point in responding to the first one, since it will be
-ignored! This strategy works well when combined with propagating RPC deadlines 
+ignored! This strategy works well when combined with propagating RPC deadlines
 throughout the stack, described in “Latency and Deadlines” on page 271.
 More sophisticated approaches include identifying clients to be more selective about
 what work is dropped, or picking requests that are more important and prioritizing.
@@ -10437,9 +10347,9 @@ consider the following:
 radation should kick in (e.g,. CPU usage, latency, queue length, number of
 threads used, whether your service enters degraded mode automatically or if
 manual intervention is necessary)?
-Preventing Server Overload 
-| 
-267
+Preventing Server Overload
+|
+
 www.it-ebooks.info
 
 
@@ -10480,8 +10390,8 @@ func exampleRpcCall(client pb.ExampleClient, request pb.Request) *pb.Response {
             // Something went wrong in setting up the connection.  Try again.
             attempts--
             continue
-268 
-| 
+
+|
 Chapter 22: Addressing Cascading Failures
 www.it-ebooks.info
 
@@ -10523,9 +10433,9 @@ overloading those tasks.
 Some simplifying assumptions were made here to illustrate this scenario,4 but the
 point remains that retries can destabilize a system. Note that both temporary load
 spikes and slow increases in usage can cause this effect.
-Preventing Server Overload 
-| 
-269
+Preventing Server Overload
+|
+
 www.it-ebooks.info
 
 
@@ -10566,8 +10476,8 @@ multiple levels: a single request at the highest layer may produce a number of
 attempts as large as the product of the number of attempts at each layer to the
 lowest layer. If the database can’t service requests because it’s overloaded, and the
 backend, frontend, and JavaScript layers all issue 3 retries (4 attempts), then a
-270 
-| 
+
+|
 Chapter 22: Addressing Cascading Failures
 www.it-ebooks.info
 
@@ -10607,9 +10517,9 @@ overloaded, and as a result, it takes 11 seconds to move from a queue to a threa
 At this point, the client has already given up on the request. Under most circumstan‐
 ces, it would be unwise for the server to attempt to handle this request, because it
 would be doing work for which no credit will be granted—the client doesn’t care what
-Preventing Server Overload 
-| 
-271
+Preventing Server Overload
+|
+
 www.it-ebooks.info
 
 
@@ -10648,8 +10558,8 @@ Also consider setting an upper bound for outgoing deadlines. You may want to lim
 how long the server waits for outgoing RPCs to noncritical backends, or for RPCs to
 backends that typically complete in a short duration. However, be sure to understand
 your traffic mix, because you might otherwise inadvertently make particular types of
-272 
-| 
+
+|
 Chapter 22: Addressing Cascading Failures
 www.it-ebooks.info
 
@@ -10691,9 +10601,9 @@ addition to the averages.
 • This problem can be avoided if the requests that don’t complete return with an
 error early, rather than waiting the full deadline. For example, if a backend is
 unavailable, it’s usually best to immediately return an error for that backend,
-Preventing Server Overload 
-| 
-273
+Preventing Server Overload
+|
+
 www.it-ebooks.info
 
 
@@ -10732,8 +10642,8 @@ Turning up a new cluster
 A recently added cluster will have an empty cache.
 Returning a cluster to service after maintenance
 The cache may be stale.
-274 
-| 
+
+|
 Chapter 22: Addressing Cascading Failures
 www.it-ebooks.info
 
@@ -10774,9 +10684,9 @@ However, suppose the backends cross-communicate amongst each other. For exam‐
 ple, the backends might proxy requests to one another to change who owns a user
 when the storage layer can’t service a request. This intra-layer communication can be
 problematic for several reasons:
-Slow Startup and Cold Caching 
-| 
-275
+Slow Startup and Cold Caching
+|
+
 www.it-ebooks.info
 
 
@@ -10814,8 +10724,8 @@ because of a Query of Death (an RPC whose contents trigger a failure in the proc
 cluster issues, assertion failures, or a number of other reasons. A very small event
 (e.g., a couple of crashes or tasks rescheduled to other machines) may cause a service
 on the brink of falling to break.
-276 
-| 
+
+|
 Chapter 22: Addressing Cascading Failures
 www.it-ebooks.info
 
@@ -10824,8 +10734,7 @@ Process Updates
 Pushing a new version of the binary or updating its configuration may initiate a cas‐
 cading failure if a large number of tasks are affected simultaneously. To prevent this
 scenario, either account for necessary capacity overhead when setting up the service’s
-update infrastructure, or push off-peak. Dynamically adjusting the number of in-
-flight task updates based on the volume of requests and available capacity may be a
+update infrastructure, or push off-peak. Dynamically adjusting the number of inflight task updates based on the volume of requests and available capacity may be a
 workable approach.
 New Rollouts
 A new binary, configuration changes, or a change to the underlying infrastructure
@@ -10853,9 +10762,9 @@ may have changed due to frontend code or configuration changes. Similarly, the d
 handled by the service may have changed organically due to increased or differing
 usage by existing users: for instance, both the number and size of images, per user, for
 a photo storage service tend to increase over time.
-Triggering Conditions for Cascading Failures 
-| 
-277
+Triggering Conditions for Cascading Failures
+|
+
 www.it-ebooks.info
 
 
@@ -10894,8 +10803,8 @@ survive.
 Load testing also reveals where the breaking point is, knowledge that’s fundamental to
 the capacity planning process. It enables you to test for regressions, provision for
 worst-case thresholds, and to trade off utilization versus safety margins.
-278 
-| 
+
+|
 Chapter 22: Addressing Cascading Failures
 www.it-ebooks.info
 
@@ -10933,9 +10842,9 @@ Understand how large clients use your service. For example, you want to know if
 clients:
 • Can queue work while the service is down
 • Use randomized exponential backoff on errors
-Testing for Cascading Failures 
-| 
-279
+Testing for Cascading Failures
+|
+
 www.it-ebooks.info
 
 
@@ -10970,8 +10879,8 @@ If your system is running at degraded capacity and you have idle resources, addi
 tasks can be the most expedient way to recover from the outage. However, if the ser‐
 vice has entered a death spiral of some sort, adding more resources may not be suffi‐
 cient to recover.
-280 
-| 
+
+|
 Chapter 22: Addressing Cascading Failures
 www.it-ebooks.info
 
@@ -11009,9 +10918,9 @@ can get the service up and running again by:
 —if the entire service is crash-looping, only allow, say, 1% of the traffic through.
 3. Allowing the majority of the servers to become healthy.
 4. Gradually ramping up the load.
-Immediate Steps to Address Cascading Failures 
-| 
-281
+Immediate Steps to Address Cascading Failures
+|
+
 www.it-ebooks.info
 
 
@@ -11041,8 +10950,8 @@ an outage.
 Eliminate Bad Traffic
 If some queries are creating heavy load or crashes (e.g., queries of death), consider
 blocking them or eliminating them via other means.
-282 
-| 
+
+|
 Chapter 22: Addressing Cascading Failures
 www.it-ebooks.info
 
@@ -11078,9 +10987,9 @@ tion. Once a service passes its breaking point, it is better to allow some user-
 errors or lower-quality results to slip through than try to fully serve every request.
 Understanding where those breaking points are and how the system behaves beyond
 them is critical for service owners who want to avoid cascading failures.
-Closing Remarks 
-| 
-283
+Closing Remarks
+|
+
 www.it-ebooks.info
 
 
@@ -11091,8 +11000,8 @@ thy servers, adding caches to improve performance or reduce latency: all of thes
 might be implemented to improve the normal case, but can improve the chance of
 causing a large-scale failure. Be careful when evaluating changes to ensure that one
 outage is not being traded for another.
-284 
-| 
+
+|
 Chapter 22: Addressing Cascading Failures
 www.it-ebooks.info
 
@@ -11122,7 +11031,7 @@ nected by an unreliable communications network. For instance, several processes 
 distributed system may need to be able to form a consistent view of a critical piece of
 configuration, whether or not a distributed lock is held, or if a message on a queue
 has been processed. It is one of the most fundamental concepts in distributed com‐
-285
+
 www.it-ebooks.info
 
 
@@ -11145,8 +11054,8 @@ The logic is intuitive: if two nodes can’t communicate (because the network is
 tioned), then the system as a whole can either stop serving some or all requests at
 some or all nodes (thus reducing availability), or it can serve requests as usual, which
 results in inconsistent views of the data at each node.
-286 
-| 
+
+|
 Chapter 23: Managing Critical State: Distributed Consensus for Reliability
 www.it-ebooks.info
 
@@ -11185,9 +11094,9 @@ financial transactions: reliability or performance requirements don’t provide 
 value if the financial data is not correct. Systems need to be able to reliably synchron‐
 ize critical state across multiple processes. Distributed consensus algorithms provide
 this functionality.
-Managing Critical State: Distributed Consensus for Reliability 
-| 
-287
+Managing Critical State: Distributed Consensus for Reliability
+|
+
 www.it-ebooks.info
 
 
@@ -11226,8 +11135,8 @@ results in either corruption or unavailability of data.
 The problem here is that the system is trying to solve a leader election problem using
 simple timeouts. Leader election is a reformulation of the distributed asynchronous
 consensus problem, which cannot be solved correctly by using heartbeats.
-288 
-| 
+
+|
 Chapter 23: Managing Critical State: Distributed Consensus for Reliability
 www.it-ebooks.info
 
@@ -11269,9 +11178,9 @@ ware systems, we are interested in asynchronous distributed consensus, which app
 to environments with potentially unbounded delays in message passing. (Synchronous
 consensus applies to real-time systems, in which dedicated hardware means that mes‐
 sages will always be passed with specific timing guarantees.)
-How Distributed Consensus Works 
-| 
-289
+How Distributed Consensus Works
+|
+
 www.it-ebooks.info
 
 
@@ -11311,8 +11220,8 @@ ing from disjoint sets, or incorporating their hostname into the sequence number
 instance).
 If a proposer receives agreement from a majority of the acceptors, it can commit the
 proposal by sending a commit message with a value.
-290 
-| 
+
+|
 Chapter 23: Managing Critical State: Distributed Consensus for Reliability
 www.it-ebooks.info
 
@@ -11354,9 +11263,9 @@ useful distributed systems components and services such as data or configuration
 storage, locking, and leader election (described in more detail later).
 The operations on an RSM are ordered globally through a consensus algorithm. This
 is a powerful concept: several papers ([Agu10], [Kir08], [Sch90]) show that any deter‐
-System Architecture Patterns for Distributed Consensus 
-| 
-291
+System Architecture Patterns for Distributed Consensus
+|
+
 www.it-ebooks.info
 
 
@@ -11388,8 +11297,8 @@ necessary to resolve that uncertainty.
 Highly Available Processing Using Leader Election
 Leader election in distributed systems is an equivalent problem to distributed consen‐
 sus. Replicated services that use a single leader to perform some specific type of work
-292 
-| 
+
+|
 Chapter 23: Managing Critical State: Distributed Consensus for Reliability
 www.it-ebooks.info
 
@@ -11414,9 +11323,9 @@ of a computation are completed). Use of a barrier effectively splits a distribut
 putation into logical phases. For instance, as shown in Figure 23-4, a barrier could be
 used in implementing the MapReduce [Dea04] model to ensure that the entire Map
 phase is completed before the Reduce part of the computation proceeds.
-System Architecture Patterns for Distributed Consensus 
-| 
-293
+System Architecture Patterns for Distributed Consensus
+|
+
 www.it-ebooks.info
 
 
@@ -11444,8 +11353,8 @@ instead of an outright removal from the queue. The downside of queuing-based sys
 tems is that loss of the queue prevents the entire system from operating. Implement‐
 ing the queue as an RSM can minimize the risk, and make the entire system far more
 robust.
-294 
-| 
+
+|
 Chapter 23: Managing Critical State: Distributed Consensus for Reliability
 www.it-ebooks.info
 
@@ -11471,9 +11380,9 @@ extremely low latency (due to seldom being directly user-facing). However, very 
 latencies in a system like the one just described, which has multiple workers claiming
 tasks from a queue, could become a problem if the percentage of processing time for
 each task grew significantly.
-System Architecture Patterns for Distributed Consensus 
-| 
-295
+System Architecture Patterns for Distributed Consensus
+|
+
 www.it-ebooks.info
 
 
@@ -11511,8 +11420,8 @@ Deployment strategies vary, too. For example:
 Many consensus systems use a distinguished leader process and require all requests to
 go to this special node. As shown in Figure 23-6, as a result, the performance of the
 system as perceived by clients in different geographic locations may vary considera‐
-296 
-| 
+
+|
 Chapter 23: Managing Critical State: Distributed Consensus for Reliability
 www.it-ebooks.info
 
@@ -11533,9 +11442,9 @@ remains the same, the first phase is unnecessary because the proposer that estab
 the view can simply send Accept messages, and consensus is reached once a quorum
 of responses is received (including the proposer itself).
 Figure 23-7. Basic Multi-Paxos message flow
-Distributed Consensus Performance 
-| 
-297
+Distributed Consensus Performance
+|
+
 www.it-ebooks.info
 
 
@@ -11561,8 +11470,8 @@ Scaling Read-Heavy Workloads
 Scaling read workload is often critical because many workloads are read-heavy. Repli‐
 cated datastores have the advantage that the data is available in multiple places, mean‐
 ing that if strong consistency is not required for all reads, data could be read from any
-298 
-| 
+
+|
 Chapter 23: Managing Critical State: Distributed Consensus for Reliability
 www.it-ebooks.info
 
@@ -11572,8 +11481,7 @@ such as Google’s Photon system [Ana13], which uses distributed consensus to co
 nate the work of multiple pipelines. Photon uses an atomic compare-and-set opera‐
 tion for state modification (inspired by atomic registers), which must be absolutely
 consistent; but read operations may be served from any replica, because stale data
-results in extra work being performed but not incorrect results [Gup15]. The trade-
-off is worthwhile.
+results in extra work being performed but not incorrect results [Gup15]. The tradeoff is worthwhile.
 In order to guarantee that data being read is up-to-date and consistent with any
 changes made before the read is performed, it is necessary to do one of the following:
 • Perform a read-only consensus operation.
@@ -11600,9 +11508,9 @@ edged by all replicas in the read quorum. If any of these replicas becomes unava
 the data cannot be modified until the lease expires.
 Quorum leases are particularly useful for read-heavy workloads in which reads for
 particular subsets of the data are concentrated in a single geographic region.
-Distributed Consensus Performance 
-| 
-299
+Distributed Consensus Performance
+|
+
 www.it-ebooks.info
 
 
@@ -11641,8 +11549,8 @@ Figure 23-9, which hold persistent TCP/IP connections to the consensus group in
 order to avoid the setup overhead over long distances. Proxies may also be a good
 way to encapsulate sharding and load balancing strategies, as well as discovery of
 cluster members and leaders.
-300 
-| 
+
+|
 Chapter 23: Managing Critical State: Distributed Consensus for Reliability
 www.it-ebooks.info
 
@@ -11659,8 +11567,7 @@ tions in Classic Paxos:
 • One message from the client to a single proposer
 • A parallel message send operation from the proposer to the other replicas
 Intuitively, it seems as though Fast Paxos should always be faster than Classic Paxos.
-However, that’s not true: if the client in the Fast Paxos system has a high RTT (round-
-trip time) to the acceptors, and the acceptors have fast connections to each other, we
+However, that’s not true: if the client in the Fast Paxos system has a high RTT (roundtrip time) to the acceptors, and the acceptors have fast connections to each other, we
 have substituted N parallel messages across the slower network links (in Fast Paxos)
 for one message across the slower link plus N parallel messages across the faster links
 (Classic Paxos). Due to the latency tail effect, the majority of the time, a single round
@@ -11668,9 +11575,9 @@ trip across a slow link with a distribution of latencies is faster than a quorum
 shown in [Jun07]), and therefore, Fast Paxos is slower than Classic Paxos in this case.
 Many systems batch multiple operations into a single transaction at the acceptor to
 increase throughput. Having clients act as proposers also makes it much more diffi‐
-Distributed Consensus Performance 
-| 
-301
+Distributed Consensus Performance
+|
+
 www.it-ebooks.info
 
 
@@ -11710,8 +11617,8 @@ The batches of requests in the pipeline are still globally ordered with a view n
 and a transaction number, so this method does not violate the global ordering prop‐
 erties required to run a replicated state machine. This optimization method is dis‐
 cussed in [Bol11] and [San11].
-302 
-| 
+
+|
 Chapter 23: Managing Critical State: Distributed Consensus for Reliability
 www.it-ebooks.info
 
@@ -11752,9 +11659,9 @@ proposer performs its logging in parallel with the acceptors.
 As we have seen already, distributed consensus algorithms are often used as the basis
 for building a replicated state machine. RSMs also need to keep transaction logs for
 recovery purposes (for the same reasons as any datastore). The consensus algorithm’s
-Distributed Consensus Performance 
-| 
-303
+Distributed Consensus Performance
+|
+
 www.it-ebooks.info
 
 
@@ -11772,8 +11679,7 @@ one operation at the proposer ([Ana13], [Bol11], [Cha07], [Jun11], [Mao08],
 [Mor12a]). This amortizes the fixed costs of the disk logging and network latency
 over the larger number of operations, increasing throughput.
 Deploying Distributed Consensus-Based Systems
-The most critical decisions system designers must make when deploying a consensus-
-based system concern the number of replicas to be deployed and the location of those
+The most critical decisions system designers must make when deploying a consensusbased system concern the number of replicas to be deployed and the location of those
 replicas.
 Number of Replicas
 In general, consensus-based systems operate using majority quorums, i.e., a group of
@@ -11795,8 +11701,8 @@ If a consensus system loses so many of its replicas that it cannot form a quorum
 that system is, in theory, in an unrecoverable state because the durable logs of at least
 one of the missing replicas cannot be accessed. If no quorum remains, it’s possible
 that a decision that was seen only by the missing replicas was made. Administrators
-304 
-| 
+
+|
 Chapter 23: Managing Critical State: Distributed Consensus for Reliability
 www.it-ebooks.info
 
@@ -11839,9 +11745,9 @@ The decision about the number of replicas for any system is thus a trade-off bet
 the following factors:
 • The need for reliability
 • Frequency of planned maintenance affecting the system
-Deploying Distributed Consensus-Based Systems 
-| 
-305
+Deploying Distributed Consensus-Based Systems
+|
+
 www.it-ebooks.info
 
 
@@ -11880,8 +11786,8 @@ increased to increase throughput.
 It doesn’t always make sense to continually increase the size of the failure domain
 whose loss the system can withstand. For instance, if all of the clients using a consen‐
 sus system are running within a particular failure domain (say, the New York area)
-306 
-| 
+
+|
 Chapter 23: Managing Critical State: Distributed Consensus for Reliability
 www.it-ebooks.info
 
@@ -11925,9 +11831,9 @@ able. With six replicas, a quorum requires four replicas: only 33% of the replic
 be unavailable if the system is to remain live.
 Considerations regarding failure domains therefore apply even more strongly when a
 sixth replica is added: if an organization has five datacenters, and generally runs con‐
-Deploying Distributed Consensus-Based Systems 
-| 
-307
+Deploying Distributed Consensus-Based Systems
+|
+
 www.it-ebooks.info
 
 
@@ -11957,8 +11863,8 @@ ensure that leader processes for the different shards are balanced relatively ev
 across different datacenters. Doing so prevents the system as a whole from being bot‐
 tlenecked on outgoing network capacity for just one datacenter, and makes for much
 greater overall system capacity.
-308 
-| 
+
+|
 Chapter 23: Managing Critical State: Distributed Consensus for Reliability
 www.it-ebooks.info
 
@@ -11976,9 +11882,9 @@ Figure 23-12. When colocated leaders fail over en masse, patterns of network uti
 change dramatically
 However, this type of deployment could easily be an unintended result of automatic
 processes in the system that have bearing on how leaders are chosen. For instance:
-Deploying Distributed Consensus-Based Systems 
-| 
-309
+Deploying Distributed Consensus-Based Systems
+|
+
 www.it-ebooks.info
 
 
@@ -12003,8 +11909,7 @@ between all replicas. All other factors being equal (such as workload, hardware,
 network performance), this arrangement should lead to fairly consistent performance
 across all regions, regardless of where the group leader is located (or for each member
 of the consensus group, if a leaderless protocol is in use).
-Geography can greatly complicate this approach. This is particularly true for intra-
-continental versus transpacific and transatlantic traffic. Consider a system that spans
+Geography can greatly complicate this approach. This is particularly true for intracontinental versus transpacific and transatlantic traffic. Consider a system that spans
 North America and Europe: it is impossible to locate replicas equidistant from each
 other because there will always be a longer lag for transatlantic traffic than for intra‐
 continental traffic. No matter what, transactions from one region will need to make a
@@ -12016,8 +11921,8 @@ tion would mean that in the average case, consensus could be achieved in North
 America without waiting for replies from Europe, or that from Europe, consensus
 can be achieved by exchanging messages only with the east coast replica. The east
 coast replica acts as a linchpin of sorts, where two possible quorums overlap.
-310 
-| 
+
+|
 Chapter 23: Managing Critical State: Distributed Consensus for Reliability
 www.it-ebooks.info
 
@@ -12033,9 +11938,9 @@ This scenario is a key weakness of the simple majority quorum when applied to
 groups composed of replicas with very different RTTs between members. In such
 cases, a hierarchical quorum approach may be useful. As diagrammed in
 Figure 23-15, nine replicas may be deployed in three groups of three. A quorum may
-Deploying Distributed Consensus-Based Systems 
-| 
-311
+Deploying Distributed Consensus-Based Systems
+|
+
 www.it-ebooks.info
 
 
@@ -12056,15 +11961,14 @@ bleshooting. Experience has shown us that there are certain specific aspects of
 distributed consensus systems that warrant special attention. These are:
 The number of members running in each consensus group, and the status of each process
 (healthy or not healthy)
-A process may be running but unable to make progress for some (e.g., hardware-
-related) reason.
+A process may be running but unable to make progress for some (e.g., hardwarerelated) reason.
 Persistently lagging replicas
 Healthy members of a consensus group can still potentially be in multiple differ‐
 ent states. A group member may be recovering state from peers after startup, or
 lagging behind the quorum in the group, or it may be up-to-date and participat‐
 ing fully, and it may be the leader.
-312 
-| 
+
+|
 Chapter 23: Managing Critical State: Distributed Consensus for Reliability
 www.it-ebooks.info
 
@@ -12104,9 +12008,9 @@ examining the performance characteristics and some of the operational concerns
 around distributed consensus–based systems.
 We deliberately avoided an in-depth discussion about specific algorithms, protocols,
 or implementations in this chapter. Distributed coordination systems and the tech‐
-Conclusion 
-| 
-313
+Conclusion
+|
+
 www.it-ebooks.info
 
 
@@ -12121,8 +12025,8 @@ arise when ad hoc methods such as heartbeats are used instead of distributed con
 sus. Whenever you see leader election, critical shared state, or distributed locking,
 think about distributed consensus: any lesser approach is a ticking bomb waiting to
 explode in your systems.
-314 
-| 
+
+|
 Chapter 23: Managing Critical State: Distributed Consensus for Reliability
 www.it-ebooks.info
 
@@ -12137,8 +12041,7 @@ serves the vast majority of internal teams that need periodic scheduling of comp
 jobs. Throughout cron’s existence, we have learned many lessons about how to design
 and implement what might seem like a basic service. Here, we discuss the problems
 that distributed crons face and outline some potential solutions.
-Cron is a common Unix utility designed to periodically launch arbitrary jobs at user-
-defined times or intervals. We first analyze the base principles of cron and its most
+Cron is a common Unix utility designed to periodically launch arbitrary jobs at userdefined times or intervals. We first analyze the base principles of cron and its most
 common implementations, and then review how an application such as cron can
 work in a large, distributed environment in order to increase the reliability of the sys‐
 tem against single-machine failures. We describe a distributed cron system that is
@@ -12150,7 +12053,7 @@ running it as a cross-datacenter service.
 Introduction
 Cron is designed so that the system administrators and common users of the system
 can specify commands to run, and when these commands run. Cron executes various
-315
+
 www.it-ebooks.info
 
 
@@ -12186,8 +12089,8 @@ Some cron jobs, such as garbage collection processes, are idempotent. In case of
 tem malfunction, it is safe to launch such jobs multiple times. Other cron jobs, such
 as a process that sends out an email newsletter to a wide distribution, should not be
 launched more than once.
-316 
-| 
+
+|
 Chapter 24: Distributed Periodic Scheduling with Cron
 www.it-ebooks.info
 
@@ -12229,9 +12132,9 @@ one or more RPCs to the datacenter scheduler.
 This process is, however, not instantaneous. Discovering a dead machine entails
 health check timeouts, while rescheduling your service onto a different machine
 requires time to install software and start up the new process.
-Cron at Large Scale 
-| 
-317
+Cron at Large Scale
+|
+
 www.it-ebooks.info
 
 
@@ -12274,8 +12177,8 @@ single machine now has many obvious and nonobvious dependencies when deployed
 at a larger scale. For a service as basic as cron, we want to ensure that even if the data‐
 center suffers a partial failure (for example, partial power outage or problems with
 storage services), the service is still able to function. By requiring that the datacenter
-318 
-| 
+
+|
 Chapter 24: Distributed Periodic Scheduling with Cron
 www.it-ebooks.info
 
@@ -12287,8 +12190,7 @@ It may be possible to deploy a single cron service across the globe, but deployi
 within a single datacenter has benefits: the service enjoys low latency and shares fate
 with the datacenter scheduler, cron’s core dependency.
 Building Cron at Google
-This section address the problems that must be resolved in order to provide a large-
-scale distributed deployment of cron reliably. It also highlights some important deci‐
+This section address the problems that must be resolved in order to provide a largescale distributed deployment of cron reliably. It also highlights some important deci‐
 sions made in regards to distributed cron at Google.
 Tracking the State of Cron Jobs
 As discussed in previous sections, we need to hold some amount of state about cron
@@ -12312,9 +12214,9 @@ does not mean that the storage has to be part of the cron process directly (how
 storage is handled is essentially an implementation detail). However, cron should
 be able to operate independently of downstream systems that cater to a large
 number of internal users.
-Building Cron at Google 
-| 
-319
+Building Cron at Google
+|
+
 www.it-ebooks.info
 
 
@@ -12344,8 +12246,8 @@ end of each scheduled launch for each cron job.
 The Roles of the Leader and the Follower
 As just described, our use of Paxos and its deployment in the cron service has two
 assigned roles: the leader and the follower. The following sections describe each role.
-320 
-| 
+
+|
 Chapter 24: Distributed Periodic Scheduling with Cron
 www.it-ebooks.info
 
@@ -12378,9 +12280,9 @@ The completion of the cron job launch is announced via Paxos to the other replic
 synchronously. Note that it does not matter whether the launch succeeded or failed
 for external reasons (for example, if the datacenter scheduler was unavailable). Here,
 we are simply keeping track of the fact that the cron service attempted the launch at
-Building Cron at Google 
-| 
-321
+Building Cron at Google
+|
+
 www.it-ebooks.info
 
 
@@ -12420,16 +12322,15 @@ These two points allow us to delimit the launch. Even if the launch consists of 
 RPC, how do we know if the RPC was actually sent? Consider the case in which we
 know that the scheduled launch started, but we were not notified of its completion
 before the leader replica died.
-322 
-| 
+
+|
 Chapter 24: Distributed Periodic Scheduling with Cron
 www.it-ebooks.info
 
 
 In order to determine if the RPC was actually sent, one of the following conditions
 must be met:
-• All operations on external systems, which we may need to continue upon re-
-election, must be idempotent (i.e., we can safely perform the operations again)
+• All operations on external systems, which we may need to continue upon reelection, must be idempotent (i.e., we can safely perform the operations again)
 • We must be able to look up the state of all operations on external systems in
 order to unambiguously determine whether they completed or not
 Each of these conditions imposes significant constraints, and may be difficult to
@@ -12463,9 +12364,9 @@ and this double launch would not have happened.
 The actual implementation has a more complicated system for state lookup, driven by
 the implementation details of the underlying infrastructure. However, the preceding
 description covers the implementation-independent requirements of any such sys‐
-Building Cron at Google 
-| 
-323
+Building Cron at Google
+|
+
 www.it-ebooks.info
 
 
@@ -12504,8 +12405,8 @@ mance penalty caused by frequent small writes. The simultaneous loss of all thre
 machines is unlikely, and if simultaneous loss does occur, we automatically restore
 from the snapshot. We thereby lose only a small amount of logs: those taken since the
 last snapshot, which we perform on configurable intervals. Of course, these trade-offs
-324 
-| 
+
+|
 Chapter 24: Distributed Periodic Scheduling with Cron
 www.it-ebooks.info
 
@@ -12544,9 +12445,9 @@ Figure 24-3 illustrates the aggregate global number of launches of cron jobs at 
 gle. This graph highlights the frequent spikes in cron job launches, which is often
 caused by cron jobs that need to be launched at a specific time—for example, due to
 temporal dependency on external events.
-Building Cron at Google 
-| 
-325
+Building Cron at Google
+|
+
 www.it-ebooks.info
 
 
@@ -12564,8 +12465,8 @@ of the distributed cron implementation is therefore Paxos, a commonplace algorit
 to reach consensus in an unreliable environment. The use of Paxos and correct analy‐
 sis of new failure modes of cron jobs in a large-scale, distributed environment
 allowed us to build a robust cron service that is heavily used in Google.
-326 
-| 
+
+|
 Chapter 24: Distributed Periodic Scheduling with Cron
 www.it-ebooks.info
 
@@ -12586,12 +12487,11 @@ Origin of the Pipeline Design Pattern
 The classic approach to data processing is to write a program that reads in data,
 transforms it in some desired way, and outputs new data. Typically, the program is
 scheduled to run under the control of a periodic scheduling program such as cron.
-This design pattern is called a data pipeline. Data pipelines go as far back as co-
-routines [Con63], the DTSS communication files [Bul80], the UNIX pipe [McI86],
+This design pattern is called a data pipeline. Data pipelines go as far back as coroutines [Con63], the DTSS communication files [Bul80], the UNIX pipe [McI86],
 and later, ETL pipelines,1 but such pipelines have gained increased attention with the
 rise of “Big Data,” or “datasets that are so large and so complex that traditional data
 processing applications are inadequate.”2
-327
+
 www.it-ebooks.info
 
 
@@ -12630,8 +12530,8 @@ onto individual machines. Sometimes chunks require an uneven amount of resources
 relative to one another, and it is seldom initially obvious why particular chunks
 require different amounts of resources. For example, in a workload that is partitioned
 by customer, data chunks for some customers may be much larger than others.
-328 
-| 
+
+|
 Chapter 25: Data Processing Pipelines
 www.it-ebooks.info
 
@@ -12665,8 +12565,7 @@ mizing machine workload, Borg (Google’s cluster management system, [Ver15])
 assigns batch work to available machines. This priority can result in degraded startup
 latency, so pipeline jobs can potentially experience open-ended startup delays.
 Jobs invoked through this mechanism have a number of natural limitations, resulting
-in various distinct behaviors. For example, jobs scheduled in the gaps left by user-
-facing web service jobs might be impacted in terms of availability of low-latency
+in various distinct behaviors. For example, jobs scheduled in the gaps left by userfacing web service jobs might be impacted in terms of availability of low-latency
 resources, pricing, and stability of access to resources. Execution cost is inversely pro‐
 portional to requested startup delay, and directly proportional to resources con‐
 sumed. Although batch scheduling may work smoothly in practice, excessive use of
@@ -12674,9 +12573,9 @@ the batch scheduler (Chapter 24) places jobs at risk of preemptions (see section
 [Ver15]) when cluster load is high because other users are starved of batch resources.
 In light of the risk trade-offs, running a well-tuned periodic pipeline successfully is a
 delicate balance between high resource cost and risk of preemptions.
-Drawbacks of Periodic Pipelines in Distributed Environments 
-| 
-329
+Drawbacks of Periodic Pipelines in Distributed Environments
+|
+
 www.it-ebooks.info
 
 
@@ -12702,8 +12601,8 @@ through the processes of acquiring resources when the resources must be contribu
 to a common pool and shared. To resolve this, a distinction between batch scheduling
 resources versus production priority resources has to be made to rationalize resource
 acquisition costs.
-330 
-| 
+
+|
 Chapter 25: Data Processing Pipelines
 www.it-ebooks.info
 
@@ -12743,9 +12642,9 @@ related problem we call “Moiré load pattern” occurs when two or more pipeli
 simultaneously and their execution sequences occasionally overlap, causing them to
 simultaneously consume a common shared resource. This problem can occur even in
 continuous pipelines, although it is less common when load arrives more evenly.
-Drawbacks of Periodic Pipelines in Distributed Environments 
-| 
-331
+Drawbacks of Periodic Pipelines in Distributed Environments
+|
+
 www.it-ebooks.info
 
 
@@ -12754,8 +12653,8 @@ For example, Figure 25-2 identifies the resource usage of three periodic pipelin
 Figure 25-3, which is a stacked version of the data of the previous graph, the peak
 impact causing on-call pain occurs when the aggregate load nears 1.2M.
 Figure 25-2. Moiré load pattern in separate infrastructure
-332 
-| 
+
+|
 Chapter 25: Data Processing Pipelines
 www.it-ebooks.info
 
@@ -12777,9 +12676,9 @@ to scope expected growth trajectory,3 demand for design modifications, expected
 additional resources, and expected latency requirements from the business.
 Faced with these needs, Google developed a system in 2003 called “Workflow” that
 makes continuous processing available at scale. Workflow uses the leader-follower
-Introduction to Google Workflow 
-| 
-333
+Introduction to Google Workflow
+|
+
 www.it-ebooks.info
 
 
@@ -12809,8 +12708,8 @@ achieved when only pointers to work are stored in the Task Master, and the actua
 input and output data is stored in a common filesystem or other storage. Supporting
 this analogy, the workers are completely stateless and can be discarded at any time. A
 controller can optionally be added as a third system component to efficiently support
-334 
-| 
+
+|
 Chapter 25: Data Processing Pipelines
 www.it-ebooks.info
 
@@ -12842,9 +12741,9 @@ data, and each work unit has a uniquely held lease. Workers acquire work with a 
 and may only commit work from tasks for which they currently possess a valid lease.
 To avoid the situation in which an orphaned worker may continue working on a work
 unit, thus destroying the work of the current worker, each output file opened by a
-Stages of Execution in Workflow 
-| 
-335
+Stages of Execution in Workflow
+|
+
 www.it-ebooks.info
 
 
@@ -12884,8 +12783,8 @@ cate work.
 • Output files are uniquely named by the workers.
 • The client and server validate the Task Master itself by checking a server token
 on every operation.
-336 
-| 
+
+|
 Chapter 25: Data Processing Pipelines
 www.it-ebooks.info
 
@@ -12928,9 +12827,9 @@ task inside of the global Workflow. If the heartbeat task is not updated within 
 timeout period, the remote Workflow’s helper binary seizes the work in progress as
 documented by the reference tasks and the pipeline continues, unhindered by what‐
 ever the environment may do to the work.
-Ensuring Business Continuity 
-| 
-337
+Ensuring Business Continuity
+|
+
 www.it-ebooks.info
 
 
@@ -12943,8 +12842,8 @@ We have found that continuous data processing with strong guarantees, as provide
 by Workflow, performs and scales well on distributed cluster infrastructure, routinely
 produces results that users can rely upon, and is a stable and reliable system for the
 Site Reliability Engineering team to manage and maintain.
-338 
-| 
+
+|
 Chapter 25: Data Processing Pipelines
 www.it-ebooks.info
 
@@ -12975,7 +12874,7 @@ discrete products (reasoning, “this product is still Google” or “Google, A
 whatever; this product is still part of the cloud”). Data loss, data corruption, and
 extended unavailability are typically indistinguishable to users. Therefore, data integ‐
 rity applies to all types of data across all services. When considering data integrity,
-339
+
 www.it-ebooks.info
 
 
@@ -13008,8 +12907,8 @@ In an alternate universe, suppose the corruption were immediately detected befor
 users were affected and that the artifact was removed, fixed, and returned to service
 within half an hour. Ignoring any other downtime during that 30 minutes, such an
 object would be 99.99% available that year.
-340 
-| 
+
+|
 Chapter 26: Data Integrity: What You Read Is
 www.it-ebooks.info
 
@@ -13049,9 +12948,9 @@ limits its scope in discussing privacy to data deletion: data must be destroyed
 within a reasonable time after users delete it.
 Many cloud applications continually evolve atop a mixture of ACID1 and BASE2 APIs
 to meet the demands of these five components.3 BASE allows for higher availability
-Data Integrity’s Strict Requirements 
-| 
-341
+Data Integrity’s Strict Requirements
+|
+
 www.it-ebooks.info
 
 
@@ -13091,8 +12990,8 @@ by the variety of relationships between restored and live data. Our example appl
 tion would have to sort through and distinguish between restored blobs versus live
 Megastore, restored Megastore versus live blobs, restored blobs versus restored Mega‐
 store, and interactions with client-side caches.
-342 
-| 
+
+|
 Chapter 26: Data Integrity: What You Read Is
 www.it-ebooks.info
 
@@ -13126,9 +13025,9 @@ occur daily, hourly, or more frequently, using full and incremental or continuou
 (streaming) approaches.
 Therefore, when formulating a backup strategy, consider how quickly you need to be
 able to recover from a problem, and how much recent data you can afford to lose.
-Data Integrity’s Strict Requirements 
-| 
-343
+Data Integrity’s Strict Requirements
+|
+
 www.it-ebooks.info
 
 
@@ -13161,8 +13060,8 @@ While SRE’s goal of “maintaining integrity of persistent data” is a good v
 thrive on concrete objectives with measurable indicators. SRE defines key metrics
 that we use to set expectations for the capabilities of our systems and processes
 through tests and to track their performance during an actual event.
-344 
-| 
+
+|
 Chapter 26: Data Integrity: What You Read Is
 www.it-ebooks.info
 
@@ -13203,9 +13102,9 @@ Instead of focusing on the thankless job of taking a backup, it’s much more us
 to mention easier, to motivate participation in taking backups by concentrating on a
 task with a visible payoff: the restore! Backups are a tax, one paid on an ongoing basis
 for the municipal service of guaranteed data availability. Instead of emphasizing the
-Google SRE Objectives in Maintaining Data Integrity and Availability 
-| 
-345
+Google SRE Objectives in Maintaining Data Integrity and Availability
+|
+
 www.it-ebooks.info
 
 
@@ -13233,16 +13132,15 @@ example, 10 rows of data are deleted every minute over the course of weeks).
 Figure 26-1. The factors of data integrity failure modes
 An effective restore plan must account for any of these failure modes occurring in any
 conceivable combination. What may be a perfectly effective strategy for guarding
-346 
-| 
+
+|
 Chapter 26: Data Integrity: What You Read Is
 www.it-ebooks.info
 
 
 against a data loss caused by a creeping application bug may be of no help whatsoever
 when your colocation datacenter catches fire.
-A study of 19 data recovery efforts at Google found that the most common user-
-visible data loss scenarios involved data deletion or loss of referential integrity caused
+A study of 19 data recovery efforts at Google found that the most common uservisible data loss scenarios involved data deletion or loss of referential integrity caused
 by software bugs. The most challenging variants involved low-grade corruption or
 deletion that was discovered weeks to months after the bugs were first released into
 the production environment. Therefore, the safeguards Google employs should be
@@ -13250,8 +13148,7 @@ well suited to prevent or recover from these types of loss.
 To recover from such scenarios, a large and successful application needs to retrieve
 data for perhaps millions of users spread across days, weeks, or months. The applica‐
 tion may also need to recover each affected artifact to a unique point in time. This
-data recovery scenario is called “point-in-time recovery” outside Google, and “time-
-travel” inside Google.
+data recovery scenario is called “point-in-time recovery” outside Google, and “timetravel” inside Google.
 A backup and recovery solution that provides point-in-time recovery for an applica‐
 tion across its ACID and BASE datastores while meeting strict uptime, latency, scala‐
 bility, velocity, and cost goals is a chimera today!
@@ -13275,9 +13172,9 @@ A classic but flawed response to the question “Do you have a backup?” is “
 something even better than a backup—replication!” Replication provides many bene‐
 fits, including locality of data and protection from a site-specific disaster, but it can’t
 protect you from many sources of data loss. Datastores that automatically sync multi‐
-Google SRE Objectives in Maintaining Data Integrity and Availability 
-| 
-347
+Google SRE Objectives in Maintaining Data Integrity and Availability
+|
+
 www.it-ebooks.info
 
 
@@ -13318,8 +13215,8 @@ Retention—how long you keep copies of your data around—is yet another factor
 consider in your data recovery plans.
 While it’s likely that you or your customers will quickly notice the sudden emptying
 of an entire database, it might take days for a more gradual loss of data to attract the
-348 
-| 
+
+|
 Chapter 26: Data Integrity: What You Read Is
 www.it-ebooks.info
 
@@ -13352,9 +13249,9 @@ Detection” on page 356. Across all these layers, the presence of replication i
 ally useful for data recovery in specific scenarios (although data recovery plans
 should not rely upon replication).
 Figure 26-2. An object’s journey from soft deletion to destruction
-How Google SRE Faces the Challenges of Data Integrity 
-| 
-349
+How Google SRE Faces the Challenges of Data Integrity
+|
+
 www.it-ebooks.info
 
 
@@ -13394,11 +13291,10 @@ soft deletion delays are 15, 30, 45, or 60 days. In Google’s experience, the m
 account hijacking and data integrity issues are reported or detected within 60 days.
 Therefore, the case for soft deleting data for longer than 60 days may not be strong.
 Google has also found that the most devastating acute data deletion cases are caused
-by application developers unfamiliar with existing code but working on deletion-
-related code, especially batch processing pipelines (e.g., an offline MapReduce or
+by application developers unfamiliar with existing code but working on deletionrelated code, especially batch processing pipelines (e.g., an offline MapReduce or
 Hadoop pipeline). It’s advantageous to design your interfaces to hinder developers
-350 
-| 
+
+|
 Chapter 26: Data Integrity: What You Read Is
 www.it-ebooks.info
 
@@ -13441,9 +13337,9 @@ defense against user error.
 oper error and the secondary defense against external developer error.
 What about revision history? Some products provide the ability to revert items to pre‐
 vious states. When such a feature is available to users, it is a form of trash. When
-How Google SRE Faces the Challenges of Data Integrity 
-| 
-351
+How Google SRE Faces the Challenges of Data Integrity
+|
+
 www.it-ebooks.info
 
 
@@ -13479,8 +13375,8 @@ limits. To ease this burden, you can take full backups during off-peak hours, an
 a series of incremental backups when your service is busier.
 How quickly do you need to recover? The faster your users need to be rescued, the
 more local your backups should be. Often Google retains costly but quick-to-restore
-352 
-| 
+
+|
 Chapter 26: Data Integrity: What You Read Is
 www.it-ebooks.info
 
@@ -13523,9 +13419,9 @@ retained in this tier for anywhere from hours to single-digit days, and may take
 minutes to restore.
 The second tier comprises fewer backups retained for single-digit or low double-digit
 days on random access distributed filesystems local to the site. These backups may
-How Google SRE Faces the Challenges of Data Integrity 
-| 
-353
+How Google SRE Faces the Challenges of Data Integrity
+|
+
 www.it-ebooks.info
 
 
@@ -13564,8 +13460,8 @@ scale well to data measured in E (exabytes). Validating, copying, and performing
 round-trip tests on a few gigabytes of structured data is an interesting problem. How‐
 ever, assuming that you have sufficient knowledge of your schema and transaction
 model, this exercise doesn’t present any special challenges. You typically just need to
-354 
-| 
+
+|
 Chapter 26: Data Integrity: What You Read Is
 www.it-ebooks.info
 
@@ -13605,9 +13501,9 @@ deployment of our data in order to:
 Between distributing the load horizontally and restricting the work to vertical slices
 of the data demarcated by time, we can reduce those eight decades of wall time by
 several orders of magnitude, rendering our restores relevant.
-How Google SRE Faces the Challenges of Data Integrity 
-| 
-355
+How Google SRE Faces the Challenges of Data Integrity
+|
+
 www.it-ebooks.info
 
 
@@ -13647,8 +13543,8 @@ quently the application is affected, unbeknownst, by such inconsistencies. If th
 holds true even when applied to Paxos implementations (as has been true for Goo‐
 gle), then it must be more true for eventually consistent implementations such as
 Bigtable (which has also shown to be true). Affected applications have no way to
-356 
-| 
+
+|
 Chapter 26: Data Integrity: What You Read Is
 www.it-ebooks.info
 
@@ -13664,8 +13560,7 @@ To prevent data quality from degrading before users’ eyes, and to detect low-g
 data corruption or data loss scenarios before they become unrecoverable, a system of
 out-of-band checks and balances is needed both within and between an application’s
 datastores.
-Most often, these data validation pipelines are implemented as collections of map-
-reductions or Hadoop jobs. Frequently, such pipelines are added as an afterthought to
+Most often, these data validation pipelines are implemented as collections of mapreductions or Hadoop jobs. Frequently, such pipelines are added as an afterthought to
 services that are already popular and successful. Sometimes, such pipelines are first
 attempted when services reach scalability limits and are rebuilt from the ground up.
 Google has built validators in response to each of these situations.
@@ -13691,22 +13586,20 @@ affecting data corruption can slip through undetected. To find the right balance
 validate invariants that cause devastation to users.
 For example, Google Drive periodically validates that file contents align with listings
 in Drive folders. If these two elements don’t align, some files would be missing data—
-How Google SRE Faces the Challenges of Data Integrity 
-| 
-357
+How Google SRE Faces the Challenges of Data Integrity
+|
+
 www.it-ebooks.info
 
 
 a disastrous outcome. Drive infrastructure developers were so invested in data integ‐
 rity that they also enhanced their validators to automatically fix such inconsistencies.
-This safeguard turned a potential emergency “all-hands-on-deck-omigosh-files-are-
-disappearing!” data loss situation in 2013 into a business as usual, “let’s go home and
+This safeguard turned a potential emergency “all-hands-on-deck-omigosh-files-aredisappearing!” data loss situation in 2013 into a business as usual, “let’s go home and
 fix the root cause on Monday,” situation. By transforming emergencies into business
 as usual, validators improve engineering morale, quality of life, and predictability.
 Out-of-band validators can be expensive at scale. A significant portion of Gmail’s
 compute resource footprint supports a collection of daily validators. To compound
-this expense, these validators also lower server-side cache hit rates, reducing server-
-side responsiveness experienced by users. To mitigate this hit to responsiveness,
+this expense, these validators also lower server-side cache hit rates, reducing serverside responsiveness experienced by users. To mitigate this hit to responsiveness,
 Gmail provides a variety of knobs for rate-limiting its validators and periodically
 refactors the validators to reduce disk contention. In one such refactoring effort, we
 cut the contention for disk spindles by 60% without significantly reducing the scope
@@ -13734,8 +13627,8 @@ Effective out-of-band data validation demands all of the following:
 • Monitoring, alerts, and dashboards
 • Rate-limiting features
 • Troubleshooting tools
-358 
-| 
+
+|
 Chapter 26: Data Integrity: What You Read Is
 www.it-ebooks.info
 
@@ -13776,9 +13669,9 @@ If recovery tests are a manual, staged event, testing becomes an unwelcome bit o
 drudgery that isn’t performed either deeply or frequently enough to deserve your
 confidence. Therefore, automate these tests whenever possible and then run them
 continuously.
-How Google SRE Faces the Challenges of Data Integrity 
-| 
-359
+How Google SRE Faces the Challenges of Data Integrity
+|
+
 www.it-ebooks.info
 
 
@@ -13814,8 +13707,8 @@ conference call. The event we had long feared—indeed, the reason for the backu
 tem’s existence—has come to pass: Gmail lost a significant amount of user data.
 Despite the system’s many safeguards and internal checks and redundancies, the data
 disappeared from Gmail.
-360 
-| 
+
+|
 Chapter 26: Data Integrity: What You Read Is
 www.it-ebooks.info
 
@@ -13857,9 +13750,9 @@ ing not only with the foreseeable failures, but for some amount of random undiff
 entiated breakage, as well.
 In short, we always knew that adherence to best practices is important, and it was
 good to see that maxim proven true.
-Case Studies 
-| 
-361
+Case Studies
+|
+
 www.it-ebooks.info
 
 
@@ -13899,8 +13792,8 @@ the offending pipeline was temporarily disabled to stem the tide of external use
 casualties.
 Next, manually checking the metadata for millions to billions of files organized across
 multiple datacenters would be unthinkable. So the team whipped up a hasty
-362 
-| 
+
+|
 Chapter 26: Data Integrity: What You Read Is
 www.it-ebooks.info
 
@@ -13942,9 +13835,9 @@ The recovery team had one factor working in their favor: this recovery effort oc
 red just weeks after the company’s annual disaster recovery testing exercise (see
 [Kri12]). The tape backup team already knew the capabilities and limitations of their
 subsystems that had been the subjects of DiRT tests and began dusting off a new tool
-Case Studies 
-| 
-363
+Case Studies
+|
+
 www.it-ebooks.info
 
 
@@ -13986,8 +13879,8 @@ By midnight on March 9th, Music SRE finished requesting all 5,475 restores. The 
 backup system began working its magic. Four hours later, it spat out a list of 5,337
 backup tapes to be recalled from offsite locations. In another eight hours, the tapes
 arrived at a datacenter in a series of truck deliveries.
-364 
-| 
+
+|
 Chapter 26: Data Integrity: What You Read Is
 www.it-ebooks.info
 
@@ -14031,9 +13924,9 @@ again.
 However, a small portion of the 161,000 audio files had been uploaded by the users
 themselves. The Google Music Team prompted their servers to request that the Goo‐
 gle Music clients of affected users re-upload files dating from March 14th onward.
-Case Studies 
-| 
-365
+Case Studies
+|
+
 www.it-ebooks.info
 
 
@@ -14049,8 +13942,7 @@ involving different datastores.
 For data processing to finish quickly, the processing is parallelized to run across tens
 of thousands of machines that exert a large load on various subsystems. This distribu‐
 tion can slow the service for users, or cause the service to crash under the heavy load.
-To avoid these undesirable scenarios, cloud computing engineers often make a short-
-lived copy of data on secondary storage, where the data processing is then performed.
+To avoid these undesirable scenarios, cloud computing engineers often make a shortlived copy of data on secondary storage, where the data processing is then performed.
 Unless the relative age of the secondary copies of data is carefully coordinated, this
 practice introduces race conditions.
 For instance, two stages of a pipeline may be designed to run in strict succession,
@@ -14073,8 +13965,8 @@ When the pipeline was refactored, this probability again significantly increased
 a point at which the race conditions occurred more regularly.
 In the wake of the recovery effort, Google Music redesigned its data deletion pipeline
 to eliminate this type of race condition. In addition, we enhanced production moni‐
-366 
-| 
+
+|
 Chapter 26: Data Integrity: What You Read Is
 www.it-ebooks.info
 
@@ -14110,9 +14002,9 @@ Defense in Depth
 Even the most bulletproof system is susceptible to bugs and operator error. In order
 for data integrity issues to be fixable, services must detect such issues quickly. Every
 strategy eventually fails in changing environments. The best data integrity strategies
-General Principles of SRE as Applied to Data Integrity 
-| 
-367
+General Principles of SRE as Applied to Data Integrity
+|
+
 www.it-ebooks.info
 
 
@@ -14151,8 +14043,8 @@ whittle down that time through more rapid and finer-grained loss detection, with
 goal of approaching N = 0. You can then switch from planning recovery to planning
 prevention, with the aim of achieving the holy grail of all the data, all the time. Ach‐
 ieve this goal, and you can sleep on the beach on that well-deserved vacation.
-368 
-| 
+
+|
 Chapter 26: Data Integrity: What You Read Is
 www.it-ebooks.info
 
@@ -14182,7 +14074,7 @@ the experience was a “virtual fly-over,” which used satellite imagery to tra
 progress over a simulated world.
 While a project like NORAD Tracks Santa may seem whimsical, it had all the charac‐
 teristics that define a difficult and risky launch: a hard deadline (Google couldn’t ask
-369
+
 www.it-ebooks.info
 
 
@@ -14195,8 +14087,7 @@ Google’s Site Reliability Engineering team worked hard to prepare our infrastr
 for this launch, making sure that Santa could deliver all his presents on time under
 the watchful eyes of an expectant audience. The last thing we wanted was to make
 children cry because they couldn’t watch Santa deliver presents. In fact, we dubbed
-the various kill switches built into the experience to protect our services “Make-
-children-cry switches.” Anticipating the many different ways this launch could go
+the various kill switches built into the experience to protect our services “Makechildren-cry switches.” Anticipating the many different ways this launch could go
 wrong and coordinating between the different engineering groups involved in the
 launch fell to a special team within Site Reliability Engineering: the Launch Coordi‐
 nation Engineers (LCE).
@@ -14224,8 +14115,8 @@ understand the technology of their own products very well. However, the same eng
 neers may be unfamiliar with the challenges and pitfalls of launching a product to
 millions of users while simultaneously minimizing outages and maximizing perfor‐
 mance.
-370 
-| 
+
+|
 Chapter 27: Reliable Product Launches at Scale
 www.it-ebooks.info
 
@@ -14257,15 +14148,14 @@ excel), and the LCE team can draw on the experience from hundreds of launches. T
 LCE team also facilitates service audits when new services first engage with SRE.
 The Role of the Launch Coordination Engineer
 Our Launch Coordination Engineering team is composed of Launch Coordination
-Engineers (LCEs), who are either hired directly into this role, or are SREs with hands-
-on experience running Google services. LCEs are held to the same technical require‐
+Engineers (LCEs), who are either hired directly into this role, or are SREs with handson experience running Google services. LCEs are held to the same technical require‐
 ments as any other SRE, and are also expected to have strong communication and
 leadership skills—an LCE brings disparate parties together to work toward a com‐
 mon goal, mediates occasional conflicts, and guides, coaches, and educates fellow
 engineers.
-Launch Coordination Engineering 
-| 
-371
+Launch Coordination Engineering
+|
+
 www.it-ebooks.info
 
 
@@ -14304,8 +14194,8 @@ Adaptable
 Works well for common types of launches (for example, adding a new UI lan‐
 guage to a product) and new types of launches (for example, the initial launch of
 the Chrome browser or Google Fiber)
-372 
-| 
+
+|
 Chapter 27: Reliable Product Launches at Scale
 www.it-ebooks.info
 
@@ -14345,9 +14235,9 @@ implementing backups.
 service.
 In practice, there is a near-infinite number of questions to ask about any system, and
 it is easy for the checklist to grow to an unmanageable size. Maintaining a managea‐
-Setting Up a Launch Process 
-| 
-373
+Setting Up a Launch Process
+|
+
 www.it-ebooks.info
 
 
@@ -14367,8 +14257,7 @@ team member reviews the entire checklist to identify obsolete items, and then wo
 with service owners and subject matter experts to modernize sections of the checklist.
 Driving Convergence and Simplification
 In a large organization, engineers may not be aware of available infrastructure for
-common tasks (such as rate limiting). Lacking proper guidance, they’re likely to re-
-implement existing solutions. Converging on a set of common infrastructure libraries
+common tasks (such as rate limiting). Lacking proper guidance, they’re likely to reimplement existing solutions. Converging on a set of common infrastructure libraries
 avoids this scenario, and provides obvious benefits to the company: it cuts down on
 duplicate effort, makes knowledge more easily transferable between services, and
 results in a higher level of engineering and service quality due to the concentrated
@@ -14389,8 +14278,8 @@ launch, they witness the stumbling blocks firsthand: which parts of a launch are
 ing the most struggle, which steps take a disproportionate amount of time, which
 problems get solved independently over and over again in similar ways, where com‐
 mon infrastructure is lacking, or where duplication exists in common infrastructure.
-374 
-| 
+
+|
 Chapter 27: Reliable Product Launches at Scale
 www.it-ebooks.info
 
@@ -14432,9 +14321,9 @@ An architecture review allows you to determine if the service is using shared in
 structure correctly and identifies the owners of shared infrastructure as additional
 stakeholders in the launch. Google has a large number of internal services that are
 used as building blocks for new products. During later stages of capacity planning
-Developing a Launch Checklist 
-| 
-375
+Developing a Launch Checklist
+|
+
 www.it-ebooks.info
 
 
@@ -14468,8 +14357,8 @@ Capacity interacts with redundancy and availability. For instance, if you need t
 replicated deployments to serve 100% of your traffic at peak, you need to maintain
 four or five deployments, one or two of which are redundant, in order to shield users
 from maintenance and unexpected malfunctions. Datacenter and network resources
-376 
-| 
+
+|
 Chapter 27: Reliable Product Launches at Scale
 www.it-ebooks.info
 
@@ -14504,9 +14393,9 @@ click on a link, the request rates are limited by how quickly users can click. T
 the load, the number of users would have to double.
 This axiom no longer holds when we consider clients that initiate actions without
 user input—for example, a cell phone app that periodically syncs its data into the
-Developing a Launch Checklist 
-| 
-377
+Developing a Launch Checklist
+|
+
 www.it-ebooks.info
 
 
@@ -14538,8 +14427,8 @@ Example action items
 Development Process
 Google is an extensive user of version control, and almost all development processes
 are deeply integrated with the version control system. Many of our best practices
-378 
-| 
+
+|
 Chapter 27: Reliable Product Launches at Scale
 www.it-ebooks.info
 
@@ -14577,9 +14466,9 @@ In large distributed systems, few events happen instantaneously. For reasons of 
 bility, such immediacy isn’t usually ideal anyway. A complicated launch might require
 enabling individual features on a number of different subsystems, and each of those
 configuration changes might take hours to complete. Having a working configuration
-Developing a Launch Checklist 
-| 
-379
+Developing a Launch Checklist
+|
+
 www.it-ebooks.info
 
 
@@ -14617,8 +14506,8 @@ cess, with appropriate verification steps interspersed. A new server might be in
 on a few machines in one datacenter and observed for a defined period of time. If all
 looks well, the server is installed on all machines in one datacenter, observed again,
 and then installed on all machines globally. The first stages of a rollout are usually
-380 
-| 
+
+|
 Chapter 27: Reliable Product Launches at Scale
 www.it-ebooks.info
 
@@ -14661,9 +14550,9 @@ To accommodate the preceding scenarios, several Google products devised feature
 flag frameworks. Some of those frameworks were designed to roll out new features
 gradually from 0% to 100% of users. Whenever a product introduced any such frame‐
 work, the framework itself was hardened as much as possible so that most of its appli‐
-Selected Techniques for Reliable Launches 
-| 
-381
+Selected Techniques for Reliable Launches
+|
+
 www.it-ebooks.info
 
 
@@ -14696,14 +14585,13 @@ conferring the ability to test improved business logic and more complex new feat
 Dealing with Abusive Client Behavior
 The simplest example of abusive client behavior is a misjudgment of update rates. A
 new client that syncs every 60 seconds, as opposed to every 600 seconds, causes 10
-times the load on the service. Retry behavior has a number of pitfalls that affect user-
-initiated requests, as well as client-initiated requests. Take the example of a service
+times the load on the service. Retry behavior has a number of pitfalls that affect userinitiated requests, as well as client-initiated requests. Take the example of a service
 that is overloaded and is therefore failing some requests: if the clients retry the failed
 requests, they add load to an already overloaded service, resulting in more retries and
 even more requests. Instead, clients need to reduce the frequency of retries, usually by
 adding exponentially increasing delay between retries, in addition to carefully consid‐
-382 
-| 
+
+|
 Chapter 27: Reliable Product Launches at Scale
 www.it-ebooks.info
 
@@ -14746,9 +14634,9 @@ feature, and update the app on all users’ phones.
 Overload Behavior and Load Tests
 Overload situations are a particularly complex failure mode, and therefore deserve
 additional attention. Runaway success is usually the most welcome cause of overload
-Selected Techniques for Reliable Launches 
-| 
-383
+Selected Techniques for Reliable Launches
+|
+
 www.it-ebooks.info
 
 
@@ -14789,8 +14677,8 @@ novice engineers run the risk of repeating the mistakes of their predecessors, e
 cially when it comes to launching new features and products successfully.
 To mitigate the repetition of such mistakes by capturing the lessons learned from past
 launches, a small band of experienced engineers, called the “Launch Engineers,” vol‐
-384 
-| 
+
+|
 Chapter 27: Reliable Product Launches at Scale
 www.it-ebooks.info
 
@@ -14805,13 +14693,11 @@ new product launches, covering topics such as:
 became a common practice days to weeks before the launch of many new products.
 Within two years, the product deployment requirements in the launch checklist grew
 long and complex. Combined with the increasing complexity of Google’s deployment
-environment, it became more and more challenging for product engineers to stay up-
-to-date on how to make changes safely. At the same time, the SRE organization was
+environment, it became more and more challenging for product engineers to stay upto-date on how to make changes safely. At the same time, the SRE organization was
 growing quickly, and inexperienced SREs were sometimes overly cautious and averse
 to change. Google ran a risk that the resulting negotiations between these two parties
 would reduce the velocity of product/feature launches.
-To mitigate this scenario from the engineering perspective, SRE staffed a small, full-
-time team of LCEs in 2004. They were responsible for accelerating the launches of
+To mitigate this scenario from the engineering perspective, SRE staffed a small, fulltime team of LCEs in 2004. They were responsible for accelerating the launches of
 new products and features, while at the same time applying SRE expertise to ensure
 that Google shipped reliable products with high availability and low latency.
 LCEs were responsible for making sure launches were executing quickly without the
@@ -14831,9 +14717,9 @@ understand this degree of complexity, a new LCE hire requires about six months o
 training.
 As the volume of launches grew, keeping pace with the annual doubling of Google’s
 engineering team, LCEs sought ways to streamline their reviews. LCEs identified cat‐
-Development of LCE 
-| 
-385
+Development of LCE
+|
+
 www.it-ebooks.info
 
 
@@ -14873,8 +14759,8 @@ tions, complexity of deployment procedures, and the overhead of manual mainte‐
 nance work tend to increase over time and consume increasing amounts of the
 service owner’s bandwidth, leaving the team less time for feature development. SRE
 has an internally advertised goal of keeping operational work below a maximum of
-386 
-| 
+
+|
 Chapter 27: Reliable Product Launches at Scale
 www.it-ebooks.info
 
@@ -14909,9 +14795,9 @@ impeding change. This chapter introduced some of the experiences accumulated by
 our unique LCE role over a 10-year period under exactly such circumstances. We
 hope that our approach will help inspire others facing similar challenges in their
 respective organizations.
-Conclusion 
-| 
-387
+Conclusion
+|
+
 www.it-ebooks.info
 
 
@@ -14983,7 +14869,7 @@ questions like:
 • How can my existing on-callers assess the readiness of the newbie for on-call?
 • How can we harness the enthusiasm and curiosity in our new hires to make sure
 that existing SREs benefit from it?
-391
+
 www.it-ebooks.info
 
 
@@ -15035,8 +14921,8 @@ junior SREs to pick up the scraps
 The rest of this chapter presents major themes that we have found to be effective in
 accelerating SREs to on-call and beyond. These concepts can be visualized in a blue‐
 print for bootstrapping SREs (Figure 28-1).
-392 
-| 
+
+|
 Chapter 28: Accelerating SREs to On-Call and Beyond
 www.it-ebooks.info
 
@@ -15059,9 +14945,9 @@ Tips for interpreting this illustration:
 • Going on-call is a milestone in a new SRE’s career, after which point learning
 becomes a lot more nebulous, undefined, and self-directed—hence the dashed
 lines around activities that happen at or after the SRE goes on-call.
-You’ve Hired Your Next SRE(s), Now What? 
-| 
-393
+You’ve Hired Your Next SRE(s), Now What?
+|
+
 www.it-ebooks.info
 
 
@@ -15083,8 +14969,7 @@ Chaos
 As discussed elsewhere in this book, SRE teams undertake a natural mix of proactive2
 and reactive3 work. It should be a strong goal of every SRE team to contain and
 reduce reactive work through ample proactivity, and the approach you take to
-onboarding your newbie(s) should be no exception. Consider the following all-too-
-common, but sadly suboptimal, onboarding process:
+onboarding your newbie(s) should be no exception. Consider the following all-toocommon, but sadly suboptimal, onboarding process:
 John is the newest member of the FooServer SRE team. Senior SREs on this team are
 tasked with a lot of grunt work, such as responding to tickets, dealing with alerts, and
 performing tedious binary rollouts. On John’s first day on the job, he is assigned all
@@ -15102,8 +14987,8 @@ But chances are, this strategy has alienated several capable engineers. While su
 approach may eventually produce great operations employees, its results will fall
 short of the mark. The trial-by-fire approach also presumes that many or most
 aspects of a team can be taught strictly by doing, rather than by reasoning. If the set
-394 
-| 
+
+|
 Chapter 28: Accelerating SREs to On-Call and Beyond
 www.it-ebooks.info
 
@@ -15131,8 +15016,7 @@ frontloaded in their education, while the student should also receive hands-on e
 ence as soon as practically possible.
 Learning about your stack(s) and subsystem(s) requires a starting point. Consider
 whether it makes more sense to group trainings together by similarity of purpose, or
-by normal-case order of execution. For example, if your team is responsible for a real-
-time, user-facing serving stack, consider a curriculum order like the following:
+by normal-case order of execution. For example, if your team is responsible for a realtime, user-facing serving stack, consider a curriculum order like the following:
 1) How a query enters the system
 Networking and datacenter fundamentals, frontend load balancing, proxies, etc.
 2) Frontend serving
@@ -15143,9 +15027,9 @@ Caches, backend load balancing
 Backends, infrastructure, and compute resources
 5) Tying it all together
 Debugging techniques, escalation procedures, and emergency scenarios
-Initial Learning Experiences: The Case for Structure Over Chaos 
-| 
-395
+Initial Learning Experiences: The Case for Structure Over Chaos
+|
+
 www.it-ebooks.info
 
 
@@ -15155,9 +15039,9 @@ you structure, design, and deliver training. The Google Search SRE team structur
 this learning through a document called the “on-call learning checklist.” A simplified
 section of an on-call learning checklist might look like the following:
 The Results Mixing Server (“Mixer”)
- 
+
 Frontended by: Frontend server
-Backends called: Results Retrieval Server, 
+Backends called: Results Retrieval Server,
 Geolocation Server, Personalization Database
 SRE experts: Sally W, Dave K, Jen P
 Developer contacts: Jim T, results-team@
@@ -15196,8 +15080,8 @@ Depending on how the access permissions are configured for your service, you can
 also consider implementing a tiered access model. The first tier of access would allow
 your student read-only access to the inner workings of the components, and a later
 tier would permit them to mutate the production state. Completing sections of the
-396 
-| 
+
+|
 Chapter 28: Accelerating SREs to On-Call and Beyond
 www.it-ebooks.info
 
@@ -15235,9 +15119,9 @@ We can propose a set of guidelines for how to train new SREs, but what should we
 train them on? Training material will depend on the technologies being used on the
 job, but the more important question is: what kind of engineers are we trying to cre‐
 ate? At the scale and complexity at which SREs operate, they cannot afford to merely
-Creating Stellar Reverse Engineers and Improvisational Thinkers 
-| 
-397
+Creating Stellar Reverse Engineers and Improvisational Thinkers
+|
+
 www.it-ebooks.info
 
 
@@ -15277,8 +15161,8 @@ game of “which of these things is not like the other?” where “things” mi
 nel version, CPU architecture, binary version(s) in your stack, regional traffic mix, or
 a hundred other factors. Architecturally, it’s the team’s responsibility to ensure all of
 these factors can be controlled for and individually analyzed and compared. However,
-398 
-| 
+
+|
 Chapter 28: Accelerating SREs to On-Call and Beyond
 www.it-ebooks.info
 
@@ -15316,14 +15200,13 @@ ment, and so forth—has gone on a company trip: a cruise of the Bermuda Triangl
 We haven’t heard from the team for 30 days, so our students are the newly appointed
 Google News SRE Team. They need to figure out how the serving stack works from
 end-to-end in order to commandeer it and keep it running.
-After being given this scenario, the students are led through interactive, purpose-
-driven exercises in which they trace the inbound path of their web browser’s query
+After being given this scenario, the students are led through interactive, purposedriven exercises in which they trace the inbound path of their web browser’s query
 through Google’s infrastructure. At each stage in the process, we emphasize that it is
 important to learn multiple ways to discover the connectivity between production
 servers, so that connections are not missed. In the middle of the class, we challenge
-Creating Stellar Reverse Engineers and Improvisational Thinkers 
-| 
-399
+Creating Stellar Reverse Engineers and Improvisational Thinkers
+|
+
 www.it-ebooks.info
 
 
@@ -15362,8 +15245,8 @@ outage. When writing a postmortem, keep in mind that its most appreciative audi�
 ence might be an engineer who hasn’t yet been hired. Without radical editing, subtle
 changes can be made to our best postmortems to make them “teachable” postmor‐
 tems.
-400 
-| 
+
+|
 Chapter 28: Accelerating SREs to On-Call and Beyond
 www.it-ebooks.info
 
@@ -15406,9 +15289,9 @@ impress the SRE culture and problem-solving nature of your team upon a newbie,
 while also keeping grizzled veterans apprised of new changes and features in your
 stack? Google SRE teams address these challenges through a time-honored tradition
 of regular disaster role playing. Among other names, this exercise is commonly
-Five Practices for Aspiring On-Callers 
-| 
-401
+Five Practices for Aspiring On-Callers
+|
+
 www.it-ebooks.info
 
 
@@ -15430,8 +15313,7 @@ hypothetical breakage of a new or soon-to-be-launched feature in the stack, rend
 all members of the room equally unprepared to grapple with the situation. Better still,
 a coworker might find a new and novel breakage in production, and today’s scenario
 expands on this new threat.
-Over the next 30–60 minutes, the primary and secondary on-callers attempt to root-
-cause the issue. The GM happily provides additional context as the problem unfolds,
+Over the next 30–60 minutes, the primary and secondary on-callers attempt to rootcause the issue. The GM happily provides additional context as the problem unfolds,
 perhaps informing the on-callers (and their audience) of what the graphs on their
 monitoring dashboard might look like during the outage. If the incident requires
 escalation outside of the home team, the GM pretends to be a member of that other
@@ -15449,8 +15331,8 @@ Break Real Things, Fix Real Things
 A newbie can learn much about SRE by reading documentation, postmortems, and
 taking trainings. Disaster role playing can help get a newbie’s mind into the game.
 However, the experience derived from hands-on experience breaking and/or fixing
-402 
-| 
+
+|
 Chapter 28: Accelerating SREs to On-Call and Beyond
 www.it-ebooks.info
 
@@ -15492,9 +15374,9 @@ expect.
 Documentation as Apprenticeship
 Many SRE teams maintain an “on-call learning checklist,” which is an organized read‐
 ing and comprehension list of the technologies and concepts relevant to the system(s)
-Five Practices for Aspiring On-Callers 
-| 
-403
+Five Practices for Aspiring On-Callers
+|
+
 www.it-ebooks.info
 
 
@@ -15523,18 +15405,16 @@ empowered or knowledgeable enough to make changes. When designed with just the
 right amount of structure, on-call documentation can become an adaptable body of
 work that harnesses newbie enthusiasm and senior knowledge to keep everyone
 fresh.
-In Search SRE, we anticipate the arrival of new team member(s) by reviewing our on-
-call learning checklist, and sorting its sections by how up-to-date they are. As the new
+In Search SRE, we anticipate the arrival of new team member(s) by reviewing our oncall learning checklist, and sorting its sections by how up-to-date they are. As the new
 team member arrives, we point them to the overall learning checklist, but also task
 them with overhauling one or two of the most outdated sections. As you can see in
 Table 28-1, we label the senior SRE and developer contacts for each technology. We
 encourage the student to make an early connection with those subject matter experts,
 so that they might learn the inner workings of the selected technology directly. Later,
 as they become more familiar with the scope and tone of the learning checklist, they
-are expected to contribute a revised learning checklist section, which must be peer-
-reviewed by one or more senior SREs that are listed as experts.
-404 
-| 
+are expected to contribute a revised learning checklist section, which must be peerreviewed by one or more senior SREs that are listed as experts.
+
+|
 Chapter 28: Accelerating SREs to On-Call and Beyond
 www.it-ebooks.info
 
@@ -15574,9 +15454,9 @@ shadow” the student. The newbie will become primary on-call and own all incomi
 escalations, but the experienced on-caller will lurk in the shadows, independently
 diagnosing the situation without modifying any state. The experienced SRE will be
 available to provide active support, help, validation, and hints as necessary.
-Five Practices for Aspiring On-Callers 
-| 
-405
+Five Practices for Aspiring On-Callers
+|
+
 www.it-ebooks.info
 
 
@@ -15612,8 +15492,8 @@ this chapter, you will create well-rounded SREs faster, while sharpening team sk
 perpetuity. How you apply these practices is up to you, but the charge is clear: as SRE,
 you have to scale your humans faster than you scale your machines. Good luck to you
 and your teams in creating a culture of learning and teaching!
-406 
-| 
+
+|
 Chapter 28: Accelerating SREs to On-Call and Beyond
 www.it-ebooks.info
 
@@ -15645,7 +15525,7 @@ Ongoing operational responsibilities (also known as “Kicking the can down the 
 and “toil”; see Chapter 5) include activities like team-owned code or flag rollouts, or
 responses to ad hoc, time-sensitive questions from customers. While they may not
 have a defined SLO, these tasks can interrupt you.
-407
+
 www.it-ebooks.info
 
 
@@ -15684,8 +15564,8 @@ SRE teams at Google have found the following metrics to be useful in deciding ho
 manage interrupts:
 • Interrupt SLO or expected response time
 • The number of interrupts that are usually backlogged
-408 
-| 
+
+|
 Chapter 29: Dealing with Interrupts
 www.it-ebooks.info
 
@@ -15722,9 +15602,9 @@ You can get in the zone by working on low-skill, low-difficulty problems, such a
 playing a repetitive video game. You can just as easily get there by doing high-skill,
 high-difficulty problems, such as those an engineer might face. The methods of arriv‐
 ing at a cognitive flow state differ, but the outcome is essentially the same.
-Imperfect Machines 
-| 
-409
+Imperfect Machines
+|
+
 www.it-ebooks.info
 
 
@@ -15766,8 +15646,8 @@ document is agnostic to personal habits—people are free to manage their own ti
 they see fit. The concentration here is on directing the structure of how the team itself
 manages interrupts, so that people aren’t set up for failure because of team function
 or structure.
-410 
-| 
+
+|
 Chapter 29: Dealing with Interrupts
 www.it-ebooks.info
 
@@ -15808,9 +15688,9 @@ of work, whose context switches are free, is suboptimal if you want people to be
 happy and productive. Assign a cost to context switches. A 20-minute interruption
 while working on a project entails two context switches; realistically, this interruption
 results in a loss of a couple hours of truly productive work. To avoid constant occur‐
-Imperfect Machines 
-| 
-411
+Imperfect Machines
+|
+
 www.it-ebooks.info
 
 
@@ -15837,8 +15717,7 @@ quiet for your service, tickets or other interrupt-based work that can be abando
 fairly quickly should be part of on-call duties. When an engineer is on-call for a week,
 that week should be written off as far as project work is concerned. If a project is too
 important to let slip by a week, that person shouldn’t be on-call. Escalate in order to
-assign someone else to the on-call shift. A person should never be expected to be on-
-call and also make progress on projects (or anything else with a high context switching
+assign someone else to the on-call shift. A person should never be expected to be oncall and also make progress on projects (or anything else with a high context switching
 cost).
 Secondary duties depend on how onerous those duties are. If the function of the sec‐
 ondary is to back up the primary in the case of a fallthrough, then maybe you can
@@ -15850,8 +15729,8 @@ they should do interrupt work, too.
 there is always documentation that needs updating, configs that need cleanup, etc.
 Your future on-call engineers will thank you, and it means they’re less likely to inter‐
 rupt you during your precious make time).
-412 
-| 
+
+|
 Chapter 29: Dealing with Interrupts
 www.it-ebooks.info
 
@@ -15891,9 +15770,9 @@ niques you can use to reduce your ticket load overall.
 Actually analyze tickets
 Lots of ticket rotations or on-call rotations function like a gauntlet. This is especially
 true of rotations on larger teams. If you’re only on interrupts every couple of months,
-Imperfect Machines 
-| 
-413
+Imperfect Machines
+|
+
 www.it-ebooks.info
 
 
@@ -15932,8 +15811,8 @@ you’re spending this time wisely. At some point, if you can’t get the attent
 to fix the root cause of the problems causing interrupts, perhaps the component
 you’re supporting isn’t that important. You should consider giving the pager back,
 deprecating it, replacing it, or another strategy in this vein that might make sense.
-414 
-| 
+
+|
 Chapter 29: Dealing with Interrupts
 www.it-ebooks.info
 
@@ -15950,9 +15829,9 @@ for the customer and for yourself. Your guiding principle in constructing a stra
 for dealing with customer requests is that the request should be meaningful, be
 rational, and provide all the information and legwork you need in order to fulfill the
 request. In return, your response should be helpful and timely.
-Imperfect Machines 
-| 
-415
+Imperfect Machines
+|
+
 www.it-ebooks.info
 
 
@@ -15986,7 +15865,7 @@ decide to embed yourself or one of your reports in a team, take time to review S
 practices and philosophy in Ben Treynor Sloss’s introduction and the material on
 monitoring in Chapter 6.
 The following sections provide guidance to the SRE who will be embedded on a team.
-417
+
 www.it-ebooks.info
 
 
@@ -16024,8 +15903,8 @@ design and deployment, spend some time prioritizing various service outages acco
 ing to their impact on the team’s stress levels. Keep in mind that, due to the team’s
 perspective and history, some very small problems or outages may produce an inor‐
 dinate amount of stress.
-418 
-| 
+
+|
 Chapter 30: Embedding an SRE to Recover from Operational Overload
 www.it-ebooks.info
 
@@ -16067,9 +15946,9 @@ Any serving-critical component for which the existing SREs respond to questions 
 ing, “We don’t know anything about that; the devs own it”
 To give acceptable on-call support for a component, you should at least know the
 consequences when it breaks and the urgency needed to fix problems.
-Phase 1: Learn the Service and Get Context 
-| 
-419
+Phase 1: Learn the Service and Get Context
+|
+
 www.it-ebooks.info
 
 
@@ -16106,8 +15985,8 @@ There are two types of fires in this simplified-for-convenience model:
 (see Chapter 5).
 • Other fires that cause stress and/or furious typing are actually part of the job. In
 either case, the team needs to build tools to control the burn.
-420 
-| 
+
+|
 Chapter 30: Embedding an SRE to Recover from Operational Overload
 www.it-ebooks.info
 
@@ -16144,9 +16023,9 @@ manent way. Even otherwise healthy teams can produce shortsighted action
 items.
 3. Serve as the reviewer for the code changes and document revisions.
 4. Repeat for two or three issues.
-Phase 3: Driving Change 
-| 
-421
+Phase 3: Driving Change
+|
+
 www.it-ebooks.info
 
 
@@ -16184,8 +16063,8 @@ slow down a rollback.”
 • “The automation should give up if it encounters a conflicting deployment.”
 Like the previous example, this explanation is probably correct, but insufficient.
 Instead, try “[…] because we’re making the simplifying assumption that all changes
-422 
-| 
+
+|
 Chapter 30: Embedding an SRE to Recover from Operational Overload
 www.it-ebooks.info
 
@@ -16219,9 +16098,9 @@ Your final task is to write an after-action report. This report should reiterate
 spective, examples, and explanation. It should also provide some action items for the
 team to ensure they exercise what you’ve taught them. You can organize the report as
 a postvitam,1 explaining the critical decisions at each step that led to success.
-Conclusion 
-| 
-423
+Conclusion
+|
+
 www.it-ebooks.info
 
 
@@ -16229,8 +16108,8 @@ The bulk of the engagement is now complete. Once your embedded assignment con‐
 cludes, you should remain available for design and code reviews. Keep an eye on the
 team for the next few months to confirm that they’re slowly improving their capacity
 planning, emergency response, and rollout processes.
-424 
-| 
+
+|
 Chapter 30: Embedding an SRE to Recover from Operational Overload
 www.it-ebooks.info
 
@@ -16261,7 +16140,7 @@ mance of those systems, but despite that relationship, our actual reporting line
 through SRE as a whole. Today, we spend more time supporting our individual serv‐
 ices than on cross-production work, but our culture and our shared values produce
 strongly homogeneous approaches to problems. This is by design.1
-425
+
 www.it-ebooks.info
 
 
@@ -16304,8 +16183,8 @@ the operational performance of the service, and relate that operational performa
 to design, configuration, or implementation, and make recommendations for how to
 fix the problems. Connecting the performance of the service with design decisions in
 a regular meeting is an immensely powerful feedback loop.
-426 
-| 
+
+|
 Chapter 31: Communication and Collaboration in SRE
 www.it-ebooks.info
 
@@ -16344,9 +16223,9 @@ whole meetings have often been devoted to stopping change. However, in our
 production environment, we usually default to enabling change, which requires
 tracking the useful set of properties of that change: start time, duration, expected
 effect, and so on. This is near-term horizon visibility.
-Communications: Production Meetings 
-| 
-427
+Communications: Production Meetings
+|
+
 www.it-ebooks.info
 
 
@@ -16384,8 +16263,8 @@ Tracking reactive operational work is also appropriate here.
 • An issue that is not pageable and does not require attention. These alerts
 should be removed, because they create extra noise that distracts engineers
 from issues that do merit attention.
-428 
-| 
+
+|
 Chapter 31: Communication and Collaboration in SRE
 www.it-ebooks.info
 
@@ -16425,14 +16304,13 @@ team to read and comment on the agenda minutes.
 sentatives.
 • Busy-yet-crucial attendees can provide feedback and/or steering in advance to
 individuals, or using the prefilled agenda technique (described next).
-Communications: Production Meetings 
-| 
-429
+Communications: Production Meetings
+|
+
 www.it-ebooks.info
 
 
-Most of the meeting strategies we’ve discussed are common sense, with a service-
-oriented twist. One unique spin on making meetings more efficient and more inclu‐
+Most of the meeting strategies we’ve discussed are common sense, with a serviceoriented twist. One unique spin on making meetings more efficient and more inclu‐
 sive is to use the real-time collaborative features of Google Docs. Many SRE teams
 have such a doc, with a well-known address that anyone in engineering can access.
 Having such a doc enables two great practices:
@@ -16466,8 +16344,8 @@ product Y. Specialization is good, because it leads to higher chances of improve
 technical mastery, but it’s also bad, because it leads to siloization and ignorance of the
 broader picture. We try to have a crisp team charter to define what a team will—and
 more importantly, won’t—support, but we don’t always succeed.
-430 
-| 
+
+|
 Chapter 31: Communication and Collaboration in SRE
 www.it-ebooks.info
 
@@ -16510,9 +16388,9 @@ In general, good SRE work calls for excellent communication skills when you’re
 working outside the boundary of your purely local team. For collaborations outside
 the building, effectively working across time zones implies either great written com‐
 munication, or lots of travel to supply the in-person experience that is deferrable but
-Collaboration within SRE 
-| 
-431
+Collaboration within SRE
+|
+
 www.it-ebooks.info
 
 
@@ -16549,8 +16427,8 @@ its console support for two main reasons:
 with complex consoles.
 • They also didn’t support the legacy monitoring system, making the transition to
 Monarch very difficult.
-432 
-| 
+
+|
 Chapter 31: Communication and Collaboration in SRE
 www.it-ebooks.info
 
@@ -16589,9 +16467,9 @@ were significant enough to prevent integration. The largest difficulty was that 
 by design did not use much JavaScript, while Consoles++ was mostly written in Java‐
 Script. There was a glimmer of hope, however, in that the two systems did have a
 number of underlying similarities:
-Case Study of Collaboration in SRE: Viceroy 
-| 
-433
+Case Study of Collaboration in SRE: Viceroy
+|
+
 www.it-ebooks.info
 
 
@@ -16630,8 +16508,8 @@ monitoring console.
 Challenges
 While ultimately a success, Viceroy was not without difficulties, and many of those
 arose due to the cross-site nature of the project.
-434 
-| 
+
+|
 Chapter 31: Communication and Collaboration in SRE
 www.it-ebooks.info
 
@@ -16674,9 +16552,9 @@ right—much higher throughput. The single site project can also fall foul of no
 outside of that site knowing what you’re doing, so there are costs to both approaches.
 Motivated contributors are valuable, but not all contributions are equally valuable.
 Make sure project contributors are actually committed, and aren’t just joining with
-Case Study of Collaboration in SRE: Viceroy 
-| 
-435
+Case Study of Collaboration in SRE: Viceroy
+|
+
 www.it-ebooks.info
 
 
@@ -16718,8 +16596,8 @@ practices, which will help new people come up to speed.
 Ultimately, there’s no substitute for in-person interaction, although some portion of
 face-to-face interaction can be deferred by good use of VC and good written commu‐
 nication. If you can, have the leaders of the project meet the rest of the team in per‐
-436 
-| 
+
+|
 Chapter 31: Communication and Collaboration in SRE
 www.it-ebooks.info
 
@@ -16759,9 +16637,9 @@ extracts and processes data from the database, in order to generate a set of ind
 files that are then loaded and served around the world. This system was distributed
 over several datacenters and used about 1,000 CPUs and 8 TB of RAM to index 100
 TB of data every day.
-Collaboration Outside SRE 
-| 
-437
+Collaboration Outside SRE
+|
+
 www.it-ebooks.info
 
 
@@ -16789,8 +16667,8 @@ would have to collaborate even more closely, conducting weekly meetings to sync 
 the project’s progress. In this particular case the BL changes were partially dependent
 upon infrastructure changes. For this reason the project started with the design of the
 new infrastructure; the SREs, who had extensive knowledge about the domain of
-438 
-| 
+
+|
 Chapter 31: Communication and Collaboration in SRE
 www.it-ebooks.info
 
@@ -16836,9 +16714,9 @@ specific case was completed by SREs to speed up the migration.
 When the service was ready the SREs prepared a rollout plan in collaboration with
 the product development team and launched the new service. The launch was very
 successful and proceeded smoothly, without any visible user impact.
-Case Study: Migrating DFP to F1 
-| 
-439
+Case Study: Migrating DFP to F1
+|
+
 www.it-ebooks.info
 
 
@@ -16850,8 +16728,8 @@ with their various partner teams.
 Collaboration between SRE teams has its challenges, but potentially great rewards,
 including common approaches to platforms for solving problems, letting us focus on
 solving more difficult problems.
-440 
-| 
+
+|
 Chapter 31: Communication and Collaboration in SRE
 www.it-ebooks.info
 
@@ -16883,7 +16761,7 @@ ated systems with lots of individual variations end up “arriving” at SRE’s
 vide product development with a platform of SRE-validated infrastructure, upon
 which they can build their systems. This platform will have the double benefit of
 being both reliable and scalable. This avoids certain classes of cognitive load prob‐
-441
+
 www.it-ebooks.info
 
 
@@ -16906,8 +16784,8 @@ PRR Model, then discusses how its modification into the Extended Engagement
 Model and the Frameworks and SRE Platform structure allowed SRE to scale their
 engagement process and impact.
 Figure 32-1. A typical service lifecycle
-442 
-| 
+
+|
 Chapter 32: The Evolving SRE Engagement Model
 www.it-ebooks.info
 
@@ -16940,9 +16818,9 @@ systems. Google’s Production Guide documents production best practices for ser
 ices, as determined by the experiences of SRE and development teams alike. Develop‐
 ers can implement the solutions and recommendations in such documentation to
 improve their services.
-The SRE Engagement Model 
-| 
-443
+The SRE Engagement Model
+|
+
 www.it-ebooks.info
 
 
@@ -16981,8 +16859,8 @@ The objectives of the Production Readiness Review are as follows:
 • Verify that a service meets accepted standards of production setup and opera‐
 tional readiness, and that service owners are prepared to work with SRE and take
 advantage of SRE expertise.
-444 
-| 
+
+|
 Chapter 32: The Evolving SRE Engagement Model
 www.it-ebooks.info
 
@@ -17020,9 +16898,9 @@ explicitly for the Analysis phase. The checklist is specific to the service and 
 ally based on domain expertise, experience with related or similar systems, and best
 practices from the Production Guide. The SRE team may also consult other teams
 that have more experience with certain components or dependencies of the service.
-Production Readiness Reviews: Simple PRR Model 
-| 
-445
+Production Readiness Reviews: Simple PRR Model
+|
+
 www.it-ebooks.info
 
 
@@ -17058,8 +16936,8 @@ This phase typically varies the most in duration and amount of effort. How much
 time and effort this phase will involve depends upon the availability of engineering
 time for refactoring, the maturity and complexity of the service at the start of the
 review, and myriad other factors.
-446 
-| 
+
+|
 Chapter 32: The Evolving SRE Engagement Model
 www.it-ebooks.info
 
@@ -17098,9 +16976,9 @@ opment team as suggestions and proposals for changes to the service whenever new
 features, components, and dependencies may be added to the service. Lessons from
 managing the service are also contributed to best practices, which are documented in
 the Production Guide and elsewhere.
-Production Readiness Reviews: Simple PRR Model 
-| 
-447
+Production Readiness Reviews: Simple PRR Model
+|
+
 www.it-ebooks.info
 
 
@@ -17136,8 +17014,8 @@ nity to remedy potential issues in the service would be markedly increased. As a
 result, the success of the SRE engagement and the future success of the service itself
 would likely improve. The resulting drawbacks can pose a significant challenge to the
 success of the SRE engagement and the future success of the service itself.
-448 
-| 
+
+|
 Chapter 32: The Evolving SRE Engagement Model
 www.it-ebooks.info
 
@@ -17175,9 +17053,9 @@ ticipation in the Design phase means that SREs are aware up front of the trade-o
 and are part of the decision to pick a less-than-ideal option. Early SRE involvement
 aims to minimize future disputes over design choices once the service is in produc‐
 tion.
-Evolving the Simple PRR Model: Early Engagement 
-| 
-449
+Evolving the Simple PRR Model: Early Engagement
+|
+
 www.it-ebooks.info
 
 
@@ -17217,8 +17095,8 @@ mination might be made post-launch, or SRE might engage with a service but never
 officially take it over. This is a positive outcome, because the service has been engi‐
 neered to be reliable and low maintenance, and can therefore remain with the devel‐
 opment team.
-450 
-| 
+
+|
 Chapter 32: The Evolving SRE Engagement Model
 www.it-ebooks.info
 
@@ -17257,9 +17135,9 @@ cal examples included service overload situations and data hot-spotting.
 building generic solutions to be reused was difficult. As a consequence, there was
 no easy way to implement new lessons individual SRE teams learned and best
 practices across services that had already been onboarded.
-Evolving Services Development: Frameworks and SRE Platform 
-| 
-451
+Evolving Services Development: Frameworks and SRE Platform
+|
+
 www.it-ebooks.info
 
 
@@ -17296,8 +17174,8 @@ controls, and uniform monitoring, logging, and configuration for all services.
 Easier automation and smarter systems
 A common control surface that enables automation and smart systems at a level
 not possible before. For example, SREs can readily receive a single view of
-452 
-| 
+
+|
 Chapter 32: The Evolving SRE Engagement Model
 www.it-ebooks.info
 
@@ -17337,9 +17215,9 @@ enced using standard terms
 • A standard configuration format for managing load shedding
 • Capacity of a single server and determination of “overload” that can both use a
 semantically consistent measure for feedback to various control systems
-Evolving Services Development: Frameworks and SRE Platform 
-| 
-453
+Evolving Services Development: Frameworks and SRE Platform
+|
+
 www.it-ebooks.info
 
 
@@ -17367,10 +17245,8 @@ coding style guides, and so on. This functionality also improves user data priva
 testing, and security conformance.
 • It features built-in service deployment, monitoring, and automation for all
 services.
-• It facilitates easier management of large numbers of services, especially micro-
-services, which are growing in number.
-• It enables much faster deployment: an idea can graduate to fully deployed SRE-
-level production quality in a matter of days!
+• It facilitates easier management of large numbers of services, especially microservices, which are growing in number.
+• It enables much faster deployment: an idea can graduate to fully deployed SRElevel production quality in a matter of days!
 Universal support by design
 The constant growth in the number of services at Google means that most of these
 services can neither warrant SRE engagement nor be maintained by SREs. Regardless,
@@ -17378,8 +17254,8 @@ services that don’t receive full SRE support can be built to use production fe
 that are developed and maintained by SREs. This practice effectively breaks the SRE
 staffing barrier. Enabling SRE-supported production standards and tools for all teams
 improves the overall service quality across Google. Furthermore, all services that are
-454 
-| 
+
+|
 Chapter 32: The Evolving SRE Engagement Model
 www.it-ebooks.info
 
@@ -17415,11 +17291,10 @@ service software infrastructure, particularly control systems such as load shedd
 overload, automation, traffic management, logging, and monitoring.
 This model represents a significant departure from the way service management was
 originally conceived in two major ways: it entails a new relationship model for the
-interaction between SRE and development teams, and a new staffing model for SRE-
-supported service management.3
-Evolving Services Development: Frameworks and SRE Platform 
-| 
-455
+interaction between SRE and development teams, and a new staffing model for SREsupported service management.3
+Evolving Services Development: Frameworks and SRE Platform
+|
+
 www.it-ebooks.info
 
 
@@ -17442,8 +17317,8 @@ ever, the adoption of frameworks is becoming a prominent influence on building
 production-ready services at Google as well as profoundly expanding the SRE contri‐
 bution, lowering service management overhead, and improving baseline service qual‐
 ity across the organization.
-456 
-| 
+
+|
 Chapter 32: The Evolving SRE Engagement Model
 www.it-ebooks.info
 
@@ -17487,7 +17362,7 @@ cussed throughout this text. To simplify our comparison of best practices in oth
 industries, we distilled these concepts into four key themes:
 • Preparedness and Disaster Testing
 • Postmortem Culture
-459
+
 www.it-ebooks.info
 
 
@@ -17526,8 +17401,8 @@ gle. Ron has experience in development for cell phones, medical devices, and the
 automotive industry. In some cases he worked on interface components of these
 industries (for example, on a device to allow EKG readings2 in ambulances to be
 transmitted over the digital wireless phone network). In these industries, the impact
-460 
-| 
+
+|
 Chapter 33: Lessons Learned from Other Industries
 www.it-ebooks.info
 
@@ -17570,9 +17445,9 @@ failures.
 Now that you’ve met our experts and gained a high-level understanding of why relia‐
 bility is important in their respective former fields, we’ll delve into the four key
 themes of reliability.
-Meet Our Industry Veterans 
-| 
-461
+Meet Our Industry Veterans
+|
+
 www.it-ebooks.info
 
 
@@ -17607,8 +17482,8 @@ ical that all employees take safety seriously, and that workers feel empowered t
 up if and when anything seems amiss. In the case of nuclear power, military aircraft,
 and railway signaling industries, safety standards for software are well detailed (e.g.,
 UK Defence Standard 00-56, IEC 61508, IEC513, US DO-178B/C, and DO-254) and
-462 
-| 
+
+|
 Chapter 33: Lessons Learned from Other Industries
 www.it-ebooks.info
 
@@ -17647,9 +17522,9 @@ reports that the telecom industry typically focuses on live drills centered on s
 hurricanes and other weather emergencies. Such modeling led to the creation of
 weatherproof facilities with generators inside the building capable of outlasting a
 storm.
-Preparedness and Disaster Testing 
-| 
-463
+Preparedness and Disaster Testing
+|
+
 www.it-ebooks.info
 
 
@@ -17691,8 +17566,8 @@ Google’s launch and iterate culture, which promotes a much faster rate of chan
 calculated risk. Other industries (e.g., the medical industry and the military, as previ‐
 ously discussed) have very different pressures, risk appetites, and requirements, and
 their processes are very much informed by these circumstances.
-464 
-| 
+
+|
 Chapter 33: Lessons Learned from Other Industries
 www.it-ebooks.info
 
@@ -17731,9 +17606,9 @@ practices.
 Many industries are heavily regulated and are held accountable by specific govern‐
 ment authorities when something goes wrong. Such regulation is especially ingrained
 when the stakes of failure are high (e.g., lives are at stake). Relevant government agen‐
-Postmortem Culture 
-| 
-465
+Postmortem Culture
+|
+
 www.it-ebooks.info
 
 
@@ -17776,8 +17651,8 @@ are then made based on these findings, and training is often scheduled to help p
 build confidence around their ability to handle a similar incident in the future. In
 cases of particularly shocking or traumatic incidents, a counselor is brought on site to
 help staff cope with the psychological aftermath. The lifeguards may have been well
-466 
-| 
+
+|
 Chapter 33: Lessons Learned from Other Industries
 www.it-ebooks.info
 
@@ -17816,15 +17691,14 @@ ital Group encountered a “software glitch” that led to a loss of $440M in ju
 hours.7 Similarly, in 2010 the US stock market experienced a Flash Crash that was
 ultimately blamed on a rogue trader attempting to manipulate the market with auto‐
 mated means. While the market was quick to recover, the Flash Crash resulted in a
-Automating Away Repetitive Work and Operational Overhead 
-| 
-467
+Automating Away Repetitive Work and Operational Overhead
+|
+
 www.it-ebooks.info
 
 
 8 “Regulators blame computer algorithm for stock market ‘flash crash’,” Computerworld, http://www.computer
-world.com/article/2516076/financial-it/regulators-blame-computer-algorithm-for-stock-market—flash-
-crash-.html.
+world.com/article/2516076/financial-it/regulators-blame-computer-algorithm-for-stock-market—flashcrash-.html.
 loss on the magnitude of trillions of dollars in just 30 minutes.8 Computers can exe‐
 cute tasks very quickly, and speed can be a negative if these tasks are configured
 incorrectly.
@@ -17857,8 +17731,8 @@ graphed during the preliminary refractive eye test. When it’s time to perform 
 gery, the iris of the patient is automatically matched to the iris in the photo, thus
 eliminating the possibility of mixing up patient data. When this automated solution
 was implemented, an entire class of medical errors disappeared.
-468 
-| 
+
+|
 Chapter 33: Lessons Learned from Other Industries
 www.it-ebooks.info
 
@@ -17897,9 +17771,9 @@ stantly evolving due to system updates or changes. This approach is also common 
 industries in which the skill level of the workers may be limited, and the best way to
 make sure that people will respond appropriately in an emergency is to provide a
 simple, clear set of instructions.
-Structured and Rational Decision Making 
-| 
-469
+Structured and Rational Decision Making
+|
+
 www.it-ebooks.info
 
 
@@ -17935,8 +17809,8 @@ ity versus a laser-sharp focus on rapid change and innovation. While Google is
 incredibly serious about reliability, we must adapt our approaches to our high rate of
 change. As discussed in earlier chapters, many of our software businesses such as
 Search make conscious decisions as to how reliable “reliable enough” really is.
-470 
-| 
+
+|
 Chapter 33: Lessons Learned from Other Industries
 www.it-ebooks.info
 
@@ -17949,9 +17823,9 @@ ing. In essence, Google has adapted known reliability principles that were in ma
 cases developed and honed in other industries to create its own unique reliability cul‐
 ture, one that addresses a complicated equation that balances scale, complexity, and
 velocity with high reliability.
-Conclusions 
-| 
-471
+Conclusions
+|
+
 www.it-ebooks.info
 
 
@@ -17983,7 +17857,7 @@ reflect and decide what to build in order to make those systems easier to manage
 essence, we have the pleasure of playing both the roles of the pilot and the engineer/
 designer. Our experiences running massive computing infrastructure are codified in
 actual code and then packaged as a discrete product.
-473
+
 www.it-ebooks.info
 
 
@@ -18013,8 +17887,7 @@ different, certain core similarities hold true.
 Imagine that you wanted to fly between two cities a hundred years ago. Your airplane
 probably had a single engine (two, if you were lucky), a few bags of cargo, and a pilot.
 The pilot also filled the role of mechanic, and possibly additionally acted as cargo
-loader and unloader. The cockpit had room for the pilot, and if you were lucky, a co-
-pilot/navigator. Your little plane would bounce off a runway in good weather, and if
+loader and unloader. The cockpit had room for the pilot, and if you were lucky, a copilot/navigator. Your little plane would bounce off a runway in good weather, and if
 everything went well, you’d slowly climb your way through the skies and eventually
 touch down in another city, maybe a few hundred miles away. Failure of any of the
 plane’s systems was catastrophic, and it wasn’t unheard of for a pilot to have to climb
@@ -18026,8 +17899,8 @@ loaded into the hold below. The plane is chock-full of reliable, redundant syste
 a model of safety and reliability; in fact, you’re actually safer in the air than on the
 ground in a car. Your plane will take off from a dotted line on a runway on one conti‐
 nent, and land easily on a dotted line on another runway 6,000 miles away, right on
-474 
-| 
+
+|
 Chapter 34: Conclusion
 www.it-ebooks.info
 
@@ -18052,9 +17925,9 @@ systems as failsafes and thoughtful APIs to communicate with the systems. At the
 same time, the SRE team should also have comprehensive knowledge of the systems
 —how they operate, how they fail, and how to respond to failures—that comes from
 operating them day-to-day.
-Conclusion 
-| 
-475
+Conclusion
+|
+
 www.it-ebooks.info
 
 
@@ -18069,7 +17942,7 @@ time is permitted to reach a given availability level.
 Table A-1. Availability table
 Availability level
 Allowed unavailability window
- 
+
 per year
 per quarter
 per month
@@ -18138,7 +18011,7 @@ for instance, due to having multiple replicas, only some of which are unavailabl
 and for services whose load varies over the course of a day or week rather than
 remaining constant.
 See Equations 3-1 and 3-2 in Chapter 3 for calculations.
-477
+
 www.it-ebooks.info
 
 
@@ -18165,7 +18038,7 @@ Fail in a way that preserves function, possibly at the expense of being overly p
 sive or overly simplistic. We’ve found that it’s generally safer for systems to continue
 functioning with their previous configuration and await a human’s approval before
 using the new, perhaps invalid, data.
-479
+
 www.it-ebooks.info
 
 
@@ -18198,8 +18071,8 @@ Mean Time to Recovery.
 Define SLOs Like a User
 Measure availability and performance in terms that matter to an end user. See Chap‐
 ter 4 for more discussion.
-480 
-| 
+
+|
 Appendix B: A Collection of Best Practices for Production Services
 www.it-ebooks.info
 
@@ -18236,9 +18109,9 @@ A human must do something within a few days
 Logging
 No one need look at this output immediately, but it’s available for later analysis if
 needed
-A Collection of Best Practices for Production Services 
-| 
-481
+A Collection of Best Practices for Production Services
+|
+
 www.it-ebooks.info
 
 
@@ -18271,8 +18144,8 @@ can it still do so given changes to the system?
 • Don’t mistake day-one load for steady-state load. Launches often attract more
 traffic, while they’re also the time you especially want to put the product’s best
 foot forward. See Chapter 27 and Appendix E.
-482 
-| 
+
+|
 Appendix B: A Collection of Best Practices for Production Services
 www.it-ebooks.info
 
@@ -18306,16 +18179,15 @@ the product developers are in touch with the operational side of the service. A 
 production meeting between SREs and the development team (see Chapter 31) is also
 helpful.
 We’ve found that at least eight people need to be part of the on-call team, in order to
-avoid fatigue and allow sustainable staffing and low turnover. Preferably, those on-
-call should be in two well-separated geographic locations (e.g., California and Ire‐
+avoid fatigue and allow sustainable staffing and low turnover. Preferably, those oncall should be in two well-separated geographic locations (e.g., California and Ire‐
 land) to provide a better quality of life by avoiding nighttime pages; in this case, six
 people at each site is the minimum team size.
 Expect to handle no more than two events per on-call shift (e.g., per 12 hours): it
 takes time to respond to and fix outages, start the postmortem, and file the resulting
 bugs. More frequent events may degrade the quality of response, and suggest that
-A Collection of Best Practices for Production Services 
-| 
-483
+A Collection of Best Practices for Production Services
+|
+
 www.it-ebooks.info
 
 
@@ -18326,8 +18198,8 @@ out of practice in responding to incidents due to their infrequency, making a lo
 outage out of a short one. Practice handling hypothetical outages (see “Disaster Role
 Playing” on page 401) routinely and improve your incident-handling documentation
 in the process.
-484 
-| 
+
+|
 Appendix B: A Collection of Best Practices for Production Services
 www.it-ebooks.info
 
@@ -18353,7 +18225,7 @@ Exit Criteria:
 • New sonnet added to Shakespeare search corpus TODO
 • Within availability (99.99%) and latency (99%ile < 100 ms) SLOs for 30+ minutes
 TODO
-485
+
 www.it-ebooks.info
 
 
@@ -18378,8 +18250,8 @@ list
 — Incident declared due to cascading failure
 • 2015-10-21 14:55 UTC docbrown
 — Pager storm, ManyHttp500s in all clusters
-486 
-| 
+
+|
 Appendix C: Example Incident State Document
 www.it-ebooks.info
 
@@ -18407,12 +18279,11 @@ Resolution: Directed traffic to sacrificial cluster and added 10x capacity to mi
 cascading failure. Updated index deployed, resolving interaction with latent bug.
 Maintaining extra capacity until surge in public interest in new sonnet passes.
 Resource leak identified and fix deployed.
-487
+
 www.it-ebooks.info
 
 
-3 “Knee-jerk” AIs often turn out to be too extreme or costly to implement, and judgment may be needed to re-
-scope them in a larger context. There’s a risk of over-optimizing for a particular issue, adding specific moni‐
+3 “Knee-jerk” AIs often turn out to be too extreme or costly to implement, and judgment may be needed to rescope them in a larger context. There’s a risk of over-optimizing for a particular issue, adding specific moni‐
 toring/alerting when reliable mechanisms like unit tests can catch problems much earlier in the development
 process.
 Detection: Borgmon detected high level of HTTP 500s and paged on-call.
@@ -18467,8 +18338,8 @@ What went wrong
 • We’re out of practice in responding to cascading failure
 • We exceeded our availability error budget (by several orders of magnitude) due
 to the exceptional surge of traffic that essentially all resulted in failures
-488 
-| 
+
+|
 Appendix D: Example Postmortem
 www.it-ebooks.info
 
@@ -18484,7 +18355,7 @@ crash
 • Query-of-death was resolved by pushing new index containing popular search
 term
 Timeline
-5
+
 2015-10-21 (all times UTC)
 • 14:51 News reports that a new Shakespearean sonnet has been discovered in a
 Delorean’s glove compartment
@@ -18505,9 +18376,9 @@ covery, which happens to be at top of martym’s inbox
 corpus update
 • 15:06 docbrown finds that crash symptoms identical across all tasks in all clus‐
 ters, investigating cause based on application logs
-Example Postmortem 
-| 
-489
+Example Postmortem
+|
+
 www.it-ebooks.info
 
 
@@ -18545,20 +18416,20 @@ observed
 • 16:00 OUTAGE ENDS, all traffic balanced across all clusters
 • 16:30 INCIDENT ENDS, reached exit criterion of 30 minutes’ nominal
 performance
-490 
-| 
+
+|
 Appendix D: Example Postmortem
 www.it-ebooks.info
 
 
 6 Useful information, links, logs, screenshots, graphs, IRC logs, IM logs, etc.
 Supporting information:
-6
+
 • Monitoring dashboard,
 http://monitor/shakespeare?end_time=20151021T160000&duration=7200
-Example Postmortem 
-| 
-491
+Example Postmortem
+|
+
 www.it-ebooks.info
 
 
@@ -18584,7 +18455,7 @@ System reliability and failover
 • What happens when:
 — Machine dies, rack fails, or cluster goes offline
 — Network fails between two datacenters
-493
+
 www.it-ebooks.info
 
 
@@ -18613,8 +18484,8 @@ External dependencies
 • Third-party systems, monitoring, networking, traffic volume, launch spikes
 • Graceful degradation, how to avoid accidentally overrunning third-party services
 • Playing nice with syndicated partners, mail systems, services within Google
-494 
-| 
+
+|
 Appendix E: Launch Coordination Checklist
 www.it-ebooks.info
 
@@ -18622,9 +18493,9 @@ www.it-ebooks.info
 Schedule and rollout planning
 • Hard deadlines, external events, Mondays or Fridays
 • Standard operating procedures for this service, for other services
-Launch Coordination Checklist 
-| 
-495
+Launch Coordination Checklist
+|
+
 www.it-ebooks.info
 
 
@@ -18652,7 +18523,7 @@ load shedding (bug 5554826) to prevent recurrence
 — Annihilated availability error budget; pushes to prod frozen for 1 month
 unless docbrown can obtain exception on grounds that event was bizarre &
 unforeseeable (but consensus is that exception is unlikely)
-497
+
 www.it-ebooks.info
 
 
@@ -18682,8 +18553,8 @@ Key Service Metrics
 • BAD availability: 86.95% < 99.99% SLO target [trailing 30 days]
 Discussion / Project Updates
 • Project Molière launching in two weeks.
-498 
-| 
+
+|
 Appendix F: Example Production Meeting Minutes
 www.it-ebooks.info
 
@@ -18691,9 +18562,9 @@ www.it-ebooks.info
 New Action Items
 • TODO(martym): Raise AnnotationConsistencyTooEventual threshold.
 • TODO(docbrown): Return instance count to normal and return resources.
-Example Production Meeting Minutes 
-| 
-499
+Example Production Meeting Minutes
+|
+
 www.it-ebooks.info
 
 
@@ -18725,7 +18596,7 @@ ber 1983.
 [Bak11] J. Baker et al., “Megastore: Providing Scalable, Highly Available Storage for
 Interactive Services”, in Proceedings of the Conference on Innovative Data System
 Research, 2011.
-501
+
 www.it-ebooks.info
 
 
@@ -18765,8 +18636,8 @@ mentation, November 2006.
 and Kubernetes” in ACM Queue, vol. 14, no. 1, 2016.
 [Cas99] M. Castro and B. Liskov, “Practical Byzantine Fault Tolerance”, in Proc. OSDI
 1999, 1999.
-502 
-| 
+
+|
 Bibliography
 www.it-ebooks.info
 
@@ -18808,9 +18679,9 @@ tributed Systems”, Stanford CS297 class lecture, Spring 2007.
 on error and performance”, in Journal of Safety Research, vol. 33, no. 3, 2002.
 [Dek14] S. Dekker, The Field Guide to Understanding “Human Error”, 3rd edition:
 Ashgate, 2014.
-Bibliography 
-| 
-503
+Bibliography
+|
+
 www.it-ebooks.info
 
 
@@ -18852,8 +18723,8 @@ tent, Available, Partition-Tolerant Web Services”, in ACM SIGACT News, vol. 33
 no. 2, 2002.
 [Gla02] R. Glass, Facts and Fallacies of Software Engineering, Addison-Wesley Profes‐
 sional, 2002.
-504 
-| 
+
+|
 Bibliography
 www.it-ebooks.info
 
@@ -18895,9 +18766,9 @@ Emptor”, in Proc. HotDep ’07, 2007.
 [Jun11] F. P. Junqueira, B. C. Reid, and M. Serafini, “Zab: High-performance broad‐
 cast for primary-backup systems.”, in Dependable Systems & Networks (DSN), 2011
 IEEE/IFIP 41st International Conference on 27 Jun 2011: 245–256.
-Bibliography 
-| 
-505
+Bibliography
+|
+
 www.it-ebooks.info
 
 
@@ -18910,8 +18781,7 @@ Engineering Tools blog post, August 2011.
 [Ken12] S. Kendrick, “What Takes Us Down?”, in ;login:, vol. 37, no. 5, October 2012.
 [Kinc09] Kincaid, Jason. “T-Mobile Sidekick Disaster: Danger’s Servers Crashed, And
 They Don’t Have A Backup.” Techcrunch. n.p., 10 Oct. 2009. Web. 20 Jan. 2015,
-http://techcrunch.com/2009/10/10/t-mobile-sidekick-disaster-microsofts-servers-
-crashed-and-they-dont-have-a-backup.
+http://techcrunch.com/2009/10/10/t-mobile-sidekick-disaster-microsofts-serverscrashed-and-they-dont-have-a-backup.
 [Kin15] K. Kingsbury, “The trouble with timestamps”, blog post, 2013.
 [Kir08] J. Kirsch and Y. Amir, “Paxos for System Builders: An Overview”, in Proc.
 LADIS ’08, 2008.
@@ -18937,8 +18807,8 @@ Systems 16, 2, May 1998.
 [Lim14] T. A. Limoncelli, S. R. Chalup, and C. J. Hogan, The Practice of Cloud System
 Administration: Designing and Operating Large Distributed Systems, Volume 2:
 Addison-Wesley, 2014.
-506 
-| 
+
+|
 Bibliography
 www.it-ebooks.info
 
@@ -18980,9 +18850,9 @@ Hypercube Multiprocessors 1986, 1987.
 Mellon University Parallel Data Lab Technical Report CMU-PDL-12-108, 2012.
 [Mor14] I. Moraru, D. G. Andersen, and M. Kaminsky, “Paxos Quorum Leases: Fast
 Reads Without Sacrificing Writes”, in Proc. SOCC ’14, 2014.
-Bibliography 
-| 
-507
+Bibliography
+|
+
 www.it-ebooks.info
 
 
@@ -19018,13 +18888,12 @@ in Quality Progress, July 2004.
 translation by Lewis Galantière as Wind, Sand and Stars.
 [Sam14] R. R. Sambasivan, R. Fonseca, I. Shafer, and G. R. Ganger, “So, You Want To
 Trace Your Distributed System? Key Design Insights from Years of Practical Expe‐
-rience”, Carnegie Mellon University Parallel Data Lab Technical Report CMU-
-PDL-14-102, 2014.
+rience”, Carnegie Mellon University Parallel Data Lab Technical Report CMUPDL-14-102, 2014.
 [San11] N. Santos and A. Schiper, “Tuning Paxos for High-Throughput with Batching
 and Pipelining”, in 13th Int’l Conf. on Distributed Computing and Networking,
 2012.
-508 
-| 
+
+|
 Bibliography
 www.it-ebooks.info
 
@@ -19066,9 +18935,9 @@ Addison-Wesley, 2012.
 1996.
 [Wri12a] H. K. Wright, “Release Engineering Processes, Their Faults and Failures”,
 (section 7.2.2.2) PhD Thesis, University of Texas at Austin, 2012.
-Bibliography 
-| 
-509
+Bibliography
+|
+
 www.it-ebooks.info
 
 
@@ -19080,8 +18949,8 @@ mated Refactoring Using ClangMR”, in Proceedings of the 29th International Con
 ference on Software Maintenance (ICSM ’13), (IEEE, 2013), pp. 548–551.
 [Zoo14] ZooKeeper Project (Apache Foundation), “ZooKeeper Recipes and Solu‐
 tions”, in ZooKeeper 3.4 documentation, 2014.
-510 
-| 
+
+|
 Bibliography
 www.it-ebooks.info
 
@@ -19153,7 +19022,7 @@ error budgets, 481
 failures, 479
 feedback, 174
 for incident management, 166
-511
+
 www.it-ebooks.info
 
 
@@ -19254,8 +19123,8 @@ outside SRE team, 437
 position of SRE in Google, 425
 production meetings (see production meet‐
 ings)
-512 
-| 
+
+|
 Index
 www.it-ebooks.info
 
@@ -19357,9 +19226,9 @@ business continuity and, 337
 challenges of uneven work distribution, 328
 challenges to periodic pattern, 328
 drawbacks of periodic, 329-332
-Index 
-| 
-513
+Index
+|
+
 www.it-ebooks.info
 
 
@@ -19382,7 +19251,7 @@ reliable replicated, 292
 Decider, 74
 decision-making skills, 469
 defense in depth, for data integrity, 349, 361,
-367
+
 demand forecasting, 11
 dependency hierarchies, 58, 263
 deployment, 93
@@ -19459,8 +19328,8 @@ failures, best practices for, 479
 (see also cascading failures)
 fake backends, 204
 false-positive alerts, 180
-514 
-| 
+
+|
 Index
 www.it-ebooks.info
 
@@ -19477,7 +19346,7 @@ gated operations, 89
 Generic Routing Encapsulation (GRE), 228
 GFE (Google Frontend), 21, 232
 GFS (Google File System), 76, 293, 318-319,
-354
+
 global overload, 248
 Global Software Load Balancer (GSLB), 18
 Gmail, 65, 360
@@ -19559,9 +19428,9 @@ IRC (Internet Relay Chat), 164
 J
 jobs, 16
 Jupiter network fabric, 14
-Index 
-| 
-515
+Index
+|
+
 www.it-ebooks.info
 
 
@@ -19661,8 +19530,8 @@ N + 2 configuration, 22, 210-212, 266, 482
 negative results, 144
 Network Address Translation, 228
 network latency, 300
-516 
-| 
+
+|
 Index
 www.it-ebooks.info
 
@@ -19763,9 +19632,9 @@ pipelining, 302
 planned changes, 277
 policies and procedures, enforcing, 89
 post hoc analysis, 58
-Index 
-| 
-517
+Index
+|
+
 www.it-ebooks.info
 
 
@@ -19799,7 +19668,7 @@ development of Launch Coordination Engi‐
 neering (LCE), 384-387
 driving convergence and simplification, 374
 launch coordination checklists, 373-380,
-493
+
 launch coordination engineering, 370
 NORAD Tracks Santa example, 369
 overview of, 387
@@ -19865,8 +19734,8 @@ amount required, 184
 benefits of, 204
 break-glass mechanisms, 201
 canary tests, 189
-518 
-| 
+
+|
 Index
 www.it-ebooks.info
 
@@ -19968,9 +19837,9 @@ new approach to, 106
 self-service model, 88
 separation of responsibilities, 163
 servers
-Index 
-| 
-519
+Index
+|
+
 www.it-ebooks.info
 
 
@@ -20072,8 +19941,8 @@ intent-based capacity planning, 209-218
 staffing and development time, 219
 team dynamics, 218
 software fault tolerance, 34
-520 
-| 
+
+|
 Index
 www.it-ebooks.info
 
@@ -20174,9 +20043,9 @@ time-series monitoring
 alerting, 118
 black-box monitoring, 120
 Borgmon monitoring system, 108
-Index 
-| 
-521
+Index
+|
+
 www.it-ebooks.info
 
 
@@ -20255,8 +20124,8 @@ YouTube, 29
 Z
 Zab consensus, 302
 Zookeeper, 291
-522 
-| 
+
+|
 Index
 www.it-ebooks.info
 
@@ -20268,16 +20137,14 @@ Center and Hardware Operations Teams in Mountain View and across its globally
 distributed datacenters. Before moving to New York, Betsy was a lecturer on technical
 writing at Stanford University. En route to her current career, Betsy studied Interna‐
 tional Relations and English Literature, and holds degrees from Stanford and Tulane.
-Chris Jones is a Site Reliability Engineer for Google App Engine, a cloud platform-as-
-a-service product serving over 28 billion requests per day. Based in San Francisco, he
+Chris Jones is a Site Reliability Engineer for Google App Engine, a cloud platform-asa-service product serving over 28 billion requests per day. Based in San Francisco, he
 has previously been responsible for the care and feeding of Google’s advertising statis‐
 tics, data warehousing, and customer support systems. In other lives, Chris has
 worked in academic IT, analyzed data for political campaigns, and engaged in some
 light BSD kernel hacking, picking up degrees in Computer Engineering, Economics,
 and Technology Policy along the way. He’s also a licensed professional engineer.
 Jennifer Petoff is a Program Manager for Google’s Site Reliability Engineering team
-and based in Dublin, Ireland. She has managed large global projects across wide-
-ranging domains including scientific research, engineering, human resources, and
+and based in Dublin, Ireland. She has managed large global projects across wideranging domains including scientific research, engineering, human resources, and
 advertising operations. Jennifer joined Google after spending eight years in the chem‐
 ical industry. She holds a PhD in Chemistry from Stanford University and a BS in
 Chemistry and a BA in Psychology from the University of Rochester.

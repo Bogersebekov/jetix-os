@@ -9,12 +9,11 @@ chars: 569807
 approx_tokens: 142451
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 569809
+phase4_chars_after: 569392
+phase4_saved_pct: 0.1
 ---
-
-
-
-
-
 
 
 To Dad, for driving an old tan Chevette
@@ -68,8 +67,7 @@ CHAPTER 5
 EMOTIONAL
 The Mother Teresa principle: If I look at the one, I will act. Beating
 smoking with the Truth. Semantic stretch and why unique isn’t
-unique. Reclaiming “sportsmanship.” Schlocky but masterful mail-
-order ads. WIIFY. Cable television in Tempe. Avoiding Maslow’s
+unique. Reclaiming “sportsmanship.” Schlocky but masterful mailorder ads. WIIFY. Cable television in Tempe. Avoiding Maslow’s
 basement. Dining in Iraq. The popcorn popper and political science.
 Clinic: Why study algebra? Don’t mess with Texas. Who cares about
 duo piano? Creating empathy.
@@ -140,14 +138,12 @@ operating in this city, and they got to you. Paramedics are on
 Y
 their way. Don’t move until they arrive.”
 ou’ve just read one of the most successful urban legends of
-the past fifteen years. The first clue is the classic urban-
-legend opening: “A friend of a friend …” Have you ever
+the past fifteen years. The first clue is the classic urbanlegend opening: “A friend of a friend …” Have you ever
 noticed that our friends’ friends have much more interesting
 lives than our friends themselves?
 You’ve probably heard the Kidney Heist tale before. There
 are hundreds of versions in circulation, and all of them share
-a core of three elements: (1) the drugged drink, (2) the ice-
-filled bathtub, and (3) the kidney-theft punch line. One
+a core of three elements: (1) the drugged drink, (2) the icefilled bathtub, and (3) the kidney-theft punch line. One
 version features a married man who receives the drugged
 drink from a prostitute he has invited to his room in Las
 Vegas. It’s a morality play with kidneys.
@@ -292,8 +288,7 @@ And, let’s be honest, the odds were stacked against the
 
 
 CSPI. The “movie popcorn is fatty” story lacks the lurid
-appeal of an organ-thieving gang. No one woke up in an oil-
-filled bathtub. The story wasn’t sensational, and it wasn’t
+appeal of an organ-thieving gang. No one woke up in an oilfilled bathtub. The story wasn’t sensational, and it wasn’t
 even particularly entertaining. Furthermore, there was no
 natural constituency for the news—few of us make an effort
 to “stay up to date with popcorn news.” There were no
@@ -434,8 +429,7 @@ naturally sticky ideas are true. In fact, perhaps the oldest
 class of naturally sticky ideas is the proverb—a nugget of
 wisdom that often endures over centuries and across
 cultures. As an example, versions of the proverb “Where
-there’s smoke there’s fire” have appeared in more than fifty-
-five different languages.
+there’s smoke there’s fire” have appeared in more than fiftyfive different languages.
 In studying naturally sticky ideas, both trivial and
 profound, Chip has conducted more than forty experiments
 with more than 1,700 participants on topics such as:
@@ -451,8 +445,7 @@ called “How to Make Ideas Stick.” The premise of the course
 was that if we understood what made ideas naturally sticky
 we might be better at making our own messages stick.
 During the past few years he has taught this topic to a few
-hundred students bound for careers as managers, public-
-policy analysts, journalists, designers, and film directors.
+hundred students bound for careers as managers, publicpolicy analysts, journalists, designers, and film directors.
 To complete the story of the Brothers Heath, in 2004 it
 dawned on us that we had been approaching the same
 problem from different angles. Chip had researched and
@@ -500,10 +493,8 @@ disappear. So, while our focus will veer away from The
 Tipping Point’s turf, we want to pay tribute to Gladwell for
 the word “stickiness.” It stuck.
 Who Spoiled Halloween?
-In the 1960s and 1970s, the tradition of Halloween trick-or-
-treating came under attack. Rumors circulated about
-Halloween sadists who put razor blades in apples and booby-
-trapped pieces of candy. The rumors affected the Halloween
+In the 1960s and 1970s, the tradition of Halloween trick-ortreating came under attack. Rumors circulated about
+Halloween sadists who put razor blades in apples and boobytrapped pieces of candy. The rumors affected the Halloween
 tradition nationwide. Parents carefully examined their
 children’s candy bags. Schools opened their doors at night so
 that kids could trick-or-treat in a safe environment. Hospitals
@@ -514,8 +505,7 @@ this day, many parents warn their children not to eat any
 snacks that aren’t prepackaged. This is a sad story: a family
 holiday sullied by bad people who, inexplicably, wish to
 harm children. But in 1985 the story took a strange twist.
-Researchers discovered something shocking about the candy-
-tampering epidemic: It was a myth.
+Researchers discovered something shocking about the candytampering epidemic: It was a myth.
 The researchers, sociologists Joel Best and Gerald
 Horiuchi, studied every reported Halloween incident since
 1958. They found no instances where strangers caused
@@ -528,14 +518,14 @@ uncle’s heroin stash and overdosed. His relatives initially
 
 tried to cover their tracks by sprinkling heroin on his candy.
 In another case, a father, hoping to collect on an insurance
-settlement, 
-caused 
-the 
-death 
-of 
-his 
-own 
-son 
+settlement,
+caused
+the
+death
+of
+his
+own
+son
 by
 contaminating his candy with cyanide.
 In other words, the best social science evidence reveals
@@ -655,11 +645,11 @@ we’re trying to build a case for something, most of us
 instinctively grasp for hard numbers. But in many cases this
 is exactly the wrong approach. In the sole U.S. presidential
 debate in 1980 between Ronald Reagan and Jimmy Carter,
-Reagan 
-could 
-have 
-cited 
-innumerable 
+Reagan
+could
+have
+cited
+innumerable
 statistics
 demonstrating the sluggishness of the economy. Instead, he
 asked a simple question that allowed voters to test for
@@ -817,13 +807,13 @@ stereotype—the “creative genius,” the kind of person who
 thinks up slogans in a hot advertising agency. Maybe, like us,
 you picture someone with gelled hair and hip clothing,
 carrying a dog-eared notebook full of ironies and epiphanies,
-ready 
-to 
-drop 
-everything 
-and 
-launch 
-a 
+ready
+to
+drop
+everything
+and
+launch
+a
 four-hour
 brainstorming session in a room full of caffeine and
 whiteboards. Or maybe your stereotype isn’t quite so
@@ -886,21 +876,21 @@ experienced creative director, who didn’t know how the
 group had been trained, selected its top fifteen ads. Then
 those ads were tested by consumers. The group’s ads stood
 out: Consumers rated them as “annoying.” (Could this be the
-long-awaited 
-explanation 
-for 
-the 
-ads 
-of 
-local 
+long-awaited
+explanation
+for
+the
+ads
+of
+local
 car
 dealerships?)
 A second group was trained for two hours by an
-experienced 
-creativity 
-instructor 
-who 
-showed 
+experienced
+creativity
+instructor
+who
+showed
 the
 participants how to use a free-association brainstorming
 method. This technique is a standard method for teaching
@@ -941,13 +931,12 @@ the confines of the rules that have allowed other ideas to
 succeed over time. You want to invent new ideas, not new
 rules.
 This book can’t offer a foolproof recipe. We’ll admit it up
-front: We won’t be able to show you how to get twelve-year-
-olds to gossip about mitosis around the campfire. And in all
-likelihood 
-your 
-process-improvement 
-memo 
-will 
+front: We won’t be able to show you how to get twelve-yearolds to gossip about mitosis around the campfire. And in all
+likelihood
+your
+process-improvement
+memo
+will
 not
 circulate decades from now as a proverb in another culture.
 But we can promise you this: Regardless of your level of
@@ -1108,8 +1097,7 @@ of course. For instance, in 1996 Southwest received 124,000
 applications for 5,444 openings. It’s known as a great place to work,
 
 
-which is surprising. It’s not supposed to be fun to work for penny-
-pinchers. It’s hard to imagine Wal-Mart employees giggling their way
+which is surprising. It’s not supposed to be fun to work for pennypinchers. It’s hard to imagine Wal-Mart employees giggling their way
 through the workday.
 Yet somehow Southwest has pulled it off. Let’s think about the ideas
 driving Southwest Airlines as concentric circles. The central circle, the
@@ -1120,8 +1108,7 @@ low-fare airline. A new employee can easily put these ideas together
 to realize how to act in unscripted situations. For instance, is it all
 right to joke about a flight attendant’s birthday over the P.A.? Sure. Is
 it equally okay to throw confetti in her honor? Probably not—the
-confetti would create extra work for cleanup crews, and extra clean-
-up time means higher fares. It’s the lighthearted business equivalent
+confetti would create extra work for cleanup crews, and extra cleanup time means higher fares. It’s the lighthearted business equivalent
 of the foot soldier who improvises based on the Commander’s Intent.
 A well-thought-out simple idea can be amazingly powerful in shaping
 behavior.
@@ -1158,8 +1145,7 @@ The inverted pyramid is great for readers. No matter what the
 reader’s attention span—whether she reads only the lead or the entire
 story—the inverted pyramid maximizes the information she gleans.
 Think of the alternative: If news stories were written like mysteries,
-with a dramatic payoff at the end, then readers who broke off in mid-
-story would miss the point. Imagine waiting until the last sentence of
+with a dramatic payoff at the end, then readers who broke off in midstory would miss the point. Imagine waiting until the last sentence of
 a story to find out who won the presidential election or the Super
 Bowl.
 The inverted pyramid also allows newspapers to get out the door on
@@ -1426,8 +1412,7 @@ simply an interesting red herring. (In fact, the text acknowledges
 as much when it says, “Whether a tan suggests status or not …”)
 To us, Paragraph 5 flashes in neon lights as the core: Skin damage
 … is cumulative over the years and cannot be reversed. Wow. Isn’t
-that the single most important thing we’d want to tell sun-
-worshippers? By contrast, Paragraphs 2-4 provide superfluous
+that the single most important thing we’d want to tell sunworshippers? By contrast, Paragraphs 2-4 provide superfluous
 mechanics. As an analogy, do smokers really need to understand
 the workings of the lungs in order to appreciate the dangers of
 smoking?
@@ -1471,7 +1456,7 @@ they may disappear, but the underlying damage does not.
 SCORECARD
 Checklist
 Message
-1   
+
 Message 2
 Simple
 -   
@@ -1676,13 +1661,13 @@ a “bird in hand” advertising campaign. It spreads on its own. Many
 other proverbs share this longevity. In fact, a repertoire of proverbs
 has been found in almost every documented culture. Why? What is
 their purpose?
-Proverbs 
-are 
-helpful 
-in 
-guiding 
-individual 
-decisions 
+Proverbs
+are
+helpful
+in
+guiding
+individual
+decisions
 in
 environments with shared standards. Those shared standards are often
 ethical or moral norms. Proverbs offer rules of thumb for the behavior
@@ -1836,12 +1821,12 @@ The Pomelo Schema
 So far we have presented situations in which one simple idea, or a
 handful of simple ideas, were useful in guiding behavior. But, let’s
 face it, most people in the world do complicated things. It’s not our
-intention 
-to 
-argue 
-that 
-complicated 
-things—law, 
+intention
+to
+argue
+that
+complicated
+things—law,
 medicine,
 construction, programming, teaching—can be pared down to two or
 three compact messages. We obviously can’t replace a school of
@@ -1884,8 +1869,7 @@ with generic properties. You know what “sports cars” are like. You
 picture something small and two-door, with a convertible top perhaps.
 If the car in your picture moves, it moves fast. Its color is almost
 certainly red. Similarly, your schema of “grapefruit” also contains a
-cluster of generic properties: yellow-pink color, tart flavor, softball-
-sized, and so on.
+cluster of generic properties: yellow-pink color, tart flavor, softballsized, and so on.
 By calling up your grapefruit schema, we were able to teach you the
 concept of pomelo much faster than if we had mechanically listed all
 the attributes of a pomelo. Note, too, that it’s easier to answer the
@@ -2103,8 +2087,7 @@ is so useful that just by reading the last few paragraphs you can
 probably predict how cast members should behave in situations we
 haven’t discussed. For instance, you can probably guess that
 employees are not allowed to be on break while in costume and in a
-public area. (An actor would never have a chat and a cigarette in mid-
-scene.) You might guess that street sweepers are evaluated on criteria
+public area. (An actor would never have a chat and a cigarette in midscene.) You might guess that street sweepers are evaluated on criteria
 other than the cleanliness of their sidewalks. Indeed, street sweepers
 are some of the most highly trained cast members, since their very
 visible public presence—coupled with the fact that they are clearly
@@ -2123,8 +2106,7 @@ counter help to behave like artists. The defining trait of an “artist” is
 individual expression. We wonder how long an employee would last
 at Subway if she exhibited a lot of individual expression—in dress, in
 interaction, in the presentation of sandwiches. No doubt Subway’s
-sandwich artists are trusted to place a handful of onions on a twelve-
-inch sub, and it’s true that this is a certain kind of liberty. But one
+sandwich artists are trusted to place a handful of onions on a twelveinch sub, and it’s true that this is a certain kind of liberty. But one
 suspects that the counter person’s “artistry” can’t extend to adding an
 extra slice of turkey.
 The Power of Simplicity
@@ -2228,11 +2210,11 @@ glasses of water a day! Urban legends frequently contain
 surprising plot twists.
 Interest keeps our attention. There are classes of sticky
 ideas that maintain our interest over time. Conspiracy
-theories 
-keep 
-people 
-ravenously 
-collecting 
+theories
+keep
+people
+ravenously
+collecting
 new
 information. Gossip keeps us coming back to our friends
 for developments.
@@ -2250,8 +2232,7 @@ everywhere. Dad starts the car and pulls away from the curb. “It’s a
 minivan to the max.”
 The minivan cruises slowly through suburban streets. “With
 features like remote-controlled sliding rear doors, 150 cable channels,
-a full sky-view roof, temperature-controlled cup holders, and the six-
-point navigation system … It’s the minivan for families on the go.”
+a full sky-view roof, temperature-controlled cup holders, and the sixpoint navigation system … It’s the minivan for families on the go.”
 The Enclave pulls to a stop at an intersection. The camera zooms in
 on the boy, gazing out a side window that reflects giant, leafy trees.
 Dad pulls into the intersection.
@@ -2348,8 +2329,7 @@ power of big surprises.
 Avoiding Gimmickry
 Going for a big surprise, though, can cause a big problem. It’s easy to
 step over the line into gimmickry.
-The late 1990s was the heyday of the dot-com bubble. Venture-
-backed start-ups poured millions of dollars into advertising to
+The late 1990s was the heyday of the dot-com bubble. Venturebacked start-ups poured millions of dollars into advertising to
 establish their brands. With increasing amounts of money chasing a
 finite amount of consumer attention, ads had to work harder and
 harder to provoke surprise and interest.
@@ -2401,8 +2381,7 @@ how surprise can make our ideas stickier. But although HENSION and
 BARDLE are surprising, they aren’t sticky; they’re just frustrating.
 What we see now is that surprise isn’t enough. We also need insight.
 To be surprising, an event can’t be predictable. Surprise is the
-opposite of predictability. But, to be satisfying, surprise must be “post-
-dictable.” The twist makes sense after you think about it, but it’s not
+opposite of predictability. But, to be satisfying, surprise must be “postdictable.” The twist makes sense after you think about it, but it’s not
 something you would have seen coming. PHRAUG is post-dictable,
 but HENSION isn’t. Contrast the feeling you get from TV shows or
 films, such as The Sixth Sense, that have great surprise endings—
@@ -2428,8 +2407,7 @@ message. We’ve already seen a few examples of this strategy.
 In Chapter 1, we discussed Hoover Adams, the newspaper publisher
 whose mantra is “Names, names, and names.” To most local
 newspaper reporters, this mantra will seem like common sense.
-Certainly, their schemas of “good local news” involve community-
-focused stories.
+Certainly, their schemas of “good local news” involve communityfocused stories.
 But that wasn’t Adams’s point. He had something much more
 radical in mind. So he broke their schema by saying, essentially, “If I
 could, I’d publish pages from the phone book to get names. In fact, if I
@@ -2676,8 +2654,7 @@ Message 2
 Simple
 -
 Unexpected   
-(B-
-2 comparison)   
+(B2 comparison)   
 (intro &
 comparison)
 Concrete
@@ -2899,8 +2876,7 @@ preparing a summary presentation for the theater’s board of
 directors.
 • • •
 MESSAGE 1: (Both messages in this Clinic are made up.)
-This year we targeted support from theatergoers under thirty-
-five. Our goal is to increase donations from younger patrons, who
+This year we targeted support from theatergoers under thirtyfive. Our goal is to increase donations from younger patrons, who
 have traditionally composed a much greater percentage of our
 audience than of our donor base. To reach them, we
 implemented a phone-based fund-raising program. Six months
@@ -2940,7 +2916,7 @@ inherently appealing.
 SCORECARD
 Checklist
 Message
-1   
+
 Message 2
 Simple
 -   
@@ -3027,8 +3003,7 @@ to focus on what we don’t know. Someone who knows the state
 capitals of 17 of 50 states may be proud of her knowledge. But
 someone who knows 47 may be more likely to think of herself as not
 knowing 3 capitals.
-Some topics naturally highlight gaps in our knowledge. Human-
-interest stories are fascinating because we know what it’s like to be
+Some topics naturally highlight gaps in our knowledge. Humaninterest stories are fascinating because we know what it’s like to be
 human—but we don’t know what it’s like to have certain dramatic
 experiences. How does it feel to win an Olympic medal? How does it
 feel to win the Lotto? How did it feel to be conjoined twins Chang and
@@ -3052,8 +3027,7 @@ But ABC could show only a few games each week in each region. For
 ABC’s bet to pay off, it needed to make viewers care about games that
 didn’t involve their home teams.
 How do you go about making viewers in College Station, Texas,
-care about the Michigan vs. Ohio State matchup? A twenty-nine-year-
-old named Roone Arledge, whose previous responsibilities primarily
+care about the Michigan vs. Ohio State matchup? A twenty-nine-yearold named Roone Arledge, whose previous responsibilities primarily
 involved assigning crews to cover baseball, boxing, and football
 games, wrote a memo suggesting ways to improve the coverage of
 college football games.
@@ -3118,8 +3092,7 @@ Many teachers use some version of the Arledge tool kit to prime
 
 their students’ interest. Some label the strategy “advanced
 organizers.” The idea is that to engage students in a new topic you
-should start by highlighting some things they already know. An earth-
-science teacher might ask her students to bring in pictures of an
+should start by highlighting some things they already know. An earthscience teacher might ask her students to bring in pictures of an
 earthquake’s devastation, as a way of leading up to a discussion of
 plate tectonics. Alternatively, the teacher can set the context, à la
 Arledge, so that students start to become interested. A chemistry
@@ -3322,20 +3295,20 @@ What the world needs is a lot more fables. On the Web, a satirical
 site features a “Business Buzzword Generator.” Readers can produce
 their own business buzzwords by combining one word each from
 three columns, which yields phrases like “reciprocal cost-based
-reengineering,” 
-“customer-oriented 
-visionary 
-paradigm,” 
+reengineering,”
+“customer-oriented
+visionary
+paradigm,”
 and
 “strategic logistical values.” (All of these sound eerily plausible as
 buzzwords, by the way.) Teachers have their own buzzwords:
 metacognitive skills, intrinsic motivation, portfolio assessment,
 developmentally appropriate, thematic learning. And if you’ve ever
 talked to a doctor, we don’t even have to provide examples. Our
-favorite 
-from 
-medicine: 
-“idiopathic 
+favorite
+from
+medicine:
+“idiopathic
 cardiomyopathy.”
 “Cardiomyopathy” means something is wrong with your heart, and
 “idiopathic” means “we have no idea why yours isn’t working.”
@@ -3586,8 +3559,7 @@ Let’s skip to the modern world and another timeless and beautiful
 domain of expression: accounting. Put yourself in the shoes of an
 accounting professor who has to introduce accounting principles to
 college students. To a new student, accounting can seem
-bewilderingly abstract—the income statement, the balance sheet, T-
-accounts, accounts receivable, treasury stock. No people or sensory
+bewilderingly abstract—the income statement, the balance sheet, Taccounts, accounts receivable, treasury stock. No people or sensory
 data in sight.
 As the teacher, how do you make accounting concepts vivid? Two
 professors from Georgia State University, Carol Springer and Faye
@@ -3731,8 +3703,7 @@ could not understand who would want him dead, or why.
 Elliott said, “I knew it was time to deal with this in a concrete way,
 because we’d talked about discrimination since the first day of school.
 But the shooting of Martin Luther King, one of our ‘Heroes of the
-Month’ two months earlier, couldn’t be explained to little third-
-graders in Riceville, Iowa.”
+Month’ two months earlier, couldn’t be explained to little thirdgraders in Riceville, Iowa.”
 She came to class the next day with a plan: She aimed to make
 prejudice tangible to her students. At the start of class, she divided the
 students into two groups: brown-eyed kids and blue-eyed kids. She
@@ -3744,8 +3715,7 @@ They were given extra time at recess. The blue-eyed kids had to wear
 special collars, so that everyone would know their eye color from a
 distance. The two groups were not allowed to mix at recess.
 Elliott was shocked at how quickly the class was transformed. “I
-watched those kids turn into nasty, vicious, discriminating third-
-graders … it was ghastly,” she said. “Friendships seemed to dissolve
+watched those kids turn into nasty, vicious, discriminating thirdgraders … it was ghastly,” she said. “Friendships seemed to dissolve
 instantly, as brown-eyed kids taunted their blue-eyed former friends.
 One brown-eyed student asked Elliott how she could be the teacher “if
 you’ve got dem blue eyes.”
@@ -3815,14 +3785,14 @@ capable of seeing a higher level of insight, they naturally want to talk
 on a higher level. They want to talk about chess strategies, not about
 bishops moving diagonally.
 And here is where our classic villain, the Curse of Knowledge,
-inserts 
-itself. 
-A 
-researcher 
-named 
-Beth 
-Bechky 
-studied 
+inserts
+itself.
+A
+researcher
+named
+Beth
+Bechky
+studied
 a
 manufacturing firm that designed and built the complicated
 machinery used to produce silicon chips. To build such machinery, the
@@ -3868,11 +3838,11 @@ how do you fix it? Should both parties learn greater empathy for the
 other and, in essence, meet in the middle? Actually, no. The solution
 is for the engineers to change their behavior. Why? As Bechky notes,
 the physical machine was the most effective and relevant domain of
-communication. 
-Everyone 
-understands 
-the 
-machines 
+communication.
+Everyone
+understands
+the
+machines
 fluently.
 Therefore problems should be solved at the level of the machine.
 It’s easy to lose awareness that we’re talking like an expert. We start
@@ -3954,8 +3924,7 @@ Back inside their hotel room at the end of the day, there was a final
 twist: A digital picture frame had automatically downloaded a picture
 of them as they rode a Disney World roller coaster.
 Stone Yamashita, working with HP’s engineers, turned a message
-about the benefits of collaboration—what could have been a Power-
-Point presentation—into a living, breathing simulation. Stone
+about the benefits of collaboration—what could have been a PowerPoint presentation—into a living, breathing simulation. Stone
 Yamashita put hooks into the idea of e-services. They took an abstract
 idea and made it concrete with an intense sensory experience.
 Note that there were two different audiences for the exhibit. The
@@ -4024,16 +3993,15 @@ its bestselling Lotus 1-2-3 spreadsheet, became a stock market darling.
 Now Kaplan was ready for the next challenge. He had a vision for a
 smaller, more portable generation of personal computers.
 He hung around outside the conference room as the previous
-entrepreneur 
-finished 
-his 
-presentation. 
-Watching 
-the 
+entrepreneur
+finished
+his
+presentation.
+Watching
+the
 other
 entrepreneur, he felt underprepared. As he observed, his nervousness
-advanced toward panic. The other entrepreneur wore a dark pin-
-striped suit with a red power tie. Kaplan had on a sport jacket with an
+advanced toward panic. The other entrepreneur wore a dark pinstriped suit with a red power tie. Kaplan had on a sport jacket with an
 open-collared shirt. The other entrepreneur was projecting an
 impressive color graph onto the whiteboard. Kaplan was carrying a
 maroon portfolio with a blank pad of paper inside. This did not bode
@@ -4140,8 +4108,7 @@ you were a health official in a developing nation. What would
 you do tomorrow to start saving kids?
 To be fair, this message appears on a Web page that describes
 what PSI has been doing to solve this problem. The text doesn’t
-necessarily reflect how the organization might approach decision-
-makers to persuade them to act. The information is written in
+necessarily reflect how the organization might approach decisionmakers to persuade them to act. The information is written in
 language that creates credibility; there is lots of scientific
 language and exposition. If the problem sounds too complex,
 however, that could deter people from trying to solve it.
@@ -4186,7 +4153,7 @@ and not start brainstorming about the possibilities.
 SCORECARD
 Checklist
 Message
-1   
+
 Message 2
 Simple
 -   
@@ -4341,15 +4308,13 @@ focused on mitigating the painful symptoms, since there was no clear
 way to “cure” an ulcer.
 In the early 1980s, two medical researchers from Perth, Australia,
 made an astonishing discovery: Ulcers are caused by bacteria. The
-researchers, Barry Marshall and Robin Warren, identified a tiny spiral-
-shaped type of bacteria as the culprit. (It would later be named
+researchers, Barry Marshall and Robin Warren, identified a tiny spiralshaped type of bacteria as the culprit. (It would later be named
 Helicobacter pylori, or H. pylori.) The significance of this discovery was
 enormous: If ulcers were caused by bacteria, they could be cured. In
 fact, they could be cured within a matter of days by a simple
 treatment with antibiotics.
 The medical world, however, did not rejoice. There were no
-celebrations for Marshall and Warren, who had almost single-
-handedly improved the health prospects of several hundred million
+celebrations for Marshall and Warren, who had almost singlehandedly improved the health prospects of several hundred million
 human beings. The reason for the lack of acclaim was simple: No one
 believed them.
 There were several problems with the bacteria story. The first
@@ -4471,8 +4436,7 @@ credentials: Oliver Sachs for neuroscience, Alan Greenspan for
 economics, or Stephen Hawking for physics.
 Celebrities and other aspirational figures make up the second class
 of “authorities.” Why do we care that Michael Jordan likes
-McDonald’s? Certainly he is not a certified nutritionist or a world-
-class gourmet. We care because we want to be like Mike, and if Mike
+McDonald’s? Certainly he is not a certified nutritionist or a worldclass gourmet. We care because we want to be like Mike, and if Mike
 likes McDonald’s, so do we. If Oprah likes a book, it makes us more
 interested in that book. We trust the recommendations of people
 whom we want to be like.
@@ -4482,8 +4446,7 @@ If you have access to the endorsement of Stephen Hawking or
 Michael Jordan—renowned experts or celebrities—skip this part of
 the chapter. As for the rest of us, whom can we call on? Can we find
 external sources of credibility that don’t involve celebrities or experts?
-The answer, surprisingly, is yes. We can tap the credibility of anti-
-authorities. One antiauthority was a woman named Pam Laffin.
+The answer, surprisingly, is yes. We can tap the credibility of antiauthorities. One antiauthority was a woman named Pam Laffin.
 Pam Laffin, the Antiauthority
 Pam Laffin was the star of a series of antismoking TV ads that were
 broadcast in the mid-1990s. Laffin is not a celebrity and she’s not a
@@ -4517,8 +4480,7 @@ subject of an MTV documentary. The Centers for Disease Control
 
 
 A
-features her story in an antismoking Web campaign and a twenty-
-minute educational video titled I Can’t Breathe.
+features her story in an antismoking Web campaign and a twentyminute educational video titled I Can’t Breathe.
 She died in November 2000 at the age of thirty-one, three weeks
 before she was scheduled for a second lung transplant.
 fter hearing Laffin’s story you’re probably not surprised that she
@@ -4577,8 +4539,7 @@ is faking in order to make out with her, but soon she realizes they’re
 really stuck. The boyfriend decides to walk to the nearest house for
 help, and the girl stays behind. He has been gone for a long time—it
 feels like hours—and the girl is frightened by a creepy scratching
-coming from the roof of the car, possibly the scrapings of a low-
-hanging tree branch. After several hours of anxious waiting, the girl
+coming from the roof of the car, possibly the scrapings of a lowhanging tree branch. After several hours of anxious waiting, the girl
 gets out of the car to discover—cue the horror music!—her boyfriend,
 murdered and hanging from the tree above the car. His toes scrape
 the roof as he swings in the wind.
@@ -4662,8 +4623,7 @@ workshop, the leaders from the LLDE maintained that one of their
 core values was “diversity.”
 “Come on,” scoffed one of the professors, suspecting an
 exaggeration. “Everyone claims that they value diversity, but you’re a
-dance company. You’re probably filled with a bunch of twenty-five-
-year-old dancers, all of them tall and thin. Some of them are probably
+dance company. You’re probably filled with a bunch of twenty-fiveyear-old dancers, all of them tall and thin. Some of them are probably
 people of color, but is that diversity?” Other people in the audience,
 unfamiliar with the LLDE, nodded at this skeptical response.
 Peter DiMuro, the artistic director of the LLDE, responded with an
@@ -4876,12 +4836,10 @@ human-scale principle allows us to bring our intuition to bear in
 assessing whether the content of a message is credible.
 tatistics are a good source of internal credibility when they are used
 to illustrate relationships. In the introduction of this book, we
-discussed the example of the CSPI’s campaign against saturated-fat-
-loaded movie popcorn. The relevant statistic was that a medium-sized
+discussed the example of the CSPI’s campaign against saturated-fatloaded movie popcorn. The relevant statistic was that a medium-sized
 bag of popcorn had 37 grams of saturated fat. So what? Is that good
 or bad?
-Art Silverman, of the CSPI, cleverly placed the popcorn’s saturated-
-fat content in a relevant context for comparison. He said that one bag
+Art Silverman, of the CSPI, cleverly placed the popcorn’s saturatedfat content in a relevant context for comparison. He said that one bag
 of popcorn was equivalent to a whole day’s worth of unhealthy eating.
 Silverman knew that most people would be appalled by this finding.
 What if Silverman had been a sleazebag? He could have picked a
@@ -4994,7 +4952,7 @@ us have at least a mild fear of drowning.)
 SCORECARD
 Checklist
 Message
-1   
+
 Message 2
 Simple
    
@@ -5373,7 +5331,7 @@ yourself.
 SCORECARD
 Checklist
 Message
-1   
+
 Message 2
 Simple
    
@@ -5503,8 +5461,7 @@ More than 11 million people in Ethiopia need immediate
 food assistance.
 The other version of the letter gave information about a single
 young girl:
-Any money that you donate will go to Rokia, a seven-
-year-old girl from Mali, Africa. Rokia is desperately poor
+Any money that you donate will go to Rokia, a sevenyear-old girl from Mali, Africa. Rokia is desperately poor
 and faces the threat of severe hunger or even starvation.
 Her life will be changed for the better as a result of your
 financial gift. With your support, and the support of
@@ -5635,8 +5592,7 @@ Meanwhile, another series of antismoking ads started to run. As part
 of the tobacco settlement, Philip Morris agreed to air its own series of
 antismoking ads. The Philip Morris tagline was “Think. Don’t Smoke.”
 Two campaigns were launched, almost simultaneously, with two
-different approaches. This juxtaposition set up an exciting, head-to-
-head horse race in the marketplace of ideas. In fact, in June 2002, an
+different approaches. This juxtaposition set up an exciting, head-tohead horse race in the marketplace of ideas. In fact, in June 2002, an
 article in the American Journal of Public Health surveyed 10,692
 teenagers to compare the Truth campaign with “Think. Don’t Smoke.”
 It turns out that some horses run better than others. When kids
@@ -5667,8 +5623,7 @@ What happened here? It’s the Save the Children example revisited.
 What is the “Think. Don’t Smoke” campaign about? Er, thinking. It’s
 the Analytical Hat. Remember what happened with contributions to
 Rokia when donors were asked to think analytically before donating?
-What’s the Truth campaign about? It’s about tapping into anti-
-authority resentment, the classic teenage emotion. Once, teens
+What’s the Truth campaign about? It’s about tapping into antiauthority resentment, the classic teenage emotion. Once, teens
 smoked to rebel against The Man. Thanks to the ingenious framing of
 the Truth campaign—which paints a picture of a duplicitous Big
 Tobacco—teens now rebel against The Man by not smoking.
@@ -5737,8 +5692,7 @@ this overuse “semantic stretch.”
 Let’s look at a nonscientific example: the word “unique.” “Unique”
 used to mean one of a kind. “Unique” was special.
 The researchers used a database to examine every newspaper article
-in each of the top fifty newspapers in the United States over a twenty-
-year period. During this time, the percentage of articles in which
+in each of the top fifty newspapers in the United States over a twentyyear period. During this time, the percentage of articles in which
 something was described as “unique” increased by 73 percent. So
 either there’s a lot more unique stuff in the world today or the
 “uniqueness bar” has been lowered.
@@ -5801,13 +5755,13 @@ bad: ‘Don’t yell at officials. Don’t break the rules.’ But it’s not en
 to simply refuse to do bad things. We need to expect much more of
 participants in youth sports. Unfortunately, ‘Be a good sport!’ is not
 the rallying cry that we need to transform youth sports.”
-Everyone 
-enjoys 
-hearing 
-about 
-real 
-examples 
-of 
+Everyone
+enjoys
+hearing
+about
+real
+examples
+of
 good
 sportsmanship. Thompson uses the example of Lance Armstrong, who
 reacted unexpectedly when one of his chief opponents, Jan Ullrich,
@@ -5938,15 +5892,15 @@ How You Can Improve Your Memory in One Evening
 Retire at 55
 Caples says companies often emphasize features when they should
 be emphasizing benefits. “The most frequent reason for unsuccessful
-advertising 
-is 
-advertisers 
-who 
-are 
-so 
-full 
-of 
-their 
+advertising
+is
+advertisers
+who
+are
+so
+full
+of
+their
 own
 accomplishments (the world’s best seed!) that they forget to tell us
 why we should buy (the world’s best lawn!).” An old advertising
@@ -6075,15 +6029,14 @@ research in psychology about what motivates people. He boiled down
 volumes of existing research to a list of needs and desires that people
 try to fulfill:
 Transcendence: help others realize their potential
-Self-actualization: realize our own potential, self-
-fulfillment, peak experiences
+Self-actualization: realize our own potential, selffulfillment, peak experiences
 Aesthetic: symmetry, order, beauty, balance
 Learning: know, understand, mentally connect
-Esteem: 
-achieve, 
-be 
-competent, 
-gain 
+Esteem:
+achieve,
+be
+competent,
+gain
 approval,
 independence, status
 Belonging: love, family, friends, affection
@@ -6296,8 +6249,7 @@ may matter to us even when they violate our immediate self-interest.
 We may dislike hearing the views of some fringe political group but
 support its right to speak because we treasure free speech.
 And perhaps the most important part of the story is this: “Group
-interest” is often a better predictor of political opinions than self-
-interest. Kinder says that in forming opinions people seem to ask not
+interest” is often a better predictor of political opinions than selfinterest. Kinder says that in forming opinions people seem to ask not
 “What’s in it for me?” but, rather, “What’s in it for my group?” Our
 group affiliation may be based on race, class, religion, gender, region,
 political party, industry, or countless other dimensions of difference.
@@ -6466,11 +6418,11 @@ learning algebra makes you realize more of your potential.
 SCORECARD
 Checklist   
 Msg.
-1   
+
 Msg.
-2   
+
 Msg.
-3
+
 Simple
 -   
 -   
@@ -6520,8 +6472,7 @@ Syrek knew that this type of messaging wouldn’t solve Texas’s
 problem. In his view, those kinds of ads are just “preaching to the
 choir.” What Texas needed to do was reach people who weren’t
 inclined to shed tears over roadside trash. The profile of the typical
-litterer in Texas was an eighteen- to thirty-five-year-old, pickup-
-driving male who liked sports and country music. He didn’t like
+litterer in Texas was an eighteen- to thirty-five-year-old, pickupdriving male who liked sports and country music. He didn’t like
 authority and he wasn’t motivated by emotional associations with
 cuddly owls. One member of the Texas Department of Transportation
 said, “Saying ‘please’ to these guys falls on deaf ears.”
@@ -6564,8 +6515,7 @@ Texas thing to do.” He demonstrates his “split-fingered trashball,”
 hurling some litter into a roadside can, which explodes with a pillar of
 fire. Subtle stuff.
 The campaign featured athletes and musicians, most of whom
-probably weren’t household names outside Texas but were all well-
-known to Texans as Texans: Houston Oiler quarterback Warren Moon,
+probably weren’t household names outside Texas but were all wellknown to Texans as Texans: Houston Oiler quarterback Warren Moon,
 boxer George Foreman, blues guitarist Stevie Ray Vaughan, and
 country artist Jerry Jeff Walker. Willie Nelson contributed an ad with
 the line “Mamas, tell all your babies, ‘Don’t mess with Texas.’”
@@ -6757,8 +6707,7 @@ monitored. She’d been watching one baby in particular for
 several hours, and she didn’t like what she was seeing. His color, a
 key indicator of potential problems, had been fluctuating—wavering
 between a healthy shade of pink and a duller, more troublesome hue.
-Suddenly, within a matter of seconds, the baby turned a deep blue-
-black. The nurse’s stomach fell. Others in the ICU yelled for an X-ray
+Suddenly, within a matter of seconds, the baby turned a deep blueblack. The nurse’s stomach fell. Others in the ICU yelled for an X-ray
 technician and a doctor.
 The gathering medical team was operating on the assumption that
 the baby’s lung had collapsed, a common problem for babies on
@@ -6766,12 +6715,12 @@ ventilators. The team prepared for the typical response to a collapsed
 lung, which involves piercing the chest and inserting a tube to suck
 the air from around the collapsed lung, allowing it to reinflate.
 But the nurse thought it was a heart problem. As soon as she saw
-the 
-baby’s 
-color—that 
-awful 
-blue-black—she 
-suspected 
+the
+baby’s
+color—that
+awful
+blue-black—she
+suspected
 a
 pneumopericardium, a condition in which air fills the sac surrounding
 the heart, pressing inward and preventing the heart from beating. The
@@ -6805,12 +6754,12 @@ the heart from actually beating. Only when the nurse used the
 stethoscope—so she could hear whether the heart was pumping
 correctly—did it become clear that his heart had stopped.
 his story was collected by Gary Klein, a psychologist who studies
-how 
-people 
-make 
-decisions 
-in 
-high-pressure, 
+how
+people
+make
+decisions
+in
+high-pressure,
 high-stakes
 environments. He spends time with firefighters, air-traffic controllers,
 powerplant operators, and intensive-care workers. The story about the
@@ -6900,8 +6849,7 @@ Shop talk conveys important clues about how to respond to the world.
 It teaches nurses not to have blind faith in heart monitors. It teaches
 copy repairmen to beware of the misleading E053 code.
 But the stories above aren’t simply transferring nuggets of
-information. The Xerox story is not functionally equivalent to an e-
-mail sent around the company that contains the line “Watch out for
+information. The Xerox story is not functionally equivalent to an email sent around the company that contains the line “Watch out for
 false E053 codes related to burned-out dicorotrons.” Something more
 profound is happening here. It will take a bit of unpacking to reveal
 the additional value that these stories bring.
@@ -7003,8 +6951,7 @@ advantage had grown wider. They were more likely to have taken
 specific action to solve their problems. They were more likely to have
 sought advice and support from others. They were more likely to
 report that they had learned something and grown.
-You may find these results a bit counterintuitive, because the pop-
-psychology literature is full of gurus urging you to visualize success. It
+You may find these results a bit counterintuitive, because the poppsychology literature is full of gurus urging you to visualize success. It
 turns out that a positive mental attitude isn’t quite enough to get the
 job done. Maybe financial gurus shouldn’t be telling us to imagine
 that we’re filthy rich; instead, they should be telling us to replay the
@@ -7179,7 +7126,7 @@ a person than a list of bulleted instructions.
 SCORECARD
 Checklist
 Message
-1   
+
 Message 2
 Simple
 -   
@@ -7195,7 +7142,7 @@ Emotional
 -   
 Story
 -   
-PUNCH 
+PUNCH
 LINE: A few stories like Professor Buckman’s—flight
 simulators for reining in problem students—would be much more
 interesting and effective in training professors than the list of
@@ -7293,8 +7240,7 @@ story on our hands.
 And that’s when the Jared story hit another hurdle. Ad agency
 president Krause called Subway’s marketing director to unveil the tale
 of Jared, but the marketing director wasn’t impressed. He had just
-started his job at Subway, having previously worked for another fast-
-food company. “I’ve seen that before,” he said. “Fast foods can’t do
+started his job at Subway, having previously worked for another fastfood company. “I’ve seen that before,” he said. “Fast foods can’t do
 healthy.” The marketing director preferred to launch a campaign
 focused on the taste of Subway’s sandwiches.
 To satisfy Krause, though, the director ran the Jared campaign idea
@@ -7505,8 +7451,7 @@ THE CHALLENGE PLOT
 The story of David and Goliath is the classic Challenge plot. A
 protagonist overcomes a formidable challenge and succeeds. David
 fells a giant with his homemade slingshot. There are variations of the
-Challenge plot that we all recognize: the underdog story, the rags-to-
-riches story, the triumph of sheer willpower over adversity.
+Challenge plot that we all recognize: the underdog story, the rags-toriches story, the triumph of sheer willpower over adversity.
 The key element of a Challenge plot is that the obstacles seem
 daunting to the protagonist. Jared slimming down to 180 pounds is a
 Challenge plot. Jared’s 210-pound neighbor shaving an inch off his
@@ -7600,13 +7545,13 @@ products to market. One employee, frustrated by the average four-
 
 year product life cycle, said, “It was taking us longer to introduce a
 new product than it took our nation to fight World War II.”
-Ingersoll-Rand 
-decided 
-to 
-do 
-something 
-about 
-the 
+Ingersoll-Rand
+decided
+to
+do
+something
+about
+the
 slow
 development cycle. The company created a project team whose goal
 was to produce a new grinder in a year—one quarter the usual time.
@@ -7621,8 +7566,7 @@ The traditional Ingersoll-Rand method of solving this problem
 would have been to conduct protracted, careful studies of the tensile
 and compression properties of both materials. But this was the
 Grinder Team. They were supposed to act quickly. A few members of
-the team cooked up a less formal testing procedure. While on an off-
-site customer visit, the team members tied a sample of each material
+the team cooked up a less formal testing procedure. While on an offsite customer visit, the team members tied a sample of each material
 to the back bumper of their rental car, then drove around the parking
 lot with the materials dragging behind. They kept this up until the
 police came and told them to knock it off. The verdict was that the
@@ -7664,8 +7608,7 @@ when life is giving you a gift.
 Stories at the World Bank
 In 1996, Stephen Denning was working for the World Bank, the
 international institution that lends money to developing countries for
-infrastructure projects such as building schools, roads, and water-
-treatment facilities. At the time, he managed the bank’s work in Africa
+infrastructure projects such as building schools, roads, and watertreatment facilities. At the time, he managed the bank’s work in Africa
 —the third-largest area of the bank—and seemed to be on a fast track
 to the top of the organization.
 Then one of his two main mentors retired and the second left.
@@ -7683,8 +7626,7 @@ countries all over the world—and while there was a central
 bureaucracy, much of the operational know-how was naturally at the
 
 
-local level. Each project was, in a sense, its own universe. A water-
-treatment guru in Zambia might have figured out a great way to
+local level. Each project was, in a sense, its own universe. A watertreatment guru in Zambia might have figured out a great way to
 handle local political negotiations, but he was unlikely to have the
 opportunity to share it with a highway-construction guru in
 Bangladesh. Neither manager would know the other existed, unless
@@ -7825,8 +7767,7 @@ they had kept the lines of communication open during a difficult
 incident in which a plant was shut down.” But the presenters were
 adamant, and the project was abandoned.
 This story is one of our favorites in the book, because the dynamics
-are so clear. We’re not trying to portray the presenters as bad, idea-
-hating people. Put yourself in their shoes. You’ve created this amazing
+are so clear. We’re not trying to portray the presenters as bad, ideahating people. Put yourself in their shoes. You’ve created this amazing
 presentation, summarizing years of your work, and your goal is to
 help people master a complex structure that you’ve spent years
 constructing. You’ve erected an amazing intellectual edifice! Then
@@ -7844,8 +7785,7 @@ your peers. The final slide in your presentation might read, “Lessons
 
 from Nordstrom: In retail, outstanding customer service is a key
 source of competitive advantage.” While discussing your fourth slide
-you might have mentioned, as a humorous aside, the Nordie who gift-
-wrapped a present bought at Macy’s. These jokers from Klein’s firm
+you might have mentioned, as a humorous aside, the Nordie who giftwrapped a present bought at Macy’s. These jokers from Klein’s firm
 want to keep your gift-wrapping story but drop your punch line. And
 they’re absolutely right.
 In the “Simple” and “Unexpected” chapters, we said that good
@@ -7963,8 +7903,7 @@ Carville, Durocher, and Arthur Conan Doyle were all creators of
 ideas. They produced ideas from scratch. But let’s not forget that
 it’s just as effective to spot sticky ideas as it is to create them.
 Think about Nordstrom. You can’t very well create from
-scratch a bunch of stories about sales reps cheerfully gift-
-wrapping presents from Macy’s. But when you come across a real
+scratch a bunch of stories about sales reps cheerfully giftwrapping presents from Macy’s. But when you come across a real
 story like that, you’ve got to be alert to the idea’s potential. And
 this isn’t as easy as it sounds.
 The barrier to idea-spotting is that we tend to process
@@ -8025,8 +7964,7 @@ be quick thinkers and good communicators. No one in the room
 
 
 ever gives a poor speech.
-The students divide into small groups and each one gives a one-
-minute speech while the others listen. After each speech, the
+The students divide into small groups and each one gives a oneminute speech while the others listen. After each speech, the
 listeners rate the speaker: How impressive was the delivery? How
 persuasive?
 What happens, invariably, is that the most polished speakers
@@ -8128,12 +8066,12 @@ You’ll stress the scads of statistics that were pivotal in arriving
 at the Answer—and, like the Stanford students, you’ll find that no
 one remembers them afterward. You’ll share the punch line—the
 overarching truth that emerged from months of study and
-analysis—and, 
-like 
-the 
-CEO 
-who 
-stresses 
+analysis—and,
+like
+the
+CEO
+who
+stresses
 “maximizing
 shareholder value” to his frontline employees, no one will have a
 clue how your punch line relates to the day-to-day work.
@@ -8234,8 +8172,7 @@ them, but it never seems to translate into action.”
 SOLUTION: Make the message simpler and use concrete
 language. Use what people already know as a way to make
 your intentions clearer, as with a generative analogy (like
-Disney’s “cast member” metaphor). Or use concrete, real-
-world examples. Don’t talk about “knowledge management;”
+Disney’s “cast member” metaphor). Or use concrete, realworld examples. Don’t talk about “knowledge management;”
 tell a story about a health worker in Zambia getting
 information on malaria from the Internet.
 SYMPTOM: “We have these meetings where it seems like
@@ -8394,8 +8331,7 @@ you’ll benefit from insights that would otherwise be untapped
 and invisible.
 To see why the ability to talk strategy can be so effective,
 consider Cranium, the company that manufactures the hit board
-game Cranium and many other products. Whit Alexander, the co-
-founder of Cranium, recalls a time when he called a Chinese
+game Cranium and many other products. Whit Alexander, the cofounder of Cranium, recalls a time when he called a Chinese
 manufacturing partner to describe a concept for a new plastic
 game piece. The piece would be purple and made of multiple
 
@@ -8470,8 +8406,7 @@ communicate a strategy to the rest of an organization. It leads
 executives to talk about strategy as though they themselves were
 the audience. It tempts them to use language that is sweeping,
 high-level, and abstract: The most efficient manufacturer of
-semiconductors! The lowest-cost provider of stereo equipment! World-
-class customer service!
+semiconductors! The lowest-cost provider of stereo equipment! Worldclass customer service!
 Often, leaders aren’t even aware that they’re speaking
 abstractly. When a CEO urges her team to “unlock shareholder
 
@@ -8499,11 +8434,9 @@ A crucial element of every strategy is deciding which markets
 and customers a company will serve. The “unemployed college
 professor” speaks directly to this issue. Trader Joe’s could have
 referred to its customers as “people who are of high
-socioeconomic status and are quality-conscious but also budget-
-conscious, and who value variety and new experiences.” But this
+socioeconomic status and are quality-conscious but also budgetconscious, and who value variety and new experiences.” But this
 adjective-filled statement doesn’t provide as clear an image as the
-unemployed college professor. Would the professor like the red-
-pepper soup? Yep. The Curse of Knowledge has been thwarted.
+unemployed college professor. Would the professor like the redpepper soup? Yep. The Curse of Knowledge has been thwarted.
 Stories work particularly well in dodging the Curse of
 Knowledge, because they force us to use concrete language. For
 instance, FedEx has an award called the Purple Promise, which
@@ -8563,14 +8496,12 @@ that I’ve had other buyers in the company, such as a clothing
 buyer in Canada, come up to me and say, ‘I’ve got a salmon story
 to tell you.’”
 Two paragraphs back, you came across the sentence “Costco
-stands for the relentless pursuit of ever-increasing quality at ever-
-decreasing prices.” Note that the sentence works as a summary of
+stands for the relentless pursuit of ever-increasing quality at everdecreasing prices.” Note that the sentence works as a summary of
 the salmon story—it’s punctuation on the end of the sentence. But
 here’s the counterintuitive part: It doesn’t stand alone very well
 without the story. Saying an abstract sentence like that one,
 without the related story, is the same as being the Tapper in the
-Tapper and Listener game. “Ever-increasing quality at ever-
-decreasing prices” is something that is powerful and profound to
+Tapper and Listener game. “Ever-increasing quality at everdecreasing prices” is something that is powerful and profound to
 an executive who has internalized years of salmon stories, but it’s
 sort of dry and vague to someone who doesn’t have access to
 those same experiences. (How do we decrease prices? What if you
@@ -8656,8 +8587,7 @@ between two good options. To make such a choice, you need an
 index of priorities, and the salmon story provides it. The salmon
 story is a statement of competitive advantage that drives home
 the message that Costco’s priority is the customer over the
-shareholder. (Or, to be more precise, customer value over short-
-term shareholder profits.)
+shareholder. (Or, to be more precise, customer value over shortterm shareholder profits.)
 Organizations, in formulating their strategies, must grapple not
 just with competitive advantage but with their internal
 capabilities. What capabilities do we need in order to grow? What
@@ -8679,13 +8609,13 @@ ends and wasted time and errors—all of which, in turn, will
 
 
 reduce efficiency. Edison’s environment, then, is ripe for decision
-paralysis: 
-How 
-do 
-we 
-decide 
-between 
-efficiency 
+paralysis:
+How
+do
+we
+decide
+between
+efficiency
 and
 experimentation? Efficiency promises reduced costs, better
 margins, and more orders. Experimentation promises new
@@ -8709,12 +8639,12 @@ and unwrapped on the other. There is certainly a lot of
 communication that operates in this way—professors lecturing to
 their students, ministers preaching to their congregations, etc.
 Should strategic communication work this way?
-Absolutely 
-not. 
-Good 
-strategic 
-communication 
-is 
+Absolutely
+not.
+Good
+strategic
+communication
+is
 like
 Esperanto. It facilitates communication among people who have
 different native languages and carves out turf that people can
@@ -8834,12 +8764,12 @@ implement Step 1 and follow up with 150 executive speeches
 broadcasting a vision that is impossible for employees to
 remember and use. If strategies are to be living and active—if
 they are to become embodied in the actions of employees and
-outside 
-partners—they 
-must 
-be 
-woven 
-into 
+outside
+partners—they
+must
+be
+woven
+into
 day-to-day
 conversations and decisions.
 A strategy that is built into the way an organization talks
@@ -8860,11 +8790,11 @@ the six traits of stickiness to your teaching. (A quick note: This
 article assumes that you’ve read, or at least skimmed, the rest of
 the book. We won’t reintroduce the basic concepts. By the way, if
 you want to forward free sticky resources to a colleague who
-hasn’t 
-read 
-the 
-book, 
-simply 
+hasn’t
+read
+the
+book,
+simply
 visit
 www.madetostick.com/teachers.)
 There are very practical ways of making your teaching stickier.
@@ -8904,8 +8834,7 @@ core concepts that he wanted every student to learn during the
 semester. Then he drew a picture that served as a reminder of
 these core messages. It depicted a process where sounds, such as
 musical recordings, are sampled and become a digital file. Then
-the digital file is manipulated and played out through a digital-to-
-analog converter. He said, “By showing this picture to the class at
+the digital file is manipulated and played out through a digital-toanalog converter. He said, “By showing this picture to the class at
 the beginning of the term and referring to it often, I found that I
 could keep the class on track with the core messages I wanted
 everyone to learn. And I also used the core message myself—in
@@ -8935,11 +8864,11 @@ were allowed to store only text. Coffee mugs could store only
 
 
 instance, you couldn’t put a number in a coffee mug. (This
-limitation 
-illustrated 
-a 
-procedure 
-called 
+limitation
+illustrated
+a
+procedure
+called
 “type-safe
 programming.”) Holdt reported that this analogy helped students
 understand the concept of a variable more quickly and retain it
@@ -9070,12 +8999,12 @@ Concrete, sensory experiences etch ideas into our brain—think
 of how much easier it is to remember a song than a credit card
 number, even though a song contains much more data!
 REMINDERS: “Concrete” concepts from the book that are
-useful 
-for 
-teachers: 
-Math 
-instruction 
-in 
+useful
+for
+teachers:
+Math
+instruction
+in
 Asia
 (Understanding Subtraction). The Velcro theory of
 memory. Jane Elliott’s elementary-school simulation of
@@ -9156,8 +9085,7 @@ sensory information into a “dry” subject, was beautifully
 concrete. But Millar had one more surprise in store for the
 students.
 In a corner of the room was a table covered with a tarp. Millar
-whisked away the tarp to reveal two stopwatches, two thick-
-looking bones, and two handsaws. The bones were cow legs
+whisked away the tarp to reveal two stopwatches, two thicklooking bones, and two handsaws. The bones were cow legs
 procured from a local butcher that approximated the weight and
 thickness of a human femur. Two student volunteers were asked
 to play the role of a battlefield surgeon, forced to amputate a
@@ -9379,15 +9307,13 @@ ourselves” neurons.)
 But the question—How do I unstick an idea?—nagged at us. So
 we dug into the relevant academic research. It was a long and
 frustrating search, because there’s not much research tackling this
-topic. But we did find one promising lead that was about sixty-
-five years old.
+topic. But we did find one promising lead that was about sixtyfive years old.
 During World War II, social scientists had a keen patriotic
 interest in rumor control. About two-thirds of the rumors during
 were “wedge-drivers,” accusations that provoked anger at various
 social groups (blacks, Jews, the Brits). These rumors were false
 and socially destructive, so the government wanted to fight back
-aggressively. One tactic that seemed to work against wedge-
-drivers was to redirect the anger and make people mad at the
+aggressively. One tactic that seemed to work against wedgedrivers was to redirect the anger and make people mad at the
 rumormongers. For instance, the rumor-control people would put
 
 
@@ -9398,8 +9324,7 @@ untruths!
 At first, this work in wartime propaganda seemed pretty
 removed from the concerns of our readers, who want their ideas
 to stick in business or in school. But then it dawned on us: Trying
-to unstick an idea is a bad strategy. The World War II rumor-
-control people weren’t trying to unstick an idea. They were
+to unstick an idea is a bad strategy. The World War II rumorcontrol people weren’t trying to unstick an idea. They were
 shifting the turf and propagating a different, competing idea.
 Instead of arguing that the rumors themselves were baseless, they
 argued: The Nazis are trying to trick you. Are you going to fall for
@@ -9547,8 +9472,7 @@ football interesting to nonfans. Hold long-term interest: the
 3. Concrete
 HELP PEOPLE UNDERSTAND AND REMEMBER.
 Write with the concreteness of a fable. (Sour grapes.) Make
-abstraction concrete: The Nature Conservancy’s landscapes as eco-
-celebrities. Provide a concrete context: Asian teachers’ approach to
+abstraction concrete: The Nature Conservancy’s landscapes as ecocelebrities. Provide a concrete context: Asian teachers’ approach to
 teaching math. Put people into the story: accounting class taught
 with a soap opera. Use the Velcro theory of memory: The more
 hooks in your idea, the better. Brown eyes, blue eyes: a simulation
@@ -9568,7 +9492,7 @@ Hamburger Helper’s in-home visits and “Saddleback Sam.”
 HELP PEOPLE BELIEVE.
 The Nobel-winning ulcer insight no one believed. Flesh-eating
 bananas.
-EXTERNAL 
+EXTERNAL
 CREDIBILITY. Authority and antiauthority. Pam Laffin,
 smoker.
 INTERNAL CREDIBILITY.
@@ -9754,8 +9678,7 @@ even though they each contain multiple letters. By taking advantage of preexisti
 information, we can cram more information into a limited attentional space.
 Psychologists define schema: Schemas are part of the standard tool kit of cognitive and
 social psychology. For an interesting discussion of schemas in social perception, see Chapters
-4 and 5 of Susan T. Fiske and Shelley E. Taylor, Social Cognition, 2nd ed. (New York: McGraw-
-Hill, 1991). For an interesting summary of cognitive psychology research on schemas, see
+4 and 5 of Susan T. Fiske and Shelley E. Taylor, Social Cognition, 2nd ed. (New York: McGrawHill, 1991). For an interesting summary of cognitive psychology research on schemas, see
 Chapter 2 of David C. Rubin, Memory in Oral Traditions: The Cognitive Psychology of Epic,
 Ballads, and Counting-out Rhymes (Oxford: Oxford University Press, 1995).
 An analogy is a good way of helping people access the knowledge in a
@@ -9763,8 +9686,7 @@ schema. Educational psychologists have published a number of
 papers on the value of analogies in learning new material,
 particularly Richard Mayer. In a 1980 paper, he helped students
 learn to program the language of a database. One group of students
-was given analogies for the structure of the computer: “The long-
-term storage function of the computer was described as a file
+was given analogies for the structure of the computer: “The longterm storage function of the computer was described as a file
 cabinet; the sorting function was described as an in-basket, save
 basket, and discard basket on an office desk.” When students were
 confronting easy problems, the analogies didn’t matter much, but
@@ -9805,8 +9727,7 @@ psychological disciplines. Cognitive researchers who study attention and learnin
 emotional; social psychologists who study emotions such as anger, fear, and disgust find it too
 cognitive. Yet you could make the case that surprise is the most important emotion because of
 its role in controlling attention and learning.
-“PHRAUG and TAYBL”: Bruce W. A. Whittlesea and Lisa D. Williams, “The Discrepancy-
-Attribution Hypothesis II: Expectation, Uncertainty, Surprise, and Feelings of Familiarity,”
+“PHRAUG and TAYBL”: Bruce W. A. Whittlesea and Lisa D. Williams, “The DiscrepancyAttribution Hypothesis II: Expectation, Uncertainty, Surprise, and Feelings of Familiarity,”
 
 
 Journal of Experimental Psychology: Learning, Memory, and Cognition 27 (2001): 14–33.
@@ -9865,15 +9786,14 @@ In the rubble of Tokyo: The Sony history is from John Nathan, Sony: The Private 
 “If people like curiosity”: Loewenstein, “Psychology of Curiosity,” 86.
 3. Concrete
 “Business Buzzword Generator”: The buzzword generator was invented by W. Davis Folsom
-at 
-the 
-University 
-of 
-South 
-Carolina-Aiken. 
-See 
-http://highered.mcgraw-
-hill.com/sites/0072537892/student_view0/business_jargon_exercise.html.
+at
+the
+University
+of
+South
+Carolina-Aiken.
+See
+http://highered.mcgrawhill.com/sites/0072537892/student_view0/business_jargon_exercise.html.
 Concreteness helps us avoid these problems: The advantages of concrete ideas show up
 across psychology. Concrete ideas are more memorable. Perhaps the most interesting
 summary of this evidence is from a book by David Rubin, a cognitive psychologist at Duke
@@ -9889,12 +9809,12 @@ Mark Sadoski, Ernest Goetz, and colleagues have published a
 number of interesting papers illustrating that concrete ideas are
 more understandable, memorable, and, as a side benefit, more
 interesting. See Mark Sadoski, Ernest T. Goetz, and Maximo
-Rodriguez, 
-“Engaging 
-Texts: 
-Effects 
-of 
-Concreteness 
+Rodriguez,
+“Engaging
+Texts:
+Effects
+of
+Concreteness
 on
 Comprehensibility, Interest, and Recall in Four Text Types,” Journal
 of Educational Psychology 92 (2000): 85–95.
@@ -9963,9 +9883,9 @@ ascribe credibility to bizarre claims. The “testable credentials” idea that 
 chapter, for example, has been a feature of dozens of urban legends, yet it has not been
 discussed by the research literature on persuasion.
 133 Around 1999, an e-mail message: The flesh-eating banana
-legend 
-is 
-discussed 
+legend
+is
+discussed
 at
 www.snopes.com/medical/disease/bananas.asp.
 Pam Laffin, the Antiauthority: The story of Pam Laffin is described in Bella English,
@@ -10000,11 +9920,11 @@ Fortune, November 29, 2004, 162.
 A SHARK A DEER: We thank Tim O’Hara for the idea for the comparison in Message 2 of the
 Shark Attack Hysteria Clinic.
 Edible Fabrics: William McDonough, 2003 Conradin Von Gugelberg Memorial Lecture on the
-Environment, 
-Stanford 
-University, 
-February 
-11, 
+Environment,
+Stanford
+University,
+February
+11,
 2003;
 www.gsb.stanford.edu/news/headlines/2003_vongugelberg.shtml. See also Andrew Curry,
 “Green Machine,” U.S. News & World Report, August 5, 2002, 36.
@@ -10088,8 +10008,7 @@ they look the way they do—someone has tested every attribute.
 Jerry Weissman, a former TV producer: Jerry Weissman, Presenting to Win: The Art of
 Telling Your Story (New York: Financial Times Prentice Hall, 2003). The quote is.
 “Don’t say, ‘People will enjoy’”: Caples/Hahn, Tested Advertising, 133.
-Cable TV in Tempe: W. Larry Gregory, Robert B. Cialdini, and Kathleen M. Carpenter, “Self-
-Relevant Scenarios as Mediators of Likelihood Estimates and Compliance: Does Imagining
+Cable TV in Tempe: W. Larry Gregory, Robert B. Cialdini, and Kathleen M. Carpenter, “SelfRelevant Scenarios as Mediators of Likelihood Estimates and Compliance: Does Imagining
 Make It So?” Journal of Personality and Social Psychology 43 (1982): 89–99.
 In 1954, a psychologist named Abraham Maslow: Abraham Maslow, Motivation and
 Personality (New York: Harper, 1954).
@@ -10164,14 +10083,14 @@ are more powerful, and stories give us the feeling of real
 experience. They show that people are more likely to be persuaded
 by a story when they are “transported” by it—when they feel more
 wrapped up in their mental simulation. See Melanie C. Green and
-Timothy 
-C. 
-Brock, 
-“The 
-Role 
-of 
-Transportation 
-in 
+Timothy
+C.
+Brock,
+“The
+Role
+of
+Transportation
+in
 the
 Persuasiveness of Public Narratives,” Journal of Personality and
 Social Psychology 79 (2000): 701–21.
@@ -10213,9 +10132,9 @@ A review of thirty-five studies: James E. Driskell, Carolyn Copper, and Aidan Mo
 Mental Practice Enhance Performance?” Journal of Applied Psychology 79 (1994): 481–92.
 Dealing with Problem Students: Message 1 is from a tip sheet, “Tips for Dealing with
 Student Problem Behaviors,” from the Office for Professional Development, Indiana
-University–Purdue 
-University 
-Indianapolis. 
+University–Purdue
+University
+Indianapolis.
 See
 www.opd.iupui.edu/uploads/library/IDD/IDD6355.doc. Message 2, by Alison Buckman, was
 originally posted to http://research.umbc.edu/~korenman/wmst/disruptive_students2.html.
@@ -10237,13 +10156,13 @@ research on the frequencies of the three plots was done by giving
 
 
 raters the classification system but no other information about the
-hypotheses 
-of 
-the 
-research. 
-Even 
-though 
-raters 
+hypotheses
+of
+the
+research.
+Even
+though
+raters
 worked
 independently, pairs of raters who saw the same stories showed
 strong agreement on classifications.
@@ -10270,16 +10189,14 @@ Notably, none of these stories was more likely to drive “feel good”
 activity. People weren’t more likely to was to do something to enjoy
 themselves—to listen to good music, watch television, or eat a good
 meal; instead, they wanted to go out and accomplish something.
-Thus these stories drive productive action, not passive self-
-involvement.
+Thus these stories drive productive action, not passive selfinvolvement.
 In response, Jesus told a story: The Good Samaritan story is from the New International
 Version of the Bible, Luke 10:25–37.
 Ingersoll-Rand: The story of the Grinder Team is told in Chapter 6 of Tom Peters, Liberation
 Management (New York: Knopf, 1992).
 Stories at the World Bank: This section is based on two excellent books by Stephen
 Denning. His first book, about the role of storytelling in organizations, is The Springboard:
-How Storytelling Ignites Action in Knowledge-Era Organizations (Boston: Butterworth-
-Heinemann, 2001). There are dozens of books available that talk about the role of storytelling
+How Storytelling Ignites Action in Knowledge-Era Organizations (Boston: ButterworthHeinemann, 2001). There are dozens of books available that talk about the role of storytelling
 in organizations and organizational culture; The Springboard is the best book on the subject,
 
 
@@ -10356,13 +10273,13 @@ It is obligatory to thank your publisher. According to what
 we’ve heard from other authors, you usually have to say thanks
 through gritted teeth. This is our first book, and in the process of
 getting it to mar ket, we were supposed to accumulate a lot of
-publishing 
-horror 
-stories. 
-We 
-were 
-supposed 
-to 
+publishing
+horror
+stories.
+We
+were
+supposed
+to
 feel
 underappreciated and undersupported. Random House has been
 an utter failure on this front. The people at Random House have
@@ -10397,10 +10314,6 @@ and white. Thanks, Mom and Dad, for giving us co-authors.
 Thanks, Susan. Thanks, Emory. Thanks, sister Susan. Thanks, Tod,
 Hunter, and Darby.
 We hope you enjoy the book. We had fun writing it.
-
-
-
-
 
 
 ABOUT THE AUTHORS

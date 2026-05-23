@@ -13,6 +13,10 @@ extraction_method: |
   10 parallel subagent batches (по 12-13 transcripts в каждом).
   Each subagent извлекал 5 категорий: hypothesis / business_model / community / philosophy / bet.
   Все quotes — verbatim Russian, без переформулировок.
+phase4_cleaned: true
+phase4_chars_before: 248206
+phase4_chars_after: 248206
+phase4_saved_pct: 0.0
 ---
 
 # Strategic Ideas / Гипотезы из ~117 Voice-Memos

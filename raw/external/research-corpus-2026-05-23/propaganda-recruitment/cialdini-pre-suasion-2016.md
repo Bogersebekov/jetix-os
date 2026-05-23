@@ -9,8 +9,11 @@ chars: 836979
 approx_tokens: 209244
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 836981
+phase4_chars_after: 836353
+phase4_saved_pct: 0.1
 ---
-
 
 
 Robert Cialdini
@@ -187,8 +190,7 @@ conséquent, elles doivent être considérées en partie comme des
 bibliographie).
 
 
-PREMIÈRE PARTIE LA PRÉ-
-SUASION : LE PRÉALABLE
+PREMIÈRE PARTIE LA PRÉSUASION : LE PRÉALABLE
 INDISPENSABLE À L’ORIENTATION
 DE L’ATTENTION
 CHAPITRE 1 : INTRODUCTION À LA
@@ -319,8 +321,7 @@ de s’améliorer, voire de devenir les meilleurs employés d’une organisation
 
 Prenons par exemple un employé brillant (appelons-le Jim… puisque c’est
 son prénom) qui travaillait pour une entreprise dont j’avais réussi à infiltrer
-un programme de formation. Cette société fabriquait des systèmes d’alarme-
-incendie pour les particuliers et Jim était son meilleur commercial. Il ne
+un programme de formation. Cette société fabriquait des systèmes d’alarmeincendie pour les particuliers et Jim était son meilleur commercial. Il ne
 réussissait pas systématiquement à vendre, bien entendu, mais la probabilité
 qu’il sorte d’une visite avec un contrat signé devenait, mois après mois,
 supérieure à celle de ses collègues. Après une période initiale de cours, j’ai
@@ -613,12 +614,12 @@ d’ouverture pré-suasif, lorsque la proposition a le plus de poids. L’autre
 connotation est physique et fait référence à une force de levier unique
 provoquant un mouvement sans précédent. Ces deux dimensions associées,
 temporelle d’un côté et physique de l’autre, ont la capacité de provoquer un
-changement 
-extraordinaire 
-dans 
-une 
-troisième 
-dimension, 
+changement
+extraordinaire
+dans
+une
+troisième
+dimension,
 d’ordre
 psychologique. Les chapitres à suivre, décrits brièvement ci-dessous, vous
 montrent comment ce phénomène opère.6
@@ -626,13 +627,13 @@ Première partie - La pré-suasion : le préalable
 indispensable à l’orientation de l’attention
 Chapitre 2 : Les moments privilégiés
 Le chapitre 2 explique la notion de moments privilégiés, ces instants
-temporellement 
-identifiables 
-au 
-cours 
-desquels 
-une 
-personne 
+temporellement
+identifiables
+au
+cours
+desquels
+une
+personne
 est
 particulièrement réceptive au message de son interlocuteur. Ce chapitre
 présente et défend également une thèse fondamentale : le conseil le plus
@@ -731,20 +732,19 @@ décider de la marche à suivre.
 Chapitre 11 : Unité 1 - être ensemble
 Le chapitre 11 révèle un septième principe universel de l’influence : l’unité. Il
 existe un certain type d’unité – d’identité – qui caractérise au mieux une
-relation collective. Il suffit d’en faire prendre conscience l’autre avec pré-
-suasion pour obtenir de ce dernier une acceptation, une coopération, une
+relation collective. Il suffit d’en faire prendre conscience l’autre avec présuasion pour obtenir de ce dernier une acceptation, une coopération, une
 sympathie, une aide et une confiance accrues, et, par conséquent, son
 consentement. Ce chapitre décrit le premier des deux principaux moyens de
 créer des relations collectives : en présentant des points communs génétiques
 associés à la famille et à l’endroit.
 Chapitre 12 : Unité 2 - agir ensemble
-Outre 
-l’effet 
-unificateur 
-des 
-points 
-communs 
-généalogiques 
+Outre
+l’effet
+unificateur
+des
+points
+communs
+généalogiques
 ou
 géographiques, les relations collectives peuvent résulter d’une action
 commune menée de manière synchrone ou en collaboration. Quand les gens
@@ -756,8 +756,7 @@ mutuels. Le chapitre 12 illustre ce phénomène par des exemples : plus grande
 solidarité entre inconnus, coopération entre coéquipiers, abnégation chez des
 enfants de 4 ans, amitiés entre camarades de classe, amour entre étudiants et
 fidélité entre consommateurs et marques.
-Chapitre 13 : Un usage éthique : considérations pré-
-pré-suasives
+Chapitre 13 : Un usage éthique : considérations prépré-suasives
 Les personnes usant d’une approche pré-suasive doivent choisir ce qu’elles
 souhaitent présenter juste avant de délivrer leur message, mais également
 prendre une décision préalable : doivent-elles, d’un point de vue moral,
@@ -918,8 +917,7 @@ demande uniquement si vous êtes satisfait. Les questions de ce genre propices
 à une seule réponse peuvent vous amener à vous méprendre et à trahir votre
 pensée. Je vous conseille de refuser de participer à des enquêtes recourant à
 cette forme biaisée d’interrogation. Les questions alternatives sont
-préférables : « Êtes-vous satisfait ou mécontent de cette marque ? » « Êtes-
-vous content ou mécontent du travail fourni par le maire ? » « Êtes-vous en
+préférables : « Êtes-vous satisfait ou mécontent de cette marque ? » « Êtesvous content ou mécontent du travail fourni par le maire ? » « Êtes-vous en
 accord ou en désaccord avec la politique actuelle de ce pays vis-à-vis du
 Moyen-Orient ? » Ce genre de questions vous invite à vous interroger de
 manière impartiale sur vos sentiments.9
@@ -976,8 +974,7 @@ après une question pré-suasive n’appelant qu’une seule réponse ?
 Prenons les résultats d’une expérience conduite par les spécialistes de la
 communication San Bolkan et Peter Andersen. Ces derniers ont approché des
 personnes dans le cadre d’une enquête. Nous avons tous déjà vécu cela. Dans
-un centre commercial ou un supermarché, une personne munie d’un bloc-
-notes vous arrête et vous demande de lui consacrer quelques minutes. Ces
+un centre commercial ou un supermarché, une personne munie d’un blocnotes vous arrête et vous demande de lui consacrer quelques minutes. Ces
 opérations n’ont généralement guère de succès : en l’occurrence, seulement
 29 % des personnes ont accepté de répondre aux deux scientifiques. Mais
 Bolkan et Andersen estimaient pouvoir augmenter le nombre de réponses
@@ -1133,8 +1130,7 @@ pendant la demi-seconde que dure le passage d’un objet à un autre, nous
 vivons un « point mort » mental, appelé clignement attentionnel, qui se
 produit quand nous ne pouvons enregistrer dans notre conscience la nouvelle
 information mise au premier plan. Voilà pourquoi je suis très agacé quand je
-suis face à une personne qui fait autre chose pendant que nous parlons. Avez-
-vous déjà eu une conversation téléphonique avec quelqu’un tout en sachant
+suis face à une personne qui fait autre chose pendant que nous parlons. Avezvous déjà eu une conversation téléphonique avec quelqu’un tout en sachant
 qu’il se livre à une autre activité, parce que vous l’entendez tourner les pages
 d’un journal ou pianoter sur son clavier ? Je déteste ça. Cela montre que mon
 interlocuteur souhaite ne plus suivre les informations que je lui fournis afin de
@@ -1176,8 +1172,7 @@ davantage et étaient prêts à payer quatre fois le prix pour l’acquérir.16
 Outre les tactiques incitant les autres à aller vers des messages ou produits,
 les communicants possèdent de nombreux autres moyens pour capter
 l’attention de leur public et, par conséquent, le faire adhérer à une idée ou à
-un produit. Comme nous allons le voir, les conséquences en termes de pré-
-suasion sont assez considérables.
+un produit. Comme nous allons le voir, les conséquences en termes de présuasion sont assez considérables.
 CHAPITRE 3 : L’IMPORTANCE DE
 L’ATTENTION… C’EST
 L’IMPORTANCE
@@ -1208,15 +1203,13 @@ d’attente de l’une de ces petites fêtes a vécu l’horreur. Dans son sac �
 son téléphone portable s’est mis à sonner alors qu’elle était face à la reine.
 Troublée et pétrifiée tandis que son téléphone sonnait avec insistance, elle
 regardait, impuissante, les yeux de la reine désormais rivés sur son sac. Enfin,
-Elizabeth se pencha et lui dit : « Vous devriez répondre, ma chère. C’est peut-
-être quelqu’un d’important. »
+Elizabeth se pencha et lui dit : « Vous devriez répondre, ma chère. C’est peutêtre quelqu’un d’important. »
 Ce qui ressort est important
 Si le conseil bienveillant d’Elizabeth donne un aperçu des raisons de sa
 popularité chez ses sujets, le contenu même de ce conseil révèle autre chose :
 ce qui est au centre de toutes les attentions peut conduire les témoins à en
 surestimer l’importance. Qui, dans cette rangée de personnes, pouvait bien
-être plus important à ce moment précis que Sa Majesté, reine du Royaume-
-Uni de Grande-Bretagne et d’Irlande du Nord et de ses autres royaumes, à
+être plus important à ce moment précis que Sa Majesté, reine du RoyaumeUni de Grande-Bretagne et d’Irlande du Nord et de ses autres royaumes, à
 l’occasion du cinquantième anniversaire de son accession au trône ? Je ne
 
 
@@ -1375,8 +1368,7 @@ elles semblent avoir de l’importance. Les colonies de singes ne sont pas les
 seuls milieux où les membres sont prêts à payer pour regarder des
 personnages apparemment importants.20
 Ainsi, l’individu persuasif qui détourne ingénieusement l’attention vers la
-caractéristique la plus favorable d’une offre devient un brillant individu pré-
-suasif. Il atteint une grande efficacité en réussissant non seulement à attirer
+caractéristique la plus favorable d’une offre devient un brillant individu présuasif. Il atteint une grande efficacité en réussissant non seulement à attirer
 l’attention vers cette caractéristique, mais aussi à lui conférer une importance
 exagérée avant même qu’elle ait été examinée. Quand l’interlocuteur la prend
 totalement en considération, il se produit un double effet. Il va sans doute être
@@ -1447,8 +1439,7 @@ visiteurs, lesquels tombaient sur une page d’accueil avec un fond attirant leu
 attention vers un objectif d’économie grâce à des pièces de monnaie et non
 des nuages. Ces visiteurs, que l’on incitait à accorder plus d’importance au
 prix, recherchaient sur le site avant tout des informations sur les tarifs et
-préféraient un canapé bon marché. Étonnamment, malgré une action pré-
-suasive sur leurs critères d’importance, de recherche sur le site et de
+préféraient un canapé bon marché. Étonnamment, malgré une action présuasive sur leurs critères d’importance, de recherche sur le site et de
 préférence d’achat, la plupart des participants, interrogés par la suite, ne
 pensaient pas que les nuages ou les pièces de monnaie figurant à l’arrière-plan
 de la page d’accueil les avaient influencés d’une quelconque manière.
@@ -1685,8 +1676,7 @@ Modifier la tâche à exécuter
 Le 20 mars 2003, le président des États-Unis George W. Bush a ordonné
 l’invasion de l’Irak par les forces armées américaines. Après une série de
 frappes éclairs qui ont écrasé le gouvernement de Saddam Hussein, s’est
-installé un conflit violent, pénible, interminable et très coûteux pour les États-
-Unis en termes de vies humaines, d’argent, de prestige et d’influence
+installé un conflit violent, pénible, interminable et très coûteux pour les ÉtatsUnis en termes de vies humaines, d’argent, de prestige et d’influence
 mondiale. La justification initiale de l’administration Bush – débarrasser la
 région des « armes de destruction massive » de Saddam – est tombée (les
 armes n’ont jamais été découvertes) et a régulièrement évolué, englobant de
@@ -1733,8 +1723,7 @@ Pour les autorités américaines, ce programme présentait d’autres avantages,
 tout aussi intéressants. Tout d’abord, sous l’aile de protecteurs armés, les
 représentants des médias présents en Irak couraient bien moins de risques.
 L’éventualité que des centaines de journalistes, essayant de trouver, en zone
-de guerre, des histoires susceptibles de faire les gros titres, se retrouvent eux-
-mêmes parmi les otages et les victimes, ou en péril, représentait un casse-tête
+de guerre, des histoires susceptibles de faire les gros titres, se retrouvent euxmêmes parmi les otages et les victimes, ou en péril, représentait un casse-tête
 que l’armée souhaitait éviter. De plus, les jugements personnels de
 journalistes venus du monde entier (près de 40 % des équipes embarquées
 étaient employées par des agences étrangères) offraient à l’armée une
@@ -2338,8 +2327,7 @@ compromettantes de la part de suspects, y compris des personnes au-dessus de
 tout soupçon. Une mise en garde s’impose ici, car ces techniques s’avèrent les
 plus efficaces pour que les interrogateurs parviennent à leurs fins.
 Supposons qu’après avoir pesé les choix possibles, vous décidiez de
-continuer d’affronter le feu des questions afin de blanchir votre nom. Existe-t-
-il une solution pour accroître la probabilité que des observateurs extérieurs
+continuer d’affronter le feu des questions afin de blanchir votre nom. Existe-til une solution pour accroître la probabilité que des observateurs extérieurs
 soient en mesure d’identifier les ruses et pressions dont vous avez été victime,
 si l’on a cherché à vous faire avouer des choses compromettantes ?
 Eh bien, oui ! Cette solution se présente en deux étapes, directement à partir
@@ -2396,8 +2384,7 @@ grande difficulté pour un locuteur n’est pas de présenter de bons arguments,
 mais de convaincre ses auditeurs de consacrer leur énergie et leur temps limité
 à étudier leurs mérites. La causalité et l’importance perçues d’un sujet
 permettent très bien de venir à bout de cette difficulté.
-Si le fait d’attirer l’attention offre au locuteur une prise en matière de pré-
-suasion, une question liée se pose : existe-t-il des éléments d’information
+Si le fait d’attirer l’attention offre au locuteur une prise en matière de présuasion, une question liée se pose : existe-t-il des éléments d’information
 qu’il n’est même pas la peine de souligner parce qu’ils attirent par essence
 l’attention ?
 
@@ -2663,8 +2650,7 @@ précis, sont utilisés couramment depuis des siècles – dépendra fortement d
 type d’élément d’ouverture rencontré juste avant leur réception. Créez, grâce
 à cet élément d’ouverture, un état d’esprit méfiant, et, sous l’effet d’un désir
 de sécurité, votre message axé sur la popularité portera ses fruits, tandis qu’un
-message basé sur la particularité du produit sera un fiasco. Mais utilisez celui-
-ci pour créer un état d’esprit amoureux, et, sous l’effet d’un désir de sortir du
+message basé sur la particularité du produit sera un fiasco. Mais utilisez celuici pour créer un état d’esprit amoureux, et, sous l’effet d’un désir de sortir du
 lot, vous obtiendrez l’effet inverse.
 ***
 
@@ -3043,8 +3029,7 @@ comme point de départ pour enquêter sur ce qui est devenu l’effet Zeigarnik.
 réalisées grâce à plus de six cents études sur le sujet. Tout d’abord (en lien
 avec la série d’événements dans le bar-restaurant), pour une tâche qui nous
 occupe, nous nous souvenons mieux de toutes sortes d’éléments la concernant
-si elle n’est pas encore achevée, car notre attention demeure centrée sur celle-
-ci. Ensuite, si nous sommes interrompus ou détournés de cette tâche en plein
+si elle n’est pas encore achevée, car notre attention demeure centrée sur celleci. Ensuite, si nous sommes interrompus ou détournés de cette tâche en plein
 milieu de son exécution, nous ressentons un certain malaise et sommes
 tenaillés par une envie de la reprendre. Ce désir – qui nous pousse également
 à revenir à des récits inachevés, à des problèmes non résolus, à des questions
@@ -3105,8 +3090,7 @@ d’embuches. Cette réalité concerne également ceux qui ne sont pas des
 volumineux pour leurs collègues ou supérieurs hiérarchiques, par exemple. Il
 est alors facile de céder à l’envie de se tourner vers d’autres activités, telles
 que ranger son bureau, relever son courrier, passer un coup de fil ou aller se
-chercher un café. Je ne suis pas immunisé contre cela, contrairement, semble-
-t-il, à l’une de mes collègues.
+chercher un café. Je ne suis pas immunisé contre cela, contrairement, semblet-il, à l’une de mes collègues.
 J’ai toujours été impressionné par le volume de ses productions écrites
 (commentaires, articles, chapitres et livres). Quand je lui ai demandé
 comment elle faisait, elle m’a dit n’avoir aucun secret particulier, mais m’a
@@ -3288,8 +3272,7 @@ images montrées dans les publicités des cigarettiers. Si une publicité montra
 des personnes en bonne santé, séduisantes et indépendantes, la contrepublicité
 rétorquait qu’en fait, la consommation de tabac rendait malade, nuisait au
 charme et créait une réelle dépendance.Pendant leurs trois années de
-diffusion, ces publicités antitabac ont fait chuter la consommation aux États-
-Unis de près de 10 %. Au début, les cigarettiers réagirent comme on pouvait
+diffusion, ces publicités antitabac ont fait chuter la consommation aux ÉtatsUnis de près de 10 %. Au début, les cigarettiers réagirent comme on pouvait
 s’y attendre : ils augmentèrent leur budget publicité pour essayer de faire face
 à ces difficultés. Mais les règles de la doctrine d’impartialité stipulaient que,
 pour chaque publicité pour le tabac, il fallait octroyer un temps d’antenne égal
@@ -3306,8 +3289,7 @@ Décrire les répercussions du phénomène étudié. Les opposants au tabac ont
 découvert qu’ils pouvaient utiliser des contre-arguments pour saper
 l’efficacité des publicités des cigarettiers. Mais les dirigeants de ces derniers
 ont tiré un enseignement qui leur a été profitable : l’un des meilleurs moyens
-de susciter l’adhésion à un message est de rendre moins visibles des contre-
-arguments solides – car les contre-arguments sont généralement plus
+de susciter l’adhésion à un message est de rendre moins visibles des contrearguments solides – car les contre-arguments sont généralement plus
 puissants que les arguments.À cette étape de la séquence, la mise au point sur
 l’impact supérieur et la disponibilité nécessaire des contre-arguments
 constitue une explication. Celle-ci est plus que l’identification de faits (par
@@ -3317,12 +3299,12 @@ l’interdiction de leurs publicités à la télévision et à la radio ») ou d
 augmenter considérablement et leurs frais de publicité diminuer »). Cette
 
 
-explication 
-permet 
-de 
-comprendre 
-comment 
-certains 
+explication
+permet
+de
+comprendre
+comment
+certains
 processus
 psychologiques, associés à la prépondérance des contre-arguments, ont
 provoqué ces deux événements en soi déconcertants.47 48À noter que ce type
@@ -3356,13 +3338,13 @@ JE SUIS
 Dans la famille des idées, il n’y a pas d’orphelins. Chaque notion existe au
 sein d’un réseau où évoluent ses proches, lesquels sont reliés par un système
 d’associations. La physiologie et la biochimie des liens – impliquant les
-neurones, 
-les 
-axones, 
-les 
-dendrites, 
-les 
-synapses, 
+neurones,
+les
+axones,
+les
+dendrites,
+les
+synapses,
 les
 neurotransmetteurs, etc. – fascinent bon nombre de scientifiques. Pas moi,
 hélas. J’étais moins intéressé par la mécanique interne de ces processus
@@ -3551,12 +3533,12 @@ Les vainqueurs incitent à gagner. Cette photo a renforcé à la fois les pensé
 performances des personnes qui y étaient exposées. John Gichigi/Getty Images.
 
 
-La 
-métaphore 
-est 
-une 
-méta-porte 
-(vers 
+La
+métaphore
+est
+une
+méta-porte
+(vers
 le
 changement)
 « Si vous voulez changer le monde, changez la métaphore. »
@@ -3709,8 +3691,7 @@ froid) éprouvent immédiatement une plus grande chaleur humaine envers leur
 entourage, se sentent plus proches de lui et lui font plus confiance. Par
 conséquent, elles se montrent plus généreuses et coopératives lors des
 interactions sociales intervenant juste après. Il est donc évident que les
-associations métaphoriques puissantes peuvent être activées de manière pré-
-suasive sans qu’un mot soit prononcé. Le toucher suffit.52
+associations métaphoriques puissantes peuvent être activées de manière présuasive sans qu’un mot soit prononcé. Le toucher suffit.52
 Plus de choses audacieuses
 Dans la mesure où les associations négatives peuvent facilement se
 transformer en associations positives, une interprétation spontanée peut être
@@ -3798,8 +3779,7 @@ dans les magazines aux États-Unis et en Corée du Sud a révélé que 1. en
 Corée du Sud, les publicités tentent avant tout de relier les produits et services
 à la famille ou au groupe du lecteur, tandis qu’aux États-Unis, c’est davantage
 l’individu qui est visé, et que 2. concernant l’impact mesuré, les publicités
-liées au groupe étaient plus efficaces en Corée du Sud, tandis qu’aux États-
-Unis, il s’agissait de celles qui ciblaient la personne.
+liées au groupe étaient plus efficaces en Corée du Sud, tandis qu’aux ÉtatsUnis, il s’agissait de celles qui ciblaient la personne.
 Le fait de savoir ce qui est important aux yeux du public asiatique a permis
 au gouvernement de Corée du Sud d’utiliser une tactique ingénieuse au
 moment de négocier avec les combattants afghans. Malgré sa simplicité, cette
@@ -4027,8 +4007,7 @@ touche personnalisée » apportée par les consultants.
 Vous remarquerez que, dans la mesure où le responsable et son équipe
 structurent les éléments de leur environnement de travail avant de s’y
 installer, ils sont les auteurs d’un acte de pré-suasion à l’image de ceux traités
-dans le présent ouvrage. La seule différence, c’est qu’ils se choisissent eux-
-mêmes comme cibles et non les autres.
+dans le présent ouvrage. La seule différence, c’est qu’ils se choisissent euxmêmes comme cibles et non les autres.
 Dans la suite de son compte rendu au téléphone, je me suis aperçu que la
 responsable et son équipe considéraient la démarche comme un processus
 d’apprentissage, perfectionnant la tactique au fur et à mesure. Ils sont
@@ -4480,14 +4459,14 @@ permis d’obtenir de meilleures notes en physique. Et le fait de simplement
 demander à des américaines d’origine asiatique de préciser par écrit leur
 genre avant le début d’un examen de mathématiques a nui à leurs résultats,
 alors que ces derniers se sont améliorés lorsqu’elles ont signalé leur origine
-ethnique. 
-Le 
-phénomène 
-impliqué 
-semble 
-non 
-pas 
-se 
+ethnique.
+Le
+phénomène
+impliqué
+semble
+non
+pas
+se
 produire
 automatiquement, mais automagiquement.
 Mais, comme pour tout ce qui paraît magique, les apparences sont
@@ -4566,10 +4545,8 @@ complémentaires.
 Quand ? La première question concerne son apparition à un stade précoce.
 Nous avons vu que les associations étroitement liées peuvent produire des
 effets pré-suasifs impressionnants. Nous avons appris par exemple que les
-visiteurs d’un site web de meubles dont la page d’accueil présente en arrière-
-plan des nuages floconneux préféraient les canapés confortables, car ils
-avaient d’expérience associé l’aspect floconneux au confort. Quand pouvons-
-nous nous attendre à ce qu’un élément d’ouverture donne naissance à un tel
+visiteurs d’un site web de meubles dont la page d’accueil présente en arrièreplan des nuages floconneux préféraient les canapés confortables, car ils
+avaient d’expérience associé l’aspect floconneux au confort. Quand pouvonsnous nous attendre à ce qu’un élément d’ouverture donne naissance à un tel
 moment privilégié ? Prenez les résultats d’une étude destinée à stimuler la
 prévenance chez des sujets qui devaient regarder une série de photos montrant
 deux personnes debout, proches l’une de l’autre. Les expérimentateurs ont
@@ -4736,12 +4713,12 @@ respecter leur traitement, d’énoncer un plan Si/Quand-alors – par exemple :
 « Quand il sera 8 heures et que j’aurai fini de me brosser les dents, alors je
 prendrai les médicaments que l’on m’a prescrits » –, le respect du traitement
 est passé de 55 % à 79 %.
-En 
-voici 
-une 
-illustration 
-particulièrement 
-impressionnante. 
+En
+voici
+une
+illustration
+particulièrement
+impressionnante.
 Des
 toxicomanes hospitalisés, suivant une cure de sevrage aux opiacés, devaient
 préparer leur parcours professionnel pour la fin de la journée afin de pouvoir
@@ -5003,11 +4980,11 @@ obéissaient souvent sans broncher aux ordres de leurs supérieurs et étaient
 alors capables de tirer sur n’importe quelle cible. Il en va de même dans les
 affaires criminelles. Des suspects pourtant innocents ne parviennent pas à
 résister à la pression infligée par leurs interrogateurs au bout de plusieurs
-heures 
-d’interrogatoire 
-mentalement 
-épuisantes. 
-Voilà 
+heures
+d’interrogatoire
+mentalement
+épuisantes.
+Voilà
 pourquoi
 l’interrogatoire type dure moins d’une heure, alors que ceux qui débouchent
 sur de faux aveux durent en moyenne seize heures.
@@ -5160,8 +5137,7 @@ message) vers les concepts de réciprocité, sympathie, preuve sociale, autorit�
 rareté et cohérence peut pousser le destinataire à donner son assentiment, il
 est logique de passer en revue et d’actualiser les informations concernant le
 fonctionnement de chaque concept. En conséquence, le présent chapitre n’a
-pas pour vocation de se pencher essentiellement sur le processus de la pré-
-suasion, mais de prendre du recul et d’explorer les raisons pour lesquelles ces
+pas pour vocation de se pencher essentiellement sur le processus de la présuasion, mais de prendre du recul et d’explorer les raisons pour lesquelles ces
 six concepts renferment une telle force psychologique.
 La réciprocité
 Les gens disent oui à ceux à qui ils sont redevables. Pas toujours, bien
@@ -5215,8 +5191,7 @@ lorsque les clients auraient adhéré à l’opération et donc réutilisé leur
 serviettes. Le don antérieur s’est avéré plus efficace (à hauteur de 47 %) que
 le don postérieur.75
 Faire tout de suite un présent sans avoir la garantie d’obtenir quelque chose
-en retour peut tout de même s’avérer risqué. Les retours n’atteindront peut-
-être pas un niveau suffisant – ou seront carrément inexistants –, car certains
+en retour peut tout de même s’avérer risqué. Les retours n’atteindront peutêtre pas un niveau suffisant – ou seront carrément inexistants –, car certains
 bénéficiaires n’apprécieront peut-être pas qu’on leur donne quelque chose
 qu’ils n’ont pas demandé, tandis que d’autres pourront estimer que le bien
 obtenu ne leur convient pas. Cette règle ne séduira peut-être pas d’autres
@@ -5314,8 +5289,6 @@ lors de la visite suivante de l’agent de la CIA. Épanoui, le chef a donné un
 mine d’informations sur les mouvements des talibans et les itinéraires
 d’approvisionnement.
 
-
-76
 Une gentillesse sous forme de cookies. Abu Jandal, qui refusait de divulguer des informations à ses
 interrogateurs, a changé d’avis après avoir reçu un cadeau inattendu, important et personnalisé, puisque
 tenant compte de son diabète. Brent Stirton/Getty Images
@@ -5503,12 +5476,12 @@ croyance bien ancrée selon laquelle le plus puissant facteur de motivation de
 l’action humaine est l’intérêt économique personnel. Ils me tiennent ce genre
 de discours : « Allez, comment peut-on croire que dire aux gens que leurs
 voisins font des économies d’énergie est trois fois plus efficace que leur
-signaler 
-qu’ils 
-peuvent 
-diminuer 
-considérablement 
-leurs 
+signaler
+qu’ils
+peuvent
+diminuer
+considérablement
+leurs
 factures
 d’électricité ? » Bien qu’il existe diverses réponses possibles à cette question
 légitime, l’une d’entre elles m’a presque toujours paru convaincante. Elle
@@ -5704,8 +5677,7 @@ complémentaires ont montré pourquoi. Dans l’esprit des consommateurs, la
 restriction d’accès faisait augmenter la valeur du produit proposé.84
 La cohérence
 Normalement, nous souhaitons être (et être perçus comme) des personnes en
-parfaite cohérence avec les engagements que nous avons déjà pris – c’est-à-
-dire les déclarations faites, les positions adoptées et les actions entreprises.
+parfaite cohérence avec les engagements que nous avons déjà pris – c’est-àdire les déclarations faites, les positions adoptées et les actions entreprises.
 
 
 Par conséquent, les locuteurs, en nous faisant faire un pas pré-suasif, même
@@ -5974,8 +5946,7 @@ ce qu’un groupe d’étudiants exécute cette tâche n’a pas été difficile
 fait un exercice au sein d’un cours de psychologie que je dispensais. Le
 problème était par contre de soumettre ce questionnaire à leurs parents, dans
 la mesure où je ne pouvais les rémunérer, et je savais que le taux de
-participation des adultes dans ce genre d’enquête est lamentable – souvent au-
-dessous des 20 %. Un collègue m’a suggéré de miser sur la parenté en offrant
+participation des adultes dans ce genre d’enquête est lamentable – souvent audessous des 20 %. Un collègue m’a suggéré de miser sur la parenté en offrant
 un point supplémentaire au prochain devoir (il y en avait plusieurs dans ce
 cours) à chaque étudiant dont un parent accepterait de remplir le
 questionnaire.
@@ -6053,12 +6024,12 @@ moment était venu, dans une lettre adressée aux actionnaires et commémorant
 le cinquantième anniversaire, de synthétiser les résultats de l’entreprise sur la
 période écoulée et d’annoncer que Berkshire Hathaway conserverait toute sa
 vitalité dans les années à venir. Une particularité implicite de cette
-commémoration 
-d’un 
-demi-siècle 
-d’existence 
-constituait 
-un 
+commémoration
+d’un
+demi-siècle
+d’existence
+constituait
+un
 sujet
 
 
@@ -6068,8 +6039,7 @@ Buffet et Munger n’étaient manifestement plus tout jeunes, et si l’un des d
 venait à ne plus être à la tête de l’entreprise, les perspectives d’avenir de cette
 dernière et le cours de l’action pourraient fort bien dégringoler. Je me
 souviens avoir été troublé à la lecture de ce commentaire. Est-ce que mon
-action, dont la valeur avait plus que quadruplé sous la direction Buffet-
-Munger, allait tenir le coup si l’un des deux quittait son poste à cause de son
+action, dont la valeur avait plus que quadruplé sous la direction BuffetMunger, allait tenir le coup si l’un des deux quittait son poste à cause de son
 âge ? Le moment était-il venu de vendre et de récolter mon extraordinaire
 bénéfice avant qu’il ne s’évapore ?
 Dans sa lettre, M. Buffet a abordé sans ambages le problème – plus
@@ -6201,8 +6171,7 @@ un mystère. À l’époque, les gouvernements de l’Allemagne nazie et du Japo
 impérial entretenaient des liens étroits et partageaient les mêmes intérêts. En
 effet, quelques mois plus tard seulement, soit en septembre 1940, le Japon,
 l’Allemagne et l’Italie signaient officiellement le pacte tripartite, les trois pays
-devenant ainsi alliés. Pourquoi ces Juifs, détestés du Troisième Reich, se sont-
-ils mis à la merci de l’un des partenaires internationaux d’Adolf Hitler ?
+devenant ainsi alliés. Pourquoi ces Juifs, détestés du Troisième Reich, se sontils mis à la merci de l’un des partenaires internationaux d’Adolf Hitler ?
 Quelle aide pouvaient-ils espérer du Japon ?
 Avant qu’il ne développe des liens stratégiques étroits avec l’Allemagne
 nazie à la fin des années 1930, le Japon avait facilité l’accès à son territoire
@@ -6546,8 +6515,7 @@ interaction professeur-étudiant – autant d’actions qui, si elles sont
 synchronisées, peuvent inciter les gens à avoir un jugement plus positif sur
 l’autre. Mais un groupe de chercheurs canadiens s’est demandé s’il pouvait
 obtenir un résultat socialement plus important grâce à un mouvement
-coordonné : la faculté de transformer la ressemblance en sympathie pouvait-
-elle servir à réduire les préjugés de nature raciale ? Les chercheurs ont
+coordonné : la faculté de transformer la ressemblance en sympathie pouvaitelle servir à réduire les préjugés de nature raciale ? Les chercheurs ont
 remarqué que, si nous essayons, en temps normal, d’être en phase avec les
 membres de notre groupe, ce n’est pas une tendance que nous affichons avec
 les personnes extérieures à ce groupe. Ils estiment que les différences qui
@@ -6801,8 +6769,7 @@ n’était pas compliquée : en binômes, les participants lisaient chacun à le
 
 
 tour des questions à leur partenaire, qui répondait, puis recevait ensuite la
-réponse de leur partenaire à la même question. Pour avancer dans les trente-
-six questions, les participants devaient progressivement révéler de plus en
+réponse de leur partenaire à la même question. Pour avancer dans les trentesix questions, les participants devaient progressivement révéler de plus en
 plus d’informations personnelles sur eux-mêmes et en apprenaient ensuite
 plus sur leur partenaire. Une des premières questions était : « Que serait une
 journée idéale, pour toi ? », puis, plus loin dans la série, il était demandé :
@@ -6859,8 +6826,7 @@ même niveau que celles de spécialistes ». Dans la droite ligne de notre mise
 au point sur les effets de l’action collective, il vaut la peine d’explorer deux
 autres possibilités. Ceux qui ont participé à la création de quelque chose main
 dans la main avec une autre personne ressentiraient-ils une affinité
-particulière, non seulement pour leur création, mais également pour le co-
-créateur ou la co-créatrice ? En outre, est-ce que cette affinité exceptionnelle
+particulière, non seulement pour leur création, mais également pour le cocréateur ou la co-créatrice ? En outre, est-ce que cette affinité exceptionnelle
 pourrait découler d’un sentiment d’unité avec l’autre, qui pourrait se traduire
 ensuite par une sympathie plus grande et un soutien plein d’abnégation pour
 le partenaire ?
@@ -6875,8 +6841,7 @@ d’avoir agi de concert avec Dame nature lui a fait ressentir une sorte de fusi
 avec elle et, par conséquent, l’a rendu encore plus amoureux et respectueux
 
 
-de sa partenaire ? Si c’était le cas, nous aurions un indice sur le fait que la co-
-création peut mener à l’unification. Malheureusement, M. Leopold ne peut
+de sa partenaire ? Si c’était le cas, nous aurions un indice sur le fait que la cocréation peut mener à l’unification. Malheureusement, M. Leopold ne peut
 répondre à cette interrogation, car il est mort en 1948. Mais je suis plutôt
 certain de la réponse.
 Mon assurance provient en partie des résultats d’une étude à laquelle j’ai
@@ -7085,8 +7050,7 @@ et non de la détourner. La « défense du consommateur » ne s’applique donc
 pas. En outre, l’exercice de la pré-suasion comme il est décrit ici n’est pas
 couramment employé par la communauté des professionnels de l’influence.
 Cette fois-ci, je ne peux revendiquer le fait que je me contente de révéler des
-tactiques déjà connues de l’immense majorité des praticiens. Seuls quelques-
-uns parmi eux cernent suffisamment bien les procédés de la pré-suasion pour
+tactiques déjà connues de l’immense majorité des praticiens. Seuls quelquesuns parmi eux cernent suffisamment bien les procédés de la pré-suasion pour
 se les approprier systématiquement. On peut donc légitimement s’inquiéter
 que la publication de ces informations puisse éclairer certaines organisations
 malhonnêtes sur la façon d’obtenir plus efficacement l’assentiment des gens
@@ -7207,8 +7171,7 @@ n’est pas le cas pour la plupart lorsqu’ils décident d’agir. Comment sort
 ce dilemme ? Une solution consisterait à admettre la tendance légitime des
 chefs d’entreprise à donner un poids considérable aux facteurs économiques
 dans leurs prises de décision, puis à décrire plusieurs des lourdes sanctions
-financières qui découlent d’une conduite contraire à la morale, même si celle-
-ci n’est pas détectée par le public. J’ai récemment mené, en compagnie de
+financières qui découlent d’une conduite contraire à la morale, même si celleci n’est pas détectée par le public. J’ai récemment mené, en compagnie de
 
 
 mes collègues Jessica Li et Adriana Samper, une recherche pour apporter la
@@ -7592,8 +7555,7 @@ menée dans des cliniques britanniques, cette mesure a fait baisser les
 défections de 3,5 %. Mais ces appels coûtaient de l’argent, demandaient du
 temps et n’aboutissaient parfois à rien. Comparez cela à l’idée d’obtenir un
 engagement. Quand nous prenons rendez-vous après une consultation, nous
-savons tous ce qui se passe. La secrétaire inscrit la date et l’heure du rendez-
-vous sur une carte qu’elle nous remet. Si, à la place, on demande au patient de
+savons tous ce qui se passe. La secrétaire inscrit la date et l’heure du rendezvous sur une carte qu’elle nous remet. Si, à la place, on demande au patient de
 remplir la carte, cette action l’engage plus à respecter le prochain rendez-
 
 
@@ -7735,8 +7697,7 @@ sommes de moins en moins capables de bien réfléchir à la meilleure chose à
 faire dans de nombreuses situations. Par conséquent, même les plus prudents
 d’entre nous sont de plus en plus susceptibles de réagir de manière
 automatique à ces invitations à l’action. Ainsi, étant donné que le rythme
-s’accélère et que la concentration faiblit dans notre monde actuel, sommes-
-nous tous destinés à devenir les clowns montés à bord de ce bus ? Non, si, au
+s’accélère et que la concentration faiblit dans notre monde actuel, sommesnous tous destinés à devenir les clowns montés à bord de ce bus ? Non, si, au
 lieu de pester contre cette automaticité envahissante, nous l’acceptons tout en
 contrôlant en permanence la façon dont elle opère sur nous. Il nous faut
 devenir les architectes d’intérieur de nos espaces de vie, en les dotant
@@ -7841,8 +7802,7 @@ changer de comportement de manière impressionnante.111
 
 De plus, les données de l’étude semblent répondre à la question de savoir
 qui sont au fond la plupart des médecins. Ils semblent être 1. des personnes
-tournées vers les autres, motivées par une profond désir d’améliorer le bien-
-être de leurs patients, et 2. qui ne sont pas du genre à s’inquiéter de leur
+tournées vers les autres, motivées par une profond désir d’améliorer le bienêtre de leurs patients, et 2. qui ne sont pas du genre à s’inquiéter de leur
 propre sort au détriment de la santé de leurs patients.
 Bien que la première de ces conclusions semble exacte, une étude menée au
 sein de l’université Carnegie-Mellon jette le doute sur la seconde. Elle
@@ -7925,8 +7885,7 @@ Able, S., et G. Stasser, 2008, « Coordination Success and Interpersonal
 Perceptions : Matching Versus Mismatching », Journal of Personality and
 Social Psychology 95, p. 576592.
 Ackerman, J. M., C. C. Nocera et J. A. Bargh, 2010, « Incidental Haptic
-Sensations Influence Social Judgments and Decisions », Science 328, p. 1712-
-1715.
+Sensations Influence Social Judgments and Decisions », Science 328, p. 17121715.
 Acohido, B., 2013, « Fraudsters Swamp Web with Bogus IRS Emails »,
 Arizona Republic (Phoenix), 17 avril 2013, A13.
 Adamo, S. H., M. S. Cain et S. R. Mitroff, 2013, « Self-Induced Attentional
@@ -7935,8 +7894,7 @@ Science 24, p. 2569-2574.
 Adarves-Yorno, I., S. A. Haslam et T. Postmes, 2008, « And Now for
 Something Completely Different ? The Impact of Group Membership on
 Perceptions of Creativity », Social Influence 3, p. 248-266.
-Aday, S., S. Livingston et M. Hebert, 2005, « Embedding the Truth : A Cross-
-Cultural Analysis of Objectivity and Television Coverage of the Iraq War »,
+Aday, S., S. Livingston et M. Hebert, 2005, « Embedding the Truth : A CrossCultural Analysis of Objectivity and Television Coverage of the Iraq War »,
 Press/Politics 10, p. 3-21.
 Ahktar, S., R. Faff et B. Oliver, 2001, « The Asymmetric Impact of Consumer
 Sentiment Announcements on Australian Foreign Exchange Rates »,
@@ -7944,8 +7902,7 @@ Australian Journal of Management 36, p. 387-403.
 Akerlof, G. A., et R. J. Shiller, 2015, Phishing for Phools : The Economics of
 Manipulation and Deception, Princeton University Press, Princeton, NJ.
 Alba, J. W., et H. Marmorstein, 1987, « The Effects of Frequency Knowledge
-on Consumer Decision Making », Journal of Consumer Research 14, p. 14-
-25.
+on Consumer Decision Making », Journal of Consumer Research 14, p. 1425.
 
 
 Algoe, S. B., 2012, « Find, Remind, and Bind : The Functions of Gratitude in
@@ -7969,8 +7926,7 @@ Alter, A. L., D. M. Oppenheimer, N. Epley et R. N. Eyre, 2007,
 « Overcoming Intuition : Metacognitive Difficulty Activates Analytic
 Reasoning », Journal of Experimental Psychology : General 136, p. 569-576.
 Ambrose, M. L., A. Arnaud et M. Schminke, 2008, « Individual Moral
-Development and Ethical Climate », Journal of Business Ethics 77, p. 323-
-333.
+Development and Ethical Climate », Journal of Business Ethics 77, p. 323333.
 Ames, D. L., A. C. Jenkins, M. R. Banaji et J. P. Mitchell, 2008, « Taking
 Another Person’s Perspective Increases Self-Referential Neural Processing »,
 Psychological Science 19, p. 642644.
@@ -8018,8 +7974,7 @@ p. 363-377.
 
 
 Associated Press, « Eight-Legged Invasion Has Austrians’ Spider Sense
-Tingling », 3 août 2006, usatoday30.usatoday.com/news/offbeat/200608-03-
-spiders-austria_x.htm.
+Tingling », 3 août 2006, usatoday30.usatoday.com/news/offbeat/200608-03spiders-austria_x.htm.
 Asp, E., K. Manzel, B. Koestner, C. A. Cole, N. Denburg et D. Tranel, 2012,
 « A Neuropsychological Test of Belief and Doubt : Damage to Ventromedial
 Prefrontal Cortex Increases Credulity for Misleading Advertising », Frontiers
@@ -8038,8 +7993,7 @@ Baimel, A., R. L. Severson, A. S. Baron et S. A. J. Birch, 2015, « Enhancing
 “Theory of Mind” Through Behavioral Synchrony », Frontiers in
 Psychology 6, p. 870. DOI : 10.3389/fpsyg.2015.00870.
 Balancher, S., Y. Liu et A. Stock, 2009, « An Empirical Analysis of Scarcity
-Strategies in the Automobile Industry », Management Science 10, p. 1623-
-1637.
+Strategies in the Automobile Industry », Management Science 10, p. 16231637.
 Ball, P., 2010, The Music Instinct : How Music Works and Why We Can’t Do Without It, Oxford
 University Press, New York.
 Balliet, D., J. Wu et C. K. W. De Dreu, 2014, « Ingroup Favoritism in
@@ -8068,8 +8022,7 @@ Psychology 55, p. 599-605.
 Barlow, F. K., S. Paolini, A. Pedersen, M. J. Hornsey, H. R. M. Radke,
 J. Harwood, M. Rubin et C. G. Sibley, 2012, « The Contact Caveat : Negative
 Contact Predicts Increased Prejudice More Than Positive Contact Predicts
-Reduced Prejudice », Personality and Social Psychology Bulletin 37, p. 1629-
-1643.
+Reduced Prejudice », Personality and Social Psychology Bulletin 37, p. 16291643.
 Barnard, P. J., S. Scot, J. Taylor, J. May et W. Knightley, 2004, « Paying
 Attention to Meaning », Psychological Science 15, p. 179-186.
 Baron-Cohen, S., 1995, Mindblindness : An Essay on Autism and Theory of Mind, MIT
@@ -8101,10 +8054,8 @@ Reciprocity : The Effects of Attributions for Favors and a Calculative
 Mindset », Academy of Management Discoveries 1, p. 93-113.
 Berkowitz, L., 1972, « Social Norms, Feelings and Other Factors Affecting
 Helping Behavior and Altruism », in Advances in Experimental Social
-Psychology, vol. 6, édité par L. Berkowitz, Academic Press, New York, p. 63-
-108.
-Bernieri, F. J., 1988, « Coordinated Movement and Rapport in Teacher-
-Student Interactions », Journal of Nonverbal Behavior 12, p. 120-138.
+Psychology, vol. 6, édité par L. Berkowitz, Academic Press, New York, p. 63108.
+Bernieri, F. J., 1988, « Coordinated Movement and Rapport in TeacherStudent Interactions », Journal of Nonverbal Behavior 12, p. 120-138.
 Bhatia, S., 2013, « Associations and the Accumulation of Preference »,
 Psychological Review 120, p. 522-543.
 Bilalic, M., P. McLeod et F. Gobet, 2010, « The Mechanism of the Einstellung
@@ -8127,8 +8078,7 @@ Suggestibility », Journal of Experimental Psychology : Applied 2, p. 48-59.
 Blankenship, K. L., D. T. Wegener et R. A. Murray, 2012, « Circumventing
 Resistance : Using Values to Indirectly Change Attitudes », Journal of
 Personality and Social Psychology 103, p. 606-621.
-Blankenship, K. L., D. T. Wegener et R. A. Murray, 2015, « Values, Inter-
-Attitudinal Structure, and Attitude Change : Value Accessibility Can Increase
+Blankenship, K. L., D. T. Wegener et R. A. Murray, 2015, « Values, InterAttitudinal Structure, and Attitude Change : Value Accessibility Can Increase
 a Related Attitude’s Resistance to Change », Personality and Social
 Psychology Bulletin 4, p. 1739-1750.
 Blanton, H., L. B. Snyder, E. Strauts, J. G. Larson, 2014, « Effect of Graphic
@@ -8137,8 +8087,7 @@ no 5, e96315. DOI : 10.1371/journal.pone.0096315.
 Bock, L., 2015, Work Rules, Twelve, Hachette Book Group, New York.
 Boer, D., R. Fischer, M. R., Strack, M. H. Bond, E. Lo et J. Lam, 2011,
 « How Shared Preferences in Music Create Bonds Between People : Values as
-the Missing Link », Personality and Social Psychology Bulletin 37, p. 1159-
-1171.
+the Missing Link », Personality and Social Psychology Bulletin 37, p. 11591171.
 Boland, W. A., M. Brucks et J. H. Nielsen, 2012, « The Attribute Carryover
 Effect : What the “Runner-Up” Option Tells Us About Consumer Choice
 Processes », Journal of Consumer Research 38, p. 872-885.
@@ -8162,8 +8111,7 @@ Donation : A Behavioral Decision-Making Perspective », in Helping and
 Being Helped, édité par S. Spacapan et S. Oskamp, Sage, Newbury Park, CA,
 p. 183-212.
 Borysenko, K., 2015, « What Was Management Thinking ? The High Cost of
-Employee Turnover », TLNT, 22 avril 2015 ; www.eremedia.com/tlnt/what-
-was-leadership-thinking-the-shockingly-high-cost-of-employee-turnover.
+Employee Turnover », TLNT, 22 avril 2015 ; www.eremedia.com/tlnt/whatwas-leadership-thinking-the-shockingly-high-cost-of-employee-turnover.
 Bouchard, T. J., N. L. Segal, A. Tellegen, M. McGue, M. Keyes et R.
 Krueger, 2003, « Evidence for the Construct Validity and Heritability of the
 Wilson-Paterson Conservatism Scale : A Reared-Apart Twins Study of Social
@@ -8172,12 +8120,11 @@ Bourgeois, M. J., 2002, « Heritability of Attitudes Constrains Dynamic Social
 Impact », Personality and Social Psychology Bulletin 28, p. 1063-1072.
 Boushey, H., et S. J. Glynn, 2012, There Are Significant Business Costs to
 Replacing Employees, Center for American Progress, Washington, DC,
-16 
-novembre 
-2012 
+
+novembre
+
 ;
-www.americanprogress.org/issues/labor/report/2012/11/16/44464 /there-are-
-significant-business-costs-to-replacing-employees.
+www.americanprogress.org/issues/labor/report/2012/11/16/44464 /there-aresignificant-business-costs-to-replacing-employees.
 Boyce, C. J., A. M. Wood, J. Banks, A. E. Clark et G. D. A. Brown, 2013,
 « Money, Well-Being, and Loss Aversion : Does an Income Loss Have a
 Greater Effect on Well-Being Than an Equivalent Income Gain ? »,
@@ -8224,8 +8171,7 @@ Bryan, C. J., G. M. Walton, T. Rogers et C. S. Dweck, 2001, « Motivating
 Voter Turnout by Invoking the Self », Proceedings of the National Academy
 of Sciences. DOI : 10.1073/pnas.1103343108.
 Buchan, N. R., M. B. Brewer, G. Grimalda, R. K. Wilson, E. Fatas et M.
-Foddy, 2011, « Global Social Identity and Global Cooperation », Psycholo-
-gical Science 22, p. 821-828.
+Foddy, 2011, « Global Social Identity and Global Cooperation », Psychological Science 22, p. 821-828.
 
 
 Bukowski, W. M., B. Hoza et M. Boivin, 1994, « Measuring Friendship
@@ -8265,8 +8211,7 @@ Underlies In-Group Bias », Psychological Science 25, p. 921-927.
 
 Cacioppo, J. T., J. R. Priester et G. G. Berntson, 1993, « Rudimentary
 Determinants of Attitudes : II. Arm Flexion and Extension Have Differential
-Effects on Attitudes », Journal of Personality and Social Psychology 65, p. 5-
-17.
+Effects on Attitudes », Journal of Personality and Social Psychology 65, p. 517.
 Cadinu, M. R., et M. Rothbart, 1996, « Self-Anchoring and Differentiation
 Processes in the Minimal Group Setting », Journal of Personality and Social
 Psychology 70, p. 666-677.
@@ -8281,13 +8226,13 @@ Campbell, M. C., 1995, « When Attention-Getting Advertising Tactics Elicit
 Consumer Inferences of Manipulative Intent : The Importance of Balancing
 Benefits and Investments », Journal of Consumer Psychology 4, p. 225-254.
 Campbell, M. C., et C. Warren, 2012, « A Risk of Meaning Transfer : Are
-Negative 
-Associations 
-More 
-Likely 
-to 
-Transfer 
-Than 
+Negative
+Associations
+More
+Likely
+to
+Transfer
+Than
 Positive
 Associations ? », Social Influence 7, p. 172-192.
 Cappella, J. N., 1997, « Behavioral and Judged Coordination in Adult
@@ -8319,22 +8264,21 @@ Public Interest 15, p. 72-141.
 Ceci, S. J., et W. M. Williams, 2010, « Sex Differences in Math-Intensive
 Fields », Current Directions in Psychological Science 19, p. 275-279.
 Ceci, S. J., W. M. Williams et S. M. Barnett, 2009, « Women’s
-Underrepresentation 
-in 
-Science 
-: 
-Sociocultural 
-and 
+Underrepresentation
+in
+Science
+:
+Sociocultural
+and
 Biological
 Considerations », Psychological Bulletin 135, p. 218261.
-Cervone, D., 1989, « Effects of Envisioning Future Activities on Self-
-Efficacy 
-Judgments 
-and 
-Motivation 
-: 
-An 
-Availability 
+Cervone, D., 1989, « Effects of Envisioning Future Activities on SelfEfficacy
+Judgments
+and
+Motivation
+:
+An
+Availability
 Heuristic
 Interpretation », Cognitive Therapy and Research 13, p. 247-261.
 Chagnon, N. A., et P. E. Bugos, 1979, « Kin Selection and Conflict : An
@@ -8369,15 +8313,14 @@ People with High Self-Control Happier ? The Effect of Trait Self- Control on
 Happiness as Mediated by Regulatory Focus », Frontiers in Psychology 5.
 DOI :10.3389/fpsyg.2014.00722.
 Child, L., 2012, « A Simple Way to Create Suspense », Opinionator (blog),
-New 
-York 
-Times, 
-8 
-décembre 
-2012 
+New
+York
+Times,
+
+décembre
+
 ;
-http://opinionator.blogs.nytimes.com/2012/12/08/a-simple-way-to-create-
-suspense/?_r=0.
+http://opinionator.blogs.nytimes.com/2012/12/08/a-simple-way-to-createsuspense/?_r=0.
 Chugani, S., J. E. Irwin et J. P. Redden, 2012, « Happily Ever After : The
 Effect of Identity-Consistency on Product Satiation », Journal of Consumer
 Research.
@@ -8388,8 +8331,7 @@ Paris.
 Cialdini, R. B., C. A. Kallgren et R. R. Reno, 1991, « A Focus Theory of
 Normative Conduct : A Theoretical Refinement and Reevaluation of the Role
 of Norms in Human Behavior », in Advances in Experimental Social
-Psychology, vol. 24, édité par M. Zanna, Academic Press, New York, p. 201-
-234.
+Psychology, vol. 24, édité par M. Zanna, Academic Press, New York, p. 201234.
 Cialdini, R. B., Y. J. Li et A. Samper, en préparation, « The Varied Internal
 Costs of Unethical Leadership : Performance Decrements, Turnover
 
@@ -8397,13 +8339,11 @@ Costs of Unethical Leadership : Performance Decrements, Turnover
 Intentions, and the Selective Attrition Effect ».
 Cialdini, R. B., S. L. Brown, B. P. Lewis, C. Luce, S. L. Neuberg, 1997,
 « Reinterpreting the Empathy-Altruism Relationship : When One into One
-Equals Oneness », Journal of Personality and Social Psychology 73, p. 481-
-494.
+Equals Oneness », Journal of Personality and Social Psychology 73, p. 481494.
 Cialdini, R. B., W. Wosinska, D. W. Barrett, J. Butner et M. Gornik-Durose,
 1999, « Compliance with a Request in Two Cultures : The Differential
 Influence of Social Proof and Commitment/Consistency on Collectivists and
-Individualists », Personality and Social Psychology Bulletin 25, p. 1242-
-1253.
+Individualists », Personality and Social Psychology Bulletin 25, p. 12421253.
 Cirelli, L. K., K. M. Einarson et L. J. Trainor, 2014, « Interpersonal
 Synchrony Increases Prosocial Behavior in Infants », Developmental
 Science 17, p. 1003-1011.
@@ -8450,8 +8390,7 @@ You a Better Person ? Conceptual Abstraction Moderates Whether Past Moral
 Deeds Motivate Consistency or Compensatory Behavior », Personality and
 Social Psychology Bulletin 38, p. 907-919.
 Corning, A., et H. Schuman, 2013, « Commemoration Matters : The
-Anniversaries of 9/11 and Woodstock », Public Opinion Quarterly 77, p. 433-
-454.
+Anniversaries of 9/11 and Woodstock », Public Opinion Quarterly 77, p. 433454.
 Cortell, A. P., R. M. Eisinger et S. L. Althaus, 2009, « Why Embed ?
 Explaining the Bush Administration’s Decision to Embed Reporters in the
 2003 Invasion of Iraq », American Behavioral Scientist 52, p. 657-677.
@@ -8459,8 +8398,7 @@ Costa, D., et M. Kahn, 2008, Heroes and Cowards : The Social Face of War,
 Princeton University Press, Princeton, NJ.
 Cottrell, C. A., S. L. Neuberg et N. P. Li, 2007, « What Do People Desire in
 Others ? A Sociofunctional Perspective on the Importance of Different Valued
-Characteristics », Journal of Personality and Social Psychology 92, p. 208-
-231.
+Characteristics », Journal of Personality and Social Psychology 92, p. 208231.
 
 
 « Coughing Fits Overcome 200 at Banquet », 1993, San Francisco Examiner
@@ -8481,14 +8419,14 @@ Beginnings », Psychological Science 26, p. 1927-1936.
 Dai, X., K. Wertenbroch et C. M. Brendel, 2008, « The Value Heuristic in
 Judgments of Relative Frequency », Psychological Science 19, p. 18-19.
 Dana, J., et G. Loewenstein, 2003, « A Social Science Perspective on Gifts to
-Physicians 
-from 
-Industry 
-», 
-Journal 
-of 
-the 
-American 
+Physicians
+from
+Industry
+»,
+Journal
+of
+the
+American
 Medical
 Association 290, p. 252-255.
 Danziger, S., et R. Ward, 2010, « Language Changes Implicit Associations
@@ -8498,8 +8436,7 @@ Darke, P. R., et R. B. Ritchie, 2007, « The Defensive Consumer : Advertising
 Deception, Defensive Processing, and Distrust », Journal of Marketing
 Research 44, p. 114-127.
 Darke, P. R., L. T. A. Ashworth et R. B. Ritchie, 2008, « Damage from
-Corrective Advertising : Causes and Cures », Journal of Marketing 72, p. 81-
-97.
+Corrective Advertising : Causes and Cures », Journal of Marketing 72, p. 8197.
 Dasgupta, N., 2004, « Implicit Group Favoritism, Outgroup Favoritism, and
 Their Behavioral Manifestations », Social Justice Research 17, p. 143-169.
 
@@ -8509,24 +8446,22 @@ to Wrongful Conviction », in The Scientist and the Humanist : A Festschrift in
 Honor of Elliot Aronson, édité par M. H. Gonzales, C. Tavris et J. Aronson,
 Psychology Press, New York, p. 211-247.
 Davis, D. F., et P. M. Herr, 2014, « From Bye to Buy : Homophones as a
-Phonological Route to Priming », Journal of Consumer Research 40, p. 1063-
-1077.
+Phonological Route to Priming », Journal of Consumer Research 40, p. 10631077.
 Davis, K. E., et M. J. Todd, 1985, « Assessing Friendship : Prototypes,
 Paradigm Cases and Relationship Description », in Understanding Personal
 Relationships : An Interdisciplinary Approach, édité par S. Duck et
 D. Perlman, Sage, Beverly Hills, CA, p. 17-38.
 De Dreu, C. K. W., D. B. Dussel et F. S. Ten Velden, 2015, « In Intergroup
 Conflict, Self-Sacrifice Is Stronger among Pro-Social Individuals, and
-Parochial 
-Altruism 
-Emerges 
-Especially 
-among 
-Cognitively 
+Parochial
+Altruism
+Emerges
+Especially
+among
+Cognitively
 Taxed
 Individuals », Frontiers in Psychology 6, p. 572.
-De Hoog, N., W. Stroebe et J. B. F. de Wit, 2008, « The Processing of Fear-
-Arousing Communications : How Biased Processing Leads to Persuasion »,
+De Hoog, N., W. Stroebe et J. B. F. de Wit, 2008, « The Processing of FearArousing Communications : How Biased Processing Leads to Persuasion »,
 Social Influence 3, p. 84113.
 De la Rosa, M. D., D. Sanabria, M. Capizzi et A. Correa, 2012, « Temporal
 Preparation Driven by Rhythms Is Resistant to Working Memory
@@ -8541,8 +8476,7 @@ Model of Gender-Related Behavior », Psychological Review 94, p. 369-389.
 DeBruine, L. M., 2002, « Facial Resemblance Enhances Trust », Proceedings
 of the Royal Society, Series B, 269, p. 1307-1312.
 DeBruine, L. M., 2004, « Resemblance to Self Increases the Appeal of Child
-Faces to Both Men and Women », Evolution and Human Behavior 25, p. 142-
-154.
+Faces to Both Men and Women », Evolution and Human Behavior 25, p. 142154.
 
 
 Dellande, S., et P. Nyer, 2007, « Using Public Commitments to Gain
@@ -8585,17 +8519,16 @@ Dijksterhuis, A., 2004, « Think Different : The Merits of Unconscious
 Thought in Preference Development and Decision-Making », Journal of
 Personality and Social Psychology 87, p. 586-598.
 Dijksterhuis, A., et H. Aarts, 2003, « On Wildebeests and Humans : The
-Preferential Detection of Negative Stimuli », Psychological Science 14, p. 14-
-18.
-Dijksterhuis, 
-A., 
-et 
-H. 
-Aarts, 
-2010, 
-« 
-Goals, 
-Attention, 
+Preferential Detection of Negative Stimuli », Psychological Science 14, p. 1418.
+Dijksterhuis,
+A.,
+et
+H.
+Aarts,
+2010,
+«
+Goals,
+Attention,
 and
 (Un)Consciousness », Annual Review of Psychology 61, p. 467-490.
 Dijksterhuis, A., T. L. Chartrand et H. Aarts, 2007, « Effects of Priming and
@@ -8618,13 +8551,13 @@ Post-DNA World », North Carolina Law Review 82, p. 891-1007.
 Drolet, A., et J. Aaker, 2002, « Off-Target ? Changing Cognitive-Based
 Attitudes », Journal of Consumer Psychology 12, p. 59-68.
 Duckworth, A. L., et L. Steinberg, 2015, « Understanding and Cultivating
-Self-Control 
-in 
-Children 
-and 
-Adolescents 
-», 
-Child 
+Self-Control
+in
+Children
+and
+Adolescents
+»,
+Child
 Development
 Perspective 9, p. 32-37.
 
@@ -8665,17 +8598,17 @@ Case of Mad Money », Management Science 58, p. 351-364.
 
 Engelmann, J. B., C. M. Capra, C. Noussair et G. S. Berns, 2009, « Expert
 Financial Advice Neurobiologically “Offloads” Financial Decision-Making
-Under 
-Risk 
-», 
-PLoS 
-One 
-4, 
-no 
-3, 
-e4957 
-; 
-DOI 
+Under
+Risk
+»,
+PLoS
+One
+4,
+no
+3,
+e4957
+;
+DOI
 :
 10.1371/journal.pone.0004957.
 Enos, R. D., et E. D. Hersh, 2015, « Party Activists as Campaign Advertisers :
@@ -8695,22 +8628,19 @@ Eriksson, K, P. Strimling et J. C. Coultas, 2015, « Bidirectional Associations
 Between Descriptive and Injunctive Norms », Organizational Behavior and
 Human Decision Processes 129, p. 59-69.
 Ernst & Young, 2013, 12th Global Fraud Survey, Growing Beyond : A Place
-for Integrity ; www.ey.com/Publication/vwLUAssets/Global-Fraud-Survey -a-
-place-for-integrity-12th-Global-Fraud-Survey/$FILE/EY-12th-Global-Fraud-
-Survey.pdf.
+for Integrity ; www.ey.com/Publication/vwLUAssets/Global-Fraud-Survey -aplace-for-integrity-12th-Global-Fraud-Survey/$FILE/EY-12th-Global-FraudSurvey.pdf.
 Ernst & Young, 2014, 13th Global Fraud Survey, Overcoming Compliance
-Fatigue 
-: 
-Reinforcing 
-the 
-Commitment 
-to 
-Ethical 
-Growth 
+Fatigue
+:
+Reinforcing
+the
+Commitment
+to
+Ethical
+Growth
 ;
-www.ey.com/Publication 
-/vwLUAssets/EY-13th-Global-Fraud-
-Survey/$FILE/EY-13th-Global-Fraud-Survey.pdf.
+www.ey.com/Publication
+/vwLUAssets/EY-13th-Global-FraudSurvey/$FILE/EY-13th-Global-Fraud-Survey.pdf.
 Fabrigar, L. R., et R. E. Petty, 1999, « The Role of the Affective and
 Cognitive Bases of Attitudes in Susceptibility to Affectively and Cognitively
 Based Persuasion », Personality and Social Psychology Bulletin 25, no 3,
@@ -8727,10 +8657,8 @@ Social Psychology Bulletin 23, p. 1215-1226.
 Feinberg, M., et R. Willer, 2011, « Apocalypse Soon ? Dire Messages Reduce
 Belief in Global Warming by Contradicting Just-World Beliefs »,
 Psychological Science 22, p. 34-38.
-Fennis, B. M., et W. Stroebe, 2014, « Softening the Blow : Company Self-
-Disclosure of Negative Information Lessens Damaging Effects on Consumer
-Judgment and Decision Making », Journal of Business Ethics 120, p. 109-
-120.
+Fennis, B. M., et W. Stroebe, 2014, « Softening the Blow : Company SelfDisclosure of Negative Information Lessens Damaging Effects on Consumer
+Judgment and Decision Making », Journal of Business Ethics 120, p. 109120.
 Fennis, B. M., M. A. Adriaanse, W. Stroebe et B. Pol, 2011, « Bridging the
 Intention-Behavior Gap : Inducing Implementation Intentions through
 Persuasive Appeals », Journal of Consumer Research 21, p. 302-311.
@@ -8747,8 +8675,7 @@ Fincham, F. D., N. M. Lambert et S. R. H. Beach, 2010, « Faith and
 Unfaithfulness : Can Praying for Your Partner Reduce Infidelity ? », Journal
 of Personality and Social Psychology 99, p. 649-659.
 Finkel, E. J., et P. W. Eastwick, 2009, « Arbitrary Social Norms Influence Sex
-Differences in Romantic Selectivity », Psychological Science 20, p. 1290-
-1295.
+Differences in Romantic Selectivity », Psychological Science 20, p. 12901295.
 
 
 Fishbach, A., R. K. Ratner et Y. Zhang, 2011, « Inherently Loyal or Easily
@@ -8769,8 +8696,7 @@ Fogg, B. J., et C. Nass, 1997, « Silicon Sycophants : The Effects of
 Computers That Flatter », International Journal of Human-Computer
 Studies 46, p. 551-561.
 Forster, J., N. Liberman et E. T. Higgins, 2005, « Accessibility from Active
-and Fulfilled Goals », Journal of Experimental Social Psychology 41, p. 220-
-239.
+and Fulfilled Goals », Journal of Experimental Social Psychology 41, p. 220239.
 Fredman, L. A., M. D. Buhrmester, A. Gomez, W. T. Fraser, S. Talaifar, S. M.
 Brannon et W. B. Swann Jr., 2015, « Identity Fusion, Extreme ProGroup
 Behavior, and the Path to Defusion », Social and Personality Psychology
@@ -8814,8 +8740,7 @@ A. Shibuya, A. Liau, A. Khoo, B. Bushman, L. R. Huesmann et A. Sakamoto,
 2009, « The Effects of Prosocial Video Games on Prosocial Behaviors :
 International Evidence from Correlational, Longitudinal, and Experimental
 Studies », Personality and Social Psychology Bulletin 35, p. 752-763.
-Gerber, A. G., D. P. Green et R. Shachar, 2003, « Voting May Be Habit-
-Forming : Evidence From a Randomized Field Experiment », American
+Gerber, A. G., D. P. Green et R. Shachar, 2003, « Voting May Be HabitForming : Evidence From a Randomized Field Experiment », American
 Journal of Political Science 47, p. 540550.
 Ghosh, B., 2009, « How to Make Terrorists Talk », Time, 8 juin, p. 40-43.
 
@@ -8833,14 +8758,14 @@ Glaser, J., et M. R. Banaji, 1999, « When Fair Is Foul and Foul Is Fair :
 Reverse Priming in Automatic Evaluation », Journal of Personality and
 Social Psychology 77, p. 669-687.
 Gluckman, M., et S. J. Johnson, 2013, « Attention Capture by Social Stimuli
-in 
-Young 
-Infants 
-», 
-Frontiers 
-in 
-Psychology. 
-DOI 
+in
+Young
+Infants
+»,
+Frontiers
+in
+Psychology.
+DOI
 :
 10.3389/fpsyg.2013.00527.
 Gneezy, A., A. Imas, A. Brown, L. D. Nelson et M. I. Norton, 2012, « Paying
@@ -8886,8 +8811,7 @@ Compliments as a Tactic for Securing Compliance », Basic and Applied
 Social Psychology 32, p. 226-233.
 Gray, K., D. G. Rand, E. Ert, K. Lewis, S. Hershman et M. I. Norton, 2014,
 « The Emergence of “Us” and “Them” in 80 Lines of Code : Modeling Group
-Genesis in Homogeneous Populations », Psychological Science 25, p. 982-
-990.
+Genesis in Homogeneous Populations », Psychological Science 25, p. 982990.
 Grecco, E., S. J. Robbins, E. Bartoli et E. F. Wolff, 2013, « Use of
 Nonconscious Priming to Promote Self-Disclosure », Clinical Psychological
 Science 1, p. 311-315.
@@ -8900,8 +8824,7 @@ of Handwritten Material », Social and Personality Science 1, p. 230-237.
 
 Greitemeyer, T., et D. O. Mügge, 2014, « Video Games Do Affect Social
 Outcomes : A Meta-Analytic Review of the Effects of Violent and Prosocial
-Video Game Play », Personality and Social Psychology Bulletin 40, p. 578-
-589.
+Video Game Play », Personality and Social Psychology Bulletin 40, p. 578589.
 Greitemeyer, T., et S. Osswald, 2010, « Effects of Prosocial Videogames on
 Prosocial Behavior », Journal of Personality and Social Psychology 98,
 p. 211-220.
@@ -8948,8 +8871,7 @@ Hagmann, C. E., et R. G. Cook, 2013, « Active Change Detection by Pigeons
 and Humans », Journal of Experimental Psychology : Animal Behavior
 Processes 39, p. 383-389.
 Hall, C. C., J. Zhao et E. Shafir, 2014, « Self-Affirmation Among the Poor :
-Cognitive and Behavioral Implications », Psychological Science 25, p. 619-
-625.
+Cognitive and Behavioral Implications », Psychological Science 25, p. 619625.
 Halvorson, H. G., et E. T. Higgins, 2013, Focus : Use Different Ways of
 Seeing the World for Success and Influence, Hudson Street Press, New York.
 Hamilton, R., J. Hong et A. Chernev, 2007, « Perceptual Focus Effects in
@@ -9006,8 +8928,7 @@ In-Store Sampling Promotions », British Food Journal 113, p. 1252-1266.
 Heimbach, J. T., et J. Jacoby, 1972, « The Zeigarnik Effect in Advertising »,
 in Proceedings of the Third Annual Conference of the Association for
 Consumer Research, édité par M. Ventakesan, College Park, MD, p. 746-757.
-Heintzelman, S. J., et L. A. King, 2014, « (The Feeling of) Meaning-as-
-Information », Personality and Social Psychology Review 18, p. 153-167.
+Heintzelman, S. J., et L. A. King, 2014, « (The Feeling of) Meaning-asInformation », Personality and Social Psychology Review 18, p. 153-167.
 Helie, S., et R. Sun, 2010, « Incubation, Insight, and Creative Problem
 Solving : A Unified Theory and a Connectionist Model », Psychological
 Review 17, p. 994-1024.
@@ -9025,8 +8946,7 @@ Experimental Social Psychology 37, p. 316-324.
 Herzog, S. M., et R. Hertwig, 2009, « The Wisdom of Many in One Mind :
 Improving Individual Judgments with Dialectical Bootstrapping »,
 Psychological Science 20, p. 231-237.
-Heyes, C., 2011, « Automatic Imitation », Psychological Bulletin 137, p. 463-
-483.
+Heyes, C., 2011, « Automatic Imitation », Psychological Bulletin 137, p. 463483.
 Higgins, E. T., 1996, « Knowledge Activation : Accessibility, Applicability,
 and Salience », in Social Psychology : Handbook of Basic Principles, édité
 par E. T. Higgins et A. W. Kruglanski, Guilford Press, New York.
@@ -9037,14 +8957,12 @@ Perception », Annual Review of Psychology 38, p. 369-425.
 Higgins, G. E., A. L. Wilson et B. D. Fell, 2005, « An Application of
 Deterrence Theory to Software Piracy », Journal of Criminal Justice and
 Popular Culture 12, p. 166-184.
-Hirt, E. R., et K. D. Markman, 1995, « Multiple Explanation : A Consider-an-
-Alternative Strategy for Debiasing Judgments », Journal of Personality and
+Hirt, E. R., et K. D. Markman, 1995, « Multiple Explanation : A Consider-anAlternative Strategy for Debiasing Judgments », Journal of Personality and
 Social Psychology 69, p. 1069-1086.
 Hoch, S. J., 1985, « Counterfactual Reasoning and Accuracy in Predicting
 Personal Events », Journal of Experimental Psychology : Learning, Memory,
 and Cognition 11, p. 719-731.
-Hodges, B., 2004, « Medical Student Bodies and the Pedagogy of Self-
-Reflection, Self-Assessment, and Self-Regulation », Journal of Curriculum
+Hodges, B., 2004, « Medical Student Bodies and the Pedagogy of SelfReflection, Self-Assessment, and Self-Regulation », Journal of Curriculum
 Theorizing 20, p. 41-51.
 Hofmann, W., J. De Houwer, M. Perugini, F. Baeyens et G. Crombez, 2010,
 « Evaluative Conditioning in Humans : A Meta-Analysis », Psychological
@@ -9094,14 +9012,14 @@ Hütter, M., S. Sweldens, C. Stahl, C. Unkelbach et K. C. Klauer, 2012,
 of Contingency-Unaware Evaluative Conditioning », Journal of Experimental
 Psychology : General 141, no 3, p. 539-557.
 Hygge, S., G. W. Evans et M. Bullinger, 2002, « A Prospective Study of
-Some 
-Effects 
-of 
-Aircraft 
-Noise 
-on 
-Cognitive 
-Performance 
+Some
+Effects
+of
+Aircraft
+Noise
+on
+Cognitive
+Performance
 in
 Schoolchildren », Psychological Science 13, p. 469-474.
 Hyman, I. E., S. M. Boss, B. M. Wise, K. E. McKenzie et J. M. Caggiano,
@@ -9113,15 +9031,14 @@ Research, Prometheus Books, Buffalo.
 
 
 Hyman, R., 1995, « Evaluation of Program on Anomalous Mental
-Phenomena 
-» 
+Phenomena
+»
 ;
 www.mceagle.com/remoteviewing/refs/science/air/hyman.html.
 Ijzerman, H., et G. Semin, 2009, « The Thermometer of Social Relations »,
 Psychological Science 20, p. 1214-1220.
 Ijzerman, H., et G. Semin, 2010, « Temperature Perceptions as a Ground for
-Social Proximity », Journal of Experimental Social Psychology 46, p. 867-
-873.
+Social Proximity », Journal of Experimental Social Psychology 46, p. 867873.
 Inagaki, T. K., et N. I. Eisenberger, 2013, « Shared Neural Mechanisms
 Underlying Social Warmth and Physical Warmth », Psychological Science 24,
 p. 2272-2280.
@@ -9134,15 +9051,13 @@ of Restrictions in Accentuating Deal Value », Journal of Consumer
 Research 24, p. 68-79.
 Inzlicht, M. et T. Ben-Zeev, 2000, « A Threatening Intellectual Environment :
 Why Females Are Susceptible to Experiencing Problem-Solving Deficits in
-the Presence of Males », Psychological Science 11, no 5 (septembre), p. 365-
-371.
+the Presence of Males », Psychological Science 11, no 5 (septembre), p. 365371.
 Inzlicht, M., J. N. Gutsell et L. Legault, 2012, « Mimicry Reduces Racial
 Prejudice », Journal of Experimental Social Psychology 48, p. 361-365.
 Ireland, M. E., R. B. Slatcher, P. W. Eastwick, L. E. Scissors, E. J. Finkel et
 J. W. Pennebaker, 2011, « Language Style Matching Predicts Relationship
 Initiation and Stability », Psychological Science 22, p. 39-44.
-Isaacowitz, D. M., K. Toner et S. D. Neupert, 2009, « Use of Gaze for Real-
-Time Mood Regulation : Effects of Age and Attentional Functioning »,
+Isaacowitz, D. M., K. Toner et S. D. Neupert, 2009, « Use of Gaze for RealTime Mood Regulation : Effects of Age and Attentional Functioning »,
 Psychology and Aging 24, p. 989994.
 Isen, A. M., T. E. Shalker, M. Clark et L. Karp, 1978, « Affect, Accessibility
 of Material in Memory, and Behavior », Journal of Personality and Social
@@ -9195,12 +9110,10 @@ Jones, J. T., B. W. Pelham, M. R. Carvallo et M. C. Mirenberg, 2004, « How
 Do I Love Thee ? Let Me Count the Js. Implicit Egoism and Interpersonal
 Attraction », Journal of Personality and Social Psychology 87, p. 665-683.
 Jones, J. T., B. Pelham, M. C. Mirenberg et J. J. Hetts, 2002, « Name Letter
-Preferences Are Not Merely Mere Exposure : Implicit Egoism as Self-
-Regulation », Journal of Experimental Social Psychology 38, p. 170-177.
+Preferences Are Not Merely Mere Exposure : Implicit Egoism as SelfRegulation », Journal of Experimental Social Psychology 38, p. 170-177.
 Jones, T. F., A. S. Craig, D. Hoy, E. W. Gunter, D. L. Ashley, D. Bar, J. W.
 Brock et W. Schaffner, 2000, « Mass Psychogenic Illness Attributed to Toxic
-Exposure at a High School », New England Journal of Medicine 342, p. 96-
-100.
+Exposure at a High School », New England Journal of Medicine 342, p. 96100.
 Joorman, J., et W. M. Vanderlind, 2014, « Emotion Regulation in Depression :
 The Role of Biased Cognition and Reduced Cognitive Control », Clinical
 Psychological Science 2, p. 402421.
@@ -9221,8 +9134,7 @@ Kalmoe, N. P., et K. Gross, sous presse, « Cuing Patriotism, Prejudice, and
 Partisanship in the Age of Obama », Political Psychology. Article mis en
 ligne pour la première fois le 21 octobre 2015 ; DOI : 10.1111/pops.12305.
 Kaminski, G., F. Ravary, C. Graff et E. Gentaz, 2010, « Firstborns’
-Disadvantage in Kinship Detection », Psychological Science 21, p. 1746-
-1750.
+Disadvantage in Kinship Detection », Psychological Science 21, p. 17461750.
 Kandler, C., W. Bleidorn et R. Riemann, 2012, « Left or Right ? Sources of
 Political Orientation : The Roles of Genetic Factors, Cultural Transmission,
 Assortative Mating, and Personality », Journal of Personality and Social
@@ -9237,11 +9149,9 @@ Kardes, F. R., 2013, « Selective Versus Comparative Processing », Journal of
 Consumer Psychology 23, p. 150-153.
 Kardes, F. R., D. M. Sanbonmatsu, M. L. Cronley et D. C. Houghton, 2002,
 « Consideration Set Overvaluation : When Impossibly Favorable Ratings of a
-Set of Brands Are Observed », Journal of Consumer Psychology 12, p. 353-
-361.
+Set of Brands Are Observed », Journal of Consumer Psychology 12, p. 353361.
 Karpoff, J. M., D. S. Lee et G. S. Martin, 2008, « The Cost to Firms of
-Cooking the Books », Journal Financial Quantitative Analysis 43, p. 581-
-612.
+Cooking the Books », Journal Financial Quantitative Analysis 43, p. 581612.
 Karpoff, J. M., J. R. Lott et E. W. Wehrly, 2005, « The Reputational Penalties
 for Environmental Violations : Empirical Evidence », Journal of Law and
 Economics 48, p. 653675.
@@ -9329,8 +9239,7 @@ Casualties : The Differential Impact of Local Casualties on Support for the
 War in Afghanistan », Public Opinion Quarterly 76, p. 761-770.
 Kristofferson, K., K. White et J. Peloza, 2014, « The Nature of Slacktivism :
 How the Social Observability of an Initial Act of Token Support Affects
-Subsequent Prosocial Action », Journal of Consumer Research 40, p. 1149-
-1166.
+Subsequent Prosocial Action », Journal of Consumer Research 40, p. 11491166.
 Krizan, Z., et J. Suls, 2008, « Losing Sight of Oneself in the Above-Average
 Effect : When Egocentrism, Focalism, and Group Diffusiveness Collide »,
 Journal of Experimental Social Psychology 44, p. 929-942.
@@ -9409,8 +9318,7 @@ Memory 24, no 1 (janvier), p. 12-20.
 Lawson, M., 2013, « Visit Your Folks (or Else!) », AARP Bulletin (mai),
 p. 10.
 Leach, W. C., N. Ellemers et M. Barreto, 2007, « Group Virtue : The Impact
-of Morality (vs. Competence and Sociability) in the Positive Evaluation of In-
-Groups », Journal of Personality and Social Psychology 93, p. 234-249.
+of Morality (vs. Competence and Sociability) in the Positive Evaluation of InGroups », Journal of Personality and Social Psychology 93, p. 234-249.
 Leding, J. K., 2012, « False Memories and Persuasive Strategies », Review of
 General Psychology 16, p. 256-268.
 Lee, S. W. S., et N. Schwarz, 2012, « Bidirectionality, Mediation, and
@@ -9418,12 +9326,10 @@ Moderation of Metaphorical Effects », Journal of Personality and Social
 Psychology 103, p. 737-749.
 Leek, M., et P. K. Smith, 1989, « Phenotypic Matching, Human Altruism, and
 Mate Selection », Behavioral and Brain Sciences 12, p. 534-535.
-Leek, M., et P. K. Smith, 1991, « Cooperation and Conflict in Three-
-Generation Families », in The Psychology of Grandparenthood : An
+Leek, M., et P. K. Smith, 1991, « Cooperation and Conflict in ThreeGeneration Families », in The Psychology of Grandparenthood : An
 
 
-International Perspective, édité par P. K. Smith, Routledge, Londres, p. 177-
-194.
+International Perspective, édité par P. K. Smith, Routledge, Londres, p. 177194.
 Leo, R. A., 2008, Police Interrogation and American Justice, Harvard
 University Press, Cambridge, MA.
 Leopold, A., 2000, Almanach d’un comté des sables, traduit par A. Gibson,
@@ -9451,8 +9357,7 @@ Mechanisms Underlying In-Group Favoritism », Psychological Science 21,
 p. 1623-1628.
 Liberman, N., et Y. Trope, 1998, « The Role of Feasibility and Desirability
 Considerations in Near and Distant Future Decisions : A Test of Temporal
-Construal Theory », Journal of Personality and Social Psychology 75, p. 5-
-18.
+Construal Theory », Journal of Personality and Social Psychology 75, p. 518.
 
 
 Lick, D. J., et K. L. Johnson, 2015, « Interpersonal Consequences of
@@ -9496,8 +9401,7 @@ Psychology 105, p. 777-798.
 Loersch, C., et B. K. Payne, 2011, « A Situated Inference Model : An
 Integrative Account of the Effects of Primes on Perception, Behavior, and
 Motivation », Perspectives on Psychological Science 6, p. 234-252.
-Loftus, E. F., 2011, « Intelligence Gathering Post-9/11 », American Psycho-
-logist 66, p. 532541.
+Loftus, E. F., 2011, « Intelligence Gathering Post-9/11 », American Psychologist 66, p. 532541.
 Lord, C. G., M. R. Lepper et E. Preston, 1984, « Considering the Opposite : A
 Corrective Strategy for Social Judgment », Journal of Personality and Social
 Psychology 47, p. 12311243.
@@ -9506,8 +9410,7 @@ McKinsey Quarterly, mars 2010, p. 1-16.
 Lubinski, D., C. P. Benbow et H. J. Kell, 2014, « Life Paths and
 Accomplishments of Mathematically Precocious Males and Females Four
 Decades Later », Psychological Science 25, p. 2217-2232.
-Lull, R. B., et B. J. Bushman, 2015, « Do Sex and Violence Sell ? A Meta-
-Analytic Review of the Effects of Sexual and Violent Media and Ad Content
+Lull, R. B., et B. J. Bushman, 2015, « Do Sex and Violence Sell ? A MetaAnalytic Review of the Effects of Sexual and Violent Media and Ad Content
 on Memory, Attitudes and Buying Intentions », Psychological Bulletin 141,
 p. 1022-1048.
 Lyubomirsky, S., 2011, Comment être heureux et le rester, traduit par C. Fort,
@@ -9537,8 +9440,7 @@ Popular Music from 1971 to 2011 », SAGE Open 4, no 3 (août). DOI :
 10.1177/2158244014547179.
 Madden, M., 2014, « More Online Americans Say They’ve Experienced a
 Personal Data Breach », Pew Research Center Fact Tank, 14 avril ;
-www.pewresearch.org/fact-tank/2014/04/14/more-online-americans-say-
-theyve-experienced-a-personal-data-breach.
+www.pewresearch.org/fact-tank/2014/04/14/more-online-americans-saytheyve-experienced-a-personal-data-breach.
 Maddux, W. W., E. E. Mullen et A. D. Galinsky, 2008, « Chameleons Bake
 Bigger Pies and Take Bigger Pieces : Strategic Behavioral Mimicry Facilitates
 Negotiation Outcomes », Journal of Experimental Social Psychology 44,
@@ -9549,14 +9451,12 @@ Attitudes in Rhesus Macaques », Journal of Personality and Social
 Psychology 100, n° 3 (mars), p. 387-405.
 Maio, G. R., A. Pakizeh, W-Y. Cheung et K. J. Rees, 2009, « Changing,
 Priming, and Acting on Values : Effects via Motivational Relations in a
-Circular Model », Journal of Personality and Social Psychology 97, p. 699-
-715.
+Circular Model », Journal of Personality and Social Psychology 97, p. 699715.
 Mandel, N., et E. J. Johnson, 2002, « When Web Pages Influence Choice :
 Effects of Visual Primes on Experts and Novices », Journal of Consumer
 Research 29, p. 235-245.
 Mandel, N., P. K. Petrova et R. B. Cialdini, 2006, « Images of Success and the
-Preference for Luxury Brands », Journal of Consumer Psychology 16, p. 57-
-69.
+Preference for Luxury Brands », Journal of Consumer Psychology 16, p. 5769.
 
 
 Maner, J. K., M. T. Gailliot et S. L. Miller, 2009, « The Implicit Cognition of
@@ -9605,8 +9505,7 @@ Mashek, D. J., A. Aron et M. Boncimino, 2003, « Confusions of Self with
 Close Others », Personality and Social Psychology Bulletin 29, p. 382-392.
 Mason, M. F., E. P. Tatkow et C. N. Macrae, 2005, « The Look of Love :
 Gaze Shifts and Person Perception », Psychological Science 16, p. 236-239.
-Masuda, T., et R. Nisbett, 2001, « Attending Holistically versus Analy-
-tically : Comparing the Context Sensitivity of Japanese and Americans »,
+Masuda, T., et R. Nisbett, 2001, « Attending Holistically versus Analytically : Comparing the Context Sensitivity of Japanese and Americans »,
 Journal of Personality and Social Psychology 81, p. 922-934.
 Masuda, T., R. Gonzalez, I. Kwan et R. Nesbitt, 2008, « Culture and
 Aesthetic Preference : Comparing the Attention to Context of East Asians and
@@ -9624,8 +9523,7 @@ Mayer, D. M., M. Kuenzi, R. Greenbaum, M. Bardes et R. Salvador, 2009,
 Organization and Human Decision Processes 108, p. 1-13.
 Mazzoni, G., et A. Memon, 2003, « Imagination Can Create False
 Autobiographical Memories », Psychological Science 25, p. 266-281.
-McAlister, A. L., A. G. Ramirez, C. Galavotti et K. J. Gallion, 1989, « Anti-
-Smoking Campaigns : Progress in the Application of Social Learning
+McAlister, A. L., A. G. Ramirez, C. Galavotti et K. J. Gallion, 1989, « AntiSmoking Campaigns : Progress in the Application of Social Learning
 
 
 Theory », in Public Communication Campaigns, édité par R. E. Rice et C. K.
@@ -9658,8 +9556,7 @@ p. 424-428.
 McGraw, K. O., et J. Fiala, 1982, « Undermining the Zeigarnik Effect :
 Another Hidden Cost of Reward », Journal of Personality 50, p. 58-66.
 McGuire, W. J., 1961, « The Effectiveness of Supportive and Refutational
-Defenses in Immunizing and Restoring Beliefs against Persuasion », Socio-
-metry 24, p. 184-197.
+Defenses in Immunizing and Restoring Beliefs against Persuasion », Sociometry 24, p. 184-197.
 
 
 McIntyre, R. B., R. M. Paulson et C. G. Lord, 2003, « Alleviating Women’s
@@ -9670,8 +9567,7 @@ Handbook of Cognition, édité par R. L. G. Koen Lamberts, Sage, Thousand
 Oaks, CA, p. 321-338.
 McNeill, W. H., 2005, L’art de marquer le temps : la danse et le drill dans
 l’histoire, traduit par J.-P. Ricard, Le Rouergue - Chambon, Rodez.
-Meltzoff, A., 2007, « Like Me : A Foundation for Social Cognition », Deve-
-lopmental Science 10, p. 126-134.
+Meltzoff, A., 2007, « Like Me : A Foundation for Social Cognition », Developmental Science 10, p. 126-134.
 Mendl, J. R., S. B. Ehrlich et J. M. Dukerich, 1985, « The Romance of
 Leadership », Adminstrative Science Quarterly 30, p. 78-102.
 Mercer, A., A. Caporaso, D. Cantor et J. Townsend, 2015, « How Much Gets
@@ -9702,19 +9598,18 @@ Miller, R. S., 1997, « Inattentive and Contented : Relationship Commitment
 and Attention to Alternatives », Journal of Personality and Social
 Psychology 73, p. 758-756.
 Mitchell, J. P., M. Banaji et C. N. Macrae, 2005, « The Link Between Social
-Cognition 
-and 
-Self-Referential 
-Thought 
-», 
-Journal 
-of 
+Cognition
+and
+Self-Referential
+Thought
+»,
+Journal
+of
 Cognitive
 Neuroscience 17, p. 1306-1315.
 Miyake, A., L. E. Kost-Smith, N. D. Finkelstein, S. J. Pollock, G. L. Cohen et
 T. A. Ito, 2010, « Reducing the Gender Achievement Gap in College
-Science : A Classroom Study of Values Affirmation », Science 330, p. 1234-
-1237.
+Science : A Classroom Study of Values Affirmation », Science 330, p. 12341237.
 Molnar-Szakacs, I., et K. Overy, 2006, « Music and Mirror Neurons : From
 Motion to “E”motion », Social Cognitive and Affective Neuroscience 1,
 p. 235-241.
@@ -9775,8 +9670,7 @@ Consumer Services 8, p. 227-236.
 
 Nickerson, R. S., 1998, « Confirmation Bias : A Ubiquitous Phenomenon in
 Many Guises », Review of General Psychology 2, p. 175-220.
-Niemeier, V., J. Kupfer et U. Gieler, 2000, « Observations During an Itch-
-Inducing Lecture », Dermatology and Psychosomatics 1 (suppl. 1), p. 15-18.
+Niemeier, V., J. Kupfer et U. Gieler, 2000, « Observations During an ItchInducing Lecture », Dermatology and Psychosomatics 1 (suppl. 1), p. 15-18.
 Nisbett, R., 2003, The Geography of Thought : How Asians and Westerners
 Think Differently… and Why, Free Press, New York.
 Noar, S. M., C. N. Benac et M. S. Harris, 2007, « Does Tailoring Matter ?
@@ -9801,13 +9695,11 @@ Labor Leads to Love », Journal of Consumer Psychology 22, p. 453-460.
 DOI : 10.1016/j.jcps.2011.08.002.
 Oberholzer-Gee, F., 2006, « A Market for Time : Fairness and Efficiency in
 Waiting Lines », Kyklos 59, p. 427-440.
-Obermeier, C., W. Menninghaus, M. von Koppenfels, T. Raettig, M. Schmidt-
-Kassow, S. Otterbein et S. A. Kotz, 2013, « Aesthetic and Emotional Effects
+Obermeier, C., W. Menninghaus, M. von Koppenfels, T. Raettig, M. SchmidtKassow, S. Otterbein et S. A. Kotz, 2013, « Aesthetic and Emotional Effects
 of Meter and Rhyme in Poetry », Frontiers in Psychology 4, p. 10.
 
 
-Oettingen, G., G. Hönig et P. M. Gollwitzer, 2000, « Effective Self-
-Regulation of Goal Attainment », International Journal of Educational
+Oettingen, G., G. Hönig et P. M. Gollwitzer, 2000, « Effective SelfRegulation of Goal Attainment », International Journal of Educational
 Research 33, p. 705-732.
 Oishi, S., S. Kesebir et E. Diener, 2001, « Income Inequality and Happiness »,
 Psychological Science 22, p. 1095-1100.
@@ -9841,8 +9733,7 @@ Ovsiankina, M., 1928, « Die Wiederaufnahme von unterbrochener
 Handlungen », Psychologische Forschung 11, p. 302-379.
 
 
-Oyserman, D., 2009, « Identity-Based Motivation : Implications for Action-
-Readiness, Procedural-Readiness, and Consumer Behavior », Journal of
+Oyserman, D., 2009, « Identity-Based Motivation : Implications for ActionReadiness, Procedural-Readiness, and Consumer Behavior », Journal of
 Consumer Psychology 19, p. 250-260.
 Oyserman, D., et S. W. S. Lee, 2008, « Does Culture Influence What and
 How We Think ? Effects of Priming Individualism and Collectivism »,
@@ -9869,8 +9760,7 @@ Evolution and Human Behavior 26, p. 158-170.
 Park, J. H., M. Schaller et M. Van Vugt, 2008, « Psychology of Human Kin
 Recognition : Heuristic Cues, Erroneous Inferences, and Their Implications »,
 Review of General Psychology 12, p. 215-235.
-Parker, J. R., et D. R. Lehmann, 2015, « How and When Grouping Low-
-Calorie Options Reduces the Benefits of Providing Dish-Specific Calorie
+Parker, J. R., et D. R. Lehmann, 2015, « How and When Grouping LowCalorie Options Reduces the Benefits of Providing Dish-Specific Calorie
 Information », Journal of Consumer Research 41, p. 213-235.
 Parks, A. C., M. D. Della Porta, R. S. Pierce, R. Zilca et S. Lyubomirsky,
 2012, « Pursuing Happiness in Everyday Life : The Characteristics and
@@ -9936,8 +9826,7 @@ Pfau, M., M. M. Haigh, L. Logsdon, C. Perrine, J. P. Baldwin, R. E.
 Breitenfeldt, J. Cesar, D. Dearden, G, Kuntz, E. Montalvo, D. Roberts et
 R. Romero, 2005, « Embedded Reporting During the Invasion and
 Occupation of Iraq : How the Embedding of Journalists Affects Television
-News Reports », Journal of Broadcasting and Electronic Media 49, p. 468-
-487.
+News Reports », Journal of Broadcasting and Electronic Media 49, p. 468487.
 Pfau, M., M. Haigh, M. Gettle, M. Donnelly, G. Scott, D. Warr et E.
 Wittenberg, 2004, « Embedding Journalists in Military Combat Units : Impact
 on Newspaper Story Frames and Tone », Journalism and Mass
@@ -9963,8 +9852,7 @@ Posavac, S. S., F. R. Kardes, D. M. Sanbonmatsu D. M. et Fitzsimons G. J.,
 2005, « Blissful insularity : When brands are judged in isolation from
 competitors », Marketing Letters 16, p. 87-97.
 Posavac, S. S., Sanbonmatsu, D. M. et E. A. Ho, 2002, « The Effects of
-Selective Consideration of Alternatives on Consumer Choice and Attitude-
-Decision Consistency », Journal of Consumer Psychology 12, p. 203-213.
+Selective Consideration of Alternatives on Consumer Choice and AttitudeDecision Consistency », Journal of Consumer Psychology 12, p. 203-213.
 Posavac, S. S., D. M. Sanbonmatsu, F. R. Kardes et G. J. Fitzsimons, 2004,
 « The Brand Positivity Effect : When Evaluation Confers Preference »,
 Journal of Consumer Research 31, p. 643-651.
@@ -10010,14 +9898,14 @@ of Truth », Consciousness and Cognition 8, p. 338-342.
 Reed, A. E., et L. L. Carstensen, 2012, « The Theory Behind the Age-Related
 Positivity Effect », Frontiers in Psychology 27, p. 339.
 Reed, C., 2009, « Journalists’ Recent Work Examined Before Embeds »
-(version 
-électronique), 
-Stars 
-and 
-Stripes, 
-24 
-août 
-2009 
+(version
+électronique),
+Stars
+and
+Stripes,
+
+août
+
 :
 
 
@@ -10056,12 +9944,12 @@ p. 651-665.
 
 Roseth, C. J., D. W. Johnson et R. T. Johnson, 2008, « Promoting Early
 Adolescent Achievement and Peer Relationships : The Effects of Cooperative,
-Competitive, 
-and 
-Individualistic 
-Goal 
-Structures 
-», 
+Competitive,
+and
+Individualistic
+Goal
+Structures
+»,
 Psychological
 Bulletin 134, p. 223-246.
 Ross, J. R., 1994, Escape to Shanghai : A Jewish Community in China, Free Press, New
@@ -10069,8 +9957,7 @@ York.
 Ross, M., et F. Sicoly, 1979, « Egocentric Biases in Availability and
 Attribution », Journal of Personality and Social Psychology 37, p. 322-336.
 Rothbart, M., et B. Park, 1986, « On the Confirmability and Disconfirmability
-of Trait Concepts », Personality and Social Psychology Bulletin 50, p. 131-
-142.
+of Trait Concepts », Personality and Social Psychology Bulletin 50, p. 131142.
 Rowe C., J. M. Harris et S. C. Roberts, 2005, « Sporting Contests : Seeing
 Red ? Putting Sportswear in Context », Nature 437, E10.
 Rozin, P., et E. B. Royzman, 2001, « Negativity Bias, Negativity Dominance,
@@ -10086,8 +9973,7 @@ Degrees of Social Influence, édité par D. T. Kenrick, N. J. Goldstein et S. L.
 Braver, Oxford University Press, New York.
 Sah, S., et G. Loewenstein, 2010, « Effect of Reminders of Personal Sacrifice
 and Suggested Rationalizations on Residents’ Self-Reported Willingness to
-Accept Gifts », Journal of the American Medical Association 304, p. 1204-
-1211.
+Accept Gifts », Journal of the American Medical Association 304, p. 12041211.
 Salancik, G. R., et J. R. Mendl, 1984, « Corporate Attributions as Strategic
 Illusions of Management Control », Administrative Science Quarterly 29,
 p. 238-254.
@@ -10097,8 +9983,7 @@ Discretion : The Limited Influence of Mayors on City Budgets », Urban
 
 Affairs Quarterly 12, p. 475-498.
 Sanbonmatsu, D. M., S. S. Posavac, F. R. Kardes et S. P. Mantel, 1989,
-« Selective Hypothesis Testing », Psychonomic Bulletin and Review 5, p. 197-
-220.
+« Selective Hypothesis Testing », Psychonomic Bulletin and Review 5, p. 197220.
 Scherpenzeel, A., et V. Toepol, 2012, « Recruiting a Probability Sample for an
 Online Panel », Public Opinion Quarterly 76, p. 470-490.
 Schkade, D, A., et D. Kahneman, 1998, « Does Living in California Make
@@ -10113,13 +9998,13 @@ Perspectives on Psychological Science 9, p. 211-218.
 Schmiege, S. J., W. M. P. Klein et A. D. Bryan, 2010, European Journal of
 Social Psychology 40, p. 746-759.
 Schmierbach, M., 2010, « “Killing Spree” : Exploring the Connection
-Between 
-Competitive 
-Game 
-Play 
-and 
-Aggressive 
-Cognition 
+Between
+Competitive
+Game
+Play
+and
+Aggressive
+Cognition
 »,
 Communication Research 37, p. 256-274.
 Schneider, I. K., M. Parzuchowski, B. Wojciszke, N. Schwarz et S. L. Koole,
@@ -10152,8 +10037,7 @@ Consumer Reengagement », Journal of Consumer Research 40, p. 444-459.
 Sedikides, C., et J. J. Skoronski, 1990, « Toward Reconciling Personality and
 Social Psychology : A Construct Accessibility Approach », Journal of Social
 Behavior and Personality 5, p. 531-546.
-Sedikides, C., L. Gaertner et J. L. Vevea, 2005, « Pancultural Self-
-Enhancement Reloaded : A Meta-Analytic Reply », Journal of Personality
+Sedikides, C., L. Gaertner et J. L. Vevea, 2005, « Pancultural SelfEnhancement Reloaded : A Meta-Analytic Reply », Journal of Personality
 and Social Psychology 89, p. 539-551.
 Seidenberg, M. S., 2005, « Connectionist Models of Word Reading », Current
 Directions in Psychological Science 14, p. 238-242.
@@ -10197,8 +10081,7 @@ Current Directions in Psychological Science 3, p. 86-89.
 Shapiro, S. A., et J. H. Nielson, « What the Blind Eye Sees : Incidental
 Change Detection as a Source of Perceptual Fluency », 2013, Journal of
 Consumer Research 39, p. 1202-1218.
-Sharot, T., S. M. Fleming, X. Yu, R. Koster et R. J. Dolan, 2012, « Is Choice-
-Induced Preference Change Long Lasting ? », Psychological Science 23,
+Sharot, T., S. M. Fleming, X. Yu, R. Koster et R. J. Dolan, 2012, « Is ChoiceInduced Preference Change Long Lasting ? », Psychological Science 23,
 p. 1123-1129.
 Sharot, T., C. M. Velasquez et R. J. Dolan, 2010, « Do Decisions Shape
 Preference ? Evidence from Blind Choice », Psychological Science 21,
@@ -10242,13 +10125,13 @@ Sinaceur, M., C. Heath et S. Cole, 2005, « Emotional and Deliberative
 Reaction to a Public Crisis : Mad Cow Disease in France », Psychological
 Science 16, p. 247-254.
 Sinclair, B., M. McConnell et M. R. Michelson, 2013, « Local Canvassing :
-The 
-Efficacy 
-of 
-Grassroots 
-Voter 
-Mobilization 
-», 
+The
+Efficacy
+of
+Grassroots
+Voter
+Mobilization
+»,
 Political
 Communications 30, p. 42-57.
 Singer, M. T., et J. Lalich, 1995, Cults in Our Midst, Jossey-Bass, San
@@ -10293,17 +10176,17 @@ Steele, C. M., S. J. Spencer et J. Aronson, 2002, « Contending with Group
 Image : The Psychology of Stereotype and Social Identity Threat », in
 Advances in Experimental Social Psychology, vol. 34, édité par M. P. Zanna,
 Academic Press, San Diego, CA, p. 379-440.
-Stein, 
-J., 
-2008, 
-« 
-The 
-Swing 
-Voter 
-», 
-Time, 
-7 
-août 
+Stein,
+J.,
+2008,
+«
+The
+Swing
+Voter
+»,
+Time,
+
+août
 ;
 http://content.time.com/time/magazine/article/0,9171,1830395,00.html.
 Stewart, D. W., et D. H. Furse, 1986, Effective Television Advertising : A
@@ -10349,8 +10232,7 @@ Onsets : Re-Visiting the Priority Tag Model », Frontiers in Psychology 4,
 p. 958.
 Susman, T. M., 2011, « Reciprocity, Denial, and the Appearance of
 Impropriety : Why Self-Recusal Cannot Remedy the Influence of Campaign
-Contributions on Judges’ Decisions », Journal of Law and Politics 26, p. 359-
-384.
+Contributions on Judges’ Decisions », Journal of Law and Politics 26, p. 359384.
 Swann, W. B., et M. D. Buhrmester, 2015, « Identity Fusion », Current
 Directions in Psychological Science 24, p. 52-57.
 Sweldens, S., S. M. J. van Osselar et C. Janiszewski, 2010, « Evaluative
@@ -10365,14 +10247,12 @@ Szalma, J. L., et P. A. Hancock, 2001, « Noise Effects on Human
 Performance : A Meta-Analytic Synthesis », Psychological Bulletin 137,
 p. 682-707.
 Szybillo, G. J., et R. Heslin, 1973, « Resistance to Persuasion : Inoculation
-Theory in a Marketing Context », Journal of Marketing Research 10, p. 396-
-403.
+Theory in a Marketing Context », Journal of Marketing Research 10, p. 396403.
 Tannenbaum, M. B., J. Hepler, R. S. Zimmerman, L. Saul, S. Jacobs,
 K. Wilson et D. Albarracin, 2015, « Appealing to Fear : A Meta-Analysis of
 Fear Appeal Effectiveness and Theories », Psychological Bulletin 141,
 p. 1178-1204.
-Tarr, B., J. Launay et R. I. Dunbar, 2014, « Music and Social Bonding : “Self-
-Other” Merging and Neurohormonal Mechanisms », Frontiers in
+Tarr, B., J. Launay et R. I. Dunbar, 2014, « Music and Social Bonding : “SelfOther” Merging and Neurohormonal Mechanisms », Frontiers in
 Psychology 5, p. 1096.
 Taylor, P. J., et S. Thomas, 2008, « Linguistic Style Matching and Negotiation
 Outcome », Negotiation and Conflict Management Research 1, p. 263-281.
@@ -10385,8 +10265,7 @@ Academic Learning », Personality and Social Psychology Bulletin 37,
 p. 1055-1067.
 Telzer, E. H., C. L. Masten, E. T. Berkman, M. D. Lieberman et A. J. Fuligni,
 2010, « Gaining While Giving : An fMRI Study of the Rewards of Family
-Assistance Among White and Latino Youth », Social Neuroscience 5, p. 508-
-518.
+Assistance Among White and Latino Youth », Social Neuroscience 5, p. 508518.
 Tesser, A., 1978, « Self-Generated Attitude Change », in Advances in
 Experimental Social Psychology, vol. 11, édité par L. Berkowitz, Academic
 Press, New York, p. 290-338.
@@ -10396,10 +10275,10 @@ The Case of Attitudes », Psychological Review 100, p. 129-142.
 
 The Street, the Bull, and the Crisis : Survey of the US & UK Financial
 Services Industry, 2015, Labaton Sucharow and University of Notre Dame,
-New 
-York, 
-mai 
-2015 
+New
+York,
+mai
+
 :
 www.secwhistlebloweradvocate.com/LiteratureRetrieve.aspx ?ID=224757.
 Thibodeau, P. H., et L. Boroditsky, 2011, « Metaphors We Think With : The
@@ -10443,8 +10322,7 @@ Science : Core and Corollary Principles », Review of General Psychology 16,
 p. 305-317.
 Ulrich, C., P. O’Donnell, C. Taylor, A. Farrar, M. Danis et C. Grady, 2007,
 « Ethical Climate, Ethics Stress, and the Job Satisfaction of Nurses and Social
-Workers in the United States », Social Science and Medicine 65, p. 1708-
-1719.
+Workers in the United States », Social Science and Medicine 65, p. 17081719.
 Urry, H. L., et J. J. Gross, 2010, « Emotion Regulation in Older Age »,
 Current Directions in Psychological Science 19, p. 352-357.
 Vaish, A., T. Grossmann et A. Woodward, 2008, « Not All Emotions Are
@@ -10463,13 +10341,11 @@ Van Kerckhove, A., M. Geuens et L. Vermeir, 2012, « A Motivational
 Account of the Question-Behavior Effect », Journal of Consumer
 Research 39, p. 111-127.
 van Osselaer, S. M. J., et C. Janiszewski, 2012, « A Goal-Based Model of
-Product Evaluation and Choice », Journal of Consumer Research 39, p. 260-
-292.
+Product Evaluation and Choice », Journal of Consumer Research 39, p. 260292.
 
 
 Van Yperen, N. C., et N. P. Leander, 2014, « The Overpowering Effect of
-Social Comparison Information : On the Misalignment Between Mastery-
-Based Goals and Self-Evaluation Criteria », Personality and Social
+Social Comparison Information : On the Misalignment Between MasteryBased Goals and Self-Evaluation Criteria », Personality and Social
 Psychology Bulletin 40, p. 676-688.
 vanDellen, M. R., J. Y. Shah, N. P. Leander, J. E. Delose et J. X. Bornstein,
 2015, « In Good Company : Managing Interpersonal Resources That Support
@@ -10503,18 +10379,16 @@ Share the Spoils After Collaboration », Psychological Science 22, p. 267-273.
 
 
 Warner, K. E., 1981, « Cigarette Smoking in the 1970’s : The Impact of the
-Anti-Smoking Campaign on Consumption », Science 211, no 4483, p. 729-
-731.
+Anti-Smoking Campaign on Consumption », Science 211, no 4483, p. 729731.
 Warrick, J., 2008, « Afghan Influence Taxes CIA’s Credibility », Washington
 Post, 26 décembre 2008, A17.
-Wasserman, E. A., C. C. DeVolder et D. J. Coppage, 1992, « Nonsimilarity-
-Based 
-Conceptualization 
-in 
-Pigeons 
-via 
-Secondary 
-or 
+Wasserman, E. A., C. C. DeVolder et D. J. Coppage, 1992, « NonsimilarityBased
+Conceptualization
+in
+Pigeons
+via
+Secondary
+or
 Mediated
 Generalization », Psychological Science 3, p. 374-379.
 Watanabe, T., 1994, « An Unsung “Schindler” from Japan », Los Angeles
@@ -10522,8 +10396,7 @@ Times, 20 mars 1994, p. 1.
 Weber, E. U., et M. W. Morris, 2010, « Culture and Judgment and Decision
 Making : The Constructivist Turn », Perspectives on Psychological Science 5,
 p. 410-419.
-Weber, E. U., et E. J. Johnson, 2009, « Mindful Judgment and Decision-
-Making », Annual Review of Psychology 60, p. 53-86.
+Weber, E. U., et E. J. Johnson, 2009, « Mindful Judgment and DecisionMaking », Annual Review of Psychology 60, p. 53-86.
 Wegener, D. T., et R. E. Petty, 1997, « The Flexible Correction Model : The
 Role of Naïve Theories of Bias in Bias Correction », in Advances in
 Experimental Social Psychology, vol. 29, édité par M. P. Zanna, Erlbaum,
@@ -10548,8 +10421,7 @@ Williams, L. E., et J. A. Bargh, 2008, « Experiencing Physical Warmth
 Promotes Interpersonal Warmth », Science 322, p. 606-607.
 Wilson, T. D., D. B. Centerbar, D. A. Kermer et D. T. Gilbert, D. T., 2005,
 « The Pleasures of Uncertainty : Prolonging Positive Moods in Ways People
-Do Not Anticipate », Journal of Personality and Social Psychology 88, p. 5-
-21.
+Do Not Anticipate », Journal of Personality and Social Psychology 88, p. 521.
 Wilson, T. D., et D. T. Gilbert, 2008, « Affective Forecasting : Knowing What
 to Want », Current Directions in Psychological Science 14, p. 131-134.
 Wilson, T. D., T. P. Wheatley, J. M. Meyers, D. T. Gilbert et D. Axsom, 2000,
@@ -10581,8 +10453,7 @@ Behavior 27, p. 591-615.
 Wood, D., 2015, « Testing the Lexical Hypothesis : Are Socially Important
 Traits More Densely Reflected in the English Lexicon ? », Journal of
 Personality and Social Psychology 108, p. 317-339.
-Wood, W., et J. M. Quinn, 2003, « Forewarned and Forearmed ? Two Meta-
-Analysis Syntheses of Forewarnings of Influence Appeals », Psychological
+Wood, W., et J. M. Quinn, 2003, « Forewarned and Forearmed ? Two MetaAnalysis Syntheses of Forewarnings of Influence Appeals », Psychological
 Bulletin 129, p. 119-138.
 Wood, W., et D. T. Neal, 2007, « A New Look at Habits and the Habit- Goal
 Interface », Psychological Review 114, p. 843-863.
@@ -10604,11 +10475,10 @@ Contributions », Psychological Bulletin 140, p. 234-255.
 Yopyk, D. J. A., et D. A. Prentice, 2005, « Am I an Athlete or a Student ?
 Identity Salience and Stereotype Threat in Student-Athletes », Basic and
 Applied Social Psychology 7, no 4, décembre 2005, p. 329-336.
-Yuki, M., W. M. Maddox, M. B. Brewer et K. Takemura, 2005, « Cross-
-Cultural Differences in Relationship- and Group-Based Trust », Personality
+Yuki, M., W. M. Maddox, M. B. Brewer et K. Takemura, 2005, « CrossCultural Differences in Relationship- and Group-Based Trust », Personality
 and Social Psychology Bulletin 31, p. 48-62.
 Zabelina, D. L., et M. Beeman, 2013, « Short-Term Attentional Perseveration
-Associated with Real-Life Creative Achievement », 
+Associated with Real-Life Creative Achievement »,
 Frontiers in
 Psychology 4, p. 191.
 
@@ -10618,8 +10488,7 @@ Stimuli : An Investigation of Visual Fixation Mediators », Personality and
 Social Psychology Bulletin 7, p. 547-453.
 Zeigarnik, B., 1927, « Das Behalten erledigter und unerledigter
 Handlungen », Psychologische Forschung 9, p. 1-85.
-Zell, E., et M. D. Alicke, 2010, « The Local Dominance Effect in Self-
-Evaluations : Evidence and Explanations », Personality and Social
+Zell, E., et M. D. Alicke, 2010, « The Local Dominance Effect in SelfEvaluations : Evidence and Explanations », Personality and Social
 Psychology Bulletin 14, p. 368-384.
 Zell, E., Z. Krizan et S. R. Teeter, 2015, « Evaluating Gender Similarities and
 Differences Using Metasynthesis », American Psychologist 70, p. 10-20.
@@ -10783,12 +10652,12 @@ personnels sur les tactiques de persuasion préférées des sectes pour recruter
 retenir ses membres figurent dans les travaux d’Almendros, Cialdini et
 Goldstein (en préparation). Pour des informations constamment actualisées
 sur le sujet, reportez-vous au site web de l’International Cultic Studies
-Association 
-(www.icsahome.com) 
-et 
-à 
-sa 
-publication 
+Association
+(www.icsahome.com)
+et
+à
+sa
+publication
 spécialisée,
 l’International Journal of Cultic Studies.
 11. On pourrait expliquer différemment les résultats obtenus par Bolkan et
@@ -10881,8 +10750,7 @@ d’expliquer toutes les données inquiétantes sur l’habitude de parler au
 téléphone tout en conduisant. Voir Hyman et al. (2009) pour un bilan de ces
 constats, une étude montrant notamment que les automobilistes au téléphone
 conduisent plus mal que ceux dont le taux d’alcoolémie dépasse la limite
-légale. Une étude (http://newsroom.aaa.com/2013/06/think-you-know-all-
-about-distracted-driving-think-again-says-aaa) indique que cela vaut aussi
+légale. Une étude (http://newsroom.aaa.com/2013/06/think-you-know-allabout-distracted-driving-think-again-says-aaa) indique que cela vaut aussi
 pour les SMS vocaux. Les conversations avec les passagers ne comportent
 pas les mêmes risques, car ceux-ci savent adapter le timing et le contenu de
 leurs propos à la situation du conducteur (Gaspar et al., 2014).
@@ -11091,14 +10959,12 @@ Leo, 2008), les lecteurs souhaitant avoir un aperçu détaillé de nombreux faux
 aveux peuvent se reporter aux travaux de Drizin et Leo (2004), qui
 répertorient 125 affaires de ce type. Pour un compte rendu poignant des
 conséquences humaines de ces faux aveux – à la fois pour la personne qui a
-employé sa force de persuasion et celle qui s’est laissé persuader –, reportez-
-vous 
-au 
-lien 
-suivant 
-: 
-www.thisamericanlife.org/radio-
-archives/episode/507/confessions?act=1#play.
+employé sa force de persuasion et celle qui s’est laissé persuader –, reportezvous
+au
+lien
+suivant
+:
+www.thisamericanlife.org/radioarchives/episode/507/confessions?act=1#play.
 28. Mon désir d’éviter de faire appel à un avocat ne doit pas être minimisé,
 car ce recours est onéreux, prolonge la procédure et accroît les soupçons. Par
 exemple, après le meurtre de JonBenét Ramsey, âgé de 6 ans, en 1996, ses
@@ -11246,8 +11112,7 @@ Cependant, une autre forme de risque terrifiant a retenu l’attention des
 professionnels de santé : les gens font une consommation excessive de
 désinfectant pour les mains afin de réduire le risque d’attraper des rhumes,
 rendant ainsi plus résistantes les bactéries, ce qui constitue un risque sanitaire
-plus important (voir http://healthychild.com/healthy-kids-blog/antibacterial-
-hand-sanitizers-unnecessary-and-risky).
+plus important (voir http://healthychild.com/healthy-kids-blog/antibacterialhand-sanitizers-unnecessary-and-risky).
 35. Des résumés de nombreuses études qui ont testé l’efficacité de
 l’intimidation étayent le fort impact de tels messages sur les attitudes,
 intentions et comportements (Tannenbaum et al., 2015 ; Witte et Allen, 2000).
@@ -11278,10 +11143,10 @@ et la force du « réflexe d’investigation », qu’il appelait parfois la ré
 « Qu’est-ce ? », voir Pavlov (1927) et le chapitre XVII, intitulé « Des lois
 fondamentales des centres nerveux, telles qu’elles apparaissent dans l’étude
 des réflexes conditionnels ». Pour une illustration humoristique du
-conditionnement 
-classique, 
-allez 
-sur 
+conditionnement
+classique,
+allez
+sur
 www.youtube.com/watch?
 v=nE8pFWP5QDM. Margaret Bradley (2009) offre un résumé, excellent et
 actualisé, de la recherche sur la réponse d’orientation. L’effet d’oubli dû aux
@@ -11336,8 +11201,7 @@ l’attention lorsqu’il est révélé par la réponse d’orientation.
 40. Les facteurs culturels peuvent également influer sur ce qui régit
 naturellement l’attention d’un observateur. Pour les membres des sociétés
 occidentales, l’attention se porte vers ce qui se trouve devant et au centre
-d’une scène, tandis que dans les sociétés orientales, les éléments en arrière-
-plan ont un pouvoir d’attraction relativement supérieur (Masuda et Nisbett,
+d’une scène, tandis que dans les sociétés orientales, les éléments en arrièreplan ont un pouvoir d’attraction relativement supérieur (Masuda et Nisbett,
 2001 ; Masuda et al., 2008 ; Nisbett, 2003). Par conséquent, les
 communicants cherchant à convaincre les publics occidentaux peuvent
 chercher à mettre en avant leurs arguments les plus forts dans leurs
@@ -11470,8 +11334,7 @@ plus récents.
 47. Cette séquence ne doit pas être délivrée à une assistance de façon
 magistrale devant un pupitre. Il faut plutôt inviter, à un rythme approprié, les
 membres de l’assistance à participer au processus de découverte. L’idéal est
-qu’ils puissent fournir leurs propres suppositions et explications. Demandez-
-leur de regarder en quoi ces explications peuvent rendre compte de tous les
+qu’ils puissent fournir leurs propres suppositions et explications. Demandezleur de regarder en quoi ces explications peuvent rendre compte de tous les
 faits révélés jusqu’à présent, ainsi que des nouvelles données que vous
 apporterez par la suite. À la fin de la séquence, il s’agit de leur demander s’ils
 peuvent fournir une autre explication conforme à tous les faits. Il n’est pas
@@ -11480,20 +11343,19 @@ méthode pédagogique, particulièrement pour les adultes. Et adopter une
 bonne pratique pédagogique – obtenir une participation active, stimuler
 l’esprit critique –, c’est également recourir aux mystères.
 Pour des illustrations de l’utilisation efficace des mystères dans les
-domaines 
-du 
-divertissement 
-et 
-des 
-choix 
-de 
-marques, 
+domaines
+du
+divertissement
+et
+des
+choix
+de
+marques,
 voir
 www.ted.com/talks/j_j_abrams_mystery_box.html,
-www.ign.com/articles/2008/01/15/cloverfield-a-viral-guide 
+www.ign.com/articles/2008/01/15/cloverfield-a-viral-guide
 et
-www.innovationexcellence.com/blog/2012/11/12/the-power-of-mystery-in-
-branding.
+www.innovationexcellence.com/blog/2012/11/12/the-power-of-mystery-inbranding.
 Sur l’efficacité des contre-arguments pour limiter la portée des arguments
 persuasifs, les données empiriques sont légion (Blankenship, Wegener et
 Murray, 2012 ; Eagly et al., 2000 ; Killeya et Johnson, 1998 ; Maaravi,
@@ -11727,8 +11589,7 @@ que les gens veuillent bien prendre le temps de réfléchir sérieusement à vot
 message, sa publication avec une police de caractères ou une forme difficile à
 déchiffrer peut néanmoins porter ses fruits, en permettant une meilleure
 compréhension et mémorisation des contenus difficiles (Alter, 2013 ; Alter et
-al., 2007 ; Diemand-Yaurman, Oppenheimer et Vaughan, 2011). C’est peut-
-être l’une des raisons pour lesquelles les éditeurs de recueils de poésie
+al., 2007 ; Diemand-Yaurman, Oppenheimer et Vaughan, 2011). C’est peutêtre l’une des raisons pour lesquelles les éditeurs de recueils de poésie
 préfèrent les vers sans rimes. Ils supposent que les lecteurs vont aborder le
 texte lorsqu’ils auront le temps et les ressources mentales nécessaires pour y
 
@@ -11915,8 +11776,7 @@ moins performantes que les hommes dans l’exécution de tâches
 mathématiques repose sur une base objective maigre, voire inexistante (Ceci
 et al., 2014). Sauf lorsque leur attention est portée sur le genre, elles
 obtiennent généralement des résultats semblables à ceux des hommes dans les
-tests d’aptitude en maths (Lindberg et al., 2010). En ce cas, pourquoi sont-
-elles à ce point sous-représentées dans les métiers en rapport avec les
+tests d’aptitude en maths (Lindberg et al., 2010). En ce cas, pourquoi sontelles à ce point sous-représentées dans les métiers en rapport avec les
 sciences, la technologie, l’ingénierie et les mathématiques (Ceci, Williams et
 Barnett, 2009) ? Il semble que ce soit essentiellement une question de goût
 
@@ -11925,8 +11785,7 @@ Barnett, 2009) ? Il semble que ce soit essentiellement une question de goût
 2013). Pour réussir dans les domaines très axés sur les maths, tels que
 l’astronomie, la chimie, l’informatique, l’ingénierie, les maths et la physique,
 il est nécessaire de saisir les relations entre les éléments des systèmes
-numériques, mécaniques et physiques non organiques. Les femmes ont peut-
-être les mêmes capacités que les hommes, mais elles n’ont pas la même
+numériques, mécaniques et physiques non organiques. Les femmes ont peutêtre les mêmes capacités que les hommes, mais elles n’ont pas la même
 inclination. Le fonctionnement des systèmes sociaux les intéresse plus, car
 ces derniers sont davantage en rapport avec leurs objectifs plus « collectifs »,
 qui impliquent d’interagir avec des gens et non avec des choses (Diekman et
@@ -12000,8 +11859,7 @@ sans qu’on les provoque ou que l’on en ait conscience figurent dans les
 travaux de Gawronski, Balas et Creighton (2014), Hofmann et al. (2010),
 Hütter et al. (2012), et Hütter, Kutzner et Fiedler (2014). Une excellente
 parodie de l’utilisation de ces mécanismes par les annonceurs figure à
-l’adresse suivante : www.fastcocreate.com/3028162/this-generic-brand-ad-is-
-the-greatest-thing-about-the-absolute-worst-in-advertising?
+l’adresse suivante : www.fastcocreate.com/3028162/this-generic-brand-ad-isthe-greatest-thing-about-the-absolute-worst-in-advertising?
 partner=newsletter.
 67. Il existe des panoramas complets et fort intéressants de la littérature de
 recherche sur les effets des plans Si/Quand-alors (Gollwitzer et Sheeran,
@@ -12057,8 +11915,7 @@ persuasive n’est guère nouvelle. Socrate était surnommé « le grand maître
 questions » en raison de sa manière très personnelle de faire changer d’avis
 ses interlocuteurs (Johnson, 2011). Mais ce n’est pas parce que cette notion a
 des origines très anciennes que cela doit nous dissuader de l’appliquer
-aujourd’hui. Par exemple, dans le cas des effets de la bonne humeur, devons-
-nous nous résoudre à ne jamais effectuer de gros achats quand nous sommes
+aujourd’hui. Par exemple, dans le cas des effets de la bonne humeur, devonsnous nous résoudre à ne jamais effectuer de gros achats quand nous sommes
 heureux, tout comme on nous exhorte à ne jamais faire les courses quand
 nous avons faim ? Ce n’est pas ce qu’indiquent les conclusions des travaux de
 recherche. Nous devrions plutôt nous demander pourquoi nous sommes
@@ -12123,8 +11980,7 @@ produits au cinéma : (www.youtube.com/watch?v=wACBAu9coUU) et à la
 télévision (www.ebaumsworld.com/video/watch/83572701/). Bien entendu,
 même les placements de produits peu discrets peuvent porter leurs fruits, à
 condition qu’ils soient intégrés subtilement dans l’intrigue ; voici des
-réussites dans ce domaine : http://mentalfloss.com/article/18383/stories-
-behind-10-famous-product-placements.
+réussites dans ce domaine : http://mentalfloss.com/article/18383/storiesbehind-10-famous-product-placements.
 71. Outre les simples rappels et les signes d’une tentative de persuasion
 furtive, deux autres types de signaux peuvent nous permettre de cerner notre
 vulnérabilité à des facteurs susceptibles de détourner notre pensée, et donc
@@ -12154,8 +12010,8 @@ d’informations trompeuses (Asp et al., 2012) et l’ajustement qui s’ensuit
 (Cunningham et al., 2004 ; Klucharev et al., 2011). Nombre d’universitaires
 ont conclu que l’un de ces mécanismes de correction est un système de
 raisonnement qui fonctionne différemment des systèmes plus primaires
-(rationnel/émotionnel, 
-analytique/expérientiel, 
+(rationnel/émotionnel,
+analytique/expérientiel,
 réfléchi/spontané,
 pensé/impulsif et contrôlé/automatique). Inutile pour moi de traiter plus avant
 le sujet, car il existe d’excellentes études, notamment dans le magistral
@@ -12180,8 +12036,7 @@ téléspectateurs à prêter plus attention aux qualités du communicant (par
 exemple, l’amabilité et le charme) qu’aux qualités de la communication
 proprement dite (Chaiken et Eagly, 1983).
 Chapitre 10
-73. Bien entendu, un communicant se servant d’un élément d’ouverture pré-
-suasif afin d’orienter l’attention vers le concept d’autorité avant de délivrer un
+73. Bien entendu, un communicant se servant d’un élément d’ouverture présuasif afin d’orienter l’attention vers le concept d’autorité avant de délivrer un
 message doit intégrer à ce dernier de solides données. Comme l’a montré la
 majeure partie des recherches, attirer l’attention vers n’importe quelle forme
 de données – y compris d’experts – est une pratique judicieuse, uniquement
@@ -12207,8 +12062,7 @@ la cohérence devenaient encore moins cohérentes (Bator et Cialdini, 2006).
 a été menée par Dunfield et Kuhlmeier (2010), tandis que l’étude dans la
 boutique de confiseries est de Lammers (1991). Les données sur les
 échantillons gratuits de Costco figurent dans un article d’Atlantic, consultable
-à l’adresse suivante : www.theatlantic.com/business/archive/2014/10/the-
-psychology-behind-costcos-free-samples /380969. L’impact considérable des
+à l’adresse suivante : www.theatlantic.com/business/archive/2014/10/thepsychology-behind-costcos-free-samples /380969. L’impact considérable des
 échantillons gratuits peut sans nul doute être attribué en partie à l’occasion
 offerte aux consommateurs d’essayer quelque chose qu’ils décident alors
 d’aimer. Mais une étude souligne le rôle important des facteurs
@@ -12219,8 +12073,7 @@ en outre, les dépenses générales des clients en supermarché augmentent
 considérablement même lorsqu’ils n’ont pas l’occasion d’essayer un nouveau
 produit en boutique, mais qu’ils reçoivent un bon de réduction surprise pour
 l’acquérir (Heilman, Nakamoto et Rao, 2002). Pour une illustration
-humoristique des obligations liées au fait de recevoir quelque chose, rendez-
-vous à l’adresse suivante : www.youtube.com/watch?v=H7xw-oDjwXQ. Pour
+humoristique des obligations liées au fait de recevoir quelque chose, rendezvous à l’adresse suivante : www.youtube.com/watch?v=H7xw-oDjwXQ. Pour
 des exemples d’utilisation de ces obligations en marketing, voir
 www.referralcandy.com/blog/10-examples-reciprocity-marketing.
 
@@ -12272,8 +12125,7 @@ méthodes psychologiques « douces », telles que les faveurs invitant à la
 réciprocité, fonctionnent mieux que les méthodes coercitives. La recherche
 (Goodman-Delahunty, Martschuk et Dhami, 2014) en apporte des preuves
 scientifiques : pour des liens sur d’autres données de ce type, allez sur
-www.psychologicalscience.org/index.php/news/were-only-human/the-
-science-of-interrogation-rapport-not-torture.html.
+www.psychologicalscience.org/index.php/news/were-only-human/thescience-of-interrogation-rapport-not-torture.html.
 La force d’attraction de la réciprocité peut à la fois durer toute la vie et
 sauver des vies. Étant petit, en 1938, Arthur George Weidenfeld est arrivé en
 Angleterre à bord d’un train de l’opération Kindertransport destinée à sauver
@@ -12332,8 +12184,7 @@ conseils est confirmé par Bukowski, Hoza et Bolvin (1994), et Davis et Todd
 de moralité ont été menées par Aramovich, Lytle et Skitka (2012), Duguid et
 Thomas-Hunt (2015), et Eriksson, Strimling et Coultas (2015). La dimension
 internationale de la preuve sociale est encourageante : la Chine, pour
-l’expérience sur les menus de restaurant (Cai, Chen et Fang, 2009) ; les Pays-
-Bas, pour l’étude sur la consommation de fruits (Stok et al., 2014) ;
+l’expérience sur les menus de restaurant (Cai, Chen et Fang, 2009) ; les PaysBas, pour l’étude sur la consommation de fruits (Stok et al., 2014) ;
 l’Indonésie (Garcia, Sterner et Afsah, 2007) ainsi que l’Inde (Powers et al.,
 2011), pour la recherche sur la diminution de la pollution. Entre parenthèses,
 l’impact de la preuve sociale sur la validité perçue donne aux vendeurs
@@ -12392,8 +12243,7 @@ nombreux types de relations sont tirées des travaux de Cottrell, Neuberg et Li
 juridique, de la tactique consistant à avouer une faiblesse a été démontrée à
 plusieurs reprises (par exemple : Dolnik, Case et Williams, 2003 ; Stanchi,
 2008 ; Williams, Bourgeois et Croyle, 1993). Cette tactique s’est avérée
-efficace dans les entreprises révélant des informations négatives sur elles-
-mêmes (Fennis et Stroebe, 2014). Les données attestant que les hommes
+efficace dans les entreprises révélant des informations négatives sur ellesmêmes (Fennis et Stroebe, 2014). Les données attestant que les hommes
 politiques peuvent se rendre plus dignes de confiance et avoir la préférence
 des votes en refusant de privilégier leur intérêt personnel ont été fournies par
 Combs et Keller (2010). L’agence de publicité Doyle Dane Bernbach
@@ -12419,8 +12269,7 @@ s’en trouve atténuée (et non simplement contrebalancée par un aspect positi
 sans lien).
 84. L’intention d’une personne de profiter du désir de l’autre d’éviter des
 pertes, dans ce cas précis des pertes futures, est illustrée par ce clip :
-www.usatoday.com/story/tech/gaming/2014/02/10/flappy-bird-
-auction/5358289. Outre l’aversion de la perte (Boyce et al., 2013 ; Kahneman
+www.usatoday.com/story/tech/gaming/2014/02/10/flappy-birdauction/5358289. Outre l’aversion de la perte (Boyce et al., 2013 ; Kahneman
 et Tversky, 1979), il existe d’autres raisons pour lesquelles la rareté d’un
 produit nous pousse à le désirer plus ardemment. Par exemple, les gens
 pensent automatiquement que les objets rares ont une plus grande valeur
@@ -12431,16 +12280,15 @@ de l’industrie automobile consistant à limiter la production de certains
 modèles a été analysée par Balachander, Liu et Stock (2009), tandis que les
 promotions des épiceries ont été étudiées par Inman, Peter et Raghubir
 (1997). Pour un reportage sur un événement lié à la sortie de l’iPhone à peu
-près 
-semblable 
-à 
-celui 
-auquel 
-j’ai 
-assisté, 
+près
+semblable
+à
+celui
+auquel
+j’ai
+assisté,
 voir
-www.live5news.com/story/23483193/iphone-5-release-draws-crowd-on-king-
-street.
+www.live5news.com/story/23483193/iphone-5-release-draws-crowd-on-kingstreet.
 85. La recherche démontrant que la prière diminue le nombre d’infidélités
 sexuelles est de Fincham, Lambert et Beach (2010). Elle a également montré
 que la forme de prière la plus efficace implorait le bien-être du partenaire. Le
@@ -12573,10 +12421,10 @@ Chaussures bébé. Jamais servi. »
 
 
 90. La lettre de Buffet pour le 50e anniversaire de Berkshire Hathaway est
-disponible 
-à 
-l’adresse 
-suivante 
+disponible
+à
+l’adresse
+suivante
 :
 www.berkshirehathaway.com/letters/2014ltr.pdf, et fait partie du rapport
 annuel 2014 de l’entreprise, publié en février 2015. Aussi bien dans la sphère
@@ -12640,8 +12488,7 @@ concentration vient d’une conversation avec un ancien garde nazi qui, étrange
 association, était le colocataire de Cohen à l’époque où il a relayé
 l’information. On estime que les habitants du Chambon-sur-Lignon, emmenés
 par André Trocmé et sa femme, Magda, ont sauvé la vie de 3 500 personnes.
-Il est difficile de répondre avec certitude à la question suivante : pourquoi a-t-
-il décidé d’aider la première de ces personnes – une femme juive qu’il a
+Il est difficile de répondre avec certitude à la question suivante : pourquoi a-til décidé d’aider la première de ces personnes – une femme juive qu’il a
 trouvée frigorifiée devant son domicile en décembre 1940 ? Quand il était en
 détention vers la fin de la guerre et que les fonctionnaires de Vichy lui ont
 demandé les noms des Juifs que lui et les autres habitants du village avaient
@@ -12752,12 +12599,12 @@ sociale qui crée une solidarité collective et une fusion moi-l’autre (Ball,
 2010 ; Banan, 2012 ; Dunbar, 2012 ; Huron, 2001 ; Loerch et Arbuckle,
 2013 ; Molnar-Szakacs et Overy, 2006 ; Tarr, Launay et Dunbar, 2014). Les
 spécialistes ne sont pas les seuls à reconnaître la fonction unificatrice de la
-musique, 
-parfois 
-de 
-manière 
-comique 
-: 
+musique,
+parfois
+de
+manière
+comique
+:
 www.youtube.com/watch?
 v=etEQz7NYSLg. L’étude sur l’altruisme des enfants de 4 ans a été réalisée
 par Kirshner et Tomasello (2010) ; des résultats conceptuellement proches ont
@@ -12814,8 +12661,7 @@ est d’Aron et al. (1997). Les preuves de l’importance du principe de
 réciprocité ou d’alternance dans la procédure des 36 questions sont apportées
 par Sprecher et al. (2013). Cette procédure a servi, sous une forme quelque
 peu modifiée, à diminuer les préjugés entre groupes ethniques, même chez
-des personnes aux préjugés très marqués au départ (Page-Gould, Mendoza-
-Denton et Tropp, 2008).
+des personnes aux préjugés très marqués au départ (Page-Gould, MendozaDenton et Tropp, 2008).
 101. Le manifeste d’Aldo Leopold, Almanach d’un comté des sables, a été
 publié pour la première fois (dans sa version originale – Sand County
 Almanach) en 1949 et il est depuis devenu un livre incontournable pour les
@@ -12826,12 +12672,11 @@ solution pour gérer la faune et la flore sauvages est illustrée par ses argume
 contre les politiques publiques de contrôle des prédateurs dans les
 environnements naturels. À cet égard des données stupéfiantes sur les loups
 étayent sa position. Une présentation visuelle de ces données est disponible à
-la 
-l’adresse 
-suivante 
-: 
-www.distractify.com/wolves-change-rivers-
-1197626599.html. Vous allez aimer.
+la
+l’adresse
+suivante
+:
+www.distractify.com/wolves-change-rivers1197626599.html. Vous allez aimer.
 102. La recherche sur l’effet Ikea a été menée par Norton, Mochon et Ariely
 (2012). J’ai réalisé, avec Jeffrey Pfeffer, l’étude des évaluations des
 collaborateurs et des produits sortis en co-création (Pfeffer et Cialdini, 1998).
@@ -12855,14 +12700,14 @@ méthode (la « classe puzzle », développée par Elliot Aronson et ses associ�
 pourront trouver ces informations sur le site web www.jigsaw.org. L’enquête
 portant sur les différents types de retours de consommateurs et leur
 engagement ultérieur a été publiée par Liu et Gal (2011). Ils ont découvert, de
-manière 
-particulièrement 
-instructive, 
-que 
-le 
-fait 
-de 
-donner 
+manière
+particulièrement
+instructive,
+que
+le
+fait
+de
+donner
 aux
 consommateurs une somme d’argent élevée et inattendue pour leurs conseils
 éliminait tout regain de faveur pour la marque concernée. Bien que les
@@ -12871,15 +12716,14 @@ supposé que la somme inattendue faisait que les participants ne pensaient plus
 aux conseils en question mais à leur particularité – en l’occurrence, les grands
 avantages financiers en découlant. Pour des exemples de la façon dont
 diverses marques utilisent la co-création afin d’accroître l’engagement des
-consommateurs, allez sur www.visioncritical.com/5-examples-how-brands-
-are-using-co-creation, 
-ainsi 
-que 
-sur 
-deux 
-liens 
+consommateurs, allez sur www.visioncritical.com/5-examples-how-brandsare-using-co-creation,
+ainsi
+que
+sur
+deux
+liens
 :
-www.visioncritical.com/cocreation-101 
+www.visioncritical.com/cocreation-101
 et
 www.greenbookblog.org/2013/10/01/co-creation-3-0.
 103. Malgré le caractère ironique de cette dernière ligne, l’importance

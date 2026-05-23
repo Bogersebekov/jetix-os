@@ -21,6 +21,10 @@ tags:
 related:
   - swarm/wiki/synthesis/claude-code-os-analysis-2026-05-02.md
   - swarm/wiki/operations/claude-code-os-mastery.md
+phase4_cleaned: true
+phase4_chars_before: 41354
+phase4_chars_after: 41354
+phase4_saved_pct: 0.0
 ---
 
 # Build & Sell Claude Code Operating Systems (2+ Hour Course) — transcript-equivalent

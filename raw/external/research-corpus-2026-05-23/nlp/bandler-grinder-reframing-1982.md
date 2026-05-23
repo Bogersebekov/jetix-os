@@ -9,8 +9,11 @@ chars: 487151
 approx_tokens: 121787
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 487153
+phase4_chars_after: 485523
+phase4_saved_pct: 0.3
 ---
-
 
 
 Refraining
@@ -39,25 +42,24 @@ Bandler, Richard.
 Reframing : neuro-linguistic programming and the
 transformation of meaning.
 Includes index.
-1. Attitude change. 
+1. Attitude change.
 2. Meaning (Psychology)
-3. Negotiation. 
-4. Psychotherapy. 
+3. Negotiation.
+4. Psychotherapy.
 I. Grinder, John.
-II. Andreas, Steve. 
-III. Andreas, Connirae. 
+II. Andreas, Steve.
+III. Andreas, Connirae.
 IV. Title.
-BF323.C5B36 
-1982 
-616.89,14 
+BF323.C5B36
+
+616.89,14
 82-16609
 ISBN 0-911226-24-9
 ISBN 0-911226-25-7 (pbk.)
 Other useful books from Real People Press:
 TRANCE-FORMATIONS: Neuro-Linguistic Programming and the Structure of
 Hypnosis, by John Grinder and Richard Bandler. 251 pp. 1981 Cloth $9.00 Paper $5.50
-A SOPRANO ON HER HEAD: Right-Side-Up Reflections on Life—and Other Perfor-
-mances, by Eloise Ristad. 184 pp. 1981 Cloth $9.00 Paper $5.50
+A SOPRANO ON HER HEAD: Right-Side-Up Reflections on Life—and Other Performances, by Eloise Ristad. 184 pp. 1981 Cloth $9.00 Paper $5.50
 FROGS INTO PRINCES, by Richard Bandler and John Grinder. 197 pp. 1979 Cloth $9.00
 Paper $5.50
 NOTES TO MYSELF, by Hugh Prather. 150 pp. 1970 Cloth $6.00 Paper $3.50
@@ -66,8 +68,7 @@ Paper $5.50
 GESTALT THERAPY VERBATIM, by Frederick S. Perls. 280 pp. 1969 Cloth $9.00
 Paper $5.50
 DON'T PUSH THE RIVER, by Barry Stevens. 280 pp. 1970 Cloth $9.00 Paper $5.50
-EMBRACE TIGER, RETURN TO MOUNTAIN: the essence of T'ai Chi, by Al Chung-
-Hang Huang. Illustrated. 185 pp. 1973 Cloth $9.00 Paper $5.50
+EMBRACE TIGER, RETURN TO MOUNTAIN: the essence of T'ai Chi, by Al ChungHang Huang. Illustrated. 185 pp. 1973 Cloth $9.00 Paper $5.50
 PERSON TO PERSON, by Carl Rogers and Barry Stevens. 276 pp. 1967 Paper $5.50
 AWARENESS, by John O. Stevens. 275 pp. 1971 Cloth $9.00 Paper $5.50
 GESTALT IS, by Frederick S. Perls, Wilson Van Dusen, and others. 274 pp. 1975 Cloth
@@ -75,52 +76,45 @@ $9.00 Paper $5.50
 The name Real People Press indicates our purpose; to publish ideas and ways that a person can
 use independently or with others to become more real—to further your own growth as a human
 being and to develop your relationships and communication with others.
-1
-2
-3
-4
-5
-6
-7
-8
-9 
-1 0 
-P r i n t i n g 
-8 5 
-8 4 
-8 3 
-8 2 
+
+
+1 0
+P r i n t i n g
+8 5
+8 4
+8 3
+8 2
 8 1
 
 
 Contents
-Introduction 
+Introduction
 1-4
-I. Content Reframing: Meaning and Context 
+I. Content Reframing: Meaning and Context
 5-43
-II. Negotiating Between Parts 
+II. Negotiating Between Parts
 45-56
-Outline 
-56
-III. Creating a New Part 
+Outline
+
+III. Creating a New Part
 57-103
-Outline 
-102
-IV. Advanced Six-Step Reframing 
+Outline
+
+IV. Advanced Six-Step Reframing
 105-141
-Outline 
-114
+Outline
+
 V. Reframing Systems:
-Couples, Families, Organizations 
+Couples, Families, Organizations
 143-177
 VI. Reframing Dissociated States:
-Alcoholism, Drug Abuse, etc. 
+Alcoholism, Drug Abuse, etc.
 179-203
-Note 
+Note
 204-205
-Bibliography 
-206
-Index 
+Bibliography
+
+Index
 207-208
 
 
@@ -153,10 +147,7 @@ Reframing is not new. Many fables and fairy tales include behaviors
 or events that change their meaning when the frames around them
 change. The different-looking chick seems to be an ugly duckling, but
 he turns out to be a swan—more beautiful than the ducks he has been
-1
 
-
-2
 comparing himself to. Reindeer Rudolfs funny-looking red nose
 becomes useful for guiding Santa's sleigh on a foggy night.
 Reframing also appears in almost every joke. What seems to be one
@@ -168,11 +159,9 @@ common?"
 Reframing is also the pivotal element in the creative process: it is the
 ability to put a commonplace event in a new frame that is useful or
 enjoyable. A friend of physicist Donald Glaser pointed to a glass of
-beer and jokingly said "Why don't you use that to catch your sub-
-atomic particles?" Glaser looked at the bubbles forming in the beer,
+beer and jokingly said "Why don't you use that to catch your subatomic particles?" Glaser looked at the bubbles forming in the beer,
 and went back to his lab to invent the "bubble chamber," similar to the
-Wilson cloud chamber, for detecting the paths of particles in high-
-energy physics experiments. Arthur Koestler, in The Act of Creation,
+Wilson cloud chamber, for detecting the paths of particles in highenergy physics experiments. Arthur Koestler, in The Act of Creation,
 calls this process "bisociation": the ability to simultaneously associate
 an event in two very separate and different contexts.
 In general communication theory there is a basic axiom that a signal
@@ -192,16 +181,12 @@ differently to them.
 Explicit conceptualizations of reframing have been used by a
 number of therapists who understand that "problem behavior" only
 makes sense when it is viewed in the context in which it occurs. These
-include a number of therapists with a family or systems orienta-
-tion, notably Paul Watzlawick and the Mental Research Institute
+include a number of therapists with a family or systems orientation, notably Paul Watzlawick and the Mental Research Institute
 group in Palo Alto, and Jay Haley and Salvador Minuchin and the
 group at the Philadelphia Child Guidance Clinic. These therapists
 generally use what is described in Chapter I as "content reframing."
 
-
-3
-They have designed specific reframing interventions such as "prescrib-
-ing the symptom," and "paradoxical injunction," which effectively
+They have designed specific reframing interventions such as "prescribing the symptom," and "paradoxical injunction," which effectively
 reframe behavior in order to change it. They also use techniques of
 directly intervening to change the actual external physical context in
 which the behavior occurs.
@@ -209,29 +194,25 @@ Virginia Satir uses a great deal of reframing in her work, from simple
 redefinitions to more elaborate reframing via psychodrama in her
 "parts parties" and "family reconstructions."
 Carl Whitaker reframes with nearly everything he says to the
-families that he works with. Symptoms become reframed as accom-
-plishments or skills, "sanity" becomes craziness, and "craziness"
+families that he works with. Symptoms become reframed as accomplishments or skills, "sanity" becomes craziness, and "craziness"
 becomes sanity.
 A more elaborate and "all-purpose" method of reframing, called
 "six-step" reframing, was developed by Bandler and Grinder, and
 already appears in print in Frogs into Princes. This book presupposes
-that you are already familiar with that basic six-step model of refram-
-ing; much of the book will make sense to you only if you have some
+that you are already familiar with that basic six-step model of reframing; much of the book will make sense to you only if you have some
 prior knowledge of, and experience with, that kind of reframing. You
 can find an excellent description and discussion of six-step reframing
 (as well as other basic NLP patterns) in the third chapter of Frogs into
 Princes.
 What is new in this book is an explicit description of the basic
 structure of reframing, and the presentation of several additional
-models of reframing. This book presents specific step-by-step tech-
-niques to implement these models, as well as ways to determine which
+models of reframing. This book presents specific step-by-step techniques to implement these models, as well as ways to determine which
 model is most appropriate for a particular problem situation.
 This is a book about "advanced" reframing. The first three chapters
 present several distinct alternative models of reframing that are useful
 in certain contexts, and for specific kinds of problems. Following that
 are chapters about building flexibility in doing six-step reframing
-(Chapter IV), reframing with couples, families, and other larger sys-
-tems such as businesses (Chapter V), reframing with alcoholics and
+(Chapter IV), reframing with couples, families, and other larger systems such as businesses (Chapter V), reframing with alcoholics and
 other examples of dissociated states (Chapter VI).
 Reframing is a very powerful communication tool. This book takes
 it from the realm of a hit-and-miss art to a set of predictable and
@@ -241,8 +222,6 @@ different workshops and training seminars presented by Bandler and
 Grinder, and is presented here as if it were a single three-day workshop.
 No distinction is made between when Richard is speaking and when
 
-
-4
 John is speaking, and the names of most participants have been
 changed.
 As you read this book, keep in mind that Bandler and Grinder are
@@ -267,15 +246,13 @@ It's got future-pacing and an ecological check built into it, so you can
 hardly go wrong if you follow the procedure congruently and with
 sensory experience.
 However, that's only one model of reframing. There are several
-other models that we don't usually get around to teaching in work-
-shops, mostly due to lack of time. One of them, called "content
+other models that we don't usually get around to teaching in workshops, mostly due to lack of time. One of them, called "content
 reframing," is the most common way that reframing is done in therapy.
 We call it content reframing because, unlike six-step reframing, you
 need to know specific content in order to make the reframe. There are
 two kinds of content reframing, and I'm going to give you an example
 of each. One of my favorite examples is this: one day in a workshop,
-Leslie Cameron-Bandler was working with a woman who had a com-
-pulsive behavior—she was a clean-freak. She was a person who even
+Leslie Cameron-Bandler was working with a woman who had a compulsive behavior—she was a clean-freak. She was a person who even
 dusted light bulbs! The rest of her family could function pretty well
 with everything the mother did except for her attempts to care for the
 carpet. She spent a lot of her time trying to get people not to walk on it,
@@ -287,19 +264,16 @@ plastic walkways. They were the ones who bought a piano and then
 locked it so that no one could play it, because they didn't want to have
 to clean the keys. They should have just lived in a photograph. They
 could have stood in the house, taken the photograph, died, and hung
-5
+
 I
 
-
-6
 the picture where the house should have been. It would have been a lot
 easier.
 When this particular woman looked down at the carpet and saw a
 footprint in it, her response was an intense negative kinesthetic gut
 reaction. She would rush off to get the vacuum cleaner and vacuum the
 carpet immediately. She was a professional housewife. She actually
-vacuumed the carpet three to seven times a day. She spent a tremen-
-dous amount of time trying to get people to come in the back door, and
+vacuumed the carpet three to seven times a day. She spent a tremendous amount of time trying to get people to come in the back door, and
 nagging at them if they didn't, or getting them to take their shoes off
 and walk lightly. Have you ever tried to walk without any weight on
 your feet? The only person I've ever seen do it is the guy at the
@@ -320,8 +294,7 @@ footprint on it anywhere. It's clean and fluffy—not a mark anywhere."
 This woman closed her eyes, and she was in seventh heaven, just
 smiling away. Then Leslie said "And realize fully that that means you
 are totally alone, and that the people you care for and love are nowhere
-around." The woman's expression shifted radically, and she felt terri-
-ble! Then Leslie said "Now, put a few footprints there and look at those
+around." The woman's expression shifted radically, and she felt terrible! Then Leslie said "Now, put a few footprints there and look at those
 footprints and know that the people you care most about in the world
 are nearby." And then, of course, she felt good again.
 You can call that intervention "trade feelings" if you like. You can
@@ -329,12 +302,9 @@ call it a change of strategy. You can call it anchoring. You can call it
 lots of things, but one useful way to think about it is as reframing. In
 this particular kind of reframing the stimulus in the world doesn't
 actually change, but its meaning changes. You can use this kind of
-reframing any time you decide that the stimulus for a problem beha-
-vior doesn't really need to change—that there's nothing inherently bad
+reframing any time you decide that the stimulus for a problem behavior doesn't really need to change—that there's nothing inherently bad
 about it.
 
-
-7
 The other choice, of course, would have been to attack the rest of the
 family and get them all to shape up and not leave footprints. This
 woman's mother tried that; it didn't work very well.
@@ -350,11 +320,9 @@ is that when she walks into somebody else's house and it's messy, she
 doesn't feel bad, because her response has to do with ownership. Her
 home is her territory; she only feels bad within certain limits. She may
 not consider the garage or the backyard to be in her territory. Some
-people keep their houses spotless, but they don't consider their chil-
-dren's rooms to be part of the house, so they don't feel bad about
+people keep their houses spotless, but they don't consider their children's rooms to be part of the house, so they don't feel bad about
 them when they're dirty.
-These are all people, of course, who use negative motivation strate-
-gies. As they walk into the kitchen and see dirty dishes everywhere,
+These are all people, of course, who use negative motivation strategies. As they walk into the kitchen and see dirty dishes everywhere,
 they go "Ugh!" In order to make the bad feeling go away, they have to
 wash all the dishes. Then they can stand back and go "Ahhhh!" When
 they walk into a clean hotel room, they don't go "Ahhh!" because it's
@@ -376,10 +344,7 @@ she sees this sensory experience, it means something important enough
 to feel bad about. If you can define the footprints as being something
 important enough to feel good about, then her response will change.
 
-
-8
-To get a change, it's very essential that you have congruent support-
-ing nonverbal analogues as you deliver the reframe. You have to do it
+To get a change, it's very essential that you have congruent supporting nonverbal analogues as you deliver the reframe. You have to do it
 with a serious facial expression and tone of voice.
 Virginia Satir is one of the people to study if you want to learn about
 content reframing. She is a master at it. One of Virginia's main
@@ -419,8 +384,6 @@ refuse people things that you would like to be able to give them,
 because you know if you did, something bad would happen later on."
 "Yes."
 
-
-9
 "Well, there's a part of you that's been stubborn enough to really
 protect yourself in very important ways."
 "Well, yes. But, you know, you can't let this kind of thing get out of
@@ -428,8 +391,7 @@ control."
 "Now I want you to turn and look at your daughter, and to realize
 beyond a doubt that you've taught her how to be stubborn and how to
 stand up for herself, and that that is something priceless. This gift that
-you've given to her is something that can't be bought, and it's some-
-thing that may save her life. Imagine how valuable that will be when
+you've given to her is something that can't be bought, and it's something that may save her life. Imagine how valuable that will be when
 your daughter goes out on a date with a man who has bad intentions."
 I don't know if you begin to hear a pattern in this. Every experience
 in the world, and every behavior is appropriate, given some context,
@@ -462,8 +424,6 @@ door, and never came back. A lot of your ability to establish and
 maintain rapport with your clients is your ability to appreciate that
 what looks and sounds and feels really weird and inappropriate to you,
 
-
-10
 is simply a statement about your failure to appreciate the context from
 which that behavior is being generated.
 Rather than imposing a new context, you can use the client's own
@@ -475,8 +435,7 @@ that behavior belongs. You just contextualize that behavior, and
 substitute a new pattern of behavior in the contexts where X was a
 disaster.
 If the client says "No, it's not appropriate anywhere," you can assist
-him in finding appropriate contexts by giving him specific representa-
-tional system instructions. "See yourself performing that behavior and
+him in finding appropriate contexts by giving him specific representational system instructions. "See yourself performing that behavior and
 listen to it. . . . Now, where did that happen?"
 "Oh, it happened in church. I stood up and yelled 'God dammit' and
 then they came and dragged me out."
@@ -488,16 +447,14 @@ hear yourself doing it in church. Now I want you to change that
 background—the pews and the altar and the interior of the church—to
 something else. I want you to keep substituting other backgrounds for
 that same behavior, until you find one in which if you stood up and said
-'God dammit!' every part of you would agree that that is an appro-
-priate response, and you can see, by looking at the faces of the people
+'God dammit!' every part of you would agree that that is an appropriate response, and you can see, by looking at the faces of the people
 around you, that others also consider it appropriate. As soon as you
 find a context like that, then go inside and ask the part of you that
 makes you stand up and yell 'God dammit' if it would be willing to
 be your primary resource in just that context."
 That's using a visual lead, of course. You have to tailor the search for
 a new context to the person's actual internal processes in terms of
-representational systems. For some people it would be more appro-
-priate to search auditorily or kinesthetically.
+representational systems. For some people it would be more appropriate to search auditorily or kinesthetically.
 Another way of approaching this more formally and more generally
 would be to do the following: identify a behavior that you want to
 change. I want all of you to pick a behavior in yourself that you don't
@@ -505,8 +462,6 @@ like. You don't have to say anything out loud; just pick one. . . .
 Now, rather than contacting the part that generates that behavior
 directly, just go inside and ask if any part of you whatsoever can figure
 
-
-11
 out any situation in which you want to be capable of generating that
 exact same behavior. . . .
 Now, go inside and ask the part of you that has you do that behavior
@@ -537,8 +492,7 @@ A Virginia Satir "parts party" is nothing more than doing this over
 and over and over again, in lots of different ways. If you have a part of
 you that is devious and malicious, it later becomes renamed "your
 ability to be creatively constructive" or something else. It doesn't
-matter what name you come up with, as long as it has positive connota-
-tions. You're saying "Look, every part of you is a valuable part and
+matter what name you come up with, as long as it has positive connotations. You're saying "Look, every part of you is a valuable part and
 does positive things for you. If you organize your parts in some way so
 that they operate cooperatively, and so that what they are trying to do
 for you becomes more apparent, then they'll function better."
@@ -548,8 +502,6 @@ being something that he feels good about when he sees it occur, because
 he knows that this behavior is something that she will need to survive in
 the world. That changes his internal response.
 
-
-12
 In the other example, when the mother looked at the footprints on
 the carpet, she took them as a comment about her being a bad
 housewife—that she hadn't finished doing the things she was supposed
@@ -573,8 +525,7 @@ it just means that the people you care about are there." That would not
 have had an impact; it would not have changed her internal experience
 or her response. So of course the sequencing of your delivery and your
 expressiveness are very important.
-"You see the carpet there and it's spotless! You've cleaned it per-
-fectly. It's fluffy. You can see the white fibers." This is pacing: she is
+"You see the carpet there and it's spotless! You've cleaned it perfectly. It's fluffy. You can see the white fibers." This is pacing: she is
 responding to the complex equivalence. Then you lead: "And then
 suddenly you realize that that means you are all alone." That is
 something she had never considered before. If you think about it, that
@@ -591,8 +542,6 @@ meaning. If I say "Well, Byron has never been really interested in my
 groups; he sits in the back corner," that's a statement about the
 meaning of a behavior.
 
-
-13
 If you make the statement "It annoys me when X happens," which
 kind of reframing is going to be most appropriate? . . . Meaning
 refraining will be. What kinds of statements will tell you that context
@@ -620,8 +569,7 @@ Woman: There's no more coffee in the evening, and I don't like that.
 Have you been sleeping well?
 Man: There are too many sessions scheduled at once. I decide to be
 in one workshop, and then I want to be in another. I can't switch and go
-over to another session in the afternoon, because it's already pro-
-gressed too far.
+over to another session in the afternoon, because it's already progressed too far.
 Yeah, I understand. I really do sympathize. And one of the nice
 things about arranging the workshop that way is that it gives you extra
 practice in decision-making processes.
@@ -631,11 +579,8 @@ than the one he consciously recognized: it gives him practice in
 decision-making.
 Man: My wife takes forever to decide on things. She has to look at
 every dress in the store and compare them all before she selects one.
-So she's very careful about decisions. Isn't it a tremendous compli-
-ment that out of all the men in the world, she chose you!
+So she's very careful about decisions. Isn't it a tremendous compliment that out of all the men in the world, she chose you!
 
-
-14
 Man: I don't want to tell my wife what I want sexually, because that
 would force her to limit herself.
 But you are willing to limit her ability to please you when she wants
@@ -664,8 +609,7 @@ typically get from clients in your practice. Or you could pretend to
 role-play a client but come up with a complaint that might be relevant
 for some part of your own personal evolution. I want you to state your
 complaints in a particular form to make it easier for your partner. The
-form of the complaint will tell the other person which kind of refram-
-ing is most appropriate.
+form of the complaint will tell the other person which kind of reframing is most appropriate.
 1) Present your complaint as a complex equivalence that links a
 response to a class of events: "I feel X when Y happens" or,
 2) Present the complaint as a comparative generalization about
@@ -676,8 +620,6 @@ then to deliver the reframe in such a way that it has an impact. This is a
 training seminar, so don't force yourself to respond immediately. Let
 me give you a strategy to generate reframes. First you identify the form
 
-
-15
 of the complaint that your client has presented so that you know which
 kind of reframe to go for. With a complex equivalence you do a
 meaning reframe, and with a comparative generalization you do a
@@ -687,8 +629,7 @@ make a picture of it visually, feel what it would be like kinesthetically,
 or describe it auditorily.
 For a context reframe, ask yourself "In what context would this
 particular behavior that the person is complaining about have value?"
-Think of different contexts until you find one that changes the evalua-
-tion of the behavior.
+Think of different contexts until you find one that changes the evaluation of the behavior.
 For a meaning reframe, ask yourself "Is there a larger or different
 frame in which this behavior would have a positive value?" "What
 other aspect of this same situation that isn't apparent to this person
@@ -702,8 +643,7 @@ and leading will be extremely important in doing this. If you have
 difficulty, take the observer aside for a moment and use her as a
 resource.
 When you have thought of a reframe, ask the client to repeat the
-complaint, and then deliver your reframe. Carefully observe the non-
-verbal changes in the client as he considers what you have said.
+complaint, and then deliver your reframe. Carefully observe the nonverbal changes in the client as he considers what you have said.
 The observer and the programmer both have the job of getting a
 sensory-based description of the nonverbal changes that occur in the
 client as he makes the transition from complaining about a behavior to
@@ -719,8 +659,6 @@ to drop out. Go into internal experience and check all representational
 systems to figure out visually, auditorily, or kinesthetically how you
 could verbally reframe the content of the complaint.
 
-
-16
 If you are practiced in reframing, it will be to your advantage to take
 a little time to figure out what your own typical strategy for verbal
 content reframing is, and use any other one, so that you increase your
@@ -759,14 +697,11 @@ have a certain feeling, but instead you have a completely different
 feeling, and it happens every time?" If you have a therapeutic model
 like reanchoring which is designed to deal with that, you can't lose.
 
-
-17
 People often come up to us after seminars and say "You guys do
 therapy so fast!"" It's fast because we ask for problems that fit the form
 of what we want to demonstrate. As soon as somebody raises his hand,
 we're done.
-Being able to identify these forms and ask for them is very impor-
-tant. If you have a client who comes in and says "Well, you know, I
+Being able to identify these forms and ask for them is very important. If you have a client who comes in and says "Well, you know, I
 have all kinds of problems" then you can say "Do you have anything
 like this?" And he'll say "Yeah, I have a couple of those. I've got these
 two." You can fix those, and then you can describe another form and
@@ -802,8 +737,6 @@ Jim: I'm interested in getting others' reactions to a reframe that I did.
 My partner role-played a patient who had attempted suicide several
 times. She said to me "You people profess to know a lot about human
 
-
-18
 behavior. I don't like it when all you do is continue to lock me up
 instead of letting me kill myself."
 Marie: Well, there was something else that I said: "I really know I
@@ -831,8 +764,7 @@ Marie: I would go along with that; I would feel good about it. The
 question is "What can I do with that next?" I'm really hoping that you
 can tell me what to do after that.
 The important thing about the responses that Cathy and Jim made is
-that they both accept the idea of suicide. It's a good pace, and estab-
-lishes rapport. And now since they've accepted that she is going to kill
+that they both accept the idea of suicide. It's a good pace, and establishes rapport. And now since they've accepted that she is going to kill
 herself, they move on to when and how. Cathy's response is really a
 natural extension of the how part. "If you are going to do this, you
 may as well do it well. It's far too precious a thing to do just on the spur
@@ -845,8 +777,6 @@ kinds of experiences they are presently having.
 What Cathy and Jim have suggested is a kind of shock treatment to
 gain rapport. You follow that with a statement presupposing that the
 
-
-19
 only justifiable way to die is for something which is positive. What you
 will end up getting is some positive intent behind the suicide, and then
 you can approach that intent in a variety of ways. That sequence is
@@ -860,8 +790,7 @@ secondary outcome: the positive intention that suicide will achieve.
 You are essentially relabeling "suicide" as "trying to achieve heaven on
 earth." Any time your relabeling can include an idiom like "heaven on
 earth," it will have an extra force to it, because it appeals to both brain
-hemispheres simultaneously. It is one of the few language forms com-
-puted in both hemispheres, so it has an extra power to it. Her complex
+hemispheres simultaneously. It is one of the few language forms computed in both hemispheres, so it has an extra power to it. Her complex
 equivalence for "heaven on earth" will be essentially the goals which
 you can now work toward in other ways than having her commit
 suicide. That's a really nice way to lead into a situation which is
@@ -873,8 +802,7 @@ analogues support what you say. One way to interrupt a client's pattern
 is to do something totally unexpected. One of the least expected
 responses to suicide in this culture is to compliment him and agree and
 approve of such a statement. Agreeing will interrupt him, and it will
-also get immediate rapport with the part of him that made the state-
-ment. This is not a complete maneuver, but it's a good way to change
+also get immediate rapport with the part of him that made the statement. This is not a complete maneuver, but it's a good way to change
 the focus of what's going on. You don't want to stop there, especially
 when you are dealing with life and death matters. You need to go on
 immediately to utilize this opening to explore outcomes. "Who would
@@ -888,14 +816,11 @@ maneuver. That's the whole point of reframing, anyway: creating
 freedom to maneuver. If a person has behavior X, it's a very specific
 behavior. It has actual sensory components: seeing, feeling, and hear-
 
-
-20
 ing. If you try to change that piece of behavior directly, it will be very
 difficult. However, if that piece of behavior, with all its specificity, is
 suddenly seen or felt or heard to be in a larger context, a larger frame,
 you can discover that what you are really committed to is not the
-specific piece of behavior, but to the outcome that behavior is sup-
-posed to lead to in your world-model. Then suddenly you have a lot of
+specific piece of behavior, but to the outcome that behavior is supposed to lead to in your world-model. Then suddenly you have a lot of
 room to maneuver. You hold the outcome—the goal that you are
 trying to achieve—constant, and recognize that this particular pattern
 of behavior is only one way to achieve it. There are many other ways to
@@ -928,11 +853,8 @@ it up myself, just to make sure, and because I've made an agreement.
 Milton Erickson often used a contract like that. He would then point
 out that since she has been planning suicide anyway, she may as well go
 out in style. "How much money do you have in the bank?" "Oh,
-$5,000." "Good. By Wednesday you will have consulted a hair special-
-ist, and someone who is competent to teach you to dress appropriately.
+$5,000." "Good. By Wednesday you will have consulted a hair specialist, and someone who is competent to teach you to dress appropriately.
 
-
-21
 You look gross! You will also consult someone who can teach you how
 to walk and talk and meet people, both in social settings and in
 interviews." She can't object to spending money, because soon she will
@@ -974,8 +896,6 @@ this ritual will give you lots of information about the outcomes behind
 his decision to suicide, and you can use this information to develop
 other ways of satisfying them. You will also learn a lot about the
 
-
-22
 people and events that still have meaning for him, and you can use this
 as leverage to help accomplish the changes you want to make.
 Now let's get back to the exercise and talk about the other part of it.
@@ -1012,13 +932,10 @@ the autonomic nervous system: the sympathetic and parasympathetic
 nervous systems. The two tend to balance each other through opposite
 effects.
 Sympathetic activation results in increased muscle tension and a
-readiness to respond physically to some threat. There is more adre-
-nalin, and the skin whitens as the blood vessels and pupils constrict.
+readiness to respond physically to some threat. There is more adrenalin, and the skin whitens as the blood vessels and pupils constrict.
 Parasympathetic activation results in muscle relaxation, flushing of
 the skin, dilation of blood vessels, dilation of the pupils, etc.
 
-
-23
 These are some very general visible characteristics of those two
 systems. What we have been describing is that people tend to have
 sympathetic activation when presenting a complaint and considering
@@ -1026,8 +943,7 @@ the reframe. Then they shift to parasympathetic activation when the
 reframe works, which is what you would expect to occur. If the
 reframing works, what was perceived as a problem to cope with
 becomes not a problem at all. What other changes did you observe?
-Ken: I saw accessing changes. Typically when the client was present-
-ing her complaint, she would be in one mode of accessing. Usually the
+Ken: I saw accessing changes. Typically when the client was presenting her complaint, she would be in one mode of accessing. Usually the
 ones we saw were high-intensity kinesthetic. As we presented the
 reframe, her accessing switched into a visual or auditory pattern. Then
 when we went back and talked about the problem situation, she
@@ -1039,29 +955,24 @@ it because of objections that arise. However, if later you mention some
 other dimension of the same presenting problem, and you see that she
 goes through the accessing sequence which was characteristic of the
 reframe and not the accessing sequence that was there before the
-reframe, then you know that the reframe is integrated into her expe-
-rience of the problem area.
+reframe, then you know that the reframe is integrated into her experience of the problem area.
 Woman: That's what happened with Bob. His eyes went to visual
 construct when he made the complaint. When the reframing took
 place, his eyes became defocused and he stared straight ahead. Then
 when I mentioned the complaint again, he went through that same
 defocusing process.
-Great. As far as I'm concerned, the generalization is this: one indica-
-tor that the reframe works at the moment is that you get a different
+Great. As far as I'm concerned, the generalization is this: one indicator that the reframe works at the moment is that you get a different
 accessing sequence when the person considers the same problem area.
 You observe some new strategy. Perhaps rather than being locked into
 kinesthetic feelings, the person is able to take a new perspective. Or you
 may observe the same accessing sequence, but with a different
 response. You recognize that by observing the autonomic cues that we
-mentioned earlier: skin color changes, breathing changes, muscle ten-
-sion changes, etc.
+mentioned earlier: skin color changes, breathing changes, muscle tension changes, etc.
 Then you go on to other material, or have the client practice some
 new behavior to be wired in, so that she has lots of choices in the
 context that you reframed. Then later, at the end of the session, you
 can use what you observed earlier to test whether the reframe has
 
-
-24
 endured. You might ask "By the way, does so-and-so—who is part of
 the original presenting problem—have a moustache?' If you see the
 same changes that were characteristic of the reframe moment, then you
@@ -1099,18 +1010,13 @@ He is essentially saying "I'm sure glad that this part of you established
 those kinds of relationships with your family members and caused
 those behaviors to occur."
 That is a meaning reframe. It's fast and it can be very effective. Carl
-is presupposing that there really is something good about that behav-
-ior, and that the father will be able to come to a recognition, at least
+is presupposing that there really is something good about that behavior, and that the father will be able to come to a recognition, at least
 unconsciously, of the point of Carl's comment "Thank God!"
 
-
-25
 However, that is making an assumption which, strictly speaking, isn't
-warranted. It's possible—though not very likely—that there isn't any-
-thing good about that behavior. I trust Carl as a communicator, having
+warranted. It's possible—though not very likely—that there isn't anything good about that behavior. I trust Carl as a communicator, having
 had the opportunity to watch and listen to him. If he were to make that
-intervention, and the father's response was incongruent with the out-
-come Carl was working towards, I trust him to have enough sensory
+intervention, and the father's response was incongruent with the outcome Carl was working towards, I trust him to have enough sensory
 experience and flexibility to go on to try something more appropriate.
 Carl has finesse, so he wouldn't go back and talk about it, he would
 simply go on to another reframe or some other intervention that would
@@ -1121,12 +1027,10 @@ anger, and below that is a demand. That could be a useful formula for
 some people. If you want to use a formula, of course it's another choice
 that you ought to have available to you. If you engage in content
 reframing, then you need to take the responsibility of being very
-sensitive perceptually to any incongruencies in response to your inter-
-vention, to know whether your reframes work. If they don't, you are
+sensitive perceptually to any incongruencies in response to your intervention, to know whether your reframes work. If they don't, you are
 imposing content on that person and probably doing him a disservice.
 If you know via feedback that a reframe has worked, that indicates that
-you made a guess which resonates and is congruent with an uncon-
-scious set of patterns in that person.
+you made a guess which resonates and is congruent with an unconscious set of patterns in that person.
 One way of thinking about content reframing is that it can be used as
 a temporary measure to loosen a person's perceptual frame. The client
 is fixed on the fact that some particular thing is the issue. She has
@@ -1138,16 +1042,13 @@ For instance, there's a man in California who does a single content
 reframe that works with anorexics. He has an 80% cure rate with
 anorexia, which is a tough problem for most therapists. He brings the
 whole family into a room with a one-way mirror. There's a table in the
-room with a big pot of hot dogs on it. He walks in and says "I'm Dr. So-
-and-So; you have fifteen minutes to get this young woman to eat. I'll be
+room with a big pot of hot dogs on it. He walks in and says "I'm Dr. Soand-So; you have fifteen minutes to get this young woman to eat. I'll be
 back." Then he walks out.
 The family does all kinds of things to try to get the anorexic to eat.
 Some of them physically pin the girl down and start stuffing food in her
 mouth. They do their usual inadequate best to try to get her to eat. At
 the end of fifteen minutes he walks back in and says to the family "You
 
-
-26
 failed miserably. Get out!" He throws everyone out but the anorexic.
 Then he turns to the anorexic and says "Now, how long have you been
 using this as a way of getting your family's attention?"
@@ -1163,8 +1064,7 @@ fools, or until you find a better way to get their attention, you keep on
 doing what you're doing."
 Excellent. There are actually two reframes in that intervention: 1)
 describing the problem behavior as a useful way to get attention, and 2)
-characterizing the symptomatic problem behavior as being under con-
-scious control. That can be very useful. Any time you relabel another
+characterizing the symptomatic problem behavior as being under conscious control. That can be very useful. Any time you relabel another
 person's behavior like that, you are imposing your own beliefs and
 your own values. You are hallucinating freely and projecting your
 hallucination. There's nothing wrong with that, as long as you know
@@ -1189,8 +1089,6 @@ those feelings of aloneness, hurt, and isolation underneath that anger?"
 Whether or not there were any feelings of isolation, aloneness and
 hurt before she said that, there are now/The father isn't yelling, and he
 
-
-27
 isn't even angry. Now Virginia can go on to build more useful patterns
 of interaction in the family.
 Some people who have been exposed to Satir's powerful work
@@ -1230,19 +1128,15 @@ of therapy, the outcome was very powerful, even though what she said
 was actually irrelevant. "The fact that your carpet is clean means that
 no one is around" does not have anything to do with being lonely.
 
-
-28
 Delivery is very important. Saying "The fact that your carpet is clean
 means that nobody's home right now" will have much less impact than
 saying "And you see that your carpet is clean, and you realize that this
-means that you are all alone!" Those two statements have very differ-
-ent connotations, although the meaning could be identical.
+means that you are all alone!" Those two statements have very different connotations, although the meaning could be identical.
 Man: You are firing off anchors with your tone of voice and
 emphasis.
 That's right. The connotation of what you are saying is as important
 as the words you use to describe it. All the patterns for building
-connotation are the patterns of hypnosis, what we call the "Milton-
-model": ambiguity, nominalization, all of that good stuff. For the most
+connotation are the patterns of hypnosis, what we call the "Miltonmodel": ambiguity, nominalization, all of that good stuff. For the most
 part people don't consciously notice all those linguistic forms because
 language goes by too quickly to process all the exact words. People
 read "There will be times when dinner is not served." "No dinner!" It
@@ -1253,29 +1147,23 @@ uttered implies that.
 If I look at you and say "Are you here again in the front row?" it's just
 a question, but the tonal emphasis gives a few additional implications.
 "You again?" "Do you have another question?" I cannot emphasize
-enough the importance of what we call "congruence" and "expressive-
-ness." That is always going to be a very important part of the context in
+enough the importance of what we call "congruence" and "expressiveness." That is always going to be a very important part of the context in
 which the reframe occurs.
 The actual physical context is also very important. It is very, very
 different to be in a doctor's office and see the doctor glance at you and
 look uncomfortable, than to see the same thing at a hotel registration
-desk. Those are two entirely different experiences, although the sens-
-ory experience has some similarities. I want you to keep the context
+desk. Those are two entirely different experiences, although the sensory experience has some similarities. I want you to keep the context
 in mind when you do reframing. That will help you to have the impact
 you want to have.
 The frame that you put around a proposed new behavior will also
 have a strong impact on whether, or how, a person will consider it.
 Once for a demonstration someone brought in a client who was
 "frigid." She was a school teacher with three children. Her husband
-wanted more sexually than she was able to offer, and she also congru-
-ently wanted more than she had been able to offer.
+wanted more sexually than she was able to offer, and she also congruently wanted more than she had been able to offer.
 I established rapport quickly, and then said "Now, think of one thing
 that you can do sexually with comfort and ease. Don't tell me about it."
 
-
-29
-Her slight body movements as she thought about it were ample evi-
-dence for me of what the content was, but she was unaware of that.
+Her slight body movements as she thought about it were ample evidence for me of what the content was, but she was unaware of that.
 Then I said "And now think of one thing that lies just on the
 boundary of what is acceptable for you consciously as far as sexual
 behavior is concerned." I asked her to consider actually engaging in
@@ -1305,8 +1193,7 @@ considering it. But if you go far enough outside her model, you'll get a
 dissociation that allows her to consider it. Since the new behavior is
 framed as being totally beyond what this woman would consider
 doing, the part that objects has nothing to object to, and it's safe to
-allow her to think about it. Thinking about it allowed her to contem-
-plate fully what it would be like to do the new behavior, thereby setting
+allow her to think about it. Thinking about it allowed her to contemplate fully what it would be like to do the new behavior, thereby setting
 up the internal programs to do it at some future time. Considering the
 behavior fully, in context, is actually a future-pace—the same as step
 five of the six-step reframing.
@@ -1315,8 +1202,6 @@ future-paced?
 Well, what this particular part objected to was her considering doing
 the behavior, not the behavior itself. Once she actually considered the
 
-
-30
 behavior, the part didn't object. If a part had objected to the behavior,
 she wouldn't have done it.
 Many people limit themselves by never even considering certain
@@ -1336,13 +1221,11 @@ Man: So reframing—whether it's a small belief or a larger
 presupposition—is simply taking the concern about something and
 making it into something positive.
 No. Be careful with the "positive" stuff. You reframe in a way that is
-useful, in some context. You have to be careful about this "positive-
-negative" stuff. It's positive to be useful. That's a reframe, by the way.
+useful, in some context. You have to be careful about this "positivenegative" stuff. It's positive to be useful. That's a reframe, by the way.
 So far we have talked exclusively about reframing something "bad"
 into something good, and in therapy that's usually the way it's most
 useful. But reframing isn't just for taking things that have negative
-connotations and changing them to have positive connotations. Some-
-times it's useful to reframe the other way. For instance, think of
+connotations and changing them to have positive connotations. Sometimes it's useful to reframe the other way. For instance, think of
 somebody who really believes in himself, but is incompetent. He needs
 to have his confidence reframed to overconfidence.
 I saw Frank Farrelly do an interesting "negative" reframe once.
@@ -1358,8 +1241,6 @@ Frank: "But you get with your wife and nothing happens?"
 Man: "Well, yeah, I just kind of stiffen up."
 Frank: "Well, where do you stiffen up? This is very important!"
 
-
-31
 Man: "Well, you know, all over."
 Frank: "And when you're with other women, do you stiffen up all
 over?'
@@ -1401,16 +1282,13 @@ can't help, because some people do not have problems with feeling
 inadequate. In fact, if some of them felt inadequate, they'd be a lot
 better off.
 
-
-32
 There are many people in the world who do not know how to use
 sensory experience to test and find out what they do and don't do well.
 What they really need is a good strong dose of self-doubt. When they
 get too sure of themselves, they often do something that results in their
 getting hurt. However, they don't use that as the basis for becoming
 less sure of themselves in a way that's useful. They go through cycles
-almost like a manic-depressive: competence, competence, COMPE-
-TENCE, failure! I often meet people like that. One of the things that
+almost like a manic-depressive: competence, competence, COMPETENCE, failure! I often meet people like that. One of the things that
 you can do to help them is to stick your foot out and trip them just as
 they are feeling really competent—before they fall too hard. Then you
 can begin to assist them in building the kinds of sensory feedback that
@@ -1424,8 +1302,7 @@ You're not the first one who has said that, I'll tell you! There was a
 cute little social worker who came up to me in a workshop I did in the
 Midwest—
 Woman: A man or a woman?
-Does it matter? Are you a sexist? How's that for reversing a presup-
-position! The comment this person made to me as it came up and coyly
+Does it matter? Are you a sexist? How's that for reversing a presupposition! The comment this person made to me as it came up and coyly
 looked at me was "Are you telling me that it's OK to be tricky?" I said
 "Yes, that's what I'm telling you." And it said "Oh, I was so good at that
 when I was young, and I haven't been able to do it for years. Will it be
@@ -1443,8 +1320,6 @@ Suddenly in the course of the parts party, this person stopped and said
 manipulative has gotten me a lot of good things." And if you think
 about it, it's really true.
 
-
-33
 However, a content reframe has been done in the field of humanistic
 psychology: "manipulating is bad." If you look in the dictionary, the
 first definition of manipulation is "To work or operate with the hand or
@@ -1463,8 +1338,7 @@ doesn't really matter.
 As a communicator you want to have the ability to shift the frames
 that people put around anything. If a person believes that something is
 bad, the question is "When, where, how, and for whom?" Reframing is
-a different way of doing the same things you do with all the Meta-
-Model questions. Rather than asking the question "for whom?" you
+a different way of doing the same things you do with all the MetaModel questions. Rather than asking the question "for whom?" you
 just change it. If somebody says "Stupidity is inherently bad; it is bad to
 be stupid" you say "Some people use stupidity as a way to learn a
 tremendous amount. Some people use stupidity as a way to get people
@@ -1485,8 +1359,6 @@ The phrase "unprecedented opportunity" is a reframe in itself,
 because it directs you to search for the opportunities that always exist,
 even in the worst disaster.
 
-
-34
 Another reframe we're always making is "The meaning of your
 communication is the response that you get." Most people don't think
 that way at all. They believe that they know what the meaning of their
@@ -1527,8 +1399,6 @@ out to control his behavior. His mother always controlled him, and
 now he's thirty-six years old and has never been married because of this
 limiting belief. It would certainly be useful for him to generalize his
 
-
-35
 belief and realize that all people attempt to control the behavior of
 others.
 Yes, of course. But that's going to be a final step. What I would do
@@ -1570,8 +1440,6 @@ Well, I find that the more women get into the feminist movement,
 the less they can control men. That has been my experience. It's one of
 the disservices that the feminist movement has done to women. I think
 
-
-36
 we're now going through a phase where women are going to keep some
 of the benefits that they got out of the feminist movement, like more
 money when they work and not having to go through certain rituals
@@ -1612,8 +1480,6 @@ for you.
 Frank: You said earlier that content reframing was the essence of
 sales. Can you give us some examples?
 
-
-37
 Sure. Let's say someone comes in to buy an expensive car. He is
 looking at one model, and he says "I can't see myself driving a car like
 this; it's kind of racy and frivolous." First you can say something like
@@ -1634,10 +1500,8 @@ to some people. To do an effective content reframe you have to know at
 least a little bit about what criteria are important to the person that
 you're talking to. Then you take whatever elements he objects to, and
 find a way that those elements can satisfy other criteria that he has.
-You go for saving money, saving time, prestige, or whatever is impor-
-tant to this particular person.
-If somebody says "It's too racy; I want something more conserva-
-tive," then you go for redefining the car as being truly conservative: the
+You go for saving money, saving time, prestige, or whatever is important to this particular person.
+If somebody says "It's too racy; I want something more conservative," then you go for redefining the car as being truly conservative: the
 safety, the speed, the good repair record all conserve your investment
 as well as your life.
 If he agrees but says that other people won't realize it, you can
@@ -1655,8 +1519,6 @@ who are pleased with their decisions later." Now he is in a dilemma,
 because he is faced with "what people think" on both sides of the
 argument. On one side some people may think it's too racy; on the
 
-
-38
 other side you are saying "You're too concerned with what other
 people think of you." So you utilize his concern about others' opinions
 to move him in the direction of deciding for himself.
@@ -1671,8 +1533,7 @@ car. It takes a lot longer to own it, but in the long run when you finally
 do own it, you end up owning something that you can still drive,
 instead of a pile of junk that has no equity."
 I typically look at the customer and say "Do you think all those
-doctors and lawyers drive cars like this just because they are ostenta-
-tious? They do it because they know about money. If you think it's
+doctors and lawyers drive cars like this just because they are ostentatious? They do it because they know about money. If you think it's
 cheaper to pay $220 a month for three years to buy a Datsun as
 opposed to $220 a month for five years to buy a BMW, look at a
 five-year-old Datsun and compare it with a five-year-old BMW. Check
@@ -1691,15 +1552,11 @@ The really critical element in doing successful reframing is to find out
 enough about a person's world-model so that you know what kind of
 reframe will fit for him. You can gather information directly, and you
 also need to listen very carefully to objections. Every objection will tell
-you about his important criteria. The more you know about his world-
-model, the more appropriately you can reframe. Simple information-
-gathering is where most salespeople fail miserably. Most salespeople
+you about his important criteria. The more you know about his worldmodel, the more appropriately you can reframe. Simple informationgathering is where most salespeople fail miserably. Most salespeople
 are terrible at pacing, too. They tend to jump in with a standard sales
 pitch that may be completely inappropriate, instead of pacing and
 gathering information about this particular customer's criteria.
 
-
-39
 A lot of salespeople think they should try to sell everything to
 everybody. That is a situation in which they need to be reframed,
 because they need to understand that sometimes they make more
@@ -1736,13 +1593,10 @@ won't just try to con them into buying junk. And of course they sell out
 the store completely. Most salespeople are shortsighted, and never
 consider the long-term benefits of recognizing when there isn't a valid
 way to make a match between product and buyer.
-The problem that reframing addresses is the way that people general-
-ize. Some people don't ever consider that they will be in the same
+The problem that reframing addresses is the way that people generalize. Some people don't ever consider that they will be in the same
 Position three years from now if they buy a car that won't last. Or they
 buy a used car because it's cheaper, and they don't think about things
 
-
-40
 like not being able to depend on it, having to rent a car while it's being
 fixed, and so on. When they are buying a car and they look at prices,
 they see the difference in total price, but they don't ask the question
@@ -1752,8 +1606,7 @@ This is exactly the same situation as the father who says to his
 daughter "Don't ever be stubborn," rather than realizing "She's hard to
 control, and it's a bother; I want to find a way around it, but this same
 behavior is going to pay off for me in other situations later on." There's
-no utilization in the process by which most people generalize. Refram-
-ing is saying "You can look at it that way, or you can look at it this way,
+no utilization in the process by which most people generalize. Reframing is saying "You can look at it that way, or you can look at it this way,
 or you can look at it this other way. The meaning that you attach is not
 the 'real' meaning. All of these meanings are well-formed within your
 way of understanding the world."
@@ -1784,8 +1637,6 @@ of making it possible for that desire to fit in with all their other criteria.
 Of course, no one's understanding will ever completely match the
 world out there. You can't ever know whether a car is going to last. You
 
-
-41
 can always get a "lemon." Or you might buy a crummy car that later
 turns out to be one of those priceless used cars that lasts forever. People
 who bought Edsels thought they got burned, but look how much
@@ -1794,8 +1645,7 @@ If you call up a woman and say "I sell pots and pans door-to-door. I
 want to come over to your house" and she says "Come on over," at that
 moment you know that there is at least a part of her that's interested in
 pots and pans. There's a part of her that wants to buy them, and there
-are probably other parts that can't yet fit buying them into her well-
-formedness conditions for her to actually buy something. If you don't
+are probably other parts that can't yet fit buying them into her wellformedness conditions for her to actually buy something. If you don't
 take those other parts into consideration when you make a sale, you get
 what's called "buyer's remorse."
 I think buyer's remorse isn't regret. Buyer's remorse simply means
@@ -1827,8 +1677,6 @@ want to buy, and that you are sure you want to. I don't want you to
 come back to me dissatisfied later on. I want customers to send me
 other people because they're satisfied with what they bought. I know
 
-
-42
 that some people are going to say that you were cheated, and if that
 creates doubt in you, it's bad for me. I need for you to be sure enough
 that you won't spoil my reputation."
@@ -1858,19 +1706,15 @@ reframes are the ones which are as valid a way of looking at the world
 as the way the person sees things now. Reframes don't necessarily need
 to be more valid, but they really can't be less valid.
 When the father says "Oh, my daughter's just too stubborn" and you
-say "Aren't you proud that she can say 'no' to men with bad inten-
-tions?" that's a really valid way of looking at that situation. At another
+say "Aren't you proud that she can say 'no' to men with bad intentions?" that's a really valid way of looking at that situation. At another
 time and place, that father would actually look at it that way and be
 proud of her, but he didn't think about it until you brought it up.
 You can't reframe anything to anything else. It has to be something
 which fits that person's experience. Saying to that father "You should
-like your daughter's being stubborn because that means she's a liber-
-ated woman" probably isn't going to work with him. You have to find a
+like your daughter's being stubborn because that means she's a liberated woman" probably isn't going to work with him. You have to find a
 valid set of perceptions in terms of that particular person's model of the
 world.
 
-
-43
 What reframing does is to say "Look, this external thing occurs and
 it elicits this response in you, so you assume that you know what the
 meaning is. But if you thought about it this other way, then you would
@@ -1884,8 +1728,7 @@ II
 Negotiating Between Parts
 The six-step model of refraining makes the assumption that there's a
 part of you making you do what you don't want to do, or a part
-stopping you from doing what you want to do. That's a big presupposi-
-tion. However, that's one way of describing a difficulty, and usually
+stopping you from doing what you want to do. That's a big presupposition. However, that's one way of describing a difficulty, and usually
 you can organize your experience in that way. You can make any
 difficulty fit the six-step model. That description can always be taken
 as accurate, because something is producing the difficulty.
@@ -1910,10 +1753,7 @@ we describe it as a situation in which you have two parts: one that wants
 to go out and play, and one that wants to work?
 Work and play are both valid functions, and most people also have
 valid ways to achieve those functions. But if both parts go about doing
-45
 
-
-46
 their jobs at the same time, neither of them can function well. Neither
 can do their job as well as they could if they had some way of jointly
 organizing their behavior to get the outcomes that they both want.
@@ -1943,19 +1783,14 @@ gone. People who try to approximate reality fall into what we call
 loud to some kids. One of the characters in the book, Strider, said to
 Frodo "Close the door," and one of the kids I was reading to got up and
 shut the door. That's losing quotes.
-The biggest losing quotes of all is what we call the "lost performa-
-tive" in the Meta-Model. The most dangerous, and I think the most
+The biggest losing quotes of all is what we call the "lost performative" in the Meta-Model. The most dangerous, and I think the most
 lethal, is losing quotes on yourself and believing that your thoughts are
-reality: believing that people really are "visual," "kinesthetic," or "aud-
-itory"; believing that people really are "placators," "super-reason-
-ables," or anything. Believing that you actually have a "parent,"
+reality: believing that people really are "visual," "kinesthetic," or "auditory"; believing that people really are "placators," "super-reasonables," or anything. Believing that you actually have a "parent,"
 "child," and "adult" is psychotic! It's one thing to use those constructs
 to do good work—to organize someone's behavior. It's quite another
 thing to lose quotes and believe that that's reality. So when you say
 "Well, this lie approximates what's 'really' going on more than the
 
-
-47
 other one" be very careful, because you are on dangerous terrain. You
 might become a guru if you do that.
 Somebody like Werner Erhard is in a dangerous situation. If he loses
@@ -1964,11 +1799,9 @@ If somebody who goes to EST loses quotes, typically they'll fall out of
 EST after a while, so the consequences aren't too bad. However, if the
 guy that runs EST loses quotes, then it's all over.
 I don't know which model of reframing is more real. I would never
-admit it if I thought one was more real than the other. More impor-
-tant, it doesn't matter if one is more real.
+admit it if I thought one was more real than the other. More important, it doesn't matter if one is more real.
 Man: One is more real for me and yet neither of them is real.
-Well, you can get by with that one. Whichever lie works, it's impor-
-tant that you understand that they are all lies. They are only ways of
+Well, you can get by with that one. Whichever lie works, it's important that you understand that they are all lies. They are only ways of
 organizing your experience to go somewhere new. That's the only part
 that counts. We're going to assume that the other lie, the six-step
 model, is antiquated because it's been around too long. That is always a
@@ -1996,8 +1829,6 @@ concentrate fully." Then I have you go to this interfering part and ask
 What is your function?" That's a quick way to find out what the
 intention behind the behavior is. "What do you do for this person?"
 
-
-48
 "Well, I get him to go out and play."
 Then I want to find out if the interference goes both ways. I ask this
 part, "When you want to get the person to go out and play, do other
@@ -2017,8 +1848,7 @@ Would you go inside and ask if the part of you that likes to listen to
 lectures knows which part interrupts it from time to time . . . ?
 Bill: Umhm. It knows one of the parts.
 OK. Did it give you a name?
-Bill: Yeah. The part that worries about business and financial mat-
-ters. The part that worries about things—the worry part.
+Bill: Yeah. The part that worries about business and financial matters. The part that worries about things—the worry part.
 The "worry part." Listen to that name! Which of the two types of
 content reframing is really appropriate right now?. . . Meaning. This
 is very important. If you define a part as "The Old Worry Part" you'll
@@ -2038,8 +1868,6 @@ it keeps me out of jail.
 OK. The point is that it interrupts you sometimes when you want to
 concentrate on something else. Now go back and address the part of
 
-
-49
 you that concerns itself with your well-being, which you like to call
 your "worry part"—a little meaning reframe there! Ask that part the
 following: when it's trying to do what it does for you in terms of
@@ -2081,8 +1909,6 @@ already have appropriate behaviors. All we need is for them not to
 interfere with each other. That is the new choice, so step four is out of
 the way.
 
-
-50
 Have we gotten both of these parts to accept the responsibility for
 not interrupting each other? . . . Have they agreed to do it? . . .
 No, they haven't agreed to do it. They said they would agree.
@@ -2123,8 +1949,6 @@ not work?"
 Who's going to object?
 Man: The other parts.
 
-
-51
 The other parts haven't agreed to do anything, so what would they
 object to?
 Bill: Other parts still might object to agreements that have been
@@ -2143,8 +1967,7 @@ that wanted her to talk to her husband had not agreed to anything, but
 the opportunity for it to perform its function had been taken away.
 OK. In your case you are "worrying" and you have a part that comes
 in and says "Hey, let's go do something else." That interrupts the part
-that "worries." Do you think there's another part that could get some-
-thing from that interruption? Is that what you're saying?
+that "worries." Do you think there's another part that could get something from that interruption? Is that what you're saying?
 Bill: That's possible.
 OK. Give me an example.
 Bill: I haven't got one. I'd have to generate one.
@@ -2165,11 +1988,8 @@ up to. What happens if we ask "Does any part object to these two parts
 making the agreement?" If we get a "No" do we learn anything? . . .
 No. We learn nothing. So it's a stupid question to ask.
 
-
-52
 Man: But if we get a "Yes" we have learned something.
-Right. However, can we ask a question which will get the informa-
-tion we want; can we ask a question that will get any possible "Yes"
+Right. However, can we ask a question which will get the information we want; can we ask a question that will get any possible "Yes"
 answers, and something else?
 Man: Do any of the other parts have any suggestions?
 OK. "Are there any other parts involved in this?" "Are there any
@@ -2180,8 +2000,7 @@ Man: Also if we have been completely off base in identifying these
 two parts, that will get us back on the track of finding the parts that are
 involved in this problem.
 Right. That kind of question also does something else that is very
-important: it can give you relevant information about how this per-
-son's parts are organized. In your example you have a "work" part and
+important: it can give you relevant information about how this person's parts are organized. In your example you have a "work" part and
 a "play" part. Some people's play part has within it a part that says
 "This is how we're going to stay healthy." Some people's play part only
 plays poker and smokes cigars, while somebody else's goes out and
@@ -2207,8 +2026,6 @@ certainly are at least two parts. As long as we are messing around with
 reframing, let's play a little. Go inside and ask if there's some part of
 you that is interrupting your usual process of note-taking. . , .
 
-
-53
 Kit: Yes.
 OK. Ask it if it's willing to tell you what it's trying to do for you right
 now by messing up your note-taking, something which you normally
@@ -2227,8 +2044,7 @@ Oh, sensory experience.
 Kit: The feeling that I have is that when I'm listening to you I'm
 experiencing you, and that's how I gather information. So I need to
 kind of dissociate from that dissociation, or, um—
-OK. Well, go inside and ask if this part of you objects to your tak-
-ing notes at this moment.
+OK. Well, go inside and ask if this part of you objects to your taking notes at this moment.
 Kit: The only thing that I would need is to be able to be in two places
 at once.
 Have you ever done that? . . . Ask if there is any part that knows
@@ -2249,8 +2065,6 @@ OK. Now, ask it if it can think of some other anchor you could use
 for the next two hours. . . . (She nods.) Good. Tell it to go ahead and
 use that.
 
-
-54
 Now, part of what I just did has to do with the negotiation model,
 and I mixed it up with some other things. Was one of the two kinds of
 content reframing incorporated into what I just did with her?
@@ -2292,8 +2106,6 @@ Insomnia is a marvelous example. You can tell it's a good one,
 because the rest of the people in the room sigh when you say it. Give me
 some more like that.
 
-
-55
 Woman: Trying to save money and finding yourself spending it.
 That's a good one.
 Man: Being disorganized.
@@ -2311,8 +2123,7 @@ one context to another. If they are in a restaurant, they can never quite
 leave. Anyone who has been a waiter knows about those people.
 Man: Spending time alone and being with groups.
 You're saying "this versus that." That's something else. I want you to
-identify things that have the same form as insomnia. Insomnia hap-
-pens when you try to go to sleep and you wake up.
+identify things that have the same form as insomnia. Insomnia happens when you try to go to sleep and you wake up.
 Man: It sounds like any behavior that's compulsive.
 Yes, but I don't want you to generalize yet. I want you to give me
 some specific examples.
@@ -2331,8 +2142,6 @@ model with each other, the more you will.
 Now.
 (An outline of this chapter appears on the following page.)
 
-
-56
 Negotiating Between Parts: Outline
 1) Ask the part that is being interrupted (part X) the following
 questions:
@@ -2346,11 +2155,9 @@ negotiate an agreement. (If not, this model is not appropriate, so
 switch to another reframing model. If Y interferes with X, but X
 doesn't interfere with Y, six-step reframing with Y may be most
 appropriate.)
-a) Ask Y if its function is important enough that Y would be will-
-ing to not interrupt X so that it could receive the same treatment
+a) Ask Y if its function is important enough that Y would be willing to not interrupt X so that it could receive the same treatment
 in return.
-b) Ask X if it was not interrupted by Y, would it be willing to not in-
-terrupt Y?
+b) Ask X if it was not interrupted by Y, would it be willing to not interrupt Y?
 4) Ask each part if it will actually agree to do the above for a specified
 amount of time. If either part becomes dissatisfied for any reason, it
 is to signal the person that there is a need to renegotiate.
@@ -2375,24 +2182,19 @@ probation officers, and teachers, to lead people into behaviors which
 will actually cripple them for the rest of their lives, are powerful and
 effective mechanisms of change.
 This morning we want to teach you a third model of reframing: how
-to create a new part. Parents, educators and well-meaning psychother-
-apists don't create new parts as explicitly as I'm going to teach you to
+to create a new part. Parents, educators and well-meaning psychotherapists don't create new parts as explicitly as I'm going to teach you to
 do. They mix the pieces up, and they do it over a longer period of time.
 However, those of you who are therapists will recognize the elements
 readily. This model has more steps to it than the six-step reframing
 model, and it's designed to accomplish something entirely different.
-The presupposition of the six-step reframing model is that some-
-body has a part that deliberately stops her from doing a behavior, or a
+The presupposition of the six-step reframing model is that somebody has a part that deliberately stops her from doing a behavior, or a
 part that makes her do a behavior.
 Yesterday afternoon we dealt with a second logical possibility: that
 there are two or more parts, and each of them is doing exactly what it is
 supposed to be doing. Their intentions are positive and their behaviors
 are appropriate, but when those behaviors overlap, they produce an
 unwanted condition such as insomnia. You have a part that takes care
-57
 
-
-58
 of business and methodically plans out everything, and you have a part
 that wants to go to sleep. When one part of you starts to go to sleep,
 then the other part goes "Oops! You forgot about X! What's going to
@@ -2402,8 +2204,7 @@ to drop off to sleep, the other part says "But if you don't, Y will
 happen." The negotiation model is adequate to deal with situations like
 that. You negotiate between the parts so that they work more
 cooperatively.
-This morning we want to explore a third logical possibility: some-
-body doesn't do something simply because there isn't any part of her
+This morning we want to explore a third logical possibility: somebody doesn't do something simply because there isn't any part of her
 that's organized to do that behavior. There is no part actively stopping
 a behavior, and there aren't two parts interfering with each other. She
 has lots of other parts that work. Consciously she desires a particular
@@ -2415,9 +2216,7 @@ verbal content reframing you just change the response and assume that
 it will fire off more useful behaviors. Of course you need to check to be
 sure that assumption is correct.
 In six-step reframing, you change the response, and you ask the
-client's creative part to go on an internal search to find specific alterna-
-tive behaviors. You anchor those behaviors into the appropriate con-
-text by future-pacing, and do an ecological check. When you negotiate
+client's creative part to go on an internal search to find specific alternative behaviors. You anchor those behaviors into the appropriate context by future-pacing, and do an ecological check. When you negotiate
 between parts you assume both parts have appropriate behaviors
 already, and you just need to provide a way for them to sequence when
 they do their behaviors, so that they don't interfere with each other.
@@ -2434,8 +2233,6 @@ skills. That is the kind of situation in which you have to create a new
 part to do a specific behavior, and that is what most education and
 training is supposed to do.
 
-
-59
 A few years ago we were doing a workshop up in the Northwest, and
 one woman in the seminar had a phobia of driving on freeways. Rather
 than treating it as a phobia, which would have been much more
@@ -2477,8 +2274,6 @@ Look, this is a very powerful part of you. Did you ever think of how
 powerful this part is? Every single time you go near a freeway, this part
 is capable of scaring the pants off you. That's pretty amazing, you
 
-
-60
 know. How would you like to have a part like that on your side? The
 woman said "Wow! I don't have any parts like that on my side!" So we
 said "Go inside and ask that part if it would like to do something that it
@@ -2520,8 +2315,6 @@ or your "ability to ask questions" or some other positive behavior. The
 behavior goes from being something negative to being something
 positive. However, it is still a behavior that is not clearly tied to an
 
-
-61
 outcome. This is a very important difference. We build parts to achieve
 outcomes. The parts that are created through the random processes
 that people use in therapy usually achieve behaviors rather than
@@ -2530,8 +2323,7 @@ Every therapy I've ever studied has within it some way of building
 parts. Some people don't have an unconscious mind until they go into
 hypnosis. If you believe that the "unconscious mind" exists a priori,
 then one day you're going to hypnotize somebody and when her
-conscious mind is gone, you're going to be all alone! That has hap-
-pened to me. You can't assume that everything is there. Sometimes a
+conscious mind is gone, you're going to be all alone! That has happened to me. You can't assume that everything is there. Sometimes a
 person has all her marbles in her conscious mind. Sometimes a person
 doesn't have much going on in her conscious mind, but has a very
 well-developed unconscious entity that is a single organized unit.
@@ -2558,13 +2350,10 @@ Then if you look over her left shoulder while you talk to that part, it
 really drives her nuts. It's also a very effective anchoring mechanism.
 From that time on, every time you look over her left shoulder, that part
 knows you're speaking to it.
-So I said "I know that that part of you does something very impor-
-tant and is very sneaky about how it does it. And even if you don't
+So I said "I know that that part of you does something very important and is very sneaky about how it does it. And even if you don't
 appreciate it, I do. Now, I'd like to tell that part that if it were willing
 to inform your conscious mind about what it's doing for you, then
 
-
-62
 perhaps it could get some of the appreciation that it deserves." Then I
 had her go inside and ask that part what it does for her that is positive.
 It came right out and said "I was motivating you." When she told me
@@ -2586,9 +2375,7 @@ might be right, which would be dangerous. If you really had a part that
 didn't have a positive function—it was just critical or destructive—
 then what can you do? Exorcism?
 There is a guy in Santa Cruz who exorcises parts. The exorcism is
-terrible; it takes a long, long time, and has some unfortunate conse-
-quences. This man has "discovered" an epidemic of multiple personali-
-ties in this country that no one else has noticed! He doesn't even begin
+terrible; it takes a long, long time, and has some unfortunate consequences. This man has "discovered" an epidemic of multiple personalities in this country that no one else has noticed! He doesn't even begin
 to suspect that he is creating them.
 I wouldn't recommend exorcism as an approach. I would rather tie
 parts to outcomes, whether or not they were tied together originally. If
@@ -2606,8 +2393,6 @@ I think there's a tendency for human beings to organize themselves
 in terms of outcomes that are contextual. A man behaves differently
 with his wife than with his colleagues at work; he has an entirely
 
-
-63
 different set of analogue behaviors in order to get different outcomes.
 That used to be called "role theory," and I think role theory was on the
 right track in some ways. However, therapists got stuck trying to prove
@@ -2623,8 +2408,7 @@ intended that. However, we all know how some people are: if they
 don't see something, it doesn't exist.
 In order to build a part to achieve a specific outcome, the first
 consideration is to identify a "need."
-Woman: Could you distinguish need from outcome? I don't under-
-stand what you mean by need in this context.
+Woman: Could you distinguish need from outcome? I don't understand what you mean by need in this context.
 Well, that's why I put it in quotes. What you're going to do is find an
 outcome. What your client is going to tell you is that she has a "need."
 The tricky part about this is to build a part that won't interfere with
@@ -2649,8 +2433,6 @@ stop behaviors. It is an experiential way of going about it, and it will
 Work insofar as it's reinforced. Sometimes after a period of time, when
 the part that you have developed discovers that you're not going to get
 
-
-64
 shocked any more, then it won't care if you smoke. So you might have
 to go back at a later time and repeat the procedure or do something
 else. That's a problem with building parts in that particular way.
@@ -2670,14 +2452,12 @@ There's nothing in her stated outcome that has anything to do with
 stabilizing weight.
 Most people really don't understand substituting symptoms. There's
 one school of thought that says "Well, if you use hypnosis, then you
-will get symptom substitution." My response is "Bravo! Let's delibera-
-tely substitute something and have it be something useful."
+will get symptom substitution." My response is "Bravo! Let's deliberately substitute something and have it be something useful."
 Years ago a man wrote an article in which he described making
 cigarettes taste like the worst thing he could think of—cod liver oil. The
 client he did this with quit smoking, but he became a cod liver oil
 junkie! He carried a bottle of cod liver oil in his coat all day. I guess
-that's better than smoking. I don't know the ramifications of overdos-
-ing on fish oil. It sounds disgusting to me. I prefer to substitute
+that's better than smoking. I don't know the ramifications of overdosing on fish oil. It sounds disgusting to me. I prefer to substitute
 symptoms that are positive.
 So the really important question is "What is it that you are going to
 do in terms of an outcome?" If somebody comes in and says "I want to
@@ -2692,8 +2472,6 @@ moment, her need is to lose weight. But how can you do that and not
 have her end up an anorexic?
 Ann: You could set a specified weight that she wants to weigh, and
 
-
-65
 not let that part function when she gets under that weight.
 Well, yes. We can put semantic conditions on when the part is to be
 active and when it's not. You could have the part begin to respond
@@ -2706,8 +2484,7 @@ parts may all say "Well, that's a groovy outcome." But if you get all his
 parts to agree that it's a great outcome, it still won't take him there.
 What the parts object to is the process of getting there.
 Man: Could they generate alternatives?
-You can have them do that, but then you're using a different refram-
-ing model. Then you're saying that the problem is a result of the
+You can have them do that, but then you're using a different reframing model. Then you're saying that the problem is a result of the
 interaction of the parts you have now. You could use the six-step
 model to do that. However, it's not very elegant, because then you have
 to go in and deal with a huge number of parts. The question is simply
@@ -2728,15 +2505,12 @@ learn how to conceptualize them. Ann was on the right track. She said
 "These are what we don't want; this is what we do want. This is one way
 of getting only what we want." The key question you have to ask
 yourself is "Will this give us ONLY what we want?"
-Man: You could put the part in charge of "health" or "attractive-
-ness" or some superordinate structure that includes weight.
+Man: You could put the part in charge of "health" or "attractiveness" or some superordinate structure that includes weight.
 Woman: How about a "central eating control" that takes all those
 factors into account in the process of deciding how much she should
 weigh?
 Woman: I think you have to take all those needs which that part
 
-
-66
 intends to gratify, and satisfy those needs in different ways.
 Well, that's all true. The question I'm asking is "What is the part
 going to do?" If we have a part whose job is to be in charge of overall
@@ -2756,8 +2530,7 @@ central coordinator that you're talking about, because the coordinator
 will have to have a lot of knowledge about what it means to be healthy,
 etc. It will also have a lot more behaviors, so you're more apt to get
 objections from other parts.
-Man: How about installing a semantic cue for eating, and a motiva-
-tion strategy to get her to eat only then?
+Man: How about installing a semantic cue for eating, and a motivation strategy to get her to eat only then?
 Well, you will always be doing that. Ann suggested that the semantic
 cue be a particular weight. However, I want you to talk about it
 differently today. Part of the game we play is how you can change how
@@ -2778,8 +2551,6 @@ saying "You're the best therapist I ever had!" Either that or she's going
 to come in with both arms gone, and she's still going to be fat. She'll say
 "I feel great . . . but I've got this small problem. . . ."
 
-
-67
 I want you to listen very carefully to your definition of a new part,
 because in experience, that's the kind of thing that will actually
 happen. I think that anorexics are made by well-intentioned people,
@@ -2821,8 +2592,6 @@ weight. Then the first question you have to ask is "Does she already
 have a part whose job it is to entertain her when she gets bored?" She
 might have one already, and the way it does that is by stuffing candy
 
-
-68
 down her mouth. Then all that part needs is three other ways to
 entertain her. The six-step model would be adequate to do that. That is
 one possibility. Or it may be that she doesn't have a part to entertain
@@ -2840,8 +2609,7 @@ Bill: I've just remembered a whole volume.
 Yeah. It's known as "instant research." For some clients it's very,
 very valuable.
 Let me give you another problem. Let's say you are using the six-step
-reframing model. You ask "Do you have a part of yourself you con-
-sider your creative part?" And the person says "I don't know." And you
+reframing model. You ask "Do you have a part of yourself you consider your creative part?" And the person says "I don't know." And you
 say "Well, go inside and ask if there is a part of you that can do things
 creatively." She goes inside, and then she comes out and says
 "Nothing happened." And from your outside observation, nothing
@@ -2864,8 +2632,6 @@ Man: Let's take someone who has never had a satisfying sexual
 experience.
 OK. What are you going to build a part to do? Do you want a part to
 
-
-69
 make them feel OK about that, so that every time that they're sexually
 dissatisfied, they say to themselves "I'm OK, I'm OK"?
 Woman: Have them imagine one, build it in the imagination of the
@@ -2906,8 +2672,6 @@ Of course. Sure.
 Woman: I'd like a part to hear pitch. The outcome would be to be
 able to sing on pitch.
 
-
-70
 Hear, hear. Give me some more examples of where you would use
 this model as opposed to the other reframing model.
 Man: Build a part to learn how to do any physical activity, like roller
@@ -2949,14 +2713,11 @@ always two of you there at all times—one of you doing something, and
 one of you talking about it. That is called dissociation.
 Above and beyond that, there's an even worse outcome of that kind
 
-
-71
 of awareness, which is that you don't have very much external sensory
 experience. The outcome of having a part that constantly monitors
 your behavior is that you will always be on the inside, monitoring your
 behavior. You won't know how the world is responding to you. You
-will be there talking to yourself about why you are having this conver-
-sation and why you feel bad. But you'll never see the external behavior;
+will be there talking to yourself about why you are having this conversation and why you feel bad. But you'll never see the external behavior;
 you'll be too caught up internally. That kind of part has important
 limitations which should be considered.
 You can build a part to do that, and in fact, many therapists already
@@ -2977,11 +2738,9 @@ put that constraint on it, then you begin to get a more useful outcome.
 The importance of thinking very carefully about outcomes is that you
 can succeed very well at installing parts that will completely drive
 people bananas in unuseful ways. So when you consider installing
-something, I want you to ask yourself "Well, what's the logical out-
-come of building this part? Is this really what I want to do, or is there
+something, I want you to ask yourself "Well, what's the logical outcome of building this part? Is this really what I want to do, or is there
 something else that I have in mind? How can I be more specific about
-my description, so that when I build it, I get something that approxi-
-mates what I want?'
+my description, so that when I build it, I get something that approximates what I want?'
 Let me generalize the idea of a meta-part. A meta-part is only
 operational at certain times, and the contextual cue that triggers its
 functioning is usually based on how other parts are functioning. For
@@ -2992,8 +2751,6 @@ with whatever else you happen to be doing at that time. So it's usually
 better to have it triggered off by an internal state—a feeling of being in
 conflict, indecision, or something like that. You can specify that when-
 
-
-72
 ever two parts get into a conflict, then the meta-part goes into action.
 A meta-part is kind of like an amnesia state waiting in the wings to
 be fired off. Within the meta-part is a program, a formal set of
@@ -3013,8 +2770,7 @@ meta-part is that if you go into a calibrated internal loop that is not
 useful, that state becomes an anchor for a procedure that elicits a
 response that will get you out of the loop. That is closer to how I think
 about it than as a part. The notion of parts is a good pace for most
-people's experience, but for me there is a bit too much anthropo-
-morphism in the notion of parts. You can think of a meta-part as a part
+people's experience, but for me there is a bit too much anthropomorphism in the notion of parts. You can think of a meta-part as a part
 that makes a distinction and then kicks into a procedure that can take
 you somewhere else.
 With a couple, you can build a part in one of them that operates only
@@ -3035,8 +2791,6 @@ what they really want. At specific times it says "Go in and change your
 behavior and get out of this loop; you've been here before and it
 has never worked. Arguing is not going to get you what you hope it
 
-
-73
 will, and in order for you to argue, it must be really important. It must
 be important enough to change what you are doing."
 Man: I'm struck by that phrase "important enough." I know it's
@@ -3078,31 +2832,24 @@ will result in her being reassured spontaneously at other times, which is
 what she really wants. You can't directly get somebody to reassure you
 spontaneously. But you can behave in ways that will eventually get it
 
-
-74
 for you spontaneously at other times. A meta-part can be a good way
 of doing that.
 Woman: I'm trying to relate this to the six-step model, which would
 say "Find out what need the present behavior that you don't like is
 satisfying, and find a new behavior that would better satisfy the need."
-Yes, that's the six-step model. One way to think about such "prob-
-lems" is as if every behavior serves a need. Or you can assume that a
-problem behavior has nothing to do with their needs; it's just a by-
-product of achieving some other outcome. That would also lead you
+Yes, that's the six-step model. One way to think about such "problems" is as if every behavior serves a need. Or you can assume that a
+problem behavior has nothing to do with their needs; it's just a byproduct of achieving some other outcome. That would also lead you
 to use the six-step model.
-The difference between when the six-step model is particularly use-
-ful and when building parts is particularly useful is the difference
+The difference between when the six-step model is particularly useful and when building parts is particularly useful is the difference
 between building parts that stop things and building parts that do
-things. With the six-step model you usually start out with some behav-
-ior you don't like and get new choices so that you no longer use the
+things. With the six-step model you usually start out with some behavior you don't like and get new choices so that you no longer use the
 unwanted behavior. That's using reframing in order to stop something.
 The situations where building a part is most appropriate are those in
 which a person wants a part that does something: he wants to generate
 certain desired behaviors, and he is not doing it. When people ask for a
 part that stops something, then the six-step model, the secondary gain
 model, is going to be much more appropriate.
-Man: How about building a part that differentiates between profes-
-sional relationships and personal friendships? College professors
+Man: How about building a part that differentiates between professional relationships and personal friendships? College professors
 who lecture at you when you are chatting could use a part like that.
 Yeah, I can think of some people who could use that.
 Man: How about a part that will give more flexibility to a person
@@ -3121,8 +2868,6 @@ that, you have to consider the possible secondary gain. If he always has
 a polarity response, is there some positive function? There may or may
 not be. The nice thing about your example is that if something is that
 
-
-75
 overgeneralized in behavior, very often you can just build a part that
 listens to lectures and no other part in him will object to that, because
 there is no secondary gain to not listening in that context.
@@ -3163,8 +2908,6 @@ enough to get here, that kept him from getting hit by cars or anything,
 and—
 How do you know that? She didn't say anything about that. What
 
-
-76
 happens if you have someone who's always stepping in front of trains?
 She didn't specify any of that.
 Man: He must be getting missed by trains or he wouldn't be here.
@@ -3179,8 +2922,7 @@ Let me back up and run through the whole thing again quickly. I
 made a statement at the beginning that one thing I noticed about
 therapy is that most of what people are doing is building parts. That's
 about eighty percent of what many therapists actually do. If that's true,
-then why is building parts so prevalent? Building parts is often inap-
-propriate. I don't think everybody needs a "parent," a "child," and an
+then why is building parts so prevalent? Building parts is often inappropriate. I don't think everybody needs a "parent," a "child," and an
 "adult," but I think some people do. The question is "Who's going to
 need a part?" and then "What, specifically are they going to need?"
 What kinds of familiar contexts occur where people need parts?
@@ -3206,8 +2948,6 @@ negotiate with your partner.
 You get on the borderline there when you talk about having a part
 that carries on the negotiations. What are the rest of the parts doing in
 
-
-77
 the meantime? I want to know what the outcome of installing this part
 would be.
 Let me give you an example. A couple came to see me because they
@@ -3232,11 +2972,9 @@ Man: Many psychiatrists do not have a part to do that when working
 with those people.
 Many do not have it at all, as far as I can tell! The only difference is
 that they have other psychiatrists who share their reality, so they at
-least have a shared reality. I make lots of jokes about the way humanis-
-tic psychologists treat each other when they get together. They have
+least have a shared reality. I make lots of jokes about the way humanistic psychologists treat each other when they get together. They have
 many social rituals that did not exist when I worked at the Rand
-Corporation. People at Rand didn't come into the office in the morn-
-ing, hold each other's hands, and look meaningfully into each other's
+Corporation. People at Rand didn't come into the office in the morning, hold each other's hands, and look meaningfully into each other's
 eyes for five and a half minutes.
 When somebody at Rand sees somebody else do that, they go
 "Urrrhhh! Weird." The people in humanistic psychology circles think
@@ -3249,8 +2987,6 @@ another, and you can also have a perspective on the process of what's
 going on. It's really absurd that a humanistic psychologist who is hired
 to teach at Rand Corporation doesn't alter his behavior. Think about
 
-
-78
 how often that happens. If someone who has all the TA jargon goes to a
 gestalt institute, he'll get wiped out by the gestalt therapist, because
 gestalt people can yell, and most TA people can't. In that context, as
@@ -3258,8 +2994,7 @@ far as I'm concerned, the inability to adjust to the shared reality is a
 demonstration of psychosis. Qualitatively it's not different. You just
 don't get put away.
 Let's say you're a gestalt therapist or a TA therapist or an analyst or
-whatever your gig is—even a Neuro-Linguistic Programmer. Tomor-
-row morning you wake up and go down to some bar where all the guys
+whatever your gig is—even a Neuro-Linguistic Programmer. Tomorrow morning you wake up and go down to some bar where all the guys
 are. You say "You know, I was working on strategies this morning with
 a client, and I was watching his accessing cues—" They say "What?" So
 you say "Well, you know, I studied with Bandler and Grinder. We
@@ -3292,14 +3027,11 @@ having lots of trouble. Just now I said "Who in here wants a part?" and
 listen to how well-defined the outcomes are! Remember that when you
 work with people.
 
-
-79
 Man: I want a part to remind me at regular and frequent intervals
 that I know what I'm doing most of the time.
 All right. If you have to have one like that.
 Jill: I want a part to let me know what I do know how to do.
-What's the outcome of that? That's not an outcome. That's a pro-
-cess. This is the first slip-up we've had here. I want to know exactly
+What's the outcome of that? That's not an outcome. That's a process. This is the first slip-up we've had here. I want to know exactly
 what this part is supposed to do. You might get yourself a part to
 remind you of a catalog of your therapeutic skills, or to remind you to
 have variety in your behavior. That would be specific. What do you
@@ -3315,8 +3047,7 @@ use another model to cure the same problem that's already been cured?
 Woman: I'll take both.
 Man: I'd like a part that would allow me to relax when I'm sitting in a
 chair listening to a lecture, or when I'm talking.
-Is that appropriate for this model? . . . It could be. The key ques-
-tion is "Are you relaxed at other times?"
+Is that appropriate for this model? . . . It could be. The key question is "Are you relaxed at other times?"
 Man: Yes.
 So it's only when you come into a context like this that you get tense.
 Then the six-step model is more appropriate. If you built a new part to
@@ -3335,8 +3066,6 @@ in two ways. One is that you go into some specific situation and that
 Part goes "Not me!" The other possibility is that the assertive part says
 "Get 'em now!" and some other part goes "Shhhh!" The question is
 
-
-80
 "Which of those two possibilities occurs?" When you know that, then
 you can decide which kind of reframing to use—but either way, it's not
 building a part.
@@ -3378,8 +3107,6 @@ be careful. What is this part going to do?
 Kit: Well, the part is going to serve a need—
 All parts are going to serve a need. What is it going to do?
 
-
-81
 Kit: It will be like a periscope.
 You can't specify outcome with that kind of metaphor. You've got to
 be very specific, or you'll go home at night and you'll lie down, and
@@ -3421,25 +3148,21 @@ learning strategy. One gets you to do it, and the other actually does the
 work. For instance, with a weight problem, it's one thing to build a part
 whose job is to diet, and it's another one to build a part whose job is to
 
-
-82
 get you to go back on diets. There are different ways of thinking about
 how you are going to build parts and what you are going to build them
 for.
 What we have been doing so far is step one: determining what
 specific outcome you want, and making sure that it is appropriate to
 build a part for that outcome. Before you build a part, I want you
-always to check to find out if another reframing model is more appro-
-priate to get what you want. . ..
-* 
-* 
-* 
-* 
+always to check to find out if another reframing model is more appropriate to get what you want. . ..
+*
+*
+*
+*
 *
 For those of you who have chosen a part that you want and specified
 the outcome, I want to take you through step two. This is a fairly
-complex procedure, and we're going to do it methodically—not meta-
-phorically. As a therapist you can dance around a little bit if you want
+complex procedure, and we're going to do it methodically—not metaphorically. As a therapist you can dance around a little bit if you want
 to, but we're going to go through it step by step. I recommend highly
 that you have a piece of paper and a pencil during this procedure,
 because later there are going to be some things that you're going to
@@ -3451,8 +3174,7 @@ what you want to be able to do more methodically, more often, or
 whatever it is. Let's say somebody wanted to have a creative part.
 Perhaps they were only creative once ten years ago, or maybe they once
 thought of a new way to write a shopping list. Whatever it is, I want you
-to find whatever relevant examples exist. When you find those memo-
-ries, I want you to step inside them, and get back all of the experience
+to find whatever relevant examples exist. When you find those memories, I want you to step inside them, and get back all of the experience
 that goes with those memories. This is a very essential piece of what we
 are going to do. Take whatever amount of time you need to do that.
 Isolate specific instances of what you want, and be thorough about it.
@@ -3466,8 +3188,6 @@ want to remember a time that you weighed that much, you want to
 remember a time when you maintained a specific weight.
 Access those memories as intensely as possible. You don't need a
 
-
-83
 long duration. The intensity of what you access will be the important
 part.
 Woman: And if there are no examples?
@@ -3488,8 +3208,7 @@ actually demonstrating whatever it is that this part is going to have you
 do. So with the weight maintenance, you're not going to see yourself
 weighing a specific weight. You're going to see yourself engaging in the
 behaviors that would happen as you were at that weight, and as you
-gained some, and as you lost some—in other words, whatever behav-
-iors would be operating as you maintained that weight. Most people
+gained some, and as you lost some—in other words, whatever behaviors would be operating as you maintained that weight. Most people
 are adept at losing and gaining weight. The problem is that when they
 get down, they go right back up. That new part's job is not to lose the
 weight, but to do things that result in maintaining the weight. You need
@@ -3513,8 +3232,6 @@ again from the inside. . . .
 *
 *
 
-
-84
 Bill: When I go inside, there is an internal auditory which is not
 apparent to me when I'm looking at it from the outside. I don't know
 how to get rid of that. I can look at the image outside and see myself
@@ -3531,8 +3248,7 @@ it unless this part agrees. That's the next step. So if it has an objection
 to your having the internal experience that you fantasized that you
 want, then it will have a chance to object, and rightfully so. But first it
 should allow you the opportunity of finding out if you want the new
-behavior. When it allows you to have that experience, you may dis-
-cover that if you don't have that internal voice, you have nothing to
+behavior. When it allows you to have that experience, you may discover that if you don't have that internal voice, you have nothing to
 write. If so, you would then have to construct another fantasy.
 Woman: Are you asking for one fantasy or several fantasies?
 You just want one fantasy which is an example of the way you would
@@ -3553,15 +3269,12 @@ When you have the well-formed example of how you would behave
 if you actually had this part, and you are satisfied with that fantasy
 from the inside as well as from the outside, then the next thing I want
 
-
-85
 you to do is an ecological check. This is step four. I want you to go
 inside and ask—and it is very important how you do this—"Does any
 part object to my having apart which will be in charge of making that
 fantasy a reality?" That is a yes or no question. If you get a verbal
 "yes," fine. If you get a feeling, you have it intensify for "yes" and
-diminish for "no." You can use all the methods from the other refram-
-ing models for this.
+diminish for "no." You can use all the methods from the other reframing models for this.
 If a part objects, I want you to ask "What is your function for me?"
 This time you don't care what the objection is. That's not the important
 part. You want to find out what it is that the objecting part does, what
@@ -3580,10 +3293,8 @@ for an hour and a half is going to interfere with the heart-beating part,
 then I suggest you ask. My guess is most of those connections will be
 obvious. But if they aren't, then ask.
 The pencil and paper are for this step. So far each time I've used this
-model there have been at least eight or nine parts that object. Depend-
-ing upon what part you are building, some of you may not have very
-many objections. When you go about installing a new part, the poten-
-tial for it to get in another part's way is a lot greater than when you're
+model there have been at least eight or nine parts that object. Depending upon what part you are building, some of you may not have very
+many objections. When you go about installing a new part, the potential for it to get in another part's way is a lot greater than when you're
 just altering one part's behavior a little bit. There may be many, many
 parts that object to creating a new part. The more the merrier, because
 they are all going to become allies in the design process. Just make a
@@ -3594,14 +3305,12 @@ each representational system for objections, to find out about all the
 Parts that object in any way. The objections will be the essence of
 making sure that the part you build is really graceful and works well.
 They will be the talents of the part that you are going to build. . . .
-* 
-* 
-* 
-* 
+*
+*
+*
+*
 *
 
-
-86
 Lucy: I got six parts down.
 OK, you've got six parts down. And you got all of their functions?
 Lucy: Oh, no, I've just got the parts listed.
@@ -3643,15 +3352,12 @@ objects to the idea of having this new part. And we also want to know
 specifically what it is about having this part that concerns the other
 parts. That is very, very valuable information. We need to know that so
 
-
-87
 that when we build the part, we can build one that is going to be
 satisfying to the total person, rather than just ramming something in
 and letting conflicts evolve. There are usually plenty of conflicts
 already; we don't need to build in more.
 I've said nothing yet about actually installing these parts. So far
-we're just designing. The fifth step is what we call "satisfying well-
-formedness conditions." The well-formedness condition of our design
+we're just designing. The fifth step is what we call "satisfying wellformedness conditions." The well-formedness condition of our design
 is going to be that no other parts object. We are going to take all of their
 concerns into account and modify the new part accordingly. We don't
 want to step on anybody's toes here except the conscious mind's. It's
@@ -3685,8 +3391,6 @@ behavior. What we're looking for is a positive function. You don't have
 a part whose function it is to keep you the same. You have a part that
 Wants to keep you the same so that X, Y and Z won't happen, or will
 
-
-88
 happen. If you don't get functions, you're not going to be able to come
 up with a good set of well-formedness conditions.
 Teri: For example, I wouldn't have much time alone with my
@@ -3706,8 +3410,7 @@ OK, now I want another example of a function.
 Pat: The function of my new part is to let me know when I know
 something. The concern is that it will defeat my motivation to learn
 more.
-OK, so if you had a part that let you know when you know some-
-thing, then you would be less motivated to learn. So now you have to
+OK, so if you had a part that let you know when you know something, then you would be less motivated to learn. So now you have to
 build a desire to know what's over the next horizon into the new part
 that you are going to build. That's got to be an integral part of having a
 sense of what you know. "I really know reframing; I wonder what else
@@ -3728,8 +3431,6 @@ Teri: I came up with the main thing behind all this. The only time
 that I've ever been thin, I was crazy. There is a part that's not willing to
 let me become thin, because I don't want to be crazy.
 
-
-89
 Well, I certainly think that you could build strict controls on your
 mental health into a part that was going to put you on a weight
 maintenance program. Think about it this way, Teri. Poundage and
@@ -3768,11 +3469,8 @@ of course there's the implication that you are going to be crazy again.
 However, since you are not the person who went crazy, you can't
 possibly go back.
 That distinction has got to be built into the part that you are building
-now. It's very essential that it's capable of distinguishing all the differ-
-ences between this Teri and the one that went nuts. This Teri is a
+now. It's very essential that it's capable of distinguishing all the differences between this Teri and the one that went nuts. This Teri is a
 
-
-90
 different age, and has a lot more information about the world of
 experience. You know how to do a lot of things that the other one
 didn't know how to do before. That Teri didn't know anything about
@@ -3814,8 +3512,6 @@ write this stuff, you're not going to consider all the objections people
 would have." What if you had made a fantasy where you sat down
 and wrote comfortably, and then at the end picked up your work and
 
-
-91
 let this part go to work with a red pencil to revise it? Would it be
 satisfied then? This is what I do with other people's writing. I have a
 part that does that really well, especially if it's somebody else's work.
@@ -3856,14 +3552,11 @@ Please it.
 Bill: I asked the question "What do you think will happen if you get
 critical feedback?" And the answer that I got was "If I get that, then I'll
 
-
-92
 feel lonely and inadequate." So it's keeping me from feeling lonely,
 and inadequate.
 Well, in one sense that's the same answer. It's just a rephrasing.
 "Well, you know, it's my job to keep you from feeling lonely and
-inadequate." "Well, what would happen if I felt lonely and inade-
-quate?" "Well, you would feel bad. My job is to keep you from feeling
+inadequate." "Well, what would happen if I felt lonely and inadequate?" "Well, you would feel bad. My job is to keep you from feeling
 bad." "Well, what would happen if I felt bad?" "Well, if you felt bad,
 then you would feel like people don't like you." What it's doing is just
 redefining the same thing that it doesn't want: for you to feel bad. But
@@ -3873,12 +3566,10 @@ either protection against people criticizing you, or a way of enjoying
 criticism. You could build in the understanding that when people are
 criticizing you, it offers you the unprecedented opportunity to do a lot
 of things. One is to demonstrate how loudly you can yell. Another is to
-utilize their behavior. When people are angry at you, it's an unprece-
-dented opportunity to test your utilization skills. There are so many
+utilize their behavior. When people are angry at you, it's an unprecedented opportunity to test your utilization skills. There are so many
 opportunities out there. So you don't have to feel lonely; you can make
 criticism the basis for a lasting relationship.
-I'll tell you one of the odd things that I noticed growing up. Every-
-body that beat me up became my friend, and vice versa. Growing up as
+I'll tell you one of the odd things that I noticed growing up. Everybody that beat me up became my friend, and vice versa. Growing up as
 a teenager in a very rough place, I discovered that one of the best ways
 to make a permanent, lasting friendship was to beat the snot out of
 somebody. I became conscious of this sometime around the eighth
@@ -3899,15 +3590,11 @@ To elicit a particular response, yes. Hopefully that part knows what
 it means by the nominalization "love." You might have it be a little
 more specific. That's important.
 
-
-93
 Harvey: OK. I've got another one: To be a caring person.
 That is a behavior, not a function. I'm going to teach all of you this
 information yet. You may not learn to build parts, but you're going to
-learn what a function is by the time you leave here! "To be" is a descrip-
-tion. Listen to the phrase "to be or not to be." When you make a
-statement". . . to be something or other" it's a description of a behav-
-ior. ". . . to be angry. I want a part to make me be angry." That isn't a
+learn what a function is by the time you leave here! "To be" is a description. Listen to the phrase "to be or not to be." When you make a
+statement". . . to be something or other" it's a description of a behavior. ". . . to be angry. I want a part to make me be angry." That isn't a
 function; that's just a description of a behavior. The part wants you to
 care about what or whom, where and why, and for what purpose?
 What is it going to get by having you be caring? What would happen if
@@ -3942,8 +3629,6 @@ Right. But that still isn't a function. You have to go a little bit further
 than that. If you were to be like your father was, improvising on the
 piano, then you would be what? There was something about the way
 
-
-94
 your father improvised that some part of you thinks is negative in some
 fashion. He either made a fool of himself, or he did something else that
 some part of you didn't like, right? Now, what was that?
@@ -3985,8 +3670,6 @@ too formal. What you want to know from this part is "What do you do
 for me as a person now?" You have to go back to it and say "Look, I
 need to know in experiential terms what it is that you do for me as a
 
-
-95
 person. You are obviously a part of me. I do not live with my parents
 anymore. I want to know what it is that you do for me, and how you are
 concerned about my dancing. If I dance around, what's going to
@@ -4020,8 +3703,7 @@ you know exactly what is going to happen, and so that the other parts
 of you know whether they are going to object or not. Then if they have
 objections, they'll be good ones.
 Bill: I've got a function that I'm having a lot of trouble phrasing. The
-stuff that I'm getting says "Look, I want you to minimize the probabil-
-ity of being laughed at and treated with disdain. And I want to
+stuff that I'm getting says "Look, I want you to minimize the probability of being laughed at and treated with disdain. And I want to
 maximize the probability that you will at least be treated with respect,
 and hopefully even honored."
 OK. Well, that certainly is a rather extensive function. It doesn't
@@ -4030,13 +3712,12 @@ Bill: OK. Is that a function?
 
 
 r
-96
+
 Yeah, that's a function. However, the question is what would
 happen if you made a fool of yourself?
 Bill: That's not my question. My question is "Are those words which
 convey function as opposed to words which convey behavior?'
-Well, those words mainly convey behavior, but the functional impli-
-cations are tied to the behavior pretty well.
+Well, those words mainly convey behavior, but the functional implications are tied to the behavior pretty well.
 Bill: What are some words that do convey functions?
 OK. For example: "If I made a fool of myself, then I would lose
 income because my clients would go away." The part's behavior is
@@ -4069,11 +3750,8 @@ Nancy: I can take care of all the objections and concerns, but then
 I'm getting a message that I need another new part—an ally—to help
 do all that.
 Fine. However, I think it probably would be better if you found an
-ally that's already in there. You don't need to build a whole new ally-
-Just go in and find some other part that can already do what you need.
+ally that's already in there. You don't need to build a whole new allyJust go in and find some other part that can already do what you need.
 
-
-97
 It's too much work to build two new parts in the same day.
 Nancy: One part's concern is to be sure that I would be able to notice
 other people's disapproval.
@@ -4115,8 +3793,6 @@ If there's a part that's afraid you are going to make a fool of yourself,
 then you have to build in the ability to have the sensory experience to
 notice when that happens. Without that you won't know, and those
 
-
-98
 other parts are always going to be afraid that if you do certain things,
 you'll make a fool of yourself. You have to have feedback loops to
 satisfy those parts. If Bill writes, then he's got to be able to have ways of
@@ -4124,8 +3800,7 @@ becoming somebody else and reading his writing in order to find out
 whether his response is "That's stupid!" or "Hey, that's pretty
 interesting."
 Whatever concerns your parts have, you build safeguards into the
-fantasy so that you have a representation of what the world of expe-
-rience would be like if you had a new part that functioned to get the
+fantasy so that you have a representation of what the world of experience would be like if you had a new part that functioned to get the
 outcome that includes all the concerns the other parts have. We not
 only want to build a good part, we want to build a graceful part as well,
 a part that can do what it does and not step on any other part's toes.
@@ -4133,16 +3808,14 @@ Now, if you have all the objections and outcomes, go ahead and
 build the new fantasy. First do it dissociated, and then do the whole
 thing again from the inside. Revise that fantasy until no part
 objects. . . .
-* 
-* 
-* 
-* 
+*
+*
+*
+*
 *
 If it's possible for you to make up a fantasy of yourself doing
 something and then step inside it and have the experience of doing it,
-you have already made all of the necessary adjustments at the uncon-
-scious level—in terms of strategies, in terms of representational sys-
-tems, in terms of everything relevant—for that part to know how to
+you have already made all of the necessary adjustments at the unconscious level—in terms of strategies, in terms of representational systems, in terms of everything relevant—for that part to know how to
 generate the behavior and behave in accordance with what you want to
 accomplish.
 A music teacher once told me "If you can hear something inside,
@@ -4152,24 +3825,19 @@ hear it on the inside, then do it with your mouth. And if you can do it
 with your mouth, then you can do it with your hands." What was
 behind that is the understanding that in order to make a fantasy, you
 have to do everything mental that needs to be done in order to actually
-do it in experience. For instance, in a detailed fantasy you see some-
-body and tell him a joke and he laughs. As you did that, you had to
-go through all the necessary strategies to develop the joke: the creativ-
-ity, the gestures, the talking—all of those behaviors are functioning in a
+do it in experience. For instance, in a detailed fantasy you see somebody and tell him a joke and he laughs. As you did that, you had to
+go through all the necessary strategies to develop the joke: the creativity, the gestures, the talking—all of those behaviors are functioning in a
 detailed fantasy.
 Step six is much more metaphorical than we usually are, and it
 demands some congruence on your part. You ask your unconscious
 
-
-99
 resources to analyze that fantasy and to pull from it the essential
 ingredients. What you want your unconscious to do is something it
 does all the time anyway. You want it to take those first memories that
 you started with—the times in your past when you had actually done
 the behavior or something similar—and the fantasy that worked, and
 all the underlying structures, and you want it to give all that entity.
-That is how you randomly got all your parts anyway. Your uncon-
-scious can do that for you; it does it all the time. Those of you who are
+That is how you randomly got all your parts anyway. Your unconscious can do that for you; it does it all the time. Those of you who are
 TA therapists and have TA parts, who do you think made them? You
 made them.
 So you go inside and you say "Look, either one of two things is the
@@ -4200,8 +3868,6 @@ step of all: step seven. We have to test the part to make sure it's there.
 There are several things you can do. You can go inside and ask "Are
 you in there?" That's always a good first step. You can also do things
 
-
-100
 behaviorally that would engage that part and find out what happens.
 You should also add lots and lots of future-pacing activities to your
 testing phase, especially when you do it with other people.
@@ -4243,8 +3909,6 @@ embarrassed, or ashamed of myself, or coming back with an angry
 response.
 OK. Anybody else?
 
-
-101
 Pat: I have a new part, and I even made it grow, so that it is now
 about twenty-five years old.
 Ah. I like that. OK, you built a part. What's it going to do?
@@ -4286,8 +3950,6 @@ Man: Just now I wasn't sure I could tell you that I thought I had
 succeeded in building that part without getting in trouble.
 Did you?
 
-
-102
 Man: Yes.
 OK. Well, what else did you learn to do that you are not quite sure
 you can do?
@@ -4327,8 +3989,6 @@ will be in charge of making that fantasy a reality?" Make sure you
 check in all representational systems to find all objecting parts. For
 each objecting part:
 
-
-103
 a) Ask that part to intensify the signal for "yes" and decrease for
 "no."
 b) Ask "What is your function for me?" "What do you do for me?"
@@ -4342,8 +4002,7 @@ functions and concerns of the objecting parts.
 b) Go back to step 3 and make a new or modified fantasy that will
 satisfy the concerns of each part that objected.
 c) Check with every part to make sure that each one is satisfied that
-this new representation of the new part's behavior will not inter-
-fere with its function.
+this new representation of the new part's behavior will not interfere with its function.
 6) Ask your unconscious resources to analyze that fantasy and to pull
 from it the essential ingredients. Your unconscious is to use this
 information to build a part and give it entity.
@@ -4353,8 +4012,7 @@ moment that it needs to be done."
 7) Test the part to make sure it is there:
 a) Go inside and ask.
 b) Future-pace, repeatedly.
-c) Behaviorally engage the part to find out if it responds appro-
-priately.
+c) Behaviorally engage the part to find out if it responds appropriately.
 
 
 IV
@@ -4362,8 +4020,7 @@ Advanced Six-Step Refraining
 Now that you've all had some practice using other refraining models,
 we're going to return to the basic six-step reframing model in such a
 way that you learn to have more finesse with it. Lots of things happen
-when you reframe your clients, and we want you to have many behav-
-ioral choices for dealing with a wide range of responses. I want you all
+when you reframe your clients, and we want you to have many behavioral choices for dealing with a wide range of responses. I want you all
 to pretend that you have me as a client, and I want you to reframe me.
 I'll role-play a truck driver named Ken.
 Woman: What do you want?
@@ -4387,10 +4044,7 @@ Woman: If you had the choice, what would you like to do instead?
 Ken: Well, I don't have the feeling that I've made myself clear to you.
 I'm here because of what I don't want to do.
 Woman: OK. Pick something you'd rather do instead. Make it up.
-105
 
-
-106
 Ken: OK. I'd rather do Z.
 Woman: You think Z would be useful to you in those situations?
 Ken: Yeah. It would sure be a hell of a lot better than Y.
@@ -4431,8 +4085,6 @@ difficulties. Now I'm going to step back into role again.
 Woman: Will you ask yourself if Y is willing to communicate with
 you, the part that is responsible for Y?
 
-
-107
 Ken: "The part that is responsible for Y?" Look, I'm just a truck
 driver. I—you know—
 George: What is it like when you are doing Y?
@@ -4441,8 +4093,7 @@ I don't . . . you know, I feel sort of like I'm out of control.
 George: Where do you feel that in your body?
 Ken: Uh . . . here. (Ken touches his belly.)
 George: You feel something in your stomach? (Ken: Yeah.) Now I
-could anchor that, and use that as a specific access to the part responsi-
-ble for Y.
+could anchor that, and use that as a specific access to the part responsible for Y.
 Right. George just did one of the maneuvers you can use to get
 access. That's step two of the six-step reframing model: establishing
 communication with the part responsible for Y. Once he's got access,
@@ -4452,9 +4103,7 @@ the part from a distance. This would enable me to reaccess that part
 whether or not the client is capable of reaccessing the appropriate state
 intentionally.
 You could also get me to do self-anchoring by saying, "And as you
-feel that, touch the part of your body where you feel it." I spontane-
-ously touched my stomach a moment ago. Without explaining any-
-thing to me, you can notice how I touch myself, and then have me redo
+feel that, touch the part of your body where you feel it." I spontaneously touched my stomach a moment ago. Without explaining anything to me, you can notice how I touch myself, and then have me redo
 that movement later as an access. In addition, my body posture,
 breathing pattern, and facial expression are all self-anchors.
 All those nonverbal analogues you just saw are the visual signs that
@@ -4474,8 +4123,6 @@ World, but they just didn't have the plays.
 Ken: Yeah. It seemed like the winning team had a lot more things
 they could do.
 
-
-108
 Joe: Exactly.
 Ken: Yeah. It was a good game. Do you watch football much? I used
 to play in school. . . .
@@ -4484,8 +4131,7 @@ else.
 Bill: You know, I've been interested in truck driving for a long time,
 and one thing that I don't know much about is how to shift gears.
 Ken: Oh, hey! That's what distinguishes a pro from an amateur.
-Bill: Would you tell me how? You have to "double shift" or some-
-thing, don't you?
+Bill: Would you tell me how? You have to "double shift" or something, don't you?
 Ken: Yeah. Well, we have a special way of talking. And I don't think
 you'd understand, you know, "double-clutching" and all those—
 Bill: Well, would you try telling me about that?
@@ -4517,8 +4163,6 @@ Now I'm going to come out of quotes again. Rose is going for exactly
 the portion of this metaphor that I would go for in your position. Don't
 let this opportunity go by. Rose can now say to me, "I want you to
 
-
-109
 notice that there are parts of you that do things automatically. When I
 say 'parts,' that's just a way of talking. Of course it doesn't mean
 anything. There are parts of you that know how to shift gears and listen
@@ -4555,13 +4199,10 @@ because if you anchor with a touch, you are likely to anchor
 simultaneously in all other systems as well. When I'm anchoring, I
 change my body posture so that I can touch the client. That's a visual
 anchor if his eyes are open. At the same time, I'm talking in a certain
-tone of voice; that becomes an auditory anchor. I recommend anchor-
-ing in all systems simultaneously, unless you want to be sure that your
+tone of voice; that becomes an auditory anchor. I recommend anchoring in all systems simultaneously, unless you want to be sure that your
 anchoring stays outside the person's awareness.
 Another advantage of tactile anchoring is that it is irresistible. There
 
-
-110
 are survival programs that will interrupt any other sensory input in
 favor of a tactile input. If you are inside talking to yourself and I use a
 tonal shift, you may not even register it, and you may not respond to it.
@@ -4569,13 +4210,11 @@ If your pupils are dilated and I use a visual anchor, you may not be
 responsive. But if you are touched, you will respond.
 Strictly speaking, you only need an anchor in one system. In general,
 anchoring in the system that is accessed will be more streamlined. In
-this case it's auditory. However, unless you have some special consid-
-erations, why not use all systems?
+this case it's auditory. However, unless you have some special considerations, why not use all systems?
 Now let's go back to what we just did with reframing: accessing an
 understanding of the notion of unconscious parts. If someone doesn't
 think he has "parts," there are lots of approaches you can take. I once
-worked with a woman who believed that she didn't have an uncon-
-scious mind. She came in with every hair meticulously in place, and she
+worked with a woman who believed that she didn't have an unconscious mind. She came in with every hair meticulously in place, and she
 thought that everything she did was under conscious control. The idea
 of "parts" didn't make any sense to her. I first got rapport at the
 unconscious level by using mirroring, crossover mirroring, embedded
@@ -4585,8 +4224,7 @@ unconscious responses from her.
 Then I said "Now I'm going to demonstrate that you are a fool."
 That got her attention. "There are parts of you that are very powerful
 allies, and until you appreciate them, you are going to have lots of
-difficulties. I want to demonstrate their presence. You have congru-
-ently stated to me that you do not believe you have an unconscious
+difficulties. I want to demonstrate their presence. You have congruently stated to me that you do not believe you have an unconscious
 mind. You think you are in control of your behavior. It's obvious to me
 that you are not in control of your problem behavior, but I assume that
 you run your own body. That is, I assume that you know what your
@@ -4603,8 +4241,6 @@ became warmer.
 I demonstrated to her that I could actually change the temperature
 of her body, and that she could not resist. In fact, the more she
 
-
-111
 attempted to resist, the more dramatic the changes were. At that point I
 had convinced her of the reality of at least one other part of herself.
 Man: Why was it necessary to do anything with what she consciously
@@ -4635,8 +4271,7 @@ way the truck rides. You know how you can tell whether the tires on
 your rig are full or not just by the sluggishness of the truck, right?
 Ken: Yeah, you've got to be able to! Yeah, I know what you are
 talking about.
-I hope you all understand what Bill is doing. He's using my percep-
-tual reality to make all the points that he wants to make. If you have
+I hope you all understand what Bill is doing. He's using my perceptual reality to make all the points that he wants to make. If you have
 this kind of flexibility to shift your words and examples so as to make
 sense in my reality, then you can communicate artistically.
 Bill: Do you think that after all the years you've been driving truck,
@@ -4646,8 +4281,6 @@ Bill: Are you good enough to tell a slight difference in this feeling
 (Bill gestures towards Ken's stomach.) that you get from the part that
 runs Y?
 
-
-112
 Ken: Oh, yeah! I know when that's happening. There's no doubt
 about it.
 Bill: Well, I'd like you to tell me what type of difference you feel
@@ -4685,12 +4318,9 @@ official six-step reframing model; he simply used my beliefs about
 myself to get leverage to induce a change. The thing that is very elegant
 about the sequence that just occurred is that Bill had the flexibility to
 find the things in my reality that he could use as leverage to get me to
-use some new behavior. I've given him several indications, both ana-
-logically and verbally, "Well, I've been away sixteen hours, you know,
+use some new behavior. I've given him several indications, both analogically and verbally, "Well, I've been away sixteen hours, you know,
 that I take pride in being a real "man." So he says "Are you man
 
-
-113
 enough to take control of the situation?" And that would work. Bill
 also had the finesse to be able to stop me from talking about my wife
 going back to school, which was irrelevant to what Bill wanted to
@@ -4704,15 +4334,12 @@ course you won't tell the client that. You are going to use leverage the
 way Bill just did, in order to force the truck driver into new behavior.
 That will have the effect of changing her behavior.
 OK. Do you have any comments about the sequence that we just
-role-played here? Notice that this was not a standard six-step refram-
-ing. However, most of the steps were there; they were just externalized.
+role-played here? Notice that this was not a standard six-step reframing. However, most of the steps were there; they were just externalized.
 After Bill made the content reframe, I became the part that was the new
 behavior. I didn't look the way I looked when I talked about Y. When I
 became the new behavior, I actually accessed the situation in all
 systems. I saw my wife, heard the sound of her voice, and had the
-kinesthetic sensations of being at home. That takes care of the future-
-pace, so Bill doesn't need to ask "Will that part take responsibil-
-ity for the new behavior occurring in that same context?"
+kinesthetic sensations of being at home. That takes care of the futurepace, so Bill doesn't need to ask "Will that part take responsibility for the new behavior occurring in that same context?"
 The ecological check hasn't come up yet, but I assume that he would
 go there next. Alternatively, he could use a second session with me as
 an ecological check. You don't have to do all of the steps in the same
@@ -4732,8 +4359,6 @@ Fred: Your wife's at home, and you have children, right?
 Ken: Yeah, but they're at school right now.
 Fred is checking for ecological considerations now.
 
-
-114
 Fred: When you walk in the door and see your wife, I want you to
 "put the hammer down and convoy."
 Exercise
@@ -4743,8 +4368,7 @@ coping with. It might be that you are unable to get access to a signal
 system. It might be that you don't know what to do when the client gets
 confused in the middle of the reframing process and says "I don't know
 what I'm doing anymore." It might be that the person says she can't
-access her creative part. Or perhaps the part says it won't take respon-
-sibility for implementing the new choices, because it's not certain
+access her creative part. Or perhaps the part says it won't take responsibility for implementing the new choices, because it's not certain
 whether they'll work. Here is an outline of six-step reframing to help
 you identify the points at which you would like to have more choices.
 Six-Step Reframing Outline
@@ -4764,15 +4388,12 @@ to achieve some positive function.
 a) Ask the part that runs X "Would you be willing to let me know
 in consciousness what you are trying to do for me by Pattern
 X?"
-b) If you get a "yes" response, ask the part to go ahead and com-
-municate its intention. If you get a "no" response, proceed with
+b) If you get a "yes" response, ask the part to go ahead and communicate its intention. If you get a "no" response, proceed with
 unconscious reframing, presupposing positive intention.
 c) Is that intention acceptable to consciousness? Do you want to
 have a part of you which fulfills that function?
 d) Ask the part that runs X "If there were ways to accomplish
 
-
-115
 your positive function that would work as well as, or better
 than X, would you be interested in trying them out?"
 4) Access a creative part, and generate new behaviors to accomplish
@@ -4812,17 +4433,13 @@ B will then try out one method of responding to the situation that
 wight move A toward the next step of reframing. C will be an observer,
 or meta-person, and notice whether B's maneuver is effective or not.
 
-
-116
 Then I want C to ask B to think of two other responses to make to that
 situation, and then try out each of them.
 Let me give you an example of the way I'd like to have you do this
 exercise. Let's say Beth is going to play client, Scott is going to play
-programmer, and Irv, you are going to be the meta-person, the consult-
-ant. Part of your job, Irv, is to observe and listen to the relationship
+programmer, and Irv, you are going to be the meta-person, the consultant. Part of your job, Irv, is to observe and listen to the relationship
 between Scott's behavior and Beth's. At any point in time, I should be
-able to walk up to you and say "Tell me something about the relation-
-ship between the programmer's tonality and the client's tonality" or
+able to walk up to you and say "Tell me something about the relationship between the programmer's tonality and the client's tonality" or
 "Where are they in the reframing format?" So your job is to know
 everything that's going on—which is impossible, so just do your best.
 The second thing that Irv is responsible for as meta-person is more
@@ -4855,22 +4472,17 @@ under stress he goes back to some old program like "How do you feel
 about that?" then you can interrupt and ask the same three questions:
 1) "What step are you on?" 2) "What is the specific outcome you are
 
-
-117
 going for?" 3) "How is what you just did going to achieve that
 outcome?"
-If, in fact, that behavior wouldn't get the outcome, then as meta-
-person you ask "How could you get that outcome?" When he gives you
+If, in fact, that behavior wouldn't get the outcome, then as metaperson you ask "How could you get that outcome?" When he gives you
 one way, ask "How else could you get it?" When the programmer has
 three ways, have him go ahead and pick one to try out.
 If the programmer is incongruent in delivering the method, you
-interrupt again. This time give specific feedback about what the pro-
-grammer could do to be more congruent. "Change your voice tone and
+interrupt again. This time give specific feedback about what the programmer could do to be more congruent. "Change your voice tone and
 tempo in this way," or "Change your body posture and gestures in this
 way." You are all here to become more graceful communicators than
 you already are. If there is any incongruity in your behavior, I believe
-that you'll want to know about it, because being incongruent is self-
-defeating. When you are the programmer, your 7 ± 2 chunks of
+that you'll want to know about it, because being incongruent is selfdefeating. When you are the programmer, your 7 ± 2 chunks of
 conscious attention will be involved in communicating with the client
 and getting responses. The meta-person will have more attention free
 to notice what's going on, so use the information that the meta-person
@@ -4898,8 +4510,6 @@ sake of learning to have more choices. However, you are a human
 being with your own needs. If there are so many interruptions that it
 disorients you, say "Hey! I need at least a minute and a half at a time
 
-
-118
 before you jump in again, unless there's something really important."
 So negotiate that with your meta-person. And you can also reframe
 yourself so that you think of every interruption in terms of what you
@@ -4914,8 +4524,7 @@ have one client who is really tough for me to reframe. Every time I do
 reframing, it starts out really nicely, but by the time I get to step three
 or four, the signals start shifting all over the place and I don't know
 what's happening. I don't know what to do with that." So I tell Doris
-"You've got good rapport with me. You've helped me identify a behav-
-ior to reframe and you've established communication with the part.
+"You've got good rapport with me. You've helped me identify a behavior to reframe and you've established communication with the part.
 The signal I'm getting is an increase in heat in my hand for 'yes' and a
 decrease for 'no.' Now you're on step three and you're about to have
 me ask the part if it will let me know in consciousness what it's doing
@@ -4941,8 +4550,6 @@ Doris: Tell it if it is "yes," to say "yes" in a stronger way, to let you
 know really, for sure.
 You mean to just go in and tell it that? . . .
 
-
-119
 You see, by acting confused I'm making Doris be very explicit in her
 verbal behavior. Being sloppy in your verbalizations is one of the best
 ways to mess up any of our techniques and get stuck. Doris said "Let's
@@ -4953,13 +4560,11 @@ warmth. She said "Ask that part if it is 'yes,'" without specifying what
 either they will be confused, or they may go inside and do something
 very different than what you intend.
 My questions require her to clean up her instructions. The finest
-thing you can do for your colleagues is to demand high-quality perfor-
-mance. If the programmer is sloppy in her verbalizations, be confused.
+thing you can do for your colleagues is to demand high-quality performance. If the programmer is sloppy in her verbalizations, be confused.
 Let her sort it out, with the help of her consultant. If Doris hesitates at
 that point, then her meta-person should ask "What step are you on,
 and what specifically are you trying to accomplish?" "I'm trying to
-validate how robust and strong the involuntary signal system is. Specif-
-ically I'm trying to validate that a rise in temperature of the right hand
+validate how robust and strong the involuntary signal system is. Specifically I'm trying to validate that a rise in temperature of the right hand
 means 'yes.'" Then the meta-person says "How are you going to do it,
 Doris?" She says to me "OK. Go inside. Thank the part for the
 response. Tell it to heat up your hand again if in fact the warming
@@ -4970,21 +4575,17 @@ OK. Doris, what do you do next?
 Doris: Now you have a very strong "yes." Isn't that nice to have
 something say "yes" to you? Probably when you were a little boy—
 This is where the meta-person steps in again and says "Wait a
-minute! Hypnotic age-regression is an important tool, but it is inap-
-propriate now."
+minute! Hypnotic age-regression is an important tool, but it is inappropriate now."
 Doris: I think I need to check to see what the next step is.
 Fine. This is training, so you can say "Hold on a minute!" Or you can
 turn to the meta-person and ask "What is the next step, anyway?" Then
 the meta-person says "To make a distinction between the behavior and
 the intention."
-OK. Here I am on step three. Anybody else can play the pro-
-grammer.
+OK. Here I am on step three. Anybody else can play the programmer.
 Joe: Does that part of you know what the intent of X is?
 I don't know.
 Joe: Ask it and see what happens to your hand.
 
-
-120
 See what happens to my hand? OK. I'll look at it. What exactly do
 you want me to ask it?
 Joe: No, feel it.
@@ -5011,8 +4612,7 @@ OK. Good. Remember, I'm the guy who wants choices to cope with
 multiple-signal responses. He's just given me one choice, namely to ask
 for a direct response from the part that gave one of the other signals.
 What other way could you deal with these other signals?
-Al: There seems to be another part of you that wants to com-
-municate.
+Al: There seems to be another part of you that wants to communicate.
 Is that what's going on?
 Al: That could be it. Wouldn't you like to find out? Let's ask it. It
 seems to me that you are reporting two other things in there. Is the part
@@ -5026,8 +4626,6 @@ Al: There may be another part of you that may be causing that
 buzzing sound you were hearing.
 What?
 
-
-121
 Al: As the buzzing becomes quieter, you can—
 OK. Now he's dealing with the other internal event. Does anybody
 know what you can do with these things once you've turned them into
@@ -5045,8 +4643,7 @@ that they are one and the same. The part that buzzed and the part that
 jerked the shoulder might be some other parts that object to what
 you're doing. You don't know what parts are making the new signals,
 and you don't know what functions they have. What's another choice?
-Sue: You could have the two parts that are objecting get a spokes-
-part to represent them for the time being.
+Sue: You could have the two parts that are objecting get a spokespart to represent them for the time being.
 OK. And I'm sitting here looking confused, because I don't know
 anything about anybody objecting. All I know is that my shoulder
 moved and that I heard a buzzing. Are you telling me those are
@@ -5068,8 +4665,6 @@ the ecological check, you can find out at that point if they still have
 some objection. If those signals come up as objections at that point,
 you know they are different parts. If they don't, you know that either
 
-
-122
 they are signals from the same part, or that the choices that satisfy the
 part that warms my hands also satisfy the other parts.
 The uncertainty is "Are these simply other signals from the same
@@ -5092,8 +4687,7 @@ that you first have the person thank the shoulder jerk and the buzzing
 in order to validate the responses. That's always a good pacing
 maneuver. Then you reassure those parts that no behavioral change
 will occur until they have been consulted at the end of the procedure to
-make sure that they agree with what has occurred. If they have dis-
-agreements or additional needs at that point, they will be attended to
+make sure that they agree with what has occurred. If they have disagreements or additional needs at that point, they will be attended to
 with the same respect that's presently being paid to the part that's
 warming the hand.
 Woman: If all the signals come from the same part, would it be
@@ -5111,8 +4705,6 @@ One thing I will do is say "My apologies to your unconscious
 mind. Given the state of acuity that my eyes have at this moment, I was
 unable to notice the response. I would like to have direct access to a
 
-
-123
 signal, in order to be absolutely sure that I am communicating with the
 appropriate unconscious part. I am going to ask you to return inside. I
 thank the part for having given you the signal, and that's all that is
@@ -5142,10 +4734,10 @@ try out different ways of getting the responses you want. If at any point
 you are unable to generate three choices for proceeding, and your
 meta-person can't provide you with additional choices, be sure to call
 one of us over.
-* 
-* 
-* 
-* 
+*
+*
+*
+*
 *
 Discussion
 You have all been practicing the format called six-step reframing,
@@ -5156,12 +4748,9 @@ behavior. Any format is a crutch, and is no substitute for 1) having full
 flexibility of behavior, 2) sensory experience, and 3) knowing what
 outcome you are going after. If you have those three characteristics of
 
-
-124
 the professional communicator, that's all you need. All the patterning
 we've done on people such as Milton Erickson, Virginia Satir, or
-successful business people, have enabled us to develop specific teach-
-ing formats. Formats are crutches, or excuses, or tricks, to get you to
+successful business people, have enabled us to develop specific teaching formats. Formats are crutches, or excuses, or tricks, to get you to
 notice what's going on at the sensory level and to vary your behavior in
 order to achieve a specific outcome.
 At this point, I don't do reframing as a separate chunk except for
@@ -5184,8 +4773,7 @@ Man: Let's say you ask a client to go inside and ask if the part of her
 that runs behavior X will communicate with her in awareness. She goes
 inside and comes back saying "Nothing happened." What do you do?
 One possibility is to say "Describe what your feelings are right
-now—how you sense yourself kinesthetically." After she offers a de-
-scription, you can say "Now begin to do behavior X. She'll either get up
+now—how you sense yourself kinesthetically." After she offers a description, you can say "Now begin to do behavior X. She'll either get up
 and begin to do it or she'll begin to feel what she feels like when she does
 X. As soon as you see a change that you can detect, you say "Stop. Now
 describe your sensations again." There will be differences between the
@@ -5199,8 +4787,6 @@ eliciting responses. In this case, the client takes responsibility for doing
 that. I operate as her conscious consultant. If she cannot detect any
 communication, I ask her to begin to become the part of herself that
 
-
-125
 does X. The physiological differences between her usual state and her
 beginning to do X will involve exactly the physiological changes that
 she can use as a signal system. When people engage in behavior they
@@ -5208,8 +4794,7 @@ don't like, they usually experience major changes in muscle tone, skin
 temperature, etc. Any one of those changes will serve you well as a
 signal system, and will be experienced when you ask the person to do
 X behavior.
-Sometimes you simply have to teach the person how to make distinc-
-tions in her internal experience. You ask her to describe her present
+Sometimes you simply have to teach the person how to make distinctions in her internal experience. You ask her to describe her present
 internal state. Then you ask her to jump up and down for two minutes
 and ask her to notice the details of how her internal experience
 changes.
@@ -5224,14 +4809,12 @@ sessions.
 Fine. That's not an unusual piece of feedback. I've heard that from
 others. Taking longer is a function of your familiarity and fluency with
 the sequencing, and also has a lot to do with your sensitivity to the
-needs of your clients. Sometimes reframing is such a major reorganiza-
-tion of the person that it appropriately takes three or four sessions to
+needs of your clients. Sometimes reframing is such a major reorganization of the person that it appropriately takes three or four sessions to
 accomplish.
 I claim that I can run through reframing with anybody in three
 minutes, but not if I involve her consciousness. So I assume that you
 asked the client's consciousness to detect the signals and offer reports.
-Without involving the person's consciousness, it takes me about one-
-tenth of the time to get the same changes. However, I do think that
+Without involving the person's consciousness, it takes me about onetenth of the time to get the same changes. However, I do think that
 involving the client's consciousness is a desirable characteristic of this
 model, because it teaches your client to become autonomous after
 some period of time. She's been involved in a positive, participatory
@@ -5242,8 +4825,6 @@ involves a dissociation between the client's conscious mind and the
 part responsible for the problem behavior. If you reframe yourself, a
 third part of you has to be a programmer who keeps track of the
 
-
-126
 process, which makes it a three-level task. If you successfully do
 reframing externally with others first, you can make the process of
 reframing automatic. Then reframing yourself is reduced to a two-level
@@ -5285,12 +4866,9 @@ idiosyncratic ways of approaching the process of reframing. Certain
 kinds of signals may seem more appropriate to a particular client, or to
 his parts.
 
-
-127
 Woman: Do you ever run into somebody who says "I can't come up
 with any new alternatives"?
-Yes. In that case you can employ all of the "I don't know" tech-
-niques. "Well, good, if you did know, what would they be?" "Guess
+Yes. In that case you can employ all of the "I don't know" techniques. "Well, good, if you did know, what would they be?" "Guess
 what they might be." "Dream it tonight and let me know tomorrow."
 "Think of someone who does behave effectively in that context. Now
 watch and listen to what she does."
@@ -5307,8 +4885,7 @@ Programmed dreaming is another choice. "Go inside and ask the
 part of you that has been trying to come up with creative solutions if it
 will be responsible during dreaming tonight to develop alternative
 behaviors and display them in your dreams." Get a "yes" response and
-then ask "Will the part of you that used to run pattern X take responsi-
-bility for selecting from those alternatives three or more ways that are
+then ask "Will the part of you that used to run pattern X take responsibility for selecting from those alternatives three or more ways that are
 better, and for employing them in the context where they belong?"
 Then the person goes off with programmed dreaming, has the dreams,
 and incorporates the behaviors. When she comes back in two weeks,
@@ -5327,28 +4904,22 @@ objection, rather than giving the part that's objecting new ways to
 do what it is trying to do, you go back and find other alternatives for
 the first part which the second part won't object to. That's an excellent
 
-
-128
 variation, and sometimes it will be better to do that—for instance, if
 the first part chooses alternatives such as suicide.
 Man: A woman I was working with wanted to evaluate each of the
 three alternatives separately. It seemed OK to me, so she did that.
-Fine. It's actually a bit more precise and explicit to do each alterna-
-tive in turn, than it is to lump them together. Some people require a lot
+Fine. It's actually a bit more precise and explicit to do each alternative in turn, than it is to lump them together. Some people require a lot
 of precision when they process information. You've got to be very
 explicit with those people, and the chunks have to be smaller than the
 ones we typically use. In that case, the variation you used would be not
 only desirable, but perhaps necessary to accommodate that person's
 personal style.
-Woman: I've always done the ecological check before the future-
-pace. Why do you have the future-pace first, when you may have
+Woman: I've always done the ecological check before the futurepace. Why do you have the future-pace first, when you may have
 changes or revisions in the new behaviors, and have to future-pace all
 over again?
 You can do it that way, and often you can get by with it. But there is
-an important reason why we future-pace first. Future-pacing context-
-ualizes the behavior, testing it out in imagination. Parts may only
-realize that they have an objection when you future-pace and context-
-ualize the new behaviors. If you future-pace last, objections may
+an important reason why we future-pace first. Future-pacing contextualizes the behavior, testing it out in imagination. Parts may only
+realize that they have an objection when you future-pace and contextualize the new behaviors. If you future-pace last, objections may
 emerge then, and you won't know that unless you're alert for signs of
 incongruence at that point.
 Woman: What do you do if a client says, "No, that's not what I
@@ -5359,8 +4930,7 @@ side to side.) At that point, he will "short circuit" and go into an utter
 confusion state, and I can do pretty much anything I want.
 Alternatively, I can simply utilize his response and feed it back. "I
 didn't think so" (nodding "yes"). "However, let's pretend that it is." By
-doing this, I have validated both the conscious and unconscious com-
-munication, as if saying "I recognize both of you are there."
+doing this, I have validated both the conscious and unconscious communication, as if saying "I recognize both of you are there."
 Then I go on to install the behavior that the unconscious agrees to.
 The overall strategy I have when I receive conflicting messages like that
 is to always go with the ones outside of awareness, because I'll always
@@ -5370,22 +4940,18 @@ This is a problem that the Simontons have run into in doing their
 work with cancer patients. They will only accept clients who are
 consciously willing to accept the belief that they are creating their own
 
-
-129
 cancer. That eliminates a large percentage of the population who have
 cancer. In fact, most cancer patients have a belief system that precludes
 taking conscious responsibility for their disease. Most cancer patients
 believe that they should not overtly ask for help or attention or
 whatever secondary gain they derive from having cancer. That belief is
 what made the disease itself necessary.
-Both insanity and disease in this culture are considered to be "invol-
-untary responses," so you are not responsible for them. So one way to
+Both insanity and disease in this culture are considered to be "involuntary responses," so you are not responsible for them. So one way to
 get help and attention is to have something happen that is involuntary
 and that you can't be held responsible for. Insanity and disease are
 both very powerful ways to get other people to respond to you without
 taking responsibility for it.
-The Simontons insist that their clients take full conscious responsi-
-bility for creating their own cancers, which is a remarkable way to
+The Simontons insist that their clients take full conscious responsibility for creating their own cancers, which is a remarkable way to
 approach it. The one big disadvantage of that approach is that it makes
 their way of working with cancer patients available only to a very small
 percentage of the population.
@@ -5393,8 +4959,7 @@ Woman: But you could work with the population that consciously
 believes that they aren't responsible, and ask them to suspend their
 disbelief for a period of time.
 Right. Ask them to pretend. You can even agree that they aren't
-responsible, but you've discovered that by going through certain "psy-
-chological" steps, people are often able to have a healing impact on
+responsible, but you've discovered that by going through certain "psychological" steps, people are often able to have a healing impact on
 problems that are clearly physical in their origin. Then you go ahead
 and do six-step reframing in the same way you would with someone
 who says "I believe I caused this."
@@ -5413,8 +4978,6 @@ behavior?" If I have rapport, they agree. "OK, I'm willing to try that
 out." If I get a "no" response, I ask if they are willing to pretend. Or you
 can say "Look, do you really have a choice? You've already done the
 
-
-130
 best that you know how to do, consciously, to change this behavior.
 When you made the assumption that this was a bad part, you failed
 utterly. Let's try the reverse assumption for a two-week period, and
@@ -5424,8 +4987,7 @@ Woman: At a conference recently I heard the Simontons mention
 how much they learned from you. They gave the example of adding
 representational system overlap to their visualization techniques.
 Yes. They get good results just by having patients visualize the white
-blood cells eating up the cancer cells. If you overlap from that visuali-
-zation into congruent sounds and feelings, it becomes much more
+blood cells eating up the cancer cells. If you overlap from that visualization into congruent sounds and feelings, it becomes much more
 powerful. Did they mention anything about the difference between
 conscious and unconscious belief systems?
 Woman: They mentioned that they realize the difference, but they
@@ -5456,8 +5018,6 @@ because you can always say "All right, we're going to pause now. We'll
 meet here again at eight o'clock tomorrow." The only real limitation is
 how many parts you the programmer can keep track of. I'm pretty
 
-
-131
 good at keeping track of a large number of things going on at the same
 time; I've had a lot of practice doing that. You will have to find out how
 many you can remember. If you start going "Oh, yeah, it wasn't that
@@ -5465,8 +5025,7 @@ one, . . . it was ah . . . the other one . . . ah . . . ah . . . " then
 you are probably going to confuse the person.
 Man: I had a client who used to give names to the parts. She had the
 sex goddess, and she had the lady in white gloves who had a congenital
-malformation—her legs were permanently crossed—and several oth-
-ers that she could identify and talk about and have talk to me.
+malformation—her legs were permanently crossed—and several others that she could identify and talk about and have talk to me.
 Yeah, some of them have names, and if they don't, you can always
 give them names. There are many things you can do to help keep track
 of them. But you also have to keep track of who said what, and who's
@@ -5499,19 +5058,15 @@ through all the six steps very systematically. We wouldn't just say "Do
 it"; we would go through each of the six steps carefully. The person's
 conscious mind is gone; she is just in a trance, responding. You can do
 
-
-132
 it with finger signals or any other yes/no signal, or you can do it
-verbally if your client happens to be a good verbal unconscious com-
-municator. I'd go through it once systematically, and then have her
+verbally if your client happens to be a good verbal unconscious communicator. I'd go through it once systematically, and then have her
 unconscious pick something else and try it, and notify me if it gets
 stuck. I'd literally educate her unconscious in the six-step model until it
 could do it a couple of times without any problem. Then I'd say "Look,
 each night just after she's dropped off to sleep, identify and reframe
 two things that you think are important, given the experiences of the
 day."
-A month later I went back and checked with everybody's uncon-
-scious to find out what kind of things they'd done. Those people were
+A month later I went back and checked with everybody's unconscious to find out what kind of things they'd done. Those people were
 changing like crazy. One student's unconscious reported to me that
 every night he would see himself in front of a blackboard, and he would
 make a list of all the things that didn't occur the way he wanted them to
@@ -5542,8 +5097,6 @@ signals to use when I'm reframing. Some say to use only signals with
 definite unconscious yes /no responses. Other people talk about just
 going inside and asking an open-ended question and seeing what
 
-
-133
 comes up. Yesterday afternoon you were having me go through a
 negotiation reframe without taking time to set up specific signals—
 Oh, I had yes/no signals, though. You were responding in ways
@@ -5558,8 +5111,7 @@ from our clients, when it is in the most favored representational
 system?
 That's a contradiction. You asked "What signal can come in the
 most favored system which I can trust to be an unconscious signal?"
-The most favored representational system is the one that is in con-
-sciousness. It's best to have a signal that is not under conscious control.
+The most favored representational system is the one that is in consciousness. It's best to have a signal that is not under conscious control.
 If your signal is internal dialogue and you don't trust it, then the only
 way to have a signal that you will trust is to have an involuntary
 kinesthetic or visual response that intensifies and diminishes. You get a
@@ -5585,8 +5137,6 @@ Bill: How, specifically, do you set up those other signals?
 One thing I do is calibrate, I say "Your unconscious mind can lift this
 finger to answer 'yes.'" Then I watch and find out what else occurs
 
-
-134
 naturally. "And it can use this finger to answer 'no.'" I notice the
 nonverbal differences between them. If I'm not sure, I do it ten times
 until I'm sure.
@@ -5627,8 +5177,6 @@ it, and I wouldn't talk to you either if you did that to me. So I
 recommend that you go inside and apologize and tell it that you
 misunderstood its intentions and now you would sincerely like to
 
-
-135
 communicate with it." After a person goes inside and apologizes, nine
 times out of ten he'll get a response.
 Sometimes a person goes inside to reframe and says "All right, you
@@ -5670,8 +5218,6 @@ is, and I promise you that I will be the one to decide if what you are
 doing is useful or not, and not her, would that be all right?" I got an
 instant and emphatic "yes" to that without her even going inside. Then
 
-
-136
 suddenly she clapped her hands over her ears and got a weird look on
 her face.
 "What did it tell you?"
@@ -5713,8 +5259,6 @@ motivation that didn't lead anywhere.
 Mary: I'm thinking about someone that about ten of us are working
 with—
 
-
-137
 Ten of you are working with someone? That's the first thing I
 would stop. That would make anybody crazy!
 Mary: This woman has a lot of nausea, which doesn't have medical
@@ -5756,12 +5300,9 @@ Migraines are quite easy. Those of you who have clinical experience
 in dealing with migraines, tell me what representational system
 migraine clients typically specialize in. I want you to think of specific
 
-
-138
 clients who have actually come to you with a complaint about
 migraines. What representational system do they use primarily? . . .
-Migraine sufferers are very visually-oriented. Check your own clini-
-cal experience. As with any other physiological symptom, I presuppose
+Migraine sufferers are very visually-oriented. Check your own clinical experience. As with any other physiological symptom, I presuppose
 that a migraine is a way that a part uses to get a person's attention. The
 symptom is a way of trying to get him to do something different, to get
 him to take care of something that is needed.
@@ -5784,8 +5325,7 @@ dissatisfied, to renegotiate.
 Well, that always happens anyway. That's just to pace.
 Woman: Then why do you need to say anything about it, if it
 automatically happens?
-Because if you don't, then when it doesn't work, the person's con-
-scious mind doesn't know that it can renegotiate, and calls it "failure."
+Because if you don't, then when it doesn't work, the person's conscious mind doesn't know that it can renegotiate, and calls it "failure."
 I look at the client and say "Look, I want your parts to try this for six
 weeks, and if it works out, then fine, you're on your way. If any one of
 your parts discovers that it doesn't work, it is to inform you by having
@@ -5794,13 +5334,10 @@ time to sit down and negotiate further." That means that there is no
 way in the world that the client can fail. I think clients are entitled to
 that. By the way, that is both a reframe and a future-pace.
 One of the disservices that therapists do for their clients is to fail to
-use that particular reframe in some fashion. I always make the symp-
-tom the barometer of change. Then if the symptom recurs, the client
+use that particular reframe in some fashion. I always make the symptom the barometer of change. Then if the symptom recurs, the client
 doesn't think "Oh, well, another shot of therapy and nothing has
 happened." Instead, he thinks "Ah, that means I have to reframe
 
-
-139
 again." The stigma of the symptom dissolves over time, because he
 begins to pay attention to the symptom as being a message. It probably
 always was anyway, but he never thought about it that way. He begins
@@ -5839,24 +5376,18 @@ Now, the most significant thing about that comment is that she
 didn't actually dance on the railing! However, that tells you something
 about how she got overgeneralized in the first place. It's important to
 understand that a phobia strategy is an example of a strategy which is
-working to protect the person from something, but it's overgeneral-
-ized. When you change the response to the phobic stimulus, make sure
+working to protect the person from something, but it's overgeneralized. When you change the response to the phobic stimulus, make sure
 
-
-140
 that the new response is one that's useful, so the person doesn't go out
 and dance on the railing or do something else dangerous.
 I cured a lady of a phobia of birds—in Chicago, which is the land of
 pigeons! When I was done, I tested her. I said "Well how would you feel
 about holding an eagle on your arm right now?" She said "Well, I don't
-think I'd like that," and I said "Good." The visual-kinesthetic dissocia-
-tion wipes out the overgeneralization. You want to make sure it doesn't
+think I'd like that," and I said "Good." The visual-kinesthetic dissociation wipes out the overgeneralization. You want to make sure it doesn't
 wipe out all caution.
-Reframing is incorporated into the phobia technique at the begin-
-ning when we say something like "I know that the part of you that has
+Reframing is incorporated into the phobia technique at the beginning when we say something like "I know that the part of you that has
 been scaring you has been protecting you in important ways." There is
-always something important gained by having a phobia: what psychia-
-trists call "secondary gain" or what we call an outcome. That's why you
+always something important gained by having a phobia: what psychiatrists call "secondary gain" or what we call an outcome. That's why you
 say "You are going to learn something of importance" when you do the
 visual-kinesthetic dissociation. Hopefully clients will get it on their
 own. If not, you'll find out about it, especially if you quiz them a little
@@ -5864,8 +5395,7 @@ bit.
 At the end, I always suggest that some of the energy that has been
 liberated during the phobia process be used to safeguard them as they
 explore the new behaviors that are now available to them. Somebody
-who has been phobic of heights has no experience of what is appro-
-priate and safe behavior in that context. Someone who hasn't involved
+who has been phobic of heights has no experience of what is appropriate and safe behavior in that context. Someone who hasn't involved
 herself sexually because she was raped or sexually abused as a child
 has no idea what appropriate sexual behavior is. When you use these
 change techniques, suddenly all the barriers are lifted, and you have to
@@ -5884,8 +5414,6 @@ said then, that she was ready to run out of the office and grab the guy
 and tear his clothes off and get right to it. Given her longer-term
 relationship with the man and her own appreciation for herself, it was
 
-
-141
 more appropriate that she proceed in a more cautious and respectful
 manner toward the actual sexual activity.
 NLP is a powerful set of tools. Even the simple anchoring techniques
@@ -5903,11 +5431,8 @@ No matter what you do, you are always reframing, in the sense that
 you're always changing a response. It's just that when you use the
 standard reframing model on a phobia, it's very hard to get it to work:
 when a person contacts the part that gives her the phobia, usually she
-gets the phobic response as a signal. And when a person has over-
-whelming unpleasant feelings, she just doesn't function well.
-Reframing is a nice model and it works for many problems. How-
-ever, there are other things that have to be taken into account: over-
-whelming feelings is one, and another is multiple parts, or sequential
+gets the phobic response as a signal. And when a person has overwhelming unpleasant feelings, she just doesn't function well.
+Reframing is a nice model and it works for many problems. However, there are other things that have to be taken into account: overwhelming feelings is one, and another is multiple parts, or sequential
 incongruities. When you work with a multiple personality, you may
 cure Susie of a phobia, but Martha over there can still have it. We're
 going to teach you about that tomorrow afternoon.
@@ -5917,8 +5442,7 @@ gain will always be evident in every therapeutic change somewhere
 along the line. Manipulation of parts will also be evident in every
 therapeutic change. You are either going to change a part's behavior,
 or create one, or negotiate between them. And there will also always be
-some kind of alteration in the process of generalization. A generaliza-
-tion will either be made or broken, or a pair of them will be combined,
+some kind of alteration in the process of generalization. A generalization will either be made or broken, or a pair of them will be combined,
 or one of them will be split into two. Those three processes—secondary
 gain, manipulation of parts, and an alteration in generalization—will
 always be at work in every change.
@@ -5929,8 +5453,7 @@ Couples, Families, Organizations
 V
 The heart of refraining is the recognition that behavior can become
 detached from the outcome it is supposed to achieve. Psychologists
-recognized this years ago, and invented the term "functional auton-
-omy" to describe behaviors that continued long after they had any
+recognized this years ago, and invented the term "functional autonomy" to describe behaviors that continued long after they had any
 useful function for the person. Psychologists didn't know what to do
 about this, but they did recognize it. They didn't realize that they could
 directly identify outcomes, and then select or design other behaviors,
@@ -5955,10 +5478,7 @@ ecology of the larger system is to be able to observe it. This is one of the
 values of doing couple therapy or family therapy instead of individual
 therapy. What we want to do next is demonstrate the application of
 reframing to situations in which you can observe the system that the
-143
 
-
-144
 person is in, and explicitly deal with the ecology of the whole system.
 Changes that are great for an individual are sometimes disastrous for
 the family or business organization in which she exists.
@@ -6000,8 +5520,6 @@ like to have you role-play a couple. I'm going to arbitrarily ask you to
 interact in the following way: Beth, you say or do anything, and then
 Tom, you act depressed.
 
-
-145
 Beth: Hello, Tom, how are you today?
 Tom: Oh, I don't know. (He starts to slump and talk in a monotone.)
 OK. I don't know exactly what portion of Beth's behavior Tom is
@@ -6043,8 +5561,6 @@ If Beth can find an example of when she was successful in getting her
 intended message across in the past, then I will ask her to do it here, and
 notice whether or not it works.
 
-
-146
 Beth reaches out and touches Tom gently as she says softly "How's it
 going?" Tom responds positively.
 In this case it worked fine. If she can't find an example in her own
@@ -6086,13 +5602,10 @@ mother wanted a certain response from her son, she would point to the
 part of her arm where the identification number had been tatooed. I
 don't know how she had built that anchor up to have such an impact on
 
-
-147
 her son, but it was as quick a knee-jerk response as I've ever seen. The
 kid would immediately start to go really berserk, yet the stimulus was
 one most people wouldn't have noticed.
-When you use this format, you assume that people want to commu-
-nicate in such a way that they get what they want, and that they want
+When you use this format, you assume that people want to communicate in such a way that they get what they want, and that they want
 to respect the integrity and the interests of the other people involved.
 That assumption may not be true, but it's a very useful operating
 assumption, because it gives you something to do that can be very
@@ -6126,21 +5639,18 @@ b) "What did you intend?"
 4) Ask stimulus person, "Are you committed to getting your intended
 message across?"
 
-
-148
 5) Find a way to make message received equal message intended:
 a) Find it in the experience of the stimulus person. "Have you ever
 gotten the response you want? What did you do then?"
-b) Find it in the experience of the response person. "What be-
-havior would work to get that response in you?"
+b) Find it in the experience of the response person. "What behavior would work to get that response in you?"
 c) Select a model, or pretend that you know how to get that
 response.
 6) Have the stimulus person try out the new behavior to find out if it
 works satisfactorily.
-* 
-* 
-* 
-* 
+*
+*
+*
+*
 *
 Now that you've all had some experience using this simple format,
 I'd like to demonstrate some variations. Let's do another role-play.
@@ -6153,8 +5663,7 @@ Joe: She's angry with me.
 Rita, did you intend to let him know that you're angry?
 Rita: You're damn right!
 So this time message received is message intended. I say, "Well done,
-congratulations, you are communicating very effectively." This vali-
-dates that their communications and their intentions are effective, at
+congratulations, you are communicating very effectively." This validates that their communications and their intentions are effective, at
 least at the level they are describing them to me. However, they are
 both in unpleasant states, and probably those states are not helpful in
 arriving at a satisfactory solution to their difficulty.
@@ -6171,8 +5680,6 @@ OK. So when you raise your voice and start yelling, you're saying
 in a relationship like this, I want you to pay attention to me because I
 want to know you care."
 
-
-149
 So, Joe, this may seem quite contradictory to you, especially when
 you have these unpleasant feelings, but she is trying to say "Hey,
 demonstrate to me by being attentive that you care, because it matters
@@ -6214,8 +5721,6 @@ clearly; listen to the way you do it, etc. When you have seen and heard
 what you did in detail, try out that behavior with Joe, and we'll find
 out if it works here and now."
 
-
-150
 If Rita says "I've never succeeded in the way that I'd like to," I ask for
 a model. "Who gets attention and caring from Joe? What does she do?
 Now you try it."
@@ -6232,8 +5737,7 @@ but it may or may not match her style or his style.
 Janet: When Rita thinks of a new behavior, do you anchor it?
 I don't have to, but I usually "overkill" in seminars. Every chance I
 get to use another anchor, I do. Janet suggested that I could use one
-here, and she's absolutely right. As Rita searches and finds the exam-
-ple, I can anchor it and then say "OK, now let's try it." I hold the anchor
+here, and she's absolutely right. As Rita searches and finds the example, I can anchor it and then say "OK, now let's try it." I hold the anchor
 to stabilize the state from which she generates the behavior that
 worked before.
 The other possibility is to use Joe as a creative resource to find
@@ -6257,8 +5761,6 @@ That's not the message you got before, but now you can understand
 what she intends. The question is, can you instruct her in what,
 specifically, she can do so that you can recognize and respond to her
 
-
-151
 intention? What can she do to get your attention in a positive way?
 Think of times in the past when she has done something that made you
 want to pay attention to her. What did she do then?"
@@ -6300,8 +5802,6 @@ doing whatever they do, and when somebody comes in, they just fire
 off the technique. Often the same technique would work if they did
 something else first.
 
-
-152
 Woman: That's why I asked the question. Let's say that you have the
 information. How do you decide what to do and in what sequence?
 What goes on in your head before you start doing something?
@@ -6318,8 +5818,7 @@ Now, one way to make a change would be to attack her belief that she
 knows best. However, that would be the hard way to go about it. If you
 do it that way, you've got to fight with her.
 My outcome was to get them communicating again. So I said to the
-mother "Do you really believe this? I mean this seriously, not sarcasti-
-cally at all. Do you really believe that you have good information that
+mother "Do you really believe this? I mean this seriously, not sarcastically at all. Do you really believe that you have good information that
 will be helpful to your daughter?" And the mother said "Absolutely!"
 "I want to believe this, because if you are serious about this, and
 you're not just saying it, I know there is something really useful that we
@@ -6327,8 +5826,7 @@ can do here. Are you really serious?"
 "Absolutely. I mean it literally. I'm a very honest person."
 "OK. Now if I can find a way that you can communicate this
 information to her without her freaking out, then she'll have the
-information. Would you be willing to use a different way of communi-
-cating, even though it might not be your natural way of doing it? Is the
+information. Would you be willing to use a different way of communicating, even though it might not be your natural way of doing it? Is the
 information you have to give her important enough that you would be
 willing to do something like that?"
 "Absolutely."
@@ -6343,8 +5841,6 @@ grin on her face, and she said "Well, she'd have to treat me like a
 person."
 "How has she been treating you—like a pencil?" That's one way of
 
-
-153
 getting her to specify what "being treated like a person" means. If you
 give an answer that you know is totally wrong, she will have to correct
 it.
@@ -6386,11 +5882,8 @@ parts. Two, if you go after it too directly, you may interfere with her
 strategies.
 Teri is a good example of this possible interference. Let's say that I
 
-
-154
 was a well-intentioned therapist who had a belief system that said
-"Everybody has got to have a way of being able to generate expe-
-rience." So when I said "Now, it's time for everyone to lie congruently,"
+"Everybody has got to have a way of being able to generate experience." So when I said "Now, it's time for everyone to lie congruently,"
 rather than allowing Teri to go outside the room, I would have said
 "You must stay and learn this!" If I did that, I would mess with her
 strategies and make her crazy. She was sitting there saying "If I do this,
@@ -6416,9 +5909,7 @@ something and it doesn't work, I always back up in the process and ask
 that question, I have more information to go on.
 Woman: I have seen a lot of couples where the woman's outcome,
 what she wants, is aggravating to the man. How do you deal with that?
-Usually it's a specific behavior rather than the outcome that's objec-
-tionable. If the outcome is objectionable, then you go to meta-
-outcomes. You find out what the intention is behind the intention that
+Usually it's a specific behavior rather than the outcome that's objectionable. If the outcome is objectionable, then you go to metaoutcomes. You find out what the intention is behind the intention that
 she just stated. Rita, what does it do for you to get his attention?
 Rita: It makes me feel good, like a desirable woman.
 Good. What other ways do you have to feel good and desirable?
@@ -6428,8 +5919,6 @@ ways that she's not willing to do.
 First I want to point out that this is an example of the specific
 behavior being unacceptable to her, not the outcome. If that happens, I
 
-
-155
 can say to her "How else could you get his attention? What other ways
 could you use?"
 Woman: I'm not having very much success finding any other ways.
@@ -6443,8 +5932,7 @@ called "pseudo-orientation in time." You have her jump three months
 into the future: "Remember three months ago when we first got
 together? I was just talking to a woman in the same position that you
 were in three months ago, and I remembered how you really couldn't
-get your husband's attention at that time except by bizarre, unaccept-
-able sexual activities. Since that was unacceptable to you morally and
+get your husband's attention at that time except by bizarre, unacceptable sexual activities. Since that was unacceptable to you morally and
 ethically, I remember that you came up with some alternatives that
 were so effective that they surprised him as much as they surprised you.
 But I can't remember exactly what they were. Would you describe in
@@ -6453,10 +5941,8 @@ There are lots of alternatives at that choice point, but you have to be
 respectful of the ecology of the system. You could also find out if you
 could make the bizarre sexual practices acceptable to her. "If you
 engaged in these bizarre sexual practices, what would happen that is
-unacceptable to you?" It may be that you could deal with her objec-
-tions. There are lots of ways you can make a satisfactory change. You
-have to respect both her integrity and his integrity, find out the inten-
-tion in both of their communications, and find effective ways for them
+unacceptable to you?" It may be that you could deal with her objections. There are lots of ways you can make a satisfactory change. You
+have to respect both her integrity and his integrity, find out the intention in both of their communications, and find effective ways for them
 to get together.
 Woman: OK. I thought you were moving toward finding out his
 intention: what he would get out of the bizarre sexual activities.
@@ -6471,8 +5957,6 @@ difference is between those and what's going on now.
 You can go for the outcome with either or both members of the
 couple. Think of the basic reframing model here. There's an imbalance
 
-
-156
 between the conscious and the unconscious, so you always go to the
 unconscious for the flexibility for the new choices. When you are doing
 refraining between people, you can make the assumption that they are
@@ -6487,8 +5971,7 @@ to accomplish something else. For example, if she were to be sexually
 responsive to him, she thinks that would mean he would dominate her
 in all aspects of her life. She becomes sexually unresponsive in order to
 assert her autonomy. I've had it go the other way, too. The husband is
-sometimes the one in this position. Protecting autonomy is the out-
-come, or what is often called "secondary gain."
+sometimes the one in this position. Protecting autonomy is the outcome, or what is often called "secondary gain."
 The question now becomes "Can she find other ways of behaving
 which insure that she has her autonomy and independence, and that
 she has his respect?" When she has that, then she can allow what they
@@ -6497,8 +5980,7 @@ have to separate the notion of her independence or autonomy from the
 sexual behavior itself. She has to have some other way of knowing that
 she's her own woman and can exercise choice, that is at least as
 convincing for her personally as being sexually unresponsive. When
-she has that, you've detached the outcome of independence or auton-
-omy from the specific behavior of being sexually unresponsive. If she
+she has that, you've detached the outcome of independence or autonomy from the specific behavior of being sexually unresponsive. If she
 wants more sexual behavior and he does too, then they are free to
 engage in it with her autonomy still protected.
 It's always by going to the context, by going to the frame, by going to
@@ -6514,8 +5996,6 @@ daughter?" "And, Martha, what were you feeling at that moment?"
 "Oh, I feel like a little kid, you know, having to be told exactly what
 to do, and blah, blah, blah."
 
-
-157
 "Now, was it your intention, Sam, to deliver the message to Martha
 that she's still a little kid and you have to take full control over her life
 with an iron fist?'
@@ -6546,18 +6026,14 @@ will go about expressing the message he originally intended.
 "Remember, be in at ten o'clock" is not the message received. How else
 could he get the message across to her that he wants her to be protected
 and yet allow her to grow up to be independent? How can he be
-assured—in a way that doesn't offend the daughter—that she is grow-
-ing up appropriately? The specific behavior of coming home at ten
+assured—in a way that doesn't offend the daughter—that she is growing up appropriately? The specific behavior of coming home at ten
 o'clock may be totally irrelevant to achieving that.
 This is the same kind of negotiation situation that you have with a
 couple of corporate executives who disagree on how to achieve a
 particular goal. You first remind them of the common general frame in
 which they are operating and that they will both agree with. You
-remind them, for example, that whatever specific policies they eventu-
-ally decide on, their goal is to increase profits and maintain or improve
+remind them, for example, that whatever specific policies they eventually decide on, their goal is to increase profits and maintain or improve
 
-
-158
 the quality of the services or products they offer. We'll go into the
 business applications in more detail later this morning.
 Woman: If you have not accurately specified the general frame—
@@ -6572,8 +6048,7 @@ There are three ways to avoid that. One way is to do a pure process
 reframing using the six-step model, in which there is no opportunity to
 impose any inappropriate content.
 Another way is to take the time to gather lots of information. "Well,
-what is it specifically that you intend to do by demanding so vehe-
-mently that she be in at ten o'clock?" "Well, I want . . . " and you get
+what is it specifically that you intend to do by demanding so vehemently that she be in at ten o'clock?" "Well, I want . . . " and you get
 whatever set of words are the appropriate ones for this particular
 unique human being. Then if you use that same set of nominalizations
 and unspecified verbs and idioms as you describe the new way for
@@ -6598,8 +6073,6 @@ ask for the meta-outcome of what each of them wants. I ask Jean
 "What is your intent in demanding a monogamous sexual exclusivity
 with this guy? What will that do for you?"
 
-
-159
 Jean: Oh, it will give me a sense of security that I'm the most
 desirable woman for this man.
 Then I find George's meta-outcome. "What is your refusal to be
@@ -6641,8 +6114,6 @@ may be that there isn't any basis for negotiation. Suppose she is already
 madly in love with someone else and carrying on an affair. It's just a
 question of getting rid of this creep and moving on. That's what's often
 
-
-160
 called a "hidden agenda." Getting explicit about a basis for negotiation
 and framing the overall process will smoke out hidden agendas, and
 that does everybody a favor!
@@ -6652,10 +6123,8 @@ Wouldn't she need to work out how to leave him and go to the other
 man?
 Yes, if she's ready. And I've got to help him recover whatever parts of
 himself he has invested in being with her.
-Challenging the negotiation frame usually scares them, and moti-
-vates them both to put more effort into finding mutually acceptable
-solutions. Then I can go for outcomes, or meta-outcomes—the out-
-come of the outcome.
+Challenging the negotiation frame usually scares them, and motivates them both to put more effort into finding mutually acceptable
+solutions. Then I can go for outcomes, or meta-outcomes—the outcome of the outcome.
 "Jean, what would knowing that you are secure do for you?'
 "George, what would knowing that you are attractive to other females
 do for you?" Both will probably say, in effect, "Well, I'd have a sense of
@@ -6664,18 +6133,14 @@ further loosening of the frame. In order to loosen the frame I can go to
 outcomes, or meta-outcomes, or meta-meta-outcomes. "Jean, are
 there any other ways to get self-worth?" Typically if I go that deep into
 intentions, there will be many behaviors which will satisfy that need.
-When you get that general, you're going to have to do a lot of experien-
-tial testing, because they really won't know at that point if the alterna-
-tive behaviors will be acceptable.
+When you get that general, you're going to have to do a lot of experiential testing, because they really won't know at that point if the alternative behaviors will be acceptable.
 One of the first things I do is to engage in negotiation to establish a
-three-month moratorium on sexual activities outside of this relation-
-ship during which time he will have a chance to try out some of the new
+three-month moratorium on sexual activities outside of this relationship during which time he will have a chance to try out some of the new
 behaviors which will satisfy the needs that he has which monogamy
 denies at this point. That will also give her three months to engage all
 her resources in finding ways to discover how she can develop security
 for herself and in this relationship, so that the notion of his being
-involved with another woman doesn't threaten her in the way it pres-
-ently does.
+involved with another woman doesn't threaten her in the way it presently does.
 As we mentioned before, I can send them out to find models. I'd ask
 the wife "Are any of the women that you know and really respect in a
 non-monogamous relationship? How do they take care of their sense
@@ -6684,8 +6149,6 @@ really respect and admire, and who are monogamous and perfectly
 satisfied with their own desirability? Good, I want you to go hang out
 with them and find out what they do."
 
-
-161
 The search for alternative behaviors can be carried out internally
 with all their unconscious resources, and also externally by using
 models around them. Don't be afraid to give them homework. Have
@@ -6708,8 +6171,7 @@ Man: When you ask the framing question, and one of them responds
 "I don't know if I want to stay together or not" how do you proceed
 from there?
 Then I negotiate for a trial period of trying out new choices.
-"George, are you willing to spend three months accepting this con-
-straint of being monogamous which you consider artificial?" Or "Jean,
+"George, are you willing to spend three months accepting this constraint of being monogamous which you consider artificial?" Or "Jean,
 are you willing to spend three months not accepting the constraint that
 you desire for your security, in order to find out whether there are
 behaviors that can be discovered which will satisfy you within this
@@ -6727,8 +6189,6 @@ solutions too soon, and then there are objections. I'd like to have you
 do an exercise in which your primary task is to find a common
 outcome. If you also have time to identify a workable solution, fine.
 
-
-162
 Do this in four-person groups. A and B are members of a couple or
 organization. C is the programmer. D will be the meta-person. I want
 C to specify the context—business or therapy. A and B will then
@@ -6745,34 +6205,29 @@ need to in order to find an outcome that both partners will agree to.
 Sometimes all you will be able to get agreement on will be, "So you are
 both here in order to find some way to continue your relationship to
 your mutual benefit and satisfaction."
-* 
-* 
-* 
-* 
+*
+*
+*
+*
 *
 Determining an agreement frame also gives you a way to sort
 behaviors for relevance during the negotiation process itself. This is
-particularly important in business meetings and negotiations. Conser-
-vatively speaking, eighty percent of all the time spent in meetings is
+particularly important in business meetings and negotiations. Conservatively speaking, eighty percent of all the time spent in meetings is
 wasted, because what is said is not relevant to the outcome. It goes like
 this: we're talking about campaign X for product Y and Jim says "Oh,
 you know what we could do over here with product Z?" It's a great
 idea, actually. It's wonderfully creative—and wholly irrelevant in the
 context.
 Unless you challenge that first irrelevant remark, you unleash an
-avalanche of free association which is more appropriate for the psychi-
-atric couch than a board meeting. Later it will take you ten minutes to
+avalanche of free association which is more appropriate for the psychiatric couch than a board meeting. Later it will take you ten minutes to
 get people reoriented to the frame within which you are working. If you
 make the outcome frame explicit at the beginning of the meeting, you
 have a basis which is explicit and agreed upon for sorting out what's
 relevant and what's irrelevant. We call this a "relevancy challenge."
-When someone becomes irrelevant, you can say "Jim, I don't under-
-stand your remark relative to what we've already agreed upon to do
+When someone becomes irrelevant, you can say "Jim, I don't understand your remark relative to what we've already agreed upon to do
 here at this meeting. Why don't you bring that up Friday at our
 product development meeting?" The next time he makes an irrelevant
 
-
-163
 remark, I'll say "Well, I'm not sure how that connects with what we're
 doing here," and point to the flip chart. Then the next time that he
 starts to make an irrelevant remark, I'll probably just have to glance
@@ -6783,8 +6238,7 @@ look forward to the meetings, because the criteria for relevancy are
 made very explicit and things get done. The relevancy challenge is not
 part of the organizational behavior of most business organizations,
 and it ought to be for purposes of efficiency.
-You can see the same process more clearly in an arbitration situa-
-tion. There are two groups head-on-head; they are just locked together,
+You can see the same process more clearly in an arbitration situation. There are two groups head-on-head; they are just locked together,
 and they've completely forgotten the context. The outcome frame has
 been completely forgotten and most of their behavior is irrelevant with
 respect to it. Most negotiators will tell you that they are always brought
@@ -6799,8 +6253,7 @@ the outcome frame is established, then I have a basis for relevancy
 challenges. I can dismiss certain things as being counterproductive,
 because both sides have already committed themselves publicly to the
 outcome frame.
-At that point I have enough slippage that I can find ways of balanc-
-ing the two proposals and coming up with a give-and-take. I will insist
+At that point I have enough slippage that I can find ways of balancing the two proposals and coming up with a give-and-take. I will insist
 that the outcome frame contain what both sides should have put there
 to begin with: items which are not essential, which are "throwaways"
 for the purpose of barter. I've got to have an equal amount of those on
@@ -6814,8 +6267,6 @@ criteria for my own performance, and until we know whether there is a
 basis for us to proceed here, I'm not willing to spend my time and skill."
 I have only had that challenged once, when a man said "Well, I ain't
 
-
-164
 doing that!" and I said "Fine. Goodbye." I reserve the right to walk out
 on any transaction, including psychotherapeutic transactions.
 By the way, if there is a category of client that you have trouble with,
@@ -6848,17 +6299,13 @@ between when I'm actually seeing and hearing something and when I'm
 hallucinating? When you think you might be hallucinating, do you use
 somebody else to check what you see?
 No, I can induce any belief system in just about anybody, so that
-wouldn't work. So what if I can convince somebody else of my halluci-
-nation? That is the way that a lot of therapies operate right now. The
+wouldn't work. So what if I can convince somebody else of my hallucination? That is the way that a lot of therapies operate right now. The
 therapist says, "Well, you know, what I'm feeling right now is X. Are
 you feeling that now?" The person goes "I hadn't noticed it, but now
-that you mention it, yeah." So now that we have a shared hallucina-
-tion, we'll act as if it is a basis for choice. That isn't going to work.
+that you mention it, yeah." So now that we have a shared hallucination, we'll act as if it is a basis for choice. That isn't going to work.
 You have to learn to make distinctions, and it's probably best to start
 doing this with couples. You have to figure out what is going on in
 
-
-165
 terms of the naturally-occurring anchored sequences. Let's say that
 each time he begins to use one tone of voice, you notice that she starts
 accessing kinesthetically, but if he uses another tone of voice, she
@@ -6886,9 +6333,7 @@ to me.
 I do this kind of role-playing with individuals, too. I become one of
 their parts, and it works just the same way. I find out how they respond
 to the part. Behavioral testing is the only way I know of that you can
-count on for validating your sensory experience in systems relation-
-ships. You and I and Linda over there may have the same hallucina-
-tion, but that's no basis on which to make a decision.
+count on for validating your sensory experience in systems relationships. You and I and Linda over there may have the same hallucination, but that's no basis on which to make a decision.
 Man: Could you give us an illustration of becoming a part?
 I've been doing that for two days now!
 Man: Could you label one so my conscious mind would know?
@@ -6899,8 +6344,6 @@ matriarch. And her mother had been a matriarch. Her grandmother
 had founded a church, and there were streets named after her in the
 Midwest. This woman knew her dead grandmother's name, but she
 
-
-166
 couldn't remember her grandfather's name even though he was
 still alive!
 The one thing that was really noticeable to me was that everybody in
@@ -6909,8 +6352,7 @@ them, and everyone would cringe. All the males were freaked out. The
 husband was an alcoholic, the older son was a hoodlum, and the
 younger son was failing in school and was starting to follow in the
 older son's footsteps. It's a typical pattern. However, there was a
-five-year-old girl in the family who was very cute and very expres-
-sive. She could get the mother to respond positively to her every time
+five-year-old girl in the family who was very cute and very expressive. She could get the mother to respond positively to her every time
 she did something.
 In order to intervene effectively in this family, I needed to find out
 how the family operated as a system. I wanted to know what the
@@ -6930,8 +6372,7 @@ here has been getting out of hand." I might turn around and say to the
 son "You son-of-a-bitch!" And then I ask the mother "What has he
 been doing, swearing?" Immediately the family goes into crazy land,
 and the system begins to operate. I can say "Well, what do you do if he
-does this? You probably don't scold him or anything." She'll immedi-
-ately start in quotes "Well, I tell him blah, blah, blah" and then
+does this? You probably don't scold him or anything." She'll immediately start in quotes "Well, I tell him blah, blah, blah" and then
 immediately the kid will lose quotes and say "Look, goddamit, get off
 my back!" Then the father will say "Can I get a drink of water around
 here?" As soon as the family system starts operating, I sit back and
@@ -6942,8 +6383,6 @@ mentioning them to keep the family going.
 This also wears them out, which is really useful. That's one of the
 things that makes my job easy. I've tried for a long time to train
 
-
-167
 students to do this, but they get caught up in the content of what the
 family is doing, rather than stepping back and letting the family fight it
 out so that they can find out how the system operates.
@@ -6985,8 +6424,6 @@ female student said things like "You are so unfair to your son." The
 mother turned around and said gently "Well, now, dear, some day you
 are going to be a little older and you are going to be in my place. . . ."It
 
-
-168
 was a completely different program. If a male had said that to her,
 she'd have boxed his ears off!
 The mother's programs for communicating with men and women
@@ -7028,8 +6465,6 @@ three is always going to respond to that communication. It's not true.
 You can get them to respond to it, but they're not necessarily doing it
 already.
 
-
-169
 What I want to know in any family is what they are already doing,
 because then I can use what's going on now in order to change the
 system. This is a very important principle: How can I introduce a small
@@ -7070,8 +6505,6 @@ hard to be the Wicked Witch of the North when a cute little girl is going
 "Mommie, do you love Billy?" Now, in the middle of "Look, you
 indifferent slob, you forgot to take out the garbage!" Billy's going to
 
-
-170
 hear things like "Yes, I love him." That's going to change the whole ball
 game.
 Man: So he got both the yucky negative and the "Yes, mother loves
@@ -7112,12 +6545,9 @@ happen through the mother. The little girl's job now is to pay attention
 to all these people because I told her to.
 Woman: That's fascinating, because you really used the person who
 
-
-171
 is least troubled. Other therapists would say there is no problem with
 this girl and the mother.
-Well, there isn't a problem with anybody. I don't believe in prob-
-lems. The important point is this: not only do I utilize the system that is
+Well, there isn't a problem with anybody. I don't believe in problems. The important point is this: not only do I utilize the system that is
 there, I use the existing system to create a new system. In order to do
 that, I have to determine who is the one person in the system who will
 be able to change all the others. Very often it's not the aggressive,
@@ -7155,8 +6585,6 @@ non-choice. That is usually not true in business. There are a few
 business contexts where you want a lot of variability and creativity, but
 often a lot of effort goes into standardizing and routinizing human
 
-
-172
 beings to make them dependable. You don't want assembly-line
 workers always trying out new ways of doing their jobs, or doing it
 blindfolded for variety.
@@ -7172,20 +6600,16 @@ There is also a lot of conservatism in business people, which is based
 on two things: (1) they don't have a good understanding of how a
 business organization works, and (2) they have found out the hard way
 that often when they try something new, it fouls up the system.
-You often see this happen whenever a major position in the manage-
-rial or executive area of a corporation is vacated by promotion, dismis-
-sal, or retirement. The organization will almost always decide to search
+You often see this happen whenever a major position in the managerial or executive area of a corporation is vacated by promotion, dismissal, or retirement. The organization will almost always decide to search
 externally for a replacement. That's a behavioral statement that says
 business people have no idea what the qualities are that characterize a
 good manager or executive. Since they don't know, they have no basis
 for training or selection except a person's "track record." Typically
 they don't want to take an employee from another position within their
-organization. If they had explicit criteria for what an executive posi-
-tion requires, it would be much more cost-effective to train people
+organization. If they had explicit criteria for what an executive position requires, it would be much more cost-effective to train people
 within the organization.
 Even after a successful external search, when the new executive steps
-into the organization, typically everything in that organization deteri-
-orates for a period of time. If the new executive really is effective, she
+into the organization, typically everything in that organization deteriorates for a period of time. If the new executive really is effective, she
 will ultimately reorganize her departments, and usually she will fire or
 transfer several personnel in the process.
 At least part of what goes on is that each manager tends to have a
@@ -7198,8 +6622,6 @@ Over a number of years a manager's staff learns what level of detail
 she is going to insist on, and they adjust their own reporting procedures
 to take that into account. Soon their reporting is running at just about
 
-
-173
 the level of detail that is required by the manager they are reporting to.
 After that relationship has been established for any length of time, the
 staff person reporting will be upset if the manager asks for more or less
@@ -7217,8 +6639,7 @@ waves that off and asks for a more global judgement. All she wants is a
 as if he and his work are not valued. He feels that the information he
 has worked so hard to develop is not being utilized. He also becomes
 concerned that now he has the responsibility for making decisions,
-instead of just the responsibility for gathering and presenting informa-
-tion. He may become quite nervous about keeping information which
+instead of just the responsibility for gathering and presenting information. He may become quite nervous about keeping information which
 he traditionally had passed on to the manager and therefore no longer
 had any responsibility for.
 One of the most powerful and immediate interventions is to instruct
@@ -7236,16 +6657,12 @@ maintaining a high quality representation through the entire network
 that's going to have to respond to the change—then she doesn't make
 waves. She leaves things running adequately, and that's why you get
 the mediocrity and conservatism that is traditional in business. Any
-change runs a risk of a misrepresentation or misinterpretation some-
-where along that chain. Therefore, it makes sense to be quite
+change runs a risk of a misrepresentation or misinterpretation somewhere along that chain. Therefore, it makes sense to be quite
 conservative.
 With this understanding, a manager can exercise full control over
 
-
-174
 the quality of the information flow within her network. She can make
-changes with the assurance that her representations will be communi-
-cated with high quality and detail. Then she can set standards of
+changes with the assurance that her representations will be communicated with high quality and detail. Then she can set standards of
 excellence as opposed to standards of mediocrity.
 Once a manager has an appreciation of the notion of exercising
 control over the quality of information, she will be quite sensitive to
@@ -7257,18 +6674,12 @@ into a new position to establish a positive frame by saying to her staff:
 "My understanding is that this is a well-oiled team that I'm joining,
 etc." Next she explicitly brings up the notion of quality of information,
 and that certain adjustments will need to be made.
-"You all had important and significant relationships with my prede-
-cessor. She had her own personal style, and you all learned—both
-consciously and deliberately, and by habit—how to present informa-
-tion to her. I'm different. I don't even know how I'm different, specifi-
-cally, but for the next few weeks or a month, I want you to be
+"You all had important and significant relationships with my predecessor. She had her own personal style, and you all learned—both
+consciously and deliberately, and by habit—how to present information to her. I'm different. I don't even know how I'm different, specifically, but for the next few weeks or a month, I want you to be
 particularly sensitive—and I will also—to the fact that there are some
 occasions on which I'll need very specific, very detailed, high quality
-information. At other times I'm going to simply ask you for a 'go/no-
-go' opinion."
-That way of framing the transition is both a reframe and a future-
-pace. It specifies the outcome: developing an adequate level of infor-
-mation flow. It alerts the staff that there will be some adjustments,
+information. At other times I'm going to simply ask you for a 'go/nogo' opinion."
+That way of framing the transition is both a reframe and a futurepace. It specifies the outcome: developing an adequate level of information flow. It alerts the staff that there will be some adjustments,
 because there are going to be differences. The new manager is not God
 and doesn't know what the differences will be specifically, since she was
 never exposed to the quality control measures that the previous
@@ -7284,16 +6695,11 @@ different levels or departments within an organization. Every
 maneuver in a business organization has to be done in such a way that
 it makes sense within the perceptual frame of the people who are
 
-
-175
 affected. A five-year plan, if it were transmitted in its entirety to an
-assembly-line worker, would make no sense at all. For the assembly-
-line worker, the five-year plan has to be presented in terms of what
+assembly-line worker, would make no sense at all. For the assemblyline worker, the five-year plan has to be presented in terms of what
 happens to him and his job. To talk about the financial background
-and so forth would simply be confusing to him. It's literally informa-
-tion that he doesn't need to know. The description of a five-year plan at
-the executive level is not part of the perceptual reality of the assembly-
-line worker. It has to be relativized to his perceptual frame.
+and so forth would simply be confusing to him. It's literally information that he doesn't need to know. The description of a five-year plan at
+the executive level is not part of the perceptual reality of the assemblyline worker. It has to be relativized to his perceptual frame.
 For example, I had a friend who was hired as the chief executive
 officer of a large firm. He is one of the few really high-quality business
 communicators that I know of. He has a really fine sensitivity to
@@ -7322,13 +6728,10 @@ needed to perform successfully. The efficiency of the organization
 dropped by half in the first week or so after he had done this. I
 happened to arrive about a week later, and everyone was really upset.
 The solution that I came up with turned things around quite nicely. I
-proposed that he issue a short little statement to the first-line supervi-
-sors to pass on to the employees on Friday afternoon. This statement
+proposed that he issue a short little statement to the first-line supervisors to pass on to the employees on Friday afternoon. This statement
 explained his belief that it was inappropriate for people to be run by
 machines. In his organization he wanted people to run people. Consis-
 
-
-176
 tent with that, he had removed the time clock which had been there.
 And when they came to work on Monday morning, they would be
 interested to notice their supervisor standing in the position where the
@@ -7367,11 +6770,8 @@ lab coat every Friday afternoon, and I'd have complete amnesia for
 anything connected with the lab until I put on my coat again the next
 Monday morning. As I put it on I'd ask myself "Now what was I doing
 Friday afternoon?"
-That's a nice example. Imagine what would have happened if some-
-one had taken away all the lab coats!
+That's a nice example. Imagine what would have happened if someone had taken away all the lab coats!
 
-
-177
 All behavior takes place in some context, and that context is the
 anchor for a certain set of responses. Framing is another word for
 contextualization, and reframing is recontextualization. Sometimes
@@ -7386,18 +6786,15 @@ VI
 Refraining Dissociated States:
 Alcoholism, Drug Abuse, etc.
 There are certain conditions that have to exist in order for six-step
-reframing to be effective. If you have someone who is severely disso-
-ciated, you can't expect reframing to work. Alcoholics, drug addicts,
-manic-depressives, and multiple personalities are all severely disso-
-ciated. Often people who overeat or smoke also fall into the same
+reframing to be effective. If you have someone who is severely dissociated, you can't expect reframing to work. Alcoholics, drug addicts,
+manic-depressives, and multiple personalities are all severely dissociated. Often people who overeat or smoke also fall into the same
 category. I'm going to talk primarily about alcoholics as an example.
 But I want you to understand that what I'm saying also applies to all
 the other examples of extreme dissociation.
 If you ask the alcoholic in a sober state about his experiences while
 he is drunk, he will usually be partly or totally amnesic. Similarly, if
 you ask him while he is drunk to talk about experiences that he has
-when he is sober, typically he finds it difficult to offer you any informa-
-tion. That's one of several pieces of evidence you might use to notice
+when he is sober, typically he finds it difficult to offer you any information. That's one of several pieces of evidence you might use to notice
 that a person is dissociated: the fact that when he is operating out of
 one model of the world, he does not have access to experiences and
 resources that he has when he is operating from the other model of the
@@ -7413,16 +6810,11 @@ whereby you talk with whatever part of him is conscious, and use
 involuntary responses to communicate with the part that is responsible
 for the behavior that is the focus of the change.
 Typically the part of the alcoholic that brings him to your office is
-179
 
-
-180
 the sober part. That's the one who walks in. However, the sober part is
 already fully committed to being sober, so you don't have to do
-anything with that part. That's the part that already has lots of appro-
-priate understandings about the disadvantages of drinking, but can't
-do anything about it. If you work with that part, you can get com-
-pletely congruent responses about making changes. However, as soon
+anything with that part. That's the part that already has lots of appropriate understandings about the disadvantages of drinking, but can't
+do anything about it. If you work with that part, you can get completely congruent responses about making changes. However, as soon
 as he goes into a bar, he'll be drinking again. What you need is access to
 the part of the person that gets him to go on binges, because that's the
 part of him that is running the show with respect to drinking. Since
@@ -7434,13 +6826,11 @@ to change.
 Most of the problems people have involve incongruity, or what is
 often called "conflict." There is a mismatch, an incongruence, between
 the part of a person that makes him do something, and the part of the
-person that wants him to stop. Usually this incongruence is simultane-
-ous: the person behaviorally expresses both parts simultaneously. For
+person that wants him to stop. Usually this incongruence is simultaneous: the person behaviorally expresses both parts simultaneously. For
 example, someone may say "I want to be assertive" in a very soft voice.
 The two parts are somewhat dissociated, but they express themselves
 at the same time.
-In alcoholism or substance abuse there is a different kind of dissocia-
-tion in which the incongruence is expressed sequentially over time.
+In alcoholism or substance abuse there is a different kind of dissociation in which the incongruence is expressed sequentially over time.
 The sober part and the drunk part are so separate that they don't
 express themselves at the same time in the person's experience. They
 manifest themselves in sequence: first one, and later the other.
@@ -7449,17 +6839,13 @@ incongruity. Rather than make up an entirely different approach for
 sequential incongruity, you can just change a sequential incongruity
 into a simultaneous one, and use what you already know how to do:
 six-step refraining.
-This kind of maneuver is common in other fields. A good mathema-
-tician will always attempt to reduce a complex problem to some other
+This kind of maneuver is common in other fields. A good mathematician will always attempt to reduce a complex problem to some other
 simpler problem that she already knows how to solve. If you take a
 difficult problem and reduce it to some other simpler problem, then
 you can solve it more easily.
-The easiest way to change a sequential incongruity into a simultane-
-ous one is through the use of anchoring. In the case of alcoholism, first
+The easiest way to change a sequential incongruity into a simultaneous one is through the use of anchoring. In the case of alcoholism, first
 I get access to the drunk part and anchor it. Then I anchor the sober
 
-
-181
 part. Finally I collapse the two anchors in order to force the two states
 to co-exist.
 When someone walks into your office, the sober part is right there,
@@ -7498,11 +6884,8 @@ There might be a question of semantics here about whether you want
 to call it hypnosis or not. I wouldn't call it that overtly; that might elicit
 resistance from the client. But, in my perceptions, what I've just
 described is indistinguishable from an "official" trance induction. The
-depth may vary a bit, but the actual procedure and the internal strate-
-gies a person employs are identical. So one way to get access would be
+depth may vary a bit, but the actual procedure and the internal strategies a person employs are identical. So one way to get access would be
 
-
-182
 this kind of an induction. What's another way to access the alcoholic
 part?
 Man: Overlap. Have him see himself drunk, and then fit himself into
@@ -7528,14 +6911,12 @@ a little more body sway—a little more tremor here. Are your eyes really
 blurred yet?" Give him verbal and behavioral feedback to adjust his
 behavior until you have a good access to his alcoholic part.
 It's important to have a variety of ways to get access when you are
-dealing with people who have severely dissociated sequential incon-
-gruities. If you're not satisfied with the access you get using one
+dealing with people who have severely dissociated sequential incongruities. If you're not satisfied with the access you get using one
 maneuver, you can always shift to another.
 Once you have access, anchor it so that you can get it back. When
 you have a good anchor for both his sober part and his alcoholic part,
 then you are ready to "blow his brains out," technically speaking. You
-collapse anchors for those two states by firing both anchors simultane-
-ously, making both of those states occur at the same time. I generally
+collapse anchors for those two states by firing both anchors simultaneously, making both of those states occur at the same time. I generally
 use kinesthetic anchors for this, because he cannot get away from my
 touch.
 The visible results of collapsing anchors on two states as different as
@@ -7544,8 +6925,6 @@ state. I've seen a client reeling in states of semi-consciousness or
 unconsciousness for anywhere from three minutes up to an hour and a
 half. You will see what looks like total confusion; he will literally
 
-
-183
 be unable to organize any coherent response. Sometimes his body
 movements are out of control, and he has whole-body convulsions. I've
 actually had a client go into a psychotic break and attempt to do
@@ -7561,13 +6940,10 @@ slamming those two parts together. This really is a sort of shock
 treatment, and some people have even spontaneously described it that
 way. The difference is that it's not externally induced, and it will only
 attain intensities that people can cope with. It's ecological in that sense.
-When you have finished collapsing those two anchors, the integra-
-tion is in no way complete. It simply allows you to have a bridge, so
+When you have finished collapsing those two anchors, the integration is in no way complete. It simply allows you to have a bridge, so
 that the alcoholic and the sober person co-exist in the same body at the
-same time. The two parts are no longer mutually exclusive and com-
-pletely dissociated. That makes it possible for you to do reframing.
-This is a precondition for establishing an effective channel of com-
-munication through the sober part to the alcoholic part which knows
+same time. The two parts are no longer mutually exclusive and completely dissociated. That makes it possible for you to do reframing.
+This is a precondition for establishing an effective channel of communication through the sober part to the alcoholic part which knows
 about the drinking problem and what needs it satisfies.
 Woman: What do you do while you hold the two anchors and the
 person is confused for an hour and a half?
@@ -7587,14 +6963,11 @@ will no longer want to drink" would be the most disastrous way of
 approaching it. It would be better to keep your mouth shut than to say
 something like that. You need to talk in positive terms about what will
 
-
-184
 happen in the future, rather than what won't. "You will be able to find
 alternative ways to satisfy yourself in the way that alcohol used to" is
 much better. When you talk about the alcohol, you need to speak in the
 past tense, presupposing that he will no longer use it. All of the
-hypnotic language patterns described in Patterns I and Trance-
-formations are appropriate here. If he says "But I don't understand
+hypnotic language patterns described in Patterns I and Tranceformations are appropriate here. If he says "But I don't understand
 you," you can respond "Of course you don't understand me, and the
 less you understand me consciously, the more you will be able to
 reorganize unconsciously in positive ways."
@@ -7607,9 +6980,7 @@ about how those two states can begin to blend in such a way that the
 person incorporates all that is useful and valuable in each state, losing
 nothing, so that the integration can serve as the foundation for more
 choice, etc.
-Let me remind you that this is only a preliminary step. I'm deliber-
-ately breaking down barriers between two dissociated states and induc-
-ing confusion. I'm literally violating a discrimination, an internal
+Let me remind you that this is only a preliminary step. I'm deliberately breaking down barriers between two dissociated states and inducing confusion. I'm literally violating a discrimination, an internal
 sorting process, that the alcoholic has unconsciously used to make
 himself effective in life. After doing this, I'm going to have to clean it up
 with reframing. All I've done is create the precondition for reframing. I
@@ -7620,8 +6991,7 @@ After he recovers and is relatively coherent, I would simply proceed
 with six-step reframing to secure specific alternative behaviors, and to
 future-pace the new behaviors appropriately. At that point you
 reframe in the same way that you would reframe anything else.
-However, one thing is very important. If you're working with some-
-thing like drinking, smoking, or over-eating, you have to be sure that
+However, one thing is very important. If you're working with something like drinking, smoking, or over-eating, you have to be sure that
 the new alternatives not only work better than the old choice, but that
 the new alternatives are more immediate. You need to be very sensitive
 to criteria, and "best" in addictions usually has a lot to do with
@@ -7629,8 +6999,6 @@ immediacy. If your new choice for relaxing is taking a vacation, that's
 not nearly as quick and easy as eating a piece of chocolate cake that's
 already in the refrigerator. It's a lot easier to smoke a cigarette than to
 
-
-185
 meditate or go running on the beach. You can't run on the beach when
 you're in an elevator, but you can smoke a cigarette.
 You can build in immediacy by specifying it at step four. "Go in and
@@ -7646,11 +7014,9 @@ Right now he has a certain feeling that he interprets as a craving for a
 drink, and it pumps him into drinking. You can put him in a trance and
 make that feeling mean something else. The feeling of "craving" could
 now lead to intense curiosity about his surroundings, for instance.
-I've used this approach of collapsing anchors and reframing effec-
-tively with alcoholics and heroin addicts in one session. I have up to
+I've used this approach of collapsing anchors and reframing effectively with alcoholics and heroin addicts in one session. I have up to
 two-year follow-ups now, and it's been successful.
-After you've done reframing and found new choices for the second-
-ary gain of the alcohol or the drug, you need to test your work. With an
+After you've done reframing and found new choices for the secondary gain of the alcohol or the drug, you need to test your work. With an
 alcoholic, my test is to give him a drink and find out if he can stop after
 just one. I consider that the only valid test of whether I have done a
 complete and integrated piece of work. With heroin, I'd find out what
@@ -7672,8 +7038,6 @@ is an anchor, and using that old anchor is a good test of my work.
 I don't mean to criticize AA, by the way. For decades AA was the
 only organization around that could assist alcoholics effectively. His-
 
-
-186
 torically it was a wonderful thing, and at this point we need to move on
 to something else. AA has a non-integrative approach, and people in
 AA are almost always bingers. They believe that "Once an alcoholic,
@@ -7712,11 +7076,8 @@ trance subjects. The two groups would come in at the same time for
 their methadone, but the experimental group would go to his office.
 There this doctor would put them all into a trance and have them
 hallucinate shooting up. At the end of six weeks, no one in either group
-had shown any withdrawal symptoms. At that point he told the exper-
-imental group what he had done, and all but two of them immediately
+had shown any withdrawal symptoms. At that point he told the experimental group what he had done, and all but two of them immediately
 
-
-187
 went into withdrawal! That is an indication to me that the body is
 capable of handling the chemical imbalances if the person's belief
 system is consistent with doing so.
@@ -7733,9 +7094,7 @@ People sometimes consider AA members obnoxious because they
 don't want anyone else around them to drink either. Their reason for
 this, of course, is that seeing someone else drink stimulates that choice
 in them by identification. Since the old motor programs haven't been
-integrated into having new choices, this elicits the old drinking behav-
-ior in them. When you don't have this kind of sensitivity in an ex-
-drinker, that's another good indication that you've got full integration.
+integrated into having new choices, this elicits the old drinking behavior in them. When you don't have this kind of sensitivity in an exdrinker, that's another good indication that you've got full integration.
 Woman: I have a question about the anchoring. Would you anchor
 the sober state first, when the client walks in, and then access the drunk
 state?
@@ -7753,13 +7112,10 @@ with the drunk state?
 The sober state does need to be as intense as the drunk state. If you
 collapse anchors and don't get an integration, but rather something
 which looks like the drunk state, that indicates that you need to get the
-sober state anchored more intensely. I would stop doing the integra-
-tion and say "Hey, wake up! Come on! Hey, wake up!" I would bring
+sober state anchored more intensely. I would stop doing the integration and say "Hey, wake up! Come on! Hey, wake up!" I would bring
 him back to a sober state completely. I'd stand him up, move him
 around, give him a cup of coffee, etc. When he's sober again, I'd ask
 
-
-188
 "Do you know where you are? Do you know what you are doing here?
 What's your purpose for being here?" I'd get the sober part back fully,
 and then I'd anchor it.
@@ -7770,8 +7126,7 @@ use visual or auditory anchors instead of kinesthetic anchors. You
 might keep six feet and a chair between you and him, with the exit
 behind you. Or you may be well-trained in martial arts and have full
 confidence in your ability to protect yourself, as I do. You deserve to
-be sure that your physical and psychological integrity is always pre-
-served. You are a psychotherapist; you are not being paid to put your
+be sure that your physical and psychological integrity is always preserved. You are a psychotherapist; you are not being paid to put your
 body or your psyche on the line.
 Woman: Would you be able to interrupt such a violent state if you'd
 anchored the sober state first? You could then use that anchor to bring
@@ -7780,8 +7135,7 @@ Sure, but don't use a kinesthetic anchor for that. If you're close
 enough to touch someone who is acting violent, then he is close enough
 to hit you. An anchor that interrupts a rage state can be a good choice,
 as long as you can fire it from a distance. You can use auditory or visual
-anchors for that. A student of ours is teaching foster parents in half-
-way houses how to use non-tactile anchors to interrupt rage states.
+anchors for that. A student of ours is teaching foster parents in halfway houses how to use non-tactile anchors to interrupt rage states.
 Depending upon the clientele you deal with, you may need that. You
 can anchor from a safe distance by a clap of your hands or some
 gesture. Another way to do it is to start talking to him using one voice
@@ -7789,8 +7143,7 @@ tone, and as he goes into the alcoholic state, you change to another
 voice tone. Your voice tone then becomes an anchor. Then if he starts
 to go into a rage state, you say "Hold on a minute" in the tone of voice
 you used for his normal state.
-Man: I appreciate your comment about giving content-free post-
-hypnotic suggestions to the alcoholic after collapsing anchors. I think
+Man: I appreciate your comment about giving content-free posthypnotic suggestions to the alcoholic after collapsing anchors. I think
 that many programs for alcoholics have failed because the therapist or
 agency has tried to come up with specific alternative behaviors to
 drinking. They tell the alcoholic "Let's all go bowling" or "Let's all go
@@ -7801,8 +7154,6 @@ Man: It seems as if it would be a good idea to have an indefinite
 amount of time available if you're going to use this approach with
 alcoholics. This might be difficult to do in hour-long sessions.
 
-
-189
 Yes, that would be ideal. However, you live in a world of hourly
 schedules. I'm not a good model for a practicing psychotherapist in
 this respect. I don't make my living doing psychotherapy anymore. I
@@ -7820,8 +7171,7 @@ You can easily do a content reframe in ten seconds. But I was
 thinking of a man whose presenting problem was that he couldn't stand
 up to people who were aggressive. As soon as he told me that, I threw
 him out of the office! In those days, a group of us had arrangements
-with each other and with some of the neighbors that they would inter-
-act with our clients in certain ways when we offered certain signals.
+with each other and with some of the neighbors that they would interact with our clients in certain ways when we offered certain signals.
 So as soon as I threw him out, I yelled to my wife "Catch him!" So
 Judith Ann strolled out on the front porch just as this man walked by
 almost whimpering "He threw me out." She started talking to him,
@@ -7835,8 +7185,7 @@ programmed him in the next few minutes.
 If you work in an agency, you have lots of opportunities to do that
 kind of thing. You can teach your clients things through role-playing,
 and the learning will transfer if you future-pace them well. However, it
-will always work better if you don't announce that the frame is role-
-playing; you just do it. You can behave in exactly the way that they
+will always work better if you don't announce that the frame is roleplaying; you just do it. You can behave in exactly the way that they
 can't cope with, thereby accessing that limited state fully and purely.
 They're not just pretending or thinking about it. Then if you have
 somebody pick them up on the bounce, you can do really amazing
@@ -7844,15 +7193,11 @@ things very quickly.
 Woman: From what you've said, we can assume that alcoholics and
 hard drug abusers have very dissociated states, and also be alert that
 
-
-190
-some people who smoke or overeat have these sequential incongrui-
-ties. Are there other indicators of sequential incongruity?
+some people who smoke or overeat have these sequential incongruities. Are there other indicators of sequential incongruity?
 I don't know of any fail-safe way of detecting sequential incongruity,
 but there are some things you can watch for. Sometimes I've done what
 I thought was really great work and it didn't work at all because I didn't
-detect sequential incongruity. With these "almost multiple personal-
-ity" cases, sometimes whatever you do seems to work really well. You
+detect sequential incongruity. With these "almost multiple personality" cases, sometimes whatever you do seems to work really well. You
 get all the appropriate responses; you get new choices for the client,
 you test and future-pace and everything. Then he leaves, and when he
 comes back the next week he can barely remember what you did last
@@ -7887,8 +7232,6 @@ house. If she didn't, he beat her up. Of course, when her leg was
 paralyzed, he had to do things for her. Before we cured the paralysis,
 we had to do something about that. Otherwise, if she went home
 
-
-191
 without paralysis, she would have to do all the housework.
 Mary: So then what did you do?
 I changed the husband. We engaged him in "assisting with his wife's
@@ -7930,8 +7273,6 @@ was totally incompetent. He always knew that at a certain time of year,
 the whole thing would switch around, and she would take care of all the
 things that she hadn't done in the previous six months.
 
-
-192
 The fascinating thing is that when I worked with her, no matter
 which part of her I worked with, or what I changed, or what she learned
 to do—even tasks like learning to type on a typewriter that had the keys
@@ -7952,8 +7293,7 @@ same time-place coordinates. That's not very easy, because the one
 that's not in your office can be very hard to get to. You could anchor
 one, and wait six months and then anchor the other. And if you had
 really good anchors, you might be able to pull them together.
-One approach that has worked really well for me is "pseudo-
-orientation in time." That is a hypnotic phenomenon in which you
+One approach that has worked really well for me is "pseudoorientation in time." That is a hypnotic phenomenon in which you
 hypnotize the client and you project her into the future in increments.
 Then you have her arouse from the trance believing, for instance, that
 this is not her second visit but her sixteenth. It's now three months
@@ -7973,8 +7313,6 @@ time.
 It takes either a fairly good hypnotic subject or rigorous hypnotic
 training to be able to do this. It's a complicated trance phenomenon. Of
 
-
-193
 course, once you've become used to doing it, it's not complicated
 anymore.
 Another thing I do is to set up a signal for the different states. I try to
@@ -8016,8 +7354,6 @@ crash diets or "pigging out." If you offered them anorexia, they'd take
 it! The solution has to take the part that overeats and give it some other
 way of getting what it wants so that it goes back to eating in modera-
 
-
-194
 tion. And the part that diets like crazy also has to be reframed, because
 otherwise when you reframe the eating part, the diet part will go
 "Ahhhh! Now is my chance!" and go crazy, and then you will get a
@@ -8039,8 +7375,7 @@ unconscious, and then had her create all the necessary alterations in
 her history so that she could conclude the integration spontaneously in
 my office, five years later. Sometimes in order to be able to work these
 things out, you have to create a lot of personal history.
-Woman: I have a client who became amnesic for everything preced-
-ing an incident in which he "came to" and found himself looking
+Woman: I have a client who became amnesic for everything preceding an incident in which he "came to" and found himself looking
 down the barrel of a shotgun, with a stick on the trigger to fire it. Now
 he's totally amnesic for his whole life prior to that time. As you might
 expect, he comes from a really awful family situation. He also has a lot
@@ -8059,8 +7394,6 @@ and suddenly he would meet a magical creature whose beard had
 gotten caught in a fallen tree. I could never figure out what kind of a
 magical creature would be stupid enough to get his beard caught in a
 
-
-195
 fallen tree! The main character would save the magical creature, and
 the magical creature would say "You now have three wishes." The
 person would always blow it. He'd immediately say "I want to be
@@ -8102,8 +7435,6 @@ whether it was true. My response was "What difference would it make
 to you if you knew?" She had no answer to that question—it had never
 occurred to her. You might consider asking your client that.
 
-
-196
 Janet: Well, I have asked him, and he says he wants to remember so
 that he doesn't have to feel so funny when he runs into somebody that
 he used to know and doesn't remember. I feel like he's set up a task that
@@ -8144,8 +7475,6 @@ ought to have several histories.
 Janet: How would you do that?
 Directly. You can say "Look, you're a talented guy, but you don't
 
-
-197
 know where you came from. Where would you like to have come
 from?"
 Janet: This is an unsophisticated farmer.
@@ -8187,8 +7516,6 @@ noticing his unique nonverbal behavior. That is a very demanding task
 for any professional communicator.
 The second difference is that schizophrenics—particularly those
 
-
-198
 who are institutionalized—are usually medicated. This is really the
 most difficult difference to deal with, because it's the same situation as
 trying to work with an alcoholic when he's drunk. There's a direct
@@ -8204,8 +7531,7 @@ considered appropriate in a ward situation are just the medications
 which remove the symptoms and prevent access to that part of the
 person.
 Working effectively with people who are medicated is a difficult and
-challenging task. I have done it a half-dozen times, but I don't particu-
-larly enjoy it. The medication itself is an extremely powerful anchor
+challenging task. I have done it a half-dozen times, but I don't particularly enjoy it. The medication itself is an extremely powerful anchor
 that is an obstacle to change.
 Let me tell you a little horror story. A young man was wandering
 down the street of a large city after a party. He was a graduate student
@@ -8230,22 +7556,18 @@ right back into crazy behavior.
 This kind of danger is my reason for insisting that the test for
 effective work with an alcoholic be exposure to the chemical anchor
 
-
-199
 that used to access the dissociated alcoholic state—to have the client
 take a drink. Then you need to be able to observe whether taking a
 drink leads to a radical change in state—whether there is a radical shift
 in breathing and skin coloring, and all the other nonverbal indications
 of a change in state. If there is such a shift, then you don't yet have an
 integrated piece of work; you still have more integration to do.
-If you take the challenge of working with institutionalized schizo-
-phrenics, you can make your work a lot more comfortable and a lot
+If you take the challenge of working with institutionalized schizophrenics, you can make your work a lot more comfortable and a lot
 more effective if you make some arrangement with whomever is in
 charge of drugs on the ward. Being effective in a reasonable amount of
 time is going to depend upon your ability to work with people while
 they are not on drugs, or upon your ability to establish hypnotic
-dissociated states in which they are essentially independent of chemi-
-cals. Those are very difficult tasks; it's a real challenge.
+dissociated states in which they are essentially independent of chemicals. Those are very difficult tasks; it's a real challenge.
 Janet: I have a client who was diagnosed schizophrenic. She was on
 medication which she's off of now, but she's beginning to hear voices
 again. That's scaring her. She's very frightened.
@@ -8260,8 +7582,7 @@ How would you do any planning?" One or two generations earlier, a
 person who heard voices was characterized as being crazy. That's a
 statement about how unsophisticated we are in this culture about the
 organization and processing of the human mind. Voices are one of the
-three major modes in which we organize our experience to do plan-
-ning and analysis. That's what distinguishes us from other species. So
+three major modes in which we organize our experience to do planning and analysis. That's what distinguishes us from other species. So
 my first response is "Thank God! And now let's find out what they are
 trying to communicate to you." I might say "Good! Let me talk to
 them, too. Maybe they've got some really good information for us. So
@@ -8273,8 +7594,6 @@ which is morally, ethically, or culturally unacceptable, such as "kill my
 mother," then you immediately go for a frame in which that is an
 appropriate behavior. It may sound bizarre as you hear it, but it's quite
 
-
-200
 appropriate given some context. The question is, can you discover the
 context? "What would killing your mother do for you? Ask the voices
 what they are trying to get for you by having you kill your mother."
@@ -8284,13 +7603,11 @@ ask the voices." You need to maintain the dissociation, and then
 proceed with the standard format of six-step reframing. "Those voices
 are allies. You don't know that yet, but I'm going to demonstrate that
 they are. Now, ask them what they are trying to do for you."
-Ben: I'm currently working with a patient who is a chronic schizo-
-phrenic. I've discovered that I'm challenging his thirteen-year career as
+Ben: I'm currently working with a patient who is a chronic schizophrenic. I've discovered that I'm challenging his thirteen-year career as
 a chronic schizophrenic by working with him. During the last session,
 he essentially said that he has an investment in maintaining this career.
 So I applauded his great success at it.
-What Ben is saying is really important. He applauds the schizo-
-phrenic's thirteen-year-old career. "How well you have done as a
+What Ben is saying is really important. He applauds the schizophrenic's thirteen-year-old career. "How well you have done as a
 schizophrenic for thirteen years."
 Ben: He has the same name as a famous person, and I said that he
 was as talented at being a career schizophrenic as this person was in his
@@ -8316,8 +7633,6 @@ than you and I to those nonverbal signals. He's had a whole lifetime of
 reading them.
 One thing you can do is to get a congruent response from the mother.
 
-
-201
 You might begin by sorting out the parts of her that do and don't want
 him to get better. "OK, pretend that you want him to stay sick. Now tell
 him all the reasons why it's important that he stay sick." She says "But I
@@ -8329,8 +7644,7 @@ her to respond. If you want to see something impressive in terms of
 nonkinesthetic anchors, have the mother alternate between those two
 behaviors while you watch the schizophrenic. Smoke will come right
 out of his ears!
-Your eventual goal, of course, is to make the schizophrenic inde-
-pendent of whether the mother is congruent or not. In one sense,
+Your eventual goal, of course, is to make the schizophrenic independent of whether the mother is congruent or not. In one sense,
 maturity is reaching a symmetrical relationship that allows a parent to
 be as incongruent as she wants, and the child can still maintain his own
 context and momentum in his life.
@@ -8349,8 +7663,7 @@ mom, too." Use whatever analogue is appropriate for this particular
 guy.
 Then you insist that he be schizophrenic until he has tested other
 ways of showing the respect and caring that his mother deserves and
-that he wants to give her. You insist that he continue to be schizo-
-phrenic until he discovers alternative patterns of behavior that lead to
+that he wants to give her. You insist that he continue to be schizophrenic until he discovers alternative patterns of behavior that lead to
 the outcome: showing respect and caring for his mother. "She deserves
 the best. If schizophrenia is the best, then you need to stay with it. If we
 can find a better way for you to demonstrate caring and respect for
@@ -8359,34 +7672,24 @@ best." By doing this, you operate entirely within his model of the world.
 At the same time I would also be working with the mother to sort out
 her behaviors.
 
-
-202
-Sometimes when someone has come in with aspects of her expe-
-rience dissociated, we have chosen not to go for an outcome of com-
-plete integration. A big Dutch woman who had been in this country for
-twenty years was brought in by her husband, because she was display-
-ing acute schizophrenic symptoms. She heard voices that were con-
-stantly propositioning her sexually, and making lewd and incompre-
-hensible statements. She didn't even understand the meaning of those
+Sometimes when someone has come in with aspects of her experience dissociated, we have chosen not to go for an outcome of complete integration. A big Dutch woman who had been in this country for
+twenty years was brought in by her husband, because she was displaying acute schizophrenic symptoms. She heard voices that were constantly propositioning her sexually, and making lewd and incomprehensible statements. She didn't even understand the meaning of those
 statements, because she was a "clean woman."
 A number of well-intentioned psychiatrists had attempted to deal
 with this woman. They explained to her that the voices were really her
 voices, and were a result of the fact that she was angry with her
 husband who had been involved with some other woman ten years
 earlier. This woman was extremely religious, and she had no way of
-accepting that explanation in her world-model. Her rage was unac-
-ceptable to her, so it was projected into auditory hallucinations. If she
+accepting that explanation in her world-model. Her rage was unacceptable to her, so it was projected into auditory hallucinations. If she
 believed that those voices were hers, it would have shattered her
 conscious appreciation of herself. The voices were saying things and
 proposing activities that were abhorrent to her as a good, clean,
 religious woman. By trying to get the woman to accept this, the
 well-intentioned psychiatrists were running up against a stone wall.
-This woman refused to go to psychiatrists because they were insult-
-ing her. So her husband and daughter brought her to us. The problem
+This woman refused to go to psychiatrists because they were insulting her. So her husband and daughter brought her to us. The problem
 was getting serious, because she was slugging people who she thought
 were making indecent proposals to her. She was hitting and slapping
-waiters in restaurants, and people on the street—and she was a formid-
-able opponent! Consequently, she was about to be locked up. We
+waiters in restaurants, and people on the street—and she was a formidable opponent! Consequently, she was about to be locked up. We
 decided on a fairly limited therapeutic goal. The family was poor, and
 didn't have any interest in generative change. Mama just wanted to be
 comfortable, and the rest of the family just wanted Mama to be all
@@ -8396,14 +7699,11 @@ representational system dissociation. She had dissociated both the
 kinesthetics of the rage and the auditory representation of it. We made
 use of the dissociation, and simply widened it to get an altered state.
 Then we appealed directly to the part of her that knew what was going
-on. In the first session we were content with convincing her uncon-
-scious of a spurious piece of logic. We told her unconscious that since
+on. In the first session we were content with convincing her unconscious of a spurious piece of logic. We told her unconscious that since
 it had important things to say to her, it should say those things in her
 language of origin, so that she could completely understand. By doing
 that, we shifted all the hallucinated voices into Dutch. The conse-
 
-
-203
 quence of this was that she couldn't beat up anybody here in the U.S.,
 because she was hearing Dutch voices, and she knew that the people
 around her only spoke English. This was very confusing for her, but it
@@ -8416,8 +7716,7 @@ blah.'" This revelation gave her instructions to move all the voices into
 dreams. So every night this woman would drop off to sleep and have
 violent dreams about taking revenge on her husband who had stepped
 out on her. During the day she was perfectly comfortable. We built in
-safeguards, so that the violent dreams didn't spill over into her behav-
-ior during the night, or she might actually have beat up her husband.
+safeguards, so that the violent dreams didn't spill over into her behavior during the night, or she might actually have beat up her husband.
 That's an example of an extremely limited therapeutic goal. It's been
 five and a half years now since we worked with her. She's happy and
 everybody in her family is happy. But that's not an integrated
@@ -8438,8 +7737,7 @@ relatively stable environments, but it quickly becomes maladaptive
 and ineffective in the face of changing conditions.
 The ideal situation is to have full integration, so that any behavior
 can be available in any context. Our goal for you and your clients is to
-be able to respond to changing conditions in generative and evolution-
-ary ways. In order to do this, it is useful to integrate dissociations fully,
+be able to respond to changing conditions in generative and evolutionary ways. In order to do this, it is useful to integrate dissociations fully,
 so that you have all your resources available to you anytime and
 anywhere.
 
@@ -8448,9 +7746,8 @@ Note
 THE SOCIETY OF NEURO-LINGUISTIC PROGRAMMING is
 a partnership made up of Not Ltd., a corporation, and Unlimited Ltd.,
 a corporation, set up for the purpose of exerting quality control over
-204
-It is a common experience with many people when they are intro-
-duced to Neuro-linguistic Programming and first begin to learn the
+
+It is a common experience with many people when they are introduced to Neuro-linguistic Programming and first begin to learn the
 techniques, to be cautious and concerned with the possible uses and
 misuses of the technology. We fully recognize the great power of the
 information presented in this book and whole-heartedly recommend
@@ -8458,32 +7755,23 @@ that you exercise caution as you learn and apply these techniques of a
 practitioner of NLP, as a protection for you and those around you. It is
 for this reason that we also urge you to attend only those seminars,
 workshops and training programs that have been officially designed
-and certified by THE SOCIETY OF NEURO-LINGUISTIC PRO-
-GRAMMING. Any training programs that have been approved and
-endorsed by THE SOCIETY OF NEURO-LINGUISTIC PRO-
-GRAMMING will display on the cover of the brochure (or on the
+and certified by THE SOCIETY OF NEURO-LINGUISTIC PROGRAMMING. Any training programs that have been approved and
+endorsed by THE SOCIETY OF NEURO-LINGUISTIC PROGRAMMING will display on the cover of the brochure (or on the
 front page of the literature) a copy of the registered certification mark
 of THE SOCIETY OF NEURO-LINGUISTIC PROGRAMMING
 shown below:
 
-
-205
 those training programs, services and materials claiming to represent
 the model of neuro-linguistic programming. Not Ltd.'s Division of
-Training and Research is the international headquarters and coordi-
-nator for all approved training programs in neuro-linguistic pro-
-gramming.
+Training and Research is the international headquarters and coordinator for all approved training programs in neuro-linguistic programming.
 There are three levels of certification granted by THE SOCIETY
-OF NEURO-LINGUISTIC PROGRAMMING: Practitioner, Mas-
-ter Practitioner and Trainer. The certificates are granted with respect
+OF NEURO-LINGUISTIC PROGRAMMING: Practitioner, Master Practitioner and Trainer. The certificates are granted with respect
 to the skill level of the trainee. Trainer represents the highest level of
 ability.
 If you are considering seeking the services of a person who is skilled
-in neuro-linguistic programming we recommend that you find some-
-one that has been appropriately certified. A directory of all certified
+in neuro-linguistic programming we recommend that you find someone that has been appropriately certified. A directory of all certified
 individuals is maintained and distributed by Not Ltd. D.O.T.A.R.
-If you would like further information on training programs, certifi-
-cation, research or publications on topics relating to neuro-linguistic
+If you would like further information on training programs, certification, research or publications on topics relating to neuro-linguistic
 programming please feel free to contact:
 Unlimited Ltd.
 1077 Smith Grade
@@ -8515,8 +7803,7 @@ Farrelly, Frank; and Brandsma, Jeff. Provocative Therapy. Meta
 Publications, 1978 ($9.95).
 Gordon, David. Therapeutic Metaphors: Helping Others Through
 the Looking Glass. Meta Publications, 1978 ($9.95).
-Grinder, John; and Bandler, Richard. Trance-formations: Neuro-
-Linguistic Programming and the Structure of Hypnosis. 1981
+Grinder, John; and Bandler, Richard. Trance-formations: NeuroLinguistic Programming and the Structure of Hypnosis. 1981
 (cloth $9.00, paper $5.50).
 Grinder, John; and Bandler, Richard. The Structure of Magic II.
 Science and Behavior Books, 1976 ($8.95).
@@ -8532,8 +7819,6 @@ Trance-formations and Reframing can be ordered directly from:
 Real People Press, Box F, Moab, UT 84532.
 All the other books above can be ordered directly from: Meta
 Publications Inc., P.O. Box 565, Cupertino, CA 95014.
-206
-
 
 Index
 Agreement frame 158-159, 161-163
@@ -8576,8 +7861,7 @@ Creating alternative history 196-197
 Delivery 12, 28
 Dissociated states 179-184,189-194,
 197, 202-203
-Ecology 50-52, 85, 113-114, 121, 127-
-128, 143
+Ecology 50-52, 85, 113-114, 121, 127128, 143
 Erickson, Milton 20, 140
 Exercises
 Meaning & context reframing 14-16
@@ -8596,12 +7880,8 @@ Information flow 172-175
 Manipulation/control 32-33, 34-36
 Medication 198-199
 Memory recovery 194-197
-Meta-goals/meta-outcomes 154, 159-
-160, 196, 199
-207
+Meta-goals/meta-outcomes 154, 159160, 196, 199
 
-
-208
 Meta-Model 16, 33,46, 81, 144
 Meta-part 70-72, 131-132
 Migraine headaches 137-138
@@ -8612,12 +7892,10 @@ Overlap 130, 182
 Parts party 11,32
 Phobia 59-60, 139-140, 151
 Polarity response 62, 158
-Positive function/intention 47-48, 85-
-98, 156-157
+Positive function/intention 47-48, 8598, 156-157
 Post-hypnotic suggestion 183-184
 Pseudo-orientation in time 155, 192-193
-Reframing, sensory indications of suc-
-cess 22-23
+Reframing, sensory indications of success 22-23
 Reframing yourself 125-126
 Relevancy challenge 162-163
 Resistance 137, 154

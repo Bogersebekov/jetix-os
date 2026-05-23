@@ -9,10 +9,11 @@ chars: 1140637
 approx_tokens: 285159
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 1140639
+phase4_chars_after: 1140299
+phase4_saved_pct: 0.0
 ---
-
-
-
 
 
 Daniel Kahneman
@@ -87,8 +88,7 @@ In memory of Amos Tversky
 
 Introduction
 Every author, I suppose, has in mind a setting in which readers of his or her
-work could benefit from having read it. Mine is the proverbial office water-
-cooler, where opinions are shared and gossip is exchanged. I hope to enrich
+work could benefit from having read it. Mine is the proverbial office watercooler, where opinions are shared and gossip is exchanged. I hope to enrich
 the vocabulary that people use when they talk about the judgments and
 choices of others, the company’s new policies, or a colleague’s investment
 decisions. Why be concerned with gossip? Because it is much easier, as
@@ -569,10 +569,6 @@ were cited by the Nobel committee—and you may be surprised by how
 simple they are. Reading them will give you a sense of how much we knew
 a long time ago, and also of how much we have learned in recent decades.
 
-
-
-
-1
 The Characters of the Story
 To observe your mind in automatic mode, glance at the image below.
 Figure 1
@@ -833,8 +829,7 @@ to stare at the oddly dressed couple at the neighboring table in a restaurant.
 We also know what it is like to force our attention on a boring book, when
 we constantly find ourselves returning to the point at which the reading lost
 its meaning. Where winters are hard, many drivers have memories of their
-car skidding out of control on the ice and of the struggle to follow well-
-rehearsed instructions that negate what they would naturally do: “Steer into
+car skidding out of control on the ice and of the struggle to follow wellrehearsed instructions that negate what they would naturally do: “Steer into
 the skid, and whatever you do, do not touch the brakes!” And every human
 being has had the experience of not telling someone to go to hell. One of
 the tasks of System 2 is to overcome the impulses of System 1. In other
@@ -963,8 +958,6 @@ SPEAKING OF SYSTEM 1 AND SYSTEM 2
 “This was a pure System 1 response. She reacted to the threat before she recognized it.”
 “This is your System 1 talking. Slow down and let your System 2 take control.”
 
-
-2
 Attention and Effort
 In the unlikely event of this book being made into a film, System 2 would
 be a supporting character who believes herself to be the hero. The defining
@@ -1005,8 +998,7 @@ noticed his pupils widening as he watched beautiful nature pictures, and it
 ends with two striking pictures of the same good-looking woman, who
 somehow appears much more attractive in one than in the other. There is
 only one difference: the pupils of the eyes appear dilated in the attractive
-picture and constricted in the other. Hess also wrote of belladonna, a pupil-
-dilating substance that was used as a cosmetic, and of bazaar shoppers who
+picture and constricted in the other. Hess also wrote of belladonna, a pupildilating substance that was used as a cosmetic, and of bazaar shoppers who
 wear dark glasses in order to hide their level of interest from merchants.
 One of Hess’s findings especially captured my attention. He had noticed
 that the pupils are sensitive indicators of mental effort—they dilate
@@ -1018,8 +1010,7 @@ of a visible indication of mental effort had promise as a research topic. A
 graduate student in the lab, Jackson Beatty, shared my enthusiasm and we
 got to work.
 Beatty and I developed a setup similar to an optician’s examination room,
-in which the experimental participant leaned her head on a chin-and-
-forehead rest and stared at a camera while listening to prerecorded
+in which the experimental participant leaned her head on a chin-andforehead rest and stared at a camera while listening to prerecorded
 information and answering questions on the recorded beats of a metronome.
 The beats triggered an infrared flash every second, causing a picture to be
 taken. At the end of each experimental session, we would rush to have the
@@ -1247,8 +1238,6 @@ meeting was set and she just didn’t hear you.”
 “What came quickly to my mind was an intuition from System 1. I’ll have to start over and search
 my memory deliberately.”
 
-
-3
 The Lazy Controller
 I spend a few months each year in Berkeley, and one of my great pleasures
 there is a daily four-mile walk on a marked path in the hills, with a fine
@@ -1307,8 +1296,7 @@ escape and conclude that keeping at it requires more self-control than I can
 readily muster.
 Fortunately, cognitive work is not always aversive, and people sometimes
 expend considerable effort for long periods of time without having to exert
-willpower. The psychologist Mihaly Csikszentmihalyi (pronounced six-
-cent-mihaly) has done more than anyone else to study this state of effortless
+willpower. The psychologist Mihaly Csikszentmihalyi (pronounced sixcent-mihaly) has done more than anyone else to study this state of effortless
 attending, and the name he proposed for it, flow, has become part of the
 
 
@@ -1322,8 +1310,7 @@ is often an optimal experience. Flow neatly separates the two forms of
 effort: concentration on the task and the deliberate control of attention.
 Riding a motorcycle at 150 miles an hour and playing a competitive game
 of chess are certainly very effortful. In a state of flow, however, maintaining
-focused attention on these absorbing activities requires no exertion of self-
-control, thereby freeing resources to be directed to the task at hand.
+focused attention on these absorbing activities requires no exertion of selfcontrol, thereby freeing resources to be directed to the task at hand.
 THE BUSY AND DEPLETED SYSTEM 2
 It is now a well-established proposition that both self-control and cognitive
 effort are forms of mental work. Several psychological studies have shown
@@ -1354,8 +1341,7 @@ and his colleagues has shown conclusively that all variants of voluntary
 effort—cognitive, emotional, or physical—draw at least partly on a shared
 pool of mental energy. Their experiments involve successive rather than
 simultaneous tasks.
-Baumeister’s group has repeatedly found that an effort of will or self-
-control is tiring; if you have had to force yourself to do something, you are
+Baumeister’s group has repeatedly found that an effort of will or selfcontrol is tiring; if you have had to force yourself to do something, you are
 less willing or less able to exert self-control when the next challenge comes
 around. The phenomenon has been named ego depletion. In a typical
 demonstration, participants who are instructed to stifle their emotional
@@ -1660,8 +1646,6 @@ or was he unusually tired?”
 “Unfortunately, she tends to say the first thing that comes into her mind. She probably also has
 trouble delaying gratification. Weak System 2.”
 
-
-4
 The Associative Machine
 To begin your exploration of the surprising workings of System 1, look at
 the following words:
@@ -1850,8 +1834,7 @@ common admonition to “act calm and kind regardless of how you feel” is
 very good advice: you are likely to be rewarded by actually feeling calm
 and kind.
 PRIMES THAT GUIDE US
-Studies of priming effects have yielded discoveries that threaten our self-
-image as conscious and autonomous authors of our judgments and our
+Studies of priming effects have yielded discoveries that threaten our selfimage as conscious and autonomous authors of our judgments and our
 choices. For instance, most of us think of voting as a deliberate act that
 reflects our values and our assessments of policies and is not influenced by
 irrelevancies. Our vote should not be affected by the location of the polling
@@ -1993,8 +1976,6 @@ mind works.”
 “His System 1 constructed a story, and his System 2 believed it. It happens to all of us.”
 “I made myself smile and I’m actually feeling better!”
 
-
-5
 Cognitive Ease
 Whenever you are conscious, and perhaps even when you are not, multiple
 computations are going on in your brain, which maintain and update current
@@ -2174,8 +2155,7 @@ report from Artan than to the report from Taahhut. Remember that System 2
 is lazy and that mental effort is aversive. If possible, the recipients of your
 message want to stay away from anything that reminds them of effort,
 including a source with a complicated name.
-All this is very good advice, but we should not get carried away. High-
-quality paper, bright colors, and rhyming or simple language will not be
+All this is very good advice, but we should not get carried away. Highquality paper, bright colors, and rhyming or simple language will not be
 much help if your message is obviously nonsensical, or if it contradicts
 facts that your audience knows to be true. The psychologists who do these
 experiments do not believe that people are stupid or infinitely gullible.
@@ -2341,8 +2321,7 @@ is apparently generated by a very faint signal from the associative machine,
 which “knows” that the three words are coherent (share an association) long
 before the association is retrieved. The role of cognitive ease in the
 judgment was confirmed experimentally by another German team:
-manipulations that increase cognitive ease (priming, a clear font, pre-
-exposing words) all increase the tendency to see the words as linked.
+manipulations that increase cognitive ease (priming, a clear font, preexposing words) all increase the tendency to see the words as linked.
 Another remarkable discovery is the powerful effect of mood on this
 intuitive performance. The experimenters computed an “intuition index” to
 measure accuracy. They found that putting the participants in a good mood
@@ -2411,8 +2390,6 @@ again.”
 “Familiarity breeds liking. This is a mere exposure effect.”
 “I’m in a very good mood today, and my System 2 is weaker than usual. I should be extra careful.”
 
-
-6
 Norms, Surprises, and Causes
 The central characteristics and functions of System 1 and System 2 have
 now been introduced, with a more detailed treatment of System 1. Freely
@@ -2687,8 +2664,6 @@ average. We should consider the entire range of normal reactions.”
 “She can’t accept that she was just unlucky; she needs a causal story. She will end up thinking that
 someone intentionally sabotaged her work.”
 
-
-7
 A Machine for Jumping to Conclusions
 The great comedian Danny Kaye had a line that has stayed with me since
 my adolescence. Speaking of a woman he dislikes, he says, “Her favorite
@@ -3052,8 +3027,6 @@ get more information from independent assessments.”
 you see is all there is. They did not seem to realize how little information they had.”
 “They didn’t want more information that might spoil their story. WYSIATI.”
 
-
-8
 How Judgments Happen
 There is no limit to the number of questions you can answer, whether they
 are questions someone else asks or questions you ask yourself. Nor is there
@@ -3315,8 +3288,6 @@ loudness of a sound to the brightness of a light.”
 “This was a clear instance of a mental shotgun. He was asked whether he thought the company was
 financially sound, but he couldn’t forget that he likes their product.”
 
-
-9
 Answering an Easier Question
 A remarkable aspect of your mental life is that you are rarely stumped.
 True, you occasionally face a question such as 17 × 24 = ? to which no
@@ -3608,10 +3579,6 @@ frames decision problems narrowly, in isolation from one
 another*
 *Feature introduced in detail in part 4.
 
-
-
-
-10
 The Law of Small Numbers
 A study of the incidence of kidney cancer in the 3,141 counties of the
 United States reveals a remarkable pattern. The counties in which the
@@ -3997,8 +3964,6 @@ numbers.”
 “I plan to keep the results of the experiment secret until we have a sufficiently large sample.
 Otherwise we will face pressure to reach a conclusion prematurely.”
 
-
-11
 Anchors
 Amos and I once rigged a wheel of fortune. It was marked from 0 to 100,
 but we had it built so that it would stop only at 10 or 65. We recruited
@@ -4372,8 +4337,6 @@ there.”
 “The defendant’s lawyers put in a frivolous reference in which they mentioned a ridiculously low
 amount of damages, and they got the judge anchored on it!”
 
-
-12
 The Science of Availability
 Amos and I had our most productive year in 1971–72, which we spent in
 Eugene, Oregon. We were the guests of the Oregon Research Institute,
@@ -4505,8 +4468,7 @@ which they had not behaved assertively ended up thinking of themselves as
 quite assertive! If you cannot easily come up with instances of meek
 
 
-behavior, you are likely to conclude that you are not meek at all. Self-
-ratings were dominated by the ease with which examples had come to mind.
+behavior, you are likely to conclude that you are not meek at all. Selfratings were dominated by the ease with which examples had come to mind.
 The experience of fluent retrieval of instances trumped the number
 retrieved.
 An even more direct demonstration of the role of fluency was offered by
@@ -4643,8 +4605,6 @@ an availability effect. He should look at the statistics.”
 “The CEO has had several successes in a row, so failure doesn’t come easily to her mind. The
 availability bias is making her overconfident.”
 
-
-13
 Availability, Emotion, and Risk
 Students of risk were quick to see that the idea of availability was relevant
 to their concerns. Even before our work was published, the economist
@@ -4964,8 +4924,6 @@ SPEAKING OF AVAILABILITY CASCADES
 “This is an availability cascade: a nonevent that is inflated by the media and the public until it fills
 our TV screens and becomes all anyone is talking about.”
 
-
-14
 Tom W’s Specialty
 Have a look at a simple puzzle:
 Tom W is a graduate student at the main university in your state. Please rank the
@@ -5004,8 +4962,7 @@ for order and clarity, and for neat and tidy systems in which every detail finds
 its appropriate place. His writing is rather dull and mechanical, occasionally
 enlivened by somewhat corny puns and flashes of imagination of the sci-fi type.
 He has a strong drive for competence. He seems to have little feel and little
-sympathy for other people, and does not enjoy interacting with others. Self-
-centered, he nonetheless has a deep moral sense.
+sympathy for other people, and does not enjoy interacting with others. Selfcentered, he nonetheless has a deep moral sense.
 Now please take a sheet of paper and rank the nine fields of specialization listed below by
 how similar the description of Tom W is to the typical graduate student in each of the
 following fields. Use 1 for the most likely and 9 for the least likely.
@@ -5306,8 +5263,6 @@ evidence is weak, one should stick with the base rates.”
 “I know this report is absolutely damning, and it may be based on solid evidence, but how sure are
 we? We must allow for that uncertainty in our thinking.”
 
-
-15
 Linda: Less is More
 The best-known and most controversial of our experiments involved a
 fictitious lady called Linda. Amos and I made up the Linda problem to
@@ -5482,7 +5437,6 @@ Joint evaluation is a within-subject experiment, and single evaluation is
 between-subjects.
 
 
- 
 Set A: 40 pieces
 Set B: 24 pieces
 Dinner plates
@@ -5496,10 +5450,10 @@ Dessert plates
 8, all in good condition
 Cups
 8, 2 of them broken
- 
+
 Saucers
 8, 7 of them broken
- 
+
 Assuming that the dishes in the two sets are of equal quality, which is
 worth more? This question is easy. You can see that Set A contains all the
 dishes of Set B, and seven additional intact dishes, and it must be valued
@@ -5639,8 +5593,7 @@ on it, and were content to answer as if they had only been “asked for their
 opinion.” The laziness of System 2 is an important fact of life, and the
 observation that representativeness can block the application of an obvious
 logical rule is also of some interest.
-The remarkable aspect of the Linda story is the contrast to the broken-
-dishes study. The two problems have the same structure, but yield different
+The remarkable aspect of the Linda story is the contrast to the brokendishes study. The two problems have the same structure, but yield different
 results. People who see the dinnerware set that includes broken dishes put a
 very low price on it; their behavior reflects a rule of intuition. Others who
 see both sets at once apply the logical rule that more dishes can only add
@@ -5698,8 +5651,6 @@ more in this case.”
 “In most situations, a direct comparison makes people more careful and more logical. But not always.
 Sometimes intuition beats logic even when the correct answer stares you in the face.”
 
-
-16
 Causes Trump Statistics
 Consider the following scenario and note your intuitive answer to the
 question.
@@ -5967,8 +5918,7 @@ For teachers of psychology, the implications of this study are
 disheartening. When we teach our students about the behavior of people in
 the helping experiment, we expect them to learn something they had not
 known before; we wish to change how they think about people’s behavior
-in a particular situation. This goal was not accomplished in the Nisbett-
-Borgida study, and there is no reason to believe that the results would have
+in a particular situation. This goal was not accomplished in the NisbettBorgida study, and there is no reason to believe that the results would have
 been different if they had chosen another surprising psychological
 experiment. Indeed, Nisbett and Borgida reported similar findings in
 teaching another study, in which mild social pressure caused people to
@@ -6022,8 +5972,6 @@ two representative individual cases to influence their System 1.”
 “No need to worry about this statistical information being ignored. On the contrary, it will
 immediately be used to feed a stereotype.”
 
-
-17
 Regression to the Mean
 I had one of the most satisfying eureka experiences of my career while
 teaching flight instructors in the Israeli Air Force about the psychology of
@@ -6355,18 +6303,17 @@ factors. You are given the results for 2011 and asked to forecast sales for 2012
 been instructed to accept the overall forecast of economists that sales will increase overall
 by 10%. How would you complete the following table?
 Store
- 2011
- 2012
-1
+
+
 $11,000,000
 ________
-2
+
 $23,000,000
 ________
-3
+
 $18,000,000
 ________
-4
+
 $29,000,000
 ________
 Total
@@ -6387,8 +6334,6 @@ disappointing us, but more likely it was his first that was unusually good.”
 “Our screening procedure is good but not perfect, so we should anticipate regression. We shouldn’t
 be surprised that the very best candidates often fail to meet our expectations.”
 
-
-18
 Taming Intuitive Predictions
 Life presents us with many occasions to forecast. Economists forecast
 inflation and unemployment, financial analysts forecast earnings, military
@@ -6428,8 +6373,7 @@ A causal link between the evidence (Julie’s reading) and the target
 of the prediction (her GPA) is sought. The link can be indirect. In
 this instance, early reading and a high GPA are both indications of
 academic talent. Some connection is necessary. You (your System 2)
-would probably reject as irrelevant a report of Julie winning a fly-
-fishing competition or excelling at weight lifting in high school. The
+would probably reject as irrelevant a report of Julie winning a flyfishing competition or excelling at weight lifting in high school. The
 process is effectively dichotomous. We are capable of rejecting
 information as irrelevant or false, but adjusting for smaller
 weaknesses in the evidence is not something that System 1 can do.
@@ -6764,10 +6708,6 @@ believe it is the next Google.”
 “I read one review of that brand and it was excellent. Still, that could have been a fluke. Let’s
 consider only the brands that have a large number of reviews and pick the one that looks best.”
 
-
-
-
-19
 The Illusion of Understanding
 The trader-philosopher-statistician Nassim Taleb could also be considered a
 psychologist. In The Black Swan, Taleb introduced the notion of a narrative
@@ -7128,8 +7068,6 @@ fallacy.”
 gone down. This is an outcome bias, part hindsight and part halo effect.”
 “Let’s not fall for the outcome bias. This was a stupid decision even though it worked out well.”
 
-
-20
 The Illusion of Validity
 System 1 is designed to jump to conclusions from little evidence—and it is
 not designed to know the size of its jumps. Because of WYSIATI, only the
@@ -7613,8 +7551,6 @@ understands the world.”
 
 “The question is not whether these experts are well trained. It is whether their world is predictable.”
 
-
-21
 Intuitions vs. Formulas
 Paul Meehl was a strange and wonderful character, and one of the most
 versatile psychologists of the twentieth century. Among the departments in
@@ -7672,8 +7608,7 @@ publication of his book, “There is no controversy in social science which
 shows such a large body of qualitatively diverse studies coming out so
 uniformly in the same direction as this one.”
 The Princeton economist and wine lover Orley Ashenfelter has offered a
-compelling demonstration of the power of simple statistics to outdo world-
-renowned experts. Ashenfelter wanted to predict the future value of fine
+compelling demonstration of the power of simple statistics to outdo worldrenowned experts. Ashenfelter wanted to predict the future value of fine
 Bordeaux wines from information available in the year they are made. The
 question is important because fine wines take years to reach their peak
 
@@ -7748,8 +7683,7 @@ the same answer. When predictability is poor—which it is in most of the
 studies reviewed by Meehl and his followers—inconsistency is destructive
 of any predictive validity.
 The research suggests a surprising conclusion: to maximize predictive
-accuracy, final decisions should be left to formulas, especially in low-
-validity environments. In admission decisions for medical schools, for
+accuracy, final decisions should be left to formulas, especially in lowvalidity environments. In admission decisions for medical schools, for
 example, the final determination is often made by the faculty members who
 interview the candidate. The evidence is fragmentary, but there are solid
 grounds for a conjecture: conducting an interview is likely to diminish the
@@ -7838,8 +7772,7 @@ will happen next. Many of these hunches are confirmed, illustrating the
 reality of clinical skill.
 The problem is that the correct judgments involve short-term predictions
 in the context of the therapeutic interview, a skill in which therapists may
-have years of practice. The tasks at which they fail typically require long-
-term predictions about the patient’s future. These are much more difficult,
+have years of practice. The tasks at which they fail typically require longterm predictions about the patient’s future. These are much more difficult,
 even the best formulas do only modestly well, and they are also tasks that
 the clinicians have never had the opportunity to learn properly—they would
 have to wait years for feedback, instead of receiving the instantaneous
@@ -8051,8 +7984,6 @@ do better.”
 “Let’s decide in advance what weight to give to the data we have on the candidates’ past
 performance. Otherwise we will give too much weight to our impression from the interviews.”
 
-
-22
 Expert Intuition: When Can We Trust It?
 Professional controversies bring out the worst in academics. Scientific
 journals occasionally publish exchanges, often beginning with someone’s
@@ -8375,8 +8306,7 @@ know the limits of their expertise. An experienced psychotherapist knows
 that she is skilled in working out what is going on in her patient’s mind and
 that she has good intuitions about what the patient will say next. It is
 tempting for her to conclude that she can also anticipate how well the
-patient will do next year, but this conclusion is not equally justified. Short-
-term anticipation and long-term forecasting are different tasks, and the
+patient will do next year, but this conclusion is not equally justified. Shortterm anticipation and long-term forecasting are different tasks, and the
 therapist has had adequate opportunity to learn one but not the other.
 Similarly, a financial expert may have skills in many aspects of his trade but
 
@@ -8447,8 +8377,7 @@ still winces when the word bias is mentioned, and he still enjoys stories in
 which algorithms or formal procedures lead to obviously absurd decisions. I
 tend to view the occasional failures of algorithms as opportunities to
 improve them. On the other hand, I find more pleasure than Klein does in
-the comeuppance of arrogant experts who claim intuitive powers in zero-
-validity situations. In the long run, however, finding as much intellectual
+the comeuppance of arrogant experts who claim intuitive powers in zerovalidity situations. In the long run, however, finding as much intellectual
 agreement as we did is surely more important than the persistent emotional
 differences that remained.
 SPEAKING OF EXPERT INTUITION
@@ -8462,8 +8391,6 @@ judgment.”
 “Did he really have an opportunity to learn? How quick and how clear was the feedback he received
 on his judgments?”
 
-
-23
 The Outside View
 A few years after my collaboration with Amos began, I convinced some
 officials in the Israeli Ministry of Education of the need for a curriculum to
@@ -8553,8 +8480,7 @@ it. The first was immediately apparent: I had stumbled onto a distinction
 between two profoundly different approaches to forecasting, which Amos
 and I later labeled the inside view and the outside view. The second lesson
 was that our initial forecasts of about two years for the completion of the
-project exhibited a planning fallacy. Our estimates were closer to a best-
-case scenario than to a realistic assessment. I was slower to accept the third
+project exhibited a planning fallacy. Our estimates were closer to a bestcase scenario than to a realistic assessment. I was slower to accept the third
 lesson, which I call irrational perseverance: the folly we displayed that day
 in failing to abandon the project. Facing a choice, we gave up rationality
 rather than give up the enterprise.
@@ -8818,8 +8744,6 @@ stronger or weaker than similar claims?”
 “We are making an additional investment because we do not want to admit failure. This is an instance
 of the sunk-cost fallacy.”
 
-
-24
 The Engine of Capitalism
 The planning fallacy is only one of the manifestations of a pervasive
 optimistic bias. Most of us view the world as more benign than it really is,
@@ -9099,8 +9023,7 @@ colleagues that “there is a good chance that the S&P returns will be between
 confidence interval is a confession of ignorance, which is not socially
 acceptable for someone who is paid to be knowledgeable in financial
 matters. Even if they knew how little they know, the executives would be
-penalized for admitting it. President Truman famously asked for a “one-
-armed economist” who would take a clear stand; he was sick and tired of
+penalized for admitting it. President Truman famously asked for a “onearmed economist” who would take a clear stand; he was sick and tired of
 economists who kept saying, “On the other hand …”
 Organizations that take the word of overconfident experts can expect
 costly consequences. The study of CFOs showed that those who were most
@@ -9219,10 +9142,6 @@ SPEAKING OF OPTIMISM
 know.”
 “We should conduct a premortem session. Someone may come up with a threat we have neglected.”
 
-
-
-
-25
 Bernoulli’s Errors
 One day in the early 1970s, Amos handed me a mimeographed essay by a
 Swiss economist named Bruno Frey, which discussed the psychological
@@ -9415,7 +9334,7 @@ choice:
 Equal chances to have 1 million or 7 million
 Utility: (0 + 84)/2 = 42
 OR
- 
+
 Have 4 million with certainty
 Utility: 60
 The expected value of the gamble and the “sure thing” are equal in ducats
@@ -9545,8 +9464,6 @@ because their reference points are different. She currently has a much higher sa
 not surprising—she can only gain, so she’s risk averse. He, on the other hand, faces options that are
 all bad, so he’d rather take the risk.”
 
-
-26
 Prospect Theory
 Amos and I stumbled on the central flaw in Bernoulli’s theory by a lucky
 combination of skill and ignorance. At Amos’s suggestion, I read a chapter
@@ -9615,8 +9532,7 @@ people. The subjective value of a gain of $900 is certainly more than 90%
 of the value of a gain of $1,000. The risk-averse choice in this problem
 would not have surprised Bernoulli.
 Now examine your preference in problem 2. If you are like most other
-people, you chose the gamble in this question. The explanation for this risk-
-seeking choice is the mirror image of the explanation of risk aversion in
+people, you chose the gamble in this question. The explanation for this riskseeking choice is the mirror image of the explanation of risk aversion in
 problem 1: the (negative) value of losing $900 is much more than 90% of
 the (negative) value of losing $1,000. The sure loss is very aversive, and
 this drives you to take the risk. Later, we will see that the evaluations of the
@@ -9927,8 +9843,6 @@ SPEAKING OF PROSPECT THEORY
 
 “He weighs losses about twice as much as gains, which is normal.”
 
-
-27
 The Endowment Effect
 You have probably seen figure 11 or a close cousin of it even if you never
 had a class in economics. The graph displays an individual’s “indifference
@@ -10066,8 +9980,7 @@ the minimum price to sell ($100) was much higher than the maximum
 buying price of $35. Owning the good appeared to increase its value.
 Richard Thaler found many examples of what he called the endowment
 effect, especially for goods that are not regularly traded. You can easily
-imagine yourself in a similar situation. Suppose you hold a ticket to a sold-
-out concert by a popular band, which you bought at the regular price of
+imagine yourself in a similar situation. Suppose you hold a ticket to a soldout concert by a popular band, which you bought at the regular price of
 $200. You are an avid fan and would have been willing to pay up to $500
 for the ticket. Now you have your ticket and you learn on the Internet that
 richer or more desperate fans are offering $3,000. Would you sell? If you
@@ -10317,8 +10230,6 @@ when they can get something in return. Losses loom larger than gains.”
 work.”
 “He is a miser, and treats any dollar he spends as a loss.”
 
-
-28
 Bad Events
 The concept of loss aversion is certainly the most significant contribution of
 psychology to behavioral economics. This is odd, because the idea that
@@ -10477,8 +10388,7 @@ nonintuitive hypothesis and led researchers to a finding that surprised
 everyone—including professional golfers.
 DEFENDING THE STATUS QUO
 If you are set to look for it, the asymmetric intensity of the motives to avoid
-losses and to achieve gains shows up almost everywhere. It is an ever-
-present feature of negotiations, especially of renegotiations of an existing
+losses and to achieve gains shows up almost everywhere. It is an everpresent feature of negotiations, especially of renegotiations of an existing
 contract, the typical situation in labor negotiations and in international
 discussions of trade or arms limitations. The existing terms define reference
 points, and a proposed change in any aspect of the agreement is inevitably
@@ -10667,8 +10577,6 @@ raise their rent, too. They feel entitled to their current terms.”
 “My clients don’t resent the price hike because they know my costs have gone up, too. They accept
 my right to stay profitable.”
 
-
-29
 The Fourfold Pattern
 Whenever you form a global evaluation of a complex object—a car you
 may buy, your son-in-law, or an uncertain situation—you assign weights to
@@ -11090,8 +10998,6 @@ the losses.”
 “They know the risk of a gas explosion is minuscule, but they want it mitigated. It’s a possibility
 effect, and they want peace of mind.”
 
-
-30
 Rare Events
 I visited Israel several times during a period in which suicide bombings in
 buses were relatively common—though of course quite rare in absolute
@@ -11365,8 +11271,7 @@ description of the same risk: “One of 100,000 vaccinated children will be
 permanently disabled.” The second statement does something to your mind
 that the first does not: it calls up the image of an individual child who is
 permanently disabled by a vaccine; the 99,999 safely vaccinated children
-have faded into the background. As predicted by denominator neglect, low-
-probability events are much more heavily weighted when described in
+have faded into the background. As predicted by denominator neglect, lowprobability events are much more heavily weighted when described in
 terms of relative frequencies (how many) than when stated in more abstract
 terms of “chances,” “risk,” or “probability” (how likely). As we have seen,
 System 1 is much better at dealing with individuals than categories.
@@ -11534,8 +11439,6 @@ alternatives and make the probabilities add up to 100%.”
 “They want people to be worried by the risk. That’s why they describe it as 1 death per 1,000.
 They’re counting on denominator neglect.”
 
-
-31
 Risk Policies
 Imagine that you face the following pair of concurrent decisions. First
 examine both decisions, then make your choices.
@@ -11650,22 +11553,22 @@ first rewrites the bet, after multiplying each loss by a factor of 2. He then
 computes the expected value of the rewritten bet. Here are the results, for
 one, two, or three tosses. They are sufficiently instructive to deserve some
 pupil-dilating effort.
- 
- 
+
+
 Expected Value
 One toss
 (50% lose 100; 50% win 200)
- 50
+
 Losses doubled (50% lose 200; 50% win 200)
-  0
+
 Two tosses
 (25% lose 200; 50% win 100; 25% win 400)
-100
+
 Losses doubled (25% lose 400; 50% win 100; 25% win 400)
- 50
+
 Three tosses
 (12.5% lose 300; 37.5% win 0; 37.5% win 300; 12.5% win 600)
-150
+
 Losses doubled (12.5% lose 600; 37.5% win 0; 37.5% win 300; 12.5% win 600)
  112.5
 You can see in the display that the gamble has an expected value of 50.
@@ -11808,8 +11711,6 @@ decisions in the face of daily price fluctuations.”
 “Each of our executives is loss averse in his or her domain. That’s perfectly natural, but the result is
 that the organization is not taking enough risk.”
 
-
-32
 Keeping Score
 Except for the very poor, for whom income coincides with survival, the
 main motivators of money-seeking are not necessarily economic. For the
@@ -12134,8 +12035,7 @@ Anyone can understand and sympathize with the reluctance of parents to
 trade even a minute increase of risk to their child for money. It is worth
 noting, however, that this attitude is incoherent and potentially damaging to
 the safety of those we wish to protect. Even the most loving parents have
-finite resources of time and money to protect their child (the keeping-my-
-child-safe mental account has a limited budget), and it seems reasonable to
+finite resources of time and money to protect their child (the keeping-mychild-safe mental account has a limited budget), and it seems reasonable to
 deploy these resources in a way that puts them to best use. Money that
 could be saved by accepting a minute increase in the risk of harm from a
 pesticide could certainly be put to better use in reducing the child’s
@@ -12207,8 +12107,6 @@ effect.”
 “The salesperson showed me the most expensive car seat and said it was the safest, and I could not
 bring myself to buy the cheaper model. It felt like a taboo tradeoff.”
 
-
-33
 Reversals
 You have the task of setting compensation for victims of violent crimes. You consider the
 case of a man who lost the use of his right arm as a result of a gunshot wound. He was
@@ -12423,8 +12321,7 @@ Farmworkers, who are exposed to the sun for many hours, have a higher rate of sk
 cancer than the general population. Frequent medical check-ups can reduce the risk. A
 fund will be set up to support medical check-ups for threatened groups.
 Is this an urgent problem? Which category did it evoke as a norm when you
-assessed urgency? If you automatically categorized the problem as a public-
-health issue, you probably found that the threat of skin cancer in
+assessed urgency? If you automatically categorized the problem as a publichealth issue, you probably found that the threat of skin cancer in
 
 
 farmworkers does not rank very high among these issues—almost certainly
@@ -12455,12 +12352,12 @@ not be consistent.
 Christopher Hsee, of the University of Chicago, has contributed the
 following example of preference reversal, among many others of the same
 type. The objects to be evaluated are secondhand music dictionaries.
- 
+
 Dictionary A
 Dictionary B
 Year of publication
-1993
-1993
+
+
 Number of entries
 10,000
 20,000
@@ -12534,8 +12431,7 @@ that “within categories, penalties seem extremely sensible, at least in the
 sense that the more serious harms are punished more severely. For
 occupational safety and health violations, the largest penalties are for
 repeated violations, the next largest for violations that are both willful and
-serious, and the least serious for failures to engage in the requisite record-
-keeping.” It should not surprise you, however, that the size of penalties
+serious, and the least serious for failures to engage in the requisite recordkeeping.” It should not surprise you, however, that the size of penalties
 varied greatly across agencies, in a manner that reflected politics and
 history more than any global concern for fairness. The fine for a “serious
 violation” of the regulations concerning worker safety is capped at $7,000,
@@ -12555,8 +12451,6 @@ to others, she was still inferior.”
 “It is often the case that when you broaden the frame, you reach more reasonable decisions.”
 “When you see cases in isolation, you are likely to be guided by an emotional reaction of System 1.”
 
-
-34
 Frames and Reality
 Italy and France competed in the 2006 final of the World Cup. The next two
 sentences both describe the outcome: “Italy won.” “France lost.” Do those
@@ -12686,8 +12580,7 @@ to framing effects—showed enhanced activity in a frontal area of the
 brain that is implicated in combining emotion and reasoning to
 guide decisions. Remarkably, the “rational” individuals were not
 those who showed the strongest neural evidence of conflict. It
-appears that these elite participants were (often, not always) reality-
-bound with little conflict.
+appears that these elite participants were (often, not always) realitybound with little conflict.
 By joining observations of actual choices with a mapping of neural activity,
 this study provides a good illustration of how the emotion evoked by a word
 can “leak” into the final choice.
@@ -12728,8 +12621,7 @@ have made a different choice if they had heard the same statistics framed in
 terms of mortality. Reframing is effortful and System 2 is normally lazy.
 Unless there is an obvious reason to do otherwise, most of us passively
 accept decision problems as they are framed and therefore rarely have an
-opportunity to discover the extent to which our preferences are frame-
-bound rather than reality-bound.
+opportunity to discover the extent to which our preferences are framebound rather than reality-bound.
 EMPTY INTUITIONS
 Amos and I introduced our discussion of framing by an example that has
 become known as the “Asian disease problem”:
@@ -12744,8 +12636,7 @@ A substantial majority of respondents choose program A: they prefer the
 certain option over the gamble.
 The outcomes of the programs are framed differently in a second version:
 If program A′ is adopted, 400 people will die.
-If program B′ is adopted, there is a one-third probability that nobody will die and a two-
-thirds probability that 600 people will die.
+If program B′ is adopted, there is a one-third probability that nobody will die and a twothirds probability that 600 people will die.
 Look closely and compare the two versions: the consequences of programs
 A and A′ are identical; so are the consequences of programs B and B′. In
 
@@ -12900,8 +12791,7 @@ rather than 2, and by a third (from 30 to 40) rather than a sixth (from 12 to
 drive 10,000 miles, Adam will reduce his consumption from a scandalous
 833 gallons to a still shocking 714 gallons, for a saving of 119 gallons.
 Beth’s use of fuel will drop from 333 gallons to 250, saving only 83
-gallons. The mpg frame is wrong, and it should be replaced by the gallons-
-per-mile frame (or liters-per–100 kilometers, which is used in most other
+gallons. The mpg frame is wrong, and it should be replaced by the gallonsper-mile frame (or liters-per–100 kilometers, which is used in most other
 
 
 countries). As Larrick and Soll point out, the misleading intuitions fostered
@@ -12987,10 +12877,6 @@ would we think it is worth?”
 “They ask you to check the box to opt out of their mailing list. Their list would shrink if they asked
 you to check a box to opt in!”
 
-
-
-
-35
 Two Selves
 The term utility has had two distinct meanings in its long history. Jeremy
 Bentham opened his Introduction to the Principles of Morals and
@@ -13204,8 +13090,7 @@ it, thereby declaring themselves willing to suffer 30 seconds of needless
 pain in the anticipated third trial.
 The subjects who preferred the long episode were not masochists and did
 not deliberately choose to expose themselves to the worse experience; they
-simply made a mistake. If we had asked them, “Would you prefer a 90-
-second immersion or only the first part of it?” they would certainly have
+simply made a mistake. If we had asked them, “Would you prefer a 90second immersion or only the first part of it?” they would certainly have
 selected the short option. We did not use these words, however, and the
 subjects did what came naturally: they chose to repeat the episode of which
 they had the less aversive memory. The subjects knew quite well which of
@@ -13269,8 +13154,7 @@ that episode. If people willingly choose to endure the longer episode,
 something is wrong with their decision. In my early puzzle, the discrepancy
 between the decision and the experience originated from diminishing
 sensitivity: the difference between 18 and 20 is less impressive, and appears
-to be worth less, than the difference between 6 and 4 injections. In the cold-
-hand experiment, the error reflects two principles of memory: duration
+to be worth less, than the difference between 6 and 4 injections. In the coldhand experiment, the error reflects two principles of memory: duration
 neglect and the peak-end rule. The mechanisms are different but the
 outcome is the same: a decision that is not correctly attuned to the
 experience.
@@ -13299,16 +13183,13 @@ mean it was all bad.”
 “This is a bad case of duration neglect. You are giving the good and the bad part of your experience
 equal weight, although the good part lasted ten times as long as the other.”
 
-
-36
 Life as a Story
 Early in the days of my work on the measurement of experience, I saw
 Verdi’s opera La Traviata. Known for its gorgeous music, it is also a
 moving story of the love between a young aristocrat and Violetta, a woman
 of the demimonde. The young man’s father approaches Violetta and
 convinces her to give up her lover, to protect the honor of the family and the
-marriage prospects of the young man’s sister. In an act of supreme self-
-sacrifice, Violetta pretends to reject the man she adores. She soon relapses
+marriage prospects of the young man’s sister. In an act of supreme selfsacrifice, Violetta pretends to reject the man she adores. She soon relapses
 into consumption (the nineteenth-century term for tuberculosis). In the final
 act, Violetta lies dying, surrounded by a few friends. Her beloved has been
 alerted and is rushing to Paris to see her. Hearing the news, she is
@@ -13365,8 +13246,7 @@ answered two questions: “Taking her life as a whole, how desirable do you
 
 think Jen’s life was?” and “How much total happiness or unhappiness
 would you say that Jen experienced in her life?”
-The results provided clear evidence of both duration neglect and a peak-
-end effect. In a between-subjects experiment (different participants saw
+The results provided clear evidence of both duration neglect and a peakend effect. In a between-subjects experiment (different participants saw
 different forms), doubling the duration of Jen’s life had no effect
 whatsoever on the desirability of her life, or on judgments of the total
 happiness that Jen experienced. Clearly, her life was represented by a
@@ -13374,8 +13254,7 @@ prototypical slice of time, not as a sequence of time slices. As a
 consequence, her “total happiness” was the happiness of a typical period in
 her lifetime, not the sum (or integral) of happiness over the duration of her
 life.
-As expected from this idea, Diener and his students also found a less-is-
-more effect, a strong indication that an average (prototype) has been
+As expected from this idea, Diener and his students also found a less-ismore effect, a strong indication that an average (prototype) has been
 substituted for a sum. Adding 5 “slightly happy” years to a very happy life
 caused a substantial drop in evaluations of the total happiness of that life.
 At my urging, they also collected data on the effect of the extra 5 years in
@@ -13456,8 +13335,7 @@ mostly painful in real time and gain value from the expectation that both the
 pain and the joy of reaching the goal will be memorable.
 For another thought experiment, imagine you face a painful operation
 during which you will remain conscious. You are told you will scream in
-pain and beg the surgeon to stop. However, you are promised an amnesia-
-inducing drug that will completely wipe out any memory of the episode.
+pain and beg the surgeon to stop. However, you are promised an amnesiainducing drug that will completely wipe out any memory of the episode.
 How do you feel about such a prospect? Here again, my informal
 observation is that most people are remarkably indifferent to the pains of
 their experiencing self. Some say they don’t care at all. Others share my
@@ -13475,8 +13353,6 @@ put away the camera and enjoy the moment, even if it is not very memorable?”
 “She is an Alzheimer’s patient. She no longer maintains a narrative of her life, but her experiencing
 self is still sensitive to beauty and gentleness.”
 
-
-37
 Experienced Well-Being
 When I became interested in the study of well-being about fifteen years
 ago, I quickly found out that almost everything that was known about the
@@ -13642,8 +13518,7 @@ force, availability of child care for working women, and improved
 socializing opportunities for the elderly may be relatively efficient ways to
 reduce the U-index of society—even a reduction by 1% would be a
 significant achievement, amounting to millions of hours of avoided
-suffering. Combined national surveys of time use and of experienced well-
-being can inform social policy in multiple ways. The economist on our
+suffering. Combined national surveys of time use and of experienced wellbeing can inform social policy in multiple ways. The economist on our
 team, Alan Krueger, took the lead in an effort to introduce elements of this
 method into national statistics.
 Measures of experienced well-being are now routinely used in large-scale
@@ -13683,8 +13558,7 @@ affect and stress reduction than on life evaluation. Surprisingly, however,
 religion provides no reduction of feelings of depression or worry.
 An analysis of more than 450,000 responses to the Gallup-Healthways
 Well-Being Index, a daily survey of 1,000 Americans, provides a
-surprisingly definite answer to the most frequently asked question in well-
-being research: Can money buy happiness? The conclusion is that being
+surprisingly definite answer to the most frequently asked question in wellbeing research: Can money buy happiness? The conclusion is that being
 poor makes one miserable, and that being rich may enhance one’s life
 satisfaction, but does not (on average) improve experienced well-being.
 Severe poverty amplifies the experienced effects of other misfortunes of
@@ -13728,8 +13602,6 @@ the things you enjoy doing?”
 “Beyond the satiation level of income, you can buy more pleasurable experiences, but you will lose
 some of your ability to enjoy the less expensive ones.”
 
-
-38
 Thinking About Life
 Figure 16 is taken from an analysis by Andrew Clark, Ed Diener, and
 Yannis Georgellis of the German Socio-Economic Panel, in which the same
@@ -13778,8 +13650,7 @@ satisfaction. Before they began that task, however, he asked them to
 photocopy a sheet of paper for him. Half the respondents found a dime on
 the copying machine, planted there by the experimenter. The minor lucky
 incident caused a marked improvement in subjects’ reported satisfaction
-with their life as a whole! A mood heuristic is one way to answer life-
-satisfaction questions.
+with their life as a whole! A mood heuristic is one way to answer lifesatisfaction questions.
 The dating survey and the coin-on-the-machine experiment
 demonstrated, as intended, that the responses to global well-being questions
 should be taken with a grain of salt. But of course your current mood is not
@@ -13816,8 +13687,7 @@ to enjoy a state of happy preoccupation with their love will eventually
 return to earth, and their experienced well-being will again depend, as it
 does for the rest of us, on the environment and activities of the present
 moment.
-In the DRM studies, there was no overall difference in experienced well-
-being between women who lived with a mate and women who did not. The
+In the DRM studies, there was no overall difference in experienced wellbeing between women who lived with a mate and women who did not. The
 details of how the two groups used their time explained the finding. Women
 who have a mate spend less time alone, but also much less time with
 friends. They spend more time making love, which is wonderful, but also
@@ -13881,8 +13751,7 @@ and how satisfied they are.
 In part because of these findings I have changed my mind about the
 definition of well-being. The goals that people set for themselves are so
 important to what they do and how they feel about it that an exclusive focus
-on experienced well-being is not tenable. We cannot hold a concept of well-
-being that ignores what people want. On the other hand, it is also true that a
+on experienced well-being is not tenable. We cannot hold a concept of wellbeing that ignores what people want. On the other hand, it is also true that a
 concept of well-being that ignores how people feel as they live and focuses
 only on how they feel when they think about their life is also untenable. We
 must accept the complexities of a hybrid view, in which the well-being of
@@ -14000,8 +13869,7 @@ accident—though their mood is certainly somber when they think about
 their situation. Most of the time, however, paraplegics work, read, enjoy
 jokes and friends, and get angry when they read about politics in the
 newspaper. When they are involved in any of these activities, they are not
-much different from anyone else, and we can expect the experienced well-
-being of paraplegics to be near normal much of the time. Adaptation to a
+much different from anyone else, and we can expect the experienced wellbeing of paraplegics to be near normal much of the time. Adaptation to a
 new situation, whether good or bad, consists in large part of thinking less
 and less about it. In that sense, most long-term circumstances of life,
 including paraplegia and marriage, are part-time states that one inhabits
@@ -14032,8 +13900,7 @@ other chronic and burdensome conditions to be low relative to their
 experienced well-being, because the request to evaluate their lives will
 inevitably remind them of the life of others and of the life they used to lead.
 Consistent with this idea, recent studies of colostomy patients have
-produced dramatic inconsistencies between the patients’ experienced well-
-being and their evaluations of their lives. Experience sampling shows no
+produced dramatic inconsistencies between the patients’ experienced wellbeing and their evaluations of their lives. Experience sampling shows no
 difference in experienced happiness between these patients and a healthy
 population. Yet colostomy patients would be willing to trade away years of
 their life for a shorter life without the colostomy. Furthermore, patients
@@ -14055,8 +13922,7 @@ at the start. The crucial difference is that you will eventually pay little
 attention to the car as you drive it, but you will always attend to the social
 interaction to which you committed yourself. By WYSIATI, you are likely
 to exaggerate the long-term benefits of the car, but you are not likely to
-make the same mistake for a social gathering or for inherently attention-
-demanding activities such as playing tennis or learning to play the cello.
+make the same mistake for a social gathering or for inherently attentiondemanding activities such as playing tennis or learning to play the cello.
 The focusing illusion creates a bias in favor of goods and experiences that
 are initially exciting, even if they will eventually lose their appeal. Time is
 neglected, causing experiences that will retain their attention value in the
@@ -14180,8 +14046,7 @@ good bet that many of the things we say we will always remember will be
 long forgotten ten years later.
 The logic of duration weighting is compelling, but it cannot be
 considered a complete theory of well-being because individuals identify
-with their remembering self and care about their story. A theory of well-
-being that ignores what people want cannot be sustained. On the other hand,
+with their remembering self and care about their story. A theory of wellbeing that ignores what people want cannot be sustained. On the other hand,
 a theory that ignores what actually happens in people’s lives and focuses
 exclusively on what they think about their life is not tenable either. The
 remembering self and the experiencing self must both be considered,
@@ -14460,8 +14325,7 @@ they originate from skills or from heuristics. There is no simple way for
 System 2 to distinguish between a skilled and a heuristic response. Its only
 recourse is to slow down and attempt to construct an answer on its own,
 which it is reluctant to do because it is indolent. Many suggestions of
-System 1 are casually endorsed with minimal checking, as in the bat-and-
-ball problem. This is how System 1 acquires its bad reputation as the source
+System 1 are casually endorsed with minimal checking, as in the bat-andball problem. This is how System 1 acquires its bad reputation as the source
 of errors and biases. Its operative features, which include WYSIATI,
 intensity matching, and associative coherence, among others, give rise to
 predictable biases and to cognitive illusions such as anchoring,
@@ -14973,8 +14837,7 @@ actual likelihood. Conversely, the risk involved in an undertaking may be
 grossly underestimated if some possible dangers are either difficult to
 conceive of, or simply do not come to mind.
 Illusory correlation. Chapman and Chapman17 have described an
-interesting bias in the judgment of the frequency with which two events co-
-occur. They presented naive judges with information concerning several
+interesting bias in the judgment of the frequency with which two events cooccur. They presented naive judges with information concerning several
 hypothetical mental patients. The data for each patient consisted of a
 clinical diagnosis and a drawing of a person made by the patient. Later the
 judges estimated the frequency with which each diagnosis (such as paranoia
@@ -15248,8 +15111,7 @@ the formal theory of subjective probability, any set of internally consistent
 probability judgments is as good as any other. This criterion is not entirely
 satisfactory, because an internally consistent set of subjective probabilities
 can be incompatible with other beliefs held by the individual. Consider a
-person whose subjective probabilities for all possible outcomes of a coin-
-tossing game reflect the gambler’s fallacy. That is, his estimate of the
+person whose subjective probabilities for all possible outcomes of a cointossing game reflect the gambler’s fallacy. That is, his estimate of the
 probability of tails on a particular toss increases with the number of
 consecutive heads that preceded that toss. The judgments of such a person
 could be internally consistent and therefore acceptable as adequate
@@ -15317,8 +15179,7 @@ Approaches to the Study of Information Processing in Judgment,”
 Organizational Behavior & Human Performance 6 (1971): 649–744.
 19. M. Bar-Hillel, “On the Subjective Probability of Compound Events,”
 Organizational Behavior & Human Performance 9 (1973): 396–406.
-20. J. Cohen, E. I. Chesnick, and D. Haran, “A Confirmation of the Inertial-
-Ψ Effect in Sequential Choice and Decision,” British Journal of
+20. J. Cohen, E. I. Chesnick, and D. Haran, “A Confirmation of the InertialΨ Effect in Sequential Choice and Decision,” British Journal of
 Psychology 63 (1972): 41–46.
 21. M. Alpert and H. Raiffa, unpublished manuscript; C. A. Stael von
 Holstein, “Two Techniques for Assessment of Subjective Probability
@@ -15525,8 +15386,7 @@ consider another problem in which the same cover story is followed by a
 different description of the prospects associated with the two programs:
 Problem 2 (N = 155):
 If Program C is adopted, 400 people will die. (22%)
-If Program D is adopted, there is a one-third probability that nobody will die and a two-
-thirds probability that 600 people will die. (78%)
+If Program D is adopted, there is a one-third probability that nobody will die and a twothirds probability that 600 people will die. (78%)
 It is easy to verify that options C and D in Problem 2 are
 undistinguishable in real terms from options A and B in Problem 1,
 respectively. The second version, however, assumes a reference state in
@@ -15691,8 +15551,7 @@ choices in the sequential version are practically identical to the choices they
 make between a sure gain of $30 and an 85% chance to win $45. Because a
 sure thing is overweighted in comparison with events of moderate or high
 probability (see figure 2), the option that may lead to a gain of $30 is more
-attractive in the sequential version. We call this phenomenon the pseudo-
-certainty effect because an event that is actually uncertain is weighted as if
+attractive in the sequential version. We call this phenomenon the pseudocertainty effect because an event that is actually uncertain is weighted as if
 it were certain.
 A closely related phenomenon can be demonstrated at the low end of the
 probability range. Suppose you are undecided whether or not to purchase
@@ -16038,8 +15897,7 @@ raise than everyone else in the office. The experience of pleasure or pain
 associated with a change of state is also critically dependent on the
 dynamics of hedonic adaptation. Brickman and Campbell’s (1971) concept
 of the hedonic treadmill suggests the radical hypothesis that rapid
-adaptation will cause the effects of any objective improvement to be short-
-lived. The complexity and subtlety of hedonic experience make it difficult
+adaptation will cause the effects of any objective improvement to be shortlived. The complexity and subtlety of hedonic experience make it difficult
 for the decision maker to anticipate the actual experience that outcomes will
 produce. Many a person who ordered a meal when ravenously hungry has
 admitted to a big mistake when the fifth course arrived on the table. The
@@ -16148,8 +16006,7 @@ the Reality of Cognitive Illusions,” Psychological Review 103 (1996): 582–
 91.
 offered plausible alternatives: Some examples from many are Valerie F.
 Reyna and Farrell J. Lloyd, “Physician Decision-Making and Cardiac Risk:
-Effects of Knowledge, Risk Perception, Risk Tolerance and Fuzzy-
-Processing,” Journal of Experimental Psychology: Applied 12 (2006): 179–
+Effects of Knowledge, Risk Perception, Risk Tolerance and FuzzyProcessing,” Journal of Experimental Psychology: Applied 12 (2006): 179–
 95. Nicholas Epley and Thomas Gilovich, “The Anchoring-and-Adjustment
 Heuristic,” Psychological Science 17 (2006): 311–18. Norbert Schwarz et
 al., “Ease of Retrieval of Information: Another Look at the Availability
@@ -16185,8 +16042,7 @@ without noticing the substitution: See chapter 9.
 1: THE CHARACTERS OF THE STORY
 offered many labels: For reviews of the field, see Jonathan St. B. T. Evans
 and Keith Frankish, eds., In Two Minds: Dual Processes and Beyond (New
-York: Oxford University Press, 2009); Jonathan St. B. T. Evans, “Dual-
-Processing Accounts of Reasoning, Judgment, and Social Cognition,”
+York: Oxford University Press, 2009); Jonathan St. B. T. Evans, “DualProcessing Accounts of Reasoning, Judgment, and Social Cognition,”
 Annual Review of Psychology 59 (2008): 255–78. Among the pioneers are
 Seymour Epstein, Jonathan Evans, Steven Sloman, Keith Stanovich, and
 Richard West. I borrow the terms System 1 and System 2 from early
@@ -16542,8 +16398,7 @@ the word pickpocket: Ran R. Hassin, John A. Bargh, and James S. Uleman,
 “Spontaneous Causal Inferences,” Journal of Experimental Social
 Psychology 38 (2002): 515–22.
 indicate surprise: Albert Michotte, The Perception of Causality (Andover,
-MA: Methuen, 1963). Alan M. Leslie and Stephanie Keeble, “Do Six-
-Month-Old Infants Perceive Causality?” Cognition 25 (1987): 265–88.
+MA: Methuen, 1963). Alan M. Leslie and Stephanie Keeble, “Do SixMonth-Old Infants Perceive Causality?” Cognition 25 (1987): 265–88.
 explosive finale: Fritz Heider and Mary-Ann Simmel, “An Experimental
 Study of Apparent Behavior,” American Journal of Psychology 13 (1944):
 243–59.
@@ -16670,8 +16525,7 @@ Judgments of Risks and Benefits,” Journal of Behavioral Decision Making
 Phi Delta Kappan 88 (2006): 300–303. The example was discussed by
 Andrew Gelman and Deborah Nolan, Teaching Statistics: A Bag of Tricks
 (New York: Oxford University Press, 2002).
-50% risk of failing: Jacob Cohen, “The Statistical Power of Abnormal-
-Social Psychological Research: A Review,” Journal of Abnormal and
+50% risk of failing: Jacob Cohen, “The Statistical Power of AbnormalSocial Psychological Research: A Review,” Journal of Abnormal and
 Social Psychology 65 (1962): 145–53.
 “Belief in the Law of Small Numbers”: Amos Tversky and Daniel
 Kahneman, “Belief in the Law of Small Numbers,” Psychological Bulletin
@@ -16694,8 +16548,7 @@ nod their head: Nicholas Epley and Thomas Gilovich, “Putting Adjustment
 Back in the Anchoring and Adjustment Heuristic: Differential Processing of
 Self-Generated and Experimenter-Provided Anchors,” Psychological
 Science 12 (2001): 391–96.
-stay closer to the anchor: Epley and Gilovich, “The Anchoring-and-
-Adjustment Heuristic.”
+stay closer to the anchor: Epley and Gilovich, “The Anchoring-andAdjustment Heuristic.”
 
 
 associative coherence: Thomas Mussweiler, “The Use of Category and
@@ -16723,8 +16576,7 @@ otherwise be much smaller: Greg Pogarsky and Linda Babcock, “Damage
 Caps, Motivated Anchoring, and Bargaining Impasse,” Journal of Legal
 Studies 30 (2001): 143–59.
 amount of damages: For an experimental demonstration, see Chris Guthrie,
-Jeffrey J. Rachlinski, and Andrew J. Wistrich, “Judging by Heuristic-
-Cognitive Illusions in Judicial Decision Making,” Judicature 86 (2002):
+Jeffrey J. Rachlinski, and Andrew J. Wistrich, “Judging by HeuristicCognitive Illusions in Judicial Decision Making,” Judicature 86 (2002):
 44–50.
 12: THE SCIENCE OF AVAILABILITY
 “the ease with which”: Amos Tversky and Daniel Kahneman, “Availability:
@@ -17119,8 +16971,7 @@ Business Review 81 (2003): 56–63.
 “Pallid” statistical information: Richard E. Nisbett and Lee D. Ross,
 Human Inference: Strategies and Shortcomings of Social Judgment
 (Englewood Cliffs, NJ: Prentice-Hall, 1980).
-impersonality of procedures: For an example of the doubts about evidence-
-based medicine, see Jerome Groopman, How Doctors Think (New York:
+impersonality of procedures: For an example of the doubts about evidencebased medicine, see Jerome Groopman, How Doctors Think (New York:
 Mariner Books, 2008), 6.
 
 
@@ -17295,8 +17146,7 @@ wealth is concave (bent down), the preference implies that the value of $1
 has decreased by over 9% over an interval of $21! This is an extraordinarily
 steep decline and the effect increases steadily as the gambles become more
 extreme.
-“Even a lousy lawyer”: Matthew Rabin, “Risk Aversion and Expected-
-Utility Theory: A Calibration Theorem,” Econometrica 68 (2000): 1281–
+“Even a lousy lawyer”: Matthew Rabin, “Risk Aversion and ExpectedUtility Theory: A Calibration Theorem,” Econometrica 68 (2000): 1281–
 92. Matthew Rabin and Richard H. Thaler, “Anomalies: Risk Aversion,”
 Journal of Economic Perspectives 15 (2001): 219–32.
 economists and psychologists: Several theorists have proposed versions of
@@ -17326,8 +17176,7 @@ experimental study: “Preferences and Nonreversibility of Indifference
 Curves,” Journal of Economic Behavior & Organization 17 (1992): 131–
 39.
 period of one year: Alan B. Krueger and Andreas Mueller, “Job Search and
-Job Finding in a Period of Mass Unemployment: Evidence from High-
-Frequency Longitudinal Data,” working paper, Princeton University
+Job Finding in a Period of Mass Unemployment: Evidence from HighFrequency Longitudinal Data,” working paper, Princeton University
 Industrial Relations Section, January 2011.
 did not own the bottle: Technically, the theory allows the buying price to be
 slightly lower than the selling price because of what economists call an
@@ -17517,8 +17366,7 @@ puzzle that Allais constructed: Readers who are familiar with the Allais
 paradoxes will recognize that this version is new. It is both much simpler
 and actually a stronger violation than the original paradox. The left-hand
 option is preferred in the first problem. The second problem is obtained by
-adding a more valuable prospect to the left than to the right, but the right-
-hand option is now preferred.
+adding a more valuable prospect to the left than to the right, but the righthand option is now preferred.
 sorely disappointed: As the distinguished economist Kenneth Arrow
 recently described the event, the participants in the meeting paid little
 attention to what he called “Allais’s little experiment.” Personal
@@ -17576,8 +17424,7 @@ Dale T. Miller, William Turnbull, and Cathy McFarland, “When a
 Coincidence Is Suspicious: The Role of Mental Simulation,” Journal of
 Personality and Social Psychology 57 (1989): 581–89. Seymour Epstein
 and his colleagues argued for an interpretation of it in terms of two systems:
-Lee A. Kirkpatrick and Seymour Epstein, “Cognitive-Experiential Self-
-Theory and Subjective Probability: Evidence for Two Conceptual Systems,”
+Lee A. Kirkpatrick and Seymour Epstein, “Cognitive-Experiential SelfTheory and Subjective Probability: Evidence for Two Conceptual Systems,”
 Journal of Personality and Social Psychology 63 (1992): 534–44.
 judged it as more dangerous: Kimihiko Yamagishi, “When a 12.86%
 Mortality Is More Dangerous Than 24.14%: Implications for Risk
@@ -17610,8 +17457,7 @@ Phenomenon?” Journal of Economic Behavior & Organization 56 (2005):
 32: KEEPING SCORE
 drive into a blizzard: The intuition was confirmed in a field experiment in
 which a random selection of students who purchased season tickets to the
-university theater received their tickets at a much reduced price. A follow-
-up of attendance revealed that students who had paid the full price for their
+university theater received their tickets at a much reduced price. A followup of attendance revealed that students who had paid the full price for their
 tickets were more likely to attend, especially during the first half of the
 season. Missing a show one has paid for involves the unpleasant experience
 of closing an account in the red. Arkes and Blumer, “The Psychology of
@@ -17836,8 +17682,7 @@ that people are able to “relive” feelings they had in a past situation when 
 situation is retrieved in sufficiently vivid detail. Michael D. Robinson and
 Gerald L. Clore, “Belief and Feeling: Evidence for an Accessibility Model
 of Emotional Self-Report,” Psychological Bulletin 128 (2002): 934–60.
-state the U-index: Alan B. Krueger, ed., Measuring the Subjective Well-
-Being of Nations: National Accounts of Time Use and Well-Being (Chicago:
+state the U-index: Alan B. Krueger, ed., Measuring the Subjective WellBeing of Nations: National Accounts of Time Use and Well-Being (Chicago:
 University of Chicago Press, 2009).
 distribution of emotional pain: Ed Diener, “Most People Are Happy,”
 Psychological Science 7 (1996): 181–85.
@@ -17955,8 +17800,7 @@ Schmimmack, and John F. Helliwell, Well-Being for Public Policy (New
 
 
 York: Oxford University Press, 2009). Alan B. Krueger, ed., Measuring the
-Subjective Well-Being of Nations: National Account of Time Use and Well-
-Being (Chicago: University of Chicago Press, 2009). Joseph E. Stiglitz,
+Subjective Well-Being of Nations: National Account of Time Use and WellBeing (Chicago: University of Chicago Press, 2009). Joseph E. Stiglitz,
 Amartya Sen, and Jean-Paul Fitoussi, Report of the Commission on the
 Measurement of Economic Performance and Social Progress. Paul Dolan,
 Richard Layard, and Robert Metcalfe, Measuring Subjective Well-being for

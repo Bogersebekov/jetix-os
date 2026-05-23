@@ -11,6 +11,10 @@ purpose: |
   Input для Genesis Document (sequencing + priority directions).
   Independent от Шагов 3 (mini-wiki) и 5 (strategic ideas).
 extraction_method: 8 parallel subagents по ~15 transcripts каждый, JSONL aggregation
+phase4_cleaned: true
+phase4_chars_before: 41480
+phase4_chars_after: 41474
+phase4_saved_pct: 0.0
 ---
 
 # Year Plan из ~117 Voice-Memos
@@ -351,7 +355,7 @@ extraction_method: 8 parallel subagents по ~15 transcripts каждый, JSONL
   - Подтягивать лучших (лучшие условия сейчас)
   - Патентование (обязательное условие)
   - Цифра-цель как отправная (амбиция)
-  
+
 - **P2 important** (implicit priority ИЛИ deadline "эта неделя" / "в ближайшее время" без explicit marker): **~35**
   - Описание мета-системы, RAG, безопасность (ai-tools)
   - Консультации у экспертов (next week)
@@ -366,7 +370,7 @@ extraction_method: 8 parallel subagents по ~15 transcripts каждый, JSONL
   - Поиск 5 соратников, 2-3 со-основателей
   - Составление SOP
   - ...и др.
-  
+
 - **P3 nice-to-have** (нет priority маркера, нет deadline, философские описания или supporting tasks): **~60**
   - Описание философии клуба
   - Стримы / регулярные созвоны
@@ -378,7 +382,7 @@ extraction_method: 8 parallel subagents по ~15 transcripts каждый, JSONL
   - Life-OS самосовершенствование
   - Большинство community TODOs
   - ...и др.
-  
+
 - **P4 paused / future**: **5**
   - VR, Mercedes GLS
   - Fortune 500 / MIFAS

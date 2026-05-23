@@ -9,8 +9,11 @@ chars: 574737
 approx_tokens: 143684
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 574739
+phase4_chars_after: 574600
+phase4_saved_pct: 0.0
 ---
-
 
 
 Thomas S. Kuhn (1922–96) was the Laurence Rockefeller Professor Emeritus of linguistics and
@@ -130,7 +133,7 @@ in the image of science by which we are now possessed.”7 Thomas Kuhn
 was out to change our understanding of the sciences—that is, of the
 activities that have enabled our species, for better or worse, to dominate the
 planet. He succeeded.
-1962
+
 The present edition commemorates the fiftieth anniversary of Structure.
 Nineteen sixty-two was a long time ago. The sciences themselves have
 radically changed. The queen of the sciences, then, was physics. Kuhn had
@@ -479,8 +482,7 @@ fascinatingly original thinker who was deeply immersed in Wittgenstein.
 Each acknowledged the importance, at that moment in their lives, of sharing
 their intellectual attitudes and problems.25 And paradigm definitely came
 up as problematic in their discussions.26
-At the same time, some British philosophers invented a happily short-
-lived “paradigm-case argument,” so named, I think, in 1957. It was much
+At the same time, some British philosophers invented a happily shortlived “paradigm-case argument,” so named, I think, in 1957. It was much
 discussed, for it seemed to be a new and general argument against various
 kinds of philosophical skepticism. Here is a fair parody of the idea. You
 cannot claim we lack free will (for example), because we had to learn the
@@ -495,12 +497,12 @@ achievements acknowledged by some scientific community. In the 1974
 “Second Thoughts on Paradigms,” Kuhn reemphasized that paradigm
 entered the book hand in hand with scientific community.29 The
 achievements served as exemplars of what to do, the kinds of questions to
-ask, 
-successful 
-applications, 
-and 
-“exemplary 
-observations 
+ask,
+successful
+applications,
+and
+“exemplary
+observations
 and
 experiments.”30
 
@@ -834,8 +836,7 @@ a “trading-zone” analogous to the creoles that emerge when two very
 different linguistic groups engage in trade.40
 Kuhn came to realize that the idea of incommensurability is helpful in an
 unexpected way. Specialization is a fact of human civilization, and it is a
-fact of the sciences. In the seventeenth century we could get on with all-
-purpose journals, whose prototype was the Philosophical Transactions of
+fact of the sciences. In the seventeenth century we could get on with allpurpose journals, whose prototype was the Philosophical Transactions of
 the Royal Society of London. Multidisciplinary science does continue, as
 attested by the weeklies Science and Nature. But there has been a constant
 proliferation of scientific journals even before we entered the age of
@@ -853,14 +854,14 @@ increasingly difficult for practitioners of one to understand what the other is
 doing. This is not a deep metaphysical point; it is a familiar fact of life to
 any working scientist.
 Just as new species are characterized by the fact that they do not
-interbreed, 
-so 
-new 
-disciplines 
-are 
-to 
-some 
-extent 
+interbreed,
+so
+new
+disciplines
+are
+to
+some
+extent
 mutually
 incomprehensible. This is a use of the idea of incommensurability that has
 real content. It has nothing to do with pseudoquestions about theory choice.
@@ -956,8 +957,7 @@ Notice that there is no sociology in the book. Scientific communities and
 their practices are, however, at its core, entering with paradigms, as we saw,
 at page 10 and continuing to the final page of the book. There had been
 sociology of scientific knowledge before Kuhn, but after Structure it
-burgeoned, leading to what is now called science studies. This is a self-
-generating field (with, of course, its own journals and societies) that
+burgeoned, leading to what is now called science studies. This is a selfgenerating field (with, of course, its own journals and societies) that
 includes some work in the history and the philosophy of sciences and
 technology, but whose emphasis is on sociological approaches of various
 kinds, some observational, some theoretical. Much, and perhaps most, of
@@ -1055,8 +1055,7 @@ process of transition from one to the next.2
 One of my colleagues set me to reading papers in the psychology of
 perception, particularly the Gestalt psychologists; another introduced me to
 B. L. Whorf’s speculations about the effect of language on world view; and
-W. V. O. Quine opened for me the philosophical puzzles of the analytic-
-synthetic distinction.3 That is the sort of random exploration that the
+W. V. O. Quine opened for me the philosophical puzzles of the analyticsynthetic distinction.3 That is the sort of random exploration that the
 Society of Fellows permits, and only through it could I have encountered
 Ludwik Fleck’s almost unknown monograph, Entstehung und Entwicklung
 einer wissenschaftlichen Tatsache (Basel, 1935), an essay that anticipates
@@ -1123,8 +1122,7 @@ advising me about the manuscript that resulted. Space limits of the
 Encyclopedia made it necessary, however, to present my views in an
 extremely condensed and schematic form. Though subsequent events have
 somewhat relaxed those restrictions and have made possible simultaneous
-independent publication, this work remains an essay rather than the full-
-scale book my subject will ultimately demand.
+independent publication, this work remains an essay rather than the fullscale book my subject will ultimately demand.
 Since my most fundamental objective is to urge a change in the
 perception and evaluation of familiar data, the schematic character of this
 first presentation need be no drawback. On the contrary, readers whose own
@@ -1150,8 +1148,7 @@ shift in the distribution of the technical literature cited in the footnotes to
 research reports—ought to be studied as a possible index to the occurrence
 of revolutions.
 The need for drastic condensation has also forced me to forego
-discussion of a number of major problems. My distinction between the pre-
-and the post-paradigm periods in the development of a science is, for
+discussion of a number of major problems. My distinction between the preand the post-paradigm periods in the development of a science is, for
 example, much too schematic. Each of the schools whose competition
 characterizes the earlier period is guided by something much like a
 paradigm; there are circumstances, though I think them rare, under which
@@ -1414,8 +1411,7 @@ practice—then begin the extraordinary investigations that lead the
 profession at last to a new set of commitments, a new basis for the practice
 of science. The extraordinary episodes in which that shift of professional
 commitments occurs are the ones known in this essay as scientific
-revolutions. They are the tradition-shattering complements to the tradition-
-bound activity of normal science.
+revolutions. They are the tradition-shattering complements to the traditionbound activity of normal science.
 The most obvious examples of scientific revolutions are those famous
 episodes in scientific development that have often been labeled revolutions
 before. Therefore, in Sections IX and X, where the nature of scientific
@@ -1466,8 +1462,7 @@ long been familiar, and, in the process, shifted the network of theory
 through which it deals with the world. Scientific fact and theory are not
 
 
-categorically separable, except perhaps within a single tradition of normal-
-scientific practice. That is why the unexpected discovery is not simply
+categorically separable, except perhaps within a single tradition of normalscientific practice. That is why the unexpected discovery is not simply
 factual in its import and why the scientist’s world is qualitatively
 transformed as well as quantitatively enriched by fundamental novelties of
 either fact or theory.
@@ -1655,8 +1650,7 @@ During that period there were almost as many views about the nature of
 electricity as there were important electrical experimenters, men like
 Hauksbee, Gray, Desaguliers, Du Fay, Nollett, Watson, Franklin, and others.
 All their numerous concepts of electricity had something in common—they
-were partially derived from one or another version of the mechanico-
-corpuscular philosophy that guided all scientific research of the day. In
+were partially derived from one or another version of the mechanicocorpuscular philosophy that guided all scientific research of the day. In
 addition, all were components of real scientific theories, of theories that had
 been drawn in part from experiment and observation and that partially
 determined the choice and interpretation of additional problems undertaken
@@ -1679,8 +1673,7 @@ charged bodies.) But they had as much difficulty as the first group in
 accounting simultaneously for any but the simplest conduction effects.
 Those effects, however, provided the starting point for still a third group,
 one which tended to speak of electricity as a “fluid” that could run through
-conductors rather than as an “effluvium” that emanated from non-
-conductors. This group, in its turn, had difficulty reconciling its theory with
+conductors rather than as an “effluvium” that emanated from nonconductors. This group, in its turn, had difficulty reconciling its theory with
 a number of attractive and repulsive effects. Only through the work of
 Franklin and his immediate successors did a theory arise that could account
 with something like equal facility for very nearly all these effects and that
@@ -1736,8 +1729,7 @@ possesses the time or the tools to be critical, the natural histories often
 juxtapose descriptions like the above with others, say, heating by
 antiperistasis (or by cooling), that we are now quite unable to confirm.6
 Only very occasionally, as in the cases of ancient statics, dynamics, and
-geometrical optics, do facts collected with so little guidance from pre-
-established theory speak with sufficient clarity to permit the emergence of a
+geometrical optics, do facts collected with so little guidance from preestablished theory speak with sufficient clarity to permit the emergence of a
 first paradigm.
 This is the situation that creates the schools characteristic of the early
 stages of a science’s development. No natural history can be interpreted in
@@ -1793,8 +1785,7 @@ research increased accordingly, providing evidence for a societal version of
 
 Francis Bacon’s acute methodological dictum: “Truth emerges more readily
 from error than from confusion.”10
-We shall be examining the nature of this highly directed or paradigm-
-based research in the next section, but must first note briefly how the
+We shall be examining the nature of this highly directed or paradigmbased research in the next section, but must first note briefly how the
 emergence of a paradigm affects the structure of the group that practices the
 field. When, in the development of a natural science, an individual or group
 first produces a synthesis able to attract most of the next generation’s
@@ -1871,8 +1862,7 @@ coextensive, that is to say, with the entire development of the fields within
 
 which they occurred. Writers on electricity during the first four decades of
 the eighteenth century possessed far more information about electrical
-phenomena than had their sixteenth-century predecessors. During the half-
-century after 1740, few new sorts of electrical phenomena were added to
+phenomena than had their sixteenth-century predecessors. During the halfcentury after 1740, few new sorts of electrical phenomena were added to
 their lists. Nevertheless, in important respects, the electrical writings of
 Cavendish, Coulomb, and Volta in the last third of the eighteenth century
 seem further removed from those of Gray, Du Fay, and even Franklin than
@@ -2024,8 +2014,7 @@ often the paradigm theory is implicated directly in the design of apparatus
 able to solve the problem. Without the Principia, for example,
 measurements made with the Atwood machine would have meant nothing
 at all.
-A third class of experiments and observations exhausts, I think, the fact-
-gathering activities of normal science. It consists of empirical work
+A third class of experiments and observations exhausts, I think, the factgathering activities of normal science. It consists of empirical work
 undertaken to articulate the paradigm theory, resolving some of its residual
 ambiguities and permitting the solution of problems to which it had
 previously only drawn attention. This class proves to be the most important
@@ -2107,8 +2096,7 @@ characteristics, and the production of radio propagation curves are examples
 of problems of this sort. Scientists, however, generally regard them as hack
 work to be relegated to engineers or technicians. At no time do very many
 of them appear in significant scientific journals. But these journals do
-contain a great many theoretical discussions of problems that, to the non-
-scientist, must seem almost identical. These are the manipulations of theory
+contain a great many theoretical discussions of problems that, to the nonscientist, must seem almost identical. These are the manipulations of theory
 undertaken, not because the predictions in which they result are intrinsically
 valuable, but because they can be confronted directly with experiment.
 
@@ -2144,12 +2132,12 @@ century by the Bernoullis, d’Alembert, and many others. Presumably their
 techniques and those of the Principia could be shown to be special cases of
 a more general formulation, but for some time no one saw quite how.9
 Restrict attention for the moment to the problem of precision. We have
-already 
-illustrated 
-its 
-empirical 
-aspect. 
-Special 
+already
+illustrated
+its
+empirical
+aspect.
+Special
 equipment—like
 Cavendish’s apparatus, the Atwood machine, or improved telescopes—was
 required in order to provide the special data that the concrete applications of
@@ -2189,8 +2177,7 @@ They produced, for example, an immense literature and some very powerful
 mathematical techniques for hydrodynamics and for the problem of
 vibrating strings. These problems of application account for what is
 probably the most brilliant and consuming scientific work of the eighteenth
-century. Other examples could be discovered by an examination of the post-
-paradigm period in the development of thermodynamics, the wave theory of
+century. Other examples could be discovered by an examination of the postparadigm period in the development of thermodynamics, the wave theory of
 light, electromagnetic theory, or any other branch of science whose
 fundamental laws are fully quantitative. At least in the more mathematical
 sciences, most theoretical work is of this sort.
@@ -2248,8 +2235,7 @@ categories outlined above. Work under the paradigm can be conducted in no
 other way, and to desert the paradigm is to cease practicing the science it
 defines. We shall shortly discover that such desertions do occur. They are
 the pivots about which scientific revolutions turn. But before beginning the
-study of such revolutions, we require a more panoramic view of the normal-
-scientific pursuits that prepare the way.
+study of such revolutions, we require a more panoramic view of the normalscientific pursuits that prepare the way.
 
 
 [IV]
@@ -2658,8 +2644,7 @@ particular, is regularly marked by frequent and deep debates over legitimate
 methods, problems, and standards of solution, though these serve rather to
 define schools than to produce agreement. We have already noted a few of
 these debates in optics and electricity, and they played an even larger role in
-the development of seventeenth-century chemistry and of early nineteenth-
-century geology.3 Furthermore, debates like these do not vanish once and
+the development of seventeenth-century chemistry and of early nineteenthcentury geology.3 Furthermore, debates like these do not vanish once and
 for all with the appearance of a paradigm. Though almost non-existent
 during periods of normal science, they recur regularly just before and
 during scientific revolutions, the periods when paradigms are first under
@@ -2775,8 +2760,7 @@ Examining selected discoveries in the rest of this section, we shall quickly
 
 find that they are not isolated events but extended episodes with a regularly
 recurrent structure. Discovery commences with the awareness of anomaly,
-i.e., with the recognition that nature has somehow violated the paradigm-
-induced expectations that govern normal science. It then continues with a
+i.e., with the recognition that nature has somehow violated the paradigminduced expectations that govern normal science. It then continues with a
 more or less extended exploration of the area of anomaly. And it closes only
 when the paradigm theory has been adjusted so that the anomalous has
 become the expected. Assimilating a new sort of fact demands a more than
@@ -2958,8 +2942,7 @@ Roentgen’s day. Their pursuit was a standard project for normal science,
 and success was an occasion only for congratulations, not for surprise.
 X-rays, however, were greeted not only with surprise but with shock.
 Lord Kelvin at first pronounced them an elaborate hoax.8 Others, though
-they could not doubt the evidence, were clearly staggered by it. Though X-
-rays were not prohibited by established theory, they violated deeply
+they could not doubt the evidence, were clearly staggered by it. Though Xrays were not prohibited by established theory, they violated deeply
 entrenched expectations. Those expectations, I suggest, were implicit in the
 design and interpretation of established laboratory procedures. By the
 1890’s cathode ray equipment was widely deployed in numerous European
@@ -3134,15 +3117,13 @@ considerable resistance to paradigm change. The science has become
 increasingly rigid. On the other hand, within those areas to which the
 paradigm directs the attention of the group, normal science leads to a detail
 of information and to a precision of the observation-theory match that could
-be achieved in no other way. Furthermore, that detail and precision-of-
-match have a value that transcends their not always very high intrinsic
+be achieved in no other way. Furthermore, that detail and precision-ofmatch have a value that transcends their not always very high intrinsic
 interest. Without the special apparatus that is constructed mainly for
 anticipated functions, the results that lead ultimately to novelty could not
 occur. And even when the apparatus exists, novelty ordinarily emerges only
 for the man who, knowing with precision what he should expect, is able to
 recognize that something has gone wrong. Anomaly appears only against
-the background provided by the paradigm. The more precise and far-
-reaching that paradigm is, the more sensitive an indicator it provides of
+the background provided by the paradigm. The more precise and farreaching that paradigm is, the more sensitive an indicator it provides of
 anomaly and hence of an occasion for paradigm change. In the normal
 mode of discovery, even resistance to change has a use that will be explored
 more fully in the next section. By ensuring that the paradigm will not be too
@@ -3196,8 +3177,7 @@ historical evidence is, I think, entirely unequivocal. The state of Ptolemaic
 astronomy was a scandal before Copernicus’ announcement.1 Galileo’s
 contributions to the study of motion depended closely upon difficulties
 discovered in Aristotle’s theory by scholastic critics.2 Newton’s new theory
-of light and color originated in the discovery that none of the existing pre-
-paradigm theories would account for the length of the spectrum, and the
+of light and color originated in the discovery that none of the existing preparadigm theories would account for the length of the spectrum, and the
 wave theory that replaced Newton’s was announced in the midst of growing
 concern about anomalies in the relation of diffraction and polarization
 effects to Newton’s theory.3 Thermodynamics was born from the collision
@@ -3424,8 +3404,7 @@ previously found to be the concomitant of crisis.14 It is against that
 historical setting that Einstein’s special theory of relativity emerged in
 1905.
 These three examples are almost entirely typical. In each case a novel
-theory emerged only after a pronounced failure in the normal problem-
-solving activity. Furthermore, except for the case of Copernicus in which
+theory emerged only after a pronounced failure in the normal problemsolving activity. Furthermore, except for the case of Copernicus in which
 factors external to science played a particularly large role, that breakdown
 and the proliferation of theories that is its sign occurred no more than a
 decade or two before the new theory’s enunciation. The novel theory seems
@@ -4541,8 +4520,7 @@ scientist does. The world that the student then enters is not, however, fixed
 once and for all by the nature of the environment, on the one hand, and of
 science, on the other. Rather, it is determined jointly by the environment
 and the particular normal-scientific tradition that the student has been
-trained to pursue. Therefore, at times of revolution, when the normal-
-scientific tradition changes, the scientist’s perception of his environment
+trained to pursue. Therefore, at times of revolution, when the normalscientific tradition changes, the scientist’s perception of his environment
 must be re-educated—in some familiar situations he must learn to see a new
 gestalt. After he has done so the world of his research will seem, here and
 there, incommensurable with the one he had inhabited before. That is
@@ -4732,8 +4710,7 @@ Instead, the two conducting coatings—one of which had been no part of the
 
 
 original device—emerged to prominence. As both written discussions and
-pictorial representations gradually attest, two metal plates with a non-
-conductor between them had become the prototype for the class.9
+pictorial representations gradually attest, two metal plates with a nonconductor between them had become the prototype for the class.9
 Simultaneously, other inductive effects received new descriptions, and still
 others were noted for the first time.
 Shifts of this sort are not restricted to astronomy and electricity. We have
@@ -4969,8 +4946,7 @@ we hope to retrieve a realm in which experience is again stable once and for
 all—in which the pendulum and constrained fall are not different
 perceptions but rather different interpretations of the unequivocal data
 provided by observation of a swinging stone.
-But is sensory experience fixed and neutral? Are theories simply man-
-made interpretations of given data? The epistemological viewpoint that has
+But is sensory experience fixed and neutral? Are theories simply manmade interpretations of given data? The epistemological viewpoint that has
 most often guided Western philosophy for three centuries dictates an
 immediate and unequivocal, Yes! In the absence of a developed alternative,
 I find it impossible to relinquish entirely that viewpoint. Yet it no longer
@@ -5027,8 +5003,7 @@ even a hint of what a language able to do that would be like.
 Under these circumstances we may at least suspect that scientists are
 right in principle as well as in practice when they treat oxygen and
 pendulums (and perhaps also atoms and electrons) as the fundamental
-ingredients of their immediate experience. As a result of the paradigm-
-embodied experience of the race, the culture, and, finally, the profession,
+ingredients of their immediate experience. As a result of the paradigmembodied experience of the race, the culture, and, finally, the profession,
 the world of the scientist has come to be populated with planets and
 pendulums, condensers and compound ores, and other such bodies besides.
 Compared with these objects of perception, both meter stick readings and
@@ -5217,8 +5192,7 @@ nature of the issue, he need not have been. But to most chemists Dalton’s
 new paradigm proved convincing where Proust’s had not been, for it had
 implications far wider and more important than a new criterion for
 distinguishing a mixture from a compound. If, for example, atoms could
-combine chemically only in simple whole-number ratios, then a re-
-examination of existing chemical data should disclose examples of multiple
+combine chemically only in simple whole-number ratios, then a reexamination of existing chemical data should disclose examples of multiple
 as well as of fixed proportions. Chemists stopped writing that the two
 oxides of, say, carbon contained 56 per cent and 72 per cent of oxygen by
 weight; instead they wrote that one weight of carbon would combine either
@@ -5253,8 +5227,7 @@ a paradigm so seldom lead to any conclusions at all. Chemists could not,
 therefore, simply accept Dalton’s theory on the evidence, for much of that
 was still negative. Instead, even after accepting the theory, they had still to
 beat nature into line, a process which, in the event, took almost another
-generation. When it was done, even the percentage composition of well-
-known compounds was different. The data themselves had changed. That is
+generation. When it was done, even the percentage composition of wellknown compounds was different. The data themselves had changed. That is
 the last of the senses in which we may want to say that after a revolution
 scientists work in a different world.
 
@@ -5433,8 +5406,7 @@ mere fact that students of dynamics have always sought, or is it rather the
 answer to a question that first arose only within Newtonian theory and that
 that theory could answer from the body of information available before the
 question was asked?
-These questions are here asked about what appear as the piecemeal-
-discovered facts of a textbook presentation. But obviously, they have
+These questions are here asked about what appear as the piecemealdiscovered facts of a textbook presentation. But obviously, they have
 implications as well for what the text presents as theories. Those theories,
 of course, do “fit the facts,” but only by transforming previously accessible
 information into facts that, for the preceding paradigm, had not existed at
@@ -5889,15 +5861,13 @@ much later, after the new paradigm has been developed, accepted, and
 exploited that apparently decisive arguments—the Foucault pendulum to
 demonstrate the rotation of the earth or the Fizeau experiment to show that
 light moves faster in air than in water—are developed. Producing them is
-part of normal science, and their role is not in paradigm debate but in post-
-revolutionary texts.
+part of normal science, and their role is not in paradigm debate but in postrevolutionary texts.
 Before those texts are written, while the debate goes on, the situation is
 very different. Usually the opponents of a new paradigm can legitimately
 claim that even in the area of crisis it is little superior to its traditional rival.
 Of course, it handles some problems better, has disclosed some new
 regularities. But the older paradigm can presumably be articulated to meet
-these challenges as it has met others before. Both Tycho Brahe’s earth-
-centered astronomical system and the later versions of the phlogiston theory
+these challenges as it has met others before. Both Tycho Brahe’s earthcentered astronomical system and the later versions of the phlogiston theory
 were responses to challenges posed by a new candidate for paradigm, and
 both were quite successful.15 In addition, the defenders of traditional theory
 and procedure can almost always point to problems that its new rival has
@@ -5915,13 +5885,13 @@ of gravity, Lavoisier for the common properties of metals, and so on. In
 short, if a new candidate for paradigm had to be judged from the start by
 hard-headed people who examined only relative problem-solving ability,
 the sciences would experience very few major revolutions. Add the
-counterarguments 
-generated 
-by 
-what 
-we 
-previously 
-called 
+counterarguments
+generated
+by
+what
+we
+previously
+called
 the
 incommensurability of paradigms, and the sciences might experience no
 revolutions at all.
@@ -6352,8 +6322,7 @@ existence and its success in terms of evolution from the community’s state
 of knowledge at any given time? Does it really help to imagine that there is
 some one full, objective, true account of nature and that the proper measure
 of scientific achievement is the extent to which it brings us closer to that
-ultimate goal? If we can learn to substitute evolution-from-what-we-do-
-know for evolution-toward-what-we-wish-to-know, a number of vexing
+ultimate goal? If we can learn to substitute evolution-from-what-we-doknow for evolution-toward-what-we-wish-to-know, a number of vexing
 problems may vanish in the process. Somewhere in this maze, for example,
 must lie the problem of induction.
 I cannot yet specify in any detail the consequences of this alternate view
@@ -6393,8 +6362,7 @@ that natural selection, resulting from mere competition between organisms
 for survival, could have produced man together with the higher animals and
 plants was the most difficult and disturbing aspect of Darwin’s theory. What
 could ‘evolution,’ ‘development,’ and ‘progress’ mean in the absence of a
-specified goal? To many people, such terms suddenly seemed self-
-contradictory.
+specified goal? To many people, such terms suddenly seemed selfcontradictory.
 The analogy that relates the evolution of organisms to the evolution of
 scientific ideas can easily be pushed too far. But with respect to the issues
 of this closing section it is very nearly perfect. The process described in
@@ -6594,8 +6562,7 @@ because they do name subject matters for research. The only alternative my
 text has seemed to allow is that all these subjects have belonged to the
 physics community. Identifications of that sort will not, however, usually
 withstand examination, as my colleagues in history have repeatedly pointed
-out. There was, for example, no physics community before the mid-
-nineteenth century, and it was then formed by the merger of parts of two
+out. There was, for example, no physics community before the midnineteenth century, and it was then formed by the merger of parts of two
 previously separate communities, mathematics and natural philosophy
 (physique expérimentale). What is today the subject matter for a single
 broad community has been variously distributed among diverse
@@ -6605,8 +6572,7 @@ province of any single scientific community. Both normal science and
 revolutions are, however, community-based activities. To discover and
 analyze them, one must first unravel the changing community structure of
 the sciences over time. A paradigm governs, in the first instance, not a
-subject matter but rather a group of practitioners. Any study of paradigm-
-directed or of paradigm-shattering research must begin by locating the
+subject matter but rather a group of practitioners. Any study of paradigmdirected or of paradigm-shattering research must begin by locating the
 responsible group or groups.
 When the analysis of scientific development is approached in that way,
 several difficulties which have been foci for critical attention are likely to
@@ -6650,8 +6616,7 @@ that understanding. A number of critics have doubted whether crisis, the
 common awareness that something has gone wrong, precedes revolutions so
 invariably as I have implied in my original text. Nothing important to my
 argument depends, however, on crises’ being an absolute prerequisite to
-revolutions; they need only be the usual prelude, supplying, that is, a self-
-correcting mechanism which ensures that the rigidity of normal science will
+revolutions; they need only be the usual prelude, supplying, that is, a selfcorrecting mechanism which ensures that the rigidity of normal science will
 not forever go un- challenged. Revolutions may also be induced in other
 ways, though I think they seldom are. In addition, I would now point out
 what the absence of an adequate discussion of community structure has
@@ -6804,8 +6769,7 @@ To many readers of the preceding chapters, this characteristic of the
 operation of shared values has seemed a major weakness of my position.
 Because I insist that what scientists share is not sufficient to command
 uniform assent about such matters as the choice between competing
-theories or the distinction between an ordinary anomaly and a crisis-
-provoking one, I am occasionally accused of glorifying subjectivity and
+theories or the distinction between an ordinary anomaly and a crisisprovoking one, I am occasionally accused of glorifying subjectivity and
 even irrationality.9 But that reaction ignores two characteristics displayed
 by value judgments in any field. First, shared values can be important
 determinants of group behavior even though the members of the group do
@@ -6890,8 +6854,7 @@ accelerations?
 In practice, though this aspect of the situation is seldom or never noted,
 what students have to learn is even more complex than that. It is not quite
 the case that logical and mathematical manipulation are applied directly to f
-= ma. That expression proves on examination to be a law-sketch or a law-
-schema. As the student or the practicing scientist moves from one problem
+= ma. That expression proves on examination to be a law-sketch or a lawschema. As the student or the practicing scientist moves from one problem
 situation to the next, the symbolic generalization to which such
 manipulations apply changes. For the case of free fall, f = ma becomes mg =
 m(d2s/dt2); for the simple pendulum it is transformed to mg sinθ = –
@@ -6928,8 +6891,7 @@ group. For him they are no longer the same situations he had encountered
 when his training began. He has meanwhile assimilated a time-tested and
 group-licensed way of seeing.
 The role of acquired similarity relations also shows clearly in the history
-of science. Scientists solve puzzles by modeling them on previous puzzle-
-solutions, often with only minimal recourse to symbolic generalizations.
+of science. Scientists solve puzzles by modeling them on previous puzzlesolutions, often with only minimal recourse to symbolic generalizations.
 Galileo found that a ball rolling down an incline acquires just enough
 velocity to return it to the same vertical height on a second incline of any
 slope, and he learned to see that experimental situation as like the pendulum
@@ -7024,8 +6986,7 @@ are: that very different stimuli can produce the same sensations; that the
 same stimulus can produce very different sensations; and, finally, that the
 route from stimulus to sensation is in part conditioned by education.
 Individuals raised in different societies behave on some occasions as though
-they saw different things. If we were not tempted to identify stimuli one-to-
-one with sensations, we might recognize that they actually do so.
+they saw different things. If we were not tempted to identify stimuli one-toone with sensations, we might recognize that they actually do so.
 Notice now that two groups, the members of which have systematically
 different sensations on receipt of the same stimuli, do in some sense live in
 different worlds. We posit the existence of stimuli to explain our
@@ -7201,8 +7162,7 @@ I have insisted, each party must try, by persuasion, to convert the other.
 Only philosophers have seriously misconstrued the intent of these parts of
 my argument. A number of them, however, have reported that I believe the
 following:16 the proponents of incommensurable theories cannot
-communicate with each other at all; as a result, in a debate over theory-
-choice there can be no recourse to good reasons; instead theory must be
+communicate with each other at all; as a result, in a debate over theorychoice there can be no recourse to good reasons; instead theory must be
 chosen for reasons that are ultimately personal and subjective; some sort of
 mystical apperception is responsible for the decision actually reached. More
 than any other parts of the book, the passages on which these
@@ -7305,8 +7265,7 @@ use them for longer than is required to induce conversion or convince
 themselves that it will not be obtained.
 Briefly put, what the participants in a communication breakdown can do
 is recognize each other as members of different language communities and
-then become translators.17 Taking the differences between their own intra-
-and inter-group discourse as itself a subject for study, they can first attempt
+then become translators.17 Taking the differences between their own intraand inter-group discourse as itself a subject for study, they can first attempt
 to discover the terms and locutions that, used unproblematically within each
 community, are nevertheless foci of trouble for inter-group discussions.
 
@@ -7322,8 +7281,7 @@ of mere error or madness, they may in time become very good predictors of
 each other’s behavior. Each will have learned to translate the other’s theory
 and its consequences into his own language and simultaneously to describe
 in his language the world to which that theory applies. That is what the
-historian of science regularly does (or should) when dealing with out-of-
-date scientific theories.
+historian of science regularly does (or should) when dealing with out-ofdate scientific theories.
 Since translation, if pursued, allows the participants in a communication
 breakdown to experience vicariously something of the merits and defects of
 each other’s points of view, it is a potent tool both for persuasion and for
@@ -7414,8 +7372,7 @@ scientific group. Like any other value, puzzle-solving ability proves
 equivocal in application. Two men who share it may nevertheless differ in
 the judgments they draw from its use. But the behavior of a community
 which makes it preeminent will be very different from that of one which
-does not. In the sciences, I believe, the high value accorded to puzzle-
-solving ability has the following consequences.
+does not. In the sciences, I believe, the high value accorded to puzzlesolving ability has the following consequences.
 Imagine an evolutionary tree representing the development of the modern
 scientific specialties from their common origins in, say, primitive natural
 philosophy and the crafts. A line drawn up that tree, never doubling back,
@@ -7509,8 +7466,7 @@ it illuminates science than because they read its main theses as applicable to
 many other fields as well. I see what they mean and would not like to
 discourage their attempts to extend the position, but their reaction has
 nevertheless puzzled me. To the extent that the book portrays scientific
-development as a succession of tradition-bound periods punctuated by non-
-cumulative breaks, its theses are undoubtedly of wide applicability. But
+development as a succession of tradition-bound periods punctuated by noncumulative breaks, its theses are undoubtedly of wide applicability. But
 they should be, for they are borrowed from other fields. Historians of
 literature, of music, of the arts, of political development, and of many other
 human activities have long described their subjects in the same way.
@@ -7665,8 +7621,7 @@ published in 1935 an analysis of science perhaps more radical than Kuhn’s. Gen
 Development of a Scientific Fact, trans. Fred Bradley and Thaddeus J. Trenn (Chicago, IL:
 University of Chicago Press, 1979). The German subtitle has been omitted from the English
 translation: “Introduction to the Theory of the Thought-Style and the Thought-Collective.” Kuhn’s
-scientific community matches Fleck’s notion of a “thought-collective,” characterized by a “thought-
-style,” which many readers now see as analogous to a paradigm. Kuhn acknowledged that Fleck’s
+scientific community matches Fleck’s notion of a “thought-collective,” characterized by a “thoughtstyle,” which many readers now see as analogous to a paradigm. Kuhn acknowledged that Fleck’s
 essay “anticipated many of my own ideas” (Structure, xli). Kuhn was instrumental in finally getting
 the book translated into English. Late in life he said he was put off by Fleck’s writing in terms of
 “thoughts,” internal to the mind of an individual rather than communal (“Discussion with Thomas S.
@@ -7858,8 +7813,7 @@ particularly chaps. v and vi.
 support the naming procedure he outlines. Part of the point that follows cannot therefore be attributed
 to him.
 3. For chemistry, see H. Metzger, Les doctrines chimiques en France du début du XVIIe à la fin du
-XVIIIe siècle (Paris, 1923), pp. 24–27, 146–49; and Marie Boas, Robert Boyle and Seventeenth-
-Century Chemistry (Cambridge, 1958), chap. ii. For geology, see Walter F. Cannon, “The
+XVIIIe siècle (Paris, 1923), pp. 24–27, 146–49; and Marie Boas, Robert Boyle and SeventeenthCentury Chemistry (Cambridge, 1958), chap. ii. For geology, see Walter F. Cannon, “The
 Uniformitarian-Catastrophist Debate,” Isis, LI (1960), 38–55; and C. C. Gillispie, Genesis and
 Geology (Cambridge, Mass., 1951), chaps. iv–v.
 4. For controversies over quantum mechanics, see Jean Ullmo, La crise de la physique quantique
@@ -7878,8 +7832,7 @@ the Closed World to the Infinite Universe (Baltimore, 1957), chap. xi.
 issues are treated in his paper, “The Vernacular of the Laboratory,” Philosophy of Science, XXV
 (1958), 163–68.
 VI. Anomaly and the Emergence of Scientific Discoveries
-1. For the still classic discussion of oxygen’s discovery, see A. N. Meldrum, The Eighteenth-
-Century Revolution in Science—the First Phase (Calcutta, 1930), chap. v. An indispensable recent
+1. For the still classic discussion of oxygen’s discovery, see A. N. Meldrum, The EighteenthCentury Revolution in Science—the First Phase (Calcutta, 1930), chap. v. An indispensable recent
 review, including an account of the priority controversy, is Maurice Daumas, Lavoisier, théoricien et
 
 
@@ -8184,8 +8137,7 @@ Structure of Scientific Revolutions,” Philosophical Review, LXXIII (1964), 383
 D. de B. Beaver, “Collaboration in an Invisible College,” American Psychologist, XXI (1966), 1011–
 18; Diana Crane, “Social Structure in a Group of Scientists: A Test of the ‘Invisible College’
 Hypothesis,” American Sociological Review, XXXIV (1969), 335–52; N. C. Mullins, Social
-Networks among Biological Scientists, (Ph.D. diss., Harvard University, 1966), and “The Micro-
-Structure of an Invisible College: The Phage Group” (paper delivered at an annual meeting of the
+Networks among Biological Scientists, (Ph.D. diss., Harvard University, 1966), and “The MicroStructure of an Invisible College: The Phage Group” (paper delivered at an annual meeting of the
 American Sociological Association, Boston, 1968).
 6. Eugene Garfield, The Use of Citation Data in Writing the History of Science (Philadelphia:
 Institute of Scientific Information, 1964); M. M. Kessler, “Comparison of the Results of
@@ -8204,8 +8156,7 @@ York, 1967); and the essays of Sir Karl Popper and Imre Lakatos in Growth of Kno
 11. For the example, see: René Dugas, A History of Mechanics, trans. J. R. Maddox (Neuchatel,
 1955), pp. 135–36, 186–93, and Daniel Bernoulli, Hydrodynamica, sive de viribus et motibus
 fluidorum, commentarii opus academicum (Strasbourg, 1738), Sec. iii. For the extent to which
-mechanics progressed during the first half of the eighteenth century by modelling one problem-
-solution on another, see Clifford Truesdell, “Reactions of Late Baroque Mechanics to Success,
+mechanics progressed during the first half of the eighteenth century by modelling one problemsolution on another, see Clifford Truesdell, “Reactions of Late Baroque Mechanics to Success,
 Conjecture, Error, and Failure in Newton’s Principia,” Texas Quarterly, X (1967), 238–58.
 12. Some information on this subject can be found in “Second Thoughts.”
 13. This point might never have needed making if all laws were like Newton’s and all rules like the
@@ -8530,7 +8481,7 @@ and chemical significance of “element,” 142, 147;
 delivery of sealed note to French Academy, 56, 72, 86;
 Elements of Chemistry, 10;
 oxygen theory of combustion, 54–57, 56–57, 58, 59–60, 66, 70–72, 80, 89, 118, 120, 146, 155,
-156
+
 Lawrence, E. O., 26
 laws. See scientific law; and specific laws law-sketch, 188, 190
 Leibniz, Gottfried, 72

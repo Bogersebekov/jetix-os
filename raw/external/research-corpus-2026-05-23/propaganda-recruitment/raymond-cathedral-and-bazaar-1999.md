@@ -9,15 +9,16 @@ chars: 449718
 approx_tokens: 112429
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 449720
+phase4_chars_after: 446288
+phase4_saved_pct: 0.8
 ---
-
 
 
 The Cathedral and the Bazaar
 Musings on Linux and Open Source by an
 Accidental Revolutionary
-
-
 
 
 The Cathedral and the Bazaar
@@ -75,32 +76,30 @@ and especially, that specialization is for insects.
 ✦  ✦  ✦
 
 
-
-
 Table of Contents
 Foreword
 ix
 Preface: Why You Should Care
 xi
-A Brief History of Hackerdom 
-1
-The Cathedral and the Bazaar 
-19
+A Brief History of Hackerdom
+
+The Cathedral and the Bazaar
+
 Homesteading the Noosphere
-65
-The Magic Cauldron 
-113
+
+The Magic Cauldron
+
 Revenge of the Hackers
-167
-Afterword: Beyond Software? 
-193
-Appendix A: How to Become a Hacker 
-195
+
+Afterword: Beyond Software?
+
+Appendix A: How to Become a Hacker
+
 Appendix B: Statistical Trends in the
-215
+
 Fetchmail Project’s Growth
 Notes, Bibliography,
-219
+
 and Acknowledgments
 vii
 
@@ -115,17 +114,14 @@ AT&T lost its monopoly control over American consumers with
 the previously slow pace of innovation when those customers had
 no freedom to choose.
 The world’s best example of the beneﬁts of freedom in business is
-a comparison of the computer hardware business and the com-
-puter software business. In computer hardware, where freedom
+a comparison of the computer hardware business and the computer software business. In computer hardware, where freedom
 reigns for both suppliers and consumers alike on a global scale,
-the industry generates the fastest innovation in product and cus-
-tomer value the world has ever seen. In the computer software
+the industry generates the fastest innovation in product and customer value the world has ever seen. In the computer software
 industry, on the other hand, change is measured in decades. The
 ofﬁce suite, the 1980s killer application, wasn’t challenged until
 the 1990s with the introduction of the web browser and server.
 Open-source software brings to the computer software industry
-even greater freedom than the hardware manufacturers and con-
-sumers have enjoyed.
+even greater freedom than the hardware manufacturers and consumers have enjoyed.
 Computer languages are called languages because they are just
 that. They enable the educated members of our society (in this
 ix
@@ -143,8 +139,7 @@ at an industry that thought it had all of its fundamental structures
 worked out. It gives customers control over the technologies they
 use, instead of enabling the vendors to control their customers
 through restricting access to the code behind the technologies.
-Supplying open-source tools to the market will require new busi-
-ness models. But by delivering unique beneﬁts to the market, those
+Supplying open-source tools to the market will require new business models. But by delivering unique beneﬁts to the market, those
 companies that develop the business models will be very successful
 competing with companies that attempt to retain control over
 their customers.
@@ -156,34 +151,27 @@ its users had to be communicated and understood.
 This is Eric Raymond’s great contribution to the success of the
 open-source software revolution, to the adoption of Linux-based
 operating systems, and to the success of open-source users and the
-companies that supply them. Eric’s ability to explain clearly, effec-
-tively, and accurately the beneﬁts of this revolutionary software
-development model has been central to the success of this revolu-
-tion.
+companies that supply them. Eric’s ability to explain clearly, effectively, and accurately the beneﬁts of this revolutionary software
+development model has been central to the success of this revolution.
 —Bob Young, Chairman and CEO, Red Hat, Inc.
 x
 
 
 Preface: Why You Should Care
 ✦✦✦
-The book in your hands is about the behavior and culture of com-
-puter hackers. It collects a series of essays originally meant for
+The book in your hands is about the behavior and culture of computer hackers. It collects a series of essays originally meant for
 programmers and technical managers. The obvious (and entirely
 fair) question for you, the potential reader, to ask is: ‘‘Why should
 I care?’’
-The most obvious answer to this question is that computer soft-
-ware is an increasingly critical factor in the world economy and in
+The most obvious answer to this question is that computer software is an increasingly critical factor in the world economy and in
 the strategic calculations of businesses. That you have opened this
 book at all means you are almost certainly familiar with many of
 today’s truisms about the information economy, the digital age,
 and the wired world; I will not rehearse them here. I will simply
 point out that any signiﬁcant advance in our understanding of
-how to build better-quality, more reliable software has tremen-
-dous implications that are growing more tremendous by the day.
+how to build better-quality, more reliable software has tremendous implications that are growing more tremendous by the day.
 The essays in this book did not invent such a fundamental
-advance, but they do describe one: open-source software, the pro-
-cess of systematically harnessing open development and decentral-
-ized peer review to lower costs and improve software quality.
+advance, but they do describe one: open-source software, the process of systematically harnessing open development and decentralized peer review to lower costs and improve software quality.
 Open-source software is not a new idea (its traditions go back to
 the beginnings of the Internet thirty years ago), but only recently
 have technical and market forces converged to draw it out of a
@@ -192,32 +180,27 @@ xi
 
 
 The Cathedral and the Bazaar
-deﬁne the computing infrastructure of the next century. For any-
-one who relies on computers, that makes it an important thing to
+deﬁne the computing infrastructure of the next century. For anyone who relies on computers, that makes it an important thing to
 understand.
 I just referred to the ‘‘open-source movement’’. That hints at other
 and perhaps more ultimately interesting reasons for the reader to
 care. The idea of open source has been pursued, realized, and
 cherished over those thirty years by a vigorous tribe of partisans
 native to the Internet. These are the people who proudly call
-themselves ‘‘hackers’’—not as the term is now abused by journal-
-ists to mean a computer criminal, but in its true and original sense
+themselves ‘‘hackers’’—not as the term is now abused by journalists to mean a computer criminal, but in its true and original sense
 of an enthusiast, an artist, a tinkerer, a problem solver, an expert.
 The tribe of hackers, after decades spent in obscurity struggling
 against hard technical problems and the far greater weight of
 mainstream indifference and dismissal, has recently begun to come
 into its own. They built the Internet; they built Unix; they built the
-World Wide Web; they’re building Linux and open-source soft-
-ware today; and, following the great Internet explosion of the
+World Wide Web; they’re building Linux and open-source software today; and, following the great Internet explosion of the
 mid-1990s, the rest of the world is ﬁnally ﬁguring out that it
 should have been paying more attention to them all along.
-The hacker culture and its successes pose by example some funda-
-mental questions about human motivation, the organization of
+The hacker culture and its successes pose by example some fundamental questions about human motivation, the organization of
 work, the future of professionalism, and the shape of the ﬁrm—
 and about how all of these things will change and evolve in the
 information-rich post-scarcity economies of the 21st century and
-beyond. The hacker culture also, arguably, preﬁgures some pro-
-found changes in the way humans will relate to and reshape their
+beyond. The hacker culture also, arguably, preﬁgures some profound changes in the way humans will relate to and reshape their
 economic surroundings. This should make what we know about
 the hacker culture of interest to anyone else who will have to live
 and work in the future.
@@ -229,8 +212,7 @@ were somewhat revised and expanded for the ﬁrst edition in
 xii
 
 
-October 1999, and updated again for this second edition of Jan-
-uary 2001, but no really concerted attempt has been made to
+October 1999, and updated again for this second edition of January 2001, but no really concerted attempt has been made to
 remove technicalia or make them more accessible (e.g., dumb
 them down) for a general audience. I think it more respectful to
 puzzle and challenge an audience than to bore and insult it. If you
@@ -243,16 +225,13 @@ documents, into which I periodically merge the distilled results of
 feedback from people who write to comment on or correct them.
 While I alone remain responsible for any errors in this book, it has
 beneﬁtted from a peer-review process very like that which it
-describes for software, and incorporates contributions from peo-
-ple too numerous to list here. The versions printed here are not
+describes for software, and incorporates contributions from people too numerous to list here. The versions printed here are not
 ﬁxed or ﬁnal forms; rather, they should be considered reports from
 a continuing inquiry in which many members of the culture they
 describe are active participants.
 Finally, I must at least try to express my delight and amazement
-and gratitude for the many people and the long chain of appar-
-ently fortuitous circumstances that have led up to this book . . . .
-Some particular thanks are due for long-term friendship and sup-
-port for the work captured between these covers. Thank you,
+and gratitude for the many people and the long chain of apparently fortuitous circumstances that have led up to this book . . . .
+Some particular thanks are due for long-term friendship and support for the work captured between these covers. Thank you,
 Linus Torvalds. Thank you, Larry Augustin. Thank you, Doc
 Searls. Thank you, Tim O’Reilly. You are all people I am proud to
 call friends as well as colleagues. Most especially: thank you,
@@ -260,8 +239,7 @@ Catherine Raymond — my love, my wife, and my longest-time
 supporter.
 I am a hacker. I have been part of the culture described in this
 book for more than 20 years. In that time I have been privileged
-to work and play with some of the most interesting and excep-
-tional people on Earth, solving fascinating problems and (on a
+to work and play with some of the most interesting and exceptional people on Earth, solving fascinating problems and (on a
 precious few occasions) creating something both genuinely new
 Preface
 xiii
@@ -274,23 +252,18 @@ things. The essays in this book are my return gift to them.
 These essays were stages of discovery for me as well, reports from
 a fascinating journey in which I learned to see the long-familiar in
 a new and deeper way. To my then and continuing astonishment,
-the mere act of reporting this journey turned out to have a catalyz-
-ing effect on the emergence of open source into the mainstream. I
-hope the reader of my travel papers will catch some of the excite-
-ment of that journey and of the amazing prospects that are
+the mere act of reporting this journey turned out to have a catalyzing effect on the emergence of open source into the mainstream. I
+hope the reader of my travel papers will catch some of the excitement of that journey and of the amazing prospects that are
 unfolding before us today as mainstream business and consumers
 take their ﬁrst steps on the same road.
 Revision Notes for
 the Second Edition
-For the beneﬁt of readers of the ﬁrst edition, here follows a sum-
-mary of topics on which there have been substantive additions or
+For the beneﬁt of readers of the ﬁrst edition, here follows a summary of topics on which there have been substantive additions or
 revisions in the second edition:
-How many eyeballs tames complexity. The deadliness of dead-
-lines. A more precise deﬁnition of forking and pseudoforking. The
+How many eyeballs tames complexity. The deadliness of deadlines. A more precise deﬁnition of forking and pseudoforking. The
 relevance of evolutionary handicap theory, peacocks, and stags to
 open-source developer motivation. Economically, why isn’t open
-source underprovided? Effects of asymmetric information. Open-
-sourcing as a competitive weapon. The predictions in Revenge of
+source underprovided? Effects of asymmetric information. Opensourcing as a competitive weapon. The predictions in Revenge of
 the Hackers have been examined from the perspective of one year
 later, and new ones added. An appendix on the growth of the
 fetchmail project has been added.
@@ -299,25 +272,18 @@ xi v
 
 A Brief History of Hackerdom
 ✦✦✦
-I explore the origins of the hacker culture, including pre-
-history among the Real Programmers, the glory days of
+I explore the origins of the hacker culture, including prehistory among the Real Programmers, the glory days of
 the MIT hackers, and how the early ARPAnet nurtured
-the ﬁrst network nation. I describe the early rise and even-
-tual stagnation of Unix, the new hope from Finland, and
+the ﬁrst network nation. I describe the early rise and eventual stagnation of Unix, the new hope from Finland, and
 how ‘‘the last true hacker’’ became the next generation’s
 patriarch. I sketch the way Linux and the mainstreaming
 of the Internet brought the hacker culture from the fringes
 of public consciousness to its current prominence.
-1
-
-
-
 
 Prologue: The Real Programmers
 In the beginning, there were Real Programmers.
 That’s not what they called themselves. They didn’t call themselves
-hackers, either, or anything in particular; the sobriquet ‘Real Pro-
-grammer’ wasn’t coined until after 1980, retrospectively by one of
+hackers, either, or anything in particular; the sobriquet ‘Real Programmer’ wasn’t coined until after 1980, retrospectively by one of
 their own. But from 1945 onward, the technology of computing
 attracted many of the world’s brightest and most creative minds.
 From Eckert and Mauchly’s ﬁrst ENIAC computer onward there
@@ -327,30 +293,23 @@ software for fun.
 The Real Programmers typically came out of engineering or
 physics backgrounds. They were often amateur-radio hobbyists.
 They wore white socks and polyester shirts and ties and thick
-glasses and coded in machine language and assembler and FOR-
-TRAN and half a dozen ancient languages now forgotten.
+glasses and coded in machine language and assembler and FORTRAN and half a dozen ancient languages now forgotten.
 From the end of World War II to the early 1970s, in the great days
-of batch processing and the ‘‘big iron’’ mainframes, the Real Pro-
-grammers were the dominant technical culture in computing. A
+of batch processing and the ‘‘big iron’’ mainframes, the Real Programmers were the dominant technical culture in computing. A
 few pieces of revered hacker folklore date from this era, including
-various lists of Murphy’s Laws and the mock-German ‘‘Blinken-
-lights’’ poster that still graces many computer rooms.
+various lists of Murphy’s Laws and the mock-German ‘‘Blinkenlights’’ poster that still graces many computer rooms.
 Some people who grew up in the Real Programmer culture
 remained active into the 1990s. Seymour Cray, designer of the
 Cray line of supercomputers, was among the greatest. He is said
 to have once toggled an entire operating system of his own design
 into a computer of his own design through its front-panel
 A Brief History of Hackerdom
-3
-
 
 The Cathedral and the Bazaar
-switches. In octal. Without an error. And it worked. Real Pro-
-grammer macho supremo.
+switches. In octal. Without an error. And it worked. Real Programmer macho supremo.
 The ‘Real Programmer’ culture, though, was heavily associated
 with batch (and especially batch scientiﬁc) computing. It was
-eventually eclipsed by the rise of interactive computing, the univer-
-sities, and the networks. These gave birth to another engineering
+eventually eclipsed by the rise of interactive computing, the universities, and the networks. These gave birth to another engineering
 tradition that, eventually, would evolve into today’s open-source
 hacker culture.
 The Early Hackers
@@ -358,8 +317,7 @@ The beginnings of the hacker culture as we know it today can be
 conveniently dated to 1961, the year MIT acquired the ﬁrst
 PDP-1. The Signals and Power Committee of MIT’s Tech Model
 Railroad Club adopted the machine as their favorite tech-toy and
-invented programming tools, slang, and an entire surrounding cul-
-ture that is still recognizably with us today. These early years have
+invented programming tools, slang, and an entire surrounding culture that is still recognizably with us today. These early years have
 been examined in the ﬁrst part of Steven Levy’s book Hackers,
 Anchor/Doubleday 1984, ISBN 0-385-19195-2.
 MIT’s computer culture seems to have been the ﬁrst to adopt the
@@ -372,13 +330,9 @@ network. It was built by the Defense Department as an experiment
 in digital communications, but grew to link together hundreds of
 universities and defense contractors and research laboratories. It
 enabled researchers everywhere to exchange information with
-unprecedented speed and ﬂexibility, giving a huge boost to collab-
-orative work and tremendously increasing both the pace and
+unprecedented speed and ﬂexibility, giving a huge boost to collaborative work and tremendously increasing both the pace and
 intensity of technological advance.
-But the ARPAnet did something else as well. Its electronic high-
-ways brought together hackers all over the U.S. in a critical mass;
-4
-
+But the ARPAnet did something else as well. Its electronic highways brought together hackers all over the U.S. in a critical mass;
 
 instead of remaining in isolated small groups each developing their
 own ephemeral local cultures, they discovered (or re-invented)
@@ -387,49 +341,39 @@ The ﬁrst intentional artifacts of the hacker culture—the ﬁrst slang
 lists, the ﬁrst satires, the ﬁrst self-conscious discussions of the
 hacker ethic—all propagated on the ARPAnet in its early years. In
 particular,
-the 
-ﬁrst 
-version 
-of 
-the 
-Jargon 
+the
+ﬁrst
+version
+of
+the
+Jargon
 File
-(http://www.tuxedo.org/jargon) developed as a cross-net collabo-
-ration during 1973–1975. This slang dictionary became one of the
+(http://www.tuxedo.org/jargon) developed as a cross-net collaboration during 1973–1975. This slang dictionary became one of the
 culture’s deﬁning documents. It was eventually published as The
 Hacker’s Dictionary in 1983; that ﬁrst version is out of print, but
 a revised and expanded version is The New Hacker’s Dictionary,
 MIT Press, 3rd edition 1996, ISBN 0-262-68092-0 .
-Hackerdom ﬂowered at the universities connected to the net, espe-
-cially (though not exclusively) in their computer science depart-
-ments. MIT’s AI and LCS labs made it ﬁrst among equals from the
-late 1960s. But Stanford University’s Artiﬁcial Intelligence Labora-
-tory (SAIL) and Carnegie-Mellon University (CMU) became
-nearly yas important. All were thriving centers of computer sci-
-ence and AI research. All attracted bright people who contributed
-great things to the hacker culture, on both the technical and folk-
-loric levels.
+Hackerdom ﬂowered at the universities connected to the net, especially (though not exclusively) in their computer science departments. MIT’s AI and LCS labs made it ﬁrst among equals from the
+late 1960s. But Stanford University’s Artiﬁcial Intelligence Laboratory (SAIL) and Carnegie-Mellon University (CMU) became
+nearly yas important. All were thriving centers of computer science and AI research. All attracted bright people who contributed
+great things to the hacker culture, on both the technical and folkloric levels.
 To understand what came later, though, we need to take another
 look at the computers themselves, because the AI Lab’s rise and its
 eventual fall were both driven by waves of change in computing
 technology.
 Since the days of the PDP-1, hackerdom’s fortunes had been
 woven together with Digital Equipment Corporation’s PDP series
-of minicomputers. DEC pioneered commercial interactive comput-
-ing and time-sharing operating systems. Because their machines
+of minicomputers. DEC pioneered commercial interactive computing and time-sharing operating systems. Because their machines
 were ﬂexible, powerful, and relatively cheap for the era, lots of
 universities bought them.
 A Brief History of Hackerdom
-5
-
 
 The Cathedral and the Bazaar
 Cheap time-sharing was the medium the hacker culture grew in,
 and for most of its lifespan the ARPAnet was primarily a network
 of DEC machines. The most important of these was the PDP-10,
 ﬁrst released in 1967. The 10 remained hackerdom’s favorite
-machine for almost ﬁfteen years; TOPS-10 (DEC’s operating sys-
-tem for the machine) and MACRO-10 (its assembler) are still
+machine for almost ﬁfteen years; TOPS-10 (DEC’s operating system for the machine) and MACRO-10 (its assembler) are still
 remembered with nostalgic fondness in a great deal of slang and
 folklore.
 MIT, though it used the same PDP-10s as everyone else, took a
@@ -440,12 +384,10 @@ one a pretty good ﬁx on the MIT hackers’ attitude. They wanted it
 their way. Fortunately for all, MIT’s people had the intelligence to
 match their arrogance. ITS, quirky and eccentric and occasionally
 buggy though it always was, hosted a brilliant series of technical
-innovations and still arguably holds the record as the single time-
-sharing system in longest continuous use.
+innovations and still arguably holds the record as the single timesharing system in longest continuous use.
 ITS itself was written in assembler, but many ITS projects were
 written in the AI language LISP. LISP was far more powerful and
-ﬂexible than any other language of its day; in fact, it is still a bet-
-ter design than most languages of today, 25 years later. LISP freed
+ﬂexible than any other language of its day; in fact, it is still a better design than most languages of today, 25 years later. LISP freed
 ITS’s hackers to think in unusual and creative ways. It was a
 major factor in their successes, and remains one of hackerdom’s
 favorite languages.
@@ -453,12 +395,9 @@ Many of the ITS culture’s technical creations are still alive today;
 the EMACS program editor is perhaps the best-known. And much
 of ITS’s folklore is still ‘live’ to hackers, as one can see in the
 Jargon File (http://www.tuxedo.org/jargon).
-SAIL and CMU weren’t asleep, either. Many of the cadre of hack-
-ers that grew up around SAIL’s PDP-10 later became key ﬁgures in
+SAIL and CMU weren’t asleep, either. Many of the cadre of hackers that grew up around SAIL’s PDP-10 later became key ﬁgures in
 the development of the personal computer and today’s window/
 icon/mouse software interfaces. Meanwhile hackers at CMU were
-6
-
 
 doing the work that would lead to the ﬁrst practical large-scale
 applications of expert systems and industrial robotics.
@@ -468,14 +407,11 @@ the early 1970s into the mid-1980s, PARC yielded an astonishing
 volume of groundbreaking hardware and software innovations.
 The modern mice, windows, and icons style of software interface
 was invented there. So were the laser printer and the local-area
-network; and PARC’s series of D machines anticipated the power-
-ful personal computers of the 1980s by a decade. Sadly, these
+network; and PARC’s series of D machines anticipated the powerful personal computers of the 1980s by a decade. Sadly, these
 prophets were without honor in their own company; so much so
-that it became a standard joke to describe PARC as a place char-
-acterized by developing brilliant ideas for everyone else. Their
+that it became a standard joke to describe PARC as a place characterized by developing brilliant ideas for everyone else. Their
 inﬂuence on hackerdom was pervasive.
-The ARPAnet and the PDP-10 cultures grew in strength and vari-
-ety throughout the 1970s. The facilities for electronic mailing lists
+The ARPAnet and the PDP-10 cultures grew in strength and variety throughout the 1970s. The facilities for electronic mailing lists
 that had been used to foster cooperation among continent-wide
 special-interest groups were increasingly also used for more social
 and recreational purposes. DARPA deliberately turned a blind eye
@@ -485,17 +421,13 @@ generation of bright young people into the computing ﬁeld.
 Perhaps the best-known of the ‘social’ ARPAnet mailing lists was
 the SF-LOVERS list for science-ﬁction fans; it is still very much
 alive today, in fact, on the larger ‘Internet’ that ARPAnet evolved
-into. But there were many others, pioneering a style of communi-
-cation that would later be commercialized by for-proﬁt time-shar-
-ing services like CompuServe, GEnie, and Prodigy (and later still
+into. But there were many others, pioneering a style of communication that would later be commercialized by for-proﬁt time-sharing services like CompuServe, GEnie, and Prodigy (and later still
 dominated by AOL).
 Your historian ﬁrst became involved with the hacker culture in
 1977 through the early ARPAnet and science-ﬁction fandom.
 From then onward, I personally witnessed and participated in
 many of the changes described here.
 A Brief History of Hackerdom
-7
-
 
 The Cathedral and the Bazaar
 The Rise of Unix
@@ -513,8 +445,7 @@ was to make using Multics from the outside (and programming
 for it!) much simpler, so that more real work could get done.
 Bell Labs pulled out of the project when Multics displayed signs of
 bloating into an unusable white elephant (the system was later
-marketed commercially by Honeywell but never became a suc-
-cess). Ken Thompson missed the Multics environment, and began
+marketed commercially by Honeywell but never became a success). Ken Thompson missed the Multics environment, and began
 to play at implementing a mixture of its ideas and some of his
 own on a scavenged DEC PDP-7.
 Another hacker named Dennis Ritchie invented a new language
@@ -524,18 +455,14 @@ in these tools spread at Bell Labs, and they got a boost in 1971
 when Thompson and Ritchie won a bid to produce what we’d
 now call an ofﬁce automation system for internal use there. But
 Thompson & Ritchie had their eye on a bigger prize.
-Traditionally, operating systems had been written in tight assem-
-bler to extract the absolute highest efﬁciency possible out of their
+Traditionally, operating systems had been written in tight assembler to extract the absolute highest efﬁciency possible out of their
 host machines. Thompson and Ritchie were among the ﬁrst to
 realize that hardware and compiler technology had become good
 enough that an entire operating system could be written in C, and
 by 1978 the whole environment had been successfully ported to
 several machines of different types.
-8
 
-
-This had never been done before, and the implications were enor-
-mous. If Unix could present the same face, the same capabilities,
+This had never been done before, and the implications were enormous. If Unix could present the same face, the same capabilities,
 on machines of many different types, it could serve as a common
 software environment for all of them. No longer would users have
 to pay for complete new designs of software every time a machine
@@ -556,8 +483,7 @@ of any formal support program for it. By 1980 it had spread to a
 large number of university and research computing sites, and
 thousands of hackers considered it home.
 The workhorse machines of the early Unix culture were the
-PDP-11 and its descendant, the VAX. But because of Unix’s porta-
-bility, it ran essentially unaltered on a wider range of machines
+PDP-11 and its descendant, the VAX. But because of Unix’s portability, it ran essentially unaltered on a wider range of machines
 than one could ﬁnd on the entire ARPAnet. And nobody used
 assembler; C programs were readily portable among all these
 machines.
@@ -568,8 +494,6 @@ this capability was built into the system, not an optional extra. In
 1980 the ﬁrst Usenet sites began exchanging broadcast news,
 forming a gigantic distributed bulletin board that would quickly
 A Brief History of Hackerdom
-9
-
 
 The Cathedral and the Bazaar
 grow bigger than ARPAnet. Unix sites began to form a network
@@ -581,8 +505,7 @@ to consider the Unix crowd a bunch of upstarts, using tools that
 looked ridiculously primitive when set against the baroque, lovely
 complexities of LISP and ITS. ‘‘Stone knives and bearskins!’’ they
 muttered.
-And there was yet a third current ﬂowing. The ﬁrst personal com-
-puter had been marketed in 1975; Apple was founded in 1977,
+And there was yet a third current ﬂowing. The ﬁrst personal computer had been marketed in 1975; Apple was founded in 1977,
 and advances came with almost unbelievable rapidity in the years
 that followed. The potential of microcomputers was clear, and
 attracted yet another generation of bright young hackers. Their
@@ -598,14 +521,10 @@ of early microcomputer enthusiasts bent on taking computer
 power to the people.
 Among these, the ITS culture could still claim pride of place. But
 stormclouds were gathering over the Lab. The PDP-10 technology
-ITS depended on was aging, and the Lab itself was split into fac-
-tions by the ﬁrst attempts to commercialize artiﬁcial intelligence.
+ITS depended on was aging, and the Lab itself was split into factions by the ﬁrst attempts to commercialize artiﬁcial intelligence.
 Some of the Lab’s (and SAIL’s and CMU’s) best were lured away
 to high-paying jobs at startup companies.
-The death blow came in 1983, when DEC cancelled its Jupiter fol-
-low-on to the PDP-10 in order to concentrate on the PDP-11 and
-10
-
+The death blow came in 1983, when DEC cancelled its Jupiter follow-on to the PDP-10 in order to concentrate on the PDP-11 and
 
 VAX lines. ITS no longer had a future. Because it wasn’t portable,
 it was more effort than anyone could afford to move ITS to new
@@ -614,40 +533,30 @@ became the hacking system par excellence, and anyone with an eye
 on the future could see that microcomputers were growing in
 power so rapidly that they were likely to sweep all before them.
 It’s around this time that Levy wrote Hackers. One of his prime
-informants was Richard M. Stallman (inventor of Emacs), a lead-
-ing ﬁgure at the Lab and its most fanatical holdout against the
+informants was Richard M. Stallman (inventor of Emacs), a leading ﬁgure at the Lab and its most fanatical holdout against the
 commercialization of Lab technology.
 Stallman (who is usually known by his initials and login name,
 RMS) went on to form the Free Software Foundation and dedicate
 himself to producing high-quality free software. Levy eulogized
 him as ‘‘the last true hacker’’, a description which happily proved
 incorrect.
-Stallman’s grandest scheme neatly epitomized the transition hack-
-erdom underwent in the early eighties—in 1982 he began the con-
-struction of an entire clone of Unix, written in C and available for
-free. His project was known as the GNU (Gnu’s Not Unix) operat-
-ing system, in a kind of recursive acronym. GNU quickly became
+Stallman’s grandest scheme neatly epitomized the transition hackerdom underwent in the early eighties—in 1982 he began the construction of an entire clone of Unix, written in C and available for
+free. His project was known as the GNU (Gnu’s Not Unix) operating system, in a kind of recursive acronym. GNU quickly became
 a major focus for hacker activity. Thus, the spirit and tradition of
 ITS was preserved as an important part of the newer, Unix and
 VAX-centered hacker culture.
-Indeed, for more than a decade after its founding RMS’s Free Soft-
-ware Foundation would largely deﬁne the public ideology of the
+Indeed, for more than a decade after its founding RMS’s Free Software Foundation would largely deﬁne the public ideology of the
 hacker culture, and Stallman himself would be the only credible
 claimant to leadership of the tribe.
-It was also around 1982–83 that microchip and local-area net-
-work technology began to have a serious impact on hackerdom.
+It was also around 1982–83 that microchip and local-area network technology began to have a serious impact on hackerdom.
 Ethernet and the Motorola 68000 microchip made a potentially
 potent combination, and several different startups had been
-formed to build the ﬁrst generation of what we now call work-
-stations.
+formed to build the ﬁrst generation of what we now call workstations.
 A Brief History of Hackerdom
-11
-
 
 The Cathedral and the Bazaar
 In 1982, a group of Unix hackers from Stanford and Berkeley
-founded Sun Microsystems on the belief that Unix running on rel-
-atively inexpensive 68000-based hardware would prove a winning
+founded Sun Microsystems on the belief that Unix running on relatively inexpensive 68000-based hardware would prove a winning
 combination for a wide variety of applications. They were right,
 and their vision set the pattern for an entire industry. While still
 priced out of reach of most individuals, workstations were cheap
@@ -657,29 +566,22 @@ The Proprietary-Unix Era
 By 1984, when Ma Bell divested and Unix became a supported
 AT&T product for the ﬁrst time, the most important fault line in
 hackerdom was between a relatively cohesive ‘network nation’
-centered around the Internet and Usenet (and mostly using mini-
-computer- or workstation-class machines running Unix), and a
+centered around the Internet and Usenet (and mostly using minicomputer- or workstation-class machines running Unix), and a
 vast disconnected hinterland of microcomputer enthusiasts.
 It was also around this time that serious cracking episodes were
 ﬁrst covered in the mainstream press—and journalists began to
 misapply the term ‘‘hacker’’ to refer to computer vandals, an abuse
 which sadly continues to this day.
 The workstation-class machines built by Sun and others opened
-up new worlds for hackers. They were built to do high-perfor-
-mance graphics and pass around shared data over a network. Dur-
-ing the 1980s hackerdom was preoccupied by the software and
-tool-building challenges of getting the most use out of these fea-
-tures. Berkeley Unix developed built-in support for the ARPAnet
+up new worlds for hackers. They were built to do high-performance graphics and pass around shared data over a network. During the 1980s hackerdom was preoccupied by the software and
+tool-building challenges of getting the most use out of these features. Berkeley Unix developed built-in support for the ARPAnet
 protocols, which offered a solution to the networking problems
 associated with UUCP’s slow point-to-point links and encouraged
 further growth of the Internet.
 There were several attempts to tame workstation graphics. The
 one that prevailed was the X Window System, developed at MIT
-with contributions from hundreds of individuals at dozens of com-
-panies. A critical factor in its success was that the X developers
+with contributions from hundreds of individuals at dozens of companies. A critical factor in its success was that the X developers
 were willing to give the sources away for free in accordance with
-12
-
 
 the hacker ethic, and able to distribute them over the Internet. X’s
 victory over proprietary graphics systems (including one offered
@@ -688,11 +590,9 @@ years later, would profoundly affect Unix as a whole.
 There was a bit of factional spleen still vented occasionally in the
 ITS/Unix rivalry (mostly from the ex-ITSers’ side). But the last ITS
 machine shut down for good in 1990; the zealots no longer had a
-place to stand and mostly assimilated to the Unix culture with var-
-ious degrees of grumbling.
+place to stand and mostly assimilated to the Unix culture with various degrees of grumbling.
 Within networked hackerdom itself, the big rivalry of the 1980s
-was between fans of Berkeley Unix and the AT&T versions. Occa-
-sionally you can still ﬁnd copies of a poster from that period,
+was between fans of Berkeley Unix and the AT&T versions. Occasionally you can still ﬁnd copies of a poster from that period,
 showing a cartoony X-wing ﬁghter out of the ‘‘Star Wars’’ movies
 streaking away from an exploding Death Star patterned on the
 AT&T logo. Berkeley hackers liked to see themselves as rebels
@@ -701,8 +601,7 @@ with BSD/Sun in the marketplace, but it won the standards wars.
 By 1990, AT&T and BSD versions were becoming harder to tell
 apart, having adopted many of each other’s innovations.
 As the 1990s opened, the workstation technology of the previous
-decade was beginning to look distinctly threatened by newer, low-
-cost and high-performance personal computers based on the Intel
+decade was beginning to look distinctly threatened by newer, lowcost and high-performance personal computers based on the Intel
 386 chip and its descendants. For the ﬁrst time, individual hackers
 could afford to have home machines comparable in power and
 storage capacity to the minicomputers of ten years earlier—Unix
@@ -716,63 +615,47 @@ never became a self-aware of their culture. The pace of change
 was so fast that ﬁfty different technical cultures grew and died as
 rapidly as mayﬂies, never achieving quite the stability necessary to
 A Brief History of Hackerdom
-13
-
 
 The Cathedral and the Bazaar
-develop a common tradition of jargon, folklore, and mythic his-
-tory. The absence of a really pervasive network comparable to
+develop a common tradition of jargon, folklore, and mythic history. The absence of a really pervasive network comparable to
 UUCP or Internet prevented them from becoming a network
 nation themselves.
 Widespread access to commercial online services like CompuServe
 and GEnie was beginning to take hold, but the fact that non-Unix
 operating systems don’t come bundled with development tools
-meant that very little source was passed over them. Thus, no tradi-
-tion of collaborative hacking developed.
+meant that very little source was passed over them. Thus, no tradition of collaborative hacking developed.
 The mainstream of hackerdom, (dis)organized around the Internet
 and by now largely identiﬁed with the Unix technical culture,
 didn’t care about the commercial services. These hackers wanted
 better tools and more Internet, and cheap 32-bit PCs promised to
 put both in everyone’s reach.
-But where was the software? Commercial Unixes remained expen-
-sive, in the multiple-kilobuck range. In the early 1990s several
-companies made a go at selling AT&T or BSD Unix ports for PC-
-class machines. Success was elusive, prices didn’t come down
-much, and (worst of all) you didn’t get modiﬁable and redis-
-tributable sources with your operating system. The traditional
+But where was the software? Commercial Unixes remained expensive, in the multiple-kilobuck range. In the early 1990s several
+companies made a go at selling AT&T or BSD Unix ports for PCclass machines. Success was elusive, prices didn’t come down
+much, and (worst of all) you didn’t get modiﬁable and redistributable sources with your operating system. The traditional
 software-business model wasn’t giving hackers what they wanted.
 Neither was the Free Software Foundation. The development of
 HURD, RMS’s long-promised free Unix kernel for hackers, got
-stalled for years and failed to produce anything like a usable ker-
-nel until 1996 (though by 1990 FSF supplied almost all the other
+stalled for years and failed to produce anything like a usable kernel until 1996 (though by 1990 FSF supplied almost all the other
 difﬁcult parts of a Unix-like operating system).
 Worse, by the early 1990s it was becoming clear that ten years of
 effort to commercialize proprietary Unix was ending in failure.
 Unix’s promise of cross-platform portability got lost in bickering
-among half a dozen proprietary Unix versions. The proprietary-
-Unix players proved so ponderous, so blind, and so inept at mar-
-keting that Microsoft was able to grab away a large part of their
-14
-
+among half a dozen proprietary Unix versions. The proprietaryUnix players proved so ponderous, so blind, and so inept at marketing that Microsoft was able to grab away a large part of their
 
 market with the shockingly inferior technology of its Windows
 operating system.
 In early 1993, a hostile observer might have had grounds for
 thinking that the Unix story was almost played out, and with it
-the fortunes of the hacker tribe. And there was no shortage of hos-
-tile observers in the computer trade press, many of whom had
+the fortunes of the hacker tribe. And there was no shortage of hostile observers in the computer trade press, many of whom had
 been ritually predicting the imminent death of Unix at six-month
 intervals ever since the late 1970s.
-In those days it was conventional wisdom that the era of individ-
-ual techno-heroism was over, that the software industry and the
+In those days it was conventional wisdom that the era of individual techno-heroism was over, that the software industry and the
 nascent Internet would increasingly be dominated by colossi like
-Microsoft. The ﬁrst generation of Unix hackers seemed to be get-
-ting old and tired (Berkeley’s Computer Science Research Group
+Microsoft. The ﬁrst generation of Unix hackers seemed to be getting old and tired (Berkeley’s Computer Science Research Group
 ran out of steam and would lose its funding in 1994). It was a
 depressing time.
 Fortunately, there had been things going on out of sight of the
-trade press, and out of sight even of most hackers, that would pro-
-duce startlingly positive developments in later 1993 and 1994.
+trade press, and out of sight even of most hackers, that would produce startlingly positive developments in later 1993 and 1994.
 Eventually, these would take the culture in a whole new direction
 and to undreamed-of successes.
 The Early Free Unixes
@@ -788,8 +671,6 @@ with Linus Torvalds’s early experiments, William and Lynne Jolitz
 were experimentally porting the BSD Unix sources to the 386.
 Most observers comparing BSD technology with Linus’s crude
 A Brief History of Hackerdom
-15
-
 
 The Cathedral and the Bazaar
 early efforts expected that BSD ports would become the most
@@ -813,42 +694,32 @@ selection on the mutations introduced by developers. To the
 amazement of almost everyone, this worked quite well.
 By late 1993 Linux could compete on stability and reliability with
 many commercial Unixes, and hosted vastly more software. It was
-even beginning to attract ports of commercial applications soft-
-ware. One indirect effect of this development was to kill off most
+even beginning to attract ports of commercial applications software. One indirect effect of this development was to kill off most
 of the smaller proprietary Unix vendors—without developers and
 hackers to sell to, they folded. One of the few survivors, BSDI
 (Berkeley Systems Design, Incorporated), ﬂourished by offering
 full sources with its BSD-based Unix and cultivating close ties with
 the hacker community.
 These developments were not much remarked on at the time
-within the hacker culture, and not at all outside it. The hacker cul-
-ture, defying repeated predictions of its demise, was just beginning
+within the hacker culture, and not at all outside it. The hacker culture, defying repeated predictions of its demise, was just beginning
 to remake the commercial-software world in its own image. It
 would be ﬁve more years, however, before this trend became
 obvious.
-16
-
 
 The Great Web Explosion
 The early growth of Linux synergized with another phenomenon:
 the public discovery of the Internet. The early 1990s also saw the
-beginnings of a ﬂourishing Internet-provider industry, selling con-
-nectivity to the public for a few dollars a month. Following the
+beginnings of a ﬂourishing Internet-provider industry, selling connectivity to the public for a few dollars a month. Following the
 invention of the World Wide Web, the Internet’s already rapid
 growth accelerated to a breakneck pace.
 By 1994, the year Berkeley’s Unix development group formally
 shut down, several different free Unix versions (Linux and the
-descendants of 386BSD) served as the major focal points of hack-
-ing activity. Linux was being distributed commercially on CD-
-ROM and selling like hotcakes. By the end of 1995, major com-
-puter companies were beginning to take out glossy advertisements
-celebrating the Internet-friendliness of their software and hard-
-ware!
+descendants of 386BSD) served as the major focal points of hacking activity. Linux was being distributed commercially on CDROM and selling like hotcakes. By the end of 1995, major computer companies were beginning to take out glossy advertisements
+celebrating the Internet-friendliness of their software and hardware!
 In the late 1990s the central activities of hackerdom became Linux
 development and the mainstreaming of the Internet. The World
 Wide Web has at last made the Internet into a mass medium, and
-many of the hackers of the 1980s and early 1990s launched Inter-
-net Service Providers selling or giving access to the masses.
+many of the hackers of the 1980s and early 1990s launched Internet Service Providers selling or giving access to the masses.
 The mainstreaming of the Internet even brought the hacker culture
 the beginnings of respectability and political clout. In 1994 and
 1995 hacker activism scuppered the Clipper proposal which
@@ -861,29 +732,20 @@ We also pass into a period in which your historian (rather to his
 own surprise) became an actor rather than just an observer. This
 narrative will continue in Revenge of the Hackers.
 A Brief History of Hackerdom
-17
-
 
 The Cathedral and the Bazaar
 ✦✦✦
 I anatomize a successful open-source project, fetchmail,
 that was run as a deliberate test of the surprising theories
 about software engineering suggested by the history of
-Linux. I discuss these theories in terms of two fundamen-
-tally different development styles, the ‘cathedral’ model of
+Linux. I discuss these theories in terms of two fundamentally different development styles, the ‘cathedral’ model of
 most of the commercial world versus the ‘bazaar’ model
 of the Linux world. I show that these models derive from
-opposing assumptions about the nature of the software-
-debugging task. I then make a sustained argument from
+opposing assumptions about the nature of the softwaredebugging task. I then make a sustained argument from
 the Linux experience for the proposition that ‘‘Gi ven
 enough eyeballs, all bugs are shallow’’, suggest productive
 analogies with other self-correcting systems of selﬁsh
-agents, and conclude with some exploration of the impli-
-cations of this insight for the future of software.
-19
-
-
-
+agents, and conclude with some exploration of the implications of this insight for the future of software.
 
 The Cathedral and the Bazaar
 Linux is subversive. Who would have thought even ﬁve years ago
@@ -894,8 +756,7 @@ strands of the Internet?
 Certainly not I. By the time Linux swam onto my radar screen in
 early 1993, I had already been involved in Unix and open-source
 development for 10 years. I was one of the ﬁrst GNU contributors
-in the mid-1980s. I had released a good deal of open-source soft-
-ware onto the Net, developing or co-developing several programs
+in the mid-1980s. I had released a good deal of open-source software onto the Net, developing or co-developing several programs
 (nethack, Emacs’s VC and GUD modes, xlife, and others) that are
 still in wide use today. I thought I knew how it was done.
 Linux overturned much of what I thought I knew. I had been
@@ -908,51 +769,38 @@ programming editor) needed to be built like cathedrals, carefully
 crafted by individual wizards or small bands of mages working in
 splendid isolation, with no beta to be released before its time.
 Linus Torvalds’s style of development—release early and often,
-delegate everything you can, be open to the point of promiscu-
-ity — came as a surprise. No quiet, reverent cathedral-building
+delegate everything you can, be open to the point of promiscuity — came as a surprise. No quiet, reverent cathedral-building
 here — rather, the Linux community seemed to resemble a great
-babbling bazaar of differing agendas and approaches (aptly sym-
-bolized by the Linux archive sites, which would take submissions
+babbling bazaar of differing agendas and approaches (aptly symbolized by the Linux archive sites, which would take submissions
 The Cathedral and the Bazaar
-21
-
 
 The Cathedral and the Bazaar
 from anyone) out of which a coherent and stable system could
 seemingly emerge only by a succession of miracles.
 The fact that this bazaar style seemed to work, and work well,
 came as a distinct shock. As I learned my way around, I worked
-hard not just at individual projects, but also at trying to under-
-stand why the Linux world not only didn’t ﬂy apart in confusion
-but seemed to go from strength to strength at a speed barely imag-
-inable to cathedral-builders.
+hard not just at individual projects, but also at trying to understand why the Linux world not only didn’t ﬂy apart in confusion
+but seemed to go from strength to strength at a speed barely imaginable to cathedral-builders.
 By mid-1996 I thought I was beginning to understand. Chance
 handed me a perfect way to test my theory, in the form of an
 open-source project that I could consciously try to run in the
 bazaar style. So I did—and it was a signiﬁcant success.
-This is the story of that project. I’ll use it to propose some apho-
-risms about effective open-source development. Not all of these
+This is the story of that project. I’ll use it to propose some aphorisms about effective open-source development. Not all of these
 are things I ﬁrst learned in the Linux world, but we’ll see how the
 Linux world gives them particular point. If I’m correct, they’ll
-help you understand exactly what it is that makes the Linux com-
-munity such a fountain of good software—and, perhaps, they will
+help you understand exactly what it is that makes the Linux community such a fountain of good software—and, perhaps, they will
 help you become more productive yourself.
 The Mail Must Get Through
-Since 1993 I’d been running the technical side of a small free-
-access Internet service provider called Chester County InterLink
+Since 1993 I’d been running the technical side of a small freeaccess Internet service provider called Chester County InterLink
 (CCIL) in West Chester, Pennsylvania. I co-founded CCIL and
 wrote our unique multiuser bulletin-board software—you can
 check it out by telnetting to locke.ccil.org. Today it supports
 almost 3000 users on 30 lines. The job allowed me 24-hour-a-day
-access to the net through CCIL’s 56K line—in fact, the job practi-
-cally demanded it!
-22
-
+access to the net through CCIL’s 56K line—in fact, the job practically demanded it!
 
 I had gotten quite used to instant Internet email. I found having to
 periodically telnet over to locke to check my mail annoying. What
-I wanted was for my mail to be delivered on snark (my home sys-
-tem) so that I would be notiﬁed when it arrived and could handle
+I wanted was for my mail to be delivered on snark (my home system) so that I would be notiﬁed when it arrived and could handle
 it using all my local tools.
 The Internet’s native mail forwarding protocol, SMTP (Simple
 Mail Transfer Protocol), wouldn’t suit, because it works best when
@@ -977,14 +825,10 @@ got to be a serious pain.
 This was clearly something the computer ought to be doing for
 me. But none of the existing POP clients knew how! And this
 brings us to the ﬁrst lesson:
-1. Every good work of software starts by scratch-
-ing a developer’s personal itch.
+1. Every good work of software starts by scratching a developer’s personal itch.
 Perhaps this should have been obvious (it’s long been proverbial
-that ‘‘Necessity is the mother of invention’’), but too often soft-
-ware developers spend their days grinding away for pay at
+that ‘‘Necessity is the mother of invention’’), but too often software developers spend their days grinding away for pay at
 The Cathedral and the Bazaar
-23
-
 
 The Cathedral and the Bazaar
 programs they neither need nor love. But not in the Linux
@@ -992,8 +836,7 @@ world — which may explain why the average quality of software
 originated in the Linux community is so high.
 So, did I immediately launch into a furious whirl of coding up a
 brand-new POP3 client to compete with the existing ones? Not on
-your life! I looked carefully at the POP utilities I had in hand, ask-
-ing myself ‘‘Which one is closest to what I want?’’ Because:
+your life! I looked carefully at the POP utilities I had in hand, asking myself ‘‘Which one is closest to what I want?’’ Because:
 2. Good programmers know what to write. Great
 ones know what to rewrite (and reuse).
 While I don’t claim to be a great programmer, I try to imitate one.
@@ -1001,8 +844,7 @@ An important trait of the great ones is constructive laziness. They
 know that you get an A not for effort but for results, and that it’s
 almost always easier to start from a good partial solution than
 from nothing at all.
-Linus Torvalds (http://www.tuxedo.org/ ˜esr/faqs/linus), for exam-
-ple, didn’t actually try to write Linux from scratch. Instead, he
+Linus Torvalds (http://www.tuxedo.org/ ˜esr/faqs/linus), for example, didn’t actually try to write Linux from scratch. Instead, he
 started by reusing code and ideas from Minix, a tiny Unix-like
 operating system for PC clones. Eventually all the Minix code
 went away or was completely rewritten—but while it was there, it
@@ -1016,35 +858,27 @@ a base OS, in spite of serious reservations about the OS itself). The
 Linux world has taken this tradition nearly to its technological
 limit; it has terabytes of open sources generally available. So
 spending time looking for someone else’s almost-good-enough is
-more likely to give you good results in the Linux world than any-
-where else.
+more likely to give you good results in the Linux world than anywhere else.
 And it did for me. With those I’d found earlier, my second search
 made up a total of nine candidates—fetchpop, PopTart, get-mail,
-24
-
 
 gwpop, pimp, pop-perl, popc, popmail and upop. The one I ﬁrst
-settled on was ‘fetchpop’ by Seung-Hong Oh. I put my header-
-rewrite feature in it, and made various other improvements that
+settled on was ‘fetchpop’ by Seung-Hong Oh. I put my headerrewrite feature in it, and made various other improvements that
 the author accepted into his 1.9 release.
 Just a few weeks later, though, I stumbled across the code for
 popclient by Carl Harris, and found I had a problem. Though
-fetchpop had some good original ideas in it (such as its back-
-ground-daemon mode), it could only handle POP3 and was rather
+fetchpop had some good original ideas in it (such as its background-daemon mode), it could only handle POP3 and was rather
 amateurishly coded (Seung-Hong was at that time a bright but
 inexperienced programmer, and both traits showed). Carl’s code
 was better, quite professional and solid, but his program lacked
-several important and rather tricky-to-implement fetchpop fea-
-tures (including those I’d coded myself).
+several important and rather tricky-to-implement fetchpop features (including those I’d coded myself).
 Stay or switch? If I switched, I’d be throwing away the coding I’d
 already done in exchange for a better development base.
 A practical motive to switch was the presence of multiple-protocol
 support. POP3 is the most commonly used of the post-ofﬁce server
-protocols, but not the only one. Fetchpop and the other competi-
-tion didn’t do POP2, RPOP, or APOP, and I was already having
+protocols, but not the only one. Fetchpop and the other competition didn’t do POP2, RPOP, or APOP, and I was already having
 vague thoughts of perhaps adding IMAP (Internet Message Access
-Protocol, the most recently designed and most powerful post-
-ofﬁce protocol, http://www.imap.org) just for fun.
+Protocol, the most recently designed and most powerful postofﬁce protocol, http://www.imap.org) just for fun.
 But I had a more theoretical reason to think switching might be as
 good an idea as well, something I learned long before Linux.
 3. ‘‘Plan to throw one awa y; you will, anyhow. ’ ’
@@ -1056,32 +890,24 @@ want to get it right, be ready to start over at least once.1
 Well (I told myself) the changes to fetchpop had been my ﬁrst try.
 So I switched.
 The Cathedral and the Bazaar
-25
-
 
 The Cathedral and the Bazaar
 After I sent my ﬁrst set of popclient patches to Carl Harris on 25
 June 1996, I found out that he had basically lost interest in
 popclient some time before. The code was a bit dusty, with minor
 bugs hanging out. I had many changes to make, and we quickly
-agreed that the logical thing for me to do was take over the pro-
-gram.
+agreed that the logical thing for me to do was take over the program.
 Without my actually noticing, the project had escalated. No
 longer was I just contemplating minor patches to an existing POP
 client. I took on maintaining an entire one, and there were ideas
 bubbling in my head that I knew would probably lead to major
 changes.
-In a software culture that encourages code-sharing, this is a natu-
-ral way for a project to evolve. I was acting out this principle:
-4. If you have the right attitude, interesting prob-
-lems will ﬁnd you.
-But Carl Harris’s attitude was even more important. He under-
-stood that:
+In a software culture that encourages code-sharing, this is a natural way for a project to evolve. I was acting out this principle:
+4. If you have the right attitude, interesting problems will ﬁnd you.
+But Carl Harris’s attitude was even more important. He understood that:
 5. When you lose interest in a program, your last
-duty to it is to hand it off to a competent suc-
-cessor.
-Without ever having to discuss it, Carl and I knew we had a com-
-mon goal of having the best solution out there. The only question
+duty to it is to hand it off to a competent successor.
+Without ever having to discuss it, Carl and I knew we had a common goal of having the best solution out there. The only question
 for either of us was whether I could establish that I was a safe pair
 of hands. Once I did that, he acted with grace and dispatch. I hope
 I will do as well when it comes my turn.
@@ -1091,8 +917,6 @@ popclient’s user base. Users are wonderful things to have, and not
 just because they demonstrate that you’re serving a need, that
 you’ve done something right. Properly cultivated, they can become
 co-developers.
-26
-
 
 Another strength of the Unix tradition, one that Linux pushes to a
 happy extreme, is that a lot of users are hackers too. Because
@@ -1106,13 +930,11 @@ least-hassle route to rapid code improvement
 and effective debugging.
 The power of this effect is easy to underestimate. In fact, pretty
 well all of us in the open-source world drastically underestimated
-how well it would scale up with number of users and against sys-
-tem complexity, until Linus Torvalds showed us differently.
+how well it would scale up with number of users and against system complexity, until Linus Torvalds showed us differently.
 In fact, I think Linus’s cleverest and most consequential hack was
 not the construction of the Linux kernel itself, but rather his
 invention of the Linux development model. When I expressed this
-opinion in his presence once, he smiled and quietly repeated some-
-thing he has often said: ‘‘I’m basically a very lazy person who likes
+opinion in his presence once, he smiled and quietly repeated something he has often said: ‘‘I’m basically a very lazy person who likes
 to get credit for things other people actually do.’’ Lazy like a fox.
 Or, as Robert Heinlein famously wrote of one of his characters,
 too lazy to fail.
@@ -1120,42 +942,33 @@ In retrospect, one precedent for the methods and success of Linux
 can be seen in the development of the GNU Emacs Lisp library
 and Lisp code archives. In contrast to the cathedral-building style
 of the Emacs C core and most other GNU tools, the evolution of
-the Lisp code pool was ﬂuid and very user-driven. Ideas and pro-
-totype modes were often rewritten three or four times before
+the Lisp code pool was ﬂuid and very user-driven. Ideas and prototype modes were often rewritten three or four times before
 reaching a stable ﬁnal form. And loosely-coupled collaborations
 enabled by the Internet, a la Linux, were frequent.
 Indeed, my own most successful single hack previous to fetchmail
-was probably Emacs VC (version control) mode, a Linux-like col-
-laboration by email with three other people, only one of whom
+was probably Emacs VC (version control) mode, a Linux-like collaboration by email with three other people, only one of whom
 (Richard Stallman, the author of Emacs and founder of the Free
 The Cathedral and the Bazaar
-27
-
 
 The Cathedral and the Bazaar
 Software Foundation, (http://www.fsf.org") I have met to this day.
 It was a front-end for SCCS, RCS, and later CVS from within
 Emacs that offered ‘‘one-touch’’ version control operations. It
-evolved from a tiny, crude sccs.el mode somebody else had writ-
-ten. And the development of VC succeeded because, unlike Emacs
-itself, Emacs Lisp code could go through release/test/improve gen-
-erations very quickly.
+evolved from a tiny, crude sccs.el mode somebody else had written. And the development of VC succeeded because, unlike Emacs
+itself, Emacs Lisp code could go through release/test/improve generations very quickly.
 The Emacs story is not unique. There have been other software
-products with a two-level architecture and a two-tier user commu-
-nity that combined a cathedral-mode core and a bazaar-mode
+products with a two-level architecture and a two-tier user community that combined a cathedral-mode core and a bazaar-mode
 toolbox. One such is MATLAB, a commercial data-analysis and
 visualization tool. Users of MATLAB and other products with a
 similar structure invariably report that the action, the ferment, the
 innovation mostly takes place in the open part of the tool where a
 large and varied community can tinker with it.
 Release Early, Release Often
-Early and frequent releases are a critical part of the Linux devel-
-opment model. Most developers (including me) used to believe
+Early and frequent releases are a critical part of the Linux development model. Most developers (including me) used to believe
 this was bad policy for larger than trivial projects, because early
 versions are almost by deﬁnition buggy versions and you don’t
 want to wear out the patience of your users.
-This belief reinforced the general commitment to a cathedral-
-building style of development. If the overriding objective was for
+This belief reinforced the general commitment to a cathedralbuilding style of development. If the overriding objective was for
 users to see as few bugs as possible, why then you’d only release a
 version every six months (or less often), and work like a dog on
 debugging between releases. The Emacs C core was developed this
@@ -1166,18 +979,14 @@ Emacs’s release cycle.2
 The most important of these, the Ohio State Emacs Lisp archive,
 anticipated the spirit and many of the features of today’s big
 Linux archives. But few of us really thought very hard about what
-28
-
 
 we were doing, or about what the very existence of that archive
-suggested about problems in the FSF’s cathedral-building develop-
-ment model. I made one serious attempt around 1992 to get a lot
+suggested about problems in the FSF’s cathedral-building development model. I made one serious attempt around 1992 to get a lot
 of the Ohio code formally merged into the ofﬁcial Emacs Lisp
 library. I ran into political trouble and was largely unsuccessful.
 But by a year later, as Linux became widely visible, it was clear
 that something different and much healthier was going on there.
-Linus’s open development policy was the very opposite of cathe-
-dral-building. Linux’s Internet archives were burgeoning, multiple
+Linus’s open development policy was the very opposite of cathedral-building. Linux’s Internet archives were burgeoning, multiple
 distributions were being ﬂoated. And all of this was driven by an
 unheard-of frequency of core system releases.
 Linus was treating his users as co-developers in the most effective
@@ -1196,20 +1005,15 @@ But how did it work? And was it something I could duplicate, or
 did it rely on some unique genius of Linus Torvalds?
 I didn’t think so. Granted, Linus is a damn ﬁne hacker. How many
 of us could engineer an entire production-quality operating system
-kernel from scratch? But Linux didn’t represent any awesome con-
-ceptual leap forward. Linus is not (or at least, not yet) an innova-
-tive genius of design in the way that, say, Richard Stallman or
+kernel from scratch? But Linux didn’t represent any awesome conceptual leap forward. Linus is not (or at least, not yet) an innovative genius of design in the way that, say, Richard Stallman or
 James Gosling (of NeWS and Java) are. Rather, Linus seems to me
 to be a genius of engineering and implementation, with a sixth
 sense for avoiding bugs and development dead-ends and a true
 The Cathedral and the Bazaar
-29
-
 
 The Cathedral and the Bazaar
 knack for ﬁnding the minimum-effort path from point A to point
-B. Indeed, the whole design of Linux breathes this quality and mir-
-rors Linus’s
+B. Indeed, the whole design of Linux breathes this quality and mirrors Linus’s
 essentially conservative and simplifying design
 approach.
 So, if rapid releases and leveraging the Internet medium to the hilt
@@ -1221,32 +1025,24 @@ hacker/users constantly stimulated and rewarded—stimulated by
 the prospect of having an ego-satisfying piece of the action,
 rewarded by the sight of constant (even daily) improvement in
 their work.
-Linus was directly aiming to maximize the number of person-
-hours thrown at debugging and development, even at the possible
+Linus was directly aiming to maximize the number of personhours thrown at debugging and development, even at the possible
 cost of instability in the code and user-base burnout if any serious
 bug proved intractable. Linus was behaving as though he believed
 something like this:
-8. Given a large enough beta-tester and co-devel-
-oper base, almost every problem will be charac-
-terized quickly and the ﬁx obvious to someone.
+8. Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the ﬁx obvious to someone.
 Or, less formally, ‘‘Given enough eyeballs, all bugs are shallow.’’ I
 dub this: ‘‘Linus’s Law’’.
-My original formulation was that every problem ‘‘will be transpar-
-ent to somebody’’. Linus demurred that the person who under-
-stands and ﬁxes the problem is not necessarily or even usually the
+My original formulation was that every problem ‘‘will be transparent to somebody’’. Linus demurred that the person who understands and ﬁxes the problem is not necessarily or even usually the
 person who ﬁrst characterizes it. ‘‘Somebody ﬁnds the problem,’’
 he says, ‘‘and somebody else understands it. And I’ll go on record
 as saying that ﬁnding it is the bigger challenge.’’ That correction is
 important; we’ll see how in the next section, when we examine the
 practice of debugging in more detail. But the key point is that both
 parts of the process (ﬁnding and ﬁxing) tend to happen rapidly.
-30
-
 
 In Linus’s Law, I think, lies the core difference underlying the
 cathedral-builder and bazaar styles. In the cathedral-builder view
-of programming, bugs and development problems are tricky, insid-
-ious, deep phenomena. It takes months of scrutiny by a dedicated
+of programming, bugs and development problems are tricky, insidious, deep phenomena. It takes months of scrutiny by a dedicated
 few to develop conﬁdence that you’ve winkled them all out. Thus
 the long release intervals, and the inevitable disappointment when
 long-awaited releases are not perfect.
@@ -1259,9 +1055,7 @@ effect you have less to lose if an occasional botch gets out the
 door.
 And that’s it. That’s enough. If ‘‘Linus’s Law’’ is false, then any
 system as complex as the Linux kernel, being hacked over by as
-many hands as that kernel was, should at some point have col-
-lapsed under the weight of unforseen bad interactions and undis-
-covered ‘‘deep’’ bugs. If it’s true, on the other hand, it is sufﬁcient
+many hands as that kernel was, should at some point have collapsed under the weight of unforseen bad interactions and undiscovered ‘‘deep’’ bugs. If it’s true, on the other hand, it is sufﬁcient
 to explain Linux’s relative lack of bugginess and its continuous
 uptimes spanning months or even years.
 Maybe it shouldn’t have been such a surprise, at that. Sociologists
@@ -1269,36 +1063,26 @@ years ago discovered that the averaged opinion of a mass of
 equally expert (or equally ignorant) observers is quite a bit more
 reliable a predictor than the opinion of a single randomly chosen
 observer. They called this the Delphi effect. It appears that what
-Linus has shown is that this applies even to debugging an operat-
-ing system—that the Delphi effect can tame development com-
-plexity even at the complexity level of an OS kernel.3
+Linus has shown is that this applies even to debugging an operating system—that the Delphi effect can tame development complexity even at the complexity level of an OS kernel.3
 One special feature of the Linux situation that clearly helps along
 the Delphi effect is the fact that the contributors for any given
-project are self-selected. An early respondent pointed out that con-
-tributions are received not from a random sample, but from peo-
-ple who are interested enough to use the software, learn about
+project are self-selected. An early respondent pointed out that contributions are received not from a random sample, but from people who are interested enough to use the software, learn about
 The Cathedral and the Bazaar
-31
-
 
 The Cathedral and the Bazaar
 how it works, attempt to ﬁnd solutions to problems they
 encounter, and actually produce an apparently reasonable ﬁx.
-Anyone who passes all these ﬁlters is highly likely to have some-
-thing useful to contribute.
+Anyone who passes all these ﬁlters is highly likely to have something useful to contribute.
 Linus’s Law can be rephrased as ‘‘Debugging is parallelizable’’.
 Although debugging requires debuggers to communicate with
-some coordinating developer, it doesn’t require signiﬁcant coordi-
-nation between debuggers. Thus it doesn’t fall prey to the same
+some coordinating developer, it doesn’t require signiﬁcant coordination between debuggers. Thus it doesn’t fall prey to the same
 quadratic complexity and management costs that make adding
 developers problematic.
 In practice, the theoretical loss of efﬁciency due to duplication of
 work by debuggers almost never seems to be an issue in the Linux
-world. One effect of a ‘‘release early and often’’ policy is to mini-
-mize such duplication by propagating fed-back ﬁxes quickly.4
+world. One effect of a ‘‘release early and often’’ policy is to minimize such duplication by propagating fed-back ﬁxes quickly.4
 Brooks (the author of The Mythical Man-Month) even made an
-off-hand observation related to Jeff’s: ‘‘The total cost of maintain-
-ing a widely used program is typically 40 percent or more of the
+off-hand observation related to Jeff’s: ‘‘The total cost of maintaining a widely used program is typically 40 percent or more of the
 cost of developing it. Surprisingly this cost is strongly affected by
 the number of users. More users ﬁnd more bugs.’’ [Emphasis
 added.]
@@ -1314,21 +1098,16 @@ So adding more beta-testers may not reduce the complexity of the
 current ‘‘deepest’’ bug from the developer’s point of view, but it
 increases the probability that someone’s toolkit will be matched to
 the problem in such a way that the bug is shallow to that person.
-32
-
 
 Linus coppers his bets, too. In case there are serious bugs, Linux
 kernel version are numbered in such a way that potential users can
 make a choice either to run the last version designated ‘‘stable’’ or
 to ride the cutting edge and risk bugs in order to get new features.
-This tactic is not yet systematically imitated by most Linux hack-
-ers, but perhaps it should be; the fact that either choice is available
+This tactic is not yet systematically imitated by most Linux hackers, but perhaps it should be; the fact that either choice is available
 makes both more attractive.5
 Many Eyeballs Tame Complexity
 It’s one thing to observe in the large that the bazaar style greatly
-accelerates debugging and code evolution. It’s another to under-
-stand exactly how and why it does so at the micro-level of day-to-
-day developer and tester behavior. In this section (written three
+accelerates debugging and code evolution. It’s another to understand exactly how and why it does so at the micro-level of day-today developer and tester behavior. In this section (written three
 years after the original paper, using insights by developers who
 read it and re-examined their own behavior) we’ll take a hard
 look at the actual mechanisms. Non-technically inclined readers
@@ -1351,35 +1130,28 @@ grounded in the actual source code and to communicate effectively
 about it. Practically, there is a huge difference in leverage for the
 developer between the kind of bug report that just reports
 The Cathedral and the Bazaar
-33
-
 
 The Cathedral and the Bazaar
 externally visible symptoms and the kind that hooks directly to
 the developer’s source-code–based mental representation of the
 program.
 Most bugs, most of the time, are easily nailed given even an
-incomplete but suggestive characterization of their error condi-
-tions at source-code level. When someone among your beta-testers
+incomplete but suggestive characterization of their error conditions at source-code level. When someone among your beta-testers
 can point out, “there’s a boundary problem in line nnn”, or even
 just “under conditions X, Y, and Z, this variable rolls over”, a
 quick look at the offending code often sufﬁces to pin down the
 exact mode of failure and generate a ﬁx.
 Thus, source-code awareness by both parties greatly enhances
-both good communication and the synergy between what a beta-
-tester reports and what the core developer(s) knows. In turn, this
+both good communication and the synergy between what a betatester reports and what the core developer(s) knows. In turn, this
 means that the core developers’ time tends to be well conserved,
 even with many collaborators.
 Another characteristic of the open-source method that conserves
-developer time is the communication structure of typical open-
-source projects. Earlier I used the term “core developer”; this
+developer time is the communication structure of typical opensource projects. Earlier I used the term “core developer”; this
 reﬂects a distinction between the project core (typically quite
-small; a single core developer is common, and one to three is typi-
-cal) and the project halo of beta-testers and available contributors
+small; a single core developer is common, and one to three is typical) and the project halo of beta-testers and available contributors
 (which often numbers in the hundreds).
 The fundamental problem that traditional software-development
-organization addresses is Brooks’s Law: ‘‘Adding more program-
-mers to a late project makes it later.’’ More generally, Brooks’s
+organization addresses is Brooks’s Law: ‘‘Adding more programmers to a late project makes it later.’’ More generally, Brooks’s
 Law predicts that the complexity and communication costs of a
 project rise with the square of the number of developers, while
 work done only rises linearly.
@@ -1388,8 +1160,6 @@ cluster at the interfaces between code written by different people,
 and that communications/coordination overhead on a project
 tends to rise with the number of interfaces between human beings.
 Thus, problems scale with the number of communications paths
-34
-
 
 between developers, which scales as the square of the number of
 developers (more precisely, according to the formula N*(N–1)/2
@@ -1403,44 +1173,32 @@ parallel subtasks and interact with each other very little; code
 changes and bug reports stream through the core group, and only
 within that small core group do we pay the full Brooksian
 overhead.6
-There are are still more reasons that source-code–level bug report-
-ing tends to be very efﬁcient. They center around the fact that a
-single error can often have multiple possible symptoms, manifest-
-ing differently depending on details of the user’s usage pattern and
+There are are still more reasons that source-code–level bug reporting tends to be very efﬁcient. They center around the fact that a
+single error can often have multiple possible symptoms, manifesting differently depending on details of the user’s usage pattern and
 environment. Such errors tend to be exactly the sort of complex
 and subtle bugs (such as dynamic-memory-management errors or
 nondeterministic interrupt-window artifacts) that are hardest to
 reproduce at will or to pin down by static analysis, and which do
 the most to create long-term problems in software.
-A tester who sends in a tentative source-code–level characteriza-
-tion of such a multi-symptom bug (e.g., “It looks to me like there’s
+A tester who sends in a tentative source-code–level characterization of such a multi-symptom bug (e.g., “It looks to me like there’s
 a window in the signal handling near line 1250” or “Where are
 you zeroing that buffer?”) may give a developer, otherwise too
-close to the code to see it, the critical clue to a half-dozen dis-
-parate symptoms. In cases like this, it may be hard or even impos-
-sible to know which externally visible misbehaviour was caused
-by precisely which bug—but with frequent releases, it’s unneces-
-sary to know. Other collaborators will be likely to ﬁnd out quickly
-whether their bug has been ﬁxed or not. In many cases, source-
-level bug reports will cause misbehaviours to drop out without
+close to the code to see it, the critical clue to a half-dozen disparate symptoms. In cases like this, it may be hard or even impossible to know which externally visible misbehaviour was caused
+by precisely which bug—but with frequent releases, it’s unnecessary to know. Other collaborators will be likely to ﬁnd out quickly
+whether their bug has been ﬁxed or not. In many cases, sourcelevel bug reports will cause misbehaviours to drop out without
 ever having been attributed to any speciﬁc ﬁx.
 The Cathedral and the Bazaar
-35
-
 
 The Cathedral and the Bazaar
 Complex multi-symptom errors also tend to have multiple trace
 paths from surface symptoms back to the actual bug. Which of the
 trace paths a given developer or tester can chase may depend on
 subtleties of that person’s environment, and may well change in a
-not obviously deterministic way over time. In effect, each devel-
-oper and tester samples a semi-random set of the program’s state
-space when looking for the etiology of a symptom. The more sub-
-tle and complex the bug, the less likely that skill will be able to
+not obviously deterministic way over time. In effect, each developer and tester samples a semi-random set of the program’s state
+space when looking for the etiology of a symptom. The more subtle and complex the bug, the less likely that skill will be able to
 guarantee the relevance of that sample.
 For simple and easily reproducible bugs, then, the accent will be
-on the “semi” rather than the “random”; debugging skill and inti-
-macy with the code and its architecture will matter a lot. But for
+on the “semi” rather than the “random”; debugging skill and intimacy with the code and its architecture will matter a lot. But for
 complex bugs, the accent will be on the “random”. Under these
 circumstances many people running traces will be much more
 effective than a few people running traces sequentially—even if
@@ -1461,13 +1219,10 @@ When Is a Rose Not a Rose?
 Having studied Linus’s behavior and formed a theory about why it
 was successful, I made a conscious decision to test this theory on
 my new (admittedly much less complex and ambitious) project.
-36
-
 
 But the ﬁrst thing I did was reorganize and simplify popclient a
 lot. Carl Harris’s implementation was very sound, but exhibited a
-kind of unnecessary complexity common to many C program-
-mers. He treated the code as central and the data structures as
+kind of unnecessary complexity common to many C programmers. He treated the code as central and the data structures as
 support for the code. As a result, the code was beautiful but the
 data structure design ad hoc and rather ugly (at least by the high
 standards of this veteran LISP hacker).
@@ -1479,15 +1234,12 @@ For the ﬁrst month or so, then, I was simply following out the
 implications of Carl’s basic design. The ﬁrst serious change I made
 was to add IMAP support. I did this by reorganizing the protocol
 machines into a generic driver and three method tables (for POP2,
-POP3, and IMAP). This and the previous changes illustrate a gen-
-eral principle that’s good for programmers to keep in mind, espe-
-cially in languages like C that don’t naturally do dynamic typing:
+POP3, and IMAP). This and the previous changes illustrate a general principle that’s good for programmers to keep in mind, especially in languages like C that don’t naturally do dynamic typing:
 9. Smart data structures and dumb code works a
 lot better than the other way around.
 Brooks, Chapter 9: ‘‘Show me your ﬂowchart and conceal your
 tables, and I shall continue to be mystiﬁed. Show me your tables,
-and I won’t usually need your ﬂowchart; it’ll be obvious.’’ Allow-
-ing for 30 years of terminological/cultural shift, it’s the same
+and I won’t usually need your ﬂowchart; it’ll be obvious.’’ Allowing for 30 years of terminological/cultural shift, it’s the same
 point.
 At this point (early September 1996, about six weeks from zero) I
 started thinking that a name change might be in order—after all,
@@ -1498,8 +1250,6 @@ That changed, radically, when popclient learned how to forward
 fetched mail to the SMTP port. I’ll get to that in a moment. But
 ﬁrst: I said earlier that I’d decided to use this project to test my
 The Cathedral and the Bazaar
-37
-
 
 The Cathedral and the Bazaar
 theory about what Linus Torvalds had done right. How (you may
@@ -1514,20 +1264,16 @@ about fetchmail.
 I sent chatty announcements to the beta list whenever I
 released, encouraging people to participate.
 •
-I listened to my beta-testers, polling them about design deci-
-sions and stroking them whenever they sent in patches and
+I listened to my beta-testers, polling them about design decisions and stroking them whenever they sent in patches and
 feedback.
 The payoff from these simple measures was immediate. From the
-beginning of the project, I got bug reports of a quality most devel-
-opers would kill for, often with good ﬁxes attached. I got thought-
-ful criticism, I got fan mail, I got intelligent feature suggestions.
+beginning of the project, I got bug reports of a quality most developers would kill for, often with good ﬁxes attached. I got thoughtful criticism, I got fan mail, I got intelligent feature suggestions.
 Which leads to:
 10.If you treat your beta-testers as if they’re your
 most valuable resource, they will respond by
 becoming your most valuable resource.
 One interesting measure of fetchmail’s success is the sheer size of
-the project beta list, fetchmail-friends. At the time of latest revi-
-sion of this paper (November 2000) it has 287 members and is
+the project beta list, fetchmail-friends. At the time of latest revision of this paper (November 2000) it has 287 members and is
 adding 2 or 3 a week.
 Actually, when I revised in late May 1997 I found the list was
 beginning to lose members from its high of close to 300 for an
@@ -1535,8 +1281,6 @@ interesting reason. Several people have asked me to unsubscribe
 them because fetchmail is working so well for them that they no
 longer need to see the list trafﬁc! Perhaps this is part of the normal
 life-cycle of a mature bazaar-style project.
-38
-
 
 Popclient Becomes Fetchmail
 The real turning point in the project was when Harry Hochheiser
@@ -1544,8 +1288,7 @@ sent me his scratch code for forwarding mail to the client
 machine’s SMTP port. I realized almost immediately that a reliable
 implementation of this feature would make all the other mail
 delivery modes next to obsolete.
-For many weeks I had been tweaking fetchmail rather incremen-
-tally while feeling like the interface design was serviceable but
+For many weeks I had been tweaking fetchmail rather incrementally while feeling like the interface design was serviceable but
 grubby — inelegant and with too many exiguous options hanging
 out all over. The options to dump fetched mail to a mailbox ﬁle or
 standard output particularly bothered me, but I couldn’t ﬁgure out
@@ -1560,26 +1303,20 @@ the MDA business and be a pure MTA, handing off mail to other
 programs for local delivery just as sendmail does.
 Why mess with all the complexity of conﬁguring a mail delivery
 agent or setting up lock-and-append on a mailbox when port 25 is
-almost guaranteed to be there on any platform with TCP/IP sup-
-port in the ﬁrst place? Especially when this means retrieved mail is
+almost guaranteed to be there on any platform with TCP/IP support in the ﬁrst place? Especially when this means retrieved mail is
 guaranteed to look like normal sender-initiated SMTP mail, which
 is really what we want anyway.
 (Back to a higher level . . . )
 Even if you didn’t follow the preceding technical jargon, there are
-several important lessons here. First, this SMTP-forwarding con-
-cept was the biggest single payoff I got from consciously trying to
+several important lessons here. First, this SMTP-forwarding concept was the biggest single payoff I got from consciously trying to
 emulate Linus’s methods. A user gave me this terriﬁc idea—all I
 had to do was understand the implications.
 The Cathedral and the Bazaar
-39
-
 
 The Cathedral and the Bazaar
-11.The next best thing to having good ideas is rec-
-ognizing good ideas from your users. Sometimes
+11.The next best thing to having good ideas is recognizing good ideas from your users. Sometimes
 the latter is better.
-Interestingly enough, you will quickly ﬁnd that if you are com-
-pletely and self-deprecatingly truthful about how much you owe
+Interestingly enough, you will quickly ﬁnd that if you are completely and self-deprecatingly truthful about how much you owe
 other people, the world at large will treat you as though you did
 every bit of the invention yourself and are just being becomingly
 modest about your innate genius. We can all see how well this
@@ -1596,26 +1333,21 @@ email; I’ll look at it again sometime if I ever start wondering
 whether my life has been worthwhile :-).
 But there are two more fundamental, non-political lessons here
 that are general to all kinds of design.
-12.Often, the most striking and innova tive solu-
-tions come from realizing that your concept of
+12.Often, the most striking and innova tive solutions come from realizing that your concept of
 the problem was wrong.
 I had been trying to solve the wrong problem by continuing to
 develop popclient as a combined MTA/MDA with all kinds of
 funky local delivery modes. Fetchmail’s design needed to be
-rethought from the ground up as a pure MTA, a part of the nor-
-mal SMTP-speaking Internet mail path.
+rethought from the ground up as a pure MTA, a part of the normal SMTP-speaking Internet mail path.
 When you hit a wall in development—when you ﬁnd yourself
 hard put to think past the next patch—it’s often time to ask not
 whether you’ve got the right answer, but whether you’re asking
 the right question. Perhaps the problem needs to be reframed.
-40
-
 
 Well, I had reframed my problem. Clearly, the right thing to do
 was (1) hack SMTP forwarding support into the generic driver, (2)
 make it the default mode, and (3) eventually throw out all the
-other delivery modes, especially the deliver-to-ﬁle and deliver-to-
-standard-output options.
+other delivery modes, especially the deliver-to-ﬁle and deliver-tostandard-output options.
 I hesitated over step 3 for some time, fearing to upset long-time
 popclient users dependent on the alternate delivery mechanisms.
 In theory, they could immediately switch to .forward ﬁles or their
@@ -1638,15 +1370,12 @@ Later, I had to bring delivery via a user-speciﬁed local MDA back
 in order to allow handling of some obscure situations involving
 dynamic SLIP. But I found a much simpler way to do it.
 The moral? Don’t hesitate to throw away superannuated features
-when you can do it without loss of effectiveness. Antoine de Saint-
-Exupéry (who was an aviator and aircraft designer when he
+when you can do it without loss of effectiveness. Antoine de SaintExupéry (who was an aviator and aircraft designer when he
 wasn’t authoring classic children’s books) said:
 13.‘‘Perfection (in design) is achieved not when
 there is nothing more to add, but rather when
 there is nothing more to take awa y.’’
 The Cathedral and the Bazaar
-41
-
 
 The Cathedral and the Bazaar
 When your code is getting both better and simpler, that is when
@@ -1659,18 +1388,14 @@ MTAs, but where sendmail pushes then delivers, the new
 popclient pulls then delivers. So, two months off the blocks, I
 renamed it fetchmail.
 There is a more general lesson in this story about how SMTP
-delivery came to fetchmail. It is not only debugging that is paral-
-lelizable; development and (to a perhaps surprising extent) explo-
-ration of design space is, too. When your development mode is
-rapidly iterative, development and enhancement may become spe-
-cial cases of debugging—ﬁxing ‘bugs of omission’ in the original
+delivery came to fetchmail. It is not only debugging that is parallelizable; development and (to a perhaps surprising extent) exploration of design space is, too. When your development mode is
+rapidly iterative, development and enhancement may become special cases of debugging—ﬁxing ‘bugs of omission’ in the original
 capabilities or concept of the software.
 Even at a higher level of design, it can be very valuable to have
 lots of co-developers random-walking through the design space
 near your product. Consider the way a puddle of water ﬁnds a
 drain, or better yet how ants ﬁnd food: exploration essentially by
-diffusion, followed by exploitation mediated by a scalable com-
-munication mechanism. This works very well; as with Harry
+diffusion, followed by exploitation mediated by a scalable communication mechanism. This works very well; as with Harry
 Hochheiser and me, one of your outriders may well ﬁnd a huge
 win nearby that you were just a little too close-focused to see.
 Fetchmail Grows Up
@@ -1680,8 +1405,6 @@ list. It gradually dawned on me that I was no longer engaged in a
 trivial personal hack that might happen to be useful to few other
 people. I had my hands on a program that every hacker with a
 Unix box and a SLIP/PPP mail connection really needs.
-42
-
 
 With the SMTP forwarding feature, it pulled far enough in front
 of the competition to potentially become a category killer, one of
@@ -1690,14 +1413,12 @@ alternatives are not just discarded but almost forgotten.
 I think you can’t really aim or plan for a result like this. You have
 to get pulled into it by design ideas so powerful that afterward the
 results just seem inevitable, natural, even foreordained. The only
-way to try for ideas like that is by having lots of ideas—or by hav-
-ing the engineering judgment to take other people’s good ideas
+way to try for ideas like that is by having lots of ideas—or by having the engineering judgment to take other people’s good ideas
 beyond where the originators thought they could go.
 Andy Tanenbaum had the original idea to build a simple native
 Unix for IBM PCs, for use as a teaching tool (he called it Minix).
 Linus Torvalds pushed the Minix concept further than Andrew
-probably thought it could go—and it grew into something won-
-derful. In the same way (though on a smaller scale), I took some
+probably thought it could go—and it grew into something wonderful. In the same way (though on a smaller scale), I took some
 ideas by Carl Harris and Harry Hochheiser and pushed them
 hard. Neither of us was original in the romantic way people think
 is genius. But then, most science and engineering and software
@@ -1717,16 +1438,13 @@ users, and then route each piece of mail to its individual recipients.
 I decided to add the multidrop support partly because some users
 were clamoring for it, but mostly because I thought it would shake
 The Cathedral and the Bazaar
-43
-
 
 The Cathedral and the Bazaar
 bugs out of the single-drop code by forcing me to deal with
 addressing in full generality. And so it proved. Getting RFC 822
 (http://info.internet.isi.edu:80/in-notes/rfc/ﬁles/rfc822.txt) address
 parsing right took me a remarkably long time, not because any
-individual piece of it is hard but because it involved a pile of inter-
-dependent and fussy details.
+individual piece of it is hard but because it involved a pile of interdependent and fussy details.
 But multidrop addressing turned out to be an excellent design
 decision as well. Here’s how I knew:
 14.Any tool should be useful in the expected way,
@@ -1735,18 +1453,14 @@ never expected.
 The unexpected use for multidrop fetchmail is to run mailing lists
 with the list kept, and alias expansion done, on the client side of
 the Internet connection. This means someone running a personal
-machine through an ISP account can manage a mailing list with-
-out continuing access to the ISP’s alias ﬁles.
-Another important change demanded by my beta-testers was sup-
-port for 8-bit MIME (Multipurpose Internet Mail Extensions)
+machine through an ISP account can manage a mailing list without continuing access to the ISP’s alias ﬁles.
+Another important change demanded by my beta-testers was support for 8-bit MIME (Multipurpose Internet Mail Extensions)
 operation. This was pretty easy to do, because I had been careful
 to keep the code 8-bit clean (that is, to not press the 8th bit,
-unused in the ASCII character set, into service to carry informa-
-tion within the program). Not because I anticipated the demand
+unused in the ASCII character set, into service to carry information within the program). Not because I anticipated the demand
 for this feature, but rather in obedience to another rule:
 15.When writing gateway software of any kind, take
-pains to disturb the data stream as little as pos-
-sible — and never throw away information unless the
+pains to disturb the data stream as little as possible — and never throw away information unless the
 recipient forces you to!
 Had I not obeyed this rule, 8-bit MIME support would have been
 difﬁcult and buggy. As it was, all I had to do is read the MIME
@@ -1755,8 +1469,6 @@ standard (RFC 1652, http://info.internet.isi.edu:80/in-notes/rfc/
 Some European users bugged me into adding an option to limit
 the number of messages retrieved per session (so they can control
 costs from their expensive phone networks). I resisted this for a
-44
-
 
 long time, and I’m still not entirely happy about it. But if you’re
 writing for the world, you have to listen to your customers—this
@@ -1767,11 +1479,9 @@ are a couple more speciﬁc lessons from the fetchmail experience to
 ponder. Nontechnical readers can safely skip this section.
 The rc (control) ﬁle syntax includes optional ‘noise’ keywords that
 are entirely ignored by the parser. The English-like syntax they
-allow is considerably more readable than the traditional terse key-
-word-value pairs you get when you strip them all out.
+allow is considerably more readable than the traditional terse keyword-value pairs you get when you strip them all out.
 These started out as a late-night experiment when I noticed how
-much the rc ﬁle declarations were beginning to resemble an imper-
-ative minilanguage. (This is also why I changed the original
+much the rc ﬁle declarations were beginning to resemble an imperative minilanguage. (This is also why I changed the original
 popclient ‘‘server’’ keyword to ‘‘poll’’).
 It seemed to me that trying to make that imperative minilanguage
 more like English might make it easier to use. Now, although I’m
@@ -1781,8 +1491,7 @@ am not normally a big fan of ‘‘English-like’’ syntaxes.
 Traditionally programmers have tended to favor control syntaxes
 that are very precise and compact and have no redundancy at all.
 This is a cultural legacy from when computing resources were
-expensive, so parsing stages had to be as cheap and simple as pos-
-sible. English, with about 50% redundancy, looked like a very
+expensive, so parsing stages had to be as cheap and simple as possible. English, with about 50% redundancy, looked like a very
 inappropriate model then.
 This is not my reason for normally avoiding English-like syntaxes;
 I mention it here only to demolish it. With cheap cycles and core,
@@ -1790,27 +1499,18 @@ terseness should not be an end in itself. Nowadays it’s more
 important for a language to be convenient for humans than to be
 cheap for the computer.
 The Cathedral and the Bazaar
-45
-
 
 The Cathedral and the Bazaar
-There remain, however, good reasons to be wary. One is the com-
-plexity cost of the parsing stage—you don’t want to raise that to
+There remain, however, good reasons to be wary. One is the complexity cost of the parsing stage—you don’t want to raise that to
 the point where it’s a signiﬁcant source of bugs and user confusion
-in itself. Another is that trying to make a language syntax English-
-like often demands that the ‘‘English’’ it speaks be bent seriously
-out of shape, so much so that the superﬁcial resemblance to natu-
-ral language is as confusing as a traditional syntax would have
-been. (You see this bad effect in a lot of so-called ‘‘fourth genera-
-tion’’ and commercial database-query languages.)
+in itself. Another is that trying to make a language syntax Englishlike often demands that the ‘‘English’’ it speaks be bent seriously
+out of shape, so much so that the superﬁcial resemblance to natural language is as confusing as a traditional syntax would have
+been. (You see this bad effect in a lot of so-called ‘‘fourth generation’’ and commercial database-query languages.)
 The fetchmail control syntax seems to avoid these problems
 because the language domain is extremely restricted. It’s nowhere
 near a general-purpose language; the things it says simply are not
-very complicated, so there’s little potential for confusion in mov-
-ing mentally between a tiny subset of English and the actual con-
-trol language. I think there may be a broader lesson here:
-16.When your language is nowhere near Turing-
-complete, syntactic sugar can be your friend.
+very complicated, so there’s little potential for confusion in moving mentally between a tiny subset of English and the actual control language. I think there may be a broader lesson here:
+16.When your language is nowhere near Turingcomplete, syntactic sugar can be your friend.
 Another lesson is about security by obscurity. Some fetchmail
 users asked me to change the software to store passwords
 encrypted in the rc ﬁle, so snoopers wouldn’t be able to casually
@@ -1825,8 +1525,6 @@ false sense of security to people who don’t think very hard. The
 general rule here is:
 17.A security system is only as secure as its secret.
 Beware of pseudo-secrets.
-46
-
 
 Necessary Preconditions
 for the Bazaar Style
@@ -1843,8 +1541,7 @@ needs to have something runnable and testable to play with.
 When you start community-building, what you need to be able to
 present is a plausible promise. Your program doesn’t have to work
 particularly well. It can be crude, buggy, incomplete, and poorly
-documented. What it must not fail to do is (a) run, and (b) con-
-vince potential co-developers that it can be evolved into something
+documented. What it must not fail to do is (a) run, and (b) convince potential co-developers that it can be evolved into something
 really neat in the foreseeable future.
 Linux and fetchmail both went public with strong, attractive basic
 designs. Many people thinking about the bazaar model as I have
@@ -1862,8 +1559,6 @@ designs of exceptional brilliance, but it is absolutely critical that
 the coordinator be able to recognize good design ideas from
 others.
 The Cathedral and the Bazaar
-47
-
 
 The Cathedral and the Bazaar
 Both the Linux and fetchmail projects show evidence of this.
@@ -1886,26 +1581,17 @@ So I believe the fetchmail project succeeded partly because I
 restrained my tendency to be clever; this argues (at least) against
 design originality being essential for successful bazaar projects.
 And consider Linux. Suppose Linus Torvalds had been trying to
-pull off fundamental innovations in operating system design dur-
-ing the development; does it seem at all likely that the resulting
+pull off fundamental innovations in operating system design during the development; does it seem at all likely that the resulting
 kernel would be as stable and successful as what we have?
 A certain base level of design and coding skill is required, of
-course, but I expect almost anybody seriously thinking of launch-
-ing a bazaar effort will already be above that minimum. The open-
-source community’s internal market in reputation exerts subtle
+course, but I expect almost anybody seriously thinking of launching a bazaar effort will already be above that minimum. The opensource community’s internal market in reputation exerts subtle
 pressure on people not to launch development efforts they’re not
 competent to follow through on. So far this seems to have worked
 pretty well.
-There is another kind of skill not normally associated with soft-
-ware development which I think is as important as design clever-
-ness to bazaar projects—and it may be more important. A bazaar
-48
+There is another kind of skill not normally associated with software development which I think is as important as design cleverness to bazaar projects—and it may be more important. A bazaar
 
-
-project coordinator or leader must have good people and commu-
-nications skills.
-This should be obvious. In order to build a development commu-
-nity, you need to attract people, interest them in what you’re
+project coordinator or leader must have good people and communications skills.
+This should be obvious. In order to build a development community, you need to attract people, interest them in what you’re
 doing, and keep them happy about the amount of work they’re
 doing. Technical sizzle will go a long way towards accomplishing
 this, but it’s far from the whole story. The personality you project
@@ -1928,78 +1614,56 @@ So it was with Carl Harris and the ancestral popclient, and so
 with me and fetchmail. But this has been understood for a long
 time. The interesting point, the point that the histories of Linux
 and fetchmail seem to demand we focus on, is the next stage—the
-evolution of software in the presence of a large and active commu-
-nity of users and co-developers.
-In The Mythical Man-Month, Fred Brooks observed that program-
-mer time is not fungible; adding developers to a late software pro-
-ject makes it later. As we’ve seen previously, he argued that the
+evolution of software in the presence of a large and active community of users and co-developers.
+In The Mythical Man-Month, Fred Brooks observed that programmer time is not fungible; adding developers to a late software project makes it later. As we’ve seen previously, he argued that the
 complexity and communication costs of a project rise with the
 The Cathedral and the Bazaar
-49
-
 
 The Cathedral and the Bazaar
 square of the number of developers, while work done only rises
 linearly. Brooks’s Law has been widely regarded as a truism. But
-we’ve examined in this essay a number of ways in which the pro-
-cess of open-source development falsiﬁes the assumptionms
-behind it—and, empirically, if Brooks’s Law were the whole pic-
-ture, Linux would be impossible.
-Gerald Weinberg’s classic The Psychology of Computer Program-
-ming supplied what, in hindsight, we can see as a vital correction
+we’ve examined in this essay a number of ways in which the process of open-source development falsiﬁes the assumptionms
+behind it—and, empirically, if Brooks’s Law were the whole picture, Linux would be impossible.
+Gerald Weinberg’s classic The Psychology of Computer Programming supplied what, in hindsight, we can see as a vital correction
 to Brooks. In his discussion of egoless programming, Weinberg
 observed that in shops where developers are not territorial about
 their code, and encourage other people to look for bugs and
 potential improvements in it, improvement happens dramatically
-faster than elsewhere. (Recently, Kent Beck’s ’extreme program-
-ming’ technique of deploying coders in pairs who look over one
+faster than elsewhere. (Recently, Kent Beck’s ’extreme programming’ technique of deploying coders in pairs who look over one
 another’s shoulders might be seen as an attempt to force this
 effect.)
-Weinberg’s choice of terminology has perhaps prevented his analy-
-sis from gaining the acceptance it deserved—one has to smile at
+Weinberg’s choice of terminology has perhaps prevented his analysis from gaining the acceptance it deserved—one has to smile at
 the thought of describing Internet hackers as egoless. But I think
 his argument looks more compelling today than ever.
 The bazaar method, by harnessing the full power of the egoless
 programming effect, strongly mitigates the effect of Brooks’s Law.
 The principle behind Brooks’s Law is not repealed, but given a
 large developer population and cheap communications its effects
-can be swamped by competing nonlinearities that are not other-
-wise visible. This resembles the relationship between Newtonian
-and Einsteinian physics—the older system is still valid at low ener-
-gies, but if you push mass and velocity high enough you get sur-
-prises like nuclear explosions or Linux.
-The history of Unix should have prepared us for what we’re learn-
-ing from Linux (and what I’ve veriﬁed experimentally on a smaller
+can be swamped by competing nonlinearities that are not otherwise visible. This resembles the relationship between Newtonian
+and Einsteinian physics—the older system is still valid at low energies, but if you push mass and velocity high enough you get surprises like nuclear explosions or Linux.
+The history of Unix should have prepared us for what we’re learning from Linux (and what I’ve veriﬁed experimentally on a smaller
 scale by deliberately copying Linus’s methods 9). That is, while
 coding remains an essentially solitary activity, the really great
 hacks come from harnessing the attention and brainpower of
-50
-
 
 entire communities. The developer who uses only his or her own
 brain in a closed project is going to fall behind the developer who
-knows how to create an open, evolutionary context in which feed-
-back exploring the design space, code contributions, bug-spotting,
-and other improvements come from from hundreds (perhaps thou-
-sands) of people.
+knows how to create an open, evolutionary context in which feedback exploring the design space, code contributions, bug-spotting,
+and other improvements come from from hundreds (perhaps thousands) of people.
 But the traditional Unix world was prevented from pushing this
 approach to the ultimate by several factors. One was the legal
-contraints of various licenses, trade secrets, and commercial inter-
-ests. Another (in hindsight) was that the Internet wasn’t yet good
+contraints of various licenses, trade secrets, and commercial interests. Another (in hindsight) was that the Internet wasn’t yet good
 enough.
 Before cheap Internet, there were some geographically compact
 communities where the culture encouraged Weinberg’s egoless
 programming, and a developer could easily attract a lot of skilled
 kibitzers and co-developers. Bell Labs, the MIT AI and LCS labs,
-UC Berkeley—these became the home of innovations that are leg-
-endary and still potent.
+UC Berkeley—these became the home of innovations that are legendary and still potent.
 Linux was the ﬁrst project for which a conscious and successful
 effort to use the entire world as its talent pool was made. I don’t
-think it’s a coincidence that the gestation period of Linux coin-
-cided with the birth of the World Wide Web, and that Linux left
+think it’s a coincidence that the gestation period of Linux coincided with the birth of the World Wide Web, and that Linux left
 its infancy during the same period in 1993–1994 that saw the
-takeoff of the ISP industry and the explosion of mainstream inter-
-est in the Internet. Linus was the ﬁrst person who learned how to
+takeoff of the ISP industry and the explosion of mainstream interest in the Internet. Linus was the ﬁrst person who learned how to
 play by the new rules that pervasive Internet access made possible.
 While cheap Internet was a necessary condition for the Linux
 model to evolve, I think it was not by itself a sufﬁcient condition.
@@ -2010,25 +1674,20 @@ But what is this leadership style and what are these customs? They
 cannot be based on power relationships—and even if they could
 be, leadership by coercion would not produce the results we see.
 The Cathedral and the Bazaar
-51
-
 
 The Cathedral and the Bazaar
 Weinberg quotes the autobiography of the 19th-century Russian
-anarchist Pyotr Alexeyvich Kropotkin’s Memoirs of a Revolution-
-ist to good effect on this subject:
+anarchist Pyotr Alexeyvich Kropotkin’s Memoirs of a Revolutionist to good effect on this subject:
 Having been brought up in a serf-owner’s family, I entered
 acti ve life, like all young men of my time, with a great
-deal of conﬁdence in the necessity of commanding, order-
-ing, scolding, punishing and the like. But when, at an
+deal of conﬁdence in the necessity of commanding, ordering, scolding, punishing and the like. But when, at an
 early stage, I had to manage serious enterprises and to
 deal with [free] men, and when each mistake would lead
 at once to heavy consequences, I began to appreciate the
 difference between acting on the principle of command
 and discipline and acting on the principle of common
 understanding. The former works admirably in a military
-parade, but it is worth nothing where real life is con-
-cerned, and the aim can be achieved only through the
+parade, but it is worth nothing where real life is concerned, and the aim can be achieved only through the
 severe effort of many converging wills.
 The ‘‘severe effort of many converging wills’’ is precisely what a
 project like Linux requires—and the ‘‘principle of command’’ is
@@ -2036,24 +1695,18 @@ effectively impossible to apply among volunteers in the anarchist’s
 paradise we call the Internet. To operate and compete effectively,
 hackers who want to lead collaborative projects have to learn how
 to recruit and energize effective communities of interest in the
-mode vaguely suggested by Kropotkin’s ‘‘principle of understand-
-ing’’. They must learn to use Linus’s Law.10
+mode vaguely suggested by Kropotkin’s ‘‘principle of understanding’’. They must learn to use Linus’s Law.10
 Earlier, I referred to the Delphi Effect as a possible explanation for
 Linus’s Law. But more powerful analogies to adaptive systems in
 biology and economics also irresistably suggest themselves. The
 Linux world behaves in many respects like a free market or an
-ecology, a collection of selﬁsh agents attempting to maximize util-
-ity, which in the process produces a self-correcting spontaneous
+ecology, a collection of selﬁsh agents attempting to maximize utility, which in the process produces a self-correcting spontaneous
 order more elaborate and efﬁcient than any amount of central
 planning could have achieved. Here, then, is the place to seek the
 ‘‘principle of understanding’’.
-52
 
-
-The ‘‘utility function’’ Linux hackers are maximizing is not classi-
-cally economic, but is the intangible of their own ego satisfaction
-and reputation among other hackers. (One may call their motiva-
-tion ‘‘altruistic’’, but this ignores the fact that altruism is itself a
+The ‘‘utility function’’ Linux hackers are maximizing is not classically economic, but is the intangible of their own ego satisfaction
+and reputation among other hackers. (One may call their motivation ‘‘altruistic’’, but this ignores the fact that altruism is itself a
 form of ego satisfaction for the altruist.) Voluntary cultures that
 work this way are not actually uncommon; one other in which I
 have long participated is science ﬁction fandom, which unlike
@@ -2063,54 +1716,43 @@ basic drive behind volunteer activity.
 Linus, by successfully positioning himself as the gatekeeper of a
 project in which the development is mostly done by others, and
 nurturing interest in the project until it became self-sustaining, has
-shown an acute grasp of Kropotkin’s ‘‘principle of shared under-
-standing’’. This quasi-economic view of the Linux world enables
+shown an acute grasp of Kropotkin’s ‘‘principle of shared understanding’’. This quasi-economic view of the Linux world enables
 us to see how that understanding is applied.
-We may view Linus’s method as a way to create an efﬁcient mar-
-ket in ‘‘egoboo’’—to connect the selﬁshness of individual hackers
+We may view Linus’s method as a way to create an efﬁcient market in ‘‘egoboo’’—to connect the selﬁshness of individual hackers
 as ﬁrmly as possible to difﬁcult ends that can only be achieved by
 sustained cooperation. With the fetchmail project I have shown
 (albeit on a smaller scale) that his methods can be duplicated with
 good results. Perhaps I have even done it a bit more consciously
 and systematically than he.
-Many people (especially those who politically distrust free mar-
-kets) would expect a culture of self-directed egoists to be frag-
-mented, territorial, wasteful, secretive, and hostile. But this
+Many people (especially those who politically distrust free markets) would expect a culture of self-directed egoists to be fragmented, territorial, wasteful, secretive, and hostile. But this
 expectation is clearly falsiﬁed by (to give just one example) the
 stunning variety, quality, and depth of Linux documentation. It is
 a hallowed given that programmers hate documenting; how is it,
-then, that Linux hackers generate so much documentation? Evi-
-dently Linux’s free market in egoboo works better to produce vir-
-tuous, 
-other-directed 
-behavior 
-than 
-the 
+then, that Linux hackers generate so much documentation? Evidently Linux’s free market in egoboo works better to produce virtuous,
+other-directed
+behavior
+than
+the
 massively-funded
 documentation shops of commercial software producers.
 The Cathedral and the Bazaar
-53
-
 
 The Cathedral and the Bazaar
 Both the fetchmail and Linux kernel projects show that by
 properly rewarding the egos of many other hackers, a strong
 developer/coordinator can use the Internet to capture the beneﬁts
 of having lots of co-developers without having a project collapse
-into a chaotic mess. So to Brooks’s Law, I  counter-propose the fol-
-lowing:
+into a chaotic mess. So to Brooks’s Law, I  counter-propose the following:
 19.Provided the development coordinator has a
 communications medium at least as good as the
-Internet, and knows how to lead without coer-
-cion, many heads are inevitably better than one.
+Internet, and knows how to lead without coercion, many heads are inevitably better than one.
 I think the future of open-source software will increasingly belong
 to people who know how to play Linus’s game, people who leave
 behind the cathedral and embrace the bazaar. This is not to say
 that individual vision and brilliance will no longer matter; rather, I
 think that the cutting edge of open-source software will belong to
 people who start from individual vision and brilliance, then
-amplify it through the effective construction of voluntary commu-
-nities of interest.
+amplify it through the effective construction of voluntary communities of interest.
 Perhaps this is not only the future of open-source software. No
 closed-source developer can match the pool of talent the Linux
 community can bring to bear on a problem. Very few could afford
@@ -2119,12 +1761,9 @@ who have contributed to fetchmail!
 Perhaps in the end the open-source culture will triumph not
 because cooperation is morally right or software ‘‘hoarding’’ is
 morally wrong (assuming you believe the latter, which neither
-Linus nor I do), but simply because the closed-source world can-
-not win an evolutionary arms race with open-source communities
+Linus nor I do), but simply because the closed-source world cannot win an evolutionary arms race with open-source communities
 that can put orders of magnitude more skilled time into a
 problem.
-54
-
 
 On Management and
 the Maginot Line
@@ -2132,74 +1771,56 @@ The original Cathedral and Bazaar paper of 1997 ended with the
 vision above—that of happy networked hordes of programmer/
 anarchists outcompeting and overwhelming the hierarchical world
 of conventional closed software.
-A good many skeptics weren’t convinced, however; and the ques-
-tions they raise deserve a fair engagement. Most of the objections
-to the bazaar argument come down to the claim that its propo-
-nents have underestimated the productivity-multiplying effect of
+A good many skeptics weren’t convinced, however; and the questions they raise deserve a fair engagement. Most of the objections
+to the bazaar argument come down to the claim that its proponents have underestimated the productivity-multiplying effect of
 conventional management.
 Traditionally-minded software-development managers often object
 that the casualness with which project groups form and change
 and dissolve in the open-source world negates a signiﬁcant part of
-the apparent advantage of numbers that the open-source commu-
-nity has over any single closed-source developer. They would
+the apparent advantage of numbers that the open-source community has over any single closed-source developer. They would
 observe that in software development it is really sustained effort
-over time and the degree to which customers can expect continu-
-ing investment in the product that matters, not just how many
+over time and the degree to which customers can expect continuing investment in the product that matters, not just how many
 people have thrown a bone in the pot and left it to simmer.
 There is something to this argument, to be sure; in fact, I have
 developed the idea that expected future service value is the key to
 the economics of software production in the essay The Magic
 Cauldron .
 But this argument also has a major hidden problem; its implicit
-assumption that open-source development cannot deliver such sus-
-tained effort. In fact, there have been open-source projects that
-maintained a coherent direction and an effective maintainer com-
-munity over quite long periods of time without the kinds of incen-
-tive structures or institutional controls that conventional
+assumption that open-source development cannot deliver such sustained effort. In fact, there have been open-source projects that
+maintained a coherent direction and an effective maintainer community over quite long periods of time without the kinds of incentive structures or institutional controls that conventional
 management ﬁnds essential. The development of the GNU Emacs
 editor is an extreme and instructive example; it has absorbed the
 efforts of hundreds of contributors over 15 years into a uniﬁed
 The Cathedral and the Bazaar
-55
-
 
 The Cathedral and the Bazaar
 architectural vision, despite high turnover and the fact that only
 one person (its author) has been continuously active during all
 that time. No closed-source editor has ever matched this longevity
 record.
-This suggests a reason for questioning the advantages of conven-
-tionally-managed software development that is independent of the
+This suggests a reason for questioning the advantages of conventionally-managed software development that is independent of the
 rest of the arguments over cathedral versus bazaar mode. If it’s
 possible for GNU Emacs to express a consistent architectural
 vision over 15 years, or for an operating system like Linux to do
 the same over 8 years of rapidly changing hardware and platform
 technology; and if (as is indeed the case) there have been many
-well-architected open-source projects of more than 5 years dura-
-tion — then we are entitled to wonder what, if anything, the
+well-architected open-source projects of more than 5 years duration — then we are entitled to wonder what, if anything, the
 tremendous overhead of conventionally managed development is
 actually buying us.
-Whatever it is certainly doesn’t include reliable execution by dead-
-line, or on budget, or to all features of the speciﬁcation; it’s a rare
+Whatever it is certainly doesn’t include reliable execution by deadline, or on budget, or to all features of the speciﬁcation; it’s a rare
 managed project that meets even one of these goals, let alone all
 three. It also does not appear to be ability to adapt to changes in
 technology and economic context during the project lifetime,
 either; the open-source community has proven far more effective
 on that score (as one can readily verify, for example, by comparing
-the 30-year history of the Internet with the short half-lives of pro-
-prietary networking technologies—or the cost of the 16-bit to
+the 30-year history of the Internet with the short half-lives of proprietary networking technologies—or the cost of the 16-bit to
 32-bit transition in Microsoft Windows with the nearly effortless
 upward migration of Linux during the same period, not only
 along the Intel line of development but to more than a dozen other
 hardware platforms, including the 64-bit Alpha as well).
 One thing many people think the traditional mode buys you is
-somebody to hold legally liable and potentially recover compensa-
-tion from if the project goes wrong. But this is an illusion; most
-software licenses are written to disclaim even warranty of mer-
-chantability, let alone performance—and cases of successful recov-
-ery for software nonperformance are vanishingly rare. Even if they
-56
-
+somebody to hold legally liable and potentially recover compensation from if the project goes wrong. But this is an illusion; most
+software licenses are written to disclaim even warranty of merchantability, let alone performance—and cases of successful recovery for software nonperformance are vanishingly rare. Even if they
 
 were common, feeling comforted by having somebody to sue
 would be missing the point. You didn’t want to be in a lawsuit;
@@ -2207,11 +1828,9 @@ you wanted working software.
 So what is all that management overhead buying?
 In order to understand that, we need to understand what software
 development managers believe they do. A woman I know who
-seems to be very good at this job says software project manage-
-ment has ﬁve functions:
+seems to be very good at this job says software project management has ﬁve functions:
 •
-To deﬁne goals and keep everybody pointed in the same direc-
-tion
+To deﬁne goals and keep everybody pointed in the same direction
 •
 To monitor and make sure crucial details don’t get skipped
 •
@@ -2239,28 +1858,20 @@ Anyway, in a world of cheap PCs and fast Internet links, we ﬁnd
 pretty consistently that the only really limiting resource is skilled
 attention. Open-source projects, when they founder, essentially
 The Cathedral and the Bazaar
-57
-
 
 The Cathedral and the Bazaar
 never do so for want of machines or links or ofﬁce space; they die
 only when the developers themselves lose interest.
-That being the case, it’s doubly important that open-source hack-
-ers organize themselves for maximum productivity by self-selec-
-tion — and the social milieu selects ruthlessly for competence. My
+That being the case, it’s doubly important that open-source hackers organize themselves for maximum productivity by self-selection — and the social milieu selects ruthlessly for competence. My
 friend, familiar with both the open-source world and large closed
 projects, believes that open source has been successful partly
 because its culture only accepts the most talented 5% or so of the
 programming population. She spends most of her time organizing
-the deployment of the other 95%, and has thus observed ﬁrst-
-hand the well-known variance of a factor of one hundred in pro-
-ductivity between the most able programmers and the merely
+the deployment of the other 95%, and has thus observed ﬁrsthand the well-known variance of a factor of one hundred in productivity between the most able programmers and the merely
 competent.
 The size of that variance has always raised an awkward question:
 would individual projects, and the ﬁeld as a whole, be better off
-without more than 50% of the least able in it? Thoughtful man-
-agers have understood for a long time that if conventional soft-
-ware management’s only function were to convert the least able
+without more than 50% of the least able in it? Thoughtful managers have understood for a long time that if conventional software management’s only function were to convert the least able
 from a net loss to a marginal win, the game might not be worth
 the candle.
 The success of the open-source community sharpens this question
@@ -2268,25 +1879,18 @@ considerably, by providing hard evidence that it is often cheaper
 and more effective to recruit self-selected volunteers from the
 Internet than it is to manage buildings full of people who would
 rather be doing something else.
-Which brings us neatly to the question of motivation. An equiva-
-lent and often-heard way to state my friend’s point is that tradi-
-tional development management is a necessary compensation for
+Which brings us neatly to the question of motivation. An equivalent and often-heard way to state my friend’s point is that traditional development management is a necessary compensation for
 poorly motivated programmers who would not otherwise turn out
 good work.
 This answer usually travels with a claim that the open-source
 community can only be relied on to do work that is “sexy” or
 technically sweet; anything else will be left undone (or done only
-58
-
 
 poorly) unless it’s churned out by money-motivated cubicle peons
-with managers cracking whips over them. I address the psycholog-
-ical and social reasons for being skeptical of this claim in Home-
-steading the Noosphere. For present purposes, however, I think it’s
+with managers cracking whips over them. I address the psychological and social reasons for being skeptical of this claim in Homesteading the Noosphere. For present purposes, however, I think it’s
 more interesting to point out the implications of accepting it as
 true.
-If the conventional, closed-source, heavily-managed style of soft-
-ware development is really defended only by a sort of Maginot
+If the conventional, closed-source, heavily-managed style of software development is really defended only by a sort of Maginot
 Line of problems conducive to boredom, then it’s going to remain
 viable in each individual application area for only so long as
 nobody ﬁnds those problems really interesting and nobody else
@@ -2297,16 +1901,12 @@ chose that problem to solve because of a fascination with the
 problem itself—which, in software as in other kinds of creative
 work, is a far more effective motivator than money alone.
 Having a conventional management structure solely in order to
-motivate, then, is probably good tactics but bad strategy; a short-
-term win, but in the longer term a surer loss.
+motivate, then, is probably good tactics but bad strategy; a shortterm win, but in the longer term a surer loss.
 So far, conventional development management looks like a bad
 bet now against open source on two points (resource marshalling,
 organization), and like it’s living on borrowed time with respect to
-a third (motivation). And the poor beleaguered conventional man-
-ager is not going to get any succour from the monitoring issue; the
-strongest argument the open-source community has is that decen-
-tralized peer review trumps all the conventional methods for try-
-ing to ensure that details don’t get slipped.
+a third (motivation). And the poor beleaguered conventional manager is not going to get any succour from the monitoring issue; the
+strongest argument the open-source community has is that decentralized peer review trumps all the conventional methods for trying to ensure that details don’t get slipped.
 Can we save deﬁning goals as a justiﬁcation for the overhead of
 conventional software project management? Perhaps; but to do so,
 we’ll need good reason to believe that management committees
@@ -2314,8 +1914,6 @@ and corporate roadmaps are more successful at deﬁning worthy
 and widely shared goals than the project leaders and tribal elders
 who ﬁll the analogous role in the open-source world.
 The Cathedral and the Bazaar
-59
-
 
 The Cathedral and the Bazaar
 That is on the face of it a pretty hard case to make. And it’s not so
@@ -2327,19 +1925,14 @@ the goals of software projects.
 One of the best-known folk theorems of software engineering is
 that 60 to 75% of conventional software projects either are never
 completed or are rejected by their intended users. If that range is
-anywhere near true (and I’ve never met a manager of any experi-
-ence who disputes it), then more projects than not are being aimed
+anywhere near true (and I’ve never met a manager of any experience who disputes it), then more projects than not are being aimed
 at goals that are either (a) not realistically attainable, or (b) just
 plain wrong.
 This, more than any other problem, is the reason that in today’s
-software engineering world the very phrase ‘‘management commit-
-tee’’ is likely to send chills down the hearer’s spine — even (or per-
-haps especially) if the hearer is a manager. The days when only
-programmers griped about this pattern are long past; Dilbert car-
-toons hang over executives’ desks now.
+software engineering world the very phrase ‘‘management committee’’ is likely to send chills down the hearer’s spine — even (or perhaps especially) if the hearer is a manager. The days when only
+programmers griped about this pattern are long past; Dilbert cartoons hang over executives’ desks now.
 Our reply, then, to the traditional software development manager,
-is simple—if the open-source community has really underesti-
-mated the value of conventional management, why do so many of
+is simple—if the open-source community has really underestimated the value of conventional management, why do so many of
 you display contempt for your own process?
 Once again the example of the open-source community sharpens
 this question considerably—because we have fun doing what we
@@ -2348,54 +1941,39 @@ and mind-share successes at an astounding rate. We’re proving not
 only that we can do better software, but that joy is an asset.
 Two and a half years after the ﬁrst version of this essay, the most
 radical thought I can offer to close with is no longer a vision of an
-open-source–dominated software world; that, after all, looks plau-
-sible to a lot of sober people in suits these days.
-60
+open-source–dominated software world; that, after all, looks plausible to a lot of sober people in suits these days.
 
-
-Rather, I want to suggest what may be a wider lesson about soft-
-ware (and probably about every kind of creative or professional
+Rather, I want to suggest what may be a wider lesson about software (and probably about every kind of creative or professional
 work). Human beings generally take pleasure in a task when it
-falls in a sort of optimal-challenge zone; not so easy as to be bor-
-ing, not too hard to achieve. A happy programmer is one who is
+falls in a sort of optimal-challenge zone; not so easy as to be boring, not too hard to achieve. A happy programmer is one who is
 neither underutilized nor weighed down with ill-formulated goals
 and stressful process friction. Enjoyment predicts efﬁciency.
 Relating to your own work process with fear and loathing (even in
-the displaced, ironic way suggested by hanging up Dilbert car-
-toons) should therefore be regarded in itself as a sign that the pro-
-cess has failed. Joy, humor, and playfulness are indeed assets; it
+the displaced, ironic way suggested by hanging up Dilbert cartoons) should therefore be regarded in itself as a sign that the process has failed. Joy, humor, and playfulness are indeed assets; it
 was not mainly for the alliteration that I wrote of “happy hordes”
 above, and it is no mere joke that the Linux mascot is a cuddly,
 neotenous penguin.
 It may well turn out that one of the most important effects of
-open source’s success will be to teach us that play is the most eco-
-nomically efﬁcient mode of creative work.
+open source’s success will be to teach us that play is the most economically efﬁcient mode of creative work.
 Epilog: Netscape Embraces
 the Bazaar
 It’s a strange feeling to realize you’re helping make history . . . .
 On 22 January 1998, approximately seven months after I ﬁrst
-published The Cathedral and the Bazaar, Netscape Communi-
-cations, Inc. announced plans to give away the source for
+published The Cathedral and the Bazaar, Netscape Communications, Inc. announced plans to give away the source for
 Netscape Communicator (see http://www.netscape.com/newsref/
-pr/newsrelease558.html). I had had no clue this was going to hap-
-pen before the day of the announcement.
+pr/newsrelease558.html). I had had no clue this was going to happen before the day of the announcement.
 Eric Hahn, executive vice president and chief technology ofﬁcer at
 Netscape, emailed me shortly afterwards as follows: ‘‘On behalf of
 everyone at Netscape, I want to thank you for helping us get to
-this point in the ﬁrst place. Your thinking and writings were fun-
-damental inspirations to our decision.’’
+this point in the ﬁrst place. Your thinking and writings were fundamental inspirations to our decision.’’
 The Cathedral and the Bazaar
-61
-
 
 The Cathedral and the Bazaar
-The following week I ﬂew out to Silicon Valley at Netscape’s invi-
-tation for a day-long strategy conference (on 4 February 1998)
+The following week I ﬂew out to Silicon Valley at Netscape’s invitation for a day-long strategy conference (on 4 February 1998)
 with some of their top executives and technical people. We
 designed Netscape’s source-release strategy and license together.
 A few days later I wrote the following:
-Netscape is about to provide us with a large-scale, real-
-world test of the bazaar model in the commercial world.
+Netscape is about to provide us with a large-scale, realworld test of the bazaar model in the commercial world.
 The open-source culture now faces a danger; if Netscape’s
 execution doesn’t work, the open-source concept may be
 so discredited that the commercial world won’t touch it
@@ -2404,8 +1982,7 @@ On the other hand, this is also a spectacular opportunity.
 Initial reaction to the move on Wall Street and elsewhere
 has been cautiously positi ve. We’re being given a chance
 to prove ourselves, too. If Netscape regains substantial
-market share through this move, it just may set off a long-
-overdue revolution in the software industry.
+market share through this move, it just may set off a longoverdue revolution in the software industry.
 The next year should be a very instructive and interesting
 time.
 And indeed it was. As I write in mid-2000, the development of
@@ -2422,14 +1999,11 @@ bazaar model; it didn’t ship with something potential contributors
 could easily run and see working. (Until more than a year after
 release, building Mozilla from source required a license for the
 proprietary Motif library.)
-62
-
 
 Most negatively (from the point of view of the outside world) the
 Mozilla group didn’t ship a production-quality browser for two
 and a half years after the project launch—and in 1999 one of the
-project’s principals caused a bit of a sensation by resigning, com-
-plaining of poor management and missed opportunities. ‘‘Open
+project’s principals caused a bit of a sensation by resigning, complaining of poor management and missed opportunities. ‘‘Open
 source,’’ he correctly observed, ‘‘is not magic pixie dust.’’
 And indeed it is not. The long-term prognosis for Mozilla looks
 dramatically better now (in November 2000) than it did at the
@@ -2437,25 +2011,17 @@ time of Jamie Zawinski’s resignation letter—in the last few weeks
 the nightly releases have ﬁnally passed the critical threshold to
 production usability. But Jamie was right to point out that going
 open will not necessarily save an existing project that suffers from
-ill-deﬁned goals or spaghetti code or any of the software engineer-
-ing’s other chronic ills. Mozilla has managed to provide an exam-
-ple simultaneously of how open source can succeed and how it
+ill-deﬁned goals or spaghetti code or any of the software engineering’s other chronic ills. Mozilla has managed to provide an example simultaneously of how open source can succeed and how it
 could fail.
-In the mean time, however, the open-source idea has scored suc-
-cesses and found backers elsewhere. Since the Netscape release
+In the mean time, however, the open-source idea has scored successes and found backers elsewhere. Since the Netscape release
 we’ve seen a tremendous explosion of interest in the open-source
-development model, a trend both driven by and driving the con-
-tinuing success of the Linux operating system. The trend Mozilla
+development model, a trend both driven by and driving the continuing success of the Linux operating system. The trend Mozilla
 touched off is continuing at an accelerating rate.
 The Cathedral and the Bazaar
-63
-
 
 Homesteading the Noosphere
 ✦✦✦
-After observing a contradiction between the ofﬁcial ideol-
-ogy deﬁned by open-source licenses and the actual behav-
-ior of hackers, I examine the actual customs that regulate
+After observing a contradiction between the ofﬁcial ideology deﬁned by open-source licenses and the actual behavior of hackers, I examine the actual customs that regulate
 the ownership and control of open-source software. I
 show that they imply an underlying theory of property
 rights homologous to the Lockean theory of land tenure. I
@@ -2464,122 +2030,91 @@ then relate that to an analysis of the hacker culture as a
 gi ving time, energy, and creativity away. Finally, I examine
 the consequences of this analysis for conﬂict resolution in
 the culture, and develop some prescriptive implications.
-65
-
-
-
 
 An Introductory Contradiction
 Anyone who watches the busy, tremendously productive world of
 Internet open-source software for a while is bound to notice an
 interesting contradiction between what open-source hackers say
-they believe and the way they actually behave—between the ofﬁ-
-cial ideology of the open-source culture and its actual practice.
+they believe and the way they actually behave—between the ofﬁcial ideology of the open-source culture and its actual practice.
 Cultures are adaptive machines. The open-source culture is a
 response to an identiﬁable set of drives and pressures. As usual,
 the culture’s adaptation to its circumstances manifests both as
 conscious ideology and as implicit, unconscious or semi-conscious
-knowledge. And, as is not uncommon, the unconscious adapta-
-tions are partly at odds with the conscious ideology.
+knowledge. And, as is not uncommon, the unconscious adaptations are partly at odds with the conscious ideology.
 In this essay, I will dig around the roots of that contradiction, and
 use it to discover those drives and pressures. I will deduce some
 interesting things about the hacker culture and its customs. I will
-conclude by suggesting ways in which the culture’s implicit knowl-
-edge can be leveraged better.
+conclude by suggesting ways in which the culture’s implicit knowledge can be leveraged better.
 The Varieties of Hacker Ideology
 The ideology of the Internet open-source culture (what hackers
 say they believe) is a fairly complex topic in itself. All members
-agree that open source (that is, software that is freely redis-
-tributable and can readily evolve and be modiﬁed to ﬁt changing
+agree that open source (that is, software that is freely redistributable and can readily evolve and be modiﬁed to ﬁt changing
 needs) is a good thing and worthy of signiﬁcant and collective
-effort. This agreement effectively deﬁnes membership in the cul-
-ture. However, the reasons individuals and various subcultures
+effort. This agreement effectively deﬁnes membership in the culture. However, the reasons individuals and various subcultures
 give for this belief vary considerably.
 Homesteading the Noosphere
-67
-
 
 The Cathedral and the Bazaar
-One degree of variation is zealotry; whether open source develop-
-ment is regarded merely as a convenient means to an end (good
+One degree of variation is zealotry; whether open source development is regarded merely as a convenient means to an end (good
 tools and fun toys and an interesting game to play) or as an end in
 itself.
 A person of great zeal might say, ‘‘Free software is my life! I exist
 to create useful, beautiful programs and information resources,
 and then give them away.’’ A person of moderate zeal might say,
-‘‘Open source is a good thing, which I am willing to spend signiﬁ-
-cant time helping happen.’’ A person of little zeal might say, ‘‘Yes,
+‘‘Open source is a good thing, which I am willing to spend signiﬁcant time helping happen.’’ A person of little zeal might say, ‘‘Yes,
 open source is okay sometimes. I play with it and respect people
 who build it.’’
 Another degree of variation is in hostility to commercial software
-and/or the companies perceived to dominate the commercial soft-
-ware market.
+and/or the companies perceived to dominate the commercial software market.
 A very anticommercial person might say, ‘‘Commercial software is
-theft and hoarding. I write free software to end this evil.’’ A mod-
-erately anticommercial person might say, ‘‘Commercial software in
+theft and hoarding. I write free software to end this evil.’’ A moderately anticommercial person might say, ‘‘Commercial software in
 general is okay because programmers deserve to get paid, but
 companies that coast on shoddy products and throw their weight
-around are evil.’’ An un-anticommercial person might say, ‘‘Com-
-mercial software is okay; I just use and/or write open-source soft-
-ware because I like it better.’’ (Nowadays, given the growth of the
+around are evil.’’ An un-anticommercial person might say, ‘‘Commercial software is okay; I just use and/or write open-source software because I like it better.’’ (Nowadays, given the growth of the
 open-source part of the industry since the ﬁrst public version of
 this essay, one might also hear, ‘‘Commercial software is ﬁne, as
 long as I get the source or it does what I want it to do.’’)
-All nine of the attitudes implied by the cross-product of the cate-
-gories mentioned earlier are represented in the open-source cul-
-ture. It is worthwhile to point out the distinctions because they
+All nine of the attitudes implied by the cross-product of the categories mentioned earlier are represented in the open-source culture. It is worthwhile to point out the distinctions because they
 imply different agendas and different adaptive and cooperative
 behaviors.
 Historically, the most visible and best-organized part of the hacker
 culture has been both very zealous and very anticommercial. The
 Free Software Foundation founded by Richard M. Stallman
-68
-
 
 (RMS) supported a great deal of open-source development from
 the early 1980s forward, including tools like Emacs and GCC,
 which are still basic to the Internet open-source world, and seem
 likely to remain so for the forseeable future.
 For many years the FSF was the single most important focus of
-open-source hacking, producing a huge number of tools still criti-
-cal to the culture. The FSF was also long the only sponsor of open
+open-source hacking, producing a huge number of tools still critical to the culture. The FSF was also long the only sponsor of open
 source with an institutional identity visible to outside observers of
-the hacker culture. They effectively deﬁned the term ‘free soft-
-ware’, deliberately giving it a confrontational weight (which the
+the hacker culture. They effectively deﬁned the term ‘free software’, deliberately giving it a confrontational weight (which the
 newer label ‘open source’ [http://www.opensource.org] just as
 deliberately avoids).
 Thus, perceptions of the hacker culture from both within and
 without it tended to identify the culture with the FSF’s zealous
 attitude and perceived anticommercial aims. RMS himself denies
 he is anticommercial, but his program has been so read by most
-people, including many of his most vocal partisans. The FSF’s vig-
-orous and explicit drive to ‘‘Stamp Out Software Hoarding!’’
+people, including many of his most vocal partisans. The FSF’s vigorous and explicit drive to ‘‘Stamp Out Software Hoarding!’’
 became the closest thing to a hacker ideology, and RMS the closest
 thing to a leader of the hacker culture.
 The FSF’s license terms, the ‘‘General Public License’’ (GPL),
-expresses the FSF’s attitudes. It is very widely used in the open-
-source world. North Carolina’s Metalab (http://metalab.unc.edu/
+expresses the FSF’s attitudes. It is very widely used in the opensource world. North Carolina’s Metalab (http://metalab.unc.edu/
 pub/Linux/welcome.html; formerly Sunsite) is the largest and most
 popular software archive in the Linux world. In July 1997 about
 half the Sunsite software packages with explicit license terms used
 GPL.
 But the FSF was never the only game in town. There was always a
 quieter, less confrontational and more market-friendly strain in the
-hacker culture. The pragmatists were loyal not so much to an ide-
-ology as to a group of engineering traditions founded on early
+hacker culture. The pragmatists were loyal not so much to an ideology as to a group of engineering traditions founded on early
 open-source efforts that predated the FSF. These traditions
 included, most importantly, the intertwined technical cultures of
 Unix and the pre-commercial Internet.
 Homesteading the Noosphere
-69
-
 
 The Cathedral and the Bazaar
 The typical pragmatist attitude is only moderately anticommercial,
-and its major grievance against the corporate world is not ‘hoard-
-ing’ per se. Rather it is that world’s perverse refusal to adopt supe-
-rior approaches incorporating Unix and open standards and open-
-source software. If the pragmatist hates anything, it is less likely to
+and its major grievance against the corporate world is not ‘hoarding’ per se. Rather it is that world’s perverse refusal to adopt superior approaches incorporating Unix and open standards and opensource software. If the pragmatist hates anything, it is less likely to
 be ‘hoarders’ in general than the current King Log of the software
 establishment; formerly IBM, now Microsoft.
 To pragmatists the GPL is important as a tool, rather than as an
@@ -2598,8 +2133,7 @@ in general. Through the 1980s and early 1990s, this attitude
 tended to be associated with fans of Berkeley Unix, users of the
 BSD license, and the early efforts to build open-source Unixes
 from the BSD source base. These efforts, however, failed to build
-bazaar communities of signiﬁcant size, and became seriously frag-
-mented and ineffective.
+bazaar communities of signiﬁcant size, and became seriously fragmented and ineffective.
 Not until the Linux explosion of early 1993–1994 did pragmatism
 ﬁnd a real power base. Although Linus Torvalds never made a
 point of opposing RMS, he set an example by looking benignly on
@@ -2609,29 +2143,21 @@ by gently deriding the more purist and fanatical elements in the
 culture.
 A side effect of the rapid growth of Linux was the induction of a
 large number of new hackers for which Linux was their primary
-70
-
 
 loyalty and the FSF’s agenda primarily of historical interest.
-Though the newer wave of Linux hackers might describe the sys-
-tem as ‘‘the choice of a GNU generation’’, most tended to emulate
+Though the newer wave of Linux hackers might describe the system as ‘‘the choice of a GNU generation’’, most tended to emulate
 Torvalds more than Stallman.
-Increasingly it was the anticommercial purists who found them-
-selves in a minority. How much things had changed would not
+Increasingly it was the anticommercial purists who found themselves in a minority. How much things had changed would not
 become apparent until the Netscape announcement in February
 1998 that it would distribute Navigator 5.0 in source. This excited
 more interest in ‘free software’ within the corporate world. The
 subsequent call to the hacker culture to exploit this unprecedented
 opportunity and to re-label its product from ‘free software’ to
-‘open source’ was met with a level of instant approval that sur-
-prised everybody involved.
+‘open source’ was met with a level of instant approval that surprised everybody involved.
 In a reinforcing development, the pragmatist part of the culture
-was itself becoming polycentric by the mid-1990s. Other semi-
-independent communities with their own self-consciousness and
+was itself becoming polycentric by the mid-1990s. Other semiindependent communities with their own self-consciousness and
 charismatic leaders began to bud from the Unix/Internet root
-stock. Of these, the most important after Linux was the Perl cul-
-ture under Larry Wall. Smaller, but still signiﬁcant, were the tradi-
-tions building up around John Osterhout’s Tcl and Guido van
+stock. Of these, the most important after Linux was the Perl culture under Larry Wall. Smaller, but still signiﬁcant, were the traditions building up around John Osterhout’s Tcl and Guido van
 Rossum’s Python languages. All three of these communities
 expressed their ideological independence by devising their own,
 non-GPL licensing schemes.
@@ -2639,15 +2165,10 @@ Promiscuous Theory,
 Puritan Practice
 Through all these changes, nevertheless, there remained a broad
 consensus theory of what ‘free software’ or ‘open source’ is. The
-clearest expression of this common theory can be found in the var-
-ious open-source licenses, all of which have crucial common ele-
-ments.
+clearest expression of this common theory can be found in the various open-source licenses, all of which have crucial common elements.
 In 1997 these common elements were distilled into the Debian
-Free Software Guidelines, which became the Open Source Deﬁni-
-tion (http://www.opensource.org). Under the guidelines deﬁned by
+Free Software Guidelines, which became the Open Source Deﬁnition (http://www.opensource.org). Under the guidelines deﬁned by
 Homesteading the Noosphere
-71
-
 
 The Cathedral and the Bazaar
 the OSD, an open-source license must protect an unconditional
@@ -2658,38 +2179,29 @@ licenses such as the GPL, the BSD license, and Perl’s Artistic
 License) is that anyone can hack anything. Nothing prevents half a
 dozen different people from taking any given open-source product
 (such as, say the Free Software Foundations’s gcc C compiler),
-duplicating the sources, running off with them in different evolu-
-tionary directions, but all claiming to be the product.
-This kind of divergence is called a fork. The most important char-
-acteristic of a fork is that it spawns competing projects that can-
-not later exchange code, splitting the potential developer
+duplicating the sources, running off with them in different evolutionary directions, but all claiming to be the product.
+This kind of divergence is called a fork. The most important characteristic of a fork is that it spawns competing projects that cannot later exchange code, splitting the potential developer
 community. (There are phenomena that look superﬁcially like
 forking but are not, such as the proliferation of different Linux
 distributions. In these pseudo-forking cases there may be separate
 projects, but they use mostly common code and can beneﬁt from
 each other’s development efforts completely enough that they are
-neither technically nor sociologically a waste, and are not per-
-ceived as forks.)
+neither technically nor sociologically a waste, and are not perceived as forks.)
 The open-source licenses do nothing to restrain forking, let alone
 pseudo-forking; in fact, one could argue that they implicitly
 encourage both. In practice, however, pseudo-forking is common
 but forking almost never happens. Splits in major projects have
 been rare, and are always accompanied by re-labeling and a large
 volume of public self-justiﬁcation. It is clear, in such cases as the
-GNU Emacs/XEmacs split, or the gcc/egcs split, or the various ﬁs-
-sionings of the BSD splinter groups, that the splitters felt they
+GNU Emacs/XEmacs split, or the gcc/egcs split, or the various ﬁssionings of the BSD splinter groups, that the splitters felt they
 were going against a fairly powerful community norm.1
 In fact (and in contradiction to the anyone-can-hack-anything
 consensus theory) the open-source culture has an elaborate but
 largely unadmitted set of ownership customs.
-72
 
-
-These customs regulate who can modify software, the circum-
-stances under which it can be modiﬁed, and (especially) who has
+These customs regulate who can modify software, the circumstances under which it can be modiﬁed, and (especially) who has
 the right to redistribute modiﬁed versions back to the community.
-The taboos of a culture throw its norms into sharp relief. There-
-fore, it will be useful later on if we summarize some important
+The taboos of a culture throw its norms into sharp relief. Therefore, it will be useful later on if we summarize some important
 ones here:
 •
 There is strong social pressure against forking projects. It does
@@ -2708,8 +2220,7 @@ ownership customs in detail. We shall inquire not only into how
 they function but what they reveal about the underlying social
 dynamics and incentive structures of the open-source community.
 Ownership and Open Source
-What does ‘ownership’ mean when property is inﬁnitely reduplica-
-ble, highly malleable, and the surrounding culture has neither
+What does ‘ownership’ mean when property is inﬁnitely reduplicable, highly malleable, and the surrounding culture has neither
 coercive power relationships nor material scarcity economics?
 Actually, in the case of the open-source culture this is an easy
 question to answer. The owner of a software project is the person
@@ -2720,32 +2231,25 @@ though all projects are owned by some one person. It should be
 understood, however, that projects may be owned by groups. We
 shall examine the internal dynamics of such groups later on.)
 Homesteading the Noosphere
-73
-
 
 The Cathedral and the Bazaar
 According to the standard open-source licenses, all parties are
 equals in the evolutionary game. But in practice there is a very
 well-recognized distinction between ‘ofﬁcial’ patches, approved
-and integrated into the evolving software by the publicly recog-
-nized maintainers, and ‘rogue’ patches by third parties. Rogue
+and integrated into the evolving software by the publicly recognized maintainers, and ‘rogue’ patches by third parties. Rogue
 patches are unusual, and generally not trusted.2
 That public redistribution is the fundamental issue is easy to
-establish. Custom encourages people to patch software for per-
-sonal use when necessary. Custom is indifferent to people who
+establish. Custom encourages people to patch software for personal use when necessary. Custom is indifferent to people who
 redistribute modiﬁed versions within a closed user or development
 group. It is only when modiﬁcations are posted to the open-source
-community in general, to compete with the original, that owner-
-ship becomes an issue.
-There are, in general, three ways to acquire ownership of an open-
-source project. One, the most obvious, is to found the project.
+community in general, to compete with the original, that ownership becomes an issue.
+There are, in general, three ways to acquire ownership of an opensource project. One, the most obvious, is to found the project.
 When a project has had only one maintainer since its inception
 and the maintainer is still active, custom does not even permit a
 question as to who owns the project.
 The second way is to have ownership of the project handed to you
 by the previous owner (this is sometimes known as “passing the
-baton”). It is well understood in the community that project own-
-ers have a duty to pass projects to competent successors when they
+baton”). It is well understood in the community that project owners have a duty to pass projects to competent successors when they
 are no longer willing or able to invest needed time in development
 or maintenance work.
 It is signiﬁcant that in the case of major projects, such transfers of
@@ -2754,11 +2258,8 @@ unheard of for the open-source community at large to actually
 interfere in the owner’s choice of succession, customary practice
 clearly incorporates a premise that public legitimacy is important.
 For minor projects, it is generally sufﬁcient for a change history
-included with the project distribution to note the change of owner-
-ship. The clear presumption is that if the former owner has not in
+included with the project distribution to note the change of ownership. The clear presumption is that if the former owner has not in
 fact voluntarily transferred control, he or she may reassert control
-74
-
 
 with community backing by objecting publicly within a reasonable
 period of time.
@@ -2766,25 +2267,20 @@ The third way to acquire ownership of a project is to observe that
 it needs work and the owner has disappeared or lost interest. If
 you want to do this, it is your responsibility to make the effort to
 ﬁnd the owner. If you don’t succeed, then you may announce in a
-relevant place (such as a Usenet newsgroup dedicated to the appli-
-cation area) that the project appears to be orphaned, and that you
+relevant place (such as a Usenet newsgroup dedicated to the application area) that the project appears to be orphaned, and that you
 are considering taking responsibility for it.
-Custom demands that you allow some time to pass before follow-
-ing up with an announcement that you have declared yourself the
+Custom demands that you allow some time to pass before following up with an announcement that you have declared yourself the
 new owner. In this interval, if someone else announces that they
 have been actually working on the project, their claim trumps
 yours. It is considered good form to give public notice of your
 intentions more than once. You get more points for good form if
-you announce in many relevant forums (related newsgroups, mail-
-ing lists), and still more if you show patience in waiting for replies.
+you announce in many relevant forums (related newsgroups, mailing lists), and still more if you show patience in waiting for replies.
 In general, the more visible effort you make to allow the previous
 owner or other claimants to respond, the better your claim if no
 response is forthcoming.
 If you have gone through this process in sight of the project’s user
-community, and there are no objections, then you may claim own-
-ership of the orphaned project and so note in its history ﬁle. This,
-however, is less secure than being passed the baton, and you can-
-not expect to be considered fully legitimate until you have made
+community, and there are no objections, then you may claim ownership of the orphaned project and so note in its history ﬁle. This,
+however, is less secure than being passed the baton, and you cannot expect to be considered fully legitimate until you have made
 substantial improvements in the sight of the user community.
 I have observed these customs in action for 20 years, going back
 to the pre-FSF ancient history of open-source software. They have
@@ -2793,8 +2289,6 @@ most hackers have followed them without being fully aware of
 doing so. Indeed, this may be the ﬁrst conscious and reasonably
 complete summary ever to have been written down.
 Homesteading the Noosphere
-75
-
 
 The Cathedral and the Bazaar
 Another is that, for unconscious customs, they have been followed
@@ -2818,8 +2312,7 @@ centered around game-cracking and pirate bulletin-board systems)
 illuminates the generative patterns of both rather well. We’ll
 return to the d00dz for contrast later in this essay.
 Locke and Land Title
-To understand this generative pattern, it helps to notice a histori-
-cal analogy for these customs that is far outside the domain of
+To understand this generative pattern, it helps to notice a historical analogy for these customs that is far outside the domain of
 hackers’ usual concerns. As students of legal history and political
 philosophy may recognize, the theory of property they imply is
 virtually identical to the Anglo-American common-law theory of
@@ -2828,8 +2321,6 @@ In this theory, there are three ways to acquire ownership of land:
 On a frontier, where land exists that has never had an owner, one
 can acquire ownership by homesteading, mixing one’s labor with
 the unowned land, fencing it, and defending one’s title.
-76
-
 
 The usual means of transfer in settled areas is transfer of title—
 that is, receiving the deed from the previous owner. In this theory,
@@ -2852,65 +2343,49 @@ Logically similar theories have tended to evolve wherever property
 has high economic or survival value and no single authority is
 powerful enough to force central allocation of scarce goods. This
 is true even in the hunter-gatherer cultures that are sometimes
-romantically thought to have no concept of ‘property’. For exam-
-ple, in the traditions of the !Kung San bushmen of the Kgalagadi
+romantically thought to have no concept of ‘property’. For example, in the traditions of the !Kung San bushmen of the Kgalagadi
 (formerly Kalahari) Desert, there is no ownership of hunting
 grounds. But there is ownership of waterholes and springs under a
 theory recognizably akin to Locke’s.
-The !Kung San example is instructive, because it shows that Lock-
-ean property customs arise only where the expected return from
+The !Kung San example is instructive, because it shows that Lockean property customs arise only where the expected return from
 the resource exceeds the expected cost of defending it. Hunting
 grounds are not property because the return from hunting is
 highly unpredictable and variable, and (although highly prized)
 not a necessity for day-to-day survival. Waterholes, on the other
 hand, are vital to survival and small enough to defend.
 Homesteading the Noosphere
-77
-
 
 The Cathedral and the Bazaar
 The ‘noosphere’ of this essay’s title is the territory of ideas, the
 space of all possible thoughts.3 What we see implied in hacker
 ownership customs is a Lockean theory of property rights in one
-subset of the noosphere, the space of all programs. Hence ‘home-
-steading the noosphere’, which is what every founder of a new
+subset of the noosphere, the space of all programs. Hence ‘homesteading the noosphere’, which is what every founder of a new
 open-source project does.
 Faré Rideau (fare@tunes.org) correctly points out that hackers do
 not exactly operate in the territory of pure ideas. He asserts that
 what hackers own is programming projects—intensional focus
 points of material labor (development, service, etc.), to which are
-associated things like reputation, trustworthiness, etc. He there-
-fore asserts that the space spanned by hacker projects is not the
-noosphere but a sort of dual of it, the space of noosphere-explor-
-ing program projects. (With an apologetic nod to the astrophysi-
-cists out there, it would be etymologically correct to call this dual
+associated things like reputation, trustworthiness, etc. He therefore asserts that the space spanned by hacker projects is not the
+noosphere but a sort of dual of it, the space of noosphere-exploring program projects. (With an apologetic nod to the astrophysicists out there, it would be etymologically correct to call this dual
 space the ‘ergosphere’ or ‘sphere of work’.)
 In practice, the distinction between noosphere and ergosphere is
-not important for the purposes of our present argument. It is dubi-
-ous whether the noosphere in the pure sense on which Faré insists
+not important for the purposes of our present argument. It is dubious whether the noosphere in the pure sense on which Faré insists
 can be said to exist in any meaningful way; one would almost
-have to be a Platonic philosopher to believe in it. And the distinc-
-tion between noosphere and ergosphere is only of practical impor-
-tance if one wishes to assert that ideas (the elements of the
+have to be a Platonic philosopher to believe in it. And the distinction between noosphere and ergosphere is only of practical importance if one wishes to assert that ideas (the elements of the
 noosphere) cannot be owned, but their instantiations as projects
 can. This question leads to issues in the theory of intellectual
 property that are beyond the scope of this essay4).
 To avoid confusion, however, it is important to note that neither
-the noosphere nor the ergosphere is the same as the totality of vir-
-tual locations in electronic media that is sometimes (to the disgust
+the noosphere nor the ergosphere is the same as the totality of virtual locations in electronic media that is sometimes (to the disgust
 of most hackers) called ‘cyberspace’. Property there is regulated by
 completely different rules that are closer to those of the material
 substratum — essentially, he who owns the media and machines on
 which a part of cyberspace is hosted owns that piece of cyberspace
 as a result.
-78
-
 
 The Lockean logic of custom suggests strongly that open-source
 hackers observe the customs they do in order to defend some kind
-of expected return from their effort. The return must be more sig-
-niﬁcant than the effort of homesteading projects, the cost of main-
-taining version histories that document ‘chain of title’, and the
+of expected return from their effort. The return must be more signiﬁcant than the effort of homesteading projects, the cost of maintaining version histories that document ‘chain of title’, and the
 time cost of making public notiﬁcations and waiting before taking
 adverse possession of an orphaned project.
 Furthermore, the ‘yield’ from open source must be something
@@ -2935,12 +2410,8 @@ economically signiﬁcant ways. It can get you a better job offer, or
 a consulting contract, or a book deal.
 This kind of side effect, however, is at best rare and marginal for
 most hackers; far too much so to make it convincing as a sole
-explanation, even if we ignore the repeated protestations by hack-
-ers that they’re doing what they do not for money but out of ide-
-alism or love.
+explanation, even if we ignore the repeated protestations by hackers that they’re doing what they do not for money but out of idealism or love.
 Homesteading the Noosphere
-79
-
 
 The Cathedral and the Bazaar
 However, the way such economic side effects are mediated is
@@ -2949,14 +2420,12 @@ dynamics of reputation within the open-source culture itself has
 considerable explanatory power.
 The Hacker Milieu as Gift Culture
 To understand the role of reputation in the open-source culture, it
-is helpful to move from history further into anthropology and eco-
-nomics, and examine the difference between exchange cultures
+is helpful to move from history further into anthropology and economics, and examine the difference between exchange cultures
 and gift cultures.
 Human beings have an innate drive to compete for social status;
 it’s wired in by our evolutionary history. For the 90% of hominid
 history that ran before the invention of agriculture, our ancestors
-lived in small nomadic hunter-gatherer bands. High-status individ-
-uals (those most effective at informing coalitions and persuading
+lived in small nomadic hunter-gatherer bands. High-status individuals (those most effective at informing coalitions and persuading
 others to cooperate with them) got the healthiest mates and access
 to the best food. This drive for status expresses itself in different
 ways, depending largely on the degree of scarcity of survival
@@ -2964,19 +2433,14 @@ goods.
 Most ways humans have of organizing are adaptations to scarcity
 and want. Each way carries with it different ways of gaining social
 status.
-The simplest way is the command hierarchy. In command hierar-
-chies, scarce goods are allocated by one central authority and
+The simplest way is the command hierarchy. In command hierarchies, scarce goods are allocated by one central authority and
 backed up by force. Command hierarchies scale very poorly;5 they
 become increasingly brutal and inefﬁcient as they get larger. For
 this reason, command hierarchies above the size of an extended
-family are almost always parasites on a larger economy of a differ-
-ent type. In command hierarchies, social status is primarily deter-
-mined by access to coercive power.
+family are almost always parasites on a larger economy of a different type. In command hierarchies, social status is primarily determined by access to coercive power.
 Our society is predominantly an exchange economy. This is a
 sophisticated adaptation to scarcity that, unlike the command
 model, scales quite well. Allocation of scarce goods is done in a
-80
-
 
 decentralized way through trade and voluntary cooperation (and
 in fact, the dominating effect of competitive desire is to produce
@@ -2991,9 +2455,7 @@ There’s a third model, however, that is radically different from
 either and not generally recognized except by anthropologists; the
 gift culture.
 Gift cultures are adaptations not to scarcity but to abundance.
-They arise in populations that do not have signiﬁcant material-
-scarcity problems with survival goods. We can observe gift cul-
-tures in action among aboriginal cultures living in ecozones with
+They arise in populations that do not have signiﬁcant materialscarcity problems with survival goods. We can observe gift cultures in action among aboriginal cultures living in ecozones with
 mild climates and abundant food. We can also observe them in
 certain strata of our own society, especially in show business and
 among the very wealthy.
@@ -3001,26 +2463,19 @@ Abundance makes command relationships difﬁcult to sustain and
 exchange relationships an almost pointless game. In gift cultures,
 social status is determined not by what you control but by what
 you give away.
-Thus the Kwakiutl chieftain’s potlach party. Thus the multi-
-millionaire’s elaborate and usually public acts of philanthropy.
+Thus the Kwakiutl chieftain’s potlach party. Thus the multimillionaire’s elaborate and usually public acts of philanthropy.
 And thus the hacker’s long hours of effort to produce high-quality
 open-source code.
-For examined in this way, it is quite clear that the society of open-
-source hackers is in fact a gift culture. Within it, there is no seri-
-ous shortage of the ‘survival necessities’—disk space, network
+For examined in this way, it is quite clear that the society of opensource hackers is in fact a gift culture. Within it, there is no serious shortage of the ‘survival necessities’—disk space, network
 bandwidth, computing power. Software is freely shared. This
 abundance creates a situation in which the only available measure
 of competitive success is reputation among one’s peers.
 Homesteading the Noosphere
-81
-
 
 The Cathedral and the Bazaar
 This observation is not in itself entirely sufﬁcient to explain the
 observed features of hacker culture, however. The crackers and
-warez d00dz have a gift culture that thrives in the same (elec-
-tronic) media as that of the hackers, but their behavior is very dif-
-ferent. The group mentality in their culture is much stronger and
+warez d00dz have a gift culture that thrives in the same (electronic) media as that of the hackers, but their behavior is very different. The group mentality in their culture is much stronger and
 more exclusive than among hackers. They hoard secrets rather
 than sharing them; one is much more likely to ﬁnd cracker groups
 distributing sourceless executables that crack software than tips
@@ -3028,15 +2483,13 @@ that give away how they did it. (For an inside perspective on this
 behavior, see endnote 5).
 What this shows, in case it wasn’t obvious, is that there is more
 than one way to run a gift culture. History and values matter. I
-have summarized the history of the hacker culture in A Brief His-
-tory of Hackerdom; the ways in which it shaped present behavior
+have summarized the history of the hacker culture in A Brief History of Hackerdom; the ways in which it shaped present behavior
 are not mysterious. Hackers have deﬁned their culture by a set of
 choices about the form that their competition will take. It is that
 form that we will examine in the remainder of this essay.
 The Joy of Hacking
 In making this ‘reputation game’ analysis, by the way, I do not
-mean to devalue or ignore the pure artistic satisfaction of design-
-ing beautiful software and making it work. Hackers all experience
+mean to devalue or ignore the pure artistic satisfaction of designing beautiful software and making it work. Hackers all experience
 this kind of satisfaction and thrive on it. People for whom it is not
 a signiﬁcant motivation never become hackers in the ﬁrst place,
 just as people who don’t love music never become composers.
@@ -3049,24 +2502,17 @@ different results than the reputation game model?
 Not really. In examining the craftsmanship model, we come back
 to the same problems that constrain hackerdom to operate like a
 gift culture. How can one maximize quality if there is no metric
-82
-
 
 for quality? If scarcity economics doesn’t operate, what metrics
-are available besides peer evaluation? It appears that any crafts-
-manship culture ultimately must structure itself through a reputa-
-tion game—and, in fact, we can observe exactly this dynamic in
+are available besides peer evaluation? It appears that any craftsmanship culture ultimately must structure itself through a reputation game—and, in fact, we can observe exactly this dynamic in
 many historical craftsmanship cultures from the medieval guilds
 onwards.
 In one important respect, the craftsmanship model is weaker than
-the gift culture model; by itself, it doesn’t help explain the contra-
-diction we began this essay with.
-Finally, the craftsmanship motivation itself may not be psychologi-
-cally as far removed from the reputation game as we might like to
+the gift culture model; by itself, it doesn’t help explain the contradiction we began this essay with.
+Finally, the craftsmanship motivation itself may not be psychologically as far removed from the reputation game as we might like to
 assume. Imagine your beautiful program locked up in a drawer
 and never used again. Now imagine it being used effectively and
-with pleasure by many people. Which dream gives you satis-
-faction?
+with pleasure by many people. Which dream gives you satisfaction?
 Nevertheless, we’ll keep an eye on the craftsmanship model. It is
 intuitively appealing to many hackers, and explains some aspects
 of individual behavior well enough.6
@@ -3074,20 +2520,16 @@ After I published the ﬁrst version of this essay on the Internet, an
 anonymous respondent commented: ‘‘You may not work to get
 reputation, but the reputation is a real payment with consequences
 if you do the job well.’’ This is a subtle and important point. The
-reputation incentives continue to operate whether or not a crafts-
-man is aware of them; thus, ultimately, whether or not a hacker
+reputation incentives continue to operate whether or not a craftsman is aware of them; thus, ultimately, whether or not a hacker
 understands his own behavior as part of the reputation game, his
 behavior will be shaped by that game.
 Other respondents related peer-esteem rewards and the joy of
 hacking to the levels above subsistence needs in Abraham
 Maslow’s well-known ‘hierarchy of values’ model of human
-motivation.7 On this view, the joy of hacking fulﬁlls a self-actual-
-ization or transcendence need, which will not be consistently
+motivation.7 On this view, the joy of hacking fulﬁlls a self-actualization or transcendence need, which will not be consistently
 expressed until lower-level needs (including those for physical
 security and for ‘belongingness’ or peer esteem) have been at least
 Homesteading the Noosphere
-83
-
 
 The Cathedral and the Bazaar
 minimally satisﬁed. Thus, the reputation game may be critical in
@@ -3097,17 +2539,14 @@ The Many Faces of Reputation
 There are reasons general to every gift culture why peer repute
 (prestige) is worth playing for:
 First and most obviously, good reputation among one’s peers is a
-primary reward. We’re wired to experience it that way for evolu-
-tionary reasons touched on earlier. (Many people learn to redirect
+primary reward. We’re wired to experience it that way for evolutionary reasons touched on earlier. (Many people learn to redirect
 their drive for prestige into various sublimations that have no
-obvious connection to a visible peer group, such as ‘honor’, ‘ethi-
-cal integrity’, ‘piety’, etc.; this does not change the underlying
+obvious connection to a visible peer group, such as ‘honor’, ‘ethical integrity’, ‘piety’, etc.; this does not change the underlying
 mechanism.)
 Second, prestige is a good way (and in a pure gift economy, the
 only way) to attract attention and cooperation from others. If one
 is well known for generosity, intelligence, fair dealing, leadership
-ability, or other good qualities, it becomes much easier to per-
-suade other people that they will gain by association with you.
+ability, or other good qualities, it becomes much easier to persuade other people that they will gain by association with you.
 Third, if your gift economy is in contact with or intertwined with
 an exchange economy or a command hierarchy, your reputation
 may spill over and earn you higher status there.
@@ -3121,12 +2560,8 @@ obvious as that of material gifts or exchange-economy money. It is
 much harder to objectively distinguish a ﬁne gift from a poor one.
 Accordingly, the success of a giver’s bid for status is delicately
 dependent on the critical judgement of peers.
-84
 
-
-Another peculiarity is the relative purity of the open-source cul-
-ture. Most gift cultures are compromised—either by exchange-
-economy relationships such as trade in luxury goods, or by
+Another peculiarity is the relative purity of the open-source culture. Most gift cultures are compromised—either by exchangeeconomy relationships such as trade in luxury goods, or by
 command-economy relationships such as family or clan groupings.
 No signiﬁcant analogues of these exist in the open-source culture;
 thus, ways of gaining status other than by peer repute are virtually
@@ -3134,8 +2569,7 @@ absent.
 Ownership Rights and Reputation
 Incentives
 We are now in a position to pull together the previous analyses
-into a coherent account of hacker ownership customs. We under-
-stand the yield from homesteading the noosphere now; it is peer
+into a coherent account of hacker ownership customs. We understand the yield from homesteading the noosphere now; it is peer
 repute in the gift culture of hackers, with all the secondary gains
 and side effects that implies.
 From this understanding, we can analyze the Lockean property
@@ -3143,20 +2577,14 @@ customs of hackerdom as a means of maximizing reputation
 incentives—of ensuring that peer credit goes where it is due and
 does not go where it is not due.
 The three taboos we have observed make perfect sense under this
-analysis. One’s reputation can suffer unfairly if someone else mis-
-appropriates or mangles one’s work; these taboos (and related cus-
-toms) attempt to prevent this from happening. (Or, to put it more
-pragmatically, hackers generally refrain from forking or rogue-
-patching others’ projects in order to be able to deny legitimacy to
+analysis. One’s reputation can suffer unfairly if someone else misappropriates or mangles one’s work; these taboos (and related customs) attempt to prevent this from happening. (Or, to put it more
+pragmatically, hackers generally refrain from forking or roguepatching others’ projects in order to be able to deny legitimacy to
 the same behavior practiced against themselves.)
 •
-Forking projects is bad because it exposes pre-fork contribu-
-tors to a reputation risk they can only control by being active
+Forking projects is bad because it exposes pre-fork contributors to a reputation risk they can only control by being active
 in both child projects simultaneously after the fork. (This
 would generally be too confusing or difﬁcult to be practical.)
 Homesteading the Noosphere
-85
-
 
 The Cathedral and the Bazaar
 •
@@ -3165,8 +2593,7 @@ exposes the owners to an unfair reputation risk. Even if the
 ofﬁcial code is perfect, the owners will catch ﬂak from bugs in
 the patches (but see endnote 4.).
 •
-Surreptitiously ﬁling someone’s name off a project is, in cul-
-tural context, one of the ultimate crimes. Doing this steals the
+Surreptitiously ﬁling someone’s name off a project is, in cultural context, one of the ultimate crimes. Doing this steals the
 victim’s gift to be presented as the thief’s own.
 Of course, forking a project or distributing rogue patches for it
 also directly attacks the reputation of the original developer’s
@@ -3174,28 +2601,21 @@ group. If I fork or rogue-patch your project, I am saying, “You
 made a wrong decision by failing to take the project where I am
 taking it”; and anyone who uses my forked variation is endorsing
 this challenge. But this in itself would be a fair challenge, albeit
-extreme; it’s the sharpest end of peer review. It’s therefore not suf-
-ﬁcient in itself to account for the taboos, though it doubtless con-
-tributes force to them.
+extreme; it’s the sharpest end of peer review. It’s therefore not sufﬁcient in itself to account for the taboos, though it doubtless contributes force to them.
 All three taboo behaviors inﬂict global harm on the open-source
 community as well as local harm on the victim(s). Implicitly they
-damage the entire community by decreasing each potential con-
-tributor’s perceived likelihood that gift/productive behavior will be
+damage the entire community by decreasing each potential contributor’s perceived likelihood that gift/productive behavior will be
 rewarded.
-It’s important to note that there are alternate candidate explana-
-tions for two of these three taboos.
+It’s important to note that there are alternate candidate explanations for two of these three taboos.
 First, hackers often explain their antipathy to forking projects by
 bemoaning the wasteful duplication of work it would imply as the
 child products evolve on more-or-less parallel courses into the
-future. They may also observe that forking tends to split the co-
-developer community, leaving both child projects with fewer
+future. They may also observe that forking tends to split the codeveloper community, leaving both child projects with fewer
 brains to use than the parent.
 A respondent has pointed out that it is unusual for more than one
 offspring of a fork to survive with signiﬁcant ‘market share’ into
 the long term. This strengthens the incentives for all parties to
 cooperate and avoid forking, because it’s hard to know in advance
-86
-
 
 who will be on the losing side and see a lot of their work either
 disappear entirely or languish in obscurity.
@@ -3205,15 +2625,11 @@ social pressure against them. Contention and dispute disrupt the
 teamwork that is necessary for each individual contributor to
 reach his or her goals.
 Dislike of rogue patches is often explained by the objection that
-they can create compatibility problems between the daughter ver-
-sions, complicate bug-tracking enormously, and inﬂict work on
-maintainers who have quite enough to do catching their own mis-
-takes.
-There is considerable truth to these explanations, and they cer-
-tainly do their bit to reinforce the Lockean logic of ownership. But
+they can create compatibility problems between the daughter versions, complicate bug-tracking enormously, and inﬂict work on
+maintainers who have quite enough to do catching their own mistakes.
+There is considerable truth to these explanations, and they certainly do their bit to reinforce the Lockean logic of ownership. But
 while intellectually attractive, they fail to explain why so much
-emotion and territoriality gets displayed on the infrequent occa-
-sions that the taboos get bent or broken—not just by the injured
+emotion and territoriality gets displayed on the infrequent occasions that the taboos get bent or broken—not just by the injured
 parties, but by bystanders and observers who often react quite
 harshly. Cold-blooded concerns about duplication of work and
 maintainance hassles simply do not sufﬁciently explain the
@@ -3226,23 +2642,17 @@ section.
 The Problem of Ego
 At the beginning of this essay I mentioned that the unconscious
 adaptive knowledge of a culture is often at odds with its conscious
-ideology. One major example of this is the fact that Lockean own-
-ership customs have been widely followed despite the fact that
+ideology. One major example of this is the fact that Lockean ownership customs have been widely followed despite the fact that
 they violate the stated intent of the standard licenses.
 Homesteading the Noosphere
-87
-
 
 The Cathedral and the Bazaar
 I have observed another interesting example of this phenomenon
 when discussing the reputation-game analysis with hackers. This is
-that many hackers resisted the analysis and showed a strong reluc-
-tance to admit that their behavior was motivated by a desire for
-peer repute or, as I incautiously labeled it at the time, ‘ego satis-
-faction’.
+that many hackers resisted the analysis and showed a strong reluctance to admit that their behavior was motivated by a desire for
+peer repute or, as I incautiously labeled it at the time, ‘ego satisfaction’.
 This illustrates an interesting point about the hacker culture. It
-consciously distrusts and despises egotism and ego-based motiva-
-tions; self-promotion tends to be mercilessly criticized, even when
+consciously distrusts and despises egotism and ego-based motivations; self-promotion tends to be mercilessly criticized, even when
 the community might appear to have something to gain from it.
 So much so, in fact, that the culture’s ‘big men’ and tribal elders
 are required to talk softly and humorously deprecate themselves at
@@ -3252,29 +2662,23 @@ entirely on ego cries out for explanation.
 A large part of it, certainly, stems from the generally negative
 Europo-American attitude towards ‘ego’. The cultural matrix of
 most hackers teaches them that desiring ego satisfaction is a bad
-(or at least immature) motivation; that ego is at best an eccentric-
-ity tolerable only in prima donnas and often an actual sign of
+(or at least immature) motivation; that ego is at best an eccentricity tolerable only in prima donnas and often an actual sign of
 mental pathology. Only sublimated and disguised forms like ‘peer
-repute’, ‘self-esteem’, ‘professionalism’, or ‘pride of accomplish-
-ment’ are generally acceptable.
+repute’, ‘self-esteem’, ‘professionalism’, or ‘pride of accomplishment’ are generally acceptable.
 I could write an entire other essay on the unhealthy roots of this
 part of our cultural inheritance, and the astonishing amount of
 self-deceptive harm we do by believing (against all the evidence of
 psychology and behavior) that we ever have truly ‘selﬂess’
 motives. Perhaps I would, if Friedrich Wilhelm Nietzsche and Ayn
 Rand had not already done an entirely competent job (whatever
-their other failings) of deconstructing ‘altruism’ into unacknowl-
-edged kinds of self-interest.
+their other failings) of deconstructing ‘altruism’ into unacknowledged kinds of self-interest.
 But I am not doing moral philosophy or psychology here, so I will
 simply observe one minor kind of harm done by the belief that ego
 is evil, which is this: it has made it emotionally difﬁcult for many
-88
-
 
 hackers to consciously understand the social dynamics of their
 own culture!
-But we are not quite done with this line of investigation. The sur-
-rounding culture’s taboo against visibly ego-driven behavior is so
+But we are not quite done with this line of investigation. The surrounding culture’s taboo against visibly ego-driven behavior is so
 much intensiﬁed in the hacker (sub)culture that one must suspect
 it of having some sort of special adaptive function for hackers.
 Certainly the taboo is weaker (or nonexistent) among many other
@@ -3289,23 +2693,18 @@ The contrast with the pirate culture is instructive. In that culture,
 status-seeking behavior is overt and even blatant. These crackers
 seek acclaim for releasing ‘‘zero-day warez’’ (cracked software
 redistributed on the day of the original uncracked version’s
-release) but are closemouthed about how they do it. These magi-
-cians don’t like to give away their tricks. And, as a result, the
+release) but are closemouthed about how they do it. These magicians don’t like to give away their tricks. And, as a result, the
 knowledge base of the cracker culture as a whole increases only
 slowly.
-In the hacker community, by contrast, one’s work is one’s state-
-ment. There’s a very strict meritocracy (the best craftsmanship
+In the hacker community, by contrast, one’s work is one’s statement. There’s a very strict meritocracy (the best craftsmanship
 wins) and there’s a strong ethos that quality should (indeed must)
 be left to speak for itself. The best brag is code that ‘‘just works’’,
 and that any competent programmer can see is good stuff. Thus,
 the hacker culture’s knowledge base increases rapidly.
-The taboo against ego-driven posturing therefore increases pro-
-ductivity. But that’s a second-order effect; what is being directly
+The taboo against ego-driven posturing therefore increases productivity. But that’s a second-order effect; what is being directly
 protected here is the quality of the information in the community’s
 peer-evaluation system. That is, boasting or self-importance is
 Homesteading the Noosphere
-89
-
 
 The Cathedral and the Bazaar
 suppressed because it behaves like noise tending to corrupt the
@@ -3315,34 +2714,25 @@ For very similar reasons, attacking the author rather than the code
 is not done. There is an interesting subtlety here that reinforces the
 point; hackers feel very free to ﬂame each other over ideological
 and personal differences, but it is unheard of for any hacker to
-publicly attack another’s competence at technical work (even pri-
-vate criticism is unusual and tends to be muted in tone). Bug-hunt-
-ing and criticism are always project-labeled, not person-labeled.
-Furthermore, past bugs are not automatically held against a devel-
-oper; the fact that a bug has been ﬁxed is generally considered
+publicly attack another’s competence at technical work (even private criticism is unusual and tends to be muted in tone). Bug-hunting and criticism are always project-labeled, not person-labeled.
+Furthermore, past bugs are not automatically held against a developer; the fact that a bug has been ﬁxed is generally considered
 more important than the fact that one used to be there. As one
 respondent observed, one can gain status by ﬁxing ‘Emacs bugs’,
-but not by ﬁxing ‘Richard Stallman’s bugs’ — and it would be con-
-sidered extremely bad form to criticize Stallman for old Emacs
+but not by ﬁxing ‘Richard Stallman’s bugs’ — and it would be considered extremely bad form to criticize Stallman for old Emacs
 bugs that have since been ﬁxed.
 This makes an interesting contrast with many parts of academia,
-in which trashing putatively defective work by others is an impor-
-tant mode of gaining reputation. In the hacker culture, such
+in which trashing putatively defective work by others is an important mode of gaining reputation. In the hacker culture, such
 behavior is rather heavily tabooed—so heavily, in fact, that the
 absence of such behavior did not present itself to me as a datum
 until that one respondent with an unusual perspective pointed it
 out nearly a full year after this essay was ﬁrst published!
 The taboo against attacks on competence (not shared with
-academia) is even more revealing than the (shared) taboo on pos-
-turing, because we can relate it to a difference between academia
+academia) is even more revealing than the (shared) taboo on posturing, because we can relate it to a difference between academia
 and hackerdom in their communications and support structures.
-The hacker culture’s medium of gifting is intangible, its communi-
-cations channels are poor at expressing emotional nuance, and
+The hacker culture’s medium of gifting is intangible, its communications channels are poor at expressing emotional nuance, and
 face-to-face contact among its members is the exception rather
 than the rule. This gives it a lower tolerance of noise than most
 other gift cultures, and goes a long way to explain both the taboo
-90
-
 
 against posturing and the taboo against attacks on competence.
 Any signiﬁcant incidence of ﬂames over hackers’ competence
@@ -3354,11 +2744,9 @@ against dangerous noise will hold.8
 Talking softly is also functional if one aspires to be a maintainer
 of a successful project; one must convince the community that one
 has good judgement, because most of the maintainer’s job is going
-to be judging other people’s code. Who would be inclined to con-
-tribute work to someone who clearly can’t judge the quality of
+to be judging other people’s code. Who would be inclined to contribute work to someone who clearly can’t judge the quality of
 their own code, or whose behavior suggests they will attempt to
-unfairly hog the reputation return from the project? Potential con-
-tributors want project leaders with enough humility and class to
+unfairly hog the reputation return from the project? Potential contributors want project leaders with enough humility and class to
 be able to to say, when objectively appropriate, ‘‘Yes, that does
 work better than my version, I’ll use it’’—and to give credit where
 credit is due.
@@ -3370,17 +2758,13 @@ state of the program. If one does one’s bragging through the code,
 and then says, ‘‘Well shucks, it doesn’t do x, y, and z, so it can’t be
 that good’’, patches for x, y, and z will often swiftly follow.
 Finally, I have personally observed that the self-deprecating
-behavior of some leading hackers reﬂects a real (and not unjusti-
-ﬁed) fear of becoming the object of a personality cult. Linus Tor-
-valds and Larry Wall both provide clear and numerous examples
+behavior of some leading hackers reﬂects a real (and not unjustiﬁed) fear of becoming the object of a personality cult. Linus Torvalds and Larry Wall both provide clear and numerous examples
 of such avoidance behavior. Once, on a dinner expedition with
 Larry Wall, I joked, ‘‘You’re the alpha hacker here—you get to
 pick the restaurant.’’ He ﬂinched noticeably. And rightly so; failing
 to distinguish their shared values from the personalities of their
 leaders has ruined a good many voluntary communities, a pattern
 Homesteading the Noosphere
-91
-
 
 The Cathedral and the Bazaar
 of which Larry and Linus cannot fail to be fully aware. On the
@@ -3390,8 +2774,7 @@ Global Implications of the
 Reputation-Game Model
 The reputation-game analysis has some more implications that
 may not be immediately obvious. Many of these derive from the
-fact that one gains more prestige from founding a successful pro-
-ject than from cooperating in an existing one. One also gains more
+fact that one gains more prestige from founding a successful project than from cooperating in an existing one. One also gains more
 from projects that are strikingly innovative, as opposed to being
 ‘me, too’ incremental improvements on software that already
 exists. On the other hand, software that nobody but the author
@@ -3417,8 +2800,6 @@ wants to homestead anywhere near them because competing
 against the established base for the attention of hackers would be
 too hard. People who might otherwise found their own distinct
 efforts end up, instead, adding extensions for these big, successful
-92
-
 
 projects. The classic category killer example is GNU Emacs; its
 variants ﬁll the ecological niche for a fully-programmable editor
@@ -3434,26 +2815,23 @@ case, a new and more difﬁcult level of problems was attacked
 when the possibilities of the previous one had been nearly
 exhausted.
 This trend has interesting implications for the near future. In early
-1998, Linux looked very much like a category killer for the ‘open-
-source operating systems’ niche—people who might otherwise
+1998, Linux looked very much like a category killer for the ‘opensource operating systems’ niche—people who might otherwise
 write competing operating systems are now writing Linux device
 drivers and extensions instead. And most of the lower-level tools
 the culture ever imagined having as open-source already exist.
 What’s left?
-Applications. As the third millenium begins, it seems safe to pre-
-dict that open-source development effort will increasingly shift
+Applications. As the third millenium begins, it seems safe to predict that open-source development effort will increasingly shift
 towards the last virgin territory—programs for non-techies. A
-clear 
-early 
-indicator 
-was 
-the 
-development 
-of 
+clear
+early
+indicator
+was
+the
+development
+of
 GIMP
 (http://www.gimp.org), the Photoshop-like image workshop that is
-open source’s ﬁrst major application with the kind of end-
-user–friendly GUI interface considered de rigueur in commercial
+open source’s ﬁrst major application with the kind of enduser–friendly GUI interface considered de rigueur in commercial
 applications for the last decade. Another is the amount of buzz
 surrounding application-toolkit projects such as KDE (see
 http://www.kde.org) and GNOME (see http://www.gnome.org).
@@ -3462,18 +2840,14 @@ analogy also explains why hackers react with such visceral anger
 to Microsoft’s ‘‘embrace and extend’’ policy of complexifying and
 then closing up Internet protocols. The hacker culture can coexist
 Homesteading the Noosphere
-93
-
 
 The Cathedral and the Bazaar
 with most closed software; the existence of Adobe Photoshop, for
 example, does not make the territory near GIMP (its open-source
-equivalent) signiﬁcantly less attractive. But when Microsoft suc-
-ceeds at de-commoditizing a protocol so that only Microsoft’s
+equivalent) signiﬁcantly less attractive. But when Microsoft succeeds at de-commoditizing a protocol so that only Microsoft’s
 own programmers can write software for it, they do not merely
 harm customers by extending their monopoly; they also reduce the
-amount and quality of noosphere available for hackers to home-
-stead and cultivate9. No wonder hackers often refer to Microsoft’s
+amount and quality of noosphere available for hackers to homestead and cultivate9. No wonder hackers often refer to Microsoft’s
 strategy as ‘‘protocol pollution’’; they are reacting exactly like
 farmers watching someone poison the river they water their crops
 with!
@@ -3495,12 +2869,9 @@ clever and original it is.
 Note the phrase “led to expect”. This rule is not a demand for
 perfection; beta and experimental software is allowed to have
 bugs. It’s a demand that the user be able to accurately estimate
-risks from the stage of the project and the developers’ representa-
-tions about it.
+risks from the stage of the project and the developers’ representations about it.
 This rule underlies the fact that open-source software tends to stay
 in beta for a long time, and not get even a 1.0 version number
-94
-
 
 until the developers are very sure it will not hand out a lot of
 nasty surprises. In the closed-source world, Version 1.0 means:
@@ -3508,16 +2879,14 @@ nasty surprises. In the closed-source world, Version 1.0 means:
 reads something more like: ‘‘The developers are willing to bet their
 reputations on this.’’
 2. Work that extends the noosphere is better than
-work that duplicates an existing piece of func-
-tional territory.
+work that duplicates an existing piece of functional territory.
 The naive way to put this would have been: original work is better
 than mere duplication of the functions of existing software. But
 it’s not actually quite that simple. Duplicating the functions of
 existing closed software counts as highly as original work if by
 doing so you break open a closed protocol or format and make
 that territory newly available.
-Thus, for example, one of the highest-prestige projects in the pre-
-sent open-source world is Samba—the code that allows Unix
+Thus, for example, one of the highest-prestige projects in the present open-source world is Samba—the code that allows Unix
 machines to act as clients or servers for Microsoft’s proprietary
 SMB ﬁle-sharing protocol. There is very little creative work to be
 done here; it’s mostly an issue of getting the reverse-engineered
@@ -3528,28 +2897,18 @@ noosphere.
 3. Work that makes it into a major distribution is
 better than work that doesn’t. Work carried in
 all major distributions is most prestigious.
-The major distributions include not just the big Linux distribu-
-tions like Red Hat, Debian, Caldera, and SuSE, but other collec-
-tions that are understood to have reputations of their own to
-maintain and thus implicitly certify quality—like BSD distribu-
-tions or the Free Software Foundation source collection.
+The major distributions include not just the big Linux distributions like Red Hat, Debian, Caldera, and SuSE, but other collections that are understood to have reputations of their own to
+maintain and thus implicitly certify quality—like BSD distributions or the Free Software Foundation source collection.
 4. Utilization is the sincerest form of ﬂattery—
 and category killers are better than also-rans.
 Homesteading the Noosphere
-95
-
 
 The Cathedral and the Bazaar
 Trusting the judgment of others is basic to the peer-review process.
-It’s necessary because nobody has time to review all possible alter-
-natives. So work used by lots of people is considered better than
+It’s necessary because nobody has time to review all possible alternatives. So work used by lots of people is considered better than
 work used by a few.
-To have done work so good that nobody cares to use the alterna-
-tives anymore is therefore to have earned huge prestige. The most
-possible peer esteem comes from having done widely popular, cat-
-egory-killing original work that is carried by all major distribu-
-tions. People who have pulled this off more than once are half-
-seriously referred to as demigods.
+To have done work so good that nobody cares to use the alternatives anymore is therefore to have earned huge prestige. The most
+possible peer esteem comes from having done widely popular, category-killing original work that is carried by all major distributions. People who have pulled this off more than once are halfseriously referred to as demigods.
 5. Continued devotion to hard, boring work (like
 debugging, or writing documentation) is more
 praiseworthy than cherrypicking the fun and
@@ -3564,18 +2923,14 @@ feature is likely to get more reward than ﬁxing a bug—unless the
 bug is exceptionally nasty or obscure, such that nailing it is itself a
 demonstration of unusual skill and cleverness. But when these
 behaviors are extended over time, a person with a long history of
-paying attention to and nailing even ordinary bugs may well out-
-rank someone who has spent a similar amount of effort adding
+paying attention to and nailing even ordinary bugs may well outrank someone who has spent a similar amount of effort adding
 easy features.
-A respondent has pointed out that these rules interact in interest-
-ing ways and do not necessarily reward highest possible utility all
+A respondent has pointed out that these rules interact in interesting ways and do not necessarily reward highest possible utility all
 the time. Ask a hacker whether he’s likely to become better known
 for a brand new tool of his own or for extensions to someone
 else’s and the answer ‘‘new tool’’ will not be in doubt. But ask
 about (a) a brand new tool that is only used a few times a day
 invisibly by the OS but that rapidly becomes a category killer,
-96
-
 
 versus (b) several extensions to an existing tool that are neither
 especially novel nor category-killers, but are daily used and daily
@@ -3610,8 +2965,6 @@ arbitrary social convention, but this is dead wrong. Anybody who
 has ever owned a dog who barked when strangers came near its
 owner’s property has experienced the essential continuity between
 Homesteading the Noosphere
-97
-
 
 The Cathedral and the Bazaar
 animal territoriality and human property. Our domesticated
@@ -3621,15 +2974,13 @@ mechanism for the avoidance of violence. (This makes them
 smarter than a good many human political theorists.)
 Claiming property (like marking territory) is a performative act, a
 way of declaring what boundaries will be defended. Community
-support of property claims is a way to minimize friction and maxi-
-mize cooperative behavior. These things remain true even when
+support of property claims is a way to minimize friction and maximize cooperative behavior. These things remain true even when
 the ‘property claim’ is much more abstract than a fence or a dog’s
 bark, even when it’s just the statement of the project maintainer’s
 name in a README ﬁle. It’s still an abstraction of territoriality,
 and (like other forms of property) based in territorial instincts
 evolved to assist conﬂict resolution.
-This ethological analysis may at ﬁrst seem very abstract and difﬁ-
-cult to relate to actual hacker behavior. But it has some important
+This ethological analysis may at ﬁrst seem very abstract and difﬁcult to relate to actual hacker behavior. But it has some important
 consequences. One is in explaining the popularity of World Wide
 Web sites, and especially why open-source projects with websites
 seem so much more ‘real’ and substantial than those without
@@ -3645,10 +2996,7 @@ list, and Usenet postings. In fact it’s quite unusual for a project’s
 routine communications to be done over the Web rather than via a
 mailing list or newsgroup. Why, then, the popularity of websites
 as project homes?
-The metaphor implicit in the term ‘home page’ provides an impor-
-tant clue. While founding an open-source project is a territorial
-98
-
+The metaphor implicit in the term ‘home page’ provides an important clue. While founding an open-source project is a territorial
 
 claim in the noosphere (and customarily recognized as such) it is
 not a terribly compelling one on the psychological level. Software,
@@ -3667,13 +3015,11 @@ This point is much strengthened by hyperlinks and the existence of
 good search engines. A project with a web page is much more
 likely to be noticed by somebody exploring its neighborhood in
 the noosphere; others will link to it, searches will ﬁnd it. A web
-page is therefore a better advertisement, a more effective perfor-
-mative act, a stronger claim on territory.
+page is therefore a better advertisement, a more effective performative act, a stronger claim on territory.
 This ethological analysis also encourages us to look more closely
 at mechanisms for handling conﬂict in the open-source culture. It
 leads us to expect that, in addition to maximizing reputation
-incentives, ownership customs should also have a role in prevent-
-ing and resolving conﬂicts.
+incentives, ownership customs should also have a role in preventing and resolving conﬂicts.
 Ca uses of Conflict
 In conﬂicts over open-source software we can identify four major
 issues:
@@ -3682,13 +3028,10 @@ Who gets to make binding decisions about a project?
 •
 Who gets credit or blame for what?
 Homesteading the Noosphere
-99
-
 
 The Cathedral and the Bazaar
 •
-How to reduce duplication of effort and prevent rogue ver-
-sions from complicating bug tracking?
+How to reduce duplication of effort and prevent rogue versions from complicating bug tracking?
 •
 What is the Right Thing, technically speaking?
 If we take a second look at the ‘‘What is the Right Thing’’ issue,
@@ -3699,8 +3042,7 @@ to ‘‘Who decides?’’
 Accordingly, the three problems a conﬂict-resolution theory has to
 resolve about a project are (a) where the buck stops on design
 decisions, (b) how to decide which contributors are credited and
-how, and (c) how to keep a project group and product from ﬁs-
-sioning into multiple branches.
+how, and (c) how to keep a project group and product from ﬁssioning into multiple branches.
 The role of ownership customs in resolving issues (a) and (c) is
 clear. Custom afﬁrms that the owners of the project make the
 binding decisions. We have previously observed that custom also
@@ -3718,32 +3060,26 @@ game, would have no motive to care. To analyze these, we need to
 take the Lockean theory one step further and examine conﬂicts
 and the operation of property rights within projects as well as
 between them.
-100
-
 
 Project Structures and Ownership
 The trivial case is that in which the project has a single owner/
 maintainer. In that case there is no possible conﬂict. The owner
 makes all decisions and collects all credit and blame. The only
 possible conﬂicts are over succession issues—who gets to be the
-new owner if the old one disappears or loses interest. The commu-
-nity also has an interest, under issue (c), in preventing forking.
+new owner if the old one disappears or loses interest. The community also has an interest, under issue (c), in preventing forking.
 These interests are expressed by a cultural norm that an owner/
 maintainer should publicly hand title to someone if he or she can
 no longer maintain the project.
-The simplest non-trivial case is when a project has multiple co-
-maintainers working under a single ‘benevolent dictator’ who
+The simplest non-trivial case is when a project has multiple comaintainers working under a single ‘benevolent dictator’ who
 owns the project. Custom favors this mode for group projects; it
 has been shown to work on projects as large as the Linux kernel
 or Emacs, and solves the ‘‘who decides’’ problem in a way that is
 not obviously worse than any of the alternatives.
 Typically, a benevolent-dictator organization evolves from an
-owner-maintainer organization as the founder attracts contribu-
-tors. Even if the owner stays dictator, it introduces a new level of
+owner-maintainer organization as the founder attracts contributors. Even if the owner stays dictator, it introduces a new level of
 possible disputes over who gets credited for what parts of the
 project.
-In this situation, custom places an obligation on the owner/dicta-
-tor to credit contributors fairly (through, for example, appropriate
+In this situation, custom places an obligation on the owner/dictator to credit contributors fairly (through, for example, appropriate
 mentions in README or history ﬁles). In terms of the Lockean
 property model, this means that by contributing to a project you
 earn part of its reputation return (positive or negative).
@@ -3751,34 +3087,26 @@ Pursuing this logic, we see that a benevolent dictator does not in
 fact own his entire project absolutely. Though he has the right to
 make binding decisions, he in effect trades away shares of the total
 reputation return in exchange for others’ work. The analogy with
-sharecropping on a farm is almost irresistible, except that a con-
-tributor’s name stays in the credits and continues to ‘earn’ to some
+sharecropping on a farm is almost irresistible, except that a contributor’s name stays in the credits and continues to ‘earn’ to some
 degree even after that contributor is no longer active.
 Homesteading the Noosphere
-101
-
 
 The Cathedral and the Bazaar
 As benevolent-dictator projects add more participants, they tend
-to develop two tiers of contributors; ordinary contributors and co-
-developers. A typical path to becoming a co-developer is taking
+to develop two tiers of contributors; ordinary contributors and codevelopers. A typical path to becoming a co-developer is taking
 responsibility for a major subsystem of the project. Another is to
 take the role of ‘lord high ﬁxer’, characterizing and ﬁxing many
 bugs. In this way or others, co-developers are the contributors
 who make a substantial and continuing investment of time in the
 project.
-The subsystem-owner role is particularly important for our analy-
-sis and deserves further examination. Hackers like to say that
+The subsystem-owner role is particularly important for our analysis and deserves further examination. Hackers like to say that
 “authority follows responsibility”. A co-developer who accepts
 maintainance responsibility for a given subsystem generally gets to
-control both the implementation of that subsystem and its inter-
-faces with the rest of the project, subject only to correction by the
-project leader (acting as architect). We observe that this rule effec-
-tively creates enclosed properties on the Lockean model within a
+control both the implementation of that subsystem and its interfaces with the rest of the project, subject only to correction by the
+project leader (acting as architect). We observe that this rule effectively creates enclosed properties on the Lockean model within a
 project, and has exactly the same conﬂict-prevention role as other
 property boundaries.
-By custom, the ‘dictator’ or project leader in a project with co-
-developers is expected to consult with those co-developers on key
+By custom, the ‘dictator’ or project leader in a project with codevelopers is expected to consult with those co-developers on key
 decisions. This is especially so if the decision concerns a subsystem
 that a co-developer ‘owns’ (that is, has invested time in and taken
 responsibility for). A wise leader, recognizing the function of the
@@ -3788,36 +3116,28 @@ Some very large projects discard the benevolent dictator model
 entirely. One way to do this is turn the co-developers into a voting
 committee (as with Apache). Another is rotating dictatorship, in
 which control is occasionally passed from one member to another
-within a circle of senior co-developers; the Perl developers orga-
-nize themselves this way.
+within a circle of senior co-developers; the Perl developers organize themselves this way.
 Such complicated arrangements are widely considered unstable
 and difﬁcult. Clearly this perceived difﬁculty is largely a function
 of the known hazards of design-by-committee, and of committees
-102
-
 
 themselves; these are problems the hacker culture consciously
 understands. However, I think some of the visceral discomfort
 hackers feel about committee or rotating-chair organizations is
-that they’re hard to ﬁt into the unconscious Lockean model hack-
-ers use for reasoning about the simpler cases. It’s problematic, in
-these complex organizations, to do an accounting of either owner-
-ship in the sense of control or ownership of reputation returns. It’s
+that they’re hard to ﬁt into the unconscious Lockean model hackers use for reasoning about the simpler cases. It’s problematic, in
+these complex organizations, to do an accounting of either ownership in the sense of control or ownership of reputation returns. It’s
 hard to see where the internal boundaries are, and thus hard to
 avoid conﬂict unless the group enjoys an exceptionally high level
 of harmony and trust.
 Conflict and Conflict Resolution
 We’ve seen that within projects, an increasing complexity of roles
-is expressed by a distribution of design authority and partial prop-
-erty rights. While this is an efﬁcient way to distribute incentives, it
+is expressed by a distribution of design authority and partial property rights. While this is an efﬁcient way to distribute incentives, it
 also dilutes the authority of the project leader—most importantly,
 it dilutes the leader’s authority to squash potential conﬂicts.
-While technical arguments over design might seem the most obvi-
-ous risk for internecine conﬂict, they are seldom a serious cause of
+While technical arguments over design might seem the most obvious risk for internecine conﬂict, they are seldom a serious cause of
 strife. These are usually relatively easily resolved by the territorial
 rule that authority follows responsibility.
-Another way of resolving conﬂicts is by seniority—if two contrib-
-utors or groups of contributors have a dispute, and the dispute
+Another way of resolving conﬂicts is by seniority—if two contributors or groups of contributors have a dispute, and the dispute
 cannot be resolved objectively, and neither owns the territory of
 the dispute, the side that has put the most work into the project as
 a whole (that is, the side with the most property rights in the
@@ -3826,19 +3146,14 @@ whole project) wins.
 this happens to be the same heuristic that many relational
 database engines use to resolve deadlocks. When two threads are
 deadlocked over resources, the side with the least invested in the
-current transaction is selected as the deadlock victim and is termi-
-nated. This usually selects the longest running transaction, or the
+current transaction is selected as the deadlock victim and is terminated. This usually selects the longest running transaction, or the
 more senior, as the victor.)
 Homesteading the Noosphere
-103
-
 
 The Cathedral and the Bazaar
 These rules generally sufﬁce to resolve most project disputes.
-When they do not, ﬁat of the project leader usually sufﬁces. Dis-
-putes that survive both these ﬁlters are rare.
-Conﬂicts do not, as a rule, become serious unless these two crite-
-ria (“authority follows responsibility” and “seniority wins”) point
+When they do not, ﬁat of the project leader usually sufﬁces. Disputes that survive both these ﬁlters are rare.
+Conﬂicts do not, as a rule, become serious unless these two criteria (“authority follows responsibility” and “seniority wins”) point
 in different directions, and the authority of the project leader is
 weak or absent. The most obvious case in which this may occur is
 a succession dispute following the disappearance of the project
@@ -3853,8 +3168,7 @@ public condemnation of those who break custom, and refusal to
 cooperate with them after they have done so.
 Acculturation Mechanisms
 and the Link to Academia
-An early version of this essay posed the following research ques-
-tion: how does the community inform and instruct its members as
+An early version of this essay posed the following research question: how does the community inform and instruct its members as
 to its customs? Are the customs self-evident or self-organizing at a
 semi-conscious level? Are they taught by example? Are they taught
 by explicit instruction?
@@ -3863,11 +3177,8 @@ explicit descriptions of the culture’s norms have existed for
 instructional use up to now.
 Many norms are taught by example. To cite one very simple case,
 there is a norm that every software distribution should have a ﬁle
-called README or READ.ME that contains ﬁrst-look instruc-
-tions for browsing the distribution. This convention has been well
+called README or READ.ME that contains ﬁrst-look instructions for browsing the distribution. This convention has been well
 established since at least the early 1980s; it has even, occasionally,
-104
-
 
 been written down. But one normally derives it from looking at
 many distributions.
@@ -3875,16 +3186,14 @@ On the other hand, some hacker customs are self-organizing once
 one has acquired a basic (perhaps unconscious) understanding of
 the reputation game. Most hackers never have to be taught the
 three taboos I listed earlier in this essay, or at least would claim if
-asked that they are self-evident rather than transmitted. This phe-
-nomenon invites closer analysis—and perhaps we can ﬁnd its
+asked that they are self-evident rather than transmitted. This phenomenon invites closer analysis—and perhaps we can ﬁnd its
 explanation in the process by which hackers acquire knowledge
 about the culture.
 Many cultures use hidden clues (more precisely ‘mysteries’ in the
 religio/mystical sense) as an acculturation mechanism. These are
 secrets that are not revealed to outsiders, but are expected to be
 discovered or deduced by the aspiring newbie. To be accepted
-inside, one must demonstrate that one both understands the mys-
-tery and has learned it in a culturally sanctioned way.
+inside, one must demonstrate that one both understands the mystery and has learned it in a culturally sanctioned way.
 The hacker culture makes unusually conscious and extensive use
 of such clues or tests. We can see this process operating at at least
 three levels:
@@ -3892,8 +3201,7 @@ three levels:
 Password-like speciﬁc mysteries. As one example, there is a
 Usenet newsgroup called alt.sysadmin.recovery that has a very
 explicit such secret; you cannot post without knowing it, and
-knowing it is considered evidence you are ﬁt to post. The reg-
-ulars have a strong taboo against revealing this secret.
+knowing it is considered evidence you are ﬁt to post. The regulars have a strong taboo against revealing this secret.
 •
 The requirement of initiation into certain technical mysteries.
 One must absorb a good deal of technical knowledge before
@@ -3904,16 +3212,13 @@ qualities (such as capability for abstract thinking, persistence,
 and mental ﬂexibility) that are necessary to function in the
 culture.
 Homesteading the Noosphere
-105
-
 
 The Cathedral and the Bazaar
 •
 Social-context mysteries. One becomes involved in the culture
 through attaching oneself to speciﬁc projects. Each project is a
 live social context of hackers that the would-be contributor
-has to investigate and understand socially as well as techni-
-cally in order to function. (Concretely, a common way one
+has to investigate and understand socially as well as technically in order to function. (Concretely, a common way one
 does this is by reading the project’s web pages and/or email
 archives.) It is through these project groups that newbies
 experience the behavioral example of experienced hackers.
@@ -3925,30 +3230,22 @@ culture itself is its own central mystery. One is not considered
 acculturated (concretely: no one will call you a hacker) until one
 demonstrates a gut-level understanding of the reputation game
 and its implied customs, taboos, and usages. But this is trivial; all
-cultures demand such understanding from would-be joiners. Fur-
-thermore the hacker culture evinces no desire to have its internal
+cultures demand such understanding from would-be joiners. Furthermore the hacker culture evinces no desire to have its internal
 logic and folkways kept secret—or, at least, nobody has ever
 ﬂamed me for revealing them!
 Respondents to this essay too numerous to list have pointed out
 that hacker ownership customs seem intimately related to (and
 may derive directly from) the practices of the academic world,
-especially the scientiﬁc research commmunity. This research com-
-munity has similar problems in mining a territory of potentially
+especially the scientiﬁc research commmunity. This research community has similar problems in mining a territory of potentially
 productive ideas, and exhibits very similar adaptive solutions to
 those problems in the ways it uses peer review and reputation.
 Since many hackers have had formative exposure to academia (it’s
 common to learn how to hack while in college), the extent to
 which academia shares adaptive patterns with the hacker culture
-is of more than casual interest in understanding how these cus-
-toms are applied.
-106
+is of more than casual interest in understanding how these customs are applied.
 
-
-Obvious parallels with the hacker ‘gift culture’, as I have charac-
-terized it, abound in academia. Once a researcher achieves tenure,
-there is no need to worry about survival issues. (Indeed, the con-
-cept of tenure can probably be traced back to an earlier gift cul-
-ture in which ‘‘natural philosophers’’ were primarily wealthy
+Obvious parallels with the hacker ‘gift culture’, as I have characterized it, abound in academia. Once a researcher achieves tenure,
+there is no need to worry about survival issues. (Indeed, the concept of tenure can probably be traced back to an earlier gift culture in which ‘‘natural philosophers’’ were primarily wealthy
 gentlemen with time on their hands to devote to research.) In the
 absence of survival issues, reputation enhancement becomes the
 driving goal, which encourages sharing of new ideas and research
@@ -3968,18 +3265,13 @@ genetically related, but because they’ve both evolved the one most
 optimal social organization for what they’re trying to do, given
 the laws of nature and the instinctive wiring of human beings. The
 verdict of history seems to be that free-market capitalism is the
-globally optimal way to cooperate for economic efﬁciency; per-
-haps, in a similar way, the reputation-game gift culture is the glob-
-ally optimal way to cooperate for generating (and checking!) high-
-quality creative work.
+globally optimal way to cooperate for economic efﬁciency; perhaps, in a similar way, the reputation-game gift culture is the globally optimal way to cooperate for generating (and checking!) highquality creative work.
 Support for this theory comes from a large body of psychological
 studies on the interaction between art and reward.11 These studies
 have received less attention than they should, in part perhaps
 because their popularizers have shown a tendency to overinterpret
 them into general attacks against the free market and intellectual
 Homesteading the Noosphere
-107
-
 
 The Cathedral and the Bazaar
 property. Nevertheless, their results do suggest that some kinds of
@@ -3988,19 +3280,15 @@ creative workers such as programmers.
 Psychologist Theresa Amabile of Brandeis University, cautiously
 summarizing the results of a 1984 study of motivation and
 reward, observed: ‘‘It may be that commissioned work will, in
-general, be less creative than work that is done out of pure inter-
-est.’’ Amabile goes on to observe: ‘‘The more complex the activity,
+general, be less creative than work that is done out of pure interest.’’ Amabile goes on to observe: ‘‘The more complex the activity,
 the more it’s hurt by extrinsic reward.’’ Interestingly, the studies
 suggest that ﬂat salaries don’t demotivate, but piecework rates and
 bonuses do.
 Thus, it may be economically smart to give performance bonuses
 to people who ﬂip burgers or dig ditches, but it’s probably smarter
 to decouple salary from performance in a programming shop and
-let people choose their own projects (both trends that the open-
-source world takes to their logical conclusions). Indeed, these
-results suggest that the only time it is a good idea to reward per-
-formance in programming is when the programmer is so moti-
-vated that he or she would have worked without the reward!
+let people choose their own projects (both trends that the opensource world takes to their logical conclusions). Indeed, these
+results suggest that the only time it is a good idea to reward performance in programming is when the programmer is so motivated that he or she would have worked without the reward!
 Other researchers in the ﬁeld are willing to point a ﬁnger straight
 at the issues of autonomy and creative control that so preoccupy
 hackers. ‘‘To the extent one’s experience of being self-determined
@@ -4008,15 +3296,12 @@ is limited,’’ said Richard Ryan, associate psychology professor at
 the University of Rochester, ‘‘one’s creativity will be reduced as
 well.’’
 In general, presenting any task as a means rather than an end in
-itself seems to demotivate. Even winning a competition with oth-
-ers or gaining peer esteem can be demotivating in this way if the
+itself seems to demotivate. Even winning a competition with others or gaining peer esteem can be demotivating in this way if the
 victory is experienced as work for reward (which may explain
 why hackers are culturally prohibited from explicitly seeking or
 claiming that esteem).
 To complicate the management problem further, controlling verbal
 feedback seems to be just as demotivating as piecework payment.
-108
-
 
 Ryan found that corporate employees who were told, ‘‘Good,
 you’re doing as you should’’ were ‘‘signiﬁcantly less intrinsically
@@ -4025,30 +3310,20 @@ It may still be intelligent to offer incentives, but they have to come
 without attachments to avoid gumming up the works. There is a
 critical difference (Ryan observes) between saying, ‘‘I’m giving you
 this reward because I recognize the value of your work,’’ and
-‘‘You’re getting this reward because you’ve lived up to my stan-
-dards.’’ The ﬁrst does not demotivate; the second does.
+‘‘You’re getting this reward because you’ve lived up to my standards.’’ The ﬁrst does not demotivate; the second does.
 In these psychological observations we can ground a case that an
-open-source development group will be substantially more pro-
-ductive (especially over the long term, in which creativity becomes
+open-source development group will be substantially more productive (especially over the long term, in which creativity becomes
 more critical as a productivity multiplier) than an equivalently
-sized and skilled group of closed-source programmers (de)moti-
-vated by scarcity rewards.
-This suggests from a slightly different angle one of the specula-
-tions in The Cathedral and the Bazaar; that, ultimately, the indus-
-trial/factory mode of software production was doomed to be
+sized and skilled group of closed-source programmers (de)motivated by scarcity rewards.
+This suggests from a slightly different angle one of the speculations in The Cathedral and the Bazaar; that, ultimately, the industrial/factory mode of software production was doomed to be
 outcompeted from the moment capitalism began to create enough
-of a wealth surplus that many programmers could live in a post-
-scarcity gift culture.
+of a wealth surplus that many programmers could live in a postscarcity gift culture.
 Indeed, it seems the prescription for highest software productivity
-is almost a Zen paradox; if you want the most efﬁcient produc-
-tion, you must give up trying to make programmers produce.
+is almost a Zen paradox; if you want the most efﬁcient production, you must give up trying to make programmers produce.
 Handle their subsistence, give them their heads, and forget about
-deadlines. To a  conventional manager this sounds crazily indul-
-gent and doomed—but it is exactly the recipe with which the
+deadlines. To a  conventional manager this sounds crazily indulgent and doomed—but it is exactly the recipe with which the
 open-source culture is now clobbering its competition.
 Homesteading the Noosphere
-109
-
 
 The Cathedral and the Bazaar
 Conclusion: From Custom
@@ -4064,13 +3339,11 @@ the culture.
 The next logical question to ask is: “Why does this matter?”
 Hackers developed these customs without conscious analysis and
 (up to now) have followed them without conscious analysis. It’s
-not immediately clear that conscious analysis has gained us any-
-thing practical—unless, perhaps, we can move from description to
+not immediately clear that conscious analysis has gained us anything practical—unless, perhaps, we can move from description to
 prescription and deduce ways to improve the functioning of these
 customs.
 We have found a close logical analogy for hacker customs in the
-theory of land tenure under the Anglo-American common-law tra-
-dition. Historically,12 the European tribal cultures that invented
+theory of land tenure under the Anglo-American common-law tradition. Historically,12 the European tribal cultures that invented
 this tradition improved their dispute-resolution systems by moving
 from a system of unarticulated, semi-conscious custom to a body
 of explicit customary law memorized by tribal wisemen—and
@@ -4079,18 +3352,13 @@ Perhaps, as our population rises and acculturation of all new
 members becomes more difﬁcult, it is time for the hacker culture
 to do something analogous—to develop written codes of good
 practice for resolving the various sorts of disputes that can arise in
-connection with open-source projects, and a tradition of arbitra-
-tion in which senior members of the community may be asked to
+connection with open-source projects, and a tradition of arbitration in which senior members of the community may be asked to
 mediate disputes.
 The analysis in this essay suggests the outlines of what such a code
 might look like, making explicit that which was previously
-110
-
 
 implicit. No such codes could be imposed from above; they would
-have to be voluntarily adopted by the founders or owners of indi-
-vidual projects. Nor could they be completely rigid, as the pres-
-sures on the culture are likely to change over time. Finally, for
+have to be voluntarily adopted by the founders or owners of individual projects. Nor could they be completely rigid, as the pressures on the culture are likely to change over time. Finally, for
 enforcement of such codes to work, they would have to reﬂect a
 broad consensus of the hacker tribe.
 I have begun work on such a code, tentatively titled the “Malvern
@@ -4102,16 +3370,12 @@ code, or just offering feedback on whether they think it’s a good
 idea or not, are invited to contact me by email, esr@thyrsus.com.
 Questions for Further Research
 The culture’s (and my own) understanding of large projects that
-don’t follow a benevolent-dictator model is weak. Most such pro-
-jects fail. A few become spectacularly successful and important
-(Perl, Apache, KDE). Nobody really understands where the differ-
-ence lies. There’s a vague sense abroad that each such project is sui
+don’t follow a benevolent-dictator model is weak. Most such projects fail. A few become spectacularly successful and important
+(Perl, Apache, KDE). Nobody really understands where the difference lies. There’s a vague sense abroad that each such project is sui
 generis and stands or falls on the group dynamic of its particular
 members, but is this true or are there replicable strategies that a
 group can follow?
 Homesteading the Noosphere
-111
-
 
 The Magic Cauldron
 ✦✦✦
@@ -4119,53 +3383,35 @@ This essay analyzes the evolving economic substrate of the
 open-source phenomenon. I ﬁrst explode some prevalent
 myths about the funding of program development and the
 price structure of software. I then present a game-theory
-analysis of the stability of open-source cooperation. I pre-
-sent nine models for sustainable funding of open-source
-development; two non-proﬁt, seven for-proﬁt. I then con-
-tinue to develop a qualitative theory of when it is eco-
-nomically rational for software to be closed. I then
+analysis of the stability of open-source cooperation. I present nine models for sustainable funding of open-source
+development; two non-proﬁt, seven for-proﬁt. I then continue to develop a qualitative theory of when it is economically rational for software to be closed. I then
 examine some novel additional mechanisms the market is
-now inventing to fund for-proﬁt open-source develop-
-ment, including the reinvention of the patronage system
-and task markets. I conclude with some tentative predic-
-tions of the future.
-113
-
-
-
+now inventing to fund for-proﬁt open-source development, including the reinvention of the patronage system
+and task markets. I conclude with some tentative predictions of the future.
 
 Indistinguishable from Magic
 In Welsh myth, the goddess Ceridwen owned a great cauldron that
 would magically produce nourishing food—when commanded by
-a spell known only to the goddess. In modern science, Buckmin-
-ster Fuller gave us the concept of ‘ephemeralization’, technology
+a spell known only to the goddess. In modern science, Buckminster Fuller gave us the concept of ‘ephemeralization’, technology
 becoming both more effective and less expensive as the physical
 resources invested in early designs are replaced by more and more
 information content. Arthur C. Clarke connected the two by
-observing that ‘‘Any sufﬁciently advanced technology is indistin-
-guishable from magic’’.
+observing that ‘‘Any sufﬁciently advanced technology is indistinguishable from magic’’.
 To many people, the successes of the open-source community seem
-like an implausible form of magic. High-quality software material-
-izes for free, which is nice while it lasts but hardly seems sustain-
-able in the real world of competition and scarce resources. What’s
+like an implausible form of magic. High-quality software materializes for free, which is nice while it lasts but hardly seems sustainable in the real world of competition and scarce resources. What’s
 the catch? Is Ceridwen’s cauldron just a conjuring trick? And if
 not, how does ephemeralization work in this context—what spell
 is the goddess speaking?
 Beyond Geeks Bearing Gifts
-The experience of the open-source culture has certainly con-
-founded many of the assumptions of people who learned about
+The experience of the open-source culture has certainly confounded many of the assumptions of people who learned about
 software development outside it. The Cathedral and the Bazaar
 described the ways in which decentralized cooperative software
 development effectively overturns Brooks’s
 Law,
 leading to
-unprecedented levels of reliability and quality on individual pro-
-jects. Homesteading the Noosphere, examined the social dynamics
-within which this ‘bazaar’ style of development is situated, argu-
-ing that it is most effectively understood not in conventional
+unprecedented levels of reliability and quality on individual projects. Homesteading the Noosphere, examined the social dynamics
+within which this ‘bazaar’ style of development is situated, arguing that it is most effectively understood not in conventional
 The Magic Cauldron
-115
-
 
 The Cathedral and the Bazaar
 exchange-economy terms but as what anthropologists call a gift
@@ -4177,13 +3423,10 @@ and business models, developing new conceptual tools needed to
 understand the way that the gift culture of open-source developers
 can sustain itself in an exchange economy.
 In order to pursue this line of analysis without distraction, we’ll
-need to abandon (or at least agree to temporarily ignore) the gift-
-culture level of explanation. Homesteading the Noosphere posited
+need to abandon (or at least agree to temporarily ignore) the giftculture level of explanation. Homesteading the Noosphere posited
 that gift culture behavior arises in situations where survival goods
 are abundant enough to make the exchange game no longer very
-interesting; but while this appears sufﬁciently powerful as a psy-
-chological explanation of behavior, it lacks sufﬁency as an expla-
-nation of the mixed economic context in which most open-source
+interesting; but while this appears sufﬁciently powerful as a psychological explanation of behavior, it lacks sufﬁency as an explanation of the mixed economic context in which most open-source
 developers actually operate. For most, the exchange game has lost
 its appeal but not its power to constrain. Their behavior has to
 make sufﬁcient material-scarcity–economics sense to keep them in
@@ -4202,24 +3445,19 @@ as a brief against intellectual-property rights in software, nor as an
 altruistic appeal to ‘share’. While these arguments are still beloved
 to a vocal minority in the open-source development community,
 experience since The Cathedral and the Bazaar was published has
-116
-
 
 made it clear that they are unnecessary. An entirely sufﬁcient case
-for open-source development rests on its engineering and eco-
-nomic outcomes—better quality, higher reliability, lower costs,
+for open-source development rests on its engineering and economic outcomes—better quality, higher reliability, lower costs,
 and increased choice.)
 The Manufacturing Delusion
 We need to begin by noticing that computer programs, like all
 other kinds of tools or capital goods, have two distinct kinds of
 economic value. They have use value and sale value.
-The use value of a program is its economic value as a tool, a pro-
-ductivity multiplier. The sale value of a program is its value as a
+The use value of a program is its economic value as a tool, a productivity multiplier. The sale value of a program is its value as a
 salable commodity. (In professional economist-speak, sale value is
 value as a ﬁnal good, and use value is value as an intermediate
 good.)
-When most people try to reason about software-production eco-
-nomics, they tend to assume a ‘factory model’, which is founded
+When most people try to reason about software-production economics, they tend to assume a ‘factory model’, which is founded
 on the following fundamental premises:
 •
 Most developer time is paid for by sale value.
@@ -4227,11 +3465,9 @@ Most developer time is paid for by sale value.
 The sale value of software is proportional to its development
 cost (i.e., the cost of the resources required to functionally
 replicate it) and to its use value.
-In other words, people have a strong tendency to assume that soft-
-ware has the value characteristics of a typical manufactured good.
+In other words, people have a strong tendency to assume that software has the value characteristics of a typical manufactured good.
 But both of these assumptions are demonstrably false.
-First, code written for sale is only the tip of the programming ice-
-berg. In the pre-microcomputer era it used to be a commonplace
+First, code written for sale is only the tip of the programming iceberg. In the pre-microcomputer era it used to be a commonplace
 that 90% of all the code in the world was written in-house at
 banks and insurance companies. This is probably no longer the
 case — other industries are much more software-intensive now, and
@@ -4239,13 +3475,10 @@ the ﬁnance industry’s share of the total must have accordingly
 dropped — but we’ll see shortly that there is empirical evidence
 that approximately 95% of code is still written in-house.
 The Magic Cauldron
-117
-
 
 The Cathedral and the Bazaar
 This code includes most of the stuff of MIS, the ﬁnancial- and
-database-software customizations every medium and large com-
-pany needs. It includes technical-specialist code like device drivers.
+database-software customizations every medium and large company needs. It includes technical-specialist code like device drivers.
 Almost nobody makes money selling device drivers, a point we’ll
 return to later. It includes all kinds of embedded code for our
 increasingly microchip-driven machines—from machine tools and
@@ -4254,8 +3487,7 @@ Most such in-house code is integrated with its environment in
 ways that make reusing or copying it very difﬁcult. (This is true
 whether the environment is a business ofﬁce’s set of procedures or
 the fuel-injection system of a combine harvester.) Thus, as the
-environment changes, work is continually needed to keep the soft-
-ware in step.
+environment changes, work is continually needed to keep the software in step.
 This is called maintenance, and any software engineer or systems
 analyst will tell you that it makes up the vast majority (more than
 75%) of what programmers get paid to do. Accordingly, most
@@ -4265,8 +3497,7 @@ value at all—a fact the reader may readily check by examining the
 listings of programming jobs in any newspaper with a ‘Help
 Wanted’ section.
 Scanning the employment section of your local newspaper is an
-enlightening experiment that I urge the reader to perform for him-
-or herself. Examine the jobs listings under programming, data
+enlightening experiment that I urge the reader to perform for himor herself. Examine the jobs listings under programming, data
 processing, and software engineering for positions that involve the
 development of software. Categorize each such job according to
 whether the software is being developed for use or for sale.
@@ -4274,8 +3505,6 @@ It will quickly become clear that, even given the most inclusive
 deﬁnition of “for sale”, at least 19 in 20 of the salaries offered are
 being funded strictly by use value (that is, value as an intermediate
 good). This is our reason for believing that only 5% of the
-118
-
 
 industry is sale-value–driven. Note, however, that the rest of the
 analysis in this essay is relatively insensitive to this number; if it
@@ -4292,12 +3521,10 @@ development or replacement costs is even more easily demolished
 by examining the actual behavior of consumers. There are many
 goods for which a proportion of this kind actually holds (before
 depreciation) — food, cars, machine tools. There are even many
-intangible goods for which sale value couples strongly to develop-
-ment and replacement cost—rights to reproduce music or maps or
+intangible goods for which sale value couples strongly to development and replacement cost—rights to reproduce music or maps or
 databases, for example. Such goods may retain or even increase
 their sale value after their original vendor is gone.
-By contrast, when a software product’s vendor goes out of busi-
-ness (or if the product is merely discontinued), the maximum price
+By contrast, when a software product’s vendor goes out of business (or if the product is merely discontinued), the maximum price
 consumers will pay for it rapidly falls to near zero regardless of its
 theoretical use value or the development cost of a functional
 equivalent. (To check this assertion, examine the remainder bins at
@@ -4309,30 +3536,23 @@ the expected future value of vendor service (where “service” is
 here construed broadly to include enhancements, upgrades, and
 follow-on projects).
 The Magic Cauldron
-119
-
 
 The Cathedral and the Bazaar
 In other words, software is largely a service industry operating
-under the persistent but unfounded delusion that it is a manufac-
-turing industry.
+under the persistent but unfounded delusion that it is a manufacturing industry.
 It is worth examining why we normally tend to believe otherwise.
 It may simply be because the small portion of the software
 industry that manufactures for sale is also the only part that
-advertises its product. The common mental bias that regards man-
-ufacturing as more ‘real’ than services, because it produces things
+advertises its product. The common mental bias that regards manufacturing as more ‘real’ than services, because it produces things
 you can heft, may be at work.1 Also, some of the most visible and
-heavily advertised products are ephemera like games that have lit-
-tle in the way of continuing service requirements (the exception,
+heavily advertised products are ephemera like games that have little in the way of continuing service requirements (the exception,
 rather than the rule).2
 It is also worth noting that the manufacturing delusion encourages
 price structures that are pathologically out of line with the actual
 breakdown of development costs. If (as is generally accepted) over
-75% of a typical software project’s life-cycle costs will be in main-
-tenance and debugging and extensions, then the common price
+75% of a typical software project’s life-cycle costs will be in maintenance and debugging and extensions, then the common price
 policy of charging a high ﬁxed purchase price and relatively low
-or zero support fees is bound to lead to results that serve all par-
-ties poorly.
+or zero support fees is bound to lead to results that serve all parties poorly.
 Consumers lose because, even though software is a service
 industry, the incentives in the factory model all work against a
 vendor’s offering competent service. If the vendor’s money comes
@@ -4342,93 +3562,68 @@ dumping ground for the least effective employees and get only
 enough resources to avoid actively alienating a critical number of
 customers.
 It gets worse. Actual use means service calls, which cut into the
-proﬁt margin unless you’re charging for service. In the open-
-source world, you seek the largest possible user base, so as to get
+proﬁt margin unless you’re charging for service. In the opensource world, you seek the largest possible user base, so as to get
 maximum feedback and the most vigorous possible secondary
 markets; in the closed-source you seek as many buyers but as few
 actual users as possible. Therefore the logic of the factory model
-120
-
 
 most strongly rewards vendors who produce shelfware—software
 that is sufﬁciently well marketed to make sales but actually useless
 in practice.
 The other side of this coin is that most vendors buying this factory
-model will also fail in the longer run. Funding indeﬁnitely-contin-
-uing support expenses from a ﬁxed price is only viable in a market
-that is expanding quickly enough to cover the support and life-
-cycle costs entailed in yesterday’s sales with tomorrow’s revenues.
+model will also fail in the longer run. Funding indeﬁnitely-continuing support expenses from a ﬁxed price is only viable in a market
+that is expanding quickly enough to cover the support and lifecycle costs entailed in yesterday’s sales with tomorrow’s revenues.
 Once a market matures and sales slow down, most vendors will
 have no choice but to cut expenses by orphaning the product.3
 Whether this is done explicitly (by discontinuing the product) or
-implicitly (by making support hard to get), it has the effect of driv-
-ing customers to competitors—because it destroys the product’s
+implicitly (by making support hard to get), it has the effect of driving customers to competitors—because it destroys the product’s
 expected future value, which is contingent on that service. In the
 short run, one can escape this trap by making bug-ﬁx releases pose
 as new products with a new price attached, but consumers quickly
 tire of this. In the long run, therefore, the only way to escape is to
 have no competitors—that is, to have an effective monopoly on
 one’s market. In the end, there can be only one.
-And, indeed, we have repeatedly seen this support-starvation fail-
-ure mode kill off even strong second-place competitors in a mar-
-ket niche. (The pattern should be particularly clear to anyone who
+And, indeed, we have repeatedly seen this support-starvation failure mode kill off even strong second-place competitors in a market niche. (The pattern should be particularly clear to anyone who
 has ever surveyed the history of proprietary PC operating systems,
 word processors, accounting programs, or business software in
 general.) The perverse incentives set up by the factory model lead
 to a winner-take-all market dynamic in which even the winner’s
 customers end up losing.
-If not the factory model, then what? To handle the real cost struc-
-ture of the software life cycle efﬁciently (in both the informal and
-economics-jargon senses of “efﬁciency”), we require a price struc-
-ture founded on service contracts, subscriptions, and a continuing
+If not the factory model, then what? To handle the real cost structure of the software life cycle efﬁciently (in both the informal and
+economics-jargon senses of “efﬁciency”), we require a price structure founded on service contracts, subscriptions, and a continuing
 exchange of value between vendor and customer. This is already
 the price structure of the largest merchant software products such
 as ERP (Enterprise Resource Planning) systems, for which the
 The Magic Cauldron
-121
-
 
 The Cathedral and the Bazaar
 development costs are so large that no ﬁxed purchase price could
 possibly cover them; ﬁrms like Baan and Peoplesoft actually make
-their money from after-sale consulting fees. Under the efﬁciency-
-seeking conditions of the free market we can predict that this is
+their money from after-sale consulting fees. Under the efﬁciencyseeking conditions of the free market we can predict that this is
 the sort of price structure most of a mature software industry will
 ultimately follow.
 The foregoing begins to give us some insight into why open-source
-software increasingly poses not merely a technological but an eco-
-nomic challenge to the prevailing order. The effect of making soft-
-ware ‘free’, it seems, is to force us into that service-fee–dominated
+software increasingly poses not merely a technological but an economic challenge to the prevailing order. The effect of making software ‘free’, it seems, is to force us into that service-fee–dominated
 world — and to expose what a relatively weak prop the sale value
 of the secret bits in closed-source software was all along.
 This transition will not be quite the wrench it may at ﬁrst appear.
 Many consumers ﬁnd that pirate copies of packaged software
 (especially games, operating systems, and popular productivity
-tools) are readily available to them. Thus, many proprietary soft-
-ware sale prices are, from the point of view of the consumer, only
+tools) are readily available to them. Thus, many proprietary software sale prices are, from the point of view of the consumer, only
 worth paying as claims on other goods: vendor support, or the
-paper manuals, or a feeling of virtuousness. Commercial distribu-
-tions of so-called ‘free’ software often justify their price to the cus-
-tomer in exactly the same way—the only difference is that their
+paper manuals, or a feeling of virtuousness. Commercial distributions of so-called ‘free’ software often justify their price to the customer in exactly the same way—the only difference is that their
 vendors do not fool themselves into thinking that the bits alone
 necessarily have value to the customer.
 The term ‘free’ is misleading in another way as well. Lowering the
-cost of a good tends to increase, rather than decrease, total invest-
-ment in the people and infrastructure that sustains it. When the
+cost of a good tends to increase, rather than decrease, total investment in the people and infrastructure that sustains it. When the
 price of cars goes down, the demand for auto mechanics goes
-up — which is why even those 5% of programmers now compen-
-sated by sale-value would be very unlikely to suffer in an open-
-source world. The people who lose in the transition won’t be
-programmers, they will be investors who have bet on closed-
-source strategies where they’re not economically viable.
-122
-
+up — which is why even those 5% of programmers now compensated by sale-value would be very unlikely to suffer in an opensource world. The people who lose in the transition won’t be
+programmers, they will be investors who have bet on closedsource strategies where they’re not economically viable.
 
 The ‘‘Information Wants
 to Be Free’’ Myth
 There is another myth, equal and opposite to the factory-model
-delusion, which often confuses people’s thinking about the eco-
-nomics of open-source software. It is that ‘‘information wants to
+delusion, which often confuses people’s thinking about the economics of open-source software. It is that ‘‘information wants to
 be free’’. This usually unpacks to a claim that the zero marginal
 cost of reproducing digital information implies that its clearing
 price ought to be zero (or that a market full of duplicators will
@@ -4446,8 +3641,7 @@ the nonzero marginal cost for the item can be inherited by the
 claiming information.
 We mention this myth mainly to assert that it is almost unrelated
 to the economic-utility arguments for open source; as we’ll see
-later, those would generally hold up well even under the assump-
-tion that software actually does have the (nonzero) value structure
+later, those would generally hold up well even under the assumption that software actually does have the (nonzero) value structure
 of a manufactured good. We therefore have no need to tackle the
 question of whether software ‘should’ be free or not.
 The Inverse Commons
@@ -4457,16 +3651,11 @@ makes open-source cooperation sustainable.
 This is a question that bears examination on a couple of different
 levels. On one level, we need to explain the behavior of
 The Magic Cauldron
-123
-
 
 The Cathedral and the Bazaar
 individuals who contribute to open-source projects; on another,
-we need to understand the economic forces that sustain coopera-
-tion on open-source projects like Linux or Apache.
-Again, we must ﬁrst demolish a widespread folk model that inter-
-feres with understanding. Over every attempt to explain coopera-
-tive behavior there looms the shadow of Garret Hardin’s ‘‘Tragedy
+we need to understand the economic forces that sustain cooperation on open-source projects like Linux or Apache.
+Again, we must ﬁrst demolish a widespread folk model that interferes with understanding. Over every attempt to explain cooperative behavior there looms the shadow of Garret Hardin’s ‘‘Tragedy
 of the Commons’’.
 Hardin famously asks us to imagine a green held in common by a
 village of peasants, who graze their cattle there. But grazing
@@ -4478,24 +3667,16 @@ many cattle as quickly as possible, trying to extract maximum
 value before the commons degrades into a sea of mud.
 Most people have an intuitive model of cooperative behavior that
 goes much like this. The tragedy of the commons actually stems
-from two linked problems, one of overuse and another of under-
-provision. On the demand side, the commons situation encourages
-a race to the bottom by overuse—what economists call a con-
-gested–public-good problem. On the supply side, the commons
+from two linked problems, one of overuse and another of underprovision. On the demand side, the commons situation encourages
+a race to the bottom by overuse—what economists call a congested–public-good problem. On the supply side, the commons
 rewards free-rider behavior—removing or diminishing incentives
 for individual actors to invest in developing more pasturage.
-The tragedy of the commons predicts only three possible out-
-comes. One is the sea of mud. Another is for some actor with
-coercive power to enforce an allocation policy on behalf of the vil-
-lage (the communist solution). The third is for the commons to
+The tragedy of the commons predicts only three possible outcomes. One is the sea of mud. Another is for some actor with
+coercive power to enforce an allocation policy on behalf of the village (the communist solution). The third is for the commons to
 break up as village members fence off bits they can defend and
 manage sustainably (the property-rights solution).
-When people reﬂexively apply this model to open-source coopera-
-tion, they expect it to be unstable with a short half-life. Since
-there’s no obvious way to enforce an allocation policy for pro-
-grammer time over the Internet, this model leads straight to a
-124
-
+When people reﬂexively apply this model to open-source cooperation, they expect it to be unstable with a short half-life. Since
+there’s no obvious way to enforce an allocation policy for programmer time over the Internet, this model leads straight to a
 
 prediction that the commons will break up, with various bits of
 software being taken closed-source and a rapidly decreasing
@@ -4515,29 +3696,23 @@ and features (code patches). In this inverse commons, the grass
 grows taller when it’s grazed upon.
 That this public good cannot be degraded by overuse takes care of
 half of Hardin’s tragedy, the congested–public-goods problem. It
-doesn’t explain why open source doesn’t suffer from underprovi-
-sion. Why don’t people who know the open-source community
+doesn’t explain why open source doesn’t suffer from underprovision. Why don’t people who know the open-source community
 exists universally exhibit free-rider behavior, waiting for others to
 do the work they need, or (if they do the work themselves) not
 bothering to contribute the work back into the commons?
 Part of the answer lies in the fact that people don’t merely need
-solutions, they need solutions on time. It’s seldom possible to pre-
-dict when someone else will ﬁnish a given piece of needed work. If
+solutions, they need solutions on time. It’s seldom possible to predict when someone else will ﬁnish a given piece of needed work. If
 the payoff from ﬁxing a bug or adding a feature is sufﬁcient to any
 potential contributor, that person will dive in and do it (at which
 point the fact that everyone else is a free rider becomes irrelevant).
 Another part of the answer lies in the fact that the putative market
-value of small patches to a common source base is hard to cap-
-ture. Suppose I write a ﬁx for an irritating bug, and suppose many
+value of small patches to a common source base is hard to capture. Suppose I write a ﬁx for an irritating bug, and suppose many
 people realize the ﬁx has money value; how do I collect from all
 The Magic Cauldron
-125
-
 
 The Cathedral and the Bazaar
 those people? Conventional payment systems have high enough
-overheads to make this a real problem for the sorts of micropay-
-ments that would usually be appropriate.
+overheads to make this a real problem for the sorts of micropayments that would usually be appropriate.
 It may be more to the point that this value is not merely hard to
 capture, in the general case it’s hard to even assign. As a thought
 experiment, let us suppose that the Internet came equipped with
@@ -4558,8 +3733,7 @@ cost — the effort involved in re-merging the patch into the source
 base in each new release. So the payoff from this choice is actually
 negative (and multiplied by the rapid release tempo characteristic
 of open-source projects).
-To put it more positively, the contributor gains by passing main-
-tainance overhead of the patch to the source-code owners and the
+To put it more positively, the contributor gains by passing maintainance overhead of the patch to the source-code owners and the
 rest of the project group. He also gains because others will
 improve on his work in the future. Finally, because he won’t have
 to maintain the patch himself, he will be able to afford more time
@@ -4568,11 +3742,8 @@ arguments that favor opening source for entire packages apply to
 patches as well.
 Throwing the patch in the pool may gain nothing, or it may
 encourage reciprocal effort from others that will address some of
-126
 
-
-J. Random’s problems in the future. This choice, apparently altru-
-istic, is actually optimally selﬁsh in a game-theoretic sense.
+J. Random’s problems in the future. This choice, apparently altruistic, is actually optimally selﬁsh in a game-theoretic sense.
 In analyzing this kind of cooperation, it is important to note that
 while there is a free-rider problem (work may be underprovided in
 the absence of money or money-equivalent compensation) it is not
@@ -4581,9 +3752,7 @@ discussion). The complexity and communications overhead of an
 open-source project is almost entirely a function of the number of
 developers involved; having more end users who never look at
 source costs effectively nothing. It may increase the rate of silly
-questions appearing on the project mailing lists, but this is rela-
-tively easily forestalled by maintaining a Frequently Asked Ques-
-tions list and blithely ignoring questioners who have obviously not
+questions appearing on the project mailing lists, but this is relatively easily forestalled by maintaining a Frequently Asked Questions list and blithely ignoring questioners who have obviously not
 read it (and in fact both these practices are typical).
 The real free-rider problems in open-source software are more a
 function of friction costs in submitting patches than anything else.
@@ -4601,13 +3770,10 @@ attracted orders of magnitude more cooperative energy than the
 more tightly organized and centralized BSD efforts—and why the
 Free Software Foundation has receded in relative importance as
 Linux has risen.
-This is all good as far as it goes. But it is an after-the-fact explana-
-tion of what J. Random Hacker does with his patch after he has
+This is all good as far as it goes. But it is an after-the-fact explanation of what J. Random Hacker does with his patch after he has
 created it. The other half we need is an economic explanation of
 how JRH was able to write that patch in the ﬁrst place, rather
 The Magic Cauldron
-127
-
 
 The Cathedral and the Bazaar
 than having to work on a closed-source program that might have
@@ -4621,8 +3787,7 @@ Let’s say you hire someone to write to order (say) a specialized
 accounting package for your business. That problem won’t be
 solved any better if the sources are closed rather than open; the
 only rational reasons you might want them to be closed is if you
-want to sell the package to other people, or deny its use to com-
-petitors.
+want to sell the package to other people, or deny its use to competitors.
 The obvious answer is that you’re protecting sale value, but for
 the 95% of software written for internal use this doesn’t apply. So
 what other gains are there in being closed?
@@ -4635,57 +3800,42 @@ your business. Is this an argument against open-sourcing?
 Maybe — and maybe not. The real question is whether your gain
 from spreading the development load exceeds your loss due to
 increased competition from the free rider. Many people tend to
-reason poorly about this tradeoff through (a) ignoring the func-
-tional advantage of recruiting more development help, and (b) not
+reason poorly about this tradeoff through (a) ignoring the functional advantage of recruiting more development help, and (b) not
 treating the development costs as sunk. By hypothesis, you had to
 pay the development costs anyway, so counting them as a cost of
 open-sourcing (if you choose to do that) is mistaken.
 Another reason often cited is the fear that disclosing source of a
 particular special accounting function might be tantamount to
-128
-
 
 revealing conﬁdential aspects of your business plan. This is really
 an argument not for closed source but against bad design; in a
 properly-written accounting package, business knowledge should
-not be expressed in code at all but rather in a schema or speciﬁca-
-tion language implemented by the accounting engine (for a closely
+not be expressed in code at all but rather in a schema or speciﬁcation language implemented by the accounting engine (for a closely
 parallel case, consider the way that database schemas separate
 business knowledge from the mechanics of the database engine).
 The separation of function would enable you to guard the crown
-jewels (the schema) while getting maximum beneﬁt from open-
-sourcing the engine.
-There are other reasons for closing source that are outright irra-
-tional. You might, for example, be laboring under the delusion
+jewels (the schema) while getting maximum beneﬁt from opensourcing the engine.
+There are other reasons for closing source that are outright irrational. You might, for example, be laboring under the delusion
 that closing the sources will make your business systems more
-secure against crackers and intruders. If so, I recommend thera-
-peutic conversation with a cryptographer immediately. The really
+secure against crackers and intruders. If so, I recommend therapeutic conversation with a cryptographer immediately. The really
 professional paranoids know better than to trust the security of
 closed-source programs, because they’ve learned through hard
-experience not to. Security is an aspect of reliability; only algo-
-rithms and implementations that have been thoroughly peer-
-reviewed can possibly be trusted as secure.
+experience not to. Security is an aspect of reliability; only algorithms and implementations that have been thoroughly peerreviewed can possibly be trusted as secure.
 Use-Value Funding Models
 A key fact that the distinction between use and sale value allows
 us to notice is that only sale value is threatened by the shift from
 closed to open source; use value is not.
-If use value rather than sale value is really the major driver of soft-
-ware development, and (as was argued in The Cathedral and the
-Bazaar) open-source development is really more effective and efﬁ-
-cient than closed, then we should expect to ﬁnd circumstances in
+If use value rather than sale value is really the major driver of software development, and (as was argued in The Cathedral and the
+Bazaar) open-source development is really more effective and efﬁcient than closed, then we should expect to ﬁnd circumstances in
 which expected use value alone sustainably funds open-source
 development.
 And in fact it is not difﬁcult to identify at least two important
-models in which full-time developer salaries for open-source pro-
-jects are funded strictly out of use value.
+models in which full-time developer salaries for open-source projects are funded strictly out of use value.
 The Magic Cauldron
-129
-
 
 The Cathedral and the Bazaar
 The Apa che Case: Cost-Sharing
-Let’s say you work for a ﬁrm that has a business-critical require-
-ment for a high-volume, high-reliability web server. Maybe it’s for
+Let’s say you work for a ﬁrm that has a business-critical requirement for a high-volume, high-reliability web server. Maybe it’s for
 electronic commerce, maybe you’re a high-visibility media outlet
 selling advertising, maybe you’re a portal site. You need 24/7
 uptime, you need speed, and you need customizability.
@@ -4696,51 +3846,39 @@ In this case, you are betting that the vendor’s agenda matches
 yours and that the vendor has the technical competence to
 implement properly. Even assuming both these things to be
 true, the product is likely to come up short in customizability;
-you will be able to modify it only through the hooks the ven-
-dor has chosen to provide. We can see from the monthly
+you will be able to modify it only through the hooks the vendor has chosen to provide. We can see from the monthly
 Netcraft surveys that this proprietary path is not a popular
 one and is getting less popular all the time.
 Roll your own.
 Building your own web server is not an option to dismiss
 instantly; web servers are not very complex, certainly less so
 than browsers, and a specialized one can be very lean and
-mean. Going this path, you can get the exact features and cus-
-tomizability you want, though you’ll pay for it in develop-
-ment time. Your ﬁrm may also ﬁnd it has a problem when you
+mean. Going this path, you can get the exact features and customizability you want, though you’ll pay for it in development time. Your ﬁrm may also ﬁnd it has a problem when you
 retire or leave.
 Join the Apache group.
 The Apache server was built by an Internet-connected group
 of webmasters who realized that it was smarter to pool their
-efforts into improving one code base than to run a large num-
-ber of parallel development efforts. By doing this they were
+efforts into improving one code base than to run a large number of parallel development efforts. By doing this they were
 able to capture both most of the advantages of roll-your-own
 and the powerful debugging effect of massively-parallel peer
 review.
-130
-
 
 The advantage of the Apache choice is very strong. Just how
 strong, we may judge from the monthly Netcraft survey, which
-has shown Apache steadily gaining market share against all pro-
-prietary web servers since its inception. As of November 2000,
-Apache 
-and 
-its 
-derivatives 
-had 
-60% 
-market 
+has shown Apache steadily gaining market share against all proprietary web servers since its inception. As of November 2000,
+Apache
+and
+its
+derivatives
+had
+60%
+market
 share
-(http://www.netcraft.com/survey/)—with no legal owner, no pro-
-motion, and no contracted service organization behind it at all.
-The Apache story generalizes to a model in which competing soft-
-ware users ﬁnd it to their advantage to cooperatively fund open-
-source development because doing so gets them a better product,
+(http://www.netcraft.com/survey/)—with no legal owner, no promotion, and no contracted service organization behind it at all.
+The Apache story generalizes to a model in which competing software users ﬁnd it to their advantage to cooperatively fund opensource development because doing so gets them a better product,
 at lower cost, than they could otherwise have.
 The Cisco Case: Risk-Spreading
-Some years ago, two programmers at Cisco (the networking-
-equipment manufacturer) got assigned the job of writing a dis-
-tributed print-spooling system for use on Cisco’s corporate
+Some years ago, two programmers at Cisco (the networkingequipment manufacturer) got assigned the job of writing a distributed print-spooling system for use on Cisco’s corporate
 network. This was quite a challenge. Besides supporting the ability
 for arbitrary user A to print at arbitrary printer B (which might be
 in the next room or a thousand miles away), the system had to
@@ -4751,23 +3889,18 @@ printer administrator.
 The duo came up with a clever set of modiﬁcations
 (http://www.tpp.org/CiscoPrint/)
 to
-the standard Unix print-
-spooler software, plus some wrapper scripts, that did the job.
+the standard Unix printspooler software, plus some wrapper scripts, that did the job.
 Then they realized that they, and Cisco, had a problem.
 The problem was that neither of them was likely to be at Cisco
 forever. Eventually, both programmers would be gone, and the
-software would be unmaintained and begin to rot (that is, to grad-
-ually fall out of sync with real-world conditions). No developer
+software would be unmaintained and begin to rot (that is, to gradually fall out of sync with real-world conditions). No developer
 likes to see this happen to his or her work, and the intrepid duo
 felt Cisco had paid for a solution under the not unreasonable
 expectation that it would outlast their own employment there.
 The Magic Cauldron
-131
-
 
 The Cathedral and the Bazaar
-Accordingly, they went to their manager and urged him to autho-
-rize the release of the print-spooler software as open source. Their
+Accordingly, they went to their manager and urged him to authorize the release of the print-spooler software as open source. Their
 argument was that Cisco would have no sale value to lose, and
 much else to gain. By encouraging the growth of a community of
 users and co-developers spread across many corporations, Cisco
@@ -4775,10 +3908,8 @@ could effectively hedge against the loss of the software’s original
 developers.
 The Cisco story shows open source can function not only to lower
 costs but to spread and mitigate risk. All parties ﬁnd that the
-openness of the source, and the presence of a collaborative com-
-munity funded by multiple independent revenue streams, provides
-a fail-safe that is itself economically valuable—sufﬁciently valu-
-able to attract funding for it.
+openness of the source, and the presence of a collaborative community funded by multiple independent revenue streams, provides
+a fail-safe that is itself economically valuable—sufﬁciently valuable to attract funding for it.
 Why Sale Value Is Problematic
 Open source makes it rather difﬁcult to capture direct sale value
 from software. The difﬁculty is not technical; source code is no
@@ -4789,8 +3920,7 @@ than it is for closed.
 The difﬁculty lies rather with the nature of the social contract that
 supports open-source development. For three mutually reinforcing
 reasons, the major open-source licenses prohibit most of the sort
-of restrictions on use, redistribution and modiﬁcation that facili-
-tate direct-sale revenue capture. To understand these reasons, we
+of restrictions on use, redistribution and modiﬁcation that facilitate direct-sale revenue capture. To understand these reasons, we
 must examine the social context within which the licenses evolved;
 the Internet hacker culture (http://www.tuxedo.org/ ˜esr/faqs/
 hacker-howto.html).
@@ -4799,8 +3929,6 @@ outside it, none of these reasons has to do with hostility to the
 market. While a minority of hackers does indeed remain hostile to
 the proﬁt motive, the general willingness of the community to
 cooperate with for-proﬁt Linux packagers like Red Hat, SuSE, and
-132
-
 
 Caldera demonstrates that most hackers will happily work with
 the corporate world when it serves their ends. The real reasons
@@ -4819,26 +3947,20 @@ commercial use or sale (the most common form of attempt to
 recapture direct sale value, and not at ﬁrst blush an unreasonable
 one) have serious chilling effects. A speciﬁc one is to cast a legal
 shadow on activities like redistribution in inexpensive CD-ROM
-anthologies, which we would ideally like to encourage. More gen-
-erally, restrictions on use/sale/modiﬁcation/distribution (and other
+anthologies, which we would ideally like to encourage. More generally, restrictions on use/sale/modiﬁcation/distribution (and other
 complications in licensing) exact an overhead for conformance
 tracking and (as the number of packages people deal with rises) a
 combinatorial explosion of perceived uncertainty and potential
-legal risk. This outcome is considered harmful, and there is there-
-fore strong social pressure to keep licenses simple and free of
+legal risk. This outcome is considered harmful, and there is therefore strong social pressure to keep licenses simple and free of
 restrictions.
 The ﬁnal and most critical reason has to do with preserving the
 peer-review, gift-culture dynamic described in Homesteading the
 Noosphere. License restrictions designed to protect intellectual
-property or capture direct sale value often have the effect of mak-
-ing it legally impossible to fork the project. This is the case, for
+property or capture direct sale value often have the effect of making it legally impossible to fork the project. This is the case, for
 example, with Sun’s so-called “Community Source” licenses for
 Jini and Java. While forking is frowned upon and considered a last
-resort (for reasons discussed at length in Homesteading the Noo-
-sphere), it’s considered critically important that that last resort be
+resort (for reasons discussed at length in Homesteading the Noosphere), it’s considered critically important that that last resort be
 The Magic Cauldron
-133
-
 
 The Cathedral and the Bazaar
 present in case of maintainer incompetence or defection (e.g., to a
@@ -4846,8 +3968,7 @@ more closed license).4
 The hacker community has some give on the symmetry reason;
 thus, it tolerates licenses like the Netscape Public License (NPL)
 that give some proﬁt privileges to the originators of the code
-(speciﬁcally in the NPL case, the exclusive right to use the open-
-source Mozilla code in derivative products including closed
+(speciﬁcally in the NPL case, the exclusive right to use the opensource Mozilla code in derivative products including closed
 source). It has less give on the unintended-consequences reason,
 and none at all on preserving the option to fork (which is why
 Sun’s Java and Jini Sun Community Source License schemes have
@@ -4862,8 +3983,7 @@ bear arms—you don’t want to have to exercise any of these rights,
 but it’s a signal of serious danger when anyone tries to take them
 away.)
 These reasons explain the clauses of the Open Source Deﬁnition,
-which was written to express the consensus of the hacker commu-
-nity regarding the critical features of the standard licenses (the
+which was written to express the consensus of the hacker community regarding the critical features of the standard licenses (the
 GPL, the BSD license, the MIT License, and the Artistic License).
 These clauses have the effect (though not the intention) of making
 direct sale value very hard to capture.
@@ -4872,15 +3992,12 @@ Nevertheless, there are ways to make markets in software-related
 services that capture something like indirect sale value. There are
 ﬁve known and two speculative models of this kind (more may be
 developed in the future).
-134
-
 
 Loss-Leader/Market Positioner
 In this model, you use open-source software to create or maintain
 a market position for proprietary software that generates a direct
 revenue stream. In the most common variant, open-source client
-software enables sales of server software, or subscription/advertis-
-ing revenue associated with a portal site.
+software enables sales of server software, or subscription/advertising revenue associated with a portal site.
 Netscape Communications, Inc. was pursuing this strategy when it
 open-sourced the Mozilla browser in early 1998. The browser side
 of their business was at 13% of revenues and dropping when
@@ -4903,30 +4020,23 @@ keeping Mozilla in play was sufﬁciently clear that one of AOL’s
 ﬁrst public commitments was to continue supporting the Mozilla
 project, even though it was still in alpha stage.
 Widget Frosting
-This model is for hardware manufacturers (hardware, in this con-
-text, includes anything from Ethernet or other peripheral boards
+This model is for hardware manufacturers (hardware, in this context, includes anything from Ethernet or other peripheral boards
 all the way up to entire computer systems). Market pressures have
 forced hardware companies to write and maintain software (from
 device drivers through conﬁguration tools all the way up to the
 The Magic Cauldron
-135
-
 
 The Cathedral and the Bazaar
 level of entire operating systems), but the software itself is not a
 proﬁt center. It’s an overhead — often a substantial one.
-In this situation, opening source is a no-brainer. There’s no rev-
-enue stream to lose, so there’s no downside. What the vendor
-gains is a dramatically larger developer pool, more rapid and ﬂexi-
-ble response to customer needs, and better reliability through peer
+In this situation, opening source is a no-brainer. There’s no revenue stream to lose, so there’s no downside. What the vendor
+gains is a dramatically larger developer pool, more rapid and ﬂexible response to customer needs, and better reliability through peer
 review. It gets ports to other environments for free. It probably
 also gains increased customer loyalty as its customers’ technical
 staffs put increasing amounts of time into the code to improve the
 source as they require.
-There are a couple of vendor objections commonly raised speciﬁ-
-cally to open-sourcing hardware drivers. Rather than mix these
-objections with discussion of more general issues here, I have writ-
-ten speciﬁcally on this topic (see the section “Afterword: Why
+There are a couple of vendor objections commonly raised speciﬁcally to open-sourcing hardware drivers. Rather than mix these
+objections with discussion of more general issues here, I have written speciﬁcally on this topic (see the section “Afterword: Why
 Closing a Drivers Loses Its Vendor Money”).
 The ‘future-prooﬁng’ effect of open source is particularly strong
 with respect to widget frosting. Hardware products have a ﬁnite
@@ -4935,33 +4045,23 @@ their own. But if they have access to driver source and can patch
 those drivers as needed, they’re more likely to be happier repeat
 customers.
 A very dramatic example of adopting the widget frosting model
-was Apple Computer’s decision in mid-March 1999 to open-
-source “Darwin”, the core of their Mac OS X server operating
+was Apple Computer’s decision in mid-March 1999 to opensource “Darwin”, the core of their Mac OS X server operating
 system.
 Give Awa y the Recipe, Open a Restaurant
-In this model, one open-sources software to create a market posi-
-tion not for closed software (as in the loss-leader/market-posi-
-tioner case) but for services.
+In this model, one open-sources software to create a market position not for closed software (as in the loss-leader/market-positioner case) but for services.
 (I used to call this “Give Away the Razor, Sell Razor Blades”, but
 the coupling is not really as close as the razor/razor-blade analogy
 implies.)
-136
-
 
 This model was ﬁrst used by Cygnus Solutions, arguably the ﬁrst
 open-source business (1989). At the time, the GNU tools provided
 a common development environment across several machines, but
-each tool used a different conﬁguration process and required a dif-
-ferent set of patches to run on each platform. Cygnus domesti-
-cated the GNU tools and created the “conﬁgure” script to unify
+each tool used a different conﬁguration process and required a different set of patches to run on each platform. Cygnus domesticated the GNU tools and created the “conﬁgure” script to unify
 the build process (the recipe), and then sold support services and
-binaries bundled with their version of the GNU tools (the restau-
-rant). In accordance with the GPL, they permitted customers to
-freely use, distribute, and modify the software that they dis-
-tributed, but the service contract could be terminated (or a higher
+binaries bundled with their version of the GNU tools (the restaurant). In accordance with the GPL, they permitted customers to
+freely use, distribute, and modify the software that they distributed, but the service contract could be terminated (or a higher
 fee had to be paid) if there were more users at the site using the
-support services than were accounted for in the contract (no shar-
-ing at the salad bar).
+support services than were accounted for in the contract (no sharing at the salad bar).
 This also is what Red Hat and other Linux distributors do. What
 they are actually selling is not the software, the bits itself, but the
 value added by assembling and testing a running operating system
@@ -4970,25 +4070,18 @@ plug-compatible with other operating systems carrying the same
 brand. Other elements of their value proposition include free
 installation support and the provision of options for continuing
 support contracts.
-The market-building effect of open source can be extremely pow-
-erful, especially for companies that are inevitably in a service posi-
-tion to begin with. One very instructive recent case is Digital
-Creations, a website-design house started up in 1998 that special-
-izes in complex database and transaction sites. Their major tool,
+The market-building effect of open source can be extremely powerful, especially for companies that are inevitably in a service position to begin with. One very instructive recent case is Digital
+Creations, a website-design house started up in 1998 that specializes in complex database and transaction sites. Their major tool,
 the intellectual-property crown jewels of the company, is an object
 publisher that has been through several names and incarnations
 but is now called Zope.
-When the Digital Creations people went looking for venture capi-
-tal, the venture capitalist they brought in carefully evaluated their
+When the Digital Creations people went looking for venture capital, the venture capitalist they brought in carefully evaluated their
 prospective market niche, their people, and their tools. The VC
 then recommended that Digital Creations take Zope open-source.
 The Magic Cauldron
-137
-
 
 The Cathedral and the Bazaar
-By traditional software industry standards, this looks like an abso-
-lutely crazy move. Conventional business school wisdom has it
+By traditional software industry standards, this looks like an absolutely crazy move. Conventional business school wisdom has it
 that core intellectual property like Zope is a company’s crown
 jewels, never under any circumstances to be given away. But the
 VC had two related insights. One is that Zope’s true core asset is
@@ -4997,8 +4090,7 @@ is likely to generate more value as a market-builder than as a
 secret tool.
 To see this, compare two scenarios. In the conventional one, Zope
 remains Digital Creations’s secret weapon. Let’s stipulate that it’s a
-very effective one. As a result, the ﬁrm will be able to deliver supe-
-rior quality on short schedules—but nobody knows that. It will be
+very effective one. As a result, the ﬁrm will be able to deliver superior quality on short schedules—but nobody knows that. It will be
 easy to satisfy customers, but harder to build a customer base to
 begin with.
 The VC, instead, saw that open-sourcing Zope could be critical
@@ -5011,49 +4103,35 @@ their open-source strategy has “opened many doors we wouldn’t
 have got in otherwise” [sic]. Potential customers do indeed
 respond to the logic of the situation—and Digital Creations,
 accordingly, is prospering.
-Another up-to-the-minute example is e-smith, inc. (http://www.e-
-smith.net/). This company sells support contracts for turnkey
+Another up-to-the-minute example is e-smith, inc. (http://www.esmith.net/). This company sells support contracts for turnkey
 Internet server software that is open-source, a customized Linux.
 One of the principals, describing the spread of free downloads of
 e-smith’s software, says ‘‘Most companies would consider that
-software piracy; we consider it free marketing’’ (http://www.glo-
-betechnology.com/gam/News/19990625/BAND.html).
-138
-
+software piracy; we consider it free marketing’’ (http://www.globetechnology.com/gam/News/19990625/BAND.html).
 
 Accessorizing
 In this model, you sell accessories for open-source software. At the
 low end, mugs and T-shirts; at the high end, professionally edited
 and produced documentation.
 O’Reilly & Associates, Inc., publishers of many excellent reference
-volumes on open-source software, is a good example of an acces-
-sorizing company. O’Reilly actually hires and supports well-
-known open-source hackers (such as Larry Wall and Brian
+volumes on open-source software, is a good example of an accessorizing company. O’Reilly actually hires and supports wellknown open-source hackers (such as Larry Wall and Brian
 Behlendorf) as a way of building its reputation in its chosen
 market.
 Free the Future, Sell the Present
 In this model, you release software in binaries and source with a
-closed license, but one that includes an expiration date on the clo-
-sure provisions. For example, you might write a license that per-
-mits free redistribution, forbids commercial use without fee, and
+closed license, but one that includes an expiration date on the closure provisions. For example, you might write a license that permits free redistribution, forbids commercial use without fee, and
 guarantees that the software come under GPL terms a year after
 release or if the vendor folds.
-Under this model, customers can ensure that the product is cus-
-tomizable to their needs, because they have the source. The prod-
-uct is future-proofed—the license guarantees that an open source
+Under this model, customers can ensure that the product is customizable to their needs, because they have the source. The product is future-proofed—the license guarantees that an open source
 community can take over the product if the original company dies.
 Because the sale price and volume are based on these customer
-expectations, the original company should enjoy enhanced rev-
-enues from its product versus releasing it with an exclusively
+expectations, the original company should enjoy enhanced revenues from its product versus releasing it with an exclusively
 closed-source license. Furthermore, as older code is GPLed, it will
 get serious peer review, bug ﬁxes, and minor features, which
 removes some of the 75% maintainance burden on the originator.
 This model has been successfully pursued by Aladdin Enterprises,
-makers of the popular Ghostscript program (a PostScript inter-
-preter that can translate to the native languages of many printers).
+makers of the popular Ghostscript program (a PostScript interpreter that can translate to the native languages of many printers).
 The Magic Cauldron
-139
-
 
 The Cathedral and the Bazaar
 The main drawback of this model is that the closure provisions
@@ -5062,8 +4140,7 @@ cycle, precisely when they are needed most.
 Free the Software, Sell the Brand
 This is a speculative business model. You open-source a software
 technology, retain a test suite or set of compatibility criteria, then
-sell users a brand certifying that their implementation of the tech-
-nology is compatible with all others wearing the brand.
+sell users a brand certifying that their implementation of the technology is compatible with all others wearing the brand.
 (This is how Sun Microsystems ought to be handling Java and
 Jini.)
 Update: In July 2000, Sun announced that it would open-source
@@ -5074,46 +4151,34 @@ Free the Software, Sell the Content
 This is another speculative business model. Imagine something like
 a stock-ticker subscription service. The value is neither in the
 client software nor the server but in providing objectively reliable
-information. So you open-source all the software and sell sub-
-scriptions to the content. As hackers port the client to new plat-
-forms and enhance it in various ways, your market automatically
+information. So you open-source all the software and sell subscriptions to the content. As hackers port the client to new platforms and enhance it in various ways, your market automatically
 expands.
 (This is why AOL ought to open-source its client software.)
 When to Be Open, When
 to Be Closed
-Having reviewed business models that support open-source soft-
-ware development, we can now approach the general question of
+Having reviewed business models that support open-source software development, we can now approach the general question of
 when it makes economic sense to be open-source and when to be
 closed-source. First, we must be clear what the payoffs are from
 each strategy.
-140
-
 
 What Are the Payoffs?
 The closed-source approach allows you to collect rent from your
 secret bits; on the other hand, it forecloses the possibility of truly
-independent peer review. The open-source approach sets up condi-
-tions for independent peer review, but you don’t get rent from
+independent peer review. The open-source approach sets up conditions for independent peer review, but you don’t get rent from
 your secret bits.
-The payoff from having secret bits is well understood; tradition-
-ally, software business models have been constructed around it.
+The payoff from having secret bits is well understood; traditionally, software business models have been constructed around it.
 Until recently, the payoff from independent peer review was not
 well understood. The Linux operating system, however, drives
 home a lesson that we should probably have learned years ago
 from the history of the Internet’s core software and other branches
 of engineering—that open-source peer review is the only scalable
 method for achieving high reliability and quality.
-In a competitive market, therefore, customers seeking high relia-
-bility and quality will reward software producers who go open-
-source and discover how to maintain a revenue stream in the
-service, value-add, and ancilliary markets associated with soft-
-ware. This phenomenon is what’s behind the astonishing success
-of Linux, which came from nowhere in 1996 to be the second-
-most-popular operating system in the business server market by
+In a competitive market, therefore, customers seeking high reliability and quality will reward software producers who go opensource and discover how to maintain a revenue stream in the
+service, value-add, and ancilliary markets associated with software. This phenomenon is what’s behind the astonishing success
+of Linux, which came from nowhere in 1996 to be the secondmost-popular operating system in the business server market by
 mid-2000 (and some surveys actually showed it passing
 Microsoft’s share in late 2000). In early 1999 IDC projected that
-Linux would grow faster than all other operating systems com-
-bined through 2003; this projection has held true so far.
+Linux would grow faster than all other operating systems combined through 2003; this projection has held true so far.
 An almost equally important payoff of open source is its utility as
 a way to propagate open standards and build markets around
 them. The dramatic growth of the Internet owes much to the fact
@@ -5124,8 +4189,6 @@ clear and reduce ultimately to issues of trust and symmetry—
 potential parties to a shared infrastructure can rationally trust it
 more if they can see how it works all the way down, and will
 The Magic Cauldron
-141
-
 
 The Cathedral and the Bazaar
 prefer an infrastructure in which all parties have symmetrical
@@ -5135,13 +4198,10 @@ It is not, however, actually necessary to assume network effects in
 order for symmetry issues to be important to software consumers.
 No software consumer will rationally choose to lock itself into a
 supplier-controlled monopoly by becoming dependent on closed
-source if any open-source alternative of acceptable quality is avail-
-able. This argument gains force as the software becomes more
+source if any open-source alternative of acceptable quality is available. This argument gains force as the software becomes more
 critical to the software consumer’s business — the more vital it is,
-the less the consumer can tolerate having it controlled by an out-
-side party.
-There’s a ﬂip side to this. Economists know that, in general, asym-
-metric information makes markets work poorly. Higher-quality
+the less the consumer can tolerate having it controlled by an outside party.
+There’s a ﬂip side to this. Economists know that, in general, asymmetric information makes markets work poorly. Higher-quality
 goods get driven out when it’s more lucrative to collect rent on
 privileged information than it is to invest in producing better
 products. In general, not just in software, secrecy is the enemy of
@@ -5149,8 +4209,7 @@ quality.
 Finally, an important customer payoff of open-source software
 related to the trust issue is that it’s future-proof. If sources are
 open, the customer has some recourse if the vendor goes belly-up.
-This may be particularly important for widget frosting, since hard-
-ware tends to have short life cycles, but the effect is more general
+This may be particularly important for widget frosting, since hardware tends to have short life cycles, but the effect is more general
 and translates into increased value for all kinds of open-source
 software.
 How Do They Interact?
@@ -5161,70 +4220,56 @@ makes sense to go open source.
 In itself, this is a trivial observation. It becomes nontrivial when
 we notice that the payoff from open source is harder to measure
 and predict than the rent from secret bits—and that said payoff is
-142
-
 
 grossly underestimated much more often than it is overestimated.
 Indeed, until the mainstream business world began to rethink its
 premises following the Mozilla source release in early 1998, the
 open-source payoff was incorrectly but very generally assumed to
 be zero.
-So how can we evaluate the payoff from open source? It’s a difﬁ-
-cult question in general, but we can approach it as we would any
+So how can we evaluate the payoff from open source? It’s a difﬁcult question in general, but we can approach it as we would any
 other predictive problem. We can start from observed cases where
 the open-source approach has succeeded or failed. We can try to
 generalize to a model that gives at least a qualitative feel for the
-contexts in which open source is a net win for the investor or busi-
-ness trying to maximize returns. We can then go back to the data
+contexts in which open source is a net win for the investor or business trying to maximize returns. We can then go back to the data
 and try to reﬁne the model.
 From the analysis presented in The Cathedral and the Bazaar, we
 can expect that open source has a high payoff where (a) reliability/
 stability/scalability are critical, and (b) correctness of design and
-implementation is not readily veriﬁed by means other than inde-
-pendent peer review. (The second criterion is met in practice by
+implementation is not readily veriﬁed by means other than independent peer review. (The second criterion is met in practice by
 most non-trivial programs.)
 A consumer’s rational desire to avoid being locked into a
 monopoly supplier will increase its interest in open source (and,
 hence, the competitive-market value for suppliers of going open)
 as the software becomes more critical to that consumer. Thus,
-another criterion (c) pushes towards open source when the soft-
-ware is a business-critical capital good (as, for example, in many
+another criterion (c) pushes towards open source when the software is a business-critical capital good (as, for example, in many
 corporate MIS departments).
 As for application area, we observed above that open-source
 infrastructure creates trust and symmetry effects that, over time,
-will tend to attract more customers and to outcompete closed-
-source infrastructure; and it is often better to have a smaller piece
+will tend to attract more customers and to outcompete closedsource infrastructure; and it is often better to have a smaller piece
 of such a rapidly-expanding market than a bigger piece of a closed
 The Magic Cauldron
-143
-
 
 The Cathedral and the Bazaar
 and stagnant one. Accordingly, for infrastructure software, an
-open-source play for ubiquity is quite likely to have a higher long-
-term payoff than a closed-source play for rent from intellectual
+open-source play for ubiquity is quite likely to have a higher longterm payoff than a closed-source play for rent from intellectual
 property.
 In fact, the ability of potential customers to reason about the
 future consequences of vendor strategies and their reluctance to
 accept a supplier monopoly implies a stronger constraint; without
 already having overwhelming market power, you can choose
-either an open-source ubiquity play or a direct-revenue-from-
-closed-source play—but not both. (Analogues of this principle are
+either an open-source ubiquity play or a direct-revenue-fromclosed-source play—but not both. (Analogues of this principle are
 visible elsewhere—e.g., in electronics markets where customers
 often refuse to buy sole-source designs.) The case can be put less
 negatively: where network effects (positive network externalities)
 dominate, open source is likely to be the right thing.
 We may sum up this logic by observing that open source seems to
 be most successful in generating greater returns than is closed
-source in software that (d) establishes or enables a common com-
-puting and communications infrastructure.
-Finally, we may note that purveyors of unique or just highly differ-
-entiated services have more incentive to fear the copying of their
+source in software that (d) establishes or enables a common computing and communications infrastructure.
+Finally, we may note that purveyors of unique or just highly differentiated services have more incentive to fear the copying of their
 methods by competitors than do vendors of services for which the
 critical algorithms and knowledge bases are well understood.
 Accordingly, open source is more likely to dominate when (e) key
-methods (or functional equivalents) are part of common engineer-
-ing knowledge.
+methods (or functional equivalents) are part of common engineering knowledge.
 The Internet core software, Apache, and Linux’s implementation
 of the standard Unix API are prime exemplars of all ﬁve criteria.
 The path towards open source in the evolution of such markets
@@ -5232,15 +4277,10 @@ are well-illustrated by the reconvergence of data networking on
 TCP/IP in the mid-1990s following 15 years of failed attempts at
 empire-building with closed protocols such as DECNET, XNS,
 IPX, and the like.
-144
-
 
 On the other hand, open source seems to make the least sense for
-companies that have unique possession of a value-generating soft-
-ware technology (strongly fulﬁlling criterion (e)), which is (a) rela-
-tively insensitive to failure, which can (b) readily be veriﬁed by
-means other than independent peer review, which is not (c) busi-
-ness-critical, and which would not have its value substantially
+companies that have unique possession of a value-generating software technology (strongly fulﬁlling criterion (e)), which is (a) relatively insensitive to failure, which can (b) readily be veriﬁed by
+means other than independent peer review, which is not (c) business-critical, and which would not have its value substantially
 increased by (d) network effects or ubiquity.
 As an example of this extreme case, in early 1999 I was asked
 “Should we go open source?” by a company that writes software
@@ -5249,22 +4289,15 @@ maximum yardage of planks from logs. My conclusion was ‘‘No.’’
 The only criterion this comes even close to fulﬁlling is (c); but in a
 pinch, an experienced operator could generate cut patterns by
 hand.
-Note that my answer night have been very different if the cut-pat-
-tern calculator had been written by a sawmill-equipment manufac-
-turer. In that case, opening the code would have increased the
+Note that my answer night have been very different if the cut-pattern calculator had been written by a sawmill-equipment manufacturer. In that case, opening the code would have increased the
 value of the associated hardware they were selling. Also note that
-if some open-source cut-pattern calculator already existed (per-
-haps the one written by the sawmill-equipment manufacturer) the
+if some open-source cut-pattern calculator already existed (perhaps the one written by the sawmill-equipment manufacturer) the
 closed-source product would have trouble competing with it—not
-so much for reasons of price, but because customers would per-
-ceive on open-source advantage in customizability and other
+so much for reasons of price, but because customers would perceive on open-source advantage in customizability and other
 traits.
-An important point is that where a particular product or technol-
-ogy sits on these scales may change over time, as we’ll see in the
+An important point is that where a particular product or technology sits on these scales may change over time, as we’ll see in the
 following case study.
 The Magic Cauldron
-145
-
 
 The Cathedral and the Bazaar
 In summary, the following discriminators push towards open
@@ -5272,42 +4305,32 @@ source:
 1. Reliability/stability/scalability are critical.
 2. Correctness of design and implementation cannot readily be
 veriﬁed by means other than independent peer review.
-3. The software is critical to the user’s control of his/her busi-
-ness.
+3. The software is critical to the user’s control of his/her business.
 4. The software establishes or enables a common computing and
 communications infrastructure.
 5. Key methods (or functional equivalents of them) are part of
 common engineering knowledge.
 Doom: A Case Study
 The history of id software’s best-selling game Doom illustrates
-ways in which market pressure and product evolution can criti-
-cally change the payoff magnitudes for closed versus open source.
-When Doom was ﬁrst released in late 1993, its ﬁrst-person, real-
-time animation made it utterly unique (the antithesis of criterion
+ways in which market pressure and product evolution can critically change the payoff magnitudes for closed versus open source.
+When Doom was ﬁrst released in late 1993, its ﬁrst-person, realtime animation made it utterly unique (the antithesis of criterion
 (e)). Not only was the visual impact of the techniques stunning
-(far exceeding the ﬂat-world animation in its predecessor Wolfen-
-stein 3D), but for many months nobody could ﬁgure out how it
+(far exceeding the ﬂat-world animation in its predecessor Wolfenstein 3D), but for many months nobody could ﬁgure out how it
 had been achieved on the underpowered microprocessors of that
-time. These secret bits were worth some very serious rent. In addi-
-tion, the potential payoff from open source was low. As a solo
+time. These secret bits were worth some very serious rent. In addition, the potential payoff from open source was low. As a solo
 game, the software (a) incurred tolerably low costs on failure, (b)
 was not tremendously hard to verify, (c) was not business-critical
 for any consumer, and (d) did not beneﬁt from network effects. It
 was economically rational for Doom to be closed source.
 However, the market around Doom did not stand still. Would-be
-competitors invented functional equivalents of its animation tech-
-niques, and other ‘‘ﬁrst-person shooter’’ games like Duke Nukem
+competitors invented functional equivalents of its animation techniques, and other ‘‘ﬁrst-person shooter’’ games like Duke Nukem
 began to appear. As these games ate into Doom’s market share,
 the value of the rent from secret bits went down.
-146
-
 
 On the other hand, efforts to expand that share brought on new
 technical challenges—better reliability, more game features, a
-larger user base, and multiple platforms. With the advent of multi-
-player “deathmatch” play and Doom gaming services, the market
-began to display substantial network effects. All this was demand-
-ing programmer-hours that id would have preferred to spend on
+larger user base, and multiple platforms. With the advent of multiplayer “deathmatch” play and Doom gaming services, the market
+began to display substantial network effects. All this was demanding programmer-hours that id would have preferred to spend on
 the next game.
 From the time the game was ﬁrst released, id had looked benignly
 on the publication of technical specs that helped people to create
@@ -5322,34 +4345,25 @@ and created a secondary market for them to exploit. At some
 point the payoff curves crossed over and it became economically
 rational for id to shift to making money in that secondary market
 (with products such as game-scenario anthologies) and then open
-up the Doom source. Sometime after this point, it actually hap-
-pened. The full source for Doom was released in late 1997.
+up the Doom source. Sometime after this point, it actually happened. The full source for Doom was released in late 1997.
 Knowing When to Let Go
 Doom makes an interesting case study because it is neither an
 operating system nor communications/networking software; it is
-thus far removed from the usual and obvious examples of open-
-source success. Indeed, Doom’s life cycle, complete with crossover
+thus far removed from the usual and obvious examples of opensource success. Indeed, Doom’s life cycle, complete with crossover
 point, may be coming to typify that of applications software in
-today’s code ecology—one in which communications and dis-
-tributed computation both create serious robustness/reliability/
-scalability problems only addressible by peer review, and fre-
-quently cross boundaries both between technical environments
+today’s code ecology—one in which communications and distributed computation both create serious robustness/reliability/
+scalability problems only addressible by peer review, and frequently cross boundaries both between technical environments
 and between competing actors (with all the trust and symmetry
 issues that implies).
 The Magic Cauldron
-147
-
 
 The Cathedral and the Bazaar
 Doom evolved from solo to deathmatch play. Increasingly, the
 network effect is the computation. Similar trends are visible even
-in the heaviest business applications, such as ERP systems, as busi-
-nesses network ever more intensively with suppliers and cus-
-tomers — and, of course, they are implicit in the whole architecture
+in the heaviest business applications, such as ERP systems, as businesses network ever more intensively with suppliers and customers — and, of course, they are implicit in the whole architecture
 of the World Wide Web. It follows that almost everywhere, the
 open-source payoff is steadily increasing.
-If present trends continue, the central challenge of software tech-
-nology and product management in the next century will be
+If present trends continue, the central challenge of software technology and product management in the next century will be
 knowing when to let go—when to allow closed code to pass into
 the open-source infrastructure in order to exploit the peer-review
 effect and capture higher returns in service and other secondary
@@ -5359,12 +4373,9 @@ point too far in either direction. Beyond that, there’s a serious
 opportunity risk in waiting too long—you could get scooped by a
 competitor going open-source in the same market niche.
 The reason this is a serious issue is that both the pool of users and
-the pool of talent available to be recruited into open-source coop-
-eration for any given product category is limited, and recruitment
-tends to stick. If two producers are the ﬁrst and second to open-
-source competing code of roughly equal function, the ﬁrst is likely
-to attract the most users and the most and best-motivated co-
-developers; the second will have to take leavings. Recruitment
+the pool of talent available to be recruited into open-source cooperation for any given product category is limited, and recruitment
+tends to stick. If two producers are the ﬁrst and second to opensource competing code of roughly equal function, the ﬁrst is likely
+to attract the most users and the most and best-motivated codevelopers; the second will have to take leavings. Recruitment
 tends to stick, as users gain familiarity and developers sink time
 investments in the code itself.
 Open Source as a Strategic Weapon
@@ -5373,13 +4384,10 @@ grow markets but as a strategic maneuver against a company’s
 competition. It will be fruitful to re-examine some of the business
 tactics described above from that angle; not directly as revenue
 generators but as ways to break into and reshape markets.
-148
-
 
 Cost-sharing as a Competitive Weapon
 Earlier, we considered Apache as an example of better and cheaper
-infrastructure development through cost-sharing in an open-
-source project. For software and systems vendors competing
+infrastructure development through cost-sharing in an opensource project. For software and systems vendors competing
 against Microsoft and its IIS web server, the Apache project is also
 a competitive weapon. It would be difﬁcult, perhaps impossible,
 for any other single web server vendor to completely offset the
@@ -5387,12 +4395,10 @@ advantages of Microsoft’s huge war chest and desktop-monopoly
 market power. But Apache enables each corporate participant in
 the project to offer a web server that is both technically superior
 to IIS and reassures customers with a majority market share—at
-far lower cost. This improves the market position and cost of pro-
-duction for value-added electronic-commerce products (like IBM’s
+far lower cost. This improves the market position and cost of production for value-added electronic-commerce products (like IBM’s
 WebSphere).
 This generalizes. Open, shared infrastructure gives its participants
-competitive advantages. One is lower cost per participant to pro-
-duce salable products and services. Another is a market position
+competitive advantages. One is lower cost per participant to produce salable products and services. Another is a market position
 that reassures customers that they are much less likely to be stuck
 with orphaned technology as a result of one vendor’s change in
 strategy or tactics.
@@ -5406,21 +4412,15 @@ correctly) that if Sun were able to establish a proprietary graphics
 standard it would get a lock on the booming Unix-workstation
 market. By funding X and lending it engineers, and by allying with
 many smaller vendors to establish X as a defacto standard, DEC
-was able to neutralize advantages held by Sun and other competi-
-tors with more in-house expertise in graphics. This moved the
-focus of competition in the workstation market towards hard-
-ware, where DEC was historically strong.
+was able to neutralize advantages held by Sun and other competitors with more in-house expertise in graphics. This moved the
+focus of competition in the workstation market towards hardware, where DEC was historically strong.
 The Magic Cauldron
-149
-
 
 The Cathedral and the Bazaar
 This too generalizes. Open source is attractive to smart customers,
-and to potential allies not large enough to fund competive devel-
-opment on their own. An open-source project, pitched at the right
+and to potential allies not large enough to fund competive development on their own. An open-source project, pitched at the right
 time, can do better than just competing successfully against
-closed-source alternatives; it can actually prevent them from get-
-ting traction in the marketplace, resetting the competition and
+closed-source alternatives; it can actually prevent them from getting traction in the marketplace, resetting the competition and
 redirecting it from an area where the initiating company is weak
 to one where it is strong.
 Growing the Pond
@@ -5432,8 +4432,7 @@ more in future revenue than either the development cost of the
 software or the revenue potentially lost to competitors also able to
 use it.
 Sometimes the smartest way to become a bigger frog is to make
-the pond grow faster. This, of course, is the economic reason tech-
-nology ﬁrms have participated in public standards—and it’s useful
+the pond grow faster. This, of course, is the economic reason technology ﬁrms have participated in public standards—and it’s useful
 to think of open-source software as an executable standard.
 Besides being an excellent market builder, this strategy can be a
 direct competitive weapon when a small company uses it to offset
@@ -5446,14 +4445,11 @@ ease of system administration on its Windows machines.
 Preventing a Chokehold
 In explaining the previous loss-leader/market-positioner business
 model, I described how Netscape’s open-sourcing of the Mozilla
-150
-
 
 browser was a (successful) maneuver aimed at preventing
 Microsoft from effectively locking up HTML markup and the
 HTTP protocol.
-Often, it’s more important to prevent your competition from get-
-ting a chokehold on a particular technology than it is to control
+Often, it’s more important to prevent your competition from getting a chokehold on a particular technology than it is to control
 the technology yourself. By open-sourcing, you greatly increase
 the potential size of your blocking coalition.
 Open Source and Strategic
@@ -5472,24 +4468,18 @@ Put yourself for the moment in the position of a CTO at a Fortune
 IT infrastructure. Perhaps you need to choose a network operating
 system to be deployed enterprise-wide; perhaps your concerns
 involve 24/7 web service and e-commerce; perhaps your business
-depends on being able to ﬁeld high-volume, high-reliability trans-
-action databases.
+depends on being able to ﬁeld high-volume, high-reliability transaction databases.
 Suppose you go the conventional closed-source route. If you do,
 then you put your ﬁrm at the mercy of a supplier monopoly—
-because by deﬁnition, there is only one place you can go for sup-
-port, bug ﬁxes, and enhancements. If the supplier doesn’t perform,
+because by deﬁnition, there is only one place you can go for support, bug ﬁxes, and enhancements. If the supplier doesn’t perform,
 you will have no effective recourse because you are effectively
-locked in by your initial investment and training costs. Your sup-
-The Magic Cauldron
-151
-
+locked in by your initial investment and training costs. Your supThe Magic Cauldron
 
 The Cathedral and the Bazaar
 plier knows this. Under these circumstances, do you suppose the
 software will change to meet your needs and your business
 plan . . . or your supplier’s needs and your supplier’s business plan?
-The brutal truth is this: when your key business processes are exe-
-cuted by opaque blocks of bits that you can’t even see inside (let
+The brutal truth is this: when your key business processes are executed by opaque blocks of bits that you can’t even see inside (let
 alone modify), you have lost control of your business. You need
 your supplier more than your supplier needs you—and you will
 pay, and pay, and pay again for that power imbalance. You’ll pay
@@ -5498,18 +4488,15 @@ lock-in that grows worse over time as the supplier (who has
 reﬁned its game on a lot of previous victims) tightens its hold.
 Contrast this with the open-source choice. If you go that route,
 you have the source code, and no one can take it away from you.
-Instead of a supplier monopoly with a chokehold on your busi-
-ness, you now have multiple service companies bidding for your
+Instead of a supplier monopoly with a chokehold on your business, you now have multiple service companies bidding for your
 business — and you not only get to play them against each other,
-you have the option of building your own captive support organi-
-zation if that looks less expensive than contracting out. The
+you have the option of building your own captive support organization if that looks less expensive than contracting out. The
 market works for you.
 The logic is compelling; depending on closed-source code is an
 unacceptable strategic business risk. So much so that I believe it
 will not be very long until closed-source single-vendor acquisitions
 when there is an open-source alternative available will be viewed
-as actual ﬁduciary irresponsibility, and rightly grounds for a share-
-holder lawsuit.
+as actual ﬁduciary irresponsibility, and rightly grounds for a shareholder lawsuit.
 The Business Ecology
 of Open Source
 The open-source community has organized itself in a way that
@@ -5517,66 +4504,49 @@ tends to amplify the productivity effects of open source. In the
 Linux world, in particular, it’s an economically signiﬁcant fact that
 there are multiple competing Linux distributors that form a tier
 separate from the developers.
-152
 
-
-Developers write code, and make the code available over the Inter-
-net. Each distributor selects some subset of the available code,
+Developers write code, and make the code available over the Internet. Each distributor selects some subset of the available code,
 integrates and packages and brands it, and sells it to customers.
-Users choose among distributions, and may supplement a distribu-
-tion by downloading code directly from developer sites.
+Users choose among distributions, and may supplement a distribution by downloading code directly from developer sites.
 The effect of this tier separation is to create a very ﬂuid internal
 market for improvements. Developers compete with each other,
 for the attention of distributors and users, on the quality of their
-software. Distributors compete for user dollars on the appropri-
-ateness of their selection policies, and on the value they can add to
+software. Distributors compete for user dollars on the appropriateness of their selection policies, and on the value they can add to
 the software.
 A ﬁrst-order effect of this internal market structure is that no node
 in the net is indispensible. Developers can drop out; even if their
 portion of the code base is not picked up directly by some other
-developer, the competition for attention will tend to rapidly gener-
-ate functional alternatives. Distributors can fail without damaging
+developer, the competition for attention will tend to rapidly generate functional alternatives. Distributors can fail without damaging
 or compromising the common open-source code base. The ecology
 as a whole has a more rapid response to market demands, and
 more capability to resist shocks and regenerate itself, than any
-monolithic vendor of a closed-source operating system can possi-
-bly muster.
-Another important effect is to lower overhead and increase efﬁ-
-ciency through specialization. Developers don’t experience the
+monolithic vendor of a closed-source operating system can possibly muster.
+Another important effect is to lower overhead and increase efﬁciency through specialization. Developers don’t experience the
 pressures that routinely compromise conventional closed projects
 and turn them into tar-pits — no lists of pointless and distracting
 check-list features from Marketing, no management mandates to
-use inappropriate and outdated languages or development envi-
-ronments, no requirement to reinvent wheels in a new and incom-
-patible way in the name of product differentiation or intellectual-
-property protection, and (most importantly) no deadlines. No
+use inappropriate and outdated languages or development environments, no requirement to reinvent wheels in a new and incompatible way in the name of product differentiation or intellectualproperty protection, and (most importantly) no deadlines. No
 rushing a 1.0 out the door before it’s done right. De Marco and
 Lister observed in their discussion of the “wake me when it’s
 The Magic Cauldron
-153
-
 
 The Cathedral and the Bazaar
 over” management style in ‘‘Peopleware: Productive Projects and
 Teams’’5 that this generally conduces not only to higher quality
 but actually to the most rapid delivery of a working result.
-Distributors, on the other hand, get to specialize in the things dis-
-tributors can do most effectively. Freed of the need to fund mas-
-sive and ongoing software development just to stay competitive,
+Distributors, on the other hand, get to specialize in the things distributors can do most effectively. Freed of the need to fund massive and ongoing software development just to stay competitive,
 they can concentrate on system integration, packaging, quality
 assurance, and service.
 Both distributors and developers are kept honest by the constant
 feedback from and monitoring by users that is an integral part of
 the open-source method.
 Coping with Success
-The “Tragedy of the Commons” may not be applicable to open-
-source development as it happens today, but that doesn’t mean
+The “Tragedy of the Commons” may not be applicable to opensource development as it happens today, but that doesn’t mean
 there are not any reasons to wonder if the present momentum of
 the open-source community is sustainable. Will key players defect
 from cooperation as the stakes become higher?
 There are several levels on which this question can be asked. Our
-“Comedy of the Commons” counter-story is based on the argu-
-ment that the value of individual contributions to open source is
+“Comedy of the Commons” counter-story is based on the argument that the value of individual contributions to open source is
 hard to monetize. But this argument has much less force for ﬁrms
 (like, say, Linux distributors) that already have a revenue stream
 associated with open source. Their contribution is already being
@@ -5589,12 +4559,9 @@ On the practical level, applied to the open-source community as it
 exists now, this question is usually posed in one of two different
 ways. One: will Linux fragment? Two: conversely, will Linux
 develop a dominant, quasi-monopolistic player?
-154
-
 
 The historical analogy many people turn to when considering if
-Linux will fragment is the behavior of the proprietary-Unix ven-
-dors in the 1980s. Despite endless talk of open standards, despite
+Linux will fragment is the behavior of the proprietary-Unix vendors in the 1980s. Despite endless talk of open standards, despite
 numerous alliances and consortia and agreements, proprietary
 Unix fell apart. The vendors’ desire to differentiate their products
 by adding and modifying operating-system facilities proved
@@ -5615,8 +4582,7 @@ Linux distributors are forced to compete in ways that actually
 beneﬁt the consumer and the overall market. That is, they must
 compete on service, on support, and their design bets on what
 interfaces actually conduce to ease installation and use.
-The common source base also forecloses the possibility of monop-
-olization. When Linux people worry about this, the name usually
+The common source base also forecloses the possibility of monopolization. When Linux people worry about this, the name usually
 muttered is ‘‘Red Hat’’, that of the largest and most successful of
 the distributors (with somewhere around 90% estimated market
 share in the U.S.). But it is notable that within days after the May
@@ -5627,8 +4593,6 @@ FTP site were being advertised by a book publisher and several
 other CD-ROM distributors at lower prices than Red Hat’s
 expected list price.
 The Magic Cauldron
-155
-
 
 The Cathedral and the Bazaar
 Red Hat itself didn’t turn a hair at this, because its founders
@@ -5640,15 +4604,13 @@ around it, it has been aptly said that the hacker community
 responsible for Linux interprets attempts at control as damage and
 routes around them. For Red Hat to have protested the pre-release
 cloning of its newest product would have seriously compromised
-its ability to elicit future cooperation from its developer com-
-munity.
+its ability to elicit future cooperation from its developer community.
 Perhaps more importantly in present time, the software licenses
 that express these community norms in a binding legal form
 actively forbid Red Hat from monopolizing the sources of the
 code on which their product is based. The only thing they can sell
 is a brand/service/support relationship with people who are freely
-willing to pay for that. This is not a context in which the possibil-
-ity of a predatory monopoly looms very large.
+willing to pay for that. This is not a context in which the possibility of a predatory monopoly looms very large.
 Open R&D and the Reinvention
 of Patronage
 There is one other respect in which the infusion of real money into
@@ -5657,15 +4619,11 @@ increasingly ﬁnding they can get paid for what they want to do,
 instead of pursuing open source as a hobby funded by another day
 job. Corporations like Red Hat, O’Reilly & Associates, and VA
 Linux Systems are building what amount to semi-independent
-research arms with charters to hire and maintain stables of open-
-source talent.
-This makes economic sense only if the cost per head of maintain-
-ing such a lab can easily be paid out of the expected gains it will
+research arms with charters to hire and maintain stables of opensource talent.
+This makes economic sense only if the cost per head of maintaining such a lab can easily be paid out of the expected gains it will
 achieve by growing the ﬁrm’s market faster. O’Reilly can afford to
 pay the leaders of Perl and Apache to do their thing because it
 expects their efforts will enable it to sell more Perl- and Apache-
-156
-
 
 related books and draw more people to its conferences. VA Linux
 Systems can fund its laboratory branch because improving Linux
@@ -5673,10 +4631,8 @@ boosts the use value of the workstations and servers it sells. And
 Red Hat funds Red Hat Advanced Development Labs to increase
 the value of its Linux offering and attract more customers.
 To strategists from more traditional sectors of the software
-industry, reared in cultures that regard patent- or trade-secret–pro-
-tected intellectual property as the corporate crown jewels, this
-behavior may (despite its market-growing effect) seem inexplica-
-ble. Why fund research that every one of your competitors is (by
+industry, reared in cultures that regard patent- or trade-secret–protected intellectual property as the corporate crown jewels, this
+behavior may (despite its market-growing effect) seem inexplicable. Why fund research that every one of your competitors is (by
 deﬁnition) free to appropriate at no cost?
 There seem to be two controlling reasons. One is that as long as
 these companies remain dominant players in their market niches,
@@ -5693,17 +4649,13 @@ of explanation for star-hiring, because the ﬁrms themselves
 advance a fuzzier one. They will tell you if asked that they are
 simply doing the right thing by the community they come from.
 Your humble author is sufﬁciently well-acquainted with principals
-at all three of the ﬁrms cited above to testify that these protesta-
-tions cannot be dismissed as humbug. Indeed, I was personally
-recruited onto the board of VA Linux Systems in late 1998 explic-
-itly so that I would be available to advise them on ‘‘the right
+at all three of the ﬁrms cited above to testify that these protestations cannot be dismissed as humbug. Indeed, I was personally
+recruited onto the board of VA Linux Systems in late 1998 explicitly so that I would be available to advise them on ‘‘the right
 thing’’, and have found them far from unwilling to listen when I
 did so.
 An economist is entitled to ask what payoff is involved here. If we
 accept that talk of doing the right thing is not empty posturing, we
 The Magic Cauldron
-157
-
 
 The Cathedral and the Bazaar
 should next inquire what self-interest of the ﬁrm the ‘‘right thing’’
@@ -5713,48 +4665,38 @@ behavior in other industries, what these ﬁrms actually believe
 they’re buying is goodwill.
 Working to earn goodwill, and valuing it as an asset predictive of
 future market gains, is hardly novel either. What’s interesting is
-the extremely high valuation that the behavior of these ﬁrms sug-
-gests they put on that goodwill. They’re demonstrably willing to
-hire expensive talent for projects that are not direct revenue gener-
-ators even during the most capital-hungry phases of the runup to
+the extremely high valuation that the behavior of these ﬁrms suggests they put on that goodwill. They’re demonstrably willing to
+hire expensive talent for projects that are not direct revenue generators even during the most capital-hungry phases of the runup to
 IPO. And, at least so far, the market has richly rewarded this
 behavior.
 The principals of these companies themselves are quite clear about
 the reasons why goodwill is especially valuable to them. They rely
 heavily on volunteers among their customer base both for product
-development and as an informal marketing arm. Their relation-
-ship with their customer base is intimate, often relying on personal
+development and as an informal marketing arm. Their relationship with their customer base is intimate, often relying on personal
 trust bonds between individuals within and outside the ﬁrm. They
 do not merely use the hacker community; they identify with it.
 These observations reinforce a lesson we learned earlier from a
 different line of reasoning. The intimate relationship between Red
 Hat/VA/O’Reilly and their customers/developers is not one typical
 of manufacturing ﬁrms. Rather, it carries to an interesting extreme
-the patterns characteristic of highly professionalized and knowl-
-edge-intensive service industries. Looking outside the technology
+the patterns characteristic of highly professionalized and knowledge-intensive service industries. Looking outside the technology
 industry, we can see these patterns in (for example) law ﬁrms,
 medical practices, and universities.
 We may observe, in fact, that open-source ﬁrms hire star hackers
 for much the same reasons that universities hire star academics. In
 both cases, the practice is similar in mechanism and effect to the
 system of aristocratic patronage that funded most ﬁne art until
-after the Industrial Revolution—a similarity of which some par-
-ties are fully aware.
-158
-
+after the Industrial Revolution—a similarity of which some parties are fully aware.
 
 Getting There from Here
 The market mechanisms for funding (and making a proﬁt from!)
 open-source development are still evolving rapidly. The business
 models we’ve reviewed in this essay probably will not be the last
-to be invented. Investors are still thinking through the conse-
-quences of reinventing the software industry as one with an
+to be invented. Investors are still thinking through the consequences of reinventing the software industry as one with an
 explicit focus on service rather than closed intellectual property,
 and will be for some time to come.
 This conceptual revolution will have some cost in foregone proﬁts
-for people investing in the sale-value 5% of the industry; histori-
-cally, service businesses are not as lucrative as manufacturing busi-
-nesses (though as any doctor or lawyer could tell you, the return
+for people investing in the sale-value 5% of the industry; historically, service businesses are not as lucrative as manufacturing businesses (though as any doctor or lawyer could tell you, the return
 to the actual practitioners is often higher). Any foregone proﬁts,
 however, will be more than matched by beneﬁts on the cost side,
 as software consumers reap tremendous savings and efﬁciencies
@@ -5763,8 +4705,7 @@ that the displacement of the traditional voice-telephone network
 by the Internet is having everywhere).
 The promise of these savings and efﬁciencies is creating a market
 opportunity that entrepreneurs and venture capitalists are now
-moving in to exploit. As the ﬁrst draft of this essay was in prepa-
-ration, Silicon Valley’s most prestigious venture-capital ﬁrm took a
+moving in to exploit. As the ﬁrst draft of this essay was in preparation, Silicon Valley’s most prestigious venture-capital ﬁrm took a
 lead stake in the ﬁrst startup company to specialize in 24/7 Linux
 technical support (Linuxcare). In August 1999 Red Hat’s IPO was
 (despite a background slump in Internet and technology stocks)
@@ -5773,31 +4714,24 @@ open-source–related IPOs will be ﬂoated before the end of 1999
 —and that they too will be quite successful. (Year 2000 update:
 they were!)
 The Magic Cauldron
-159
-
 
 The Cathedral and the Bazaar
-Another very interesting development is the beginnings of system-
-atic attempts to make task markets in open-source development
+Another very interesting development is the beginnings of systematic attempts to make task markets in open-source development
 projects. SourceXchange (http://www.sourcexchange.com/process
 .html)
-and 
-CoSource 
+and
+CoSource
 (http://www.cosource.com/)
 represent
 slightly different ways of trying to apply a reverse-auction model
 to funding open-source development.
 The overall trends are clear. We mentioned before IDC’s projection
-that Linux will grow faster than all other operating systems com-
-bined through 2003. Apache is at 61% market share and rising
-steadily. Internet usage is exploding, and surveys such as the Inter-
-net Operating System Counter (http://leb.net/hzo/ioscount/) show
+that Linux will grow faster than all other operating systems combined through 2003. Apache is at 61% market share and rising
+steadily. Internet usage is exploding, and surveys such as the Internet Operating System Counter (http://leb.net/hzo/ioscount/) show
 that Linux and other open-source operating systems are already a
 plurality on Internet hosts and steadily gaining share against
-closed systems. The need to exploit open-source Internet infras-
-tructure increasingly conditions not merely the design of other
-software but the business practices and software use/purchase pat-
-terns of every corporation there is. These trends, if anything, seem
+closed systems. The need to exploit open-source Internet infrastructure increasingly conditions not merely the design of other
+software but the business practices and software use/purchase patterns of every corporation there is. These trends, if anything, seem
 likely to accelerate.
 Conclusion: Life After
 the Revolution
@@ -5807,16 +4741,12 @@ Some programmers worry that the transition to open source will
 abolish or devalue their jobs. The standard nightmare is what I
 call the ‘‘Open-Source Doomsday’’ scenario. This starts with the
 market value of software going to zero because of all the free
-source code out there. Use value alone doesn’t attract enough con-
-sumers to support software development. The commercial soft-
-ware industry collapses. Programmers starve or leave the ﬁeld.
+source code out there. Use value alone doesn’t attract enough consumers to support software development. The commercial software industry collapses. Programmers starve or leave the ﬁeld.
 Doomsday arrives when the open-source culture itself (dependent
 on the spare time of all these pros) collapses, leaving nobody
 around who can program competently.
 All die. Oh, the
 embarrassment!
-160
-
 
 We have already observed a number of sufﬁcient reasons this
 won’t happen, starting with the fact that most developers’ salaries
@@ -5833,9 +4763,7 @@ helpful to sort kinds of software by how completely the service
 they offer is describable by open technical standards, which is well
 correlated with how commoditized the underlying service has
 become.
-This axis corresponds reasonably well to what people are nor-
-mally thinking when they speak of ‘applications’ (not at all com-
-moditized, weak or nonexistent open technical standards),
+This axis corresponds reasonably well to what people are normally thinking when they speak of ‘applications’ (not at all commoditized, weak or nonexistent open technical standards),
 ‘infrastructure’ (commoditized services, strong standards), and
 ‘middleware’ (partially commoditized, effective but incomplete
 technical standards). The paradigm cases today in 2000 would be
@@ -5844,32 +4772,24 @@ and a database engine (middleware).
 The payoff analysis we did earlier suggests that infrastructure,
 applications, and middleware will be transformed in different
 ways and exhibit different equilibrium mixes of open and closed
-source. It also suggested the prevalence of open source in a partic-
-ular software area would be a function of whether substantial
+source. It also suggested the prevalence of open source in a particular software area would be a function of whether substantial
 network effects operate there, what the costs of failure are, and to
 what extent the software is a business-critical capital good.
 The Magic Cauldron
-161
-
 
 The Cathedral and the Bazaar
 We can venture some predictions if we apply these heuristics not
 to individual products but to entire segments of the software
 market. Here we go:
 Infrastructure (the Internet, the Web, operating systems, and the
-lower levels of communications software that has to cross bound-
-aries between competing parties) will be almost all open source,
-cooperatively maintained by user consortia and by for-proﬁt dis-
-tribution/service outﬁts with a role like that of Red Hat today.
+lower levels of communications software that has to cross boundaries between competing parties) will be almost all open source,
+cooperatively maintained by user consortia and by for-proﬁt distribution/service outﬁts with a role like that of Red Hat today.
 Applications, on the other hand, will have the most tendency to
 remain closed. There will be circumstances under which the use
 value of an undisclosed algorithm or technology will be high
 enough (and the costs associated with unreliability will be low
-enough, and the risks associated with a supplier monopoly sufﬁ-
-ciently tolerable) that consumers will continue to pay for closed
-software. This is likeliest to remain true in standalone vertical-
-market applications where network effects are weak. Our lumber-
-mill example earlier is one such; biometric identiﬁcation software
+enough, and the risks associated with a supplier monopoly sufﬁciently tolerable) that consumers will continue to pay for closed
+software. This is likeliest to remain true in standalone verticalmarket applications where network effects are weak. Our lumbermill example earlier is one such; biometric identiﬁcation software
 seems likeliest, of 1999’s hot prospects, to be another.
 Middleware (like databases, development tools, or the customized
 top ends of application protocol stacks) will be more mixed.
@@ -5881,28 +4801,20 @@ To complete the picture, however, we need to notice that neither
 we saw that individual software technologies seem to go through a
 natural life cycle from rationally closed to rationally open. The
 same logic applies in the large.
-Applications tend to fall into middleware as standardized tech-
-niques develop and portions of the service are commoditized.
+Applications tend to fall into middleware as standardized techniques develop and portions of the service are commoditized.
 (Databases, for example, became middleware after SQL decoupled
-frontends from engines.) As middleware services are commodi-
-tized, they will in turn tend to fall into the open-source
-162
-
+frontends from engines.) As middleware services are commoditized, they will in turn tend to fall into the open-source
 
 infrastructure — a transition we’re seeing in operating systems
 right now.
 In a future that includes competition from open source, we can
 expect that the eventual destiny of any software technology will be
 to either die or become part of the open infrastructure itself. While
-this is hardly happy news for entrepreneurs who would like to col-
-lect rent on closed software forever, it does suggest that the soft-
-ware industry as a whole will remain entrepreneurial, with new
+this is hardly happy news for entrepreneurs who would like to collect rent on closed software forever, it does suggest that the software industry as a whole will remain entrepreneurial, with new
 niches constantly opening up at the upper (application) end and a
-limited lifespan for closed-IP monopolies as their product cate-
-gories fall into infrastructure.
+limited lifespan for closed-IP monopolies as their product categories fall into infrastructure.
 Finally, of course, this equilibrium will be great for the software
-consumers who are driving the process. More and more high-qual-
-ity software will become permanently available to use and build
+consumers who are driving the process. More and more high-quality software will become permanently available to use and build
 on instead of being discontinued or locked in somebody’s vault.
 Ceridwen’s magic cauldron is, ﬁnally, too weak a metaphor—
 because food is consumed or decays, whereas software sources
@@ -5911,24 +4823,19 @@ sense including all un-coerced activity whether trade or gift, can
 produce perpetually increasing software wealth for everyone.
 Afterword: Why Closing a Drivers
 Loses Its Vendor Money
-Manufacturers of peripheral hardware (Ethernet cards, disk con-
-trollers, video board and the like) have historically been reluctant
+Manufacturers of peripheral hardware (Ethernet cards, disk controllers, video board and the like) have historically been reluctant
 to open up. This is changing now, with players like Adaptec and
 Cyclades beginning to routinely disclose speciﬁcations and driver
 source code for their boards. Nevertheless, there is still resistance
-out there. In this appendix I attempt to dispel several of the eco-
-nomic misconceptions that sustain it.
+out there. In this appendix I attempt to dispel several of the economic misconceptions that sustain it.
 If you are a hardware vendor, you may fear that open-sourcing
 may reveal important things about how your hardware operates
 that competitors could copy, thus gaining an unfair competitive
 advantage. Back in the days of three- to ﬁve-year product cycles
 The Magic Cauldron
-163
-
 
 The Cathedral and the Bazaar
-this was a valid argument. Today, the time your competitors’ engi-
-neers would need to spend copying and understanding the copy is
+this was a valid argument. Today, the time your competitors’ engineers would need to spend copying and understanding the copy is
 a damagingly large portion of the product cycle, time they are not
 spending innovating or differentiating their own product.
 This is not a new insight. Former KGB chief Oleg Kalugin puts the
@@ -5959,16 +4866,11 @@ In any case, these details don’t stay hidden for long these days.
 Hardware drivers are not like operating systems or applications;
 they’re small, easy to disassemble, and easy to clone. Even teenage
 novice programmers can do this—and frequently do.
-164
-
 
 There are literally thousands of Linux and FreeBSD programmers
 out there with both the capability and the motivation to build
-drivers for a new board. For many classes of device that have rela-
-tively simple interfaces and well-known standards (such as disk
-controllers and network cards) these eager hackers can often pro-
-totype a driver almost as rapidly your own shop could, even with-
-out documentation and without disassembling an existing driver.
+drivers for a new board. For many classes of device that have relatively simple interfaces and well-known standards (such as disk
+controllers and network cards) these eager hackers can often prototype a driver almost as rapidly your own shop could, even without documentation and without disassembling an existing driver.
 Even for tricky devices like video and sound cards, there is not
 much you can do to thwart a clever programmer armed with a
 disassembler. Costs are low and legal barriers are porous; Linux is
@@ -5977,10 +4879,8 @@ reverse-engineering will be legal.
 For hard evidence that all these claims are true, examine the list of
 devices supported in the Linux kernel and notice the rate at which
 new ones are added to the kernel even without vendor support.
-Another good reason to open your drivers is so that you can con-
-centrate on innovation. Imagine no longer having to spend your
-internal staff’s time and salaries on rewriting, testing, and dis-
-tributing new binaries for each new kernel as it comes out. You
+Another good reason to open your drivers is so that you can concentrate on innovation. Imagine no longer having to spend your
+internal staff’s time and salaries on rewriting, testing, and distributing new binaries for each new kernel as it comes out. You
 certainly have better things to do with all that skill.
 Yet another good reason: nobody wants to wait six months for
 bug ﬁxes. If you have any open-source competition at all, they are
@@ -5996,8 +4896,6 @@ if they have to be updated frequently, if they (worst of all) run
 poorly, it reﬂects badly on your hardware and you will sell less of
 it. Open source can solve these problems and boost your revenues.
 The Magic Cauldron
-165
-
 
 The Cathedral and the Bazaar
 The message? Keeping your driver secret looks attractive in the
@@ -6006,8 +4904,7 @@ when you’re competing with other vendors that are already open).
 But if you must do it, burn the code into an onboard ROM. Then
 publish the interface to the ROM. Go open as much as possible to
 build your market and demonstrate to potential customers that
-you believe in your capacity to out-think and out-innovate com-
-petitors where it matters.
+you believe in your capacity to out-think and out-innovate competitors where it matters.
 If you stay closed you will usually get the worst of all worlds—
 your secrets will still get exposed, you won’t get free development
 help, and you won’t have wasted your stupider competition’s time
@@ -6017,23 +4914,16 @@ manage the servers that run effectively all of the Internet and a
 plurality of all business data centers) will correctly write your
 company off as clueless and defensive because you didn’t realize
 these things. Then they’ll buy their boards from someone who did.
-166
-
 
 Revenge of the Hackers
 ✦✦✦
-The eruption of open-source software into the main-
-stream in 1998 was the revenge of the hackers after 20
+The eruption of open-source software into the mainstream in 1998 was the revenge of the hackers after 20
 years of marginalization. I found myself semi-accidentally
 cast as chief rabble-rouser and propagandist. In this essay,
 I describe the tumultuous year that followed, focusing on
 the media stategy and language we used to break through
 to the Fortune 500. I ﬁnish with a look at where the trend
 curves are going.
-167
-
-
-
 
 Revenge of the Hackers
 I wrote the ﬁrst version of A Brief History of Hackerdom in 1996
@@ -6041,10 +4931,8 @@ as a web resource. I had been fascinated by hacker culture as a
 culture for many years, since long before I edited the ﬁrst edition
 of The New Hacker’s Dictionary in 1990. By late 1993, many
 people (including myself) had come to think of me as the hacker
-culture’s tribal historian and resident ethnographer. I was comfort-
-able in that role.
-At that time, I had not the faintest idea that my amateur anthro-
-pologizing could itself become a signiﬁcant catalyst for change. I
+culture’s tribal historian and resident ethnographer. I was comfortable in that role.
+At that time, I had not the faintest idea that my amateur anthropologizing could itself become a signiﬁcant catalyst for change. I
 think nobody was more surprised than I when that happened. But
 the consequences of that surprise are still reverberating through
 the hacker culture and the technology and business worlds today.
@@ -6054,35 +4942,26 @@ events that immediately led up to the January 1998 ‘‘shot heard
 remarkable distance we’ve come since. Then I will tentatively offer
 some projections into the future.
 Beyond Brooks’s Law
-My ﬁrst encounter with Linux came in late 1993, via the pioneer-
-ing Yggdrasil CD-ROM distribution. By that time, I had already
-been involved in the hacker culture for 15 years. My earliest expe-
-riences had been with the primitive ARPAnet of the late 1970s; I
+My ﬁrst encounter with Linux came in late 1993, via the pioneering Yggdrasil CD-ROM distribution. By that time, I had already
+been involved in the hacker culture for 15 years. My earliest experiences had been with the primitive ARPAnet of the late 1970s; I
 was even brieﬂy a tourist on the ITS machines. I had already been
-writing free software and posting it to Usenet before the Free Soft-
-ware Foundation was launched in 1984, and was one of the FSF’s
+writing free software and posting it to Usenet before the Free Software Foundation was launched in 1984, and was one of the FSF’s
 Revenge of the Hackers
-169
-
 
 The Cathedral and the Bazaar
 ﬁrst contributors. I had just published the second edition of The
-New Hacker’s Dictionary. I thought I understood the hacker cul-
-ture — and its limitations—pretty well.
+New Hacker’s Dictionary. I thought I understood the hacker culture — and its limitations—pretty well.
 As I have written elsewhere, encountering Linux came as a shock.
 Even though I had been active in the hacker culture for many
 years, I still carried in my head the unexamined assumption that
 hacker amateurs, gifted though they might be, could not possibly
-muster the resources or skill necessary to produce a usable multi-
-tasking operating system. The HURD developers, after all, had
+muster the resources or skill necessary to produce a usable multitasking operating system. The HURD developers, after all, had
 been evidently failing at this for a decade.
-But where they failed, Linus Torvalds and his community suc-
-ceeded. And they did not merely fulﬁll the minimum requirements
+But where they failed, Linus Torvalds and his community succeeded. And they did not merely fulﬁll the minimum requirements
 of stability and functioning Unix interfaces. No. They blew right
 past that criterion with exuberance and ﬂair, providing hundreds
 of megabytes of programs, documents, and other resources. Full
-suites of Internet tools, desktop-publishing software, graphics sup-
-port, editors, games . . . you name it.
+suites of Internet tools, desktop-publishing software, graphics support, editors, games . . . you name it.
 Seeing this feast of wonderful code spread in front of me as a
 working system was a much more powerful experience than
 merely knowing, intellectually, that all the bits were probably out
@@ -6093,22 +4972,16 @@ open, keys swinging from the lock, and engine gently purring with
 a promise of power . . . .
 The hacker tradition I had been observing for two decades seemed
 suddenly alive in a vibrant new way. In a sense, I had already been
-made part of this community, for several of my personal free-soft-
-ware projects had been added to the mix. But I wanted to get in
-deeper . . . because every delight I saw also deepened my puzzle-
-ment. It was too good!
+made part of this community, for several of my personal free-software projects had been added to the mix. But I wanted to get in
+deeper . . . because every delight I saw also deepened my puzzlement. It was too good!
 The lore of software engineering is dominated by Brooks’s Law,
 articulated in Fred Brooks’s classic The Mythical Man-Month.
-170
-
 
 Brooks predicts that as your number of programmers N rises,
 work performed scales as N but complexity and vulnerability to
 bugs rises as N2. N2 tracks the number of communications paths
 (and potential code interfaces) between developers’ code bases.
-Brooks’s Law predicts that a project with thousands of contribu-
-tors ought to be a ﬂaky, unstable mess. Somehow the Linux com-
-munity had beaten the N2 effect and produced an OS of
+Brooks’s Law predicts that a project with thousands of contributors ought to be a ﬂaky, unstable mess. Somehow the Linux community had beaten the N2 effect and produced an OS of
 astonishingly high quality. I was determined to understand how
 they did it.
 It took me three years of participation and close observation to
@@ -6119,15 +4992,13 @@ Memes and Mythmaking
 What I saw around me was a community that had evolved the
 most effective software-development method ever and didn’t know
 it! That is, an effective practice had evolved as a set of customs,
-transmitted by imitation and example, without the theory or lan-
-guage to explain why the practice worked.
+transmitted by imitation and example, without the theory or language to explain why the practice worked.
 In retrospect, lacking that theory and that language hampered us
 in two ways. First: we couldn’t think systematically about how to
 improve our own methods. Second: we couldn’t explain or sell the
 method to anyone else.
 At the time, I was thinking about only the ﬁrst effect. My sole
-intention in writing the original paper was to give the hacker cul-
-ture an appropriate language to use internally, to explain itself to
+intention in writing the original paper was to give the hacker culture an appropriate language to use internally, to explain itself to
 itself. So I wrote down what I had seen, framed as a narrative and
 with appropriately vivid metaphors to describe the logic that
 could be deduced behind the customs.
@@ -6135,8 +5006,6 @@ There was no really fundamental discovery in The Cathedral and
 the Bazaar. I did not invent any of the methods it describes. What
 was novel was not the facts it described but those metaphors and
 Revenge of the Hackers
-171
-
 
 The Cathedral and the Bazaar
 the narrative—a simple, powerful story that encouraged the
@@ -6150,8 +5019,7 @@ But, as it turned out, the sheer chance that I was seated next to
 publisher Tim O’Reilly at the Thursday night banquet set in
 motion a more important train of consequences.
 As a long-time admirer of O’Reilly’s institutional style, I had been
-looking forward to meeting Tim for some years. We had a wide-
-ranging conversation (much of it exploring our common interest
+looking forward to meeting Tim for some years. We had a wideranging conversation (much of it exploring our common interest
 in classic science ﬁction) that led to an invitation for me to deliver
 The Cathedral and the Bazaar at Tim’s Perl Conference later in the
 year.
@@ -6172,8 +5040,6 @@ Street highﬂier, had been targeted for destruction by Microsoft.
 Microsoft rightly feared that the open Web standards embodied
 by Netscape’s browser might lead to an erosion of the Redmond
 giant’s lucrative monopoly on the PC desktop. All the weight of
-172
-
 
 Microsoft’s billions, and shady tactics that would later trigger an
 antitrust lawsuit, were deployed to crush the Netscape browser.
@@ -6193,8 +5059,7 @@ Internet Explorer dominance.
 I didn’t know it at the time, but The Cathedral and the Bazaar
 became a major factor in making that case. Through the winter of
 1997, as I was working on the material for my next paper, the
-stage was being set for Netscape to break the rules of the propri-
-etary game and offer my tribe an unprecedented opportunity.
+stage was being set for Netscape to break the rules of the proprietary game and offer my tribe an unprecedented opportunity.
 The Road to Mountain View
 On 22 January 1998 Netscape announced that it would release
 the sources of the Netscape client line to the Internet. Shortly after
@@ -6202,36 +5067,28 @@ the news reached me the following day, I learned that CEO Jim
 Barksdale was describing my work to national-media reporters as
 ‘‘fundamental inspiration’’ for the decision.
 This was the event that commentators in the computer trade press
-would later call ‘‘the shot heard ’round the world’—and Barks-
-dale had cast me as its Thomas Paine, whether I wanted the role
-or not. For the ﬁrst time in the history of the hacker culture, a For-
-tune 500 darling of Wall Street had bet its future on the belief that
+would later call ‘‘the shot heard ’round the world’—and Barksdale had cast me as its Thomas Paine, whether I wanted the role
+or not. For the ﬁrst time in the history of the hacker culture, a Fortune 500 darling of Wall Street had bet its future on the belief that
 our way was right. And, more speciﬁcally, that my analysis of
 “our way” was right.
 Revenge of the Hackers
-173
-
 
 The Cathedral and the Bazaar
 This is a pretty sobering kind of shock to deal with. I had not been
 very surprised when The Cathedral and the Bazaar altered the
-hacker culture’s image of itself; that was the result I had been try-
-ing for, after all. But I was astonished (to say the least) by the
-news of its success on the outside. So I did some very hard think-
-ing in ﬁrst few hours after word reached me. About the state of
+hacker culture’s image of itself; that was the result I had been trying for, after all. But I was astonished (to say the least) by the
+news of its success on the outside. So I did some very hard thinking in ﬁrst few hours after word reached me. About the state of
 Linux and the hacker community. About Netscape. And about
 whether I, personally, had what it would take to make the next
 step.
 It was not difﬁcult to conclude that helping Netscape’s gamble
-succeed had just become a very high priority for the hacker cul-
-ture, and thus for me personally. If Netscape’s gamble failed, we
+succeed had just become a very high priority for the hacker culture, and thus for me personally. If Netscape’s gamble failed, we
 hackers would probably ﬁnd all the opprobrium of that failure
 piled on our heads. We’d be discredited for another decade. And
 that would be just too much to take.
 By this time I had been in the hacker culture, living through its
 various phases, for twenty years. Twenty years of repeatedly
-watching brilliant ideas, promising starts, and superior technolo-
-gies crushed by slick marketing. Twenty years of watching hackers
+watching brilliant ideas, promising starts, and superior technologies crushed by slick marketing. Twenty years of watching hackers
 dream and sweat and build, too often only to watch the likes of
 the bad old IBM or the bad new Microsoft walk away with the
 real-world prizes. Twenty years of living in a ghetto—a fairly
@@ -6239,16 +5096,12 @@ comfortable ghetto full of interesting friends, but still one walled
 in by a vast and intangible barrier of mainsteam prejudice
 inscribed ‘‘ONLY FLAKES LIVE HERE’’.
 The Netscape announcement cracked that barrier, if only for a
-moment; the business world had been jolted out of its compla-
-cency about what ‘hackers’ are capable of. But lazy mental habits
-have huge inertia. If Netscape failed, or perhaps even if they suc-
-ceeded, the experiment might come to be seen as a unique one-off
+moment; the business world had been jolted out of its complacency about what ‘hackers’ are capable of. But lazy mental habits
+have huge inertia. If Netscape failed, or perhaps even if they succeeded, the experiment might come to be seen as a unique one-off
 not worth trying to repeat. And then we’d be back in the same
 ghetto, walls higher than before.
 To prevent that, we needed Netscape to succeed. So I considered
 what I had learned about bazaar-mode development, and called
-174
-
 
 up Netscape, and offered to help with developing their license and
 in working out the details of the strategy. In early February I ﬂew
@@ -6266,11 +5119,9 @@ It was easy to see the outlines of the strategy. We needed to take
 the pragmatic arguments I had pioneered in The Cathedral and
 the Bazaar, develop them further, and push them hard, in public.
 Because Netscape itself had an interest in convincing investors that
-its strategy was not crazy, we could count on it to help the promo-
-tion. We also recruited Tim O’Reilly (and through him, O’Reilly
+its strategy was not crazy, we could count on it to help the promotion. We also recruited Tim O’Reilly (and through him, O’Reilly
 & Associates) very early on.
-The real conceptual breakthrough, though, was admitting to our-
-selves that what we needed to mount was in effect a marketing
+The real conceptual breakthrough, though, was admitting to ourselves that what we needed to mount was in effect a marketing
 campaign—and that it would require marketing techniques (spin,
 image-building, and rebranding) to make it work.
 Hence the term ‘open source’, which the ﬁrst participants in what
@@ -6283,8 +5134,6 @@ done our movement tremendous damage over the years. Part of
 this stemmed from the fact that the word ‘free’ has two different
 meanings in the English language, one suggesting a price of zero
 Revenge of the Hackers
-175
-
 
 The Cathedral and the Bazaar
 and one related to the idea of liberty. Richard Stallman, whose
@@ -6298,15 +5147,11 @@ intellectual property rights, communism, and other ideas hardly
 likely to endear it to an MIS manager.
 It was, and still is, beside the point to argue that the Free Software
 Foundation is not hostile to all intellectual property and that its
-position is not exactly communistic. We knew that. What we real-
-ized, under the pressure of the Netscape release, was that FSF’s
+position is not exactly communistic. We knew that. What we realized, under the pressure of the Netscape release, was that FSF’s
 actual position didn’t matter. Only the fact that its evangelism had
-backﬁred (associating ‘free software’ with these negative stereo-
-types in the minds of the trade press and the corporate world)
+backﬁred (associating ‘free software’ with these negative stereotypes in the minds of the trade press and the corporate world)
 actually mattered.
-Our success after Netscape would depend on replacing the nega-
-tive FSF stereotypes with positive stereotypes of our own—prag-
-matic tales, sweet to managers’ and investors’ ears, of higher
+Our success after Netscape would depend on replacing the negative FSF stereotypes with positive stereotypes of our own—pragmatic tales, sweet to managers’ and investors’ ears, of higher
 reliability and lower cost and better features.
 In conventional marketing terms, our job was to rebrand the
 product, and build its reputation into one the corporate world
@@ -6320,16 +5165,13 @@ become the ‘Open Source Deﬁnition’ (http://www.opensource.org/
 osd.html), and began the process of registering ‘Open Source’ as a
 certiﬁcation mark so that we could legally require people to use
 ‘Open Source’ for products conforming to the OSD.
-176
-
 
 Even the particular tactics needed to push the strategy seemed
 pretty clear to me at this early stage (and were explicitly discussed
 at the initial meeting). Key themes follow.
 1. Forget Bottom-Up; Work on Top-Down
 One of the things that seemed clearest was that the historical Unix
-strategy of bottom-up evangelism (relying on engineers to per-
-suade their bosses by rational argument) had been a failure. This
+strategy of bottom-up evangelism (relying on engineers to persuade their bosses by rational argument) had been a failure. This
 was naive and easily trumped by Microsoft. Further, the Netscape
 breakthrough didn’t happen that way. It happened because a
 strategic decision-maker (Jim Barksdale) got the clue and then
@@ -6342,8 +5184,7 @@ Promoting Linux must be our main thrust. Yes, there are other
 things going on in the open-source world, and the campaign will
 bow respectfully in their direction—but Linux started with the
 best name recognition, the broadest software base, and the largest
-developer community. If Linux can’t consolidate the break-
-through, nothing else will, pragmatically speaking, have a prayer.
+developer community. If Linux can’t consolidate the breakthrough, nothing else will, pragmatically speaking, have a prayer.
 3. Capture the Fortune 500
 There are other market segments that spend more dollars (small
 business and home ofﬁce being the most obvious examples) but
@@ -6354,27 +5195,21 @@ largely does what the Fortune 500 business market tells it to do.
 And therefore, it is primarily the Fortune 500 we need to
 convince.
 Revenge of the Hackers
-177
-
 
 The Cathedral and the Bazaar
 4. Co-opt the Prestige Media that Serve
 the Fortune 500
-The choice to target the Fortune 500 implies that we need to cap-
-ture the media that shape the climate of opinion among top-level
+The choice to target the Fortune 500 implies that we need to capture the media that shape the climate of opinion among top-level
 decision-makers and investors: very speciﬁcally, the New York
-Times, the Wall Street Journal, the Economist, Forbes, and Bar-
-ron’s Magazine.
+Times, the Wall Street Journal, the Economist, Forbes, and Barron’s Magazine.
 On this view, co-opting the technical trade press is necessary but
 not sufﬁcient; it’s important essentially as a pre-condition for
 storming Wall Street itself via the elite mainstream media.
 5. Educate Hackers in Guerrilla Marketing
 Ta ctics
 It was also clear that educating the hacker community itself would
-be just as important as mainstream outreach. It would be insufﬁ-
-cient to have one or a handful of ambassadors speaking effective
-language if, at the grass roots, most hackers were making argu-
-ments that didn’t work.
+be just as important as mainstream outreach. It would be insufﬁcient to have one or a handful of ambassadors speaking effective
+language if, at the grass roots, most hackers were making arguments that didn’t work.
 6. Use the Open Source Certification Mark
 to Keep Things Pure
 One of the threats we faced was the possibility that the term ‘open
@@ -6385,15 +5220,10 @@ as a certiﬁcation mark and tie it to the Open Source Deﬁnition (a
 copy of the Debian Free Software Guidelines). This would allow
 us to scare off potential abusers with the threat of legal action.
 It eventually developed that the U.S. Patent and Trademark ofﬁce
-would not issue a trademark for such a descriptive phrase. Fortu-
-nately, by the time we had to write off the effort to formally trade-
-mark “Open Source” a year later, the term had acquired its own
-178
-
+would not issue a trademark for such a descriptive phrase. Fortunately, by the time we had to write off the effort to formally trademark “Open Source” a year later, the term had acquired its own
 
 momentum in the press and elsewhere. The sorts of serious abuse
-we feared have not (at least, not yet as of November 2000) actu-
-ally materialized.
+we feared have not (at least, not yet as of November 2000) actually materialized.
 The Accidental Revolutionary
 Planning this kind of strategy was relatively easy. The hard part
 (for me, anyway) was accepting what my own role had to be.
@@ -6401,12 +5231,10 @@ One thing I understood from the beginning is that the press almost
 completely tunes out abstractions. They won’t write about ideas
 without larger-than-life personalities fronting them. Everything
 has to be story, drama, conﬂict, sound bites. Otherwise, most
-reporters will simply go to sleep—and even if they don’t, their edi-
-tors will.
+reporters will simply go to sleep—and even if they don’t, their editors will.
 Accordingly, I knew somebody with very particular characteristics
 would be needed to front the community’s response to the
-Netscape opportunity. We needed a ﬁrebrand, a spin doctor, a pro-
-pagandist, an ambassador, an evangelist — somebody who could
+Netscape opportunity. We needed a ﬁrebrand, a spin doctor, a propagandist, an ambassador, an evangelist — somebody who could
 dance and sing and shout from the housetops and seduce reporters
 and huggermug with CEOs and bang the media machine until its
 contrary gears ground out the message: the revolution is here!
@@ -6414,40 +5242,33 @@ Unlike most hackers, I have the brain chemistry of an extrovert
 and had already had extensive experience at dealing with the
 press. Looking around me, I couldn’t see anyone better qualiﬁed
 to play evangelist. But I didn’t want the job, because I knew it
-would cost me my life for many months, maybe for years. My pri-
-vacy would be destroyed. I’d probably end up both caricatured as
+would cost me my life for many months, maybe for years. My privacy would be destroyed. I’d probably end up both caricatured as
 a geek by the mainstream press and (worse) despised as a sell-out
 or glory-hog by a signiﬁcant fraction of my own tribe. Worse than
 all the other bad consequences put together, I probably wouldn’t
 have time to hack anymore!
 Revenge of the Hackers
-179
-
 
 The Cathedral and the Bazaar
 I had to ask myself: are you fed up enough with watching your
 tribe lose to do whatever it takes to win? I decided the answer was
-yes — and having so decided, threw myself into the dirty but neces-
-sary job of becoming a public ﬁgure and media personality.
+yes — and having so decided, threw myself into the dirty but necessary job of becoming a public ﬁgure and media personality.
 I’d learned some basic media chops while editing The New
 Hacker’s Dictionary. This time I took it much more seriously and
 developed an entire theory of media manipulation, which I then
 proceeded to apply. The theory centers around the use of what I
 call ‘‘attractive dissonance’’ to fan an itchy curiosity about the
-evangelist, and then exploiting that itch for all it’s worth in pro-
-moting the ideas.
+evangelist, and then exploiting that itch for all it’s worth in promoting the ideas.
 This is not the place for a detailed exposition of my theory. But
 intelligent readers can probably deduce much of it from the phrase
 ‘‘optimal level of provocation’’ and the fact that my interview
-technique involves cheerfully discussing my interests in guns, anar-
-chism, and witchcraft while looking as well-groomed, boyishly
+technique involves cheerfully discussing my interests in guns, anarchism, and witchcraft while looking as well-groomed, boyishly
 charming, and all-American wholesome as I can possibly manage.
 The trick is to sound challengingly weird but convey a reassuring
 aura of honesty and simplicity. (Note that to make the trick work,
 I think you have to genuinely be like that; faking either quality has
 a high risk of exposure and I don’t recommend it.)
-The combination of the ‘‘open source’’ label and deliberate pro-
-motion of myself as an evangelist turned out to have both the
+The combination of the ‘‘open source’’ label and deliberate promotion of myself as an evangelist turned out to have both the
 good and bad consequences that I expected. The ten months after
 the Netscape announcement featured a steady exponential
 increase in media coverage of Linux and the open-source world in
@@ -6459,31 +5280,23 @@ sense of humor about both outcomes (though occasionally with
 some difﬁculty).
 My plan from the beginning was that, eventually, I would hand
 off the evangelist role to some successor, either an individual or
-180
-
 
 organization. There would come a time when charisma became
 less effective than broad-based institutional respectability (and,
-from my own point of view, the sooner the better!). I am attempt-
-ing to transfer my personal connections and carefully built-up rep-
-utation with the press to the Open Source Initiative, an
+from my own point of view, the sooner the better!). I am attempting to transfer my personal connections and carefully built-up reputation with the press to the Open Source Initiative, an
 incorporated nonproﬁt formed speciﬁcally to manage the Open
 Source trademark. At time of writing I am the president of this
 organization, but hope and expect not to remain so indeﬁnitely.
 Phases of the Campaign
-The open-source campaign began with the Mountain View meet-
-ing, and rapidly collected an informal network of allies over the
-Internet (including key people at Netscape and O’Reilly & Associ-
-ates). Where I write “we” below I’m referring to that network.
+The open-source campaign began with the Mountain View meeting, and rapidly collected an informal network of allies over the
+Internet (including key people at Netscape and O’Reilly & Associates). Where I write “we” below I’m referring to that network.
 From 3 February to around the time of the actual Netscape release
 on 31 March, our primary concern was convincing the hacker
 community that the ‘open source’ label and the arguments that
-went with it represented our best shot at persuading the main-
-stream. As it turned out, the change was rather easier than we
+went with it represented our best shot at persuading the mainstream. As it turned out, the change was rather easier than we
 expected. We discovered a lot of pent-up demand for a message
 less doctrinaire than the Free Software Foundation’s.
-Tim O’Reilly invited 20-odd leaders of major free software pro-
-jects to what came to be called the Free Software Summit on 7
+Tim O’Reilly invited 20-odd leaders of major free software projects to what came to be called the Free Software Summit on 7
 March. When these leaders voted to adopt the term ‘open source’,
 they formally ratiﬁed a trend that was already clear at the grass
 roots among developers. By six weeks after the Mountain View
@@ -6494,55 +5307,39 @@ mainstream press to the term, and also gave notice that Netscape
 was not alone in adopting the open-source concept. We’d given a
 name to a phenomenon whose impact was already larger than
 Revenge of the Hackers
-181
-
 
 The Cathedral and the Bazaar
 anyone outside the Internet community had yet realized. Far from
-being fringe challengers, open source programs were already mar-
-ket leaders in providing key elements of the Internet infrastruc-
-ture. Apache was the leading web server, with more than 50%
-market share (now grown to more than 60%). Perl was the domi-
-nant programming language for the new breed of web-based
+being fringe challengers, open source programs were already market leaders in providing key elements of the Internet infrastructure. Apache was the leading web server, with more than 50%
+market share (now grown to more than 60%). Perl was the dominant programming language for the new breed of web-based
 applications. Sendmail routes more than 80% of all Internet email
 messages. And even the ubiquitous domain name system (which
 lets us use names like www.yahoo.com rather than obscure
 numeric IP addresses) depends almost entirely on an open-source
-program called BIND. As Tim O’Reilly said during the press con-
-ference following the summit, pointing to the assembled program-
-mers and project leaders: ‘‘These people have created products
+program called BIND. As Tim O’Reilly said during the press conference following the summit, pointing to the assembled programmers and project leaders: ‘‘These people have created products
 with dominant market share using only the power of their ideas
 and the networked community of their co-developers.’’ What
 more might be possible if large companies also adopted the open
 source methodology?
-That was a good start to our ‘air war’, our attempt to change per-
-ceptions through the press. But we still needed to maintain
+That was a good start to our ‘air war’, our attempt to change perceptions through the press. But we still needed to maintain
 momentum on the ground. In April, after the Summit and the
 actual Netscape release, our main concern shifted to recruiting as
 many open-source early adopters as possible. The goal was to
-make Netscape’s move look less singular—and to buy us insur-
-ance in case Netscape executed poorly and failed its goals.
+make Netscape’s move look less singular—and to buy us insurance in case Netscape executed poorly and failed its goals.
 This was the most worrying time. On the surface, everything
 seemed to be coming up roses; Linux was moving technically from
 strength to strength, the wider open-source phenomenon was
 enjoying a spectacular explosion in trade press coverage, and we
 were even beginning to get positive coverage in the mainstream
 press. Nevertheless, I was uneasily aware that our success was still
-fragile. After an initial ﬂurry of contributions, community partici-
-pation in Mozilla was badly slowed down by its requirement for
-the proprietary Motif toolkit. None of the big independent soft-
-ware vendors had yet committed to Linux ports. Netscape was
+fragile. After an initial ﬂurry of contributions, community participation in Mozilla was badly slowed down by its requirement for
+the proprietary Motif toolkit. None of the big independent software vendors had yet committed to Linux ports. Netscape was
 still looking lonely, and its browser still losing market share to
-182
 
-
-Internet Explorer. Any serious reverse could lead to a nasty back-
-lash in the press and public opinion.
+Internet Explorer. Any serious reverse could lead to a nasty backlash in the press and public opinion.
 Our ﬁrst serious post-Netscape breakthrough came on 7 May
-when Corel Computer announced its Linux-based Netwinder net-
-work computer. But that wasn’t enough in itself; to sustain the
-momentum, we needed commitments not from hungry second-
-stringers but from industry leaders. Thus, it was the mid-July
+when Corel Computer announced its Linux-based Netwinder network computer. But that wasn’t enough in itself; to sustain the
+momentum, we needed commitments not from hungry secondstringers but from industry leaders. Thus, it was the mid-July
 announcements by Oracle and Informix that really closed out this
 vulnerable phase.
 The database outﬁts joined the Linux party three months earlier
@@ -6558,20 +5355,15 @@ coverage from the ﬁnancial media I had originally targeted, led off
 by articles in the Economist and a cover story in Forbes. Various
 hardware and software vendors sent out feelers to the open-source
 community and began to work out strategies for getting advantage
-from the new model. And internally, the biggest closed-source ven-
-dor of them all was beginning to get seriously worried.
+from the new model. And internally, the biggest closed-source vendor of them all was beginning to get seriously worried.
 Just how worried became apparent when the now-infamous
 Halloween Documents (http://www.opensource.org/halloween/)
-leaked out of Microsoft. These internal strategy documents recog-
-nized the power of the open-source model, and outlined
+leaked out of Microsoft. These internal strategy documents recognized the power of the open-source model, and outlined
 Microsoft’s analysis of how to combat it by corrupting the open
-protocols on which open source depends and choking off cus-
-tomer choice.
+protocols on which open source depends and choking off customer choice.
 The Halloween Documents were dynamite. They were a ringing
 testimonial to the strengths of open-source development from the
 Revenge of the Hackers
-183
-
 
 The Cathedral and the Bazaar
 company with the most to lose from Linux’s success. And they
@@ -6584,34 +5376,27 @@ points we had been making for months. And they led directly to a
 request for me to confer with a select group of Merrill Lynch’s
 major investors on the state of the software industry and the
 prospects for open source. Wall Street, ﬁnally, came to us.
-The following six months were a study in increasingly surreal con-
-trasts. On the one hand, I was getting invited to give talks on open
+The following six months were a study in increasingly surreal contrasts. On the one hand, I was getting invited to give talks on open
 source to Fortune 100 corporate strategists and technology
 investors; for the ﬁrst time in my life, I got to ﬂy ﬁrst class and
 saw the inside of a stretch limousine. On the other hand, I was
 doing guerrilla street theater with grass-roots hackers—as in the
 riotously funny Windows Refund Day demonstration of 15 March
 1999, when a band of Bay Area Linux users actually marched on
-the Microsoft ofﬁces in the glare of full media coverage, demand-
-ing refunds under the terms of the Microsoft End User License for
+the Microsoft ofﬁces in the glare of full media coverage, demanding refunds under the terms of the Microsoft End User License for
 the unused Windows software that had been bundled with their
 machines.
-I knew I was going to be in town that weekend to speak at a con-
-ference hosted by the Reason Foundation, so I volunteered to be a
+I knew I was going to be in town that weekend to speak at a conference hosted by the Reason Foundation, so I volunteered to be a
 marshal for the event. Back in December I’d been featured in a
 Star Wars parody plot (http://www.userfriendly.org/cartoons/
 archives/98dec/19981203.html) in the Internet comic strip “User
-Friendly”. So I joked with the organizers about wearing an Obi-
-Wan Kenobi costume at the demonstration.
+Friendly”. So I joked with the organizers about wearing an ObiWan Kenobi costume at the demonstration.
 To my surprise, when I arrived I found the organizers had actually
 made a passable Jedi costume—and that’s how I found myself
-184
-
 
 leading a parade that featured cheeky placards and an American
 ﬂag and a rather large plastic penguin, booming out “May the
-Source be with you!” to delighted reporters. To my further sur-
-prise, I was drafted to make our statement to the press.
+Source be with you!” to delighted reporters. To my further surprise, I was drafted to make our statement to the press.
 I suppose none of us should have really been astonished when the
 video made CNBC. The demonstration was a tremendous success.
 Microsoft’s PR position, still trying to recover from the exposure
@@ -6622,27 +5407,20 @@ installed and no ‘‘Microsoft tax’’ in the price. Our bit of guerilla
 theater, it appeared, had struck home.
 The Facts on the Ground
 While the Open Source campaign’s air war in the media was going
-on, key technical and market facts on the ground were also chang-
-ing. I’ll brieﬂy review some of them here because they combine
+on, key technical and market facts on the ground were also changing. I’ll brieﬂy review some of them here because they combine
 interestingly with the trends in press and public perception.
 In the 18 months after the Netscape release, Linux continued to
-grow rapidly more capable. The development of solid SMP sup-
-port and the effective completion of the 64-bit cleanup laid impor-
-tant groundwork for the future.
+grow rapidly more capable. The development of solid SMP support and the effective completion of the 64-bit cleanup laid important groundwork for the future.
 The roomful of Linux boxes used to render scenes for the Titanic
 threw a healthy scare of expensive graphics engines into builders.
 Then the Beowulf supercomputer-on-the-cheap project showed
 that Linux’s Chinese-army sociology could be successfully applied
 even to cutting-edge scientiﬁc computing.
-Nothing dramatic happened to vault Linux’s open-source competi-
-tors into the limelight. And proprietary Unixes continued to lose
-market share; in fact, by mid-year only NT and Linux were actu-
-ally gaining market share in the Fortune 500, and by late fall
+Nothing dramatic happened to vault Linux’s open-source competitors into the limelight. And proprietary Unixes continued to lose
+market share; in fact, by mid-year only NT and Linux were actually gaining market share in the Fortune 500, and by late fall
 Linux was gaining faster (and more at the expense of NT than of
 other Unixes).
 Revenge of the Hackers
-185
-
 
 The Cathedral and the Bazaar
 Apache continued to increase its lead in the web-server market.
@@ -6650,13 +5428,9 @@ Apache continued to increase its lead in the web-server market.
 fully 61% of the world’s publicly accessible web servers.) In
 November 1998, Netscape’s browser reversed its market-share
 slide and began to make gains against Internet Explorer.
-In April 1999 the respected computer-market researchers IDG pre-
-dicted that Linux would grow twice as fast as all other server
-operating systems combined through 2003—and faster than Win-
-dows NT. In May, Kleiner-Perkins (Silicon Valley’s leading ven-
-ture-capital ﬁrm) took a lead position in ﬁnancing a Linux startup.
-About the only negative development was the continuing prob-
-lems of the Mozilla project. I have analyzed these elsewhere (in
+In April 1999 the respected computer-market researchers IDG predicted that Linux would grow twice as fast as all other server
+operating systems combined through 2003—and faster than Windows NT. In May, Kleiner-Perkins (Silicon Valley’s leading venture-capital ﬁrm) took a lead position in ﬁnancing a Linux startup.
+About the only negative development was the continuing problems of the Mozilla project. I have analyzed these elsewhere (in
 The Magic Cauldron). They came to a head when Jamie Zawinski,
 a Mozilla co-founder and the public face of the project, resigned a
 year and a day after the release of the source code, complaining of
@@ -6664,12 +5438,10 @@ mismanagement and lost opportunities.
 But it was an indication of the tremendous momentum open
 source had acquired by this time that Mozilla’s troubles did not
 noticeably slow down the pace of adoption. The trade press,
-remarkably, drew the right lesson: “Open source,” in Jamie’s now-
-famous words, “is [great, but it’s] not magic pixie dust.”
+remarkably, drew the right lesson: “Open source,” in Jamie’s nowfamous words, “is [great, but it’s] not magic pixie dust.”
 In the early part of 1999 a trend began among big independent
 software vendors (ISVs) to port their business applications to
-Linux, following the lead set earlier by the major database ven-
-dors. In late July, the biggest of them all, Computer Associates,
+Linux, following the lead set earlier by the major database vendors. In late July, the biggest of them all, Computer Associates,
 announced that it would be supporting Linux over much of its
 product line. And preliminary results from an August 1999 survey
 of 2000 IT managers revealed that 49% consider Linux an
@@ -6678,8 +5450,6 @@ strategies. Another survey by IDC described what it called ‘‘an
 amazing level of growth’’ since 1998, when the market research
 couldn’t ﬁnd statistically signiﬁcant use of Linux; 13% of the
 respondents now employ it in business operations.
-186
-
 
 The year 1999 also saw a wave of wildly successful Linux IPOs by
 Red Hat Linux, VA Linux Systems, and other Linux companies.
@@ -6699,33 +5469,24 @@ The open-source developer population will continue to
 explode, a growth fueled by ever-cheaper PC hardware and
 fast Internet connections.
 •
-Linux will continue to lead the way, the sheer size of its devel-
-oper community overpowering the higher average skill of the
+Linux will continue to lead the way, the sheer size of its developer community overpowering the higher average skill of the
 open-source BSD people and the tiny HURD crew.
 •
 ISV commitments to support the Linux platform will increase
-dramatically; the database-vendor commitments were a turn-
-ing point.
+dramatically; the database-vendor commitments were a turning point.
 •
-The Open Source campaign will continue to build on its victo-
-ries and successfully raise awareness at the CEO/CTO/CIO
+The Open Source campaign will continue to build on its victories and successfully raise awareness at the CEO/CTO/CIO
 and investor level. MIS directors will feel increasing pressure
 to go with open-source products not from below but from
 above.
 •
-Stealth deployments of Samba-over-Linux will replace increas-
-ing numbers of NT machines even at shops that have all-
-Microsoft policies.
+Stealth deployments of Samba-over-Linux will replace increasing numbers of NT machines even at shops that have allMicrosoft policies.
 Revenge of the Hackers
-187
-
 
 The Cathedral and the Bazaar
 •
-The market share of proprietary Unixes will continue to grad-
-ually erode. At least one of the weaker competitors (likely
-DG-UX or HP-UX) will actually fold. But by the time it hap-
-pens, analysts will attribute it to Linux’s gains rather than
+The market share of proprietary Unixes will continue to gradually erode. At least one of the weaker competitors (likely
+DG-UX or HP-UX) will actually fold. But by the time it happens, analysts will attribute it to Linux’s gains rather than
 Microsoft’s.
 •
 Microsoft will not have an enterprise-ready operating system,
@@ -6743,8 +5504,7 @@ predictions for the medium term (18 to 32 months out).
 Support operations for commercial customers of open-source
 operating systems will become big business, both feeding off
 of and fueling the boom in business use.
-(This has already come true in 1999 with the launch of Linux-
-Care, and Linux support-service announcements by IBM and
+(This has already come true in 1999 with the launch of LinuxCare, and Linux support-service announcements by IBM and
 HP and others.)
 •
 Open-source operating systems (with Linux leading the way)
@@ -6754,13 +5514,10 @@ low cost, open sources, and true 24/7 reliability will prove
 unstoppable.
 •
 The proprietary-Unix sector will almost completely collapse.
-Solaris looks like a safe bet to survive on high-end Sun hard-
-ware, but most other players’ proprietary Unixes will quickly
+Solaris looks like a safe bet to survive on high-end Sun hardware, but most other players’ proprietary Unixes will quickly
 become legacy systems.
 (In early 2000, SGI’s IRIX was dead-ended by ofﬁcial Linux
 adoption within SGI itself, and in mid-2000 SCO agreed to be
-188
-
 
 acquired by Caldera. It now looks probable that a number of
 Unix hardware vendors will switch horses to Linux without
@@ -6774,8 +5531,7 @@ affect their hold on the consumer desktop within the next two
 years.
 (In mid-2000, a just-published IDG survey suggested that
 ‘‘dead on arrival’’ looks more likely all the time, with most
-large corporate respondents simply refusing to deploy the ini-
-tial release and existing deployments experiencing serious
+large corporate respondents simply refusing to deploy the initial release and existing deployments experiencing serious
 security and stability problems. The fact that Microsoft itself
 was cracked twice in late October/early November of 2000
 hardly helped.)
@@ -6798,8 +5554,6 @@ On previous trends, desktop prices will cross $350 going down
 well before midyear 2001—and when that happens, OEMs will
 have to defect from the Microsoft camp to survive.
 Revenge of the Hackers
-189
-
 
 The Cathedral and the Bazaar
 Nor will it help Microsoft to respond in the obvious way by
@@ -6810,20 +5564,15 @@ they didn’t, Wall Street would regard such a move as an admission
 that Microsoft had lost control of its future revenues. One way or
 another, Microsoft’s revenues look likely to crash hard long before
 DOJ gets a ﬁnal ruling.
-So at two years out the crystal ball gets a bit cloudy. Which of sev-
-eral futures we get depends on questions like: will the DOJ actu-
-ally succeed in breaking up Microsoft? Might BeOS or OS/2 or
-Mac OS/X or some other niche closed-source OS, or some com-
-pletely new design, ﬁnd a way to go open and compete effectively
+So at two years out the crystal ball gets a bit cloudy. Which of several futures we get depends on questions like: will the DOJ actually succeed in breaking up Microsoft? Might BeOS or OS/2 or
+Mac OS/X or some other niche closed-source OS, or some completely new design, ﬁnd a way to go open and compete effectively
 with Linux’s 30-year-old base design? At least Y2K ﬁzzled . . . .
 These are all fairly imponderable. But there is one such question
 that is worth pondering: Will the Linux community actually
 deliver a good end-user–friendly GUI interface for the whole
 system?
-In the 1999 ﬁrst edition of this book, I said the most likely sce-
-nario for late 2000/early 2001 has Linux in effective control of
-servers, data centers, ISPs, and the Internet, while Microsoft main-
-tains its grip on the desktop. By November 2000 this prediction
+In the 1999 ﬁrst edition of this book, I said the most likely scenario for late 2000/early 2001 has Linux in effective control of
+servers, data centers, ISPs, and the Internet, while Microsoft maintains its grip on the desktop. By November 2000 this prediction
 had proved out pretty completely except in large corporate data
 centers, and there it looks very likely to be fulﬁlled within months.
 Where things go from there depend on whether GNOME, KDE,
@@ -6833,10 +5582,7 @@ its home ground.
 If this were primarily a technical problem, the outcome would
 hardly be in doubt. But it isn’t; it’s a problem in ergonomic design
 and interface psychology, and hackers have historically been poor
-at these things. That is, while hackers can be very good at design-
-ing interfaces for other hackers, they tend to be poor at modeling
-190
-
+at these things. That is, while hackers can be very good at designing interfaces for other hackers, they tend to be poor at modeling
 
 the thought processes of the other 95% of the population well
 enough to write interfaces that J. Random End-User and his Aunt
@@ -6856,8 +5602,7 @@ We half-joke about ‘world domination’, but the only way we will
 get there is by serving the world. That means J. Random End-User
 and his Aunt Tillie; and that means learning how to think about
 what we do in a fundamentally new way, and ruthlessly reducing
-the user-visible complexity of the default environment to an abso-
-lute minimum.
+the user-visible complexity of the default environment to an absolute minimum.
 Computers are tools for human beings. Ultimately, therefore, the
 challenges of designing hardware and software must come back to
 designing for human beings—all human beings.
@@ -6866,15 +5611,12 @@ community, in alliance with its new friends in the corporate
 world, will prove up to the task. And, as Obi-Wan Kenobi might
 say, ‘‘the Source will be with us’’.
 Revenge of the Hackers
-191
-
 
 AFTERWORD
 Beyond Software?
 ✦✦✦
 The essays in this book were a beginning, but they are not an end.
-There are many questions not yet resolved about open-source soft-
-ware. And there are many questions about other kinds of creative
+There are many questions not yet resolved about open-source software. And there are many questions about other kinds of creative
 work and intellectual property that the open-source phenomenon
 raises, but does not really suggest a good answer for.
 I am often asked if I believe the open-source model can be usefully
@@ -6883,18 +5625,13 @@ question is asked about music, or the content of some kinds of
 books, or designs for computer and electronic hardware. Almost
 as frequently I am asked whether I think the open-source model
 has political implications.
-I am not short of opinions about music, books, hardware, or poli-
-tics. Some of those opinions do indeed touch on the ideas about
+I am not short of opinions about music, books, hardware, or politics. Some of those opinions do indeed touch on the ideas about
 peer review, decentralization, and openness explored in this book;
 the interested reader is welcome to visit my home site
 http://www.tuxedo.org/˜esr/ and make his or her own deductions.
-However, I have deliberately avoided such speculation in connec-
-tion with my work as a theorist and ambassador of open source.
+However, I have deliberately avoided such speculation in connection with my work as a theorist and ambassador of open source.
 The principle is simple: one battle at a time. My tribe is waging a
-struggle to raise the quality and reliability expectations of soft-
-ware consumers and overturn the standard operating procedures
-193
-
+struggle to raise the quality and reliability expectations of software consumers and overturn the standard operating procedures
 
 The Cathedral and the Bazaar
 of the software industry. We face entrenched opposition with a lot
@@ -6903,18 +5640,13 @@ of money and mind-share and monopoly power. It’s not an easy
 will win. If, that is, we stay focused on that goal.
 Staying focused on the goal involves not wandering down a lot of
 beguiling byways. This is a point I often feel needs emphasizing
-when I address other hackers, because in the past our representa-
-tives have shown a strong tendency to ideologize when they would
+when I address other hackers, because in the past our representatives have shown a strong tendency to ideologize when they would
 have been more effective sticking to relatively narrow, pragmatic
 arguments.
 Yes, the success of open source does call into some question the
-utility of command-and-control systems, of secrecy, of centraliza-
-tion, and of certain kinds of intellectual property. It would be
-almost disingenuous not to admit that it suggests (or at least har-
-monizes well with) a broadly libertarian view of the proper rela-
-tionship between individuals and institutions.
-These things having been said, however, it seems to me for the pre-
-sent more appropriate to try to avoid over-applying these ideas. A
+utility of command-and-control systems, of secrecy, of centralization, and of certain kinds of intellectual property. It would be
+almost disingenuous not to admit that it suggests (or at least harmonizes well with) a broadly libertarian view of the proper relationship between individuals and institutions.
+These things having been said, however, it seems to me for the present more appropriate to try to avoid over-applying these ideas. A
 case in point; music and most books are not like software, because
 they don’t generally need to be debugged or maintained. Without
 that requirement, the utility of peer review is much lower, and the
@@ -6924,14 +5656,11 @@ open-sourcing software by tying it to a potential loser.
 I expect the open-source movement to have essentially won its
 point about software within three to ﬁve years (that is, by
 2003–2005). Once that is accomplished, and the results have been
-manifest for a while, they will become part of the background cul-
-ture of non-programmers. At that point it will become more
+manifest for a while, they will become part of the background culture of non-programmers. At that point it will become more
 appropriate to try to leverage open-source insights in wider
 domains.
 In the meantime, even if we hackers are not making an ideological
 noise about it, we will still be changing the world.
-194
-
 
 APPENDIX A
 How to Become a Hacker
@@ -6952,12 +5681,9 @@ this document.1 Please read these—twice — before mailing me any
 questions about this document.
 What Is a Hacker?
 The Jargon File, http://www.tuxedo.org/jargon/, contains a bunch
-of deﬁnitions of the term ‘hacker’, most having to do with techni-
-cal adeptness and a delight in solving problems and overcoming
+of deﬁnitions of the term ‘hacker’, most having to do with technical adeptness and a delight in solving problems and overcoming
 limits. If you want to know how to become a hacker, though, only
 two are really relevant.
-195
-
 
 The Cathedral and the Bazaar
 There is a community, a shared culture, of expert programmers
@@ -6969,8 +5695,7 @@ operating system what it is today. Hackers run Usenet. Hackers
 make the World Wide Web work. If you are part of this culture, if
 you have contributed to it and other people in it know who you
 are and call you a hacker, you’re a hacker.
-The hacker mind-set is not conﬁned to this software-hacker cul-
-ture. There are people who apply the hacker attitude to other
+The hacker mind-set is not conﬁned to this software-hacker culture. There are people who apply the hacker attitude to other
 things, like electronics or music—actually, you can ﬁnd it at the
 highest levels of any science or art. Software hackers recognize
 these kindred spirits elsewhere and may call them “hackers”
@@ -6979,44 +5704,37 @@ of the particular medium the hacker works in. But in the rest of
 this document we will focus on the skills and attitudes of software
 hackers, and the traditions of the shared culture that originated
 the term ‘hacker’.
-There is another group of people who loudly call themselves hack-
-ers, but aren’t. These are people (mainly adolescent males) who
+There is another group of people who loudly call themselves hackers, but aren’t. These are people (mainly adolescent males) who
 get a kick out of breaking into computers and phreaking the
 phone system. Real hackers call these people ‘crackers’ and want
 nothing to do with them. Real hackers mostly think crackers are
 lazy, irresponsible, and not very bright, and object that being able
 to break security doesn’t make you a hacker any more than being
-able to hotwire cars makes you an automotive engineer. Unfortu-
-nately, many journalists and writers have been fooled into using
+able to hotwire cars makes you an automotive engineer. Unfortunately, many journalists and writers have been fooled into using
 the word ‘hacker’ to describe crackers; this irritates real hackers to
 no end.
 The basic difference is this: hackers build things, crackers break
 them.
 If you want to be a hacker, keep reading. If you want to be a
 cracker, go read the alt.2600 (news:alt.2600) newsgroup and get
-196
-
 
 ready to do ﬁve to ten in the slammer after ﬁnding out you aren’t
 as smart as you think you are. And that’s all I’m going to say
 about crackers.
 The Hacker Attitude
-Hackers solve problems and build things, and they believe in free-
-dom and voluntary mutual help. To be accepted as a hacker, you
+Hackers solve problems and build things, and they believe in freedom and voluntary mutual help. To be accepted as a hacker, you
 have to behave as though you have this kind of attitude yourself.
 And to behave as though you have the attitude, you have to really
 believe the attitude.
 But if you think of cultivating hacker attitudes as just a way to
 gain acceptance in the culture, you’ll miss the point. Becoming the
 kind of person who believes these things is important for you—
-for helping you learn and keeping you motivated. As with all cre-
-ative arts, the most effective way to become a master is to imitate
+for helping you learn and keeping you motivated. As with all creative arts, the most effective way to become a master is to imitate
 the mind-set of masters—not just intellectually but emotionally as
 well.
 So, if you want to be a hacker, repeat the following things until
 you believe them:
-1. The world Is Full of Fascinating Problems Wait-
-ing to Be Solved.
+1. The world Is Full of Fascinating Problems Waiting to Be Solved.
 Being a hacker is lots of fun, but it’s a kind of fun that takes lots
 of effort. The effort takes motivation. Successful athletes get their
 motivation from a kind of physical delight in making their bodies
@@ -7030,8 +5748,6 @@ money, and social approval.
 (You also have to develop a kind of faith in your own learning
 capacity — a belief that even though you may not know all of what
 How to Become a Hacker
-197
-
 
 The Cathedral and the Bazaar
 you need to solve a problem, if you tackle just a piece of it and
@@ -7040,8 +5756,7 @@ so on, until you’re done.)
 2. Nobody Should Ever Have to Solve a Problem
 Twice.
 Creative brains are a valuable, limited resource. They shouldn’t be
-wasted on re-inventing the wheel when there are so many fascinat-
-ing new problems waiting out there.
+wasted on re-inventing the wheel when there are so many fascinating new problems waiting out there.
 To behave like a hacker, you have to believe that the thinking time
 of other hackers is precious—so much so that it’s almost a moral
 duty for you to share information, solve problems and then give
@@ -7056,8 +5771,7 @@ or even get rich, as long as you don’t forget your loyalty to your
 art and your fellow hackers while doing it.)
 3. Boredom and Drudgery Are Evil.
 Hackers (and creative people in general) should never be bored or
-have to drudge at stupid repetitive work, because when this hap-
-pens it means they aren’t doing what only they can do—solve new
+have to drudge at stupid repetitive work, because when this happens it means they aren’t doing what only they can do—solve new
 problems. This wastefulness hurts everybody. Therefore boredom
 and drudgery are not just unpleasant but actually evil.
 To behave like a hacker, you have to believe this enough to want
@@ -7067,8 +5781,6 @@ yourself but for everybody else (especially other hackers).
 do things that may seem repetitive or boring to an observer as a
 mind-clearing exercise, or in order to acquire a skill or have some
 particular kind of experience you can’t have otherwise. But this is
-198
-
 
 by choice—nobody who can think should ever be forced into a
 situation that bores them.)
@@ -7082,8 +5794,7 @@ lest it smother you and other hackers.
 (This isn’t the same as ﬁghting all authority. Children need to be
 guided and criminals restrained. A hacker may agree to accept
 some kinds of authority in order to get something he wants more
-than the time he spends following orders. But that’s a limited, con-
-scious bargain; the kind of personal surrender authoritarians want
+than the time he spends following orders. But that’s a limited, conscious bargain; the kind of personal surrender authoritarians want
 is not on offer.)
 Authoritarians thrive on censorship and secrecy. And they distrust
 voluntary cooperation and information-sharing—they only like
@@ -7097,18 +5808,14 @@ copping an attitude alone won’t make you a hacker, any more
 than it will make you a champion athlete or a rock star. Becoming
 a hacker will take intelligence, practice, dedication, and hard
 work.
-Therefore, you have to learn to distrust attitude and respect com-
-petence of every kind. Hackers won’t let poseurs waste their time,
+Therefore, you have to learn to distrust attitude and respect competence of every kind. Hackers won’t let poseurs waste their time,
 but they worship competence—especially competence at hacking,
 How to Become a Hacker
-199
-
 
 The Cathedral and the Bazaar
 but competence at anything is good. Competence at demanding
 skills that few can master is especially good, and competence at
-demanding skills that involve mental acuteness, craft, and concen-
-tration is best.
+demanding skills that involve mental acuteness, craft, and concentration is best.
 If you revere competence, you’ll enjoy developing it in yourself—
 the hard work and dedication will become a kind of intense play
 rather than drudgery. And that’s vital to becoming a hacker.
@@ -7128,13 +5835,13 @@ know any computer languages, I recommend starting with Python.
 It is cleanly designed, well documented, and relatively kind to
 beginners. Despite being a good ﬁrst language, it is not just a toy;
 it is very powerful and ﬂexible and well suited for large projects. I
-have 
-written 
-a 
-more 
-detailed 
-evaluation 
-of 
+have
+written
+a
+more
+detailed
+evaluation
+of
 Python,
 http://noframes.linuxjournal.com/lj-issues/issue73/3882.html.
 A
@@ -7143,68 +5850,51 @@ Java is also a good language for learning to program in. It is more
 difﬁcult than Python, but produces faster code than Python. I
 think it makes an excellent second language.
 But be aware that you won’t reach the skill level of a hacker or
-even merely a programmer if you only know one or two lan-
-guages — you need to learn how to think about programming
-200
-
+even merely a programmer if you only know one or two languages — you need to learn how to think about programming
 
 problems in a general way, independent of any one language. To
 be a real hacker, you need to get to the point where you can learn
 a new language in days by relating what’s in the manual to what
-you already know. This means you should learn several very dif-
-ferent languages.
+you already know. This means you should learn several very different languages.
 If you get into serious programming, you will have to learn C, the
 core language of Unix. C++ is very closely related to C; if you
-know one, learning the other will not be difﬁcult. Neither lan-
-guage is a good one to try learning as your ﬁrst, however.
+know one, learning the other will not be difﬁcult. Neither language is a good one to try learning as your ﬁrst, however.
 Other languages of particular importance to hackers include Perl
 (http://www.perl.com) and LISP (http://snaefell.tamu.edu/ ˜colin/
 lp/). Perl is worth learning for practical reasons; it’s very widely
 used for active web pages and system administration, so that even
 if you never write Perl you should learn to read it. LISP is worth
 learning for the profound enlightenment experience you will have
-when you ﬁnally get it; that experience will make you a better pro-
-grammer for the rest of your days, even if you never actually use
+when you ﬁnally get it; that experience will make you a better programmer for the rest of your days, even if you never actually use
 LISP itself a lot.
 It’s best, actually, to learn all ﬁve of these (Python, Java, C/C++,
-Perl, and LISP). Besides being the most important hacking lan-
-guages, they represent very different approaches to programming,
+Perl, and LISP). Besides being the most important hacking languages, they represent very different approaches to programming,
 and each will educate you in valuable ways.
 I can’t give complete instructions on how to learn to program
 here — it’s a complex skill. But I can tell you that books and
 courses won’t do it (many, maybe most of the best hackers are
-self-taught). You can learn language features—bits of knowl-
-edge — from books, but the mind-set that makes that knowledge
-into living skill can be learned only by practice and apprentice-
-ship. What will do it is (a) reading code and (b) writing code.
-Learning to program is like learning to write good natural lan-
-guage. The best way to do it is to read some stuff written by mas-
-ters of the form, write some things yourself, read a lot more, write
+self-taught). You can learn language features—bits of knowledge — from books, but the mind-set that makes that knowledge
+into living skill can be learned only by practice and apprenticeship. What will do it is (a) reading code and (b) writing code.
+Learning to program is like learning to write good natural language. The best way to do it is to read some stuff written by masters of the form, write some things yourself, read a lot more, write
 a little more, read a lot more, write some more . . . and repeat until
 How to Become a Hacker
-201
-
 
 The Cathedral and the Bazaar
 your writing begins to develop the kind of strength and economy
 you see in your models.
 Finding good code to read used to be hard, because there were few
 large programs available in source for ﬂedgeling hackers to read
-and tinker with. This has changed dramatically; open-source soft-
-ware, programming tools, and operating systems (all built by
+and tinker with. This has changed dramatically; open-source software, programming tools, and operating systems (all built by
 hackers) are now widely available. Which brings me neatly to our
 next topic . . . .
 2. Get One of the Open-Source Unixes and Learn to
 Use and Run It.
 I’m assuming you have a personal computer or can get access to
-one (these kids today have it so easy :-)). The single most impor-
-tant step any newbie can take toward acquiring hacker skills is to
-get a copy of Linux or one of the BSD-Unixes, install it on a per-
-sonal machine, and run it.
+one (these kids today have it so easy :-)). The single most important step any newbie can take toward acquiring hacker skills is to
+get a copy of Linux or one of the BSD-Unixes, install it on a personal machine, and run it.
 Yes, there are other operating systems in the world besides Unix.
 But they’re distributed in binary—you can’t read the code, and
-you can’t modify it. Trying to learn to hack on a DOS or Win-
-dows machine or under MacOS is like trying to learn to dance
+you can’t modify it. Trying to learn to hack on a DOS or Windows machine or under MacOS is like trying to learn to dance
 while wearing a body cast.
 Besides, Unix is the operating system of the Internet. While you
 can learn to use the Internet without knowing Unix, you can’t be
@@ -7217,21 +5907,18 @@ able to seriously dent it.)
 So, bring up a Unix—I like Linux myself but there are other ways
 (and yes, you can run both Linux and DOS/Windows on the same
 machine). Learn it. Run it. Tinker with it. Talk to the Internet
-with it. Read the code. Modify the code. You’ll get better pro-
-gramming tools (including C, LISP, Python, and Perl) than any
-202
-
+with it. Read the code. Modify the code. You’ll get better programming tools (including C, LISP, Python, and Perl) than any
 
 Microsoft operating system can dream of, you’ll have fun, and
 you’ll soak up more knowledge than you realize you’re learning
 until you look back on it as a master hacker.
-For 
-more 
-about 
-learning 
-Unix, 
-see 
-The 
+For
+more
+about
+learning
+Unix,
+see
+The
 Loginataka,
 http://www.tuxedo.org/ ˜esr/faqs/loginataka.html.
 To get your hands on a Linux, see the “Where can I get Linux”
@@ -7239,8 +5926,7 @@ page, http://linuxresources.com/apps/ftp.html.
 You can ﬁnd BSD Unix help and resources at http://www.bsd.org.
 (Note: I don’t really recommend installing either Linux or BSD as
 a solo project if you’re a newbie. For Linux, ﬁnd a local Linux
-user’s group and ask for help; or contact the Linux Internet Sup-
-port Co-Operative, http://www.linpeople.org. LISC maintains IRC
+user’s group and ask for help; or contact the Linux Internet Support Co-Operative, http://www.linpeople.org. LISC maintains IRC
 channels [http://openprojects.nu/services/irc.html] where you can
 get help.)
 3. Learn How to Use the World Wide Web and
@@ -7262,12 +5948,9 @@ are pointless, zero-content sludge—very snazzy-looking sludge,
 mind you, but sludge all the same (for more on this see The
 HTML Hell Page: http://www.tuxedo.org/ ˜esr/html-hell.html).
 How to Become a Hacker
-203
-
 
 The Cathedral and the Bazaar
-To be worthwhile, your page must have content—it must be inter-
-esting and/or useful to other hackers. And that brings us to the
+To be worthwhile, your page must have content—it must be interesting and/or useful to other hackers. And that brings us to the
 next topic . . . .
 Status in the Hacker Culture
 Like most cultures without a money economy, hackerdom runs on
@@ -7283,37 +5966,28 @@ work; also by a hacker-cultural taboo (now gradually decaying
 but still potent) against admitting that ego or external validation
 are involved in one’s motivation at all.
 Speciﬁcally, hackerdom is what anthropologists call a gift culture.
-You gain status and reputation in it not by dominating other peo-
-ple, nor by being beautiful, nor by having things other people
+You gain status and reputation in it not by dominating other people, nor by being beautiful, nor by having things other people
 want, but rather by giving things away. Speciﬁcally, by giving
 away your time, your creativity, and the results of your skill.
 There are basically ﬁve kinds of things you can do to be respected
 by hackers:
 1. Write Open-Source Software
-The ﬁrst (the most central and most traditional) is to write pro-
-grams that other hackers think are fun or useful, and give the pro-
-gram sources to the whole hacker culture to use.
+The ﬁrst (the most central and most traditional) is to write programs that other hackers think are fun or useful, and give the program sources to the whole hacker culture to use.
 (We used to call these works ‘‘free software’’, but this confused too
 many people who weren’t sure exactly what ‘‘free’’ was supposed
 to mean. Many of us now prefer the term “open-source” software,
 http://www.opensource.org/.)
-204
-
 
 Hackerdom’s most revered demigods are people who have written
 large, capable programs that met a widespread need and given
 them away, so that now everyone uses them.
 2. Help Test and Debug Open-Source Software
 They also serve who stand and debug open-source software. In
-this imperfect world, we will inevitably spend most of our soft-
-ware development time in the debugging phase. That’s why any
-open-source author who’s thinking will tell you that good beta-
-testers (who know how to describe symptoms clearly, localize
-problems well, can tolerate bugs in a quickie release, and are will-
-ing to apply a few simple diagnostic routines) are worth their
+this imperfect world, we will inevitably spend most of our software development time in the debugging phase. That’s why any
+open-source author who’s thinking will tell you that good betatesters (who know how to describe symptoms clearly, localize
+problems well, can tolerate bugs in a quickie release, and are willing to apply a few simple diagnostic routines) are worth their
 weight in rubies. Even one of these can make the difference
-between a debugging phase that’s a protracted, exhausting night-
-mare and one that’s merely a salutary nuisance.
+between a debugging phase that’s a protracted, exhausting nightmare and one that’s merely a salutary nuisance.
 If you’re a newbie, try to ﬁnd a program under development that
 you’re interested in and be a good beta-tester. There’s a natural
 progression from helping test programs to helping debug them to
@@ -7326,15 +6000,10 @@ Questions (FAQ) lists, and make those generally available.
 Maintainers of major technical FAQs get almost as much respect
 as open-source authors.
 4. Help Keep the Infrastructure Working
-The hacker culture (and the engineering development of the Inter-
-net, for that matter) is run by volunteers. There’s a lot of necessary
-but unglamorous work that needs done to keep it going—admin-
-istering mailing lists, moderating newsgroups, maintaining large
-software archive sites, developing RFCs and other technical stan-
-dards.
+The hacker culture (and the engineering development of the Internet, for that matter) is run by volunteers. There’s a lot of necessary
+but unglamorous work that needs done to keep it going—administering mailing lists, moderating newsgroups, maintaining large
+software archive sites, developing RFCs and other technical standards.
 How to Become a Hacker
-205
-
 
 The Cathedral and the Bazaar
 People who do this sort of thing well get a lot of respect, because
@@ -7367,8 +6036,6 @@ extensive discussion.
 If you can manage to concentrate enough on hacking to be good
 at it and still have a life, that’s ﬁne. This is a lot easier today than
 it was when I was a newbie in the 1970s; mainstream culture is
-206
-
 
 much friendlier to techno-nerds now. There are even growing
 numbers of people who realize that hackers are often high-quality
@@ -7383,8 +6050,7 @@ seem to help. They’re not substitutes for hacking (nothing is) but
 many hackers do them, and feel that they connect in some basic
 way with the essence of hacking.
 •
-Learn to write your native language well. Though it’s a com-
-mon stereotype that programmers can’t write, a surprising
+Learn to write your native language well. Though it’s a common stereotype that programmers can’t write, a surprising
 number of hackers (including all the best ones I know of) are
 able writers.
 •
@@ -7394,8 +6060,7 @@ way to meet hackers and proto-hackers).
 Study Zen, and/or take up martial arts. (The mental discipline
 seems similar in important ways.)
 •
-Develop an analytical ear for music. Learn to appreciate pecu-
-liar kinds of music. Learn to play some musical instrument
+Develop an analytical ear for music. Learn to appreciate peculiar kinds of music. Learn to play some musical instrument
 well, or how to sing.
 •
 Develop your appreciation of puns and wordplay.
@@ -7406,8 +6071,6 @@ right-brain skills that seems to be important (hackers need to be
 able to both reason logically and step outside the apparent logic of
 a problem at a moment’s notice).
 How to Become a Hacker
-207
-
 
 The Cathedral and the Bazaar
 Finally, a few things not to do:
@@ -7424,49 +6087,42 @@ bad grammar.
 The only reputation you’ll make doing any of these things is as a
 twit. Hackers have long memories—it could take you years to live
 your early blunders down enough to be accepted.
-The problem with screen names or handles deserves some ampliﬁ-
-cation. Concealing your identity behind a handle is a juvenile and
+The problem with screen names or handles deserves some ampliﬁcation. Concealing your identity behind a handle is a juvenile and
 silly behavior characteristic of crackers, warez d00dz, and other
 lower life forms. Hackers don’t do this; they’re proud of what
 they do and want it associated with their real names. So if you
 have a handle, drop it. In the hacker culture it will only mark you
 as a loser.
 Other Resources
-Peter 
-Seebach 
-maintains 
-an 
-excellent 
-Hacker 
+Peter
+Seebach
+maintains
+an
+excellent
+Hacker
 FAQ
 (http://www.plethora.net/ ˜seebs/faqs/hacker.html)
 for managers
-who don’t understand how to deal with hackers. I have also writ-
-ten A Brief History of Hackerdom, (http://www.tuxedo.org/ ˜esr/
+who don’t understand how to deal with hackers. I have also written A Brief History of Hackerdom, (http://www.tuxedo.org/ ˜esr/
 writings/hacker-history/hacker-history.html). The Cathedral and
-the 
+the
 Bazaar,
-(http://www.tuxedo.org/ ˜esr/writings/cathedral-
-bazaar/index.html) explains a lot about how the Linux and open-
-source cultures work. I have addressed this topic even more
-directly 
-in 
-its 
+(http://www.tuxedo.org/ ˜esr/writings/cathedralbazaar/index.html) explains a lot about how the Linux and opensource cultures work. I have addressed this topic even more
+directly
+in
+its
 sequel
-Homesteading 
-the 
+Homesteading
+the
 Noosphere,
 http://www.tuxedo.org/ ˜esr/writings/homesteading/.
-208
-
 
 Frequently Asked Questions
 Will you teach me how to hack?
 Since ﬁrst publishing this essay, I’ve gotten several requests a
 week (often several a day) from people to “teach me all about
 hacking”. Unfortunately, I don’t have the time or energy to do
-this; my own hacking projects, and traveling as an open-
-source advocate, take up 110% of my time.
+this; my own hacking projects, and traveling as an opensource advocate, take up 110% of my time.
 Even if I did, hacking is an attitude and skill you basically
 have to teach yourself. You’ll ﬁnd that while real hackers
 want to help you, they won’t respect you if you beg to be
@@ -7493,15 +6149,12 @@ work at it. Most people can acquire a respectable skill set in
 there, though; if you are a real hacker, you will spend the rest
 of your life learning and perfecting your craft.
 How to Become a Hacker
-209
-
 
 The Cathedral and the Bazaar
 Are Visual Basic or Delphi good languages to start with?
 No, because they’re not portable. There are no open-source
 implementations of these languages, so you’d be locked into
-only those platforms the vendor chooses to support. Accept-
-ing that kind of monopoly situation is not the hacker way.
+only those platforms the vendor chooses to support. Accepting that kind of monopoly situation is not the hacker way.
 Visual Basic is especially awful. The fact that it’s a proprietary
 Microsoft language is enough to disqualify it, and like other
 Basics it’s a poorly designed language that will teach you bad
@@ -7520,35 +6173,30 @@ How can I get the password for someone else’s account?
 This is cracking. Go away, idiot.
 I’ve been cracked. Will you help me fend off further attacks?
 No. Every time I’ve been asked this question so far, it’s been
-from somebody running Windows. It is not possible to effec-
-tively secure Windows systems against crack attacks; the code
+from somebody running Windows. It is not possible to effectively secure Windows systems against crack attacks; the code
 and architecture simply have too many ﬂaws, and securing
 Windows is like trying to bail out a boat with a sieve. The
 only reliable prevention is to switch to Linux or some other
 operating system with real security.
 I’m having problems with my Windows software. Will you help
 me?
-Yes. Go to a DOS prompt and type “format c:”. The prob-
-lems you are experiencing will cease within a few minutes.
-210
-
+Yes. Go to a DOS prompt and type “format c:”. The problems you are experiencing will cease within a few minutes.
 
 Where can I ﬁnd some real hackers to talk with?
 The best way is to ﬁnd a Unix or Linux user’s group local to
 you and go to their meetings (you can ﬁnd links to several lists
-of user groups on the LDP site at Metalab, http://meta-
-lab.unc.edu/LDP/).
+of user groups on the LDP site at Metalab, http://metalab.unc.edu/LDP/).
 (I used to say here that you wouldn’t ﬁnd any real hackers on
 IRC, but I’m given to understand this is changing. Apparently
 some real hacker communities, attached to things like GIMP
 and Perl, have IRC channels now.)
 Can you recommend useful books about hacking-related subjects?
 I
-maintain 
-a 
-Linux 
-Reading 
-List 
+maintain
+a
+Linux
+Reading
+List
 HOWTO,
 http://sunsite.unc.edu/LDP/HOWTO/Reading-List-HOWTO/
 index.html, that you may ﬁnd helpful. The Loginataka may
@@ -7570,12 +6218,9 @@ either Python or Perl. Don’t try to learn it ﬁrst.
 Windows users, do not settle for Visual Basic. It will teach
 you bad habits, and it’s not portable off Windows. Avoid.
 What kind of hardware do I need?
-It used to be that personal computers were rather underpow-
-ered and memory-poor, enough so that they placed artiﬁcial
+It used to be that personal computers were rather underpowered and memory-poor, enough so that they placed artiﬁcial
 limits on a hacker’s learning process. This stopped being true
 How to Become a Hacker
-211
-
 
 The Cathedral and the Bazaar
 some time ago; any machine from an Intel 486DX50 up is
@@ -7583,35 +6228,27 @@ more than powerful enough for development work, X, and
 Internet communications, and the smallest disks you can buy
 today are plenty big enough.
 The important thing in choosing a machine on which to learn
-is whether its hardware is Linux-compatible (or BSD-compati-
-ble, should you choose to go that route). Again, this will be
+is whether its hardware is Linux-compatible (or BSD-compatible, should you choose to go that route). Again, this will be
 true for most modern machines; the only sticky areas are
 modems and printers; some machines have Windows-speciﬁc
 hardware that won’t work with Linux.
 There’s a FAQ on hardware compatibility; the latest version is
 here,
-http://users.bart.nl/ ˜patrickr/hardware-howto/Hard-
-ware-HOWTO.html.
+http://users.bart.nl/ ˜patrickr/hardware-howto/Hardware-HOWTO.html.
 Do I need to hate and bash Microsoft?
 No, you don’t. Not that Microsoft isn’t loathsome, but there
 was a hacker culture long before Microsoft and there will still
-be one when Microsoft is history. Any energy you spend hat-
-ing Microsoft would be better spent on loving your craft.
+be one when Microsoft is history. Any energy you spend hating Microsoft would be better spent on loving your craft.
 Write good code—that will bash Microsoft quite sufﬁciently
 without polluting your karma.
 But won’t open-source software leave programmers unable to
 make a living?
-This seems unlikely—so far, the open-source software indus-
-try seems to be creating jobs rather than taking them away. If
-having a program written is a net economic gain over not hav-
-ing it written, a programmer will get paid whether or not the
+This seems unlikely—so far, the open-source software industry seems to be creating jobs rather than taking them away. If
+having a program written is a net economic gain over not having it written, a programmer will get paid whether or not the
 program is going to be free after it’s done. And, no matter
 how much “free” software gets written, there always seems to
 be more demand for new and customized applications. I’ve
-written more about this at the Open Source (http://www.open-
-source.org) pages.
-212
-
+written more about this at the Open Source (http://www.opensource.org) pages.
 
 How can I get started? Where can I get a free Unix?
 Elsewhere on this page I include pointers to where to get the
@@ -7619,8 +6256,6 @@ most commonly used free Unix. To be a hacker you need
 motivation and initiative and the ability to educate yourself.
 Start now . . . .
 How to Become a Hacker
-213
-
 
 APPENDIX B
 Statistical Trends in the
@@ -7632,8 +6267,6 @@ custom shellscripts available on the project website.
 The graph shows the population growth of the fetchmail project.
 The horizontal scale is days since baseline, which is when I started
 collecting statistics in October 1996 at version 1.9.0. Left vertical
-215
-
 
 The Cathedral and the Bazaar
 scale is number of participants. There is one data point for each
@@ -7642,8 +6275,7 @@ frequency.
 The peak in the earliest part of the graph (before the note “Bad
 addresses dropped”) seems to be an artifact; I was not regularly
 dropping addresses that became invalid at the time. Turnover on
-the list seems to be about 5% per month (but that’s just my esti-
-mate, I don’t have numbers on this).
+the list seems to be about 5% per month (but that’s just my estimate, I don’t have numbers on this).
 The scatter of squares is total participants. The scatter of crosses is
 the count of people on fetchmail-friends after I split the list. The
 scatter of triangles is the population of fetchmail-announce after
@@ -7657,8 +6289,7 @@ Over time, the project population displays rather consistent
 linear growth.
 •
 The key event in the project’s lifetime was release 4.3.0 in
-October 1997, when I declared the code to be out of develop-
-ment and in maintainance mode, and split the fetchmail list.
+October 1997, when I declared the code to be out of development and in maintainance mode, and split the fetchmail list.
 •
 The run-up to 4.3.0 saw the most intensive spate of releases in
 the project’s history (the gap in that run happened when I
@@ -7667,23 +6298,19 @@ slowdown.
 •
 After 4.3.0, the developer population remained fairly stable
 around an average of about 250 participants.
-216
-
 
 •
 Essentially all population growth after 4.3.0 happened on the
 announce list, among people using fetchmail but not active
 co-developers.
 •
-The growth trend in code size looks sublinear, perhaps loga-
-rithmic.
+The growth trend in code size looks sublinear, perhaps logarithmic.
 The linear growth trend in population is particularly interesting; a
 priori we might expect geometric or logistic growth, given that the
 project spreads by word of mouth.
 It has been suggested that the linear growth rate is the result of a
 situation in which both number of projects and the population of
-eligible programmers are rising on trend curves of the same (prob-
-ably exponential) rate.
+eligible programmers are rising on trend curves of the same (probably exponential) rate.
 There are some web pages doing similar things:
 •
 http://kitenet.net/programs/debhelper/stats/
@@ -7693,8 +6320,6 @@ statistics on the debhelper packaging utility.
 http://durak.org:81/sean/pubs/kfc/ is a page on the vocabulary
 of the Linux kernel.
 Statistical Trends in the Fetchmail Project’s Growth
-217
-
 
 Notes, Bibliography,
 and Acknowledgments
@@ -7709,18 +6334,13 @@ Press, 1996.
 The Cathedral and the Bazaar
 Notes
 1.
-In Programing Pearls, the noted computer-science aphorist Jon Bentley com-
-ments on Brooks’s observation with ‘‘If you plan to throw one away, you will
-throw away two.’’ He is almost certainly right. The point of Brooks’s obser-
-vation, and Bentley’s, isn’t merely that you should expect the ﬁrst attempt to
+In Programing Pearls, the noted computer-science aphorist Jon Bentley comments on Brooks’s observation with ‘‘If you plan to throw one away, you will
+throw away two.’’ He is almost certainly right. The point of Brooks’s observation, and Bentley’s, isn’t merely that you should expect the ﬁrst attempt to
 be wrong, it’s that starting over with the right idea is usually more effective
 than trying to salvage a mess.
 2.
-Examples of successful open-source, bazaar development predating the Inter-
-net explosion and unrelated to the Unix and Internet traditions have existed.
+Examples of successful open-source, bazaar development predating the Internet explosion and unrelated to the Unix and Internet traditions have existed.
 The development of the info-Zip (http://www.cdrom.com/pub/infozip/)
-219
-
 
 The Cathedral and the Bazaar
 compression utility during 1990–1992, primarily for DOS machines, was one
@@ -7730,104 +6350,78 @@ there have been fairly regular releases up to the present (mid-1999) despite
 the huge technical advantages of Internet mail and ﬁle-sharing over local
 BBSs. While the info-Zip community relied to some extent on Internet mail,
 the RBBS developer culture was actually able to base a substantial online
-community on RBBS that was completely independent of the TCP/IP infras-
-tructure.
+community on RBBS that was completely independent of the TCP/IP infrastructure.
 3.
 That transparency and peer review are valuable for taming the complexity of
 OS development turns out, after all, not to be a new concept. In 1965, very
-early in the history of time-sharing operating systems, Corbató and Vyssot-
-sky, co-designers of the Multics operating system (http://www.multicians.org/
+early in the history of time-sharing operating systems, Corbató and Vyssotsky, co-designers of the Multics operating system (http://www.multicians.org/
 fjcc1.html) wrote:
 It is expected that the Multics system will be published when it is
 operating substantially . . . .  Such publication is desirable for two
-reasons: First, the system should withstand public scrutiny and crit-
-icism volunteered by interested readers; second, in an age of
-increasing complexity, it is an obligation to present and future sys-
-tem designers to make the inner operating system as lucid as possi-
-ble so as to reveal the basic system issues.
+reasons: First, the system should withstand public scrutiny and criticism volunteered by interested readers; second, in an age of
+increasing complexity, it is an obligation to present and future system designers to make the inner operating system as lucid as possible so as to reveal the basic system issues.
 4.
-John Hasler has suggested an interesting explanation for the fact that duplica-
-tion of effort doesn’t seem to be a net drag on open-source development. He
+John Hasler has suggested an interesting explanation for the fact that duplication of effort doesn’t seem to be a net drag on open-source development. He
 proposes what I’ll dub ‘‘Hasler’s Law’’: the costs of duplicated work tend to
-scale sub-quadratically with team size—that is, more slowly than the plan-
-ning and management overhead that would be needed to eliminate them.
+scale sub-quadratically with team size—that is, more slowly than the planning and management overhead that would be needed to eliminate them.
 This claim actually does not contradict Brooks’s Law. It may be the case that
 total complexity overhead and vulnerability to bugs scales with the square of
 team size, but that the costs from duplicated work are nevertheless a special
 case that scales more slowly. It’s not hard to develop plausible reasons for
-this, starting with the undoubted fact that it is much easier to agree on func-
-tional boundaries between different developers’ code that will prevent dupli-
-cation of effort than it is to prevent the kinds of unplanned bad interactions
+this, starting with the undoubted fact that it is much easier to agree on functional boundaries between different developers’ code that will prevent duplication of effort than it is to prevent the kinds of unplanned bad interactions
 across the whole system that underly most bugs.
 The combination of Linus’s Law and Hasler’s Law suggests that there are
 actually three critical size regimes in software projects. On small projects (I
 would say one to at most three developers) no management structure more
-elaborate than picking a lead programmer is needed. And there is some inter-
-mediate range above that in which the cost of traditional management is rela-
-tively low, so its beneﬁts from avoiding duplication of effort, bug-tracking,
+elaborate than picking a lead programmer is needed. And there is some intermediate range above that in which the cost of traditional management is relatively low, so its beneﬁts from avoiding duplication of effort, bug-tracking,
 and pushing to see that details are not overlooked actually net out positive.
-Above that, however, the combination of Linus’s Law and Hasler’s Law sug-
-gests there is a large-project range in which the costs and problems of tradi-
-tional management rise much faster than the expected cost from duplication
+Above that, however, the combination of Linus’s Law and Hasler’s Law suggests there is a large-project range in which the costs and problems of traditional management rise much faster than the expected cost from duplication
 of effort. Not the least of these costs is a structural inability to harness the
 many-eyeballs effect, which (as we’ve seen) seems to do a much better job
 than traditional management at making sure bugs and details are not
-220
-
 
 overlooked. Thus, in the large-project case, the combination of these laws
 effectively drives the net payoff of traditional management to zero.
 5.
-The split between Linux’s experimental and stable versions has another func-
-tion related to, but distinct from, hedging risk. The split attacks another
+The split between Linux’s experimental and stable versions has another function related to, but distinct from, hedging risk. The split attacks another
 problem: the deadliness of deadlines. When programmers are held both to an
-immutable feature list and a ﬁxed drop-dead date, quality goes out the win-
-dow and there is likely a colossal mess in the making. I am indebted to Marco
+immutable feature list and a ﬁxed drop-dead date, quality goes out the window and there is likely a colossal mess in the making. I am indebted to Marco
 Iansiti and Alan MacCormack of the Harvard Business School for showing
 me me evidence that relaxing either one of these constraints can make
 scheduling workable.
 One way to do this is to ﬁx the deadline but leave the feature list ﬂexible,
 allowing features to drop off if not completed by deadline. This is essentially
-the strategy of the “stable” kernel branch; Alan Cox (the stable-kernel main-
-tainer) puts out releases at fairly regular intervals, but makes no guarantees
+the strategy of the “stable” kernel branch; Alan Cox (the stable-kernel maintainer) puts out releases at fairly regular intervals, but makes no guarantees
 about when particular bugs will be ﬁxed or what features will be back-ported
 from the experimental branch.
 The other way to do this is to set a desired feature list and deliver only when
 it is done. This is essentially the strategy of the “experimental” kernel branch.
 De Marco and Lister cited research showing that this scheduling policy
 (“wake me up when it’s done”) produces not only the highest quality but, on
-average, shorter delivery times than either “realistic” or “aggressive” schedul-
-ing.
+average, shorter delivery times than either “realistic” or “aggressive” scheduling.
 I have come to suspect (as of early 2000) that in earlier versions of this essay I
 severely underestimated the importance of the “wake me up when it’s done”
 anti-deadline policy to the open-source community’s productivity and quality.
 General experience with the rushed GNOME 1.0 release in 1999 suggests
-that pressure for a premature release can neutralize many of the quality bene-
-ﬁts open source normally confers.
+that pressure for a premature release can neutralize many of the quality beneﬁts open source normally confers.
 It may well turn out to be that the process transparency of open source is one
 of three co-equal drivers of its quality, along with “wake me up when it’s
 done” scheduling and developer self-selection.
 6.
-It’s tempting, and not entirely inaccurate, to see the core-plus-halo organiza-
-tion characteristic of open-source projects as an Internet-enabled spin on
-Brooks’s own recommendation for solving the N-squared complexity prob-
-lem, the “surgical-team” organization—but the differences are signiﬁcant.
-The constellation of specialist roles such as “code librarian” that Brooks envi-
-sioned around the team leader doesn’t really exist; those roles are executed
+It’s tempting, and not entirely inaccurate, to see the core-plus-halo organization characteristic of open-source projects as an Internet-enabled spin on
+Brooks’s own recommendation for solving the N-squared complexity problem, the “surgical-team” organization—but the differences are signiﬁcant.
+The constellation of specialist roles such as “code librarian” that Brooks envisioned around the team leader doesn’t really exist; those roles are executed
 instead by generalists aided by toolsets quite a bit more powerful than those
 of Brooks’s day. Also, the open-source culture leans heavily on strong Unix
 traditions of modularity, APIs, and information hiding—none of which were
 elements of Brooks’s prescription.
 7.
 The respondent who pointed out to me the effect of widely varying trace path
-lengths on the difﬁculty of characterizing a bug speculated that trace-path dif-
-ﬁculty for multiple symptoms of the same bug varies “exponentially” (which
+lengths on the difﬁculty of characterizing a bug speculated that trace-path difﬁculty for multiple symptoms of the same bug varies “exponentially” (which
 I take to mean on a Gaussian or Poisson distribution, and agree seems very
 plausible). If it is experimentally possible to get a handle on the shape of this
 distribution, that would be extremely valuable data. Large departures from a
 Notes, Bibliography, and Acknowledgments
-221
-
 
 The Cathedral and the Bazaar
 ﬂat equal-probability distribution of trace difﬁculty would suggest that even
@@ -7840,31 +6434,25 @@ style is whether the bazaar style is capable of supporting truly innovative
 work. Some claim that, lacking strong leadership, the bazaar can only handle
 the cloning and improvement of ideas already present at the engineering
 state-of-the-art, but is unable to push the state-of-the-art. This argument was
-perhaps 
-most 
-infamously 
-made 
-by 
-the 
-Halloween 
+perhaps
+most
+infamously
+made
+by
+the
+Halloween
 Documents,
 http://www.opensource.org/halloween/, two embarrassing internal Microsoft
-memoranda written about the open-source phenomenon. The authors com-
-pared Linux’s development of a Unix-like operating system to ‘‘chasing tail-
-lights’’, and opined ‘‘(once a project has achieved ’parity’ with the state-of-
-the-art), the level of management necessary to push towards new frontiers
+memoranda written about the open-source phenomenon. The authors compared Linux’s development of a Unix-like operating system to ‘‘chasing taillights’’, and opined ‘‘(once a project has achieved ’parity’ with the state-ofthe-art), the level of management necessary to push towards new frontiers
 becomes massive’’.
 There are serious errors of fact implied in this argument. One is exposed
 when the Halloween authors themseselves later observe that ‘‘Often [ . . . ]
 new research ideas are ﬁrst implemented and available on Linux before they
 are available/incorporated into other platforms.’’
-If we read ‘‘open source’’ for ‘‘Linux’’, we see that this is far from a new phe-
-nomenon. Historically, the open-source community did not invent Emacs or
-the World Wide Web or the Internet itself by chasing taillights or being mas-
-sively managed—and in the present, there is so much innovative work going
+If we read ‘‘open source’’ for ‘‘Linux’’, we see that this is far from a new phenomenon. Historically, the open-source community did not invent Emacs or
+the World Wide Web or the Internet itself by chasing taillights or being massively managed—and in the present, there is so much innovative work going
 on in open source that one is spoiled for choice. The GNOME project (to
-pick one of many) is pushing the state of the art in GUIs and object technol-
-ogy hard enough to have attracted considerable notice in the computer trade
+pick one of many) is pushing the state of the art in GUIs and object technology hard enough to have attracted considerable notice in the computer trade
 press well outside the Linux community. Other examples are legion, as a visit
 to Freshmeat (http://freshmeat.net/) on any given day will quickly prove.
 But there is a more fundamental error in the implicit assumption that the
@@ -7876,16 +6464,13 @@ committees of people with a survival stake in some status quo ante. Insight
 comes from individuals. The most their surrounding social machinery can
 ever hope to do is to be responsive to breakthrough insights—to nourish and
 reward and rigorously test them instead of squashing them.
-Some will characterize this as a romantic view, a reversion to outmoded lone-
-inventor stereotypes. Not so; I am not asserting that groups are incapable of
+Some will characterize this as a romantic view, a reversion to outmoded loneinventor stereotypes. Not so; I am not asserting that groups are incapable of
 developing breakthrough insights once they have been hatched; indeed, we
 learn from the peer-review process that such development groups are essential
 to producing a high-quality result. Rather I am pointing out that every such
 group development starts from—is necessarily sparked by—one good idea in
 one person’s head. Cathedrals and bazaars and other social structures can
 catch that lightning and reﬁne it, but they cannot make it on demand.
-222
-
 
 Therefore the root problem of innovation (in software, or anywhere else) is
 indeed how not to squash it—but, even more fundamentally, it is how to
@@ -7893,14 +6478,11 @@ grow lots of people who can have insights in the ﬁrst place.
 To suppose that cathedral-style development could manage this trick but the
 low entry barriers and process ﬂuidity of the bazaar cannot would be absurd.
 If what it takes is one person with one good idea, then a social milieu in
-which one person can rapidly attract the cooperation of hundreds or thou-
-sands of others with that good idea is going inevitably to out-innovate any in
+which one person can rapidly attract the cooperation of hundreds or thousands of others with that good idea is going inevitably to out-innovate any in
 which the person has to do a political sales job to a hierarchy before he can
 work on his idea without risk of getting ﬁred.
 And, indeed, if we look at the history of software innovation by organizations
-using the cathedral model, we quickly ﬁnd it is rather rare. Large corpora-
-tions rely on university research for new ideas (thus the Halloween Docu-
-ments authors’ unease about Linux’s facility at coopting that research more
+using the cathedral model, we quickly ﬁnd it is rather rare. Large corporations rely on university research for new ideas (thus the Halloween Documents authors’ unease about Linux’s facility at coopting that research more
 rapidly). Or they buy out small companies built around some innovator’s
 brain. In neither case is the innovation native to the cathedral culture; indeed,
 many innovations so imported end up being quietly suffocated under the
@@ -7908,16 +6490,14 @@ many innovations so imported end up being quietly suffocated under the
 That, however, is a negative point. The reader would be better served by a
 positive one. I suggest the following:
 •
-Pick a criterion for originality that you believe you can apply consis-
-tently. If your deﬁnition is ‘‘I know it when I see it’’, that’s not a problem
+Pick a criterion for originality that you believe you can apply consistently. If your deﬁnition is ‘‘I know it when I see it’’, that’s not a problem
 for purposes of this test.
 •
 Pick any closed-source operating system competing with Linux, and a
 best source for accounts of current development work on it.
 •
 Watch that source and Freshmeat for one month. Every day, count the
-number of release announcements on Freshmeat that you consider ‘orig-
-inal’ work. Apply the same deﬁnition of ‘original’ to announcements for
+number of release announcements on Freshmeat that you consider ‘original’ work. Apply the same deﬁnition of ‘original’ to announcements for
 that other OS and count them.
 •
 Thirty days later, total up both ﬁgures.
@@ -7927,35 +6507,29 @@ day for Freshmeat, but I will be astonished if any reader reports as many as 3
 likely innovations a month in any closed-source channel.
 9.
 We now have history on a project that, in several ways, may provide a more
-indicative 
-test 
-of 
-the 
-bazaar 
-premise 
-than 
-fetchmail; 
+indicative
+test
+of
+the
+bazaar
+premise
+than
+fetchmail;
 EGCS,
 http://egcs.cygnus.com/, the Experimental GNU Compiler System.
 This project was announced in mid-August of 1997 as a conscious attempt to
 apply the ideas in the early public versions of The Cathedral and the Bazaar.
 The project founders felt that the development of GCC, the Gnu C Compiler,
-had been stagnating. For about 20 months afterwards, GCC and EGCS con-
-tinued as parallel products—both drawing from the same Internet developer
+had been stagnating. For about 20 months afterwards, GCC and EGCS continued as parallel products—both drawing from the same Internet developer
 population, both starting from the same GCC source base, both using pretty
-much the same Unix toolsets and development environment. The projects dif-
-fered only in that EGCS consciously tried to apply the bazaar tactics I have
+much the same Unix toolsets and development environment. The projects differed only in that EGCS consciously tried to apply the bazaar tactics I have
 Notes, Bibliography, and Acknowledgments
-223
-
 
 The Cathedral and the Bazaar
 previously described, while GCC retained a more cathedral-like organization
 with a closed developer group and infrequent releases.
 This was about as close to a controlled experiment as one could ask for, and
-the results were dramatic. Within months, the EGCS versions had pulled sub-
-stantially ahead in features; better optimization, better support for FOR-
-TRAN and C++. Many people found the EGCS development snapshots to be
+the results were dramatic. Within months, the EGCS versions had pulled substantially ahead in features; better optimization, better support for FORTRAN and C++. Many people found the EGCS development snapshots to be
 more reliable than the most recent stable version of GCC, and major Linux
 distributions began to switch to EGCS.
 In April of 1999, the Free Software Foundation (the ofﬁcial sponsors of GCC)
@@ -7963,63 +6537,48 @@ dissolved the original GCC development group and ofﬁcially handed control
 of the project to the the EGCS steering team.
 10.
 Of course, Kropotkin’s critique and Linus’s Law raise some wider issues
-about the cybernetics of social organizations. Another folk theorem of soft-
-ware engineering suggests one of them; Conway’s Law — commonly stated as
-‘‘If you have four groups working on a compiler, you’ll get a 4-pass com-
-piler.’’ The original statement was more general: ‘‘Organizations which design
-systems are constrained to produce designs which are copies of the communi-
-cation structures of these organizations.’’ We might put it more succinctly as
+about the cybernetics of social organizations. Another folk theorem of software engineering suggests one of them; Conway’s Law — commonly stated as
+‘‘If you have four groups working on a compiler, you’ll get a 4-pass compiler.’’ The original statement was more general: ‘‘Organizations which design
+systems are constrained to produce designs which are copies of the communication structures of these organizations.’’ We might put it more succinctly as
 ‘‘The means determine the ends’’, or even ‘‘Process becomes product’’.
-It is accordingly worth noting that in the open-source community organiza-
-tional form and function match on many levels. The network is everything
+It is accordingly worth noting that in the open-source community organizational form and function match on many levels. The network is everything
 and everywhere: not just the Internet, but the people doing the work form a
 distributed, loosely coupled, peer-to-peer network that provides multiple
 redundancy and degrades very gracefully. In both networks, each node is
 important only to the extent that other nodes want to cooperate with it.
 The peer-to-peer part is essential to the community’s astonishing productivity.
-The point Kropotkin was trying to make about power relationships is devel-
-oped further by the ‘SNAFU Principle’: ‘‘True communication is possible only
+The point Kropotkin was trying to make about power relationships is developed further by the ‘SNAFU Principle’: ‘‘True communication is possible only
 between equals, because inferiors are more consistently rewarded for telling
 their superiors pleasant lies than for telling the truth.’’ Creative teamwork
 utterly depends on true communication and is thus very seriously hindered by
 the presence of power relationships. The open-source community, effectively
 free of such power relationships, is teaching us by contrast how dreadfully
 much they cost in bugs, in lowered productivity, and in lost opportunities.
-Further, the SNAFU principle predicts in authoritarian organizations a pro-
-gressive disconnect between decision-makers and reality, as more and more of
+Further, the SNAFU principle predicts in authoritarian organizations a progressive disconnect between decision-makers and reality, as more and more of
 the input to those who decide tends to become pleasant lies. The way this
 plays out in conventional software development is easy to see; there are
 strong incentives for the inferiors to hide, ignore, and minimize problems.
 When this process becomes product, software is a disaster.
-224
-
 
 Bibliography
-I quoted several bits from Frederick P. Brooks’s classic The Mythical Man-
-Month because, in many respects, his insights have yet to be improved
-upon. I heartily recommend the 25th Anniversary edition from Addison-
-Wesley, which adds his ‘‘No Silver Bullet’’ paper (1986).
-The new edition is wrapped up by an invaluable 20-years-later retrospec-
-tive in which Brooks forthrightly admits to the few judgements in the
-original text that have not stood the test of time. I ﬁrst read the retrospec-
-tive after the ﬁrst public version of this essay was substantially complete,
+I quoted several bits from Frederick P. Brooks’s classic The Mythical ManMonth because, in many respects, his insights have yet to be improved
+upon. I heartily recommend the 25th Anniversary edition from AddisonWesley, which adds his ‘‘No Silver Bullet’’ paper (1986).
+The new edition is wrapped up by an invaluable 20-years-later retrospective in which Brooks forthrightly admits to the few judgements in the
+original text that have not stood the test of time. I ﬁrst read the retrospective after the ﬁrst public version of this essay was substantially complete,
 and was surprised to discover that Brooks attributed bazaar-like practices
-to Microsoft! (In fact, however, this attribution turned out to be mis-
-taken. 
-In 
-1998 
-we 
-learned 
-from 
-the 
-Halloween 
+to Microsoft! (In fact, however, this attribution turned out to be mistaken.
+In
+
+we
+learned
+from
+the
+Halloween
 Documents
-(http://www.opensource.org/halloween/) that Microsoft’s internal devel-
-oper community is heavily balkanized, with the kind of general source
+(http://www.opensource.org/halloween/) that Microsoft’s internal developer community is heavily balkanized, with the kind of general source
 access needed to support a bazaar not even truly possible.)
 Gerald M. Weinberg’s The Psychology Of Computer Programming (New
-York: Van Nostrand Reinhold, 1971) introduced the rather unfortu-
-nately-labeled concept of ‘‘egoless programming’’. While he was nowhere
+York: Van Nostrand Reinhold, 1971) introduced the rather unfortunately-labeled concept of ‘‘egoless programming’’. While he was nowhere
 near the ﬁrst person to realize the futility of the ‘‘principle of command’’,
 he was probably the ﬁrst to recognize and argue the point in particular
 connection with software development.
@@ -8035,32 +6594,28 @@ De Marco’s and Lister’s Peopleware: Productive Projects and Teams
 (New York: Dorset House, 1987) is an underappreciated gem that I was
 delighted to see Fred Brooks cite in his retrospective. While little of what
 the authors have to say is directly applicable to the Linux or open-source
-communities, the authors’ insight into the conditions necessary for cre-
-ative work is acute and worthwhile for anyone attempting to import
+communities, the authors’ insight into the conditions necessary for creative work is acute and worthwhile for anyone attempting to import
 some of the bazaar model’s virtues into a commercial context.
 Finally, I must admit that I very nearly called this essay ‘‘The Cathedral
 and the Agora’’, the latter term being the Greek for an open market or
 Notes, Bibliography, and Acknowledgments
-225
-
 
 The Cathedral and the Bazaar
 public meeting place. The seminal ‘‘agoric systems’’ papers by Mark
-Miller and Eric Drexler, by describing the emergent properties of market-
-like computational ecologies, helped prepare me to think clearly about
+Miller and Eric Drexler, by describing the emergent properties of marketlike computational ecologies, helped prepare me to think clearly about
 analogous phenomena in the open-source culture when Linux rubbed my
 nose in them ﬁve years later. These papers are available on the Web at
 http://www.agorics.com/agorpapers.html".
 Acknowledgments
 This essay was improved by conversations with a large number of people
-who 
-helped 
-debug 
-it. 
-Particular 
-thanks 
-to 
-Jeff 
+who
+helped
+debug
+it.
+Particular
+thanks
+to
+Jeff
 Dutky
 (dutky@wam.umd.edu), who suggested the ‘‘debugging is parallelizable’’
 formulation, and helped develop the analysis that proceeds from it. Also
@@ -8069,28 +6624,21 @@ emulate Weinberg by quoting Kropotkin. Perceptive criticisms also came
 from Joan Eslinger (wombat@kilimanjaro.engr.sgi.com) and Marty Franz
 (marty@net-link.net) of the General Technics list. Glen Vandenburg
 (glv@vanderburg.org) pointeed out the importance of self-selection in
-contributor populations and suggested the fruitful idea that much devel-
-opment rectiﬁes ‘bugs of omission’; Daniel Upper (upper@peak.org) sug-
-gested the natural analogies for this. I’m grateful to the members of
+contributor populations and suggested the fruitful idea that much development rectiﬁes ‘bugs of omission’; Daniel Upper (upper@peak.org) suggested the natural analogies for this. I’m grateful to the members of
 PLUG, the Philadelphia Linux User’s Group, for providing the ﬁrst test
 audience for the ﬁrst public version of this essay. Paula Matuszek
-(matusp00@mh.us.sbphrd.com) enlightened me about the practice of soft-
-ware management. Phil Hudson (phil.hudson@iname.com) reminded me
+(matusp00@mh.us.sbphrd.com) enlightened me about the practice of software management. Phil Hudson (phil.hudson@iname.com) reminded me
 that the social organization of the hacker culture mirrors the organization
 of its software, and vice-versa. John Buck (johnbuck@sea.ece.umassd.edu)
 pointed out that MATLAB makes an instructive parallel to Emacs. Russell
 Johnston (russjj@mail.com) brought me to consciousness about some of
 the mechanisms discussed in ‘‘How Many Eyeballs Tame Complexity’’.
-Finally, Linus Torvalds’s comments were helpful and his early endorse-
-ment very encouraging.
-226
-
+Finally, Linus Torvalds’s comments were helpful and his early endorsement very encouraging.
 
 Homesteading the Noosphere
 Notes
 1.
-The term ‘noosphere’ is an obscure term of art in philosophy. It is pro-
-nounced KNOW-uh-sfeer (two o-sounds, one long and stressed, one short
+The term ‘noosphere’ is an obscure term of art in philosophy. It is pronounced KNOW-uh-sfeer (two o-sounds, one long and stressed, one short
 and unstressed tending towards schwa). If one is being excruciatingly correct
 about one’s orthography, the term is properly spelled with a diaeresis over the
 second ‘o’ to mark it as a separate vowel.
@@ -8098,24 +6646,18 @@ In more detail; this term for ‘‘the sphere of human thought’’ derives fr
 Greek ‘noos’ meaning ‘mind’, ‘intelligence,’ or ’breath’. It was invented by E.
 LeRoy in Les origines humaines et l’evolution de l’intelligence (Paris, 1928). It
 was popularized ﬁrst by the Russian biologist and pioneering ecologist
-Vladimir Ivanovich Vernadsky, (1863–1945), then by the Jesuit paleon-
-tologist/philosopher Pierre Teilhard de Chardin (1881–1955). It is with Teil-
-hard de Chardin’s theory of future evolution to a form of pure mind
-culminating in union with the Godhead that the term is now primarily associ-
-ated.
+Vladimir Ivanovich Vernadsky, (1863–1945), then by the Jesuit paleontologist/philosopher Pierre Teilhard de Chardin (1881–1955). It is with Teilhard de Chardin’s theory of future evolution to a form of pure mind
+culminating in union with the Godhead that the term is now primarily associated.
 2.
-David Friedman, one of the most lucid and accessible thinkers in contempo-
-rary economics, has written an excellent outline of the history and logic of
+David Friedman, one of the most lucid and accessible thinkers in contemporary economics, has written an excellent outline of the history and logic of
 intellectual-property law (http://www.best.com/ ˜ddfr/Academic/Course_Pages
-/L_and_E_LS_98/Why_Is_Law/Why_Is_Law_Chapter_11.html). 
-I 
-recom-
-mend it as a starting point to anyone interested in these issues.
+/L_and_E_LS_98/Why_Is_Law/Why_Is_Law_Chapter_11.html).
+I
+recommend it as a starting point to anyone interested in these issues.
 3.
 One interesting difference between the Linux and BSD worlds is that the
 Linux kernel (and associated OS core utilities) have never forked, but BSD’s
-has, at least three times. What makes this interesting is that the social struc-
-ture of the BSD groups is centralized in a way intended to deﬁne clear lines of
+has, at least three times. What makes this interesting is that the social structure of the BSD groups is centralized in a way intended to deﬁne clear lines of
 authority and to prevent forking, while the decentralized and amorphous
 Linux community takes no such measures. It appears that the projects that
 open up development the most actually have the least tendency to fork!
@@ -8132,17 +6674,12 @@ groups to see some progress made toward their goals.
 the strongest competition, and generally the best and cheapest
 products. Because of this, it’s very much in the best interests of
 established companies to make market entry more difﬁcult—for
-example, by convincing governments to require elaborate RFI test-
-ing on computers, or by creating ‘consensus’ standards that are so
+example, by convincing governments to require elaborate RFI testing on computers, or by creating ‘consensus’ standards that are so
 complex that they cannot be implemented effectively from scratch
 Notes, Bibliography, and Acknowledgments
-227
-
 
 The Cathedral and the Bazaar
-without large resources. The markets with the strongest entry barri-
-ers are the ones that come under the strongest attack from revolu-
-tionaries, e.g., the Internet and the Justice Dept. vs. the Bell
+without large resources. The markets with the strongest entry barriers are the ones that come under the strongest attack from revolutionaries, e.g., the Internet and the Justice Dept. vs. the Bell
 System.)
 An open process with low entry barriers encourages participation
 rather than secession, because one can get results without the high
@@ -8159,23 +6696,17 @@ There are some subtleties about rogue patches. One can divide them into
 ‘friendly’ and ‘unfriendly’ types. A ‘friendly’ patch is designed to be merged
 back into the project’s main-line sources under the maintainer’s control
 (whether or not that merge actually happens); an ‘unfriendly’ one is intended
-to yank the project in a direction the maintainer doesn’t approve. Some pro-
-jects (notably the Linux kernel itself) are pretty relaxed about friendly patches
+to yank the project in a direction the maintainer doesn’t approve. Some projects (notably the Linux kernel itself) are pretty relaxed about friendly patches
 and even encourage independent distribution of them as part of their beta-test
-phase. An unfriendly patch, on the other hand, represents a decision to com-
-pete with the original and is a serious matter. Maintaining a whole raft of
+phase. An unfriendly patch, on the other hand, represents a decision to compete with the original and is a serious matter. Maintaining a whole raft of
 unfriendly patches tends to lead to forking.
 5.
 I am indebted to Michael Funk (mwfunk@uncc.campus.mci.net) for pointing
 out how instructive a contrast with hackers the pirate culture is. Linus Walleij
 has posted an analysis of their cultural dynamics that differs from mine
-(describing them as a scarcity culture) in A Comment on ‘Warez D00dz’ Cul-
-ture (http://www.df.lth.se/ ˜triad/papers/Raymond_D00dz.html").
-The contrast may not last. Former cracker Andrej Brandt (andy@pil-
-grim.cs.net.pl) reports that he believes the cracker/warez d00dz culture is now
-withering away, with its brightest people and leaders assimilating to the open-
-source world. Independent evidence for this view may be provided by a prece-
-dent-breaking July 1999 action of the cracker group calling itself “Cult of the
+(describing them as a scarcity culture) in A Comment on ‘Warez D00dz’ Culture (http://www.df.lth.se/ ˜triad/papers/Raymond_D00dz.html").
+The contrast may not last. Former cracker Andrej Brandt (andy@pilgrim.cs.net.pl) reports that he believes the cracker/warez d00dz culture is now
+withering away, with its brightest people and leaders assimilating to the opensource world. Independent evidence for this view may be provided by a precedent-breaking July 1999 action of the cracker group calling itself “Cult of the
 Dead Cow”. They have released their “Back Oriﬁce 2000” for breaking
 Microsoft Windows security tools under the GPL.
 6.
@@ -8190,8 +6721,6 @@ traits than to fake them. (‘‘Honesty is the best policy.’’)
 Evolutionary psychologists have suggested that this explains behavior like
 barroom ﬁghts. Among younger adult male humans, having a reputation for
 toughness is both socially and (even in today’s feminist-inﬂuenced climate)
-228
-
 
 sexually useful. Faking toughness, however, is extremely risky; the negative
 result of being found out leaves one in a worse position than never having
@@ -8212,20 +6741,16 @@ very similar to such showy, wasteful ﬁnery—it’s expense without obvious
 return, and makes the giver at least theoretically very sexy.
 7.
 A concise summary of Maslow’s hierarchy and related theories is available on
-the 
-Web 
+the
+Web
 at
 http://www.valdosta.peachnet.edu/ ˜whuitt/psy702/regsys/
 maslow.html".
 8.
-However, demanding humility from leaders may be a more general character-
-istic of gift or abundance cultures. David Christie (dc@netscape.com) reports
+However, demanding humility from leaders may be a more general characteristic of gift or abundance cultures. David Christie (dc@netscape.com) reports
 on a trip through the outer islands of Fiji:
-In Fijian village chiefs, we observed the same sort of self-deprecat-
-ing, low-key leadership style that you attribute to open source pro-
-ject leaders. [ . . . ]  Though accorded great respect and of course all
-of whatever actual power there is in Fiji, the chiefs we met demon-
-strated genuine humility and often a saint-like acceptance of their
+In Fijian village chiefs, we observed the same sort of self-deprecating, low-key leadership style that you attribute to open source project leaders. [ . . . ]  Though accorded great respect and of course all
+of whatever actual power there is in Fiji, the chiefs we met demonstrated genuine humility and often a saint-like acceptance of their
 duty. This is particularly interesting given that being chief is a
 hereditary role, not an elected position or a popularity contest.
 Somehow they are trained to it by the culture itself, although they
@@ -8235,11 +6760,8 @@ the difﬁculty of compelling cooperation: a chief has ‘‘no big carrot
 or big stick’’.
 9.
 As a matter of observable fact, people who found successful projects gather
-more prestige than people who do arguably equal amounts of work debug-
-ging and assisting with successful projects. An earlier version of this essay
-asked ‘‘Is this a rational valuation of comparative effort, or is it a second-
-order effect of the unconscious territorial model we have adduced here?’’ Sev-
-eral respondents suggested persuasive and essentially equivalent theories. The
+more prestige than people who do arguably equal amounts of work debugging and assisting with successful projects. An earlier version of this essay
+asked ‘‘Is this a rational valuation of comparative effort, or is it a secondorder effect of the unconscious territorial model we have adduced here?’’ Several respondents suggested persuasive and essentially equivalent theories. The
 following analysis by Ryan Waldron (rew@erebor.com) puts the case well:
 In the context of the Lockean land theory, one who establishes a
 new and successful project has essentially discovered or opened up
@@ -8247,21 +6769,17 @@ new territory on which others can homestead. For most successful
 projects, there is a pattern of declining returns, so that after a
 while, the credit for contributions to a project has become so
 Notes, Bibliography, and Acknowledgments
-229
-
 
 The Cathedral and the Bazaar
 diffuse that it is hard for signiﬁcant reputation to accrete to a late
 participant, regardless of the quality of his work.
-For instance, how good a job would I have to do making modiﬁca-
-tions to the Perl code to have even a fraction of the recognition for
+For instance, how good a job would I have to do making modiﬁcations to the Perl code to have even a fraction of the recognition for
 my participation that Larry, Tom, Randall, and others have
 achieved?
 However, if a new project is founded [by someone else] tomorrow,
 and I am an early and frequent participant in it, my ability to share
 in the respect generated by such a successful project is greatly
-enhanced by my early participation therein (assuming similar qual-
-ity of contributions). I reckon it to be similar to those who invest
+enhanced by my early participation therein (assuming similar quality of contributions). I reckon it to be similar to those who invest
 in Microsoft stock early and those who invest in it later. Everyone
 may proﬁt, but early participants proﬁt more. Therefore, at some
 point I will be more interested in a new and successful IPO than I
@@ -8269,29 +6787,25 @@ will be in participating in the continual increase of an existing body
 of corporate stock.
 Ryan Waldron’s analogy can be extended. The project founder has to do a
 missionary sell of a new idea that may or may not be acceptable or of use to
-others. Thus the founder incurs something analogous to an IPO risk (of possi-
-ble damage to their reputation), more so than others who assist with a project
+others. Thus the founder incurs something analogous to an IPO risk (of possible damage to their reputation), more so than others who assist with a project
 that has already garnered some acceptance by their peers. The founder’s
 reward is consistent despite the fact that the assistants may be putting in
 more work in real terms. This is easily seen as analogous to the relationship
 between risk and rewards in an exchange economy.
 Other respondents have observed that our nervous system is tuned to perceive
-differences, not steady state. The revolutionary change evidenced by the cre-
-ation of a new project is therefore much more noticeable than the cumulative
+differences, not steady state. The revolutionary change evidenced by the creation of a new project is therefore much more noticeable than the cumulative
 effect of constant incremental improvement. Thus Linus is revered as the
 father of Linux, although the net effect of improvements by thousands of
 other contributors have done more to contribute to the success of the OS
 than one man’s work ever could.
 10.
 The phrase ‘‘de-commoditizing’’ is a reference to the Halloween Documents
-(http://www.opensource.org/halloween/) in which Microsoft used ‘‘de-com-
-moditize’’ quite frankly to refer to their most effective long-term strategy for
+(http://www.opensource.org/halloween/) in which Microsoft used ‘‘de-commoditize’’ quite frankly to refer to their most effective long-term strategy for
 maintaining an exploitative monopoly lock on customers.
 11.
 A respondent points out that the values surrounding the ‘‘You’re not a hacker
 until other hackers call you a hacker’’ norm parallel ideals professed (if not
-always achieved) by other meritocratic brotherhoods within social elites sufﬁ-
-ciently wealthy to escape the surrounding scarcity economy. In the medieval
+always achieved) by other meritocratic brotherhoods within social elites sufﬁciently wealthy to escape the surrounding scarcity economy. In the medieval
 European ideal of knighthood, for example, the aspiring knight was expected
 to ﬁght for the right, to seek honor rather than gain, to take the side of the
 weak and oppressed, and to constantly seek challenges that tested his prowess
@@ -8300,20 +6814,15 @@ regarded by others) as among the best of the best—but only after his skill
 and virtue had been admitted and ratiﬁed by other knights. In the knightly
 ideal extolled by the Arthurian tales and Chansons de Geste we see a mix of
 idealism, continual self-challenge, and status-seeking similar to that which
-230
-
 
 animates hackers today. It seems likely that similar values and behavioral
 norms should evolve around any skill that both requires great dedication and
 confers a kind of power.
 12.
-The Free Software Foundation’s main website (http://www.gnu.org/philoso-
-phy/motivation.html") carries an article that summarizes the results of many
+The Free Software Foundation’s main website (http://www.gnu.org/philosophy/motivation.html") carries an article that summarizes the results of many
 of these studies. The quotes in this essay are excerpted from there.
 Bibliography
-Miller, William Ian. Bloodtaking and Peacemaking: Feud, Law, and Soci-
-ety in Saga Iceland. Chicago: University of Chicago Press, 1990. A fasci-
-nating study of Icelandic folkmoot law, which both illuminates the
+Miller, William Ian. Bloodtaking and Peacemaking: Feud, Law, and Society in Saga Iceland. Chicago: University of Chicago Press, 1990. A fascinating study of Icelandic folkmoot law, which both illuminates the
 ancestry of the Lockean theory of property and describes the later stages
 of a historical process by which custom passed into customary law and
 thence to written law.
@@ -8323,10 +6832,8 @@ much enlightening silliness to be found in Discordianism. Amidst it, the
 ‘SNAFU principle’ provides a rather trenchant analysis of why command
 hierarchies don’t scale well. There’s a browseable HTML version,
 http://www.cs.cmu.edu/ ˜tilt/principia/.
-Barkow, J.L. Cosmides, and J. Tooby (Eds.). The Adapted Mind: Evolu-
-tionary Psychology and the Generation of Culture. New York: Oxford
-University Press, 1992. An excellent introduction to evolutionary psychol-
-ogy. Some of the papers bear directly on the three cultural types I discuss
+Barkow, J.L. Cosmides, and J. Tooby (Eds.). The Adapted Mind: Evolutionary Psychology and the Generation of Culture. New York: Oxford
+University Press, 1992. An excellent introduction to evolutionary psychology. Some of the papers bear directly on the three cultural types I discuss
 (command/exchange/gift), suggesting that these patterns are wired into
 the human psyche fairly deep.
 Goldhaber,
@@ -8345,29 +6852,24 @@ The
 book that will explain it really well remains to be written, probably not
 by me.
 Notes, Bibliography, and Acknowledgments
-231
-
 
 The Cathedral and the Bazaar
 Acknowledgments
 Robert Lanphier (robla@real.com) contributed much to the discussion of
 egoless behavior. Eric Kidd (eric.kidd@pobox.com) highlighted the role of
 valuing humility in preventing cults of personality. The section on global
-effects was inspired by comments from Daniel Burn (daniel@tsathog-
-gua.lab.usyd.edu.au). Mike Whitaker (mrw@entropic.co.uk) inspired the
-main 
-thread 
-in 
-the 
-section 
-on 
-acculturation. 
-Chris 
+effects was inspired by comments from Daniel Burn (daniel@tsathoggua.lab.usyd.edu.au). Mike Whitaker (mrw@entropic.co.uk) inspired the
+main
+thread
+in
+the
+section
+on
+acculturation.
+Chris
 Phoenix
 (cphoenix@best.com) pointed out the importance of the fact that hackers
-cannot gain reputation by doing other hackers down. A.J. Venter (JAVen-
-ter@africon.co.za) pointed out parallels with the medieval ideal of knight-
-hood. Ian Lance Taylor (ian@airs.com) sent careful criticisms of the
+cannot gain reputation by doing other hackers down. A.J. Venter (JAVenter@africon.co.za) pointed out parallels with the medieval ideal of knighthood. Ian Lance Taylor (ian@airs.com) sent careful criticisms of the
 reputation-game model, which motivated me to think through and
 explain my assumptions more clearly.
 The Magic Cauldron
@@ -8381,128 +6883,98 @@ The incentives discussed in 2 (and some more conventionally economic ones
 as well) imply that qualiﬁed people tend to seek projects that match their
 interests, as well as the projects seeking them. Accordingly, theory suggests
 (and experience tends to conﬁrm) that the most valuable (most qualiﬁed and
-motivated) people tend to discover the projects for which they ﬁt well rela-
-tively early in the projects’ life cycles, with a corresponding fall-off later on.
+motivated) people tend to discover the projects for which they ﬁt well relatively early in the projects’ life cycles, with a corresponding fall-off later on.
 Hard data are lacking, but on the basis of experience I strongly suspect the
-assimilation of talent over a growing project’s lifetime tends to follow a classi-
-cal logistic curve.
+assimilation of talent over a growing project’s lifetime tends to follow a classical logistic curve.
 2.
-Shawn Hargreaves has written a good analysis of the applicability of open-
-source 
-methods 
-to 
-games 
+Shawn Hargreaves has written a good analysis of the applicability of opensource
+methods
+to
+games
 in
-Playing 
-the 
-Open 
-Source 
+Playing
+the
+Open
+Source
 Game
 (http://www.talula.demon.co.uk/games.html").
 3.
 Note for accountants: the argument that service costs will eventually swamp
-a ﬁxed up-front price still works if we move from constant dollars to dis-
-counted present value, because future sale revenue discounts in parallel with
+a ﬁxed up-front price still works if we move from constant dollars to discounted present value, because future sale revenue discounts in parallel with
 future service costs.
 A similar but more sophisticated counter to the argument is to observe that,
 per-copy, service cost will go to zero when the buyer stops using the software;
 therefore you can still win, if the user stops before he/she has generated too
-232
-
 
 much service cost. This is basically just another form of the argument that
-factory pricing rewards the production of shelfware. Perhaps a more instruc-
-tive way to put it would be that the risk that your service costs will swamp
-the purchase revenue rises with the expected period of usefulness of the soft-
-ware. Thus, the factory model penalizes quality.
+factory pricing rewards the production of shelfware. Perhaps a more instructive way to put it would be that the risk that your service costs will swamp
+the purchase revenue rises with the expected period of usefulness of the software. Thus, the factory model penalizes quality.
 4.
 Wayne Gramlich (Wayne@Gramlich.Net) has proposed that the persistance
 of the factory model is partly due to antiquated accounting rules, formulated
-when machines and buildings were more important and people less so. Soft-
-ware company books show the computers, ofﬁce furniture, and buildings as
-assets and the programmers are expenses. Of course, in reality, the program-
-mers are the true assets and the computers, ofﬁce equipment, and buildings
-hardly matter at all. This perverse valuation is sustained by IRS and stock-
-market pressure for stable and uniform accounting rules that reduce the com-
-plexity of assigning a dollar ﬁgure to the company’s value. The resulting drag
+when machines and buildings were more important and people less so. Software company books show the computers, ofﬁce furniture, and buildings as
+assets and the programmers are expenses. Of course, in reality, the programmers are the true assets and the computers, ofﬁce equipment, and buildings
+hardly matter at all. This perverse valuation is sustained by IRS and stockmarket pressure for stable and uniform accounting rules that reduce the complexity of assigning a dollar ﬁgure to the company’s value. The resulting drag
 has prevented the rules from keeping up with reality.
 On this view, pinning a high price to the bits in the product (independent of
 future service value) is partly a sort of defense mechanism, a way of agreeing
 for all parties involved to pretend that the ontological ground hasn’t fallen
 out from under the standard accounting rules.
-(Gramlich also points out that these rules underpin the bizarre and often self-
-destructive acquisition sprees that many software companies tear off on after
+(Gramlich also points out that these rules underpin the bizarre and often selfdestructive acquisition sprees that many software companies tear off on after
 IPO: ‘‘Usually the software company issues some additional stock to build up
-a war chest. But they can’t spend any of this money to beef up their program-
-ming staff, because the accounting rules would show that as increased
-expenses. Instead, the newly public software company has to grow by acquir-
-ing other software companies, because the accounting rules let you treat the
+a war chest. But they can’t spend any of this money to beef up their programming staff, because the accounting rules would show that as increased
+expenses. Instead, the newly public software company has to grow by acquiring other software companies, because the accounting rules let you treat the
 acquisition as an investment.’’)
 5.
-For a paradigmatic example of forking following defection, consult the his-
-tory of OpenSSH. This project was belatedly forked from an early version of
+For a paradigmatic example of forking following defection, consult the history of OpenSSH. This project was belatedly forked from an early version of
 SSH (Secure Shell) after the latter went to a closed license.
 Bibliography
-The Cathedral and the Bazaar, http://www.tuxedo.org/ ˜esr/writings/cathe-
-dral-bazaar/
-Homesteading 
-the 
+The Cathedral and the Bazaar, http://www.tuxedo.org/ ˜esr/writings/cathedral-bazaar/
+Homesteading
+the
 Noosphere,
 http://www.tuxedo.org/ ˜esr/writings/
 homesteading/
 De Marco and Lister. Peopleware: Productive Projects and Teams. New
 York: Dorset House, 1987.
 Notes, Bibliography, and Acknowledgments
-233
-
 
 The Cathedral and the Bazaar
 Acknowledgments
 Several stimulating discussions with David D. Friedman helped me reﬁne
 the ‘inverse commons’ model of open-source cooperation. I am also
-indebted to Marshall van Alstyne for pointing out the conceptual impor-
-tance of rivalrous information goods. Ray Ontko of the Indiana Group
+indebted to Marshall van Alstyne for pointing out the conceptual importance of rivalrous information goods. Ray Ontko of the Indiana Group
 supplied helpful criticism. A good many people in audiences before whom
 I gave talks in the year leading up to June 1999 also helped; if you’re one
 of those, you know who you are.
 It’s yet another testimony to the open-source model that this essay was
-substantially improved by email feedback I received within days after ini-
-tial release. Lloyd Wood pointed out the importance of open-source soft-
-ware being ‘future-proof’. and Doug Dante reminded me of the ‘Free the
-Future’ business model. A question from Adam Moorhouse led to the dis-
-cussion of exclusion payoffs. Lionel Oliviera Gresse gave me a better
+substantially improved by email feedback I received within days after initial release. Lloyd Wood pointed out the importance of open-source software being ‘future-proof’. and Doug Dante reminded me of the ‘Free the
+Future’ business model. A question from Adam Moorhouse led to the discussion of exclusion payoffs. Lionel Oliviera Gresse gave me a better
 name for one of the business models. Stephen Turnbull slapped me silly
 about careless handling of free-rider effects. Anthony Bailey and Warren
-Young corrected some facts in the Doom case study. Eric W. Sink con-
-tributed the insight that the factory model rewards shelfware.
+Young corrected some facts in the Doom case study. Eric W. Sink contributed the insight that the factory model rewards shelfware.
 For Further Reading
 The beginnings of an academic analytical literature on open source have
 begun to appear. Related material on the Web can be found at the
 author’s
-web 
-page 
-(http://www.tuxedo.org/ ˜esr/writings/cathedral-
-bazaar).
+web
+page
+(http://www.tuxedo.org/ ˜esr/writings/cathedralbazaar).
 Ross Anderson. How to Cheat at the Lottery (or, Massively Parallel
 Requirements Engineering). In this insightful, lucid and entertaining
 paper, the author presents the results of an experiment in applying
 bazaar-style parallelism not to coding but to the requirements analysis
 and system design for a difﬁcult problem in computer security.
 Available as http://www.cl.cam.ac.uk/ ˜rja14/lottery/lottery.html.
-Davis Baird. “Scientiﬁc Instrument Making, Epistemology, and the Con-
-ﬂict between Gift and Commodity Economies.” In Journal of the Society
-for Philosophy & Technology, Volume 2, no. 3–4. This paper is interest-
-ing because, although it never refers to software or open source and is
+Davis Baird. “Scientiﬁc Instrument Making, Epistemology, and the Conﬂict between Gift and Commodity Economies.” In Journal of the Society
+for Philosophy & Technology, Volume 2, no. 3–4. This paper is interesting because, although it never refers to software or open source and is
 founded in earlier anthropological literature on gift cultures, it suggests
-234
 
-
-an analysis similar in many respects to that in Homesteading the Noo-
-sphere.
-Available 
-on 
-the 
-Web 
+an analysis similar in many respects to that in Homesteading the Noosphere.
+Available
+on
+the
+Web
 at
 http://scholar.lib.vt.edu/ejournals/SPT/
 v2_n3n4html/baird.html.
@@ -8529,17 +7001,14 @@ corollary to Faraday’s Law: “Wrap the Internet around every brain on the
 planet and spin the planet. Software ﬂows in the wires.”
 Available as http://old.law.columbia.edu/my_pubs/anarchism.html.
 Notes, Bibliography, and Acknowledgments
-235
-
 
 Index
 ✦✦✦
 A
 adverse possession, 77
-AIs (Artiﬁcial Intelligence Labora-
-tories), 4
+AIs (Artiﬁcial Intelligence Laboratories), 4
 Amabile, Theresa (psychologist),
-107
+
 Apache, 130
 Apple Computers, 10
 open sourcing Darwin, 136
@@ -8554,8 +7023,7 @@ bazaar development style, 19, 21,
 50, 54
 Linus’s Law and, 31
 vs. cathedral mode, 55
-Berkeley Systems Design, Incorpo-
-rated (BSDI), 16
+Berkeley Systems Design, Incorporated (BSDI), 16
 BIND, 181
 Brooks, Fred (author), 25, 32, 37,
 49, 170
@@ -8564,7 +7032,7 @@ predictions of, 170
 BSDI (Berkeley systems Design,
 Incorporated), 16
 ideology of hacker culture and,
-70
+
 bugs, ﬁxing bazaar style, 33–36
 C
 C language, 8
@@ -8579,7 +7047,7 @@ cathedral development style, 19,
 Linus’s Law and, 30
 vs. bazaar mode, 55
 Chester County InterLink (CCIL),
-22
+
 Cisco, 131
 Clarke, Arthur C., 115
 closed source
@@ -8587,12 +7055,9 @@ applications and, 162
 development problems of, 33
 GNU Emac editor and, 55
 Linux and, 54
-237
-
 
 The Cathedral and the Bazaar
-CMU (Carnegie-Mellon Univer-
-sity), 5
+CMU (Carnegie-Mellon University), 5
 code reuse, 24
 command hierarchy, 80
 Community Source licenses, 133
@@ -8601,9 +7066,8 @@ with collaborators, 34
 Cray, Seymour, 3
 D
 Debian Free Software Guidelines,
-71
-DEC (Digital Equipment Corpora-
-tion), 5
+
+DEC (Digital Equipment Corporation), 5
 Delphi effect, 31
 Digital Equipment Corporation
 (DEC), 5
@@ -8622,28 +7086,26 @@ deﬁnition of, 72
 license restrictions and, 133
 free software, 175
 Free Software Foundation (FSF),
-69
+
 HURD project, failure of, 14
 Lisp archives and, 28
 origins of, 11
-FSF (see Free Software Foun-
-da tion)
+FSF (see Free Software Founda tion)
 Fuller, Buckminster (inventor),
-115
+
 G
 General Public License (GPL), 69
 gift cultures, 81
 GIMP, 93
 GNU Emacs Lisp library, 27
 GNU (Gnu’s Not Unix) project,
-11
+
 GNU project
 open-source development and,
 21, 24
 Gosling, James, 29
 GPL (General Public License), 69
-Guerrilla Marketing Tactics, pro-
-moting open source, 178
+Guerrilla Marketing Tactics, promoting open source, 178
 H
 hacker culture
 ideology of, 67–71
@@ -8670,8 +7132,6 @@ Incompatible Time-sharing System
 (see ITS)
 in-house code, 117
 Intel 386 chip, 13
-238
-
 
 Internet
 Free Software Foundation
@@ -8685,15 +7145,14 @@ ITS (Incompatible Time-sharing
 System), 6
 breakdown of, 13
 J
-Jargon File (The Hacker’s Dictio-
-nary), 5
+Jargon File (The Hacker’s Dictionary), 5
 Jolitz, William and Lynne, 15
 K
 Kipling, Rudyard, 164
 Kropotkin, Pyotr Alexeyvich, 51
 L
 license restrictions for software,
-133
+
 licenses (open source), 72
 ownership and, 73
 Linus’s law, 30
@@ -8701,14 +7160,14 @@ Linux
 category killers and, 93
 for-proﬁt packagers and, 133
 ideology of hacker culture and,
-70
+
 kernels, early releases of, 29
 open source and, 21
 origins of, 15
 promoting for open source
 movement, 177
 stable and unstable versions,
-32
+
 World Wide Web and, 17
 LISP
 code archives, evolution of, 27
@@ -8719,13 +7178,12 @@ MACRO-10, 5
 maintenance, for software, 118
 Maslow, Abraham, 83
 MATLAB, 28
-maximizaing reputation incen-
-tives, 85
+maximizaing reputation incentives, 85
 Memoirs of a Revolutionist
 (Kropotkin), 51
 Microsoft
 Halloween Documents and,
-183
+
 Internet Explorer, 135, 172
 MIME (Multipurpose Internet
 Mail Extensions), 44
@@ -8743,11 +7201,11 @@ Netscape Communications, Inc.,
 open-sourcing browsers,
 135, 173
 Netscape Public License (NPL),
-134
+
 New Hacker’s Dictionary, 169
 noosphere, deﬁnition of, 77
 NPL (Netscape Public License),
-134
+
 O
 Oh, Seung-Hong (programer), 24
 Ohio State Emacs Lisp arcive, 28
@@ -8756,14 +7214,12 @@ business ecology of, 152
 company competition and,
 148–151
 Index
-239
-
 
 The Cathedral and the Bazaar
 open source (cont’d)
 conﬂicts and resolution in, 103
 Doom (id software game) and,
-146
+
 doomsday scenario, 160
 economics of software, 123
 ﬁxing bugs and, 33
@@ -8781,12 +7237,11 @@ software, conﬂicts over, 99
 Open Source Deﬁnition (OSD),
 71, 134
 Free Software Guideline and,
-176
-promoting open source move-
-ment, 178
+
+promoting open source movement, 178
 O’Reilly, Tim (publisher), 172
 Free Software Summit and,
-181
+
 open source and, 175
 OSD (Open Source Deﬁnition), 71
 Osterhout, John, 71
@@ -8795,8 +7250,7 @@ ownership, in open source culture,
 P
 Palo Alto Research Center
 (XEROX PARC), 7
-PARC (Palo Alto Reasearch Cen-
-ter), 7
+PARC (Palo Alto Reasearch Center), 7
 PDP-1, 4
 PDP-10, 5
 electronic mailing lists and, .
@@ -8812,29 +7266,24 @@ becoming fetchmail, 38
 programming projects, in hacker
 ownership customs, 78
 project structures, 100–103
-Psychology of Computer Pro-
-gramming (Weinberg),
-50
+Psychology of Computer Programming (Weinberg),
+
 R
 Real Programmers, 3
-reputation-game model, implica-
-tions of, 92–94
+reputation-game model, implications of, 92–94
 Rideau, Faré, 78
 Ritchie, Dennis, 8
 RMS (see Stallman, Richard
 M.)
 S
-SAIL (Stanford University’s Artiﬁ-
-cial Intelligence Labora-
-tory, 5
+SAIL (Stanford University’s Artiﬁcial Intelligence Laboratory, 5
 Saint-Exupéry, Antoine de, 41
 sale value for software, 129
 sale value of software, 117,
 132–140
 Samba, 95
 SF-LOVERS list, 7
-SMTP (Simple Mail Transfer Pro-
-tocol), 23
+SMTP (Simple Mail Transfer Protocol), 23
 adding to popclient, 38–42
 software
 as a service industry, 119
@@ -8843,8 +7292,6 @@ economic value of, 115–166
 innovations of, 7
 sale value of, 132–140
 use-value of, 129–132
-240
-
 
 Stallman, Richard M. (RMS), 11,
 27, 29, 69
@@ -8865,7 +7312,7 @@ Torvalds, Linus, 15, 21
 ideology of hacker culture, 70
 Linus’s law, 30
 Linux kernels, early releases of,
-29
+
 releasing stable and unstable
 kernels, 32
 reusing code for Linux, 24
@@ -8897,28 +7344,23 @@ Weinberg, Gerald (author), 50
 widget frosting, 136–142
 Windows operating system, 14
 workstations, ﬁrst generation of,
-11
+
 X
 X window system, 12
 XEROX PARC (Palo Alto
 Research Center), 7
 Z
-Zawinski, Jamie (Mozilla co-
-founder), 186
+Zawinski, Jamie (Mozilla cofounder), 186
 Index
-241
 
-
-The cover of this book was designed and produced in Adobe Pho-
-toshop 5.0 and QuarkXPress 4.1 with Interstate and Sabon fonts.
+The cover of this book was designed and produced in Adobe Photoshop 5.0 and QuarkXPress 4.1 with Interstate and Sabon fonts.
 The cover illustration, “Composition with Figures,” was painted
 by Livbov Popova in 1913. It is part of the collection of the State
 Tetraykov Gallery.
 The interior of the book is set in Adobe’s Sabon font, which was
 designed by Jan Tschichold in 1964. The roman design is based on
 Garamond; the italic is based on typefaces created by Robert
-Granjon, one of Garamond’s contemporaries. Sabon is a regis-
-tered trademark of Linotype-Hell AG and/or its subsidiaries.
+Granjon, one of Garamond’s contemporaries. Sabon is a registered trademark of Linotype-Hell AG and/or its subsidiaries.
 Composition was done using GNU Emacs, the DocBook 4.1
 markup language, and a set of formatting tools developed by Steve
 Talbott, Norm Walsh, and Lenny Muellner using perl and GNU

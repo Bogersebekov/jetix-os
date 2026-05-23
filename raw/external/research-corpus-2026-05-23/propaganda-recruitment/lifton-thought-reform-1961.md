@@ -9,8 +9,11 @@ chars: 1173504
 approx_tokens: 293376
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 1173506
+phase4_chars_after: 1173227
+phase4_saved_pct: 0.0
 ---
-
 
 
 Thought Reform and the Psychology of Totalism
@@ -103,8 +106,7 @@ PREFACE:TO THE UNIVERSITY OF NORTH
 CAROLINA PRESS EDITION
 Now, after twenty-eight years, my own sense of this book has
 changed. I see it as less a specific record of Maoist China and more an
-exploration of what might be the most dangerous direction of the twentieth-
-century mind—the quest for absolute or “totalistic” belief systems.
+exploration of what might be the most dangerous direction of the twentiethcentury mind—the quest for absolute or “totalistic” belief systems.
 Indeed, that quest has produced nothing short of a worldwide epidemic
 of political and religious fundamentalism—of movements characterized by
 literalized embrace of sacred texts as containing absolute truth for all
@@ -421,8 +423,7 @@ widespread distribution with a focused emotional power. Not only does it
 reach one-fourth of the people of the world, but it seeks to bring about in
 everyone it touches a significant personal upheaval.
 Whatever its setting, thought reform consists of two basic elements:
-confession, the exposure and renunciation of past and present “evil”; and re-
-education, the remaking of a man in the Communist image. These elements
+confession, the exposure and renunciation of past and present “evil”; and reeducation, the remaking of a man in the Communist image. These elements
 are closely related and overlapping, since they both bring into play a series
 of pressures and appeals—intellectual, emotional, and physical—aimed at
 social control and individual change.
@@ -584,8 +585,7 @@ groups in Hong Kong. The arrival of a Westerner who had been a prisoner
 in China was always announced in the Hong Kong newspapers, and I was
 usually able to set up a first meeting almost immediately.
 My arrangements with all subjects were highly flexible, varying with the
-circumstances of each case. When possible, I had them come to my office-
-apartment; but it was frequently necessary for me to visit Westerners in
+circumstances of each case. When possible, I had them come to my officeapartment; but it was frequently necessary for me to visit Westerners in
 homes or mission houses where they were staying, or in hospitals where
 they were convalescing. I insisted only upon the opportunity to conduct the
 interview in privacy; although even on this point I had to make one
@@ -1060,8 +1060,7 @@ found wanting in his adoption of the “people’s standpoint” or when his
 views were considered “erroneous,” it became necessary for him to
 “examine himself” and look into the causes of these “reactionary”
 tendencies. He had to search out the harmful “bourgeois” and
-“imperialistic” influences from his past for further evaluation and self-
-criticism. Every “question” or “problem” had to be “solved,” according to
+“imperialistic” influences from his past for further evaluation and selfcriticism. Every “question” or “problem” had to be “solved,” according to
 the “facts,” in order to get to the “truth,” viewing everything, of course,
 from the “people’s standpoint.”
 Special “movements” would take place, jolting the prisoners from the
@@ -1160,8 +1159,7 @@ was “draining the blood of the people”; if he took up too much room while
 sleeping, this was “imperialistic expansion.”
 Vincent would still hear talk of men who were shot because “they
 resisted”; and on the other hand he heard of the “bright future”—early
-release or happy existence in China—for those who “accepted their re-
-education.”
+release or happy existence in China—for those who “accepted their reeducation.”
 Advanced Standing
 After more than a year of this continuous “re-education,” Vincent was
 again subjected to a series of interrogations aimed at once more
@@ -1342,8 +1340,7 @@ favorable in his references to his prison experience—looking back upon it
 almost longingly.
 Since coming out, arguments and conversation are terribly uninteresting. There are no concrete
 things. Time is very superficial—people don’t solve any problems. They are just going on—spending
-four hours for nothing—between one drink and another smoke and wait for tomorrow. In re-
-education we solved every problem . . . . we were given texts to use and had to read them—then new
+four hours for nothing—between one drink and another smoke and wait for tomorrow. In reeducation we solved every problem . . . . we were given texts to use and had to read them—then new
 discussions until the moment when there were no more problems. . . . I went to a film last night. I
 was disturbed by it. Disturbed because it wasn’t an educational film—it was just a lot of shooting and
 violence. I was thinking how much more comforting to have an education film as in the prison—
@@ -1416,8 +1413,7 @@ OceanofPDF.com
 CHAPTER 4
 FATHER LUCA: THE FALSE CONFESSION
 I met Father Francis Luca in a Catholic hospital in Hong Kong, where
-he was convalescing from the physical and emotional blows of three-and-
-one-half years of imprisonment. He had spent ten years in China, and had
+he was convalescing from the physical and emotional blows of three-andone-half years of imprisonment. He had spent ten years in China, and had
 just arrived in the colony a few days before; my visit had been arranged by
 another priest whom we both knew. Father Luca’s appearance was rather
 striking. An Italian in his late thirties, his eyes looked alert and searching,
@@ -1550,8 +1546,7 @@ difficult to get at what they want.” After two weeks I would say almost anythi
 say … but of course not easily.
 In this state, he “confessed” to three major “crimes”: use of a concealed
 radio set to send and receive “espionage” information; organization of a
-ring of young boys for the purpose of conducting sabotage and writing anti-
-Communist publications (the public accusation made prior to his
+ring of young boys for the purpose of conducting sabotage and writing antiCommunist publications (the public accusation made prior to his
 imprisonment); and the active participation—as “secretary”—in an
 “espionage organization” allegedly headed by Father C. All three of these
 “admissions” were false, built up through half-truths and fabrications.
@@ -1606,8 +1601,7 @@ personal confrontation:
 
 After one week the judge interrogated me about a certain Chinese boy. I told him the truth, that the
 name was not familiar to me. Then he confronted me with the boy in person, and I told him again that
-I did not know him. But the boy said he knew me, and also that I had told him to write anti-
-Communist pamphlets. I showed some hesitation, as I had contact with a thousand boys as a parish
+I did not know him. But the boy said he knew me, and also that I had told him to write antiCommunist pamphlets. I showed some hesitation, as I had contact with a thousand boys as a parish
 priest.
 The judge said I was not sincere—put the handcuffs on me again—and again made me sit in that
 extremely painful position until I confessed that I knew the boy. From this kind of interrogation, and
@@ -1768,8 +1762,7 @@ back to his cell on a stretcher. He later learned that he had been interrogated
 by a “prisoner-official,” a prisoner so “advanced” in his reform that he
 functions essentially as a staff member. So impressed was Luca with the
 special quality of this session that, when he was in difficulty on several
-other occasions later on, he asked to see this Italian-speaking prisoner-
-official again.
+other occasions later on, he asked to see this Italian-speaking prisonerofficial again.
 He was also at this time examined by a physician who confirmed his fear
 that his spine had been broken, but spoke to him reassuringly and told him
 that after some time it would heal.
@@ -1998,8 +1991,7 @@ dispel his belief that the Communists should have gone a step further and
 made public admission of and reparations for their excesses.
 Near the end of his second year of imprisonment, he began to work on
 what eventually became his final confession document. Told first to write it
-out in his own language, he summarized the main points of his prison-
-prepared “autobiography,” and then translated these himself into Chinese.
+out in his own language, he summarized the main points of his prisonprepared “autobiography,” and then translated these himself into Chinese.
 Next he was brought before a new and apparently high-ranking judge for a
 one-week period of severe, “rather correct,” but sometimes threatening
 interrogation: “I see you do not yet have a good knowledge of your sins.
@@ -2364,8 +2356,7 @@ manipulation and response—takes place. All of these steps revolve about
 two policies and two demands: the fluctuation between assault and leniency,
 and the requirements of confession and reeducation. The physical and
 emotional assaults bring about the symbolic death; leniency and the
-developing confession are the bridge between death and rebirth; the re-
-education process, along with the final confession, create the rebirth
+developing confession are the bridge between death and rebirth; the reeducation process, along with the final confession, create the rebirth
 experience.
 Death and rebirth, even when symbolic, affect one’s entire being, but
 especially that part related to loyalties and beliefs, to the sense of being a
@@ -2398,8 +2389,7 @@ human was placed in the position of an infant or a sub-human animal,
 helplessly being manipulated by larger and stronger “adults” or “trainers.”
 Placed in this regressive stance, each felt himself deprived of the power,
 mastery, and selfhood of adult existence.
-In both, an intense struggle began between the adult man and the child-
-animal which had been created, a struggle against regression and
+In both, an intense struggle began between the adult man and the childanimal which had been created, a struggle against regression and
 dehumanization. But each attempt on the part of the prisoner to reassert his
 adult human identity and to express his own will (“I am not a spy. I am a
 doctor”; or “This must be a mistake. I am a priest, I am telling the truth”)
@@ -2719,21 +2709,18 @@ conscience; through this joining of forces, he is changed from a man who
 merely feels guilty into one who feels guilty about exactly those actions
 which the environment considers criminal.
 8. RE-EDUCATION: LOGICAL DISHONORING
-While Father Luca and Dr. Vincent, in a general sense, began their re-
-education the moment they were imprisoned, its formal inception occurred
+While Father Luca and Dr. Vincent, in a general sense, began their reeducation the moment they were imprisoned, its formal inception occurred
 with the stress upon group study (hsüeh hsi) just after the institution of
 leniency. Both men found that it was not Communist doctrine per se which
 mattered, but rather the use of Communist doctrine and its reasoning
 techniques to broaden their own self-exposure.
 It was no longer enough to admit guilt, to feel guilty, or even to
-recognize specific guilty actions. The prisoner had to extend his self-
-condemnation to every aspect of his being, and learn to see his life as a
+recognize specific guilty actions. The prisoner had to extend his selfcondemnation to every aspect of his being, and learn to see his life as a
 series of shameful and evil acts—shameful and evil not only in their
 possible opposition to Communism, but also because they violated his own
 cherished ideals.
 With Father Luca, this desecration of identity took the form of
-convincing him that he and his missionary colleagues had been “un-
-Christian” in their conduct in China. Personal dishonoring of this kind was
+convincing him that he and his missionary colleagues had been “unChristian” in their conduct in China. Personal dishonoring of this kind was
 applied to both priests and laymen. It is illustrated in the following
 exchange between another priest and his prison instructor:
 Instructor: “Do you believe man should serve others?”
@@ -2761,8 +2748,7 @@ part of him which he has been constantly warned never to become. A
 priest’s negative identity is likely to include such elements as the selfish
 man, the sinner, the proud man, the insincere man, and the unvigilant man.
 As the reformers encourage a prisoner’s negative identity to enlarge and
-luxuriate, the prisoner becomes ready to doubt the more affirmative self-
-image (diligent priest, considerate healer, tolerant teacher) which he had
+luxuriate, the prisoner becomes ready to doubt the more affirmative selfimage (diligent priest, considerate healer, tolerant teacher) which he had
 previously looked upon as his true identity. He finds an ever-expanding part
 of himself falling into dishonor in his own eyes.
 At this point the prisoner faces the most dangerous part of thought
@@ -2840,8 +2826,7 @@ To appreciate the emotional appeal of harmony, one must—as the
 prisoner invariably does—contrast it with the basic fear and estrangement
 of the earlier phases of imprisonment. Instead of antagonism and total
 conflict, he feels in step with a milieu which appreciates him. Identified as a
-“progressive,” he is permitted (and grasps at) a more direct form of self-
-expression. To be sure, he is still partly the actor; but performance and life
+“progressive,” he is permitted (and grasps at) a more direct form of selfexpression. To be sure, he is still partly the actor; but performance and life
 have moved closer together, and he is not acting as much as he thinks he is.
 As he achieves a more intimate communication with his reformers, his
 entire experience takes on a much greater feeling of reality. Officials in turn
@@ -2891,8 +2876,7 @@ The reformers thus ended precisely where they had begun. From the
 beginning they had labelled Luca a criminal; and these two “crimes” were
 clearly the ones they had originally selected for him to “recognize.” Why,
 then, did they put everyone to so much trouble?
-They did so because confession is as much a part of re-education as re-
-education is of confession. The officials demanded that their accusations
+They did so because confession is as much a part of re-education as reeducation is of confession. The officials demanded that their accusations
 become the prisoner’s self-accusations, and that the confession be made
 with inner conviction. They required that he present himself in the evil
 image they had constructed for him—and their reasons for requiring this, as
@@ -3065,8 +3049,7 @@ distinguish three general categories, based upon the beliefs these men
 expressed and the emotions which underlay those beliefs at the time of our
 interviews. These categories—the obviously confused, the apparent
 converts, and the apparent resisters—each describe a broad style of
-response characteristic for the time of imprisonment as well as for the post-
-release period. Despite the complexities involved, and the inevitable
+response characteristic for the time of imprisonment as well as for the postrelease period. Despite the complexities involved, and the inevitable
 overlapping, these three categories allow us a deeper appreciation of both
 the inner effects of thought reform, and the relationship of these effects to
 already existing patterns of behavior.
@@ -3122,8 +3105,7 @@ antagonist. His mother was apparently also on the side of authority, but
 Vincent’s evasiveness about her suggests that whatever else they shared was
 either too intimate or too painful to be easily recalled or revealed.
 At the age of nineteen, his distorted emotional patterns reached a bizarre
-climax in his first encounter with love. Feeling enamored of a fourteen-
-year-old girl, he decided that “she must fall in love with me,” but he neither
+climax in his first encounter with love. Feeling enamored of a fourteenyear-old girl, he decided that “she must fall in love with me,” but he neither
 made physical advances nor even spoke of his feelings. Instead, he studied
 an anatomy book to find out where on his body he could shoot himself
 without causing permanent damage, took his father’s pistol, and put a bullet
@@ -3143,9 +3125,7 @@ experience. I never had a thought to touch the girl—to let her know I was inte
 through myself, you see, I did it. I am the master of myself, and do what I want to myself.
 With this deed, Vincent was acting out his conflicts on many levels: he
 was getting even with his father and mother, and with all other authorities
-whom he “surprised”; he was substituting destructiveness (actually self-
-destructiveness) for love or affection; and through this act of self-
-punishment, he was atoning for his guilt. But what is most remarkable is his
+whom he “surprised”; he was substituting destructiveness (actually selfdestructiveness) for love or affection; and through this act of selfpunishment, he was atoning for his guilt. But what is most remarkable is his
 need to experience—and to manipulate—all thought, feelings, and actions
 through the medium of his own body. Such extreme narcissism, and such
 bizarrely symbolic behavior are usually found only in people so cut off
@@ -3374,8 +3354,7 @@ to be in jail and to be accused is part of myself. . . . It is difficult to expl
 experience of the reality of that world. I know what they do. . . . My mind is more enlarged.
 I know everything about them—how cruel they are—their different mind—their materialistic way to
 see things—their logic. . . . You cannot know—you cannot understand what the chains and the
-toucheng [struggle] mean—about the compulsion they use. . . . I know everything about the step-by-
-step method … it is the difference between a man who studies anatomy in a book and a man who
+toucheng [struggle] mean—about the compulsion they use. . . . I know everything about the step-bystep method … it is the difference between a man who studies anatomy in a book and a man who
 studies anatomy on the body.
 
 
@@ -3426,8 +3405,7 @@ Africa. An excellent student during his early years, his work suffered in
 Europe. But more disturbing to him were his social difficulties there among
 the “rough and rather unpleasant” boys in his class, who spoke a kind of
 slang he could not understand. And when Anthony, without thinking, used
-the common language of Europeans in Africa—African words mixed with-
-his own language—he was laughed at and teased. His companions, with the
+the common language of Europeans in Africa—African words mixed withhis own language—he was laughed at and teased. His companions, with the
 merciless psychological accuracy of schoolboys, summed up his conflict
 when they tauntingly dubbed him “the white Negro.”
 His family relationships perpetuated this conflict, and also presented him
@@ -3454,8 +3432,7 @@ neglected him in favor of their own cultural and intellectual interests.
 
 Despite these problems he deeply missed his parents when, on medical
 advice, he was sent to live with relatives in Europe because of the discovery
-of what was then diagnosed as a kidney ailment. Put on a closely-
-supervised medical and dietary regime, and beset by emotional conflicts, he
+of what was then diagnosed as a kidney ailment. Put on a closelysupervised medical and dietary regime, and beset by emotional conflicts, he
 at first felt weak and worthless: “I was little, had no strength, and the other
 boys despised me.” But these feelings were soon overshadowed by a new
 pattern which quickly became a major concern—his “badness.”
@@ -3721,8 +3698,7 @@ believed a good deal of it, and had found it to be “insincere” beyond words
 —in both the conventional and their own special meaning of the term.
 Luca himself, once injured (and physically punished), rose to impressive
 heights of courage and strength. He had given indications of his will to
-survive even before the injury. His delusions had included fantasies of self-
-affirmation—of recovery, rescue, and return to priestly activities—along
+survive even before the injury. His delusions had included fantasies of selfaffirmation—of recovery, rescue, and return to priestly activities—along
 with elements of guilt. At that time, too, he could summon faith in the
 religious purpose of his suffering (“penance for my sins”). Crippled and
 helpless, he was able to reach more profoundly into his emotional being and
@@ -3735,8 +3711,7 @@ same time, he kept his inner experience within his own religious idiom. His
 imprisonment was a continuation of his lifelong self-purification. His faith
 was a powerful ally, one he would under no condition surrender: hence his
 dramatic assertion that “to take off my religion it is necessary to take out
-my heart and to kill me”—both a statement of creed and a quashing of self-
-doubt.
+my heart and to kill me”—both a statement of creed and a quashing of selfdoubt.
 This very creed and his devotion to the Church behind it led to his
 greatest pain during reform. As a “liberal” he had already been in conflict
 with “illiberal” (and militaristic) colleagues, with whom he was now
@@ -3777,8 +3752,7 @@ but as heightening of traits already present, rather than as new
 characteristics. Perhaps an even more profound upheaval for Father Luca
 was the need to surrender much of his “Chinese” self, leaving him in a state
 of mourning which began not with imprisonment, but after release. He gave
-me the feeling, however, that from his careful, painful, and conscience-
-ridden weighing of ideas and emotions, a somewhat remodeled, but still
+me the feeling, however, that from his careful, painful, and conscienceridden weighing of ideas and emotions, a somewhat remodeled, but still
 liberal (and not entirely un-Chinese) father-confessor was re-emerging.
 Professor Hermann Castorp: The Submissive Scientist
 Let us now examine the experience of another man who falls into this
@@ -3806,8 +3780,7 @@ I have always had the tendency to satisfy people. . . . I have never wanted to d
 am given work, I try to do better than what is expected. . . . If you give me a salary that is
 satisfactory, my entire energy is yours.
 He attributed these traits to his “strongly Catholic” and “very
-conservative” Teutonic upbringing; to his stern and “sober” government-
-official father who, although he remained in the background in most family
+conservative” Teutonic upbringing; to his stern and “sober” governmentofficial father who, although he remained in the background in most family
 matters, had opinions which counted (“What will he think of me if I do
 something wrong?”); and even more to his “dictatorial” mother (“The kind
 of person other people submit to—even dogs listen to her”) who directed
@@ -3894,8 +3867,7 @@ His approach was made feasible by his captors’ failure to make him, as
 they did most other Europeans, a special target. “They saw at once that I
 was harmless. If I talked a little, they didn’t expect too much.” Moreover,
 he was ingenious in his ingenuousness.
-From the very beginning I said what I thought and this made it easier for me. . . . By nature I am anti-
-revolutionary. I don’t like everything turned upside down. So when the Communists said, “You are
+From the very beginning I said what I thought and this made it easier for me. . . . By nature I am antirevolutionary. I don’t like everything turned upside down. So when the Communists said, “You are
 anti-revolutionary,” they were right and I admitted it. I said, “I am.” If you admit things openly, they
 do not make so much fuss about it, they simply preach to you. But the moment you tell them stories,
 they get mad.
@@ -4008,8 +3980,7 @@ would become much less important to him once he got back to work:
 these other things any more.”
 
 
-The patterns of Professor Castorp’s early life, imprisonment, and post-
-release period suggest the identity of the submissive scientist. He had been
+The patterns of Professor Castorp’s early life, imprisonment, and postrelease period suggest the identity of the submissive scientist. He had been
 consistently submissive in his attempts to please parents, teachers, Western
 and Chinese associates, his wife, prison officials, friends in Hong Kong
 who had shared his experience, and, during our interviews, me. Beginning
@@ -4086,8 +4057,7 @@ When I saw most of these people, they had set themselves the task of
 returning to what was essentially their previous identity while trying to
 come to grips with, rather than totally accept or totally reject, the influences
 they had just experienced. One expression of this task was the conviction of
-most of them that certain reforms were necessary and desirable in the non-
-Communist world, if only to meet the Communist challenge. As Professor
+most of them that certain reforms were necessary and desirable in the nonCommunist world, if only to meet the Communist challenge. As Professor
 Castorp put it:
 If there is rivalry between the Communists and the West for social reform, that is very good. . . .
 Maybe Communism’s mission is, by its push and impact, to give special strength to social reform. I
@@ -4232,8 +4202,7 @@ With my missionary background, I’ve always felt that something should be done 
 . . My lack of economic security has been a driving force in my life. . . . I thought that society was
 man-made, and should be regulated in the interests of man.
 When she returned to China as a teacher after the war, she was highly
-critical of the Nationalist regime, but at the same time had “an anti-
-Communist orientation.” She shared these views with Western and Chinese
+critical of the Nationalist regime, but at the same time had “an antiCommunist orientation.” She shared these views with Western and Chinese
 friends, and was in fact more comfortable in such intellectual and
 ideological matters than in purely social situations. She felt that a tendency
 to be too outspoken and critical had interfered with many friendships. In her
@@ -4320,14 +4289,12 @@ activities. “I never accepted this as me.” She found it always necessary to
 make a distinction between her “personal predicament” and “the broad
 social facts.” While conscious that “there was a discrepancy,” she sought to
 get around it by giving less importance to her own situation: “I did more
-thinking about society than about myself. . . . I worked from outward-
-inward rather than inward-outward.” Using this device, she could begin to
+thinking about society than about myself. . . . I worked from outwardinward rather than inward-outward.” Using this device, she could begin to
 accept “the general logic of their position” in viewing her “passing of
 information” to people who could use it in a way harmful to the Communist
 regime as “espionage.”
 As with other prisoners, her relations with the government during the last
-month of her imprisonment were characterized by mutual frankness and co-
-operation. Miss Darrow found herself able to admit that she could not
+month of her imprisonment were characterized by mutual frankness and cooperation. Miss Darrow found herself able to admit that she could not
 completely view herself as a spy, and after so doing was praised for her
 honesty. Transferred to a new cell where her “dark past” was unknown, she
 had what she considered to be a new opportunity to “make good.” She was
@@ -4464,16 +4431,14 @@ continued to speak contemptuously of herself as she described her inner
 struggle between “the urge to adapt” (to her own culture) and “the
 compulsion to hold on” (to the Communist views), ever ready to denounce
 her own “selfishness” and “opportunism.” As far as her political beliefs
-were concerned, she predicted to me that she would revert to being a “left-
-wing liberal,” at the same time expressing the opinion that intellectual
+were concerned, she predicted to me that she would revert to being a “leftwing liberal,” at the same time expressing the opinion that intellectual
 seeking had its limitations in finding the truth, and that one had to combine
 it with an “intuitive” approach as well.
 Miss Darrow, unlike those people in the obviously confused category,
 continued, after she had crossed the border into Hong Kong, to present
 herself to the world as a reformed person. Dr. Vincent, Professor Castorp,
 and a large number of other subjects had so presented themselves to their
-captors; but for them the change from the Communist to the non-
-Communist world was a signal for the portions of themselves which had
+captors; but for them the change from the Communist to the nonCommunist world was a signal for the portions of themselves which had
 remained apart from thought reform influence to reappear. In Miss
 Darrow’s case, it was as if nothing but her thought reform identity survived
 the experience—and herein lay her “conversion.” But the “as if” is
@@ -4575,8 +4540,7 @@ vulnerability which can lead to the total plunge of the convert.
 And this is what happened—or almost happened. Thought reform
 exploited each of these aspects of her negative identity, made conscious
 what was previously latent, and built into grotesque dimensions what had
-previously been held in balance. The core of her negative identity, the self-
-image of the “schemer,” was a crucial factor in depriving her of a more
+previously been held in balance. The core of her negative identity, the selfimage of the “schemer,” was a crucial factor in depriving her of a more
 moderate response to thought reform. Most of my subjects could think
 themselves reasonably clever and ingenious in playing the double game of
 acting “progressive” while retaining old beliefs, but Miss Darrow could
@@ -4605,8 +4569,7 @@ many of her own liberal aspirations: dedicated people working “to better the
 world,” regulating society “in the interests of man.” She felt she was among
 gentlemanly and humane people, to whom submission would be justified.
 Their society appeared to offer fewer challenges to her problems of
-femininity, and more opportunity for her old intellectual and newly-
-acquired ideological prowess. She emerged more a communist liberal than a
+femininity, and more opportunity for her old intellectual and newlyacquired ideological prowess. She emerged more a communist liberal than a
 true convert.
 The element of totalism in her new identification with the Chinese
 Communists made her misrepresent her own inner feelings, and present
@@ -4687,8 +4650,7 @@ RESISTERS
 Apparent resisters are the people who cross the border denouncing
 the cruelties of prison thought reform. At first encounter, many of them
 appear to be little affected by their ordeal, other than showing a certain
-amount of physical and mental strain; ideologically, they are bitterly anti-
-Communist, if anything, more so than they had been before imprisonment.
+amount of physical and mental strain; ideologically, they are bitterly antiCommunist, if anything, more so than they had been before imprisonment.
 They are received by the Western world with both admiration and relief—
 admiration for their strength, and relief for the proof which they convey that
 “brainwashing” can be resisted after all.
@@ -5031,8 +4993,7 @@ could achieve the unachievable, and live out fully during his adult life the
 imaginative fantasies of his childhood—which may not be, as Freud
 claimed, the only form of true happiness, but which is certainly one of the
 best paths to self-realization. His was undoubtedly an identity of great
-strength and consistency, combining fundamentalist absolutism with a well-
-developed worldliness and a taste for the human drama.
+strength and consistency, combining fundamentalist absolutism with a welldeveloped worldliness and a taste for the human drama.
 What, then, were his demons? They were his feelings of weakness, of
 being unable to accomplish what he so wished to do, his self-doubts (and
 possibly even lapses of faith), and the sense of guilt and shame which
@@ -5053,8 +5014,7 @@ succumbed. Instead, he used his form of totalism—his urge toward absolute
 surrender to an all-powerful supernatural force—as a means of taming
 
 
-them. Totalism was not, as it was with Miss Darrow, a threat to his self-
-affirmation. Quite the reverse; it was the power behind his most cherished
+them. Totalism was not, as it was with Miss Darrow, a threat to his selfaffirmation. Quite the reverse; it was the power behind his most cherished
 self-image, the emotional counterpart of his ideal of martyrdom.
 But the Communists would not meet him on this ground. By focusing
 upon personal weaknesses, and by creating a situation in which martyrdom
@@ -5190,8 +5150,7 @@ One priest expressed this very succinctly:
 To resist … you must affirm your personality whenever there is the opportunity. . . . When I was
 obliged to speak my views about the government, I would each time begin, “I am a priest. I believe in
 religion.” I said it strongly every time.
-This statement was perhaps a retrospective exaggeration of his self-
-assertion, but there was no doubt that so personal a reminder served him
+This statement was perhaps a retrospective exaggeration of his selfassertion, but there was no doubt that so personal a reminder served him
 well.
 A European professor used a more creative approach. He somehow
 managed during moments when pressures were relatively relaxed to make a
@@ -5293,8 +5252,7 @@ does not explain why one apparent convert (Miss Darrow) falls into the
 liberal category, and another (Father Simon, discussed in Chapter 11) into
 the authoritarian.
 Rather, each tended to be influenced to the degree that his identity,
-whatever it may have been, could be undermined through the self-
-deprecating effects of guilt and shame. This susceptibility in turn depended
+whatever it may have been, could be undermined through the selfdeprecating effects of guilt and shame. This susceptibility in turn depended
 largely upon his balance between flexibility and totalism, and their special
 significance for his character structure. Apparent converts shared with
 apparent resisters a significant amount of totalism; hence both extreme
@@ -5346,8 +5304,7 @@ men did not play as important roles in the group. The Europeans never
 constituted an entire cell by themselves, but were always a subgroup within
 a larger cell which also contained eight Chinese prisoners. A Chinese cell
 chief was always in charge of both subgroups. All the prisoners involved—
-Western and Chinese—were completely occupied during these two-and-a-
-half years with their re-education. Before each Westerner joined the group,
+Western and Chinese—were completely occupied during these two-and-ahalf years with their re-education. Before each Westerner joined the group,
 he had been in prison for at least a few months; each had already made
 
 
@@ -5365,12 +5322,10 @@ for this “progressive” influence were complex and uncertain. Always
 present, in combinations only partially understood by himself, were a
 genuine desire to help a fellow Westerner to accept the inevitable; an
 attempt to demonstrate his own “progressiveness” to the authorities in order
-to gain “merits” toward release; and the need to justify his own self-
-surrender through bringing a person similar to himself into the sphere of
+to gain “merits” toward release; and the need to justify his own selfsurrender through bringing a person similar to himself into the sphere of
 those who have already surrendered—a way to share guilt, shame, and
 weakness. All this “helping” preceded the existence of a true group
-structure, and served as a preliminary softening up for the group re-
-education process. It also set much of the pattern for the complicated
+structure, and served as a preliminary softening up for the group reeducation process. It also set much of the pattern for the complicated
 personal relationships which were later maintained within the group.
 The particular people involved in this group brought to it additional
 sources of friction of a very formidable nature. The group eventually
@@ -5382,8 +5337,7 @@ intellectual, national, political, and religious conflicts were always
 potentially disruptive, and were particularly apt to emerge at times when
 things were not going well. The potential conflicts included the German
 versus the Frenchman, the Nazi versus the anti-Nazi, the priest versus the
-layman, the Catholic versus the Protestant, the Jesuit priest versus the non-
-Jesuit, the crude peasant versus the middle-class gentleman, the North
+layman, the Catholic versus the Protestant, the Jesuit priest versus the nonJesuit, the crude peasant versus the middle-class gentleman, the North
 German versus the Bavarian, the university graduate versus the man of
 limited education, the professional man versus the merchant.
 
@@ -5511,8 +5465,7 @@ the imprisonment was essentially a “police action” in which the
 Communists sought to obtain maximum information from everyone, that
 the officials were not unrealistic enough to expect genuine conversions
 from Westerners, and that their release would have nothing to do with their
-“progress” in reform. He illustrated his point of view by drawing a carrot-
-and-donkey cartoon in which the Communist rider holds out on a stick the
+“progress” in reform. He illustrated his point of view by drawing a carrotand-donkey cartoon in which the Communist rider holds out on a stick the
 promise of release (carrot) before the ever-struggling prisoner (donkey). He
 agreed with the others that it was necessary to tell everything about one’s
 self that could be politically incriminating, and to make only statements
@@ -5602,8 +5555,7 @@ standing as a leading Western “progressive.” Now the foreigners “studied�
 sometimes as a separate five-man group, sometimes with their eight
 Chinese cellmates. In either case, the new cell chief kept a close eye on
 their activities. Benét assumed a position of great responsibility, interpreting
-all of the study materials from Chinese to English for his Western fellow-
-prisoners, and answering to the authorities for what went on among them.
+all of the study materials from Chinese to English for his Western fellowprisoners, and answering to the authorities for what went on among them.
 He brought to this task a form of leadership completely different from
 Bauer’s approach, startling in its demands and its performance. He
 expressed to the other Westerners his firm conviction that the only way for
@@ -5612,8 +5564,7 @@ reform process. This meant stopping at nothing to convince the officials of
 the extent of personal reform. He set an impressive example with his own
 
 
-behavior—histrionic gestures and expressions of guilt, repentance, and self-
-deprecation. He went to such extremes as describing intimate details of his
+behavior—histrionic gestures and expressions of guilt, repentance, and selfdeprecation. He went to such extremes as describing intimate details of his
 own sexual life, including self-stimulation and affairs with women. His
 Western cellmates were themselves unsure of the truth of these sexual
 “confessions”; some suspected that Benét derived a good deal of
@@ -5627,8 +5578,7 @@ He confessed everything, exaggerated everything. He admitted all blame with an e
 was very submissive, fully and deeply recognizing faults, showing himself a repentant sinner. He had
 a lively face, lots of grimaces. He was a marvelous actor.
 He expected similar behavior from the Westerners under his direction,
-and exerted great pressure upon them in the form of criticisms and sharply-
-worded rebukes. Not only did he insist upon the prerogatives of his official
+and exerted great pressure upon them in the form of criticisms and sharplyworded rebukes. Not only did he insist upon the prerogatives of his official
 position, but he also felt that as a priest it was his duty to do everything
 possible to help others in the cell. With religious procedures strictly
 forbidden, this help had to take other forms—and the ironic situation arose
@@ -5636,8 +5586,7 @@ in which a Jesuit saw as his priestly duty the need to “help” others along t
 path to Communist reform. To be sure, Benét initially presented his
 approach as a technique, a means of obtaining early release and thereby
 preserving values. But his extreme behavior—and particularly his insistence
-that the Westerners maintain their “progressive” enthusiasms and pro-
-Communist sentiments even among themselves—obscured this original
+that the Westerners maintain their “progressive” enthusiasms and proCommunist sentiments even among themselves—obscured this original
 purpose. The distinction between real and make-believe was soon lost—
 certainly to the other Westerners in the group, and apparently to Benét
 himself.
@@ -5751,8 +5700,7 @@ was their awareness of his courage in shielding them. Kallmann was the
 group member who felt this most keenly, and was for some time Benét’s
 closest collaborator and most staunch defender. His affection for him had
 begun when the two men had been together in a different cell before the
-formation of the Western group. At that time, when Kallmann was near-
-psychotic and overwhelmed by fear after his unsuccessful attempt at
+formation of the Western group. At that time, when Kallmann was nearpsychotic and overwhelmed by fear after his unsuccessful attempt at
 suicide, Benét had been compassionate, patient, and very helpful in
 teaching him how to deal with the officials. Kallmann had become
 convinced of the validity of Benét’s approach, and believed it to be based
@@ -6162,15 +6110,13 @@ especially strong emotion. He had spent just one year in the group, less time
 than most of the others, and had for the last few months of his
 imprisonment been permitted to perform technical work under much less
 intensive psychological pressure. His colleagues felt that he had greatly
-matured through his prison experience, that he had attained more self-
-mastery, and greater inner peace, and that he was not as “overly active” as
+matured through his prison experience, that he had attained more selfmastery, and greater inner peace, and that he was not as “overly active” as
 they felt he had been before.
 Mr. Kallmann emerged with a strong need to discuss his experiences in
 great detail as a means of conquering his remaining fear. Sensitive to
 psychological currents, he spoke with a striking combination of insight and
 confusion. He stated that he had “studied hard,” learned a great deal, and
-now wished to “continue his studies” through extensive readings in non-
-Communist political literature; he felt that he could never become an
+now wished to “continue his studies” through extensive readings in nonCommunist political literature; he felt that he could never become an
 adherent of the Communist world, but had come to realize the grave
 shortcomings of the capitalist world. He spoke enthusiastically of his
 experiences in the group: “They were all marvelous comrades … we always
@@ -6189,8 +6135,7 @@ Kong. He felt that his condition had been greatly improved by a period of
 skilled manual labor in which he had participated after his transfer from the
 group. Vehemently critical of the Communists, he nonetheless had become
 convinced during his imprisonment that “evolutionary socialism rather than
-revolution” was desirable; and he also felt that the technique of self-
-criticism could be a useful personal device. Concerning the group and its
+revolution” was desirable; and he also felt that the technique of selfcriticism could be a useful personal device. Concerning the group and its
 function, he was more critical than any of the others, and emphasized the
 suffering it caused him and his relief at being separated from it. Yet in the
 next breath, he would unwittingly praise it, pointing out that “we foreigners
@@ -6343,8 +6288,7 @@ private wave of resistance; and a newcomer, Benét, appeared who was a
 strange blend of fear, brilliance, exhibitionism, and sadomasochism. Benét
 behaved as he did partly because he believed that extreme progressivism
 was necessary, and partly because he was so frightened—primarily because
-the combination of self-flagellating submissiveness and arrogant, pain-
-inflicting domination of others was his own long-standing mechanism for
+the combination of self-flagellating submissiveness and arrogant, paininflicting domination of others was his own long-standing mechanism for
 dealing with anxiety. Yet this mechanism was especially appropriate for the
 position into which Benét was thrust: any new study leader under these
 same circumstances would have had to take a good deal of punishment
@@ -6689,8 +6633,7 @@ of religion. . . . Now my opposition is greater and I hate them because they are
 . . I see now the enormous danger to the human person to be under Communism—more even than
 just its opposition to religion.
 He had also become more critical of socialist movements in his own
-country which favored more government controls. He advocated the “co-
-operative” form of social welfare described in official Catholic sociology as
+country which favored more government controls. He advocated the “cooperative” form of social welfare described in official Catholic sociology as
 an alternative to the Communist class struggle. In all expressions of
 political opinion, he combined these personal and official approaches.
 Toward the end of my two-day visit with Vechten, we discussed some of
@@ -6941,8 +6884,7 @@ affectionate, if not fully admiring, feeling for Weber, and believed this
 resumption of his previous pattern to be inevitable because of his
 “instability.”
 Dr. Bauer had lived up to his impressive Hong Kong performance. He
-had been able to resume medical practice almost immediately, and had re-
-established his family in a European-inhabited area far from Europe itself.
+had been able to resume medical practice almost immediately, and had reestablished his family in a European-inhabited area far from Europe itself.
 In letters to me, he denied psychological difficulties of any variety,
 described his continuing antagonism to Communism (“I feel hot under the
 
@@ -7027,8 +6969,7 @@ persecutions exist in Communist China.” His sense of personal integrity
 was clearly involved in these matters—so much so, that on one occasion he
 sought out the leader of an official group of Communist Chinese visitors,
 described the brutality he had experienced in prison, and urged this man to
-request his government to admit (making use, if necessary, of some face-
-saving maneuver) that the “people it said were guilty were really not
+request his government to admit (making use, if necessary, of some facesaving maneuver) that the “people it said were guilty were really not
 guilty.” Luca also continued to advocate a liberal course in future
 missionary activities, recommending more self-expression and local
 authority among indigenous groups. He could still admit that the Chinese
@@ -7103,8 +7044,7 @@ also continued to feel some apprehension about the possibility of being
 captured again by the Communists. Characteristically, he made no mention
 of ideological issues; rather, he was concerned with practical matters. The
 letter, on the whole, confirmed my earlier impression of good recovery, and
-suggested that Professor Castorp had quickly and actively resumed his pre-
-thought reform identity.
+suggested that Professor Castorp had quickly and actively resumed his prethought reform identity.
 Bishop Barker
 I saw Bishop Barker (the elderly Belgian “priest, doctor, soldier”) at an
 unusual but not inappropriate site—the Catholic shrine at Lourdes. He had
@@ -7142,8 +7082,7 @@ speak for you all over the world.” This was not a remarkable statement, of
 course, but it must be viewed in relationship to Bishop Barker’s previous
 tendency to express unconsciously retained reform influences. His interest
 in thought reform continued only so long as he could discuss it in his own
-crusading Catholic idiom. When I questioned him about specific post-
-release feelings related to guilt and shame, he became evasive and
+crusading Catholic idiom. When I questioned him about specific postrelease feelings related to guilt and shame, he became evasive and
 suggested to me that the conversation was becoming a strain. He did tell me
 that if he were to be imprisoned again, he would “not give in at all,” since
 the Communists distort any admission a prisoner makes. He had carried this
@@ -7361,8 +7300,7 @@ American missionary who was leaving details about Communist work on
 an airfield, realizing that this information might be passed on to an official
 American group.
 I had no way of knowing whether this idea had really occurred to Simon
-before his imprisonment, or whether it was a product of the guilt-
-stimulating pressures of imprisonment itself. Either way, it was part of his
+before his imprisonment, or whether it was a product of the guiltstimulating pressures of imprisonment itself. Either way, it was part of his
 need to find evidence of both wrongdoing and wrong-thinking so he could
 rationalize, in thought reform terms, his own psychological state: “Every
 time I found a crime I had committed, I was glad to find it.” But among a
@@ -7549,8 +7487,7 @@ very powerful tool.
 I felt his alternation in this statement between first person singular and
 plural, and the second and third persons, was more than a matter of a
 European speaking English (his English was, in fact, fluent), and really
-reflected his alternating images of himself as a member of the Communist-
-oriented group, as the target of its criticism, and as a spiritually-active
+reflected his alternating images of himself as a member of the Communistoriented group, as the target of its criticism, and as a spiritually-active
 European Catholic. He in fact emphasized that it was not possible to use
 this kind of group criticism in his present circumstances, and that he was
 forced to apply this “tool” himself—and so, in effect, assume
@@ -7760,8 +7697,7 @@ changed inner and outer circumstances and the passage of time must induce
 distortions. Truth is at best an approximation, and for these men the need
 for altered reconstruction is likely to be great. The direction and the degree
 of distortion depended upon the Westerner’s way of responding to thought
-reform, his developing relationship with his new environment, and his long-
-standing psychological techniques for dealing with threats to his sense of
+reform, his developing relationship with his new environment, and his longstanding psychological techniques for dealing with threats to his sense of
 integrity.
 Bishop Barker’s reconstruction, for instance, was the story of a clever
 and heroic man who made no concessions and who outwitted his reformers
@@ -7796,8 +7732,7 @@ thought, “What a wonderful place to jump … to commit suicide.”
 Underneath the show of strength he was a deeply troubled man who
 could not fully believe his own self-representation. His obsessive thoughts
 of suicide and his outer signs of fear revealed underlying patterns of
-depression and anxiety. His efforts at mastery could not still his inner self-
-accusations, and his need to idealize his behavior prevented him from
+depression and anxiety. His efforts at mastery could not still his inner selfaccusations, and his need to idealize his behavior prevented him from
 coming to terms with his strong feelings of guilt. Although he demonstrated
 strength and effectiveness in many areas, he was having great difficulty
 restoring his sense of integrity.
@@ -7811,8 +7746,7 @@ converts, his sense of integrity required that he idealize the Communists
 and deprecate himself, and he reconstructed, in this light, not only his
 prison experience, but his entire life history. The identity of the apparent
 convert (and this was true of Miss Darrow as well) puts one in a
-masochistic stance, the paradoxical situation of being able to maintain self-
-esteem only by continuous self-flagellation.
+masochistic stance, the paradoxical situation of being able to maintain selfesteem only by continuous self-flagellation.
 The same thing was true of Father Benét. Although he had run the gamut
 from apparent convert to apparent resister, his approach to mastery required
 that he continually focus upon thought reform’s capacity to humiliate and to
@@ -7821,8 +7755,7 @@ exaggerating both thought reform’s power and the human weakness of
 those put through it. This “analysis” was partly a reflection of his own
 
 
-experience, and partly a means of restating the sado-masochistic self-
-representation which he needed for his sense of integrity.
+experience, and partly a means of restating the sado-masochistic selfrepresentation which he needed for his sense of integrity.
 Father Vechten required a serious “accident” to interrupt his
 compensatory overactivity and permit him the opportunity to deal with his
 inner conflicts. As one of the obviously confused, he had not resorted to the
@@ -7885,8 +7818,7 @@ separation, and the anticipated grief could render a prisoner susceptible to
 thought reform, as was clearly true of Father Simon. When this separation
 does occur, finally and irrevocably, the Westerner must experience true
 mourning: he temporarily intensifies his identification with China,
-preoccupies himself with reminders of his past existence there, and then bit-
-by-bit works through the process of detaching himself from what has been
+preoccupies himself with reminders of his past existence there, and then bitby-bit works through the process of detaching himself from what has been
 lost.3
 All these Westerners mourned the loss of something which involved
 their most profound emotions; we may say that each mourned a lost part of
@@ -7965,8 +7897,7 @@ both a personal and a broader sense.
 Sometimes, as in the case of Mr. Kallmann, this historical orientation led
 to a good deal of confusion: unable to trust sufficiently any one among
 many identity elements, he clung tenaciously and somewhat uncritically to
-a number of antithetical sides of himself, relating to Communism and anti-
-Communism, Nazism and anti-Nazism, authoritarian and libertarian
+a number of antithetical sides of himself, relating to Communism and antiCommunism, Nazism and anti-Nazism, authoritarian and libertarian
 
 
 emotions, China and the West, and a general sense of being “all things to all
@@ -8062,8 +7993,7 @@ financial and moral support from the Emperor himself. Their learning, and
 especially their cultural flexibility, carried them far. As one historian has put
 it, “The Jesuits largely fulfilled traditional Chinese expectations as to the
 likely course of intelligent barbarians in Chinese society.” They were
-“culturally conciliatory” and quick to realize that in the stable and self-
-confident Chinese society of that day, “they would receive a hearing more
+“culturally conciliatory” and quick to realize that in the stable and selfconfident Chinese society of that day, “they would receive a hearing more
 or less as candidates for membership or not at all.”7
 Not all Catholic missionaries approached China with such a light touch.
 The early Franciscans and Dominicans were contemporaries of the Jesuits,
@@ -8136,8 +8066,7 @@ hellfire and brimstone had little regard for Chinese cultural traditions; the
 spiritual mediators were those more liberal and socially-oriented
 missionaries who tried to understand and to enter into Chinese life while
 building their churches, universities, and hospitals.
-Even secular Western residents—businessmen, diplomats, non-
-missionary teachers, students, and free-lance Sinophiles—were not entirely
+Even secular Western residents—businessmen, diplomats, nonmissionary teachers, students, and free-lance Sinophiles—were not entirely
 free from this dilemma. They had not come to China to propagate
 Christianity, but they too had the problem of how much of the West to sell
 to the Chinese (or at least to hold onto themselves) versus how “Chinese” to
@@ -8212,8 +8141,7 @@ the priests (including close colleagues of my subjects) who had followed his
 lead in aiding China’s defense efforts against the Japanese had gone on to
 co-operate with Nationalist forces in their struggle against the Communists
 —thus giving the reformers a good reason to label them imperialists.
-The Communists thus used actual historical events to exploit already-
-existing identity strains of the Westerner in China, simplifying the complex
+The Communists thus used actual historical events to exploit alreadyexisting identity strains of the Westerner in China, simplifying the complex
 elements involved into the single pure image of the evil imperialist. They
 then did everything possible to make the man fit the image.
 During the years after their release, my subjects were preoccupied with
@@ -8369,8 +8297,7 @@ Communists themselves distinguish between “higher intellectuals” and
 writers, scientists, advanced students, physicians, and other professional
 people—all of whom make up a very small but particularly influential
 segment of the Chinese population. As a group, they are the spiritual if not
-lineal descendants of the Confucian literati, the celebrated class of scholar-
-officials who in the past set the cultural standards and administered the
+lineal descendants of the Confucian literati, the celebrated class of scholarofficials who in the past set the cultural standards and administered the
 political structure for whatever dynasty they served. Nowhere was learning
 more honored than in traditional China, and nowhere was a body of
 knowledge more necessary for personal advancement; until the beginning
@@ -8450,8 +8377,7 @@ affiliations), the campaign included everyone from the elderly college
 president to the newly-admitted freshman student, as “tens of thousands of
 intellectuals . . . [were] brought to their knees, accusing themselves
 relentlessly at tens of thousands of meetings and in tens of millions of
-written words.”4 This was the campaign’s harvest: a flood of self-
-castigation from China’s most learned men, public confessions which
+written words.”4 This was the campaign’s harvest: a flood of selfcastigation from China’s most learned men, public confessions which
 became a prominent feature in the country’s press during the next few
 months, and on repeated occasions from then on. Combining personal
 anecdote, philosophical sophistication, and stereotyped jargon, the
@@ -8592,8 +8518,7 @@ with were personal friends who more than met my requirements.
 These considerations were important because my interpreters were
 required to do a good deal more than simply translate back and forth during
 the interviews: as Westernized Chinese, they were a bridge between the
-relatively un-Westernized Chinese subject and the (also relatively) un-
-Sinicized Western interviewer. David Riesman has called this “tandem
+relatively un-Westernized Chinese subject and the (also relatively) unSinicized Western interviewer. David Riesman has called this “tandem
 interviewing”: the interpreter served as an acculturating force in both
 directions, making it possible for the subject and myself—between whom
 there was no common language and much cultural distance—to converse
@@ -8700,8 +8625,7 @@ hours), he became increasingly open and spontaneous. Indeed, after a few
 all-day sessions during the first weeks of our work together, we got to know
 each other quite well.
 At the time Hu began his thought reform, he was no stranger to the
-Communist movement. He had been sympathetic to it since his middle-
-school days, and as a student leader at the University of Nanking he had
+Communist movement. He had been sympathetic to it since his middleschool days, and as a student leader at the University of Nanking he had
 worked closely with the Communist underground for several years. Just
 after the takeover, however, he became involved in a controversy with
 Communist officials which eventually led to his admission to North China
@@ -8982,8 +8906,7 @@ that, should he make one false move, they might well label him a
 paradoxical position of still retaining his general faith in the Chinese
 Communist movement, while feeling increasingly trapped in his personal
 thought reform experience.
-His dilemma increased as the moralistic tone of the criticism and self-
-criticism process extended into every aspect of his daily existence. As in the
+His dilemma increased as the moralistic tone of the criticism and selfcriticism process extended into every aspect of his daily existence. As in the
 prison setting (but in a “native” rather than “imperialist” frame) students
 were criticized for such “bourgeois” or “ruling class” characteristics as
 pride, conceit, greed, competitiveness, dishonesty, boastfulness, and
@@ -9001,8 +8924,7 @@ unions were, on the whole, discouraged, as it was felt that they drained
 energies from the thought reform process. The opportunity for romance was
 limited anyway, since the days were taken up almost completely by hsüeh
 hsi, and the evenings by additional meetings and by reading. Sunday,
-although nominally a day of rest, was frequently devoted to self-
-examinations that had not been completed during the week; and such
+although nominally a day of rest, was frequently devoted to selfexaminations that had not been completed during the week; and such
 entertainments as there were—movies, plays, group singing, and dancing—
 were invariably tied in with some aspect of the Communist ideological
 
@@ -9015,8 +8937,7 @@ reveal everything about past affiliations with “reactionary” groups (usually
 the KMT regime or its student organizations). Each course became a
 vehicle for exposing more of his own self, for condemning more of the evil
 in his character. Each student developed a running confession, compounded
-of self-criticisms, thought summaries, and extracurricular self-
-examinations; this was a major indicator of his progress in reform. Taking
+of self-criticisms, thought summaries, and extracurricular selfexaminations; this was a major indicator of his progress in reform. Taking
 shape both orally and in writing, its content became known to other students
 and to cadres and class heads. One’s eagerness to reveal himself seemed to
 be more important than any specific thing revealed.
@@ -9069,8 +8990,7 @@ and beleaguered co-operation.
 Hu’s own position grew steadily worse. His suppressed resentment was
 always just beneath the surface, and on one occasion, when he intervened
 on behalf of a female student in an argument with school guards, this
-resentment exploded openly. Hu was then required to make a special self-
-examination to condemn his misconduct, his lack of full faith in the Party’s
+resentment exploded openly. Hu was then required to make a special selfexamination to condemn his misconduct, his lack of full faith in the Party’s
 representatives, and the “individualism” at the bottom of it all. Cadres were
 no longer gentle and therapeutic in their approach to him, but made it clear
 that they considered him stubborn and unco-operative. One of them (his old
@@ -9218,8 +9138,7 @@ family holdings had been taken from him, and that the family situation was
 still very dangerous. Hu had difficulty describing to me his feelings at this
 time, which were compounded of shock, guilt, and anger. At the beginning
 of land reform, Hu had written to his father to urge him to surrender
-voluntarily most of his land holdings to the surrounding peasants, and to co-
-operate fully with the Communists in the manner of an “enlightened
+voluntarily most of his land holdings to the surrounding peasants, and to cooperate fully with the Communists in the manner of an “enlightened
 landlord.” The father had followed his son’s advice; and now Hu felt that
 they both had been deceived. He recalled his last meeting with his father,
 when he had refused to follow his father’s advice. He had decided to enter
@@ -9527,15 +9446,13 @@ families.
 In Hu’s family, external forms were still maintained. Although he went
 to live in his uncle’s house nearby and visited his family home infrequently,
 it was still necessary for him to appear on special occasions—for instance,
-the Chinese New Year celebration—to pay his respects to his step-
-grandmother through the traditional symbol of submissive reverence, the
+the Chinese New Year celebration—to pay his respects to his stepgrandmother through the traditional symbol of submissive reverence, the
 k’o-t’ou. He dreaded these visits long in advance, but it was made clear to
 him that he had no choice in the matter because “if I did not, I would be
 condemned by all society.” His step-grandmother, on each such occasion,
 maintained her “humility” and perpetuated the conflict by declaring herself
 “unworthy” of the salutation.
-Hu’s mother, rather than offering him protection against the step-
-grandmother, was herself another victim. Cowed and powerless before her
+Hu’s mother, rather than offering him protection against the stepgrandmother, was herself another victim. Cowed and powerless before her
 
 
 elder, she was so looked down on as a “common woman” from a backward
@@ -9760,8 +9677,7 @@ nails; good men do not become soldiers.” Hu resigned after six months of
 service when he was given the chance; he had come to the conclusion that
 “there could be no hope for the Nationalist government.”
 A veteran enthusiast-cynic at nineteen, Hu’s fortunes now finally
-changed. He managed through friends to gain admission to a much-
-respected high school primarily for overseas Chinese from southeast Asia,
+changed. He managed through friends to gain admission to a muchrespected high school primarily for overseas Chinese from southeast Asia,
 but which took some students in Hu’s displaced circumstances. When the
 
 
@@ -9908,8 +9824,7 @@ To be a young master had its advantages; but it also involved him in a
 premature power struggle from which no child could emerge unscarred. It
 was, moreover, an archaic identity, one which was based upon a system of
 values in human relationships which was rapidly breaking down. Indeed,
-the extremes of behavior in Hu’s family (especially that of his step-
-grandmother) were desperate attempts to hold on to what was already
+the extremes of behavior in Hu’s family (especially that of his stepgrandmother) were desperate attempts to hold on to what was already
 slipping away. Hu’s childhood environment was thus a caricature of
 Chinese family life, an expression of traditionalism rather than tradition.
 A young master was also expected to be a filial son—obedient and
@@ -9940,8 +9855,7 @@ Hu’s case, the controlling person (his grandmother) became a symbol of
 both “irrational authority” and “the past,” so that the two became equated in
 his mind. This is a frequent association for a youth in any culture, but is
 especially strong when he grows up in the midst of crumbling institutions
-and abused family prerogatives. Yet, ironically enough, this step-
-grandmother also supplied Hu with a model for his own later domineering
+and abused family prerogatives. Yet, ironically enough, this stepgrandmother also supplied Hu with a model for his own later domineering
 tendencies, and initiated a response by which Hu came to view almost every
 relationship as essentially a power struggle.
 Rather than the filial son, Hu regarded himself as the abandoned and
@@ -10068,8 +9982,7 @@ almost his undoing.
 
 
 The news of his father’s imprisonment caused him to revert suddenly to
-traditional self-judgments, and to revive his long-standing negative self-
-image of the unfilial son. He experienced the terrible guilt of the son who
+traditional self-judgments, and to revive his long-standing negative selfimage of the unfilial son. He experienced the terrible guilt of the son who
 had defied and, by participating in the Communist movement, had
 overthrown—had symbolically demolished—his father. After this, the
 requirement that he denounce his father in the final summary added salt to
@@ -10093,8 +10006,7 @@ courageous resistance to coercion, to psychological conflict, or to chance?
 Certainly all three factors were important. The chance lay in the opportunity
 he found to leave the country, an opportunity which, to be sure, he had done
 much to create. His bloodhound’s nose for coercion made him especially
-sensitive to the manipulative aspects of thought reform. His heroic self-
-image contributed to the strength of his resistance. At the same time, his
+sensitive to the manipulative aspects of thought reform. His heroic selfimage contributed to the strength of his resistance. At the same time, his
 overwhelming psychological conflicts had produced an urgent need to
 escape. To put it another way, he left because he perceived an
 incompatibility between his personal character structure and the Communist
@@ -10107,8 +10019,7 @@ there as an anti-Communist writer. From what we know about him, and
 
 about Hong Kong, it would have been predictable that he would not have
 had an easy time. At the age of twenty-six, he had not been able to establish
-any workable adult life pattern; he was still in the midst of an action-
-oriented search, a continuous identity crisis, which had begun at the age of
+any workable adult life pattern; he was still in the midst of an actionoriented search, a continuous identity crisis, which had begun at the age of
 sixteen. We would expect him to experiment, as most refugee Chinese
 intellectuals did, with new identities and new ideologies. And we would
 expect his experiments to be consuming in their intensity, heroic in their
@@ -10125,8 +10036,7 @@ preoccupation with his failure to be filial: “I regretted very much that I
 could not be there. . . . It is a strong Chinese tradition that a son should be
 present at the time of his father’s death. It is part of filial piety.” Even
 before this news, he had begun to be discouraged about his difficulty in
-locating an anti-Communist group with whom he could work, about the un-
-concerned attitude of Hong Kong people toward Communist China, and
+locating an anti-Communist group with whom he could work, about the unconcerned attitude of Hong Kong people toward Communist China, and
 about his dependency upon a friend’s kindness for support. Discouragement
 gave way to depression, and for several weeks he had little hope.
 Then a few articles he had written for Hong Kong periodicals caught the
@@ -10144,8 +10054,7 @@ blame upon himself. “I left with the feeling I had personally failed. . . . I
 was disappointed and frustrated, and I had no more ‘heart’.” Some time
 
 
-later the same pattern repeated itself: active involvement with a new anti-
-Communist press organization, severe personal conflicts, then resignation
+later the same pattern repeated itself: active involvement with a new antiCommunist press organization, severe personal conflicts, then resignation
 from the group. The second experience revealed Hu’s panic at the threat of
 being dominated by one of the other leaders. “Although he never came to
 dominate me, I resented the fact that he had been planning ways to do this. .
@@ -10431,8 +10340,7 @@ university where he found that “life was too lonely,” and then changing to
 
 
 another. In the end, he used only four of the five years allotted by his
-scholarship for study in America. He brought back to China a Chinese-
-American bride, as well as considerable admiration for American
+scholarship for study in America. He brought back to China a ChineseAmerican bride, as well as considerable admiration for American
 confidence and self-reliance: “I noticed that Americans, in making their
 own efforts, are sure of their destiny.”
 He described his experiences in his own country during the next twenty
@@ -10561,8 +10469,7 @@ man’s career. When one came into this world he was just like a piece of white 
 no image, nothing engraved on it. Pretty soon when he got into contact with worldly things he carried
 out his own destiny and he could have painted many pictures of many kinds—some gay and some
 sad, some successful, some failures, some permanent, some ephemeral. And this seems to be what
-happened to me. In my life I have gone through all of the stages, but in a moment of self-
-complacency, it would seem to me that everything vanishes again into this original piece of
+happened to me. In my life I have gone through all of the stages, but in a moment of selfcomplacency, it would seem to me that everything vanishes again into this original piece of
 cardboard, without picture, without color, and without emotions.
 This passive resignation—real as it was for Chao—did not prevent him
 from calling into play the more active side of his character. He showed
@@ -10867,8 +10774,7 @@ Communist hegemony imminent, his father—now at home, with little to do
 friends would come and flatter him and amateur palm readers would tell
 him of the brilliant career ahead of him. George bitterly condemned his
 father’s self-indulgence, his eating too much, and his wasting of time and
-money. But he was even more angered by the futile, last-ditch anti-
-Communist activities in which his father suddenly became involved,
+money. But he was even more angered by the futile, last-ditch antiCommunist activities in which his father suddenly became involved,
 considering them nothing more than an escape from idleness, and
 potentially harmful to others in the family.
 When the Communist armies entered Canton, however, George realized
@@ -11144,8 +11050,7 @@ openminded, and innocent. . . . I admitted that germ warfare was a fact, and I t
 a picture of the fierce American … but my impression of the innocent American never quite
 diminished. . . . But then I was ashamed of myself for not being emotional enough.
 Beyond these personal limitations, however, George was impressed with
-the effectiveness of the germ warfare agitation, not only in stirring up anti-
-American feeling and in rallying the Chinese people in a greater effort in
+the effectiveness of the germ warfare agitation, not only in stirring up antiAmerican feeling and in rallying the Chinese people in a greater effort in
 the Korean war, but also in serving as a stimulus for a nationwide hygiene
 campaign, a campaign in which the students participated by laboring on
 improvement of their university sewage and drainage systems.
@@ -11260,8 +11165,7 @@ George even admitted that he had been happier on the mainland than he
 was in Hong Kong “because of my friends there and the absence of
 financial worry.”
 But before long, George settled into Hong Kong life, busying himself
-with studies at a local college, with editing and writing for an anti-
-Communist press organization, and with work on a novel about his life in
+with studies at a local college, with editing and writing for an antiCommunist press organization, and with work on a novel about his life in
 Communist China. Although he was convinced that he had made the correct
 decision, he was still disturbed by letters from friends on the mainland
 which criticized his action and referred to the exciting future for young men
@@ -11375,8 +11279,7 @@ British colony of Hong Kong, he had experienced a good deal less of
 traditional Chinese life. Like the others he was brought up to be a filial son,
 obedient to his elders, loyal to his family. But as a member of a younger,
 more “modern” generation, he had fewer Confucian influences to contend
-with, and had from the beginning been exposed to a compromise Chinese-
-Western family atmosphere. This, along with his family’s opportunity to
+with, and had from the beginning been exposed to a compromise ChineseWestern family atmosphere. This, along with his family’s opportunity to
 keep together, gave him a greater sense of cultural continuity than either
 Chao or Hu: less “Chinese” to begin with, he had less need to break with
 his Chinese past. Offered love and support from his family, his filialism,
@@ -11473,8 +11376,7 @@ frequently present in creative people: a tendency to open oneself completely
 to new influences as a way of knowing them. It is also the romantic’s
 eternal quest for an atmosphere of love.
 These tendencies are part of the reason George was such a perennial
-backslider, why he underwent so many conversions and counter-
-conversions. There were no less than six of these in relation to
+backslider, why he underwent so many conversions and counterconversions. There were no less than six of these in relation to
 Communism, both for and against, and still another in his earlier response
 to Christianity. Any explanation must be, as usual, overdetermined, and
 must be based on both George’s personal character and on the historical and
@@ -12206,8 +12108,7 @@ reform an unusual emotional coloring. As a Westernized Christian girl, she
 was immediately identified (and not entirely inaccurately) as one of the
 opposition. Studying in a missionary-established “castle of reaction,” she
 was in this respect by no means alone. But she was particularly vulnerable
-because of her close relationship with an American teacher—an artist-
-disciple bond, in which, protected by barriers of culture and status, she
+because of her close relationship with an American teacher—an artistdisciple bond, in which, protected by barriers of culture and status, she
 could experience a form of love. This does not however account for the
 extreme emotional pain she suffered during thought reform; her inner stress
 was greater than any of my other Chinese subjects, with the possible
@@ -12349,8 +12250,7 @@ and his older brothers and sisters, through the unconscious transmission of
 cultural forms as well as through their conscious elaboration. And the
 indoctrination began early: when only three or four, a child might be told
 stories (in a culture very fond of storytelling) of the famous “Twenty-four
-Examples of Filial Piety.” These included such tales as that of the eight-
-year-old boy who allowed mosquitoes to “feed without restraint upon his
+Examples of Filial Piety.” These included such tales as that of the eightyear-old boy who allowed mosquitoes to “feed without restraint upon his
 blood until they were satisfied” in order to prevent them from biting his
 parents; of the seventy-year-old man who dressed himself in gaily-colored
 garments and played like a child “in order to amuse his parents”; and the
@@ -12513,8 +12413,7 @@ phenomenon: “The Confucian insistence on filial duty and the strict training
 of the young would seem harsh until it is realized that the Chinese, a people
 naturally over-kind and indulgent to children, are also averse to
 discipline.”11 Yet during the traditional period Confucianism prevailed over
-all rival ideologies, for its stress upon filial piety gave it a biologically-
-based social ethic of great force, an ethic known in all societies, but brought
+all rival ideologies, for its stress upon filial piety gave it a biologicallybased social ethic of great force, an ethic known in all societies, but brought
 to its highest development in China.
 Did this ethic allow for maximum personal growth? Could the identity of
 the filial son provide a rewarding sense of existence? Fung Yu-lan answers
@@ -12566,8 +12465,7 @@ and it will be everywhere the law of men, and their obedience to it will be unif
 
 
 Whatever its strains, filialism was the source of the predominant identity
-of traditional China, a basic ideal against which any other form of self-
-image had to be judged. To be regarded as “unfilial” was to be placed
+of traditional China, a basic ideal against which any other form of selfimage had to be judged. To be regarded as “unfilial” was to be placed
 beyond the pale. The heritage of the filial son was one of the strongest and
 most enduring national identities ever created.
 Transitional Rebellion: The Modern Student
@@ -12635,8 +12533,7 @@ In the New Tide, the modern student found something different from all
 that had gone before: a movement which advocated a break with tradition
 that would be both deliberate and decisive, and which made a special plea
 for young people to assume leadership within it. “It is the youth who must
-save this great revolution from the powers of the past,” wrote Ch’en Tu-
-hsiu, one of the leading figures of the New Tide, in the magazine which he
+save this great revolution from the powers of the past,” wrote Ch’en Tuhsiu, one of the leading figures of the New Tide, in the magazine which he
 
 
 edited appropriately entitled The New Youth. The modern student was even
@@ -12772,8 +12669,7 @@ traditional Chinese society, but they have overlooked something else in it
 which is equally important: the desperate psychological plight—the
 intolerable anger and overwhelming sense of guilt—of the man who has
 chosen the path of rebellion. The story’s hero is burdened by three great
-sins: first, having participated in and “tasted” the rewards of the “man-
-eating” society which he now condemns; second, defying four thousand
+sins: first, having participated in and “tasted” the rewards of the “maneating” society which he now condemns; second, defying four thousand
 years of authority in making this condemnation; and third, harboring within
 himself such explosive hatred.
 Through his imaginative use of his hero’s psychosis, Lu Hsun made
@@ -12984,8 +12880,7 @@ emotional torment; not only could hostility be expressed and guilt atoned
 for, but there seemed to be the promise of an identity which was both new
 and Chinese.
 Yet at first, for most intellectuals, all of this was no more than a
-possibility, and here is where thought reform enters the picture. In the mid-
-1930’s intellectuals recruited to the Communist-held border area—just a
+possibility, and here is where thought reform enters the picture. In the mid1930’s intellectuals recruited to the Communist-held border area—just a
 handful from among the great numbers who were embracing Communism
 —were already undergoing a kind of re-education which closely resembled
 later thought reform programs. From that time on, thought reform took
@@ -13007,8 +12902,7 @@ emotional commodities too valuable for the Communists to waste, even if it
 were possible to dispel them. “Hate your past to win your future,” the
 reformers urged, and they meant it. But they might well have added, “Do
 not hate it so much that you cannot bring us its sense of filial dedication.”
-The reformed intellectual was expected to be, as before, loyal, self-
-disciplined, and obedient—now a filial son of the Communist regime.
+The reformed intellectual was expected to be, as before, loyal, selfdisciplined, and obedient—now a filial son of the Communist regime.
 Thought reform placed equal stress on its second task, the undermining
 of lingering effects of Western liberalism. Liberalism was a dangerous rival;
 it still appealed to many intellectuals as an inner alternative to Communist
@@ -13118,8 +13012,7 @@ subjectivism: “Marxism-Leninism, derived from objective reality and tested
 by objective reality, is the most correct, scientific, and revolutionary
 truth.”44 This form of scientism (I use the term to mean both a false claim of
 precision based upon an alleged natural science model, and a deification of
-science itself) has a very special appeal for those rebelling against a non-
-Western, nonscientific cultural tradition. Scientism was thus a comfortable
+science itself) has a very special appeal for those rebelling against a nonWestern, nonscientific cultural tradition. Scientism was thus a comfortable
 ideological resting place for many Chinese intellectuals after the confusing
 array of ideas to which they had been so recently exposed.
 The Communists equated most additional criticisms either with
@@ -13163,8 +13056,7 @@ progress. He was, moreover, offered an identity alternative which was just
 the opposite of liberal and sentimental softness: that of a “straightforward,
 loyal, and positive” person who would, “no matter where or when, uphold
 correct principles and struggle untiringly against all incorrect thoughts and
-actions”46—in other words, he was to become definite rather than wishy-
-washy, active and “masculine” rather than passive and “feminine.”
+actions”46—in other words, he was to become definite rather than wishywashy, active and “masculine” rather than passive and “feminine.”
 The methodical criticisms and self-criticisms of thought reform’s second
 stage are thus aimed at breaking down every emotional identification which
 
@@ -13190,8 +13082,7 @@ influences (as they were for three of my four Chinese subjects). Indeed, the
 most celebrated denunciations of fathers were cases in which the fathers
 had distinguished themselves mostly in connection with Western learning:
 Lu Chih-wei, the former president of Yenching University, whose
-humiliation by his daughter was described by Grace Wu, was an American-
-trained psychologist; Liang Chi-ch’iao, who was posthumously condemned
+humiliation by his daughter was described by Grace Wu, was an Americantrained psychologist; Liang Chi-ch’iao, who was posthumously condemned
 by his son, himself a university professor, was one of the great early
 reformers; and a widely-publicized attack was made upon Hu Shih (in
 absentia) by his son. The latter called his father a “public enemy of the
@@ -13325,8 +13216,7 @@ had nothing to do with thought reform. And even in the Soviet Union,
 according to an American authority, there has been nothing to indicate that
 psychiatrists or psychologists have shaped confession or indoctrination
 techniques, or even that Pavlovian theory has been an important model for
-propaganda approaches.1 In all three of these theories there is the twentieth-
-century tendency to single out the scientific specialist both as the fountain
+propaganda approaches.1 In all three of these theories there is the twentiethcentury tendency to single out the scientific specialist both as the fountain
 of all knowledge and the perpetrator of all evil. Moreover, all of them
 neglect the two great historical forces which shaped thought reform:
 Chinese culture and Russian Communism.
@@ -13492,8 +13382,7 @@ confession.8
 How did this blending of cultural styles occur? The extensive thought
 reform program which the Communists had ready at the moment of the
 takeover was obviously the product of years of preparation. I was fortunate
-in being able to discuss this question in some detail with Mr. Chang Kuo-
-t’ao, one of the leading figures of the early Chinese Communist movement
+in being able to discuss this question in some detail with Mr. Chang Kuot’ao, one of the leading figures of the early Chinese Communist movement
 until his defection in 1938. According to Mr. Chang, the Communists began
 to employ systematic, if crude, reform techniques as early as the late
 1920’s. Communist leaders commanding small and relatively isolated
@@ -13763,8 +13652,7 @@ among Westerners; for he was not (except in rare cases) forced to make a
 sudden transition from one world to another. He often tried to dispel his
 doubts by behaving like a zealous convert, and in doing so, may have
 resembled a Western apparent convert immediately after his reform
-experience. In a historical sense, the adapter was following a long-
-established pattern of Chinese intellectuals: accepting the change in dynasty
+experience. In a historical sense, the adapter was following a longestablished pattern of Chinese intellectuals: accepting the change in dynasty
 as part of the order of things, placing his talents at the disposal of the new
 rulers, and seeing in the reign both good and evil, but not enough good to
 win his absolute enthusiasm nor enough evil to provoke his unqualified
@@ -14003,8 +13891,7 @@ Chinese Communist regime, deeply identified as it was with Stalinism, had
 suppressed most of the details. Wang gave a surprising answer: someone
 had discovered the text of the speech in a copy of the New York Daily
 Worker in a library. The Worker was, of course, the only American
-newspaper available to students. This information was spread by word-of-
-mouth, and many students went to the library to read the speech. It was a
+newspaper available to students. This information was spread by word-ofmouth, and many students went to the library to read the speech. It was a
 shock to them to learn that the Russian system was “not democratic” and
 that the man held up to them as such a humane leader, whose writings they
 used in their courses, had put so many people to death.
@@ -14040,8 +13927,7 @@ engulfed the whole university.” Students brought up the same complaints as
 other critics. They also raised issues particularly important to them as a
 group. They complained of the Party’s arbitrary control over their programs
 of study and of their later job assignments; they asked for free expression of
-student opinion; they praised the “courageous” actions of their fellow-
-students in Hungary and Poland. One of the most persistent themes,
+student opinion; they praised the “courageous” actions of their fellowstudents in Hungary and Poland. One of the most persistent themes,
 expressed both on the bulletin board and during debates, was, “We should
 find out what freedom and democracy mean.”
 At one point, a Party official tried to restrain the Peking University
@@ -14173,12 +14059,10 @@ confirmed by the revised official estimates of the intellectuals’ ideological
 status after the Hundred Flowers episode. In 1958, commentators placed
 “only a few” of China’s intellectuals in the category of fully acceptable
 “working class intellectuals” (fewer than Chou En-lai’s 1956 estimate of 40
-per cent), characterizing the majority of intellectuals as “middle-of-the-
-roaders” (more than Chou’s 1956 estimate of 40 per cent). Although these
+per cent), characterizing the majority of intellectuals as “middle-of-theroaders” (more than Chou’s 1956 estimate of 40 per cent). Although these
 estimates are hardly precise (they may have been exaggerated to spur the
 intellectuals on to greater efforts), the Hundred Flowers incident itself
-suggests that they may correctly indicate a trend. By “middle-of-the-
-roaders,” the Communists did not mean “bourgeois rightists” (who
+suggests that they may correctly indicate a trend. By “middle-of-theroaders,” the Communists did not mean “bourgeois rightists” (who
 presumably had already been dealt with), but rather those intellectuals who
 had reacted with emotional passivity and partial withdrawal to an over-dose
 of thought reform. Such passive tendencies can be observed in Chinese
@@ -14240,8 +14124,7 @@ evidence suggests that the Communists were as surprised as anyone else at
 the response. Yet this ex post facto claim does have a kernel of truth: for in
 any system as total as thought reform, liberalization is at best a device, a
 purposeful technique rather than an expression of genuine conviction.
-Thought reform manipulates the sequence of suffocation-liberalization-
-suffocation, and in so doing ensures that Communist realities remain at the
+Thought reform manipulates the sequence of suffocation-liberalizationsuffocation, and in so doing ensures that Communist realities remain at the
 
 
 center of the stage, whatever the degree of enthusiasm or resentment of the
@@ -14288,8 +14171,7 @@ OceanofPDF.com
 
 CHAPTER 22
 IDEOLOGICAL TOTALISM
-Thought reform has a psychological momentum of its own, a self-
-perpetuating energy not always bound by the interests of the program’s
+Thought reform has a psychological momentum of its own, a selfperpetuating energy not always bound by the interests of the program’s
 directors. When we inquire into the sources of this momentum, we come
 upon a complex set of psychological themes, which may be grouped under
 the general heading of ideological totalism. By this ungainly phrase I mean
@@ -14352,8 +14234,7 @@ evidences of “incorrect” use of the apparatus. For they look upon milieu
 control as a just and necessary policy, one which need not be kept secret:
 thought reform participants may be in doubt as to who is telling what to
 whom, but the fact that extensive information about everyone is being
-conveyed to the authorities is always known. At the center of this self-
-justification is their assumption of omniscience, their conviction that reality
+conveyed to the authorities is always known. At the center of this selfjustification is their assumption of omniscience, their conviction that reality
 is their exclusive possession. Having experienced the impact of what they
 
 
@@ -14435,8 +14316,7 @@ himself to them. He becomes sensitive to all kinds of cues, expert at
 anticipating environmental pressures, and skillful in riding them in such a
 way that his psychological energies merge with the tide rather than turn
 painfully against himself. This requires that he participate actively in the
-manipulation of others, as well as in the endless round of betrayals and self-
-betrayals which are required.
+manipulation of others, as well as in the endless round of betrayals and selfbetrayals which are required.
 But whatever his response—whether he is cheerful in the face of being
 manipulated, deeply resentful, or feels a combination of both—he has been
 deprived of the opportunity to exercise his capacities for self-expression
@@ -14647,8 +14527,7 @@ continuous pressure toward personal closure, toward avoiding, rather than
 grappling with, the kinds of knowledge and experience necessary for
 genuine self-expression and for creative development.
 Loading the Language
-The language of the totalist environment is characterized by the thought-
-terminating cliché. The most far-reaching and complex of human problems
+The language of the totalist environment is characterized by the thoughtterminating cliché. The most far-reaching and complex of human problems
 
 
 are compressed into brief, highly reductive, definitive-sounding phrases,
@@ -14901,8 +14780,7 @@ extremist tendencies in those outsiders under attack, thus creating a vicious
 circle of totalism.
 What is the source of ideological totalism? How do these extremist
 emotional patterns originate? These questions raise the most crucial and the
-most difficult of human problems. Behind ideological totalism lies the ever-
-present human quest for the omnipotent guide—for the supernatural force,
+most difficult of human problems. Behind ideological totalism lies the everpresent human quest for the omnipotent guide—for the supernatural force,
 political party, philosophical ideas, great leader, or precise science—that
 will bring ultimate solidarity to all men and eliminate the terror of death and
 nothingness. This quest is evident in the mythologies, religions, and
@@ -14925,8 +14803,7 @@ dependency through which each of us must pass. Limited as he is, the infant
 has no choice but to imbue his first nurturing authorities—his parents—
 with an exaggerated omnipotence, until the time he is himself capable of
 some degree of independent action and judgment. And even as he develops
-into the child and the adolescent, he continues to require many of the all-or-
-none polarities of totalism as terms with which to define his intellectual,
+into the child and the adolescent, he continues to require many of the all-ornone polarities of totalism as terms with which to define his intellectual,
 emotional, and moral worlds. Under favorable circumstances (that is, when
 family and culture encourage individuation) these requirements can be
 replaced by more flexible and moderate tendencies; but they never entirely
@@ -15236,8 +15113,7 @@ balance between a vigorous presentation of available knowledge and the
 encouragement of those elements of the student’s imagination which may
 someday transcend that knowledge in new discovery.
 Psychological Re-education
-Psychotherapy and psychoanalysis are forms of psychological re-
-education; but they focus less upon man’s knowledge of the world about
+Psychotherapy and psychoanalysis are forms of psychological reeducation; but they focus less upon man’s knowledge of the world about
 him than upon his understanding of his own self. Their concern with the
 most fundamental and the most hidden of human emotions adds a special
 depth to their re-educating efforts, and a special intensity to their influence.
@@ -15297,8 +15173,7 @@ From the standpoint of the criteria for ideological totalism, we may raise
 the following additional questions: Does this combination of personal
 therapy, professional instruction, and organizational influence—all
 mediated by a single training institute—create a tendency toward milieu
-control? Does it cause the institute itself to become surrounded with a near-
-mystical aura? Do these circumstances—especially the candidate’s learning
+control? Does it cause the institute itself to become surrounded with a nearmystical aura? Do these circumstances—especially the candidate’s learning
 a scientific doctrine in connection with its therapeutic application to his
 own psychological distress—create an implicit demand for ideological
 purity? And do they raise the possibility that his analyst and his institute, by
@@ -15342,8 +15217,7 @@ however, they are bound to interfere with intellectual progress, and with the
 emergence of those creative spirits which any discipline requires if it is to
 continue to contribute to the stream of human thought.
 I shall mention briefly just a few more of the many implications of this
-study of thought reform for the theory and practice of psychiatric re-
-education. The first pertains to the concept of “resistance,” which is basic to
+study of thought reform for the theory and practice of psychiatric reeducation. The first pertains to the concept of “resistance,” which is basic to
 most psychotherapy. Since thought reform has its own notion of
 “resistance,” the caricatured exaggerations of ideological totalism can be
 helpful in examining some of the presuppositions of more moderate and
@@ -15451,8 +15325,7 @@ stimuli which they offer. At one pole is the deprived milieu—the milieu of
 for the maintenance within the individual person of a reasonable degree of
 interest in and responsiveness toward his surroundings. Such an
 environment has been created under experimental conditions, and it
-produces patterns of boredom, restlessness, stimulus-hunger, extensive day-
-dreaming, loss of organized thinking, hynogogic states, and a variety of
+produces patterns of boredom, restlessness, stimulus-hunger, extensive daydreaming, loss of organized thinking, hynogogic states, and a variety of
 hallucinatory experiences. The rough equivalent of a deprived milieu within
 a psychiatric environment is the old-fashioned back ward in which patients
 sat about (and unfortunately still sit about) aimlessly, with little or no
@@ -15528,8 +15401,7 @@ disciplined imagination, and a willingness to risk being wrong—or to
 expose (in Riesman’s term) the “nerve of failure.”
 Religion, Political Religion, and Science
 I have already suggested that thought reform bears many resemblances
-to practices of organized religion, and to various kinds of religious re-
-education. Indeed, most of the psychological themes of ideological totalism
+to practices of organized religion, and to various kinds of religious reeducation. Indeed, most of the psychological themes of ideological totalism
 can be found somewhere in the Judeo-Christian tradition, however indirect
 any such theological influences may have been in the development of
 thought reform itself. These totalist tendencies have usually been related
@@ -15685,8 +15557,7 @@ The god side of the axis (by no means confined to the Communist world)
 is expressed vividly by Michael Polanyi:
 . . . just as the three centuries following on the calling of the Apostles sufficed to establish
 Christianity as the state religion of the Roman Empire, so the three centuries after the founding of the
-Royal Society sufficed for science to establish itself as the supreme intellectual authority of the post-
-Christian age. “It is contrary to religion!”—the objection ruled supreme in the 17th century. “It is
+Royal Society sufficed for science to establish itself as the supreme intellectual authority of the postChristian age. “It is contrary to religion!”—the objection ruled supreme in the 17th century. “It is
 unscientific!” is its equivalent in the 20th.33
 Accompanying this deification is the expectation that science will supply a
 complete and absolutely accurate mechanistic theory of a closed and totally
@@ -16063,8 +15934,7 @@ importance of character formation during early life, but rather to suggest
 that the altering of adult identity depends upon a specific recapturing of
 much of the emotional tone which prevailed at the time that this adult
 identity took shape. This view is consistent with William James’ association
-of religious conversion with “the ordinary storm and stress and moulting-
-time of adolescence,” and his conviction that “conversion is in its essence a
+of religious conversion with “the ordinary storm and stress and moultingtime of adolescence,” and his conviction that “conversion is in its essence a
 normal adolescent phenomenon, incidental to the passage from the child’s
 small universe to the wider intellectual and spiritual life of maturity.”13 The
 “moulting-time” of youth, then, establishes within each man a model for
@@ -16298,8 +16168,7 @@ with Americans, I became instilled with pro-American thoughts which
 prevented me from realizing American imperialism’s plots of aggression
 against China during the past hundred years, and turned me into an
 unconscious instrument of American imperialistic cultural aggression. I
-cried bitterly over the Twenty-one Demands, but took no notice of the Sino-
-American Treaty of Friendship, Commerce and Navigation. While I was
+cried bitterly over the Twenty-one Demands, but took no notice of the SinoAmerican Treaty of Friendship, Commerce and Navigation. While I was
 highly indignant at the time of the Tsinan Incident during the Northern
 Expedition, and was all for resisting Japan when the Mukden incident and
 the Luguochiao Incident took place, I nevertheless remained blind to the
@@ -16320,8 +16189,7 @@ countries to interfere in their internal affairs. All these ideas were of course
 mistaken and reactionary. My principal mistake lay in thinking of the Soviet
 Union as devoid of individual freedom. At that time, in failing to take the
 October Revolution as an epoch-making great event of history, I only tried
-to antagonize the Soviet Union on the basis of my individual liberal pro-
-America ideology. It was only after the liberation that I succeeded gradually
+to antagonize the Soviet Union on the basis of my individual liberal proAmerica ideology. It was only after the liberation that I succeeded gradually
 in gaining an understanding of true freedom, and thus to change my attitude
 toward the Soviet Union.
 With regard to student movements, I nearly always maintained a
@@ -16711,8 +16579,7 @@ those who have become acutely alienated from—and hypersensitive to the shortco
 own cultural institutions. Thus, when Dr. Vincent spoke of the wasted time spent by the Westerners
 living in Hong Kong (“spending four hours for nothing—between one drink and another smoke and
 wait for tomorrow”), he was of course expressing his own sense of dislocation; but he was also
-observing, through magnifying emotional lenses, real problems of purposelessness within the non-
-Communist world.
+observing, through magnifying emotional lenses, real problems of purposelessness within the nonCommunist world.
 CHAPTER 7 (117–132)
 1 A conscience is “negative” when it is based upon an exaggerated sense of sin. See Young Man
 Luther, 193.
@@ -17063,8 +16930,7 @@ Thought since Wang Yang-ming,” Studies in Chinese Thought, 112—145.
 6 Lily Abegg, The Mind of East Asia, Thames and Hudson, London, 1952, Chapters 2 and 3.
 7 In terms of logic, both follow the “law of opposition,” rather than the traditional Western pattern
 of the “law of identity”; but their difference lies in the Chinese emphasis upon “adjustment” in
-relationship to this opposition, in contrast to the Marxist emphasis upon “struggle.” See Chang Tung-
-sun, “A Chinese Philosopher’s Theory of Knowledge,” The Yenching Journal of Social Studies
+relationship to this opposition, in contrast to the Marxist emphasis upon “struggle.” See Chang Tungsun, “A Chinese Philosopher’s Theory of Knowledge,” The Yenching Journal of Social Studies
 (Peking, 1939) 1:155–189.
 8 Robert Van Gulik, The Chinese Bell Murders, New York, Harper Bros., 1958, 258.
 9 Boyd Compton, op. cit., xv-lii; and Brandt, Schwartz, and Fairbank, op. cit 372–375.
@@ -17183,8 +17049,7 @@ Social Phenomenon of Our Time,” Human Organization (1955) 13:16–18; and by J
 14 In his presidential address of that year to the American Psychoanalytic Association
 (Psychoanalysis and Psychotherapy, 177–178), Alexander stated: “They [psychoanalysts] should lose
 the defensive attitude of a minority group, the militant soldiers of a Weltanschaung attacked by and
-therefore antagonistic to the world. Rather than disseminators of the gospel, they must become self-
-critical scientists. For psychoanalysis as a whole, this leads to the simple but unavoidable conclusion
+therefore antagonistic to the world. Rather than disseminators of the gospel, they must become selfcritical scientists. For psychoanalysis as a whole, this leads to the simple but unavoidable conclusion
 that the sooner psychoanalysis as a ‘movement’ disappears, the better.”
 
 
@@ -17241,8 +17106,7 @@ cautious than Shils in relating the general populist movement to McCarthyism.
 34 Dr. T. F. Fox, editor of Lancet, quoted in The New York Times, October 22, 1959.
 35 This close relationship between godhood and devildom has a long tradition: Margaret Murray
 demonstrated, in The God of The Witches, New York, Oxford University Press, 1952, that the devil
-himself is no one but the Horned God widely worshipped during the Bronze Age and Iron Age of pre-
-Christian Europe, and that “the God of the old religion becomes the Devil of the new.” This statement
+himself is no one but the Horned God widely worshipped during the Bronze Age and Iron Age of preChristian Europe, and that “the God of the old religion becomes the Devil of the new.” This statement
 has a good deal of significance for thought reform and totalism in general.
 36 Albert Einstein, Out of My Later Years, New York, Philosophical Library, 1950, 21–23.
 37 J. Robert Oppenheimer, The Open Mind, New York, Simon & Schuster, 1955, 93–94.

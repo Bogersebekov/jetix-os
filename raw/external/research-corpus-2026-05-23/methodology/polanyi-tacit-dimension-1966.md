@@ -9,8 +9,11 @@ chars: 177035
 approx_tokens: 44258
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 177037
+phase4_chars_after: 176994
+phase4_saved_pct: 0.0
 ---
-
 
 
 THE TACIT DIMENSION
@@ -51,7 +54,7 @@ BD16I.P724 2009
 121—dc22
 2008047128
 The paper used in this publication meets the minimum requirements of
-the American National Standard for Information Sciences—Permanence of 
+the American National Standard for Information Sciences—Permanence of
 Paper for Printed Library Materials, ANSI Z39.48-1992.
 This ePub was created from the OCR'd PDF found on the Internet. OCR
 errors were carefully corrected and the text prepared for this unofficial ePub
@@ -161,7 +164,7 @@ well as on his seemingly limitless curiosity about the ideas and analyses
 presented by scholars in a wide range of fields over thousands of years.
 Michael Polanyi’s polymathic background is, I would argue, quite
 important in understanding the nature of his philosophical engagement.
-2
+
 When Michael Polanyi gave his Terry Lectures in 1962, he had entered the
 eighth decade of his life. When this book, based on those lectures, was first
 published in 1966, the Times Literary Supplement noted, in an enthusiastic
@@ -197,7 +200,7 @@ account (1) for a valid knowledge of a problem, (2) for the scientist’s
 capacity to pursue it, guided by his sense of approaching his solutions, and
 (3) for a valid anticipation of the yet indeterminate implications of the
 discovery arrived at in the end.”
-3
+
 Polanyi also uses the idea of tacit knowledge to tackle a paradox, discussed
 by Plato, called “Meno’s paradox.” This deals with the view that the search
 for knowledge is an absurdity, since either you know it already, in which
@@ -227,7 +230,7 @@ through this long line of reasoning, but even those who would find the
 endpoint of the book to be far too ambitious would certainly reap a great
 many insights from the wide-ranging discussions that Polanyi presents to
 his readers.
-4
+
 A question that may be worth asking relates to Michael Polanyi’s
 continuing status as an “outsider” in professional philosophy, despite his
 extensive and forceful writings, including this book, on that general subject.
@@ -254,7 +257,7 @@ There are a great many interesting points in the book that would engage the
 reader, even if it is too much to expect that every reader would invariably
 agree with the conclusions that Polanyi derives from his stimulating lines of
 inquiry.
-5
+
 However, the question does remain: given the reach of his philosophical
 ideas, why is Michael Polanyi treated as a respected outsider, rather than as
 an insider, in contemporary Anglo-American philosophy? To say, as some
@@ -410,8 +413,7 @@ Unity of Knowledge” (Psychological Issues, in press).
 OceanofPDF.com
 
 
--1-
-TACIT KNOWING
+-1TACIT KNOWING
 OceanofPDF.com
 
 
@@ -582,8 +584,7 @@ shock.
 Here we have the basic definition of the logical relation between the first
 and second term of a tacit knowledge. It combines two kinds of knowing.
 We know the electric shock, forming the second term, by attending to it,
-and hence the subject is specifiably known. But we know the shock-
-producing particulars only by relying on our own awareness of them for
+and hence the subject is specifiably known. But we know the shockproducing particulars only by relying on our own awareness of them for
 attending to something else, namely the electric shock, and hence our
 knowledge of them remains tacit. This is how we come to know these
 particulars, without becoming able to identify them. Such is the functional
@@ -983,8 +984,7 @@ of the process will make sense of it in terms of an experience to which we are a
 OceanofPDF.com
 
 
--2-
-EMERGENCE
+-2EMERGENCE
 OceanofPDF.com
 
 
@@ -1572,8 +1572,7 @@ altogether in this causal chain.
 OceanofPDF.com
 
 
--3-
-A SOCIETY OF EXPLORERS
+-3A SOCIETY OF EXPLORERS
 OceanofPDF.com
 
 
@@ -1603,8 +1602,7 @@ Now we enter a new range of subjects. We must ask whether intellectual
 powers, grounded in tacit knowing and descended from evolutionary
 emergence, can exercise the kind of responsible judgment which we must
 claim if we are to attribute a moral sense to man. Could, in fact, my rebuttal
-of exactitude as the ideal of science open the way toward a theory re-
-establishing the justification of moral standards?
+of exactitude as the ideal of science open the way toward a theory reestablishing the justification of moral standards?
 Let me take my bearings once more from the questions which formed my
 point of departure. I told you how I was struck by the theory that prevailed
 for a considerable time under Stalin in Soviet Russia, which denied the
@@ -1695,8 +1693,7 @@ scientific testimony of Marxism. Marxism embodies the boundless moral
 aspirations of modern man in a theory which protects his ideals from
 skeptical doubt by denying the reality of moral motives in public life. The
 power of Marxism lies in uniting the two contradictory forces of the
-modern mind into a single political doctrine. Thus originated a world-
-embracing idea, in which moral doubt is frenzied by moral fury and moral
+modern mind into a single political doctrine. Thus originated a worldembracing idea, in which moral doubt is frenzied by moral fury and moral
 fury is armed by scientific nihilism.
 Bukharin, explaining urbanely, in the spring of 1935, that scientific truth
 would no longer be pursued for its own sake under socialism, completed the
@@ -1714,8 +1711,7 @@ men are getting weary of ideas sprung from a combination of skepticism
 and perfectionism. It may be worth trying to go back to our foundations and
 seek to lay them anew, more truly.
 I have prepared for this in certain respects. All I have said implied my
-repudiation of the grounds on which the absolute intellectual self-
-determination of man was proclaimed by the great philosophic movement
+repudiation of the grounds on which the absolute intellectual selfdetermination of man was proclaimed by the great philosophic movement
 engendered by the Enlightenment. For to acknowledge tacit thought as an
 
 
@@ -2197,8 +2193,7 @@ challenges others to transform themselves in its image. To this extent, then,
 establish and make our own.
 But does this show us that “man is his own beginning, author of all his
 values”? If originality in science is taken as an example of existential
-choice, these claims of Nietzsche’s and Sartre’s existentialism appear ill-
-conceived. The most daring innovations of science spring from a vast range
+choice, these claims of Nietzsche’s and Sartre’s existentialism appear illconceived. The most daring innovations of science spring from a vast range
 of information which the scientist accepts unchallenged as a background to
 his problem. Even when he is led to modify the standards of scientific
 merit, current standards will be the basis of this reform. Science as a whole,
@@ -2304,8 +2299,7 @@ principles, is more vital than the truth of science. This is why the
 independent cultivation of such truth has proved an intolerable menace to
 modern tyranny. I have now roughly generalized the principles underlying
 the pursuit of science to include the cultivation of man’s other ideals. The
-result shows how closely the growth of thought intrinsically limits our self-
-determination everywhere. Whether his calling lies in literature or art, or in
+result shows how closely the growth of thought intrinsically limits our selfdetermination everywhere. Whether his calling lies in literature or art, or in
 moral and social reform, even the most revolutionary mind must choose as
 his calling a small area of responsibility, for the transformation of which he
 will rely on the surrounding world as its premises. Perfectionism, which
@@ -2313,8 +2307,7 @@ would transform the whole of thought and the entire society, is a program of
 destruction, ending up at best in a world of pretense. The existentialist
 contempt for all values not chosen by ourselves, condemning them as bad
 faith, is likewise either empty or destructive.
-There is another way of dealing with the claim to absolute self-
-determination and the demands of perfectionism. I could reject these
+There is another way of dealing with the claim to absolute selfdetermination and the demands of perfectionism. I could reject these
 inordinate endeavors by referring to the logic by which successive levels of
 reality are related to each other. All our higher principles must rely for their
 working on a lower level of reality and this necessarily sets limits to their
@@ -2586,8 +2579,7 @@ Note also that numerous Russian observations, reported by Razran, G.,
 
 Review (Vol. 68, 1961), p. 81, have established the conditioning of intestinal
 stimuli, having a similar covert character as Hefferline’s muscular twitches.
-(4) Dilthey, W., Gesammelte Schriften (Vol. VII, Leipzig and Berlin, 1914-
-36), pp. 2.13-16; [Translation by H. A. Hodges, Wilhelm Dilthey (New
+(4) Dilthey, W., Gesammelte Schriften (Vol. VII, Leipzig and Berlin, 191436), pp. 2.13-16; [Translation by H. A. Hodges, Wilhelm Dilthey (New
 York, Oxford University Press, 1944), pp. 121-2.4].
 (5) Lipps, T., Asthetik (Hamburg, 1903).
 (6) W. Haas, writing as a linguist, has come to similar conclusions about the
@@ -2595,8 +2587,7 @@ hierarchic structure of language. See W. Haas, “Relevance in Phonetic
 Analysis,” Word (V ol. 15, 1959), pp. 1-18; “Linguistic Structures” Word
 (Vol. 16, 1960), pp. 2.51-76; also “Why Linguistics Is Not a Physical
 Science,” paper presented to the International Congress for Logic,
-Methodology and Philosophy of Science, Jerusalem, Israel, August-
-September 1964.
+Methodology and Philosophy of Science, Jerusalem, Israel, AugustSeptember 1964.
 (7) See Personal Knowledge, pp. 328-35; Study of Man, pp. 47-52; “Tacit
 Knowing and Its Bearing on Some Problems of Philosophy,” 1962;
 “Science and Man’s Place in the Universe,” 1964; “On the Modern Mind,”
@@ -2661,8 +2652,7 @@ Science as a Cultural Force (Johns Hopkins, 1964).
 “On the Modern Mind,” Encounter (May 1965).
 “The Structure of Consciousness/” Brain (Vol. 88, Part IV, 1965), pp.
 799-810.
-“The Logic of Tacit Inference,” Philosophy (Vol. 40, 1966), pp. 369-
-86.
+“The Logic of Tacit Inference,” Philosophy (Vol. 40, 1966), pp. 36986.
 “The Creative Imagination,” Chemical and Engineering News (Vol.
 44, No. 17, 1966).
 “The Growth of Science in Society,” Encounter (1966).
@@ -2938,24 +2928,24 @@ OceanofPDF.com
 
 
 PHILOSOPHY | SCIENCE
-“I shall reconsider human knowledge by starting from the fact 
-that we can know more than we can tell,” writes Michael Polanyi, 
-whose work paved the way for the likes of Thomas Kuhn and Karl Popper. 
-The Tacit Dimension argues that tacit knowledge is a crucial part 
-of scientific knowledge, and that shared values and tradition, 
+“I shall reconsider human knowledge by starting from the fact
+that we can know more than we can tell,” writes Michael Polanyi,
+whose work paved the way for the likes of Thomas Kuhn and Karl Popper.
+The Tacit Dimension argues that tacit knowledge is a crucial part
+of scientific knowledge, and that shared values and tradition,
 rather than skepticism, lie at the heart of scientific discovery.
-“One of the best accounts we have of how science operates as both 
+“One of the best accounts we have of how science operates as both
 a cultural system and a reality-seeking empirical enterprise.”
 Richard Shweder,
 University of Chicago
-“A thoughtful and detailed discussion of the many mysteries 
+“A thoughtful and detailed discussion of the many mysteries
 of human consciousness and perception.”
 Charles Townes
 Nobel Laureate and winner of the Templeton Prize
-Michael Polanyi (1891-1976) was a Hungarian-British chemist 
-and philosopher, and a Fellow of the Royal Society and 
+Michael Polanyi (1891-1976) was a Hungarian-British chemist
+and philosopher, and a Fellow of the Royal Society and
 of Merton College, University of Oxford.
-He is author of many books, inclduing Science, Faith and Society 
-and Personal Knowledge: Towards a Post-Critical Philosophy, 
+He is author of many books, inclduing Science, Faith and Society
+and Personal Knowledge: Towards a Post-Critical Philosophy,
 both published by the University of Chicago Press.
 OceanofPDF.com

@@ -9,8 +9,11 @@ chars: 806603
 approx_tokens: 201650
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 806605
+phase4_chars_after: 806364
+phase4_saved_pct: 0.0
 ---
-
 
 
 OceanofPDF.com
@@ -315,8 +318,7 @@ A Freedom of Mind Press Book
 ISBN 978-0-9670688-3-5
 Library of Congress Control Number: 2015935807
 Cults-Psychology, Deprogramming, Brainwashing, Mind Control, Thought Reform, Persuasion,
-Religion-Cults, Human Trafficking, Terrorism, Social Influence, Self-Help, Recovery, Ex-cultists-
-Rehabilitation, Ex-cultists-Mental Health
+Religion-Cults, Human Trafficking, Terrorism, Social Influence, Self-Help, Recovery, Ex-cultistsRehabilitation, Ex-cultists-Mental Health
 Includes bibliographic references and index
 All rights reserved. No part or this book may be reproduced or utilized in any form or by any means,
 electronic or mechanical, including photocopying, recording, or by any information storage and
@@ -1036,8 +1038,7 @@ He shook his head and looked surprised. “What’s that?”
 “Oh, that’s a very important ceremony members do every Sunday
 morning, on the first day of every month, and on four holy days the group
 observes,” I started. “Members bow three times with their face touching the
-floor before an altar with Sun Myung Moon’s picture on it and recite a six-
-point pledge to be faithful to God, to Moon, and to the fatherland—Korea.”
+floor before an altar with Sun Myung Moon’s picture on it and recite a sixpoint pledge to be faithful to God, to Moon, and to the fatherland—Korea.”
 “You’re kidding!”
 At that moment I knew Bruce would be all right. I could see that he was
 not yet fully under the group’s mind control. I thought he would respond
@@ -1484,13 +1485,13 @@ different human impulses: such as desire to belong; to improve oneself and
 others; to understand the meaning and purpose of life. Religious cults are
 the most well known. They often have a charismatic leader and operate with
 religious dogma. Political cults, often in the news, are organized around a
-simplistic 
-political 
-theory, 
-sometimes 
-with 
-a 
-religious 
+simplistic
+political
+theory,
+sometimes
+with
+a
+religious
 cloak.
 Psychotherapy/educational cults, which have enjoyed great popularity,
 purport to give the participant “insight” and “enlightenment.” Commercial
@@ -1621,8 +1622,7 @@ done in my situation. They had spent years searching for greater
 knowledge.
 I called the people at the house, and off I went that Friday night.
 My Indoctrination: How I Became A Moonie
-As we drove through the tall, black, wrought iron gates of a multimillion-
-dollar estate in Tarrytown, New York, someone leaned over and told me,
+As we drove through the tall, black, wrought iron gates of a multimilliondollar estate in Tarrytown, New York, someone leaned over and told me,
 “This weekend we’ll be having a joint workshop with the Unification
 Church.” My immediate reaction was a series of questions. “Workshop?
 Church? What is going on here? Why didn’t anyone tell me this before?” I
@@ -1679,8 +1679,7 @@ His voice was so full of mystery and intrigue that it offset my suspicions
 and piqued my curiosity. “Now,” I said to myself, “I’ll finally get all my
 questions answered.” Or so I thought.
 In the morning we were led in calisthenics before breakfast. Afterward,
-we sang more songs. As we sat on the floor, a charismatic man with ice-
-blue eyes and a penetrating voice introduced himself and the ground rules
+we sang more songs. As we sat on the floor, a charismatic man with iceblue eyes and a penetrating voice introduced himself and the ground rules
 for the weekend. He was the workshop director. We were told we had to
 spend all of our time together in the small groups to which we were
 assigned. There was to be no walking around the estate alone. Questions
@@ -2675,13 +2674,13 @@ even the world.
 Considering how well these cults have been largely able to shield
 themselves from public scrutiny, it might seem alarmist to regard them as a
 threat to individual liberty and society as a whole. Yet, some are influencing
-the 
-political 
-landscape 
-through 
-extensive 
-lobbying 
-efforts 
+the
+political
+landscape
+through
+extensive
+lobbying
+efforts
 and
 electioneering for candidates.49 Some are attempting to influence United
 States foreign policy by lobbying covertly for foreign powers.50 The
@@ -2840,11 +2839,11 @@ widespread its use had already become in society at large. In the decades
 following that massacre, cult groups have continued to grow, unabated.
 New cults appear and older ones grow more sophisticated. Currently, there
 are groups using mind control in many different areas of society. These
-organizations 
-include 
-religious 
-cults, 
-political 
+organizations
+include
+religious
+cults,
+political
 cults,
 psychotherapy/educational cults, and commercial cults.
 Religious cults are the best known and most numerous. These groups
@@ -2864,8 +2863,7 @@ as a psychotherapy cult and also functions as a commercial cult. It functions
 under the cloak of religion.
 Political cults often make the news, usually with the word “fringe” or
 “extremist” attached. Rarely do people hear about the deceptive recruitment
-and mind control practices that distinguish these organizations from run-of-
-the-mill fanatical groups. These groups are organized around a particular
+and mind control practices that distinguish these organizations from run-ofthe-mill fanatical groups. These groups are organized around a particular
 political dogma. One such group’s leader, Lyndon LaRouche, has run for
 president in the past eight elections, and claims to advise top government
 and business leaders.61 Another group, known simply as Move, was bombed
@@ -2931,8 +2929,7 @@ believers. Thinkers are people who approach life with their minds, as
 intellectuals. Feelers lead with their emotions. Doers are action-oriented and
 very physical. Believers are spiritually oriented.
 If a person was categorized as a thinker, we would use an intellectual
-approach. We would show him pictures of Nobel Laureates at a Moonie-
-sponsored science conference, or philosophers discussing a variety of
+approach. We would show him pictures of Nobel Laureates at a Mooniesponsored science conference, or philosophers discussing a variety of
 
 
 interesting topics. A deliberate misimpression was given that these giants of
@@ -3043,8 +3040,7 @@ just might have been in the wrong place at the wrong time. Blaming the
 victim plays an important psychological role in allowing us to distance
 ourselves from the person who was hurt. In this way, we say to ourselves,
 “Such a thing couldn’t happen to me because I am different. I know better.”
-Often people look at a cult victim and say mistakenly, “What a weak-
-minded person; he must have been looking for a way to escape
+Often people look at a cult victim and say mistakenly, “What a weakminded person; he must have been looking for a way to escape
 responsibility and have someone control his life.” In that way people deny
 the reality that the same thing could happen to them.
 People believe that “it can never happen to them” because they want to
@@ -3346,8 +3342,7 @@ How can one become more aware of cult recruitment? The best way is to
 be able to instantly recognize the ways in which cults make their appeals for
 membership. People being recruited by cults are approached in four basic
 ways: 1) by a friend or relative who is already a member; 2) by a stranger
-(often a member of the opposite sex) who befriends them; 3) through a cult-
-sponsored event, such as a lecture, symposium, or movie; or 4) through
+(often a member of the opposite sex) who befriends them; 3) through a cultsponsored event, such as a lecture, symposium, or movie; or 4) through
 social media such as Facebook, YouTube, Vimeo, Instagram, websites,
 blogs, and so forth. Even Wikipedia is now being actively manipulated by
 wealthy cult groups. Google, Bing and other search engines are routinely
@@ -3450,8 +3445,7 @@ which cause not only a dissociated mental state but also a “high” similar to
 that created by drugs and other addictions. Some former members who have
 used these techniques for several years report a wide variety of deleterious
 side effects, including severe headaches, involuntary muscle spasms and
-diminution of cognitive faculties like memory, concentration, and decision-
-making ability. Of course, some pimps get their victims hooked on heroin
+diminution of cognitive faculties like memory, concentration, and decisionmaking ability. Of course, some pimps get their victims hooked on heroin
 or meth or other drugs to control their minds, make them dependent so there
 are serious health effects and long rehabilitation is needed.
 Cult members tend to spend all their time either recruiting more people,
@@ -3751,8 +3745,7 @@ Hypnotism relates to the unethical mind control practices of destructive
 cults in a variety of ways. In many cults which claim to be religious, what is
 often called “meditation” is no more than a process by which the cult
 members enter a trance, during which time they may receive suggestions
-which make them more receptive to following the cult’s doctrine. Non-
-religious cults use other forms of group or individual induction. In addition,
+which make them more receptive to following the cult’s doctrine. Nonreligious cults use other forms of group or individual induction. In addition,
 being in a trance is usually a pleasant, relaxing experience, so that people
 
 
@@ -3777,8 +3770,7 @@ are very conducive to the induction of a trance. Looking at a group in such
 a setting, it is easy to see when the trance has set in. The audience will
 exhibit slowed blink and swallow reflexes, and their facial expressions will
 relax into a blank, neutral state. With people in such a state, it is possible for
-unscrupulous leaders to implant irrational beliefs. I have seen many strong-
-willed people hypnotized and made to do things they would never normally
+unscrupulous leaders to implant irrational beliefs. I have seen many strongwilled people hypnotized and made to do things they would never normally
 do.
 Basic Principles Of Social Psychology And Group Dynamics
 The political experience of World War II, in which thousands of
@@ -4156,8 +4148,7 @@ Fear is used to bind the group members together in several ways. The
 first is the creation of an outside enemy, who is persecuting the group and
 its members. For example, the FBI will jail or kill you; Satan will carry you
 off to Hell; psychiatrists will give you electroshock therapy; armed
-members of rival sects will shoot or torture you; and, of course, ex-
-members and critics will try to persecute you. Second is the terror of
+members of rival sects will shoot or torture you; and, of course, exmembers and critics will try to persecute you. Second is the terror of
 discovery and punishment by cult members and leaders. Fear of what can
 happen to you if you don’t do your job well can be very potent. Some
 groups claim that nuclear holocaust or other disasters will result if members
@@ -4264,8 +4255,7 @@ approach. They are willing and able to change their approach to fit a
 person’s specific psychological make-up, use deception and highly
 sophisticated loaded language, or employ techniques like thought-stopping
 and phobia indoctrination.
-Let’s take a closer look at this three-stage model to see how the step-by-
-step program creates a well-disciplined cult member.
+Let’s take a closer look at this three-stage model to see how the step-bystep program creates a well-disciplined cult member.
 Unfreezing
 To ready a person for radical change, their reality must first be shaken up.
 Their indoctrinators must confuse and disorient them. Their frames of
@@ -4566,8 +4556,7 @@ identity, and empower the new one, it almost never totally succeeds. Good
 experiences and positive memories rarely disappear entirely. The cult
 identity will try to bury former reference points and submerge the person’s
 past. Yet, over time, the old self will eventually exert itself and seek ways to
-regain freedom. This process is speeded up by positive exposure to non-
-members and the accumulation of bad experiences the person has while in
+regain freedom. This process is speeded up by positive exposure to nonmembers and the accumulation of bad experiences the person has while in
 the group. The real identity deep down—the hardware (self) beneath the
 mind control virus—sees and records contradictions, questions, and
 disillusioning experiences.
@@ -4691,8 +4680,7 @@ and money to recruit and indoctrinate a member, so we tried not to waste
 our resources on someone who seemed liable to break down.
 Like any other business, large cult organizations watch these cost/benefit
 ratios. Cults that endure for more than a decade need to have competent
-individuals managing the practical affairs that any organization with long-
-term objectives must do.
+individuals managing the practical affairs that any organization with longterm objectives must do.
 The big groups can afford to hire outsiders to perform executive and
 professional tasks, but a hired professional is never trusted as much as
 someone who is psychologically invested in the group. Moreover, cult
@@ -4809,20 +4797,19 @@ provide an answer directly, then the member must ask a leader. If the leader
 doesn’t have an answer, they can always brush off the question as
 unimportant or irrelevant.
 “Devils” vary from group to group. They can be political or economic
-institutions 
-(communism, 
-socialism, 
-or 
-capitalism); 
+institutions
+(communism,
+socialism,
+or
+capitalism);
 mental-health
-professionals 
-(psychiatrists, 
-psychologists, 
-or 
+professionals
+(psychiatrists,
+psychologists,
+or
 deprogrammers);
 metaphysical entities such as Satan, spirits, or aliens; or just the cruel laws
-of nature. Devils are certain to take on the bodies of parents, friends, ex-
-members, reporters, and anyone else who is critical of the group. The “huge
+of nature. Devils are certain to take on the bodies of parents, friends, exmembers, reporters, and anyone else who is critical of the group. The “huge
 conspiracies” working to thwart the group are, of course, proof of its
 tremendous importance.
 
@@ -4867,12 +4854,12 @@ advancement will be achieved only through outstanding performance or
 
 political appointment. In the end, of course, the real power elite stays small.
 Most members do not become leaders, but stay among the rank and file.
-Nevertheless, 
-cult 
-members 
-consider 
-themselves 
-better, 
+Nevertheless,
+cult
+members
+consider
+themselves
+better,
 more
 knowledgeable, and more powerful than anyone else in the world. As a
 result, cult members often feel more responsible than they have ever felt in
@@ -4888,8 +4875,7 @@ comes first. Absolute obedience to superiors is one of the most universal
 themes in cults. Individuality is bad. Conformity is good.
 A cult member’s entire sense of reality becomes externally referenced.
 They learn to ignore their own inner self and trust the external authority
-figure. They learn to look to others for direction and meaning. Rank-and-
-file cult members typically have trouble making decisions, probably
+figure. They learn to look to others for direction and meaning. Rank-andfile cult members typically have trouble making decisions, probably
 because of the overemphasis on external authority. In their state of extreme
 dependency, they need someone to tell them what to think, feel and do.
 Leaders of different cults have come up with strikingly similar tactics for
@@ -5038,12 +5024,12 @@ In a destructive cult, there is never a legitimate reason for leaving. Unlike
 healthy organizations, which recognize a person’s inherent right to choose
 to move on, mind control groups make it very clear that there is no
 legitimate way to leave. Members are told that the only reasons that people
-leave 
-are 
-weakness, 
-insanity, 
-temptation, 
-brainwashing 
+leave
+are
+weakness,
+insanity,
+temptation,
+brainwashing
 (by
 deprogrammers), pride, sin, and so on.
 Members are thoroughly indoctrinated with the belief that if they ever do
@@ -5264,10 +5250,8 @@ megalomaniac leaders.
 Here is a short summary of his story.
 
 
-Masoud Banisadr was born into a prominent, educated, and liberal-
-minded Iranian family. He was 25 years old, in the final year of his
-mathematics Ph.D. in the UK—happily married, and the father of a two-
-year-old daughter—when he attended a political meeting organized by the
+Masoud Banisadr was born into a prominent, educated, and liberalminded Iranian family. He was 25 years old, in the final year of his
+mathematics Ph.D. in the UK—happily married, and the father of a twoyear-old daughter—when he attended a political meeting organized by the
 Iranian revolutionary organization, Mojahedin e Khalq, or MeK. It was
 during the Iranian revolution and he supported what he thought was the
 group’s purely political cause. Iran had finally overthrown the dictatorship
@@ -5419,8 +5403,7 @@ toxic? Why is Kennett abusive and cruel and cold? If she’s so enlightened,
 
 
 why is she such a bully? Is this genuinely Zen, or is it a complex and
-confused mess of half-baked Zen, monotheism, occultism, and self-
-adoration—a very strange personality cult?
+confused mess of half-baked Zen, monotheism, occultism, and selfadoration—a very strange personality cult?
 Eventually, in 1976, Josh knew it was time to leave. At the time, he was
 president of the organization, the Order of Buddhist Contemplatives.
 There weren’t any prohibitions against leaving, but senior members who
@@ -5610,13 +5593,11 @@ building of a new-age utopian society.
 
 
 Hoyt lived with the group for 15 years, during which time he broke from
-his family. He didn’t see his parents for 12 years. After Von Mierers’ AIDS-
-related death in 1990, the group relocated to the Blue Ridge Mountains of
+his family. He didn’t see his parents for 12 years. After Von Mierers’ AIDSrelated death in 1990, the group relocated to the Blue Ridge Mountains of
 western North Carolina. This was one of Von Mierers’ designated “safe
 places.” Von Mierers had been the only person with supposed access to the
 space aliens, so the group became more survivalist in nature. They built a
-large compound outfitted with bunkers, and stockpiled weapons and a four-
-year supply of vacuum-packed food.
+large compound outfitted with bunkers, and stockpiled weapons and a fouryear supply of vacuum-packed food.
 Hoyt escaped the group in the summer of 1999. “I wish I could tell you I
 woke up one morning and had the realization, ‘Yikes! This is a dangerous
 cult and I need to get the hell out of here!’” he said. “Actually it took me
@@ -5719,8 +5700,7 @@ In a matter of days, David’s health deteriorated. By the end of the week,
 the leader ordered around-the-clock prayer teams. Gretchen’s team was on
 when David took his last breath; yet the group, spurred on by the leader’s
 anxious exhortations, was convinced that David would be resurrected. They
-prayed for 15 hours over his body. David’s father, at that time a group co-
-leader, beat on his dead son’s chest, rebuking Satan and the angel of death,
+prayed for 15 hours over his body. David’s father, at that time a group coleader, beat on his dead son’s chest, rebuking Satan and the angel of death,
 
 
 while David’s mother had to be removed from the room because her grief
@@ -5833,8 +5813,7 @@ forbids contact of any kind, including reading anything they write. What
 was so interesting was that because I hadn’t written about them in the first
 edition, I was not on their index of banned books.
 The Moonies were very high profile and Jehovah’s Witnesses (JWs)
-knew they were a weird cult. So reading a book by a guy who was an ex-
-member was a curiosity for them. They would read the book expecting to
+knew they were a weird cult. So reading a book by a guy who was an exmember was a curiosity for them. They would read the book expecting to
 
 
 learn about the Moonies and other cults, and wind up realizing they were in
@@ -5896,12 +5875,12 @@ understood the commonalities between covert methods of TM and other
 exploitative cults the International Cultic Studies Association first invited
 her to present her story at their annual meeting in 2006. In 2010, I met Gina
 when I became enthralled by her presentation about the Beatles’
-involvement 
-with 
-Maharishi 
-Mahesh 
-Yogi 
-and 
+involvement
+with
+Maharishi
+Mahesh
+Yogi
+and
 Transcendental
 Meditation.113 She writes and speaks on a volunteer basis to raise awareness
 of the risks of involvement with TM, so that the loss of those who suffered
@@ -5947,8 +5926,7 @@ pseudoscientific research to tout the health benefits of their brand of
 meditation—calling it a cure for everything from PTSD, ADHD, sexual
 exploitation, stress and poverty. In fact, it is a method of self-induced trance
 which can, in some people, produce anxiety and other adverse reactions.
-Instructors make light of these reactions, calling them a form of “un-
-stressing,” and urging more meditation to release stress even further. It is
+Instructors make light of these reactions, calling them a form of “unstressing,” and urging more meditation to release stress even further. It is
 important to differentiate TM’s meditation method from other forms of
 legitimate meditation. In TM, the practitioner is given a single word, their
 secret mantra—often derived from the name of a Hindu diety—which is
@@ -5965,8 +5943,7 @@ which advanced courses they might take. Many people stop with the
 introductory course but some choose to go on. Eventually, they may sign up
 for the TM-Sidhi program which promises to teach mystical powers, such
 as yogic flying, for a mere $5,000 or more. Decades ago, a friend sponsored
-Gina to learn yogic flying. “It involved energetic butt-bouncing on high-
-density foam,” she said.
+Gina to learn yogic flying. “It involved energetic butt-bouncing on highdensity foam,” she said.
 In 1976, Maharishi promised devotees that if they could get the square
 root of 1% of the world’s population to practice the TM-Sidhi program at
 the same time daily, they would create a “Maharishi Effect” of global peace,
@@ -5996,8 +5973,7 @@ major medical center.
 
 
 “I still didn’t realize it was a cult until 2003, 15 years later. I was 45,” she
-said. A coworker told her about the work of Margaret Singer. “I had the ah-
-ha moment—‘Oh shit! I was raised in a cult! My whole family is in a cult!
+said. A coworker told her about the work of Margaret Singer. “I had the ahha moment—‘Oh shit! I was raised in a cult! My whole family is in a cult!
 That’s why our lives are so screwed up!’ Only then did I begin searching
 online for cult information, reading everything I could to self-counsel. I
 found a therapist who knows about cult recovery.”
@@ -6109,8 +6085,7 @@ downstairs could he tell from the smiles on his parents’ faces that this had
 been some sort of macabre joke.
 
 
-By the time Lloyd was 20, he had started to see glitches in this high-
-control pseudo-religious group. But this formative awakening was put on
+By the time Lloyd was 20, he had started to see glitches in this highcontrol pseudo-religious group. But this formative awakening was put on
 hold when Lloyd’s mother died of cancer in 2001, when he was 21.
 When Lloyd was 25, he fulfilled one of his mother’s dying wishes, by
 attending a two-month course designed to train young Witness men to better
@@ -6224,14 +6199,14 @@ the Church.
 
 
 Tom’s story is online at iamanexmormon.com and he wishes to add his
-voice 
-to 
-those 
-of 
-other 
-courageous 
-former 
-members 
+voice
+to
+those
+of
+other
+courageous
+former
+members
 at
 exmormonfoundation.org. I was invited to speak to their annual conference
 in 2008 when I explained the BITE model. For me, meeting two hundred
@@ -6252,11 +6227,11 @@ day LDS organization.123 There have been many excellent books and
 documentaties on thei cult. Rebecca Musser, ex-wife of “prophet” Warren
 Jeffs, published her biography, in 2013, The Witness Wore Red: The 19th
 Wife Who Brought Polygamous Cult Leaders to Justice.124 Carolyn
-Jessop, 
-with 
-assistance 
-from 
-Utah 
+Jessop,
+with
+assistance
+from
+Utah
 Attorney
 General  http://en.wikipedia.org/wiki/Mark_Shurtleff, had gone into print
 ten years before. Carolyn became the first woman who left an FLDS
@@ -6401,13 +6376,13 @@ experience, not because I believe that our government should restrict new
 religious groups or legislate the beliefs of any specific group. But every
 group can and should be held accountable for its actions. And that includes
 active deception.
-Organizations 
-that 
-practice 
-mind 
-control 
-have 
-very 
+Organizations
+that
+practice
+mind
+control
+have
+very
 specific
 characteristics that undermine individual choice and liberty. These involve
 leadership, doctrine and membership. By examining these three areas in
@@ -6744,8 +6719,7 @@ people typically continue their jobs once they join, because of the money,
 the prestige, and the opportunities to recruit and influence. Such people are
 
 
-fortunate to have time away from the group and extensive contact with non-
-members, and the detrimental effects are minimized.
+fortunate to have time away from the group and extensive contact with nonmembers, and the detrimental effects are minimized.
 In the day-to-day lives of members of destructive cults, there is often a
 wide variation in the degree to which they experience the BITE model:
 behavior control, information control, thought control and emotional
@@ -6828,13 +6802,13 @@ anxiety.” Such a person recruited into an organization like Transcendental
 Meditation (TM) might suffer headaches, insomnia, increased anxiety and
 so forth. Since TM members believe that their form of meditation is good
 for everybody, a person who complains of negative effects may be told that
-they 
-are 
-simply 
-“unstressing” 
-and 
-should 
-continue 
+they
+are
+simply
+“unstressing”
+and
+should
+continue
 meditating.
 Unfortunately, ignoring such problems may lead to serious health problems,
 nervous breakdowns and even suicidal tendencies.153 Former TMers have
@@ -7410,8 +7384,7 @@ God. All they wanted was for him to have access to information about the
 Boston Church of Christ that he otherwise would never hear. They would
 ask him to pray, and tell him they trusted that his faith in the power of God
 was stronger than his fear of Satan.
-Once they explained all this, they would ask George to agree to a three-
-day period of research, during which be would be free to come and go, take
+Once they explained all this, they would ask George to agree to a threeday period of research, during which be would be free to come and go, take
 as many breaks as he wanted and decide what topics he wanted to
 concentrate on. During this time, he would agree to not be in touch with any
 members of BCC. Most importantly, if he wanted to let people in the group
@@ -7651,8 +7624,7 @@ loved ones and agrees to talk at a future date. It might take weeks or months
 for the family to re-establish a relationship with the cult member—but an
 opening for communication usually appears at a later time.
 When rescue efforts fail, often it is because the timing was poor or
-unlucky. Perhaps the cult member just came from an intensive re-
-indoctrination experience, married someone in the group or received a
+unlucky. Perhaps the cult member just came from an intensive reindoctrination experience, married someone in the group or received a
 promotion. Naturally, the best time is when the person is in a down period,
 but of course such periods are impossible to predict.
 After a failed rescue effort, the family has two choices:
@@ -8042,8 +8014,7 @@ based on real people I have counseled. To protect their privacy, all of the
 people’s names have been changed.
 The Johnson Family and the Twelve Tribes169
 When Bill and Lorna Johnson first noticed that their daughter Nancy was
-acting strangely, they simply wrote it off as the growing pains of a 19-year-
-old girl away from home for the summer. Her older brother Neil had gone
+acting strangely, they simply wrote it off as the growing pains of a 19-yearold girl away from home for the summer. Her older brother Neil had gone
 through his own share of episodes of strange behavior, when he was about
 the same age.
 Nancy was then in Milwaukee, selling magazine subscriptions door to
@@ -8606,8 +8577,7 @@ Once rapport with the cult member is built, it will be much easier to
 gather information from them about the cult, their life in it, and their
 feelings about it. The more information you collect, the more you will be
 able to know what is going on inside their mind. Communicate as regularly
-as possible. If you can see each other in person, do so, and try to do it one-
-on-one. Unless you are highly trained, it is very difficult to make much
+as possible. If you can see each other in person, do so, and try to do it oneon-one. Unless you are highly trained, it is very difficult to make much
 progress while talking to two or more cult members at a time.
 Expect that, at some point, you will be invited to talk with older members
 or leaders. Don’t accept this invitation—but also don’t merely say no. Stall
@@ -8673,12 +8643,10 @@ go home to visit at any time. I’m so happy about this—and so glad he said it
 publicly. So when can you come visit? If they don’t respond to this point in
 their next phone call or letter, ask them about it again. Gently but firmly
 point out the contradiction: Was Rev. Josiah being untruthful? Did you
-misunderstand? Help me understand, because I’m confused. In a non-
-threatening tone, force the cult member to have to think about the
+misunderstand? Help me understand, because I’m confused. In a nonthreatening tone, force the cult member to have to think about the
 contradiction.
 Too many people make really good points but don’t follow up with them.
-Perhaps they find it difficult to ask the follow-up question in a non-
-threatening tone—one that forces the cult member to have to think about
+Perhaps they find it difficult to ask the follow-up question in a nonthreatening tone—one that forces the cult member to have to think about
 the contradiction.
 Above all, don’t send the cult member unsolicited articles that are critical
 of their group, as Roger Marlowe did. This typically does more harm than
@@ -9466,8 +9434,7 @@ The way to undo blind faith is to introduce new perspectives.
 Key #6: Sidestep the Thought-Stopping Process by Giving
 Information in an Indirect Way
 Every person in a cult has been programmed to stop all negative thoughts
-about the cult’s leader, its doctrine or the organization itself. This thought-
-stopping process is triggered whenever the person feels that someone is
+about the cult’s leader, its doctrine or the organization itself. This thoughtstopping process is triggered whenever the person feels that someone is
 attacking the validity of the group. In this way, thought-stopping acts as a
 shield to be held up against any perceived enemy. They have also been
 indoctrinated to believe that their group is superior to all other groups and
@@ -9519,8 +9486,7 @@ Once the person verbalizes the fantasy, I try to persuade them to step
 inside their visualization of a new life, and become emotionally involved in
 it. I am then able to begin neutralizing their programmed negative fears
 about doing something outside the cult. Once this positive personal
-reference point is established, the cult-generated picture of a dark, disaster-
-filled life outside the group begins to change.
+reference point is established, the cult-generated picture of a dark, disasterfilled life outside the group begins to change.
 When a positive picture is in place, a bridge to other possibilities opens.
 People outside the group can be seen as warm and loving. Lots of
 interesting things can be learned outside the group. There are lots of
@@ -9691,8 +9657,7 @@ believed in the leader. There are thousands of ex-Moonies who still believe
 that Moon is the Messiah, but just can’t tolerate the way the cult is run. In
 their minds they are waiting for the day that the group reforms its policies,
 so they can return. They do not understand that the group is structured and
-run the way it is because of Moon. The same pattern applies to ex-
-Scientologists who leave the group but who still think Ron Hubbard was a
+run the way it is because of Moon. The same pattern applies to exScientologists who leave the group but who still think Ron Hubbard was a
 genius and that the “technology” works. These people call themselves
 “independents” or members of the “Free Zone.” If they still believe
 Hubbard was a great humanitarian and discovered how to be “free”, they
@@ -9797,8 +9762,7 @@ the leading trauma experts and the author of the seminal book Trauma and
 Recovery. A two-hour cults course was added to her Trauma curriculum and
 I was able to do this, in 2014. I was grateful that a woman I’d had the good
 fortune to work with was willing to share her 11-year experience with
-mental health practitioners. Her prior caregivers did not realize that her 15-
-year involvement with the Bible cult International Churches of Christ was
+mental health practitioners. Her prior caregivers did not realize that her 15year involvement with the Bible cult International Churches of Christ was
 at the root of her depression and suicidal impulses. Laura later did a Dr.
 Drew181 podcast on the issue of the need for mental health professionals to
 learn how to correctly identify and help victims of mind control. A video of
@@ -9931,8 +9895,7 @@ was triggered because for the last five months of my membership, I spent
 fifteen to twenty hours a day driving around looking for places to drop off
 members to solicit money.
 For people who were long involved in a group that required excessive
-meditation, chanting, “decreeing,”185 speaking in tongues, or other mind-
-numbing practices, episodes of floating can occur for at least a year after
+meditation, chanting, “decreeing,”185 speaking in tongues, or other mindnumbing practices, episodes of floating can occur for at least a year after
 they have left the cult. Many of my clients have told me that suddenly, in
 the middle of a normal conversation, they would find themselves doing the
 mind-numbing technique they had practiced for years. This can be
@@ -10208,8 +10171,7 @@ makes it hard for people to take the emotional risk of forming close
 
 
 relationships with others. Some people have denied their own sexuality for
-so long that they may have difficulty expressing it. In other cases, ex-
-members got into sexual relationships with trainers or leaders who
+so long that they may have difficulty expressing it. In other cases, exmembers got into sexual relationships with trainers or leaders who
 manipulated them, with little regard for their feelings.
 That said, I have met a number of people who married in a cult, raised
 children, left the cult and managed to navigate their lives together. They are
@@ -10251,8 +10213,7 @@ afraid to go home and wound up living on the streets of Boulder for several
 months, until she was able to slowly work her way back into society. When
 I met her, she was a successful businesswoman.
 Even though she had been out of the cult for eight years, she had never
-talked about her experiences in it until she began meeting with other ex-
-members. “I feel like the whole thing is one big black box, and I’m afraid to
+talked about her experiences in it until she began meeting with other exmembers. “I feel like the whole thing is one big black box, and I’m afraid to
 open it up,’’ she explained. But soon, with the help of the group, she did
 open it. She mustered the courage to share an issue she was dealing with. “I
 know that I am being hampered in my ability to trust my boyfriend and
@@ -10298,8 +10259,7 @@ the ex-member, because the illusion of becoming healthier was one of the
 factors that reinforced continuing membership, sometimes for many years.
 This realization is often more difficult for long-term members. Imagine
 going into a group at age 18 and coming out at 30. You’ve been deprived of
-a huge amount of life experience. Your twenties, typically reserved for self-
-exploration, experimentation, education, skill development, career and
+a huge amount of life experience. Your twenties, typically reserved for selfexploration, experimentation, education, skill development, career and
 relationship building, have been lost. Chronologically, you are 30, but
 psychologically, you probably feel 18. Friends from high school have good
 jobs; many are married; some have children; some have houses. At 30, you
@@ -10712,8 +10672,7 @@ under a special category: Other Specified Dissociative Disorder 300.15
 (F44.9). If you go to page 305, number 2, you will read: “Identity
 disturbance due to prolonged and intense coercive persuasion:
 Individuals who have been subjected to intense coercive persuasion (e.g.,
-brainwashing, thought reform, indoctrination while captive, torture, long-
-term political imprisonment, recruitment by sects/cults or by terror
+brainwashing, thought reform, indoctrination while captive, torture, longterm political imprisonment, recruitment by sects/cults or by terror
 organizations) may present with prolonged changes in, or conscious
 questioning of, their identity.”
 I wish I could say that most mental health professionals have read it. To
@@ -11066,8 +11025,7 @@ as matters of science.
 There are legal causes of action that could be utilized by cult victims,
 such as fraud or “intentional infliction of emotional distress.” But the law
 on these two subjects has not been applied or developed in relation to cult
-situations. Courts and judges might be disinclined to extend these time-
-honored legal doctrines to this more controversial arena.
+situations. Courts and judges might be disinclined to extend these timehonored legal doctrines to this more controversial arena.
 Meanwhile, the same principles of influence that are used to recruit
 people into cults are being used by pedophiles to groom children and to turn
 people into human trafficking victims. The definition used by the U.N. for
@@ -11164,13 +11122,13 @@ these types of suits at low rates or pro bono. Attorney Paul Grosswald (who
 himself is an ex-Scientologist) is such a pioneering individual. He has truly
 stepped up to the plate regarding a recent libel suit brought by “God the
 Mother” of the World Mission Society Church of God (WMSCOG) against
-former 
-member 
-Michele 
-Colon 
-for 
-writing 
-on 
+former
+member
+Michele
+Colon
+for
+writing
+on
 the
 examiningthewmscog.com website that the group was a cult and broke up
 her marriage.
@@ -11226,13 +11184,13 @@ that they can become millionaires by buying and selling their products and
 by recruiting others to do the same may be found to be a pyramid scheme
 by government regulators, and should be viewed with suspicion by anyone
 who is being recruited by them.
-According 
-to 
-the 
-consumer 
-group 
-Pyramid 
-Scheme 
+According
+to
+the
+consumer
+group
+Pyramid
+Scheme
 Alert
 (pyramidschemealert.org), the MLM industry may now be facing its
 greatest challenge. Fitzpatrick, Brooks and Craig have released a white
@@ -11448,8 +11406,7 @@ Educate law enforcement and intelligence agencies, so that they can
 more effectively combat human trafficking and terrorism.224
 Pass lobbying laws and impose stiff penalties for those who subvert
 the Constitution and abrogate human rights.
-Consider carefully any “religious” organization that applies for tax-
-exempt status. Take action against those who currently have such
+Consider carefully any “religious” organization that applies for taxexempt status. Take action against those who currently have such
 status, such as Scientology.225 Tax-abiding citizens should not be
 forced to subsidize such organizations!
 Set up a special agency where people can report infractions and/or
@@ -11869,8 +11826,7 @@ With heartfelt gratitude, I thank my parents, Milton and Estelle Hassan,
 for all their love and support. Whenever I needed them, they were there for
 me. They risked everything to rescue me from the Moonies, and I will be
 forever grateful that they did.
-I wish to thank my sisters, Thea and Stephanie, as well as my brothers-
-inlaw, Doug and Ken, for all they have done throughout the years. Thea and
+I wish to thank my sisters, Thea and Stephanie, as well as my brothersinlaw, Doug and Ken, for all they have done throughout the years. Thea and
 Doug helped save me more than once. They also did much to take care of
 my folks in their waning years.
 To their sons, Michael and Scott, and their families: thank you.
@@ -11886,8 +11842,7 @@ many more years in the Moonies. I have recently rediscovered Nestor on
 LinkedIn; he is now a psychiatrist in Florida. Gladys also lives in Florida
 and is a social worker. Gary, unfortunately, passed away. Mike, where are
 you?
-Special acknowledgments go to my first wife of seven years, Aureet Bar-
-Yam, who lived through the creation and the original publication of this
+Special acknowledgments go to my first wife of seven years, Aureet BarYam, who lived through the creation and the original publication of this
 book. She died in a tragic accident, trying to rescue our Golden Retriever
 from an icy pond in 1991. I will always remember her for her love, talent,
 
@@ -12023,8 +11978,7 @@ from former cult members, families of former members, clergy, cult
 experts, and psychologists.  Combating Cult Mind Control: The #1 Best
 Selling Guide to Protection, Rescue, and Recovery from Destructive Cults
 (1988, 1990, 2015), Releasing the Bonds: Empowering People to Think for
-Themselves  (2000), and in July 2012, he published the paperback and e-
-book,  Freedom of Mind: Helping Loved Ones Leave Controlling People,
+Themselves  (2000), and in July 2012, he published the paperback and ebook,  Freedom of Mind: Helping Loved Ones Leave Controlling People,
 Cults & Beliefs, (Second Edition 2013).
 Hassan’s insightful perspective and expert commentary have made him a
 definitive source for hundreds of national, international and local media
@@ -12035,8 +11989,7 @@ America. He has also appeared on the Oprah Winfrey Show, Dr. Phil, Larry
 King Live, Dr. Drew and countless others.
 Mr. Hassan pioneered a new approach to helping victims of mind control
 called the Strategic Interactive Approach (SIA). Unlike the stressful and
-media-sensationalized approach known as deprogramming, this non-
-coercive approach is an effective and legal alternative to help cult members.
+media-sensationalized approach known as deprogramming, this noncoercive approach is an effective and legal alternative to help cult members.
 It teaches family and friends how to strategically influence the individual
 involved in the group.
 Since 1976, Mr. Hassan has helped thousands of people who were
@@ -12065,11 +12018,11 @@ Inc., a non-profit educational organization composed of over 400 former
 members of the Moon group. Although now defunct, it was one of the first
 and largest ex-member organizations in the world.
 In 1999, Mr. Hassan founded the Freedom of Mind Resource Center, Inc.
-(freedomofmind.com), 
-a 
-consulting, 
-counseling, 
-and 
+(freedomofmind.com),
+a
+consulting,
+counseling,
+and
 publishing
 organization dedicated to upholding human rights, promoting consumer
 awareness, and exposing abuses of undue influence, mind control, and
@@ -12161,8 +12114,7 @@ month is latest link between Bush and Unification Church founder,”
 Mother Jones magazine, (April 29, 2007).
 
 
-http://www.motherjones.com/politics/2007/04/bush-sr-celebrate-rev-sun-
-myung-moon-again
+http://www.motherjones.com/politics/2007/04/bush-sr-celebrate-rev-sunmyung-moon-again
 26. Sun Myung Moon, “The Significance of the Training Session,” Master
 Speaks (May 17, 1973).
 27. Frank Greve, The Philadelphia Inquirer, Knight-Ridder News Service
@@ -12177,16 +12129,14 @@ News Service, December 20, 1987).
 Again: Ex-president’s keynote speech at Washington Times bash this
 month is latest link between Bush and Unification Church founder,”
 Mother Jones magazine, April 29, 2007.
-http://www.motherjones.com/politics/2007/04/bush-sr-celebrate-rev-sun-
-myung-moon-again
+http://www.motherjones.com/politics/2007/04/bush-sr-celebrate-rev-sunmyung-moon-again
 Chapter 2
 31. Douglas Lenz, “Twenty-two Months As a Moonie,” Lutheran Church of
 America Partners (Feb 1982), 13-15. Josh Freed, Moonwebs (Toronto:
 Dorset Publishing, Inc., 1980), 191.
 32. “Jacob’s Curse and Our Life in Faith,” (May 27,1973), 3.
 Robert Boettcher, Gifts of Deceit–Sun Myung Moon, Tongsun Park and
-the Korean Scandal (New York: Holt, Rinehart and Winston, 1980), 343-
-344.
+the Korean Scandal (New York: Holt, Rinehart and Winston, 1980), 343344.
 33. Kamiyama was co-convicted with Moon for conspiracy to defraud the
 U.S. government of tax revenues. U.S. vs. Sun Myung Moon and Takeru
 Kamiyama: Kamiyama accused of aiding/abetting filing of false returns,
@@ -12233,8 +12183,7 @@ please see http://bar-yam.org/aureet/ Aureet Bar-Yam Hassan’s (index
 all) Theory of Interpersonal Development, which deserves much wider
 
 
-attention, please see http://bar-
-yam.org/aureet/Psychologist/Theory/index.html
+attention, please see http://baryam.org/aureet/Psychologist/Theory/index.html
 Chapter 3
 47. Kidnappedforchrist.com is the web site of a powerful documentary
 made about such a boot camp in the Dominican Republic.
@@ -12466,8 +12415,7 @@ n=Library.LYMwhyweleft “Why we left”
 BITE model applied to LaRouche
 http://laroucheplanet.info/pmwiki/pmwiki.php?n=Cult.Bite
 Yves’s role in the aid convoy to Sarajevo :
-http://artwithconscience.blogspot.co.uk/2014/02/my-story-of-1992-93-
-alsace-sarajevo-aid.html
+http://artwithconscience.blogspot.co.uk/2014/02/my-story-of-1992-93alsace-sarajevo-aid.html
 104. http://messer-art-design.com/
 105. Scientology is also notorious for enforcing abortions on live-in
 members.
@@ -12491,9 +12439,7 @@ Eagle Books, 1998 and Something Somebody Stole by Ray Connolly
 (2011) and ex-member resource page is at
 http://www.xfamily.org/index.php/Main_Page
 112. Cult or Benign Cure-all? Life in Transcendental Meditation’s Hidden
-Society - http://www.commonwealthclub.org/events/2014-10-20/cult-or-
-benign-cure-all-life-transcendental-meditation%E2%80%99s-hidden-
-society
+Society - http://www.commonwealthclub.org/events/2014-10-20/cult-orbenign-cure-all-life-transcendental-meditation%E2%80%99s-hiddensociety
 http://www.papermag.com/2015/03/fairfield_iowa_maharishi_transcende
 ntal_meditation.php
 113. 2010 ICSA Conference handbook is online at
@@ -12507,8 +12453,7 @@ days of Maharishi Ayurveda, Maharishi, surrounded by the greatest
 Ayurvedic experts in India, rejected formulas due to minor deviations
 from the ancient original texts or due to lack of purity in the formula.
 This is the foundation of vpk® by Maharishi Ayurveda: Authentic, Pure,
-Effective and Safe. - See more at: http://www.mapi.com/our-story/our-
-story.html#sthash.iCxtzXMk.dpuf
+Effective and Safe. - See more at: http://www.mapi.com/our-story/ourstory.html#sthash.iCxtzXMk.dpuf
 Wikipedia references show lack of science on MAPI products. Wikipedia
 has a senior editor assigned to TM-related pages to keep the pro-cult
 trolls in check:
@@ -12525,10 +12470,8 @@ http://www.peacepalaces.com/home.htm
 
 
 118. links TM-Sidhi program :
-https://www.mum.edu/about-mum/consciousness-based-education/tm-
-sidhi-program/
-https://www.mum.edu/core-skill-departments/development-of-
-consciousness/learning-the-tm-sidhi-program/
+https://www.mum.edu/about-mum/consciousness-based-education/tmsidhi-program/
+https://www.mum.edu/core-skill-departments/development-ofconsciousness/learning-the-tm-sidhi-program/
 http://www.amazingabilities.com/amaze9a.html
 Expose links TM-Sidhi Program :
 http://minet.org/www.trancenet.net/secrets/sutras/
@@ -12556,8 +12499,7 @@ Watch Tower policy. Not one thinks there is a shred of legitimacy to the
 Governing Body’s policies on blood transfusion. In fact, the Jewish
 religion is always in favor of saving life! Please see http://ajwrb.org/ for
 detailed information about the changing policies on blood by the JW
-Governing Body over the years. http://ajwrb.org/children/my-child-is-
-dead is a heartbreaking story. For a summary of the blood issue,
+Governing Body over the years. http://ajwrb.org/children/my-child-isdead is a heartbreaking story. For a summary of the blood issue,
 explaining the Watch Tower history of the doctrine, and why it is not
 
 
@@ -12755,12 +12697,9 @@ Chapter 9
 businesses is the Yellow Deli restaurants. Former members complain of
 child labor trafficking, corporal punishment and lack of adequate medical
 treatment, especially during childbirth. See web site by former members
-at http://www.twelvetribes-ex.com/ and http://www.twelvetribes-
-ex.org/whyileft.html
+at http://www.twelvetribes-ex.com/ and http://www.twelvetribesex.org/whyileft.html
 and
-http://www.independent.co.uk/news/uk/home-news/twelve-tribes-
-community-nspcc-demands-police-inquiry-into-christian-sect-that-canes-
-children-8847622.html
+http://www.independent.co.uk/news/uk/home-news/twelve-tribescommunity-nspcc-demands-police-inquiry-into-christian-sect-that-caneschildren-8847622.html
 Chapter 10
 170. Elan Vital, Inc. is newer name than Divine Light Mission. See Michael
 Finch’s Without the Guru: How I took my life back after thirty years,
@@ -12844,11 +12783,8 @@ Criticized as Cult-like is now al KSU,” Daily Kent Stater (Dec 3, 1982),
 1.
 Chapter 12
 193. Words matter in ‘ISIS’ war, so use ‘Daesh”.
-http://www.bostonglobe.com/opinion/2014/10/09/words-matter-isis-war-
-use-daesh/V85GYEuasEEJgrUun0dMUP/story.html
-194. http://www.fbi.gov/?came_from=http%3a//www.fbi.gov/stats-
-services/publications/law-enforcement-bulletin/september-
-2011/sovereign-citizens and Stephen A. Kent 2003 paper for the
+http://www.bostonglobe.com/opinion/2014/10/09/words-matter-isis-waruse-daesh/V85GYEuasEEJgrUun0dMUP/story.html
+194. http://www.fbi.gov/?came_from=http%3a//www.fbi.gov/statsservices/publications/law-enforcement-bulletin/september2011/sovereign-citizens and Stephen A. Kent 2003 paper for the
 European Federation of Centres of Research and Information on
 
 
@@ -12889,8 +12825,6 @@ experimentation.
 200.
 http://dsm.psychiatryonline.org/doi/book/10.1176/appi.books.978089042
 
-
-5596
 201. Mind Control: Psychological Reality or Mindless Rhetoric? By Dr.
 Philip G. Zimbardo (November 2002, Vol. 33, No. 10).
 202.
@@ -12922,8 +12856,7 @@ themselves, not with some external authority figure.
 211. There are videos of the CFFP annual conference in 2013 for free and
 the 2014 is available for purchase. I moderated an amazing panel of
 survivors of child abuse in 2013 and the video of that program is at
-http://childfriendlyfaith.org/conference-2013/videos-from-cffp-
-conference-2013/. Bethany Brittain, a board member, spoke about being
+http://childfriendlyfaith.org/conference-2013/videos-from-cffpconference-2013/. Bethany Brittain, a board member, spoke about being
 a victim of extreme corporal punishment by her Christian parents who
 
 
@@ -12987,8 +12920,7 @@ ANZCA08 Conference, Power and Place, Wellington, July 2008 online
 at https://www.massey.ac.nz/massey/fms/Colleges/College of
 Business/Communication and Journalism/ANZCA 2008/Refereed
 Papers/Kavan_ANZCA08.pdf
-218. Available at http://pyramidschemealert.org/wordpress/wp-
-content/uploads/2014/03/The-Pyramid-Scheme-Industry-FINAL.pdf
+218. Available at http://pyramidschemealert.org/wordpress/wpcontent/uploads/2014/03/The-Pyramid-Scheme-Industry-FINAL.pdf
 219. http://quoteinvestigator.com/2011/10/15/liberty-fist-nose/
 220. Touro Synagogue National Historical Site, “George Washington and
 His Letter to the Jews of Newport,”
@@ -13002,11 +12934,9 @@ http://www.un.org/en/documents/udhr/
 
 
 224. ISIS Is a Cult That Uses Terrorism: A Fresh New Strategy
-http://www.huffingtonpost.com/steven-hassan/isis-is-a-cult-that-uses-
-_b_6023890.html
+http://www.huffingtonpost.com/steven-hassan/isis-is-a-cult-that-uses_b_6023890.html
 225. It’s Time to End the Church of Scientology’s Tax-Exempt Status by
-Steven Hassan http://www.huffingtonpost.com/steven-hassan/its-time-to-
-end-the-churc_b_555843.html
+Steven Hassan http://www.huffingtonpost.com/steven-hassan/its-time-toend-the-churc_b_555843.html
 OceanofPDF.com
 
 

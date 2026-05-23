@@ -9,15 +9,18 @@ chars: 654841
 approx_tokens: 163710
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 654843
+phase4_chars_after: 654681
+phase4_saved_pct: 0.0
 ---
-
 
 
 The NLP Comprehensive Training Team
 N L P
 THE NEW TECHNOLOGY
 OF ACHIEVEMENT
-Edited by Steve Andreas 
+Edited by Steve Andreas
 and Charles Faulkner
 CONTRIBUTING AUTHORS
 Steve Andreas, M.A., Charles Faulkner, B.A.,
@@ -89,8 +92,7 @@ key books on this transformational technology, and produced more than
 three times that many audio and videotape programs.
 Over the last ten years, through our books, tapes, and training
 sessions, we’ve introduced this new possibility for living to over a
-million people in situations ranging from corporate boardrooms to a one-
-room schoolhouse, from packed auditoriums to a cancertreatment
+million people in situations ranging from corporate boardrooms to a oneroom schoolhouse, from packed auditoriums to a cancertreatment
 
 
 hospital room.
@@ -171,12 +173,12 @@ stirring. Two days later, they are designing their new strategic plan. A
 year later, the values expressed at those meetings have spread
 throughout the company, improving morale, and transforming them
 back into market leaders.
-Tim 
-Hallbom, 
-M.S.W., 
-trainer, 
-author, 
-and 
+Tim
+Hallbom,
+M.S.W.,
+trainer,
+author,
+and
 health-applications
 researcher, had just learned from NLP innovator Robert Dilts that
 allergic responses are comparable to a phobia of the immune system.
@@ -197,8 +199,7 @@ deep connections of our lives are our relationships. The estranged couple
 before him wishes they did, too. Beginning with one and then the other,
 Robert draws them out. He helps them divide their disappointments
 from their dreams and rekindle what first brought them together. He
-then assists them in literally separating themselves from old co-
-dependent patterns and gaining a new sense of wholeness in and for
+then assists them in literally separating themselves from old codependent patterns and gaining a new sense of wholeness in and for
 themselves. Finally, he invites them to participate in a healing ritual in
 which they bring the fullness of each other together in a living, loving
 relationship. Tears come to Robert’s eyes as well as to the couple before
@@ -366,8 +367,7 @@ learn to do something well—selling, managing, motivating, problem
 solving, designing, delegating, whatever it is—and after a while they
 think, “This is what I’m good at.” They develop an area of expertise, and
 then they simply don’t know how to change their mental programs to
-develop another one. If your personal computer didn’t run a word-
-processing program and a spreadsheet, you’d get it checked out. But
+develop another one. If your personal computer didn’t run a wordprocessing program and a spreadsheet, you’d get it checked out. But
 when people can’t switch mental programs, they usually begin to make
 excuses. They may even explain to you that they have a lack of talent or
 the wrong body type or personality profile or even astrological sign for
@@ -487,8 +487,7 @@ NLP is the study of human excellence.
 NLP is the ability to be your best more often.
 NLP is the powerful and practical approach to personal change.
 NLP is the new technology of achievement.
-NLP is the acronym for Neuro-Linguistic Programming. This high-tech-
-sounding name is purely descriptive, like cross-trainer shoes, a golden
+NLP is the acronym for Neuro-Linguistic Programming. This high-techsounding name is purely descriptive, like cross-trainer shoes, a golden
 retriever, or a classic convertible coupe. Neuro refers to our nervous
 system, the mental pathways of our five senses by which we see, hear,
 feel, taste, and smell. Linguistic refers to our ability to use language and
@@ -548,8 +547,7 @@ conflicted and uncertain of his skills. Using NLP to assist him in
 changing the way he thinks to the same mental methods used by
 effective decision makers, he responds much more positively. Before he
 might have thought, “Should I do this? I’m not sure. Don’t blow it; don’t
-miss another opportunity.” Now he asks himself useful information-
-gathering questions that lead to effective decision making and improved
+miss another opportunity.” Now he asks himself useful informationgathering questions that lead to effective decision making and improved
 performance. Questions such as: “What do I need to know in order to
 make this decision?” or “What are the major benefits, and how can I
 quantify them?”
@@ -593,8 +591,7 @@ game. The laboratory or playing field is in your mind. Think of them as
 a chance to try out something new, to do things in a new way and have
 some fun. Here are some simple exercises to give you an idea of how this
 works.
-Have you ever ridden on a roller coaster or some other amusement-
-park ride? Take a moment and remember a specific ride. Then imagine
+Have you ever ridden on a roller coaster or some other amusementpark ride? Take a moment and remember a specific ride. Then imagine
 that you are seeing this ride from a considerable distance, perhaps
 sitting on a park bench. Watching from here, you can see yourself over
 there on the ride. Notice how you feel as you watch yourself from this
@@ -740,18 +737,17 @@ successful behaviors into your life. First, make what you want to do and
 what you think about into a positive statement. Second, increase the
 mental vividness of what you want to do in order to increase its
 attractiveness for you. And third, associate into these successful
-behaviors and mentally rehearse them, so they feel natural. This step-by-
-step program approach is a hallmark of NLP. A practical approach to
+behaviors and mentally rehearse them, so they feel natural. This step-bystep program approach is a hallmark of NLP. A practical approach to
 change, NLP is a how-to technology for personal transformation.
 New Principles of Mind
 By now, it’s probably clear that NLP is based on principles that are
 very different from traditional psychology. While traditional clinical
-psychology 
-is 
-primarily 
-concerned 
-with 
-describing 
+psychology
+is
+primarily
+concerned
+with
+describing
 difficulties,
 categorizing them, and searching for historical causes, NLP is interested
 in how our thoughts, actions, and feelings work together right now to
@@ -1363,8 +1359,7 @@ NLP is the study of human excellence. It’s a process for modeling the
 mental patterns of thoughts, actions and feelings of real human
 achievers, like ourselves. The codevelopers of NLP learned how to
 rearrange internal experience so easily and elegantly because they
-started with some fundamental principles that are at the heart of Neuro-
-Linguistic Programming.
+started with some fundamental principles that are at the heart of NeuroLinguistic Programming.
 THE PRESUPPOSITONS OF NLP
 The map is not the territory.
 Experience has a structure.
@@ -1430,7 +1425,7 @@ becoming simply a means to an end, NLP allows you to live
 purposefully, to participate in creating the world you really want.
 
 
-CHAPTER THREE 
+CHAPTER THREE
 Getting Motivated
 What lies beyond us and what lies before us are tiny matters when
 compared to what lies within us.
@@ -1452,8 +1447,7 @@ that program now as MS-DOS.
 On the other side, as proof of desperation as a motivator, the list could
 begin with Anthony Robbins. A former vacuum cleaner salesman and
 health program seminar leader, Tony had tasted financial success and
-had it slip away from him. When he found his life reduced to a four-
-hundred-square-foot apartment in Venice Beach, California, washing his
+had it slip away from him. When he found his life reduced to a fourhundred-square-foot apartment in Venice Beach, California, washing his
 dishes in his bathtub, it wasn’t the taste of success that pulled him
 forward, but the distaste of his current conditions that drove him to
 
@@ -1593,8 +1587,7 @@ The benefits of toward motivation are more obvious. The people who
 move toward goals and rewards are greatly valued in our society. If you
 look in the “help wanted” ads of your local newspaper, you’ll find ads
 seeking self-motivated, ambitious, forwardthinking self-starters—in
-other words, people who are motivated toward. This demand for toward-
-motivated individuals has many job applicants pretending to be
+other words, people who are motivated toward. This demand for towardmotivated individuals has many job applicants pretending to be
 something that they are not. This isn’t of service to anyone. When we
 examine the advantages of both directions of motivation, we find that a
 toward orientation is more goal-directed and an away from orientation is
@@ -1661,13 +1654,13 @@ levels of discomfort without so much stress, like Dr. Zweig and many
 other effective decision makers. After all, how loud does a telephone
 have to be to let you know it needs to be answered? How uncomfortable
 does a chair have to be before you will move? It all depends on your
-sensitivity. 
-Achievers 
-develop 
-their 
-sensitivity 
-to 
-people 
+sensitivity.
+Achievers
+develop
+their
+sensitivity
+to
+people
 and
 environments so they can have the most flexibility of action, moving
 while they still have a choice, before pain or discomfort forces them to
@@ -1729,8 +1722,7 @@ measurably closer to their goals, they experience an emotional peak, an
 inner “yes.”
 Utilizing Motivation Direction in Planning
 If you are a manager, it’s your job to understand both kinds of
-motivation and to motivate your people accordingly. Here’s a strategic-
-planning model you can use with groups and teams where people with
+motivation and to motivate your people accordingly. Here’s a strategicplanning model you can use with groups and teams where people with
 both types of motivation are present. Remember, their Motivation
 Directions are opposite, so they will tend to argue with each other if you
 don’t provide guidance and direction.
@@ -2139,8 +2131,7 @@ from motivation. Obviously, some people will achieve better results by
 thinking of it as moving toward gaining fitness and health. Remember,
 either Motivation Direction will work, provided you have effective and
 compelling thoughts in your mind. The toward motivation of Demi
-Moore getting back in shape after her pregnancy, and winning a million-
-dollar movie role, is obvious. Some mothers simply want to be fit so that
+Moore getting back in shape after her pregnancy, and winning a milliondollar movie role, is obvious. Some mothers simply want to be fit so that
 they are healthy role models for their children. Having important and
 compelling values in mind will make a huge difference. The values you
 choose are up to you.
@@ -2265,7 +2256,7 @@ you’ll be ready for the next stage of the adventure: discovering your
 mission.
 
 
-CHAPTER FOUR 
+CHAPTER FOUR
 Discovering Your Mission
 If one advances confidently in the direction of his dreams … he will
 meet with a success unexpected in common hours.
@@ -3152,14 +3143,11 @@ in spite of time and death, those tyrants stern.
 So I can give long life to both of us
 in either way, by color or by stone,
 making the semblance of thy face and mine.23
-Most of the examples of achievers in this chapter have been world-
-famous people. It is important to realize that you don’t have to be world-
-famous to live a great mission.
+Most of the examples of achievers in this chapter have been worldfamous people. It is important to realize that you don’t have to be worldfamous to live a great mission.
 The Story of a Magnificent Mission
 
 
-Mary Jane Sheppard died on December 18, 1992. She was not world-
-famous, nor did she invent any paradigm-shifting technology or build
+Mary Jane Sheppard died on December 18, 1992. She was not worldfamous, nor did she invent any paradigm-shifting technology or build
 any business organizations. And yet, she lived a magnificent mission.
 The mission Mary Jane Sheppard lived was as important as any lived by
 those more famous—raising a healthy, loving family. As wife of husband
@@ -3179,9 +3167,9 @@ together.
 Jim Conlow, a member of Mary Jane’s community, wrote a poem
 about her. It’s called “The Maker.” A section of it describes her this way:
 A Maker is the greatest of Sorcerors or Saints
-Life of love magic and connection 
-Making baked bread and gardens 
-Making children and children’s children 
+Life of love magic and connection
+Making baked bread and gardens
+Making children and children’s children
 Weaving the tapestry of compassion
 Early in her life she followed all the steps of the missiondiscovery
 process. She knew her primary passions—connecting emotionally with
@@ -3449,8 +3437,7 @@ effectively functioning in your life roles. From the outside, it would look
 like you were simply reading about and pondering it. From the inside,
 this powerful technique makes a big difference in how you feel about
 your own roles. If you do this consistently, it will reenergize your
-capabilities to achieve greatness, helping you achieve your mission-
-oriented goals.
+capabilities to achieve greatness, helping you achieve your missionoriented goals.
 Why Roles Are Important
 We’ve been talking a lot about roles. Why are they important? The
 more you learn about how to create your own roles, the more you can
@@ -3642,7 +3629,7 @@ like some of your current work roles, then change them—mentally at
 first. Imagine your work roles as your mission unfolds. Whether you can
 assume these work roles in your current organization or in a new one,
 create your desired role identities for your mission.
-EXERCISE 15: DISCOVERING THE WORK ROLES 
+EXERCISE 15: DISCOVERING THE WORK ROLES
 FOR YOUR MISSION
 1. Look over the list of work roles and ask the question:
 “Will being a great ____________ be essential in living my
@@ -3810,8 +3797,7 @@ When you can give yourself an A grade in a given role, then you focus
 on other roles. If you get A’s on all of your roles, then add more values
 or more roles. The idea here is to develop a neverending process of
 improvement. Any such quest will have peaks and plateaus. Your
-mastery of each role in your mission will contribute to an ever-
-improving mission, and when you choose well, to a fun, challenging, and
+mastery of each role in your mission will contribute to an everimproving mission, and when you choose well, to a fun, challenging, and
 meaningful life.
 Your Role Assessment Chart
 Focus Your Efforts on a Specific Goal
@@ -3975,7 +3961,7 @@ Now, check your own goal for how soon you get to be happy about its
 completion and make any adjustments so that it’s motivating for you.
 Consider the possibility of taking a smaller-step goal on the way to your
 larger achievements.
-Selecting Where, When, and with Whom You Want to 
+Selecting Where, When, and with Whom You Want to
 Achieve Your Goal
 It’s very important to think about when you do and when you don’t
 want your goal. For example, if your goal is “to feel confident,” do you
@@ -3985,13 +3971,13 @@ tightrope a hundred feet above the ground? People often want a certain
 feeling all the time when they don’t believe they can have it at all.
 Feeling confident when you have the skills and training makes that
 confidence solid and appropriate. Then you can explore the countless
-other 
-feeling 
-possibilities 
-in 
-life, 
-including: 
-curiosity, 
+other
+feeling
+possibilities
+in
+life,
+including:
+curiosity,
 desire,
 competitiveness, compassion, sensitivity, trust, tenacity, love, and so
 many more.
@@ -4123,8 +4109,7 @@ pathway, you’ll notice many specific steps. Ask yourself,
 “How did I bring about my abilities and act in the world to
 get to the place of this goal’s full achievement?”
 See and hear the resources, the abilities, the actions, and the
-contacts with people, all those different elements that led, step-by-
-step, toward your goal. Take your time. Delight in seeing what you
+contacts with people, all those different elements that led, step-bystep, toward your goal. Take your time. Delight in seeing what you
 did to achieve your goal. Notice what happened after that one action.
 See the many actions, the new resources, the new abilities, as they
 happen. As you see those steps, see how it is part of your unfolding
@@ -4557,8 +4542,7 @@ that you are not in rapport. The word uncomfortable is the word a lot of
 people use to describe how they know when they’re out of rapport. Just
 take the time to note what you experience when you don’t have rapport.
 In the future, you can use that feeling as a signal to let you know when
-you need to do something to get rapport. That feeling can be your “loss-
-of-rapport detection alarm.” The goal is to train yourself to recognize
+you need to do something to get rapport. That feeling can be your “lossof-rapport detection alarm.” The goal is to train yourself to recognize
 when the alarm goes off, and then do something to regain rapport.
 Assuming that you successfully broke rapport with your friend during
 the experiment, please take the time to rebuild it quickly with one of the
@@ -5745,8 +5729,7 @@ danger in some situations.
 Since everyone has suffered from fear at some time in his or her life,
 you probably are well acquainted with the feelings of anxiety, panic, or
 discomfort that can accompany this state of mind. What you might not
-know is that there are ways of replacing your fears or even lack of self-
-confidence with the ability to take action comfortably. This is an ability
+know is that there are ways of replacing your fears or even lack of selfconfidence with the ability to take action comfortably. This is an ability
 that you already have, but haven’t yet used appropriately.
 Remember, in NLP we say, The map is not the territory. The map of
 New York doesn’t look much like what you see when you’re in the
@@ -6068,8 +6051,7 @@ These are two things to keep in mind when you have any kind of fear.
 First of all, some people with phobias think there’s something wrong
 with them, that they are crazy, or that it’s stupid to have the fear.
 Actually, if you have a phobic response to something, it means your
-brain can learn very quickly. Phobias are typically the result of a one-
-time learning experience. For example, one woman had a snake phobia
+brain can learn very quickly. Phobias are typically the result of a onetime learning experience. For example, one woman had a snake phobia
 because a snake had been thrown at her by some other kids when she
 was a little girl. Somehow, outside of her consciousness, whenever she
 saw a snake or thought about one, she would imagine that dangerous
@@ -6460,8 +6442,7 @@ ever said something to someone and had a voice fire off inside your head
 that said, “You dummy—whatever possessed you to say that?” Most of
 us have had experiences similar to these where we became our own
 worst enemy. These mental processes set us up to fail ahead of time.
-Consider Bill, a man who had a big problem with negative self-
-evaluation. He said that he’d been feeling blue and depressed for over a
+Consider Bill, a man who had a big problem with negative selfevaluation. He said that he’d been feeling blue and depressed for over a
 year. In exploring his thought processes, he discovered that he was
 making pictures of all the things he didn’t do well, and then commenting
 
@@ -6751,8 +6732,7 @@ you might be realizing that one important function of your internal voice
 is to create internal pictures and movies that can positively impact your
 emotions, helping you stay resourceful, capable, and confident.
 Building Affirmative Self-Talk
-Affirmations are statements about you that are framed in the positive-
-in other words, what you want to have happen rather than don’t want.
+Affirmations are statements about you that are framed in the positivein other words, what you want to have happen rather than don’t want.
 They are stated in the present or future tense as if they are already
 occurring or will be soon.
 Equally as powerful as putting your statement in present tense is to
@@ -6922,8 +6902,7 @@ to program that new behavior into the future situation by doing this.
 
 
 Creative Visualization
-In this exercise and in many previous exercises, we have used a two-
-step process that we haven’t explicitly commented upon. When
+In this exercise and in many previous exercises, we have used a twostep process that we haven’t explicitly commented upon. When
 visualizing a goal or a future behavior, it is useful to do it from observer
 position. From this position it is easy to be a “film editor,” rapidly
 running lots of different scenarios, cutting out sections that don’t work
@@ -7143,12 +7122,12 @@ The Virtues of Self-Appreciation
 What is self-esteem? Perhaps it can best be defined as an objective and
 favorable impression of one’s self that influences all of one’s experiences.
 That’s quite a statement, and yet just about every psychologist,
-counselor, 
-and 
-motivator, 
-successful 
-businessman 
-or 
+counselor,
+and
+motivator,
+successful
+businessman
+or
 -woman,
 psychiatrist and mental-health professional will agree that self-esteem is
 the bottom line for peace of mind and personal satisfaction.
@@ -7229,8 +7208,7 @@ large, bright, and extremely close to her face.
 Since the content of her self-image (a twisted and hollow-body image
 of herself) was upsetting to look at, and the form was intense (large,
 bright, and close up), Jean felt emotionally upset whenever she thought
-of her personal worth, and, consequently, she maintained very low self-
-esteem.
+of her personal worth, and, consequently, she maintained very low selfesteem.
 Naturally, no matter what her colleagues would say about her work,
 no matter what accolades and rewards she would receive, Jean did not
 believe she was a valuable human being. She simply did not see herself
@@ -7245,27 +7223,25 @@ security she truly wanted.
 The Form and Content of Very High Self-Esteem
 Very high self-esteem, on the other hand, is typically characterized by
 a positive self-image that also has submodalities that are visually very
-intense 
-in 
-form. 
-For 
-instance, 
-when 
-Jean 
-completed 
+intense
+in
+form.
+For
+instance,
+when
+Jean
+completed
 “The
 Autobiography,” an NLP exercise that you will learn in this chapter, she
 finally saw herself differently than she had ever seen herself before. Jean
 saw herself as whole and complete, life-size, and smiling with radiant
 self-confidence. This self-image took on the intensity of a large, bright,
-colorful motion picture. This combination created feelings of high self-
-esteem. Today she not only feels good about herself, Jean thinks of
+colorful motion picture. This combination created feelings of high selfesteem. Today she not only feels good about herself, Jean thinks of
 herself as solidly on the road to the financial freedom she desires.
 The Structure of Self-Esteem: Variations of Content and Form
 Since content can be positive or negative, and form can be intense or
 not, there are four variations of content and form. As you saw in the
-example of Jean, the subjective structure of very high and very low self-
-esteem is as follows:
+example of Jean, the subjective structure of very high and very low selfesteem is as follows:
 1. Very high self-esteem is made of intense form and positive
 content.
 2. Very low self-esteem is made of intense form and negative content.
@@ -7327,8 +7303,7 @@ the self-image you just created with the one you originally thought
 of? Most people who take the time to actually do this simple exercise
 discover that their sense of self-esteem is powerfully affected by the
 different form and content of images they have of themselves. When
-their self-images are both positive and intense, they feel greater self-
-esteem.
+their self-images are both positive and intense, they feel greater selfesteem.
 How Self-Esteem Can Change Your Life
 People who maintain high self-appreciation are fundamentally no
 different from you. It’s not that they never feel down or upset or
@@ -7380,8 +7355,7 @@ not a human performance.”1 When you learn to separate who you are
 from what you do, you can more easily notice that your being is
 fundamentally good. Your behavior—how you act—is simply effective or
 ineffective at achieving the results you truly want. Knowing that you are
-not your behavior avoids many troubling emotions like regret, self-
-blame, and shame, leaving all your energy free to examine how you are
+not your behavior avoids many troubling emotions like regret, selfblame, and shame, leaving all your energy free to examine how you are
 living and to change behaviors and responses that you are not satisfied
 with.
 Many people’s self-images only utilize observer position. They see
@@ -7392,8 +7366,7 @@ your self-image by adding other perspectives. A particularly useful other
 perspective is seeing yourself out of the eyes of someone who loves you.
 Other people often see us differently than we see ourselves, and loved
 ones often see things that we might never notice on our own.
-Recently a self-employed businesswoman attended an NLP-based self-
-esteem seminar. When Eileen came to the seminar, she wondered how
+Recently a self-employed businesswoman attended an NLP-based selfesteem seminar. When Eileen came to the seminar, she wondered how
 people could possibly love her for herself. When she saw herself from the
 perspective of someone else, someone whom she knows really loves her,
 she saw through her behavior to her essence, to who she really is. She
@@ -7545,8 +7518,7 @@ Welcome back.
 11. Notice the Changes. Now that you have had the chance to
 actually experience the self-appreciation that eludes so many people,
 please take your time and comfortably notice how this exercise has
-changed your inner representations of yourself in subtle and not-so-
-subtle ways. Notice the ways in which you can now actually see
+changed your inner representations of yourself in subtle and not-sosubtle ways. Notice the ways in which you can now actually see
 yourself from a new, more appreciative, and loving perspective. The
 experience you just went through has provided you with the kind of
 deep personal self-appreciation that is often a first step toward totally
@@ -7588,8 +7560,7 @@ Another aspect of self-esteem is recognizing your individuality. The
 self-esteeming person commonly uses “I” statements rather than “you” or
 “we” statements. With high self-esteem, a man or woman might say, “I
 feel wonderful today,” rather than, “Some days, you know, you just feel
-wonderful,” or, “This is a wonderful day.” This is because the self-
-esteeming person easily distinguishes himself or herself from other
+wonderful,” or, “This is a wonderful day.” This is because the selfesteeming person easily distinguishes himself or herself from other
 people, things, and concepts.
 Using “I” statements ensures your ownership of your own experiences,
 wants, and needs, and this will empower you to stand up for your
@@ -7614,8 +7585,7 @@ The same is true if you must say no to everything that comes along. In
 either case, if you are compelled to say yes all the time, or if you are
 compelled to say no to everything, these compulsions both lead to lack
 of choice and result in low self-esteem.
-Today, a lot is being said about a kind of lack of choice called co-
-dependent behavior. The First National Conference on Co-Dependence
+Today, a lot is being said about a kind of lack of choice called codependent behavior. The First National Conference on Co-Dependence
 (held in Scottsdale, Arizona, in 1989) defined co-dependence as “a
 pattern of dependence on compulsive behaviors and on approval from
 others in an attempt to find safety, self-worth and identity.” Self-worth
@@ -7628,8 +7598,7 @@ tends to miss or ignore many of the choices available to her: Feeling
 worthless leads to fewer choices. Fewer choices lead, in turn, to
 repeating behaviors, even when they are not effective. Ineffective
 behavior patterns lead to fewer successes in life. And a lack of success
-leads to feeling worthless, completing the vicious circle of low self-
-esteem.
+leads to feeling worthless, completing the vicious circle of low selfesteem.
 For example, a middle-aged businesswoman named Claire said she had
 recently made several important decisions to create more independence
 in her life, and yet she felt like a complete failure. She said she was sure
@@ -7713,8 +7682,7 @@ in public. The audience broke into applause.
 The Swish Pattern not only handles self-defeating behavior and other
 blocks to self-esteem, it also orients your brain for greater and greater
 self-esteem as it enables you to look into a brighter future. This pattern
-deals with present, past, and future issues and concerns related to self-
-esteem all at once, because that “wonderful you” image literally builds a
+deals with present, past, and future issues and concerns related to selfesteem all at once, because that “wonderful you” image literally builds a
 piece of positive self-image.
 
 
@@ -7914,12 +7882,10 @@ the resources they need.
 One way to think of the Swish Pattern is that it creates a very
 powerful motivating self-image of who you want to become. This
 powerful motivation organizes and focuses all your conscious resources
-on the problem situation and figures out how to deal with it. The self-
-image you build with the Swish Pattern also influences all of your
+on the problem situation and figures out how to deal with it. The selfimage you build with the Swish Pattern also influences all of your
 experiences: past, present, and future.
 The Swish Pattern presented here uses size and brightness to exchange
-the two images. You can also use color/black and white; close/far; 3-
-D/flat; snapshot/movie or any other pair of submodalities to exchange
+the two images. You can also use color/black and white; close/far; 3D/flat; snapshot/movie or any other pair of submodalities to exchange
 the images. Since different people respond more strongly to different
 submodalities, using one of these alternate ways of doing the Swish
 Pattern will be more effective for certain people than the one presented
@@ -7943,10 +7909,8 @@ will fail to perform at a desired level, or that you are simply stupid or
 incompetent? All of us do at times. In the last chapter, we presented
 several specific strategies for handling these self-critical voices.
 Transforming Self-Consciousness
-A closely related unresourceful state of mind is painful self-
-consciousness, usually due to feeling criticized or “discounted” by actual
-others, rather than an inner critical voice. Many people feel self-
-conscious if they discover that they are the object of another person’s
+A closely related unresourceful state of mind is painful selfconsciousness, usually due to feeling criticized or “discounted” by actual
+others, rather than an inner critical voice. Many people feel selfconscious if they discover that they are the object of another person’s
 criticism. But many people are able to feel self-conscious even when they
 are alone. Since someone who is completely alone can feel criticized and
 consequently self-conscious, this clearly illustrates that it is our thinking
@@ -7999,8 +7963,7 @@ and evaluate the accuracy of the other person’s point of view. He would
 not feel compelled to accept or reject the other’s perspective. By
 accepting himself as he is, he would feel free to accept the fact that each
 of us has a different, and personally valid, model of the world. If,
-however, he felt he were being abused in some way, the high self-
-esteeming person would feel comfortable saying so and take appropriate
+however, he felt he were being abused in some way, the high selfesteeming person would feel comfortable saying so and take appropriate
 action to create a win-win solution whenever possible.
 It’s been said that one of the key differences between successful and
 unsuccessful salespeople is their ability to dispassionately react to
@@ -8252,8 +8215,7 @@ he was gratified at the positive reception he received. Eventually, his
 research was published in professional journals.1 When he shared his
 discoveries with his NLP colleagues, he was surprised and delighted at
 the calls, letters, and conversations it stimulated. As others used Gary’s
-insights with business clients, health professionals, and even elementary-
-school students, they found that these six mental patterns applied to a
+insights with business clients, health professionals, and even elementaryschool students, they found that these six mental patterns applied to a
 
 
 wide range of situations, all as different from one another as parenting,
@@ -8419,8 +8381,7 @@ living and dead. If they come out on top, they get to feel good; if they
 don’t compare favorably, they’re supposed to feel bad or somehow
 inadequate. This same tendency is very strongly ingrained in many of us.
 Early in life we noticed, or had blatantly pointed out to us in school, that
-some kids were smarter, some were more athletic, some were better-
-looking, and others were more popular than us. We might have been
+some kids were smarter, some were more athletic, some were betterlooking, and others were more popular than us. We might have been
 high on one scale, but if we checked another, we often found ourselves
 low. As we entered the world of work, this tendency to compare
 ourselves with others continued and, in some cases, even increased. We
@@ -8515,8 +8476,7 @@ Positive Attitude in Action
 
 
 Let’s look at a few different examples to show how these elements
-work together and what happens when they don’t. The first is a thirty-
-one-year-old man who seriously hurt himself while playing on an
+work together and what happens when they don’t. The first is a thirtyone-year-old man who seriously hurt himself while playing on an
 intercompany Softball league. As soon as he started rehabilitation, his
 first question was, “When will you be finished so I can get back to my
 job?” This single question spoke volumes about his mental patterns and
@@ -8895,8 +8855,7 @@ times in order to strengthen its benefits even further.
 Reviewing What You’ve Learned
 If you completed the exercises in this chapter, you have just created
 an empowering positive mental attitude for yourself and imprinted it on
-your past memories and future expectations. Essentially, you’ve just re-
-created your life with much greater possibilities of action. You can use
+your past memories and future expectations. Essentially, you’ve just recreated your life with much greater possibilities of action. You can use
 this same technique to bring other resources of success and achievement
 to everything you’ve done and everything you will do, building an even
 more solid foundation for your future.
@@ -8966,8 +8925,7 @@ Boulder. Here, climbers from across the globe gather each summer to
 test their skills and determination—to climb the peaks and to find their
 peak performance within.
 If you’ve ever climbed a mountain, whether it was a day hike or a
-competitive technical climb, you know it can take hours of effort. Day-
-to-day concerns are dropped by the trail as the task of climbing absorbs
+competitive technical climb, you know it can take hours of effort. Dayto-day concerns are dropped by the trail as the task of climbing absorbs
 more and more of your concentration. On the way up, you go through
 every possible emotion: frustration, fear, elation, selfdoubt, trust, and
 triumph. The climb condenses into a few hours’ experiences that might
@@ -9146,8 +9104,7 @@ again, we have seen a much bigger change take place. While the
 business people came to NLP for an edge, and the teachers came to NLP
 for educational strategies, and the therapists came to NLP for more
 effective change techniques, about halfway through the training all of
-them had expanded their possibilities to include their own self-
-development. The formerly shy teacher had decided to open her own
+them had expanded their possibilities to include their own selfdevelopment. The formerly shy teacher had decided to open her own
 business. The selfcontained computer programmer decided to do
 volunteer work at a crisis center. The entrepreneur decided to teach NLP
 techniques to everyone she works with instead of just using them herself.
@@ -9261,8 +9218,7 @@ you organize and access your unconscious resources so you can get in
 touch with your greater capabilities. The way you will express your new
 self-empowerment is a journey of self-discovery waiting to be taken, one
 that will expand and become more enjoyable the more you are on it.
-Your brain can do amazing things. If you want a positive, peak-
-performance life, your brain can “swish” to provide it.
+Your brain can do amazing things. If you want a positive, peakperformance life, your brain can “swish” to provide it.
 Enhancing Your Brain’s Natural Abilities
 We’ve all heard stories that illustrate the amazing potential that lives
 within every one of us. Here are some of our current favorites. Years
@@ -9981,7 +9937,7 @@ Armstrong, Neil, 79
 “Artist and His Work, The” (Michelangelo), 103
 “Autobiography, The,” 229, 234–238
 Bandler, Richard, 48–51, 73–74, 167, 192, 196, 210, 241, 275, 290,
-304
+
 Bannister, Roger, 323
 
 
@@ -10640,8 +10596,7 @@ to the present to plan for your future and take the necessary actions in
 
 the present.
 Use the more detailed instructions to Exercise 19: Developing a Plan
-found in Chapter Five. Do this exercise fully with each of your well-
-formed goals.
+found in Chapter Five. Do this exercise fully with each of your wellformed goals.
 Day 7: Appreciating the Rest of Your Life
 Every world religion and spiritual discipline has times of rest. Whether
 this time is set aside to praise the Creator, or refocus the disciple’s mind
@@ -10663,8 +10618,7 @@ Want.” These are the things that you want in your life and you already
 have. In your rush to attain, gain, and achieve more, it is easy to forget
 how far you have come. Take time today to review this list in detail.
 Linger over any items that enchant you. Savor them. Notice what you
-like about your life. If this prompts you to call someone, send a thank-
-you note, take a moment in meditation or prayer, or do something so
+like about your life. If this prompts you to call someone, send a thankyou note, take a moment in meditation or prayer, or do something so
 that these items appear more often in your future—let your heart be
 your guide. Feel free to add to this list at any time.
 When you have completely reviewed your Have & Want list, look
@@ -10727,8 +10681,7 @@ The magic of rapport is in this last kind of listening—listening for how
 another sees, hears, feels, and thinks.
 This deep listening begins with hearing how another person makes
 sense of his or her world: what is seen, what is heard, and what is felt.
-To deepen your listening and increase the magic of your rapport-
-building skills, begin by simplifying your learning environment. When
+To deepen your listening and increase the magic of your rapportbuilding skills, begin by simplifying your learning environment. When
 someone is face-to-face with you, there is an incredible amount of
 information being communicated: the words, gestures, emotions, and
 unconscious cues. Instead, you might begin by practicing rapport
@@ -10968,8 +10921,7 @@ there is an image of you having already exceeded your current level of
 success. You don’t know how you did it. You just know you did. When
 the image moves closer, you’ll see your satisfied smile and a gleam in
 your eyes, that will let you know you did it within the rules of your
-game and you also enhanced your health. Watch as the performance-
-plateau experience rushes away from you, getting smaller and darker
+game and you also enhanced your health. Watch as the performanceplateau experience rushes away from you, getting smaller and darker
 and farther away until it loses all significance. While at the same time,
 that dot blossoms toward you, getting bigger and brighter and more real,
 until you are face-to-face with your exceptional self. Blank your internal
@@ -11345,8 +11297,7 @@ Tim is cofounder of Western States Training Associates/NLP of Utah. He
 
 
 is a coauthor of NLP: The New Technology of Achievement, the audiotape
-How to Build Rapport, and the book Beliefs: Pathways to Health and Well-
-Being. In partnership with the esteemed NLP innovator Robert Dilts and
+How to Build Rapport, and the book Beliefs: Pathways to Health and WellBeing. In partnership with the esteemed NLP innovator Robert Dilts and
 his colleague Suzi Smith, Tim pioneers new NLP applications to the field
 of health. He and his colleagues are creating the NLP World Health
 Community for the 21st Century, which is based in Salt Lake City, Utah,
@@ -11356,12 +11307,12 @@ Robert is an internationally known author, lecturer, and NLP trainer.
 He’s a coauthor of NLP: The New Technology of Achievement and Success
 Mastery with NLP. Robert also pioneered the use of NLP in the fields of
 addiction, co-dependence, relationships, and spirituality. He’s been
-creating 
-highly 
-effective 
-communication 
-seminars 
-since 
+creating
+highly
+effective
+communication
+seminars
+since
 1970,
 facilitating deep personal transformation for individuals and groups. He
 also created many NLP tools, including: The Belief Exchange, The Coupled

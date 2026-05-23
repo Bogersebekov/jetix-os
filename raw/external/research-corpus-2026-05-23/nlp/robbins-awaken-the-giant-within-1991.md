@@ -9,10 +9,11 @@ chars: 1153708
 approx_tokens: 288427
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 1153710
+phase4_chars_after: 1153162
+phase4_saved_pct: 0.0
 ---
-
-
-
 
 
 FREE PRESS
@@ -33,7 +34,7 @@ p.  cm.
 Originally published: New York : Summit Books, © 1991.
 1. Success—Psychological aspects.  I. Title.
 [BF637.58R63   1992]
-158′1—dc20   
+158′1—dc20
 92-30041
 CIP
 eISBN 978-0-743-27433-3
@@ -399,8 +400,7 @@ change virtually anything and everything in their lives in an instant. I’ve
 learned that the resources we need to turn our dreams into reality are within
 us, merely waiting for the day when we decide to wake up and claim our
 birthright. I wrote this book for one reason: to be a wake-up call that will
-challenge those who are committed to living and being more to tap their God-
-given power. There are ideas and strategies in this book to help you produce
+challenge those who are committed to living and being more to tap their Godgiven power. There are ideas and strategies in this book to help you produce
 specific, measurable, long-lasting changes in yourself and others.
 
 
@@ -537,8 +537,7 @@ we use the intelligence at our command to work ourselves into unresourceful
 emotional states, forgetting about the multitude of innate talents each of us
 already possesses. Too many of us leave ourselves at the mercy of outside
 events over which we may have no control, failing to take charge of our
-emotions—over which we have all the control—and relying instead on short-
-term quick fixes. How else can we explain the fact that, while less than 5
+emotions—over which we have all the control—and relying instead on shortterm quick fixes. How else can we explain the fact that, while less than 5
 percent of the world’s population lives in the United States, we consume more
 than 50 percent of the world’s cocaine? Or that our national defense budget,
 which currently runs in the billions, is equaled by what we spend on alcohol
@@ -1060,11 +1059,11 @@ life. When you do control them, you begin to sculpt your experience.
 
 The three decisions that control your destiny are:
 1. Your decisions about what to focus on.
- 
+
 2. Your decisions about what things mean to you.
- 
+
 3. Your decisions about what to do to create the results you desire.
- 
+
 You see, it’s not what’s happening to you now or what has happened in
 your past that determines who you become. Rather, it’s your decisions about
 what to focus on, what things mean to you, and what you’re going to do
@@ -1205,8 +1204,7 @@ didn’t get the results you wanted, learn from this experience so that you have
 references about how to make better decisions in the future.
 “We will either find a way, or make one.”
 —HANNIBAL
-One of the most important decisions you can make to ensure your long-
-term happiness is to decide to use whatever life gives you in the moment.
+One of the most important decisions you can make to ensure your longterm happiness is to decide to use whatever life gives you in the moment.
 The truth of the matter is that there’s nothing you can’t accomplish if: 1) You
 clearly decide what it is that you’re absolutely committed to achieving, 2) You
 are willing to take massive action, 3) You notice what’s working or not, and
@@ -1277,34 +1275,33 @@ United States and Japan and is considered one of the biggest car-making
 empires in Japan, outselling all but Toyota in the United States. It succeeds
 because one man understood the power of a truly committed decision that is
 acted upon, no matter what the conditions, on a continuous basis.
- 
+
 THE CRYSTAL BALL CRACKED …
- 
+
 The following are actual rejection notices received for these
 famous—and incredibly successful—books.
- 
+
 Animal Farm, by Georse Orwell “It is impossible to sell
 animal stories in the U.S.A.”
- 
+
 The Diary of Anne Frank, by Anne Frank “The girl
 doesn’t, it seems to me, have a special perception or
 feeling which would lift that book above the ‘curiosity’
 
 
 level.”
- 
+
 Lord of the Flies, by William Golding “It does not seem
 to us that you have been wholly successful in working
 out an admittedly promising idea.”
- 
+
 Lady Chatterley’s Lover, by D.H. Lawrence “For your
 own good do not publish this book.”
- 
+
 Lust for Life, by Iiving Stone “A long, dull novel about
 an artist.”
- 
- 
- 
+
+
 Honda certainly knew that sometimes when you make a decision and take
 action, in the short term it may look like it’s not working. In order to
 succeed, you must have a long-term focus. Most of the challenges that we
@@ -1633,8 +1630,7 @@ living life the way you’ve designed it.
 Of course, there are many levels of pain and pleasure. For example,
 feeling a sense of humiliation is a rather intense form of emotional pain.
 Feeling a sense of inconvenience is also pain. So is boredom. Obviously some
-of these have less intensity, but they still factor in the equation of decision-
-making. Likewise, pleasure weighs into this process. Much of our drive in life
+of these have less intensity, but they still factor in the equation of decisionmaking. Likewise, pleasure weighs into this process. Much of our drive in life
 comes from our anticipating that our actions will lead to a more compelling
 future, that today’s work will be well worth the effort, that the rewards of
 pleasure are near. Yet there are many levels of pleasure as well. For example,
@@ -1832,8 +1828,7 @@ addicts shooting up heedless of who was watching, child prostitutes soliciting
 passers-by, and the sound of neglected, crying children. Mental, emotional,
 and physical devastation is what my kids learned to link to drugs. That was
 four-and-a-half years ago. While they have all been exposed to drugs many
-times since, they have never touched them. These powerful neuro-
-associations have significantly shaped their destinies.
+times since, they have never touched them. These powerful neuroassociations have significantly shaped their destinies.
 “If you are distressed by anything external, the pain is not due to the
 thing itself but to your own estimate of it; and this you have the
 power to revoke at any moment.”
@@ -1872,8 +1867,7 @@ Our behavior, both conscious and unconscious, has been rigged by pain
 and pleasure from so many sources: childhood peers, moms and dads,
 teachers, coaches, movie and television heroes, and the list goes on. You may
 or may not know precisely when programming and conditioning occurred. It
-might have been something someone said, an incident at school, an award-
-winning sports event, an embarrassing moment, straight A’s on your report
+might have been something someone said, an incident at school, an awardwinning sports event, an embarrassing moment, straight A’s on your report
 card—or maybe failing grades. All of these contributed to who you are today.
 I cannot emphasize strongly enough that what you link pain and pleasure to
 will shape your destiny.
@@ -2095,8 +2089,7 @@ pleasures.”
 The problem is that most of us base our decisions about what to do on
 what’s going to create pain or pleasure in the short term instead of the long
 term. Yet, in order to succeed, most of the things that we value require us to
-be able to break through the wall of short-term pain in order to have long-
-term pleasure. You must put aside the passing moments of terror and
+be able to break through the wall of short-term pain in order to have longterm pleasure. You must put aside the passing moments of terror and
 temptation, and focus on what’s most important in the long term: your values
 and personal standards. Remember, too, that it’s not actual pain that drives
 us, but our fear that something will lead to pain. And it’s not actual
@@ -2493,8 +2486,7 @@ done extensive research that clearly demonstrates that we often give credit to
 a drug, when in reality it’s the patient’s belief that makes the difference.
 One demonstration of this was a groundbreaking experiment in which 100
 medical students were asked to participate in testing two new drugs. One was
-described to them as a super-stimulant in a red capsule, the other as a super-
-tranquilizer in a blue capsule. Unbeknownst to the students, the contents of
+described to them as a super-stimulant in a red capsule, the other as a supertranquilizer in a blue capsule. Unbeknownst to the students, the contents of
 the capsules had been switched: the red capsule was actually a barbiturate,
 and the blue capsule was actually an amphetamine. Yet half of the students
 developed physical reactions that went along with their expectations—exactly
@@ -2885,8 +2877,7 @@ If you question anything enough, eventually you’ll begin to doubt it.
 This includes things that you absolutely believe “beyond the shadow of a
 doubt.” Years ago, I had the unique opportunity of working with the U. S.
 Army, with whom I negotiated a contract to reduce certain training times for
-specialized areas. My work was so successful that I also went through top-
-secret clearance and had a chance to model one of the top officials in the CIA,
+specialized areas. My work was so successful that I also went through topsecret clearance and had a chance to model one of the top officials in the CIA,
 a man who’d worked his way up from the bottom of the organization. Let me
 tell you that the skills that he and others like him have developed for shaking
 another person’s convictions and changing their beliefs are absolutely
@@ -3017,8 +3008,7 @@ everybody else’s. Some of the strongest social proof that people use is
 information that they get from “experts.” But are experts always right? Think
 about our healers throughout the years. It wasn’t that long ago that the most
 up-to-date doctors believed absolutely in the curative properties of leeches!
-And in our own generation, doctors gave pregnant women a soothing-
-sounding medication for morning sickness—Bendectin, which sounds like
+And in our own generation, doctors gave pregnant women a soothingsounding medication for morning sickness—Bendectin, which sounds like
 “benediction”—which turned out to be linked to birth defects. Of course,
 these doctors were prescribing this drug because the drug companies—
 
@@ -3052,8 +3042,7 @@ group of people could be so hateful.
 Second, flying home, she yelled at her son (who had appeared with her,
 yet didn’t share her views) for “embarrassing” her on national television. The
 rest of the women chastised him for being disrespectful, and quoted to him
-from the Bible: “Thou shalt honor thy mother and father.” Her sixteen-year-
-old son responded by saying that God certainly didn’t intend for him to
+from the Bible: “Thou shalt honor thy mother and father.” Her sixteen-yearold son responded by saying that God certainly didn’t intend for him to
 respect the evil she was espousing, and he immediately got off the plane in
 Dallas, vowing never to come home again. As the woman continued her flight
 home, her mind raced over the day’s events, and also began to think about the
@@ -3232,8 +3221,7 @@ is what Deming calls managing by the visible numbers, the conventional
 corporate belief that profits are made by cutting costs and increasing
 revenues. A notable example occurred when Lynn Townsend took charge of
 Chrysler during an industry-wide sales slump. Townsend immediately tried to
-increase revenues, but more importantly, he cut costs. How? He fired two-
-thirds of the engineering staff. In the short term, it looked like he’d made the
+increase revenues, but more importantly, he cut costs. How? He fired twothirds of the engineering staff. In the short term, it looked like he’d made the
 right decision. Profitability shot up, and he was dubbed a hero. But within a
 few years Chrysler was again in financial straits. What happened? Well, there
 certainly wasn’t any one factor. But in the long term, the decisions Townsend
@@ -3276,9 +3264,9 @@ word, we encode meaning and create a way of thinking. The words that we
 use consistently make up the fabric of how we think and even affect our
 decision making.
 As a result of this understanding, I created a simple mnemonic: CANI!™
-(pronounced kuhn-EYE), which stands for 
-Constant 
-And 
+(pronounced kuhn-EYE), which stands for
+Constant
+And
 Never-ending
 Improvement. I believe that the level of success we experience in life is in
 direct proportion to the level of our commitment to CANI!, to constant and
@@ -3415,19 +3403,19 @@ validity, you can shake their reference legs so they no longer impact you.
 Knock those legs of certainty out from under your disempowering beliefs by
 asking yourself some of the following questions:
 1. How is this belief ridiculous or absurd?
- 
+
 2. Was the person I learned this belief from worth modeling in this area?
- 
+
 3. What will it ultimately cost me emotionally if I don’t let go of this belief?
- 
+
 4. What will it ultimately cost me in my relationships if I don’t let go of this belief?
- 
+
 5. What will it ultimately cost me physically if I don’t let go of this belief?
- 
+
 6. What will it ultimately cost me financially if I don’t let go of this belief?
- 
+
 7. What will it cost my family/loved ones if I don’t let go of this belief?
- 
+
 If you’ve taken the time to really answer these questions, you may find
 that your beliefs have been significantly weakened under the scrutiny of these
 questions. Now become fully associated to what these beliefs have been
@@ -3707,8 +3695,7 @@ sorry for no one but yourself. They link pleasure to death, and pain to
 grieving, so grief is not a part of their culture. I’m not saying that grief is bad
 or wrong. I’m just saying that we need to realize it’s based upon our beliefs
 that pain takes a long time to recover from.
-As I spoke from coast to coast, I kept encouraging people to make life-
-changing shifts, often in thirty minutes or less. There was no doubt I created
+As I spoke from coast to coast, I kept encouraging people to make lifechanging shifts, often in thirty minutes or less. There was no doubt I created
 controversy, and the more successes I had, the more assured and intense I
 became as well. To tell the truth, I was occasionally confrontational and more
 than a little cocky. I started out doing private therapy, helping people turn
@@ -3953,8 +3940,7 @@ in our nervous systems in the form of physical connections—neural
 connections—or what I call neuro-associations.
 NEURO-SCIENCE: YOUR TICKET TO LASTING CHANGE
 Great breakthroughs in our ability to understand the human mind are now
-available because of a marriage between two widely different fields: neuro-
-biology (the study of how the brain works) and computer science. The
+available because of a marriage between two widely different fields: neurobiology (the study of how the brain works) and computer science. The
 integration of these sciences has created the discipline of neuro-science.
 Neuro-scientists study how neuro-associations occur and have discovered
 
@@ -3995,8 +3981,7 @@ behave in this way consistently. In other words, this connection becomes what
 I’ve already labeled a neural “super-highway” that will take us down an
 automatic and consistent route of behavior.
 This neuro-association is a biological reality—it’s physical. Again, this
-is why thinking our way into a change is usually ineffective; our neuro-
-associations are a survival tool and they are secured in our nervous systems as
+is why thinking our way into a change is usually ineffective; our neuroassociations are a survival tool and they are secured in our nervous systems as
 physical connections rather than as intangible “memories.” Michael
 Merzenich of the University of California, San Francisco, has scientifically
 proven that the more we indulge in any pattern of behavior, the stronger that
@@ -4038,8 +4023,7 @@ well.”
 —RENE DESCARTES
 What the science of Neuro-Associative Conditioning offers is six steps
 that are specifically designed to change behavior by breaking patterns that
-disempower you. But first, we must understand how the brain makes a neuro-
-association in the first place. Any time you experience significant amounts
+disempower you. But first, we must understand how the brain makes a neuroassociation in the first place. Any time you experience significant amounts
 of pain or pleasure, your brain immediately searches for the cause. It uses
 the following three criteria.
 1. Your brain looks for something that appears to be unique. To narrow
@@ -4081,8 +4065,7 @@ looked for something that was consistent, again passion was pinpointed as the
 culprit. Because passion met all three criteria, her brain decided that it must
 be the reason the relationship ended painfully.
 Having linked this as the cause, she resolved never to feel that level of
-passion in a relationship again. This is a classic example of a false neuro-
-association. She had linked up a false cause, and this was now guiding her
+passion in a relationship again. This is a classic example of a false neuroassociation. She had linked up a false cause, and this was now guiding her
 current behaviors and crippling the potential for a better relationship in the
 future. The real culprit in her relationship was that she and her partner had
 different values and rules. But because she linked pain to her passion, she
@@ -4117,8 +4100,7 @@ freedom, luxury, contribution, happiness, security, travel, opportunity, and
 making a difference. But on the minus side (which is usually more full) they
 write down such things as: fights with spouse, stress, guilt, sleepless nights,
 intense effort, greed, shallowness, and complacency, being judged, and taxes.
-Do you notice a difference in intensity between the two sets of neuro-
-associations? Which do you think plays a stronger role in their lives?
+Do you notice a difference in intensity between the two sets of neuroassociations? Which do you think plays a stronger role in their lives?
 
 
 When you’re deciding what to do, if your brain doesn’t have a clear signal
@@ -4130,8 +4112,7 @@ brain’s decision-making process as being like a scale: “If I were to do this
 would it mean pain or pleasure?” And remember, it’s not just the number of
 factors on each side but the weight they individually carry. It’s possible that
 you could have more pleasurable than painful associations about money, but
-if just one of the negative associations is very intense, then that false neuro-
-association can wipe out your ability to succeed financially.
+if just one of the negative associations is very intense, then that false neuroassociation can wipe out your ability to succeed financially.
 THE PAIN-PAIN BARRIER
 What happens when you get to a point where you feel that you’re going to
 have pain no matter what you do? I call this the pain-pain barrier. Often,
@@ -4256,9 +4237,9 @@ failure to be able to squeeze into your favorite pair of jeans, or the sensation
 of your “thunder thighs” rubbing against each other as you waddled up a set
 of stairs! Or just the sight of the bulbous folds of excess flesh hanging from
 the side of your body!
- 
+
 THE ALPO DIET
- 
+
 Recently, a woman attending a seminar told me about her fail-safe
 strategy that she had developed for shedding unwanted pounds.
 She and a friend had committed over and over again to losing
@@ -4278,7 +4259,7 @@ told me that when they started to feel hunger pangs, they’d pick up
 the can and read the label. With ingredients boasting “horsemeat
 chunks,” they found no difficulty in sticking to their commitment.
 They achieved their goal without a hitch!
- 
+
 A lever is a device that we utilize in order to lift or move a tremendous
 burden we could not otherwise manage. Leverage is absolutely crucial in
 creating any change, in freeing yourself from behavioral burdens like
@@ -4379,8 +4360,7 @@ different result.”
 Please don’t misunderstand me. There’s nothing wrong with you; you
 don’t need to be “fixed.” (And I suggest you avoid anyone who uses these
 metaphors to describe you!) The resources you need to change anything in
-your life are within you right now. It’s just that you have a set of neuro-
-associations that habitually cause you to not fully utilize your capability.
+your life are within you right now. It’s just that you have a set of neuroassociations that habitually cause you to not fully utilize your capability.
 What you must do is reorganize your neural pathways so that they
 consistently guide you in the direction of your desires rather than your
 frustrations and fears.
@@ -4659,8 +4639,7 @@ As Fran would tell me later, chewing tobacco was one of his greatest
 pleasures in life. It was like his best friend. If he was on the road and felt
 alone, he could chew tobacco, and he wouldn’t feel alone anymore. In fact, he
 told a group of his friends one time that if he had to choose between sex and
-chewing tobacco, he’d chew tobacco! How’s that for a false neuro-
-association? He’d wired a pathway out of pain and into pleasure via the
+chewing tobacco, he’d chew tobacco! How’s that for a false neuroassociation? He’d wired a pathway out of pain and into pleasure via the
 highway of chewing tobacco. After years of continual use and reinforcement,
 he had created a neural trunk line from tobacco to pleasure; thus, this was his
 favorite route of change.
@@ -4814,8 +4793,7 @@ immediately after it occurs, while punishment and reward may occur long
 afterward.
 TIMING IS EVERYTHING
 Appropriate timing is absolutely critical to effective conditioning. If a
-coach yells, “Great!” when the basketball team executes a perfect pick-and-
-roll, it has a lot more impact than if he waited until they debriefed later in the
+coach yells, “Great!” when the basketball team executes a perfect pick-androll, it has a lot more impact than if he waited until they debriefed later in the
 locker room. Why? Because we always want to link the sensations of
 reinforcement in the pattern that is occurring.
 One of the problems with our judicial system is that when people commit
@@ -5058,30 +5036,30 @@ approach was. All this means is that you now have an opportunity to explore
 being a little more creative. Find a role model—somebody else who’s been
 able to eliminate this habit or negative set of emotions that you want to
 change.
- 
+
 THE ECOLOGY CHECK
- 
-1. 
+
+1.
 Make certain pain is fully associated with the old
 pattern.
 When you think of your old behavior or feelings, do
 you picture and feel things that are painful now instead
 of pleasurable?
- 
-2. 
+
+2.
 Make certain pleasure is fully associated with the
 new pattern.
 When you think of your new behavior or feelings, do
 you picture and feel things that are pleasurable now
 instead of painful?
- 
-3. 
+
+3.
 Align with your values, beliefs, and rules.
 Is the new behavior or feeling consistent with the
 values, beliefs, and rules in your life? (We will discuss
 these in later chapters.)
- 
-4. 
+
+4.
 Make sure the benefits of the old pattern have been
 maintained.
 
@@ -5089,14 +5067,14 @@ maintained.
 Will the new behavior or feeling still allow you to get
 benefits and feelings of pleasure that you used to get
 from the old pattern?
- 
+
 5. Future pace—Imagine yourself behaving in this new
 way in the future.
 Imagine the thing that would have triggered you to
 adopt the old pattern. Feel certain that you can use your
 new pattern instead of the old one.
- 
- 
+
+
 If you’ve started to make a change, but then not followed through, you
 obviously haven’t reinforced your pattern with enough pleasure. Use Step 5,
 conditioning. Utilize both variable and fixed schedules of reinforcement to
@@ -5194,8 +5172,7 @@ distorts you.”
 “Gimme my first attack.”* Elvis Presley always called for his first hit this
 way, fulfilling a bizarre daily ritual designed to make sure the King of
 Heartbreak Hotel got to sleep after a strenuous night performing. Elvis’s
-assistant would open the first envelope and give him “the usual”: a rainbow-
-colored assortment of barbiturates (Amytal, Carbrital, Nembutal or Seconal),
+assistant would open the first envelope and give him “the usual”: a rainbowcolored assortment of barbiturates (Amytal, Carbrital, Nembutal or Seconal),
 Quaaludes, Valium, and Placidyl, followed by three shots of Demerol injected
 just below his bare shoulder blades.
 Before he went to sleep, Elvis’s kitchen staff, which was on duty around
@@ -5250,7 +5227,7 @@ pain and pleasure of their environments to control them rather than taking
 control themselves.
 Now, contrast these stories with a letter I received recently from a woman
 who utilized my work to utterly and completely change the quality of her life:
- 
+
 Dear Tony,
 I had been severely abused my entire life from infancy
 
@@ -5270,8 +5247,7 @@ that created each personality. That trauma had to be
 remembered, relived, and felt. Each of my alters handled a
 specific function, a selective ability to remember, and
 usually a single emotional tone. I worked with an expert in
-the field of MPD, and he helped me to integrate all forty-
-nine personalities into one. What kept me going through all
+the field of MPD, and he helped me to integrate all fortynine personalities into one. What kept me going through all
 of the different processes we used was feeling that many of
 my people were very unhappy and my life had become so
 chaotic (one alter did not know what the other was doing,
@@ -5315,7 +5291,7 @@ getting to know my children and grandchildren, but most
 importantly, I’m getting to know me.”*
 Sincerely,
 Elizabeth Pietrzak
- 
+
 WHAT DO YOU WANT?
 Ask yourself what you truly want in life. Do you want a loving marriage,
 the respect of your children? Do you want plenty of money, fast cars, a
@@ -5349,9 +5325,8 @@ modeled some of them, and stumbled across others.
 Simply being aware of these factors is the foundation for understanding
 the power of state. Without a doubt, everything you and I do, we do to avoid
 pain or gain pleasure, but we can instantly change what we believe will lead
-to pain or pleasure by redirecting our focus and changing our mental-
-emotional-physiological states. As I said in Chapter 3 of Unlimited Power:
- 
+to pain or pleasure by redirecting our focus and changing our mentalemotional-physiological states. As I said in Chapter 3 of Unlimited Power:
+
 A state can be defined as the sum of millions of
 neurological processes happening within us—the sum total
 of our experience at any moment in time. Most of our states
@@ -5360,7 +5335,7 @@ something, and we respond to it by going into a state. It may
 be a resourceful and useful state, or an unresourceful and
 limiting state, but there’s not much that most of us do to
 control it.
- 
+
 Have you ever found yourself unable to remember a friend’s name? Or
 how to spell a “difficult” word like … “house”? How come you weren’t able
 to do this? You certainly knew the answer. Is it because you’re stupid? No, it’s
@@ -5439,13 +5414,11 @@ Destiny™ seminar write down all the emotions they feel in an average week,
 and out of the myriad possibilities, I’ve found that the average is less than a
 dozen. Why? Because most people have limited patterns of physiology that
 result in limited patterns of expression.
- 
+
 TYPES OF EMOTIONS AN INDIVIDUAL MIGHT FEEL IN
 A WEEK
- 
 
 
- 
 Stressed out
 Frustrated
 Angry
@@ -5458,8 +5431,8 @@ Relieved
 Loved
 Excited
 Joyous
- 
- 
+
+
 This is such a short menu of emotional choices when you consider the
 thousands of enticing states available. Take care not to limit yourself to such a
 short list! I suggest you take advantage of the whole buffet—try new things
@@ -5836,9 +5809,9 @@ Step into your body as you were then and feel that experience right now as if
 you were there. Does it feel like it happened a long time ago, or is it
 something you’re enjoying now? You see, even your experience of time can
 be changed by changing submodalities.
- 
+
 COMMON EXPRESSIONS BASED ON:
- 
+
 Visual Submodalities—
 That really brightens my day.
 That puts things in a better perspective.
@@ -5862,7 +5835,7 @@ This thing is weighing on me.
 I feel like I’m carrying this whole thing on my back.
 This concert is really hot!
 I’m absolutely immersed in this project.
- 
+
 CREATE YOUR OWN BLUEPRINT
 Discovering your submodalities is a fun process. You may want to do this
 on your own, although you may find it more fun to do with someone else.
@@ -5909,14 +5882,13 @@ memory of a romantic moment, and suddenly turn all the lights on full blast,
 that may not be entirely appropriate.) What if you were to make the image
 dim, dark, and defocused? For most people, that makes it almost depressing.
 So make it brighter again; make it brilliant!
- 
+
 CHECKLIST OF POSSIBLE SUBMODALITIES
- 
+
 Visual
 1. Movie/still
 Is it a movie or a still frame?
-2. Color/black-and-
-white
+2. Color/black-andwhite
 Is it color or black-and-white?
 3. Right/left/center
 Is the image on the right, left, or center?
@@ -5943,8 +5915,7 @@ distance?
 Does the image have a frame or is it a
 panorama?
 12. 3D/2D
-Is it three-dimensional or two-
-dimensional?
+Is it three-dimensional or twodimensional?
 13. Particular color
 Is there a color that impacts you most?
 14. Viewpoint
@@ -6023,7 +5994,7 @@ Were feelings coming into body or going
 out?
 14. Special trigger
 Anything else that triggers strong feelings?
- 
+
 Continue down your list, noting which of these visual submodalities
 changes your emotional intensity the most. Then focus on the auditory
 submodalities. As you re-create the experience inside your head, how does it
@@ -6049,8 +6020,7 @@ down. What about the texture of the image? Play around with it; change it
 from soft and fluffy, to wet and slimy, to gooey and sticky.
 As you go through each of these changes, how does your body feel? Write
 it down. When you’re done experimenting with the whole checklist of
-submodalities, go back and adjust until the most pleasurable image re-
-emerges; make it real enough so you can get your hands around it and
+submodalities, go back and adjust until the most pleasurable image reemerges; make it real enough so you can get your hands around it and
 squeeze the juice from it!
 As you go through these exercises, you will quickly see that some of these
 submodalities are much more powerful for you than others. We’re all made
@@ -6348,8 +6318,7 @@ who perished in the concentration camps? While, of course, there were
 many factors, one critical difference was that he asked a different
 question. He asked persistently, he asked with expectation of receiving an
 answer, and his brain came up with a solution that saved his life. The
-questions he asked himself that day in Krakow caused him to make split-
-second decisions that led to actions that significantly impacted his destiny.
+questions he asked himself that day in Krakow caused him to make splitsecond decisions that led to actions that significantly impacted his destiny.
 But before he could get the answer, make the decisions, and take those
 actions, he had to ask himself the right questions.
 Throughout this book you’ve learned how our beliefs affect our decisions,
@@ -6733,8 +6702,7 @@ Some questions we will simply not consider. Walt Disney, for instance,
 refused to entertain any questions about whether his organizations could
 succeed or not. But that doesn’t mean that the creator of the Magic Kingdom
 did not use questions in more resourceful ways. My grandfather, Charles
-Shows, was a writer with Disney before he went on to work with Hanna-
-Barbera developing such cartoon characters as Yogi Bear and Huckleberry
+Shows, was a writer with Disney before he went on to work with HannaBarbera developing such cartoon characters as Yogi Bear and Huckleberry
 Hound. One of the things he shared with me was that anytime they were
 working on a new project or script, Disney had a unique way of requesting
 input. He designated a whole wall on which he would display the project,
@@ -6931,26 +6899,26 @@ myself some incredibly disempowering questions: “How come I have no
 time? Why don’t they leave me alone? Don’t they understand I’m not a
 machine? Why don’t I ever get a break?” You can imagine what kind of
 emotional state I was in at this point.
- 
+
 THE PROBLEM-SOLVING QUESTIONS
- 
-1. 
+
+1.
 What is great about this problem?
- 
-2. 
+
+2.
 What is not perfect yet?
- 
-3. 
+
+3.
 What am I willing to do to make it the way I want it?
- 
+
 4. What am I willing to no longer do in order to make it the
 way I want it?
- 
-5. 
+
+5.
 How can I enjoy the process while I do what is
 necessary to make it the way I want it?
- 
- 
+
+
 Fortunately, in the midst of it I caught myself. I broke my pattern and
 realized that getting angrier wasn’t going to make it any better; it was going to
 make it worse. My state was making me ask terrible questions. I needed to
@@ -7023,9 +6991,9 @@ individuals. Otherwise, you could be winning and feel like you’re losing, if
 you don’t keep score or take the time to feel how fortunate you are. So take
 the time now to review the following questions. Take a moment to deeply
 experience the feelings of each one.
- 
+
 THE MORNING POWER QUESTIONS
- 
+
 Our life experience is based on what we focus on. The following
 questions are designed to cause you to experience more happiness,
 excitement, pride, gratitude, joy, commitment, and love every day
@@ -7036,57 +7004,55 @@ simply add the word “could.” Example: “What could I be most
 happy about in my life now?”
 
 
-1. 
+1.
 What am I happy about in my life now?
 What about that makes me happy? How does that
 make me feel?
- 
-2. 
+
+2.
 What am I excited about in my life now?
 What about that makes me excited? How does that
 make me feel?
- 
-3. 
+
+3.
 What am I proud about in my life now?
 What about that makes me proud? How does that
 make me feel?
- 
-4. 
+
+4.
 What am I grateful about in my life now?
 What about that makes me grateful? How does that
 make me feel?
- 
-5. 
+
+5.
 What am I enjoying most in my life right now?
 What about that do I enjoy? How does that make me
 feel?
- 
-6. 
+
+6.
 What am I committed to in my life right now?
 What about that makes me committed? How does that
 make me feel?
- 
-7. 
+
+7.
 Who do I love? Who loves me?
 What about that makes me loving? How does that
 make me feel?
- 
+
 In the evening, sometimes I ask the Morning Questions, and
 sometimes I ask an additional three questions. Here they are:
 THE EVENING POWER QUESTIONS
- 
-1. 
+
+1.
 What have I given today?
 In what ways have I been a giver today?
- 
-2. 
+
+2.
 What did I learn today?
- 
+
 3. How has today added to the quality of my life or how
 can I use today as an investment in my future?
 Repeat the Morning Questions (optional).
- 
- 
 
 
 If you really want to create a shift in your life, make this a part of your
@@ -7234,11 +7200,10 @@ commitment to extinguish the tyranny that had suppressed them for so long.
 The privileged heritage that you and I share, the choices that we have
 today because we live in this nation, were created by men who chose words
 that would shape the actions of generations to come:
- 
+
 When in the Course of human Events, it becomes
 necessary for one People to dissolve the Political Bands
 which have connected them with another …
- 
 
 
 This simple Declaration of Independence, this assemblage of words,
@@ -7541,13 +7506,13 @@ William Shakespeare used over 24,000 words in his varied works, 5,000 of
 them only once. In fact, he’s responsible for creating or coining many of the
 English words we commonly use today. Here’s a list of just a few you might
 find interesting:
- 
+
 TRIPPINGLY ON THE TONGUE …
- 
+
 Here, from the book Brush Up Your Shakespeare! by Michael
 Macrone, is a smattering of powerful, state-inducing words coined
 by the master of the English language, Shakespeare.
- 
+
 amazement
 money’s worth savagery
 arch-villain
@@ -7598,7 +7563,7 @@ madcap
 sacrificial
 zany
 majestic
- 
+
 Linguists have proven beyond a shadow of a doubt that culturally we’re
 shaped by our language. Doesn’t it make sense that the English language is so
 verb-oriented? After all, as a culture we’re very active and pride ourselves on
@@ -7843,10 +7808,10 @@ stomach, only he labels these feelings “excitement”! He knows that he’s ab
 to have the incredibly powerful experience of entertaining thousands of
 people, and having them love it. He can’t wait to get onstage. For Bruce
 Springsteen, tension in his stomach is an ally; for Carly Simon, it’s an enemy.
- 
+
 TAKE THESE YARD APES AND GET RID OF THE GREY
 POUPON!
- 
+
 Following are some fun examples from Newsweek’s “Buzzwords”
 of Transformational Vocabulary used in the workplace …
 Daycare
@@ -7880,7 +7845,7 @@ Tanning Salons
 Caspers: Pale-skinned customers. (Derived from Casper the
 Friendly Ghost.)
 Iguanas: Overly tanned, leathery customers.
- 
+
 FROM TINKLED TO TURBO-CHARGED
 What would your life be like if you could take all the negative emotions
 you ever felt and lower their intensity so they didn’t impact you as
@@ -7910,7 +7875,7 @@ pleasure out of using these words. Once you get results like that, I guarantee
 you’ll also get addicted to the process. To help you get started, here are some
 examples of simple and ridiculous words you can use to immediately lower
 your intensity:
- 
+
 Negative Emotion/Expression
 Transforms Into
 I’m feeling …
@@ -8118,7 +8083,7 @@ good,” “I’m fine,” “Things are all right.” Then come up with new one
 will absolutely inspire you. If you want some suggestions, look at the
 following list and circle the ones that you think would be fun to add to your
 vocabulary to spice up your current experience of life:
- 
+
 Good Word
 Great Word
 I’m feeling
@@ -8389,9 +8354,9 @@ patients. Time and again, he noticed that the moment a patient was diagnosed
 “cancer,” “multiple sclerosis,” and “heart disease” tended to produce panic in
 the patients, leading to helplessness and depression that actually impaired the
 effectiveness of the body’s immune system.
- 
+
 AND NOW, A PAUSE FOR OUR SPONSOR …
- 
+
 Sometimes vocabulary is even more transformational than
 bargained for—a fact to which several major advertisers can attest.
 After translating their slogan “Come Alive! You’re in the Pepsi
@@ -8401,7 +8366,7 @@ discover that they’d just spent millions of dollars announcing,
 mystified by sluggish sales of its new Nova compact in Latin
 America, eventually discovered the Spanish translation of no va:
 “It Doesn’t Go.”
- 
+
 Conversely, studies proved that if patients could be freed of the
 depression produced by certain labels, a corresponding boost was
 automatically produced in their immune systems. “Words can produce
@@ -8454,10 +8419,6 @@ blaze a trail of possibility as you …
 
 uses in corporate training programs to enhance interaction between management and employees
 as well as between members of the executive team.
-
-
-10
-
 
 DESTROY THE BLOCKS, BREAK DOWN THE WALL, LET GO OF
 THE ROPE, AND DANCE YOUR WAY TO SUCCESS: THE POWER
@@ -8540,8 +8501,7 @@ the way in which he said it. He didn’t go to the fishermen and tell them he
 wanted them to recruit Christians; they would have no reference for
 recruiting. So he told them he wanted them to become “fishers of men.”
 The minute he used that metaphor, they immediately understood what
-they needed to do. This metaphor instantly gave them an analogous step-by-
-step process for how to bring others into the faith. When he told his parables,
+they needed to do. This metaphor instantly gave them an analogous step-bystep process for how to bring others into the faith. When he told his parables,
 he distilled complex ideas into simple images that transformed anyone who
 took their message to heart. In fact, not only was Jesus a master storyteller,
 but he used his whole life as a metaphor to illustrate the strength of God’s
@@ -8813,8 +8773,7 @@ dance—and you should have seen the transformation, not just in the way she
 treated other people, but also in the way she treated herself, because she had
 always been finding small leaks in herself as well. This one change affected
 the way she approached everything and is a great example of how changing
-one global metaphor can transform every area of your life, from your self-
-esteem to your relationships to the way you deal with the world at large.
+one global metaphor can transform every area of your life, from your selfesteem to your relationships to the way you deal with the world at large.
 With all the power that metaphors wield over our lives, the scary part is
 that most of us have never consciously selected the metaphors with which we
 represent things to ourselves. Where did you get your metaphors? You
@@ -8949,8 +8908,7 @@ freedom,” sweeping the occupying Iraqi forces out of Kuwait.
 “An iron curtain has descended across the Continent.”
 —WINSTON CHURCHILL
 Think how radically the face of eastern Europe has changed just in the
-last couple of years. The “Iron Curtain” was a metaphor that shaped the post-
-World War II experience for decades, and the Berlin Wall served as a physical
+last couple of years. The “Iron Curtain” was a metaphor that shaped the postWorld War II experience for decades, and the Berlin Wall served as a physical
 
 
 symbol for the imposing barrier that divided all of Europe. When the Berlin
@@ -8968,8 +8926,7 @@ people have metaphors that help them in their professions, but create
 challenges at home. I know an attorney who found herself trying to apply the
 same adversarial metaphors at home that served her so well at work. Her
 husband would start a perfectly innocent conversation with her, and the next
-thing he knew, he felt like he was up on the witness stand being cross-
-examined! That doesn’t work too well in a personal relationship, does it? Or
+thing he knew, he felt like he was up on the witness stand being crossexamined! That doesn’t work too well in a personal relationship, does it? Or
 suppose someone is a totally dedicated police officer. If they can’t let go of
 their work when they get home, do you think they might always be on the
 lookout for other people violating their standards?
@@ -9004,9 +8961,9 @@ life or his “better half” or his “gift from God.” When I pointed this ou
 she was shocked, because she’s a very loving woman who hadn’t realized
 how toxic one casually adopted metaphor could be. Together we selected
 more appropriate metaphors for her relationship with her husband.
- 
+
 ALL I WANT FOR CHRISTMAS …
- 
+
 One of my friends who obviously doesn’t have kids used to call
 them “barters.” As long as he held that metaphor, can you imagine
 how kids responded to him? Recently, though, he filled in for
@@ -9020,7 +8977,7 @@ make you want to take good care of them or nurture them. Make
 sure that you have the appropriate metaphor that supports you in
 dealing with your children—remember, they listen and learn from
 you.
- 
+
 One of the most empowering global metaphors that has helped me
 through tough times is a story shared by many speakers in personal
 development. It’s the simple story of a stonecutter. How does a stonecutter
@@ -9196,10 +9153,6 @@ possibility, of richness, of wonder, and of joy.
 Once you’ve mastered the creative art of crafting metaphors, transforming
 vocabulary, and asking empowering questions, you are ready to harness …
 * Moyers, Bill, A World of Ideas, New York: Doubleday, 1989.
-
-
-11
-
 
 THE TEN EMOTIONS OF POWER
 “There can be no transforming of darkness into light and of apathy
@@ -9550,8 +9503,7 @@ through what you used to think were emotional minefields. What you’ll see
 instead will be a field of personal coaches guiding you each step of the way,
 showing you where you need to go to achieve your goals.
 Remember, the best time to handle an emotion is when you first begin to
-feel it. It’s much more difficult to interrupt an emotional pattern once it’s full-
-blown. My philosophy is, “Kill the monster while it’s little.” Use this system
+feel it. It’s much more difficult to interrupt an emotional pattern once it’s fullblown. My philosophy is, “Kill the monster while it’s little.” Use this system
 quickly, as soon as the Action Signal makes itself known, and you’ll find
 yourself being able to quickly handle virtually any emotion.
 
@@ -10085,7 +10037,7 @@ of contribution makes all of life worthwhile. Imagine what a better world it
 
 
 would be if all of us cultivated a sense of contribution!
- 
+
 THE TEN ACTION
 SIGNALS
 THE TEN EMOTIONS OF
@@ -10112,7 +10064,7 @@ OVERWHELM
 9. VITALITY
 10. LONELINESS
 10. CONTRIBUTION
- 
+
 Plant these emotions daily, and watch your whole life grow with a vitality
 that you’ve never dreamed of before. Here, for review, are the ten Action
 Signals and the ten Emotions of Power. I cannot emphasize strongly enough
@@ -10184,10 +10136,6 @@ sensitize ourselves to our vocabulary and metaphors. In order to be motivated
 on a consistent basis, we need to develop …
 * For more information on how to enhance your physical vitality, see Unlimited Power, Chapter
 10, “Energy: The Fuel of Excellence.”
-
-
-12
-
 
 THE MAGNIFICENT OBSESSION—CREATING A COMPELLING
 FUTURE
@@ -10280,8 +10228,7 @@ it’s giving me a sense of crazed excitement just to think about the possibilit
 of achieving it. In order to truly find that inspiration and achieve those
 impossible goals, we must suspend our belief systems about what we’re
 capable of achieving.
-I’ll never forget the true story of a young boy born into poverty in a run-
-down section of San Francisco and how his goals seemed impossible to
+I’ll never forget the true story of a young boy born into poverty in a rundown section of San Francisco and how his goals seemed impossible to
 everyone except him. This young man was a fan of football legend Jim
 Brown, then the running back for the Cleveland Browns. In spite of the fact
 that this boy was crippled by rickets he had endured as a result of
@@ -10583,8 +10530,7 @@ rather indirect route. He grew up in a physically and emotionally abusive
 environment where his parents fought constantly, his father being Jewish (and
 
 
-hating Catholics) and his mother being a Catholic (who was also anti-
-Semitic). His mother frequently staged melodramatic suicide attempts and
+hating Catholics) and his mother being a Catholic (who was also antiSemitic). His mother frequently staged melodramatic suicide attempts and
 often pursued Michael to the local teen hangout, where she’d jump out of a
 taxi to beat him with a coat hanger. A chronic bedwetter by the time he
 reached high school, Michael was afflicted with uncontrollable facial tics and
@@ -10802,13 +10748,13 @@ you will have created for yourself an anticipation so great, a future so
 compelling, that you can’t help but take the first steps today.
 We’ll be covering four areas:
 1. 1) Personal development goals,
- 
+
 2. 2) Career/business/economic goals,
- 
+
 3. 3) Toys/adventure goals, and
- 
+
 4. 4) Contribution goals.
- 
+
 For each of these you’ll have a set period of time in which to brainstorm.
 Write rapidly—keep your pen moving, don’t censor yourself, just get it all
 down on paper. Constantly ask yourself, what would I want for my life if I
@@ -10858,7 +10804,6 @@ review just before beginning, but after you review them, go to work and begin
 your goal setting right now!
 
 
- 
 What would you like to learn?
 What are some skills you want to master in your
 lifetime?
@@ -10881,7 +10826,7 @@ Dance and/or sing?
 Study with violin virtuoso Itzhak Perlman?
 Who else would you like to study with?
 Would you like to take in a foreign exchange student?
- 
+
  Step 2: Now that you’ve got a list of goals for your personal
 development that you can get excited about, take a minute now to give a
 time line to each and every one of these. At this stage, it’s not important to
@@ -10915,10 +10860,8 @@ The next step is setting your career/business/economic goals.
 financial life. What levels of financial abundance do you want to achieve? To
 what position do you want to rise? Take five minutes now to create a list
 that’s worth a million!
- 
 
 
- 
 Do you want to earn:
 $50,000 a year?
 $100,000 a year?
@@ -10966,8 +10909,8 @@ manager? A CEO?
 What would you like to be known for within
 your profession?
 What kind of impact do you want to have?
- 
- 
+
+
  Step 2: Now that you’ve written down all your most compelling career,
 business, and economic goals, take a minute to give a time line to each one,
 as you did with your personal development goals. If you’re committed to
@@ -10995,8 +10938,8 @@ fulfilled, what would you want most in the world?
  Step 1: Take five minutes to write down everything you could ever
 want, have, do or experience in your life. Here are some questions to get
 you going:
- 
- 
+
+
 Would you like to build, create, or purchase a:
 Cottage?
 Castle?
@@ -11053,8 +10996,6 @@ Scuba dive in Fiji?
 Meditate in a Buddhist monastery?
 Take a stroll through the Prado in Madrid?
 Book a ride on the next space shuttle flight?
- 
- 
 
 
  Steps 2 and 3: Again, give a time line to each one, choose your top
@@ -11072,8 +11013,8 @@ your church or committing your household to a recycling program, or as
 broad as setting up a foundation to offer opportunities to disadvantaged
 people.
  Step 1: Take five minutes to brainstorm out all the possibilities.
- 
- 
+
+
 How could you contribute? Would you:
 Help build a shelter for the homeless?
 Adopt a child?
@@ -11095,8 +11036,8 @@ Come up with a perpetual motion machine?
 Develop a car that runs on garbage?
 Design a system for distributing food to all who
 hunger?
- 
- 
+
+
  Steps 2 and 3: As before,  give each goal a time line, select your top
 one-year goal in this category, and take two minutes to write a paragraph
 explaining why you are absolutely committed to achieving it within the next
@@ -11117,8 +11058,7 @@ how.
 Make sure that you look at these four goals daily. Put them where you’ll
 see them every day, either in your journal, on your desk at the office, or over
 your bathroom mirror while you’re shaving or putting on makeup. If you back
-your goals up with a solid commitment to CANI!, to constant and never-
-ending improvement of each of these areas, then you’re sure to make progress
+your goals up with a solid commitment to CANI!, to constant and neverending improvement of each of these areas, then you’re sure to make progress
 daily. Make the decision now to begin to follow through on these goals,
 beginning immediately.
 HOW TO MAKE YOUR GOALS REAL
@@ -11343,10 +11283,6 @@ up any obstacles that would stop you by taking on …
 Darrach, Brad. “I Want to See My Kids Grow Up,” Life magazine, June 1991.
 George Burns interviewed by Arthur Cooper, Playboy magazine, June 1978.
 
-
-13
-
-
 THE TEN-DAY MENTAL CHALLENGE
 “Habit is either the best of servants or the worst of masters.”
 —NATHANIEL EMMONS
@@ -11540,10 +11476,10 @@ There are four simple yet important rules to this Ten-Day Challenge. So if
 
 
 you’re going to take it on, remember the following:
- 
+
 THE TEN-DAY MENTAL CHALLENGE—RULES OF THE
 GAME
- 
+
 Rule 1. In the next ten consecutive days, refuse to dwell on any
 unresourceful thoughts or feelings. Refuse to indulge in any
 disempowering questions or devitalizing vocabulary or metaphors.
@@ -11578,10 +11514,9 @@ change immediately. However, if you continue to dwell on
 unresourceful thoughts or feelings for any measurable length of
 time, you must wait until the following morning and start the ten
 days over. The goal of this program is ten consecutive days
-without holding or dwelling on a negative thought. This starting-
-over process must happen no matter how many days in a row
+without holding or dwelling on a negative thought. This startingover process must happen no matter how many days in a row
 you’ve already accomplished the task.
- 
+
 You may ask, “How long can I focus on the negative before it’s
 considered ‘dwelling’?” To me, one minute of continual focus on, and
 emotional attachment to, what’s wrong is dwelling. One minute is more than
@@ -11703,8 +11638,7 @@ new ones that can propel you forward, will give you a sense of momentum
 like very few things you’ve done in your life.
 The great news about this is that, unlike a diet where you starve yourself
 and eventually have to go back to eating, your old pattern of finding the
-negative is not one you ever have to return to again. This may not be a ten-
-day exercise in the end. It’s really an opportunity for you to become
+negative is not one you ever have to return to again. This may not be a tenday exercise in the end. It’s really an opportunity for you to become
 “addicted” to a positive focus for the rest of your life. But if, after banishing
 your toxic mental patterns for ten days, you want to return, be my guest. The
 truth is that once you experience life in this mentally vital and alive way,
@@ -11769,10 +11703,6 @@ PART • TWO
 
 TAKING CONTROL—THE MASTER SYSTEM
 
-
-14
-
-
 ULTIMATE INFLUENCE: YOUR MASTER SYSTEM
 “Elementary, my dear Watson …”
 —WITH APOLOGIES TO SIR ARTHUR CONAN DOYLE
@@ -11827,8 +11757,7 @@ other and nurture the bond that brought you together in the first place. If your
 spouse is feeling pressure from work, and is venting his or her frustration, it
 doesn’t mean that your marriage is over, but it’s a sign to be more attentive
 and to put your focus on supporting this person you love. After all, you
-wouldn’t judge the stock market based solely on one day when the Dow-
-Jones Average plunges twenty points. By the same token, you can’t judge a
+wouldn’t judge the stock market based solely on one day when the DowJones Average plunges twenty points. By the same token, you can’t judge a
 person’s character by one isolated incident. People are not their behaviors.
 The key to understanding people is to understand their Master Systems so
 you can appreciate their individual, systematic way of reasoning. We all have
@@ -11973,8 +11902,7 @@ lift?”, the foods you may choose will tend to be heavily processed
 convenience foods—in layman’s terms, junk. If instead you asked, “What
 could I have now that would nourish me?”, it’s more likely you’ll pull from
 such food groups as fruits, juices, vegetables, and salads. The difference
-between having a Snickers bar on a regular basis or having a glass of fresh-
-squeezed juice will determine the quality of your physical body, and this has
+between having a Snickers bar on a regular basis or having a glass of freshsqueezed juice will determine the quality of your physical body, and this has
 resulted from the way you’ve evaluated. Your habitual questions play a major
 role in this process.
 
@@ -12202,27 +12130,26 @@ thought and help you to identify how different portions of your system are
 used to make decisions.
 
 
- 
 ANSWER THE FOLLOWING FOUR QUESTIONS
 BEFORE YOU READ ON:
- 
-1. 
+
+1.
 What is your most treasured memory?
- 
-2. 
+
+2.
 If you could end world hunger today by killing one
 innocent person, would you? Why or why not?
- 
-3. 
+
+3.
 If you bumped a red Porsche and scratched it, and no
 one was around, would you leave a note? Why or why
 not?
- 
-4. 
+
+4.
 If you could earn $10,000 for eating a bowlful of live
 cockroaches, would you? Why or why not?
- 
- 
+
+
 Now let’s review how you answered each of these questions.
 As you look at the diagram of your Master System, which of the five
 areas of evaluation did you use to answer the first question? Certainly you
@@ -12276,8 +12203,7 @@ hands who previously had said no. Why will they suddenly do it for
 $100,000? Well, what happened to their evaluation system? Two things: I
 asked a different question by changing one word, and second, they have a
 belief that $100,000 could eliminate a lot of pain in their lives, maybe some
-of the long-term pain that would be more difficult to deal with than the short-
-term pain of live cockroaches squiggling down their throats.
+of the long-term pain that would be more difficult to deal with than the shortterm pain of live cockroaches squiggling down their throats.
 How about $1 million? How about $10 million? Suddenly the majority
 of the people in the room are raising their hands. They believe the long-term
 pleasure that the $10 million would allow them to give to themselves and
@@ -12329,10 +12255,6 @@ so let’s proceed to the third area of evaluations. Let’s look at …
 * Buffet, Warren, Berkshire Annual Report, 1987, per James Hansberger, A Guide to Excellence in
 Investing, 1976.
 
-
-15
-
-
 LIFE VALUES: YOUR PERSONAL COMPASS
 “Nothing splendid has ever been achieved except by those who dared
 believe that something inside of them was superior to circumstance.”
@@ -12359,8 +12281,7 @@ resources, to take the risks and defy the odds? Clearly, he’s a man who lives
 by his values. Courage, loyalty, love, commitment, and determination are all
 values that give him an exceptional capacity to care and a strength of will that
 is legendary. These same values were the force that drove him to build his
-company, EDS (Electronic Data Systems Corporation), from a thousand-
-dollar investment into an enterprise worth billions of dollars. He rose to the
+company, EDS (Electronic Data Systems Corporation), from a thousanddollar investment into an enterprise worth billions of dollars. He rose to the
 
 
 top because of his capacity to evaluate and select the right men. He chose
@@ -12818,8 +12739,7 @@ consistency a virtue. I would be the first person to ensure that she continue if
 thought she was just giving up because the work was too tough. But that was
 not the case, and I offered her the opportunity to turn this transition into a gift
 for someone else.
-I said, “Jolie, can you imagine how you’d feel if you were the first runner-
-up, and all of a sudden the winner stepped down, and now you had a chance
+I said, “Jolie, can you imagine how you’d feel if you were the first runnerup, and all of a sudden the winner stepped down, and now you had a chance
 to be in the parade? Why don’t you give that gift to someone else?” Because
 part of Jolie’s definition of love is contribution, this immediately tapped into
 her highest value. She stopped linking pain to quitting, and now associated
@@ -13050,34 +12970,33 @@ Take a moment and do this now …
 
 When I first created my list of moving-toward values, this is what I came
 up with, and the order in which they occurred:
- 
+
 MY OLD LIST OF MOVING-TOWARD VALUES
- 
+
 Passion
- 
+
 Love
- 
+
 Freedom
- 
+
 Contribution
- 
+
 Being Able
- 
+
 Growth
- 
+
 Achievement/Accomplishment
- 
+
 Happiness
- 
+
 Fun
 
 
- 
 Health
- 
+
 Creativity
- 
- 
+
+
 As I looked at my list, I understood why I was doing what I was doing. I
 was such an intense individual; by anybody’s description I was explosive in
 my approach. I saw it as my passion. My love for my family and my friends
@@ -13104,8 +13023,7 @@ sitting in the main cabana. People walked in and out throughout the day as I
 wrote nonstop from 8 A.M. to 6:30 P.M. My arm was sore; my fingers were
 numb. I wasn’t just thinking calmly and writing; the ideas were literally
 exploding through me. From this unstoppable river of ideas, I designed
-Destiny Technologies™ and a good portion of the science of Neuro-
-Associative Conditioning.™ When I went back to review my notes, however,
+Destiny Technologies™ and a good portion of the science of NeuroAssociative Conditioning.™ When I went back to review my notes, however,
 
 
 I couldn’t read a word!
@@ -13208,42 +13126,41 @@ I finally asked the last question: “In what order do my values need to
 be to achieve my ultimate destiny?” Not “What’s important to me?” but
 “What do they need to be?” As I began to do this process, my list began to
 evolve until it looked like this:
- 
+
 MY NEW LIST OF MOVING-TOWARD VALUES
- 
+
 Health/Vitality
- 
+
 Love/Warmth
- 
+
 Intelligence
- 
+
 Cheerfulness
- 
+
 Honesty
- 
 
 
 Passion
- 
+
 Gratefulness
- 
+
 Fun/Happiness
- 
+
 Making a difference
- 
+
 Learning/Growing
- 
+
 Achieving
- 
+
 Being the best
- 
+
 Investing
- 
+
 Contribution
- 
+
 Creativity
- 
- 
+
+
 These shifts may look subtle to you, but they were profound in their
 emotional impact upon me. Just creating this new list of life priorities created
 some intense fear and struggle at times. Probably the most difficult one was
@@ -13272,8 +13189,7 @@ conversely, I felt so good, I wanted to do even more!
 When my list was complete, I felt an emotion that I could not ever
 remember feeling previously: a sense of calm. I felt a sense of certainty I
 hadn’t experienced before, because I now knew that every part of me was
-going to be pulled in the direction of my dreams. I was no longer in a tug-of-
-war with myself. By no longer striving constantly for freedom, I could have
+going to be pulled in the direction of my dreams. I was no longer in a tug-ofwar with myself. By no longer striving constantly for freedom, I could have
 even more intimacy and love—I could feel even more free. I would happily
 achieve now. I would be healthy and vital and intelligent. With the decision to
 change my life’s priorities, I could immediately feel the changes in my
@@ -13325,8 +13241,7 @@ of person you’d have to be in order to achieve all that you want. In order to 
 that person, what would your values need to be? What values would you need
 to add or eliminate?
 For example, how would your capacity to deal with fear, frustration, and
-rejection be affected by deciding to place courage high upon your moving-
-toward value list? Or, what might be the impact of giving playfulness a higher
+rejection be affected by deciding to place courage high upon your movingtoward value list? Or, what might be the impact of giving playfulness a higher
 priority? Might it enable you to have more fun in life, possibly enjoy all
 experiences as they come, grow closer to your children and be more to them
 than just a “provider”?
@@ -13428,10 +13343,6 @@ have a great system of values that gives your life a magnificent direction but
 still feel unhappy, unless you understand the power of …
 * Follett, Ken, On Wings of Eagles, New York: Penguin, 1989.
 
-
-16
-
-
 RULES: IF YOU’RE NOT HAPPY, HERE’S WHY!
 “Hold yourself responsible for a higher standard than anybody else
 expects of you.”
@@ -13516,8 +13427,7 @@ created a feeling of stronger connection with her unborn child, and that this
 was just the right place on earth for her to be. What a contrast of beliefs and
 rules I noticed today!
 What struck me as most humorous, though, was that people would get so
-excited and emotional about something like this, which was merely a four-
-minute shadow. If you really think about it, it’s no more of a miracle than the
+excited and emotional about something like this, which was merely a fourminute shadow. If you really think about it, it’s no more of a miracle than the
 sun coming up each morning! Can you imagine if every morning people from
 all over the world got up early so they could watch the sun come up? What if
 national and international news ardently covered every phase of the event
@@ -13547,8 +13457,7 @@ transform your life as much as anything we’ve covered in this entire book.
 Let met ask you a question before we go any further. What has to
 happen in order for you to feel good? Do you have to have someone hug
 you, kiss you, make love to you, tell you how much they respect and
-appreciate you? Must you make a million dollars? Do you have to hit below-
-par golf? Do you have to be acknowledged by your boss? Do you have to
+appreciate you? Must you make a million dollars? Do you have to hit belowpar golf? Do you have to be acknowledged by your boss? Do you have to
 achieve all of your goals? Do you have to drive the right car, go to the right
 parties, be known by the right people? Do you have to be spiritually evolved
 or wait until you achieve total enlightenment? Do you have to run five miles a
@@ -13835,36 +13744,35 @@ of people are wired for pain. Their rules make it very, very difficult to feel
 good, and very easy to feel bad. Let me give you a powerful example. Here
 are the values of a woman we’ll call Laurie who attended one of my earliest
 Date With Destiny seminars:
- 
+
 LAURIE’S OLD MOVING-TOWARD VALUES
- 
+
 Love
- 
+
 Health
- 
+
 Security
- 
+
 Freedom
- 
+
 Success
 
 
- 
 Acceptance
- 
+
 Excellence
- 
+
 Harmony
- 
+
 Respect
- 
+
 lntesrity
- 
+
 Honesty
- 
+
 Fun
- 
- 
+
+
 At first glance, these values look wonderful, don’t they? You would think
 that this person is probably loving and healthy and freedom-oriented. With a
 closer look, though, we can already see a few challenges. Laurie’s third value
@@ -13911,9 +13819,9 @@ environment, something she could not control—other people’s opinions—to
 make her feel good. It provided lots of ways to feel bad, and provided no clear
 way to feel good.
 Here are some of the rest of her rules for her values hierarchy:
- 
+
 LAURIE’S OLD MOVING-TOWARD VALUES AND RULES
- 
+
 Love: I have to feel like I’ve earned it, like all my beliefs are
 accepted and approved. I can’t feel like I’m loved unless I’m
 perfect. I have to be a great mother and wife.
@@ -13929,17 +13837,17 @@ account than I already do.
 Freedom: I must be in control of my working demands, hours,
 fees, opinions, etc. I must be financially secure enough not to live
 under stress or financially related pressure.
- 
+
 How likely do you think it is that Laurie will meet one of her values,
 much less any? What about her rules for health? “I have to feel like my diet is
 perfect by my strict standards.” She was not only a vegetarian, but ate only
 raw food, and she still didn’t feel perfect! What are your chances of being
 healthier than everyone you know? Not much, unless you hang out in the
 intensive care unit!
- 
+
 LAURIE’S OLD MOVING-AWAY-FROM VALUES AND
 RULES
- 
+
 Rejection: I feel rejected if someone doesn’t share my beliefs,
 if someone seemingly knows more than I do.
 Failure: I feel failure if someone doesn’t believe I’m a good
@@ -13947,7 +13855,7 @@ person. I feel failure if I don’t feel I support myself or my family
 well enough.
 Anger: I feel anger when I don’t feel like what I do is
 appreciated, when people judge me before they know me.
- 
+
 These moving-away-from rules are equally immobilizing. Notice how
 
 
@@ -13992,10 +13900,10 @@ the bell instead of waiting for the outside world to do it.
 Based on these requirements, Laurie changed the order of some of her
 values and completely changed her rules for achieving them. Here are her
 new values and rules:
- 
+
 LAURIE’S NEW MOVING-TOWARD VALUES AND
 RULES
- 
+
 Love: I experience love anytime I express love, give love to
 others, or allow myself to receive it.
 Health: I am healthy when I acknowledge how wonderful I
@@ -14006,7 +13914,7 @@ Gratitude: I feel grateful when I appreciate all the things I
 have in my life right now.
 Freedom: I feel free when I live by my convictions and accept
 the choice to create happiness for myself.
- 
+
 Notice that fun is now a priority. This transformed her experience of life,
 not to mention her relationship with her daughter and husband. But even more
 powerful were the changes she made in her rules. Changing the values would
@@ -14033,15 +13941,15 @@ selected emotions she knew she had to avoid indulging in order to succeed:
 negativity and procrastination. Remember, we want to reverse the process of
 how most of us are wired. We want to make it hard to feel bad, and easy to
 feel good.
- 
+
 LAURIE’S NEW MOVING-AWAY-FROM VALUES AND
 RULES
- 
+
 Negativity: I avoid consistently depending on the acceptance
 of others for my ultimate happiness and success.
 Procrastination: I avoid consistently expecting perfection
 from myself and others.
- 
+
 With Laurie’s new moving-away-from rules, she no longer depends upon
 the acceptance of others. Her rule for procrastination is based on her
 realization that expecting perfection created pain, and she hadn’t wanted to
@@ -14050,15 +13958,13 @@ procrastinating. These changes in values and rules have redirected her life to a
 level beyond anything she could have imagined.
 Now, here’s an assignment for you: based on the new values you’ve set up
 for yourself in the last chapter, create a set of rules for your moving-toward
-values that makes it easy to feel good, and a set of rules for your moving-
-away-from values that makes it hard to feel bad. Ideally, create a menu of
+values that makes it easy to feel good, and a set of rules for your movingaway-from values that makes it hard to feel bad. Ideally, create a menu of
 possibilities with lots of ways to feel good. Here are a few of mine:
 
 
- 
 A SAMPLING OF MY MOVING-TOWARD VALUES AND
 RULES
- 
+
 Health and Vitality: Anytime I feel centered, powerful, or
 balanced; anytime I do anything that increases my strength,
 flexibility, or endurance; anytime I do anything that moves me
@@ -14076,7 +13982,7 @@ know in a positive way.
 Achieving: Anytime I focus on the value of my life as already
 created; anytime I set an outcome and make it happen; anytime I
 learn anything or create value for myself or others.
- 
+
 You may say, “Isn’t this just a game? Couldn’t I set it up so that I meet my
 rule for health just by breathing?” Certainly you could base it on something
 this simple. Ideally, though, you’ll design your rules so that by pursuing them
@@ -14187,9 +14093,9 @@ about their rules. Everyone knows their rules are the right rules. People get
 especially angry when they think others are making up rules or changing them
 along the way. Yet this dynamic is a part of most interactions with other
 human beings.
- 
+
 PARADOXICAL PROVERBS
- 
+
 Look before you leap.
 He who hesitates is
 lost.
@@ -14211,7 +14117,7 @@ home.
 A penny saved is a penny earned.
 You can’t take it with
 you.
- 
+
 In fact, the paradox of conflicting beliefs and rules is one of the reasons
 people find so much frustration in their lives. In a relationship, one person
 says, “I love you, except when you leave the cap off the toothpaste,” or “I
@@ -14248,8 +14154,7 @@ do is let the other party know my rules for the situation, and try to find out a
 many of their rules as possible. I ask things like “What will it take for you to
 know that our relationship is working? How often do we have to
 communicate? What is necessary?”
-For example, I was once talking with a friend of mine who is a well-
-known celebrity, and he shared with me that he didn’t feel like he had very
+For example, I was once talking with a friend of mine who is a wellknown celebrity, and he shared with me that he didn’t feel like he had very
 many friends. I said, “Are you sure you don’t have many friends? I see lots of
 people around you who truly do care about you. Is it that you have rules that
 eliminate a lot of people who could be your friends?” He said, “It just doesn’t
@@ -14389,14 +14294,14 @@ Right now, begin to take control of your rules by writing down your
 answers to the following questions. Make your answers as thorough as
 possible.
 1. What does it take for you to feel successful?
- 
+
 2. What does it take for you to feel loved—by your kids, by your spouse, by your parents,
 and by whoever else is important to you?
- 
+
 3. What does it take for you to feel confident?
- 
+
 4. What does it take for you to feel you are excellent in any area of your life?
- 
+
 Now look at these rules and ask yourself, “Are they appropriate? Have
 I made it really hard to feel good and easy to feel bad?” Do you have 129
 things that must happen before you feel loved? Does it take only one or two
@@ -14443,10 +14348,6 @@ elements of the Master System. We know the importance of state, the way
 questions direct our focus and evaluations, and the power of values and rules
 to shape our lives. Now let’s discover the fabric from which all these elements
 are cut …
-
-
-17
-
 
 REFERENCES: THE FABRIC OF LIFE
 “Man’s mind stretched to a new idea never goes back to its original
@@ -14695,8 +14596,7 @@ they do.
 ourselves.”
 —ORISON SWETT MARDEN
 References are not limited to your actual experience. Your imagination
-itself is a source of references. Remember Roger Bannister and the four-
-minute mile? No one believed it was physically possible for human beings to
+itself is a source of references. Remember Roger Bannister and the fourminute mile? No one believed it was physically possible for human beings to
 run the mile in less than four minutes, yet he created his own sense of
 certainty through imagined references. He visualized over and over again
 breaking the four-minute mile, hearing and feeling himself break the barrier
@@ -15148,10 +15048,6 @@ become? Take action and enjoy exploring the possibilities. Let’s discover the
 profound change that comes from …
 * “Commander in Chief,” U.S. News & World Report, December 31, 1990.
 
-
-18
-
-
 IDENTITY: THE KEY TO EXPANSION
 “Nothing great will ever be achieved without great men, and men
 are great only if they are determined to be so.”
@@ -15274,8 +15170,7 @@ consistent with that stand, regardless of what that inflexibility may cost us in
 the future.
 Conversely, there are tremendous rewards for remaining consistent with
 our stated identities. What do we call people who are consistent? We use
-words like trustworthy, loyal, steady, solid, intelligent, stable, rational, true-
-blue. How would you like to have people consistently use these labels to
+words like trustworthy, loyal, steady, solid, intelligent, stable, rational, trueblue. How would you like to have people consistently use these labels to
 describe you? How would it feel to think of yourself in this way? Again, the
 answer is obvious: most people would love it. Thus, the need to remain
 consistent becomes irrevocably tied to your ability to avoid pain and gain
@@ -15312,8 +15207,7 @@ even more painful than the clearly destructive effects of the drugs themselves.
 Why? Because we all have a need for a sense of certainty. Most people
 have tremendous fear of the unknown. Uncertainty implies the potential
 of having pain strike us, and we’d rather deal with the pain we already know
-about than deal with the pain of the unknown. Thus, living in an ever-
-changing world—one in which we are constantly surrounded by the flux of
+about than deal with the pain of the unknown. Thus, living in an everchanging world—one in which we are constantly surrounded by the flux of
 new relationships, redefined job roles, changing environments, and a steady
 stream of new information—the one thing that we all count on to be constant
 is our sense of identity. If we begin to question who we are, then there is no
@@ -15424,8 +15318,7 @@ publicly identified as an enemy “collaborator.” When fellow prisoners asked
 him why he did it, he couldn’t defend himself by saying he’d been tortured.
 He had to justify his acts to himself in order to maintain his own sense of
 integrity. In an instant, he would state that he wrote it because it was true! In
-that moment, his identity shifted. He now perceived himself as pro-
-Communist, and all those around him also labeled him as such. They would
+that moment, his identity shifted. He now perceived himself as proCommunist, and all those around him also labeled him as such. They would
 reinforce his new identity by treating him the same way they treated the
 Communist guards.
 Soon his new identity would cause him to openly denounce his country
@@ -15434,8 +15327,7 @@ label, he would often collaborate even more extensively with his captors. This
 was one of the most brilliant facets of the Chinese strategy: once a prisoner
 had written something down, he couldn’t later pretend to himself that it had
 never happened. There it was in black and white, in his own handwriting, for
-anyone to see—something which drove him “to make his beliefs and his self-
-image consistent with what he had undeniably done.”*
+anyone to see—something which drove him “to make his beliefs and his selfimage consistent with what he had undeniably done.”*
 Before we judge our POWs harshly, however, we should take a good look
 at ourselves. Did you consciously choose your identity, or is it the result of
 what other people have told you, significant events in your life, and other
@@ -15744,18 +15636,17 @@ make the list, revel in the power you have right now to change simply by decidin
 are some people who have these characteristics you aspire to having? Can they serve as role
 models? Imagine yourself fusing with this new identity. Imagine how you’d breathe. How
 would you walk? How would you talk? How would you think? How would you feel?
- 
+
 2. If you’d truly like to expand your identity and your life, then, right now, consciously
 decide who you want to be. Get excited, be like a kid again, and describe in detail who
 you’ve decided you are today. Take a moment now to write down your expanded list.
 
 
- 
 3. Now develop a plan of action you could take that would cause you to know that you’re
 truly living consistently with your new identity. In developing this plan, pay special
 attention to the friends you’re choosing to spend time with. Will they reinforce or destroy
 the identity you’re creating?
- 
+
 There’s nothing quite as pleasurable as seeing someone expand their
 identity. One of the greatest joys I’ve experienced in recent years was
 watching the transformation of my eldest son, Tyler, as he went from a
@@ -15768,7 +15659,7 @@ experience!
 1. 4. The final step is to commit to your new identity by broadcasting it to everyone
 around you. The most important broadcast, however, is to yourself. Use your new label to
 describe yourself every single day, and it will become conditioned within you.
- 
+
 THE FUTURE OF YOUR IDENTITY
 
 
@@ -15911,10 +15802,6 @@ PART • THREE
 
 THE SEVEN DAYS TO SHAPE YOUR LIFE
 
-
-19
-
-
 EMOTIONAL DESTINY: THE ONLY TRUE SUCCESS
 DAY ONE
 Your Outcome: Take control of your consistent emotions and begin to
@@ -15948,7 +15835,7 @@ states includes:
  ► rules
  ► references
  ► identity
- 
+
 The purpose of today’s exercise is simply to make you aware of your
 present emotional patterns and get you to utilize as many of the above-listed
 skills as necessary to guarantee that you shape your own emotional destiny
@@ -15966,12 +15853,6 @@ new question? Be sure to consistently focus on solutions instead of problems.
 Commit throughout this day to replacing the old, limiting emotion with a
 new, empowering emotion, and condition this new pattern until it’s consistent.
 With our emotions well in hand, we’ll begin tomorrow to master our …
-
-
-
-
-20
-
 
 PHYSICAL DESTINY: PRISON OF PAIN OR PALACE OF
 PLEASURE
@@ -16019,8 +15900,7 @@ Certainly, Stu was well-prepared for his run. He has master’s degrees in
 sports psychology, sociology, and social psychology, and is working toward a
 doctorate in exercise physiology at Columbia University. But the knowledge
 that proved most invaluable to him was the distinction that health and fitness
-are not the same. This is a distinction that Jim Fixx, the famous running-
-book author, did not have. He was clearly fit, but also unhealthy.
+are not the same. This is a distinction that Jim Fixx, the famous runningbook author, did not have. He was clearly fit, but also unhealthy.
 The failure of most individuals to grasp the difference between fitness
 and health is what causes them to experience the frustration of working
 out religiously and still having the same five to ten pounds stubbornly
@@ -16063,7 +15943,7 @@ burns glycogen as its primary fuel, while causing the body to store fat.
 Genetics plays a part in your body’s ability to burn fat and, in fact, some
 people are born with a highly aerobic system already in place. These are the
 people we envy who seemingly can eat anything and not gain an ounce.
- 
+
 Most types of exercise can be either aerobic or anaerobic.
 The level of intensity determines whether you are using
 your aerobic or anaerobic system. Walking, jogging,
@@ -16072,7 +15952,7 @@ benefit. Lower heart rates make these activities aerobic,
 and higher heart rates make them anaerobic…. Usually,
 tennis, racquetball, basketball, and similar sports are
 anaerobic.*
- 
+
 Most Americans today have a lifestyle that causes them to live in a
 constantly anaerobic state, inundated with stress and demands, compounding
 it with the way they choose to exercise. As a result, they train their
@@ -16105,7 +15985,7 @@ consequences.
 The solution, however, is simple. Stu Mittleman’s secret is that he
 understands that health and fitness must go together. According to Dr.
 Maffetone, this is accomplished by understanding that:
- 
+
 … all exercise programs require that you begin by
 building an aerobic base—a period of time during which
 your entire exercise program is exclusively based upon
@@ -16124,7 +16004,7 @@ injury-free. In other words, it’s a way to build your total
 health and fitness through both the proper conditioning of
 your metabolism for aerobic and, when appropriate,
 anaerobic training.*
- 
+
 By creating an aerobic base, you’ll also create a tremendous amount of
 energy and endurance. Remember, by expanding your aerobic capacity,
 you’re expanding your body’s ability to deliver oxygen (the source of energy
@@ -16240,9 +16120,9 @@ Second, exercise within your aerobic training zone for at least twenty
 minutes, ideally working up to thirty to forty-five minutes.
 The best way to find your optimal training heart rate is to apply the
 following formula:
- 
+
 COMPUTING YOUR IDEAL HEART RATE*
- 
+
 180−your age = your ideal heart rate (the rate at which you
 can exercise aerobically before going anaerobic).
 If you are recovering from a major illness or are on medication,
@@ -16258,7 +16138,6 @@ problems, while making progress in competition without injury,
 add 5 points.
 Before beginning any program of physical exercise, consult
 your physician.
- 
 
 
 Third, take twelve to fifteen minutes to cool down appropriately by
@@ -16340,12 +16219,10 @@ is now being synthesized in laboratories and administered to children
 who have dwarfism to stimulate their growth. But how can you enhance
 your own natural abilities to release HGH into your system? The one way
 to trigger it instantly and continuously is through explosive exercise. This
-means performing repetitions of an activity which you can maintain for thirty-
-five to forty-five seconds only, such as heavy weight lifting. Laboratory tests
+means performing repetitions of an activity which you can maintain for thirtyfive to forty-five seconds only, such as heavy weight lifting. Laboratory tests
 in Miami, Florida, have produced exciting results. People in their sixties
 who’ve gone at least ten to fifteen years without any muscle tone are learning
-to lift weights and create muscle mass equivalent to that of twenty-one-year-
-olds, with energy levels to match.
+to lift weights and create muscle mass equivalent to that of twenty-one-yearolds, with energy levels to match.
 What does all of this mean? It means that you can be as strong in your
 seventies and eighties as you were in your twenties and thirties! Not only can
 you continue to build your endurance factor with aerobic exercise, as we’ve
@@ -16382,15 +16259,10 @@ consistent levels of energy by beginning a ten-day program of aerobic
 exercise according to the guidelines I outlined above. Begin immediately.
 6. Part of your ten-day challenge, if you want to extend it, is to read the
 chapter “Energy: The Fuel of Excellence” in my first book, Unlimited Power.
-7. Decide to make exercise part of your identity. It is only through a long-
-term, lifelong commitment to exercise that we can truly reap the rewards that
+7. Decide to make exercise part of your identity. It is only through a longterm, lifelong commitment to exercise that we can truly reap the rewards that
 life has to offer us.
 Now, let’s hold ourselves to a higher standard by increasing the quality of
 our …
-
-
-21
-
 
 RELATIONSHIP DESTINY: THE PLACE TO SHARE AND CARE
 DAY THREE
@@ -16492,8 +16364,7 @@ relationship with. Reinforce your feelings of connection and renew your
 feelings of intimacy and attraction by consistently asking the question,
 “How did I get so lucky to have you in my life?” Become fully associated to
 the privilege of sharing your life with this person; feel the pleasure intensely,
-and continuously anchor it into your nervous system. Engage in a never-
-ending quest to find new ways to surprise each other. If you don’t, habituation
+and continuously anchor it into your nervous system. Engage in a neverending quest to find new ways to surprise each other. If you don’t, habituation
 will set in, and you will take each other for granted. So find and create those
 special moments that can make your relationship a role model—one that’s
 legendary!
@@ -16541,10 +16412,6 @@ this equation is incomplete without the factor of exercise to actually burn the 
 * The traditional calculation for your training zone is: 220 − Your Age = Maximum Heart Rate;
 Maximum Heart Rate × 65%−85% = Training Zone. The formula in the text above is from Stu
 Mittleman and Dr. Philip Maffetone.
-
-
-22
-
 
 FINANCIAL DESTINY: SMALL STEPS TO A SMALL (OR LARGE)
 FORTUNE
@@ -16792,8 +16659,7 @@ at that, and Lord knows we need them.”* The more value you contribute, the
 more you will earn if you put yourself in the position to do so.
 The lesson is simple. You don’t have to be an entrepreneur to add more
 value. But what you must do every day is to continually expand your
-knowledge, your skill, and your ability to give more. This is why self-
-education is so critical. I became a very wealthy man at an extremely young
+knowledge, your skill, and your ability to give more. This is why selfeducation is so critical. I became a very wealthy man at an extremely young
 age for one reason: I mastered skills and abilities that could instantaneously
 increase the quality of life for virtually anyone. Then I figured out a way to
 share that information and those skills with a huge number of people in a
@@ -17031,15 +16897,15 @@ to financial newsletter editor Dick Fabian, “Evidence shows that investors—
 investors in anything—make no money over a ten-year period. There are
 several reasons for this tragic statistic, including:
 1. Not setting a goal;
- 
+
 2. Chasing after trendy investments;
- 
+
 3. Relying on reports from the financial press;
- 
+
 4. Blindly taking advice from brokers or financial planners;
- 
+
 5. Making emotional mistakes, and so on.”*
- 
+
 Fortunately, the answers to your financial questions are easily accessible.
 They’re available in books from the masters, from the Peter Lynches to the
 Robert Prechters to the Warren Buffets, and there are effective financial
@@ -17175,10 +17041,6 @@ Now you’re ready to …
 * Fabian, Dick, How to Be Your Own Investment Counselor.
 * For more information on asset protection, contact Destiny Financial Services at (619) 4536330.
 
-
-23
-
-
 BE IMPECCABLE YOUR CODE OF CONDUCT
 DAY FIVE
 Your Outcome: Is it possible to have great values, to have all your rules
@@ -17281,11 +17143,10 @@ Oath? Or the American Serviceman’s Code of Conduct? How about the
 Optimists’ Club Creed?
 One way to create your own code is to review codes of conduct that
 already exist….
- 
 
 
 OPTIMISTS’ CLUB CREED
- 
+
 Promise yourself …
 To be so strong that nothing can disturb your peace of mind.
 To talk health, happiness, prosperity to every person you meet.
@@ -17305,39 +17166,38 @@ To give so much time to the improvement of yourself that you
 have no time to criticize others.
 To be too large for worry, too noble for anger, too strong for
 fear, and too happy to permit presence of trouble.
- 
+
 When John Wooden, the great UCLA basketball coach, graduated from
 grade school at age twelve, his father gave him a seven-point creed. John says
 this creed has been one of the most powerful influences on his entire life and
 career. It’s a creed he still lives by every single day:
- 
 
 
 JOHN WOODEN’S SEVEN-POINT CREED: “MAKING
 THE MOST OF ONESELF”
- 
-1. 
+
+1.
 1. Be true to yourself.
- 
-2. 
+
+2.
 2. Make each day your masterpiece.
- 
-3. 
+
+3.
 3. Help others.
- 
-4. 
+
+4.
 4. Drink deeply from good books.
- 
-5. 
+
+5.
 5. Make friendship a fine art.
- 
-6. 
+
+6.
 6. Build a shelter against a rainy day.
- 
+
 7. 7. Pray for guidance and give thanks for your blessings every
 day.
- 
- 
+
+
 “You can preach a better sermon with your life than with your lips.”
 —OLIVER GOLDSMITH
 Today’s Assignment:
@@ -17386,10 +17246,6 @@ CANI! in order to keep a true bearing on your course. Remember, it’s who
 you are every day—the small actions as well as the most grandiose—that
 build your character and form your identity.
 One of the most important actions you can take is to learn to …
-
-
-24
-
 
 MASTER YOUR TIME AND YOUR LIFE
 DAY SIX
@@ -17512,10 +17368,6 @@ Of course, we must always take time to …
 values and core beliefs about what’s most important in your life. For information, contact
 Robbins Research International, Inc. at 1-800-445-8183.
 
-
-25
-
-
 REST AND PLAY: EVEN GOD TOOK ONE DAY OFF!
 DAY SEVEN
 Your Outcome: Achieve some balance.
@@ -17534,10 +17386,6 @@ PART • FOUR
 
 
 A LESSON IN DESTINY
-
-
-26
-
 
 THE ULTIMATE CHALLENGE: WHAT ONE PERSON CAN DO
 “A mighty flame followeth a tiny spark.”
@@ -17828,8 +17676,7 @@ homeless suffer some form of mental illness.† In order to really help these
 people, we must break through our stereotypes. Generalizing about the
 homeless does not empower us to help them, and beyond a shadow of a
 doubt, many can be helped.
-What causes homelessness in the first place? Besides the already-
-mentioned mental illness, other reasons commonly cited include the spiraling
+What causes homelessness in the first place? Besides the alreadymentioned mental illness, other reasons commonly cited include the spiraling
 cost of housing coupled with diminishing income, drug or alcohol abuse, and
 the breakdown of the traditional American family. The truth is that all of these
 are legitimate reasons. Yet underlying them all are belief systems. After all,
@@ -18059,9 +17906,7 @@ order to meet this need, rainforests are being eliminated at a pace of one
 acre every five seconds.‡
 The inefficiency of the use of this land for grazing is one of the most
 destructive, short-term decisions that man can make. We’re bulldozing the
-source of our survival. Do you realize that every time you buy a quarter-
-pound hamburger using rainforest beef, it represents the destruction of fifty-
-five square feet of tropical rainforest?** Once destroyed, it can never be
+source of our survival. Do you realize that every time you buy a quarterpound hamburger using rainforest beef, it represents the destruction of fiftyfive square feet of tropical rainforest?** Once destroyed, it can never be
 replaced. Further, the current rate of species extinction is 1,000 per year
 due to the destruction of the rainforests—an unimaginable assault on our
 ecosystem.
@@ -18135,8 +17980,7 @@ resources that are used to produce one pound of beef can produce sixteen
 pounds of grain.†† The land required to feed one meat-eater for a year is
 three and a quarter acres; for a lacto-ovo-vegetarian, one-half acre; and
 one complete vegetarian, one-sixth acre.‡‡ In other words, one acre can
-feed twenty times as many people if they eat a vegetarian diet! Forty-
-thousand children starve every day, yet we clearly have the ability to feed
+feed twenty times as many people if they eat a vegetarian diet! Fortythousand children starve every day, yet we clearly have the ability to feed
 them if we just manage our resources more effectively. What’s more, if every
 American were to reduce his or her meat intake by just 10 percent, the
 number of people who could be fed using the resources that would be freed
@@ -18209,8 +18053,7 @@ actions. We must make them aware of the impact they have on an individual
 or local level and, by extension, their collective impact on the global level.
 Don’t let them ever fall into the trap of thinking that their actions don’t make
 a difference—if there’s anything I’ve tried to convey in this book, it’s that
-even small decisions and small actions, consistently made, have far-
-reaching consequences.
+even small decisions and small actions, consistently made, have farreaching consequences.
 One of the best ways to ensure that your child grows up with a healthy
 sense of self-esteem is to show them that their decisions and actions,
 consistently made, make a major difference. How can you do that?
@@ -18234,8 +18077,7 @@ drivers, 911 emergency dispatchers, crisis-intervention counselors, and a
 
 whole host of other unsung heroes.
 Just being prepared can make all the difference. For example, how would
-you feel if someone had a heart attack in your presence, but you were CPR-
-certified and knew what to do? What if your concerted efforts to keep their
+you feel if someone had a heart attack in your presence, but you were CPRcertified and knew what to do? What if your concerted efforts to keep their
 blood circulating, despite the apparent absence of any signs of life, actually
 resulted in saving a life? I can promise you one thing: the feeling of
 contribution you would get from that experience would give you a greater
@@ -18323,60 +18165,59 @@ trillions! Do you think we could handle a few social challenges with this kind
 of commitment?
 Contributing your time to any one of the following will definitely alter
 your perceptions of who you are and start you on the path of becoming a hero.
- 
+
 JUST TO NAME A FEW …
- 
+
 Here are some of the ways you can help. A small amount of
 time can make a big difference. Consider the possibility of
 committing a few hours a week or a few hours a month in one of
 the following areas within your community:
 Programs for the mentally and physically disadvantaged
- 
+
 Remedial tutoring in basic skills
- 
+
 Day care
- 
+
 Voter registration
- 
+
 Volunteer citizen patrols (Neighborhood Watch)
- 
+
 Library work—reshelving, cataloguing
- 
+
 Book distribution to bedridden
- 
 
 
 Energy conservation
- 
+
 Park maintenance
- 
+
 Community clean-up drives
- 
+
 Walk-a-thons
- 
+
 Drug education
- 
+
 Hotline counseling
- 
+
 Big Brother/Big Sister programs
- 
+
 International family adoption
- 
+
 Outreach programs
- 
+
 Emergency aid
- 
+
 Painting and building beautification
- 
+
 Orphanage programs
- 
+
 Arts and cultural museums
- 
+
 Hosting exchange students
- 
+
 Recycling programs
- 
- 
+
+
 A GIFT OF POSSIBILITY: AN INVITATION TO CONTRIBUTE
 
 
@@ -18534,7 +18375,7 @@ humanity—your caring for yourself and others—be the guiding principle of
 your life, but don’t treat life so seriously that you lose the power of
 spontaneity, the pleasure that comes from being silly and being a kid.
 Eighty-six-year-old Nadine Stair said it best:
- 
+
 “If I had my life to live over again, I’d dare to make more mistakes
 next time. I’d relax. I’d limber up. I’d be sillier than I’ve been this
 trip. I would take fewer things seriously. I would take more
@@ -18543,21 +18384,20 @@ and swim more rivers. I would eat more ice cream and less beans.
 I would, perhaps, have more actual troubles but fewer imaginary
 ones. You see, I’m one of those people who was sensible and sane,
 hour after hour, day after day.
- 
+
 Oh, I’ve had my moments. If I had it to do over again, I’d have
 more of them. In fact, I’d try to have nothing else—just moments,
 one after another, instead of living so many years ahead of each
 day. I’ve been one of those persons who never goes anywhere
 without a thermometer, a hot-water bottle, a raincoat, and a
 parachute. If I could do it again, I would travel lighter than I have.
- 
+
 If I had my life to live over, I would start barefoot earlier in the
 spring and stay that way later in the fall. I would go to more
 dances, I would ride more merry-go-rounds, I would pick more
 daisies.”
- 
+
 —NADINE STAIR
- 
 
 
 How do you want to be remembered? As a giant among men? Start
@@ -18641,8 +18481,6 @@ Review Draft, 1980, cited in J. Robbins.
 * For more information on National and Community Service, please contact your congressperson
 or The Commission on National and Community Service, The National Press Building, 529 14th
 Street NW, 4th Floor, Washington, DC 20004, tel. 202-724-0600.
-
-
 
 
 THE ANTHONY BOBBINS FOUNDATION
@@ -18784,8 +18622,7 @@ Robbins Success Systems™
 Robbins Success Systems (RSS) provides Fortune 1000 corporations with
 state-of-the-art management systems, communication, and teamwork
 trainings. The RSS team combines thorough pre-training diagnostics,
-customized facilitation and training, and post-program evaluation and follow-
-up. Tailored to meet your individual needs, RSS is a catalyst for constant and
+customized facilitation and training, and post-program evaluation and followup. Tailored to meet your individual needs, RSS is a catalyst for constant and
 never-ending improvement in the quality of life within corporations
 worldwide.
 Destiny Financial Services™

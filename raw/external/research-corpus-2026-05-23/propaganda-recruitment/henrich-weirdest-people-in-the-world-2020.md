@@ -9,32 +9,31 @@ chars: 1471969
 approx_tokens: 367992
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 1471971
+phase4_chars_after: 1470733
+phase4_saved_pct: 0.1
 ---
 
 
-
-
-
- 
 Begin Reading
 Table of Contents
 A Note About the Author
 Copyright Page
- 
+
 Thank you for buying this
 Farrar, Straus and Giroux ebook.
- 
+
 To receive special offers, bonus content,
 and info on new releases and other great reads,
 sign up for our newsletters.
- 
+
 Or visit us online at
 us.macmillan.com/newslettersignup
- 
+
 For email updates on the author, click here.
 
 
- 
 The author and publisher have provided this e-book to you for your
 personal use only. You may not make this e-book publicly available in any
 way. Copyright infringement is against the law. If you believe the copy of
@@ -88,22 +87,22 @@ hatched their plans to examine rational decision-making, we decided to
 compile all the cross-cultural studies that we could locate on important
 aspects of human psychology. After carefully reviewing all the research that
 we could locate, we arrived at three striking conclusions:
-1. Massively 
-biased 
-samples: 
-Most 
-of 
-what 
-was 
+1. Massively
+biased
+samples:
+Most
+of
+what
+was
 known
 experimentally about human psychology and behavior was based
 on studies with undergraduates from Western societies. At the time,
 96 percent of experimental participants were drawn from northern
 Europe, North America, or Australia, and about 70 percent of these
 were American undergraduates.
-2. Psychological diversity: 
-Psychological 
-differences 
+2. Psychological diversity:
+Psychological
+differences
 between
 populations appeared in many important domains, indicating much
 greater variation than one might expect from reading the textbooks
@@ -115,8 +114,7 @@ Taken together, these three findings meant that almost everything we—
 scientists—knew about human psychology derived from populations that
 seemed to be rather unusual along many important psychological and
 behavioral dimensions. Crucially, there was no obvious way to tell whether
-a psychological pattern found in Western undergraduates would hold cross-
-culturally, since existing research going back over a half century had
+a psychological pattern found in Western undergraduates would hold crossculturally, since existing research going back over a half century had
 
 
 revealed differences across populations in people’s susceptibility to visual
@@ -180,8 +178,7 @@ contact with leading economists and political scientists who were working
 on questions of direct relevance. My thanks to CIFAR and the entire IOG,
 since I learned from everyone. Early on, my conversations with the
 economic historians Avner Greif and Joel Mokyr contributed to forming the
-backbone of this book. Special thanks to Joel, who provided chapter-by-
-chapter feedback and always responded to my naïve questions about
+backbone of this book. Special thanks to Joel, who provided chapter-bychapter feedback and always responded to my naïve questions about
 economic history. I also learned much from interacting with Guido
 Tabellini, Matt Jackson, Torsten Persson, Roland Bénabou, Tim Besley, Jim
 Fearon, Sara Lowes, Suresh Naidu, Thomas Fujiwara, Raul Sanchez de la
@@ -244,8 +241,7 @@ Hruschka, Robert Barro, Rachel McCleary, Sendhil Mullainathan, Lera
 Boroditsky, Michal Bauer, Julie Chytilová, Mike Gurven, and Carole
 Hooven, among many others. Several people supplied me with data, and
 I’ve tried to specifically thank them for that in the endnotes. During two
-visits to the University of Pennsylvania, I was particularly inspired by in-
-depth discussions with one of my fellow travelers, Coren Apicella, whose
+visits to the University of Pennsylvania, I was particularly inspired by indepth discussions with one of my fellow travelers, Coren Apicella, whose
 work with Hadza hunter-gatherers is featured in Chapter 11.
 I would also like to extend my thanks to my editor at FSG, Eric Chinski,
 for his helpful comments on the penultimate draft of my manuscript, and to
@@ -357,8 +353,7 @@ world, in domains ranging from verbal memory to corpus callosum
 
 thickness, we need to explore the origins and development of the relevant
 values, beliefs, institutions, and practices.
-The case of literacy illustrates why so many psychologists and neuro-
-scientists have broadly misread their experimental results and repeatedly
+The case of literacy illustrates why so many psychologists and neuroscientists have broadly misread their experimental results and repeatedly
 made incorrect inferences about human brains and psychology. By studying
 the students attending their home universities, neuroscientists found a
 robust right-hemisphere bias in facial processing. Following good scientific
@@ -420,8 +415,7 @@ opportunities created by industrialization. Similarly, it wasn’t until the lat
 forms of government began to emerge at the national level, so literacy isn’t
 purely a consequence of political representation or pluralism in state
 politics. In fact, in many places in Europe and America, high levels of
-literacy emerged and persisted long before the advent of mandatory state-
-funded schools. Of course, this doesn’t mean that literacy wasn’t eventually
+literacy emerged and persisted long before the advent of mandatory statefunded schools. Of course, this doesn’t mean that literacy wasn’t eventually
 spurred along by wealth, democracy, and state funding. These
 
 
@@ -556,8 +550,7 @@ charter town where Johannes Gutenberg produced his eponymous printing press.
 These same patterns can be spotted elsewhere in 19th-century Europe—
 and today—in missionized regions around the globe. In 19th-century
 Switzerland, other aftershocks of the Reformation have been detected in a
-battery of cognitive tests given to Swiss army recruits. Young men from all-
-Protestant districts were not only 11 percentile points more likely to be
+battery of cognitive tests given to Swiss army recruits. Young men from allProtestant districts were not only 11 percentile points more likely to be
 “high performers” on reading tests compared to those from all-Catholic
 districts, but this advantage bled over into their scores in math, history, and
 writing. These relationships hold even when a district’s population density,
@@ -611,12 +604,10 @@ the absence of competition from the literacy-obsessed Protestants, it’s not
 entirely clear that Catholic missionaries had much effect on literacy at all.
 Furthermore, detailed analyses of the African data reveal that Protestant
 missions not only built formal schools but also inculcated cultural values
-about the importance of education. This is consistent with 16th- and 17th-
-century Europe, where the Catholic interest in literacy and schooling was
+about the importance of education. This is consistent with 16th- and 17thcentury Europe, where the Catholic interest in literacy and schooling was
 fueled in part by the Protestants’ intense focus on it.22
 Besides shaping the Catholic Church through competition, Luther’s
-Protestantism also inadvertently laid the foundation for universal, state-
-funded schooling by promoting the idea that it was the government’s
+Protestantism also inadvertently laid the foundation for universal, statefunded schooling by promoting the idea that it was the government’s
 responsibility to educate the populace. From the beginning, Luther’s
 writings not only emphasized the need for parents to ensure their children’s
 literacy but also placed the obligation for creating schools on local princes
@@ -732,8 +723,6 @@ PART I
 The Evolution of Societies and
 Psychologies
 
-
-1
 WEIRD Psychology
 The Western conception of the person as a bounded, unique, more
 or less integrated motivational and cognitive universe; a dynamic
@@ -747,8 +736,7 @@ Who are you?
 Perhaps you are WEIRD, raised in a society that is Western, Educated,
 Industrialized, Rich, and Democratic. If so, you’re likely rather
 psychologically peculiar. Unlike much of the world today, and most people
-who have ever lived, we WEIRD people are highly individualistic, self-
-obsessed, control-oriented, nonconformist, and analytical. We focus on
+who have ever lived, we WEIRD people are highly individualistic, selfobsessed, control-oriented, nonconformist, and analytical. We focus on
 ourselves—our attributes, accomplishments, and aspirations—over our
 relationships and social roles. We aim to be “ourselves” across contexts and
 see inconsistencies in others as hypocrisy rather than flexibility. Like
@@ -905,12 +893,12 @@ to compare Americans, Canadians, Brits, Australians, and Swedes to
 various Asian populations, including Japanese, Malaysians, Chinese, and
 Koreans. The upshot is that WEIRD people usually lie at the extreme end of
 the distribution, focusing intensely on their personal attributes,
-achievements, 
-aspirations, 
-and 
-personalities 
-over 
-their 
+achievements,
+aspirations,
+and
+personalities
+over
+their
 roles,
 responsibilities, and relationships. American undergraduates, in particular,
 seem unusually self-absorbed, even among other WEIRD populations.4
@@ -936,8 +924,7 @@ or tribes. This is the world of the Maasai, Samburu, and Cook Islanders.
 Within these enduring networks, everyone is endowed with an extensive
 array of inherited obligations, responsibilities, and privileges in relation to
 others in a dense social web. For example, a man could be obligated to
-avenge the murder of one type of second cousin (through his paternal great-
-grandfather), privileged to marry his mother’s brother’s daughters but
+avenge the murder of one type of second cousin (through his paternal greatgrandfather), privileged to marry his mother’s brother’s daughters but
 tabooed from marrying strangers, and responsible for performing expensive
 rituals to honor his ancestors, who will shower bad luck on his entire
 lineage if he’s negligent. Behavior is highly constrained by context and the
@@ -960,16 +947,14 @@ family ties. By contrast, otherwise familiar faces may remain, effectively,
 strangers if you cannot link to them through your dense, durable social ties.6
 
 
-Success and respect in this world hinge on adroitly navigating these kin-
-based institutions. This often means (1) conforming to fellow in-group
+Success and respect in this world hinge on adroitly navigating these kinbased institutions. This often means (1) conforming to fellow in-group
 members, (2) deferring to authorities like elders or sages, (3) policing the
 behavior of those close to you (but not strangers), (4) sharply distinguishing
 your in-group from everyone else, and (5) promoting your network’s
 collective success whenever possible. Further, because of the numerous
 obligations, responsibilities, and constraints imposed by custom, people’s
 motivations tend not to be “approach-oriented,” aimed at starting new
-relationships or meeting strangers. Instead, people become “avoidance-
-oriented” to minimize their chances of appearing deviant, fomenting
+relationships or meeting strangers. Instead, people become “avoidanceoriented” to minimize their chances of appearing deviant, fomenting
 disharmony, or bringing shame on themselves or others.7
 That’s one extreme; now, contrast that with the other—individualistic—
 end of the spectrum. Imagine the psychology needed to navigate a world
@@ -979,12 +964,12 @@ partners with these attributes; and then (3) sustaining relationships with
 them that will endure for as long as the relationship remains mutually
 beneficial. In this world, everyone is shopping for better relationships,
 which may or may not endure. People have few permanent ties and many
-ephemeral 
-friends, 
-colleagues, 
-and 
-acquaintances. 
-In 
+ephemeral
+friends,
+colleagues,
+and
+acquaintances.
+In
 adapting
 psychologically to this world, people come to see themselves and others as
 independent agents defined by a unique or special set of talents (e.g.,
@@ -1012,8 +997,7 @@ their work. This scale’s strength is not that it zeroes in on one thin slice o
 psychology but rather that it aggregates several elements in the
 individualism package. At the high end of the scale, you won’t be shocked
 to find Americans (score 91), Australians (90), and Brits (89)—no doubt
-these are some of the WEIRDest people in the world. Beneath these chart-
-toppers, the most individualistic societies in the world are almost all in
+these are some of the WEIRDest people in the world. Beneath these charttoppers, the most individualistic societies in the world are almost all in
 Europe, particularly in the north and west, or in British-descent societies
 like Canada (score 80) and New Zealand (79). Notably, Figure 1.2 also
 reveals our ignorance, as swaths of Africa and Central Asia remain largely
@@ -1069,8 +1053,7 @@ variation is both continuous and multidimensional.
 nations. I’m sometimes stuck comparing country averages, because
 that’s the available data. Nevertheless, throughout the book, we’ll
 often examine psychological differences within countries—
-between regions, provinces, and villages, and even among second-
-generation immigrants with diverse backgrounds. Even though
+between regions, provinces, and villages, and even among secondgeneration immigrants with diverse backgrounds. Even though
 WEIRD populations typically cluster at one end of global
 distributions, we’ll explore and explain the interesting and
 important variation within Europe, “the West,” and the
@@ -1148,20 +1131,19 @@ label this phenomenon the Fundamental Attribution Error, though it’s
 clearly not that fundamental; it’s WEIRD. In general, WEIRD people are
 particularly biased to attribute actions or behavioral patterns to what’s
 “inside” others, relying on inferences about dispositional traits (e.g., he’s
-“lazy” 
-or 
-“untrustworthy”), 
-personalities 
-(she’s 
-“introverted” 
+“lazy”
+or
+“untrustworthy”),
+personalities
+(she’s
+“introverted”
 or
 “conscientious”), and underlying beliefs or intentions (“what did he know
 and when did he know it?”). Other populations focus more on actions and
 outcomes over what’s “inside.”17
 GUILT-RIDDEN BUT SHAMELESS
 Based on data from 2,921 university students in 37 countries, people
-from more individualistic societies report more guilt-like and fewer shame-
-like emotional experiences. In fact, students from countries like the United
+from more individualistic societies report more guilt-like and fewer shamelike emotional experiences. In fact, students from countries like the United
 States, Australia, and the Netherlands hardly ever experience shame. Yet
 they had more guilt-like experiences than people in other societies; these
 experiences were more moralized and had a greater impact on both their
@@ -1347,8 +1329,7 @@ individuals within local regions. Within countries, regional populations
 possessing greater average patience generate higher incomes and attain
 more education. Similarly, comparing individuals within the same local
 area, more patient people get paid more and stay in school longer.
-Delay-discounting measures are related to what psychologists call self-
-regulation or self-control. To measure self-control in children, researchers
+Delay-discounting measures are related to what psychologists call selfregulation or self-control. To measure self-control in children, researchers
 sit them in front of a single marshmallow and explain that if they wait until
 the experimenter returns to the room, they can have two marshmallows
 instead of just the one. The experimenter departs and then secretly watches
@@ -1370,8 +1351,7 @@ within the same families—that is, a more patient child does better than her
 sibling when they are adults.32
 As with individualism, guilt, and conformity, a person’s patience and
 self-control are calibrated to fit the institutional and technological
-environments that they confront across their lives. In some regulated-
-relational societies, there’s little personal payoff to self-control, so we
+environments that they confront across their lives. In some regulatedrelational societies, there’s little personal payoff to self-control, so we
 shouldn’t expect the association between patience and adult success to be
 universal. Nevertheless, when local social norms reward self-control or
 penalize impatience, all manner of psychological tricks develop that ratchet
@@ -1406,8 +1386,7 @@ delegations. Looking across nations, the higher the international corruption
 index for a delegation’s home country, the more tickets those delegations
 accumulated. The relationship between corruption back home and parking
 behavior in Manhattan holds independent of the size of a country’s UN
-mission, the income of its diplomats, the type of violation (e.g., double-
-parking), and the time of day.33
+mission, the income of its diplomats, the type of violation (e.g., doubleparking), and the time of day.33
 In 2002, diplomatic immunity for parking violations ended and the New
 York Police Department clamped down, stripping the diplomatic license
 plates from vehicles that had accumulated more than three parking
@@ -1452,14 +1431,12 @@ contrast, self-interested individuals should just report a 5. If everyone in a
 country were self-interested, we’d expect 100 percent of reported rolls to be
 high-payoff. This is our self-interested benchmark.
 Not surprisingly, all countries fall between our two benchmarks. In
-WEIRD countries like Sweden, Germany, and the UK, the reported high-
-payoff rolls are about 10 to 15 percentile points above the impartial
+WEIRD countries like Sweden, Germany, and the UK, the reported highpayoff rolls are about 10 to 15 percentile points above the impartial
 benchmark of 50 percent. Across countries, however, the percentage
 reporting higher rolls goes up from there to nearly 85 percent in Tanzania.
 As expected, every population breaks impartial rules; but, it turns out that
 some populations break such rules more than others.35
-Figure 1.5 shows the strong relationship between the percentage of high-
-payoff reports in this simple experiment and an index of corruption for each
+Figure 1.5 shows the strong relationship between the percentage of highpayoff reports in this simple experiment and an index of corruption for each
 country. As with parking violations around the UN, people from more
 
 
@@ -1889,8 +1866,6 @@ kinship, marriage, and ritual been so central in most human societies? How
 and why do societies scale up in size and complexity, and what’s the role of
 religion in this process?
 
-
-2
 Making a Cultural Species
 Nature, when she formed man for society, endowed him with an
 original desire to please, and an original aversion to offend his
@@ -2054,11 +2029,11 @@ store, and organize particular kinds of beliefs and preferences. For example,
 when given information about the diet, habitat, and dangerousness of novel
 animals, children from places as diverse as Fiji, Amazonia, and Los
 Angeles implicitly assume that this information applies to an entire
-category—say, 
-“cobras”—and 
-then 
-preferentially 
-remember 
+category—say,
+“cobras”—and
+then
+preferentially
+remember
 the
 
 
@@ -2123,10 +2098,10 @@ By selectively filtering and recombining the beliefs, practices,
 techniques, and motivations acquired from others, our species’ learning
 abilities give rise to a process called cumulative cultural evolution.
 Operating over generations, cumulative cultural evolution can generate
-increasingly 
-sophisticated 
-technologies, 
-complex 
+increasingly
+sophisticated
+technologies,
+complex
 languages,
 psychologically-potent rituals, effective institutions, and intricate protocols
 for making tools, houses, weapons, and watercraft. This can, and often
@@ -2313,8 +2288,7 @@ evolution has mixed and matched many of the same elements to achieve
 similar outcomes at the group level.19
 
 
-Broadly, then, norms are stable, self-reinforcing sets of culturally-
-learned and interlocking beliefs, practices, and motivations that arise as
+Broadly, then, norms are stable, self-reinforcing sets of culturallylearned and interlocking beliefs, practices, and motivations that arise as
 people learn from each other and interact over generations. Norms create
 social rules or standards that prescribe, forbid, or sometimes endorse some
 set of actions. These actions are incentivized and sustained by their
@@ -2370,8 +2344,7 @@ kinship network. Based on one calculation, people’s naming networks
 stretched out in a radius of 60 to 115 miles. As in many such populations,
 Ju/'hoansi want to encompass everyone within a circle of kinship, and they
 get nervous around people outside of that circle.21
-Alongside kin altruism, kin-based institutions also tap into our pair-
-bonding instincts, which form the core of marriage. In many ways, marriage
+Alongside kin altruism, kin-based institutions also tap into our pairbonding instincts, which form the core of marriage. In many ways, marriage
 represents the keystone institution for most—though not all—societies and
 may be the most primeval of human institutions. Pair-bonding is an evolved
 mating strategy found scattered around the natural world, from penguins
@@ -2433,8 +2406,7 @@ emotions of pair-bonding.
 Marriage norms also regulate who can marry and reproduce with whom,
 which subtly structures societies in ways most people don’t realize. One
 common way that cultural evolution has repeatedly managed this is by
-harnessing our innate aversion to incest to create sexual and marriage ta-
-boos that apply much more broadly than the small circle of close relatives
+harnessing our innate aversion to incest to create sexual and marriage taboos that apply much more broadly than the small circle of close relatives
 circumscribed by inbreeding concerns. Natural selection has endowed
 humans with psychological adaptations that suppress our sexual attraction
 toward close relatives because of the likelihood of unhealthy offspring. By
@@ -2473,8 +2445,7 @@ experienced at the idea of sibling incest. As we’ll see, although these broad
 prohibitions on marrying all cousins are relatively rare in agricultural
 societies, they oddly reemerged in early medieval Europe, with substantial
 long-term consequences.27
-By providing psychological anchors, our instincts for kin altruism, pair-
-bonding, and incest aversion help explain why marriage and family have
+By providing psychological anchors, our instincts for kin altruism, pairbonding, and incest aversion help explain why marriage and family have
 long been our most persistent institutions. I’ll refer to institutions rooted in
 the above-described instincts as kin-based institutions. Notably, however,
 included in these institutions are also norms that cultivate enduring
@@ -2689,8 +2660,8 @@ The outcome is that social norms create communities in which the health
 and survival of each individual depend on almost everyone else.
 Psychologically, natural selection has shaped our minds to assess our
 interdependence with others, and to use these assessments to motivate
-affiliation, personal concern, and support 
-for 
+affiliation, personal concern, and support
+for
 others. Cues of
 interdependence probably include eating together, sharing social ties,
 collaborating on joint projects, and co-experiencing traumatic events. And
@@ -2763,8 +2734,7 @@ motivations based on stress and other environmental cues
 experienced before age five. As adults, these early calibrations may
 influence our self-control, risk-taking, stress responses, norm
 internalizations, and relationships. By shaping our early lives,
-cultural evolution can manipulate our brains, hormones, decision-
-making, and even our longevity.40
+cultural evolution can manipulate our brains, hormones, decisionmaking, and even our longevity.40
 Beyond these direct avenues into our psychology, cultural evolution also
 may help us successfully adapt to our institutional worlds by assembling
 practices or “training regimens”—often in the forms of games, stories,
@@ -2808,8 +2778,7 @@ that await the inscription of their marching orders by murky cultural forces.
 
 Even approaches that take evolution and psychology seriously still typically
 adopt the “doctrine of psychic unity,” the idea that everyone is more or less
-psychologically indistinguishable. Because they are rooted in WEIRD folk-
-models of individuals and society, these assumptions can usually be slipped
+psychologically indistinguishable. Because they are rooted in WEIRD folkmodels of individuals and society, these assumptions can usually be slipped
 in, unstated and unnoticed. Instead, here, I’ve outlined and grounded some
 of the key aspects about human nature that I’ll be putting to work in later
 chapters.42 The most important points to keep in mind as we head down the
@@ -2835,8 +2804,6 @@ rarely understand how or why their institutions work or even that
 they “do” anything. People’s explicit theories about their own
 institutions are generally post hoc and often wrong.
 
-
-3
 Clans, States, and Why You Can’t Get Here
 from There
 I believe that if our philosophers had lived among the
@@ -2850,8 +2817,7 @@ more general processes that have driven the emergence of larger-scale
 cooperation, greater political integration, and broader exchange networks
 over the last 12 millennia. How has our species, since the origins of
 agriculture and animal husbandry—“food production”—managed to scale
-up from the relatively egalitarian, fluid networks of most Paleolithic hunter-
-gatherers to the vast societies of the modern world? As you’ll see, the
+up from the relatively egalitarian, fluid networks of most Paleolithic huntergatherers to the vast societies of the modern world? As you’ll see, the
 underlying processes are essentially the same as those sketched in the last
 chapter and were likely operating for tens or even hundreds of thousands of
 years before food production developed. Occasionally, these processes
@@ -2952,12 +2918,12 @@ own pigs would be like eating one’s own children. Instead, members of one
 ritual group (e.g., group A) gave pigs to the other half (group B). This
 imbued even simple activities like pig rearing with sacred meaning while at
 the same time threading greater economic interdependence through the
-population. 
-At 
-communal 
-ceremonies, 
-ritual 
-groups 
+population.
+At
+communal
+ceremonies,
+ritual
+groups
 alternated
 administering initiation rites to the men of their paired ritual group. Ilahita
 males had to pass through five different initiation rites. Only by completing
@@ -3041,8 +3007,7 @@ powers of the powerful and moralizing gods found in today’s world
 religions, the Tambaran gods were only believed to punish people for
 inadequate ritual performances. This supernatural punishment, however,
 would have helped guarantee that villagers conscientiously attended to the
-rituals, which is crucial since the rituals were doing important social-
-psychological work in bonding the community.
+rituals, which is crucial since the rituals were doing important socialpsychological work in bonding the community.
 The Tambaran gods’ supernatural punishment may have also suppressed
 sorcery accusations and their associated cycles of violence. In New Guinea,
 as in many societies, people don’t see most deaths as accidental. Deaths that
@@ -3101,8 +3066,7 @@ Ilahita “misfit” the ritual group organization to their clan structures,
 accidentally producing a greater degree of crosscutting and integration. The
 Ilahita system, for example, put brothers in different ritual groups and
 partitioned clans. The Abelam version, by contrast, left brothers together
-and clans fully encompassed within single ritual groups. Second, a mis-
-understanding created bigger, more powerful Tambaran gods. The
+and clans fully encompassed within single ritual groups. Second, a misunderstanding created bigger, more powerful Tambaran gods. The
 Tambaran gods have specific names. Among the Abelam, they are the
 names of their clans’ ancestor gods—so their Tambaran gods are just an
 ensemble of their ancestor gods. In Ilahita, the clans each already had their
@@ -3165,15 +3129,14 @@ results in the transmission of many norms and practices that have
 nothing to do with success, including things like hairstyles and
 music preferences. In Ilahita, the elders decided to explicitly copy
 the Tambaran from the successful Abelam. Along the way, Ilahita
-and other communities also copied the Abelam’s elaborate yam-
-growing magic, which probably didn’t contribute to anyone’s
+and other communities also copied the Abelam’s elaborate yamgrowing magic, which probably didn’t contribute to anyone’s
 success.17
-4. Differential 
-group 
-survival 
-without 
-conflict: 
-In 
+4. Differential
+group
+survival
+without
+conflict:
+In
 hostile
 environments, only groups with institutions that promote extensive
 cooperation and sharing can survive at all. Groups without these
@@ -3331,11 +3294,11 @@ and expensive to exploit. Even in recent decades, when an anthropologist
 approaches a remote Matsigenka house, she may find a still-smoldering
 fire, but no one home.
 This set of institutions and lifeways has shaped Matsigenka psychology.
-Matsigenka 
-are 
-independent, 
-self-reliant, 
-emotionally 
+Matsigenka
+are
+independent,
+self-reliant,
+emotionally
 controlled,
 industrious, and generous with close kinfolk. Individuals need to cultivate
 these traits to become well respected and successful in their society. Like
@@ -3421,10 +3384,8 @@ people who were shorter, sicker, and more likely to die young. However,
 
 
 the effects of sedentism and the productivity of unskilled (young) labor
-were such that farmers reproduced more quickly than did mobile hunter-
-gatherers. With the “right” set of institutions, farmers could spread across
-the landscape like an epidemic, driving out or assimilating any hunter-
-gatherers in their path. Thus, early farming spread not because rational
+were such that farmers reproduced more quickly than did mobile huntergatherers. With the “right” set of institutions, farmers could spread across
+the landscape like an epidemic, driving out or assimilating any huntergatherers in their path. Thus, early farming spread not because rational
 individuals prefer to farm, but because farming communities with particular
 institutions beat mobile hunter-gatherer populations in intergroup
 competition.33
@@ -3486,8 +3447,7 @@ we’re classificatory siblings and incest taboos kick in. The upshot is that
 members of patrilineal clans often call all the men of their father’s
 generation “father” and all of the daughters of these men “sisters.” For
 clarity, I’ll follow my Fijian friends and refer to genealogical cousins who
-are called “brothers” and “sisters” as “cousin-brothers” and “cousin-
-sisters.”36
+are called “brothers” and “sisters” as “cousin-brothers” and “cousinsisters.”36
 
 
 This reorganization of how people think about relatedness and descent
@@ -3507,12 +3467,12 @@ builds trust, and reduces sexual attraction.
 2. Inheritance and ownership: Norms specify the shared inheritance
 of land and other valuable resources (e.g., cows) through one’s
 father. By endowing all clan members with an equal stake and
-shared 
-responsibility, 
-such 
-inheritance 
-norms 
-tap 
+shared
+responsibility,
+such
+inheritance
+norms
+tap
 our
 interdependence psychology—our psychological inclinations to
 help those with whom our fitness is intertwined (if they prosper, we
@@ -3531,8 +3491,7 @@ usually one of his cousin-brothers.39
 their own clan and promote marriages to cousins just outside the
 
 
-clan. As I noted, many of the females in one’s own clan are cousin-
-sisters or “daughters,” and thus covered under incest taboos. This
+clan. As I noted, many of the females in one’s own clan are cousinsisters or “daughters,” and thus covered under incest taboos. This
 suppresses sexual competition among men of the same clan for the
 women around them and instead focuses their mating efforts
 outward, on nearby clans. This builds alliances with other clans
@@ -3553,12 +3512,12 @@ Such lines of authority are reinforced in daily practices, including
 by norms specifying that men sit in rank order at meals and
 ceremonies.42
 7. Gods and rituals: Ancestors often evolved into supernatural agents
-—ancestor 
-gods. 
-These 
-beings 
-typically 
-demand 
+—ancestor
+gods.
+These
+beings
+typically
+demand
 ritual
 performances and sometimes punish clan members for failing to
 perform such rites. Since they are buried locally, ancestors are
@@ -3685,29 +3644,27 @@ they gain political authority as part of a council of elders who make
 decisions for the entire organization.51
 Age-sets are interesting because they create a degree of centralized
 political authority while (usually) helping to maintain egalitarian
-relationships 
-among 
-the 
-underlying 
-kin-based 
+relationships
+among
+the
+underlying
+kin-based
 organizations.
 Psychologically, senior members of the governing age-grade are bound by
-their 
-shared 
-experience 
-in 
-multiple 
-initiation 
-rites, 
+their
+shared
+experience
+in
+multiple
+initiation
+rites,
 communal
 responsibilities, and long histories of working together in joint activities,
-including in war. This allows them to transcend their clan loyalties and kin-
-based commitments to act as a larger corporate group.
+including in war. This allows them to transcend their clan loyalties and kinbased commitments to act as a larger corporate group.
 As with other widespread institutions, intergroup competition has spread
 age-sets in a variety of ways. Because of their military advantages, age-sets
 have expanded when their more cooperative societies have driven out or
-assimilated less unified populations. In both Africa and New Guinea, age-
-sets also spread as one ethnic group joined the age-set system of a
+assimilated less unified populations. In both Africa and New Guinea, agesets also spread as one ethnic group joined the age-set system of a
 neighboring group or when one group simply copied the institution
 wholesale from another, as happened in Ilahita.52
 
@@ -3724,8 +3681,7 @@ intergroup competition. What clever contrivances did cultural evolution
 cook up to improve command and control?53
 Getting to Premodern States
 Premodern states—in contrast to modern states—were built on an
-underlying social and psychological foundation formed by intensive kin-
-based institutions. As best we can tell, states first arose from what
+underlying social and psychological foundation formed by intensive kinbased institutions. As best we can tell, states first arose from what
 anthropologists call chiefdoms. The simplest version of a chiefdom is a
 single village consisting of a handful of clans in which one clan is set above
 the others. By virtue of shared norms and beliefs, affirmed routinely
@@ -3856,11 +3812,11 @@ however, often have enough command and control to unify large armies for
 military campaigns. Consequently, chiefdoms tend to spread through
 conquest and assimilation as well as by inspiring other groups to emulate
 their political organization. Of course, facing potent military threats,
-surrounding 
-communities 
-sometimes 
-“voluntarily” 
-join 
+surrounding
+communities
+sometimes
+“voluntarily”
+join
 powerful
 chiefdoms.59
 Since chiefdoms often grow by conquering or assimilating other
@@ -3883,8 +3839,7 @@ permitted the elite to be (i.e., claim to be) a separate category of person,
 with special attributes and privileges.61
 Under the right conditions, such stratified chiefdoms can evolve into
 premodern states—kingdoms—as they interpose new bureaucratic
-institutions between the elite ruling families and the clans or other kin-
-groups that dominate the rest of the population (Figure 3.3). The line
+institutions between the elite ruling families and the clans or other kingroups that dominate the rest of the population (Figure 3.3). The line
 between stratified chiefdoms and states is notoriously fuzzy—it comes
 down to a question of which and how many of these society-wide
 bureaucratic institutions need to be introduced before the whole is “a state.”
@@ -3921,16 +3876,14 @@ bureaucratic institutions like armies or state religions, these were
 sandwiched between upper and lower strata that were both enmeshed in
 intensive kin-based institutions.64
 To get a sense of how the first state-level institutions emerged, consider
-how chiefly clans can harness (exploit?) age-set institutions to create a well-
-functioning military. This begins when, in consolidating various ritual
+how chiefly clans can harness (exploit?) age-set institutions to create a wellfunctioning military. This begins when, in consolidating various ritual
 powers, a chiefly clan gains control over the male initiation rites that lie at
 the core of age-set institutions. With this leverage, chiefs can deploy the
 warrior age-grade as a tightly bonded army regiment that must obey (if they
 don’t, they won’t be initiated into the next age-grade). In 18th-century
 Africa, for example, some chiefs began deploying the warrior age-grade to
 collect tribute and raid surrounding groups. In the 19th century, after
-conquering several groups, the Zulu chief, Shaka, reorganized these age-
-sets so that they crosscut the many chiefdoms that were now united under
+conquering several groups, the Zulu chief, Shaka, reorganized these agesets so that they crosscut the many chiefdoms that were now united under
 his rule—thereby establishing an army composed of ritually-bonded young
 men drawn from diverse clans and tribes. This created the first state-level
 institution—the military—of the embryonic Zulu state. The powerful Zulu
@@ -4015,8 +3968,7 @@ other formal institutions (e.g., to provide safety nets for injuries, disasters,
 and unemployment).
 How were WEIRD societies institutionally rebuilt from the ground up?
 Notions of family, kinship, and interpersonal relations infused all
-premodern states, and the mental models furnished by experience in kin-
-based institutions often shaped the formulation and construction of state
+premodern states, and the mental models furnished by experience in kinbased institutions often shaped the formulation and construction of state
 institutions. Chinese emperors, for example, were often seen as strong,
 caring, and authoritarian fathers to their subjects, who, as his children, owed
 their emperor submission, respect, and devotion. So, how do you get
@@ -4037,8 +3989,6 @@ or can’t extricate themselves from their kin-based institutions, how could
 cultural evolution ever build modern states and related formal institutions in
 the first place? How do you get here from there?
 
-
-4
 The Gods Are Watching. Behave!
 It will also be seen by those who pay attention to Roman history,
 how much religion helped in the control of armies, in encouraging
@@ -4103,8 +4053,7 @@ fear of divine judgment.
 Which explanation is correct, if either? Our first piece of evidence comes
 from analyses of the religious commitments of the participants across the
 priming studies. When Ara and Azim’s team looked at nonreligious people,
-the effect of priming God on social behavior went to zero. That is, God-
-primes don’t work on atheists. By contrast, when nonbelievers were
+the effect of priming God on social behavior went to zero. That is, Godprimes don’t work on atheists. By contrast, when nonbelievers were
 dropped from the analysis, the effects of priming God got stronger. The
 same pattern emerges when all 26 studies are analyzed together. It turns out
 the nonbelievers were diluting the potency of God’s influence.
@@ -4252,8 +4201,7 @@ the common observation from global surveys that women are more likely to
 believe in God than men. Across societies, women are better than men at
 mentalizing and empathy. Once we adjust for men’s inferior abilities,
 women and men don’t differ in their belief in God or other supernatural
-agents. Women’s greater religious faith in many populations may be a by-
-product of their superior capacity for empathy.9
+agents. Women’s greater religious faith in many populations may be a byproduct of their superior capacity for empathy.9
 The evolution of our potent mentalizing abilities may also account for
 our species’ tendency toward dualism—thinking of minds and bodies as
 separable and potentially independent. Dualistic inclinations leave us
@@ -4269,8 +4217,7 @@ susceptible to believing that minds and bodies are separable. This probably
 occurred because our sophisticated mentalizing abilities for understanding
 other minds evolved relatively recently, long after the evolution of an
 ancient cognitive system for tracking the movements of other bodies, which
-we share with many other species. The disjointed evolution of these semi-
-independent mental systems produced a cognitive by-product, a capacity to
+we share with many other species. The disjointed evolution of these semiindependent mental systems produced a cognitive by-product, a capacity to
 entertain the notion that “minds” can separate from bodies.
 If an omniscient engineer had crafted an integrated cognitive system for
 us, she certainly would have ruled out mind-body separations, since they
@@ -4283,21 +4230,21 @@ Freaky Friday, along with widespread cultural phenomena like demonic
 possessions and séances, testify to the readiness of our dualistic intuitions.10
 To see the impact of cognitive bugs like dualism, consider how diverse
 beliefs compete to insinuate themselves into our minds and societies by
-getting 
-repeatedly 
-remembered, 
-recalled, 
-and 
-retransmitted 
+getting
+repeatedly
+remembered,
+recalled,
+and
+retransmitted
 over
 generations. Many ideas will be too bizarre, complex, or counterintuitive to
-survive 
-this 
-competition, 
-and 
-will 
-be 
-systematically 
+survive
+this
+competition,
+and
+will
+be
+systematically
 forgotten,
 misremembered, or otherwise mutated in ways that make them more
 amenable to our psychology.11 The survivors will be those that best fit the
@@ -4311,9 +4258,7 @@ organizations to dissuade people from such beliefs.12
 
 
 These two ingredients—our faith instinct and cognitive bugs—help
-account for many of the supernatural beings found among mobile hunter-
-gatherers and presumably our Stone Age ancestors. The gods of hunter-
-gatherers tended to be weak, whimsical, and not particularly moral. They
+account for many of the supernatural beings found among mobile huntergatherers and presumably our Stone Age ancestors. The gods of huntergatherers tended to be weak, whimsical, and not particularly moral. They
 could be bribed, tricked, or scared off with powerful rituals. Among the
 Aboriginal hunter-gatherers of Japan, for example, people bribed the gods
 with offerings of millet beer. If things didn’t improve, they’d threaten to cut
@@ -4342,8 +4287,7 @@ which are sometimes quite obscure.”
 Marshall goes on to recount one story in which ≠Gao!na makes two men
 sick because they had burned some bees while using smoke to drive them
 away—it’s apparently well-known that ≠Gao!na hates it when people burn
-bees. In terms of both their powers and morality, the gods of the smallest-
-scale human societies are much more like people than the later gods of
+bees. In terms of both their powers and morality, the gods of the smallestscale human societies are much more like people than the later gods of
 
 
 larger-scale societies. That is, sometimes these gods are indeed morally
@@ -4464,14 +4408,12 @@ and administered a set of decision-making tasks in which participants had to
 allocate substantial sums of real money.17
 To begin our study, we first located two locally important gods at each
 field site. The first was the deity who best approximated the biggest and
-most powerful god possible—the omnipotent, omnipresent, and all-
-benevolent GOD. This is our “Big God.” Then we looked for an important
+most powerful god possible—the omnipotent, omnipresent, and allbenevolent GOD. This is our “Big God.” Then we looked for an important
 but less powerful supernatural agent, which we called our “Local God.” For
 each god, we asked participants to rate their abilities to surveil mortals, read
 their minds, punish various violations, and grant an afterlife (among many
 other questions). From these ratings, we developed indices for each god that
-measured people’s belief in that god’s power to monitor and punish norm-
-violators.
+measured people’s belief in that god’s power to monitor and punish normviolators.
 To measure people’s notions of fairness and impartiality, we used a
 decision task called the Random Allocation Game (RAG). In the RAG,
 each participant was seated in a private area—like a room or tent. In front
@@ -4558,8 +4500,7 @@ experimental behavior and their beliefs about supernatural punishment. If
 this were the case, we’d expect people’s beliefs about both Big Gods and
 Local Gods to be associated with their experimental behavior. But, it was
 only the Big Gods that mattered.22
-When we put findings like these together with those involving God-
-priming, a strong case emerges that particular religious beliefs can indeed
+When we put findings like these together with those involving Godpriming, a strong case emerges that particular religious beliefs can indeed
 push people to make individually costly choices that benefit others. The
 cultural variation documented in this cross-cultural study, which we’ve
 linked to fairness and favoritism toward distant coreligionists, reveals
@@ -4613,8 +4554,7 @@ rituals in ways that have facilitated and/or stabilized the scaling up of
 
 
 societies. As a point of departure, we can begin with the weak and morally
-ambiguous gods found in the smallest-scale societies, including hunter-
-gatherers. While some evidence now indicates that these gods probably did
+ambiguous gods found in the smallest-scale societies, including huntergatherers. While some evidence now indicates that these gods probably did
 sometimes foster food sharing and intergroup relationships, they likely did
 little to promote the overall scaling up of societies or large-scale
 cooperation. However, as we saw with clans and ancestor gods in the last
@@ -4798,8 +4738,7 @@ as in many parts of the Greek world, the marketplace was filled with altars
 to various gods. Merchants were required to swear sacred oaths before these
 altars to affirm the authenticity and quality of their goods. Athenians’
 intense reliance on the gods, and on such oaths, may help explain their
-enduring reputation for trustworthiness in both business and treaty-
-making.37
+enduring reputation for trustworthiness in both business and treatymaking.37
 In the later Roman world, sacred oaths were similarly used in sales, legal
 agreements, and contracts. These oaths, for example, were taken to
 discourage harvesters and millers from colluding on prices. Similarly, wine
@@ -4915,8 +4854,7 @@ universalism or moral relativism and then watching whether they cheat for
 money or donate more to the poor. The results show that cuing up moral
 universalism suppresses cheating and raises charitable donations.46
 Taken together, this research supports the view that beliefs in contingent
-afterlives, free will, and moral universalism altered people’s decision-
-making and behaviors in ways that fostered success in competition among
+afterlives, free will, and moral universalism altered people’s decisionmaking and behaviors in ways that fostered success in competition among
 religious groups or societies. So, cultural evolution may have favored
 adding these three enhancers to a supernatural concoction that included
 powerful, morally-concerned supernatural punishers (or other cosmic
@@ -5021,8 +4959,7 @@ they’ve played a central role in the formation of higher-level political and
 economic institutions as societies have scaled up. Religion’s power derives
 from the myriad ways in which cultural evolution has subtly shaped our
 supernatural beliefs and ritual practices to expand the social circle, nurture
-greater internal harmony, and intensify competitive advantages against out-
-groups. The psychological impacts of beliefs about godly desires, divine
+greater internal harmony, and intensify competitive advantages against outgroups. The psychological impacts of beliefs about godly desires, divine
 punishment, free will, and the afterlife combine with repetitive ritual
 practices to suppress people’s tendencies toward impulsivity and cheating
 while increasing their prosociality toward unfamiliar coreligionists. At a
@@ -5044,8 +4981,6 @@ marriage, family, lineage, identity, and inheritance?
 PART II
 The Origins of WEIRD People
 
-
-5
 WEIRD Families
 The families found in WEIRD societies are peculiar, even exotic, from a
 global and historical perspective. We don’t have lineages or large kindreds
@@ -5089,21 +5024,21 @@ TABLE 5.1
 FIVE WEIRD KINSHIP TRAITS IN GLOBAL-HISTORICAL PERSPECTIVE
 WEIRD Traits
 % of Societies
-1
+
 Bilateral descent—relatedness is traced (roughly)
 28% equally through both parents
-2
+
 Little or no marriage to cousins or other relatives
 25%
-3
+
 Monogamous marriage—people are permitted to
 15% have only one spouse at a time
-4
+
 Nuclear families—domestic life is organized
 around
 8% married couples and their
 children
-5
+
 Neolocal residence—newly married couples set up
 a
 5% separate household
@@ -5153,8 +5088,7 @@ So, how did WEIRD kinship become so unusual?
 Many assume that the peculiar nature of WEIRD families is a product of
 the Industrial Revolution, economic prosperity, urbanization, and modern
 state-level institutions. This is sensible, and certainly appears to be what’s
-happening in much of the world today, through globalization. As non-
-WEIRD societies have entered the global economy, urbanized, and adopted
+happening in much of the world today, through globalization. As nonWEIRD societies have entered the global economy, urbanized, and adopted
 the formal secular institutions of WEIRD societies (e.g., Western civil
 codes, constitutions, etc.), their intensive kin-based institutions have often
 begun to slowly deteriorate, resulting in the spread of WEIRD kinship
@@ -5278,15 +5212,14 @@ inheritance rights such that lands couldn’t be sold or otherwise
 transferred without the consent of relatives.12
 4. Larger kin-based organizations provided individuals with both their
 legal and their social identities. Disputes within kin-groups were
-adjudicated 
-internally, 
-according 
-to 
-custom. 
+adjudicated
+internally,
+according
+to
+custom.
 Corporate
 responsibility meant that intentionality sometimes played little role
-in assigning punishments or levying fines for disputes between kin-
-groups.13
+in assigning punishments or levying fines for disputes between kingroups.13
 5. Kin-based organizations provided members with protection,
 insurance, and security. These organizations cared for sick, injured,
 and poor members, as well as the elderly.
@@ -5300,8 +5233,7 @@ add secondary wives, usually of lower social status.14
 Even at the core of the Roman Empire, intensive kin-based institutions
 remained central to social, political, and economic life. Roman families
 were organized around patriarchal patrilineages in which each man saw
-himself sandwiched in time between his great-grandfather and his great-
-grandsons. Even when they lived separately and had their own wives and
+himself sandwiched in time between his great-grandfather and his greatgrandsons. Even when they lived separately and had their own wives and
 children, adult men remained under the dominion of their fathers. Only
 male citizens without living fathers had full legal rights, control of family
 property, and access to tribunals; everyone else had to operate through the
@@ -5359,8 +5291,7 @@ had his work cut out for him, the reply wasn’t all bad news. The pope was
 fine with a pair of brothers marrying a pair of sisters, as long as the sets of
 siblings weren’t related.17
 Almost two centuries later, in 786, a papal commission again arrived in
-England, this time to assess the progress on Christianizing the Anglo-
-Saxons. Their report indicates that, although many had been baptized, there
+England, this time to assess the progress on Christianizing the AngloSaxons. Their report indicates that, although many had been baptized, there
 were serious issues among the faithful surrounding (1) incest (i.e., cousin
 marriage) and (2) polygyny. To uproot these stubborn customs, the Church
 promulgated the notion of “illegitimate children,” which stripped the
@@ -5397,8 +5328,7 @@ intensive kin-based institutions in Europe, the MFP:
 1. Prohibited marriage to blood relatives. These prohibitions were
 gradually extended to include quite distant relatives, up to sixth
 cousins. This essentially tabooed marriage or sex between those
-who shared one or more of their 128 great-great-great-great-great-
-grandparents.
+who shared one or more of their 128 great-great-great-great-greatgrandparents.
 2. Prohibited marriage to affinal kin within the circle of tabooed
 blood relatives. If your husband died, you couldn’t then marry his
 brother, your brother-in-law. In the eyes of the Church, your
@@ -5449,8 +5379,7 @@ In patrilineal societies, senior males—the patriarchs—administer these
 ongoing spousal exchanges and thus use the marriage of their sisters,
 
 
-daughters, nieces, and granddaughters to cement relations with other kin-
-groups and nourish important alliances. Arranged marriages thus represent
+daughters, nieces, and granddaughters to cement relations with other kingroups and nourish important alliances. Arranged marriages thus represent
 a key source of patriarchal power.22
 The Church dramatically undercut the potency of marriage as a social
 technology and a source of patriarchal power by prohibiting polygynous
@@ -5469,13 +5398,13 @@ Synod of Elvira (Granada, Spain) decrees that any man who takes the sister of hi
 dead wife as his new wife (sororate marriage) should abstain from Communion for
 five years. Those marrying their daughters-in-law should abstain from Communion
 until near death.25
-315
+
 Synod of Neocaesarea (Turkey) forbids marrying the wife of one’s brother (levirate
 marriage) and possibly also sororate marriage.
-325
+
 Council of Nicaea (Turkey) prohibits marrying the sister of one’s dead wife as well
 as Jews, pagans, and heretics.
-339
+
 The Roman Emperor Constantius prohibits uncle-niece marriages, in accordance
 with Christian sentiments, and imposes the death penalty on violators.
 384/7
@@ -5484,17 +5413,15 @@ and levirate marriages and bans first cousin marriage. In 409, the Western emper
 Honorius softens the law by allowing dispensations. It is not clear how long this
 persisted in the West. The dissolving Western Empire makes continued
 enforcement unlikely.
-396
+
 The Eastern Roman Emperor Arcadius (a Christian) again prohibits first cousin
 marriage, but without the harsh penalties. In 400 or 404, however, he changes his
 mind, making cousin marriage legal in the Eastern Empire.
-506
+
 Synod of Agde (France, Visigoth Kingdom) prohibits first and second cousin
 marriage, and marriage to a brother’s widow, wife’s sister, stepmother, uncle’s
 widow, uncle’s daughter, or any kinswoman. These are defined as incest.
 
-
-517
 Synod of Epaone (France or Switzerland, Burgundian kingdom) decrees that unions
 with first and second cousins are incestuous and henceforth forbidden, although
 existing unions are not dissolved. The synod also forbids marriage to stepmothers,
@@ -5505,33 +5432,33 @@ incest regulations.
 Second Synod of Toledo (Spain) prescribes excommunication for all engaged in
 incestuous marriages. The number of years of excommunication should equal the
 number of years of the marriage. This is affirmed by synods in 535, 692, and 743.
-538
+
 First documented letter between a Frankish king and the pope is about incest
 (marriage to the wife of a deceased brother). The pope disapproves, but he leaves
 decisions about Penance to the bishops.
-589
+
 Reccared I, the Visigothic King (Spain), decrees the dissolution of incestuous
 marriages, punishing offenders with exile, and the transfer of their property to their
 children.
-596
+
 The Frankish King Childebert II decrees the death penalty for marriage to one’s
 stepmother but leaves the punishment of other incest violations to the bishops. If
 the convicted resists the Church’s punishment, his property will be seized and
 redistributed to his relatives (creating incentives to report violators).
-627
+
 Synod of Clichy implements the same punishment and enforcement procedures as
 those decreed by King Childebert II in 596. A systematic collection of incest
 legislation is compiled around this time and becomes part of the Collectio vetus
 Gallica, the oldest collection of canons from Gaul.
-643
+
 Lombard laws of Rothari forbid marriage to one’s stepmother, stepdaughter, and
 sister-in-law.
-692
+
 At the Synod of Trullo (Turkey), the Eastern Church finally forbids marriage to
 one’s first cousins and corresponding affinal kin. This prohibits a father and a son
 marrying a mother and a daughter or two sisters, and two brothers marrying a
 mother and a daughter or two sisters.
-721
+
 Roman Synod (Italy) prohibits marriage to one’s brother’s wife, niece, grandchild,
 stepmother, stepdaughter, cousin, godmother, and all kinfolk including anyone ever
 married to any blood relative. In 726, Pope Gregory II specifies that for missionary
@@ -5539,28 +5466,28 @@ purposes the prohibitions are up to first cousins, but for others the prohibitio
 extend to all known relatives. His successor, Gregory III, clarifies this prohibition
 such that marriages of third cousins are allowed but marriages to all affinal kin
 within the prohibited degree are not. These decisions are widely disseminated.
-741
+
 Under the Byzantine Emperor Leo III, the prohibitions in the Eastern Church are
 increased to include marriage of second cousins and, slightly later, second cousins
 once removed. The penalty for cousin marriage becomes whipping.
-743
+
 Roman Synod under Pope Zacharias orders Christians to refrain from marrying
 cousins, nieces, and other kinfolk. Such incest is punishable by excommunication
 
 
 and, if necessary, anathema (see text).
-755
+
 The Synod of Verneuil (France), convened under the Frankish King Pepin,
 commands that marriages be performed publicly.
-756
+
 Synod of Verbier (France) prohibits the marriage of third cousins and closer and
 decrees existing marriages between second cousins are to be ended. Those married
 to third cousins need only do Penance.
-757
+
 Synod of Compiègne (France) rules that existing marriages of second cousins or
 closer must be nullified. The Frankish king, Pepin, threatens secular punishments
 for any who disagree.
-796
+
 Synod of Friuli (Italy) directs attention to prenuptial investigations into potentially
 incestuous marriages and prohibits clandestine unions. The synod prescribes a
 waiting time before marriage during which neighbors and elders can examine
@@ -5568,86 +5495,84 @@ whether a blood relationship exists that would prohibit marriage. The decree als
 stipulates that although infidelity by the wife is a legitimate reason for divorce,
 remarriage is impossible as long as both spouses live. Charlemagne puts his secular
 authority behind these rulings in 802.
-802
+
 Charlemagne’s capitulary insists that nobody should attempt to marry until the
 bishops and priests, together with the elders, have investigated the blood relations
 of the prospective spouses.
-874
+
 Synod of Douci (France) urges subjects to refrain from marrying third cousins. To
 strengthen the ruling, the synod makes the children of incestuous unions ineligible
 for succession to an estate.
-909
+
 Synod of Trosle (France) clarifies and affirms the Synod of Douci, deeming that
 children born in an incestuous marriage are ineligible to inherit property or titles.
-948
+
 Synod of Ingelheim (Germany) prohibits marriage with all kin as far back as
 memory goes.
-1003
+
 At the Synod of Diedenhofen (Germany), Emperor Heinrich II (St. Henry the
 Exuberant) substantially widens the incest ban to include sixth cousins. He may
 have done this to weaken his political rivals.
-1023
+
 Synod of Seligenstadt (Germany) likewise forbids cousin marriage to sixth cousins.
 Bishop Burchard of Worms’s Decretum also extends the definition of incestuous
 marriages to include sixth cousins.
-1059
+
 At the Synod of Rome, Pope Nicholas II forbids marriage to sixth cousins or as far
 back as relatives can be traced. His successor, Pope Alexander II, likewise decrees
 that marriages to sixth cousins or closer relatives are forbidden. The Kingdom of
 Dalmatia gets a temporary dispensation, forbidding marriages only out to fourth
 cousins.
-1063
+
 Synod of Rome forbids marriages up to sixth cousins.
-1072
+
 Synod of Rouen (France) forbids non-Christian marriages and decrees a priestly
 
 
 inquiry into all those about to wed.
-1075
+
 Synod of London (England) forbids marriages up to sixth cousins, including affinal
 kin.
-1101
+
 In Ireland, the Synod of Cashel introduces the incest prohibitions of the Catholic
 Church.
-1102
+
 Synod of London nullifies existing marriages between sixth cousins (and closer)
 and decrees that third parties who knew of marriages among relatives are
 implicated in the crime of incest.
-1123
+
 The First Lateran Council (Italy) condemns unions between blood relatives
 (without specifying the relatedness) and declares that those who contracted an
 incestuous marriage will be deprived of hereditary rights.
-1140
+
 Decretum of Gratian: marriages of up to sixth cousins are forbidden.
-1166
+
 Synod of Constantinople (Turkey) reinforces the earlier Eastern Church’s
 prohibitions on cousin marriages (second cousins once removed and closer), and
 tightens enforcement.
-1176
+
 The Bishop of Paris, Odo, helps introduce “the bans of marriage”—that is, the
 public notice of impending marriages in front of the congregation.
-1200
+
 Synod of London requires publication of the “bans of marriage,” and decrees that
 marriages be conducted publicly. Kin marriages are forbidden, though the degree of
 kinship is not specified.
-1215
+
 Fourth Lateran Council (Italy) reduces marriage prohibitions to third-degree
 cousins and all closer blood relatives and affines. All prior rulings are also
 formalized and integrated into a constitution of canons. This brings prenuptial
 investigations and marriage bans into a formal legislative and legal framework.
-1917
+
 Pope Benedict XV loosens restrictions further, prohibiting only marriage to second
 cousins and all closer blood and affinal relatives.
-1983
+
 Pope John Paul II further loosens incest restrictions, allowing second cousins and
 more distant relatives to marry.
 Appendix A supplies a more complete version of this table.
 The importance of marriage norms for sustaining intensive kinship can
-be observed in the practices of levirate and sororate marriage. In many soci-
-eties, social norms govern what happens to wives or husbands after their
+be observed in the practices of levirate and sororate marriage. In many societies, social norms govern what happens to wives or husbands after their
 spouses die. Under levirate marriage, a widow marries her husband’s
-brother (her brother-in-law), who can be either a real brother or a cousin-
-brother. Such marriages sustain the alliance between the kin-groups created
+brother (her brother-in-law), who can be either a real brother or a cousinbrother. Such marriages sustain the alliance between the kin-groups created
 
 
 by the original union. Conceptually, this works because brothers usually
@@ -5693,8 +5618,7 @@ believed that you were related to by blood, marriage, or spiritual kinship
 were used to make bogus accusations of “incest” against political
 opponents, the Fourth Lateran Council in 1215 narrowed the circle of incest
 to encompass only third cousins and closer, including the corresponding
-affinal and spiritual relations. Third cousins share a great-great-
-grandparent.27
+affinal and spiritual relations. Third cousins share a great-greatgrandparent.27
 Over the same centuries, the penalties for incest violations tended toward
 greater severity. Punishments for incestuous marriages evolved from
 suspending the perpetrators from the Communion rite to excommunication
@@ -5732,8 +5656,7 @@ Although the Church’s policies were clear, much remains unknown
 about how effectively MFP policies were implemented. We don’t, for
 example, have any statistics on the declining rates of cousin marriage in
 different regions from 500 to 1200. Nevertheless, the historical record does
-make a few things evident: (1) these new policies were not merely after-the-
-fact codifications of existing customs; and (2) there were active efforts by
+make a few things evident: (1) these new policies were not merely after-thefact codifications of existing customs; and (2) there were active efforts by
 the Church, though uneven across space and time, to get people to comply
 with the MFP. These inferences are supported by a continuous stream of
 policy reversals, reiterations, and long-running disputes associated with the
@@ -5898,14 +5821,14 @@ marriage was permitted until 692 (Table 5.2), and later bans never extended to
 third cousins. Uncle-niece marriage was often tolerated. Polygynous marriage
 was prohibited under Roman law. This is essentially an “MFP-light.”
 The bigger point is that different religious groups developed a broad
-range 
-of 
-divinely 
-endorsed 
-forms 
-of 
-marriage, 
-ranging 
+range
+of
+divinely
+endorsed
+forms
+of
+marriage,
+ranging
 from
 Zoroastrianism’s brother-sister unions to the Western Church’s blanket ban
 on marriage to even the most remote affinal relatives (sixth cousins). The
@@ -5935,8 +5858,7 @@ life on the ground, in comparison with the alternatives and in competition
 with other societies over the long run. In the next two millennia, how did
 the socie- ties influenced by the MFP fare relative to other groups, who
 adopted or maintained more intensive ways of organizing kinship?40
-The MFP’s overall impact on medieval European societies was far-
-reaching, as we’ll see below and in the coming chapters. For now, just
+The MFP’s overall impact on medieval European societies was farreaching, as we’ll see below and in the coming chapters. For now, just
 consider that someone looking for a spouse in the 11th century would have
 had to theoretically exclude on average 2,730 cousins and potentially
 10,000 total relatives as candidates, including the children, parents, and
@@ -6037,8 +5959,7 @@ home of the clan’s ancestors, and deeply tied into the clan’s rituals and
 identity. Even when such links aren’t an issue or can be overcome, it’s still
 the case that everyone in a kin-group, or at least every head of household,
 must consent to any sale, thus making such sales rare. In kindreds, where
-more individualized notions of ownership are common, brothers, half-
-brothers, uncles, and cousins usually retain residual claims on the
+more individualized notions of ownership are common, brothers, halfbrothers, uncles, and cousins usually retain residual claims on the
 deceased’s lands or other wealth. These claims are firmly grounded in
 custom and thus cannot be easily overridden by any preferences the
 deceased owner may have expressed. That is, a father simply cannot
@@ -6171,12 +6092,12 @@ stream. Under intensive kinship, loyalty to one’s kin-group and tribal
 community comes first and requires much investment. With the weakening
 of kinship and dissolution of tribes, Christians seeking security could more
 fully dedicate themselves to the Church and other voluntary associations.
-The 
-MFP 
-also 
-generated 
-immense 
-revenues—through 
+The
+MFP
+also
+generated
+immense
+revenues—through
 marital
 dispensations, annulments, and bequests—that contributed to missionary
 work, new cathedrals, and poor relief (charity). Along with these social and
@@ -6276,8 +6197,7 @@ statistically delineate the European Marriage Pattern. This pattern is marked
 by certain key characteristics:
 1. Monogamous nuclear families with neolocal residence, with males
 becoming heads of households at younger ages and new wives
-moving out from under the thumb of their mothers or mothers-in-
-law. Of course, nuclear families and neolocal residence were
+moving out from under the thumb of their mothers or mothers-inlaw. Of course, nuclear families and neolocal residence were
 merely the ideal; economic circumstances still compelled many
 into extended families. By contrast, the ideal in China remained
 large, patrilocal multigenerational households, though sometimes
@@ -6365,8 +6285,6 @@ our motivations, perceptions, emotions, thinking styles, and self-concepts in
 significant ways? Is there a way to trace contemporary psychological
 variation back to the Church?
 
-
-6
 Psychological Differences, Families, and the
 Church
 Families represent the first institution we encounter upon arriving in the
@@ -6462,11 +6380,11 @@ more intensive kin-based institutions. The Americas, for example, are now
 populated mostly by people whose kin-based institutions derive from
 historical European communities. Hence much of the Americas are
 assigned KII values traceable to Europe. The darker patches in South
-America, 
-however, 
-generally 
-represent 
-contemporary 
+America,
+however,
+generally
+represent
+contemporary
 indigenous
 populations.3
 This index has two main shortcomings. First, the underlying Atlas data
@@ -6639,8 +6557,7 @@ number of guilt-like experiences for each participant. He found that the
 more intense the kin-based institutions in a country, the more shame-like
 experiences people reported relative to guilt-like ones. By contrast, people
 from socie- ties with weak kinship reported lots of guilt-like experiences
-but almost no shame-like ones. Guilt seems to be the primary emotional-
-control mechanism in societies lacking intensive kinship.9
+but almost no shame-like ones. Guilt seems to be the primary emotionalcontrol mechanism in societies lacking intensive kinship.9
 The data on shame and guilt are based on self-reports by university
 students and may not capture the actual (unspoken) emotional experiences
 of most people from those populations. To tackle these issues, Benjamin
@@ -6667,11 +6584,11 @@ seem guilt-ridden but nearly shameless.10
 Pulling together several elements in the individualism complex, let’s
 close this section by looking at Hofstede’s famed measure of individualism,
 which is mapped in Figure 1.2. Recall that this omnibus measure of
-individualism 
-integrates 
-questions 
-about 
-personal 
+individualism
+integrates
+questions
+about
+personal
 development,
 achievement orientation, independence, and family ties. Figure 6.4 shows
 that countries with less intense kin-based institutions are more
@@ -6691,8 +6608,7 @@ Chapter 9.11
 
 The associations I’ve shown you so far, between psychology and kinship
 intensity, are precisely the kinds of relationships predicted by the ideas I’ve
-been developing in this book. However, such simple correlations in cross-
-country data should be regarded with skepticism. To begin to chip away at
+been developing in this book. However, such simple correlations in crosscountry data should be regarded with skepticism. To begin to chip away at
 concerns that such correlations might be misleading, our team took
 advantage of the larger samples available for outcomes such as
 individualism, adherence to tradition, and obedience. We wanted to
@@ -6827,8 +6743,7 @@ Universalistic responses, indicating a nonrelational morality, are those in
 which people were unwilling to give false testimony and felt it would be
 wrong for their friend to ask them to lie. The alternative answer, where
 participants said they’d lie and felt it was fine for their friend to ask, is
-labeled as the particularistic or relational response, though it’s also about in-
-group loyalty.
+labeled as the particularistic or relational response, though it’s also about ingroup loyalty.
 Figure 6.7 shows that the higher the rate of cousin marriage in a country,
 the more willing managers were to give false testimony in court. Here,
 cutting the rate of cousin marriage from 10 percent to near zero increases
@@ -6878,8 +6793,7 @@ matching each person to the KII of their country of origin, he compared
 only those currently living within the same country—facing the same
 governments, police, safety nets, etc. This analysis confirms the above
 cross-country comparisons: even within the same countries, people coming
-from places with more intensive kinship continued to care more about in-
-group loyalty and less about nonrelational morality.19
+from places with more intensive kinship continued to care more about ingroup loyalty and less about nonrelational morality.19
 Overall, these findings from the Moral Foundations Questionnaire
 converge with those we examined using both the Passenger’s Dilemma and
 nepotism surveys. From these results, a picture is emerging. But, this could
@@ -6951,8 +6865,7 @@ FIGURE 6.8. The relationship between average contributions (as a percentage) in 
 round of the Public Goods Games and the (A) Kinship Intensity Index and (B) prevalence of
 cousin marriage. Countries with more intensive kinship cooperate less in the first round.
 Cousin marriage is plotted on a logarithmic scale.
-Let’s turn from carefully controlled laboratory economic games to a real-
-world public good, blood donations. Such donations represent a classic
+Let’s turn from carefully controlled laboratory economic games to a realworld public good, blood donations. Such donations represent a classic
 public good, since they are voluntary, costly, anonymous, and helpful to
 strangers. Everyone potentially benefits from well-stocked blood banks, as
 we never know when we might suddenly need a transfusion. However,
@@ -7002,8 +6915,7 @@ room, park in front of a fire hydrant while they dash into a pharmacy, cheat
 on their taxes, or submit personal receipts as business expenses, no one
 seems to be overtly harmed, though businesses and public safety are
 collectively damaged. To isolate this in the laboratory, let’s return to the
-Impersonal Honesty Game (Chapter 1), where participants rolled a six-
-sided die and were paid cash in proportion to their reported outcome. A roll
+Impersonal Honesty Game (Chapter 1), where participants rolled a sixsided die and were paid cash in proportion to their reported outcome. A roll
 of 1 was worth the smallest amount of money, 5 was worth the most, and 6
 was worth nothing at all. Analyzing this data, Figure 6.10 shows that
 university students from countries with more intensive kin-based
@@ -7063,8 +6975,7 @@ from the norm-violator’s entire extended family. In short, while the use of
 violence isn’t usually condoned, individuals in societies without intensive
 kinship readily admonish norm-violators, even when they are strangers.
 Let’s call this third-party norm enforcement.
-Notice the difference here in the types of punishment. In intensive kin-
-based societies, you can punish a member of your own group to help
+Notice the difference here in the types of punishment. In intensive kinbased societies, you can punish a member of your own group to help
 preserve your group’s reputation, or you can seek revenge against another
 group for misdeeds against your group. But, you’d never interfere in
 interactions among strangers, and you’d be annoyed if some stranger poked
@@ -7077,8 +6988,7 @@ weak family ties, seeking revenge is frowned upon and certainly not a
 source of honor or status. However, people think it’s appropriate, or even
 admirable, to trip a purse snatcher fleeing from the police, or to physically
 constrain an unknown husband from beating his wife. When it comes to
-punishing strangers or out-group members, we need to distinguish third-
-party norm enforcement from revenge-driven actions. Both can be
+punishing strangers or out-group members, we need to distinguish thirdparty norm enforcement from revenge-driven actions. Both can be
 honorable and moral acts within their cultural milieus.
 In the Public Goods Game described above, Herrmann, Thöni, and
 Gächter stumbled across these differences in motivations for punishment. In
@@ -7283,14 +7193,13 @@ rod’s deviation from the vertical. In the 1960s and ’70s, psychologists foun
 that while traditional farming populations were quite field dependent, there
 were two distinct populations in the world that were particularly field
 independent. The first were WEIRD people. Can you guess the other one?
-Mobile hunter-gatherers, who possess extensive (not intensive) kin-
-based 
-institutions, 
-are 
-field 
-independent. 
-Consistent 
-with 
+Mobile hunter-gatherers, who possess extensive (not intensive) kinbased
+institutions,
+are
+field
+independent.
+Consistent
+with
 this,
 anthropologists have long argued that, compared to farmers and herders
 who have more intensive kin-based institutions, hunter-gatherers emphasize
@@ -7299,13 +7208,13 @@ deemphasizing obedience, conformity, and deference to authority. Marking
 this, the kinship terminology adopted in European languages like English,
 German, French, and Spanish in the wake of the Church’s expansion is the
 same as that found among many mobile hunter-gatherer populations.36
-Overall, 
-the 
-evidence 
-presented 
-above 
-indicates 
-that 
+Overall,
+the
+evidence
+presented
+above
+indicates
+that
 global
 psychological variation covaries with intensive kinship in precisely the
 ways we’d expect if our minds have been adapting and calibrating to the
@@ -7313,8 +7222,7 @@ social worlds created by these institutions. For now, it’s enough to
 appreciate the extent of the psychological variation around the world and to
 recognize that it patterns in the expected ways. In the next chapter, we’ll
 look more closely at these relationships and consider a variety of lines of
-evidence that, when taken together, support the idea that changes in kin-
-based institutions have indeed driven important psychological differences.
+evidence that, when taken together, support the idea that changes in kinbased institutions have indeed driven important psychological differences.
 But, before we get to that, let’s consider the global relationships between
 the Church, intensive kinship, and psychological differences.
 The Church Altered Kinship and Changed Psychology
@@ -7425,8 +7333,6 @@ and less inclined to hire family into senior management positions (low on
 family loyalty).43
 
 
-
-
 FIGURE 6.15. The relationships between the duration of exposure to both the Western and
 Orthodox Churches on psychology for: (A) “tightness” scores, (B) Asch Conformity using
 the percentage of incorrect judgments, (C) adherence to tradition, (D) individualism, (E)
@@ -7512,8 +7418,6 @@ Christianity, with its universalizing morality, sense of individual
 responsibility, and strong notions of free will. From this peculiar soil, an
 impersonal suite of social norms germinated and gradually began to spread.
 
-
-7
 Europe and Asia
 Due to the complex history of Europe, some regions received relatively
 small dosages of the Church’s Marriage and Family Program. For example,
@@ -7590,8 +7494,7 @@ Church didn’t enforce the MFP, so these regions didn’t come under papal
 administration—and the MFP—until around 1100.
 Strikingly, our results show that individuals living in regions that
 experienced a longer duration of the MFP possess weaker inclinations
-toward conformity-obedience, stronger motivations for individualism-
-independence, and greater impersonal fairness and trust. Because we only
+toward conformity-obedience, stronger motivations for individualismindependence, and greater impersonal fairness and trust. Because we only
 compared regions within countries, these patterns can’t be due to
 contemporary differences among European countries in their national
 wealth, governments, or social safety nets. These results also hold after
@@ -7690,8 +7593,7 @@ religious denomination.3
 
 
 FIGURE 7.2. The relationships between the prevalence of first cousin marriage in regions of
-Spain, Italy, France, and Turkey and four dimensions of psychology: (A) Individualism-
-Independence, (B) Conformity-Obedience, (C) Impersonal Trust, and (D) Impersonal
+Spain, Italy, France, and Turkey and four dimensions of psychology: (A) IndividualismIndependence, (B) Conformity-Obedience, (C) Impersonal Trust, and (D) Impersonal
 Fairness.
 Although the analyses displayed in Figure 7.2 are based on sparse data
 from various corners of Europe that received lower dosages of the MFP for
@@ -7816,8 +7718,7 @@ have disappeared.8
 The same patterns emerged when we linked second-generation
 immigrants to the dosage of Church exposure experienced back in their
 parents’ countries of origin. Individuals whose parents’ native countries had
-been under the Western Church for longer were more individualistic-
-independent, less conformist-obedient, and more inclined toward
+been under the Western Church for longer were more individualisticindependent, less conformist-obedient, and more inclined toward
 impersonal trust and fairness.
 The idea here is that the medieval Church shaped contemporary
 psychology through its demolition of Europe’s kin-based institutions.
@@ -7842,8 +7743,7 @@ replanting seedlings from germination beds. As you now know, clan-based
 organizations foster precisely the kind of tight-knit, top-down organizations
 needed to tackle such cooperative challenges.9
 Historically, the relative importance of paddy rice in China rose
-substantially after the 10th century, sparked by the arrival of new, quick-
-ripening varieties of wet rice from Southeast Asia. This was further fueled
+substantially after the 10th century, sparked by the arrival of new, quickripening varieties of wet rice from Southeast Asia. This was further fueled
 by the migration of northern farmers to the south and east, propelled by a
 combination of climatic shifts and increasing raids by Mongolian herders.
 Over about 800 years, this resulted in the gradual spread and intensification
@@ -7911,8 +7811,7 @@ self-circles relative to their friend-circles.
 discussed in earlier chapters. People from communities less
 dependent on paddy rice, where clans never became as important,
 should make more analytical choices in the task.
-The results that Talhelm and his team found largely converge. In the In-
-group Favoritism Task (involving the “business partner”), Han Chinese
+The results that Talhelm and his team found largely converge. In the Ingroup Favoritism Task (involving the “business partner”), Han Chinese
 participants from provinces that put a higher percentage of cropland under
 paddy rice cultivation tended to reward their friends more for honesty and
 punish them less for dishonesty than did those from other provinces. That
@@ -7938,8 +7837,7 @@ In the Triad Task, people from provinces less dependent on paddy rice
 cultivation were more inclined to think analytically (Figure 7.6A). The
 effects were substantial: the average percentage of analytic matches for a
 person from a “paddy rice province” like Jiangxi or Shanghai ranged from
-10 to 20 percent—they are strongly holistic. Meanwhile, those from low-
-rice-production provinces like Qinghai or Ningxia preferred analytic
+10 to 20 percent—they are strongly holistic. Meanwhile, those from lowrice-production provinces like Qinghai or Ningxia preferred analytic
 matches just over 40 percent of the time. That is, in provinces that grow
 primarily wheat, corn, and millet (“non-rice” crops), people make almost as
 many analytic as holistic matches. This places these non-rice-growing
@@ -8005,8 +7903,7 @@ across the subcontinent instead of south to north. If the conclusions about
 the psychological variation in China are correct, we should see similar
 psychological differences.
 Sure enough, Indians from regions that engage in less paddy rice
-cultivation are more analytic on the triads and less nepotistic (friend-
-favoring) on the business partner tasks, just like in China. Figure 7.6B
+cultivation are more analytic on the triads and less nepotistic (friendfavoring) on the business partner tasks, just like in China. Figure 7.6B
 shows the relationship between cropland devoted to rice for different Indian
 states and their percentage of analytic choices on the Triad Task. This
 relationship in India holds independent of the age, gender, income, and
@@ -8056,8 +7953,7 @@ this law ended polygamy, arranged marriage, concubinage, child betrothal,
 forced remarriage of widows (levirate marriage), and marriage payments
 (e.g., dowry). Infanticide was also prohibited, and wives gained the right to
 both own property and inherit it from their husbands. In terms of marriage
-among relatives, only uncle-niece marriage was banned in 1950 (second-
-degree relatives, Article 5), but this expanded to include first cousins in
+among relatives, only uncle-niece marriage was banned in 1950 (seconddegree relatives, Article 5), but this expanded to include first cousins in
 1980 (third-degree relatives, Article 6a). This Marriage and Family
 Program should sound familiar: the powerful Chinese state has been doing
 over the last seven decades what the Church required centuries to
@@ -8090,8 +7986,7 @@ over the population’s history.
 By 1000 CE, several regions of Europe had already experienced five
 centuries of the MFP. In these regions, which can be identified using our
 bishopric dosages (Figure 7.1), the Western Church had inadvertently
-induced a series of social and psychological shifts. Without intensive kin-
-based institutions to organize production, provide security, and endow
+induced a series of social and psychological shifts. Without intensive kinbased institutions to organize production, provide security, and endow
 people with a sense of meaning and identity, individuals were both socially
 compelled and personally motivated to relocate, seek out like-minded
 others, form voluntary associations, and engage with strangers. The relevant
@@ -8115,8 +8010,7 @@ These psychological effects, some of which could be induced simply by
 increasing residential mobility and relational freedom, would have been
 especially strong among those moving into the towns, cities, and religious
 organizations that began growing in the 10th and 11th centuries. In
-assembling these new associations and organizations, the emerging proto-
-WEIRD psychology—analytic thinking, individualism, and a nonrelational
+assembling these new associations and organizations, the emerging protoWEIRD psychology—analytic thinking, individualism, and a nonrelational
 morality—would have favored the development of both impartial rules that
 granted privileges and obligations to individuals (not clans) and impersonal
 mechanisms for enforcing trust, such as accounting records, commercial
@@ -8136,8 +8030,7 @@ most useful institutional elements were copied and recombined in different
 ways over centuries, effective formal institutional forms, which fit the
 developing proto-WEIRD psychology of the era, began to emerge for
 organizing and governing individuals (not families, kindreds, etc.). The new
-formal institutions increasingly fostered cooperation and mutually-
-beneficial exchanges among Christian strangers.
+formal institutions increasingly fostered cooperation and mutuallybeneficial exchanges among Christian strangers.
 Before moving forward to examine the emergence of impersonal markets
 and their effects on psychology, I want to pause briefly to put one element
 of the Church’s MFP under the microscope so we can see something of how
@@ -8145,14 +8038,11 @@ and why it works. Let’s take a close look at the social, psychological, and
 hormonal impacts of monogamous marriage and consider its role in the
 origins of WEIRD psychology and inclusive democratic institutions.
 
-
-8
 WEIRD Monogamy
 In 1521, two expanding empires collided when Hernán Cortés and his
 Spanish conquistadors arrived in Mexico and began conquering the Aztecs.
 These two powerful empires had developed in isolation from each other for
-at least 15 millennia, and their common ancestors were Stone Age hunter-
-gatherers. Despite their independent development, the two empires were
+at least 15 millennia, and their common ancestors were Stone Age huntergatherers. Despite their independent development, the two empires were
 strikingly similar. Both were highly stratified agricultural societies
 governed by complex state bureaucracies, led by hereditary rulers, and
 infused with powerful religions that both fueled and justified their
@@ -8253,13 +8143,11 @@ have only monogamous pair-bonding?
 That’s right, zero. No group-living primates have the noncultural
 equivalent of monogamous marriage. Based on the sex lives of our two
 closest relatives, chimpanzees and bonobos, the ancestor we share with
-these apes was probably highly promiscuous and likely didn’t form pair-
-bonds at all, let alone enduring, monogamous pair-bonds. Nevertheless,
+these apes was probably highly promiscuous and likely didn’t form pairbonds at all, let alone enduring, monogamous pair-bonds. Nevertheless,
 since we diverged from our ape cousins, our species has evolved a
 specialized psychological suite—our pair-bonding psychology—that can
 foster strong emotional bonds between mates that remain stable for long
-enough to encourage men to invest in their mate’s children. This pair-
-bonding psychology provides the innate anchor for marital institutions.
+enough to encourage men to invest in their mate’s children. This pairbonding psychology provides the innate anchor for marital institutions.
 However, the nature of this anchor biases marital institutions toward
 polygynous pair-bonding. In contrast, our innate mating psychology doesn’t
 usually favor widespread polyandrous marriage—that’s one wife with
@@ -8303,8 +8191,7 @@ meat, animal skins, flint, etc.), and other investments, such as teaching. In a
 world with polygynous marriage, young women and their families get a
 much larger selection of potential husbands to choose from than are
 available in a purely monogamous society; they can select either a married
-or an unmarried man. The best move for a particular woman in a hunter-
-gatherer society might be to become the second wife of a great hunter
+or an unmarried man. The best move for a particular woman in a huntergatherer society might be to become the second wife of a great hunter
 instead of being the first wife of a poor hunter; this helps guarantee that
 children get both excellent genes and a steady supply of meat (a valuable
 source of nutrition). Moreover, by joining a polygynous household, a
@@ -8680,8 +8567,7 @@ doesn’t decline with age in polygynous societies. Or if it does, the decline i
 muted compared to what we see in WEIRD societies. In some cases, men’s
 
 
-testosterone may even go up with age. For example, among the Swahili-
-speaking inhabitants of Lamu Island in Kenya, neither getting married nor
+testosterone may even go up with age. For example, among the Swahilispeaking inhabitants of Lamu Island in Kenya, neither getting married nor
 having children reduces a man’s testosterone. However, taking a second
 wife, which about a quarter of men do, is associated with somewhat higher
 testosterone levels. Here, higher T levels could drive men to look for
@@ -8724,16 +8610,14 @@ guilt. Second, the Church made divorce difficult and remarriage close to
 impossible, which prevented men from engaging in serial monogamy. In
 fact, under the Church’s program, the only way anyone could legitimately
 have sex was with one’s spouse for procreation.28
-This contrasts with other monogamous societies, such as Athens or pre-
-Christian Rome; in these societies, men were limited to one wife but were
+This contrasts with other monogamous societies, such as Athens or preChristian Rome; in these societies, men were limited to one wife but were
 otherwise not strongly constrained. Not only could men easily divorce, but
 they could also purchase sex slaves, take foreigners as concubines, and use
 numerous inexpensive brothels.29
 The consequence is that WEIRD marriage, which of course was built out
 of Christian marriage, generates a peculiar endocrinology. It’s widely
 believed by physicians that testosterone “naturally” declines as men age. In
-the 21st-century United States, these drops are so severe that some middle-
-aged men are treated medically for low-T. But, as I’ve explained, across
+the 21st-century United States, these drops are so severe that some middleaged men are treated medically for low-T. But, as I’ve explained, across
 societies possessing more human-typical marriage institutions we don’t see
 these declines as often, and when we do, they aren’t nearly as steep as in
 WEIRD societies. It seems that a WEIRD endocrinology accompanies our
@@ -8746,8 +8630,7 @@ reached down and grabbed men by the testicles. There’s little doubt that
 cultural evolution has found myriad biological pathways into our brains and
 behavior. Now, let’s move from hormones to psychology, and consider how
 monogamous marriage suppresses men’s competitiveness, risk-taking, and
-revenge-seeking while increasing their impersonal trust and self-
-regulation.31
+revenge-seeking while increasing their impersonal trust and selfregulation.31
 
 
 Trust, Teamwork, and Crime
@@ -8886,12 +8769,12 @@ Americans, so we should worry about whether it generalizes to the species.
 However, these laboratory findings converge nicely with the real-world
 effects that “excess men” have on crime rates in China, which we’ll
 examine below. This convergence increases our confidence.40
-Psychological 
-shifts 
-like 
-these, 
-which 
-affect 
+Psychological
+shifts
+like
+these,
+which
+affect
 impulsivity,
 competitiveness, and self-regulation, probably make individuals more likely
 to commit crimes, drink to excess, and take illegal drugs. Of course, many
@@ -9070,8 +8953,6 @@ they preferred.54
 PART III
 New Institutions, New Psychologies
 
-
-9
 Of Commerce and Cooperation
 Commerce is a cure for the most destructive prejudices; for it is
 almost a general rule that wherever manners are gentle there is
@@ -9086,8 +8967,7 @@ not immediately flowing from moral principles.
 In the summer of 1994, I spent a few months traveling by dugout canoe
 among various remote Matsigenka communities while conducting
 anthropological fieldwork on how markets shape farming practices. The
-Matsigenka, you may recall from Chapter 3, are highly independent slash-
-and-burn farmers who traditionally lived in nuclear families or small family
+Matsigenka, you may recall from Chapter 3, are highly independent slashand-burn farmers who traditionally lived in nuclear families or small family
 hamlets scattered throughout a region of the Peruvian Amazon. During this
 first summer of research, I was repeatedly struck by how these
 communities, despite their small size, struggled to work together on village
@@ -9197,8 +9077,7 @@ and Amazonia.
 This research derives from two successive phases. Our first phase, which
 involved Ultimatum Games in 15 societies, tested the idea that exposure to
 or experience in markets might influence people’s decisions in the
-experiment. Our surprising result was that people from more market-
-integrated societies made higher (more equal) offers. Like the Matsigenka,
+experiment. Our surprising result was that people from more marketintegrated societies made higher (more equal) offers. Like the Matsigenka,
 the most remote and smallest-scale societies not only made much lower
 offers (with means of about 25 percent), but they also rarely rejected any
 
@@ -9241,8 +9120,7 @@ one day’s wage in the local economy and (2) assessed market integration by
 measuring the percentage of household calories that were purchased in the
 market as opposed to grown, hunted, gathered, or fished by the households
 themselves.10
-Across all three of these experiments, people living in more market-
-integrated communities again made higher offers (closer to 50 percent of
+Across all three of these experiments, people living in more marketintegrated communities again made higher offers (closer to 50 percent of
 the stake). People with little or no market integration offered only about a
 quarter of the stake. Going from a fully subsistence-oriented population
 with no market integration (e.g., Hadza hunter-gatherers in Tanzania) to a
@@ -9483,15 +9361,13 @@ dominated by impersonal contexts, people depend on anonymous markets,
 insurance, courts, and other impersonal institutions instead of large
 relational networks and personal ties.20
 Impersonal markets can thus have dual effects on our social psychology.
-They simultaneously reduce our interpersonal prosociality within our in-
-groups and increase our impersonal prosociality with acquaintances and
+They simultaneously reduce our interpersonal prosociality within our ingroups and increase our impersonal prosociality with acquaintances and
 strangers.21 The epigraphs opening this chapter exemplify the frequent
 observations made by European thinkers from the 12th to the 18th centuries
 on how commerce seemed to tame people in ways that oiled and honed the
 interactions among strangers—this is the famous Doux Commerce thesis
 developed by Enlightenment thinkers such as Adam Smith and David
-Hume. Later, especially after market integration became pervasive in 19th-
-century Europe, Karl Marx and others began to consider what fully
+Hume. Later, especially after market integration became pervasive in 19thcentury Europe, Karl Marx and others began to consider what fully
 commercialized societies had lost (that nice hug I mentioned), and how the
 expanding social sphere governed by market norms changed our lives and
 psychology. The replacement of dense networks of interpersonal
@@ -9575,12 +9451,12 @@ exchange. Impersonal markets require both weak interpersonal relationships
 and potent market norms.
 Historically, commerce and trade have long been influenced by
 interpersonal relationships in opposite ways. Exchange within communities
-—commerce—has 
-often 
-been 
-limited 
-by 
-excessively 
+—commerce—has
+often
+been
+limited
+by
+excessively
 entangled
 interpersonal relationships. If your brother-in-law is one of the two
 accountants in town, can you really hire the other guy? By contrast,
@@ -9708,8 +9584,7 @@ kin-based ties and the strength of these lineage organizations. The clan
 provided public goods like charity for poor Hui, care for their elderly, and
 educational funds for promising Hui scholars, who could get powerful
 government jobs. The dominance of the Hui merchants led to the ubiquity
-of the expression “no Hui, no market towns.” In highly successful large-
-scale societies like China, cultural evolution devised a multiplicity of ways
+of the expression “no Hui, no market towns.” In highly successful largescale societies like China, cultural evolution devised a multiplicity of ways
 to better harness interpersonal relationships, not suppress them.32
 Of course, state bureaucracies also played a role in the growth of trade.
 They variously policed markets, established courts, and provided
@@ -9731,8 +9606,7 @@ approach to trade. The Europeans of medieval Christendom, however,
 couldn’t easily take this well-trodden path to commercialization; the Church
 had undercut all of the standard tools of intensive kin-based institutions that
 Hui and Assur patriarchs had deployed to nourish and grow their
-institutions and networks. Medieval Europeans did try to create family-
-based trading organizations, but, hampered by the Church’s MFP, their
+institutions and networks. Medieval Europeans did try to create familybased trading organizations, but, hampered by the Church’s MFP, their
 efforts were gradually outpaced by voluntary associations (e.g., merchant
 guilds), impersonal institutions, and market norms.34
 The Commercial and Urban Revolutions
@@ -9918,8 +9792,7 @@ rulers found a way to expand their lands, tap new revenue streams, and
 
 
 augment their military power while dealing with the realities of a world
-increasingly dominated by voluntary associations full of individualistically-
-minded people.47 Of course, this would all backfire in the long run for the
+increasingly dominated by voluntary associations full of individualisticallyminded people.47 Of course, this would all backfire in the long run for the
 royals, but it did work for centuries.
 The evolution of the social norms, laws, and charters of these urban
 communities appears to have been influenced by the two crucial forces laid
@@ -9956,12 +9829,12 @@ policies and charters of the most prosperous urban centers, would have
 gradually assembled packages of norms, laws, and formal institutions that
 fostered economic prosperity and stability in an increasingly individualistic
 and relationally mobile world. From 1250 to 1650, for example, Bruges,
-Antwerp, 
-and 
-Amsterdam 
-competed 
-to 
-create 
+Antwerp,
+and
+Amsterdam
+competed
+to
+create
 business-friendly
 environments in order to attract foreign merchants. All other things being
 equal, more successful urban communities would have drawn relatively
@@ -10031,16 +9904,14 @@ number of grants to hold markets. Such market grants had real economic
 effects. New buildings, for example, tended to be constructed in the years
 after a city or town received a market grant.53 This proliferation of urban
 centers and market grants (think “market days,” as among the Oromo)
-drove ascending rates of market integration for growing urban and peri-
-urban populations in medieval Europe.
+drove ascending rates of market integration for growing urban and periurban populations in medieval Europe.
 By the 14th century in England, about 1,200 weekly markets were
 operating, and, according to the economic historian Gary Richardson,
 “almost everyone was in easy reach of at least one market.”54 In rural areas,
 most people were within a two-hour walk (4.2 miles or less) from at least
 one market, and 90 percent of households were within three hours of a
 market (6 miles or less).
-Now, look back at the Oromo data in Figure 9.3. Ninety percent of 14th-
-century Englishfolk would have been in the upper left quadrant of this plot.
+Now, look back at the Oromo data in Figure 9.3. Ninety percent of 14thcentury Englishfolk would have been in the upper left quadrant of this plot.
 This suggests most people would have been conditional cooperators with
 anonymous others, and, like the Oromo in the most market-integrated
 communities, they would have been psychologically prepared to forge
@@ -10090,8 +9961,7 @@ and prison sentences.
 However, to understand the diffusion of market norms in medieval
 Europe, we need to recognize the role played by the newly forming
 voluntary associations, such as towns and guilds, as well as the more
-individualistic psychology possessed by their members. On their own, self-
-interested individuals could exploit the willingness of strangers to extend
+individualistic psychology possessed by their members. On their own, selfinterested individuals could exploit the willingness of strangers to extend
 credit or defer payment. However, to navigate this new social world,
 individuals were joining guilds, confraternities, charter towns, and a variety
 of other organizations, as we have seen. Members who violated commercial
@@ -10198,11 +10068,8 @@ organizational forms. At the same time, politically or economically
 powerful family lineages were simply more likely to die out without
 polygyny, customary inheritance, remarriage, and adoption. When dominant
 royal families did die out, urban communities were often able to re-forge
-their formal institutions in ways more appealing to people with a proto-
-WEIRD psychology.
+their formal institutions in ways more appealing to people with a protoWEIRD psychology.
 
-
-10
 Domesticating the Competition
 But warfare, it can be concluded, is an especially effective means
 of promoting social cohesion in that it provides an occasion upon
@@ -10433,18 +10300,17 @@ supernatural beliefs increases by about 10 percentile points. Such effects
 can be found on every continent and in most major religions.8
 These psychological effects embed themselves in culturally transmitted
 beliefs and practices that persist across generations even after people
-migrate away from disaster-prone areas. When comparing second-
-generation immigrants who all grew up in the same European country,
+migrate away from disaster-prone areas. When comparing secondgeneration immigrants who all grew up in the same European country,
 Jeanet still finds similar patterns: the adult children of immigrants are more
 religious when their moms came from places that were more exposed to
 natural disasters.9
-War, 
-like 
-natural 
-disasters, 
-also 
-increases 
-people’s 
+War,
+like
+natural
+disasters,
+also
+increases
+people’s
 religious
 commitments. Using the same approach just described to link war and
 social motivations, my collaborators and I analyzed survey data from
@@ -10591,8 +10457,7 @@ marrying cousins, and deferring to elders. In Tajikistan, as we saw, the
 shock of war raised people’s trust in clan elders and bolstered support for
 arranged marriage. In Sierra Leone, war drove the formation of local
 defense forces built on traditional institutions. In the Sepik, Tuzin observed
-that warfare tightened both clan loyalties and people’s devotion to their age-
-sets, ritual partners, and the Tambaran. In fact, the entire system may have
+that warfare tightened both clan loyalties and people’s devotion to their agesets, ritual partners, and the Tambaran. In fact, the entire system may have
 been bound together by the psychological impacts of war: Ilahita’s
 Tambaran collapsed in the decades after Sepik warfare was quashed by the
 Australian military.
@@ -10650,8 +10515,7 @@ the historical record?
 Well, while my lab is still working on ways to detect the historical
 impact of war on European psychology, we can indeed observe how war
 influenced the growth of urban areas, the formation of representative
-assemblies, and the development of self-governing cities. To start, let’s con-
-sider the impact of local battles and sieges on the subsequent growth of
+assemblies, and the development of self-governing cities. To start, let’s consider the impact of local battles and sieges on the subsequent growth of
 cities. The economists Mark Dincecco and Massimiliano Gaetano Onorato
 compiled an impressive database of 847 battles and sieges, complete with
 dates and locations, which they then integrated with estimates of population
@@ -10707,8 +10571,7 @@ engaged in these holy wars, which drew in participants from across the
 social strata. At first, the crusading armies were led by the sons and brothers
 of kings, but in later Crusades, the kings themselves sometimes took up
 arms and led. These armies were staffed by earls, sheriffs, dukes, and local
-landlords, who drafted their vassals and neighbors. Thus, elites and non-
-elites alike had family members in these wars, many of whom no doubt
+landlords, who drafted their vassals and neighbors. Thus, elites and nonelites alike had family members in these wars, many of whom no doubt
 died or were injured—making them like the “more afflicted” people in our
 war studies. Based on the research presented above, the Crusades would
 have had predictable psychological effects.21
@@ -11018,8 +10881,7 @@ linked to impersonal prosociality. In short, to get the effects shown above
 for intergroup competition, a population probably needs relatively strong
 norms for impersonal prosociality relative to norms rooted in intensive
 kinship or a relational morality. So, it would be a mistake to immediately
-extend these findings too broadly without considering the cultural-
-psychological background of the populace.36
+extend these findings too broadly without considering the culturalpsychological background of the populace.36
 Nevertheless, this research suggests that nonviolent forms of intergroup
 competition generate some of the same effects on our psychology as war
 and can drive cultural evolution in similar ways. There are, of course,
@@ -11088,8 +10950,7 @@ collapse in sorrow throughout the fall football season, depending on
 whether our team—the Fightin’ Irish—won or lost on a particular Saturday.
 This shared experience seemed to create a collective sense of meaning and
 greater solidarity among the student body. While some research does
-support my intuitions, high-quality studies that effectively isolate the long-
-term psychological impact of team sports on fans and players are limited.38
+support my intuitions, high-quality studies that effectively isolate the longterm psychological impact of team sports on fans and players are limited.38
 Like political parties, religious organizations also compete for members,
 as individuals and families in many societies will readily switch their
 churches, temples, or even traditions. Some churches grow and spread
@@ -11122,10 +10983,10 @@ examine the emergence of sustained forms of nonviolent intergroup
 competition, and how and why they became embedded in so many modern
 Western institutions.
 In the wake of the Church’s demolition of intensive kinship, people
-became 
-increasingly 
-individualistic, 
-independent, 
+became
+increasingly
+individualistic,
+independent,
 self-focused,
 nonconformist, and relationally mobile. They joined voluntary associations
 that fit their interests, needs, and goals. Guilds, cities, universities,
@@ -11158,12 +11019,12 @@ their own, armed with only a shared vision for how to best inspire piety,
 serve God, and manage a religious community. The best practices of the
 most successful monasteries were copied and modified by new monasteries.
 Those with the most effective and popular practices eventually grew into
-sprawling 
-transnational 
-monastic 
-orders; 
-others 
-floundered 
+sprawling
+transnational
+monastic
+orders;
+others
+floundered
 and
 disappeared.42
 FIGURE 10.5. Growth in the number of monasteries from the 6th century to the 15th century in
@@ -11275,8 +11136,7 @@ This means that the great advances delivered by Muslim scientists occurred
 on the side, when no one was paying attention (which makes these
 achievements even more impressive). Madrassas, then, unlike their
 counterparts in medieval Europe, weren’t run by an ever-shifting cast of
-scrappy professors and rebellious students who banded together in self-
-regulating collectives to demand intellectual freedom, uphold standards,
+scrappy professors and rebellious students who banded together in selfregulating collectives to demand intellectual freedom, uphold standards,
 and set curricula.48
 Overall, the spontaneous formation and proliferation of voluntary
 organizations capable of self-governance and self-regulation—as illustrated
@@ -11312,8 +11172,7 @@ belt (Figure 7.5). Once land and businesses could be privately owned or
 controlled, competition among groups was possible once again. In rural
 areas, Chinese clans immediately began reconstituting themselves,
 rejuvenating their communal rituals, repairing their ancestral shrines, and
-updating their lineage genealogies, which define membership. After a 30-
-year hiatus, clans soon were competing over land and access to economic
+updating their lineage genealogies, which define membership. After a 30year hiatus, clans soon were competing over land and access to economic
 opportunities, especially in multiclan villages. The dominant clans in such
 villages targeted members of the smaller clans, by ostracizing them and
 sometimes denying them access to fertile fields (which is a big deal if
@@ -11414,8 +11273,6 @@ psychological and economic effects of nonviolent intergroup competition.
 Of course, no one designed this system, and few even realize how it shapes
 our psychology or why it often works.
 
-
-11
 Market Mentalities
 Whenever commerce is introduced into any country, probity and
 punctuality always accompany it … Of all the nations in Europe,
@@ -11605,8 +11462,7 @@ with productivity and yields. Haste is seen as a lack of decorum
 combined with diabolical ambition.7
 
 
-The ethnographer here, Pierre Bourdieu, goes on to note that in this clan-
-based society, there are no notions of precise mealtimes or exact
+The ethnographer here, Pierre Bourdieu, goes on to note that in this clanbased society, there are no notions of precise mealtimes or exact
 appointments. The clock is considered the “devil’s mill,” and upon meeting
 someone, “the worst discourtesy is to come to the point and express oneself
 in as few words as possible.” Instead of incessantly ticking off minutes and
@@ -11698,8 +11554,7 @@ however, the observations were done by anthropologists, who randomly
 selected both the individuals observed and the observation times.
 When we compare these diverse societies, the data show that men who
 engaged in more commercial work—like wage labor—spent more of their
-total day working. The results suggest that going from a fully subsistence-
-oriented population to a fully commercialized society would result in an
+total day working. The results suggest that going from a fully subsistenceoriented population to a fully commercialized society would result in an
 increase in work time of 10 to 15 hours every week, raising the workweek
 from 45 to between 55 and 60 hours, on average. Annually, people worked
 an additional 500 to 750 hours.15
@@ -11728,8 +11583,7 @@ supply.16
 So far, the data support the idea that people were gradually working
 longer hours, but that doesn’t tell us if they were working harder or more
 efficiently. This is a hard question to answer using historical data, but
-economic historians have devised some clever ways to use certain farm-
-related tasks to address it. For farming productivity in general, it’s difficult
+economic historians have devised some clever ways to use certain farmrelated tasks to address it. For farming productivity in general, it’s difficult
 to estimate changes in workers’ efficiency or motivations over time,
 because agricultural innovation was ongoing and included novel
 technologies, improved techniques, and new crops, like potatoes and corn
@@ -11745,10 +11599,8 @@ labor may have begun within certain segments of the medieval Church and
 
 
 diffused outward. As we saw earlier, the place to start looking is the
-Cistercian Order. Recall that, in addition to their emphasis on self-
-discipline, self-denial, and hard work, the Cistercians sought out the
-simplicity and serenity of remote rural areas. The monks accepted non-
-literate peasants into their order as lay brothers, and these men took vows of
+Cistercian Order. Recall that, in addition to their emphasis on selfdiscipline, self-denial, and hard work, the Cistercians sought out the
+simplicity and serenity of remote rural areas. The monks accepted nonliterate peasants into their order as lay brothers, and these men took vows of
 chastity and obedience. The monks also employed a range of servants,
 laborers, and skilled workers. Small communities, often with shops and
 artisans, sometimes clustered around the outskirts of monasteries. Together,
@@ -11922,8 +11774,7 @@ outside of Europe during the same era. For example, even in complex Asian
 economies, 10 percent was about the lowest rate observed. In the lower
 Yangtze delta, where commerce flourished in the late 14th century, interest
 rates were 50 percent. In Korea during the 18th and 19th centuries, interest
-rates ranged from 25 to 50 percent, with an average of 37 percent. In 17th-
-century Osaka, interest rates were comparatively low, between 12 and 15
+rates ranged from 25 to 50 percent, with an average of 37 percent. In 17thcentury Osaka, interest rates were comparatively low, between 12 and 15
 percent for loans between merchant houses. In Istanbul during the 17th and
 18th centuries, interest rates were around 19 percent for private loans. By
 contrast, interest rates in England and Holland were firmly below 5 percent
@@ -11953,8 +11804,7 @@ reducing their impulsivity. These psychological changes resulted in the men
 
 
 committing fewer crimes and saving more money in the short term.
-However, while this study decisively demonstrates that patience and self-
-control can be modified culturally, these psychological shifts didn’t
+However, while this study decisively demonstrates that patience and selfcontrol can be modified culturally, these psychological shifts didn’t
 generally cash out in the long run. The reason was clear: 70 percent of the
 men reported that their growing nest eggs were stolen, often taken from
 them by corrupt police during shakedowns. Cultural evolution won’t favor
@@ -12001,8 +11851,7 @@ expanding individualistic world, a reputation for sudden, violent, and
 undisciplined responses to minor insults or simple misunderstandings didn’t
 pay anymore. Who wants to defend, marry, or do business with a hothead?
 In an open market of strangers where people are shopping for relationships,
-you can just find another friend, fiancée, or employee, one with better self-
-control.32 In Traité Genéral du Commerce (1781), the Dutch lawyer Samuel
+you can just find another friend, fiancée, or employee, one with better selfcontrol.32 In Traité Genéral du Commerce (1781), the Dutch lawyer Samuel
 Ricard makes my case:
 Commerce attaches [men] one to another through mutual utility.
 Through commerce the moral and physical passions are superseded
@@ -12134,8 +11983,7 @@ dimensions of personality: (1) openness to experience (“adventurousness”),
 (“emotional instability”). These have often been interpreted as capturing the
 innate structure of human personality. Psychologists call these personality
 dimensions the “BIG-5,” but I’ll call them the WEIRD-5.40
-When psychologists have deployed this approach to personality in non-
-WEIRD populations, the WEIRD-5 can usually be found, although in
+When psychologists have deployed this approach to personality in nonWEIRD populations, the WEIRD-5 can usually be found, although in
 places like Hong Kong and Japan, only four of the five dimensions
 consistently emerge. Unfortunately, most of this cross-cultural work has
 relied on relationally mobile university students in urban centers. Using
@@ -12145,8 +11993,7 @@ much of the institutional, occupational, and demographic variation that
 we’d expect to be most important for identifying differences in personality
 across societies. The rough applicability of the WEIRD-5 approach in these
 settings isn’t surprising.41
-To move forward, rather than this scattershot approach to testing cross-
-cultural variation, which involves using easily accessible subpopulations
+To move forward, rather than this scattershot approach to testing crosscultural variation, which involves using easily accessible subpopulations
 that are both homogeneous and nonrepresentative, we need a detailed study
 of personality from a subsistence-oriented society with few occupations and
 little contact with global markets.
@@ -12219,8 +12066,7 @@ with occupational specialization and urbanization in the modern world, we
 should expect places with less urbanization and/or occupational
 specialization to show greater interdependence (intercorrelation) among
 their WEIRD-5 dimensions.
-Using data from nearly 17,000 people in 55 countries, Aaron Lukas-
-zewski, Mike Gurven, Chris von Rueden, and their colleagues found that
+Using data from nearly 17,000 people in 55 countries, Aaron Lukaszewski, Mike Gurven, Chris von Rueden, and their colleagues found that
 the more urbanized a country, or the greater its occupational diversity, the
 lower the intercorrelations were among the WEIRD-5 dimensions. Figure
 11.4 illustrates this using urbanization: people from more rural countries
@@ -12243,8 +12089,7 @@ than those found in any of the countries studied at the dawn of the 21st
 century. This suggests that personality configurations in Europe were
 probably different in the Middle Ages compared to today, but they had
 begun evolving in a WEIRD direction.
-FIGURE 11.4. Relationship between urbanization rates and the intercorrelation of the WEIRD-
-5 personality dimensions for 55 countries. The urbanization rate is the percentage of people
+FIGURE 11.4. Relationship between urbanization rates and the intercorrelation of the WEIRD5 personality dimensions for 55 countries. The urbanization rate is the percentage of people
 who live in urban areas. The independence of the WEIRD-5 personality dimensions is
 captured by the average intercorrelation of the five dimensions. The lower this
 intercorrelation, the more independent the five dimensions. For the historical rates of
@@ -12445,8 +12290,6 @@ can’t tell exactly how big, or how deep into the murky depths it goes.
 PART IV
 Birthing the Modern World
 
-
-12
 Law, Science, and Religion
 I think I can see the whole destiny of America contained in the
 first Puritan who landed on those shores, as that of the whole
@@ -12484,8 +12327,7 @@ more likely to devise, endorse, and adopt particular kinds of ideas, laws,
 rules, policies, beliefs, practices, and arguments. Many modern ideas about
 law, government, science, philosophy, art, and religion that would have
 been “unthinkable,” aversive, or nonintuitive to people in most complex
-societies over most of human history began to “fit” the emerging proto-
-WEIRD psychology in medieval and Early Modern Europe. In many cases,
+societies over most of human history began to “fit” the emerging protoWEIRD psychology in medieval and Early Modern Europe. In many cases,
 these new ideas, laws, and policies were filtered and selected by relentless
 intergroup competition between voluntary associations, including among
 cities, guilds, universities, monasteries, scientific associations, and
@@ -12531,8 +12373,7 @@ evolutionary reasons, humans everywhere tend to conform to
 peers, defer to their seniors, and follow enduring traditions; but, the
 incentives of a society with weak kin ties and impersonal markets
 pushed hard against this, favoring individualism, independence,
-and nonconformity, not to mention overconfidence and self-
-promotion.
+and nonconformity, not to mention overconfidence and selfpromotion.
 4. Impersonal prosociality: As life was increasingly governed by
 impersonal norms for dealing with nonrelations or strangers,
 people came to prefer impartial rules and impersonal laws that
@@ -12677,13 +12518,13 @@ Unlike their Roman predecessors, whose chief goal was to enforce policies
 and protect important interests (e.g., property), the canonists were obsessed
 with the mental state of the accused. This focus on mental states meant that,
 contrary to laws and customs from early medieval Europe to premodern
-China, 
-relatives 
-couldn’t 
-justifiably 
-share 
-a 
-perpetrator’s 
+China,
+relatives
+couldn’t
+justifiably
+share
+a
+perpetrator’s
 guilt,
 responsibility, or punishment if they lacked the mental state necessary for
 culpability.10
@@ -12720,8 +12561,7 @@ respectively, followed by a mistaken belief and then insanity. Interestingly,
 different moral beliefs actually led WEIRD people to judge the perpetrator
 more harshly—intentionally punching someone and believing you are doing
 good seems to be worse than intentionally punching someone but thinking
-you are doing wrong. Across all 10 populations, the less intensive the kin-
-based institutions of a society, the more frequently people attended to the
+you are doing wrong. Across all 10 populations, the less intensive the kinbased institutions of a society, the more frequently people attended to the
 
 
 nuances of the perpetrator’s mental states across our five mitigating
@@ -12807,8 +12647,7 @@ that these scholars, who were working from Ptolemy’s ancient model, had
 figured out most of the major components of Copernicus’s model well
 before he did. In the 13th century, for example, Ibn al-Shatir (a religious
 timekeeper in Damascus) had produced a mathematical model that was
-formally identical to that of Copernicus except that it remained earth-
-centered. But, brilliant as they were, these thinkers never made
+formally identical to that of Copernicus except that it remained earthcentered. But, brilliant as they were, these thinkers never made
 Copernicus’s conceptual breakthrough. Second, while Copernicus got the
 relative position of the sun correct, he assumed that the planets were in
 circular orbits. This mistake meant that al-Shatir’s model still made better
@@ -12858,8 +12697,7 @@ laws (“Boyle’s Law”), ways of thinking (“Newtonian”), anatomical parts
 (“fallopian tubes”), and much more. After about 1600, Europeans even
 began to relabel ancient insights and inventions based on their purported
 founders or discoverers. “Pythagoras’s theorem,” for example, had been
-called the “Dulcarnon” (a word derived from an Arabic phrase for “two-
-horned,” which described Pythagoras’s accompanying diagram). Finally,
+called the “Dulcarnon” (a word derived from an Arabic phrase for “twohorned,” which described Pythagoras’s accompanying diagram). Finally,
 well before any patent laws, people began adopting the notion that it was
 wrong to copy and promulgate others’ manuscripts, mathematical proofs, or
 even ideas without giving them credit. People came to think that novel
@@ -12913,8 +12751,7 @@ everyone ought to be considered and approved by everyone.” Medieval
 European legalists, however, arrived at new principles by unwittingly
 reinterpreting what they thought they saw in Roman law. The Roman
 Empire certainly didn’t think it needed the consent of the governed—the
-quotation was context- and case-specific. However, filtered through a proto-
-WEIRD psychological prism, this maxim starts to sound like common
+quotation was context- and case-specific. However, filtered through a protoWEIRD psychological prism, this maxim starts to sound like common
 sense, almost a self-evident truth. Since university-trained lawyers were
 well grounded in canon law, these and other aspects of Church law provided
 the point of departure for subsequent developments in corporate law and
@@ -12965,8 +12802,7 @@ like to distinguish themselves by expressing their opinions, and often don’t
 mind going against the grain. A group debate or public vote gives
 individuals a way to set themselves apart from others, to express their
 uniqueness and sense of personal identity. This contrasts with psychological
-inclinations that favor peer conformity, deference to elders, shame-
-avoidance, and respect for traditional authorities. Boldly disagreeing with
+inclinations that favor peer conformity, deference to elders, shameavoidance, and respect for traditional authorities. Boldly disagreeing with
 
 
 the group opinion or pointing out the flaws in ancient wisdom has not been
@@ -13063,8 +12899,7 @@ Switzerland was developing a kaleidoscope of towns and cities. Some of
 these urban areas began adopting forms of participatory governance, while
 others remained under the autocratic rule of hereditary nobles. This patchy
 mixture of democracy and autocracy continued until Napoleon conquered
-the region, in 1803, and granted all communities the right to self-
-government, at which point democracy prevailed.
+the region, in 1803, and granted all communities the right to selfgovernment, at which point democracy prevailed.
 
 
 FIGURE 12.1. The relationship between the prevalence of cousin marriage and the quality of
@@ -13130,12 +12965,12 @@ of more democratic and participatory forms of governance, and, once
 established, these formal institutions pushed WEIRD psychology further
 along, at least in some dimensions, perhaps by further reducing the value of
 extended families and dense relational networks while encouraging
-impersonal 
-commerce 
-and 
-greater 
-competition 
-among 
+impersonal
+commerce
+and
+greater
+competition
+among
 voluntary
 associations.30
 The WEIRDest Religion
@@ -13174,8 +13009,7 @@ What Protestantism did in the 16th century was to sacralize the
 psychological complex that had been percolating in Europe during the
 centuries leading up to the Reformation. The case I’ve made is that many
 populations had already developed an individualistic psychology that
-embodied—if only in inchoate forms—the psychological core of the 16th-
-century religious movements that made up Protestantism. Martin Luther
+embodied—if only in inchoate forms—the psychological core of the 16thcentury religious movements that made up Protestantism. Martin Luther
 himself was an Augustinian monk employed at a university in the charter
 town of Wittenberg (that’s three voluntary associations). Protestant faiths
 spread so rapidly, in part, because their core religious values and ways of
@@ -13221,13 +13055,13 @@ forgiveness. Endowed with wisdom and holiness, Church leaders should be
 revered and obeyed. Only through the Church, and its specialized rites and
 elite practitioners, can an average person find a path to God and the
 afterlife. There are no unmediated personal relationships with God.34
-Of 
-course, 
-faced 
-with 
-competition 
-from 
-various 
+Of
+course,
+faced
+with
+competition
+from
+various
 Protestant
 denominations, the Church evolved over time in ways that made it more
 compatible with WEIRD psychology, especially in certain corners like the
@@ -13351,9 +13185,7 @@ in their work ethic, which means that if you want to isolate the impact of
 Protestantism, you need to account for the Cistercians. Second, the
 Church’s ongoing competition with Protestantism may have narrowed the
 difference between Protestants and Catholics, at least locally wherever the
-competition was fierce. For example, forged in the fires of the Counter-
-Reformation, the Jesuit Order strongly promoted schooling, literacy, self-
-discipline, and industry in a manner that parallels many Protestant faiths.
+competition was fierce. For example, forged in the fires of the CounterReformation, the Jesuit Order strongly promoted schooling, literacy, selfdiscipline, and industry in a manner that parallels many Protestant faiths.
 Recent evidence suggests that the Jesuits—at least where they had full
 control—created long-term psychological legacies that seem even more
 “Protestant” than those of the Cistercians. Third, clear findings may also be
@@ -13395,8 +13227,7 @@ to be in charge after the Peace of Augsburg. Today, the impact of these
 princely decisions still explains much of the variation in Protestant and
 Catholic affiliations across German counties (Figure P.2 for variation in
 1871).
-You can see the natural experimental setup here if you think of the 16th-
-century rulers’ decisions as imposing a Protestant or Catholic “treatment”
+You can see the natural experimental setup here if you think of the 16thcentury rulers’ decisions as imposing a Protestant or Catholic “treatment”
 on different populations throughout the empire—some populations got the
 “Protestant treatment,” while others got the “Catholic treatment.” Knowing
 the decisions of the rulers allows us to extract and study only the variation
@@ -13416,7 +13247,7 @@ work showing that being unemployed reduces the sense of well-being in
 Protestants more than it does in Catholics; presumably, Protestants’
 occupations tend to be more central to their sense of self or proximity to
 God.41
-Complementing this real-world evidence, laboratory work 
+Complementing this real-world evidence, laboratory work
 by
 psychologists has begun to probe some of the ways that Protestant beliefs
 
@@ -13519,8 +13350,7 @@ literacy, schooling, and the printing press. These tend to strengthen the
 middle class, foster economic productivity, and permit freer speech. Finally,
 the booster shot to WEIRD psychology provided by Protestantism makes
 impartial laws, personal independence, and freedom of expression even
-more psychologically appealing and socially necessary. Globally, non-
-European countries that have historically experienced more intensive
+more psychologically appealing and socially necessary. Globally, nonEuropean countries that have historically experienced more intensive
 missionary activity from Protestants became more democratic by the second
 half of the 20th century.45
 Besides encouraging literacy, schooling, democracy, and economic
@@ -13542,8 +13372,7 @@ Sascha Becker and Ludger Woessmann, assembled the earliest available
 statistical data on suicide from 305 counties in 19th-century Prussia. They
 first established that counties with higher percentages of Protestants in the
 19th century had higher suicide rates. All-Protestant counties had on
-average nearly 15 more suicides annually (per 100,000 people) than did all-
-Catholic counties. The average suicide rate for a county was 13 per
+average nearly 15 more suicides annually (per 100,000 people) than did allCatholic counties. The average suicide rate for a county was 13 per
 100,000, so 15 more deaths is a big effect. This relationship remains even
 after statistically removing other important factors such as literacy,
 household size, urbanization, and the extent of the manufacturing/services
@@ -13630,8 +13459,6 @@ Late Antiquity. They were just the intellectuals and writers on the scene
 when WEIRDer ways of thinking finally trickled up to some of the last
 holdouts in Europe, the nobility.
 
-
-13
 Escape Velocity
 Nothing is more usual, among states which have made some
 advances in commerce, than to look on the progress of their
@@ -13697,8 +13524,6 @@ on the economic and technological triumphs or the conquests and atrocities,
 
 the question remains the same: How and why did this innovation-driven
 economic and military expansion explode out of Europe after 1500?4
-
-
 
 
 FIGURE 13.1. (A) Income per person (Gross Domestic Product per capita) from 1800 to 2018
@@ -13787,7 +13612,7 @@ an understanding of the psychological differences that began developing in
 some European populations in the wake of the Church’s dissolution of
 Europe’s kin-based institutions. These psychological changes fostered, and
 were then reinforced by, the subsequent development of impersonal
-markets, competing voluntary associations, new 
+markets, competing voluntary associations, new
 religious faiths,
 representative governance, and science. My effort here is not so much to
 reject existing explanations but to lay some deeper social and psychological
@@ -13796,8 +13621,7 @@ Revolution are built on.7
 Before proceeding, let me underline a key point: none of these other
 explanations for the Industrial Revolution can account for the psychological
 variation and change I’ve documented in the last 12 chapters. So even if
-these other explanations are partially right, they’ve failed to notice the mas-
-todon in the courtyard. It’s no longer tenable to continue pretending that all
+these other explanations are partially right, they’ve failed to notice the mastodon in the courtyard. It’s no longer tenable to continue pretending that all
 populations are psychologically indistinguishable or that cultural evolution
 doesn’t systematically modify how people think, feel, and perceive.
 While there are many theories about the causes of the Industrial
@@ -13823,12 +13647,12 @@ collectively in the minds and practices of a community or network. To
 understand innovation, the key questions to ask are: What determines the
 rate of cumulative cultural evolution? What factors cause this adaptive
 information, including technological prowess, to accumulate more rapidly?8
-Many 
-assume 
-that 
-innovation—the 
-successful 
-diffusion 
+Many
+assume
+that
+innovation—the
+successful
+diffusion
 and
 implementation of an improvement—depends mostly on invention, the
 creation of a single improvement by a person or team for the first time.
@@ -13914,8 +13738,7 @@ power at about the same time.13
 3. Spinning mule (1779): Samuel Crompton’s invention is called a
 “mule” because it so obviously combines Richard Arkwright’s
 water frame (1769) with James Hargreaves’s spinning jenny
-(1764). Hargreaves got the idea for his jenny when he saw a single-
-thread wheel loom accidentally flip over onto the floor. Both the
+(1764). Hargreaves got the idea for his jenny when he saw a singlethread wheel loom accidentally flip over onto the floor. Both the
 wheel and the spindle continued to rotate, but the spindle was
 upright, which suggested the possibility of using multiple spindles
 in an upright position. Despite not having a patent, Hargreaves
@@ -13975,8 +13798,7 @@ innovation still depend on the size and interconnectedness of populations,
 but now people with different skills, knowledge, and expertise need to be
 able to find each other, develop trust, and then work together. Illustrating
 this for steam power, James Watt famously wrote to his partner John
-Roebuck that “my principal hindrance in erecting engines is always smith-
-work.” Watt depended on the skills and expertise of several skilled artisans,
+Roebuck that “my principal hindrance in erecting engines is always smithwork.” Watt depended on the skills and expertise of several skilled artisans,
 including ironmasters like John Wilkinson, whose technique for boring
 cannon barrels proved essential to making the cylinders used in Watt’s
 engines.17
@@ -14036,11 +13858,11 @@ practices among individuals and communities within Europe. At the same
 time, the proliferation of voluntary associations and rising urbanization,
 especially the growth of free cities, would have expanded the collective
 brain by bringing diverse individuals together and aligning their interests. In
-fact, 
-four 
-voluntary 
-associations—charter 
-cities, 
+fact,
+four
+voluntary
+associations—charter
+cities,
 monasteries,
 apprenticeships, and universities—all contributed to broadening the flow of
 knowledge and technology around Europe. At an individual level, people’s
@@ -14051,8 +13873,7 @@ positive-sum thinking (optimism). When viewed in the context of these
 social, psychological, and institutional changes, which accumulated
 gradually over a millennium, Europe’s technological and economic
 acceleration seems a lot less puzzling.22
-Our story begins with the Church’s demolition of Europe’s intensive kin-
-based institutions. Breaking kin-groups down into nuclear families would
+Our story begins with the Church’s demolition of Europe’s intensive kinbased institutions. Breaking kin-groups down into nuclear families would
 have had complex effects on the collective brain. Young learners in isolated
 nuclear families are stuck learning from Mom and Dad for lots of important
 skills, abilities, motivations, and techniques—anything that requires close
@@ -14070,8 +13891,7 @@ learners won’t be as inclined to seek out novelty or violate tradition in orde
 to highlight their uniqueness or individuality.
 Nevertheless, while large kin-groups beat nuclear families in size and
 interconnectedness by tying more people together, nuclear families have the
-potential to be part of even larger collective brains if they can build broad-
-ranging relationships or join voluntary groups that connect them with a
+potential to be part of even larger collective brains if they can build broadranging relationships or join voluntary groups that connect them with a
 sprawling network of experts. Moreover, unconstrained by the bonds of
 kinship, learners can potentially select particularly knowledgeable or skilled
 teachers from this broader network. To see why this is important, consider
@@ -14112,8 +13932,7 @@ an average score of just over 20 percent in generation 1 to over 85 percent
 in generation 10 (100 percent would be a perfect replication of the target).
 By contrast, those in the one-to-one treatment showed no systematic
 improvement over the generations. In generation 10, the least skilled person
-in the five-to-one group was superior to the most skilled person in the one-
-to-one treatment.
+in the five-to-one group was superior to the most skilled person in the oneto-one treatment.
 Michael and I also wondered if participants in the five-to-one treatment
 simply picked the best teacher in the prior generation and copied them, or if
 they picked up tips and techniques from multiple teachers. Our detailed
@@ -14172,8 +13991,7 @@ techniques, production methods, and industries. They introduced techniques
 for beer brewing, beekeeping, and cattle breeding into widely disparate
 
 
-regions. Monks, for example, developed salmon fisheries in Ireland, cheese-
-making in Parma, and irrigation in Lombardy.
+regions. Monks, for example, developed salmon fisheries in Ireland, cheesemaking in Parma, and irrigation in Lombardy.
 The Cistercian Order, in particular, built a sprawling network of
 monastery-factories that deployed the latest techniques for grinding wheat,
 casting iron, tanning hides, fulling cloth, and cultivating grapes. Most
@@ -14190,8 +14008,7 @@ advances out to even the most remote monasteries (mapped in Figure 11.2).
 With their strict devotion to an austere life, monks freely dispensed their
 know-how, strategies, and skills to local communities.28
 Meanwhile, in the growing urban centers of the Middle Ages,
-apprenticeship institutions emerged that opened the door to residentially-
-mobile artisans and craftsmen. Unlike other societies, these more
+apprenticeship institutions emerged that opened the door to residentiallymobile artisans and craftsmen. Unlike other societies, these more
 impersonal institutions became the central foci for the transmission of
 technical skills and craft know-how across generations. The most skilled
 masters attracted numerous apprentices, and these apprentices paid for their
@@ -14535,12 +14352,12 @@ In France, innovation can also be linked to knowledge societies, urban
 interconnectedness, and certain forms of Protestantism. As in England,
 French cities with knowledge societies before 1750 grew economically
 faster until at least 1850. Here, we can look deeper by using subscriptions to
-the 
-Enlightenment’s 
-most 
-famous 
-publication, 
-Denis 
+the
+Enlightenment’s
+most
+famous
+publication,
+Denis
 Diderot’s
 Encyclopédie, as a measure of urban interconnectedness. In addition to
 essays by leading thinkers on government, religion, and philosophy, the
@@ -14653,14 +14470,13 @@ when compelled to by circumstances—were subsequently more innovative,
 educated, and prosperous.55
 More Inventive?
 Although the primary thrusters that accelerated innovation during the
-Industrial Revolution were fueled by 
+Industrial Revolution were fueled by
 the expanding size and
 interconnectedness of Europe’s collective brain, there were also changes
 
 
 that probably made individuals—even in isolation—more likely to invent
-stuff. To understand this, we need to consider both how certain proto-
-WEIRD psychological traits would have contributed to individual
+stuff. To understand this, we need to consider both how certain protoWEIRD psychological traits would have contributed to individual
 inventiveness and how the new economic and social conditions would have
 further bolstered these traits in an autocatalytic interaction. First, recall
 some of the psychological traits we’ve already discussed: patience, hard
@@ -14904,8 +14720,6 @@ organizations, along with a set of psychological shifts that made individuals
 more inventive but less fecund, drove innovation while holding population
 growth in check, eventually generating unparalleled economic prosperity.
 
-
-14
 The Dark Matter of History
 Humans are an intensely cultural species. For over a million years, the
 products of cumulative cultural evolution—our complex technologies,
@@ -14990,8 +14804,7 @@ patience, positive-sum thinking, self-regulation, and time thrift (arrows F
 and G). By producing a growing division of labor, within which an
 expanding class of individuals could select their occupations and social
 niches, these new social environments may have fostered more
-differentiated personality profiles—expanding eventually into the WEIRD-
-5—and strengthened people’s inclinations to think in dispositional ways
+differentiated personality profiles—expanding eventually into the WEIRD5—and strengthened people’s inclinations to think in dispositional ways
 about other individuals and groups.
 The quiet fermentation of these psychological and social changes
 influenced the formation of governments, laws, religious faiths, and
@@ -15090,8 +14903,7 @@ than in the Americas.1
 Accentuating these inequalities in fauna and flora, Eurasia’s complex
 societies also developed more rapidly due to an east-west geographic
 orientation. This fostered the rapid development and diffusion of new crops,
-agricultural knowledge, domesticated animals, and technological know-
-how. As discussed in Chapter 3, this geographic orientation would have
+agricultural knowledge, domesticated animals, and technological knowhow. As discussed in Chapter 3, this geographic orientation would have
 further fueled the intensive competition among societies that drives up
 political and economic complexity.
 Taken together, the elements of Diamond’s elegant argument nicely
@@ -15226,8 +15038,7 @@ impacts of wealth, income, and even people’s subjective experience of
 material security. Sometimes these affluence measures do show some
 independent relationships to people’s psychological traits, but often they
 don’t show any effects at all. When the effects of affluence do appear, they
-are typically small compared to the factors I’ve emphasized: religion, kin-
-based organizations, impersonal markets, and intergroup competition.10
+are typically small compared to the factors I’ve emphasized: religion, kinbased organizations, impersonal markets, and intergroup competition.10
 To see this more clearly, let’s consider a third point: the predicted
 patterns of psychological variation appear in both elite and poor
 populations. In all stratified societies, the elite are well-fed, rich, and
@@ -15329,15 +15140,13 @@ the classic example of this is the evolution of genetic variants over
 thousands of years that permit adults to break down the lactose in milk. The
 selection for these genetic variants began with the cultural diffusion of
 animal herding (cows, goats, etc.). Both genetic and cultural evolution
-responded. In some populations, people developed cheese- and yogurt-
-making techniques that allowed adults to access the nutritional bounty in
+responded. In some populations, people developed cheese- and yogurtmaking techniques that allowed adults to access the nutritional bounty in
 milk without possessing any special genes. Only in other populations,
 where those practices never evolved culturally, did genetic variants spread
 that permitted adults to process lactose.16
 More recently, the power of cultural over genetic evolution can be
 strikingly seen in research on the genetic and cultural contributions to
-educational attainment during the 20th century. In European-descent popu-
-lations, researchers have identified roughly 120 genes that are associated
+educational attainment during the 20th century. In European-descent populations, researchers have identified roughly 120 genes that are associated
 with schooling outcomes. Genes can potentially influence educational
 attain- ment in many ways, including by influencing people’s willingness to
 sit still, pay attention, use birth control, avoid drugs, and do homework, as
@@ -15452,12 +15261,12 @@ After 1500, European societies began expanding around the globe, often
 with devastating consequences, especially for those outside of Eurasia or
 from less complex societies. In the modern world, what we call
 “globalization” is merely the continuation of the processes I’ve described
-from 
-Late 
-Antiquity. 
-Impersonal 
-institutions 
-like 
+from
+Late
+Antiquity.
+Impersonal
+institutions
+like
 representative
 governments, universities, and social safety nets, which all evolved in
 Europe (before the Enlightenment), have been exported and transplanted
@@ -15555,8 +15364,7 @@ supernatural beings are common: about half of Americans believe in ghosts,
 while a similar fraction of Icelanders accept the existence of elves. The key
 is to figure out how and why certain kinds of beliefs evolve and persist in
 different ways in different places. Far from being inconsequential, certain
-kinds of supernatural beliefs and rituals have fueled the success of large-
-scale, politically complex societies.20
+kinds of supernatural beliefs and rituals have fueled the success of largescale, politically complex societies.20
 One challenge created by all of this psychological diversity, especially
 given the peculiarity of WEIRD psychology, is that we generally see and
 understand the world through our own cultural models and local intuitions.
@@ -15611,18 +15419,18 @@ Synod of Elvira (Granada, Spain) decrees that any man who takes the sister of hi
 dead wife as his new wife (sororate marriage) should abstain from Communion for
 five years. Those marrying their daughters-in-law should abstain from Communion
 until near death.
-315
+
 Synod of Neocaesarea (Turkey) forbids marrying the wife of one’s brother
 (levirate marriage) and possibly also sororate marriage.
-325
+
 Council of Nicaea (Turkey) prohibits marrying the sister of one’s dead wife as well
 as Jews, pagans, and heretics.
-339
+
 The Roman Emperor Constantius II prohibits uncle-niece marriages, in accordance
 with Christian sentiment, and imposes the death penalty on violators.
-355
+
 The Roman Emperor Constantius II prohibits levirate marriage.
-374
+
 Basilius of Caesarea argues against sororate marriage in a letter to Diodor von
 Tarsus.
 384/7
@@ -15631,7 +15439,7 @@ and levirate marriages and bans first cousin marriage. In 409, the Western emper
 Honorius softens the law by allowing dispensations. It is not clear how long this
 persisted in the West. The dissolving Western Empire makes continued
 enforcement unlikely.
-396
+
 The Eastern Roman Emperor Arcadius, also a Christian, again prohibits first
 cousin marriage, but without the harsh penalties. In 400 or 404, however, he
 changes his mind and makes cousin marriage legal in the Eastern Empire.
@@ -15641,53 +15449,53 @@ Year
 Prohibitions and Declarations on Marriage from the Church and Secular Rulers
 Around
 The pope, in letters to the Gallic bishops, argues that sororate marriage is
-400
+
 forbidden for Christians and calls for penalties and the annulment of such
 marriages.
-402
+
 Roman Synod under Pope Innocent I forbids marriage to the sister of a man’s
 deceased wife.
-506
+
 Synod of Agde (France, Visigoth Kingdom) prohibits first and second cousin
 marriage, and marriage to a brother’s widow, wife’s sister, stepmother, uncle’s
 widow, uncle’s daughter, or any kinswoman. These are defined as incest.
-517
+
 Synod of Epaone (France or Switzerland, Burgundian kingdom) decrees that
 unions with first and second cousins are incestuous and henceforth forbidden,
 although existing unions are not dissolved. The synod also forbids marriage to
 stepmothers, widows of brothers, sisters-in-law, and aunts by marriage. Many
 subsequent synods in the area of what would become the Carolingian Empire refer
 to this synod for incest regulations.
-530
+
 The Eastern Roman (Byzantine) Emperor Justinian prohibits marriage between a
 godfather and his godchild as well as between a man and his adopted child.
 527/31
 Second Synod of Toledo (Spain) prescribes excommunication for all engaged in
 incestuous marriages. The number of years of excommunication should equal the
 number of years of the marriage. This is affirmed by synods in 535, 692, and 743.
-533
+
 Synod of Orleans (France) forbids marriage with a stepmother.
-535
+
 Synod of Clermont (France) repeats the legislation of the Synods of Epaone and
 Agde.
-535
+
 The Byzantine Emperor Justinian increases punishment for levirate and sororate
 marriage to confiscation of property, a prohibition on holding administrative
 positions, exile, and, for lower-status people, whipping.
-538
+
 First documented letter between a Frankish king and the pope is about incest
 (marriage to the wife of one’s deceased brother). While the pope disapproves, he
 leaves the decision about the extent of Penance to the bishops.
-538
+
 Third Synod of Orleans (France) prohibits marriage to one’s stepmother,
 stepdaughter, brother’s widow, wife’s sister, first and second cousin, and uncle’s
 widow.
-541
+
 Fourth Synod of Orleans (France) renews the canon of the Third Synod of Orleans.
-546
+
 Synod of Lerida (Spain) re-enforces proscriptions of the Synod of Toledo but
 decreases punishments.
-567
+
 Second Synod of Tours (France) forbids marriage to one’s niece, cousin, or wife’s
 sister and confirms the canons of Orleans, Epaone, and Auvergne.
 
@@ -15696,50 +15504,49 @@ Year
 Prohibitions and Declarations on Marriage from the Church and Secular Rulers
 567/73
 Synod of Paris (France) prohibits marriage to one’s brother’s widow, stepmother,
-uncle’s widow, wife’s sister, daughter-in-law, aunt, stepdaughter, and step-
-daughter’s daughter.
-583
+uncle’s widow, wife’s sister, daughter-in-law, aunt, stepdaughter, and stepdaughter’s daughter.
+
 Third Synod of Lyons (France) renews canons against incest.
-585
+
 Second Synod of Macon (France) renews canons against incest with stronger
 condemnations than earlier synods.
 585/92
 The Synod of Auxerre (France) forbids marriage to stepmothers, stepdaughters,
 brothers’ widows, wives’ sisters, cousins, or uncles’ widows.
-589
+
 Reccared I, the Visigothic King (Spain), decrees the dissolution of incestuous
 marriages, punishing offenders with exile and the transfer of their property to their
 children.
-596
+
 The Frankish King Childbert II decrees the death penalty for marriage to one’s
 stepmother but leaves the punishment of other incest violations to the bishops. If
 the convicted resists the Church’s punishment, his property should be seized and
 redistributed to relatives.
-600
+
 Pope Gregory I, in a letter to the Anglo-Saxon mission (see the text), prohibits
 marriage to first cousins (for Anglo-Saxons) and closer kin (e.g., uncle-niece
 unions) as well as levirate marriage. Incest now is defined as including relations
 with close affinal and spiritual kin (the children of one’s godparents).
-615
+
 Fifth Synod of Paris (France) renews the legislation of the Synods of Orleans,
 Epaone, Auvergne, and Auxerre.
-627
+
 Synod of Clichy implements the same punishment and enforcement procedures
 that were decreed by Childbert II in 596. A systematic collection of incest
 legislation is compiled around this time and becomes part of the Collectio vetus
 Gallica, the oldest collection of canons from Gaul.
-643
+
 Lombard laws of Rothari forbid marriage to one’s stepmother, stepdaughter, or
 sister-in-law.
-673
+
 Synod of Hertford (England) forbids incest (without specifying the extent) and
 decrees that one man can only marry one woman and no man shall leave his wife
 except because of infidelity. If he does leave her, he cannot remarry.
-690
+
 Bishop Theodore of Canterbury’s (England) widely distributed penitentials forbid
 sororate, levirate, and first cousin marriages, including to affines, but do not
 demand that cousin marriages be dissolved.
-692
+
 At the Synod of Trullo (Turkey), the Eastern Church finally forbids marriage to
 one’s first cousins and corresponding affinal kin. This prohibits a father and a son
 marrying a mother and a daughter or two sisters, and two brothers marrying a
@@ -15748,10 +15555,10 @@ mother and a daughter or two sisters.
 
 Year
 Prohibitions and Declarations on Marriage from the Church and Secular Rulers
-716
+
 Pope Gregory II, in a legation to Bavaria, prohibits marriage up to first cousins.
 The penalty is excommunication.
-721
+
 Roman Synod (Italy) prohibits marriage to one’s brother’s wife, niece, grandchild,
 stepmother, stepdaughter, cousins, and all kinfolk, including anyone married to a
 blood relative. It also prohibits marriage to one’s godmother. In 726, Pope Gregory
@@ -15763,22 +15570,22 @@ this council are widely disseminated.
 723/4
 The Lombard King Liutprand (Italy) prohibits marriage with one’s stepmother,
 stepdaughter, sister-in-law, and widows of cousins.
-725
+
 Roman Synod threats anathema against those who marry their godmothers.
-741
+
 Pope Zacharias forbids the marriage of a godfather with his godchild or the
 godchild’s mother.
-741
+
 Under the Byzantine Emperor Leo III, the prohibitions in the Eastern Church are
 increased to include marriage of second cousins and, slightly later, second cousins
 once removed. The penalty for cousin marriage becomes whipping.
-743
+
 Roman Synod under Pope Zacharias orders Christians to refrain from marrying
 cousins, nieces, and other kinfolk. Such incest is punishable by excommunication
 and, if necessary, anathema.
-744
+
 Synod of Soissons (France) forbids marriage with relatives.
-753
+
 Synod of Metz (France) prohibits marriage to stepmothers, stepdaughters, wives’
 sisters, nieces, granddaughters, cousins, and aunts. Offenders will be fined.
 Offenders unable to pay the fine will be sent to prison if they are free; if not, they
@@ -15786,10 +15593,10 @@ will be beaten. The synod also prohibits (1) marriage of a father to the godmoth
 of his child, (2) marriage of a child to his godmother, and (3) marriage of a
 confirmed person to the person who presented him for Confirmation (a Catholic
 rite of passage).
-755
+
 The Synod of Verneuil (France), convened under the Frankish King Pepin,
 commands that marriages be performed publicly.
-756
+
 Synod of Verbier (France) prohibits the marriage of third cousins and closer and
 decrees existing marriages between second cousins are to be ended. Those married
 to third cousins need only do Penance.
@@ -15799,14 +15606,14 @@ Synod of Aschheim (Germany) forbids incestuous marriages.
 
 Year
 Prohibitions and Declarations on Marriage from the Church and Secular Rulers
-757
+
 Synod of Compiègne (France) rules that existing marriages of second cousins or
 closer must be nullified. The Frankish King, Pepin, threatens secular punishments
 for any who disagree.
-786
+
 Papal legates in England forbid incestuous marriages with relatives and kin
 (without specifying the extent).
-796
+
 Synod of Friuli (Italy) directs attention to prenuptial investigations into potentially
 incestuous marriages and prohibits clandestine unions. The synod prescribes a
 waiting time before marriage during which neighbors and elders can reveal
@@ -15814,34 +15621,34 @@ whether blood relations exist that would prohibit marriage. It also stipulates t
 although infidelity by the wife is a legitimate reason for divorce, remarriage is
 impossible as long as both spouses live. Charlemagne puts his secular authority
 behind these rulings in 802.
-802
+
 Charlemagne’s capitulary insists that nobody should attempt to marry until the
 bishops and priests, together with the elders, have investigated the blood relations
 of the prospective spouses.
-813
+
 Synod of Arles (France) reaffirms the prohibitions of previous synods.
-813
+
 Synod of Mainz (Germany) forbids marriage between third cousins or closer and
 marriage to one’s godchild or godchild’s mother or to the mother of the child that
 one offered for Confirmation. The latter restrictions are also confirmed by Pope
 Nicholas I in 860 in his reply to the Bulgarians.
-874
+
 Synod of Douci (France) urges subjects to refrain from marrying third cousins. To
 strengthen the ruling, the synod makes the children of such incestuous unions
 ineligible for succession to an estate.
-909
+
 Synod of Trosle (France) clarifies and affirms the Synod of Douci, deeming that
 children born in an incestuous marriage are ineligible to inherit property or titles.
-922
+
 Synod of Koblenz (Germany) reaffirms the provisions of the Synod of Mainz in
 813.
-927
+
 Synod of Trier (Germany) decrees a Penance of nine years for marriage between
 in-laws and blood relatives.
-948
+
 Synod of Ingelheim (Germany) prohibits marriage with all kin as far back as
 memory goes.
-997
+
 The Patriarch of Constantinople, Tomos of Sisinnios, forbids affinal marriages: (1)
 two brothers with two (female) cousins, (2) two (male) cousins with two sisters,
 (3) an uncle and his nephew with two sisters, or (4) two brothers with an aunt and
@@ -15850,54 +15657,54 @@ her niece.
 
 Year
 Prohibitions and Declarations on Marriage from the Church and Secular Rulers
-1003
+
 At the Synod of Diedenhofen (Germany), the Emperor Heinrich II substantially
 widens the ban on incest to include sixth cousins, forbidding marriage between
 people who share one of their 128 great-great-great-great-great-grandparents.
 Around
 In England, Wulfstan, Archbishop of York drafts law codes for the rulers Æthelred
-1014
+
 and Cnut that contain prohibitions against incest up to fourth cousins. The
 punishment for incest is enslavement.
-1023
+
 Synod of Seligenstadt (Germany) likewise forbids cousin marriage to sixth
 cousins. Bishop Burchard of Worms’s Decretum also extends the definition of
 incestuous marriage to include sixth cousins.
-1032
+
 Synod of Bourges (France) forbids cousin marriage, though the precise extent is
 unclear.
-1046
+
 Peter Damian, an influential Benedictine monk and later cardinal, argues in favor
 of a ban up to and including sixth cousins.
-1047
+
 Synod of Tulujas (France) forbids cousin marriage.
-1049
+
 Synod of Rheims (France) forbids cousin marriage.
-1059
+
 At the Synod of Rome, Pope Nicholas II forbids marriage to sixth cousins or as far
 back as relatives can be traced. His successor, Pope Alexander II, likewise decrees
 that marriages to sixth cousins or closer relatives are forbidden. The Kingdom of
 Dalmatia gets a temporary dispensation, forbidding marriages only out to fourth
 cousins.
-1060
+
 Synod of Tours (France) reiterates the provisions of the 1059 Synod of Rome.
-1063
+
 Synod of Rome forbids marriages up to sixth cousins.
-1072
+
 Synod of Rouen (France) forbids non-Christian marriages and decrees that the
 priest must inquire about the relationship of those about to get married.
-1075
+
 Synod of London forbids marriages up to sixth cousins, including affinal kin.
-1094
+
 Decretum of Ivo of Chartres: marriages of up to sixth cousins are forbidden.
-1101
+
 In Ireland, the Synod of Cashel introduces the incest prohibitions of the Roman
 Catholic Church.
-1102
+
 Synod of London nullifies existing marriages between sixth cousins (and closer)
 and decrees that third parties who knew of marriages among relatives are
 implicated in the crime of incest.
-1123
+
 The First Lateran Council (Italy) condemns unions between blood relatives
 (without specifying the relatedness). It declares that those who contracted
 incestuous marriages will be deprived of their hereditary rights.
@@ -15905,40 +15712,40 @@ incestuous marriages will be deprived of their hereditary rights.
 
 Year
 Prohibitions and Declarations on Marriage from the Church and Secular Rulers
-1125
+
 Synod of London repeats the provisions of the 1075 Synod of London, extending
 the incest ban out to include sixth cousins.
-1139
+
 Second Lateran Council (Italy) condemns unions between blood relatives (without
 specifying the degree).
-1140
+
 Decretum of Gratian: marriages of up to sixth cousins are forbidden.
-1142
+
 In Peter Lombard’s Books of Sentences, marriage up to and including sixth
 cousins is forbidden.
-1166
+
 Synod in Constantinople (Turkey) reinforces the earlier Eastern Church’s
 prohibition on cousin marriages (second cousins once removed and closer), and
 tightens enforcement.
-1174
+
 Synod of London forbids clandestine unions, presumably to facilitate the policing
 of incestuous marriages.
-1176
+
 The Bishop of Paris, Odo, helps introduce “the bans of marriage”—that is, the
 public notice of impending marriages in front of the congregation.
-1200
+
 Synod of London requires the publication of the “bans of marriage,” and decrees
 that marriages be conducted publicly. Kin marriages are forbidden (but the degree
 of kinship is not specified).
-1215
+
 Fourth Lateran Council (Italy) decreases the marriage prohibitions to third cousins
 and all closer blood relatives and in-laws. They also formalize and integrate prior
 rulings into a constitution of canons. This brought prenuptial investigation and
 marriage bans into formal legislation.
-1917
+
 Pope Benedict XV loosens restrictions, prohibiting only marriage to second
 cousins and all closer blood and affinal relatives.
-1983
+
 Pope John Paul II further loosens incest restrictions, allowing second cousins
 and more distant relatives to marry.
 This table draws primarily on Ubl (2008) and the Dictionary of Christian
@@ -16226,8 +16033,7 @@ economic growth indicates that (1) Protestantism didn’t spur urban growth rela
 Catholicism within the Holy Roman Empire until the 19th century, and (2) the effects of
 Protestantism on literacy occurred principally outside of urban areas (Cantoni, 2015).
 Remember, however, that most people lived in rural areas in this preindustrial world. In urban
-areas, the potential positive effects of Protestantism may have been mitigated by the Counter-
-Reformation and the actions of monastic orders like the Jesuits. On the influence of literacy and
+areas, the potential positive effects of Protestantism may have been mitigated by the CounterReformation and the actions of monastic orders like the Jesuits. On the influence of literacy and
 related cognitive skills on economic growth after 1800, see Cantoni, 2015; Hanushek and
 Woessmann, 2012.
 26.  Becker et al., 2016. These findings address Weber’s (1958) hypothesis regarding Protestantism
@@ -16287,8 +16093,7 @@ but really it’s about me.
   5.  The scale I’m describing is often thought of as running from “individualism” to “collectivism”
 (Hofstede, 2003; Tönnies, 2011; Triandis, 1994, 1995). It captures a spectrum that has been
 recognized in one form or another for at least a century. For an entertaining discussion, see Dan
-Hruschka’s piece at evolution-institute.org/article/infections-institutions-and-life-histories-
-searching-for-the-origins-of-ind. Note that I’m avoiding the term “collectivism” here because it
+Hruschka’s piece at evolution-institute.org/article/infections-institutions-and-life-historiessearching-for-the-origins-of-ind. Note that I’m avoiding the term “collectivism” here because it
 carries too much confusing semantic baggage.
   6.  Heine, 2016; Hofstede, 2003; Triandis, 1989, 1994, 1995.
   7.  Of course, the institutions that create regulated-relational societies vary immensely, as do the
@@ -16444,8 +16249,7 @@ that colleague more. Similarly, economic dependence on a business associate make
 relationship between Americans less likely, not more likely, as in China. WEIRD friendships
 are supposed to be “pure” and should ideally be free of such “messy” dependencies. Studies
 like this suggest that Chinese business and commerce, despite adopting the formal structures
-and outward appearance of WEIRD models, remain founded on, and organized by, regulated-
-relational networks. With this in mind, we can go back to the global surveys and look at
+and outward appearance of WEIRD models, remain founded on, and organized by, regulatedrelational networks. With this in mind, we can go back to the global surveys and look at
 responses to other trust-related questions. In China, only 11 percent of the population said yes
 when asked, “Do you trust people whom you meet for the first time?” Meanwhile, in the United
 States, the UK, France, and Germany, one-third to one-half said yes. Similarly, only 9 percent
@@ -16551,8 +16355,7 @@ Muthukrishna et al., 2013.
 2016; Terashima and Hewlett, 2015. Supporting the claim that boys copy prestigious hunters,
 the famed ethnographer Barry Hewlett reports that boys pay special attention to metuma, the
 great elephant hunters (thanks to Barry, for the proper grammar).
-13.  Even subtler than poisons are the ingenious food-processing protocols that have allowed small-
-scale societies to access a wide variety of staple plant foods. In the Andes, culinary practices
+13.  Even subtler than poisons are the ingenious food-processing protocols that have allowed smallscale societies to access a wide variety of staple plant foods. In the Andes, culinary practices
 incorporate special kinds of clays to neutralize the toxins that wild potatoes evolved to protect
 themselves from fungi, bacteria, and mammals. In California, hunter-gatherers evolved a broad
 array of techniques for leaching the tannins from acorns, which were often their primary food
@@ -16715,15 +16518,13 @@ Norenzayan, 2013.
 gradual. In the Sepik, for example, Tuzin’s reconstruction suggests that the dual ritual-group
 system found in the Tambaran probably emerged from an earlier marriage-group system in
 which the marriage elements slowly fell away and were replaced by ritual components.
-Similarly, based on research in Australia where such systems are common, the complex eight-
-tier system probably arose when communities with two different four-tier systems met and
+Similarly, based on research in Australia where such systems are common, the complex eighttier system probably arose when communities with two different four-tier systems met and
 began to negotiate ways to intermarry. Likewise, the four-tier system probably emerged when
 two groups met who each had their own two-tier system. Regarding adoption, one in five
 
 
 children in Ilahita was adopted (as in much of the Pacific). This helped sustain an ongoing and
-healthy competition among ritual groups and thereby diminished the hold of descent and co-
-residence (Tuzin, 1976, 2001). On matrilineal societies, see Ember, Ember, and Pasternack,
+healthy competition among ritual groups and thereby diminished the hold of descent and coresidence (Tuzin, 1976, 2001). On matrilineal societies, see Ember, Ember, and Pasternack,
 1974; Jones, 2011.
 21.  Acemoglu and Robinson, 2012; Diamond, 1997, 2005. There’s nothing unilineal, stagist, or
 progressive about this cultural evolutionary approach.
@@ -16755,13 +16556,11 @@ geographical locations where residents could access vast animal herds or rich ma
 Such areas may have seen increases in population size and complexity. Food production was
 special because the technical and ecological know-how were portable, at least along latitudinal
 lines and ecological contours, which held out the potential for transforming vast swaths of
-territory that would otherwise have sustained only thinly scattered populations of hunter-
-gatherers. Instead, a network of villages, towns, and eventually cities could form (Ashraf and
+territory that would otherwise have sustained only thinly scattered populations of huntergatherers. Instead, a network of villages, towns, and eventually cities could form (Ashraf and
 Michalopoulos, 2015; Diamond, 1997).
 33.  Bowles, 2011; Diamond, 1997; Matranga, 2017. The expansion of farmers into territories once
 occupied by hunter-gatherers is well documented in Asia, Africa, and the Americas. Models
-that purport to explain farming as a rational response to climatic changes ignore the collective-
-action problems associated with storage and agriculture as well as the threat of intergroup
+that purport to explain farming as a rational response to climatic changes ignore the collectiveaction problems associated with storage and agriculture as well as the threat of intergroup
 predation (Matranga, 2017). Why store or plant if you can just raid and steal?
 34.  Godelier, 1986; Hill et al., 2011. The ancient Greeks may have had similar views on the
 hereditary contribution of mothers to their children (Zimmer, 2018).
@@ -16928,8 +16727,7 @@ etc.). Unlike the treatment of strangers or avoidance of adultery, we don’t ex
 competition to spread divine concerns about instinctually easy behaviors; the gods, for example,
 don’t need to command mothers to love their babies or men to think more frequently about sex.
 17.  Mark Collard also sometimes participated in these early meetings. Later, the anthropologist Ben
-Purzycki and religious studies scholar Martin Lang played central roles in guiding our cross-
-cultural research.
+Purzycki and religious studies scholar Martin Lang played central roles in guiding our crosscultural research.
 18.  Lang et al., 2019; Purzycki et al., 2016; Purzycki et al., 2017.
 19.  We also assessed people’s beliefs about their gods’ willingness to reward the faithful and found
 that it had no impact on their biases against strangers. Some might find this puzzling, given the
@@ -17010,13 +16808,13 @@ sacrifice their own children, although these were typically children of their se
 32.  Handy, 1927, p. 78.
 33.  Aubet, 2013; Collins, 1994; Leick, 1991; Wright, 2009. There were also gods of adultery and
 thievery in Polynesia (Williamson, 1937, p. 19).
-34.  For 
-an 
-overview 
-of 
-ancient 
-Mesopotamian 
-gods, 
+34.  For
+an
+overview
+of
+ancient
+Mesopotamian
+gods,
 see
 oracc.museum.upenn.edu/amgg/listofdeities. In Babylon, one hymn to Shamash is explicit that
 merchants can’t cheat on their weights and measures; this sentiment is later echoed in the Old
@@ -17167,8 +16965,8 @@ and colleagues (Bittles, 1998; Bittles and Black, 2010).
 
   8.  The estimate of 85–90 percent of Christians tracing their cultural lineage back to the Western
 Church comes from a Pew survey (www.pewforum.org/2011/12/19/global-christianity-exec)
-and 
-from 
+and
+from
 Wikipedia
 (en.wikipedia.org/wiki/List_of_Christian_denominations_by_number_of_members#Catholic_C
 hurch_%E2%80%93_1.285_billion).
@@ -17262,14 +17060,14 @@ property.
 34.  Mitterauer, 2011, 2015.
 35.  Harper, 2013; Mitterauer, 2011, 2015; Smith and Cheetham, 1880.
 36.  Mitterauer, 2011, 2015.
-37.  Korotayev, 
-2004; 
-Mitterauer, 
-2011, 
-2015; 
-Smith 
-and 
-Cheetham, 
+37.  Korotayev,
+2004;
+Mitterauer,
+2011,
+2015;
+Smith
+and
+Cheetham,
 1880;
 www.iranicaonline.org/articles/marriage-next-of-kin. The Old Testament is explicit on the
 topic: “If brothers dwell together, and one of them dies and has no son, the wife of the dead
@@ -17396,8 +17194,7 @@ manorial agriculture were spared the strong, early dosing of the MFP.
 nuclear, neolocal, and independent; in China, they were extended, patrilocal, and
 interdependent.
 61.  The age of marriage, of course, fluctuates for a variety of reasons. This doesn’t change the fact
-that northwestern Europe increasingly displayed a pattern that was historically and cross-
-culturally distinct (Van Zanden and De Moor, 2010).
+that northwestern Europe increasingly displayed a pattern that was historically and crossculturally distinct (Van Zanden and De Moor, 2010).
 62.  Lee and Feng, 2009; Van Zanden and De Moor, 2010.
 63.  MacFarlane, 1978; Silverman and Maxwell, 1978; Lynch, 2003. Two other elements associated
 with this patterning are: (1) inheritance by testament: property was no longer transmitted across
@@ -17976,8 +17773,7 @@ could accurately assess if water had been added, at least for volumes under abou
 The sellers couldn’t even get the rank ordering of dilution approximately correct. So, milk is
 indeed a strong credence good (unless you happen to have modern laboratory facilities at your
 disposal). Finally, the research duo measured the impartial honesty of 72 milk sellers using the
-Impersonal Honesty Game, where people are paid according to their reported rolls of a six-
-sided die. Not surprisingly, milk sellers who misreported their rolls more frequently also diluted
+Impersonal Honesty Game, where people are paid according to their reported rolls of a sixsided die. Not surprisingly, milk sellers who misreported their rolls more frequently also diluted
 their milk by a higher percentage—confirming that the dice game measures precisely the kind
 of behavior that we are interested in. For every six misreports out of 40 total die rolls, milk
 sellers increased their dilution by 3 percentile points. Interestingly, there were only two
@@ -18154,8 +17950,7 @@ eventually sovereigns figured out how to levy taxes (Blaydes and Paik, 2016). Th
 elites to sell their lands—free and clear (often to merchants)—helped push along the Church’s
 campaign against communal ownership (inheritance customs) and their preferred policies for
 individual ownership.
-22.  Blaydes and Paik, 2016. Ideally, we would have data on the mobilization of both elites and non-
-elites for war, so here the data on mobilization of elites stands in as a proxy for overall
+22.  Blaydes and Paik, 2016. Ideally, we would have data on the mobilization of both elites and nonelites for war, so here the data on mobilization of elites stands in as a proxy for overall
 mobilization. After the Crusades, the volume of trade in Europe notably picked up, and cities
 like Flanders and Bruges became hubs for spices, silk, porcelain, and other luxury goods that
 the crusaders encountered while traveling. The Crusades may also have consolidated people’s
@@ -18178,8 +17973,7 @@ through social networks (Fowler and Christakis, 2010).
 29.  Thanks to Patrick Francois and Thomas Fujiwara for supplying their data (Francois et al., 2011,
 2018).
 30.  Francois et al., 2011, 2018.
-31.  There is every reason to believe that humans are well calibrated to low-frequency and even one-
-shot interactions, based on what is known about our ancestral environments (Chudek, Zhao, and
+31.  There is every reason to believe that humans are well calibrated to low-frequency and even oneshot interactions, based on what is known about our ancestral environments (Chudek, Zhao, and
 Henrich, 2013; Fehr and Henrich, 2003; Henrich, 2016).
 32.  Thanks to Patrick Francois and Thomas Fujiwara for providing their data (Francois et al., 2011).
 33.  The findings from Patrick’s team are not due to increases in income generated by intergroup
@@ -18252,14 +18046,13 @@ charter of liberties for his new colony that, among other basic rights, guarante
 freedom. Philadelphia soon swelled with new arrivals—Quakers, Jews, Catholics, Huguenots,
 Amish, and Lutherans (a skilled bunch)—and flourished economically, outcompeting its less
 tolerant North American rivals.
-54.  Harris, 
-1998, 
-p. 
-190; 
-MacFarlane, 
-2014; 
-www.baseball-
-reference.com/bullpen/origins_of_baseball.
+54.  Harris,
+1998,
+p.
+190;
+MacFarlane,
+2014;
+www.baseballreference.com/bullpen/origins_of_baseball.
 
 
 11. Market Mentalities
@@ -18287,8 +18080,7 @@ also appears in the written recipes for production. At the beginning of the 12th
 recipe for the gold mixture used to illustrate book manuscripts mentions that the ore must be
 ground in a mill for “two to three hours.” By the 15th century, time specifications are more
 common and increasingly precise. A recipe for gunpowder, for example, specifies that the
-sulfur, saltpeter, and ammonium chloride should be stirred over a fire for half an hour (Dohrn-
-van Rossum, 1996, pp. 307–308).
+sulfur, saltpeter, and ammonium chloride should be stirred over a fire for half an hour (Dohrnvan Rossum, 1996, pp. 307–308).
   6.  Boerner and Severgnini, 2015; Dohrn-van Rossum, 1996.
   7.  Thompson, 1967, pp. 58–59. For work on how people in different societies think about time,
 see Boroditsky, 2011.
@@ -18365,17 +18157,17 @@ average returns on land or from rent charges on land. For example, if lands coul
 $1,000 and can produce $100 per year—say, in commercial crops—then the estimated interest
 rate is 10 percent. Similarly, a rent charge is like a loan: I give you $100 and you put your lands
 up as collateral and promise to pay me $1 per year, forever. Under this deal, the annual interest
-rate 
-is 
-estimated 
-to 
-be 
-1 
-percent. 
-For 
-a 
-useful 
-discussion, 
+rate
+is
+estimated
+to
+be
+
+percent.
+For
+a
+useful
+discussion,
 see
 faculty.econ.ucdavis.edu/faculty/gclark/ecn110a/readings/chapter9.pdf.
 26.  Clark, 2007a; Eisner, 2001, 2003. To examine how these calculations were made, see Clark,
@@ -18409,8 +18201,7 @@ ethnographic descriptions reads, “… Indians do not follow that general and s
 of education by which children are treated as if they were all intended for the same condition,
 and for discharging the same duties; but those of each cast are from their infancy formed for
 what they are to be during their whole lives” (Roy, 2013, p. 74). Meanwhile, in late Imperial
-China, urban occupations remained associated with particular regional or clan origins (Moll-
-Murata, 2013; Winter, 2013).
+China, urban occupations remained associated with particular regional or clan origins (MollMurata, 2013; Winter, 2013).
 37.  de la Croix et al., 2018; Lopez, 1976; Mokyr, 2002.
 38.  MacFarlane, 1978; Van Zanden and De Moor, 2010; Winter, 2013.
 39.  Smaldino et al., 2019.
@@ -18553,8 +18344,7 @@ canonists rejected Roman precedents in several important ways. For example, cano
 rejected the Roman notion that voluntary associations could gain legal standing only by royal
 decree. Instead, any group, through their voluntary commitments (often taken in sacred oaths),
 could constitute a corporation and gain legal standing—or what is called a “legal personality.”
-Canon law also stipulated that corporations could make new laws for members and punish law-
-breakers. This was a good move, since towns and cities were already doing this (Berman,
+Canon law also stipulated that corporations could make new laws for members and punish lawbreakers. This was a good move, since towns and cities were already doing this (Berman,
 1983).
 16.  Barker and Goldstein, 2001; Huff, 1993. Some suggest that Aristarchus of Samos also proposed
 a heliocentric version of the solar system, in the third century BCE.
@@ -18679,8 +18469,7 @@ approaches don’t develop independently (Derex and Boyd, 2016). While it’s po
 confirm this theoretical finding in laboratory experiments, I’ve not seen any evidence that it’s
 relevant in the real world. Real human populations naturally fragment and fracture due to the
 evolutionary dynamics of language, tribalism, political collapse, and ethnicity (McElreath et al.,
-2003). The problem that we humans have always faced is getting together and sustaining large-
-scale cooperation (Boyd, 2017; Turchin, 2015), not breaking ourselves down into fractured and
+2003). The problem that we humans have always faced is getting together and sustaining largescale cooperation (Boyd, 2017; Turchin, 2015), not breaking ourselves down into fractured and
 parochial local groups.
 10.  Basalla, 1988; Henrich, 2009; Mokyr, 1990. This has become somewhat less true since about
 the mid-19th century, with the development of top-down science, but it was certainly still true
@@ -18786,13 +18575,13 @@ interconnectedness among hunter-gatherers on technology (Henrich et al., 2016).
 40.  Epstein, 1998; Gimpel, 1976; Kelly and Ó Gráda, 2016; Mokyr, 1990; Van Zanden, 2009a,
 2009b.
 41.  Cantoni and Yuchtman, 2014; Mokyr, 2016.
-42.  Inkster, 
-1990; 
-Mokyr, 
-2016. 
-Also 
-see 
-en.wikipedia.org/wiki/Marino_Ghetaldi 
+42.  Inkster,
+1990;
+Mokyr,
+2016.
+Also
+see
+en.wikipedia.org/wiki/Marino_Ghetaldi
 and
 en.wikipedia.org/wiki/Jan_Bro%C5%BCek. Naturally, the pulsing of this informational
 network quickened as it catalyzed the creation of new transportation and communication
@@ -18853,8 +18642,7 @@ material merely spread to already prosperous places or tracked longer-running hi
 These analyses suggest that, rather than capturing something historically deep about these
 different parts of France, we are seeing the effects of how different cities plugged themselves
 into Europe’s collective brain.
-52.  Quoted in Scoville, 1953, pp. 443–44; Squicciarini and Voigtla, 2015. Huguenots in 18th-
-century France had to practice in secret. But, we know that they persisted: once Napoleon
+52.  Quoted in Scoville, 1953, pp. 443–44; Squicciarini and Voigtla, 2015. Huguenots in 18thcentury France had to practice in secret. But, we know that they persisted: once Napoleon
 instituted religious freedom, they suddenly reappeared—and, across cities, their post-Napoleon
 population sizes were highly correlated with their pre-1700 population sizes. It’s worth noting
 that Calvinists eliminated so many annual Catholic holidays that they would have worked 15–
@@ -19023,9 +18811,8 @@ transmission of pathogens.
 19.  Dincecco and Onorato, 2018; Winter, 2013.
 20.  Gershman, 2015; Nunn and De La Sierra, 2017. For the ghost statistic, see
 www.economist.com/graphic-detail/2018/10/31/pagan-beliefs-persist-in-the-new-world. For the
-elves, 
-www.theatlantic.com/international/archive/2013/10/why-so-many-icelanders-still-
-believe-in-invisible-elves/280783.
+elves,
+www.theatlantic.com/international/archive/2013/10/why-so-many-icelanders-stillbelieve-in-invisible-elves/280783.
 
 
 BIBLIOGRAPHY
@@ -19035,11 +18822,11 @@ Acemoglu, D., Akcigit, U., and Celik, M. A. (2013). Young, restless and creative
 disruption and creative innovations. Working Paper No. 19894, National Bureau of Economic
 Research. www.nber.org/papers/w19894.
 Acemoglu, D., Akcigit, U., and Celik, M. A. (2016). Young, restless and creative: Openness to
-disruption 
-and 
-creative 
-innovations. 
-Working 
+disruption
+and
+creative
+innovations.
+Working
 paper,
 static1.squarespace.com/static/57fa873e8419c230ca01eb5f/t/5935737a8419c282eb2c1756/149667
 5232862/CreativeInnovation_170605_fin.pdf.
@@ -19063,13 +18850,13 @@ War on Tribal Islam. Washington, DC: Brookings Institution Press.
 Akbari, M., Bahrami-Rad, D., and Kimbrough, E. O. (2017). Kinship, fractionalization and
 corruption. Journal of Economic Behavior and Organization 166, 493–528.
 Akcigit, U., Kerr, W. R., and Nicholas, T. (2013). The mechanics of endogenous innovation and
-growth: 
-Evidence 
-from 
-historical 
-U.S. 
-patents. 
-Working 
+growth:
+Evidence
+from
+historical
+U.S.
+patents.
+Working
 paper,
 siepr.stanford.edu/system/files/shared/1311.
 Akçomak, S., Webbink, D., and ter Weel, B. (2016). Why did the Netherlands develop so early? The
@@ -19140,8 +18927,7 @@ monetary wins and losses predicts future financial risk-taking. Psycho- neuroend
 58–64.
 Appiah, A. (2010). The Honor Code: How Moral Revolutions Happen (1st ed.). New York: W. W.
 Norton.
-Arantes, J., Berg, M. E., Lawlor, D., and Grace, R. C. (2013). Offenders have higher delay-
-discounting rates than non-offenders after controlling for differences in drug and alcohol abuse.
+Arantes, J., Berg, M. E., Lawlor, D., and Grace, R. C. (2013). Offenders have higher delaydiscounting rates than non-offenders after controlling for differences in drug and alcohol abuse.
 Legal and Criminological Psychology 18 (2), 240–53.
 Arruñada, B. (2010). Protestants and Catholics: Similar work ethic, different social ethic. The
 Economic Journal 120 (547), 890–918.
@@ -19182,8 +18968,7 @@ Ethnographic Atlas and the persistence of culture. Working paper.
 Bai, Y., and Kung, J. K. S. (2015). Diffusing knowledge while spreading God’s message:
 Protestantism and economic prosperity in China, 1840–1920. Journal of the European Economic
 Association 13 (4), 669–98.
-Baier, C. J., and Wright, B. R. E. (2001). “If you love me, keep my commandments”: A meta-
-analysis of the effect of religion on crime. Journal of Research in Crime and Delinquency 38 (1),
+Baier, C. J., and Wright, B. R. E. (2001). “If you love me, keep my commandments”: A metaanalysis of the effect of religion on crime. Journal of Research in Crime and Delinquency 38 (1),
 3–21.
 Bailey, D. H., Hill, K. R., and Walker, R. S. (2014). Fitness consequences of spousal relatedness in
 46 small-scale societies. Biology Letters 10 (5), 20140160.
@@ -19299,9 +19084,9 @@ districts. The Economic Journal 129 (622), 2295–321.
 Bentzen, J. S., Kaarsen, N., and Wingender, A. M. (2017). Irrigation and autocracy. Journal of the
 European Economic Association 15 (1), 1–53.
 Benzell, S. G., and Cooke, K. (2016). A network of thrones: Kinship and conflict in Europe, 1495–
-1918, 
-1–5. 
-Working 
+1918,
+1–5.
+Working
 paper,
 kmcooke.weebly.com/uploads/3/0/9/4/30942717/royals_benzellcooke.pdf.
 Bergreen, L. (2007). Marco Polo: From Venice to Xanadu (1st ed.). New York: Alfred A. Knopf.
@@ -19341,9 +19126,9 @@ Behavioral Ecology and Sociobiology 73 (6), 78.
 Bhui, R., Chudek, M., and Henrich, J. (2019b). Work time and market integration in the original
 affluent society. Proceedings of the National Academy of Sciences 116 (44), 22100–22105.
 Bittles, A. H. (1998). Empirical estimates of the global prevalence of consanguineous marriage in
-contemporary 
-societies. 
-Working 
+contemporary
+societies.
+Working
 paper.
 researchrepository.murdoch.edu.au/id/eprint/13494/1/empirical_estimates.pdf.
 Bittles, A. H. (2001). A background summary of consanguineous marriage. Working paper,
@@ -19355,14 +19140,14 @@ Philadelphia: Harwood Academic.
 Blattman, C. (2009). From violence to voting: War and political participation in Uganda. American
 Political Science Review 103, 231–47.
 Blattman, C., Jamison, J. C., and Sheridan, M. (2016). Reducing crime and violence: Experimental
-evidence 
-on 
-adult 
-noncognitive 
-investments 
-in 
-Liberia. 
-Working 
+evidence
+on
+adult
+noncognitive
+investments
+in
+Liberia.
+Working
 paper,
 www.nber.org/papers/w21204.
 Blaydes, L., and Paik, C. (2016). The impact of Holy Land crusades on state formation: War
@@ -19401,8 +19186,7 @@ Boppart, T., Falkinger, J., and Grossmann, V. (2014). Protestantism and educatio
 Bible) and other skills. Economic Inquiry 52 (2), 874–95.
 Bornstein, G., and Benyossef, M. (1994). Cooperation in inter-group and single-group social
 dilemmas. Journal of Experimental Social Psychology 30, 52–67.
-Bornstein, G., Budescu, D., and Zamir, S. (1997). Cooperation in intergroup, N- person, and two-
-person games of chicken. Journal of Conflict Resolution 41 (3), 384–406.
+Bornstein, G., Budescu, D., and Zamir, S. (1997). Cooperation in intergroup, N- person, and twoperson games of chicken. Journal of Conflict Resolution 41 (3), 384–406.
 Bornstein, G., Gneezy, U., and Nagel, R. (2002). The effect of intergroup competition on group
 coordination: An experimental study. Games and Economic Behavior 41 (1), 1–25.
 Boroditsky, L. (2011). How languages construct time. In S. Dehaene & E. Brannon (eds.), Space,
@@ -19622,9 +19406,9 @@ Journal of Economic History 47 (2), 419–32.
 Clark, G. (2007a). A Farewell to Alms: A Brief Economic History of the World. The Princeton
 Economic History of the Western World. Princeton, NJ: Princeton University Press.
 Clark, G. (2007b). Genetically capitalist? The Malthusian era, institutions and the formation of
-modern 
-preferences. 
-Working 
+modern
+preferences.
+Working
 paper,
 faculty.econ.ucdavis.edu/faculty/gclark/papers/Capitalism%20Genes.pdf.
 Clegg, J. M., Wen, N. J., and Legare, C. H. (2017). Is non-conformity WEIRD? Cultural variation in
@@ -19652,8 +19436,7 @@ Coltheart, M. (2014). The neuronal recycling hypothesis for reading and the ques
 universals. Mind and Language 29 (3), 255–69.
 Connor, P., Cohn, D., and Gonzalez-Barrera, A. (2013). Changing patterns of global migration and
 remittances: More migrants in the U.S. and other wealthy countries; more money to middle-income
-countries. PEW Research Center: Social and Demographic Trends. www.pewsocialtrends.org/wp-
-content/uploads/sites/3/2013/12/global-migration-final_12-2013.pdf.
+countries. PEW Research Center: Social and Demographic Trends. www.pewsocialtrends.org/wpcontent/uploads/sites/3/2013/12/global-migration-final_12-2013.pdf.
 Conot, R. E. (1979). A Streak of Luck (1st ed.). New York: Seaview Books/Simon & Schuster.
 Cooperrider, K., Marghetis, T., and Núñez, R. (2017). Where does the ordered line come from?
 Evidence from a culture of Papua New Guinea. Psychological Science 28 (5), 599–608.
@@ -19705,8 +19488,7 @@ History 53 (S16), 179.
 De Moor, T., and Van Zanden, J. L. (2010). Girl power: The European marriage pattern and labour
 markets in the North Sea region in the late medieval and early modern period. Economic History
 Review 63 (1), 1–33.
-de Pleijt, A. M. (2016). Accounting for the “little divergence”: What drove economic growth in pre-
-industrial Europe, 1300–1800? European Review of Economic History 20 (4), 387–409.
+de Pleijt, A. M. (2016). Accounting for the “little divergence”: What drove economic growth in preindustrial Europe, 1300–1800? European Review of Economic History 20 (4), 387–409.
 de Vries, J. (1994). The industrial revolution and the industrious revolution. Journal of Economic
 History 54 (2), 249–70.
 de Vries, J. (2008). The Industrious Revolution: Consumer Behavior and the Household Economy,
@@ -19756,19 +19538,18 @@ Economic Growth 21 (3), 259–82.
 Dincecco, M., and Onorato, M. G. (2018). From Warfare to Wealth: The Military Origins of Urban
 Prosperity in Europe. New York: Cambridge University Press.
 Dittmar, J. E., and Seabold, S. (2016). Media, markets, and radical ideas: Evidence from the
-Protestant 
-Reformation. 
-Working 
+Protestant
+Reformation.
+Working
 paper,
 www.jeremiahdittmar.com/files/dittmar_seabold_print_religion.pdf.
 Doepke, M., and Zilibotti, F. (2008). Occupational choice and the spirit of capitalism. Quarterly
 Journal of Economics 123 (2), 747–93.
 Dohmen, T., Enke, B., Falk, A., Huffman, D., and Sunde, U. (2018). Patience and comparative
-development. 
-Working 
-paper, 
-www.iame.uni-bonn.de/people/thomas-dohmen/patience-and-
-comparative-development-paper.
+development.
+Working
+paper,
+www.iame.uni-bonn.de/people/thomas-dohmen/patience-andcomparative-development-paper.
 Dohrn-van Rossum, G. (1996). History of the Hour: Clocks and Modern Temporal Orders. Translated
 by Thomas Dunlap. Chicago: University of Chicago Press.
 Dollinger, P. (1970). The German Hansa. Translated and edited by D. S. Ault and S. H. Steinberg.
@@ -19816,8 +19597,7 @@ Edelman, B. (2009). Red light states: Who buys online adult entertainment? Journ
 Perspectives 23 (1), 209–220.
 The Editors of the Encyclopedia Britannica. (2018). Sicily. In Encyclopedia Britannica Online.
 Encyclopedia Britannica.
-Edlund, L., Li, H., Yi, J., and Zhang, J. (2007). Sex ratios and crime: Evidence from China’s one-
-child policy. IZA Discussion Paper No. 3214, pp. 1–51.
+Edlund, L., Li, H., Yi, J., and Zhang, J. (2007). Sex ratios and crime: Evidence from China’s onechild policy. IZA Discussion Paper No. 3214, pp. 1–51.
 Edlund, L., Li, H., Yi, J., and Zhang, J. (2013). Sex ratios and crime: Evidence from China. Review
 of Economics and Statistics 95 (5), 1520–34.
 Eisenegger, C., Haushofer, J., and Fehr, E. (2011). The role of testosterone in social interaction.
@@ -19902,8 +19682,7 @@ Spain: Editorial OPE.
 Fessler, D. M. T. (2004). Shame in two cultures: Implications for evolutionary approaches. Journal of
 Cognition and Culture 4 (2), 207–262.
 Fessler, D. M. T. (2007). From appeasement to conformity: Evolutionary and cultural perspective on
-shame, competition, and cooperation. In J. Tracy, R. Robins, and J. P. Tangney (eds.), The Self-
-Conscious Emotion: Theory and Research. New York: Guilford Press.
+shame, competition, and cooperation. In J. Tracy, R. Robins, and J. P. Tangney (eds.), The SelfConscious Emotion: Theory and Research. New York: Guilford Press.
 Fessler, D. M. T., and Navarrete, C. D. (2004). Third-party attitudes toward sibling incest: Evidence
 for Westermarck’s hypotheses. Evolution and Human Behavior 25 (5), 277–94.
 Fiddick, L., Cosmides, L., and Tooby, J. (2000). No interpretation without representation: The role of
@@ -20006,8 +19785,7 @@ Gellhorn, W. (1987). China’s quest for legal modernity. Journal of Chinese Law
 Genschow, O., Rigoni, D., and Brass, M. (2017). Belief in free will affects causal attributions when
 judging others’ behavior. Proceedings of the National Academy of Sciences 114 (38), 10071–
 10076.
-Gershman, B. (2015). Witchcraft beliefs and the erosion of social capital: Evidence from Sub-
-Saharan Africa and beyond. Journal of Development Economics 120, 182–208.
+Gershman, B. (2015). Witchcraft beliefs and the erosion of social capital: Evidence from SubSaharan Africa and beyond. Journal of Development Economics 120, 182–208.
 Gervais, W. M. (2011). Finding the faithless: Perceived atheist prevalence reduces anti-atheist
 prejudice. Personality and Social Psychology Bulletin 37 (4), 543–56.
 Gervais, W. M., and Henrich, J. (2010). The Zeus problem: Why representational content biases
@@ -20036,8 +19814,7 @@ Glennie, P., and Thrift, N. (1996). Reworking E. P. Thompson’s “Time, Work-d
 Industrial Capitalism.” Time and Society 5 (3), 275–99.
 Glick, T. F. (1979). Islamic and Christian Spain in the Early Middle Ages. Princeton, NJ: Princeton
 University Press.
-Gluckman, M. (1940). The kingdom of the Zulu of South Africa. In M. Fortes and E. E. Evans-
-Pritchard (eds.), African Political Systems (pp. 25–55). New York: Oxford University Press.
+Gluckman, M. (1940). The kingdom of the Zulu of South Africa. In M. Fortes and E. E. EvansPritchard (eds.), African Political Systems (pp. 25–55). New York: Oxford University Press.
 Gluckman, M. (1972a). The Allocation of Responsibility. Manchester, UK: Manchester University
 Press.
 Gluckman, M. (1972b). The Ideas in Barotse Jurisprudence. Manchester, UK: Manchester University
@@ -20151,8 +19928,7 @@ Guiso, L., Sapienza, P., and Zingales, L. (2009). Cultural biases in economic ex
 Journal of Economics 124 (3), 1095–1131.
 Guiso, L., Sapienza, P., and Zingales, L. (2016). Long-term persistence. Journal of the European
 Economic Association 14 (6), 1401–1436.
-Gurevich, A. (1995). The Origins of European Individualism. The Making of Europe. Oxford: Wiley-
-Blackwell.
+Gurevich, A. (1995). The Origins of European Individualism. The Making of Europe. Oxford: WileyBlackwell.
 Gurven, M. (2004). To give and to give not: The behavioral ecology of human food transfers.
 Behavioral and Brain Sciences 27 (4), 543–83.
 Gurven, M., von Rueden, C., Massenkoff, M., Kaplan, H., and Lero Vie, M. (2013). How universal is
@@ -20345,8 +20121,7 @@ Hirschfeld, L. A., and Gelman, S. A. (1994). Mapping the Mind: Domain Specificit
 and Culture. Cambridge: Cambridge University Press.
 Hirschman, A. O. (1982). Rival interpretations of market society: Civilizing, destructive or feeble?
 Journal of Economic Literature 20 (4), 1463–84.
-Hoddinott, J., Maluccio, J., Behrman, J. R., Martorell, R., Melgar, P., Quisumbing, A. R., Ramirez-
-Zea, M., Stein, A. D., and Yount, K. M. (2011). The consequences of early childhood growth
+Hoddinott, J., Maluccio, J., Behrman, J. R., Martorell, R., Melgar, P., Quisumbing, A. R., RamirezZea, M., Stein, A. D., and Yount, K. M. (2011). The consequences of early childhood growth
 failure over the life course. IFPRI Discussion Paper No. 1073. Washington, DC: International Food
 Policy Research Institute.
 Hoff, K., and Sen, A. (2016). The kin-system as a poverty trap? In S. Bowles, S. N. Durlauf, and K.
@@ -20363,8 +20138,7 @@ Hoppitt, W., and Laland, K. N. (2013). Social Learning: An Introduction to Mecha
 and Models. Princeton, NJ: Princeton University Press.
 Horner, V., and Whiten, A. (2005). Causal knowledge and imitation/emulation switching in
 chimpanzees (Pan troglodytes) and children (Homo sapiens). Animal Cognition 8 (3), 164–81.
-Horney, J., Osgood, D. W., and Marshall, I. H. (1995). Criminal careers in the short-term: Intra-
-individual variability in crime and its relation to local life circumstances. American Sociological
+Horney, J., Osgood, D. W., and Marshall, I. H. (1995). Criminal careers in the short-term: Intraindividual variability in crime and its relation to local life circumstances. American Sociological
 Review 60 (5), 655–73.
 Hornung, E. (2014). Immigration and the diffusion of technology: The Huguenot diaspora in Prussia.
 American Economic Review 104 (1), 84–122.
@@ -20395,13 +20169,13 @@ England, 1260–1850. The Economic Journal 129 (623), 2867–87.
 Inglehart, R., and Baker, W. E. (2000). Modernization, cultural change, and the persistence of
 traditional values. American Sociological Review 65 (1), 19–51.
 Inglehart, R., Haerpfer, C., Moreno, A., Welzel, C., Kizilova, K., Diez-Medrano, J.,… et al. (eds.).
-(2014). 
-World 
-Values 
-Survey: 
-All 
-Rounds—Country-Pooled 
-Datafile 
+(2014).
+World
+Values
+Survey:
+All
+Rounds—Country-Pooled
+Datafile
 Version:
 www.worldvaluessurvey.org/WVSDocumentationWVL.jsp. Madrid: JD Systems Institute.
 Inkster, I. (1990). Mental capital: Transfers of knowledge and technique in eighteenth century
@@ -20554,8 +20328,7 @@ Sciences 362 (1481), 857–75.
 Kouri, E. M., Lukas, S. E., Pope, H. G., and Oliva, P. S. (1995). Increased aggressive responding in
 male volunteers following the administration of gradually increasing doses of testosterone
 cypionate. Drug and Alcohol Dependence 40 (1), 73–79.
-Kraft-Todd, G. T., Bollinger, B., Gillingham, K., Lamp, S., and Rand, D. G. (2018). Credibility-
-enhancing displays promote the provision of non-normative public goods. Nature 563 (7730), 245–
+Kraft-Todd, G. T., Bollinger, B., Gillingham, K., Lamp, S., and Rand, D. G. (2018). Credibilityenhancing displays promote the provision of non-normative public goods. Nature 563 (7730), 245–
 48.
 Kremer, M. (1993). Population growth and technological change: One Million B.C. to 1990.
 Quarterly Journal of Economics 108 (3), 681–716.
@@ -20574,9 +20347,7 @@ Kuper, A. (2010). Incest and Influence. Cambridge, MA: Harvard University Press.
 Kushner, H. I. (2013). Why are there (almost) no left-handers in China? Endeavour 37 (2), 71–81.
 Kushnir, T. (2018). The developmental and cultural psychology of free will. Philosophy Compass 13
 (11), e12529.
-Laajaj, R., Macours, K., Alejandro, D., Hernandez, P., Arias, O., Gosling, S., Potter, J., Rubio-
-Codina, M., and Vakis, R. (2019). Challenges to capture the big five personality traits in non-
-WEIRD populations. Science Advances 5 (7), eaaw5226.
+Laajaj, R., Macours, K., Alejandro, D., Hernandez, P., Arias, O., Gosling, S., Potter, J., RubioCodina, M., and Vakis, R. (2019). Challenges to capture the big five personality traits in nonWEIRD populations. Science Advances 5 (7), eaaw5226.
 Laland, K. N. (2004). Social learning strategies. Learning and Behavior 32 (1), 4–14.
 Laland, K. N. (2008). Exploring gene-culture interactions: Insights from handedness, sexual selection
 and niche-construction case studies. Philosophical Transactions of the Royal Society B: Biological
@@ -20586,8 +20357,7 @@ Princeton, NJ: Princeton University Press.
 Lancaster, L. (2015). Kinship in Anglo-Saxon society—I. British Journal of Sociology 9 (3), 230–50.
 Landes, D. S. (1998). The Wealth and Poverty of Nations: Why Some Are So Rich and Some So
 Poor. New York: W. W. Norton.
-Lang, M., Bahna, V., Shaver, J. H., Reddish, P., and Xygalatas, D. (2017). Sync to link: Endorphin-
-mediated synchrony effects on cooperation. Biological Psychology 127, 191–97.
+Lang, M., Bahna, V., Shaver, J. H., Reddish, P., and Xygalatas, D. (2017). Sync to link: Endorphinmediated synchrony effects on cooperation. Biological Psychology 127, 191–97.
 Lang, M., Kratky, J., Shaver, J. H., Jerotijevic, D., and Xygalatas, D. (2015). Effects of anxiety on
 spontaneous ritualized behavior. Current Biology 25 (14), 1892–97.
 Lang, M., Purzycki, B. G., Apicella, C. L., Atkinson, Q. D., Bolyanatz, A., Cohen, E.,… Lang, M.
@@ -20605,8 +20375,7 @@ Laslett, P. (1977). Family Life and Illicit Love in Earlier Generations: Essays 
 Cambridge: Cambridge University Press.
 Laslett, P. (1984). The World We Have Lost: Further Explored (3rd ed.). New York: Scribner.
 Laslett, P., and Wall, R. (1972). Household and Family in Past Time. Cambridge: University Press.
-Launay, J., Tarr, B., and Dunbar, R. I. M. (2016). Synchrony as an adaptive mechanism for large-
-scale human social bonding. Ethology 122 (10), 779–89.
+Launay, J., Tarr, B., and Dunbar, R. I. M. (2016). Synchrony as an adaptive mechanism for largescale human social bonding. Ethology 122 (10), 779–89.
 Laurin, K., Shariff, A. F., Henrich, J., and Kay, A. C. (2012). Outsourcing punishment to God:
 Beliefs in divine control reduce earthly punishment. Proceedings of Royal Society B: Biological
 Sciences 279 (1741), 3272–81.
@@ -20672,8 +20441,7 @@ but not with male group size in chimpanzee communities. PLoS One 5 (3), e9241.
 Lindstrom, L. (1990). Big men as ancestors: Inspiration and copyrights on Tanna (Vanuatu).
 Ethnology 29 (4), 313–26.
 Little, A. C., Burriss, R. P., Jones, B. C., DeBruine, L. M., and Caldwell, C. A. (2008). Social
-influence in human face preference: Men and women are influenced more for long-term than short-
-term attractiveness decisions. Evolution and Human Behavior 29 (2), 140–46.
+influence in human face preference: Men and women are influenced more for long-term than shortterm attractiveness decisions. Evolution and Human Behavior 29 (2), 140–46.
 Little, A. C., Jones, B. C., Debruine, L. M., and Caldwell, C. A. (2011). Social learning and human
 mate preferences: A potential mechanism for generating and maintaining between-population
 diversity in attraction. Philosophical Transactions of the Royal Society B: Biological Sciences 366
@@ -20745,8 +20513,7 @@ Marlowe, F. W. (2000). Paternal investment and the human mating system. Behaviou
 (1–3), 45–61.
 
 
-Marlowe, F. W. (2003). The mating system of foragers in the standard cross-cultural sample. Cross-
-Cultural Research 37 (3), 282–306.
+Marlowe, F. W. (2003). The mating system of foragers in the standard cross-cultural sample. CrossCultural Research 37 (3), 282–306.
 Marlowe, F. W. (2004). Marital residence among foragers. Current Anthropology 45 (2), 277–84.
 Marlowe, F. W. (2005). Hunter-gatherers and human evolution. Evolutionary Anthropology 14 (2),
 54–67.
@@ -20910,8 +20677,7 @@ Moscona, J., Nunn, N., and Robinson, J. A. (2017). Keeping it in the family: Lin
 and the scope of trust in Sub-Saharan Africa. American Economic Review 107 (5), 565–71.
 Motolinía, T. (1973). Motolinía’s History of the Indians of New Spain. Westport, CT: Greenwood
 Press.
-Moya, C. (2013). Evolved priors for ethnolinguistic categorization: A case study from the Quechua-
-Aymara boundary in the Peruvian Altiplano. Evolution and Human Behavior 34 (4), 265–72.
+Moya, C. (2013). Evolved priors for ethnolinguistic categorization: A case study from the QuechuaAymara boundary in the Peruvian Altiplano. Evolution and Human Behavior 34 (4), 265–72.
 Moya, C., and Boyd, R. (2015). Different selection pressures give rise to distinct ethnic phenomena.
 Human Nature 26, 1–27.
 Moya, C., Boyd, R., and Henrich, J. (2015). Reasoning about cultural and genetic transmission:
@@ -21018,8 +20784,7 @@ from a historical experiment. Quarterly Journal of Economics 126 (2), 593–650.
 Nunn, N., and Wantchekon, L. (2011). The slave trade and the origins of mistrust in Africa.
 American Economic Review 101 (7), 3221–52.
 Nunziata, L., and Rocco, L. (2014). The Protestant ethic and entrepreneurship: Evidence from
-religious minorities from the former Holy Roman Empire. MPRA Working paper, mpra.ub.uni-
-muenchen.de/53566.
+religious minorities from the former Holy Roman Empire. MPRA Working paper, mpra.ub.unimuenchen.de/53566.
 Nuvolari, A. (2004). Collective invention during the British Industrial Revolution: the case of the
 Cornish pumping engine. Cambridge Journal of Economics 28 (3), 347–63.
 O’Grady, S. (2013). And Man Created God: A History of the World at the Time of Jesus. New York:
@@ -21101,8 +20866,7 @@ the East and the West. Leiden: Brill.
 Pratt, T. C., and Cullen, F. T. (2000). The empirical status of Gottfredson and Hirschi’s general theory
 of crime: A meta-analysis. Criminology 38 (3), 931–64.
 Price, J. (2010). The effect of parental time investments: Evidence from natural within-family
-variation. NBER working paper, www.uvic.ca/socialsciences/economics/assets/docs/pastdept-
-4/price_parental_time.pdf.
+variation. NBER working paper, www.uvic.ca/socialsciences/economics/assets/docs/pastdept4/price_parental_time.pdf.
 Protzko, J., Ouimette, B., and Schooler, J. (2016). Believing there is no free will corrupts intuitive
 cooperation. Cognition 151, 6–9.
 Purzycki, B. G., Apicella, C. L., Atkinson, Q. D., Cohen, E., McNamara, R. A., Willard, A. K.,
@@ -21282,15 +21046,15 @@ of big five personality traits: Patterns and profiles of human self-description 
 Journal of Cross-Cultural Psychology 38 (2), 173–212.
 Schneider, D. M., and Homans, G. C. (1955). Kinship terminology and the American kinship system.
 American Anthropologist 57 (6), 1194–1208.
-Schulz, 
-J. 
-(2019). 
-Kin 
-networks 
-and 
-institutional 
-development. 
-Working 
+Schulz,
+J.
+(2019).
+Kin
+networks
+and
+institutional
+development.
+Working
 paper,
 ssrn.com/sol3/papers.cfm?abstract_id=2877828.
 Schulz, J. F., Barahmi-Rad, D., Beauchamp, J., and Henrich, J. (2018). The origins of WEIRD
@@ -21321,8 +21085,7 @@ Shariff, A. F., and Norenzayan, A. (2011). Mean gods make good people: Different
 predict cheating behavior. International Journal for the Psychology of Religion 21 (2), 85–96.
 Shariff, A. F., and Rhemtulla, M. (2012). Divergent effects of beliefs in heaven and hell on national
 crime rates. PLoS One 7 (6), e39048.
-Shariff, A. F., Willard, A. K., Andersen, T., and Norenzayan, A. (2016). Religious priming: A meta-
-analysis with a focus on prosociality. Personality and Social Psychology Review 20 (1), 27–48.
+Shariff, A. F., Willard, A. K., Andersen, T., and Norenzayan, A. (2016). Religious priming: A metaanalysis with a focus on prosociality. Personality and Social Psychology Review 20 (1), 27–48.
 Shaw, B. D., and Saller, R. P. (1984). Close-kin marriage in Roman society? Man 19 (3), 432–44.
 Shenk, M. K., Towner, M. C., Voss, E. A., and Alam, N. (2016). Consanguineous marriage, kinship
 ecology, and market transition. Current Anthropology 57 (13), S167–S180.
@@ -21419,11 +21182,11 @@ Epistemic vigilance. Mind and Language 25 (4), 359–93.
 Squicciarini, M. P., and Voigtländer, N. (2015). Human capital and industrialization: Evidence from
 the age of the Enlightenment. Quarterly Journal of Economics 130 (4), 1825–83.
 Squires, M. (2017). Kinship taxation as a constraint to microenterprise growth: Experimental
-evidence 
-from 
-Kenya. 
-Working 
-paper. 
+evidence
+from
+Kenya.
+Working
+paper.
 uvic.ca/socialsciences/economics
 /assets/docs/seminars/Squires%20Kinship%20Taxation.pdf.
 Srinivasan, M., Dunham, Y., Hicks, C. M., and Barner, D. (2016). Do attitudes toward societal
@@ -21493,8 +21256,7 @@ Cultural neuroeconomics of intertemporal choice. Neuroendocrinology Letters 30 (
 Talhelm, T. (2015). The rice theory of culture. Dissertation, Department of Psychology, University of
 Virginia.
 Talhelm, T., Graham, J., and Haidt, J. The budding collectivism revolution. Working paper.
-Talhelm, T., Zhang, X., Oishi, S., Shimin, C., Duan, D., Lan, X., and Kitayama, S. (2014). Large-
-scale psychological differences within China explained by rice versus wheat agriculture. Science
+Talhelm, T., Zhang, X., Oishi, S., Shimin, C., Duan, D., Lan, X., and Kitayama, S. (2014). Largescale psychological differences within China explained by rice versus wheat agriculture. Science
 344 (6184), 603–608.
 Tarr, B., Launay, J., Cohen, E., and Dunbar, R. (2015). Synchrony and exertion during dance
 independently raise pain threshold and encourage social bonding. Biology Letters 11 (10), 1–4.
@@ -21509,8 +21271,7 @@ and Organization 50 (3), 373–83.
 Tenney, E. R., Small, J. E., Kondrad, R. L., Jaswal, V. K., and Spellman, B. A. (2011). Accuracy,
 confidence, and calibration: How young children and adults assess credibility. Developmental
 Psychology 47 (4), 1065–1077.
-Terashima, H., and Hewlett, B. S. (2016). Social Learning and Innovation in Contemporary Hunter-
-Gatherers: Evolutionary and Ethnographic Perspectives. Replacement of Neanderthals by Modern
+Terashima, H., and Hewlett, B. S. (2016). Social Learning and Innovation in Contemporary HunterGatherers: Evolutionary and Ethnographic Perspectives. Replacement of Neanderthals by Modern
 Humans Series. Tokyo: Springer.
 Thompson, E. P. (1967). Time, work-discipline, and industrial capitalism. Past and Present 38 (1),
 56–97.
@@ -21661,8 +21422,7 @@ Wade, N. (2009). The Faith Instinct: How Religion Evolved and Why It Endures. Ne
 Press.
 Wade, N. J. (2014). A Troublesome Inheritance: Genes, Race, and Human History. New York:
 Penguin Press.
-Walker, R. S. (2014). Amazonian horticulturalists live in larger, more related groups than hunter-
-gatherers. Evolution and Human Behavior 35 (5), 384–88.
+Walker, R. S. (2014). Amazonian horticulturalists live in larger, more related groups than huntergatherers. Evolution and Human Behavior 35 (5), 384–88.
 Walker, R. S., and Bailey, D. H. (2014). Marrying kin in small-scale societies. American Journal of
 Human Biology 26 (3), 384–88.
 Walker, R. S., Beckerman, S., Flinn, M. V., Gurven, M., von Rueden, C. R., Kramer, K. L.,… Hill, K.
@@ -21701,8 +21461,7 @@ human? Chimpanzee and orang-utan personalities are not anthropomorphic projectio
 Behaviour 83 (6), 1355–65.
 Wen, N. J., Clegg, J. M., and Legare, C. H. (2017). Smart conformists: Children and adolescents
 associate conformity with intelligence across cultures. Child Development 90 (3), 746–58.
-Wen, N. J., Herrmann, P. A., and Legare, C. H. (2015). Ritual increases children’s affiliation with in-
-group members. Evolution and Human Behavior 37 (1), 54–60.
+Wen, N. J., Herrmann, P. A., and Legare, C. H. (2015). Ritual increases children’s affiliation with ingroup members. Evolution and Human Behavior 37 (1), 54–60.
 
 
 Wente, A. O., Bridgers, S., Zhao, X., Seiver, E., Zhu, L., and Gopnik, A. (2016). How universal are
@@ -21749,12 +21508,12 @@ Willard, A. K., and Cingl, L. (2017). Testing theories of secularization and rel
 Czech Republic and Slovakia. Evolution and Human Behavior 38 (5), 604–615.
 Willard, A. K., Cingl, L., and Norenzayan, A. (2019). Cognitive biases and religious belief: A path
 model replication in the Czech Republic and Slovakia with a focus on anthropomorphism. Social
-Psychological 
-and 
-Personality 
-Science 
-11 
-(2), 
+Psychological
+and
+Personality
+Science
+
+(2),
 97–106
 journals.sagepub.com/doi/10.1177/1948550619841629.
 Willard, A. K., Henrich, J., and Norenzayan, A. (2016). The role of memory, belief, and familiarity in
@@ -21778,8 +21537,7 @@ Clark (ed.), The Oxford Handbook of Cities in World History (pp. 403–20). New 
 University Press.
 Witkin, H. A., and Berry, J. J. W. (1975). Psychological differentiation in cross-cultural perspective.
 Journal of Cross-Cultural Psychology 6 (1), 5–78.
-Witkin, H. A., Moore, C. A., Goodenough, D., and Cox, P. W. (1977). Field-dependent and field-
-independent cognitive styles and their educational implications. Review of Educational Research
+Witkin, H. A., Moore, C. A., Goodenough, D., and Cox, P. W. (1977). Field-dependent and fieldindependent cognitive styles and their educational implications. Review of Educational Research
 47 (1), 1–64.
 Wong, Y., and Tsai, J. (2007). Cultural models of shame and guilt. In J. L. Tracy, R. W. Robins, and J.
 P. Tangney (eds.), The Self-Conscious Emotion: Theory and Research (pp. 209–223). New York:
@@ -21820,8 +21578,7 @@ Proceedings of the National Academy of Sciences 113 (20), 5582–87.
 Yilmaz, O., and Bahçekapili, H. G. (2016). Supernatural and secular monitors promote human
 cooperation only if they remind of punishment. Evolution and Human Behavior 37 (1), 79–84.
 Young, C. (2009). Religion and economic growth in Western Europe: 1500–2000. Working paper,
-citation.allacademic.com/meta/p_mla_apa_research_citation/3/0/9/0/6/pages309064/p309064-
-1.php.
+citation.allacademic.com/meta/p_mla_apa_research_citation/3/0/9/0/6/pages309064/p3090641.php.
 Young, L., and Durwin, A. J. (2013). Moral realism as moral motivation: The impact of meta-ethics
 on everyday. Journal of Experimental Social Psychology 49 (2), 302–306.
 Young, R. W. (2009). The ontogeny of throwing and striking. Human Ontogenetics 3 (1), 19–31.
@@ -21834,14 +21591,14 @@ Yutang, L. (1936). My Country and My People. London: William Heinemann.
 Zaki, J., Schirmer, J., and Mitchell, J. P. (2011). Social influence modulates the neural computation of
 value. Psychological Science 22 (7), 894–900.
 Zeng, T. C., Aw, A. J., and Feldman, M. W. (2018). Cultural hitchhiking and competition between
-patrilineal 
-kin 
-groups 
-explain 
-the 
-post-Neolithic 
-Y-chromosome 
-bottleneck. 
+patrilineal
+kin
+groups
+explain
+the
+post-Neolithic
+Y-chromosome
+bottleneck.
 Nature
 Communications 9 (1), 1–12.
 Zhou, X., Alysandratos, T., and Naef, M. (2017). Rice farming and the emergence of cooperative
@@ -22007,13 +21764,11 @@ communal ownership
 communal rituals
 Communion
 competition: between-group; among guilds; increasing; interfirm; male-male; military; among parish
-churches; reproductive; voluntary associations and; voluntary organizations and; within-group; zero-
-sum; see also intergroup competition
+churches; reproductive; voluntary associations and; voluntary organizations and; within-group; zerosum; see also intergroup competition
 competitiveness
 Condorcet, Nicolas de
 conformist transmission
-conformity; effect of; emotional underpinnings of; inclinations toward; intensive kinship and; kin-
-based institutions and; non-; to peers; United States and; Western Church and; see also Asch
+conformity; effect of; emotional underpinnings of; inclinations toward; intensive kinship and; kinbased institutions and; non-; to peers; United States and; Western Church and; see also Asch
 Conformity Experiment; Asch Conformity Task
 Confucians
 Congo Basin
@@ -22267,8 +22022,7 @@ Indian Ocean
 individualism; analytic thinking and; complex; corruption and; elements of; global map of; guilt and;
 impersonal markets and; innovation and; KII and; kin-based institutions and; Latin America and;
 Matsigenka and; measures of; MFP and; motivations for; omnibus measure of; Protestantism and;
-psychological; psychological shifts in; psychological variation in; psychology of; religion and; self-
-obsession and; social world of; understanding; walking speed and; WEIRD psychology and; Western
+psychological; psychological shifts in; psychological variation in; psychology of; religion and; selfobsession and; social world of; understanding; walking speed and; WEIRD psychology and; Western
 Church and
 
 
@@ -22293,8 +22047,7 @@ intensive kinship; analytic thinking and; China and; conformity and; constraints
 marriage and; dissolution of; distrust of strangers and; economic prosperity and; emotional control in
 societies lacking; evolution of; historical; individuals with less; measure of; MFP and; norms rooted
 in; patience and; punishment and; rice cultivation and; self-control and; social networks and; social
-norms and; universal morality and; urbanization and; variation in; Western Church and; see also kin-
-based institutions
+norms and; universal morality and; urbanization and; variation in; Western Church and; see also kinbased institutions
 intentions
 interdependence psychology
 intergroup competition; chiefdoms and; clans and; cultural evolution and; elevated levels of; forms
@@ -22446,8 +22199,7 @@ Mexico
 MFP, see Marriage and Family Program
 MFQ, see Moral Foundations Questionnaire
 Middle Ages; agriculture and; banking in; Cistercian Order and; cousin marriage and; cultural
-evolution during; intergroup competition in; market norms and; MFP exposure during; self-
-regulation and; universities and; urban centers and; Western Christian Church and; Yiddish and; see
+evolution during; intergroup competition in; market norms and; MFP exposure during; selfregulation and; universities and; urban centers and; Western Christian Church and; Yiddish and; see
 also Early Middle Ages; High Middle Ages; Late Middle Ages
 Middle East
 Middle English
@@ -22732,16 +22484,14 @@ revenge-seeking
 Revolutionary War
 rhythmic music
 Ricard, Samuel
-rice cultivation; China and; India and; intensive kinship and; psychological differences and; self-
-focus and
+rice cultivation; China and; India and; intensive kinship and; psychological differences and; selffocus and
 Richardson, Gary
 Rights of Man (Paine)
 risk-taking
 rites of terror
 ritually-bonded young men
 rituals; ancestor gods and; attendance at; character of; communal; dance and; doctrinal; imagistic;
-initiation; intergroup competition and; internal harmony and; major; obligations of; psychologically-
-potent; religious beliefs and; social norms and; violation of; women and
+initiation; intergroup competition and; internal harmony and; major; obligations of; psychologicallypotent; religious beliefs and; social norms and; violation of; women and
 Robinson, James
 Rod and Frame Task
 Roebuck, John
@@ -23079,17 +22829,16 @@ status, religion, cooperation, and decision-making. You can
 sign up for email updates here.
 
 
- 
 Thank you for buying this
 Farrar, Straus and Giroux ebook.
- 
+
 To receive special offers, bonus content,
 and info on new releases and other great reads,
 sign up for our newsletters.
- 
+
 Or visit us online at
 us.macmillan.com/newslettersignup
- 
+
 For email updates on the author, click here.
 
 

@@ -1,0 +1,416 @@
+[
+  {
+    "path": "./inbox/sre/google-sre-book.md",
+    "before": 1204455,
+    "after": 1201824,
+    "saved_pct": 0.21843904504526943
+  },
+  {
+    "path": "./inbox/anthropic/bai-2022-cai.md",
+    "before": 118883,
+    "after": 118358,
+    "saved_pct": 0.4416106592195688
+  },
+  {
+    "path": "./inbox/anthropic/askell-2021-hhh.md",
+    "before": 153598,
+    "after": 151963,
+    "saved_pct": 1.0644669852472037
+  },
+  {
+    "path": "./inbox/event-sourcing/young-cqrs-2010.md",
+    "before": 110123,
+    "after": 108296,
+    "saved_pct": 1.6590539669278896
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/schell-art-of-game-design-lenses.md",
+    "before": 1110730,
+    "after": 1091752,
+    "saved_pct": 1.7086060518757935
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/cialdini-influence-ru-1984.md",
+    "before": 763897,
+    "after": 761844,
+    "saved_pct": 0.26875350996273056
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/rouse-game-design-theory-and-practice-2004.md",
+    "before": 2054997,
+    "after": 2047360,
+    "saved_pct": 0.3716307128428898
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/eyal-hooked-2014.md",
+    "before": 282861,
+    "after": 282695,
+    "saved_pct": 0.058686068422299294
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/csikszentmihalyi-flow-1990.md",
+    "before": 808590,
+    "after": 806074,
+    "saved_pct": 0.3111589309786171
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/salen-zimmerman-rules-of-play-2003.md",
+    "before": 2008040,
+    "after": 2003382,
+    "saved_pct": 0.2319674906874365
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/varoufakis-technofeudalism-2023.md",
+    "before": 515327,
+    "after": 506592,
+    "saved_pct": 1.6950402365876425
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/koster-theory-of-fun-2004.md",
+    "before": 250506,
+    "after": 250453,
+    "saved_pct": 0.0211571778719871
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/schelling-strategy-of-conflict-1960.md",
+    "before": 685891,
+    "after": 680483,
+    "saved_pct": 0.7884634730591303
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/rogers-level-up-2010.md",
+    "before": 806110,
+    "after": 785585,
+    "saved_pct": 2.546178561238541
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/axelrod-evolution-of-cooperation-1984.md",
+    "before": 413641,
+    "after": 399684,
+    "saved_pct": 3.374181959718693
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/lehdonvirta-castronova-virtual-economies-2014.md",
+    "before": 787948,
+    "after": 774123,
+    "saved_pct": 1.7545574073416013
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/castronova-synthetic-worlds-2005.md",
+    "before": 941407,
+    "after": 936923,
+    "saved_pct": 0.47630833422738517
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/andreas-heart-of-the-mind-1989.md",
+    "before": 628571,
+    "after": 628381,
+    "saved_pct": 0.03022729333679091
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/bandler-grinder-reframing-1982.md",
+    "before": 487153,
+    "after": 485523,
+    "saved_pct": 0.334597138886551
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/andreas-faulkner-nlp-new-technology-of-achievement-1996.md",
+    "before": 654843,
+    "after": 654681,
+    "saved_pct": 0.024738754174664767
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/bolton-people-skills-1979.md",
+    "before": 705218,
+    "after": 704851,
+    "saved_pct": 0.05204064558760554
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/bandler-grinder-frogs-into-princes-1979.md",
+    "before": 476645,
+    "after": 476574,
+    "saved_pct": 0.01489578197610381
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/robbins-awaken-the-giant-within-1991.md",
+    "before": 1153710,
+    "after": 1153162,
+    "saved_pct": 0.04749893820804188
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/oconnor-seymour-introducing-nlp-1990.md",
+    "before": 504296,
+    "after": 504180,
+    "saved_pct": 0.023002363691165505
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/bandler-grinder-structure-of-magic-1975.md",
+    "before": 399516,
+    "after": 398392,
+    "saved_pct": 0.28134042191051173
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/dilts-sleight-of-mouth-1999.md",
+    "before": 466647,
+    "after": 466288,
+    "saved_pct": 0.07693181355499981
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/robbins-unlimited-power-1986.md",
+    "before": 250079,
+    "after": 243994,
+    "saved_pct": 2.433231098972725
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/cialdini-pre-suasion-2016.md",
+    "before": 836981,
+    "after": 836353,
+    "saved_pct": 0.07503157180389997
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/godin-tribes-2008.md",
+    "before": 180864,
+    "after": 180782,
+    "saved_pct": 0.04533793347487615
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/greene-48-laws-of-power-1998.md",
+    "before": 1284230,
+    "after": 1283913,
+    "saved_pct": 0.024684051922163476
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/godin-permission-marketing-1999.md",
+    "before": 360123,
+    "after": 360020,
+    "saved_pct": 0.028601338986957235
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/lifton-thought-reform-1961.md",
+    "before": 1173506,
+    "after": 1173227,
+    "saved_pct": 0.023774910396708666
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/le-bon-the-crowd-1895.md",
+    "before": 3465,
+    "after": 2945,
+    "saved_pct": 15.007215007215008
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/ellul-propaganda-1965.md",
+    "before": 855716,
+    "after": 844803,
+    "saved_pct": 1.2753062932094292
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/raymond-cathedral-and-bazaar-1999.md",
+    "before": 449720,
+    "after": 446288,
+    "saved_pct": 0.7631415102730588
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/hoffer-true-believer-1951.md",
+    "before": 296478,
+    "after": 296057,
+    "saved_pct": 0.14200041824351217
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/srinivasan-the-network-state-2022.md",
+    "before": 735975,
+    "after": 733287,
+    "saved_pct": 0.3652297972077856
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/lippmann-public-opinion-1922.md",
+    "before": 713560,
+    "after": 709615,
+    "saved_pct": 0.5528617074948148
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/heath-made-to-stick-2007.md",
+    "before": 569809,
+    "after": 569392,
+    "saved_pct": 0.07318241726613654
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/henrich-weirdest-people-in-the-world-2020.md",
+    "before": 1471971,
+    "after": 1470733,
+    "saved_pct": 0.08410491782786482
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/hassan-combating-cult-mind-control-1988.md",
+    "before": 806605,
+    "after": 806364,
+    "saved_pct": 0.029878317144079194
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/chomsky-herman-manufacturing-consent-1988.md",
+    "before": 1284880,
+    "after": 1284090,
+    "saved_pct": 0.06148434095012764
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/kahneman-thinking-fast-and-slow-2011.md",
+    "before": 1140639,
+    "after": 1140299,
+    "saved_pct": 0.029807853317307228
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/berger-contagious-2013.md",
+    "before": 414437,
+    "after": 414235,
+    "saved_pct": 0.04874082188607677
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/cialdini-influence-psychology-of-persuasion-1984.md",
+    "before": 663511,
+    "after": 661398,
+    "saved_pct": 0.31845741818899764
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/_unknown/formal-15-12-02.md",
+    "before": 562086,
+    "after": 548298,
+    "saved_pct": 2.4530054119832196
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/_unknown/visual_toolbox_chapter_1.md",
+    "before": 96351,
+    "after": 92865,
+    "saved_pct": 3.618021608493944
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/_unknown/17.md",
+    "before": 2093914,
+    "after": 2062838,
+    "saved_pct": 1.484110617723555
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/methodology/polya-how-to-solve-it-1945.md",
+    "before": 431927,
+    "after": 431739,
+    "saved_pct": 0.04352587358511971
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/methodology/menand-pragmatism-reader-1997.md",
+    "before": 1524338,
+    "after": 1524042,
+    "saved_pct": 0.019418265502795313
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/methodology/merleau-ponty-structure-of-behaviour-1942.md",
+    "before": 756633,
+    "after": 742185,
+    "saved_pct": 1.9095122734535765
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/methodology/knuth-art-of-computer-programming-vol2-1969.md",
+    "before": 2149093,
+    "after": 2132256,
+    "saved_pct": 0.7834467842945838
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/methodology/polanyi-tacit-dimension-1966.md",
+    "before": 177037,
+    "after": 176994,
+    "saved_pct": 0.02428870801018996
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/methodology/senge-fifth-discipline-SUMMARY-only.md",
+    "before": 44364,
+    "after": 44339,
+    "saved_pct": 0.05635199711477775
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/methodology/polanyi-personal-knowledge-1958.md",
+    "before": 1381152,
+    "after": 1380859,
+    "saved_pct": 0.02121417483376196
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/longino-fate-of-knowledge-2002.md",
+    "before": 709065,
+    "after": 694733,
+    "saved_pct": 2.0212533406669344
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/feyerabend-against-method-1975.md",
+    "before": 749583,
+    "after": 749235,
+    "saved_pct": 0.046425812751890054
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/kuhn-structure-of-scientific-revolutions-1962.md",
+    "before": 574739,
+    "after": 574600,
+    "saved_pct": 0.0241848908809042
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/lakatos-methodology-scientific-research-programmes-1978.md",
+    "before": 865298,
+    "after": 862593,
+    "saved_pct": 0.31260906647189757
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/popper-conjectures-and-refutations-1963.md",
+    "before": 1252532,
+    "after": 1251305,
+    "saved_pct": 0.09796156904574095
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/chalmers-what-is-this-thing-called-science-1976.md",
+    "before": 581793,
+    "after": 568800,
+    "saved_pct": 2.2332685336537224
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/huyen-designing-ml-systems-2022.md",
+    "before": 832042,
+    "after": 829722,
+    "saved_pct": 0.2788320781883607
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/popper-logic-of-scientific-discovery-1934.md",
+    "before": 1165571,
+    "after": 1160718,
+    "saved_pct": 0.4163624523945774
+  },
+  {
+    "path": "./raw/articles/arxiv-2512.08296-kim-multi-agent-scaling.md",
+    "before": 142158,
+    "after": 141495,
+    "saved_pct": 0.466382475836745
+  },
+  {
+    "path": "./raw/articles/arxiv-2503.13657-cemri-mast-failure-modes.md",
+    "before": 135850,
+    "after": 134740,
+    "saved_pct": 0.8170776591829223
+  },
+  {
+    "path": "./raw/articles/arxiv-2406.07155-qian-scaling-laws.md",
+    "before": 74071,
+    "after": 73624,
+    "saved_pct": 0.6034750442143348
+  },
+  {
+    "path": "./raw/research/claude-code-os-course-2026-05-02-transcript.md",
+    "before": 41354,
+    "after": 41354,
+    "saved_pct": 0.0
+  },
+  {
+    "path": "./raw/research/architecture-variants-2026-04-22/VOICE-MEMOS-STRATEGIC-IDEAS.md",
+    "before": 248206,
+    "after": 248206,
+    "saved_pct": 0.0
+  },
+  {
+    "path": "./raw/research/architecture-variants-2026-04-22/VOICE-MEMOS-YEAR-PLAN.md",
+    "before": 41480,
+    "after": 41474,
+    "saved_pct": 0.01446480231436837
+  }
+]

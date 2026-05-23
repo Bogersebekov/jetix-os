@@ -9,8 +9,11 @@ chars: 2149091
 approx_tokens: 537272
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 2149093
+phase4_chars_after: 2132256
+phase4_saved_pct: 0.8
 ---
-
 
 
 THE ART OF
@@ -19,8 +22,8 @@ THIRD EDITION
 
 
 DONALD E. KNUTH Stanford University
-6
-77
+
+
 ADDISON–WESLEY
 
 
@@ -52,8 +55,7 @@ International Sales
 international@pearsoned.com
 Visit us on the Web: informit.com/aw
 Library of Congress Cataloging-in-Publication Data
-Knuth, Donald Ervin, 1938-
-The art of computer programming / Donald Ervin Knuth.
+Knuth, Donald Ervin, 1938The art of computer programming / Donald Ervin Knuth.
 xiv,764 p.
 24 cm.
 Includes bibliographical references and index.
@@ -70,7 +72,7 @@ ISBN 978-0-201-03804-0 (v. 4a)
 algorithms.
 I. Title.
 QA76.6.K64
-1997
+
 005.1--DC21
 97-2147
 Internet page http://www-cs-faculty.stanford.edu/~knuth/taocp.html contains
@@ -150,8 +152,7 @@ rational fractions, polynomials, and power series, including the questions of
 factoring and finding greatest common divisors.
 Each of Chapters 3 and 4 can be used as the basis of a one-semester college
 course at the junior to graduate level. Although courses on “Random Numbers”
-and on “Arithmetic” are not presently a part of many college curricula, I be-
-lieve the reader will find that the subject matter of these chapters lends itself
+and on “Arithmetic” are not presently a part of many college curricula, I believe the reader will find that the subject matter of these chapters lends itself
 nicely to a unified treatment of material that has real educational value. My
 own experience has been that these courses are a good means of introducing
 elementary probability theory and number theory to college students. Nearly
@@ -160,8 +161,7 @@ in connection with applications, and the presence of these applications can be
 an important motivation that helps the student to learn and to appreciate the
 theory. Furthermore, each chapter gives a few hints of more advanced topics
 that will whet the appetite of many students for further mathematical study.
-For the most part this book is self-contained, except for occasional discus-
-sions relating to the MIX computer explained in Volume 1. Appendix B contains a
+For the most part this book is self-contained, except for occasional discussions relating to the MIX computer explained in Volume 1. Appendix B contains a
 summary of the mathematical notations used, some of which are a little different
 from those found in traditional mathematics books.
 Preface to the Third Edition
@@ -176,8 +176,7 @@ improvements that I have been wanting to incorporate for a long time.
 In this new edition I have gone over every word of the text, trying to retain
 the youthful exuberance of my original sentences while perhaps adding some
 more mature judgment. Dozens of new exercises have been added; dozens of
-old exercises have been given new and improved answers. Changes appear ev-
-erywhere, but most significantly in Sections 3.5 (about theoretical guarantees of
+old exercises have been given new and improved answers. Changes appear everywhere, but most significantly in Sections 3.5 (about theoretical guarantees of
 randomness), 3.6 (about portable random-number generators), 4.5.2 (about the
 binary gcd algorithm), and 4.7 (about composition and iteration of power series).
 
@@ -223,7 +222,7 @@ of the wise.
 — C. C. COLTON (1820)
 
 
-This page intentionally left blank 
+This page intentionally left blank
 
 
 NOTES ON THE EXERCISES
@@ -253,32 +252,31 @@ provided to indicate the level of difficulty. These numbers have the following
 general significance:
 Rating
 Interpretation
-00
+
 An extremely easy exercise that can be answered immediately if the
 material of the text has been understood; such an exercise can almost
 always be worked “in your head.”
-10
+
 A simple problem that makes you think over the material just read, but
 is by no means difficult. You should be able to do this in one minute at
 most; pencil and paper may be useful in obtaining the solution.
-20
-An average problem that tests basic understanding of the text mate-
-rial, but you may need about fifteen or twenty minutes to answer it
+
+An average problem that tests basic understanding of the text material, but you may need about fifteen or twenty minutes to answer it
 completely.
 ix
 
 
 x
 NOTES ON THE EXERCISES
-30
+
 A problem of moderate difficulty and/or complexity; this one may
 involve more than two hours’ work to solve satisfactorily, or even more
 if the TV is on.
-40
+
 Quite a difficult or lengthy problem that would be suitable for a term
 project in classroom situations. A student should be able to solve the
 problem in a reasonable amount of time, but the solution is not trivial.
-50
+
 A research problem that has not yet been solved satisfactorily, as far
 as the author knew at the time of writing, although many people have
 tried. If you have found an answer to such a problem, you ought to
@@ -311,8 +309,7 @@ the algorithms themselves. An exercise is marked with the letters “HM” if it
 solution necessarily involves a knowledge of calculus or other higher mathematics
 not developed in this book. An “HM” designation does not necessarily imply
 difficulty.
-Some exercises are preceded by an arrowhead, “x”; this designates prob-
-lems that are especially instructive and especially recommended. Of course, no
+Some exercises are preceded by an arrowhead, “x”; this designates problems that are especially instructive and especially recommended. Of course, no
 reader/student is expected to work all of the exercises, so those that seem to
 be the most valuable have been singled out. (This distinction is not meant to
 detract from the other exercises!) Each reader should at least make an attempt
@@ -346,17 +343,17 @@ M
 Mathematically oriented
 HM
 Requiring “higher math”
-00
+
 Immediate
-10
+
 Simple (one minute)
-20
+
 Medium (quarter hour)
-30
+
 Moderately hard
-40
+
 Term project
-50
+
 Research problem
 EXERCISES
 x
@@ -375,95 +372,95 @@ Exercise is the beste instrument in learnyng.
 CONTENTS
 Chapter 3 — Random Numbers
 . . . . . . . . . . . . . . . . . . .
-1
+
 3.1. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . .
-1
+
 3.2. Generating Uniform Random Numbers
 . . . . . . . . . . . . . . .
-10
+
 3.2.1. The Linear Congruential Method . . . . . . . . . . . . . . .
-10
+
 3.2.1.1.
 Choice of modulus
 . . . . . . . . . . . . . . . . .
-12
+
 3.2.1.2.
 Choice of multiplier . . . . . . . . . . . . . . . . .
-16
+
 3.2.1.3.
 Potency . . . . . . . . . . . . . . . . . . . . . .
-23
+
 3.2.2. Other Methods . . . . . . . . . . . . . . . . . . . . . . .
-26
+
 3.3. Statistical Tests
 . . . . . . . . . . . . . . . . . . . . . . . . .
-41
+
 3.3.1. General Test Procedures for Studying Random Data
 . . . . . .
-42
+
 3.3.2. Empirical Tests
 . . . . . . . . . . . . . . . . . . . . . .
-61
+
 *3.3.3. Theoretical Tests . . . . . . . . . . . . . . . . . . . . . .
-80
+
 3.3.4. The Spectral Test
 . . . . . . . . . . . . . . . . . . . . .
-93
+
 3.4. Other Types of Random Quantities . . . . . . . . . . . . . . . . .
-119
+
 3.4.1. Numerical Distributions . . . . . . . . . . . . . . . . . . .
-119
+
 3.4.2. Random Sampling and Shuffling
 . . . . . . . . . . . . . . .
-142
+
 *3.5. What Is a Random Sequence?
 . . . . . . . . . . . . . . . . . . .
-149
+
 3.6. Summary
 . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-184
+
 Chapter 4 — Arithmetic . . . . . . . . . . . . . . . . . . . . . . .
-194
+
 4.1. Positional Number Systems
 . . . . . . . . . . . . . . . . . . . .
-195
+
 4.2. Floating Point Arithmetic . . . . . . . . . . . . . . . . . . . . .
-214
+
 4.2.1. Single-Precision Calculations . . . . . . . . . . . . . . . . .
-214
+
 4.2.2. Accuracy of Floating Point Arithmetic
 . . . . . . . . . . . .
-229
+
 *4.2.3. Double-Precision Calculations
 . . . . . . . . . . . . . . . .
-246
+
 4.2.4. Distribution of Floating Point Numbers . . . . . . . . . . . .
-253
+
 4.3. Multiple-Precision Arithmetic
 . . . . . . . . . . . . . . . . . . .
-265
+
 4.3.1. The Classical Algorithms
 . . . . . . . . . . . . . . . . . .
-265
+
 *4.3.2. Modular Arithmetic
 . . . . . . . . . . . . . . . . . . . .
-284
+
 *4.3.3. How Fast Can We Multiply? . . . . . . . . . . . . . . . . .
-294
+
 4.4. Radix Conversion . . . . . . . . . . . . . . . . . . . . . . . . .
-319
+
 4.5. Rational Arithmetic
 . . . . . . . . . . . . . . . . . . . . . . .
-330
+
 4.5.1. Fractions
 . . . . . . . . . . . . . . . . . . . . . . . . .
-330
+
 4.5.2. The Greatest Common Divisor . . . . . . . . . . . . . . . .
-333
+
 *4.5.3. Analysis of Euclid’s Algorithm . . . . . . . . . . . . . . . .
-356
+
 4.5.4. Factoring into Primes . . . . . . . . . . . . . . . . . . . .
-379
+
 xii
 
 
@@ -471,45 +468,41 @@ CONTENTS
 xiii
 4.6. Polynomial Arithmetic
 . . . . . . . . . . . . . . . . . . . . . .
-418
+
 4.6.1. Division of Polynomials
 . . . . . . . . . . . . . . . . . . .
-420
+
 *4.6.2. Factorization of Polynomials . . . . . . . . . . . . . . . . .
-439
+
 4.6.3. Evaluation of Powers
 . . . . . . . . . . . . . . . . . . . .
-461
+
 4.6.4. Evaluation of Polynomials . . . . . . . . . . . . . . . . . .
-485
+
 *4.7. Manipulation of Power Series
 . . . . . . . . . . . . . . . . . . .
-525
+
 Answers to Exercises
 . . . . . . . . . . . . . . . . . . . . . . . .
-538
+
 Appendix A — Tables of Numerical Quantities . . . . . . . . . . . .
-726
+
 1.
 Fundamental Constants (decimal)
 . . . . . . . . . . . . . .
-726
+
 2.
 Fundamental Constants (octal) . . . . . . . . . . . . . . . .
-727
+
 3.
 Harmonic Numbers, Bernoulli Numbers, Fibonacci Numbers . . .
-728
+
 Appendix B — Index to Notations . . . . . . . . . . . . . . . . . .
-730
+
 Appendix C — Index to Algorithms and Theorems . . . . . . . . . .
-735
+
 Index and Glossary
 . . . . . . . . . . . . . . . . . . . . . . . . .
-737
-
-
-
 
 CHAPTER
 THREE
@@ -544,14 +537,10 @@ to their deterministic counterparts. This use of random numbers is the primary
 application of interest to us in this series of books; it accounts for the fact that
 random numbers are already being considered here in Chapter 3, before most of
 the other computer algorithms have appeared.
-1
 
-
-2
 RANDOM NUMBERS
 3.1
-e) Decision making. There are reports that many executives make their deci-
-sions by flipping a coin or by throwing darts, etc. It is also rumored that some
+e) Decision making. There are reports that many executives make their decisions by flipping a coin or by throwing darts, etc. It is also rumored that some
 college professors prepare their grades on such a basis. Sometimes it is important
 to make a completely “unbiased” decision. Randomness is also an essential part
 of optimal strategies in the theory of matrix games.
@@ -577,11 +566,11 @@ A uniform distribution on a finite set of numbers is one in which each possible
 number is equally probable. A distribution is generally understood to be uniform
 unless some other distribution is specifically mentioned.
 Each of the ten digits 0 through 9 will occur about
-1
+
 10 of the time in a
 (uniform) sequence of random digits. Each pair of two successive digits should
 occur about
-1
+
 100 of the time, and so on. Yet if we take a truly random sequence
 of a million digits, it will not always have exactly 100,000 zeros, 100,000 ones,
 etc. In fact, chances of this are quite slim; a sequence of such sequences will have
@@ -590,11 +579,10 @@ Any specified sequence of a million digits is as probable as any other. Thus,
 if we are choosing a million digits at random and if the first 999,999 of them
 happen to come out to be zero, the chance that the final digit is zero is still
 exactly
-1
+
 10, in a truly random situation. These statements seem paradoxical to
 many people, yet no contradiction is really involved.
-There are several ways to formulate decent abstract definitions of random-
-ness, and we will return to this interesting subject in Section 3.5; but for the
+There are several ways to formulate decent abstract definitions of randomness, and we will return to this interesting subject in Section 3.5; but for the
 moment, let us content ourselves with an intuitive understanding of the concept.
 Many years ago, people who needed random numbers in their scientific work
 would draw balls out of a “well-stirred urn,” or they would roll dice or deal out
@@ -602,7 +590,7 @@ would draw balls out of a “well-stirred urn,” or they would roll dice or dea
 
 3.1
 INTRODUCTION
-3
+
 cards.
 A table of over 40,000 random digits, “taken at random from census
 reports,” was published in 1927 by L. H. C. Tippett. Since then, a number of
@@ -615,8 +603,7 @@ Turing.
 In 1955, the RAND Corporation published a widely used table of a
 million random digits obtained with the help of another special device. A famous
 random-number machine called ERNIE has been used for many years to pick the
-winning numbers in the British Premium Savings Bonds lottery. [F. N. David de-
-scribes the early history in Games, Gods, and Gambling (1962). See also Kendall
+winning numbers in the British Premium Savings Bonds lottery. [F. N. David describes the early history in Games, Gods, and Gambling (1962). See also Kendall
 and Babington-Smith, J. Royal Stat. Soc. A101 (1938), 147–166; B6 (1939), 51–
 61; S. H. Lavington’s discussion of the Mark I in CACM 21 (1978), 4–12; the
 review of the RAND table in Math. Comp. 10 (1956), 39–43; and the discussion
@@ -655,8 +642,6 @@ The answer is that the sequence isn’t random, but it appears to
 be.
 In typical applications the actual relationship between one number and
 
-
-4
 RANDOM NUMBERS
 3.1
 its successor has no physical significance; hence the nonrandom character is
@@ -689,8 +674,7 @@ and 7 discuss some interesting ways to determine the cycles of periodic sequence
 using very little memory space.
 A theoretical disadvantage of the middle-square method is given in exercises
 9 and 10. On the other hand, working with 38-bit numbers, Metropolis obtained
-a sequence of about 750,000 numbers before degeneracy occurred, and the re-
-sulting 750,000 × 38 bits satisfactorily passed statistical tests for randomness.
+a sequence of about 750,000 numbers before degeneracy occurred, and the resulting 750,000 × 38 bits satisfactorily passed statistical tests for randomness.
 [Symp. on Monte Carlo Methods (Wiley, 1956), 29–36.] This experience showed
 that the middle-square method can give usable results, but it is rather dangerous
 to put much faith in it until after elaborate computations have been performed.
@@ -708,7 +692,7 @@ fantastically good generator using the following peculiar approach:
 
 3.1
 INTRODUCTION
-5
+
 Algorithm K (“Super-random” number generator). Given a 10-digit decimal
 number X, this algorithm may be used to change X to the number that should
 come next in a supposedly random sequence. Although the algorithm might be
@@ -720,8 +704,7 @@ K1. [Choose number of iterations.] Set Y ←⌊X/109⌋, the most significant
 digit of X. (We will execute steps K2 through K13 exactly Y + 1 times;
 that is, we will apply randomizing transformations a random number of
 times.)
-K2. [Choose random step.] Set Z ←⌊X/108⌋mod 10, the second most signifi-
-cant digit of X. Go to step K(3 + Z). (That is, we now jump to a random
+K2. [Choose random step.] Set Z ←⌊X/108⌋mod 10, the second most significant digit of X. Go to step K(3 + Z). (That is, we now jump to a random
 step in the program.)
 K3. [Ensure ≥5 × 109.] If X < 5000000000, set X ←X + 5000000000.
 K4. [Middle square.] Replace X by ⌊X2/105⌋mod 1010, that is, by the middle
@@ -748,11 +731,8 @@ to be so complicated that a person reading a listing of it without explanatory
 comments wouldn’t know what the program was doing.)
 Considering all the contortions of Algorithm K, doesn’t it seem plausible that
 it should produce almost an infinite supply of unbelievably random numbers?
-No! In fact, when this algorithm was first put onto a computer, it almost im-
-mediately converged to the 10-digit value 6065038420, which — by extraordinary
+No! In fact, when this algorithm was first put onto a computer, it almost immediately converged to the 10-digit value 6065038420, which — by extraordinary
 
-
-6
 RANDOM NUMBERS
 3.1
 Table 1
@@ -865,8 +845,7 @@ cyclic period of length 3178.
 The moral of this story is that random numbers should not be generated
 with a method chosen at random. Some theory should be used.
 In the following sections we shall consider random number generators that
-are superior to the middle-square method and to Algorithm K. The correspond-
-ing sequences are guaranteed to have certain desirable random properties, and
+are superior to the middle-square method and to Algorithm K. The corresponding sequences are guaranteed to have certain desirable random properties, and
 no degeneracy will occur.
 We shall explore the reasons for this random-like
 behavior in some detail, and we shall also consider techniques for manipulating
@@ -881,9 +860,8 @@ computer. Which of the following methods would be suitable?
 
 3.1
 INTRODUCTION
-7
-a) Open a telephone directory to a random place by sticking your finger in it some-
-where, and use the units digit of the first number found on the selected page.
+
+a) Open a telephone directory to a random place by sticking your finger in it somewhere, and use the units digit of the first number found on the selected page.
 b) Same as (a), but use the units digit of the page number.
 c) Roll a die that is in the shape of a regular icosahedron, whose twenty faces have
 been labeled with the digits 0, 0, 1, 1, . . . , 9, 9. Use the digit that appears on
@@ -929,8 +907,6 @@ c) Use the idea of part (b) to design an algorithm that calculates µ and λ for
 given function f and any given X0, using only O(µ + λ) steps and only a bounded
 number of memory locations.
 
-
-8
 RANDOM NUMBERS
 3.1
 x
@@ -960,8 +936,7 @@ zero occurs repeatedly.
 10. [M16] Under the assumptions of the preceding exercise, what can you say about
 the sequence of numbers following X if the least significant n digits of X are zero?
 What if the least significant n + 1 digits are zero?
-x 11. [M26] Consider sequences of random number generators having the form de-
-scribed in exercise 6. If we choose f(x) and X0 at random — in other words, if we
+x 11. [M26] Consider sequences of random number generators having the form described in exercise 6. If we choose f(x) and X0 at random — in other words, if we
 assume that each of the mm possible functions f(x) is equally probable and that
 each of the m possible values of X0 is equally probable — what is the probability
 that the sequence will eventually degenerate into a cycle of length λ = 1?
@@ -977,16 +952,14 @@ of the final cycle? What is the average length of the sequence before it begins 
 length of the longest cycle obtainable by varying the starting value X0? [Note: We
 have already considered the analogous problem in the case that f(x) is a random
 permutation; see exercise 1.3.3–23.]
-14. [M38] If f(x) is chosen at random in the sense of exercise 11, what is the av-
-erage number of distinct final cycles obtainable by varying the starting value? [See
+14. [M38] If f(x) is chosen at random in the sense of exercise 11, what is the average number of distinct final cycles obtainable by varying the starting value? [See
 exercise 8(b).]
-15. [M15] If f(x) is chosen at random in the sense of exercise 11, what is the proba-
-bility that none of the final cycles has length 1, regardless of the choice of X0?
+15. [M15] If f(x) is chosen at random in the sense of exercise 11, what is the probability that none of the final cycles has length 1, regardless of the choice of X0?
 
 
 3.1
 INTRODUCTION
-9
+
 16. [15] A sequence generated as in exercise 6 must begin to repeat after at most m
 values have been generated. Suppose we generalize the method so that Xn+1 depends
 on Xn−1 as well as on Xn; formally, let f(x, y) be a function such that 0 ≤x, y < m
@@ -1027,8 +1000,6 @@ correspondence” of Section 1.3.3.
 vi) x0 = x1 if and only if (x1, . . . , xm−1) represents an oriented tree by the construction
 of exercise 2.3.4.4–18, with f(x) the parent of x.
 
-
-10
 RANDOM NUMBERS
 3.2
 3.2. GENERATING UNIFORM RANDOM NUMBERS
@@ -1087,7 +1058,7 @@ but it is still possible to make the period reasonably long. Lehmer’s original
 
 3.2.1
 THE LINEAR CONGRUENTIAL METHOD
-11
+
 generation method had c = 0, although he mentioned c ̸= 0 as a possibility; the
 fact that c ̸= 0 can lead to longer periods is due to Thomson [Comp. J. 1 (1958),
 83, 86] and, independently, to Rotenberg [JACM 7 (1960), 75–77]. The terms
@@ -1149,8 +1120,6 @@ the multiplier a to be relatively prime to the modulus m.
 5. [M20] Equation (6) holds for k ≥0. If possible, give a formula that expresses
 Xn+k in terms of Xn for negative values of k.
 
-
-12
 RANDOM NUMBERS
 3.2.1.1
 3.2.1.1. Choice of modulus. Our current goal is to find good values for the
@@ -1189,34 +1158,33 @@ ADD
 C
 rA ←(rA + c) mod w.
 (1)
-The result appears in register A. The overflow toggle might be on at the conclu-
-sion of these instructions; if that is undesirable, the code should be followed by,
+The result appears in register A. The overflow toggle might be on at the conclusion of these instructions; if that is undesirable, the code should be followed by,
 say, ‘JOV *+1’ to turn it off.
 A clever technique that is less commonly known can be used to perform
 computations modulo w + 1. For reasons to be explained later, we will generally
 want c = 0 when m = w + 1, so we merely need to compute (aX) mod (w + 1).
 The following program does this:
-01
+
 LDAN X
 rA ←−X.
-02
+
 MUL
 A
 rAX ←(rA) · a.
-03
+
 STX
 TEMP
-04
+
 SUB
 TEMP
 rA ←rA −rX.
-05
+
 JANN *+3
 Exit if rA ≥0.
-06
+
 INCA 2
 rA ←rA + 2.
-07
+
 ADD
 = w −1 =
 rA ←rA + w −1.
@@ -1228,7 +1196,7 @@ how we can represent so many values in the A-register! (The register obviously
 
 3.2.1.1
 CHOICE OF MODULUS
-13
+
 cannot hold a number larger than w −1.) The answer is that the result equals w
 if and only if program (2) turns overflow on, assuming that overflow was initially
 off. We could represent w by 0, since (2) will not normally be used when X =
@@ -1275,8 +1243,6 @@ Another alternative is to let m be the largest prime number less than w.
 This prime may be found by using the techniques of Section 4.5.4, and a table
 of suitably large primes appears in that section.
 
-
-14
 RANDOM NUMBERS
 3.2.1.1
 Table 1
@@ -1285,151 +1251,151 @@ PRIME FACTORIZATIONS OF w ± 1
 e
 2e + 1
 7 · 31 · 151
-15
+
 32 · 11 · 331
 3 · 5 · 17 · 257
-16
+
 65537
 131071
-17
+
 3 · 43691
 33 · 7 · 19 · 73
-18
+
 5 · 13 · 37 · 109
 524287
-19
+
 3 · 174763
 3 · 52 · 11 · 31 · 41
-20
+
 17 · 61681
 72 · 127 · 337
-21
+
 32 · 43 · 5419
 3 · 23 · 89 · 683
-22
+
 5 · 397 · 2113
 47 · 178481
-23
+
 3 · 2796203
 32 · 5 · 7 · 13 · 17 · 241
-24
+
 97 · 257 · 673
 31 · 601 · 1801
-25
+
 3 · 11 · 251 · 4051
 3 · 2731 · 8191
-26
+
 5 · 53 · 157 · 1613
 7 · 73 · 262657
-27
+
 34 · 19 · 87211
 3 · 5 · 29 · 43 · 113 · 127
-28
+
 17 · 15790321
 233 · 1103 · 2089
-29
+
 3 · 59 · 3033169
 32 · 7 · 11 · 31 · 151 · 331
-30
+
 52 · 13 · 41 · 61 · 1321
 2147483647
-31
+
 3 · 715827883
 3 · 5 · 17 · 257 · 65537
-32
+
 641 · 6700417
 7 · 23 · 89 · 599479
-33
+
 32 · 67 · 683 · 20857
 3 · 43691 · 131071
-34
+
 5 · 137 · 953 · 26317
 31 · 71 · 127 · 122921
-35
+
 3 · 11 · 43 · 281 · 86171
 33 · 5 · 7 · 13 · 19 · 37 · 73 · 109
-36
+
 17 · 241 · 433 · 38737
 223 · 616318177
-37
+
 3 · 1777 · 25781083
 3 · 174763 · 524287
-38
+
 5 · 229 · 457 · 525313
 7 · 79 · 8191 · 121369
-39
+
 32 · 2731 · 22366891
 3 · 52 · 11 · 17 · 31 · 41 · 61681
-40
+
 257 · 4278255361
 13367 · 164511353
-41
+
 3 · 83 · 8831418697
 32 · 72 · 43 · 127 · 337 · 5419
-42
+
 5 · 13 · 29 · 113 · 1429 · 14449
 431 · 9719 · 2099863
-43
+
 3 · 2932031007403
 3 · 5 · 23 · 89 · 397 · 683 · 2113
-44
+
 17 · 353 · 2931542417
 7 · 31 · 73 · 151 · 631 · 23311
-45
+
 33 · 11 · 19 · 331 · 18837001
 3 · 47 · 178481 · 2796203
-46
+
 5 · 277 · 1013 · 1657 · 30269
 2351 · 4513 · 13264529
-47
+
 3 · 283 · 165768537521
 32 · 5 · 7 · 13 · 17 · 97 · 241 · 257 · 673
-48
+
 193 · 65537 · 22253377
 179951 · 3203431780337
-59
+
 3 · 2833 · 37171 · 1824726041
 32 · 52 · 7 · 11 · 13 · 31 · 41 · 61 · 151 · 331 · 1321
-60
+
 17 · 241 · 61681 · 4562284561
 72 · 73 · 127 · 337 · 92737 · 649657
-63
+
 33 · 19 · 43 · 5419 · 77158673929
 3 · 5 · 17 · 257 · 641 · 65537 · 6700417
-64
+
 274177 · 67280421310721
 10e −1
 e
 10e + 1
 33 · 7 · 11 · 13 · 37
-6
+
 101 · 9901
 32 · 239 · 4649
-7
+
 11 · 909091
 32 · 11 · 73 · 101 · 137
-8
+
 17 · 5882353
 34 · 37 · 333667
-9
+
 7 · 11 · 13 · 19 · 52579
 32 · 11 · 41 · 271 · 9091
-10
+
 101 · 3541 · 27961
 32 · 21649 · 513239
-11
+
 112 · 23 · 4093 · 8779
 33 · 7 · 11 · 13 · 37 · 101 · 9901
-12
+
 73 · 137 · 99990001
 32 · 11 · 17 · 73 · 101 · 137 · 5882353
-16
+
 353 · 449 · 641 · 1409 · 69857
 
 
 3.2.1.1
 CHOICE OF MODULUS
-15
+
 In most applications, the low-order bits are insignificant, and the choice
 m = w is quite satisfactory — provided that the programmer using the random
 numbers does so wisely.
@@ -1481,8 +1447,6 @@ Xn+1 = (aXn −c) mod m.
 Are these sequences essentially different from linear congruential sequences as defined
 in the text? Are they more suited to efficient computer calculation?
 
-
-16
 RANDOM NUMBERS
 3.2.1.1
 7. [M24] What patterns can you spot in Table 1?
@@ -1517,8 +1481,7 @@ b) Same question, but multiply instead by 999999900 (modulo 9999998999).
 c) Explain how to compute the powers 999999900n mod 9999998999, for n = 1, 2,
 3, . . . .
 d) Relate such computations to the decimal expansion of 1/9999998999.
-e) Show that these ideas make it possible to implement certain kinds of linear con-
-gruential generators that have extremely large moduli, using only a few operations
+e) Show that these ideas make it possible to implement certain kinds of linear congruential generators that have extremely large moduli, using only a few operations
 per generated number.
 13. [M24] Repeat the previous exercise, but with modulus 9999999001 and with
 multipliers 10 and 8999999101.
@@ -1535,7 +1498,7 @@ however, that a long period is only one desirable criterion for the randomness o
 
 3.2.1.2
 CHOICE OF MULTIPLIER
-17
+
 a linear congruential sequence. For example, when a = c = 1, the sequence is
 simply Xn+1 = (Xn + 1) mod m, and this obviously has a period of length m,
 yet it is anything but random. Other considerations affecting the choice of a
@@ -1576,7 +1539,7 @@ Proof. We have x = 1 + qpe for some integer q that is not a multiple of p. By
 the binomial formula
 xp = 1 +
 p
-1
+
 
 qpe + · · · +
 
@@ -1589,12 +1552,12 @@ qp−1p(p−1)e + qpppe
 1 + 1
 p
 p
-2
+
 
 qpe + 1
 p
 p
-3
+
 
 q2p2e + · · · + 1
 p
@@ -1612,15 +1575,13 @@ binomial coefficient
 k
 
 is divisible by p (see exercise 1.2.6–10); hence
-1
+
 p
 p
 k
 
 qk−1p(k−1)e
 
-
-18
 RANDOM NUMBERS
 3.2.1.2
 is divisible by p(k−1)e. And the last term is qp−1p(p−1)e−1, which is divisible by p
@@ -1694,7 +1655,7 @@ condition (i) of the theorem is necessary. The period has length m if and only
 
 3.2.1.2
 CHOICE OF MULTIPLIER
-19
+
 if the smallest positive value of n for which Xn = X0 = 0 is n = m. By (5) and
 condition (i), our theorem now reduces to proving the following fact:
 Lemma R.
@@ -1732,8 +1693,7 @@ that is, Xn = 0 if and only if n is a multiple of λ. Hence pe is a multiple of 
 This can happen only if λ = pg for some g, and the relations in (6) imply that
 λ = pe, completing the proof.
 The proof of Theorem A is now complete.
-We will conclude this section by considering the special case of pure mul-
-tiplicative generators, when c = 0. Although the random number generation
+We will conclude this section by considering the special case of pure multiplicative generators, when c = 0. Although the random number generation
 process is slightly faster in this case, Theorem A shows us that the maximum
 period length cannot be achieved. In fact, this is quite obvious, since the sequence
 now satisfies the relation
@@ -1746,8 +1706,6 @@ So when c = 0, we will want Xn to be relatively prime to m for all n, and this
 limits the length of the period to at most φ(m), the number of integers between
 0 and m that are relatively prime to m.
 
-
-20
 RANDOM NUMBERS
 3.2.1.2
 It may be possible to achieve an acceptably long period even if we stipulate
@@ -1810,7 +1768,7 @@ i) p = 2, e = 1, and a is odd;
 
 3.2.1.2
 CHOICE OF MULTIPLIER
-21
+
 ii) p = 2, e = 2, and a mod 4 = 3;
 iii) p = 2, e = 3, and a mod 8 = 3, 5, or 7;
 iv) p = 2, e ≥4, and a mod 8 = 3 or 5;
@@ -1859,8 +1817,6 @@ conditions of Theorem A, what is the value of X2e−1?
 5. [14] Find all multipliers a that satisfy the conditions of Theorem A when m =
 235 + 1. (The prime factors of m may be found in Table 3.2.1.1–1.)
 
-
-22
 RANDOM NUMBERS
 3.2.1.2
 x
@@ -1927,12 +1883,12 @@ prove that either a or a + p is a primitive element modulo pe. [Hint: See exerci
 
 3.2.1.3
 POTENCY
-23
+
 15. [M29] (a) Let a1 and a2 be relatively prime to m, and let their orders modulo m
 be λ1 and λ2, respectively. If λ is the least common multiple of λ1 and λ2, prove that
 aκ1
 1 aκ2
-2
+
 has order λ modulo m, for suitable integers κ1 and κ2. [Hint: Consider first
 the case that λ1 is relatively prime to λ2.] (b) Let λ(m) be the maximum order of
 any element modulo m. Prove that λ(m) is a multiple of the order of each element
@@ -1968,8 +1924,7 @@ of a modulo pe (see exercise 11), unless a ≡−1 (modulo 2e) when it is 2. (iv
 a mod p > 1, it is the order of a modulo pe.
 21. [M25] In a linear congruential sequence of maximum period, let X0 = 0 and let s
 be the least positive integer such that as ≡1 (modulo m). Prove that gcd(Xs, m) = s.
-x 22. [M25] Discuss the problem of finding moduli m = bk ±bl ±1 so that the subtract-
-with-borrow and add-with-carry generators of exercise 3.2.1.1–14 will have very long
+x 22. [M25] Discuss the problem of finding moduli m = bk ±bl ±1 so that the subtractwith-borrow and add-with-carry generators of exercise 3.2.1.1–14 will have very long
 periods.
 3.2.1.3. Potency.
 In the preceding section, we showed that the maximum
@@ -1977,8 +1932,6 @@ period can be obtained when b = a −1 is a multiple of each prime dividing m;
 and b must also be a multiple of 4 if m is a multiple of 4. If z is the radix of
 the machine being used — so that z = 2 for a binary computer, and z = 10 for a
 
-
-24
 RANDOM NUMBERS
 3.2.1.3
 decimal computer — and if m is the word size ze, the multiplier
@@ -2011,8 +1964,7 @@ multipliers having the simple form in (1) should be avoided.
 The generated
 numbers just aren’t random enough.
 Later in this chapter we shall be discussing some rather sophisticated theory
-that accounts for the badness of all the linear congruential random number gen-
-erators known to be bad. However, some generators
+that accounts for the badness of all the linear congruential random number generators known to be bad. However, some generators
 
 such as (2)
 
@@ -2037,7 +1989,7 @@ Xn = c
 
 n +
 n
-2
+
 
 b + · · · +
 n
@@ -2052,7 +2004,7 @@ If a = 1, the potency is 1; and Xn ≡cn (modulo m), as we have already
 observed, so the sequence is surely not random. If the potency is 2, we have
 Xn ≡cn + cb
 n
-2
+
 
 , and again the sequence is not very random; indeed,
 Xn+1 −Xn ≡c + cbn
@@ -2060,7 +2012,7 @@ Xn+1 −Xn ≡c + cbn
 
 3.2.1.3
 POTENCY
-25
+
 in this case, so the differences between consecutively generated numbers change
 in a simple way from one value of n to the next. The point (Xn, Xn+1, Xn+2)
 always lies on one of the four planes
@@ -2084,12 +2036,10 @@ therefore have k ≤8. This means a ≤257, and we shall see later that small
 multipliers are also to be avoided. We have now eliminated all multipliers of the
 form 2k + 1 when m = 235.
 When m is equal to w ± 1, where w is the word size, m is generally not
-divisible by high powers of primes, and a high potency is impossible (see exer-
-cise 6). So in this case, the maximum-period method should not be used; the
+divisible by high powers of primes, and a high potency is impossible (see exercise 6). So in this case, the maximum-period method should not be used; the
 pure-multiplication method with c = 0 should be applied instead.
 It must be emphasized that high potency is necessary but not sufficient
-for randomness; we use the concept of potency only to reject impotent genera-
-tors, not to accept the potent ones. Linear congruential sequences should pass
+for randomness; we use the concept of potency only to reject impotent generators, not to accept the potent ones. Linear congruential sequences should pass
 the “spectral test” discussed in Section 3.3.4 before they are considered to be
 acceptably random.
 EXERCISES
@@ -2112,8 +2062,6 @@ x
 congruential sequence of maximum period whose potency is 4 or more? (Use the result
 of exercise 5.)
 
-
-26
 RANDOM NUMBERS
 3.2.1.3
 7. [M20] When a satisfies the conditions of Theorem 3.2.1.2A, it is relatively prime
@@ -2127,8 +2075,7 @@ each of the 8000 possible values from (0, 0, 0) to (19, 19, 19) with nearly equa
 But with 1,000,000 values of n tested, many triples never occurred, and others occurred
 much more often than they should have. Can you account for this failure?
 3.2.2. Other Methods
-Of course, linear congruential sequences are not the only sources of random num-
-bers that have been proposed for computer use. In this section we shall review
+Of course, linear congruential sequences are not the only sources of random numbers that have been proposed for computer use. In this section we shall review
 the most significant alternatives. Some of these methods are quite important,
 while others are interesting chiefly because they are not as good as a person
 might expect.
@@ -2151,14 +2098,12 @@ about the behavior of the sequence (2), we come into the area of generators of
 the type Xn+1 = f(Xn) with the function f chosen at random; exercises 3.1–11
 through 3.1–15 show that these sequences probably behave much more poorly
 than the sequences obtained from the more disciplined function (1).
-Let us consider another approach, in an attempt to obtain a genuine im-
-provement of sequence (1). The linear congruential method can be generalized
+Let us consider another approach, in an attempt to obtain a genuine improvement of sequence (1). The linear congruential method can be generalized
 to, say, a quadratic congruential method:
 Xn+1 = (dX2
 n + aXn + c) mod m.
 (3)
-Exercise 8 generalizes Theorem 3.2.1.2A to obtain necessary and sufficient con-
-ditions on a, c, and d such that the sequence defined by (3) has a period of the
+Exercise 8 generalizes Theorem 3.2.1.2A to obtain necessary and sufficient conditions on a, c, and d such that the sequence defined by (3) has a period of the
 maximum length m; the restrictions are not much more severe than in the linear
 method.
 An interesting quadratic method has been proposed by R. R. Coveyou when
@@ -2173,10 +2118,8 @@ any worries of overflow. It has an interesting connection with von Neumann’s
 
 3.2.2
 OTHER METHODS
-27
-original middle-square method: If we let Yn be 2eXn, so that Yn is a double-
-precision number obtained by placing e zeros to the right of the binary represen-
-tation of Xn, then Yn+1 consists of precisely the middle 2e digits of Y 2
+
+original middle-square method: If we let Yn be 2eXn, so that Yn is a doubleprecision number obtained by placing e zeros to the right of the binary representation of Xn, then Yn+1 consists of precisely the middle 2e digits of Y 2
 n + 2eYn!
 In other words, Coveyou’s method is almost identical to a somewhat degenerate
 double-precision middle-square method, yet it is guaranteed to have a long
@@ -2221,8 +2164,6 @@ constants 24 and 55 in this definition were not chosen at random; they are speci
 values that happen to define a sequence whose least significant bits, ⟨Xn mod 2⟩,
 will have a period of length 255 −1. Therefore the sequence ⟨Xn⟩must have
 
-
-28
 RANDOM NUMBERS
 3.2.2
 a period at least this long. Exercise 30 proves that (7) has a period of length
@@ -2265,8 +2206,7 @@ J6P
 *+2
 ENT6 55
 If k = 0, set k ←55.
-This generator is usually faster than the other methods we have been dis-
-cussing, since it does not require any multiplication. Besides its speed, it has
+This generator is usually faster than the other methods we have been discussing, since it does not require any multiplication. Besides its speed, it has
 the longest period we have seen yet, except in exercise 3.2.1.2–22. Furthermore,
 as Richard Brent has observed, it can be made to work correctly with floating
 point numbers, avoiding the need to convert between integers and fractions (see
@@ -2286,7 +2226,7 @@ Lags like
 
 3.2.2
 OTHER METHODS
-29
+
 Table 1
 LAGS THAT YIELD LONG PERIODS MOD 2
 (24, 55)
@@ -2342,11 +2282,8 @@ multipliers a1, . . . , ak such that the sequence defined by
 Xn = (a1Xn−1 + · · · + akXn−k) mod p
 (8)
 has period length pk −1; here X0, . . . , Xk−1 may be chosen arbitrarily but not
-all zero. (The special case k = 1 corresponds to a multiplicative congruential se-
-quence with prime modulus, with which we are already familiar.) The constants
+all zero. (The special case k = 1 corresponds to a multiplicative congruential sequence with prime modulus, with which we are already familiar.) The constants
 
-
-30
 RANDOM NUMBERS
 3.2.2
 a1, . . . , ak in (8) have the desired property if and only if the polynomial
@@ -2398,7 +2335,7 @@ random bit of the sequence, do the following operations, shown in MIX’s langua
 
 3.2.2
 OTHER METHODS
-31
+
 (see exercise 16):
 LDA
 X
@@ -2423,22 +2360,8 @@ polynomial modulo 2 as above. After the code (10) has been executed, the next
 bit of the generated sequence may be taken as the least significant bit of word X.
 Alternatively, we could consistently use the most significant bit of X, if the most
 significant bit is more convenient.
-1011
-0101
-1010
-0111
-1110
-1111
-1101
-1001
-0001
-0010
-0100
-1000
-0011
-0110
-1100
-1011
+
+
 Fig. 1. Successive contents of the computer word X in the binary
 method, assuming that k = 4 and CONTENTS(A) = (0011)2.
 For example, consider Fig. 1, which illustrates the sequence generated for
@@ -2460,15 +2383,12 @@ CONTENTS(A) = (00000000000000000000000000000000101)2,
 but the considerations of exercises 18 and 3.3.4–24 imply that it would be better
 to find “random” constants that define primitive polynomials modulo 2.
 
-
-32
 RANDOM NUMBERS
 3.2.2
 Caution: Several people have been trapped into believing that this random
 bit-generation technique can be used to generate random whole-word fractions
 (.X0X1 . . . Xk−1)2, (.XkXk+1 . . . X2k−1)2, . . . ; but it is actually a poor source
-of random fractions, even though the bits are individually quite random. Exer-
-cise 18 explains why.
+of random fractions, even though the bits are individually quite random. Exercise 18 explains why.
 Mitchell and Moore’s additive generator (7) is essentially based on the
 concept of primitive polynomials: The polynomial x55 + x24 + 1 is primitive,
 and Table 1 is essentially a listing of certain primitive trinomials modulo 2.
@@ -2519,12 +2439,11 @@ maximum period length p + 1. Exercise 37 demonstrates the most important
 
 3.2.2
 OTHER METHODS
-33
+
 property: Inversive congruential sequences are completely free of the lattice
 structure that is characteristic of linear congruential sequences.
 Another important class of techniques deals with the combination of random
-number generators. There will always be people who feel that the linear con-
-gruential methods, additive methods, etc., are all too simple to give sufficiently
+number generators. There will always be people who feel that the linear congruential methods, additive methods, etc., are all too simple to give sufficiently
 random sequences; and it may never be possible to prove that their skepticism
 is unjustified — indeed, they may be right — so it is pretty useless to argue the
 point. There are reasonably efficient ways to combine two sequences into a third
@@ -2566,8 +2485,6 @@ Algorithm M from (13) will have a period of length 270 −235. [See J. Arthur
 Greenwood, Computer Science and Statistics: Symposium on the Interface 9
 (1976), 222–227.]
 
-
-34
 RANDOM NUMBERS
 3.2.2
 However, there is an even better way to shuffle the elements of a sequence,
@@ -2577,8 +2494,7 @@ Algorithm M, can give surprisingly better performance even though it requires
 only one input sequence ⟨Xn⟩instead of two:
 Algorithm B (Randomizing by shuffling).
 Given a method for generating a
-sequence ⟨Xn⟩, this algorithm will successively output the terms of a “consider-
-ably more random” sequence, using an auxiliary table V [0], V [1], . . . , V [k −1]
+sequence ⟨Xn⟩, this algorithm will successively output the terms of a “considerably more random” sequence, using an auxiliary table V [0], V [1], . . . , V [k −1]
 as in Algorithm M. Initially the V -table is filled with the first k values of the
 X-sequence, and an auxiliary variable Y is set equal to the (k + 1)st value.
 B1. [Extract j.] Set j ←⌊kY/m⌋, where m is the modulus used in the sequence
@@ -2637,7 +2553,7 @@ exercise 3.3.2–31 it will not fare much better after it has been shuffled. Shu
 
 3.2.2
 OTHER METHODS
-35
+
 also has the comparative disadvantage that it does not allow us to start at a
 given place in the period, or to skip quickly from Xn to Xn+k for large k.
 Many people have therefore suggested combining two sequences ⟨Xn⟩and
@@ -2648,8 +2564,7 @@ Zn = (Xn −Yn) mod m
 when 0 ≤Xn < m and 0 ≤Yn < m′ ≤m. Exercises 13 and 14 discuss the period
 length of such sequences; exercise 3.3.2–23 shows that (15) tends to enhance the
 randomness when the seeds X0 and Y0 are chosen independently.
-An even simpler way to remove the structural biases of arithmetically gen-
-erated numbers was proposed already in the early days of computing by J. Todd
+An even simpler way to remove the structural biases of arithmetically generated numbers was proposed already in the early days of computing by J. Todd
 and O. Taussky Todd [Symp. on Monte Carlo Methods (Wiley, 1956), 15–28]:
 We can just throw away some numbers of the sequence. Their suggestion was of
 little use with linear congruential generators, but it has become quite appropriate
@@ -2687,8 +2602,6 @@ n mod M,
 Bn = Xn mod 2,
 (16)
 
-
-36
 RANDOM NUMBERS
 3.2.2
 [Blum, Blum, and Shub, SICOMP 15 (1986), 364–383], or the more elaborate
@@ -2747,7 +2660,7 @@ random, if the code is performed repeatedly. Why isn’t the entire word X rando
 
 3.2.2
 OTHER METHODS
-37
+
 7. [20] Show that a complete sequence of length 2e (that is, a sequence in which
 each of the 2e possible sets of e adjacent bits occurs just once in the period) may be
 obtained if program (10) is changed to the following:
@@ -2802,14 +2715,11 @@ for all r ≥0. (Thus, to find the period length of the sequence ⟨An mod 2e⟩
 can compute λ(4), λ(8), λ(16), . . . until we find the smallest e ≥3 such that
 λ(2e) ̸= λ(4); then the period length is determined mod 2e for all e. Exercise
 4.6.3–26 explains how to calculate Xn for large n in O(log n) operations.)
-d) Show that any sequence of integers satisfying the recurrence stated at the begin-
-ning of this exercise has the generating function g(z)/f(z), for some polynomial
+d) Show that any sequence of integers satisfying the recurrence stated at the beginning of this exercise has the generating function g(z)/f(z), for some polynomial
 g(z) with integer coefficients.
 e) Given that the polynomials f(z) and g(z) in part (d) are relatively prime modulo p
 (see Section 4.6.1), prove that the sequence ⟨Xn mod pe⟩has exactly the same
 
-
-38
 RANDOM NUMBERS
 3.2.2
 period length as the special sequence ⟨An mod pe⟩in (b). (No longer period could
@@ -2836,7 +2746,7 @@ the period length λ′ of the sequence ⟨Zn⟩is a multiple of λ0, and it is 
 15. [M27] Let the sequence ⟨Xn⟩in Algorithm M have period length λ1, and assume
 that all elements of its period are distinct. Let qn = min{r | r > 0 and ⌊kYn−r/m⌋=
 ⌊kYn/m⌋}. Assume that qn <
-1
+
 2λ1 for all n ≥n0, and that the sequence ⟨qn⟩has
 period length λ2. Let λ be the least common multiple of λ1 and λ2. Prove that the
 output sequence ⟨Zn⟩produced by Algorithm M has a period of length λ.
@@ -2868,7 +2778,7 @@ on pairs (Section 3.3.2B) when d = 8.
 
 3.2.2
 OTHER METHODS
-39
+
 19. [M41] For each prime p specified in the first column of Table 2 in Section 4.5.4,
 find suitable constants a1 and a2 as suggested in the text, such that the period length
 of (8), when k = 2, is p2 −1. (See Eq. 3.3.4–(39) for an example.)
@@ -2885,8 +2795,7 @@ is “squarefree,” that is, the product of distinct primes. (Examination of Ta
 shows that m = w ± 1 often satisfies this hypothesis; many of the results of the text
 can therefore be carried over to that case, which is somewhat more convenient for
 calculation.)
-x 23. [20] Discuss the sequence defined by Xn = (Xn−55 −Xn−24) mod m as an alter-
-native to (7).
+x 23. [20] Discuss the sequence defined by Xn = (Xn−55 −Xn−24) mod m as an alternative to (7).
 24. [M20] Let 0 < l < k. Prove that the sequence of bits defined by the recurrence
 Xn = (Xn−k+l + Xn−k) mod 2 has period length 2k −1 whenever the sequence defined
 by Yn = (Yn−l + Yn−k) mod 2 does.
@@ -2919,8 +2828,6 @@ of the sequence will eventually be periodic with the same period length λ, unle
 isn’t very random to start with. [Hint: Find a pattern of consecutive values of ⌊kXn/m⌋
 that causes Algorithm B to “synchronize” its subsequent behavior.]
 
-
-40
 RANDOM NUMBERS
 3.2.2
 28. [40] (A. G. Waterman.) Experiment with linear congruential sequences with m
@@ -2949,7 +2856,7 @@ f(x) is a nonzero constant, when computed with polynomial arithmetic modulo p;
 (ii) x(p+1)/q mod f(x) has degree 1 for every prime q that divides p+1. [Hint: Consider
 powers of the matrix ( 0
 a
-1
+
 c).]
 35. [HM35] How many pairs (a, c) satisfy the conditions of exercise 34?
 36. [M25] Prove that the inversive congruential sequence Xn+1 = (aX−1
@@ -2968,7 +2875,7 @@ hyperplane H = {(v1, . . . , vd) | r1v1 +· · ·+rdvd ≡r0 (modulo p)}, where 
 
 3.3
 STATISTICAL TESTS
-41
+
 3.3. STATISTICAL TESTS
 Our main purpose is to obtain sequences that behave as if they are random. So
 far we have seen how to make the period of a sequence so long that for practical
@@ -3017,8 +2924,6 @@ Two kinds of tests are distinguished: empirical tests, for which the computer
 manipulates groups of numbers of the sequence and evaluates certain statistics;
 and theoretical tests, for which we establish characteristics of the sequence by
 
-
-42
 RANDOM NUMBERS
 3.3
 using number-theoretic methods based on the recurrence rule used to form the
@@ -3034,73 +2939,33 @@ Using two “true” dice (each of which, independently, is assumed to yield the
 values 1, 2, 3, 4, 5, or 6 with equal probability), the following table gives the
 probability of obtaining a given total, s, on a single throw:
 value of s = 2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
+
+
 probability, ps =
-1
-36
-1
-18
-1
-12
-1
-9
-5
-36
-1
-6
-5
-36
-1
-9
-1
-12
-1
-18
-1
-36
+
+
 (1)
 For example, a value of 4 can be thrown in three ways: 1 + 3, 2 + 2, 3 + 1; this
 constitutes
-3
+
 36 =
-1
+
 12 = p4 of the 36 possible outcomes.
 If we throw the dice n times, we should obtain the value s approximately
 nps times on the average. For example, in 144 throws we should get the value 4
 about 12 times. The following table shows what results were actually obtained
 in a particular sequence of 144 throws of the dice:
 value of s = 2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
+
+
 observed number, Ys = 2
 4 10 12 22 29 21
-15
-14
-9
-6
+
+
 expected number, nps = 4
 8 12 16 20 24 20
-16
-12
-8
-4
+
+
 (2)
 Notice that the observed number was different from the expected number in all
 cases; in fact, random throws of the dice will hardly ever come out with exactly
@@ -3124,12 +2989,11 @@ value of V we can ask, “What is the probability that V is this high, using tru
 
 3.3.1
 GENERAL TEST PROCEDURES
-43
+
 dice?” If this probability is very small, say
-1
+
 100, we would know that only about
-one time in 100 would true dice give results so far away from the expected num-
-bers, and we would have definite grounds for suspicion. (Remember, however,
+one time in 100 would true dice give results so far away from the expected numbers, and we would have definite grounds for suspicion. (Remember, however,
 that even good dice would give such a high value of V about one time in a
 hundred, so a cautious person would repeat the experiment to see if the high
 value of V is repeated.)
@@ -3150,13 +3014,13 @@ np12
 This is called the “chi-square” statistic of the observed quantities Y2, . . . , Y12 in
 the dice-throwing experiment. For the data in (2), we find that
 V = (2 −4)2
-4
+
 + (4 −8)2
-8
+
 + · · · + (9 −8)2
-8
+
 + (6 −4)2
-4
+
 = 7 7
 48.
 (5)
@@ -3165,8 +3029,7 @@ The important question now is, of course, “Does 7 7
 high value for V to assume?” Before answering this question, let us consider the
 general application of the chi-square method.
 In general, suppose that every observation can fall into one of k categories.
-We take n independent observations; this means that the outcome of one obser-
-vation has absolutely no effect on the outcome of any of the others. Let ps be the
+We take n independent observations; this means that the outcome of one observation has absolutely no effect on the outcome of any of the others. Let ps be the
 probability that each observation falls into category s, and let Ys be the number
 of observations that actually do fall into category s. We form the statistic
 V =
@@ -3204,8 +3067,6 @@ ps
 (8)
 which often makes the computation of V somewhat easier.
 
-
-44
 RANDOM NUMBERS
 3.3.1
 Table 1
@@ -3364,8 +3225,7 @@ xp =
 I. A. Stegun (Washington, D.C.: U.S. Government Printing Office, 1964), Table 26.8. See also
 Eq. (22) and exercise 16.)
 Now we turn to the important question, “What constitutes a reasonable
-value of V ?” This is found by referring to a table such as Table 1, which gives val-
-ues of “the chi-square distribution with ν degrees of freedom” for various values
+value of V ?” This is found by referring to a table such as Table 1, which gives values of “the chi-square distribution with ν degrees of freedom” for various values
 of ν. The line of the table with ν = k−1 is to be used; the number of “degrees of
 freedom” is k−1, one less than the number of categories.
 
@@ -3382,34 +3242,22 @@ have V > 18.31 only about 5 percent of the time.
 
 3.3.1
 GENERAL TEST PROCEDURES
-45
+
 Let us assume that our dice-throwing experiment has been simulated on a
 computer using some sequence of supposedly random numbers, with the following
 results:
 value of s = 2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
+
+
 Experiment 1,
 Ys = 4 10 10 13 20 18 18
-11
-13
-14
-13
+
+
 Experiment 2,
 Ys = 3
 7 11 15 19 24 21
-17
-13
-9
-5
+
+
 (9)
 We can compute the chi-square statistic in the first case, getting the value V1 =
 29 59
@@ -3419,13 +3267,12 @@ for 10 degrees of freedom, we see that V1 is much too high; V will be greater th
 23.21 only about one percent of the time! (By using more extensive tables, we
 find in fact that V will be as high as V1 only 0.1 percent of the time.) Therefore
 Experiment 1 represents a significant departure from random behavior.
-On the other hand, V2 is quite low, since the observed values Ys in Exper-
-iment 2 are quite close to the expected values nps in (2). The chi-square table
+On the other hand, V2 is quite low, since the observed values Ys in Experiment 2 are quite close to the expected values nps in (2). The chi-square table
 tells us, in fact, that V2 is much too low: The observed values are so close to the
 expected values, we cannot consider the result to be random! (Indeed, reference
 to other tables shows that such a low value of V occurs only 0.03 percent of
 the time when there are 10 degrees of freedom.) Finally, the value V = 7 7
-48
+
 computed in (5) can also be checked with Table 1. It falls between the entries
 for 25 percent and 50 percent, so we cannot consider it to be significantly high
 or significantly low; thus the observations in (2) are satisfactorily random with
@@ -3453,20 +3300,17 @@ Suppose p1 = 1
 4. According to the stated rule of thumb, we should
 have n ≥20 to have a satisfactory approximation, so let’s check that out. When
 n = 20, the possible values of V are (Y1 −5)2/5 + (5 −Y1)2/15 =
-4
+
 15r2 for
 −5 ≤r ≤15; we wish to know how well the row ν = 1 of Table 1 describes
 the distribution of V. The chi-square distribution varies continuously, while the
 actual distribution of V has rather big jumps, so we need some convention for
 
-
-46
 RANDOM NUMBERS
 3.3.1
 representing the exact distribution.
 If the distinct possible outcomes of the
-experiment lead to the values V0 ≤V1 ≤· · · ≤Vn with respective proba-
-bilities π0, π1, . . . , πn, suppose that a given percentage p falls in the range
+experiment lead to the values V0 ≤V1 ≤· · · ≤Vn with respective probabilities π0, π1, . . . , πn, suppose that a given percentage p falls in the range
 π0 + · · · + πj−1 < p < π0 + · · · + πj−1 + πj. We would like to represent p by a
 “percentage point” x such that V is less than x with probability ≤p and V is
 greater than x with probability ≤1−p. It is not difficult to see that the only such
@@ -3520,8 +3364,7 @@ values of n will tend to smooth out locally nonrandom behavior, when blocks of
 numbers with a strong bias are followed by blocks of numbers with the opposite
 bias. Locally nonrandom behavior is not an issue when actual dice are rolled,
 since the same dice are used throughout the test, but a sequence of numbers
-generated by computer might very well display such anomalies. Perhaps a chi-
-square test should be made for several different values of n. At any rate, n should
+generated by computer might very well display such anomalies. Perhaps a chisquare test should be made for several different values of n. At any rate, n should
 always be rather large.
 We can summarize the chi-square test as follows. A fairly large number, n, of
 independent observations is made. (It is important to avoid using the chi-square
@@ -3535,7 +3378,7 @@ than the 99% entry, we reject the numbers as not sufficiently random. If V lies
 
 3.3.1
 GENERAL TEST PROCEDURES
-47
+
 A
 B
 C
@@ -3558,8 +3401,7 @@ entries, or the 90% and 95% entries, the numbers might be “almost suspect.”
 The chi-square test is often done at least three times on different sets of data,
 and if at least two of the three results are suspect the numbers are regarded as
 not sufficiently random.
-For example, see Fig. 2, which shows schematically the results of apply-
-ing five different types of chi-square tests on each of six sequences of random
+For example, see Fig. 2, which shows schematically the results of applying five different types of chi-square tests on each of six sequences of random
 numbers.
 Each test in this illustration was applied to three different blocks
 of numbers of the sequence. Generator A is the MacLaren–Marsaglia method
@@ -3599,32 +3441,30 @@ Instead of using the “suspect,” “almost suspect,” etc., criteria for jud
 the results of chi-square tests, one can employ a less ad hoc procedure discussed
 later in this section.
 
-
-48
 RANDOM NUMBERS
 3.3.1
 x = 1
-2
+
 x = 0
 x = 1
 y = 1
 y = 1
-2
+
 (a)
 x = 1
-2
+
 x = 0
 x = 1
 y = 1
 y = 1
-2
+
 (b)
 y = 1
-4
+
 y = 1
-2
+
 y = 3
-4
+
 y = 1
 x = 3.9
 x = 6.7
@@ -3635,8 +3475,7 @@ x = 18.3
 Fig. 3. Examples of distribution functions.
 B. The Kolmogorov–Smirnov test.
 As we have seen, the chi-square test
-applies to the situation when observations can fall into a finite number of cate-
-gories. It is not unusual, however, to consider random quantities that range over
+applies to the situation when observations can fall into a finite number of categories. It is not unusual, however, to consider random quantities that range over
 infinitely many values, such as a random fraction (a random real number between
 0 and 1). Even though only finitely many real numbers can be represented in a
 computer, we want our random values to behave essentially as if all real numbers
@@ -3663,7 +3502,7 @@ from −∞to +∞.
 
 3.3.1
 GENERAL TEST PROCEDURES
-49
+
 If we make n independent observations of the random quantity X, thereby
 obtaining the values X1, X2, . . . , Xn, we can form the empirical distribution
 function Fn(x), where
@@ -3696,15 +3535,12 @@ where F(x) = 0.05.
 95% 99%
 The Kolmogorov–Smirnov test (KS test) may be used when F(x) has no
 jumps. It is based on the difference between F(x) and Fn(x). A bad source of
-random numbers will give empirical distribution functions that do not approxi-
-mate F(x) sufficiently well. Figure 4(b) shows an example in which the Xi are
+random numbers will give empirical distribution functions that do not approximate F(x) sufficiently well. Figure 4(b) shows an example in which the Xi are
 consistently too high, so the empirical distribution function is too low. Part (c)
 of the figure shows an even worse example; it is plain that such great deviations
 between Fn(x) and F(x) are extremely improbable, and the KS test is used to
 tell us how improbable they are.
 
-
-50
 RANDOM NUMBERS
 3.3.1
 To make the KS test, we form the following statistics:
@@ -3737,13 +3573,13 @@ Fig. 4(b)
 Fig. 4(c)
 K
 +
-20
+
 0.492
 0.134
 0.313
 K
 −
-20
+
 0.536
 1.027
 2.101
@@ -3767,8 +3603,7 @@ n . For example, the probability is
 entries are not merely approximations that hold for large values of n; Table 2
 gives exact values (except, of course, for roundoff error), and the KS test may
 be used reliably for any value of n.
-As they stand, formulas (11) are not readily adapted to computer calcula-
-tion, since we are asking for a least upper bound over infinitely many values of x.
+As they stand, formulas (11) are not readily adapted to computer calculation, since we are asking for a least upper bound over infinitely many values of x.
 But from the fact that F(x) is increasing and the fact that Fn(x) increases only
 in finite steps, we can derive a simple procedure for evaluating the statistics K+
 n
@@ -3808,7 +3643,7 @@ that G(x) = F(x); for we need n large enough that the empirical distributions
 
 3.3.1
 GENERAL TEST PROCEDURES
-51
+
 Table 2
 SELECTED PERCENTAGE POINTS OF THE DISTRIBUTIONS K+
 n AND K−
@@ -3986,8 +3821,6 @@ F∞(x) = 1 −e−2x2,
 x ≥0.
 (15)
 
-
-52
 RANDOM NUMBERS
 3.3.1
 The same remarks apply to K−
@@ -4036,8 +3869,7 @@ K
 20 for Fig. 4(c) is, of course, completely out of line, so the maximum-of-5 test
 shows a definite failure of that random number generator.
 We would expect the KS test in this experiment to have more difficulty
-locating global nonrandomness than local nonrandomness, since the basic obser-
-vations in Fig. 4 were made on samples of only 10 numbers each. If we were
+locating global nonrandomness than local nonrandomness, since the basic observations in Fig. 4 were made on samples of only 10 numbers each. If we were
 to take 20 groups of 1000 numbers each, part (b) would show a much more
 significant deviation. To illustrate this point, a single KS test was applied to all
 200 of the observations that led to Fig. 4, and the following results were obtained:
@@ -4046,19 +3878,18 @@ Fig. 4(b)
 Fig. 4(c)
 K
 +
-200
+
 0.477
 1.537
 2.819
 K
 −
-200
+
 0.817
 0.194
 0.058
 (16)
-The global nonrandomness of the Fibonacci generator has definitely been de-
-tected here.
+The global nonrandomness of the Fibonacci generator has definitely been detected here.
 We may summarize the Kolmogorov–Smirnov test as follows. We are given
 n independent observations X1, . . . , Xn taken from some distribution specified
 by a continuous function F(x). That is, F(x) must be like the functions shown
@@ -4068,7 +3899,7 @@ explained just before Eqs. (13) is carried out on these observations, and we obt
 
 3.3.1
 GENERAL TEST PROCEDURES
-53
+
 the statistics K+
 n and K−
 n . These statistics should be distributed according to
@@ -4122,8 +3953,6 @@ further from F(x) than the χ2 value would indicate; but if the positive deviati
 occur in compartments 0, 2, . . . , 98 and the negative ones occur in 1, 3, . . . , 99,
 the empirical distribution function will tend to hug F(x) much more closely. The
 
-
-54
 RANDOM NUMBERS
 3.3.1
 Range of K+
@@ -4181,7 +4010,7 @@ Since this multiplier 23 is too small, we
 
 3.3.1
 GENERAL TEST PROCEDURES
-55
+
 know that each value obtained by such a process is too strongly related to
 the preceding value to be considered sufficiently random; but the durations
 of time between actual uses of the values in the special accumulator by the
@@ -4245,8 +4074,6 @@ n!
 which equals (17). We may therefore regard the Y ’s as independently Poisson
 distributed, except for the fact that they have a fixed sum.
 
-
-56
 RANDOM NUMBERS
 3.3.1
 It is convenient to make a change of variables,
@@ -4294,10 +4121,10 @@ for some function f (see exercise 15); then integration over the angles ω1, . .
 ωk−2 gives a constant factor that cancels from numerator and denominator. We
 finally obtain the formula
 √v
-0
+
 e−χ2/2χk−2 dχ
 ∞
-0
+
 e−χ2/2χk−2 dχ
 (21)
 for the approximate probability that V ≤v.
@@ -4308,13 +4135,13 @@ gamma function, which we discussed in Section 1.2.11.3:
 lim
 n→∞Pr(V ≤v) = γ
 k −1
-2
+
 , v
-2
+
 
 Γ
 k −1
-2
+
 
 .
 (22)
@@ -4335,7 +4162,7 @@ n ).
 
 3.3.1
 GENERAL TEST PROCEDURES
-57
+
 N. V. Smirnov discussed several modifications of this test in 1939, including the
 individual examination of K+
 n and K−
@@ -4344,8 +4171,7 @@ a large family of similar tests, but the K+
 n and K−
 n statistics seem to be most
 convenient for computer application. A comprehensive review of the literature
-concerning KS tests and their generalizations, including an extensive bibliogra-
-phy, appears in a monograph by J. Durbin, Regional Conf. Series on Applied
+concerning KS tests and their generalizations, including an extensive bibliography, appears in a monograph by J. Durbin, Regional Conf. Series on Applied
 Math. 9 (SIAM, 1973).
 To study the distribution of K+
 n and K−
@@ -4364,7 +4190,7 @@ of (13) may be transformed into
 K
 +
 n =
-1
+
 √n max(1 −Y1, 2 −Y2, . . . , n −Yn).
 If 0 ≤t ≤n, the probability that K+
 n ≤t/√n is therefore the probability that
@@ -4379,10 +4205,10 @@ integrals,
 n
 0 dyn
 yn
-0
+
 dyn−1 . . .
 y2
-0
+
 dy1
 ,
 where
@@ -4425,8 +4251,6 @@ n is exactly the same. Equation (26) was first obtained
 by N. V. Smirnov [Uspekhi Mat. Nauk 10 (1944), 176–206]; see also Z. W.
 Birnbaum and Fred H. Tingey, Annals Math. Stat. 22 (1951), 592–596. Smirnov
 
-
-58
 RANDOM NUMBERS
 3.3.1
 derived the asymptotic formula
@@ -4456,27 +4280,11 @@ x
 3. [23] Some dice that were loaded as described in the previous exercise were rolled
 144 times, and the following values were observed:
 value of s = 2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
+
+
 observed number, Ys = 2
-6
-10
-16
-18
-32
-20
-13
-16
-9
-2
+
+
 Apply the chi-square test to these values, using the probabilities in (1), pretending that
 the dice are not in fact known to be faulty. Does the chi-square test detect the bad
 dice? If not, explain why not.
@@ -4521,13 +4329,13 @@ n can never be negative. What is the largest possible
 value K+
 n can have?
 8. [00] The text describes an experiment in which 20 values of the statistic K+
-10
+
 were obtained in the study of a random sequence. These values were plotted, to obtain
 
 
 3.3.1
 GENERAL TEST PROCEDURES
-59
+
 Fig. 4, and a KS statistic was computed from the resulting graph. Why were the table
 entries for n = 20 used to study the resulting statistic, instead of the table entries for
 n = 10?
@@ -4560,8 +4368,7 @@ exercise 3.) We would, of course, like the chi-square test to detect the fact th
 assumption was incorrect. Show that this will happen, if n is large enough. Prove also
 the analogous result for the KS test.
 13. [M24] Prove that Eqs. (13) are equivalent to Eqs. (11).
-x 14. [HM26] Let Zs be given by Eq. (18). Show directly by using Stirling’s approxi-
-mation that the multinomial probability
+x 14. [HM26] Let Zs be given by Eq. (18). Show directly by using Stirling’s approximation that the multinomial probability
 n!pY1
 1 . . . pYk
 k /Y1! . . . Yk! = e−V/2/
@@ -4588,18 +4395,16 @@ result to find the approximate solution, t, to the equation
 γ
 ν
 2 , t
-2
+
 
 Γ
 ν
-2
+
 
 = p,
 for large ν and fixed p, thereby accounting for the asymptotic formulas indicated in
 Table 1. [Hint: See exercise 1.2.11.3–8.]
 
-
-60
 RANDOM NUMBERS
 3.3.1
 17. [HM26] Let t be a fixed real number. For 0 ≤k ≤n, let
@@ -4614,10 +4419,10 @@ dxn−1 . . .
 k+1−t
 dxk+1
 xk+1
-0
+
 dxk . . .
 x2
-0
+
 dx1;
 by convention, let P00(x) = 1. Prove the following relations:
 a) Pnk(x) =
@@ -4646,8 +4451,7 @@ n has the same probability distribution
 as K+
 n .
 19. [HM48] Develop tests, analogous to the Kolmogorov–Smirnov test, for use with
-multivariate distributions F(x1, . . . , xr) = Pr(X1 ≤x1, . . . , Xr ≤xr). (Such proce-
-dures could be used, for example, in place of the “serial test” in the next section.)
+multivariate distributions F(x1, . . . , xr) = Pr(X1 ≤x1, . . . , Xr ≤xr). (Such procedures could be used, for example, in place of the “serial test” in the next section.)
 20. [HM41] Deduce further terms of the asymptotic behavior of the KS distribution,
 extending (27).
 21. [M40] Although the text states that the KS test should be applied only when
@@ -4661,8 +4465,7 @@ n for various discontinuous distributions F(x). Compare the effectiveness
 of the resulting statistical test with the chi-square test on several samples of random
 numbers.
 22. [HM46] Investigate the “improved” KS test suggested in the answer to exercise 6.
-23. [M22] (T. Gonzalez, S. Sahni, and W. R. Franta.) (a) Suppose that the maxi-
-mum value in formula (13) for the KS statistic K+
+23. [M22] (T. Gonzalez, S. Sahni, and W. R. Franta.) (a) Suppose that the maximum value in formula (13) for the KS statistic K+
 n occurs at a given index j where
 ⌊nF(Xj)⌋= k. Prove that F(Xj) = max1≤i≤n{F(Xi) | ⌊nF(Xi)⌋= k}. (b) Design
 an algorithm that calculates K+
@@ -4695,7 +4498,7 @@ W has the chi-square distribution with n degrees of freedom.]
 
 3.3.2
 EMPIRICAL TESTS
-61
+
 The equanimity of your average tosser of coins
 depends upon a law . . . which ensures that
 he will not upset himself by losing too much
@@ -4703,13 +4506,10 @@ nor upset his opponent by winning too often.
 — TOM STOPPARD, Rosencrantz & Guildenstern are Dead (1966)
 3.3.2. Empirical Tests
 In this section we shall discuss eleven kinds of specific tests that have traditionally
-been applied to sequences in order to investigate their randomness. The discus-
-sion of each test has two parts: (a) a “plug-in” description of how to perform the
-test; and (b) a study of the theoretical basis for the test. (Readers who lack math-
-ematical training may wish to skip over the theoretical discussions. Conversely,
+been applied to sequences in order to investigate their randomness. The discussion of each test has two parts: (a) a “plug-in” description of how to perform the
+test; and (b) a study of the theoretical basis for the test. (Readers who lack mathematical training may wish to skip over the theoretical discussions. Conversely,
 mathematically inclined readers may find the associated theory quite interesting,
-even if they never intend to test random number generators, since some instruc-
-tive combinatorial questions are involved here. Indeed, this section introduces
+even if they never intend to test random number generators, since some instructive combinatorial questions are involved here. Indeed, this section introduces
 several topics that will be important to us later in quite different contexts.)
 Each test is applied to a sequence
 ⟨Un⟩= U0, U1, U2, . . .
@@ -4729,8 +4529,7 @@ convenience; for example, we might have d = 64 = 26 on a binary computer,
 so that Yn represents the six most significant bits of the binary representation
 of Un. The value of d should be large enough so that the test is meaningful, but
 not so large that the test becomes impracticably difficult to carry out.
-The quantities Un, Yn, and d will have the significance stated above through-
-out this section, although the value of d will probably be different in different
+The quantities Un, Yn, and d will have the significance stated above throughout this section, although the value of d will probably be different in different
 tests.
 A. Equidistribution test (Frequency test).
 The first requirement that
@@ -4745,8 +4544,6 @@ count the number of times that Yj = r for 0 ≤j < n, and then apply the
 chi-square test using k = d and probability ps = 1/d for each category.
 The theory behind this test has been covered in Section 3.3.1.
 
-
-62
 RANDOM NUMBERS
 3.3.2
 B. Serial test.
@@ -4800,7 +4597,7 @@ G6. [n gaps found?] Increase s by one. If s < n, return to step G2.
 
 3.3.2
 EMPIRICAL TESTS
-63
+
 G1. Initialize
 G2. Set r zero
 G3. α ≤Uj < β?
@@ -4855,8 +4652,6 @@ A chi-square test is based on the number of quintuples in each category.
 It is reasonable to ask for a somewhat simpler version of this test, to facilitate
 the programming involved. A good compromise would simply be to count the
 
-
-64
 RANDOM NUMBERS
 3.3.2
 number of distinct values in the set of five. We would then have five categories:
@@ -4894,8 +4689,7 @@ r
 is the
 number of ways to partition a set of k elements into exactly r parts. Therefore
 exercise 1.2.6–64 completes the derivation of Eq. (5).
-E. Coupon collector’s test. The next test is related to the poker test some-
-what as the gap test is related to the frequency test. We use the sequence Y0,
+E. Coupon collector’s test. The next test is related to the poker test somewhat as the gap test is related to the frequency test. We use the sequence Y0,
 Y1, . . . , and we observe the lengths of segments Yj+1, Yj+2, . . . , Yj+r that are
 required to get a “complete set” of integers from 0 to d−1. Algorithm C describes
 this precisely:
@@ -4915,12 +4709,11 @@ complete set.) If q < d, return to step C3.
 
 3.3.2
 EMPIRICAL TESTS
-65
+
 C5. [Record the length.] If r ≥t, increase COUNT[t] by one, otherwise increase
 COUNT[r] by one.
 C6. [n found?] Increase s by one. If s < n, return to step C2.
-For an example of this algorithm, see exercise 7. We may think of a boy col-
-lecting d types of coupons, which are randomly distributed in his breakfast cereal
+For an example of this algorithm, see exercise 7. We may think of a boy collecting d types of coupons, which are randomly distributed in his breakfast cereal
 boxes; he must keep eating more cereal until he has one coupon of each type.
 A chi-square test is to be applied to COUNT[d], COUNT[d + 1], . . . , COUNT[t],
 with k = t −d + 1, after Algorithm C has counted n lengths. The corresponding
@@ -4972,8 +4765,6 @@ Algorithm P (Analyze a permutation). Given a sequence of distinct elements
 and f(U1, . . . , Ut) = f(V1, . . . , Vt) if and only if (U1, . . . , Ut) and (V1, . . . , Vt)
 have the same relative ordering.
 
-
-66
 RANDOM NUMBERS
 3.3.2
 P1. [Initialize.] Set r ←t, f ←0. (During this algorithm we will have 0 ≤f <
@@ -5025,11 +4816,11 @@ followed by a short run, and conversely. This lack of independence is enough to
 
 3.3.2
 EMPIRICAL TESTS
-67
+
 invalidate a straightforward chi-square test. Instead, the following statistic may
 be computed, when the run lengths have been determined as in exercise 12:
 V =
-1
+
 n −6
 
 1≤i,j≤6
@@ -5096,18 +4887,8 @@ B =
 
 
 
-1
-6
-5
-24
-11
-120
-19
-720
-29
-5040
-1
-840
+
+
 
 
 
@@ -5155,14 +4936,12 @@ Rq −mean(Rq)
 which measures the interdependence of Rp and Rq. These mean values are to be
 computed as the average over the set of all n! permutations.
 
-
-68
 RANDOM NUMBERS
 3.3.2
 Equations (12) and (13) show that the answers can be expressed in terms
 of the mean values of Zpi and of ZpiZqj, so as the first step of the derivation we
 obtain the following results (assuming that i < j):
-1
+
 n!
 
 Zpi =
@@ -5174,7 +4953,7 @@ p + δi1
 if i ≤n −p + 1;
 0,
 otherwise.
-1
+
 n!
 
 ZpiZqj =
@@ -5223,7 +5002,7 @@ p + 1
 
 −
 p + q + 1
-1
+
 
 + 1
 (16)
@@ -5250,7 +5029,7 @@ q)
 =
 
 1≤i,j≤n
-1
+
 n!
 
 ZpiZqj −mean(R′
@@ -5285,7 +5064,7 @@ s!
 
 3.3.2
 EMPIRICAL TESTS
-69
+
 This expression for the covariance is unfortunately quite complicated, but it is
 necessary for a successful run test as described above. From these formulas it is
 easy to compute
@@ -5302,8 +5081,7 @@ covar(Rp, Rq) = covar(Rp, R′
 q) −covar(Rp, R′
 q+1).
 (20)
-In Annals Math. Stat. 15 (1944), 163–165, J. Wolfowitz proved that the quan-
-tities R1, R2, . . . , Rt−1, R′
+In Annals Math. Stat. 15 (1944), 163–165, J. Wolfowitz proved that the quantities R1, R2, . . . , Rt−1, R′
 t become normally distributed as n →∞, subject to
 the mean and covariance expressed above; this implies that the following test for
 runs is valid: Given a sequence of n random numbers, compute the number of
@@ -5335,21 +5113,21 @@ C1 =
 
 
 
-23
-180
+
+
 −7
-360
+
 −5
-336
+
 −433
 60480
 −13
-5670
+
 −121
 181440
 −7
-360
-2843
+
+
 20160
 −989
 20160
@@ -5360,7 +5138,7 @@ C1 =
 −1303
 907200
 −5
-336
+
 −989
 20160
 54563
@@ -5384,7 +5162,7 @@ C1 =
 −62611
 239500800
 −13
-5670
+
 −10019
 1814400
 −62369
@@ -5431,33 +5209,33 @@ C2 =
 
 
 
-83
-180
+
+
 −29
-180
+
 −11
-210
+
 −41
 12096
-91
+
 25920
-41
+
 18144
 −29
-180
+
 −305
-4032
-319
+
+
 20160
-2557
+
 72576
 10177
 604800
-413
+
 64800
 −11
-210
-319
+
+
 20160
 −58747
 907200
@@ -5469,7 +5247,7 @@ C2 =
 9979200
 −41
 12096
-2557
+
 72576
 19703
 604800
@@ -5479,7 +5257,7 @@ C2 =
 239500800
 360989
 239500800
-91
+
 25920
 10177
 604800
@@ -5491,9 +5269,9 @@ C2 =
 7264857600
 4577641
 10897286400
-41
+
 18144
-413
+
 64800
 39517
 9979200
@@ -5519,27 +5297,24 @@ Now form A = (aij), the inverse of the matrix C, and compute
 t
 i,j=1 QiQjaij. The result for large n should have approximately the chi-square
 distribution with t degrees of freedom.
-The matrix A given earlier in (11) is the inverse of C1 to five significant fig-
-ures. The true inverse, A, is n−1C−1
-1
+The matrix A given earlier in (11) is the inverse of C1 to five significant figures. The true inverse, A, is n−1C−1
+
 −n−2C−1
 1 C2C−1
-1
+
 +n−3C−1
 1 C2C−1
 1 C2C−1
-1
+
 −
 · · · , and it turns out that C−1
 1 C2C−1
-1
+
 is very nearly equal to −6C−1
 1 . Therefore
 by (10), V ≈QTC−1
 1 Q/(n −6), where Q = (Q1 . . . Qt)T .
 
-
-70
 RANDOM NUMBERS
 3.3.2
 H. Maximum-of-t test. For 0 ≤j < n, let Vj = max(Utj, Utj+1, . . . , Utj+t−1).
@@ -5584,7 +5359,7 @@ pk = n
 m −1 + p0.
 Since p0 = (1 −m−1)n = 1 −nm−1 +
 n
-2
+
 
 m−2 −smaller terms, we find that
 the average total number of collisions taken over all m urns is slightly less than
@@ -5601,13 +5376,8 @@ This test can also be used in 10 dimensions with d = 4, and so on.
 To decide if the test is passed, we can use the following table of percentage
 points when m = 220 and n = 214:
 collisions ≤
-101
-108
-119
-126
-134
-145
-153
+
+
 with probability
 .009
 .043
@@ -5622,7 +5392,7 @@ Eq. (5); the probability that c collisions occur is the probability that n −c 
 
 3.3.2
 EMPIRICAL TESTS
-71
+
 are occupied, namely
 m(m −1) . . . (m −n + c + 1)
 mn
@@ -5670,9 +5440,8 @@ Sn = Y(1) + m −Y(n); finally sort the spacings into order, S(1) ≤· · · �
 R be the number of equal spacings, namely the number of indices j such that
 1 < j ≤n and S(j) = S(j−1). When m = 225 and n = 512, we should have
 R =
-0
-1
-2
+
+
 3 or more
 with probability
 .368801577
@@ -5686,8 +5455,6 @@ this will tell whether or not the generator produces reasonably random birthday
 spacings. Exercises 28–30 develop the theory behind this test and formulas for
 other values of m and n.
 
-
-72
 RANDOM NUMBERS
 3.3.2
 Such a test of birthday spacings is important primarily because of the
@@ -5716,8 +5483,7 @@ we never get all four elements of the set {Xn, Xn−24, Xn−31, Xn−86}, and t
 birthday spacings are no problem. An even better way to avoid the problem
 is to discard consecutive batches of numbers, as suggested by Lüscher; see
 Section 3.2.2.)
-Similar remarks apply to the subtract-with-borrow and add-
-with-carry generators of exercise 3.2.1.1–14.
+Similar remarks apply to the subtract-with-borrow and addwith-carry generators of exercise 3.2.1.1–14.
 K. Serial correlation test. We may also compute the following statistic:
 C = n(U0U1+U1U2+· · ·+Un−2Un−1+Un−1U0)−(U0+U1+· · ·+Un−1)2
 n(U 2
@@ -5753,11 +5519,10 @@ from discussion.
 
 3.3.2
 EMPIRICAL TESTS
-73
+
 A correlation coefficient always lies between −1 and +1. When it is zero or
 very small, it indicates that the quantities Uj and Vj are (relatively speaking)
-independent of each other, whereas a value of ±1 indicates total linear depen-
-dence. In fact, Vj = α ± βUj for all j in the latter case, for some constants α
+independent of each other, whereas a value of ±1 indicates total linear dependence. In fact, Vj = α ± βUj for all j in the latter case, for some constants α
 and β. (See exercise 17.)
 Therefore it is desirable to have C in Eq. (23) close to zero.
 In actual
@@ -5778,10 +5543,9 @@ The formula for σ2
 n in (25) is an upper bound, valid for serial correlations
 between independent random variables from an arbitrary distribution. When
 the U’s are uniformly distributed, the true variance is obtained by subtracting
-24
+
 5 n−2 + O(n−7/3 log n). (See exercise 20.)
-Instead of simply computing the correlation coefficient between the obser-
-vations (U0, U1, . . . , Un−1) and their immediate successors (U1, . . . , Un−1, U0),
+Instead of simply computing the correlation coefficient between the observations (U0, U1, . . . , Un−1) and their immediate successors (U1, . . . , Un−1, U0),
 we can also compute it between (U0, U1, . . . , Un−1) and any cyclically shifted
 sequence (Uq, . . . , Un−1, U0, . . . , Uq−1); the cyclic correlations should be small
 for 0 < q < n.
@@ -5813,8 +5577,6 @@ q = 10 yields the subsequences most likely to be unsatisfactory. (This can be
 explained somewhat on the grounds of potency, since such values of q will tend
 to lower the potency. Exercise 3.2.1.2–20 provides a more detailed explanation.)
 
-
-74
 RANDOM NUMBERS
 3.3.2
 M. Historical remarks and further discussion.
@@ -5852,8 +5614,7 @@ tests for runs up and runs down, as proposed in the text above, are more suited
 to computer application, so we have not given the more complex formulas for
 the alternate-up-and-down case. See the survey paper by D. E. Barton and C. L.
 Mallows, Annals Math. Stat. 36 (1965), 236–260.
-Of all the tests we have discussed, the frequency test and the serial corre-
-lation test seem to be the weakest, in the sense that nearly all random number
+Of all the tests we have discussed, the frequency test and the serial correlation test seem to be the weakest, in the sense that nearly all random number
 generators pass them. Theoretical grounds for the weakness of these tests are
 discussed briefly in Section 3.5 (see exercise 3.5–26). The run test, on the other
 hand, is rather strong: The results of exercises 3.3.3–23 and 24 suggest that
@@ -5861,27 +5622,24 @@ linear congruential generators tend to have runs somewhat longer than normal
 if the multiplier is not large enough, so the run test of exercise 14 is definitely
 to be recommended.
 The collision test is also highly recommended, since it has been specially
-designed to detect the deficiencies of many poor generators that have unfortu-
-nately become widespread. Based on ideas of H. Delgas Christiansen [Inst. Math.
+designed to detect the deficiencies of many poor generators that have unfortunately become widespread. Based on ideas of H. Delgas Christiansen [Inst. Math.
 Stat. and Oper. Res., Tech. Univ. Denmark (October 1975), unpublished], this
 
 
 3.3.2
 EMPIRICAL TESTS
-75
+
 test was the first to be developed after the advent of computers; it is specifically
 intended for computer use, and unsuitable for hand calculation.
 The reader probably wonders, “Why are there so many tests?” It has been
 said that more computer time is spent testing random numbers than using them
 in applications! This is untrue, although it is possible to go overboard in testing.
 The need for making several tests has been amply documented. People have
-found, for example, that some numbers generated by a variant of the middle-
-square method have passed the frequency test, gap test, and poker test, yet
+found, for example, that some numbers generated by a variant of the middlesquare method have passed the frequency test, gap test, and poker test, yet
 flunked the serial test. Linear congruential sequences with small multipliers have
 been known to pass many tests, yet fail on the run test because there are too
 few runs of length one. The maximum-of-t test has also been used to ferret out
-some bad generators that otherwise seemed to perform respectably. A subtract-
-with-borrow generator fails the gap test when the maximum gap length exceeds
+some bad generators that otherwise seemed to perform respectably. A subtractwith-borrow generator fails the gap test when the maximum gap length exceeds
 the largest lag; see Vattulainen, Kankaala, Saarinen, and Ala-Nissila, Computer
 Physics Communications 86 (1995), 209–226, where a variety of other tests are
 also reported. Lagged Fibonacci generators, which are theoretically guaranteed
@@ -5918,8 +5676,6 @@ combinations that a monkey will miss after typing randomly on a keyboard
 with 1024 keys; see Computers and Math. 26, 9 (November 1993), 1–10, for the
 analysis of several monkey tests.
 
-
-76
 RANDOM NUMBERS
 3.3.2
 EXERCISES
@@ -5975,17 +5731,15 @@ having the pattern (15).
 
 3.3.2
 EMPIRICAL TESTS
-77
+
 x 14. [M15] If we “throw away” the element that immediately follows a run, so that
 when Xj is greater than Xj+1 we start the next run with Xj+2, the run lengths are
-independent, and a simple chi-square test may be used (instead of the horribly compli-
-cated method derived in the text). What are the appropriate run-length probabilities
+independent, and a simple chi-square test may be used (instead of the horribly complicated method derived in the text). What are the appropriate run-length probabilities
 for this simple run test?
 15. [M10] In the maximum-of-t test, why are V t
 0, V t
 1, . . . , V t
-n−1 supposed to be uni-
-formly distributed between zero and one?
+n−1 supposed to be uniformly distributed between zero and one?
 x 16. [15] Mr. J. H. Quick (a student) wanted to perform the maximum-of-t test for
 several different values of t.
 a) Letting Zjt = max(Uj, Uj+1, . . . , Uj+t−1), he found a clever way to go from the
@@ -6023,7 +5777,7 @@ k
 0≤k<n
 U ′
 k
-2
+
 
 0≤k<n
 V ′
@@ -6040,8 +5794,7 @@ correlation coefficient always equals −1
 2. (c) Show that the denominator in (23) is zero
 if and only if U0 = U1 = · · · = Un−1.
 19. [M30] (J. P. Butler.) Let U0, . . . , Un−1 be independent random variables having
-the same distribution. Prove that the expected value of the serial correlation coeffi-
-cient (23), averaged over all cases with nonzero denominator, is −1/(n −1).
+the same distribution. Prove that the expected value of the serial correlation coefficient (23), averaged over all cases with nonzero denominator, is −1/(n −1).
 20. [HM41] Continuing the previous exercise, prove that the variance of (23) is equal
 to n2/(n−1)2(n−2)−n3 E((U0−U1)4/D2)/2(n−2), where D is the denominator of (23)
 and E denotes the expected value over all cases with D ̸= 0. What is the asymptotic
@@ -6049,8 +5802,6 @@ value of E((U0 −U1)4/D2) when each Uj is uniformly distributed?
 21. [19] What value of f is computed by Algorithm P if it is presented with the
 permutation (1, 2, 9, 8, 5, 3, 6, 7, 0, 4)?
 
-
-78
 RANDOM NUMBERS
 3.3.2
 22. [18] For what permutation of {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} will Algorithm P produce
@@ -6070,7 +5821,7 @@ P(x1, . . . , xt) = 1
 n=0
 [(Yn, . . . , Yn+t−1) = (x1, . . . , xt)];
 Q(x1, . . . , xt) =
-1
+
 λλ′
 λ−1
 
@@ -6111,7 +5862,7 @@ Then V should have the chi-square distribution with dt −dt−1 degrees of free
 n is large. [Hint: Use exercise 3.3.1–25.]
 25. [M46] Why is C−1
 1 C2C−1
-1
+
 ≈−6C−1
 1 , when C1 and C2 are the matrices defined
 after (22)?
@@ -6144,7 +5895,7 @@ transformation to get yet another set of random spacings S′′
 n, etc.
 Each
 successive set of spacings S (k)
-1
+
 , . . . , S (k)
 n
 can be subjected to the Kolmogorov–Smirnov
@@ -6152,7 +5903,7 @@ can be subjected to the Kolmogorov–Smirnov
 
 3.3.2
 EMPIRICAL TESTS
-79
+
 test, using
 K+
 n−1 =
@@ -6162,7 +5913,7 @@ n −1 max
 
 j
 n −1 −S (k)
-1
+
 −· · · −S (k)
 j
 
@@ -6174,7 +5925,7 @@ n −1 max
 1≤j<n
 
 S (k)
-1
+
 + · · · + S (k)
 j
 −j −1
@@ -6227,15 +5978,12 @@ X + Y is more likely to be positive than negative.
 33. [HM32] Find the asymptotic value of the probability that k + l consecutive bits
 generated by the recurrence Yn = (Yn−l + Yn−k) mod 2 have more 1s than 0s, when
 k > 2l and the period length of this recurrence is 2k −1, assuming that k is large.
-34. [HM29] Explain how to estimate the mean and variance of the number of two-
-letter combinations that do not occur consecutively in a random string of length n
+34. [HM29] Explain how to estimate the mean and variance of the number of twoletter combinations that do not occur consecutively in a random string of length n
 on an m-letter alphabet. Assume that m is large and n ≈2m2.
 x 35. [HM32] (J. H. Lindholm, 1968.) Suppose we generate random bits ⟨Yn⟩using the
 recurrence
 Yn = (a1Yn−1 + a2Yn−2 + · · · + akYn−k) mod 2 ,
 
-
-80
 RANDOM NUMBERS
 3.3.2
 for some choice of a1, . . . , ak such that the period length is 2k −1; start with Y0 = 1
@@ -6299,7 +6047,7 @@ hence |r| < d/2m.
 
 3.3.3
 THEORETICAL TESTS
-81
+
 Proof. The proof of this theorem involves some techniques that are of interest
 in themselves. First we define
 s(x) = (ax + c) mod m.
@@ -6307,8 +6055,8 @@ s(x) = (ax + c) mod m.
 Thus, Xn+1 = s(Xn), and the theorem reduces to counting the number of
 integers x such that 0 ≤x < m and s(x) < x, since every such integer occurs
 somewhere in the period. We want to show that this number is
-1
-2
+
+
 
 m + 2(c mod d) −d
 
@@ -6358,9 +6106,9 @@ method of exercise 1.2.4–37, where we have proved that
 k
 
 = (h −1)(k −1)
-2
+
 + g −1
-2
+
 + g⌊c/g⌋,
 g = gcd(h, k),
 (5)
@@ -6372,7 +6120,7 @@ formula yields
 m
 
 = (a −1)(m −1)
-2
+
 + c,
 
 0≤x<m
@@ -6380,9 +6128,9 @@ m
 m
 
 = (b −1)(m −1)
-2
+
 + d −1
-2
+
 + c −(c mod d),
 and (3) follows immediately.
 The proof of Theorem P indicates that a priori tests can indeed be carried
@@ -6397,7 +6145,7 @@ operations:
 2δ(x) = x −⌈x⌉+ 1
 2 −1
 2δ(x) = x −1
-2
+
 
 ⌊x⌋+ ⌈x⌉
 
@@ -6409,15 +6157,13 @@ rather than ⌊x⌋or ⌈x⌉is that ((x)) possesses several very useful propert
 ((−x)) = −((x));
 (8)
 
-
-82
 RANDOM NUMBERS
 3.3.3
 + 1
-2
+
 −1
-2
-0
+
+
 Fig. 7. The sawtooth function ((x)).
 ((x+n)) = ((x)),
 integer n;
@@ -6461,7 +6207,7 @@ m
 m
 
 + 1
-2
+
 = x −s(x)
 m
 +
@@ -6469,7 +6215,7 @@ m
 m
 
 + 1
-2
+
 (11)
 since
 
@@ -6523,7 +6269,7 @@ m
 
 3.3.3
 THEORETICAL TESTS
-83
+
 = d
 
 0≤x<m0
@@ -6594,14 +6340,14 @@ Using the well-known formulas
 
 0≤x<m
 x = m(m −1)
-2
+
 and
 
 0≤x<m
 x2 =
 m(m −1
 2)(m −1)
-3
+
 ,
 it is a straightforward matter to transform Eq. (14) into
 C = mσ(a, m, c) −3 + 6(m −x′ −c)
@@ -6619,8 +6365,6 @@ is hardly any easier than evaluating the correlation coefficient itself directly
 fortunately there are simple methods available for computing Dedekind sums
 quite rapidly.
 
-
-84
 RANDOM NUMBERS
 3.3.3
 Lemma B (“Reciprocity law” for Dedekind sums). Let h, k, c be integers. If
@@ -6658,7 +6402,7 @@ g(x) = x + 2x2 + · · · + (k −1)xk−1
 = xf ′(x) = kxk/(x −1) −x(xk −1)/(x −1)2.
 (22)
 If ω is the complex kth root of unity e2πi/k, we have by Eq. 1.2.9–(13)
-1
+
 k
 
 0≤j<k
@@ -6718,7 +6462,7 @@ k2
 
 3.3.3
 THEORETICAL TESTS
-85
+
 The right-hand side of this formula may be simplified by carrying out the sum
 on r; we have 
 0≤r<k ωrs = f(ωs) = 0 if s mod k ̸= 0. Equation (25) now
@@ -6729,7 +6473,7 @@ k
 k
 
 0<j<k
-1
+
 (ω−jh −1)(ωj −1).
 (26)
 A similar formula is obtained for σ(k, h, 0), with ζ = e2πi/h replacing ω.
@@ -6741,22 +6485,21 @@ the identity
 n
 
 j=1
-1
+
 (xj −x1) . . . (xj −xj−1)(x −xj)(xj −xj+1) . . . (xj −xn)
 =
-1
+
 (x −x1) . . . (x −xn) ,
 (27)
 which follows from the usual method of expanding the right-hand side into partial
 fractions. Moreover, if q(x) = (x −y1)(x −y2) . . . (x −ym), we have
 q′(yj) = (yj −y1) . . . (yj −yj−1)(yj −yj+1) . . . (yj −ym);
 (28)
-this identity may often be used to simplify expressions like those in the left-
-hand side of (27). When h and k are relatively prime, the numbers ω, ω2, . . . ,
+this identity may often be used to simplify expressions like those in the lefthand side of (27). When h and k are relatively prime, the numbers ω, ω2, . . . ,
 ωk−1, ζ, ζ2, . . . , ζh−1 are all distinct; we can therefore consider formula (27) in
 the special case of the polynomial (x −ω) . . . (x −ωk−1)(x −ζ) . . . (x −ζh−1) =
 (xk −1)(xh −1)/(x −1)2, obtaining the following identity in x:
-1
+
 h
 
 0<j<h
@@ -6770,11 +6513,10 @@ k
 (x−1)2
 (xh −1)(xk −1).
 (29)
-This identity has many interesting consequences, and it leads to numerous reci-
-procity formulas for sums of the type given in Eq. (26).
+This identity has many interesting consequences, and it leads to numerous reciprocity formulas for sums of the type given in Eq. (26).
 For example, if we
 differentiate (29) twice with respect to x and let x →1, we find that
-2
+
 h
 
 0<j<h
@@ -6786,7 +6528,7 @@ k
 ωj(ωj −1)2
 (ωjh −1)(1 −ωj)3
 = 1
-6
+
 h
 k + k
 h + 1
@@ -6797,20 +6539,20 @@ hk
 2h −1
 2k .
 Replace j by h −j and by k −j in these sums and use (26) to get
-1
-6
+
+
 
 σ(k, h, 0) + 3(h −1)
 h
 
 + 1
-6
+
 
 σ(h, k, 0) + 3(k −1)
 k
 
 = 1
-6
+
 h
 k + k
 h + 1
@@ -6822,8 +6564,6 @@ hk
 2k ,
 which is equivalent to the desired result.
 
-
-86
 RANDOM NUMBERS
 3.3.3
 Lemma B gives us an explicit function f(h, k, c) such that
@@ -6897,16 +6637,16 @@ m5
 k + a1 −a2 + a3 −a4.
 The next part of (19), 1/hk, also leads to a simple contribution; according to
 Eq. 4.5.3–(9) and other formulas in Section 4.5.3, we have
-1
+
 m1m2
 −
-1
+
 m2m3
 +
-1
+
 m3m4
 −
-1
+
 m4m5
 = h′
 k −1,
@@ -6915,7 +6655,7 @@ k −1,
 
 3.3.3
 THEORETICAL TESTS
-87
+
 where h′ is the unique integer satisfying
 h′h ≡1 (modulo k),
 0 < h′ ≤k.
@@ -6931,19 +6671,19 @@ k
 + 6
 
 c2
-1
+
 m1m2
 −
 c2
-2
+
 m2m3
 +
 c2
-3
+
 m3m4
 −
 c2
-4
+
 m4m5
 
 + 2,
@@ -7014,8 +6754,6 @@ Such a correlation is much, much too high for randomness.
 Of course, this
 generator has very low potency, and we have already rejected it as nonrandom.
 
-
-88
 RANDOM NUMBERS
 3.3.3
 Example 2. Find the approximate serial correlation when m = 1010, a = 10001,
@@ -7027,24 +6765,24 @@ m2 =
 10001
 a1 = 999900
 c2 =
-7350
+
 b1 = 211303
 m3 =
-100
+
 a2 =
-100
+
 c3 =
-50
+
 b2 =
-73
+
 m4 =
-1
+
 a3 =
-100
+
 c4 =
-0
+
 b3 =
-50
+
 σ(m2, m1, c1) = −31.6926653544;
 C ≈−3 · 10−9.
 (38)
@@ -7072,15 +6810,13 @@ m
 .
 (39)
 The error in this approximation is less than (a + 6)/m in absolute value.
-The estimate in (39) was the first theoretical result known about the random-
-ness of congruential generators. R. R. Coveyou [JACM 7 (1960), 72–74] obtained
+The estimate in (39) was the first theoretical result known about the randomness of congruential generators. R. R. Coveyou [JACM 7 (1960), 72–74] obtained
 it by averaging over all real numbers x between 0 and m instead of considering
 only the integer values (see exercise 21); then Martin Greenberger [Math. Comp.
 15 (1961), 383–389] gave a rigorous derivation including an estimate of the
 error term.
 So began one of the saddest chapters in the history of computer science!
-Although the approximation above is quite correct, it has been grievously mis-
-applied in practice; people abandoned the perfectly good generators they had
+Although the approximation above is quite correct, it has been grievously misapplied in practice; people abandoned the perfectly good generators they had
 been using and replaced them by terrible generators that looked good from the
 standpoint of (39). For more than a decade, the most common random number
 generators in daily use were seriously deficient, solely because of a theoretical
@@ -7094,7 +6830,7 @@ serial correlation over the whole period would be a pretty good guarantee of
 
 3.3.3
 THEORETICAL TESTS
-89
+
 randomness; but in fact it doesn’t even ensure a small serial correlation for 1000
 consecutive elements of the sequence (see exercise 14).
 Secondly, (39) and its error term will ensure a relatively small value of C only
@@ -7105,7 +6841,7 @@ Minimizing a crude upper bound for C does not minimize C.
 In the third place, people observed that (39) yields its best estimate when
 c/m ≈1
 2 ± 1
-6
+
 √
 3,
 (40)
@@ -7124,7 +6860,7 @@ generalized Dedekind sums still more closely, it is possible to obtain quite a
 sharp estimate:
 Theorem K. Under the assumptions of Theorem D, we always have
 −1
-2
+
 
 1≤j≤t
 j odd
@@ -7137,7 +6873,7 @@ aj ≤σ(h, k, c) ≤
 1≤j≤t
 j odd
 aj + 1
-2
+
 
 1≤j≤t
 j even
@@ -7161,12 +6897,10 @@ to be much better than one specifically chosen to look good on the basis of (39)
 In fact, it is possible to show that the average value of t
 j=1 aj, taken over all
 
-
-90
 RANDOM NUMBERS
 3.3.3
 multipliers a relatively prime to m, is
-6
+
 π2 (ln m)2 + O
 
 (log m)(log log m)4
@@ -7246,7 +6980,7 @@ r
 
 3.3.3
 THEORETICAL TESTS
-91
+
 By generalizing the method of proof used in Lemma B, prove the following beautiful
 identity due to H. Rademacher: If each of p, q, r is relatively prime to the other two,
 ρ(p, q, r) + ρ(q, r, p) + ρ(r, p, q) = p
@@ -7281,7 +7015,7 @@ computations:
 c2
 j
 mjmj+1 =
-1
+
 m1
 
 1≤j≤t
@@ -7306,8 +7040,6 @@ sums and the sawtooth function. [Hint: When z ≤k, the quantity ⌊j/k⌋−⌊
 equals 1 for 0 ≤j < z, and it equals 0 for z ≤j < k, so we can introduce this factor
 and sum over 0 ≤j < k.]
 
-
-92
 RANDOM NUMBERS
 3.3.3
 x 19. [M23] Show that the serial test can be analyzed over the full period, in terms of
@@ -7321,21 +7053,20 @@ In many cases, exact computations with integers are quite difficult to carry out
 we can attempt to study the probabilities that arise when we take the average over all
 real values of x instead of restricting the calculation to integer values. Although these
 results are only approximate, they shed some light on the subject.
-It is convenient to deal with numbers Un between zero and one; for linear congru-
-ential sequences, Un = Xn/m, and we have Un+1 = {aUn + θ}, where θ = c/m and
+It is convenient to deal with numbers Un between zero and one; for linear congruential sequences, Un = Xn/m, and we have Un+1 = {aUn + θ}, where θ = c/m and
 {x} denotes x mod 1. For example, the formula for serial correlation now becomes
 C =
 1
-0
+
 x{ax + θ} dx −
 1
-0
+
 x dx
 2 1
-0
+
 x2 dx −
 1
-0
+
 x dx
 2 
 .
@@ -7349,7 +7080,7 @@ the probability that Un+2 < Un+1 < Un, assuming that Un is a random real number
 between zero and one?
 24. [M29] Under the assumptions of the preceding problem, except with θ = 0, show
 that Un > Un+1 > · · · > Un+t−1 occurs with probability
-1
+
 t!
 
 1 + 1
@@ -7367,12 +7098,10 @@ x 25. [M25] Let α, β, α′, β′ be real numbers with 0 ≤α < β ≤1, 0 �
 Under the assumptions of exercise 22, what is the probability that α ≤x < β and
 α′ ≤s(x) < β′? (This is the “real number” analog of exercise 19.)
 26. [M21] Consider a “Fibonacci” generator, where Un+1 = {Un + Un−1}. Assuming
-that U1 and U2 are independently chosen at random between 0 and 1, find the proba-
-bility that U1 < U2 < U3, U1 < U3 < U2, U2 < U1 < U3, etc. [Hint: Divide the unit
+that U1 and U2 are independently chosen at random between 0 and 1, find the probability that U1 < U2 < U3, U1 < U3 < U2, U2 < U1 < U3, etc. [Hint: Divide the unit
 square {(x, y) | 0 ≤x, y < 1} into six parts, depending on the relative order of x, y,
 and {x + y}, and determine the area of each part.]
-27. [M32] In the Fibonacci generator of the preceding exercise, let U0 and U1 be cho-
-sen independently in the unit square except that U0 > U1. Determine the probability
+27. [M32] In the Fibonacci generator of the preceding exercise, let U0 and U1 be chosen independently in the unit square except that U0 > U1. Determine the probability
 that U1 is the beginning of an upward run of length k, so that U0 > U1 < · · · < Uk >
 Uk+1. Compare this with the corresponding probabilities for a random sequence.
 28. [M35] According to Eq. 3.2.1.3–(5), a linear congruential generator with potency 2
@@ -7381,7 +7110,7 @@ satisfies the condition Xn−1−2Xn+Xn+1 ≡(a−1)c (modulo m). Consider a gen
 
 3.3.4
 THE SPECTRAL TEST
-93
+
 that abstracts this situation: Let Un+1 = {α + 2Un −Un−1}. As in exercise 26, divide
 the unit square into parts that show the relative order of U1, U2, and U3 for each pair
 (U1, U2). Are there any values of α for which all six possible orders are achieved with
@@ -7434,8 +7163,6 @@ the generator with
 s(x) = (137x + 187) mod 256.
 (4)
 
-
-94
 RANDOM NUMBERS
 3.3.4
 x
@@ -7446,8 +7173,7 @@ s(x)
 s(s(x))
 (b)
 Fig. 8. (a) The two-dimensional
-grid formed by all pairs of suc-
-cessive points (Xn, Xn+1), when
+grid formed by all pairs of successive points (Xn, Xn+1), when
 Xn+1 = (137Xn + 187) mod 256.
 (b) The three-dimensional grid of triplets (Xn, Xn+1, Xn+2).
 Of course a generator with period length 256 will hardly be random, but 256 is
@@ -7476,22 +7202,20 @@ remembering that m is quite large in practice, provides a better insight. The
 regular structure in Fig. 8 is essentially the “grain” we see when examining
 our random numbers under a high-power microscope. If we take truly random
 numbers between 0 and 1, and round or truncate them to finite accuracy so
-that each is an integer multiple of 1/ν for some given number ν, then the t-
-dimensional points (1) we obtain will have an extremely regular character when
+that each is an integer multiple of 1/ν for some given number ν, then the tdimensional points (1) we obtain will have an extremely regular character when
 viewed through a microscope.
 Let 1/ν2 be the maximum distance between lines, taken over all families
 of parallel straight lines that cover the points
 
 x/m, s(x)/m
 
-in two dimen-
-sions.
+in two dimensions.
 We shall call ν2 the two-dimensional accuracy of the random number
 
 
 3.3.4
 THE SPECTRAL TEST
-95
+
 generator, since the pairs of successive numbers have a fine structure that is
 essentially good to one part in ν2. Similarly, let 1/ν3 be the maximum distance
 between planes, taken over all families of parallel planes that cover all points
@@ -7506,14 +7230,12 @@ that cover all points
 x/m, s(x)/m, . . . , s[t−1](x)/m
 
 .
-The essential difference between periodic sequences and truly random se-
-quences that have been truncated to multiples of 1/ν is that the accuracy of
+The essential difference between periodic sequences and truly random sequences that have been truncated to multiples of 1/ν is that the accuracy of
 truly random sequences is the same in all dimensions, while that of periodic
 sequences decreases as t increases. Indeed, since there are only m points in the
 t-dimensional cube when m is the period length, we can’t achieve a t-dimensional
 accuracy of more than about m1/t.
-When the independence of t consecutive values is considered, computer-
-generated random numbers will behave essentially as if we took truly random
+When the independence of t consecutive values is considered, computergenerated random numbers will behave essentially as if we took truly random
 numbers and truncated them to lg νt bits, where νt decreases with increasing t.
 In practice, such varying accuracy is usually all we need. We don’t insist that the
 10-dimensional accuracy be 232, in the sense that all (232)10 possible 10-tuples
@@ -7544,8 +7266,6 @@ plausible that it should also pass the 2-D test, hence we might as well omit the
 latter. The fallacy in this reasoning occurs because we apply more stringent
 conditions in lower dimensions. A similar situation occurs with the serial test:
 
-
-96
 RANDOM NUMBERS
 3.3.4
 Consider a generator that (quite properly) has almost the same number of points
@@ -7601,7 +7321,7 @@ to count hyperplanes, it is possible to compute Nt using a method quite similar
 to the way in which we shall calculate νt (see exercise 16).
 *B. Theory behind the test. In order to analyze the basic set (2), we start
 with the observation that
-1
+
 m s[j](x) =
 ajx + (1 + a + · · · + aj−1)c
 m
@@ -7635,7 +7355,7 @@ m
 
 3.3.4
 THE SPECTRAL TEST
-97
+
 where
 V0 = 1
 m
@@ -7645,8 +7365,7 @@ m
 (6)
 is a constant vector. The variable k1 is redundant in this representation of L,
 because we can change (x, k1, k2, . . . , kt) to (x+k1m, 0, k2−ak1, . . . , kt−at−1k1),
-reducing k1 to zero without loss of generality. Therefore we obtain the compara-
-tively simple formula
+reducing k1 to zero without loss of generality. Therefore we obtain the comparatively simple formula
 L = {V0 + y1V1 + y2V2 + · · · + ytVt | integer y1, y2, . . . , yt},
 (7)
 where
@@ -7702,15 +7421,13 @@ hence the minimum in (12) occurs when each xj = uj/(u2
 1+· · ·+u2
 t); the distance
 between neighboring hyperplanes is
-1
+
 
 u2
 1 + · · · + u2
 t = 1/length(U).
 (14)
 
-
-98
 RANDOM NUMBERS
 3.3.4
 In other words, the quantity νt that we seek is precisely the length of the shortest
@@ -7720,7 +7437,7 @@ Such a vector U = (u1, . . . , ut) must be nonzero, and it must satisfy V · U =
 integer for all V in L0. In particular, since the points (1, 0, . . . , 0), (0, 1, . . . , 0),
 . . . , (0, 0, . . . , 1) are all in L0, all of the uj must be integers. Furthermore since
 V1 is in L0, we must have
-1
+
 m(u1 + au2 + · · · + at−1ut) = integer, i.e.,
 u1 + au2 + · · · + at−1ut ≡0 (modulo m).
 (15)
@@ -7775,7 +7492,7 @@ Ui · Vj = δij,
 
 3.3.4
 THE SPECTRAL TEST
-99
+
 For example, in the special form (16) that arises in the spectral test, we have
 U1 = (
 m, 0, 0, . . . , 0),
@@ -7810,8 +7527,7 @@ Vt =
 (20)
 These Vj are precisely the vectors (8), (9) that we used to define our original
 lattice L0. As the reader may well suspect, this is not a coincidence — indeed, if
-we had begun with an arbitrary lattice L0, defined by any set of linearly inde-
-pendent vectors V1, . . . , Vt, the argument we have used above can be generalized
+we had begun with an arbitrary lattice L0, defined by any set of linearly independent vectors V1, . . . , Vt, the argument we have used above can be generalized
 to show that the maximum separation between hyperplanes in a covering family
 is equivalent to minimizing (17), where the coefficients uij are defined by (19).
 (See exercise 2.)
@@ -7851,8 +7567,6 @@ In our case, a simpler problem is one that requires less searching because the
 right-hand side of (22) is smaller. The key idea we shall use is that it is possible
 to change one quadratic form into another one that is equivalent for all practical
 
-
-100
 RANDOM NUMBERS
 3.3.4
 purposes. Let j be any fixed subscript, 1 ≤j ≤t; let (q1, . . . , qj−1, qj+1, . . . , qt)
@@ -7943,7 +7657,7 @@ k ̸= j.
 
 3.3.4
 THE SPECTRAL TEST
-101
+
 (See exercise 12 for a rigorous proof that a solution to question (b) must satisfy
 these t −1 equations.)
 Now that we have answered questions (a) and (b), we are in a bit of a
@@ -8004,8 +7718,6 @@ t
 for 2 ≤t ≤T, given a, m, and T, where 0 < a < m and a is relatively prime to
 m. (The minimum is taken over all nonzero integer vectors (x1, . . . , xt), and the
 
-
-102
 RANDOM NUMBERS
 3.3.4
 number νt measures the t-dimensional accuracy of random number generators,
@@ -8077,7 +7789,7 @@ min(s, Ut · Ut), k ←t, and j ←1. (In the following steps, j denotes the
 
 3.3.4
 THE SPECTRAL TEST
-103
+
 current row index for transformation (23), and k denotes the last such index
 where the transformation shortened at least one of the Vi.)
 S5. [Transform.]
@@ -8104,8 +7816,7 @@ for 1 ≤j ≤t.
 |zj| ≤1, but L. C. Killingbeck noticed in 1999 that larger values occur
 for about 0.00001 of all multipliers when m = 264. During the exhaustive
 search, the vector Y will always be equal to x1U1 + · · · + xtUt, so that
-f(x1, . . . , xt) = Y · Y . Since f(−x1, . . . , −xt) = f(x1, . . . , xt), we shall ex-
-amine only vectors whose first nonzero component is positive. The method
+f(x1, . . . , xt) = Y · Y . Since f(−x1, . . . , −xt) = f(x1, . . . , xt), we shall examine only vectors whose first nonzero component is positive. The method
 is essentially that of counting in steps of one, regarding (x1, . . . , xt) as the
 digits in a balanced number system with mixed radices (2z1+1, . . . , 2zt+1);
 see Section 4.1.)
@@ -8135,8 +7846,6 @@ minimum nonzero value of x2
 2 with
 x1 + 3141592621x2 ≡0 (modulo 1010)
 
-
-104
 RANDOM NUMBERS
 3.3.4
 occurs for x1 = 67654, x2 = 226; hence the two-dimensional accuracy of this
@@ -8147,7 +7856,7 @@ generator is
 Passing to three dimensions, we seek the minimum nonzero value of x2
 1 +x2
 2 +x2
-3
+
 such that
 x1 + 3141592621x2 + 31415926212x3 ≡0 (modulo 1010).
 (33)
@@ -8167,7 +7876,7 @@ V =
 −226
 67654
 1307181134
-0
+
 0 10000000000
 
 .
@@ -8186,7 +7895,7 @@ V =
 2564918569
 −35
 44258265 −1257737435
-764
+
 176762444
 −259674276
 
@@ -8202,8 +7911,8 @@ U =
 −1479
 616 −2777
 −3022
-104
-918
+
+
 −227 −983
 −130
 
@@ -8242,7 +7951,7 @@ since some applications demand higher resolution than others. It appears that
 
 3.3.4
 THE SPECTRAL TEST
-105
+
 νt ≥230/t for 2 ≤t ≤6 will be quite adequate for most purposes (although
 the author must admit choosing this criterion partly because 30 is conveniently
 divisible by 2, 3, 5, and 6).
@@ -8256,8 +7965,7 @@ seems to be the volume of the ellipsoid in t-space defined by the relation
 t ≤ν2
 t ,
 since this volume tends to indicate how likely it is that nonzero integer points
-(x1, . . . , xt) — corresponding to solutions of (15) — are in the ellipsoid. We there-
-fore propose to calculate this volume, namely
+(x1, . . . , xt) — corresponding to solutions of (15) — are in the ellipsoid. We therefore propose to calculate this volume, namely
 µt = πt/2 νt
 t
 (t/2)! m,
@@ -8265,17 +7973,17 @@ t
 as an indication of the effectiveness of the multiplier a for the given m. In this
 formula,
 t
-2
+
 
 ! =
 t
-2
+
 t
 2 −1
 
 . . .
 1
-2
+
 √π,
 for t odd.
 (36)
@@ -8289,7 +7997,7 @@ Thus, in six or fewer dimensions the merit is computed as follows:
 2π2ν4
 4/m,
 µ5 =
-8
+
 15π2ν5
 5/m,
 µ6 = 1
@@ -8306,8 +8014,7 @@ of randomness.
 Table 1 shows what sorts of values occur in typical sequences. Each line of
 the table considers a particular generator, and lists ν2
 t , µt, and the “number of
-bits of accuracy” lg νt. Lines 1 through 4 show the generators that were the sub-
-ject of Figs. 2 and 5 in Section 3.3.1. The generators in lines 1 and 2 suffer from
+bits of accuracy” lg νt. Lines 1 through 4 show the generators that were the subject of Figs. 2 and 5 in Section 3.3.1. The generators in lines 1 and 2 suffer from
 too small a multiplier; a diagram like Fig. 8 will have a nearly vertical “stripes”
 when a is small. The terrible generator in line 3 has a good µ2 but very poor µ3
 and µ4; like nearly all generators of potency 2, it has ν3 =
@@ -8320,8 +8027,6 @@ Line 5 shows the generator of Fig. 8. It passes the spectral test with very
 high-flying colors, when µ2 through µ6 are considered, but of course m is so small
 that the numbers can hardly be called random; the νt values are terribly low.
 
-
-106
 RANDOM NUMBERS
 3.3.4
 Table 1
@@ -8330,224 +8035,189 @@ Line
 a
 m
 ν2
-2
+
 ν2
-3
+
 ν2
-4
+
 ν2
-5
+
 ν2
-6
-1
-23
+
+
 108+1
-530
-530
-530
-530
-447
-2
+
+
 27+1
-235
+
 16642
 16642
 16642
 15602
-252
-3
+
+
 218+1
-235
+
 34359738368
-6
-4
-4
-4
-4
+
+
 3141592653
-235
+
 2997222016
 1026050
 27822
-1118
-1118
-5
-137
-256
-274
-30
-14
-6
-4
-6
+
+
 3141592621
-1010
+
 4577114792
 1034718
 62454
-1776
-542
-7
+
+
 3141592221
-1010
+
 4293881050
 276266
 97450
-3366
-2382
-8
+
+
 4219755981
-1010
+
 10721093248
 2595578
 49362
-5868
-820
-9
+
+
 4160984121
-1010
+
 9183801602
 4615650
 16686
-6840
-1344
-10
+
+
 224+213+5
-235
+
 8364058
 8364058
 21476
 16712
-1496
-11
-513
-235
+
+
 33161885770
 2925242
 113374
 13070
-2256
-12
+
+
 216+3
-229
+
 536936458
-118
-116
-116
-116
-13
+
+
 1812433253
-232
+
 4326934538
 1462856
 15082
-4866
-906
-14
+
+
 1566083941
-232
+
 4659748970
 2079590
 44902
-4652
-662
-15
+
+
 69069
-232
+
 4243209856
 2072544
 52804
-6990
-242
-16
+
+
 2650845021
-232
+
 4938969760
 2646962
 68342
-8778
-1506
-17
+
+
 314159269
 231−1
 1432232969
 899290
 36985
-3427
-1144
-18
+
+
 62089911
 231−1
 1977289717
 1662317
 48191
-6101
-1462
-19
+
+
 16807
 231−1
 282475250
 408197
 21682
-4439
-895
-20
+
+
 48271
 231−1
 1990735345
 1433881
 47418
-4404
-1402
-21
+
+
 40692
 231−249
 1655838865
 1403422
 42475
-6507
-1438
-22
+
+
 44485709377909
-246
+
 5.6×1013 1180915002
 1882426
 279928
 26230
-23
+
 31167285
-248
+
 3.2×1014 4111841446
 17341510
 306326
 59278
-24
+
 see (38)
 2.4×1018
 4.7×1011
 1.9×109
 3194548
 1611610
-25
+
 see (39)
 (231−1)2
 1.4×1012 643578623 12930027
 837632
-26
+
 see the text
-264
+
 8.8×1018
 6.4×1012
 4.1×109 45662836
 1846368
-27
+
 see the text
 ≈278
 262+1 4281084902
 2.2×109
 1.8×109
 1862407
-28
+
 2−24·389
 ≈2576
 1.8×10173
@@ -8555,7 +8225,7 @@ see the text
 4.4×1086
 2×1069
 5×1057
-29
+
 (232−5)−400
 ≈21376
 1.6×10414
@@ -8575,17 +8245,16 @@ are only 1s and 2s. The generator in line 9 shows another multiplier chosen with
 malice aforethought, following a suggestion by A. G. Waterman that guarantees
 a reasonably high value of µ2 (see exercise 11). Line 10 is interesting because it
 has high µ3 in spite of very low µ2 (see exercise 8).
-Line 11 of Table 1 is a reminder of the good old days — it once was used ex-
-tensively, following a suggestion of O. Taussky in the early 1950s. But computers
+Line 11 of Table 1 is a reminder of the good old days — it once was used extensively, following a suggestion of O. Taussky in the early 1950s. But computers
 for which 235 was an appropriate modulus began to fade in importance during
 the late 60s, and they disappeared almost completely in the 80s, as machines
 
 
 3.3.4
 THE SPECTRAL TEST
-107
+
 (ϵ =
-1
+
 10 )
 lg ν2
 lg ν3
@@ -8608,7 +8277,7 @@ Line
 0.01
 0.34
 4.62
-1
+
 7.0
 7.0
 7.0
@@ -8619,7 +8288,7 @@ Line
 0.04
 4.66
 2ϵ3
-2
+
 17.5
 1.3
 1.0
@@ -8630,7 +8299,7 @@ Line
 2ϵ9
 5ϵ9
 ϵ8
-3
+
 15.7
 10.0
 7.4
@@ -8641,7 +8310,7 @@ Line
 0.11
 0.01
 0.21
-4
+
 4.0
 2.5
 1.9
@@ -8652,7 +8321,7 @@ Line
 3.78
 1.81
 1.29
-5
+
 16.0
 10.0
 8.0
@@ -8663,7 +8332,7 @@ Line
 1.92
 0.07
 0.08
-6
+
 16.0
 9.0
 8.3
@@ -8674,7 +8343,7 @@ Line
 4.69
 0.35
 6.98
-7
+
 16.7
 10.7
 7.8
@@ -8685,7 +8354,7 @@ Line
 1.20
 1.39
 0.28
-8
+
 16.5
 11.1
 7.0
@@ -8696,7 +8365,7 @@ Line
 0.14
 2.04
 1.25
-9
+
 11.5
 11.5
 7.2
@@ -8707,7 +8376,7 @@ Line
 0.07
 5.53
 0.50
-10
+
 17.5
 10.7
 8.4
@@ -8718,7 +8387,7 @@ Line
 1.85
 2.99
 1.73
-11
+
 14.5
 3.4
 3.4
@@ -8729,7 +8398,7 @@ Line
 ϵ4
 ϵ3
 0.02
-12
+
 16.0
 10.2
 6.9
@@ -8740,7 +8409,7 @@ Line
 0.26
 2.02
 0.89
-13
+
 16.1
 10.5
 7.7
@@ -8751,7 +8420,7 @@ Line
 2.32
 1.81
 0.35
-14
+
 16.0
 10.5
 7.8
@@ -8762,7 +8431,7 @@ Line
 3.20
 5.01
 0.02
-15
+
 16.1
 10.7
 8.0
@@ -8773,7 +8442,7 @@ Line
 5.37
 8.85
 4.11
-16
+
 15.2
 9.9
 7.6
@@ -8784,7 +8453,7 @@ Line
 3.14
 1.69
 3.60
-17
+
 15.4
 10.3
 7.8
@@ -8795,7 +8464,7 @@ Line
 5.34
 7.13
 7.52
-18
+
 14.0
 9.3
 7.2
@@ -8806,7 +8475,7 @@ Line
 1.08
 3.22
 1.73
-19
+
 15.4
 10.2
 7.8
@@ -8817,7 +8486,7 @@ Line
 5.17
 3.15
 6.63
-20
+
 15.3
 10.2
 7.7
@@ -8828,7 +8497,7 @@ Line
 4.15
 8.37
 7.16
-21
+
 22.8
 15.1
 10.4
@@ -8839,7 +8508,7 @@ Line
 0.25
 3.10
 1.33
-22
+
 24.1
 16.0
 12.0
@@ -8850,7 +8519,7 @@ Line
 5.27
 0.97
 3.82
-23
+
 30.5
 19.4
 15.4
@@ -8861,7 +8530,7 @@ Line
 3.88
 0.02
 4.69
-24
+
 31.0
 20.2
 14.6
@@ -8872,7 +8541,7 @@ Line
 0.44
 0.69
 0.66
-25
+
 31.5
 21.3
 16.0
@@ -8883,7 +8552,7 @@ Line
 4.52
 4.02
 1.76
-26
+
 31.0
 16.0
 15.5
@@ -8894,7 +8563,7 @@ Line
 8ϵ5
 2.56
 ϵ4
-27
+
 288.
 192.
 144.
@@ -8905,7 +8574,7 @@ Line
 3.92
 2.49
 2.98
-28
+
 688.
 458.
 344.
@@ -8916,7 +8585,7 @@ Line
 2.85
 1.15
 1.33
-29
+
 upper bounds from (40):
 3.63
 5.92
@@ -8945,13 +8614,10 @@ who carried out an exhaustive search of all multipliers a ≡1 mod 4 when
 m = 232.
 Line 23, similarly, was found by M. Lavaux and F. Janssens in a
 
-
-108
 RANDOM NUMBERS
 3.3.4
 (nonexhaustive) computer search for spectrally good multipliers having a very
-high µ2. Line 22 is for the multiplier used with c = 0 and m = 248 in the Cray X-
-MP library; line 26 (whose excellent multiplier 6364136223846793005 is too big
+high µ2. Line 22 is for the multiplier used with c = 0 and m = 248 in the Cray XMP library; line 26 (whose excellent multiplier 6364136223846793005 is too big
 to fit in the column) is due to C. E. Haynes. Line 15 was nominated by George
 Marsaglia as “a candidate for the best of all multipliers,” after a computer search
 for nearly cubical lattices in dimensions 2 through 5, partly because it is easy
@@ -8990,8 +8656,7 @@ Xn = (271828183Xn−1 −314159269Xn−2) mod (231 −1),
 (39)
 which can be shown to have period length (231 −1)2 −1; it has been analyzed
 with the generalized spectral test of exercise 24.
-The last three lines of Table 1 are based on add-with-carry and subtract-
-with-borrow methods, which simulate linear congruential sequences that have
+The last three lines of Table 1 are based on add-with-carry and subtractwith-borrow methods, which simulate linear congruential sequences that have
 extremely large moduli (see exercise 3.2.1.1–14). Line 27 is for the generator
 Xn = (Xn−1 + 65430Xn−2 + Cn) mod 231,
 Cn+1 =
@@ -9002,7 +8667,7 @@ Cn+1 =
 
 3.3.4
 THE SPECTRAL TEST
-109
+
 which corresponds to Xn+1 = (65430 · 231 + 1)Xn mod (65430 · 262 + 231 −1); the
 numbers in the table refer to the “super-values”
 Xn = (65430 · 231 + 1)Xn−1 + 65430Xn−2 + Cn
@@ -9036,7 +8701,7 @@ where γt takes the respective values
 23/5,
 (64/3)1/6,
 43/7,
-2
+
 (41)
 for t = 2, . . . , 8.
 [See exercise 9 and J. W. S. Cassels, Introduction to the
@@ -9065,8 +8730,6 @@ We
 shall now turn briefly to a study of his interesting methods, in the case of linear
 congruential sequences (X0, a, c, m) of period length m.
 
-
-110
 RANDOM NUMBERS
 3.3.4
 The first idea we need is the notion of discrepancy in t dimensions, a
@@ -9101,11 +8764,11 @@ are two vectors with all components in the range 0 ≤xj, yj < m, we have
 
 mt
 if (x1, . . . , xt) = (y1, . . . , yt),
-0
+
 if (x1, . . . , xt) ̸= (y1, . . . , yt).
 Therefore the number of vectors (xn, . . . , xn+t−1) in R for 0 ≤n < N, when R
 is defined by (43), can be expressed as
-1
+
 mt
 
 0≤n<N
@@ -9122,7 +8785,7 @@ When u1 = · · · = ut = 0 in this sum, we get N/mt times the volume of R; henc
 we can express D(t)
 N as the maximum over R of
 
-1
+
 Nmt
 
 0≤n<N
@@ -9143,7 +8806,7 @@ that
 D(t)
 N ≤max
 R
-1
+
 mt
 
 0≤u1,...,ut<m
@@ -9175,7 +8838,7 @@ R
 
 3.3.4
 THE SPECTRAL TEST
-111
+
 =
 
 0≤u1,...,ut<m
@@ -9185,7 +8848,7 @@ f(u1, . . . , ut) g(u1, . . . , ut),
 where
 g(u1, . . . , ut) =
 
-1
+
 N
 
 0≤n<N
@@ -9193,7 +8856,7 @@ N
 ;
 f(u1, . . . , ut) = max
 R
-1
+
 mt
 
 
@@ -9206,14 +8869,14 @@ mt
 = max
 R
 
-1
+
 m
 
 α1≤y1<β1
 ω−u1y1
 . . .
 
-1
+
 m
 
 αt≤yt<βt
@@ -9223,21 +8886,21 @@ Both f and g can be simplified further in order to get a good upper bound on
 D(t)
 N . We have
 
-1
+
 m
 
 α≤y<β
 ω−uy
 =
 
-1
+
 m
 ω−βu −ω−αu
 ω−u −1
 ≤
-2
+
 m |ωu −1| =
-1
+
 m sin(πu/m)
 when u ̸= 0, and the sum is ≤1 when u = 0; hence
 f(u1, . . . , ut) ≤r(u1, . . . , ut),
@@ -9247,11 +8910,10 @@ r(u1, . . . , ut) =
 
 1≤k≤t
 uk̸=0
-1
+
 m sin(πuk/m) .
 (46)
-Furthermore, when ⟨xn⟩is generated modulo m by a linear congruential se-
-quence, we have
+Furthermore, when ⟨xn⟩is generated modulo m by a linear congruential sequence, we have
 xnu1+· · ·+xn+t−1ut = xnu1+(axn +c)u2+· · ·+
 
 at−1xn+c(at−2+· · ·+1)
@@ -9261,7 +8923,7 @@ ut
 where h(u1, . . . , ut) is independent of n; hence
 g(u1, . . . , ut) =
 
-1
+
 N
 
 0≤n<N
@@ -9279,8 +8941,6 @@ is a “large” solution to (15). Hence the discrepancy D(t)
 N
 will be rather small
 
-
-112
 RANDOM NUMBERS
 3.3.4
 when (15) has only “large” solutions, namely when the spectral test is passed.
@@ -9297,7 +8957,7 @@ q(u1, . . . , ut) is not a multiple of m. We have
 ωxn =
 
 0≤n<N
-1
+
 m
 
 0≤k<m
@@ -9309,7 +8969,7 @@ m
 
 0≤k<m
 
-1
+
 m
 
 0≤n<N
@@ -9378,7 +9038,7 @@ if k + q′ ≡0 (modulo m/s).
 
 3.3.4
 THE SPECTRAL TEST
-113
+
 Putting this information back into (49), and recalling the derivation of (45),
 shows that
 
@@ -9469,8 +9129,6 @@ Eq. (55) relates to the serial test in t dimensions over the entire period,
 while Eq. (54) gives us useful information about the distribution of the first N
 generated values when N is less than m, provided that N is not too small.
 
-
-114
 RANDOM NUMBERS
 3.3.4
 Notice that (54) will guarantee low discrepancy only when s is sufficiently large,
@@ -9480,7 +9138,7 @@ r and gcd(a −1, m) =
 pf1
 1 . . . pfr
 r , then s equals pe1−f1
-1
+
 . . . per−fr
 r
 by Lemma 3.2.1.2P; thus, the largest
@@ -9497,7 +9155,7 @@ N is O
 .
 It is not difficult to prove that
 rmax ≤
-1
+
 √
 8 νt
 (56)
@@ -9536,25 +9194,22 @@ Coveyou and
 MacPherson introduced a procedure analogous to Algorithm S for performing
 their test, based on the principle of Lemma A. However, their original procedure
 (which used matrices UU T and V V T instead of U and V ) dealt with extremely
-large numbers; the idea of working directly with U and V was independently sug-
-gested by F. Janssens and by U. Dieter. [See Math. Comp. 29 (1975), 827–833.]
+large numbers; the idea of working directly with U and V was independently suggested by F. Janssens and by U. Dieter. [See Math. Comp. 29 (1975), 827–833.]
 Several other authors pointed out that the spectral test could be understood
-in far more concrete terms; by introducing the study of the grid and lattice struc-
-tures corresponding to linear congruential sequences, the fundamental limitations
+in far more concrete terms; by introducing the study of the grid and lattice structures corresponding to linear congruential sequences, the fundamental limitations
 on randomness became graphically clear. See G. Marsaglia, Proc. Nat. Acad. Sci.
 
 
 3.3.4
 THE SPECTRAL TEST
-115
+
 61 (1968), 25–28; W. W. Wood, J. Chem. Phys. 48 (1968), 427; R. R. Coveyou,
 Studies in Applied Math. 3 (Philadelphia: SIAM, 1969), 70–111; W. A. Beyer,
 R. B. Roof, and D. Williamson, Math. Comp. 25 (1971), 345–360; G. Marsaglia
 and W. A. Beyer, Applications of Number Theory to Numerical Analysis, edited
 by S. K. Zaremba (New York: Academic Press, 1972), 249–285, 361–370.
 R. G. Stoneham showed, by using estimates of exponential sums, that p1/2+ϵ
-or more elements of the sequence akX0 mod p have asymptotically small dis-
-crepancy, when a is a primitive root modulo the prime p [Acta Arithmetica 22
+or more elements of the sequence akX0 mod p have asymptotically small discrepancy, when a is a primitive root modulo the prime p [Acta Arithmetica 22
 (1973), 371–389]. This work was extended as explained above in a number of
 papers by Harald Niederreiter [Math. Comp. 28 (1974), 1117–1132; 30 (1976),
 571–597; Advances in Math. 26 (1977), 99–181; Bull. Amer. Math. Soc. 84
@@ -9584,8 +9239,7 @@ b) If, in addition, 2|u11u21 + u12u22| ≤u2
 (u11, u12) minimizes y2
 1 + y2
 2 over all nonzero solutions to the congruence.
-5. [M30] Prove that steps S1 through S3 of Algorithm S correctly perform the spec-
-tral test in two dimensions. [Hint: See exercise 4, and prove that (h′ +h)2 +(p′ + p)2 ≥
+5. [M30] Prove that steps S1 through S3 of Algorithm S correctly perform the spectral test in two dimensions. [Hint: See exercise 4, and prove that (h′ +h)2 +(p′ + p)2 ≥
 h2 + p2 at the beginning of step S2.]
 6. [M30] Let a0, a1, . . . , at−1 be the partial quotients of a/m as defined in Section
 3.3.3, and let A = max0≤j<t aj. Prove that µ2 > 2π/(A + 1 + 1/A).
@@ -9603,8 +9257,6 @@ any orthogonal matrix (that is, if S−1 = ST ), the matrix US defines a form id
 equal to f.
 Show that there is an equivalent form g whose minimum θ occurs at
 
-
-116
 RANDOM NUMBERS
 3.3.4
 (1, 0, . . . , 0). Then prove the general result by induction on t, writing g(x1, . . . , xt) =
@@ -9691,7 +9343,7 @@ whenever i ̸= j.) Would it be possible for Algorithm S to get into an infinite 
 
 3.3.4
 THE SPECTRAL TEST
-117
+
 20. [M23] Discuss how to carry out an appropriate spectral test for linear congruential
 sequences having c = 0, X0 odd, m = 2e, a mod 8 = 3 or 5. (See exercise 3.2.1.2–9.)
 21. [M20] (R. W. Gosper.) A certain application uses random numbers in batches of
@@ -9717,7 +9369,7 @@ transformation of exercise 18(b) fail to make any reductions.
 The maximum value
 known to be achievable is (t + 2)/3, which occurs when U1 = I1, Uj = 1
 2I1 + 1
-2
+
 √
 3 Ij,
 V1 = I1 −(I2 + · · · + It)/
@@ -9756,8 +9408,7 @@ roots exist for all m.
 29. [HM22] Prove that the quantity rmax of exercise 27 is never larger than 1/(
 √
 8 νt).
-30. [M33] (S. K. Zaremba.) Prove that rmax = O(max(a1, . . . , as)/m) in two dimen-
-sions, where a1, . . . , as are the partial quotients obtained when Euclid’s algorithm
+30. [M33] (S. K. Zaremba.) Prove that rmax = O(max(a1, . . . , as)/m) in two dimensions, where a1, . . . , as are the partial quotients obtained when Euclid’s algorithm
 is applied to m and a.
 [Hint:
 We have a/m = //a1, . . . , as//, in the notation of
@@ -9767,8 +9418,6 @@ there exists a number a relatively prime to m such that all partial quotients of
 are ≤3. Furthermore the set of all m satisfying this condition but with all partial
 quotients ≤2 has positive density.
 
-
-118
 RANDOM NUMBERS
 3.3.4
 x 32. [M21] Let m1 = 231 −1 and m2 = 231 −249 be the moduli of generator (38).
@@ -9790,7 +9439,7 @@ in the following papers and their bibliographies: M. Seysen, Combinatorica 13
 
 3.4.1
 NUMERICAL DISTRIBUTIONS
-119
+
 3.4. OTHER TYPES OF RANDOM QUANTITIES
 We have now seen how to make a computer generate a sequence of numbers
 U0, U1, U2, . . . that behaves as if each number were independently selected
@@ -9837,8 +9486,6 @@ MUL
 K
 (1)
 
-
-120
 RANDOM NUMBERS
 3.4.1
 and after these two instructions have been executed the desired integer will
@@ -9878,15 +9525,15 @@ Section 2.3.4.5.
 Special cases can be handled by more efficient methods; for
 example, to obtain one of the eleven values 2, 3, . . . , 12 with the respective “dice”
 probabilities
-1
+
 36,
-2
+
 36, . . . ,
-6
+
 36, . . . ,
-2
+
 36,
-1
+
 36, we could compute two independent
 random integers between 1 and 6 and add them together.
 However, there is actually a faster way to select x1, . . . , xk with arbitrarily
@@ -9912,104 +9559,45 @@ of generality by introducing additional x’s that occur with probability zero. 
 example, let’s consider dice again; suppose we want X = j to occur with the
 following 16 probabilities:
 j = 0
-1
-2
-3
-4
-5
-6
-7
-8
+
+
 9 10 11 12 13 14 15
 pj = 0
-0
-1
-36
-2
-36
-3
-36
-4
-36
-5
-36
-6
-36
-5
-36
-4
-36
-3
-36
-2
-36
-1
-36
-0
-0
-0
 
 
 3.4.1
 NUMERICAL DISTRIBUTIONS
-121
+
 We can do this using (3), if k = 16 and xj+1 = j for 0 ≤j < 16, and if the P
 and Y tables are set up as follows:
 j = 0
-1
-2
-3
-4
-5
-6
-7
-8
+
+
 9 10 11 12 13 14 15
 Pj = 0
-0
-4
-9
-8
-9
-1
-7
-9
-1
-1
-1
-7
-9
-7
-9
-8
-9
-4
-9
-0
-0
-0
+
+
 Yj = 5
-9
-7
-4
+
+
 ∗
-6
-∗
+
 ∗
 ∗
-8
-4
+∗
+
+
 7 10 6
-7
-8
+
+
 (When Pj = 1, Yj is not used.) For example, the value 7 occurs with probability
-1
+
 16 ·
 
 (1 −P2) + P7 + (1 −P11) + (1 −P14)
 
 =
-6
+
 36 as required. It is a peculiar way
 to throw dice, but the results are indistinguishable from the real thing.
 The probabilities pj can be represented implicitly by nonnegative weights
@@ -10017,8 +9605,7 @@ w1, w2, . . . , wk; if we denote the sum of the weights by W, then pj = wj/W.
 In many applications the individual weights vary dynamically. Matias, Vitter,
 and Ni [SODA 4 (1993), 361–370] have shown how to update a weight and
 generate X in constant expected time.
-B. General methods for continuous distributions. The most general real-
-valued distribution can be expressed in terms of its “distribution function” F(x),
+B. General methods for continuous distributions. The most general realvalued distribution can be expressed in terms of its “distribution function” F(x),
 which specifies the probability that a random quantity X will not exceed x:
 F(x) = Pr(X ≤x).
 (4)
@@ -10040,8 +9627,7 @@ In general, when F(x) is continuous and strictly increasing, we can compute a
 random quantity X with distribution F(x) by setting
 X = F [−1](U),
 (7)
-where U is uniform. This works because the probability that X ≤x is the prob-
-ability that F [−1](U) ≤x, namely the probability that U ≤F(x), namely F(x).
+where U is uniform. This works because the probability that X ≤x is the probability that F [−1](U) ≤x, namely the probability that U ≤F(x), namely F(x).
 The problem now reduces to one of numerical analysis, namely to find good
 methods for evaluating F [−1](U) to the desired accuracy. Numerical analysis
 lies outside the scope of this seminumerical book; yet a number of important
@@ -10057,8 +9643,6 @@ has the distribution
 F1(x) + F2(x) −F1(x)F2(x).
 (8)
 
-
-122
 RANDOM NUMBERS
 3.4.1
 (See exercise 4.) For example, a uniform deviate U has the distribution F(x) = x,
@@ -10082,11 +9666,10 @@ numbers as input will give a random quantity with some distribution as output.
 The problem is to find general methods for constructing the algorithm, given the
 distribution function of the output. Instead of discussing such methods in purely
 abstract terms, we shall study how they can be applied in important cases.
-C. The normal distribution. Perhaps the most important nonuniform, con-
-tinuous distribution is the normal distribution with mean zero and standard
+C. The normal distribution. Perhaps the most important nonuniform, continuous distribution is the normal distribution with mean zero and standard
 deviation one:
 F(x) =
-1
+
 √
 2π
 x
@@ -10130,7 +9713,7 @@ These are the normally distributed variables desired.
 
 3.4.1
 NUMERICAL DISTRIBUTIONS
-123
+
 To prove the validity of this method, we use elementary analytic geometry
 and calculus:
 If S < 1 in step P3, the point in the plane with Cartesian
@@ -10157,7 +9740,7 @@ is (1/2π) dθ. The joint probability that X1 ≤x1 and that X2 ≤x2 now can be
 computed; it is
 
 {(r,θ) | r cos θ≤x1, r sin θ≤x2}
-1
+
 2π e−r2/2 r dr dθ
 = 1
 2π
@@ -10166,31 +9749,30 @@ computed; it is
 e−(x2+y2)/2 dx dy
 =
 
-1
+
 2π
 x1
 −∞
 e−x2/2 dx
 
-1
+
 2π
 x2
 −∞
 e−y2/2 dy
 
 .
-This calculation proves that X1 and X2 are independent and normally distrib-
-uted, as desired.
+This calculation proves that X1 and X2 are independent and normally distributed, as desired.
 2) The rectangle-wedge-tail method, introduced by G. Marsaglia. Here we use
 the function
 F(x) = erf(x/
 √
 2 ) =
 
-2
+
 π
 x
-0
+
 e−t2/2 dt,
 x ≥0,
 (12)
@@ -10208,15 +9790,10 @@ choosing distribution Fj with probability pj, it is easy to see that X will have
 distribution F overall. Some of the distributions Fj(x) may be rather difficult to
 handle, even harder than F itself, but we can usually arrange things so that the
 
-
-124
 RANDOM NUMBERS
 3.4.1
-0
-1
-2
-3
-4
+
+
 0.0
 0.1
 0.2
@@ -10266,13 +9843,13 @@ are 15 wedge-shaped pieces, which represent p16f16(x), . . . , p30f30(x); and th
 remaining part p31f31(x) is the “tail,” namely the entire graph of f(x) for x ≥3.
 The rectangular parts f1(x), . . . , f15(x) represent uniform distributions.
 For example, f3(x) represents a random variable uniformly distributed between
-2
+
 5 and 3
 5. The altitude of pjfj(x) is f(j/5), hence the area of the jth rectangle is
 pj = 1
 5f(j/5) =
 
-2
+
 25π e−j2/50,
 for 1 ≤j ≤15.
 (15)
@@ -10285,13 +9862,13 @@ X = 1
 
 3.4.1
 NUMERICAL DISTRIBUTIONS
-125
-0
+
+
 s
 s+h
 a
 b
-0
+
 s
 s+h
 a
@@ -10349,14 +9926,12 @@ bounding functions
 r(x) ≤f(x)/cg(x) ≤s(x)
 (18)
 
-
-126
 RANDOM NUMBERS
 3.4.1
-0
+
 x
 a/b
-1
+
 U
 V
 Fig. 11. Region of “acceptance” in Algorithm L.
@@ -10364,16 +9939,14 @@ that are much simpler, and the exact value of f(x)/cg(x) need not be calculated
 unless r(x) ≤U < s(x). The following algorithm solves the wedge problem by
 developing the rejection method still further.
 Algorithm L (Nearly linear densities).
-This algorithm may be used to gen-
-erate a random variable X for any distribution whose density f(x) satisfies the
+This algorithm may be used to generate a random variable X for any distribution whose density f(x) satisfies the
 following conditions (see Fig. 10):
 f(x) = 0,
 for x < s and for x > s + h;
 a −b(x −s)/h ≤f(x) ≤b −b(x −s)/h,
 for s ≤x ≤s + h.
 (19)
-L1. [Get U ≤V.] Generate two independent random variables U and V, uni-
-formly distributed between zero and one. If U > V, exchange U ↔V.
+L1. [Get U ≤V.] Generate two independent random variables U and V, uniformly distributed between zero and one. If U > V, exchange U ↔V.
 L2. [Easy case?] If V ≤a/b, go to L4.
 L3. [Try again?] If V > U + (1/b)f(s + hU), go back to step L1. (If a/b is close
 to 1, this step of the algorithm will not be necessary very often.)
@@ -10387,12 +9960,12 @@ b f(s + hU) ≤1.
 Now the probability that X ≤s + hx, for 0 ≤x ≤1, is the area that lies to the
 left of the vertical line U = x in Fig. 11, divided by the total area, namely
 x
-0
-1
+
+
 b f(s + hu) du
 1
-0
-1
+
+
 b f(s + hu) du =
 s+hx
 s
@@ -10407,7 +9980,7 @@ can be used for this “tail.” We are ready to consider the procedure in its e
 
 3.4.1
 NUMERICAL DISTRIBUTIONS
-127
+
 M1. Get U
 M2. Rectangle?
 M3. Wedge or tail?
@@ -10431,8 +10004,7 @@ Fig. 12. The “rectangle-wedge-tail” algorithm for generating normal deviates
 Algorithm M (Rectangle-wedge-tail method for normal deviates).
 For this
 algorithm we use auxiliary tables (P0, . . . , P31), (Q1, . . . , Q15), (Y0, . . . , Y31),
-(Z0, . . . , Z31), (S1, . . . , S16), (D16, . . . , D30), (E16, . . . , E30), constructed as ex-
-plained in exercise 10; examples appear in Table 1. We assume that a binary
+(Z0, . . . , Z31), (S1, . . . , S16), (D16, . . . , D30), (E16, . . . , E30), constructed as explained in exercise 10; examples appear in Table 1. We assume that a binary
 computer is being used; a similar procedure could be worked out for decimal
 machines.
 M1. [Get U.] Generate a uniform random number U = (.b0b1b2 . . . bt)2. (Here
@@ -10456,8 +10028,6 @@ Set X ←Sj−15 + 1
 5U.
 M5. [Easy case?] If V ≤Dj, go to M9.
 
-
-128
 RANDOM NUMBERS
 3.4.1
 Table 1
@@ -10473,7 +10043,7 @@ Zj+16
 Sj+1
 Dj+15
 Ej+15
-0
+
 .000
 .067
 0.00
@@ -10481,7 +10051,7 @@ Ej+15
 0.20
 0.21
 0.0
-1
+
 .849
 .161
 .236
@@ -10492,7 +10062,7 @@ Ej+15
 0.2
 .505
 25.00
-2
+
 .970
 .236
 .206
@@ -10503,7 +10073,7 @@ Ej+15
 0.4
 .773
 12.50
-3
+
 .855
 .285
 .234
@@ -10514,7 +10084,7 @@ Ej+15
 0.6
 .876
 8.33
-4
+
 .994
 .308
 .201
@@ -10525,7 +10095,7 @@ Ej+15
 0.8
 .939
 6.25
-5
+
 .995
 .304
 .201
@@ -10536,7 +10106,7 @@ Ej+15
 1.0
 .986
 5.00
-6
+
 .933
 .280
 .214
@@ -10547,7 +10117,7 @@ Ej+15
 1.2
 .995
 4.06
-7
+
 .923
 .241
 .217
@@ -10558,7 +10128,7 @@ Ej+15
 1.4
 .987
 3.37
-8
+
 .727
 .197
 .275
@@ -10569,7 +10139,7 @@ Ej+15
 1.6
 .979
 2.86
-9
+
 1.000
 .152
 .200
@@ -10578,7 +10148,7 @@ Ej+15
 1.8
 .972
 2.47
-10
+
 .691
 .112
 .289
@@ -10589,7 +10159,7 @@ Ej+15
 2.0
 .966
 2.16
-11
+
 .454
 .079
 .440
@@ -10600,7 +10170,7 @@ Ej+15
 2.2
 .960
 1.92
-12
+
 .287
 .052
 .698
@@ -10611,7 +10181,7 @@ Ej+15
 2.4
 .954
 1.71
-13
+
 .174
 .033
 1.150
@@ -10622,7 +10192,7 @@ Ej+15
 2.6
 .948
 1.54
-14
+
 .101
 .020
 1.974
@@ -10633,7 +10203,7 @@ Ej+15
 2.8
 .942
 1.40
-15
+
 .057
 .086
 3.526
@@ -10659,10 +10229,8 @@ M8. [Reject?] If UX ≥3, go back to step M7. (This will occur only about
 one-twelfth as often as we reach step M8.)
 M9. [Attach sign.] If ψ = 1, set X ←−X.
 This algorithm is a very pretty example of mathematical theory intimately
-interwoven with programming ingenuity — a fine illustration of the art of com-
-puter programming! Only steps M1, M2, and M9 need to be performed most
-of the time, and the other steps aren’t terribly slow either. The first publica-
-tions of the rectangle-wedge-tail method were by G. Marsaglia, Annals Math.
+interwoven with programming ingenuity — a fine illustration of the art of computer programming! Only steps M1, M2, and M9 need to be performed most
+of the time, and the other steps aren’t terribly slow either. The first publications of the rectangle-wedge-tail method were by G. Marsaglia, Annals Math.
 Stat. 32 (1961), 894–899; G. Marsaglia, M. D. MacLaren, and T. A. Bray,
 CACM 7 (1964), 4–10. Further refinements of Algorithm M have been developed
 by G. Marsaglia, K. Ananthanarayanan, and N. J. Paul, Inf. Proc. Letters 5
@@ -10682,7 +10250,7 @@ distribution on [a . . b): We set X ←a + (b −a)U, where U is a uniform devia
 
 3.4.1
 NUMERICAL DISTRIBUTIONS
-129
+
 and then we want to accept X with probability e−h(X). The latter operation
 could be done by comparing e−h(X) to V, or h(X) to −ln V, when V is another
 uniform deviate, but the job can be done without applying any transcendental
@@ -10716,7 +10284,7 @@ normal deviates on a binary computer, assuming approximately t + 1 bits of
 accuracy. It requires a table of values dj = aj −aj−1, for 1 ≤j ≤t + 1, where
 aj is defined by the relation
 
-2
+
 π
 ∞
 aj
@@ -10747,8 +10315,6 @@ is ≤U. Otherwise (that is, if K is even, in the discussion above), replace U
 by a new uniform deviate (.b0b1 . . . bt)2 and go back to F3.
 F5. [Return X.] Set X ←a + Y. If ψ = 1, set X ←−X.
 
-
-130
 RANDOM NUMBERS
 3.4.1
 (0, −
@@ -10805,7 +10371,7 @@ U is nonzero, and set X ←
 8/e
 
 V −1
-2
+
 
 /U.
 (Now X is the ratio of
@@ -10816,7 +10382,7 @@ U,
 8/e
 
 V −1
-2
+
 
 of a random point in the rectangle that
 encloses the shaded region in Fig. 13. We will accept X if the corresponding
@@ -10825,7 +10391,7 @@ point actually lies “in the shade,” otherwise we will try again.)
 
 3.4.1
 NUMERICAL DISTRIBUTIONS
-131
+
 R2. [Optional upper bound test.] If X2 ≤5 −4e1/4U, output X and terminate
 the algorithm. (This step can be omitted if desired; it tests whether or not
 the selected point is in the interior region of Fig. 13, making it unnecessary
@@ -10852,13 +10418,13 @@ R1
 1.369
 1.369
 R2
-0
+
 1.369
-0
+
 1.369
 R3
-0
-0
+
+
 1.369
 0.467
 R4
@@ -10891,9 +10457,9 @@ the integral becomes
 dt
 √
 g(t)
-0
+
 u du = 1
-2
+
 x
 −∞
 g(t) dt.
@@ -10906,8 +10472,6 @@ g(t) dt
 g(t) dt.
 (27)
 
-
-132
 RANDOM NUMBERS
 3.4.1
 The normal distribution comes out when g(t) = e−t2/2; and the condition
@@ -10938,8 +10502,7 @@ basing everything on uniform deviates. This method, introduced by C. S. Wallace
 in 1996, has comparatively little theoretical support at the present time, but it
 has successfully passed a number of empirical tests.
 6) Variations of the normal distribution. So far we have considered the normal
-distribution with mean zero and standard deviation one. If X has this distribu-
-tion, then
+distribution with mean zero and standard deviation one. If X has this distribution, then
 Y = µ + σX
 (29)
 has the normal distribution with mean µ and standard deviation σ. Furthermore,
@@ -10958,14 +10521,13 @@ then Y1 and Y2 are dependent random variables, normally distributed with means
 µ1, µ2 and standard deviations σ1, σ2, and with correlation coefficient ρ. (For a
 generalization to n variables, see exercise 13.)
 D. The exponential distribution.
-After uniform deviates and normal de-
-viates, the next most important random quantity is an exponential deviate.
+After uniform deviates and normal deviates, the next most important random quantity is an exponential deviate.
 Such numbers occur in “arrival time” situations; for example, if a radioactive
 
 
 3.4.1
 NUMERICAL DISTRIBUTIONS
-133
+
 substance emits alpha particles at a rate such that one particle is emitted every
 µ seconds on the average, then the time between two successive emissions has
 the exponential distribution with mean µ. This distribution is defined by the
@@ -11015,23 +10577,21 @@ Let us now consider briefly how to
 handle some other distributions that arise reasonably often in practice.
 1) The gamma distribution of order a > 0 is defined by
 F(x) =
-1
+
 Γ(a)
 x
-0
+
 ta−1e−t dt,
 x ≥0.
 (34)
 
-
-134
 RANDOM NUMBERS
 3.4.1
 When a = 1, this is the exponential distribution with mean 1; when a =
-1
+
 2,
 it is the distribution of
-1
+
 2Z2, where Z has the normal distribution (mean 0,
 variance 1). If X and Y are independent gamma-distributed random variables,
 of order a and b, respectively, then X + Y has the gamma distribution of order
@@ -11073,25 +10633,24 @@ distributed with mean 1−1/(9a) and standard deviation 1/
 9a; see E. B. Wilson
 and M. M. Hilferty, Proc. Nat. Acad. Sci. 17 (1931), 684–688; G. Marsaglia,
 Computers and Math. 3 (1977), 321–325.*
-For a somewhat complicated but significantly faster algorithm, which gener-
-ates a gamma deviate in about twice the time to generate a normal deviate, see
+For a somewhat complicated but significantly faster algorithm, which generates a gamma deviate in about twice the time to generate a normal deviate, see
 J. H. Ahrens and U. Dieter, CACM 25 (1982), 47–54. This article contains an
 instructive discussion of the design principles used to construct the algorithm.
 2) The beta distribution with positive parameters a and b is defined by
 F(x) = Γ(a + b)
 Γ(a) Γ(b)
 x
-0
+
 ta−1(1 −t)b−1 dt,
 0 ≤x ≤1.
 (35)
 Let X1 and X2 be independent gamma deviates of order a and b, respectively,
 and set X ←X1/(X1 + X2). Another method, useful for small a and b, is to set
 Y1 ←U 1/a
-1
+
 and
 Y2 ←U 1/b
-2
+
 repeatedly until Y1 + Y2 ≤1; then X ←Y1/(Y1 + Y2).
 [See M. D. Jöhnk,
 Metrika 8 (1964), 5–15.] Still another approach, if a and b are integers and not
@@ -11100,7 +10659,7 @@ Metrika 8 (1964), 5–15.] Still another approach, if a and b are integers and n
 
 3.4.1
 NUMERICAL DISTRIBUTIONS
-135
+
 too large, is to set X to the bth largest of a+b−1 independent uniform deviates
 (see exercise 9 at the beginning of Chapter 5). See also the more direct method
 described by R. C. H. Cheng, CACM 21 (1978), 317–322.
@@ -11110,16 +10669,16 @@ distribution of order ν/2.
 4) The F-distribution (variance-ratio distribution) with ν1 and ν2 degrees of
 freedom is defined by
 F(x) = νν1/2
-1
+
 νν2/2
-2
+
 Γ
 
 (ν1 + ν2)/2
 
 Γ(ν1/2) Γ(ν2/2)
 x
-0
+
 tν1/2−1(ν2 + ν1t)−ν1/2−ν2/2 dt,
 (36)
 where x ≥0. Let Y1 and Y2 be independent, having the chi-square distribution
@@ -11172,8 +10731,6 @@ when it is projected onto the unit sphere it has the uniform distribution. This
 method was first suggested by G. W. Brown, in Modern Mathematics for the
 Engineer, First series, edited by E. F. Beckenbach (New York: McGraw–Hill,
 
-
-136
 RANDOM NUMBERS
 3.4.1
 1956), 302. To get a random point inside the n-sphere, R. P. Brent suggests
@@ -11214,9 +10771,8 @@ n−1 < ln U / ln(1−p) ≤n, that is, (1−p)n−1 > U ≥(1−p)n, and this h
 with probability (1 −p)n−1p as required. The quantity ln U can optionally be
 replaced by −Y, where Y has the exponential distribution with mean 1.
 The special case p =
-1
-2 is quite simple on a binary computer, since for-
-mula (39) reduces to setting N ←⌈−lg U⌉; that is, N is one more than the
+
+2 is quite simple on a binary computer, since formula (39) reduces to setting N ←⌈−lg U⌉; that is, N is one more than the
 number of leading zero bits in the binary representation of U.
 2) The binomial distribution (t, p). If some event occurs with probability p, and
 if we carry out t independent trials, the total number N of occurrences equals n
@@ -11245,26 +10801,25 @@ who has also suggested an alternative for medium-sized t; see exercise 27.)
 
 3.4.1
 NUMERICAL DISTRIBUTIONS
-137
+
 3) The Poisson distribution with mean µ. The Poisson distribution is related
 to the exponential distribution as the binomial distribution is related to the
 geometric: It represents the number of occurrences, per unit time, of an event
 that can occur at any instant of time. For example, the number of alpha particles
 emitted by a radioactive substance in a single second has a Poisson distribution.
-According to this principle, we can produce a Poisson deviate N by gener-
-ating independent exponential deviates X1, X2, . . . with mean 1/µ, stopping
+According to this principle, we can produce a Poisson deviate N by generating independent exponential deviates X1, X2, . . . with mean 1/µ, stopping
 as soon as X1 + · · · + Xm ≥1; then N ←m −1.
 The probability that
 X1 + · · · + Xm ≥1 is the probability that a gamma deviate of order m is ≥µ,
 and this comes to
 ∞
 µ tm−1e−t dt/(m −1)!; hence the probability that N = n is
-1
+
 n!
 ∞
 µ
 tne−t dt −
-1
+
 (n −1)!
 ∞
 µ
@@ -11298,21 +10853,21 @@ order.” To establish this principle formally, we compute the probability that
 V1 ≤v1, . . . , Vm−1 ≤vm−1, given the value of Sm = s, for arbitrary values
 0 ≤v1 ≤· · · ≤vm−1 ≤1: Let f(v1, v2, . . . , vm−1) be the (m −1)-fold integral
 v1s
-0
+
 µe−t1/µ dt1
 v2s−t1
-0
+
 µe−t2/µ dt2 . . .
 ×
 vm−1s−t1−···−tm−2
-0
+
 µe−tm−1/µ dtm−1 · µe−(s−t1−···−tm−1)/µ ;
 then
 f(v1, v2, . . . , vm−1)
 f(1, 1, . . . , 1)
 =
 v1
-0
+
 du1
 v2
 u1 du2 . . .
@@ -11326,8 +10881,6 @@ u1 du2 . . .
 um−2 dum−1
 ,
 
-
-138
 RANDOM NUMBERS
 3.4.1
 by making the substitution t1 = su1, t1 + t2 = su2, . . . , t1 + · · · + tm−1 =
@@ -11339,8 +10892,7 @@ Poisson deviates is sketched in exercise 22.
 G. For further reading. A facsimile of a letter from von Neumann dated May
 21, 1947, in which the rejection method first saw the light of day, appears in
 Stanislaw Ulam 1909–1984, a special issue of Los Alamos Science (Los Alamos
-National Lab., 1987), 135–136. The book Non-Uniform Random Variate Gen-
-eration by L. Devroye (Springer, 1986) discusses many more algorithms for the
+National Lab., 1987), 135–136. The book Non-Uniform Random Variate Generation by L. Devroye (Springer, 1986) discusses many more algorithms for the
 generation of random variables with nonuniform distributions, together with a
 careful consideration of the efficiency of each technique on typical computers.
 W. Hörmann and G. Derflinger [ACM Trans. Math. Software 19 (1993),
@@ -11380,7 +10932,7 @@ Step 2. If U 2 + V 2 ≥1, return to step 1; otherwise set X ←U.
 
 3.4.1
 NUMERICAL DISTRIBUTIONS
-139
+
 What is the distribution function of X? How many times will step 1 be performed?
 (Give the mean and standard deviation.)
 x
@@ -11408,10 +10960,10 @@ x 11. [HM27] Prove that steps M7–M8 of Algorithm M generate a random variable
 with the appropriate tail of the normal distribution; in other words, the probability
 that X ≤x should be exactly
 x
-3
+
 e−t2/2 dt
 ∞
-3
+
 e−t2/2 dt,
 x ≥3.
 [Hint: Show that it is a special case of the rejection method, with g(t) = Cte−t2/2 for
@@ -11445,8 +10997,6 @@ distributions F1(x) and F2(x), and with densities f1(x) = F ′
 2(x), what
 are the distribution and density functions of the quantity X1 + X2?
 
-
-140
 RANDOM NUMBERS
 3.4.1
 x 16. [HM22] (J. H. Ahrens.)
@@ -11498,12 +11048,11 @@ and by the fact that almost all real numbers have a random binary expansion (see
 Section 3.5), this sequence Un is equidistributed. But if the computation of Vn is done
 with only finite accuracy, the argument breaks down because we soon are dealing with
 noise from the roundoff error. [See von Neumann’s Collected Works 5, 768–770.]
-Analyze the sequence ⟨Vn⟩defined in the preceding paragraph, when only finite ac-
-curacy is present, both empirically (for various different choices of V0) and theoretically.
+Analyze the sequence ⟨Vn⟩defined in the preceding paragraph, when only finite accuracy is present, both empirically (for various different choices of V0) and theoretically.
 Does the sequence have a distribution resembling the expected distribution?
 25. [M25] Let X1, X2, . . . , X5 be binary words each of whose bits is independently
 0 or 1 with probability
-1
+
 2.
 What is the probability that a given bit position of
 X1 | (X2 & (X3 | (X4 & X5))) contains a 1? Generalize.
@@ -11511,7 +11060,7 @@ X1 | (X2 & (X3 | (X4 & X5))) contains a 1? Generalize.
 
 3.4.1
 NUMERICAL DISTRIBUTIONS
-141
+
 26. [M18] Let N1 and N2 be independent Poisson deviates with means µ1 and µ2,
 where µ1 > µ2 ≥0. Prove or disprove: (a) N1 + N2 has the Poisson distribution with
 mean µ1 + µ2. (b) N1 −N2 has the Poisson distribution with mean µ1 −µ2.
@@ -11547,7 +11096,7 @@ just as we obtain new uniform deviates from old ones. For example, we might use
 the idea of 3.2.2–(7), but with a recurrence like
 Xn = (Xn−24 + Xn−55)/
 √
-2
+
 or
 Xn = 3
 5Xn−24 + 4
@@ -11569,13 +11118,10 @@ b) (X′, Y ′) =
 if X ≤Y ;
 (2Y, X −Y ),
 if X > Y .
-c) If X = (. . . x2x1x0.x−1x−2x−3 . . . )2 and Y = (. . . y2y1y0.y−1y−2y−3 . . . )2 in bi-
-nary notation, then X′ and Y ′ have the “shuffled” values
+c) If X = (. . . x2x1x0.x−1x−2x−3 . . . )2 and Y = (. . . y2y1y0.y−1y−2y−3 . . . )2 in binary notation, then X′ and Y ′ have the “shuffled” values
 X′ = (. . . x2y1x0.y−1x−2y−3 . . . )2,
 Y ′ = (. . . y2x1y0.x−1y−2x−3 . . . )2.
 
-
-142
 RANDOM NUMBERS
 3.4.1
 33. [20] Algorithms P, M, F, and R generate normal deviates by consuming an
@@ -11632,7 +11178,7 @@ by 1, and go back to step S2.
 
 3.4.2
 RANDOM SAMPLING AND SHUFFLING
-143
+
 This algorithm may appear to be unreliable at first glance and, in fact, to
 be incorrect; but a careful analysis (see the exercises below) shows that it is
 completely trustworthy. It is not difficult to verify that
@@ -11678,8 +11224,6 @@ chosen from among the first t. The problem is to maintain this situation with
 t increased by one, namely to find a new random sample from among the t + 1
 records now known to be present. It is not hard to see that we should include
 
-
-144
 RANDOM NUMBERS
 3.4.2
 the new record in the new sample with probability n/(t + 1), and in such a case
@@ -11733,7 +11277,7 @@ exercise 8.)
 
 3.4.2
 RANDOM SAMPLING AND SHUFFLING
-145
+
 The sampling problem can be regarded as the computation of a random
 combination, according to the conventional definition of combinations of N things
 taken n at a time (see Section 1.2.6).
@@ -11771,8 +11315,7 @@ a remainder modulo j.) Exchange Xk ↔Xj.
 P4. [Decrease j.] Decrease j by 1. If j > 1, return to step P2.
 This algorithm was first published by R. A. Fisher and F. Yates [Statistical
 Tables (London, 1938), Example 12], in ordinary language, and by R. Durstenfeld
-[CACM 7 (1964), 420] in computer language. If we merely wish to generate a ran-
-dom permutation of {1, . . . , t} instead of shuffling a given sequence (X1, . . . , Xt),
+[CACM 7 (1964), 420] in computer language. If we merely wish to generate a random permutation of {1, . . . , t} instead of shuffling a given sequence (X1, . . . , Xt),
 we can avoid the exchange operation Xk ↔Xj by letting j increase from 1 to t
 and setting Xj ←Xk, Xk ←j; see D. E. Knuth, The Stanford GraphBase (New
 York: ACM Press, 1994), 104.
@@ -11780,8 +11323,6 @@ R. Salfi [COMPSTAT 1974 (Vienna: 1974), 28–35] has pointed out that
 Algorithm P cannot possibly generate more than m distinct permutations when
 we obtain the uniform U’s with a linear congruential sequence of modulus m,
 
-
-146
 RANDOM NUMBERS
 3.4.2
 or indeed whenever we use a recurrence Un+1 = f(Un) for which Un can take
@@ -11799,8 +11340,7 @@ random bits out unless we put lg t! truly random bits in. Section 3.5 shows that
 we need not despair about this.
 Algorithm P can easily be modified to yield a random permutation of a
 random combination (see exercise 15). For a discussion of random combinatorial
-objects of other kinds (e.g., partitions), see Section 7.2 and/or the book Combi-
-natorial Algorithms by Nijenhuis and Wilf (New York: Academic Press, 1975).
+objects of other kinds (e.g., partitions), see Section 7.2 and/or the book Combinatorial Algorithms by Nijenhuis and Wilf (New York: Academic Press, 1975).
 EXERCISES
 1. [M12] Explain Eq. (1).
 2. [20] Prove that Algorithm S never tries to read more than N records of its
@@ -11845,7 +11385,7 @@ independent and each Yt is a random integer in the range 0 ≤Yt < t.
 
 3.4.2
 RANDOM SAMPLING AND SHUFFLING
-147
+
 d) For maximum speed, show that X can also be calculated in O(1) steps, on the
 average, using a “squeeze method” like Eq. 3.4.1–(18).
 9. [12] Let n = 3. If Algorithm R is applied to a file containing 20 records numbered
@@ -11882,7 +11422,7 @@ ay a(y+1) mod n . . . a(x−1) mod n
 intermixed in some way, for some x and y. Thus, 3890145267 is a cut-and-riffle of
 0123456789, with x = 3 and y = 8.
 a) Beginning with 52 playing cards arranged in the standard order
-2
+
 ♣3
 ♣4
 ♣5
@@ -11910,21 +11450,21 @@ a) Beginning with 52 playing cards arranged in the standard order
 ♦A
 ♦2
 ♡
-3
+
 ♡
-4
+
 ♡
-5
+
 ♡
-6
+
 ♡
-7
+
 ♡
-8
+
 ♡
-9
+
 ♡
-10
+
 ♡
 J
 ♡
@@ -11934,7 +11474,7 @@ K
 ♡
 A
 ♡
-2
+
 ♠3
 ♠4
 ♠5
@@ -11950,7 +11490,7 @@ A
 ♠,
 Mr. J. H. Quick (a student) did a random cut-and-riffle; then he removed the
 leftmost card and inserted it in a random place, obtaining the sequence
-9
+
 ♣10
 ♣K
 ♡
@@ -11963,7 +11503,7 @@ K
 ♣2
 ♦Q
 ♡
-3
+
 ♦2
 ♠3
 ♠4
@@ -11993,41 +11533,40 @@ K
 ♦4
 ♣2
 ♡
-3
+
 ♡
-4
+
 ♡
-5
+
 ♣6
 ♣5
 ♡
-6
+
 ♡
-7
+
 ♡
-8
+
 ♡
-7
+
 ♣9
 ♡
-10
+
 ♡
 J
 ♡
-8
+
 ♣.
 Which card did he move from the leftmost position?
-b) Starting again with the deck in its original order, Quick now did three cut-and-
-riffles before moving the leftmost card to a new place:
-10
+b) Starting again with the deck in its original order, Quick now did three cut-andriffles before moving the leftmost card to a new place:
+
 ♦J
 ♣Q
 ♣3
 ♠4
 ♡
-5
+
 ♡
-6
+
 ♦J
 ♠J
 ♦Q
@@ -12040,10 +11579,10 @@ K
 ♣3
 ♣K
 ♡
-4
+
 ♣7
 ♡
-5
+
 ♠6
 ♠Q
 ♦A
@@ -12051,9 +11590,9 @@ K
 ♦5
 ♣A
 ♡
-8
+
 ♡
-7
+
 ♠6
 ♣K
 ♦K
@@ -12065,30 +11604,28 @@ A
 ♣9
 ♣10
 ♡
-8
+
 ♠10
 ♣8
 ♦2
 ♡
-5
+
 ♦J
 ♡
-2
+
 ♦3
 ♦Q
 ♡
-4
+
 ♦9
 ♠3
 ♡
-2
+
 ♠9
 ♦10
 ♠.
 Which card did he move this time?
 
-
-148
 RANDOM NUMBERS
 3.4.2
 x 15. [30] (Ole-Johan Dahl.) If Xk = k for 1 ≤k ≤t at the start of Algorithm P, and
@@ -12139,9 +11676,9 @@ if qk ≤r;
 if qk > r.
 a) If r is the nth smallest element of {q1, . . . , qN}, prove that the expected value
 E w(r)
-1
+
 w(r)
-2
+
 . . . w(r)
 k
 is w1w2 . . . wk, for 1 ≤k < n ≤N. Hint: Show that, if s is the
@@ -12149,7 +11686,7 @@ is w1w2 . . . wk, for 1 ≤k < n ≤N. Hint: Show that, if s is the
 1 . . . w(r)
 k
 = w(s+)
-1
+
 . . . w(s+)
 k
 .
@@ -12173,7 +11710,7 @@ Don Quixote de la Mancha (1605)
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-149
+
 *3.5. WHAT IS A RANDOM SEQUENCE?
 A. Introductory remarks. We have seen in this chapter how to generate
 sequences
@@ -12208,8 +11745,7 @@ and depending somewhat on the uses to which the sequence is to be put.”
 J. N. Franklin (1962): “The sequence (1) is random if it has every property
 that is shared by all infinite sequences of independent samples of random
 variables from the uniform distribution.”
-Franklin’s statement essentially generalizes Lehmer’s to say that the se-
-quence must satisfy all statistical tests. His definition is not completely precise,
+Franklin’s statement essentially generalizes Lehmer’s to say that the sequence must satisfy all statistical tests. His definition is not completely precise,
 and we will see later that a reasonable interpretation of his statement leads us to
 conclude that there is no such thing as a random sequence! So let us begin with
 Lehmer’s less restrictive statement and attempt to make it precise. What we
@@ -12220,8 +11756,6 @@ these properties is “random.” In this section, we will develop what seems to
 an adequate definition of randomness according to these criteria, although many
 interesting questions remain to be answered.
 
-
-150
 RANDOM NUMBERS
 3.5
 Let u and v be real numbers, 0 ≤u < v ≤1. If U is a random variable
@@ -12263,12 +11797,12 @@ if U0, U1, . . . and V0, V1, . . . are equidistributed sequences, it is not hard
 that the sequence
 W0, W1, W2, W3, . . . = 1
 2U0,
-1
+
 2 + 1
 2V0,
-1
+
 2U1,
-1
+
 2 + 1
 2V1, . . .
 (3)
@@ -12279,10 +11813,9 @@ between 0 and 1
 2, while the alternate terms 1
 2 + 1
 2V0,
-1
+
 2 + 1
-2V1, . . . , are equi-
-distributed between 1
+2V1, . . . , are equidistributed between 1
 2 and 1. But in the sequence of W’s, a value less than 1
 2 is
 always followed by a value greater than or equal to 1
@@ -12301,7 +11834,7 @@ k-distributed in the following sense:
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-151
+
 Definition B. The sequence (1) is said to be k-distributed if
 Pr(u1 ≤Un < v1, . . . , uk ≤Un+k−1 < vk) = (v1 −u1) . . . (vk −uk)
 (5)
@@ -12348,8 +11881,6 @@ a million zeros in a row! Similarly, a [0 . . 1) sequence that is 1000000-distri
 is going to have runs of a million consecutive values each of which is less than 1
 2.
 
-
-152
 RANDOM NUMBERS
 3.5
 It is true that this will happen only ( 1
@@ -12428,7 +11959,7 @@ The sequence
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-153
+
 representations of U0, U1, . . . . If all these integer sequences are k-distributed,
 in the sense of Definition D, then the real-valued sequence U0, U1, . . . must also
 be k-distributed in the sense of Definition B.
@@ -12525,16 +12056,16 @@ Suppose that ⟨Un⟩is a k-distributed [0 . . 1) sequence, and let
 f(x1, x2, . . . , xk) be a Riemann-integrable function of k variables; then
 lim
 n→∞
-1
+
 n
 
 0≤j<n
 f(Uj, Uj+1, . . . , Uj+k−1) =
 1
-0
+
 · · ·
 1
-0
+
 f(x1, x2, . . . , xk) dx1. . . dxk.
 (8)
 Proof. The definition of a k-distributed sequence states that this result is true
@@ -12547,16 +12078,13 @@ words, Eq. (8) holds whenever f is a “step-function” obtained by partitionin
 unit k-dimensional cube into subcells whose faces are parallel to the coordinate
 axes, and assigning a constant value to f on each subcell.
 Now let f be any Riemann-integrable function. If ϵ is any positive number,
-we know (by the definition of Riemann-integrability) that there exist step func-
-tions f and f such that f(x1, . . . , xk) ≤f(x1, . . . , xk) ≤f(x1, . . . , xk), and such
+we know (by the definition of Riemann-integrability) that there exist step functions f and f such that f(x1, . . . , xk) ≤f(x1, . . . , xk) ≤f(x1, . . . , xk), and such
 
-
-154
 RANDOM NUMBERS
 3.5
 that the difference of the integrals of f and f is less than ϵ. Since Eq. (8) holds
 for f and f, and since
-1
+
 n
 
 0≤j<n
@@ -12571,8 +12099,7 @@ n
 0≤j<n
 f(Uj, . . . , Uj+k−1),
 we conclude that Eq. (8) is true also for f.
-Theorem B can be applied, for example, to the permutation test of Sec-
-tion 3.3.2. Let (p1, p2, . . . , pk) be any permutation of the numbers {1, 2, . . . , k};
+Theorem B can be applied, for example, to the permutation test of Section 3.3.2. Let (p1, p2, . . . , pk) be any permutation of the numbers {1, 2, . . . , k};
 we want to show that
 Pr(Un+p1−1 < Un+p2−1 < · · · < Un+pk−1) = 1/k!.
 (10)
@@ -12582,23 +12109,23 @@ We have
 Pr(Un+p1−1 < Un+p2−1 < · · · < Un+pk−1)
 =
 1
-0
+
 · · ·
 1
-0
+
 f(x1, . . . , xk) dx1. . . dxk
 =
 1
-0
+
 dxpk
 xpk
-0
+
 · · ·
 xp3
-0
+
 dxp2
 xp2
-0
+
 dxp1 = 1
 k! .
 Corollary P. If a [0 . . 1) sequence is k-distributed, it satisfies the permutation
@@ -12608,7 +12135,7 @@ Corollary S. If a [0 . . 1) sequence is (k + 1)-distributed, the serial correlat
 coefficient between Un and Un+k tends to zero:
 lim
 n→∞
-1
+
 n
 UjUj+k −
 1
@@ -12635,21 +12162,21 @@ n
 2= 0.
 (All summations here are for 0 ≤j < n.)
 Proof. By Theorem B, the quantities
-1
+
 n
 UjUj+k,
-1
+
 n
 U 2
 j ,
-1
+
 n
 U 2
 j+k,
-1
+
 n
 Uj,
-1
+
 n
 Uj+k
 tend to the respective limits 1
@@ -12662,7 +12189,7 @@ tend to the respective limits 1
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-155
+
 Let us now consider some slightly more general distribution properties of
 sequences. We have defined the notion of k-distribution by considering all of
 the adjacent k-tuples; for example, a sequence is 2-distributed if and only if the
@@ -12675,8 +12202,7 @@ other points (U2n, U2n+1) might compensate. For example, the periodic binary
 sequence
 ⟨Xn⟩= 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, . . . ,
 (11)
-with a period of length 16, is seen to be 3-distributed; yet the sequence of even-
-numbered elements ⟨X2n⟩= 0, 0, 0, 0, 1, 0, 1, 0, . . . has three times as many
+with a period of length 16, is seen to be 3-distributed; yet the sequence of evennumbered elements ⟨X2n⟩= 0, 0, 0, 0, 1, 0, 1, 0, . . . has three times as many
 zeros as ones, while the subsequence of odd-numbered elements ⟨X2n+1⟩= 0, 1,
 0, 1, 1, 1, 1, 1, . . . has three times as many ones as zeros.
 Suppose the sequence ⟨Un⟩is ∞-distributed. Example (11) shows that the
@@ -12704,12 +12230,9 @@ imagined it to be when we first considered the definition of the concept.
 Theorem C (Ivan Niven and H. S. Zuckerman). An ∞-distributed sequence is
 (m, k)-distributed for all positive integers m and k.
 
-
-156
 RANDOM NUMBERS
 3.5
-Proof. It suffices to prove the theorem for b-ary sequences, by using the general-
-ization of Theorem A just mentioned. Furthermore, we may assume that m = k,
+Proof. It suffices to prove the theorem for b-ary sequences, by using the generalization of Theorem A just mentioned. Furthermore, we may assume that m = k,
 because (12) and (13) tell us that the sequence will be (m, k)-distributed if it is
 (mk, mk)-distributed.
 So we will prove that any ∞-distributed b-ary sequence X0, X1, . . . is (m, m)-
@@ -12738,7 +12261,7 @@ the number of occurrences of x at position p when p < n and p mod m = j. Let
 yjn = νj(n)/n; we wish to prove that
 lim
 n→∞yjn =
-1
+
 mbm .
 (15)
 First we know that
@@ -12753,7 +12276,7 @@ n→∞(y2
 0n + y2
 1n + · · · + y2
 (m−1)n) ≤
-1
+
 mb2m .
 (17)
 This inequality is not obvious yet; some rather delicate maneuvering is
@@ -12762,7 +12285,7 @@ C(n) =
 
 0≤j<m
 νj(n) −νj(n −q)
-2
+
 
 .
 (18)
@@ -12778,7 +12301,7 @@ C(n).
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-157
+
 Each pair of occurrences of x in positions p1 and p2 with p1 < p2 < p1 +q, where
 p2 −p1 is a multiple of m and p1 ≤N, is counted exactly p1 + q −p2 times in
 the total SN (namely, when p2 < n ≤p1 + q); and the pairs of such occurrences
@@ -12795,9 +12318,9 @@ with p1 + t = p2 < n. The analysis above shows that
 Since the original sequence is q-distributed,
 lim
 N→∞
-1
+
 N dmt(N) =
-1
+
 b2m
 (21)
 for all t, 0 < t < q/m, and therefore by (20) we have
@@ -12844,7 +12367,7 @@ n=1
 νj(n) −νj(n −q)
 2.
 Using the inequality
-1
+
 r
 
 r
@@ -12863,7 +12386,7 @@ lim sup
 N→∞
 
 0≤j<m
-1
+
 N(N +q)
 N+q
 
@@ -12889,8 +12412,6 @@ n=1
 
 ≤qνj(N + q),
 
-
-158
 RANDOM NUMBERS
 3.5
 and putting this into (24) gives
@@ -12903,7 +12424,7 @@ N
 2
 ≤q −m
 qmb2m +
-1
+
 qbm .
 (25)
 This formula has been established whenever q is a multiple of m; and if we let
@@ -12925,8 +12446,7 @@ spacings test, and the tests on subsequences mentioned in Section 3.3.2. It is n
 hard to show that the gap test, the poker test, and the run test are also satisfied
 (see exercises 12 through 14). The coupon collector’s test is considerably more
 difficult to deal with, but it too is passed (see exercises 15 and 16).
-The existence of ∞-distributed sequences of a rather simple type is guaran-
-teed by the next theorem.
+The existence of ∞-distributed sequences of a rather simple type is guaranteed by the next theorem.
 Theorem F (J. N. Franklin). The [0 . . 1) sequence U0, U1, U2, . . . with
 Un = θn mod 1
 (26)
@@ -12952,7 +12472,7 @@ Is there an algorithm to compute real numbers Un for all n ≥0, such that
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-159
+
 the sequence ⟨Un⟩is ∞-distributed? The answer is yes, as shown for example
 by D. E. Knuth in BIT 5 (1965), 246–250.
 The sequence constructed there
@@ -12998,8 +12518,6 @@ than ϵ. With probability one, a truly random sequence contains infinitely many
 runs of a million consecutive elements less than ϵ, so why can’t this happen at
 the beginning of the sequence?
 
-
-160
 RANDOM NUMBERS
 3.5
 On the other hand, consider Definition R2 and let P be the property that
@@ -13052,7 +12570,7 @@ Perhaps we should strengthen R1 as follows:
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-161
+
 Definition R3. A [0 . . 1) sequence is said to be “random” if each of its infinite
 subsequences is ∞-distributed.
 Once again, however, the definition turns out to be too strict; any equidistributed
@@ -13073,10 +12591,8 @@ with (πs0 mod 1) < (πs1 mod 1) < (πs2 mod 1) < · · · . Similarly, no expli
 defined sequence can satisfy Definition R4; this is appropriate, if we agree
 that no explicitly defined sequence can really be random. The explicit-looking
 sequence ⟨θn mod 1⟩actually does, however, satisfy Definition R4, for almost
-all real numbers θ > 1; this is no contradiction, since almost all θ are uncom-
-putable by algorithms. J. F. Koksma proved that ⟨θsn mod 1⟩is 1-distributed
-for almost all θ > 1, if ⟨sn⟩is any sequence of distinct positive integers [Com-
-positio Math. 2 (1935), 250–258]; H. Niederreiter and R. F. Tichy strengthened
+all real numbers θ > 1; this is no contradiction, since almost all θ are uncomputable by algorithms. J. F. Koksma proved that ⟨θsn mod 1⟩is 1-distributed
+for almost all θ > 1, if ⟨sn⟩is any sequence of distinct positive integers [Compositio Math. 2 (1935), 250–258]; H. Niederreiter and R. F. Tichy strengthened
 Koksma’s theorem, replacing “1-distributed” by “∞-distributed” [Mathematika
 32 (1985), 26–32]. Only countably many sequences ⟨sn⟩are effectively definable,
 so ⟨θn mod 1⟩almost always satisfies R4.
@@ -13103,13 +12619,10 @@ so apparently we need something more.
 Let us define a “subsequence rule” R as an infinite sequence of functions
 ⟨fn(x1, . . . , xn)⟩where, for n ≥0, fn is a function of n variables, and the
 
-
-162
 RANDOM NUMBERS
 3.5
 value of fn(x1, . . . , xn) is either 0 or 1. Here x1, . . . , xn are elements of some
-set S. (Thus, in particular, f0 is a constant function, either 0 or 1.) A sub-
-sequence rule R defines a subsequence of any infinite sequence ⟨Xn⟩of elements
+set S. (Thus, in particular, f0 is a constant function, either 0 or 1.) A subsequence rule R defines a subsequence of any infinite sequence ⟨Xn⟩of elements
 of S as follows: The nth term Xn is in the subsequence ⟨Xn⟩R if and only if
 fn(X0, X1, . . . , Xn−1) = 1. Note that the subsequence ⟨Xn⟩R thus defined is
 not necessarily infinite, and it may in fact contain no elements at all.
@@ -13117,7 +12630,7 @@ For example, the gambler’s subsequence just described corresponds to the
 following subsequence rule: “f0 = 1; and for n > 0, fn(x1, . . . , xn) = 1 if and
 only if there is some k in the range 0 < k ≤n such that the k consecutive
 parameters xm, xm−1, . . . , xm−k+1 are all <
-1
+
 2 when m = n but not when
 k ≤m < n.”
 A subsequence rule R is said to be computable if there is an effective
@@ -13131,8 +12644,7 @@ radix-10 expansion, there is no algorithm to determine if x is < 1
 all digits of the number 0.333 . . . have to be examined. Therefore computable
 subsequence rules do not apply to all [0 . . 1) sequences, and it is convenient to
 base our next definition on b-ary sequences.
-Definition R5. A b-ary sequence is said to be “random” if every infinite sub-
-sequence defined by a computable subsequence rule is 1-distributed.
+Definition R5. A b-ary sequence is said to be “random” if every infinite subsequence defined by a computable subsequence rule is 1-distributed.
 A [0 . . 1) sequence ⟨Un⟩is said to be “random” if the b-ary sequence ⟨⌊bUn⌋⟩
 is “random” for all integers b ≥2.
 Note that Definition R5 says only “1-distributed,” not “∞-distributed.” It
@@ -13141,8 +12653,7 @@ may define an obviously computable subsequence rule R(a1. . . ak) as follows,
 given any b-ary number a1. . . ak: Let fn(x1, . . . , xn) = 1 if and only if n ≥k −1
 and xn−k+1 = a1, . . . , xn−1 = ak−1, xn = ak. Now if ⟨Xn⟩is a k-distributed
 b-ary sequence, this rule R(a1 . . . ak) — which selects the subsequence consisting
-of those terms just following an occurrence of a1. . . ak — defines an infinite sub-
-sequence; and if this subsequence is 1-distributed, each of the (k + 1)-tuples
+of those terms just following an occurrence of a1. . . ak — defines an infinite subsequence; and if this subsequence is 1-distributed, each of the (k + 1)-tuples
 a1. . . akak+1 for 0 ≤ak+1 < b occurs with probability 1/bk+1 in ⟨Xn⟩. Thus
 we can prove that a sequence satisfying Definition R5 is k-distributed for all k,
 by induction on k. Similarly, by considering the “composition” of subsequence
@@ -13158,7 +12669,7 @@ The “computable subsequence rules” we have just specified always enumerate
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-163
+
 subsequences ⟨Xsn⟩for which s0 < s1 < · · · , but ⟨sn⟩does not have to be
 monotone in R4; it must only satisfy the condition sn ̸= sm for n ̸= m.
 To meet this objection, we may combine Definitions R4 and R5 as follows:
@@ -13169,8 +12680,7 @@ integers ⟨sn⟩as a function of n and the values of Xs0, . . . , Xsn−1, the 
 ⟨Xsn⟩corresponding to this algorithm is “random” in the sense of Definition R5.
 A [0 . . 1) sequence ⟨Un⟩is said to be “random” if the b-ary sequence ⟨⌊bUn⌋⟩
 is “random” for all integers b ≥2.
-The author contends* that this definition surely meets all reasonable philo-
-sophical requirements for randomness, so it provides an answer to the principal
+The author contends* that this definition surely meets all reasonable philosophical requirements for randomness, so it provides an answer to the principal
 question posed in this section.
 D. Existence of random sequences.
 We have seen that Definition R3 is
@@ -13195,8 +12705,7 @@ V4 = .001,
 Vn = .cr. . . c11
 if n = 2r + c12r−1 + · · · + cr.
 (29)
-Let Ib1...br denote the set of all real numbers in [0 . . 1) whose binary representa-
-tion begins with 0.b1. . . br; thus
+Let Ib1...br denote the set of all real numbers in [0 . . 1) whose binary representation begins with 0.b1. . . br; thus
 Ib1...br =
 
 (0.b1. . . br)2 . . (0.b1. . . br)2 + 2−r
@@ -13209,13 +12718,10 @@ Proof. Since ν(n) is the number of k for which k mod 2r = (br. . . b1)2, we hav
 ν(n) = t or t + 1 when ⌊n/2r⌋= t. Hence
 ν(n) −n/2r≤1.
 It follows from (31) that the sequence ⟨⌊2rVn⌋⟩is an equidistributed 2r-ary
-sequence; hence by Theorem A, ⟨Vn⟩is an equidistributed [0 . . 1) sequence. In-
-deed, it is pretty clear that ⟨Vn⟩is about as equidistributed as a [0 . . 1) sequence
+sequence; hence by Theorem A, ⟨Vn⟩is an equidistributed [0 . . 1) sequence. Indeed, it is pretty clear that ⟨Vn⟩is about as equidistributed as a [0 . . 1) sequence
 can be. (For further discussion of this and related sequences, see J. G. van der
 * At least, he made such a contention when originally preparing this material in 1966.
 
-
-164
 RANDOM NUMBERS
 3.5
 Corput, Proc. Koninklijke Nederl. Akad. Wetenschappen 38 (1935), 813–821,
@@ -13249,11 +12755,9 @@ to try it out manually, replacing the number 3 · 4r−1 of step W4 by 2r during
 this exercise.
 Algorithm W is not meant to be a practical source of random numbers. It
 is intended to serve only a theoretical purpose:
-Theorem W. Let ⟨Un⟩be the sequence of rational numbers defined by Algo-
-rithm W, and let k be a positive integer. If the subsequence ⟨Un⟩Rk is infinite,
+Theorem W. Let ⟨Un⟩be the sequence of rational numbers defined by Algorithm W, and let k be a positive integer. If the subsequence ⟨Un⟩Rk is infinite,
 it is 1-distributed.
-Proof. Let A[a1, . . . , ar] denote the (possibly empty) subsequence of ⟨Un⟩con-
-taining precisely those elements Un that, for all j ≤r, belong to subsequence
+Proof. Let A[a1, . . . , ar] denote the (possibly empty) subsequence of ⟨Un⟩containing precisely those elements Un that, for all j ≤r, belong to subsequence
 ⟨Un⟩Rj if aj = 1 and do not belong to subsequence ⟨Un⟩Rj if aj = 0.
 It suffices to prove, for all r ≥1 and all pairs of binary numbers a1. . . ar
 and b1. . . br, that Pr(Un ∈Ib1...br) = 2−r with respect to the subsequence
@@ -13267,13 +12771,12 @@ the infinite sequence ⟨Un⟩Rk is the finite union of the disjoint subsequence
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-165
+
 A[a1, . . . , ar] for ak = 1 and aj = 0 or 1 for 1 ≤j ≤r, j ̸= k; and it follows
 that Pr(Un ∈Ib1...br) = 2−r with respect to ⟨Un⟩Rk. (See exercise 33.) This is
 enough to show that the sequence is 1-distributed, by Theorem A.
 Let B[a1, . . . , ar] denote the subsequence of ⟨Un⟩that consists of the values
-for those n in which C[a1, . . . , ar] is increased by one in step W6 of the algo-
-rithm. By the algorithm, B[a1, . . . , ar] is a finite sequence with at most 3 · 4r−1
+for those n in which C[a1, . . . , ar] is increased by one in step W6 of the algorithm. By the algorithm, B[a1, . . . , ar] is a finite sequence with at most 3 · 4r−1
 elements. All but a finite number of the members of A[a1, . . . , ar] come from the
 subsequences B[a1, . . . , ar, . . . , at], where aj = 0 or 1 for r < j ≤t.
 Now assume that A[a1, . . . , ar] is infinite, and let A[a1, . . . , ar] = ⟨Usn⟩,
@@ -13301,16 +12804,14 @@ We have proved that |ν(N)/N −2−r| ≤2q+1/N < 2/
 √
 N.
 To show finally that sequences satisfying Definition R5 exist, we note first
-that if ⟨Un⟩is a [0 . . 1) sequence of rational numbers and if R is a computable sub-
-sequence rule for a b-ary sequence, we can make R into a computable subsequence
+that if ⟨Un⟩is a [0 . . 1) sequence of rational numbers and if R is a computable subsequence rule for a b-ary sequence, we can make R into a computable subsequence
 rule R′ for ⟨Un⟩by letting f ′
 n(x1, . . . , xn) in R′ equal fn(⌊bx1⌋, . . . , ⌊bxn⌋) in
 R. If the [0 . . 1) sequence ⟨Un⟩R′ is equidistributed, so is the b-ary sequence
 ⟨⌊bUn⌋⟩R. Now the set of all computable subsequence rules for b-ary sequences,
 for all values of b, is countable (since only countably many effective algorithms
 are possible), so they may be listed in some sequence R1, R2, . . . ; therefore
-Algorithm W defines a [0 . . 1) sequence that is random in the sense of Defini-
-tion R5.
+Algorithm W defines a [0 . . 1) sequence that is random in the sense of Definition R5.
 This brings us to a somewhat paradoxical situation. As we mentioned earlier,
 no effective algorithm can define a sequence that satisfies Definition R4, and for
 the same reason there is no effective algorithm that defines a sequence satisfying
@@ -13320,12 +12821,9 @@ There is no contradiction here; we have merely stumbled on the fact that the
 set of all effective algorithms cannot be enumerated by an effective algorithm.
 In other words, there is no effective algorithm to select the jth computable
 
-
-166
 RANDOM NUMBERS
 3.5
-subsequence rule Rj; this happens because there is no effective algorithm to de-
-termine if a computational method ever terminates. But important large classes
+subsequence rule Rj; this happens because there is no effective algorithm to determine if a computational method ever terminates. But important large classes
 of algorithms can be systematically enumerated; thus, for example, Algorithm W
 shows that it is possible to construct, with an effective algorithm, a sequence that
 satisfies Definition R5 if we restrict consideration to subsequence rules that are
@@ -13362,8 +12860,7 @@ element of T(a1a2. . . ar) is a real number x = (0.X0X1 . . . )2 for which there
 exists an integer m such that algorithm S determines distinct values s0, s1, . . . ,
 sm, and rule R determines a subsequence of Xs0, Xs1, . . . , Xsm such that Xsm
 is the rth element of this subsequence. The set of all real y = (0.Y0Y1 . . . )2 such
-that Ysk = Xsk for 0 ≤k ≤m also belongs to T(a1a2. . . ar), and this is a mea-
-surable set consisting of the finite union of dyadic subintervals Ib1...bt. Since there
+that Ysk = Xsk for 0 ≤k ≤m also belongs to T(a1a2. . . ar), and this is a measurable set consisting of the finite union of dyadic subintervals Ib1...bt. Since there
 are only countably many such dyadic intervals, we see that T(a1a2. . . ar) is a
 countable union of dyadic intervals, and it is therefore measurable. Furthermore,
 this argument can be extended to show that the measure of T(a1. . . ar−1 0) equals
@@ -13372,15 +12869,14 @@ the measure of T(a1. . . ar−1 1), since the latter is a union of dyadic interv
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-167
+
 obtained from the former by requiring that Ysk = Xsk for 0 ≤k < m and
 Ysm ̸= Xsm. Now since
 T(a1. . . ar−1 0) ∪T(a1. . . ar−1 1) ⊆T(a1. . . ar−1),
 the measure of T(a1a2. . . ar) is at most one-half the measure of T(a1. . . ar−1).
 The inequality (32) follows by induction on r.
 Now that (32) has been established, the remainder of the proof is essentially
-to show that the binary representations of almost all real numbers are equidis-
-tributed. For 0 < ϵ < 1, let B(r, ϵ) be T(a1 . . . ar), where the union is taken
+to show that the binary representations of almost all real numbers are equidistributed. For 0 < ϵ < 1, let B(r, ϵ) be T(a1 . . . ar), where the union is taken
 over all binary strings a1 . . . ar for which the number ν(r) of ones among a1 . . . ar
 satisfies
 ν(r) −1
@@ -13411,7 +12907,7 @@ Now if x is a real number whose binary expansion (0.X0X1 . . . )2 leads to an
 infinite sequence ⟨Xsn⟩R that is not 1-distributed, and if ν(r) denotes the number
 of ones in the first r elements of the latter sequence, then
 ν(r)/r −1
-2
+
 ≥ϵ,
 for some ϵ > 0 and infinitely many r. This means x is in B∗(r, ϵ) for all r. So
 finally we find that
@@ -13433,14 +12929,11 @@ given finite sequence is as likely as any other. Still, nearly everyone would ag
 that the sequence 011101001 is “more random” than 101010101, and even the
 latter sequence is “more random” than 000000000. Although it is true that truly
 
-
-168
 RANDOM NUMBERS
 3.5
 random sequences will exhibit locally nonrandom behavior, we would expect such
 behavior only in a long finite sequence, not in a short one.
-Several ways to define the randomness of a finite sequence have been pro-
-posed, and only a few of the ideas will be sketched here. For simplicity, we shall
+Several ways to define the randomness of a finite sequence have been proposed, and only a few of the ideas will be sketched here. For simplicity, we shall
 restrict our consideration to the case of b-ary sequences.
 Given a b-ary sequence X0, X1, . . . , XN−1, we can say that
 Pr
@@ -13494,27 +12987,25 @@ sequences of length 11:
 plus 01010101010 and all sequences with nine or more zeros, plus all sequences
 obtained from the preceding sequences by interchanging ones and zeros.
 Similarly, we can formulate a definition for finite sequences analogous to
-Definition R6. Let A be a set of algorithms, each of which is a selection-and-
-choice procedure that gives a subsequence ⟨Xsn⟩R as in the proof of Theorem M.
+Definition R6. Let A be a set of algorithms, each of which is a selection-andchoice procedure that gives a subsequence ⟨Xsn⟩R as in the proof of Theorem M.
 Definition Q2. The b-ary sequence X0, X1, . . . , XN−1 is (n, ϵ)-random with
 respect to a set of algorithms A, if for every subsequence Xt1, Xt2, . . . , Xtm
 determined by an algorithm of A we have either m < n or
 
-1
+
 mνa(Xt1, . . . , Xtm) −1
 b
 ≤ϵ
 for 0 ≤a < b.
 Here νa(x1, . . . , xm) is the number of a’s in the sequence x1, . . . , xm.
-(In other words, every sufficiently long subsequence determined by an algo-
-rithm of A must be approximately equidistributed.) The basic idea in this case
+(In other words, every sufficiently long subsequence determined by an algorithm of A must be approximately equidistributed.) The basic idea in this case
 is to let A be a set of “simple” algorithms; the number (and the complexity) of
 the algorithms in A can grow as N grows.
 
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-169
+
 As an example of Definition Q2, let us consider binary sequences, and let A
 be just the following four algorithms:
 a) Take the whole sequence.
@@ -13526,18 +13017,17 @@ Now a sequence X0, X1, . . . , X7 is (4, 1
 by (a),
 1
 8(X0 + X1 + · · · + X7) −1
-2
+
 ≤1
 8, that is, if there are 3, 4, or 5 ones;
 by (b),
 1
 4(X0 + X2 + X4 + X6) −1
-2
+
 ≤1
 8, that is, if there are exactly 2 ones in
 even-numbered positions;
-by (c), there are three possibilities depending on how many zeros occupy posi-
-tions X0, . . . , X6: If there are 2 or 3 zeros here, there is no condition
+by (c), there are three possibilities depending on how many zeros occupy positions X0, . . . , X6: If there are 2 or 3 zeros here, there is no condition
 to test (since n = 4); if there are 4 zeros, they must respectively be
 followed by two zeros and two ones; and if there are 5 zeros, they must
 respectively be followed by two or three zeros;
@@ -13573,11 +13063,10 @@ It is clear that we could make the set of algorithms so large that no sequences
 satisfy the definition, when n and ϵ are reasonably small. A. N. Kolmogorov has
 proved that an (n, ϵ)-random binary sequence will always exist, for any given N,
 if the number of algorithms in A does not exceed
-1
+
 2e2nϵ2(1−ϵ).
 (37)
-This result is not nearly strong enough to show that sequences satisfying Defi-
-nition Q1 will exist, but the latter can be constructed efficiently using the
+This result is not nearly strong enough to show that sequences satisfying Definition Q1 will exist, but the latter can be constructed efficiently using the
 procedure of Rees in exercise 3.2.2–21. A generalized spectral test, based on
 discrete Fourier transforms, can be used to test how well a sequence measures
 up to Definition Q1 [see A. Compagner, Physical Rev. E52 (1995), 5634–5645].
@@ -13589,8 +13078,6 @@ we could use other classes of effective algorithms, such as those discussed in
 Section 1.1.)
 Then l(X1, . . . , XN) is a measure of the “patternlessness” of
 
-
-170
 RANDOM NUMBERS
 3.5
 the sequence, and we may equate this idea with randomness. The sequences
@@ -13598,8 +13085,7 @@ of length N that maximize l(X1, . . . , XN) may be called random. (From the
 standpoint of practical random number generation by computer, this is, of course,
 the worst definition of “randomness” that can be imagined!)
 Essentially the same definition of randomness was given independently by
-G. Chaitin at about the same time; see JACM 16 (1969), 145–159. It is interest-
-ing to note that even though this definition makes no reference to equidistribution
+G. Chaitin at about the same time; see JACM 16 (1969), 145–159. It is interesting to note that even though this definition makes no reference to equidistribution
 properties as our other definitions have, Martin-Löf and Chaitin have proved that
 random sequences of this type also have the expected equidistribution properties.
 In fact, Martin-Löf has demonstrated that such sequences satisfy all computable
@@ -13611,8 +13097,7 @@ A. K. Zvonkin and L. A. Levin, Uspekhi Mat. Nauk 25, 6 (November 1970),
 Levin, Information and Control 61 (1984), 15–37.
 F. Pseudorandom numbers. It is comforting from a theoretical standpoint
 to know that random finite sequences of various flavors exist, but such theorems
-don’t answer the questions faced by real-world programmers. More recent devel-
-opments have led to a more relevant theory, based on the study of sets of finite
+don’t answer the questions faced by real-world programmers. More recent developments have led to a more relevant theory, based on the study of sets of finite
 sequences. More precisely, we consider multisets in which sequences may appear
 more than once.
 Let S be a multiset containing bit strings (binary sequences) of length N;
@@ -13642,15 +13127,14 @@ consecutive 0s and 1s, outputting 1 if the run lengths differ significantly from
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-171
+
 the expected distribution. Whatever A does, we can consider the probability
 P(A, S) that A(B) = 1 when B is a randomly chosen element of S, and we
 can compare it to the probability P(A, $N) that A(B) = 1 when B is a truly
 random bit string of length N. If P(A, S) is extremely close to P(A, $N) for all
 statistical tests A, we cannot tell the difference between the sequences of S and
 truly random binary sequences.
-Definition P. We say that an N-source S passes statistical test A with toler-
-ance ϵ if
+Definition P. We say that an N-source S passes statistical test A with tolerance ϵ if
 P(A, S)−P(A, $N)
 < ϵ. It fails the test if
 P(A, S)−P(A, $N)
@@ -13714,8 +13198,6 @@ k+1
 mod 2.
 (39)
 
-
-172
 RANDOM NUMBERS
 3.5
 A careful analysis of probabilities shows that P(AP
@@ -13803,7 +13285,7 @@ bit f(x) to an ability to guess x itself, given only the value of g(x). There is
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-173
+
 a nice general way to do this, using the properties of Boolean functions, if we
 extend S so that many different functions f(x) need to be guessed. (However,
 the method is somewhat technical, so the first-time reader may want to skip
@@ -13824,9 +13306,9 @@ we have s = p −(1 −p), or p = 1
 2s.
 For example, suppose R = 4 and G(z1z2z3z4) = [z1 ̸= z2][z3 + z4 < 2]. This
 function has success rate s =
-3
+
 4 (and p =
-7
+
 8) if x = 1100, because it equals
 x · z mod 2 = (z1 + z2) mod 2 for all 4-bit strings z except 0111 or 1011. It also
 has success rate 1
@@ -13861,8 +13343,6 @@ string x will probably be output whenever it deserves to be. Notice first that
 if we change G to G′, where G′(z) = (G(z) + zj) mod 2, the original G(z) is
 a good approximation to x · z mod 2 if and only if the new G′(z) is a good
 
-
-174
 RANDOM NUMBERS
 3.5
 approximation to (x + ej) · z mod 2, where ej is the unit-vector string defined in
@@ -13940,7 +13420,7 @@ example, exercise 4.5.4–35). The function f(x, z, m) that extracts bits in thi
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-175
+
 iterative source is x · z mod 2. Our starting value (X0, Z, M) isn’t necessarily
 in X, but g(X0, Z, M) is uniformly distributed in X, because exactly four values
 of X0 have a given square X2
@@ -13971,8 +13451,7 @@ one of the 2k values x output by that algorithm satisfies x2 ≡X2
 there is a 50:50 chance that x ̸≡±X0; then gcd(X0 −x, M) and gcd(X0 +x, M)
 are the prime factors of M. (See Rabin’s “SQRT box” in Section 4.5.4.)
 The running time of this algorithm is clearly O(N 2R2ϵ−2T(A)+N 3R4ϵ−2),
-since ϵ ≥2−N. The probability that it succeeds in factoring M can be esti-
-mated as follows.
+since ϵ ≥2−N. The probability that it succeeds in factoring M can be estimated as follows.
 Let n = |X|/2R be the number of choices of (x, m), and
 let sxm = 2−R (−1)G(y,z,m)+z·x summed over all R-bit numbers z; thus s =
 
@@ -14013,8 +13492,6 @@ late 1970s. Since they haven’t found a good solution, we have excellent reason
 to believe that factoring is hard; hence Theorem P will show that T(A) must be
 large on all algorithms that detect nonrandomness of muddle-square bits.
 
-
-176
 RANDOM NUMBERS
 3.5
 Long computations are conveniently measured in MIP-years, the number of
@@ -14032,13 +13509,13 @@ not-too-small fraction of the R-bit Blum integers M. Then we could factor many
 numbers of about 50000 bits (15000 digits) in 2×1025 MIP-years. If we generate
 N = 1000 random bits by muddle-square with R = 50000, and if we assume that
 all algorithms that are good enough to factor at least
-1
+
 400000 of the 50000-bit Blum
 integers must run at least 2 × 1025 MIP-years, Theorem P tells us that every
 such set of 1000 bits will pass all statistical tests for randomness whose running
 time T(A) is less than 70000 MIP-years: No such algorithm A will be able to
 distinguish such bits from a truly random sequence with probability ≥ϵ =
-1
+
 100.
 Impressive? No. Such a result is hardly surprising, since we need to specify
 about 150000 truly random bits just to start up the muddle-square method with
@@ -14046,50 +13523,42 @@ X0, Z, and M when R = 50000. Of course we should be able to get 1000 random
 bits back from such an investment!
 But in general, the formula becomes
 T(A) ≥
-1
+
 100000N −2R−2 exp
 
 R1/4(ln R)3/4
 −NR2,
 under our conservative assumptions, when ϵ =
-1
+
 100; the NR2 term is negligible
 when R is large. So let’s set R = 200000 and N = 1010. Then we get ten billion
 pseudorandom muddle-bits from ≈3R = 600000 truly random bits, passing all
-statistical tests that require fewer than 7.486×1010 MIP-years = 74.86 gigaMIP-
-years. With R = 333333 and N = 1013 the computation time needed to detect
+statistical tests that require fewer than 7.486×1010 MIP-years = 74.86 gigaMIPyears. With R = 333333 and N = 1013 the computation time needed to detect
 any statistical bias increases to 535 teraMIP-years.
 The simple pseudorandom generator 3.2.2–(16), which avoids the random
-mask Z, can also be shown to pass all polynomial-time tests for randomness if fac-
-toring is intractable. (See exercise 4.5.4–43.) But the known performance guar-
-antees for the simpler method are somewhat weaker than for muddle-square; cur-
-rently they are O
+mask Z, can also be shown to pass all polynomial-time tests for randomness if factoring is intractable. (See exercise 4.5.4–43.) But the known performance guarantees for the simpler method are somewhat weaker than for muddle-square; currently they are O
 
 N 4Rϵ−4 log(NRϵ−1)
 
 versus the O(N 2R2ϵ−2) of Theorem P.
 Everyone believes that there is no factoring algorithm for R-bit numbers
 whose running time is polynomial in R. If that conjecture is true in a stronger
-form, so that we cannot even factor 1/Rk of the R-bit Blum integers in poly-
-nomial time for any fixed k, Theorem P proves that the muddle-square method
+form, so that we cannot even factor 1/Rk of the R-bit Blum integers in polynomial time for any fixed k, Theorem P proves that the muddle-square method
 generates pseudorandom numbers that pass all polynomial-time statistical tests
 for randomness.
-Stating this another way: If you generate random bits with the muddle-
-square method for suitably chosen N and R, you either get numbers that pass
+Stating this another way: If you generate random bits with the muddlesquare method for suitably chosen N and R, you either get numbers that pass
 all reasonable statistical tests, or you get fame and fortune for discovering a new
 factorization algorithm.
 
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-177
+
 G. Summary, history, and bibliography. We have defined several degrees
 of randomness that a sequence might possess.
 An infinite sequence that is ∞-distributed satisfies a great many useful
-properties that are expected of random sequences, and there is a rich theory con-
-cerning ∞-distributed sequences. (The exercises below develop several important
-properties of such sequences that have not been mentioned in the text.) Defini-
-tion R1 is therefore an appropriate basis for theoretical studies of randomness.
+properties that are expected of random sequences, and there is a rich theory concerning ∞-distributed sequences. (The exercises below develop several important
+properties of such sequences that have not been mentioned in the text.) Definition R1 is therefore an appropriate basis for theoretical studies of randomness.
 The concept of an ∞-distributed b-ary sequence was introduced in 1909 by
 Emile Borel. He essentially defined the concept of an (m, k)-distributed sequence,
 and showed that the b-ary representations of almost all real numbers are (m, k)-
@@ -14100,15 +13569,13 @@ The notion of an ∞-distributed sequence of real numbers, also called a
 completely equidistributed sequence, first appeared in a note by N. M. Korobov
 in Doklady Akad. Nauk SSSR 62 (1948), 21–22. Korobov and several of his
 colleagues developed the theory of such sequences quite extensively in a series
-of papers during the 1950s. Completely equidistributed sequences were inde-
-pendently studied by Joel N. Franklin, Math. Comp. 17 (1963), 28–59, in a
+of papers during the 1950s. Completely equidistributed sequences were independently studied by Joel N. Franklin, Math. Comp. 17 (1963), 28–59, in a
 paper that is particularly noteworthy because it was inspired by the problem
 of random number generation. The book Uniform Distribution of Sequences by
 L. Kuipers and H. Niederreiter (New York: Wiley, 1974) is an extraordinarily
 complete source of information about the rich mathematical literature concerning
 k-distributed sequences of all kinds.
-We have seen, however, that ∞-distributed sequences need not be suffi-
-ciently haphazard to qualify completely as “random.” Three definitions, R4,
+We have seen, however, that ∞-distributed sequences need not be sufficiently haphazard to qualify completely as “random.” Three definitions, R4,
 R5, and R6, were formulated above to provide the additional conditions; and
 Definition R6, in particular, seems to be an appropriate way to define the concept
 of an infinite random sequence. It is a precise, quantitative statement that may
@@ -14117,8 +13584,7 @@ Historically, the development of these definitions was primarily influenced
 by the quest of R. von Mises for a good definition of “probability.” In Math.
 Zeitschrift 5 (1919), 52–99, von Mises proposed a definition similar in spirit
 to Definition R5, although stated too strongly (like our Definition R3) so that
-no sequences satisfying the conditions could possibly exist. Many people no-
-ticed this discrepancy, and A. H. Copeland [Amer. J. Math. 50 (1928), 535–
+no sequences satisfying the conditions could possibly exist. Many people noticed this discrepancy, and A. H. Copeland [Amer. J. Math. 50 (1928), 535–
 552] suggested weakening von Mises’s definition by substituting what he called
 “admissible numbers” (or Bernoulli sequences).
 These are equivalent to ∞-
@@ -14131,8 +13597,6 @@ In an important
 paper [Ergebnisse eines math. Kolloquiums 8 (Vienna: 1937), 38–72], Wald
 essentially proved Theorem W, although he made the erroneous assertion that
 
-
-178
 RANDOM NUMBERS
 3.5
 the sequence constructed by Algorithm W also satisfies the stronger condition
@@ -14145,11 +13609,9 @@ Wald’s theory to make his definitions completely rigorous.
 The extension to
 Definition R6 was due essentially to A. N. Kolmogorov [Sankhya A25 (1963),
 369–376], who proposed Definition Q2 for finite sequences at the same time.
-Another definition of randomness for finite sequences, somewhere “between” Def-
-initions Q1 and Q2, had been formulated many years earlier by A. S. Besicovitch
+Another definition of randomness for finite sequences, somewhere “between” Definitions Q1 and Q2, had been formulated many years earlier by A. S. Besicovitch
 [Math. Zeitschrift 39 (1934), 146–156].
-The publications of Church and Kolmogorov considered only binary se-
-quences for which Pr(Xn = 1) = p for a given probability p. Our discussion
+The publications of Church and Kolmogorov considered only binary sequences for which Pr(Xn = 1) = p for a given probability p. Our discussion
 in this section has been slightly more general, since a [0 . . 1) sequence essentially
 represents all p at once. The von Mises–Wald–Church definition has been refined
 in yet another interesting way by J. V. Howard, Zeitschr. für math. Logik und
@@ -14164,7 +13626,7 @@ to Algorithm W, such that
 Pr(Uf(n) ≥1
 2) −Pr(Uf(n) ≥1
 2) ≥1
-2
+
 for every R5-random sequence ⟨Un⟩produced by Algorithm W′ when it is given
 an infinite set of subsequence rules Rk.
 Although Definition R6 is intuitively much stronger than R4, it is apparently
@@ -14182,15 +13644,13 @@ The ideas can also be traced to R. J. Solomonoff,
 Information and Control 7 (1964), 1–22, 224–254; IEEE Trans. IT-24 (1978),
 422–432; J. Computer and System Sciences 55 (1997), 73–88.
 For a philosophical discussion of random sequences, see K. R. Popper, The
-Logic of Scientific Discovery (London, 1959), especially the interesting construc-
-tion on pages 162–163, which he first published in 1934.
+Logic of Scientific Discovery (London, 1959), especially the interesting construction on pages 162–163, which he first published in 1934.
 
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-179
-Further connections between random sequences and recursive function the-
-ory have been explored by D. W. Loveland, Trans. Amer. Math. Soc. 125
+
+Further connections between random sequences and recursive function theory have been explored by D. W. Loveland, Trans. Amer. Math. Soc. 125
 (1966), 497–510. See also C.-P. Schnorr [Zeitschr. Wahr. verw. Geb. 14 (1969),
 27–35], who found strong relations between random sequences and the “species
 of measure zero” defined by L. E. J. Brouwer in 1919. Schnorr’s subsequent
@@ -14236,8 +13696,6 @@ for any two statements S(n) and T(n), provided that at least three of the limits
 For example, if a sequence is 2-distributed, we would find that
 Pr(u1 ≤Un < v1 or u2 ≤Un+1 < v2) = v1 −u1 + v2 −u2 −(v1 −u1)(v2 −u2).
 
-
-180
 RANDOM NUMBERS
 3.5
 x
@@ -14266,8 +13724,7 @@ x 13. [HM27] Show that an ∞-distributed [0 . . 1) sequence passes the “gap t
 following sense: If 0 ≤α < β ≤1 and p = β −α, let f(0) = 0, and for n ≥1 let f(n)
 be the smallest integer m > f(n −1) such that α ≤Um < β; then
 Pr(f(n) −f(n −1) = k) = p(1 −p)k−1.
-14. [HM25] Show that an ∞-distributed sequence passes the “run test” in the follow-
-ing sense: If f(0) = 0 and if, for n ≥1, f(n) is the smallest integer m > f(n −1) such
+14. [HM25] Show that an ∞-distributed sequence passes the “run test” in the following sense: If f(0) = 0 and if, for n ≥1, f(n) is the smallest integer m > f(n −1) such
 that Um−1 > Um, then
 Pr(f(n) −f(n −1) = k) = 2k/(k + 1)! −2(k + 1)/(k + 2)!.
 x 15. [HM30] Show that an ∞-distributed sequence passes the “coupon-collector’s test”
@@ -14294,7 +13751,7 @@ weaker?)
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-181
+
 x 20. [HM36] (N. G. de Bruijn and P. Erdős.) The first n points of any [0 . . 1) sequence
 ⟨Un⟩with U0 = 0 divide the interval [0 . . 1) into n subintervals; let those subintervals
 have lengths l(1)
@@ -14385,7 +13842,7 @@ x 22. [HM30] (Hermann Weyl.) Show that the [0 . . 1) sequence ⟨Un⟩is k-distr
 and only if
 lim
 N→∞
-1
+
 N
 
 0≤n<N
@@ -14394,15 +13851,11 @@ for every set of integers c1, c2, . . . , ck not all zero.
 23. [M32] (a) Show that a [0 . . 1) sequence ⟨Un⟩is k-distributed if and only if all of
 the sequences ⟨(c1Un+c2Un+1+· · ·+ckUn+k−1) mod 1⟩are 1-distributed, whenever c1,
 c2, . . . , ck are integers not all zero. (b) Show that a b-ary sequence ⟨Xn⟩is k-distributed
-if and only if all of the sequences ⟨(c1Xn + c2Xn+1 + · · · + ckXn+k−1) mod b⟩are 1-
-distributed, whenever c1, c2, . . . , ck are integers with gcd(c1, . . . , ck) = 1.
-x 24. [M35] (J. G. van der Corput.) (a) Prove that the [0 . . 1) sequence ⟨Un⟩is equidis-
-tributed whenever the sequences ⟨(Un+k −Un) mod 1⟩are equidistributed for all k > 0.
+if and only if all of the sequences ⟨(c1Xn + c2Xn+1 + · · · + ckXn+k−1) mod b⟩are 1distributed, whenever c1, c2, . . . , ck are integers with gcd(c1, . . . , ck) = 1.
+x 24. [M35] (J. G. van der Corput.) (a) Prove that the [0 . . 1) sequence ⟨Un⟩is equidistributed whenever the sequences ⟨(Un+k −Un) mod 1⟩are equidistributed for all k > 0.
 (b) Consequently ⟨(αdnd + · · · + α1n + α0) mod 1⟩is equidistributed, when d > 0 and
 αd is irrational.
 
-
-182
 RANDOM NUMBERS
 3.5
 25. [HM20] A sequence is called a “white sequence” if all serial correlations are zero;
@@ -14411,7 +13864,7 @@ distributed sequence is white.) Show that if a [0 . . 1) sequence is equidistrib
 white if and only if
 lim
 n→∞
-1
+
 n
 
 0≤j<n
@@ -14433,8 +13886,7 @@ where G is the set
 Show that (a) V0, V1, . . . is equidistributed and white; (b) Pr(Vn > Vn+1) = 5
 8. (This
 points out the weakness of the serial correlation test.)
-27. [HM48] What is the highest possible value for Pr(Vn > Vn+1) in an equidistrib-
-uted, white sequence? (D. Coppersmith has constructed such a sequence achieving the
+27. [HM48] What is the highest possible value for Pr(Vn > Vn+1) in an equidistributed, white sequence? (D. Coppersmith has constructed such a sequence achieving the
 value 7
 8.)
 x 28. [HM21] Use the sequence (11) to construct a [0 . . 1) sequence that is 3-distributed,
@@ -14457,9 +13909,9 @@ k
 22k.
 (Therefore the inequality in the previous exercise is the best possible.)
 31. [M30] Show that [0 . . 1) sequences exist that satisfy Definition R5, yet νn/n ≥1
-2
+
 for all n > 0, where νn is the number of j < n for which Uj <
-1
+
 2. (This might be
 considered a nonrandom property of the sequence.)
 32. [M24] Given that ⟨Xn⟩is a “random” b-ary sequence according to Definition R5,
@@ -14478,14 +13930,13 @@ satisfying Definition R1.
 
 3.5
 WHAT IS A RANDOM SEQUENCE?
-183
+
 x 35. [HM35] (D. W. Loveland.) Show that if a binary sequence ⟨Xn⟩is R5-random,
 and if ⟨sn⟩is any computable sequence as in Definition R4, then Pr(Xsn = 1) ≥1
 2 and
 Pr(Xsn = 1) ≤1
 2.
-36. [HM30] Let ⟨Xn⟩be a binary sequence that is “random” according to Defini-
-tion R6. Show that the [0 . . 1) sequence ⟨Un⟩defined in binary notation by the scheme
+36. [HM30] Let ⟨Xn⟩be a binary sequence that is “random” according to Definition R6. Show that the [0 . . 1) sequence ⟨Un⟩defined in binary notation by the scheme
 U0 = (0.X0)2,
 U1 = (0.X1X2)2,
 U2 = (0.X3X4X5)2,
@@ -14511,7 +13962,7 @@ the existence of a suitable k without explaining how we could find k constructiv
 from A.
 Show that any algorithm A can be converted into an algorithm A′ with
 T(A′) ≤T(A) + O(N) that predicts BN from B1. . . BN−1 with probability at least
-1
+
 2 + (P(A, S) −P(A, $N))/N on any shift-symmetric N-source S.
 x 42. [M28] (Pairwise independence.)
 a) Let X1, . . . , Xn be random variables having mean value µ = E Xj and variance
@@ -14528,8 +13979,6 @@ as to find the factors of a random R-bit integer. Why then is Theorem P stated f
 random M instead of fixed M?
 x 44. [16] (I. J. Good.) Can a valid table of random digits contain just one misprint?
 
-
-184
 RANDOM NUMBERS
 3.6
 3.6. SUMMARY
@@ -14539,8 +13988,7 @@ and how to derive theoretical facts about them. Perhaps the main question in
 many readers’ minds will be, “What is the result of all this theory? What is
 a simple, virtuous generator that I can use in my programs in order to have a
 reliable source of random numbers?”
-The detailed investigations in this chapter suggest that the following proce-
-dure gives the simplest random number generator for the machine language of
+The detailed investigations in this chapter suggest that the following procedure gives the simplest random number generator for the machine language of
 most computers: At the beginning of the program, set an integer variable X to
 some value X0. This variable X is to be used only for the purpose of random
 number generation. Whenever a new random number is required by the program,
@@ -14585,14 +14033,13 @@ bill of health.
 
 3.6
 SUMMARY
-185
+
 v) The value of c is immaterial when a is a good multiplier, except that c must
 have no factor in common with m when m is the computer’s word size. Thus
 we may choose c = 1 or c = a. (People who use c = 0 together with m = 2e
 are sacrificing two bits of accuracy and half of the seed values just to save a
 few nanoseconds of running time; see exercise 3.2.1.2–9.)
-vi) The least significant (right-hand) digits of X are not very random, so de-
-cisions based on the number X should always be influenced primarily by
+vi) The least significant (right-hand) digits of X are not very random, so decisions based on the number X should always be influenced primarily by
 the most significant digits. It is generally best to think of X as a random
 fraction X/m between 0 and 1, that is, to visualize X with a radix point at
 its left, rather than to regard X as a random integer between 0 and m −1.
@@ -14635,8 +14082,6 @@ here X is type long, and X should be initialized to a nonzero seed value less
 than MM. Since MM is prime, the least-significant bits of X are just as random as
 the most-significant bits, so the precautions of (vi) no longer need to be taken.
 
-
-186
 RANDOM NUMBERS
 3.6
 If you need millions and millions of random numbers, you can combine that
@@ -14671,7 +14116,7 @@ must be at least 100; larger values like 1000 are recommended.
 #define KK 100
 /* the long lag */
 #define LL
-37
+
 /* the short lag */
 #define MM (1L<<30)
 /* the modulus */
@@ -14696,11 +14141,11 @@ place, by setting up suitable values of X0, . . . , X99. The following subroutin
 
 3.6
 SUMMARY
-187
+
 ran start(long seed) initializes the generator nicely when given any seed number
 between 0 and 230 −3 = 1,073,741,821 inclusive:
 #define TT
-70
+
 /* guaranteed separation between streams */
 #define is_odd(x)
 ((x)&1)
@@ -14740,8 +14185,7 @@ for (;j<KK;j++) ran_x[j-LL]=x[j];
 for (j=0;j<10;j++) ran_array(x,KK+KK-1);
 /* warm it up */
 }
-(This program incorporates improvements to the author’s original ran start rou-
-tine, recommended by Richard Brent and Pedro Gimeno in November 2001.)
+(This program incorporates improvements to the author’s original ran start routine, recommended by Richard Brent and Pedro Gimeno in November 2001.)
 The somewhat curious maneuverings of ran start are explained in exercise 9,
 which proves that the sequences of numbers generated from different starting
 seeds are independent of each other: Every block of 100 consecutive values Xn,
@@ -14756,8 +14200,6 @@ than one billion essentially disjoint batches of random numbers are provided by
 the single routines ran array and ran start. And if that is not enough, you can
 replace the program parameters 100 and 37 by other values from Table 3.2.2–1.
 
-
-188
 RANDOM NUMBERS
 3.6
 These C routines use the bitwise-and operation ‘&’ for efficiency, so they are
@@ -14810,7 +14252,7 @@ problem with a known answer, and discovered that supposedly super-quality
 
 3.6
 SUMMARY
-189
+
 modern random number generators gave wrong results in the fifth decimal place.
 By contrast, an old-fashioned run-of-the-mill linear congruential generator, X ←
 16807X mod (231 −1), worked fine. Perhaps further research will show that even
@@ -14822,8 +14264,7 @@ the answers of the program seriously; this will not only give an indication of
 the stability of the results, it also will guard against the danger of trusting in a
 generator with hidden deficiencies. (Every random number generator will fail in
 at least one application.)
-Excellent bibliographies of the pre-1972 literature on random number gen-
-eration have been compiled by Richard E. Nance and Claude Overstreet, Jr.,
+Excellent bibliographies of the pre-1972 literature on random number generation have been compiled by Richard E. Nance and Claude Overstreet, Jr.,
 Computing Reviews 13 (1972), 495–508, and by E. R. Sowey, International
 Stat. Review 40 (1972), 355–371. The period 1972–1984 is covered by Sowey
 in International Stat. Review 46 (1978), 89–102; J. Royal Stat. Soc. A149
@@ -14859,8 +14300,6 @@ anything. It can do whatever we know how to order it to perform.” Her statemen
 has been elaborated further by many philosophers. Discuss this topic, with random
 number generators in mind.
 
-
-190
 RANDOM NUMBERS
 3.6
 3. [32] (A dice game.) Write a program that simulates a roll of two dice, each of
@@ -14919,7 +14358,7 @@ money with right hand; go to door; go thru door; close door. CURTAIN.
 
 3.6
 SUMMARY
-191
+
 Saga #2. (The gun is in the right hand; the money is in the left hand; the glass is
 on the table; the bottle is on the table; the holster is on the robber; the sheriff’s gun
 is in the sheriff’s right hand; the sheriff’s holster is on the sheriff.)
@@ -14956,8 +14395,6 @@ how much that player had had to drink and on how often he had been nicked by a
 shot. The reader will be able to deduce further properties of the program by studying
 the sample scripts.
 
-
-192
 RANDOM NUMBERS
 3.6
 Of course, even the best scripts are rewritten before they are produced, and this
@@ -14997,14 +14434,12 @@ CU Sheriff. Writhing from shot.
 M/2 shot Sheriff staggering to table for a drink . . . falls dead.
 MS Robber leaves shack with money bags.*
 [Note: CU = “close up”, MS = “medium shot”, etc. The details above were kindly
-furnished to the author by Thomas H. Wolf, producer of the television show, who sug-
-gested the idea of a computer-written playlet in the first place, and also by Douglas T.
+furnished to the author by Thomas H. Wolf, producer of the television show, who suggested the idea of a computer-written playlet in the first place, and also by Douglas T.
 Ross and Harrison R. Morse who produced the computer program.]
 In the summer of 1952, Christopher Strachey had used the hardware random
 number generator of the Ferranti Mark I to compose the following letter:
 Honey Dear
-My sympathetic affection beautifully attracts your affectionate enthusi-
-asm.
+My sympathetic affection beautifully attracts your affectionate enthusiasm.
 You are my loving adoration:
 my breathless adoration.
 My fellow
@@ -15017,18 +14452,16 @@ M. U. C.
 Computers in the 64th edition of Pears Cyclopedia (London, 1955), 190–191.]
 *
 c⃝1962 by Columbia Broadcasting System, Inc. All Rights Reserved. Used by permission.
-For further information, see J. E. Pfeiffer, The Thinking Machine (New York: J. B. Lippin-
-cott, 1962).
+For further information, see J. E. Pfeiffer, The Thinking Machine (New York: J. B. Lippincott, 1962).
 
 
 3.6
 SUMMARY
-193
+
 The reader will undoubtedly have many ideas about how to teach a computer to
 do creative writing; and that is the point of this exercise.
 x
-6. [40] Look at the subroutine library of each computer installation in your organi-
-zation, and replace the random number generators by good ones. Try to avoid being
+6. [40] Look at the subroutine library of each computer installation in your organization, and replace the random number generators by good ones. Try to avoid being
 too shocked at what you find.
 x
 7. [M40] A programmer decided to encipher his files by using a linear congruential
@@ -15038,8 +14471,7 @@ and X0 secret.
 Show that this isn’t a very secure scheme, by devising a method that deduces the
 multiplier a and the first difference X1 −X0 in a reasonable amount of time, given only
 the values of ⌊Xn/216⌋for 0 ≤n < 150.
-8. [M15] Suggest a good way to test whether an implementation of linear congruen-
-tial generators is working properly.
+8. [M15] Suggest a good way to test whether an implementation of linear congruential generators is working properly.
 9. [HM32] Let X0, X1, . . . be the numbers produced by ran array after ran start
 has initialized the generation process with seed s, and consider the polynomials
 Pn(z) = Xn+62z99 + Xn+61z98 + · · · + Xnz37 + Xn+99z36 + · · · + Xn+64z + Xn+63.
@@ -15102,11 +14534,9 @@ for the sake of a few individuals.
 Most numerical analysts have no interest in arithmetic.
 — B. PARLETT (1979)
 The chief purpose of this chapter is to make a careful study of the four
-basic processes of arithmetic: addition, subtraction, multiplication, and divi-
-sion. Many people regard arithmetic as a trivial thing that children learn and
+basic processes of arithmetic: addition, subtraction, multiplication, and division. Many people regard arithmetic as a trivial thing that children learn and
 computers do, but we will see that arithmetic is a fascinating topic with many
-interesting facets. It is important to make a thorough study of efficient meth-
-ods for calculating with numbers, since arithmetic underlies so many computer
+interesting facets. It is important to make a thorough study of efficient methods for calculating with numbers, since arithmetic underlies so many computer
 applications.
 Arithmetic is, in fact, a lively subject that has played an important part in
 the history of the world, and it still is undergoing rapid development. In this
@@ -15115,12 +14545,10 @@ types of quantities, such as “floating point” numbers, extremely large numbe
 fractions (rational numbers), polynomials, and power series; and we will also
 discuss related topics such as radix conversion, factoring of numbers, and the
 evaluation of polynomials.
-194
-
 
 4.1
 POSITIONAL NUMBER SYSTEMS
-195
+
 4.1. POSITIONAL NUMBER SYSTEMS
 The way we do arithmetic is intimately related to the way we represent the
 numbers we deal with, so it is appropriate to begin our study of the subject with
@@ -15160,8 +14588,7 @@ The historical development of number representations is a fascinating story,
 since it parallels the development of civilization itself. We would be going far
 afield if we were to examine this history in minute detail, but it will be instructive
 to look at its main features here.
-The earliest forms of number representations, still found in primitive cul-
-tures, are generally based on groups of fingers, piles of stones, etc., usually with
+The earliest forms of number representations, still found in primitive cultures, are generally based on groups of fingers, piles of stones, etc., usually with
 special conventions about replacing a larger pile or group of, say, five or ten
 objects by one object of a special kind or in a special place. Such systems lead
 naturally to the earliest ways of representing numbers in written form, as in
@@ -15169,12 +14596,9 @@ the systems of Babylonian, Egyptian, Greek, Chinese, and Roman numerals;
 but such notations are comparatively inconvenient for performing arithmetic
 operations except in the simplest cases.
 
-
-196
 ARITHMETIC
 4.1
-During the twentieth century, historians of mathematics have made exten-
-sive studies of early cuneiform tablets found by archæologists in the Middle
+During the twentieth century, historians of mathematics have made extensive studies of early cuneiform tablets found by archæologists in the Middle
 East. These studies show that the Babylonian people actually had two distinct
 systems of number representation:
 The numbers used in everyday business
@@ -15188,7 +14612,7 @@ least as early as 1750 B.C. This notation was unique in that it was actually a
 floating point form of representation with exponents omitted; the proper scale
 factor or power of sixty was to be supplied by the context, so that, for example,
 the numbers 2, 120, 7200, and
-1
+
 30 were all written in an identical manner.
 The notation was especially convenient for multiplication and division, using
 auxiliary tables, since radix-point alignment had no effect on the answer. As
@@ -15207,8 +14631,7 @@ D. E. Knuth, CACM 15 (1972), 671–677; 19 (1976), 108.
 Fixed point positional notation was apparently first conceived by the Maya
 Indians in central America some 2000 years ago; their radix-20 system was highly
 developed, especially in connection with astronomical records and calendar dates.
-They began to use a written sign for zero about A.D. 200. But the Spanish con-
-querors destroyed nearly all of the Maya books on history and science, so we have
+They began to use a written sign for zero about A.D. 200. But the Spanish conquerors destroyed nearly all of the Maya books on history and science, so we have
 comparatively little knowledge about the degree of sophistication that native
 Americans had reached in arithmetic. Special-purpose multiplication tables have
 been found, but no examples of division are known. [See J. Eric S. Thompson,
@@ -15228,7 +14651,7 @@ it would be silly even to suggest that computing could be done better on “scra
 
 4.1
 POSITIONAL NUMBER SYSTEMS
-197
+
 paper.” At the same time Greek astronomers did make use of a sexagesimal
 positional notation for fractions, which they had learned from the Babylonians.
 Our decimal notation, which differs from the more ancient forms primarily
@@ -15254,8 +14677,7 @@ scholars generally wrote from left to right. A detailed account of the subsequen
 propagation of decimal numeration and arithmetic into all parts of Europe during
 the period 1200–1600 has been given by David Eugene Smith in his History of
 Mathematics 1 (Boston: Ginn and Co., 1923), Chapters 6 and 8.
-Decimal notation was applied at first only to integer numbers, not to frac-
-tions. Arabic astronomers, who required fractions in their star charts and other
+Decimal notation was applied at first only to integer numbers, not to fractions. Arabic astronomers, who required fractions in their star charts and other
 tables, continued to use the notation of Ptolemy (the famous Greek astronomer),
 a notation based on sexagesimal fractions. This system still survives today in
 our trigonometric units of degrees, minutes, and seconds, and also in our units
@@ -15278,50 +14700,28 @@ the first people to work with the equivalent of decimal fractions, although thei
 numeral system (lacking zero) was not originally a positional number system in
 the strict sense. Chinese units of weights and measures were decimal, so that
 
-
-198
 ARITHMETIC
 4.1
-Tsu Ch’ung-Chih (who died in A.D. 500 or 501) was able to express an approxi-
-mation to π in the following form:
+Tsu Ch’ung-Chih (who died in A.D. 500 or 501) was able to express an approximation to π in the following form:
 3 chang, 1 ch’in, 4 ts’un, 1 fen, 5 li, 9 hao, 2 miao, 7 hu.
 Here chang, . . . , hu are units of length; 1 hu (the diameter of a silk thread) equals
 1/10 miao, etc. The use of such decimal-like fractions was fairly widespread in
 China after about 1250.
-An embryonic form of truly positional decimal fractions appeared in a 10th-
-century arithmetic text, written in Damascus by an obscure mathematician
+An embryonic form of truly positional decimal fractions appeared in a 10thcentury arithmetic text, written in Damascus by an obscure mathematician
 named al-Uqli disi (“the Euclidean”).
 He occasionally marked the place of a
-decimal point, for example in connection with a problem about compound in-
-terest, the computation of 135 times (1.1)n for 1 ≤n ≤5. [See A. S. Saidan,
+decimal point, for example in connection with a problem about compound interest, the computation of 135 times (1.1)n for 1 ≤n ≤5. [See A. S. Saidan,
 The Arithmetic of al-Uqli disi (Dordrecht: D. Reidel, 1975), 110, 114, 343, 355,
 481–485.] But he did not develop the idea very fully, and his trick was soon
 forgotten. Al-Samaw’al of Baghdad and Baku, writing in 1172, understood that
 √
 10 = 3.162277 . . . , but he had no convenient way to write such approximations
-down. Several centuries passed before decimal fractions were reinvented by a Per-
-sian mathematician, al-Kashi , who died in 1429. Al-Kashi was a highly skillful
+down. Several centuries passed before decimal fractions were reinvented by a Persian mathematician, al-Kashi , who died in 1429. Al-Kashi was a highly skillful
 calculator, who gave the value of 2π as follows, correct to 16 decimal places:
 integer
 fractions
-0
-6
-2
-8
-3
-1
-8
-5
-3
-0
-7
-1
-7
-9
-5
-8
-6
-5
+
+
 This was by far the best approximation to π known until Ludolph van Ceulen
 laboriously calculated 35 decimal places during the period 1586–1610.
 Decimal fractions began to appear sporadically in Europe; for example, a
@@ -15335,21 +14735,19 @@ soon afterwards, made decimal fractions commonplace in Europe during the
 17th century. [For further remarks and references, see D. E. Smith, History of
 Mathematics 2 (1925), 228–247; V. J. Katz, A History of Mathematics (1993),
 225–228, 345–348; and G. Rosińska, Quart. J. Hist. Sci. Tech. 40 (1995), 17–32.]
-The binary system of notation has its own interesting history. Many prim-
-itive tribes in existence today are known to use a binary or “pair” system of
+The binary system of notation has its own interesting history. Many primitive tribes in existence today are known to use a binary or “pair” system of
 counting (making groups of two instead of five or ten), but they do not count in
 a true radix-2 system, since they do not treat powers of 2 in a special manner.
 See The Diffusion of Counting Practices by Abraham Seidenberg, Univ. of Calif.
 Publ. in Math. 3 (1960), 215–300, for interesting details about primitive number
 systems. Another “primitive” example of an essentially binary system is the
 conventional musical notation for expressing rhythms and durations of time.
-Nondecimal number systems were discussed in Europe during the seven-
-teenth century. For many years astronomers had occasionally used sexagesimal
+Nondecimal number systems were discussed in Europe during the seventeenth century. For many years astronomers had occasionally used sexagesimal
 
 
 4.1
 POSITIONAL NUMBER SYSTEMS
-199
+
 arithmetic both for the integer and the fractional parts of numbers, primarily
 when performing multiplication [see John Wallis, Treatise of Algebra (Oxford:
 1685), 18–22, 30]. The fact that any integer greater than 1 could serve as radix
@@ -15370,8 +14768,7 @@ Although decimal notation was almost exclusively used for arithmetic during
 that era, other systems of weights and measures were rarely if ever based on
 multiples of 10, and business transactions required a good deal of skill in adding
 quantities such as pounds, shillings, and pence. For centuries merchants had
-therefore learned to compute sums and differences of quantities expressed in pe-
-culiar units of currency, weights, and measures; thus they were doing arithmetic
+therefore learned to compute sums and differences of quantities expressed in peculiar units of currency, weights, and measures; thus they were doing arithmetic
 in nondecimal number systems. The common units of liquid measure in England,
 dating from the 13th century or earlier, are particularly noteworthy:
 2 gills = 1 chopin
@@ -15387,8 +14784,7 @@ dating from the 13th century or earlier, are particularly noteworthy:
 2 barrels = 1 hogshead
 2 hogsheads = 1 pipe
 2 pipes = 1 tun
-Quantities of liquid expressed in gallons, pottles, quarts, pints, etc. were essen-
-tially written in binary notation. Perhaps the true inventors of binary arithmetic
+Quantities of liquid expressed in gallons, pottles, quarts, pints, etc. were essentially written in binary notation. Perhaps the true inventors of binary arithmetic
 were British wine merchants!
 The first known appearance of pure binary notation was about 1605 in some
 unpublished manuscripts of Thomas Harriot (1560–1621). Harriot was a creative
@@ -15402,8 +14798,6 @@ Scientific Monthly 14 (1922), 60–66.
 The first published treatment of the binary system appeared in the work of
 a prominent Cistercian bishop, Juan Caramuel de Lobkowitz, Mathesis Biceps 1
 
-
-200
 ARITHMETIC
 4.1
 (Campaniæ: 1670), 45–48. Caramuel discussed the representation of numbers in
@@ -15414,8 +14808,7 @@ Sciences (Paris, 1703), 110–116], which illustrated binary addition, subtracti
 multiplication, and division, really brought binary notation into the limelight,
 and his article is usually referred to as the birth of radix-2 arithmetic. Leibniz
 later referred to the binary system quite frequently. He did not recommend it for
-practical calculations, but he stressed its importance in number-theoretical inves-
-tigations, since patterns in number sequences are often more apparent in binary
+practical calculations, but he stressed its importance in number-theoretical investigations, since patterns in number sequences are often more apparent in binary
 notation than they are in decimal; he also saw a mystical significance in the fact
 that everything is expressible in terms of zero and one. Leibniz’s unpublished
 manuscripts show that he had been interested in binary notation as early as
@@ -15457,7 +14850,7 @@ Magazine 15 (1745), 377–379; H. R. Phalen, AMM 56 (1949), 461–465].
 
 4.1
 POSITIONAL NUMBER SYSTEMS
-201
+
 More than a century later, a prominent Swedish-American civil engineer
 named John W. Nystrom decided to carry Charles XII’s plans a step further,
 by devising a complete system of numeration, weights, and measures based on
@@ -15487,8 +14880,7 @@ The book History of Binary and Other Nondecimal Numeration by Anton
 Glaser (Los Angeles: Tomash, 1981) contains an informative and nearly complete
 discussion of the development of binary notation, including English translations
 of many of the works cited above [see Historia Math. 10 (1983), 236–243].
-Much of the recent history of number systems is connected with the develop-
-ment of calculating machines. Charles Babbage’s notebooks for 1838 show that
+Much of the recent history of number systems is connected with the development of calculating machines. Charles Babbage’s notebooks for 1838 show that
 he considered using nondecimal numbers in his Analytical Engine [see M. V.
 Wilkes, Historia Math. 4 (1977), 421]. Increased interest in mechanical devices
 for arithmetic, especially for multiplication, led several people in the 1930s to
@@ -15504,8 +14896,6 @@ a radix-8 number system was properly referred to as “octonary” or “octonal
 according to all dictionaries of the English language at that time, just as the
 radix-10 number system is properly called either “denary” or “decimal”; the
 
-
-202
 ARITHMETIC
 4.1
 word “octal” did not appear in English language dictionaries until 1961, and it
@@ -15524,8 +14914,7 @@ A136 (1932), 312–324]. Electromechanical and electronic circuitry for general
 arithmetic operations was developed during the late 1930s, notably by John V.
 Atanasoff and George R. Stibitz in the U.S.A., L. Couffignal and R. Valtat in
 France, Helmut Schreyer and Konrad Zuse in Germany. All of these inventors
-used the binary system, although Stibitz later developed excess-3 binary-coded-
-decimal notation. A fascinating account of these early developments, including
+used the binary system, although Stibitz later developed excess-3 binary-codeddecimal notation. A fascinating account of these early developments, including
 reprints and translations of important contemporary documents, appears in
 Brian Randell’s book The Origins of Digital Computers (Berlin: Springer, 1973).
 The first American high-speed computers, built in the early 1940s, used
@@ -15540,8 +14929,7 @@ and disadvantages of radix-2 notation was given by W. Buchholz in his paper
 The MIX computer used in this book has been defined so that it can be
 either binary or decimal. It is interesting to note that nearly all MIX programs
 can be expressed without knowing whether binary or decimal notation is being
-used — even when we are doing calculations involving multiple-precision arith-
-metic.
+used — even when we are doing calculations involving multiple-precision arithmetic.
 Thus we find that the choice of radix does not significantly influence
 computer programming. (Noteworthy exceptions to this statement, however, are
 the “Boolean” algorithms discussed in Section 7.1; see also Algorithm 4.5.2B.)
@@ -15558,7 +14946,7 @@ potential disadvantage is that minus zero and plus zero can both be represented,
 
 4.1
 POSITIONAL NUMBER SYSTEMS
-203
+
 while they usually should mean the same number; this possibility requires some
 care in practice, although it turns out to be useful at times.
 Most mechanical calculators that do decimal arithmetic use another system
@@ -15573,11 +14961,9 @@ leading digit is 5, 6, 7, 8, or 9 as a negative value in this notation, although
 with respect to addition and subtraction there is no harm in regarding (3) as
 the number +87654 32110 if it is convenient to do so. Notice that there is no
 problem of minus zero in such a system.
-The major difference between signed magnitude and ten’s complement no-
-tations in practice is that shifting right does not divide the magnitude by ten;
+The major difference between signed magnitude and ten’s complement notations in practice is that shifting right does not divide the magnitude by ten;
 for example, the number −11 = . . . 99989, shifted right one, gives . . . 99998 = −2
-(assuming that a shift to the right inserts “9” as the leading digit when the num-
-ber shifted is negative). In general, x shifted right one digit in ten’s complement
+(assuming that a shift to the right inserts “9” as the leading digit when the number shifted is negative). In general, x shifted right one digit in ten’s complement
 notation will give ⌊x/10⌋, whether x is positive or negative.
 A possible disadvantage of the ten’s complement system is the fact that
 it is not symmetric about zero; the p-digit negative number 500 . . . 0 is not the
@@ -15606,8 +14992,6 @@ are discussed in the accompanying text when it is important to do so.
 Detail-oriented readers and copy editors should notice the position of the
 apostrophe in terms like “two’s complement” and “ones’ complement”: A two’s
 
-
-204
 ARITHMETIC
 4.1
 complement number is complemented with respect to a single power of 2, while
@@ -15637,7 +15021,7 @@ have numbers in base (−10), so that
 = · · · + a3(−10)3 + a2(−10)2 + a1(−10)1 + a0 + · · ·
 = · · · −1000a3 + 100a2 −10a1 + a0 −1
 10a−1 +
-1
+
 100a−2 −· · · .
 Here the individual digits satisfy 0 ≤ak ≤9 just as in the decimal system. The
 number 12345 67890 appears in the “negadecimal” system as
@@ -15654,13 +15038,12 @@ di Matematiche di Battaglini 23 (1885), 203–221, 367], who explained how to
 perform the four arithmetic operations in such systems; Grünwald also discussed
 root extraction, divisibility tests, and radix conversion. However, his work seems
 to have had no effect on other research, since it was published in a rather
-obscure journal, and it was soon forgotten. The next publication about negative-
-base systems was apparently by A. J. Kempner [AMM 43 (1936), 610–617],
+obscure journal, and it was soon forgotten. The next publication about negativebase systems was apparently by A. J. Kempner [AMM 43 (1936), 610–617],
 
 
 4.1
 POSITIONAL NUMBER SYSTEMS
-205
+
 who discussed the properties of noninteger radices and remarked in a footnote
 that negative radices would be feasible too. After twenty more years the idea
 was rediscovered again, this time by Z. Pawlak and A. Wakulicz [Bulletin de
@@ -15669,8 +15052,7 @@ sciences techniques 7 (1959), 713–721], and also by L. Wadel [IRE Transactions
 EC-6 (1957), 123]. Experimental computers called SKRZAT 1 and BINEG, which
 used −2 as the radix of arithmetic, were built in Poland in the late 1950s;
 see N. M. Blachman, CACM 4 (1961), 257; R. W. Marczyński, Ann. Hist.
-Computing 2 (1980), 37–48. For further references see IEEE Transactions EC-
-12 (1963), 274–277; Computer Design 6 (May 1967), 52–63. There is evidence
+Computing 2 (1980), 37–48. For further references see IEEE Transactions EC12 (1963), 274–277; Computer Design 6 (May 1967), 52–63. There is evidence
 that the idea of negative bases occurred independently to quite a few people. For
 example, D. E. Knuth had discussed negative-radix systems in 1955, together
 with a further generalization to complex-valued bases, in a short paper submitted
@@ -15716,133 +15098,74 @@ itself. Vittorio Grünwald proposed using the digits 0 and 1/
 positions, to avoid such a problem; but that actually spoils the whole system [see
 Commentari dell’Ateneo di Brescia (1886), 43–54].
 
-
-206
 ARITHMETIC
 4.1
-99
-99
-99
-99
+
+
 99999999
 99999999
-99
-9999
-99
-99
-9999
-99
+
+
 99999999
 99999999
 99999999
 99999999
 99999999
 99999999
-99
-9999
-99
-99
-9999
-99
+
+
 99999999
 99999999
-99
-99
-99
-99
-99
-99
-99
-99
+
+
 99999999
 99999999
-99
-99
-9
-99
-99
-99
-99
-99
-99
-99
-99
-99
-99
-99
+
+
 99999999
 99999999
-99
-9999
-99
-99
-9999
-99
+
+
 99999999
 99999999
-99
-99
-99
-99
-99
-9
-99
-9999
-99
-9999
-99
-99
-99
-67
-67
-27
-27
+
+
 66402641
 00000027
-41
-0001
-67
-27
-0027
-27
+
+
 40002641
 00000027
-67
-67
+
+
 66400001
-27
-27
+
+
 00000027
 6640264026400001
 0000000000000027
-41
+
 000000000001
-67
-27
+
+
 000000000027
-27
+
 4000000000002641
 0000000000000027
 66400001
-01
-01
+
+
 00000027
-27
-27
+
+
 66400001
 00000027
-41
-0001
-67
-27
-0027
-27
+
+
 40002641
 00000027
-41
-01
-27
-27
+
+
 r
 −1+i
 r
@@ -15873,14 +15196,14 @@ k≥1ak(i −1)−k, for an infinite sequence a1, a2, a3, . . . of zeros and one
 also known as the “twindragon fractal” [see M. F. Barnsley, Fractals Everywhere,
 second edition (Academic Press, 1993), 306, 310]. Figure 1 shows that S can be
 decomposed into 256 pieces congruent to
-1
+
 16S. Notice that if the diagram of S
 is rotated counterclockwise by 135◦, we obtain two adjacent sets congruent to
 
 
 4.1
 POSITIONAL NUMBER SYSTEMS
-207
+
 (1/
 √
 2) S, because (i −1)S = S ∪(S + 1). For details of a proof that S contains
@@ -15892,18 +15215,18 @@ following examples of balanced ternary numbers:
 Balanced ternary
 Decimal
 1 0 1
-8
+
 1 1 1 0.1 1
 32 5
-9
+
 1 1 1 0.1 1
 −32 5
-9
+
 1 1 1 0
 −33
 0.1 1 1 1 1 . . .
-1
-2
+
+
 One way to find the representation of a number in the balanced ternary
 system is to start by representing it in ordinary ternary notation; for example,
 208.3 = (21201.022002200220 . . . )3.
@@ -15928,53 +15251,35 @@ Addition in the balanced ternary system is quite simple, using the table
 1 1 1
 1 1
 1 1 0 0 0 0 0 0 0 0 0
-1
-1
-1
-1
-1
-1
-1
-1
-1
+
+
 1 1
 1 0 0 0 1 1
-1
+
 1 1 1 0 0 0 1 1 1
-1
+
 1 1
-0
-0
-0
-1
-1
-1
-1
-0
+
+
 1 1 0 1 1 0 1
 1 0 1 1 0 1 1 0 1 1
-0
-1
-1
-0
+
+
 1 1
-0
-1
+
+
 10 11
 1 11 1 0
 1 0 1 11
 1 0
 1 0 1 0 1 11 1
-0
-1
-0
+
+
 1 11
 1 11 10
 (The three inputs to the addition are the digits of the numbers to be added and
 the carry digit.) Subtraction is negation followed by addition. Multiplication
 
-
-208
 ARITHMETIC
 4.1
 also reduces to negation and addition, as in the following example:
@@ -15990,34 +15295,26 @@ also reduces to negation and addition, as in the following example:
 Representation of numbers in the balanced ternary system is implicitly
 present in a famous mathematical puzzle, commonly called “Bachet’s problem
 of weights” — although it was already stated by Fibonacci four centuries before
-Bachet wrote his book, and by Tabari in Persia more than 100 years before Fi-
-bonacci. [See W. Ahrens, Mathematische Unterhaltungen und Spiele 1 (Leipzig:
+Bachet wrote his book, and by Tabari in Persia more than 100 years before Fibonacci. [See W. Ahrens, Mathematische Unterhaltungen und Spiele 1 (Leipzig:
 Teubner, 1910), Section 3.4; H. Hermelink, Janus 65 (1978), 105–117.] Positional
 number systems with negative digits were invented by J. Colson [Philos. Trans.
 34 (1726), 161–173], then forgotten and rediscovered about 100 years later by Sir
 John Leslie [The Philosophy of Arithmetic (Edinburgh: 1817); see pages 33–34,
 54, 64–65, 117, 150], and by A. Cauchy [Comptes Rendus Acad. Sci. 11 (Paris,
 1840), 789–798]. Cauchy pointed out that negative digits make it unnecessary for
-a person to memorize the multiplication table past 5×5. A claim that such num-
-ber systems were known in India long ago [J. Bharati, Vedic Mathematics (Delhi:
+a person to memorize the multiplication table past 5×5. A claim that such number systems were known in India long ago [J. Bharati, Vedic Mathematics (Delhi:
 Motilal Banarsidass, 1965)] has been refuted by K. S. Shukla [Mathematical
 Education 5, 3 (1989), 129–133]. The first true appearance of “pure” balanced
 ternary notation was in an article by Léon Lalanne [Comptes Rendus Acad.
 Sci. 11 (Paris, 1840), 903–905], who was a designer of mechanical devices for
 arithmetic. Thomas Fowler independently invented and constructed a balanced
 ternary calculator at about the same time [see Report British Assoc. Adv. Sci.
-10 (1840), 55; 11 (1841), 39–40]. The balanced ternary number system was men-
-tioned only rarely for the next 100 years, until the development of the first elec-
-tronic computers at the Moore School of Electrical Engineering in 1945–1946; at
-that time it was given serious consideration as a possible replacement for the dec-
-imal system. The complexity of arithmetic circuitry for balanced ternary arith-
-metic is not much greater than it is for the binary system, and a given number
-requires only ln 2/ ln 3 ≈63% as many digit positions for its representation. Dis-
-cussions of the balanced ternary system appear in AMM 57 (1950), 90–93, and
+10 (1840), 55; 11 (1841), 39–40]. The balanced ternary number system was mentioned only rarely for the next 100 years, until the development of the first electronic computers at the Moore School of Electrical Engineering in 1945–1946; at
+that time it was given serious consideration as a possible replacement for the decimal system. The complexity of arithmetic circuitry for balanced ternary arithmetic is not much greater than it is for the binary system, and a given number
+requires only ln 2/ ln 3 ≈63% as many digit positions for its representation. Discussions of the balanced ternary system appear in AMM 57 (1950), 90–93, and
 in High-speed Computing Devices, Engineering Research Associates (McGraw–
 Hill, 1950), 287–289. The experimental Russian computer SETUN was based on
-balanced ternary notation [see CACM 3 (1960), 149–150], and perhaps the sym-
-metric properties and simple arithmetic of this number system will prove to be
+balanced ternary notation [see CACM 3 (1960), 149–150], and perhaps the symmetric properties and simple arithmetic of this number system will prove to be
 quite important someday — when the “flip-flop” is replaced by a “flip-flap-flop.”
 Positional notation generalizes in another important way to a mixed-radix
 system. Given a sequence of numbers ⟨bn⟩(where n may be negative), we define
@@ -16028,7 +15325,7 @@ system. Given a sequence of numbers ⟨bn⟩(where n may be negative), we define
 
 4.1
 POSITIONAL NUMBER SYSTEMS
-209
+
 = · · · + a3b2b1b0 + a2b1b0 + a1b0 + a0 + a−1/b−1 + a−2/b−1b−2 + · · · .
 (9)
 In the simplest mixed-radix systems, we work only with integers; we let b0, b1,
@@ -16045,7 +15342,7 @@ of measure. For example, the quantity “3 weeks, 2 days, 9 hours, 22 minutes, 5
 seconds, and 492 milliseconds” is equal to
 3, 2,
 9, 22, 57;
-492
+
 7, 24, 60, 60; 1000
 
 seconds.
@@ -16056,25 +15353,22 @@ to
 20,
 3;
 12;
-1
-2
+
+
 
 pence in British currency, before Great Britain changed to a
 purely decimal monetary system.
-It is possible to add and subtract mixed-radix numbers by using a straight-
-forward generalization of the usual addition and subtraction algorithms, provided
+It is possible to add and subtract mixed-radix numbers by using a straightforward generalization of the usual addition and subtraction algorithms, provided
 of course that the same mixed-radix system is being used for both operands
 (see exercise 4.3.1–9). Similarly, we can easily multiply or divide a mixed-radix
-number by small integer constants, using simple extensions of the familiar pencil-
-and-paper methods.
+number by small integer constants, using simple extensions of the familiar penciland-paper methods.
 Mixed-radix systems were first discussed in full generality by Georg Cantor
 [Zeitschrift für Math. und Physik 14 (1869), 121–128]. Exercises 26 and 29 give
 further information about them.
 Several questions concerning irrational radices have been investigated by
 W. Parry, Acta Math. Acad. Sci. Hung. 11 (1960), 401–416.
 Besides the systems described in this section, several other ways to represent
-numbers are mentioned elsewhere in this series of books: the combinatorial num-
-ber system (exercise 1.2.6–56); the Fibonacci number system (exercises 1.2.8–34,
+numbers are mentioned elsewhere in this series of books: the combinatorial number system (exercise 1.2.6–56); the Fibonacci number system (exercises 1.2.8–34,
 5.4.2–10); the phi number system (exercise 1.2.8–35); modular representations
 (Section 4.3.2); Gray code (Section 7.2.1); and Roman numerals (Section 9.1).
 EXERCISES
@@ -16082,15 +15376,13 @@ EXERCISES
 x
 2. [24] Consider the following four number systems: (a) binary (signed magnitude);
 (b) negabinary (radix −2); (c) balanced ternary; and (d) radix b =
-1
+
 10. Use each of
 these four number systems to express each of the following three numbers: (i) −49;
 (ii) −3 1
 7 (show the repeating cycle); (iii) π (to a few significant figures).
 3. [20] Express −49 + i in the quater-imaginary system.
 
-
-210
 ARITHMETIC
 4.1
 4. [15] Assume that we have a MIX program in which location A contains a number
@@ -16102,8 +15394,7 @@ MUL B
 (b) LDA A;
 SRAX 5;
 DIV B
-5. [00] Explain why a negative integer in nines’ complement notation has a represen-
-tation in ten’s complement notation that is always one greater, if the representations
+5. [00] Explain why a negative integer in nines’ complement notation has a representation in ten’s complement notation that is always one greater, if the representations
 are regarded as positive.
 6. [16] What are the largest and smallest p-bit integers that can be represented
 in (a) signed magnitude binary notation (including one bit for the sign), (b) two’s
@@ -16114,8 +15405,7 @@ real numbers, having “infinite precision,” analogous to the text’s definit
 similar way to define a nines’ complement notation for all real numbers?
 8. [M10] Prove Eq. (5).
 x
-9. [15] Change the following octal numbers to hexadecimal notation, using the hexa-
-decimal digits 0, 1, . . . , 9, A, B, C, D, E, F: 12; 5655; 2550276; 76545336; 3726755.
+9. [15] Change the following octal numbers to hexadecimal notation, using the hexadecimal digits 0, 1, . . . , 9, A, B, C, D, E, F: 12; 5655; 2550276; 76545336; 3726755.
 10. [M22] Generalize Eq. (5) to mixed-radix notation as in (9).
 11. [22] Design an algorithm that uses the −2 number system to compute the sum
 of (an . . . a1a0)−2 and (bn . . . b1b0)−2, obtaining the answer (cn+2 . . . c1c0)−2.
@@ -16136,8 +15426,7 @@ to Fig. 1, for the negative decimal and for the quater-imaginary number systems?
 base, instead of the similar but intuitively simpler number i + 1. Can every complex
 number a+bi, where a and b are integers, be represented in a positional number system
 to base i + 1, using only the digits 0 and 1?
-18. [HM32] Show that the twindragon of Fig. 1 is a closed set that contains a neighbor-
-hood of the origin. (Consequently, every complex number has a binary representation
+18. [HM32] Show that the twindragon of Fig. 1 is a closed set that contains a neighborhood of the origin. (Consequently, every complex number has a binary representation
 with radix i −1.)
 x 19. [23] (David W. Matula.) Let D be a set of b integers, containing exactly one
 solution to the congruence x ≡j (modulo b) for 0 ≤j < b. Prove that all integers m
@@ -16147,7 +15436,7 @@ the aj are in D, if and only if all integers in the range l ≤m ≤u can be so 
 
 4.1
 POSITIONAL NUMBER SYSTEMS
-211
+
 where l = −max{a | a ∈D}/(b −1) and u = −min{a | a ∈D}/(b −1). For example,
 D = {−1, 0, . . . , b −2} satisfies the conditions for all b ≥3. [Hint: Design an algorithm
 that constructs a suitable representation.]
@@ -16157,8 +15446,7 @@ The result of
 exercise 19 implies (as in exercise 18) that all real numbers have an infinite decimal
 expansion using digits from D.
 In the usual decimal system, exercise 13 points out that some numbers have two
-representations. (a) Find a real number that has more than two D-decimal represen-
-tations. (b) Show that no real number has infinitely many D-decimal representations.
+representations. (a) Find a real number that has more than two D-decimal representations. (b) Show that no real number has infinitely many D-decimal representations.
 (c) Show that uncountably many numbers have two or more D-decimal representations.
 x 21. [M22] (C. E. Shannon.)
 Can every real number (positive, negative, or zero)
@@ -16221,15 +15509,12 @@ k≤n
 ckβk
 for all n.
 
-
-212
 ARITHMETIC
 4.1
 (Consequently, the mixed-radix systems with integer bases all have this property; and
 mixed-radix systems with β1 = (c0 +1)β0, β2 = (c1 +1)(c0 +1)β0, . . . , β−1 = β0/(c−1 +
 1), . . . are the most general number systems of this type.)
-27. [M21] Show that every nonzero integer has a unique “reversing binary representa-
-tion”
+27. [M21] Show that every nonzero integer has a unique “reversing binary representation”
 2e0 −2e1 + · · · + (−1)t2et,
 where e0 < e1 < · · · < et.
 x 28. [M24] Show that every nonzero complex number of the form a + bi where a and b
@@ -16279,7 +15564,7 @@ and find the representation of n = 1.
 
 4.1
 POSITIONAL NUMBER SYSTEMS
-213
+
 x 31. [M35] A generalization of two’s complement arithmetic, called “2-adic numbers,”
 was introduced by K. Hensel in Crelle 127 (1904), 51–84. (In fact he treated p-adic
 numbers, for any prime p.) A 2-adic number may be regarded as a binary number
@@ -16290,29 +15575,28 @@ numbers are done according to the ordinary procedures of arithmetic, which can i
 principle be extended indefinitely to the left. For example,
 7 = ( . . . 000000000000111)2
 −7 = ( . . . 111111111111001)2
-7
+
 4 = ( . . . 000000000000001.11)2
-1
+
 7 = ( . . . 110110110110111)2
 −1
 7 = ( . . . 001001001001001)2
-1
+
 10 = ( . . . 110011001100110.1)2
 √
 −7 = ( . . . 100000010110101)2
 or
 ( . . . 011111101001011)2.
-Here 7 appears as the ordinary binary integer seven, while −7 is its two’s comple-
-ment (extending infinitely to the left); it is easy to verify that the ordinary procedure
+Here 7 appears as the ordinary binary integer seven, while −7 is its two’s complement (extending infinitely to the left); it is easy to verify that the ordinary procedure
 for addition of binary numbers will give −7+7 = ( . . . 00000)2 = 0, when the procedure
 is continued indefinitely. The values of 1
 7 and −1
 7 are the unique 2-adic numbers that,
 when formally multiplied by 7, give 1 and −1, respectively. The values of
-7
+
 4 and
-1
-10
+
+
 are examples of 2-adic numbers that are not 2-adic “integers,” since they have nonzero
 bits to the right of the binary point. The two values of √−7, which are negatives of
 each other, are the only 2-adic numbers that, when formally squared, yield the value
@@ -16330,8 +15614,7 @@ u = m/n, for some integers m and n).
 d) Prove that, when n is an integer, √n is a 2-adic number if and only if it satisfies
 n mod 22k+3 = 22k for some nonnegative integer k. (Thus, the possibilities are
 either n mod 8 = 1, or n mod 32 = 4, etc.)
-32. [M40] (I. Z. Ruzsa.) Construct infinitely many integers whose ternary represen-
-tation uses only 0s and 1s and whose quinary representation uses only 0s, 1s, and 2s.
+32. [M40] (I. Z. Ruzsa.) Construct infinitely many integers whose ternary representation uses only 0s and 1s and whose quinary representation uses only 0s, 1s, and 2s.
 33. [M40] (D. A. Klarner.) Let D be any set of integers, let b be any positive integer,
 and let kn be the number of distinct integers that can be written as n-digit numbers
 (an−1 . . . a1a0)b to base b with digits ai in D. Prove that the sequence ⟨kn⟩satisfies
@@ -16343,8 +15626,6 @@ the case b = 3 and D = {−1, 0, 3}.
 x 34. [22] (G. W. Reitwiesner, 1960.) Explain how to represent a given integer n in the
 form ( . . . a2a1a0)2, where each aj is −1, 0, or 1, using the fewest nonzero digits.
 
-
-214
 ARITHMETIC
 4.2
 4.2. FLOATING POINT ARITHMETIC
@@ -16354,9 +15635,7 @@ calculations. Perhaps many readers will have little interest in this subject, si
 their computers either have built-in floating point instructions or their operating
 systems include suitable subroutines. But, in fact, the material of this section
 should not merely be the concern of computer-design engineers or of a small
-clique of people who write library subroutines for new machines; every well-
-rounded programmer ought to have a knowledge of what goes on during the ele-
-mentary steps of floating point arithmetic. This subject is not at all as trivial as
+clique of people who write library subroutines for new machines; every wellrounded programmer ought to have a knowledge of what goes on during the elementary steps of floating point arithmetic. This subject is not at all as trivial as
 most people think, and it involves a surprising amount of interesting information.
 4.2.1. Single-Precision Calculations
 A. Floating point notation. We have discussed “fixed point” notation for
@@ -16398,7 +15677,7 @@ mantissa means “a worthless addition.”)
 
 4.2.1
 SINGLE-PRECISION CALCULATIONS
-215
+
 The MIX computer assumes that its floating point numbers have the form
 ±
 e
@@ -16433,9 +15712,7 @@ in Section 4.2.2.)
 Let us now study the normalized floating point operations in detail. At the
 same time we can consider the construction of subroutines for these operations,
 assuming that we have a computer without built-in floating point hardware.
-Machine-language subroutines for floating point arithmetic are usually writ-
-ten in a very machine-dependent manner, using many of the wildest idiosyn-
-crasies of the computer at hand. Therefore floating point addition subroutines
+Machine-language subroutines for floating point arithmetic are usually written in a very machine-dependent manner, using many of the wildest idiosyncrasies of the computer at hand. Therefore floating point addition subroutines
 for two different machines usually bear little superficial resemblance to each
 other. Yet a careful study of numerous subroutines for both binary and decimal
 computers reveals that these programs actually have quite a lot in common, and
@@ -16453,8 +15730,6 @@ Since floating point arithmetic is inherently approximate, not exact, we will us
 to stand for floating point addition, subtraction, multiplication, and division,
 respectively, in order to distinguish approximate operations from the true ones.
 
-
-216
 ARITHMETIC
 4.2.1
 A1. Unpack
@@ -16472,8 +15747,7 @@ radix points for a meaningful addition), and normalize the result. But several
 situations can arise that make this process nontrivial, and the following algorithm
 explains the method more precisely.
 Algorithm A (Floating point addition).
-Given base b, excess q, p-digit, nor-
-malized floating point numbers u = (eu, fu) and v = (ev, fv), this algorithm
+Given base b, excess q, p-digit, normalized floating point numbers u = (eu, fu) and v = (ev, fv), this algorithm
 forms the sum w = u ⊕v. The same procedure may be used for floating point
 subtraction, if −v is substituted for v.
 A1. [Unpack.] Separate the exponent and fraction parts of the representations
@@ -16496,7 +15770,7 @@ A6. [Add.] Set fw ←fu + fv.
 
 4.2.1
 SINGLE-PRECISION CALCULATIONS
-217
+
 f = 0
 |f| ≥1
 Yes
@@ -16536,15 +15810,12 @@ in Section 4.2.2.) It is important to note that this rounding operation can
 make |f| = 1 (“rounding overflow”); in such a case, return to step N4.
 N6. [Check e.]
 If e is too large, that is, greater than its allowed range, an
-exponent overflow condition is sensed. If e is too small, an exponent under-
-flow condition is sensed. (See the discussion below; since the result cannot
+exponent overflow condition is sensed. If e is too small, an exponent underflow condition is sensed. (See the discussion below; since the result cannot
 be expressed as a normalized floating point number in the required range,
 special action is necessary.)
 N7. [Pack.] Put e and f together into the desired output representation.
 Some simple examples of floating point addition are given in exercise 4.
 
-
-218
 ARITHMETIC
 4.2.1
 The following MIX subroutines, for addition and subtraction of numbers
@@ -16572,290 +15843,290 @@ subroutine that prints out a message to the effect that MIX’s overflow toggle
 was unexpectedly found to be on. The byte size b is assumed to be a multiple
 of 4. The normalization routine NORM assumes that rI2 = e and rAX = f, where
 rA = 0 implies rX = 0 and rI2 < b.
-00
+
 BYTE
 EQU
 1(4:4)
 Byte size b
-01
+
 EXP
 EQU
 1:1
 Definition of exponent field
-02
+
 FSUB
 STA
 TEMP
 Floating point subtraction subroutine:
-03
+
 LDAN TEMP
 Change sign of operand.
-04
+
 FADD
 STJ
 EXITF
 Floating point addition subroutine:
-05
+
 JOV
 OFLO
 Ensure that overflow is off.
-06
+
 STA
 TEMP
 TEMP ←v.
-07
+
 LDX
 ACC
 rX ←u.
-08
+
 CMPA ACC(EXP)
 Steps A1, A2, A3 are combined here:
-09
+
 JGE
 1F
 Jump if ev ≥eu.
-10
+
 STX
 FU(0:4)
 FU ←± f f f f 0.
-11
+
 LD2
 ACC(EXP)
 rI2 ←ew.
-12
+
 STA
 FV(0:4)
-13
+
 LD1N TEMP(EXP)
 rI1 ←−ev.
-14
+
 JMP
 4F
-15
+
 1H
 STA
 FU(0:4)
 FU ←± f f f f 0 (u, v interchanged).
-16
+
 LD2
 TEMP(EXP)
 rI2 ←ew.
-17
+
 STX
 FV(0:4)
-18
+
 LD1N ACC(EXP)
 rI1 ←−ev.
-19
+
 4H
 INC1 0,2
 rI1 ←eu −ev. (Step A4 unnecessary.)
-20
+
 5H
 LDA
 FV
 A5. Scale right.
-21
+
 ENTX 0
 Clear rX.
-22
+
 SRAX 0,1
 Shift right eu −ev places.
-23
+
 6H
 ADD
 FU
 A6. Add.
-24
+
 JOV
 N4
 A7. Normalize. Jump if fraction overflow.
-25
+
 JXZ
 NORM
 Easy case?
-26
+
 LD1
 FV(0:1)
 Check for opposite signs.
-27
+
 JAP
 1F
 
 
 4.2.1
 SINGLE-PRECISION CALCULATIONS
-219
-28
+
+
 J1N
 N2
 If not, normalize.
-29
+
 JMP
 2F
-30
+
 1H
 J1P
 N2
-31
+
 2H
 SRC
-5
+
 |rX| ↔|rA|.
-32
+
 DECX 1
 (rX is positive.)
-33
+
 STA
 TEMP
 (The operands had opposite signs;
-34
+
 STA
 HALF(0:0)
 we must adjust the registers
-35
+
 LDAN TEMP
 before rounding and normalization.)
-36
+
 ADD
 HALF
-37
+
 ADD
 HALF
 Complement the least significant portion.
-38
+
 SRC
-5
+
 Jump into normalization routine.
-39
+
 JMP
 N2
-40
+
 HALF
 CON
 1//2
 One half the word size (Sign varies)
-41
+
 FU
 CON
-0
+
 Fraction part fu
-42
+
 FV
 CON
-0
+
 Fraction part fv
-43
+
 NORM
 JAZ
 ZRO
 N1. Test f.
-44
+
 N2
 CMPA =0=(1:1)
 N2. Is f normalized?
-45
+
 JNE
 N5
 To N5 if leading byte nonzero.
-46
+
 N3
 SLAX 1
 N3. Scale left.
-47
+
 DEC2 1
 Decrease e by 1.
-48
+
 JMP
 N2
 Return to N2.
-49
+
 N4
 ENTX 1
 N4. Scale right.
-50
+
 SRC
-1
+
 Shift right, insert “1” with proper sign.
-51
+
 INC2 1
 Increase e by 1.
-52
+
 N5
 CMPA =BYTE/2=(5:5)
 N5. Round.
-53
+
 JL
 N6
 Is |tail| < 1
 2b?
-54
+
 JG
 5F
-55
+
 JXNZ 5F
 Is |tail| > 1
 2b?
-56
+
 STA
 TEMP
 |tail| = 1
 2b; round to odd.
-57
+
 LDX
 TEMP(4:4)
-58
+
 JXO
 N6
 To N6 if rX is odd.
-59
+
 5H
 STA
 *+1(0:0)
 Store sign of rA.
-60
+
 INCA BYTE
 Add b−4 to |f|. (Sign varies)
-61
+
 JOV
 N4
 Check for rounding overflow.
-62
+
 N6
 J2N
 EXPUN
 N6. Check e. Underflow if e < 0.
-63
+
 N7
 ENTX 0,2
 N7. Pack. rX ←e.
-64
+
 SRC
-1
-65
+
+
 ZRO
 DEC2 BYTE
 rI2 ←e −b.
-66
+
 8H
 STA
 ACC
-67
+
 EXITF J2N
 *
 Exit, unless e ≥b.
-68
+
 EXPOV HLT
-2
+
 Exponent overflow detected
-69
+
 EXPUN HLT
-1
+
 Exponent underflow detected
-70
+
 ACC
 CON
-0
+
 Floating point accumulator
 The rather long section of code from lines 26 to 40 is needed because MIX has
 only a 5-byte accumulator for adding signed numbers while in general 2p+1 = 9
@@ -16864,8 +16135,6 @@ to about half its present length if we were willing to sacrifice a little bit of
 accuracy, but we shall see in the next section that full accuracy is important.
 Line 58 uses a nonstandard MIX instruction defined in Section 4.5.2. The running
 
-
-220
 ARITHMETIC
 4.2.1
 time for floating point addition and subtraction depends on several factors that
@@ -16898,115 +16167,115 @@ division.)
 The following MIX subroutines, intended to be used in connection with
 Program A, illustrate the machine considerations that arise in Algorithm M.
 Program M (Floating point multiplication and division).
-01
+
 Q
 EQU
 BYTE/2
 q is half the byte size
-02
+
 FMUL
 STJ
 EXITF
 Floating point multiplication subroutine:
-03
+
 JOV
 OFLO
 Ensure that overflow is off.
-04
+
 STA
 TEMP
 TEMP ←v.
-05
+
 LDX
 ACC
 rX ←u.
-06
+
 STX
 FU(0:4)
 FU ←± f f f f 0.
-07
+
 LD1
 TEMP(EXP)
-08
+
 LD2
 ACC(EXP)
-09
+
 INC2 -Q,1
 rI2 ←eu + ev −q.
-10
+
 SLA
-1
-11
+
+
 MUL
 FU
 Multiply fu times fv.
-12
+
 JMP
 NORM
 Normalize, round, and exit.
-13
+
 FDIV
 STJ
 EXITF
 Floating point division subroutine:
-14
+
 JOV
 OFLO
 Ensure that overflow is off.
-15
+
 STA
 TEMP
 TEMP ←v.
-16
+
 STA
 FV(0:4)
 FV ←± f f f f 0.
-17
+
 LD1
 TEMP(EXP)
-18
+
 LD2
 ACC(EXP)
-19
+
 DEC2 -Q,1
 rI2 ←eu −ev + q.
 
 
 4.2.1
 SINGLE-PRECISION CALCULATIONS
-221
-20
+
+
 ENTX 0
-21
+
 LDA
 ACC
-22
+
 SLA
-1
+
 rA ←fu.
-23
+
 CMPA FV(1:5)
-24
+
 JL
 *+3
 Jump if |fu| < |fv|.
-25
+
 SRA
-1
+
 Otherwise, scale fu right
-26
+
 INC2 1
 and increase rI2 by 1.
-27
+
 DIV
 FV
 Divide.
-28
+
 JNOV NORM
 Normalize, round, and exit.
-29
+
 DVZRO HLT
-3
+
 Unnormalized or zero divisor
 The most noteworthy feature of this program is the provision for division
 in lines 23–26, which is made in order to ensure enough accuracy to round the
@@ -17020,20 +16289,20 @@ We occasionally need to convert values between fixed and floating point
 representations. A “fix-to-float” routine is easily obtained with the help of the
 normalization algorithm above; for example, in MIX, the following subroutine
 converts an integer to floating point form:
-01
+
 FLOT STJ
 EXITF
 Assume that rA = u, an integer.
-02
+
 JOV
 OFLO
 Ensure that overflow is off.
-03
+
 ENT2 Q+5
 Set raw exponent.
-04
+
 ENTX 0
-05
+
 JMP
 NORM
 Normalize, round, and exit.
@@ -17054,11 +16323,8 @@ should not be checked until after the rounding and normalization, because
 preliminary tests may give an erroneous indication. Exponent underflow and
 overflow can occur on floating point addition and subtraction, not only during
 multiplication and division; and even though this is a rather rare occurrence, it
-must be tested each time. Enough information should be retained so that mean-
-ingful corrective actions are possible after overflow or underflow has occurred.
+must be tested each time. Enough information should be retained so that meaningful corrective actions are possible after overflow or underflow has occurred.
 
-
-222
 ARITHMETIC
 4.2.1
 It has unfortunately become customary in many instances to ignore exponent
@@ -17074,7 +16340,7 @@ When exponent underflow is not detected, we find mysterious situations in which
 but u ⊗(v ⊗w) can be calculated without any exponents falling out of range.
 Similarly, we can find positive numbers a, b, c, d, and y such that
 (a ⊗y ⊕b) ⊘(c ⊗y ⊕d) ≈
-2
+
 3,
 (a ⊕b ⊘y) ⊘(c ⊕d ⊘y) = 1
 (11)
@@ -17116,7 +16382,7 @@ See W. M. Kahan and J. Palmer, ACM SIGNUM Newsletter (October 1979), 13–21.
 
 4.2.1
 SINGLE-PRECISION CALCULATIONS
-223
+
 There is a school of thought that says it is harmless to “round” a value like
 .999999997 to .99999999 instead of to 1.0000000, since this does not increase
 the worst-case bounds on relative error. The floating decimal number 1.0000000
@@ -17129,8 +16395,7 @@ each number of the second interval is contained in the first, so subsequent
 calculations with the second interval are no less accurate than with the first. This
 ingenious argument is, however, incompatible with the mathematical philosophy
 of floating point arithmetic expressed in Section 4.2.2.
-5) Rounding before normalizing. Inaccuracies are caused by premature round-
-ing in the wrong digit position. This error is obvious when rounding is being done
+5) Rounding before normalizing. Inaccuracies are caused by premature rounding in the wrong digit position. This error is obvious when rounding is being done
 to the left of the appropriate position; but it is also dangerous in the less obvious
 cases where rounding is first done too far to the right, followed by rounding in the
 true position. For this reason it is a mistake to round during the “scaling-right”
@@ -17164,8 +16429,6 @@ extra cost) that includes the following seven operations:
 • FADD, FSUB, FMUL, FDIV, FLOT, FCMP (C = 1, 2, 3, 4, 5, 56, respectively; F = 6).
 The contents of rA after the operation ‘FADD V’ are precisely the same as the
 
-
-224
 ARITHMETIC
 4.2.1
 contents of rA after the operations
@@ -17179,8 +16442,7 @@ pre-normalization, but not during the normalization of the answer, no underflow
 is signalled.) Similar remarks apply to FSUB, FMUL, and FDIV. The contents of
 rA after the operation ‘FLOT’ are the contents after ‘JMP FLOT’ in the subroutine
 (10) above.
-The contents of rA are unchanged by the operation ‘FCMP V’. This instruc-
-tion sets the comparison indicator to LESS, EQUAL, or GREATER, depending on
+The contents of rA are unchanged by the operation ‘FCMP V’. This instruction sets the comparison indicator to LESS, EQUAL, or GREATER, depending on
 whether the contents of rA are “definitely less than,” “approximately equal to,”
 or “definitely greater than” V, as discussed in the next section.
 The precise
@@ -17201,10 +16463,10 @@ by writing
 FLOT STJ
 9F
 SLA
-1
+
 ENTX Q+4
 SRC
-1
+
 FADD =0=
 9H
 JMP
@@ -17224,19 +16486,17 @@ FUDGE
 
 4.2.1
 SINGLE-PRECISION CALCULATIONS
-225
+
 where location FUDGE contains the constant
 +
 Q+4
-1
-0
-0
-0
+
+
 ;
 the result in rA would be
 +
 Q+4
-1
+
 round(u)
 .
 (13)
@@ -17260,8 +16520,7 @@ the time logarithms were invented (1600) and shortly afterwards when Oughtred
 invented the slide rule (1630). The modern notation “ xn ” for exponents was
 being introduced at about the same time; separate symbols for x squared, x
 cubed, etc., had been in use before this.
-Floating point arithmetic was incorporated into the design of some of the ear-
-liest computers. It was independently proposed by Leonardo Torres y Quevedo
+Floating point arithmetic was incorporated into the design of some of the earliest computers. It was independently proposed by Leonardo Torres y Quevedo
 in Madrid, 1914; by Konrad Zuse in Berlin, 1936; and by George Stibitz in
 New Jersey, 1939. Zuse’s machines used a floating binary representation that he
 called “semi-logarithmic notation”; he also incorporated conventions for dealing
@@ -17280,23 +16539,16 @@ problem in programming; but they knew that it was only a very small part of a
 total programming job in those days. Indeed, explicit fixed-point scaling seemed
 to be well worth the time and trouble it took, since it tended to keep programmers
 
-
-226
 ARITHMETIC
 4.2.1
-aware of the numerical accuracy they were getting. Furthermore, the machine de-
-signers argued that floating point representation would consume valuable mem-
-ory space, since the exponents must be stored; and they noted that floating point
+aware of the numerical accuracy they were getting. Furthermore, the machine designers argued that floating point representation would consume valuable memory space, since the exponents must be stored; and they noted that floating point
 hardware was not readily adapted to multiple-precision calculations. [See von
 Neumann’s Collected Works 5 (New York: Macmillan, 1963), 43, 73–74.] At that
 time, of course, they were designing the first stored-program computer and the
-second electronic computer, and their choice had to be either fixed point or float-
-ing point arithmetic, not both. They anticipated the coding of floating binary
+second electronic computer, and their choice had to be either fixed point or floating point arithmetic, not both. They anticipated the coding of floating binary
 subroutines, and in fact “shift left” and “shift right” instructions were put into
 their design primarily to make such routines more efficient. The first machine to
-have both kinds of arithmetic in its hardware was apparently a computer devel-
-oped at General Electric Company [see Proc. 2nd Symp. Large-Scale Digital Cal-
-culating Machinery (Cambridge, Mass.: Harvard University Press, 1951), 65–69].
+have both kinds of arithmetic in its hardware was apparently a computer developed at General Electric Company [see Proc. 2nd Symp. Large-Scale Digital Calculating Machinery (Cambridge, Mass.: Harvard University Press, 1951), 65–69].
 Floating point subroutines and interpretive systems for early machines were
 coded by D. J. Wheeler and others, and the first publication of such routines
 was in The Preparation of Programs for an Electronic Digital Computer by
@@ -17307,8 +16559,7 @@ other words, the numbers were represented as 10ef, not 2ef, and therefore the
 scaling operations required multiplication or division by 10. On this particular
 machine such decimal scaling was almost as easy as shifting, and the decimal
 approach greatly simplified input/output conversions.
-Most published references to the details of floating point arithmetic rou-
-tines are scattered in technical memorandums distributed by various computer
+Most published references to the details of floating point arithmetic routines are scattered in technical memorandums distributed by various computer
 manufacturers, but there have been occasional appearances of these routines in
 the open literature. Besides the reference above, the following are of historical
 interest: R. H. Stark and D. B. MacMillan, Math. Comp. 5 (1951), 86–92,
@@ -17333,13 +16584,12 @@ Software 19 (1993), 443–451.
 
 4.2.1
 SINGLE-PRECISION CALCULATIONS
-227
+
 The MMIX computer, which will replace MIX in the next edition of this book,
 will naturally conform to the new standard.
 EXERCISES
 1. [10] How would Avogadro’s number and Planck’s constant (3) be represented in
-base 100, excess 50, four-digit floating point notation? (This would be the representa-
-tion used by MIX, as in (4), when the byte size is 100.)
+base 100, excess 50, four-digit floating point notation? (This would be the representation used by MIX, as in (4), when the byte size is 100.)
 2. [12] Assume that the exponent e is constrained to lie in the range 0 ≤e ≤E;
 what are the largest and smallest positive values that can be written as base b, excess q,
 p-digit floating point numbers? What are the largest and smallest positive values that
@@ -17365,9 +16615,9 @@ x mod b = 0 ⇐⇒y mod b = 0;
 x mod b = 1
 2b ⇐⇒y mod b = 1
 2b;
-1
+
 2b < x mod b < b ⇐⇒
-1
+
 2b < y mod b < b.
 Prove that if fv is replaced by b−p−2Fv between steps A5 and A6 of Algorithm A, where
 Fv ∼bp+2fv, the result of that algorithm will be unchanged. (If Fv is an integer and b is
@@ -17389,8 +16639,6 @@ for which rounding overflow occurs in addition.
 x 11. [M20] Give an example of normalized, excess 50, eight-digit floating decimal
 numbers u and v for which rounding overflow occurs in multiplication.
 
-
-228
 ARITHMETIC
 4.2.1
 12. [M25] Prove that rounding overflow cannot occur during the normalization phase
@@ -17415,8 +16663,7 @@ point number, given a floating point number u. Notice that when u is a very smal
 negative number, u X
 mod 1 should be rounded so that the result is unity (even though
 u mod 1 has been defined to be always less than unity, as a real number).
-16. [HM21] (Robert L. Smith.) Design an algorithm to compute the real and imagi-
-nary parts of the complex number (a+bi)/(c+di), given real floating point values a, b,
+16. [HM21] (Robert L. Smith.) Design an algorithm to compute the real and imaginary parts of the complex number (a+bi)/(c+di), given real floating point values a, b,
 c, and d with c+di ̸= 0. Avoid the computation of c2 +d2, since it would cause floating
 point overflow even when |c| or |d| is approximately the square root of the maximum
 allowable floating point value.
@@ -17440,8 +16687,7 @@ Suppose that the exact result of a floating point operation has the octal code
 but this rounds to the illegal value 576 |000000000; we have over-normalized, since
 the correct answer is 575 |400000000. On the other hand if we start (in some other
 problem) with the value 572 |740000000 |05 and stop before over-normalizing it, we get
-575 |400000000 |50, which rounds to the unnormalized number 575 |400000001; subse-
-quent normalization yields 576 |000000002 while the correct answer is 576 |000000001.
+575 |400000000 |50, which rounds to the unnormalized number 575 |400000001; subsequent normalization yields 576 |000000002 while the correct answer is 576 |000000001.
 Give a simple, correct rounding rule that resolves this dilemma on such a machine
 (without abandoning two’s complement notation).
 19. [24] What is the running time for the FADD subroutine in Program A, in terms
@@ -17451,7 +16697,7 @@ inputs that do not cause exponent overflow or underflow?
 
 4.2.2
 ACCURACY OF FLOATING POINT ARITHMETIC
-229
+
 Round numbers are always false.
 — SAMUEL JOHNSON (1750)
 I shall speak in round numbers, not absolutely accurate,
@@ -17490,8 +16736,7 @@ multiplications and divisions.
 On the other hand, the situation is somewhat
 paradoxical and needs to be understood properly, since the “bad” additions and
 subtractions are always performed with perfect accuracy! (See exercise 25.)
-One of the consequences of the possible unreliability of floating point addi-
-tion is that the associative law breaks down:
+One of the consequences of the possible unreliability of floating point addition is that the associative law breaks down:
 (u ⊕v) ⊕w ̸= u ⊕(v ⊕w),
 for many u, v, w.
 (1)
@@ -17499,8 +16744,6 @@ For example,
 (11111113. ⊕−11111111.) ⊕7.5111111 = 2.0000000 ⊕7.5111111 = 9.5111111;
 11111113. ⊕(−11111111. ⊕7.5111111) = 11111113. ⊕−11111103. = 10.000000.
 
-
-230
 ARITHMETIC
 4.2.2
 (All examples in this section are given in eight-digit floating decimal arithmetic,
@@ -17564,7 +16807,7 @@ u ⊘v = round(u / v),
 
 4.2.2
 ACCURACY OF FLOATING POINT ARITHMETIC
-231
+
 where round(x) denotes the best floating point approximation to x as defined in
 Algorithm 4.2.1N. We have
 round(−x) = −round(x),
@@ -17618,8 +16861,6 @@ is another important example of the breakdown of traditional algebra in the
 presence of floating point arithmetic. Exercise 7 shows that Cauchy’s inequality
 can fail even in the simple case n = 2, x1 = x2 = 1. Novice programmers who
 
-
-232
 ARITHMETIC
 4.2.2
 calculate the standard deviation of some observations by using the textbook
@@ -17673,7 +16914,7 @@ where the relative error is bounded independently of x:
 ≤
 |ρ(x)|
 be−1 + |ρ(x)| ≤
-1
+
 2be−p
 be−1 + 1
 2be−p < 1
@@ -17718,7 +16959,7 @@ name, one ulp, meaning one unit in the last place of the fraction part. Floating
 
 4.2.2
 ACCURACY OF FLOATING POINT ARITHMETIC
-233
+
 point operations are correct to within half an ulp, and the calculation of uvw by
 two floating point multiplications will be correct within about one ulp (ignoring
 second-order terms). Hence the associative law for multiplication holds to within
@@ -17779,14 +17020,11 @@ than u ∼v, and it might be read “u is essentially equal to v.” All of the 
 are specified in terms of a positive real number ϵ that measures the degree of
 approximation being considered.
 
-
-234
 ARITHMETIC
 4.2.2
 One way to view the definitions above is to associate a “neighborhood” set
 N(u) = {x | |x −u| ≤ϵbeu−q} with each floating point number u; thus, N(u)
-represents a set of values near u based on the exponent of u’s floating point rep-
-resentation. In these terms, we have u ≺v if and only if N(u) < v and u < N(v);
+represents a set of values near u based on the exponent of u’s floating point representation. In these terms, we have u ≺v if and only if N(u) < v and u < N(v);
 u ∼v if and only if u ∈N(v) or v ∈N(u); u ≻v if and only if u > N(v) and
 N(u) > v; u ≈v if and only if u ∈N(v) and v ∈N(u). (Here we are assuming
 that the parameter ϵ, which measures the degree of approximation, is a constant;
@@ -17927,7 +17165,7 @@ whenever ϵ ≥2ϵ0/(1 −1
 
 4.2.2
 ACCURACY OF FLOATING POINT ARITHMETIC
-235
+
 The relations ≺, ∼, ≻, and ≈are useful within numerical algorithms, and it
 is therefore a good idea to provide routines for comparing floating point numbers
 as well as for doing arithmetic on them.
@@ -17984,12 +17222,10 @@ v′′ = round(w −u′) = round(v + t) = v + t; this proves (40). If e > 0, t
 2, we have |u| ≥bp −1. It follows that u is
 an integer, so r is a tail of v modulo 1. If u′ = u, then t = −r is a tail of −v.
 Otherwise the relation round(u −r) ̸= u implies that |u| = bp −1, |r| =
-1
+
 2,
 |u′| = bp, t = r; again t is a tail of −v.
 
-
-236
 ARITHMETIC
 4.2.2
 Theorem A exhibits a regularity property of floating point addition, but it
@@ -18005,8 +17241,7 @@ u + v = (u ⊕v) +
 Proof.
 In fact, we can show that u ⊖u′ = u −u′, v ⊖v′′ = v −v′′, and
 (u −u′) ⊕(v −v′′) = (u −u′) + (v −v′′), hence (45) will follow from Theorem A.
-Using the notation of the preceding proof, these relations are respectively equiv-
-alent to
+Using the notation of the preceding proof, these relations are respectively equivalent to
 round(t + r) = t + r,
 round(t) = t,
 round(r) = r.
@@ -18045,22 +17280,20 @@ The proofs of Theorems A, B, and C do not rely on the precise definitions of
 round(x) in the ambiguous cases when x is exactly midway between consecutive
 floating point numbers; any way of resolving the ambiguity will suffice for the
 validity of everything we have proved so far.
-No rounding rule can be best for every application. For example, we gener-
-ally want a special rule when computing our income tax. But for most numerical
+No rounding rule can be best for every application. For example, we generally want a special rule when computing our income tax. But for most numerical
 calculations the best policy appears to be the rounding scheme specified in
 Algorithm 4.2.1N, which insists that the least significant digit should always
 
 
 4.2.2
 ACCURACY OF FLOATING POINT ARITHMETIC
-237
+
 be made even (or always odd) when an ambiguous value is rounded. This is not
 a trivial technicality, of interest only to nit-pickers; it is an important practical
 consideration, since the ambiguous case arises surprisingly often and a biased
 rounding rule produces significantly poor results. For example, consider decimal
 arithmetic and assume that remainders of 5 are always rounded upwards. Then if
-u = 1.0000000 and v = 0.55555555 we have u⊕v = 1.5555556; and if we floating-
-subtract v from this result we get u′ = 1.0000001. Adding and subtracting v
+u = 1.0000000 and v = 0.55555555 we have u⊕v = 1.5555556; and if we floatingsubtract v from this result we get u′ = 1.0000001. Adding and subtracting v
 from u′ gives 1.0000002, and the next time we get 1.0000003, etc.; the result
 keeps growing although we are adding and subtracting the same value.
 This phenomenon, called drift, will not occur when we use a stable rounding
@@ -18107,12 +17340,9 @@ and perhaps they would even break down completely.
 Theorem B fails if truncation arithmetic is used in place of rounding, that
 is, if we let u ⊕v = trunc(u + v) and u ⊖v = trunc(u −v), where trunc(x) for a
 
-
-238
 ARITHMETIC
 4.2.2
-positive real x is the largest floating point number ≤x. An exception to Theo-
-rem B would then occur for cases such as (20, +.10000001)⊕(10, −.10000001) =
+positive real x is the largest floating point number ≤x. An exception to Theorem B would then occur for cases such as (20, +.10000001)⊕(10, −.10000001) =
 (20, +.10000000), when the difference between u+v and u⊕v cannot be expressed
 exactly as a floating point number; and also for cases such as 12345678 ⊕
 .012345678, when it can be.
@@ -18134,9 +17364,7 @@ underlying symmetry properties, the job of proving interesting results becomes
 extremely unpleasant. The enjoyment of one’s tools is an essential ingredient of
 successful work.
 B. Unnormalized floating point arithmetic. The policy of normalizing all
-floating point numbers may be construed in two ways: We may look on it favor-
-ably by saying that it is an attempt to get the maximum possible accuracy ob-
-tainable with a given degree of precision, or we may consider it to be potentially
+floating point numbers may be construed in two ways: We may look on it favorably by saying that it is an attempt to get the maximum possible accuracy obtainable with a given degree of precision, or we may consider it to be potentially
 dangerous since it tends to imply that the results are more accurate than they
 really are. When we normalize the result of (1, +.31428571) ⊖(1, +.31415927)
 to (−2, +.12644000), we are suppressing information about the possibly greater
@@ -18164,7 +17392,7 @@ their sum is (27, +.00060221). (The purpose of this example is not to suggest th
 
 4.2.2
 ACCURACY OF FLOATING POINT ARITHMETIC
-239
+
 any important physical significance should be attached to the sum and product
 of these fundamental constants; the point is that it is possible to preserve a little
 of the information about precision in the result of calculations with imprecise
@@ -18227,19 +17455,15 @@ for suitable ϵ. We have
 A similar formula holds for |u ⊕(v ⊕w) −(u + v + w)|. Now since e(u⊕v)⊕w =
 max(eu, ev, ew)+(0, 1, or 2), we have δ(u⊕v)⊕w ≤b2δu⊕(v⊕w). Therefore we find
 
-
-240
 ARITHMETIC
 4.2.2
 that (52) is valid when ϵ ≥b2−p + b−p; unnormalized addition is not as erratic
 as normalized addition with respect to the associative law.
 It should be emphasized that unnormalized arithmetic is by no means a
 panacea. There are examples where it indicates greater accuracy than is present
-(for example, addition of a great many small quantities of about the same magni-
-tude, or evaluation of xn for large n); and there are many more examples when it
+(for example, addition of a great many small quantities of about the same magnitude, or evaluation of xn for large n); and there are many more examples when it
 indicates poor accuracy while normalized arithmetic actually does produce good
-results. There is an important reason why no straightforward one-operation-at-
-a-time method of error analysis can be completely satisfactory, namely the fact
+results. There is an important reason why no straightforward one-operation-ata-time method of error analysis can be completely satisfactory, namely the fact
 that operands are usually not independent of each other. This means that errors
 tend to cancel or reinforce each other in strange ways. For example, suppose that
 x is approximately 1/2, and suppose that we have an approximation y = x + δ
@@ -18252,8 +17476,7 @@ accurate result when the operands are not independent of each other. A more
 obvious example is the computation of x⊖x, which can be obtained with perfect
 accuracy regardless of how bad an approximation to x we begin with.
 The extra information that unnormalized arithmetic gives us can often be
-more important than the information it destroys during an extended calcula-
-tion, but (as usual) we must use it with care. Examples of the proper use of
+more important than the information it destroys during an extended calculation, but (as usual) we must use it with care. Examples of the proper use of
 unnormalized arithmetic are discussed by R. L. Ashenhurst and N. Metropolis
 in Computers and Computing, AMM, Slaught Memorial Papers 10 (February
 1965), 47–59; by N. Metropolis in Numer. Math. 7 (1965), 104–112; and by
@@ -18265,8 +17488,7 @@ An extension of
 unnormalized arithmetic, which remembers that certain values are known to
 be exact, has been discussed by N. Metropolis in IEEE Trans. C-22 (1973),
 573–576.
-C. Interval arithmetic. Another approach to the problem of error determi-
-nation is the so-called interval or range arithmetic, in which rigorous upper and
+C. Interval arithmetic. Another approach to the problem of error determination is the so-called interval or range arithmetic, in which rigorous upper and
 lower bounds on each number are maintained during the calculations. Thus, for
 example, if we know that u0 ≤u ≤u1 and v0 ≤v ≤v1, we represent this by the
 interval notation u = [u0 . . u1], v = [v0 . . v1]. The sum u⊕v is [u0▽
@@ -18299,7 +17521,7 @@ h =
 
 4.2.2
 ACCURACY OF FLOATING POINT ARITHMETIC
-241
+
 their sum and product would then turn out to be
 N ⊕h =
 
@@ -18355,8 +17577,6 @@ Kahan, Proc. IFIP Congress (1971), 2, 1214–1239; R. P. Brent, IEEE Trans.
 C-22 (1973), 601–607. Both papers include useful theory and demonstrate that
 it pays off in practice.
 
-
-242
 ARITHMETIC
 4.2.2
 The relations ≺, ∼, ≻, ≈introduced in this section are similar to ideas
@@ -18372,8 +17592,7 @@ and K. Samelson in the article cited above, and it was independently used by
 J. W. Carr III at the University of Michigan in 1953. Several years later, the
 MANIAC III computer was designed to include both kinds of arithmetic in its
 hardware; see R. L. Ashenhurst and N. Metropolis, JACM 6 (1959), 415–428,
-IEEE Trans. EC-12 (1963), 896–901; R. L. Ashenhurst, Proc. Spring Joint Com-
-puter Conf. 21 (1962), 195–202. See also H. L. Gray and C. Harrison, Jr., Proc.
+IEEE Trans. EC-12 (1963), 896–901; R. L. Ashenhurst, Proc. Spring Joint Computer Conf. 21 (1962), 195–202. See also H. L. Gray and C. Harrison, Jr., Proc.
 Eastern Joint Computer Conf. 16 (1959), 244–248, and W. G. Wadey, JACM 7
 (1960), 129–139, for further early discussions of unnormalized arithmetic.
 For early developments in interval arithmetic, and some modifications, see
@@ -18386,8 +17605,7 @@ An extension of the Pascal language that allows variables to be of type
 a description of this language, which also includes numerous other features for
 scientific computing, see Pascal-SC by Bohlender, Ullrich, Wolff von Gudenberg,
 and Rall (New York: Academic Press, 1987).
-The book Grundlagen des numerischen Rechnens: Mathematische Begrün-
-dung der Rechnerarithmetik by Ulrich Kulisch (Mannheim: Bibl. Inst., 1976)
+The book Grundlagen des numerischen Rechnens: Mathematische Begründung der Rechnerarithmetik by Ulrich Kulisch (Mannheim: Bibl. Inst., 1976)
 is entirely devoted to the study of floating point arithmetic systems. See also
 Kulisch’s article in IEEE Trans. C-26 (1977), 610–621, and his more recent book
 written jointly with W. L. Miranker, entitled Computer Arithmetic in Theory
@@ -18407,14 +17625,13 @@ and such that no exponent overflow or underflow occurs during the computations.
 
 4.2.2
 ACCURACY OF FLOATING POINT ARITHMETIC
-243
+
 4. [10] Is it possible to have floating point numbers u, v, and w for which exponent
 overflow occurs during the calculation of u ⊗(v ⊗w) but not during the calculation of
 (u ⊗v) ⊗w?
 5. [M20] Is u⊘v = u⊗(1⊘v) an identity, for all floating point numbers u and v ̸= 0
 such that no exponent overflow or underflow occurs?
-6. [M22] Are either of the following two identities valid for all floating point num-
-bers u? (a) 0 ⊖(0 ⊖u) = u; (b) 1 ⊘(1 ⊘u) = u.
+6. [M22] Are either of the following two identities valid for all floating point numbers u? (a) 0 ⊖(0 ⊖u) = u; (b) 1 ⊘(1 ⊘u) = u.
 7. [M21] Let u 2⃝stand for u ⊗u. Find floating binary numbers u and v such that
 (u ⊕v) 2⃝> 2(u 2⃝+ v 2⃝).
 x
@@ -18456,8 +17673,7 @@ But suppose that a programmer wants to determine if m is an exact multiple of n,
 when m and n ̸= 0 are integers.
 Suppose further that a subroutine is available to
 calculate the quantity round(u mod 1) = u X
-mod 1 for any given floating point num-
-ber u, as in exercise 4.2.1–15.
+mod 1 for any given floating point number u, as in exercise 4.2.1–15.
 One good way to determine whether or not m is a
 multiple of n might be to test whether or not (m ⊘n) X
 mod 1 = 0, using the assumed
@@ -18468,8 +17684,6 @@ is a multiple of n if and only if (m ⊘n) X
 mod 1 = 0. In other words, show that if m
 and n are not too large, this test is valid.
 
-
-244
 ARITHMETIC
 4.2.2
 14. [M27] Find a suitable ϵ such that (u⊗v)⊗w ≈u⊗(v⊗w) (ϵ), when unnormalized
@@ -18491,8 +17705,7 @@ assumed at the left of the word. Assume normalized inputs.
 18. [M40] In unnormalized arithmetic is there a suitable number ϵ such that
 u ⊗(v ⊕w) ≈(u ⊗v) ⊕(u ⊗w)
 (ϵ) ?
-x 19. [M30] (W. M. Kahan.) Consider the following procedure for floating point sum-
-mation of x1, x2, . . . , xn:
+x 19. [M30] (W. M. Kahan.) Consider the following procedure for floating point summation of x1, x2, . . . , xn:
 s0 = c0 = 0;
 yk = xk ⊖ck−1,
 sk = sk−1 ⊕yk,
@@ -18525,7 +17738,7 @@ floating point numbers or the special symbols +0, −0, +∞, −∞; each inter
 
 4.2.2
 ACCURACY OF FLOATING POINT ARITHMETIC
-245
+
 have ul ≤ur, and ul = ur is allowed only when ul is finite and nonzero. The interval
 [ul . . ur] stands for all floating point x such that ul ≤x ≤ur, where we agree that
 −∞< −x < −0 < 0 < +0 < +x < +∞
@@ -18573,8 +17786,6 @@ arithmetic, the result is ≈−3.7 × 1019. Evaluating it in the alternative fo
 Explain how to construct similar examples of numerical instability.
 32. [M21] For what pairs (a, b) is round to even(x) = ⌊ax + b⌋+ ⌈ax −b⌉for all x?
 
-
-246
 ARITHMETIC
 4.2.3
 *4.2.3. Double-Precision Calculations
@@ -18586,8 +17797,7 @@ by suitable programming techniques that use two or more words of memory to
 represent each number.
 Although we shall discuss the general question of high-precision calculations
 in Section 4.3, it is appropriate to give a separate discussion of double-precision
-here. Special techniques apply to double precision that are comparatively inap-
-propriate for higher precisions; and double precision is a reasonably important
+here. Special techniques apply to double precision that are comparatively inappropriate for higher precisions; and double precision is a reasonably important
 topic in its own right, since it is the first step beyond single precision and it is
 applicable to many problems that do not require extremely high precision.
 Well, that paragraph was true when the author wrote the first edition of
@@ -18596,8 +17806,7 @@ old motivations for double-precision floating point have mostly disappeared; the
 present section is therefore primarily of historical interest. In the planned fourth
 edition of this book, Section 4.2.1 will be renamed “Normalized Calculations,”
 and the present Section 4.2.3 will be replaced by a discussion of “Exceptional
-Numbers.” The new material will focus on special aspects of ANSI/IEEE Stan-
-dard 754: subnormal numbers, infinities, and the so-called NaNs that represent
+Numbers.” The new material will focus on special aspects of ANSI/IEEE Standard 754: subnormal numbers, infinities, and the so-called NaNs that represent
 undefined or otherwise unusual quantities.
 (See the references at the end of
 Section 4.2.1.) Meanwhile, let us take one last look at the older ideas, in order
@@ -18636,14 +17845,13 @@ programs below is therefore essential to the understanding of the material.
 
 4.2.3
 DOUBLE-PRECISION CALCULATIONS
-247
+
 In this section we shall depart from the idealistic goals of accuracy stated
 in the previous two sections; our double-precision routines will not round their
 results, and a little bit of error will sometimes be allowed to creep in. Users
 dare not trust these routines too much. There was ample reason to squeeze out
 every possible drop of accuracy in the single-precision case, but now we face a
-different situation: (a) The extra programming required to ensure true double-
-precision rounding in all cases is considerable; fully accurate routines would take,
+different situation: (a) The extra programming required to ensure true doubleprecision rounding in all cases is considerable; fully accurate routines would take,
 say, twice as much space and half again as much time. It was comparatively
 easy to make our single-precision routines perfect, but double precision brings
 us face to face with our machine’s limitations. A similar situation occurs with
@@ -18672,8 +17880,7 @@ full potential isn’t needed.
 procedures in order to see how inaccurate they can be, since they typify the
 types of short cuts generally taken in bad single-precision routines (see exercises
 7 and 8).
-Let us now consider addition and subtraction operations from this stand-
-point. Subtraction is, of course, converted to addition by changing the sign of
+Let us now consider addition and subtraction operations from this standpoint. Subtraction is, of course, converted to addition by changing the sign of
 the second operand. Addition is performed by separately adding together the
 least-significant halves and the most-significant halves, propagating “carries”
 appropriately.
@@ -18683,14 +17890,10 @@ when the signs of the operands are opposite and the least-significant half of th
 smaller operand is bigger than the least-significant half of the larger operand).
 The simplest solution is to anticipate the correct sign; so in step A2 of Algorithm
 4.2.1A we will now assume not only that eu ≥ev but also that |u| ≥|v|. Then
-we can be sure that the final sign will be the sign of u. In other respects, double-
-precision addition is very much like its single-precision counterpart, except that
+we can be sure that the final sign will be the sign of u. In other respects, doubleprecision addition is very much like its single-precision counterpart, except that
 everything needs to be done twice.
-Program A (Double-precision addition). The subroutine DFADD adds a double-
-precision floating point number v, having the form (1), to a double-precision
+Program A (Double-precision addition). The subroutine DFADD adds a doubleprecision floating point number v, having the form (1), to a double-precision
 
-
-248
 ARITHMETIC
 4.2.3
 floating point number u, assuming that v is initially in rAX (registers A and X),
@@ -18701,146 +17904,146 @@ Both input operands are assumed to be normalized, and the answer is
 normalized. The last portion of this program is a double-precision normalization
 procedure that is used by other subroutines of this section. Exercise 5 shows
 how to improve the program significantly.
-01
+
 ABS
 EQU
 1:5
 Field definition for absolute value
-02
+
 SIGN
 EQU
 0:0
 Field definition for sign
-03
+
 EXPD
 EQU
 1:2
 Double-precision exponent field
-04
+
 DFSUB
 STA
 TEMP
 Double-precision subtraction:
-05
+
 LDAN TEMP
 Change sign of v.
-06
+
 DFADD
 STJ
 EXITDF
 Double-precision addition:
-07
+
 CMPA ACC(ABS)
 Compare |v| with |u|.
-08
+
 JG
 1F
-09
+
 JL
 2F
-10
+
 CMPX ACCX(ABS)
-11
+
 JLE
 2F
-12
+
 1H
 STA
 ARG
 If |v| > |u|, interchange u ↔v.
-13
+
 STX
 ARGX
-14
+
 LDA
 ACC
-15
+
 LDX
 ACCX
-16
+
 ENT1 ACC
 (ACC and ACCX are in consecutive
-17
+
 MOVE ARG(2)
 locations.)
-18
+
 2H
 STA
 TEMP
-19
+
 LD1N TEMP(EXPD)
 rI1 ←−ev.
-20
+
 LD2
 ACC(EXPD)
 rI2 ←eu.
-21
+
 INC1 0,2
 rI1 ←eu −ev.
-22
+
 SLAX 2
 Remove exponent.
-23
+
 SRAX 1,1
 Scale right.
-24
+
 STA
 ARG
 0 v1 v2 v3 v4
-25
+
 STX
 ARGX
 v5 v6 v7 v8 v9
-26
+
 STA
 ARGX(SIGN)
 Store true sign of v in both halves.
-27
+
 LDA
 ACC
 (We know that u has the sign of the answer.)
-28
+
 LDX
 ACCX
 rAX ←u.
-29
+
 SLAX 2
 Remove exponent.
-30
+
 STA
 ACC
 u1 u2 u3 u4 u5
-31
+
 SLAX 4
-32
+
 ENTX 1
-33
+
 STX
 EXPO
 EXPO ←1 (see below).
-34
+
 SRC
-1
+
 1 u5 u6 u7 u8
-35
+
 STA
 1F(SIGN)
 A trick, see comments in text.
-36
+
 ADD
 ARGX(0:4)
 Add 0 v5 v6 v7 v8.
-37
+
 SRAX 4
-38
+
 1H
 DECA 1
 Recover from inserted 1. (Sign varies)
-39
+
 ADD
 ACC(0:4)
 Add most significant halves.
-40
+
 ADD
 ARG
 (Overflow cannot occur)
@@ -18848,100 +18051,100 @@ ARG
 
 4.2.3
 DOUBLE-PRECISION CALCULATIONS
-249
-41
+
+
 DNORM
 JANZ 1F
 Normalization routine:
-42
+
 JXNZ 1F
 fw in rAX, ew = EXPO + rI2.
-43
+
 DZERO
 STA
 ACC
 If fw = 0, set ew ←0.
-44
+
 JMP
 9F
-45
+
 2H
 SLAX 1
 Normalize to the left.
-46
+
 DEC2 1
-47
+
 1H
 CMPA =0=(1:1)
 Is the leading byte zero?
-48
+
 JE
 2B
-49
+
 SRAX 2
 (Rounding omitted)
-50
+
 STA
 ACC
-51
+
 LDA
 EXPO
 Compute final exponent.
-52
+
 INCA 0,2
-53
+
 JAN
 EXPUND
 Is it negative?
-54
+
 STA
 ACC(EXPD)
-55
+
 CMPA =1(3:3)=
 Is it more than two bytes?
-56
+
 JL
 8F
-57
+
 EXPOVD HLT
-20
-58
+
+
 EXPUND HLT
-10
-59
+
+
 8H
 LDA
 ACC
 Bring answer into rA.
-60
+
 9H
 STX
 ACCX
-61
+
 EXITDF JMP
 *
 Exit from subroutine.
-62
+
 ARG
 CON
-0
-63
+
+
 ARGX
 CON
-0
-64
+
+
 ACC
 CON
-0
+
 Floating point accumulator
-65
+
 ACCX
 CON
-0
-66
+
+
 EXPO
 CON
-0
+
 Part of “raw exponent”
 When the least-significant halves are added together in this program, an
 extra digit “1” is inserted at the left of the word that is known to have the
@@ -18960,21 +18163,18 @@ components, shown schematically in Fig. 4. Since we need only the leftmost
 eight bytes, it is convenient to ignore the digits to the right of the vertical line
 in the diagram; in particular, we need not even compute the product of the two
 least-significant halves.
-Program M (Double-precision multiplication). The input and output conven-
-tions for this subroutine are the same as for Program A.
-01
+Program M (Double-precision multiplication). The input and output conventions for this subroutine are the same as for Program A.
+
 BYTE
 EQU
 1(4:4)
 Byte size
-02
+
 QQ
 EQU
 BYTE*BYTE/2
 Excess of double-precision exponent
 
-
-250
 ARITHMETIC
 4.2.3
 u u u u u
@@ -18997,113 +18197,113 @@ w w w w w
 w w w w w
 w 0 0 0 0
 Fig. 4. Double-precision multiplication of eight-byte fraction parts.
-03
+
 DFMUL STJ
 EXITDF
 Double-precision multiplication:
-04
+
 STA
 TEMP
-05
+
 SLAX 2
 Remove exponent.
-06
+
 STA
 ARG
 vm
-07
+
 STX
 ARGX
 vl
-08
+
 LDA
 TEMP(EXPD)
-09
+
 ADD
 ACC(EXPD)
-10
+
 STA
 EXPO
 EXPO ←eu + ev.
-11
+
 ENT2 -QQ
 rI2 ←−QQ.
-12
+
 LDA
 ACC
-13
+
 LDX
 ACCX
-14
+
 SLAX 2
 Remove exponent.
-15
+
 STA
 ACC
 um
-16
+
 STX
 ACCX
 ul
-17
+
 MUL
 ARGX
 um × vl
-18
+
 STA
 TEMP
-19
+
 LDA
 ARG(ABS)
-20
+
 MUL
 ACCX(ABS)
 |vm × ul|
-21
+
 SRA
-1
+
 0 x x x x
-22
+
 ADD
 TEMP(1:4)
 (Overflow cannot occur)
-23
+
 STA
 TEMP
-24
+
 LDA
 ARG
-25
+
 MUL
 ACC
 vm × um
-26
+
 STA
 TEMP(SIGN)
 Store true sign of result.
-27
+
 STA
 ACC
 Now prepare to add all the
-28
+
 STX
 ACCX
 partial products together.
-29
+
 LDA
 ACCX(0:4)
 0 x x x x
-30
+
 ADD
 TEMP
 (Overflow cannot occur)
-31
+
 SRAX 4
-32
+
 ADD
 ACC
 (Overflow cannot occur)
-33
+
 JMP
 DNORM
 Normalize and exit.
@@ -19117,7 +18317,7 @@ achieved as discussed in exercise 4.
 
 4.2.3
 DOUBLE-PRECISION CALCULATIONS
-251
+
 Double-precision floating division is the most difficult routine, or at least the
 most frightening prospect we have encountered so far in this chapter. Actually,
 it is not terribly complicated, once we see how to do it; let us write the numbers
@@ -19129,7 +18329,7 @@ vm + ϵvl
 = um + ϵul
 vm
 
-1
+
 1 + ϵ(vl/vm)
 
 = um + ϵul
@@ -19156,147 +18356,145 @@ to the trick of Program A.
 Program D (Double-precision division).
 This program adheres to the same
 conventions as Programs A and M.
-01
+
 DFDIV
 STJ
 EXITDF
 Double-precision division:
-02
+
 JOV
 OFLO
 Ensure that overflow is off.
-03
+
 STA
 TEMP
-04
+
 SLAX 2
 Remove exponent.
-05
+
 STA
 ARG
 vm
-06
+
 STX
 ARGX
 vl
-07
+
 LDA
 ACC(EXPD)
-08
+
 SUB
 TEMP(EXPD)
-09
+
 STA
 EXPO
 EXPO ←eu −ev.
-10
+
 ENT2 QQ+1
 rI2 ←QQ + 1.
-11
+
 LDA
 ACC
-12
+
 LDX
 ACCX
-13
+
 SLAX 2
 Remove exponent.
-14
+
 SRAX 1
 (See Algorithm 4.2.1M)
-15
+
 DIV
 ARG
 If overflow, it is detected below.
-16
+
 STA
 ACC
 wm
-17
+
 SLAX 5
 Use remainder in further division.
-18
+
 DIV
 ARG
-19
+
 STA
 ACCX
 ±wl
-20
+
 LDA
 ARGX(1:4)
-21
+
 ENTX 0
-22
+
 DIV
 ARG(ABS)
 rA ←⌊|b4vl/vm|⌋/b5.
-23
+
 JOV
 DVZROD
 Did division cause overflow?
-24
+
 MUL
 ACC(ABS)
 rAX ←|wmvl/bvm|, approximately.
-25
+
 SRAX 4
 Multiply by b, and save
-26
+
 SLC
-5
+
 the leading byte in rX.
 
-
-252
 ARITHMETIC
 4.2.3
-27
+
 SUB
 ACCX(ABS)
 Subtract |wl|.
-28
+
 DECA 1
 Force minus sign.
-29
+
 SUB
 WM1
-30
+
 JOV
 *+2
 If no overflow, carry one more
-31
+
 INCX 1
 to upper half.
-32
+
 SLC
-5
+
 (Now rA ≤0)
-33
+
 ADD
 ACC(ABS)
 rA ←|wm| −|rA|.
-34
+
 STA
 ACC(ABS)
 (Now rA ≥0)
-35
+
 LDA
 ACC
 rA ←wm with correct sign.
-36
+
 JMP
 DNORM
 Normalize and exit.
-37
+
 DVZROD HLT
-30
+
 Unnormalized or zero divisor
-38
+
 1H
 EQU
 1(1:1)
-39
+
 WM1
 CON
 1B-1,BYTE-1(1:1)
@@ -19322,9 +18520,8 @@ For extension of the methods of this section to triple-precision floating point
 fraction parts, see Y. Ikebe, CACM 8 (1965), 175–177.
 EXERCISES
 1. [16] Try the double-precision division technique by hand, with ϵ =
-1
-1000, when di-
-viding 180000 by 314159. (Thus, let (um, ul) = (.180, .000) and (vm, vl) = (.314, .159),
+
+1000, when dividing 180000 by 314159. (Thus, let (um, ul) = (.180, .000) and (vm, vl) = (.314, .159),
 and find the quotient using the method suggested in the text following (2).)
 2. [20] Would it be a good idea to insert the instruction ‘ENTX 0’ between lines 30
 and 31 of Program M, in order to keep unwanted information left over in register X
@@ -19335,19 +18532,17 @@ essentially by moving the vertical line in Fig. 4 over to the right one position
 all changes that are required, and determine the difference in execution time caused by
 these changes.
 x
-5. [24] How should Program A be changed so that extra accuracy is achieved, essen-
-tially by working with a nine-byte accumulator instead of an eight-byte accumulator
+5. [24] How should Program A be changed so that extra accuracy is achieved, essentially by working with a nine-byte accumulator instead of an eight-byte accumulator
 to the right of the radix point? Specify all changes that are required, and determine
 the difference in execution time caused by these changes.
-6. [23] Assume that the double-precision subroutines of this section and the single-
-precision subroutines of Section 4.2.1 are being used in the same main program. Write a
+6. [23] Assume that the double-precision subroutines of this section and the singleprecision subroutines of Section 4.2.1 are being used in the same main program. Write a
 subroutine that converts a single-precision floating point number into double-precision
 form (1), and write another subroutine that converts a double-precision floating point
 
 
 4.2.4
 DISTRIBUTION OF FLOATING POINT NUMBERS
-253
+
 number into single-precision form (reporting exponent overflow or underflow if the
 conversion is impossible).
 x
@@ -19361,8 +18556,7 @@ by finding bounds δ1, δ2, and δ3 on the relative errors
 .
 8. [M28] Estimate the accuracy of the “improved” double-precision subroutines of
 exercises 4 and 5, in the sense of exercise 7.
-9. [M42] T. J. Dekker [Numer. Math. 18 (1971), 224–242] has suggested an alter-
-native approach to double precision, based entirely on single-precision floating binary
+9. [M42] T. J. Dekker [Numer. Math. 18 (1971), 224–242] has suggested an alternative approach to double precision, based entirely on single-precision floating binary
 calculations. For example, Theorem 4.2.2C states that u + v = w + r, where w = u ⊕v
 and r = (u ⊖w) ⊕v, if |u| ≥|v| and the radix is 2; here |r| ≤|w|/2p, so the pair
 (w, r) may be considered a double-precision version of u + v. To add two such pairs
@@ -19378,8 +18572,7 @@ statistical information that allows us to determine how often various cases aris
 The purpose of this section is to discuss the empirical and theoretical properties
 of the distribution of floating point numbers.
 A. Addition and subtraction routines. The execution time for a floating
-point addition or subtraction depends largely on the initial difference of expo-
-nents, and also on the number of normalization steps required (to the left or to
+point addition or subtraction depends largely on the initial difference of exponents, and also on the number of normalization steps required (to the left or to
 the right). No way is known to give a good theoretical model that tells what
 characteristics to expect, but extensive empirical investigations have been made
 by D. W. Sweeney [IBM Systems J. 4 (1965), 31–42].
@@ -19396,8 +18589,6 @@ One of the two operands to be added was found to be equal to zero about
 9 percent of the time, and this was usually the accumulator (ACC). The other
 91 percent of the cases split about equally between operands of the same or of
 
-
-254
 ARITHMETIC
 4.2.4
 Table 1
@@ -19407,32 +18598,32 @@ b = 2
 b = 10
 b = 16
 b = 64
-0
+
 0.33
 0.47
 0.47
 0.56
-1
+
 0.12
 0.23
 0.26
 0.27
-2
+
 0.09
 0.11
 0.10
 0.04
-3
+
 0.07
 0.03
 0.02
 0.02
-4
+
 0.07
 0.01
 0.01
 0.02
-5
+
 0.04
 0.01
 0.02
@@ -19515,20 +18706,16 @@ we know that its leading digit is 1, 2, 3, 4, 5, 6, 7, 8, or 9, and we might nat
 
 4.2.4
 DISTRIBUTION OF FLOATING POINT NUMBERS
-255
+
 expect each of these nine possible leading digits to occur about one-ninth of the
 time. But, in fact, the behavior in practice is quite different. For example, the
 leading digit tends to be equal to 1 more than 30 percent of the time!
-One way to test the assertion just made is to take a table of physical con-
-stants (like the speed of light or the acceleration of gravity) from some standard
+One way to test the assertion just made is to take a table of physical constants (like the speed of light or the acceleration of gravity) from some standard
 reference. If we look at the Handbook of Mathematical Functions (U.S. Dept of
-Commerce, 1964), for example, we find that 8 of the 28 different physical con-
-stants given in Table 2.3, roughly 29 percent, have leading digit equal to 1. The
+Commerce, 1964), for example, we find that 8 of the 28 different physical constants given in Table 2.3, roughly 29 percent, have leading digit equal to 1. The
 decimal values of n! for 1 ≤n ≤100 include exactly 30 entries beginning with 1;
-so do the decimal values of 2n and of Fn, for 1 ≤n ≤100. We might also try look-
-ing at census reports, or a Farmer’s Almanack (but not a telephone directory).
-In the days before pocket calculators, the pages in well-used tables of loga-
-rithms tended to get quite dirty in the front, while the last pages stayed relatively
+so do the decimal values of 2n and of Fn, for 1 ≤n ≤100. We might also try looking at census reports, or a Farmer’s Almanack (but not a telephone directory).
+In the days before pocket calculators, the pages in well-used tables of logarithms tended to get quite dirty in the front, while the last pages stayed relatively
 clean and neat. This phenomenon was apparently first mentioned in print by
 the astronomer Simon Newcomb [Amer. J. Math. 4 (1881), 39–40], who gave
 good grounds for believing that the leading digit d occurs with probability
@@ -19547,13 +18734,10 @@ would be uniformly distributed between zero and one, at least to a very good
 approximation. (Similarly, we expect U mod 1, U 2 mod 1,
 √
 U + π mod 1, etc.,
-to be uniformly distributed. We expect a roulette wheel to be unbiased, for essen-
-tially the same reason.) Therefore by (1) the leading digit will be 1 with probabil-
-ity log10 2 ≈30.103 percent; it will be 2 with probability log10 3−log10 2 ≈17.609
+to be uniformly distributed. We expect a roulette wheel to be unbiased, for essentially the same reason.) Therefore by (1) the leading digit will be 1 with probability log10 2 ≈30.103 percent; it will be 2 with probability log10 3−log10 2 ≈17.609
 percent; and, in general, if r is any real value between 1 and 10, we ought to
 have 10fU ≤r approximately log10 r of the time.
-The fact that leading digits tend to be small makes the most obvious tech-
-niques of “average error” estimation for floating point calculations invalid. The
+The fact that leading digits tend to be small makes the most obvious techniques of “average error” estimation for floating point calculations invalid. The
 relative error due to rounding is usually a little more than expected.
 Of course, it may justly be said that the heuristic argument above does
 not prove the stated law. It merely shows us a plausible reason why the leading
@@ -19564,8 +18748,6 @@ normalized floating point number U. If we think of random quantities in the real
 world, we observe that they are measured in terms of arbitrary units; and if we
 were to change the definition of a meter or a gram, many of the fundamental
 
-
-256
 ARITHMETIC
 4.2.4
 physical constants would have different values.
@@ -19662,7 +18844,7 @@ p(r) = log10 r.
 
 4.2.4
 DISTRIBUTION OF FLOATING POINT NUMBERS
-257
+
 Using the same argument, we could “prove” that
 
 m
@@ -19681,8 +18863,7 @@ base b, the approximation might be less accurate (at any given time) as b gets
 larger. Another rather appealing way to resolve the dilemma, by abandoning the
 traditional idea of a distribution function, has been suggested by R. A. Raimi,
 AMM 76 (1969), 342–348.
-The hedging in the last paragraph is probably a very unsatisfactory ex-
-planation, and so the following further calculation (which sticks to rigorous
+The hedging in the last paragraph is probably a very unsatisfactory explanation, and so the following further calculation (which sticks to rigorous
 mathematics and avoids any intuitive, yet paradoxical, notions of probability)
 should be welcome.
 Let us consider the distribution of the leading digits of
@@ -19726,23 +18907,21 @@ But in this case the limit does not exist. For example, let us consider the
 subsequence
 P1(s), P1(10s), P1(100s), . . . , P1(10ns), . . . ,
 
-
-258
 ARITHMETIC
 4.2.4
 where s is a real number, 1 ≤s ≤10. If s ≤r, we find that
 P1(10ns) =
-1
+
 10ns
 
 ⌈r⌉−1+⌈10r⌉−10+· · ·+⌈10n−1r⌉−10n−1 +⌊10ns⌋+1−10n
 =
-1
+
 10ns
 
 r(1+10+· · ·+10n−1)+O(n)+⌊10ns⌋−1−10−· · ·−10n
 =
-1
+
 10ns
 1
 9(10nr−10n+1)+⌊10ns⌋+O(n)
@@ -19782,14 +18961,14 @@ Furthermore the functions Qm(s) and Rm(s) satisfy the relations
 Qm(s) = 1
 s
 1
-9
+
 10
-1
+
 Qm−1(t) dt +
 s
-1
+
 Qm−1(t) dt + 1
-9
+
 10
 r
 Rm−1(t) dt
@@ -19811,7 +18990,7 @@ We will prove the lemma by induction on m.
 
 4.2.4
 DISTRIBUTION OF FLOATING POINT NUMBERS
-259
+
 First note that Q1(s) =
 
 1 + (s −1) −(10 −r)/9
@@ -19824,15 +19003,15 @@ Pm(10ns) = 1
 s
 
 0≤j<n
-1
+
 10n−j
 
 10j≤k<10j+1
-1
+
 10j Pm−1(k)+
 
 10n≤k≤10ns
-1
+
 10n Pm−1(k)
 
 ,
@@ -19840,11 +19019,11 @@ and we want to approximate this quantity. By induction, the difference
 
 
 10j≤k≤10jq
-1
+
 10j Pm−1(k) −
 
 10j≤k≤10jq
-1
+
 10j Sm−1
 k
 10j
@@ -19855,14 +19034,14 @@ it is a Riemann-integrable function; and the difference
 
 
 10j≤k≤10jq
-1
+
 10j Sm−1
 k
 10j
 
 −
 q
-1
+
 Sm−1(t) dt
 
 (14)
@@ -19873,13 +19052,13 @@ n > N, the difference
 s
 
 0≤j<n
-1
+
 10n−j
 10
-1
+
 Sm−1(t) dt +
 s
-1
+
 Sm−1(t) dt
 
 (15)
@@ -19892,13 +19071,13 @@ bound for (13) + (14) that is valid for all positive integers j. Finally, the su
 Pm(10ns) −1
 s
 
-1
-9
+
+
 10
-1
+
 Sm−1(t) dt +
 s
-1
+
 Sm−1(t) dt
 
 can be made smaller than, say, 20ϵ, if n is taken large enough. Comparing this
@@ -19915,20 +19094,10 @@ The
 situation is shown in Fig. 5, which shows the values of Sm(s) when m is small
 and r = 2.
 
-
-260
 ARITHMETIC
 4.2.4
-2
-3
-4
-5
-6
-7
-8
-9
-10
-1
+
+
 s
 0.0
 0.1
@@ -19974,7 +19143,7 @@ s
 1 + 1
 1! ln s
 r + · · · +
-1
+
 (m −1)!
 
 ln s
@@ -19993,16 +19162,16 @@ s
 
 cm + 1 +
 s
-1
+
 Qm−1(t) dt
 
 ,
 (20)
 where
 cm = 1
-9
+
 10
-1
+
 Qm−1(t) dt +
 10
 r
@@ -20014,7 +19183,7 @@ Rm−1(t) dt
 
 4.2.4
 DISTRIBUTION OF FLOATING POINT NUMBERS
-261
+
 And the solution to recurrence (20) is easily found by trying out the first few
 cases and guessing at a formula that can be proved by induction; we find that
 Qm(s) = 1 + 1
@@ -20022,7 +19191,7 @@ s
 
 cm + 1
 1! cm−1 ln s + · · · +
-1
+
 (m −1)! c1(ln s)m−1
 
 .
@@ -20031,7 +19200,7 @@ It remains for us to calculate the coefficients cm, which by (19), (21), and
 (22) satisfy the relations
 c1 = (r −10)/9;
 cm+1 = 1
-9
+
 
 cm ln 10 + 1
 2! cm−1(ln 10)2 + · · · + 1
@@ -20058,12 +19227,12 @@ cm+1 = 1
 10cm+1+ 9
 10cm+1
 = 1
-10
+
 
 cm+1+cm ln10+· · ·+ 1
 m!c1(ln10)m
 + r
-10
+
 
 1+· · ·+ 1
 m!
@@ -20073,9 +19242,9 @@ r
 m
 −1
 is the coefficient of zm+1 in the function
-1
+
 10C(z)10z + r
-10
+
 10
 r
 z
@@ -20110,8 +19279,6 @@ is an analytic function of the complex variable z in the circle
 ln 10
 .
 
-
-262
 ARITHMETIC
 4.2.4
 In particular, R(z) converges for z = 1, so its coefficients approach zero. This
@@ -20131,8 +19298,7 @@ uniformly for 1 ≤s ≤10.
 Therefore we have established the logarithmic law for integers by direct
 calculation, at the same time seeing that it is an extremely good approximation
 to the average behavior although it is never precisely achieved.
-The proofs of Lemma Q and Theorem F given above are slight simplifica-
-tions and amplifications of methods due to B. J. Flehinger, AMM 73 (1966),
+The proofs of Lemma Q and Theorem F given above are slight simplifications and amplifications of methods due to B. J. Flehinger, AMM 73 (1966),
 1056–1061. Many authors have written about the distribution of initial digits,
 showing that the logarithmic law is a good approximation for many underlying
 distributions; see the surveys by Ralph A. Raimi, AMM 83 (1976), 521–538, and
@@ -20140,13 +19306,11 @@ Peter Schatte, J. Information Processing and Cybernetics 24 (1988), 443–455,
 for a comprehensive review of the literature.
 Exercise 17 discusses an approach to the definition of probability under
 which the logarithmic law holds exactly, over the integers.
-Furthermore, ex-
-ercise 18 demonstrates that any reasonable definition of probability over the
+Furthermore, exercise 18 demonstrates that any reasonable definition of probability over the
 integers must lead to the logarithmic law, if it assigns a value to the probability
 of leading digits.
 Floating point computations operate primarily on noninteger numbers, of
-course; we have studied integers because of their familiarity and their simplic-
-ity. When arbitrary real numbers are considered, theoretical results are more
+course; we have studied integers because of their familiarity and their simplicity. When arbitrary real numbers are considered, theoretical results are more
 difficult to obtain, but evidence is accumulating that the same statistics apply,
 in the sense that repeated calculations with real numbers will nearly always
 tend to yield better and better approximations to a logarithmic distribution of
@@ -20167,7 +19331,7 @@ improve on the accuracy of Tables 1 and 2.
 
 4.2.4
 DISTRIBUTION OF FLOATING POINT NUMBERS
-263
+
 3. [15] What is the probability that the two leading digits of a floating decimal
 number are “23”, according to the logarithmic law?
 4. [M18] The text points out that the front pages of a well-used table of logarithms
@@ -20226,8 +19390,6 @@ where l(x) = 1/(x ln b) is the density of the logarithmic distribution.
 Prove that A(h) ≤min(A(f), A(g)). (In particular, if either factor has logarithmic
 distribution the product does also.)
 
-
-264
 ARITHMETIC
 4.2.4
 x 13. [M20] The floating point multiplication routine, Algorithm 4.2.1M, requires zero
@@ -20280,7 +19442,7 @@ n →∞.
 
 4.3.1
 THE CLASSICAL ALGORITHMS
-265
+
 4.3. MULTIPLE-PRECISION ARITHMETIC
 Let us now consider operations on numbers that have arbitrarily high precision.
 For simplicity in exposition, we shall assume that we are working with integers,
@@ -20328,8 +19490,6 @@ two-place answer;
 c0) division of a two-place integer by a one-place integer, provided that the
 quotient is a one-place integer, and yielding also a one-place remainder.
 
-
-266
 ARITHMETIC
 4.3.1
 By adjusting the word size, if necessary, nearly all computers will have these three
@@ -20337,8 +19497,7 @@ operations available; so we will construct algorithms (a), (b), and (c) mentione
 above in terms of the primitive operations (a0), (b0), and (c0).
 Since we are visualizing extended-precision integers as base b numbers, it is
 sometimes helpful to think of the situation when b = 10, and to imagine that
-we are doing the arithmetic by hand. Then operation (a0) is analogous to mem-
-orizing the addition table; (b0) is analogous to memorizing the multiplication
+we are doing the arithmetic by hand. Then operation (a0) is analogous to memorizing the addition table; (b0) is analogous to memorizing the multiplication
 table; and (c0) is essentially memorizing the multiplication table in reverse. The
 more complicated operations (a), (b), (c) on high-precision numbers can now
 be done using the simple addition, subtraction, multiplication, and long-division
@@ -20381,59 +19540,59 @@ V + j, LOC(wj) ≡W + j, rI1 ≡j −n, rA ≡k, word size ≡b, N ≡n.
 
 4.3.1
 THE CLASSICAL ALGORITHMS
-267
-01
+
+
 ENN1 N
-1
+
 Al. Initialize. j ←0.
-02
+
 JOV
 OFLO
-1
+
 Ensure that overflow is off.
-03
+
 1H ENTA 0
 N + 1 −K
 k ←0.
-04
+
 J1Z
 3F
 N + 1 −K
 Exit the loop if j = n.
-05
+
 2H ADD
 U+N,1
 N
 A2. Add digits.
-06
+
 ADD
 V+N,1
 N
-07
+
 STA
 W+N,1
 N
-08
+
 INC1 1
 N
 A3. Loop on j. j ←j + 1.
-09
+
 JNOV 1B
 N
 If no overflow, set k ←0.
-10
+
 ENTA 1
 K
 Otherwise, set k ←1.
-11
+
 J1N
 2B
 K
 To A2 if j < n.
-12
+
 3H STA
 W+N
-1
+
 Store final carry in wn.
 The running time for this program is 10N +6 cycles, independent of the number
 of carries, K. The quantity K is analyzed in detail at the close of this section.
@@ -20443,8 +19602,7 @@ might be entitled “How to design addition circuits for a digital computer.”
 The problem of subtraction is similar to addition, but the differences are
 worth noting:
 Algorithm S (Subtraction of nonnegative integers). Given nonnegative n-place
-integers (un−1 . . . u1u0)b ≥(vn−1 . . . v1v0)b, this algorithm forms their nonneg-
-ative radix-b difference, (wn−1 . . . w1w0)b.
+integers (un−1 . . . u1u0)b ≥(vn−1 . . . v1v0)b, this algorithm forms their nonnegative radix-b difference, (wn−1 . . . w1w0)b.
 S1. [Initialize.] Set j ←0, k ←0.
 S2. [Subtract digits.] Set wj ←(uj −vj + k) mod b, and k ←⌊(uj −vj + k)/b⌋.
 (In other words, k is set to −1 or 0, depending on whether a borrow occurs
@@ -20464,70 +19622,68 @@ Program S (Subtraction of nonnegative integers). This program is analogous
 to the code in Program A, but with rA ≡1 + k. Here, as in other programs of
 this section, location WM1 contains the constant b −1, the largest possible value
 that can be stored in a MIX word; see Program 4.2.3D, lines 38–39.
-01
+
 ENN1 N
-1
+
 S1. Initialize.
 j ←0.
-02
+
 JOV
 OFLO
-1
+
 Ensure that overflow is off.
 
-
-268
 ARITHMETIC
 4.3.1
-03
+
 1H J1Z
 DONE
 K + 1
 Terminate if j = n.
-04
+
 ENTA 1
 K
 Set k ←0.
-05
+
 2H ADD
 U+N,1
 N
 S2. Subtract digits.
-06
+
 SUB
 V+N,1
 N
 Compute uj −vj + k + b.
-07
+
 ADD
 WM1
 N
-08
+
 STA
 W+N,1
 N
 (May be minus zero)
-09
+
 INC1 1
 N
 S3. Loop on j. j ←j + 1.
-10
+
 JOV
 1B
 N
 If overflow, set k ←0.
-11
+
 ENTA 0
 N −K
 Otherwise set k ←−1.
-12
+
 J1N
 2B
 N −K
 Back to S2 if j < n.
-13
+
 HLT
-5
+
 (Error, v > u)
 The running time for this program is 12N + 3 cycles, slightly longer than the
 corresponding amount for Program A.
@@ -20567,7 +19723,7 @@ the algorithm terminates.
 
 4.3.1
 THE CLASSICAL ALGORITHMS
-269
+
 Table 1
 MULTIPLICATION OF 914 BY 84
 Step
@@ -20582,93 +19738,59 @@ w2
 w1
 w0
 M5
-0
-0
-4
-4
-16
+
+
 .
 .
-0
-0
-6
+
+
 M5
-1
-0
-1
-4
-05
+
+
 .
 .
-0
-5
-6
+
+
 M5
-2
-0
-9
-4
-36
+
+
 .
 .
-6
-5
-6
+
+
 M6
-3
-0
+
+
 .
-4
-36
+
+
 .
-3
-6
-5
-6
+
+
 M5
-0
-1
-4
-8
-37
+
+
 .
-3
-6
-7
-6
+
+
 M5
-1
-1
-1
-8
-17
+
+
 .
-3
-7
-7
-6
+
+
 M5
-2
-1
-9
-8
-76
+
+
 .
-6
-7
-7
-6
+
+
 M6
-3
-1
+
+
 .
-8
-76
-7
-6
-7
-7
-6
+
+
 Algorithm M is illustrated in Table 1, assuming that b = 10, by showing
 the states of the computation at the beginning of steps M5 and M6. A proof of
 Algorithm M appears in the answer to exercise 14.
@@ -20685,133 +19807,130 @@ The following MIX program shows the considerations that are necessary when
 Algorithm M is implemented on a computer. The coding for step M4 would be a
 little simpler if our computer had a “multiply-and-add” instruction, or if it had
 a double-length accumulator for addition.
-Program M (Multiplication of nonnegative integers). This program is analo-
-gous to Program A. rI1 ≡i−m, rI2 ≡j −n, rI3 ≡i+j, CONTENTS(CARRY) ≡k.
-01
+Program M (Multiplication of nonnegative integers). This program is analogous to Program A. rI1 ≡i−m, rI2 ≡j −n, rI3 ≡i+j, CONTENTS(CARRY) ≡k.
+
 ENT1 M-1
-1
+
 M1. Initialize.
-02
+
 JOV
 OFLO
-1
+
 Ensure that overflow is off.
-03
+
 STZ
 W,1
 M
 wrI1 ←0.
-04
+
 DEC1 1
 M
-05
+
 J1NN *-2
 M
 Repeat for m > rI1 ≥0.
-06
+
 ENN2 N
-1
+
 j ←0.
-07
+
 1H LDX
 V+N,2
 N
 M2. Zero multiplier?
-08
+
 JXZ
 8F
 N
 If vj = 0, set wj+m ←0 and go to M6.
-09
+
 ENN1 M
 N −Z
 M3. Initialize i. i ←0.
-10
+
 ENT3 N,2
 N −Z
 (i + j) ←j.
-11
+
 ENTX 0
 N −Z
 k ←0.
-12
+
 2H STX
 CARRY
 (N −Z)M
 M4. Multiply and add.
-13
+
 LDA
 U+M,1
 (N −Z)M
-14
+
 MUL
 V+N,2
 (N −Z)M
 rAX ←ui × vj.
-15
+
 SLC
-5
+
 (N −Z)M
 Interchange rA ↔rX.
-16
+
 ADD
 W,3
 (N −Z)M
 Add wi+j to lower half.
 
-
-270
 ARITHMETIC
 4.3.1
-17
+
 JNOV *+2
 (N −Z)M
 Did overflow occur?
-18
+
 INCX 1
 K
 If so, carry 1 into upper half.
-19
+
 ADD
 CARRY
 (N −Z)M
 Add k to lower half.
-20
+
 JNOV *+2
 (N −Z)M
 Did overflow occur?
-21
+
 INCX 1
 K′
 If so, carry 1 into upper half.
-22
+
 STA
 W,3
 (N −Z)M
 wi+j ←t mod b.
-23
+
 INC1 1
 (N −Z)M
 M5. Loop on i. i ←i + 1.
-24
+
 INC3 1
 (N −Z)M
 (i + j) ←(i + j) + 1.
-25
+
 J1N
 2B
 (N −Z)M
 Back to M4 with rX = ⌊t/b⌋if i < m.
-26
+
 8H STX
 W+M+N,2
 N
 Set wj+m ←k.
-27
+
 INC2 1
 N
 M6. Loop on j. j ←j + 1.
-28
+
 J2N
 1B
 N
@@ -20837,8 +19956,7 @@ than Algorithm M even when m = n = 4.
 The final algorithm of concern to us in this section is long division, in which
 we want to divide (m + n)-place integers by n-place integers. Here the ordinary
 pencil-and-paper method involves a certain amount of guesswork and ingenuity
-on the part of the person doing the division; we must either eliminate this guess-
-work from the algorithm or develop some theory to explain it more carefully.
+on the part of the person doing the division; we must either eliminate this guesswork from the algorithm or develop some theory to explain it more carefully.
 A moment’s reflection about the ordinary process of long division shows that
 the general problem breaks down into simpler steps, each of which is the division
 of an (n + 1)-place dividend u by the n-place divisor v, where 0 ≤u/v < b;
@@ -20855,7 +19973,7 @@ radix-b notation, where u/v < b. Find an algorithm to determine q = ⌊u/v⌋.
 
 4.3.1
 THE CLASSICAL ALGORITHMS
-271
+
 Fig. 6. Wanted: a way to
 determine q rapidly.
 q
@@ -20891,8 +20009,7 @@ u −ˆqv ≤u −ˆqvn−1bn−1
 ≤unbn + · · · + u0 −(unbn + un−1bn−1 −vn−1bn−1 + bn−1)
 = un−2bn−2 + · · · + u0 −bn−1 + vn−1bn−1 < vn−1bn−1 ≤v.
 Since u −ˆqv < v, we must have ˆq ≥q.
-We will now prove that ˆq cannot be much larger than q in practical situa-
-tions. Assume that ˆq ≥q + 3. We have
+We will now prove that ˆq cannot be much larger than q in practical situations. Assume that ˆq ≥q + 3. We have
 ˆq ≤unb + un−1
 vn−1
 = unbn + un−1bn−1
@@ -20925,18 +20042,14 @@ bn−1
 
 ≥2(vn−1 −1).
 
-
-272
 ARITHMETIC
 4.3.1
 Finally, since b −4 ≥ˆq −3 ≥q = ⌊u/v⌋≥2(vn−1 −1), we have vn−1 < ⌊b/2⌋.
 This proves the result we seek:
 Theorem B. If vn−1 ≥⌊b/2⌋, then ˆq −2 ≤q ≤ˆq.
-The most important part of this theorem is that the conclusion is indepen-
-dent of b; no matter how large the radix is, the trial quotient ˆq will never be
+The most important part of this theorem is that the conclusion is independent of b; no matter how large the radix is, the trial quotient ˆq will never be
 more than 2 in error.
-The condition that vn−1 ≥⌊b/2⌋is very much like a normalization require-
-ment; in fact, it is exactly the condition of floating-binary normalization in a
+The condition that vn−1 ≥⌊b/2⌋is very much like a normalization requirement; in fact, it is exactly the condition of floating-binary normalization in a
 binary computer. One simple way to ensure that vn−1 is sufficiently large is to
 multiply both u and v by ⌊b/(vn−1 + 1)⌋; this does not change the value of u/v,
 nor does it increase the number of places in v, and exercise 23 proves that it will
@@ -20981,7 +20094,7 @@ consists of a simple multiplication by a one-place number, combined with
 
 4.3.1
 THE CLASSICAL ALGORITHMS
-273
+
 D1. Normalize
 D2. Initialize j
 D3. Calculate ˆq
@@ -21014,294 +20127,289 @@ The representation of Algorithm D as a MIX program has several points of
 interest:
 Program D (Division of nonnegative integers). The conventions of this program
 are analogous to Program A; rI1 ≡i −n, rI2 ≡j, rI3 ≡i + j.
-001
+
 D1 JOV
 OFLO
-1
+
 D1. Normalize.
 · · ·
 (See exercise 25)
-039
+
 D2 ENT2 M
-1
+
 D2. Initialize j. j ←m.
-040
+
 STZ
 V+N
-1
+
 Set vn ←0, for convenience in D4.
-041
+
 D3 LDA
 U+N,2(1:5)
 M + 1
 D3. Calculate ˆq.
-042
+
 LDX
 U+N-1,2
 M + 1
 rAX ←uj+nb + uj+n−1.
-043
+
 DIV
 V+N-1
 M + 1
 rA ←⌊rAX/vn−1⌋.
-044
+
 JOV
 1F
 M + 1
 Jump if quotient ≥b.
-045
+
 STA
 QHAT
 M + 1
 ˆq ←rA.
-046
+
 STX
 RHAT
 M + 1
 ˆr ←uj+nb + uj+n−1 −ˆqvn−1
-047
+
 JMP
 2F
 M + 1
 = (uj+nb + uj+n−1) mod vn−1.
 
-
-274
 ARITHMETIC
 4.3.1
-048
+
 1H LDX
 WM1
 rX ←b −1.
-049
+
 LDA
 U+N-1,2
 rA ←uj+n−1. (Here uj+n = vn−1.)
-050
+
 JMP
 4F
-051
+
 3H LDX
 QHAT
 E
-052
+
 DECX 1
 E
 Decrease ˆq by one.
-053
+
 LDA
 RHAT
 E
 Adjust ˆr accordingly:
-054
+
 4H STX
 QHAT
 E
 ˆq ←rX.
-055
+
 ADD
 V+N-1
 E
 rA ←ˆr + vn−1.
-056
+
 JOV
 D4
 E
 (If ˆr will be ≥b, ˆqvn−2 will be < ˆrb.)
-057
+
 STA
 RHAT
 E
 ˆr ←rA.
-058
+
 LDA
 QHAT
 E
-059
+
 2H MUL
 V+N-2
 M + E + 1
-060
+
 CMPA RHAT
 M + E + 1
 Test if ˆqvn−2 ≤ˆrb + uj+n−2.
-061
+
 JL
 D4
 M + E + 1
-062
+
 JG
 3B
 E
-063
+
 CMPX U+N-2,2
-064
+
 JG
 3B
 If not, ˆq is too large.
-065
+
 D4 ENTX 1
 M + 1
 D4. Multiply and subtract.
-066
+
 ENN1 N
 M + 1
 i ←0.
-067
+
 ENT3 0,2
 M + 1
 (i + j) ←j.
-068
+
 2H STX
 CARRY
 (M + 1)(N + 1)
 (Here 1 −b < rX ≤+1.)
-069
+
 LDAN V+N,1
 (M + 1)(N + 1)
-070
+
 MUL
 QHAT
 (M + 1)(N + 1)
 rAX ←−ˆqvi.
-071
+
 SLC
-5
+
 (M + 1)(N + 1)
 Interchange rA ↔rX.
-072
+
 ADD
 CARRY
 (M + 1)(N + 1)
 Add the contribution from the
-073
+
 JNOV *+2
 (M + 1)(N + 1)
 digit to the right, plus 1.
-074
+
 DECX 1
 K
 If sum is ≤−b, carry −1.
-075
+
 ADD
 U,3
 (M + 1)(N + 1)
 Add ui+j.
-076
+
 ADD
 WM1
 (M + 1)(N + 1)
 Add b −1 to force + sign.
-077
+
 JNOV *+2
 (M + 1)(N + 1)
 If no overflow, carry −1.
-078
+
 INCX 1
 K′
 rX ≡carry + 1.
-079
+
 STA
 U,3
 (M + 1)(N + 1)
 ui+j ←rA (may be minus zero).
-080
+
 INC1 1
 (M + 1)(N + 1)
-081
+
 INC3 1
 (M + 1)(N + 1)
-082
+
 J1NP 2B
 (M + 1)(N + 1)
 Repeat for 0 ≤i ≤n.
-083
+
 D5 LDA
 QHAT
 M + 1
 D5. Test remainder.
-084
+
 STA
 Q,2
 M + 1
 Set qj ←ˆq.
-085
+
 JXP
 D7
 M + 1
 (Here rX = 0 or 1, since vn = 0.)
-086
+
 D6 DECA 1
 D6. Add back.
-087
+
 STA
 Q,2
 Set qj ←ˆq −1.
-088
+
 ENN1 N
 i ←0.
-089
+
 ENT3 0,2
 (i + j) ←j.
-090
+
 1H ENTA 0
 (This is essentially Program A.)
-091
+
 2H ADD
 U,3
-092
+
 ADD
 V+N,1
-093
+
 STA
 U,3
-094
+
 INC1 1
-095
+
 INC3 1
-096
+
 JNOV 1B
 
 
 4.3.1
 THE CLASSICAL ALGORITHMS
-275
-097
+
+
 ENTA 1
-098
+
 J1NP 2B
-099
+
 D7 DEC2 1
 M + 1
 D7. Loop on j.
-100
+
 J2NN D3
 M + 1
 Repeat for m ≥j ≥0.
-101
+
 D8 · · ·
 (See exercise 26)
 Note how easily the rather complex-appearing calculations and decisions of
 step D3 can be handled inside the machine. Notice also that the program for
 step D4 is analogous to Program M, except that the ideas of Program S have
 also been incorporated.
-The running time for Program D can be estimated by considering the quan-
-tities M, N, E, K, and K′ shown in the program. (These quantities ignore several
+The running time for Program D can be estimated by considering the quantities M, N, E, K, and K′ shown in the program. (These quantities ignore several
 situations that occur only with very low probability; for example, we may assume
 that lines 048–050, 063–064, and step D6 are never executed.) Here M + 1 is
 the number of words in the quotient; N is the number of words in the divisor;
 E is the number of times ˆq is adjusted downwards in step D3; K and K′ are
-the number of times certain carry adjustments are made during the multiply-
-subtract loop. If we assume that K + K′ is approximately (N + 1)(M + 1),
+the number of times certain carry adjustments are made during the multiplysubtract loop. If we assume that K + K′ is approximately (N + 1)(M + 1),
 and that E is approximately 1
 2M, we get a total running time of approximately
 30MN + 30N + 89M + 111 cycles, plus 67N + 23.5M + 4 more if d > 1. (The
 program segments of exercises 25 and 26 are included in these totals.) When M
 and N are large, this is only about seven percent longer than the time needed
 by Program M to multiply the quotient by the divisor.
-When the radix b is comparatively small, so that b2 is less than the com-
-puter’s word size, multiprecision division can be speeded up by not reducing
+When the radix b is comparatively small, so that b2 is less than the computer’s word size, multiprecision division can be speeded up by not reducing
 individual digits of intermediate results to the range [0 . . b); see D. M. Smith,
 Math. Comp. 65 (1996), 157–163. Further commentary on Algorithm D appears
 in the exercises at the close of this section.
@@ -21325,9 +20433,9 @@ m−1 places
 
 
 n−m places
-0
+
 . . .
-0
+
 
 
 
@@ -21342,8 +20450,6 @@ let us consider what approach should be taken to the same problems when a
 computer with complement notation is being used. For two’s complement and
 ones’ complement notations, it is usually best to let the radix b be one half of the
 
-
-276
 ARITHMETIC
 4.3.1
 word size; thus for a 32-bit computer word we would use b = 231 in the algorithms
@@ -21379,16 +20485,14 @@ notation is being used, however; it must be added into the least significant wor
 and possibly propagated further to the left.) Similarly, we find that subtraction
 of signed numbers is slightly simpler with complement notation. On the other
 hand, multiplication and division seem to be done most easily by working with
-nonnegative quantities and doing suitable complementation operations before-
-hand to make sure that both operands are nonnegative. It may be possible to
+nonnegative quantities and doing suitable complementation operations beforehand to make sure that both operands are nonnegative. It may be possible to
 avoid this complementation by devising some tricks for working directly with
 negative numbers in a complement notation, and it is not hard to see how this
 could be done in double-precision multiplication; but care should be taken not
 to slow down the inner loops of the subroutines when high precision is required.
 Let us now turn to an analysis of the quantity K that arises in Program A,
 namely the number of carries that occur when two n-place numbers are being
-added together. Although K has no effect on the total running time of Pro-
-gram A, it does affect the running time of the Program A’s counterparts that
+added together. Although K has no effect on the total running time of Program A, it does affect the running time of the Program A’s counterparts that
 deal with complement notations, and its analysis is interesting in itself as a
 significant application of generating functions.
 Suppose that u and v are independent random n-place integers, uniformly
@@ -21398,7 +20502,7 @@ k carries occur in the addition of u to v, and that one of these carries occurs
 
 4.3.1
 THE CLASSICAL ALGORITHMS
-277
+
 in the most significant position (so that u + v ≥bn). Similarly, let qnk be the
 probability that exactly k carries occur, but that there is no carry in the most
 significant position. Then it is not hard to see that, for all k and n,
@@ -21412,8 +20516,7 @@ q(n+1)k = b −1
 2b qnk;
 (3)
 this happens because (b −1)/2b is the probability that un−1 + vn−1 ≥b and
-(b+1)/2b is the probability that un−1+vn−1+1 ≥b, when un−1 and vn−1 are in-
-dependently and uniformly distributed integers in the range 0 ≤un−1, vn−1 < b.
+(b+1)/2b is the probability that un−1+vn−1+1 ≥b, when un−1 and vn−1 are independently and uniformly distributed integers in the range 0 ≤un−1, vn−1 < b.
 To obtain further information about these quantities pnk and qnk, we set up
 the generating functions
 P(z, t) =
@@ -21477,13 +20580,13 @@ Now let us put z = 1 and expand in partial fractions:
 n
 G′
 n(1)tn = t
-2
+
 
-1
+
 (1−t)2 −
-1
+
 (b−1)(1−t) +
-1
+
 (b−1)(b−t)
 
 ,
@@ -21491,30 +20594,28 @@ n(1)tn = t
 n
 G′′
 n(1)tn = t2
-2
+
 
-1
+
 (1−t)3 −
-1
+
 (b−1)2(1−t) +
-1
+
 (b−1)2(b−t) +
-1
+
 (b−1)(b−t)2
 
 .
 
-
-278
 ARITHMETIC
 4.3.1
 It follows that the average number of carries, the mean value of K, is
 G′
 n(1) = 1
-2
+
 
 n −
-1
+
 b −1
 
 1 −
@@ -21529,7 +20630,7 @@ n(1) + G′
 n(1) −G′
 n(1)2
 = 1
-4
+
 
 n +
 2n
@@ -21540,7 +20641,7 @@ b −1 −2b + 1
 b
 n
 −
-1
+
 (b −1)2
 1
 b
@@ -21588,7 +20689,7 @@ The idea is to find some initial approximation x0 to the number 1/v, then to let
 
 4.3.1
 THE CLASSICAL ALGORITHMS
-279
+
 xn+1 = 2xn −vx2
 n. This method converges rapidly to 1/v, since xn = (1 −ϵ)/v
 implies that xn+1 = (1 −ϵ2)/v. Convergence to third order, with ϵ replaced by
@@ -21601,8 +20702,7 @@ xn+1 = xn + xn(1 −vxn) + xn(1 −vxn)2
 ,
 and similar formulas hold for fourth-order convergence, etc.; see P. Rabinowitz,
 CACM 4 (1961), 98. For calculations on extremely large numbers, Newton’s
-second-order method and subsequent multiplication by u can actually be consid-
-erably faster than Algorithm D, if we increase the precision of xn at each step and
+second-order method and subsequent multiplication by u can actually be considerably faster than Algorithm D, if we increase the precision of xn at each step and
 if we also use the fast multiplication routines of Section 4.3.3. (See Algorithm
 4.3.3R for details.) Some related iterative schemes have been discussed by E. V.
 Krishnamurthy, IEEE Trans. C-19 (1970), 227–231.
@@ -21640,12 +20740,10 @@ subroutines for use in FORTRAN programs were described by B. I. Blum, CACM
 8 (1965), 318–320, and for use in ALGOL by M. Tienari and V. Suokonautio,
 BIT 6 (1966), 332–338. Arithmetic on integers with unlimited precision, making
 use of linked memory allocation techniques, was elegantly introduced by G. E.
-Collins, CACM 9 (1966), 578–589. For a much larger repertoire of multiple-
-precision operations, including logarithms and trigonometric functions, see R. P.
+Collins, CACM 9 (1966), 578–589. For a much larger repertoire of multipleprecision operations, including logarithms and trigonometric functions, see R. P.
 Brent, ACM Trans. Math. Software 4 (1978), 57–81; D. M. Smith, ACM Trans.
 Math. Software 17 (1991), 273–283, 24 (1998), 359–367.
-Human progress in calculation has traditionally been measured by the num-
-ber of decimal digits of π that were known at a given point in history. Section 4.1
+Human progress in calculation has traditionally been measured by the number of decimal digits of π that were known at a given point in history. Section 4.1
 mentions some of the early developments; by 1719, Thomas Fantet de Lagny
 had computed π to 127 decimal places [Mémoires Acad. Sci. (Paris, 1719), 135–
 145; a typographical error affected the 113th digit]. After better formulas were
@@ -21655,11 +20753,8 @@ needed less than two months to calculate 200 decimal digits correctly in 1844
 1853, and continued to extend his calculations until he had obtained 707 digits
 in 1873. [See W. Shanks, Contributions to Mathematics (London: 1853); Proc.
 Royal Soc. London 21 (1873), 318–319; 22 (1873), 45–46; J. C. V. Hoffmann,
-Zeit. für math. und naturwiss. Unterricht 26 (1895), 261–264.] Shanks’s 707-
-place value was widely quoted in mathematical reference books for many years,
+Zeit. für math. und naturwiss. Unterricht 26 (1895), 261–264.] Shanks’s 707place value was widely quoted in mathematical reference books for many years,
 
-
-280
 ARITHMETIC
 4.3.1
 but D. F. Ferguson noticed in 1945 that it contained several mistakes beginning
@@ -21694,12 +20789,10 @@ in July, 1997, using two independent methods that required respectively 29.0 and
 and S. Kondo using the Chudnovsky formula together with exercise 39.
 We have restricted our discussion in this section to arithmetic techniques for
 use in computer programming. Many algorithms for hardware implementation
-of arithmetic operations are also quite interesting, but they appear to be inap-
-plicable to high-precision software routines; see, for example, G. W. Reitwiesner,
+of arithmetic operations are also quite interesting, but they appear to be inapplicable to high-precision software routines; see, for example, G. W. Reitwiesner,
 “Binary Arithmetic,” Advances in Computers 1 (New York: Academic Press,
 1960), 231–308; O. L. MacSorley, Proc. IRE 49 (1961), 67–91; G. Metze, IRE
-Trans. EC-11 (1962), 761–764; H. L. Garner, “Number Systems and Arith-
-metic,” Advances in Computers 6 (New York: Academic Press, 1965), 131–
+Trans. EC-11 (1962), 761–764; H. L. Garner, “Number Systems and Arithmetic,” Advances in Computers 6 (New York: Academic Press, 1965), 131–
 194. An infamous but very instructive bug in the division routine of the 1994
 Pentium chip is discussed by A. Edelman in SIAM Review 39 (1997), 54–67. The
 minimum achievable execution time for hardware addition and multiplication
@@ -21713,7 +20806,7 @@ the writings of, say, Sun Tsu, al-Khwarizmi , al-Uqli disi , Fibonacci, and Robe
 
 4.3.1
 THE CLASSICAL ALGORITHMS
-281
+
 and by translating their methods as faithfully as possible into precise algorithmic
 notation.
 2. [15] Generalize Algorithm A so that it does “column addition,” obtaining the
@@ -21745,8 +20838,7 @@ between 0 and bn −1.)
 8. [M26] Write a MIX program for the algorithm of exercise 5, and determine its
 average running time based on the expected number of carries as computed in the text.
 x
-9. [21] Generalize Algorithm A to obtain an algorithm that adds two n-place num-
-bers in a mixed-radix number system, with bases b0, b1, . . . (from right to left). Thus
+9. [21] Generalize Algorithm A to obtain an algorithm that adds two n-place numbers in a mixed-radix number system, with bases b0, b1, . . . (from right to left). Thus
 the least significant digits lie between 0 and b0 −1, the next digits lie between 0 and
 b1 −1, etc.; see Eq. 4.1–(9).
 10. [18] Would Program S work properly if the instructions on lines 06 and 07 were
@@ -21759,12 +20851,9 @@ anyway, and we would find that an extra borrow is still present at the end of th
 algorithm. Design another algorithm that could be used (if there is a borrow present
 at the end of Algorithm S) to complement (wn−1 . . . w1w0)b and therefore to obtain
 the absolute value of the difference of u and v.
-13. [21] Write a MIX program that multiplies (un−1 . . . u1u0)b by v, where v is a single-
-precision number (that is, 0 ≤v < b), producing the answer (wn . . . w1w0)b. How much
+13. [21] Write a MIX program that multiplies (un−1 . . . u1u0)b by v, where v is a singleprecision number (that is, 0 ≤v < b), producing the answer (wn . . . w1w0)b. How much
 running time is required?
 
-
-282
 ARITHMETIC
 4.3.1
 x 14. [M22] Give a formal proof of the validity of Algorithm M, using the method of
@@ -21806,8 +20895,7 @@ d = 1, we can omit most of the calculation in steps D1 and D8.)
 27. [M20] Prove that at the beginning of step D8 in Algorithm D, the unnormalized
 remainder (un−1 . . . u1u0)b is always an exact multiple of d.
 28. [M30] (A. Svoboda, Stroje na Zpracování Informací 9 (1963), 25–32.) Let v =
-(vn−1 . . . v1v0)b be any radix b integer, where vn−1 ̸= 0. Perform the following opera-
-tions:
+(vn−1 . . . v1v0)b be any radix b integer, where vn−1 ̸= 0. Perform the following operations:
 N1. If vn−1 < b/2, multiply v by ⌊(b + 1)/(vn−1 + 1)⌋. Let the result of this step
 be (vnvn−1 . . . v1v0)b.
 N2. If vn = 0, set v ←v + (1/b)⌊b(b −vn−1)/(vn−1 + 1)⌋v; let the result of this
@@ -21816,7 +20904,7 @@ step be (vnvn−1 . . . v0.v−1 . . . )b. Repeat step N2 until vn ̸= 0.
 
 4.3.1
 THE CLASSICAL ALGORITHMS
-283
+
 Prove that step N2 will be performed at most three times, and that we must always
 have vn = 1, vn−1 = 0 at the end of the calculations.
 [Note: If u and v are both multiplied by the constants above, we do not change
@@ -21845,8 +20933,7 @@ the quater-imaginary number system. Design algorithms that divide u by v, perhap
 obtaining a suitable remainder of some sort, and compare their efficiency.
 33. [M40] Design an algorithm for taking square roots, analogous to Algorithm D
 and to the traditional pencil-and-paper method for extracting square roots.
-34. [40] Develop a set of computer subroutines for doing the four arithmetic opera-
-tions on arbitrary integers, putting no constraint on the size of the integers except for
+34. [40] Develop a set of computer subroutines for doing the four arithmetic operations on arbitrary integers, putting no constraint on the size of the integers except for
 the implicit assumption that the total memory capacity of the computer should not be
 exceeded. (Use linked memory allocation, so that no time is wasted in finding room to
 put the results.)
@@ -21869,8 +20956,6 @@ to compute the geometric mean ⌊√uv + 1
 subtraction, and comparison of (n+2)-bit numbers. [Hint: Use a “pipeline” to combine
 the classical methods of multiplication and square rooting.]
 
-
-284
 ARITHMETIC
 4.3.1
 39. [25] (D. Bailey, P. Borwein, and S. Plouffe, 1996.) Explain how to compute the
@@ -21879,16 +20964,16 @@ using the identity
 π =
 
 k≥0
-1
+
 16k
 
-4
+
 8k + 1 −
-2
+
 8k + 4 −
-1
+
 8k + 5 −
-1
+
 8k + 6
 
 and doing O(n log n) arithmetic operations on O(log n)-bit integers. (Assume that the
@@ -21897,8 +20982,7 @@ binary digits of π do not have surprisingly long stretches of consecutive 0s or
 will be zero. Show that if u is a 2n-place number and v is an n-place number with
 u mod v = 0, we can save about 75% of the work of Algorithm D if we compute half of
 the quotient from left to right and the other half from right to left.
-x 41. [M26] Many applications of high-precision arithmetic require repeated calcula-
-tions modulo a fixed n-place number w, where w is relatively prime to the base b. We
+x 41. [M26] Many applications of high-precision arithmetic require repeated calculations modulo a fixed n-place number w, where w is relatively prime to the base b. We
 can speed up such calculations by using a trick due to Peter L. Montgomery [Math.
 Comp. 44 (1985), 519–521], which streamlines the remaindering process by essentially
 working from right to left instead of left to right.
@@ -21911,7 +20995,7 @@ c) How do the algorithms of (a) and (b) facilitate arithmetic mod w?
 42. [HM35] Given m and b, let Pnk be the probability that ⌊(u1 + · · · + um)/bn⌋= k,
 when u1, . . . , um are random n-place integers in radix b. (This is the distribution of
 wn in the column addition algorithm of exercise 2.) Show that Pnk =
-1
+
 m!
 m
 k
@@ -21947,7 +21031,7 @@ division; and it is important to note that no information is lost in this proces
 
 4.3.2
 MODULAR ARITHMETIC
-285
+
 u isn’t too large), since we can recompute u from (u1, u2, . . . , ur). For example,
 if 0 ≤u < v ≤1000, it is impossible to have (u mod 7, u mod 11, u mod 13)
 equal to (v mod 7, v mod 11, v mod 13). This is a consequence of the “Chinese
@@ -21990,8 +21074,7 @@ of conversion to and from the modular representation are available. Therefore
 conversion between modular and positional notation is one of the principal topics
 of interest to us in this section.
 The processes of addition, subtraction, and multiplication using (2), (3),
-and (4) are called residue arithmetic or modular arithmetic. The range of num-
-bers that can be handled by modular arithmetic is equal to m = m1m2 . . . mr,
+and (4) are called residue arithmetic or modular arithmetic. The range of numbers that can be handled by modular arithmetic is equal to m = m1m2 . . . mr,
 the product of the moduli; and if each mj is near our computer’s word size we
 can deal with n-place numbers when r ≈n. Therefore we see that the amount
 of time required to add, subtract, or multiply n-place numbers using modular
@@ -22000,14 +21083,11 @@ and out of modular representation). This is no advantage at all when addition
 and subtraction are considered, but it can be a considerable advantage with
 respect to multiplication since the conventional method of Section 4.3.1 requires
 an execution time proportional to n2.
-Moreover, on a computer that allows many operations to take place simul-
-taneously, modular arithmetic can be a significant advantage even for addition
+Moreover, on a computer that allows many operations to take place simultaneously, modular arithmetic can be a significant advantage even for addition
 and subtraction; the operations with respect to different moduli can all be done
 at the same time, so we obtain a substantial increase in speed. The same kind of
 decrease in execution time could not be achieved by the conventional techniques
 
-
-286
 ARITHMETIC
 4.3.2
 discussed in the previous section, since carry propagation must be considered.
@@ -22068,7 +21148,7 @@ satisfies all the conditions of (6).
 
 4.3.2
 MODULAR ARITHMETIC
-287
+
 A very special case of this theorem was stated by the Chinese mathematician
 Sun Tsu, who gave a rule called tái-yen (“great generalization”). The date of
 his writing is very uncertain; it is thought to be between A.D. 280 and 473.
@@ -22123,8 +21203,6 @@ m6 = 83,
 (13)
 and so on.
 
-
-288
 ARITHMETIC
 4.3.2
 On binary computers it is sometimes desirable to choose the mj in a different
@@ -22188,7 +21266,7 @@ modular representation (u1, . . . , ur) may be obtained by simply dividing u by
 
 4.3.2
 MODULAR ARITHMETIC
-289
+
 m1, . . . , mr and saving the remainders. A possibly more attractive procedure,
 if u = (vmvm−1 . . . v0)b, is to evaluate the polynomial
 
@@ -22237,13 +21315,11 @@ what we wished to avoid by modular arithmetic in the first place.
 So we need an even better proof of Theorem C if we are going to have a
 really usable method of conversion from (u1, . . . , ur) to u. Such a method was
 
-
-290
 ARITHMETIC
 4.3.2
 suggested by H. L. Garner in 1958; it can be carried out using
 r
-2
+
 
 constants cij
 for 1 ≤i < j ≤r, where
@@ -22277,8 +21353,7 @@ u ≡uj (modulo mj)
 for 1 ≤j ≤r.
 (26)
 (See exercise 8; another way of rewriting (24) that does not involve as many
-auxiliary constants is given in exercise 7.) Equation (25) is a mixed-radix repre-
-sentation of u, which can be converted to binary or decimal notation using the
+auxiliary constants is given in exercise 7.) Equation (25) is a mixed-radix representation of u, which can be converted to binary or decimal notation using the
 methods of Section 4.4. If 0 ≤u < m is not the desired range, an appropriate
 multiple of m can be added or subtracted after the conversion process.
 The advantage of the computation shown in (24) is that the calculation
@@ -22289,8 +21364,7 @@ for 1 ≤j < r we simultaneously set vk ←(vk −vj)cjk mod mk for j < k ≤r.
 An alternative way to compute the mixed-radix representation, allowing similar
 possibilities for parallelism, has been discussed by A. S. Fraenkel, Proc. ACM
 Nat. Conf. 19 (Philadelphia: 1964), E1.4.
-It is important to observe that the mixed-radix representation (25) is suffi-
-cient to compare the magnitudes of two modular numbers. For if we know that
+It is important to observe that the mixed-radix representation (25) is sufficient to compare the magnitudes of two modular numbers. For if we know that
 0 ≤u < m and 0 ≤u′ < m, then we can tell if u < u′ by first doing the
 conversion to (v1, . . . , vr) and (v′
 1, . . . , v′
@@ -22311,7 +21385,7 @@ way to make this test than the conversion to mixed-radix form. But the following
 
 4.3.2
 MODULAR ARITHMETIC
-291
+
 theorem shows that there is little hope of finding a substantially better method,
 since the range of a modular number depends essentially on all bits of all the
 residues (u1, . . . , ur):
@@ -22341,9 +21415,7 @@ Of course, a similar result can be proved for any mj in place of m1; and we
 could also replace (29) by the condition “a ≤u < a + L ≤v < a + m” with
 only minor changes in the proof. Therefore Theorem S shows that many simple
 functions cannot be used to determine the range of a modular number.
-Let us now reiterate the main points of the discussion in this section: Mod-
-ular arithmetic can be a significant advantage for applications in which the pre-
-dominant calculations involve exact multiplication (or raising to a power) of
+Let us now reiterate the main points of the discussion in this section: Modular arithmetic can be a significant advantage for applications in which the predominant calculations involve exact multiplication (or raising to a power) of
 large integers, combined with addition and subtraction, but where there is very
 little need to divide or compare numbers, or to test whether intermediate results
 “overflow” out of range.
@@ -22359,12 +21431,9 @@ be solved independently modulo each mj. A detailed discussion of this procedure
 has been given by I. Borosh and A. S. Fraenkel [Math. Comp. 20 (1966), 107–
 112], with further improvements by A. S. Fraenkel and D. Loewenthal [J. Res.
 National Bureau of Standards 75B (1971), 67–75]. By means of their method,
-the nine independent solutions of a system of 111 linear equations in 120 un-
-knowns were obtained exactly in less than 20 minutes on a CDC 1604 computer.
+the nine independent solutions of a system of 111 linear equations in 120 unknowns were obtained exactly in less than 20 minutes on a CDC 1604 computer.
 The same procedure is worthwhile also for solving simultaneous linear equations
 
-
-292
 ARITHMETIC
 4.3.2
 with floating point coefficients, when the matrix of coefficients is ill-conditioned.
@@ -22381,8 +21450,7 @@ first published by A. Svoboda and M. Valach in the Czechoslovakian journal
 Stroje na Zpracování Informací (Information Processing Machines) 3 (1955),
 247–295; then independently by H. L. Garner [IRE Trans. EC-8 (1959), 140–
 147]. The use of moduli of the form 2ej −1 was suggested by A. S. Fraenkel
-[JACM 8 (1961), 87–96], and several advantages of such moduli were demon-
-strated by A. Schönhage [Computing 1 (1966), 182–196]. See the book Residue
+[JACM 8 (1961), 87–96], and several advantages of such moduli were demonstrated by A. Schönhage [Computing 1 (1966), 182–196]. See the book Residue
 Arithmetic and Its Applications to Computer Technology by N. S. Szabó and
 R. I. Tanaka (New York: McGraw–Hill, 1967), for additional information and a
 comprehensive bibliography of the subject. A Russian book published in 1968
@@ -22400,8 +21468,7 @@ u mod 11 = 6, u mod 13 = 5, 0 ≤u < 1000.
 2. [M20] Would Theorem C still be true if we allowed a, u1, u2, . . . , ur and u to be
 arbitrary real numbers (not just integers)?
 x
-3. [M26] (Generalized Chinese Remainder Theorem.) Let m1, m2, . . . , mr be posi-
-tive integers. Let m be the least common multiple of m1, m2, . . . , mr, and let a, u1,
+3. [M26] (Generalized Chinese Remainder Theorem.) Let m1, m2, . . . , mr be positive integers. Let m be the least common multiple of m1, m2, . . . , mr, and let a, u1,
 u2, . . . , ur be any integers. Prove that there is exactly one integer u that satisfies the
 conditions
 a ≤u < a + m,
@@ -22420,7 +21487,7 @@ chosen. Does this “greedy” method give the largest attainable value m1m2 . .
 
 4.3.2
 MODULAR ARITHMETIC
-293
+
 that the mj are odd positive integers less than 100 that are relatively prime in pairs?
 (b) What is the largest possible m1m2 . . . mr when each residue uj must fit in eight
 bits of memory?
@@ -22439,8 +21506,7 @@ v3 ←(u3 −(v1 + m1v2)) c13c23 mod m3,
 vr ←(ur −(v1 + m1(v2 + m2(v3 + · · · + mr−2vr−1) . . . ))) c1r . . . c(r−1)r mod mr.
 If the formulas are rewritten in this way, we see that only r −1 constants Cj =
 c1j . . . c(j−1)j mod mj are needed instead of r(r −1)/2 constants cij as in (24). Discuss
-the relative merits of this version of the formula as compared to (24), from the stand-
-point of computer calculation.
+the relative merits of this version of the formula as compared to (24), from the standpoint of computer calculation.
 8. [M21] Prove that the number u defined by (24) and (25) satisfies (26).
 9. [M20] Show how to go from the values v1, . . . , vr of the mixed-radix notation (25)
 back to the original residues u1, . . . , ur, using only arithmetic mod mj to compute the
@@ -22466,8 +21532,6 @@ a) Prove that an n-digit number x > 1 is an automorph if and only if x mod 5n =
 0 or 1 and x mod 2n = 1 or 0, respectively. (Thus, if m1 = 2n and m2 = 5n, the
 only two n-digit automorphs are the numbers M1 and M2 in (7).)
 
-
-294
 ARITHMETIC
 4.3.2
 b) Prove that if x is an n-digit automorph, then (3x2 −2x3) mod 102n is a 2n-digit
@@ -22500,8 +21564,7 @@ using an appropriate cyclic convolution.
 [Hint: Do not be afraid of floating point
 arithmetic.]
 *4.3.3. How Fast Can We Multiply?
-The conventional procedure for multiplication in positional number systems, Al-
-gorithm 4.3.1M, requires approximately cmn operations to multiply an m-place
+The conventional procedure for multiplication in positional number systems, Algorithm 4.3.1M, requires approximately cmn operations to multiply an m-place
 number by an n-place number, where c is a constant. In this section, let us
 assume for convenience that m = n, and let us consider the following question:
 Does every general computer algorithm for multiplying two n-place numbers
@@ -22528,14 +21591,13 @@ v = 2nV1 + V0,
 
 4.3.3
 HOW FAST CAN WE MULTIPLY?
-295
+
 where U1 = (u2n−1 . . . un)2 is the “most significant half” of the number u and
 U0 = (un−1 . . . u0)2 is the “least significant half”; similarly V1 = (v2n−1 . . . vn)2
 and V0 = (vn−1 . . . v0)2. Now we have
 uv = (22n + 2n)U1V1 + 2n(U1 −U0)(V0 −V1) + (2n + 1)U0V0.
 (2)
-This formula reduces the problem of multiplying 2n-bit numbers to three mul-
-tiplications of n-bit numbers, namely U1V1, (U1 −U0)(V0 −V1), and U0V0, plus
+This formula reduces the problem of multiplying 2n-bit numbers to three multiplications of n-bit numbers, namely U1V1, (U1 −U0)(V0 −V1), and U0V0, plus
 some simple shifting and adding operations.
 Formula (2) can be used to multiply double-precision inputs when we want
 a quadruple-precision result, and it will be just a little faster than the traditional
@@ -22588,8 +21650,6 @@ u = (u(r+1)n−1 . . . u1u0)2
 and
 v = (v(r+1)n−1 . . . v1v0)2
 
-
-296
 ARITHMETIC
 4.3.3
 be broken into r + 1 pieces,
@@ -22606,16 +21666,14 @@ W(x) = U(x)V (x) = W2rx2r + · · · + W1x + W0.
 Since u = U(2n) and v = V (2n), we have uv = W(2n), so we can easily compute
 uv if we know the coefficients of W(x).
 The problem is to find a good way
-to compute the coefficients of W(x) by using only 2r + 1 multiplications of n-
-bit numbers plus some further operations that involve only an execution time
+to compute the coefficients of W(x) by using only 2r + 1 multiplications of nbit numbers plus some further operations that involve only an execution time
 proportional to n. This can be done by computing
 U(0)V (0) = W(0),
 U(1)V (1) = W(1),
 . . . ,
 U(2r)V (2r) = W(2r).
 (10)
-The coefficients of a polynomial of degree 2r can be written as a linear com-
-bination of the values of that polynomial at 2r + 1 distinct points; computing
+The coefficients of a polynomial of degree 2r can be written as a linear combination of the values of that polynomial at 2r + 1 distinct points; computing
 such a linear combination requires an execution time at most proportional to n.
 (Actually, the products U(j)V (j) are not strictly products of n-bit numbers,
 but they are products of at most (n + t)-bit numbers, where t is a fixed value
@@ -22648,7 +21706,7 @@ to show that computer circuitry for the multiplication of n-bit numbers can be
 
 4.3.3
 HOW FAST CAN WE MULTIPLY?
-297
+
 constructed with a fairly small number of components as n grows. S. A. Cook
 [On the Minimum Computation Time of Functions (Thesis, Harvard University,
 1966), 51–77] showed later that Toom’s method can be adapted to fast computer
@@ -22693,16 +21751,16 @@ where xk = x(x −1) . . . (x −k + 1), and where the coefficients aj are unkno
 The falling factorial powers have the important property that
 W(x + 1) −W(x) = (m −1)am−1 xm−2 + (m −2)am−2 xm−3 + · · · + a1;
 hence by induction we find that, for all k ≥0,
-1
+
 k!
 
 W(x+k) −
 k
-1
+
 
 W(x+k−1) +
 k
-2
+
 
 W(x+k−2) −· · · + (−1)kW(x)
 
@@ -22721,35 +21779,32 @@ k
 ak.
 (15)
 Denoting the left-hand side of (15) by (1/k!) ∆k W(x), we see that
-1
+
 k!∆k W(x) = 1
 k
 
-1
+
 (k −1)!∆k−1W(x + 1) −
-1
+
 (k −1)!∆k−1W(x)
 
 
-
-298
 ARITHMETIC
 4.3.3
 and (1/k!) ∆k W(0) = ak. So the coefficients aj can be evaluated using a very
 simple method, illustrated here for the polynomial W(x) in (13):
-10
-294
-304
+
+
 1382/2 = 691
-1676
+
 1023/3 = 341
-1980
+
 3428/2 = 1714
 144/4 = 36
 (16)
-5104
+
 1455/3 = 485
-7084
+
 6338/2 = 3169
 11442
 18526
@@ -22773,26 +21828,20 @@ W(x)=
 x+a0,
 and this formula shows how the coefficients Wm−1, . . . , W1, W0 can be obtained
 from the a’s:
-36
-341
+
+
 −3 · 36
-36
-233
-691
+
+
 −2 · 36
 −2 · 233
-36
-161
-225
-294
+
+
 −1 · 36
 −1 · 161
 −1 · 225
-36
-125
-64
-69
-10
+
+
 (18)
 Here the numbers below the horizontal lines successively show the coefficients of
 the polynomials
@@ -22816,25 +21865,24 @@ n
 
 xn + · · · +
 n
-1
+
 
 x1 +
 n
-0
+
 
 ,
 
 
 4.3.3
 HOW FAST CAN WE MULTIPLY?
-299
+
 shows that if the coefficients of W(x) are nonnegative, so are the numbers aj,
 and in such a case all of the intermediate results in the computation above are
 nonnegative. This further simplifies the Toom–Cook multiplication algorithm,
 which we will now consider in detail. (Impatient readers should, however, skip
 to subsection C below.)
-Algorithm T (High-precision multiplication of binary numbers). Given a pos-
-itive integer n and two nonnegative n-bit integers u and v, this algorithm forms
+Algorithm T (High-precision multiplication of binary numbers). Given a positive integer n and two nonnegative n-bit integers u and v, this algorithm forms
 their 2n-bit product, w. Four auxiliary stacks are used to hold the long numbers
 that are manipulated during the procedure:
 Stacks U, V :
@@ -22848,8 +21896,7 @@ code-1, code-2, and code-3. The algorithm also constructs an auxiliary table of
 numbers qk, rk; this table is maintained in such a manner that it may be stored
 as a linear list, where a single pointer that traverses the list (moving back and
 forth) can be used to access the current table entry of interest.
-(Stacks C and W are used to control the recursive mechanism of this multi-
-plication algorithm in a reasonably straightforward manner that is a special case
+(Stacks C and W are used to control the recursive mechanism of this multiplication algorithm in a reasonably straightforward manner that is a special case
 of general procedures discussed in Chapter 8.)
 T1. [Compute q, r tables.] Set stacks U, V, C, and W empty. Set
 k ←1,
@@ -22874,28 +21921,16 @@ Q ⌋does not require a square root to be taken, since we may simply
 set R ←R + 1 if (R + 1)2 ≤Q and leave R unchanged if (R + 1)2 > Q;
 see exercise 2. In this step we build the sequences
 k = 0
-1
-2
-3
-4
-5
-6
+
+
 . . .
 qk = 24
-24
-26
-28
-210
-213
-216
+
+
 . . .
 rk = 22
-22
-22
-22
-23
-23
-24
+
+
 . . .
 The multiplication of 70000-bit numbers would cause this step to terminate
 with k = 6, since 70000 < 213 + 216.
@@ -22907,8 +21942,6 @@ contains two 32-bit numbers, u and v; remove them, set w ←uv using
 a built-in routine for multiplying 32-bit numbers, and go to step T10. If
 k > 0, set r ←rk, q ←qk, p ←qk−1 + qk, and go on to step T4.
 
-
-300
 ARITHMETIC
 4.3.3
 T1. Compute
@@ -22974,7 +22007,7 @@ bottom to top, where each W(j) is a 2p-bit number.)
 
 4.3.3
 HOW FAST CAN WE MULTIPLY?
-301
+
 Now for j = 1, 2, 3, . . . , 2r, perform the following loop: For t = 2r,
 2r −1, 2r −2, . . . , j, set W(t) ←
 
@@ -23041,8 +22074,6 @@ tk ≤Cqk+122.5
 lg qk+1
 (20)
 
-
-302
 ARITHMETIC
 4.3.3
 for some constant C. Let us choose C > 20c, and let us also take C large enough
@@ -23081,7 +22112,7 @@ Qk + ⌊
 Qk⌋−
 √
 Qk →1
-2
+
 as k →∞. It follows that we can find k0 such that η2 < 0.95 for all k > k0, and
 this completes the proof of (20) by induction.
 Finally, therefore, we are ready to estimate T(n). Since n > qk−1 + qk−2,
@@ -23112,8 +22143,7 @@ Since n23.5
 √
 lg n = n1+3.5/
 √
-lg n, this result is noticeably stronger than The-
-orem A. By adding a few complications to the algorithm, pushing the ideas to
+lg n, this result is noticeably stronger than Theorem A. By adding a few complications to the algorithm, pushing the ideas to
 their apparent limits (see exercise 5), we can improve the estimated execution
 time to
 T(n) = O(n2
@@ -23134,7 +22164,7 @@ q0 = 1,
 qk+1 = 3qk −1,
 (22)
 so that qk = 3k −3k−1 −· · · −1 =
-1
+
 2(3k + 1).
 We will study a procedure
 that multiplies pk-bit numbers, where pk = (18qk + 8), in terms of a method
@@ -23142,7 +22172,7 @@ that multiplies pk-bit numbers, where pk = (18qk + 8), in terms of a method
 
 4.3.3
 HOW FAST CAN WE MULTIPLY?
-303
+
 for multiplying pk−1-bit numbers. Thus, if we know how to multiply numbers
 having p0 = 26 bits, the procedure to be described will show us how to multiply
 numbers of p1 = 44 bits, then 98 bits, then 260 bits, etc., eventually increasing
@@ -23186,10 +22216,8 @@ Since pk = 3k+2 + 17, we can show that the time for n-bit multiplication is
 T(n) = O(nlog3 6) = O(n1.631).
 (25)
 (See exercise 7.)
-Although the modular method is more complicated than the O(nlg 3) pro-
-cedure discussed at the beginning of this section, Eq. (25) shows that it does,
-in fact, lead to an execution time substantially better than O(n2) for the multi-
-plication of n-bit numbers. Thus we have seen how to improve on the classical
+Although the modular method is more complicated than the O(nlg 3) procedure discussed at the beginning of this section, Eq. (25) shows that it does,
+in fact, lead to an execution time substantially better than O(n2) for the multiplication of n-bit numbers. Thus we have seen how to improve on the classical
 method by using either of two completely different approaches.
 Let us now analyze operation (d) above. Assume that we are given a set of
 positive integers e1 < e2 < · · · < er, relatively prime in pairs; let
@@ -23199,8 +22227,6 @@ m2 = 2e2 −1,
 mr = 2er −1.
 (26)
 
-
-304
 ARITHMETIC
 4.3.3
 We are also given numbers w1, . . . , wr such that 0 ≤wj ≤mj. Our job is to
@@ -23228,7 +22254,7 @@ w =
 . . . (w′
 rmr−1 + w′
 r−1) mr−2 + · · · + w′
-2
+
 
 m1 + w′
 1.
@@ -23237,12 +22263,12 @@ Here cij is a number such that cijmi ≡1 (modulo mj); these numbers cij are
 not given, they must be determined from the ej’s.
 The calculation of (28) for all j involves
 r
-2
+
 
 additions modulo mj, each
 of which takes O(er) cycles, plus
 r
-2
+
 
 multiplications by cij, modulo mj. The
 calculation of w by formula (29) involves r additions and r multiplications by mj;
@@ -23288,7 +22314,7 @@ that the number c[2b] can be obtained in a simple way from c[b]. This suggests
 
 4.3.3
 HOW FAST CAN WE MULTIPLY?
-305
+
 that we can rapidly multiply a number u by c[b] if we build c[b]u up in lg b steps
 in a suitably clever manner, such as the following: Suppose b is
 b = (bs . . . b2b1b0)2
@@ -23334,8 +22360,7 @@ The critical problem in high-precision
 multiplication is the determination of “convolution products” such as
 urv0 + ur−1v1 + · · · + u0vr,
 (34)
-and there is an intimate relation between convolutions and an important math-
-ematical concept called “Fourier transformation.” If ω = exp(2πi/K) is a Kth
+and there is an intimate relation between convolutions and an important mathematical concept called “Fourier transformation.” If ω = exp(2πi/K) is a Kth
 root of unity, the one-dimensional Fourier transform of the sequence of complex
 numbers (u0, u1, . . . , uK−1) is defined to be the sequence (ˆu0, ˆu1, . . . , ˆuK−1),
 where
@@ -23355,8 +22380,6 @@ i+j≡r (modulo K)
 uivj.
 (36)
 
-
-306
 ARITHMETIC
 4.3.3
 When K ≥2n −1 and un = un+1 = · · · = uK−1 = vn = vn+1 = · · · =
@@ -23410,7 +22433,7 @@ result (39). Section 4.6.4 contains further discussion of transforms such as thi
 
 4.3.3
 HOW FAST CAN WE MULTIPLY?
-307
+
 To get the inverse Fourier transform (u0, . . . , uK−1) from the values of
 (ˆu0, . . . , ˆuK−1), notice that the “double transform” is
 ˆˆur =
@@ -23433,8 +22456,7 @@ ut
 (40)
 since the geometric series 
 0≤s<K ωsj sums to zero unless j is a multiple of K.
-Therefore the inverse transform can be computed in the same way as the trans-
-form itself, except that the final results must be divided by K and shuffled
+Therefore the inverse transform can be computed in the same way as the transform itself, except that the final results must be divided by K and shuffled
 slightly.
 Returning to the problem of integer multiplication, suppose we wish to
 compute the product of two n-bit integers u and v.
@@ -23479,8 +22501,6 @@ uivj =
 i+j=r
 UiVj/22k+2l,
 
-
-308
 ARITHMETIC
 4.3.3
 Table 1
@@ -23491,54 +22511,43 @@ s
 214 ˆws
 214 ˆˆws
 214ws = Ws
-0
-19
-16
-304
-80
-10
-1
+
+
 2 + 4i + 13ω
 5 + 9i + 2ω
 −26 + 64i + 69ω −125¯ω
-0
-69
-2
+
+
 −2 + 13i
 −4 + 2i
 −18 −56i
-0
-64
-3
+
+
 2 −4i −13¯ω
 5 −9i −2¯ω
 −26 −64i + 125ω −69¯ω
-0
-125
-4
+
+
 −7
-12
+
 −84
-288
-36
-5
+
+
 2 + 4i −13ω
 5 + 9i −2ω
 −26 + 64i −69ω + 125¯ω
-1000
-0
-6
+
+
 −2 −13i
 −4 −2i
 −18 + 56i
-512
-0
-7
+
+
 2 −4i + 13¯ω
 5 −9i + 2¯ω
 −26 −64i −125ω + 69¯ω
-552
-0
+
+
 so the integers Wr = 22k+2lwr are the coefficients in the desired product
 u · v = WK−2 LK−2 + · · · + W1L + W0.
 (44)
@@ -23555,34 +22564,22 @@ see (12)
 (r, s, t) = (0, 0, 0) (0, 0, 1) (0, 1, 0)
 (0, 1, 1) (1, 0, 0) (1, 0, 1) (1, 1, 0) (1, 1, 1)
 27A[0](r, s, t) =
-2
-13
-4
-0
-0
-0
-0
-0
+
+
 27A[1](r, s, t) =
-2
-13
-4
-0
-2
-13
-4
-0
+
+
 27A[2](r, s, t) =
-6
-13
+
+
 −2
-13
+
 2 + 4i
-13
+
 2 −4i
-13
+
 27A[3](r, s, t) =
-19
+
 −7
 −2 + 13i −2 −13i
 α + β
@@ -23614,7 +22611,7 @@ a table of the values ω0, . . . , ωK−1. Let
 
 4.3.3
 HOW FAST CAN WE MULTIPLY?
-309
+
 so that ω1 = −1, ω2 = i, ω3 = (1 + i)/
 √
 2, . . . , ωk = ω. If ωr = xr + iyr and
@@ -23622,7 +22619,7 @@ r ≥2, we have ωr+1 = xr+1 + iyr+1 where
 xr+1 =
 
 1 + xr
-2
+
 ,
 yr+1 =
 yr
@@ -23634,7 +22631,7 @@ of ω1, ω2, . . . , ωk takes negligible time compared with the other computati
 we need, so we can use any straightforward algorithm for square roots. Once the
 ωr have been calculated we can compute all of the powers ωj by noting that
 ωj = ωjk−1
-1
+
 . . . ωj1
 k−1ωj0
 k
@@ -23693,8 +22690,6 @@ c′ + ωj(c′ −c)
 by starting with approximations ω′
 r to the numbers defined in (46), and we may
 
-
-310
 ARITHMETIC
 4.3.3
 assume that (46) is performed with sufficient precision to make |ω′
@@ -23733,11 +22728,9 @@ m ≥4k + 2l.
 Relations (41) and (52) can be used to determine parameters k, l, m so that
 multiplication takes O(n) + O(Mnk/l) units of time, where M is the time to
 multiply m-bit fractions.
-If we are using MIX, for example, suppose we want to multiply binary num-
-bers having n = 213 = 8192 bits each. We can choose k = 11, l = 8, m = 60,
+If we are using MIX, for example, suppose we want to multiply binary numbers having n = 213 = 8192 bits each. We can choose k = 11, l = 8, m = 60,
 so that the necessary m-bit operations are nothing more than double-precision
-arithmetic. The running time M needed to do fixed point m-bit complex multi-
-plication will therefore be comparatively small. With triple-precision operations
+arithmetic. The running time M needed to do fixed point m-bit complex multiplication will therefore be comparatively small. With triple-precision operations
 we can go up for example to k = l = 15, n ≤15 · 214, which takes us way beyond
 MIX’s memory capacity. On a larger machine we could multiply a pair of gigabit
 numbers if we took k = l = 27 and m = 144.
@@ -23750,13 +22743,12 @@ sextuple precision unless n is larger than the word size of our computer. (In
 particular, n would have to be larger than the capacity of an index register, so
 we probably couldn’t fit the numbers u and v in main memory.)
 The practical problem of fast multiplication is therefore solved, except for
-improvements in the constant factor. In fact, the all-integer convolution algo-
-rithm of exercise 4.6.4–59 is probably a better choice for practical high-precision
+improvements in the constant factor. In fact, the all-integer convolution algorithm of exercise 4.6.4–59 is probably a better choice for practical high-precision
 
 
 4.3.3
 HOW FAST CAN WE MULTIPLY?
-311
+
 multiplication. Our interest in multiplying large numbers is partly theoretical,
 however, because it is interesting to explore the ultimate limits of computational
 complexity.
@@ -23795,11 +22787,9 @@ also called “storage modification machines” and “linking automata”) seem
 provide the best models of computation when n →∞, as discussed at the end
 of Section 2.6. So we can conclude that multiplication in O(n) steps is possible
 for theoretical purposes as well as in practice.
-An unusual general-purpose computer called Little Fermat, with a spe-
-cial ability to multiply large integers rapidly, was designed in 1986 by D. V.
+An unusual general-purpose computer called Little Fermat, with a special ability to multiply large integers rapidly, was designed in 1986 by D. V.
 Chudnovsky, G. V. Chudnovsky, M. M. Denneau, and S. G. Younis. Its hardware
-featured fast arithmetic modulo 2256 + 1 on 257-bit words; a convolution of 256-
-word arrays could then be done using 256 single-word multiplications, together
+featured fast arithmetic modulo 2256 + 1 on 257-bit words; a convolution of 256word arrays could then be done using 256 single-word multiplications, together
 with three discrete transforms that required only addition, subtraction, and
 shifting.
 This made it possible to multiply two 106-bit integers in less than
@@ -23811,16 +22801,13 @@ Now that we have efficient routines for multiplication, let’s
 consider the inverse problem. It turns out that division can be performed just
 as fast as multiplication, except for a constant factor.
 
-
-312
 ARITHMETIC
 4.3.3
 To divide an n-bit number u by an n-bit number v, we can first find an
 n-bit approximation to 1/v, then multiply by u to get an approximation ˆq to
 u/v; finally, we can make the slight correction necessary to ˆq to ensure that
 0 ≤u −qv < v by using another multiplication. From this reasoning, we see
-that it suffices to have an efficient way to approximate the reciprocal of an n-
-bit number. The following algorithm does this, using “Newton’s method” as
+that it suffices to have an efficient way to approximate the reciprocal of an nbit number. The following algorithm does this, using “Newton’s method” as
 explained at the end of Section 4.3.1.
 Algorithm R (High-precision reciprocal). Let v have the binary representation
 v = (0.v1v2v3 . . .)2, where v1 = 1. This algorithm computes an approximation z
@@ -23873,7 +22860,7 @@ k ≤(2−2k)2 = 2−2k+1, and
 
 4.3.3
 HOW FAST CAN WE MULTIPLY?
-313
+
 so |δk+1| ≤2−2k+1. We must still verify the first inequality of (55); to show that
 zk+1 ≤2, there are three cases:
 a) Vk = 1
@@ -23921,14 +22908,11 @@ fact that a linear iterative array can be constructed, independent of n, that wi
 output w0, w1, w2, . . . at times 1, 2, 3, . . . , if it is given the inputs (u0, v0, q0),
 (u1, v1, q1), (u2, v2, q2), . . . at times 0, 1, 2, . . . .
 We can state this phenomenon in the language of computer hardware by
-saying that it is possible to design a single integrated circuit module with the fol-
-lowing property: If we wire together sufficiently many of these chips in a straight
+saying that it is possible to design a single integrated circuit module with the following property: If we wire together sufficiently many of these chips in a straight
 line, with each module communicating only with its left and right neighbors, the
 resulting circuitry will produce the 2n-bit product of n-bit numbers in exactly
 2n clock pulses.
 
-
-314
 ARITHMETIC
 4.3.3
 Table 2
@@ -23971,419 +22955,11 @@ y
 z2
 z1
 z0
-0
-1
-1
-1
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-1
-1
-1
-1
-1
-1
-1
-0
-0
-0
-0
-0
-1
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-2
-1
-1
-0
-2
-1
-1
-1
-1
-0
-0
-1
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-3
-0
-0
-1
-3
-1
-1
-1
-1
-1
-1
-0
-1
-1
-0
-0
-0
-0
-0
-0
-0
-0
-0
-1
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-4
-1
-1
-0
-3
-1
-1
-1
-1
-0
-0
-1
-0
-1
-1
-1
-1
-0
-0
-0
-0
-0
-0
-1
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-5
-0
-0
-0
-3
-1
-1
-1
-1
-1
-1
-0
-1
-1
-2
-1
-1
-0
-0
-0
-0
-0
-0
-1
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-6
-0
-0
-0
-3
-1
-1
-1
-1
-0
-0
-1
-0
-0
-3
-1
-1
-0
-0
-1
-1
-0
-1
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-7
-0
-0
-0
-3
-1
-1
-1
-1
-0
-0
-0
-0
-0
-3
-1
-1
-0
-0
-0
-0
-0
-1
-0
-1
-1
-1
-0
-0
-0
-0
-0
-0
-1
-8
-0
-0
-0
-3
-1
-1
-1
-1
-0
-0
-0
-0
-0
-3
-1
-1
-0
-0
-0
-0
-0
-1
-0
-2
-1
-1
-0
-0
-0
-0
-0
-0
-0
-9
-0
-0
-0
-3
-1
-1
-1
-1
-0
-0
-0
-0
-0
-3
-1
-1
-0
-0
-0
-0
-0
-0
-1
-3
-1
-1
-0
-0
-0
-0
-0
-0
-0
-10
-0
-0
-0
-3
-1
-1
-1
-1
-0
-0
-0
-0
-1
-3
-1
-1
-0
-0
-0
-0
-0
-0
-0
-3
-1
-1
-0
-0
-0
-0
-0
-0
-0
-11
-0
-0
-0
-3
-1
-1
-1
-1
-0
-0
-0
-0
-0
-3
-1
-1
-0
-0
-0
-0
-0
-0
-0
-3
-1
-1
-0
-0
-0
-0
-0
-0
-0
 
 
 4.3.3
 HOW FAST CAN WE MULTIPLY?
-315
+
 The basic idea can be understood as follows. At time 0, machine M1 senses
 (u0, v0, q0) and it therefore is able to output (u0v0 +q0) mod 2 at time 1. Then it
 sees (u1, v1, q1) and it can output (u0v1 + u1v0 + q1 + k1) mod 2, where k1 is the
@@ -24426,7 +23002,7 @@ go into state (c′, x′
 0) at time t + 1, where
 c′ = min(c + 1, 3)
 if cl = 3,
-0
+
 otherwise;
 (x′
 0, y′
@@ -24480,8 +23056,6 @@ Fast as it is, the iterative array is optimum only when the input bits arrive
 one at a time. If the input bits are all present simultaneously, we prefer parallel
 circuitry that will obtain the product of two n-bit numbers after O(log n) levels
 
-
-316
 ARITHMETIC
 4.3.3
 of delay. Efficient circuits of that kind have been described, for example, by
@@ -24539,7 +23113,7 @@ numbers (ˆu0, ˆu1, . . . , ˆuK−1) obtained when q = 1.
 
 4.3.3
 HOW FAST CAN WE MULTIPLY?
-317
+
 10. [M26] The scaling in (43) makes it clear that all the complex numbers A[j]
 computed by pass j of the transformation subroutine will be less than 2j−k in absolute
 value, during the calculations of ˆus and ˆvs in the Schönhage–Strassen multiplication
@@ -24575,8 +23149,7 @@ steps. Now consider the algorithm in the text, with k = l and m = 6k and N = 2�
 so that all quantities in the fixed point arithmetic calculations are 13-place integers with
 radix N. Finally, show that each pass of the fast Fourier transformations can be done
 in O(K +(N log N)2) = O(K) steps, using the following idea: Each of the K necessary
-assignments can be “compiled” into a bounded list of instructions for a simulated MIX-
-like computer whose word size is N, and instructions for K such machines acting in
+assignments can be “compiled” into a bounded list of instructions for a simulated MIXlike computer whose word size is N, and instructions for K such machines acting in
 parallel can be simulated in O(K + (N log N)2) steps if they are first sorted so that
 all identical instructions are performed together.
 (Two instructions are identical if
@@ -24592,8 +23165,6 @@ exercise 4.
 Compare it with a program for Algorithm 4.3.1M and with a program
 based on (2), to see how large n must be before Algorithm T is an improvement.
 
-
-318
 ARITHMETIC
 4.3.3
 15. [M49] (S. A. Cook.) A multiplication algorithm is said to be online if the (k+1)st
@@ -24626,7 +23197,7 @@ Consider the decomposition in (2).
 
 4.4
 RADIX CONVERSION
-319
+
 4.4. RADIX CONVERSION
 If our ancestors had invented arithmetic by counting with their two fists or
 their eight fingers, instead of their ten “digits,” we would never have to worry
@@ -24644,15 +23215,13 @@ only the general principles involved, from which programmers can select the
 procedures that are best suited to their machines.
 We shall assume that only nonnegative numbers enter into the conversion,
 since the manipulation of signs is easily accounted for.
-Let us assume that we are converting from radix b to radix B. (Mixed-
-radix generalizations are considered in exercises 1 and 2.) Most radix-conversion
+Let us assume that we are converting from radix b to radix B. (Mixedradix generalizations are considered in exercises 1 and 2.) Most radix-conversion
 routines are based on multiplication and division, using one of the four methods
 below. The first two methods apply to integers (radix point at the right), and the
-others to fractions (radix point at the left). It is often impossible to express a ter-
-minating radix-b fraction (0.u−1u−2 . . . u−m)b exactly as a terminating radix-B
+others to fractions (radix point at the left). It is often impossible to express a terminating radix-b fraction (0.u−1u−2 . . . u−m)b exactly as a terminating radix-B
 fraction (0.U−1U−2 . . . U−M)B.
 For example, the fraction
-1
+
 10 has the infinite
 binary representation (0.0001100110011 . . . )2. Therefore methods of rounding
 the result to M places are sometimes necessary.
@@ -24681,8 +23250,6 @@ where {x} denotes x mod 1 = x −⌊x⌋.
 If it is desired to round the result
 to M places, the computation can be stopped after U−M has been calculated,
 
-
-320
 ARITHMETIC
 4.4
 and U−M should be increased by unity if {. . . {{uB}B} . . . B} is greater than 1
@@ -24754,7 +23321,7 @@ wu = 10nq + r,
 
 4.4
 RADIX CONVERSION
-321
+
 Now if we apply Method 2a to the fraction (q + 1)/w, we will obtain the digits
 of u from left to right, in n steps, since
 
@@ -24815,9 +23382,9 @@ We can avoid the division by 10 in Method 1a if we do two multiplications
 instead. This alternative can be important, because radix conversion is often
 done by “satellite” computers that have no built-in division capability. If we let
 x be an approximation to
-1
+
 10, so that
-1
+
 10 < x < 1
 10 + 1
 w,
@@ -24830,11 +23397,8 @@ u < 10⌊ux⌋
 
 .
 (5)
-At the same time we will have determined u mod 10. A MIX program for conver-
-sion using (5) appears in exercise 8; it requires about 33 cycles per digit.
+At the same time we will have determined u mod 10. A MIX program for conversion using (5) appears in exercise 8; it requires about 33 cycles per digit.
 
-
-322
 ARITHMETIC
 4.4
 If the computer has neither division nor multiplication in its repertoire of
@@ -24902,7 +23466,7 @@ The following MIX code assumes that there
 
 4.4
 RADIX CONVERSION
-323
+
 are at least two digits in the number (um . . . u1u0)10 being converted, and that
 10m+1 < w so that overflow is not an issue:
 ENT1 M-1
@@ -24929,13 +23493,11 @@ we can use Method 2b; or, more commonly, we can first convert the integer
 (u−1u−2 . . . u−m)10 by Method 1b and then divide by 10m.
 C. Hand calculation. It is occasionally necessary for computer programmers to
 convert numbers by hand, and since this is a subject not yet taught in elementary
-schools, it may be worthwhile to examine it briefly here. There are simple pencil-
-and-paper methods for converting between decimal and octal notations, and
+schools, it may be worthwhile to examine it briefly here. There are simple penciland-paper methods for converting between decimal and octal notations, and
 these methods are easily learned, so they should be more widely known.
 Converting octal integers to decimal. The simplest conversion is from octal
 to decimal; this technique was apparently first published by Walter Soden, Math.
-Comp. 7 (1953), 273–274. To do the conversion, write down the given octal num-
-ber; then at the kth step, double the k leading digits using decimal arithmetic,
+Comp. 7 (1953), 273–274. To do the conversion, write down the given octal number; then at the kth step, double the k leading digits using decimal arithmetic,
 and subtract this from the k + 1 leading digits using decimal arithmetic. The
 process terminates in m steps if the given number has m + 1 digits. It is a good
 idea to insert a radix point to show which digits are being doubled, as shown in
@@ -24961,8 +23523,6 @@ Example 1. Convert (5325121 )8 to decimal.
 1 4 1 9 8 5 7
 Answer: (1419857)10.
 
-
-324
 ARITHMETIC
 4.4
 A reasonably good check on the computations may be had by “casting out
@@ -24987,7 +23547,7 @@ the given number has m + 1 digits.
 Example 2. Convert (1419857)10 to octal.
 1 .4 1 9 8 5 7
 +
-2
+
 1 6 .1 9 8 5 7
 +
 3 4
@@ -25017,10 +23577,9 @@ instead of by 2.
 
 4.4
 RADIX CONVERSION
-325
+
 To keep these two methods straight in our minds, it is not hard to remember
-that we must subtract to go from octal to decimal, since the decimal representa-
-tion of a number is smaller; similarly we must add to go from decimal to octal.
+that we must subtract to go from octal to decimal, since the decimal representation of a number is smaller; similarly we must add to go from decimal to octal.
 The computations are performed using the radix of the answer, not the radix of
 the given number, otherwise we couldn’t get the desired answer.
 Converting fractions. No equally fast method of converting fractions manually
@@ -25063,13 +23622,10 @@ Example 4. Convert (.110374 )8 to decimal.
 6.2 3 3 4 0 0
 Answer: (.141586 . . . )10.
 
-
-326
 ARITHMETIC
 4.4
 D. Floating point conversion.
-When floating point values are to be con-
-verted, it is necessary to deal with both the exponent and the fraction parts
+When floating point values are to be converted, it is necessary to deal with both the exponent and the fraction parts
 simultaneously, since conversion of the exponent will affect the fraction part.
 Given the number f · 2e to be converted to decimal, we may express 2e in the
 form F · 10E (usually by means of auxiliary tables), and then convert Ff to
@@ -25096,8 +23652,7 @@ c) To convert a multiple-precision integer from decimal to binary, convert
 blocks of n digits first; then use Method 1b to convert from radix 10n to binary.
 d) To convert a multiple-precision fraction from decimal to binary, convert first
 to radix 10n as in (c), then use Method 2b.
-F. History and Bibliography. Radix-conversion techniques implicitly origi-
-nated in ancient problems dealing with weights, measures, and currencies, where
+F. History and Bibliography. Radix-conversion techniques implicitly originated in ancient problems dealing with weights, measures, and currencies, where
 mixed-radix systems were generally involved.
 Auxiliary tables were usually
 prepared to help people make the conversions. During the seventeenth century,
@@ -25118,7 +23673,7 @@ terminology. A. M. Legendre [Théorie des Nombres (Paris: 1798), 229] noted
 
 4.4
 RADIX CONVERSION
-327
+
 that positive integers may be conveniently converted to binary form if they are
 repeatedly divided by 64.
 In 1946, H. H. Goldstine and J. von Neumann gave prominent consideration
@@ -25132,8 +23687,7 @@ binary computers was published by F. Koons and S. Lubkin, Math. Comp. 3
 of floating point conversion was given somewhat later by F. L. Bauer and K.
 Samelson [Zeit. für angewandte Math. und Physik 4 (1953), 312–316].
 The following articles are, similarly, of historic interest: A note by G. T.
-Lake [CACM 5 (1962), 468–469] mentioned some hardware techniques for con-
-version and gave clear examples.
+Lake [CACM 5 (1962), 468–469] mentioned some hardware techniques for conversion and gave clear examples.
 A. H. Stroud and D. Secrest [Comp. J. 6
 (1963), 62–66] discussed conversion of multiple-precision floating point numbers.
 The conversion of unnormalized floating point numbers, preserving the amount of
@@ -25170,8 +23724,6 @@ decide how many digits to give in the answer. Design a simple generalization of 
 2a that, given two positive radix-b fractions u and ϵ between 0 and 1, converts u to a
 rounded radix-B equivalent U that has just enough places M to the right of the radix
 
-
-328
 ARITHMETIC
 4.4
 point to ensure that |U −u| < ϵ. (In particular if u is a multiple of b−m and ϵ = b−m/2,
@@ -25212,8 +23764,7 @@ converts this fraction to decimal notation, truncating it to 180 decimal digits.
 answer should be printed on two lines, with the digits grouped into 20 blocks of nine
 each separated by blanks. (Use the CHAR instruction.)
 x 14. [M27] (A. Schönhage.)
-The text’s method of converting multiple-precision in-
-tegers requires an execution time of order n2 to convert an n-place integer, when
+The text’s method of converting multiple-precision integers requires an execution time of order n2 to convert an n-place integer, when
 n is large.
 Show that it is possible to convert n-digit decimal integers into binary
 notation in O(M(n) log n) steps, where M(n) is an upper bound on the number of
@@ -25227,7 +23778,7 @@ binary (see Section 4.3.3E).
 
 4.4
 RADIX CONVERSION
-329
+
 17. [M40] Design “ideal” floating point conversion subroutines, taking p-digit decimal
 numbers into P-digit binary numbers and vice versa, in both cases producing a true
 rounded result in the sense of Section 4.2.2.
@@ -25240,13 +23791,10 @@ holds for all p-digit base b floating point numbers u if and only if BP −1 ≥
 other words, an “ideal” input conversion of u into an independent base B, followed by
 an “ideal” output conversion of this result, will always yield u again if and only if the
 intermediate precision P is suitably large, as specified by the formula above.)
-x 19. [M23] Let the decimal number u = (u7 . . . u1u0)10 be represented as the binary-
-coded decimal number U = (u7 . . . u1u0)16. Find appropriate constants ci and masks mi
+x 19. [M23] Let the decimal number u = (u7 . . . u1u0)10 be represented as the binarycoded decimal number U = (u7 . . . u1u0)16. Find appropriate constants ci and masks mi
 so that the operation U ←U −ci(U & mi), repeated for i = 1, 2, 3, will convert U to
 the binary representation of u, where “&” denotes extraction (bitwise AND).
 
-
-330
 ARITHMETIC
 4.5
 4.5. RATIONAL ARITHMETIC
@@ -25283,8 +23831,7 @@ this method has the advantage that no double-precision numbers appear in the
 calculation unless it is impossible to represent both of the answers w and w′ in
 single-precision form.
 Division may be done in a similar manner; see exercise 4.
-Addition and subtraction are slightly more complicated. The obvious pro-
-cedure is to set (u/u′) ± (v/v′) =
+Addition and subtraction are slightly more complicated. The obvious procedure is to set (u/u′) ± (v/v′) =
 
 (uv′ ± u′v)/u′v′
 and then to reduce this
@@ -25301,7 +23848,7 @@ answer is w = t/d2, w′ = (u′/d1)(v′/d2). (Exercise 6 proves that these val
 
 4.5.1
 FRACTIONS
-331
+
 of w and w′ are relatively prime to each other.) If single-precision numbers are
 being used, this method requires only single-precision operations, except that
 t may be a double-precision number or slightly larger (see exercise 7); since
@@ -25309,21 +23856,19 @@ gcd(t, d1) = gcd(t mod d1, d1), the calculation of d2 does not require double
 precision.
 For example, to compute (7/66) + (17/12), we form d1 = gcd(66, 12) = 6;
 then t = 7 · 2 + 17 · 11 = 201, and d2 = gcd(201, 6) = 3, so the answer is
-201
-3
+
+
 66
 6 · 12
-3
+
 
 = 67/44.
 To help check out subroutines for rational arithmetic, inversion of matrices
 with known inverses (like Cauchy matrices, exercise 1.2.3–41) is suggested.
-Experience with fractional calculations shows that in many cases the num-
-bers grow to be quite large. So if u and u′ are intended to be single-precision
+Experience with fractional calculations shows that in many cases the numbers grow to be quite large. So if u and u′ are intended to be single-precision
 numbers for each fraction (u/u′), it is important to include tests for overflow
 in each of the addition, subtraction, multiplication, and division subroutines.
-For numerical problems in which perfect accuracy is important, a set of subrou-
-tines for fractional arithmetic with arbitrary precision allowed in numerator and
+For numerical problems in which perfect accuracy is important, a set of subroutines for fractional arithmetic with arbitrary precision allowed in numerator and
 denominator is very useful.
 The methods of this section extend also to other number fields besides the
 rational numbers; for example, we could do arithmetic on quantities of the form
@@ -25362,8 +23907,6 @@ v′ for x > u + v
 u′ + v′ .
 (1)
 
-
-332
 ARITHMETIC
 4.5.1
 If x = (u+v)/(u′ +v′) exactly, we let round(x) be the neighboring fraction with
@@ -25405,16 +23948,14 @@ EXERCISES
 test whether or not (u/u′) < (v/v′).
 2. [M15] Prove that if d = gcd(u, v) then u/d and v/d are relatively prime.
 3. [M20] Prove that u ⊥u′ and v ⊥v′ implies gcd(uv, u′v′) = gcd(u, v′) gcd(u′, v).
-4. [11] Design a division algorithm for fractions, analogous to the second multipli-
-cation method of the text. (Note that the sign of v must be considered.)
+4. [11] Design a division algorithm for fractions, analogous to the second multiplication method of the text. (Note that the sign of v must be considered.)
 5. [10] Compute (17/120) + (−27/70) by the method recommended in the text.
 x
 6. [M23] Show that u ⊥u′ and v ⊥v′ implies gcd(uv′ + vu′, u′v′) = d1d2, where
 d1 = gcd(u′, v′) and d2 = gcd(d1, u(v′/d1) + v(u′/d1)).
 (Hence if d1 = 1 we have
 (uv′ + vu′) ⊥u′v′.)
-7. [M22] How large can the absolute value of the quantity t become, in the addition-
-subtraction method recommended in the text, if the numerators and denominators of
+7. [M22] How large can the absolute value of the quantity t become, in the additionsubtraction method recommended in the text, if the numerators and denominators of
 the inputs are less than N in absolute value?
 x
 8. [22] Discuss using (1/0) and (−1/0) as representations for ∞and −∞, and/or as
@@ -25424,7 +23965,7 @@ representations of overflow.
 
 4.5.2
 THE GREATEST COMMON DIVISOR
-333
+
 10. [41] Extend the subroutines suggested in exercise 4.3.1–34 so that they deal with
 “arbitrary” rational numbers.
 11. [M23] Consider fractions of the form (u + u′√
@@ -25472,8 +24013,6 @@ of its numerator and denominator. Other applications of the greatest common
 divisor have been mentioned for example in Sections 3.2.1.2, 3.3.3, 4.3.2, 4.3.3.
 So the concept of gcd(u, v) is important and worthy of serious study.
 
-
-334
 ARITHMETIC
 4.5.2
 The least common multiple of two integers u and v, written lcm(u, v), is
@@ -25553,7 +24092,7 @@ in Sections 1.1 and 1.2.1.
 
 4.5.2
 THE GREATEST COMMON DIVISOR
-335
+
 Euclid’s algorithm is found in Book 7, Propositions 1 and 2 of his Elements
 (c. 300 B.C.), but it probably wasn’t his own invention. Some scholars believe
 that the method was known up to 200 years earlier, at least in its subtractive
@@ -25569,8 +24108,7 @@ which was based on doubling and adding, and which forms the basis for efficient
 calculation of nth powers as explained in Section 4.6.3.
 But the Egyptian
 manuscripts merely give examples that are not completely systematic, and the
-examples were certainly not stated systematically; the Egyptian method is there-
-fore not quite deserving of the name “algorithm.” Several ancient Babylonian
+examples were certainly not stated systematically; the Egyptian method is therefore not quite deserving of the name “algorithm.” Several ancient Babylonian
 methods, for doing such things as solving special sets of quadratic equations in
 two variables, are also known.
 Genuine algorithms are involved in this case,
@@ -25604,8 +24142,6 @@ divides E; therefore it divides A. Hence it is a common divisor of A and C.
 I now claim that it is also the greatest. For if F is not the greatest common divisor
 of A and C, some larger number will divide them both. Let such a number be G.
 
-
-336
 ARITHMETIC
 4.5.2
 Now since G divides C while C divides A−E, G divides A−E. G also divides the
@@ -25614,8 +24150,7 @@ divides C −F. And G also divides the whole of C, so it divides the remainder F
 that is, a greater number divides a smaller one. This is impossible.
 Therefore no number greater than F will divide A and C, so F is their greatest
 common divisor.
-Corollary. This argument makes it evident that any number dividing two num-
-bers divides their greatest common divisor. Q.E.D.
+Corollary. This argument makes it evident that any number dividing two numbers divides their greatest common divisor. Q.E.D.
 Euclid’s statements have been simplified here in one nontrivial respect: Greek
 mathematicians did not regard unity as a “divisor” of another positive integer.
 Two positive integers were either both equal to unity, or they were relatively
@@ -25658,7 +24193,7 @@ with a short discussion of general proof procedures for algorithms.)
 
 4.5.2
 THE GREATEST COMMON DIVISOR
-337
+
 It is worth noting that this algorithm for finding the greatest common divisor
 was chosen by Euclid to be the very first step in his development of the theory
 of numbers.
@@ -25698,11 +24233,11 @@ nonnegative integers, stored respectively in locations U and V; this program put
 gcd(u, v) into rA.
 LDX
 U
-1
+
 rX ←u.
 JMP
 2F
-1
+
 1H STX
 V
 T
@@ -25726,8 +24261,6 @@ of divisions performed. The discussion in Section 4.5.3 shows that we may take
 T = 0.842766 ln N + 0.06 as an approximate average value, when u and v are
 independently and uniformly distributed in the range 1 ≤u, v ≤N.
 
-
-338
 ARITHMETIC
 4.5.2
 A binary method. Since Euclid’s patriarchal algorithm has been used for so
@@ -25737,8 +24270,7 @@ suited to binary arithmetic, was devised by Josef Stein in 1961 [see J. Comp.
 Phys. 1 (1967), 397–405]. This new algorithm requires no division instruction; it
 relies solely on the operations of subtraction, parity testing, and halving of even
 numbers (which corresponds to a right shift in binary notation).
-The binary gcd algorithm is based on four simple facts about positive inte-
-gers u and v:
+The binary gcd algorithm is based on four simple facts about positive integers u and v:
 a) If u and v are both even, then gcd(u, v) = 2 gcd(u/2, v/2). [See Eq. (8).]
 b) If u is even and v is odd, then gcd(u, v) = gcd(u/2, v). [See Eq. (6).]
 c) As in Euclid’s algorithm, gcd(u, v) = gcd(u −v, v). [See Eqs. (13), (2).]
@@ -25766,25 +24298,25 @@ u
 v
 t
 20451
-6035
+
 +14416, +7208, +3604, +1802, +901;
-901
-6035
+
+
 −5134, −2567;
-901
-2567
+
+
 −1666, −833;
-901
-833
+
+
 +68, +34, +17;
-17
-833
+
+
 −816, −408, −204, −102, −51;
-17
-51
+
+
 −34, −17;
-17
-17
+
+
 0.
 The answer is 17 · 21 = 34. A few more iterations were necessary here than
 we needed with Algorithm A, but each iteration was somewhat simpler since no
@@ -25793,7 +24325,7 @@ division steps were used.
 
 4.5.2
 THE GREATEST COMMON DIVISOR
-339
+
 Yes
 No
 u = v
@@ -25805,8 +24337,7 @@ B4. Is t even?
 B5. Reset max(u, v)
 B6. Subtract
 Fig. 9. Binary algorithm for the greatest common divisor.
-A MIX program for Algorithm B requires a bit more code than for Algo-
-rithm A, but the steps are elementary. In order to make such a program fairly
+A MIX program for Algorithm B requires a bit more code than for Algorithm A, but the steps are elementary. In order to make such a program fairly
 typical of a binary computer’s representation of Algorithm B, let us assume that
 MIX is extended to include the following operators:
 • SLB (shift left AX binary). C = 6; F = 6.
@@ -25823,131 +24354,129 @@ Analogous to JAE, JAO.
 Program B (Binary gcd algorithm). Assume that u and v are single-precision
 positive integers, stored respectively in locations U and V; this program uses
 Algorithm B to put gcd(u, v) into rA. Register assignments: rA ≡t, rI1 ≡k.
-01
+
 ABS EQU
 1:5
-02
+
 B1
 ENT1 0
-1
+
 B1. Find power of 2.
-03
+
 LDX
 U
-1
+
 rX ←u.
-04
+
 LDAN V
-1
+
 rA ←−v.
-05
+
 JMP
 1F
-1
-06
+
+
 2H
 SRB
-1
+
 A
 Halve rA, rX.
-07
+
 INC1 1
 A
 k ←k + 1.
-08
+
 STX
 U
 A
 u ←u/2.
-09
+
 STA
 V(ABS)
 A
 v ←v/2.
-10
+
 1H
 JXO
 B4
 1 + A
 To B4 with t ←−v if u is odd.
-11
+
 B2
 JAE
 2B
 B + A
 B2. Initialize.
 
-
-340
 ARITHMETIC
 4.5.2
-12
+
 LDA
 U
 B
 t ←u.
-13
+
 B3
 SRB
-1
+
 D
 B3. Halve t.
-14
+
 B4
 JAE
 B3
 1 −B + D
 B4. Is t even?
-15
+
 B5
 JAN
 1F
 C
 B5. Reset max(u, v).
-16
+
 STA
 U
 E
 If t > 0, set u ←t.
-17
+
 SUB
 V
 E
 t ←u −v.
-18
+
 JMP
 2F
 E
-19
+
 1H
 STA
 V(ABS)
 C −E
 If t < 0, set v ←−t.
-20
+
 B6
 ADD
 U
 C −E
 B6. Subtract.
-21
+
 2H
 JANZ B3
 C
 To B3 if t ̸= 0.
-22
+
 LDA
 U
-1
+
 rA ←u.
-23
+
 ENTX 0
-1
+
 rX ←0.
-24
+
 SLB
 0,1
-1
+
 rA ←2k · rA.
 The running time of this program is
 9A + 2B + 6C + 3D + E + 13
@@ -25988,11 +24517,10 @@ Algorithm B.
 
 4.5.2
 THE GREATEST COMMON DIVISOR
-341
+
 and Japan (Leipzig: 1913), 11; K. Vogel, Neun Bücher arithmetischer Technik
 (Braunschweig: Vieweg, 1968), 8.]
-V. C. Harris [Fibonacci Quarterly 8 (1970), 102–103; see also V. A. Le-
-besgue, J. Math. Pures Appl. 12 (1847), 497–520] has suggested an interesting
+V. C. Harris [Fibonacci Quarterly 8 (1970), 102–103; see also V. A. Lebesgue, J. Math. Pures Appl. 12 (1847), 497–520] has suggested an interesting
 cross between Euclid’s algorithm and the binary algorithm. If u and v are odd,
 with u ≥v > 0, we can always write
 u = qv ± r
@@ -26006,8 +24534,7 @@ nonnegative, is to extend Euclid’s algorithm in the following way: If all uj a
 zero, the greatest common divisor is taken to be zero; otherwise if only one uj is
 nonzero, it is the greatest common divisor; otherwise replace uk by uk mod uj for
 all k ̸= j, where uj is the minimum of the nonzero u’s, and repeat the process.
-The algorithm sketched in the preceding paragraph is a natural generaliza-
-tion of Euclid’s method, and it can be justified in a similar manner. But there
+The algorithm sketched in the preceding paragraph is a natural generalization of Euclid’s method, and it can be justified in a similar manner. But there
 is a simpler method available, based on the easily verified identity
 gcd(u1, u2, . . . , un) = gcd
 
@@ -26034,8 +24561,6 @@ time for Algorithm B is primarily governed by max(u, v); it would be reasonable
 to perform one iteration of Euclid’s algorithm, replacing u by u mod v if u is
 much larger than v, and then to continue with Algorithm B.
 
-
-342
 ARITHMETIC
 4.5.2
 The assertion that gcd(un−1, un) will be equal to unity more than 60 percent
@@ -26075,8 +24600,7 @@ Euclid’s algorithm can be extended in another important way: We can
 calculate integers u′ and v′ such that
 uu′ + vv′ = gcd(u, v)
 (15)
-at the same time gcd(u, v) is being calculated. This extension of Euclid’s algo-
-rithm can be described conveniently in vector notation:
+at the same time gcd(u, v) is being calculated. This extension of Euclid’s algorithm can be described conveniently in vector notation:
 Algorithm X (Extended Euclid’s algorithm).
 Given nonnegative integers u
 and v, this algorithm determines a vector (u1, u2, u3) such that uu1 + vu2 =
@@ -26099,7 +24623,7 @@ Return to step X2.
 
 4.5.2
 THE GREATEST COMMON DIVISOR
-343
+
 For example, let u = 40902, v = 24140. At step X2 we have
 q
 u1
@@ -26109,68 +24633,58 @@ v1
 v2
 v3
 —
-1
-0
+
+
 40902
-0
-1
+
+
 24140
-1
-0
-1
+
+
 24140
-1
+
 −1
 16762
-1
-1
+
+
 −1
 16762
 −1
-2
-7378
-2
+
+
 −1
-2
-7378
-3
+
+
 −5
-2006
-3
-3
+
+
 −5
-2006
+
 −10
-17
-1360
-1
+
+
 −10
-17
-1360
-13
+
+
 −22
-646
-2
-13
+
+
 −22
-646
+
 −36
-61
-68
-9
+
+
 −36
-61
-68
-337
+
+
 −571
-34
-2
-337
+
+
 −571
-34
+
 −710
-1203
-0
+
+
 The solution is therefore 337 · 40902 −571 · 24140 = 34 = gcd(40902, 24140).
 Algorithm X can be traced to the Aryabhati ya (A.D. 499) by Aryabhata of
 northern India. His description was rather cryptic, but later commentators such
@@ -26202,12 +24716,9 @@ We can introduce a new variable
 and use it to eliminate y; Eq. (17) becomes
 (10 mod 3)w + (3 mod 3)x + 3t1 + (8 mod 3)z = w + 3t1 + 2z = 1,
 (19)
-and Eq. (18) remains unchanged. The new equation (19) may be used to elim-
-inate w, and (18) becomes
+and Eq. (18) remains unchanged. The new equation (19) may be used to eliminate w, and (18) becomes
 6(1 −3t1 −2z) −7x −5z = 2;
 
-
-344
 ARITHMETIC
 4.5.2
 that is,
@@ -26259,7 +24770,7 @@ variable
 
 4.5.2
 THE GREATEST COMMON DIVISOR
-345
+
 eliminate the variable x0 from the other equations, in favor of t, and replace the
 original equation (24) by
 ct + (c1 mod c)x1 + · · · + (ck mod c)xk = d.
@@ -26299,27 +24810,22 @@ u −qv where q is a single-precision number. Furthermore, if it does turn out
 that u is much larger than v (for instance, the initial input data might have this
 form), we don’t really mind having a large quotient q, since Euclid’s algorithm
 makes a great deal of progress when it replaces u by u mod v in such a case.
-A significant improvement in the speed of Euclid’s algorithm when high-
-precision numbers are involved can be achieved by using a method due to D. H.
+A significant improvement in the speed of Euclid’s algorithm when highprecision numbers are involved can be achieved by using a method due to D. H.
 Lehmer [AMM 45 (1938), 227–233]. Working only with the leading digits of
 large numbers, it is possible to do most of the calculations with single-precision
-arithmetic, and to make a substantial reduction in the number of multiple-
-precision operations involved.
+arithmetic, and to make a substantial reduction in the number of multipleprecision operations involved.
 The idea is to save time by doing a “virtual”
 calculation instead of the actual one.
 For example, let us consider the pair of eight-digit numbers u = 27182818,
 v = 10000000, assuming that we are using a machine with only four-digit words.
 
-
-346
 ARITHMETIC
 4.5.2
 Let u′ = 2718, v′ = 1001, u′′ = 2719, v′′ = 1000; then u′/v′ and u′′/v′′ are
 approximations to u/v, with
 u′/v′ < u/v < u′′/v′′.
 (27)
-The ratio u/v determines the sequence of quotients obtained in Euclid’s algo-
-rithm. If we perform Euclid’s algorithm simultaneously on the single-precision
+The ratio u/v determines the sequence of quotients obtained in Euclid’s algorithm. If we perform Euclid’s algorithm simultaneously on the single-precision
 values (u′, v′) and (u′′, v′′) until we get a different quotient, it is not difficult to
 see that the same sequence of quotients would have appeared to this point if
 we had worked with the multiple-precision numbers (u, v). Thus, consider what
@@ -26330,42 +24836,8 @@ q′
 u′′
 v′′
 q′′
-2718
-1001
-2
-2719
-1000
-2
-1001
-716
-1
-1000
-719
-1
-716
-285
-2
-719
-281
-2
-285
-146
-1
-281
-157
-1
-146
-139
-1
-157
-124
-1
-139
-7
-19
-124
-33
-3
+
+
 The first five quotients are the same in both cases, so they must be the true ones.
 But on the sixth step we find that q′ ̸= q′′, so the single-precision calculations
 are suspended. We have gained the knowledge that the calculation would have
@@ -26376,19 +24848,19 @@ v
 q
 u0
 v0
-2
+
 v0
 u0 −2v0
-1
+
 u0 −2v0
 −u0 + 3v0
-2
+
 −u0 + 3v0
 3u0 −8v0
-1
+
 3u0 −8v0
 −4u0 + 11v0
-1
+
 −4u0 + 11v0
 7u0 −19v0
 ?
@@ -26411,7 +24883,7 @@ Lehmer’s method can be formulated as follows:
 
 4.5.2
 THE GREATEST COMMON DIVISOR
-347
+
 Algorithm L (Euclid’s algorithm for large numbers). Let u and v be nonnegative
 integers, with u ≥v, represented in multiple precision. This algorithm computes
 the greatest common divisor of u and v, making use of auxiliary single-precision
@@ -26454,32 +24926,26 @@ to mean “Go directly to L4.”)
 L3. [Emulate Euclid.] Set T ←A −qC, A ←C, C ←T, T ←B −qD, B ←D,
 D ←T, T ←ˆu −qˆv, ˆu ←ˆv, ˆv ←T, and go back to step L2.
 
-These single-
-precision calculations are the equivalent of multiple-precision operations, as
+These singleprecision calculations are the equivalent of multiple-precision operations, as
 in (28), under the conventions of (29).
 
 L4. [Multiprecision step.]
 If B = 0, set t ←u mod v, u ←v, v ←t, using
-multiple-precision division. (This happens only if the single-precision oper-
-ations cannot simulate any of the multiple-precision ones. It implies that
+multiple-precision division. (This happens only if the single-precision operations cannot simulate any of the multiple-precision ones. It implies that
 Euclid’s algorithm requires a very large quotient, and this is an extremely
 rare occurrence.) Otherwise, set t ←Au, t ←t+Bv, w ←Cu, w ←w+Dv,
 u ←t, v ←w (using straightforward multiple-precision operations). Go
 back to step L1.
 
-
-348
 ARITHMETIC
 4.5.2
 The values of A, B, C, D remain as single-precision numbers throughout
 this calculation, because of (31).
-Algorithm L requires a somewhat more complicated program than Algo-
-rithm B, but with large numbers it will be faster on many computers.
+Algorithm L requires a somewhat more complicated program than Algorithm B, but with large numbers it will be faster on many computers.
 The
 binary technique of Algorithm B can, however, be speeded up in a similar way
 (see exercise 38), to the point where it continues to win. Algorithm L has the
-advantage that it determines the sequence of quotients obtained in Euclid’s algo-
-rithm, and this sequence has numerous applications (see, for example, exercises
+advantage that it determines the sequence of quotients obtained in Euclid’s algorithm, and this sequence has numerous applications (see, for example, exercises
 43, 47, 49, and 51 in Section 4.5.3). See also exercise 4.5.3–46.
 *Analysis of the binary algorithm. Let us conclude this section by studying
 the running time of Algorithm B, in order to justify the formulas stated earlier.
@@ -26513,18 +24979,16 @@ are large integers that are essentially random, except that they are odd and the
 ratio has a certain probability distribution. Then the least significant bits of the
 quantity t = u −v in step B6 will be essentially random, except that t will
 be even. Hence t will be an odd multiple of 2k with probability 2−k; this is
-the approximate probability that k right shifts will be needed in the subtract-
-and-shift cycle. In other words, we obtain a reasonable approximation to the
+the approximate probability that k right shifts will be needed in the subtractand-shift cycle. In other words, we obtain a reasonable approximation to the
 behavior of Algorithm B if we assume that step B4 always branches to B3 with
 probability 1/2.
-Let Gn(x) be the probability that min(u,v)/max(u,v) is ≥x after n subtract-
-and-shift cycles have been performed under this assumption. If u ≥v and if
+Let Gn(x) be the probability that min(u,v)/max(u,v) is ≥x after n subtractand-shift cycles have been performed under this assumption. If u ≥v and if
 exactly k right shifts are performed, the ratio X = v/u is changed to X′ =
 
 
 4.5.2
 THE GREATEST COMMON DIVISOR
-349
+
 min(2kv/(u −v), (u −v)/2kv) = min
 
 2kX/(1 −X), (1 −X)/2kX
@@ -26532,9 +24996,9 @@ min(2kv/(u −v), (u −v)/2kv) = min
 . Thus we will
 have X′ ≥x if and only if 2kX/(1 −X) ≥x and (1 −X)/2kX ≥x; and this is
 the same as
-1
+
 1 + 2k/x ≤X ≤
-1
+
 1 + 2kx.
 (34)
 Therefore Gn(x) satisfies the interesting recurrence
@@ -26544,12 +25008,12 @@ k≥1
 2−k
 Gn
 
-1
+
 1 + 2k/x
 
 −Gn
 
-1
+
 1 + 2kx
 
 ,
@@ -26564,12 +25028,12 @@ k≥1
 2−k
 G
 
-1
+
 1 + 2k/x
 
 −G
 
-1
+
 1 + 2kx
 
 ,
@@ -26582,19 +25046,19 @@ Let
 S(x) = 1
 2G
 
-1
+
 1 + 2x
 
 + 1
 4G
 
-1
+
 1 + 4x
 
 + 1
 8G
 
-1
+
 1 + 8x
 
 + · · ·
@@ -26603,7 +25067,7 @@ S(x) = 1
 k≥1
 2−kG
 
-1
+
 1 + 2kx
 
 ;
@@ -26640,8 +25104,6 @@ m=1
 because it can be shown that the solutions Gn(x) to (35) have this property for
 n ≥1. (See, for example, exercise 30.) The power series converge for |x| < 1.
 
-
-350
 ARITHMETIC
 4.5.2
 0.0
@@ -26709,7 +25171,7 @@ and (39) converts this equation to a relation between G and S when x is near 0:
 
 4.5.2
 THE GREATEST COMMON DIVISOR
-351
+
 The coefficients of lg x must agree when both sides of this equation are expanded
 in power series, hence
 2α(2x) −4λx = α(x) −λx + α(x/(1 + x)).
@@ -26717,11 +25179,11 @@ in power series, hence
 Equation (54) is a recurrence that defines α(x). In fact, let us consider the
 function ψ(z) that satisfies
 ψ(z) = 1
-2
+
 
 z + ψ
 z
-2
+
 
 + ψ
 
@@ -26738,37 +25200,37 @@ Then (54) says that
 (56)
 Moreover, iteration of (55) yields
 ψ(z) = z
-2
+
 1
 1 + 1
-2
+
 1
 2 +
-1
+
 2 + z
 
 + 1
-4
+
 1
 4 +
-1
+
 4 + z +
-1
+
 4 + 2z +
-1
+
 4 + 3z
 
 + · · ·
 
 = z
-2
+
 
 k≥0
-1
+
 2k
 
 0≤j<2k
-1
+
 2k + jz .
 (57)
 It follows that the power series expansion of ψ(z) is
@@ -26812,14 +25274,12 @@ k≥1
 2−k
 fk(0) +
 1
-0
+
 G(x)f ′
 k(x) dx
 
 ,
 
-
-352
 ARITHMETIC
 4.5.2
 where fk(x) = lg
@@ -26833,19 +25293,18 @@ k≥1
 2−k
 k +
 1
-0
+
 G(x) dx
 (1 −x) ln 2
 
 = 2 +
 1
-0
+
 G(x) dx
 (1 −x) ln 2.
 (59)
 When eventually u = v, the expected value of lg uv will be approximately 0.9779
-(see exercise 14); therefore the total number of subtract-and-shift cycles of Algo-
-rithm B will be approximately 1/b times the initial value of lg uv. By symmetry,
+(see exercise 14); therefore the total number of subtract-and-shift cycles of Algorithm B will be approximately 1/b times the initial value of lg uv. By symmetry,
 this is about 2/b times the initial value of lg u. Numerical computations carried
 out by Richard Brent in 1997 give the value
 2/b = 0.70597 12461 01916 39152 93141 35852 88176 66677+
@@ -26859,8 +25318,7 @@ b = 2 ln 2
 .
 (61)
 Sure enough, the values computed by Brent agree perfectly with this tantalizing
-conjecture. Vallée has successfully analyzed Algorithm B using rigorous “dy-
-namical” methods of great interest [see Algorithmica 22 (1998), 660–685].
+conjecture. Vallée has successfully analyzed Algorithm B using rigorous “dynamical” methods of great interest [see Algorithmica 22 (1998), 660–685].
 Let us return to our assumption in (32) that u and v are odd and in the
 ranges 2m ≤u < 2m+1 and 2n ≤v < 2n+1. Empirical tests of Algorithm B with
 several million random inputs and with various values of m and n in the range
@@ -26892,13 +25350,12 @@ D = 1.41N −2.7
 (65)
 as decent estimates of the values, given this distribution of the inputs u and v.
 The theoretical analysis in Brent’s continuous model of Algorithm B predicts
-that C and D will be asymptotically equal to 2N/b and 4N/b under assump-
-tion (63), where 2/b ≈0.70597 is the constant in (60). The agreement with
+that C and D will be asymptotically equal to 2N/b and 4N/b under assumption (63), where 2/b ≈0.70597 is the constant in (60). The agreement with
 
 
 4.5.2
 THE GREATEST COMMON DIVISOR
-353
+
 experiment is so good that Brent’s constant 2/b must be the true value of the
 number “0.70” in (65), and we should replace 0.203 by 0.206 in (62).
 This completes our study of the average values of C and D. The other three
@@ -26910,8 +25367,7 @@ the hardest to handle? If we assume as before that
 ⌊lg u⌋= m
 and
 ⌊lg v⌋= n,
-we want to find u and v that make the algorithm run most slowly. The subtrac-
-tions take somewhat longer than the shifts, when the auxiliary bookkeeping is
+we want to find u and v that make the algorithm run most slowly. The subtractions take somewhat longer than the shifts, when the auxiliary bookkeeping is
 considered, so this question may be rephrased by asking for the inputs u and v
 that require the most subtractions.
 The answer is somewhat surprising; the
@@ -26933,21 +25389,18 @@ lcm(u, v) = n is the number of divisors of n2.
 v′ of v such that u′ ⊥v′ and u′v′ = lcm(u, v).
 x
 5. [M26] Invent an algorithm (analogous to Algorithm B) for calculating the greatest
-common divisor of two integers based on their balanced ternary representation. Dem-
-onstrate your algorithm by applying it to the calculation of gcd(40902, 24140).
+common divisor of two integers based on their balanced ternary representation. Demonstrate your algorithm by applying it to the calculation of gcd(40902, 24140).
 6. [M22] Given that u and v are random positive integers, find the mean and the
 standard deviation of the quantity A that enters into the timing of Program B. (This
 is the number of right shifts applied to both u and v during the preparatory phase.)
 7. [M20] Analyze the quantity B that enters into the timing of Program B.
 x
 8. [M25] Show that in Program B, the average value of E is approximately equal to
-1
+
 2Cave, where Cave is the average value of C.
 9. [18] Using Algorithm B and hand calculation, find gcd(31408, 2718). Also find
 integers m and n such that 31408m + 2718n = gcd(31408, 2718), using Algorithm X.
 
-
-354
 ARITHMETIC
 4.5.2
 x 10. [HM24] Let qn be the number of ordered pairs of integers (u, v) lying in the range
@@ -26970,8 +25423,7 @@ c) As a consequence of (b), prove that limn→∞qn/n2 = 
 k≥1 µ(k)/k2.
 d) Prove that (
 k≥1 µ(k)/k2)(
-m≥1 1/m2) = 1. Hint: When the series are abso-
-lutely convergent we have
+m≥1 1/m2) = 1. Hint: When the series are absolutely convergent we have
 
 k≥1
 ak/kz
@@ -26989,8 +25441,7 @@ adbn/d
 nz.
 11. [M22] What is the probability that gcd(u, v) ≤3? (See Theorem D.) What is
 the average value of gcd(u, v)?
-12. [M24] (E. Cesàro.) If u and v are random positive integers, what is the aver-
-age number of (positive) divisors they have in common? [Hint: See the identity in
+12. [M24] (E. Cesàro.) If u and v are random positive integers, what is the average number of (positive) divisors they have in common? [Hint: See the identity in
 exercise 10(d), with ak = bm = 1.]
 13. [HM23] Given that u and v are random odd positive integers, show that they are
 relatively prime with probability 8/π2.
@@ -27013,7 +25464,7 @@ a)
 5x + 7y −5z = 3
 b)
 3x + 7y + 11z =
-1
+
 5x + 7y −5z = −3
 20. [M37] Let u and v be odd integers, independently and uniformly distributed in
 the ranges 2m ≤u < 2m+1, 2n ≤v < 2n+1. What is the exact probability that a single
@@ -27023,7 +25474,7 @@ subtract-and-shift cycle in Algorithm B reduces u and v to the ranges 2m′ ≤u
 
 4.5.2
 THE GREATEST COMMON DIVISOR
-355
+
 21. [HM26] Let Cmn and Dmn be the average number of subtraction steps and shift
 steps, respectively, in Algorithm B, when u and v are odd, ⌊lg u⌋= m, ⌊lg v⌋= n.
 Show that for fixed n, Cmn = 1
@@ -27058,11 +25509,9 @@ k=1 2−kGn(1/(1+2kx)), and use the method of Mellin transforms for harmonic sum
 31. [HM46] Prove or disprove Vallée’s conjecture (61).
 32. [HM42] Is there a unique continuous function G(x) that satisfies (36) and (37)?
 33. [M46] Analyze Harris’s “binary Euclidean algorithm,” stated after Program B.
-34. [HM49] Find a rigorous proof that Brent’s model describes the asymptotic be-
-havior of Algorithm B.
+34. [HM49] Find a rigorous proof that Brent’s model describes the asymptotic behavior of Algorithm B.
 35. [M23] Consider a directed graph with vertices (m, n) for all nonnegative integers
-m, n ≥0, having arcs from (m, n) to (m′, n′) whenever it is possible for a subtract-and-
-shift cycle of Algorithm B to transform integers u and v with ⌊lg u⌋= m and ⌊lg v⌋= n
+m, n ≥0, having arcs from (m, n) to (m′, n′) whenever it is possible for a subtract-andshift cycle of Algorithm B to transform integers u and v with ⌊lg u⌋= m and ⌊lg v⌋= n
 into integers u′ and v′ with ⌊lg u′⌋= m′ and ⌊lg v′⌋= n′; there also is a special “Stop”
 vertex, with arcs from (n, n) to Stop for all n ≥0. What is the length of the longest
 path from (m, n) to Stop? (This gives an upper bound on the maximum running time
@@ -27071,11 +25520,8 @@ x 36. [M28] Given m ≥n ≥1, find values of u and v with ⌊lg u⌋= m and ⌊
 such that Algorithm B requires m + 1 subtraction steps.
 37. [M32] Prove that the subtraction step B6 of Algorithm B is never executed more
 than 1 + ⌊lg max(u, v)⌋times.
-x 38. [M32] (R. W. Gosper.) Demonstrate how to modify Algorithm B for large num-
-bers, using ideas analogous to those in Algorithm L.
+x 38. [M32] (R. W. Gosper.) Demonstrate how to modify Algorithm B for large numbers, using ideas analogous to those in Algorithm L.
 
-
-356
 ARITHMETIC
 4.5.2
 x 39. [M28] (V. R. Pratt.) Extend Algorithm B to an Algorithm Y that is analogous
@@ -27116,8 +25562,7 @@ gcd(n, n)
 *4.5.3. Analysis of Euclid’s Algorithm
 The execution time of Euclid’s algorithm depends on T, the number of times
 the division step A2 is performed. (See Algorithm 4.5.2A and Program 4.5.2A.)
-The quantity T is also an important factor in the running time of other algo-
-rithms, such as the evaluation of functions satisfying a reciprocity formula (see
+The quantity T is also an important factor in the running time of other algorithms, such as the evaluation of functions satisfying a reciprocity formula (see
 Section 3.3.3). We shall see in this section that the mathematical analysis of this
 quantity T is interesting and instructive.
 Relation to continued fractions. Euclid’s algorithm is intimately connected
@@ -27135,14 +25580,13 @@ a1+b2/(a2+b3/(· · · /(an−1+bn/an) . . . ))
 .
 (1)
 Continued fractions have a beautiful theory that is the subject of several classic
-books, such as O. Perron, Die Lehre von den Kettenbrüchen, 3rd edition (Stutt-
-gart: Teubner, 1954), 2 volumes; A. Khinchin, Continued Fractions, translated by
+books, such as O. Perron, Die Lehre von den Kettenbrüchen, 3rd edition (Stuttgart: Teubner, 1954), 2 volumes; A. Khinchin, Continued Fractions, translated by
 Peter Wynn (Groningen: P. Noordhoff, 1963); and H. S. Wall, Analytic Theory
 
 
 4.5.3
 ANALYSIS OF EUCLID’S ALGORITHM
-357
+
 of Continued Fractions (New York: Van Nostrand, 1948).
 See also Claude
 Brezinski, History of Continued Fractions and Padé Approximants (Springer,
@@ -27162,7 +25606,7 @@ Thus, for example,
 x1
 ,
 //x1, x2// =
-1
+
 x1 + 1/x2
 =
 x2
@@ -27206,13 +25650,13 @@ n ≥1.
 (8)
 (See exercise 4.) The latter equation in connection with (5) implies that
 //x1, . . . , xn// =
-1
+
 q0q1
 −
-1
+
 q1q2
 +
-1
+
 q2q3
 −· · · + (−1)n−1
 qn−1qn
@@ -27220,8 +25664,6 @@ qn−1qn
 where qk = Kk(x1, . . . , xk).
 (9)
 
-
-358
 ARITHMETIC
 4.5.3
 Thus the K-polynomials are intimately related to continued fractions.
@@ -27235,10 +25677,10 @@ continued fraction for X is //A1, . . . , An//. If Xn ̸= 0, this definition gua
 that 0 ≤Xn+1 < 1, so each of the A’s is a positive integer. Definition (10) also
 implies that
 X = X0 =
-1
+
 A1 + X1
 =
-1
+
 A1 + 1/(A2 + X2) = · · · ;
 hence
 X = //A1, . . . , An−1, An + Xn//
@@ -27266,17 +25708,15 @@ Kn(A1, . . . , An)Kn+1(A1, . . . , An, 1/Xn)
 Kn(A1, . . . , An)Kn+1(A1, . . . , An, An+1)
 
 (12)
-by (5), (7), (8), and (10). Therefore //A1, . . . , An// is an extremely close approx-
-imation to X, unless n is small. If Xn is nonzero for all n, we obtain an infinite
+by (5), (7), (8), and (10). Therefore //A1, . . . , An// is an extremely close approximation to X, unless n is small. If Xn is nonzero for all n, we obtain an infinite
 continued fraction //A1, A2, A3, . . . //, whose value is defined to be
 lim
 n→∞//A1, A2, . . . , An//;
 from inequality (12) it is clear that this limit equals X.
-The regular continued fraction expansion of real numbers has several prop-
-erties analogous to the representation of numbers in the decimal system. If we
+The regular continued fraction expansion of real numbers has several properties analogous to the representation of numbers in the decimal system. If we
 use the formulas above to compute the regular continued fraction expansions of
 some familiar real numbers, we find, for example, that
-8
+
 29 = //3, 1, 1, 1, 2//;
 8
 29 = //1, 1, 9, 2, 2, 3, 2, 2, 9, 1, 2, 1, 9, 2, 2, 3, 2, 2, 9, 1, 2, 1, 9, 2, 2, 3, 2, 2, 9, 1, . . . //;
@@ -27287,7 +25727,7 @@ some familiar real numbers, we find, for example, that
 
 4.5.3
 ANALYSIS OF EUCLID’S ALGORITHM
-359
+
 e = 2 + //1, 2, 1, 1, 4, 1, 1, 6, 1, 1, 8, 1, 1, 10, 1, 1, 12, 1, 1, 14, 1, 1, 16, 1, 1, 18, 1, . . . //;
 γ = //1, 1, 2, 1, 2, 1, 4, 3, 13, 5, 1, 1, 8, 1, 2, 4, 1, 1, 40, 1, 11, 3, 7, 1, 7, 1, 1, 5, 1, 49, . . . //;
 ϕ = 1 + //1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, . . . //. (13)
@@ -27319,7 +25759,7 @@ Vn+1 = Un mod Vn,
 the condition Xn = Vn/Un holds throughout the process. Furthermore, (15) is
 precisely the transformation made on the variables u and v in Euclid’s algorithm
 (see Algorithm 4.5.2A, step A2). For example, since
-8
+
 29 = //3, 1, 1, 1, 2//, we
 know that Euclid’s algorithm applied to u = 29 and v = 8 will require exactly
 five division steps, and the quotients ⌊u/v⌋in step A2 will be successively 3, 1,
@@ -27344,8 +25784,6 @@ v = Kn−1(A2, . . . , An)d,
 (17)
 where d = gcd(u, v).
 
-
-360
 ARITHMETIC
 4.5.3
 The worst case.
@@ -27373,8 +25811,7 @@ numbers give the smallest numerator and denominator for continued fractions
 of a given length. He did not explicitly mention gcd calculation, however; the
 connection between Fibonacci numbers and Euclid’s algorithm was first pointed
 out by É. Léger [Correspondance Math. et Physique 9 (1837), 483–485.]
-Shortly afterwards, P. J. É. Finck [Traité Élémentaire d’Arithmétique (Stras-
-bourg: 1841), 44] proved by another method that gcd(u, v) takes at most 2 lg v+1
+Shortly afterwards, P. J. É. Finck [Traité Élémentaire d’Arithmétique (Strasbourg: 1841), 44] proved by another method that gcd(u, v) takes at most 2 lg v+1
 steps, when u > v > 0; and G. Lamé [Comptes Rendus Acad. Sci. 19 (Paris,
 1844), 867–870] improved this to 5⌈log10(v + 1)⌉.
 Full details about these
@@ -27417,7 +25854,7 @@ if n ≥1.
 
 4.5.3
 ANALYSIS OF EUCLID’S ALGORITHM
-361
+
 Let Tn be the average number of division steps when v = n and when u is chosen
 at random; since only the value of u mod v affects the algorithm after the first
 division step, we have
@@ -27444,16 +25881,16 @@ n ≥1.
 (20)
 This recurrence is easy to solve by noting that
 Sn+1 = 1 +
-1
+
 n + 1 (S0 + S1 + · · · + Sn−1 + Sn)
 = 1 +
-1
+
 n + 1
 
 n(Sn −1) + Sn
 
 = Sn +
-1
+
 n + 1;
 hence Sn is 1 + 1
 2 + · · · + 1
@@ -27466,7 +25903,7 @@ assumption that n is random modulo k must therefore be too pessimistic. And
 indeed, a closer look shows that the average value of n mod k is less than the
 average value of 1
 2k, in the range 1 ≤k ≤n:
-1
+
 n
 
 1≤k≤n
@@ -27484,23 +25921,23 @@ n
 1≤q≤n
 q
 ⌊n/q⌋+ 1
-2
+
 
 −
 ⌊n/(q + 1)⌋+ 1
-2
+
 
 = n −1
 n
 
 1≤q≤n
 ⌊n/q⌋+ 1
-2
+
 
 =
 
 1 −π2
-12
+
 
 n + O(log n)
 (21)
@@ -27511,8 +25948,6 @@ see exercise 4.5.2–10(c)
 n mod k tends to be smaller than Floyd’s model predicts, and Euclid’s algorithm
 works faster than we might expect.
 
-
-362
 ARITHMETIC
 4.5.3
 A continuous model.
@@ -27559,8 +25994,7 @@ F(1/k) −F
 
 .
 (24)
-(An analogous relation, 4.5.2–(36), arose in our study of the binary gcd algo-
-rithm.) One function that satisfies (24) is F(x) = logb(1+x), for any base b > 1;
+(An analogous relation, 4.5.2–(36), arose in our study of the binary gcd algorithm.) One function that satisfies (24) is F(x) = logb(1+x), for any base b > 1;
 see exercise 19. The further condition F(1) = 1 implies that we should take
 b = 2. Thus it is reasonable to make a guess that F(x) = lg(1 + x), and that
 Fn(x) approaches this behavior.
@@ -27575,7 +26009,7 @@ F1(x) =
 k≥1
 1
 k −
-1
+
 k + x
 
 = Hx;
@@ -27597,7 +26031,7 @@ estimate of Fn( 1
 
 4.5.3
 ANALYSIS OF EUCLID’S ALGORITHM
-363
+
 The distributions Fn(x) were first studied by C. F. Gauss, who first thought
 of the problem on the 5th day of February in 1799.
 His notebook for 1800
@@ -27636,7 +26070,7 @@ k
 
 −G
 
-1
+
 k + x
 
 .
@@ -27653,9 +26087,9 @@ term to show that
 (SG)′(x) =
 
 k≥1
-1
+
 (k + x)2 G′
-1
+
 k + x
 
 ;
@@ -27666,8 +26100,6 @@ Term-by-term differentiation
 of a convergent series is justified when the series of derivatives is uniformly
 * An exposition of Lévy’s interesting proof appeared in the first edition of this book.
 
-
-364
 ARITHMETIC
 4.5.3
 convergent; see, for example, K. Knopp, Theory and Application of Infinite
@@ -27682,12 +26114,12 @@ k≥1
 (k + x)2
 
 1 +
-1
+
 k + x
 −1
 g
 
-1
+
 k + x
 
 =
@@ -27700,7 +26132,7 @@ k + x
 
 g
 
-1
+
 k + x
 
 .
@@ -27715,13 +26147,12 @@ k + x
 
 g
 
-1
+
 k + x
 
 .
 (30)
-Continuing, we see that if g has a bounded first derivative, we can differen-
-tiate term by term to show that Tg does also:
+Continuing, we see that if g has a bounded first derivative, we can differentiate term by term to show that Tg does also:
 (Tg)′(x) = −
 
 k≥1
@@ -27733,7 +26164,7 @@ k −1
 
 g
 
-1
+
 k + x
 
 +
@@ -27742,9 +26173,9 @@ k
 k + 1 + x −k −1
 k + x
 
-1
+
 (k + x)2 g′
-1
+
 k + x
 
 = −
@@ -27756,18 +26187,18 @@ k
 
 g
 
-1
+
 k + x
 
 −g
 
-1
+
 k + 1 + x
 
 +
 1 + x
 (k + x)3(k + 1 + x) g′
-1
+
 k + x
 
 .
@@ -27785,7 +26216,7 @@ k
 1+x
 (k+x)3(k+1+x) φ
 
-1
+
 k+x
 
 .
@@ -27799,7 +26230,7 @@ lg(1 + x)
 (32)
 fn(x) = (1 + x) F ′
 n(x) =
-1
+
 ln 2
 
 1 + R′
@@ -27820,8 +26251,7 @@ lg(1 + x)
 
 ;
 (34)
-the effect of the lg(1 + x) term disappears, after these transformations. Further-
-more, since Fn = SnF0, we have fn = T nf0 and f ′
+the effect of the lg(1 + x) term disappears, after these transformations. Furthermore, since Fn = SnF0, we have fn = T nf0 and f ′
 n = (−1)nU nf ′
 0. Both Fn
 and fn have bounded derivatives, by induction on n. Thus (34) becomes
@@ -27837,7 +26267,7 @@ lg(1 + x)
 
 4.5.3
 ANALYSIS OF EUCLID’S ALGORITHM
-365
+
 Now F0(x) = x, f0(x) = 1 + x, and f ′
 0(x) is the constant function 1. We are
 going to show that the operator U n takes the constant function into a function
@@ -27847,7 +26277,7 @@ we can clinch the argument by showing that Rn(x) itself is small: Since we have
 Rn(0) = Rn(1) = 0, it follows from a well-known interpolation formula (see
 exercise 4.6.4–15 with x0 = 0, x1 = x, x2 = 1) that
 Rn(x) = −x(1 −x)
-2
+
 R′′
 n
 
@@ -27867,18 +26297,18 @@ Tg is easy to compute. If we consider functions defined for all x ≥0, instead 
 only on [0 . . 1], it is easy to remove the summation from (27) by observing that
 SG(x + 1) −SG(x) = G
 
-1
+
 1 + x
 
 −lim
 k→∞G
 
-1
+
 k + x
 
 = G
 
-1
+
 1 + x
 
 −G(0) (37)
@@ -27893,14 +26323,14 @@ Tg(x)
 2 + x
 =
 
-1
+
 1 + x −
-1
+
 2 + x
 
 g
 
-1
+
 1 + x
 
 .
@@ -27910,11 +26340,11 @@ If we set Tg(x) = 1/(1 + x), we find that the corresponding value of g(x) is
 1/(1 + x)2; this is the function φ we have been looking for.
 For this choice of φ we have 2 ≤φ(x)/Uφ(x) = (1+x)2+1 ≤5 for 0 ≤x ≤1,
 hence
-1
+
 5φ ≤Uφ ≤1
 2φ.
 By the positivity of U and φ we can apply U to this inequality again, obtaining
-1
+
 25φ ≤1
 5Uφ ≤U 2φ ≤1
 2Uφ ≤1
@@ -27925,7 +26355,7 @@ for this particular φ. Let χ(x) = f ′
 0(x) = 1 be the constant function; then for
 0 ≤x ≤1 we have 5
 4χ ≤φ ≤2χ, hence
-5
+
 85−nχ ≤1
 25−nφ ≤1
 2U nφ ≤U nχ ≤4
@@ -27933,21 +26363,19 @@ for this particular φ. Let χ(x) = f ′
 52−nφ ≤8
 52−nχ.
 It follows by (35) that
-5
+
 8(ln 2)25−n ≤(−1)nR′′
 n(x) ≤16
 5 (ln 2)22−n,
 for 0 ≤x ≤1;
 hence by (32) and (36) we have proved the following result:
 
-
-366
 ARITHMETIC
 4.5.3
 Theorem W.
 The distribution Fn(x) equals lg(1 + x) + O(2−n) as n →∞.
 In fact, Fn(x) −lg(1 + x) lies between
-5
+
 16(−1)n+15−n
 ln(1 + x)
 
@@ -27978,7 +26406,7 @@ except for the negative real axis from −1 to −∞. Wirsing’s function sati
 Ψ(z) −Ψ(z + 1) = 1
 λΨ
 
-1
+
 1 + z
 
 .
@@ -28009,8 +26437,7 @@ Here |λ2| > |λ3| ≥|λ4| ≥· · · , and each Ψj(z)
 is an analytic function in the complex plane except for a cut at [−∞. . −1].
 The function Ψ2 is Wirsing’s Ψ, and λ2 = −λ, while λ3 ≈0.10088, λ4 ≈
 −0.03550, λ5 ≈0.01284, λ6 ≈−0.00472, λ7 ≈0.00175.
-Babenko also es-
-tablished further properties of the eigenvalues λj, proving in particular that
+Babenko also established further properties of the eigenvalues λj, proving in particular that
 they are exponentially small as j →∞, and that the sum for j ≥k in (44) is
 bounded by (π2/6)|λk|n−1 min(x, 1−x). [Further information appears in papers
 by Babenko and Yuriev, Doklady Akad. Nauk SSSR 240 (1978), 1273–1276;
@@ -28023,9 +26450,8 @@ in (41) was computed by John Hershberger.
 
 4.5.3
 ANALYSIS OF EUCLID’S ALGORITHM
-367
-From continuous to discrete. We have now derived results about the prob-
-ability distributions for continued fractions when X is a real number uniformly
+
+From continuous to discrete. We have now derived results about the probability distributions for continued fractions when X is a real number uniformly
 distributed in the interval [0 . . 1). But a real number is rational with probability
 zero — almost all numbers are irrational — so these results do not apply directly
 to Euclid’s algorithm. Before we can apply Theorem W to our problem, some
@@ -28088,8 +26514,6 @@ restrictive hypotheses are needed to prove (45).
 Distribution of partial quotients. Now we put Theorem W and Lemma M
 together to derive some solid facts about Euclid’s algorithm.
 
-
-368
 ARITHMETIC
 4.5.3
 Theorem E. Let pk(a, n) be the probability that the (k + 1)st quotient Ak+1
@@ -28102,7 +26526,7 @@ a
 
 −Fk
 
-1
+
 a + 1
 
 ,
@@ -28146,61 +26570,61 @@ by this proof. But we can in fact show that the distribution of the last quotien
 At−1, At−2, . . . is essentially the same as the first.
 For example, consider the regular continued fraction expansions for the set
 of all proper fractions whose denominator is 29:
-1
+
 29 = //29//
-8
+
 29 = //3, 1, 1, 1, 2//
-15
+
 29 = //1, 1, 14//
-22
+
 29 = //1, 3, 7//
-2
+
 29 = //14, 2//
-9
+
 29 = //3, 4, 2//
-16
+
 29 = //1, 1, 4, 3//
-23
+
 29 = //1, 3, 1, 5//
-3
+
 29 = //9, 1, 2//
-10
+
 29 = //2, 1, 9//
-17
+
 29 = //1, 1, 2, 2, 2//
-24
+
 29 = //1, 4, 1, 4//
-4
+
 29 = //7, 4//
-11
+
 29 = //2, 1, 1, 1, 3//
-18
+
 29 = //1, 1, 1, 1, 1, 3//
-25
+
 29 = //1, 6, 4//
-5
+
 29 = //5, 1, 4//
-12
+
 29 = //2, 2, 2, 2//
-19
+
 29 = //1, 1, 1, 9//
-26
+
 29 = //1, 8, 1, 2//
-6
+
 29 = //4, 1, 5//
-13
+
 29 = //2, 4, 3//
-20
+
 29 = //1, 2, 4, 2//
-27
+
 29 = //1, 13, 2//
-7
+
 29 = //4, 7//
-14
+
 29 = //2, 14//
-21
+
 29 = //1, 2, 1, 1, 1, 2//
-28
+
 29 = //1, 28//
 Several things can be observed in this table.
 a) As mentioned earlier, the last quotient is always 2 or more. Furthermore,
@@ -28211,7 +26635,7 @@ we have the obvious identity
 
 4.5.3
 ANALYSIS OF EUCLID’S ALGORITHM
-369
+
 which shows how continued fractions whose last quotient is unity are related to
 regular continued fractions.
 b) The values in the right-hand columns have a simple relationship to the values
@@ -28229,7 +26653,7 @@ d) If we examine all of the quotients in the table, we find that there are 96 in
 all, of which 39
 96 ≈40.6 percent are equal to 1, 21
 96 ≈21.9 percent are equal to 2,
-8
+
 96 ≈8.3 percent are equal to 3; this agrees reasonably well with the probabilities
 listed above.
 The number of division steps. Let us now return to our original problem and
@@ -28239,17 +26663,8 @@ See Eq. (19).
 
 Here are some sample values of Tn:
 n =
-95
-96
-97
-98
-99
-100
-101
-102
-103
-104
-105
+
+
 Tn =
 5.0
 4.4
@@ -28263,14 +26678,10 @@ Tn =
 4.7
 4.6
 n =
-996
-997
-998
-999
-1000
-1001
+
+
 · · ·
-9999
+
 10000
 10001
 Tn =
@@ -28310,10 +26721,9 @@ It is not difficult to understand why this happens: If gcd(u, v) = d, Euclid’s
 algorithm applied to u and v behaves essentially the same as if it were applied to
 u/d and v/d. Therefore, when v = n has several divisors, there are many choices
 of u for which n behaves as if it were smaller.
-Accordingly let us consider another quantity, τn, which is the average num-
-ber of division steps when v = n and when u is relatively prime to n. Thus
+Accordingly let us consider another quantity, τn, which is the average number of division steps when v = n and when u is relatively prime to n. Thus
 τn =
-1
+
 φ(n)
 
 0≤m<n
@@ -28328,23 +26738,12 @@ d\n
 φ(d)τd.
 (49)
 
-
-370
 ARITHMETIC
 4.5.3
 Here is a table of τn for the same values of n considered above:
 n =
-95
-96
-97
-98
-99
-100
-101
-102
-103
-104
-105
+
+
 τn =
 5.4
 5.3
@@ -28358,14 +26757,10 @@ n =
 5.3
 5.6
 n =
-996
-997
-998
-999
-1000
-1001
+
+
 · · ·
-9999
+
 10000
 10001
 τn =
@@ -28430,34 +26825,34 @@ t = T(N, m) = T(m, N) −1.
 Returning to the formulas preceding Theorem W, we find that the average
 value of ln Xn, when X0 is a real number uniformly distributed in [0 . . 1), is
 1
-0
+
 ln x F ′
 n(x) dx =
 1
-0
+
 ln x fn(x) dx/(1 + x),
 (52)
 where fn(x) is defined in (33). Now
 fn(x) =
-1
+
 ln 2 + O(2−n),
 (53)
 
 
 4.5.3
 ANALYSIS OF EUCLID’S ALGORITHM
-371
+
 using the facts we have derived earlier (see exercise 23); hence the average value
 of ln Xn is very well approximated by
-1
+
 ln 2
 1
-0
+
 ln x
 1 + x dx = −1
 ln 2
 ∞
-0
+
 ue−u
 1 + e−u du
 = −1
@@ -28466,7 +26861,7 @@ ln 2
 k≥1
 (−1)k+1
 ∞
-0
+
 ue−ku du
 = −1
 ln 2
@@ -28489,7 +26884,7 @@ ln 2
 36 + · · ·
 
 = −
-1
+
 2 ln 2
 
 1 + 1
@@ -28534,26 +26929,24 @@ T100 ≈12 ln 2
 π2
 
 ln 100 −ln 2
-2
+
 −ln 2
-4
+
 −ln 5
-5
+
 −ln 5
-25
+
 
 + 1.47
 ≈(0.843)(4.605 −0.347 −0.173 −0.322 −0.064) + 1.47
 ≈4.59;
 the exact value of T100 is 4.56.
 
-
-372
 ARITHMETIC
 4.5.3
 We can also estimate the average number of division steps when u and v are
 both uniformly distributed between 1 and N, by calculating
-1
+
 N 2
 N
 
@@ -28562,7 +26955,7 @@ N
 
 n=1
 T(m, n) =
-2
+
 N 2
 N
 
@@ -28629,11 +27022,10 @@ where C ≈1.46707 80794 is the constant
 
 4.5.3
 ANALYSIS OF EUCLID’S ALGORITHM
-373
+
 see D. E. Knuth, Computers and Math. with Applic. 2 (1976), 137–139. Thus
 the conjecture (50) is fully proved.
-Using (60), Graham H. Norton [J. Sym-
-bolic Computation 10 (1990), 53–58] extended the calculations of exercise 29 to
+Using (60), Graham H. Norton [J. Symbolic Computation 10 (1990), 53–58] extended the calculations of exercise 29 to
 confirm Lochs’s work, proving that the empirical constant 0.06 in (59) is actually
 6 ln 2
 π2
@@ -28645,8 +27037,7 @@ confirm Lochs’s work, proving that the empirical constant 0.06 in (59) is actu
 (62)
 D. Hensley proved in J. Number Theory 49 (1994), 142–182, that the variance
 of τn is proportional to log n.
-The average running time for Euclid’s algorithm on multiple-precision inte-
-gers, using classical algorithms for arithmetic, was shown to be of order
+The average running time for Euclid’s algorithm on multiple-precision integers, using classical algorithms for arithmetic, was shown to be of order
 
 1 + log
 
@@ -28700,19 +27091,16 @@ JXNZ 1B
 Done if rX = 0.
 2. [M21] Evaluate the matrix product
 x1
-1
-1
-0
+
+
 x2
-1
-1
-0
+
+
 
 . . .
 xn
-1
-1
-0
+
+
 
 .
 3. [M21] What is the value of det
@@ -28724,25 +27112,23 @@ Done if rX = 0.
 
 
 x1
-1
-0
+
+
 . . .
-0
+
 −1
 x2
-1
-0
-0
+
+
 −1
 x3
-1
+
 ...
 ...
 −1
 ...
-1
-0
-0
+
+
 . . .
 −1
 xn
@@ -28756,8 +27142,6 @@ xn
 ?
 4. [M20] Prove Eq. (8).
 
-
-374
 ARITHMETIC
 4.5.3
 5. [HM25] Let x1, x2, . . . be a sequence of real numbers that are each greater than
@@ -28826,7 +27210,7 @@ Un+1 = An+1Vn+1 −Un.
 
 4.5.3
 ANALYSIS OF EUCLID’S ALGORITHM
-375
+
 b) Prove that 0 < Un <
 √
 D, 0 < Vn < 2
@@ -28859,8 +27243,7 @@ L2. For k = 0, 1, . . . , n −1 (in this order) and for j = n −1, . . . , k (
 set aj ←aj+1 + aj. (This step replaces f(x) by g(x) = f(x + 1), a polynomial
 whose roots are one less than those of f.)
 L3. If an + an−1 + · · · + a0 < 0, set A ←A + 1 and return to L2.
-L4. Output A (which is the value of the next partial quotient). Replace the coeffi-
-cients (an, an−1, . . . , a0) by (−a0, −a1, . . . , −an) and return to L1. (This step
+L4. Output A (which is the value of the next partial quotient). Replace the coefficients (an, an−1, . . . , a0) by (−a0, −a1, . . . , −an) and return to L1. (This step
 replaces f(x) by a polynomial whose roots are reciprocals of those of f.)
 For example, starting with f(x) = x3 −2, the algorithm will output “1” (changing
 f(x) to x3 −3x2 −3x −1); then “3” (changing f(x) to 10x3 −6x2 −6x −1); etc.
@@ -28871,8 +27254,7 @@ the regular continued fraction expansion of 2X, given the partial quotients of X
 Use this idea to find the regular continued fraction expansion of 1
 2e, given the expansion
 of e in (13).
-x 15. [M31] (R. W. Gosper.) Generalizing exercise 14, design an algorithm that com-
-putes the continued fraction X0 + //X1, X2, . . . // for (ax + b)/(cx + d), given the
+x 15. [M31] (R. W. Gosper.) Generalizing exercise 14, design an algorithm that computes the continued fraction X0 + //X1, X2, . . . // for (ax + b)/(cx + d), given the
 continued fraction x0 + //x1, x2, . . . // for x, and given integers a, b, c, d with ad ̸= bc.
 Make your algorithm an “online coroutine” that outputs as many Xk as possible before
 inputting each xj. Demonstrate how your algorithm computes (97x + 39)/(−62x −25)
@@ -28884,8 +27266,6 @@ equation f ′
 n(z) = 1 −fn(z)2 −2nfn(z)/z. Use this fact to prove that
 tanh z = //z−1, 3z−1, 5z−1, 7z−1, . . . //;
 
-
-376
 ARITHMETIC
 4.5.3
 then apply Hurwitz’s rule (exercise 14) to prove that
@@ -28906,12 +27286,10 @@ x2, x3, . . . . Hint: Multiply both continued fractions by Km(a1, a2, . . . , am
 19. [M20] Prove that F(x) = logb(1 + x) satisfies Eq. (24).
 20. [HM20] Derive (38) from (37).
 21. [HM29] (E. Wirsing.)
-The bounds (39) were obtained for a function φ corre-
-sponding to g with Tg(x) = 1/(x + 1).
+The bounds (39) were obtained for a function φ corresponding to g with Tg(x) = 1/(x + 1).
 Show that the function corresponding to
 Tg(x) = 1/(x + c) yields better bounds, when c > 0 is an appropriate constant.
-22. [HM46] (K. I. Babenko.) Develop efficient means to calculate accurate approxi-
-mations to the quantities λj and Ψj(x) in (44), for small j ≥3 and for 0 ≤x ≤1.
+22. [HM46] (K. I. Babenko.) Develop efficient means to calculate accurate approximations to the quantities λj and Ψj(x) in (44), for small j ≥3 and for 0 ≤x ≤1.
 23. [HM23] Prove (53), using results from the proof of Theorem W.
 24. [M22] What is the average value of a partial quotient An in the regular continued
 fraction expansion of a random real number?
@@ -28921,8 +27299,7 @@ are disjoint intervals, for which (45) does not hold.
 continued fractions, the result is symmetric between left and right, in the sense that
 //At, . . . , A2, A1// appears whenever //A1, A2, . . . , At// does.
 27. [M21] Derive (55) from (49) and (54).
-28. [M23] Prove the following identities involving the three number-theoretic func-
-tions φ(n), µ(n), Λ(n):
+28. [M23] Prove the following identities involving the three number-theoretic functions φ(n), µ(n), Λ(n):
 a)
 
 d\n
@@ -28955,7 +27332,7 @@ d.
 x 30. [HM32] The following “greedy” variant of Euclid’s algorithm is often suggested:
 Instead of replacing v by u mod v during the division step, replace it by |(u mod v)−v|
 if u mod v >
-1
+
 2v.
 Thus, for example, if u = 26 and v = 7, we have gcd(26, 7) =
 gcd(−2, 7) = gcd(7, 2); −2 is the remainder of smallest magnitude when multiples of 7
@@ -28965,7 +27342,7 @@ number of division steps this method saves, on the average.
 
 4.5.3
 ANALYSIS OF EUCLID’S ALGORITHM
-377
+
 x 31. [M35] Find the worst case of the modification of Euclid’s algorithm suggested in
 exercise 30: What are the smallest inputs u > v > 0 that require n division steps?
 32. [20] (a) A Morse code sequence of length n is a string of r dots and s dashes,
@@ -28988,8 +27365,7 @@ x > y > 0,
 x′ > y′ > 0,
 x ⊥y,
 integer x, x′, y, y′.
-a) Show that if the conditions are relaxed to allow x′ = y′, the number of represen-
-tations is h(n) + ⌊(n −1)/2⌋.
+a) Show that if the conditions are relaxed to allow x′ = y′, the number of representations is h(n) + ⌊(n −1)/2⌋.
 b) Show that for fixed y > 0 and 0 < t ≤y, where t ⊥y, and for each fixed x′
 in the range 0 < x′ < n/(y + t) such that x′t ≡n (modulo y), there is exactly
 one representation of n satisfying the restrictions of (a) and the condition x ≡t
@@ -29001,8 +27377,7 @@ x = Km(x1, . . . , xm),
 x′ = Kk(xm+1, . . . , xm+k) d,
 y = Km−1(x1, . . . , xm−1),
 y′ = Kk−1(xm+2, . . . , xm+k) d,
-where m, k, d, and the xj are positive integers with x1 ≥2, xm+k ≥2, and d is a di-
-visor of n. The identity of exercise 32 now implies that n/d = Km+k(x1, . . . , xm+k).
+where m, k, d, and the xj are positive integers with x1 ≥2, xm+k ≥2, and d is a divisor of n. The identity of exercise 32 now implies that n/d = Km+k(x1, . . . , xm+k).
 Conversely, any given sequence of positive integers x1, . . . , xm+k such that x1 ≥2,
 xm+k ≥2, and Km+k(x1, . . . , xm+k) divides n, corresponds in this way to m+k−1
 representations of n.
@@ -29043,8 +27418,6 @@ Tn = ((12 ln 2)/π2)(ln n −
 d\n
 Λ(d)/d) + O(σ−1(n)2).
 
-
-378
 ARITHMETIC
 4.5.3
 35. [HM41] (A. C. Yao and D. E. Knuth.) Prove that the sum of all partial quotients
@@ -29085,13 +27458,13 @@ satisfy p/q < p′/q′. Find a connection between the continued fraction for th
 a node and the path to that node, thereby showing that each positive rational number
 appears as the label of exactly one node in the tree.
 41. [M40] (J. Shallit, 1979.) Show that the regular continued fraction expansion of
-1
+
 21 + 1
 23 + 1
 27 + · · · =
 
 n≥1
-1
+
 22n−1
 contains only 1s and 2s and has a fairly simple pattern. Prove that the partial quotients
 of Liouville’s numbers 
@@ -29109,7 +27482,7 @@ the nearest integer, namely minp |x −p|. Show that ∥qX∥≥∥qn−1X∥for
 
 4.5.4
 FACTORING INTO PRIMES
-379
+
 43. [M30] (D. W. Matula.) Show that the “mediant rounding” rule for fixed slash
 or floating slash numbers, Eq. 4.5.1–(1), can be implemented simply as follows, when
 the number x > 0 is not representable: Let the regular continued fraction expansion
@@ -29125,8 +27498,7 @@ N and no overflow occurs.
 45. [M25] Show that Euclid’s algorithm (Algorithm 4.5.2A) applied to two n-bit
 binary numbers requires O(n2) units of time, as n →∞. (The same upper bound
 obviously holds for Algorithm 4.5.2B.)
-46. [M43] Can the upper bound O(n2) in exercise 45 be decreased, if another algo-
-rithm for calculating the greatest common divisor is used?
+46. [M43] Can the upper bound O(n2) in exercise 45 be decreased, if another algorithm for calculating the greatest common divisor is used?
 47. [M40] Develop a computer program to find as many partial quotients of x as
 possible, when x is a real number given with high precision.
 Use your program to
@@ -29169,8 +27541,6 @@ determine that no such x and y exist. Can there be more than one solution?
 Several of the computational methods we have encountered in this book rest on
 the fact that every positive integer n can be expressed in a unique way in the
 
-
-380
 ARITHMETIC
 4.5.4
 form
@@ -29187,8 +27557,7 @@ numbers whenever possible. But several ingenious ways to speed up the factoring
 process have been discovered, and we will now investigate some of them. [A
 comprehensive history of factoring before 1950 has been compiled by H. C.
 Williams and J. O. Shallit, Proc. Symp. Applied Math. 48 (1993), 481–531.]
-Divide and factor. First let us consider the most obvious algorithm for factor-
-ization: If n > 1, we can divide n by successive primes p = 2, 3, 5, . . . until
+Divide and factor. First let us consider the most obvious algorithm for factorization: If n > 1, we can divide n by successive primes p = 2, 3, 5, . . . until
 discovering the smallest p for which n mod p = 0. Then p is the smallest prime
 factor of n, and the same process may be applied to n ←n/p in an attempt
 to divide this new value of n by p and by higher primes. If at any stage we
@@ -29227,7 +27596,7 @@ N = 25852. We find immediately that N = 2·12926; hence p1 = 2. Furthermore,
 
 4.5.4
 FACTORING INTO PRIMES
-381
+
 A1. Initialize
 A2. n = 1?
 A3. Divide
@@ -29277,7 +27646,7 @@ during the nineteenth century culminated in 1899, when Charles de La Vallée
 Poussin proved that, for some A > 0,
 π(x) =
 x
-2
+
 dt
 ln t + O
 
@@ -29285,8 +27654,6 @@ xe−A√log x 
 .
 (3)
 
-
-382
 ARITHMETIC
 4.5.4
 [Mém. Couronnés Acad. Roy. Belgique 59 (1899), 1–74; see also J. Hadamard,
@@ -29342,27 +27709,27 @@ x
 π(x)
 L(x)
 Riemann’s formula
-103
-168
+
+
 176.6
 168.3
-106
+
 78498
 78626.5
 78527.4
-109
+
 50847534
 50849233.9
 50847455.4
-1012
+
 37607912018
 37607950279.8
 37607910542.2
-1015
+
 29844570422669
 29844571475286.5
 29844570495886.9
-1018
+
 24739954287740860
 24739954309690414.0
 24739954284239494.4
@@ -29371,8 +27738,7 @@ and Riemann’s conjecture (5) was disproved by J. E. Littlewood in 1914; see
 Hardy and Littlewood, Acta Math. 41 (1918), 119–196, where it is shown that
 there is a positive constant C such that
 π(x) > L(x) + C√x log log log x/log x
-for infinitely many x. Littlewood’s result shows that prime numbers are inher-
-ently somewhat mysterious, and it will be necessary to develop deep properties
+for infinitely many x. Littlewood’s result shows that prime numbers are inherently somewhat mysterious, and it will be necessary to develop deep properties
 of mathematics before their distribution is really understood. Riemann made
 another much more plausible conjecture, the famous “Riemann hypothesis,”
 which states that the complex function ζ(z) is zero only when the real part of z is
@@ -29395,12 +27761,12 @@ have its largest prime factor ≤xα. Dickman gave a heuristic argument to show
 
 4.5.4
 FACTORING INTO PRIMES
-383
+
 that this probability approaches the limiting value F(α) as x →∞, where F can
 be calculated from the functional equation
 F(α) =
 α
-0
+
 F
 
 t
@@ -29432,8 +27798,7 @@ x1−tF
 
 t/(1 −t)
 
-, and (6) follows by integration. This heuristic argu-
-ment can be made rigorous; V. Ramaswami [Bull. Amer. Math. Soc. 55 (1949),
+, and (6) follows by integration. This heuristic argument can be made rigorous; V. Ramaswami [Bull. Amer. Math. Soc. 55 (1949),
 1122–1127] showed that the probability in question for fixed α is asymptotically
 F(α)+O(1/log x), as x →∞, and many other authors have extended the analysis
 [see the survey by Karl K. Norton, Memoirs Amer. Math. Soc. 106 (1971), 9–27].
@@ -29469,12 +27834,11 @@ up to √n.
 Therefore Algorithm A would often run faster if we inserted a
 primality test between steps A2 and A3; the running time for this improved
 algorithm would then be roughly proportional to pt−1, the second-largest prime
-factor of N, instead of to max(pt−1, √pt ). By an argument analogous to Dick-
-man’s (see exercise 18), we can show that the second-largest prime factor of a
+factor of N, instead of to max(pt−1, √pt ). By an argument analogous to Dickman’s (see exercise 18), we can show that the second-largest prime factor of a
 random integer ≤x will be ≤xβ with approximate probability G(β), where
 G(β) =
 β
-0
+
 
 G
 
@@ -29509,8 +27873,6 @@ F(α), G(β) =
 β ≈.0056 .0273 .0531 .1003 .1611 .2117 .2582 .3104 .3590 .3967 .4517
 Thus, the second-largest prime factor will be ≤x.2117 about half the time, etc.
 
-
-384
 ARITHMETIC
 4.5.4
 x0
@@ -29540,7 +27902,7 @@ It is possible to prove that if N is chosen at random between 1 and x, the
 probability that t ≤ln ln x + c
 √
 ln ln x approaches
-1
+
 √
 2π
 c
@@ -29586,7 +27948,7 @@ This principle, which worked against us in that chapter, has the redeeming virtu
 
 4.5.4
 FACTORING INTO PRIMES
-385
+
 that it leads to a surprisingly efficient method of factorization, discovered by
 J. M. Pollard [BIT 15 (1975), 331–334]. The number of computational steps
 in Pollard’s method is on the order of √pt−1, so it is significantly faster than
@@ -29644,8 +28006,6 @@ algorithm terminates.
 B3. [Factor found?] Set g ←gcd(x′−x, n). If g = 1, go on to step B4; otherwise
 output g. Now if g = n, the algorithm terminates (and it has failed, because
 
-
-386
 ARITHMETIC
 4.5.4
 we know that n isn’t prime). Otherwise set n ←n/g, x ←x mod n, x′ ←
@@ -29671,22 +28031,13 @@ largest six-digit primes. The number of iterations, m(p), that Algorithm B needs
 to find the factor p is given in the following table:
 p = 999863 999883 999907 999917 999931 999953 999959 999961 999979 999983
 m(p) =
-276
-409
-2106
-1561
-1593
-1091
-474
-1819
-395
-814
+
+
 Experiments by Tomás Oliveira e Silva indicate that m(p) has an average value
 of about 2√p, and it never exceeds 16√p when p < 1000000000. The maximum
 m(p) for p < 109 is m(850112303) = 416784; and the maximum of m(p)/√p
 occurs when p = 695361131, m(p) = 406244. According to these experimental
-results, almost all 18-digit numbers can be factored in fewer than 64,000 itera-
-tions of Algorithm B (compared to roughly 50,000,000 divisions in Algorithm A).
+results, almost all 18-digit numbers can be factored in fewer than 64,000 iterations of Algorithm B (compared to roughly 50,000,000 divisions in Algorithm A).
 The time-consuming operations in each iteration of Algorithm B are the
 multiple-precision multiplication and division in step B4, and the gcd in step B3.
 The technique of “Montgomery multiplication” (exercise 4.3.1–41) will speed
@@ -29711,11 +28062,11 @@ by Pierre de Fermat in 1643, is more suited to finding large factors than small
 
 4.5.4
 FACTORING INTO PRIMES
-387
+
 ones. [Fermat’s original description of his method, translated into English, can
 be found in L. E. Dickson’s monumental History of the Theory of Numbers 1
 (Carnegie Inst. of Washington, 1919), 357. An equivalent idea had in fact been
-used already by Narayana Pandita in his remarkable book Ganita Kaumudi 
+used already by Narayana Pandita in his remarkable book Ganita Kaumudi
 (1356); see Parmanand Singh, Ganita Bharati 22 (2000), 72–74.]
 Assume that N = uv, where u ≤v. For practical purposes we may assume
 that N is odd; this means that u and v are odd, and we can let
@@ -29772,11 +28123,8 @@ digits. (The last two digits of a perfect square must be 00, e1, e4, 25, o6, or
 e9, where e is an even digit and o is an odd digit.) Therefore he avoided the
 operations of steps C4 and C5, replacing them by an occasional determination
 that a certain number is not a perfect square.
-Fermat’s method of looking at the rightmost digits can, of course, be general-
-ized by using other moduli. Suppose for clarity that N = 8616460799, a number
+Fermat’s method of looking at the rightmost digits can, of course, be generalized by using other moduli. Suppose for clarity that N = 8616460799, a number
 
-
-388
 ARITHMETIC
 4.5.4
 whose historic significance is explained below, and consider the following table:
@@ -29784,23 +28132,23 @@ m
 if x mod m is
 then x2 mod m is
 and (x2 −N) mod m is
-3
+
 0, 1, 2
 0, 1, 1
 1, 2, 2
-5
+
 0, 1, 2, 3, 4
 0, 1, 4, 4, 1
 1, 2, 0, 0, 2
-7
+
 0, 1, 2, 3, 4, 5, 6
 0, 1, 4, 2, 2, 4, 1
 5, 6, 2, 0, 0, 2, 6
-8
+
 0, 1, 2, 3, 4, 5, 6, 7
 0, 1, 4, 1, 0, 1, 4, 1
 1, 2, 5, 2, 1, 2, 5, 2
-11
+
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 0, 1, 4, 9, 5, 3, 3, 5, 9, 4, 1
 10, 0, 3, 8, 4, 2, 2, 4, 8, 3, 0
@@ -29827,13 +28175,11 @@ us that 10233601 = 31992 is indeed a perfect square. Therefore we have found
 the desired solution x = 92880, y = 3199, and the factorization is
 8616460799 = (x −y)(x + y) = 89681 · 96079.
 This value of N is interesting because the English economist and logician W.
-S. Jevons introduced it as follows in a well-known book: “Given any two num-
-bers, we may by a simple and infallible process obtain their product, but it is
+S. Jevons introduced it as follows in a well-known book: “Given any two numbers, we may by a simple and infallible process obtain their product, but it is
 quite another matter when a large number is given to determine its factors. Can
 the reader say what two numbers multiplied together will produce the number
 8,616,460,799? I think it unlikely that anyone but myself will ever know.” [The
-Principles of Science (1874), Chapter 7.] We have just seen, however, that Fer-
-mat could have factored N in less than 10 minutes, on the back of an envelope!
+Principles of Science (1874), Chapter 7.] We have just seen, however, that Fermat could have factored N in less than 10 minutes, on the back of an envelope!
 Jevons’s point about the difficulty of factoring versus multiplying is well taken,
 but only if we form the product of numbers that aren’t so close to each other.
 In place of the moduli considered in (14), we can use any powers of distinct
@@ -29847,7 +28193,7 @@ unless p is quite small, because we tend to get even more information mod pq.
 
 4.5.4
 FACTORING INTO PRIMES
-389
+
 The modular method just used is called a sieve procedure, since we can
 imagine passing all integers through a “sieve” for which only those values with
 x mod 3 = 0 come out, then sifting these numbers through another sieve that
@@ -29906,8 +28252,6 @@ stored in a single word. The operation AND, which replaces the kth bit of the
 accumulator by zero if the kth bit of a specified word in memory is zero, for
 1 ≤k ≤30, can be used to process 30 values of x at once! For convenience,
 
-
-390
 ARITHMETIC
 4.5.4
 we can make several copies of the tables S[i, j] so that the table entries for mi
@@ -29970,8 +28314,7 @@ words, further shifting of the table entries would be necessary on each iteratio
 in order to align the bits properly. This would add quite a lot of coding to the
 main loop and it would probably make the program too slow to compete with
 Algorithm C unless v/u ≤100 (see exercise 7).
-Sieve procedures can be applied to a variety of other problems, not neces-
-sarily having much to do with arithmetic. A survey of these techniques has been
+Sieve procedures can be applied to a variety of other problems, not necessarily having much to do with arithmetic. A survey of these techniques has been
 prepared by Marvin C. Wunderlich, JACM 14 (1967), 10–19.
 F. W. Lawrence proposed the construction of special sieve machines for
 factorization in the 19th century [Quart. J. of Pure and Applied Math. 28
@@ -29990,7 +28333,7 @@ second, performing 256 iterations of steps D2 and D3 in about 5.2 nanoseconds
 
 4.5.4
 FACTORING INTO PRIMES
-391
+
 113–139]. Another way to factor with sieves was described by D. H. and Emma
 Lehmer in Math. Comp. 28 (1974), 625–635.
 Primality testing.
@@ -30038,8 +28381,6 @@ order of x is n −1 or not. The order of x will be n −1 if and only if
 i) xn−1 mod n = 1;
 ii) x(n−1)/p mod n ̸= 1 for all primes p that divide n −1.
 
-
-392
 ARITHMETIC
 4.5.4
 For xs mod n = 1 if and only if s is a multiple of the order of x modulo n. If the
@@ -30077,8 +28418,7 @@ method discussed above gives a feasible test for primality: Our next goal is to
 factor n0 −1. With little difficulty, our computer will tell us that
 n0 −1 = 2 · 2 · 19 · 107 · 353 · n1,
 n1 = 13191270754108226049301.
-Here 3n1−1 mod n1 ̸= 1, so n1 is not prime; by continuing Algorithm A or Algo-
-rithm B we obtain another factor,
+Here 3n1−1 mod n1 ̸= 1, so n1 is not prime; by continuing Algorithm A or Algorithm B we obtain another factor,
 n1 = 91813 · n2,
 n2 = 143675413657196977.
 This time 3n2−1 mod n2 = 1, so we will try to prove that n2 is prime. Casting out
@@ -30091,7 +28431,7 @@ n4 −1 = 2 · 7 · 19 · 23 · 137 · 1973.
 
 4.5.4
 FACTORING INTO PRIMES
-393
+
 Good; this is our first complete factorization. We are now ready to backtrack
 to the previous subproblem, proving that n4 is prime.
 Using the procedure
@@ -30100,42 +28440,39 @@ x
 p
 x(n4−1)/p mod n4
 xn4−1 mod n4
-2
-2
-1
+
+
 (1)
-2
-7
+
+
 766408626
 (1)
-2
-19
+
+
 332952683
 (1)
-2
-23
+
+
 1154237810
 (1)
-2
-137
+
+
 373782186
 (1)
-2
-1973
+
+
 490790919
 (1)
-3
-2
-1
+
+
 (1)
-5
-2
-1
+
+
 (1)
-7
-2
+
+
 1653701518
-1
+
 (17)
 (Here “(1)” means a result of 1 that needn’t be computed since it can be
 deduced from previous calculations.) Thus n4 is prime, and n2 −1 has been
@@ -30157,18 +28494,14 @@ the last three lines of (17) entirely.
 The next quantity to be factored is the other half of (15), namely
 n5 = 2107 + 254 + 1.
 Since 3n5−1 mod n5 ̸= 1, we know that n5 is not prime, and Algorithm B shows
-that n5 = 843589 · n6, where n6 = 192343993140277293096491917. Unfortu-
-nately, 3n6−1 mod n6 ̸= 1, so we are left with a 27-digit nonprime. Continuing
+that n5 = 843589 · n6, where n6 = 192343993140277293096491917. Unfortunately, 3n6−1 mod n6 ̸= 1, so we are left with a 27-digit nonprime. Continuing
 Algorithm B might well exhaust our patience (not our budget — we’re using
 idle time on a weekend rather than “prime time”). But the sieve method of
 Algorithm D will be able to crack n6 into its two factors,
 n6 = 8174912477117 · 23528569104401.
-(It turns out that Algorithm B would also have succeeded, after 6,432,966 iter-
-ations.) The factors of n6 could not have been discovered by Algorithm A in a
+(It turns out that Algorithm B would also have succeeded, after 6,432,966 iterations.) The factors of n6 could not have been discovered by Algorithm A in a
 reasonable length of time.
 
-
-394
 ARITHMETIC
 4.5.4
 Now the computation is complete: 2214 + 1 has the prime factorization
@@ -30181,8 +28514,7 @@ to factor — Algorithm D would be useless and Algorithm B would have to work
 overtime because of the high precision necessary.
 Dozens of further numerical examples can be found in an article by John
 Brillhart and J. L. Selfridge, Math. Comp. 21 (1967), 87–96.
-Improved primality tests. The procedure just illustrated requires the com-
-plete factorization of n−1 before we can prove that n is prime, so it will bog down
+Improved primality tests. The procedure just illustrated requires the complete factorization of n−1 before we can prove that n is prime, so it will bog down
 for large n. Another technique, which uses the factorization of n + 1 instead, is
 described in exercise 15; if n −1 turns out to be too hard, n + 1 might be easier.
 Significant improvements are available for dealing with large n. For example,
@@ -30190,8 +28522,7 @@ it is not difficult to prove a stronger converse of Fermat’s theorem that requ
 only a partial factorization of n −1.
 Exercise 26 shows that we could have
 avoided most of the calculations in (17); the three conditions 2n4−1 mod n4 =
-gcd(2(n4−1)/23 −1, n4) = gcd(2(n4−1)/1973 −1, n4) = 1 are sufficient by them-
-selves to prove that n4 is prime. Brillhart, Lehmer, and Selfridge have in fact
+gcd(2(n4−1)/23 −1, n4) = gcd(2(n4−1)/1973 −1, n4) = 1 are sufficient by themselves to prove that n4 is prime. Brillhart, Lehmer, and Selfridge have in fact
 developed a method that works when the numbers n −1 and n + 1 have been
 only partially factored [Math. Comp. 29 (1975), 620–647, Corollary 11]: Suppose
 n −1 = f −r−and n + 1 = f +r+, where we know the complete factorizations
@@ -30228,11 +28559,10 @@ the nonprimality of nonprime n, even in such pathological cases.
 
 4.5.4
 FACTORING INTO PRIMES
-395
+
 The following surprisingly simple procedure is guaranteed to do the job with
 high probability:
-Algorithm P (Probabilistic primality test). Given an odd integer n, this algo-
-rithm attempts to decide whether or not n is prime. By repeating the algorithm
+Algorithm P (Probabilistic primality test). Given an odd integer n, this algorithm attempts to decide whether or not n is prime. By repeating the algorithm
 several times, as explained in the remarks below, it is possible to be extremely
 confident about the primality of n, in a precise sense, yet the primality will not
 be rigorously proved. Let n = 1 + 2kq, where q is odd.
@@ -30267,12 +28597,11 @@ probability is less than (1/4)25 that such a 25-times-in-a-row procedure gives t
 wrong information about its input. This is less than one chance in a quadrillion;
 even if we tested a billion different numbers with such a procedure, the expected
 number of mistakes would be less than
-1
+
 1000000. It’s much more likely that our
 computer has dropped a bit in its calculations, due to hardware malfunctions or
 cosmic radiations, than that Algorithm P has repeatedly guessed wrong!
-Probabilistic algorithms like this lead us to question our traditional stan-
-dards of reliability. Do we really need to have a rigorous proof of primality?
+Probabilistic algorithms like this lead us to question our traditional standards of reliability. Do we really need to have a rigorous proof of primality?
 For people unwilling to abandon traditional notions of proof, Gary L. Miller has
 demonstrated (in slightly weaker form) that if a certain well-known conjecture
 in number theory called the Extended Riemann Hypothesis can be proved, then
@@ -30283,8 +28612,6 @@ The
 constant 2 in this upper bound is due to Eric Bach, Math. Comp. 55 (1990),
 355–380. See Chapter 8 of Algorithmic Number Theory 1 by E. Bach and J. O.
 
-
-396
 ARITHMETIC
 4.5.4
 Shallit (MIT Press, 1996), for an exposition of various generalizations of the
@@ -30301,20 +28628,17 @@ ideas of Gary L. Miller [see Algorithms and Complexity (1976), 35–36], and
 independently discovered by J. L. Selfridge. B. Arazi [Comp. J. 37 (1994), 219–
 222] has observed that Algorithm P can be speeded up significantly for large n
 by using Montgomery’s fast method for remainders (exercise 4.3.1–41).
-A completely rigorous and deterministic way to test for primality in poly-
-nomial time was finally discovered in 2002 by Manindra Agrawal, Neeraj Kayal,
+A completely rigorous and deterministic way to test for primality in polynomial time was finally discovered in 2002 by Manindra Agrawal, Neeraj Kayal,
 and Nitin Saxena, who proved the following result:
 Theorem A. Let r be an integer such that n ⊥r and the order of n modulo r
 exceeds (lg n)2. Then n is prime if and only if the polynomial congruence
 (z + a)n ≡zn + a
 (modulo zr −1 and n)
 holds for 0 ≤z ≤√r lg n. (See exercise 3.2.2–11(a).)
-An excellent exposition of this theorem has been prepared by Andrew Gran-
-ville [Bull. Amer. Math. Soc. 42 (2005), 3–38], who presents an elementary proof
+An excellent exposition of this theorem has been prepared by Andrew Granville [Bull. Amer. Math. Soc. 42 (2005), 3–38], who presents an elementary proof
 that it yields a primality test with running time Ω(log n)6 and O(log n)11. He
 also explains a subsequent improvement due to H. Lenstra and C. Pomerance,
-who showed that the running time can be reduced to O(log n)6+ϵ if the poly-
-nomial zr −1 is replaced by a more general family of polynomials.
+who showed that the running time can be reduced to O(log n)6+ϵ if the polynomial zr −1 is replaced by a more general family of polynomials.
 And he
 discusses refinements by P. Berrizbeitia, Q. Cheng, P. Mihăilescu, R. Avanzi, and
 D. Bernstein, leading to a probabilistic algorithm by which a proof of primality
@@ -30337,7 +28661,7 @@ in about 30 seconds, and 40-digit numbers in about 50 minutes, on an IBM
 
 4.5.4
 FACTORING INTO PRIMES
-397
+
 360/91 computer [see Math. Comp. 29 (1975), 183–205]. The method had its
 first triumphant success in 1970, discovering that 2128+1 = 59649589127497217·
 5704689200685129054721.
@@ -30367,8 +28691,7 @@ looking at the continued fraction expansion of
 kN, since we have seen in
 Eq. 4.5.3–(12) and exercise 4.5.3–42 that continued fractions yield good rational
 approximations.
-Continued fractions for quadratic irrationalities have many pleasant prop-
-erties, which are proved in exercise 4.5.3–12. The algorithm below makes use of
+Continued fractions for quadratic irrationalities have many pleasant properties, which are proved in exercise 4.5.3–12. The algorithm below makes use of
 these properties to derive solutions to the congruence
 x2 ≡(−1)e0pe1
 1 pe2
@@ -30392,7 +28715,7 @@ y =
 
 (−1)e′
 0pe′
-1
+
 1 . . . pe′
 m
 m ) mod N
@@ -30408,8 +28731,6 @@ primes p1, . . . , pm, by analyzing the convergents of the continued fraction fo
 kN. (Another algorithm, which uses the outputs to discover factors of N, is
 the subject of exercise 12.)
 
-
-398
 ARITHMETIC
 4.5.4
 Table 1
@@ -30423,92 +28744,75 @@ S
 T
 Output
 After E1:
-876
-73
-12
-5329
-1
+
+
 —
 After E4:
-882
-145
-6
-5329
-0
-29
+
+
 After E4:
-857
-37
-23
+
+
 32418
-1
-37
+
+
 After E4:
-751
-720
-1
+
+
 159316
-0
-1
+
+
 1593162 ≡+24 · 32 · 51
 After E4:
-852
-143
-5
+
+
 191734
-1
-143
+
+
 After E4:
-681
-215
-3
+
+
 131941
-0
-43
+
+
 After E4:
-863
-656
-1
+
+
 193139
-1
-41
+
+
 After E4:
-883
-33
-26
+
+
 127871
-0
-11
+
+
 After E4:
-821
-136
-6
+
+
 165232
-1
-17
+
+
 After E4:
-877
-405
-2
+
+
 133218
-0
-1
+
+
 1332182 ≡+20 · 34 · 51
 After E4:
-875
-24
-36
+
+
 37250
-1
-1
+
+
 372502 ≡−23 · 31 · 50
 After E4:
-490
-477
-1
+
+
 93755
-0
-53
+
+
 E1. [Initialize.] Set D ←kN, R ←⌊
 √
 D⌋, R′ ←2R, U ′ ←R′, V ←D −R2,
@@ -30553,7 +28857,7 @@ solutions are trivial. For example, if the computation above were continued 14
 
 4.5.4
 FACTORING INTO PRIMES
-399
+
 more times, we would obtain the output 1971972 ≡24 · 32 · 50, which is of no
 interest since 197197 ≡−12. The first two solutions above are already enough
 to complete the factorization: We have found that
@@ -30580,7 +28884,7 @@ N )−1 times the number of integers < 2
 N whose prime
 factors are all in the set {p1, . . . , pm}. Exercise 29 gives a lower bound for P,
 from which we conclude that the running time is at most of order
-2
+
 √
 N m2 log N
 mr/r!
@@ -30594,7 +28898,7 @@ log pm
 .
 (22)
 If we let ln m be approximately 1
-2
+
 √
 ln N ln ln N, we have r ≈
 
@@ -30602,7 +28906,7 @@ ln N/ ln ln N −1,
 assuming that pm = O(m log m), so formula (22) reduces to
 exp
 
-2
+
 
 (ln N)(ln ln N) + O
 
@@ -30611,7 +28915,7 @@ exp
 .
 Stating this another way, the running time of Algorithm E is expected to be at
 most N ϵ(N) under reasonably plausible assumptions, where the exponent ϵ(N) ≈
-2
+
 
 ln ln N/ln N goes to 0 as N →∞.
 When N is in a practical range, we should of course be careful not to take
@@ -30631,8 +28935,6 @@ running times of about N 0.15 while factoring thousands of numbers in the range
 Algorithm E begins its attempt to factorize N by essentially replacing N
 by kN, and this is a rather curious way to proceed (if not downright stupid).
 
-
-400
 ARITHMETIC
 4.5.4
 “Excuse me, do you mind if I multiply your number by 3 before I try to factor
@@ -30647,17 +28949,17 @@ Q cannot be a multiple of 5, since it is relatively prime to P, so we may write
 (P/Q)2 ≡kN (modulo 5). If we assume that P and Q are random relatively
 prime integers, so that the 24 possible pairs (P mod 5, Q mod 5) ̸= (0, 0) are
 equally likely, the probability that 5 divides V is therefore
-4
+
 24,
-8
+
 24, 0, 0, or
-8
-24
+
+
 according as kN mod 5 is 0, 1, 2, 3, or 4. Similarly the probability that 25 divides
 V is 0,
-40
+
 600, 0, 0,
-40
+
 600 respectively, unless kN is a multiple of 25. In general, given
 an odd prime p with (kN)(p−1)/2 mod p = 1, we find that V is a multiple of pe
 with probability 2/
@@ -30694,11 +28996,10 @@ indicate that m ≈150 works well in the presence of this refinement, when N is
 in the neighborhood of 1040.
 Since step E3 is by far the most time-consuming part of the algorithm,
 Morrison, Brillhart, and Schroeppel have suggested several ways to abort this
-step when success becomes improbable: (a) Whenever T changes to a single-
-precision value, continue only if ⌊T/pj⌋> pj and 3T −1 mod T ̸= 1. (b) Give
+step when success becomes improbable: (a) Whenever T changes to a singleprecision value, continue only if ⌊T/pj⌋> pj and 3T −1 mod T ̸= 1. (b) Give
 up if T is still > p2
 m after casting out factors <
-1
+
 10pm.
 (c) Cast out factors
 only up to p5, say, for batches of 100 or so consecutive V ’s; continue the
@@ -30707,7 +29008,7 @@ factorization later, but only on the V from each batch that has produced the
 
 4.5.4
 FACTORING INTO PRIMES
-401
+
 smallest residual T. (Before casting out the factors up to p5, it is wise to calculate
 V mod pf1
 1 pf2
@@ -30719,7 +29020,7 @@ V mod pf1
 2 pf3
 3 pf4
 4 pf5
-5
+
 fit in single precision, but large enough to make V mod pfi+1
 i
 = 0 unlikely. One
@@ -30727,8 +29028,7 @@ single-precision remainder will therefore characterize the value of V modulo fiv
 small primes.)
 For estimates of the cycle length in the output of Algorithm E, see H. C.
 Williams, Math. Comp. 36 (1981), 593–601.
-*A theoretical upper bound. From the standpoint of computational complex-
-ity, we would like to know if there is any method of factorization whose expected
+*A theoretical upper bound. From the standpoint of computational complexity, we would like to know if there is any method of factorization whose expected
 running time can be proved to be O(N ϵ(N)), where ϵ(N) →0 as N →∞. We
 have seen that Algorithm E probably has such behavior, but it seems hopeless
 to find a rigorous proof, because continued fractions are not sufficiently well
@@ -30771,24 +29071,22 @@ r =
 where |θ| ≤1 and r is even, and we choose m so that
 r = ln N/ ln pm + O(1/ log log N);
 
-
-402
 ARITHMETIC
 4.5.4
 this means
 ln pm =
 
 ln N ln ln N
-2
+
 −θ
 2 ln ln N + O(1),
 ln m = ln π(pm) = ln pm −ln ln pm + O(1/ log pm)
 =
 
 ln N ln ln N
-2
+
 −θ + 1
-2
+
 ln ln N + O(log log log N),
 mr
 r! N = exp
@@ -30829,8 +29127,7 @@ way to discover prime factors p of N when p −1 has no large prime factors.
 The latter algorithm (see exercise 19) is probably the first thing to try after
 Algorithms A and B have run too long on a large N.
 A survey paper by R. K. Guy, written in collaboration with J. H. Conway,
-Congressus Numerantium 16 (1976), 49–89, gave a unique perspective on the de-
-velopments up till that time. Guy stated, “I shall be surprised if anyone regularly
+Congressus Numerantium 16 (1976), 49–89, gave a unique perspective on the developments up till that time. Guy stated, “I shall be surprised if anyone regularly
 factors numbers of size 1080 without special form during the present century”;
 and he was indeed destined to be surprised many times during the next 20 years.
 Tremendous advances in factorization techniques for large numbers were
@@ -30852,7 +29149,7 @@ Points on Elliptic Curves (New York: Springer, 1992), Chapter 4.
 
 4.5.4
 FACTORING INTO PRIMES
-403
+
 John Pollard came back in 1988 with another new technique, which has
 become known as the number field sieve; see Lecture Notes in Math. 1554 (1993)
 for a series of papers about this method, which is the current champion for
@@ -30870,8 +29167,7 @@ which unfactored Fermat numbers of the form 22k+1 were cracked. For example,
 the factorization
 2512 + 1 = 2424833 ·
 7455602825647884208337395736200454918783366342657 · p99
-was found by the number field sieve, after four months of computation that occu-
-pied otherwise idle time on about 700 workstations [Lenstra, Lenstra, Manasse,
+was found by the number field sieve, after four months of computation that occupied otherwise idle time on about 700 workstations [Lenstra, Lenstra, Manasse,
 and Pollard, Math. Comp. 61 (1993), 319–349; 64 (1995), 1357]; here p99 denotes
 a 99-digit prime number. The next Fermat number has twice as many digits,
 but it yielded to the elliptic curve method on October 20, 1995:
@@ -30899,8 +29195,6 @@ have been unable to find efficient methods of factoring, this scheme [CACM 21
 (1978), 120–126] almost certainly provides a secure way to protect confidential
 data and communications in computer networks.
 
-
-404
 ARITHMETIC
 4.5.4
 Let us imagine a small electronic device called an RSA box that has two large
@@ -30924,8 +29218,7 @@ each xi lies in the range 0 ≤xi < N; then you transmit the numbers
 (x3
 1 mod N, . . . , x3
 k mod N).
-The RSA box, knowing p and q, can decode the message, because it has pre-
-computed a number d < N such that 3d ≡1
+The RSA box, knowing p and q, can decode the message, because it has precomputed a number d < N such that 3d ≡1
 
 modulo (p −1)(q −1)
 
@@ -30963,7 +29256,7 @@ N2, and N3 could reconstruct x3 mod N1N2N3 = x3 by the Chinese remainder
 
 4.5.4
 FACTORING INTO PRIMES
-405
+
 theorem, so x would no longer be a secret. In fact, even if a “time-stamped”
 message (2⌈lg ti⌉x + ti)3 mod Ni is sent to seven different people, with known
 or guessable ti, the value of x can be deduced (see exercise 44).
@@ -30994,7 +29287,7 @@ The following procedure for generating p and q is almost surely unbreakable:
 Start with a truly random number p0 between, say, 1080 and 1081.
 Search
 for the first prime number p1 greater than p0; this will require testing about
-1
+
 2 ln p0 ≈90 odd numbers, and it will be sufficient to have p1 a “probable prime”
 with probability > 1−2−100 after 50 trials of Algorithm P. Then choose another
 truly random number p2 between, say, 1039 and 1040. Search for the first prime
@@ -31014,8 +29307,6 @@ years of CPU time to complete the factorization. Even if a government agency
 purchased 10 billion computers and set them all to working on this problem, it
 would take more than 31 years before one of them would crack N into factors;
 
-
-406
 ARITHMETIC
 4.5.4
 meanwhile the fact that the government had purchased so many specialized
@@ -31065,8 +29356,7 @@ Alice wants to know how to communicate with Bob, she asks the directory for
 Bob’s product number; the directory computer sends her a signed message giving
 the value of NB. Nobody can forge such a message, so it must be legitimate.
 An interesting alternative to the RSA scheme has been proposed by Michael
-Rabin [M.I.T. Lab. for Comp. Sci., report TR-212 (1979)], who suggests encod-
-ing by the function x2 mod N instead of x3 mod N. In this case the decoding
+Rabin [M.I.T. Lab. for Comp. Sci., report TR-212 (1979)], who suggests encoding by the function x2 mod N instead of x3 mod N. In this case the decoding
 mechanism, which we can call a SQRT box, returns four different messages; the
 reason is that four different numbers have the same square modulo N, namely
 x, −x, fx mod N, and (−fx) mod N, where
@@ -31083,7 +29373,7 @@ that x2 ≡y2 and x ̸≡±y, after which gcd(x −y, N) = p or q. However, the
 
 4.5.4
 FACTORING INTO PRIMES
-407
+
 system has a fatal flaw that does not seem to be present in the RSA scheme (see
 exercise 33): Anyone with access to a SQRT box can easily determine the factors
 of its N. This not only permits cheating by dishonest employees, or threats of
@@ -31132,8 +29422,6 @@ that 2107 −1 also is prime. M. Kraitchik found in 1922 that 2257 −1 is not p
 errors may have crept in to his calculations, but his conclusion has turned out
 to be correct.
 
-
-408
 ARITHMETIC
 4.5.4
 Table 2
@@ -31149,518 +29437,14 @@ a7
 a8
 a9
 a10
-215
-19
-49
-51
-55
-61
-75
-81
-115
-121
-135
-216
-15
-17
-39
-57
-87
-89
-99
-113
-117
-123
-217
-1
-9
-13
-31
-49
-61
-63
-85
-91
-99
-218
-5
-11
-17
-23
-33
-35
-41
-65
-75
-93
-219
-1
-19
-27
-31
-45
-57
-67
-69
-85
-87
-220
-3
-5
-17
-27
-59
-69
-129
-143
-153
-185
-221
-9
-19
-21
-55
-61
-69
-105
-111
-121
-129
-222
-3
-17
-27
-33
-57
-87
-105
-113
-117
-123
-223
-15
-21
-27
-37
-61
-69
-135
-147
-157
-159
-224
-3
-17
-33
-63
-75
-77
-89
-95
-117
-167
-225
-39
-49
-61
-85
-91
-115
-141
-159
-165
-183
-226
-5
-27
-45
-87
-101
-107
-111
-117
-125
-135
-227
-39
-79
-111
-115
-135
-187
-199
-219
-231
-235
-228
-57
-89
-95
-119
-125
-143
-165
-183
-213
-273
-229
-3
-33
-43
-63
-73
-75
-93
-99
-121
-133
-230
-35
-41
-83
-101
-105
-107
-135
-153
-161
-173
-231
-1
-19
-61
-69
-85
-99
-105
-151
-159
-171
-232
-5
-17
-65
-99
-107
-135
-153
-185
-209
-267
-233
-9
-25
-49
-79
-105
-285
-301
-303
-321
-355
-234
-41
-77
-113
-131
-143
-165
-185
-207
-227
-281
-235
-31
-49
-61
-69
-79
-121
-141
-247
-309
-325
-236
-5
-17
-23
-65
-117
-137
-159
-173
-189
-233
-237
-25
-31
-45
-69
-123
-141
-199
-201
-351
-375
-238
-45
-87
-107
-131
-153
-185
-191
-227
-231
-257
-239
-7
-19
-67
-91
-135
-165
-219
-231
-241
-301
-240
-87
-167
-195
-203
-213
-285
-293
-299
-389
-437
-241
-21
-31
-55
-63
-73
-75
-91
-111
-133
-139
-242
-11
-17
-33
-53
-65
-143
-161
-165
-215
-227
-243
-57
-67
-117
-175
-255
-267
-291
-309
-319
-369
-244
-17
-117
-119
-129
-143
-149
-287
-327
-359
-377
-245
-55
-69
-81
-93
-121
-133
-139
-159
-193
-229
-246
-21
-57
-63
-77
-167
-197
-237
-287
-305
-311
-247
-115
-127
-147
-279
-297
-339
-435
-541
-619
-649
-248
-59
-65
-89
-93
-147
-165
-189
-233
-243
-257
-259
-55
-99
-225
-427
-517
-607
-649
-687
-861
-871
-260
-93
-107
-173
-179
-257
-279
-369
-395
-399
-453
-263
-25
-165
-259
-301
-375
-387
-391
-409
-457
-471
-264
-59
-83
-95
-179
-189
-257
-279
-323
-353
-363
-106
-17
-21
-39
-41
-47
-69
-83
-93
-117
-137
-107
-9
-27
-29
-57
-63
-69
-71
-93
-99
-111
-108
-11
-29
-41
-59
-69
-153
-161
-173
-179
-213
-109
-63
-71
-107
-117
-203
-239
-243
-249
-261
-267
-1010
-33
-57
-71
-119
-149
-167
-183
-213
-219
-231
-1011
-23
-53
-57
-93
-129
-149
-167
-171
-179
-231
-1012
-11
-39
-41
-63
-101
-123
-137
-143
-153
-233
-1016
-63
-83
-113
-149
-183
-191
-329
-357
-359
-369
+
+
 The ten largest primes less than N are N −a1, . . . , N −a10.
 
 
 4.5.4
 FACTORING INTO PRIMES
-409
+
 Numbers of the form 2p −1 are now called Mersenne numbers, and it is
 known that Mersenne primes are obtained for p equal to
 2, 3, 5, 7, 13, 17, 19, 31, 61, 89, 107, 127, 521, 607, 1279, 2203, 2281,
@@ -31710,14 +29494,11 @@ particularly well suited to binary computers, since calculation mod (2q −1) is
 convenient; see Section 4.3.2. Exercise 4.3.2–14 explains how to save time when
 q is extremely large.
 
-
-410
 ARITHMETIC
 4.5.4
 Proof.
 We will prove Theorem L using only very simple principles of number
-theory, by investigating several features of recurring sequences that are of inde-
-pendent interest. Consider the sequences ⟨Un⟩and ⟨Vn⟩defined by
+theory, by investigating several features of recurring sequences that are of independent interest. Consider the sequences ⟨Un⟩and ⟨Vn⟩defined by
 U0 = 0,
 V0 = 2,
 U1 = 1,
@@ -31815,7 +29596,7 @@ To prove (37), observe that the sequence Um, Um+1, Um+2, . . . is congruent
 
 4.5.4
 FACTORING INTO PRIMES
-411
+
 (modulo N) to aU0, aU1, aU2, . . . , where a = Um+1 mod N is relatively prime
 to N because gcd(Un, Un+1) = 1.
 With these preliminaries out of the way, we are ready to prove Theorem L.
@@ -31837,7 +29618,7 @@ From (33), (36), and (37) we know that Ut ≡0 (modulo 2q −1), where
 t = lcm
 
 pe1−1
-1
+
 (p1 + ϵ1), . . . , per−1
 r
 (pr + ϵr)
@@ -31886,9 +29667,9 @@ k
 n + 1
 2k
 √
-2
+
 n+1−2k√
-6
+
 2k = 2(1−n)/2 
 k
 n + 1
@@ -31915,8 +29696,6 @@ Finally, by a simple case of the law of quadratic reciprocity (see exercise 23),
 3(n−1)/2 ≡−1, since n mod 3 = 1 and n mod 4 = 3. This means V2q−1 ≡−2, so
 we must have V2q−2 ≡0 as desired.
 
-
-412
 ARITHMETIC
 4.5.4
 An anonymous author whose works are now preserved in Italian libraries
@@ -31945,8 +29724,7 @@ to (p ± 1)/2.
 computer when the table entries for modulus mi do not exactly fill an integral number
 of memory words.
 x
-8. [23] (The sieve of Eratosthenes, 3rd century B.C.) The following procedure evi-
-dently discovers all odd prime numbers less than a given integer N, since it removes
+8. [23] (The sieve of Eratosthenes, 3rd century B.C.) The following procedure evidently discovers all odd prime numbers less than a given integer N, since it removes
 all the nonprime numbers: Start with all the odd numbers between 1 and N; then
 successively strike out the multiples p2
 k, pk(pk + 2), pk(pk + 4), . . . , of the kth prime
@@ -31969,13 +29747,12 @@ mod n = 1, then n is prime.
 5 · 197209 = 992 + //1, 495, 2, 495, 1, 1984//.]
 x 12. [M28] Design an algorithm that uses the outputs of Algorithm E to find a proper
 factor of N, if Algorithm E has produced enough outputs to deduce a solution of (18).
-13. [HM25] (J. D. Dixon.) Prove that whenever the algorithm of exercise 12 is pre-
-sented with a solution (x, e0, . . . , em) whose exponents are linearly dependent modulo 2
+13. [HM25] (J. D. Dixon.) Prove that whenever the algorithm of exercise 12 is presented with a solution (x, e0, . . . , em) whose exponents are linearly dependent modulo 2
 
 
 4.5.4
 FACTORING INTO PRIMES
-413
+
 on the exponents of previous solutions, the probability is 21−d that a factorization will
 not be found, when N has d distinct prime factors and x is chosen at random.
 14. [M20] Prove that the number T in step E3 of Algorithm E will never be a multiple
@@ -32040,8 +29817,6 @@ q
 
 ≡p(q−1)/2 (modulo q) when q is prime;
 
-
-414
 ARITHMETIC
 4.5.4
 p
@@ -32061,8 +29836,7 @@ a) Prove that
 p
 q
 
-satisfies the following relationships, hence it can be computed effi-
-ciently:
+satisfies the following relationships, hence it can be computed efficiently:
 0
 q
 
@@ -32115,7 +29889,7 @@ b) (Solovay and Strassen.)
 Prove that if n is odd but not prime, the number of
 integers x such that 1 ≤x < n and 0 ̸= ( x
 n) ≡x(n−1)/2 (modulo n) is at most
-1
+
 2φ(n). (Thus, the following testing procedure correctly determines whether or
 not a given n is prime, with probability at least 1/2 for all fixed n: “Generate x at
 random with 1 ≤x < n. If 0 ̸= ( x
@@ -32123,8 +29897,7 @@ n) ≡x(n−1)/2 (modulo n), say that n is probably
 prime, otherwise say that n is definitely not prime.”)
 c) (L. Monier.) Prove that if n and x are numbers for which Algorithm P concludes
 that “n is probably prime”, then 0 ̸= ( x
-n) ≡x(n−1)/2 (modulo n). [Hence Algo-
-rithm P is always superior to the test in (b).]
+n) ≡x(n−1)/2 (modulo n). [Hence Algorithm P is always superior to the test in (b).]
 x 24. [M25] (L. Adleman.) When n > 1 and x > 1 are integers, n odd, let us say that
 n “passes the x test of Algorithm P” if either x mod n = 0 or if steps P2–P5 lead to
 the conclusion that n is probably prime. Prove that, for any N, there exists a set of
@@ -32135,12 +29908,12 @@ principle be converted into an efficient test that leaves nothing to chance. (Yo
 not show how to compute the xj efficiently; just prove that they exist.)
 25. [HM41] (B. Riemann.) Prove that
 π(x) + π(x1/2)
-2
+
 + π(x1/3)
-3
+
 + · · · =
 x
-2
+
 dt
 ln t −2
 σ
@@ -32172,7 +29945,7 @@ Prove that the number of integers X in the range 0 ≤X < N such that X2 mod N =
 
 4.5.4
 FACTORING INTO PRIMES
-415
+
 pe1
 1 . . . pem
 m
@@ -32199,20 +29972,19 @@ m ≤1
 2r and
 (p
 e′
-1
+
 1 . . . p
 e′
 m
 m )(qi−1)/2 ≡(p
 e′′
-1
+
 1 . . . p
 e′′
 m
 m )(qi−1)/2 (modulo qi)
 for 1 ≤i ≤d.
-31. [M20] Use exercise 1.2.10–21 to estimate the probability that Dixon’s factoriza-
-tion algorithm (as described preceding Theorem D) obtains fewer than 2m outputs.
+31. [M20] Use exercise 1.2.10–21 to estimate the probability that Dixon’s factorization algorithm (as described preceding Theorem D) obtains fewer than 2m outputs.
 x 32. [M21] Show how to modify the RSA encoding scheme so that there is no problem
 with messages <
 3√
@@ -32260,12 +30032,9 @@ prime and q = 2kp + 1 for some k ≥0. For example, 2 →3 →7 →29 →59 →1
 95⟨30 omitted digits⟩37 →· · · ; the smallest successor of 95 . . . 37 has 103 digits.
 Find the longest chain of successive primes that you can.
 
-
-416
 ARITHMETIC
 4.5.4
-x 40. [M36] (A. Shamir.) Consider an abstract computer that can perform the opera-
-tions x + y, x −y, x · y, and ⌊x/y⌋on integers x and y of arbitrary length, in just one
+x 40. [M36] (A. Shamir.) Consider an abstract computer that can perform the operations x + y, x −y, x · y, and ⌊x/y⌋on integers x and y of arbitrary length, in just one
 unit of time, no matter how large those integers are. The machine stores integers in a
 random-access memory and it can select different program steps depending on whether
 or not x = y, given x and y. The purpose of this exercise is to demonstrate that there
@@ -32283,8 +30052,7 @@ an integer value n ≥2, having the following properties: f(n) = n if n is prime
 otherwise f(n) is a proper (but not necessarily prime) divisor of n. [Hint: If n ̸= 4,
 one such function f(n) is gcd(m(n), n), where m(n) = min{m | m! mod n = 0}.]
 (As a consequence of (b), we can completely factor a given number n by doing only
-O(log n)2 arithmetic operations on arbitrarily large integers: Given a partial factor-
-ization n = n1. . . nr, each nonprime ni can be replaced by f(ni) · (ni/f(ni)) in
+O(log n)2 arithmetic operations on arbitrarily large integers: Given a partial factorization n = n1. . . nr, each nonprime ni can be replaced by f(ni) · (ni/f(ni)) in
 O(log ni)=O(log n) steps, and this refinement can be repeated until all ni are prime.)
 x 41. [M28] (Lagarias, Miller, and Odlyzko.) The purpose of this exercise is to show
 that the number of primes less than N 3 can be calculated by looking only at the primes
@@ -32321,7 +30089,7 @@ Your algorithm should guess correctly with probability ≥1 −δ, and its runni
 
 4.5.4
 FACTORING INTO PRIMES
-417
+
 time T(A) should be at most O(ϵ−2(log δ−1)T(G)), assuming that T(G) ≥r2. (If
 T(G) < r2, replace T(G) by (T(G) + r2) in this formula.)
 b) Construct an algorithm F(G, m, ϵ) that finds the factors of m with expected
@@ -32334,7 +30102,7 @@ For fixed y ∈Qm, and for 0 ≤v < m, let τv = v√y mod m and λv =
 2(τv + mλv); here 1
 2v
 stands for ( m+1
-2
+
 v) mod m. If ±v ∈Qm we have τ(±v) =
 √
 v2y; therefore algorithm G
@@ -32387,8 +30155,6 @@ is one of the most important and useful in all of arithmetic.
 of such an elegant and celebrated problem be zealously cultivated.
 — C. F. GAUSS, Disquisitiones Arithmeticæ, Article 329 (1801)
 
-
-418
 ARITHMETIC
 4.6
 4.6. POLYNOMIAL ARITHMETIC
@@ -32443,13 +30209,12 @@ important case occurs when the algebraic system S consists of the integers 0,
 
 4.6
 POLYNOMIAL ARITHMETIC
-419
+
 
 see Eq. 4.3.2–(11)
 
 ; this is called polynomial arithmetic modulo m.
-Polyno-
-mial arithmetic modulo 2, when each of the coefficients is 0 or 1, is especially
+Polynomial arithmetic modulo 2, when each of the coefficients is 0 or 1, is especially
 important.
 The reader should note the similarity between polynomial arithmetic and
 multiple-precision arithmetic (Section 4.3.1), where the radix b is substituted
@@ -32458,20 +30223,15 @@ bears no essential relation to its neighboring coefficients uk±1, so the idea o
 “carrying” from one place to the next is absent. In fact, polynomial arithmetic
 modulo b is essentially identical to multiple-precision arithmetic with radix b,
 except that all carries are suppressed. For example, compare the multiplication
-of (1101)2 by (1011)2 in the binary number system with the analogous multipli-
-cation of x3 + x2 + 1 by x3 + x + 1 modulo 2:
+of (1101)2 by (1011)2 in the binary number system with the analogous multiplication of x3 + x2 + 1 by x3 + x + 1 modulo 2:
 Binary system
 Polynomials modulo 2
-1101
-1101
+
+
 × 1011
 × 1011
-1101
-1101
-1101
-1101
-1101
-1101
+
+
 10001111
 1111111
 The product of these polynomials modulo 2 is obtained by suppressing all carries,
@@ -32479,29 +30239,23 @@ and it is x6 +x5 +x4 +x3 +x2 +x+1. If we had multiplied the same polynomials
 over the integers, without taking residues modulo 2, the result would have been
 x6 + x5 + x4 + 3x3 + x2 + x + 1; again carries are suppressed, but in this case
 the coefficients can get arbitrarily large.
-In view of this strong analogy with multiple-precision arithmetic, it is unnec-
-essary to discuss polynomial addition, subtraction, and multiplication much fur-
-ther in this section. However, we should point out some aspects that often make
+In view of this strong analogy with multiple-precision arithmetic, it is unnecessary to discuss polynomial addition, subtraction, and multiplication much further in this section. However, we should point out some aspects that often make
 polynomial arithmetic somewhat different from multiple-precision arithmetic in
 practice: There is often a tendency to have a large number of zero coefficients,
 and polynomials of huge degrees, so special forms of representation are desirable;
 see Section 2.2.4. Furthermore, arithmetic on polynomials in several variables
 leads to routines that are best understood in a recursive framework; this situation
 is discussed in Chapter 8.
-Although the techniques of polynomial addition, subtraction, and multi-
-plication are comparatively straightforward, several other important aspects of
+Although the techniques of polynomial addition, subtraction, and multiplication are comparatively straightforward, several other important aspects of
 polynomial arithmetic deserve special examination. The following subsections
 therefore discuss division of polynomials, with associated techniques such as
-finding greatest common divisors and factoring. We shall also discuss the prob-
-lem of efficient evaluation of polynomials, namely the task of finding the value
+finding greatest common divisors and factoring. We shall also discuss the problem of efficient evaluation of polynomials, namely the task of finding the value
 of u(x) when x is a given element of S, using as few operations as possible. The
 special case of evaluating xn rapidly when n is large is quite important by itself,
 so it is discussed in detail in Section 4.6.3.
 The first major set of computer subroutines for doing polynomial arithmetic
 was the ALPAK system [W. S. Brown, J. P. Hyde, and B. A. Tague, Bell System
 
-
-420
 ARITHMETIC
 4.6
 Tech. J. 42 (1963), 2081–2119; 43 (1964), 785–804, 1547–1562]. Another early
@@ -32555,7 +30309,7 @@ deg(r) < deg(v).
 
 4.6.1
 DIVISION OF POLYNOMIALS
-421
+
 It is easy to see that there is at most one pair of polynomials
 
 q(x), r(x)
@@ -32621,8 +30375,6 @@ t ≥1.
 A unit is an element that has a reciprocal, namely an element u such that uv = 1
 for some v in S; and a prime is a nonunit element p such that the equation p = qr
 
-
-422
 ARITHMETIC
 4.6.1
 can be true only if either q or r is a unit. The representation (2) is to be unique
@@ -32636,10 +30388,8 @@ in which the units are +1 and −1, and the primes are ±2, ±3, ±5, ±7, ±11,
 The case that S is the set of all integers is of principal importance, because it
 is often preferable to work with integer coefficients instead of arbitrary rational
 coefficients.
-One of the key facts about polynomials (see exercise 10) is that the poly-
-nomials over a unique factorization domain form a unique factorization domain.
-A polynomial that is prime in this domain is usually called an irreducible polyno-
-mial. By using the unique factorization theorem repeatedly, we can prove that
+One of the key facts about polynomials (see exercise 10) is that the polynomials over a unique factorization domain form a unique factorization domain.
+A polynomial that is prime in this domain is usually called an irreducible polynomial. By using the unique factorization theorem repeatedly, we can prove that
 multivariate polynomials over the integers, or over any field, in any number of
 variables, can be uniquely factored into irreducible polynomials. For example,
 the multivariate polynomial 90x3 −120x2y + 18x2yz −24xy2z over the integers
@@ -32676,7 +30426,7 @@ unique factorization domain is primitive.
 
 4.6.1
 DIVISION OF POLYNOMIALS
-423
+
 Proof.
 Let u(x) = umxm + · · · + u0 and v(x) = vnxn + · · · + v0 be primitive
 polynomials. If p is any prime of the domain, we must show that p does not
@@ -32760,8 +30510,6 @@ u(x)
 is monic;
 in this case again (4) holds with a = b = 1, for all u(x) and v(x).
 
-
-424
 ARITHMETIC
 4.6.1
 For example, if we are dealing with polynomials over the integers, let u(x) =
@@ -32836,16 +30584,16 @@ of Algorithm D, we have
 8 2 8
 1 0 6 0
 3 10
-7
+
 0 8 0
-7
-0
+
+
 1 2 8
 8 0
-9
+
 0 11 2 4
 0 11
-0
+
 3 0 4
 (5)
 so that x8 + x6 + 10x4 + 10x3 + 8x2 + 2x + 8 equals
@@ -32854,7 +30602,7 @@ so that x8 + x6 + 10x4 + 10x3 + 8x2 + 2x + 8 equals
 
 4.6.1
 DIVISION OF POLYNOMIALS
-425
+
 Similarly,
 3x6 + 5x4 + 9x2 + 4x + 8 = (5x2 + 5)(11x4 + 3x2 + 4) + (4x + 1);
 11x4 + 3x2 + 4 = (6x3 + 5x2 + 6x + 5)(4x + 1) + 12;
@@ -32932,8 +30680,6 @@ v(x) = vnxn + · · · + v1x + v0,
 where vn ̸= 0 and m ≥n ≥0, this algorithm finds polynomials q(x) =
 qm−nxm−n + · · · + q0 and r(x) = rn−1xn−1 + · · · + r0 satisfying (8).
 
-
-426
 ARITHMETIC
 4.6.1
 R1. [Iterate on k.] Do step R2 for k = m −n, m −n −1, . . . , 0; then terminate
@@ -32954,8 +30700,7 @@ are themselves certain polynomial functions of the coefficients of u(x) and v(x)
 If vn = 1, the algorithm is identical to Algorithm D.
 If u(x) and v(x) are
 polynomials over a unique factorization domain, we can prove as before that the
-polynomials q(x) and r(x) are unique; therefore another way to do the pseudo-
-division over a unique factorization domain is to multiply u(x) by vm−n+1
+polynomials q(x) and r(x) are unique; therefore another way to do the pseudodivision over a unique factorization domain is to multiply u(x) by vm−n+1
 n
 and
 apply Algorithm D, knowing that all the quotients in step D2 will exist.
@@ -33040,7 +30785,7 @@ to the other instances of Euclid’s algorithm that we have seen.)
 
 4.6.1
 DIVISION OF POLYNOMIALS
-427
+
 E4. [Attach the content.] The algorithm terminates, with d · v(x) as the desired
 answer.
 As an example of Algorithm E, let us calculate the gcd of the polynomials
@@ -33049,46 +30794,42 @@ v(x) = 3x6 + 5x4 −4x2 −9x + 21,
 (9)
 over the integers. These polynomials are primitive, so step E1 sets d ←1. In
 step E2 we have the pseudo-division
-1
-0
+
+
 −6
 3 0 5 0 −4 −9 21
 
 1 0
 1 0
 −3 −3
-8
-2
+
+
 −5
 3 0
 3 0
 −9 −9 24
-6
+
 −15
 3 0
 5 0
 −4 −9 21
-0
+
 −2 0
 −5
-0
-3
-6
+
+
 −15
-0
+
 −6 0 −15
-0
+
 9 18
 −45
-0
+
 0 0
-0
-0
-0
-0
-0
+
+
 −6 0 −15
-0
+
 9 18
 −45
 −18 0 −45
@@ -33096,9 +30837,8 @@ step E2 we have the pseudo-division
 −18 0 −30
 0 24 54 −126
 −15
-0
-3
-0
+
+
 −9
 (10)
 Here the quotient q(x) is 1 · 32x2 + 0 · 31x + −6 · 30; we have
@@ -33139,33 +30879,30 @@ v(x)
 −5
 9, 0, 1
 9, 0, −1
-3
+
 −5
 9, 0, 1
 9, 0, −1
-3
+
 −117
 25 , −9, 441
-25
+
 −117
 25 , −9, 441
-25
+
 233150
 19773 , −102500
-6591
+
 233150
 19773 , −102500
-6591
+
 −1288744821
 543589225
 (13)
 
-
-428
 ARITHMETIC
 4.6.1
-To improve that algorithm, we can reduce u(x) and v(x) to monic polynomi-
-als at each step, since this removes unit factors that make the coefficients more
+To improve that algorithm, we can reduce u(x) and v(x) to monic polynomials at each step, since this removes unit factors that make the coefficients more
 complicated than necessary; this is actually Algorithm E over the rationals:
 u(x)
 v(x)
@@ -33178,25 +30915,24 @@ v(x)
 3, −3, 7
 1, 0, −1
 5, 0, 3
-5
+
 1, 0, −1
 5, 0, 3
-5
+
 1, 25
 13, −49
-13
+
 1, 25
 13, −49
-13
+
 1, −6150
-4663
+
 1, −6150
-4663
-1
+
+
 (14)
 In both (13) and (14) the sequence of polynomials is essentially the same
-as (12), which was obtained by Algorithm E over the integers; the only differ-
-ence is that the polynomials have been multiplied by certain rational numbers.
+as (12), which was obtained by Algorithm E over the integers; the only difference is that the polynomials have been multiplied by certain rational numbers.
 Whether we have 5x4−x2+3 or −5
 9x4+ 1
 9x2−1
@@ -33217,8 +30953,7 @@ u(x), v(x)
 = 1 modulo 13 is sufficient to prove that u(x) and v(x)
 are relatively prime over the integers (and therefore over the rational numbers).
 We will return to this time-saving observation at the close of Section 4.6.2.
-The subresultant algorithm. An ingenious algorithm that is generally supe-
-rior to Algorithm E, and that gives us further information about Algorithm E’s
+The subresultant algorithm. An ingenious algorithm that is generally superior to Algorithm E, and that gives us further information about Algorithm E’s
 behavior, was discovered by George E. Collins [JACM 14 (1967), 128–142] and
 subsequently improved by W. S. Brown and J. F. Traub [JACM 18 (1971), 505–
 514; see also W. S. Brown, ACM Trans. Math. Software 4 (1978), 237–249]. This
@@ -33248,8 +30983,7 @@ u(x)
 v(x)
 
 . Set g ←h ←1.
-C2. [Pseudo-division.] Set δ ←deg(u) −deg(v). Calculate r(x) using Algo-
-rithm R. If r(x) = 0, go to C4. If deg(r) = 0, replace v(x) by the constant
+C2. [Pseudo-division.] Set δ ←deg(u) −deg(v). Calculate r(x) using Algorithm R. If r(x) = 0, go to C4. If deg(r) = 0, replace v(x) by the constant
 polynomial “1” and go to C4.
 C3. [Adjust remainder.] Replace the polynomial u(x) by v(x), and replace v(x)
 by r(x)/ghδ.
@@ -33260,7 +30994,7 @@ At this point all coefficients of r(x) are multiples of ghδ.
 
 4.6.1
 DIVISION OF POLYNOMIALS
-429
+
 Then set g ←ℓ(u), h ←h1−δgδ and return to C2.
 
 The new value of h will
@@ -33279,25 +31013,24 @@ g
 h
 1, 0, 1, 0, −3, −3, 8, 2, −5
 3, 0, 5, 0, −4, −9, 21
-1
-1
+
+
 3, 0, 5, 0, −4, −9, 21
 −15, 0, 3, 0, −9
-3
-9
+
+
 −15, 0, 3, 0, −9
 65, 125, −245
 −15
-25
+
 65, 125, −245
 −9326, 12300
-65
-169
+
+
 (15)
 At the conclusion of the algorithm, r(x)/ghδ = 260708.
 The sequence of polynomials consists of integral multiples of the polynomials
-in the sequence produced by Algorithm E. In spite of the fact that the polyno-
-mials are not reduced to primitive form, the coefficients are kept to a reasonable
+in the sequence produced by Algorithm E. In spite of the fact that the polynomials are not reduced to primitive form, the coefficients are kept to a reasonable
 size because of the reduction factor in step C3.
 In order to analyze Algorithm C and to prove that it is valid, let us call the
 sequence of polynomials it produces u1(x), u2(x), u3(x), . . . , where u1(x) = u(x)
@@ -33308,17 +31041,17 @@ gδj−1
 j
 for j ≥2. Then we have
 gδ1+1
-2
+
 u1(x) = u2(x)q1(x) + g1hδ1
 1 u3(x),
 n3 < n2;
 gδ2+1
-3
+
 u2(x) = u3(x)q2(x) + g2hδ2
 2 u4(x),
 n4 < n3;
 gδ3+1
-4
+
 u3(x) = u4(x)q3(x) + g3hδ3
 3 u5(x),
 n5 < n4;
@@ -33361,8 +31094,6 @@ multiply row B3 by c3
 divide by b5
 6 to obtain row D3.
 
-
-430
 ARITHMETIC
 4.6.1
 In order to prove that u4(x) has integer coefficients, let us consider the
@@ -33387,30 +31118,22 @@ B0
 
 
 a8 a7 a6 a5 a4 a3 a2 a1 a0 0
-0
+
 0 a8 a7 a6 a5 a4 a3 a2 a1 a0 0
-0
+
 0 a8 a7 a6 a5 a4 a3 a2 a1 a0
 b6 b5 b4 b3 b2 b1 b0
-0
-0
-0
-0
+
+
 0 b6 b5 b4 b3 b2 b1 b0
-0
-0
-0
-0
+
+
 0 b6 b5 b4 b3 b2 b1 b0
-0
-0
-0
-0
+
+
 0 b6 b5 b4 b3 b2 b1 b0
-0
-0
-0
-0
+
+
 0 b6 b5 b4 b3 b2 b1 b0
 
 
@@ -33446,45 +31169,26 @@ D0
 
 
 b6 b5 b4 b3 b2 b1 b0 0
-0
-0
-0
+
+
 0 b6 b5 b4 b3 b2 b1 b0 0
-0
-0
-0
+
+
 0 b6 b5 b4 b3 b2 b1 b0
-0
-0
-0
-0
+
+
 0 b6 b5 b4 b3 b2 b1 b0
-0
-0
-0
-0
+
+
 0 c4 c3 c2 c1 c0
-0
-0
-0
-0
-0
-0
+
+
 0 c4 c3 c2 c1 c0
-0
-0
-0
-0
-0
-0
+
+
 0 c4 c3 c2 c1 c0
-0
-0
-0
-0
-0
-0
-0
+
+
 0 d2 d1 d0
 
 
@@ -33508,8 +31212,7 @@ b3
 6) · det M0 = ± det M ′
 0,
 if M0 and M ′
-0 represent any square matrices obtained by selecting eight corre-
-sponding columns from M and M ′. For example, let us select the first seven
+0 represent any square matrices obtained by selecting eight corresponding columns from M and M ′. For example, let us select the first seven
 columns and the column containing d1; then
 b3
 6 · b3
@@ -33530,21 +31233,19 @@ b3
 
 a8 a7 a6 a5 a4 a3 a2 0
 0 a8 a7 a6 a5 a4 a3 a0
-0
+
 0 a8 a7 a6 a5 a4 a1
 b6 b5 b4 b3 b2 b1 b0
-0
+
 0 b6 b5 b4 b3 b2 b1
-0
-0
+
+
 0 b6 b5 b4 b3 b2
-0
-0
-0
+
+
 0 b6 b5 b4 b3 b0
-0
-0
-0
+
+
 0 b6 b5 b4 b1
 
 
@@ -33573,19 +31274,19 @@ uj+1(x)
 
 . Extracting appropriate columns shows that
 (gδ1+1
-2
+
 /g1hδ1
 1 )n2−nj+1(gδ2+1
-3
+
 /g2hδ2
 2 )n3−nj+1. . . (gδj−1+1
 j
 /gj−1hδj−1
 j−1 )nj−nj+1
 × det M0 = ±gn1−n3
-2
+
 gn2−n4
-3
+
 . . . gnj−2−nj
 j−1
 gnj−1−nj+1
@@ -33596,7 +31297,7 @@ rt,
 
 4.6.1
 DIVISION OF POLYNOMIALS
-431
+
 Table 1
 COEFFICIENTS THAT ARISE IN ALGORITHM C
 Row
@@ -33616,16 +31317,13 @@ a3
 a2
 a1
 a0
-0
-0
-0
-0
-0
+
+
 b3
-6
+
 C5
 A4
-0
+
 a8
 a7
 a6
@@ -33635,16 +31333,14 @@ a3
 a2
 a1
 a0
-0
-0
-0
-0
+
+
 b3
-6
+
 C4
 A3
-0
-0
+
+
 a8
 a7
 a6
@@ -33654,16 +31350,14 @@ a3
 a2
 a1
 a0
-0
-0
-0
+
+
 b3
-6
+
 C3
 A2
-0
-0
-0
+
+
 a8
 a7
 a6
@@ -33673,16 +31367,14 @@ a3
 a2
 a1
 a0
-0
-0
+
+
 b3
-6
+
 C2
 A1
-0
-0
-0
-0
+
+
 a8
 a7
 a6
@@ -33692,16 +31384,13 @@ a3
 a2
 a1
 a0
-0
+
 b3
-6
+
 C1
 A0
-0
-0
-0
-0
-0
+
+
 a8
 a7
 a6
@@ -33712,7 +31401,7 @@ a2
 a1
 a0
 b3
-6
+
 C0
 B7
 b6
@@ -33722,15 +31411,10 @@ b3
 b2
 b1
 b0
-0
-0
-0
-0
-0
-0
-0
+
+
 B6
-0
+
 b6
 b5
 b4
@@ -33738,15 +31422,11 @@ b3
 b2
 b1
 b0
-0
-0
-0
-0
-0
-0
+
+
 B5
-0
-0
+
+
 b6
 b5
 b4
@@ -33754,15 +31434,11 @@ b3
 b2
 b1
 b0
-0
-0
-0
-0
-0
+
+
 B4
-0
-0
-0
+
+
 b6
 b5
 b4
@@ -33770,15 +31446,11 @@ b3
 b2
 b1
 b0
-0
-0
-0
-0
+
+
 B3
-0
-0
-0
-0
+
+
 b6
 b5
 b4
@@ -33786,19 +31458,15 @@ b3
 b2
 b1
 b0
-0
-0
-0
+
+
 c3
 4/b5
-6
+
 D3
 B2
-0
-0
-0
-0
-0
+
+
 b6
 b5
 b4
@@ -33806,19 +31474,15 @@ b3
 b2
 b1
 b0
-0
-0
+
+
 c3
 4/b5
-6
+
 D2
 B1
-0
-0
-0
-0
-0
-0
+
+
 b6
 b5
 b4
@@ -33826,19 +31490,14 @@ b3
 b2
 b1
 b0
-0
+
 c3
 4/b5
-6
+
 D1
 B0
-0
-0
-0
-0
-0
-0
-0
+
+
 b6
 b5
 b4
@@ -33848,98 +31507,65 @@ b1
 b0
 c3
 4/b5
-6
+
 D0
 C5
-0
-0
-0
-0
+
+
 c4
 c3
 c2
 c1
 c0
-0
-0
-0
-0
-0
+
+
 C4
-0
-0
-0
-0
-0
+
+
 c4
 c3
 c2
 c1
 c0
-0
-0
-0
-0
+
+
 C3
-0
-0
-0
-0
-0
-0
+
+
 c4
 c3
 c2
 c1
 c0
-0
-0
-0
+
+
 C2
-0
-0
-0
-0
-0
-0
-0
+
+
 c4
 c3
 c2
 c1
 c0
-0
-0
+
+
 C1
-0
-0
-0
-0
-0
-0
-0
-0
+
+
 c4
 c3
 c2
 c1
 c0
-0
+
 d2
 2b4
 6/c5
-4
+
 E1
 C0
-0
-0
-0
-0
-0
-0
-0
-0
-0
+
+
 c4
 c3
 c2
@@ -33948,65 +31574,34 @@ c0
 d2
 2b4
 6/c5
-4
+
 E0
 D3
-0
-0
-0
-0
-0
-0
-0
-0
+
+
 d2
 d1
 d0
-0
-0
-0
+
+
 D2
-0
-0
-0
-0
-0
-0
-0
-0
-0
+
+
 d2
 d1
 d0
-0
-0
+
+
 D1
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
+
+
 d2
 d1
 d0
-0
+
 D0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
+
+
 d2
 d1
 d0
@@ -34014,52 +31609,22 @@ e2
 2c2
 4/d3
 2b2
-6
+
 F0
 E1
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
+
+
 e1
 e0
-0
+
 E0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
+
+
 e1
 e0
 F0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
+
+
 f0
 where rt is a given coefficient of uj+1(x) and M0 is a submatrix of M. The h’s
 have been chosen very cleverly so that this equation simplifies to
@@ -34086,17 +31651,14 @@ B0
 a8 a7 a6 a5 a4 a3 a2 a1 a0 0
 0 a8 a7 a6 a5 a4 a3 a2 a1 a0
 b6 b5 b4 b3 b2 b1 b0
-0
-0
-0
+
+
 0 b6 b5 b4 b3 b2 b1 b0
-0
-0
-0
+
+
 0 b6 b5 b4 b3 b2 b1 b0
-0
-0
-0
+
+
 0 b6 b5 b4 b3 b2 b1 b0
 
 
@@ -34108,8 +31670,6 @@ b6 b5 b4 b3 b2 b1 b0
 = M.
 (21)
 
-
-432
 ARITHMETIC
 4.6.1
 Row operations as specified in Table 1, and permutation of rows, leads to
@@ -34127,23 +31687,20 @@ C0
 
 
 b6 b5 b4 b3 b2 b1 b0 0
-0
-0
+
+
 0 b6 b5 b4 b3 b2 b1 b0 0
-0
-0
+
+
 0 b6 b5 b4 b3 b2 b1 b0 0
-0
-0
+
+
 0 b6 b5 b4 b3 b2 b1 b0
-0
-0
-0
+
+
 0 c4 c3 c2 c1 c0 0
-0
-0
-0
-0
+
+
 0 c4 c3 c2 c1 c0
 
 
@@ -34171,19 +31728,19 @@ rows Bn1−nj−1 through Bn3−nj, then Cn2+nj−1 through Cn4−nj, . . . , Pn
 through P0, then Qnj−1−nj−1 through Q0. Letting M0 be the first n1 + n2 −2nj
 columns of M, we obtain
 (gδ1+1
-2
+
 /g1hδ1
 1 )n2−nj(gδ2+1
-3
+
 /g2hδ2
 2 )n3−nj . . . (gδj−1+1
 j
 /gj−1hδj−1
 j−1 )nj−nj det M0
 = ±gn1−n3
-2
+
 gn2−n4
-3
+
 . . . gnj−2−nj
 j−1
 gnj−1−nj
@@ -34209,8 +31766,7 @@ ij
 1/2
 ;
 (25)
-therefore every coefficient appearing in the polynomials computed by Algo-
-rithm C is at most
+therefore every coefficient appearing in the polynomials computed by Algorithm C is at most
 N m+n(m + 1)n/2(n + 1)m/2,
 (26)
 if all coefficients of the given polynomials u(x) and v(x) are bounded by N
@@ -34227,7 +31783,7 @@ consider what happens if we avoid the corrections in steps E3 and C3, merely
 
 4.6.1
 DIVISION OF POLYNOMIALS
-433
+
 replacing v(x) by r(x). This is the simplest gcd algorithm, and it is the one
 that traditionally appears in textbooks on algebra (for theoretical purposes, not
 intended for practical calculations). If we suppose that δ1 = δ2 = · · · = 1, we
@@ -34263,19 +31819,18 @@ det
 
 a8 a7 a6 a5 a4 a3 a2 a1
 0 a8 a7 a6 a5 a4 a3 a2
-0
+
 0 a8 a7 a6 a5 a4 a3
 b6 b5 b4 b3 b2 b1 b0
-0
+
 0 b6 b5 b4 b3 b2 b1 b0
-0
+
 0 b6 b5 b4 b3 b2 b1
-0
-0
+
+
 0 b6 b5 b4 b3 b2
-0
-0
-0
+
+
 0 b6 b5 b4 b3
 
 
@@ -34309,8 +31864,6 @@ always” of degree zero, since Sylvester’s determinant is almost never zero. 
 many calculations of practical interest would never be undertaken if there weren’t
 some reasonable chance that the gcd would be a polynomial of positive degree.
 
-
-434
 ARITHMETIC
 4.6.1
 We can see exactly what happens during Algorithms E and C when the gcd is
@@ -34359,20 +31912,18 @@ and the proof is surprisingly short (see exercise 22).
 Although Algorithms C and E are interesting, they aren’t the whole story.
 Important alternative ways to calculate polynomial gcds over the integers are
 discussed at the end of Section 4.6.2.
-There is also a general determinant-
-evaluation algorithm that may be said to include Algorithm C as a special case;
+There is also a general determinantevaluation algorithm that may be said to include Algorithm C as a special case;
 see E. H. Bareiss, Math. Comp. 22 (1968), 565–578.
 
 
 4.6.1
 DIVISION OF POLYNOMIALS
-435
+
 In the fourth edition of this book I plan to redo the exposition of the
 present section, taking into proper account the 19th-century research on
 determinants, as well as the work of W. Habicht, Comm. Math. Helvetici 21
 (1948), 99–116. An excellent discussion of the latter has been given by R. Loos
-in Computing, Supplement 4 (1982), 115–137. An interesting method for evalu-
-ating determinants, published in 1853 by Felice Chiò and rediscovered by C. L.
+in Computing, Supplement 4 (1982), 115–137. An interesting method for evaluating determinants, published in 1853 by Felice Chiò and rediscovered by C. L.
 Dodgson (aka Lewis Carroll), is also highly relevant. See D. E. Knuth, Electronic
 J. Combinatorics 3, 2 (1996), paper #R5, §3, for a summary of the early history
 of identities between determinants of submatrices.
@@ -34394,8 +31945,7 @@ polynomials U(x) and V (x) having integer coefficients.
 Find U(x) and V (x) when
 u(x) = x21 −1 and v(x) = x13 −1.
 x
-4. [M30] Let p be prime, and suppose that Euclid’s algorithm applied to the poly-
-nomials u(x) and v(x) modulo p yields a sequence of polynomials having respective
+4. [M30] Let p be prime, and suppose that Euclid’s algorithm applied to the polynomials u(x) and v(x) modulo p yields a sequence of polynomials having respective
 degrees m, n, n1, . . . , nt, −∞, where m = deg(u), n = deg(v), and nt ≥0. Assume
 that m ≥n. If u(x) and v(x) are monic polynomials, independently and uniformly
 distributed over all the pm+n pairs of monic polynomials having respective degrees
@@ -34410,17 +31960,13 @@ degree n?
 6. [M23] We have seen that Euclid’s Algorithm 4.5.2A for integers can be directly
 adapted to an algorithm for the greatest common divisor of polynomials.
 Can the
-binary gcd algorithm, Algorithm 4.5.2B, be adapted in an analogous way to an algo-
-rithm that applies to polynomials?
-7. [M10] What are the units in the domain of all polynomials over a unique factor-
-ization domain S?
+binary gcd algorithm, Algorithm 4.5.2B, be adapted in an analogous way to an algorithm that applies to polynomials?
+7. [M10] What are the units in the domain of all polynomials over a unique factorization domain S?
 x
 8. [M22] Show that if a polynomial with integer coefficients is irreducible over the
 domain of integers, it is irreducible when considered as a polynomial over the field of
 rational numbers.
 
-
-436
 ARITHMETIC
 4.6.1
 9. [M25] Let u(x) and v(x) be primitive polynomials over a unique factorization
@@ -34481,7 +32027,7 @@ variables are not commutative under multiplication. In the conventional language
 
 4.6.1
 DIVISION OF POLYNOMIALS
-437
+
 pure mathematics, the set of string polynomials with the operations defined here is the
 “free associative algebra” generated by A over the rationals.)
 a) Let Q1, Q2, U, and V be string polynomials with deg(U) ≥deg(V ) and such that
@@ -34534,8 +32080,6 @@ given U1 and U2. Furthermore the result is right-left symmetric, in the sense th
 U2 = U1Q + R′,
 where deg(R′) = deg(U1) −deg(V2) + deg(R) < deg(U1).
 
-
-438
 ARITHMETIC
 4.6.1
 Show that this division algorithm can be extended to an algorithm that computes
@@ -34567,20 +32111,17 @@ w1v1 −w′
 at the nth iteration. This might be regarded as the “ultimate” extension of Euclid’s
 algorithm.]
 19. [M39] (Common divisors of square matrices.) Exercise 18 shows that the concept
-of greatest common right divisor can be meaningful when multiplication is not commu-
-tative. Prove that any two n×n matrices A and B of integers have a greatest common
+of greatest common right divisor can be meaningful when multiplication is not commutative. Prove that any two n×n matrices A and B of integers have a greatest common
 right matrix divisor D. [Suggestion: Design an algorithm whose inputs are A and B,
 and whose outputs are integer matrices D, P, Q, X, Y, where A = PD, B = QD, and
 D = XA + YB.] Find a greatest common right divisor of the matrices ( 1
-3
-2
+
+
 4) and ( 4
-2
-3
+
+
 1).
-20. [M40] Investigate approximate polynomial gcds and the accuracy of Euclid’s al-
-gorithm: What can be said about calculation of the greatest common divisor of poly-
-nomials whose coefficients are floating point numbers?
+20. [M40] Investigate approximate polynomial gcds and the accuracy of Euclid’s algorithm: What can be said about calculation of the greatest common divisor of polynomials whose coefficients are floating point numbers?
 21. [M25] Prove that the computation time required by Algorithm C to compute the
 gcd of two nth degree polynomials over the integers is O(n4(log Nn)2), if the coefficients
 of the given polynomials are bounded by N in absolute value.
@@ -34609,7 +32150,7 @@ polynomial in the sense that no nonzero polynomial q(x) of smaller degree can ma
 
 4.6.2
 FACTORIZATION OF POLYNOMIALS
-439
+
 the quantity p(x)u(x) −q(x)v(x), for any polynomial p(x), achieve a degree as small
 as pn(x)u(x) −qn(x)v(x).
 27. [M23] Suggest a way to speed up the division of u(x) by v(x) when we know in
@@ -34626,8 +32167,7 @@ find the factors of an arbitrary n-bit binary number. This surprising situation
 is a consequence of an instructive factorization algorithm discovered in 1967 by
 Elwyn R. Berlekamp [Bell System Technical J. 46 (1967), 1853–1859].
 Let p be a prime number; all arithmetic on polynomials in the following
-discussion will be done modulo p. Suppose that someone has given us a polyno-
-mial u(x), whose coefficients are chosen from the set {0, 1, . . . , p −1}; we may
+discussion will be done modulo p. Suppose that someone has given us a polynomial u(x), whose coefficients are chosen from the set {0, 1, . . . , p −1}; we may
 assume that u(x) is monic. Our goal is to express u(x) in the form
 u(x) = p1(x)e1 . . . pr(x)er,
 (1)
@@ -34662,8 +32202,6 @@ v(x)
 the factorization process can be completed by finding the irreducible factors
 of v(x) and raising them to the pth power.
 
-
-440
 ARITHMETIC
 4.6.2
 Identity (5) may appear somewhat strange to the reader; it is an important
@@ -34674,7 +32212,7 @@ modulo p, then
 v1(x)+v2(x)
 p = v1(x)p +
 p
-1
+
 
 v1(x)p−1v2(x)+· · ·+
 p
@@ -34684,7 +32222,7 @@ v1(x)v2(x)p−1 +v2(x)p
 = v1(x)p +v2(x)p,
 since the binomial coefficients
 p
-1
+
 
 , . . . ,
 p
@@ -34775,12 +32313,11 @@ satisfies (8), it follows that u(x) divides the left-hand side of (10), so every
 
 4.6.2
 FACTORIZATION OF POLYNOMIALS
-441
+
 irreducible factor of u(x) must divide one of the p relatively prime factors of the
 right-hand side of (10). In other words, all solutions of (8) must have the form
 of (7), for some s1, s2, . . . , sr; there are exactly pr solutions of (8).
-The solutions v(x) to congruence (8) therefore provide a key to the factor-
-ization of u(x). It may seem harder to find all solutions to (8) than to factor
+The solutions v(x) to congruence (8) therefore provide a key to the factorization of u(x). It may seem harder to find all solutions to (8) than to factor
 u(x) in the first place, but in fact this is not true, since the set of solutions to
 (8) is closed under addition. Let deg(u) = n; we can construct the n × n matrix
 Q =
@@ -34869,8 +32406,6 @@ v(x) −s, u(x)
 (14)
 whenever v(x) satisfies (8).
 
-
-442
 ARITHMETIC
 4.6.2
 If the use of v[2](x) does not succeed in splitting u(x) into r factors,
@@ -34933,7 +32468,7 @@ t ←an−1, an−1 ←(an−2 −tun−1) mod p, . . . , a1 ←(a0 −tu1) mod 
 
 4.6.2
 FACTORIZATION OF POLYNOMIALS
-443
+
 and a0 ←(−tu0) mod p.
 
 We have seen similar procedures in connection with
@@ -34951,132 +32486,8 @@ ak,3
 ak,2
 ak,1
 ak,0
-0
-0
-0
-0
-0
-0
-0
-0
-1
-1
-0
-0
-0
-0
-0
-0
-1
-0
-2
-0
-0
-0
-0
-0
-1
-0
-0
-3
-0
-0
-0
-0
-1
-0
-0
-0
-4
-0
-0
-0
-1
-0
-0
-0
-0
-5
-0
-0
-1
-0
-0
-0
-0
-0
-6
-0
-1
-0
-0
-0
-0
-0
-0
-7
-1
-0
-0
-0
-0
-0
-0
-0
-8
-0
-12
-0
-3
-3
-5
-11
-5
-9
-12
-0
-3
-3
-5
-11
-5
-0
-10
-0
-4
-3
-2
-8
-0
-2
-8
-11
-4
-3
-2
-8
-0
-2
-8
-0
-12
-3
-11
-8
-12
-1
-2
-5
-7
-13
-11
-5
-12
-10
-11
-7
-1
-2
+
+
 Therefore the second row of Q is (2, 1, 7, 11, 10, 12, 5, 11).
 Similarly we may
 determine x26 mod u(x), . . . , x91 mod u(x), and we find that
@@ -35092,70 +32503,8 @@ Q =
 
 
 
-1
-0
-0
-0
-0
-0
-0
-0
-2
-1
-7
-11
-10
-12
-5
-11
-3
-6
-4
-3
-0
-4
-7
-2
-4
-3
-6
-5
-1
-6
-2
-3
-2
-11
-8
-8
-3
-1
-3
-11
-6
-11
-8
-6
-2
-7
-10
-9
-5
-11
-7
-10
-0
-11
-7
-12
-3
-3
-12
-5
-0
-11
-9
-12
+
+
 
 
 
@@ -35180,70 +32529,8 @@ Q −I =
 
 
 
-0
-0
-0
-0
-0
-0
-0
-0
-2
-0
-7
-11
-10
-12
-5
-11
-3
-6
-3
-3
-0
-4
-7
-2
-4
-3
-6
-4
-1
-6
-2
-3
-2
-11
-8
-8
-2
-1
-3
-11
-6
-11
-8
-6
-2
-6
-10
-9
-5
-11
-7
-10
-0
-11
-6
-12
-3
-3
-12
-5
-0
-11
-9
-11
+
+
 
 
 
@@ -35268,8 +32555,6 @@ can be based on the observation that any column of A may be multiplied by
 a nonzero quantity, and any multiple of one of its columns may be added to a
 different column, without changing the rank or the vectors v[1], . . . , v[r]. (These
 
-
-444
 ARITHMETIC
 4.6.2
 transformations amount to replacing A by AB, where B is a nonsingular matrix.)
@@ -35323,71 +32608,13 @@ already; the column operations of step N3 then change A to the matrix
 
 
 
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
+
+
  
-12
+
   0
-0
-11
-6
-5
-8
-1
-4
-1
-7
-3
-3
-9
-5
-9
-6
-6
-4
-4
-11
-2
-6
-12
-1
-8
-9
-5
-11
-11
-7
-10
-6
-1
-10
-1
-11
-6
-1
-6
-11
-9
-3
-12
-3
-11
-9
-6
-11
-12
-2
+
+
 
 
 
@@ -35408,7 +32635,7 @@ matrix starting with 0, not 1.) When k = 2, we may choose j = 4 and proceed
 
 4.6.2
 FACTORIZATION OF POLYNOMIALS
-445
+
 in a similar way, obtaining the following matrices, which all have the same null
 space as Q −I:
 k = 2
@@ -35423,72 +32650,18 @@ k = 2
 
 
 
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
+
+
  
-12
+
   0
-0
-0
-0
-0
-0
+
+
  
-12
+
   0
-0
-0
-8
-1
-3
-11
-4
-9
-10
-6
-2
-4
-7
-1
-1
-5
-9
-3
-12
-3
-0
-5
-3
-5
-4
-5
-0
-1
-2
-5
-7
-0
-3
-0
-11
-6
-7
-0
-7
-0
-6
-12
+
+
 
 
 
@@ -35512,73 +32685,23 @@ k = 3
 
 
 
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
+
+
  
-12
+
   0
-0
-0
-0
-0
-0
+
+
  
-12
+
   0
-0
-0
-0
+
+
  
-12
+
   0
-0
-0
-0
-0
-0
-9
-9
-8
-9
-11
-8
-8
-5
-1
-10
-4
-11
-4
-4
-0
-0
-5
-12
-12
-7
-3
-4
-6
-7
-2
-7
-2
-12
-9
-11
-11
-2
+
+
 
 
 
@@ -35602,75 +32725,28 @@ k = 4
 
 
 
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
+
+
  
-12
+
   0
-0
-0
-0
-0
-0
+
+
  
-12
+
   0
-0
-0
-0
+
+
  
-12
+
   0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
+
+
  
-12
+
  
-1
-10
-4
-11
-4
-4
-0
-0
-8
-2
-6
-10
-11
-11
-0
-9
-1
-6
-4
-11
-2
-0
-0
-10
+
+
 
 
 
@@ -35694,76 +32770,31 @@ k = 5
 
 
 
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
+
+
  
-12
+
   0
-0
-0
-0
-0
-0
+
+
  
-12
+
   0
-0
-0
-0
+
+
  
-12
+
   0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
+
+
  
-12
+
  
  
-12
+
   0
-0
-0
-0
-0
-0
-0
-5
-0
-0
-0
-5
-5
-0
-9
-12
-9
-0
-0
-11
-9
-0
-10
+
+
 
 
 
@@ -35810,8 +32841,6 @@ modulo 13, we have 1
 2 = 7, 1
 3 = 9, etc.) The computation in step B1 takes O(n2)
 
-
-446
 ARITHMETIC
 4.6.2
 units of time; step B2 takes O(pn2). For step B3 we use Algorithm N, which
@@ -35859,15 +32888,13 @@ n3(log p)2
 . In step
 B2, we can form xp mod u(x) in a more efficient way than (16) when p is large:
 Section 4.6.3 shows that this value can be obtained by essentially using O(log p)
-operations of squaring mod u(x), going from xk mod u(x) to x2k mod u(x), to-
-gether with the operation of multiplying by x. The squaring operation is rel-
-atively easy to perform if we first make an auxiliary table of xm mod u(x) for
+operations of squaring mod u(x), going from xk mod u(x) to x2k mod u(x), together with the operation of multiplying by x. The squaring operation is relatively easy to perform if we first make an auxiliary table of xm mod u(x) for
 m = n, n + 1, . . . , 2n −2; if xk mod u(x) = cn−1xn−1 + · · · + c1x + c0, then
 x2k mod u(x) =
 
 c2
 n−1x2n−2 + · · · + (c1c0 + c1c0)x + c2
-0
+
 
 mod u(x),
 where x2n−2, . . . , xn can be replaced by polynomials in the auxiliary table. The
@@ -35911,7 +32938,7 @@ u(x), v(x)(p−1)/2 −1
 
 4.6.2
 FACTORIZATION OF POLYNOMIALS
-447
+
 with a little bit of luck, (20) will be a nontrivial factor of u(x). In fact, we can
 determine exactly how much luck is involved, by considering (7). Let v(x) ≡sj
 (modulo pj(x)) for 1 ≤j ≤r; then pj(x) divides v(x)(p−1)/2 −1 if and only if
@@ -35939,16 +32966,16 @@ nontrivial factor will be obtained is therefore
 2p
 r
 = 1 −
-1
+
 2r−1
 
 1 +
 r
-2
+
 
 p−2 +
 r
-4
+
 
 p−4 + · · ·
 
@@ -36006,13 +33033,11 @@ D1. [Go squarefree.] Rule out squared factors, as in Berlekamp’s method. Also
 set v(x) ←u(x), w(x) ←“x”, and d ←0. (Here v(x) and w(x) are variables
 that have polynomials as values.)
 
-
-448
 ARITHMETIC
 4.6.2
 D2. [If not done, take pth power.] (At this point w(x) = xpd mod v(x); all of
 the irreducible factors of v(x) are distinct and have degree > d.) If d + 1 >
-1
+
 2 deg(v), the procedure terminates since we either have v(x) = 1 or v(x) is
 irreducible. Otherwise increase d by 1 and replace w(x) by w(x)p mod v(x).
 D3. [Extract factors.] Find gd(x) = gcd
@@ -36050,8 +33075,7 @@ gcd
 gd(x), t(x)(pd−1)/2 −1
 
 (21)
-for all polynomials t(x), since t(x)pd −t(x) is a multiple of all irreducible poly-
-nomials of degree d. (We may regard t(x) as an element of the field of size pd,
+for all polynomials t(x), since t(x)pd −t(x) is a multiple of all irreducible polynomials of degree d. (We may regard t(x) as an element of the field of size pd,
 when that field consists of all polynomials modulo an irreducible f(x) as in
 exercise 16.) Now exercise 29 shows that gcd
 
@@ -36078,55 +33102,50 @@ s = 1
 s = 2
 x3 +
 2x + 1
-1
-1
-1
+
+
 x3 +
 2x + 2
 f(x)
 f(x)
 f(x)
 x3 + x2 +
-2
+
 f(x)
 f(x)
-1
+
 x3 + x2 + x + 2
 f(x)
-1
+
 f(x)
 x3 + x2 + 2x + 1
-1
+
 f(x)
 f(x)
 x3 + 2x2 +
-1
-1
+
+
 f(x)
-1
+
 x3 + 2x2 + x + 1
-1
-1
+
+
 f(x)
 x3 + 2x2 + 2x + 2
 f(x)
-1
-1
 
 
 4.6.2
 FACTORIZATION OF POLYNOMIALS
-449
-Exercise 31 contains a partial explanation of why linear polynomials can be effec-
-tive. But when there are more than 2p irreducible polynomials of degree d, some
+
+Exercise 31 contains a partial explanation of why linear polynomials can be effective. But when there are more than 2p irreducible polynomials of degree d, some
 irreducibles must exist that cannot be distinguished by linear choices of t(x).
 An alternative to (21) that works when p = 2 is discussed in exercise 30.
 Faster algorithms for distinct-degree factorization when p is very large have been
 found by J. von zur Gathen, V. Shoup, and E. Kaltofen; the running time is
 O(n2+ϵ + n1+ϵ log p) arithmetic operations modulo p for numbers of practical
 size, and O(n(5+ω+ϵ)/4 log p) such operations as n →∞, when ω is the exponent
-of “fast” matrix multiplication in exercise 4.6.4–66. [See Computational Com-
-plexity 2 (1992), 187–224; J. Symbolic Comp. 20 (1995), 363–397; Math. Comp.
+of “fast” matrix multiplication in exercise 4.6.4–66. [See Computational Complexity 2 (1992), 187–224; J. Symbolic Comp. 20 (1995), 363–397; Math. Comp.
 67 (1998), 1179–1197.]
 Historical notes: The idea of finding all the linear factors of a squarefree
 polynomial f(x) modulo p by first calculating g(x) = gcd
@@ -36170,15 +33189,12 @@ Isaac Newton gave a method for finding linear and quadratic factors of
 polynomials with integer coefficients in his Arithmetica Universalis (1707). His
 method was extended by N. Bernoulli in 1708 and, more explicitly, by an as-
 
-
-450
 ARITHMETIC
 4.6.2
 tronomer named Friedrich von Schubert in 1793, who showed how to find all
 factors of degree n in a finite number of steps; see M. Mignotte and D. Ştefănescu,
 Revue d’Hist. Math. 7 (2001), 67–89. L. Kronecker rediscovered their approach
-independently, about 90 years later; but unfortunately the method is very ineffi-
-cient when n is five or more. Much better results can be obtained with the help
+independently, about 90 years later; but unfortunately the method is very inefficient when n is five or more. Much better results can be obtained with the help
 of the “mod p” factorization methods presented above.
 Suppose that we want to find the irreducible factors of a given polynomial
 u(x) = unxn + un−1xn−1 + · · · + u0,
@@ -36190,8 +33206,7 @@ that u(x) is squarefree, by dividing out gcd
 u(x), u′(x)
 
 as in exercise 34.
-Now if u(x) = v(x)w(x), where each of these polynomials has integer coef-
-ficients, we obviously have u(x) ≡v(x)w(x) (modulo p) for all primes p, so there
+Now if u(x) = v(x)w(x), where each of these polynomials has integer coefficients, we obviously have u(x) ≡v(x)w(x) (modulo p) for all primes p, so there
 is a nontrivial factorization modulo p unless p divides ℓ(u). An efficient algorithm
 for factoring u(x) modulo p can therefore be used in an attempt to reconstruct
 possible factorizations of u(x) over the integers.
@@ -36227,7 +33242,7 @@ coefficients in any true factorization u(x) = v(x)w(x) over the integers must
 
 4.6.2
 FACTORIZATION OF POLYNOMIALS
-451
+
 actually lie between −p/2 and p/2.
 Then all possible integer factors can be
 read off from the factors that we know how to compute mod p.
@@ -36251,8 +33266,7 @@ factors whose coefficients exceed exp(n1/lg lg n) for infinitely many n. [See R.
 Vaughan, Michigan Math. J. 21 (1974), 289–295.] The factorization of xn −1 is
 discussed in exercise 32.
 Instead of using a large prime p, which might need to be truly enormous if
-u(x) has large degree or large coefficients, we can also make use of small p, pro-
-vided that u(x) is squarefree mod p. For in this case, an important construction
+u(x) has large degree or large coefficients, we can also make use of small p, provided that u(x) is squarefree mod p. For in this case, an important construction
 known as Hensel’s Lemma can be used to extend a factorization modulo p in
 a unique way to a factorization modulo pe for arbitrarily high exponents e (see
 exercise 22). If we apply Hensel’s Lemma to (23) with p = 13 and e = 2, we
@@ -36277,8 +33291,6 @@ where ℓ(v1) = ℓ(w1) = un = ℓ(u).
 your polynomial by its leading coefficient before I factor it?”) We can proceed
 essentially as above, but using pe > 2B where B now bounds the maximum
 
-
-452
 ARITHMETIC
 4.6.2
 coefficient for factors of unu(x) instead of u(x). Another way to solve the leading
@@ -36344,7 +33356,7 @@ algorithm above can be applied for various small primes pj, thus obtaining for
 
 4.6.2
 FACTORIZATION OF POLYNOMIALS
-453
+
 each prime a set Dj of possible degrees of factors modulo pj; see exercise 26. We
 can represent Dj as a string of n binary bits. Now we compute the intersection
 Dj, namely the bitwise “and” of these strings, and we perform step F2 only
@@ -36402,12 +33414,10 @@ u(x), v(x)
 
 modulo 13 in 4.6.1–(6) is enough to prove that u(x) and v(x) are
 relatively prime over the integers; the comparatively laborious calculations of
-Algorithm 4.6.1E or Algorithm 4.6.1C are unnecessary. Since two random prim-
-itive polynomials are almost always relatively prime over the integers, and since
+Algorithm 4.6.1E or Algorithm 4.6.1C are unnecessary. Since two random primitive polynomials are almost always relatively prime over the integers, and since
 they are relatively prime modulo p with probability 1 −1/p by exercise 4.6.1–5,
 it is usually a good idea to do the computations modulo p.
-As remarked before, we need good methods also for the nonrandom poly-
-nomials that arise in practice. Therefore we wish to sharpen our techniques and
+As remarked before, we need good methods also for the nonrandom polynomials that arise in practice. Therefore we wish to sharpen our techniques and
 discover how to find gcd
 
 u(x), v(x)
@@ -36416,8 +33426,6 @@ in general, over the integers, based entirely
 on information that we obtain working modulo primes p. We may assume that
 u(x) and v(x) are primitive.
 
-
-454
 ARITHMETIC
 4.6.2
 Instead of calculating gcd
@@ -36502,10 +33510,8 @@ notation used for relatively prime integers.)
 
 4.6.2
 FACTORIZATION OF POLYNOMIALS
-455
-The gcd algorithms sketched here are significantly faster than those of Sec-
-tion 4.6.1 except when the polynomial remainder sequence is very short. Per-
-haps the best general procedure would be to start with the computation of
+
+The gcd algorithms sketched here are significantly faster than those of Section 4.6.1 except when the polynomial remainder sequence is very short. Perhaps the best general procedure would be to start with the computation of
 gcd
 
 u(x), v(x)
@@ -36518,14 +33524,12 @@ degree of q(x). As in the factorization problem, we should apply this procedure
 to the reverses of u(x), v(x) and reverse the result, if the trailing coefficients are
 simpler than the leading ones.
 Multivariate polynomials. Similar techniques lead to useful algorithms for
-factorization or gcd calculations on multivariate polynomials with integer coeffi-
-cients. It is convenient to deal with the polynomial u(x1, . . . , xt) by working
+factorization or gcd calculations on multivariate polynomials with integer coefficients. It is convenient to deal with the polynomial u(x1, . . . , xt) by working
 modulo the irreducible polynomials x2 −a2, . . . , xt −at, which play the role of p
 in the discussion above. Since v(x) mod (x −a) = v(a), the value of
 u(x1, . . . , xt) mod {x2 −a2, . . . , xt −at}
 is the univariate polynomial u(x1, a2, . . . , at). When the integers a2, . . . , at are
-chosen so that u(x1, a2, . . . , at) has the same degree in x1 as the original poly-
-nomial u(x1, x2, . . . , xt), an appropriate generalization of Hensel’s construction
+chosen so that u(x1, a2, . . . , at) has the same degree in x1 as the original polynomial u(x1, x2, . . . , xt), an appropriate generalization of Hensel’s construction
 will “lift” squarefree factorizations of this univariate polynomial to factorizations
 modulo {(x2 −a2)n2, . . . , (xt −at)nt}, where nj is the degree of xj in u; at the
 same time we can also work modulo an appropriate integer prime p. As many as
@@ -36534,8 +33538,7 @@ is retained. For details, see P. S. Wang, Math. Comp. 32 (1978), 1215–1231, in
 addition to the papers by Musser and by Moses and Yun cited earlier.
 Significant computational experience has been accumulating since the days
 when the pioneering papers cited above were written. See R. E. Zippel, Effective
-Polynomial Computation (Boston: Kluwer, 1993) for a more recent survey. More-
-over, it is now possible to factor polynomials that are given implicitly by a “black
+Polynomial Computation (Boston: Kluwer, 1993) for a more recent survey. Moreover, it is now possible to factor polynomials that are given implicitly by a “black
 box” computational procedure, even when both input and output polynomials
 would fill the universe if they were written out explicitly [see E. Kaltofen and
 B. M. Trager, J. Symbolic Comp. 9 (1990), 301–320; Y. N. Lakshman and
@@ -36552,8 +33555,6 @@ probability that u(x) has a linear factor mod p lies between (1+p−1)/2 and (2+
 inclusive. Give a closed form for this probability when n ≥p. What is the average
 number of linear factors?
 
-
-456
 ARITHMETIC
 4.6.2
 x
@@ -36615,7 +33616,7 @@ solving any given quadratic equation modulo p, using the quadratic formula in th
 
 4.6.2
 FACTORIZATION OF POLYNOMIALS
-457
+
 way.) Hint: Consider what happens when the factorization methods of this section are
 applied to the polynomial x2 −u.
 16. [M30] (Finite fields.) The purpose of this exercise is to prove basic properties of
@@ -36651,8 +33652,7 @@ where each pj(x) is monic, what is the complete factorization of u(x) over the i
 of um−1−k
 n
 for 0 ≤k < m.
-19. [M20] (Eisenstein’s criterion.) Perhaps the best-known class of irreducible poly-
-nomials over the integers was introduced by T. Schönemann in Crelle 32 (1846), 100,
+19. [M20] (Eisenstein’s criterion.) Perhaps the best-known class of irreducible polynomials over the integers was introduced by T. Schönemann in Crelle 32 (1846), 100,
 then popularized by G. Eisenstein in Crelle 39 (1850), 166–169: Let p be prime and
 let u(x) = unxn + · · · + u0 have the following properties: (i) un is not divisible by p;
 (ii) un−1, . . . , u0 are divisible by p; (iii) u0 is not divisible by p2. Show that u(x) is
@@ -36686,12 +33686,9 @@ j−1
 
 |un|.
 
-
-458
 ARITHMETIC
 4.6.2
-21. [HM32] Continuing exercise 20, we can also derive useful bounds on the coeffi-
-cients of multivariate polynomial factors over the integers. For convenience we will let
+21. [HM32] Continuing exercise 20, we can also derive useful bounds on the coefficients of multivariate polynomial factors over the integers. For convenience we will let
 boldface letters stand for sequences of t integers; thus, instead of writing
 u(x1, . . . , xt) =
 
@@ -36706,7 +33703,7 @@ j! = j1! . . . jt! and Σ j = j1 + · · · + jt.
 a) Prove the identity
 
 j,k
-1
+
 j! k!
 
 p,q≥0
@@ -36745,7 +33742,7 @@ example, let u(x) = 4x3 + x −2; the corresponding homogeneous polynomial is
 4x3 + xy2 −2y3, and we have [u]2 = (3! 0! 42 + 1! 2! 12 + 0! 3! 22)/3! = 16 + 1
 3 + 4.
 If u(x, y, z) = 3xy3 −z2 we have, similarly, [u]2 = (1! 3! 0! 0! 32 + 0! 0! 2! 2! 12)/4! =
-9
+
 4 + 1
 6. What does part (b) tell us about the relation between [u], [v], and [w],
 when u(x) = v(x)w(x)?
@@ -36773,7 +33770,7 @@ extended algorithm, exercise 4.6.1–3, will get the process started for e = 1.)
 
 4.6.2
 FACTORIZATION OF POLYNOMIALS
-459
+
 23. [HM23] Let u(x) be a squarefree polynomial with integer coefficients. Prove that
 there are only finitely many primes p such that u(x) is not squarefree modulo p.
 24. [M20] The text speaks only of factorization over the integers, not over the field
@@ -36828,8 +33825,6 @@ prove that f(ζ p) = 0 for all primes p not dividing n. It may help to use the f
 that xn −1 is squarefree modulo p for all such primes.]
 c) Discuss the calculation of Ψn(x), and tabulate the values for n ≤15.
 
-
-460
 ARITHMETIC
 4.6.2
 33. [M18] True or false: If u(x) ̸= 0 and the complete factorization of u(x) modulo p
@@ -36853,15 +33848,12 @@ of a given primitive polynomial u(x) over the integers. Your algorithm should pe
 exactly e computations of a GCD, where e is the largest subscript with ue(x) ̸= 1;
 furthermore, each GCD calculation should satisfy (27), so that Hensel’s construction
 can be used.
-35. [M22] (D. Y. Y. Yun.) Design an algorithm that computes the squarefree rep-
-resentation (w1(x), w2(x), . . .) of w(x) = gcd(u(x), v(x)) over the integers, given the
+35. [M22] (D. Y. Y. Yun.) Design an algorithm that computes the squarefree representation (w1(x), w2(x), . . .) of w(x) = gcd(u(x), v(x)) over the integers, given the
 squarefree representations (u1(x), u2(x), . . .) and (v1(x), v2(x), . . .) of u(x) and v(x).
 36. [M27] Extend the procedure of exercise 34 so that it will obtain the squarefree
-representation (u1(x), u2(x), . . .) of a given polynomial u(x) when the coefficient arith-
-metic is performed modulo p.
+representation (u1(x), u2(x), . . .) of a given polynomial u(x) when the coefficient arithmetic is performed modulo p.
 37. [HM24] (George E. Collins.) Let d1, . . . , dr be positive integers whose sum is n,
-and let p be prime. What is the probability that the irreducible factors of a random nth-
-degree integer polynomial u(x) have degrees d1, . . . , dr, when it is completely factored
+and let p be prime. What is the probability that the irreducible factors of a random nthdegree integer polynomial u(x) have degrees d1, . . . , dr, when it is completely factored
 modulo p? Show that this probability is asymptotically the same as the probability
 that a random permutation on n elements has cycles of lengths d1, . . . , dr.
 38. [HM27] (Perron’s criterion.) Let u(x) = xn+un−1xn−1+· · ·+u0 be a polynomial
@@ -36883,7 +33875,7 @@ B is chosen by the method of exercise 21. Show that if u(x) is reducible, there 
 
 4.6.3
 EVALUATION OF POWERS
-461
+
 to recover one of its true factors from a factorization modulo pe whenever pe ≥2B2,
 by using the algorithm of exercise 4.5.3–51.
 41. [M47] (Beauzamy, Trevisan, and Wang.) Prove or disprove: There is a constant c
@@ -36931,8 +33923,6 @@ available operations of division by 2 and remainder mod 2 will deduce the binary
 representation from right to left. Therefore the following algorithm, based on a
 right-to-left scan of the number, is often more convenient:
 
-
-462
 ARITHMETIC
 4.6.3
 A1. Initialize
@@ -36960,27 +33950,27 @@ N
 Y
 Z
 After step A1
-23
-1
+
+
 x
 After step A5
-11
+
 x
 x2
 After step A5
-5
+
 x3
 x4
 After step A5
-2
+
 x7
 x8
 After step A5
-1
+
 x7
 x16
 After step A4
-0
+
 x23
 x16
 A MIX program corresponding to Algorithm A appears in exercise 2.
@@ -37000,7 +33990,7 @@ the nineteenth century found the method in wide use there.
 
 4.6.3
 EVALUATION OF POWERS
-463
+
 The number of multiplications required by Algorithm A is
 ⌊lg n⌋+ ν(n),
 where ν(n) is the number of ones in the binary representation of n.
@@ -37025,8 +34015,7 @@ Fateman, SICOMP 3 (1974), 196–213, for a discussion of the extensive literatur
 on polynomial exponentiation.
 The point of these remarks is that binary methods are nice, but not a
 panacea. They are most applicable when the time to multiply xj·xk is essentially
-independent of j and k (for example, when we are doing floating point multi-
-plication, or multiplication mod m); in such cases the running time is reduced
+independent of j and k (for example, when we are doing floating point multiplication, or multiplication mod m); in such cases the running time is reduced
 from order n to order log n.
 Fewer multiplications. Several authors have published statements (without
 proof) that the binary method actually gives the minimum possible number of
@@ -37047,72 +34036,10 @@ takes eight multiplications, while the binary method would have required nine.
 The factor method is better than the binary method on the average, but there
 are cases (n = 33 is the smallest example) where the binary method excels.
 
-
-464
 ARITHMETIC
 4.6.3
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-48
-49
-50
-51
-52
-54
-56
-60
-64
-65
-66
-68
-72
-80
-96
-128
+
+
 Fig. 14. The “power tree.”
 The binary method can be generalized to an m-ary method as follows: Let
 n = d0mt +d1mt−1 +· · ·+dt, where 0 ≤dj < m for 0 ≤j ≤t. The computation
@@ -37124,8 +34051,7 @@ by xd2, obtaining y2 = xd0m2+d1m+d2. The process continues in this way until
 yt = xn has been computed. Whenever dj = 0, it is of course unnecessary to
 multiply by xdj.
 Notice that this method reduces to the left-to-right binary
-method discussed earlier, when m = 2; there is also a less obvious right-to-
-left m-ary method that takes more memory but only a few more steps (see
+method discussed earlier, when m = 2; there is also a less obvious right-toleft m-ary method that takes more memory but only a few more steps (see
 exercise 9). If m is a small prime, the m-ary method will be particularly efficient
 for calculating powers of one polynomial modulo another, when the coefficients
 are treated modulo m, because of Eq. 4.6.2–(5).
@@ -37147,105 +34073,14 @@ method 88,803 times; it ties 11,191 times; and it loses only 6 times.)
 
 4.6.3
 EVALUATION OF POWERS
-465
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
+
+
 50 51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
+
+
 82 83
-84
-85
-86
-87
-88
-89
-90
-91
-92
-93
-94
-95
-96
-97
-98
-99
-100
+
+
 Fig. 15. A tree that minimizes the number of multiplications, for n ≤100.
 Addition chains. The most economical way to compute xn by multiplication
 is a mathematical problem with an interesting history. We shall now examine
@@ -37279,8 +34114,6 @@ shows how to calculate xn with the fewest possible multiplications for all n ≤
 The problem of determining l(n) was apparently first raised by H. Dellac in
 1894, and a partial solution by E. de Jonquières mentioned the factor method
 
-
-466
 ARITHMETIC
 4.6.3
 [see L’Intermédiaire des Mathématiciens 1 (1894), 20, 162–164]. In his solution,
@@ -37291,8 +34124,7 @@ l(mn) ≤l(m) + l(n),
 (3)
 since we can take the chains 1, a1, . . . , ar = m and 1, b1, . . . , bs = n and form
 the chain 1, a1, . . . , ar, arb1, . . . , arbs = mn.
-We can also recast the m-ary method into addition-chain terminology. Con-
-sider the case m = 2k, and write n = d0mt + d1mt−1 + · · · + dt in the m-ary
+We can also recast the m-ary method into addition-chain terminology. Consider the case m = 2k, and write n = d0mt + d1mt−1 + · · · + dt in the m-ary
 number system; the corresponding addition chain takes the form
 1, 2, 3, . . . , m −2, m −1,
 2d0, 4d0, . . . , md0, md0 + d1,
@@ -37339,7 +34171,7 @@ l(n) ≤λ(n) + ν(n) −1.
 
 4.6.3
 EVALUATION OF POWERS
-467
+
 Special classes of chains. We may assume without any loss of generality that
 an addition chain is ascending,
 1 = a0 < a1 < a2 < · · · < ar = n.
@@ -37388,13 +34220,11 @@ By induction on r = d + f, we see that (14) is certainly true when
 r = 1.
 When r > 1, there are three cases:
 If step r is a doubling, then
-1
+
 2n = ar−1 ≤2d−2Ff+3; hence (14) follows.
 If steps r and r −1 are both
 nondoublings, then ar−1 ≤2d−1Ff+2 and ar−2 ≤2d−1Ff+1; hence n = ar ≤
 
-
-468
 ARITHMETIC
 4.6.3
 ar−1 +ar−2 ≤2d−1(Ff+2 +Ff+1) = 2d−1Ff+3 by the definition of the Fibonacci
@@ -37447,7 +34277,7 @@ Type 6. 1, . . . , 2A, 2A + 2B, 2A+1, . . . , 2A+C; A > B ≥0, C ≥1.
 
 4.6.3
 EVALUATION OF POWERS
-469
+
 A straightforward hand calculation shows that these six types exhaust all
 possibilities. By Corollary A, there are at most three nondoublings when there
 is one small step; this maximum occurs only in sequences of Type 3. All of the
@@ -37494,8 +34324,6 @@ k ≥2;
 and λ(ar) = λ(ar−1) + 1.
 (21)
 
-
-470
 ARITHMETIC
 4.6.3
 Let c be the number of carries that occur when ar−1 is added to ar−k in the
@@ -37549,7 +34377,7 @@ the second occurrence of any element that appears twice in the chain; for if ai
 
 4.6.3
 EVALUATION OF POWERS
-471
+
 is the first element among 2d0, 4d0, . . . of the second line that is not present in
 the first line, we have ai ≤2(m −1); hence ai = (m −1) + aj for some aj in the
 first line. By totaling up the length of the chain, we have
@@ -37620,8 +34448,6 @@ h −j′
 h),
 we have 2λ(n) ≤n ≤2r−q(1 + δ)2q = 2λ(n)+s−(1−θ)q ≤2λ(n)+s−(1−θ)t.
 
-
-472
 ARITHMETIC
 4.6.3
 Returning to the proof of Theorem E, let us choose δ = 2ϵ/4 −1, and let us
@@ -37631,8 +34457,7 @@ u doublings,
 v other steps,
 t + u + v = r.
 (29)
-Counting another way, we have s small steps, where s + m = r. By the hypoth-
-eses, Theorem A, and Lemma P, we obtain the relations
+Counting another way, we have s small steps, where s + m = r. By the hypotheses, Theorem A, and Lemma P, we obtain the relations
 s ≤(1 −ϵ)m/λ(m),
 t + v ≤3.271s,
 t ≤s/(1 −ϵ/2).
@@ -37660,8 +34485,7 @@ depends only on δ. There are also at most β choices for k, so the number of
 ways to assign j and k for each of the non-ministeps is at most
 β2v.
 (32)
-Finally, once the “j ” and “k” have been selected for each of the non-
-ministeps, there are fewer than
+Finally, once the “j ” and “k” have been selected for each of the nonministeps, there are fewer than
 r2
 t
 
@@ -37695,7 +34519,7 @@ Pr
 
 4.6.3
 EVALUATION OF POWERS
-473
+
 Proof. The upper bound (25) shows that (34) holds without the absolute value
 signs. The lower bound comes from Theorem E, if we let f(n) decrease to zero
 slowly enough so that, when f(n) ≤ϵ, the value N is so large that at most ϵN
@@ -37722,8 +34546,7 @@ the rules
 a) S0 = {0};
 b) If ai+1 = 2ai, then Si+1 = Si + 1 = {x + 1 | x ∈Si};
 c) If ai+1 = ai + ak, k < i, then Si+1 = Si ⊎Sk.
-(The symbol ⊎means that the multisets are combined, adding the multi-
-plicities.) From this definition it follows that
+(The symbol ⊎means that the multisets are combined, adding the multiplicities.) From this definition it follows that
 ai =
 
 x∈Si
@@ -37748,13 +34571,10 @@ x∈Mj
 This can be done by arranging the elements of Sr into nondecreasing order
 x1 ≤x2 ≤· · · and taking Mt = {x1, x2, . . . , xk}, where 2x1 + · · · + 2xk = 2et.
 
-
-474
 ARITHMETIC
 4.6.3
 This must be possible, since et is the smallest of the e’s. Similarly, Mt−1 =
-{xk+1, xk+2, . . . , xk′}, and so on; the process is easily visualized in binary nota-
-tion. An example appears below.
+{xk+1, xk+2, . . . , xk′}, and so on; the process is easily visualized in binary notation. An example appears below.
 Let Mj contain mj elements (counting multiplicities); then mj ≤2f −t,
 since Sr has at most 2f elements and it has been partitioned into t+1 nonempty
 multisets. By Eq. (38), we can see that
@@ -37781,50 +34601,28 @@ As an example of this detailed construction, let us consider the star chain
 1, 2, 3, 5, 10, 20, 23, for which t = 3, r = 6, d = 3, f = 3. We obtain the
 following array of multisets:
 (d0, d1, . . . , d6) :
-0
-1
-1
-1
-2
-3
-3
+
+
 (a0, a1, . . . , a6) :
-1
-2
-3
-5
-10
-20
-23
+
+
 (M03, M13, . . . , M63) :
-0
+
 M3
 e3 = 0, m3 = 1
 (M02, M12, . . . , M62) :
-1
+
 M2
 e2 = 1, m2 = 1
 (M01, M11, . . . , M61) :
-0
-0
-1
-2
-2
+
+
 M1
 e1 = 2, m1 = 1
 (M00, M10, . . . , M60) :
 
-0
-1
-1
-1
-1
-2
-2
-3
-3
-3
-3
+
+
 
 M0
 e0 = 4, m0 = 2
@@ -37850,7 +34648,7 @@ and mv are reasonably small and when Mij contains an element in common
 
 4.6.3
 EVALUATION OF POWERS
-475
+
 with Muv) that the number of doublings between steps u and i is approximately
 equal to the difference between the exponents ev and ej. This imposes a certain
 amount of regularity on the addition chain; and it suggests that we might be
@@ -37890,8 +34688,7 @@ x∈Mit
 2x
 
 ,
-no carries propagate from the term corresponding to Mij to the term correspond-
-ing to Mi(j−1), if we think of this sum as being carried out in the binary number
+no carries propagate from the term corresponding to Mij to the term corresponding to Mi(j−1), if we think of this sum as being carried out in the binary number
 system, since the e’s are so far apart.
 
 See (40).
@@ -37910,8 +34707,7 @@ t extra powers of n must be put in “one at a time,” so we want to find a way
 tell at which step each of these terms essentially enters the addition chain.
 Let j be a number between 1 and t. Since M0j is empty and Mrj = Mj is
 nonempty, we can find the first step i for which Mij is not empty.
-From the way in which the Mij are defined, we know that step i is a non-
-doubling: ai = ai−1+au for some u < i−1. We also know that all the elements of
+From the way in which the Mij are defined, we know that step i is a nondoubling: ai = ai−1+au for some u < i−1. We also know that all the elements of
 Mij are elements of Su. We will prove that au must be relatively small compared
 to ai.
 Let xj be an element of Mij. Then since xj ∈Su, there is some v for which
@@ -37922,8 +34718,6 @@ that is, at least m+1 doublings occur between steps u and i. For if di −du ≤
 Lemma K tells us that |ej −ev| < 2m; hence v = j. But this is impossible,
 because Muj is empty by our choice of step i.
 
-
-476
 ARITHMETIC
 4.6.3
 All elements of Su are less than or equal to e1 + di −d. For if x ∈Su ⊆Si
@@ -37953,8 +34747,7 @@ l(2A + xy) ≤A + ν(x) + ν(y) −1,
 if λ(x) + λ(y) ≤A.
 (47)
 Proof.
-An addition chain (which is not a star chain in general) may be con-
-structed by combining the binary and factor methods. Let x = 2x1 + · · · + 2xu
+An addition chain (which is not a star chain in general) may be constructed by combining the binary and factor methods. Let x = 2x1 + · · · + 2xu
 and y = 2y1 + · · · + 2yv, where x1 > · · · > xu ≥0 and y1 > · · · > yv ≥0.
 The first steps of the chain form successive powers of 2, until 2A−y1 is
 reached; in between these steps, the additional values 2xu−1 + 2xu, 2xu−2 +
@@ -37974,7 +34767,7 @@ with m = 508, and this proves that l∗(n) = 6107.
 
 4.6.3
 EVALUATION OF POWERS
-477
+
 Extensive computer calculations have shown that n = 12509 is the smallest
 value with l(n) < l∗(n). No star chain for this value of n is as short as the
 sequence 1, 2, 4, 8, 16, 17, 32, 64, 128, 256, 512, 1024, 1041, 2082, 4164, 8328,
@@ -38013,91 +34806,58 @@ Let c(r) be the smallest value of n such that l(n) = r. The computation
 of l(n) seems to be hardest for this sequence of n’s, which begins as follows:
 r
 c(r)
-1
-2
-2
-3
-3
-5
-4
-7
-5
-11
-6
-19
-7
-29
-8
-47
-9
-71
-10
-127
-11
-191
-12
-379
-13
-607
+
+
 r
 c(r)
-14
-1087
-15
-1903
-16
-3583
-17
-6271
-18
+
+
 11231
-19
+
 18287
-20
+
 34303
-21
+
 65131
-22
+
 110591
-23
+
 196591
-24
+
 357887
-25
+
 685951
-26
+
 1176431
 r
 c(r)
-27
+
 2211837
-28
+
 4169527
-29
+
 7624319
-30
+
 14143037
-31
+
 25450463
-32
+
 46444543
-33
+
 89209343
-34
+
 155691199
-35
+
 298695487
-36
+
 550040063
-37
+
 994660991
-38
+
 1886023151
-39
+
 3502562143
 
-
-478
 ARITHMETIC
 4.6.3
 For r ≤11, the value of c(r) is approximately equal to c(r −1) + c(r −2), and
@@ -38135,52 +34895,32 @@ r
 d(r)
 r
 d(r)
-1
-1
-6
-15
-11
-246
-16
-4490
-21
+
+
 90371
-26
+
 1896704
-2
-2
-7
-26
-12
-432
-17
-8170
-22
+
+
 165432
-27
+
 3501029
-3
-3
-8
-44
-13
-772
+
+
 18 14866
-23
+
 303475
-28
+
 6465774
-4
-5
-9
-78
+
+
 14 1382
 19 27128
-24
+
 558275
 29 11947258
-5
-9
+
+
 10 136
 15 2481
 20 49544
@@ -38207,114 +34947,11 @@ l∗(2n −1) ≤n −1 + l∗(n).
 
 4.6.3
 EVALUATION OF POWERS
-479
+
 Table 1
 VALUES OF n FOR SPECIAL ADDITION CHAINS
-23
-43
-59
-77
-83
-107
-149
-163
-165
-179
-203
-211
-213
-227
-229
-233
-281
-283
-293
-311
-317
-319
-323
-347
-349
-355
-359
-367
-371
-373
-377
-381
-382
-395
-403
-413
-419
-421
-423
-429
-437
-451
-453
-455
-457
-479
-503
-509
-551
-553
-557
-561
-569
-571
-573
-581
-599
-611
-619
-623
-631
-637
-643
-645
-659
-667
-669
-677
-683
-691
-707
-709
-711
-713
-715
-717
-739
-741
-749
-759
-779
-787
-803
-809
-813
-825
-835
-837
-839
-841
-845
-849
-863
-869
-887
-893
-899
-901
-903
-905
-923
-941
-947
-955
-983
+
+
 Hansen’s theorems show that l(n) can be less than l∗(n), so more work is
 definitely necessary in order to prove or disprove (49). As a step in this direction,
 Hansen has defined the concept of an l0-chain, which lies “between” l-chains
@@ -38350,8 +34987,6 @@ The chain corresponding to (51), constructed in the proof of Theorem G, is
 Computations by Neill Clift have shown that l(n) < l0(n) when n = 5784689
 (see exercise 42). This is the smallest case where Eq. (49) remains in doubt.
 
-
-480
 ARITHMETIC
 4.6.3
 Graphical representation.
@@ -38360,16 +34995,8 @@ way to a directed graph, where the vertices are labeled ai for 0 ≤i ≤r, and
 where we draw arcs from aj to ai and from ak to ai as a representation of each
 step ai = aj + ak in (2). For example, the addition chain 1, 2, 3, 6, 12, 15, 27,
 39, 78, 79 that appears in Fig. 15 corresponds to the directed graph
-1
-2
-3
-6
-12
-15
-27
-39
-78
-79
+
+
 .
 If ai = aj + ak for more than one pair of indices (j, k), we choose a definite j
 and k for purposes of this construction.
@@ -38383,12 +35010,8 @@ These three choices are immaterial, but the addition-chain conventions force us
 to distinguish between them. We can avoid such redundancy by deleting any
 vertex whose out-degree is 1 and attaching the arcs from its predecessors to its
 successor. For example, the graph above would become
-1
-3
-6
-12
-39
-79
+
+
 .
 (52)
 We can also delete any vertex whose out-degree is 0, except of course the final
@@ -38414,7 +35037,7 @@ topologically sorted in only one way.
 
 4.6.3
 EVALUATION OF POWERS
-481
+
 An important property of this graph representation has been pointed out
 by N. Pippenger: The label of each vertex is exactly equal to the number of
 oriented paths from the source to that vertex. Thus, the problem of finding an
@@ -38428,19 +35051,14 @@ a set of addition chains for the same n; these addition chains have the same
 length (53) as the chain we started with. For example, if we make the arrows
 in (52) run from right to left, and if we relabel the vertices according to the
 number of paths from the right-hand vertex, we get
-79
-26
-12
-6
-2
-1
+
+
 .
 (54)
 One of the star chains corresponding to this reduced directed graph is
 1, 2, 4, 6, 12, 24, 26, 52, 78, 79;
 we may call this a dual of the original addition chain.
-Exercises 39 and 40 discuss important consequences of this graphical repre-
-sentation and the duality principle.
+Exercises 39 and 40 discuss important consequences of this graphical representation and the duality principle.
 EXERCISES
 1. [15] What is the value of Z when Algorithm A terminates?
 2. [24] Write a MIX program for Algorithm A, to calculate xn mod w given integers
@@ -38465,26 +35083,14 @@ Design an efficient algorithm that constructs the first r+1 levels of the power 
 [Hint: Make use of two sets of variables LINKU[j], LINKR[j] for 0 ≤j ≤2r; these point
 upwards and to the right, respectively, if j is a number in the tree.]
 
-
-482
 ARITHMETIC
 4.6.3
 6. [M26] If a slight change is made to the definition of the power tree that is given
 in exercise 5, so that the nodes below n are attached in decreasing order
 n + ak−1, . . . , n + a2, n + a1, n + 1
 instead of increasing order, we get a tree whose first five levels are
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-12
-16
+
+
 Show that this tree gives a method of computing xn that requires exactly as many
 multiplications as the binary method; therefore it is not as good as the power tree,
 although it has been constructed in almost the same way.
@@ -38523,7 +35129,7 @@ S-and-X method, the ratio lB(n)/λ(n) does not approach a limit as n →∞.
 
 4.6.3
 EVALUATION OF POWERS
-483
+
 17. [M25] Explain how to find the intervals J1, . . . , Jh that are required in the proof
 of Lemma P.
 18. [HM24] Let β be a positive constant. Show that there is a constant α < 2 such
@@ -38580,15 +35186,12 @@ modulo m, given large integers n and m.
 27. [M23] (A. Flammenkamp.) What is the smallest n for which every addition chain
 contains at least eight small steps?
 
-
-484
 ARITHMETIC
 4.6.3
 28. [HM33] (A. Schönhage.) The object of this exercise is to give a fairly short proof
 that l(n) ≥λ(n) + lg ν(n) −O(log log(ν(n) + 1)).
 a) When x = (xk . . . x0.x−1 . . . )2 and y = (yk . . . y0.y−1 . . . )2 are real numbers written
-in binary notation, let us write x ⊆y if xj ≤yj for all j. Give a simple rule for con-
-structing the smallest number z with the property that x′ ⊆x and y′ ⊆y implies
+in binary notation, let us write x ⊆y if xj ≤yj for all j. Give a simple rule for constructing the smallest number z with the property that x′ ⊆x and y′ ⊆y implies
 x′ + y′ ⊆z. Denoting this number by x∇y, prove that ν(x∇y) ≤ν(x) + ν(y).
 b) Given any addition chain (11) with r = l(n), let the sequence d0, d1, . . . , dr
 be defined as in (35), and define the sequence A0, A1, . . . , Ar by the following
@@ -38635,7 +35238,7 @@ the addition chains discussed in exercise 34, when e0 > e1 + 1?
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-485
+
 x 36. [25] (E. G. Straus.) Find a way to compute a general monomial xn1
 1 xn2
 2 . . . xnm
@@ -38648,8 +35251,7 @@ Prove that l(n1, . . . , nm) ≤
 λ(nm) + mλ(nm)/λλ(nm) + O(λ(nm)λλλ(nm)/λλ(nm)2), thereby generalizing (25).
 38. [M47] What is the asymptotic value of l(1, 4, 9, . . . , m2) −m, as m →∞, in the
 notation of exercise 37?
-x 39. [M25] (J. Olivos, 1979.) Let l([n1, n2, . . . , nm]) be the minimum number of mul-
-tiplications needed to evaluate the monomial xn1
+x 39. [M25] (J. Olivos, 1979.) Let l([n1, n2, . . . , nm]) be the minimum number of multiplications needed to evaluate the monomial xn1
 1 xn2
 2 . . . xnm
 m
@@ -38693,8 +35295,6 @@ the literature on stability of fast polynomial evaluation, and for a demonstrati
 that certain kinds of numerical stability cannot be guaranteed for some families
 of high-speed algorithms.]
 
-
-486
 ARITHMETIC
 4.6.4
 Throughout this section we will act as if the variable x were a single number.
@@ -38702,8 +35302,7 @@ But it is important to keep in mind that most of the methods we will discuss
 are valid also when the variables are large objects like multiprecision numbers,
 polynomials, or matrices. In such cases efficient formulas lead to even bigger
 payoffs, especially when we can reduce the number of multiplications.
-A beginning programmer will often evaluate the polynomial (1) in a man-
-ner that corresponds directly to its conventional textbook form: First unxn is
+A beginning programmer will often evaluate the polynomial (1) in a manner that corresponds directly to its conventional textbook form: First unxn is
 calculated, then un−1xn−1, . . . , u1x, and finally all of the terms of (1) are added
 together. But even if the efficient methods of Section 4.6.3 are used to evaluate
 the powers of x in this approach, the resulting calculation is needlessly slow
@@ -38750,7 +35349,7 @@ Chiu-Shao [see Y. Mikami, The Development of Mathematics in China and Japan
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-487
+
 Several generalizations of Horner’s rule have been suggested. Let us first
 consider evaluating u(z) when z is a complex number, while the coefficients uk
 are real. In particular, when z = eiθ = cos θ + i sin θ, the polynomial u(z) is
@@ -38821,8 +35420,6 @@ x2 + u0
 x.
 (4)
 
-
-488
 ARITHMETIC
 4.6.4
 The second-order rule uses n+1 multiplications and n additions (see exercise 5);
@@ -38837,7 +35434,7 @@ once, a “kth-order” Horner’s rule
 
 obtained in a similar manner from f(x) =
 xk −xk
-0
+
 
 may be used. Another attractive method for parallel computation has
 been suggested by G. Estrin [Proc. Western Joint Computing Conf. 17 (1960),
@@ -38860,8 +35457,7 @@ Here a3 = u(x). However, an interesting analysis by W. S. Dorn [IBM J. Res.
 and Devel. 6 (1962), 239–245] shows that these methods might not actually be
 an improvement over the second-order rule, if each arithmetic unit must access
 a memory that communicates with only one processor at a time.
-Tabulating polynomial values. If we wish to evaluate an nth degree polyno-
-mial at many points in an arithmetic progression
+Tabulating polynomial values. If we wish to evaluate an nth degree polynomial at many points in an arithmetic progression
 
 that is, if we want to calculate
 u(x0), u(x0 + h), u(x0 + 2h), . . .
@@ -38879,28 +35475,28 @@ we find that k applications of (5) yields
 j
 =
 k
-0
+
 
 βj +
 k
-1
+
 
 βj+1 +
 k
-2
+
 
 βj+2 + · · · ,
 0 ≤j ≤n,
 where βj denotes the initial value of αj and βj = 0 for j > n. In particular,
 α(k)
-0
+
 =
 k
-0
+
 
 β0 +
 k
-1
+
 
 β1 + · · · +
 k
@@ -38911,7 +35507,7 @@ n
 is a polynomial of degree n in k.
 By properly choosing the β’s, as shown
 in exercise 7, we can set things up so that this quantity α(k)
-0
+
 is the desired
 value u(x0 + kh), for all k. In other words, each execution of the n additions in
 (5) will produce the next value of the given polynomial.
@@ -38923,9 +35519,8 @@ in the polynomial being computed. Therefore the values of the α’s should be
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-489
-Derivatives and changes of variable. Sometimes we want to find the coeffi-
-cients of u(x+x0), given a constant x0 and the coefficients of u(x). For example,
+
+Derivatives and changes of variable. Sometimes we want to find the coefficients of u(x+x0), given a constant x0 and the coefficients of u(x). For example,
 if u(x) = 3x2+2x−1, then u(x−2) = 3x2−10x+7. This is analogous to a radix
 conversion problem, converting from base x to base x + 2. By Taylor’s theorem,
 the new coefficients are given by the derivatives of u(x) at x = x0, namely
@@ -38978,7 +35573,7 @@ Now v(x) = u(x + x0) as desired.
 This idea, due to M. Shaw and J. F. Traub [JACM 21 (1974), 161–167], has the
 same number of additions and the same numerical stability as Horner’s method;
 but it needs only 2n−1 multiplications and n−1 divisions, since vn = un. About
-1
+
 2n of these multiplications can, in turn, be avoided (see exercise 6).
 If we want only the first few or the last few derivatives, Shaw and Traub
 have observed that there are further ways to save time. For example, if we just
@@ -39002,8 +35597,6 @@ xg(j) need not be done.
 D4. Set vj ←vj + vj+1xg(j) for j = n −1, . . . , 2, 1. Now v0/xf(0) = u(x) and
 v1/xf(1) = u′(x).
 
-
-490
 ARITHMETIC
 4.6.4
 Adaptation of coefficients.
@@ -39052,12 +35645,10 @@ the αj’s in terms of the uk’s:
 α3 = u0/u4 −α1(α1 + α2),
 α4 = u4.
 (10)
-A similar scheme, which evaluates a fourth-degree polynomial in the same num-
-ber of steps as (9), appears in exercise 18; this alternative method will give
+A similar scheme, which evaluates a fourth-degree polynomial in the same number of steps as (9), appears in exercise 18; this alternative method will give
 greater numerical accuracy than (9) in certain cases, although it yields poorer
 accuracy in others.
-Polynomials that arise in practice often have a rather small leading coeffi-
-cient, so that the division by u4 in (10) leads to instability. In such a case it
+Polynomials that arise in practice often have a rather small leading coefficient, so that the division by u4 in (10) leads to instability. In such a case it
 is usually preferable to replace x by |u4|1/4x as the first step, reducing (8) to a
 polynomial whose leading coefficient is ±1. A similar transformation applies to
 polynomials of higher degrees. This idea is due to C. T. Fike [CACM 10 (1967),
@@ -39066,9 +35657,8 @@ polynomials of higher degrees. This idea is due to C. T. Fike [CACM 10 (1967),
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-491
-Any polynomial of the fifth degree may be evaluated using four multiplica-
-tions, six additions, and one storing, by using the rule u(x) = U(x)x+u0, where
+
+Any polynomial of the fifth degree may be evaluated using four multiplications, six additions, and one storing, by using the rule u(x) = U(x)x+u0, where
 U(x) = u5x4+u4x3+u3x2+u2x+u1 is evaluated as in (9). Alternatively, we can
 do the evaluation with four multiplications, five additions, and three storings,
 if the calculations take the form
@@ -39103,8 +35693,7 @@ u(x) =
 
 α6.
 (12)
-[See D. E. Knuth, CACM 5 (1962), 595–599.] This saves two of the six multi-
-plications required by Horner’s rule. Here again we must solve a cubic equation:
+[See D. E. Knuth, CACM 5 (1962), 595–599.] This saves two of the six multiplications required by Horner’s rule. Here again we must solve a cubic equation:
 Since α6 = u6, we may assume that u6 = 1. Under this assumption, let
 β1 = (u5 −1)/2,
 β2 = u4 −β1(β1 + 1),
@@ -39129,8 +35718,6 @@ we have finally
 α5 = u0 −β7β8.
 (14)
 
-
-492
 ARITHMETIC
 4.6.4
 We can illustrate this procedure with a contrived example: Suppose that we
@@ -39187,7 +35774,7 @@ has been determined, the remaining α’s may be determined from the equations
 β3 = u3 −α0β2 −α1β1,
 β4 = u2 −α0β3 −α1β2,
 α3 = 1
-2
+
 
 β3 −(α0 −1)β2 + (α0 −1)(α2
 0 −1)
@@ -39206,7 +35793,7 @@ at most ⌊n/2⌋+ 2 multiplications and n additions.
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-493
+
 Theorem E.
 Every nth degree polynomial (1) with real coefficients, n ≥3,
 can be evaluated by the scheme
@@ -39248,8 +35835,7 @@ q(x) = a2m+1(x −α1) . . . (x −αm).
 In other words, either q(x) is identically zero (and this can happen only when n
 is even), or else q(x) is an mth degree polynomial having all real roots.
 Now we have a surprising fact discovered by J. Eve [Numer. Math. 6 (1964),
-17–21]: If p(x) has at least n −1 complex roots whose real parts are all nonneg-
-ative, or all nonpositive, then the corresponding polynomial q(x) is identically
+17–21]: If p(x) has at least n −1 complex roots whose real parts are all nonnegative, or all nonpositive, then the corresponding polynomial q(x) is identically
 zero or has all real roots.
 (See exercise 23.)
 Since u(x) = 0 if and only if
@@ -39265,8 +35851,6 @@ the same transformation applies. If the two roots with smallest (or largest) rea
 parts are both real, they can be expressed in the form a−b and a+b, respectively;
 let c = −a and αm = b2. Again x2 −αm is a factor of u(x−c). (Still other values
 
-
-494
 ARITHMETIC
 4.6.4
 of c are often possible; see exercise 24.) The coefficient an−1 will be nonzero for
@@ -39323,15 +35907,14 @@ fj0...jt(qj0, . . . , qjt) = 0 for all (qn, . . . , q1, q0) in R, let us say tha
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-495
+
 set R has at most t degrees of freedom, and that the chain (24) has at most t
 degrees of freedom. We also say that the chain (24) computes a given polynomial
 u(x) = unxn + · · · + u1x + u0 if (un, . . . , u1, u0) is in R.
 It follows that a
 polynomial chain with at most n degrees of freedom cannot compute all nth
 degree polynomials (see exercise 27).
-As an example of a polynomial chain, consider the following chain corre-
-sponding to Theorem E, when n is odd:
+As an example of a polynomial chain, consider the following chain corresponding to Theorem E, when n is odd:
 λ0 = x
 λ1 = α1 + λ0
 λ2 = λ1 × λ1
@@ -39362,8 +35945,7 @@ parameter into two independent parameters. For our purposes, we need to verify
 that no polynomial functions with integer coefficients can have such a property;
 a proof appears in exercise 28.
 Given this fact, we can proceed to prove the results we seek:
-Theorem M (T. S. Motzkin, 1954). A polynomial chain with m > 0 multipli-
-cations has at most 2m degrees of freedom.
+Theorem M (T. S. Motzkin, 1954). A polynomial chain with m > 0 multiplications has at most 2m degrees of freedom.
 Proof.
 Let µ1, µ2, . . . , µm be the λi’s of the chain that are multiplication
 operations. Then
@@ -39380,8 +35962,6 @@ set of values represented by all real values of β1, . . . , β2m+1 contains the
 set of the chain. Therefore there are at most 2m+1 degrees of freedom; this can
 be improved to 2m when m > 0, as shown in exercise 30.
 
-
-496
 ARITHMETIC
 4.6.4
 An example of the construction in the proof of Theorem M appears in
@@ -39435,10 +36015,9 @@ independent, in the sense that they satisfy no nontrivial polynomial equation,
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-497
+
 require ⌊n/2⌋+ 1 multiplications and n additions.
-Unfortunately the coeffi-
-cients we deal with in computers are always rational numbers, so the theorems
+Unfortunately the coefficients we deal with in computers are always rational numbers, so the theorems
 above don’t really apply; in fact, exercise 42 shows that we can always get by
 with O(√n ) multiplications (and a possibly huge number of additions). From a
 practical standpoint, the bounds of Theorem C apply to “almost all” coefficients,
@@ -39488,8 +36067,6 @@ discusses the interesting situation that arises for odd values of n ≥9.
 It is clear that the results we have obtained about chains for polynomials in
 a single variable can be extended without difficulty to multivariate polynomials.
 
-
-498
 ARITHMETIC
 4.6.4
 For example, if we want to find an optimum scheme for polynomial evaluation
@@ -39499,8 +36076,7 @@ n additions are necessary in this case. Indeed, A. Borodin [Theory of Machines
 and Computations, edited by Z. Kohavi and A. Paz (New York: Academic Press,
 1971), 45–58] has proved that Horner’s rule (2) is essentially the only way to
 compute u(x) in 2n operations without preconditioning.
-With minor variations, the methods above can be extended to chains involv-
-ing division, that is, to rational functions as well as polynomials. Curiously, the
+With minor variations, the methods above can be extended to chains involving division, that is, to rational functions as well as polynomials. Curiously, the
 continued-fraction analog of Horner’s rule now turns out to be optimal from an
 operation-count standpoint, if multiplication and division speeds are equal, even
 when preconditioning is allowed (see exercise 37).
@@ -39569,7 +36145,7 @@ det
 
 
 
-0
+
 x12 . . . x1n
 x21 x22 . . . x2n
 x31 x32 . . . x3n
@@ -39604,10 +36180,9 @@ xn2 −(xn1/x21)x22 . . . xnn −(xn1/x21)x2n
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-499
+
 Here the reduction to an (n −1) × (n −1) determinant saves n −1 of the
-multiplications and n−1 of the additions used in (31), in compensation for the ad-
-ditional bookkeeping required to recognize this case. Thus any determinant can
+multiplications and n−1 of the additions used in (31), in compensation for the additional bookkeeping required to recognize this case. Thus any determinant can
 be evaluated with roughly 2
 3n3 arithmetic operations (including division); this is
 remarkable, since it is a polynomial with n! terms and n variables in each term.
@@ -39618,10 +36193,8 @@ for any prime p, since division mod p is possible (exercise 4.5.2–16). If this
 done for sufficiently many primes, the exact value of the determinant can be
 found as explained in Section 4.3.2, since Hadamard’s inequality 4.6.1–(25) gives
 an upper bound on the magnitude.
-The coefficients of the characteristic polynomial det(xI −X) of an n×n ma-
-trix X can also be computed in O(n3) steps; see J. H. Wilkinson, The Algebraic
-Eigenvalue Problem (Oxford: Clarendon Press, 1965), 353–355, 410–411. Exer-
-cise 70 discusses an interesting division-free method that involves O(n4) steps.
+The coefficients of the characteristic polynomial det(xI −X) of an n×n matrix X can also be computed in O(n3) steps; see J. H. Wilkinson, The Algebraic
+Eigenvalue Problem (Oxford: Clarendon Press, 1965), 353–355, 410–411. Exercise 70 discusses an interesting division-free method that involves O(n4) steps.
 The permanent of a matrix is a polynomial that is very similar to the
 determinant; the only difference is that all of its nonzero coefficients are +1.
 Thus we have
@@ -39648,15 +36221,13 @@ is known. Exercises 9 and 10 show that substantially fewer than n! operations
 will suffice, for large n, but the execution time of all known methods still grows
 exponentially with the size of the matrix. In fact, Leslie G. Valiant has shown
 that it is as difficult to compute the permanent of a given 0–1 matrix as it is to
-count the number of accepting computations of a nondeterministic polynomial-
-time Turing machine, if we ignore polynomial factors in the running time of the
+count the number of accepting computations of a nondeterministic polynomialtime Turing machine, if we ignore polynomial factors in the running time of the
 calculation. Therefore a polynomial-time evaluation algorithm for permanents
 would imply that scores of other well known problems that have resisted efficient
 solution would be solvable in polynomial time. On the other hand, Valiant proved
 that the permanent of an n × n integer matrix can be evaluated modulo 2k in
 O(n4k−3) steps for all k ≥2. [See Theoretical Comp. Sci. 8 (1979), 189–201.]
-Another fundamental operation involving matrices is, of course, matrix mul-
-tiplication: If X = (xij) is an m × n matrix, Y = (yjk) is an n × s matrix, and
+Another fundamental operation involving matrices is, of course, matrix multiplication: If X = (xij) is an m × n matrix, Y = (yjk) is an n × s matrix, and
 Z = (zik) is an m × s matrix, then the formula Z = XY means that
 zik =
 n
@@ -39666,11 +36237,8 @@ xijyjk,
 1 ≤i ≤m,
 1 ≤k ≤s.
 (34)
-This equation may be regarded as the computation of ms simultaneous polynomi-
-als in mn + ns variables; each polynomial is the “inner product” of two n-place
+This equation may be regarded as the computation of ms simultaneous polynomials in mn + ns variables; each polynomial is the “inner product” of two n-place
 
-
-500
 ARITHMETIC
 4.6.4
 vectors. A straightforward calculation would involve mns multiplications and
@@ -39690,11 +36258,9 @@ bk =
 y 2j−1,ky 2j,k.
 (35)
 This scheme uses ⌈n/2⌉ms + ⌊n/2⌋(m + s) multiplications and (n + 2)ms +
-(⌊n/2⌋−1)(ms + m + s) additions or subtractions; the total number of oper-
-ations has increased slightly, but the number of multiplications has roughly
+(⌊n/2⌋−1)(ms + m + s) additions or subtractions; the total number of operations has increased slightly, but the number of multiplications has roughly
 been halved. [See IEEE Trans. C-17 (1968), 693–694.] Winograd’s surprising
-construction led many people to look more closely at the problem of matrix mul-
-tiplication, and it touched off widespread speculation that n3/2 multiplications
+construction led many people to look more closely at the problem of matrix multiplication, and it touched off widespread speculation that n3/2 multiplications
 might be necessary to multiply n × n matrices, because of the somewhat similar
 lower bound that was known to hold for polynomials in one variable.
 An even better scheme for large n was discovered by Volker Strassen in
@@ -39740,13 +36306,12 @@ the problem, and the combined efforts of D. Bini, M. Capovani, D. Coppersmith,
 G. Lotti, F. Romani, A. Schönhage, V. Pan, and S. Winograd, produced a
 dramatic reduction in the asymptotic running time.
 Exercises 60–67 discuss
-some of the interesting techniques by which such upper bounds have been estab-
-lished; in particular, exercise 66 contains a reasonably simple proof that O(n2.55)
+some of the interesting techniques by which such upper bounds have been established; in particular, exercise 66 contains a reasonably simple proof that O(n2.55)
 
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-501
+
 operations suffice. The best upper bound known as of 1997 is O(n2.376), due to
 Coppersmith and Winograd [J. Symbolic Comp. 9 (1990), 251–280]. By contrast,
 the best current lower bound is 2n2 −1 (see exercise 12).
@@ -39837,8 +36402,6 @@ X110−X111
 X100−X101−X110+X111
 X000−X001−X010+X011−X100+X101+X110−X111
 
-
-502
 ARITHMETIC
 4.6.4
 To get from the “Given” to the “First step” requires four additions and four
@@ -39894,9 +36457,8 @@ Whenever a desired set of sums can be put into the form of (39), for reasonably
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-503
-simple functions gj(sj, . . . , sn, tj), the scheme (40) will reduce the amount of com-
-putation from order N 2 to order N log N or thereabouts, where N = m1 . . . mn is
+
+simple functions gj(sj, . . . , sn, tj), the scheme (40) will reduce the amount of computation from order N 2 to order N log N or thereabouts, where N = m1 . . . mn is
 the number of data points. Furthermore this scheme is ideally suited to parallel
 computation. The important special case of one-dimensional Fourier transforms
 is discussed in exercises 14 and 53; we have considered the one-dimensional case
@@ -39948,8 +36510,6 @@ where the α’s are some coefficients that we want to determine from the given
 numbers x0, x1, . . . , xn, y0, y1, . . . , yn. Notice that this formula holds for all n;
 the coefficient αk does not depend on xk+1, . . . , xn, or on yk+1, . . . , yn. Once
 
-
-504
 ARITHMETIC
 4.6.4
 the α’s are known, Newton’s interpolation formula is convenient for calculation,
@@ -39968,25 +36528,25 @@ The coefficients αk in Newton’s formula may be found by computing the
 divided differences in the following tableau (shown for n = 3):
 y0
 (y1 −y0)/(x1 −x0) = y′
-1
+
 y1
 (y′
 2 −y′
 1)/(x2 −x0) = y′′
-2
+
 (y2 −y1)/(x2 −x1) = y′
-2
+
 (y′′
 3 −y′′
 2)/(x3 −x0) = y′′′
-3
+
 y2
 (y′
 3 −y′
 2)/(x3 −x1) = y′′
-3
+
 (y3 −y2)/(x3 −x2) = y′
-3
+
 y3
 (44)
 It is possible to prove that α0 = y0, α1 = y′
@@ -40002,7 +36562,7 @@ Start with (α0, α1, . . . , αn) ←(y0, y1, . . . , yn);
 then, for k = 1, 2, . . . , n (in this order),
 set αj ←(αj −αj−1)/(xj −xj−k) for j = n, n −1, . . . , k (in this order).
 This process requires
-1
+
 2(n2 + n) divisions and n2 + n subtractions, so about
 three-fourths of the work implied in (41) has been saved.
 For example, suppose that we want to estimate 1.5! from the values of
@@ -40012,34 +36572,18 @@ y
 y′
 y′′
 y′′′
-0
-1
-0
-1
-1
-1
-2
-1
-1
-3
-2
-2
-3
-2
-4
-3
-6
+
+
 so u[0](x) = u[1](x) = 1, u[2](x) = 1
 2x(x −1) + 1, u[3](x) = 1
 3x(x −1)(x −2) +
-1
+
 2x(x−1)+1. Setting x = 1.5 in u[3](x) gives −.125+.375+1 = 1.25; presumably
 the “correct” value is Γ(2.5) = 3
-4
+
 √π ≈1.33. (But there are of course many other
 sequences that begin with the numbers 1, 1, 2, and 6.)
-If we want to interpolate several polynomials that have the same interpola-
-tion points x0, x1, . . . , xn but varying values y0, y1, . . . , yn, it is desirable to
+If we want to interpolate several polynomials that have the same interpolation points x0, x1, . . . , xn but varying values y0, y1, . . . , yn, it is desirable to
 rewrite (41) in a form suggested by W. J. Taylor [J. Research Nat. Bur. Standards
 35 (1945), 151–155]:
 u[n](x) =
@@ -40060,15 +36604,13 @@ x −xn
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-505
+
 when x /∈{x0, x1, . . . , xn}, where
 wk = 1/(xk −x0) . . . (xk −xk−1)(xk −xk+1) . . . (xk −xn).
 (46)
-This form is also recommended for its numerical stability [see P. Henrici, Essen-
-tials of Numerical Analysis (New York: Wiley, 1982), 237–243]. The denominator
+This form is also recommended for its numerical stability [see P. Henrici, Essentials of Numerical Analysis (New York: Wiley, 1982), 237–243]. The denominator
 of (45) is the partial fraction expansion of 1/(x −x0)(x −x1) . . . (x −xn).
-An important and somewhat surprising application of polynomial interpo-
-lation was discovered by Adi Shamir [CACM 22 (1979), 612–613], who observed
+An important and somewhat surprising application of polynomial interpolation was discovered by Adi Shamir [CACM 22 (1979), 612–613], who observed
 that polynomials mod p can be used to “share a secret.” This means that we can
 design a system of secret keys or passwords such that the knowledge of any n+1
 of the keys enables efficient calculation of a magic number N that unlocks a door
@@ -40115,8 +36657,6 @@ Thiele in 1909. Thiele’s method of “reciprocal differences” is discussed i
 Milne-Thompson’s Calculus of Finite Differences (London: MacMillan, 1933),
 Chapter 5; see also R. W. Floyd, CACM 3 (1960), 508.
 
-
-506
 ARITHMETIC
 4.6.4
 *Bilinear forms. Several of the problems we have considered in this section are
@@ -40131,22 +36671,19 @@ j=1
 tijkxiyj,
 for 1 ≤k ≤s,
 (47)
-where the tijk are specific coefficients belonging to some given field. The three-
-dimensional array (tijk) is called an m × n × s tensor, and we can display it by
+where the tijk are specific coefficients belonging to some given field. The threedimensional array (tijk) is called an m × n × s tensor, and we can display it by
 writing down s matrices of size m × n, one for each value of k. For example, the
 problem of multiplying complex numbers, namely the problem of evaluating
 z1 + iz2 = (x1 + ix2)(y1 + iy2) = (x1y1−x2y2) + i(x1y2+x2y1),
 (48)
 is the problem of computing the bilinear form specified by the 2 × 2 × 2 tensor
 
-1
-0
+
+
 0 −1
 
-0
-1
-1
-0
+
+
 
 .
 Matrix multiplication as defined in (34) is the problem of evaluating a set of
@@ -40154,8 +36691,7 @@ bilinear forms corresponding to a particular mn × ns × ms tensor.
 Fourier
 transforms (37) can also be cast in this mold, although they are linear instead
 of bilinear, if we let the x’s be constant rather than variable.
-The evaluation of bilinear forms is most easily studied if we restrict our-
-selves to what might be called normal evaluation schemes, in which all chain
+The evaluation of bilinear forms is most easily studied if we restrict ourselves to what might be called normal evaluation schemes, in which all chain
 multiplications take place between a linear combination of the x’s and a linear
 combination of the y’s. Thus, we form r products
 wl = (a1lx1 + · · · + amlxm)(b1ly1 + · · · + bnlyn),
@@ -40185,7 +36721,7 @@ introduced by F. L. Hitchcock in J. Math. and Physics 6 (1927), 164–189; its
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-507
+
 application to the complexity of polynomial evaluation was pointed out in an
 important paper by V. Strassen, Crelle 264 (1973), 184–202.
 Winograd’s scheme (35) for matrix multiplication is “abnormal” because it
@@ -40410,8 +36946,6 @@ C =
 .
 (53)
 
-
-508
 ARITHMETIC
 4.6.4
 An m × n × s tensor (tijk) can also be represented as a matrix by grouping
@@ -40484,7 +37018,7 @@ The evaluation of x(j)
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-509
+
 and y(j) can be carried out entirely in terms of additions and/or parameter
 multiplications, and the interpolation formula merely takes linear combinations
 of these values. Thus, all of the chain multiplications are shown in (56), and
@@ -40493,25 +37027,23 @@ high-precision numbers in Algorithm 4.3.3T.)
 The realization (A, B, C) of (55) sketched in the paragraph above turns out
 to be
 1 1 1 1
-1
-1
+
+
 0 1 2 3
-4
-5
+
+
 0 1 4 9 16 25
 
 ,
 1 1 1
-1
-1
-1
+
+
 0 1 2
-3
-4
-5
+
+
 0 1 4
 9 16
-25
+
 0 1 8 27 64 125
 
 ,
@@ -40519,41 +37051,36 @@ to be
 
 
 
-120
-0
-0
-0
-0
-0
+
+
 −274
 600 −600
 400 −150
-24
+
 225 −770
 1070 −780
 305 −50
 −85
 355 −590
 490 −205
-35
-15
+
+
 −70
 130 −120
 55 −10
 −1
-5
+
 −10
-10
+
 −5
-1
+
 
 
 
 × 1
 120.
 (57)
-Thus, the scheme does indeed achieve the minimum number of chain multipli-
-cations, but it is completely impractical because it involves so many additions
+Thus, the scheme does indeed achieve the minimum number of chain multiplications, but it is completely impractical because it involves so many additions
 and parameter multiplications. We shall now study a practical approach to the
 generation of more efficient schemes, introduced by S. Winograd.
 In the first place, to evaluate the coefficients of x(u)y(u) when deg(x) = m
@@ -40606,8 +37133,6 @@ mod (u5 −u).
 Here we have used the fact that x(u)y(u) mod u = x0y0; in general it is a good
 idea to choose p(u) in such a way that p(0) = 0, so that this simplification can be
 
-
-510
 ARITHMETIC
 4.6.4
 used. If we could now determine the coefficients w0, w1, w2, w3 of the polynomial
@@ -40692,8 +37217,7 @@ mod q1(u)q2(u)q3(u),
 where a1(u)q2(u)q3(u) + a2(u)q1(u)q3(u) + a3(u)q1(u)q2(u) = 1.
 
 This equation
-can also be understood in another way, by noting that the partial fraction expan-
-sion of 1/q1(u)q2(u)q3(u) is a1(u)/q1(u)+a2(u)/q2(u)+a3(u)/q3(u).
+can also be understood in another way, by noting that the partial fraction expansion of 1/q1(u)q2(u)q3(u) is a1(u)/q1(u)+a2(u)/q2(u)+a3(u)/q3(u).
 
 From (64)
 we obtain
@@ -40715,7 +37239,7 @@ First we reduce x(u) and y(u) mod (u2 + 1), obtaining
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-511
+
 X(u) = (x0 −x2) + (x1 −x3)u, Y (u) = (y0 −y2) + (y1 −y3)u. Then (60) tells
 us to evaluate X(u)Y (u) = Z0 + Z1u + Z2u2, and to reduce this in turn modulo
 (u2 + 1), obtaining (Z0 −Z2) + Z1u. The job of computing X(u)Y (u) is simple;
@@ -40833,8 +37357,6 @@ There are 5 multiplications and 15 additions, while the definition of cyclic
 convolution involves 16 multiplications and 12 additions. We will prove later
 that 5 multiplications are necessary.
 
-
-512
 ARITHMETIC
 4.6.4
 Going back to our original multiplication problem (54), using (62), we have
@@ -40915,25 +37437,21 @@ P =
 
 
 
-0
-1
-0
+
+
 . . .
-0
-0
-0
-1
+
+
 . . .
-0
+
 ...
 ...
 ...
 ...
-0
-0
-0
+
+
 . . .
-1
+
 p0
 p1
 p2
@@ -40952,7 +37470,7 @@ run from 0 to n −1 instead of from 1 to n.) It is convenient to transpose the
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-513
+
 tensor, for if Tijk = tikj the individual layers of (Tijk) for k = 0, 1, 2, . . . , n −1
 are simply given by the matrices
 I
@@ -40965,8 +37483,7 @@ The first rows of the matrices in (74) are respectively the unit vectors
 (1, 0, 0, . . . , 0), (0, 1, 0, . . . , 0), (0, 0, 1, . . . , 0), . . . , (0, 0, 0, . . . , 1), hence a linear
 combination n−1
 k=0 vkP k will be the zero matrix if and only if the coefficients vk
-are all zero. Furthermore, most of these linear combinations are actually non-
-singular matrices, for we have
+are all zero. Furthermore, most of these linear combinations are actually nonsingular matrices, for we have
 (w0, w1, . . . , wn−1)
 n−1
 
@@ -41013,12 +37530,9 @@ shows how to realize the n × n × 1 tensor v(P) of rank n with q + r −n chain
 multiplications.
 We may assume for convenience that the first n columns of C are linearly
 independent. Let D be the n×n matrix such that the first n columns of DC are
-equal to the identity matrix. Our goal will be achieved if there is a linear combi-
-nation (v0, v1, . . . , vn−1) of at most q rows of D, such that v(P) is nonsingular;
+equal to the identity matrix. Our goal will be achieved if there is a linear combination (v0, v1, . . . , vn−1) of at most q rows of D, such that v(P) is nonsingular;
 such a vector will satisfy conditions (i) and (ii).
 
-
-514
 ARITHMETIC
 4.6.4
 Since the rows of D are linearly independent, no irreducible factor pλ(u) can
@@ -41046,8 +37560,7 @@ the number ϕ = 1
 √
 5 ), is (u −1)(u2 + ϕu + 1)(u2 −ϕ−1u + 1); thus, the
 rank is only 7, if we allow arbitrary real numbers to appear in A, B, C. Over
-the complex numbers the rank is 5. This phenomenon does not occur in two-
-dimensional tensors (matrices), where the rank can be determined by evaluating
+the complex numbers the rank is 5. This phenomenon does not occur in twodimensional tensors (matrices), where the rank can be determined by evaluating
 determinants of submatrices and testing for 0. The rank of a matrix does not
 change when the field containing its elements is embedded in a larger field, but
 the rank of a tensor can decrease when the field gets larger.
@@ -41072,11 +37585,10 @@ tensor rank of an arbitrary n × n × n tensor over any finite field is NP-compl
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-515
+
 For further reading. In this section we have barely scratched the surface of a
 very large subject in which many beautiful theories are emerging. Considerably
-more comprehensive treatments can be found in the books Computational Com-
-plexity of Algebraic and Numeric Problems by A. Borodin and I. Munro (New
+more comprehensive treatments can be found in the books Computational Complexity of Algebraic and Numeric Problems by A. Borodin and I. Munro (New
 York: American Elsevier, 1975); Polynomial and Matrix Computations 1 by
 D. Bini and V. Pan (Boston: Birkhäuser, 1994); Algebraic Complexity Theory by
 P. Bürgisser, M. Clausen, and M. Amin Shokrollahi (Heidelberg: Springer, 1997).
@@ -41095,8 +37607,7 @@ its “total degree” is n.) Count the number of additions and multiplications 
 evaluating a polynomial with real coefficients at a complex point z. Compare (3) to
 Horner’s rule when both the coefficients and the variable z are complex numbers; how
 many (real) multiplications and addition-subtractions are required by each method?
-5. [M15] Count the number of multiplications and additions required by the second-
-order rule (4).
+5. [M15] Count the number of multiplications and additions required by the secondorder rule (4).
 6. [22] (L. de Jong and J. van Leeuwen.) Show how to improve on steps S1, . . . , S4
 of the Shaw–Traub algorithm by computing only about 1
 2n powers of x0.
@@ -41137,8 +37648,6 @@ We have per(X) = An{1,...,n}.
 How many additions and multiplications does this
 method require? How much temporary storage is needed?
 
-
-516
 ARITHMETIC
 4.6.4
 11. [M46] Is there any way to evaluate the permanent of a general n×n matrix using
@@ -41147,8 +37656,7 @@ fewer than 2n arithmetic operations?
 product of two n × n matrices? What is the smallest exponent ω such that O(nω+ϵ)
 multiplications are sufficient for all ϵ > 0? (Find good upper and lower bounds for
 small n as well as large n.)
-13. [M23] Find the inverse of the general discrete Fourier transform (37), by express-
-ing F(t1, . . . , tn) in terms of the values of f(s1, . . . , sn). [Hint: See Eq. 1.2.9–(13).]
+13. [M23] Find the inverse of the general discrete Fourier transform (37), by expressing F(t1, . . . , tn) in terms of the values of f(s1, . . . , sn). [Hint: See Eq. 1.2.9–(13).]
 x 14. [HM28] (Fast Fourier transforms.) Show that the scheme (40) can be used to
 evaluate the one-dimensional discrete Fourier transform
 f(s) =
@@ -41170,13 +37678,13 @@ between min(x0, . . . , xn) and max(x0, . . . , xn), if the nth derivative f (n)
 is continuous. [Hint: Prove the identity
 f(x0, x1, . . . , xn) =
 1
-0
+
 dt1
 t1
-0
+
 dt2 . . .
 tn−1
-0
+
 dtnf (n)(x0(1 −t1) + x1(t1 −t2) + · · ·
 + xn−1(tn−1 −tn) + xn(tn −0)).
 This formula also defines f(x0, x1, . . . , xn) in a useful manner when the xj are not
@@ -41185,25 +37693,22 @@ polynomial (42).
 16. [M22] How can we readily compute the coefficients of u[n](x) = unxn +· · ·+u0, if
 we are given the values of x0, x1, . . . , xn−1, α0, α1, . . . , αn in Newton’s interpolation
 polynomial (42)?
-17. [M20] Show that the interpolation formula (45) reduces to a very simple expres-
-sion involving binomial coefficients when xk = x0 + kh for 0 ≤k ≤n. [Hint: See
+17. [M20] Show that the interpolation formula (45) reduces to a very simple expression involving binomial coefficients when xk = x0 + kh for 0 ≤k ≤n. [Hint: See
 exercise 1.2.6–48.]
 18. [M20] If the fourth-degree scheme (9) were changed to
 y = (x + α0)x + α1,
 u(x) = ((y −x + α2)y + α3)α4,
 what formulas for computing the αj’s in terms of the uk’s would take the place of (10)?
 x 19. [M24] Explain how to determine the adapted coefficients α0, α1, . . . , α5 in (11)
-from the coefficients u5, . . . , u1, u0 of u(x), and find the α’s for the particular poly-
-nomial u(x) = x5 + 5x4 −10x3 −50x2 + 13x + 60.
+from the coefficients u5, . . . , u1, u0 of u(x), and find the α’s for the particular polynomial u(x) = x5 + 5x4 −10x3 −50x2 + 13x + 60.
 x 20. [21] Write a MIX program that evaluates a fifth-degree polynomial according to
-scheme (11); try to make the program as efficient as possible, by making slight mod-
-ifications to (11). Use MIX’s floating point arithmetic operators FADD and FMUL, which
+scheme (11); try to make the program as efficient as possible, by making slight modifications to (11). Use MIX’s floating point arithmetic operators FADD and FMUL, which
 are described in Section 4.2.1.
 
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-517
+
 21. [20] Find two additional ways to evaluate the polynomial x6 + 13x5 + 49x4 +
 33x3 −61x2 −37x + 3 by scheme (12), using the two roots of (15) that were not
 considered in the text.
@@ -41220,7 +37725,7 @@ zero), and h(z) has at least n −3 imaginary roots. [Hint: Consider the number 
 times the path f(z) circles the origin as z goes around the path shown in Fig. 16,
 for a sufficiently large radius R.]
 b) Prove that the squares of the roots of g(z) = 0 and h(z) = 0 are all real.
-0
+
 iR
 −R
 −iR
@@ -41228,8 +37733,7 @@ Fig. 16. Proof of Eve’s theorem.
 x 24. [M24] Find values of c and αk, βk satisfying the conditions of Theorem E, for the
 polynomial u(x) = (x + 7)(x2 + 6x + 10)(x2 + 4x + 5)(x + 1). Choose these values so
 that β2 = 0. Give two different solutions.
-25. [M20] When the construction in the proof of Theorem M is applied to the (ineffi-
-cient) polynomial chain
+25. [M20] When the construction in the proof of Theorem M is applied to the (inefficient) polynomial chain
 λ1 = α1 + λ0,
 λ2 = −λ0 −λ0,
 λ3 = λ1 + λ1,
@@ -41251,12 +37755,9 @@ independently assume all real values, omits certain vectors in the result set of
 27. [M22] Let R be a set that includes all (n+1)-tuples (qn, . . . , q1, q0) of real numbers
 such that qn ̸= 0; prove that R does not have at most n degrees of freedom.
 
-
-518
 ARITHMETIC
 4.6.4
-28. [HM20] Show that if f0(α1, . . . , αs), . . . , fs(α1, . . . , αs) are multivariate polyno-
-mials with integer coefficients, then there is a nonzero polynomial g(x0, . . . , xs) with
+28. [HM20] Show that if f0(α1, . . . , αs), . . . , fs(α1, . . . , αs) are multivariate polynomials with integer coefficients, then there is a nonzero polynomial g(x0, . . . , xs) with
 integer coefficients such that g(f0(α1, . . . , αs), . . . , fs(α1, . . . , αs)) = 0 for all real α1,
 . . . , αs.
 (Hence any polynomial chain with s parameters has at most s degrees of
@@ -41274,21 +37775,18 @@ multiplication can essentially introduce only one new parameter into the result 
 of degree n has at least ⌊n/2⌋multiplications and at least n addition-subtractions.
 32. [M24] Find a polynomial chain of minimum possible length that can compute all
 polynomials of the form u4x4 + u2x2 + u0; and prove that its length is minimal.
-x 33. [M25] Let n ≥3 be odd. Prove that a polynomial chain with ⌊n/2⌋+ 1 multi-
-plication steps cannot compute all polynomials of degree n unless it has at least n + 2
+x 33. [M25] Let n ≥3 be odd. Prove that a polynomial chain with ⌊n/2⌋+ 1 multiplication steps cannot compute all polynomials of degree n unless it has at least n + 2
 addition-subtraction steps. [Hint: See exercise 30.]
 34. [M26] Let λ0, λ1, . . . , λr be a polynomial chain in which all of the addition
 and subtraction steps are parameter steps, and in which there is at least one parameter
-multiplication. Assume that this scheme has m multiplications and k = r−m addition-
-subtractions, and that the polynomial computed by the chain has maximum degree n.
+multiplication. Assume that this scheme has m multiplications and k = r−m additionsubtractions, and that the polynomial computed by the chain has maximum degree n.
 Prove that all polynomials computable by this chain, for which the coefficient of xn is
 not zero, can be computed by another chain that has at most m multiplications and
 at most k additions, and no subtractions; furthermore the last step of the new chain
 should be the only parameter multiplication.
 x 35. [M25] Show that any polynomial chain that computes a general fourth-degree
 polynomial using three multiplications must have at least five addition-subtractions.
-[Hint: Assume that there are only four addition-subtractions, and show that exer-
-cise 34 applies; therefore the scheme must have a particular form that is incapable of
+[Hint: Assume that there are only four addition-subtractions, and show that exercise 34 applies; therefore the scheme must have a particular form that is incapable of
 representing all fourth-degree polynomials.]
 36. [M27] Continuing the previous exercise, show that any polynomial chain that
 computes a general sixth-degree polynomial using only four multiplications must have
@@ -41306,7 +37804,7 @@ function (x2 + 10x + 29)/(x2 + 8x + 19).
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-519
+
 x 38. [HM32] (V. Y. Pan, 1962.) The purpose of this exercise is to prove that Horner’s
 rule is really optimal if no preliminary adaptation of coefficients is made; we need n
 multiplications and n additions to compute unxn + · · · + u1x + u0, if the variables un,
@@ -41327,8 +37825,7 @@ involves at least n chain multiplications.
 we are considering some fixed chain in which the parameters αj are assigned values
 depending on A and B; it means that both the chain and the values of the α’s may
 depend on the given matrix A and vector B. No matter how A, B, and the values
-of αj are chosen, it is impossible to compute P(x; u0, . . . , un) without doing n “chain-
-step” multiplications.) The assumption that A has rank n + 1 implies that m ≥n.
+of αj are chosen, it is impossible to compute P(x; u0, . . . , un) without doing n “chainstep” multiplications.) The assumption that A has rank n + 1 implies that m ≥n.
 [Hint: Show that from any such scheme we can derive another that has fewer chain
 multiplications and that has n decreased by one.]
 39. [M29] (T. S. Motzkin, 1954.) Show that schemes of the form
@@ -41355,15 +37852,13 @@ and l(n + 1) additions (no divisions or subtractions), where l(n) is the functio
 in Section 4.6.3.
 x 44. [M25] Show that any monic polynomial u(x) = xn + un−1xn−1 + · · · + u0 can be
 evaluated with
-1
+
 2n + O(log n) multiplications and ≤
-5
+
 4n additions, using parameters
 α1, α2, . . . that are polynomials in un−1, un−2, . . . with integer coefficients. [Hint:
 Consider first the case n = 2l.]
 
-
-520
 ARITHMETIC
 4.6.4
 x 45. [HM22] Let (tijk) be an m×n×s tensor, and let F, G, H be nonsingular matrices
@@ -41414,8 +37909,7 @@ uses 2 multiplications and 4 additions, not counting operations on the xi. Simil
 devise an algorithm for degree 3, using 4 multiplications and 11 additions. (See (69),
 which solves the analogous problem for degree 4.)
 52. [M25] (S. Winograd.) Let n = n′n′′ where n′ ⊥n′′. Given normal schemes for
-cyclic convolutions of degrees n′ and n′′, using respectively (m′, m′′) chain multiplica-
-tions, (p′, p′′) parameter multiplications, and (a′, a′′) additions, show how to construct
+cyclic convolutions of degrees n′ and n′′, using respectively (m′, m′′) chain multiplications, (p′, p′′) parameter multiplications, and (a′, a′′) additions, show how to construct
 a normal scheme for cyclic convolution of degree n using m′m′′ chain multiplications,
 p′n′′ + m′p′′ parameter multiplications, and a′n′′ + m′a′′ additions.
 53. [HM40] (S. Winograd.) Let ω be a complex mth root of unity, and consider the
@@ -41437,7 +37931,7 @@ m elements.
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-521
+
 54. [M23] Theorem W refers to an infinite field. How many elements must a finite
 field have in order for the proof of Theorem W to be valid?
 55. [HM22] Determine the rank of tensor (74) when P is an arbitrary n × n matrix.
@@ -41512,8 +38006,6 @@ the indices {1, . . . , n} into two subsets O = {1, 3, . . . , n −1} and E = {
 ν elements each, and we set up a one-to-one correspondence between O and E by the
 rule ˜ı = i + 1 if i ∈O; ˜ı = i −1 if i ∈E. Thus we have ˜˜ı = i for all indices i.
 
-
-522
 ARITHMETIC
 4.6.4
 a) The identity
@@ -41529,7 +38021,7 @@ where S = E×E×E ∪E×E×O ∪E×O×E ∪O×E×E is the set of all triples of
 indices containing at most one odd index; Σ1 is the sum of all terms of the form
 (xij + x˜κ˜ı)yjkz˜ȷ˜κ for (i, j, k) ∈S; and Σ2, Σ3 similarly are sums of the terms
 x˜κ˜ı(yjk + y˜ı˜ȷ)zki, xij y˜ı˜ȷ(zki + z˜ȷ˜κ). Clearly S has 4ν3 =
-1
+
 2n3 terms. Show that
 each of Σ1, Σ2, Σ3 can be realized as the sum of 3ν2 trilinear terms; furthermore,
 if the 3ν triples of the forms (i, i,˜ı) and (i,˜ı, i) and (˜ı, i, i) are removed from S, we
@@ -41553,7 +38045,7 @@ ordinary rank of a tensor. Prove that
 a) rankd+1(tijk) ≤rankd(tijk);
 b) rank(tijk) ≤
 d+2
-2
+
 
 rankd(tijk);
 c) rankd((tijk) ⊕(t′
@@ -41569,13 +38061,11 @@ the direct sum T ⊕· · · ⊕T of r copies of T.
 62. [M24] The border rank of (tijk), denoted by rank(tijk), is mind≥0 rankd(tijk),
 where rankd is defined in exercise 61. Prove that the tensor
 1
-0
-0
-1
+
+
 0
-0
-1
-0
+
+
 
 has rank 3 but
 border rank 2, over every field.
@@ -41601,7 +38091,7 @@ j=1
 
 4.6.4
 EVALUATION OF POLYNOMIALS
-523
+
 when m
 i=1 Xij = n
 j=1 Yij = 0.
@@ -41618,8 +38108,7 @@ a) Say that the tensor (tijk) is nondegenerate if rank(ti(jk)) = m, rank(tj(ki))
 and rank(tk(ij)) = s, in the notation of Lemma T. Prove that the tensor T(m, n, s)
 for mn × ns matrix multiplication is nondegenerate.
 b) Show that the direct sum of nondegenerate tensors is nondegenerate.
-c) An m × n × s tensor t with realization (A, B, C) of length r is called improv-
-able if it is nondegenerate and there are nonzero elements d1, . . . , dr such that
+c) An m × n × s tensor t with realization (A, B, C) of length r is called improvable if it is nondegenerate and there are nonzero elements d1, . . . , dr such that
 r
 l=1 ailbjldl = 0 for 1 ≤i ≤m and 1 ≤j ≤n.
 Prove that in such a
@@ -41660,15 +38149,13 @@ j) Therefore ω < 2.5.
 xixj = x1x2 + · · · + xn−1xn
 with fewer than n −1 multiplications and 2n −4 additions? (There are
 n
-2
+
 
 terms.)
 x 69. [HM27] (V. Strassen, 1973.) Show that the determinant (31) of an n × n matrix
 can be evaluated by doing O(n5) multiplications and O(n5) additions or subtractions,
 and no divisions. [Hint: Consider det(I + Y ) where Y = X −I.]
 
-
-524
 ARITHMETIC
 4.6.4
 x 70. [HM25] The characteristic polynomial fX(λ) of a matrix X is defined to be
@@ -41689,7 +38176,7 @@ fX(λ) = fY (λ)
 
 .
 Show that this relation allows us to compute the coefficients of fX with about
-1
+
 4n4
 multiplications, 1
 4n4 addition-subtractions, and no divisions. Hint: Use the identity
@@ -41700,16 +38187,16 @@ D
 
 =
 I
-0
-0
+
+
 D
 A −BD−1C
 B
-0
+
 I
 
 I
-0
+
 D−1C
 I
 
@@ -41718,8 +38205,7 @@ which holds for any matrices A, B, C, and D of respective sizes l × l, l × m, 
 m × m when D is nonsingular.
 x 71. [HM30] A quolynomial chain is like a polynomial chain except that it allows
 division as well as addition, subtraction, and multiplication. Prove that if f(x1, . . . , xn)
-can be computed by a quolynomial chain that has m chain multiplications and d di-
-visions, then f(x1, . . . , xn) and all n of its partial derivatives ∂f(x1, . . . , xn)/∂xk for
+can be computed by a quolynomial chain that has m chain multiplications and d divisions, then f(x1, . . . , xn) and all n of its partial derivatives ∂f(x1, . . . , xn)/∂xk for
 1 ≤k ≤n can be computed by a single quolynomial chain that has at most 3m+d chain
 multiplications and 2d divisions. (Consequently, for example, any efficient method for
 calculating the determinant of a matrix leads to an efficient method for calculating all
@@ -41728,13 +38214,10 @@ of its cofactors, hence an efficient method for computing the inverse matrix.)
 field of rational numbers, in a finite number of steps?
 73. [HM25] (J. Morgenstern, 1973.) Prove that any polynomial chain for the discrete
 Fourier transform (37) has at least
-1
+
 2m1 . . . mn lg m1 . . . mn addition-subtractions, if
-there are no chain multiplications and if every parameter multiplication is by a complex-
-valued constant with |αj| ≤1. Hint: Consider the matrices of the linear transforma-
-tions computed by the first k steps. How big can their determinants be?
-74. [HM35] (A. Nozaki, 1978.) Most of the theory of polynomial evaluation is con-
-cerned with bounds on chain multiplications, but multiplication by noninteger constants
+there are no chain multiplications and if every parameter multiplication is by a complexvalued constant with |αj| ≤1. Hint: Consider the matrices of the linear transformations computed by the first k steps. How big can their determinants be?
+74. [HM35] (A. Nozaki, 1978.) Most of the theory of polynomial evaluation is concerned with bounds on chain multiplications, but multiplication by noninteger constants
 can also be essential. The purpose of this exercise is to develop an appropriate theory
 of constants. Let us say that vectors v1, . . . , vs of real numbers are Z-dependent if
 there are integers (k1, . . . , ks) such that gcd(k1, . . . , ks) = 1 and k1v1 + · · · + ksvs is an
@@ -41743,8 +38226,7 @@ a) Prove that if the columns of an r × s matrix V are Z-independent, so are the
 columns of V U, when U is any s × s unimodular matrix (a matrix of integers
 whose determinant is ±1).
 b) Let V be an r × s matrix with Z-independent columns.
-Prove that a poly-
-nomial chain to evaluate the elements of V x from inputs x1, . . . , xs, where
+Prove that a polynomial chain to evaluate the elements of V x from inputs x1, . . . , xs, where
 x = (x1, . . . , xs)T , needs at least s multiplications.
 c) Let V be an r × t matrix having s columns that are Z-independent. Prove that
 a polynomial chain to evaluate the elements of V x from inputs x1, . . . , xt, where
@@ -41756,7 +38238,7 @@ pair {x/2 + y, x + y/2}.
 
 4.7
 MANIPULATION OF POWER SERIES
-525
+
 *4.7. MANIPULATION OF POWER SERIES
 If we are given two power series
 U(z) = U0 + U1z + U2z2 + · · · ,
@@ -41794,8 +38276,7 @@ n
 k=0
 UkVn−k = U0Vn + U1Vn−1 + · · · + UnV0.
 (2)
-The quotient W(z) = U(z)/V (z), when V0 ̸= 0, can be obtained by inter-
-changing U and W in (2); we obtain the rule
+The quotient W(z) = U(z)/V (z), when V0 ̸= 0, can be obtained by interchanging U and W in (2); we obtain the rule
 Wn =
 
 Un −
@@ -41814,8 +38295,6 @@ online; with an online algorithm, we can determine N coefficients W0, W1, . . . 
 WN−1 of the result without knowing N in advance, so we could in principle run
 the algorithm indefinitely and compute the entire power series. We can also run
 
-
-526
 ARITHMETIC
 4.7
 an online algorithm until any desired condition is met. (The opposite of “online”
@@ -41897,7 +38376,7 @@ comparatively straightforward “power series method” is often used to obtain
 
 4.7
 MANIPULATION OF POWER SERIES
-527
+
 L1. Initialize
 L2. Input Vn
 L3. Divide
@@ -41925,20 +38404,20 @@ n [tn−1] (1 + V2t + V3t2 + · · · )−n.
 (12)
 For example, we have (1−t)−5 =
 4
-4
+
 
 +
 5
-4
+
 
 t+
 6
-4
+
 
 t2+· · · ; hence the fifth coefficient,
 W5, in the reversion of z = t −t2 is equal to
 8
-4
+
 
 /5 = 14. This checks with the
 formulas for enumerating binary trees in Section 2.3.4.4.
@@ -41958,8 +38437,6 @@ L1. [Initialize.] Set n ←1, U0 ←1. (The relation
 (13)
 will be maintained throughout this algorithm.)
 
-
-528
 ARITHMETIC
 4.7
 L2. [Input Vn.] Increase n by 1. If n > N, the algorithm terminates; otherwise
@@ -41980,38 +38457,12 @@ U2
 U3
 U4
 Wn
-1
-1
-1
-1
-2
+
+
 −1
-1
-2
-1
-3
-0
-1
-3
-6
-2
-4
-0
-1
-4
-10
-20
-5
-5
-0
-1
-5
-15
-35
-70
-14
-Exercise 8 shows that a slight modification of Algorithm L will solve a consider-
-ably more general problem with only a little more effort.
+
+
+Exercise 8 shows that a slight modification of Algorithm L will solve a considerably more general problem with only a little more effort.
 Let us now consider solving the equation
 U1z + U2z2 + U3z3 + · · · = t + V2t2 + V3t3 + · · ·
 (14)
@@ -42047,15 +38498,14 @@ to step T2.
 
 4.7
 MANIPULATION OF POWER SERIES
-529
+
 Equation (16) explains the mechanism of this algorithm, which is due to
 Henry C. Thacher, Jr. [CACM 9 (1966), 10–11]. The running time is essentially
 the same as Algorithm L, but considerably more storage space is required. An
 example of this algorithm is worked out in exercise 9.
 Still another approach to power series reversion has been proposed by R. P.
 Brent and H. T. Kung [JACM 25 (1978), 581–595], based on the fact that
-standard iterative procedures used to find roots of equations over the real num-
-bers can also be applied to equations over power series. In particular, we can
+standard iterative procedures used to find roots of equations over the real numbers can also be applied to equations over power series. In particular, we can
 consider Newton’s method for computing approximations to a real number t
 such that f(t) = 0, given a function f that is well-behaved near t: If x is a
 good approximation to t, then ϕ(x) = x −f(x)/f ′(x) will be even better, for if
@@ -42075,8 +38525,7 @@ f(t) = 0. Let x = W1z + · · · + Wn−1zn−1 = t + O(zn) be an “approximati
 to t of order n; then ϕ(x) = x−f(x)/f ′(x) will be an approximation of order 2n,
 since the assumptions of Newton’s method hold for this f and t.
 In other words, we can use the following procedure:
-Algorithm N (General power series reversion by Newton’s method). This “semi-
-online” algorithm inputs the values of Un and Vn in (14) for 2k ≤n < 2k+1 and
+Algorithm N (General power series reversion by Newton’s method). This “semionline” algorithm inputs the values of Un and Vn in (14) for 2k ≤n < 2k+1 and
 then outputs the values of Wn in (15) for 2k ≤n < 2k+1, thereby producing its
 answers in batches of 2k at a time, for k = 0, 1, 2, . . . , K.
 N1. [Initialize.] Set N ←1. (We will have N = 2k.) Input the first coefficients
@@ -42084,8 +38533,7 @@ U1 and V1 (where V1 = 1), and set W1 ←U1.
 N2. [Output.] Output Wn for N ≤n < 2N.
 N3. [Input.] Set N ←2N. If N > 2K, the algorithm terminates; otherwise
 input the values Un and Vn for N ≤n < 2N.
-N4. [Newtonian step.] Use an algorithm for power series composition (see exer-
-cise 11) to evaluate the coefficients Qj and Rj (0 ≤j < N) in the power
+N4. [Newtonian step.] Use an algorithm for power series composition (see exercise 11) to evaluate the coefficients Qj and Rj (0 ≤j < N) in the power
 series
 U1z + · · · + U2N−1z2N−1 −V (W1z + · · · + WN−1zN−1)
 = R0zN + R1zN+1 + · · · + RN−1z2N−1 + O(z2N),
@@ -42096,8 +38544,6 @@ R0+R1z+ · · · +RN−1zN−1
 Q0+Q1z+ · · · +QN−1zN−1 = WN + · · · + W2N−1zN−1 + O(zN)
 and return to step N2.
 
-
-530
 ARITHMETIC
 4.7
 The running time for this algorithm to obtain the coefficients up to N = 2K
@@ -42192,7 +38638,7 @@ defining U. But in practice we generally want to go the other way: Starting with
 
 4.7
 MANIPULATION OF POWER SERIES
-531
+
 some given function U, we want to find V and u such that (19) holds, namely
 such that
 V
@@ -42273,8 +38719,6 @@ The running time T(n) of this procedure satisfies
 T(2n) = 2T(n) + C(n),
 (26)
 
-
-532
 ARITHMETIC
 4.7
 where C(n) is the time to compute R(z), ˆW(z), and ˆS(z). The function C(n) is
@@ -42353,7 +38797,7 @@ that U(α) = α, and let
 
 4.7
 MANIPULATION OF POWER SERIES
-533
+
 then U [n](z) = ˆU [n](z−α)+α. Further details can be found in Brent and Traub’s
 paper [SICOMP 9 (1980), 54–66]. The V function of (27) had previously been
 considered by M. Kuczma, Functional Equations in a Single Variable (Warsaw:
@@ -42372,7 +38816,7 @@ EXERCISES
 the division be done when V0 = 0?
 2. [20] If the coefficients of U(z) and V (z) are integers and V0 ̸= 0, find a recurrence
 relation for the integers V n+1
-0
+
 Wn, where Wn is defined by (3). How could you use this
 for power series division?
 3. [M15] Does formula (9) give the right results when α = 0? When α = 1?
@@ -42406,8 +38850,6 @@ and
 V (z) = V1z + V2z2 + V3z3 + · · · .
 Design an algorithm that computes the first N coefficients of U(V (z)).
 
-
-534
 ARITHMETIC
 4.7
 12. [M20] Find a connection between polynomial division and power series division:
@@ -42442,10 +38884,10 @@ coefficients W1, W2, W3, . . . is to proceed as follows: Set n ←1 and R1(t) �
 Then preserve the relation WnV (t) + Wn+1V (t)2 + · · · = Rn(t) by repeatedly setting
 Wn ←[t] Rn(t)/V1, Rn+1(t) ←Rn(t)/V (t) −Wn, n ←n + 1.
 Prove Lagrange’s formula of exercise 8 by showing that
-1
+
 n[tn−1] R′
 k+1(t) tn/V (t)n =
-1
+
 n + 1[tn] R′
 k(t) tn+1/V (t)n+1,
 for all n ≥1 and k ≥1.
@@ -42495,7 +38937,7 @@ m
 
 4.7
 MANIPULATION OF POWER SERIES
-535
+
 an identity we haven’t seen before. Several other triangular arrays of coefficients that
 arise in combinatorial mathematics and the analysis of algorithms also turn out to be
 the power matrices of power series.)
@@ -42580,8 +39022,6 @@ y −kα
 [Special cases include Abel’s binomial theorem, Eq. 1.2.6–(16); Rothe’s identities
 1.2.6–(26) and 1.2.6–(30); Torelli’s sum, exercise 1.2.6–34.]
 
-
-536
 ARITHMETIC
 4.7
 23. [HM35] (E. Jabotinsky.) Continuing in the same vein, suppose that U = (unk) is
@@ -42660,7 +39100,7 @@ UdVn/d .
 
 4.7
 MANIPULATION OF POWER SERIES
-537
+
 Ordinary power series are special cases of Dirichlet series, since we have V0 + V1z +
 V2z2 + V3z3 + · · · = V0/1s + V1/2s + V2/4s + V3/8s + · · · when z = 2−s.
 In fact,
@@ -42668,8 +39108,7 @@ Dirichlet series are essentially equivalent to power series V (z1, z2, . . . ) i
 many variables, where zk = p−s
 k
 and pk is the kth prime number.
-Find recurrence relations that generalize (9) and the formulas of exercise 4, assum-
-ing that a Dirichlet series V (z) is given and that we want to calculate (a) W(z) = V (z)α
+Find recurrence relations that generalize (9) and the formulas of exercise 4, assuming that a Dirichlet series V (z) is given and that we want to calculate (a) W(z) = V (z)α
 when V1 = 1; (b) W(z) = exp V (z) when V1 = 0; (c) W(z) = ln V (z) when V1 = 1.
 [Hint: Let t(n) be the total number of prime factors of n, including multiplicity, and let
 δ 
@@ -42709,8 +39148,7 @@ the telephone user when possible. In some communities, telephone numbers are per
 assigned randomly. But it would be a mistake in any case to try to get several successive
 random numbers from the same page, since the same telephone number is often listed
 several times in a row.
-(b) But do you use the left-hand page or the right-hand page? Say, use the left-
-hand page number, divide by 2, and take the units digit. The total number of pages
+(b) But do you use the left-hand page or the right-hand page? Say, use the lefthand page number, divide by 2, and take the units digit. The total number of pages
 should be a multiple of 20; but even so, this method will have some bias.
 (c) The markings on the faces will slightly bias the die, but for practical purposes
 this method is quite satisfactory (and it has been used by the author in the preparation
@@ -42726,12 +39164,10 @@ digit will be even with probability e−m cosh m = 1
 2e−2m, and this is never equal
 to 1
 2 (although the error is negligibly small when m is large).
-538
-
 
 3.1
 ANSWERS TO EXERCISES
-539
+
 It is almost legitimate to take ten readings (m0, . . . , m9) and then to output j if
 mj is strictly less than mi for all i ̸= j; try again if the minimum value appears more
 than once. (See (h).) However, the parameter m isn’t really constant in the real world.
@@ -42739,7 +39175,7 @@ than once. (See (h).) However, the parameter m isn’t really constant in the re
 random. However, there is possible bias in borderline cases.
 (f, g) No. People usually think of certain digits (like 7) with higher probability.
 (h) Okay; your assignment of numbers to the horses had probability
-1
+
 10 of assigning
 a given digit to the winning horse (unless you know, say, the jockey).
 2. The number of such sequences is the multinomial coefficient 1000000!/(100000!)10;
@@ -42785,8 +39221,6 @@ than 1.
 He showed that the best choice of p, approximately 2.4771, saves about 3
 percent of the iterations by comparison with p = 2. (See exercise 4.5.4–4.)
 
-
-540
 ANSWERS TO EXERCISES
 3.1
 The method in part (b) has a serious deficiency, however, since it might generate
@@ -42843,7 +39277,7 @@ X1 ̸= X0 and that X2 has a certain value, so it is (1 −1/m)(1/m). Similarly, 
 
 3.1
 ANSWERS TO EXERCISES
-541
+
 probability that the sequence has any given µ and λ is a function only of µ+λ, namely
 P(µ, λ) = 1
 m
@@ -42857,7 +39291,7 @@ m
 For the probability that λ = 1, we have
 
 µ≥0
-1
+
 m
 µ
 
@@ -42899,7 +39333,7 @@ m
 + · · ·
 
 = 1 + Q(m)
-2
+
 .
 (See the previous answer. In general if f(a0, a1, . . . ) = 
 n≥0 an
@@ -42962,8 +39396,6 @@ k
 by counting the number of functions whose image contains at most m −k elements,
 we find the solution c1(m) = mm−1Q(m). (See exercise 1.2.11.3–16.) Another way
 
-
-542
 ANSWERS TO EXERCISES
 3.1
 to obtain the value of c1(m), which is perhaps more elegant and revealing, is given in
@@ -42977,7 +39409,7 @@ r
 
 = mm−1
 
-1
+
 0!
 1
 r
@@ -43012,11 +39444,11 @@ m
 + · · ·
 
 = 1 + 1
-2
+
 m −1
 m
 + 1
-3
+
 m −1
 m
 m −2
@@ -43026,7 +39458,7 @@ This latter formula was obtained by quite different means by Martin D. Kruskal, 
 61 (1954), 392–397. Using the integral representation
 Em =
 ∞
-0
+
 
 1 + x
 m
@@ -43057,8 +39489,7 @@ the single element Xn.
 54 (2005), 72–84] has shown that Pr(λ = 1) = Θ(mk/2), and that Pr((µ + λ)2 > 2mkx
 and λ/(µ + λ) ≤y) rapidly approaches ye−x, when x > 0, 0 < y < 1, and m →∞.
 The k-dimensional analogs of exercises 13 and 14 remain unsolved.
-20. It suffices to consider the simpler mapping g(X) defined by steps K2–K13. Work-
-ing backward from 6065038420, we obtain a total of 597 solutions; the smallest is
+20. It suffices to consider the simpler mapping g(X) defined by steps K2–K13. Working backward from 6065038420, we obtain a total of 597 solutions; the smallest is
 0009612809 and the largest is 9995371004.
 21. We may work with g(X) as in the previous exercise, but now we want to run the
 function forward instead of backward. There is an interesting tradeoff between time
@@ -43071,7 +39502,7 @@ Scott Fluhrer has discovered another fixed point of Algorithm K, namely the valu
 
 3.2.1.1
 ANSWERS TO EXERCISES
-543
+
 0225923640, making a total of seven cycles in all. Only 128 starting numbers lead to
 the repeating value 5008502835. Algorithm K is a terrible random number generator.
 22. If f were truly random, this would be ideal; but how do we construct such f? The
@@ -43139,8 +39570,6 @@ a
 CON
 c
 
-
-544
 ANSWERS TO EXERCISES
 3.2.1.1
 3. Let a′ = aw mod m, and let m′ be such that mm′ ≡1 (modulo w). Set y ←
@@ -43153,8 +39582,7 @@ Y0 = X0 mod 232,
 Yn+1 = (aYn + c) mod 232
 is easy to compute on 370-style machines, since the lower half of the product of y
 and z is (yz) mod 232 for all two’s complement numbers y and z, and since addition
-ignoring overflow also delivers its result mod 232. This sequence has all the random-
-ness properties of the standard linear congruential sequence ⟨Xn⟩, since Yn ≡Xn
+ignoring overflow also delivers its result mod 232. This sequence has all the randomness properties of the standard linear congruential sequence ⟨Xn⟩, since Yn ≡Xn
 (modulo 232). Indeed, the two’s complement representation of Yn is identical to the
 binary representation of Xn, for all n. [G. Marsaglia and T. A. Bray first pointed this
 out in CACM 11 (1968), 757–759.]
@@ -43207,7 +39635,7 @@ q ] are disjoint for 1 ≤q ≤t, and they include exactly
 
 3.2.1.1
 ANSWERS TO EXERCISES
-545
+
 all solutions with a > √m; they also include the case a = t, if (√m mod 1) < 1
 2, and
 the case a = t −1 if m = t2. Thus the total number of “lucky” multipliers is exactly
@@ -43261,8 +39689,6 @@ than multiplication by 10.)
 (c) We can remember the borrow-bit instead of propagating it, because it can be
 incorporated into the subtraction on the next step. Thus, if we define digits xn and
 
-
-546
 ANSWERS TO EXERCISES
 3.2.1.1
 borrow-bits bn by the recurrence
@@ -43314,7 +39740,7 @@ Xn = (xn−1xn−2xn−3xn−4xn−5xn−6xn−7¯xn+2¯xn+1¯xn)10 + 1000bn+3
 
 3.2.1.2
 ANSWERS TO EXERCISES
-547
+
 When the radix is generalized from 10 to w, we find that the inverse powers of w
 modulo wk −wl + 1 are generated by
 xn = (xn−l −xn−k −bn) mod w = xn−l −xn−k −bn + wbn+1
@@ -43355,8 +39781,7 @@ j=1
 max(0, aj)
 if the initial carry c0 is in this range.
 The special case m = bk + bl −1, for which aj = δjl + δjk, is of particular interest
-because it can be computed so easily; Marsaglia and Zaman called this the add-with-
-carry generator:
+because it can be computed so easily; Marsaglia and Zaman called this the add-withcarry generator:
 xn = (xn−l + xn−k + cn) mod b = xn−l + xn−k + cn −b cn+1.
 Another potentially attractive possibility is to use k = 2 in a generator with, say,
 b = 231 and m = 65430b2 + b −1. This modulus m is prime, and the period length
@@ -43373,8 +39798,6 @@ of the exercise are necessary and sufficient.)
 3. By Theorem A, we need a ≡1 (modulo 4) and a ≡1 (modulo 5). By Law D of
 Section 1.2.4, this is equivalent to a ≡1 (modulo 20).
 
-
-548
 ANSWERS TO EXERCISES
 3.2.1.2
 4. We know X2e−1 ≡0 (modulo 2e−1) by using Theorem A in the case m = 2e−1.
@@ -43446,16 +39869,16 @@ ej ≥fj.
 
 3.2.1.2
 ANSWERS TO EXERCISES
-549
+
 Now aκ1
-1
+
 and aκ2
-2
+
 have periods λ1/κ1 and λ2/κ2, and the latter are relatively prime.
 Furthermore (λ1/κ1)(λ2/κ2) = λ, so it suffices to consider the case when λ1 is relatively
 prime to λ2, that is, when λ = λ1λ2. Now let λ′ be the order of a1a2. Since (a1a2)λ′ ≡
 1, we have 1 ≡(a1a2)λ′λ1 ≡aλ′λ1
-2
+
 ; hence λ′λ1 is a multiple of λ2. This implies that λ′
 is a multiple of λ2, since λ1 is relatively prime to λ2. Similarly, λ′ is a multiple of λ1;
 hence λ′ is a multiple of λ1λ2. But obviously (a1a2)λ1λ2 ≡1, so λ′ = λ1λ2.
@@ -43503,8 +39926,6 @@ This required factoring m−1 = b22(b−1)(b6+b5+b4+b3+b2+b+1)(b14+b7+1) in orde
 to establish the primitivity of b; one of the 17 prime factors of m −1 has 99 decimal
 digits. As a result, we can be sure that the sequence xn = (xn−22−xn−43−cn) mod b =
 
-
-550
 ANSWERS TO EXERCISES
 3.2.1.2
 xn−22 −xn−43 −cn + bcn+1 has period length m −1 ≈10414 for every nonzero choice
@@ -43558,7 +39979,7 @@ Xn+2 = (234 + 3 · 218 + 9)Xn mod 235 = (234 + 6Xn+1 −9Xn) mod 235.
 
 3.2.2
 ANSWERS TO EXERCISES
-551
+
 Given Yn and Yn+1, the possibilities for
 Yn+2 ≈(10 + 6(Yn+1 + ϵ1) −9(Yn + ϵ2)) mod 20,
 with 0 ≤ϵ1 < 1, 0 ≤ϵ2 < 1, are limited and nonrandom.
@@ -43587,16 +40008,16 @@ Output: initial
 0 4 5 6 2 0 3(2 7 4 1 6 3 0 5)
 and repeats.
 V [0]:
-0
+
 4 7 7 7 7 7 7 7 4 7 7 7 7 7 7 7 4 7 . . .
 V [1]:
-3
+
 3 3 3 3 3 3 2 5 5 5 5 5 5 5 2 5 5 5 . . .
 V [2]:
-2
+
 2 2 2 2 0 3 3 3 3 3 3 3 0 3 3 3 3 3 . . .
 V [3]:
-5
+
 5 5 6 1 1 1 1 1 1 1 6 1 1 1 1 1 1 1 . . .
 X:
 4 7 6 1 0 3 2 5 4 7 6 1 0 3 2 5 4 7 . . .
@@ -43609,23 +40030,21 @@ exercise 15.)
 Output: initial
 2 3 6 5 7 0 0 5 3 . . . 4 6(3 0 . . . 4 7). . .
 V [0]:
-0
+
 0 0 0 0 0 0 5 4 4 . . . 1 1 1 1 . . . 1 1 . . .
 V [1]:
-3
+
 3 6 1 1 1 1 1 1 1 . . . 0 0 0 4 . . . 0 0 . . .
 V [2]:
-2
+
 7 7 7 7 3 3 3 3 7 . . . 6 2 2 2 . . . 7 2 . . .
 V [3]:
-5
+
 5 5 5 0 0 2 2 2 2 . . . 3 3 5 5 . . . 3 3 . . .
 X:
-4
+
 7 6 1 0 3 2 5 4 7 . . . 3 2 5 4 . . . 3 2 . . .
 
-
-552
 ANSWERS TO EXERCISES
 3.2.2
 In this case the output is considerably better than the input; it enters a repeating cycle
@@ -43677,11 +40096,11 @@ Xn+2 (modulo 4), by trial; and if p = 3, we have Xn+3 ≡Xn−d+3c (modulo 9), u
 a = 1+ps. Then if Xn ≡cn+pYn (modulo p2), we must have Yn+1 ≡n2c2r+ncs+Yn
 (modulo p); hence Yn ≡
 n
-3
+
 
 2c2r +
 n
-2
+
 
 (c2r + cs) (modulo p). Thus Yp mod p = 0, and
 the desired relation has been proved.
@@ -43698,7 +40117,7 @@ Xn+pf ≡Xn + tpf + Znpf+1 (modulo pf+2);
 
 3.2.2
 ANSWERS TO EXERCISES
-553
+
 then the quadratic law for generating the sequence, with d = pr, a = 1 + ps, yields
 Zn+1 ≡2rtnc + st + Zn (modulo p). It follows that Zn+p ≡Zn (modulo p); hence
 Xn+kpf ≡Xn + k(tpf + Znpf+1) (modulo pf+2)
@@ -43750,8 +40169,6 @@ a divisor of pλ(pe) but not of λ(pe). Hence if λ(pe) = pfq, where q mod p ̸=
 hence pf+1d is a multiple of pfq, hence d = q.
 [Note: The hypothesis pe > 2 is
 
-
-554
 ANSWERS TO EXERCISES
 3.2.2
 necessary; for example, let a1 = 4, a2 = −1, k = 2; then ⟨An⟩= 1, 4, 15, 56, 209, 780,
@@ -43775,7 +40192,7 @@ when p is odd and e = 1; here we let Bλ+n = Bn + pCn, and observe that Cn+λ �
 (modulo p) when n is large enough. Then An+p ≡An +p2 
 Bn +
 p
-2
+
 
 Cn
 
@@ -43809,8 +40226,7 @@ where c ≡λ′ (modulo λ1) and |c| < 1
 2λ1. But c must be 0 since ⟨qn⟩is bounded. Hence
 λ′ ≡0 (modulo λ1), and qn+λ′ = qn for all large n; it follows that λ′ is a multiple of
 λ2 and λ1, so λ′ = λ.
-Note: The answer to exercise 3.2.1.2–4 implies that when ⟨Yn⟩is a linear congru-
-ential sequence of maximum period modulo m = 2e, the period length λ2 will be at
+Note: The answer to exercise 3.2.1.2–4 implies that when ⟨Yn⟩is a linear congruential sequence of maximum period modulo m = 2e, the period length λ2 will be at
 most 2e−2 when k is a power of 2.
 16. There are several methods of proof.
 (1) Using the theory of finite fields. In the field with 2k elements let ξ satisfy
@@ -43819,7 +40235,7 @@ most 2e−2 when k is a power of 2.
 
 3.2.2
 ANSWERS TO EXERCISES
-555
+
 or one; this is a linear function. If word X in the generation algorithm is (b1b2 . . . bk)2
 before (10) is executed, and if b1ξk−1+· · ·+bkξ0 = ξn, then word X represents ξn+1 after
 (10) is executed. Hence the sequence is f(ξn), f(ξn+1), f(ξn+2), . . . ; and f(ξn+k) =
@@ -43877,8 +40293,6 @@ in the appropriate place, as in exercise 7; conversely, we can start with a sequ
 period length mk and delete an appropriate zero from the period, to form a sequence of
 the other type. Let us call these “(m, k) sequences” of types A and B. The hypothesis
 
-
-556
 ANSWERS TO EXERCISES
 3.2.2
 assures us of the existence of (p, k) sequences of type A, for all primes p and all k ≥1;
@@ -43924,7 +40338,7 @@ ENT6 55
 JMP
 *
 The cost per random number is then 14 +
-2
+
 55 units of time. But suppose we generate
 random numbers by saying ‘DEC6 1; J6Z RNGEN; LDA Y,6’ instead, with the subroutine
 RNGEN STJ
@@ -43962,7 +40376,7 @@ randomness with Lüscher’s method; see the C and FORTRAN routines in Section 3
 
 3.2.2
 ANSWERS TO EXERCISES
-557
+
 27. Let Jn = ⌊kXn/m⌋. Lemma. After the (k2 + 7k −2)/2 consecutive values
 0k+2 1 0k+1 2 0k . . . (k −1) 03
 occur in the ⟨Jn⟩sequence, Algorithm B will have V [j] < m/k for 0 ≤j < k, and also
@@ -44012,8 +40426,6 @@ argument proves that x2k ≡x (modulo 4 and f(x)) if and only if f(x)2 + f(−x)
 But then f(x) is
 primitive modulo 2 only when k = 2. [Math. Comp. 63 (1994), 389–401.]
 
-
-558
 ANSWERS TO EXERCISES
 3.2.2
 31. We have Xn ≡(−1)Yn3Zn mod 2e for some Yn and Zn, by Theorem 3.2.1.2C;
@@ -44024,7 +40436,7 @@ exercise.
 g(z) = 
 n Xnzn is a polynomial multiple of 1/(1 −z24 −z55); hence 
 n X2nz2n =
-1
+
 2(g(z) + g(−z)) is a polynomial divided by (1 −z24 −z55)(1 −z24 + z55) = 1 −2z24 +
 z48 −z110. The first desired recurrence is therefore X2n = (2X2(n−12) −X2(n−24) +
 X2(n−55)) mod m. Similarly, 
@@ -44041,7 +40453,7 @@ Lüscher’s method of generating 165 numbers and using only the first 55 is cle
 superior to the idea of generating 165 and using only X3, X6, . . . , X165.]
 34. Let q0 = 0, q1 = 1, qn+1 = cqn + aqn−1. Then we have ( 0
 a
-1
+
 c)n = ( aqn−1
 aqn
 qn
@@ -44087,7 +40499,7 @@ x + u2 + · · · +
 rdtd
 x + ud ≡r0 −r2s′
 2s−1
-2
+
 −· · · −rds′
 ds−1
 d
@@ -44096,7 +40508,7 @@ d
 
 3.3.1
 ANSWERS TO EXERCISES
-559
+
 where tj = a−as′
 js′′
 j s−2
@@ -44117,27 +40529,27 @@ p ≈1000 and 0 ≤n ≤p; traces of circles, rather than straight lines, meet t
 SECTION 3.3.1
 1. There are k = 11 categories, so the line ν = 10 should be used.
 2.
-2
+
 49,
-3
+
 49,
-4
+
 49,
-5
+
 49,
-6
+
 49,
-9
+
 49,
-6
+
 49,
-5
+
 49,
-4
+
 49,
-3
+
 49,
-2
+
 49.
 3. V
 = 7 173
@@ -44150,7 +40562,7 @@ the two dice are distinguishable). (b) A far more important reason is that n is 
 small for a significant difference to be detected. If the same experiment is done for
 large enough n, the faulty dice will be discovered (see exercise 12).
 4. ps =
-1
+
 12 for 2 ≤s ≤12 and s ̸= 7; p7 = 1
 6. The value of V is 16 1
 2, which falls
@@ -44193,15 +40605,13 @@ n is never negative, and that it can get as high
 as √n. Similarly, set j = 1 to make the same observations about K−
 n .
 8. The new KS statistic was computed for 20 observations. The distribution of K+
-10
+
 was used as F(x) when the KS statistic was computed.
 9. The idea is erroneous, because all of the observations must be independent. There
 is a relation between the statistics K+
 n and K−
 n on the same data, so each test should be
 
-
-560
 ANSWERS TO EXERCISES
 3.3.1
 judged separately. (A high value of one tends to give a low value of the other.) Similarly,
@@ -44282,14 +40692,14 @@ Zs
 √nps
 
 + 1−k
-2
+
 ln(2πn)−1
-2
+
 k
 
 s=1
 ln ps−1
-2
+
 k
 
 s=1
@@ -44308,7 +40718,7 @@ n
 
 3.3.1
 ANSWERS TO EXERCISES
-561
+
 and this quantity simplifies further (upon expanding ln(1 + Zs/
 √
 nps) and realizing
@@ -44317,13 +40727,13 @@ s=1 Zs
 √
 nps = 0) to
 −1
-2
+
 k
 
 s=1
 Z2
 s + 1 −k
-2
+
 ln(2πn) −1
 2 ln(p1 . . . pk) + O
 1
@@ -44331,14 +40741,13 @@ ln(2πn) −1
 
 .
 15. The corresponding Jacobian determinant is easily evaluated by (i) removing the
-factor rn−1 from the determinant, (ii) expanding the resulting determinant by the co-
-factors of the row containing “cos θ1 −sin θ1 0 . . . 0” (each of the cofactor determinants
+factor rn−1 from the determinant, (ii) expanding the resulting determinant by the cofactors of the row containing “cos θ1 −sin θ1 0 . . . 0” (each of the cofactor determinants
 may be evaluated by induction), and (iii) recalling that sin2 θ1 + cos2 θ1 = 1.
 16.
 z
 √
 2x+y
-0
+
 exp
 
 −u2
@@ -44352,7 +40761,7 @@ du = ye−z2 + O
 z
 √
 2x
-0
+
 exp
 
 −u2
@@ -44363,14 +40772,14 @@ The latter integral is
 z
 √
 2x
-0
+
 e−u2/2x du +
-1
+
 3x2
 z
 √
 2x
-0
+
 e−u2/2xu3 du + O
 1
 √x
@@ -44382,12 +40791,12 @@ When all is put together, the final result is
 2x + y)
 Γ(x + 1)
 =
-1
+
 √
 2π
 z
 √
-2
+
 −∞
 e−u2/2 du + e−z2
 √
@@ -44402,12 +40811,12 @@ x
 If we set z
 √
 2 = xp and write
-1
+
 √
 2π
 z
 √
-2
+
 −∞
 e−u2/2 du = p,
 x + 1 = ν
@@ -44415,11 +40824,11 @@ x + 1 = ν
 γ
 ν
 2 , t
-2
+
 
 Γ
 ν
-2
+
 
 = p,
 where t/2 = x + z
@@ -44427,7 +40836,7 @@ where t/2 = x + z
 2x + y, we can solve for y to obtain y = 2
 3(1 + z2) + O(1/√x ),
 which is consistent with the analysis above. The solution is therefore t = ν + 2√νz +
-4
+
 3z2 −2
 3 + O(1/√ν ).
 17. (a) Change of variable, xj ←xj + t.
@@ -44477,8 +40886,6 @@ n fall in a given range.
 has been obtained by H. A. Lauwerier, Zeitschrift für Wahrscheinlichkeitstheorie und
 verwandte Gebiete 2 (1963), 61–68.
 
-
-562
 ANSWERS TO EXERCISES
 3.3.1
 23. Let m be any number ≥n.
@@ -44498,7 +40905,7 @@ is O(m + n), and the precise value of n need not be known in advance. (If the es
 each k, we obtain estimates of K+
 n and K−
 n good to within 1
-2
+
 √n/m, even when m < n.)
 [ACM Trans. Math. Software 3 (1977), 60–64.]
 25. (a) Since cij = E(n
@@ -44522,8 +40929,7 @@ j if i, j ≤n, and we deduce
 that DTBD is the n × n identity matrix. Let Y = (Y1 −µ1, . . . , Ym −µm)T and X =
 (X1, . . . , Xn)T; it follows that W = Y TCY = XTAT CAX = XT V DTBDV TX = XTX.
 SECTION 3.3.2
-1. The observations for a chi-square test must be independent. In the second se-
-quence, successive observations are manifestly dependent, since the second component
+1. The observations for a chi-square test must be independent. In the second sequence, successive observations are manifestly dependent, since the second component
 of one equals the first component of the next.
 2. Form t-tuples (Yjt, . . . , Yjt+t−1), for 0 ≤j < n, and count how many of them are
 equal to each possible value. Apply the chi-square test with k = dt and with probability
@@ -44557,7 +40963,7 @@ And the text’s gap test certainly is asymptotic to the chi-square distribution
 
 3.3.2
 ANSWERS TO EXERCISES
-563
+
 since the length of each gap is independent of the length of the others. [Notes: A quite
 complicated proof of this result by E. Bofinger and V. J. Bofinger appears in Annals
 Math. Stat. 32 (1961), 524–534. Their paper is noteworthy because it discusses several
@@ -44565,7 +40971,7 @@ interesting variations of the gap test; they show, for example, that the quantit
 
 0≤r≤t
 (Yr −(Np)pr)
-2
+
 (Np)pr
 does not approach a chi-square distribution, although others had suggested this statistic
 as a “stronger” test because Np is the expected value of n.]
@@ -44588,7 +40994,7 @@ dt−1
 d
 
 + · · · +
-1
+
 (d −w)!
 t −1
 w
@@ -44655,14 +41061,12 @@ p+1
 
 for those ways in which Ui−1 < Ui, and subtract
 p+q+1
-1
+
 
 for those in which Ui+p−1 < Ui+p; then add in 1 for the case that both Ui−1 < Ui and
 Ui+p−1 < Ui+p, since this case has been subtracted out twice. (This is a special case
 of the inclusion-exclusion principle, which is explained further in Section 1.3.3.)
 
-
-564
 ANSWERS TO EXERCISES
 3.3.2
 14. A run of length r occurs with probability 1/r! −1/(r + 1)!, assuming distinct U’s.
@@ -44690,16 +41094,16 @@ jV ′
 k = 0, for
 all pairs j, k. This means that the matrix
 U ′
-0
+
 U ′
-1
+
 . . .
 U ′
 n−1
 V ′
-0
+
 V ′
-1
+
 . . .
 V ′
 n−1
@@ -44716,8 +41120,7 @@ j = 0 for all j, provided that U ′
 0 and V ′
 0 are not both
 zero; the latter case can be avoided by a suitable renumbering.)
-18. (a) The numerator is −(U0 −U1)2, the denominator is (U0 −U1)2. (b) The nu-
-merator in this case is −(U 2
+18. (a) The numerator is −(U0 −U1)2, the denominator is (U0 −U1)2. (b) The numerator in this case is −(U 2
 0 + U 2
 1 + U 2
 2 −U0U1 −U1U2 −U2U0); the denominator
@@ -44768,19 +41171,19 @@ range of the distribution into m equiprobable parts, we can show that each part 
 contain between nδ(1 −δ) and nδ(1 + δ) points, with probability ≥1 −O(n−M),
 using the tail inequalities 1.2.10–(24) and (25). Hence, if the distribution is uniform,
 D =
-1
+
 12n2(1 + O(δ)) with at least this probability. If D is not in that range, we have
 
 
 3.3.2
 ANSWERS TO EXERCISES
-565
+
 0 ≤(U0 −U1)4/D2 ≤1. Since E((U0 −U1)4) =
 1
-0
+
 1
 0 (x −y)4 dx dy =
-1
+
 15, we may
 conclude that E((U0 −U1)4/D2) = 48
 5 n−4(1 + O(δ)) + O(n−M).
@@ -44804,7 +41207,7 @@ f = 886862.
 of s −1 in step P2 to be 0, 0, 0, 1, 2, 2, 2, 2, 0; working backwards, the permutation
 is (9, 6, 5, 2, 3, 4, 0, 1, 7, 8).
 23. Let P ′(x1, . . . , xt) =
-1
+
 λ′
 λ′−1
 n=0 [(Y ′
@@ -44867,8 +41270,6 @@ Given k and l, the product Tk(α, γa)(K(a, b)−1)Tl(γb, β) expands to eight 
 of which usually sums to ±1 when multiplied by P(γab) and summed over all γab. For
 example, the sum of P(γab)K(2 : α, γa : 2)K(a, b)K(3 : γb, β : 3), when α = a1 . . . at,
 
-
-566
 ANSWERS TO EXERCISES
 3.3.2
 β = b1 . . . bt, γ = c1 . . . ct−1, and t ≥5, is the sum of P(c4 . . . ct−2), which is 1. If t = 4,
@@ -44878,16 +41279,15 @@ turns out to be K(i : (α : i −k), i : (β : i + l)) −K(i −1 : (α : i −
 where i = min(t + k, t −l). The sum over k and l telescopes to cαβ.
 25. Empirical tests show, in fact, that when (22) is generalized to arbitrary t the ratios
 of corresponding elements of C−1
-1
+
 and C−1
 1 C2C−1
-1
+
 are very nearly −t, when t ≥5. For
 example, when t = 6 they all lie between −6.039 and −6.111; when t = 20 they all lie
 between −20.039 and −20.045. This phenomenon demands an explanation.
 26. (a) The vectors (S1, . . . , Sn) are uniformly distributed points in the (n −1)-
-dimensional polyhedron defined by the inequalities S1 ≥0, . . . , Sn ≥0 in the hyper-
-plane S1 + · · · + Sn = 1. An easy induction proves that
+dimensional polyhedron defined by the inequalities S1 ≥0, . . . , Sn ≥0 in the hyperplane S1 + · · · + Sn = 1. An easy induction proves that
 ∞
 s1
 dt1
@@ -44990,7 +41390,7 @@ general spacing statistics were found by Barton and David, J. Royal Stat. Soc. B
 
 3.3.2
 ANSWERS TO EXERCISES
-567
+
 the ways in which statisticians have traditionally analyzed spacings as clues to potential
 biases in data.]
 27. Consider the polyhedron in the hyperplane S1 + · · · + Sn = 1 defined by the
@@ -45006,9 +41406,9 @@ It takes the
 vertices ( 1
 n, . . . , 1
 n), (0,
-1
+
 n−1, . . . ,
-1
+
 n−1), . . . , (0, . . . , 0, 1) of the subpolyhedron into the
 respective vertices (1, 0, . . . , 0), (0, 1, 0, . . . , 0), . . . , (0, . . . , 0, 1), linearly stretching and
 distorting the overall shape in the process. (The Euclidean distance between vertices
@@ -45029,56 +41429,19 @@ y > z
 y < z
 x > y
 x < y
-55
-54
-53
-52
-51
-50
-45
-44
-43
-42
-41
-40
-35
-34
-33
-32
-31
-30
-25
-24
-23
-22
-21
-20
-15
-14
-13
-12
-11
-10
-05
-04
-03
-02
-01
-00
+
+
 The behavior of iterated spacings
 is easiest to understand if we examine
 the details graphically when n = 3.
 In this case the polyhedron is simply
 an equilateral triangle, whose points
-are represented with barycentric coor-
-dinates (x, y, z), x + y + z = 1. The
+are represented with barycentric coordinates (x, y, z), x + y + z = 1. The
 accompanying diagram illustrates the
-first two levels of a recursive decom-
-position of this triangle.
+first two levels of a recursive decomposition of this triangle.
 Each of the
 62 subtriangles has been labeled with
-a two-digit code pq, where p repre-
-sents the applicable permutation when
+a two-digit code pq, where p represents the applicable permutation when
 (x, y, z) = (S1, S2, S3) is sorted into
 (S(1), S(2), S(3)), and q represents the
 permutation in the next stage when S′
@@ -45102,8 +41465,7 @@ radix-6 expansion. A tetrahedron can be subdivided similarly into 24, 242, 243, 
 subtetrahedra, and in general this procedure constructs a radix-n! expansion for the
 points of any (n −1)-dimensional simplex.
 When n = 2 the process is especially simple: If x /∈{0, 1
-2, 1}, the transforma-
-tion takes spacings (x, 1 −x) = (x, y) into either (2x mod 1, 2y mod 1) or (2y mod 1,
+2, 1}, the transformation takes spacings (x, 1 −x) = (x, y) into either (2x mod 1, 2y mod 1) or (2y mod 1,
 2x mod 1), depending on whether x < y or x > y. Repeated tests therefore essentially
 shift the binary representation left one bit, possibly complementing the result. After at
 most e+1 iterations on e-bit numbers the process must converge to the fixed point (0, 1).
@@ -45113,8 +41475,6 @@ line; the first four levels of subdivision have the following four-bit codes:
 (1, 0)
 0000 0001 0011 0010 0110 0111 0101 0100 1100 1101 1111 1110 1010 1011 1001 1000
 
-
-568
 ANSWERS TO EXERCISES
 3.3.2
 This sequence is exactly the Gray binary code studied in Section 7.2.1. In general, the
@@ -45132,14 +41492,14 @@ the reference in answer 26). It was first studied explicitly by J. Durbin [Biome
 was introduced by H. E. Daniels [Biometrika 49 (1962), 139–149].
 28. (a) The number of partitions of m into n distinct positive parts is pn(m −
 n+1
-2
+
 ),
 by exercise 5.1.1–16. These partitions can be permuted in n! ways to yield n-tuples
 (y1, . . . , yn) with 0 = y1 < y2 < · · · < yn < m; and each of these n-tuples leads to
 (n−1)! n-tuples that have y1 = 0 and 0 < y2, . . . , yn < m. Now add a constant mod m
 to each yj; this preserves the spacings. Hence bn00(m) = mn!(n −1)!pn(m −
 n+1
-2
+
 ).
 (b) Zero spacings correspond to balls in the same urn, and they contribute s −1
 to the count of equal spacings. Therefore bnrs(m) =
@@ -45153,7 +41513,7 @@ n−1
 
 =
 n
-2
+
 
 , the probability is
 n!(n −1)!m1−n
@@ -45162,14 +41522,14 @@ pn
 
 m −
 n + 1
-2
+
 
 −1
 2 pn−1
 
 m −
 n
-2
+
 
 .
 29. By the previous answer and exercise 5.1.1–15 we have bn0(z) = n! (n −1)! z(n+1
@@ -45179,7 +41539,7 @@ the number of solutions to 0 < s1 < · · · < sk ≤sk+1 < · · · < sn with s
 is the number of solutions to 0 ≤s1 −1 ≤· · · ≤sk −k ≤sk+1 −k ≤· · · ≤sn −n + 1
 with (s1 −1) + · · · + (sk −k) + (sk+1 −k) + · · · + (sn −n + 1) = m −
 n
-2
+
 
 −k. Hence
 bn1(z) = 1
@@ -45190,7 +41550,7 @@ that
 bn2(z)
 n!(n−1)! =
 
-1
+
 2!2!
 
 1≤j<k<n
@@ -45222,10 +41582,9 @@ z1
 bn−1
 where ck = 1 + bk + bkbk−1 + · · · + bk . . . b2b1 = 1 + bkck−1. (The special case w = 1 is
 interesting because the left side sums to (1 −z)−n/n! in that case.)
-30. This is a good problem for the saddle point method [N. G. de Bruijn, Asymp-
-totic Methods in Analysis (North-Holland, 1961), Chapter 5].
+30. This is a good problem for the saddle point method [N. G. de Bruijn, Asymptotic Methods in Analysis (North-Holland, 1961), Chapter 5].
 We have pn(m) =
-1
+
 2πi
 
 ef(z) dz
@@ -45240,7 +41599,7 @@ integrating on the path z = e−ρ+itδ gives pn(m) =
 
 3.3.2
 ANSWERS TO EXERCISES
-569
+
 convenient to use the identity
 g(set) =
 n
@@ -45249,7 +41608,7 @@ j=0
 tj
 j! ϑjg(s) +
 t
-0
+
 un
 n! ϑn+1g(set−u) du ,
 where g = g(z) is any analytic function and ϑ is the operator z d
@@ -45285,9 +41644,9 @@ j!
 
 = e−t2/2+f(e−ρ) exp(ic1t−c2t2−ic3t3+· · ·),
 where c1 = ( n(n+1)
-2
+
 B1 + n(n+1/2)(n+1)
-6
+
 B2ρ)δ + O(n−3), etc.; and it turns out that
 cj = O(n−3) for j ≥3. Factoring out the constant term
 δ
@@ -45329,14 +41688,14 @@ and n! = (n/e)n√
 12n−1 + O(n−3)) suffice to complete the evaluation.
 With qn(m) = pn(m −
 n+1
-2
+
 ) in place of pn(m) the calculation proceeds in the
 same way but with c1 increased by
-1
+
 2α(n1/2 −n−1/2) and with the additional factor
 exp(−ρ
 n+1
-2
+
 ). We get
 qn(m) = mn−1e−α/4
 n! (n −1)!
@@ -45350,10 +41709,10 @@ n! (n −1)!
 this matches the formula for pn(m) except that α has been changed to −α. (In fact,
 if we define pn(m) = rn(2m +
 n+1
-2
+
 ) and qn(m) = rn(2m −
 n+1
-2
+
 ), the generating
 function Rn(z) = 
 m rn(zm) = n
@@ -45364,8 +41723,6 @@ Therefore we may say that qn(m) = pn(−m). A general treatment of such duality
 can be found in G. Pólya, Math. Zeitschrift 29 (1928), 549–640, §44.)
 For further
 
-
-570
 ANSWERS TO EXERCISES
 3.3.2
 information see G. Szekeres, Quarterly J. Math. Oxford 2 (1951), 85–108; 4 (1953),
@@ -45383,7 +41740,7 @@ into the integrand for qn(m) has the effect of multiplying the result by
 2 + O(n−1),
 because gn(e−ρ+itδ) =
 n
-2
+
 
 ρ + O(n3ρ2) + itO(n2δ) −1
 2t2O(n3δ2) + · · · . Similarly, the
@@ -45402,7 +41759,7 @@ will be {0, 0, 0} and 3
 4 that they will be {0, 1, 1}. Therefore the probability generating
 function for the sum of bits is f(z) = ( 1+z
 2 )7( 1+3z2
-4
+
 )24, a polynomial of degree 55.
 (Well, not quite; strictly speaking, it is (255f(z) −1)/(255 −1), because the all-0 case
 is excluded.) The coefficients of 255f(z) are easily computed by machine, and we find
@@ -45411,16 +41768,15 @@ Notes: This exercise is based on the discovery by Vattulainen, Ala-Nissila, and
 Kankaala [Physical Review Letters 73 (1994), 2513–2516] that a lagged Fibonacci
 generator fails a more complicated two-dimensional random walk test. Notice that the
 sequence Y2n, Y2n+2, . . . will fail the test too, because it satisfies the same recurrence.
-The bias toward 1s also carries over into the subsequence consisting of the even-
-valued elements generated by Xn = (Xn−55 ± Xn−24) mod 2e; we tend to have more
+The bias toward 1s also carries over into the subsequence consisting of the evenvalued elements generated by Xn = (Xn−55 ± Xn−24) mod 2e; we tend to have more
 occurrences of ( . . . 10)2 than ( . . . 00)2 in binary notation.
 There’s nothing magic about the number 79 in this test; experiments show that a
 significant bias towards a majority of 1s is present also in random walks of length 101 or
 1001 or 10001. But a formal proof seems to be difficult. After 86 steps the generating
 function is ( 1+3z2
-4
+
 )17( 1+2z2+4z3+z4
-8
+
 )7; then we get the factors (1 + 2z2 + 5z3 + 5z4 +
 10z5+8z6+z7)/32; then (1+2z2+7z3+7z4+15z5+25z6+29z7+28z8+13z9+z10)/128,
 etc. The analysis becomes more and more complicated as the walks get longer.
@@ -45438,20 +41794,14 @@ which, of course, 0s are more likely, although the full period does lack one 0).
 0.6
 0.7
 m=0
-256
-512
-768
-1024
-1280
-1536
-1792
-2047
+
+
 The probability that 1s outnumber 0s in random m-tuples when Yn = Yn−2 ⊕Yn−11.
 
 
 3.3.2
 ANSWERS TO EXERCISES
-571
+
 Lüscher’s discarding technique can be used to avoid the bias toward 1s (see the
 end of Section 3.2.2). For example, with lags 55 and 24, no deviation for randomness is
 observed for random walks of length 1001 when the numbers are generated in batches
@@ -45466,20 +41816,20 @@ other will more often win in two rounds. See T. M. Cover, Amer. Statistician 43 
 277–278, for a discussion of similar phenomena.]
 33. We essentially want [z(k+l−1)/2] ( 1+z
 2 )k−2l( 1+3z2
-4
+
 )l/(1 −z). Let m = k −2l and
 n = l; the desired coefficient is
-1
+
 2πi
 
 eg(z)
 dz
 z(1−z), where g(z) = m ln( 1+z
 2 )+n ln( 1+3z2
-4
+
 )−
 ( m+3n−1
-2
+
 ) ln z. It is convenient (and saddle-wise) to integrate along the path z = eϵu
 where ϵ2 = 4/(m + 3n) and u = −1 + it for −∞< t < ∞.
 We have g(eϵu) =
@@ -45488,25 +41838,25 @@ We have g(eϵu) =
 ϵu + 1
 2 −B2ϵu/2! −· · · .
 Multiplying out the integrand and using the facts that
-1
+
 2πi
 1+i∞
 1−i∞eu2/2 du
 u = 1
 2 and
-1
+
 2πi
 a+i∞
 a−i∞eu2/2u2k du = (−1)k(2k −1)(2k −3) . . . (1)
 √
 2π
 yields the asymptotic formula
-1
+
 2 + (2π)−1/2n(m + 3n)−3/2 + O((m + 3n)−3/2).
 If
 m + 3n is even, the same asymptotic formula holds, provided that we give half of the
 coefficient of z(m+3n)/2 to the 1s and half to the 0s. (This coefficient is (
-2
+
 π(m+3n))1/2 +
 O((m−3n)−3/2).)
 34. The number of strings of length n that exclude a given two-letter substring or pair
@@ -45517,34 +41867,34 @@ Excluded
 Generating function
 c
 τ
-1
+
 aa
 (1+z)/p(z)
 1+ϵ2−2ϵ3+ · · ·
 −ϵ2+ϵ3−5
 2ϵ4+ · · ·
-2
+
 ab
 1/(1−mz+z2)
 1+ϵ2+3ϵ4+ · · ·
 −ϵ2−3
 2ϵ4+ · · ·
-3
+
 aa, bb
 (1+z)/(p(z)+z2)
 1+2ϵ2−4ϵ3+ · · ·
 −2ϵ2+2ϵ3−8ϵ4+ · · ·
-4
+
 aa, bc
 (1+z)/(p(z)+z2+z3)
 1+2ϵ2−2ϵ3+ · · ·
 −2ϵ2+ϵ3−7ϵ4+ · · ·
-5
+
 ab, bc
 (1+z)/(1−mz+2z2−z3)
 1+2ϵ2−2ϵ3+ · · ·
 −2ϵ2+ϵ3−6ϵ4+ · · ·
-6
+
 ab, cd
 1/(1−mz+2z2)
 1+2ϵ2+12ϵ4+ · · ·
@@ -45600,8 +41950,6 @@ n+i −2 
 N−1
 n=0 Zn) = m −m(m −1)/N.
 
-
-572
 ANSWERS TO EXERCISES
 3.3.2
 (c) E m−1
@@ -45661,7 +42009,7 @@ SECTION 3.3.3
 2yδ(x/y).
 2. ((x)) = −
 n≥1
-1
+
 nπ sin 2πnx, which converges for all x. (The representation in
 Eq. (24) may be considered a “finite” Fourier series, for the case when x is rational.)
 3. The sum is ((2nx)) −((x)). [See Trans. Amer. Math. Soc. 65 (1949), 401.]
@@ -45731,14 +42079,14 @@ k −
 k
 
 + 1
-2
+
 hj
 k −
 hj
 k
 
 −1
-2
+
 
 +2
 
@@ -45749,14 +42097,14 @@ h −
 h
 
 + 1
-2
+
 
 j = kh(h−1).
 
 
 3.3.3
 ANSWERS TO EXERCISES
-573
+
 The sums on the left simplify, and by standard manipulations we get
 h2k −hk −h
 2 + h2
@@ -45843,7 +42191,7 @@ Note: For all exponents e ≥1, a similar argument gives
 ce
 j
 mjmj+1 =
-1
+
 m1
 
 1≤j≤t
@@ -45863,8 +42211,6 @@ also takes care of the (−1)j+1/mjmj+1 terms.)
 D4. [Prepare for next iteration.] Set c ←r, s ←−s; set r ←k −ah, k ←h,
 h ←r; set r ←ap + p′, p′ ←p, p ←r. If h > 0, return to D2.
 
-
-574
 ANSWERS TO EXERCISES
 3.3.3
 At the conclusion of this algorithm, p will be equal to the original value k0 of k, so
@@ -45891,12 +42237,12 @@ d
 + 1
 12σ(h, k, hz + c) −1
 12σ(h, k, c) + 1
-2
+
 c
 k
 
 −1
-2
+
 hz + c
 k
 
@@ -45971,7 +42317,7 @@ m
 β′ −α′
 m
 +
-1
+
 12m
 
 σ(a, m, c + aα −α′) −σ(a, m, c + aα −β′)
@@ -46000,7 +42346,7 @@ over the full period; it appears that we should insist on an extremely small dis
 (((bx+c)/m))+ 1
 2)((s(x)−s(s(x)))/m+((a(bx+c)/m))+ 1
 2)/m; and x/m = ((x/m))+
-1
+
 2 −1
 2δ(x/m), s(x)/m = (((ax + c)/m)) + 1
 2 −1
@@ -46009,16 +42355,16 @@ ac + c)/m)) + 1
 2 −1
 2δ((a2x + ac + c)/m). Let s(x′) = s(s(x′′)) = 0 and d = gcd(b, m).
 The sum now reduces to
-1
+
 4 +
-1
+
 12m(S1 −S2 + S3 −S4 + S5 −S6 + S7 −S8 + S9) + d
 m
 c
 d
 
 +
-1
+
 2m
 x′ −x′′
 m
@@ -46044,14 +42390,14 @@ m
 m
 
 −1
-2
+
 
 ,
 
 
 3.3.3
 ANSWERS TO EXERCISES
-575
+
 where S1 = σ(a, m, c), S2 = σ(a2, m, ac + c), S3 = σ(ab, m, ac), S4 = σ(1, m, 0) =
 (m −1)(m −2)/m, S5 = σ(a, m, c), S6 = σ(b, m, c), S7 = −σ(a′ −1, m, a′c), and
 S8 = −σ(a′(a′ −1), m, (a′)2c), if a′a ≡1 (modulo m); and finally
@@ -46096,7 +42442,7 @@ d
 m
 
 where c0 = c mod d. The grand total will be near
-1
+
 6 when d is small and when the
 fractions a/m, (a2 mod m)/m, (ab mod m)/m, b/m, (a′ −1)/m, (a′(a′ −1) mod m)/m,
 ((ad) mod m)/m all have small partial quotients. (Note that a′ −1 ≡−b + b2 −· · · ,
@@ -46110,7 +42456,7 @@ a2
 1
 3 −θ
 2 + n
-2
+
 
 ,
 if xn = n−θ
@@ -46118,7 +42464,7 @@ a
 ;
 s =
 1
-0
+
 x{ax+θ} dx = s0 +s1 +· · ·+sa−1 +
 0
 −θ/a
@@ -46155,7 +42501,7 @@ a
 
 = 1 + a
 2 −θ −a + 1
-2
+
 + θ = 1
 2.
 23. We have s(s(x)) < s(x) < x when x is in [ k−θ
@@ -46201,28 +42547,21 @@ can’t be chosen to make this probability come out right.
 0<j1≤···≤jt−1<a
 j1
 at−1(a −1) =
-1
+
 at−1(a −1)
 a + t −2
 t
 
 .
 
-
-576
 ANSWERS TO EXERCISES
 3.3.3
-213
-321
-312
-123
+
+
 Fig. A–1. Permutation regions
 for the Fibonacci generator.
-1
-2
-3
-4
-5
+
+
 ≥6
 Fig. A–2. Run-length regions
 for the Fibonacci generator.
@@ -46236,7 +42575,7 @@ k≥1
 a + k −2
 k
 
-1
+
 ak−1(a −1) =
 
 a
@@ -46266,38 +42605,19 @@ it is 1/Fk−1 Fk+1 −1/Fk Fk+2, if k > 1. The corresponding probabilities for 
 sequence are 2k/(k + 1)! −2(k + 1)/(k + 2)!; the following table compares the first few
 values.
 k:
-1
-2
-3
-4
-5
+
+
 Probability in Fibonacci case:
-1
-2
-1
-3
-1
-10
-1
-24
-1
-65
+
+
 Probability in random case:
-1
-3
-5
-12
-11
-60
-19
-360
-29
-2520
+
+
 28. Fig. A–3 shows the various regions in the general case. The “213” region means
 U2 < U1 < U3, if U1 and U2 are chosen at random; the “321” region means that
 U3 < U2 < U1, etc.
 The probabilities for 123 and 321 are
-1
+
 4 −α/2 + α2/2; the
 probabilities for all other cases are 1
 8 +α/4−α2/4. To have all equal to 1
@@ -46306,7 +42626,7 @@ probabilities for all other cases are 1
 
 3.3.4
 ANSWERS TO EXERCISES
-577
+
 (0, 0)
 (1, 1)
 y = x
@@ -46315,38 +42635,38 @@ y = x
 
 
 1, 1−α
-2
+
 
 y = x−α
-2
+
 (α, 0)
 (1, 1−α)
 y = x−α
 
 1, 1
 2 −α
-2
+
 
 y = 1
 2 x−α
-2
+
  1
 2 + α
 2 , 0
 
 y = x−1
 2 −α
-2
+
 (1, 0)
 
 0, 1
 2 −α
-2
+
 
 y = 1
 2 x+ 1
 2 −α
-2
+
 (1−α, 1−α)
  1
 2 + α
@@ -46354,35 +42674,25 @@ y = 1
 
 y = x+ 1
 2 −α
-2
+
 (0, 1−α)
 (α, 1)
 y = x+1−α
 
 0, 1−α
-2
+
 
 y = 1
 2 x+1−α
-2
+
 α
 2 , 1
 
 y = x+1−α
-2
+
 (0, 1)
-132
-312
-123
-132
-312
-321
-123
-213
-231
-321
-213
-231
+
+
 Fig. A–3. Permutation regions for a generator with potency 2; α = (a −1)c/m.
 1 −6α + 6α2 = 0. [This exercise establishes a theorem due to J. N. Franklin, Math.
 Comp. 17 (1963), 28–59, Theorem 13; other results of Franklin’s paper are related to
@@ -46404,15 +42714,13 @@ m = 9, a = 4 or 7, ν2
 m = 9q, a = 3q + 1 or 6q + 1, ν2
 4 = 2.
 
-
-578
 ANSWERS TO EXERCISES
 3.3.4
 4. (a) The unique choice for (x1, x2) is
-1
+
 m(y1u22 −y2u21, −y1u12 + y2u11), and this
 is ≡
-1
+
 m(y1u22 + y2au22, −y1u12 −y2au12) ≡(0, 0) (modulo 1); that is, x1 and x2 are
 integers. (b) When (x1, x2) ̸= (0, 0), we have (x1u11 + x2u21)2 + (x1u12 + x2u22)2 =
 x2
@@ -46478,10 +42786,10 @@ for all k ̸= j. A symmetric argument proves the converse.
 when t increases). For t = 2 this is equivalent to (mµ2/π)1/2 ≥( 3
 4mµ3/π)1/3, i.e.,
 µ3 ≤4
-3
+
 
 m/π µ3/2
-2
+
 . This bound reduces to 4
 310−4/√π with the given parameters, but
 for large m and fixed µ2 the bound (40) is better.
@@ -46501,7 +42809,7 @@ Choosing S so that its first column is a multiple of U T
 
 3.3.4
 ANSWERS TO EXERCISES
-579
+
 suitable vectors, we have
 US =
 
@@ -46510,9 +42818,9 @@ US =
 
 
 α1
-0
+
 . . .
-0
+
 α2
 ...
 U ′
@@ -46597,8 +42905,6 @@ nonzero u2 + v2 such that u ± xv ≡0 (modulo p). The values of u and v also ap
 when Euclid’s algorithm for integers is applied in the ordinary way to p and x; see J. A.
 Serret and C. Hermite, J. de Math. Pures et Appl. 13 (1848), 12–15.] If the prime
 
-
-580
 ANSWERS TO EXERCISES
 3.3.4
 factorization of N is pe1
@@ -46647,28 +42953,27 @@ U =
 
 
 −5
-5
-0
+
+
 −18
 −2
-0
-1
+
+
 −2
-1
+
 
 ,
 V =
 
 
 −2
-18
-38
+
+
 −5
 −5
 −5
-0
-0
-100
+
+
 
 .
 Transformations (j, q1, q2, q3) = (1, ∗, 0, 2), (2, −4, ∗, 1), (3, 0, 0, ∗), (1, ∗, 0, 0) result in
@@ -46676,14 +42981,14 @@ U =
 
 
 −3
-1
-2
+
+
 −5
 −8
 −7
-1
+
 −2
-1
+
 
 ,
 V =
@@ -46691,17 +42996,17 @@ V =
 
 −22
 −2
-18
+
 −5
 −5
 −5
-9
+
 −31
-29
+
 
 ,
 Z = (0
-0
+
 1).
 Thus ν3 =
 √
@@ -46724,7 +43029,7 @@ subtracting 1 if any one of these solutions has components of opposite sign.
 
 3.3.4
 ANSWERS TO EXERCISES
-581
+
 Instead of positive definite quadratic forms, we work with the somewhat similar
 function f(x1, . . . , xt) = |x1U1 + · · · + xtUt|, defining |Y | = |y1| + · · · + |yt|. Inequality
 (21) can be replaced by |xk| ≤f(y1, . . . , yt) (max1≤j≤t |vkj|).
@@ -46742,7 +43047,7 @@ take back the previous output of vectors for this t. [In the author’s experien
 Table 1, there was exactly one vector (and its negative) output for each νt, except when
 y1 = 0 or yt = 0.]
 18. (a) Let x = m, y = (1 −m)/3, vij = y + xδij, uij = −y + δij. Then Vj · Vk =
-1
+
 3(m2 −1) for j ̸= k, Vk · Vk = 2
 3(m2 + 1
 2), Uj · Uj = 1
@@ -46756,64 +43061,54 @@ to the matrices of (a), reduces
 V =
 
 
-43
+
 −21
 −21
 −21
-43
+
 −21
 −21
 −21
-43
+
 
 ,
 U =
 
 
-22
-21
-21
-21
-22
-21
-21
-21
-22
+
+
 
 
 to
 V =
 
 
-1
-1
-1
+
+
 −21
-43
-−21
+
 −21
 −21
-43
+−21
+
 
 ,
 U =
 
 
-22
-21
-21
+
+
 −1
-1
-0
+
+
 −1
-0
-1
+
+
 
 .
 [Since the transformation can increase the length of Vj, an algorithm that incorporates
 both transformations must be careful to avoid infinite looping. See also exercise 23.]
-19. No, since a product of non-identity matrices with all off-diagonal elements non-
-negative and all diagonal elements 1 cannot be the identity.
+19. No, since a product of non-identity matrices with all off-diagonal elements nonnegative and all diagonal elements 1 cannot be the identity.
 [However, looping would be possible if a subsequent transformation with q = −1
 were performed when −2Vi · Vj = Vj · Vj; the rounding rule must be asymmetric with
 respect to sign if non-shortening transformations are allowed.]
@@ -46831,8 +43126,6 @@ Algorithm S with m = 2e−2; changing a to m −a has no effect on the result.
 21. X4n+4 ≡X4n (modulo 4), so it is now appropriate to let V1 = (4, 4a2, 4a3)/m,
 V2 = (0, 1, 0), V3 = (0, 0, 1) define the corresponding lattice L0.
 
-
-582
 ANSWERS TO EXERCISES
 3.3.4
 24. Let m = p; an analysis paralleling the text can be given.
@@ -46847,23 +43140,21 @@ u2
 Replace steps S1 through S3 by the operations of setting
 U ←
 m
-0
-0
+
+
 m
 
 ,
 V ←
 1
-0
-0
-1
+
+
 
 ,
 R ←
 1
-0
-0
-1
+
+
 
 ,
 s ←m2,
@@ -46871,7 +43162,7 @@ t ←2,
 and outputting ν2 = m. Replace step S4 by
 S4′. [Advance t.] If t = T, the algorithm terminates. Otherwise set t ←t + 1
 and R ←R( 0
-1
+
 b
 a) mod m. Set Ut to the new row (−r12, −r22, 0, . . . , 0, 1) of t
 elements, and set uit ←0 for 1 ≤i < t. Set Vt to the new row (0, . . . , 0, m).
@@ -46893,7 +43184,7 @@ csc(πk/m)
 = 1
 m
 m/2
-1
+
 csc(πx/m) dx + O
 1
 m
@@ -46904,7 +43195,7 @@ m
 2mx
 
 m/2
-1
+
 + O
 1
 m
@@ -46923,7 +43214,7 @@ and d = pd1
 1 . . . pdr
 r . If
 m is replaced by m/d, then s is replaced by pmax(0,e1−f1−d1)
-1
+
 . . . pmax(0,er−fr−dr)
 r
 . Since
@@ -46953,7 +43244,7 @@ t ) are two vectors of the same class having the same µ-fold truncation, we say
 
 3.3.4
 ANSWERS TO EXERCISES
-583
+
 they are similar; in this case it follows that ρ(u′
 1 −u′′
 1) . . . ρ(u′
@@ -46995,7 +43286,7 @@ m−2
 m−1
 r(u1, . . . , ut) [summed over nonzero solutions of (15)]
 +
-1
+
 m−1
 r(u1, . . . , ut) [summed over all nonzero (u1, . . . , ut)]. The latter sum is O(log m)t
 by exercise 25 with d = 1, and the former sum is treated as in exercise 27.
@@ -47009,8 +43300,7 @@ Note: In general 1/φ(n) = O(log log n/n); we have therefore proved that for all
 prime m and for all T there exists a primitive root a modulo m such that the linear
 congruential sequence (1, a, 0, m) has discrepancy D(t)
 m−1 = O(m−1T(log m)T log log m)
-for 1 ≤t ≤T. This method of proof does not extend to a similar result for linear con-
-gruential generators of period 2e modulo 2e, since for example the vector (1, −3, 3, −1)
+for 1 ≤t ≤T. This method of proof does not extend to a similar result for linear congruential generators of period 2e modulo 2e, since for example the vector (1, −3, 3, −1)
 solves (15) for about 22e/3 values of a.
 29. To get an upper bound, allow the nonzero components of u = (u1, . . . , ut) to be
 any real values 1 ≤|uj| ≤1
@@ -47033,12 +43323,9 @@ q |aq −mp| ≥qn−1|aqn−1 −mpn−1|, and the minimum is min0≤n<s qn|aqn
 min0≤n<s Kn(a1, . . . , an)Ks−n−1(an+2, . . . , as).
 By exercise 4.5.3–32 we have m =
 Kn(a1, . . . , an)an+1Ks−n−1(an+2, . . . , as) + Kn(a1, . . . , an)Ks−n−2(an+3, . . . , as) +
-Kn−1(a1, . . . , an−1)Ks−n−1(an+2, . . . , as); and our problem is essentially that of max-
-imizing the quantity m/Kn(a1, . . . , an)Ks−n−1(an+2, . . . , as), which lies between an+1
+Kn−1(a1, . . . , an−1)Ks−n−1(an+2, . . . , as); and our problem is essentially that of maximizing the quantity m/Kn(a1, . . . , an)Ks−n−1(an+2, . . . , as), which lies between an+1
 and an+1 + 2.
 
-
-584
 ANSWERS TO EXERCISES
 3.3.4
 Now let A = max(a1, . . . , as).
@@ -47099,14 +43386,14 @@ is unavailable.
 
 3.4.1
 ANSWERS TO EXERCISES
-585
+
 Fig. A–4. Region of “acceptance” for
 the algorithm of exercise 6.
-0
-1
+
+
 U
 x
-1
+
 V
 A1
 A2
@@ -47129,10 +43416,10 @@ it is slightly less stable numerically.
 6. F(x) = A1/(A1 + A2), where A1 and A2 are the areas in Fig. A–4; so
 F(x) =
 x
-0
+
 √1 −y2 dy
 1
-0
+
 √1 −y2 dy
 = 2
 π arcsin x + 2
@@ -47160,8 +43447,6 @@ the poorest. However, it is very difficult to determine the absolute maximum of 
 probability, since such a task is at least as difficult as the “bin-packing problem”; see
 Section 7.9.)
 
-
-586
 ANSWERS TO EXERCISES
 3.4.1
 8. Replace Pj by (j + Pj)/k for 0 ≤j < k.
@@ -47175,7 +43460,7 @@ have 1 ≤Yj ≤15 for 1 ≤j ≤32. Set P0 ←P32 (which is 0) and Y0 ←Y32. T
 Zj ←1/(5 −5Pj) and Yj ←1
 5Yj −Zj for 0 ≤j < 32; Qj ←1/(5Pj) for 1 ≤j ≤15.
 Let h =
-1
+
 5 and fj+15(x) =
 
 2/π(e−x2/2 −e−j2/50)/pj+15 for Sj ≤x ≤Sj + h.
@@ -47208,10 +43493,10 @@ for x > 0. Let x = aj−1 and y2 = x2 + 2 ln 2; then
 ∞
 y
 e−t2/2 dt = 1
-2
+
 
 2/π e−x2/2f(y) < 1
-2
+
 
 2/π e−x2/2f(x) = 2−j,
 hence y > aj.
@@ -47227,7 +43512,7 @@ obtained by solving the equations a2
 22 = c22, a11a31 = c13,
 a21a31 + a22a32 = c23, . . . , successively for a11, a21, a22, a31, a32, etc. [Note: The
 covariance matrix must be positive semidefinite, since the average value of (yjYj)
-2
+
 is cijyiyj, which must be nonnegative. And there is always a solution when C is
 positive semidefinite, since C = U −1diag(λ1, . . . , λn)U, where the eigenvalues λj are
 nonnegative, and U −1diag(√λ1, . . . , √λn )U is a solution.]
@@ -47240,7 +43525,7 @@ nonnegative, and U −1diag(√λ1, . . . , √λn )U is a solution.]
 the convolution of the given distributions.
 16. It is clear that f(t) ≤cg(t) for all t as required. Since
 ∞
-0
+
 g(t) dt = 1 we have
 g(t) = Cta−1 for 0 ≤t < 1, Ce−t for t ≥1, where C = ae/(a + e). A random variable
 with density g is easy to obtain as a mixture of two distributions, G1(x) = xa for
@@ -47249,7 +43534,7 @@ with density g is easy to obtain as a mixture of two distributions, G1(x) = xa f
 
 3.4.1
 ANSWERS TO EXERCISES
-587
+
 G1. [Initialize.] Set p ←e/(a + e). (This is the probability that G1 should be
 used.)
 G2. [Generate G deviate.] Generate independent uniform deviates U and V, where
@@ -47299,13 +43584,13 @@ R/A
 R/A
 R/A
 R2
-0
+
 R/A
-0
+
 R/A
 R3
-0
-0
+
+
 R/A
 R/A −I/A
 R4
@@ -47329,20 +43614,18 @@ a −bu du = (a −bu)3/2 2
 
 /b2,
 
-
-588
 ANSWERS TO EXERCISES
 3.4.1
 we have I = 2
 a/b
-0
+
 u
 √
 a −bu du =
-8
+
 15a5/2/b2 where a = 4(1 + ln c) and b = 4c; when
 c = e1/4, I has its maximum value 5
-6
+
 
 5/e ≈1.13020. Finally the following integration
 formulas are needed for E:
@@ -47365,15 +43648,14 @@ e2x −2ex)/2ex. (Incidentally,
 r(x) reaches its maximum value at x = 1/2, a point where it is not differentiable!) We
 have E = 2
 r(x)
-0
+
 (
 
 2/e −
 √
 bu −au2) du where b = 4ex−1 and a = 4x. The maximum
 value of E occurs near x = −.35, where we have E ≈.29410.
-22. (Solution by G. Marsaglia.) Consider the “continuous Poisson distribution” de-
-fined by G(x) =
+22. (Solution by G. Marsaglia.) Consider the “continuous Poisson distribution” defined by G(x) =
 ∞
 µ e−ttx−1 dt/Γ(x), for x > 0; if X has this distribution then
 ⌊X⌋is Poisson distributed, since G(x + 1) −G(x) = e−µµx/x!.
@@ -47401,7 +43683,7 @@ since ⌊G[−1](U)⌋is binomial with parameters (t, p) and G is approximately 
 The second method calculates |cos 2θ|, where θ is uniformly distributed
 between 0 and π/2. (Let U = r cos θ, V = r sin θ.)
 25.
-21
+
 32 = (.10101)2. In general, the binary representation is formed by using 1 for |
 and 0 for &, from left to right, then suffixing 1. This technique [see K. D. Tocher,
 J. Roy. Stat. Soc. B16 (1954), 49] can lead to efficient generation of independent bits
@@ -47424,7 +43706,7 @@ fail to match bj.) Set m ←m −M, and if bj = 1 set N ←N + M.
 
 3.4.1
 ANSWERS TO EXERCISES
-589
+
 B3. [Done?] If m = 0, or if the remaining bits (.bj+1bj+2 . . . )2 of p are all zero,
 the algorithm terminates. Otherwise, set j ←j +1 and return to step B2.
 [When bj = 1 for infinitely many j, the average number of iterations At satisfies
@@ -47508,7 +43790,7 @@ from the substitution u = s cos θ + t sin θ, v = −s sin θ + t cos θ.
 (b) There are numbers α > 1 and β > 1 such that (α−24 + α−55)/
 √
 2 = 1 and
-3
+
 5β−24+ 4
 5β−55 = 1; so the numbers Xn will grow exponentially with n, by the properties
 of linear recurrences.
@@ -47518,8 +43800,6 @@ obtain decent results; but this alternative would involve much more computation.
 (c) Start with, say, 2048 normal deviates X0, . . . , X1023, Y0, . . . , Y1023. After
 having used about 1/3 of them, generate 2048 more as follows: Choose integers a, b, c,
 
-
-590
 ANSWERS TO EXERCISES
 3.4.1
 and d uniformly in [0 . . 1024), with a and c odd; then set
@@ -47529,7 +43809,7 @@ Y ′
 j ←−X(aj+b) mod 1024 sin θ + Y(cj+d) mod 1024 cos θ,
 for 0 ≤j < 1024, where cos θ and sin θ are random ratios (U 2 −V 2)/(U 2 + V 2) and
 2UV/(U 2 + V 2), chosen as in exercise 23. We can reject U and V unless | cos θ| ≥1
-2
+
 and | sin θ| ≥1
 2. The 2048 new deviates now replace the old ones. Notice that only a
 few operations were needed per new deviate.
@@ -47543,7 +43823,7 @@ except for a slight roundoff error. On the other hand, the constancy of S is act
 defect of the method, because the sum of squares should really have the χ2 distribution
 with 2048 degrees of freedom. To overcome this problem, the normal deviates actually
 delivered to the user should be not Xj but αXj, where α2 =
-1
+
 2(Y1023 +
 √
 4095)2/S
@@ -47578,8 +43858,7 @@ Y ′ = (. . . yj+2yj+1yjxj−1xj−2xj−3 . . . )2,
 for a fixed integer j, and then to compose j-flips for j = 0, 1, −1, 2, −2, . . . , noticing
 that the joint probability distribution of X′ and Y ′ converges as |j| →∞. Each j-flip
 is one-to-one, with x′ + y′ = x + y and dx′ dy′ = dx dy.
-33. Use U1 as the seed for another random number generator (perhaps a linear con-
-gruential generator with a different multiplier); take U2, U3, . . . from that one.
+33. Use U1 as the seed for another random number generator (perhaps a linear congruential generator with a different multiplier); take U2, U3, . . . from that one.
 SECTION 3.4.2
 1. There are
 N−t
@@ -47593,8 +43872,7 @@ ways to pick n −m −1 from N −t −1 after selecting the (t + 1)st item.
 2. Step S3 will never go to step S5 when the number of records left to be examined
 is equal to n −m.
 3. We should not confuse conditional and unconditional probabilities.
-The quan-
-tity m depends randomly on the selections that took place among the first t elements;
+The quantity m depends randomly on the selections that took place among the first t elements;
 if we take the average over all possible choices that could have occurred among these
 elements, we will find that (n −m)/(N −t) is exactly n/N on the average.
 For
@@ -47605,7 +43883,7 @@ example, consider the second element; if the first element was selected in the s
 
 3.4.2
 ANSWERS TO EXERCISES
-591
+
 probability n/(N −1).
 The overall probability of selecting the second element is
 (n/N)((n −1)/(N −1)) + (1 −n/N)(n/(N −1)) = n/N.
@@ -47644,20 +43922,8 @@ The denominator of the product p is N!; the numerator contains the terms N −n,
 N −n −1, . . . , 1 for those t’s that are not x’s, and the terms n, n −1, . . . , 1 for those
 t’s that are x’s. Hence p = (N −n)!n!/N!.
 Example: n = 3, N = 8, (x1, x2, x3) = (2, 3, 7); p = 5
-8
-3
-7
-2
-6
-4
-5
-3
-4
-2
-3
-1
-2
-1
+
+
 1.
 8. (a) p(0, k) =
 N−k
@@ -47705,12 +43971,12 @@ table entry in step R4.
 11. Arguing as in Section 1.2.10, which considers the special case n = 1, we see that
 the generating function is
 G(z) = zn
-1
+
 n + 1 +
 n
 n + 1z
 
-2
+
 n + 2 +
 n
 n + 2z
@@ -47728,8 +43994,6 @@ n(HN −Hn) −n2(H(2)
 N −H(2)
 n ).
 
-
-592
 ANSWERS TO EXERCISES
 3.4.2
 12. (Note that π−1 = (btt) . . . (b33)(b22), so we seek an algorithm that goes from the
@@ -47747,14 +44011,12 @@ SIAM Review 3 (1961), 293–297.
 14. (a) Q
 ♡. We could have deduced this regardless of where he had moved it, unless
 he had put it into one of the first three or last two positions. (b) 5
-♦. Three cut-and-
-riffles will produce an intermixture of at most eight cyclically increasing subsequences
+♦. Three cut-andriffles will produce an intermixture of at most eight cyclically increasing subsequences
 axj a(xj+1) mod n . . . a(xj+1−1) mod n; hence the subsequence 6
 ♦5
 ♦4
 ♦is a dead giveaway.
-[Several magic tricks are based on the fact that three cut-and-riffles are highly non-
-random; see Martin Gardner, Mathematical Magic Show (Knopf, 1977), Chapter 7.]
+[Several magic tricks are based on the fact that three cut-and-riffles are highly nonrandom; see Martin Gardner, Mathematical Magic Show (Knopf, 1977), Chapter 7.]
 15. Set Yj ←j for t −n < j ≤t. Then for j = t, t −1, . . . , t −n + 1 do the following
 operations: Set k ←⌊jU⌋+1. If k > t−n then set Xj ←Yk and Yk ←Yj; otherwise if
 k = Xi for some i > j (a symbol table algorithm could be used), then set Xj ←Yi and
@@ -47773,7 +44035,7 @@ We want to output the results in increasing
 order, and this can be done as follows: Using an ordered hash table (exercise 6.4–66)
 with linear probing, the hash table will appear as if the values had been inserted in
 increasing order and the average total number of probes will be less than
-5
+
 2n. Thus
 if we use a monotonic hash address such as ⌊2n(k −1)/N⌋for the key k, it will be a
 simple matter to output the keys in sorted order by making at most two passes over
@@ -47783,35 +44045,15 @@ integers from {1, . . . , j −1}. [CACM 30 (1987), 754–757. Floyd’s method 
 to speed up the solution to exercise 16. It is essentially dual to Dahl’s algorithm in
 exercise 15, which operates for decreasing values of j; see exercise 12.]
 18. (a) Oriented trees that essentially merge (1, 2, . . . ) with (n, n −1, . . . ), such as
-1
-2
-3
-4
-5
-6
-7
-8
+
+
 9 10
 11 12
-13
-14
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-15
 
 
 3.5
 ANSWERS TO EXERCISES
-593
+
 (b) Collections of 1-cycles and 2-cycles. (c) Binary search trees on the keys (1, 2, . . . , n),
 with kj the parent of j (or j, at the root); see Section 6.2.2. The number of (k1, . . . , kn)
 in each case is (a) 2n−1; (b) tn ≥
@@ -47820,7 +44062,7 @@ n!, see 5.1.4–(40); (c)
 2n
 n
 
-1
+
 n+1. [Case (a) represents
 the least common permutation; case (b) represents the most common, when n ≥18.
 See D. P. Robbins and E. D. Bolker, Æquationes Mathematicæ 22 (1981), 268–292;
@@ -47852,9 +44094,9 @@ never appears).
 3, etc. When n = 1, 3,
 7, 15, . . . we have ν(n) = 1, 1, 5, 5, . . . so that ν(22k−1 −1) = ν(22k −1) = (22k−1)/3;
 hence ν(n)/n oscillates between
-1
+
 3 and approximately
-2
+
 3, and no limit exists.
 The
 probability is undefined. [The methods of Section 4.2.4 show, however, that a numerical
@@ -47866,8 +44108,7 @@ representation of n + 1 is 1), namely log4 2 = 1
 j=1 Pr(Sj(n)).
 As k →∞, the latter is a monotone sequence bounded by 1, so it converges; and
 Pr(Sj(n) for some j ≥1) ≥k
-j=1 Pr(Sj(n)) for all k. For a counterexample to equal-
-ity, it is not hard to arrange things so that Sj(n) is always true for some j, yet
+j=1 Pr(Sj(n)) for all k. For a counterexample to equality, it is not hard to arrange things so that Sj(n) is always true for some j, yet
 Pr(Sj(n)) = 0 for all j.
 7. Let pi = 
 j≥1 Pr(Sij(n)). The result of the preceding exercise can be generalized
@@ -47895,8 +44136,6 @@ n→∞((y1n −α)2 + · · · + (ymn −α)2) ≤mα2 −2mα2 + mα2 = 0,
 and this can happen only if each (yjn −α) tends to zero.
 10. In the evaluation of the sum in Eq. (22).
 
-
-594
 ANSWERS TO EXERCISES
 3.5
 11. ⟨U2n⟩is k-distributed if ⟨Un⟩is (2, 2k −1)-distributed.
@@ -47915,20 +44154,20 @@ f(n) →∞, hence
 14. Let pk = Pr(Un begins a run of length k)
 = Pr(Un−1 > Un < · · · < Un+k−1 > Un+k)
 =
-1
+
 (k+2)!
 k+2
-1
+
 k+1
-1
+
 
 −
 k+2
-1
+
 
 −
 k+2
-1
+
 
 + 1
 
@@ -47991,7 +44230,7 @@ k=1 1/(n + k); hence 2ρ ≤1/(H2n −Hn) = 1/ ln 2 + O(1/n).
 
 3.5
 ANSWERS TO EXERCISES
-595
+
 (d) We have (l(1)
 n , . . . , l(n)
 n ) = (lg n+1
@@ -48005,17 +44244,17 @@ and lg 2n+2
 2n+1.
 [Indagationes Math. 11 (1949), 14–17.]
 21. (a) No! We have Pr(Wn <
-1
+
 2) ≥lim supn→∞ν(⌈2n−1/2⌉)/⌈2n−1/2⌉= 2 −
 √
 2,
 and Pr(Wn <
-1
+
 2) ≤lim infn→∞ν(2n)/2n =
 √
 2 −1, because ν(⌈2n−1/2⌉) = ν(2n) =
-1
-2
+
+
 n
 k=0(2k+1/2 −2k) + O(n).
 (b, c) See Indagationes Math. 40 (1978), 527–541.
@@ -48036,10 +44275,10 @@ max{|c1|,...,|ck|}>r
 so ϵr can be made arbitrarily small. Hence this limit is equal to
 a(0, . . . , 0) =
 1
-0
+
 · · ·
 1
-0
+
 f(x1, . . . , xk) dx1. . . dxk,
 and Eq. (8) holds for all sufficiently smooth functions f. The remainder of the proof
 shows that the function in (9) can be approximated by smooth functions to any desired
@@ -48047,7 +44286,7 @@ accuracy.
 23. (a) This follows immediately from exercise 22. (b) Use a discrete Fourier transform
 in an analogous way; see D. E. Knuth, AMM 75 (1968), 260–264.
 24. (a) Let c be any nonzero integer; we must show, by exercise 22, that
-1
+
 N
 N−1
 
@@ -48060,7 +44299,7 @@ k=0
 n=0 e2πicUn+k =
 K N−1
 n=0 e2πicUn + O(K2). Hence, by Cauchy’s inequality,
-1
+
 N 2
 
 N−1
@@ -48068,9 +44307,9 @@ N−1
 n=0
 e2πicUn
 
-2
+
 =
-1
+
 K2N 2
 
 N−1
@@ -48081,13 +44320,13 @@ K−1
 k=0
 e2πicUn+k
 
-2
+
 + O
 K
 N
 
 ≤
-1
+
 K2N
 N−1
 
@@ -48098,14 +44337,14 @@ K−1
 k=0
 e2πicUn+k
 
-2
+
 + O
 K
 N
 
 = 1
 K +
-2
+
 K2N ℜ
 
 
@@ -48126,15 +44365,13 @@ if and only if α1 is irrational.
 When d > 1, we can use (a) and induction on d.
 [Acta Math. 56 (1931), 373–456. The result in (b) had previously been obtained in a
 
-
-596
 ANSWERS TO EXERCISES
 3.5
 more complicated way by H. Weyl, Nachr. Gesellschaft der Wiss. Göttingen, Math.-
 Phys. Kl. (1914), 234–244. A similar argument proves that the polynomial sequence is
 equidistributed if at least one of the coefficients αd, . . . , α1 is irrational.]
 25. If the sequence is equidistributed, the denominator in Corollary S approaches
-1
+
 12,
 and the numerator approaches the quantity in this exercise.
 26. See Math. Comp. 17 (1963), 50–54. [Consider also the following example by A. G.
@@ -48171,10 +44408,9 @@ x (n) = νx(n). Now
 νO
 ∗∗∗...0(n)
 where the ν’s in these summations have 2k subscripts, 2k −1 of which are asterisks
-(meaning that they are being summed over — each sum is taken over 22k−1 combina-
-tions of zeros and ones), and where “≈” denotes approximate equality (except for an
+(meaning that they are being summed over — each sum is taken over 22k−1 combinations of zeros and ones), and where “≈” denotes approximate equality (except for an
 error of at most 2k due to end conditions). Therefore we find that
-1
+
 n2kνE
 0 (n) = 1
 n (ν∗0∗...∗(n) + · · · + ν∗∗∗...0(n)) 1
@@ -48186,8 +44422,7 @@ x (n) + O
 n
 
 ,
-where x = x1. . . x2k contains r(x) zeros in odd positions and s(x) zeros in even posi-
-tions. By (2k)-distribution, the parenthesized quantity tends to k(22k−1)/22k = k/2.
+where x = x1. . . x2k contains r(x) zeros in odd positions and s(x) zeros in even positions. By (2k)-distribution, the parenthesized quantity tends to k(22k−1)/22k = k/2.
 The remaining sum is clearly a maximum if νE
 x (n) = νx(n) when r(x) > s(x), and
 νE
@@ -48249,94 +44484,51 @@ no paths leading either in or out, namely (Ex1 . . . x2k−1) if f(0, x1, . . . 
 
 3.5
 ANSWERS TO EXERCISES
-597
+
 E
-0
-0
-0
+
+
 O
-0
-0
-0
+
+
 O
-1
-0
-0
+
+
 E
-0
-0
-1
+
+
 O
-0
-1
-0
+
+
 E
-1
-0
-0
+
+
 O
-0
-0
-1
+
+
 E
-0
-1
-1
+
+
 O
-1
-1
-0
+
+
 E
-1
-0
-1
+
+
 O
-0
-1
-1
+
+
 E
-1
-1
-0
+
+
 E
-1
-1
-1
+
+
 O
-1
-1
-1
-1
-32
-2
-6
-10
-7
-3
-11
-4
-16
-17
-5
-31
-18
-19
-20
-24
-30
-21
-25
-8
-26
-22
-9
-27
-28
-29
-23
-12
+
+
 14 13
-15
+
 Fig. A–5. Directed graph for the construction in exercise 30.
 or (Ox1 . . . x2k−1) if f(1, x1, . . . , x2k−1) = −1. The resulting directed graph is seen to
 be connected, since we can get from any node to (E1010 . . . 1) and from this to any
@@ -48348,8 +44540,7 @@ For example, the graph for k = 2 is shown in Fig. A–5; the arcs of the cyclic 
 numbered from 1 to 32, and the cyclic sequence is
 (00001000110010101001101110111110)(00001 . . . ).
 Notice that Pr(X2n = 0) = 11
-16 in this sequence. The sequence is clearly (2k)-distrib-
-uted, since each (2k)-tuple x1x2. . . x2k occurs
+16 in this sequence. The sequence is clearly (2k)-distributed, since each (2k)-tuple x1x2. . . x2k occurs
 1 + f(x1, . . . , x2k) + 1 −f(x1, . . . , x2k) = 2
 times in the cycle. The fact that Pr(X2n = 0) has the desired value comes from the fact
 that the maximum value on the right-hand side in the proof of the preceding exercise
@@ -48367,8 +44558,6 @@ Now ⟨Xn⟩RR′ is (⟨Xn⟩R)R′. The result follows immediately.
 33. Given ϵ > 0, find N0 such that N > N0 implies that both |νr(N)/N −p| < ϵ and
 |νs(N)/N −p| < ϵ. Then find N1 such that N > N1 implies that tN is rM or sM for
 
-
-598
 ANSWERS TO EXERCISES
 3.5
 some M > N0. Now N > N1 implies that
@@ -48406,10 +44595,10 @@ so it is (k, 1)-distributed. Hence we find that Pr(Zn = a) and Pr(Zn = a) differ
 but it is false if “R1” is used, since X(n
 2) might be identically zero.]
 37. For n ≥2 replace Un2 by
-1
+
 2(Un2 + δn), where δn = 0 or 1 according as the
 set {U(n−1)2+1, . . . , Un2−1} contains an even or odd number of elements less than
-1
+
 2.
 [Advances in Math. 14 (1974), 333–334; see also the Ph.D. thesis of Thomas N. Herzog,
 Univ. of Maryland (1975).]
@@ -48427,7 +44616,7 @@ B1. . . Bk) = q ·( 1
 2 −q0 +q1)+(1−q)·(q0 + 1
 2 −q1) = 1
 2 −(q0 +q1)+2(qq1 +(1 −q)q0) =
-1
+
 2 −Pr(Fk = 1 | B1. . . Bk) + 2 Pr(Fk = 1 and B′
 k+1 = Bk+1 | B1. . . Bk).
 Hence
@@ -48435,7 +44624,7 @@ Pr(AP
 k = 1) = 
 B1...Bk Pr(B1. . . Bk) Pr(AP
 k = 1 | B1 . . . Bk) =
-1
+
 2 −Pr(Fk = 1) +
 Pr(Fk+1 = 1).
 [See Theorem 4 of Goldreich, Goldwasser, and Micali in JACM 33
@@ -48465,7 +44654,7 @@ with probability 1/22R.
 
 3.6
 ANSWERS TO EXERCISES
-599
+
 (c) In the notation of Algorithm L, take n = 2k −1 and Xc = (−1)G(cB+ei); then
 µ = s and σ2 = 1 −s2. The probability that X = 
 c̸=0 Xc is negative is at most the
@@ -48511,11 +44700,11 @@ JMP
 *
 Return.
 XRAND CON
-1
+
 Value of X; X0 = 1.
 8H
 CON
-0
+
 Temp storage of k.
 7H
 CON
@@ -48542,8 +44731,6 @@ recurrence (1) is not self-correcting.
 9. (a) The values of X0, X1, . . . , X99 are not all even. The polynomial z100 + z37 + 1
 is primitive (see Section 3.2.2); hence there is a number h(s) such that P0(z) ≡zh(s)
 
-
-600
 ANSWERS TO EXERCISES
 3.6
 (modulo 2 and z100 +z37 +1). Now zPn+1(z) = Pn(z)−Xnz37 −Xn+63 +Xn+63z100 +
@@ -48562,8 +44749,7 @@ Australian Supercomputer Conf. 5 (1992), 95–104, although Brent’s algorithm 
 completely different. In general if the lags are k > l, if 0 ≤s < 2e, and if the separation
 parameter t satisfies t + e ≤k, this method of proof shows that |n −n′| ≥2t −1, with
 2t −1 occurring only if {s, s′} = {0, 2e −1}.]
-10. The following code belongs to the simplified language Subset FORTRAN, as de-
-fined by the American National Standards Institute, except for its use of PARAMETER
+10. The following code belongs to the simplified language Subset FORTRAN, as defined by the American National Standards Institute, except for its use of PARAMETER
 statements for readability.
 SUBROUTINE RNARRY(AA,N)
 IMPLICIT INTEGER (A-Z)
@@ -48574,22 +44760,22 @@ PARAMETER (MM=2**30)
 COMMON /RSTATE/ RANX(KK)
 SAVE /RSTATE/
 DO 1 J=1,KK
-1
+
 AA(J)=RANX(J)
 DO 2 J=KK+1,N
 AA(J)=AA(J-KK)-AA(J-LL)
 IF (AA(J) .LT. 0) AA(J)=AA(J)+MM
-2
+
 CONTINUE
 DO 3 J=1,LL
 RANX(J)=AA(N+J-KK)-AA(N+J-LL)
 IF (RANX(J) .LT. 0) RANX(J)=RANX(J)+MM
-3
+
 CONTINUE
 DO 4 J=LL+1,KK
 RANX(J)=AA(N+J-KK)-RANX(J-LL)
 IF (RANX(J) .LT. 0) RANX(J)=RANX(J)+MM
-4
+
 CONTINUE
 END
 SUBROUTINE RNSTRT(SEED)
@@ -48602,7 +44788,7 @@ PARAMETER (TT=70)
 
 3.6
 ANSWERS TO EXERCISES
-601
+
 PARAMETER (KKK=KK+KK-1)
 DIMENSION X(KKK)
 COMMON /RSTATE/ RANX(KK)
@@ -48617,26 +44803,26 @@ DO 1 J=1,KK
 X(J)=SS
 SS=SS+SS
 IF (SS .GE. MM) SS=SS-MM+2
-1
+
 CONTINUE
 X(2)=X(2)+1
 SS=SSEED
 T=TT-1
-10
+
 DO 12 J=KK,2,-1
 X(J+J-1)=X(J)
-12
+
 X(J+J-2)=0
 DO 14 J=KKK,KK+1,-1
 X(J-(KK-LL))=X(J-(KK-LL))-X(J)
 IF (X(J-(KK-LL)) .LT. 0) X(J-(KK-LL))=X(J-(KK-LL))+MM
 X(J-KK)=X(J-KK)-X(J)
 IF (X(J-KK) .LT. 0) X(J-KK)=X(J-KK)+MM
-14
+
 CONTINUE
 IF (MOD(SS,2) .EQ. 1) THEN
 DO 16 J=KK,1,-1
-16
+
 X(J+1)=X(J)
 X(1)=X(KK+1)
 X(LL+1)=X(LL+1)-X(KK+1)
@@ -48649,18 +44835,16 @@ T=T-1
 END IF
 IF (T .GT. 0) GO TO 10
 DO 20 J=1,LL
-20
+
 RANX(J+KK-LL)=X(J)
 DO 21 J=LL+1,KK
-21
+
 RANX(J-LL)=X(J)
 DO 22 J=1,10
-22
+
 CALL RNARRY(X,KKK)
 END
 
-
-602
 ANSWERS TO EXERCISES
 3.6
 11. Floating point arithmetic on 64-bit operands conforming to ANSI/IEEE Standard
@@ -48675,7 +44859,7 @@ the same numbers as this C routine.
 #define KK 100
 /* the long lag */
 #define LL
-37
+
 /* the short lag */
 #define mod_sum(x,y) (((x)+(y))-(int)((x)+(y)))
 /* (x+y) mod 1.0 */
@@ -48689,7 +44873,7 @@ for (i=0;i<LL;i++,j++) ran_u[i]=mod_sum(aa[j-KK],aa[j-LL]);
 for (;i<KK;i++,j++) ran_u[i]=mod_sum(aa[j-KK],ran_u[i-LL]);
 }
 #define TT
-70
+
 /* guaranteed separation between streams */
 #define is_odd(s) ((s)&1)
 void ranf_start(long seed) {
@@ -48729,7 +44913,7 @@ if (s) s>>=1; else t--;
 
 3.6
 ANSWERS TO EXERCISES
-603
+
 for (j=0;j<LL;j++) ran_u[j+KK-LL]=u[j];
 for (;j<KK;j++) ran_u[j-LL]=u[j];
 for (j=0;j<10;j++) ranf_array(u,KK+KK-1);
@@ -48770,8 +44954,7 @@ analogous operation in program ran start, and for k in a practical range it take
 k1.6 operations instead of O(k).
 Both methods probably generate sequences of the same quality in practice, when
 they have roughly the same value of k. The only significant difference between them
-is a better theoretical guarantee and a provably immense period for the subtract-with-
-borrow method; the analysis of lagged Fibonacci generators is less complete. Experience
+is a better theoretical guarantee and a provably immense period for the subtract-withborrow method; the analysis of lagged Fibonacci generators is less complete. Experience
 shows that we should not reduce the value of k in subtract-with-borrow just because of
 these theoretical advantages. When all is said and done, lagged Fibonacci generators
 seem preferable from a practical standpoint; the subtract-with-borrow method is then
@@ -48784,8 +44967,6 @@ hence Yn+100 ≡Yn+Yn+26+Yn+89 when n mod 100 < 11. Thus Yn+100 is a sum of only
 two or three elements of {Yn, . . . , Yn+99}, in 26% + 11% of all cases; a preponderance
 of 0s will then tend to make Yn+100 = 0.
 
-
-604
 ANSWERS TO EXERCISES
 3.6
 More precisely, consider the sequence ⟨u1, u2, . . . ⟩= ⟨126, 89, 152, 115, 78, . . . , 100,
@@ -48802,7 +44983,7 @@ Yn+100 ≡Yn+1 + Yn+2 + · · · + Yn+99; this tends to be 0 in spite of the lar
 terms, because most of the 100-tuples that have 40 or fewer 1s have even parity.
 When there is a k-term relation, the probability that Yn+100 = 1 is
 pk =
-40
+
 
 l=0
 k
@@ -48837,8 +45018,7 @@ because Xn+400 ≡Xn + Xn+252. With ran array(a,1009) as recommended in the text
 we have (17p7+10p11+2p12+· · · )/100, which can only be detected by such experiments
 if the threshold for printing is raised from 60 to, say, 75; but then the expected number
 of outputs is only about 0.28 per million trials.
-[This exercise is based on ideas of Y. Kurita, H. Leeb, and M. Matsumoto, com-
-municated to the author in 1997.]
+[This exercise is based on ideas of Y. Kurita, H. Leeb, and M. Matsumoto, communicated to the author in 1997.]
 15. The following program makes it possible to obtain a new random integer quickly
 with the expression ran arr next(), once ran start has been called to get things started:
 #define QUALITY 1009
@@ -48862,7 +45042,7 @@ SECTION 4.1
 
 4.1
 ANSWERS TO EXERCISES
-605
+
 2. (a) −(110001)2, −(11.001001001001 . . . )2, (11.00100100001111110110101 . . . )2.
 (b) (11010011)−2, (1101.001011001011 . . . )−2, (111.0110010001000000101 . . . )−2.
 (c) (11111)3, (10.011011011011 . . . )3, (10.0111111100010111110111111110 . . . )3.
@@ -48918,11 +45098,9 @@ cm ←cm −2; otherwise if cm < 0, set k ←1 and cm ←cm + 2; otherwise (name
 (See also exercise 7.1.3–7 for a trickier solution that uses full-word bitwise operations.)
 (b) Subtract (. . . b30b10)2 from (. . . b40b20b0)2 in the binary system.
 13. (1.909090 . . . )−10 = (0.090909 . . . )−10 =
-1
+
 11.
 
-
-606
 ANSWERS TO EXERCISES
 4.1
 14.
@@ -48941,13 +45119,13 @@ ANSWERS TO EXERCISES
 11 . . 1
 11], and the rectangle on the right.
 1+2i
-5
+
 −4+2i
-5
+
 −4−8i
-5
+
 1−8i
-5
+
 Fig. A–6. Fundamental region
 for quater-imaginary numbers.
 16. It is tempting to try to do this in a very simple way, by using the rule 2 = (1100)i−1
@@ -48997,7 +45175,7 @@ Other properties of the dragon curve are described in C. Davis and D. E. Knuth, 
 
 4.1
 ANSWERS TO EXERCISES
-607
+
 Math. 3 (1970), 66–81, 133–149. The sets S for digits {0, 1} and other complex bases
 are illustrated and analyzed by D. Goffinet in AMM 98 (1991), 249–255.]
 I. Kátai and J. Szabó have shown that the radix −d+i yields a number system with
@@ -49042,32 +45220,32 @@ has six more representations 18.a′′
 the text for converting to balanced ternary.
 In contrast to the system of exercise 20, zero can be represented in infinitely
 many ways, all obtained from
-1
+
 2 + 
 k≥1(−4 1
 2) · 10−k (or from the negative of this
 representation) by multiplying it by a power of ten. The representations of unity are
 1 1
 2 −1
-2
+
 ∗, 1
 2 + 1
-2
+
 ∗, 5 −3 1
 2 −1
-2
+
 ∗, 5 −4 1
 2 + 1
-2
+
 ∗, 50 −45 −3 1
 2 −1
-2
+
 ∗, 50 −45 −4 1
 2 + 1
-2
+
 ∗, etc.,
 where ± 1
-2
+
 ∗= (±4 1
 2)(10−1 + 10−2 + · · · ). [AMM 57 (1950), 90–93.]
 22. Given some approximation bn . . . b1b0 with error n
@@ -49089,8 +45267,6 @@ bµ(S) = µ(bS) ≤
 a∈D µ(a + S) = 
 a∈D µ(S) = bµ(S), and we must therefore have
 
-
-608
 ANSWERS TO EXERCISES
 4.1
 µ((a + S) ∩(a′ + S)) = 0 when a ̸= a′ ∈D. Now T has measure zero if 0 ∈D, since
@@ -49157,7 +45333,7 @@ Math. 4 (1951), 236–240, applied this principle to two’s complement multipli
 
 4.1
 ANSWERS TO EXERCISES
-609
+
 [It follows that every positive integer has exactly two such representations with
 decreasing exponents e0 > e1 > · · · > et: one with t even and the other with t odd.]
 28. A proof like that of exercise 27 may be given. Note that a + bi is a multiple of
@@ -49198,8 +45374,7 @@ large k, in order to represent ±2n when n is large. Conversely, the following a
 may be used:
 S1. [Initialize.] Set k ←0.
 S2. [Done?] If n = 0, terminate.
-S3. [Choose.] If n is even, set n ←n/2. Otherwise include 2kdk in the represen-
-tation, and set n ←(n −dk)/2.
+S3. [Choose.] If n is even, set n ←n/2. Otherwise include 2kdk in the representation, and set n ←(n −dk)/2.
 S4. [Advance k.] Increase k by 1 and return to S2.
 At each step the choice is forced; furthermore step S3 always decreases |n| unless
 n = −dk, hence the algorithm must terminate.
@@ -49209,8 +45384,6 @@ need only show that the algorithm terminates for −2 ≤n ≤8; all other value
 moved toward this interval. In this range 3 →−1 →−2 →6 →8 →2 →7 →0 and
 4 →1 →5 →6. Thus 1 = 7 · 20 −13 · 21 + 7 · 22 −13 · 23 −13 · 25 −13 · 29 + 7 · 210.
 
-
-610
 ANSWERS TO EXERCISES
 4.1
 Note: The choice d0, d1, d2, . . . = 5, −3, 3, 5, −3, 3, . . . also yields a binary basis.
@@ -49257,8 +45430,7 @@ Kn(S) =
 {{t1b + a1, . . . , trb + ar}
 
 {t1, . . . , tr} ∈Kn−1({(si + j −ai)/b | 1 ≤i ≤r})},
-where the inner union is over all sequences of digits (a1, . . . , ar) satisfying the con-
-dition ai ≡si + j (modulo b) for 1 ≤i ≤r. In this formula we require ti −ti′ =
+where the inner union is over all sequences of digits (a1, . . . , ar) satisfying the condition ai ≡si + j (modulo b) for 1 ≤i ≤r. In this formula we require ti −ti′ =
 (si −ai)/b −(si′ −ai′)/b for 1 ≤i < i′ ≤r, so that the naming of subscripts is
 uniquely determined. By the principle of inclusion and exclusion, therefore, we have
 kn(S) = 
@@ -49274,7 +45446,7 @@ r ) for 1 ≤l ≤m, the number of
 
 4.2.1
 ANSWERS TO EXERCISES
-611
+
 such sets is kn−1({(si + j −a(l)
 i )/b | 1 ≤i ≤r, 1 ≤l ≤m}). Thus there is a collection
 of sets T (S) such that
@@ -49312,8 +45484,7 @@ Since these reductions do not increase the number of nonzero digits, αn has the
 The number of nonzero digits in αn,
 denoted by ν(n), is the number of 1s in the ordinary representation that are immediately
 preceded by 0 or by the substring 00(10)k1 for some k ≥0. (See exercise 7.1.3–35.)
-A generalization to radix b > 2 has been given by J. von zur Gathen, Computa-
-tional Complexity 1 (1991), 360–394.
+A generalization to radix b > 2 has been given by J. von zur Gathen, Computational Complexity 1 (1991), 360–394.
 SECTION 4.2.1
 1. N = (62, +.60 22 14 00); h = (37, +.66 26 10 00). Note that the quantity 10h
 would be (38, +.06 62 61 00).
@@ -49330,8 +45501,6 @@ leaves fv unchanged unless eu −ev ≥2. Since u was normalized, it is nonzero 
 |fu + fv| > b−1 −b−2 ≥b−2: The leading nonzero digit of fu + fv must be at most
 two places to the right of the radix point, and the rounding operation will convert
 
-
-612
 ANSWERS TO EXERCISES
 4.2.1
 bp+j(fu + fv) to an integer, where j ≤1. The proof will be complete if we can show
@@ -49372,7 +45541,7 @@ LD1
 TEMP(EXP)
 rI1 ←e.
 SLA
-1
+
 rA ←± f f f f 0.
 JAZ
 9F
@@ -49420,10 +45589,10 @@ TEMP ←u.
 
 4.2.2
 ANSWERS TO EXERCISES
-613
+
 ENTX 0
 SLA
-1
+
 rA ←fu.
 LD2
 TEMP(EXP)
@@ -49491,8 +45660,6 @@ Similarly, (8) and (6) together with (2) imply that (u ⊕x) ⊕(v ⊕y) ≥(u �
 3. u = 8.0000001, v = 1.2500008, w = 8.0000008; (u ⊗v) ⊗w = 80.000064, yet
 u ⊗(v ⊗w) = 80.000057.
 
-
-614
 ANSWERS TO EXERCISES
 4.2.2
 4. Yes; let 1/u ≈v = w, where v is large.
@@ -49519,7 +45686,7 @@ then x −t = 0. [The result holds also under the weaker hypothesis |t| < be; in
 case we might have x −t = be when e > p.]
 12. Assume that eu = p, ev ≤0, u > 0. Case 1, u > bp−1. Case (1a), w = u + 1,
 v ≥
-1
+
 2, ev = 0. Then u′ = u or u + 1, v′ = 1, u′′ = u, v′′ = 1 or 0. Case (1b),
 w = u, |v| ≤1
 2. Then u′ = u, v′ = 0, u′′ = u, v′′ = 0. If |v| = 1
@@ -49531,7 +45698,7 @@ u = bp−1. Case (2a), w = u + 1, v ≥1
 2, ev = 0. Like (1a). Case (2b), w = u, |v| ≤1
 2,
 u′ ≥u. Like (1b). Case (2c), w = u, |v| ≤
-1
+
 2, u′ < u. Then u′ = u −j/b where
 v = j/b + v1 and |v1| ≤1
 2b−1 for some positive integer j ≤1
@@ -49564,7 +45731,7 @@ It suffices to
 
 4.2.2
 ANSWERS TO EXERCISES
-615
+
 show that u + (v ⊖u) ⊘2 ≤v, i.e., (v ⊖u) ⊘2 ≤v −u; and it is easy to verify that
 round( 1
 2round(x)) ≤x for all x ≥0.]
@@ -49632,7 +45799,7 @@ JMP
 7H
 ENTX 1
 SRC
-1
+
 Make rA nonzero with same sign.
 JMP
 8F
@@ -49663,8 +45830,6 @@ Kahan observed that sn ⊖cn = n
 k=1(1+ϕk)xk where |ϕk| ≤2ϵ+O((n+1−k)ϵ2). For
 another approach to accurate summation, see R. J. Hanson, CACM 18 (1975), 57–58.
 
-
-616
 ANSWERS TO EXERCISES
 4.2.2
 When some x’s are negative and others are positive, we may be able to match them
@@ -49691,11 +45856,11 @@ are exact, because w −u1v1 is a multiple of 2p−1 such that |w −u1v1| ≤|w
 |w −uv| + |u2v| < 2p−1 + 2⌈p/2⌉−1+p, where w −u1v1 −u1v2 is a multiple of 2⌈p/2⌉.
 22. We may assume that bp−1 ≤u, v < bp. If uv ≤b2p−1, then x1 = uv −r where
 |r| ≤
-1
+
 2bp−1, hence x2 = round(u −r/v) = x0 (since |r/v| ≤
-1
+
 2bp−1/bp−1 ≤
-1
+
 2, and
 equality implies v = bp−1 hence r = 0).
 If uv > b2p−1, then x1 = uv −r where
@@ -49772,7 +45937,7 @@ and vl < 0 < vr; in the latter case we compute four products, and the answer is
 
 4.2.3
 ANSWERS TO EXERCISES
-617
+
 Finally, u ⊘v is undefined if vl < 0 < vr; otherwise we use the formulas for
 multiplication with vl and vr replaced respectively by v−1
 r
@@ -49821,8 +45986,7 @@ Let f(x) = xα and let t(n) = ⌊⌊αn+lg 4
 3⌋/α+lg 4
 3⌋. Then ˆh(2e) = 2t(e). When α = .99
 we find ˆh(2e) = 2e−1 for 41 < e ≤58.
-31. According to the theory in Section 4.5.3, the convergents to the continued frac-
-tion
+31. According to the theory in Section 4.5.3, the convergents to the continued fraction
 √
 3 = 1 + //1, 2, 1, 2, . . . // are pn/qn = Kn+1(1, 1, 2, 1, 2, . . . )/Kn(1, 2, 1, 2, . . . ).
 These convergents are excellent approximations to
@@ -49859,8 +46023,6 @@ This in fact is the correct result to six decimals.
 places and can never look at this particular byte position. (Scaling to the left occurs
 at most once during normalization, since the inputs are normalized.)
 
-
-618
 ANSWERS TO EXERCISES
 4.2.3
 3. Overflow obviously cannot occur at line 09, since we are adding two-byte quantities,
@@ -49930,8 +46092,7 @@ we have 0 ≤uv −u ⊗v < 3b−9, so the relative error in this case is bounde
 Division requires a more careful analysis of Program D. The quantity actually
 computed by the subroutine is α −δ −bϵ((α −δ′′)(β −δ′) −δ′′′) −δn where α =
 (um + ϵul)/bvm, β = vl/bvm, and the nonnegative truncation errors (δ, δ′, δ′′, δ′′′) are
-respectively less than (b−10, b−5, b−5, b−6); finally δn (the truncation during normal-
-ization) is nonnegative and less than either b−9 or b−8, depending on whether scaling
+respectively less than (b−10, b−5, b−5, b−6); finally δn (the truncation during normalization) is nonnegative and less than either b−9 or b−8, depending on whether scaling
 occurs or not. The actual value of the quotient is α/(1 + bϵβ) = α −bϵαβ + b2αβ2δ′′′′,
 where δ′′′′ is the nonnegative error due to truncation of the infinite series (2); here
 δ′′′′ < ϵ2 = b−10, since it is an alternating series. The relative error is therefore the
@@ -49940,7 +46101,7 @@ absolute value of (bϵδ′ + bϵδ′′β/α + bϵδ′′′/α) −(δ/α + 
 
 4.2.4
 ANSWERS TO EXERCISES
-619
+
 (1 + bϵβ).
 The positive terms in this expression are bounded by b−9 + b−8 + b−8,
 and the negative terms are bounded by b−8 + b−12 + b−8 plus the contribution by the
@@ -49993,13 +46154,11 @@ m(F(10km · 4k) −F(10km)) = log 4k/ log 10k; then
 
 m
 (F(10km · 5k) −F(10km · 4k)) = log10
-5
-4
+
+
 for all k. But now let ϵ be a small positive number, and choose δ > 0 so that F(x) < ϵ
 for 0 < x < δ, and choose M > 0 so that F(x) > 1 −ϵ for x > M. We can take k so
 
-
-620
 ANSWERS TO EXERCISES
 4.2.4
 large that 10−k · 5k < δ and 4k > M; hence by the monotonicity of F,
@@ -50020,20 +46179,20 @@ for N0(ϵ) independent of s. (In general, calculus textbooks prove that such a u
 bound would imply that the limit function S0(s) would be continuous, and it isn’t.)
 9. Let q1, q2, . . . be such that P0(n) = q1
 n−1
-0
+
 
 + q2
 n−1
-1
+
 
 + · · · for all n. It follows
 that Pm(n) = 1−mq1
 n−1
-0
+
 
 + 2−mq2
 n−1
-1
+
 
 + · · · for all m and n.
 10. When 1 < r < 10 the generating function C(z) has simple poles at the points
@@ -50049,7 +46208,7 @@ e−wn ln r −1
 (ln 10)(z −1 −wn) + E(z)
 where E(z) is analytic in the entire plane. Thus if θ = arctan(2π/ln 10),
 cm = log10 r −1 −
-2
+
 ln 10
 
 n>0
@@ -50063,7 +46222,7 @@ wn(1 + wn)m
 m/2
 + O
 
-1
+
 (1 + 16π2/(ln 10)2)
 m/2
 
@@ -50099,8 +46258,7 @@ Since f(x) ≥0, |(h(z) −l(z))/l(z)| ≤
 z f(x) dx A(g) for all z,
 hence A(h) ≤A(g). By symmetry, A(h) ≤A(f). [Bell System Tech. J. 49 (1970),
 1609–1625.]
-13. Let X = (logb U) mod 1 and Y = (logb V ) mod 1, so that X and Y are inde-
-pendently and uniformly distributed in [0 . . 1). No left shift is needed if and only if
+13. Let X = (logb U) mod 1 and Y = (logb V ) mod 1, so that X and Y are independently and uniformly distributed in [0 . . 1). No left shift is needed if and only if
 X + Y ≥1, and that occurs with probability 1/2.
 (Similarly, the probability is 1/2 that floating point division by Algorithm 4.2.1M
 needs no normalization shifts; this analysis needs only the weaker assumption that both
@@ -50109,11 +46267,11 @@ of the operands independently have the same distribution.)
 
 4.2.4
 ANSWERS TO EXERCISES
-621
+
 14. For convenience, the calculations are shown here
 for b = 10. If k = 0, the probability of a carry is
 
-1
+
 ln 10
 2 
 1≤x,y≤10
@@ -50124,7 +46282,7 @@ dy
 y .
 (See Fig. A–7.) The value of the integral is
 10
-0
+
 dy
 y
 10
@@ -50132,7 +46290,7 @@ y
 dx
 x −2
 1
-0
+
 dy
 y
 10
@@ -50140,23 +46298,23 @@ y
 dx
 x ,
 and
-00
+
 10 0
-1
-10
+
+
 0 1
 Fig. A–7.
 t
-0
+
 dy
 y ln
 
-1
+
 1 −y/10
 
 =
 t
-0
+
 1
 10 +
 y
@@ -50177,7 +46335,7 @@ n≥1 1/n22n =
 π2/12 −(ln 2)2/2.]
 When k > 0, the probability is
 
-1
+
 ln 10
 2 101−k
 10−k
@@ -50188,15 +46346,15 @@ y
 dx
 x =
 
-1
+
 ln 10
 2
 n≥1
-1
+
 n210nk −
 
 n≥1
-1
+
 n210n(k+1)
 
 .
@@ -50214,7 +46372,7 @@ but we are ignoring rounding in this exercise.) The probability of fraction over
 approximately .272, as shown in the previous exercise, and .272 < log10 2.
 When k > 0, the leading digit is 1 with probability
 
-1
+
 ln 10
 2101−k
 10−k
@@ -50228,7 +46386,7 @@ x
 
 <
 
-1
+
 ln 10
 2101−k
 10−k
@@ -50243,7 +46401,7 @@ x
 16. To prove the hint [which is due to Landau, Prace Matematyczno-Fizyczne 21
 (1910), 103–113], assume first that lim sup an = λ > 0. Let ϵ = λ/(λ+4M) and choose
 N so that |a1 + · · · + an| <
-1
+
 10ϵλn for all n > N. Let n > N/(1 −ϵ), n > 5/ϵ be such
 that an > 1
 2λ. Then, by induction, an−k ≥an −kM/(n −ϵn) > 1
@@ -50264,23 +46422,20 @@ n−ϵn<k≤n ak
 5ϵλn
 since n −ϵn > N. A similar contradiction applies if lim inf an < 0.
 
-
-622
 ANSWERS TO EXERCISES
 4.2.4
 Assuming that Pm+1(n) →λ as n →∞, let ak = Pm(k) −λ. If m > 0, the ak
 satisfy the hypotheses of the hint (see Eq. 4.2.2–(15)), since 0 ≤Pm(k) ≤1; hence
 Pm(n) →λ.
 17. See J. Math. Soc. Japan 4 (1952), 313–322.
-(The fact that harmonic prob-
-ability extends ordinary probability follows from a theorem of Cesàro, [Atti della
+(The fact that harmonic probability extends ordinary probability follows from a theorem of Cesàro, [Atti della
 Reale Accademia dei Lincei, Rendiconti (4) 4 (1888), 452–457]. Persi Diaconis [Ph.D.
 thesis, Harvard University, 1974] has shown among other things that the definition of
 probability by repeated averaging is weaker than harmonic probability, in the following
 precise sense: If limm→∞lim infn→∞Pm(n) = limm→∞lim supn→∞Pm(n) = λ then
 the harmonic probability is λ. On the other hand the statement “10k2 ≤n < 10k2+k
 for some integer k > 0” has harmonic probability
-1
+
 2, while repeated averaging never
 settles down to give it any particular probability.)
 18. Let p(a) = P(La) and p(a, b) = 
@@ -50309,15 +46464,14 @@ Since log10 Fn = n log10 ϕ −log10
 5 + O(ϕ−2n) by 1.2.8–(14), this is equivalent to
 equidistribution of ⟨n log10 ϕ⟩, which follows from ex. 3.5–22. [Fibonacci Quarterly 5
 (1967), 137–140.] The same proof shows that the sequences ⟨bn⟩obey the logarithmic
-law for all integers b > 1 that aren’t powers of 10 [Yaglom and Yaglom, Challeng-
-ing Problems with Elementary Solutions (Moscow: 1954; English translation, 1964),
+law for all integers b > 1 that aren’t powers of 10 [Yaglom and Yaglom, Challenging Problems with Elementary Solutions (Moscow: 1954; English translation, 1964),
 Problem 91b].
 Notes: Many other sequences of integers have this property. For example, Persi
 Diaconis [Annals of Probability 5 (1977), 72–81] showed that ⟨n!⟩is one such sequence,
 and that binomial coefficients obey the logarithmic law too, in the sense that
 lim
 n→∞
-1
+
 n + 1
 n
 
@@ -50331,7 +46485,7 @@ partial quotients have a repeating pattern with polynomial variation as in exerc
 
 4.3.1
 ANSWERS TO EXERCISES
-623
+
 4.5.3–16. One interesting open question is whether the sequence ⟨2!, (2!)!, ((2!)!)!, . . . ⟩
 has logarithmic fraction parts; see J. H. Conway and M. J. T. Guy, Eureka 25 (1962),
 18–19.
@@ -50345,13 +46499,13 @@ k ←⌊(u1j + · · · + umj + k)/b⌋.
 (The maximum value of k is m −1, so step A3 would have to be altered if m > b.)
 3.
 ENN1 N
-1
+
 JOV
 OFLO
-1
+
 Ensure that overflow is off.
 ENTX 0
-1
+
 k ←0.
 2H SLAX 5
 N
@@ -50386,7 +46540,7 @@ N
 Repeat for 0 ≤j < n.
 STX
 W+N
-1
+
 Store final carry in wn.
 Running time, assuming that K = 1
 2MN, is 5.5MN + 7N + 4 cycles.
@@ -50415,8 +46569,6 @@ t < b.
 B4. Decrease j by one, and if j ≥0 go back to B2.
 6. C1. Set j ←n −1, i ←n, r ←0.
 
-
-624
 ANSWERS TO EXERCISES
 4.3.1
 C2. Set t ←uj + vj. If t ≥b, set wi ←r + 1 and wk ←0 for i > k > j; then set
@@ -50445,10 +46597,10 @@ b
 .
 As a check, we find that the average number of carries is
 m1 + 2m2 + · · · + nmn = 1
-2
+
 
 n −
-1
+
 b −1
 
 1 −
@@ -50459,13 +46611,13 @@ b
 in agreement with (6).
 8.
 ENT1 N-1
-1
+
 JOV
 OFLO
-1
+
 STZ
 W+N
-1
+
 2H LDA
 U,1
 N
@@ -50520,15 +46672,15 @@ of the algorithm; this time it should be ignored.
 
 4.3.1
 ANSWERS TO EXERCISES
-625
+
 13.
 ENN1 N
-1
+
 JOV
 OFLO
-1
+
 ENTX 0
-1
+
 2H STX
 CARRY
 N
@@ -50539,7 +46691,7 @@ MUL
 V
 N
 SLC
-5
+
 N
 ADD
 CARRY
@@ -50558,7 +46710,7 @@ J1N
 N
 STX
 W+N
-1
+
 The running time is 23N + K + 5 cycles, and K is roughly 1
 2N.
 14. The key inductive assertion is the one that should be valid at the beginning of
@@ -50603,159 +46755,157 @@ holds if v ≥b/2. Otherwise v⌊b/(v + 1)⌋≥v(b −v)/(v + 1) ≥(b −1)/2 
 24. The approximate probability is only logb 2, not 1
 2. (For example, if b = 232, the
 probability that vn−1 ≥231 is approximately
-1
+
 32; this is still high enough to warrant
 the special test for d = 1 in steps D1 and D8.)
 
-
-626
 ANSWERS TO EXERCISES
 4.3.1
 25. 002
 ENTA 1
-1
-003
+
+
 ADD
 V+N-1
-1
-004
+
+
 STA
 TEMP
-1
-005
+
+
 ENTA 1
-1
-006
+
+
 JOV
 1F
-1
+
 Jump if vn−1 = b −1.
-007
+
 ENTX 0
-1
-008
+
+
 DIV
 TEMP
-1
+
 Otherwise compute ⌊b/(vn−1 + 1)⌋.
-009
+
 JOV
 DIVBYZERO
-1
+
 Jump if vn−1 = 0.
-010
+
 1H STA
 D
-1
-011
+
+
 DECA 1
-1
-012
+
+
 JANZ *+3
-1
+
 Jump if d ̸= 1.
-013
+
 STZ
 U+M+N
 1 −A
 Set um+n ←0.
-014
+
 JMP
 D2
 1 −A
-015
+
 ENN1 N
 A
 Multiply v by d.
-016
+
 ENTX 0
 A
-017
+
 2H STX
 CARRY
 AN
-018
+
 LDA
 V+N,1
 AN
-019
+
 MUL
 D
 AN
 · · ·
 (as in exercise 13)
-026
+
 J1N
 2B
 AN
-027
+
 ENN1 M+N
 A
 (Now rX = 0.)
-028
+
 2H STX
 CARRY
 A(M + N)
 Multiply u by d.
-029
+
 LDA
 U+M+N,1
 A(M + N)
 · · ·
 (as in exercise 13)
-037
+
 J1N
 2B
 A(M + N)
-038
+
 STX
 U+M+N
 A
 26. (See the algorithm of exercise 16.)
-101
+
 D8 LDA
 D
-1
+
 (Remainder will be left in
-102
+
 DECA 1
-1
+
 locations U through U+N-1)
-103
+
 JAZ
 DONE
-1
+
 Terminate if d = 1.
-104
+
 ENT1 N-1
 A
 rI1 ≡j; j ←n −1.
-105
+
 ENTA 0
 A
 r ←0.
-106
+
 1H LDX
 U,1
 AN
 rAX ←rb + uj.
-107
+
 DIV
 D
 AN
-108
+
 STA
 U,1
 AN
-109
+
 SLAX 5
 AN
 (uj, r) ←(⌊rAX/d⌋, rAX mod d).
-110
+
 DEC1 1
 AN
 j ←j −1.
-111
+
 J1NN 1B
 AN
 Repeat for n > j ≥0.
@@ -50791,7 +46941,7 @@ vn−1 + 1
 
 4.3.1
 ANSWERS TO EXERCISES
-627
+
 The latter quantity takes its smallest value when vn−1 = 1, since it is a concave function
 and the other extreme value is greater.
 The formula in step N2 may be written v ←
@@ -50869,8 +47019,6 @@ In step D3, use (v′, v′′) instead of (vn−1, vn−2) and (u′, u′′, 
 by shifting left e bits. Omit division by d in step D8. (In essence, u and v are being
 “virtually” shifted. This method saves computation when m is small compared to n.)
 
-
-628
 ANSWERS TO EXERCISES
 4.3.1
 38. Set k ←n, r ←0, s ←1, t ←0, w ←u; we will preserve the invariant relation
@@ -50903,7 +47051,7 @@ values lj = ln(1 −ζj/
 2 ). Then l0 = ln(1 −1/
 √
 2 ), l1 = l7 =
-1
+
 2 ln 1
 2 −i arctan 1,
 l2 = l6 = 1
@@ -50969,7 +47117,7 @@ A = 1
 C = 1
 4 arctan z,
 B =
-1
+
 27/2 ln 1 +
 √
 2z + z2
@@ -50977,7 +47125,7 @@ B =
 √
 2z + z2 ,
 D =
-1
+
 25/2 arctan
 √
 2z
@@ -50986,7 +47134,7 @@ D =
 
 4.3.1
 ANSWERS TO EXERCISES
-629
+
 and
 
 k≥0
@@ -51026,7 +47174,7 @@ where we want to solve u = vw (modulo bn/2). Compute v′ such that v′v mod b 
 w1 = v′u′
 0 mod b, etc.
 The rightmost n/2 places are found after about
-1
+
 8n2 basic
 operations. So the total is 1
 4n2 + O(n), while Algorithm D needs about n2 + O(n). A
@@ -51053,8 +47201,7 @@ by Shand and Vuillemin and by Kornerup, [IEEE Symp. Computer Arithmetic 11
 (1993), 252–259, 277–283]. If n is large, the techniques of Section 4.3.3 speed up the
 multiplication.
 (c) Represent all numbers congruent to u (modulo w) by an internal value r(u)
-where r(u) ≡bnu. Then addition and subtraction are handled as usual, while mul-
-tiplication is r(uv) = bmult(r(u), r(v)), where bmult is the operation of (b). At the
+where r(u) ≡bnu. Then addition and subtraction are handled as usual, while multiplication is r(uv) = bmult(r(u), r(v)), where bmult is the operation of (b). At the
 beginning of the computation, replace each operand u by r(u) = bmult(u, a), using
 the precomputed constant a = b2n mod w.
 At the end, replace each r(u) by u =
@@ -51079,8 +47226,6 @@ r
 
 (k + 1 −r)m−j.
 
-
-630
 ANSWERS TO EXERCISES
 4.3.1
 The inner sum is k
@@ -51140,7 +47285,7 @@ Notice that, as in the nonconstructive proof, we have mj/dj = Mj/Mj−1.
 
 4.3.2
 ANSWERS TO EXERCISES
-631
+
 4. (After m4 = 91 = 7 · 13, we have used up all products of two or more odd primes
 that can be less than 100, so m5, . . . must all be prime.) We find
 m7 = 79,
@@ -51178,8 +47323,7 @@ part (a), (1+2d +· · ·+2(c−1)d)·(2e −1) ≡(1+2d +· · ·+2(c−1)d)·(
 2ce −1 ≡21 −1 = 1 (modulo 2f −1).
 7. We have vjmj−1 . . . m1 ≡uj −(vj−1mj−2 . . . m1 +· · ·+v1) and Cjmj−1 . . . m1 ≡1
 (modulo mj) by (23), (25), and (26); see P. A. Pritchard, CACM 27 (1984), 57.
-This method of rewriting the formulas uses the same number of arithmetic oper-
-ations and fewer constants; but the number of constants is fewer only if we order the
+This method of rewriting the formulas uses the same number of arithmetic operations and fewer constants; but the number of constants is fewer only if we order the
 moduli so that m1 < m2 < · · · < mr, otherwise we would need a table of mi mod mj.
 This ordering of the moduli might seem to require more computation than if we made
 m1 the largest, m2 the next largest, etc., since there are many more operations to be
@@ -51198,24 +47342,21 @@ same memory locations, as they can in (24).)
 10. If we redefine the “mod” operator so that it produces residues in the symmetrical
 range, the basic formulas (2), (3), (4) for arithmetic and (24), (25) for conversion
 remain the same, and the number u in (25) lies in the desired range (10). (Here (25) is
-a balanced mixed-radix notation, generalizing balanced ternary notation.) The compar-
-ison of two numbers may still be done from left to right, in the simple manner described
+a balanced mixed-radix notation, generalizing balanced ternary notation.) The comparison of two numbers may still be done from left to right, in the simple manner described
 in the text. Furthermore, it is possible to retain the value uj in a single computer word,
 if we have signed magnitude representation within the computer, even if mj is almost
 twice the word size. But the arithmetic operations analogous to (11) and (12) are more
 
-
-632
 ANSWERS TO EXERCISES
 4.3.2
 difficult, so it appears that this idea would result in slightly slower operation on most
 computers.
 11. Multiply by
-1
+
 2(m + 1) = ( 1
 2(m1 + 1), . . . , 1
 2(mr + 1)). Note that 2t · m+1
-2
+
 ≡t
 (modulo m). In general if v is relatively prime to m, then we can find (by Euclid’s
 algorithm) a number v′ = (v′
@@ -51245,8 +47386,7 @@ k=0 ukak2kq/n and v =
 n−1
 k=0 vkak2kq/n now imply that w = n−1
 k=0 tkak2kq/n where tk ≈zk/ak. If sufficient
-accuracy has been maintained, each tk will be very close to an integer. The represen-
-tation of w can readily be found from those integers. [R. Crandall and B. Fagin, Math.
+accuracy has been maintained, each tk will be very close to an integer. The representation of w can readily be found from those integers. [R. Crandall and B. Fagin, Math.
 Comp. 62 (1994), 305–324. For improved error bounds, and extensions to moduli of
 the form k · 2n ± 1, see Colin Percival, Math. Comp. 72 (2002), 387–395.]
 SECTION 4.3.3
@@ -51255,29 +47395,14 @@ SECTION 4.3.3
 34 × 41 :
 22 × 18 :
 1234 × 2341 :
-02
-12
-02
-0276
-02
-12
-02
-0276
+
+
 −01
 +03
 +00
 −0396
-06
-04
-16
-1394
-06
-04
-16
-1394
-0276
-1394
-0396
+
+
 2888794
 2.
 
@@ -51310,7 +47435,7 @@ induction since Rk+1 −Rk ≤1 and Qk −Qk−1 ≥2.)
 
 4.3.3
 ANSWERS TO EXERCISES
-633
+
 4. For j = 1, . . . , r, calculate Ue(j2), jUo(j2), Ve(j2), jVo(j2); and by recursively
 calling the multiplication algorithm, calculate
 W(j) = (Ue(j2) + jUo(j2))(Ve(j2) + jVo(j2)),
@@ -51355,7 +47480,7 @@ to the estimate (21).
 6. Any common divisor of 6q+d1 and 6q+d2 must also divide their difference d2−d1.
 The
 6
-2
+
 
 differences are 2, 3, 4, 6, 8, 1, 2, 4, 6, 1, 3, 5, 2, 4, 2, so we must only show
 that at most one of the given numbers is divisible by each of the primes 2, 3, 5. Clearly
@@ -51367,8 +47492,7 @@ j≥1 j/2j = M. Thus tk ≤M · 6k = O(plog3 6
 k
 ).
 8. False. To see the fallacy, try it with k = 2.
-9. ˜us = ˆu(qs) mod K. In particular, if q = −1 we get ˆu(−r) mod K, which avoids data-
-flipping when computing inverse transforms.
+9. ˜us = ˆu(qs) mod K. In particular, if q = −1 we get ˆu(−r) mod K, which avoids dataflipping when computing inverse transforms.
 10. A[j](sk−1, . . . , sk−j, tk−j−1, . . . , t0) can be written
 
 0≤tk−1,...,tk−j≤1
@@ -51391,8 +47515,6 @@ exactly 22k/2j values of p and q.
 Mj at time 3j −1. It follows that Mj cannot have z2z1z0 ̸= 000 until time 3(j −1).
 Furthermore, if Mj has z0 ̸= 0 at time t, we cannot change this to z0 = 0 without
 
-
-634
 ANSWERS TO EXERCISES
 4.3.3
 affecting the output; but the output cannot be affected by this value of z0 until at least
@@ -51401,8 +47523,7 @@ that 3(j −1) ≤t, we must have 4(j −1) ≤2n, that is, j −1 ≤n/2, i.e.,
 This is the best possible bound, since the inputs u = v = 2n −1 require the use of
 Mj for all j ≤⌊n/2⌋+ 1. (For example, Table 2 shows that M2 is needed to multiply
 two-bit numbers, at time 3.)
-12. We can “sweep through” K lists of MIX-like instructions, executing the first instruc-
-tion on each list, in O(K + (N log N)2) steps as follows: (i) A radix list sort (Section
+12. We can “sweep through” K lists of MIX-like instructions, executing the first instruction on each list, in O(K + (N log N)2) steps as follows: (i) A radix list sort (Section
 5.2.5) will group together all identical instructions, in time O(K +N). (ii) Each set of j
 identical instructions can be performed in O(log N)2 +O(j) steps, and there are O(N 2)
 sets. A bounded number of sweeps will finish all the lists. The remaining details are
@@ -51451,7 +47572,7 @@ that product, we change the 3n −2ϵ places starting at position 3n + Sn to the
 
 4.4
 ANSWERS TO EXERCISES
-635
+
 U1V1−(U0−U1)(V0−V1)+2nU1V1. (Notice that 3n−2ϵ+3n+Sn = 3N +SN.) Finally,
 we form the 2n-place product U0V0 starting at position 0, and add it to the partial
 result starting at positions 2n + Sn and 3n + Sn. We must also move the 2N-place
@@ -51480,53 +47601,29 @@ T.
 = 14(lb.
 = 16 oz.)))
 Start with zero
-0
-0
-0
-0
-0
+
+
 Add 3
-0
-0
-0
-0
-3
+
+
 Multiply by 24
-0
-0
-0
-4
-8
+
+
 Add 9
-0
-0
-0
-5
-1
+
+
 Multiply by 60
-0
-2
-5
-9
-12
+
+
 Add 12
-0
-2
-5
-10
-8
+
+
 Multiply by 60
-8
-3
-1
-0
-0
+
+
 Add 37
-8
-3
-1
-2
-5
+
+
 (Addition and multiplication by a constant in a mixed-radix system are readily done
 using a simple generalization of the usual carry rule; see exercise 4.3.1–9.)
 2. We compute ⌊u/B0⌋, ⌊⌊u/B0⌋/B1⌋, etc., and the remainders are A0, A1, etc. The
@@ -51536,46 +47633,32 @@ d.
 = 60(m.
 = 60 s.))
 Start with u
-3
-9
-12
-37
+
+
 Divide by 16
-0
-5
-4
-32
+
+
 Remainder = 5
 Divide by 14
-0
-0
-21
-45
+
+
 Remainder = 2
 Divide by 8
-0
-0
-2
-43
+
+
 Remainder = 1
 Divide by 20
-0
-0
-0
-8
+
+
 Remainder = 3
 Divide by ∞
-0
-0
-0
-0
+
+
 Remainder = 8
 Answer: 8 T. 3 cwt. 1 st. 2 lb. 5 oz.
 3. The following procedure due to G. L. Steele Jr. and Jon L White generalizes
 Taranto’s algorithm for B = 2 originally published in CACM 2, 7 (July 1959), 27.
 
-
-636
 ANSWERS TO EXERCISES
 4.4
 A1. [Initialize.] Set M ←0, U0 ←0.
@@ -51632,7 +47715,7 @@ INC1 1
 JAP
 1B
 9. Let pk = 22k+2. By induction on k we have vk(u) ≤
-16
+
 5 (1 −1/pk)(⌊u/2⌋+ 1);
 hence ⌊vk(u)/16⌋≤⌊⌊u/2⌋/5⌋= ⌊u/10⌋for all integers u ≥0. Furthermore, since
 vk(u + 1) ≥vk(u), the smallest counterexample to ⌊vk(u)/16⌋= ⌊u/10⌋must occur
@@ -51656,7 +47739,7 @@ p0 −1 .
 Furthermore vk(u) + mk = vk+1(u) + mk+1 is independent of k, and it follows that
 vk(u)/16 = m + (3 −mk)/16. So the minimal counterexample u = 10yk is obtained for
 0 ≤k ≤4 by setting mk = 4 and rj = pj −1 in the formula yk =
-1
+
 16(vk + mk −c0). In
 hexadecimal notation, yk turns out to be the final 2k digits of 434243414342434.
 Since v4(10y4) is less than 264, the same counterexample is also minimal for all
@@ -51665,11 +47748,11 @@ k > 4. One way to work with larger operands is to modify the method by starting 
 
 4.4
 ANSWERS TO EXERCISES
-637
+
 v0(u) = 6⌊u/2⌋+ 6 and letting ck = 6(pk −1)/(p0 −1), m0 = 2m. (In effect, we are
 truncating one bit further to the right than before.) Then ⌊vk(u)/32⌋= ⌊u/10⌋when
 u is less than 10zk, for 1 ≤k ≤7, where zk =
-1
+
 32(vk + mk −6) when mk = 7, r0 = 14,
 and rj = pj −1 for j > 0. For example, z4 = 1c342c3424342c34. [This exercise is
 based on ideas of R. A. Vowels, Australian Comp. J. 24 (1992), 81–85.]
@@ -51695,7 +47778,7 @@ in octal-to-decimal conversion but without doubling. Decimal to nonary is simila
 the given example, we have
 1.7 6 4 7 2 3
 −
-1
+
 1 6.6 4 7 2 3
 −
 1 6
@@ -51715,7 +47798,7 @@ the given example, we have
 Answer: (987654)10.
 9.8 7 6 5 4
 +
-9
+
 1 1 8.7 6 5 4
 +
 1 1 8
@@ -51762,8 +47845,6 @@ STA
 BUF+40,2(2:5)
 Store next nine digits.
 
-
-638
 ANSWERS TO EXERCISES
 4.4
 STX
@@ -51838,7 +47919,7 @@ reversing the argument.
 
 4.5.1
 ANSWERS TO EXERCISES
-639
+
 4. Let d1 = gcd(u, v), d2 = gcd(u′, v′); the answer is w = (u/d1)(v′/d2)sign(v),
 w′ = |(u′/d2)(v/d1)|, with a “divide by zero” error message if v = 0.
 5. d1 = 10, t = 17 · 7 −27 · 12 = −205, d2 = 5, w = −41, w′ = 168.
@@ -51872,9 +47953,9 @@ quantities differing by more than unity cannot have the same “floor.” (In ot
 the first 2n bits to the right of the binary point are enough to characterize the value
 of a binary fraction, when there are n-bit denominators. We cannot improve this to
 2n −1 bits, for if n = 4 we have
-1
+
 13 = (.00010011 . . . )2,
-1
+
 14 = (.00010010 . . . )2.)
 11. To divide by (v + v′√
 5 )/v′′, when v and v′ are not both zero, multiply by the
@@ -51892,8 +47973,6 @@ a 3-bit field to indicate the number of hexadecimal digits in the denominator.
 2140040119 finite representable numbers, while the second leads to 1830986459. The
 first alternative is preferable because it represents more values, and because it is cleaner
 
-
-640
 ANSWERS TO EXERCISES
 4.5.1
 and makes smoother transitions between ranges. With 64-bit words we would, similarly,
@@ -51909,16 +47988,14 @@ n=1
 SECTION 4.5.2
 1. Substitute min, max, + consistently for gcd, lcm, ×, respectively (after making
 sure that the identities are correct when any variable is zero).
-2. For prime p, let up, v1p, . . . , vnp be the exponents of p in the canonical factor-
-izations of u, v1, . . . , vn. By hypothesis, up ≤v1p + · · · + vnp. We must show that
+2. For prime p, let up, v1p, . . . , vnp be the exponents of p in the canonical factorizations of u, v1, . . . , vn. By hypothesis, up ≤v1p + · · · + vnp. We must show that
 up ≤min(up, v1p) + · · · + min(up, vnp), and this is certainly true if up is greater than
 or equal to each vjp, or if up is less than some vjp.
 3. Solution 1: If n = pe1
 1 . . . per
 r , the number in each case is (2e1 + 1) . . . (2er + 1).
 Solution 2: A one-to-one correspondence is obtained if we set u = gcd(d, n) and v =
-n2/ lcm(d, n) for each divisor d of n2. [E. Cesàro, Annali di Matematica Pura ed Ap-
-plicata (2) 13 (1885), 235–250, §12.]
+n2/ lcm(d, n) for each divisor d of n2. [E. Cesàro, Annali di Matematica Pura ed Applicata (2) 13 (1885), 235–250, §12.]
 4. See exercise 3.2.1.2–15(a).
 5. Shift u and v right until neither is a multiple of 3, remembering the proper power
 of 3 that will appear in the gcd. Each subsequent iteration sets t ←u + v or t ←u −v
@@ -51931,45 +48008,45 @@ t
 24140
 10506, 3502;
 13634
-3502
+
 17136, 5712, 1904;
-1904
-3502
+
+
 5406, 1802;
-1904
-1802
+
+
 102, 34;
-34
-1802
+
+
 1836, 612, 204, 68;
-34
-68
+
+
 102, 34;
-34
-34
+
+
 0.
 The evidence that gcd(40902, 24140) = 34 is now overwhelming.
 6. The probability that both u and v are even is
-1
+
 4; the probability that both are
 multiples of four is
-1
+
 16; etc. Thus A has the distribution given by the generating function
-3
+
 4 + 3
 16z + 3
 64z2 + · · · =
 3/4
 1 −z/4.
 The mean is
-1
+
 3, and the standard deviation is
 
-2
+
 9 + 1
 3 −1
 9 =
-2
+
 3.
 If u and v are
 independently and uniformly distributed with 1 ≤u, v < 2N, some small correction
@@ -51985,7 +48062,7 @@ k=1
 
 4.5.2
 ANSWERS TO EXERCISES
-641
+
 7. When u and v are not both even, each of the cases (even, odd), (odd, even), (odd,
 odd) is equally probable, and B = 1, 0, 0 in these cases. Hence B = 1
 3 on the average.
@@ -52051,12 +48128,12 @@ divisors of n. The answer is
 
 k≥1
 σ(k) ·
-6
+
 π2k2 = 6
 π2
 
 k≥1
-1
+
 k2
 2
 = π2
@@ -52065,7 +48142,7 @@ k2
 divisors when u and v are not relatively prime.]
 13. 1 + 1
 9 +
-1
+
 25 + · · · = 1 + 1
 4 + 1
 9 + · · · −1
@@ -52085,8 +48162,6 @@ close of the algorithm, but this is not an especially efficient way to compute t
 common multiple. For a generalization, see exercise 4.6.1–18.]
 Further details can be found in exercise 4.5.3–48.
 
-
-642
 ANSWERS TO EXERCISES
 4.5.2
 16. Apply Algorithm X to v and m, thus obtaining a value x such that xv ≡1
@@ -52094,8 +48169,7 @@ ANSWERS TO EXERCISES
 not computed, since they are never used in the answer.) Then set w ←ux mod m. [It
 follows, as in exercise 4.5.3–45, that this process requires O(n2) units of time, when it is
 applied to large n-bit numbers. See exercises 17 and 39 for alternatives to Algorithm X.]
-17. We can let u′ = (2u −vu2) mod 22e, as in Newton’s method (see the end of Sec-
-tion 4.3.1). Equivalently, if uv ≡1+2ew (modulo 22e), let u′ = u+2e((−uw) mod 2e).
+17. We can let u′ = (2u −vu2) mod 22e, as in Newton’s method (see the end of Section 4.3.1). Equivalently, if uv ≡1+2ew (modulo 22e), let u′ = u+2e((−uw) mod 2e).
 18. Let u1, u2, u3, v1, v2, v3 be multiprecision variables, in addition to u and v. The
 extended algorithm will act the same on u3 and v3 as Algorithm L does on u and v. New
 multiprecision operations are to set t ←Auj, t ←t + Bvj, w ←Cuj, w ←w + Dvj,
@@ -52111,11 +48185,11 @@ be obtained for n > 0:
 Case 1, m = n. From (n, n) we go to (n−t, n) with probability t/2t−5/2t+1+3/22t,
 for 2 ≤t < n.
 (These values are
-1
+
 16,
-7
+
 64,
-27
+
 256, . . . .)
 To (0, n) the probability is
 n/2n−1 −1/2n−2 + 1/22n−2. To (n, k) the probability is the same as to (k, n). The
@@ -52124,10 +48198,10 @@ Case 2, m = n+1. From (n+1, n) we get to (n, n) with probability 1
 8 when n > 1,
 or 0 when n = 1; to (n −t, n) with probability 11/2t+3 −3/22t+1, for 1 ≤t < n −1.
 (These values are
-5
+
 16, 1
 4,
-19
+
 128, . . . .) We get to (1, n) with probability 5/2n+1 −3/22n−1,
 for n > 1; to (0, n) with probability 3/2n −1/22n−1.
 Case 3, m ≥n + 2. The probabilities are given by the following table:
@@ -52146,8 +48220,7 @@ n > 1;
 1/2m−1.
 The only thing interesting about these results is that they are so messy; but that
 makes them uninteresting.
-21. Show that for fixed v and for 2m < u < 2m+1, when m is large, each subtract-
-and-shift cycle of the algorithm reduces ⌊lg u⌋by two, on the average.
+21. Show that for fixed v and for 2m < u < 2m+1, when m is large, each subtractand-shift cycle of the algorithm reduces ⌊lg u⌋by two, on the average.
 22. Exactly (N −m)2m−1+δm0 integers u in the range 1 ≤u < 2N have ⌊lg u⌋= m,
 after u has been shifted right until it is odd. Thus
 (2N −1)2C = N 2C00 + 2N
@@ -52166,7 +48239,7 @@ after u has been shifted right until it is odd. Thus
 
 4.5.2
 ANSWERS TO EXERCISES
-643
+
 The middle sum is 22N−2 
 0≤m<n<N mn2−m−n((α + β)N + γ −αm −βn). Since
 
@@ -52191,7 +48264,7 @@ n2−n(2−(n+1)21−n)+O(1)
 .
 Thus the coefficient of (α + β)N in the answer is found to be 2−2(4 −( 4
 3)3) =
-11
+
 27.
 A similar argument applies to the other sums.
 Note: The exact value of the sums may be obtained after some tedious calculation
@@ -52275,11 +48348,11 @@ More detailed
 information can be obtained by writing
 
 j≥1
-1
+
 22j
-1
+
 en/2j−1 =
-1
+
 2πi
 
 j≥1
@@ -52288,7 +48361,7 @@ j≥1
 ζ(z)Γ(z)n−z
 2j(2−z)
 dz =
-1
+
 2πi
 3/2+i∞
 3/2−i∞
@@ -52296,8 +48369,6 @@ dz =
 22−z−1
 dz.
 
-
-644
 ANSWERS TO EXERCISES
 4.5.2
 The integral is the sum of the residues at the poles 2 + 2πik/ ln 2, namely n−2 times
@@ -52310,10 +48381,10 @@ is a periodic function of lg n whose “average” value is zero.
 29. (Solution by P. Flajolet and B. Vallée.) If f(x) = 
 k≥1 2−kg(2kx) and g∗(s) =
 ∞
-0
+
 g(x)xs−1dx, then f ∗(s) = 
 k≥1 2−k(s+1)g∗(s) = g∗(s)/(2s+1 −1), and f(x) =
-1
+
 2πi
 c+i∞
 c−i∞f ∗(s)x−sds under appropriate conditions. Letting g(x) = 1/(1 + x), we find
@@ -52322,11 +48393,11 @@ f(x) =
 ∞
 
 k=1
-1
+
 2k
-1
+
 1 + 2kx =
-1
+
 2πi
 1/2+i∞
 1/2−i∞
@@ -52351,7 +48422,7 @@ is a periodic function whose absolute value never exceeds 8 × 10−12. (The fac
 P(t) is so small caused Brent to overlook it in his original paper.)
 The Mellin transform of f(1/x) is f ∗(−s) = π/((1−21−s) sin πs) for −1 < ℜs < 0;
 thus f(1/x) =
-1
+
 2πi
 −1/2+i∞
 −1/2−i∞
@@ -52371,16 +48442,16 @@ k=0(−1)kxk/(2k+1 −1).
 Σ1(x) =
 
 k,l≥1
-1
+
 2k+l
-1
+
 1 + 2l(1 + 2kx),
 Σ2(x) =
 
 k,l≥1
-1
+
 2k
-1
+
 1 + 2l + 2kx.
 The Mellin transforms are Σ∗
 1(s) =
@@ -52401,7 +48472,7 @@ k≥0
 s −1
 k
 
-1
+
 2k+2 −1,
 b(s) =
 
@@ -52412,7 +48483,7 @@ k≥0
 s −1
 k
 
-1
+
 2k+1−s −1.
 Therefore we obtain the following expansions for 0 ≤x ≤1:
 Σ1(x) = a(0) + a(−1)x(lg x+ 1
@@ -52431,7 +48502,7 @@ k≥2
 
 4.5.2
 ANSWERS TO EXERCISES
-645
+
 Σ1(1/x) =
 
 k≥1
@@ -52446,7 +48517,7 @@ k≥1
 
 lg x −ˆb(k) −1
 2 −
-1
+
 2k+1 −1 + Hk−1
 ln 2 + Pk(lg x)
 
@@ -52458,10 +48529,10 @@ k=0
 s −1
 k
 
-1
+
 2k+1−s −1 ;
 A(t) =
-1
+
 ln 2
 
 m≥1
@@ -52472,7 +48543,7 @@ sinh(2mπ2/ln 2) a(−1 + 2mπi/ln 2) e−2mπit
 
 ,
 B(t) =
-1
+
 ln 2
 
 m≥1
@@ -52483,7 +48554,7 @@ sinh(2mπ2/ln 2) b(−1 + 2mπi/ln 2) e−2mπit
 
 ,
 Pk(t) =
-1
+
 ln 2
 
 m≥1
@@ -52498,8 +48569,7 @@ e−2mπit
 
 .
 32. Yes: See G. Maze, J. Discrete Algorithms 5 (2007), 176–186.
-34. Brigitte Vallée [Algorithmica 22 (1998), 660–685] has found an elegant and rig-
-orous analysis of Algorithm B, using an approach quite different from that of Brent.
+34. Brigitte Vallée [Algorithmica 22 (1998), 660–685] has found an elegant and rigorous analysis of Algorithm B, using an approach quite different from that of Brent.
 Indeed, her methods are sufficiently different that they are not yet known to predict the
 same behavior as Brent’s heuristic model. Thus the problem of analyzing the binary
 gcd algorithm, now solved rigorously for the first time, continues to lead to ever more
@@ -52538,14 +48608,11 @@ v′w
 than u and v. (Instead of dividing the simulated even operand by 2, multiply the other
 one by 2, until obtaining multiples of w after exactly lg w shifts.) Experiments show
 
-
-646
 ANSWERS TO EXERCISES
 4.5.2
 this algorithm running four times as fast as Algorithm L, on at least one computer.
 With the similar algorithm of exercise 40 we don’t need the most significant words.
-A possibly faster binary algorithm has been described by J. Sorenson, J. Algo-
-rithms 16 (1994), 110–144; Shallit and Sorenson, Lecture Notes in Comp. Sci. 877
+A possibly faster binary algorithm has been described by J. Sorenson, J. Algorithms 16 (1994), 110–144; Shallit and Sorenson, Lecture Notes in Comp. Sci. 877
 (1994), 169–183.
 39. (Solution by Michael Penk.) Assume that u and v are positive.
 Y1. [Find power of 2.] Same as step B1.
@@ -52595,7 +48662,7 @@ See L. E. Dickson, History of the Theory of Numbers 1 (Carnegie Inst. of Washing
 
 4.5.3
 ANSWERS TO EXERCISES
-647
+
 SECTION 4.5.3
 1. The running time is about 19.02T + 6, just a trifle slower than Program 4.5.2A.
 2.
@@ -52656,8 +48723,6 @@ that the partial quotients of X and Y eventually agree. [J. de Math. Pures et Ap
 inspection of this proof, that Xm = Yn if and only if X = (qY + r)/(sY + t), where
 qt −rs = (−1)m−n.]
 
-
-648
 ANSWERS TO EXERCISES
 4.5.3
 12. (a) Since VnVn+1 = D −U 2
@@ -52770,15 +48835,14 @@ But the main principles of the theory of continued fractions for quadratics are 
 
 4.5.3
 ANSWERS TO EXERCISES
-649
+
 due to Euler [Novi Comment. Acad. Sci. Petrop. 11 (1765), 28–66] and Lagrange [Hist.
 Acad. Sci. 24 (Berlin: 1768), 111–180].
 14. As in exercise 9, we need only verify the stated identities when c is the last
 partial quotient, and this verification is trivial.
 Now Hurwitz’s rule gives 2/e =
 //1, 2, 1, 2, 0, 1, 1, 1, 1, 1, 0, 2, 3, 2, 0, 1, 1, 3, 1, 1, 0, 2, 5, . . . //.
-Taking the reciprocal, col-
-lapsing out the zeros as in exercise 9, and taking note of the pattern that appears,
+Taking the reciprocal, collapsing out the zeros as in exercise 9, and taking note of the pattern that appears,
 we find (see exercise 16) that e/2 = 1 + // 2, 2m + 1, 3, 1, 2m + 1, 1, 3//, m ≥0.
 [Schriften der phys.-ökon. Gesellschaft zu Königsberg 32 (1891), 59–62. Hurwitz also
 explained how to multiply by an arbitrary positive integer, in Vierteljahrsschrift der
@@ -52803,61 +48867,21 @@ C )
 begins at the upper left corner, then shifts right one on input, down one on output:
 xj
 −1
-5
-1
-1
-1
-2
-1
-2
+
+
 ∞
 Xk
-39
-97
+
+
 −58
 −193
 −2
 −25
 −62
-37
-123
-2
-16
-53
-3
-5
-17
-22
-7
-1
-2
-3
-5
-1
-3
-1
-4
-5
-14
-1
-2
-1
-3
-7
-1
-2
-7
-9
-25
-12
-1
-0
-1
-2
-2
-1
+
+
 ∞
-0
+
 M. Mendès France has shown that the number of quotients output per quotient input
 is asymptotically bounded between 1/r and r, where r = 2⌊L(|ad −bc|)/2⌋+ 1 and
 L is the function defined in exercise 38; this bound is best possible. [Topics in Number
@@ -52868,8 +48892,6 @@ x and y (in particular, to compute sums and products). [MIT AI Laboratory Memo
 239 (29 February 1972), Hack 101.] For further developments, see J. Vuillemin, ACM
 Conf. LISP and Functional Programming 5 (1988), 14–27.
 
-
-650
 ANSWERS TO EXERCISES
 4.5.3
 16. It is not difficult to prove by induction that fn(z) = z/(2n + 1) + O(z3) is an odd
@@ -52974,7 +48996,7 @@ k≥0
 
 4.5.3
 ANSWERS TO EXERCISES
-651
+
 We now have (e2z −1)(An(2z) + An(−2z)) −(e2z + 1)(An(2z) −An(−2z)) = 2Rn(2z);
 hence
 tanh z −//z−1, 3z−1, . . . , (2n −1)z−1// =
@@ -52982,7 +49004,7 @@ tanh z −//z−1, 3z−1, . . . , (2n −1)z−1// =
 (An(2z) + An(−2z))(e2z + 1),
 and we have an exact formula for the difference. When |2z| ≤1, the factor e2z + 1 is
 bounded away from zero, |Rn(2z)| ≤e n!/(2n + 1)!, and
-1
+
 2|An(2z) + An(−2z)| ≥n!
 2n
 n
@@ -53010,7 +49032,7 @@ n!
 64 −· · ·
 
 = 2
-3
+
 (2n)!
 n! .
 Thus convergence is very rapid, even for complex values of z.
@@ -53023,8 +49045,7 @@ m ≥0.
 Another derivation has been given by C. S. Davis, J. London Math. Soc. 20 (1945),
 194–198.
 The continued fraction for e was first found empirically by Roger Cotes,
-Philosophical Transactions 29 (1714), 5–45, Proposition 1, Scholium 3. Euler com-
-municated his results in a letter to Goldbach on November 25, 1731 [Correspondance
+Philosophical Transactions 29 (1714), 5–45, Proposition 1, Scholium 3. Euler communicated his results in a letter to Goldbach on November 25, 1731 [Correspondance
 Mathématique et Physique, edited by P. H. Fuss, 1 (St. Petersburg: 1843), 56–60], and
 he eventually published fuller descriptions in Commentarii Acad. Sci. Petropolitanæ 9
 (1737), 98–137; 11 (1739), 32–81.
@@ -53043,12 +49064,9 @@ Km(a1, a2, . . . , am) //a1, a2, . . . , am, x1, a1, a2, . . . , am, x2, a1, a2,
 Km−1(a2, . . . , am) + //(−1)m(C + Ax1), C + Ax2, (−1)m(C + Ax3), . . . //, where A =
 Km(a1, a2, . . . , am) and C = Km−1(a2, . . . , am) + Km−1(a1, . . . , am−1). Consequently
 the stated difference is (Km−1(a2, . . . , am)−Km−1(a1, . . . , am−1))/Km(a1, a2, . . . , am),
-by (6). [The case m = 2 was discussed by Euler in Commentarii Acad. Sci. Petropoli-
-tanæ 9 (1737), 98–137, §24–26.]
+by (6). [The case m = 2 was discussed by Euler in Commentarii Acad. Sci. Petropolitanæ 9 (1737), 98–137, §24–26.]
 19. The sum for 1 ≤k ≤N is logb((1 + x)(N + 1)/(N + 1 + x)).
 
-
-652
 ANSWERS TO EXERCISES
 4.5.3
 20. Let H = SG, g(x) = (1 + x)G′(x), h(x) = (1 + x)H′(x). Then (37) implies that
@@ -53098,7 +49116,7 @@ d\n g(d), then g(n) = 
 d\n µ(n/d)f(d).
 29. We have N
 n=1 n ln n =
-1
+
 2N 2 ln N + O(N 2) by Euler’s summation formula (see
 exercise 1.2.11.2–7). Also N
 n=1 n 
@@ -53126,7 +49144,7 @@ when v = n and u is relatively prime to n.
 
 4.5.3
 ANSWERS TO EXERCISES
-653
+
 K. Vahlen [Crelle 115 (1895), 221–233] considered all algorithms that replace
 (u, v) by (v, (±u) mod v) at each iteration when u mod v ̸= 0.
 If u ⊥v there are
@@ -53206,8 +49224,6 @@ Hardy and Wright, An Introduction to the Theory of Numbers, §22.9.]
 35. See Proc. Nat. Acad. Sci. 72 (1975), 4720–4722. M. L. V. Pitteway and C. M. A.
 Castle [Bull. Inst. Math. and Its Applications 24 (1988), 17–20] have found strong and
 
-
-654
 ANSWERS TO EXERCISES
 4.5.3
 tantalizing empirical evidence that the sum of all partial quotients is actually
@@ -53276,7 +49292,7 @@ The essential ideas were published by Daniel Schwenter [Deliciæ Physico-Mathema
 
 4.5.3
 ANSWERS TO EXERCISES
-655
+
 (Nürnberg: 1636), Part 1, Problem 87; Geometria Practica, 3rd edition (1641), 68;
 see M. Cantor, Geschichte der Math. 2 (1900), 763–765], and by John Wallis in his
 Treatise of Algebra (1685), Chapters 10–11. C. Huygens put such ideas to good use
@@ -53286,7 +49302,7 @@ when designing the gear-wheels of his planetarium [see Descriptio Automati Plane
 algebra (1774), §18–§20. See also exercise 1.3.2–19; A. Brocot, Revue Chronométrique
 3 (1861), 186–194; D. H. Lehmer, AMM 36 (1929), 59–67.]
 41. In fact, the regular continued fractions for numbers of the general form
-1
+
 l1 + (−1)e1
 l2
 1l2
@@ -53305,8 +49321,7 @@ In particular we find that if pn/qn = Kn−1(x2, . . . , xn)/Kn(x1, . . . , xn) 
 then pn/qn + (−1)n/q2
 nr = //x1, . . . , xn, r −1, 1, xn −1, xn−1, . . . , x1//. By changing
 //x1, . . . , xn// to //x1, . . . , xn−1, xn −1, 1//, we can control the sign (−1)n as desired.
-For example, the partial sums of the first series have the following continued frac-
-tions of even length: //1, 1//; //1, 1, 1, 1, 0, 1// = //1, 1, 1, 2//; //1, 1, 1, 2, 1, 1, 1, 1, 1, 1//;
+For example, the partial sums of the first series have the following continued fractions of even length: //1, 1//; //1, 1, 1, 1, 0, 1// = //1, 1, 1, 2//; //1, 1, 1, 2, 1, 1, 1, 1, 1, 1//;
 //1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 2, 1, 1, 1// = //1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1,
 1, 2, 1, 1, 1//; and from this point on the sequence settles down and obeys a simple
 reflecting pattern. We find that the nth partial quotient an can be computed rapidly
@@ -53348,8 +49363,6 @@ and if n mod 4 = 3 it is lk!(k−1) −1 or 1, depending on whether dn+1 = 0 or 
 is the largest power of 2 dividing n + 1. When l = 2 the same rules apply, except that
 0s must be removed, so there is a more complicated pattern depending on n mod 24.
 
-
-656
 ANSWERS TO EXERCISES
 4.5.3
 [References: J. O. Shallit, J. Number Theory 11 (1979), 209–217; Allouche, Lubiw,
@@ -53382,8 +49395,7 @@ A2, . . . , Am, then A1A2 . . . Am ≤u, so log A1+· · ·+log Am ≤log u. Als
 by Corollary L.
 46. Yes, to O(n(log n)2(log log n)), even if we also need to compute the sequence of
 partial quotients that would be computed by Euclid’s algorithm; see A. Schönhage, Acta
-Informatica 1 (1971), 139–144. Moreover, Schönhage’s algorithm is asymptotically op-
-timal for computing a continued fraction expansion, with respect to the multiplications
+Informatica 1 (1971), 139–144. Moreover, Schönhage’s algorithm is asymptotically optimal for computing a continued fraction expansion, with respect to the multiplications
 and divisions it performs [V. Strassen, SICOMP 12 (1983), 1–27]. Algorithm 4.5.2L is
 better in practice unless n is quite large, but an efficient implementation for numbers
 exceeding about 1800 bits is sketched in the book Fast Algorithms by A. Schönhage,
@@ -53411,7 +49423,7 @@ exercise 40, with an additional node labeled 0/1. Attach the tag value y = ax �
 
 4.5.4
 ANSWERS TO EXERCISES
-657
+
 together with each node label z/x. We want to find all nodes z/x whose tag y is at most
 θ =
 √
@@ -53479,8 +49491,6 @@ exp(−l(l −1)/2m + O(l3/m2)) approaches a normal distribution, and we may ass
 that θ is uniformly distributed. Then 3·2−θ −2·2−2θ takes the average value 3/(4 ln 2),
 and the average number of iterations needed by Algorithm B comes to approximately
 
-
-658
 ANSWERS TO EXERCISES
 4.5.4
 (3/(4 ln 2) + 1
@@ -53545,7 +49555,7 @@ all remaining X[j] that equal 1, suppressing the manipulation of p and q.
 
 4.5.4
 ANSWERS TO EXERCISES
-659
+
 Notes: The original sieve of Eratosthenes was described in Book 1, Chapter 13 of
 Nicomachus’s Introduction to Arithmetic. It is well known that 
 p prime[p ≤N ]/p =
@@ -53583,56 +49593,31 @@ P
 S
 T
 Output
-1984
-1
-0
-992
-0
+
+
 —
-1981
-1981
-1
-992
-1
-1981
-1983
-4
-495
-993
-0
-1
+
+
 9932 ≡+22
-1983
-991
-2
+
+
 98109
-1
-991
-1981
-4
-495
-2
-0
-1
+
+
 22 ≡+22
-1984
-1981
-1
+
+
 99099
-1
-1981
-1984
-1
-1984
+
+
 99101
-0
-1
+
+
 991012 ≡+20
 The factorization 199·991 is evident from the first or last outputs. The shortness of the
 cycle, and the appearance of the notorious number 1984, are probably just coincidences.
 12. The following algorithm makes use of an auxiliary (m + 1) × (m + 1) matrix of
-integers Ejk, 0 ≤j, k ≤m; a single-precision vector (b0, b1, . . . , bm); and a multiple-
-precision vector (x0, x1, . . . , xm) with entries in the range 0 ≤xk < N.
+integers Ejk, 0 ≤j, k ≤m; a single-precision vector (b0, b1, . . . , bm); and a multipleprecision vector (x0, x1, . . . , xm) with entries in the range 0 ≤xk < N.
 F1. [Initialize.] Set bi ←−1 for 0 ≤i ≤m; then set j ←0.
 F2. [Next solution.] Get the next output (x, e0, e1, . . . , em) from Algorithm E. (It
 is convenient to regard Algorithms E and F as coroutines.) Set k ←m.
@@ -53643,16 +49628,13 @@ er +Eir for 0 ≤r ≤m; set k ←k −1 and return to F3. Otherwise set bk ←j
 xj ←x, Ejr ←er for 0 ≤r ≤m; set j ←j + 1 and return to F2. (In the
 latter case we have a new linearly independent solution, modulo 2, whose first
 
-
-660
 ANSWERS TO EXERCISES
 4.5.4
-odd component is ek. The values Ejr are not guaranteed to remain single-
-precision, but they tend to remain small when k decreases from m to 0 as
+odd component is ek. The values Ejr are not guaranteed to remain singleprecision, but they tend to remain small when k decreases from m to 0 as
 recommended by Morrison and Brillhart.)
 F5. [Try to factor.] (Now e0, e1, . . . , em are even.) Set
 y ←((−1)e0/2pe1/2
-1
+
 . . . pem/2
 m
 ) mod N.
@@ -53665,7 +49647,7 @@ Xa1
 1 . . . Xat
 t
 and y ≡(−1)e0/2pe1/2
-1
+
 . . . pem/2
 m
 (modulo N), where ej = a1E1j+· · ·+atEtj
@@ -53723,7 +49705,7 @@ j
 3)rN; hence
 r = 1 and t = pe1
 1 + ϵ1pe1−1
-1
+
 . Finally, therefore, e1 = 1 and ϵ1 = 1.
 Note: If this test for primality is to be any good, we must choose P and Q in
 such a way that the test will probably work. Lehmer suggests taking P = 1 so that
@@ -53743,7 +49725,7 @@ sequence cannot be used in this way to prove the primality of 13 or 17, since F7
 
 4.5.4
 ANSWERS TO EXERCISES
-661
+
 13 = 0 and F9 mod 17 = 0. When p ≡±1 (modulo 10), we have 5(p−1)/2 mod p = 1, so
 Fp−1 (not Fp+1) is divisible by p.
 17. Let f(q) = 2 lg q −1. When q = 2 or 3, the tree has at most f(q) nodes. When
@@ -53818,8 +49800,6 @@ iq′
 i, where k′
 i =
 
-
-662
 ANSWERS TO EXERCISES
 4.5.4
 min(k, ki) and q′
@@ -53854,7 +49834,7 @@ is near 1
 4 in only two cases, when n is (1 + 2q1)(1 + 4q1) or a Carmichael number of
 the special form (1 + 2q1)(1 + 2q2)(1 + 2q3). For example, when n = 49939 · 99877 we
 have bn =
-1
+
 4(49938 · 99876) and pn ≈.24999; when n = 1667 · 2143 · 4523, we have
 bn = 1
 4(1666 · 2142 · 4522), pn ≈.24968. See the next answer for further remarks.]
@@ -53933,7 +49913,7 @@ r
 i=1
 gcd
 n −1
-2
+
 , ni −1
 
 .
@@ -53950,7 +49930,7 @@ the order of x modulo ni must be an odd multiple of 2j+1 for all prime divisors 
 
 4.5.4
 ANSWERS TO EXERCISES
-663
+
 of n. Let n = ne1
 1 . . . ner
 r
@@ -53970,15 +49950,15 @@ x is 1 if n fails the x test of Algorithm P, otherwise it is zero. When N = qn +
 0 ≤r < n, we know that row n contains at most −1 + q(bn + 1) + min(bn + 1, r) <
 q( 1
 4(n −1) + 1) + min(bn + 1, r) ≤
-1
+
 3qn + min( 1
 4n, r) =
-1
+
 3N + min( 1
 4n −1
 3r, 2
 3r) ≤
-1
+
 3N + 1
 6n ≤1
 2N entries equal to 0, so at least half of the entries in the matrix are 1.
@@ -54030,8 +50010,6 @@ number in place of “3” in the test above. If n mod 4 ̸= 0, the number 5 can
 It turns out that 3·2n + 1 is prime when n = 1, 2, 5, 6, 8, 12, 18, 30, 36, 41, 66, 189,
 201, 209, 276, 353, 408, 438, 534, 2208, 2816, 3168, 3189, 3912, 20909, 34350, 42294,
 
-
-664
 ANSWERS TO EXERCISES
 4.5.4
 42665, 44685, 48150, 55182, 59973, 80190, 157169, 213321, and no other n ≤300000;
@@ -54044,7 +50022,7 @@ Comp. 64 (1995), 397–405; J. S. Young, Math. Comp. 67 (1998), 1735–1738.]
 a multiple of p.
 f(p, pd) = 1/(p + 1) when d mod p ̸= 0.
 f(2, 4k + 3) =
-1
+
 3 since
 A2−(4k+3)B2 cannot be a multiple of 4; f(2, 8k+5) = 2
 3 since A2−(8k+5)B2 cannot
@@ -54095,7 +50073,7 @@ numbers a = (a1. . . ad)2, let na be the number of exponents (e′
 m) such that
 (p
 e′
-1
+
 1 . . . p
 e′
 m
@@ -54159,7 +50137,7 @@ transmit the message ¯x2 mod N.
 
 4.5.4
 ANSWERS TO EXERCISES
-665
+
 To decode this message, we first use a SQRT box to find the unique number y such
 that y2 ≡¯x2 mod N and
 y
@@ -54179,7 +50157,7 @@ O(m(log log m)2(log m)−2), by (4), although for this problem we need only the 
 estimate pm = m ln m + O(m log log m). (We will assume that pm is the mth prime,
 since this corresponds to the assumption that V is uniformly distributed.) If we choose
 ln m =
-1
+
 2c
 √
 ln N ln ln N, where c = O(1), we find that r = c−1√
@@ -54242,8 +50220,6 @@ number theory. Thus we probably will never know how to determine whether or not
 an arbitrary integer has any successors. In some cases, however, this is possible; for
 example, John Selfridge proved in 1962 that 78557 and 271129 have none [see AMM 70
 
-
-666
 ANSWERS TO EXERCISES
 4.5.4
 (1963), 101–102], after W. Sierpiński had proved the existence of infinitely many odd
@@ -54307,8 +50283,7 @@ f(n) = gcd(2m+1, n) or gcd(2m+2, n), whichever is ̸= 1, and terminate the algor
 Otherwise we reduce j by 1 as follows: Set r ←s, s ←s′ −s, s′ ←r, r ←t, t ←⌊t′/t⌋,
 t′ ←r, r ←u, u ←⌊u′/u⌋, u′ ←r; then if (⌊wu/vt⌋mod A) mod n ̸= 0, set m ←m+s,
 w ←wu, v ←vt.
-[Can this problem be solved with fewer than O(log n) operations? Can the small-
-est, or the largest, prime factor of n be computed in O(log n) operations?]
+[Can this problem be solved with fewer than O(log n) operations? Can the smallest, or the largest, prime factor of n be computed in O(log n) operations?]
 41. (a) Clearly π(x) = π(m) + f1(x, m) = π(m) + f(x, m) −f0(x, m) −f2(x, m) −
 f3(x, m) −· · · when 1 ≤m ≤x. Set x = N 3, m = N, and note that fk(N 3, N) = 0 for
 k > 2.
@@ -54318,11 +50293,11 @@ N<p≤N3/2(π(N 3/p)−π(p)+1) =
 
 N<p≤N3/2 π(N 3/p) −
 π(N3/2)
-2
+
 
 +
 π(N)
-2
+
 
 , where p and q range over primes. Hence
 f2(1000, 10) = π( 1000
@@ -54334,18 +50309,18 @@ f2(1000, 10) = π( 1000
 29 ) + π( 1000
 31 ) −
 π(31)
-2
+
 
 +
 π(10)
-2
+
 
 = 24 + 21 + 16 + 15 + 14 + 11 + 11 −55 + 6 = 63.
 
 
 4.5.4
 ANSWERS TO EXERCISES
-667
+
 (c) The hinted identity says simply that a pj-survivor is a pj−1-survivor that isn’t
 a multiple of pj. Clearly f(N 3, N) = f(N 3, pπ(N)). Apply the identity until reaching
 terms f(x, pj) where either j = 0 or x ≤N 2; the result is
@@ -54377,8 +50352,7 @@ when N = 10. The second sum is −f( 1000
 f( 1000
 35 , 3) = −100 −71 −33 −24 −9 = −237. Hence f(1000, 10) = −9 + 237 = 228,
 and π(1000) = 4 + 228 −1 −63 = 168.
-(d) If N 2 ≤2m we can construct an array in which a2m−1+n = [n + 1 is a pj-
-survivor] for 1 ≤n ≤N 2 represents a sieve after j passes, and an = a2n + a2n+1
+(d) If N 2 ≤2m we can construct an array in which a2m−1+n = [n + 1 is a pjsurvivor] for 1 ≤n ≤N 2 represents a sieve after j passes, and an = a2n + a2n+1
 for 1 ≤n < 2m. Then it is easy to compute f(x, pj) in O(m) steps when x ≤N 2,
 and to remove multiples of p from the sieve in O(N 2m/p) steps. The total running
 time to compute f(N 3, N) will come to O(N 2 log N log log N), because π(N)
@@ -54428,8 +50402,6 @@ are positive integers.
 (These are the solutions to λv3 + µv1 = wv1 + ks,
 (λs + r)(µs + r′) = N.)
 
-
-668
 ANSWERS TO EXERCISES
 4.5.4
 L3. [Done?] If v3 = 0, the algorithm terminates.
@@ -54497,10 +50469,10 @@ m
 = −1. Notice that χu(t+2)j = χutj, since utj = (22u(t+2)j) mod m. Therefore
 we can determine χutj and χvtj for all t and j by applying algorithm A to utj and vtj
 for 0 ≤t ≤1 and −2rϵ−2 ≤j < 2rϵ−2. Setting δ =
-1
+
 1440ϵ2r−1 in that algorithm will
 ensure that all χ values are correct with probability ≥1 −
-1
+
 90.
 The algorithm works in at most r stages. At the beginning of stage t, for 0 ≤t < r,
 we assume that we know λ2−ta, λ2−tb, and fractions αt, βt such that
@@ -54532,7 +50504,7 @@ m
 
 4.5.4
 ANSWERS TO EXERCISES
-669
+
 Let n = 4 min(r, 2t)ϵ−2; then when |j| ≤n
 2 we have
 
@@ -54567,24 +50539,24 @@ Since Zj is a function of utj, the random variables Zj are pairwise independent 
 have the same distribution. Let Z = n/2−1
 j=−n/2 Zj; if Z > 0, the value of λ2−t−1b will
 be correct. The probability that Zj = 0 is
-1
+
 2, and the probability that Zj = +1 is
 ≥
-1
+
 4 + ϵ
 2 −ϵ
 8; therefore E Zj ≥
-3
+
 4ϵ. Clearly var(Zj) ≤
-1
+
 2. So the chance of error, in
 the branch of the program that has the correct assumptions, is at most Pr(Z ≤0) ≤
 Pr((Z −n E Zj)2 ≥
-9
+
 16n2ϵ2) ≤
-8
+
 9n−1ϵ2 =
-2
+
 9 min(r, 2t)−1, by Chebyshev’s inequality
 (exercise 3.5–42).
 A similar method, with vtj in place of utj, can be used to determine λ2−t−1a with
@@ -54593,14 +50565,14 @@ error ≤2
 nearest integer to mβt. Then we can compute √y = (2tb−1τ2−tb) mod m; squaring
 this quantity will tell us if we are correct.
 The total chance of making a mistake is bounded by
-4
-9
+
+
 
 t≥1 2−t = 4
 9 in stages
 t < lg n, and by
-4
-9
+
+
 
 t≤r r−1 = 4
 9 in subsequent stages. So the total chance of error,
@@ -54608,14 +50580,13 @@ including the possibility that the χ values were not all correct, is at most 4
 9+ 4
 9+ 1
 90 =
-9
+
 10.
 At least
-1
+
 10 of all runs of the program will succeed in finding √y; hence the factors of m
 will be found after repeating the process at most 10 times, on the average.
-The total running time is dominated by O(rϵ−4 log(rϵ−2)T(G)) for the χ compu-
-tation, plus O(r2ϵ−2T(G)) for subsequent guessing, plus O(r2ϵ−6) for the calculations
+The total running time is dominated by O(rϵ−4 log(rϵ−2)T(G)) for the χ computation, plus O(r2ϵ−2T(G)) for subsequent guessing, plus O(r2ϵ−6) for the calculations
 of αt, βt, λ2−ta, and λ2−tb in all branches.
 This procedure, which nicely illustrates many of the basic paradigms of randomized
 algorithms, is due to R. Fischlin and C. P. Schnorr [J. Cryptology 13 (2000), 221–
@@ -54634,8 +50605,6 @@ j=0 aijxj ≡0 (modulo mi), gcd(ai0, ai1, . . . , ai(d−1), mi) = 1, and
 |x| < mi for 1 ≤i ≤k = d(d −1)/2 + 1, where mi ⊥mj for 1 ≤i < j ≤k.
 Also assume that m = min{m1, . . . , mk} > nn/22n2/2dd, where n = d + k. First find
 
-
-670
 ANSWERS TO EXERCISES
 4.5.4
 u1, . . . , uk such that uj mod mi = δij. Then set up the n × n matrix
@@ -54655,13 +50624,13 @@ L =
 
 
 M
-0
+
 mM
 ...
 ...
 ...
-0
-0
+
+
 . . .
 md−1M
 a10u1
@@ -54673,7 +50642,7 @@ a20u2
 ma21u2
 . . .
 md−1a2(d−1)u2
-0
+
 M/m2d
 ...
 ...
@@ -54685,8 +50654,8 @@ ak0uk
 mak1uk
 . . .
 md−1ak(d−1)uk
-0
-0
+
+
 . . .
 M/mkd
 
@@ -54766,7 +50735,7 @@ u and v at random between 1 and n −1, then compute w = (u2 −av2) mod n and
 
 4.6
 ANSWERS TO EXERCISES
-671
+
 d = gcd(w, n). If 1 < d < n or if gcd(v, n) > 1 we can reduce n; the methods used
 to prove Fact 1 will lift solutions for factors of n to solutions for n itself. If d = n
 and v ⊥n, we have (u/v)2 ≡a (modulo n), hence we can reduce a to 1. Otherwise
@@ -54784,8 +50753,7 @@ we can reduce n or a; otherwise (X/Y )2 −a(1/Y )2 ≡t (modulo n). Finally the
 identity yields a solution to x′2 −ay′2 ≡s (see Fact 2), which leads in turn to the
 desired solution because u2 −av2 ≡s/b.
 In practice only O(log n) random trials are needed before the assumptions about
-prime numbers made in this algorithm turn out to be true. But a formal proof would re-
-quire us to assume the Extended Riemann Hypothesis [IEEE Trans. IT-33 (1987), 702–
+prime numbers made in this algorithm turn out to be true. But a formal proof would require us to assume the Extended Riemann Hypothesis [IEEE Trans. IT-33 (1987), 702–
 709]. Adleman, Estes, and McCurley [Math. Comp. 48 (1987), 17–28] have developed a
 slower and more complicated algorithm that does not rely on any unproved hypotheses.
 46. [FOCS 20 (1979), 55–60.] After finding ani mod p = m
@@ -54829,8 +50797,6 @@ with nonnegative coefficients that are not too large.
 5. Polynomials of degree ≤2n can be written U1(x)xn + U0(x) where deg(U1) ≤n
 and deg(U0) ≤n; and (U1(x)xn + U0(x))(V1(x)xn + V0(x)) = U1(x)V1(x)(x2n + xn) +
 
-
-672
 ANSWERS TO EXERCISES
 4.6
 (U1(x) + U0(x))(V1(x) + V0(x))xn + U0(x)V0(x)(xn + 1). (This equation assumes that
@@ -54883,13 +50849,13 @@ t
 t, so the average is n(1 −1/p). Similarly, if
 f(n1, . . . , nt) = n1 + · · · + nt, then St =
 n
-2
+
 n−1
 t−1
 
 , and the average is
 n
-2
+
 
 (1 −1/p).
 Finally, if f(n1, . . . , nt) = (n −n1)n1 + · · · + (nt−1 −nt)nt, then
@@ -54903,14 +50869,14 @@ t+1
 
 +
 n+1
-2
+
 n
 t
 
 ,
 and the average is
 n+1
-2
+
 
 −(n + 1)p/(p −1) + (p/(p −1))
 2(1 −1/pn+1).
@@ -54918,7 +50884,7 @@ and the average is
 
 4.6.1
 ANSWERS TO EXERCISES
-673
+
 (The probability that nj+1 = nj −1 for 1 ≤j ≤t = n is (1 −1/p)n, obtained
 by setting St = [t = n]; so this probability approaches 1 as p →∞. As a consequence
 we have further evidence for the text’s claim that Algorithm C almost always finds
@@ -54926,8 +50892,7 @@ we have further evidence for the text’s claim that Algorithm C almost always f
 former condition modulo p for all p.)
 5. Using the formulas developed in exercise 4, with f(n1, . . . , nt) = [nt = 0], we find
 that the probability is 1 −1/p if n > 0, 1 if n = 0.
-6. Assuming that the constant terms u(0) and v(0) are nonzero, imagine a “right-
-to-left” division algorithm, u(x) = v(x)q(x) + xm−nr(x), where deg(r) < deg(v). We
+6. Assuming that the constant terms u(0) and v(0) are nonzero, imagine a “rightto-left” division algorithm, u(x) = v(x)q(x) + xm−nr(x), where deg(r) < deg(v). We
 obtain a gcd algorithm analogous to Algorithm 4.5.2B, which is essentially Euclid’s
 algorithm applied to the “reverse” of the original inputs (see exercise 2), afterwards
 reversing the answer and multiplying by an appropriate power of x.
@@ -54942,8 +50907,7 @@ have integer coefficients. Now u(x) is primitive, so Eq. (4) implies that
 u(x) = pp((m · v(x))(n · w(x))) = ± pp(m · v(x)) pp(n · w(x)).
 9. We can extend Algorithm E as follows: Let (u1(x), u2(x), u3, u4(x)) and (v1(x),
 v2(x), v3, v4(x)) be quadruples that satisfy the relations u1(x)u(x)+u2(x)v(x) = u3u4(x)
-and v1(x)u(x) + v2(x)v(x) = v3v4(x). The extended algorithm starts with the quadru-
-ples (1, 0, cont(u), pp(u(x))) and (0, 1, cont(v), pp(v(x))) and manipulates them in such
+and v1(x)u(x) + v2(x)v(x) = v3v4(x). The extended algorithm starts with the quadruples (1, 0, cont(u), pp(u(x))) and (0, 1, cont(v), pp(v(x))) and manipulates them in such
 a way as to preserve the conditions above, where u4(x) and v4(x) run through the
 same sequence as u(x) and v(x) do in Algorithm E. If au4(x) = q(x)v4(x) + br(x),
 we have av3(u1(x), u2(x)) −q(x)u3(v1(x), v2(x)) = (r1(x), r2(x)), where r1(x)u(x) +
@@ -54953,8 +50917,7 @@ degree zero, and we obtain U(x) = r2(x), V (x) = r1(x) as desired. (In practice 
 would divide r1(x), r2(x), and bu3v3 by gcd(cont(r1), cont(r2)).) Conversely, if such
 U(x) and V (x) exist, then u(x) and v(x) have no common prime divisors, since they
 are primitive and have no common divisors of positive degree.
-10. By successively factoring reducible polynomials into polynomials of smaller de-
-gree, we must obtain a finite factorization of any polynomial into irreducibles. The
+10. By successively factoring reducible polynomials into polynomials of smaller degree, we must obtain a finite factorization of any polynomial into irreducibles. The
 factorization of the content is unique. To show that there is at most one factorization
 of the primitive part, the key result is to prove that if u(x) is an irreducible factor of
 v(x)w(x), but not a unit multiple of the irreducible polynomial v(x), then u(x) is a
@@ -54973,8 +50936,6 @@ k
 j
 . If the polynomials have a factor of positive
 
-
-674
 ANSWERS TO EXERCISES
 4.6.1
 degree, we can artificially assume that the polynomial zero has degree zero and use the
@@ -55035,7 +50996,7 @@ is zero for at most d1 choices of x1, unless gk(x2, . . . , xn) = 0; hence |r(S1
 
 4.6.1
 ANSWERS TO EXERCISES
-675
+
 d1(|S2|−d2) . . . (|Sn|−dn)+|S1|(|S2| . . . |Sn|−(|S2|−d2) . . . (|Sn|−dn)). [R. A. DeMillo
 and R. J. Lipton, Inf. Proc. Letters 7 (1978), 193–195.]
 Notes: The stated upper bound is best possible, because equality occurs for the
@@ -55048,7 +51009,7 @@ d2 = 1 in the polynomial x3
 1x9
 2 −3x2
 1x2 + x100
-2
+
 + 5.
 This observation ensures that
 d1 + · · · + dn ≤d when each term of f has total degree ≤d; hence the probability in
@@ -55082,13 +51043,11 @@ values of j.
 Applications of this inequality to gcd calculation and other operations on sparse
 multivariate polynomials were introduced by R. Zippel, Lecture Notes in Comp. Sci. 72
 (1979), 216–226. J. T. Schwartz [JACM 27 (1980), 701–717] gave further extensions,
-including a way to avoid large numbers by means of modular arithmetic: If the coeffi-
-cients of f are integers, if P is a set of prime numbers all ≥q, and if |f(x1, . . . , xn)| ≤L
+including a way to avoid large numbers by means of modular arithmetic: If the coefficients of f are integers, if P is a set of prime numbers all ≥q, and if |f(x1, . . . , xn)| ≤L
 whenever each xj ∈Sj, then the number of solutions to f(x1, . . . , xn) ≡0 (modulo p)
 for p ∈P is at most
 |S1| . . . |Sn||P| −(|S1| −d1) . . . (|Sn| −dn)(|P| −logq L).
-17. (a) For convenience, let us describe the algorithm only for A = {a, b}. The hy-
-potheses imply that deg(Q1U) = deg(Q2V ) ≥0, deg(Q1) ≤deg(Q2). If deg(Q1) = 0,
+17. (a) For convenience, let us describe the algorithm only for A = {a, b}. The hypotheses imply that deg(Q1U) = deg(Q2V ) ≥0, deg(Q1) ≤deg(Q2). If deg(Q1) = 0,
 then Q1 is just a nonzero rational number, so we set Q = Q2/Q1. Otherwise we let
 Q1 = aQ11 + bQ12 + r1, Q2 = aQ21 + bQ22 + r2, where r1 and r2 are rational numbers;
 it follows that
@@ -55104,8 +51063,6 @@ where deg(R′) < deg(R), so eventually a solution will be obtained.
 (c) The algorithm of (b) gives V1 = UV2 + R, deg(R) < deg(V2); by homogeneity,
 R = 0 and U is homogeneous.
 
-
-676
 ANSWERS TO EXERCISES
 4.6.1
 (d) We may assume that deg(V ) ≤deg(U). If deg(V ) = 0, set W ←U; otherwise
@@ -55157,8 +51114,7 @@ of Q does not depend on U1 and U2. Hence m = (−1)n(−u2z′
 2)V2 is
 a multiple of z′
 1V1.
-In practice, if we just want to calculate gcrd(V1, V2), we may suppress the compu-
-tation of n, w1, w2, w′
+In practice, if we just want to calculate gcrd(V1, V2), we may suppress the computation of n, w1, w2, w′
 1, w′
 2, z1, z2, z′
 1, z′
@@ -55167,35 +51123,31 @@ the algorithm primarily to make its validity more readily established.
 Note: Nontrivial factorizations of string polynomials, such as the example given
 with this exercise, can be found from matrix identities such as
 a
-1
-1
-0
+
+
 b
-1
-1
-0
+
+
 c
-1
-1
-0
+
+
 0
-1
-1
+
+
 −c
 0
-1
-1
+
+
 −b
 0
-1
-1
+
+
 −a
 
 =
 1
-0
-0
-1
+
+
 
 ,
 since these identities hold even when multiplication is not commutative. For example,
@@ -55211,7 +51163,7 @@ reduce to two equations C = RD, D = ZC. If we can find a 2n × 2n integer matrix
 
 4.6.1
 ANSWERS TO EXERCISES
-677
+
 with determinant ±1 such that the last n rows of U −1C are all zero, then R = (first n
 columns of U), D = (first n rows of U −1C), Z = (first n rows of U −1) solves the desired
 conditions. Hence, for example, the following algorithm may be used (with m = 2n):
@@ -55231,39 +51183,39 @@ interchange columns k and j of U. Then subtract ⌊Tij/Tjj⌋times row j from
 row i, in matrices T and V, and add the same multiple of column i to column j
 in matrix U, for j < i ≤m.
 For the stated example, the algorithm yields ( 1
-3
-2
+
+
 4) = ( 1
-3
-0
+
+
 2)( 1
-0
-2
+
+
 −1), ( 4
-2
-3
+
+
 1) = ( 4
-2
-5
+
+
 3)( 1
-0
-2
+
+
 −1),
 ( 1
-0
-2
+
+
 −1) = ( 1
-2
-0
+
+
 −2)( 1
-3
-2
+
+
 4) + ( 0
-1
-0
+
+
 0)( 4
-2
-3
+
+
 1). (Actually any matrix with determinant ±1 would
 be a gcrd in this particular case.)
 20. See V. Y. Pan, Information and Computation 167 (2001), 71–85.
@@ -55299,12 +51251,10 @@ g
 j−1
 . . . g
 δ1(1−δ2)...(1−δj−1)
-2
+
 . Then show that
 the exponent of g2 on the left-hand side of (18) has the form δ2 + δ1x, where x =
 
-
-678
 ANSWERS TO EXERCISES
 4.6.1
 δ2 + · · · + δj−1 + 1 −δ2(δ3 + · · · + δj−1 + 1) −δ3(1 −δ2)(δ4 + · · · + δj−1 + 1) −· · · −
@@ -55318,8 +51268,7 @@ v(x) ←r(x)/g, h ←ℓ(u)δ/g, g ←ℓ(u), and return to C2; otherwise procee
 unmodified algorithm. The effect of this new initialization is simply to replace uj(x)
 by uj(x)/gcd(ℓ(u), ℓ(v)) for all j ≥3; thus, ℓ2j−4 will become ℓ2j−5 in (28).
 26. In fact, even more is true. Note that the algorithm in exercise 3 computes ±pn(x)
-and ∓qn(x) for n ≥−1. Let en = deg(qn) and dn = deg(pnu−qnv); we observed in exer-
-cise 3 that dn−1+en = deg(u) for n ≥0. We shall prove that the conditions deg(q) < en
+and ∓qn(x) for n ≥−1. Let en = deg(qn) and dn = deg(pnu−qnv); we observed in exercise 3 that dn−1+en = deg(u) for n ≥0. We shall prove that the conditions deg(q) < en
 and deg(pu−qv) < dn−2 imply that p(x) = c(x)pn−1(x) and q(x) = c(x)qn−1(x): Given
 such p and q, we can find c(x) and d(x) such that p(x) = c(x)pn−1(x) + d(x)pn(x) and
 q(x) = c(x)qn−1(x) + d(x)qn(x), since pn−1(x)qn(x) −pn(x)qn−1(x) = ±1.
@@ -55365,10 +51314,10 @@ k≤n/2
 k
 
 (−1)kp−2k; this probability lies between
-3
+
 8 −1
 4p−1 and
-1
+
 2 −1
 2p−1 when n ≥2 and it approaches 1 −e−1/2(1 + 1
 2p−1) + O(p−2) as n →∞. The
@@ -55381,15 +51330,14 @@ has observed that, if u(x) is irreducible over the integers, the average number 
 
 4.6.2
 ANSWERS TO EXERCISES
-679
+
 factors of u(x) modulo p approaches 1 as p →∞, because the Galois group of u(x)
 is transitive and the average number of 1-cycles in a randomly chosen element of any
 transitive permutation group is 1. Thus, the average number of linear factors of u(x)
 modulo p is the number of irreducible factors of u(x) over the integers, as p →∞.
 [See the remarks in the answer to exercise 37, and Proc. Symp. Pure Math. 24 (Amer.
 Math. Soc., 1972), 321–332.]
-2. (a) We know that u(x) has a representation as a product of irreducible polynomi-
-als; and the leading coefficients of these polynomials must be units, since they divide the
+2. (a) We know that u(x) has a representation as a product of irreducible polynomials; and the leading coefficients of these polynomials must be units, since they divide the
 leading coefficient of u(x). Therefore we may assume that u(x) has a representation as
 a product of monic irreducible polynomials p1(x)e1 . . . pr(x)er, where p1(x), . . . , pr(x)
 are distinct. This representation is unique, except for the order of the factors, so the
@@ -55436,8 +51384,6 @@ m≥1 g(zm)m−t 
 n\m µ(n) = g(z).
 [The numbers anp were first found by Gauss; see his Werke 2, 219–222.]
 
-
-680
 ANSWERS TO EXERCISES
 4.6.2
 5. Let anpr be the number of monic polynomials of degree n modulo p having exactly
@@ -55488,70 +51434,8 @@ p = 2
 
 
 
-0
-0
-0
-0
-0
-0
-0
-0
-0
-1
-1
-0
-0
-0
-0
-0
-0
-0
-1
-0
-1
-0
-0
-0
-0
-0
-0
-1
-0
-0
-1
-0
-1
-0
-0
-1
-0
-0
-1
-0
-1
-0
-1
-1
-1
-0
-0
-0
-0
-0
-1
-0
-1
-1
-0
-1
-1
-1
-0
-1
-1
-1
-0
-1
+
+
 
 
 
@@ -55573,55 +51457,8 @@ p = 5
 
 
 
-0
-0
-0
-0
-0
-0
-0
-0
-4
-0
-0
-0
-1
-0
-0
-2
-2
-0
-4
-3
-4
-0
-1
-4
-4
-4
-2
-1
-2
-2
-2
-3
-4
-3
-2
-0
-0
-4
-0
-1
-3
-2
-3
-0
-2
-1
-4
-2
-1
+
+
 
 
 
@@ -55641,21 +51478,14 @@ p = 8k + 3
 
 
 
-0
-0
-0
-0
-0
+
+
 −1
-0
-1
-0
-0
+
+
 −2
-0
-0
-1
-0
+
+
 −1
 
 
@@ -55664,21 +51494,11 @@ p = 8k + 5
 
 
 
-0
-0
-0
-0
-0
+
+
 −2
-0
-0
-0
-0
-0
-0
-0
-0
-0
+
+
 −2
 
 
@@ -55687,21 +51507,18 @@ p = 8k + 7
 
 
 
-0
-0
-0
-0
-0
+
+
 −1
-0
+
 −1
-0
-0
+
+
 −2
-0
-0
+
+
 −1
-0
+
 −1
 
 
@@ -55710,7 +51527,7 @@ p = 8k + 7
 
 4.6.2
 ANSWERS TO EXERCISES
-681
+
 Here Q−I has rank 2, so there are 4−2 = 2 factors. [But it is easy to prove that x4 +1
 is irreducible over the integers, since it has no linear factors and the coefficient of x in
 any factor of degree two must be less than or equal to 2 in absolute value by exercise 20.
@@ -55795,8 +51612,6 @@ S1. Choose x at random in the range 1 < x < p, and set z = xq mod p.
 If
 z2e−1 mod p = 1, repeat this step. (The average number of repetitions will
 
-
-682
 ANSWERS TO EXERCISES
 4.6.2
 be less than 2. Random numbers will not be needed in steps S2 and S3. In
@@ -55811,14 +51626,14 @@ The validity of this algorithm follows from the invariant congruences uw ≡v2,
 y2r−1 ≡−1, w2r−1 ≡1 (modulo p). When w ̸= 1, step S3 performs r+2 multiplications
 mod p; hence the maximum number of multiplications in that step is less than
 e+3
-2
+
 
 ,
 and the average number is less than
-1
-2
+
+
 e+4
-2
+
 
 . Thus the running time is O(log p)3 for
 steps S1 and S2 plus order e2(log p)2 for step S3, compared to just O(log p)3 for the
@@ -55842,38 +51657,8 @@ f
 φ(f)
 f
 φ(f)
-1
-1
-3
-2
-7
-6
-21
-12
-2
-1
-6
-2
-14
-6
-42
-12
-4
-2
-12
-4
-28
-12
-84
-24
-8
-4
-24
-8
-56
-24
-168
-48
+
+
 18. (a) pp(p1(unx)) . . . pp(pr(unx)), by Gauss’s lemma. For example, let
 u(x) = 6x3 −3x2 + 2x −1,
 v(x) = x3 −3x2 + 12x −36 = (x2 + 12)(x −3);
@@ -55902,7 +51687,7 @@ that when x1 ≥1, . . . , xn ≥1, and x1 . . . xn = M, the elementary symmetri
 
 4.6.2
 ANSWERS TO EXERCISES
-683
+
 σnk = xi1 . . . xik is ≤
 n−1
 k−1
@@ -55968,7 +51753,7 @@ A famous formula due to Jensen [Acta Math. 22 (1899), 359–364] proves that M(u
 is the geometric mean of |u(x)| on the unit circle, namely exp( 1
 2π
 2π
-0
+
 ln|f(eiθ)| dθ).
 Exercise 21(a) will show, similarly, that ∥u∥is the root-mean-square of |u(x)| on the
 unit circle. The inequality M(u) ≤∥u∥, which goes back to E. Landau [Bull. Soc. Math.
@@ -55976,10 +51761,10 @@ de France 33 (1905), 251–261], can therefore be understood as a relation betwe
 values. The number M(u) is often called the Mahler measure of a polynomial, because
 Kurt Mahler used it in Mathematika 7 (1960), 98–100. Incidentally, Jensen also proved
 that
-1
+
 2π
 2π
-0
+
 eimθ ln|f(eiθ)| dθ = −n
 j=1 αm
 j /(2m max(|αj|, 1)2m) when m > 0.
@@ -55998,22 +51783,19 @@ q! r! =
 r
 
 q! r! = (q + r)! .
-[B. Beauzamy and J. Dégot, Trans. Amer. Math. Soc. 345 (1995), 2607–2619; D. Zeil-
-berger, AMM 101 (1994), 894–896.]
+[B. Beauzamy and J. Dégot, Trans. Amer. Math. Soc. 345 (1995), 2607–2619; D. Zeilberger, AMM 101 (1994), 894–896.]
 (b) Let ap = vp, bq = wq, cr = vr, ds = ws. Then the right side of (a) is B(u),
 and the left side is a sum of nonnegative terms for each j and k. If we consider only
 the terms where Σ j is the degree of v, the terms vp/(p −j)! vanish except when p = j.
 Those terms therefore reduce to
 
 j,k
-1
+
 j! k! |vjwk j! k!|
 2 = B(v)B(w) .
 [B. Beauzamy, E. Bombieri, P. Enflo, and H. Montgomery, J. Number Theory 36
 (1990), 219–245.]
 
-
-684
 ANSWERS TO EXERCISES
 4.6.2
 (c) Adding a new variable, if needed to make everything homogeneous, does not
@@ -56024,7 +51806,7 @@ m
 1/2[u].
 Incidentally, one nice way to think of the Bombieri norm is to imagine that the
 variables are noncommutative. For example, instead of 3xy3 −z2w2 we could write
-3
+
 4xyyy+ 3
 4yxyy+ 3
 4yyxy+ 3
@@ -56038,7 +51820,7 @@ variables are noncommutative. For example, instead of 3xy3 −z2w2 we could writ
 Then the Bombieri norm is the ∥∥norm on the new coefficients. Another interesting
 formula, when u is homogeneous of degree n, is
 [u]2 =
-1
+
 n! πn
 
 x
@@ -56056,8 +51838,7 @@ homogeneous of degree m in t variables. Then |vk|2 k!/m! ≤[v]2 for all k, and 
 assume that m! [v]2/(m/t)!t ≤m′! [w]2/(m′/t)!t, where m′ = n −m is the degree of w.
 Then
 |vk|2 ≤m! [v]2/(m/t)!t ≤m!1/2m′!1/2 [v][w]/(m/t)!t/2(m′/t)!t/2 ≤n!1/2 [u]/(n/2t)!t .
-(A better bound is obtained if we maximize the next-to-last expression over all de-
-grees m for which a factor has not been ruled out.) The quantity n!1/4/(n/2t)!t/2 is
+(A better bound is obtained if we maximize the next-to-last expression over all degrees m for which a factor has not been ruled out.) The quantity n!1/4/(n/2t)!t/2 is
 ct(2t)n/4n−(2t−1)/8(1 + O( 1
 n)), where ct = 21/8π−(2t−1)/8tt/4 is ≈1.004 when t = 2.
 Notice that we have not demonstrated the existence of an irreducible factor with
@@ -56121,8 +51902,7 @@ k
 
 
 = [u]2[v]2
-by Cauchy’s inequality. [B. Beauzamy, J. Symbolic Comp. 13 (1992), 465–472, Propo-
-sition 5.]
+by Cauchy’s inequality. [B. Beauzamy, J. Symbolic Comp. 13 (1992), 465–472, Proposition 5.]
 (g) By exercise 20,
 
 n
@@ -56167,7 +51947,7 @@ w(x) + q ¯w(x), deg(¯v) < deg(v), deg( ¯w) ≤deg(w); and the other condition
 
 4.6.2
 ANSWERS TO EXERCISES
-685
+
 is equivalent to ¯w(x)v(x) + ¯v(x)w(x) ≡f(x) (modulo r), where f(x) satisfies u(x) ≡
 v(x)w(x) + qf(x) (modulo qr). We have
 (a(x)f(x) + t(x)w(x))v(x) + (b(x)f(x) −t(x)v(x))w(x) ≡f(x) (modulo r)
@@ -56214,10 +51994,8 @@ of an unfinished book called Analysis Residuorum, §373–374.
 Gauss incorporated
 most of the material from that manuscript into his Disquisitiones Arithmeticæ (1801),
 but his ideas about polynomial factorization were not published until after his death
-[see his Werke 2 (Göttingen, 1863), 238]. Meanwhile T. Schönemann had indepen-
-dently discovered the lemma and proved uniqueness [Crelle 32 (1846), 93–105, §59].
-Hensel’s name was attached to the method because it is basic to the theory of p-
-adic numbers (see exercise 4.1–31). The lemma can be generalized in several ways.
+[see his Werke 2 (Göttingen, 1863), 238]. Meanwhile T. Schönemann had independently discovered the lemma and proved uniqueness [Crelle 32 (1846), 93–105, §59].
+Hensel’s name was attached to the method because it is basic to the theory of padic numbers (see exercise 4.1–31). The lemma can be generalized in several ways.
 First, if there are more factors, say u(x) ≡v1(x)v2(x)v3(x) (modulo p), we can find
 a1(x), a2(x), a3(x) such that a1(x)v2(x)v3(x) + a2(x)v1(x)v3(x) + a3(x)v1(x)v2(x) ≡
 1 (modulo p) and deg(ai) < deg(vi).
@@ -56227,8 +52005,6 @@ An exactly analogous construction now allows us to
 lift the factorization without changing the leading coefficients of v1 and v2; we take
 ¯v1(x) = a1(x)f(x) mod v1(x), ¯v2(x) = a2(x)f(x) mod v2(x), etc. Another important
 
-
-686
 ANSWERS TO EXERCISES
 4.6.2
 generalization is to several simultaneous moduli, of the respective forms pe, (x2−a2)n2,
@@ -56240,8 +52016,7 @@ factorization of (22) modulo 3 is (x + 1)(x2 −x −1)2(x3 + x2 −x + 1); squa
 for this polynomial occur only for p = 3, 23, 233, and 121702457. It is not difficult to
 prove that the smallest prime that is not unlucky is at most O(n log Nn), if n = deg(u)
 and if N bounds the coefficients of u(x).]
-24. Multiply a monic polynomial with rational coefficients by a suitable nonzero inte-
-ger, to get a primitive polynomial over the integers. Factor this polynomial over the
+24. Multiply a monic polynomial with rational coefficients by a suitable nonzero integer, to get a primitive polynomial over the integers. Factor this polynomial over the
 integers, and then convert the factors back to monic. (No factorizations are lost in this
 way; see exercise 4.6.1–8.)
 25. Consideration of the constant term shows there are no factors of degree 1, so if
@@ -56268,10 +52043,10 @@ For 1 ≤n ≤10 the
 answers are 1, 1
 2, 5
 6,
-7
+
 12, 37
 60,
-79
+
 120, 173
 280, 101
 168, 127
@@ -56291,11 +52066,11 @@ formula limp→∞anp = e−γ + e−γ/n + O(n−2 log n). [See D. H. Lehmer, A
 when p = 2 are smaller: 1, 1
 4, 1
 2,
-7
+
 16,
-7
+
 16,
-7
+
 16, 27
 64, 111
 256, 109
@@ -56312,7 +52087,7 @@ ti(x) = t(x) mod qi(x). The gcd will be a proper factor if t1(x)(pd−1)/2 mod q
 
 4.6.2
 ANSWERS TO EXERCISES
-687
+
 and t2(x)(pd−1)/2 mod q1(x) ̸= 1, or vice versa, and this condition holds for exactly
 2((pd −1)/2)((pd + 1)/2) = (p2d −1)/2 choices of t1(x) and t2(x).
 Notes: We are considering here only the behavior with respect to two irreducible
@@ -56326,14 +52101,14 @@ trie with r lieves (see Section 6.3). The cost associated with an internal node 
 trie, having m lieves as descendants, is O(m2(log p)); and the solution to the recurrence
 An =
 n
-2
+
 
 + 21−n n
 k
 
 Ak is An = 2
 n
-2
+
 
 , by exercise 5.2.2–36. Hence the sum of costs
 in the given random trie — representing the expected time to factor g(x) completely —
@@ -56356,8 +52131,7 @@ exercise is based on the polynomial factorization xpd −x = p−1
 s=0(T(x) −s), which
 holds for any p, while formula (21) is based on the polynomial factorization xpd −x =
 x(x(pd−1)/2 + 1)(x(pd−1)/2 −1) for odd p.]
-The trace was introduced by Richard Dedekind, Abhandlungen der Königl. Gesell-
-schaft der Wissenschaften zu Göttingen 29 (1882), 1–56. The technique of calculating
+The trace was introduced by Richard Dedekind, Abhandlungen der Königl. Gesellschaft der Wissenschaften zu Göttingen 29 (1882), 1–56. The technique of calculating
 gcd(f(x), T(x) −s) to find factors of f(x) can be traced to A. Arwin, Arkiv för Mat.,
 Astr. och Fys. 14, 7 (1918), 1–46; but his method was incomplete because he did not
 consider T(t(x)) for t(x) ̸= x. A complete factorization algorithm using traces was
@@ -56376,8 +52150,6 @@ Pα(x) = (x −α)(x −αp) . . . (x −αpd−1) = qα(x)d/d(α),
 where qα(x) is an irreducible polynomial of degree d(α). As α runs through all elements
 of the field, the corresponding qα(x) runs through every irreducible polynomial of
 
-
-688
 ANSWERS TO EXERCISES
 4.6.2
 degree e dividing d, where every such irreducible occurs exactly e times.
@@ -56427,8 +52199,7 @@ Set (t(x), v1(x), w1(x)) ←GCD(u(x), u′(x)). If t(x) = 1, set e ←1; otherwi
 i(x)) for i = 1, 2, . . . , e −1, until
 finding we(x) −v′
 e(x) = 0. Finally set ue(x) ←ve(x).
-To prove the validity of this algorithm, we observe that it computes the polyno-
-mials t(x) = u2(x)u3(x)2u4(x)3 . . . , vi(x) = ui(x)ui+1(x)ui+2(x) . . . , and
+To prove the validity of this algorithm, we observe that it computes the polynomials t(x) = u2(x)u3(x)2u4(x)3 . . . , vi(x) = ui(x)ui+1(x)ui+2(x) . . . , and
 wi(x) = u′
 i(x)ui+1(x)ui+2(x) . . .+2ui(x)u′
 i+1(x)ui+2(x) . . .+3ui(x)ui+1(x)u′
@@ -56440,7 +52211,7 @@ ui(x) ⊥vi+1(x).
 
 4.6.2
 ANSWERS TO EXERCISES
-689
+
 [Although exercise 2(b) proves that most polynomials are squarefree, nonsquarefree
 polynomials actually occur often in practice; hence this method turns out to be quite
 important.
@@ -56456,9 +52227,7 @@ j(x) = uj(x)uj+1(x) . . .
 and
 v∗
 j (x) = vj(x)vj+1(x) . . . .
-[Yun notes that the running time for squarefree factorization by the method of exer-
-cise 34 is at most about twice the running time to calculate gcd(u(x), u′(x)). Further-
-more if we are given an arbitrary method for discovering squarefree factorization, the
+[Yun notes that the running time for squarefree factorization by the method of exercise 34 is at most about twice the running time to calculate gcd(u(x), u′(x)). Furthermore if we are given an arbitrary method for discovering squarefree factorization, the
 method of this exercise leads to a gcd procedure. (When u(x) and v(x) are squarefree,
 their gcd is simply w2(x) where w(x) = u(x)v(x) = w1(x)w2(x)2; the polynomials
 uj(x), vj(x), u∗
@@ -56504,8 +52273,6 @@ see G. Frobenius, Sitzungsberichte Königl. preuß. Akad. Wiss. (Berlin: 1896), 
 The linear mapping x →
 xp is traditionally called the Frobenius automorphism because
 
-
-690
 ANSWERS TO EXERCISES
 4.6.2
 of this famous paper.] Furthermore B. L. van der Waerden proved in 1934 that almost
@@ -56574,7 +52341,7 @@ modulo pe to a multiple of v(x).
 
 4.6.3
 ANSWERS TO EXERCISES
-691
+
 41. David Boyd notes that 4x8 + 4x6 + x4 + 4x2 + 4 = (2x4 + 4x3 + 5x2 + 4x + 2) ×
 (2x4 −4x3 + 5x2 −4x + 2), and he has found examples of higher degree to prove that
 c must be > 2 if it exists.
@@ -56582,109 +52349,109 @@ SECTION 4.6.3
 1. xm, where m = 2⌊lg n⌋is the highest power of 2 less than or equal to n.
 2. Assume that x is input in register A, and n in location NN; the output is in
 register X.
-01
+
 A1 ENTX 1
-1
+
 A1. Initialize.
-02
+
 STX
 Y
-1
+
 Y ←1.
-03
+
 STA
 Z
-1
+
 Z ←x.
-04
+
 LDA
 NN
-1
+
 N ←n.
-05
+
 JAP
 2F
-1
+
 To A2.
-06
+
 JMP
 DONE
-0
+
 Otherwise the answer is 1.
-07
+
 5H SRB
-1
+
 L + 1 −K
-08
+
 STA
 N
 L + 1 −K
 N ←⌊N/2⌋.
-09
+
 A5 LDA
 Z
 L
 A5. Square Z.
-10
+
 MUL
 Z
 L
-11
+
 STX
 Z
 L
 Z ←Z × Z mod w.
-12
+
 A2 LDA
 N
 L
 A2. Halve N.
-13
+
 2H JAE
 5B
 L + 1
 To A5 if N is even.
-14
+
 SRB
-1
+
 K
-15
+
 A4 JAZ
 4F
 K
 Jump if N = 1.
-16
+
 STA
 N
 K −1
 N ←⌊N/2⌋.
-17
+
 A3 LDA
 Z
 K −1
 A3. Multiply Y by Z.
-18
+
 MUL
 Y
 K −1
-19
+
 STX
 Y
 K −1
 Y ←Z × Y mod w.
-20
+
 JMP
 A5
 K −1
 To A5.
-21
+
 4H LDA
 Z
-1
-22
+
+
 MUL
 Y
-1
+
 Do the final multiplication.
 The running time is 21L + 16K + 8, where L = λ(n) is one less than the number of
 bits in the binary representation of n, and K = ν(n) is the number of 1-bits in that
@@ -56692,34 +52459,34 @@ representation.
 For the serial program, we may assume that n is small enough to fit in an index
 register; otherwise serial exponentiation is out of the question. The following program
 leaves the output in register A:
-01
+
 S1 LD1
 NN
-1
+
 rI1 ←n.
-02
+
 STA
 X
-1
+
 X ←x.
-03
+
 JMP
 2F
-1
-04
+
+
 1H MUL
 X
 N −1
 rA × X mod w
-05
+
 SLAX 5
 N −1
 →rA.
-06
+
 2H DEC1 1
 N
 rI1 ←rI1 −1.
-07
+
 J1P
 1B
 N
@@ -56727,8 +52494,6 @@ Multiply again if rI1 > 0.
 The running time for this program is 14N −7; it is faster than the previous program
 when n ≤7, slower when n ≥8.
 
-
-692
 ANSWERS TO EXERCISES
 4.6.3
 3. The sequences of exponents are: (a) 1, 2, 3, 6, 7, 14, 15, 30, 60, 120, 121, 242,
@@ -56786,7 +52551,7 @@ illustration.)
 
 4.6.3
 ANSWERS TO EXERCISES
-693
+
 11. 1, 2, 3, 5, 10, 20, (23 or 40), 43; 1, 2, 4, 8, 9, 17, (26 or 34), 43; 1, 2, 4, 8, 9, 17,
 34, (43 or 68), 77; 1, 2, 4, 5, 9, 18, 36, (41 or 72), 77. If either of the last two paths
 were in the tree we would have no possibility for n = 43, since the tree must contain
@@ -56838,8 +52603,6 @@ or j1 < j2 < · · · and jk+1 ≤ik−1.) Now combine overlapping intervals (j1
 ai′ < aj′(1 + δ)i1−j1+···+id−jd ≤aj′(1 + δ)2(i′−j′),
 since each point of (j′ . . i′] is covered at most twice in (j1 . . i1] ∪· · · ∪(jd . . id].
 
-
-694
 ANSWERS TO EXERCISES
 4.6.3
 18. Call f(m) a “nice” function if (log f(m))/m →0 as m →∞.
@@ -56872,8 +52635,7 @@ where f(m) is nice. Hence the entire sum is less than αm for large m if α = 21
 where 0 < η < 1
 2ϵ.
 19. (a) M ∩N, M ∪N, M ⊎N, respectively; see Eqs. 4.5.2–(6), 4.5.2–(7).
-(b) f(z)g(z), lcm(f(z), g(z)), gcd(f(z), g(z)). (For the same reasons as (a), be-
-cause the monic irreducible polynomials over the complex numbers are precisely the
+(b) f(z)g(z), lcm(f(z), g(z)), gcd(f(z), g(z)). (For the same reasons as (a), because the monic irreducible polynomials over the complex numbers are precisely the
 polynomials z −ζ.)
 (c) Commutative laws A⊎B = B ⊎A, A∪B = B ∪A, A∩B = B ∩A. Associative
 laws A⊎(B ⊎C) = (A⊎B)⊎C, A∪(B ∪C) = (A∪B)∪C, A∩(B ∩C) = (A∩B)∩C.
@@ -56884,8 +52646,7 @@ A ∩(A ⊎B) = A, A ∪(A ⊎B) = A ⊎B. Identity and zero laws ∅⊎A = A, �
 ∅∩A = ∅, where ∅is the empty multiset. Counting law A ⊎B = (A ∪B) ⊎(A ∩B).
 Further properties analogous to those of sets come from the partial ordering defined by
 the rule A ⊆B if and only if A ∩B = A (if and only if A ∪B = B).
-Notes: Other common applications of multisets are zeros and poles of meromor-
-phic functions, invariants of matrices in canonical form, invariants of finite Abelian
+Notes: Other common applications of multisets are zeros and poles of meromorphic functions, invariants of matrices in canonical form, invariants of finite Abelian
 groups, etc.; multisets can be useful in combinatorial counting arguments and in the
 development of measure theory.
 The terminal strings of a noncircular context-free
@@ -56914,7 +52675,7 @@ notations and to stress the analogy with set union. It would not be as desirable
 
 4.6.3
 ANSWERS TO EXERCISES
-695
+
 “A+B” for this purpose, since algebraists have found that A+B is a good notation for
 the multiset {α + β | α ∈A and β ∈B}. If A is a multiset of nonnegative integers, let
 G(z) = 
@@ -56974,8 +52735,6 @@ are therefore 3, 7, 29, 127, 1903, 65131, 4169527, 994660991.
 ν(x∇y) ≤ν(x | y)+ν(x&y) = ν(x)+ν(y). (b) Note first that Ai−1/2di−1 ⊆Ai/2di for
 1 ≤i ≤r. Secondly, note that dj = di−1 in a nondoubling; for otherwise ai−1 ≥2aj ≥
 
-
-696
 ANSWERS TO EXERCISES
 4.6.3
 aj + ak = ai. Hence Aj ⊆Ai−1 and Ak ⊆Ai−1/2dj−dk. (c) An easy induction on i,
@@ -56993,18 +52752,15 @@ and r ≥lg n + br −br lg(1 + 2−δ) ≥lg n + lg ν(n) −lg(1 + δcr) −br
 follows that lg(1 + δx) + (f −x) lg(1 + 2−δ) ≤lg(1 + δf) for 0 ≤x ≤f. Hence finally
 l(n) ≥lg n + lg ν(n) −lg(1 + (3.271 lg ν(n))⌈lg(1 + 3.271 lg ν(n))⌉). [Theoretical Comp.
 Sci. 1 (1975), 1–12.]
-29. [Canadian J. Math. 21 (1969), 675–683. Schönhage refined the method of exer-
-cise 28 to prove that l(n) ≥lg n + lg ν(n) −2.13. Can the remaining gap be closed?]
-30. n = 31 is the smallest example; l(31) = 7, but 1, 2, 4, 8, 16, 32, 31 is an addition-
-subtraction chain of length 6. [After proving Theorem E, Erdős stated that the same
+29. [Canadian J. Math. 21 (1969), 675–683. Schönhage refined the method of exercise 28 to prove that l(n) ≥lg n + lg ν(n) −2.13. Can the remaining gap be closed?]
+30. n = 31 is the smallest example; l(31) = 7, but 1, 2, 4, 8, 16, 32, 31 is an additionsubtraction chain of length 6. [After proving Theorem E, Erdős stated that the same
 result holds also for addition-subtraction chains. Schönhage has extended the lower
 bound of exercise 28 to addition-subtraction chains, with ν(n) replaced by ν(n) as
 defined in exercise 4.1–34. A generalized right-to-left binary method for exponentiation,
 which uses λ(n)+ν(n)−1 multiplications when both x and x−1 are given, can be based
 on the representation αn of that exercise.]
 32. See Discrete Math. 23 (1978), 115–119.
-[This cost model corresponds to mul-
-tiplication of large numbers by a classical method like Algorithm 4.3.1M. Empirical
+[This cost model corresponds to multiplication of large numbers by a classical method like Algorithm 4.3.1M. Empirical
 results with a more general model in which the cost is (ajak)β/2 have been obtained
 by D. P. McCarthy, Math. Comp. 46 (1986), 603–608; this model comes closer to the
 “fast multiplication” methods of Section 4.3.3, when two n-bit numbers are multiplied
@@ -57039,13 +52795,13 @@ that 0 ≤ek ≤1 and e1 + · · · + em ≥2. Let nk = (dkλ . . . dk1dk0)2; to
 
 4.6.3
 ANSWERS TO EXERCISES
-697
+
 calculation, take xd1λ
-1
+
 . . . xdmλ
 m
 , then square and multiply by xd1i
-1
+
 . . . xdmi
 m , for i = λ −1,
 . . . , 1, 0. [Straus showed in AMM 71 (1964), 807–808, that 2λ(n) may be replaced by
@@ -57074,8 +52830,7 @@ it follows that l(12, . . . , m2) = m + O(m · exp(−( 1
 On the other hand, D. Dobkin and R. Lipton have shown that, for any ϵ > 0,
 l(12, . . . , m2) > m + m2/3−ϵ when m is sufficiently large [SICOMP 9 (1980), 121–125].
 39. The quantity l([n1, n2, . . . , nm]) is the minimum of arcs−vertices+m taken over all
-directed graphs having m vertices sj whose in-degree is zero and one vertex t whose out-
-degree is zero, where there are exactly nj oriented paths from sj to t for 1 ≤j ≤m.
+directed graphs having m vertices sj whose in-degree is zero and one vertex t whose outdegree is zero, where there are exactly nj oriented paths from sj to t for 1 ≤j ≤m.
 The quantity l(n1, n2, . . . , nm) is the minimum of arcs −vertices + 1 taken over all
 directed graphs having one vertex s whose in-degree is zero and m vertices tj whose
 out-degree is zero, where there are exactly nj oriented paths from s to tj for 1 ≤j ≤m.
@@ -57086,7 +52841,7 @@ general theorem. Let N = (nij) be an m × p matrix of nonnegative integers havin
 no row or column entirely zero. We can define l(N) to be the minimum number of
 multiplications needed to compute the set of monomials {x
 n1j
-1
+
 . . . x
 nmj
 m
@@ -57106,8 +52861,6 @@ l([n1, . . . , nt]).
 But this is clear, since we can first form {xm1, . . . , xmt} and then
 compute the monomial (xm1)n1 . . . (xmt)nt.
 
-
-698
 ANSWERS TO EXERCISES
 4.6.3
 Note: One strong way to state Olivos’s theorem is that if a0, . . . , ar and b0, . . . , bs
@@ -57116,8 +52869,7 @@ matrix of nonnegative integers cij.
 41. [SICOMP 10 (1981), 638–646.] The stated formula can be proved whenever A ≥
 9m2. Since this is a polynomial in m, and since the problem of finding a minimum
 vertex cover is NP-hard (see Section 7.9), the problem of computing l(n1, . . . , nm) is
-NP-complete. [It is unknown whether or not the problem of computing l(n) is NP-
-complete.
+NP-complete. [It is unknown whether or not the problem of computing l(n) is NPcomplete.
 But it seems plausible that an optimum chain for, say, m−1
 k=0 nk+12Ak2
 would entail an optimum chain for {n1, . . . , nm}, when A is sufficiently large.]
@@ -57146,17 +52898,16 @@ and n additions.
 6. J1. Compute and store the values x2
 0, x3
 0, . . . , x⌈n/2⌉
-0
+
 .
 J2. Set vj ←ujxj−⌊n/2⌋
-0
+
 for 0 ≤j ≤n.
 J3. For k = 0, 1, . . . , n −1, set vj ←vj + vj+1 for j = n −1, . . . , k + 1, k.
 J4. Set vj ←vjx⌊n/2⌋−j
-0
+
 for 0 ≤j ≤n.
-There are (n2+n)/2 additions, n+⌈n/2⌉−1 multiplications, n divisions. Another mul-
-tiplication and division can be saved by treating vn and v0 as special cases. Reference:
+There are (n2+n)/2 additions, n+⌈n/2⌉−1 multiplications, n divisions. Another multiplication and division can be saved by treating vn and v0 as special cases. Reference:
 SIGACT News 7, 3 (Summer 1975), 32–34.
 7. Let xj = x0 + jh, and consider (42) and (44). Set yj ←u(xj) for 0 ≤j ≤n. For
 k = 1, 2, . . . , n (in this order), set yj ←yj −yj−1 for j = n, n −1, . . . , k (in this
@@ -57167,7 +52918,7 @@ operations of (5) are done with perfect accuracy. A better way to do the initial
 
 4.6.4
 ANSWERS TO EXERCISES
-699
+
 when (5) is performed with fixed point arithmetic, is to choose β0, . . . , βn so that
 
 
@@ -57175,20 +52926,20 @@ when (5) is performed with fixed point arithmetic, is to choose β0, . . . , βn
 
 
 0
-0
+
 
 0
-1
+
 
 · · ·
 0
 n
 
 d
-0
+
 
 d
-1
+
 
 · · ·
 d
@@ -57198,10 +52949,10 @@ n
 ...
 ...
 nd
-0
+
 
 nd
-1
+
 
 · · ·
 nd
@@ -57313,8 +53064,6 @@ of elements from the other, must have at least 15 additions [SICOMP 5 (1976), 18
 J. Algorithms 2 (1981), 301–310]; the rank of T(2, 3, 2), the tensor for the product
 of a 2 × 3 matrix by a 3 × 2 matrix, is 11 [V. B. Alekseyev, J. Algorithms 6 (1985),
 
-
-700
 ANSWERS TO EXERCISES
 4.6.4
 71–85]. For n × n matrix multiplication, the best upper bound known when n = 3
@@ -57344,8 +53093,7 @@ The inverse transform times m1 . . . mn can be found by doing a regular transfor
 interchanging tj with mj −tj when tj ̸= 0; see exercise 4.3.3–9.
 [If we regard F(t1, . . . , tn) as the coefficient of xt1
 1 . . . xtn
-n in a multivariate polyno-
-mial, the discrete Fourier transform amounts to evaluation of this polynomial at roots
+n in a multivariate polynomial, the discrete Fourier transform amounts to evaluation of this polynomial at roots
 of unity, and the inverse transform amounts to finding the interpolating polynomial.]
 14. Let m1 = · · · = mn = 2, F(t1, t2, . . . , tn) = F(2n−1tn + · · · + 2t2 + t1), and
 f(s1, s2, . . . , sn) = f(2n−1s1 + 2n−2s2 + · · · + sn); note the reversal between t’s and
@@ -57376,7 +53124,7 @@ n, t1, . . . , tn−k) when (s1 . . . sn)2 +
 
 4.6.4
 ANSWERS TO EXERCISES
-701
+
 (s′
 1 . . . s′
 n)2 ≡0 (modulo 2n). About half as many multiplications and additions are
@@ -57391,9 +53139,7 @@ admirably summarized by Charles Van Loan, Computational Frameworks for the Fast
 Fourier Transform (Philadelphia: SIAM, 1992). For a survey of fast Fourier transforms
 on finite groups, see M. Clausen and U. Baum, Fast Fourier Transforms (Mannheim:
 Bibliographisches Institut Wissenschaftsverlag, 1993).]
-15. (a) The hint follows by integration and induction. Let f (n)(θ) take on all values be-
-tween A and B inclusive, as θ varies from min(x0, . . . , xn) to max(x0, . . . , xn). Replac-
-ing f (n) by each of these bounds, in the stated integral, yields A/n! ≤f(x0, . . . , xn) ≤
+15. (a) The hint follows by integration and induction. Let f (n)(θ) take on all values between A and B inclusive, as θ varies from min(x0, . . . , xn) to max(x0, . . . , xn). Replacing f (n) by each of these bounds, in the stated integral, yields A/n! ≤f(x0, . . . , xn) ≤
 B/n!.
 (b) It suffices to prove this for j = n.
 Let f be Newton’s interpolation
@@ -57416,17 +53162,17 @@ x −x3 +
 x −x4 −
 y5
 x −x5
-1
+
 x −x0 −
-5
+
 x −x1 +
-10
+
 x −x2 −
-10
+
 x −x3 +
-5
+
 x −x4 −
-1
+
 x −x5
 ,
 independent of the value of h.
@@ -57479,8 +53225,6 @@ w = (x −3)z + 73, u(x) = (w + z −24)w −12.
 α4 = 4, α5 = −2. We form z = (x−1)x+1, w = z+x, and u(x) = ((z−x−4)w+4)z−2.
 Here one of the seven additions can be saved if we compute w = x2 + 1, z = w −x.
 
-
-702
 ANSWERS TO EXERCISES
 4.6.4
 23. (a) We may use induction on n; the result is trivial if n < 2. If f(0) = 0, then
@@ -57504,13 +53248,13 @@ p(x) = (x + 5)(x2 + 2x + 2)(x2 + 1)(x −1) = x6 + 6x5 + 6x4 + 4x3 −5x2 −2x 
 q(x) = 6x2 + 4x −2 = 6(x + 1)(x −1
 3).
 Let α2 = −1, α1 =
-1
+
 3; p1(x) = x4 +
 6x3 + 5x2 −2x −10 = (x2 + 6x + 16
 3 )(x2 −1
 3) −74
 9 ; α0 = 6, β0 =
-16
+
 3 , β1 = −74
 9 .
 Case 2: c = 4. A similar analysis gives α2 = 9, α1 = −3, α0 = −6, β0 = 12, β1 = −26.
@@ -57520,8 +53264,7 @@ Case 2: c = 4. A similar analysis gives α2 = 9, α1 = −3, α0 = −6, β0 = 1
 β1β2β3β4x3 + β2β3β4x2 + β3β4x + β4. (c) If any coefficient is zero, the coefficient of x3
 must also be zero in (b), while (a) yields an arbitrary polynomial α1x3+α2x2+α3x+α4
 of degree ≤3.
-27. Otherwise there would be a nonzero polynomial f(qn, . . . , q1, q0) with integer coeffi-
-cients such that qn · f(qn, . . . , q1, q0) = 0 for all sets (qn, . . . , q0) of real numbers. This
+27. Otherwise there would be a nonzero polynomial f(qn, . . . , q1, q0) with integer coefficients such that qn · f(qn, . . . , q1, q0) = 0 for all sets (qn, . . . , q0) of real numbers. This
 cannot happen, since it is easy to prove by induction on n that a nonzero polynomial
 always takes on some nonzero value. (See exercise 4.6.1–16. However, this result is
 false for finite fields in place of the real numbers.)
@@ -57530,8 +53273,7 @@ domain Q[α1, . . . , αs], where Q is the field of rational numbers. Since s + 
 than the number of elements in a basis, the polynomials fj(α1, . . . , αs) are algebraically
 dependent; this means that there is a nonzero polynomial g with rational coefficients
 such that g(f0(α1, . . . , αs), . . . , fs(α1, . . . , αs)) is identically zero.
-29. Given j0, . . . , jt ∈{0, 1, . . . , n}, there are nonzero polynomials with integer coeffi-
-cients such that gj(qj0, . . . , qjt) = 0 for all (qn, . . . , q0) in Rj, 1 ≤j ≤m. The product
+29. Given j0, . . . , jt ∈{0, 1, . . . , n}, there are nonzero polynomials with integer coefficients such that gj(qj0, . . . , qjt) = 0 for all (qn, . . . , q0) in Rj, 1 ≤j ≤m. The product
 g1g2 . . . gm is therefore zero for all (qn, . . . , q0) in R1 ∪· · · ∪Rm.
 30. Starting with the construction in Theorem M, we will prove that mp+(1−δ0mc) of
 the β’s may effectively be eliminated: If µi corresponds to a parameter multiplication,
@@ -57544,7 +53286,7 @@ where γ1, γ2, θ1, θ2 are polynomials in β1, . . . , β2i−2 with integer c
 
 4.6.4
 ANSWERS TO EXERCISES
-703
+
 θ1 = θ2 = 0. Now add cβ2i−1β2i to each βj for which cµi occurs in Tj; add β2i−1γ2/γ1
 to β2i; and set β2i−1 to zero. The result set is unchanged by this elimination of β2i−1,
 except for the values of α1, . . . , αs such that γ1 is zero. [This proof is essentially due to
@@ -57592,8 +53334,6 @@ that calculates a fourth-degree polynomial has the form
 λ6 = λ4 × λ5
 λ7 = α5 + λ6.
 
-
-704
 ANSWERS TO EXERCISES
 4.6.4
 Actually this chain has one addition too many, but any correct scheme can be put into
@@ -57635,8 +53375,7 @@ both of these involve only five independent parameters.
 37. Let p0(x) = unxn +un−1xn−1 +· · ·+u0 and q0(x) = xn +vn−1xn−1 +· · ·+v0. For
 1 ≤j ≤n, divide pj−1(x) by the monic polynomial qj−1(x), obtaining pj−1(x) =
 αjqj−1(x) + βjqj(x).
-Assume that a monic polynomial qj(x) of degree n −j ex-
-ists satisfying this relation; this will be true for almost all rational functions.
+Assume that a monic polynomial qj(x) of degree n −j exists satisfying this relation; this will be true for almost all rational functions.
 Let
 pj(x) = qj−1(x) −xvqj(x). These definitions imply that deg(pn) < 1, so we may let
 αn+1 = pn(x).
@@ -57646,19 +53385,15 @@ j
 βj
 qj(x)
 pj(x)
-0
+
 x2 + 8x + 19
 x2 + 10x + 29
-1
-1
-2
+
+
 x + 5
 3x + 19
-2
-3
-4
-1
-5
+
+
 so u(x)/v(x) = p0(x)/q0(x) = 1 + 2/(x + 3 + 4/(x + 5)).
 Notes: A general rational function of the stated form has 2n + 1 “degrees of
 freedom,” in the sense that it can be shown to have 2n + 1 essentially independent
@@ -57671,7 +53406,7 @@ A and M: A quolynomial chain with q addition-subtraction steps has at most q + 1
 
 4.6.4
 ANSWERS TO EXERCISES
-705
+
 degrees of freedom. A quolynomial chain with m multiplication-division steps has at
 most 2m + 1 degrees of freedom. Therefore a quolynomial chain that computes almost
 all rational functions of the stated form must have at least 2n addition-subtractions,
@@ -57724,8 +53459,6 @@ In Motzkin’s unpublished notes he arranged to make δk = 0 almost always, by
 choosing γ’s so that this leading coefficient is ̸= 0 when m is even and = 0 when m is
 odd; then we can almost always let b be a (real) root of an odd-degree polynomial.
 
-
-706
 ANSWERS TO EXERCISES
 4.6.4
 40. No; S. Winograd found a way to compute all polynomials of degree 13 with only
@@ -57785,7 +53518,7 @@ for 1 ≤j ≤2m + 1, and we do not assume that β30 = 0 or that βjr(j) = 1 for
 
 4.6.4
 ANSWERS TO EXERCISES
-707
+
 This single canonical form involves m2 + 2m parameters. As the α’s run through all
 integers and as we run through all chains, the β’s run through at most 2m2+2m sets of
 values mod 2, hence the result set does also. In order to obtain all 2n polynomials
@@ -57822,10 +53555,9 @@ by induction on l, this requires at most 1
 after the precomputation. [See S. Winograd, IBM Tech. Disclosure Bull. 13 (1970),
 1133–1135.]
 Note: It is also possible to evaluate u(x) with
-1
+
 2n + O(√n ) multiplications and
-n + O(√n ) additions, under the same ground rules, if our goal is to minimize multi-
-plications + additions. The generic polynomial
+n + O(√n ) additions, under the same ground rules, if our goal is to minimize multiplications + additions. The generic polynomial
 pjkm(x) =
 
 . . . (((xm + α0)(xj+1 + β1) + α1)(xj+2 + β2)
@@ -57838,32 +53570,30 @@ pjkm(x) =
 · · · + (j + 1), m′ −k, m′ −k + 1, . . . , m′ −j}, where
 m′ = m + j + (j + 1) + · · · + k = m +
 k + 1
-2
+
 
 −
 j
-2
+
 
 .
 By adding together such polynomials p1km1(x), p2km2(x), . . . , pkkmk(x) for mj =
 j+1
-2
+
 
 +
 k−j+2
-2
+
 
 , we obtain an arbitrary monic polynomial of degree k2 + k + 1. [Rabin
 and Winograd, Comm. on Pure and Applied Math. 25 (1972), 433–458, §2; this paper
 also proves that constructions with
-1
+
 2n + O(log n) multiplications and ≤(1 + ϵ)n
 additions are possible for all ϵ > 0, if n is large enough.]
 45. It suffices to show that (Tijk)’s rank is at most that of (tijk), since we can obtain
 (tijk) back from (Tijk) by transforming it in the same way with F −1, G−1, H−1. If
 
-
-708
 ANSWERS TO EXERCISES
 4.6.4
 tijk = r
@@ -57947,9 +53677,9 @@ Appl. Math. 3 (1970), 165–179]. But some savings can be achieved if the same m
 is used with s > 1 different column vectors, since this is equivalent to (m × n) times
 (n × s) matrix multiplication.)
 51. (a) s1 = y0 + y1, s2 = y0 −y1; m1 =
-1
+
 2(x0 + x1)s1, m2 =
-1
+
 2(x0 −x1)s2; w0 =
 m1 +m2, w1 = m1 −m2. (b) Here are some intermediate steps, using the methodology
 in the text: ((x0 −x2) + (x1 −x2)u)((y0 −y2) + (y1 −y2)u) mod (u2 + u + 1) =
@@ -57975,7 +53705,7 @@ The first realization is
 
 4.6.4
 ANSWERS TO EXERCISES
-709
+
 The second realization is
 1 1 1 2
 1 1 2 1
@@ -58050,8 +53780,6 @@ by multiplying one of the F’s or S’s by a real or imaginary number αj; foll
 (iii) a number of further sums tk, each of which is formed from m’s or t’s (not F’s or
 s’s). The final values must be m’s or t’s. For example, the “normal” Fourier transform
 
-
-710
 ANSWERS TO EXERCISES
 4.6.4
 scheme for m = 5 constructed from (69) and the method of part (a) is as follows:
@@ -58060,11 +53788,11 @@ s6 = F(2)−F(3), s7 = s5−s6; m1 = 1
 4(ω+ω2+ω4+ω3)s3, m2 = 1
 4(ω−ω2+ω4−ω3)s4,
 m3 =
-1
+
 2(ω + ω2 −ω4 −ω3)s5, m4 =
-1
+
 2(−ω + ω2 + ω4 −ω3)s6, m5 =
-1
+
 2(ω3 −ω2)s7,
 m6 = 1 · F(5), m7 = 1 · s3; t0 = m1 + m6, t1 = t0 + m2, t2 = m3 + m5, t3 = t0 −m2,
 t4 = m4 −m5, t5 = t1 + t2, t6 = t3 + t4, t7 = t1 −t2, t8 = t3 −t4, t9 = m6 + m7.
@@ -58129,7 +53857,7 @@ machines that take significantly longer to multiply than to add.
 
 4.6.4
 ANSWERS TO EXERCISES
-711
+
 55. 2n′ −q′, where n′ is the degree of the minimum polynomial of P (the monic
 polynomial µ of least degree such that µ(P) is the zero matrix) and q′ is the number
 of distinct irreducible factors it has. (Reduce P by similarity transformations.)
@@ -58194,8 +53922,6 @@ m −1 by degree n −1, the corresponding matrix has rank n whenever (x1, . . .
 Notes: In particular, if we work over the field of 2 elements, this says that the
 rows of A modulo 2 form a “linear code” of m vectors having distance at least n,
 
-
-712
 ANSWERS TO EXERCISES
 4.6.4
 whenever (A, B, C) is a realization consisting entirely of integers. This observation,
@@ -58393,10 +54119,9 @@ same,
 
 4.6.4
 ANSWERS TO EXERCISES
-713
+
 In each case the A and B matrices are identical.
-59. [IEEE Trans. ASSP-28 (1980), 205–215.] Note that cyclic convolution is polyno-
-mial multiplication mod un−1, and negacyclic convolution is polynomial multiplication
+59. [IEEE Trans. ASSP-28 (1980), 205–215.] Note that cyclic convolution is polynomial multiplication mod un−1, and negacyclic convolution is polynomial multiplication
 mod un +1. Let us now change notation, replacing n by 2n; we shall consider recursive
 algorithms for cyclic and negacyclic convolution (z0, . . . , z2n−1) of (x0, . . . , x2n−1) with
 (y0, . . . , y2n−1). The algorithms are presented in unoptimized form, for brevity and
@@ -58431,28 +54156,24 @@ holds for y(u). Our strategy will be to multiply these polynomials modulo
 (umr + 1) = (u2n + 1), by operating modulo (wr + 1) on the polynomials
 X(w) and Y (w), finding their cyclic convolution of length 2m and thereby
 obtaining x(u)y(u) ≡Z0(um) + uZ1(um) + · · · + u2m−1Z2m−1(um).)
-N3. [Transform.] (Now we will essentially do a fast Fourier transform on the poly-
-nomials (X0, . . . , Xm−1, 0, . . . , 0) and (Y0, . . . , Ym−1, 0, . . . , 0), using wr/m as a
+N3. [Transform.] (Now we will essentially do a fast Fourier transform on the polynomials (X0, . . . , Xm−1, 0, . . . , 0) and (Y0, . . . , Ym−1, 0, . . . , 0), using wr/m as a
 (2m)th root of unity. This is efficient, because multiplication by a power of w
 is not really a multiplication at all.) For j = ⌊n/2⌋−1, . . . , 1, 0 (in this order),
 do the following for all m binary numbers s + t = (s⌊n/2⌋. . . sj+10 . . . 0)2 +
-(0 . . . 0tj−1 . . . t0)2: Replace (Xs+t(w), Xs+t+2j(w)) by the pair of polynomi-
-als (Xs+t(w) + w(r/m)s′Xs+t+2j(w), Xs+t(w) −w(r/m)s′Xs+t+2j(w)), where
+(0 . . . 0tj−1 . . . t0)2: Replace (Xs+t(w), Xs+t+2j(w)) by the pair of polynomials (Xs+t(w) + w(r/m)s′Xs+t+2j(w), Xs+t(w) −w(r/m)s′Xs+t+2j(w)), where
 s′ = 2j(sj+1 . . . s⌊n/2⌋)2. (We are evaluating 4.3.3–(39), with K = 2m and
 ω = wr/m; notice the bit-reversal in s′. The polynomial operation Xi(w) ←
 Xi(w) + wkXl(w) means, more precisely, that we set Xij ←Xij + Xl(j−k) for
 k ≤j < r, and Xij ←Xij −Xl(j−k+r) for 0 ≤j < k. A copy of Xl(w) can be
 made without wasting much space.) Do the same transformation on the Y ’s.
 
-
-714
 ANSWERS TO EXERCISES
 4.6.4
 N4. [Recurse.] For 0 ≤i < 2m, set (Zi0, . . . , Zi(r−1)) to the negacyclic convolution
 of (Xi0, . . . , Xi(r−1)) and (Yi0, . . . , Yi(r−1)).
 N5. [Untransform.] For j = 0, 1, . . . , ⌊n/2⌋(in this order), and for all m choices
 of s and t as in steps N3, set (Zs+t(w), Zs+t+2j(w)) to
-1
+
 2(Zs+t(w) + Zs+t+2j(w), w−(r/m)s′(Zs+t(w) −Zs+t+2j(w))).
 N6. [Repack.] (Now we have accomplished the goal stated at the end of step N2,
 since it is easy to show that the transform of the Z’s is the product of the
@@ -58463,13 +54184,12 @@ intermediate variables in this calculation; for example, if |xi| ≤M for 0 ≤i
 at the beginning of the algorithm, then all of the x and X variables will be bounded
 by 2nM throughout. All of the z and Z variables will be bounded by (2nM)2, which
 is n more bits than required to hold the final convolution.
-Algorithm N performs An addition-subtractions, Dn halvings, and Mn multipli-
-cations, where A1 = 5, D1 = 0, M1 = 3; for n > 1 we have An = ⌊n/2⌋2n+2 +
+Algorithm N performs An addition-subtractions, Dn halvings, and Mn multiplications, where A1 = 5, D1 = 0, M1 = 3; for n > 1 we have An = ⌊n/2⌋2n+2 +
 2⌊n/2⌋+1A⌈n/2⌉+ (⌊n/2⌋+ 1)2n+1 + 2n, Dn = 2⌊n/2⌋+1D⌈n/2⌉+ (⌊n/2⌋+ 1)2n+1, and
 Mn = 2⌊n/2⌋+1M⌈n/2⌉. The solutions are An = 11 · 2n−1+⌈lg n⌉−3 · 2n + 6 · 2nSn,
 Dn = 4 · 2n−1+⌈lg n⌉−2 · 2n + 2 · 2nSn, Mn = 3 · 2n−1+⌈lg n⌉; here Sn satisfies the
 recurrence S1 = 0, Sn = 2S⌈n/2⌉+⌊n/2⌋, and it is not difficult to prove the inequalities
-1
+
 2n⌈lg n⌉≤Sn ≤Sn+1 ≤1
 2n lg n + n for all n ≥1. Algorithm C does approximately
 the same amount of work as Algorithm N.
@@ -58496,8 +54216,7 @@ realization of length r = rankd(tijk). Then tijk = 
 l=1 ailµbjlνcklσ. [This
 result can be improved to rank(tijk) ≤(2d + 1) rankd(tijk) in an infinite field, because
 the trilinear form 
-µ+ν+σ=d aµbνcσ corresponds to multiplication of polynomials mod-
-ulo ud+1, as pointed out by Bini and Pan. See Calcolo 17 (1980), 87–97.] (c, d) This is
+µ+ν+σ=d aµbνcσ corresponds to multiplication of polynomials modulo ud+1, as pointed out by Bini and Pan. See Calcolo 17 (1980), 87–97.] (c, d) This is
 clear from the realizations in exercise 48.
 (e) Suppose we have realizations of t and rt′ such that r
 l=1 ailbjlckl = tijkud +
@@ -58524,12 +54243,11 @@ i′j′k′ud+d′ + O(ud+d′+1).
 
 4.6.4
 ANSWERS TO EXERCISES
-715
+
 62. The rank is 3, by the method of proof in Theorem W with P =
 0
-0
-1
-0
+
+
 
 . The border
 rank cannot be 1, since we cannot have a1(u)b1(u)c1(u) ≡a1(u)b2(u)c2(u) ≡ud and
@@ -58537,18 +54255,17 @@ a1(u)b2(u)c1(u) ≡a1(u)b1(u)c2(u) ≡0 (modulo ud+1). The border rank is 2 beca
 of the realization
 1
 u
-1
-0
+
+
 
 ,
 u
-1
-0
-1
+
+
 
 ,
 1
-0
+
 −1
 u
 
@@ -58556,8 +54273,7 @@ u
 The notion of border rank was introduced by Bini, Capovani, Lotti, and Romani
 in Information Processing Letters 8 (1979), 234–235.
 63. (a) Let the elements of T(m, n, s) and T(M, N, S) be denoted by t⟨i,j′⟩⟨j,k′⟩⟨k,i′⟩
-and T⟨I,J′⟩⟨J,K′⟩⟨K,I′⟩, respectively. Each element T⟨I,J ′⟩⟨J ,K′⟩⟨K,I′⟩of the direct prod-
-uct, where I = ⟨i, I⟩, J = ⟨j, J⟩, and K = ⟨k, K⟩, is equal to t⟨i,j′⟩⟨j,k′⟩⟨k,i′⟩×
+and T⟨I,J′⟩⟨J,K′⟩⟨K,I′⟩, respectively. Each element T⟨I,J ′⟩⟨J ,K′⟩⟨K,I′⟩of the direct product, where I = ⟨i, I⟩, J = ⟨j, J⟩, and K = ⟨k, K⟩, is equal to t⟨i,j′⟩⟨j,k′⟩⟨k,i′⟩×
 T⟨I,J′⟩⟨J,K′⟩⟨K,I′⟩by definition, so it is [I′ = I and J ′ = J and K′ = K].
 (b) Apply exercise 61(e) with M(N) = rank0(T(N, N, N)).
 (c) We have M(mns) ≤r3, since T(mns, mns, mns) = T(m, n, s) ⊗T(n, s, m) ⊗
@@ -58567,7 +54283,7 @@ M(n⌈logn N⌉) ≤R⌈logn N⌉≤RN log R/log n. [This result appears in Pan�
 Md(n) ≤R we have Mhd(nh) ≤Rh for all h, and the stated formula follows since
 M(nh) ≤
 hd+2
-2
+
 
 Rh by exercise 61(b). In an infinite field we save a factor of log N.
 [This result is due to Bini and Schönhage, 1979.]
@@ -58624,8 +54340,6 @@ T(mkM h−k, nkN h−k, skSh−k))
 by exercise 63(b), and it follows from part (b) that
 pωqkQh−k = (pmkM h−kpnkN h−kpskSh−k)ω/3 ≤cϵrh.
 
-
-716
 ANSWERS TO EXERCISES
 4.6.4
 Since p ≥
@@ -58643,8 +54357,7 @@ k
 Therefore (q + Q)h ≤(h + 1)2ϵh/(ω+ϵ)2ωcϵrh for all h. And it follows that we must
 have q + Q ≤2ϵ/(ω+ϵ)r for all ϵ > 0.
 (d) Set m = n = 4 in exercise 65, and note that 160.85 + 90.85 > 17.
-67. (a) The mn × mns2 matrix (t⟨ij′⟩(⟨jk′⟩⟨ki′⟩)) has rank mn because it is a permu-
-tation matrix when restricted to the mn rows for which k = k′ = 1.
+67. (a) The mn × mns2 matrix (t⟨ij′⟩(⟨jk′⟩⟨ki′⟩)) has rank mn because it is a permutation matrix when restricted to the mn rows for which k = k′ = 1.
 (b) ((t ⊕t′)i(jk)) is essentially (ti(jk)) ⊕(t′
 i(jk)), plus n′s + sn′ additional columns
 of zeros. [Similarly we have ((t ⊗t′)i(jk)) = (ti(jk)) ⊗(t′
@@ -58659,13 +54372,13 @@ in the partitioned form (A1 A2 A3) where A1 is m × m (and nonsingular), A2 is m
 and A3 is m × n. Also partition D so that AD = (A1D1 A2D2 A3D3). Then there is
 a q × r matrix W = (W1 I O) such that ADW T = O, namely W1 = −D2AT
 2 A−T
-1
+
 D−1
 1 .
 Similarly, we may write B = (B1 B2 B3), and we find V DBT = O when V = (O I V3)
 is the q × r matrix with V3 = −D2BT
 2 B−T
-3
+
 D−1
 3 . Notice that UDV T = D2, so the hint
 is established (more or less — after all, it was just a hint).
@@ -58718,7 +54431,7 @@ exercise 12).
 
 4.6.4
 ANSWERS TO EXERCISES
-717
+
 (g) Let f(u) and g(u) be polynomials such that the elements of V f(u) and Wg(u)
 are polynomials. Then we redefine
 A(i+m)l = ud+1vilf(u)/di+m, B(j+n)l = ud+1wjlg(u)/p, Ckl = ud+e+2ckl,
@@ -58734,8 +54447,7 @@ l=1 ail(u)bjl(u)cpl(u) is zero (not simply O(ud+1)) for all i and j that remain 
 deletion; moreover, cpl(u) ̸= 0 for all l. These properties are true in the constructions
 of parts (c) and (g), and they remain true when we take direct products.
 (i) The proof generalizes from binomials to multinomials in a straightforward way.
-(j) After part (h) we have 81ω/3 + 2(36ω/3) + 34ω/3 ≤100, so ω < 2.52. Squar-
-ing once again gives rank(T(81, 1, 81) ⊕4T(27, 4, 27) ⊕2T(9, 34, 9) ⊕4T(9, 16, 9) ⊕
+(j) After part (h) we have 81ω/3 + 2(36ω/3) + 34ω/3 ≤100, so ω < 2.52. Squaring once again gives rank(T(81, 1, 81) ⊕4T(27, 4, 27) ⊕2T(9, 34, 9) ⊕4T(9, 16, 9) ⊕
 4T(3, 136, 3) ⊕T(1, 3334, 1)) ≤10000; this yields ω < 2.4999.
 Success!
 Continued
@@ -58767,36 +54479,36 @@ when the yij are entirely zero; therefore division is slightly easier than multi
 we need not subtract 1 from yjj when j > n −2. It turns out that when redundant
 computations are suppressed, this method requires 20
 n
-5
+
 
 +8
 n
-4
+
 
 +12
 n
-3
+
 
 −4
 n
-2
+
 
 +5n−4
 multiplications and 20
 n
-5
+
 
 +8
 n
-4
+
 
 +4
 n
-3
+
 
 +24
 n
-2
+
 
 −n additions, thus 1
 6n5−O(n4) of each.
@@ -58810,43 +54522,40 @@ the inverse of D as a formal power series in 1/λ. We need to compute uY kv only
 n3+O(n2) multiplications and n3+O(n2) additions are needed to advance from degree
 n −1 to degree n. Proceeding recursively, we obtain the coefficients of fX from the
 
-
-718
 ANSWERS TO EXERCISES
 4.6.4
 elements of X after doing 6
 n
-4
+
 
 + 7
 n
-3
+
 
 + 2
 n
-2
+
 
 multiplications and 6
 n
-4
+
 
 + 5
 n
-3
+
 
 + 2
 n
-2
+
 
 addition-subtractions.
 If we only want to compute det X = (−1)nfX(0), we save 3
 n
-2
+
 
-−n + 1 multiplica-
-tions and
+−n + 1 multiplications and
 n
-2
+
 
 additions. This division-free method for determinant evaluation is in fact
 quite economical when n has a moderate size; it beats the obvious cofactor expansion
@@ -58906,24 +54615,22 @@ U such that (n1, . . . , ns)U = (0, . . . , 0, d), where d = gcd(n1, . . . , ns)
 
 4.7
 ANSWERS TO EXERCISES
-719
-discussed before Eq. 4.5.2–(14) implicitly defines such a U.) Construct a new polyno-
-mial chain with inputs y1, . . . , ys−1 as follows: First calculate x = (x1, . . . , xs)T =
+
+discussed before Eq. 4.5.2–(14) implicitly defines such a U.) Construct a new polynomial chain with inputs y1, . . . , ys−1 as follows: First calculate x = (x1, . . . , xs)T =
 U(y1, . . . , ys−1, −β/d)T , then continue with the assumed polynomial chain for V x.
 When step i of that chain is reached, we will have λk = (n1, . . . , ns)x + β = 0, so
 we can simply set λi = 0 instead of multiplying. After V x has been evaluated, add
 the constant vector wβ/d to the result, where w is the rightmost column of V U, and
 let W be the other s −1 columns of V U. The new polynomial chain has computed
-V x + wβ/d = V U(y1, . . . , ys−1, −β/d)T + wβ/d = W(y1, . . . , ys−1)T , with t −1 multi-
-plications. But the columns of W are Z-independent, by part (a); hence t −1 ≥s −1,
+V x + wβ/d = V U(y1, . . . , ys−1, −β/d)T + wβ/d = W(y1, . . . , ys−1)T , with t −1 multiplications. But the columns of W are Z-independent, by part (a); hence t −1 ≥s −1,
 by induction on s, and we have t ≥s.
 (c) Let xj = 0 for the t −s values of j that aren’t in the set of Z-independent
 columns. Any chain for Vx then evaluates V ′x′ for a matrix V ′ to which part (b) applies.
 (d) λ1 = x −y, λ2 = λ1 + λ1, λ3 = λ2 + x, λ4 = (1/6) × λ3, λ5 = λ4 + λ4,
 λ6 = λ5 +y (= x+y/3), λ7 = λ6 −λ1, λ8 = λ7 +λ4 (= x/2+y). But {x/2+y, x+y/2}
 needs two multiplications, since the columns of ( 1/2
-1
-1
+
+
 1/2) are Z-independent. [Journal
 of Information Processing 1 (1978), 125–129.]
 SECTION 4.7
@@ -58931,25 +54638,25 @@ SECTION 4.7
 by zm (shifting the coefficients m places to the left). The quotient will be a power
 series if and only if U0 = · · · = Um−1 = 0.
 2. We have V n+1
-0
+
 Wn = V n
 0 Un −(V 1
 0 W0)(V n−1
-0
+
 Vn) −(V 2
 0 W1)(V n−2
-0
+
 Vn−1) −· · · −
 (V n
 0 Wn−1)(V 0
 0 V1).
 Thus, we can start by replacing (Uj, Vj) by (V j
 0 Uj, V j−1
-0
+
 Vj) for
 j ≥1, then set Wn ←Un −n−1
 k=0 WkVn−k for n ≥0, finally replace Wj by Wj/V j+1
-0
+
 for j ≥0. Similar techniques are possible in connection with other algorithms in this
 section.
 3. Yes. When α = 0, it is easy to prove by induction that W1 = W2 = · · · = 0. When
@@ -58985,13 +54692,10 @@ are known, the idea is to input VN, . . . , V2N−1, compute (W0 + · · · + WN
 (V0 + · · · + V2N−1z2N−1) = 1 + R0zN + · · · + RN−1z2N−1 + O(z2N), and let WN +
 · · · + W2N−1zN−1 = −(W0 + · · · + WN−1zN−1)(R0 + · · · + RN−1zN−1) + O(zN).
 
-
-720
 ANSWERS TO EXERCISES
 4.7
 [Numer. Math. 22 (1974), 341–348; this algorithm was, in essence, first published
-by M. Sieveking, Computing 10 (1972), 153–156.] Note that the total time for N coef-
-ficients is O(N log N) arithmetic operations if we use “fast” polynomial multiplication
+by M. Sieveking, Computing 10 (1972), 153–156.] Note that the total time for N coefficients is O(N log N) arithmetic operations if we use “fast” polynomial multiplication
 (exercise 4.6.4–57).
 7. Wn =
 mk
@@ -59020,25 +54724,19 @@ n = 3
 n = 4
 n = 5
 T1n
-1
-1
-2
-5
-14
+
+
 T2n
-1
-2
-5
-14
+
+
 T3n
-1
-3
-9
+
+
 T4n
-1
-4
+
+
 T5n
-1
+
 10. Form y1/α = x(1 + a1x + a2x2 + · · ·)1/α = x(1 + c1x + c2x2 + · · · ) by means of
 Eq. (9); then revert the latter series. (See the remarks following Eq. 1.2.11.3–(11).)
 11. Set W0 ←U0, and set (Tk, Wk) ←(Vk, 0) for 1 ≤k ≤N.
@@ -59049,7 +54747,7 @@ Here T(z) represents V (z)N. An online power series algorithm for this problem,
 analogous to Algorithm T, could be constructed, but it would require about N 2/2
 storage locations. There is also an online algorithm that solves this exercise and needs
 only O(N) storage locations: We may assume that V1 = 1, if Uk is replaced by UkV k
-1
+
 and Vk is replaced by Vk/V1 for all k. Then we may revert V (z) by Algorithm L, and
 use its output as input to the algorithm of exercise 8 with G1 = U1, G2 = U2, etc.,
 thus computing U(V [−1][−1](z)) −U0. See also exercise 20.
@@ -59076,7 +54774,7 @@ operations. [JACM 25 (1978), 581–595.]
 
 4.7
 ANSWERS TO EXERCISES
-721
+
 When the polynomials have m-bit integer coefficients, this algorithm involves
 roughly N 3/2+ϵ multiplications of (N lg m)-bit numbers, so the total running time
 will be more than N 5/2.
@@ -59128,8 +54826,6 @@ The second algorithm solves W(z)U(z) + zU ′(z) = V (z) + O(zn) for U(z) =
 U0+U1z+· · ·+Un−1zn−1, given V (z), W(z), and n. If n = 1, let U0 = V (0)/W(0), or let
 U0 be arbitrary in case V (0) = W(0) = 0. To go from n to 2n, let W(z)U(z)+zU ′(z) =
 
-
-722
 ANSWERS TO EXERCISES
 4.7
 V (z) −znR(z) + O(z2n), and let ˆU(z) = Un + · · · + U2n−1zn−1 be a solution to the
@@ -59155,8 +54851,7 @@ follows since (n + 1)R′
 k+1(t)/V (t)n −nR′
 k(t)/V (t)n+1 =
 d
-dt(Rk(t)/V (t)n+1). Conse-
-quently we have n−1[tn−1] R′
+dt(Rk(t)/V (t)n+1). Consequently we have n−1[tn−1] R′
 1(t) tn/V (t)n = (n −1)−1[tn−2] R′
 2(t) tn−1/V (t)n−1 = · · · =
 1−1[t0] R′
@@ -59210,8 +54905,7 @@ k1! k2! . . . kn!
 vn
 n!
 kn
-by the multinomial theorem 1.2.6–(42). These coefficients, called partial Bell polyno-
-mials [see Annals of Math. (2) 35 (1934), 258–277], arise also in Arbogast’s formula,
+by the multinomial theorem 1.2.6–(42). These coefficients, called partial Bell polynomials [see Annals of Math. (2) 35 (1934), 258–277], arise also in Arbogast’s formula,
 exercise 1.2.5–21, and we can associate the terms with set partitions as explained in
 the answer to that exercise. The recurrence
 vnk =
@@ -59231,23 +54925,23 @@ ways to include the element n
 
 4.7
 ANSWERS TO EXERCISES
-723
+
 in a subset of size j. The first few rows of the matrix are
 v1
 v2
 v2
-1
+
 v3
 3v1v2
 v3
-1
+
 v4
 4v1v3 + 3v2
-2
+
 6v2
 1v2
 v4
-1
+
 v5
 5v1v4 + 10v2v3
 15v1v2
@@ -59256,14 +54950,13 @@ v5
 10v3
 1v2
 v5
-1
+
 20. [zn] W(z)k = 
 j([zj] U(z)k)([zn] V (z)j); hence wnk = (n!/k!) 
 j((k!/j!)ujk) ×
 ((j!/n!)vnj). [E. Jabotinsky, Comptes Rendus Acad. Sci. 224 (Paris, 1947), 323–324.]
 21. (a) If U(z) = αW(βz) we have unk = n!
-k! [zn] (αW(β(z))k = αkβnwnk; in partic-
-ular, if U(z) = V [−1](z) = −W(−z) we have unk = (−1)n−kwnk. So 
+k! [zn] (αW(β(z))k = αkβnwnk; in particular, if U(z) = V [−1](z) = −W(−z) we have unk = (−1)n−kwnk. So 
 k unkvkm and
 
 k vnkukm correspond to the identity function z, by exercise 20.
@@ -59304,14 +54997,14 @@ xVn(x + nα)/(x + nα) is the poweroid for ln U {α}(z). So we can plug this pow
 into the former identities, changing y to y −αn in the second formula.
 23. (a) We have U = I + T where T n is zero in rows ≤n. Hence ln U = T −1
 2T 2 +
-1
+
 3T 3 −· · · will have the property that exp(α ln U) = I +
 α
-1
+
 
 T +
 α
-2
+
 
 T 2 +· · · = U α. Each
 entry of U α is a polynomial in α, and the relations of exercise 19 hold whenever α is a
@@ -59323,8 +55016,6 @@ nk = n!
 k! [zn][ϵ] (z + ϵL(z) + O(ϵ2))k = n!
 k! [zn] kzk−1L(z).
 
-
-724
 ANSWERS TO EXERCISES
 4.7
 (c)
@@ -59336,7 +55027,7 @@ Also U [α+ϵ](z) = U [ϵ](U [α](z)) = U [α](z) + ϵL(U [α](z)) + O(ϵ2).
 ln−1 when n ≥4, because the coefficient of ln−1 on the left is nu2, while the coefficient
 on the right is un(n−1) =
 n
-2
+
 
 u2. Similarly, if u2 = · · · = uk−1 = 0 and uk ̸= 0, we have
 lk = uk and the recurrence for n ≥2k determines lk+1, lk+2, . . . : The left side has the
@@ -59356,7 +55047,7 @@ In general, l2 = u2, l3 = u3 −3
 2, l5 = u5 −15
 2 u2u4 −5u2
 3 +
-185
+
 6 u2
 2u3 −20u4
 2.
@@ -59428,7 +55119,7 @@ eV (z)δV (z). Replacing V (z) by ln V (z) in this equation gives V (z) δ ln V 
 
 4.7
 ANSWERS TO EXERCISES
-725
+
 hence δ(V (z)α) = δeα ln V (z) = eα ln V (z)δ(α ln V (z)) = αV (z)α−1 for all complex
 numbers α.
 It follows that the desired recurrences are
@@ -59500,11 +55191,9 @@ cos 1 = 0.54030 23058 68139 71740 09366 07442 97660 37323+
 ln ϕ = 0.48121 18250 59603 44749 77589 13424 36842 31352−
 1/ln ϕ = 2.07808 69212 35027 53760 13226 06117 79576 77422−
 −ln ln 2 = 0.36651 29205 81664 32701 24391 58232 66946 94543−
-726
-
 
 TABLES OF NUMERICAL QUANTITIES
-727
+
 Table 2
 QUANTITIES THAT ARE FREQUENTLY USED IN STANDARD SUBROUTINES
 AND IN ANALYSIS OF COMPUTER PROGRAMS (45 OCTAL PLACES)
@@ -59604,8 +55293,6 @@ ln ϕ =
 −ln ln 2 =
 0.27351 71233 67265 63650 17401 56637 26334 31455 57005−
 
-
-728
 APPENDIX A
 Several of the 40-digit values in Table 1 were computed on a desk calculator
 by John W. Wrench, Jr., for the first edition of this book.
@@ -59622,171 +55309,135 @@ Hn
 Bn
 Fn
 n
-0
-0
-1
-0
-0
-1
-1
+
+
 −1/2
-1
-1
-2
+
+
 3/2
 1/6
-1
-2
-3
+
+
 11/6
-0
-2
-3
-4
+
+
 25/12
 −1/30
-3
-4
-5
+
+
 137/60
-0
-5
-5
-6
+
+
 49/20
 1/42
-8
-6
-7
+
+
 363/140
-0
-13
-7
-8
+
+
 761/280
 −1/30
-21
-8
-9
+
+
 7129/2520
-0
-34
-9
-10
+
+
 7381/2520
 5/66
-55
-10
-11
+
+
 83711/27720
-0
-89
-11
-12
+
+
 86021/27720
 −691/2730
-144
-12
-13
+
+
 1145993/360360
-0
-233
-13
-14
+
+
 1171733/360360
 7/6
-377
-14
-15
+
+
 1195757/360360
-0
-610
-15
-16
+
+
 2436559/720720
 −3617/510
-987
-16
-17
+
+
 42142223/12252240
-0
-1597
-17
-18
+
+
 14274301/4084080
 43867/798
-2584
-18
-19
+
+
 275295799/77597520
-0
-4181
-19
-20
+
+
 55835135/15519504
 −174611/330
-6765
-20
-21
+
+
 18858053/5173168
-0
+
 10946
-21
-22
+
+
 19093197/5173168
 854513/138
 17711
-22
-23
+
+
 444316699/118982864
-0
+
 28657
-23
-24
+
+
 1347822955/356948592
 −236364091/2730
 46368
-24
-25
+
+
 34052522467/8923714800
-0
+
 75025
-25
-26
+
+
 34395742267/8923714800
 8553103/6
 121393
-26
-27
+
+
 312536252003/80313433200
-0
+
 196418
-27
-28
+
+
 315404588903/80313433200
 −23749461029/870
 317811
-28
-29
+
+
 9227046511387/2329089562800
-0
+
 514229
-29
-30
+
+
 9304682830147/2329089562800
 8615841276005/14322
 832040
-30
-
 
 TABLES OF NUMERICAL QUANTITIES
-729
+
 For any x, let Hx =
 
 n≥1
 1
 n −
-1
+
 n + x
 
 . Then
@@ -59810,28 +55461,28 @@ H3/4 = 4
 H1/5 = 5 −1
 2πϕ3/25−1/4 −5
 4 ln 5 −1
-2
+
 √
 5 ln ϕ,
 H2/5 = 5
 2 −1
 2πϕ−3/25−1/4 −5
 4 ln 5 + 1
-2
+
 √
 5 ln ϕ,
 H3/5 = 5
 3 + 1
 2πϕ−3/25−1/4 −5
 4 ln 5 + 1
-2
+
 √
 5 ln ϕ,
 H4/5 = 5
 4 + 1
 2πϕ3/25−1/4 −5
 4 ln 5 −1
-2
+
 √
 5 ln ϕ,
 H1/6 = 6 −1
@@ -59920,19 +55571,15 @@ is an integer and relation R(k) is true
 1.2.3
 min
 R(k) f(k)
-minimum value of all f(k) such that the var-
-iable k is an integer and relation R(k) is true
+minimum value of all f(k) such that the variable k is an integer and relation R(k) is true
 1.2.3
 max
 R(k) f(k)
-maximum value of all f(k) such that the var-
-iable k is an integer and relation R(k) is true
+maximum value of all f(k) such that the variable k is an integer and relation R(k) is true
 1.2.3
-730
-
 
 INDEX TO NOTATIONS
-731
+
 Where
 Formal symbolism
 Meaning
@@ -60042,8 +55689,6 @@ set difference: {a | a in S and a not in T}
 rounded or special operations
 4.2.1
 
-
-732
 APPENDIX B
 Where
 Formal symbolism
@@ -60055,7 +55700,7 @@ k akbk
 4.1
 //x1, x2, . . . , xn//
 continued fraction:
-1
+
 
 x1 + 1/(x2 + 1/( · · · + 1/(xn) . . . ))
 
@@ -60133,7 +55778,7 @@ the infinite sequence X0, X1, X2, . . .
 
 
 INDEX TO NOTATIONS
-733
+
 Where
 Formal symbolism
 Meaning
@@ -60213,12 +55858,12 @@ n≥0 (−1)n/(2n + 1)
 4.3.1
 ϕ
 golden ratio:
-1
-2
+
+
 
 1 +
 √
-5
+
 
 1.2.8
 ∅
@@ -60267,8 +55912,6 @@ j ⊥k
 j is relatively prime to k: gcd(j, k) = 1
 1.2.4
 
-
-734
 APPENDIX B
 Where
 Formal symbolism
@@ -60494,10 +56137,7 @@ Theorem 4.3.3A, 296.
 Theorem 4.3.3B, 302.
 Algorithm 4.3.3R, 312.
 Algorithm 4.3.3T, 299–301.
-735
 
-
-736
 APPENDIX C
 Algorithm 4.4A, 636.
 Algorithm 4.5.2A, 337.
@@ -60685,10 +56325,7 @@ Ahmad ibn Ibrahım
 (ÞÛÀ·Äm ÍÛÓmpg Ñp Ìc Ñ¿m Øpc),
 198, 280–281, 461.
 Ala-Nissilä, Tapio, 75, 570.
-737
 
-
-738
 INDEX AND GLOSSARY
 Alanen, Jack David, 30.
 Aldous, David John, 145.
@@ -60793,7 +56430,8 @@ Armengaud, Joël, 409.
 Arney, James W., 385.
 Arrival time, 132.
 Arwin, Axel, 687.
-Aryabhata I (aAyBV), 343.
+Aryabhata I (aAy
+BV), 343.
 ASCII: The American Standard Code for
 Information Interchange, 417.
 Ashenhurst, Robert Lovett, 240, 242, 327.
@@ -60819,7 +56457,7 @@ Avanzi, Roberto Maria, 396.
 
 
 INDEX AND GLOSSARY
-739
+
 b-ary number, 151.
 b-ary sequence, 151–153, 177.
 Babbage, Charles, 201.
@@ -60885,8 +56523,10 @@ Beta distribution, 134–135.
 Beyer, William Aaron, 115.
 Bharati Krishna Tirthaji Maharaja,
 Jagadguru Swami Sri (jgdg z -vAmF F
-BArtF k 	Z tFTjF mhArAj), 208.
-Bhaskara I, Acarya (BA-krAcAy), 343.
+BArtF k 	Z tFT
+jF mhArAj), 208.
+Bhaskara I, Acarya (BA-krAcAy
+), 343.
 Bienaymé, Irénée Jules, 74.
 Bilinear forms, 506–514, 520–524.
 Billingsley, Patrick Paul, 384, 661.
@@ -60939,16 +56579,13 @@ number system.
 Binomial theorem, 526, 534.
 Birnbaum, Zygmunt Wilhelm, 57.
 Birthday spacings, 34, 71–72, 78–79, 188.
-BIT: Nordisk Tidskrift for Informations-
-Behandling, an international journal
+BIT: Nordisk Tidskrift for InformationsBehandling, an international journal
 published in Scandinavia since 1961.
 Bit: “Binary digit”, either zero or
 unity, 195, 200.
 random, 12, 30–32, 35–36, 38, 48,
 119–120, 170–176.
 
-
-740
 INDEX AND GLOSSARY
 Bitwise operations, 30–31, 140, 202,
 328–329, 389–390, 459, 605.
@@ -61074,7 +56711,7 @@ Casting out nines, 289, 303, 324.
 
 
 INDEX AND GLOSSARY
-741
+
 Castle, Clive Michael Anthony, 653.
 Catalan, Eugène Charles, numbers, 723.
 Cauchy, Augustin Louis, 208.
@@ -61206,8 +56843,6 @@ mixed-radix, 290.
 modular, 290.
 multiprecision, 281.
 
-
-742
 INDEX AND GLOSSARY
 Complement notations for numbers, 15,
 203–204, 210, 213, 228, 275–276.
@@ -61333,7 +56968,7 @@ de Finetti, Bruno, 566.
 
 
 INDEX AND GLOSSARY
-743
+
 de Groote, Hans Friedrich, 708.
 de Jong, Lieuwe Sytse, 515.
 de Jonquières, Jean Philippe Ernest
@@ -61460,8 +57095,6 @@ uniform, 2, 10, 48, 61, 119, 121, 124, 263.
 variance-ratio, 135.
 wedge-shaped, 125–126.
 
-
-744
 INDEX AND GLOSSARY
 Distribution functions, 48, 121, 140,
 263, 362, 382–384.
@@ -61587,7 +57220,7 @@ Equivalent addition chains, 480, 484.
 
 
 INDEX AND GLOSSARY
-745
+
 Eratosthenes of Cyrene (>Eratosjènhc
 å KurhnaØoc), 412.
 Erdős, Pál (= Paul), 181, 384, 471, 696.
@@ -61714,8 +57347,6 @@ sequence, 27, 37, 213, 264, 360, 468,
 sequence, lagged, 27–29, 35, 40, 72, 75,
 79–80, 146, 186–188, 193.
 
-
-746
 INDEX AND GLOSSARY
 Field: An algebraic system admitting
 addition, subtraction, multiplication,
@@ -61848,7 +57479,7 @@ Nikolaeviq), 392, 651.
 
 
 INDEX AND GLOSSARY
-747
+
 Gage, Paul Vincent, 409.
 Galambos, János, 661.
 Galois, Évariste, 449, 457.
@@ -61975,8 +57606,6 @@ Gustavson, Fred Gehrung, 721.
 Guy, Michael John Thirian, 623.
 Guy, Richard Kenneth, 402, 413.
 
-
-748
 INDEX AND GLOSSARY
 Haber, Seymour, 164.
 Habicht, Walter, 435.
@@ -62103,7 +57732,7 @@ in situ transformation, 700.
 
 
 INDEX AND GLOSSARY
-749
+
 Inclusion and exclusion principle, 354,
 563, 610, 640, 678, 699.
 Incomplete gamma function, 56, 59, 133.
@@ -62179,7 +57808,8 @@ Janssens, Frank, 107, 114.
 Jansson, Birger, 540, 553.
 JAO (jump A odd), 339, 612.
 Japanese mathematics, 648.
-Jayadeva, Acarya (aAcAy jydv), 648.
+Jayadeva, Acarya (aAcAy
+ jydv), 648.
 Jebelean, Tudor, 629.
 Jefferson, Thomas, 229.
 Jensen, Geraldine Afton, 466.
@@ -62228,8 +57858,6 @@ Katz, Victor Joseph, 198.
 Kayal, Neeraj (nFrj kyAl), 396.
 Keir, Roy Alex, 237, 638.
 
-
-750
 INDEX AND GLOSSARY
 Keller, Wilfrid, 664, 666.
 Kempner, Aubrey John, 204, 378.
@@ -62360,7 +57988,7 @@ Left multiple, least common, 437–438.
 
 
 INDEX AND GLOSSARY
-751
+
 Legendre (= Le Gendre), Adrien Marie,
 326–327, 381, 396, 449.
 symbol, 414.
@@ -62487,8 +58115,6 @@ Maeder, Roman Erich, 627, 635.
 Mahler, Kurt, 180.
 measure, 683.
 
-
-752
 INDEX AND GLOSSARY
 Maiorana, James Anthony, 557.
 Mairan, Jean-Jacques d’Ortous de, 537.
@@ -62615,7 +58241,7 @@ Mitchell, Gerard Joseph Francis Xavier,
 
 
 INDEX AND GLOSSARY
-753
+
 MIX computer, vi, 209.
 binary version, 202–204, 339,
 389–390, 481.
@@ -62739,8 +58365,6 @@ Multiplier in a linear congruential sequence,
 10–11, 16–26, 88–89, 105–109, 184–185.
 Multiply-and-add algorithm, 268, 313.
 
-
-754
 INDEX AND GLOSSARY
 Multiprecision: Multiple-precision or
 Arbitrary precision.
@@ -62869,7 +58493,7 @@ negadecimal, 204, 210.
 
 
 INDEX AND GLOSSARY
-755
+
 nonary (radix 9), 200, 637.
 octal (= octonary = octonal, radix 8),
 194, 200–202, 210, 228, 323–325,
@@ -62992,8 +58616,6 @@ Patterson, Cameron Douglas, 390.
 Paul, Nicholas John, 128.
 Pawlak, Zdzisław, 205, 627.
 
-
-756
 INDEX AND GLOSSARY
 Payne, William Harris, 32.
 Paz, Azaria (FT DIXFR), 498.
@@ -63037,7 +58659,8 @@ as “random” example, 21, 25, 33, 47, 52,
 324–325, 555, 593, 599, 665.
 Picutti, Ettore, 412.
 Pigeonhole principle, 286.
-Pingala, Acarya (aAcAy Epŋgl), 461.
+Pingala, Acarya (aAcAy
+ Epŋgl), 461.
 Pipeline, 283.
 Pippenger, Nicholas John, 481, 697.
 Piras, Francesco, 683.
@@ -63119,7 +58742,7 @@ Positive semidefinite matrix, 586.
 
 
 INDEX AND GLOSSARY
-757
+
 Potency, 24–26, 36, 47, 52, 73, 83, 87–88,
 92, 105, 184.
 Power matrix, 534–536.
@@ -63241,8 +58864,6 @@ irrational, 209.
 mixed, 66, 199, 208–211, 290, 293, 505.
 negative, 204–205, 209–210, 212, 328.
 
-
-758
 INDEX AND GLOSSARY
 Radix conversion, 200, 204, 205, 207,
 210, 319–329, 486, 489.
@@ -63368,7 +58989,7 @@ Replicative law, 90.
 
 
 INDEX AND GLOSSARY
-759
+
 Representation of numbers, see Number
 systems.
 Representation of trees, 482.
@@ -63489,8 +59110,6 @@ Secret keys, 193, 403–407, 415, 417, 505.
 Secure communications, 2, 403–407, 415.
 Sedgewick, Robert, 540.
 
-
-760
 INDEX AND GLOSSARY
 Seed (starting value), 143, 146, 170,
 187–188, 193, 550, 590.
@@ -63620,7 +59239,7 @@ volume of, 105.
 
 
 INDEX AND GLOSSARY
-761
+
 Spherical coordinates, 59.
 SQRT box, 175, 406–407, 415.
 Square root, 122, 213, 283, 374–375,
@@ -63745,8 +59364,6 @@ Tables of fundamental constants,
 Tabulating polynomial values, 488, 515.
 Tague, Berkley Arnold, 419.
 
-
-762
 INDEX AND GLOSSARY
 Tail of a floating point number, 235.
 Tail of the binomial distribution, 167.
@@ -63881,7 +59498,7 @@ Tsuji, Masatsugu (
 
 
 INDEX AND GLOSSARY
-763
+
 Tukey, John Wilder, 701.
 Turán, Pál (= Paul), 372, 649.
 Turing, Alan Mathison, 3, 599.
@@ -64005,8 +59622,6 @@ Warlimont, Richard Clemens, 686.
 Watanabe, Masatoshi (
 ), 764.
 
-
-764
 INDEX AND GLOSSARY
 Waterman, Alan Gaisford, 40, 106–107,
 116, 144, 554, 596.
@@ -64121,194 +59736,194 @@ fonts developed by Yannis Haralambous (Greek, Hebrew, Arabic), Olga G. Lapko (Cy
 Frans J. Velthuis (Devanagari), Masatoshi Watanabe (Japanese), and Linbo Zhang (Chinese).
 
 
-This page intentionally left blank 
+This page intentionally left blank
 
 
 Character code:
-00
+
 ␣
-01
+
 A
-02
+
 B
-03
+
 C
-04
+
 D
-05
+
 E
-06
+
 F
-07
+
 G
-08
+
 H
-09
+
 I
-10
+
 ´
-11
+
 J
-12
+
 K
-13
+
 L
-14
+
 M
-15
+
 N
-16
+
 O
-17
+
 P
-18
+
 Q
-19
+
 R
-20
+
 ˚
-21
+
 ˝
-22
+
 S
-23
+
 T
-24
+
 U
-00
-1
+
+
 No operation
 NOP(0)
-01
-2
+
+
 rA ←rA + V
 ADD(0:5)
 FADD(6)
-02
-2
+
+
 rA ←rA −V
 SUB(0:5)
 FSUB(6)
-03
-10
+
+
 rAX ←rA × V
 MUL(0:5)
 FMUL(6)
-08
-2
+
+
 rA ←V
 LDA(0:5)
-09
-2
+
+
 rI1 ←V
 LD1(0:5)
-10
-2
+
+
 rI2 ←V
 LD2(0:5)
-11
-2
+
+
 rI3 ←V
 LD3(0:5)
-16
-2
+
+
 rA ←−V
 LDAN(0:5)
-17
-2
+
+
 rI1 ←−V
 LD1N(0:5)
-18
-2
+
+
 rI2 ←−V
 LD2N(0:5)
-19
-2
+
+
 rI3 ←−V
 LD3N(0:5)
-24
-2
+
+
 M(F) ←rA
 STA(0:5)
-25
-2
+
+
 M(F) ←rI1
 ST1(0:5)
-26
-2
+
+
 M(F) ←rI2
 ST2(0:5)
-27
-2
+
+
 M(F) ←rI3
 ST3(0:5)
-32
-2
+
+
 M(F) ←rJ
 STJ(0:2)
-33
-2
+
+
 M(F) ←0
 STZ(0:5)
-34
-1
+
+
 Unit F busy?
 JBUS(0)
-35
+
 1 + T
 Control, unit F
 IOC(0)
-40
-1
+
+
 rA : 0, jump
 JA[+]
-41
-1
+
+
 rI1 : 0, jump
 J1[+]
-42
-1
+
+
 rI2 : 0, jump
 J2[+]
-43
-1
+
+
 rI3 : 0, jump
 J3[+]
-48
-1
+
+
 rA ←[rA]? ± M
 INCA(0) DECA(1)
 ENTA(2) ENNA(3)
-49
-1
+
+
 rI1 ←[rI1]? ± M
 INC1(0) DEC1(1)
 ENT1(2) ENN1(3)
-50
-1
+
+
 rI2 ←[rI2]? ± M
 INC2(0) DEC2(1)
 ENT2(2) ENN2(3)
-51
-1
+
+
 rI3 ←[rI3]? ± M
 INC3(0) DEC3(1)
 ENT3(2) ENN3(3)
-56
-2
+
+
 CI ←rA(F) : V
 CMPA(0:5)
 FCMP(6)
-57
-2
+
+
 CI ←rI1(F) : V
 CMP1(0:5)
-58
-2
+
+
 CI ←rI2(F) : V
 CMP2(0:5)
-59
-2
+
+
 CI ←rI3(F) : V
 CMP3(0:5)
 General form:
@@ -64324,211 +59939,190 @@ OP = symbolic name for operation
 (F) = normal F setting
 t = execution time; T = interlock time
 
-
-25
 V
-26
+
 W
-27
+
 X
-28
+
 Y
-29
+
 Z
-30
-0
-31
-1
-32
-2
-33
-3
-34
-4
-35
-5
-36
-6
-37
-7
-38
-8
-39
-9
-40
+
+
 .
-41
+
 ,
-42
+
 (
-43
+
 )
-44
+
 +
-45
+
 -
-46
+
 *
-47
+
 /
-48
+
 =
-49
+
 $
-50
+
 <
-51
+
 >
-52
+
 @
-53
+
 ;
-54
+
 :
-55
+
 ‚
-04
-12
+
+
 rA ←rAX/V
 rX ←remainder
 DIV(0:5)
 FDIV(6)
-05
-10
+
+
 Special
 NUM(0)
 CHAR(1)
 HLT(2)
-06
-2
+
+
 Shift M bytes
 SLA(0)
 SRA(1)
 SLAX(2) SRAX(3)
 SLC(4)
 SRC(5)
-07
+
 1 + 2F
 Move F words
 from M to rI1
 MOVE(1)
-12
-2
+
+
 rI4 ←V
 LD4(0:5)
-13
-2
+
+
 rI5 ←V
 LD5(0:5)
-14
-2
+
+
 rI6 ←V
 LD6(0:5)
-15
-2
+
+
 rX ←V
 LDX(0:5)
-20
-2
+
+
 rI4 ←−V
 LD4N(0:5)
-21
-2
+
+
 rI5 ←−V
 LD5N(0:5)
-22
-2
+
+
 rI6 ←−V
 LD6N(0:5)
-23
-2
+
+
 rX ←−V
 LDXN(0:5)
-28
-2
+
+
 M(F) ←rI4
 ST4(0:5)
-29
-2
+
+
 M(F) ←rI5
 ST5(0:5)
-30
-2
+
+
 M(F) ←rI6
 ST6(0:5)
-31
-2
+
+
 M(F) ←rX
 STX(0:5)
-36
+
 1 + T
 Input, unit F
 IN(0)
-37
+
 1 + T
 Output, unit F
 OUT(0)
-38
-1
+
+
 Unit F ready?
 JRED(0)
-39
-1
+
+
 Jumps
 JMP(0)
 JSJ(1)
 JOV(2) JNOV(3)
 also [*] below
-44
-1
+
+
 rI4 : 0, jump
 J4[+]
-45
-1
+
+
 rI5 : 0, jump
 J5[+]
-46
-1
+
+
 rI6 : 0, jump
 J6[+]
-47
-1
+
+
 rX : 0, jump
 JX[+]
-52
-1
+
+
 rI4 ←[rI4]? ± M
 INC4(0) DEC4(1)
 ENT4(2) ENN4(3)
-53
-1
+
+
 rI5 ←[rI5]? ± M
 INC5(0) DEC5(1)
 ENT5(2) ENN5(3)
-54
-1
+
+
 rI6 ←[rI6]? ± M
 INC6(0) DEC6(1)
 ENT6(2) ENN6(3)
-55
-1
+
+
 rX ←[rX]? ± M
 INCX(0) DECX(1)
 ENTX(2) ENNX(3)
-60
-2
+
+
 CI ←rI4(F) : V
 CMP4(0:5)
-61
-2
+
+
 CI ←rI5(F) : V
 CMP5(0:5)
-62
-2
+
+
 CI ←rI6(F) : V
 CMP6(0:5)
-63
-2
+
+
 CI ←rX(F) : V
 CMPX(0:5)
 rA = register A

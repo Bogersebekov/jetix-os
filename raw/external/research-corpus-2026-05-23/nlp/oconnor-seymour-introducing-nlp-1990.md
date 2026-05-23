@@ -9,8 +9,11 @@ chars: 504294
 approx_tokens: 126073
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 504296
+phase4_chars_after: 504180
+phase4_saved_pct: 0.0
 ---
-
 
 
 Like the creative composer, some people are more gifted at living than
@@ -27,8 +30,6 @@ differentiate their lives from those of the less fortunate? We need to
 have a means for making life a little less haphazard and more enjoyable.
 Edward T. Hall
 The Silent Language
-
-
 
 
 To all pragmatic idealists and the spirit of curiosity
@@ -255,7 +256,7 @@ overview of NLP, incorporating the latest developments in the field as
 well as reviewing the most important NLP basics. Congratulations to
 two people who are helping lay the groundwork for NLP in the next
 decade!
-Robert B. Dilts 
+Robert B. Dilts
 Santa Cruz, California
 December 1989
 
@@ -295,8 +296,7 @@ December 1989
 
 
 INTRODUCTION
-This book is an introduction and guide to the field known as Neuro-
-Linguistic Programming, or NLP. NLP is the art and science of
+This book is an introduction and guide to the field known as NeuroLinguistic Programming, or NLP. NLP is the art and science of
 excellence, derived from studying how top people in different fields
 obtain their outstanding results. These communication skills can be
 learned by anyone to improve their effectiveness both personally and
@@ -401,8 +401,8 @@ Magus by John Fowles, published by Jonathan Cape and Sons.
 And lastly we owe a debt of gratitude to the inventors of that
 wonderful machine, the Macintosh computer, for making the actual
 writing of this book so much easier.
-Joseph O'Connor 
-John Seymour 
+Joseph O'Connor
+John Seymour
 August 1989
 
 
@@ -457,12 +457,10 @@ our editor at Thorsons. And finally all the many friends who gave us
 feedback and suggestions for this revised edition. Please write to us
 with your thoughts if you are so moved. Our address is at the end of the
 book.
-Joseph O'Connor 
+Joseph O'Connor
 John Seymour
 London, January 1993
 
-
-1
 WHAT IS NEURO-LINGUISTIC PROGRAMMING?
 As I sat wondering how to begin this book, I remembered meeting a
 friend a few days before. We had not seen each other for some time, and
@@ -474,8 +472,7 @@ There was a short but meaningful silence. “Same to you”, he said.
 “How's the family?”
 In a sense my answer was both right and wrong. If I had wanted a
 conversation stopper, it worked perfectly. This book does deal with a
-way of thinking about ideas and people that goes by the label of Neuro-
-Linguistic Programming. However, my friend wanted to know what I
+way of thinking about ideas and people that goes by the label of NeuroLinguistic Programming. However, my friend wanted to know what I
 was doing in a way he could understand and share with me. And he
 could not relate my reply to anything he knew about. I knew what I
 meant, but I did not put it in a way he could understand. My reply did
@@ -1262,8 +1259,6 @@ attention to the other person and be flexible enough in your own
 behavior to respond to what you see and hear. NLP is the martial art of
 communication: graceful, enjoyable, and very effective.
 
-
-2
 THE DOORS OF PERCEPTION
 If the loop of communication has any beginning, it starts with our
 senses. As Aldous Huxley pointed out, the doors of perception are the
@@ -1513,8 +1508,7 @@ and varied mix of predicates, using all the representational systems
 equally, hence its universal appeal.
 Words such as “comprehend”, “understand”, “think”, and “process”
 are not sensory-based, and so are neutral in terms of representational
-systems. Academic treatises tend to use them in preference to sensory-
-based words, perhaps as an unconscious recognition that sensorybased
+systems. Academic treatises tend to use them in preference to sensorybased words, perhaps as an unconscious recognition that sensorybased
 words are more personal to the writer and reader and so less
 “objective”. However, neutral words will be translated differently by the
 kinesthetic, auditory, or visual readers, and give rise to many academic
@@ -1874,8 +1868,7 @@ Make yourself comfortable and think back to a pleasant memory.
 Examine any picture you have of it. Are you seeing it as if through your
 own eyes (associated), or are you seeing it as if from somewhere else
 (dissociated)? For example, if you see yourself in the picture, you must
-be dissociated. Is it in color? Is it a movie or a slide? Is it a three-
-dimensional image or is it flat like a photograph? As you continue to
+be dissociated. Is it in color? Is it a movie or a slide? Is it a threedimensional image or is it flat like a photograph? As you continue to
 look at the picture you may make other descriptions of it as well.
 Next pay attention to any sounds that are associated with that
 memory. Are they loud or soft? Near or far? Where do they come from?
@@ -2129,8 +2122,6 @@ A taste for the good life.
 A sweet person.
 An acid comment.
 
-
-3
 PHYSIOLOGICAL STATES AND EMOTIONAL
 FREEDOM
 When people are emotionally and physically at a low ebb, we often say
@@ -2805,8 +2796,6 @@ in your personal and professional development. Every experience
 becomes an opportunity for learning. The more you do this, the faster
 you move toward becoming the person you really want to be.
 
-
-4
 No man is an island entire unto himself.
 John Donne
 LOOPS AND SYSTEMS
@@ -2825,11 +2814,11 @@ The reality would be a bit different—if I were to be foolish enough to
 kick a dog, it might turn around and bite my leg. The dog's final resting
 place is very unlikely to be anything to do with Newton's laws of
 motion.
-Human 
-relationships 
-are 
-complex—many 
-things 
+Human
+relationships
+are
+complex—many
+things
 happen
 simultaneously. You cannot predict exactly what will occur, because one
 person's response influences the other person's communication. The
@@ -2971,8 +2960,7 @@ this model of learning, mistakes are useful, for they are results you do
 not want in this context. They can be used as feedback to get closer to
 your goal.
 Children are taught many subjects at school and forget most of them.
-They are not usually taught how to learn. Learning to learn is a higher-
-level skill than learning any particular material. NLP deals with how to
+They are not usually taught how to learn. Learning to learn is a higherlevel skill than learning any particular material. NLP deals with how to
 become a better learner, regardless of the subject. The quickest and
 most effective way to learn is to use what happens naturally, and easily.
 Learning and change is often thought to be a slow, painful process. This
@@ -3271,8 +3259,7 @@ where difficult and unhappy times in the past affect our quality of life in
 the present. Many therapies think of present problems as determined by
 past events. While we are influenced by, and create our personal history,
 the past can be used as a resource rather than as a limitation. The
-Change Personal History technique has already been described. It re-
-evaluates the past in terms of present knowledge. We are not trapped
+Change Personal History technique has already been described. It reevaluates the past in terms of present knowledge. We are not trapped
 forever to repeat past mistakes.
 On the other hand, hopes and fears for the future can paralyse you in
 the present. This can range from worrying about giving an after dinner
@@ -3446,13 +3433,13 @@ compared to how well they actually do it. A variety of tasks were used,
 from mathematics to snake handling.
 At first, beliefs and performance matched, people performed as they
 thought they would. Then the researchers set about building the
-subjects' 
-belief 
-in 
-themselves 
-by 
-setting 
-goals, 
+subjects'
+belief
+in
+themselves
+by
+setting
+goals,
 arranging
 demonstrations, and giving them expert coaching. Expectations rose,
 but performance typically dropped because they were trying out new
@@ -3485,11 +3472,8 @@ should . . . I must not . . . The words become compelling. How do these
 
 words gain their power over us? Language is an essential part of the
 process we use to understand the world and express our beliefs. In the
-next chapter we take a closer look at the linguistic part of Neuro-
-Linguistic Programming.
+next chapter we take a closer look at the linguistic part of NeuroLinguistic Programming.
 
-
-5
 WORDS AND MEANINGS
 “But ‘glory’ doesn't mean ‘a nice knock-down argument’”, Alice
 objected.
@@ -4277,8 +4261,6 @@ do next, as I suppose you don't intend to stop here all the rest of your
 life”.
 Alice Through the Looking Glass, Lewis Carroll
 
-
-6
 UPTIME AND DOWNTIME
 So far we have concentrated on the importance of sensory acuity,
 keeping the senses open and noticing the responses of people around
@@ -4461,12 +4443,12 @@ your mind searching for the meaning of what you hear; you ask the
 speaker to spell it out specifically. The Meta Model recovers
 information that has been deleted, distorted, or generalized. The Milton
 Model is the mirror image of the Meta Model; it is a way of
-constructing 
-sentences 
-rife 
-with 
-deletions, 
-distortions 
+constructing
+sentences
+rife
+with
+deletions,
+distortions
 and
 
 
@@ -4908,8 +4890,7 @@ prince. And if whatever you touch turns to gold, you are in big trouble.
 Inventors make reframes. There is the well-known example of the
 man who woke one night with the sharp end of a rusty spring in his old
 mattress digging into him. What possible use could an old bedspring
-have? (Besides depriving him of sleep.) He reframed it as a stylish egg-
-cup and started a successful company on the strength of the idea.
+have? (Besides depriving him of sleep.) He reframed it as a stylish eggcup and started a successful company on the strength of the idea.
 Jokes are reframes. Nearly all jokes start by setting events in a certain
 frame and then suddenly and drastically changing it. Jokes involve
 taking an object or situation and putting it suddenly in a different
@@ -5275,8 +5256,7 @@ resources or constructing compelling futures. Sometimes the timeline
 has to be sorted out before this can be done.
 IN TIME AND THROUGH TIME
 In his book The Basis of Personality, Tad James describes two main
-types of timelines. The first he calls “through time”, or the Anglo-
-European type of time where the timeline goes from side to side. The
+types of timelines. The first he calls “through time”, or the AngloEuropean type of time where the timeline goes from side to side. The
 past is on one side, the future on another and both are visible in front of
 the person. The second type he calls “in time”, or Arabic time, where
 the timeline stretches from front to back so that one part (usually the
@@ -5347,8 +5327,6 @@ here now . . . with this book in hand?
 
 Why do anarchists drink herbal tea? Answer: Because property is theft.
 
-
-7
 CONFLICT AND CONGRUENCE
 Everyone lives in the same world, and because we make different
 models of it, we come into conflict. Two people can look at the same
@@ -5451,8 +5429,7 @@ values. If these are different to your own this could lead to
 incongruence. A company may only be employing half a person if a key
 worker has values that clash with his work.
 NLP uses the word criteria to describe those values that are
-important in a particular context. Criteria are less general and wide-
-ranging than values. Criteria are the reasons you do something, and
+important in a particular context. Criteria are less general and wideranging than values. Criteria are the reasons you do something, and
 what you get out of it. They are usually nominalizations like wealth,
 success, fun, health, ecstasy, love, learning, etc. Our criteria govern why
 we work, whom we work for, whom we marry (if at all), how we make
@@ -5957,8 +5934,7 @@ resourceful state. Feeling good about your work lets you do good work.
 
 Future pacing can help to create the situations and feelings that you
 want, by mentally rehearsing them first. Setting well-formed outcomes
-is an invaluable skill in selling. In Chapter 1 you applied the well-
-formedness criteria to your own outcomes. The same questions that you
+is an invaluable skill in selling. In Chapter 1 you applied the wellformedness criteria to your own outcomes. The same questions that you
 used there can be used to help others become clear about what they
 want. This skill is crucial in selling because you can only satisfy the
 buyer if you know exactly what they want.
@@ -6219,12 +6195,12 @@ presupposition is that the best way to achieve your outcome is to make
 sure that everyone involved achieves theirs too.
 The opposite of dovetailing outcomes is manipulation, where other
 people's wants are disregarded. There are four dragons that lie in wait
-for 
-those 
-that 
-practice 
-manipulation: 
-remorse, 
+for
+those
+that
+practice
+manipulation:
+remorse,
 resentment,
 recrimination, and revenge. When you negotiate by seeking to dovetail
 outcomes the other people involved become your allies, not your
@@ -6353,8 +6329,6 @@ crops. 3. Clinic and coffee—Six-letter words beginning with “c”. 4.
 Amphetamines and coffee—Stimulants. 5. Ignatia and coffee—
 Diuretics.
 
-
-8
 PSYCHOTHERAPY
 The first NLP models came from psychotherapy. However NLP is not
 restricted to psychotherapy, it was simply by historical accident that
@@ -6485,8 +6459,7 @@ client wishes, of course.) Yo may need to reassure the client by
 saying something like, “You are safe, here, pretending to watch a
 movie”. This stage is complete when the client has watched it all
 the way through in comfort.
-4. When the film is over, congratulate the client for having re-
-experienced this for the first time without collapsing into those old
+4. When the film is over, congratulate the client for having reexperienced this for the first time without collapsing into those old
 negative feelings and have the client float back into his body. In the
 diagram, A joins back to B. This will integrate the visual
 perspective with the actual body position.
@@ -6690,8 +6663,6 @@ wonder of being human comes from diversity, and maturity and
 happiness from balance and co-operation between the different
 aspects of yourself.
 
-
-9
 LEARNING AS MODELING
 As human beings, we are all naturally gifted learners. For many of us,
 this process slows down as we grow older. For some, learning continues
@@ -7107,7 +7078,7 @@ statue at a glance. Nor do I hear in my imagination the parts
 successively, but I hear them as it were, all at once. What a
 delight this is I cannot tell!
 From a letter Mozart wrote in 1789, quoted in E. Holmes,
-The Life of Mozart, Including his Correspondence, 
+The Life of Mozart, Including his Correspondence,
 Chapman and Hall, 1878
 MEMORY STRATEGY
 Do you have a good memory? This is a trick question because memory
@@ -7385,8 +7356,7 @@ you are satisfied step into the outside position again. The phrase for
 the realist is, “How can I do this . . .” The Realist in you is liable to
 be predominantly kinesthetic, the “man or woman of action”.
 7. Next, step into the Critic position and check and evaluate the plan.
-Is there anything missing? If the plan needs other people's co-
-operation, what is in if for them? What do you get out of it? Is it
+Is there anything missing? If the plan needs other people's cooperation, what is in if for them? What do you get out of it? Is it
 interesting? Where is the payoff ? The Critic asks, “What's missing?
 . . . What's in it for me?” The Critic seems to operate mostly by
 internal dialogue.
@@ -7535,8 +7505,7 @@ completely unconscious. It is as if the conscious scaffolding of the
 
 learning process has been taken away from the finished house, leaving
 no trace of how it was constructed.
-At the other end of the spectrum from informal modeling is the full-
-blown high-quality modeling project usually done in the world of
+At the other end of the spectrum from informal modeling is the fullblown high-quality modeling project usually done in the world of
 business. This involves having a full set of modeling skills at your
 fingertips. A typical sequence of events might be as follows:
 1. Preliminary interviews with the organization to identify which set
@@ -7613,7 +7582,7 @@ soon find out its true value, and where its limits are. Only by acting as if
 it works, do you find out if it does or not, and what its limits are.
 
 
-First the Meta Model went through this process. 
+First the Meta Model went through this process.
 Then
 representational systems, then eye accessing cues, then submodalities
 and so on. Each piece is pushed to its limit and the next piece takes its
@@ -7693,8 +7662,7 @@ epistemology.
 Learning is no longer enough; learning to learn is essential. There is
 so much to learn and so little time to learn it. Not only are we gaining
 knowledge and technology more quickly, but the rate at which we gain
-it is accelerating. We are on an evolutionary journey that is like a roller-
-coaster ride—it starts slowly, but the further we go, the faster it gets.
+it is accelerating. We are on an evolutionary journey that is like a rollercoaster ride—it starts slowly, but the further we go, the faster it gets.
 And we have not yet found any brake. Unfortunately, mere
 accumulation of knowledge and technical know-how is not bringing
 with it the wisdom we need to use it well for the good of the planet, and
@@ -7787,8 +7755,7 @@ chaos and order, are showing us that even in simple systems you cannot
 keep track of all the variables, and slight variations can change the
 whole system. It is the beginning of a revolution; it is changing the
 whole way we see nature.
-Chaos is predictable randomness, which is epitomized by the so-
-called Butterfly Effect. This is named after a talk by the American
+Chaos is predictable randomness, which is epitomized by the socalled Butterfly Effect. This is named after a talk by the American
 meteorologist Edward Lorenz, entitled “Does the Flap of a Butterfly's
 
 
@@ -8062,7 +8029,7 @@ UNITED KINGDOM
 ANLP
 28 Corser Street
 Stourbridge
-2013
+
 DY8 2DQ
 Tel: 01384 44 3935
 NLP Publications in the UK:
@@ -8270,11 +8237,11 @@ A series of articles dealing with NLP and hypnosis, healing, and artistry.
 
 Challenge of Excellence
 S. L. Gunn, Metamorphous Press, 1986.
-Achieving 
-excellence 
-through 
-physical 
-competence, 
+Achieving
+excellence
+through
+physical
+competence,
 balanced
 physiology, and appropriate patterns of thought. Useful for any teacher
 who wants to develop NLP skills in conjunction with cooperative
@@ -8340,8 +8307,7 @@ recipe format. Not a book for beginners.
 
 Awaken the Giant Within
 Anthony Robbins, Simon and Schuster, 1992.
-A book about the structure of destiny and the science of Neuro-
-Associative Conditioning (NAC!) Exciting and motivating, though not
+A book about the structure of destiny and the science of NeuroAssociative Conditioning (NAC!) Exciting and motivating, though not
 strictly NLP.
 Unlimited Power
 Anthony Robbins, Simon and Schuster, 1986.
@@ -8650,12 +8616,12 @@ outside.
 Distortion The process by which something is inaccurately
 represented in internal experience in a limiting way.
 Dovetaling Outcomes The process of fitting together different
-outcomes, 
-optimizing 
-solutions. 
-The 
-basis 
-of 
+outcomes,
+optimizing
+solutions.
+The
+basis
+of
 win-win
 negotiations.
 Downtime In a light trance state with your attention inwards to your
@@ -9402,8 +9368,7 @@ Know how customers decide to buy
 Take care of your own well-being
 Be a leader as well as a manager
 Learn skills for powerful presentations
-“A well written book which not only translates the theory of Neuro-
-Linguistic Programming into effective selling practice but goes beyond
+“A well written book which not only translates the theory of NeuroLinguistic Programming into effective selling practice but goes beyond
 this to teach many of the techniques which distinguish successful sales
 professionals”.
 – David Mercer, Head of the Centre for Strategy and Policy, The
@@ -9515,11 +9480,11 @@ Louis Proto
 It's not life that makes us victims, but how we perceive it. In Take
 Charge of your Life Louis Proto shows us that more often than not we
 can choose our reaction to what happens to us. Handing us the tools of
-analysis 
-and 
-support—including 
-visualization, 
-relaxation 
+analysis
+and
+support—including
+visualization,
+relaxation
 and
 meditation—he explains how we can use our experiences to grow and
 become more whole.

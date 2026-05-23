@@ -9,6 +9,10 @@ chars: 399514
 approx_tokens: 99878
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 399516
+phase4_chars_after: 398392
+phase4_saved_pct: 0.3
 ---
 
 •••
@@ -38,8 +42,7 @@ skills as model-builders to the
 area
 of
 non-verbal communication. They extend
-their explicit model of verbal communication creat-
-ed
+their explicit model of verbal communication created
 in Volume
 I
 of
@@ -63,14 +66,12 @@ experience. One
 of the
 greatest
 challenges faced by people
-in the helping profes-
-sions
+in the helping professions
 is making contact with and communicating
 effectively with the people who come to them for
 help in changing. Some clients are auditory, some
 kinesthetic, and some are highly visual. The book
-helps therapists understand and shift their commu-
-nication strategy to meet the
+helps therapists understand and shift their communication strategy to meet the
 client on the
 level
 of his particular and specific model of the world.
@@ -79,25 +80,18 @@ II
 presents an
 explicit model
 for
-non-
-verbal communication
+nonverbal communication
 in the context
 of working
-with clients who are incongruent in their communi-
-cation. They review the work of Gregory Bateson
+with clients who are incongruent in their communication. They review the work of Gregory Bateson
 and
 his colleagues as
 well
 as make
 a
 definitive
-study of the double-message problem in communi-
-cation.
+study of the double-message problem in communication.
 (continued on back flap)
-
-
-
-
 
 
 THE STRUCTURE
@@ -146,35 +140,29 @@ Table Of Contents
 PARTI
 Representational Systems — Other Maps For The
 Same Territory
-1
+
 PART
 II
 Incongruity
-27
+
 PART
 III
 Fuzzy Functions
-97
+
 PART IV
 Family Therapy — The Delicate Flower
-123
+
 PART V
 Formal Notation
 1 63
 Epilogue
-195
+
 Bibliography
-197
-
-
-
 
 PARTI
 Representational Systems
 Other Maps For
 The Same Territory
-
-
 
 
 Representational Systems / 3
@@ -245,8 +233,7 @@ operate
 directly or immediately upon that world, but, rather, we
 operate within that world using a map or a series of maps of that
 world to guide our behavior within
-it. [These maps, or representa-
-tional
+it. [These maps, or representational
 systems,
 necessarily
 differ
@@ -313,8 +300,7 @@ Human
 language systems
 are,
 themselves,
-derived representa-
-tions of a more complete model — the sum total of the experience
+derived representations of a more complete model — the sum total of the experience
 the
 particular human
 being has had
@@ -335,8 +321,7 @@ the general
 modeling processes of Generalization, Distortion and
 Deletion.
 [in
-adapting the concepts and mechanisms of the transforma-
-tional model of the human representational system of language for
+adapting the concepts and mechanisms of the transformational model of the human representational system of language for
 the purposes of therapy, we developed
 a formal Meta-model for
 
@@ -361,8 +346,7 @@ process and, ThefeTore, having universal applicability.
 The Meta-model
 relies only upon the intuitions which every native
 speaker has of
-his language. The overall implication of the Meta-
-model
+his language. The overall implication of the Metamodel
 for therapy
 is the assumption
 of well-formed in therapy.
@@ -415,8 +399,7 @@ people-helper
 skills which
 you,
 as a therapist, already have
-avail-
-able
+available
 to
 you,
 this
@@ -443,8 +426,7 @@ that
 the map
 jnecessarily
 djffexsJjWLJthe
-territory__LL_is-X£ftr-e-
-sentingT^r^rfhat each map
+territory__LL_is-X£ftr-esentingT^r^rfhat each map
 will
 differ from
 every other map
@@ -460,8 +442,7 @@ is actually
 a
 series of maps which
 result
-when we model our experiences by using what we call representa-
-tional systems^
+when we model our experiences by using what we call representational systems^
 INPUT CHANNELS
 [There are three major input channel^ by which we, as human
 beiTTgs,
@@ -495,8 +476,7 @@ there
 are
 a number of specialized
 receptors which carry specific
-kinds of information. For example, neurophysiologists have distin-
-guished chromatic
+kinds of information. For example, neurophysiologists have distinguished chromatic
 (color)
 receptors within
 the eye -
@@ -533,20 +513,17 @@ of
 these
 channels. Combinations or
 recurring
-patterns of stimulation of one or more of these specialized recep-
-tors
+patterns of stimulation of one or more of these specialized receptors
 in each of the sensory channels provide information of a more
 complex nature. For example, the common experience of wetness
 can
 be broken down
 into
 a combination of several of the
-kines-
-thetically
+kinesthetically
 different,
 specialized
-receptors within the major recep-
-tors.
+receptors within the major receptors.
 Furthermore,
 the
 input channels may combine
@@ -574,8 +551,7 @@ that channel.
 Perhaps the most frequently occurring example of
 this
 is the ability
-that each of us has to represent visual informa-
-tion, say, in the form of natural language — that
+that each of us has to represent visual information, say, in the form of natural language — that
 is, words, phrases,
 and
 sentences
@@ -717,8 +693,7 @@ then to blue, or a spiral wheel of silver and black slowly revolving
 counter-clockwise, or the image of some person we know wellJjOr,
 we may choose
 to
-close our eyes (or not) and to create a kines-
-thetic
+close our eyes (or not) and to create a kinesthetic
 representation
 (a body
 sensation,
@@ -748,8 +723,7 @@ into
 our beds. Or we may choose to close our eyes (or not) and create
 an auditory
 (sound)
-representation — the patter of tinkling rain-
-drops, the crack of distant thunder and
+representation — the patter of tinkling raindrops, the crack of distant thunder and
 its following
 roll through
 the once-silent
@@ -758,8 +732,7 @@ road, or the blast of a taxi horn through the deafening roars of a
 noisy city.JOr we may close our eyes and create a gustatory (taste)
 representation of the sour flavor of a lemorlj or the sweetness of
 honey, or the saltiness of a stale potato chipiDr we may choose to
-close our eyes (or not) and create an olfactory (smell) representa-
-tion of
+close our eyes (or not) and create an olfactory (smell) representation of
 a fragrant
 rosJJ or
 rancid milk, or the pungent aroma of
@@ -832,8 +805,7 @@ before
 it about
 visual,
 kinesthetic, auditory, gustatory and
-olfac-
-tory
+olfactory
 experiences
 was
 not
@@ -862,8 +834,7 @@ example,
 if we want to describe
 something
 in
-a visual representa-
-tional system, w esel ect words such as:
+a visual representational system, w esel ect words such as:
 black
 .
 .
@@ -903,8 +874,7 @@ in the digital system — identifies one of the
 most useful characteristics of language representational systems —
 their
 universality] That
-is to say, by using our language represen-
-tational systems, we are able to present our experience of any of
+is to say, by using our language representational systems, we are able to present our experience of any of
 the other
 representational systems. Since
 this
@@ -914,8 +884,7 @@ our language system as the digital system. We can use
 it to create a
 map of our world. When we use the sentence:
 He showed me some vivid images.
-\se are creating a language map of our visual map of some experi-
-ence
+\se are creating a language map of our visual map of some experience
 which
 we
 have
@@ -1001,8 +970,7 @@ characteristics of that same representational system (language
 ) —
 just
 like this one
-is. Language representational systems are reflex-
-ive,
+is. Language representational systems are reflexive,
 Meta
 representational
 systems.
@@ -1021,8 +989,7 @@ it
 is easier for you to
 create an experience which
 is more vivid
-in one of these represen-
-tational systems than
+in one of these representational systems than
 in others. For instance, you may be able to
 close your eyes and see very clearly your closest friend but find
 it
@@ -1048,8 +1015,7 @@ than the others. We also tend to have more distinctions available in
 this same representational system to code our experience, which
 is
 to say
-that we more highly value one or more of these represen-
-tational systems® For
+that we more highly value one or more of these representational systems® For
 instance,
 those of you who have a highly
 valued
@@ -1118,8 +1084,7 @@ of some other person^From
 this
 fact —
 namely,
-that person X has a most highly valued represen-
-tational
+that person X has a most highly valued representational
 system
 that
 differs from
@@ -1154,8 +1119,7 @@ detect,
 represent and
 enjoy
 patterns of sound which
-will not be experi-
-enced by
+will not be experienced by
 a person whose most highly developed system
 is visual
 (either consciously or behaviorally). A painter will be able to make
@@ -1163,8 +1127,7 @@ distinctions
 in his experience of a sunset which are not available to
 a person whose most highly developed representational system
 is
-kinesthetic. A connoisseur of fine wines will detect subtle differ-
-ences
+kinesthetic. A connoisseur of fine wines will detect subtle differences
 in the bouquet and flavor of distinct wines which cannot be
 detected by people whose most highly developed representational
 systems are not taste and smell used together.
@@ -1197,8 +1160,7 @@ the
 client makes
 choices (usually unconsciously) about which words best represent
 his experience. Among these words are a special
-set called predi-
-cates. ^Predicates
+set called predicates. ^Predicates
 are w ords
 used
 to
@@ -1294,8 +1256,7 @@ the
 predicates
 in
 the above
-sen-
-tences,
+sentences,
 return
 to
 them
@@ -1306,8 +1267,8 @@ representational
 
 
 Representational Systems /
-1
-1
+
+
 system or systems each of them implies. Notice that some of them
 are
 ambiguous
@@ -1378,8 +1339,7 @@ describing
 their experiences, even
 in
 casual
-conversa-
-tion,
+conversation,
 are
 quite
 literal.
@@ -1550,8 +1510,7 @@ First, a therapist's ability
 to understand more about how
 his
 clients experience and
-repre-
-sent the world
+represent the world
 will enable him
 to better create experiences which
 they may use to change their
@@ -1572,8 +1531,7 @@ fears of some future event
 for
 which
 he
-has no reference structure, a guided fantasy or sponta-
-neous dream sequence could provide this reference structure. You
+has no reference structure, a guided fantasy or spontaneous dream sequence could provide this reference structure. You
 might note at this point that fantasies will be more effective with
 visuals than with auditory people?/
 [^ext, consider how you, as a therapist, would decide to assist
@@ -1652,8 +1610,7 @@ are
 reduced. By
 identifying the
 client's
-represen-
-tational
+representational
 system(s),
 the
 therapist knows what
@@ -1688,8 +1645,7 @@ in touch, being clear sighted, or hearing acutely,
 is a powerful and
 moving experience for the client as well as for the therapist?!
 TRUST
-A second, and probably the most important, result of compre-
-hending
+A second, and probably the most important, result of comprehending
 your
 client's
 representational
@@ -1709,8 +1665,7 @@ therapist, but
 this
 is very
 rarely taught or explicitly understood.
-[Your client will trust you when he believes that first, you under-
-stand him and, second, that you can help him to get more out of
+[Your client will trust you when he believes that first, you understand him and, second, that you can help him to get more out of
 life. The important question,
 then,
 is, by what process does the
@@ -1730,8 +1685,7 @@ their experiences.
 Suppose
 that we have
 a
-client who has a kinesthetic representa-
-tional system.
+client who has a kinesthetic representational system.
 First, we listen to his description of his experience,
 then we check out our understanding of what he says (his model
 of the world) and phrase our questions —
@@ -1773,8 +1727,7 @@ therapist was
 capable of understanding him, he was capable of helping him.
 EXERCISE
 Matching Predicates
-Choose one person each day and determine by listening care-
-fully
+Choose one person each day and determine by listening carefully
 to
 the
 predicates which he
@@ -1796,8 +1749,8 @@ in the
 
 
 Representational Systems /
-1
-5
+
+
 adjacent columns are the equivalents in the three representational
 systems.
 Meaning
@@ -1948,8 +1901,7 @@ phrasing
 questions
 with
 the
-ap-
-propriate
+appropriate
 presupposed
 representational
 system
@@ -1958,8 +1910,7 @@ enable
 the
 client to respond with greater ease and clarity^ For example, when
 we
-are asking for information from a visual, we can phrase ques-
-tions in the following ways:
+are asking for information from a visual, we can phrase questions in the following ways:
 How do you see the situation?
 What do you see stopping you?
 Or, when using the Meta-model with a kinesthetic, we will ask:
@@ -1974,11 +1925,9 @@ in-service
 training seminars),
 noticed
 therapists who asked
-ques-
-tions of their
+questions of their
 clients with no knowledge of representational
-sys-
-tems used. Typically, they use only predicates of their own most
+systems used. Typically, they use only predicates of their own most
 highly valued representational systems. This
 is an example:
 Client
@@ -2014,8 +1963,8 @@ and said to the authors,
 
 
 Representational Systems /
-1
-7
+
+
 /
 feel frustrated; this woman
 is just giving me a hard time.
@@ -2215,8 +2164,7 @@ just paws me and
 doesn't even
 look.
 (He
-re-
-sponds
+responds
 kinesthetlcally
 and
 doesn't
@@ -2253,14 +2201,12 @@ have
 noticed
 her and
 is
-re-
-sponding to
+responding to
 her according
 to
 his model of the world
 (i.e.,
-kines-
-thetically).
+kinesthetically).
 Second,
 the
 therapist
@@ -2308,8 +2254,7 @@ begin
 instructing her
 in developing
 a
-kines-
-thetic representational system^
+kinesthetic representational system^
 Therapist:
 Close
 your
@@ -2394,8 +2339,7 @@ people more
 in
 touch. Many
 offer
-tech-
-niques which
+techniques which
 enable
 people
 to
@@ -2471,8 +2415,7 @@ if we choose (consciously or not) to represent
 certain
 kinds of experience
 in one
-or another of our representa-
-tional systems, we
+or another of our representational systems, we
 will succeed either
 in causing ourselves pain or
 in giving ourselves new choices/The following are examples of this
@@ -2581,8 +2524,7 @@ in
 visual
 terms, with
 the
-therapist asking ques-
-tions [with visual
+therapist asking questions [with visual
 predicates]
 to assist him
 in picturing
@@ -2607,13 +2549,11 @@ assists him
 in developing a deep
 and rhythmic breathing pattern.) Now, George,
 I want you
-to see clearly as you breathe out, with each breath, breath-
-ing out, to breathe out
+to see clearly as you breathe out, with each breath, breathing out, to breathe out
 all of the pain
 in your headache.
 I
-want you to see the headache slowly dissolving and flow-
-ing
+want you to see the headache slowly dissolving and flowing
 from
 your
 head,
@@ -2656,8 +2596,7 @@ with whom
 George
 had
 some
-unexpressed, unfinished business. After George had expressed him-
-self
+unexpressed, unfinished business. After George had expressed himself
 to
 this person,
 the
@@ -2695,8 +2634,7 @@ noticed
 is
 that,
 if people
-represent certain kinds of experi-
-ences
+represent certain kinds of experiences
 in their kinesthetic representational systems, they succeed
 in
 causing themselves pain. As
@@ -2712,8 +2650,7 @@ client
 in re-mapping
 (or
 re-coding or
-re-representing) the experi-
-ence which
+re-representing) the experience which
 is causing him pain from the kinesthetic system
 into
 another highly valued representational system.
@@ -2761,8 +2698,7 @@ is causing him
 pain), the therapist
 may choose to deal with that pain directly by:
 — (a)
-Identifying the person's most highly valued representa-
-tional system (other than kinesthetic);
+Identifying the person's most highly valued representational system (other than kinesthetic);
 — (b) Creating an
 experience whereby the client maps from
 the
@@ -2797,8 +2733,7 @@ carries
 an
 experience
 from any
-repre-
-sentational
+representational
 system
 into
 a
@@ -2819,8 +2754,7 @@ Digital representation
 22/ PARTI
 Susan, a woman
 In her late 30's, asked to work one evening in
-the context of a Therapist Training Group which we were con-
-ducting. She was asked
+the context of a Therapist Training Group which we were conducting. She was asked
 to come to
 the center of the group and
 state
@@ -2873,8 +2807,7 @@ II.
 In
 this
 case,
-a woman whose primary representa-
-tional system was kinesthetic was experiencing difficulty in coping
+a woman whose primary representational system was kinesthetic was experiencing difficulty in coping
 with
 a
 series
@@ -2897,8 +2830,7 @@ representational
 system
 (kinesthetic),
 the
-experi-
-ences were brought into a form with which she was able to cope,
+experiences were brought into a form with which she was able to cope,
 _and
 she could
 then
@@ -3024,8 +2956,7 @@ middle
 in
 a
 Therapist Training Group.[As Mary Lou was expressing her
-diffi-
-culties,
+difficulties,
 the
 therapist
 noticed
@@ -3048,8 +2979,7 @@ critical
 remarks,
 the
 therapist leaned
-for-
-ward and asked her whose voice she had used. She replied at once
+forward and asked her whose voice she had used. She replied at once
 that
 it was her father's voicel At this point, the therapist asked her
 to close her eyes and to hear that same voice inside her head. She
@@ -3081,8 +3011,7 @@ father's voice
 to
 lead
 her
-in constructing a full visual representa-
-tion
+in constructing a full visual representation
 which
 matched
 the
@@ -3099,18 +3028,15 @@ and
 auditory
 representations
 were
-co-
-ordinated,
+coordinated,
 the therapist used the material
-as a basis for an enact-
-ment
+as a basis for an enactment
 in which Mary Lou played both herself and her father. Thus,
 in
 this final phase,
 all three representational systems were brought
 into play — auditory, visual and
-kinesthetic. The enactment tech-
-nique,
+kinesthetic. The enactment technique,
 based upon
 initially
 using an
@@ -3157,8 +3083,7 @@ reference structure (See Magic
 /, Chapter 6), the therapist finds a
 point of overlap between "theH'e^relelTHtlonal system
 in which the
-shift took place and the representational system which the thera-
-pist chooses to addQn
+shift took place and the representational system which the therapist chooses to addQn
 this case, since the
 initial representational
 system
@@ -3173,8 +3098,7 @@ client form
 a
 visual
 image of the mouth
-which was creating that voice. Once a portion of the new repre-
-sentational system
+which was creating that voice. Once a portion of the new representational system
 is tied to the initial representational system, the
 therapist
 can
@@ -3217,8 +3141,7 @@ which
 is
 registered
 in
-repre-
-sentational system X
+representational system X
 with which
 the
 client
@@ -3251,8 +3174,7 @@ I
 (The statement by KorzybskLthat "the map
 is not
 the
-terri-
-tory^ is
+territory^ is
 true
 in
 two
@@ -3279,8 +3201,7 @@ representational
 systemsXFor example,
 I
 can
-de-
-scribe
+describe
 a
 picture
 in
@@ -3302,9 +3223,7 @@ have
 a most
 highly valued
 representational
-sys-
-tem, and very often we will neglect to use the additional represen-
-tational systems available to u£)
+system, and very often we will neglect to use the additional representational systems available to u£)
 A most highly valued representational system can be identified
 I
 by listening to the natural language predicates used by a person
@@ -3367,7 +3286,7 @@ allow him more choices, greater freedom
 in living, and a richer life
 overall.
 FOOTNOTES FOR PART
-1
+
 1.
 We
 talk here about major input channels. Our experience leads us to
@@ -3454,8 +3373,7 @@ processes
 other than those associated with the five commonly accepted sense's^
 2.
 By most highly valued
-representational system we mean the repre-
-sentational
+representational system we mean the representational
 system
 the
 person
@@ -3483,10 +3401,8 @@ of
 this
 volume,
 a person may have more than one most highly valued
-representa-
-tional system, alternating them. This
-is common in people who are incongru-
-ent
+representational system, alternating them. This
+is common in people who are incongruent
 in
 their communication — the polarity game. Again, no special one of the
 representational systems available
@@ -3521,8 +3437,6 @@ smell of fire.
 
 PART II
 Incongruity
-
-
 
 
 Incongruity / 29
@@ -3567,14 +3481,12 @@ life.
 What,
 exactly,
 is the task that the therapist,
-this people-
-helper, will accomplish when he assists the client in changing?
+this peoplehelper, will accomplish when he assists the client in changing?
 Our understanding of the task of a people-helper
 is:
 All
 therapies are confronted with
-the problem of respond-
-ing adequately
+the problem of responding adequately
 to such people. Responding adequately
 in
 this context means to us assisting
@@ -3599,12 +3511,10 @@ approach,
 then,
 is
 typically
-to change the clients' experi-
-ence of the world. People do not operate directly on the
+to change the clients' experience of the world. People do not operate directly on the
 world, but operate necessarily on the world through
 their
-perception or model of the world. Therapies, then, charac-
-teristically
+perception or model of the world. Therapies, then, characteristically
 operate
 to
 change
@@ -3612,8 +3522,7 @@ the
 client's model
 of
 the
-world and, consequently, the client's behavior and experi-
-ence.
+world and, consequently, the client's behavior and experience.
 .
 .
 .
@@ -3662,8 +3571,7 @@ active,
 creative
 participation
 of the
-client. This experi-
-ence
+client. This experience
 will be directed
 at the way
 in which the client has organized
@@ -3739,11 +3647,9 @@ arises
 as to whether these representational systems not only have
 different types of informotinn} but also have different models of_
 Ih^wortd^fofl^e same person.
-In the past few decades, psycho-
-therapy
+In the past few decades, psychotherapy
 has begun
-to pay attention not only to the communica-
-tion of the client with words, but also his communication by body
+to pay attention not only to the communication of the client with words, but also his communication by body
 language. The notion of multiple messages has begun
 to be the
 basis of much work in this area!]
@@ -3753,8 +3659,7 @@ The
 client and
 the
 therapist have been working together for
-about twenty minutes. The client has been discussing his relation-
-ship with
+about twenty minutes. The client has been discussing his relationship with
 his wife. The therapist leans forward and asks the client
 what his feelings are toward his wife at this point in time. The man
 immediately
@@ -3804,7 +3709,7 @@ is communicating
 
 
 Incongruity / 3
-1
+
 incongruently - that
 is, the messages carried by his various output
 channels (body posture, movements, voice tempo, voice tonality,
@@ -3889,8 +3794,7 @@ a
 person who
 is communicating incompatible messages).
 First, the therapist may
-fail to detect (consciously) the incon-
-gruities —
+fail to detect (consciously) the incongruities —
 the
 non-matching
 messages
@@ -4032,12 +3936,10 @@ valid message
 in
 th e
 set of sjm u
-I ta-
-neous,
+I taneous,
 non-matching
 messa^es^a^ej^ojT^onimunjcating
-incon-
-gruentl y
+incongruentl y
 presents
 to
 us is
@@ -4087,8 +3989,7 @@ either of deciding what the message
 carried
 by
 that
-par-
-ticular
+particular
 output
 channel
 really means
@@ -4107,8 +4008,7 @@ channel]
 refer to as an
 hallucination.
 By
-hallucination we are not implying a value judg-
-ment
+hallucination we are not implying a value judgment
 that
 this
 is
@@ -4121,8 +4021,7 @@ the
 part
 of
 the
-therapist, but simply that, when a therapist decides without check-
-ing with the client what the meaning of a non-verbal message
+therapist, but simply that, when a therapist decides without checking with the client what the meaning of a non-verbal message
 is in
 words, he
 is assuming that the meaning of that posture or gesture
@@ -4160,8 +4059,7 @@ is). He may choose to
 Incongruity / 33
 interpret or guess. ... We have no quarrel with this choice.
 There
-is, however, the danger that any form of interpreta-
-tion
+is, however, the danger that any form of interpretation
 or
 guessing may
 be
@@ -4197,8 +4095,7 @@ possibility —
 that
 of
 selecting one of the
-non-
-verbaT messages as the valid one and asking the client to express
+nonverbaT messages as the valid one and asking the client to express
 it
 in words —
 is a choice which we have already discussed
@@ -4279,8 +4176,7 @@ Double
 Bind
 Theory
 of Schizophrenia.
-In formu-
-lating
+In formulating
 this theory,
 Bateson borrowed
 a model
@@ -4290,13 +4186,11 @@ Russell
 to cope
 with
 certain paradoxes arising
-in meta-
-mathematics; this model
+in metamathematics; this model
 is called the Theory of Logical Types.
 CONTENT AND RELATIONSHIP
 Bateson and
-his colleagues categorize each human communica-
-tion
+his colleagues categorize each human communication
 into two
 parts or "levels." These are called the content and
 the
@@ -4327,8 +4221,7 @@ considered
 the
 relatloTiship message^ The following diagram
 will
-help you to understand the relationship between Bateson's termi-
-nology and that which we use.
+help you to understand the relationship between Bateson's terminology and that which we use.
 Bateson
 Grinder/Bandler
 communication act
@@ -4367,8 +4260,7 @@ right hand palm up
 harsh, shrill voice
 rapid rate of speech
 the words:
-I do every-
-thing
+I do everything
 I can to help her;
 I love her so very much.
 Grinder/Bandler
@@ -4417,8 +4309,7 @@ p. 412)
 Or, as Bateson comments:
 What
 is known to occur at the animal level
-is the simulta-
-neous
+is the simultaneous
 presentation
 of
 contradictory
@@ -4434,8 +4325,7 @@ are, however, quite different from the
 Incongruity / 35
 phenomenon
 familiar among humans where the
-friendli-
-ness of a man's words may be contradicted by the tension
+friendliness of a man's words may be contradicted by the tension
 or
 aggressiveness
 of
@@ -4450,8 +4340,7 @@ in
 a sort of deceit, an altogether more complex
 achievement.
 (Steps to an Ecology of Mind, pp. 424-25)
-Zjn both of these statements, Bateson implies that the relation-
-ship
+Zjn both of these statements, Bateson implies that the relationship
 part
 of
 the communication —
@@ -4503,8 +4392,7 @@ of
 Logical
 Types
 to
-communication and therapy, Bateson chose to assign the relation-
-ship
+communication and therapy, Bateson chose to assign the relationship
 portion of the communication — the message carried by the
 non-verbal
 part — to a level higher than the content portion of the
@@ -4683,11 +4571,9 @@ changing:[The client presents a set of messages, as many as one per
 output channel. These messages we call paramessages. No one of
 these simultaneously presented messages
 is meta to any one of the
-others presented. More generally, then, no one of a set of simulta-
-neously presented messages can be of a different logical
+others presented. More generally, then, no one of a set of simultaneously presented messages can be of a different logical
 level from
-any other. Visually, we represent this classification by the follow-
-ing diagram:
+any other. Visually, we represent this classification by the following diagram:
 
 
 Incongruity / 37
@@ -4727,8 +4613,7 @@ and
 this way
 of organizing our experience
 in
-therapy and com-
-munication. /jLLr_s_L
+therapy and communication. /jLLr_s_L
 we
 distinguish
 one
@@ -4766,8 +4651,7 @@ for the
 case
 (which we encounter very often) wherein the
 various ways which
-a human can use to express messages analog-
-ically
+a human can use to express messages analogically
 themselves do
 not
 match,
@@ -4805,8 +4689,7 @@ us
 to
 check
 for
-incon-
-gruency
+incongruency
 among
 all
 of
@@ -4906,8 +4789,7 @@ the conflicting messages presented to us simultaneously
 is the real,
 true or valid
 message disappears and such
-incongruencies, them-
-selves, become the basis for growth and change.
+incongruencies, themselves, become the basis for growth and change.
 £jn addition to the increased therapeutic possibilities which this
 way of organizing our experience gives us, we have been unable to
 find any
@@ -4979,8 +4861,7 @@ and,
 thus,
 the messages
 are
-reversecTTSpecitically, one "oTtfie members of our Therapist Train-
-ing Seminars was working on some patterns she had developed
+reversecTTSpecitically, one "oTtfie members of our Therapist Training Seminars was working on some patterns she had developed
 in
 her
 original
@@ -5050,7 +4931,7 @@ and with typical statements such as,
 Why don 't you ever do what I want you to do?
 Extracting these patterns into a table form, we see:
 Ellen a t Time
-1
+
 erect posture
 msg. A1
 feet spread
@@ -5189,9 +5070,9 @@ if you compare
 the messages
 at
 Time
-1
+
 and Time 2 pairwise (body posture at Time
-1
+
 with body
 posture
 at
@@ -5224,7 +5105,7 @@ is
 in
 conflict with what he had
 decided, based upon her communication at Time
-1
+
 Using the model which we proposed previously, no difficulties
 arise for
 this case of Ellen and her relationship to her father. At
@@ -5235,15 +5116,14 @@ set of paramessages do not fit but, rather, are arranged as follows:
 and
 and
 Ellen at Time
-1
+
 messages A1, B1, C1,
 and D1 are congruent
 (first set)
 messages E1 and F1 are
 congruent
 (second set)
-the first set of para-
-messages
+the first set of paramessages
 is not
 congruent with the
 second set
@@ -5254,8 +5134,7 @@ messages A2, B2, and
 C2 are congruent
 (first set)
 messages E2 and F2
-the first set of para-
-messages
+the first set of paramessages
 is not
 congruent with the
 second set
@@ -5271,13 +5150,13 @@ set
 of
 messages
 at Time
-1
+
 is congruent with
 the
 second
 set of messages at Time 2, while the second set of messages
 at Time
-1
+
 is congruent with the first set of messages at Time 2.
 In
 other
@@ -5287,9 +5166,8 @@ analogical
 (discounting
 voice
 quality
-tem-
-porarily) messages at Time
-1
+temporarily) messages at Time
+
 fit her verbal messages at Time 2 and
 vice versa. Since in the paramessage system
 all messages are treated
@@ -5340,8 +5218,7 @@ time,
 inconsistent. Both
 are, however, equally valid
 expressions of her
-true feelings toward her father — both consti-
-tute resources for
+true feelings toward her father — both constitute resources for
 Ellen, parts of her which she can
 integrate. We
 will return
@@ -5381,8 +5258,7 @@ messages
 in
 the
 same
-represen-
-tational system or same output channel;
+representational system or same output channel;
 and
 (b) A
 is
@@ -5420,8 +5296,7 @@ that
 paramessages
 (the
 set of messages presented
-simul-
-taneously
+simultaneously
 by
 a
 person)
@@ -5495,8 +5370,7 @@ The word s:
 / really am beginning to enjoy my job.
 The
 client's voice tone as translated by the therapist into
-the words: Your voice didn 't sound like you are enjoy-
-ing your job.
+the words: Your voice didn 't sound like you are enjoying your job.
 The client's body movement as translated by the therapist
 into the words:
 You balled your hands up into
@@ -5528,8 +5402,7 @@ had
 to
 translate the
 client's messages
-(pre-
-sented
+(presented
 in output systems [voice tone and body movement] other
 than
 the one which
@@ -5553,8 +5426,7 @@ representational systems
 Meta-Tactic
 II
 (Switching
-Representational Systems) as an essen-
-tial part of his metamessage.
+Representational Systems) as an essential part of his metamessage.
 QTie
 t hird way
 in which our model of incongruity differs from
@@ -5565,8 +5437,7 @@ is that, since in the paramessage set no message
 Incongruity / 43
 is meta with respect to any other, there are no restrictions on the
 integration of the
-parts of the person represented by these para-
-messages when they are incongruent.
+parts of the person represented by these paramessages when they are incongruent.
 In the binary model
 in which
 all relationship (analogical) messages are meta with respect to the
@@ -5583,8 +5454,7 @@ these
 conflicting
 messages
 is
-auto-
-matically a violation of the Theory of Logical Types. Thus,
+automatically a violation of the Theory of Logical Types. Thus,
 in the
 context
 of
@@ -5614,20 +5484,17 @@ Bateson and his colleagues:
 Grinder/Bandler
 Bateson/Russell
 n-ary distinctions available
-for congruity checks (para-
-messages).
+for congruity checks (paramessages).
 Binary
 distinctions
 available
 for
 congruity
 checks
-(meta-
-message— message).
+(metamessage— message).
 Accepts
 all output channel
-messages as valid represen-
-tations of the client.
+messages as valid representations of the client.
 Distinguishes
 the
 relationship
@@ -5648,8 +5515,7 @@ differing paramessages.
 Accepts
 a
 restriction on
-inte-
-gration
+integration
 of parts of the person
 —
 any
@@ -5659,8 +5525,7 @@ integrate
 parts
 represented
 by
-relation-
-ship
+relationship
 and
 content
 levels
@@ -5755,8 +5620,7 @@ reference
 structure
 which
 one
-represen-
-tational system
+representational system
 is expressing does not fit with the portion
 of the reference structure which the other representational
 system
@@ -5774,8 +5638,7 @@ incongruity
 or incongruent
 communication.
 .
-. ^One of the most impoverishing situa-
-tions which we
+. ^One of the most impoverishing situations which we
 have encountered
 in
 therapy
@@ -5795,20 +5658,17 @@ structure.
 Typically,
 these
 contradictory
-por-
-tions have the form
+portions have the form
 of two contradictory generalizations
 which apply to the same area of behavior. Most frequently,
-the person whose reference structure includes these incon-
-sistent
+the person whose reference structure includes these inconsistent
 generalizations
 has
 the
 experience
 of
 being
-im-
-mobilized,
+immobilized,
 being
 profoundly
 confused,
@@ -5820,8 +5680,7 @@ between two inconsistent forms of behavior^
 . the overall strategy that the therapist has adopted
 is that specified
 explicitly by
-the Meta-model — to chal-
-lenge and expand the impoverished portions of the client's
+the Meta-model — to challenge and expand the impoverished portions of the client's
 model.
 Characteristically,
 this
@@ -5838,8 +5697,7 @@ double
 bind)
 a
 reference structure which
-contra-
-dicts and
+contradicts and
 therefore challenges the limiting generalizations
 in
 the
@@ -5848,19 +5706,16 @@ In
 this
 case,
 the
-incongruent com-
-munication
+incongruent communication
 itself
 is an indicator of the two portions of a
-person's inconsistent reference structure — two generaliza-
-tions which can serve as contradictory reference structures
+person's inconsistent reference structure — two generalizations which can serve as contradictory reference structures
 for each other. The therapist's strategy here
 is to bring the
 two contradictory generalizations into contact. This can be
 most
 directly accomplished by
-bringing these generaliza-
-tions into the same representational system.
+bringing these generalizations into the same representational system.
 More
 specifically,
 the strategy for working with incongruities
@@ -5932,8 +5787,7 @@ message. (When
 all of a person's output channels (body posture
 and movements, voice
 tonality and tempo, words) are
-repre-
-senting the same or compatible messages, the person
+representing the same or compatible messages, the person
 is said to
 be congruervfTOther people's experience of a congruent human
 being
@@ -5992,8 +5846,7 @@ is
 confusion,
 saying that he doesn't know what he
 really wants,
-is incon-
-sistent, untrustworthy, indecisive.
+is inconsistent, untrustworthy, indecisive.
 The terms congruent and incongruent may be applied to
 messages presented by a person's output channels as well as to
 the
@@ -6034,8 +5887,7 @@ if:
 Both A and
 B
 are messages
-in the same represen-
-tational system or in the same output channe l
+in the same representational system or in the same output channe l
 and
 (b) A
 is a message about B (equivalently, A has B in
@@ -6131,8 +5983,7 @@ type
 (expressed
 in
 the same
-represen-
-tational system or output channel) which are incompatible —
+representational system or output channel) which are incompatible —
 they cannot both be true at the same time. For example, any
 sentence and
 its negation; the sentences
@@ -6145,8 +5996,7 @@ Satir Category/Stance
 Satir
 has
 identified
-four com-
-munication
+four communication
 categories
 or
 stances which
@@ -6298,8 +6148,7 @@ increasing. The voice
 is hard,
 tight,
 and often shrill and loud.
-Good blaming requires you to be as loud and tyranni-
-cal as you can. Cut everything and everyone down.
+Good blaming requires you to be as loud and tyrannical as you can. Cut everything and everyone down.
 As
 a blamer
 it would
@@ -6393,8 +6242,7 @@ dry,
 often
 cool,
 and
-dis-
-associated. The voice
+disassociated. The voice
 is a dry monotone, and the words are
 likely to be abstract.
 When
@@ -6426,7 +6274,7 @@ is a long, heavy
 
 
 Incongruity / 5
-1
+
 steel rod reaching from your buttocks to the nape of your
 neck, and you have a ten-inch-wide iron collar around your
 neck.
@@ -6490,8 +6338,7 @@ a
 response
 to
 the point. His internal feeling
-is one of dizzi-
-ness. The voice can be singsong, often out of tune with the
+is one of dizziness. The voice can be singsong, often out of tune with the
 words, and can go up and down without reason because
 it
 is focused nowhere.
@@ -6514,16 +6361,14 @@ realizing
 it when you get there. You are too busy moving
 your mouth, your body, your arms, your
 legs. Make sure
-you are never on the point with your words. Ignore every-
-one's questions; maybe come back with one of your own
+you are never on the point with your words. Ignore everyone's questions; maybe come back with one of your own
 on
 a
 different subject. Take a piece of imaginary
 lint off
 someone's garment, untie shoelaces, and so on.
 Think of your body as going off in different directions
-at once. Put your knees together in an exaggerated, knock-
-kneed fashion. This will bring your buttocks out and make
+at once. Put your knees together in an exaggerated, knockkneed fashion. This will bring your buttocks out and make
 it
 easy
 for you
@@ -6556,8 +6401,7 @@ you.
 Since many
 people
 are
-unaccus-
-tomed
+unaccustomed
 to
 feeling
 their body
@@ -6635,8 +6479,7 @@ mother's knee.
 "Don't impose;
 it's
 selfish
-to ask for things for your-
-self," helps to reinforce placating.
+to ask for things for yourself," helps to reinforce placating.
 
 
 Incongruity / 53
@@ -6659,8 +6502,7 @@ Use of qualifiers:
 if,
 only, just,
 even,
-etc. Use of subjunc-
-tive
+etc. Use of subjunctive
 mood
 of
 verbs:
@@ -6693,8 +6535,7 @@ Use of nouns without
 referential
 indices:
 it, one, people,
-etc. Use of nominaliza-
-tions: frustration, stress, tension,
+etc. Use of nominalizations: frustration, stress, tension,
 etc.
 Satir Category 4 — Distracter
 This category,
@@ -6723,23 +6564,21 @@ his responses which
 refer to parts
 of the therapist's sentences and questions.
 PHASE
-1
+
 IDENTIFYING THE CLIENT'S INCONGRUITIES
 The
 first
 step
 in
 the overall strategy for working with
-incon-
-gruencies
+incongruencies
 is
 for
 the
 therapist
 to be able
 to recognize
-incongru-
-encies
+incongruencies
 in the client's communication. Each time a client expresses
 himself,
 he
@@ -6777,15 +6616,13 @@ de^ctJncongrjjencyuiLcJ ients, the rapists muslJ^eJJ^je^aiiint^tQ
 uj^thejrsen^rvjmput
 channels, without
 hall udnating.
-Specifi-
-callyTthe- therapTsTcan come to recognize the paramessages being
+SpecificallyTthe- therapTsTcan come to recognize the paramessages being
 presented by
 the various body
 postures and gestures/movements
 of the
 client's body both visually and
-kinesthetically. The thera-
-pist can use both of his eyes and
+kinesthetically. The therapist can use both of his eyes and
 his hands and other parts of his
 body to watch and to touch the client's body. The therapist uses
 his auditory input channel to listen to the sounds which the client
@@ -6855,8 +6692,7 @@ that language, tonality and tempo are the only, or
 even the most important, distinctions which a therapist can make
 in therapy to detect incongruencies^What we are identifying here
 are some of the distinctions which we have found
-useful for our-
-selves both
+useful for ourselves both
 in our work and
 in teaching others to become skilled
 therapists.
@@ -6927,8 +6763,7 @@ while
 they
 no
 longer
-con-
-sciously
+consciously
 check
 for conflicting messages from
 the
@@ -6974,8 +6809,7 @@ client produces
 as he jcomjmunTcaTe^\^u£\sjrnd^An^
 simp[e_£or^^
 comparison^ among,
-the jiaja-
-mj^ssagesvyhid^^
+the jiajamj^ssagesvyhid^^
 "* There
 isto
 our
@@ -6994,9 +6828,7 @@ to
 see,
 hear and
 feel without
-halluci-
-nating. Once a therapist has trained herself to have her input chan-
-nels free to accept the paramessages presented by the client and to
+hallucinating. Once a therapist has trained herself to have her input channels free to accept the paramessages presented by the client and to
 compare them for congruency, she
 is well on her way to becoming
 a dynamic and
@@ -7004,11 +6836,9 @@ effective
 therapist. We have
 in the course of our
 Therapist Training Seminars developed
-a number of special tech-
-niques which people training themselves to become therapists have
+a number of special techniques which people training themselves to become therapists have
 found
-useful. These are simply special cases of the general princi-
-ples which we have already presented — there
+useful. These are simply special cases of the general principles which we have already presented — there
 is no substitute for
 clearing and developing your input channels. We present three of
 these special cases.
@@ -7169,8 +6999,7 @@ this
 particular
 experience, we suggest
 that you simply
-lean forward, look care-
-fully
+lean forward, look carefully
 at the client and say the word but and wait for the client to
 finish
 the
@@ -7275,7 +7104,7 @@ Magic
 /,
 "
 Chapter
-6
+
 .
 for more
 discussion).
@@ -7294,8 +7123,7 @@ feelings to his response to the therapist's meta-question about his
 feelings about his feelings — the next higher logical
 level/ We
 will
-return to this example during the section on integration to demon-
-strate effective ways for a therapist to cope with different parts of
+return to this example during the section on integration to demonstrate effective ways for a therapist to cope with different parts of
 a
 client
 which
@@ -7344,8 +7172,7 @@ medical
 personnel involved are convinced that the result of such operations
 leaves
 the person operated on
-with two independent, only tenu-
-ously
+with two independent, only tenuously
 associated,
 consciousnesses
 (see
@@ -7362,8 +7189,7 @@ bibliography). Gazzaniga comments (pp. 106-07):
 . other
 cases, where
 the
-will and intent of one hemi-
-sphere (and usually the left) could prevail over the entire
+will and intent of one hemisphere (and usually the left) could prevail over the entire
 motor
 system,
 antagonistic
@@ -7372,8 +7198,7 @@ between
 the
 two
 halves of the body was kept at a minimum. Case
-I, how-
-ever, would sometimes find himself pulling his pants down
+I, however, would sometimes find himself pulling his pants down
 with one hand and pulling them up with the other. Once,
 he
 grabbed
@@ -7494,8 +7319,7 @@ waking
 hours you
 are
 constantly
-being bom-
-barded with visual information; much of this is visual information
+being bombarded with visual information; much of this is visual information
 about other human beings like yourself. This exercise
 is designed
 
@@ -7510,8 +7334,7 @@ to-set
 aside
 a 30-minute
 period some time
-during the day for you to exercise your ability to identify incon-
-gruent visual communications. Decide on a specific time and place
+during the day for you to exercise your ability to identify incongruent visual communications. Decide on a specific time and place
 — the place should allow you to observe people conversing with
 one another without your becoming involved
 in the conversation.
@@ -7521,7 +7344,7 @@ a
 distance
 of between
 5 and
-20
+
 feet
 will
 be
@@ -7546,7 +7369,7 @@ attention
 for
 the
 first
-10
+
 minutes.
 Ignore
 all
@@ -7700,8 +7523,7 @@ auditory
 information.
 This
 exercise
-is designed to assist you in refining your skills in identify-
-ing incongruent paramessages auditorially. As
+is designed to assist you in refining your skills in identifying incongruent paramessages auditorially. As
 in the instructions
 given for the first exercise, decide at the beginning of each day for
 a week
@@ -7769,8 +7591,7 @@ list,
 consciously
 and
 systematically
-considering each of these one by one. Ther^omp^re^^nxj^air-
-wise
+considering each of these one by one. Ther^omp^re^^nxj^airwise
 to
 determine
 whether
@@ -7792,8 +7613,7 @@ congruency
 judgments
 about
 these
-para-
-messages,
+paramessages,
 increase
 the number
 of
@@ -7875,8 +7695,7 @@ patterns
 of
 handedness,
 verbal
-para-
-messages,
+paramessages,
 and
 the
 paramessages which
@@ -7914,16 +7733,14 @@ the
 client's resources
 in
 a way which
-avoids judg-
-ments about what
+avoids judgments about what
 is best for the
 client or about which of the
 conflicting paramessages
 is the true representation of the client©
 It
 is at
-this point — when the therapist has identified the incon-
-gruities
+this point — when the therapist has identified the incongruities
 in
 the
 client's communication —
@@ -8017,8 +7834,7 @@ prerequisite
 for
 therapists
 before
-in-
-structing them
+instructing them
 in
 working
 with
@@ -8045,7 +7861,7 @@ the end of the
 sections
 on
 Phases
-2
+
 and
 3, we
 will
@@ -8317,8 +8133,7 @@ way of answering this question which we have found useful
 in our
 Therapist Training Seminars
 is to state that the client has changed
-from expressing himself incongruently simultaneously to express-
-ing
+from expressing himself incongruently simultaneously to expressing
 himself
 incongruen tly^se^uen tially.
 The
@@ -8357,8 +8172,7 @@ has changed
 from
 one
 of simultaneous
-in-
-congruity
+incongruity
 to
 sequential
 incongruity,
@@ -8379,8 +8193,7 @@ the
 cJescription
 of the
 therapist's actions
-in sorting incon-
-gruencies into polarities, we simply stated that he worked with the
+in sorting incongruencies into polarities, we simply stated that he worked with the
 client to assist him
 in communicating congruently in each polarity,
 assisting him
@@ -8408,8 +8221,7 @@ incongruities
 into
 polarities —
 what
-tech-
-niques are
+techniques are
 effective
 in
 shifting from
@@ -8441,8 +8253,7 @@ the
 technique. The
 therapist
 in
-the example used two chairs as loca-
-tions which
+the example used two chairs as locations which
 the client could associate with each of his polarities.
 This empty-chair technique
 is only one of a
@@ -8552,8 +8363,7 @@ begin
 to
 add
 other
-para-
-messages congruent with
+paramessages congruent with
 those of Group
 II already incorporated
 into the image, both
@@ -8619,8 +8429,7 @@ of
 the group members adopt
 all
 of the
-para-
-messages
+paramessages
 in Group
 I while the other group member adopts
 all of
@@ -8663,8 +8472,7 @@ polarities. This provides
 the opportunity
 for the
 client
-to experience his polarities kines-
-thetically as well as to insure that the group members are playing
+to experience his polarities kinesthetically as well as to insure that the group members are playing
 his
 polarities
 properly^ The
@@ -8692,8 +8500,7 @@ into
 polarities
 is
 that
-of represen-
-tational system
+of representational system
 sorting.
 One
 of
@@ -8707,8 +8514,7 @@ and,
 therefore,
 polarities —
 is by
-repre-
-senting
+representing
 the
 conflicting
 portions
@@ -8802,8 +8608,7 @@ to use this technique
 in conjunction with the following
 one —
 that of Satir Category Sorting — and have found
-it amaz-
-ingly potent]
+it amazingly potent]
 Satir Category Sorting
 To use a Satir Category Sorting technique, the therapist simply
 sorts the paramessages available into the Satir Category to which
@@ -8840,13 +8645,11 @@ polarities which forms
 the
 basis for
 a
-pro-
-found
+profound
 integration and growth step for the client involved. We have
 noted
 over and over again certain patterns
-in the way that repre-
-sentational systems and
+in the way that representational systems and
 Satir category
 sort
 out.
@@ -8876,21 +8679,21 @@ Kinesthetic
 Kinesthetic
 Satir Category Polarities
 Blaming
-2
+
 Placating
-1
+
 Blaming
-2
+
 Super-reasonable
-3
+
 Super-reasonable
-3
+
 Placating
-1
+
 Placating
-1
+
 Placating
-1
+
 The
 interaction
 of
@@ -8925,16 +8728,15 @@ Representational System
 Satir Category
 Kinesthetic
 Placating
-1
+
 Visual
 Blaming
-2
+
 Auditory
 Super-reasonable
-3
+
 With
-these correspondences, therapists have an extremely power-
-ful organizing principle
+these correspondences, therapists have an extremely powerful organizing principle
 in aiding them
 in sorting incongruities into
 polarities. Any polarity which displays the postures, gestures and
@@ -8942,12 +8744,11 @@ syntax
 of
 a
 Satir Category
-1
+
 (placating) (Group
 II, for example)
 can be instructed by the therapist
-in the use of kinesthetic predi-
-cates;
+in the use of kinesthetic predicates;
 in the case of a polarity which shows a Satir Category 2
 in
 posture, gestures,
@@ -8973,7 +8774,7 @@ polarity
 is
 a
 Satir
-1
+
 (placating)
 with
 a
@@ -8987,7 +8788,7 @@ polarity
 is
 a
 Satir
-2
+
 (blaming)
 with
 a
@@ -9003,15 +8804,13 @@ from
 neurological
 sources,
 which indicates that, while
-a human being has a kinesthetic repre-
-sentational system
+a human being has a kinesthetic representational system
 present
 in both hemispheres,
 ijie twoc erebral
 hemispheres are sp ecialized with
 respect to
-t he other two represen-
-tational
+t he other two representational
 systemsT^*isu^rr"^rrrrf~aTraTto^
 Spcuflully,
 the
@@ -9027,8 +8826,7 @@ is
 localized
 in
 the non-dominant cerebral
-hemi-
-spherifiD
+hemispherifiD
 Each
 of
 the
@@ -9059,10 +8857,8 @@ may
 use
 to help the client to sort incongruent paramessages into
 polarities. The
-first three of these — spatial sorting, fantasy sort-
-ing, and psychodramatic sorting — can easily be used
-in combina-
-tion
+first three of these — spatial sorting, fantasy sorting, and psychodramatic sorting — can easily be used
+in combination
 with
 the
 last
@@ -9098,8 +8894,7 @@ that
 it
 had
 the
-advantage of presenting the client with visual and auditory repre-
-sentations of
+advantage of presenting the client with visual and auditory representations of
 his
 polarities
 in
@@ -9194,7 +8989,7 @@ alive human beings.
 
 
 Incongruity / 7
-1
+
 EXPRESSING POLARITIES
 £We turn now to the question of specific ways of assisting the
 client
@@ -9272,8 +9067,7 @@ himself and
 the
 therapist
 to connect the language representation
-with the experience), and then using the other Meta-model distinc-
-tions allow
+with the experience), and then using the other Meta-model distinctions allow
 the therapist a systematic way of completing each of
 the client's polarities?}
 £Tn our experience, one of the
@@ -9321,8 +9115,7 @@ is deliberately instructed by
 the
 therapist
 to continue to play the more fully expressed
-polar-
-ity;
+polarity;
 in
 fact,
 to
@@ -9420,8 +9213,7 @@ Psycrwtherapy
 is
 first presented
 in our Therapist Training Seminars, the
-partici-
-pants are concerned with what at
+participants are concerned with what at
 first appears to them
 to be a
 manipulative
@@ -9457,8 +9249,7 @@ I as a
 case of semantic ill-formedness
 (see, especially, Chapters 3 and 4).
 Here_we wish
-sjrngj y to point out that characterizing this mane u-
-ver
+sjrngj y to point out that characterizing this mane uver
 as controjjm£_th e behavi o r of the client does not respect_the
 qapacity oTthe
 client to
@@ -9560,8 +9351,7 @@ contr ol over his wei ght; th us hi s gaining weight
 is equivalent to his
 acce]^n%_resTftTnslgl1jt^
 of
-his behavior he hacLmgyl-
-ously considered outside of his control [set Advanced Techniques
+his behavior he hacLmgylously considered outside of his control [set Advanced Techniques
 
 
 Incongruity / 73
@@ -9618,8 +9408,7 @@ etc. —
 all
 of the
 output systems present
-in the client's more fully expressed polar-
-ity. Tjie critical p ortion of this maneu ver
+in the client's more fully expressed polarity. Tjie critical p ortion of this maneu ver
 is that th e therapist rn ust
 be more congruent aTrcrTorcefulin presenting the client with
 his
@@ -9638,8 +9427,7 @@ dramatic!
 TfTe
 client
 responds by
-expressing the formerly weaker polarity. The thera-
-pist
+expressing the formerly weaker polarity. The therapist
 continues
 to
 play
@@ -9683,8 +9471,7 @@ which
 will allow a significant integration^ Since the entire purpose
 of Phase
 2 of incongruity work
-is to change~simultaneous incon-
-gruities
+is to change~simultaneous incongruities
 into sequential
 incongruities,
 the therapist uses
@@ -9694,8 +9481,7 @@ he uses his body, touching the client, checking
 for muscle
 patterns;
 his eyes, watching carefully
-all of the para-
-messages presented by the client's body postures and movements;
+all of the paramessages presented by the client's body postures and movements;
 his
 ears,
 listening
@@ -9703,8 +9489,7 @@ intently
 to
 the
 tonality, tempo, and
-represen-
-tational
+representational
 system
 predicates —
 to
@@ -9791,11 +9576,11 @@ polarity matches the correspondences listed:
 Representational System
 Satir Category
 visual
-2
+
 kinesthetic
-1
+
 auditory
-3
+
 When
 all
 of these conditions are
@@ -9937,8 +9722,7 @@ have
 the
 client
 select an
-equal number of male and female well-
-known
+equal number of male and female wellknown
 personages.
 Often we ask
 for about
@@ -9982,8 +9766,7 @@ model
 of the world
 with
 the
-part being de-
-ascribed.
+part being deascribed.
 Using
 this
 approach,
@@ -9995,7 +9778,7 @@ balance
 so-called good and bad parts with respect to the client's
 model of the world.
 This corresponds to Phase
-1
+
 of the polarity
 work we have described so
 far. The portion of the Parts Party
@@ -10015,7 +9798,7 @@ the
 parts
 is most closely associated with
 Phase
-2
+
 of
 the
 polarity
@@ -10051,8 +9834,7 @@ the client
 in becoming maximally congruent apply — for example,
 acting
 as
-a movie or play director, checking for consistent repre-
-sentational system
+a movie or play director, checking for consistent representational system
 predicates,
 etc. Once
 the client has expressed
@@ -10095,8 +9877,7 @@ set of adjectives have been
 assigned
 to
 people and
-the people have been instructed by the client specifi-
-cally how
+the people have been instructed by the client specifically how
 to
 play these parts, we ask the client for the adjective
 whjchjs the polar opposite of eaxrTofT^e/aTTrlFrTtto^
@@ -10455,8 +10236,7 @@ be
 as
 a
 people-helper.
-Sec-
-ondly, these choices are not mutually exclusive; we encourage you
+Secondly, these choices are not mutually exclusive; we encourage you
 to find combinations of these choices which will make your work
 more powerful.
 Choosing the Representational System for Contact
@@ -10474,15 +10254,13 @@ whether to work
 to
 give one of the
 polarities the
-represen-
-tational system which the other has, to give each of the polarities
+representational system which the other has, to give each of the polarities
 the
 other's
 representational
 system, or to
 introduce
-a represen-
-tational system new
+a representational system new
 to both of the
 polarities
 in which they can
@@ -10524,8 +10302,7 @@ is using from ones such as see, watch, clear, —
 which presuppose a visual representational system — to ones such
 as
 feel,
-touch, sensitive, which presuppose a kinesthetic represen-
-tational system. Furthermore, the therapist wi ll listen carefully to
+touch, sensitive, which presuppose a kinesthetic representational system. Furthermore, the therapist wi ll listen carefully to
 the client's responses to him to'Betermine^wTiether the client shifts
 to
 the matching
@@ -10541,7 +10318,7 @@ representational
 systems and
 beginning the process of putting the polarities into contact!
 EXAMPLE
-1
+
 The
 therapist has sorted
 the
@@ -10639,8 +10416,7 @@ that
 there
 is no overlap between representational systems and
 Satir
-categories, the therapist decides to use the represen-
-tational system which neither of the polarities has to assist
+categories, the therapist decides to use the representational system which neither of the polarities has to assist
 them
 in making contact — the auditory system.) Beatrice,
 did
@@ -10774,10 +10550,8 @@ Mark,
 a young man
 in
 his mid-twenties, a member of one of
-our Therapist Training Groups, has worked with one of the thera-
-pists to sort
-his incongruencies into a placating, kinesthetic polar-
-ity
+our Therapist Training Groups, has worked with one of the therapists to sort
+his incongruencies into a placating, kinesthetic polarity
 and
 a blaming,
 visual
@@ -10966,8 +10740,7 @@ route
 to
 Mark's
 achieving
-meta-
-position with respect to his polarities.
+metaposition with respect to his polarities.
 Fully Expressed Polarities During Contact
 Once the therapist has established a representational system
 in
@@ -11001,8 +10774,7 @@ of the statements made by each
 polarity
 must contain
 no
-dele-
-tions,
+deletions,
 no
 nominalizations,
 no
@@ -11025,7 +10797,7 @@ possibility
 Magic
 /,
 Chapters
-3
+
 and
 4)
 as
@@ -11211,8 +10983,7 @@ What,
 specifically, do you want
 for yourself?
 (you
-see-hear-
-feel)
+see-hearfeel)
 How, specifically, does he (indicating the other polarity) stop
 you from getting what you want for yourself?
 Is
@@ -11239,8 +11010,7 @@ both polarities) could get what you want?
 in
 combination
 with
-the standard Meta-model challenges, the thera-
-pist insures full expression of each polarity. As a polarity responds
+the standard Meta-model challenges, the therapist insures full expression of each polarity. As a polarity responds
 to
 each
 of
@@ -11252,11 +11022,9 @@ will
 be
 a
 set of
-para-
-messages which
+paramessages which
 the therapist then checks for congruity.
-Further-
-more,
+Furthermore,
 the
 therapist
 checks
@@ -11271,8 +11039,7 @@ the
 therapist
 has decided
 to use the auditory
-representa-
-tional system
+representational system
 as the one
 in which
 the two
@@ -11312,8 +11079,7 @@ polarity) stops you from accepting help?
 It's impossible for me to ask for things for myself.
 Therapist: How do you
 see-hear-feel
-he (the other polar-
-ity) stops you from asking for things for yourself?
+he (the other polarity) stops you from asking for things for yourself?
 th^ej.herapisr^gjxects the po larityto talk^jio t to the therapist, but_
 cTTrectly to the other polariTy~as in the following:
 
@@ -11347,8 +11113,7 @@ that he stops you from accepting help.
 It's impossible for me to ask for things for myself.
 Therapist:
 Tell him how you
-hear-see-feel that he, specifi-
-cally, stops you from asking for things for yourself.
+hear-see-feel that he, specifically, stops you from asking for things for yourself.
 rjn example
 (1)
 above,
@@ -11412,8 +11177,7 @@ contact between
 polarities
 is solid enough
 to lead to full
-integra-
-tion of those previously conflicting parts.
+integration of those previously conflicting parts.
 Checking for a Solid Contact
 Once
 a
@@ -11515,8 +11279,7 @@ felt),
 it
 is largely a matter of assigning each of the polarities tasks
 consistent with their special skills!}
-The third step in checking for a solid contact — that of establish-
-ing cues — signals between the polarities — requires more comment.
+The third step in checking for a solid contact — that of establishing cues — signals between the polarities — requires more comment.
 When under stress, one of the
 polarities begins to behave in a way
 which
@@ -11536,8 +11299,7 @@ allow
 the
 polarities
 to
-co-
-ordinate
+coordinate
 their
 skills
 in
@@ -11547,8 +11309,7 @@ way.
 For
 example,
 a
-therapist working with a visual-blaming/kinesthetic-placating polar-
-ity sort has the following as a choice in establishing cue::
+therapist working with a visual-blaming/kinesthetic-placating polarity sort has the following as a choice in establishing cue::
 Therapist: (Talking to Margot's kinesthetic polarity) And what
 are you aware of at this point in time, Margot?
 Margot: Wow; I'm so excited.
@@ -11697,17 +11458,14 @@ client to recode
 his
 polarities and
 sorted
-para-
-messages
+paramessages
 in such
-a way as to allow permanent change and there-
-fore, true meta-position, sustained contact and integration may be
+a way as to allow permanent change and therefore, true meta-position, sustained contact and integration may be
 required, although not always.
 Once the
 polarities have
 a well-formed
-sort, maximal separa-
-tion, and then contact in the same representational system, you, as
+sort, maximal separation, and then contact in the same representational system, you, as
 a
 therapist,
 are prepared
@@ -11735,8 +11493,7 @@ given
 the
 impetus
 to
-re-
-organize themselves
+reorganize themselves
 into
 a new,
 single
@@ -11765,8 +11522,7 @@ are
 a mutually
 exclusive
 representation for the same
-terri-
-tory. Meta-position would not be a representation of A plus B but
+territory. Meta-position would not be a representation of A plus B but
 rather
 a
 set of plus or minus (AB) equaling some representation
@@ -11877,8 +11633,7 @@ asked
 if
 he would
 try
-something which might be new to him. His response was affirma-
-tive. He was then told:
+something which might be new to him. His response was affirmative. He was then told:
 Dennis,
 now,
 as you
@@ -11948,8 +11703,7 @@ Therapist: Would you like to make that a part of yourself, and
 88 / PART II
 have those abilities as your resources?
 Dennis: Sure.
-Therapist: Good. Then, continuing to hold this image of your-
-self gently and watching
+Therapist: Good. Then, continuing to hold this image of yourself gently and watching
 it carefully, slowly pull the image
 into
 yourself. That's
@@ -11988,8 +11742,7 @@ integration of this set of polarities.
 Recoding of
 polarities can
 be accomplished
-in any represen-
-tational system by representing the polarities simultaneously and
+in any representational system by representing the polarities simultaneously and
 then arranging for a single representation. Even
 in the case of the
 Parts
@@ -11998,8 +11751,7 @@ described
 earlier,
 the paramessages which
 are
-repre-
-sented
+represented
 by
 different
 people
@@ -12066,8 +11818,7 @@ acceptance and use of the client's incongruity as a basis for growth
 and change
 in
 the ways desired by the client are powerful
-thera-
-peutic
+therapeutic
 tools.
 Since
 incongruent
@@ -12100,8 +11851,7 @@ words,
 the
 therapist works
 to assist the client
-in achieving meta-
-position - that
+in achieving metaposition - that
 is,
 in creating a map of the world for his behavior
 which
@@ -12126,8 +11876,7 @@ Identifying incongruity (conflicting paramessages);
 (2) Sorting the paramessages;
 (3)
 Integration of the sorted paramessages.
-Another way of representing the process of a therapist's assist-
-ing the client
+Another way of representing the process of a therapist's assisting the client
 in achieving meta-position
 is in terms of the changes
 in the client's communication behavior over time. Again, we have
@@ -12165,8 +11914,7 @@ model of the world sequentially;
 client's
 communication
 is congruent both
-simulta-
-neously and sequentially.
+simultaneously and sequentially.
 He has achieved meta-_position,
 and has a unified, coordinated map for his behavior]
 The
@@ -12185,8 +11933,7 @@ with
 clients'
 incongruities,
 thereby
-trans-
-forming the source of their pain and paralysis into a resource for
+transforming the source of their pain and paralysis into a resource for
 growth,
 energy
 and
@@ -12202,9 +11949,9 @@ the
 Meta-Tactics
 for working with incongruity by phase.
 META-TACTICS FOR PHASE
-1
+
 (TnPhase
-1
+
 , the therapist's task
 is
 to identify incongruity
@@ -12259,12 +12006,11 @@ see-feeling and
 hear-feeling incongruent communication),
 leaving
 him
-free to act creatively. Furthermore, by making these distinc-
-tions, he has the basis for comparing the paramessages the client
+free to act creatively. Furthermore, by making these distinctions, he has the basis for comparing the paramessages the client
 is
 presenting to check for incongruity in the communication.
 Meta-Tactic 2 for Phase
-1
+
 (Incongruity):
 But
 Often the client will make statements to the therapist in which
@@ -12343,7 +12089,7 @@ paramessages from which change can begin?!
 \
 Incongruity / 9 1
 Meta-Tactic 3 for Phase
-1
+
 (Incongruity):
 Meta-Question
 The use of this tactic typically occurs when the client has just
@@ -12384,14 +12130,13 @@ set
 he
 presented when making the original statement.
 Meta-Tactjc 4 for Phase
-1
+
 (Incongruity):
 Tett-KignT Para message Check
 One abundant source for recognizing incongruity
 in a client's
 communication comes from
-the fact that the two cerebral hemi-
-spheres
+the fact that the two cerebral hemispheres
 in human
 brains control
 the two
@@ -12421,7 +12166,7 @@ the
 client's speech. Again, these differences provide the therapist with
 ways of identifying incongruity?
 The four Meta-Tactics forPhase
-1
+
 are not intended to present
 all of the techniques available to each of you as a therapist in your
 people-helping work;
@@ -12529,8 +12274,7 @@ fully
 expressing
 his
 polarities. By
-having the client describe the fanta-
-sized
+having the client describe the fantasized
 visual
 representation
 of each of
@@ -12544,8 +12288,7 @@ has
 the opportunity
 to check
 the described
-character-
-istics of the image as well as the paramessages which the client
+characteristics of the image as well as the paramessages which the client
 is
 presenting as he describes his fantasy.
 Meta-Tactic 4 for Phase 2 (Incongruity):
@@ -12586,8 +12329,7 @@ representational systems
 as the client sequentially expresses each
 of the
 polarities. By systematically changing his own predicates as
-the client expresses each of his polarities, the therapist can accel-
-erate the separation of the polarities into distinct representational
+the client expresses each of his polarities, the therapist can accelerate the separation of the polarities into distinct representational
 systems — one of the conditions for
 a well-formed sort prior to
 beginning the integration phase.
@@ -12682,14 +12424,12 @@ Representational System
 Satir Category
 visual
 blaming
-2
+
 kinesthetic
 placating
-1
+
 auditory
 super-reasonable
-3
-
 
 94 1 PART II
 META-TACTICS FOR PHASE 3
@@ -12714,8 +12454,7 @@ phase
 that
 the
 client
-achieves meta-
-position for himself.
+achieves metaposition for himself.
 Meta-Tactic
 1 for Phase 3 (Incongruity):
 Contact
@@ -12733,11 +12472,10 @@ into
 contact
 with
 one
-an-
-other.
+another.
 V\vsUJ>\ nee one of the conditions for a well-formed sort in
 Phase
-2
+
 was
 that
 the
@@ -12786,8 +12524,7 @@ sort,
 for
 example), the auditory representational system, since
 it
-is secjuen-
-Jialj would
+is secjuenJialj would
 not
 be
 a good
@@ -12797,8 +12534,7 @@ visual
 (fantasized,
 internal
 visual
-images) would. This second condition — simulta-
-neity —
+images) would. This second condition — simultaneity —
 is relative to the unit of measurement of time involved[]No
 doubt,
 at some
@@ -12811,8 +12547,7 @@ become*
 available
 to specify what the optimum time
 is
-in terms of refrac-
-tory periods. In Perls' polarity work, he sometimes assisted a client
+in terms of refractory periods. In Perls' polarity work, he sometimes assisted a client
 in
 integrating by having him move rapidly from chair to chair —
 that
@@ -12831,13 +12566,11 @@ Re-coding
 Once the
 client's
 polarities have made contact by
-a simulta-
-neous, same representational system(s) typical of his polarities, the
+a simultaneous, same representational system(s) typical of his polarities, the
 therapist works
 to
 assist him
-in re-coding the two distinct repre-
-sentations
+in re-coding the two distinct representations
 into
 one.^Here, the
 special
@@ -12953,8 +12686,7 @@ have
 developed
 specific ways of checking for match
 or mismatch among certain groups of
-these output channels, making use, for example, of the neurological organiza-
-tion common to
+these output channels, making use, for example, of the neurological organization common to
 all humans such as cerebral control of the contralateral side
 of the body. These principles will be presented later in this part of the book.
 3.
@@ -12991,11 +12723,10 @@ Russell's statements
 regarding the Theory of Logical Types can be found
 in Volume
 I,
-Introduc-
-tion,
+Introduction,
 Chapters
 11,
-12
+
 and
 20;
 and
@@ -13051,8 +12782,7 @@ use of the
 client's
 skills
 in assisting
-in the process of change for that client. We recom-
-mend to you the excellent work of Milton H. Erickson, M.D., for examples of
+in the process of change for that client. We recommend to you the excellent work of Milton H. Erickson, M.D., for examples of
 utilization of all of the client's behavior (Advanced Techniques of Hypnosis
 and Therapy by
 J.
@@ -13081,8 +12811,7 @@ Grinder, Meta-Publications, 1975. This
 is one of the areas of direct cross-over
 between psychotherapy and hypnosis.
 7.
-By carefully observing the client as he creates the image, the thera-
-pist
+By carefully observing the client as he creates the image, the therapist
 will
 have
 an
@@ -13175,8 +12904,7 @@ which
 constitute
 the
 client's models of the world which
-is maximally con-
-flicting with the original polarity. Which
+is maximally conflicting with the original polarity. Which
 set of paramessages constitutes the
 polar opposite
 for any
@@ -13196,8 +12924,6 @@ Generalize to all Meta-model challenges.
 
 PARTIII
 Fuzzy Functions
-
-
 
 
 Fuzzy Functions / 99
@@ -13324,8 +13050,7 @@ client
 to
 represent
 semantically
-ill-
-formed representations has two very important dimensions.
+illformed representations has two very important dimensions.
 First,
 understanding
 how
@@ -13342,13 +13067,11 @@ they
 create
 semantically
 ill-formed
-repre-
-sentations]
+representations]
 SEMANTIC ILL-FORMEDNESS AND FUZZY FUNCTIONS:
 CAUSE-EFFECT
 fjNumerous child
-psychologists have made the point that chil-
-dren
+psychologists have made the point that children
 fail to differentiate themselves from the world around them.
 They
 have
@@ -13444,8 +13167,7 @@ and
 the outcome
 of what we
 consider
-effective-
-therapy
+effectivetherapy
 is not
 the elimination
 of these functions, but rather the
@@ -13505,8 +13227,7 @@ child
 which may
 result, although
 not
-in-
-tended by the adult,
+intended by the adult,
 in frightening and traumatic experiences for
 children. The second
 thing we can learn from
@@ -13554,8 +13275,7 @@ this form
 of representation
 is bad, wrong, or
 not useful. We are, rather, pointing out a very frequently occurring
-part of everyone's stress experiencesJWhen a client says a semanti-
-cally ill-formed statement such as:
+part of everyone's stress experiencesJWhen a client says a semantically ill-formed statement such as:
 My father makes me feel angry.
 we respond by asking how, specifically, he does this. Our client's
 response
@@ -13608,8 +13328,7 @@ a Cause-Effect
 representation,
 the
 referential
-index of responsi-
-bility
+index of responsibility
 is being placed upon
 the world, we are,
 in fact, describing
@@ -13687,8 +13406,7 @@ arrives home very
 tired from a day's
 work. She walks into the room where the client
 is, waves faintly
-and groans. The client, using the feelings of depression and worth-
-lessness,
+and groans. The client, using the feelings of depression and worthlessness,
 interprets the faint wave and groan as a response to his
 friend's catching sight of him,
 sitting
@@ -13730,8 +13448,7 @@ that
 is what
 he
 is
-feeling. The client, then, distorts the visual and auditory informa-
-tion which he receives to make
+feeling. The client, then, distorts the visual and auditory information which he receives to make
 it consistent with his feelings. The
 way
 in which each of us distorts the information which we receive
@@ -13788,8 +13505,7 @@ Representational System
 JNptice
 that the
 result of uncontrolled fuzzy functions
-asso-
-ciatecTwith Cause-Effect semantic ill-formedness
+associatecTwith Cause-Effect semantic ill-formedness
 is that,
 first, the
 client,
@@ -13805,8 +13521,7 @@ loses touch
 with
 (literally)
 his own ongoing
-kines-
-thetic experience as the information which he
+kinesthetic experience as the information which he
 is receiving visually
 and
 auditorially
@@ -13941,8 +13656,7 @@ auditory
 input
 into
 kinesthetic
-sensa-
-tions. He describes, not only the success of his project, but also
+sensations. He describes, not only the success of his project, but also
 its
 neurological foundations
 in
@@ -13968,8 +13682,7 @@ Stoica,
 and
 Sotirescu, 1963). Similarly, responses to stimulation of the
 skin can be recorded from widely varying regions of the
-cortex, including "specific" somatosensory cortex, associa-
-tions
+cortex, including "specific" somatosensory cortex, associations
 areas, and even the visual cortex (Murata, Cramer,
 and Bach-y-Rita, 1965).
 / In a study of the cat's primary visual cortical cells, Murata,
@@ -14086,8 +13799,7 @@ in fact,
 it may be a fantastic resource, as shown by
 Bach-y-Rita and by the use of guided fantasy
 in therapy — rather,
-the phrase, Fuzzy Function, was assigned to this particular model-
-ing
+the phrase, Fuzzy Function, was assigned to this particular modeling
 because
 so many
 people
@@ -14122,8 +13834,7 @@ her accusation
 not
 hear-feeling).
 This
-inter-
-personal
+interpersonal
 conflict became
 the focus of our lecture-demonstration
 until
@@ -14146,8 +13857,7 @@ Also, each
 of these two
 students
 learned something new of the choices which were
-avail-
-able to them
+available to them
 in the way they represent their world. We helped this
 woman to learn to see-see as well as see-feel, so she had the choice
 of taking and
@@ -14311,8 +14021,7 @@ I just lose control and
 I can't stop
 myself
 I can't see any way
-I could feel differently. Some-
-times, when
+I could feel differently. Sometimes, when
 I would see my son,
 I would feel so proud,
 but when he would do the smallest thing wrong,
@@ -14360,8 +14069,7 @@ All
 of the above statements are
 cross-over
 predicates which
-pre-
-suppose visual input represented
+presuppose visual input represented
 kinesthetically. This woman was
 a
 see-feeler . We began, at this point, to explore her model of the
@@ -14379,8 +14087,7 @@ as we
 elicited
 a
 full
-represen-
-tation
+representation
 or model
 of her experience. The important parameters of
 which we became
@@ -14393,7 +14100,7 @@ far
 presented
 in this volume and
 in Volume
-1
+
 ) were as follows.
 /Th is woman's primary
 input channel was
@@ -14427,8 +14134,7 @@ appeared
 also
 to
 be
-kines-
-thetic;
+kinesthetic;
 she
 communicated
 by
@@ -14466,8 +14172,7 @@ So the question of how
 this young woman suddenly turned
 into a child beater was
 still unanswered. Yet, we did know
-infor-
-mation which could be represented
+information which could be represented
 in the following manner:
 M
 A
@@ -14486,7 +14191,7 @@ Meta-Model
 Most Frequent
 Violation of
 Well-Formedness
-1
+
 T
 -
 \
@@ -14496,7 +14201,7 @@ i
 '
 i
 '
-1
+
 H
 A
 visi
@@ -14534,8 +14239,7 @@ to the
 section on
 playing
 polarities,
-you'll remember that playing a polarity elicits the unplayed polar-
-ity,
+you'll remember that playing a polarity elicits the unplayed polarity,
 which
 for
 this woman was blaming and was
@@ -14600,15 +14304,13 @@ representing her world
 in some way
 that made
 it
-possible for her to commit acts of violence. While she was scream-
-ing and
+possible for her to commit acts of violence. While she was screaming and
 approaching
 us, we
 noticed
 that her
 input channel
-re-
-mained
+remained
 visual
 and
 her
@@ -14666,7 +14368,7 @@ A
 V
 K
 K
-2
+
 Norn.
 C.E.
 The
@@ -14693,8 +14395,7 @@ non-movement.
 is
 the
 process by which a verb of natural language~isTurned into an event
-or thing, "thingified.") The nominalization of a kinesthetic repre-
-sentation
+or thing, "thingified.") The nominalization of a kinesthetic representation
 is movement which
 is frozen
 into body posture. Thus,
@@ -14743,12 +14444,10 @@ blaming. The
 result
 was
 a
-de-
-nominalization
+denominalization
 kinesthetically —
 blaming communicated
-kines-
-thetically,
+kinesthetically,
 better known as outright violence. Consider now for a
 moment,
 if you
@@ -14775,8 +14474,7 @@ hits
 her
 son, who becomes more placative upon being attacked by an
 adult. This only exaggerates Martha's see-feel
-circuit into an esca-
-lating sequence for which she has no controlling resources.
+circuit into an escalating sequence for which she has no controlling resources.
 At
 the
 risk
@@ -14795,8 +14493,7 @@ in our work to
 assist our clients in breaking escalating patterns, especially patterns
 of
 kinesthetic expression
-of anger. Many psychotherapists recog-
-nize
+of anger. Many psychotherapists recognize
 the
 danger
 of
@@ -14934,8 +14631,7 @@ are available to therapists in these situations^]
 A$e suggest that
 therapists
 try another alternative — to
-inter-
-ruptthe explosion of anger
+interruptthe explosion of anger
 in a way which
 will enable the client
 to us&jthe dynamic
@@ -14974,17 +14670,15 @@ her
 explosion
 is one which
 resulted by
-the therapist's playing polar-
-ities.
+the therapist's playing polarities.
 If a
 therapist wishes to interrupt this escalating pattern, he
 may do a number of things. He may play the reverse polarity. This
 
 
 Fuzzy Functions /
-1
-1
-1
+
+
 will
 demand
 all
@@ -15038,8 +14732,7 @@ client
 to
 breathe. He
 may,
-in some~congruent fashion, demand that she switch represen-
-tational
+in some~congruent fashion, demand that she switch representational
 systems,
 and
 shift
@@ -15064,8 +14757,7 @@ System
 Output
 Satir
 Semantic
-Ill-
-Channel
+IllChannel
 Category
 Formedness
 Meta-Model
@@ -15075,11 +14767,10 @@ POLARITY ONE
 V
 K
 K
-1
+
 Cause-Effect
 Nom
-Incon-
-gruent
+Incongruent
 Unstable
 System
 t
@@ -15088,10 +14779,9 @@ t
 v
 K
 K
-2
+
 Cause-Effect
-Con-
-gruent
+Congruent
 Violence
 If you check
 the two representations above, you
@@ -15324,7 +15014,7 @@ least temporarily interrupted
 
 
 Fuzzy Fum tions /
-1
+
 1 3
 Input
 Representational
@@ -15336,7 +15026,7 @@ Channel
 Categroy
 Auditory —
 4>
-1
+
 M.R.
 Martha had begun
 the process of change. We then proceeded
@@ -15432,8 +15122,7 @@ Therapist:
 Describe what you
 sec
 do not do
-it. (The thera-
-pist
+it. (The therapist
 slops
 Martha
 from
@@ -15603,7 +15292,7 @@ her help me stand up so
 
 
 / uzzy Fum tlons /
-1
+
 1 5
 burst out. She wants me to sec that
 I don't always need to
@@ -15845,8 +15534,7 @@ and
 jokingly
 said,
 "You're
-dis-
-gusting; you need help."
+disgusting; you need help."
 Although
 neither of the therapists has seen Martha again and
 there
@@ -15863,8 +15551,7 @@ this
 is an example of the power humans have to change.
 She called us twice on the phone; once, two months later to tell us
 she was alive and well
-in the Midwest. She was happy and endeav-
-oring to begin a new
+in the Midwest. She was happy and endeavoring to begin a new
 life. A second call came six months later from
 a
 joyous
@@ -15883,8 +15570,7 @@ a copy of
 this book. We
 are
 not suggesting
-that one thera-
-peutic
+that one therapeutic
 session
 is ever
 all
@@ -15935,8 +15621,7 @@ Representational
 Output
 Satir
 Semantic
-III-
-Meta-Model
+IIIMeta-Model
 Channel
 System
 Channel
@@ -15946,7 +15631,7 @@ Violation
 K
 V
 A
-1
+
 M.R.
 As the
 therapist
@@ -15967,28 +15652,26 @@ Channel
 Satir
 Stance
 Semantic
-III-
-Formedness
+IIIFormedness
 Meta-Mode
 Violation
 A external
-1
+
 M.R.
 Del
 A internal
-2
+
 C.E.
 Del
 Fuzzy Functions /
-1
+
 1 7
 Input
 Representational
 Output
 Satir
 Semantic
-III-
-Meta-Model
+IIIMeta-Model
 Channel
 System
 Channel
@@ -15998,13 +15681,12 @@ Violation
 K
 V
 A
-1
+
 M.R.
 <t>
 The above
 is a process of representation which
-is safe to denomi-
-nalize.
+is safe to denominalize.
 The
 therapist
 then
@@ -16016,8 +15698,7 @@ denominali/ing,
 putting movements,
 action, and
 process
-into the visual represen-
-tation,
+into the visual representation,
 at
 the
 same
@@ -16062,8 +15743,7 @@ Representational
 Output
 Satir
 Semantic
-III-
-Meta-Model
+IIIMeta-Model
 Channel
 System
 Channel
@@ -16128,8 +15808,7 @@ in and by
 
 118 I PART III
 itself. There
-Is, however, even more to be gained from an under-
-standing
+Is, however, even more to be gained from an understanding
 of
 these
 processes.
@@ -16183,16 +15862,14 @@ are
 typical. /fhey
 all
 share
-similar out-
-comes — they all serve to identify a fuzzyfunction. We have found
+similar outcomes — they all serve to identify a fuzzyfunction. We have found
 that rearranging our clients' postures back to a more relaxed one
 and then asking them to breathe very often
 is all that
 is needed to
 continue a therapeutic session on a course which
 is accomplishing
-something. Sometimes a maneuver such as this will set off power-
-ful reactions.
+something. Sometimes a maneuver such as this will set off powerful reactions.
 If a client
 is see-feeling a strong emotion and tries to
 cut
@@ -16265,9 +15942,8 @@ of a conversation, but have you ever paid attention to any posture
 
 
 Fuzzy Functions /
-1
-1
-9
+
+
 changes you use to accomplish this? This will be an opportunity to
 learn, not only about yourself, but about how your clients also use
 posture to affect their hearing. Next, try all kinds of combinations
@@ -16437,8 +16113,7 @@ Representation
 Kinesthetic
 to
 Visual
-K-
-V
+KV
 Type of Semantic lll-Formedness
 Mind reading /
 I can see when he's
@@ -16483,8 +16158,7 @@ of Magic,
 we
 identified
 three types of semantic
-ill-
-formedness:
+illformedness:
 Cause-Effect
 Mind-Reading
 Lost Performative
@@ -16497,7 +16171,7 @@ Good girls don 't hit boys.
 
 Fuzzy Functions /
 1 2
-1
+
 (To st Performative
 is the case
 in which the speake r assumes that his model of
@@ -16518,14 +16192,12 @@ a
 violation
 of
 the
-map-
-territory
+mapterritory
 distinction. As mentioned
 in the analysis
 in Magic
 I,
-this phenom-
-enon
+this phenomenon
 is a special case of deletion -
 in which the performative which carries
 the map-territory distinction has been deleted. We would also mention that,
@@ -16570,8 +16242,7 @@ however,
 encountered
 the other
 logical
-possi-
-bilities, namely:
+possibilities, namely:
 When the client takes information arriving
 in the visual channel and
 represents
@@ -16717,8 +16388,6 @@ Family Therapy -
 The Delicate Flower
 
 
-
-
 Family Therapy I MS
 If you did nothing more when you have a family together
 than
@@ -16733,8 +16402,7 @@ other, and
 listen
 to each
 other,
-you would have already swung the pendulum in the direc-
-tion of a new start.
+you would have already swung the pendulum in the direction of a new start.
 Virginia
 Satir,
 p. 61
@@ -16746,8 +16414,7 @@ in Helping Families
 to
 Change.
 Edited by Tiffany, et
-al. The High Plains Compre-
-hensive Community
+al. The High Plains Comprehensive Community
 Mental Health Center, Hays,
 Kansas.
 A flower
@@ -16767,8 +16434,7 @@ it,
 unless
 it
 is made only of paper or
-plastic. Another charac-
-teristic of flowers and
+plastic. Another characteristic of flowers and
 plants
 is that they grow best in their native
 environment,
@@ -16776,8 +16442,7 @@ and,
 although
 they
 will grow
-in another environ-
-ment,
+in another environment,
 it
 takes much
 more support from
@@ -16878,8 +16543,7 @@ that,
 while Meta-model
 questions,
 representational systems, and
-polar-
-ities remain
+polarities remain
 the
 key
 principles,
@@ -16980,8 +16644,7 @@ label any member or any part of any member as bad, sick or crazy.
 /_We
 begin with the premise that the system
 (family organism as a
-whole) has some portion of its shared model of the world impover-
-ished
+whole) has some portion of its shared model of the world impoverished
 in a way that prevents the processes going on in that system
 from being nourishing!
 One of the most~cTramatic ways in which therapy will differ in
@@ -17037,8 +16700,7 @@ course,
 has
 a profound
 effect on
-the therapist's choice of thera-
-peutic techniques./Take the technique of enactment, for example.
+the therapist's choice of therapeutic techniques./Take the technique of enactment, for example.
 One of the values oTan enactment technique
 is that
 it allows the
@@ -17148,8 +16810,7 @@ they
 warrf}
 The secon d way
 in which family therapy
-is dramatically differ-
-ent from
+is dramatically different from
 individual
 therapy
 is
@@ -17233,8 +16894,7 @@ therapist
 may,
 for example, decide
 that he
-is un-
-willing to accept the constraints of family therapy but offer
+is unwilling to accept the constraints of family therapy but offer
 to
 work with individual members in individual therapyvp
 Now, given the assumption that the breaking up of the family
@@ -17286,8 +16946,7 @@ or
 . She disappoints me greatly when she doesn't listen to
 me.
 /In each case, the speaker of these sentences
-is accepting a represen-
-tation of
+is accepting a representation of
 his experience
 in which
 his feelings are determined or
@@ -17343,8 +17002,7 @@ in
 challenging any
 ancT'aTrcxpressions of Cause-Effect
 semantic
-ill-
-formedness,
+illformedness,
 while,
 in
 family
@@ -17416,8 +17074,7 @@ patterns of interaction created by the family and therapist
 in the
 work
 sessions. These three steps parallel the three steps
-in incon-
-gruity work called
+in incongruity work called
 Identifyi ng Incongruitie s, Sorting Incongruitie s
 into_Polaritjes,
 and
@@ -17521,8 +17178,7 @@ while simultaneously
 clarifying
 both
 for himself and
-the family members the agreed-
-upon goals of the therapeutic work. The outcome of this process
+the family members the agreedupon goals of the therapeutic work. The outcome of this process
 is
 some mutually agreed upon set of therapuetic goals. This identifies
 the state of living which the family wishes to achieve for itself)
@@ -17555,8 +17211,7 @@ family
 members, we
 learn
 a great deal about the modeling
-principles which they use to construct the model for their experi-
-ence.
+principles which they use to construct the model for their experience.
 We
 quote
 several
@@ -17628,8 +17283,7 @@ lines the therapist can already
 identify a
 number of important
 patterns, ^ett^ uses primarily visual
-predi-
-_cates
+predi_cates
 (see,
 look,
 see,
@@ -17732,8 +17386,7 @@ recall
 the words — apparently, he
 is responding to th e
 t onality of Betty's communication. Furthermore,
-his communica-
-tion
+his communication
 verifies
 that
 the
@@ -17750,8 +17403,7 @@ that
 he
 also
 uses
-complex equiv a-
-lency (She sounded real mad = She
+complex equiv alency (She sounded real mad = She
 tells me
 that
 I m not much
@@ -17892,14 +17544,12 @@ now.
 Therapist: Max
 (turning
 to
-the father), what did you experi-
-ence just now during the exchange between your daughter
+the father), what did you experience just now during the exchange between your daughter
 and your wife?
 Max: Yeah, well,
 I
 just don't understand what you want from
-us, Joan; you start to say something, your mother encour-
-ages^ vou and then you stop — you always frustrate us that
+us, Joan; you start to say something, your mother encourages^ vou and then you stop — you always frustrate us that
 way.
 /JHere,
 in this exchange, the therapist, by asking the father/husband
@@ -17913,14 +17563,12 @@ the communication
 which
 his wife
 presented
-( analogue blaming with verbally incon-
-gruent message) to his daughter
+( analogue blaming with verbally incongruent message) to his daughter
 is represented only by the verbal
 portion.
 In
 fact, he blames
-Joan, the daugh ter (you ajway^lnus-
-trate us that wayJ^Tor responding to the anjjogueportions of the
+Joan, the daugh ter (you ajway^lnustrate us that wayJ^Tor responding to the anjjogueportions of the
 messages
 with
 which
@@ -18040,8 +17688,7 @@ the
 Pairing Principle.
 THE PAIRING PRINCIPLE
 What we have noticed time and time again
-is that the distribu-
-tion
+is that the distribution
 of
 representational
 systems and
@@ -18077,7 +17724,7 @@ one,
 a
 visual/Satir
 category
-2
+
 and
 the
 other,
@@ -18086,8 +17733,7 @@ kinesth etic/Satir category
 1.
 Parallelly,
 in the context of couples
-and family systems work, the most frequent distribution of repre-
-sentational systems and Satir categories
+and family systems work, the most frequent distribution of representational systems and Satir categories
 is o_ne in which one of the
 parenting
 family memb ers
@@ -18365,8 +18011,7 @@ the
 cliejiL_xom££_Jo
 depend jj pon the2t he ra P' st
 tQ continue to play
-his weaker pola r-
-TfyW
+his weaker pola rTfyW
 I nTthe context of a couple relationship, the result
 is a highly
 stable system — each member of the system depending upon the
@@ -18394,8 +18039,7 @@ Sam
 find each other
 attractive, and
 they
-decide to have a tradi-
-tional family. They have
+decide to have a traditional family. They have
 a child; we'll
 call him Jim. As Jim grows
 up,
@@ -18422,8 +18066,7 @@ their own
 behavior which
 are
 inconsistent with one
-another: one being visual and blaming and the other being kines-
-thetic and
+another: one being visual and blaming and the other being kinesthetic and
 placating. [Watching and
 listening to his parents handle
 stress
@@ -18510,8 +18153,7 @@ these
 patterns.
 For
 example,
-if the original couple, Louise and Sam, each have polar-
-ities which
+if the original couple, Louise and Sam, each have polarities which
 are
 relatively balanced —
 that
@@ -18543,8 +18185,7 @@ L 2
 S 2
 (kinesthetic and placating)
 (jjiy the polarity
-principle, Louise has just performed a maneu-
-ver which
+principle, Louise has just performed a maneuver which
 in the context of therapy
 is a Meta :tactic — namely, she
 is
@@ -18674,8 +18315,7 @@ this
 volume.
 Furthermore, since Jim
 is consistently incongruent
-in his commu-
-nication, others will respond to him
+in his communication, others will respond to him
 in a similar fashion, and he
 is
 likek to find the world a really peculiar experience.
@@ -18756,16 +18396,14 @@ continue to survive - schizophrenia. Apparently, schizophrenia
 is
 likely
 as
-a choice for children and young adults who are consist-
-ently confronted
+a choice for children and young adults who are consistently confronted
 with maximally
 incongruent communication —
 the
 kind,
 for example,
 with which
-Jim's children would be con-
-fronted
+Jim's children would be confronted
 if
 Jim
 made
@@ -18787,8 +18425,7 @@ the same
 
 
 13S/PART/V
-tendencies for non-overlapping representational systems and non-
-overlapping Satir categories which we discussed
+tendencies for non-overlapping representational systems and nonoverlapping Satir categories which we discussed
 in detail
 in Part
 II
@@ -18799,8 +18436,7 @@ beginning
 therapists will
 find
 this a powerful organizing principle in their work with family
-systems. Thus, one of th e higher leve l p atterns which the informa-
-tion
+systems. Thus, one of th e higher leve l p atterns which the information
 listed
 prevTo usl y
 will
@@ -18827,8 +18463,7 @@ of
 'expression for family members and the input channels or modes of
 getting
 information whirh thpy tyjwally
-||<g_ Dnp way of nnHpr-
-standing how this works comes from a consideration of the kinds
+||<g_ Dnp way of nnHprstanding how this works comes from a consideration of the kinds
 of experiences that families expect to get from each other
 in the
 family system} In the
@@ -19123,9 +18758,7 @@ time, George
 has only
 his visual
 input system
-oper-
-ating. The therapist assists George in de-nominalizing the nominali-
-zation respect tw
+operating. The therapist assists George in de-nominalizing the nominalization respect tw
 specifying how
 he would know that his father
 respected
@@ -19211,8 +18844,7 @@ oi attention
 will
 reveal
 that the input channels which she
-is using tcTcfetect atterP-
-tion
+is using tcTcfetect atterPtion
 are
 no t
 capable
@@ -19222,8 +18854,7 @@ the
 messages
 in
 the outpu t
-system which tne otner family membexJs usiqg^to try to commu-
-nicate
+system which tne otner family membexJs usiqg^to try to communicate
 that
 attention.
 For example,
@@ -19339,8 +18970,7 @@ family attempts to determine what
 its goals will
 be. Here
 all the
-skills which make therapy such a demanding and rewarding experi-
-ence
+skills which make therapy such a demanding and rewarding experience
 must
 be
 used
@@ -19603,8 +19233,7 @@ using
 the
 Meta-model
 to
-de-
-nominalize
+denominalize
 linguistically.
 Relabeling, translating from one
 representational
@@ -19614,8 +19243,7 @@ another,
 and
 accessing_of
 me mories w ill also play an important role.
-(3) Breaking generalizationsjjy Meta-model techniques, com-
-paring
+(3) Breaking generalizationsjjy Meta-model techniques, comparing
 models
 ~~
 bf
@@ -19630,8 +19258,7 @@ ill-formedness
 will
 be
 necessary steps.
-(4) Meta-position moves will also be an effective part of evolv-
-ing
+(4) Meta-position moves will also be an effective part of evolving
 family
 systems. They
 can
@@ -19676,8 +19303,7 @@ point
 is
 an
 undeniable
-re^JjtyTas w ell as a pleasant one. The pain and hope-
-lessness of those who seek family therapy
+re^JjtyTas w ell as a pleasant one. The pain and hopelessness of those who seek family therapy
 is evidenced
 by
 their
@@ -19697,8 +19323,7 @@ of
 that solution a
 pleasant experience,
 providing
-patterns of coping that can gener-
-alize to other areas of the family's life, at the same time making
+patterns of coping that can generalize to other areas of the family's life, at the same time making
 it
 possible for every member of the family to be respectable to every
 other member. Creation of new, negative fuzzy functions will not
@@ -19724,18 +19349,18 @@ this therapist.
 There are four members:
 Samuel A.
 Husband-father
-41
+
 A teacher in high school
 Jill A.
 Wife-mother
-38
+
 Bank Teller
 Holly A.
 Sister-daughter
-16
+
 Thomas A.
 Brother-son
-15
+
 This
 family
 "volunteered"
@@ -19775,8 +19400,7 @@ surprised; he then warned both authors that they might be a bad
 choice
 for
 a demonstration because they were
-likely to be unco-
-operative.
+likely to be uncooperative.
 We
 chose
 this
@@ -19827,8 +19451,7 @@ that they might have some new learnings.
 I
 also hope
 that this time can make
-it possible for all of you (address-
-ing the family) to learn some new things too.
+it possible for all of you (addressing the family) to learn some new things too.
 I would like
 to begin by finding out just what those might be. Let me
 start with you, Samuel. What would you
@@ -20408,8 +20031,7 @@ comment was sure to be a criticism of some other family memb er.
 They were
 all calibrated to receive bad messages, and, thus, every
 message was construed to be a^ad_pne. All members of this family
-system believed in their mind^reading abilities; every misinterpreta-
-tion was then turned into a hear-feel. Family members would have
+system believed in their mind^reading abilities; every misinterpretation was then turned into a hear-feel. Family members would have
 to
 learn both to communicate their own messages and to receive
 messages from
@@ -20467,8 +20089,7 @@ Be strong, not yourself, or you'll get hurt.
 These
 rules were not developed by people who were trying to
 create pain for each other but by people who were doing the best
-they could with their particular patterns of incongruent communi-
-cation and fuzzy
+they could with their particular patterns of incongruent communication and fuzzy
 functions. The following excerpts are from the
 part of the interview which dealt with evolving the system. They
 have been added
@@ -20626,8 +20247,7 @@ to demonstrate to
 Jill
 that her messages are not received at all like
 she intends them to
-be. This opens up the possibility of discover-
-ing better ways of communicating, at the same time demonstrating
+be. This opens up the possibility of discovering better ways of communicating, at the same time demonstrating
 what
 those ways
 are;
@@ -20783,7 +20403,7 @@ don't know each other. Would you
 
 Family Therapy /
 1 5
-1
+
 like to open your eyes and
 really meet each other, maybe
 for the first time in years?
@@ -20831,8 +20451,7 @@ learned
 that
 their models of each other
 were
-[outmoded J thev could begin to find new ways to communi-
-cate with each otherJThey have begun to learn that mind reading
+[outmoded J thev could begin to find new ways to communicate with each otherJThey have begun to learn that mind reading
 sets limits and puts walls between them. They continued, with the
 help
 of
@@ -20959,8 +20578,7 @@ Yeah,
 I
 always thought you
 didn't
-like dad; some-
-times
+like dad; sometimes
 it felt creepy when you
 .
 .
@@ -21366,8 +20984,7 @@ evolving
 a family system.
 <(]_)) The
 therapist
-re-la beled the u nlul-
-fiMedn eeds of the famllxiii£illbers as really pp 'np, *hp sam p
+re-la beled the u nlulfiMedn eeds of the famllxiii£illbers as really pp 'np, *hp sam p
 , This
 is
 very easy when you consider that they are the
@@ -21382,8 +20999,7 @@ things
 differently; he
 is building
 a new
-represen-
-tational
+representational
 system.
 Also,
 memories
@@ -21396,8 +21012,7 @@ Jill recover the kinesthetic representations she felt
 for Samuel
 at another point
 in their life. These two have begun to
-build bridges between them. They are beginning to share represen-
-tational
+build bridges between them. They are beginning to share representational
 systems.
 The
 most
@@ -21589,13 +21204,11 @@ the changes
 are more acceptable than
 the
 rules which
-pre-
-vented them. This can be accomplished
+prevented them. This can be accomplished
 in the following ways:
 COMPARING MODELS
 1.
-The use of Meta-model questions to elicit a full represen-
-tation of each member's model of the world. This allows auditory
+The use of Meta-model questions to elicit a full representation of each member's model of the world. This allows auditory
 input to be maximal for each member, at the same time providing
 the information necessary to produce change.
 2.
@@ -21615,8 +21228,7 @@ the messages in the first place.
 3.
 Challenging mind reading
 is a most essential
-part of evolv-
-ing a family system.
+part of evolving a family system.
 It allows clients to develop auditory feedback,
 at the same time giving them an experience
 in just how much their
@@ -21729,8 +21341,7 @@ Referential index
 shift occurs when
 the
 negative
-experi-
-ences
+experiences
 of
 one
 family
@@ -21765,13 +21376,12 @@ communicating auditorially.
 
 15&/PART/V
 META-POSITION MOVES
-1
+
 Meta-questions such as,
 T
 How do you feel about feeling X?
 allow the members to express both
-polarities and allow the listen-
-ing members greater access to information formerly not received
+polarities and allow the listening members greater access to information formerly not received
 since
 it was never expressed auditorially.
 Husband:
@@ -21891,8 +21501,7 @@ maximally
 Family Therapy /
 1 59
 beneficial effect
-in working with the family, the therapist's objec-
-tive
+in working with the family, the therapist's objective
 is
 to
 assist
@@ -21995,8 +21604,7 @@ assist
 the family members
 in
 being aware of the new choices
-and new coping patterns which they have evolved with the thera-
-pist during their session. There are two general categories of these
+and new coping patterns which they have evolved with the therapist during their session. There are two general categories of these
 techniques:
 1.
 Homework assignments —
@@ -22020,8 +21628,7 @@ and
 destructive
 patterns should
 these
-reassert them-
-selves.
+reassert themselves.
 Homework
 is
 essentially
@@ -22123,8 +21730,7 @@ the
 process of developing exercises and deciding on how to use them
 is
 an excellent experience
-in which family members come to appre-
-ciate their own skills and those of the other family members!]
+in which family members come to appreciate their own skills and those of the other family members!]
 The
 second
 category
@@ -22183,13 +21789,11 @@ develop a set of cues or signals which will allow family members to
 detect and
 signal
 other family members that an old and
-unsatis-
-factory
+unsatisfactory
 pattern
 of interaction
 is beginning.
-All of the considera-
-tions presented
+All of the considerations presented
 in Part
 II on incongruity work,
 in the section on
@@ -22267,7 +21871,7 @@ i
 
 Family Therapy /
 1 6
-1
+
 children who
 as yet
 are
@@ -22282,8 +21886,7 @@ sculpturing.
 Sculpturing
 is
 a form
-of meta-
-commenting without requiring verbal skill, as
+of metacommenting without requiring verbal skill, as
 it makes use of body
 postures by
 the person
@@ -22301,8 +21904,7 @@ the
 family
 should
 be
-in-
-volved
+involved
 maximally
 in
 the
@@ -22342,27 +21944,24 @@ outcome rather than the
 least acceptable. One case of this which will be clear
 to the
 reader
-is that of the family system with an identified patient schizo-
-phrenic who
+is that of the family system with an identified patient schizophrenic who
 is struggling
 to
 free
 himself from the patterns of family
-inter-
-action in which he
+interaction in which he
 is trapped.
 \&$
 2.
 This seems
 to
 us
-to be the basic pattern of the traditional psycho-
-therapeutic phenomenon
+to be the basic pattern of the traditional psychotherapeutic phenomenon
 of transference,
 negative transference and counter
 transference.
 Jj
-1
+
 /)
 3.
 R. D. Laing (see pp. 104-124, The Politics of the Family and Other
@@ -22401,12 +22000,8 @@ Do not notice that you do not notice (visually) incongruity.
 >-
 
 
-
-
 PARTV
 Formal Notation
-
-
 
 
 Formal Notation /
@@ -22447,8 +22042,7 @@ client's surface
 structures,
 the therapist quickly
 comes to understand the client's model of the world,
-its impover-
-ishing
+its impoverishing
 limitations and
 the
 modeling
@@ -22459,8 +22053,7 @@ client
 typically
 uses
 to construct his models.
-Listening to and respond-
-ing to the client
+Listening to and responding to the client
 in terms of the Meta-model distinctions allow the
 therapist to identify the techniques he
 will use to assist the client
@@ -22469,8 +22062,7 @@ The Meta-model which we presented
 in Magic
 I has a number
 of useful distinctions. As we stated
-in that volume, these distinc-
-tions themselves fall into natural groupings or meta-patterns of the
+in that volume, these distinctions themselves fall into natural groupings or meta-patterns of the
 Meta-model distinctions. We have found
 it useful
 in organizing our
@@ -22658,8 +22250,7 @@ client says,
 / 'm scared.
 This Surface Structure
 is the outcome of a linguistic process called
-a derivation. One of the principal research domains of transforma-
-tional
+a derivation. One of the principal research domains of transformational
 linguistics
 is
 derivations —
@@ -22729,8 +22320,7 @@ notation,
 being
 formal,
 is
-inde-
-pendent of content —
+independent of content —
 in fact, sets of functions may, themselves,
 constitute the sets which are being associated by the same rules of
 correspondence. When considering the relationship between sets of
@@ -22749,8 +22339,7 @@ mathematicians.
 These
 are
 called
-inverse func-
-tions. Again, we proceed by example.
+inverse functions. Again, we proceed by example.
 (i)
 Now consider
 all
@@ -22895,8 +22484,7 @@ the
 client
 uses
 to organize
-his experi-
-ence. The
+his experience. The
 first set of questions or challenges from the Meta-model
 based on
 the form of the client's Surface Structures involves the
@@ -22942,8 +22530,7 @@ that
 is,
 the
 client's modeling
-per-
-formance
+performance
 in
 going from
 Reference
@@ -22955,8 +22542,7 @@ the
 loss of
 a
 referential
-index — the Meta-model chal-
-lenge
+index — the Meta-model challenge
 is
 to
 demand
@@ -22975,7 +22561,7 @@ Client
 Therapist
 [Client
 (r"
-1
+
 ))
 
 
@@ -23055,16 +22641,15 @@ they are defined. The process
 r maps (associates with) nouns with
 referential
 indices into nouns without referential indices, while the
-process v maps verbs which are relatively specified into less speci-
-fied verbs. The processes
+process v maps verbs which are relatively specified into less specified verbs. The processes
 r _1 and v"
-1
+
 are the inverse mappings:
 r"
 1 (noun phrase without referential index)-^(noun phrase with
 referential index)
 v"
-1
+
 (verb relatively unspecified)
 »-(verb relatively
 more specified)
@@ -23073,7 +22658,7 @@ r and
 r _1
 is noun phrases and
 the domain of the v and v"
-1
+
 is verbs.
 Secondly, the
 first three distinctions are involved
@@ -23093,8 +22678,7 @@ In
 the course
 of
 the nominalization process, the
-linguistic represen-
-tation
+linguistic representation
 shifts from
 that of
 a
@@ -23117,7 +22701,7 @@ someone
 with something
 \
 Surface Structure
-7
+
 Predicate
 worries
 the frustration
@@ -23151,8 +22735,7 @@ and
 around
 and
 getting
-no-
-where."
+nowhere."
 This
 cycle
 occurs when
@@ -23213,8 +22796,7 @@ to
 hear and
 challenges the
 distinctions which
-are charac-
-teristic of the next phase.
+are characteristic of the next phase.
 
 
 M2/PARTV
@@ -23258,8 +22840,7 @@ often, no choice
 at
 all.
 Notice
-that the Meta-
-model challenges to modal operators are requests for the client to
+that the Metamodel challenges to modal operators are requests for the client to
 fill
 in
 a
@@ -23295,8 +22876,7 @@ therapist
 as
 a
 portion of a semantically
-ill-
-formed Cause-Effect relationship (as either X or Y \n the following
+illformed Cause-Effect relationship (as either X or Y \n the following
 form):
 X
 causes
@@ -23305,8 +22885,7 @@ and the client
 is requested to supply the material which has been
 deleted
 in
-the mapping from Reference Structure to Deep Struc-
-ture.
+the mapping from Reference Structure to Deep Structure.
 Thus,
 the
 d
@@ -23358,8 +22937,7 @@ the
 therapist's
 challenge
 presupposes
-a seman-
-tically
+a semantically
 ill-formed
 Cause-Effect
 relation,
@@ -23421,8 +22999,7 @@ in
 fact,
 the
 linguistic representation of performative deletion
-is a Deep Struc-
-ture
+is a Deep Structure
 to Surface Structure
 process).
 If the
@@ -23431,14 +23008,12 @@ Cause-Effect statement such as:
 My father's feeling bad stops me from leaving home.
 then, the usual Meta-model challenge v -1
 applies, requesting that
-the client specify the process by which this claimed causal connec-
-tion occurs.
+the client specify the process by which this claimed causal connection occurs.
 More important
 for understanding
 the
 overall
-strategy, how-
-ever,
+strategy, however,
 is
 the
 fact
@@ -23449,8 +23024,7 @@ major
 forms
 of
 semantic
-ill-
-formedness,
+illformedness,
 Cause-Effect
 and
 Mind-Reading,
@@ -23482,7 +23056,7 @@ n _1
 processes
 at
 level
-1
+
 (between
 Deep
 Structure and
@@ -23648,11 +23222,10 @@ most
 frequently occurring violation
 of
 the
-Meta-
-model distinctions for this problem.
+Metamodel distinctions for this problem.
 We now
 list the six variables and their associated ranges:
-1
+
 =
 < V (visual), K (kinesthetic), A (auditory), D (digital)}
 R
@@ -23668,7 +23241,7 @@ O
 S
 =
 i
-1
+
 (placating), 2 (blaming), 3 (super-reasonable),]
 I
 4 (irrelevant)
@@ -23728,14 +23301,11 @@ He saw amount of work and
 expression of sorrow.
 Felt crushed, feel even worse,
 sick to stomach.
-Pointing finger, harsh tone, com-
-plaining to professors. Referen-
-tial index of responsibility.
+Pointing finger, harsh tone, complaining to professors. Referential index of responsibility.
 Work makes him feel crushed.
 Professors make him feel sick.
 School
-is destroying his self-
-confidence.
+is destroying his selfconfidence.
 School, sense of confidence.
 Inadequacy of educational
 system. Expression of sorrow.
@@ -23747,8 +23317,7 @@ I = V
 Input
 Visual
 R = K
-Represen-
-tational
+Representational
 system
 Kinesthetic
 S = 2
@@ -23757,8 +23326,7 @@ category
 Blaming
 F = CE
 Semantic
-ill-
-formedness
+illformedness
 Cause-Effect
 M = N
 Meta-model
@@ -23790,8 +23358,7 @@ skill and
 tool
 for the
 therapist.
-Better stated, what set of condi-
-tions would permit a therapist to formulate a strategy for effective
+Better stated, what set of conditions would permit a therapist to formulate a strategy for effective
 therapy
 devoid
 of
@@ -23806,8 +23373,7 @@ of
 Next-Step
 Function. A
 next-step function would
-be the appro-
-priate
+be the appropriate
 strategy for therapy, or the set of conditions which would
 indicate the needed
 technique
@@ -23826,8 +23392,7 @@ Parts
 II and
 III
 that
-well-
-formed
+wellformed
 sorting
 of
 polarities
@@ -23837,8 +23402,7 @@ for
 integration
 to take
 place and for growth and coping to occur. Also, you
-will remem-
-ber
+will remember
 that,
 in
 the section on fuzzy functions, ill-formed equations
@@ -23934,8 +23498,7 @@ representing
 each
 set
 of
-para-
-messages.
+paramessages.
 instantaneous description A
 (I, R, O, S, F, M)
 instantaneous description B
@@ -23951,8 +23514,7 @@ levels
 of
 constraints
 for
-well-
-formed
+wellformed
 therapy.
 First,
 the
@@ -23965,11 +23527,9 @@ second,
 the
 relationship between
 sets of
-instanta-
-neous descriptions. What follows are two
+instantaneous descriptions. What follows are two
 sets of necessary
-well-
-formedness conditions for a well-formed instantaneous description
+wellformedness conditions for a well-formed instantaneous description
 in
 therapy. Once
 these have been established, we can proceed to
@@ -24001,8 +23561,7 @@ where
 i =
 j
 (that
-is, when the system the person uses to represent his experi-
-ence
+is, when the system the person uses to represent his experience
 is the one most naturally associated with the input channel
 through which
 he
@@ -24028,8 +23587,7 @@ visual
 information
 is simultaneously
 represented
-kines-
-thetically
+kinesthetically
 is not a well-formed description.
 The
 simultaneous
@@ -24058,11 +23616,11 @@ j have the following paired values:
 j
 L
 K
-1
+
 V
-2
+
 A
-3
+
 All other paired values will be considered
 ill formed
 in therapy.
@@ -24082,9 +23640,9 @@ of
 the
 following:
 K
-2
+
 K
-3
+
 Note that
 all other relationships are not necessarily well formed —
 they can be
@@ -24113,13 +23671,12 @@ tion
 is
 ill formed.
 In other words, while the pair K
-1
+
 is well formed
 for the parameters O and S, the triplet,
 (_,_, K, 1,_,n)
 is
-ill formed. We are aware that the three well-formedness condi-
-tions presented above are not exhaustive for the well-formedness
+ill formed. We are aware that the three well-formedness conditions presented above are not exhaustive for the well-formedness
 conditions for six
 tuples. We offer them as an example of the way
 in
@@ -24184,8 +23741,7 @@ the
 function Q and
 an
 instantaneous description,
-incon-
-gruity
+incongruity
 can
 be
 defined
@@ -24202,8 +23758,7 @@ Q(Oj)#Q(Oj)
 (where =£ means is not consistent with)
 for the same
 individual.
-In other words, given a six-tuple represen-
-tation for the same individual,
+In other words, given a six-tuple representation for the same individual,
 1—'U)—
 where Q
 (0,) * Q
@@ -24228,7 +23783,7 @@ individual
 identified
 as
 c
-1
+
 is incongruent.
 If Oj and
 Oj
@@ -24320,8 +23875,7 @@ pair
 with respect to the completion of Phase
 II of incongruency work
 when each
-six-tuple meets the well-formedness conditions speci-
-fied above and,
+six-tuple meets the well-formedness conditions specified above and,
 (_, Ri,Oj,S k ,_, _) c
 i
 (_, Ri',Oj',S k ',_,_) c
@@ -24343,8 +23897,7 @@ j and
 k
 This well-formedness condition shows
 that Phase
-II of incongru-
-ency work
+II of incongruency work
 is complete when there
 is a maximal separation of the
 representational systems, output messages, and Satir categories.
@@ -24392,7 +23945,7 @@ that Q
 (0|<) would
 be
 consistent with K and
-1
+
 as
 the values
 for
@@ -24426,8 +23979,7 @@ particular case, he has two choices:
 or
 (_,V,Oj,2,_,_)
 Since the client
-is already presenting the therapist with an instan-
-taneous
+is already presenting the therapist with an instantaneous
 description which
 is closer
 to
@@ -24480,8 +24032,7 @@ to
 the
 less dominant
 polarity,
-based on the Q (Ok) mes-
-sage. The
+based on the Q (Ok) message. The
 therapist then has an understanding of the client's two
 polarities with which
 to work with him to make the changes he
@@ -24527,9 +24078,7 @@ use the
 six-tuple approach
 is
 to evaluate the
-well-
-formedness of the entire family system. For example, the follow-
-ing set of instantaneous descriptions identifies a family system
+wellformedness of the entire family system. For example, the following set of instantaneous descriptions identifies a family system
 in
 which communication between members 2 and 4
 is not possible —
@@ -24546,7 +24095,7 @@ family communication possibilities:
 (V,V,D,_, _,_)_,
 (K, K, D,_,_,_) c2
 (A, K, K, _, _, __)
-3
+
 (V, K, D, __, _, _) c 4
 Notice
 that,
@@ -24571,8 +24120,7 @@ and, furthermore,
 since family member
 c 3
 has
-kines-
-thetic (K)
+kinesthetic (K)
 as his primary output system, he can communicate with
 family
 member
@@ -24583,7 +24131,7 @@ for example)
 and
 with both family members
 c
-1
+
 and
 c 4
 by body movements
@@ -24695,8 +24243,7 @@ as we
 stated
 previously,
 to employ
-the func-
-tional notation
+the functional notation
 in a way that
 is useful requires that we are able to
 identify:
@@ -24729,8 +24276,7 @@ area of mathematics known
 as Automata
 Theory,
 the theory
-of abstract machines. This branch of mathe-
-matics
+of abstract machines. This branch of mathematics
 is
 closely connected with modern
 linguistic theory. Noam
@@ -24825,8 +24371,7 @@ describe the
 set of
 acts which we are interested
 in understanding and of which
-we are building a model — the function or rule of associa-
-tion connecting the sets.
+we are building a model — the function or rule of association connecting the sets.
 The
 six-tuple which we have developed
 in our work
@@ -24911,8 +24456,7 @@ It has
 allowed
 people
 training to
-be therapists to organize their experi-
-ence
+be therapists to organize their experience
 in the complex environment of ongoing face-to-face therapy
 with clients
 in such a way as to allow them to assist their clients in
@@ -24947,8 +24491,7 @@ possible
 range
 of values
 specified
-previ-
-ously,
+previously,
 and
 and
 f
@@ -24960,8 +24503,7 @@ identifies the
 six-tuple
 as
 the
-cli-
-ent's instantaneous description
+client's instantaneous description
 The model which we have presented, then, makes the claim that
 the
 art of therapeutic change involves human changes which can
@@ -25001,8 +24543,7 @@ the
 therapeutic
 encounter
 is
-re-
-stricted
+restricted
 to
 certain
 vectors
@@ -25050,8 +24591,7 @@ is the use of well-formedness conditions of
 the
 six-tuple.
 For example,
-the following instantaneous descrip-
-tion
+the following instantaneous description
 of
 a client after therapy
 is not acceptable or well formed
@@ -25065,8 +24605,7 @@ as
 a blamer with
 a
 kinesthetic output system
-is not a well-
-formed outcome
+is not a wellformed outcome
 for therapy
 in our model. Thus, the model we
 present,
@@ -25085,10 +24624,8 @@ f
 l-F, M)
 ^(Y)
 where Y
-is the set of acceptable six-tuples as speci-
-fied by
-the well-formedness conditions for instan-
-taneous descriptions
+is the set of acceptable six-tuples as specified by
+the well-formedness conditions for instantaneous descriptions
 Next, consider the domain of the function.
 In traditional medical
 and
@@ -25108,10 +24645,8 @@ is only
 so
 in that
 it
-identifies commonly occurring instantaneous descrip-
-tions of clients seeking therapeutic assistance and at the same time
-specifies a set of appropriate and effective maneuvers or interven-
-tions on
+identifies commonly occurring instantaneous descriptions of clients seeking therapeutic assistance and at the same time
+specifies a set of appropriate and effective maneuvers or interventions on
 the
 part
 of the
@@ -25139,8 +24674,7 @@ this volume,
 there
 are frequently
 occurring,
-ill-
-formed
+illformed
 six-tuples.
 For
 example,
@@ -25148,8 +24682,7 @@ one
 of
 the
 most common
-ill-
-formed combinations
+illformed combinations
 is:
 
 
@@ -25163,16 +24696,14 @@ j
 is, where
 the
 client whose
-six-
-tuple
+sixtuple
 this
 is has a fuzzy function — he represents
 his
 experience from one
 input channel
 in
-a non-
-associated representational system)
+a nonassociated representational system)
 The Meta-Tactic which we indicated
 is that of assisting the client
 in breaking the fuzzy function to give him the choice of:
@@ -25194,9 +24725,7 @@ the
 process of specifying the set of therapeutic functions — the class
 represented
 in our notation by the symbol
-f. The complete specifi-
-cation of f would be a formalization of the set of effective thera-
-peutic
+f. The complete specification of f would be a formalization of the set of effective therapeutic
 maneuvers
 or
 interventions
@@ -25223,8 +24752,7 @@ next-state,
 instantaneous
 description
 which meets the well-formedness conditions for
-six-
-tuples. The Meta-model challenges we have developed
+sixtuples. The Meta-model challenges we have developed
 in Volume
 I
 of the Magic series are an explicit and adequate set of therapeutic
@@ -25256,8 +24784,7 @@ interventions
 are
 purely
 formal —
-inde-
-pendent of content. At the
+independent of content. At the
 level of structure of the six-tuple, the
 M eta-Tactics
 which
@@ -25284,8 +24811,7 @@ set
 of
 Meta-Tactics
 for
-working with the client who displays incongruity in his communi-
-cation. Suppose
+working with the client who displays incongruity in his communication. Suppose
 that the
 client
 has an
@@ -25312,7 +24838,7 @@ is well formed,
 ((
 V,_,2,_,_)(
 f(_,K,
-2
+
 ,_) c
 U
 '(_,K,_,1,
@@ -25331,8 +24857,7 @@ well-formed
 sort. Take
 the Meta-Tactic
 1 — movie/play director.
-Here the therapist uses verbal instructions and kinesthetic instruc-
-tions (molding the client's body
+Here the therapist uses verbal instructions and kinesthetic instructions (molding the client's body
 into a more congruent posture).
 In
 this
@@ -25410,13 +24935,12 @@ t
 ) c ]
 H
 K, _,
-1
+
 ) c
 This translation of one of the therapist's techniques into the formal
 notation demonstrates one important
 feature — namely, that an
-adequate vocabulary for describing the set of therapeutic interven-
-tion, the set
+adequate vocabulary for describing the set of therapeutic intervention, the set
 f,
 will include the same vocabulary which serves as the
 vocabulary for the domain and range of the set of functions
@@ -25443,8 +24967,7 @@ f) and the specific outcome or client's next-state (restricted to
 the
 set of well-formed-in-therapy
 six-tuples) which are the result
-of the operation of each of the members of /"specified as appro-
-priate
+of the operation of each of the members of /"specified as appropriate
 for
 the
 initial
@@ -25602,14 +25125,12 @@ quite genuine
 in
 his desire
 to overcome
-his "prob-
-lems." The
+his "problems." The
 session began
 with Tom
 telling
 the authors what he
-believed he needed to change about himself. We wrote an instanta-
-neous description on the blackboard as he spoke.
+believed he needed to change about himself. We wrote an instantaneous description on the blackboard as he spoke.
 1.
 (V, K, D,2,CE,_) C
 After
@@ -25655,8 +25176,7 @@ in his description to:
 (V, K, 0,
 1, MR, V) c
 Now having two instantaneous descriptions, the authors explained
-how choices could be based on the two descriptions, either build-
-ing new representational systems directly or applying Meta-model
+how choices could be based on the two descriptions, either building new representational systems directly or applying Meta-model
 inverse
 functions.
 A
@@ -25686,8 +25206,7 @@ his
 most
 highly
 valued
-represen-
-tational system and would
+representational system and would
 be
 the
 easiest technique
@@ -25766,8 +25285,7 @@ access
 visually
 is poorly developed
 as a
-represen-
-tational system, mapping into V would be difficult. Mapping into
+representational system, mapping into V would be difficult. Mapping into
 K would be easy; however, the choice of another representational
 system would develop
 a new way of representing his experience
@@ -25783,8 +25301,7 @@ arriving through
 that
 channel
 is
-repre-
-sented
+represented
 in the associated representational system — even though
 it
 may have no relationship to the polarities and coping with which
@@ -25835,8 +25352,7 @@ and
 listened
 in
 therapy to
-a couple argue, when you were, your-
-self,
+a couple argue, when you were, yourself,
 either
 see-feeling
 or
@@ -26048,8 +25564,7 @@ authors
 exaggerated
 this
 process,
-each demanding simulta-
-neously that Tom listen to him, accede to his demands, and ignore
+each demanding simultaneously that Tom listen to him, accede to his demands, and ignore
 the other author.
 Essentially,
 this
@@ -26071,8 +25586,7 @@ i
 j
 as input
 to Tom
-Contact and meta-position have now been achieved, the result-
-ing message response — output channel — was pure auditory:
+Contact and meta-position have now been achieved, the resulting message response — output channel — was pure auditory:
 a
 scream
 and
@@ -26113,8 +25627,7 @@ the
 task of
 living.
 After verbally
-re-
-coding
+recoding
 each
 part,
 integration
@@ -26153,8 +25666,7 @@ constructing
 a new map
 for
 the territory where previously
-there-
-had been two conflicting maps. The resulting vectors were a set of
+therehad been two conflicting maps. The resulting vectors were a set of
 instantaneous directions; Tom's choices:
 (V,V, D V ,2,CE,
 _)c
@@ -26168,8 +25680,7 @@ Although
 this
 is not
 a
-totally well-formed, instantaneous de-
-scription, the changes in Tom were substantial for one session, and
+totally well-formed, instantaneous description, the changes in Tom were substantial for one session, and
 these
 changes
 were
@@ -26191,8 +25702,6 @@ for
 clinicians
 to design their own techniques
 and strategies for assisting their clients in the process of change.
-
-
 
 
 Epilogue
@@ -26311,8 +25820,7 @@ hospitals. Techniques of age regression;
 techniques of disassociation, such
 as the
 sorting techniques
-pre-
-sented
+presented
 in
 Part
 II
@@ -26340,8 +25848,7 @@ therapists,
 in
 essence use the formal
 patterns present
-in psychotic and schizo-
-phrenic behavior
+in psychotic and schizophrenic behavior
 to
 assist our clients
 in growing and changing
@@ -26485,8 +25992,7 @@ of Milton
 H.
 Erickson,
 M.D. Cupertino,
-Calif.: Meta Publica-
-tions, 1975.
+Calif.: Meta Publications, 1975.
 Bandler,
 R., and Grinder,
 J. The Structure of Magic
@@ -26569,8 +26075,7 @@ Russell,
 B. Principia Mathematica. London: Cambridge University
 Press, 1910.
 Satir, V. Conjoint Family Therapy.
-Palo Alto: Science and Behav-
-ior Books, 1964.
+Palo Alto: Science and Behavior Books, 1964.
 Satir,
 V.
 Helping
@@ -26607,19 +26112,12 @@ J.; and Fisch, R. Change. New York: W.
 Norton, 1974.
 
 
-
-
-
-
 In Part
-III, the authors present a detailed discus-
-sion
+III, the authors present a detailed discussion
 of the process
 underlying the phenomenon
-of semantic ill-formedness, which alludes to repre-
-sentation clients create which lead them into
-inef-
-fective communication patterns and loss of choice
+of semantic ill-formedness, which alludes to representation clients create which lead them into
+ineffective communication patterns and loss of choice
 in their experience. The neurology underlying this
 phenomenon
 is
@@ -26636,8 +26134,7 @@ verbal
 category
 of
 semantic
-ill-
-formedness can be challenged.
+illformedness can be challenged.
 The delicate and complete area of family therapy
 is presented
 in Part IV.
@@ -26659,14 +26156,12 @@ in
 a
 different way. Central to this part
 is the discussion
-of the Pairing Principle— a widely applicable princi-
-ple which makes the process by which people find
+of the Pairing Principle— a widely applicable principle which makes the process by which people find
 one another and form pairs understandable.
 Part V contains
 a formalization
 of
-all the tech-
-niques presented
+all the techniques presented
 in Volumes
 I and
 II.
@@ -26676,8 +26171,7 @@ of The Structure of Magic
 is
 a
 rich,
-detailed, delightfully-written presentation of mod-
-els for effective therapy.
+detailed, delightfully-written presentation of models for effective therapy.
 It presents a model for human communication,
 and at the same time offers specific exercises and
 techniques which
@@ -26736,8 +26230,8 @@ s^
 tSBSgSSk
 m^
 SeaesS
-1111
+
 9HEL
-1111
+
 Sffln
 &s&

@@ -9,12 +9,11 @@ chars: 360121
 approx_tokens: 90030
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 360123
+phase4_chars_after: 360020
+phase4_saved_pct: 0.0
 ---
-
-
-
- 
-  
 
 
 Thank you for downloading this
@@ -81,8 +80,7 @@ hour surfing the Web, the first thing researchers want to know is: Hey,
 where did that extra hour come from, anyway?
 It came out of your life, that’s where. You made a tough choice. Decided
 to use an irreplaceable hour of your life cruising the Net rather than
-watching one of the 115 channels on the tube, or answering one of the 25 e-
-mail messages stacked in your queue, or driving out for a snack at one of
+watching one of the 115 channels on the tube, or answering one of the 25 email messages stacked in your queue, or driving out for a snack at one of
 the 30 fast-food restaurants located within a few miles of your home, or
 sunning at the pool, or playing Scrabble with your teenage daughter.
 
@@ -136,23 +134,21 @@ used to do in the old days—before assembly-line production, mass
 distribution, and mass media advertising. In the old days selling was a
 kinder, gentler process, and it was based on the willing participation of the
 consumer. It was only the arrival of the mass production economy that
-changed all this. The modern economy was defined in terms of assembly-
-line production of standardized products, mass distribution of these
+changed all this. The modern economy was defined in terms of assemblyline production of standardized products, mass distribution of these
 products to consumers in a wide geographic area, and mass media vehicles
 to carry standardized advertising messages. Under these conditions it
 became irresistibly cost-efficient to broadcast the same message to every
 consumer, rather than bearing the cost of engaging any single consumer in a
 separate, individual dialogue.
-Today, however, because of interactive technology, it has become cost-
-efficient once again to conduct individual dialogues, even with millions of
+Today, however, because of interactive technology, it has become costefficient once again to conduct individual dialogues, even with millions of
 consumers—one customer at a time.
 Interactive technology means that marketers can inexpensively engage
-consumers 
-in 
-one-to-one 
-relationships 
-fueled 
-by 
+consumers
+in
+one-to-one
+relationships
+fueled
+by
 two-way
 “conversations”—conversations played out with mouse clicks on a
 computer, or touch-tone buttons pushed to signal an interactive voice
@@ -177,8 +173,7 @@ that economy.
 As a consumer, you now inhabit an endlessly expanding universe of new
 offers, urgent solicitations, price-off promotions, and money-back
 guarantees. This is the mass production economic system carried to its
-logical extreme—businesses all trying to find more customers for an ever-
-widening array of more specialized and innovative products and services. In
+logical extreme—businesses all trying to find more customers for an everwidening array of more specialized and innovative products and services. In
 order to sell this vast arsenal of products, marketers all over the world soak
 up every square inch of space, every extra second of time, and they paste
 their sales messages into those nooks and crannies, hoping you’ll encounter
@@ -192,8 +187,7 @@ demand more of your attention.
 Marketers want to get their messages in front of you. They must get their
 messages in front of you, just to survive. The only problem is—do you
 really want more marketing messages?
-Interactivity allows a business to break this vicious cycle. With cost-
-efficient interactive technologies now available, businesses can actually
+Interactivity allows a business to break this vicious cycle. With costefficient interactive technologies now available, businesses can actually
 take a step back and secure their customers’ permission to sell them things
 —to get them to pay attention to their selling messages. A business can now
 ask a consumer directly if he’d like more information and then deliver it. A
@@ -211,8 +205,7 @@ participation. He and you are now collaborating.
 So yes, my prediction is that companies all over the globe will be
 embracing Permission Marketing. They will embrace it both as an offensive
 marketing weapon, to steal customers from their competitors, and as a
-defensive measure, to avoid the kind of commoditization represented by e-
-commerce.
+defensive measure, to avoid the kind of commoditization represented by ecommerce.
 For any reader who wants to know how to compete in an interactive
 universe of World Wide Web sites, call centers, and sales force automation
 tools, stay tuned. If you want to avoid the e-commerce trap of
@@ -226,8 +219,7 @@ need to do anyway, right?
 Introduction
 I wasted a lot of Harvard University’s endowment. More than $6 million, to
 be specific. And everyone around me applauded.
-In 1983 Spinnaker Software emerged as the best-funded software start-
-up in history. With more than $17 million in venture money (including
+In 1983 Spinnaker Software emerged as the best-funded software startup in history. With more than $17 million in venture money (including
 about $6 million from the sages at Harvard), Spinnaker set out to invent an
 entire genre—educational computer games for kids.
 As one of a handful of brand managers at Spinnaker, my job (at the
@@ -531,8 +523,7 @@ close to zero.
 
 
 Even worse is the World Wide Web. At last count there were nearly two
-million different commercial Web sites. That means there are about twenty-
-five people online for every single Web site…hardly a mass market of
+million different commercial Web sites. That means there are about twentyfive people online for every single Web site…hardly a mass market of
 interest to an Interruption Marketer.
 AltaVista, one of the most complete and most visited search engines on
 the Internet, claims to have indexed 100 million pages. That means their
@@ -555,8 +546,7 @@ THE FOUR APPROACHES TO KEEPING MASS MARKETING ALIVE
 A quick look at the newsstand at Barnes & Noble will confirm that the
 problem of clutter saturation isn’t limited to electronic media. There are
 enough consumer magazines (ignoring the even larger category of trade
-magazines for a moment) to keep a reader busy reading magazines full-
-time, twenty-four hours a day, seven days a week.
+magazines for a moment) to keep a reader busy reading magazines fulltime, twenty-four hours a day, seven days a week.
 Obviously the mass market is dying. The vast splintering of media
 means that a marketer can’t reach a significant percentage of the population
 with any single communication. That’s one reason the Super Bowl can
@@ -851,8 +841,7 @@ marketing message. It allows marketers to tell their story calmly and
 succinctly, without fear of being interrupted by competitors or Interruption
 Marketers. It serves both consumers and marketers in a symbiotic
 exchange.
-Permission Marketing encourages consumers to participate in a long-
-term, interactive marketing campaign in which they are rewarded in some
+Permission Marketing encourages consumers to participate in a longterm, interactive marketing campaign in which they are rewarded in some
 way for paying attention to increasingly relevant messages. Imagine your
 marketing message being read by 70 percent of the prospects you send it to
 (not 5 percent or even 1 percent). Then imagine that more than 35 percent
@@ -1105,11 +1094,11 @@ for a shopkeeper to spend some extra time with a customer, old or new, or
 for the merchant’s supplier to also be his neighbor.
 GIANT BRANDS GAVE RISE TO INTERRUPTIBLE MEDIA
 Giant brands and multinational companies were created as the result of
-several 
-interconnected 
-sociotechnological 
-changes 
-that 
+several
+interconnected
+sociotechnological
+changes
+that
 occurred
 
 
@@ -1316,8 +1305,7 @@ make that additional sale.
 2. Increase the durability of customer relationships. Invest money in
 customer retention, because it’s a small fraction of the cost of customer
 acquisition.
-3. Increase your product offerings to customers. By being customer-
-focused instead of retail-focused, or factory-focused, a manufacturer or
+3. Increase your product offerings to customers. By being customerfocused instead of retail-focused, or factory-focused, a manufacturer or
 merchant can widely increase its offerings, thus increasing share of
 wallet.
 4. Create an interactive relationship that leads to meeting more customer
@@ -1425,8 +1413,7 @@ with them. Multiply that by millions of potential customers and you see the
 size of the opportunity! As the company gains more permission, it’s not
 hard to imagine them branching into housecleaning, housepainting,
 gardening, and a huge range of home care and home delivery services.
-By “owning” permission to market new services, and by using one-to-
-one techniques to know and remember your preferences, Streamline is
+By “owning” permission to market new services, and by using one-toone techniques to know and remember your preferences, Streamline is
 creating a megabusiness for the next century. They’re building an asset that
 
 
@@ -1672,10 +1659,8 @@ GETTING THE CUSTOMERS TO RAISE THEIR HANDS TAKES
 PLANNING AND CAPITAL
 Interrupting strangers and getting their attention in the first place is the
 glamorous part of marketing. Marketers and their advertising agencies live
-and die by the sizzle they create. They invest millions of dollars in a one-
-minute commercial, just to maximize the effectiveness of the execution.
-A copywriter can make his career with a clever ad. In fact, a thirty-year-
-old clever campaign for the Volkswagen came back from the dead to
+and die by the sizzle they create. They invest millions of dollars in a oneminute commercial, just to maximize the effectiveness of the execution.
+A copywriter can make his career with a clever ad. In fact, a thirty-yearold clever campaign for the Volkswagen came back from the dead to
 generate millions of dollars in new Beetle sales for VW in 1998.
 At the same time that Interruption Marketers are arming themselves with
 these killer executions, they’re backing them with huge media budgets—
@@ -1773,8 +1758,7 @@ were exposed to each ad? Frequency, as we’ll see in a moment, involves
 some more artful measurements.
 The first problem with frequency is that people may not notice your ads
 no matter how frequently they’re run. Morning-after recall of most TV
-campaigns varies, but it generally falls below 10 percent. If the morning-
-after recall of your ad comes in at 10 percent, that means your ad is
+campaigns varies, but it generally falls below 10 percent. If the morningafter recall of your ad comes in at 10 percent, that means your ad is
 considered successful even though almost ninety out of one hundred people
 don’t remember it.
 
@@ -1782,8 +1766,7 @@ don’t remember it.
 Of the people who do notice your advertising, very few of them focus on
 it, and fewer still may understand what you were trying to say. Of course,
 you slaved over the script, cast the commercial as if it were a major feature
-film, and edited the piece into the middle of the night. But time-
-compressed, info-cluttered consumers don’t always get it.
+film, and edited the piece into the middle of the night. But timecompressed, info-cluttered consumers don’t always get it.
 And because a big part of every ad is a valiant attempt to grab attention,
 the message isn’t as pure as it could be. When you’ve got animated tigers,
 dancing women, talking cars, and Spike Lee directing, sometimes there
@@ -2075,8 +2058,7 @@ adjusted program that zigs and zags and grows and adapts.
 It’s no longer “Run an ad on Tuesday, watch sales go up on Wednesday.”
 Advertisers don’t have the power to interrupt enough consumers to make it
 pay the way it used to.
-In a world of mass customization, of high-speed products and higher-
-speed messaging, consumers don’t want an off-the-shelf batch approach.
+In a world of mass customization, of high-speed products and higherspeed messaging, consumers don’t want an off-the-shelf batch approach.
 Just as consumers are now demanding more personalization (from one
 hundred coffee drinks at Starbucks to thousands of different models from
 Nike), they are most likely to respond to advertising that is frequent,
@@ -2266,8 +2248,7 @@ we save.
 The second reason is to save money. In many industries the cost of
 marketing is the single largest line item in the cost of goods. A magazine
 might cost three times as much on the newsstand as it does by subscription.
-Automatic deposit of your paycheck costs a fraction of what a check-
-cashing bodega charges.
+Automatic deposit of your paycheck costs a fraction of what a checkcashing bodega charges.
 This cost-saving approach appears in a wide range of areas. For
 example, in exchange for eliminating their risk and saving the sales cost,
 Procter & Gamble gives Wal-Mart a huge discount on Tide detergent. P&G
@@ -2374,8 +2355,7 @@ On a recent trip, though, I discovered that another customer, one less
 loyal than I, was getting a better price. Fear of that customer’s shopping
 around had led the framer to give him a discount.
 Seeing this, I felt betrayed. I said nothing to the framer, but realizing
-how I was being punished for my loyalty, I’ve now become a price-
-conscious framing customer again.
+how I was being punished for my loyalty, I’ve now become a priceconscious framing customer again.
 Customers want more than price. They want a combination of price and
 service and safety and comfort. If that mix is superior to your competitor’s,
 you will be able to maintain this enviable level of permission. But be wary
@@ -2509,8 +2489,7 @@ schmo on TV who was duped into losing his life savings, you’ve found an
 Opportunity Seeker.
 A marketing technique designed to attract the attention and loyalty of
 this group isn’t worth much. But in reality, the reason a marketer will get
-opt-in participation from any group is always based on the selfish, greed-
-focused nature of the benefits offered. Savvy marketers argue that this is an
+opt-in participation from any group is always based on the selfish, greedfocused nature of the benefits offered. Savvy marketers argue that this is an
 inherent flaw in building a marketing campaign around this technique
 because it will bring in the wrong people, the folks who will waste your
 time but not pay the money.
@@ -2715,8 +2694,7 @@ of all the supermarkets in America. The computer monitors the UPC codes
 of every purchase made by every consumer in that store. It also notes the
 bar code on your check-cashing or store discount card.
 What can it do with that data? Using a special printer at every checkout,
-it can print a string of coupons designed just for you. If you buy Häagen-
-Dazs, for example, it can print out a Ben & Jerry’s coupon. Who better to
+it can print a string of coupons designed just for you. If you buy HäagenDazs, for example, it can print out a Ben & Jerry’s coupon. Who better to
 deliver that coupon to, after all, than someone who just proved he loves this
 category?
 Of course, Catalina can go much, much further. Once you’ve used your
@@ -2841,8 +2819,7 @@ already. If you’re a corporate lawyer, do all your clients have their personal
 wills in order? If you’re a heart doctor, could any of your patients benefit
 from a week of cholesterol reduction at the Pritikin clinic?
 THE BRAND TRUST LEVEL
-Much lower down the permission list is brand trust. This is the tried-and-
-true branding that is the mantra of most Interruption Marketers. It is the
+Much lower down the permission list is brand trust. This is the tried-andtrue branding that is the mantra of most Interruption Marketers. It is the
 virtually unmeasurable but oh-so-fun way to be in the marketing business.
 Marlboro communicates brand trust. So do Ivory and Campbell’s and
 Starbucks and even Tom Peters. Brand trust is a vague, but soft and safe
@@ -3804,8 +3781,7 @@ it’s necessary to recognize that the media cost is heavily weighted at the
 beginning. You pay for attention now and get it later.
 Since you’re not actually asking for a cash sale during your first
 interaction with the prospective customer, you can expect a much higher
-response rate than you would with a traditional direct mail campaign. Opt-
-in permission will go way up, though, if the media chosen, the banners that
+response rate than you would with a traditional direct mail campaign. Optin permission will go way up, though, if the media chosen, the banners that
 are used, and the entire process are tested and optimized. At Yo-yodyne
 we’ve increased opt-in on some of our promotions from 3 percent to 40
 percent just by testing.
@@ -4139,8 +4115,7 @@ Marketing. With loyalty and trust (and a personal profile of each customer),
 American has the framework set up to take Permission Marketing to
 another level.
 In addition to the American Airlines AAdvantage program mileage and
-activity summary, AAdvantage members receive a newsletter with travel-
-related bargains, offers, and of course new and improved services and
+activity summary, AAdvantage members receive a newsletter with travelrelated bargains, offers, and of course new and improved services and
 benefits. But American Airlines also promotes non-American Airlines
 travel-related products. Through their monthly direct mailings, American
 AAdvantage customers learn about discounts and promotional offers by
@@ -4185,8 +4160,7 @@ on your PC, of course, but it also runs on handheld products like the Palm
 Pilot and REX.
 When you send in your registration card for Sidekick, you can arrange to
 have upgrade information and product offerings sent to you by e-mail.
-Almost everyone is interested in learning about product upgrades and add-
-on products that make your personal organization software more powerful
+Almost everyone is interested in learning about product upgrades and addon products that make your personal organization software more powerful
 and convenient. So customers raise their hands to receive offers on goodies
 that will make their lives more digitally organized. Then Starfish responds
 with an e-mail that fulfills the promise.
@@ -4217,8 +4191,7 @@ the Iditarod Trail Sled Dog Race, and Starfish Software’s Blazin’ Chili
 recipe. In other words, they segue from what they know you’re interested in
 and gently offer you the chance to upgrade your attention. But they are only
 links, so you don’t have to go there if you’re not curious.
-A few weeks later the customer who has granted permission to receive e-
-mail from Starfish gets information about the availability of the latest
+A few weeks later the customer who has granted permission to receive email from Starfish gets information about the availability of the latest
 version of Sidekick and a great offer that includes a game for your PC, free
 with your order. They also include information on how to synchronize data
 between Sidekick and other handheld devices like the Palm Pilot.
@@ -4294,7 +4267,7 @@ a fast communication medium, and permission, it can start commissioning
 music based on the needs of its audience. If they know, for example, that a
 Lyle Lovett/ Willie Nelson duet has one hundred thousand advance orders,
 it’s a lot easier to coax those two into the studio.
-WHY YOU SEE AMERICAN EXPRESS APPLICATIONS 
+WHY YOU SEE AMERICAN EXPRESS APPLICATIONS
 AT SO MANY
 RESTAURANTS
 American Express was an early king of Permission Marketing. In fact,
@@ -4458,12 +4431,12 @@ the typical contractor’s woes.
 SELLING CRIBS TO HOSPITALS
 Permission Marketing works in a business-to-business setting as well.
 Hard Manufacturing is the number-one manufacturer of hospital cribs in
-the 
-world. 
-These 
-stainless-steel-and-chrome 
-cribs 
-are 
+the
+world.
+These
+stainless-steel-and-chrome
+cribs
+are
 virtually
 indestructible, and the price tag and profit margins reflect their durability
 and specialized nature.
@@ -4543,8 +4516,7 @@ cards. Because it is AOL that holds the permission, AOL can pick and
 choose among long-distance providers in search of the best deal. And if
 they’re smart and focused on the long run, AOL will search for the best deal
 for AOL and for their consumers.
-Along the way, AOL has burned some of their very expensive, hard-
-earned permission. In a rush to maximize long-distance sign-ups, they’ve
+Along the way, AOL has burned some of their very expensive, hardearned permission. In a rush to maximize long-distance sign-ups, they’ve
 relied on a very dangerous tactic. Instead of rewarding the consumer in an
 ongoing way, they punish their users with a pop-up screen.
 A pop-up screen is a page that shows up on AOL as the user is moving
@@ -4766,8 +4738,7 @@ make book selections and gently guide you toward them. The service
 provided by Amazon.com makes it unnecessary to trudge around town to
 bookstores, looking for books on a particular subject they know you’re
 already interested in. Amazon.com does the legwork for you.
-Amazon does this in a subtle way. Instead of sending you a regular e-
-mail with their top picks, they focus on creating communities and providing
+Amazon does this in a subtle way. Instead of sending you a regular email with their top picks, they focus on creating communities and providing
 relevant links throughout their site.
 Amazon.com doesn’t ask you for a lot of personal information because
 they have no way to use it (yet). They do ask for your e-mail address. But
@@ -4796,8 +4767,7 @@ your customer profile with what it learns from each of your ensuing queries
 and purchases. But for now, 98 percent of their e-mail customer contact is
 done in aggregate—much like bulk e-mail. If you are a science-fiction buff,
 for example, you’re on the science-fiction book e-mail update list.
-So while their one-to-one marketing efforts are less than totally one-to-
-one, they are using their permission-based asset to expand their product
+So while their one-to-one marketing efforts are less than totally one-toone, they are using their permission-based asset to expand their product
 breadth. In addition to books, Amazon.com offers videos and CDs to
 customers and is in the process of developing their marketing approach to
 compete with online merchants like CDnow and Music Boulevard.
@@ -4881,8 +4851,7 @@ Marketing. The programs we create follow a simple three-part process:
 1. Attract targeted consumers with banner ads promising a great prize.
 Interested consumers get more information by clicking on the banner,
 which takes them to a registration page.
-2. Inform consumers about the promotion and have them enter their e-
-mail address on a registration Web page.
+2. Inform consumers about the promotion and have them enter their email address on a registration Web page.
 3. Engage the consumer in a high-frequency Web and e-mail
 correspondence in which participation is rewarded with ever greater
 chances to win the prize.
@@ -5131,8 +5100,7 @@ The final question goes to the lifetime value of the permission. If
 permission is transient—as it is, say, at a tourist attraction—then the amount
 the marketer is willing to invest should be less than it would be when the
 permission can last a very long time.
-Marketers win when they can convert what many perceive to be a short-
-term permission cycle to one that lasts for a much longer period of time.
+Marketers win when they can convert what many perceive to be a shortterm permission cycle to one that lasts for a much longer period of time.
 Grocery stores, for example, are working with Catalina Marketing to turn
 the one-shot nature of the supermarket experience into a loyalty program
 that can last for months or even years.
@@ -5149,8 +5117,7 @@ No. Permission Marketing works in any medium where the consumer
 can be engaged in a dialogue. It works in an airport terminal, by direct mail,
 on the telephone, and online. And marketing campaigns in any medium can
 be equipped with a Permission Marketing component as well.
-For example, every TV commercial ought to have an 800 number or e-
-mail address where people who want to “raise their hands” can go for more
+For example, every TV commercial ought to have an 800 number or email address where people who want to “raise their hands” can go for more
 information. This starts the dialogue going.
 Walking through the Cincinnati airport last week, I participated in a great
 example of Permission Marketing run by Skytel.
@@ -5222,8 +5189,7 @@ Instead they sent a brochure. No follow-up of any kind on a $10,000
 potential sale. Some companies, if they’re really aggressive, would have a
 low-level salesperson call to qualify me. But the organized, testable
 marketing presale is missing at most companies.
-Permission Marketing should be the cornerstone of any business-to-
-business campaign that has a significant profit per customer. Building a
+Permission Marketing should be the cornerstone of any business-tobusiness campaign that has a significant profit per customer. Building a
 base of qualified prospects is incredibly difficult, and not leveraging it is a
 sin.
 3. When (and How) Should I Use the Web?
@@ -5291,8 +5257,7 @@ You’ll get the best of both worlds. First, you’ll take advantage of the
 huge reach that mass media offers. Second, you’ll leverage that reach with
 the frequency you can get from the Internet.
 Imagine a car company, for example, that’s already running ads on TV.
-For free they can modify these ads to invite interested consumers to send e-
-mail to ford@chevy.com or whatever. They can entice them with a prize or
+For free they can modify these ads to invite interested consumers to send email to ford@chevy.com or whatever. They can entice them with a prize or
 with a rebate or with an offer of more information.
 Do you think if Ford focused on this, they could collect 2 million
 permissions? Of course! And each one of the 2 million ensuing dialogues
@@ -5447,8 +5412,7 @@ and colleagues about the switch).
 In each case, you’ve been dramatically robbed of your incentive to give
 further permission to the marketer who rented your name. In each case,
 there’s more clutter. In each case, the marketer sold herself short by taking a
-few pieces of silver today instead of leveraging the permission into long-
-term profits.
+few pieces of silver today instead of leveraging the permission into longterm profits.
 There’s one exception to this principle: If you reward the consumer and
 receive in exchange overt, obvious opt-in, then by all means go ahead and
 share the name. Yoyodyne, for example, has an opt-in list in which we offer
@@ -5524,8 +5488,7 @@ long and hard about whether they wish to become gatekeepers or to build
 direct permission relationships with consumers. Companies like Procter or
 Colgate or Estée Lauder are having huge internal debates about channel
 conflict.
-The channel conflict issue is simple—should you stick with your long-
-term retailers, or should you try to bypass them and go straight to the
+The channel conflict issue is simple—should you stick with your longterm retailers, or should you try to bypass them and go straight to the
 consumer?
 
 
@@ -5915,8 +5878,6 @@ Churn, 20, 193
 Citibank AAdvantage Visa or MasterCard, 110, 177
 Clinique, 161–62
 Clutter, 25, 27, 30, 32, 38, 52, 82, 93, 94, 106, 129, 130, 134, 228, 229,
-230
-
 
 breaking through, 34–36, 116
 turning into asset, 40

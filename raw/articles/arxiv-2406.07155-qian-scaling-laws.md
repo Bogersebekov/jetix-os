@@ -9,6 +9,10 @@ chars: 74069
 approx_tokens: 18517
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 74071
+phase4_chars_after: 73624
+phase4_saved_pct: 0.6
 ---
 
 Published as a conference paper at ICLR 2025
@@ -23,29 +27,25 @@ xie-zh22@mails.tsinghua.edu.cn
 sms@tsinghua.edu.cn
 ABSTRACT
 Recent breakthroughs in large language model-driven autonomous agents have
-revealed that multi-agent collaboration often surpasses each individual through col-
-lective reasoning. Inspired by the neural scaling law—increasing neurons enhances
+revealed that multi-agent collaboration often surpasses each individual through collective reasoning. Inspired by the neural scaling law—increasing neurons enhances
 performance, this study explores whether the continuous addition of collaborative
 agents can yield similar benefits. Technically, we utilize directed acyclic graphs to
 organize agents into a :multi-agent collaboration
 ::
 network (MACNET), upon which
-their interactive reasoning is topologically orchestrated for autonomous task solv-
-ing. Extensive evaluations reveal that it effectively supports collaboration among
+their interactive reasoning is topologically orchestrated for autonomous task solving. Extensive evaluations reveal that it effectively supports collaboration among
 over a thousand agents, with irregular topologies outperforming regular ones. We
-also identify a collaborative scaling law—the overall performance follows a logis-
-tic growth pattern as agents scale, with collaborative emergence occurring earlier
+also identify a collaborative scaling law—the overall performance follows a logistic growth pattern as agents scale, with collaborative emergence occurring earlier
 than traditional neural emergence. We speculate this may be because scaling agents
 catalyzes their multidimensional considerations during interactive reflection and
 refinement, thereby producing more comprehensive artifacts. The code is available
 at https://github.com/OpenBMB/ChatDev/tree/macnet.
 Figure 1: Multi-agent collaboration network (MACNET) uses directed acyclic graphs to arrange agents
 for collaborative interactions, facilitating autonomous task-solving through collective reasoning.
-1
+
 INTRODUCTION
 In the rapidly advancing field of artificial intelligence, large language models (LLMs) have driven
-transformative shifts across numerous domains due to their remarkable linguistic capacity to seam-
-lessly integrate extensive world knowledge (Vaswani et al., 2017; Brown et al., 2020). Central to this
+transformative shifts across numerous domains due to their remarkable linguistic capacity to seamlessly integrate extensive world knowledge (Vaswani et al., 2017; Brown et al., 2020). Central to this
 breakthrough is the neural scaling law, where well-trained neural networks often exhibit power-law
 scaling relations primarily with the number of neurons, alongside factors such as dataset size and
 training time (Kaplan et al., 2020; Muennighoff et al., 2024). Despite this, LLMs have inherent
@@ -53,7 +53,7 @@ limitations in their enclosed reasoning, particularly when addressing complex si
 beyond textual boundaries (Schick et al., 2023). To this end, during the inference phase, pioneering
 †: Equal Contributions.
 B: Corresponding Authors.
-1
+
 arXiv:2406.07155v3  [cs.AI]  17 Mar 2025
 
 
@@ -75,8 +75,7 @@ the collaborative scaling law is essential for linking performance trends with i
 revealing underlying phenomena in agent networking, and promoting the development of scalable
 and predictable LLM systems. However, technically, effective collaboration should not depend
 on simple majority voting (Brown et al., 2024; Chen et al., 2024b); instead, it should incorporate
-strategic mechanisms for scalable networking, cooperative interaction, and progressive decision-
-making (Hopfield, 1982; Almaatouq et al., 2021; Du et al., 2024a). Toward this end, as depicted in
+strategic mechanisms for scalable networking, cooperative interaction, and progressive decisionmaking (Hopfield, 1982; Almaatouq et al., 2021; Du et al., 2024a). Toward this end, as depicted in
 Figure 1, we organize multiple agents into a :multi-agent:collaboration ::
 network (MACNET), upon
 which their interactive reasoning is topologically orchestrated for autonomous task solving.
@@ -91,15 +90,14 @@ context explosion, thereby enhancing collaboration scalability for much larger n
 We performed extensive evaluations across different downstream scenarios, employing three types of
 representative topologies—chain, tree, and graph—further divided into six representative variants.
 The results show that MACNET surpasses all baselines on average and supports effective collaboration
-among over a thousand agents. Counterintuitively, collaborating within irregular topologies unexpect-
-edly outperforms that within regular ones. Notably, we reveal a collaborative scaling law, indicating
+among over a thousand agents. Counterintuitively, collaborating within irregular topologies unexpectedly outperforms that within regular ones. Notably, we reveal a collaborative scaling law, indicating
 that the overall performance exhibits a logistic growth pattern as the process of scaling agents, with
 collaborative emergence occurring earlier than previous instances of neural emergence. We speculate
 this may be because scaling agents catalyzes their multidimensional considerations during interactive
 reflection and refinement, thereby producing more comprehensive artifacts. Longer term, we aim for
 this research to extrapolate the traditional scaling from training to inference, circumventing the need
 for resource-intensive retraining through inference-time procedural thinking.
-2
+
 MULTI-AGENT COLLABORATION NETWORK
 To create a scalable environment for effective collaboration, as depicted in Figure 1, we organize
 multiple agents into a ::
@@ -108,13 +106,10 @@ network (MACNET), upon which their interactive
 reasoning is topologically orchestrated for autonomous task solving.
 2.1
 NETWORK CONSTRUCTION
-Although training-time neuron collaboration has been well-established with Transformer architec-
-tures (Vaswani et al., 2017), the suitable architectures for inference-time agent collaboration remain
+Although training-time neuron collaboration has been well-established with Transformer architectures (Vaswani et al., 2017), the suitable architectures for inference-time agent collaboration remain
 unclear and lack consensus. Toward this end, we draw on the concept of graphs—a data structure
 1Artifacts can vary from multiple-choice answers to repository-level code or coherent narratives, among
 many other possibilities.
-2
-
 
 Published as a conference paper at ICLR 2025
 that describes entities and their interrelations—and extend from previous efforts to propose a more
@@ -194,8 +189,6 @@ and aij such that for every directed edge ⟨vi, vj⟩∈E, the ordering satisfi
 where I(x) denotes the index of agent x in a topological sequence. This arrangement ensures that
 each node-occupied agent ai precedes its corresponding edge-occupied agent aij, and aij precedes
 aj, thereby ensuring orderly information propogation along the network.
-3
-
 
 Published as a conference paper at ICLR 2025
 Interaction
@@ -258,24 +251,20 @@ sub-topologies (e.g., star) inherently support parallel processing.
 contexts are implicitly embedded and carried forward with the artifact.
 4The "sink agent" refers to the agent assigned to the sink node. In a multi-sink structure, a final sink node is
 automatically appended to form a structure with only one sink.
-4
-
 
 Published as a conference paper at ICLR 2025
 This token complexity analysis implies that, without memory control, context length grows with
 n2, causing squared increases in time and cost as the network scales. Conversely, our mechanism
 decouples context length from quadratic to linear growth, effectively suppressing context explosion
 and enabling better scalability for larger networks.
-3
+
 EVALUATION
 Baselines
-We select a diverse set of representative methods to facilitate a comprehensive multidi-
-mensional comparison:
+We select a diverse set of representative methods to facilitate a comprehensive multidimensional comparison:
 • COT (Wei et al., 2022b) is a technically general and empirically powerful approach that endows
 LLMs with the ability to generate a coherent series of intermediate reasoning steps, naturally
 leading to the final artifact through process-aware thoughtful thinking.
-• AUTOGPT (Richards, 2023) is a versatile agent that employs multi-step planning and tool-
-augmented reasoning to decompose complex tasks into chained subtasks and leverages external
+• AUTOGPT (Richards, 2023) is a versatile agent that employs multi-step planning and toolaugmented reasoning to decompose complex tasks into chained subtasks and leverages external
 tools within an environment-feedback cycle to progressively develop effective artifacts.
 • GPTSWARM (Zhuge et al., 2024) formalizes a swarm of autonomous agents as computational
 graphs, with nodes as manually-customized functions and edges facilitating information flow,
@@ -295,8 +284,7 @@ designed for measuring basic programming skills. We assess via pass@k, which ref
 correctness across multiple standard test cases.
 • SRDD (Qian et al., 2024c) integrates complex textual software requirements from major real-world
 application platforms, tailored for repository-level software development, involving requirement
-comprehension, system design, code generation and testing. We assess using the official compre-
-hensive metric encompassing completeness, executability, and consistency.
+comprehension, system design, code generation and testing. We assess using the official comprehensive metric encompassing completeness, executability, and consistency.
 • CommonGen-Hard (Madaan et al., 2023) tests the ability to generate coherent sentences with
 discrete concepts, assessing contextual understanding, commonsense reasoning, and creative
 writing skills. We assess using a comprehensive metric that integrates crucial factors including
@@ -316,8 +304,6 @@ metrics, showing a significant margin of improvement. The primary advantage of M
 over a single agent who provides artifacts directly, lies in its facilitation of a procedural thinking
 in which artifacts are continually reflected and refined. This process effectively mitigates previous
 inaccuracies or unexpected hallucinations, aligning with previous findings (Cohen et al., 2023; Du
-5
-
 
 Published as a conference paper at ICLR 2025
 Method
@@ -413,8 +399,7 @@ the latter represents a variant of dimensionality reduction within multi-agent e
 blocking its potential to extrapolate potential opportunities.
 3.2
 HOW DO DIFFERENT TOPOLOGIES PERFORM AGAINST EACH OTHER?
-To gain a deeper understanding of the impact on organizational structures within multi-agent collabo-
-ration, we examine MACNET’s topologies across six representative topologies. The analysis focuses
+To gain a deeper understanding of the impact on organizational structures within multi-agent collaboration, we examine MACNET’s topologies across six representative topologies. The analysis focuses
 on three key perspectives: density, shape, and direction.
 Density Perspective
 Table 1 illustrates that different types of topologies vary significantly in
@@ -428,8 +413,6 @@ edge density (see Figure 5), correlates with improved average performance across
 topological types. Specifically, the densely connected mesh topology outperforms the moderately
 dense tree topology, which in turn outperforms the sparsely connected chain topology. This can be
 5Experiments with open-source models demonstrate a similar pattern.
-6
-
 
 Published as a conference paper at ICLR 2025
 Density
@@ -458,7 +441,7 @@ Random
 0.50
 0.26
 |   |=50
- 
+
 |   |=10
 Figure 5: Density of different topologies at different
 scales.
@@ -524,8 +507,6 @@ all possible pairs of network nodes, which is a measure of the efficiency of inf
 7The clustering coefficient measures the connectivity density among a node’s neighbors (Strogatz, 2001).
 8The layer topologies exhibit a 92.16% modification probability and an average artifact length of 586.57,
 compared to 68.48% and 308.26 for chain topologies
-7
-
 
 Published as a conference paper at ICLR 2025
 to discuss artifacts from varied aspects. In contrast, aggregating multiple artifacts at a convergent
@@ -552,72 +533,8 @@ Quality
 Chain
 Quality
 Scale
-26
-25
-24
-23
-22
-21
-20
-26
-25
-24
-23
-22
-21
-20
-26
-25
-24
-23
-22
-21
-20
-26
-25
-24
-23
-22
-21
-20
-26
-25
-24
-23
-22
-21
-20
-26
-25
-24
-23
-22
-21
-20
-50
-80
-60
-70
-50
-80
-60
-70
-50
-80
-60
-70
-50
-80
-60
-70
-50
-80
-60
-70
-50
-80
-60
-70
+
+
 Figure 7: Scaling performance of multi-agent collaboration under different topologies. Quality
 represents the average performance over all tasks.
 Trend Perspective
@@ -643,8 +560,7 @@ provided they collaborate effectively, rather than solely focusing on scaling fo
 Besides, the validation of baseline scaling reveals that equalizing the number of LLM calls—whether
 through majority voting in closed-domain tasks (Chen et al., 2024b) or best-of-N in open-domain
 tasks (Sessa et al., 2024)—consistently highlights a lack of effective scalability across all baselines.
-Majority voting enhances performance by merely 0.9%, even when augmented with COT or AUTO-
-GPT, plateauing at approximately eight agents. AGENTVERSE implicitly reduces to a star topology
+Majority voting enhances performance by merely 0.9%, even when augmented with COT or AUTOGPT, plateauing at approximately eight agents. AGENTVERSE implicitly reduces to a star topology
 and frequently encounters context explosion issues when scaling beyond thirty agents, thus hindering
 scalability. The energy-intensive setup of GPTSWARM necessitates manual, task-specific structuring
 and prompting, which restricts both multitasking capabilities and overall scalability.
@@ -655,12 +571,9 @@ emergence in MACNET manifests at much smaller scales, with most topologies reach
 9Looking further, this fitting only reflects a general pattern from the perspective of network scales; future
 research should aim for a more precise characterization by incorporating additional factors like profiles, tools
 and communication protocols, or social routing.
-8
-
 
 Published as a conference paper at ICLR 2025
-saturation with approximately a hundred agents. The fundamental reason is that neuron coordina-
-tion (during training) relies on numeric matrix operations, requiring all neurons to precisely and
+saturation with approximately a hundred agents. The fundamental reason is that neuron coordination (during training) relies on numeric matrix operations, requiring all neurons to precisely and
 simultaneously learn from scratch to assimilate extensive world knowledge. Conversely, individual
 agents (during inference) already possess certain knowledge from the foundational models, and their
 coordination through interdependent interactions utilizes existing reasoning skills to disseminate
@@ -671,34 +584,12 @@ especially when large-scale retraining resources such as data and hardware are c
 3.4
 WHAT FACTORS MIGHT CONTRIBUTE TO COLLABORATIVE EMERGENCE?
 |   |
- 
-11
-17
-41
-54
-1983
-2359
-2904
-314
-10
-20
-30
-40
-50
-60
-500
-1000
-1500
-2000
-2500
-3000
+
+
 # Interacted Aspects
 # Tokens of Generated Artifacts
-20
-23
-24
-25
-26
+
+
 Incomplete
 Implementation
 Logical Errors
@@ -707,17 +598,17 @@ Topics
 Runtime Errors
 Demand Errors
 Syntax Errors
-No Further 
+No Further
 Suggestions
 ImportError
-Needs to Be 
+Needs to Be
 Reviewed
-Faulty 
-Exception 
+Faulty
+Exception
 Handling
-Missing 
+Missing
 Comments
-Class 
+Class
 Not Used
 Incorrect
 Logic
@@ -751,17 +642,17 @@ Demand Errors
 Syntax Errors
 Incomplete
 Implementation
-Needs to Be 
+Needs to Be
 Reviewed
-No Further 
+No Further
 Suggestions
-Faulty 
-Exception 
+Faulty
+Exception
 Handling
 ImportError
 Missing
 Comments
-Class Not 
+Class Not
 Used
 Incorrect Logic
 Missing Initialization
@@ -808,10 +699,10 @@ Demand Errors
 Syntax Errors
 Incomplete
 Implementation
-Needs to Be 
+Needs to Be
 Reviewed
 Missing Comments
-Class Not 
+Class Not
 Used
 Placeholder
 Only
@@ -834,13 +725,13 @@ Topics
 Runtime Errors
 Incomplete
 Implementation
-Needs to Be 
+Needs to Be
 Reviewed
 Missing
 Comments
-Class Not 
+Class Not
 Used
-Faulty Exception 
+Faulty Exception
 Handling
 No Further
 Suggestions
@@ -904,10 +795,8 @@ lim
 |V|→∞pn(t) = lim
 n→∞pn(t) = 1
 (7)
-where p(t) ∝1/r(t) represents a standard Zipf’s law characterizing a long-tailed distribution (New-
-man, 2005); the sampling size n is proportional to the interaction density, i.e., n ∝|V|2. It can be
-inferred that increasing the network size significantly enhances the probability of tail token occur-
-rences, gradually approaching an asymptote. This probability becomes an inevitable event once the
+where p(t) ∝1/r(t) represents a standard Zipf’s law characterizing a long-tailed distribution (Newman, 2005); the sampling size n is proportional to the interaction density, i.e., n ∝|V|2. It can be
+inferred that increasing the network size significantly enhances the probability of tail token occurrences, gradually approaching an asymptote. This probability becomes an inevitable event once the
 sample size is sufficiently large. Statistically, when a critic suggests a particular aspect, there is a
 93.10% statistical likelihood that an actor will implement the recommended refinement rather than
 disregard it. The scaling up enables critics to pinpoint finer issues within artifacts, guiding actors to
@@ -916,8 +805,6 @@ refines artifacts from different aspects, naturally elevating the probability of
 artifacts (Liang et al., 2024; Du et al., 2024a; Cohen et al., 2023).
 In response to multidimensional considerations, scaling agents accordingly prolongs the overall
 length of artifacts. For instance, the token length increased by 7.51 times when scaling from 20 to
-9
-
 
 Published as a conference paper at ICLR 2025
 24. This characteristic, over small-scale networks, facilitates the integration of detailed requirements,
@@ -926,13 +813,12 @@ artifacts cannot. This is mainly due to the graph’s naturally divergent and co
 which enable artifacts to porpagate for strength-aggregated refinement. Therefore, unlike majority
 voting, this paradigm fosters interdependent interaction and length-extended regeneration among
 diversified artifacts, thereby producing more comprehensive ones.
-4
+
 RELATED WORK
 Large Language Models
 Trained on vast datasets through next token prediction (Vaswani et al.,
 2017) and capable of manipulating billions of parameters (Muennighoff et al., 2024), LLMs have
-become pivotal in natural language processing due to their seamless integration of extensive knowl-
-edge (Brown et al., 2020; Bubeck et al., 2023; Radford et al., 2019; Touvron et al., 2023; Wei et al.,
+become pivotal in natural language processing due to their seamless integration of extensive knowledge (Brown et al., 2020; Bubeck et al., 2023; Radford et al., 2019; Touvron et al., 2023; Wei et al.,
 2022a; Shanahan et al., 2023; Chen et al., 2021; Brants et al., 2007; Chen et al., 2021; Ouyang et al.,
 2022; Yang et al., 2024; Qin et al., 2024b). Central to this breakthrough is the neural scaling law,
 which posits that loss descends as a power law with model size, dataset size, and the amount of
@@ -941,8 +827,7 @@ underscores that scaling up language models can lead to emergent abilities—whe
 experiences a sudden leap as the model scales (Wei et al., 2022a; Schaeffer et al., 2024).
 Autonomous Agents
 Despite these advancements, LLMs possess inherent limitations in enclosed
-reasoning, driving further research to integrate advanced capabilities such as context-aware mem-
-ory (Park et al., 2023; Hua et al., 2023), tool use (Schick et al., 2023; Qin et al., 2024a), procedural
+reasoning, driving further research to integrate advanced capabilities such as context-aware memory (Park et al., 2023; Hua et al., 2023), tool use (Schick et al., 2023; Qin et al., 2024a), procedural
 planning (Wang et al., 2023a; Zelikman et al., 2024), and role playing (Chan et al., 2024; Wang
 et al., 2024c; Liu et al., 2024a), thereby transforming fundamental LLMs into versatile autonomous
 agents (Richards, 2023; Shinn et al., 2024; Zhao et al., 2024; Lin et al., 2023; Mei et al., 2024;
@@ -957,17 +842,15 @@ et al., 2024c; Yu et al., 2024), scientific research (Zeng et al., 2024; Baek et
 & Buehler, 2024) and embodied control (Guo et al., 2024; Chen et al., 2024f; Mandi et al., 2023).
 Technically, in contrast to straightforward majority voting where individuals act independently (Chen
 et al., 2024b), collective emergence (Woolley et al., 2010; Hopfield, 1982; Watts & Strogatz, 1998)
-posits that effective collaboration should evolve into an integrated system that promotes interdepen-
-dent interactions and thoughtful decision-making (Li et al., 2024b; Piatti et al., 2024). As such, recent
+posits that effective collaboration should evolve into an integrated system that promotes interdependent interactions and thoughtful decision-making (Li et al., 2024b; Piatti et al., 2024). As such, recent
 studies differentiate agents into distinct expertise and encourage task-oriented interactions, forming a
 chained workflow to sequentially reach final artifacts (Qian et al., 2024c). Subsequent research seeks
 to organize expert agents in a tree structure for hierarchical information propagation (Chen et al.,
 2024d) or in a graph with predefined node and edge functions (Zhuge et al., 2024).
-5
+
 CONCLUSION
 This study explores the impact of scaling multi-agent collaboration by introducing MACNET, a
-scalable framework that utilizes graphs to organize agents and orchestrate their reasoning for au-
-tonomous task solving. Extensive evaluations reveal that it effectively supports collaboration among
+scalable framework that utilizes graphs to organize agents and orchestrate their reasoning for autonomous task solving. Extensive evaluations reveal that it effectively supports collaboration among
 over a thousand agents, with irregular topologies outperforming regular ones. We also identify a
 collaborative scaling law—the overall performance follows a logistic growth pattern as agents scale,
 with collaborative emergence occurring earlier than previously observed neural emergence. We
@@ -976,8 +859,6 @@ interactive reflection and refinement, thereby producing more comprehensive arti
 our research also indicates that there are limits on the scaling horizon. By extrapolating traditional
 scaling from training to inference, we posit that agent collaboration could serve as a "shortcut" to
 bypass the need for resource-intensive retraining by employing inference-time procedural thinking.
-10
-
 
 Published as a conference paper at ICLR 2025
 ACKNOWLEDGEMENTS
@@ -1027,8 +908,6 @@ Justin Chen, Swarnadeep Saha, and Mohit Bansal. ReConcile: Round-Table Conferenc
 Reasoning via Consensus among Diverse LLMs. In Annual Meeting of the Association for
 Computational Linguistics (ACL), 2024a. URL https://aclanthology.org/2024.acl-long.
 381/.
-11
-
 
 Published as a conference paper at ICLR 2025
 Lingjiao Chen, Jared Quincy Davis, Boris Hanin, Peter Bailis, Ion Stoica, Matei Zaharia, and James
@@ -1038,9 +917,7 @@ Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pin
 Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, et al. Evaluating Large
 Language Models Trained on Code. In arXiv preprint arXiv:2107.03374, 2021. URL https:
 //arxiv.org/pdf/2107.03374.
-Pei Chen, Shuai Zhang, and Boran Han. CoMM: Collaborative Multi-Agent, Multi-Reasoning-
-Path Prompting for Complex Problem Solving. In North American Chapter of the Associa-
-tion for Computational Linguistics (NAACL), 2024c. URL https://aclanthology.org/2024.
+Pei Chen, Shuai Zhang, and Boran Han. CoMM: Collaborative Multi-Agent, Multi-ReasoningPath Prompting for Complex Problem Solving. In North American Chapter of the Association for Computational Linguistics (NAACL), 2024c. URL https://aclanthology.org/2024.
 findings-naacl.112/.
 Weize Chen, Yusheng Su, Jingwei Zuo, Cheng Yang, Chenfei Yuan, Chen Qian, Chi-Min Chan, Yujia
 Qin, Yaxi Lu, Ruobing Xie, et al. AgentVerse: Facilitating Multi-agent Collaboration and Exploring
@@ -1092,8 +969,6 @@ https://arxiv.org/pdf/2409.05556.
 Xudong Guo, Kaixuan Huang, Jiale Liu, Wenhui Fan, Natalia Vélez, Qingyun Wu, Huazheng Wang,
 Thomas L. Griffiths, and Mengdi Wang. Embodied LLM Agents Learn to Cooperate in Organized
 Teams. In arXiv preprint arXiv:2403.12482, 2024. URL https://arxiv.org/pdf/2403.12482.
-12
-
 
 Published as a conference paper at ICLR 2025
 Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Xiaodong Song,
@@ -1102,8 +977,7 @@ Conference on Learning Representations (ICLR), 2021. URL https://api.semanticsch
 org/CorpusID:221516475.
 Sirui Hong, Mingchen Zhuge, Jonathan Chen, Xiawu Zheng, Yuheng Cheng, Ceyao Zhang, Jinlin
 Wang, Zili Wang, Steven Ka Shing Yau, Zijuan Lin, Liyang Zhou, Chenyu Ran, Lingfeng Xiao,
-Chenglin Wu, and Jürgen Schmidhuber. MetaGPT: Meta Programming for A Multi-Agent Collab-
-orative Framework. In International Conference on Learning Representations (ICLR), 2024. URL
+Chenglin Wu, and Jürgen Schmidhuber. MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework. In International Conference on Learning Representations (ICLR), 2024. URL
 https://iclr.cc/virtual/2024/poster/18491.
 J J Hopfield. Neural Networks and Physical Systems with Emergent Collective Computational
 Abilities. In National Academy Of Sciences (PNAS), 1982. URL https://doi.org/10.1073/
@@ -1133,9 +1007,7 @@ Liu. Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents. In 
 arXiv:2405.02957, 2024a. URL https://arxiv.org/pdf/2405.02957.
 Junyou Li, Qin Zhang, Yangbin Yu, Qiang Fu, and Deheng Ye. More Agents is All You Need. In
 arXiv preprint arXiv:2402.05120, 2024b. URL https://arxiv.org/pdf/2402.05120.
-Nian Li, Chen Gao, Mingyu Li, Yong Li, and Qingmin Liao. EconAgent: Large Language Model-
-Empowered Agents for Simulating Macroeconomic Activities. In Annual Meeting of the Asso-
-ciation for Computational Linguistics (ACL), 2024c. URL https://aclanthology.org/2024.
+Nian Li, Chen Gao, Mingyu Li, Yong Li, and Qingmin Liao. EconAgent: Large Language ModelEmpowered Agents for Simulating Macroeconomic Activities. In Annual Meeting of the Association for Computational Linguistics (ACL), 2024c. URL https://aclanthology.org/2024.
 acl-long.829/.
 Yuan Li, Yixuan Zhang, and Lichao Sun. MetaAgents: Simulating Interactions of Human Behaviors
 for LLM-based Task-oriented Coordination via Collaborative Generative Agents. In arXiv preprint
@@ -1143,8 +1015,6 @@ arXiv:2310.06500, 2023b. URL https://arxiv.org/pdf/2310.06500.
 Zhongyang Li, Xiao Ding, and Ting Liu. Generating Reasonable and Diversified Story Ending
 using Sequence to Sequence Model with Adversarial Training. In International Conference on
 Computational Linguistics (COLING), 2018. URL https://aclanthology.org/C18-1088/.
-13
-
 
 Published as a conference paper at ICLR 2025
 Tian Liang, Zhiwei He, Wenxiang Jiao, Xing Wang, Rui Wang, Yujiu Yang, Zhaopeng Tu, and
@@ -1165,8 +1035,7 @@ https://arxiv.org/pdf/2406.14928.
 Zijun Liu, Yanzhe Zhang, Peng Li, Yang Liu, and Diyi Yang. Dynamic LLM-Agent Network:
 An LLM-agent Collaboration Framework with Agent Team Optimization. In arXiv preprint
 arXiv:2310.02170, 2023. URL https://arxiv.org/pdf/2310.02170.
-Chengdong Ma, Aming Li, Yali Du, Hao Dong, and Yaodong Yang. Efficient and Scalable Reinforce-
-ment Learning for Large-scale Network Control. In Nature Machine Intelligence (NMI), 2024.
+Chengdong Ma, Aming Li, Yali Du, Hao Dong, and Yaodong Yang. Efficient and Scalable Reinforcement Learning for Large-scale Network Control. In Nature Machine Intelligence (NMI), 2024.
 URL https://doi.org/10.1038/s42256-024-00879-7.
 Aman Madaan, Niket Tandon, Prakhar Gupta, Skyler Hallinan, Luyu Gao, Sarah Wiegreffe, Uri
 Alon, Nouha Dziri, Shrimai Prabhumoye, Yiming Yang, Shashank Gupta, Bodhisattwa Prasad
@@ -1186,8 +1055,7 @@ Boaz Barak,
 Teven Le Scao,
 Nouamane Tazi,
 Aleksandra Piktus, Sampo Pyysalo, Thomas Wolf, and Colin Raffel.
-Scaling Data-
-Constrained Language Models.
+Scaling DataConstrained Language Models.
 In Advances in Neural Information Processing Systems
 (NeurIPS), 2024. URL https://proceedings.neurips.cc/paper_files/paper/2023/hash/
 9d89448b63ce1e2e8dc7af72c984c196-Abstract-Conference.html.
@@ -1203,16 +1071,13 @@ Joint European Software Engineering Conference and Symposium on the Foundations 
 Engineering (ESEC/FSE), 2022. URL https://dl.acm.org/doi/10.1145/3540250.3549130.
 OpenAI. Learning to Reason with LLMs. In https://openai.com/index/learning-to-reason-with-llms,
 2024. URL https://openai.com/index/learning-to-reason-with-llms/.
-14
-
 
 Published as a conference paper at ICLR 2025
 Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll Wainwright, Pamela Mishkin,
 Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John Schulman, Jacob Hilton,
 Fraser Kelton, Luke Miller, Maddie Simens, Amanda Askell, Peter Welinder, Paul F
 Christiano, Jan Leike, and Ryan Lowe.
-Training Language Models to Follow Instruc-
-tions with Human Feedback.
+Training Language Models to Follow Instructions with Human Feedback.
 In Advances in Neural Information Processing Systems
 (NeurIPS), 2022. URL https://proceedings.neurips.cc/paper_files/paper/2022/file/
 b1efde53be364a73914f58805a001731-Paper-Conference.pdf.
@@ -1227,12 +1092,10 @@ Giorgio Piatti, Zhijing Jin, Max Kleiman-Weiner, Bernhard Schölkopf, Mrinmaya S
 Mihalcea. Cooperate or Collapse: Emergence of Sustainability Behaviors in a Society of LLM
 Agents. In arXiv preprint arXiv:2404.16698, 2024. URL https://arxiv.org/pdf/2404.16698.
 Chen Qian, Yufan Dang, Jiahao Li, Wei Liu, Zihao Xie, Yifei Wang, Weize Chen, Cheng Yang,
-Xin Cong, Xiaoyin Che, Zhiyuan Liu, and Maosong Sun. Experiential Co-Learning of Software-
-Developing Agents. In Annual Meeting of the Association for Computational Linguistics (ACL),
+Xin Cong, Xiaoyin Che, Zhiyuan Liu, and Maosong Sun. Experiential Co-Learning of SoftwareDeveloping Agents. In Annual Meeting of the Association for Computational Linguistics (ACL),
 2024a. URL https://aclanthology.org/2024.acl-long.305/.
 Chen Qian, Jiahao Li, Yufan Dang, Wei Liu, YiFei Wang, Zihao Xie, Weize Chen, Cheng Yang,
-Yingli Zhang, Zhiyuan Liu, and Maosong Sun. Iterative Experience Refinement of Software-
-Developing Agents. In arXiv preprint arXiv:2405.04219, 2024b. URL https://arxiv.org/pdf/
+Yingli Zhang, Zhiyuan Liu, and Maosong Sun. Iterative Experience Refinement of SoftwareDeveloping Agents. In arXiv preprint arXiv:2405.04219, 2024b. URL https://arxiv.org/pdf/
 2405.04219.
 Chen Qian, Wei Liu, Hongzhang Liu, Nuo Chen, Yufan Dang, Jiahao Li, Cheng Yang, Weize
 Chen, Yusheng Su, Xin Cong, Juyuan Xu, Dahai Li, Zhiyuan Liu, and Maosong Sun. ChatDev:
@@ -1240,8 +1103,7 @@ Communicative Agents for Software Development. In Annual Meeting of the Associat
 Computational Linguistics (ACL), 2024c. URL https://aclanthology.org/2024.acl-long.
 810/.
 Yujia Qin, Shihao Liang, Yining Ye, Kunlun Zhu, Lan Yan, Yaxi Lu, Yankai Lin, Xin Cong, Xiangru
-Tang, Bill Qian, et al. ToolLLM: Facilitating Large Language Models to Master 16000+ Real-
-World APIs. In International Conference on Learning Representations (ICLR), 2024a. URL
+Tang, Bill Qian, et al. ToolLLM: Facilitating Large Language Models to Master 16000+ RealWorld APIs. In International Conference on Learning Representations (ICLR), 2024a. URL
 https://iclr.cc/virtual/2024/poster/18267.
 Zhen Qin, Rolf Jagerman, Kai Hui, Honglei Zhuang, Junru Wu, Jiaming Shen, Tianqi Liu, Jialu
 Liu, Donald Metzler, Xuanhui Wang, and Michael Bendersky. Large Language Models are
@@ -1263,15 +1125,12 @@ https://github.com/Significant-Gravitas/AutoGPT.
 Yangjun Ruan, Chris J. Maddison, and Tatsunori Hashimoto. Observational Scaling Laws and the
 Predictability of Language Model Performance. In arXiv preprint arXiv:2405.10938, 2024. URL
 https://arxiv.org/pdf/2405.10938.
-15
-
 
 Published as a conference paper at ICLR 2025
 Rylan Schaeffer, Brando Miranda, and Sanmi Koyejo.
 Are Emergent Abilities of Large
 Language Models a Mirage?
-In Advances in Neural Information Processing Sys-
-tems (NeurIPS), 2024. URL https://papers.neurips.cc/paper_files/paper/2023/file/
+In Advances in Neural Information Processing Systems (NeurIPS), 2024. URL https://papers.neurips.cc/paper_files/paper/2023/file/
 adc98a266f45005c403b8311ca7e8bd7-Paper-Conference.pdf.
 Timo Schick, Jane Dwivedi-Yu, Roberto Dessì, Roberta Raileanu, Maria Lomeli, Luke Zettlemoyer,
 Nicola Cancedda, and Thomas Scialom. ToolFormer: Language Models Can Teach Themselves
@@ -1279,14 +1138,11 @@ to Use Tools. In arXiv preprint arXiv:2302.04761, 2023. URL https://arxiv.org/pd
 04761.
 Pier Giuseppe Sessa, Robert Dadashi, Léonard Hussenot, Johan Ferret, Nino Vieillard, Alexandre
 Ramé, Bobak Shariari, Sarah Perrin, Abe Friesen, Geoffrey Cideron, Sertan Girgin, Piotr Stanczyk,
-Andrea Michi, Danila Sinopalnikov, Sabela Ramos, Amélie Héliou, Aliaksei Severyn, Matt Hoff-
-man, Nikola Momchev, and Olivier Bachem. BOND: Aligning LLMs with Best-of-N Distillation.
+Andrea Michi, Danila Sinopalnikov, Sabela Ramos, Amélie Héliou, Aliaksei Severyn, Matt Hoffman, Nikola Momchev, and Olivier Bachem. BOND: Aligning LLMs with Best-of-N Distillation.
 In arXiv preprint arXiv:2407.14622, 2024. URL https://arxiv.org/abs/2407.14622.
 Murray Shanahan, Kyle McDonell, and Laria Reynolds. Role Play with Large Language Models. In
 Nature, 2023. URL https://www.nature.com/articles/s41586-023-06647-8.
-Yongliang Shen, Kaitao Song, Xu Tan, Dongsheng Li, Weiming Lu, and Yueting Zhuang. Hugging-
-GPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face. In Advances in Neural Infor-
-mation Processing Systems (NeurIPS), 2023. URL https://proceedings.neurips.cc/paper_
+Yongliang Shen, Kaitao Song, Xu Tan, Dongsheng Li, Weiming Lu, and Yueting Zhuang. HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face. In Advances in Neural Information Processing Systems (NeurIPS), 2023. URL https://proceedings.neurips.cc/paper_
 files/paper/2023/file/77c33e6a367922d003ff102ffb92b658-Paper-Conference.pdf.
 Noah Shinn, Federico Cassano, Ashwin Gopinath, Karthik Narasimhan, and Shunyu Yao. Reflexion:
 Language Agents with Verbal Reinforcement Learning. In Advances in Neural Information
@@ -1300,8 +1156,7 @@ arXiv:2201.11990, 2022. URL https://arxiv.org/pdf/2201.11990.
 Steven H. Strogatz. Exploring Complex Networks. In Nature, 2001. URL https://www.nature.
 com/inproceedingss/35065725.
 Theodore R. Sumers, Shunyu Yao, Karthik Narasimhan, and Thomas L. Griffiths.
-Cogni-
-tive Architectures for Language Agents.
+Cognitive Architectures for Language Agents.
 In arXiv preprint arXiv:2309.02427, 2023.
 URL
 https://arxiv.org/pdf/2309.02427.
@@ -1324,8 +1179,6 @@ paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf.
 Oriol Vinyals, Igor Babuschkin, Wojciech M. Czarnecki, and et al. Grandmaster Level in StarCraft II
 using Multi-agent Reinforcement Learning. In Nature, 2019. URL https://doi.org/10.1038/
 s41586-019-1724-z.
-16
-
 
 Published as a conference paper at ICLR 2025
 Haotian Wang, Xiyuan Du, Weijiang Yu, Qianglong Chen, Kun Zhu, Zheng Chu, Lian Yan, and
@@ -1343,8 +1196,7 @@ LLM Reasoning: Are Multi-Agent Discussions the Key? In Annual Meeting of the Ass
 Computational Linguistics (ACL), 2024b. URL https://aclanthology.org/2024.acl-long.
 331/.
 Zhenhailong Wang, Shaoguang Mao, Wenshan Wu, Tao Ge, Furu Wei, and Heng Ji. Unleashing the
-Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-
-Persona Self-Collaboration. In North American Chapter of the Association for Computational
+Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through MultiPersona Self-Collaboration. In North American Chapter of the Association for Computational
 Linguistics (NAACL), 2024c. URL https://aclanthology.org/2024.naacl-long.15/.
 Duncan J. Watts and Steven H. Strogatz. Collective Dynamics of Small-World Networks. In Nature,
 1998. URL https://www.nature.com/inproceedingss/30918#citeas.
@@ -1360,8 +1212,7 @@ Maarten Bosma,
 brian ichter,
 Fei Xia,
 Ed Chi, Quoc V Le, and Denny Zhou.
-Chain-of-thought Prompting Elicits Reason-
-ing in Large Language Models.
+Chain-of-thought Prompting Elicits Reasoning in Large Language Models.
 In Advances in Neural Information Processing Systems
 (NeurIPS), 2022b.
 URL https://proceedings.neurips.cc/paper_files/paper/2022/
@@ -1385,8 +1236,7 @@ Yuan Cao,
 and
 Karthik Narasimhan.
 Tree of Thoughts:
-Deliberate Problem Solving with Large Lan-
-guage Models.
+Deliberate Problem Solving with Large Language Models.
 In Advances in Neural Information Processing Systems (NeurIPS),
 2023.
 URL
@@ -1396,8 +1246,6 @@ Zhangyue Yin, Qiushi Sun, Cheng Chang, Qipeng Guo, Junqi Dai, Xuanjing Huang, an
 Qiu. Exchange-of-Thought: Enhancing Large Language Model Capabilities through Cross-Model
 Communication. In Empirical Methods in Natural Language Processing (EMNLP), 2023. URL
 https://aclanthology.org/2023.emnlp-main.936/.
-17
-
 
 Published as a conference paper at ICLR 2025
 Jifan Yu, Zheyuan Zhang, Daniel Zhang-li, Shangqing Tu, Zhanxin Hao, Rui Miao Li, Haoxuan
@@ -1429,8 +1277,7 @@ arXiv:2406.19226, 2024c. URL https://arxiv.org/pdf/2406.19226.
 Andrew Zhao, Daniel Huang, Quentin Xu, Matthieu Lin, Yong-Jin Liu, and Gao Huang. Expel: LLM
 Agents are Experiential Learners. In AAAI Conference on Artificial Intelligence (AAAI), 2024.
 URL https://doi.org/10.1609/aaai.v38i17.29936.
-Zirui Zhao, Wee Sun Lee, and David Hsu. Large Language Models as Commonsense Knowl-
-edge for Large-Scale Task Planning. In Advances in Neural Information Processing Systems
+Zirui Zhao, Wee Sun Lee, and David Hsu. Large Language Models as Commonsense Knowledge for Large-Scale Task Planning. In Advances in Neural Information Processing Systems
 (NeurIPS), 2023. URL https://proceedings.neurips.cc/paper_files/paper/2023/file/
 65a39213d7d0e1eb5d192aa77e77eeb7-Paper-Conference.pdf.
 Wangchunshu Zhou, Yixin Ou, Shengwei Ding, Long Li, Jialong Wu, Tiannan Wang, Jiamin Chen,
@@ -1444,4 +1291,3 @@ pdf/2310.13227.
 Mingchen Zhuge, Wenyi Wang, Louis Kirsch, Francesco Faccio, Dmitrii Khizbullin, and Jurgen
 Schmidhuber. Language Agents as Optimizable Graphs. In International Conference on Machine
 Learning (ICML), 2024. URL https://arxiv.org/pdf/2402.16823.
-18

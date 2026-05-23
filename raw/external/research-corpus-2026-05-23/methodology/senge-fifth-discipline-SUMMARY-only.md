@@ -9,8 +9,11 @@ chars: 44362
 approx_tokens: 11090
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 44364
+phase4_chars_after: 44339
+phase4_saved_pct: 0.1
 ---
-
 
 
 Peter Senge’s
@@ -178,17 +181,16 @@ of their intuition. However, experience and knowledge form the foundation
 for intuition and higher the level of experience and knowledge, better is the
 intuitive ability for solving problems.
 SECTION TWO
-The 
-Five 
-Core 
-Disciplines 
-of 
+The
+Five
+Core
+Disciplines
+of
 Learning
 Organizations
 Mastering the five basic disciplines is important for learning organizations:
 1. Personal Mastery
-Ability to master the energy, focus and patience of oneself results in a well-
-rounded person who is of great significance for an organization.
+Ability to master the energy, focus and patience of oneself results in a wellrounded person who is of great significance for an organization.
 2. Mental Models
 Our decision making is influenced by our understanding of our prejudiced
 perceptions and ingrained mentality.
@@ -203,8 +205,7 @@ A powerful and fulfilling collective is created by the combined expertise
 and knowledge brought together by team work.
 5. Systems Thinking
 Systems thinking’ enables companies to focus on the larger picture and
-provides them with long-term solutions that are more sustainable than short-
-term solutions to the inherent problems.
+provides them with long-term solutions that are more sustainable than shortterm solutions to the inherent problems.
  
 Although it is possible that these disciplines can be learned individually, it
 is more beneficial to see them as a whole. For instance, Systems thinking,
@@ -247,9 +248,9 @@ OceanofPDF.com
 
 BOOK SECTION DETAILS
 SECTION ONE
-THE 
-COMPETITIVE 
-ADVANTAGES 
+THE
+COMPETITIVE
+ADVANTAGES
 OF
 LEARNING
 MAIN IDEA
@@ -335,17 +336,16 @@ OceanofPDF.com
 
 
 SECTION TWO
-THE 
-FIVE 
-CORE 
-DISCIPLINES 
+THE
+FIVE
+CORE
+DISCIPLINES
 OF
 LEARNING ORGANIZATIONS
 MAIN IDEA
 The Core Five Disciplines of a Learning Organization:
 1. Personal Mastery
-Ability to master the energy, focus and patience of oneself results in a well-
-rounded person who is of great significance for an organization.
+Ability to master the energy, focus and patience of oneself results in a wellrounded person who is of great significance for an organization.
 2. Mental Models
 Our decision making is influenced by our understanding of our prejudiced
 perceptions and ingrained mentality.
@@ -358,12 +358,10 @@ A powerful and fulfilling collective is created by the combined expertise
 and knowledge brought together by team work
 5. Systems Thinking
 Systems thinking’ enables companies to focus on the larger picture and
-provides them with long-term solutions that are more sustainable than short-
-term solutions to the inherent problems.
+provides them with long-term solutions that are more sustainable than shortterm solutions to the inherent problems.
 SUPPORTING IDEAS
 1. Personal Mastery
-Ability to master the energy, focus and patience of oneself results in a well-
-rounded person who is of great significance for an organization.
+Ability to master the energy, focus and patience of oneself results in a wellrounded person who is of great significance for an organization.
  
 An organization by itself is intangible and inanimate and exists via the
 activities and consciousness of the individual members. Therefore,
@@ -609,8 +607,7 @@ learning as a team promotes shared visions, goals and results in efficiently
 creating workplace harmony.
 5. Systems Thinking
 Systems thinking’ enables companies to focus on the larger picture and
-provides them with long-term solutions that are more sustainable than short-
-term solutions to the inherent problems.
+provides them with long-term solutions that are more sustainable than shortterm solutions to the inherent problems.
  
 It is to be noted that the title of the book is The Fifth Discipline. The last
 and fifth discipline is Systems Thinking and is the fulcrum. The first 4

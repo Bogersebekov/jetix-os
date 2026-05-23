@@ -9,8 +9,11 @@ chars: 250504
 approx_tokens: 62626
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 250506
+phase4_chars_after: 250453
+phase4_saved_pct: 0.0
 ---
-
 
 
 A Theory of Fun for Game Design
@@ -125,8 +128,7 @@ Breakaway Games
 
 
   “Amazing! All-New! Only Available on TV! Koster’s A Theory of Fun is well-written, timely,
-passionate and scientifically informed, a fine piece of work that’s bound to get lots of well-
-deserved attention.”
+passionate and scientifically informed, a fine piece of work that’s bound to get lots of welldeserved attention.”
  
  
 -- Edward Indiana University Castronova
@@ -269,8 +271,7 @@ Our kids took to games at a very early age. Games were all around them,
 and I brought home a crazy amount of them because of my work. I suppose
 it’s no surprise that children model their parents. But my wife and I are also
 voracious readers, and the kids were resistant to that. Their attraction to
-games was more instinctive. As babies, they found the game of hide-the-
-object to be endlessly fascinating, and even now that they are older it elicits
+games was more instinctive. As babies, they found the game of hide-theobject to be endlessly fascinating, and even now that they are older it elicits
 an occasional giggle. As babies there was an intentness about their alien
 gaze as they tried to figure out where the rubber duckie had gone that
 showed that this game was, for them, in deadly earnest.
@@ -310,8 +311,7 @@ This isn’t unfamiliar to most people. I do many things without fully
 understanding them, even things I feel I have mastered. I don’t need a
 degree in automotive engineering to drive my car. I don’t need to remember
 the ins and outs of the rules of grammar to speak grammatically in everyday
-conversation. I don’t need to know whether tic-tac-toe is NP-hard or NP-
-complete to know that it’s a dumb game.
+conversation. I don’t need to know whether tic-tac-toe is NP-hard or NPcomplete to know that it’s a dumb game.
 I also have plenty of experiences where I stare at something and simply
 don’t get it. I hate to admit it, but my typical reaction is to simply turn
 away. I feel this way often these days now that there’s some (OK, a lot of)
@@ -356,8 +356,7 @@ I took its advice, and quit.
 
 
 Games that are too hard kind of bore me, and games that are too easy also
-kind of bore me. As I age, games move from one to the other, just as tic-tac-
-toe did for our children. Sometimes I play games with people who crush me
+kind of bore me. As I age, games move from one to the other, just as tic-tactoe did for our children. Sometimes I play games with people who crush me
 and afterwards explain kindly, “Well, you see, this is a game about
 vertices.” And I say, “Vertices? I’m putting down pieces on a board!” And
 they shrug, as if to say I’ll never get it.
@@ -588,8 +587,7 @@ The second level of the brain is really slow. It’s integrative, associative, a
 intuitive. It links things that don’t make much sense. This is the part of the
 brain that packages things up and chunks them. This part of how we think
 isn’t something we can access directly—it doesn’t use words. It’s also
-frequently wrong. It’s the source of “common sense” which is often self-
-contradictory (“look before you leap, but he who hesitates is lost”). It’s the
+frequently wrong. It’s the source of “common sense” which is often selfcontradictory (“look before you leap, but he who hesitates is lost”). It’s the
 thing that builds approximations of reality.
 
 
@@ -1283,17 +1281,14 @@ have come along that make the game look quaint.
 I don’t think debates about the suitability of violence in the media will
 disappear. Much evidence shows that media have some effect on how we
 act. If media didn’t have an effect, we wouldn’t spend so much effort on
-using it as teaching tools. But evidence also shows that media aren’t mind-
-control devices (of course they aren’t, or else we’d all behave like the
+using it as teaching tools. But evidence also shows that media aren’t mindcontrol devices (of course they aren’t, or else we’d all behave like the
 people we read about in the children’s stories we read in elementary
 school).
 
 
 Gamers, however, have always viewed this issue with some perplexity.
-When they defend their beloved games, they use one of the most self-
-defeating rallying cries in history: “It’s only a game!”
-In the wake of school shootings and ex-military people decrying first-
-person shooters as “murder simulators,” this argument doesn’t carry a lot of
+When they defend their beloved games, they use one of the most selfdefeating rallying cries in history: “It’s only a game!”
+In the wake of school shootings and ex-military people decrying firstperson shooters as “murder simulators,” this argument doesn’t carry a lot of
 weight. Academics who disagree with the portrayal of games as damaging
 to children tend to muster learned arguments about privileged spaces and
 magic circles. Much of the public dismisses these arguments as coming
@@ -1342,8 +1337,7 @@ tend to be power fantasies. That’s generally considered to be a pretty
 juvenile sort of story.
 
 
-The stories in most video games serve the same purpose as calling the über-
-checker a “king.” It adds interesting shading to the game but the game at its
+The stories in most video games serve the same purpose as calling the überchecker a “king.” It adds interesting shading to the game but the game at its
 core is unchanged.
 Remember—my background is as a writer, so this actually pisses me off.
 Story deserves better treatment than that.
@@ -1401,8 +1395,7 @@ Fun is the act of mastering a problem mentally.
 Aesthetic appreciation isn’t always fun, but it’s certainly enjoyable.
 Visceral reactions are generally physical in nature and relate to
 physical mastery of a problem.
-Social status maneuvers of various sorts are intrinsic to our self-
-image and our standing in a community.
+Social status maneuvers of various sorts are intrinsic to our selfimage and our standing in a community.
 All of these things make us feel good when we’re successful at them, but
 lumping them all together as “fun” just renders the word meaningless. So
 throughout this book, when I have referred to “fun,” I’ve meant only the
@@ -1671,8 +1664,7 @@ games are still about formal abstract systems at heart.
 
 
 As it happens, we do see all of these in demographic data of game players
-(along with much more). Games may be doomed to be the province of 14-
-year-old boys because that’s what games select for.
+(along with much more). Games may be doomed to be the province of 14year-old boys because that’s what games select for.
 As games become more prevalent in society, however, we’ll likely see more
 young girls using the amazing brain-rewiring abilities of games to train
 themselves up—in other words, doubling down and reaching high levels of
@@ -1954,8 +1946,7 @@ The holy grail of game design is to make a game where the challenges are
 never ending, the skills required are varied, and the difficulty curve is
 perfect and adjusts itself to exactly our skill level. Someone did this already,
 though, and it’s not always fun. It’s called “life.” Maybe you’ve played it.
-That hasn’t stopped us from trying all sorts of tactics to make games self-
-refreshing. You see, designing rule sets and making all the content is hard.
+That hasn’t stopped us from trying all sorts of tactics to make games selfrefreshing. You see, designing rule sets and making all the content is hard.
 Designers often feel proudest of designing good abstract systems that have
 deep self-generating challenges—games like chess and go and Othello and
 so on.
@@ -1977,8 +1968,7 @@ lose. If you fail to match them up with an opponent who is very
 precisely of their skill level, they’ll quit.
 Using players to generate content is a useful tactic. Many games
 expect players to supply the challenges in various ways, ranging from
-making maps for a shooter game to contributing characters in a role-
-playing game.
+making maps for a shooter game to contributing characters in a roleplaying game.
 
 
 But is this futile? I mean, all these designers are trying to expand the
@@ -2220,8 +2210,7 @@ them. The moment you recognize a pattern your body will give you the chill
 as a sign. Just as writing isn’t necessarily fun but might be something
 valuable for the writer to do, or practicing piano for hours on end might not
 be fun but something that gives fulfillment, engaging in interaction with
-games need not be fun either but might indeed be fulfilling, thought-
-provoking, challenging, and also difficult, painful, and even compulsive.
+games need not be fun either but might indeed be fulfilling, thoughtprovoking, challenging, and also difficult, painful, and even compulsive.
 In other words, games can take forms we don’t recognize. They might not
 be limited to being “a game” or even a “software toy.” The definition of
 “game” implies certain things, as do the words “toy,” “sport,” and “hobby.”
@@ -2313,8 +2302,7 @@ Mondrian made of nothing but colored squares; I have heard Bach played
 on a harpsichord; I have traced the rhythms of a sonnet; I have trod in the
 steps of a dance. All media are abstract, formal systems. Let’s not sell
 abstraction and formality short.
-In fact, the toughest puzzles are the ones that force the most self-
-examination. They are the ones that challenge us most deeply on many
+In fact, the toughest puzzles are the ones that force the most selfexamination. They are the ones that challenge us most deeply on many
 levels—mental stamina, mental agility, creativity, perseverance, physical
 endurance, and emotional self-abnegation. They come precisely from the
 interactive portions of the chart, when you look at other media.
@@ -2459,8 +2447,7 @@ opposed to the content itself. And rightfully, this person is given higher
 authority over the final output than the content creator alone. The director
 trumps the writer in a movie, and the conductor trumps the composer in a
 symphony.
-There is a difference between designing the content and designing the end-
-user experience.
+There is a difference between designing the content and designing the enduser experience.
 
 
 In most cases, we haven’t reached this realization in game design. Game
@@ -2546,8 +2533,7 @@ innovation.
 It’s not that progress along these other axes isn’t merited—it’s just easy
 relative to the true challenge, which is developing the formal structure of
 games themselves. Often these new developments improve the overall
-experience, but that’s comparable to saying that the development of the 16-
-track recorder revolutionized songwriting. It didn’t; it revolutionized
+experience, but that’s comparable to saying that the development of the 16track recorder revolutionized songwriting. It didn’t; it revolutionized
 arranging and production, but the demo versions of songs are still usually
 one person with a piano or a guitar.
 The best test of a game’s fun in the strict sense will therefore be playing the
@@ -2653,8 +2639,7 @@ ourselves better.
 It’s an important endeavor because other humans have typically been our
 greatest predator. Today we have come to realize how interrelated we all are
 even though the left continent doesn’t know what the right continent is
-doing. We have come to realize that actions we undertake often have far-
-reaching consequences that we never anticipated. Some, such as James
+doing. We have come to realize that actions we undertake often have farreaching consequences that we never anticipated. Some, such as James
 Lovelock, have gone so far as to call us all one giant organism.
 
 
@@ -2728,8 +2713,7 @@ The reason why games as a medium are not mature, despite their prehistoric
 origins, is not because we haven’t reliably mastered creating fun, or do not
 have a vocabulary to define fun, or terminology to describe features or
 mechanics. It’s not because we only know how to create power fantasies.
-It’s because when you feed a plant through a musical trellis, the trellis-
-maker can shape the plant to many possible forms. When you feed a plant
+It’s because when you feed a plant through a musical trellis, the trellismaker can shape the plant to many possible forms. When you feed a plant
 through a literary trellis, the writer can shape the plant to many possible
 forms.
 When you feed a player through a game trellis, right now, we know only
@@ -2792,8 +2776,7 @@ communications media. They are capable of art. They are capable of
 portraying the human condition. They are teaching tools. They carry
 socially redeeming content. They elicit emotion.
 But we have to believe that they do, in order for them to reach their
-potential. We have to go into the systems design process, the ludeme-
-building process, aware that they have this potential and this capability. We
+potential. We have to go into the systems design process, the ludemebuilding process, aware that they have this potential and this capability. We
 have to consider ourselves as artists, as teachers, as people with a powerful
 tool that can be taken up.
 It’s time for games to move on from only teaching patterns about territory,
@@ -2858,8 +2841,7 @@ opened up new vistas; whether or not it was popular at the time is largely an
 
 
 accident of history. Shakespeare was a popular playwright and then was
-forgotten for a couple hundred years. Popularity is not a measure of long-
-term evolutionary success.
+forgotten for a couple hundred years. Popularity is not a measure of longterm evolutionary success.
 A tremendous amount of the content pumped through media today has as its
 goal mere comforting, confirming, and cocooning. We gravitate toward the
 music we already like, the morals we already know, the characters who
@@ -3110,8 +3092,7 @@ functional sign language that enabled them to communicate. This is
 believed to be the first time in history that scientists have been able to
 observe a language spontaneously created (as opposed to created
 intentionally like Esperanto). A good overview of the story can be found at
-www.nytimes.com/library/magazine/home/19991024mag-sign-
-language.html.
+www.nytimes.com/library/magazine/home/19991024mag-signlanguage.html.
 Tic-tac-toe: Also known as noughts and crosses. Tic-tac-toe, and its cousins
 go-moku (a game where the board is variously 13x13 or 15x15 and you
 have to get 5 in a row) and Qubic (a 4x4x4 cube) are all amenable to
@@ -3452,8 +3433,7 @@ discern patterns that I, stuck in my perception of it, was unable to see.
 Games where things fit together physically: My favorites include Tetris,
 Blokus, and Rumis.
 Games where things fit together conceptually: Poker is probably the most
-obvious example, but many card games work this way, as do many tile-
-laying games such as Carcasonne.
+obvious example, but many card games work this way, as do many tilelaying games such as Carcasonne.
 Games of classification or taxonomy: Card games such as Uno and Go
 Fish! and even memory games rely on classifying things into sets.
 Cartesian coordinate space: This is the classic method developed by René
@@ -3789,8 +3769,7 @@ several other conferences. You can read an overview of the research at
 www.xeodesign.com/whyweplaygames/.
 
 
-Runner’s high and cognitive puzzles: I’m doing a disservice here to long-
-distance running, for the sake of the argument. I ran track briefly as a kid,
+Runner’s high and cognitive puzzles: I’m doing a disservice here to longdistance running, for the sake of the argument. I ran track briefly as a kid,
 and in fact there are a lot of tough cognitive puzzles to solve when running,
 such as managing your breathing, the strategy of when to sprint and when
 to jog, judging stride length and how you plant your feet, and so on.
@@ -3993,8 +3972,7 @@ intelligence”) decrease as we age. However, verbal abilities and other forms
 of “crystallized intelligence” tend to remain constant.
 Choose the same characters to play: The tendency of players to repeatedly
 choose similar characters in online RPGs is verified in my own research.
-Cross-gender role-play: There have been many papers written about cross-
-gender role-play. Males tend to do it far more often than females do, and
+Cross-gender role-play: There have been many papers written about crossgender role-play. Males tend to do it far more often than females do, and
 given the choice, males will rarely choose a gender-neutral presentation,
 whereas females are more willing. Cross-gender role-play in online games
 is not an indicator of gender dysphoria in real life.
@@ -4108,8 +4086,7 @@ Hate crime shooters: Several of these have been made, espousing various
 causes ranging from the agenda of the Ku Klux Klan to Palestinian
 nationhood.
 The Comics Code: Established in the 1950s following an uproar over the
-impact that violent comics could have on children. The result was self-
-censorship imposed by the comics industry; for many years, no comics
+impact that violent comics could have on children. The result was selfcensorship imposed by the comics industry; for many years, no comics
 were published without the Comics Code seal of approval. The artistic gap
 between the EC Comics of the 50s and Art Spiegelman’s Maus is not that
 huge—the time gap that resulted from the imposition of the Comics Code

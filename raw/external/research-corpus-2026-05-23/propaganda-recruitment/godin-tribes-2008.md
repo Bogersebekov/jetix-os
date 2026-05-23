@@ -9,8 +9,11 @@ chars: 180862
 approx_tokens: 45215
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 180864
+phase4_chars_after: 180782
+phase4_saved_pct: 0.0
 ---
-
 
 
 TRIBES
@@ -101,7 +104,6 @@ Begin Reading
 Acknowledgments and the Story of Tribes
 
 
- 
 JOEL SPOLSKY IS CHANGING THE WORLD.
 Maybe not your world, but the world of programmers and software
 companies and the people who work with them. The way Joel is changing the
@@ -199,8 +201,7 @@ Tribes Aren’t So Squishy Anymore
 Before the Internet, coordinating and leading a tribe was difficult. It was
 difficult to get the word out, difficult to coordinate action, difficult to grow
 quickly. Today, of course, instant communication makes things taut, not
-squishy. In today’s world, Barack Obama can raise $50 million in twenty-
-eight days. In the nonsquishy tribal world of this decade, Twitter and blogs
+squishy. In today’s world, Barack Obama can raise $50 million in twentyeight days. In the nonsquishy tribal world of this decade, Twitter and blogs
 and online videos and countless other techniques contribute to an entirely new
 dimension of what it means to be part of a tribe. The new technologies are all
 designed to connect tribes and to amplify their work.
@@ -238,8 +239,7 @@ for about a decade.
 You’ve never heard of Mich. She’s not a pundit or a touring personality.
 Instead, she leads a tribe of thousands of people inside Microsoft who create
 and shape the company’s marketing. The tribe listens to Mich; they respect
-her and they follow her. The attention paid by this internal tribe is a hard-
-earned privilege and a valuable responsibility.
+her and they follow her. The attention paid by this internal tribe is a hardearned privilege and a valuable responsibility.
 This is a book for anyone who chooses to lead a tribe. Inside or out, the
 possibilities are huge.
 The Opportunity
@@ -261,7 +261,7 @@ circles of interest means that anyone who wants to make a difference can.
 Without leaders, there are no followers.
 You’re a leader.
 We need you.
- 
+
 Something to Believe In
 Tribes are about faith—about belief in an idea and in a community. And they
 are grounded in respect and admiration for the leader of the tribe and for the
@@ -270,14 +270,14 @@ Do you believe in what you do? Every day? It turns out that belief
 happens to be a brilliant strategy.
 Three things have happened, pretty much at the same time. All three point
 to the same (temporarily uncomfortable, but ultimately marvelous) outcome:
- 
+
 1. Many people are starting to realize that they work a lot and that working
 on stuff they believe in (and making things happen) is much more
 satisfying than just getting a paycheck and waiting to get fired (or die).
- 
+
 2. Many organizations have discovered that the factory-centric model of
 producing goods and services is not nearly as profitable as it used to be.
- 
+
 3. Many consumers have decided to spend their money buying things that
 aren’t factory-produced commodities. And they’ve decided not to spend
 their time embracing off-the-shelf ideas. Consumers have decided,
@@ -336,19 +336,19 @@ irresistible argument.
 With tribes flourishing everywhere, there’s a vast shortage of leaders. We
 need you.
 My thesis:
- 
+
 For the first time ever, everyone in an organization—not just the boss—
 is expected to lead.
- 
+
 The very structure of today’s workplace means that it’s easier than ever
 to change things and that individuals have more leverage than ever
 before.
- 
+
 The marketplace is rewarding organizations and individuals who change
 things and create remarkable products and services.
- 
+
 It’s engaging, thrilling, profitable, and fun.
- 
+
 Most of all, there is a tribe of fellow employees or customers or investors
 or believers or hobbyists or readers just waiting for you to connect them
 to one another and lead them where they want to go.
@@ -446,8 +446,7 @@ wants change.
 The rush from stability is a huge opportunity for you.
 Partisans
 It’s a criticism when you throw that word at a politician, but all tribes are
-made up of partisans, the more partisan the better. If you’re a middle-of-the-
-roader, you don’t bother joining a tribe.
+made up of partisans, the more partisan the better. If you’re a middle-of-theroader, you don’t bother joining a tribe.
 Partisans want to make a difference. Partisans want something to happen
 (and something else not to happen). Leaders lead when they take positions,
 when they connect with their tribes, and when they help the tribe connect to
@@ -508,7 +507,7 @@ currently raging about what the modern military should look like.
 Senior military officials say his decidedly controversial ideas are
 influencing the way the Pentagon views its enemies, vulnerabilities
 and future structure.
- 
+
 It’s simple, really. Barnett led a tribe that was passionate about change. He
 galvanized them, inspired them, and connected them, through his idea.
 One man with no authority suddenly becomes a key figure. Tribes give
@@ -590,29 +589,29 @@ One after another, intractable problems fall in the face of movements.
 Improving a Tribe
 As we saw earlier, it takes only two things to turn a group of people into
 a tribe:
- 
+
 A shared interest
- 
+
 A way to communicate
 
 
 The communication can be one of four kinds:
- 
+
 Leader to tribe
- 
+
 Tribe to leader
- 
+
 Tribe member to tribe member
- 
+
 Tribe member to outsider
 So a leader can help increase the effectiveness of the tribe and its
 members by
- 
+
 transforming the shared interest into a passionate goal and desire for
 change;
- 
+
 providing tools to allow members to tighten their communications; and
- 
+
 leveraging the tribe to allow it to grow and gain new members.
 Most leaders focus only on the third tactic. A bigger tribe somehow
 equals a better tribe. In fact, the first two tactics almost always lead to more
@@ -652,12 +651,12 @@ folks call this viral activity, or a virtuous cycle. The better you do, the bett
 you do. Connections lead to connections. Great ideas spread.
 Anatomy of a Movement
 Senator Bill Bradley defines a movement as having three elements:
- 
+
 1. A narrative that tells a story about who we are and the future we’re
 trying to build
- 
+
 2. A connection between and among the leader and the tribe
- 
+
 3. Something to do—the fewer limits, the better
 Too often organizations fail to do anything but the third.
 Wikipedia
@@ -1087,7 +1086,6 @@ How was your day? If your answer is “fine,” then I don’t think you were
 leading.
 So the challenge, as you contemplate your next opportunity to be boring
 or remarkable, is to answer these two questions:
- 
 
 
 1. “If I get criticized for this, will I suffer any measurable impact? Will I
@@ -1099,7 +1097,7 @@ remarkable is exciting, fun, profitable, and great for your career. Feeling
 bad wears off.
       And then, once you’ve compared the bad feeling and the benefits,
 and you’ve sold yourself on taking the remarkable path, answer this one:
- 
+
 2. How can I create something that critics will criticize?
 The Cult of the Heretic
 Heretics are engaged, passionate, and more powerful and happier than
@@ -1283,8 +1281,7 @@ A marketer can offer a product, take orders, and move on. Or he can use
 interactions with prospects to create something more, to surprise and delight
 and generate far more than just a customer who got her money’s worth.
 This posture of leaning in is rare and valuable. In the spring of 2008, I
-announced a paid summer internship for students. More than 130 well-
-educated students from all over the world applied. As an experiment, I set up
+announced a paid summer internship for students. More than 130 welleducated students from all over the world applied. As an experiment, I set up
 
 
 a private Facebook group for the applicants and invited each one to
@@ -1340,7 +1337,7 @@ by seven handstand push-ups, followed by nine pull-ups, followed
 by five handstand push-ups, followed by eleven pull-ups, followed
 by three handstand push-ups, followed by thirteen pull-ups,
 followed by one handstand push-up, followed by fifteen pull-ups
- 
+
 And they’ll do it in a timed competition against thousands of people
 around the world. On the day I checked their site, more than four hundred
 people had posted their times on this particular workout.
@@ -1379,7 +1376,7 @@ When you get a chance, head over to http://msg150.com. This blog is
 obsessively chronicling every restaurant in a sixteen-block square of Seattle.
 For each restaurant (most of them are Asian), they include details like the
 length of the chopsticks and the contents of the bonus fortune cookie.
- 
+
 Here’s a quote:
 I was looking forward to this place, cause some Amazon buddies
 rated it quite highly. It’s a small place, requiring us to eat in the
@@ -1394,7 +1391,7 @@ me. It should come with a carton of Newports, for clearly my health
 is not their concern. The broth, though flavorful, is overwhelmed
 with the fatness of the pork. However, the pork is fantastic,
 delicious, and cooked to the point where it falls apart.
- 
+
 I don’t know about you, but I want in. I want to eat at every one of these
 restaurants, I want to post my own reviews, I want to join this tribe. If they
 ask me to pitch in, I will. I’m in.
@@ -1707,8 +1704,7 @@ do that.” And you’d be right. You and I will never dyno a 5.14a rock arch.
 The lesson isn’t that you need to risk your fingers (not to mention your
 life) on a rock. The lesson is that one person with a persistent vision can make
 change happen, whether climbing rocks or delivering services.
-Here’s a simple way to think about it: Obe Carrion, former U.S. rock-
-climbing champion, won a tournament in an unusual way. Obe was one of
+Here’s a simple way to think about it: Obe Carrion, former U.S. rockclimbing champion, won a tournament in an unusual way. Obe was one of
 four finalists, and each had to climb a very difficult route up a steep wall. The
 first three finalists did the same thing. They entered the roped-off area,
 inspected the route, and then slowly began climbing, one hold at a time,
@@ -1971,8 +1967,7 @@ News flash: The heretics not only live to tell about it now; they actually
 thrive. Jerry Shereshewsky was a heretic at Young & Rubicam, where his
 brash nature didn’t sit well with the buttoned-down culture of a 1970s
 advertising agency. No worries. Jerry went on to make a name for himself at
-BMG and then with me at Yoyodyne, then at Yahoo, and now at a Web start-
-up called grandparents.com. Quite a career. If he had kept his mouth shut,
+BMG and then with me at Yoyodyne, then at Yahoo, and now at a Web startup called grandparents.com. Quite a career. If he had kept his mouth shut,
 he’d still be marketing coffeemakers.
 Leaders Go First
 “Everyone will think it’s stupid!”
@@ -2005,10 +2000,10 @@ Watching the Music Business Die
 It’s not as if they didn’t see it coming. It took almost a decade for this
 thriving, hyperprofitable industry to cave in on itself. The reasons are truly
 simple:
- 
+
 1. Music industry executives didn’t have the heretic they needed. No one
 stood up and made change happen.
- 
+
 2. They forgot to embrace their tribe.
 Taking a look at the music business is a useful education for any heretic.
 It demonstrates how exceedingly intelligent people in a fairly new industry
@@ -2034,23 +2029,22 @@ Starting with the Beatles and Dylan, music industry executives kept minting
 money. The expanded purchasing power of teens, combined with the birth of
 rock, the invention of the transistor, and changing social mores meant a long,
 long growth curve.
-As a result, the music business built huge systems. They created top-
-heavy organizations, dedicated superstores, a loss-leader touring industry,
+As a result, the music business built huge systems. They created topheavy organizations, dedicated superstores, a loss-leader touring industry,
 extraordinarily high profit margins, MTV, and more. It was a well-greased
 system, but the key question is: Why did it deserve to last forever?
 It didn’t. Yours doesn’t either.
- 
+
 The music business was built around five pillars:
- 
+
 Free radio promotion
- 
+
 A limited number of competing music labels
- 
+
 The high cost of production, requiring musicians to get financing from
 labels
- 
+
 The Top 40 hits–based focus of the baby boomer generation
- 
+
 A high-margin, nonreproducible medium (the LP)
 Notice that none of these five pillars has anything to do with tribes or
 leadership.
@@ -2111,8 +2105,7 @@ knows it’s not working—she does it because her boss told her to.
 It’s ironic but not surprising that in our age of increased reliance on new
 ideas, rapid change, and innovation, sheepwalking is actually on the rise.
 That’s because we can no longer rely on machines to do the brain-dead stuff.
-We’ve mechanized what we could mechanize. What’s left is to cost-
-reduce the manual labor that must be done by a human. So we write manuals
+We’ve mechanized what we could mechanize. What’s left is to costreduce the manual labor that must be done by a human. So we write manuals
 and race to the bottom in our search for the cheapest possible labor. And it’s
 not surprising that when we go to hire that labor, we search for people who
 have already been trained to be sheeplike.
@@ -2239,58 +2232,57 @@ that they can ignite a micromovement and then be propelled by the people
 who choose to follow it.
 The key elements in creating a micromovement consist of five things to
 do and six principles:
- 
+
 1. Publish a manifesto.
 Give it away and make it easy for the manifesto to spread far and wide.
 It doesn’t have to be printed or even written. But it’s a mantra and a
 motto and a way of looking at the world. It unites your tribe members
 and gives them a structure.
- 
+
 2. Make it easy for your followers to connect with you.
 It could be as simple as visiting you or e-mailing you or watching you on
 television. Or it could be as rich and complex as interacting with you on
 Facebook or joining your social network on Ning.
- 
+
 3. Make it easy for your followers to connect with one another.
 There’s that little nod that one restaurant regular gives to another
 recognized regular. Or the shared drink in an airport lounge. Even better
 is the camaraderie developed by volunteers on a political campaign or
 insiders involved in a new product launch. Great leaders figure out how
 to make these interactions happen.
- 
+
 4. Realize that money is not the point of a movement.
 Money exists merely to enable it. The moment you try to cash out is the
 moment you stunt the growth of your movement.
- 
+
 5. Track your progress.
 Do it publicly and create pathways for your followers to contribute to
 that progress.
 Principles:
- 
 
 
 1. Transparency really is your only option.
 Every failed televangelist has learned this the hard way. The people who
 follow you aren’t stupid. You might go down in scandal or, more likely,
 from ennui. People can smell subterfuge from a mile away.
- 
+
 2. Your movement needs to be bigger than you.
 An author and his book, for example, don’t constitute a movement.
 Changing the way people apply to college does.
- 
+
 3. Movements that grow, thrive.
 Every day they get better and more powerful. You’ll get there soon
 enough. Don’t mortgage today just because you’re in a hurry.
- 
+
 4. Movements are made most clear when compared to the status quo or to
 movements that work to push the other direction.
 Movements do less well when compared to other movements with
 similar goals. Instead of beating them, join them.
- 
+
 5. Exclude outsiders.
 Exclusion is an extremely powerful force for loyalty and attention. Who
 isn’t part of your movement matters almost as much as who is.
- 
+
 6. Tearing others down is never as helpful to a movement as building your
 followers up.
 That Building Down the Street
@@ -2350,8 +2342,7 @@ The secret is realizing that wrong isn’t fatal.
 The only thing that makes people and organizations great is their
 willingness to be not great along the way. The desire to fail on the way to
 reaching a bigger goal is the untold secret of success.
-I’ve been waiting for you to ask for the shortcut, the error-free, failure-
-free way to get people to do what you want, to make change happen without
+I’ve been waiting for you to ask for the shortcut, the error-free, failurefree way to get people to do what you want, to make change happen without
 risk or fear, to magically alter the status quo. That, after all, is the best way to
 sell you on the ideas here. If I could just give you the answer, you’d be
 leading a tribe right now.
@@ -2419,7 +2410,6 @@ policing and enforcement costs, can all potentially add to the cost of
 procuring something with a firm. This suggests that firms will arise
 when they can arrange to produce what they need internally and
 somehow avoid these costs.
- 
 
 
 In other words, we start formal organizations when it’s cheaper than
@@ -2492,7 +2482,7 @@ sooner or later, the acquisition crisis is going to affect bottom lines.
 For some, it already has.
 What currently passes for an online fundraising model is at best
 a stopgap.
- 
+
 My take: I despair for most of the top fifty nonprofits in the United States.
 These are the big guys, and they’re stuck. Far more than the Fortune 100, not
 known for being cutting edge in themselves, the top charities rarely change. If
@@ -2644,14 +2634,14 @@ The Naked Violinist
 Tasmin Little is a violin prodigy who has managed to keep her career going
 long after many others have faded. As one of the great violinists working
 today, she has had concert tours and booking agents and a record deal.
-Her 
-new 
-record, 
-though, 
-is 
-free. 
-It’s 
-online 
+Her
+new
+record,
+though,
+is
+free.
+It’s
+online
 at
 http://www.tasminlittle.org.uk and you can listen to all of it, along with
 
@@ -3165,7 +3155,6 @@ Spread the word.
 Thanks.
 
 
- 
 “I’m not sure where I’m going. I’ll lead!”
 —EMMANUELLE HEYMAN
 

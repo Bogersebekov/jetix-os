@@ -9,6 +9,10 @@ chars: 153596
 approx_tokens: 38399
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 153598
+phase4_chars_after: 151963
+phase4_saved_pct: 1.1
 ---
 
 A General Language Assistant
@@ -57,83 +61,81 @@ arXiv:2112.00861v3  [cs.CL]  9 Dec 2021
 
 
 Contents
-1
+
 Introduction
-3
+
 1.1
 Motivations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-3
+
 1.2
 Research . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-5
+
 1.3
 Contributions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-9
-2
+
+
 Conditioning on Aligned Behavior
-9
+
 2.1
 Context Distillation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-10
+
 2.2
 Evaluations and Alignment Taxes
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-11
-3
+
+
 Scaling of Preference Modeling vs Imitation Learning
-14
+
 3.1
 Loss and Settings for Preference Modeling and Imitation Learning . . . . . . . . . . . . . .
-15
+
 3.2
 Performance and Scaling Results for Ranked versus Binary Preference Datasets . . . . . . .
-16
-4
+
+
 Preference Model Pre-Training and Transfer
-20
+
 4.1
 PMP and Datasets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-21
+
 4.2
 Finetuning Results and Scaling Trends . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-21
+
 4.3
 Ranked Preference Modeling vs Binary Discrimination for PMP . . . . . . . . . . . . . . .
-23
+
 4.4
 Human-Model vs Human-Human Comparisons for PMP . . . . . . . . . . . . . . . . . . .
-24
-5
+
+
 Discussion
-24
+
 5.1
 Related Work . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-24
+
 5.2
 Broader Impacts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-25
+
 5.3
 Implications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-26
+
 A Language Model Pre-training
-27
+
 B
 More Details on Prompting, Context Distillation, and Evaluations
-29
+
 C More Details on Preference Models
-34
+
 D Per-Token GAN-Style Discriminator Results
-40
+
 E
 Deﬁnitions of Alignment and the HHH criteria
-44
-2
 
 
 Figure 1
 We show the format of interactions with AI models for A/B testing and human feedback collection.
 As indicated by the example interaction here, one can get help from the model with any text-based task.
-1
+
 Introduction
 1.1
 Motivations
@@ -141,8 +143,7 @@ Contemporary AI models can be difﬁcult to understand, predict, and control. Th
 to signiﬁcant harms when AI systems are deployed, and might produce truly devastating results if future
 systems are even more powerful and more widely used, and interact with each other and the world in presently
 unforeseeable ways.
-This paper shares some nascent work towards one of our primary, ongoing goals, which is to align general-
-purpose AI systems with human preferences and values. A great deal of ink has been spilled trying to deﬁne
+This paper shares some nascent work towards one of our primary, ongoing goals, which is to align generalpurpose AI systems with human preferences and values. A great deal of ink has been spilled trying to deﬁne
 what it means for AI systems to be aligned, and to guess at how this might go wrong. We will deﬁne an AI
 as “aligned” if it is, in three words, helpful, honest, and harmless or ‘HHH’. Our alignment efforts aim to
 measure and address this general problem with large language models.
@@ -159,13 +160,9 @@ of where we’ve made progress on alignment, and where we’re currently falling
 remain obscure absent efforts to train general aligned agents and allow them to be probed in any way
 whatsoever. A very broad deﬁnition can also facilitate measurement, since it invites the examiner to
 pose a wide-variety of challenges.
-3
 
-
-• By studying a variety of alignment techniques in a general setting, it becomes much easier to com-
-pare them and to determine which techniques are simplest and most effective. Some techniques,
-such as the use of human feedback, are complex and potentially costly, so we’re interested in strate-
-gies that can increase their efﬁciency and focus their application exclusively on goals that cannot be
+• By studying a variety of alignment techniques in a general setting, it becomes much easier to compare them and to determine which techniques are simplest and most effective. Some techniques,
+such as the use of human feedback, are complex and potentially costly, so we’re interested in strategies that can increase their efﬁciency and focus their application exclusively on goals that cannot be
 attained more easily in another way.
 • Some view alignment as a highly speculative problem, or one that distracts from work on more
 pressing issues with existing AI systems. In our view, the societal impacts of current AI models
@@ -188,17 +185,14 @@ to ﬁnetuning, and how can we leverage its advantages? We ﬁnd that prompts in
 scaling on a variety of alignment-relevant evaluations, impose negligible ‘taxes’ on large models,
 and can be ‘context distilled’ back into the original model.
 • When and how much does preference modeling improve on imitation learning? We ﬁnd that
-preference modeling improves on and scales more favorably than imitation learning when prefer-
-ences are part of a ranked hierarchy or continuum (e.g. rank these responses in order of helpfulness),
+preference modeling improves on and scales more favorably than imitation learning when preferences are part of a ranked hierarchy or continuum (e.g. rank these responses in order of helpfulness),
 rather than associated with a binary choice (e.g. does this python function pass tests).
-• How can we improve the sample efﬁciency of preference modeling? We ﬁnd that we can signif-
-icantly improve sample efﬁciency using a ‘preference model pre-training’ (PMP) stage of training,
+• How can we improve the sample efﬁciency of preference modeling? We ﬁnd that we can significantly improve sample efﬁciency using a ‘preference model pre-training’ (PMP) stage of training,
 where we ﬁrst pre-train on large public datasets that encode human preference information, such as
 Stack Exchange, Reddit, and Wikipedia edits, before ﬁnetuning on smaller datasets encoding more
 speciﬁc human preferences.
 The last two points are particularly important for work using reinforcement learning (RL) for alignment,
-where the reward signals are predicted by a preference model. In particular, we expect bandit-type RL perfor-
-mance to improve roughly in proportion with preference modeling capabilities, since the preference model’s
+where the reward signals are predicted by a preference model. In particular, we expect bandit-type RL performance to improve roughly in proportion with preference modeling capabilities, since the preference model’s
 recognition of high-performance behavior should be closely related to the RL agent’s ability to achieve it. We
 anticipate that such a strategy can outperform imitation learning on some problems, especially those whose
 solutions lie on a ranked hierarchy. A similar approach applying human feedback to greatly improve the
@@ -213,13 +207,8 @@ Helpful:
 • The AI should make a clear attempt to perform the task or answer the question posed (as long as this
 isn’t harmful). It should do this as concisely and efﬁciently as possible.
 1We also discuss the HHH speciﬁcation in relation to our broader understanding of alignment in Appendix E.
-4
 
 
-107
-108
-109
-1010
 Number of Parameters
 0.0
 0.1
@@ -238,8 +227,7 @@ evaluations (y-axis measures accuracy at choosing better responses on our HHH ev
 impose little or no ‘alignment tax’ on large models, even on complex evaluations like function synthesis.
 Here we have evaluated our python code models on the HumanEval codex dataset [CTJ+21] at temperature
 T = 0.6 and top P = 0.95.
-• When more information is required, the AI should ask relevant follow-up questions and obtain nec-
-essary details. It should respond with appropriate levels of sensitivity, insight, and discretion.
+• When more information is required, the AI should ask relevant follow-up questions and obtain necessary details. It should respond with appropriate levels of sensitivity, insight, and discretion.
 • Ideally the AI will also re-direct ill-informed requests, e.g. if asked ‘how can I build a website in
 assembly language’ it might suggest a different approach.
 Honest:
@@ -262,20 +250,14 @@ consequential advice and act with appropriate modesty and care.
 • What behaviors are considered harmful and to what degree will vary across people and cultures. It
 will also be context-dependent, i.e. it will depend on the nature of the user query, who is using the
 AI assistant, and the time and place in which the assistant is being used.
-All of these criteria are at least somewhat subjective, and those who deploy an AI will need to take responsi-
-bility for the way that alignment is deﬁned and the extent to which it has been attained.
+All of these criteria are at least somewhat subjective, and those who deploy an AI will need to take responsibility for the way that alignment is deﬁned and the extent to which it has been attained.
 1.2
 Research
 Open-Ended Dialogue Format and Prompting
 We use open-ended natural language dialogue for interaction with our models, with an example pictured in
 ﬁgure 1. We allow for general inputs of essentially arbitrary length from human users, which can include
-5
 
 
-107
-108
-109
-1010
 Number of Parameters
 0.00
 0.05
@@ -307,30 +289,23 @@ choose one. We typically request that users pick the most helpful and honest res
 this interface both to A/B test different models and to collect human feedback data. We can use a very similar
 interface for other safety-related tasks, such as red-teaming the model against harmfulness.
 To evaluate performance we created a small dataset of evaluations associated with helpfulness, honesty,
-harms, and other behaviors in this interactive format. We are sharing these evaluations on BIG Bench for oth-
-ers to try. We also evaluate models and interventions via A/B testing with humans, who have been instructed
+harms, and other behaviors in this interactive format. We are sharing these evaluations on BIG Bench for others to try. We also evaluate models and interventions via A/B testing with humans, who have been instructed
 to solicit models’ help with arbitrary text-based tasks.
 Large language models engage in few-shot learning [BMR+20]. To generically elicit the sort of behavior
 shown in ﬁgure 1, we found that it was sufﬁcient to provide a long prompt (4600 words from 14 ﬁctional
 conversations) with example interactions. The prompt we used was not carefully designed or optimized for
-performance on evaluations; rather it was just written by two of us in an ad hoc manner prior to the construc-
-tion of any evaluations. Despite the fact that our prompt2 did not include any examples where models resisted
+performance on evaluations; rather it was just written by two of us in an ad hoc manner prior to the construction of any evaluations. Despite the fact that our prompt2 did not include any examples where models resisted
 manipulation, refused requests to aid in dangerous activities, or took a stand against unsavory behavior, we
 observed that models often actively avoided engaging in harmful behaviors based only on the AI ‘personality’
 imbued by the prompt. This is reﬂected in the performance trends on harmfulness in ﬁgure 6.
 In section 2 we explore the effects of the prompt. In the small data limit, prompting a generative language
 model may be qualitatively different from and superior to ﬁnetuning, since prompting imposes a prior, while
-ﬁnetuning alters the model’s expectations for the underlying data distribution. We make several points con-
-cerning prompting:
+ﬁnetuning alters the model’s expectations for the underlying data distribution. We make several points concerning prompting:
 • We ﬁnd that prompting can be superior to ﬁnetuning in the limit of very small datasets associated
 with alignment.
 2Prompt text and contractor instructions are at https://gist.github.com/jareddk/2509330f8ef3d787fc5aaac67aab5f11
-6
 
 
-102
-103
-104
 Number of Finetuning Sequence Pairs
 0.00
 0.02
@@ -347,13 +322,11 @@ PMP Reddit
 PMP Wiki
 Figure 4
 Performance gain of preference model pre-training on ﬁnetuning evaluations, as measured by
-accuracy difference relative to no PMP. Different colors represent different PMP datasets, including Stack-
-Exchange, Reddit, Wikipedia, and a ‘Mix’ of all three. Each line represents a combined (mean) result from
+accuracy difference relative to no PMP. Different colors represent different PMP datasets, including StackExchange, Reddit, Wikipedia, and a ‘Mix’ of all three. Each line represents a combined (mean) result from
 Learn to Summarize, HellaSwag, and all ﬁve Ethics evaluations. Results are shown for the 52B parameter
 model only, but similar positive results were also seen for the smaller models.
 • The prompt context ‘C’ can be distilled into a new language model that models the distribution
-P(X|C) instead of P(X); this is accomplished by simply ﬁnetuning with a loss given by the KL di-
-vergence between P(X|C) and the distilled model’s predictions. This procedure has more beneﬁcial
+P(X|C) instead of P(X); this is accomplished by simply ﬁnetuning with a loss given by the KL divergence between P(X|C) and the distilled model’s predictions. This procedure has more beneﬁcial
 effects as compared to ﬁnetuning on the prompt.
 • The capabilities of small models (e.g. on NLP or coding evaluations) are typically diminished in the
 presence of the prompt, presumably because they are confused by it. But larger models perform at
@@ -378,13 +351,8 @@ some examples include determining if python code passes tests, or determining if
 morally acceptable or unacceptable
 3Note that if such data is not available, there is an option to generate it, since expert examples can be compared with
 samples from a model – i.e. we can train a GAN-style discriminator.
-7
 
 
-107
-108
-109
-1010
 Number of Parameters
 0.30
 0.35
@@ -395,10 +363,8 @@ Accuracy
 Mean Transfer Performance at 500 Finetuning Seq Pairs
 No PMP
 PMP Mix
-107
-108
-109
-1010
+
+
 Number of Parameters
 0.4
 0.5
@@ -410,9 +376,7 @@ No PMP
 PMP Mix
 Figure 5
 Transfer performance at 500 and 5k sequence pairs on downstream ﬁnetuning evaluations with
-PMP (on the ‘Mix’ dataset, shown in violet) vs. without PMP (black). Each curve is averaged across ﬁne-
-tuning evaluations Learn to Summarize, HellaSwag, and all ﬁve Ethics evaluations. We see that PMP signiﬁ-
-cantly improves sample efﬁciency with large models.
+PMP (on the ‘Mix’ dataset, shown in violet) vs. without PMP (black). Each curve is averaged across ﬁnetuning evaluations Learn to Summarize, HellaSwag, and all ﬁve Ethics evaluations. We see that PMP signiﬁcantly improves sample efﬁciency with large models.
 • Ranked Preference Modeling among a tall hierarchy of possibilities, with examples including the
 popularity of a StackExchange answer, or the quality of a paragraph summary. Note that rankings
 can be learned from pairwise comparisons even though the underlying data has a ranked ordering.
@@ -422,8 +386,7 @@ somewhat better than imitation learning, but that binary discrimination does not
 Preference Model Pre-Training
 Models that learn to discriminate and rank human preferences play a natural role in alignment research.
 Such models can be used as ﬁlters, and they can also be leveraged more powerfully as preference models
-for reinforcement learning from human feedback (RLHF) [CLB+17], in order to train aligned policies. Fur-
-thermore, some proposals [CSA18, ICA18] for aligning more advanced AIs use different models to train or
+for reinforcement learning from human feedback (RLHF) [CLB+17], in order to train aligned policies. Furthermore, some proposals [CSA18, ICA18] for aligning more advanced AIs use different models to train or
 evaluate each other, so that the effectiveness and reliability of these techniques may ultimately depend on the
 performance and robustness of preference models.
 Preference modeling success may be hampered by small datasets, since a natural way to train these models
@@ -445,15 +408,12 @@ of 8192 tokens and a 216 token vocabulary. For language model pre-training, thes
 400B tokens on a distribution consisting mostly of ﬁltered Common Crawl data [Fou] and internet books,
 along with a number of smaller distributions [GBB+20], including about 10% python code data. We ﬁx the
 4By this we mean that we speciﬁcally sourced changes to Wikipedia that were noted as such and quickly reverted.
-8
-
 
 aspect ratio of our models so that the activation dimension dmodel = 128nlayer, and include models with
 13M, 42M, 197M, 810M, 2.7B, 13B, and 52B non-embedding parameters. Throughout the paper we will
 show results and comparisons as a function of model size, and by ‘Number of Parameters’ we will always
 mean non-embedding parameters.
-In some places we will also study the properties of these models after they have been ﬁnetuned on a pure dis-
-tribution of python code. We also discuss ﬁnetuning on a variety of other datasets, including with additional
+In some places we will also study the properties of these models after they have been ﬁnetuned on a pure distribution of python code. We also discuss ﬁnetuning on a variety of other datasets, including with additional
 heads that can make real-valued predictions at all token positions. Most of these ﬁnetuning datasets do not
 utilize the full 8192-token context window, so in many cases we restrict to shorter contexts during ﬁnetuning.
 For a more detailed description of language model pre-training see Appendix A.
@@ -490,7 +450,7 @@ teaches models the correct features without establishing strong model preference
 explanation with a quick synthetic data experiment shown in ﬁgure 33.
 • We also try training the preference model to discriminate between human- and model-generated
 samples for the PMP step, and ﬁnd that it also performs well, as shown in ﬁgure 19.
-2
+
 Conditioning on Aligned Behavior
 Large language models can be guided towards desirable behaviors by taking advantage of their in-context
 learning abilities. Given a suitable prompt, models will take on the style and persona implicit in the prompt
@@ -498,13 +458,8 @@ and continue to behave mostly in the same vein. This technique can leverage smal
 quality data, and it has the advantage that the prompt can be easily interpreted by humans. For a variety of
 reasons we do not expect that prompting will produce fully aligned behavior, but it provides a very useful
 baseline.
-9
 
 
-107
-108
-109
-1010
 Number of Parameters
 0.20
 0.25
@@ -521,9 +476,7 @@ LM Sum Logprobs
 Figure 6
 Left: We show the HHH evaluation performance broken down by category. The improvements
 on the Harm evaluations suggest a form of generalization, as the prompt does not contain any examples
-where the assistant resists engaging in harmful behavior. Right: We show results on the adversarial Truth-
-fulQA dataset (MC1), which was constructed so that larger models would perform more poorly. The context-
-distilled prompt seems to improve the performance of the largest models. The solid lines correspond to the
+where the assistant resists engaging in harmful behavior. Right: We show results on the adversarial TruthfulQA dataset (MC1), which was constructed so that larger models would perform more poorly. The contextdistilled prompt seems to improve the performance of the largest models. The solid lines correspond to the
 ofﬁcial evaluation using total probability for each response; we also show the mutual information metric for
 comparison.
 In this section we will study a variety of zero-shot evaluations for alignment with and without prompting.
@@ -542,8 +495,7 @@ our evaluations context distillation performs about as well as prompting. We beg
 method, and then we will discuss evaluations.
 2.1
 Context Distillation
-Sampling from a language model with a prepended prompt has several disadvantages: the prompt occu-
-pies useful space in a ﬁnite context window, which also limits the total prompt length, and without special
+Sampling from a language model with a prepended prompt has several disadvantages: the prompt occupies useful space in a ﬁnite context window, which also limits the total prompt length, and without special
 affordances the prompt will waste compute and memory when sampling.
 One way to avoid all of these problems is to ﬁnetune on the prompt. This invites some practical difﬁculties,
 since we need to ﬁnetune on a tiny dataset without limiting model capabilities. But ﬁnetuning also behaves
@@ -560,17 +512,8 @@ L(θ) = DKL(p0(X|C)||pθ(X))
 (2.1)
 where p0 is the initial model, the context C is ﬁxed, and the data X is drawn from a large corpus of text, such
 as the original pre-training distribution. We discuss the details of context distillation training in appendix B.5.
-10
 
 
-10
-7
-10
-8
-10
-9
-10
-10
 Number of Parameters
 0.3
 0.4
@@ -583,14 +526,8 @@ Accuracy on Lambada Eval
 LM
 LM+Prompt
 LM+Context Distillation
-10
-7
-10
-8
-10
-9
-10
-10
+
+
 Number of Parameters
 0.035
 0.030
@@ -615,11 +552,9 @@ a long-term memory or pseudo-identity.
 Evaluations and Alignment Taxes
 2.2.1
 HHH Evaluations and TruthfulQA
-As a ﬁrst step in evaluating our models, the authors wrote about ﬁfty comparison evaluations for each cate-
-gory of helpfulness, honesty,5 harmlessness (HHH), and an ‘other’ label, for a total of around two-hundred
+As a ﬁrst step in evaluating our models, the authors wrote about ﬁfty comparison evaluations for each category of helpfulness, honesty,5 harmlessness (HHH), and an ‘other’ label, for a total of around two-hundred
 comparisons, which will be available shortly at BIG Bench. We did not put effort into separating alignment
-from capabilities, and so even without any alignment-related prompting, we ﬁnd that larger models do some-
-what better overall. In many cases we initially produced several slightly different queries (largely differing
+from capabilities, and so even without any alignment-related prompting, we ﬁnd that larger models do somewhat better overall. In many cases we initially produced several slightly different queries (largely differing
 by paraphrase) for each comparison, but found that large models were rarely confused by these variations, so
 for simplicity we dropped them. Results on these evaluations are pictured in ﬁgure 2. We expect that more
 sophisticated alignment techniques should be able to signiﬁcantly improve these results.
@@ -639,22 +574,12 @@ alter trends signiﬁcantly, but does greatly affect absolute performance.
 of accuracy, preference for expressions of humility, recognition of when another source might be more useful than a
 language model, and unwillingness to provide inaccurate information. Whether an AI’s response is honest depends on
 the expertise of the AI, and a major weakness of our evaluations is that they do not account for this.
-6We wrote the prompt before TruthfulQA was available. That said, we found in other experiments that using Truth-
-fulQA examples as a prompt signiﬁcantly improves performance (much more than our prompt). This suggests that the
+6We wrote the prompt before TruthfulQA was available. That said, we found in other experiments that using TruthfulQA examples as a prompt signiﬁcantly improves performance (much more than our prompt). This suggests that the
 phenomenon uncovered by TruthfulQA is not a difﬁcult alignment challenge on its own.
 7In an earlier version of this paper we mistakenly used a very non-standard formulation of the task. We thank the
 authors of [LHE21] for pointing out this error, which has been corrected.
-11
 
 
-10
-7
-10
-8
-10
-9
-10
-10
 Number of Parameters
 0.03
 0.04
@@ -665,14 +590,8 @@ Toxicity in Response to Non-Toxic Prompts
 LM
 LM+Prompt
 LM+Context Distillation
-10
-7
-10
-8
-10
-9
-10
-10
+
+
 0.11
 0.12
 0.13
@@ -683,14 +602,12 @@ Toxicity in Response to Toxic Prompts
 Figure 8
 Left: Average toxicity in response to a random sample of 500 prompts labeled as ‘non-toxic’ from
 the RealToxicityPrompts dataset for language models (LM, blue), prompted language models (LM+Prompt,
-orange), and context distilled language models (LM+Context Distillation, green). Right: Same as Left, ex-
-cept for a random sample of 500 prompts labeled as Toxic. For non-toxic and toxic prompts, both prompting
+orange), and context distilled language models (LM+Context Distillation, green). Right: Same as Left, except for a random sample of 500 prompts labeled as Toxic. For non-toxic and toxic prompts, both prompting
 and context-distillation decrease toxicity and perform similarly to each other as models increase in size. It
 appears that the prompt leads to decreasing toxicity as model size increases.
 It is noteworthy that larger models tend to perform better on our evaluations in the presence of the HHH
 prompt, even on categories such as harmlessness that are not directly demonstrated by the prompt. We ﬁnd
-this mildly encouraging but unsurprising, since all prior work suggests that larger models have stronger in-
-context learning capabilities, so that they can more efﬁciently recognize the implicit framing from the prompt.
+this mildly encouraging but unsurprising, since all prior work suggests that larger models have stronger incontext learning capabilities, so that they can more efﬁciently recognize the implicit framing from the prompt.
 2.2.2
 Toxicity
 We measured the effect of prompting and context distillation on the toxicity of text generated from language
@@ -711,8 +628,7 @@ emerges at 12B parameters. In this regime, context distillation performs similar
 suggest that prompting-based alignment interventions may have more dramatic effects as models scale and
 may be more difﬁcult to evaluate for smaller models.
 While these results are encouraging, automated toxicity detection has several known issues [GGS+20,
-WGU+21]. For example, there can be low agreement in human annotations of toxicity and biases in tox-
-icity labels for certain minorities. We also note that other interventions explicitly designed to reduce toxicity
+WGU+21]. For example, there can be low agreement in human annotations of toxicity and biases in toxicity labels for certain minorities. We also note that other interventions explicitly designed to reduce toxicity
 (e.g., ﬁne-tuning models on non-toxic training data, steering/ﬁltering model outputs away from toxic outputs
 at test time, ﬁltering toxic training data at train time) can yield much larger decreases in automated toxicity
 scores than the ones we observe here [GGS+20, WGU+21]. Nevertheless, we believe that prompting and
@@ -720,10 +636,7 @@ context distillation provide a useful baseline for testing the impact of alignme
 toxicity scores.
 2.2.3
 Human Preferences and Model Performance
-Using the dialogue interface in ﬁgure 1, we evaluated relative model performance via a number of head-to-
-head tests between pairs of models. This worked as follows. For any given conversation, we would choose
-12
-
+Using the dialogue interface in ﬁgure 1, we evaluated relative model performance via a number of head-tohead tests between pairs of models. This worked as follows. For any given conversation, we would choose
 
 Figure 9
 This ﬁgure illustrates the approximate Elo score of various models, ﬁt from the frequency with
@@ -737,8 +650,7 @@ users would consistently ﬁnd "A" or "B" to be better. We also pegged streaming
 slowest model, to partially obscure model identity and avoid bias. We collected a total of about 6k individual
 pair-wise8 model comparisons
 From this process we collected a table of ‘win rates’ for pairs of models, which we provide in table 2 in the
-appendix. Here we included fully HHH-prompted models with 200M, 800M, 3B, 13B, and 52B parame-
-ters, though we collected somewhat more comparisons involving larger, better-performing models. We also
+appendix. Here we included fully HHH-prompted models with 200M, 800M, 3B, 13B, and 52B parameters, though we collected somewhat more comparisons involving larger, better-performing models. We also
 compared the fully prompted 13B and 52B models to their context-distilled versions and to a version with a
 shorter prompt consisting of only a single9 example conversation.
 We used these results to estimate a single relative Elo score for each model. Intuitively, this score is similar
@@ -763,13 +675,8 @@ HHH prompt.
 where weaker models perform more poorly early on in conversations, affecting the possibilities for later dialogue.
 9We did not use completely unprompted models because they would be very unlikely to keep to the format of the
 dialogue or emit appropriate stop sequences.
-13
 
 
-107
-108
-109
-1010
 Number of Parameters
 0.0
 0.1
@@ -784,10 +691,8 @@ Codex Pass@10
 Codex Pass@1
 Codex w/ HHH Prompt Pass@10
 Codex w/ HHH Prompt Pass@1
-107
-108
-109
-1010
+
+
 Number of Parameters
 0.0
 0.1
@@ -805,8 +710,7 @@ QuixBugs Pass@1
 QuixBugs w/ HHH Prompt Pass@10
 QuixBugs w/ HHH Prompt Pass@1
 Figure 10
-This ﬁgure shows performance of our code-ﬁnetuned models on the Codex and QuixBugs eval-
-uations with and without the alignment prompt. We see that in both cases, the prompt confuses smaller
+This ﬁgure shows performance of our code-ﬁnetuned models on the Codex and QuixBugs evaluations with and without the alignment prompt. We see that in both cases, the prompt confuses smaller
 models, leading to worse performance, but it actively improves the 13B and 52B models. All samples were
 generated at temperature T = 0.6 and top P = 0.95 (these settings were not optimized and are not optimal
 for Pass@1). Note the ﬁgure on the left here was also presented in the introduction.
@@ -830,12 +734,11 @@ itself might be regarded as an alignment problem, but unfortunately we do not �
 reduces the difference between accuracies obtained from different Lambada formats.
 We therefore found that while smaller models may be confused by the prompt, larger models’ performance
 is not heavily impacted by it.
-3
+
 Scaling of Preference Modeling vs Imitation Learning
 Alignment requires distinguishing between ‘good’ and ‘bad’ behavior. There are several different training
 objectives that may be used to accomplish this:
-• Imitation Learning: Here we simply train language models to imitate ‘good’ behavior via super-
-vised learning with the usual cross-entropy loss.
+• Imitation Learning: Here we simply train language models to imitate ‘good’ behavior via supervised learning with the usual cross-entropy loss.
 • Binary Discrimination: Given a sample of ‘correct’ behavior and a sample of ‘incorrect’ behavior,
 train the model to distinguish between the two.
 • Ranked Preference Modeling: Given a dataset of samples whose overall ‘quality’ is ranked in
@@ -843,8 +746,6 @@ some way, we train models to output a scalar quality score10 for each sample who
 the ranking as closely as possible. For simplicity we focus on using pairs of ranked samples (i.e.,
 binary comparisons), and we train our models to assign a higher score to the ‘better’ sample in each
 10These values could then be used as reward signals for reinforcement learning.
-14
-
 
 pair. In some respects this generalizes binary discrimination, and for uniformity we will use it as the
 training objective even for binary discrimination tasks (see section 3.1 for details).
@@ -858,8 +759,7 @@ modeling on a variety of ﬁnetuning evaluations, some of which are binary in na
 We focus mostly on alignment-relevant tasks, but include one binary and one ranked NLP task (Lambada
 [PKL+16] and HellaSwag [ZHB+19], respectively). Code Correctness is a dataset we constructed from
 python functions in public github repos with test coverage, with correctness determined by unit tests. The
-Ethics [HBB+21] evaluations are mostly binary classiﬁcation problems, and so naturally belong in our bi-
-nary category, except for Utilitarianism which compares relative ‘pleasantness’ of scenarios. The distinction
+Ethics [HBB+21] evaluations are mostly binary classiﬁcation problems, and so naturally belong in our binary category, except for Utilitarianism which compares relative ‘pleasantness’ of scenarios. The distinction
 between ranked and binary tasks can be ambiguous—for example, whether code passes tests is binary, but
 code quality seems like a continuum.
 Our results support a simple conclusion summarized in ﬁgure 3: Ranked preference models tend to improve
@@ -867,8 +767,7 @@ greatly on imitation learning, but binary discrimination typically provides litt
 In some respects this conclusion is quite intuitive: to apply imitation learning to preference modeling, one
 must either only train on the very best data (limiting the dataset size) or train to imitate a lot of examples of
 lower quality. Nonetheless, the magnitude of the gains are rather stark.
-In many cases it is also possible to study the robustness of various methods for ranking samples. For exam-
-ple, if we sample many responses to a prompt/query, we would like to know if the highest ranked samples
+In many cases it is also possible to study the robustness of various methods for ranking samples. For example, if we sample many responses to a prompt/query, we would like to know if the highest ranked samples
 according to a given preference model are truly the best. We test this behavior directly in our code correctness
 studies and with Lambada.
 3.1
@@ -886,8 +785,7 @@ for some applications; for binary ‘correctness’ it would be better to predic
 incorrect, and for multiple choice problems, it might be better to maximize the likelihood for the correct
 response among all available responses. However, since our primary motivation is preference modeling, we
 will focus on this formulation unless otherwise noted.
-In particular, we format all binary discriminators as preference models so that the same architecture can be uti-
-lized for both binary and ranked evaluations, which is convenient for studying transfer between them. Given
+In particular, we format all binary discriminators as preference models so that the same architecture can be utilized for both binary and ranked evaluations, which is convenient for studying transfer between them. Given
 any context C with a binary label A/B (e.g., ‘True/False’, ‘Good/Bad’), we create a preference modeling pair
 C:A > C:B, where B denotes the incorrect label, and the colon denotes concatenation.
 We also found that appending a special ‘end-of-context’ token to each sequence to unambiguously delineate
@@ -899,12 +797,8 @@ this means that for imitation learning we trained on C:A. We found that applying
 the response tokens improved performance signiﬁcantly, so all our imitation learning results are masked.
 Furthermore, just to clarify, at training time we sum over negative token log-probs to compute the loss as is
 typically done, but at evaluation time we average over negative token log-probs to make pairwise comparisons
-15
 
 
-100
-101
-102
 Number of Samples
 0.2
 0.3
@@ -914,9 +808,8 @@ Number of Samples
 0.7
 Top-1 Accuracy
 Preference Modeling (Solid) vs. Imitation Learning (Dashed)
-108
-109
-1010
+
+
 Model Parameters
 Figure 11
 Here we compare the performance of code correctness discriminators and imitation learning for
@@ -945,20 +838,14 @@ the IL model, and scores produced by the preference model. Then we evaluated the
 sample among k, as ranked by either method, was in fact correct (we derive an unbiased formula in appendix
 B.6, based on the pass@k estimate from [CTJ+21]). For this we used the same model size for training and
 test set generation and for ranking samples. Some results are shown in ﬁgures 11 and 12.
-Overall we found that preference modeling on this binary discrimination task does not improve very signif-
-icantly on imitation learning. Both PM and IL are quite similar, overall. These results differ from similar
+Overall we found that preference modeling on this binary discrimination task does not improve very significantly on imitation learning. Both PM and IL are quite similar, overall. These results differ from similar
 recent experiments on math problem solving [CKB+21], though they trained on thousands of times less data.
 The difference may be that our imitation learning baseline is much stronger, since even before IL ﬁnetuning
 on Code Correctness speciﬁcally, our code models had seen a great deal of on-distribution python code.
 Lambada (Binary)
 11We required that at least half of the lines in the function were executed by a combination of tests in the repo.
-16
 
 
-107
-108
-109
-1010
 Number of Parameters
 0.2
 0.3
@@ -971,10 +858,8 @@ Oracle
 Average (No Ranking)
 IL Mean Log-Probs
 PM Scores
-107
-108
-109
-1010
+
+
 Number of Parameters
 0.2
 0.3
@@ -988,10 +873,8 @@ Oracle
 Average (No Ranking)
 IL Mean Log-Probs
 PM Scores
-107
-108
-109
-1010
+
+
 Number of Parameters
 0.2
 0.3
@@ -1006,10 +889,8 @@ Oracle
 Average (No Ranking)
 IL Mean Log-Probs
 PM Scores
-107
-108
-109
-1010
+
+
 Number of Parameters
 0.2
 0.3
@@ -1044,20 +925,14 @@ We also performed a comparison of imitation learning and preference modeling on 
 dataset. This is a multiple choice evaluation on commonsense inference—given an event description, the
 model is asked to identify the most sensible completion. Although each problem presents only three choices,
 the desired responses are not uniquely correct, but are merely the most sensible inference among the three
-options. Thus this task is a form of ranked preference modeling, rather than binary discrimination. In agree-
-ment with our expectations, we ﬁnd that preference modeling scales far better than imitation learning on this
+options. Thus this task is a form of ranked preference modeling, rather than binary discrimination. In agreement with our expectations, we ﬁnd that preference modeling scales far better than imitation learning on this
 dataset, as shown in ﬁgure 14.
 Note that while the training data is formatted as multiple choice, we convert the data to binary comparisons
 by pairing the correct choice with a randomly chosen incorrect choice. It might be possible to improve
 performance by training on all options, but we did not explore this.
 Learn to Summarize (Ranked)
-17
 
 
-107
-108
-109
-1010
 Number of Parameters
 0.1
 0.2
@@ -1074,10 +949,8 @@ Oracle
 Average (No Ranking)
 IL Mean Log-Probs
 PM Scores
-107
-108
-109
-1010
+
+
 Number of Parameters
 0.1
 0.2
@@ -1094,10 +967,8 @@ Oracle
 Average (No Ranking)
 IL Mean Log-Probs
 PM Scores
-107
-108
-109
-1010
+
+
 Number of Parameters
 0.2
 0.4
@@ -1110,10 +981,8 @@ Oracle
 Average (No Ranking)
 IL Mean Log-Probs
 PM Scores
-107
-108
-109
-1010
+
+
 Number of Parameters
 0.2
 0.4
@@ -1135,10 +1004,8 @@ Note that for some questions, all the generated answers may be incorrect in whic
 accuracy. We see that these approaches perform similarly, as we expected since Lambada is a ‘binary’ eval.
 Lambada performance depends signiﬁcantly on formatting, as noted in appendix B.4. We also include a line
 for T = 0 (argmax) sampling .
-107
-108
-109
-1010
+
+
 Number of Parameters
 0.3
 0.4
@@ -1151,10 +1018,8 @@ Accuracy
 HellaSwag (Ranked)
 Preference Modeling
 Imitation Learning
-107
-108
-109
-1010
+
+
 Number of Parameters
 0.55
 0.60
@@ -1169,13 +1034,8 @@ Figure 14
 Scaling behavior of imitation learning and preference modeling on HellaSwag (ranked) and
 Learn to Summarize (ranked), showing that PM performs better than IL, as we expect for ranked ﬁnetuning
 evaluations.
-18
 
 
-107
-108
-109
-1010
 Number of Parameters
 0.750
 0.775
@@ -1189,10 +1049,8 @@ Accuracy
 Ethics: Commonsense Morality (Binary)
 Preference Modeling
 Imitation Learning
-107
-108
-109
-1010
+
+
 Number of Parameters
 0.3
 0.4
@@ -1204,10 +1062,8 @@ Accuracy
 Ethics: Deontology (Binary)
 Preference Modeling
 Imitation Learning
-107
-108
-109
-1010
+
+
 Number of Parameters
 0.2
 0.3
@@ -1219,10 +1075,8 @@ Accuracy
 Ethics: Justice (Binary)
 Preference Modeling
 Imitation Learning
-107
-108
-109
-1010
+
+
 Number of Parameters
 0.1
 0.2
@@ -1235,10 +1089,8 @@ Accuracy
 Ethics: Virtue (Binary)
 Preference Modeling
 Imitation Learning
-107
-108
-109
-1010
+
+
 Number of Parameters
 0.55
 0.60
@@ -1266,10 +1118,7 @@ alignment. We created our own data split by shufﬂing the data and splitting it
 (29k pairs) set. On this dataset preference modeling performs far better than imitation learning, as seen in
 ﬁgure 14.
 Ethics (Binary, except for Utilitarianism)
-We studied the Ethics tasks [HBB+21], which include ﬁve distinct datasets. We provide a simpliﬁed descrip-
-tion of each here, but we encourage the interested reader to read the original paper for details:
-19
-
+We studied the Ethics tasks [HBB+21], which include ﬁve distinct datasets. We provide a simpliﬁed description of each here, but we encourage the interested reader to read the original paper for details:
 
 • Commonsense Morality (binary): Assess whether a given action is morally acceptable.
 • Deontology (binary): Assess whether a given statement is reasonable on the basis of ‘whether an act
@@ -1292,7 +1141,7 @@ cases we also display the preference modeling loss (3.1), as in ﬁgure 16, and 
 over all pairwise comparisons, without any grouping.
 We ﬁnd that as claimed, PM performs signiﬁcantly better than IL on the ranked Utilitarianism evaluation, but
 that PM and IL perform similarly on all binary evaluations, as shown in ﬁgure 15.
-4
+
 Preference Model Pre-Training and Transfer
 We saw in section 3 that ranked preference modeling typically performs better than imitation learning, and
 also often scales better as we increase model size. However, some datasets needed for alignment may be
@@ -1300,15 +1149,13 @@ small and expensive to source, since they may require high-quality human feedbac
 a hint in ﬁgure 9 that workers may require detailed instructions to differentiate13 among models much larger
 than 10B parameters. Thus we are particularly interested in methods to increase sample efﬁciency when
 ﬁnetuning on small preference modeling datasets.
-In this section we will explore the idea of a ‘preference model pre-training’ (PMP) phase of training, after ba-
-sic language model (LM) pretraining and before ﬁnetuning on a smaller preference modeling dataset relevant
+In this section we will explore the idea of a ‘preference model pre-training’ (PMP) phase of training, after basic language model (LM) pretraining and before ﬁnetuning on a smaller preference modeling dataset relevant
 for alignment. Our training pipeline can be summarized as
 LM Pre-training →PMP →PM Finetuning.
 Each PMP training dataset typically consists of millions of sequence pairs, while each ﬁne-tuning dataset
 typically consists of thousands to tens of thousands of sequence pairs.
 We ﬁnd that:
-• Training on large public preference modeling data sourced from e.g. Stack Exchange question-
-answer pairs, Reddit comments, and Wikipedia edits (that revert ‘suspected vandalism’) signiﬁcantly
+• Training on large public preference modeling data sourced from e.g. Stack Exchange questionanswer pairs, Reddit comments, and Wikipedia edits (that revert ‘suspected vandalism’) signiﬁcantly
 improves sample efﬁciency when subsequently ﬁnetuning on small preference modeling datasets.
 The pre-training datasets are explained in section 4.1, and the ﬁnetuning results are presented in
 section 4.2.
@@ -1320,54 +1167,46 @@ data rather than ranked preferences. We suspect this is because ranked preferenc
 12In some cases this might be altered by changing the objective of the task, but this is our understanding based on the
 given evaluation metrics [HBB+21]
 13A similar observation was made concerning news articles in [BMR+20].
-20
 
 
-107
-108
-109
-1010
 Number of Parameters
 5.2 × 10
-1
+
 5.4 × 10
-1
+
 5.6 × 10
-1
+
 5.8 × 10
-1
+
 6 × 10
-1
+
 6.2 × 10
-1
+
 6.4 × 10
-1
+
 6.6 × 10
-1
+
 Preference Modeling Loss
 Mean Transfer Performance at 500 Finetuning Seq Pairs
 No PMP
 PMP Mix
-107
-108
-109
-1010
+
+
 Number of Parameters
 3 × 10
-1
+
 4 × 10
-1
+
 5 × 10
-1
+
 6 × 10
-1
+
 Preference Modeling Loss
 Mean Transfer Performance at 5k Finetuning Seq Pairs
 No PMP
 PMP Mix
 Figure 16
-Transfer performance at 500 and 5k ﬁnetuning sequence pairs averaged across multiple ﬁnetun-
-ing evaluations (Learn to Summarize, HellaSwag, and all ﬁve Ethics evaluations).
+Transfer performance at 500 and 5k ﬁnetuning sequence pairs averaged across multiple ﬁnetuning evaluations (Learn to Summarize, HellaSwag, and all ﬁve Ethics evaluations).
 ‘unlearned’ during ﬁnetuning, which presents a liability to transfer, as explained in section 4.3. In
 particular, for PMP we apply a simple ‘binarization’ method that converts any ranked PM dataset to
 binary discrimination, as explained in section 4.1.
@@ -1388,8 +1227,7 @@ We pre-train a scan of preference models of various sizes on each binary dataset
 hyperparameter choices are described in section C.1.
 4.2
 Finetuning Results and Scaling Trends
-Here we show ﬁnetuning results after preference model pre-training (PMP) on a variety of downstream ﬁne-
-tuning evaluations. We ﬁnd that all our PMP models signiﬁcantly improve sample efﬁciency when ﬁnetuning,
+Here we show ﬁnetuning results after preference model pre-training (PMP) on a variety of downstream ﬁnetuning evaluations. We ﬁnd that all our PMP models signiﬁcantly improve sample efﬁciency when ﬁnetuning,
 despite there often being little similarity between the PMP distribution and the ﬁnetuning distribution.
 Our results are summarized in ﬁgure 4, showing the performance gain of PMP. Since performance on all of
 our ﬁnal ﬁnetuning datasets can be evaluated in terms of accuracy, we deﬁne the performance gain as the
@@ -1404,12 +1242,8 @@ performance signiﬁcantly for models larger than ∼1B parameters, but does not
 models. Furthermore, at 10k ﬁnetuning sequences (or 5000 pairs), PMP Mix also beneﬁts large models, but
 to a lesser extent. We also show results for scaling of the best-achieved loss with model size on the ﬁnetuning
 evaluation datasets in ﬁgure 28 in the appendix.
-21
 
 
-102
-103
-104
 Number of Finetuning Sequence Pairs
 0.2
 0.3
@@ -1423,9 +1257,8 @@ Accuracy
 Finetuning on Hellaswag (52B)
 No PMP
 PMP Mix
-102
-103
-104
+
+
 Number of Finetuning Sequence Pairs
 0.45
 0.50
@@ -1439,9 +1272,8 @@ Accuracy
 Finetuning on Learn to Summarize (52B)
 No PMP
 PMP Mix
-102
-103
-104
+
+
 Number of Finetuning Sequence Pairs
 0.5
 0.6
@@ -1454,9 +1286,8 @@ No PMP
 PMP Mix
 No PMP (HARD)
 PMP Mix (HARD)
-102
-103
-104
+
+
 Number of Finetuning Sequence Pairs
 0.0
 0.1
@@ -1473,9 +1304,8 @@ No PMP
 PMP Mix
 No PMP (HARD)
 PMP Mix (HARD)
-102
-103
-104
+
+
 Number of Finetuning Sequence Pairs
 0.0
 0.1
@@ -1491,9 +1321,8 @@ No PMP
 PMP Mix
 No PMP (HARD)
 PMP Mix (HARD)
-103
-104
-105
+
+
 Number of Finetuning Sequence Pairs
 0.0
 0.1
@@ -1509,9 +1338,8 @@ No PMP
 PMP Mix
 No PMP (HARD)
 PMP Mix (HARD)
-102
-103
-104
+
+
 Number of Finetuning Sequence Pairs
 0.50
 0.55
@@ -1535,12 +1363,8 @@ set (dashed curves), but only one training set. The x-axis shows the number of �
 pairs, while the y-axis shows accuracy as evaluated on a held-out test set. All results are shown for the
 52B parameter model. In most cases PMP signiﬁcantly improves sample efﬁciency, especially in the ≲10k
 sequence pairs regime. Plots show 4 training epochs for each eval.
-22
 
 
-102
-103
-104
 Number of Finetuning Sequence Pairs
 0.00
 0.01
@@ -1550,7 +1374,7 @@ Number of Finetuning Sequence Pairs
 0.05
 0.06
 Accuracy Difference
-Acc Gain of Binary Over Ranked PMP 
+Acc Gain of Binary Over Ranked PMP
  On Finetuning
 PMP Mix
 Figure 18
@@ -1569,8 +1393,7 @@ is predicted, as discussed in C.4.
 Ranked Preference Modeling vs Binary Discrimination for PMP
 Recall that our pre-training dataset comes in two forms: ranked and binary. So far we have only presented
 ﬁne-tuning results from binary PMP, but here we also compare to ranked pre-training, and show that binary
-pre-training typically transfers better than ranked-pre-training. This may be counter-intuitive because prefer-
-ence models are designed to learn an Elo-like score, which can be interpreted as a ranking, and so it is natural
+pre-training typically transfers better than ranked-pre-training. This may be counter-intuitive because preference models are designed to learn an Elo-like score, which can be interpreted as a ranking, and so it is natural
 to expect ranked pre-training to outperform binary. The goals of this section are to (1) present empirical
 results showing the difference, and (2) provide and brieﬂy test a plausible explanation.
 In ﬁgure 18 we show the advantage of binary pre-training over ranked pre-training. In particular, for each
@@ -1580,19 +1403,12 @@ over all such evaluations, giving the bold violet curve. On average, we ﬁnd th
 +5% better at 500 sequence pairs, and +2% better at 5k sequence pairs. More detailed plots of binary vs.
 ranked pre-training can be found in ﬁgure 37 in the appendix, showing the accuracy difference for multiple
 individual pre-training datasets and multiple individual ﬁnetuning evaluations.
-This result surprised some of the authors, but with hindsight we found a plausible explanation. When pre-
-training on a ranked dataset, the model learns a corresponding ranked ordering for sample sequences (rep-
-resented by a scalar value for each sample). However, downstream evaluations may have rankings that are
+This result surprised some of the authors, but with hindsight we found a plausible explanation. When pretraining on a ranked dataset, the model learns a corresponding ranked ordering for sample sequences (represented by a scalar value for each sample). However, downstream evaluations may have rankings that are
 qualitatively very different, which may then require the pre-trained model to ‘unscramble’ its existing ratings.
-On the contrary, binary pre-training establishes a much less ‘rigid’ score, which may require less ‘unscram-
-bling’ and thus may transfer more easily to very different datasets. We designed an experiment with synthetic
+On the contrary, binary pre-training establishes a much less ‘rigid’ score, which may require less ‘unscrambling’ and thus may transfer more easily to very different datasets. We designed an experiment with synthetic
 data that appears to conﬁrm this hypothesis, which we describe in detail in appendix C.6.
-23
 
 
-102
-103
-104
 Number of Finetuning Sequence Pairs
 0.55
 0.60
@@ -1600,11 +1416,10 @@ Number of Finetuning Sequence Pairs
 0.70
 0.75
 Accuracy
-Performance of Human-human vs. Human-model 
+Performance of Human-human vs. Human-model
  Reddit PMP On Learn to Summarize
-102
-103
-104
+
+
 Number of Finetuning Sequence Pairs
 0.3
 0.4
@@ -1614,7 +1429,7 @@ Number of Finetuning Sequence Pairs
 0.8
 0.9
 Accuracy
-Performance of Human-human vs. Human-model 
+Performance of Human-human vs. Human-model
  Reddit PMP On HellaSwag
 Human-model (13B)
 Human-model (2.7B)
@@ -1646,13 +1461,12 @@ with “good” human-written sequences and “bad” model-written sequences. F
 the Reddit PMP dataset, and a 3B model for sample generation.
 We found that PMP on the human-model Reddit dataset transfers signiﬁcantly better to HellaSwag, and
 somewhat better to Learn to Summarize, as shown in ﬁgure 19. Transfer to the Ethics evaluations (see ﬁgure
-36) is more ambiguous, showing both positive and negative signals. Our suspicion is that human-model pre-
-training has a particular advantage on downstream ﬁnetuning evaluations that contain model-generated data—
+36) is more ambiguous, showing both positive and negative signals. Our suspicion is that human-model pretraining has a particular advantage on downstream ﬁnetuning evaluations that contain model-generated data—
 indeed, all incorrect answers on HellaSwag are model-generated, and Learn to Summarize has a signiﬁcant
 amount of model-generated summaries, while Ethics has no model-generated data. Nonetheless, PMP with
 human-model generated data deserves further investigation, especially since it can be applied to such a great
 variety of data distributions.
-5
+
 Discussion
 5.1
 Related Work
@@ -1661,8 +1475,6 @@ research plans such as [AOS+16] and [HCSS21]. Work using human feedback to learn
 [SOW+20] has particular relevance to our work, since they observe that preference modeling and RL lead to
 dramatic improvements compared to imitation learning. One of our motivations was to understand when such
 improvements can be expected from these techniques, and how we can take maximal advantage of human
-24
-
 
 feedback data. To inquire into our models’ alignment we discussed ethics evaluations from [HBB+21],
 adversarial honesty evaluations from [LHE21], and toxicity evaluations from [GGS+20].
@@ -1672,16 +1484,13 @@ of prompts was motivated by observations about the behavior of large language mo
 other observations about prompting and the dependence of prompt-tuning on scale were made in [LARC21]
 though we did not utilize prompt tuning. The fact that larger models are less subject to forgetting [RDR20]
 may be related to the fact that larger models do not incur signiﬁcant alignment taxes.
-Our coding models are similar to those discussed in [CTJ+21]. They also performed alignment-related eval-
-uations, though with high and low quality code examples rather than a natural language prompt. The recent
+Our coding models are similar to those discussed in [CTJ+21]. They also performed alignment-related evaluations, though with high and low quality code examples rather than a natural language prompt. The recent
 work [AON+21] evaluated language models (without a great deal of code training) on code, including in a
 conversational manner.
-Many papers have studied scaling laws [HNA+17, RRBS19, KMH+20, Jon21]. A few have compared dis-
-criminators or preference models to imitation learning, including [ILP+18, SOW+20, WOZ+21]. The T-REX
+Many papers have studied scaling laws [HNA+17, RRBS19, KMH+20, Jon21]. A few have compared discriminators or preference models to imitation learning, including [ILP+18, SOW+20, WOZ+21]. The T-REX
 IRL method [BGNN19] uses ranked preference modeling to improve on GAIL and on imitation learning. The
 authors of [AAB+21] compared GAIL [HE16] to conventional imitation learning in an RL context, and found
-in some cases that GAIL scaled signiﬁcantly better with dataset size. Experiments comparing RL and be-
-havioral cloning with the decision transformer [CLR+21] are also somewhat similar to our comparison of
+in some cases that GAIL scaled signiﬁcantly better with dataset size. Experiments comparing RL and behavioral cloning with the decision transformer [CLR+21] are also somewhat similar to our comparison of
 preference modeling and imitation learning. Very recently [CKB+21] performed experiments that are very
 similar to our work on code correctness, except that they studied mathematical problem solving, and focused
 more on dataset size scaling. Interestingly, they ﬁnd that a veriﬁer (aka binary discriminator) has a more
@@ -1702,23 +1511,17 @@ This work was motivated by the problem of technical AI alignment, with the speci
 natural language agent that is helpful, honest, and harmless. We believe this work is important because of the
 potential for very broad impacts from AI and from language models in particular, especially if progress in the
 ﬁeld continues at its current rapid pace [Bow21].
-We hope that by directly approaching a general and ambitious problem, we will either (1) fail due to spe-
-ciﬁc technical challenges, which we would then attempt to more precisely articulate for further study from
+We hope that by directly approaching a general and ambitious problem, we will either (1) fail due to speciﬁc technical challenges, which we would then attempt to more precisely articulate for further study from
 the research community, or (2) convince ourselves that we have addressed technical alignment for currently
-available models.14 In the event of the second outcome, we would expect our results to be carefully interro-
-gated by the research community. There would also be a need for further empirical investigations into how
+available models.14 In the event of the second outcome, we would expect our results to be carefully interrogated by the research community. There would also be a need for further empirical investigations into how
 well these techniques scale to more capable models in terms of both robustness and efﬁciency, and how likely
 it is that we will be able to detect alignment failures in more capable models.
-The road to hell is paved with good intentions, and as such we shouldn’t be complacent with concerns asso-
-ciated with alignment work. Foremost in our minds is that advances in aligning AI with human values do not
+The road to hell is paved with good intentions, and as such we shouldn’t be complacent with concerns associated with alignment work. Foremost in our minds is that advances in aligning AI with human values do not
 depend on any speciﬁc choice for these values. Efﬁcient alignment techniques could be used to train highly
 capable systems that do things we consider to be bad, for instance systems for misinformation, censorship,
 or oppression. Even terms like helpful, honest, and harmless are ambiguous and can be in tension with each
-other, and it’s easy to imagine them distorted beyond their original meaning, perhaps in intentionally Or-
-14Of course, we may fail in uninteresting ways, due to our own limitations, and in that case we can only hope that
+other, and it’s easy to imagine them distorted beyond their original meaning, perhaps in intentionally Or14Of course, we may fail in uninteresting ways, due to our own limitations, and in that case we can only hope that
 future work will be more successful.
-25
-
 
 wellian ways. And within the context of our own and similar work, the choice of who provides feedback data
 to train models has broad implications.
@@ -1745,17 +1548,14 @@ a trained policy. This logic should become irrefutable when preference models ar
 models for RL training. So, given that large gains in both absolute performance and scaling are possible
 when training ranked preference models, signiﬁcant progress on alignment may also be possible.
 Author Contributions
-Yuntao Bai sourced and curated the PMP data with initial help from Ben Mann, conducted the PMP and ﬁne-
-tuning experiments, suggested investigating the distinctions between binary and ranked preference modeling,
+Yuntao Bai sourced and curated the PMP data with initial help from Ben Mann, conducted the PMP and ﬁnetuning experiments, suggested investigating the distinctions between binary and ranked preference modeling,
 and suggested several ML improvements for preference modeling.
-Anna Chen conducted experiments on scaling trends for imitation learning versus preference modeling, in-
-cluding on function synthesis (with help from Dawn Drain, Andy Jones, and others). She also conducted
+Anna Chen conducted experiments on scaling trends for imitation learning versus preference modeling, including on function synthesis (with help from Dawn Drain, Andy Jones, and others). She also conducted
 the experiments on GAN-type discriminators and many other evaluations, and suggested improvements for
 preference modeling and code quality.
 Anna and Yuntao collaborated on many experiments and on the training and evaluation code for preference
 modeling.
-Amanda Askell developed the conceptualization of alignment in terms of helpfulness, honesty, and harmless-
-ness. Amanda produced the initial mockup of the model interface and helped to design and build it. Amanda
+Amanda Askell developed the conceptualization of alignment in terms of helpfulness, honesty, and harmlessness. Amanda produced the initial mockup of the model interface and helped to design and build it. Amanda
 sourced and trained workers for the interface, conducted our original A/B testing experiments, and provided
 guidance on evaluations.
 Ben Mann built most of the human interaction interface and the necessary backend for robust and efﬁcient
@@ -1766,11 +1566,8 @@ Ben, Yuntao, Anna, and Amanda contributed to research and project planning.
 Deep Ganguli proposed, conducted, and analyzed experiments on toxicity (with help from Andy Jones and
 others) and conducted some of our experiments on alignment taxes. He also contributed to discussions on
 harms and alignment.
-Dawn Drain trained the code models and helped Anna with code evaluations, including with collecting func-
-tions with test coverage (with some help from Ben Mann, Andy Jones, and Tom Henighan). Dawn also
+Dawn Drain trained the code models and helped Anna with code evaluations, including with collecting functions with test coverage (with some help from Ben Mann, Andy Jones, and Tom Henighan). Dawn also
 conducted experiments on alignment taxes with code models.
-26
-
 
 Nicholas Joseph was central to building and maintaining a highly efﬁcient distributed training system for
 large language models and helped with our sampling infrastructure.
@@ -1779,10 +1576,8 @@ and experiments on the numerical stability of large language model training. He 
 on large language models. Nova DasSarma has also helped manage the cluster.
 Andy Jones was central in building our sampling infrastructure. He also provided engineering support to the
 toxicity experiments, A/B testing infrastructure, distributed training, and code model data collection.
-Catherine Olsson contributed crucially to alignment ideas, and provided useful advice for sourcing and train-
-ing contractors to test our models.
-Led by Tom Brown in collaboration with Sam McCandlish, much of the technical staff at Anthropic con-
-tributed to efﬁcient distributed model training and sampling, the underlying ML, and cluster stability. Core
+Catherine Olsson contributed crucially to alignment ideas, and provided useful advice for sourcing and training contractors to test our models.
+Led by Tom Brown in collaboration with Sam McCandlish, much of the technical staff at Anthropic contributed to efﬁcient distributed model training and sampling, the underlying ML, and cluster stability. Core
 contributors include Nicholas Joseph, Tom Henighan, and Andy Jones. Nelson Elhage, Kamal Ndousse, Zac
 Hatﬁeld-Dodds, and Ben Mann also contributed to this infrastructure.
 Catherine Olsson and Jared Kaplan wrote the HHH prompt, and along with Deep Ganguli, Anna Chen,
@@ -1811,46 +1606,42 @@ layer. The models have a context window of 8192 tokens with a BPE
 [SHB15] vocabulary of size nvocab = 216 trained on a mixture of natural language and python code in a
 substantially similar manner to GPT-3 [BMR+20] and its precursors [RNSS18, RWC+19].
 The training dataset is composed of 90% natural language and 10% python code. All components of the
-NL and code datasets were globally fuzzily deduplicated [BMR+20], and we train for one epoch on all sub-
-components (i.e. we do not repeat any data). The natural language dataset was composed of 55% heavily
-ﬁltered common crawl data (220B tokens), 32% internet books (128B tokens), and some smaller distribu-
-tions including OpenWebText, Wikipedia, Stack Exchange, Arxiv, Legal and Patent documents, Ubuntu-IRC
+NL and code datasets were globally fuzzily deduplicated [BMR+20], and we train for one epoch on all subcomponents (i.e. we do not repeat any data). The natural language dataset was composed of 55% heavily
+ﬁltered common crawl data (220B tokens), 32% internet books (128B tokens), and some smaller distributions including OpenWebText, Wikipedia, Stack Exchange, Arxiv, Legal and Patent documents, Ubuntu-IRC
 discussion, and movie scripts, most of which we sourced from The Pile [GBB+20].
 Our code models were further ﬁnetuned for 100B tokens on a distribution of python code containing about
 45B unique tokens, so for a bit more than two epochs of training.
-27
-
 
 nlayer
 dmodel
 Parameters (N)
 Training FLOPs
-4
-512
+
+
 13M
 3.0e19
-6
-768
+
+
 42M
 1.0e20
-10
-1280
+
+
 197M
 4.7e20
-16
-2048
+
+
 810M
 1.9e21
-24
-3072
+
+
 2.7B
 6.5e21
-40
-5120
+
+
 13B
 3.0e22
-64
-8192
+
+
 52B
 1.2e23
 Table 1
@@ -1860,10 +1651,8 @@ Left: Comparing context distillation, the full prompt, ﬁnetuning on the HHH pr
 intervention on our HHH evaluations. Right: By adding two human-assistant conversations we can improve
 performance after ﬁnetuning on the prompt. Since responses in the HHH evaluations vary greatly in length,
 in all cases we evaluate using conditional probabilities.
-107
-108
-109
-1010
+
+
 Number of Parameters
 0.20
 0.25
@@ -1880,12 +1669,9 @@ LM Mean Logprobs
 Distilled Sum Logprobs
 LM Sum Logprobs
 Figure 21
-We show results on the adversarial TruthfulQA dataset when evaluating with both mutual infor-
-mation, mean logprobs, and summed logprobs (the ofﬁcial metric for MC1). The model sizes trends for both
+We show results on the adversarial TruthfulQA dataset when evaluating with both mutual information, mean logprobs, and summed logprobs (the ofﬁcial metric for MC1). The model sizes trends for both
 are similar. These are all zero-shot evaluations on language models, with and without context distillation on
 the HHH prompt.
-28
-
 
 B
 More Details on Prompting, Context Distillation, and Evaluations
@@ -1909,13 +1695,11 @@ so I know that it’s correct:
 <SIGNATURE_PLUS_DOCSTRING>
 B.2
 Toxicity Analysis Details
-To measure toxicity, we ﬁrst sample text from our models conditioned on prompts from the RealToxici-
-tyPrompts dataset [GGS+20]. Each prompt in this dataset is labeled as either toxic or non-toxic. In order to
+To measure toxicity, we ﬁrst sample text from our models conditioned on prompts from the RealToxicityPrompts dataset [GGS+20]. Each prompt in this dataset is labeled as either toxic or non-toxic. In order to
 minimize the computational cost incurred by sampling from large models (especially when primed with the
 large context), we select a random sample (stratiﬁed to have an equal number of toxic and non-toxic prompts)
 of 1K out of the available ≈100K prompts.
-Next, following [GGS+20], we sample for each prompt 25 sequences of up to 20 tokens each. We use tem-
-perature T = 1 and top P = 0.90. For the prompted and distilled models we make two minor modiﬁcations.
+Next, following [GGS+20], we sample for each prompt 25 sequences of up to 20 tokens each. We use temperature T = 1 and top P = 0.90. For the prompted and distilled models we make two minor modiﬁcations.
 First, we embellish the RealToxicityPrompt to ﬁt with the human-assistant dialogue as follows:
 Human: Can you help me complete a sentence? I’ve already written the
 first part of the sentence, but I’m not sure how to complete
@@ -1927,8 +1711,7 @@ We simply replace <REALTOXICITYPROMPT> with a prompt from the dataset. Second, w
 the tokens Human: and - - - - - in order to stop the models from emulating a human’s response to the
 completed sentence. We found that such emulated human responses (which typically looked like Human:
 Thanks!
-This looks great!) signiﬁcantly decreased toxicity (Figure 22). In fact, emulating hu-
-man responses had an effect size larger than that of the alignment interventions, which confounded the results.
+This looks great!) signiﬁcantly decreased toxicity (Figure 22). In fact, emulating human responses had an effect size larger than that of the alignment interventions, which confounded the results.
 To measure the toxicity of the model generated text, we used an open source toxicity detector [HU20] that
 outputs a score, between 0 and 1 with a higher score corresponding to more toxic content. In particular, we
 used the ’unbiased’ RoBERTa based model, which was trained on data from the Jigsaw Unintended Bias in
@@ -1943,17 +1726,8 @@ toxicity detectors. We will leave a re-analysis of toxicity with the Perspective
 we do not expect this to signiﬁcantly affect our main ﬁndings.
 15https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classiﬁcation/overview
 16https://www.perspectiveapi.com/
-29
 
 
-10
-7
-10
-8
-10
-9
-10
-10
 0.08
 0.10
 0.12
@@ -1965,14 +1739,8 @@ LM+Prompt
 LM+Prompt-Human
 LM+Context Distillation
 LM+Context Distillation-Human
-10
-7
-10
-8
-10
-9
-10
-10
+
+
 Number of Parameters
 0.02
 0.03
@@ -1985,12 +1753,10 @@ Figure 22
 Average toxicity tends to decrease when prompted (orange) and context distilled (green) models
 emulate human responses (dashed lines) relative to when when they do not (solid lines). Left: For non-toxic
 prompts, allowing aligned models to emulate human responses tends to slightly decrease average toxicity.
-Right: For toxic prompts, allowing aligned models to emulate human responses tends to signiﬁcantly de-
-crease average toxicity, which dwarfs and confounds the effect of the alignment interventions.
+Right: For toxic prompts, allowing aligned models to emulate human responses tends to signiﬁcantly decrease average toxicity, which dwarfs and confounds the effect of the alignment interventions.
 In Figure 8 we report the mean toxicity score averaged across all 500 prompts and 25 samples per prompt.
 This represents a departure from [GGS+20] and other work on toxicity in language models, which typically
-report the metrics: Expected Maximum Toxicity and Probability of Toxicity. The Expected Maximum Tox-
-icity metric reports the maximum toxicity across the 25 continuations per prompt, averaged across all 500
+report the metrics: Expected Maximum Toxicity and Probability of Toxicity. The Expected Maximum Toxicity metric reports the maximum toxicity across the 25 continuations per prompt, averaged across all 500
 prompts. The probability of toxicity metric captures the average, across prompts, of an indicator variable
 that’s 1 if a given sample has a toxicity score > 0.5, and 0 otherwise, across continuations. We report these
 metrics in Figure 23. We note that, in general, likely due to the maximum and thresholding operations of each
@@ -2020,17 +1786,8 @@ B.4
 A Comment on Lambada Formatting
 We performed a fairly complicated evaluation on Lambada in section 3.2, which involved ﬁnetuning on the
 training set. Therefore, we used the ofﬁcial version of the dataset, which has a number of typos and strange
-30
 
 
-10
-7
-10
-8
-10
-9
-10
-10
 0.32
 0.34
 0.36
@@ -2043,14 +1800,8 @@ Toxicity in Response to Non-Toxic Prompts
 LM
 LM+Prompt
 LM+Context Distillation
-10
-7
-10
-8
-10
-9
-10
-10
+
+
 0.72
 0.74
 0.76
@@ -2058,14 +1809,8 @@ LM+Context Distillation
 0.80
 0.82
 Toxicity in Response to Toxic Prompts
-10
-7
-10
-8
-10
-9
-10
-10
+
+
 Number of Parameters
 0.275
 0.300
@@ -2076,14 +1821,8 @@ Number of Parameters
 0.425
 0.450
 Probability of Toxicity
-10
-7
-10
-8
-10
-9
-10
-10
+
+
 0.74
 0.76
 0.78
@@ -2101,16 +1840,8 @@ models and increases otherwise. Bottom Left: Probability of Toxicity in response
 exhibits the same general trend as Expected Maximum Toxicity in response to non-toxic prompts Bottom
 Right: Probability of Toxicity in response to toxic prompts also exhibits same general trend as Expected
 Maximum Toxicity.
-10
-4
-10
-3
-10
-2
-10
-1
-10
-0
+
+
 Toxicity Score
 0.00
 0.02
@@ -2127,16 +1858,8 @@ Distribution of Toxicity Conditioned on Model Parameters
 200M
 43.2M
 12.8M
-10
-4
-10
-3
-10
-2
-10
-1
-10
-0
+
+
 0.00
 0.05
 0.10
@@ -2153,13 +1876,8 @@ scores is bimodal, with one peak for for low toxicity scores and a relatively sm
 scores. Left: For a standard LM, as the model size increases, probability mass tends to shift from the low
 toxicity peak to the high peak. Right: Conversely, for a 50B parameter model (blue), prompting (orange) and
 context distillation (green) tends to shift mass from the high peak to the low peak.
-31
 
 
-107
-108
-109
-1010
 Number of Parameters
 0.1
 0.2
@@ -2172,16 +1890,14 @@ Number of Parameters
 0.9
 Accuracy
 The Importance of Data Formatting
-0-Shot Awkwardly Formatted 
+0-Shot Awkwardly Formatted
 20-shot Awkwardly Formatted
 0-Shot Nicely Formatted
 20-shot with Fill-In-The-Blanks
 Figure 25
-We show Lambada results with three different formats – an awkward format from the orig-
-inal/ofﬁcial Lambada dataset, a format constructed by OpenAI, and a ﬁll-in-the-blanks format used with
+We show Lambada results with three different formats – an awkward format from the original/ofﬁcial Lambada dataset, a format constructed by OpenAI, and a ﬁll-in-the-blanks format used with
 GPT-3 [BMR+20] that performs very well with few-shot learning.
-whitespace and punctuation choices. However, in section 2.2.4 we included some zero-shot Lambada eval-
-uations to assess ‘alignment taxes’. These formatting choices make a very large difference in performance,
+whitespace and punctuation choices. However, in section 2.2.4 we included some zero-shot Lambada evaluations to assess ‘alignment taxes’. These formatting choices make a very large difference in performance,
 as shown in ﬁgure 25. In particular, we believe this explains in large part why the results from ﬁgure 13 are
 comparatively weak.
 To be explicit, here is an example from the nicely formatted version:
@@ -2211,8 +1927,7 @@ we did not ﬁnd this effect.
 B.5
 Context Distillation Finetuning
 To perform context distillation in practice, we prepended both the HHH prompt and then Human:
-(signi-
-fying the beginnning of a new conversation) to text samples. We then performed a forward pass with the 52B
+(signifying the beginnning of a new conversation) to text samples. We then performed a forward pass with the 52B
 model and stored the top 50 log-probabilities for each token, along with their indices within the vocabulary.
 We used a half-and-half mixture of generic pretraining data and Stack Exchange questions. We formatted the
 latter to use the Assistant:
@@ -2223,8 +1938,6 @@ After generating this data, we ﬁnetuned all model sizes on it with KL loss bet
 and the model-predicted probabilities. Since we only stored the top 50 log-probs, for each token this KL
 was actually a 51-category comparison, with the extra category coming from the aggregation of all other
 possibilities besides the top 50 from the prompted 52B model.
-32
-
 
 Figure 26
 Left: Per-token losses when counting, along with Laplace’s prediction that “if the sun has risen
@@ -2277,8 +1990,7 @@ very conﬁdent about counting, but never learn that the ﬁrst few tokens shoul
 -
 0.47
 Table 2
-In this table we show the fraction of head-to-head model comparisons where one model was pre-
-ferred to the other by contractors. The numbers represent the "win rate" of the models indicated in each
+In this table we show the fraction of head-to-head model comparisons where one model was preferred to the other by contractors. The numbers represent the "win rate" of the models indicated in each
 row against those indicated by the column labels. All models were presented with the full 4600 word HHH
 prompt, and we sampled responses at T = 1 and top P = 0.95. We include a dash where we made no
 comparison, or where the results are trivially implied by p →1 −p across the diagonal.
@@ -2314,13 +2026,8 @@ k−1
 is the number of combinations where sample si is the top-ranked sample
 among the k chosen samples. So the ratio of binomial coefﬁcients in equation (B.6) is the probability that the
 ith sample is chosen and is the highest ranked sample in a group of k.
-33
 
 
-107
-108
-109
-1010
 Number of Parameters
 0.625
 0.630
@@ -2332,10 +2039,8 @@ Preference Model Loss
 Pre-train Performance on StackExch
 Mix
 StackExch
-107
-108
-109
-1010
+
+
 Number of Parameters
 0.60
 0.61
@@ -2347,10 +2052,8 @@ Preference Model Loss
 Pre-train Performance on Reddit
 Mix
 Reddit
-107
-108
-109
-1010
+
+
 Number of Parameters
 0.26
 0.28
@@ -2392,54 +2095,44 @@ We prepared 5.8M training pairs and 59k test pairs.
 For each Reddit post, we sample a pair of comment sequences differing only in the ﬁnal comment.
 17https://archive.org/details/stackexchange
 18https://ﬁles.pushshift.io/reddit/
-34
 
 
-107
-108
-109
-1010
 Number of Parameters
-10
-1
+
+
 Preference Modeling Loss
 Finetuning Performance After PMP
 Hellaswag
-107
-108
-109
-1010
+
+
 Number of Parameters
 2 × 10
-1
+
 3 × 10
-1
+
 4 × 10
-1
+
 6 × 10
-1
+
 Preference Modeling Loss
 Finetuning Performance After PMP
 Commonsense Morality
 Justice
 Deontology
 Virtue
-107
-108
-109
-1010
+
+
 Number of Parameters
 5 × 10
-1
+
 6 × 10
-1
+
 Preference Modeling Loss
 Finetuning Performance After PMP
 Learn to Summarize
 Utility
 Figure 28
-Scaling trends with model size for the best achieved comparison test loss on various ﬁnal ﬁne-
-tuning evaluations. We have grouped datasets together based on the dynamic range in the loss. The results
+Scaling trends with model size for the best achieved comparison test loss on various ﬁnal ﬁnetuning evaluations. We have grouped datasets together based on the dynamic range in the loss. The results
 are measured after one training epoch each for Learn to Summarize and Hellaswag, and four training epochs
 for each Ethics eval. In all cases larger models perform better, as expected. Sometimes we see a fairly
 clean power-law trend in the loss, but often there are signiﬁcant deviations, including perhaps an interesting
@@ -2457,28 +2150,21 @@ where each username is replaced with the corresponding author’s alias. We also
 comments and comments from bots. We prepared 1.1M training pairs and 11k test pairs.
 Note: We also made an effort to ﬁlter away poor or irrelevant data. For instance, we restrict to a
 “whitelist” of subreddits that we believe have the highest data quality. We speciﬁcally chose not to
-include AmItheAsshole, as it overlaps with one of our ﬁne-tuning datasets, Commonsense Moral-
-ity. Instead we include the subreddits: tifu, explainlikeimﬁve, WritingPrompts, changemyview,
+include AmItheAsshole, as it overlaps with one of our ﬁne-tuning datasets, Commonsense Morality. Instead we include the subreddits: tifu, explainlikeimﬁve, WritingPrompts, changemyview,
 LifeProTips, todayilearned, science, askscience, ifyoulikeblank, UpliftingNews, Foodforthought,
-IWantToLearn, bestof, IAmA, socialskills, relationship_advice, philosophy, YouShouldKnow, his-
-tory, books, Showerthoughts, personalﬁnance, buildapc, EatCheapAndHealthy, boardgames, male-
-fashionadvice, femalefashionadvice, sciﬁ, Fantasy, Games, bodyweightﬁtness, SkincareAddiction,
+IWantToLearn, bestof, IAmA, socialskills, relationship_advice, philosophy, YouShouldKnow, history, books, Showerthoughts, personalﬁnance, buildapc, EatCheapAndHealthy, boardgames, malefashionadvice, femalefashionadvice, sciﬁ, Fantasy, Games, bodyweightﬁtness, SkincareAddiction,
 podcasts, suggestmeabook, AskHistorians, gaming, DIY, mildlyinteresting, sports, space, gadgets,
-Documentaries, GetMotivated, UpliftingNews, technology, Fitness, travel, lifehacks, Damnthatsin-
-teresting, gardening, programming.
+Documentaries, GetMotivated, UpliftingNews, technology, Fitness, travel, lifehacks, Damnthatsinteresting, gardening, programming.
 • Wikipedia: Wikipedia provides a data dump19 of the full edit history for every page. For some
 edits, a short explanation of the intention behind the edit is provided in the metadata. In particular,
 19https://en.wikipedia.org/wiki/Wikipedia:Database_download
-35
-
 
 a signiﬁcant number of edits revert “suspected vandalism”, as noted in comments associated with
 the edits. Examples of vandalism include edits that are intended to be misleading, counterfactual,
 or irrelevant to the subject matter of the page. For each such edit, we form a preference modeling
 pair by extracting the contents of the page before and after the edit, with the reverted version labeled
 as “better”. For each edit, we restrict to only the page sections that had been edited, and make a
-preference modeling pair for each such section, thus reducing the necessary context length signiﬁ-
-cantly. For each item in each pair, the context simply consists of the contents of the relevant section,
+preference modeling pair for each such section, thus reducing the necessary context length signiﬁcantly. For each item in each pair, the context simply consists of the contents of the relevant section,
 formatted as
 PAGE TITLE: ...
 SECTION TITLE: ...
@@ -2505,14 +2191,12 @@ in section C.3.
 C.3
 Language Modeling Improves PMP Transfer
 In this section we describe a technical detail which improves the transfer-ability of PMP signiﬁcantly. We
-consider two losses for the pre-training stage: (1) the preference modeling (PM) loss, and (2) an autoregres-
-sive language modeling (LM) loss that imitates the “good” sample in each sequence pair.
+consider two losses for the pre-training stage: (1) the preference modeling (PM) loss, and (2) an autoregressive language modeling (LM) loss that imitates the “good” sample in each sequence pair.
 Ltotal = λLPM + µLLM, good
 (C.1)
 where λ, µ are hyperparameters. For the latter, we do not apply any masking on the tokens and simply train
 the model to predict the full context of the good sample.
-We found that adding the language modeling loss during pre-training consistently improved the sample ef-
-ﬁciency on ﬁnetuning evaluations. In ﬁgure 29, we show the transfer performance for several pre-training
+We found that adding the language modeling loss during pre-training consistently improved the sample efﬁciency on ﬁnetuning evaluations. In ﬁgure 29, we show the transfer performance for several pre-training
 losses:
 • No PM pre-training,
 • “Pure” PM loss for which (λ, µ) = (1, 0),
@@ -2522,12 +2206,8 @@ For uniformity, we used (λ, µ) = (1, 1) for the subsequent ﬁnetuning stage i
 We observe that
 • Pure LM performs similarly as no PM pre-training, which is unsurprising since it’s just an extension
 of the basic language model pre-training on which all our experiments are initialized.
-36
 
 
-102
-103
-104
 Number of Finetuning Sequence Pairs
 0.55
 0.60
@@ -2537,9 +2217,8 @@ Number of Finetuning Sequence Pairs
 Accuracy
 Finetuning Performance of Different UPM Pre-training Losses On
  Learn to Summarize (13B)
-102
-103
-104
+
+
 Number of Finetuning Sequence Pairs
 0.3
 0.4
@@ -2561,20 +2240,15 @@ than simply doing no such pre-training at all. However, when combined with an au
 modeling loss that imitates the “good” sample in each training pair, it signiﬁcantly improves transfer to many
 downstream evaluations. Here we show results for PMP on Reddit ﬁnetuned on Learn to Summarize and
 HellaSwag, but we made similar observations on all other pre-training and ﬁnetuning datasets. Furthermore,
-the fact that “PM+LM Loss” clearly performs better than “LM Loss Only” strongly suggests that the per-
-formance gain of the former does not arise solely from language modeling, but from its combination with
+the fact that “PM+LM Loss” clearly performs better than “LM Loss Only” strongly suggests that the performance gain of the former does not arise solely from language modeling, but from its combination with
 preference modeling.
 Figure 30
 Here we show calibration curves on the summarization test set. We see that aside from the
 smallest model, the preference models are very well calibrated on-distribution. These models were all ﬁrst
 prefence model pre-trained on the stack exchange and then ﬁnetuned on summarization PMing. We include
 a black line as a reference for perfect calibration.
-37
 
 
-102
-103
-104
 Number of Finetuning Sequence Pairs
 0.55
 0.60
@@ -2587,9 +2261,8 @@ No UPM Pre-train (w/ EOC Token)
 No UPM Pre-train (no EOC Token)
 UPM Reddit (w/ EOC Token)
 UPM Reddit (no EOC Token)
-102
-103
-104
+
+
 Number of Finetuning Sequence Pairs
 0.55
 0.60
@@ -2607,8 +2280,7 @@ No UPM Pre-train (no EOC Token)
 UPM Reddit (w/ EOC Token)
 UPM Reddit (no EOC Token)
 Figure 31
-Appending an “end-of-context” token (EOC) to every sequence visibly improves overall perfor-
-mance, as seen here for both with and without PMP. In all cases where PMP is applied, we include the EOC
+Appending an “end-of-context” token (EOC) to every sequence visibly improves overall performance, as seen here for both with and without PMP. In all cases where PMP is applied, we include the EOC
 token not just for the ﬁnetuning sequences but also the pre-training sequences. We made similar observations
 on all PMP datasets (as well as no PMP) and all ﬁnetuning datasets.
 • Pure PM improves sample efﬁciency for a small number of samples, but eventually underperforms
@@ -2616,8 +2288,7 @@ relative to no PM pre-training.
 • The PM+LM pre-training consistently improves sample efﬁciency relative to no PM pre-training. It
 also performs better than pure LM, thus indicating that the performance gain isn’t due purely to LM,
 but a combination of PM and LM.
-What’s particularly interesting is that neither pure PM nor pure LM transfers particularly well, but the com-
-bined effort of PM+LM performs signiﬁcantly better. Our hypothesis is that pure PM has a tendency to learn
+What’s particularly interesting is that neither pure PM nor pure LM transfers particularly well, but the combined effort of PM+LM performs signiﬁcantly better. Our hypothesis is that pure PM has a tendency to learn
 biased or “trivial” features (e.g., context length, token frequencies) that don’t generalize well to downstream
 tasks, while the addition of LM forces the PM to learn from more substantial “language-relevant” features.
 C.4
@@ -2640,12 +2311,9 @@ ambiguity which may cause the model to under-perform.
 C.5
 Ensembling Over PMP Models
 In prinicple we can ensemble together several models ﬁnetuned on the same ﬁnal dataset, but which ﬁrst
-pass through PMP on a distinct dataset. This would be a bit like ensembling over different random initializa-
-tions, but what might hope for more interesting results due to the different semantic content in distinct PMP
+pass through PMP on a distinct dataset. This would be a bit like ensembling over different random initializations, but what might hope for more interesting results due to the different semantic content in distinct PMP
 distributions. We tested this for summarization PMs that were separately PMP trained on Reddit and Stack
 Exchange, but only found a gain of order 0.5% in accuracy.
-38
-
 
 Learn to
 Summ
@@ -2703,9 +2371,8 @@ Figure 32
 Accuracy gain of PMP as measured by accuracy difference relative to no PMP at 500 and 5k
 ﬁnetuning sequence pairs for multiple pre-training datasets (Mix, StackExchange, Reddit, Wikipedia) and
 ﬁnetuning evaluations (Learn to Summarize, HellaSwag, and all ﬁve Ethics evaluations).
-102
-103
-104
+
+
 Number of Finetuning Sequence Pairs
 0.5
 0.6
@@ -2721,8 +2388,7 @@ Moderately Scrambled Pretrain
 Strongly Scrambled Pretrain
 Very Strongly Scrambled Pretrain
 Figure 33
-Results for a controlled experiment comparing the transfer ability of ranked vs. binary PM pre-
-training, as explained in section 4.3. We see a clear trend whereby the sample efﬁciency degrades as the
+Results for a controlled experiment comparing the transfer ability of ranked vs. binary PM pretraining, as explained in section 4.3. We see a clear trend whereby the sample efﬁciency degrades as the
 amount of relative scrambling between pre-training and ﬁnetuning distributions increases. Furthermore, we
 ﬁnd that binary pre-training does not transfer as well as the weakly scrambled case, but transfers better than
 the very strongly scrambled case, in agreement with our expectations. This possibly explains why binary
@@ -2767,8 +2433,6 @@ T_3
 A
 > [D] > [E] > [C] > [B]
 (Strongly Scrambled)
-39
-
 
 T_4
 :
@@ -2803,8 +2467,7 @@ increases. In fact, there is a scrambling “threshold” beyond which the sampl
 even worse than no PMP at all. This conﬁrms the hypothesis that datasets with signiﬁcantly different
 Elo scales are expected to transfer poorly to each other.
 • The binary dataset is similarly sample efﬁcient as a “moderately” scrambled dataset. This agrees
-with our hypothesis, which posits that a binary dataset should transfer better than a strongly scram-
-bled dataset, but not necessarily better than a weakly scrambled one.
+with our hypothesis, which posits that a binary dataset should transfer better than a strongly scrambled dataset, but not necessarily better than a weakly scrambled one.
 Clearly, the best possible PMP dataset is one that is qualitatively very similar to the ﬁnal ﬁnetuning dataset, but
 typically this is not available. We see binarized PMP as a compromise that cannot guarantee the best possible
 sample efﬁciency, but is more robustly capable of transferring to new preference modeling distributions.
@@ -2832,14 +2495,9 @@ from a model; and with the last 1/3 chance the text remained unchanged (fully hu
 13B language model for sampling this dataset. For training, we initialized discriminator models as pretrained
 language models, and applied a binary cross entropy loss at each token for the human vs. model binary
 classiﬁcation.
-Although qualitatively the models seem to be able to identify low quality model generated text, when evalu-
-ated on a few language benchmarks, we did not see promising improvement over the original language model
-40
+Although qualitatively the models seem to be able to identify low quality model generated text, when evaluated on a few language benchmarks, we did not see promising improvement over the original language model
 
 
-100
-101
-102
 Number of Top Samples
 0.45
 0.50
@@ -2851,13 +2509,11 @@ Number of Top Samples
 Average Accuracy
 Lambada: Discriminators vs. Pretrained Language Model
 LM
-108
-109
-1010
+
+
 Number of Parameters
-100
-101
-102
+
+
 Number of Top Samples
 0.45
 0.50
@@ -2870,18 +2526,14 @@ Number of Top Samples
 Average Accuracy
 Lambada: Ensembles vs. Pretrained Language Model
 LM
-108
-109
-1010
+
+
 Number of Parameters
 Figure 34
 Left: Discriminator and language model performance re-ranking Lambada answers. Right:
 Ensemble of discriminator and language model, as determined in equation D.2.
-100
-50
-0
-50
-100
+
+
 Relative token position to human->model transition
 0.2
 0.3
@@ -2894,27 +2546,26 @@ Relative token position to human->model transition
 1.0
 Accuracy
 Per-Token Accuracy of Discriminator
-1010
+
 3 × 109
 4 × 109
 6 × 109
 Number of Parameters
-100
-101
-102
+
+
 Relative token position to human->model transition
-100
+
 2 × 10
-1
+
 3 × 10
-1
+
 4 × 10
-1
+
 6 × 10
-1
+
 Accuracy
 Per-Token Accuracy of Discriminator
-1010
+
 3 × 109
 4 × 109
 6 × 109
@@ -2950,12 +2601,8 @@ and the language model probabilities together. We display the result on the righ
 that as expected, the ensemble can improve on the language model.
 Figure 35 shows the per-token prediction accuracy on the training set, relative to the position where the tokens
 switch from being human-generated to model-generated. We observe an interesting behavior – even though
-41
 
 
-102
-103
-104
 Number of Finetuning Sequence Pairs
 0.0
 0.1
@@ -2966,7 +2613,7 @@ Number of Finetuning Sequence Pairs
 0.6
 0.7
 Accuracy
-Performance of Human-human vs. Human-model 
+Performance of Human-human vs. Human-model
  Reddit PMP On Ethics: Justice
 Human-model (13B)
 Human-model (2.7B)
@@ -2974,9 +2621,8 @@ Human-model (810M)
 Human-human (13B)
 Human-human (2.7B)
 Human-human (810M)
-102
-103
-104
+
+
 Number of Finetuning Sequence Pairs
 0.5
 0.6
@@ -2984,7 +2630,7 @@ Number of Finetuning Sequence Pairs
 0.8
 0.9
 Accuracy
-Performance of Human-human vs. Human-model 
+Performance of Human-human vs. Human-model
  Reddit PMP On Ethics: Commonsense Morality
 Human-model (13B)
 Human-model (2.7B)
@@ -2992,9 +2638,8 @@ Human-model (810M)
 Human-human (13B)
 Human-human (2.7B)
 Human-human (810M)
-102
-103
-104
+
+
 Number of Finetuning Sequence Pairs
 0.0
 0.1
@@ -3005,7 +2650,7 @@ Number of Finetuning Sequence Pairs
 0.6
 0.7
 Accuracy
-Performance of Human-human vs. Human-model 
+Performance of Human-human vs. Human-model
  Reddit PMP On Ethics: Deontology
 Human-model (13B)
 Human-model (2.7B)
@@ -3013,9 +2658,8 @@ Human-model (810M)
 Human-human (13B)
 Human-human (2.7B)
 Human-human (810M)
-102
-103
-104
+
+
 Number of Finetuning Sequence Pairs
 0.50
 0.55
@@ -3026,7 +2670,7 @@ Number of Finetuning Sequence Pairs
 0.80
 0.85
 Accuracy
-Performance of Human-human vs. Human-model 
+Performance of Human-human vs. Human-model
  Reddit PMP On Ethics: Utilitarianism
 Human-model (13B)
 Human-model (2.7B)
@@ -3034,9 +2678,8 @@ Human-model (810M)
 Human-human (13B)
 Human-human (2.7B)
 Human-human (810M)
-103
-104
-105
+
+
 Number of Finetuning Sequence Pairs
 0.0
 0.1
@@ -3047,7 +2690,7 @@ Number of Finetuning Sequence Pairs
 0.6
 0.7
 Accuracy
-Performance of Human-human vs. Human-model 
+Performance of Human-human vs. Human-model
  Reddit PMP On Ethics: Virtue
 Human-model (13B)
 Human-model (2.7B)
@@ -3062,12 +2705,8 @@ the results are rather random. We suspect that “human-model” does not have a
 ﬁnetuning on evaluations that are purely human-written, such as Ethics.
 larger models obtain higher overall accuracy, they perform worse immediately after the transition from human
 to model generated tokens.
-42
 
 
-102
-103
-104
 Number of Finetuning Sequence Pairs
 0.00
 0.05
@@ -3075,15 +2714,14 @@ Number of Finetuning Sequence Pairs
 0.15
 0.20
 Accuracy Difference
-Acc Gain of Binary Over Ranked PMP On 
+Acc Gain of Binary Over Ranked PMP On
  Hellaswag (13B)
 PMP Mix
 PMP StackExch
 PMP Reddit
 PMP Wiki
-102
-103
-104
+
+
 Number of Finetuning Sequence Pairs
 0.01
 0.00
@@ -3092,15 +2730,14 @@ Number of Finetuning Sequence Pairs
 0.03
 0.04
 Accuracy Difference
-Acc Gain of Binary Over Ranked PMP On 
+Acc Gain of Binary Over Ranked PMP On
  Learn to Summarize (13B)
 PMP Mix
 PMP StackExch
 PMP Reddit
 PMP Wiki
-102
-103
-104
+
+
 Number of Finetuning Sequence Pairs
 0.05
 0.00
@@ -3109,15 +2746,14 @@ Number of Finetuning Sequence Pairs
 0.15
 0.20
 Accuracy Difference
-Acc Gain of Binary Over Ranked PMP On 
+Acc Gain of Binary Over Ranked PMP On
  Ethics: Justice (13B)
 PMP Mix
 PMP StackExch
 PMP Reddit
 PMP Wiki
-102
-103
-104
+
+
 Number of Finetuning Sequence Pairs
 0.04
 0.02
@@ -3128,15 +2764,14 @@ Number of Finetuning Sequence Pairs
 0.08
 0.10
 Accuracy Difference
-Acc Gain of Binary Over Ranked PMP On 
+Acc Gain of Binary Over Ranked PMP On
  Ethics: Commonsense Morality (13B)
 PMP Mix
 PMP StackExch
 PMP Reddit
 PMP Wiki
-102
-103
-104
+
+
 Number of Finetuning Sequence Pairs
 0.05
 0.00
@@ -3144,15 +2779,14 @@ Number of Finetuning Sequence Pairs
 0.10
 0.15
 Accuracy Difference
-Acc Gain of Binary Over Ranked PMP On 
+Acc Gain of Binary Over Ranked PMP On
  Ethics: Deontology (13B)
 PMP Mix
 PMP StackExch
 PMP Reddit
 PMP Wiki
-103
-104
-105
+
+
 Number of Finetuning Sequence Pairs
 0.06
 0.04
@@ -3164,15 +2798,14 @@ Number of Finetuning Sequence Pairs
 0.08
 0.10
 Accuracy Difference
-Acc Gain of Binary Over Ranked PMP On 
+Acc Gain of Binary Over Ranked PMP On
  Ethics: Virtue (13B)
 PMP Mix
 PMP StackExch
 PMP Reddit
 PMP Wiki
-102
-103
-104
+
+
 Number of Finetuning Sequence Pairs
 0.02
 0.00
@@ -3181,7 +2814,7 @@ Number of Finetuning Sequence Pairs
 0.06
 0.08
 Accuracy Difference
-Acc Gain of Binary Over Ranked PMP On 
+Acc Gain of Binary Over Ranked PMP On
  Ethics: Utilitarianism (13B)
 PMP Mix
 PMP StackExch
@@ -3189,8 +2822,6 @@ PMP Reddit
 PMP Wiki
 Figure 37
 Accuracy gain of binary over ranked PMP on ﬁnetuning evaluations.
-43
-
 
 E
 Deﬁnitions of Alignment and the HHH criteria
@@ -3214,8 +2845,7 @@ An AI assistant that is always helpful, honest, and harmless towards a group of 
 in a way that satisﬁes the interests of this group, including their interest not to be harmed or be misled. It is
 therefore likely to be highly aligned with the interests of that group of humans.
 This account of alignment is still vague and leaves many open questions. In particular, it does not tell us:
-• What kinds of outcome orderings are most relevant for AI alignment (preferences, idealized prefer-
-ences, wellbeing, ethical rankings, etc.)
+• What kinds of outcome orderings are most relevant for AI alignment (preferences, idealized preferences, wellbeing, ethical rankings, etc.)
 • The degree to which these outcome orderings are objective or subjective
 • Which agents the AI systems should be aligned to (users, developers, humanity, etc.)
 • How AI systems can or should aggregate different outcome orderings if they are aligned to more
@@ -3233,16 +2863,13 @@ If we deﬁne helpfulness and harmlessness such that (a) it’s never in a human
 (b) it’s always harmful to fail to do something that’s in a human’s best interest, we can reduce helpfulness and
 harmlessness to either criterion. We have separated them because we ﬁnd it practically easier to distinguish
 cases of active harm from cases in which a beneﬁt is withheld.
-Helpfulness and harmlessness clearly can’t be reduced to honesty, but honesty can be reduced to helpful-
-ness/harmlessness. According to the deﬁnition of alignment given above, an aligned AI assistant should be
+Helpfulness and harmlessness clearly can’t be reduced to honesty, but honesty can be reduced to helpfulness/harmlessness. According to the deﬁnition of alignment given above, an aligned AI assistant should be
 honest because honesty is valued by humans. This could either be because honesty is instrumentally valuable
 20Even if agent A is maximally aligned with agent B, A can fail to act in accordance with B’s desires because A has a
 mistaken belief about B’s desires or about the world, or because A is unable to carry out their intended action.
 21This concept of "honesty" involves avoiding multiple different conditions of lying, such as only stating true claims
 and not causing false beliefs in the listener [Mah15]. There will be cases where these conditions conﬂict. In such cases,
 we would need to assess which conception of honesty it would be most helpful and harmless for the assistant to satisfy.
-44
-
 
 to humans or because humans intrinsically value it. If honesty were genuinely not something that humans
 value even on reﬂection, an AI that was aligned with human values would presumably not be honest.
@@ -3293,14 +2920,10 @@ humans in making itself more secure. But the HHH criteria were not selected with
 not all security features will be features of the AI system itself. We therefore want to emphasize that the HHH
 criteria are criteria of alignment, and that additional work and additional areas of focus may be required to
 ensure that AI systems cannot cause too much harm when they are not fully aligned.
-45
-
 
 References
 [AAB+21] Josh Abramson, Arun Ahuja, Iain Barr, Arthur Brussee, Federico Carnevale, Mary Cassin,
-Rachita Chhaparia, Stephen Clark, Bogdan Damoc, Andrew Dudzik, Petko Georgiev, Aure-
-lia Guy, Tim Harley, Felix Hill, Alden Hung, Zachary Kenton, Jessica Landon, Timothy Lilli-
-crap, Kory Mathewson, Sona Mokra, Alistair Muldal, Adam Santoro, Nikolay Savinov, Vikrant
+Rachita Chhaparia, Stephen Clark, Bogdan Damoc, Andrew Dudzik, Petko Georgiev, Aurelia Guy, Tim Harley, Felix Hill, Alden Hung, Zachary Kenton, Jessica Landon, Timothy Lillicrap, Kory Mathewson, Sona Mokra, Alistair Muldal, Adam Santoro, Nikolay Savinov, Vikrant
 Varma, Greg Wayne, Duncan Williams, Nathaniel Wong, Chen Yan, and Rui Zhu. Imitating
 interactive intelligence, 2021, 2012.05672.
 [AON+21] Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David
@@ -3315,11 +2938,9 @@ Mehta, Honglei Zhuang, Vinh Q. Tran, Dara Bahri, Jianmo Ni, Jai Gupta, Kai Hui, 
 Ruder, and Donald Metzler. Ext5: Towards extreme multi-task scaling for transfer learning,
 2021, 2111.10952.
 [BGNN19] Daniel S. Brown, Wonjoon Goo, Prabhat Nagarajan, and Scott Niekum.
-Extrapolating be-
-yond suboptimal demonstrations via inverse reinforcement learning from observations, 2019,
+Extrapolating beyond suboptimal demonstrations via inverse reinforcement learning from observations, 2019,
 1904.06387.
-[BMR+20] Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhari-
-wal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal,
+[BMR+20] Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal,
 Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M.
 Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz
 Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec
@@ -3328,8 +2949,7 @@ Radford, Ilya Sutskever, and Dario Amodei. Language models are few-shot learners
 [Bow21]
 Samuel R. Bowman. When combating hype, proceed with caution, 2021, 2110.08300.
 [CKB+21]
-Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Jacob Hilton, Reiichiro Nakano, Christo-
-pher Hesse, and John Schulman.
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman.
 Training veriﬁers to solve math word problems, 2021,
 2110.14168.
 [CLB+17]
@@ -3346,13 +2966,11 @@ weak experts, 2018, 1810.08575.
 Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared
 Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, Alex Ray, Raul Puri,
 Gretchen Krueger, Michael Petrov, Heidy Khlaaf, Girish Sastry, Pamela Mishkin, Brooke Chan,
-Scott Gray, Nick Ryder, Mikhail Pavlov, Alethea Power, Lukasz Kaiser, Mohammad Bavar-
-ian, Clemens Winter, Philippe Tillet, Felipe Petroski Such, Dave Cummings, Matthias Plappert,
+Scott Gray, Nick Ryder, Mikhail Pavlov, Alethea Power, Lukasz Kaiser, Mohammad Bavarian, Clemens Winter, Philippe Tillet, Felipe Petroski Such, Dave Cummings, Matthias Plappert,
 Fotios Chantzis, Elizabeth Barnes, Ariel Herbert-Voss, William Hebgen Guss, Alex Nichol,
 Alex Paino, Nikolas Tezak, Jie Tang, Igor Babuschkin, Suchir Balaji, Shantanu Jain, William
 Saunders, Christopher Hesse, Andrew N. Carr, Jan Leike, Josh Achiam, Vedant Misra, Evan
-Morikawa, Alec Radford, Matthew Knight, Miles Brundage, Mira Murati, Katie Mayer, Pe-
-ter Welinder, Bob McGrew, Dario Amodei, Sam McCandlish, Ilya Sutskever, and Wojciech
+Morikawa, Alec Radford, Matthew Knight, Miles Brundage, Mira Murati, Katie Mayer, Peter Welinder, Bob McGrew, Dario Amodei, Sam McCandlish, Ilya Sutskever, and Wojciech
 Zaremba. Evaluating large language models trained on code, 2021, 2107.03374.
 [Fou]
 The Common Crawl Foundation. Common crawl. URL http://commoncrawl.org.
@@ -3363,12 +2981,9 @@ Iason Gabriel. Artiﬁcial intelligence, values, and alignment. Minds and Machin
 Leo Gao, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles Foster, Jason
 Phang, Horace He, Anish Thite, Noa Nabeshima, Shawn Presser, and Connor Leahy. The pile:
 An 800gb dataset of diverse text for language modeling, 2020, 2101.00027.
-46
-
 
 [GGS+20]
-Samuel Gehman, Suchin Gururangan, Maarten Sap, Yejin Choi, and Noah A. Smith. Realtoxi-
-cityprompts: Evaluating neural toxic degeneration in language models, 2020, 2009.11462.
+Samuel Gehman, Suchin Gururangan, Maarten Sap, Yejin Choi, and Noah A. Smith. Realtoxicityprompts: Evaluating neural toxic degeneration in language models, 2020, 2009.11462.
 [HBB+21]
 Dan Hendrycks, Collin Burns, Steven Basart, Andrew Critch, Jerry Li, Dawn Song, and Jacob
 Steinhardt. Aligning ai with shared human values, 2021, 2008.02275.
@@ -3377,9 +2992,7 @@ Dan Hendrycks, Nicholas Carlini, John Schulman, and Jacob Steinhardt. Unsolved p
 ml safety, 2021, 2109.13916.
 [HE16]
 Jonathan Ho and Stefano Ermon. Generative adversarial imitation learning, 2016, 1606.03476.
-[HNA+17] Joel Hestness, Sharan Narang, Newsha Ardalani, Gregory Diamos, Heewoo Jun, Hassan Kian-
-inejad, Md. Mostofa Ali Patwary, Yang Yang, and Yanqi Zhou. Deep learning scaling is pre-
-dictable, empirically, 2017, 1712.00409.
+[HNA+17] Joel Hestness, Sharan Narang, Newsha Ardalani, Gregory Diamos, Heewoo Jun, Hassan Kianinejad, Md. Mostofa Ali Patwary, Yang Yang, and Yanqi Zhou. Deep learning scaling is predictable, empirically, 2017, 1712.00409.
 [HU20]
 Laura Hanu and Unitary team. Detoxify. Github. https://github.com/unitaryai/detoxify, 2020.
 [ICA18]
@@ -3388,8 +3001,7 @@ Geoffrey Irving, Paul Christiano, and Dario Amodei. Ai safety via debate, 2018, 
 Borja Ibarz, Jan Leike, Tobias Pohlen, Geoffrey Irving, Shane Legg, and Dario Amodei. Reward
 learning from human preferences and demonstrations in atari, 2018, 1811.06521.
 [JHB+21]
-Liwei Jiang, Jena D. Hwang, Chandra Bhagavatula, Ronan Le Bras, Maxwell Forbes, Jon Bor-
-chardt, Jenny Liang, Oren Etzioni, Maarten Sap, and Yejin Choi. Delphi: Towards machine
+Liwei Jiang, Jena D. Hwang, Chandra Bhagavatula, Ronan Le Bras, Maxwell Forbes, Jon Borchardt, Jenny Liang, Oren Etzioni, Maarten Sap, and Yejin Choi. Delphi: Towards machine
 ethics and norms, 2021, 2110.07574.
 [Jon21]
 Andy L. Jones. Scaling scaling laws with board games, 2021, 2104.03113.
@@ -3405,8 +3017,7 @@ prompt tuning, 2021, 2104.08691.
 [LHE21]
 Stephanie Lin, Jacob Hilton, and Owain Evans. Truthfulqa: Measuring how models mimic
 human falsehoods, 2021, 2109.07958.
-[LKCSL17] Derrick Lin, James Koppel, Angela Chen, and Armando Solar-Lezama. Quixbugs: A multi-
-lingual program repair benchmark set based on the quixey challenge. In Proceedings Companion
+[LKCSL17] Derrick Lin, James Koppel, Angela Chen, and Armando Solar-Lezama. Quixbugs: A multilingual program repair benchmark set based on the quixey challenge. In Proceedings Companion
 of the 2017 ACM SIGPLAN International Conference on Systems, Programming, Languages,
 and Applications: Software for Humanity, SPLASH Companion 2017, pages 55–56, New York,
 NY, USA, 2017. Association for Computing Machinery. doi:10.1145/3135932.3135941.
@@ -3424,11 +3035,9 @@ and Nicholas Frosst. Mitigating harm in language models with conditional-likelih
 2021, 2108.07790.
 [PKL+16]
 Denis Paperno, GermÃ¡n Kruszewski, Angeliki Lazaridou, Quan Ngoc Pham, Raffaella
-Bernardi, Sandro Pezzelle, Marco Baroni, Gemma Boleda, and Raquel FernÃ¡ndez. The lam-
-bada dataset: Word prediction requiring a broad discourse context, 2016, 1606.06031.
+Bernardi, Sandro Pezzelle, Marco Baroni, Gemma Boleda, and Raquel FernÃ¡ndez. The lambada dataset: Word prediction requiring a broad discourse context, 2016, 1606.06031.
 [RDR20]
-Vinay V. Ramasesh, Ethan Dyer, and Maithra Raghu. Anatomy of catastrophic forgetting: Hid-
-den representations and task semantics, 2020, 2007.07400.
+Vinay V. Ramasesh, Ethan Dyer, and Maithra Raghu. Anatomy of catastrophic forgetting: Hidden representations and task semantics, 2020, 2007.07400.
 [RNSS18]
 Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. Improving language
 understanding by generative pre-training. 2018.
@@ -3438,8 +3047,6 @@ A constructive
 prediction of the generalization error across scales, 2019, arXiv:1909.12673.
 [RWC+19] Alec Radford, Jeff Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever. Language
 models are unsupervised multitask learners. openai.com, 2019.
-47
-
 
 [SD21]
 Irene Solaiman and Christy Dennison.
@@ -3458,8 +3065,7 @@ with subword units. CoRR, 2015, 1508.07909.
 Radford, Dario Amodei, and Paul Christiano. Learning to summarize from human feedback,
 2020, 2009.01325.
 [SWR+21] Victor Sanh, Albert Webson, Colin Raffel, Stephen H. Bach, Lintang Sutawika, Zaid Alyafeai,
-Antoine Chafﬁn, Arnaud Stiegler, Teven Le Scao, Arun Raja, Manan Dey, M Saiful Bari, Can-
-wen Xu, Urmish Thakker, Shanya Sharma Sharma, Eliza Szczechla, Taewoon Kim, Gunjan
+Antoine Chafﬁn, Arnaud Stiegler, Teven Le Scao, Arun Raja, Manan Dey, M Saiful Bari, Canwen Xu, Urmish Thakker, Shanya Sharma Sharma, Eliza Szczechla, Taewoon Kim, Gunjan
 Chhablani, Nihal Nayak, Debajyoti Datta, Jonathan Chang, Mike Tian-Jian Jiang, Han Wang,
 Matteo Manica, Sheng Shen, Zheng Xin Yong, Harshit Pandey, Rachel Bawden, Thomas Wang,
 Trishala Neeraj, Jos Rozen, Abheesht Sharma, Andrea Santilli, Thibault Fevry, Jason Alan Fries,
@@ -3482,4 +3088,3 @@ Christiano. Recursively summarizing books with human feedback, 2021, 2109.10862.
 [ZHB+19]
 Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. Hellaswag: Can a
 machine really ﬁnish your sentence?, 2019, 1905.07830.
-48

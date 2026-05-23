@@ -9,8 +9,11 @@ chars: 1284878
 approx_tokens: 321219
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 1284880
+phase4_chars_after: 1284090
+phase4_saved_pct: 0.1
 ---
-
 
 
 Manufacturing
@@ -105,7 +108,6 @@ AND
 HERBERT I. SCHILLER
 
 
- 
 By the same authors
 The Political Economy of Human Rights:
 The Washington Connection and Third World Fascism
@@ -288,10 +290,10 @@ The culture and ideology fostered in this globalization process relate
 largely to “lifestyle” themes and goods and their acquisition; and they
 tend to weaken any sense of community helpful to civic life. Robert
 McChesney notes that “the hallmark of the global media system is its
-relentless, 
-ubiquitous 
-commercialism.”7 
-Shopping 
+relentless,
+ubiquitous
+commercialism.”7
+Shopping
 channels,
 “infomercials,” and product placement are booming in the global media
 system. McChesney adds that “it should come as no surprise that account
@@ -579,7 +581,7 @@ sanctions, and parallel media treatment.
 Mainstream Media Usage
 of “Genocide” for
 Kosovo, East Timor, Turkey, and Iraq1
- 
+
 1. NO. OF TIMES WORD
 APPLIED TO SERBS,
 TURKS, ETC.2
@@ -591,31 +593,21 @@ FRONT
 PAGE
 COUNTRIES/DATES
 1. Serbs/Kosovo 1998–1999
-220
-59
-118
-41
+
+
 2. Indonesia/East Timor,
 1990–1999
-33
-7
-17
-4
+
+
 3. Turkey/Kurds, 1990–1999
-14
-2
-8
-1
+
+
 4. Iraq/Kurds, 1990–1999
-132
-51
-66
-24
+
+
 5. Iraq Sanctions, 1991–1999
-18
-1
-10
-1
+
+
 1. Mainstream media used in this tabulation, based on a Nexus database search, were the Los
 Angeles Times, the New York Times, Washington Post, Newsweek, and Time.
 2. The numbers in columns 2 and 3 do not add up to the total in column 1, which also includes
@@ -862,8 +854,7 @@ During the Reagan era (1981–88), there was a concerted effort to
 demonize the Soviet Union, in order to support a major arms buildup and
 a new, more aggressive policy in the Third World and globally. The
 Soviet Union was described as an “Evil Empire” and accused of
-sponsoring international terrorism as well as abusing its own and client-
-nation peoples.53 When the would-be assassin Mehmet Ali Agca shot
+sponsoring international terrorism as well as abusing its own and clientnation peoples.53 When the would-be assassin Mehmet Ali Agca shot
 Pope John Paul II in Rome in May 1981, this provided the basis for one
 of the most successful propaganda campaigns of the Cold War era.
 
@@ -883,8 +874,7 @@ But the mainstream media accepted this story with astonishing
 gullibility—the possibility of coaching and pressure on Agca to name the
 KGB and Bulgarians, much discussed in the Italian media, was almost
 never mentioned as even a theoretical possibility. And the weakness of
-the alleged Soviet motive, the sheer stupidity of the enterprise if Soviet-
-based, and the complete lack of confirmatory evidence was almost
+the alleged Soviet motive, the sheer stupidity of the enterprise if Sovietbased, and the complete lack of confirmatory evidence was almost
 entirely ignored by the media (as described in chapter 4). When the case
 was lost in an Italian court in 1986, despite a substantial Italian
 government investment and effort, for the U.S. mainstream media this
@@ -1102,15 +1092,13 @@ campaign. The Journal’s publisher, Peter Kann, eventually wrote that the
 
 Vietnam war record had clarified “who were the good guys and who were
 the bad guys,” definitively shown by “the poisoned fields of Laos” (his
-euphemism for Yellow Rain).73 In short, Kann places the massive real-
-world use of chemical warfare by the United States in Orwell’s black hole
+euphemism for Yellow Rain).73 In short, Kann places the massive realworld use of chemical warfare by the United States in Orwell’s black hole
 and demonstrates Communist evil by putting forward the discredited
 claim of Yellow Rain that his paper has still not admitted to be
 fraudulent.
 But the more important facts are these: that with the help of the
 media, the Soviet Union was effectively linked to the use of this ugly
-weapon, based on false evidence; while by treating the real and large-
-scale use of chemical weapons in Indochina by the United States in very
+weapon, based on false evidence; while by treating the real and largescale use of chemical weapons in Indochina by the United States in very
 low key up to this very day, the media have helped convey the impression
 that this country is a moral force on this issue and opposes use of this
 terrible weaponry. U.S. leaders have opposed the use of chemical warfare
@@ -1270,8 +1258,7 @@ annoyance, that the United States has refused to provide MAG specialists
 with “render harmless procedures,” still treated as a state secret for
 weapons three decades old.89 The U.S. mainstream media have treated in
 very low key the continuing human toll suffered in Laos and have
-maintained almost complete silence concerning the U.S. non-
-cooperativeness in attempts to alleviate a crisis dating back to the “secret
+maintained almost complete silence concerning the U.S. noncooperativeness in attempts to alleviate a crisis dating back to the “secret
 war” against Laos, which again was “secret” only by tacit propaganda
 service of the mainstream media (see chapter 6).
 CAMBODIA
@@ -1332,8 +1319,7 @@ justice, but all avoided mentioning the long U.S. support of the criminal
 
 
 —as well as the U.S. contribution to the first phase of a “Decade of
-Genocide.”92 The Washington Post blacked out the inconvenient fifteen-
-year period of support of Pol Pot with this summary: “After the nightmare
+Genocide.”92 The Washington Post blacked out the inconvenient fifteenyear period of support of Pol Pot with this summary: “After the nightmare
 of Khmer Rouge rule and genocide, the United States and its allies
 pumped millions of dollars into Cambodia to help rebuild and to hold
 elections.”93
@@ -1635,8 +1621,7 @@ representation elections in the late ’80s.”123 But this successful war was
 carried out quietly, with media cooperation. The decertification of unions,
 use of replacement workers, and long, debilitating strikes like that
 involving Caterpillar were treated in a very low key manner. In a notable
-illustration of the applicability of the propaganda model, the nine-month-
-long Pittston miners’ strike that began in April 1989 was accorded much
+illustration of the applicability of the propaganda model, the nine-monthlong Pittston miners’ strike that began in April 1989 was accorded much
 less attention, and less friendly treatment, than the Soviet miners’ strikes
 of the summer of that same year.124
 From 1977 through 1999, while the incomes of the top 1 percent of
@@ -2022,8 +2007,6 @@ MacDougall, Nejat Ozyegin, Nancy Peters, Ellen Ray, William Schaap,
 Karin Wilkins, Warren Witte, and Jamie Young. The authors alone
 remain responsible for its contents.
 
-
-1
 A Propaganda Model
 The mass media serve as a system for communicating messages and
 symbols to the general populace. It is their function to amuse, entertain,
@@ -2033,13 +2016,13 @@ of the larger society. In a world of concentrated wealth and major
 conflicts of class interest, to fulfil this role requires systematic
 propaganda.1
 In countries where the levers of power are in the hands of a state
-bureaucracy, 
-the 
-monopolistic 
-control 
-over 
-the 
-media, 
+bureaucracy,
+the
+monopolistic
+control
+over
+the
+media,
 often
 supplemented by official censorship, makes it clear that the media serve
 the ends of a dominant elite. It is much more difficult to see a propaganda
@@ -2127,8 +2110,7 @@ the Labour Party developed out of the working-class movement in the
 first decade of the twentieth century, it did not obtain the exclusive
 backing of a single national daily or Sunday paper.6
 One important reason for this was the rise in scale of newspaper
-enterprise and the associated increase in capital costs from the mid-
-nineteenth century onward, which was based on technological
+enterprise and the associated increase in capital costs from the midnineteenth century onward, which was based on technological
 
 
 improvements along with the owners’ increased stress on reaching large
@@ -2139,8 +2121,7 @@ break-even circulation of 6,200 copies. By 1867, the estimated start-up
 cost of a new London daily was 50,000 pounds. The Sunday Express,
 launched in 1918, spent over two million pounds before it broke even
 with a circulation of over 250,000.7
-Similar processes were at work in the United States, where the start-
-up cost of a new paper in New York City in 1851 was $69,000; the public
+Similar processes were at work in the United States, where the startup cost of a new paper in New York City in 1851 was $69,000; the public
 sale of the St. Louis Democrat in 1872 yielded $456,000; and city
 newspapers were selling at from $6 to $18 million in the 1920s.8 The cost
 of machinery alone, of even very small newspapers, has for many decades
@@ -2213,8 +2194,7 @@ These twenty-four companies are large, profit-seeking corporations,
 owned and controlled by quite wealthy people. It can be seen in table 1–1
 that all but one of the top companies for whom data are available have
 assets in excess of $1 billion, and the median size (middle item by size) is
-$2.6 billion. It can also be seen in the table that approximately three-
-quarters of these media giants had after-tax profits in excess of $100
+$2.6 billion. It can also be seen in the table that approximately threequarters of these media giants had after-tax profits in excess of $100
 million, with the median at $183 million.
 Many of the large media companies are fully integrated into the
 market, and for the others, too, the pressures of stockholders, directors,
@@ -2259,28 +2239,27 @@ NA
 
 Capital Cities/ABC
 5,191
-688
-448
+
+
 4,124
 CBS
 3,370
-470
-370
+
+
 4,754
 Cox Communications2
 1,111
-170
-87
-743
+
+
 Dow Jones & Co.
 1,236
-331
-183
+
+
 1,135
 Gannett
 3,365
-540
-276
+
+
 2,801
 General Electric (NBC)
 34,591
@@ -2290,29 +2269,29 @@ General Electric (NBC)
 Hearst3
 4,040
 NA
-215
+
 (1983)
 2,100
 (1983)
 Knight-Ridder
 1,947
-267
-140
+
+
 1,911
 McGraw-Hill
 1,463
-296
-154
+
+
 1,577
 News Corp. (Murdoch)4
 8,460
-377
-170
+
+
 3,822
 New York Times
 1,405
-256
-132
+
+
 1,565
 Reader’s Digest5
 NA
@@ -2328,54 +2307,54 @@ NA
 1,062
 Storer7
 1,242
-68
+
 (—17)
-537
+
 Taft
 1,257
 (—11)
 (—53)
-500
+
 Time, Inc.
 4,230
-626
-376
+
+
 3,762
 Times-Mirror
 2,929
-680
-408
+
+
 2,948
 Triangle8
 NA
 NA
 NA
-730
+
 Tribune Co.
 2,589
-523
-293
+
+
 2,030
 Turner Broadcasting
 1,904
 (—185)
 (—187)
-570
+
 U.S. News & World
 Report9
 200+
 NA
 NA
-140
+
 Washington Post
 1,145
-205
-100
+
+
 1,215
 Westinghouse
 8,482
-801
-670
+
+
 10,731
 NA = not available
 1. The asset total is taken from Forbes magazine’s wealth total for the Newhouse family for 1985;
@@ -2385,7 +2364,7 @@ family company, Cox Enterprises. The data presented here are for year-end 1984, 
 of public ownership and disclosure of substantial financial information.
 3. Data compiled in William Barrett, “Citizens Rich,” Forbes, Dec. 14, 1987.
 4. These data are in Australian dollars and are for June 30, 1986; at that date the Australian dollar
-was worth 
+was worth
  of a U.S. dollar.
 5. Data for 1985, as presented in the New York Times, Feb. 9, 1986.
 6. Total revenue for media sales only, as reported in Advertising Age, June 29, 1987.
@@ -2429,8 +2408,7 @@ television and cable systems, their respective parents, GE and
 Westinghouse, are themselves mainstream corporate giants, with boards
 of directors that are dominated by corporate and banking executives.
 Many of the other large media firms have boards made up predominantly
-of insiders, a general characteristic of relatively small and owner-
-dominated companies. The larger the firm and the more widely
+of insiders, a general characteristic of relatively small and ownerdominated companies. The larger the firm and the more widely
 distributed the stock, the larger the number and proportion of outside
 
 
@@ -2491,11 +2469,11 @@ ODs
 551P
 Cox Communications
 Cox family
-36
+
 1,900F
 Dow Jones & Co.
 Bancroft-Cox families
-54
+
 1,500P
 Gannett
 ODs
@@ -2507,11 +2485,11 @@ Under 1
 171P
 Hearst
 Hearst family
-33
+
 1,500F
 Knight-Ridder
 Knight and Ridder families
-18
+
 447P
 McGraw-Hill
 McGraw family
@@ -2519,11 +2497,11 @@ c.20
 450F
 News Corp.
 Murdoch family
-49
+
 300F
 New York Times
 Sulzberger family
-80
+
 450F
 Reader’s Digest
 Wallace estate managed by
@@ -2550,7 +2528,7 @@ ODs
 406P
 Times-Mirror
 Chandlers
-35
+
 1,200P
 Triangle
 Annenbergs
@@ -2562,13 +2540,13 @@ McCormick heirs
 273P
 Turner Broadcasting
 Turner
-80
+
 222P
 U.S. News & World
 Report
 Zuckerman
 Closely held
-1762
+
 Washington Post
 Graham family
 50+
@@ -2604,47 +2582,42 @@ PRIMARY AFFILIATION
 NUMBER
 PERCENT
 Corporate executive
-39
+
 41.1
 Lawyer
-  8
+
   8.4
 Retired (former corporate executive or banker)
 13 (9)
 13.7 (9.5)
 Banker
-  8
+
   8.4
 Consultant
-  4
+
   4.2
 Nonprofit organization
-15
+
 15.8
 Other
-  8
+
   8.4
- 
+
 ––
 ——
 Total
-95
+
 100.0
 OTHER RELATIONSHIPS
- 
- 
- 
- 
- 
+
+
 Other directorships (bank directorships)
 255 (36)
- 
+
 Former government officials
-  15
- 
+
 Member of Council on Foreign Relations
-  20
- 
+
 * Dow Jones & Co.; Washington Post; New York Times; Time, Inc.; CBS; Times-Mirror; Capital
 Cities; General Electric; Gannett; and Knight-Ridder.
 The large media companies have also diversified beyond the media
@@ -2900,8 +2873,7 @@ recent embarrassments that call for a public-relations offset.60 But even in
 these cases the companies will usually not want to sponsor close
 examination of sensitive and divisive issues—they prefer programs on
 Greek antiquities, the ballet, and items of cultural and national history and
-nostalgia. Barnouw points out an interesting contrast: commercial-
-television drama “deals almost wholly with the here and now, as
+nostalgia. Barnouw points out an interesting contrast: commercialtelevision drama “deals almost wholly with the here and now, as
 processed via advertising budgets,” but on public television, culture “has
 come to mean ‘other cultures.’ . . . American civilization, here and now,
 is excluded from consideration.”61
@@ -3031,8 +3003,7 @@ weekly panel show distributed to 400 radio stations, as well as its own
 weekly panel-discussion programs carried by 128 commercial television
 stations.74
 Besides the U.S. Chamber, there are thousands of state and local
-chambers of commerce and trade associations also engaged in public-
-relations and lobbying activities. The corporate and trade-association
+chambers of commerce and trade associations also engaged in publicrelations and lobbying activities. The corporate and trade-association
 lobbying network community is “a network of well over 150,000
 professionals,”75 and its resources are related to corporate income, profits,
 and the protective value of public-relations and lobbying outlays.
@@ -3054,8 +3025,7 @@ To consolidate their preeminent position as sources, government and
 business-news promoters go to great pains to make things easy for news
 organizations. They provide the media organizations with facilities in
 which to gather; they give journalists advance copies of speeches and
-forthcoming reports; they schedule press conferences at hours well-
-geared to news deadlines;78 they write press releases in usable language;
+forthcoming reports; they schedule press conferences at hours wellgeared to news deadlines;78 they write press releases in usable language;
 and they carefully organize their press conferences and “photo
 opportunity” sessions.79 It is the job of news officers “to meet the
 journalist’s scheduled needs with material that their beat agency has
@@ -3179,8 +3149,7 @@ Another class of experts whose prominence is largely a function of
 serviceability to power is former radicals who have come to “see the
 light.” The motives that cause these individuals to switch gods, from
 Stalin (or Mao) to Reagan and free enterprise, is varied, but for the
-establishment media the reason for the change is simply that the ex-
-radicals have finally seen the error of their ways. In a country whose
+establishment media the reason for the change is simply that the exradicals have finally seen the error of their ways. In a country whose
 citizenry values acknowledgement of sin and repentance, the turncoats are
 an important class of repentant sinners. It is interesting to observe how
 the former sinners, whose previous work was of little interest or an object
@@ -3206,55 +3175,48 @@ NO. EXCLUDING
 JOURNALISTS
 JOURNALISTS
 Government official
-24
-20
-24
-27
+
+
 Former government official
-24
-20
-24
-27
+
+
 Conservative think tank
-14
+
    11.7
-14
+
   15.7
 Academic
-12
-10
-12
+
+
   13.5
 Journalist
-31
+
    25.8
 —
 —
 Consultant
-  3
+
     2.5
-  3
+
     3.4
 Foreign government official
-  5
+
     4.2
-  5
+
      5.6
 Other
-  7
+
     5.8
-  7
+
     7.8
- 
+
 —–
 —––
 —––
 —––
 Totals
-120
-100
-89
-100
+
+
 * This is a compilation of all appearances on the news hour concerning the Bulgarian Connection
 (3), the shooting down of the Korean airliner KAL 007 (5), and terrorism, defense, and arms
 control (33), from January 14, 1985, through January 27, 1986.
@@ -3307,8 +3269,7 @@ Foundation, organized in 1980, has specialized in Fairness Doctrine
 complaints and libel suits to aid “media victims.” The Capital Legal
 Foundation, incorporated in 1977, was the Scaife vehicle for
 Westmoreland’s $120-million libel suit against CBS.100
-The Media Institute, organized in 1972 and funded by corporate-
-wealthy patrons, sponsors monitoring projects, conferences, and studies
+The Media Institute, organized in 1972 and funded by corporatewealthy patrons, sponsors monitoring projects, conferences, and studies
 of the media. It has focused less heavily on media failings in foreign
 policy, concentrating more on media portrayals of economic issues and
 the business community, but its range of interests is broad. The main
@@ -3323,28 +3284,25 @@ top public-relations officer of the American Medical Association;
 chairman of the National Advisory Council was Herbert Schmertz, of the
 Mobil Oil Corporation.
 The Center for Media and Public Affairs, run by Linda and Robert
-Lichter, came into existence in the mid-1980s as a “non-profit, non-
-partisan” research institute, with warm accolades from Patrick Buchanan,
+Lichter, came into existence in the mid-1980s as a “non-profit, nonpartisan” research institute, with warm accolades from Patrick Buchanan,
 Faith Whittlesey, and Ronald Reagan himself, who recognized the need
 for an objective and fair press. Their Media Monitor and research studies
-continue their earlier efforts to demonstrate the liberal bias and anti-
-business propensities of the mass media.103
+continue their earlier efforts to demonstrate the liberal bias and antibusiness propensities of the mass media.103
 AIM was formed in 1969, and it grew spectacularly in the 1970s. Its
 annual income rose from $5,000 in 1971 to $1.5 million in the early
 1980s, with funding mainly from large corporations and the wealthy heirs
 and foundations of the corporate system. At least eight separate oil
 companies were contributors to AIM in the early 1980s, but the wide
-representation 
-in 
-sponsors 
-from 
-the 
-corporate 
-community 
+representation
+in
+sponsors
+from
+the
+corporate
+community
 is
 impressive.104 The function of AIM is to harass the media and put
-pressure on them to follow the corporate agenda and a hard-line, right-
-wing foreign policy. It presses the media to join more enthusiastically in
+pressure on them to follow the corporate agenda and a hard-line, rightwing foreign policy. It presses the media to join more enthusiastically in
 Red-scare band-wagons, and attacks them for alleged deficiencies
 whenever they fail to toe the line on foreign policy. It conditions the
 media to expect trouble (and cost increases) for violating right-wing
@@ -3544,8 +3502,7 @@ in the Sinai peninsula last week.”121 There was a very “useful purpose”
 served by focusing on the Soviet act, and a massive propaganda campaign
 ensued.122
 Propaganda campaigns in general have been closely attuned to elite
-interests. The Red scare of 1919–20 served well to abort the union-
-organizing drive that followed World War I in the steel and other
+interests. The Red scare of 1919–20 served well to abort the unionorganizing drive that followed World War I in the steel and other
 industries. The Truman-McCarthy Red scare helped inaugurate the Cold
 War and the permanent war economy, and it also served to weaken the
 progressive coalition of the New Deal years. The chronic focus on the
@@ -3553,8 +3510,7 @@ plight of Soviet dissidents, on enemy killings in Cambodia, and on the
 Bulgarian Connection helped weaken the Vietnam syndrome, justify a
 huge arms buildup and a more aggressive foreign policy, and divert
 attention from the upward redistribution of income that was the heart of
-Reagan’s domestic economic program.123 The recent propaganda-
-disinformation attacks on Nicaragua have been needed to avert eyes from
+Reagan’s domestic economic program.123 The recent propagandadisinformation attacks on Nicaragua have been needed to avert eyes from
 the savagery of the war in El Salvador and to justify the escalating U.S.
 
 
@@ -3673,8 +3629,6 @@ system advantage, but the modes of handling favored and inconvenient
 materials (placement, tone, context, fullness of treatment) differ in ways
 that serve political ends.
 
-
-2
 Worthy and Unworthy Victims
 A propaganda system will consistently portray people abused in enemy
 states as worthy victims, whereas those treated with equal or greater
@@ -3684,8 +3638,7 @@ indignation. We will show in this chapter that the U.S. mass media’s
 practical definitions of worth are political in the extreme and fit well the
 expectations of a propaganda model. While this differential treatment
 occurs on a large scale, the media, intellectuals, and public are able to
-remain unconscious of the fact and maintain a high moral and self-
-righteous tone. This is evidence of an extremely effective propaganda
+remain unconscious of the fact and maintain a high moral and selfrighteous tone. This is evidence of an extremely effective propaganda
 system.
 2.1. JERZY POPIELUSZKO VERSUS
 A HUNDRED RELIGIOUS VICTIMS IN LATIN
@@ -3734,12 +3687,12 @@ In fact, none of the extremely prominent victims of murder in Latin
 
 
 America, including Archbishop Romero and the four American
-churchwomen, 
-received 
-anywhere 
-near 
-the 
-attention 
+churchwomen,
+received
+anywhere
+near
+the
+attention
 accorded
 Popieluszko. We will show below that the quality of treatment of the
 worthy and unworthy victims also differed sharply. While the coverage of
@@ -3769,8 +3722,7 @@ the U.S. mass media because they are killed at a great distance, and are so
 unlike ourselves that they are easy to disregard.4 Poland, however, is
 farther away than Central America, and its cultural and business links
 with the United States are not as great as those of Latin American
-countries in general. Three of the religious victims among the twenty-
-three murdered in Guatemala (row 3) were American citizens, a
+countries in general. Three of the religious victims among the twentythree murdered in Guatemala (row 3) were American citizens, a
 consideration that failed to light a fire under the media. Even the four
 American churchwomen raped and murdered by members of the
 Salvadoran National Guard failed to elicit attention comparable with that
@@ -3841,7 +3793,7 @@ A Murdered Polish Priest versus One Hundred Murdered Religious in Latin America
 NEW YORK TIMES
 TIME and NEWSWEEK
 CBS NEWS
- 
+
 Articles1
 Column
 inches
@@ -3857,7 +3809,7 @@ No. of
 evening
 news
 programs
- 
+
 No.
 % of
 row 1
@@ -3883,24 +3835,23 @@ No.
 % of
 row 1
 Victims
- 
- 
- 
+
+
 1. Jerzy
 Popieluszko,
 murdered on
 Oct. 19, 1984
-78
+
 (100)
 1183.0 (100)
-10
+
 (100)
-3
+
 (100)
-16
+
 (100)
 313.0 (100)
-46
+
 (100) 23
 (100)
 
@@ -3908,17 +3859,17 @@ Oct. 19, 1984
 2. 72 religious
 victims in Latin
 America, 1964–
-782
-8
+
+
 (10.3) 117.5
 (9.9)
-1
+
 (10)
 —
 —
 —
 —
-16
+
 (5.1)
 —3
 —
@@ -3929,7 +3880,7 @@ murdered in
 Guatemala Jan.
 1980–Feb.
 19854
-7
+
 (9.0)
 66.5
 (5.6)
@@ -3937,26 +3888,26 @@ Guatemala Jan.
 —
 —
 —
-2
+
 (12.5) 34.0
 (10.9)
-2
+
 (4.3)
-2
+
 (8.7)
 4. Oscar Romero,
 murdered Mar.
 18, 1980
-16
+
 (20.5) 219.0
 (18.5) 4
 (40)
 —
 —
-3
+
 (18.8) 86.5
 (27.6)
-13
+
 (28.3) 4
 (17.4)
 5. 4 U.S. religious
@@ -3964,26 +3915,26 @@ women,
 murdered in El
 Salvador, Dec.
 2, 1980
-26
+
 (33.3) 201.5
 (17.0) 3
 (30)
 —
 —
-5
+
 (31.2) 111.0 (35.5)
-22
+
 (47.8) 10
 (43.5)
 6. Total of lines
 2–5
-57
+
 (73.1) 604.5
 (51.1) 8
 (80)
 —
 —
-10
+
 (62.5) 247.5 (79.1) 37
 (80.4) 16
 (69.6)
@@ -4335,8 +4286,7 @@ government not only incapable of putting an end to the violence, but a
 government which itself is generating the political violence through
 repression . . . Recently, in one of the large estates taken over by the
 agrarian reform, uniformed members of the security forces
-accompanied by a masked person pointed out the directors of the self-
-management group and then these individuals were shot in front of
+accompanied by a masked person pointed out the directors of the selfmanagement group and then these individuals were shot in front of
 their co-workers.29
 It can be seen from the statement that the reference in the Reuter’s
 dispatch to protest “against the junta’s inability to halt violence by leftist
@@ -4533,8 +4483,7 @@ Roberto D’Aubuisson was at the center of a conspiracy to murder
 Romero. On the basis of numerous interviews with Arena party activists
 and U.S. officials, and examination of State Department cables,
 investigative reporters Craig Pyes and Laurie Becklund claimed in 1983
-that D’Aubuisson had planned the assassination with a group of active-
-duty military officers, who drew straws for the honor of carrying out the
+that D’Aubuisson had planned the assassination with a group of activeduty military officers, who drew straws for the honor of carrying out the
 murder.41 Former ambassador Robert White, who had access to State
 Department cables and other inside information during his tenure in
 office, also stated before a congressional committee in February 1984 that
@@ -4556,8 +4505,7 @@ intelligence office while the guard was headed by General Eugenio Vides
 
 
 Casanova. Pyes and Becklund write that “During the time Vides
-commanded the Guard, active-duty military officers working with the G-
-2 were linked in State Department cables to the March 1980 assassination
+commanded the Guard, active-duty military officers working with the G2 were linked in State Department cables to the March 1980 assassination
 of Archbishop Oscar Arnulfo Romero . . .”44 Note that Vides Casanova
 became minister of defense, the post he still holds, under the Duarte
 government.
@@ -4568,8 +4516,7 @@ judicial investigation in El Salvador headed by Judge Atilio Ramírez
 quickly pointed a finger at D’Aubuisson and General Medrano, a U.S.
 protégé in El Salvador. But Ramírez soon fled the country after several
 threats and an attempt on his life, and active pursuit of the case in El
-Salvador ended. In exile, Judge Ramírez claimed that the criminal-
-investigation group of the police didn’t arrive at the scene of the crime till
+Salvador ended. In exile, Judge Ramírez claimed that the criminalinvestigation group of the police didn’t arrive at the scene of the crime till
 four days after it was committed, and that neither the police nor the
 attorney general provided his court with any evidence. He concluded that
 there was “undoubtedly” a “kind of conspiracy to cover up the murder”
@@ -4591,8 +4538,7 @@ threat of trial and imprisonment. An assembly of the entire officer corps
 of the Salvadoran army—seven hundred strong—was quickly convened,
 and demanded his release. He was turned loose shortly thereafter, with
 the concurrence of the minister of defense.46 The documents found in his
-possession dropped out of sight. The security forces also raided the legal-
-aid office of the archbishopric, removing all of their files bearing on the
+possession dropped out of sight. The security forces also raided the legalaid office of the archbishopric, removing all of their files bearing on the
 
 
 assassination. At the previously mentioned meeting of the Salvadoran
@@ -4658,8 +4604,7 @@ crime was extremely inconvenient to the Carter administration, which
 was supporting the Salvadoran junta as an alleged “reformist”
 government and trying to convince the public and Congress that that
 government was worthy of aid. While temporarily suspending military
-aid to El Salvador, the Carter administration sought a quick and low-
-keyed resolution of the case. It resumed aid at the drop of an announced
+aid to El Salvador, the Carter administration sought a quick and lowkeyed resolution of the case. It resumed aid at the drop of an announced
 rebel offensive, and—contrary to its promises—before there was any
 investigatory response by the Salvadoran government. A commission
 headed by William P. Rogers was quickly sent to El Salvador to inquire
@@ -4830,8 +4775,7 @@ unallocable “violence” are reserved for deaths in the provinces.
 FOR VILLAINY
 AT THE TOP
 As we saw earlier, in the Popieluszko case the mass media eagerly,
-aggressively, and on a daily basis sought and pointed to evidence of top-
-level involvement in the killing. In the case of the killings of the four
+aggressively, and on a daily basis sought and pointed to evidence of toplevel involvement in the killing. In the case of the killings of the four
 women, we can observe a completely different approach. Here the media
 found it extremely difficult to locate Salvadoran government involvement
 in the murders, even with evidence staring them in the face. Their
@@ -4889,10 +4833,8 @@ protecting the “reformers” at the top. On September 30, 1981,
 Ambassador Deane Hinton stated with assurance that the local national
 guardsmen “were acting on their own,” although internal State
 Department documents of the time recognized that the Salvadoran
-investigation had been a joke, and other evidence existed suggesting top-
-level involvement.59 Nonetheless, the official position was clear. To go
-along with the official line, the mass media had to stop investigating high-
-level involvement and even to suppress evidence emerging from other
+investigation had been a joke, and other evidence existed suggesting toplevel involvement.59 Nonetheless, the official position was clear. To go
+along with the official line, the mass media had to stop investigating highlevel involvement and even to suppress evidence emerging from other
 sources. And so they proceeded to do this.
 After a two-month investigation of the murders, the reporter John
 Dinges filed a story through Pacific News Service that showed the
@@ -5138,8 +5080,7 @@ regularly traced back to the Soviet occupations, a propaganda model
 would predict that the U.S. media will not explain the contemporary
 Guatemalan environment of state terror as a natural product of the U.S.
 intervention in 1954 (and thereafter). On the contrary, we would expect
-the United States to be portrayed as a benevolent and concerned by-
-stander, trying its very best to curb abuses of right and left extremists.
+the United States to be portrayed as a benevolent and concerned bystander, trying its very best to curb abuses of right and left extremists.
 Before looking at the media’s handling of Guatemala, however, let us
 step back for a brief review of the crucial period 1945–54 and its sequel
 to set the stage for an examination of the media’s role in the 1980s.
@@ -5159,8 +5100,7 @@ multinational corporate community, and the U.S. government.74
 unions were allowed to organize in 1947, and Arbenz’s modest and
 effective land reform was the last straw.75 With U.S. initiative,
 organization, funding, and direct psychological warfare and terror
-operations, a tiny mercenary army ousted Arbenz and installed an “anti-
-Communist” regime.
+operations, a tiny mercenary army ousted Arbenz and installed an “antiCommunist” regime.
 From 1954 to the present day, neither reform nor democracy, let alone
 radical change, has been possible in Guatemala. The main reason for this
 is that the forces into whose hands the United States delivered that
@@ -5275,8 +5215,7 @@ help make a favorable case for Lucas García’s successor, Ríos Montt.
 Under Ríos Montt there was “a dramatic decline” in human-rights abuses,
 according to State Department spokesman John Hughes in January 1983.
 Ríos Montt is the one whom Reagan found to be getting a bum rap. But
-as we noted, Amnesty International found Ríos Montt to be another top-
-rank murderer, who appears to have exceeded his predecessor in civilian
+as we noted, Amnesty International found Ríos Montt to be another toprank murderer, who appears to have exceeded his predecessor in civilian
 massacres.
 When Ríos Montt was ousted in his turn, once again the State
 Department line shifted. It was admitted that things had been terrible
@@ -5318,8 +5257,7 @@ The expectations of a propaganda model are fully realized in this case.
 Referring to our table 2–1 comparison of media treatment of twenty-three
 religious victims in Guatemala with the coverage accorded Popieluszko,
 only four of the twenty-three were ever mentioned by name in our media
-sample, and the twenty-three taken together had approximately one-
-twentieth of the space in the New York Times that the newspaper of record
+sample, and the twenty-three taken together had approximately onetwentieth of the space in the New York Times that the newspaper of record
 gave to Popieluszko. In the case of the murder in Guatemala of the
 American priest Rev. Stanley Rother, the New York Times reported on
 August 5, 1981, in a tiny back-page article, that three men had been
@@ -5475,8 +5413,7 @@ title—“Embassy Sees ‘Disinformation’ on Guatemala: U.S. Report Says
 Rights Groups are Used”—and in the text. The author allows the embassy
 claim that “the report never was meant to be made public” to stand
 unchallenged, and never refers to the threat posed to human-rights
-monitors by the release of such State Department charges. The human-
-rights groups are allowed to suggest a State Department intent to
+monitors by the release of such State Department charges. The humanrights groups are allowed to suggest a State Department intent to
 discredit, but the word “disinformation” is never applied to State
 Department allegations, and no serious examination of the content of
 those charges is provided. This superficial piece exhausts the sample
@@ -5505,8 +5442,7 @@ Guatemala has been even more inhospitable to human-rights
 organizations than El Salvador. Guatemalan Archbishop Monsignor
 Próspero Penados del Barrio asserted in 1984 that “It is impossible for a
 human rights office to exist in Guatemala at the present time.”97
-“Disappearances” as an institutional form began in Guatemala in the mid-
-1960s and eventually reached levels unique in the Western Hemisphere,
+“Disappearances” as an institutional form began in Guatemala in the mid1960s and eventually reached levels unique in the Western Hemisphere,
 with the total estimated to be some 40,000.98 Protest groups that have
 formed to seek information and legal redress have been consistently
 driven out of business by stateorganized murder. The Association of
@@ -5619,8 +5555,7 @@ themselves assassinated shortly after his death.)108 He had been burned
 with a blowtorch, on the stomach and elsewhere, and beaten on the face
 so severely that his lips were swollen and his teeth were broken; his
 tongue had been cut out. Then, on April 4, another leader of GAM, María
-Rosario Godoy de Cuevas, her twenty-one-year-old brother, and her two-
-year-old son were picked up, tortured, and murdered. Her breasts had bite
+Rosario Godoy de Cuevas, her twenty-one-year-old brother, and her twoyear-old son were picked up, tortured, and murdered. Her breasts had bite
 marks and her underclothing was bloody; her two-year-old son had had
 his fingernails pulled out.
 On grounds of newsworthiness, the murders of the two GAM leaders,
@@ -5729,7 +5664,7 @@ A Murdered Polish Priest versus Two Murdered Officials of the Guatemalan Mutual 
 NEW YORK TIMES
 TIME and NEWSWEEK
 CBS NEWS
- 
+
 Articles1
 Column inches
 Front-page
@@ -5743,7 +5678,7 @@ programs1
 No. of
 evening
 news
- 
+
 No.
 % of
 row 1
@@ -5762,34 +5697,33 @@ row 1
 No.
 % of
 row
-1
+
 No.
 % of
 row
-1
+
 No.
 % of
 row
-1
+
 Victims
- 
- 
- 
+
+
 1. Jerzy
 Popieluszko,
 murdered on
 Oct. 19, 1984
-78
+
 (100)
 1183.0 (100)
-10
+
 (100)
-3
+
 (100)
-16
+
 (100)
 313.0 (100)
-46
+
 (100) 23
 (100)
 2. Héctor Orlando
@@ -5804,7 +5738,7 @@ between Mar.
 with a child,
 who was
 tortured)
-5
+
 (6.4)
 80.0
 (6.8)
@@ -5849,8 +5783,6 @@ Guatemalan Human Rights Commission, and their allies to elicit
 publicity. As in the past, the unworthiness of these victims remains an
 essential ingredient in the Guatemalan army’s continued freedom to kill.
 
-
-3
 Legitimizing versus Meaningless
 Third World Elections:
 El Salvador
@@ -6308,8 +6240,7 @@ minority and supported the contras and a foreign-sponsored invasion of
 the country, was allowed to operate throughout the 1984 election,
 although it was censored. The censorship still allowed the paper to
 publish manifestos of opposition groups and a pastoral letter critical of
-the regime. No comparable paper has been allowed to exist above-
-ground, even briefly, in El Salvador and Guatemala.
+the regime. No comparable paper has been allowed to exist aboveground, even briefly, in El Salvador and Guatemala.
 There is no doubt that the media in Nicaragua have been under
 government constraint, with censorship and periodic emergency controls
 that seriously encroached on freedom of the press.32 It should be noted,
@@ -6342,8 +6273,7 @@ were murdered and numerous organizations were destroyed or driven
 underground. The teachers’ union was decimated by several hundred
 murders; the university was occupied, looted, and closed down by the
 army; organized student and professional groups were destroyed by
-arrests and killings, and even the peasant union sponsored by the AFL-
-CIO (i.e., supporters of the regime) had some one hundred of its
+arrests and killings, and even the peasant union sponsored by the AFLCIO (i.e., supporters of the regime) had some one hundred of its
 organizers and leaders murdered between October 1979 and the election
 of March 1982.34
 In Guatemala, too, intermediate organizations such as peasant and
@@ -6353,8 +6283,7 @@ of demobilization of institutions threatening the dominant elites
 culminated in the early 1980s, when by government proclamation “illicit
 association” was made punishable by law. All groups “which follow, or
 are subordinated to, any totalitarian system of ideology” (evidently an
-exception is made of the Guatemalan armed forces and the national-
-security ideology) are illicit. Only the armed forces determine when
+exception is made of the Guatemalan armed forces and the nationalsecurity ideology) are illicit. Only the armed forces determine when
 illicitness occurs. If General Mejía Víctores finds the GAM mothers to be
 agents of subversion, they may be killed (see chapter 2). Unions, peasant
 groups, student and professional organizations have grown up
@@ -6777,8 +6706,7 @@ as we saw in chapter 2, the Reagan administration went to great pains to
 put a favorable gloss on the murderous regimes of Lucas García, Ríos
 Montt, and Mejía Víctores, and to attempt to reintegrate them fully into
 the free-world alliance.74 It encouraged the 1984–85 elections, provided
-advisory and financial support for election management, and gave public-
-relations assistance and sent official observers to help put the election in a
+advisory and financial support for election management, and gave publicrelations assistance and sent official observers to help put the election in a
 favorable light. There was little effort made to disguise the fact that the
 purpose of the election, from the standpoint of the Reagan administration
 and the ruling army, was to alter the international “image” of Guatemala
@@ -6860,11 +6788,11 @@ The mass media’s sourcing on the Guatemalan election was confined
 almost entirely to U.S. officials and official observers, the most
 prominent Guatemalan political candidates, and generals. Spokespersons
 for the insurgents—what in Nicaragua would be labeled the “main
-opposition”—the 
-smaller 
-parties, 
-spokespersons 
-for 
+opposition”—the
+smaller
+parties,
+spokespersons
+for
 popular
 organizations, the churches, human-rights groups, and ordinary citizens,
 were essentially ignored by the media. Time, Newsweek and CBS News
@@ -6910,8 +6838,7 @@ promoting the welfare of the whole society.”79 Stephen Kinzer mentioned
 this report in a Times news article of July 22, 1984, but his reference is
 made after the election of July 1, and Kinzer did not use it to frame the
 discussion of electoral conditions and to arrive at an assessment of the
-quality of the election. Furthermore, his summary of the twenty-seven-
-page report, that it “denounced torture, electoral fraud, concentration of
+quality of the election. Furthermore, his summary of the twenty-sevenpage report, that it “denounced torture, electoral fraud, concentration of
 wealth and ‘massacres of entire families,’” ignores the quite specific
 critique of the conditions bearing on an election. Time mentioned this
 pastoral letter briefly; Newsweek and CBS News never mentioned it.
@@ -7046,8 +6973,7 @@ source, in contrast with Arturo Cruz and Robert Leiken, is blacked out.
 As with El Salvador, the election was not evaluated, either in advance or
 in retrospect, on the basis of whether or not the fundamental requirements
 of a free election were met. For the U.S. government, the insurgents were
-not a main opposition, Guatemalan state terror was merely a public-
-relations inconvenience, and the elections were fair. The mass media’s
+not a main opposition, Guatemalan state terror was merely a publicrelations inconvenience, and the elections were fair. The mass media’s
 treatment of the Guatemalan election reflected well this government
 propaganda agenda.
 
@@ -7101,13 +7027,10 @@ Nicaragua, the media relied even more heavily than usual on U.S.
 government handouts. It is enlightening to compare this conduited
 propaganda of the mass media with the findings of foreign-observer
 teams on the scene in Nicaragua. For the purpose of this comparison,
-which follows, we will use two such reports. One, that of the Irish Inter-
-Party Parliamentary Delegation, is The Elections in Nicaragua, November
-1984. The delegation was composed of four individuals, three from right-
-wing or moderate-right political parties, who spent seventeen days in
+which follows, we will use two such reports. One, that of the Irish InterParty Parliamentary Delegation, is The Elections in Nicaragua, November
+1984. The delegation was composed of four individuals, three from rightwing or moderate-right political parties, who spent seventeen days in
 Nicaragua at the time of the election. We will also use as a basis of
-comparison of media coverage the previously cited report of the 15-
-member delegation sent by the Latin American Studies Association
+comparison of media coverage the previously cited report of the 15member delegation sent by the Latin American Studies Association
 (LASA), half of whom had had “substantial field experience” in
 Nicaragua itself. This delegation spent eight days in Nicaragua before the
 election, traveled in a rented bus, determined their own itinerary, and
@@ -7286,14 +7209,14 @@ these facts nor the U.S. campaign to discredit were seen as posing a
 The Irish delegation pointed out that “The Parties of the Democratic
 Coordinating Committee [based in the business community] opposed the
 voter registration, and called for a boycott of this process” (p. 5), and it
-noted 
-that 
-eleven 
-polling 
-stations 
-were 
-closed 
-down 
+noted
+that
+eleven
+polling
+stations
+were
+closed
+down
 by
 counterrevolutionary activities (p. 7). The public voted in large numbers
 “despite the possible dangers involved,” which suggested to the Irish
@@ -7349,13 +7272,13 @@ treasonous. These statements were more precisely warnings, whereas
 Ortega’s was an insult but not a clear threat. Ortega’s was the only such
 statement of its kind reported, and Time’s statement that the government
 “made it clear” that nonvoting was “counterrevolutionary” is doubly
-dishonest—the 
-statement 
-was 
-not 
-clearly 
-a 
-warning, 
+dishonest—the
+statement
+was
+not
+clearly
+a
+warning,
 and
 “counterrevolutionary” is an invidious word concocted by Time. The
 official government position as expressed in the law was that
@@ -7366,12 +7289,12 @@ made. It suppresses the fact that the Nicaraguan army did not regularly
 murder even “counterrevolutionaries,” whereas the Salvadoran and
 
 
-Guatemalan 
-armies 
-murdered 
-numerous 
-people 
-who 
+Guatemalan
+armies
+murdered
+numerous
+people
+who
 weren’t
 “revolutionaries” but were somehow in the way. In short, propaganda
 could hardly be more brazen.
@@ -7479,8 +7402,7 @@ The Reagan administration not only dangled Cruz before the media, it
 tried hard to induce or bribe other candidates in the Nicaraguan election
 to withdraw in order to fulfil the prophecy of a meaningless election. The
 brazenness of this intervention by a great power was remarkable, but the
-U.S. media gave it minimal attention. They never denounced it as anti-
-democratic, they failed to link it to Cruz’s campaign (with its suggestion
+U.S. media gave it minimal attention. They never denounced it as antidemocratic, they failed to link it to Cruz’s campaign (with its suggestion
 of a larger effort to discredit by boycott), and they never suggested that
 voter “turnout” was more meaningful given the active U.S. campaign to
 discredit the election. On October 31, 1984, Stephen Kinzer noted that
@@ -7721,105 +7643,105 @@ DEALING WITH TOPIC
 PERCENTAGE OF
 ARTICLES DEALING WITH
 TOPIC
-Those 
-compatible 
-with 
-the 
+Those
+compatible
+with
+the
 U.S.
 government’s agenda for the Salvadoran
 election:
- 
- 
+
+
 1. Democratic purpose and hopes
-6
+
 21.4
 2. Rebel disruption
-15
+
 53.6
 3. Turnout
-7
+
 25.0
 4. Election mechanics
-9
+
 32.1
 5. Personalities and political infighting
-10
+
 35.7
 6. Official reflections on the election
-10
+
 35.7
 7. The army as protector of the election
-5
+
 17.9
-Those 
-incompatible 
-with 
-the 
+Those
+incompatible
+with
+the
 U.S.
 government’s agenda for the Salvadoran
 election:
- 
- 
+
+
 8. The public-relations purpose
-3
+
 10.7
 9. U.S. investment in the election
-2
+
 7.1
 10. Fraud in the 1982 election
-0
-0
+
+
 11. The existence of free speech and
 assembly—legal state of siege
-1
+
 3.6
 12. Freedom of the press
-0
-0
+
+
 13. Organizational freedom
-0
-0
+
+
 14. Limits on the ability of candidates to
 qualify and campaign
-0
-0
+
+
 15. Prior state terror and climate of fear
-3
+
 10.7
 16. Power of armed forces, links to
 candidates and parties, as possible
 negative factor
-1
+
 3.6
 17. Legal obligation to vote
-4
+
 14.3
 18. Legal penalties for nonvoting
-2
+
 7.1
 19. Marking of voters’ fingers
-1
+
 3.6
 20. Stamping identification cards
-2
+
 7.1
 21. Legal requirement that authorities check
 within 10 days, that voters have
 voted
-0
-0
+
+
 22. Possible nonlegal threat to nonvoters
 from death squads and security
 forces
-0
-0
+
+
 23. Use of transparent voting urns
-1
+
 3.6
 24. Legal right of the security forces to an
 armed presence at voting stations
-0
-0
+
+
 * Based on a study of the 28 articles on the El Salvador election that appeared in the New York
 Times between Feb. 1 and Mar. 30, 1984.
 
@@ -7838,33 +7760,33 @@ WITH TOPIC
 Those compatible with the U.S. government’s agenda for
 the Nicaraguan election: (Of the 7 items in table 3–1, all
 are blanks except one.)
- 
- 
+
+
 1. Election mechanics
-3
+
 37.5
 Those incompatible with the U.S. government’s agenda
 for the Nicaraguan election:**
- 
- 
+
+
 2. The public-relations purpose
-3
+
 37.5
 3. Free speech
-2
+
 25.0
 4. Freedom of the press
-6
+
 75.0
 5. Organizational freedom
-4
+
 50.0
 6. Ability of candidates to qualify and run
-5
+
 62.5
 7. Power of the armed forces, link to state, as negative
 factor
-3
+
 37.5
 * Based on a study of the 8 articles on the forthcoming Nicaraguan election that appeared in the
 New York Times between Feb. 1 and Mar. 30, 1984.
@@ -7883,53 +7805,53 @@ agenda for the Nicaraguan election:
 
 
 1. Democratic purpose and hopes
-1
+
 4.8
 2. Rebel disruption
-0
-0
+
+
 3. Turnout
-5
+
 23.8
 4. Election mechanics
-0
-0
+
+
 5. Personalities and political infighting
-3
+
 14.3
 6. Official reflections on the election
-3
+
 14.3
 7. The army as protector of the election
-0
-0
+
+
 8. The public-relations purpose
-7
+
 33.3
 9. Sandinista investment in the election
-2
+
 9.5
 10. Fraud in prior elections
 NA
 NA
 11. Free speech and assembly
-8
+
 38.1
 12. Freedom of the press
-6
+
 28.6
 13. Organizational freedom
-2
+
 9.5
 14. Limits on the ability of candidates to qualify
 and campaign
-11
+
 52.4
 15. Prior state terror and climate of fear
-3
+
 14.3
 16. Control of armed forces by government
-3
+
 14.3
 17. Legal obligation to vote
 NA
@@ -7938,7 +7860,7 @@ NA
 NA
 NA
 19. Marking of voters’ fingers
-1
+
 NA
 20. Stamping identification cards
 NA
@@ -7947,7 +7869,7 @@ NA
 NA
 NA
 22. Nonlegal threat to nonvoters
-1
+
 4.8
 23. Use of transparent voting urns
 NA
@@ -8172,8 +8094,6 @@ delegitimization. As their government sponsors terror in all three states
 despite their righteous self-image as opponents of something called
 terrorism, serve in fact as loyal agents of terrorism.
 
-
-4
 The KGB-Bulgarian Plot to Kill
 the Pope: Free-Market
 Disinformation as “News”
@@ -8283,8 +8203,7 @@ this view by the other mainstream media.7 The mass media in our sample
 and used the SHK model from the beginning, and retained that loyalty to
 the end of the Rome trial in March 1986. In the process they excluded
 alternative views and a great deal of inconvenient fact. With the Reader’s
-Digest, the Wall Street Journal, the Christian Science Monitor, and NBC-
-TV also firmly adhering to the SHK line, it quickly established a
+Digest, the Wall Street Journal, the Christian Science Monitor, and NBCTV also firmly adhering to the SHK line, it quickly established a
 dominant position throughout the mainstream media.
 In the balance of this and the following two sections, we will describe
 the SHK model, discuss its weaknesses, and outline an alternative frame
@@ -8328,8 +8247,7 @@ agent. Although Agca traveled through eleven other countries, his stay in
 Bulgaria was crucial because Bulgaria is a totalitarian state and the police
 know everything; therefore they knew who Agca was, and they must have
 been using him for their own purposes.9
-4.2. PROBLEMS WITH THE STERLING-HENZE-
-KALB MODEL
+4.2. PROBLEMS WITH THE STERLING-HENZEKALB MODEL
 The basic Sterling-Henze-Kalb model suffered from a complete absence
 of credible evidence, a reliance on ideological premises, and internal
 inconsistencies. As problems arose, the grounds were shifted, sometimes
@@ -8801,8 +8719,7 @@ corporate community and the mainstream media. Their messages passed
 quite easily through the filters of a propaganda system. Sterling was
 funded and published by Reader’s Digest, which gave her enormous
 outreach and immediate brandname recognition. The conservative
-network is fond of Sterling, so their large stable of columnists and think-
-tank affiliates, like the Georgetown Center for Strategic and International
+network is fond of Sterling, so their large stable of columnists and thinktank affiliates, like the Georgetown Center for Strategic and International
 Studies (CSIS) and the American Enterprise Institute, pushes her views.
 The Reagan administration was also delighted with Sterling—despite her
 frequent denunciations of the CIA and the State Department for their
@@ -8887,8 +8804,7 @@ of fact, foolish arguments, and wilder political opinions were not
 disclosed to readers of the New York Times, Time, or Newsweek, or
 watchers of CBS News or the “McNeil-Lehrer News Hour,” and even
 “newsworthy” matters bearing on her qualifications were ignored. For
-example, Sterling’s numerous attacks on the murdered French activist-
-radical Henry Curiel resulted in suits for slander brought against her in
+example, Sterling’s numerous attacks on the murdered French activistradical Henry Curiel resulted in suits for slander brought against her in
 Paris. The New York Times has never mentioned these slander suits,
 which would put Sterling in a bad light not only because she lost them in
 whole or part, but also because of the insight they provide concerning her
@@ -8964,8 +8880,7 @@ The basic SHK model rested its case on the Soviet motive, Agca’s
 stay in Sofia, and the high professionalism of the Soviet and Bulgarian
 secret police, which made it likely that they were manipulating Agca if he
 stopped off in Bulgaria. Only the ABC “20/20” program of May 12,
-1983, explored the Soviet motive in any depth, despite the constant mass-
-media reiteration of the SHK line. ABC went to the trouble of asking the
+1983, explored the Soviet motive in any depth, despite the constant massmedia reiteration of the SHK line. ABC went to the trouble of asking the
 Vatican about the validity of Marvin Kalb’s claim that the pope had
 written a note threatening to resign and to return to Poland to lead the
 resistance to any Soviet invasion. Cardinal John Krol, speaking for the
@@ -9163,9 +9078,7 @@ true even after the trial ended we show in a detailed analysis in appendix
 2, “Tagliabue’s Finale on the Bulgarian Connection: A Case Study in
 Bias.”
 
-
-5
-The Indochina Wars (I): 
+The Indochina Wars (I):
 Vietnam
 Media coverage of the U.S. wars in Indochina has engendered a good
 deal of bitter controversy, some close analysis of several specific
@@ -9180,8 +9093,7 @@ A propaganda model leads to different expectations. On its
 assumptions, we would expect media coverage and interpretation of the
 war to take for granted that the United States intervened in the service of
 generous ideals, with the goal of defending South Vietnam from
-aggression and terrorism and in the interest of democracy and self-
-determination. With regard to the second-level debate on the performance
+aggression and terrorism and in the interest of democracy and selfdetermination. With regard to the second-level debate on the performance
 of the media, a propaganda model leads us to expect that there would be
 no condemnation of the media for uncritical acceptance of the doctrine of
 U.S. benevolence and for adherence to the official line on all central
@@ -9679,8 +9591,7 @@ was committed to preventing any political settlement.
 Unable to develop any political base in the south, the U.S.
 government proceeded to expand the war. It was able to do this by
 continually manipulating the political scene in South Vietnam to assure
-the attainment of its objective: continued fighting until an anti-
-Communist regime, susceptible to American will, was established in the
+the attainment of its objective: continued fighting until an antiCommunist regime, susceptible to American will, was established in the
 South. Ambassador Lodge observed in January 1964 that “It is obvious
 that the generals are all we have got.”35 And we would keep replacing
 them until we got the right ones, “right” meaning that they were willing
@@ -9862,8 +9773,7 @@ defending Afghanistan from terrorist attack—is adopted as the
 unquestioned framework for further reporting and discussion. The same is
 true in the case of U.S. aggression in Indochina.
 We cannot quite say that the propaganda model is verified in the case
-of the Indochina wars, since it fails to predict such extraordinary, far-
-reaching, and exceptionless subservience to the state propaganda system.
+of the Indochina wars, since it fails to predict such extraordinary, farreaching, and exceptionless subservience to the state propaganda system.
 The fact that this judgment is correct—as it plainly is—is startling
 enough. Even more revealing with regard to Western intellectual culture
 is that the simple facts cannot be perceived, and their import lies far
@@ -10007,8 +9917,7 @@ the record is beside the point. The same remains true today outside of the
 specialist and dissident literature.
 The context of McNamara’s observation cited earlier on the crucial
 U.S. role in blocking the election and unification provisions after Geneva
-was the “growth of antiwar and neutralist sentiment in the Saigon-
-controlled areas” in 1964. This came at a time when virtually all
+was the “growth of antiwar and neutralist sentiment in the Saigoncontrolled areas” in 1964. This came at a time when virtually all
 Vietnamese factions, along with international opinion generally, were
 seeking a political solution among Vietnamese that would head off the
 
@@ -10080,8 +9989,7 @@ In the New York Times version, the United States was leading “the
 free world’s fight to contain aggressive Communism” (Robert Trumbull),
 defending South Vietnam “against the proxy armies of Soviet Russia—
 North and South Vietnamese guerrillas” (Hanson Baldwin), just as the
-French had fought “a seven-and-a-half-year struggle” against “foreign-
-inspired and supplied Communists.” In early 1965, President Johnson
+French had fought “a seven-and-a-half-year struggle” against “foreigninspired and supplied Communists.” In early 1965, President Johnson
 decided “to step up resistance to Vietcong infiltration in South Vietnam”
 (Tom Wicker); the Vietcong “infiltrate” in their own country, while we
 “resist” this aggression. Since the South Vietnamese guerrillas were
@@ -10167,8 +10075,7 @@ Communists and 26 percent blamed North Vietnam, while 7 percent said,
 been possible even to ask the obvious question that would receive an easy
 and accurate answer in the case of the Soviet invasion of Afghanistan:
 “Why do you think the southern resistance is attacking U.S. military
-installations in South Vietnam?” In fact, even at the peak of peace-
-movement activities—or today, many years later, when it should be
+installations in South Vietnam?” In fact, even at the peak of peacemovement activities—or today, many years later, when it should be
 possible to observe the plain facts with some detachment—it would be
 quite impossible to raise this simple and obvious question, or to answer it,
 
@@ -10210,8 +10117,7 @@ against Americans in Vietnam, so no such scruples are in order, and none
 were expressed.
 Similarly, there was little reaction when B-52 raids in “the populous
 [Mekong] delta” were reported in 1965, with unknown numbers of
-civilian casualties and hordes of refugees fleeing to government-
-controlled areas “because they could no longer bear the continuous
+civilian casualties and hordes of refugees fleeing to governmentcontrolled areas “because they could no longer bear the continuous
 bombings.”72 The victims fell under the category of “the unfortunate
 accidental loss of life incurred by the efforts of American military forces
 to help the South Vietnamese repel the incursion of North Vietnam and
@@ -10250,12 +10156,12 @@ indigenous enemy, expanding the failed efforts of the strategic-hamlet
 program and earlier terror. The U.S. media continued to report the
 subsequent atrocities, but from the standpoint of the aggressors. One had
 to turn to the foreign press to find reports from zones held by the South
-Vietnamese 
-enemy—for 
-example, 
-those 
-of 
-the 
+Vietnamese
+enemy—for
+example,
+those
+of
+the
 pro-Western
 correspondent Katsuichi Honda, who reported in the Japanese press in the
 fall of 1967 from the Mekong Delta, describing attacks against
@@ -10353,8 +10259,7 @@ normal and routine operations.
 Medical workers at the nearby Canadian-run hospital reported that
 they knew of the My Lai massacre at once but gave it little attention
 because it was not out of the ordinary in a province (Quang Ngai) that
-had been virtually destroyed by U.S. military operations. The highest-
-ranking officer to have faced court-martial charges for the massacre,
+had been virtually destroyed by U.S. military operations. The highestranking officer to have faced court-martial charges for the massacre,
 Colonel Oran Henderson, stated that “every unit of brigade size has its
 Mylai hidden some place,” although “every unit doesn’t have a
 Ridenhour” to expose what had happened.82 Knowledgeable elements of
@@ -10742,8 +10647,7 @@ Viet Cong and use its directive powers to make the Viet Cong desist”
 “the basic elements of Communist strength in South Vietnam remain
 indigenous.”94
 U.S.-run military operations against North Vietnam began on
-February 1, 1964 (OPLAN-34A), using South Vietnamese and “third-
-country” mercenaries, “presumably mostly Nationalist Chinese,”
+February 1, 1964 (OPLAN-34A), using South Vietnamese and “thirdcountry” mercenaries, “presumably mostly Nationalist Chinese,”
 according to Kahin. These operations were officially “designed to result
 in substantial destruction, economic loss, and harassment.”95 On July 30–
 31, Saigon Navy vessels attacked North Vietnamese islands, eliciting an
@@ -11006,8 +10910,7 @@ George Herring nevertheless observes: “That the media was hostile to the
 war and to Johnson seems clear, and much of the reporting of Tet was
 misleading”; these “distortions of the media” may have contributed to
 “growing popular discontent” with the war and “public anxiety,” Herring
-adds, but these were not the operative factors in Johnson’s decision to de-
-escalate and seek negotiations after Tet.107
+adds, but these were not the operative factors in Johnson’s decision to deescalate and seek negotiations after Tet.107
 An analysis of the facts and the argument demonstrates that neither
 component of the Freedom House thesis is tenable. The second, as we
 shall see, is conceded in the Freedom House study to be false with regard
@@ -11058,8 +10961,7 @@ client regime had little support while its opponents in South Vietnam
 constituted so powerful a political force that any peaceful settlement was
 unthinkable. That the United States has a right to conduct military
 operations in South Vietnam to uproot the NLF and destroy the peasant
-society in which it was based, that its goals are democracy and self-
-determination, and that its forces “protect” and “bring security” to South
+society in which it was based, that its goals are democracy and selfdetermination, and that its forces “protect” and “bring security” to South
 Vietnamese peasants are principles taken for granted in the Braestrup–
 Freedom House version, where no patriotic assumption or cliché is ever
 challenged—or even noticed, so deeply rooted are these doctrines.
@@ -11151,8 +11053,7 @@ southernmost Delta, it was an ARVN-Vietcong [actually, U.S.-Vietcong]
 
 guerrilla struggle,” and more generally, Hanoi “had yet to commit sizable
 (multi-division) forces in sustained, concerted attacks” anywhere in South
-Vietnam (I, 24).113 These assessments are what motivated the mass-
-slaughter campaign carried out in the rural areas of the delta and
+Vietnam (I, 24).113 These assessments are what motivated the massslaughter campaign carried out in the rural areas of the delta and
 elsewhere in the post-Tet accelerated pacification campaign, discussed
 earlier.
 Even before the Tet offensive, Defense Secretary McNamara had
@@ -11503,8 +11404,7 @@ was speculating about “stalemate,” arousing Freedom House ire:
 The enemy is operating with relative freedom in the countryside,
 probably recruiting heavily and no doubt infiltrating NVA units and
 personnel. His recovery is likely to be rapid; his supplies are
-adequate; and he is trying to maintain the momentum of his winter-
-spring offensive . . . ARVN is now in a defensive posture around
+adequate; and he is trying to maintain the momentum of his winterspring offensive . . . ARVN is now in a defensive posture around
 towns and cities and there is concern about how well they will bear up
 under sustained pressure. The initial attack nearly succeeded in a
 dozen places, and defeat in these places was only averted by the
@@ -11582,12 +11482,12 @@ extracts from a helicopter pilot’s journal describing “the sight and smell
 of colleagues’ charred bodies” and implying that “helicopter losses are
 high” after the receipt of sophisticated Western weaponry by the
 guerrillas, terrorists who finance themselves by producing drugs for the
-international 
-market 
-(charges 
-verified 
-by 
-Western 
+international
+market
+(charges
+verified
+by
+Western
 observers,
 incidentally). But it would be inhumane for the USSR simply to withdraw
 without guarantees for the population, because “a Soviet withdrawal
@@ -11812,13 +11712,13 @@ In its “summary of basic elements of the Vietnam agreements” on
 January 24, the White House announced that “the government of the
 Republic of (South) Vietnam continues in existence, recognized by the
 United States, its constitutional structure and leadership intact and
-unchanged”—the 
-reason 
-for 
-the 
-parentheses 
-being 
-that 
+unchanged”—the
+reason
+for
+the
+parentheses
+being
+that
 this
 “constitutional structure” identifies the GVN as the government of all
 Vietnam. This “constitutional structure” also outlawed the second of the
@@ -11839,8 +11739,7 @@ equivocation, that it intended to disregard every essential provision of the
 scrap of paper it was compelled to sign in Paris.
 Kissinger attempted to obfuscate the matter in his January 24 press
 conference, reprinted in full in the New York Times.143 He claimed,
-falsely, that “we have achieved substantial changes” from the October 9-
-Point Plan, thus implicitly offering a justification for the Christmas
+falsely, that “we have achieved substantial changes” from the October 9Point Plan, thus implicitly offering a justification for the Christmas
 bombings. He stated that “what the civil war has been all about” is “who
 is the legitimate ruler of South Vietnam” and “is there such a thing as a
 South Vietnam even temporarily until unification,” claiming that the
@@ -11863,8 +11762,7 @@ Kissinger was attempting to confuse “sovereignty of South Vietnam” with
 “sovereignty within South Vietnam”; the latter is what the war “was all
 about” from the outset, and the agreements simply reiterated the position
 of “the enemy” that this was a matter to be settled by the two South
-Vietnamese parties without external interference, as in the October 9-
-Point Plan.144
+Vietnamese parties without external interference, as in the October 9Point Plan.144
 Just as in October, the purpose of this obfuscation was, in Nixon’s
 
 
@@ -12132,8 +12030,7 @@ ninety-six of 116 district towns, and 4,000 of some 5,800 communes.
 Four hundred thousand cattle were killed and over a million acres of
 farmland were damaged. Much of the land is a moonscape, where people
 live on the edge of famine, with rice rations lower than those in
-Bangladesh. Reviewing the environmental effects, the Swedish peace-
-research institute SIPRI concludes that “the ecological debilitation from
+Bangladesh. Reviewing the environmental effects, the Swedish peaceresearch institute SIPRI concludes that “the ecological debilitation from
 such attack is likely to be of long duration.” The respected Swiss-based
 environmental group IUCN (International Union for Conservation of
 Nature and Natural Resources) concluded that the ecology is not only
@@ -12304,8 +12201,7 @@ reaffirmation of the values and virtues that had been trampled upon by the
 Vietnam-spawned counterculture”172—most crucially, the virtues of
 marching in parades chanting praises for their leaders as they conduct
 their necessary chores, as in Indochina and El Salvador.
-The extent of this servility is revealed throughout the tenth-
-anniversary retrospectives, not only by the omission of the war itself but
+The extent of this servility is revealed throughout the tenthanniversary retrospectives, not only by the omission of the war itself but
 also by the interpretation provided. The New York Times writes
 sardonically of the “ignorance” of the American people, only 60 percent
 of whom are aware that the United States “sided with South Vietnam”—
@@ -12348,8 +12244,7 @@ Prussia of Southeast Asia,” because since 1975 they have “unleashed a
 series of pitiless attacks against their neighbors,” referring to the
 Vietnamese invasion that overthrew the Pol Pot regime (after two years of
 border attacks from Cambodia), the regime that we now support despite
-pretenses to the contrary. Although the Times is outraged at the Prussian-
-style aggression that overthrew our current Khmer Rouge ally, and at the
+pretenses to the contrary. Although the Times is outraged at the Prussianstyle aggression that overthrew our current Khmer Rouge ally, and at the
 Vietnamese insistence that a political settlement must exclude Pol Pot, the
 reader of its pages will find little factual material about any of these
 matters. There are, incidentally, countries that have “unleashed a series of
@@ -12444,20 +12339,18 @@ losses were near complete . . . And the casualties put further strains on the
 state’s limited financial and organisation capacities.”181 The U.S. victory
 over the overwhelmingly rural society of South Vietnam, always the
 primary enemy, laid the basis for the takeover by North Vietnam (as
-anticipated 
-years 
-earlier 
-in 
-the 
-much-derided 
+anticipated
+years
+earlier
+in
+the
+much-derided
 peacemovement
 literature),182 allowing American hypocrites to “prove” that this
 predictable consequence of the war they supported shows that it was a
 just “defense of South Vietnam” against northern aggressors. In the cities,
 swollen with millions of refugees, the lucky and the more corrupt
-survived on an American dole at a level that had no relation to the now-
-demolished productive capacity of the country, leaving another near-
-insoluble problem that can conveniently be blamed on the Communists.
+survived on an American dole at a level that had no relation to the nowdemolished productive capacity of the country, leaving another nearinsoluble problem that can conveniently be blamed on the Communists.
 The revolutionary forces had gained victory in many rural areas by the
 time of the outright U.S. invasion, largely through their appeal to the
 
@@ -12620,8 +12513,7 @@ the expense of looking at it afresh,” which would apparently exclude the
 
 
 “more moralistic stance.”191 In this episode, the marines tell their story of
-an assault on a VC-defended village and then the villagers (given thirty-
-five lines of the transcript, to ninety for the marines) tell their conflicting
+an assault on a VC-defended village and then the villagers (given thirtyfive lines of the transcript, to ninety for the marines) tell their conflicting
 version of a marine massacre of wounded and captured civilians. The
 sequence ends with a marine describing what took place as a “normal
 procedure,” with “burning them hootches down and digging them
@@ -12716,8 +12608,6 @@ mobilized media is a conception of the media as a free system of
 information and discussion, independent of state authority and elite
 interests.
 
-
-6
 The Indochina Wars (II):
 Laos and Cambodia
 The Geneva Accords of 1954 provided for a political settlement in Laos
@@ -12869,8 +12759,7 @@ by “the most intense American bombing ever seen in Laos” (Sept. 18).
 Then followed reports from Washington and Vientiane (Sept. 19, 20, 23,
 24, 30) confirming that the U.S. Air Force was providing tactical support
 for government combat missions in addition to bombing North
-Vietnamese infiltration routes, including a September 23 Agence-France-
-Presse dispatch reporting “bombing of Pathet Lao areas by United States
+Vietnamese infiltration routes, including a September 23 Agence-FrancePresse dispatch reporting “bombing of Pathet Lao areas by United States
 aircraft,” thus implying that the bombing went well beyond infiltration
 routes and combat operations, common knowledge in Paris and Vientiane
 but yet to be reported here.
@@ -13067,8 +12956,7 @@ available evidence, as was demonstrated by Michael Vickery in a
 response to William Shawcross’s warnings of “the end of Cambodia,”23
 but not before it had left its mark on popular perceptions, and many
 distortions and, indeed, contradictions persist. In his Quality of Mercy,
-Shawcross agrees that, as Vickery had concluded, there was no large-
-scale famine of the character initially reported,24 but he later wrote that
+Shawcross agrees that, as Vickery had concluded, there was no largescale famine of the character initially reported,24 but he later wrote that
 the Heng Samrin regime “was responsible for creating many of the
 conditions that caused the famine” in Cambodia. These conflicting
 accounts were noted by Australian Cambodia scholar Ben Kiernan, who
@@ -13325,11 +13213,9 @@ Sihanouk’s neutralist efforts were unappreciated by the United States
 and its allies. Diem’s troops attacked border regions from 1957, and there
 were also Thai provocations. A coup attempt in 1959, probably backed by
 the CIA, as generally assumed in Cambodia, was foiled; this should be
-seen in the context of general U.S. subversion in the region in the post-
-Geneva period, including a CIA-backed coup and invasion aimed at
+seen in the context of general U.S. subversion in the region in the postGeneva period, including a CIA-backed coup and invasion aimed at
 overthrowing Sukarno in Indonesia in 1958, subversion of the elected
-government of Laos in the same year, and the efforts to destroy the anti-
-French resistance within South Vietnam and to consolidate the Diem
+government of Laos in the same year, and the efforts to destroy the antiFrench resistance within South Vietnam and to consolidate the Diem
 dictatorship while undermining the political arrangements at Geneva. By
 1963, CIA-backed Khmer Serei forces frequently attacked Cambodia
 from South Vietnamese and Thai bases at a time when the United States
@@ -13460,8 +13346,7 @@ denounced the bombing and other attacks on Khmer peasants, and not
 only over Radio Phnom Penh but in quite public documents and appeals
 to the international press. In his Sideshow, Shawcross says only that
 Cambodia “continued to denounce” American air and artillery attacks
-through 1969, but “made no public protest that specifically mentioned B-
-52 attacks” (p. 94)—true, but irrelevant for the reasons repeated in the
+through 1969, but “made no public protest that specifically mentioned B52 attacks” (p. 94)—true, but irrelevant for the reasons repeated in the
 last paragraph.48
 In May 1969, William Beecher reported B-52 raids on “Vietcong and
 North Vietnamese supply dumps and base camps in Cambodia,” citing
@@ -13544,8 +13429,7 @@ war in Cambodia and Laos was ignored more than usually with most of
 the Indo-China news coverage given to the North Vietnamese offensive
 into South Vietnam and the United States bombing of Hanoi and
 Haiphong . . . Time, in fact, had more coverage on civilian casualties in
-Northern Ireland during the first half of 1972 than it did on the Indo-
-China War.”56
+Northern Ireland during the first half of 1972 than it did on the IndoChina War.”56
 Meanwhile, Cambodia was being systematically demolished, and the
 Khmer Rouge, hitherto a marginal element, were becoming a significant
 force with substantial peasant support in inner Cambodia, increasingly
@@ -13556,8 +13440,7 @@ of their own country by one of the worst aggressive onslaughts in modern
 
 
 warfare, and therefore to appear as traitors to a victorious peasant army
-which had broken with old patron-client relationships and had been self-
-consciously organized and indoctrinated for individual, group, and
+which had broken with old patron-client relationships and had been selfconsciously organized and indoctrinated for individual, group, and
 national self-reliance.”57
 In early 1973, U.S. bombing increased to a scale that might truly
 merit the term “genocidal” used by the Finnish Inquiry Commission. In
@@ -13933,8 +13816,7 @@ By early 1977, denunciations of the Khmer Rouge for having caused
 unprecedented “murder in a gentle land” and “autogenocide” extended
 from mass circulation journals such as Reader’s Digest (with tens of
 millions of readers) and TV Guide (circulation nineteen million), to the
-New York Review of Books and the media generally, in addition to a best-
-selling book by John Barron and Anthony Paul based on their Reader’s
+New York Review of Books and the media generally, in addition to a bestselling book by John Barron and Anthony Paul based on their Reader’s
 Digest article and the widely misquoted study by François Ponchaud
 mentioned earlier. Similar material continued to flow in abundance in the
 press and newsweeklies, the New York Times Magazine, and elsewhere.
@@ -14007,8 +13889,7 @@ worst Western propaganda stories as support for their case in 1979 does
 not prove that those stories were valid.”83 Recent work indicates that the
 worst massacres, including those that left the mass graves and horrifying
 heaps of skulls found by journalists who entered Cambodia after the
-Vietnamese conquest, were in the eastern zone bordering Vietnam in mid-
-to late 1978.84
+Vietnamese conquest, were in the eastern zone bordering Vietnam in midto late 1978.84
 The nature of the Western agony over Cambodia during phase II of
 the genocide, as a sociocultural phenomenon, becomes clarified further
 when we compare it to the reaction to comparable and simultaneous
@@ -14517,8 +14398,6 @@ ground for a “resurgent America” pursuing its historical vocation of
 defending freedom and justice. The actual facts were, and remain, of little
 interest, for the same reason.
 
-
-7
 Conclusions
 Defending the media against the charge that they have become too
 independent and too powerful for the public good, Anthony Lewis of the
@@ -14894,8 +14773,7 @@ powerful ideological institutions that carry out a system-supportive
 propaganda function by reliance on market forces, internalized
 assumptions, and self-censorship, and without significant overt coercion.
 This propaganda system has become even more efficient in recent
-decades with the rise of the national television networks, greater mass-
-media concentration, right-wing pressures on public radio and television,
+decades with the rise of the national television networks, greater massmedia concentration, right-wing pressures on public radio and television,
 and the growth in scope and sophistication of public relations and news
 management.
 This system is not all-powerful, however. Government and elite
@@ -15081,8 +14959,7 @@ fulfillment of the aims of the administration and war party required media
 propaganda service. That propaganda service was forthcoming; and what
 should have been an invigorated “public sphere” with intense debate
 became an administration conduit and/or cheerleading section.15 Part of
-the reason for this was the Bush administration’s post-9/11 fear-
-mongering, with periodic terrorism scares, intimidation, and rousing of
+the reason for this was the Bush administration’s post-9/11 fearmongering, with periodic terrorism scares, intimidation, and rousing of
 patriotic ardor, which mobilized Republicans and Democrats alike,
 quieted or isolated dissenters, and left the administration without
 challenge to set the agenda in the political arena. But many editors and
@@ -15154,8 +15031,7 @@ the administration or Judith Miller chose to put forward. Like the Bush
 
 
 administration and most of the MSM, the Times tended to regard these
-UN inspectors as a negative force: among the frequent Times pro-war op-
-ed columns by Kenneth Pollack, one with Martin Indyk was entitled
+UN inspectors as a negative force: among the frequent Times pro-war oped columns by Kenneth Pollack, one with Martin Indyk was entitled
 “How Bush Can Avoid the Inspections Trap” (Jan. 27, 2003). Ignoring
 the counter-evidence and following the administration’s party line, the
 Times’s editors took Saddam’s WMD as an established fact: Iraq “already
@@ -15167,8 +15043,7 @@ no fewer than 14 different editorials to similar effect.25 Editorials such as
 these not only were not based on evidence, they required a systematic
 avoidance of evidence.
 The “threat” posed by Saddam’s weapons also ran into several
-difficulties. One is that the Reagan administration, several of whose high-
-ranking officials like Donald Rumsfeld served in the Bush administration,
+difficulties. One is that the Reagan administration, several of whose highranking officials like Donald Rumsfeld served in the Bush administration,
 had actually helped Saddam acquire WMD in the 1980s when he was
 fighting Iran. A second is that Saddam didn’t use those WMD during the
 1991 Persian Gulf war, presumably because he realized that there would
@@ -15216,8 +15091,7 @@ important members of the Bush leadership had proclaimed, in the Project
 for a New American Century’s “Rebuilding America’s Defenses” (Sept.
 2000), that U.S. policy should aim to establish an enhanced U.S. power
 position in the Middle East, irrespective of Saddam Hussein’s presence.32
-There is also evidence of very early administration discussions of post-
-occupation rights to Iraq’s oil, including the witness of former Treasury
+There is also evidence of very early administration discussions of postoccupation rights to Iraq’s oil, including the witness of former Treasury
 Secretary Paul O’Neill.33 The administration also announced early in the
 occupation an intent to maintain military bases in Iraq. There is also the
 problem that the majority of Iraqis are Shiites and some of their most
@@ -15234,9 +15108,7 @@ initial choice of leader: the expatriate felon and disinformationist Ahmad
 
 
 Chalabi. As Juan Cole pointed out, “if it had been up to Bush, Iraq would
-have been a soft dictatorship under Chalabi, or would have had stage-
-managed elections with an electorate consisting of a handful of pro-
-America notables.”35 Eventually, elections were held, but only after the
+have been a soft dictatorship under Chalabi, or would have had stagemanaged elections with an electorate consisting of a handful of proAmerica notables.”35 Eventually, elections were held, but only after the
 administration had tried very hard to avoid them in favor of “U.S.-
 appointed Iraqi leaders” or indirect elections through pre-selected power
 groups.36 As the Financial Times noted, the January 2005 elections took
@@ -15284,8 +15156,7 @@ although confirming Bush lies that had not been so described by the
 MSM at the time.42 One of the more embarrassing disclosures testifying
 to media failure, except as agents of propaganda, has been the level of
 public ignorance shown in polls, with about half of the U.S. public in
-2002-2005 believing that Iraq had provided substantial support to Al-
-Qaeda and possessed WMD, or at least had a major WMD program.43
+2002-2005 believing that Iraq had provided substantial support to AlQaeda and possessed WMD, or at least had a major WMD program.43
 Interestingly, large majorities said that the United States shouldn’t have
 gone to war if Iraq didn’t have such weapons or provide aid to Al-Qaeda,
 so that the MSM’s cooperation with the Bush administration in putting
@@ -15300,8 +15171,7 @@ examined the failings of American and allied intelligence, especially on
 the issue of Iraq’s weapons and possible Iraqi connections to international
 terrorists,” the editorial voice of the Times stated. “[W]e have found a
 number of instances of coverage that was not as rigorous as it should have
-been . . . Looking back, we wish we had been more aggressive in re-
-examining the claims as new evidence emerged—or failed to emerge.”
+been . . . Looking back, we wish we had been more aggressive in reexamining the claims as new evidence emerged—or failed to emerge.”
 But long before the Times, Post, and other media began to issue these
 weak and understated admissions that they had pushed official claims too
 hard and given inadequate attention to counter-evidence, they had already
@@ -15421,8 +15291,7 @@ race . . . and to nuclear disarmament,” as well as a new and more
 comprehensive treaty “on general and complete disarmament under strict
 and effective international control.” The declared nuclear weapons states
 also pledged to facilitate the “development of the applications of nuclear
-energy for peaceful purposes, especially in the territories of non-nuclear-
-weapon States Party to the Treaty, with due consideration for the needs of
+energy for peaceful purposes, especially in the territories of non-nuclearweapon States Party to the Treaty, with due consideration for the needs of
 the developing areas of the world.”55 The United States has violated all
 such promises. It has never made any move to eliminate its peerless
 nuclear weapons and means of delivery, and, to the contrary, has
@@ -15499,8 +15368,7 @@ the IAEA’s ongoing work), the NAM reaffirmed the “inalienable right of
 all States” under the NPT to research and develop nuclear energy “for
 peaceful purposes,” recognized the IAEA as the “sole competent
 authority” in the nuclear arena (in contrast, say, to the Security Council),
-called for the “establishment in the Middle East of a nuclear-weapons-
-free-zone” and “demanded Israel to accede to the NPT without delay and
+called for the “establishment in the Middle East of a nuclear-weaponsfree-zone” and “demanded Israel to accede to the NPT without delay and
 place promptly all its nuclear facilities under comprehensive IAEA
 safeguards” (just like Iran does), and rejected “any attack or threat of
 attack against peaceful nuclear facilities . . .”—a possible U.S. and Israeli
@@ -15710,8 +15578,7 @@ article by John Tagliabue, “Verdict on Papal Plot, But No Answer,”
 published in the New York Times on March 31, 1986. This piece, which
 provides a final wrap-up that enters “history” as the mature judgment of
 the veteran Times newsman assigned to the Rome trial, is a model
-illustration of the systematic bias that we believe characterized mass-
-media reporting of the Bulgarian Connection, with only minor exceptions.
+illustration of the systematic bias that we believe characterized massmedia reporting of the Bulgarian Connection, with only minor exceptions.
 A close examination shows how Tagliabue incorporates all of the
 elements of the Sterling-Henze-Kalb (SHK) model of the connection,
 selects facts in accordance with the requirements of that model, and
@@ -16296,12 +16163,12 @@ which took a more pessimistic view, as we shall see directly. Braestrup’s
 “straw man journalism” may impress careless readers skimming the text
 for dramatic conclusions, but it presents no evidence and amounts to no
 argument.
-Braestrup 
-refers 
-sarcastically 
-to 
-“insights 
-into 
+Braestrup
+refers
+sarcastically
+to
+“insights
+into
 Vietnamese
 psychology,” as when Morley Safer, watching marines burning down huts
 in Cam Ne, concluded that a peasant whose home was destroyed would
@@ -16504,8 +16371,7 @@ Inside Indonesia (October–December 1998).
 14. Madelaine Drohan, “How the Net Killed the MAI,” Globe and
 Mail, April 29, 1998.
 15. Kayte Van Scoy, “How Green Was My Silicon Valley,”
-PC/Computing, March 1, 2000; Keith Perine, “Power to the (Web-
-Enabled) People,” Industry Standard, April 10, 2000. See also “Further
+PC/Computing, March 1, 2000; Keith Perine, “Power to the (WebEnabled) People,” Industry Standard, April 10, 2000. See also “Further
 Applications” below.
 16. James Ledbetter, “Some Pitfalls in Portals,” Columbia Journalism
 Review (November–December 1999).
@@ -16643,8 +16509,7 @@ Russian economic and social collapse, as well as on the elections, see
 
 
 Stephen Cohen, Failed Crusade, chapter 1.
-53. The Soviet Union did undoubtedly mistreat its own and client-
-state peoples, although the treatment of Russians by the Western-backed
+53. The Soviet Union did undoubtedly mistreat its own and clientstate peoples, although the treatment of Russians by the Western-backed
 “reformers” since 1991 has hardly been an improvement. However the
 charge of sponsorship of international terrorism was inflated and
 hypocritical given the West’s support of its own very impressive terror
@@ -17399,8 +17264,7 @@ Sponsor, pp. 179–82). Another option pursued in the Carter-Reagan era
 has been to force it into the commercial nexus by sharp defunding.
 45. Bagdikian, Media Monopoly, pp. 118–26. “‘The dominant paper
 ultimately thrives,’ Gannett Chairman Allen H. Neuharth says. ‘The
-weaker paper ultimately dies’” (Joseph B. White, “Knight-Ridder’s No-
-Lose Plan Backfires,” Wall Street Journal, Jan. 4, 1988).
+weaker paper ultimately dies’” (Joseph B. White, “Knight-Ridder’s NoLose Plan Backfires,” Wall Street Journal, Jan. 4, 1988).
 46. Quoted in Curran and Seaton, Power Without Responsibility, p.
 43.
 47. “Advertising and the Press,” in James Curran, ed., The British
@@ -17625,13 +17489,13 @@ an activist leader.
 99. See “The Business Campaign Against ‘Trial by TV,’” Business
 Week, June 22, 1980, pp. 77–79; William H. Miller, “Fighting TV
 Hatchet Jobs,” Industry Week, January 12, 1981, pp. 61–64.
-100. 
-See 
-Walter 
-Schneir 
-and 
-Miriam 
-Schneir, 
+100.
+See
+Walter
+Schneir
+and
+Miriam
+Schneir,
 “Beyond
 Westmoreland: The Right’s Attack on the Press,” The Nation, March 30,
 1985.
@@ -18004,8 +17868,7 @@ truckloads of troops in the vicinity. Treaster is cagey, though—he speaks
 only of troops in the plaza, not near the plaza, or in the national palace
 and other buildings.
 32. The view expressed in Ambassador White’s cables was that the
-leftists acted to provoke a response by the security forces, a self-
-destructive tactic not supported by any evidence.
+leftists acted to provoke a response by the security forces, a selfdestructive tactic not supported by any evidence.
 33. Quoted in Brockman, The Word Remains, p. 212.
 34. See note 18. Time magazine did the same kind of misrepresenting
 as Treaster, but with a little more finesse: “From his pulpit, he regularly
@@ -18248,12 +18111,12 @@ of General Efraín Ríos Montt, October 1982; “Disappearances” in
 Guatemala under the Government of General Oscar Humberto Mejía
 Víctores, March 1985. We also included six studies by Americas Watch:
 Human Rights in Guatemala: No Neutrals Allowed, November 1982;
-Guatemala 
-Revisited: 
-How 
-the 
-Reagan 
-Administration 
+Guatemala
+Revisited:
+How
+the
+Reagan
+Administration
 Finds
 “Improvements” in Human Rights in Guatemala, September 1985; Little
 Hope: Human Rights in Guatemala, January 1984–January 1985,
@@ -18576,8 +18439,7 @@ The Culture of Terrorism, (Boston: South End Press, 1988), chapter 2.8.
 Alarcón, often described as the godfather of the death squads in Central
 America, was present at Reagan’s first inauguration, met with his defense
 and foreign-policy advisers, and claimed that “verbal agreements” were
-entered into at that time to cut back on criticism of Guatemalan human-
-rights abuses and to renew military aid. See Marlise Simons, “Guatemala:
+entered into at that time to cut back on criticism of Guatemalan humanrights abuses and to renew military aid. See Marlise Simons, “Guatemala:
 The Coming Danger,” Foreign Policy (Summer 1981), p. 101; Scott
 Anderson and John Lee Anderson, Inside the League: The Shocking
 Exposé of How Terrorists, Nazis, and Latin American Death Squads
@@ -18782,8 +18644,7 @@ thirty to forty a month by mid-1987, and two or three times that amount
 after August, as the U.S. sought to undermine the Guatemala accords.
 Hence Nicaragua would have good reason to obtain vintage 1950s jet
 planes to defend itself from the U.S. proxy army.
-110. For an account of the performance of U.S. official and semi-
-official observers in the Dominican Republic, Vietnam, El Salvador, and
+110. For an account of the performance of U.S. official and semiofficial observers in the Dominican Republic, Vietnam, El Salvador, and
 Zimbabwe, see Herman and Brodhead, Demonstration Elections.
 Appendix 1 provides a summary of the views of an official U.S. observer
 team to Guatemala in July 1984. All of these fully confirm the statement
@@ -18875,20 +18736,20 @@ in this paragraph, see Herman and Brodhead, Bulgarian Connection, pp.
 18. Criminal Court of Rome, Judgment in the Matter of Francesco
 Pazienza, et al., July 29, 1985, signed by Francesco Amato, president of
 the court.
-19. 
-Diana 
-Johnstone, 
-“Latest 
-Scandal 
-Leads 
-to 
+19.
+Diana
+Johnstone,
+“Latest
+Scandal
+Leads
+to
 Reagan
 Administration,” In These Times, December 5–11, 1984.
 20. Tana de Zulueta and Peter Godwin, “Face to Face with the
 Colonel Accused of Plotting to Kill the Pope,” Sunday Times, May 26,
 1983, p. 50.
 21. “Behind the Scenes of the ‘Agca Investigation,’” Milliyet,
-November 1984. This excellent two-part series by 
+November 1984. This excellent two-part series by
 Milliyet’s
 correspondent in West Germany describes the Italian investigation then in
 process as an extremely biased and incompetently managed exercise. Its
@@ -19175,8 +19036,7 @@ specifically cited below). For general discussion of the war see, inter alia,
 Herring, America’s Longest War; Gabriel Kolko, Anatomy of a War (New
 York: Pantheon, 1985), with particular focus on Vietnamese Communist
 planning; R. B. Smith, An International History of the Vietnam War (New
-York: St Martin’s, 1983, 1985), the first two volumes of a projected four-
-volume history, a somewhat mistitled study focusing on “international
+York: St Martin’s, 1983, 1985), the first two volumes of a projected fourvolume history, a somewhat mistitled study focusing on “international
 Communist strategy.” For the pre-1965 period, see particularly George
 M. Kahin, Intervention: How America Became Involved in Vietnam (New
 York: Knopf, 1986). A useful documentary record and commentary
@@ -19528,8 +19388,7 @@ Noam Chomsky, “Indochina and the Fourth Estate,” Social Policy
 (September–October 1973), reprinted in Towards a New Cold War,
 expanding an earlier article in Ramparts (April 1973). See also Porter, A
 Peace Denied; Kolko, Anatomy of a War; and Hersh, Price of Power. On
-the media during the October–January period, see also Elterman, State-
-Media-Ideological Hegemony, p. 347f., documenting overwhelming
+the media during the October–January period, see also Elterman, StateMedia-Ideological Hegemony, p. 347f., documenting overwhelming
 media conformity to the U.S. government version of the evolving events.
 139. Cited by Hersh, Price of Power, p. 604.
 140. New Republic, January 27, 1973. He notes that the Paris
@@ -19594,12 +19453,12 @@ Drew Middleton, New York Times, July 6, 1985.
 160. Review of Paul Johnson, Modern Times, in New York Times
 Book Review, June 26, 1983, p. 15.
 161. New York Times, May 28, 1984. A CIA analysis of April 1968
-estimated 
-that 
-“80,000 
-enemy 
-troops,” 
-overwhelmingly 
+estimated
+that
+“80,000
+enemy
+troops,”
+overwhelmingly
 South
 Vietnamese, were killed during the Tet offensive. See note 44, above.
 162. Arthur Westing, Bulletin of the Atomic Scientists (February
@@ -19767,14 +19626,14 @@ Washington Post, March 26; Hugh D. S. Greenway, Life, April 3; Carl
 Strock, New Republic, May 9; Noam Chomsky, “Laos,” New York
 Review of Books, July 23, 1970, with more extensive details (reprinted in
 AWWA).
-12. Haney, 
-PP, 
-V. 
-See 
-FRS, 
-pp. 
-176f., 
-on 
+12. Haney,
+PP,
+V.
+See
+FRS,
+pp.
+176f.,
+on
 Sullivan’s
 misrepresentation of Haney’s conclusions.
 13. Refugee And Civilian War Casualty Problems in Indochina, Staff
@@ -19861,12 +19720,12 @@ we return.
 relayed in 1980.
 25. Shawcross, The Nation, September 21, 1985; Ben Kiernan, letter
 to The Nation, October 3, 1985, unpublished. For evaluation of the
-international 
-relief 
-efforts, 
-see 
-Vickery, 
-Cambodia; 
+international
+relief
+efforts,
+see
+Vickery,
+Cambodia;
 Kiljunen,
 Kampuchea; Joel Charny and John Spragens, Obstacles to Recovery in
 Vietnam and Kampuchea: U.S. Embargo of Humanitarian Aid (Boston:
@@ -20359,8 +20218,7 @@ if the 2008 election is meaningful and consistent with a democratic order.
 The rest of the MSM do the same, often without even the (ultimately
 ignored) reservations expressed by the Times in this one editorial.
 10. Cynthia Peters, “Taking It To the Streets—That’s Freedom,”
-Boston Globe, February 20, 2003. Peters was referring to the major anti-
-war protests in the United States as elsewhere that preceded the onset of
+Boston Globe, February 20, 2003. Peters was referring to the major antiwar protests in the United States as elsewhere that preceded the onset of
 the looming U.S.–U.K. aggression against Iraq.
 11. Theodore Hamm, The New Blue Media: How Michael Moore,
 MoveOn.org, Jon Stewart and Company Are Transforming Progressive
@@ -20391,8 +20249,7 @@ Mitchell, So Wrong For So Long (New York: Union Square Press, 2008),
 pp. 2–3, 7; Norman Solomon, War Made Easy (Hoboken, N.J.: John
 Wiley, 2005), pp. 123–4, 131–2, 237; and Patrick E. Tyler, “A New
 Power in the Streets,” New York Times, February 17, 2003.
-16. Here we note that at no point during his February 5, 2003, 10,000-
-word-long presentation before the UN Security Council of the evidence
+16. Here we note that at no point during his February 5, 2003, 10,000word-long presentation before the UN Security Council of the evidence
 that the U.S. and U.K. alleged they possessed of Iraq’s “weapons of mass
 destruction” programs did the U.S. Secretary of State Colin Powell so
 much as mention the words ‘democracy’ or ‘freedom’ or ‘liberation’ as a
@@ -20552,8 +20409,8 @@ Military action was now seen as inevitable. Bush wanted to remove
 Saddam, through military action, justified by the conjunction of terrorism
 and WMD. But the intelligence and facts were being fixed around the
 policy.” “The secret Downing Street memo,” The Sunday Times, May 1,
-2005 
-(http://www.timesonline.co.uk/tol/news/uk/article387374.ece 
+
+(http://www.timesonline.co.uk/tol/news/uk/article387374.ece
 ).
 Bush had regularly claimed that military force was not a preferred option
 and that a diplomatic resolution was still being sought, a lie that the MSM
@@ -20574,8 +20431,7 @@ United States national security,” Proceedings of the National Academy of
 Sciences, Vol. 104, No. 1, January 2, 2007.
 47. According to the U.S. Government’s Energy Information
 Administration, as of January 2007, Iran ranked second in the world with
-136 billion barrels of proven oil reserves. This places Iran behind first-
-ranked Saudi Arabia (262 billion) and ahead of third-ranked Iraq (115
+136 billion barrels of proven oil reserves. This places Iran behind firstranked Saudi Arabia (262 billion) and ahead of third-ranked Iraq (115
 billion).
 
 
@@ -20646,8 +20502,7 @@ about details of our response (or preemption) if what we value is
 threatened, but it must be clear that our actions would have terrible
 consequences . . . . Because of the value that comes from the ambiguity of
 what the U.S. may do to an adversary if the acts we seek to deter are
-carried out, it hurts to portray ourselves as too fully rational and cool-
-headed. The fact that some elements may appear to be potentially ‘out of
+carried out, it hurts to portray ourselves as too fully rational and coolheaded. The fact that some elements may appear to be potentially ‘out of
 control’ can be beneficial to creating and reinforcing fears and doubts
 within the minds of an adversary’s decision makers. This essential sense
 of fear is the working force of deterrence. That the U.S. may become
@@ -20681,8 +20536,7 @@ general rule of zero-coverage was George Jahn, “Nonaligned countries
 back Iran’s nuclear program,” Associated Press, July 30, 2008.
 APPENDIX 1
 1. On Penniman’s background, and for a study of his methods as an
-observer, see “Penniman on South Vietnamese Elections: The Observer-
-Expert as Promoter-Salesman,” in Edward S. Herman and Frank
+observer, see “Penniman on South Vietnamese Elections: The ObserverExpert as Promoter-Salesman,” in Edward S. Herman and Frank
 Brodhead, Demonstration Elections: U.S.-Staged Elections in the
 Dominican Republic, Vietnam, and El Salvador (Boston: South End
 Press, 1984), appendix 2.
@@ -20779,8 +20633,7 @@ the “gullible, misled people” who were “turning the countryside into a
 bedlam, toppling one Saigon government after another, confounding the
 Americans,” etc. The fact that Pike was an employee of the U.S.
 government and an “admirer” and avid defender of its policies does not
-suggest to Braestrup that he might be something other than “independent-
-minded”; only Porter’s alleged political preference is relevant to
+suggest to Braestrup that he might be something other than “independentminded”; only Porter’s alleged political preference is relevant to
 “Freedom House objectivity.”
 4. Big Story, I, xxviii; the same is true of Don Oberdorfer’s Tet! (New
 York: Doubleday, 1971) and Stanley Karnow’s Vietnam: A History (New

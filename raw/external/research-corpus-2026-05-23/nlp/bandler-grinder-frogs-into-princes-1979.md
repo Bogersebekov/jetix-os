@@ -9,10 +9,11 @@ chars: 476643
 approx_tokens: 119160
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 476645
+phase4_chars_after: 476574
+phase4_saved_pct: 0.0
 ---
-
-
-
 
 
 OceanofPDF.com
@@ -234,10 +235,8 @@ content-oriented way. They want to know what the problem is so that they
 can help people find solutions. This is true whether they have been trained
 overtly or covertly, in academic institutions or in rooms with pillows on the
 floor.
-This is even true of those who consider themselves to be "process-
-oriented." There's a little voice somewhere in their mind that keeps saying
-"The process. Look for the process." They will say "Well, I'm a process-
-oriented therapist. I work with the process." Somehow the process has
+This is even true of those who consider themselves to be "processoriented." There's a little voice somewhere in their mind that keeps saying
+"The process. Look for the process." They will say "Well, I'm a processoriented therapist. I work with the process." Somehow the process has
 become an event—a thing in and of itself.
 There is another paradox in the field. The hugest majority of therapists
 believe that the way to be a good therapist is to do everything you do
@@ -1041,8 +1040,7 @@ or did you see an album?
 Chris: I heard it.
 You heard it. OK. Were you aware of starting with any kind of picture
 whatsoever? If the rest of you are watching, this is one of those interesting
-discrepancies between her consciousness and what she's offering us non-
-verbally.
+discrepancies between her consciousness and what she's offering us nonverbally.
 Chris, do you know what the second four notes of Beethoven's Fifth
 are? OK, you know what they are.
 Woman: Ah, that might be a spatial thing for her.
@@ -1362,8 +1360,7 @@ to be in touch with their feelings, but that's just a statement about how they
 
 
 organize themselves. There's no necessity to that. I can have all the feelings
-that I want with my eyes open. Similarly, if I have an ambidextrous or left-
-handed person with a different cerebral organization, I don't have to destroy
+that I want with my eyes open. Similarly, if I have an ambidextrous or lefthanded person with a different cerebral organization, I don't have to destroy
 any choices they presently have to add to that. And that's our whole
 function as modelers. We assume since you all managed to scrape up
 whatever amount of money it cost you to come here, that you are
@@ -1467,8 +1464,7 @@ identifying accessing cues and representational systems. What do you use it
 for?
 One way I can use this information is to communicate to you at the
 unconscious level without any awareness on your part. I can use
-unspecified words like "understand" and "believe" and indicate to you non-
-verbally in which sensory channel I want you to "understand." For example,
+unspecified words like "understand" and "believe" and indicate to you nonverbally in which sensory channel I want you to "understand." For example,
 I could say to you "I want to make sure you understand (gesturing down
 and to the audience's left) what we've done so far." My gesture indicates to
 you unconsciously that I want you to understand auditorily.
@@ -1520,8 +1516,7 @@ analysis in which they are exactly the same. So rather than teach them how
 to talk about it and think about it as a mathematician would, I simply
 utilized what was already available in their world model, the notion of
 translation, and taught them that these symbols were nothing more than
-words. And just as there are certain sequences of words which are well-
-formed sentences, in mathematics there are certain sequences of symbols
+words. And just as there are certain sequences of words which are wellformed sentences, in mathematics there are certain sequences of symbols
 which are well-formed. I made my entire approach fit their model of the
 world rather than demanding that they have the flexibility to come to mine.
 That's one way to go about it.
@@ -1667,8 +1662,7 @@ clients you use it with automatically and it works fine. Other people you
 wouldn't even try it with. What's the criterion you use to decide that, do you
 know? If they can visualize easily, you use visual guided fantasy, right?
 We're suggesting that you reverse that. Because for people who do not
-normally visualize in consciousness, visual guided fantasy will be a mind-
-blowing, profound change experience. For those who visualize all the time,
+normally visualize in consciousness, visual guided fantasy will be a mindblowing, profound change experience. For those who visualize all the time,
 it will be far less useful. The only thing you need to do in order to make it
 work for people who don't normally visualize is to join their system
 wherever they are—wherever their consciousness is—establish rapport and
@@ -1862,8 +1856,7 @@ messages: "That's too bad" (smiling and nodding head). The response you
 get to that is fascinating, because most people have no idea what they
 verbalized." Either they will enter a confusion state, or they will begin to
 explicitly verbalize the message that was previously non-verbal. It's almost
-as if they take all the conscious material and make it unconscious and vice-
-versa.
+as if they take all the conscious material and make it unconscious and viceversa.
 Or you might choose to respond with an appropriate metaphor: "That
 reminds me of a story my grandfather O'Mara told me once. He was Irish
 himself, but he told about this Baltic country that he had spent some time in
@@ -1882,8 +1875,7 @@ Now how do people learn to be incongruent? Think of a young child
 who comes home and hands a piece of homework to his parents. The
 parents look at the homework and the father says (scowling face and
 shaking head "no," with harsh tonality) "Oh, I'm so glad you brought that
-home, son!" What does the kid do? Does he lean forward and meta-
-comment? "Gee, Dad! I hear you say you're glad, but I notice..." Not if
+home, son!" What does the kid do? Does he lean forward and metacomment? "Gee, Dad! I hear you say you're glad, but I notice..." Not if
 you're a kid. One thing that children do is to become hyperactive. One
 hemisphere is registering the visual input and the tonal input, and the other
 hemisphere is registering the words and their digital meaning, and they
@@ -1976,14 +1968,14 @@ may be a feeling, it may be something visual. While she's doing that, does
 anyone else know how they know the difference?
 Man: Well, earlier when you hit the chair I could hear a sound. When
 you hit the dog, I couldn't.
-So 
-essentially 
-your 
-strategy 
-consists 
-of 
-going 
-to 
+So
+essentially
+your
+strategy
+consists
+of
+going
+to
 another
 representational system and noticing whether there is a representation that
 corresponds in that system to what you detected in another system.
@@ -2047,8 +2039,7 @@ When we trained residents in mental hospitals we used to go up early
 and spend time in the wards because the patients there had problems we
 never had the opportunity to encounter before. We would give them the task
 of determining for themselves which parts of their experience were
-validated by other people, and which were not. For instance, with the cup-
-of-blood guy, we immediately joined his reality. "Yeah, warm this one up
+validated by other people, and which were not. For instance, with the cupof-blood guy, we immediately joined his reality. "Yeah, warm this one up
 for me, will you?" We joined his reality so much that he came to trust us.
 And then we gave him the task of discovering which parts of his reality
 other people in the ward could validate for him. We didn't say this was
@@ -2135,8 +2126,7 @@ over again with a different set of words. Those are some of the logical
 possibilities that are available. There are lots and lots of possibilities.
 Woman: Well, as you're changing your behavior, don't you have to be
 somewhat aware of what's going on inside you?
-No. I think most people try to do it reflexively, with conscious self-
-awareness, and most of the strategies of reflexive consciousness don't work.
+No. I think most people try to do it reflexively, with conscious selfawareness, and most of the strategies of reflexive consciousness don't work.
 That's why most people have such crummy personal relationships. If I want
 you to act a certain way, and I make you the reference for what I'm doing,
 then all I have to do is keep acting differently until you look and sound and
@@ -2551,8 +2541,7 @@ Anthem inside her head. Now that sounds kind of silly, except that she
 walked over to the window and she didn't have the phobic response! None
 whatsoever. She'd had the phobia for years and years and years.
 A man who was a Cree Indian medicine man, a shaman, came to a
-workshop and we were discussing different mechanisms that worked cross-
-culturally as far as inducing change in a rapid and effective way. If a person
+workshop and we were discussing different mechanisms that worked crossculturally as far as inducing change in a rapid and effective way. If a person
 
 
 has a headache, an old semi-gestalt thing to do is to sit them in a chair, have
@@ -2688,8 +2677,7 @@ meta-modeled each other for a week. Then they began to hear what they
 said on the outside. They would sometimes stop in midsentence because
 they would begin to hear themselves. That's something else the meta-model
 does: it teaches you how to listen not only to other people but to yourself.
-The next thing that happened is that they turned inside and began to meta-
-model their own internal dialogue. That changed their internal language
+The next thing that happened is that they turned inside and began to metamodel their own internal dialogue. That changed their internal language
 from being something that terrorized them to being something that was
 useful.
 The meta-model is really simplistic, but it's still the foundation of
@@ -2738,8 +2726,7 @@ Yes, in a special sense of the word "awareness. " There is nothing that I
 have done here at any point today that I am conscious of, in the normal
 sense of being reflexively conscious of what I am doing. The first time I
 know what I'm going to do or say is when I find myself doing it or hear
-myself saying it. This is an important point. I really believe that the face-to-
-face task of communicating with another human being, let alone a group of
+myself saying it. This is an important point. I really believe that the face-toface task of communicating with another human being, let alone a group of
 people, is far too complex to try to do consciously. You can't do it
 consciously. If you do, you break up the natural flow of communication.
 Are there any of you who play music? How many people in here can
@@ -2842,14 +2829,14 @@ client to make yourself more skilled, because in the long run you are going
 to be able to help more people more expediently. If, under the guise of
 professionalism, you don't try to expand your skills and experiment,
 basically I think you are missing the point and professionalism becomes just
-one 
-way 
-to 
-limit 
-yourself. 
-Think 
-about 
-"professionalism." 
+one
+way
+to
+limit
+yourself.
+Think
+about
+"professionalism."
 If
 professionalism is a name for a set of things that you can't do, then you are
 restricting your behavior.
@@ -3674,8 +3661,7 @@ say "Intensify the feeling, stay with the feeling, exaggerate it! Go back
 through time... and what do you see now?" The therapist is stabilizing one
 part of the person's experience, namely the kinesthetic component, the
 feelings that person has. And they are saying "Keep those constant, and
-then let them lead you back in your own personal history to a full, all-
-system representation of what we are working on." By using an anchor you
+then let them lead you back in your own personal history to a full, allsystem representation of what we are working on." By using an anchor you
 can always get back to the same set of kinesthetic responses that you began
 with, and thereby easily stabilize what you are working on. That's one use.
 Another use that I demonstrated is testing. After we had done the
@@ -3684,8 +3670,7 @@ the resource so that she changed her personal history, I gave her a few
 
 
 moments, and then I reached over and triggered the original anchor. The
-response I got was an integrated response, thereby informing me non-
-verbally that the process had worked. I recommend that you never let the
+response I got was an integrated response, thereby informing me nonverbally that the process had worked. I recommend that you never let the
 client know you are checking your work that day. It gives you a covert,
 non-verbal way of checking to make sure that your integrations have
 worked before the person leaves your office. Given our historical
@@ -3719,8 +3704,7 @@ OceanofPDF.com
 
 As a matter of fact, it's not even that they are. Pick any experience that
 you believe happened to you, and I will guarantee you that on close
-examination it didn't. The original personal history that Linda relived, re-
-experienced today as she went through the experience, is as much a myth as
+examination it didn't. The original personal history that Linda relived, reexperienced today as she went through the experience, is as much a myth as
 the new experience she went through with the resource. The one we made
 up is as real as the one she "actually had." Neither one of them actually
 occurred. If you want a demonstration of this, wait two or three months,
@@ -4309,8 +4293,7 @@ woman. When you can actually feel in your body again the feelings of
 competence and strength that you associate with that situation, just reach
 over with your left hand and hold my hand….
 OK. I have no idea what her specific experience is. I do know, however,
-from the remarkable, dramatic change that Tammy just offered me non-
-verbally, that she succeeded in carrying out my instructions. And I agree
+from the remarkable, dramatic change that Tammy just offered me nonverbally, that she succeeded in carrying out my instructions. And I agree
 with her. That looks really good. That fits my hallucinations about what
 
 
@@ -4530,12 +4513,12 @@ that people make the best choice in context. My job is to make sure that
 resources which have been dissociated from a certain context become
 available in that context. I leave it to the unique human being, with all the
 various needs they have that I don't even know anything about, to make an
-adequate 
-selection 
-somewhere 
-along 
-the 
-continuum 
+adequate
+selection
+somewhere
+along
+the
+continuum
 between
 resourcefulness and terror. And she will. Those resources have been
 dissociated in the past, but they are now integrated and they are now both
@@ -4908,8 +4891,7 @@ history, so as to increase your choices as a creative human being in the
 present. Take all the time you need, and when you finish, drift back and
 rejoin us….
 Some of you may have a clear, solid, resonant understanding of what
-you've succeeded in doing; some of you may simply have a sense of well-
-being, a feeling of having done something without actually understanding in
+you've succeeded in doing; some of you may simply have a sense of wellbeing, a feeling of having done something without actually understanding in
 detail explicitly what it was that you were able to do by making use of a
 particularly powerful experience from your past in a new way....
 Now I'd like you to begin to drift back slowly, understanding that if
@@ -5144,8 +5126,7 @@ get your client to trust you, or something like that.
 I once did some work with a lawyer who is a trustworthy person, but
 nobody trusts him. His non-verbal analogues are terrible; they make
 everyone suspicious. His problem was that he couldn't get clients to confide
-in him so that he could represent them well. And half the time he was court-
-appointed, which made it even worse. What he really needed was a
+in him so that he could represent them well. And half the time he was courtappointed, which made it even worse. What he really needed was a
 complete overhaul in his analogue system. Rather than do that, I taught him
 a little ritual. He sits down with his client and says "Look, if I'm going to be
 your lawyer, it's essential that you trust me. And so the question that's really
@@ -5225,8 +5206,7 @@ with themselves, called reframing, which we are going to teach you
 tomorrow.
 If you ask the people who were up here for demonstration purposes, my
 guess is they would assign very little responsibility to us for the changes
-that occurred in them—much less than they would in traditional content-
-oriented therapy. That's one of the advantages of secret therapy. It doesn't
+that occurred in them—much less than they would in traditional contentoriented therapy. That's one of the advantages of secret therapy. It doesn't
 create that kind of dependency relationship.
 At the same time, people who work with us usually have a sense of
 trust; they know that we know what we are doing. Or they may be totally
@@ -5747,8 +5727,7 @@ increase for "yes" and a decrease for "no" to the question: "Do you object to
 the new alternatives?"...
 Dick: There was a decrease.
 It's slightly unusual to have the tension here. Typically at the ecological
-check almost everybody's heart speeds up. Most people associate a speeded-
-up heart rate with fear or anxiety. When I ask them to stop hallucinating and
+check almost everybody's heart speeds up. Most people associate a speededup heart rate with fear or anxiety. When I ask them to stop hallucinating and
 simply ask for an increase for "yes" and a decrease for "no," the heart rate
 usually slows down. My understanding of this is that it's simply a signal
 that some part of them is quite excited about what's going on.
@@ -5925,8 +5904,7 @@ hypnotic session or where the changes came from. He believes it came as a
 
 
 result of a drug experience. He smoked marijuana and had a cosmic
-experience. He assumed that it was the quality of the grass, and not a post-
-hypnotic suggestion. That was adequate for him to make the changes that he
+experience. He assumed that it was the quality of the grass, and not a posthypnotic suggestion. That was adequate for him to make the changes that he
 wanted.
 There are many parts of people that do that same kind of thing. A part
 doesn't want the conscious mind to know what's going on, because it

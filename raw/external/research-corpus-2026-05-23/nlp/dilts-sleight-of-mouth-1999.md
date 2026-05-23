@@ -9,8 +9,11 @@ chars: 466645
 approx_tokens: 116661
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 466647
+phase4_chars_after: 466288
+phase4_saved_pct: 0.1
 ---
-
 
 
 Sleight of Mouth
@@ -155,8 +158,7 @@ and the language of ‘magic’.
 
 Acknowledgments
 I would like to acknowledge:
-Judith DeLozier, Todd Epstein, David Gordon, and Leslie Cameron-
-Bandler for their input and support at the time I was first evolving the ideas
+Judith DeLozier, Todd Epstein, David Gordon, and Leslie CameronBandler for their input and support at the time I was first evolving the ideas
 at the basis of Sleight of Mouth.
 My children, Andrew and Julia, whose experiences and explanations
 helped me to understand the natural process of belief change and the ‘meta
@@ -460,8 +462,7 @@ particular perceptions are based.
 
 Language and Neuro-Linguistic
 Programming
-This study is founded in the patterns and distinctions of Neuro-
-Linguistic Programming (NLP). NLP examines the influence that language
+This study is founded in the patterns and distinctions of NeuroLinguistic Programming (NLP). NLP examines the influence that language
 has on our mental programming and the other functions of our nervous
 systems. NLP is also concerned with the way in which our mental
 programming and nervous systems shape and are reflected in our language
@@ -470,8 +471,7 @@ The essence of Neuro-Linguistic Programming is that the functioning of
 our nervous system (“neuro”) is intimately tied up with our capability for
 language (“linguistic”). The strategies (“programs”) through which we
 organize and guide our behavior are made up of neurological and verbal
-patterns. In their first book, The Structure of Magic (1975), NLP co-
-founders Richard Bandler and John Grinder strove to define some
+patterns. In their first book, The Structure of Magic (1975), NLP cofounders Richard Bandler and John Grinder strove to define some
 principles behind the seeming “magic” of language to which Freud referred.
 All the accomplishments of the human race, both positive and
 negative, have involved the use of language. We as human beings use
@@ -594,8 +594,7 @@ interpret and react to the world around us and how we give meaning to our
 behaviors and experiences, more so than reality itself. As Shakespeare’s
 Hamlet pointed out, “There is nothing either good or bad, but thinking
 makes it so.”
-In their first book, The Structure of Magic Vol. I (1975), NLP co-
-founders Richard Bandler and John Grinder pointed out that the difference
+In their first book, The Structure of Magic Vol. I (1975), NLP cofounders Richard Bandler and John Grinder pointed out that the difference
 between people who respond effectively as opposed to those who respond
 poorly in the world around them is largely a function of their internal model
 of the world:
@@ -676,8 +675,7 @@ about reality and add to our maps of the world. Often our preexisting
 internal knowledge filters out new and potentially valuable sensory
 experience. One of the missions of NLP is to help people enrich the amount
 of sensory experience they are able to receive by widening what Aldous
-Huxley referred to as the “reducing valve” of consciousness. NLP co-
-founders John Grinder and Richard Bandler constantly urged their students
+Huxley referred to as the “reducing valve” of consciousness. NLP cofounders John Grinder and Richard Bandler constantly urged their students
 to “use sensory experience” rather than to project or hallucinate.
 Most NLP techniques, in fact, are based on observational skills which
 attempt to maximize our direct sensory experience of a situation. According
@@ -847,8 +845,7 @@ one hour or three hours for the same meeting or exercise would create quite
 different dynamics. Shorter time frames tend to focus people on tasks, while
 longer time frames open up the possibility for people to also focus on
 developing relationships. If a time limit of 15 minutes has been set for a
-meeting, it is more likely that the meeting will be interpreted as being task-
-oriented rather than as an open-ended, exploratory brainstorming session.
+meeting, it is more likely that the meeting will be interpreted as being taskoriented rather than as an open-ended, exploratory brainstorming session.
 Some common “frames” in NLP include the “outcome” frame, the “as if”
 frame and the “feedback versus failure” frame. The basic emphasis of the
 outcome frame , for instance, is to establish and maintain focus on the goal or
@@ -1482,8 +1479,7 @@ sometimes helps to do it with a partner). Once the criticisms have become
 questions, you can take them to the “dreamer” or “realist” within you in order
 to formulate appropriate answers.
 Ultimately, the objectives of the critic phase of a project are to make sure
-an idea or plan is ecologically sound and preserves any positive benefits or by-
-products of the current way(s) of achieving the goal. When a critic asks ‘how’
+an idea or plan is ecologically sound and preserves any positive benefits or byproducts of the current way(s) of achieving the goal. When a critic asks ‘how’
 questions, then he or she shifts from being a “spoiler” or “killer” to being an
 “advisor.”
 [Note: It is also useful to guide the critic to first acknowledge which
@@ -1730,8 +1726,7 @@ point, the fellow blurted out, “Yeh, we want to fight!”
 Now, I know that some of you readers are probably sarcastically
 thinking, “Wow, Robert, what incredible progress. This Sleight of Mouth
 stuff must be pretty powerful.” On the other hand, there was progress,
-because I had begun to engage them in a conversation, rather than a one-
-sided tirade. Seizing the opportunity, I responded, “I understand that, but it
+because I had begun to engage them in a conversation, rather than a onesided tirade. Seizing the opportunity, I responded, “I understand that, but it
 really wouldn’t be much of a fight. First of all, I don’t want to fight, so you
 wouldn’t get much out of me. Besides, you are both twice my size. What
 kind of fight would that be?”
@@ -1847,8 +1842,7 @@ into a ‘feedback frame’. It helps to shift our attention back to people and
 processes, rather than categories.
 Chunking Down a Generalization can Change Our
 Perceptions and Assumptions About It
-Verbs and process words can be ‘chunked’ into the sequence of sub-
-processes which make them up (as in the example of “learning” above). A
+Verbs and process words can be ‘chunked’ into the sequence of subprocesses which make them up (as in the example of “learning” above). A
 term like “failure,” for example, could be chunked into the series of steps
 
 
@@ -1889,8 +1883,7 @@ as various forms of “adaptation”—which also includes processes such as
 “conditioning disability,” “instinct disability,” or “evolution disability?”
 Some of these terms sound almost comical, and yet they are a possible
 logical extension of such labels.
-Again, reconsidering the judgment with respect to this type of “re-
-framing” leads us to consider our meaning and assumptions from a new
+Again, reconsidering the judgment with respect to this type of “reframing” leads us to consider our meaning and assumptions from a new
 perspective, and move it out of a ‘problem frame’.
 Chunking Up can Lead us to Reconsider the Implications of a Generalization or Judgment
 Practice this process for yourself. Take the same negative label,
@@ -2019,8 +2012,7 @@ the road ahead is exactly the same as the road behind.”
 
 Punctuation and Repunctuation
 The various forms of chunking (up, down and laterally) provide a
-powerful set of linguistic tools to help us enrich, reframe, and “re-
-punctuate” our maps of the world. Different “punctuations” of our
+powerful set of linguistic tools to help us enrich, reframe, and “repunctuate” our maps of the world. Different “punctuations” of our
 perception of the world allow us to create different meanings of the same
 experience. For example, in the use of written language, we punctuate a
 series of words in different ways; as a question, statement or demand. The
@@ -2321,13 +2313,13 @@ incompatible criteria.
 As another example, let’s say a company has a highly valued criterion
 of “quality;” but a particular person or team within that company values
 “creativity.” These two values might initially seem at odds with one
-another. 
-“Quality,” 
-however, 
-could 
-be 
-reframed 
-as 
+another.
+“Quality,”
+however,
+could
+be
+reframed
+as
 “continual
 improvement.” “Creativity” could be reframed as “producing better
 alternatives.” Again, the simple reframes help people to see the connection
@@ -2737,12 +2729,11 @@ people, groups and cultures. Similar hierarchies of criteria, on the other hand,
 
 are the basis for compatibility between groups and individuals. Hierarchies of
 criteria are a key aspect of motivation and marketing. Consider, for instance,
-the following hypothetical example of using the process of finding counter-
-examples to identify a customer’s hierarchy of criteria for purchasing beer:
+the following hypothetical example of using the process of finding counterexamples to identify a customer’s hierarchy of criteria for purchasing beer:
 Q: What type of beer do you usually buy?
 A: Well, I usually get XYZ beer.
 Q: Why XYZ beer?
-A: It’s the kind of beer I always get. I’m just used to it I guess. (Criterion 1 
+A: It’s the kind of beer I always get. I’m just used to it I guess. (Criterion 1
 Familiarity )
 Q: Yes, its important to be familiar with what you’re buying isn’t it. Hav
 you ever bought any other kind of beer? (Identify counter-example )
@@ -2763,7 +2754,7 @@ need to pay someone back for a favor? (Identify next counter example )
 A: Well sure, I’ve bought more expensive beers when I’ve been out with th
 guys at work. I’m no cheapskate. (Criterion 4 = Impress Others )
 Q: Yes, I guess there are certain situations where the kind of beer you bu
-can make a statement about your priorities. I’m really curious to know 
+can make a statement about your priorities. I’m really curious to know
 there’s anything that might get you to buy a more expensive unfamili
 beer if there was no one you owed a favor to or that you wanted to make
 statement to? (Identify next counterexample )
@@ -2822,8 +2813,7 @@ criteria) is essential for resolving conflicts and managing diversity. Some
 individuals and cultures value the ‘achievement of tasks’ more than they do
 the ‘preservation of relationships’. Others have exactly the reverse set of
 priorities.
-Hierarchy of Criteria is a key Sleight of Mouth pattern that involves re-
-evaluating (or reinforcing) a generalization according to a criterion that is
+Hierarchy of Criteria is a key Sleight of Mouth pattern that involves reevaluating (or reinforcing) a generalization according to a criterion that is
 more important than the criteria that are currently being addressed by the
 generalization.
 The following technique is a procedure that applies this pattern in order to
@@ -2859,7 +2849,7 @@ yourself from doing.
 
 
 e.g., Exercising consistently.
-2
+
  Step into location #2 and identify the criteria that motivate you to
 want the new behavior.
 e.g., I want to exercise in order to “be healthy ” and “look good. ”
@@ -3838,8 +3828,7 @@ related to competition, organization, leadership, change in the market,
 change in technology, communications channels, or something else.
 The same is just as true for many of our beliefs relating to physical
 reality. We cannot actually see, hear or feel atomic particles interacting with
-one another, nor can we directly perceive “gravitational” or “electro-
-magnetic” forces. We can only perceive and measure their results. We
+one another, nor can we directly perceive “gravitational” or “electromagnetic” forces. We can only perceive and measure their results. We
 postulate the imaginary construct “gravity” to explain the effects. Concepts
 such as “gravity,” “electro-magnetic force,” “atoms,” “cause-and-effect,”
 “energy,” even “time” and “space” were in many ways just arbitrary
@@ -4248,13 +4237,13 @@ steps, and referring to the Values Audit Worksheet.
 Write down the value you want to strengthen in the space marked
 ‘Value’ below to complete the value statement.
 2.  For each of the ‘prompt’ words, read your value statement, add the
-prompt 
-word(s), 
-and 
-complete 
-the 
-sentence 
-with 
+prompt
+word(s),
+and
+complete
+the
+sentence
+with
 whatever
 ‘spontaneously’ comes to mind.
 3.  When you are finished, read your answers all together and notice what
@@ -4887,8 +4876,7 @@ individual’s internal state has important influences on his or her ability to
 perform in any situation.
 
 
-Our internal states have to do with the “neurological” part of Neuro-
-Linguistic Programming. The state of our physiology and neurology acts as
+Our internal states have to do with the “neurological” part of NeuroLinguistic Programming. The state of our physiology and neurology acts as
 a type of filter upon how our attention is focused; and thus upon what we
 hear (and do not hear), and how we interpret what we do hear.
 Recognizing, reacting to, and influencing people’s internal states is an
@@ -5647,8 +5635,7 @@ which we were ‘exposed’ to a flue or cold virus but were not infected
 because our ‘defenses were up’. When a person is vaccinated for a physical
 virus, his or her immune system is essentially taught to recognize the virus
 and to recycle it or remove it from the body. The immune system does not
-learn to kill the virus (because it cannot be killed). [It is true that the so-
-called ‘killer T-cells” of the immune system can destroy cells and tissues in
+learn to kill the virus (because it cannot be killed). [It is true that the socalled ‘killer T-cells” of the immune system can destroy cells and tissues in
 our bodies that have become infected by a virus. But, like chemotherapy,
 this addresses the symptom more than the cause. In a complete
 immunization, the cells never become infected in the first place.] A
@@ -5719,8 +5706,7 @@ beliefs and presuppositions upon which the thought virus is based must be
 identified, brought to the surface, and examined.
 Presuppositions relate to unconscious beliefs or assumptions embedded
 in the structure of an utterance, action or another belief; and are required for
-the utterance, action or belief to make sense. According to Merriam-
-Webster’s Dictionary, to presuppose means to “suppose beforehand” or “to
+the utterance, action or belief to make sense. According to MerriamWebster’s Dictionary, to presuppose means to “suppose beforehand” or “to
 require as an antecedent in logic or fact.” The term “suppose” comes from
 Latin, and literally means “to put under” — from sub (“under”) + ponere
 (“to put”).
@@ -5779,8 +5765,7 @@ the surface structure of the sentence (even if the intention, experiences,
 
 
 expectations and internal state from which the generalization and judgments
-were derived have been deleted). The ‘complex equivalence’ and ‘cause-
-effect’ statements can be directly denied or negated. That is, a listener could
+were derived have been deleted). The ‘complex equivalence’ and ‘causeeffect’ statements can be directly denied or negated. That is, a listener could
 respond, “It is not a bunch of poppycock, and it will not drive me crazy.”
 In the second statement, the fundamental generalization and judgment
 does not appear in the surface structure of the sentence, and cannot be
@@ -5900,8 +5885,7 @@ _______________.
 Self Reference
 A second key factor that can make a belief more likely to become a
 thought virus, is when it becomes circular or self referenced. A self
-referenced process is one that refers back to, or operates upon itself. Self-
-referenced, or self-organizing, social and psychological systems construct
+referenced process is one that refers back to, or operates upon itself. Selfreferenced, or self-organizing, social and psychological systems construct
 their own reality by applying internally generated principles and rules. An
 example of a ‘self referenced’ perception would be standing in between two
 mirrors and seeing the reflection of one mirror in the other mirror, creating
@@ -6161,10 +6145,10 @@ Notice that Jesus did not challenge the belief itself. Rather he
 widen their map of the situation to include their own behavior.
 Try out this pattern on one of your own beliefs. To start, be sure that you
 state the belief as a cause-effect or complex equivalence statement:
-Belief: 
-___________ 
-(am/is/are) 
-_________________ 
+Belief:
+___________
+(am/is/are)
+_________________
 because
 _________________.
 e.g., I am a slow learner because it takes time for me to understand new
@@ -6346,8 +6330,7 @@ conditioning will rapidly learn to salivate to new sounds and colors, etc.,
 but will be slower to learn to avoid electrified objects.
 Bateson pointed out that this ability to learn patterns or rules of a class
 of conditioning procedures was a different “logical type” of learning and
-did not function according to the same simple stimulus-response-
-reinforcement sequences used to learn specific isolated behaviors. Bateson
+did not function according to the same simple stimulus-responsereinforcement sequences used to learn specific isolated behaviors. Bateson
 noted, for instance, that the reinforcement for “exploration” (a means of
 learning-to-learn) in rats is of a different nature than that for the “testing” of
 a particular object (the learning content of exploration). He reports (Steps to
@@ -6448,14 +6431,14 @@ statements to you:
 Your surroundings are (stupid/ugly/exceptional/beautiful).
 
 
-The 
-way 
-you 
-behaved 
-in 
-that 
-particular 
-situation 
+The
+way
+you
+behaved
+in
+that
+particular
+situation
 was
 (stupid/ugly/exceptional/beautiful).
 You really have the capability to be (stupid/ugly/exceptional/beautiful).
@@ -6478,8 +6461,7 @@ greatly reduces the impact it has on the person mentally and emotionally.
 As an example, a person might be depressed about having cancer, and
 refer to himself or herself as a “cancer victim.” This could be ‘reframed’
 with the response, “You are not a cancer victim , you are a normal person
-who has not yet developed the capability to take full advantage of the mind-
-body connection .” This can help the person to shift his or her relationship
+who has not yet developed the capability to take full advantage of the mindbody connection .” This can help the person to shift his or her relationship
 to the illness, open up to other possibilities, and to view himself or herself
 as a participant in his or her healing process.
 The same type of reframe could be done with a belief like, “I am a
@@ -6734,8 +6716,7 @@ Meta Frame
 The Sleight of Mouth Patterns as a System
 of Verbal Interventions
 As the following diagram illustrates, the fourteen Sleight of Mouth
-Patterns form a system of interventions which may be applied to the cause-
-effect or complex equivalence statement at the foundation of a particular
+Patterns form a system of interventions which may be applied to the causeeffect or complex equivalence statement at the foundation of a particular
 belief, in order to either become more ‘open to doubt’ or ‘open to believe’
 that particular generalization.
 
@@ -6850,34 +6831,33 @@ case I don’t want anything to do with the guy.
 I’m just going to get hurt. If it’s not that, it will
 be something else anyway. How could he do that
 Bandler
-establishes 
+establishes
 the
 limiting belief in
-the form of cause-
-effect 
+the form of causeeffect
 and
 complex
 equivalence
 statements which
 create a ‘failure
-frame’ 
-and 
+frame’
+and
 a
 ‘problem frame’:
-“Vic 
+“Vic
 did
-something 
+something
 that
 caused me to be
-hurt 
+hurt
 several
 
 
 to me?
 (To Vic) Why do you want to hurt me? Huh?
 times. He will do
-it 
-again. 
+it
+again.
 That
 means he intends
 to hurt me and
@@ -6888,22 +6868,22 @@ RB: Well then why did you do that to me?
 Vic: Uh, I . . . I set it up so that you would learn that
 that thing is solid as a rock now.
 In order to “play
-along,” 
+along,”
 Vic
 intuitively tries to
-link 
+link
 the
 generalization to
-a 
+a
 positive
 consequence.
 RB: But what if it’s not, what if I fall and break my
 leg?
-Bandler 
+Bandler
 focuses
 on the possibility
-of 
-a 
+of
+a
 counter
 example to Vic’s
 claim,
@@ -6913,20 +6893,20 @@ Vic: It’s all right, it’s solid as a rock.
 RB: So you want me to go out there and risk my
 life.
 Bandler ‘chunks
-up’ 
+up’
 the
-consequence 
+consequence
 of
 “getting hurt” to
-“breaking 
+“breaking
 my
 leg” to “risking
 my life.”
 
 
 Vic: If I risk my life first, is it all right?
-Vic 
-attempts 
+Vic
+attempts
 a
 form of ‘apply to
 self’.
@@ -6934,32 +6914,32 @@ RB: Do you know how many times I have to walk
 on that compared to you? I tested it the last time
 you know and it was fine and then I stepped on it
 and, boom, there I was. It fell all over again.
-Bandler 
+Bandler
 widens
 the ‘frame size’ in
 order to maintain
-the 
+the
 ‘problem
-frame’ 
+frame’
 and
-reestablish 
+reestablish
 the
 possibility of a
 negative counter
 example.
 Vic: You stepped on the right part. It’s a weird
 setup.
-Vic 
+Vic
 ‘chunks
 down’, trying to
-‘outframe’ 
+‘outframe’
 the
 counter example,
 claiming that the
-problem 
+problem
 only
-relates 
-to 
+relates
+to
 a
 certain part of the
 stage.
@@ -6970,29 +6950,29 @@ were somebody that was trying to help me the
 first time you did it. At first, you know, that was
 one thing. It looked nice and everything. I had no
 idea what you were trying to do to me.
-Bandler 
+Bandler
 chunks
 back up to the
-whole 
+whole
 sequence
 of the interaction,
 focusing on Vic’s
 ‘intention’, which
 has the effect of
-shifting 
+shifting
 the
 ‘outcome’ around
-which 
+which
 the
-discussion 
+discussion
 is
 centered.
 
 
 Man #1: As long as you avoid stages in the future,
 everything will be okay.
-Man 
-#1 
+Man
+#1
 paces
 Bandler’s
 ‘problem frame’
@@ -7007,18 +6987,18 @@ thing I should be worried about, there may be
 others. (To Ben) See he (Man #1) is on my side,
 huh?
 Bandler takes the
-man’s 
+man’s
 comment
-as 
+as
 confirmation
 of the problem
-frame 
+frame
 and
-limiting 
+limiting
 belief,
 and widens the
 ‘frame size’ to
-include 
+include
 others
 that may have a
 ‘bad intention’.
@@ -7033,26 +7013,26 @@ Bandler
 continues to focus
 on the pattern of
 ‘good’ intentions
-versus 
+versus
 ‘bad
 intentions’.
 Ben: Well, I’m surprised he hasn’t gotten up and
 walked on it yet.
 Ben also paces
 Bandler’s
-problem 
+problem
 frame,
 pointing out the
 Vic’s behavior is
 counter example
 to his claim that
-he 
-is 
+he
+is
 not
 negatively
 
 
-intended 
+intended
 and
 believes the stage
 is “solid as a
@@ -7064,23 +7044,23 @@ me. What do you think about that? This guy
 comes to my seminar and tries to kill me. And
 he’s still trying. He’s trying to convince me that
 it’s not some kind of setup.
-Bandler 
+Bandler
 uses
 Ben’s
-confirmation 
+confirmation
 of
 the limiting belief
 as an opportunity
-to 
-‘chunk 
+to
+‘chunk
 up’
-Vic’s 
+Vic’s
 ‘negative
-intention’ 
+intention’
 from
 “hurting me” to
-“trying 
-to 
+“trying
+to
 kill
 me,” shifting it
 toward the level
@@ -7092,9 +7072,9 @@ Ben continues to
 belief statement,
 ‘chunking up’ the
 ‘counter
-example’ 
+example’
 to
-challenge 
+challenge
 Vic’s
 assertion that he
 is not negatively
@@ -7102,20 +7082,20 @@ intended.
 RB: Yeh, I did; opportunity, after opportunity to try
 to do something.
 Bandler
-continues 
+continues
 to
 chunk up as well.
 Ben: And he’s not doing anything. He’s just sitting
 there.
-The 
+The
 counter
-example 
+example
 is
 reframed into a
 
 
 ‘consequence’
-which 
+which
 affirms
 Bandler’s
 negative belief.
@@ -7126,7 +7106,7 @@ to ‘meta frame’
 part of Bandler’s
 limiting belief, in
 order to point out
-a 
+a
 possible
 assumption.
 RB: I don’t know why he did it. Maybe he doesn’t
@@ -7137,17 +7117,17 @@ occurred to him that I could really get hurt. And I
 don’t want to hang around someone that’s going
 to do that.
 Bandler
-maintains 
+maintains
 the
 problem frame by
-widening 
+widening
 the
 possible causes of
-Vic’s 
+Vic’s
 behavior
 from his ‘negative
 intention’ to also
-include 
+include
 his
 ‘limited model of
 the world’.
@@ -7155,10 +7135,10 @@ Woman #1: Yeh, but if he didn’t think in the future
 what might happen, he probably didn’t do it
 deliberately.
 Woman #1 tries to
-use 
+use
 Bandler’s
-response 
-as 
+response
+as
 a
 possible counter
 example to his
@@ -7169,7 +7149,7 @@ RB: If he didn’t think about my future, then he
 won’t next time, and then he’s going to get me in
 Bandler switches
 the focus from
-‘intention’ 
+‘intention’
 to
 
 
@@ -7177,14 +7157,14 @@ some situation where I’m really going to get
 burned.
 ‘consequence’ in
 order to maintain
-the 
+the
 problem
 frame.
 Man #2: But you only have one example so you
 don’t know that for certain.
 Man #2 attempts
 to find a counter
-example 
+example
 by
 ‘chunking down’.
 RB: He did it twice! And I gave him a whole bunch
@@ -7196,21 +7176,21 @@ take it away. He didn’t do that either. He doesn’t
 care about me. He doesn’t give a damn. He’s
 going to leave it there until I walk on it and fall
 over.
-Bandler 
+Bandler
 chunks
-back 
-up 
+back
+up
 —
 claiming to have
-offered 
-Vic 
+offered
+Vic
 “a
 whole bunch of
 choices”—and
-‘redefines’ 
+‘redefines’
 Vic’s
 lack of response
-as 
+as
 a
 demonstration
 that Vic “doesn’t
@@ -7228,25 +7208,25 @@ intentions.)
 Woman #1: Why don’t you both turn the platform
 over and make sure it works right. Have him
 work with you to test it.
-Woman 
+Woman
 #1
-attempts 
+attempts
 to
-establish 
+establish
 a
 cooperative
 
 
 ‘feedback frame’
-and 
-shift 
+and
+shift
 to
 another outcome:
-‘testing’ 
+‘testing’
 the
 platform to make
-sure 
-it 
+sure
+it
 ‘works
 right’..
 RB: So you want me to try and get together to work
@@ -7256,7 +7236,7 @@ three or four days.
 You’re on his side. I knew you were with him all
 along. See you’re sitting on the same side of the
 room that he is.
-Bandler 
+Bandler
 again
 widens the frame
 size (beyond the
@@ -7264,75 +7244,75 @@ present instance
 to “the next three
 of four days”) in
 order to discount
-the 
+the
 potential
-solution. He then 
+solution. He then
 ‘meta frames’ the
 woman’s attempt
 to find a solution
-as 
-being 
+as
+being
 an
 evidence of her
-conspiring 
+conspiring
 with
 Vic (using the fact
-that 
-they 
+that
+they
 are
-sitting 
-on 
+sitting
+on
 the
 same side of the
-room 
-as 
+room
+as
 a
 confirming
 consequence.)
 Woman #1: Then I’ll do it with him. . . Oh, you
 don’t trust me because you think we (she and
 Vic) are allies.
-Woman 
+Woman
 #1
-realizes 
-that 
+realizes
+that
 a
-consequence 
+consequence
 of
-Bandler’s 
+Bandler’s
 ‘meta
 frame’ is that it
 
 
 potentially
-discounts 
+discounts
 any
-further 
+further
 attempt
 she may make to
-challenge 
+challenge
 his
 belief.
 RB: Oh yeh, trying to make me look paranoid now,
 huh? He (Vic) put you up to this didn’t he?
 Bandler deepens
-the 
+the
 problem
-frame 
+frame
 by
-asserting 
+asserting
 a
 negative
-consequence 
+consequence
 of
-Woman 
+Woman
 #1’s
 statement.
 Woman #2: What do you want at this point?
 Woman #2 makes
 a direct attempt
 at establishing an
-outcome 
+outcome
 frame,
 focusing on the
 immediate future.
@@ -7340,24 +7320,24 @@ RB: I don’t want anything. I didn’t want it (the
 stage) back there in the first place. It’s too late
 now.
 Bandler reasserts
-the 
+the
 problem
-frame, 
+frame,
 shifting
 the frame back to
 the past.
 Woman #2: You’re not willing to give him another
 chance?
 Woman #2 makes
-another 
+another
 direct
 attempt; this time
-to 
-establish 
+to
+establish
 a
 feedback frame.
 RB: He had his chance. He not only had his chance,
-Bandler 
+Bandler
 again
 
 
@@ -7368,31 +7348,31 @@ down. I didn’t know he would come in the
 morning and bend the leg. I don’t know what this
 guy is going to try to do to me. Put him outside
 of the room.
-‘chunks 
+‘chunks
 up’,
-extending 
+extending
 the
 consequences of
-his 
+his
 ‘paranoid’
 belief.
 Man #1: I think you (Bandler) should leave because
 he might hide outside.
-Man 
-#1 
+Man
+#1
 paces
 Bandler’s
-problem 
+problem
 frame
 (and his assertion
-about 
+about
 Vic’s
 negative
 intention),
-widening 
-it 
+widening
+it
 to
-include 
+include
 Vic’s
 future behavior as
 well.
@@ -7402,17 +7382,17 @@ Man #3: What makes you think you can trust him
 Man #3 shifts to
 ‘another
 outcome’,
-questioning 
+questioning
 the
-authenticity 
+authenticity
 of
 Man #1.
 RB: Well, he’d do the same thing I’d do.
 Man #3: Maybe he (Vic) is a shill. It’s a possibility.
 Man #3 proposes
 a more ‘positive’
-meta 
-frame 
+meta
+frame
 of
 Vic’s behavior.
 RB: Why are you making excuses for him?
@@ -7421,31 +7401,31 @@ Bandler
 
 (Looking at the people he has disagreed with.)
 They’re all on the front row, every one of them.
-‘redefines’ 
+‘redefines’
 Man
 #3’s meta frame
 as an “excuse”
 for Vic’s behavior,
 and continues to
-widen 
+widen
 the
 paranoid problem
 frame.
 Woman #2: It’s mass action. The mob is taking
 over.
-Woman 
+Woman
 #2
-attempts 
+attempts
 to
 ‘chunk up’ and
-broaden 
+broaden
 the
-frame 
-size 
+frame
+size
 in
-order 
+order
 to
-exaggerate 
+exaggerate
 the
 belief and draw
 the generalization
@@ -7453,34 +7433,34 @@ into question.
 RB: Oh. See, she’s trying to make me look paranoid
 too.
 Bandler places a
-‘meta 
+‘meta
 frame’
-around 
+around
 Woman
-#2’s 
+#2’s
 comment,
-claiming 
+claiming
 the
-woman 
-has 
+woman
+has
 a
 negative
 intention.
 Woman #2: No, I’m concerned about why you feel
 that all of these people are against you.
-Woman 
+Woman
 #2
-attempts 
+attempts
 to
-redefine 
+redefine
 her
 intention to one
 that is positive.
 RB: Don’t give me that. (To Vic) Now, see all the
 trouble you’ve caused. (To Audience) See I told
-Bandler 
+Bandler
 widens
-the 
+the
 frame,
 
 
@@ -7499,12 +7479,12 @@ Vic’s behavior.
 Man #4: He’s awfully clever to be doing it in such a
 round about way.
 Man #4 suggests
-a 
-shift 
-to 
+a
+shift
+to
 a
 different focus of
-attention 
+attention
 which
 may open .
 RB: He’s a smart person, man.
@@ -7512,7 +7492,7 @@ Man #4: Can we out smart him?
 Man #4 attempts
 to shift focus to
 the future and to
-an 
+an
 outcome
 frame.
 RB: I don’t know. He got me once. He got me
@@ -7520,10 +7500,10 @@ twice. God knows who else he’s gotten.
 Bandler changes
 the time frame
 back to the past,
-widening 
+widening
 the
 problem frame to
-include 
+include
 others
 besides himself.
 Man #4: If you’re careful of him maybe you could
@@ -7531,7 +7511,7 @@ use his diabolical genius.
 Man #4 attempts
 to redefine Vic’s
 ‘negative
-intention’ 
+intention’
 as
 “diabolical
 genius” and put it
@@ -7546,40 +7526,40 @@ going on. There’s plenty of good things in life
 without that kind of stuff, you know. What am I
 going to do?
 Bandler switches
-to 
+to
 ‘another
 outcome’ relating
 to his (Bandler’s)
-own 
+own
 “security,”
 rather than Vic’s
 “cleverness”, in
-order 
+order
 to
-reestablish 
+reestablish
 a
 problem frame.
 Man #4: Well, as long as he’s here you can watch
 him.
 Man #4 attempts
-to 
-narrow 
+to
+narrow
 the
 time frame size to
-the 
+the
 ongoing
 situation in order
-to 
-satisfy 
+to
+satisfy
 the
-outcome 
+outcome
 of
 “security.”
 RB: I am watching him. When is it all going to
 end?
 Bandler expands
 the frame beyond
-the 
+the
 present,
 implying he will
 be insecure again
@@ -7588,16 +7568,16 @@ Vic: I’ll move it over here. (Begins to move the
 small platform away.)
 Vic attempts to
 create a counter
-example 
+example
 to
 Bandler’s
 generalization by
-complying 
+complying
 with
 
 
-his 
-request 
+his
+request
 to
 move the stage.
 RB: Why is he trying to make me look stupid? See,
@@ -7610,30 +7590,30 @@ him off and never communicate with him again?
 Probably be the best thing huh? He may do the
 same thing to me again. See, he’s even still
 sitting there.
-Bandler 
+Bandler
 meta
-frames 
+frames
 Vic’s
-action 
-as 
+action
+as
 an
-attempt 
+attempt
 to
 discredit him and
 make it look as if
-he 
-is 
+he
+is
 safe.
 Bandler uses this
-frame 
-as 
+frame
+as
 a
-confirmation 
+confirmation
 of
-Vic’s 
+Vic’s
 negative
 intention, and a
-justification 
+justification
 for
 lack of trust with
 respect to Vic and
@@ -7644,24 +7624,24 @@ Woman #3: But you haven’t had the right
 interaction with him to trust him.
 Woman #3 tries to
 establish another
-meta 
+meta
 frame
 around Bandler’s
 generalization,
 claiming that his
-conclusion 
+conclusion
 is
-drawn 
+drawn
 from
 limited
 experience.
 RB: But I don’t want to have any interaction with
 him.
 Bandler
-“collapses” 
+“collapses”
 the
 meta frame by
-applying 
+applying
 his
 
 
@@ -7672,10 +7652,10 @@ kind of ‘circular
 argument’ – i.e.,
 “I don’t trust him
 because I haven’t
-had 
-the 
+had
+the
 right
-interaction 
+interaction
 with
 him; and I don’t
 want to interact
@@ -7686,34 +7666,34 @@ RB: I mean. . . even if you’d bring in a new stage, I
 would only be safe for a while. Maybe he’ll go
 cut the leg on the other side. What do I know?
 Bandler changes
-the 
-frame 
+the
+frame
 size
 again to include
-longer 
+longer
 term
 negative
 consequences in
-the 
+the
 future,
-discounting 
+discounting
 any
 solution in the
 present.
 Woman #3: How do you know that he set that up in
 advance?
-Woman 
+Woman
 #3
-attempts 
+attempts
 to
 establish
 Bandler’s ‘reality
-strategy’ 
+strategy’
 for
-forming 
+forming
 his
 generalization
-about 
+about
 Vic’s
 intention.
 
@@ -7725,11 +7705,11 @@ didn’t mean it, it did happen. He’s the one that’s
 making me feel this way now. You see, I’m
 terrified.
 Bandler does not
-address 
+address
 the
 question,
 immediately
-shifting 
+shifting
 to
 ‘another
 outcome’,
@@ -7737,31 +7717,31 @@ focusing on the
 negative
 consequences of
 Vic’s behavior on
-his 
+his
 (Bandler’s)
-internal 
+internal
 state
 rather than Vic’s
 intention.
 Woman #3: How is he making you feel that way?
 Woman #3 again
-attempts 
+attempts
 to
 ‘chunk down’ the
 cause-effect
 generalization
-“making,” 
+“making,”
 and
-establish 
+establish
 the
 internal
 ‘equivalences’ or
 strategies
-Bandler 
+Bandler
 is
 applying in order
-to 
-form 
+to
+form
 his
 generalization.
 RB: That’s not the point. The point is that I feel this
@@ -7770,15 +7750,15 @@ feel bad. Now I have to continue to feel this way.
 I tried to give him a chance to do something
 about it but it failed.
 Bandler shifts the
-focus from 
+focus from
 the
 cause-effect
 generalization to
 the consequences
 
 
-related 
-to 
+related
+to
 his
 internal state.
 Woman #4: Can you remember things you did with
@@ -7786,15 +7766,15 @@ him that you enjoy? I mean, even if you don’t
 like him now.
 Woman #4 tries to
 lead Bandler to
-identify 
+identify
 past
-positive 
+positive
 counter
 examples related
-to 
-his 
+to
+his
 internal
-state 
+state
 and
 interactions with
 Vic.
@@ -7804,11 +7784,11 @@ way, it would be impossible. I just can’t be that
 person with him anymore. See I’ve changed in
 the last six months.
 Bandler shifts the
-frame 
-to 
+frame
+to
 his
 current negative
-internal 
+internal
 state,
 and the expected
 negative
@@ -7816,8 +7796,8 @@ consequences of
 that state on his
 future (shifting it
 from a behavior
-level 
-to 
+level
+to
 an
 identity level).
 (To audience) What are you going to do, leave me
@@ -7828,21 +7808,21 @@ might come to one; under a different name. I don’t
 want to ever have seminar participants ever again.
 Oh God. Don’t leave me this way.
 Bandler
-continues 
+continues
 to
-chunk 
-up 
+chunk
+up
 and
 widen the frame
-size, 
+size,
 redefining
 the situation as
-one 
-related 
+one
+related
 to
-“fixing 
+“fixing
 me,”
-rather 
+rather
 than
 addressing Vic’s
 actions.
@@ -7850,24 +7830,24 @@ actions.
 
 Woman #3: Is this the way you want to be?
 Woman #3 makes
-another 
+another
 attempt
-to 
+to
 directly
-establish 
+establish
 an
-outcome 
+outcome
 frame,
 oriented toward a
-more 
+more
 positive
 future.
 RB: I don’t want to be like this. I want to be the
 way I was.
-Bandler 
+Bandler
 returns
-to 
-a 
+to
+a
 problem
 frame and shifts
 the frame back to
@@ -7875,9 +7855,9 @@ the past.
 Woman #3: How were you? Tell me.
 Woman #3 tries to
 use the past as a
-resource 
+resource
 to
-establish 
+establish
 an
 outcome frame.
 RB: I used to be confident and happy. I liked
@@ -7886,49 +7866,49 @@ anymore. See what he did to me? (To Vic) See
 what you’re doing to me? (To Audience) But I
 can’t do anything else. Because you won’t help
 me.
-Bandler 
+Bandler
 shifts
 from the past to
 the present, in
 order to maintain
-the 
+the
 problem
 frame.
 Woman #3: Do you mean you can’t do anything
 else or you won’t do anything else?
-Woman 
+Woman
 #3
-attempts 
+attempts
 to
 redefine “can’t”
-to 
+to
 “won’t,”
-implying 
+implying
 that
 Bandler has more
-choice, 
-at 
+choice,
+at
 the
-level 
+level
 of
 
 
-capability, 
+capability,
 than
-he 
+he
 is
 acknowledging.
 RB: What difference does it make? I don’t know
 what to do.
 Bandler uses a
 type of ‘hierarchy
-of 
+of
 criteria’,
 asserting that it
 does not matter if
 one has choices if
-one 
-does 
+one
+does
 not
 know “what to
 do.”
@@ -7939,16 +7919,16 @@ to redefine (or
 ‘chain’)
 Bandler’s
 “problem” from
-the 
-level 
+the
+level
 of
 identity (“I am
 not the way I used
 to be”) to the
-level 
+level
 of
 behavioral
-response 
+response
 (“the
 state you are in
 now”).
@@ -7960,7 +7940,7 @@ to be the kind of person that thought that
 everybody had positive intentions. I used to think
 good things about everybody, but I learned my
 lesson now. I got hurt, and I got hurt worse than I
-Bandler 
+Bandler
 places
 the problem back
 at the level of
@@ -7968,7 +7948,7 @@ identity (Vic is a
 “leader killer”),
 and uses it as a
 way to strongly
-reestablish 
+reestablish
 and
 
 
@@ -8595,8 +8575,7 @@ improve the immune system.
 Our perceptions regarding cancer can certainly cause fear and loss of hope,
 which can make it harder to live.
 3.
- Consequence – Unfortunately, beliefs such as this one tend to become self-
-fulfilling prophecies because people stop looking for choices and options.
+ Consequence – Unfortunately, beliefs such as this one tend to become selffulfilling prophecies because people stop looking for choices and options.
 4.
  Chunk Down – I’ve often wondered how much “death” was in each cancer
 cell?
@@ -8639,8 +8618,6 @@ interesting to see what would happen if it died out.
 14.  Meta Frame – An over-simplified belief such as this can arise when we
 don’t have a model that allows us to explore and test all of the complex
 variables that contribute to the life and death process.
-
-
 
 
 Chapter 10
@@ -8737,8 +8714,7 @@ limiting beliefs and thought viruses; (b) manage expectations and the
 
 Afterword
 I hope you have enjoyed this exploration into Sleight of Mouth. If you
-are interested in exploring these patterns or other aspects of Neuro-
-Linguistic Programming in more depth, other resources and tools exist to
+are interested in exploring these patterns or other aspects of NeuroLinguistic Programming in more depth, other resources and tools exist to
 further develop and apply the distinctions, strategies and skills described
 within these pages.
 NLP University is an organization committed to providing the highest
@@ -8822,8 +8798,7 @@ Creativity and the Structure of Innovation ; Meta Publications, Capitola,
 Ca., 1991.
 Dilts R.; Changing Belief Systems with NLP ; Meta Publications, Capitola,
 Ca., 1990.
-Dilts R., Hallbom, T. and Smith, S.; Beliefs: Pathways to Health and Well-
-Being ; Metamorphous Press, Portland, OR, 1990.
+Dilts R., Hallbom, T. and Smith, S.; Beliefs: Pathways to Health and WellBeing ; Metamorphous Press, Portland, OR, 1990.
 Dilts, R.; Applications of NLP ; Meta Publications, Capitola, CA, 1983.
 Dilts, R. & Epstein, T.; Dynamic Learning ; Meta Publications, Capitola,
 CA, 1995.
@@ -8857,12 +8832,12 @@ Moine, D.; “Patterns of Persuasion”; Personal Selling Journal, 1981, 1 (4),
 3.
 
 
-O’Connor, 
-J. 
-and 
-Seymour, 
-J.; 
-Introducing 
+O’Connor,
+J.
+and
+Seymour,
+J.;
+Introducing
 Neuro-Linguistic
 Programming ; Aquarian Press, Cornwall, England, 1990.
 
@@ -9016,7 +8991,7 @@ Inductive Reasoning 69
 Inferences 221 , 222
 Inner Mentors 190 , 191
 Intention 48 -49 , 62 , 79 , 255 , 275 , 276 , 277 , 278 , 281 , 283 , 284 , 291 , 293 , 295 , 301 , 308 ,
-312
+
 Internal Representations 79
 Internal State 201 , 284
 Internal States 184 -186 , 188 , 203 , 206 , 207 , 285 , 317

@@ -9,8 +9,11 @@ chars: 1381150
 approx_tokens: 345287
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 1381152
+phase4_chars_after: 1380859
+phase4_saved_pct: 0.0
 ---
-
 
 
 Michael Polanyi (1891–1976) was a Hungarian-British chemist and philosopher, a fellow of the
@@ -604,8 +607,7 @@ was writing the book. Her discontent with chapter 13 increased in later
 years as she became convinced that Polanyi had failed to understand
 Darwinian theory. While Grene praised much of the first three parts of
 Personal Knowledge, especially Polanyi’s working out of the elements of
-tacit knowledge and what she saw as his undermining of Cartesian body-
-mind dualism, she found his anthropocentric cosmic and emergent
+tacit knowledge and what she saw as his undermining of Cartesian bodymind dualism, she found his anthropocentric cosmic and emergent
 evolutionism unconvincing.17
 Polanyi’s antimechanistic views, however, and his emphasis on hierarchy
 and development in biology were in keeping with some work in
@@ -623,8 +625,7 @@ Polanyi’s political concerns in Personal Knowledge found resonance in a
 large audience of readers, as has continued to be true in later years. At the
 time of the first printing of the book in 1958, the Cold War was in full
 swing. Stalin had died in 1953 and a program of de-Stalinist reforms had
-begun under Nikita Khrushchev.19 Some reforms took place in Soviet-
-controlled Poland in 1956, but the Hungarian uprising that year against its
+begun under Nikita Khrushchev.19 Some reforms took place in Sovietcontrolled Poland in 1956, but the Hungarian uprising that year against its
 communist regime was forcefully suppressed by Soviet troops. The Berlin
 wall would be constructed in 1961 just at the time that Polanyi’s book was
 still finding its readers, and it was only in 1965 that the Soviet prohibition
@@ -912,8 +913,6 @@ PART ONE
 THE ART OF KNOWING
 OceanofPDF.com
 
-
-1
 OBJECTIVITY
 1. THE LESSON OF THE COPERNICAN REVOLUTION
 IN the Ptolemaic system, as in the cosmogony of the Bible, man was
@@ -1198,8 +1197,7 @@ up which conflicts with it. In so far as a theory cannot be tested by
 experience—or appears not capable of being so tested—it ought to be
 revised so that its predictions are restricted to observable magnitudes.
 This view, which can be traced back to Locke and Hume, and which in
-its massive modern absurdity has almost entirely dominated twentieth-
-century thinking on science, seems to be the inevitable consequence of
+its massive modern absurdity has almost entirely dominated twentiethcentury thinking on science, seems to be the inevitable consequence of
 separating, in principle, mathematical knowledge from empirical
 knowledge. I shall now proceed to the story of relativity, which is supposed
 to have brilliantly confirmed this view of science, and shall show why in
@@ -1344,8 +1342,7 @@ threatened the new rationality achieved by Einstein’s world-picture, that it
 was almost impossible for them to think again in different terms. Little
 attention was paid to the experiments, the evidence being set aside in the
 hope that it would one day turn out to be wrong.12
-The experience of D. C. Miller demonstrates quite plainly the hollow-
-ness of the assertion that science is simply based on experiments which
+The experience of D. C. Miller demonstrates quite plainly the hollowness of the assertion that science is simply based on experiments which
 anybody can repeat at will. It shows that any critical verification of a
 scientific statement requires the same powers for recognizing rationality in
 nature as does the process of scientific discovery, even though it exercises
@@ -1415,8 +1412,7 @@ while ignoring entirely the masses of the bodies and the forces acting on
 them. The opportunity to expand geometry so as to include the laws of
 
 
-dynamics was offered by its generalization into many-dimensional and non-
-Euclidean space, and this was accomplished by work in pure mathematics,
+dynamics was offered by its generalization into many-dimensional and nonEuclidean space, and this was accomplished by work in pure mathematics,
 before any empirical investigation of these results could even be imagined.
 Minkowski took the first step in 1908 by presenting a geometry which
 expressed the special theory of relativity, and which included classical
@@ -1504,8 +1500,6 @@ man can transcend his own subjectivity by striving passionately to fulfil his
 personal obligations to universal standards.
 OceanofPDF.com
 
-
-2
 PROBABILITY
 1. PROGRAMME
 THE purpose of this book is to show that complete objectivity as usually
@@ -1681,13 +1675,13 @@ influence of cross-fertilization in contrast to self-fertilization on the height
 plants.4 15 plants of each kind were measured and 15 pairs formed at
 random from which 15 differences in height (measured in eighths of an inch)
 were obtained. The differences being denoted by X1, X2, X3. . ., their mean is
-. The value of, 
+. The value of,
  shows that on the average the cross-fertilized plants were
 20.93 eighths of an inch taller than the self-fertilized plants. The heart of the
 question is then whether this difference is significant or due to mere chance.
 To decide this, we shall have to compare the magnitude of this difference
 with the range of accidental variations which appear to occur in our sample,
-and 
+and
  will be acknowledged as significant only if it sufficiently exceeds the
 range of such variations. Technically, we describe this range by a magnitude
 called the standard deviation σ which is computed by forming the sum of the
@@ -1697,7 +1691,7 @@ square of the deviations from the mean, dividing this (in the case of 15
 observations) first by 14 and then by 15, and taking the square root of the
 result, so that
 In our case σ comes out at 9.746 eighth inches. Thus it is immediately
-apparent that 
+apparent that
  is larger than the standard deviation of the individual
 heights. But the question still remains whether it is sufficiently larger than σ
 to be incapable of being accounted for by chance variations of heights.
@@ -1707,9 +1701,7 @@ experience. Let us watch how Fisher proceeds to do this. He forms the ratio
 the probability is for t to have any particular value when based on 14
 independent discrepancies, and finds that t = 2.148 is reached or exceeded
 by chance in exactly 5 per cent of such random trials.
-This tells us that on the hypothesis (which Fisher calls the null-
-hypothesis) that the differences in the heights of self-fertilized and cross-
-fertilized plants are purely accidental, the probability for our actually
+This tells us that on the hypothesis (which Fisher calls the nullhypothesis) that the differences in the heights of self-fertilized and crossfertilized plants are purely accidental, the probability for our actually
 observed sample having occurred was less than 5 per cent. Such a statement
 entitles us to be surprised by the observed result to the same extent as we
 would be if we drew a black ball from a sack supposed to contain only 5
@@ -1729,8 +1721,7 @@ are less than 5 per cent. But it is already apparent that this procedure can
 apply only to hypothetical assumptions that we consider to be of a likelihood
 
 
-comparable to that of the ineffectiveness of cross-fertilization as against self-
-fertilization, and not to assumptions of such a high degree of likelihood as
+comparable to that of the ineffectiveness of cross-fertilization as against selffertilization, and not to assumptions of such a high degree of likelihood as
 we would hold in respect of the continued presence in a bag of the black and
 white balls which we placed in it.
 Of course, a series of actual results of sufficiently low probability might
@@ -1757,8 +1748,7 @@ and suggest that they are concerned only with propositions. This
 interpretation of probability has indeed widely prevailed in the modern
 theory of probability since J. M. Keynes first proposed it in his Treatise on
 Probability, published in 1921.
-Taking for our example Darwin’s investigation of the effect of cross-
-fertilization as against self-fertilization on the height of plants, we would
+Taking for our example Darwin’s investigation of the effect of crossfertilization as against self-fertilization on the height of plants, we would
 consider in this light that its result is a proposition H, ‘cross fertilization
 enhances growth’, rendered probable on the evidence that can be summed up
 in the proposition E, ‘the mean of the 15 observed differences is 2.148 times
@@ -1771,8 +1761,7 @@ propositions. Some authors describe a result of this kind as conveying a
 certain degree of belief in H based on the evidence E, and symbolize it
 accordingly by PB(H/E).5
 But this analysis does not correspond to actual practice or indeed to any
-acceptable practice. Darwin’s intention was to establish the effect of cross-
-fertilization on plant growth and not the relation of a proposition asserting
+acceptable practice. Darwin’s intention was to establish the effect of crossfertilization on plant growth and not the relation of a proposition asserting
 such an effect to a proposition about observed heights of plants. When Rhine
 undertook to investigate the chances of card guessing he wanted to find out
 whether extra-sensory perception exists, and not whether there obtains a
@@ -1902,8 +1891,8 @@ responsibility. Therefore, in a strict usage the same symbol should never
 represent the act of sincerely asserting something and the content of what is
 asserted.
 For the symbolic distinction between the two, Frege (1893) has introduced
-the ‘signpost’ symbol 
- This is prefixed to a statement p if 
+the ‘signpost’ symbol
+ This is prefixed to a statement p if
  p is to signify
 the actual assertion of p, while the bare symbol p must henceforth be used
 only as part of a sentence, whether asserted or unasserted. Written down by
@@ -1933,11 +1922,11 @@ not been explained how this sign is to function between different persons
 and between successive periods in the same person’s life. If the sign is to
 signify the passionate act of sincerely pronouncing the asserted sentence—
 while there are many people in the world and innumerable moments in any
-single person’s life—the symbol 
+single person’s life—the symbol
  p must be supplemented, so that it may
 tell us whose allegation it represents and at what time the person in question
 had alleged p. In the case of an assertion made on paper, we may take all this
-to be expressed by the act that the symbol 
+to be expressed by the act that the symbol
  p is written down by a
 particular person at a particular moment. This is how Whitehead and Russell
 define the use of the sign in their introduction to Principia Mathematica.
@@ -2073,7 +2062,7 @@ to represent the scientific process, may be granted some value of this kind.
 I have argued that my confident utterance of a hypothesis H cannot be
 expressed by the impersonal symbol P(H/E). Accordingly, my commitment
 to an empirical inference H based on the evidence E would always have to
-be asserted in the form 
+be asserted in the form
  H/E, where the assertion sign would embody the
 degree of confidence I place in H on the grounds of E.
 But we must not disregard the fact that an inference H may be reached
@@ -2097,13 +2086,13 @@ numerical upper limit for σ, and we assert concurrently that the probability
 of this inference being right is 0.95. It is legitimate to denote this probability
 then by P(H/E), which would function as an incomplete symbol and have to
 be prefixed by the assertion sign in order to convey a confident utterance of
-our own. We would write 
+our own. We would write
  P(H/E).
-This notation, 
+This notation,
  P(H/E), could be generalized further by applying it to all
 processes of inference based on admittedly incomplete or even erroneous
-evidence. We could then use 
- H/E and 
+evidence. We could then use
+ H/E and
  P(H/E) for uttering two different
 statements. The first alleges an inference H, based on E; while the second
 credits someone with having carried out a process of inference believed by
@@ -2117,12 +2106,12 @@ antecedents is rather complex, for it acknowledges a greater variety of
 elements and also a certain number of combinations between them. Whether
 a statement is unambiguous (pu) or statistical (ps), it can be uttered with
 different grades of confidence. These modalities are expressed by prefixing
-the assertion sign, so as to write: 
- pu or 
+the assertion sign, so as to write:
+ pu or
  ps. This sign brings in the
 second kind of probability, which may be further specifiable numerically, as
 in the case of judging a population from a sample. This situation can be
-represented by the symbol P(H/E), which must then be completed to read 
+represented by the symbol P(H/E), which must then be completed to read
 P(H/E). Alternatively, we may designate in the same terms a belief H—
 whether unambiguous or statistical—that is, or was, held on some specific
 evidence E by another person, or by ourselves at another time. Such a belief
@@ -2134,8 +2123,6 @@ all the way from what are approved as rational beliefs to beliefs as
 compulsive conditions observed psychologically.13
 OceanofPDF.com
 
-
-3
 ORDER
 1. CHANCE AND ORDER
 IN the last chapter I discussed how science teaches us to decide that a
@@ -2405,13 +2392,13 @@ show on top with nearly the same frequency.
 biassed in favour of showing a six on top. This shall be contrived by
 weighting the upper half of the dice so that when they are turned round to
 show the six on top their potential energy shall decrease by ΔE. Prolonged
-Brownian motion acting at low temperatures, where ΔE 
+Brownian motion acting at low temperatures, where ΔE
  kT, (k =
 Boltzman’s constant, T = absolute temperature) will cause a rearrangement
 in the sense that most dice will show a six on top. This is a stable pattern
 due to an intrinsic (dynamic) ordering principle.
 3. Having produced the dynamically stable pattern we increase the
-temperature so that kT 
+temperature so that kT
  ΔE. Prolonged Brownian motion will destroy this
 pattern once more and produce instead the same kind of random aggregate
 as in experiment (1), with all faces showing on top with nearly the same
@@ -2557,7 +2544,7 @@ The difficulty of establishing an integer character of a magnitude from
 any measurements of it may be illustrated by an example in which this
 process is still sharply controversial. Eddington had deduced that the
 reciprocal of the ‘fine structure constant’ which in the usual symbols has the
-formula 
+formula
  is equal to the integer 137. When Eddington’s assertion was
 originally made, the value computed from observation was 137.307, with a
 probable error ± 0.048, which seemed to contradict his assertion. However,
@@ -2671,8 +2658,7 @@ the fact that its parallel displacement brings it to coincide with itself—
 except for the edges, which we may disregard if the sheet is very large
 compared with the spacing of the pattern. Such regular rhythms can be
 readily conceived in one, two, three or more dimensions. The structural
-theory of crystals assumes that they are built as regularly repetitive three-
-dimensional arrays of atoms.
+theory of crystals assumes that they are built as regularly repetitive threedimensional arrays of atoms.
 Such arrays, when taken to extend in all directions to infinity, can be
 readily seen to possess symmetries of the kind observed in crystals, and it
 can be proved that they can possess only those six elementary symmetries
@@ -2721,8 +2707,7 @@ indefinitely extended patterns of points in space. These geometrical
 constructions were originally initiated by a contemplation of crystals and
 speculations about their atomic structure; hence they will tend to refer to
 these matters of experience, and it is in the following up of this reference by
-observation that any empirical grounds for our acceptance of crystal-
-lographic theory must be found.
+observation that any empirical grounds for our acceptance of crystallographic theory must be found.
 For the sake of brevity I shall limit my discussion mainly to the theory of
 space groups. Supposing that the deduction of the 230 groups is, on its own
 premises, correct; then experience can only teach us whether or not there
@@ -2802,8 +2787,6 @@ appraisals of universal bearing within the exact natural sciences, we may
 yet avoid the sterility and confusion imposed by these traditional categories.
 OceanofPDF.com
 
-
-4
 SKILLS
 1. THE PRACTICE OF SKILLS
 THE exact sciences are a set of formulae which have a bearing on
@@ -3095,9 +3078,7 @@ have to stop.8 This happens generally if we switch our focal attention to
 particulars of which we had previously been aware only in their subsidiary
 role.
 The kind of clumsiness which is due to the fact that focal attention is
-directed to the subsidiary elements of an action is commonly known as self-
-consciousness. A serious and sometimes incurable form of it is ‘stage-
-fright’, which seems to consist in the anxious riveting of one’s attention to
+directed to the subsidiary elements of an action is commonly known as selfconsciousness. A serious and sometimes incurable form of it is ‘stagefright’, which seems to consist in the anxious riveting of one’s attention to
 the next word—or note or gesture—that one has to find or remember. This
 destroys one’s sense of the context which alone can smoothly evoke the
 
@@ -3248,8 +3229,7 @@ anchored in ourselves. Hammers and probes can be replaced by intellectual
 tools; think of any interpretative framework and particularly of the
 formalism of the exact sciences. I am not speaking of the specific assertions
 which fill the textbooks, but of the suppositions which underlie the method
-by which these assertions are arrived at. We assimilate most of these pre-
-suppositions by learning to speak of things in a certain language, in which
+by which these assertions are arrived at. We assimilate most of these presuppositions by learning to speak of things in a certain language, in which
 there are names for various kinds of objects, names by which objects can be
 classified, making such distinctions as between past and present, living and
 
@@ -3355,8 +3335,7 @@ unconscious of the actions by which we achieve this result. This lapse into
 unconsciousness is accompanied by a newly acquired consciousness of the
 experiences in question, on the operational plane. It is misleading,
 therefore, to describe this as the mere result of repetition; it is a structural
-change achieved by a repeated mental effort aiming at the instrumentaliza-
-tion of certain things and actions in the service of some purpose.
+change achieved by a repeated mental effort aiming at the instrumentalization of certain things and actions in the service of some purpose.
 9. UNSPECIFIABILITY
 We can now answer the problem of unspecifiability with which I started on
 this examination of skills. If a set of particulars which have subsided into
@@ -3516,8 +3495,6 @@ PART TWO
 THE TACIT COMPONENT
 OceanofPDF.com
 
-
-5
 ARTICULATION
 1. INTRODUCTION
 GUA the chimpanzee was born in captivity on November 15th, 1930, in
@@ -3543,8 +3520,7 @@ superiority of man over the animals is due, paradoxically, to an almost
 imperceptible advantage in his original, inarticulate faculties.2 The situation
 can be summed up in three points. (1) Man’s intellectual superiority is
 almost entirely due to the use of language. But (2) man’s gift of speech
-cannot itself be due to the use of language and must therefore be due to pre-
-linguistic advantages. Yet (3) if linguistic clues are excluded, men are found
+cannot itself be due to the use of language and must therefore be due to prelinguistic advantages. Yet (3) if linguistic clues are excluded, men are found
 to be only slightly better at solving the kind of problems we set to animals.
 From which it follows that the inarticulate faculties—the potentialities—by
 
@@ -3602,8 +3578,7 @@ performances, and the higher forms of behaviour not specifically included
 in the animal’s native repertoire. Such behaviour will be called learning in
 which term I shall include also acts of problem solving. Learning will be
 regarded as a sign of intelligence, in contrast to the functioning of internal
-organs or to instinctive performances which will be classed as sub-
-intelligent.4
+organs or to instinctive performances which will be classed as subintelligent.4
 The various modes of learning fall readily into three classes, two of
 which are more primitive and are rooted respectively in the motility and the
 sentience of the animal, while the third handles both these functions of
@@ -4079,7 +4054,7 @@ longitude and latitude of one town, and each dot having the name of the
 corresponding town printed below it. From such a map we can read off at a
 glance the itineraries by which we can get about from any town to any
 other, so that our original input of 400 positional data (200 longitudes and
-200 latitudes) thus yields 
+200 latitudes) thus yields
  itineraries. Actually, the information
 derived from mapping will be much ampler even than this. Each itinerary
 will comprise on the average some fifty places, amounting to about a
@@ -4098,8 +4073,7 @@ Supreme Commander a representation of the changing situation which he
 could grasp far better than the reports themselves. We know how the mere
 plotting of a series of numerical data on paper in the form of a graph, may
 reveal functional relationships quite unsuspected from our knowledge of the
-original figures. An example of this is the graphic representation of time-
-tables used for the direction of railroad traffic, which shows immediately
+original figures. An example of this is the graphic representation of timetables used for the direction of railroad traffic, which shows immediately
 the places and times at which trains overtake or meet each other, a piece of
 information which is not easily deduced from ordinary time-tables.
 In all these instances of the enhancement of our intellectual powers by
@@ -4148,14 +4122,14 @@ effective assistance to our native mnemonic powers. Man is not much
 superior to a rat in finding his way in a maze; and it is not clear that he
 possesses in other ways either much greater native intelligence than the
 animal for reorganizing remembered experiences. But the bare unaided
-memory 
-of 
-animals 
-can 
-only 
-collect 
-scraps 
-of 
+memory
+of
+animals
+can
+only
+collect
+scraps
+of
 information,
 unsystematically; nor could man do much better, but for the power of
 systematization dependent on speech. And even so, not until the invention
@@ -4331,8 +4305,7 @@ in itself but is known in terms of something focally known, to the quality of
 which it contributes; and to this extent it is unspecifiable. Analysis may
 bring subsidiary knowledge into focus and formulate it as a maxim or as a
 feature in a physiognomy, but such specification is in general not
-exhaustive. Although the expert diagnostician, taxonomist and cotton-
-classer can indicate their clues and formulate their maxims, they know
+exhaustive. Although the expert diagnostician, taxonomist and cottonclasser can indicate their clues and formulate their maxims, they know
 many more things than they can tell, knowing them only in practice, as
 instrumental particulars, and not explicitly, as objects. The knowledge of
 such particulars is therefore ineffable, and the pondering of a judgment in
@@ -4394,8 +4367,7 @@ act of personal insight, the result of which must remain inarticulate.31
 We have now two inadequacies of articulation before us; different and yet
 closely related. When I am riding a bicycle or picking out my macintosh, I
 do not know the particulars of my knowledge and therefore cannot tell what
-they are; when on the other hand I know the topography of a complex three-
-dimensional aggregate, I know and could describe its particulars, but cannot
+they are; when on the other hand I know the topography of a complex threedimensional aggregate, I know and could describe its particulars, but cannot
 describe their spatial interrelations. The limitations of articulation are
 correspondingly different in the two cases. When arts of knowing are
 explained by maxims, these never disclose fully the subsidiarily known
@@ -5094,8 +5066,7 @@ heuristic act, which transforms our ways of thinking, seeing and
 
 
 appreciating in the hope of attuning our understanding, perception or
-sensuality more closely to what is true and right. Though each of these non-
-linguistic adaptations will affect our language, I shall continue to deal here
+sensuality more closely to what is true and right. Though each of these nonlinguistic adaptations will affect our language, I shall continue to deal here
 only with the interaction between modifications of the conceptual and
 linguistic frameworks, to which I referred at the opening of this section.
 (1) The first of the three levels on which I have proposed to illustrate the
@@ -5215,8 +5186,7 @@ conceptual development in logic is equally notorious. I believe that the
 solution of philosophic puzzles, like that raised by the question whether we
 can predict our own actions, may also lead to important conceptual
 discoveries.58 In fact, my present book rests on precisely these grounds; I
-am attempting to resolve by conceptual reform the apparent self-
-contradiction entailed in believing what I might conceivably doubt.
+am attempting to resolve by conceptual reform the apparent selfcontradiction entailed in believing what I might conceivably doubt.
 I have suggested before (p. 95) that when text and meaning fall apart we
 must choose whether to
 (1) (a) Correct the meaning of the text.
@@ -5570,8 +5540,7 @@ We find our way about the country by reorganizing this conception so as to
 reveal the particular itineraries in which we are interested. Such a
 conceptual decision, not induced by new experience, but by a new kind of
 interest in what we know already, is a speculative act of a kind prefigured
-primordially in rats running mazes. It is a recognition of alternative part-
-whole relations of the kind achieved by learning of type C.
+primordially in rats running mazes. It is a recognition of alternative partwhole relations of the kind achieved by learning of type C.
 Though the conceptual reorganization in question is based on
 articulation, it is itself informal. Yet it may require a mental effort and might
 be said to solve a problem. If so, it is a process of deductive inference, as it
@@ -6150,8 +6119,6 @@ on tacit affirmations, both at the beginning and at the end of each chain of
 formal reasoning.
 OceanofPDF.com
 
-
-6
 INTELLECTUAL PASSIONS
 1. SIGN-POSTING
 THE previous chapter was a digression. Having acknowledged in Part One
@@ -6589,8 +6556,7 @@ be assessed according to its probable utility for strengthening public power
 and improving the standard of living. Scientific value will be discredited and
 its appreciation suppressed.
 This is how a philosophic movement guided by aspirations of scientific
-severity has come to threaten the position of science itself. This self-
-contradiction stems from a misguided intellectual passion—a passion for
+severity has come to threaten the position of science itself. This selfcontradiction stems from a misguided intellectual passion—a passion for
 achieving absolutely impersonal knowledge which, being unable to
 recognize any persons, presents us with a picture of the universe in which we
 ourselves are absent. In such a universe there is no one capable of creating
@@ -6601,8 +6567,7 @@ account for man’s faculty in forming these conceptions and to authorize the
 cultivation of this faculty within society. Only by accrediting the exercise of
 our intellectual passions in the act of observing man, can we form
 conceptions of man and society which both endorse this accrediting and
-uphold the freedom of culture in society. Such self-accrediting, or self-
-confirmatory, progression will prove an effective guide to all knowledge of
+uphold the freedom of culture in society. Such self-accrediting, or selfconfirmatory, progression will prove an effective guide to all knowledge of
 living beings.
 3. HEURISTIC PASSION
 
@@ -6750,13 +6715,13 @@ articles of faith’ but merely ‘foundations for calculation’, so that it do
 matter whether they are true or false, provided that they reproduce exactly
 the phenomena of motions. These quotations are taken from a letter written
 by Osiander in 1541, entreating Copernicus to avoid a conflict with the
-current 
-Aristotelian 
-and 
-theological 
-orthodoxy, 
-by 
-accepting 
+current
+Aristotelian
+and
+theological
+orthodoxy,
+by
+accepting
 a
 conventionalist interpretation of his own theory.17
 This interpretation was violently rejected by the Copernicans of the next
@@ -6857,12 +6822,12 @@ de Broglie’s formulae implied that electronic beams would give diffraction
 patterns similar to those of X-rays, a consequence which was first envisaged
 by W. Elsasser in 1925.22
 Again, the mathematical framework by which Dirac succeeded (1928) in
-reconciling 
-quantum 
-mechanics 
-with 
-relativity, 
-showed 
+reconciling
+quantum
+mechanics
+with
+relativity,
+showed
 some
 incomprehensible features which were to turn out eventually to be a
 description of the positive electron, when this particle was discovered,
@@ -6965,8 +6930,7 @@ to conclusions which they—rightly or wrongly—abhor. Proponents of a new
 system can convince their audience only by first winning their intellectual
 sympathy for a doctrine they have not yet grasped. Those who listen
 sympathetically will discover for themselves what they would otherwise
-never have understood. Such an acceptance is a heuristic process, a self-
-modifying act, and to this extent a conversion. It produces disciples forming
+never have understood. Such an acceptance is a heuristic process, a selfmodifying act, and to this extent a conversion. It produces disciples forming
 
 
 a school, the members of which are separated for the time being by a logical
@@ -7003,8 +6967,7 @@ time as two virtually complete systems separated by a logical gap. The facts
 known at any time during the 148 years from the publication of Copernicus’
 De Revolutionibus to the appearance of Newton’s Principia could be
 accounted for by either theory. By 1619 the discovery of Kepler’s third law
-may have tipped the balance in favour of Copernicanism,23 but the non-
-appearance of any seasonal variation in the angle at which the fixed stars are
+may have tipped the balance in favour of Copernicanism,23 but the nonappearance of any seasonal variation in the angle at which the fixed stars are
 seen continued to present a serious difficulty to this system. The mistaken
 
 
@@ -7563,8 +7526,7 @@ competition to determine whether the new theory was simpler, in the sense
 that it would make it easier to memorize these facts or to teach them in
 schools; or that the theory could be written down in a smaller space or in a
 more familiar vocabulary? The idea is farcical. What they had to decide first
-and last was whether this work was a substantial discovery or a mere jeu-
-d’esprit. This would decide also whether it was the scientifically simplest
+and last was whether this work was a substantial discovery or a mere jeud’esprit. This would decide also whether it was the scientifically simplest
 description of the facts. For as a mere conceit it was a fancifully far-fetched
 way of looking at things; while as a true statement, it was an amazingly
 simple short-cut to vast new perspectives.
@@ -7584,8 +7546,7 @@ question of simplicity of description, in the ordinary sense of the word
 contrary, in whatever way the issue is finally decided, this will determine
 what will be the simpler explanation in the scientific sense.
 This ambiguity of the term ‘simple’ within Mach’s formula follows from
-the fact which I stated before,46 namely that it functions here as a pseudo-
-substitute for ‘true’. In consequence, the answer to the question what is
+the fact which I stated before,46 namely that it functions here as a pseudosubstitute for ‘true’. In consequence, the answer to the question what is
 simple in a given case must always be exactly as doubtful as the answer to
 the question what is true in the same case. The same ambiguity will adhere
 to other pseudo-substitutes for truth, like the pragmatist criterion that a
@@ -7603,8 +7564,7 @@ which valid general propositions can be derived from available empirical
 observations. One such scheme, based on the process of collecting evidence
 which will increase the probability of an empirical proposition to the point of
 practical certainty, I have fully discussed and criticized in ch. 2. The
-additional material collected in the present chapter should enable me to re-
-formulate that criticism, and apply it also to all attempts made to formulate
+additional material collected in the present chapter should enable me to reformulate that criticism, and apply it also to all attempts made to formulate
 the process of induction on the lines of J. S. Mill’s principles of Agreement
 and Difference.
 Specific rules of empirical inference claim (a) to proceed by a prescribed
@@ -7628,8 +7588,7 @@ depend decisively on the correctness and penetration of these conceptions.
 We have seen that there is a type of empirical discovery that is achieved
 without any process of induction. De Broglie’s wave theory, the Copernican
 system and the theory of Relativity, were all found by pure speculation
-guided by criteria of internal rationality. The triumph of the Michelson-
-Morley experiment, despite its giving the wrong result, the tragic sacrifice of
+guided by criteria of internal rationality. The triumph of the MichelsonMorley experiment, despite its giving the wrong result, the tragic sacrifice of
 D. C. Miller’s professional life to the pursuit of purely empirical tests of a
 great theoretical vision, are sardonic comments on the supposed supremacy
 of experiment over theory. Admittedly, other controversies, like those of
@@ -8336,8 +8295,7 @@ conceptions of which they speak: one stating the result of the reorganization,
 the other prescribing the procedure for achieving it.
 Accordingly, mathematics can be equally well affiliated either to natural
 science or technology. Physics and mathematics coincide when mechanics is
-transposed into a four-dimensional non-Euclidean geometry, and when three-
-dimensional geometry is regarded as comprising the metric relations of rigid
+transposed into a four-dimensional non-Euclidean geometry, and when threedimensional geometry is regarded as comprising the metric relations of rigid
 solids. The conception of integers is part of physics in so far as it affirms the
 existence of permanently discrete objects; while on the other hand,
 mathematical operations can form part of automatic technical processes and
@@ -8427,13 +8385,13 @@ on a subject matter which is not without intrinsic interest; and that a
 statement is of value in technology (1) if it reveals an effective and
 
 
-ingenious 
-operational 
-principle 
-which 
-(2) 
-achieves, 
-in 
+ingenious
+operational
+principle
+which
+(2)
+achieves,
+in
 existing
 circumstances, a substantial material advantage. Mathematics is a much freer
 creation than either natural science or technology. While its early primitive
@@ -8655,7 +8613,7 @@ incomprehensible. After the death of Apollonius in 205 B.C. there occurred a
 break in the oral tradition which alone made the mathematical texts of the
 Greeks intelligible to students.81 This was probably due in part to a growing
 distrust of mathematics, owing to its conflict with the conception of number
-at the point where it led to magnitudes like 
+at the point where it led to magnitudes like
  which could not be expressed
 in terms of integers. In our own time Godel’s theorem of uncertainty might
 conceivably erode confidence, likewise, in our own mathematics. And other
@@ -8807,8 +8765,7 @@ rigorous and comprehensive one in its place. Scientific discovery, which
 leads from one such framework to its successor, bursts the bounds of
 disciplined thought in an intense if transient moment of heuristic vision. And
 while it is thus breaking out, the mind is for the moment directly
-experiencing its content rather than controlling it by the use of any pre-
-established modes of interpretation: it is overwhelmed by its own passionate
+experiencing its content rather than controlling it by the use of any preestablished modes of interpretation: it is overwhelmed by its own passionate
 activity.
 The scientist’s urge to ponder new problems and break new paths in
 seeking to solve them, presents us with the essential restlessness of the
@@ -9024,8 +8981,7 @@ succession of past upheavals, but it is ultimately for us to say what these
 upheavals signify: whether a triumph or a disaster. It might be thought that
 artistic innovations are not so comprehensive, so that the new achievements
 of our time may be added on to the unchanged appreciation of our previous
-possession. But this is not so. New movements of art include a re-
-appreciation of their ancestry and a corresponding shift in the valuation of all
+possession. But this is not so. New movements of art include a reappreciation of their ancestry and a corresponding shift in the valuation of all
 other artistic achievements of the past. And this necessity re-evokes the
 paradox which had already presented itself when I contrasted our belief in
 the eternal value of scientific beauty with our fears for its continued
@@ -9087,8 +9043,6 @@ said to be authentic, and authenticity does not involve a commitment in the
 sense in which both verification and validation do.
 OceanofPDF.com
 
-
-7
 CONVIVIALITY
 1. INTRODUCTION
 ARTICULATE systems which foster and satisfy an intellectual passion can
@@ -9188,12 +9142,12 @@ their playmates. They react in an ‘autistic’ manner, which may appear
 selfless or egocentric, depending on whether one regards them as losing
 themselves or as appropriating the person of the others. The conviviality of
 gregarious animals, of which I shall speak later, seems akin to this.
-Diffuse 
-emotional 
-conviviality 
-merges 
-imperceptibly 
-into 
+Diffuse
+emotional
+conviviality
+merges
+imperceptibly
+into
 the
 transmission of specific experiences in the kind of physical sympathy which
 overcomes the onlooker at the sight of another’s sharp suffering. One has
@@ -9444,8 +9398,7 @@ convivial in the joint performance of a ritual. By fully participating in a
 ritual, the members of a group affirm the community of their existence, and
 at the same time identify the life of their group with that of antecedent
 groups, from whom the ritual has descended to them Every ritual act of a
-group is to this extent a reconciliation within the group and a re-
-establishment of continuity with its own history as a group. It affirms the
+group is to this extent a reconciliation within the group and a reestablishment of continuity with its own history as a group. It affirms the
 convivial existence of the group as transcending the individual, both in the
 present and through times past. The occasions for these emotional
 reaffirmations are anniversary dates or the recurrent changes by which the
@@ -9728,8 +9681,7 @@ each of these groups of neighbours agrees in respect to their standards, then
 the standards on which A, B and C agree will be the same on which B, C
 and D agree, and on which also C, D and E agree, and so on, throughout the
 whole realm of science. This mutual adjustment of standards occurs of
-course along a whole network of lines which offers a multitude of cross-
-checks for the adjustments made along each separate line; and the system is
+course along a whole network of lines which offers a multitude of crosschecks for the adjustments made along each separate line; and the system is
 amply supplemented also by somewhat less certain judgments made by
 scientists directly on professionally more distant achievements of
 exceptional merit. Yet its operation continues to be based essentially on the
@@ -10134,8 +10086,7 @@ may indeed be argued (and I shall return to this point later) that since any
 single reform of detail must rely on the existing social structure as on its
 matrix, this structure and any iniquities inherent in it can never be
 fundamentally improved by any series of piecemeal reforms. We may still
-doubt, therefore, whether the rulers of any society, however freely self-
-governed, will ever observe the claims of morality beyond what is needed
+doubt, therefore, whether the rulers of any society, however freely selfgoverned, will ever observe the claims of morality beyond what is needed
 in order to delude their subjects (and their allies abroad) to trust their
 professions of morality.
 This doubt goes back to antiquity; in modern times it was first revived by
@@ -10149,8 +10100,7 @@ opponents in these terms. He thinks that Germany was accused of
 immorality only because she frankly declared that Might was Right, while
 the Anglo-Saxon powers, who acted no less unscrupulously, continued to
 pay lip-service to morality. They gained an unfair moral advantage for
-themselves by pointing at Germany’s honest professions of the power-
-political principles which they themselves covertly followed. Meinecke
+themselves by pointing at Germany’s honest professions of the powerpolitical principles which they themselves covertly followed. Meinecke
 traces the origin of this situation to the realization by German thought of the
 inevitable sinfulness of power and the bold attempt of German philosophy
 to overcome this antinomy by conceiving of morality as immanent in the
@@ -10172,8 +10122,7 @@ in the revolutions of the twentieth century.
 11. THE MAGIC OF MARXISM
 The propagandistic appeal of Marxism is the most interesting case of (what
 might be called) the moral force of immorality. For it is the most precisely
-formulated system having such a paradoxical appeal, and this self-
-contradiction actually seems to supply the main impulse of the Marxian
+formulated system having such a paradoxical appeal, and this selfcontradiction actually seems to supply the main impulse of the Marxian
 movement. Isaiah Berlin, in his biography of Marx, shows him in the act of
 exercising his propagandistic genius by means of this self-contradictory
 principle—a prophetic idealism spurning all reference to ideals:
@@ -10277,8 +10226,7 @@ terms, which are thus immune against suspicion of a moralizing purpose.
 
 
 These supposedly scientific assertions are, of course, accepted only
-because they satisfy certain moral passions. We have here a self-
-confirmatory reverberation between the theory of bourgeois ideologies and
+because they satisfy certain moral passions. We have here a selfconfirmatory reverberation between the theory of bourgeois ideologies and
 the concealed motives which underlie it. This is the characteristic structure
 of what I shall call a dynamo-objective coupling. Alleged scientific
 assertions, which are accepted as such because they satisfy moral passions,
@@ -10354,8 +10302,7 @@ be accommodating.
 
 
 The moral appeal of immorality has been effective also in other mass
-movements of our time. Meinecke had detected an early form of it in Pan-
-Germanism, and Hitler’s rise has confirmed that diagnosis in a diabolically
+movements of our time. Meinecke had detected an early form of it in PanGermanism, and Hitler’s rise has confirmed that diagnosis in a diabolically
 complete way. Hitler greatly profited from the Bolshevik example, but his
 movement was rooted primarily in German Romantic nihilism. This
 doctrine taught that an outstanding individual is a law unto himself and
@@ -10553,8 +10500,7 @@ precarious. His own growing consciousness of living in a spiritual desert
 tends to re-echo the Marxian analysis of his own art and science as mere
 super-structures of a contemptible Capitalism. Moreover, any resistance to
 this attack would tend to prove its justice by forcing him into partnership
-with the bourgeoisie, and it would also threaten to deprive him of that anti-
-bourgeois status on which his self-respect is founded. This dilemma suffices
+with the bourgeoisie, and it would also threaten to deprive him of that antibourgeois status on which his self-respect is founded. This dilemma suffices
 by itself to account for the surrender of men like Sartre, Picasso and Bernal,
 to a philosophy which denied the very existence of their intellectual
 pursuits; the more so, since—under the protection of their own bourgeois
@@ -10690,8 +10636,7 @@ art, culture, law and morality, and reduce the intellectual and moral passions
 upholding these standards, which I have agreed to share, to the status of an
 illusory subjectivity. The instability of these standards in the light of critical
 reflection is to them no source of anxiety but of triumphant satisfaction. The
-consummation of this instability, which looms to me as the final self-
-destruction of the human mind, would be to them but the final unmasking
+consummation of this instability, which looms to me as the final selfdestruction of the human mind, would be to them but the final unmasking
 of my idealistic deceptions. Within a society based on Dialectical
 Materialism, the forces of coercion, anchored to the centre of a supreme
 power, become in fact the agents of valid appreciation. If, then, standards
@@ -10714,8 +10659,7 @@ science, this system of shared beliefs relies on a chain of overlapping areas,
 within each of which a few authoritative persons can keep watch over each
 other’s integrity and their sense of what is important. A society affiliated to
 such a network of mutual confidence may be said to maintain a certain
-standard of ‘factuality’—provided that one accepts its methods of fact-
-finding.40
+standard of ‘factuality’—provided that one accepts its methods of factfinding.40
 We know, of course, that even people whose conceptions of the nature of
 things otherwise coincide, may be fundamentally divided in respect to the
 reality of certain facts. Antagonists on either side of a great scientific
@@ -10932,8 +10876,6 @@ THE JUSTIFICATION OF PERSONAL
 KNOWLEDGE
 OceanofPDF.com
 
-
-8
 THE LOGIC OF AFFIRMATION
 1. INTRODUCTION
 BY now I have surveyed a series of facts which seriously suggest a
@@ -10958,8 +10900,7 @@ word if either the conception which it conveys is false, or the word does not
 properly cover the subject matter in question.
 One can use a tool tentatively, or merely show that it is useless. Similarly,
 we can use a descriptive word sceptically by putting it in quotation marks.
-Suppose a paper is published under the title: An Explanation of ‘Extra-
-sensory Perception’, and another in reply to it, entitled: An ‘Explanation’ of
+Suppose a paper is published under the title: An Explanation of ‘Extrasensory Perception’, and another in reply to it, entitled: An ‘Explanation’ of
 Extra-sensory Perception. Guided by the quotation marks we recognize
 immediately that the first paper regards extra-sensory perception as spurious,
 
@@ -11100,14 +11041,14 @@ a defect which precludes the achievement of objective validity, it must reject
 itself by these standards. Nor is the consistency of an objectivist philosophy
 restored by confessing that words have an open texture. For such words, as
 we have seen (p. 113), have no meaning except through our accrediting of
-the 
-speaker’s 
-sense 
-of 
-fitness. 
-Therefore, 
-without 
-the 
+the
+speaker’s
+sense
+of
+fitness.
+Therefore,
+without
+the
 explicit
 acknowledgment and endorsement of the philosopher’s personal judgment as
 an integral part of his philosophy, a philosophy expressed in terms of ‘open
@@ -11206,8 +11147,7 @@ is false. But if ‘p is false’ merely declares that the speaker denies accept
 to p then ‘p is false’ is not a sentence and the paradox does not arise, for
 there is then no sentence to be found on top of page 10 of the book in
 question.
-The fact that we can eliminate an infinite regress and a notorious self-
-contradiction, by reinterpreting the expressions ‘p is true’ and ‘p is false’ as
+The fact that we can eliminate an infinite regress and a notorious selfcontradiction, by reinterpreting the expressions ‘p is true’ and ‘p is false’ as
 expressing an act of assertion or doubt, substantially strengthens this
 interpretation. By generalizing our distinction between the confident use of
 language for primary purposes, and the class of expressions which merely
@@ -11327,8 +11267,7 @@ of writing down new asserted formulae (proofs). This result is achieved by a
 sustained effort to eliminate what are called ‘psychological’ elements—the
 factors which I call ‘tacit’. The undefined terms are intended to stand
 without signifying anything, complete in themselves as marks on paper;
-unproven asserted formulae are to replace statements believed to be self-
-evident; operations constituting ‘formal proof’ are similarly intended to
+unproven asserted formulae are to replace statements believed to be selfevident; operations constituting ‘formal proof’ are similarly intended to
 replace ‘merely psychological’ proof.
 However, this attempt to eliminate the personal participation of the
 logician must leave at each of these points an irreducible residue of mental
@@ -11614,8 +11553,7 @@ required no verification by man. When accepting its doctrine man was not
 speaking to himself, and in his prayers he could address the very source of
 the doctrine.
 Later, when the supernatural authority of laws, churches and sacred texts
-had waned or collapsed, man tried to avoid the emptiness of mere self-
-assertion by establishing over himself the authority of experience and
+had waned or collapsed, man tried to avoid the emptiness of mere selfassertion by establishing over himself the authority of experience and
 reason. But it has now turned out that modern scientism fetters thought as
 cruelly as ever the churches had done. It offers no scope for our most vital
 beliefs and it forces us to disguise them in farcically inadequate terms.
@@ -11709,8 +11647,7 @@ of philosophic reflection consists in bringing to light, and affirming as my
 own, the beliefs implied in such of my thoughts and practices as I believe to
 be valid; that I must aim at discovering what I truly believe in and at
 formulating the convictions which I find myself holding; that I must conquer
-my self-doubt, so as to retain a firm hold on this programme of self-
-identification.
+my self-doubt, so as to retain a firm hold on this programme of selfidentification.
 An example of a logically consistent exposition of fundamental beliefs is
 St. Augustine’s Confessions. Its first ten books contain an account of the
 period before his conversion and of his struggle for the faith he was yet
@@ -11758,8 +11695,6 @@ and externally, while a creed inverted into a science is both blind and
 deceptive.
 OceanofPDF.com
 
-
-9
 THE CRITIQUE OF DOUBT
 1. THE DOCTRINE OF DOUBT
 MY resolve to make philosophy the declaration of my ultimate beliefs will
@@ -12091,8 +12026,7 @@ manifested in his power of casting these vaguely held beliefs into a concrete
 and binding form. One of the greatest and most surprising discoveries of
 our own age, that of the diffraction of X-rays by crystals (in 1912) was
 made by a mathematician, Max von Laue, by the sheer power of believing
-more concretely than anyone else in the accepted theory of crystals and X-
-rays. These advances were no less bold and hazardous than were the
+more concretely than anyone else in the accepted theory of crystals and Xrays. These advances were no less bold and hazardous than were the
 innovations of Copernicus, Planck or Einstein.
 
 
@@ -12607,8 +12541,7 @@ interpretation of any particular new topic in terms of such a conceptual
 framework is based on past applications of the same framework to a great
 number of other topics not now under consideration, while if any of these
 other topics were questioned now, their interpretation in its turn would
-similarly rely for support on the interpretation of all the others. Evans-
-Pritchard observes this for Zande beliefs in mystical notions. ‘The
+similarly rely for support on the interpretation of all the others. EvansPritchard observes this for Zande beliefs in mystical notions. ‘The
 contradiction between experience and one mystical notion is explained by
 reference to other mystical notions.’22
 So long as each doubt is defeated in its turn, its effect is to strengthen the
@@ -12708,12 +12641,12 @@ instances, and such evidence cannot accumulate in the minds of people if
 each of them is disregarded in its turn for lack of the concept which would
 lend significance to it. The behaviour of Azande whom Evans-Pritchard
 tried to convince that benge was a natural poison which owed none of its
-effectiveness 
-to 
-the 
-incantations 
-customarily 
-accompanying 
+effectiveness
+to
+the
+incantations
+customarily
+accompanying
 its
 administration, illustrates the kind of contemptuous indifference with which
 we normally regard things of which we have no conception. ‘We feel
@@ -13009,8 +12942,6 @@ scepticism which can only be strengthened, not shaken, by further doses of
 universal doubt.
 OceanofPDF.com
 
-
-10
 COMMITMENT
 1. FUNDAMENTAL BELIEFS
 ‘I believe that in spite of the hazards involved, I am called upon to search for
@@ -13026,8 +12957,7 @@ For it stakes out the grounds of my discourse by relying essentially on the
 very grounds thus staked out; my confident admission of circularity being
 justified only by my conviction, that in so far as I express my utmost
 understanding of my intellectual responsibilities as my own personal belief, I
-may rest assured of having fulfilled the ultimate requirements of self-
-criticism; that indeed I am obliged to form such personal beliefs and can
+may rest assured of having fulfilled the ultimate requirements of selfcriticism; that indeed I am obliged to form such personal beliefs and can
 hold them in a responsible manner, even though I recognize that such a
 claim can have no other justification than such as it derives from being
 declared in the very terms which it endorses. Logically, the whole of my
@@ -13138,8 +13068,7 @@ when Columbus discovered America. This does not impair the measure of
 the discoverer’s originality; for though America was there for Columbus to
 discover, its discovery was still made by him. But the universal intention of a
 radical innovation can also be represented as a sense of its pre-existence.
-When a mathematician putting forward a daring new conception, like non-
-Euclidean geometry or the theory of sets, demands acceptance for them from
+When a mathematician putting forward a daring new conception, like nonEuclidean geometry or the theory of sets, demands acceptance for them from
 his reluctant contemporaries, he shows that in his enquiries he had aimed at
 the satisfaction of pre-existing standards of intellectual merit and that he
 regards the product of his thought as the disclosure of a preexisting
@@ -13188,8 +13117,7 @@ he holds himself responsible for the pursuit of his mental efforts. I can speak
 of facts, knowledge, proof, reality, etc., within my commitment situation, for
 it is constituted by my search for facts, knowledge, proof, reality, etc., as
 binding on me. These are proper designations for commitment targets which
-apply so long as I am committed to them; but they cannot be referred to non-
-committally. You cannot speak without self-contradiction of knowledge you
+apply so long as I am committed to them; but they cannot be referred to noncommittally. You cannot speak without self-contradiction of knowledge you
 do not believe, or of a reality which does not exist. I may deny validity to
 some particular knowledge, or some particular facts, but then to me these are
 only allegations of knowledge or of facts, and should be denoted as
@@ -13204,8 +13132,7 @@ framework of commitment leaves no scope for such an endeavour; for its
 acceptance necessarily invalidates any impersonal justification of
 knowledge. This can be illustrated by writing down a symbolic
 representation of the elements joined together within a commitment and
-contrasting these with the same elements, when looked upon non-
-committally from outside the commitment situation. We may, for example,
+contrasting these with the same elements, when looked upon noncommittally from outside the commitment situation. We may, for example,
 represent a factual statement
 The arrows in the first row indicate the force of commitment and the
 brackets the coherence of the elements involved in the commitment;
@@ -13325,8 +13252,7 @@ Braithwaite argues, the ‘objective validity’ of the inductive hypothesis.
 What is demonstrated here is that if we believe in the method of induction,
 q, we also believe that the past applications of this method,p, offer public
 evidence of its effectiveness, r, when examined in the very light of this
-method. This shows that belief in the method of induction is both self-
-consistent and implies a belief in its own self-consistency; but it shows
+method. This shows that belief in the method of induction is both selfconsistent and implies a belief in its own self-consistency; but it shows
 nothing about the truth of this belief. If we do not believe in the method of
 induction nothing follows at alt. The illusion that some progress has been
 achieved towards the establishment of q as true is due once again to the
@@ -13543,8 +13469,7 @@ assigned to the intelligent person, who was defined there as the centre of
 unspecifiable intelligent operations. I shall show in Part Four that this is
 actually what we know as the mind of a person, when meeting and
 conversing with somebody. His mind is the focus which we look at by
-attending subsidiarily to the utterances and actions unspecifiably co-
-ordinated by his mind. Since the structure of commitment includes the logic
+attending subsidiarily to the utterances and actions unspecifiably coordinated by his mind. Since the structure of commitment includes the logic
 of assent, it necessarily confirms this logic; yet it is worth noting that by
 relying on this logic my fundamental belief implies a belief in the existence
 of minds as centres of unspecifiable intelligent operations.
@@ -13680,8 +13605,7 @@ views if I expected him to abandon a complete system of beliefs on account
 of any particular series of difficulties. Besides, by this time it should be clear
 how far-reaching are in my own opinion the changes in outlook that are
 required in order to establish a stable alternative to the objectivist position. I
-cannot hope to do more in this book than to exhibit a possibility which like-
-minded people may wish to explore.
+cannot hope to do more in this book than to exhibit a possibility which likeminded people may wish to explore.
 I shall go on, therefore, to repeat my fundamental belief that, in spite of
 the hazards involved, I am called upon to search for the truth and state my
 findings. To accept commitment as the framework within which we may
@@ -14101,8 +14025,6 @@ PART FOUR
 KNOWING AND BEING
 OceanofPDF.com
 
-
-11
 THE LOGIC OF ACHIEVEMENT
 1. INTRODUCTION
 IN the rest of this book I shall outline some views on the nature of living
@@ -14138,12 +14060,12 @@ envisage the second person acquiring a knowledge of the first person,
 appreciating both him and his knowledge and establishing thereby a whole
 range of interpersonal exchanges which, when extended to a group, form
 the civic culture and public order of society. Since both individual and
-interpersonal 
-commitments 
-are 
-related 
-socially 
-and 
+interpersonal
+commitments
+are
+related
+socially
+and
 established
 institutionally, the perspective of commitment widens here to the whole of
 humanity pursuing its course towards an unknown destination.
@@ -14295,8 +14217,7 @@ two kinds of knowledge can be fruitfully combined. We can make good use
 of physical or chemical observations in order to deepen our understanding
 
 
-of a machine, for example a clock. Having guessed that the clock is a time-
-keeping instrument and gained some intimation of the functions performed
+of a machine, for example a clock. Having guessed that the clock is a timekeeping instrument and gained some intimation of the functions performed
 by its various parts—as of the weights which drive it, the pendulum which
 controls its speed by releasing the escape, and the hands which indicate the
 passage of time—we can proceed to examine the physical processes
@@ -14479,8 +14400,7 @@ machinery, or should be acknowledged as an independent force operating
 through the body in combination with the existing machinery of the body.9
 The machine-like conception of living beings can be extended to account
 in principle for their adaptive capacities. An automatically piloted aeroplane
-approximates the skills of an air pilot. Its mechanical self-regulation co-
-ordinates its activities in the service of a steady purpose, and it may even
+approximates the skills of an air pilot. Its mechanical self-regulation coordinates its activities in the service of a steady purpose, and it may even
 appear to show a measure of resourcefulness in responding to ever new, not
 exactly foresecable situations. There is a school of thought today which
 passionately pursues this mechanical conception of all vital adaptive
@@ -14527,8 +14447,7 @@ symbolic operations that were initially contrived by this urge itself. I
 
 believe that, on grounds of continuity, we should acknowledge that the
 same urge operates also primordially throughout the animal kingdom. There
-are then two principles at work in animals: namely, (1) the use of machine-
-like contrivances and (2) the inventive powers of animal life. Accordingly,
+are then two principles at work in animals: namely, (1) the use of machinelike contrivances and (2) the inventive powers of animal life. Accordingly,
 while the animal’s machinery embodies fixed operational principles, this
 machinery would be impelled, guided and readapted by the animal’s
 unspecifiable inventive urge—even as rigid symbolic operations are
@@ -14687,8 +14606,7 @@ in a man’s brain when he looks at the axioms of Principia Mathematica.
 and that the physico-chemical equilibration of these traces should be
 capable of producing a cerebral counterpart (a coded script) comprising this
 entire body of mathematics. However, if per incredibile, any such
-equilibration existed, it could certainly not be based on the physico-
-chemical interaction of neural traces.
+equilibration existed, it could certainly not be based on the physicochemical interaction of neural traces.
 Köhler’s theory is also logically defective in failing to account for the
 external manifestations of thought. It does not tell us how the duplication of
 an external gestalt inside the brain will produce any overt responses
@@ -14833,8 +14751,7 @@ know, or believe we know.
 This is very peculiar. For logicians discriminate sharply between our
 knowledge of things and our reflections on our knowledge of things. Natural
 science is regarded as a knowledge of things, while knowledge about
-science is held to be quite distinct from science, and is called ‘meta-
-science’. We have then three logical levels: a first floor for the objects of
+science is held to be quite distinct from science, and is called ‘metascience’. We have then three logical levels: a first floor for the objects of
 science, a second for science itself and a third for meta-science, which
 includes the logic and epistemology of science. But since we have seen that
 sign-learning is logically equivalent to the establishment of truth in the
@@ -14858,8 +14775,7 @@ established. Once we have before us the deliberate behaviour of an animal,
 by which it commits itself to a mode of action which can be right or wrong,
 and which thus implies assumptions about external things that can be true
 or false, the understanding of such a commitment is a theory of rightness
-and knowledge. It is clearly three-storied. But some aspects of the three-
-storied structure emerge much earlier, at the very first appearance of
+and knowledge. It is clearly three-storied. But some aspects of the threestoried structure emerge much earlier, at the very first appearance of
 individual living beings. Any such individual may be said to be normal or
 abnormal; healthy or sick; it may be mutilated, malformed, or else intact
 and well-shaped. The three-storied structure manifests itself at this stage
@@ -14928,14 +14844,11 @@ of moral and civic commands. We shall see this confirmed at the close of
 the next chapter.
 OceanofPDF.com
 
-
-12
 KNOWING LIFE
 1. INTRODUCTION
 FACTS about living things are more highly personal than the facts of the
 inanimate world. Moreover, as we ascend to higher manifestations of life,
-we have to exercise ever more personal faculties—involving a more far-
-reaching participation of the knower—in order to understand life. For
+we have to exercise ever more personal faculties—involving a more farreaching participation of the knower—in order to understand life. For
 whether an organism operates more as a machine or more by a process of
 equipotential integration, our knowledge of its achievements must rely on a
 comprehensive appreciation of it which cannot be specified in terms of
@@ -14962,8 +14875,7 @@ living beings rely in the stratagem of living. And while these realities will
 
 
 fall into line with the realities to which our knowledge of inanimate things
-commits us, another line of generalization, ascending from the I-It to the I-
-Thou and beyond it to the study of human greatness, will transform the
+commits us, another line of generalization, ascending from the I-It to the IThou and beyond it to the study of human greatness, will transform the
 biologist’s relation to his subject matter to that between man and the
 abiding firmament which he is committed to serve.
 2. TRUENESS TO TYPE
@@ -15251,8 +15163,7 @@ ready to function together when the moment arrives for it. Such a mosaic of
 independently proceeding interlocking sequences corresponds to the
 conception of ontogenesis which Roux and Weismann had formulated and
 made universally current before Driesch’s observations on equipotentiality.
-The regulative principle of Driesch and the mosaic principle of Roux-
-Weisman actually operate in combination. This is revealed in Spemann’s
+The regulative principle of Driesch and the mosaic principle of RouxWeisman actually operate in combination. This is revealed in Spemann’s
 principle of localized embryonic organizers. Spemann found that in the
 newt embryo at the gastrula stage there is a certain region adjoining the
 entrance of the primitive gut which dominates the further segmentation of
@@ -15269,8 +15180,7 @@ The effect of this stimulus on the area under its control is ascribed to the
 organizer’s morphogenetic field.27 The morphogenetic powers of the
 individual are localized at this stage in a single organizer; but presently this
 centre splits up into sub-centres of organization, each of which controls by
-its field the development of one section of the embryo. Later, these sub-
-organizers divide up in their turn by stages into secondary, and possibly
+its field the development of one section of the embryo. Later, these suborganizers divide up in their turn by stages into secondary, and possibly
 tertiary, specialized sub-organizers, each of which controls the development
 of a limb, or part of a limb, or of some other organ or feature emerging from
 the progressive differentiation of the individual. A segregated area provided
@@ -15407,8 +15317,7 @@ can be recognized as such only by first guessing, at least approximately,
 what they are for and how they work. Their operational principles can then
 be specified further by technological investigations. Physics and chemistry
 can establish the conditions for their successful operation and account for
-possible failures, but a complete specification of a machine in physico-
-chemical terms would dissolve altogether our knowledge of the machine.36
+possible failures, but a complete specification of a machine in physicochemical terms would dissolve altogether our knowledge of the machine.36
 The logic of engineering applies also to physiology, but with some
 modifications. The organs of the body are more complex and variable than
 the parts of a machine, and their functions are also less clearly specifiable.
@@ -16253,8 +16162,7 @@ exercise of a responsible judgment with universal intent. Our calling was
 seen to be determined by our innate faculties and our early upbringing
 within our own culture, and these conditions were made to subserve an act
 of commitment by relying on them for the fulfilment of standards believed
-to be universal. Calling; personal judgment involving responsibility; self-
-compulsion and independence of conscience; universal standards; all these
+to be universal. Calling; personal judgment involving responsibility; selfcompulsion and independence of conscience; universal standards; all these
 were shown to exist only in their relation to each other within a
 commitment. They dissolve if looked upon non-committally. We may call
 this the ontology of commitment.
@@ -16316,15 +16224,12 @@ obligations he has lost his voice and his hope, and been left behind
 meaningless to himself.
 OceanofPDF.com
 
-
-13
 THE RISE OF MAN
 1. INTRODUCTION
 I HAVE arrived at the opening of this last chapter without having suggested
 any definite theory concerning the nature of things; and I shall finish this
 chapter without having presented any such theory. This book tries to serve a
-different and in a sense perhaps more ambitious purpose. Its aim is to re-
-equip men with the faculties which centuries of critical thought have taught
+different and in a sense perhaps more ambitious purpose. Its aim is to reequip men with the faculties which centuries of critical thought have taught
 them to distrust. The reader has been invited to use these faculties and
 contemplate thus a picture of things restored to their fairly obvious nature.
 This is all the book was meant to do. For once men have been made to
@@ -16390,8 +16295,7 @@ conditions which release and sustain its actions. This argument is too
 general to be carried out fully here, and I shall turn therefore to argument B
 by pointing out that the observed evolution of human consciousness plainly
 exemplified this kind of active emergence.
-A. The predominant modern theory, usually described as Neo-
-Darwinism, which I shall criticize here, regards evolution as the sum total
+A. The predominant modern theory, usually described as NeoDarwinism, which I shall criticize here, regards evolution as the sum total
 of successive accidental hereditary changes which have offered
 reproductive advantages to their bearers. The sequence of hereditary
 changes, leading to the replacement in succeeding generations of the
@@ -16792,7 +16696,7 @@ has been frequently pointed out that you cannot identify a random system if
 you know nothing about it; I obviously cannot say that a sequence of
 numbers is random, if I do not know it to be random. But this holds even
 conversely. I can tell (from the nature of irrational numbers) that the
-sequence of digits in 
+sequence of digits in
  is not random, though I may not know anything
 else about it; while on the other hand I may be familiar with the derivation
 of the number π and yet affirm that the sequence of its digits is random. For
@@ -17028,12 +16932,12 @@ comprehension implies the impossibility of accounting for it in terms of a
 fixed neurological mechanism; and the intellectual commitment involved in
 such an act excludes any representation of it in terms of a physico-chemical
 equilibration which cannot distinguish between success and failure.
-Comprehension 
-and 
-the 
-somatic 
-process 
-which 
+Comprehension
+and
+the
+somatic
+process
+which
 accompanies
 comprehension, represent therefore a kind of equilibration that can be
 defined only in terms of intellectual rightness. Morphogenesis, operating
@@ -17062,8 +16966,7 @@ energy, so this field of forces would also be the gradient of a potentiality: a
 gradient arising from the proximity of a possible achievement. Our sense of
 approaching the unknown solution of a problem, and the urge to pursue it,
 are manifestly responses to a gradient of potential achievement; and when
-we identify a morphogenetic field, we see in it in fact a set of events co-
-ordinated by a common gradient of achievement. We may recall also that
+we identify a morphogenetic field, we see in it in fact a set of events coordinated by a common gradient of achievement. We may recall also that
 muscular co-ordination appears likewise unformalizable in terms of any
 fixed anatomical machinery, and that the functional stability and
 recuperation of the central nervous system after widespread injuries, as well
@@ -17355,8 +17258,7 @@ this point. They are all akin to us. For all these centres—those which led up
 to our own existence and the far more numerous others which produced
 different lines of which many are extinct—may be seen engaged in the
 same endeavour towards ultimate liberation. We may envisage then a
-cosmic field which called forth all these centres by offering them a short-
-lived, limited, hazardous opportunity for making some progress of their
+cosmic field which called forth all these centres by offering them a shortlived, limited, hazardous opportunity for making some progress of their
 own towards an unthinkable consummation. And that is also, I believe, how
 a Christian is placed when worshipping God.
 
@@ -17675,8 +17577,8 @@ Phys. Chem. (1958).
 6. Experiment 3 shows that the effect of a bias tends to disappear at higher temperatures, and will
 vanish correspondingly also under the effect of more violent shaking. Note that the energy Et required
 for causing a die to tumble over should always be large compared with ΔE, so that even at the higher
-temperatures KT may be kept well below Et. We should have Et 
- kT 
+temperatures KT may be kept well below Et. We should have Et
+ kT
  ΔE; and this should apply
 correspondingly also to the conditions of ‘more violent shaking’. Otherwise the die will keep rolling
 all the time.
@@ -17784,8 +17686,7 @@ restriction to the representative function is not meant to endorse, e.g. a ‘Re
 origin of language, but in an epistemological reflection on the relation of language to its inarticulate
 roots. Some of the theories of linguists have of course certain affinities with my own: for example,
 Sapir’s analysis of the conceptual role of speech in Language (New York, 1921); or A. H. Gardiner’s
-insistence, in the Theory of Speech and Language (London, 1932), on the importance of the ‘thing-
-meant’ in the speech situation; or W. J. Entwhistle’s rebellion against the more extremely
+insistence, in the Theory of Speech and Language (London, 1932), on the importance of the ‘thingmeant’ in the speech situation; or W. J. Entwhistle’s rebellion against the more extremely
 behaviouristic linguists: ‘The chief error of the mechanical view is to eliminate Man from his own
 speech, treating the latter as if it were a machine independent of Man (Aspects of Language, London,
 1953, p. 39). But the linguists are concerned, reasonably enough, with the verbal techniques of speech
@@ -18198,8 +18099,7 @@ p. 235.
 45. See p. 31 above and p. 49.
 46. p. 16.
 47. Lecky, Rationalism in Europe, London, 1893, 1, pp. 116–7.
-48. As when R. B. Braithwaite in Scientific Explanation, Cambridge, 1953, p. 272, says, ‘The non-
-inductive policies are not starters’.
+48. As when R. B. Braithwaite in Scientific Explanation, Cambridge, 1953, p. 272, says, ‘The noninductive policies are not starters’.
 49. Up to 90 per cent of the subjects may predict that the hitherto non-preponderant alternative will
 appear next (J. Cohen and C. E. M. Hansel, Risk and Gambling, London, New York, Toronto, 1956,
 pp. 10–36).
@@ -18483,8 +18383,7 @@ pure science, as distinct from technology, can exist only in a class society.
 Soviet writer M. D. Kammari (1947 and 1948) for the view that Marxism is objectively true because
 the true interests of science coincide with the interests of the proletariat and with the objective
 movement of history. But Bochenski himself condemns Marxism as manifestly self-contradictory (pp.
-156–7). Sidney Hook, in Marx and the Marxists (New York, 1955), points out the same self-
-contradiction (pp. 45–6).
+156–7). Sidney Hook, in Marx and the Marxists (New York, 1955), points out the same selfcontradiction (pp. 45–6).
 40. ‘Factuality’ is Hannah Arendt’s expression.
 41. See Bertram D. Wolfe, Three Who Made a Revolution, New York, 1948, pp. 534–57. ‘There was
 something’, he writes, ‘in the Russian temperament and scene which engendered these men of
@@ -18807,8 +18706,7 @@ transcends this limitation on grounds of the continuity between groping and sens
 1175–1220.
 16. K. S. Lashley, in the Hixon Symposium of 1951 (p. 124), concurs in Bethe’s argument. Bethe’s
 work has been followed up extensively by E. v. Holst (see particularly Die Naturwissenschaften, 37
-(1950), 464–76) in an attempt to lend greater precision to Bethe’s dynamic conception of muscular co-
-ordination. Paul Weiss has proved the absence of anatomically fixed co-ordinative paths in the central
+(1950), 464–76) in an attempt to lend greater precision to Bethe’s dynamic conception of muscular coordination. Paul Weiss has proved the absence of anatomically fixed co-ordinative paths in the central
 nervous system by showing that the co-ordination of muscles remains unaffected when these are
 attached to nerve fibres belonging to an arbitrary assortment of neurons. For this fact and other
 
@@ -19029,9 +18927,9 @@ genuinely systematic and quantitative psychological system’.
 57. E. C. Tolman, Purposive Behavior in Animals and Men, New York, 1932, p. 2.
 58. Gilbert Ryle, The Concept of Mind, London, 1949, p. 58: ‘Overt intelligent performances are not
 clues to the workings of minds; they are those workings.’
-59. Using here the symbolism of an earlier chapter, we are making here a transition from 
+59. Using here the symbolism of an earlier chapter, we are making here a transition from
  H/E,
-which utters my own commitment, to 
+which utters my own commitment, to
  P(/HE), by which I acknowledge another person’s similar
 commitment (Part One, ch. 3, p. 32).
 60. Cf. Part Three, ch. 9, pp. 286–8.
@@ -19447,8 +19345,7 @@ commitment =, 302, 309, 315; made by active centres, 402.
 Christianity, 197–8, 265, 266, 279–86, 318, 324, 405.
 circularity of implicit beliefs, 288–92; of deductive systems, 289; in Communist confessions, 290–1;
 of scientific beliefs, 292; of reflection on ultimate beliefs, 299.
-civic: culture, 215–16, 222–4, 321, 328; imperatives, & statements of fact, 346; predicament, re self-
-set standards, 203–4; values, & consensus, 223, 374–9.
+civic: culture, 215–16, 222–4, 321, 328; imperatives, & statements of fact, 346; predicament, re selfset standards, 203–4; values, & consensus, 223, 374–9.
 Claparède, E., 91n.
 classes, classification: inherent in language, 80; rational, 114; in biology, 348–54; in crystallography,
 349; artificial vs. natural, 349–50.
@@ -20101,8 +19998,7 @@ Lazareff, H. & P., 201n.
 learning: in animals, 71–4, 75–7, 99–100, 120–123, 169, 174, 316–17, 333, 364–73; trick (type A),
 71–2, 73, 75, 76, 99, 174, 328, 365; sign (type B), 72–3, 75, 76, 99, 168, 174, 328, 344, 365; latent
 (type C), 73–4, 75, 76, 82, 100, 102, 117, 184, 328, 335, 365; in children, 74–5, 313; to speak, 101,
-105, 106–7, 206; definition of, 369. See also animals, children, heuristic, heuristics, problem-
-solving.
+105, 106–7, 206; definition of, 369. See also animals, children, heuristic, heuristics, problemsolving.
 Lebesque, H. L., 190.
 
 
@@ -20784,8 +20680,7 @@ tacit: acceptance: of new meaning, 111; of premisses of science & factuality, 16
 
 
 —component: of knowledge, sensory aspect of, 98; of theory, 133; of speech, 86–7, 87–95, 100–2,
-205–7, 250, 254; of formalized reasoning, 118, 257; in mathematics, 130–1, 188–9; & pseudo-
-substitution, 169; of articulate systems, 195; of cultural life, 203–11; of communication of feeling,
+205–7, 250, 254; of formalized reasoning, 118, 257; in mathematics, 130–1, 188–9; & pseudosubstitution, 169; of articulate systems, 195; of cultural life, 203–11; of communication of feeling,
 204–5; of meaning & definition, 250; of articulate intelligence, 336; of knowledge, 373; of
 articulate thought, evolution of, 389, 397; & field concept, 398.
 —doubt, 272; in religion, 280, 285.

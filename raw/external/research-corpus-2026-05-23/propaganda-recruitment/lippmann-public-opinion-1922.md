@@ -9,6 +9,10 @@ chars: 713558
 approx_tokens: 178389
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 713560
+phase4_chars_after: 709615
+phase4_saved_pct: 0.6
 ---
 
 PUBLIC OPINION
@@ -33,10 +37,8 @@ Brunswick, New Jersey 08903. Originally published in 1992 by The Macmillan
 Company. © 1922 by Walter Lippmenn.
 All rights reserved under International and Pan-American Copyright Conventions.
 No part of this book may be reproduced or transmitted in any form or by any means,
-electronic or mechanical, including photocopy, recording, or any information stor-
-age and retrieval system, without prior permission in writing from the publisher. All
-inquiries should be addressed to Transaction Publishers, Rutgers-The State Univer-
-sity, New Brunswick, New Jersey 08903.
+electronic or mechanical, including photocopy, recording, or any information storage and retrieval system, without prior permission in writing from the publisher. All
+inquiries should be addressed to Transaction Publishers, Rutgers-The State University, New Brunswick, New Jersey 08903.
 This book is printed on acid-free paper that meets the American National Standard
 for Permanence of Paper for Printed Library Materials.
 Library of Congress Catalog Number: 97-28875
@@ -54,8 +56,7 @@ ISBN 1-56000-999-3 (pbk. : alk. paper)
 2. Public opinion-United States.
 3. Social psychology.
 4. Social psychology-United States.
-5. United States-Politics and govern-
-ment.
+5. United States-Politics and government.
 I. Title.
 HM261
 1997b
@@ -106,27 +107,27 @@ Page
 PART n. APPROACHES TO THE WORLD OUTSIDE
 Il,
 Censorship and Privacy
-35
+
 ill.
 Contract and Opportunity
-46
+
 IV.
 Time and Attention. . . . . . . . . . . . . . • • . 58
 V.
 Speed, Words, and Clearness. . . . . . . . . . . .
-64
+
 PART ill. STEREOTYPES
 VI.
 Stereotypes. . . . . . . . . . . . . • . . . . . .
-79
+
 VIT.
 Stereotypes as Defense ...•••.......•. 95
 Vlll.
 Blind Spots and Their Value
-104
+
 IX.
 Codes and Their Enemies. . . . . . . . . . . . .
-115
+
 X.
 The Detection of Stereotypes ...........• 130
 PART IV. INTERESTS
@@ -143,15 +144,14 @@ Yes or No
 XV.
 Leaders and the Rank and File. .
 PART VI. THE IMAGE OF DEMOCRACY
-193
-220
-234
+
+
 XVI.
 The Self-Centered Man. . . . . . . . . . . .
-253
+
 XVll.
 The Self-Contained Community. . . . . . . .
-263
+
 XVIll.
 The Role of Force, Patronage, and Privilege. . . . . 276
 XIX.
@@ -170,7 +170,7 @@ xxm,
 XXIV.
 Page
 The Buying Public. . . . . . .
-3
+
 !
 Th C
 . . . . . . .
@@ -181,12 +181,12 @@ The Nature of News
 338[
 ~f
 News, Truth, and a Conclusion. . . . . . . .
-358
+
 INTRODUCTION TO THE
 TRANSACTION EDITION
 I
 The Entering Wedge. . . . .
-369
+
 Intelligence Work. . . . . . .. : .. .. : .. .. .. 379
 The Appeal to the Public. . . . . . . . . . . 398
 The Appeal to Reason. . . . . . . . . . . . 411
@@ -197,8 +197,7 @@ XXVII.
 XXVill.
 Walter Lippmann was the most gifted and influential
 American political journalist of the twentieth century. Over
-a long life, 1889-1974, his writings flowed in an unend-
-ing stream, affected by the currents of national and world
+a long life, 1889-1974, his writings flowed in an unending stream, affected by the currents of national and world
 events as well as by his own intellectual odyssey with its
 transmutations in political orientation and conviction.
 His works took a variety of forms-editorials for The
@@ -213,18 +212,14 @@ New Yorker cartoon in 1935 and by a line in a standard
 song by Rodgers and Hart. In magisterial fashion he wrote
 both on specific political and diplomatic questions and
 on broader philosophical and ethical issues.
-Lippmann's remarkable intellect and ability was ap-
-preciated early in his life. As an undergraduate at Harvard
+Lippmann's remarkable intellect and ability was appreciated early in his life. As an undergraduate at Harvard
 he had impressed William James, George Santayana, and
-the British political scientist Graham Wallas, who dedi-
-cated his book, The Great Society (1914) to his 25 year
+the British political scientist Graham Wallas, who dedicated his book, The Great Society (1914) to his 25 year
 old former student in acknowledgment of Lippmann's
-comments on his lectures. His early influence even ex-
-tended to personal matters in 1917 when he avoided serv-
+comments on his lectures. His early influence even extended to personal matters in 1917 when he avoided serv-
 
 
-ing in the war after informing the Secretary of War, New-
-ton D. Baker, that "my father is dying and my mother is
+ing in the war after informing the Secretary of War, Newton D. Baker, that "my father is dying and my mother is
 absolutely alone in the world." In reality, his wealthy
 father did not die until 1927, and he had a restrained
 relationship with his mother.
@@ -232,36 +227,27 @@ His political influence and impact on policy continued
 almost to the end. He helped draft the Fourteen Points
 for President Woodrow Wilson in January 1918, though
 he was soon to criticize and express his disillusionment
-over the Treaty of Versailles. He wrote speeches for poli-
-ticians and delighted in his fame and ready contacts with
+over the Treaty of Versailles. He wrote speeches for politicians and delighted in his fame and ready contacts with
 presidents from Wilson on. But though he enjoyed influ-,
-encing policy, he did so for the most part as the disinter-
-ested analyst, rather than as an active participant or stalker
+encing policy, he did so for the most part as the disinterested analyst, rather than as an active participant or stalker
 of the corridors of power.
 Not surprisingly, in a career of 50 years Lippmann
-changed political positions, though without dramatic em-
-phasis, as well as his mode of intellectual analysis, attrib-
-uted by his biographer Ronald Steel to "intellectual flex-
-ibility." Like many other intellectuals, early sympathy for
-Fabian socialism and progressivism changed into undog-
-matic conservatism, and even later to a form of political
+changed political positions, though without dramatic emphasis, as well as his mode of intellectual analysis, attributed by his biographer Ronald Steel to "intellectual flexibility." Like many other intellectuals, early sympathy for
+Fabian socialism and progressivism changed into undogmatic conservatism, and even later to a form of political
 skepticism. Support of President Roosevelt's New Deal
 soon became unenthusiastic and then ended after three
-years. Early advocacy of the significance of Anglo-Ameri-
-can power as the foundation for a lasting peace after
+years. Early advocacy of the significance of Anglo-American power as the foundation for a lasting peace after
 World War I changed to a deep belief in the need for
 settlement, not confrontation, and to criticism of what he
 considered to be American adventurism and involvement,
 especially in Vietnam.
 Lippmann was intellectually courageous and forthright
 in all the issues with which he dealt, except perhaps his
-own Jewish heritage. In this regard he was a fully assimi-
-1ated but self-denying Jew who deliberately wrote almost
+own Jewish heritage. In this regard he was a fully assimi1ated but self-denying Jew who deliberately wrote almost
 nothing on the subject after a 1922 article
 ~n which he
 wrote that "sharp trading and blatant vulgar.Ity are more
-conspicuous in the Jew because he hi~s~lf IS mo~e con-
-spicuous." He rejected in 1921"the ZIonIst call
+conspicuous in the Jew because he hi~s~lf IS mo~e conspicuous." He rejected in 1921"the ZIonIst call
 sIn,~e he
 had no sense of belonging to
 the Chosen People
@@ -269,8 +255,7 @@ an.d
 was concerned about dual allegiance. He supported Pre~I­
 dent A. Lawrence Lowell's proposal in
 192~ to ~estnct
-the number of Jews admitted to Harvard University be-
-cause it would be "bad for the immigrant Jews as well as
+the number of Jews admitted to Harvard University because it would be "bad for the immigrant Jews as well as
 for Harvard if there were too great a concent~ation," Most
 controversial of all, ina column in the spnng ~f
 193~,
@@ -283,10 +268,8 @@ o~ ~ ,great revol~:
 tion, the authentic voice of a genuinely cIvIl~zed pe.ople.
 Lippmann was more compell~ng b~th as journalist and
 as political philosopher in dealing with a number ~f ~e­
-lated issues: the responsibility of reporters a~d their In-
-ability to understand the news a~d to. convey.tt correctly,
-the role of the media in presenting Inform~tIo~, the na-
-ture of public opinion in a democracy and ItS Impact on
+lated issues: the responsibility of reporters a~d their Inability to understand the news a~d to. convey.tt correctly,
+the role of the media in presenting Inform~tIo~, the nature of public opinion in a democracy and ItS Impact on
 public issues, and the paradoxes of majority ru~e. These
 issues remained with him as he grappled wIth. the~
 throughout his long career. Pondering the. steel strike In
@@ -294,9 +277,7 @@ throughout his long career. Pondering the. steel strike In
 which of the facts about the affair were ~m'port~nt a~d
 relevant, and concluded that "it needs spec,Iahz~d inquiry
 by trained minds." He told Columbia University gra~u­
-ates in 1969 that modem reporters, though "~ore SOphIS-
-ticated and educated than in 1922" were still ?ot pre-
-pared for the complex, chaotic reality on which they
+ates in 1969 that modem reporters, though "~ore SOphISticated and educated than in 1922" were still ?ot prepared for the complex, chaotic reality on which they
 reported.
 .
 In a letter to Ellery Sedgwick on Apnl 7, 1919,
@@ -315,48 +296,35 @@ I
 Lippman~
 wro~e that "freedom of thought and speech
 presents Itself In a new light and raises new problems
-because of the discovery that opinion can be manufac-
-tured." He was aware that "truth" and the news presented
+because of the discovery that opinion can be manufactured." He was aware that "truth" and the news presented
 by the press were not synonymous. He confessed to Oliver
 Wendell Holmes on November 18, 1919 that he was
 "deeply troubled" by his current work on public opinion
 and theories of popular government. At that time he
 viewed institutions such as the press, propaganda, and
 censorship, as blocking the road to truth.
-Partly as a result of what he believed to be the inaccu-
-racy of the reporting in the New York Times on the Rus-
-s~an revolution and its aftermath, Lippmann became con-
-vinced that news stories were dominated by the emotions
+Partly as a result of what he believed to be the inaccuracy of the reporting in the New York Times on the Russ~an revolution and its aftermath, Lippmann became convinced that news stories were dominated by the emotions
 and hopes ?f t?e men and women who comprised the
-news organizations rather than by the facts. This criti-
-cism of the nature of reporting, which was to be continu-
-ally reiterated, was accompanied by a concept of political
+news organizations rather than by the facts. This criticism of the nature of reporting, which was to be continually reiterated, was accompanied by a concept of political
 reality he had adopted from Graham Wallas. The latter in
 his brilliantly original Human Nature in Politics of 1908
 argued that not enough attention had been paid by politi~
-~al a~al~sts to factors such as chance, prejudice, emo-
-tion, instinct and habit in their concentration on the role
+~al a~al~sts to factors such as chance, prejudice, emotion, instinct and habit in their concentration on the role
 of rational deliberation in politics. For Lippmann, Wallas,
 who had made man the center of political investigation,
-has "described what political science must be like." Talk-
-i~g about politics without reference to human beings was,
+has "described what political science must be like." Talki~g about politics without reference to human beings was,
 Lippmann argued, 'just the deepest error in our political
 thinking."
-The two issues, the inadequacy of the reporting pro-
-cess and of the providing of information, as well as the
+The two issues, the inadequacy of the reporting process and of the providing of information, as well as the
 lack of unde.rsta~dingof true political reality by citizens,
 o:erlapped In Lippmann's thinking. In his 1920 book,
 Liberty and the News, he criticized both reporters for
 their inadequate and unreliable stories, and newspaper
 owners, most of whom were self-appointed Defenders of
-the Faith interested in the news for financial or ideologi-
-cal reasons rather than for objective presentation to the
-public. Only through disinterested reporting could Ameri-
-cans be well-informed and mankind live successfully.
-Democratic systems, or government by consent, were im-
-perilled "when the manufacture of consent is an unreg~­
-lated private enterprise," since they depended on deci-
-sions being made on the basis of reliable opinion.
+the Faith interested in the news for financial or ideological reasons rather than for objective presentation to the
+public. Only through disinterested reporting could Americans be well-informed and mankind live successfully.
+Democratic systems, or government by consent, were imperilled "when the manufacture of consent is an unreg~­
+lated private enterprise," since they depended on decisions being made on the basis of reliable opinion.
 Lippmann therefore suggested not only that journalists
 be better trained but also, in an argument he was frequently
 to repeat, that an independent research organization be
@@ -369,62 +337,50 @@ them. But he also spoke of "preconceived notions" of
 reporters and the public. In f1!:J?Jiq-9JZ_~'!!.~n he dealt with
 both questions, but it was his views on the latter that
 constitute his most original contribution to political
-thought, social psychology and the study of mass com-
-munications.
+thought, social psychology and the study of mass communications.
 In a letter to Frederick J. Hoffman dated November 18,
 1942, Lippmann acknowledged he had become familiar
 with Freud's Interpretation of Dreams in 1912, and that
 his first book, A Preface to Politics (1913) showed the
-influence of Freud, in its attempt to apply Freud's psy-
-chological insight to political science and sociology. In
+influence of Freud, in its attempt to apply Freud's psychological insight to political science and sociology. In
 Public Opinion Lippmann explains that Freud's study of
-dreams had helped him formulate his idea of a ":Qseudo-
-environment," though he had by 1922 gone beyond Freud-
-Ian individual psychology.
+dreams had helped him formulate his idea of a ":Qseudoenvironment," though he had by 1922 gone beyond FreudIan individual psychology.
 
 
 XVll
 TRANSACTION INTRODUCTION
 come famous, Lippmann talks of "the pictures inside our
-heads," and of the consequent image that did not corre-
-spond with the world outside. This picture, the pse.u~o-
+heads," and of the consequent image that did not correspond with the world outside. This picture, the pse.u~o-
 -environment, determines a very great deal of political
 behavior.
-It is curious that Lip~al'!n-wa~otinfluenced by con-
-temporary writers like~H. Meadand Charles H. Cooley
+It is curious that Lip~al'!n-wa~otinfluenced by contemporary writers like~H. Meadand Charles H. Cooley
 who have been the source-o-f-varrous schools of symbolic
-interactionism and who touched on a concept that over-
-lapped with that of Lippmann. For this school, 12eo12le act
+interactionism and who touched on a concept that overlapped with that of Lippmann. For this school, 12eo12le act
 towards objects 01)__theJ~asis of Jhe m-.Yaning§
 th~~._~h~
 obie~~_~~y.~ ..!()~ ..~~!!1:.. T~e ~,~~nin~,~~ P~~~J§- of
 social interaction, are rp.odiQ~gh illtem!:E;~j}9~
-IiidiVIdiial"mf-definition also depends on this Interac-
-tion~Iii"~-tooley's well-known "looking-glass self' con-
-cept, the sense of personal identity arises from int~rrela­
+IiidiVIdiial"mf-definition also depends on this Interaction~Iii"~-tooley's well-known "looking-glass self' concept, the sense of personal identity arises from int~rrela­
 tion with others. One cannot understand oneself WIthout
 reference to one's interpretation of how others
 se~_!1s.
-Similarly, Mead thought that self-conception is a reflec-
-tion of what an individual believes others think of him.
+Similarly, Mead thought that self-conception is a reflection of what an individual believes others think of him.
 All this is not exactly Lippmann's "pseudo-environment,"
 but it is on parallel lines with the underlying view that
 .
-1
+
 1•. peopl~_C:?Il~tructthei~_r~_~iti~stl1r?ll~~_inter~cti_?Il_\Vit~
 ~.
 ~ others.·
 l'
 "
-Not everyone could understand Lippmann's terminol-
-ogy or his original ideas. In a letter da~ed Jan~ary ~3,
+Not everyone could understand Lippmann's terminology or his original ideas. In a letter da~ed Jan~ary ~3,
 1925 ~ried_UL~J!1C~Q~lt?Jli§._l1[g~en~.!!:. Pl!.~ll~_912'~'!::-"1
 ion. He saw the phrases "pseudo-environment" and "pIC-i
 tures in our heads" as interchangeable, since both re- 'I
 ~~~e~h~ r~~:e::~~a~~-~~£aO{ttiu~oI~~;~~~=1
 of the two. The .re~po~s~~.5?!P~22!.~J()!11~~!t~n.Y!f.QJ:l~~ntI
-were dependent":'()~:'!h~cogJ:l~!iv~J(;l~t.C?~,9nl11entalcon-
-s'truct~ Stereotypes were certain fixed habits of cognition l
+were dependent":'()~:'!h~cogJ:l~!iv~J(;l~t.C?~,9nl11entalcons'truct~ Stereotypes were certain fixed habits of cognition l
 -~.......--
 .~
 PUBLIC OPINION
@@ -432,23 +388,17 @@ xvi
 I~~_.I~~L~~!~~~::1.~~,~!E£~~~E!}~_!,20-big; too~£QlJlBl~_:c
 and~~,~!~~_¥.J2E~~I~tacgua.~ntanc~y_~~tizens._The
 piiblic c~ever fully understand political reaI1ty~ "the
-buzzing, blooming confusion" of the world, partly be-
-cause individuals could only devote a short amount of
+buzzing, blooming confusion" of the world, partly because individuals could only devote a short amount of
 time to public affairs and partly because events have to
 be compressed into very short messages. In a letter dated
 May 18, 1922, Lippmann wrote that the bulk of public
 \ questions "deal with matters that are out of sight, and
-\have therefore to be imagined." These questions are re-
-ported in the thin and colorless language of the newspa-
-pers, and usually we can come to no true realization of
+\have therefore to be imagined." These questions are reported in the thin and colorless language of the newspapers, and usually we can come to no true realization of
 what it all means. Again he argued that the problem of
 enabling men to master an unseen environment is not
-soluble without "a very great development of our ma-
-chinery of accounting, analysis, record and reporting."
-Similarly, in rublic~12inio'1Lhe believed that representa-
-tive government could not work successfully unless there
-was an ind~~QQ~nt,~~~_~p-eIt"~rg~ization for making un-
-seen facts intelligible to those wlio--l1ave to make the
+soluble without "a very great development of our machinery of accounting, analysis, record and reporting."
+Similarly, in rublic~12inio'1Lhe believed that representative government could not work successfully unless there
+was an ind~~QQ~nt,~~~_~p-eIt"~rg~ization for making unseen facts intelligible to those wlio--l1ave to make the
 decisions. Intelligence bureaus coordinated by a central
 agency could provide the facts on the basis of which
 judgment could be made. A specialized class was needed
@@ -473,8 +423,7 @@ PUBLIC OPINION
 TRANSACTION INTRODUCTION
 XIX
 Public Opinion was Lippmann's first .great effort to
-grapple with the problems of repre~entatlve .and demo-
-cratic government. The crucial que~tlon for him was no~,
+grapple with the problems of repre~entatlve .and democratic government. The crucial que~tlon for him was no~,
 as traditional democratic theory believed, the correct der~-po"~
 vation of government, but ~ way~j!!,. whic~.J~~we~~~{)/;
 exercised. That
@@ -490,8 +439,7 @@ ganda in World War I that "facts" could be distorted. T~IS
 problem might technically be overcome by a~ effective
 press and the use of expert advice, though this was not
 easy to do. Even the best press was only "li,~e the ~eam
-of a searchlight that moves restlessly about.Byt distor-
-tion was also present in the minds of~~ac~JZ~E-
+of a searchlight that moves restlessly about.Byt distortion was also present in the minds of~~ac~JZ~E-
 \/ son cre,ates a reali!y ....!!!~ti.§"J~ltl~t.Q~J!~,£,,.~~~-~!~. f~_~~
 ;1\
 ..._"..,.._._"-,.~";"
@@ -529,8 +477,7 @@ ai~ed ?y Intell~gence
 bureaus which would provide appropnate information for
 decision makers in the executive and legislature. The co~­
 mon interests of the society very largely elude pu~hc
-opinion entirely, and can be manned only by a specIal-
-ized class. Lippmann never~?II1ffiented ~n the problem
+opinion entirely, and can be manned only by a specIalized class. Lippmann never~?II1ffiented ~n the problem
 that specialists also
 have~."p_~,~!.~~~~.."i!l:_",!~.~~I,"~~~is: Even
 more ~·s'ilrprlSTng~"'Tn,.-a'work.."tliat is concerned WIth the
@@ -546,26 +493,20 @@ facts, to set them into relation with each other, and to
 make a picture of reality on which people can act. What
 one normally gets is not truth but fact, and that fact is
 circumscribed by a variety of reporters, fear of libel, and
-that which is superficial. News therefore Q.~~~s,"oll ste-
-reotype~, .~t~rl~~rdiza~~()I!;ro~~l1~ judgment ... an~~~dIsre­
+that which is superficial. News therefore Q.~~~s,"oll stereotype~, .~t~rl~~rdiza~~()I!;ro~~l1~ judgment ... an~~~dIsre­
 gardforsubHety:" ""~_.~~~"., ,"" ,,""''_... "e. m'· ,"."-~~-~.~.~~,,.-,••~-,., .~",.,,----
-''''''''Asfuhn'I5ewey realized, Lippmann had made a sig-
-nificant statement of the problem of knowledge. Lippmann
+''''''''Asfuhn'I5ewey realized, Lippmann had made a significant statement of the problem of knowledge. Lippmann
 had pointed out that the pattern of stereotypes at the cen-
 (~E".gf..2l:!E..~QQ~§Jargely. determines..whg..Lgr.QJl~·"·Qf~~s
 \V~sl1C111see,
 a.114}11\V~~~ light we shall see them. We
 neecj" '~aps"of"c)urneeds, tho'ugh-'thIs·-ls-InsufflcTe"iit. The
 pseudo-environment, or pictures in our heads, resulted
-partly from censorship, but also from our urge to sim-
-plify the complex, and our fear to face facts which under-
-mine cherished belief. Our representations of the envi-
-ronment are made, in greater or lesser degree, by man
+partly from censorship, but also from our urge to simplify the complex, and our fear to face facts which undermine cherished belief. Our representations of the environment are made, in greater or lesser degree, by man
 himself. But myths and symbols helped create mental
 stereotypes. Symbols do not represent specific, logical
 ideas but rather a "sort of truce or junction between ideas."
-The problem with myth is that it never contains the criti-
-cal power to separate its truths from its errors. Lippmann's
+The problem with myth is that it never contains the critical power to separate its truths from its errors. Lippmann's
 conclusion was not optimistic. He saw no prospect that
 the whole invisible environment would be so clear to all
 people that they would spontaneously arrive at sound
@@ -573,7 +514,7 @@ public opinions on the whole business of government.
 Again, there was a need for experts to provide a more
 valid picture of the eiivironment. -
 -h-ultl
-16
+
 \'l.,Q.I...)S
 
 
@@ -597,8 +538,7 @@ leave before the last curtain, having stayed just long
 enough perhaps to decide who is the hero and who is the
 villain of the piece."
 To talk of such a public capable of directing was to
-talk of a "phantom," since it did not have sufficient knowl-
-edge and insight to determine government policy. All the
+talk of a "phantom," since it did not have sufficient knowledge and insight to determine government policy. All the
 public could do would be to approve or oppose those
 who could make decisions. The decision makers would
 be "free of the trampling and the roar of the bewildered
@@ -618,8 +558,7 @@ civilized substitute for the use of the bullet.
 Lippmann was still wrestling with the problem in his
 last major work, The Public Philosophy (1955), in which
 he concluded that since World War II, "the prevailing
-public opinion has been destructively wrong at the criti-
-cal junctures." Mass opinion had acquired mounting power
+public opinion has been destructively wrong at the critical junctures." Mass opinion had acquired mounting power
 in this century. It had shown itself to be a dangerous
 master of decisions when the stakes are life and death.
 Eight years after the book, in a letter of February 16,
@@ -628,16 +567,14 @@ was "a gloomy book about democracy!"
 His early pluralism had given way to a belief in the
 need for "a rational order with a superior law," a public
 philosophy with common and binding principles, a higher
-law. Lippmann still regarded himself as a liberal demo-
-crat, but now thought that if mass opinion dominated the
+law. Lippmann still regarded himself as a liberal democrat, but now thought that if mass opinion dominated the
 government, there would be a morbid derangement of the
 true functions of power. Though Lippmann's argument
 was not at the level of his customary lucidity and has
 continued to puzzle, he called for a stronger executive
 and respect for a kind of natural law that would restore
 civility and individual liberties to their rightful place. If
-Public Philosophy was not greeted with universal ac-
-claim it did receive plaudits from General de Gaulle who
+Public Philosophy was not greeted with universal acclaim it did receive plaudits from General de Gaulle who
 found it full of "ideas, rare perceptions and wisdom."
 However, it is Lipp~~~~~_~E~~~J.""E~!EeR!i£ll ~~£L,~!§,:.
 dom about the subjectof publi~,,_£E~~~~~~,~,e!l§J.,J!1Jl,'!!!iS:ll-
@@ -660,8 +597,7 @@ ee-
 ll.te''''''''''''A",,,",,,,.,.a:~.Q'<FX~,,,,",,,·
 less to say, the general subject is a highly sensitive one,
 both for its implications for democratic systems and also
-because of the prejudiced and critical reference to indi-
-viduals and groups. Few today can witness a production
+because of the prejudiced and critical reference to individuals and groups. Few today can witness a production
 of The Merchant of Venice without being conscious of
 the way in which the actor is performing the role of
 
@@ -676,8 +612,7 @@ Much of the literature on stereotypes, at least in the
 United States, is in fact on Jews and blacks, and more
 recently on women. This is not surprising in view of the
 intensity of ethnic problems and conflict, and in light of
-the consequences of antisemitism in the twentieth cen-
-tury, and the feminist movement. The literature on ste-
+the consequences of antisemitism in the twentieth century, and the feminist movement. The literature on ste-
 ----~--_._.._._-_.-
 ~2!yl?.,~.~,._,~~"",J2E~~,~gX,i.~., ..!h~...,I~£!fL~Qt.,§g,£t~!"J?.§y£h5?12gy,
 but contributions have also come from other intellectual
@@ -694,16 +629,13 @@ d1SCii3lInes"1~"!~~':~§~I~i""S9'1~iic~s:"'f~~ii1""'lIfer'ar"C:rHicrsm,
 met~lpl~t~ .i.s .c~S!. ~l?:..~~.~.1?gl4';l~.i!§ ...!h~Il r~s.P?Il~!ble [Qr
 replication: "Iilnerent in 'thls °p'''r~~'ess a~~"facioii'o{;~~~~-
 4ij9tign"...~s..s~li!!~II~Q~!!!!2:~.;.~~~'~~[il,1ity:~·~""u~,""",7=;'~""'_"'~~"~""""
-The idea of stereotypes is not new. Plato in his dia-
-logue, Meno, discusses perceptions held about the teach-
-ers called Sophists.
+The idea of stereotypes is not new. Plato in his dialogue, Meno, discusses perceptions held about the teachers called Sophists.
 ANYTUS: I hope no relative of mine or any of my friends,
 Athenian or foreign, would be so mad as to go and
 let himself be ruined by those people. That's what
 they are, the manifest ruin and corruption of anyone
 who comes into contact with them.
-SOCRATES: Can they be so different from other claim-
-ants to useful knowledge that they not only don't do
+SOCRATES: Can they be so different from other claimants to useful knowledge that they not only don't do
 good, like the rest, to the material that one puts in
 their charge, but on the contrary spoil it-and have
 the effrontery to take money for doing so?
@@ -711,19 +643,16 @@ ANYTUS: It isn't they who are mad, but rather the young
 men who hand over their money, and those responsible
 for them, who let them get into the Sophists' hands,
 are even worse. Worst of all are the cities who allow
-them in, or don't expel them, whether it be a for-
-eigner or one of themselves who tries that sort of
+them in, or don't expel them, whether it be a foreigner or one of themselves who tries that sort of
 game.
 SOCRATES: Has one of the Sophists done you a personal
 injury, or why are you so hard on them?
-ANYTUS: Heavens, no! I've never in my life had any-
-thing to do with a single one of them, nor would I
+ANYTUS: Heavens, no! I've never in my life had anything to do with a single one of them, nor would I
 hear of any ofmy family doing so.
 SOCRATES: So, you've had no experience of them at all?
 ANYTUS: And don't want any either.
 SOCRATES: You surprise me. How can you know what
-is good or bad in something when you have no ex-
-perience of it?
+is good or bad in something when you have no experience of it?
 ANYTUS: Quite easily. At any rate I know their kind,
 whether I've had experience or not.
 In the 19th century, Bentham, 11';lrx, Pareto, and Sorel
@@ -734,9 +663,7 @@ I
 I
 "myths" that people substifiited for rea entitles.
 twas
-Walter Lippmann who coined the word stereotypes, some-
-times using language in Public Opinion such as "stereo-
-typed shapes," and "habit of molding" that
+Walter Lippmann who coined the word stereotypes, sometimes using language in Public Opinion such as "stereotyped shapes," and "habit of molding" that
 re~ects the
 image of the printer. His book, as we have seen, IS largely
 concerned \\',ith t~e l~ck o~ an info~m~dp~QEg.Jln~LQrJl
@@ -756,8 +683,7 @@ xxiv
 PUBLIC OPINION
 -==-
 .j:"'::::::>
-may have uncons~iouslJ:(;()ntribute~to its~()!:~~inl Hehim-
-se~t?_.!§~i~~~~~Yjil:,iY~J,£h]!i~~~S&QilQ,',!§~J!g~g!p:~~,
+may have uncons~iouslJ:(;()ntribute~to its~()!:~~inl Hehimse~t?_.!§~i~~~~~Yjil:,iY~J,£h]!i~~~S&QilQ,',!§~J!g~g!p:~~,
 ,;!,§l,l"
 .1)
 wha~=~~Ir£;f!~~~!~ik~s;t~~::~l~b~:~/
@@ -768,8 +694,7 @@ l~seII!gtei'eolypes 'for him preceded the use of reason'
 '
 "'"'and imposed a certain character on the data of our senses
 before the data reached the intelligence."
-In the nearly 70 years since Lippmann's original con-
-tribution, there have been countless attempts to define
+In the nearly 70 years since Lippmann's original contribution, there have been countless attempts to define
 the concept of stereotypes. Part of the problem with these
 attempts is that analyses differ on the traits making up a
 stereotype, the degree of uniformity and consensus about
@@ -782,7 +707,7 @@ r
 g!;~'l '
 I
 ~:~,~I.?~~~~~lng or exagg~ratl~gtraIts .?r,~h~~c.~~~~S.~ICS 2LV
-1
+
 ..~~~~~i<?E patterns th~t'have. Q~~ll~l$Slgl1ed toindivjduals- '
 ! or groups with a degree ()f"Ieglll~!!y.Individuals in a
 \
@@ -794,22 +719,17 @@ as"sig~~:(f "i()':~!h~'"grQlJn,~,:rhe traits
 O!,~,
 \to membership 5)rIl~ti?nal~ ~!~l1~E\g~Je.Ug!g1!,§"g(QgI?-~~""l
 -'
-For convenience, ·o~~''''s~ne.)(am.in~ theconceptualIii-
-erature and
+For convenience, ·o~~''''s~ne.)(am.in~ theconceptualIiierature and
 empiri~~(~sip4i~son ste~~?'!:ype~, after
-Lippmann's book, from th;e"e "bi-oad perspectlves:'the so-
-c~ological, psycho~o~i~al~atid cognitive..
+Lippmann's book, from th;e"e "bi-oad perspectlves:'the soc~ological, psycho~o~i~al~atid cognitive..
 ,"1'~~".~Qg!21~,g~~,~!.,~P£r9a,~~~,~'s~-I!S-ffia!,. s!e.D~gtyP~.?~~~
 presen~inol1r culture and th(it\Ve. ~~_sgrb them through
 the 'saine" processes
 socialization-c-the family, .Pe.,e.r
 group, mass mediaandif1teractioiiwitl1."Q!he.~§,=~~,,~e.,~o
-,pther concepts or behaviorpatterns. Society tends to de-
-pict individuals andgroups in"part1c"liIar ways, and indi-
-TRANSACTION INTRODUCTION
+,pther concepts or behaviorpatterns. Society tends to depict individuals andgroups in"part1c"liIar ways, and indiTRANSACTION INTRODUCTION
 xxv
-viduals, consciously or unconsciously, accept that depic-
-tion. Indeed, as Lippmann himself asserted, "my moral
+viduals, consciously or unconsciously, accept that depiction. Indeed, as Lippmann himself asserted, "my moral
 system rests on my accepted version of the facts, .(and)
 he who denies either my moral judgments or my version of
 the facts is to me perverse, alien, dangerous." The image of
@@ -823,8 +743,7 @@ of television images of those groups. A stereotype can
 exist about casual or temporary groups no less than about
 permanent groups. In one empirical study, an
 artific~al
-division of children at camp into two groups led to In-
-tense enmity, with each group seeing the other as having
+division of children at camp into two groups led to Intense enmity, with each group seeing the other as having
 undesirable characteristics, even though the children had
 been friends before the division.
 Li12ILmann~~~='yie~~!las
@@ -843,10 +762,9 @@ sorn.e III.ormat. '.. "'-" ,." .. ' ,,' ".'.'''''''', """',, "'·""·"'"''"'''''
 b~~~"!m~,g!!~J:!L!~~"E9.!!~X1p~~E~,,,~§.,,.'Y,~g,,,~~.,.,!~E-~~~
 ..,~~~;
 ~~~h 1 ..
-1
+
 .
-t uonstems.trom the assump-
-U-12],y£",~Q,=Qg,l<;;,S!" __g!]~U)lJ,Qtl",,,.,-- , ..,,',', '", ""'~"~'"''':W''''''''':'''''''''''''''''
+t uonstems.trom the assumpU-12],y£",~Q,=Qg,l<;;,S!" __g!]~U)lJ,Qtl",,,.,-- , ..,,',', '", ""'~"~'"''':W''''''''':'''''''''''''''''
 ..' "
 !!2tl!~~~ . st~r:?~~R:~E~~'~~j!,~~~~E,--
 ,grt~:',~§~~EE,~J~~~~~~,;,,,,,~E,~
@@ -858,8 +776,7 @@ frustrations:"NlucYCoftlie writing from this perspectrve IS
 '"refugees from Nazi Germany. A prominent example IS
 Erich Fromm's Escape from Freedom, highly relevant to
 his day, with its insight that the unwillingness to exercise
-freedom and the yearning for certainty led to the accep-
-tance of Fascism and Nazism.
+freedom and the yearning for certainty led to the acceptance of Fascism and Nazism.
 
 
 XXVI
@@ -872,12 +789,10 @@ mec~~nisll1 related t9,.Ql!~..!,~E-,,~I.cQr!Y~.~7." Internal hostility
 -is-j5ioJected onto targets, innocent or otherwise, because
 of the frustration of individuals. Thus the hostility to the
 outgroup may come first and then later the image of its
-supposed characteristics. The antisemite explains his hos-
-tility by seeing his enemies as "pushy Jews" against whom
+supposed characteristics. The antisemite explains his hostility by seeing his enemies as "pushy Jews" against whom
 aggression is justified. From this perspective, stereotypes
 are invariably negative, and are projections of what is
-undesirable. Only when the hostility is reduced can ste-
-reotypes take a more positive connotation.
+undesirable. Only when the hostility is reduced can stereotypes take a more positive connotation.
 The most well-known and the most influential of these
 social psy~h~i~iicai'~iudies-IsThe-'Authoriiarlan'Persoii=­
 dlity, .. c()ncerned··wlth·expla~#l~·g:!h~.s,~pport
@@ -904,13 +819,9 @@ p
 P..IoaC.h..'. iSn
 ..•...ot just out theI~ to beu.n~.~.~·.·.··
 stood..It .h~s to be constructed from the social context In'
-which"we live. The tole of the observer is always selec-
-tiveand usuallyC"cfeative. We all have an image ofthe
-wot1d_.}y.~ have built. Since people have only alrrrrited-
-9!Pacity to'iEsorb and process information about the so-
-cial world, there is, in Allport's words, "a normality of
-~J!Qgment" about thinKs, or in Lippmann's more fa-
-IUQus phf~_e,
+which"we live. The tole of the observer is always selectiveand usuallyC"cfeative. We all have an image ofthe
+wot1d_.}y.~ have built. Since people have only alrrrrited9!Pacity to'iEsorb and process information about the social world, there is, in Allport's words, "a normality of
+~J!Qgment" about thinKs, or in Lippmann's more faIUQus phf~_e,
 ~:pi£~?r~~ i~~~"h~;d;;;·_·_·_-~~"~·~···"··_~·"o_"<>'"._'~ ..
 t~ii£~~i:[!~~~~~f;~J~~~~
 ~at~go~i~~!!~~§,c~!1£!.,g~g~I~.!?:.~!!g~~..' ~.~,,~~~~~,~. t .... ~,.,,~~~::..
@@ -948,17 +859,14 @@ aggressive" white.
 Th~ '. t~~~~illtel1e~~1Ja,1
 ~pp~0a,:9hesar~,,,n2t,?,()fcour§y,
 mlittrAlIy exclusive: Gordon Allport's influential study The
-.Naiu're'''olPrejl1arce, uses both the cognitive and psycho-
-logical approaches. It sees prejudice resulting from the
+.Naiu're'''olPrejl1arce, uses both the cognitive and psychological approaches. It sees prejudice resulting from the
 
 
 xxviii
 PUBLIC OPINION
 TRANSACTION INTRODUCTION
 xxix
-faulty generalizations we all make when we try to cat-
-egorize the large number of groups in a society. Catego-
-ries may be rational, but often are based on emotion and
+faulty generalizations we all make when we try to categorize the large number of groups in a society. Categories may be rational, but often are based on emotion and
 feeling ..A stet:~Q!Y~.J~~JQrN1IlQrt:.:@,,~~,agg~r~t~QJ2,~!!,~~
 as sQ£iat~5t.,~.!!!LM~.,£§l!~g9rX::'
 .. ,!h~r.~f()x~.,.. it..~.sJl)!?:E,~ill~~~:
@@ -972,54 +880,36 @@ are held, in the consensus on them, and in the degree
 they accurately reflect characteristics of individuals and
 groups. To appraise these issues, the first task is to find
 out empirically the exact nature of a stereotype. The most
-influential study on this question is the Katz-Braly sur-
-vey of Princeton undergraduates in 1932 which has been
+influential study on this question is the Katz-Braly survey of Princeton undergraduates in 1932 which has been
 a model for investigators. Students were asked to put
-down from a list of 84 different traits the five they con-
-sidered most characteristic of each of 10 ethnic groups.
+down from a list of 84 different traits the five they considered most characteristic of each of 10 ethnic groups.
 In spite of some methodological problems, the Katz-Braly
 survey is important for its quantitative comparability.
 Many of the hundreds of surveys since it has used its
 technique of giving lists of traits to participants, but some
-investigators have used an open-ended, free-response for-
-mat in which participants can formulate their own list.
-Both methods try to ascertain the key attitudes held to-
-wards a group, and both can be replicated, as the Katz-
-Braly survey has been on a number of occasions, to ob-
-serve changes in attitudes.
+investigators have used an open-ended, free-response format in which participants can formulate their own list.
+Both methods try to ascertain the key attitudes held towards a group, and both can be replicated, as the KatzBraly survey has been on a number of occasions, to observe changes in attitudes.
 Assessing other factors relating to a stereotype is more
 difficult. Does the term and its characteristics apply to all
 the members of a group, to a majority, or to the "typical"
 member? Allport and Bettelheim both suggest that for
-the holder of a stereotype, an exception to it simply up-
-holds the rule. The problem~ari.§~es jltr~f~m!!g..12,~,..g!~C2~E~""
+the holder of a stereotype, an exception to it simply upholds the rule. The problem~ari.§~es jltr~f~m!!g..12,~,..g!~C2~E~""
 -l1La]}QlJ.1Qg,~!?-~.2E.§~,~Jl1ity-.tQ,_w.hicl1"judiYi~lu~,,"JJl~m!? ..~!:s
 coniQJ:ID~,~James Parkes, the Christian theologian, used to
-'";~y'that antisemitism could be detected when people re-
-ferred to "the Jews," the collective entity, rather to spe-
-cific individuals whom they disliked. The inherent prob-
-lem is that a general stereotype influences the way we
+'";~y'that antisemitism could be detected when people referred to "the Jews," the collective entity, rather to specific individuals whom they disliked. The inherent problem is that a general stereotype influences the way we
 think and talk about individual members of a group.
 One related problem in assessment of a stereotype are
-centrality of the supposed characteristics-ambitious, ag-
-gressive, thrifty and so on-of a group to other aspects of
-its behavior. Other problems are the validity of the char-
-acteristics themselves by comparison with the behavior
+centrality of the supposed characteristics-ambitious, aggressive, thrifty and so on-of a group to other aspects of
+its behavior. Other problems are the validity of the characteristics themselves by comparison with the behavior
 patterns of members of a group, and the degre~ to :vhich
 a stereotype is accepted. A further problem arises In the
-case of the last factor when some members of a stereo-
-typed group accept the dominant image of themselves
-and even reinforce it. This has been termed "the mirror-
-image" attitude. Some, like Jean-Paul Sartre, refer to it as
-"inauthenticity," self-deception and unwillingness to ad-
-here to one's essential self.
+case of the last factor when some members of a stereotyped group accept the dominant image of themselves
+and even reinforce it. This has been termed "the mirrorimage" attitude. Some, like Jean-Paul Sartre, refer to it as
+"inauthenticity," self-deception and unwillingness to adhere to one's essential self.
 Are stereotypes always negative? Lippmann himself
-was not altogether clear on this point. For him, stereo-
-types were deficient but their abandonment "w~uld im-
-poverish human life." Clearly, stereotypes contain some
+was not altogether clear on this point. For him, stereotypes were deficient but their abandonment "w~uld impoverish human life." Clearly, stereotypes contain some
 positive attributes, but in many cases they are used as
-rationalizations for prejudice as the literature on the sub-
-ject makes plain. Indeed, it is this linkage of stereotypes
+rationalizations for prejudice as the literature on the subject makes plain. Indeed, it is this linkage of stereotypes
 with prejudice that makes them objectionable, not simply
 the fact that they are essentially categorizations of people.~,,~
 Anot!?:~~_.9:§p~~.!..grJh&.._§.9:nl~._t§~g~..gr~§~s.....tJ;Qm.. th~.J~f!..-
@@ -1031,21 +921,15 @@ your' ~ife?;; -"Compared to what?" Even assignment of a
 
 desirable or praiseworthy characteristic to a group may
 not always be complimentary in the total context. The
-statement that women are "caring" may convey admira-
-tion and may be true, but it may also imply the absence
-of other qualities, such as dynamism, assertiveness, abil-
-ity to get things done. Similarly, the view that blacks are
-"athletic" seems truthful if one looks at baseball and bas-
-ketball teams. But again, the true significance of the state-
-ment may be that blacks, by the very importance of the
-athletic factor, lack other, more desirable qualities. Cau-
-tion is needed before evaluating the positive or negative
+statement that women are "caring" may convey admiration and may be true, but it may also imply the absence
+of other qualities, such as dynamism, assertiveness, ability to get things done. Similarly, the view that blacks are
+"athletic" seems truthful if one looks at baseball and basketball teams. But again, the true significance of the statement may be that blacks, by the very importance of the
+athletic factor, lack other, more desirable qualities. Caution is needed before evaluating the positive or negative
 aspects of stereotypes.
 :t\r.~""_~!~-r~Q!YP'~~"!~e or not? Lippmann, using another
 term, wrote that "a myth'Is·'not necessarily false.... if it
 has affected human conduct a long time, it is almost
-certain to contain much that is profoundly and impor-
-tantly true." The difficulty is that "a myth never
+certain to contain much that is profoundly and importantly true." The difficulty is that "a myth never
 contains ... the critical power to separate its truths from
 its errors." ~T1),e dileJ1l!!l~t~~r~f?re is to know whether the
 stereot~pic~i "~'t~t~i;1ents-'-beiiig'- jjr·-Qe..
@@ -1071,11 +955,9 @@ couraged the assertion and.exagg~ratlon· 6rtIie t~~!!~~:~~~t
 For that reason, generaliZ:'!t,~2Q'§,9I~,.JQrmulated..,)Yhi£h.J~J?,:
 pear to
 Detr1le:--~~~~'·~~9~~~~y~,.,~~~J!g~§"jIlth~~,Qq!~I~,~.of
-Sfereotype~s'maf'o-c'curwith changes in soci~ty and intel-
-j~£iii:a.r~lImaie,::.~,.",'",,:,""".,.. ",',-;,.....,w~.'''~.'""~~..,.'''~~.,,,,'''m''~'"',''.'"'' ...,v,,..~.."'" """'''":''"._.,''''',.,'
+Sfereotype~s'maf'o-c'curwith changes in soci~ty and intelj~£iii:a.r~lImaie,::.~,.",'",,:,""".,.. ",',-;,.....,w~.'''~.'""~~..,.'''~~.,,,,'''m''~'"',''.'"'' ...,v,,..~.."'" """'''":''"._.,''''',.,'
 A stereotype is perhaps most likely to be true If the
-outgroup is performing limited functions or has an as-
-signed role in society or is restricted in its activities. In
+outgroup is performing limited functions or has an assigned role in society or is restricted in its activities. In
 these cases, for castes in Asian social systems, blacks in
 the pre-Civil War South, Jews in Eastern Europe ghettos,
 the image may more nearly approximate the reality.
@@ -1085,21 +967,16 @@ plentiful works on .~Q_'!.t~~~..~!!~!!_,9~U~.d...'_'Jh~"n,~!!9~"~I..
 '"g~es back to the Greeks, certainly to Aristotle and
 Herodotus, but more recently works like Salvador de
 Madariaga's, Englishmen, Frenchmen, Spaniards, and
-Luigi Barzini's The Europeans have made broad gener-
-alizations about the populations of European countries.
-Obviously, there must be some truth in these generaliza-
-tions. One can observe impressionistically that Spaniards
+Luigi Barzini's The Europeans have made broad generalizations about the populations of European countries.
+Obviously, there must be some truth in these generalizations. One can observe impressionistically that Spaniards
 differ from English people, or Italians from Swedes. If
-this were not the case could there be any point in cross-
-cultural inquiry? Yet, a number of studies have shown
+this were not the case could there be any point in crosscultural inquiry? Yet, a number of studies have shown
 that participants in experimental situations were often not
 able to distinguish peoples of different countries.
 An inherent problem is always the measurement and
-testing the validity of the stereotypes. A particular diffi-
-culty exists in the case of stereotypes of Jews, not only
+testing the validity of the stereotypes. A particular difficulty exists in the case of stereotypes of Jews, not only
 because they have continued through history and been
-held throughout the world, but also because of the con-
-tradictory elements in them. The stereotype embraces both
+held throughout the world, but also because of the contradictory elements in them. The stereotype embraces both
 alienation and cosmopolitanism, capitalist exploitation and
 revolutionary agitation, materialism and being attached
 xxx
@@ -1113,34 +990,27 @@ PUBLIC OPINION
 TRANSACTION INTRODUCTION
 xxxiii
 I'
-to the Bible, aggression and cowardice, superstitious be-
-lievers and agents of modernism, upholders of rigid law
+to the Bible, aggression and cowardice, superstitious believers and agents of modernism, upholders of rigid law
 and moral decadence, being a chosen people and having
 an inferior nature. At its most extreme the stereotype
 held by Nazis, as Lucy Dawidowicz and others have
 pointed out, contained two contradictory elements, both
 of which justified annihilation; one is the view of Jews as
-vermin and bacillus and the other the concept of an om-
-nipotent people engaged in world conspiracy; both are
-undesirable elements and collectively they justify the Ho-
-locaust.
+vermin and bacillus and the other the concept of an omnipotent people engaged in world conspiracy; both are
+undesirable elements and collectively they justify the Holocaust.
 Are stereotypes likely to be held to a greater extent by
 less well-educated than by more well-educated people?
 ~!E}E?,§"~,,,<;!!.,,l?g~§.k~Y,ar,,$ociQlogicaLlit~rat!g:~.,gl1,!b£t,s',!!Qj,~~!
 ,s??~s, that lh~"hQl,~E~cg.,2fl?E~Lg,\Usi~lfll!.!t~g~~, i§ !l1Y~rs~ly'
 P~?P?~!i~~~!,t()g,~g~~~i,Qt~Q,1!~51ti!Q!l.~"B,]lt,that" g~n~Iel~za­
 fl91i:~mus,t.he,"Jr:eated$,"wj,th~,,,c,ate"$£QF,,~at least Cfi&Q) reasons.
-The first is the example of Germany where highly edu-
-cated people, some with Ph.D.'s, accepted the stereo-
-types of Jews, and joined the Nazi party and even the SS.
+The first is the example of Germany where highly educated people, some with Ph.D.'s, accepted the stereotypes of Jews, and joined the Nazi party and even the SS.
 The second is the behavior of highly educated persons
-involved in group decisionmaking and international con-
-flict situations. The small group discussing a particular
+involved in group decisionmaking and international conflict situations. The small group discussing a particular
 difficult and controversial issue may act, as Irving Janis
 has suggested in his book, Victims of Groupthink (1972)
 in a collective way based on "groupthink" which avoids
-dissent. Not only does a consensus develop with cohe-
-siveness, high morale and self-esteem, but also a uniform
+dissent. Not only does a consensus develop with cohesiveness, high morale and self-esteem, but also a uniform
 way of looking at the problem that then justifies action.
 Members of the group stifle the expression of diverse or
 unpopular points of view that do not conform with the
@@ -1152,11 +1022,9 @@ i!glll§S._w1!h_'Y!!2!!LTI:~gQl~fltiQ.1:Lis.jlQLP,.QssiQ!~:,"~One
 might
 disagree with the policy implications of these studies by
 Janis and others, but it cannot be taken for granted that
-well-educated and highly trained professionals in con-
-frontational situations are going to take a less stereotyped
+well-educated and highly trained professionals in confrontational situations are going to take a less stereotyped
 view of "the enemy," their opponents, than do the less
-educated, and thus uphold moral restraints or oppose un-
-necessary violence against the enemy. Perhapsthel?~r~­
+educated, and thus uphold moral restraints or oppose unnecessary violence against the enemy. Perhapsthel?~r~­
 dox in all this is that those
 decisions-'~ln'1niernaiionar
 '-RQ!Hif§=~1i£li' "are}TI?st"-Qi'~fic~t~:~?'--~ake:~"~~'"oiteil,""th~"
@@ -1170,8 +1038,7 @@ They may change in the long run or in
 accord'!!!f~,j:yith
 c~allg'es~n -·ffie-·po~tttc~~·:=~l1ni~te'-as;·"say:,w~cr~lrights or
 ''iemliil"s'ffi' "or'-Tnteiiiatioiiar~cooi5'eration
-become more ac-
-ceptable. B!!t it appearsdiffic~I~~0~st~reot¥P~~,~!2,ghC:lJlge
+become more acceptable. B!!t it appearsdiffic~I~~0~st~reot¥P~~,~!2,ghC:lJlge
 in, the
 sh()I'ti1iil,.~ecause'·"'of··!1i~'·I~g~Slii,:·''YHh.:~h!f,hJ?~:".
 .liefs....areheld __about.agroup. 1.11.,soci?lo~i~allit~~~tllr~,. it
@@ -1183,8 +1050,7 @@ qualities, It is more true th(l!l!~qlJ,~nt~QD:!~~t with a group
 increaseSthe .~(;lIJ~Ii~t?'-§~ C?·tle'~. ~!~~~~~.~.~~~~~st~·~gr?~~.
 , But stere()!),E~;§".~ill~~,::,h!;!y.(~t:ap..,,:alli(iijQroQ.l1.~:,:~t!§!~!1c§".,.~tla
 iherefQre··'Qia.il1()t])~aff~cte~.1:>Y c:g,!!t~t~l. A British study
-in 1986 of multi=rac'iile'sia:tes''''asserted that the stereo-
-types by white of non-whites, mostly Asians, were not
+in 1986 of multi=rac'iile'sia:tes''''asserted that the stereotypes by white of non-whites, mostly Asians, were not
 substantially changed as a result of living there.
 Looking at stereotypes in a broad sense, it is manifest
 they have served individual and group functions. For the
@@ -1208,30 +1074,23 @@ je'ctlon''on the world of our own sense of our own value."
 If",k~U1Qtiollal:;'fespotl~,es..,to,individuql§:;;allQ.,g!9UrS'. s~er~o­
 typesprovide a.guide.Jc.behavior .. and'~JcondiicC:tO:iM'at:It~'
 those.individuals.and.groupsc.,
-For bQth il1dtyidl!,!ls and~?~i~tie~ as a\Vp()le, stereo-
-types ._~!!2~::'.~..:m~~h~~!_~ill,JQi,",~~'~pl~~~tE?ii:::'iQi,~Jll~ilfl:ca~
+For bQth il1dtyidl!,!ls and~?~i~tie~ as a\Vp()le, stereotypes ._~!!2~::'.~..:m~~h~~!_~ill,JQi,",~~'~pl~~~tE?ii:::'iQi,~Jll~ilfl:ca~
 ti§ii·'9f'lcti()~,a~d.for
 .(Eff~£~ntiatiog
 C:lIll?~g .g~()l1P~" and
 IJ~opl~~. T~e)" provide' a 'facile expla~at1,9n}Q!£9mRI,~?C
 P2!!!i£~Lfll1d,§Oc!fl.L~Y~Il.ts'i"Onedoes not need any further
 inquiry into the causes of the plague in Britain in the
-17th century once it is believed that insidious forces-
-Scots, Catholic sorcerers, the Independent Congregation
-Church-were responsible. In his book Warrantfor Geno-
-cide, Norman Cohn examines the impact in the 20th cen-
-tury of the forgery, The Protocols of the Elders of Zion,
-which held that Jews controlled an international con-
-spiracy, had immense powers of evil, and were thus re-
-sponsible for many of the ills existing in the world. Many
+17th century once it is believed that insidious forcesScots, Catholic sorcerers, the Independent Congregation
+Church-were responsible. In his book Warrantfor Genocide, Norman Cohn examines the impact in the 20th century of the forgery, The Protocols of the Elders of Zion,
+which held that Jews controlled an international conspiracy, had immense powers of evil, and were thus responsible for many of the ills existing in the world. Many
 other writers, including Shmuel Ettinger, Salo Baron, Lucy
 Dawidowicz, and Bruno Bettelheim, have pointed out
 that the stereotype of Jews as a group engaged in world
 conspiracy was accepted by Nazi leaders and the SS which
 thus had no qualms about destroying the group.
 The Nazi Holocaust is the most extreme form of action
-against members of an outgroup for supposed deficien-
-cies formulated in stereotypes.B.~tJ~ss",e.~tr~m~,.fQIm.~",2f
+against members of an outgroup for supposed deficiencies formulated in stereotypes.B.~tJ~ss",e.~tr~m~,.fQIm.~",2f
 acti()_l}"JillY~,,,.~Q!!.~J:l.,,,~,~~~,,j~~~i~i~d .~y, "lh~,-£QJ1~£!i2~"."a1!~t
 "exagg~J;ation,,,,Df,,,,,neg.atl¥e,,lmages:"of~an,,~QJltg(OJ!12,,.,,Qr.J2x,,,,a...
 de~~!iJ2!~-st~r.~Q1Y12~d~"Q~t~.gQIi~§..".~~!~h,,,,~,~,_!!~rQ~~,,
@@ -1240,8 +1099,7 @@ Kelman suggests, leads to the dehumanizing of a group
 five1rnageT~~~attrl~~il()i~9!:I~~rigi. ·.st<lm.L!Q..~··
 .·,-:peopl¢-(·IJ:~Y~>~9Wytimes.led<to.a ..loss.of...restrEttn!?".~rr~<t
 mally" pr~s~I1t". ~~"~52gi,~!Yzo.,~l);g,!2,,, ..(;l~ilhngl}ys~JQ ..infliot
-"Yfatfii' ".<iri":,,th~ ..,,Q~lg£2;YP.?, s.r.~g,!r~~4....(;l.~...~I1d~.~i~~?le .,!h~ ....illl-
-ages'~ave als~ jus~ifi~~~ar,~~?ression, colOnization and
+"Yfatfii' ".<iri":,,th~ ..,,Q~lg£2;YP.?, s.r.~g,!r~~4....(;l.~...~I1d~.~i~~?le .,!h~ ....illlages'~ave als~ jus~ifi~~~ar,~~?ression, colOnization and
 """·'Vilizing'ffiissioiis.,,....., .,'''''''',
 .
 ~ve~hen s~~ypes d()ll2t l~<ldt()su~~~~tiOll:tll~Y
@@ -1270,30 +1128,23 @@ ingroups and outgroups.
 E~~!!.Qf.~n.tri§m~_§_~,~~.,.._Qn~.'.~,.Qwn,
 g~?llP .a~ .t~~..~e~~.~.~,.?E,~~,~ry~i,~~ .....~,~~,.~~~.,"~,~~¥E()~J?~rated
 by ~ refere~.~~"'l<?rl'i~."~~c~....?rollP .E~g,~E4~,1.t.s.(),~n.. f()lkwC:lY~
-as the most '"aesi~aole, aI1dciiticize§,. Qft~n with stereo-
-types, those of other groups. 'It also. e:x:aggerates and in-
-tensifies"eveiythi~g in 'itsfolkways whichdifferentiatesit
-from oth~E~.i\·ti!~~()rst,it \li~W§ the outgroupas poten-
-trariy~l10stileand,',~
+as the most '"aesi~aole, aI1dciiticize§,. Qft~n with stereotypes, those of other groups. 'It also. e:x:aggerates and intensifies"eveiythi~g in 'itsfolkways whichdifferentiatesit
+from oth~E~.i\·ti!~~()rst,it \li~W§ the outgroupas potentrariy~l10stileand,',~
 a~c~s"i-~a:!n::~",.::;",~:::.~~:.:~,J.'~""'"
 
 
 xxxvi
 PUBLIC OPINION
 The large body of books and empirical studies on the
-subject of stereotypes is ample tribute to Lippmann's con-
-tribution to American political and social thought. On the
-title page of Public Opinion he had put the famous alle-
-gory of the cave from Plato's Republic. Walter Lippmann's
+subject of stereotypes is ample tribute to Lippmann's contribution to American political and social thought. On the
+title page of Public Opinion he had put the famous allegory of the cave from Plato's Republic. Walter Lippmann's
 whole intellectual life and his elegant, precise, thoughtful
 prose reflected an attempt to get himself and others away
 from the shadows on the wall in order to see reality. He
 was obviously not always correct in his analyses and
-commentaries over a 50-year period. Nor were his tren-
-chant criticism of the public's role in democratic systems
+commentaries over a 50-year period. Nor were his trenchant criticism of the public's role in democratic systems
 and his inquietude about majority rule always warmly
-greeted. But Lippmann refused to be chained, intellectu-
-ally as well as occupationally as a free-ranging journalist.
+greeted. But Lippmann refused to be chained, intellectually as well as occupationally as a free-ranging journalist.
 Public Opinion is a fitting testimony to an eminent life,
 and a valuable sourcefor contemporarystudentsof politics.
 
@@ -1315,7 +1166,7 @@ CHAPTER 1.
 INTRODUCTION
 THE WORLD OUTSIDE AND THE PICTURES
 IN OUR HEADS
-1
+
 THERE is an island in the ocean where in 1914 a
 few Englishmen, Frenchmen, and Germans lived.
 No cable reaches that island, and the British mail
@@ -1341,15 +1192,13 @@ They had been
 mistaken for six weeks, on the continen t the interval
 may have been only six days or six hours.
 There was
-3
-
 
 PUBLIC OPINION
 CHAPTER 1.
 INTRODUCTION
 THE WORLD OUTSIDE AND THE PICTURES
 IN OUR HEADS
-1
+
 THERE is an island in the ocean where in 1914 a
 few Englishmen, Frenchmen, and Germans lived.
 No cable reaches that island, and the British mail
@@ -1374,12 +1223,10 @@ They had been
 mistaken for six weeks, on the continent the interval
 may have been only six days or six hours.
 There was
-3
-
 
 PUBLIC OPINION
 THE PICTURES IN OUR HEADS
-5
+
 an interval.
 There was a moment when the picture
 of Europe on which men were conducting their
@@ -1404,8 +1251,7 @@ news of an armistice, and people gave vent to their
 unutterable relief that the slaughter was over.
 Yet
 in the five days before the real armistice carne.though
-the end of the war had been celebrated, several thou-
-sand young men died on the battlefields.
+the end of the war had been celebrated, several thousand young men died on the battlefields.
 Looking back we can see ~.?~_i!l:q~~"~S~!Y__~_~_,_ kl.1?w
 !h~.J:~.l}vjt:211rnen t _in ~~ic~ _P:~Y:~It.hele.ss:\Y~",HY.e~ ...We
 can see that the news'~f it comes to us now fast, now
@@ -1461,14 +1307,11 @@ A monk
 1 Hexaemeron, i. cap 6, quoted in The Mediaval Mind, by Henry
 Osborn Taylor, Vol. I, p, 73.
 
-
-6
 PUBLIC OPINION
 THE PICTURES IN OUR HEADS
-7
+
 named Cosmas, famous for his scientific attainments,
-was therefore deputed to write a Christian Topo-
-graphy,
+was therefore deputed to write a Christian Topography,
 or
 (( Christian
 Opinion
@@ -1510,7 +1353,7 @@ earth" how could they live on the back where the
 Antipodes are supposed to be? "With such a passage
 before his eyes, a Christian, we are told, should not
 'even speak of the Antipodes."
-2
+
 Far less should he go to the Antipodes; nor should
 any Christian prince give him a ship to try; nor
 1 Lecky, Rationalismi» Europe, Vol. I, pp. 2:76-8.
@@ -1524,26 +1367,20 @@ understand how he would have dreaded Magellan
 or Peary or the aviator who risked a collision with the
 angels and the vault of heaven by flying seven miles
 up in the air.
-In.the same way we can best under-
-stand the furies of war and politics by remembering
-that almost the whole of each party believes abso-
-lutely in its picture of the opposition, that it takes as
+In.the same way we can best understand the furies of war and politics by remembering
+that almost the whole of each party believes absolutely in its picture of the opposition, that it takes as
 fact, not what is, but what it supposes to be the fact.
-And that therefore, like Hamlety.it will stab Pelon-
-ius behind the rustling curtain, thinking him the king,
+And that therefore, like Hamlety.it will stab Pelonius behind the rustling curtain, thinking him the king,
 and perhaps like Hamlet add:
 "Thou wretched, rash, intruding fool, farewell!
 I took thee for thy better; take thy fortune."
-2
+
 Great men, even during their lifetime, are usually
-known to the public only through a fictitious person-
-ality.
-Hence the modicum of truth in the old say-
-ing that no man is a hero to his valet.
+known to the public only through a fictitious personality.
+Hence the modicum of truth in the old saying that no man is a hero to his valet.
 There IS only
 a modicum of truth, for the valet, and the private
-secretary, are often immersed in the fiction them-
-selves.
+secretary, are often immersed in the fiction themselves.
 RQY3Lp~l:~.2E~!g~~.,,~;~L~,L,~2gr§,~,,"~Ql1S.ttllCJ:d.,,"
 12ersonalities.
 Whether they themselves believe In
@@ -1553,23 +1390,18 @@ Whether they themselves believe In
 (l?i~~~:!~,:~ii~f"h,R!lj~~.,"".".Ihe biogr'aphies of great people
 .fan 'more or~less' readily i~to the histories of these two
 
-
-8
 PUBLIC OPINION
 THE PICTURES IN OUR HEADS
-9
+
 selves. The official biographer reproduces the public
 life, the revealing memoir the other. The Charnwood
-Lincoln, for example, is a noble portrait, not of an ac-
-tual human being, but of an epic figure, replete with
+Lincoln, for example, is a noble portrait, not of an actual human being, but of an epic figure, replete with
 significance, who moves on much the same level of
 reality as Aeneas or St. George.
 Oliver's Hamilton
 is a rnajestic abstraction, the sculpture of an idea,
-(C an essay" as Mr. Oliver himself calls it, "on Amer-
-ican union."
-I t is a formal monument to the state-
-craft of federalism, hardly the biography of a person.
+(C an essay" as Mr. Oliver himself calls it, "on American union."
+I t is a formal monument to the statecraft of federalism, hardly the biography of a person.
 So.metimes people create their own facade when they
 think they are revealing the interior scene.
 The
@@ -1584,19 +1416,15 @@ VIctoria came to the
 throne, says Mr. Strachey,t
 "among the outside public there was a great wave
 of enthusiasm.
-Sentiment and romance were com-
-ing into fashion;
+Sentiment and romance were coming into fashion;
 and the spectacle of the Iittle
 girl-queen, innocent, modest, with fair hair and pink
 cheeks, driving through her capital, filled the hearts
 of the beholders with raptures of affectionate loyalty.
-What, above all, struck everybody with overwhelm-
-ing force was the contrast between Queen Victoria
+What, above all, struck everybody with overwhelming force was the contrast between Queen Victoria
 and her uncles.
 The nasty old men, debauched and
-selfish, pigheaded and ridiculous, with their per-
-pe~~a.l burden of debt.s, confusions, and disreput-
-abIlItIes-they had vanished like the snows of winter
+selfish, pigheaded and ridiculous, with their perpe~~a.l burden of debt.s, confusions, and disreputabIlItIes-they had vanished like the snows of winter
 1 Lytton Strachey, Queen Fictoria, p, 72.
 and here at last, crowned and radiant, was the
 .
@@ -1608,14 +1436,12 @@ moment of that soldier's greatest fame:
 " For two years, the entire world paid an almost divine
 homage to the victor of the Marne.
 The baggage-master
-literally bent under the weight of the boxes, of the pack-
-ages and letters which unknown people sent him with a
+literally bent under the weight of the boxes, of the packages and letters which unknown people sent him with a
 frantic testimonial of their admiration.
 I think that
 outside of General Joffre, no commander in the war has
 been able to realize a comparable idea of what glory is.
-They sent him boxes of candy from all the great confec-
-tioners of the world, boxes of champagne, fine wines of
+They sent him boxes of candy from all the great confectioners of the world, boxes of champagne, fine wines of
 every
 vintage,
 fruits,
@@ -1646,8 +1472,7 @@ General.
 As to letters, he had them in all scripts, from
 all countries, written in every dialect, affectionate letters,
 grateful, overflowing with love, filled with adoration.
-They called him Savior of the World, Father of his Coun-
-try, Agent of God, Benefactor of Humanity, etc....
+They called him Savior of the World, Father of his Country, Agent of God, Benefactor of Humanity, etc....
 1 Jean de Pierrefeu, G. Q. G. Trois ans au Grand Quartier General,
 PP·94"-95·
 
@@ -1668,8 +1493,7 @@ from thousands of hearts at the defeat of barbarism. To all
 these naif little souls, Joffre seemed like St. George crush..
 ing the dragon.
 Certainly he incarnated for the conscience
-of mankind the victory of good over evil, of light over dark-
-ness.
+of mankind the victory of good over evil, of light over darkness.
 Lunatics, simpletons, the half-crazy and the crazy
 turned their darkened brains toward him as toward
 reason itself.
@@ -1681,8 +1505,7 @@ ten pounds and would not pay.
 Finally, some hundreds of young girls, overcoming the
 timidity of their sex, asked for engagements, their families
 not to know about it; others wished only to serve him."
-This ideal Joffre was compounded out of the vic-
-tory won by him, his staff and his troops, the despair
+This ideal Joffre was compounded out of the victory won by him, his staff and his troops, the despair
 of the war, the personal sorrows, and the hope of
 future victory.
 But beside hero-worship there is
@@ -1698,14 +1521,11 @@ They were
 as Qmg.iE~!,£!1tJQX~.~yiL~.~,.!h~J!~tQ.~§"lY,~~t~J2m!lip.Q"t.e!lt
 !2E--g2£Q:
 To many simple and frightened minds
-there was no political reverse, no strike, no obstruc-
-tion, no mysterious death or mysterious conflagration
+there was no political reverse, no strike, no obstruction, no mysterious death or mysterious conflagration
 anywhere in the world of which the causes did not
 wind back to these personal sources of evil.
-3
-Worldwide concentration of this kind on a sym-
-bolic personality is rare enough to be clearly re-
-markable, and every author has a weakness for the
+
+Worldwide concentration of this kind on a symbolic personality is rare enough to be clearly remarkable, and every author has a weakness for the
 striking and irrefutable example.
 The vivisection of
 war reveals such examples, but it does not make them
@@ -1744,11 +1564,9 @@ compromise.
 !E_~,....~Imbolism
 of public opinion
 
-
-12
 PUBLIC OPINION
 THE PICTURES IN OUR HEADS
-13
+
 usually bears, as we shall see," the .~~!~~b,,2L,,!~!~
 'l)al'an'cing~~2rji!!~r:~§I~~~="'Tliiii,K~:Iill:~_~:i'imple,of 'how
 .rai~[<!I~~i~_~L...the ...~~~!.~,!.~£~,_!h~_l?!_~f.~!i~.!:!'~N.~_nd
@@ -1756,9 +1574,7 @@ by.~_
 means
 successf~HY.......~.§1eJ21i§h~~_,_ ..~_Y!2:_~,?L_.~0"
 All~d
-'um!:Y~~~ill~R~gi~d" how it was followed ~lm~st im-
-mediately by the breakdown of each natron s sym-
-bolic picture of the other: Britain the Defender of
+'um!:Y~~~ill~R~gi~d" how it was followed ~lm~st immediately by the breakdown of each natron s symbolic picture of the other: Britain the Defender of
 Public Law, France watching at the Frontier of
 Freedom, America the Crusader.
 And think then
@@ -1768,8 +1584,7 @@ personal ambition began to stir postponed issues.
 And then of how the symbolic pictures of the leaders
 gave way, as one by one, Wilson, Clemenceau, Lloyd
 George, ceased to be the incarnation of human hope,
-and became mere!y the negotiators and administra-
-tors for a disillusioned world.
+and became mere!y the negotiators and administrators for a disillusioned world.
 Whether we regret this as one of the soft evils of
 peace or applaud it as a return to sanity is obviously
 no matter here.
@@ -1777,9 +1592,7 @@ Our first concern with fictions and
 symbols is to forget their value to the existing social
 order, and to think of them simply as an important
 part of the machinery of human communication.
-Now in any society that is not completely self-
-contained in its interests and so small that every-
-one can know all about everything that happens,
+Now in any society that is not completely selfcontained in its interests and so small that everyone can know all about everything that happens,
 ideas deal with events that are out of sight and hard
 to grasp.
 Miss Sherwin of Gopher Prairie." is aware
@@ -1809,8 +1622,7 @@ great soldier.
 He stands there boldly unruffled and
 more than life size, with a shadowy army of tiny
 little figures winding off into the landscape behind.
-Nor it seems are great men oblivious to these expec-
-tations.
+Nor it seems are great men oblivious to these expectations.
 M. de Pierrefeu tells of a photographer's
 visit to Joffre.
 The General was in his "middle class
@@ -1821,8 +1633,7 @@ noticed that there were no maps on the walls.
 But
 since according to popular ideas it is not possible to
 think of a general without maps, a few were placed
-in position for the picture, and removed soon after-
-wards." 1
+in position for the picture, and removed soon afterwards." 1
 The only feeling that anyone can have about an
 ey~-neaoes-'·~C?r~xl?"~fi·t~iic~l·s·-tfieTeeEng··arous'ecr5'y""
 'h'is m~;tar"l~~g~
@@ -1839,11 +1650,9 @@ plunged suddenly from entire cheerfulness into a
 PUBLIC OPINION
 paroxysm of grief when a gust of wind cracked
 the kitchen window-pane.
-For hours she was in-
-consolable, and to me incomprehensible.
+For hours she was inconsolable, and to me incomprehensible.
 But when
-she was able to talk, it transpired that if a window-
-pane broke it meant that a close relative had died.
+she was able to talk, it transpired that if a windowpane broke it meant that a close relative had died.
 She was, therefore, mourning for her father, who
 had frightened her into running away from home.
 The father was, of course, quite thoroughly alive as a
@@ -1856,9 +1665,7 @@ prolonged investigation by a skilled psychiatrist could
 show.
 But even the most casual observer could see
 that the girl, enormously upset by her family troubles,
-had hallucinated a complete fiction out of one ex-
-ternal fact, a remembered superstition, and a tur-
-moil of remorse, and fear and love for her father.
+had hallucinated a complete fiction out of one external fact, a remembered superstition, and a turmoil of remorse, and fear and love for her father.
 Abnormality in these instances is only a matter of
 degree.
 When an Attorney-General, who has been
@@ -1875,8 +1682,7 @@ creative imagination, the will to believe, and out of
 these three elements, a counterfeit of reality to which
 there was a violent instinctive response.
 For it is
-clear enough that under certain conditions men re-
-spond as rowerfully to fictions as they do to realities,
+clear enough that under certain conditions men respond as rowerfully to fictions as they do to realities,
 and that In many cases they help to create the very
 fictions to which they respond.
 Let him cast the
@@ -1897,8 +1703,7 @@ But because it is behavior, the consequences, if
 they are acts, operate not in the pseudo-environment
 where the behavior is stimulated, but in the real
 environment where action eventuates.
-If the be-
-havior is not a practical act, but what we call roughly
+If the behavior is not a practical act, but what we call roughly
 thought and emotion, it may be a long time before
 there is any noticeable break in the texture of the
 fictitious world.
@@ -1906,19 +1711,16 @@ But when
 the stimulus of the
 pseudo-fact results in action on things or other people,
 contradiction soon develops.
-Then comes the sen-
-sation of butting one's head against a stone wall,
+Then comes the sensation of butting one's head against a stone wall,
 of learning by experience, and witnessing Herbert
 Spencer's tragedy of the murder of a Beautiful
 Theory by a Gang of Brutal Facts, the discomfort
 in short of a maladjustment.
 For certainly, at the
 level of social life, what is called the adjustment of
-man to his environment takes place through the me-
-dium of fictions.
+man to his environment takes place through the medium of fictions.
 By fictions I do not mean lies.
-I mean a represen-
-tatlon"'offne"'"e'ii':Vi'ronmen"f'wfiicn"'is'iii'Ies'ser'or"""reater
+I mean a representatlon"'offne"'"e'ii':Vi'ronmen"f'wfiicn"'is'iii'Ies'ser'or"""reater
 __~"-"'~-~~~'._"~_~"_'__~_'_."_""'''.''''''''~'~'__'~"_''''_''''"'"'''.'''''''''''-''''''''''''''"~'''''''''''_'~='.fg"",""".w,.,,,,,,,.,,·..w.,,,,·,,.~.•
 'degree made by man himself.
 The range of fiction
@@ -1930,16 +1732,12 @@ r,'~. '--."'-,; -; '::' ,'._ ·'·-',./i,/·_-,;.;,-,,,~.,·-,;~;,..
 ,",' },."j
 •
 
-
-16
 PUBLIC OPINION
 THE PICTURES IN OUR HEADS
-17
+
 extends all the way from complete hallucination to
-the scientists' perfectly self-conscious use of a sche-
-matic model, or his decision that for his particular
-problem accuracy beyond a certain number of deci-
-mal places is not important.
+the scientists' perfectly self-conscious use of a schematic model, or his decision that for his particular
+problem accuracy beyond a certain number of decimal places is not important.
 /l~lYQll~"","QfJi;.~!iQ.n~m-ty
 ,"~.a:y~..e!m.Q§lJU1~" ..d~gr~~ .~Q£.fi~:l~.n.tY~.c~,~S!.,!.~gJ,9.,ng",~§"w!.~:~
 4~€l~~'2f ,~~~.!.i.!Y,,_S.e.~ .. _~,~_~.~~~n.}?t? ..~C~?~?t,. ~~~i~n. is
@@ -1951,8 +1749,7 @@ menis" .··· ot"our '. ideas.'''''(''- The "aJternatlve·..
 ·t~-·· the"'
 ~";~""'§rfl~t1,o~s:iroa;;re~t"e~p~~~t~-'t~~·~~~"":~~d
 fu>w"""or·sensatio'n,:··thit 'is" not a"re-ar~nternative, for-'
-however"'''reTre's'l11ng it is to see at times with a per-
-fectly innocent eye, innocence itself is not wisdom,
+however"'''reTre's'l11ng it is to see at times with a perfectly innocent eye, innocence itself is not wisdom,
 though a source and corrective of wisdom.
 \
 For ,thereal environment is altogether too big, too
@@ -1967,7 +1764,7 @@ Their
 persistent difficulty is to secure maps on which their
 own need, or someone else's need, has not sketched in
 the coast of Bohemia.
-4
+
 ·.~,Ih.~,_.~!1~Iy~t,Q.LpJlhlic...g,I?iniQ,!1.J!U1S~Lhegil1-theJl, ..,,_~.r.,
 ,1:~,~Qgnizillg._"th€--tr4angulaL"relati.Ql1ship_he.t~.~n
 ,__the
@@ -2008,10 +1805,8 @@ of American marines on the Dalmatian coast.
 The
 newspaper said:
 FACTS NOW ESTABLISHED
-"The following important facts appear already estab-
-lished.
-The orders to Rear Admiral Andrews command-
-ing the American naval forces in the Adriatic, came from
+"The following important facts appear already established.
+The orders to Rear Admiral Andrews commanding the American naval forces in the Adriatic, came from
 the British Admiralty via the War Council and Rear
 Admiral
 Knapps
@@ -2020,12 +1815,9 @@ London.
 The
 approval
 or
-dis-
-approval of the American Navy Department was not
+disapproval of the American Navy Department was not
 asked....
 
-
-18
 PUBLIC OPINION
 THE PICTURES IN OUR HEADS
 acted (( under orders of ~fumr~ill-~_.~~_2E...~il sitting
@@ -2059,8 +1851,7 @@ d~laril1git~!herefore the action was necessary and
 Both sides now assume that the report is true,
 and the conclusions they draw are the conclusions of
 their partisanship.
-Yet this extraordinary assump-
-tion is in a debate over a resolution to investigate the
+Yet this extraordinary assumption is in a debate over a resolution to investigate the
 truth of the assumption.
 It reveals how difficult it
 is, even for trained lawyers, to suspend response until
@@ -2073,11 +1864,8 @@ marines were not landed by order of the British
 Government or of the Supreme Council.
 They had
 WITHOUT DANIELS' KNOWLEDGE
-"Mr. Daniels was admittedly placed in a peculiar posi-
-tion when cables reached here stating that the forces over
-which he is presumed to have exclusive control were carry-
-ing on what amounted to naval warfare without his knowl-
-edge.
+"Mr. Daniels was admittedly placed in a peculiar position when cables reached here stating that the forces over
+which he is presumed to have exclusive control were carrying on what amounted to naval warfare without his knowledge.
 It was fully realized that the British Admiralty
 might desire to issue orders to Rear Admiral Andrews to
 act on behalf of Great Britain and her Allies, because the
@@ -2091,16 +1879,14 @@ consent of the American Navy Department...." etc.
 (Italics mine).
 The first Senator to comment is Mr. Knox of
 Pennsylvania.
-Indignantly he demands investiga-
-tion.
+Indignantly he demands investigation.
 In Mr. Brandegee of Connecticut, who spoke
 next, indignation has already stimulated credulity.
 Where Mr. Knox indignantly wishes to know if the
 report is true, Mr. Brandegee, a half a minute later,
 would like to know what would have happened if
 marines had been killed. Mr. Knox, interested in the
-question, forgets that he asked for an inquiry, and re-
-plies.
+question, forgets that he asked for an inquiry, and replies.
 If American marines had been killed, it would
 be war.
 The mood of the debate is still conditional.
@@ -2112,11 +1898,9 @@ Theodore Roosevelt's quip about "waging peace."
 More debate.
 Mr. Brandegee notes that the marines
 
-
-20
 PUBLIC OPINION
 THE PICTURES IN OUR HEADS
-21
+
 It is to these special worlds, it is to these private
 or group, or class, or provincial, or occupational, or
 national, or sectarian artifacts, that the political
@@ -2127,12 +1911,10 @@ to describe.
 Yet these fictions determine a very
 great part of men's political behavior.
 We must
-think of perhaps fifty sovereign parliaments consist-
-ing of at least a hundred legislative bodies.
+think of perhaps fifty sovereign parliaments consisting of at least a hundred legislative bodies.
 With
 them belong at least fifty hierarchies of provincial and
-municipal assemblies, which with their executive, ad-
-ministrative and legislative organs, constitute formal
+municipal assemblies, which with their executive, administrative and legislative organs, constitute formal
 authority on earth.
 But that does not begin to
 reveal the complexity of political life. For in each of
@@ -2140,27 +1922,23 @@ these innumerable centers of authority there are
 parties, and these parties are themselves hierarchies
 with their roots in classes, sections, cliques and clans;
 and within these are the individual politicians, each
-the personal center of a web of connection and mem-
-ory and fear and hope.
+the personal center of a web of connection and memory and fear and hope.
 Somehow or other, for reasons often necessarily
 obscure, as the result of domination or compromise or
 a logroll, there emerge from these poEtical bodies
 commands, which set armies in motion or make
 peace, conscript life, tax, exile, imprison, protect
 property or confiscate it, encourage one kind of
-enterprise and discourage another, facilitate immi-
-gration or obstruct it, improve communication or
+enterprise and discourage another, facilitate immigration or obstruct it, improve communication or
 censor it, establish schools, build navies, proclaim
 (( policies," and "destiny," raise economic barriers,
 make property or unmake it, bring one people under
 the rule of another, or favor one class as against
-5
+
 Whether in this particular case the Senate was
-above or below its normal standard, it is not neces-
-sary to decide.
+above or below its normal standard, it is not necessary to decide.
 Nor whether the Senate compares
-favorably with the House, or with other parlia-
-ments.
+favorably with the House, or with other parliaments.
 At the moment, I should like to think only
 about the wor~d~~~~.~~~~E~.S!,~s!~.".gfnl~lt"c;!.~ling.UPQ.D
 ._!h~}E..,.,~§t2.!1!i~q:t~,",.JJ1,o.ved ..."h¥"..~...s.ti.mJJli...~..£tQm.,....their
@@ -2191,11 +1969,8 @@ The picture
 ':Tl''f.:;~,tp,t~·}was furnished, in this case probably with intent to
 deceive, by a man who cared nothing about the
 Adriatic, but much about defeating the League.
-To this picture the Senate responded by a strengthen-
-ing of its partisan differences over the League.
+To this picture the Senate responded by a strengthening of its partisan differences over the League.
 
-
-22
 PUBLIC OPINION
 THE PICTURES IN OUR HEADS
 another.
@@ -2232,8 +2007,7 @@ o ern society,
 says
 r.
 esterton,
-1S 1n-
-trinsically insecure because it is based on the notion
+1S 1ntrinsically insecure because it is based on the notion
 that all men will do the same thing for different
 reasons .... And as within the head of any convict
 may be the hell of a quite solitary crime, so in the
@@ -2246,16 +2020,14 @@ own mind.
 He may listen to his thoughts as to the
 dull ticking of a clock.
 The man next door may be a
-Christian Scientist and regard his own body as some-
-how rather less substantial than his own shadow.
+Christian Scientist and regard his own body as somehow rather less substantial than his own shadow.
 He may come almost to regard his own arms and legs
 as delusions like moving serpents in the dream of
 delirium tremens.
 The third man in the street may
 not be a Christian Scientist but, on the contrary, a
 Christian.
-He may live in a fairy tale as his neigh-
-bors would say; a secret but solid fairy tale full of the
+He may live in a fairy tale as his neighbors would say; a secret but solid fairy tale full of the
 faces
 and
 presences of unearthly
@@ -2282,9 +2054,7 @@ rendezvous with his young lady.
 But to expect this
 to happen night after night is unwise. . . ." 1
 For the four men at the lamp post substitute the
-governments, the parties, the corporations, the socie-
-ties, the social sets, the trades and professions, uni-
-versities, sects, and nationalities of the world.
+governments, the parties, the corporations, the societies, the social sets, the trades and professions, universities, sects, and nationalities of the world.
 Think
 of the legislator voting a statute that will affect
 distant peoples, a statesman coming to a decision.
@@ -2292,43 +2062,36 @@ Think of ~he.Peace, . G0l1fereQ,~.~~"J:~.c.Qn.s.til11.ting.cJhet
 f[Qn!!,~r_~c",cQ[:=~~:i:~E~)~~~~~~"'~~~'bassador
 in a foreign
 country trying to discern the intentions of his own
-government and of the foreign government, a pro-
-moter working a concession in a backward country,
+government and of the foreign government, a promoter working a concession in a backward country,
 an editor demanding a war, a clergyman calling on
 1 G. K. Chesterton, "The Mad Hatter and the Sane Householder,"
 J7anity Fair, January, 192 1, p. 54-·
 
 
 PUBLIC OPINION
-the police to regulate amusement, a club lounging-
-room making up its mind about a strike, a sewing
+the police to regulate amusement, a club loungingroom making up its mind about a strike, a sewing
 circle preparing to regulate the schools, nine judges
 deciding whether a legislature in Oregon may fix the
 working hours of women, a cabinet meeting to decide
-on the recognition of a government, a party con-
-vention choosing a candidate and writing apIatform,
+on the recognition of a government, a party convention choosing a candidate and writing apIatform,
 twenty-seven million voters casting their ballots, an
 Irishman in Cork thinking about an Irishman in
-Belfast, a Third International planning to recon-
-struct the whole
+Belfast, a Third International planning to reconstruct the whole
 of human society, a board of
 directors confronted with a set of their employees'
-demands, a boy choosing a career, a merchant esti-
-mating supply and demand for the coming season,
+demands, a boy choosing a career, a merchant estimating supply and demand for the coming season,
 a speculator predicting the course of the market, a
 banker deciding whether to put credit behind a new
-enterprise, the advertiser, the reader of advertis-
-ments....Think of the different sorts of Americans
+enterprise, the advertiser, the reader of advertisments....Think of the different sorts of Americans
 thinking about their notions of"The British Empire"
 or "France" or "Russia" or "Mexico."
 It is not
 so different from Mr. Chesterton's four men at the
 pea green lamp post.
-6
+
 And so before we involve ourselves in the jungle
 of obscurities about the innate differences of men, we
-shall do well to fix our attention upon the extraor-
-dinary differences in what men know of the world. 1
+shall do well to fix our attention upon the extraordinary differences in what men know of the world. 1
 I do not doubt that there are important biological
 differences.
 Since man is an animal it would be
@@ -2338,11 +2101,8 @@ But as rational beings it
 THE PICTURES IN OUR HEADS
 is worse than shallow to generalize at all about
 comparative behavior until there is a measurable
-similarity between the environments to which be-
-havior is a response.
-The pragmatic value of this idea is that it intro-
-duces a much needed refinement into the ancient con-
-troversy about nature and nurture, innate quality
+similarity between the environments to which behavior is a response.
+The pragmatic value of this idea is that it introduces a much needed refinement into the ancient controversy about nature and nurture, innate quality
 and
 environment.
 For
@@ -2399,8 +2159,6 @@ which the world is '.. irnagiP:.~g.d~te.rmines.a.t
 particular moment what men will do.
 It does not
 
-
-26
 PUBLIC OPINION
 THE PICTURES IN OUR HEADS
 determine what they will achieve.
@@ -2410,10 +2168,8 @@ accomplishments and results.
 The very men who
 most loudly proclaim their ccmaterialism" and their
 contempt for
-ccideologues," the Marxian commun-
-ists, place their entire hope on what?
-On the forma-
-tion by propaganda of a class-conscious group.
+ccideologues," the Marxian communists, place their entire hope on what?
+On the formation by propaganda of a class-conscious group.
 But
 what is propaganda, if not the effort to alter ~tne
 pic'ture···~·to·'"'·wliich'·'inen"·'res~p61ia;·····to··"s'ub'stii:ute~
@@ -2428,35 +2184,28 @@ sociar'''''attern'Tor''ano'tIie'f?'~'''WFiatis''classcon'scrous::'
 •••• .,"'''''''-
 .,g~~§..~"Q.!tt"ft,W~Y,9f l:~~F~f~g'..~~::~?rld ?
 National
-consciousness but another' way'? . Arid'Professor Gid-
-dings' consciousness of kind, but a process of believ-
-ing that we recognize among the multitude certain
+consciousness but another' way'? . Arid'Professor Giddings' consciousness of kind, but a process of believing that we recognize among the multitude certain
 ones marked as our kind?
 Try to explain social life as the pursuit of pleasure
 and the avoidance of pain.
 You will soon be saying
-that the hedonist begs the question, for even suppos-
-ing that man does pursue these ends, the crucial
+that the hedonist begs the question, for even supposing that man does pursue these ends, the crucial
 problem of why he thinks one course rather than
 another likely to produce pleasure, is untouched.
 Does the guidance ofman's conscience explain? How
-then does he happen to have the particular con-
-science which he has?
-The theory of economic self-
-interest?
+then does he happen to have the particular conscience which he has?
+The theory of economic selfinterest?
 But how do men come to conceive their
 interest in one way rather than another? The desire
 for security, or prestige, or domination, or what is
 vaguely called self-realization?
-How do men con-
-ceive their security, what do they consider prestige,
+How do men conceive their security, what do they consider prestige,
 how do they figure out the means of domination, or
 what is the notion of self which they wish to realize?
 Pleasure, pain, conscience, acquisition, protection,
 enhancement, mastery, are undoubtedly names for
 some of the ways people act.
-There may be instinc-
-tive dispositions which work toward such ends.
+There may be instinctive dispositions which work toward such ends.
 But
 no statement of the end, or any description of the
 tendencies to seek it, can explain the behavior which
@@ -2482,8 +2231,7 @@ have. ~e~~,~91c;.t()~ay!hat exceptfor the first nine
 u'-"Tfie'diief d1fficufty
 CTii-'adapting the psychoanalytic
 scheme to political thought arises in this connection.
-The Freudians are concerned with the maladjust-
-ment of distinct individuals to other individuals
+The Freudians are concerned with the maladjustment of distinct individuals to other individuals
 and to concrete circumstances,
 They have assumed
 that if internal derangements could be straightened
@@ -2495,25 +2243,20 @@ facts, and there is nothing obvious about them.
 The situations to which public opinions refer are
 known only as opinions.
 The psychoanalyst, on the
-other hand, almost always assumes that the environ-
-ment is knowable, and if not knowable then at least
+other hand, almost always assumes that the environment is knowable, and if not knowable then at least
 bearable, to any unclouded intelligence. This assump-
 
-
-28
 PUBLIC OPINION
 THE PICTURES IN OUR HEADS
 tion of his is the problem of public opinion.
 Instead
 of taking for granted an environment that is readily
-known, the social analyst is most concerned in study-
-ing how the larger political environment is conceived,
+known, the social analyst is most concerned in studying how the larger political environment is conceived,
 and how it can be conceived more successfully.
 The
 psychoanalyst examines the adj ustment to an X,
 called by him the environment; the social analyst
-examines the X, called by him the pseudo-environ-
-ment.
+examines the X, called by him the pseudo-environment.
 He is, of course, permanently and constantly in
 debt to the new psychology, not only because when
 rightly applied it so greatly helps people to stand on
@@ -2525,8 +2268,7 @@ But he cannot assume as his criterion
 either what is called a "normal biological career" 1
 within the existing social order, or a career" freed
 from religious suppression and dogmatic
-conven-
-tions" outside."
+conventions" outside."
 What for a sociologist is a normal
 social career?
 Or one freed from suppressions and
@@ -2541,14 +2283,13 @@ that society is the sort of thing which corresponds to
 their idea ofwhat is normal, or the sort of thing which
 corresponds to their idea of what is free.
 Both ideas
-are merely public opinions, and while the psycho-
-analyst as physician may perhaps assume them, the
+are merely public opinions, and while the psychoanalyst as physician may perhaps assume them, the
 sociologist may not take the products of existing
 1 Edward J. Kempf, Psychopathology, p. 116.
 2 Id., p. 151.
 public opinion as criteria by which to study public
 opInIon.
-7
+
 I
 Tbe ~orld that we h~y~_~£-g~aL}Yj,!h_p.Q!iti~illly.J"~,)(
 ou !.~~,LE,~.~£E~.,2gf~I:~~!,gh!~'~A9,gL2f,,,!!.li!lfi~$"'~ItJ:Hl~¢"'tQ~.he.~
@@ -2601,7 +2342,7 @@ And
 3°
 PUBLIC OPINION
 THE PICTURES IN OUR HEADS
-31
+
 first into some of the reasons why the pi~.t!lt~j11..sige
 so... ..oft~n
 misleads:<ii1~~'""··i'["~OIF"eIr"::··~·eaIIng§::·",}Yj.tlLthe
@@ -2660,8 +2401,7 @@ c~g~,~
 Public Opinion, .ho:y~".N:e,ti9P-.al. Will, a. ·· .Gr,Ql!.1?
 Mind, ....a Social' 'Pli'rp'Q§~"gt..:'Yha teverYQ1!.,.wsh~~~_e
 !() ~al1 it, isformed.
-The first "tiv~'"parts constitute the descriptive sec-
-tion of the book.
+The first "tiv~'"parts constitute the descriptive section of the book.
 There follows an analysis of the
 traditional democratic theory of public opinion. The_..
 ~~'~~~~'~'~~'JgL.,~h.~,_~~~~~~~_~!.,.,,!.§,._.thit.l~cl~m.Q~r.e.£y,.j.!~L1t~
@@ -2677,14 +2417,10 @@ thinkers, there
 follows
 an
 examination of the most advanced and coherent of
-these criticisms, as made by the English Guild Social-
-ists.
-My purpose here is to find out whether these re-
-formers take into account the main difficulties of pub-
-lic opinion.
+these criticisms, as made by the English Guild Socialists.
+My purpose here is to find out whether these reformers take into account the main difficulties of public opinion.
 My conclusion is that they ignore the
-difficulties, as completely as did the original demo-
-crats because they, too, assume, and in a much more
+difficulties, as completely as did the original democrats because they, too, assume, and in a much more
 com~licated civilization, that somehow mysteriously
 there exists in the hearts of men a knowledge of the
 world beyond their reach.
@@ -2706,8 +2442,7 @@ b~~i~- of election, unless .... there.dsian...ind~_p~,nQ,t:;_~,!t~
 ~~~ternpt, therefore, to argue that the
 ~ertC>,Y§
 e;t~­
-ceptance of the principle that. personal rc:prese!lta-
-tion must be supplemented by representation of~he
+ceptance of the principle that. personal rc:prese!ltation must be supplemented by representation of~he
 Ul1S~~tlf~cts :Y?tll~ . alone permit a satisfactory ·d~-:.
 c~~'tr"~li~ation .and allow us. to escape Jrom the
 ,.,.," .,.
@@ -2723,8 +2458,6 @@ confused because the cd'tics and the apologists expect
 the press to realize this fiction, expect it to make up
 for all that was not foreseen in the theory of democ-
 
-
-32
 PUBLIC OPINION
 CHAPTER 2.
 PART II
@@ -2793,16 +2526,14 @@ de Pierrefeu,' "was
 edited in a dramatic atmosphere.
 M. 'Berthelot,
 of the Prime Minister's office, had just telephoned by
-order of the minister asking General Pelle to strength-
-en the report and to emphasize the proportions of the
+order of the minister asking General Pelle to strengthen the report and to emphasize the proportions of the
 enemy's attack.
 It was necessary to prepare the
 public for the worst outcome in case the affair
 turned into a catastrophe.
 This anxiety showed
 clearly that neither at G. H. Q. nor at the Ministry
-of War had the Government found reason for con-
-fidence.
+of War had the Government found reason for confidence.
 As M. Berthelot spoke, General Pelle made
 1 G. Q. G., pp, 126-129.
 ~5
@@ -2812,8 +2543,7 @@ The General arrived smiling, quiet and good humored,
 said a few pleasant words about this new kind of
 literary council of war, and looked at the texts.
 He chose the simpler one, gave more weight to the
-first phrase, inserted the words 'as had been antici-
-pated,' which supply a reassuring quality, and was
+first phrase, inserted the words 'as had been anticipated,' which supply a reassuring quality, and was
 flatly against inserting von Deimling's order, but was
 for transmitting it to the press in a special note . . ."
 General Joffre that evening read the communique
@@ -2825,8 +2555,7 @@ paint a picture in men's minds of what was happening
 on the slopes of Verdun, and in front of that picture
 people would take hea:t or despair. .The shop~eeper
 in Brest, the peasant In Lorraine, the deputy In the
-Palais Bourbon; the editor in Amsterdam or Minnea-
-polis had to be kept in hope,
+Palais Bourbon; the editor in Amsterdam or Minneapolis had to be kept in hope,
 an~ ye.t prepared .to
 accept possible defeat without yielding to panIC.
 They are told, therefore, that the loss of ground
@@ -2844,8 +2573,7 @@ offensive.
 Supporting trenches had not been dug,
 alternative roads had not been built, barbed wire was
 lacking.
-But to confess that would have aroused im-
-ages in the heads of civilians that might well have
+But to confess that would have aroused images in the heads of civilians that might well have
 turned a reverse into a disaster. The High Command
 could be disappointed, and yet pull itself togeth:r; ~he
 people at home and
@@ -2863,13 +2591,11 @@ Germany was letting loose a gigantic effort, an
 effort without precedent, and that from its success
 she hoped for the end of the war.
 The logic of this
-was that nobody need be surprised at our with-
-drawal.
+was that nobody need be surprised at our withdrawal.
 When, a half hour later, I went down with
 iny manuscript, I found gathered together in Colonel
 Claudel's office, he being away, the major-general,
-General Janin, Colonel Dupont, and Lieutenant-
-Colonel Renouard. Fearing that I would not succeed
+General Janin, Colonel Dupont, and LieutenantColonel Renouard. Fearing that I would not succeed
 in giving the desired impression, General Pelle had
 himself prepared a proposed communique.
 I read
@@ -2885,8 +2611,7 @@ I had purposely omitted von
 Deimling's order of the day.
 To put it into the
 communique would be to break with the formula to
-which the public was accustomed, would be to trans-
-form it into a kind ofpleading. It would seem to say:
+which the public was accustomed, would be to transform it into a kind ofpleading. It would seem to say:
 'How do you suppose we can resist?'
 There was
 reason to fear that the public would be distracted by
@@ -2898,22 +2623,16 @@ of a separate note.
 "Opinion being divided, General Pelle went to ask
 General de Castelnau to come and decide finally..
 CENSORSHIP AND PRIVACY
-37
-
 
 PUBLIC OPINION
 CENSORSHIP AND PRIVACY
-39
+
 purp~se, might on the basis of a complete story have
-lost sight of the war in a melee of faction and counter-
-faction about the competence of the officers.
-In-
-stead, therefore, of letting the public act on all the
-facts which the g~nerals knew, the authori ties pre-
-sented only certain facts, and these only in such
+lost sight of the war in a melee of faction and counterfaction about the competence of the officers.
+Instead, therefore, of letting the public act on all the
+facts which the g~nerals knew, the authori ties presented only certain facts, and these only in such
 a way as would be most likely to steady the people.
-!n this case the men who arranged the pseudo-
-environment knew what the real one was.
+!n this case the men who arranged the pseudoenvironment knew what the real one was.
 But a
 few days later an incident occurred about which the
 French Staff did not know the truth.
@@ -2947,9 +2666,7 @@ which certainly had a thousand to one chance of
 being true."
 The communique of this imaginary
 battle read:
-"A bitter struggle is taking place around Fort de Douau-
-mont which is an advanced post of the old defensive or-
-Ian February 26, 1916.
+"A bitter struggle is taking place around Fort de Douaumont which is an advanced post of the old defensive orIan February 26, 1916.
 Pierrefeu, G. Q. G., pp. 133 et seq.
 ganization of Verdun.
 The position taken this morning
@@ -3009,8 +2726,7 @@ by his losses has not renewed the attack'. . . Certain
 formulae, later abandoned because they had been
 overworked, were used each day: 'under our artillery
 and machine gun fire'. . . 'mowed down by our
-artillery and machine gun fire'...Constant repeti-
-tion impressed the neutrals and Germany itself, and
+artillery and machine gun fire'...Constant repetition impressed the neutrals and Germany itself, and
 helped to create a bloody background in spite of the
 denials from Nauen (the German wireless) which
 tried vainly to destroy the bad effect of this perpetual
@@ -3018,20 +2734,16 @@ repetition." 1
 The thesis of the French Command, which it
 wished to establish publicly by these reports, was
 formulated as follows for the guidance of the censors:
-"This offensive engages the active forces of our oppon-
-ent whose manpower is declining.
+"This offensive engages the active forces of our opponent whose manpower is declining.
 We have learned that
 the class of 1916 is already at the front.
 There will remain
 the 1917 class already being called up, and the resources
-of the third category (men above forty-five, .or conva-
-lescents).
+of the third category (men above forty-five, .or convalescents).
 In a few weeks, the German forces exhausted
 by this effort, will find themselves confronted with all the
-forces of the coalition (ten millions against seven mil-
-lions)." 2
-According to M. de Pierrefeu, the French com-
-mand had converted itself to this belief.
+forces of the coalition (ten millions against seven millions)." 2
+According to M. de Pierrefeu, the French command had converted itself to this belief.
 ccBy an
 extraordinary aberration of mind, only the attrition
 of the enemy was seen; it appeared that our forces
@@ -3048,7 +2760,7 @@ since it lacked food, had not yet surrendered.
 (( It
 was necessary through the press bureau to request
 them to drop the encirclement theme." 1
-2
+
 The editor of the French communique tells us that
 as the battle dragged out, his colleagues and he set
 out to neutralize the pertinacity of the Germans by
@@ -3059,8 +2771,7 @@ fact until late in 1917, the orthodox view of the war
 for all the Allied peoples was that it would be decided
 by
 ccattrition."
-Nobody believed in a war of move-
-ment.
+Nobody believed in a war of movement.
 It was insisted that strategy did not count,
 or diplomacy.
 It was simply a matter of killing
@@ -3071,28 +2782,23 @@ in face of spectacular German successes.
 C( Almost no day passed but the communique....
 ascribed to the Germans with some appearance of
 justice heavy losses, extremely heavy, spoke of
-bloody sacrifices, heaps of corpses, hecatombs. Like-
-wise the wireless constantly used the statistics of the
+bloody sacrifices, heaps of corpses, hecatombs. Likewise the wireless constantly used the statistics of the
 intelligence bureau at Verdun, whose chief, Major
-Cointet, had invented a method of calculating Ger-
-man
+Cointet, had invented a method of calculating German
 losses which obviously produced marvelous
 results.
 Every fortnight the figures increased a
 hundred thousand or so.
 These 300,000, 400,000,
 500,000 casualties put out, divided into daily, weekly,
-monthly losses, repeated in all sorts of ways, pro-
-duced a striking effect.
+monthly losses, repeated in all sorts of ways, produced a striking effect.
 Our formulae varied little:
 1 Pierrefeu, Ope cit., pp. 134-5.
 CENSORSHIP AND PRIVACY
-41
-
 
 PUBLIC OPINION
 CENSORSHIP AND PRIVACY
-43
+
 \Ve have learned to call this propaganda. A group
 of men, who can prevent independent access to the
 event, arrange the news of it to suit their purpose.
@@ -3103,8 +2809,7 @@ them to be seen.
 The casualty figures of Major
 Cointet which were spread about the world are of the
 same order.
-They were intended to provoke a parti-
-cular kind of inference, namely that the war of
+They were intended to provoke a particular kind of inference, namely that the war of
 attrition was going in favor of the French.
 But the
 inference is not drawn in the form of argumen t.
@@ -3112,12 +2817,10 @@ It
 results almost automatically from the creation of a
 mental picture of endless Germans slaughtered on
 the hills about Verdun.
-By putting the dead Ger-
-mans in the focus of the picture, and by omitting to
+By putting the dead Germans in the focus of the picture, and by omitting to
 mention the French dead, a very special view of the
 battle was built up.
-It was a view designed to neu-
-tralize the effects of German terri torial advances and
+It was a view designed to neutralize the effects of German terri torial advances and
 the impression of power which the persistence of the
 offensive was making. It was also a view that tended
 to make the public acquiesce in the demoralizing
@@ -3146,8 +2849,7 @@ legal power over publishers, over public meetings, and
 by its secret service.
 But in the case of an army the
 control is far from perfect.
-There is always the en-
-emy's communique, which in these days of wireless
+There is always the enemy's communique, which in these days of wireless
 cannot be kept away from neutrals.
 Above all there
 is the talk of the soldiers, which blows back from
@@ -3162,7 +2864,7 @@ what is going on, and
 their acts are more easily
 supervised.
 ...
-3
+
 Without some form of censorship, propaganda in
 the strict sense of the word is impossible.
 In order to
@@ -3191,8 +2893,7 @@ men impose and other men accept a particular
 standard of secrecy.
 The frontier between what is
 concealed because publication is not, as we say,
-"compatible with the public interest" fades grad-
-ually into what is concealed because it is believed to
+"compatible with the public interest" fades gradually into what is concealed because it is believed to
 be none of the public's business.
 The notion of what
 constitutes a person's private affairs is elastic.
@@ -3203,8 +2904,7 @@ tax law to keep it as private as possible. The sale of a
 piece of land is not private, but the price may be.
 Salaries are generally treated as more private than
 wages, incomes as more private than inheritances.
-A person's credit rating is given only a limited cir-
-culation.
+A person's credit rating is given only a limited circulation.
 The profits of big corporations are more
 public than those of small firms.
 Certain kinds of
@@ -3215,8 +2915,7 @@ Directors' meetings are generally
 private.
 So are many political conferences.
 Most of
-what is said at a cabinet meeting, or by an ambassa-
-dor to the Secretary ofState, or at private interviews,
+what is said at a cabinet meeting, or by an ambassador to the Secretary ofState, or at private interviews,
 or dinner tables, is private.
 Many people regard the
 contract between employer and employee as private.
@@ -3263,24 +2962,20 @@ you, however, of the distance which oft~n sep~rat~s
 your public opinion from the event with which It
 deals.
 And the reminder is itse1f a protection.
-44
+
 PUBLIC OPINION
 CENSORSHIP AND PRIVAL'Y
-45
-
 
 CHAPTER III
 CONTACT AND OPPORTUNITY
 I
-WHILE censorship and privacy intercept much in-
-formation at its source, a very much larger body of
+WHILE censorship and privacy intercept much information at its source, a very much larger body of
 fact never reaches the whole public at all, or only very
 slowly.
 For there are very distinct limits upon the
 circulation of ideas.
 A rough estimate of the effort it takes to reach
-"everybody" can be had by considering the Govern-
-ment's propaganda during the war.
+"everybody" can be had by considering the Government's propaganda during the war.
 Remembering
 that the war had run over two years and a half before
 A~erica entered it, that millions upon millions of
@@ -3296,25 +2991,22 @@ Creel's account of his fight ccfor the minds of men, for
 the conquest of their convictions" in order that ccthe
 gospel of Americanism might be carried to every
 corner of the globe."
-1
-Mr. Creel had to assemble machinery which in-
-cluded a Division of News that issued he tells us
+
+Mr. Creel had to assemble machinery which included a Division of News that issued he tells us
 .
 "
-more than SIX thousand releases, had to enlist seventy-
-five thousand Four Minute Men who delivered at
+more than SIX thousand releases, had to enlist seventyfive thousand Four Minute Men who delivered at
 least seven hundred and fifty-five thousand, one
 hundred and ninety speeches to an aggregate of over
 three hundred million people.
 Boy scouts delivered
 1 George Creel, How We Advertised America.
-46
+
 CONTACT AND OPPORTUNITY
-47
+
 annotated copies of President Wilson's addresses to
 the householders of America.
-Fortnightly periodi-
-cals were sent to six hundred thousand teachers.
+Fortnightly periodicals were sent to six hundred thousand teachers.
 Two hundred thousand Iantern slides were furnished
 for illustrated lectures. Fourteen hundred and thirty-
 . eight different designs were turned out for posters,
@@ -3329,8 +3021,7 @@ which I have
 not
 begun to do justice,
 did
-not include Mr. McAdoo's stupendous organiza-
-tion for the Liberty Loans, nor Mr. Hoover's far
+not include Mr. McAdoo's stupendous organization for the Liberty Loans, nor Mr. Hoover's far
 reaching propaganda about food, nor the campaigns
 of the Red Cross, the Y. M. C. A., Salvation Army,
 Knights of Columbus, Jewish Welfare Board, not to
@@ -3344,19 +3035,16 @@ effort to carry quickly a fairly uniform set of ideas to
 all the people of a nation.
 The older proselyting
 worked more slowly, perhaps more surely, but never
-so inclusively. Now if it required such extreme meas-
-ures to reach everybody in time of crisis, how open
+so inclusively. Now if it required such extreme measures to reach everybody in time of crisis, how open
 are the more normal channels to men's minds?
 The
-Administration was trying, and while the war con-
-tinued it very largely succeeded, I believe, in creat-
-ing something that might almost be called one public
+Administration was trying, and while the war continued it very largely succeeded, I believe, in creating something that might almost be called one public
 opinion all over America.
 But think of the dogged
 
 
 1 Hence the wisdom of taking Yap seriously.
-2
+
 The size of a man's income has considerable effect
 on his access to the world beyond his neighborhood.
 With money he can overcome almost every tangible
@@ -3364,8 +3052,7 @@ obstacle of communication, he can travel, buy books
 and periodicals, and bring within the range of his
 attention almost any known fact of the world.
 The
-income of the individual, and the income of the com-
-munity determine the amount of communication
+income of the individual, and the income of the community determine the amount of communication
 that is possible.
 But men's ideas determine how that
 income shall be spent, and that in turn affects in the
@@ -3375,32 +3062,27 @@ to say, for example, that the railroad system of
 France, so highly centralized upon Paris, has been
 an unmixed blessing to the French people.
 I t is certainly true that problems arising out of
-the means of communication are of the utmost im-
-portance, and one of the most constructive features
+the means of communication are of the utmost importance, and one of the most constructive features
 of the program of the League of Nations has been the
 study given to railroad transit and access to the sea.
 The monopolizing of cables,' of ports, fuel stations,
-mountain passes, canals, straits, river courses, termi-
-nals, market places means a good deal more than the
+mountain passes, canals, straits, river courses, terminals, market places means a good deal more than the
 enrichment of a group of business men, or the prestige
 of a government.
-It means a barrier upon the ex-
-change of news and opinion.
+It means a barrier upon the exchange of news and opinion.
 But monopoly is not
 the only barrier.
 Cost and available supply are even
 greater ones, for if the cost of travelling or trading is
 prohibitive, if the demand for facilities exceeds the
 supply, the barriers exist even without monopoly.
-49
+
 CONTACT AND OPPORTUNITY
 PUBLIC OPINION
 work, the complicated ingenuity, the money and the
 personnel that were required.
-Nothing like that ex-
-ists in time of peace, and as a corollary there are
-whole sections, there are vast groups, ghettoes, en-
-claves and classes that hear only vaguely about much
+Nothing like that exists in time of peace, and as a corollary there are
+whole sections, there are vast groups, ghettoes, enclaves and classes that hear only vaguely about much
 that is going on.
 They live in grooves, are shut in among their own
 affairs, barred out of larger affairs, meet few people
@@ -3438,10 +3120,8 @@ direction of commercial enterprise, and therefore
 the nature of human contracts.
 And so it may well
 happen, as it did for example in the case of Salem,
-Massachusetts, that a change in the art of shipbuild-
-ing will reduce a whole city from a center where
-international influences converge to a genteel prov-
-incial town.
+Massachusetts, that a change in the art of shipbuilding will reduce a whole city from a center where
+international influences converge to a genteel provincial town.
 All the immediate effects of more rapid
 transit are not necessarily good.
 It would be difficult
@@ -3451,14 +3131,11 @@ also there are limitations, none the less real, because
 they are often self-imposed and self-indulgent.
 There are portions of the sovereign people who
 spend most of their spare time and spare money on
-motoring and comparing motor cars, on bridge-
-whist and post-mortems, on moving-pictures and pot-
-boilers, talking always to the same people with
+motoring and comparing motor cars, on bridgewhist and post-mortems, on moving-pictures and potboilers, talking always to the same people with
 minute variations on the same old themes.
 They
 cannot really be said to suffer from censorship, or
-secrecy, the high cost or the difficulty of communica-
-tion.
+secrecy, the high cost or the difficulty of communication.
 They suffer from anemia, from lack of appetite
 and curiosity for the human scene.
 Theirs is no
@@ -3473,15 +3150,13 @@ Among men the circle of talk in
 business and at the club and in the smoking car is
 wider than the set to which they belong.
 Among
-women the social set and the circle of talk are fre-
-quently almost identical.
+women the social set and the circle of talk are frequently almost identical.
 It is in the social set that
 ideas derived from reading and lectures and from the
 circle of talk converge, are sorted out, accepted,
 rejected, judged and sanctioned.
 There it is finally
-decided in each phase of a discussion which authori-
-ties and which sources of information are admissible,
+decided in each phase of a discussion which authorities and which sources of information are admissible,
 and which not.
 Our social set consists of those who figure as people
 in the phrase "people are saying"; they are the
@@ -3491,10 +3166,8 @@ In big cities among men and women of wide
 interests and with the means for moving about, the
 social set is not so rigidly defined.
 But even in big
-cities, there are quarters and nests of villages con-
-taining self-sufficing social sets.
-In smaller com-
-munities there may exist a freer circulation, a more
+cities, there are quarters and nests of villages containing self-sufficing social sets.
+In smaller communities there may exist a freer circulation, a more
 genuine fellowship from after breakfast to before
 dinner.
 But few people do not know, nevertheless,
@@ -3511,45 +3184,35 @@ Between sets at the same level, association is
 easy, individuals are quickly accepted, hospitality
 is normal and unembarrassed. But in contact between
 sets that are "higher" or "lower,"there is always
-reciprocal hesitation, a faint malaise, and a conscious-
-ness of difference.
+reciprocal hesitation, a faint malaise, and a consciousness of difference.
 To be sure in a society like that
 of the United States, individuals move somewhat
 freely out of one set into another, especiall~ whe~e
-there is no racial barrier and where economic POSI-
-tion changes so rapidly.
+there is no racial barrier and where economic POSItion changes so rapidly.
 Economic position, however, is not measured by
 the amount of income.
 For in the first generation,
-at least, it is not income that determines social stand-
-ing, but the character of a man's work, and it may
+at least, it is not income that determines social standing, but the character of a man's work, and it may
 take a generation or two before this fades out of
 the family tradition.
 Thus banking, law, medicin.e,
-public utilities, newspapers, the church, larg~ retail-
-ing, brokerage, manufacture, are rated at a different
+public utilities, newspapers, the church, larg~ retailing, brokerage, manufacture, are rated at a different
 5°
 PUBLIC OPINION
 CONTACT AND OPPORTUNITY
-51
-
 
 1 W. Trotter, Instincts of the Herd in War and Peace.
-social value from salesmanship, superintendence, ex-
-pert technical work, nursing, school teaching, shop
+social value from salesmanship, superintendence, expert technical work, nursing, school teaching, shop
 keeping; and those, in turn, are rated as differently
-from plumbing, being a chauffeur, dressmaking, sub-
-contracting, or stenography, as these are from being
+from plumbing, being a chauffeur, dressmaking, subcontracting, or stenography, as these are from being
 a butler, lady's maid, a moving picture operator, or
 a locomotive engineer.
 And yet the financial return
 does not necessarily coincide with these gradations.
-3
+
 Whatever the tests of admission, the social set
-when formed is not a mere economic class, but some-
-thing which more nearly resembles a biological clan.
-Membership is intimately connected with love, mar-
-riage and children, or, to speak more exactly, with
+when formed is not a mere economic class, but something which more nearly resembles a biological clan.
+Membership is intimately connected with love, marriage and children, or, to speak more exactly, with
 the attitudes and desires that are involved.
 In the
 social set, therefore, opinions encounter the canons
@@ -3570,11 +3233,10 @@ an outward expression of the deference due, the others
 are decently and sensitively silent about their own
 knowledge that such deference invisibly exists.
 But
-that knowledge, becoming overt when there is a mar-
-riage, a war, or a social upheaval, is the nexus of a
+that knowledge, becoming overt when there is a marriage, a war, or a social upheaval, is the nexus of a
 large bundle of dispositions classified by Trotter 1
 under the general term instinct of the herd.
-53
+
 CONTACT AND OPPORTUNITY
 Wi thin each social set there are augurs like the
 van der Luydens and Mrs. Manson Mingott in (( The
@@ -3586,8 +3248,7 @@ take you up.
 The invitations to their functions. are
 the high sign of arrival and status.
 The elections
-to college societies, carefully graded and the grada-
-tions universally accepted, determine who is who in
+to college societies, carefully graded and the gradations universally accepted, determine who is who in
 college.
 The social leaders, weighted with the. ~lti­
 mate eugenic responsibility, are peculiarly sensitive.
@@ -3612,16 +3273,13 @@ leaders.
 But vertically the actual binding together
 of society, in so far as it is bound together at a~l by
 social contact, is accomplished by those exceptional
-people, frequently suspect, who like Julius Beau-
-fort and Ellen Olenska in (( The Age of Innocence"
+people, frequently suspect, who like Julius Beaufort and Ellen Olenska in (( The Age of Innocence"
 move in and out. Thus there come to be established
 personal channels from one set to another, through
 which Tarde's laws of imitation operate.
 But for
 1 Edith Wharton, The Age of Innocence.
 PUBLIC OPINION
-52
-
 
 large sections of the population there are no such
 channels.
@@ -3643,22 +3301,18 @@ Thus the social superior is likely
 to be ImItated by the social inferior the holder of
 . . .
 ,
-power IS imitated by subordinates, the more success-
-f,:l by the less successful, the rich by the poor, the
+power IS imitated by subordinates, the more successf,:l by the less successful, the rich by the poor, the
 CIty ?y the country.
 But imi.tation does not stop at
 front~ers.
-The powerful, socially superior, success-
-f~l, rich, urban social set is fundamentally interna-
-tional throughout the western hemisphere
+The powerful, socially superior, successf~l, rich, urban social set is fundamentally international throughout the western hemisphere
 and in
 ~any ways L?ndon is its ~enter..It count~ among
 Its
 members~IR the m?st influential people in the
 ":0rld, contaInIng as It does the diplomatic set,
 high finance, the upper circles of the army and the
-navy, some princes of the church, a few great news-
-paper proprietors,
+navy, some princes of the church, a few great newspaper proprietors,
 their wives and mothers and
 ?aughters who wield the scepter of invitation.
 It
@@ -3668,8 +3322,7 @@ last t?e distin.ction between public and private affairs
 practically disappears,
 The private affairs of this
 1 Ross, Social Psychology, Ch. IX, X, XI.
-set are public matters, and public matters are its pri-
-vate, often its family affairs.
+set are public matters, and public matters are its private, often its family affairs.
 The confinements of
 Margot Asquith like the confinements of royalty are,
 as the philosophers say, in much the same universe
@@ -3678,8 +3331,7 @@ There are large areas of governments in which this
 social set is not interested, and in America, at least,
 it has exercised only a fluctuating control over the
 na tional government.
-Butits power in foreign af-
-fairs is always very great, and in war time its prestige
+Butits power in foreign affairs is always very great, and in war time its prestige
 is enormously enhanced.
 That is natural enough
 because these cosmopoli tans have a contact with the
@@ -3701,45 +3353,36 @@ Mingott is sensitive to a social set that governs the
 world, while Dr. Kennicott's social set governs only
 in Gopher Prairie.
 But in matters that effect the
-larger relationships of the Great Society, Dr. Kenni-
-cott will often be found holding what he thinks is
+larger relationships of the Great Society, Dr. Kennicott will often be found holding what he thinks is
 purely his own opinion, though, as a matter of fact,
 it has trickled down to Gopher Prairie from High
-Society, transmuted on its passage through the pro-
-vincial social sets.
-54
+Society, transmuted on its passage through the provincial social sets.
+
 PUBLIC OPINION
 CONTACT AND OPPORTUNITY
 5S
 
 
 any length of time.
-We are concerned in public af-
-fairs, but immersed in our private ones.
+We are concerned in public affairs, but immersed in our private ones.
 The time
 and attention are limited that we can spare for the
 labor of not taking opinions for granted, and we are
 subject to constant interruption.
 PUBLIC OPINION
-4
+
 It is no part of our inquiry to attempt an account
 of the social tissue.
 We need only fix in mind how
-big is the part played by the social set in our spirit-
-ual contact with the world, how it tends to fix what
+big is the part played by the social set in our spiritual contact with the world, how it tends to fix what
 is admissible, and to determine how it shall be judged.
 Affairs within its immediate competence each set
 more or less determines
 for itself.
 Above all it
-determines the detailed administration of the judg-
-ment.
-But the judgment itself is formed on pat-
-terns 1 that may be inherited from the past, trans-
-mitted or imitated from other social sets.
-The high-
-est social set consists of those who embody the leader-
-ship of the Great Society.
+determines the detailed administration of the judgment.
+But the judgment itself is formed on patterns 1 that may be inherited from the past, transmitted or imitated from other social sets.
+The highest social set consists of those who embody the leadership of the Great Society.
 As against almost every
 other social set where the bulk of the opinions are
 first hand only about local affairs, in this Highest
@@ -3748,8 +3391,7 @@ strategy and the ultimate distribution of political
 power, are intimate experiences within a circle of
 what, potentially at least, are personal acquaintances.
 Since position and contact play so big a part in
-determining what can be seen, heard, read, and expe-
-rienced, as well as what it is permissible to see, hear,
+determining what can be seen, heard, read, and experienced, as well as what it is permissible to see, hear,
 read, and know, it is no wonder that moral judgment
 is so much more common than constructive thought.
 Yet in truly effective thinking the prime necessity is
@@ -3762,8 +3404,6 @@ the scale of the Great Society requires an amount of
 selfless equanimity rarely attainable by anyone for
 1 Cj. Part III.
 CONTACf AND OPPORTUNITY
-57
-
 
 figured their newspaper reading at less than fifteen
 minutes, and seventeen and a half at more.
@@ -3780,31 +3420,30 @@ groups rate rather low the attention they give to
 printed news of the outer world.
 These time estimates are fairly well confirmed by
 a test which is less subjective.
-Scott asked his Chi-
-cagoans how many papers they read each day, and
+Scott asked his Chicagoans how many papers they read each day, and
 was told that
 14 percent read but one paper
-46
+
 "
 "
 two papers
-21
+
 "
 "
 three papers
-10
+
 "
 "
 four papers
-3
+
 "
 "
 five papers
-2
+
 "
 "
 SIX papers
-3
+
 "
 "
 all the papers (eight
@@ -3823,10 +3462,8 @@ NATURALLY it is possible to make a rough estimate
 only of th~ amount of attention people give each day
 to informing themselves about public affairs.
 Yet
-it is interesting that three estimates that I have ex-
-ami~ed agree. toler~bly.well, though they were made
-at different times, In different places, and by differ-
-en t methods.'
+it is interesting that three estimates that I have exami~ed agree. toler~bly.well, though they were made
+at different times, In different places, and by differen t methods.'
 A
 questionnaire
 was
@@ -3836,11 +3473,9 @@ Hotchkiss
 and
 Franken to 176I men and women college students in
 New York City, and answers came from all but a few.
-Scott use.d a questionnaire on four thousand prorni-
-nen t business and professional men in Chicago and
+Scott use.d a questionnaire on four thousand prorninen t business and professional men in Chicago and
 received replies from twenty-three hundred.
-Be-
-tween seventy and seventy-five percent of all those
+Between seventy and seventy-five percent of all those
 who replied to either inquiry thought they spent a
 quarter of an hour a day reading newspapers.
 Only
@@ -3859,17 +3494,13 @@ ward Rogers, The American Newspaper.)
 See also Henry Foster Adams, Advert1Szng and its Mental Laws Ch IV
 B 1920 NHcwspaper Reading Habits of College Students, by ProF. G~org~
 .urtor
-N0t~hklss and Richard B. Franken, published by the Associa-
-Cit~. 0
+N0t~hklss and Richard B. Franken, published by the AssociaCit~. 0
 ational Advertisers, Inc., 15 East 26th Street, New York
 TIME AND ATTENTION
-59
 
-
-60
 PUBLIC OPINION
 TIME AND ATTENTION
-61
+
 In order to bring this table into a fair comparison,
 it is necessary to exclude the space given to advertise...·
 II. Illustrations
@@ -3889,7 +3520,7 @@ II. r
 '
 {
 .Foreign
-8
+
 Politics
 21.
 Crime
@@ -3907,8 +3538,7 @@ Nearly seventy-one percent based their conscious
 preference on local news (17.8%), or political (15.8%)
 or financial (11.3%), or foreign (9.5%), or general
 (7.2%), or editorials (9%).
-The other thirty per-
-cent decided on grounds not connected with public
+The other thirty percent decided on grounds not connected with public
 affairs.
 They ranged from not quite seven who
 decided for ethical tone, down to one twentieth of
@@ -3924,10 +3554,8 @@ But there is an interesting analysis made
 over twenty years ago by Wilcox.
 He studied one
 hundred and ten newspapers in fourteen large cities,
-and classified the subject matter of over nine thou-
-sand columns.
-Averaged for the whole country the various news-
-paper matter was found to fill:
+and classified the subject matter of over nine thousand columns.
+Averaged for the whole country the various newspaper matter was found to fill:
 f(a) War News
 \
 (b) General
@@ -3935,7 +3563,7 @@ f(a) War News
 55·3
 c) Special
 "
-2
+
 I t is still more difficult to guess how the time is
 distributed.
 The college students were asked to
@@ -3957,13 +3585,10 @@ hi
 "
 ,
 sIppIng, school news, "current news," print.
-Dis-
-regarding these, about sixty-seven and a half per-
-cent picked as the most interesting features news
+Disregarding these, about sixty-seven and a half percent picked as the most interesting features news
 and opinion that dealt with public affairs.
 This was a mixed college group.
-The girls pro-
-fess:d greater interest than the boys in general news,
+The girls profess:d greater interest than the boys in general news,
 foreign news, local news, politics, editorials, the
 theatre, music, art, stories, cartoons, advertisements,
 and" ethical tone." The boys on the other hand were
@@ -3986,23 +3611,19 @@ an~ther.
 
 PUBLIC OPINION
 men.ts, and recompute the percentages,
-For the ad-
-vertl~ements occupiedonly an infinitesimal part of the
+For the advertl~ements occupiedonly an infinitesimal part of the
 conSCIOUS preference of the Chicago group or the
 college group.
 I
 think this is justifiable for our
-purposes because the press prints what advertise-
-me?ts it can get,' whereas the rest of the paper is
+purposes because the press prints what advertiseme?ts it can get,' whereas the rest of the paper is
 designed to the taste of its readers.
 The table would then read:
 TIME AND ATTENTION
 years ago.
-Since that time the proportion of fea-
-tures to news has undoubtedly increased, and so has
+Since that time the proportion of features to news has undoubtedly increased, and so has
 the circulation and the size of newspapers.
-There-
-fore, if to-day you could secure accurate replies from
+Therefore, if to-day you could secure accurate replies from
 more typical groups than college students or business
 and professional men, you would expect to find a
 smaller percentage of time devoted to public affairs,
@@ -4024,8 +3645,7 @@ they are certainly the principal ones.
 Magazines, the
 public forum, the chautauqua, the church, political
 gatherings, trade union meetings, women's clubs,
-and news serials in the moving picture houses sup-
-plement the press.
+and news serials in the moving picture houses supplement the press.
 But taking it all at the most
 favorable estimate, the time each day is small when
 any of us is directly exposed to information from
@@ -4033,16 +3653,13 @@ any of us is directly exposed to information from
 26·4-
 {
 Foreign
-1.8-
-32.0+
+1.832.0+
 Po~itical 9· 4+
 Crime
-4.6-
-Misc.
+4.6Misc.
 16.3+
 !
-Business 12. 1-
-23·0- .Spo,rting 7.5+
+Business 12. 123·0- .Spo,rting 7.5+
 Society
 3.3 -
 "
@@ -4050,16 +3667,14 @@ War News
 Special
 General News
 81.4+
-4.6-
-3·5+
+4.63·5+
 10.5- {Editorials
 Letters
 I. News
 II. Illustrations
 III. Literature
 IV. Opinion
-5·8-
-4·7+
+5·84·7+
 ~n this revised table if you add up the items
 WhIC~ may be supposed to deal with public affairs,
 tha~ IS to say war, foreign, political, miscellaneous,
@@ -4069,10 +3684,8 @@ of reasons grven by ChIcago business men in 1916 for
 preferring a particular newspaper, and to the five
 features which most interested 67.5% of the New
 York CoIIege students in 1920.
-This would seem to show that the tastes of busi-
-n:ss men and coIIege students in big cities to-day
-still correspond more or .less to the averaged judg-
-men ts of newspaper edltors in big cities twenty
+This would seem to show that the tastes of busin:ss men and coIIege students in big cities to-day
+still correspond more or .less to the averaged judgmen ts of newspaper edltors in big cities twenty
 1 ~xcept those which it regards as objectionable, and those which .
 rare instances, are crowded out.
 ' In
@@ -4088,8 +3701,7 @@ These words are transmitted by wire or
 ~~to prmr,
 Telegraphy is expensive, and the facil,
 ities are often limited.
-Press service news is, there-
-fore, usually coded.
+Press service news is, therefore, usually coded.
 Thus a dispatch which reads,-
 "Washington, D. C.
 June I.-The United States
@@ -4111,14 +3723,13 @@ oration an
 reconcniatron would be the keynote of th
 new Gove~ment'~ policy.'
 He added that the Cabine:
-was determined disarmament should be carried out loy-
-ally. and ~h.at disarmament would not be the occasion of
+was determined disarmament should be carried out loyally. and ~h.at disarmament would not be the occasion of
 the rmpositron of further penalties by the Allies."
 may be cabled in this form:
 1 Phillip's Code.
-64
+
 SPEED~ WORDS, AND CLEARNESS
-65
+
 "Berlin
 I.
 Chancellor Wirth told t Reichstag tdy in
@@ -4131,19 +3742,15 @@ penalties bi t alis."
 In this second item the substance has been culled
 from a long speech in a foreign tongue, translated,
 coded, and then decoded.
-The operators who re-
-ceive the messages transcribe them as they go along,
+The operators who receive the messages transcribe them as they go along,
 and I am told that a good operator can write fifteen
 thousand or even more words per eight hour day,
-with a half an hour out for lunch and two ten min-
-ute periods for rest.
-2
-A few words must often stand for a whole succes-
-sion of acts, thoughts, feelings and consequences.
+with a half an hour out for lunch and two ten minute periods for rest.
+
+A few words must often stand for a whole succession of acts, thoughts, feelings and consequences.
 We read:
 "Washington, Dec. 23-A statement charging Japanese
-military authorities with deeds more 'frightful and bar-
-barous' than anything ever alleged to have occurred in
+military authorities with deeds more 'frightful and barbarous' than anything ever alleged to have occurred in
 Belgium during the war was issued here to-day by the
 Korean
 Commission,
@@ -4168,8 +3775,7 @@ to the news.
 I t is doubtful whether a supreme master of style
 could pack all the
 elements of truth that
-com-
-plete justice would demand into a hundred word
+complete justice would demand into a hundred word
 account of what had happened in Korea during the
 course of several months.
 For language is by no
@@ -4194,14 +3800,11 @@ Men command fewer words than they have ideas
 to express, and language, as Jean Paul said
 is a
 dictionary of faded metaphors.!
-The journali;t ad-
-dressing half a million readers of whom he has only a
+The journali;t addressing half a million readers of whom he has only a
 dim picture, the speaker whose words are flashed to
 remote villages and overseas, cannot hope that a
-few phrases will carry the whole burden of their mean-
-ing.
-"The words of Lloyd George, badly under-
-stood and badly transmitted, " said M. Briand to the
+few phrases will carry the whole burden of their meaning.
+"The words of Lloyd George, badly understood and badly transmitted, " said M. Briand to the
 Chamber of Deputies,2 "seemed to give the Pan-
 ~ Cite~ by White, Mechanisms of Chflracter Formatz'on.
 J
@@ -4209,7 +3812,7 @@ Special Cable to The New York Times, May 25, 1921 by Edwin L
 ames.
 '
 •
-66
+
 PUBLIC OPINION
 SPEED, WORDS, AND 'CLEARNESS
 Germanists the idea that the time had come to start
@@ -4273,8 +3876,6 @@ on word exchanges as well as on money exchanges.
 fail to realize that there is as much value behind English reticence as
 behind their own exuberance of expression."
 
-
-68
 PUBLIC OPINION
 SPEED, WORDS, AND CLEARNESS
 cannot understand them.
@@ -4307,8 +3908,7 @@ Is it a vague horde of slant-eyed yellow men,
 surrounded by Yellow Perils, picture brides, fans,
 Samurai, banzais, art, and cherry blossoms? Or the
 word "alien"?
-According to a group of New Eng-
-la~d college students, writing in the year 1920 , an
+According to a group of New Engla~d college students, writing in the year 1920 , an
 alien was the following: 1
 " A person hostile to this country."
 "A person against the government."
@@ -4325,13 +3925,11 @@ alien was the following: 1
 person against a country.
 etc....
 Yet the word alien is an unusually exact legal term,
-far more exact than words like sovereignty, inde-
-pendence, national honor, rights, defense, aggression,
+far more exact than words like sovereignty, independence, national honor, rights, defense, aggression,
 imperialism, capitalism, socialism, about which we so
 readily take sides" for" or "against."
-3
-The power to dissociate superficial analogies, at-
-tend to differences and appreciate variety is lucidity
+
+The power to dissociate superficial analogies, attend to differences and appreciate variety is lucidity
 of mind.
 I t is a relative faculty,
 Yet the differences
@@ -4344,8 +3942,7 @@ table, the moon in the sky, and a nice bright yellow
 edition of Guy de Maupassant.
 To many a member
 of the Union League Club there is no remarkable
-difference between a Democrat, a Socialist, an an-
-archist, and a burglar, while to a highly sophisticated
+difference between a Democrat, a Socialist, an anarchist, and a burglar, while to a highly sophisticated
 anarchist there is a whole universe of difference
 between Bakunin, Tolstoi, and Kropotkin.
 These
@@ -4353,8 +3950,7 @@ examples show how difficult it might be to secure a
 sound public opinion about de Maupassant among
 babies, or about Democrats in the Union League
 Club.
-A man who merely rides in other people's auto-
-mobiles may not rise to finer discrimination than
+A man who merely rides in other people's automobiles may not rise to finer discrimination than
 between a Ford, a taxicab, and an automobile.
 But
 let that same man own a car and drive it, let him, as
@@ -4362,7 +3958,7 @@ let that same man own a car and drive it, let him, as
 
 PUBLIC OPINION
 SPEED, WORDS, AND CLEARNESS
-71
+
 the psychoanalysts would say, project his libido
 upon automobiles, and he will describe a difference in
 carburetors by looking at the rear end of a car a city
@@ -4376,8 +3972,7 @@ to the three dimensional world, after a sojourn in the
 painter's portrayal of his own emotional response to
 his own inattentive memory of what he imagines he
 ought to have seen.
-We easily identify, says Ferenczi, two only par-
-tially similar things: 1 the child more easily than the
+We easily identify, says Ferenczi, two only partially similar things: 1 the child more easily than the
 adult, the primitive or arrested mind more readily
 than the mature.
 As it first appears in the child,
@@ -4403,8 +3998,7 @@ things it wants by crying for them.
 This is "the
 1 Internat, Zeitschr, f. ArztI. J?sychoanalyse, 1913.
 Translated and
-repubhshed by Dr. Ernest Jones in S. Ferenczi, Contributions to Psycho-
-analysis,Ch.VIII, Stages in the Deaelopment of the Senseoj Reo,l-£ty.
+repubhshed by Dr. Ernest Jones in S. Ferenczi, Contributions to Psychoanalysis,Ch.VIII, Stages in the Deaelopment of the Senseoj Reo,l-£ty.
 period of magical hallucinatory omnipotence." In its
 second phase the child points to the things it wants,
 and they are given to it.
@@ -4422,16 +4016,14 @@ tends to confirm that way of acting, while failure
 tends
 to stimulate the development of another.
 Many individuals, parties, and even nations, rarely
-appear to transcend the magical organiza.tion of ex-
-perience. But in the more advanced sections of the
+appear to transcend the magical organiza.tion of experience. But in the more advanced sections of the
 most advanced peoples, trial and error after repeated
 failure has led to the invention ofa new principle.
 The moon, they learn, is not moved by ~aying ~t it.
 Crops are not raised from the soil by sprtng festivals
 or Republican majorities, but by sunlight, moisture,
 seeds fertilizer, and cultivation.'
-All~wing for the purely schematic ,:"alue ~f Fer-
-enczi's categories of response, the quahty which we
+All~wing for the purely schematic ,:"alue ~f Ferenczi's categories of response, the quahty which we
 note as critical is the power to discriminate among
 crude perceptions and vague analogies.. !his
 2Power
@@ -4458,15 +4050,12 @@ nrne,
 classify response to the stimulant word as inner, outer, and clang, show
 separate results for the first and second hundred words, for reaction time
 
-
-72
 PUBLIC OPINION
 SPEED, WORDS, AND CLEARNESS
-73
+
 Zurich Association
 Studies indicate clearly that
-slight mental fatigue, an inner disturbance of atten-
-tion or an external distraction, tend to ((flatten"
+slight mental fatigue, an inner disturbance of attention or an external distraction, tend to ((flatten"
 the quality of the response.
 An example of the very
 "flat" type is the clang association (cat-hat), a
@@ -4477,20 +4066,17 @@ increase of clang in the second series of a hundred
 reactions.
 Now the clang is almost a repetition, a
 very primitive form of analogy.
-4
-If the comparatively simple conditions of a labora-
-tory can so readily flatten out discrimination, what
+
+If the comparatively simple conditions of a laboratory can so readily flatten out discrimination, what
 must be the effect of city life?
 In the laboratory the
 fatigue is slight enough, the distraction rather trivial.
-Both are balanced in measure by the subject's in-
-terest and self-consciousness.
+Both are balanced in measure by the subject's interest and self-consciousness.
 Yet if the beat of a
 metronome will depress intelligence, what do eight or
 twelve hours of noise, odor, and heat in a factory, or
 day upon day among chattering typewriters and
-telephone bells and slamming doors, do to the politi-
-cal judgments formed on the basis of newspapers
+telephone bells and slamming doors, do to the political judgments formed on the basis of newspapers
 read in street-cars and subways?
 Can anything be
 heard in the hubbub that does not shriek, or be seen
@@ -4527,20 +4113,17 @@ Every man whose business it is to think knows
 that he must for part of the day create about ~imself
 a pool of silence.
 But in that helter-skelter which we
-flatter by the name of civilization, the citizen per-
-forms the perilous business of gov~rnment u~~er the
+flatter by the name of civilization, the citizen performs the perilous business of gov~rnment u~~er the
 worst possible conditions.
 A faint recogrntion of
 this truth inspires the movement for a shorter work
-day, for longer vacations, for light,air, order,. sun-
-light and dignity in factori:s ~nd offic~s. But If the
+day, for longer vacations, for light,air, order,. sunlight and dignity in factori:s ~nd offic~s. But If the
 intellectual quality of our hfe IS to be Improved that
 is only the merest beginning.
 So long as so .many
 jobs are an endless and,
 f~r the .worker, an aimless
-routine a kind of automatism usmg one set of mus-
-cles in 'one monotonous pattern, his whole life will
+routine a kind of automatism usmg one set of muscles in 'one monotonous pattern, his whole life will
 tend towards an automatism in which nothing is
 particularly to be distinguished from anything else
 unless it is announced with a thunderclap.
@@ -4549,11 +4132,9 @@ as he is physically imprisoned in crowds by day and
 even by night his attention will flicker and :elax.
 It will not hold fast and define clearly where he IS the
 
-
-74
 PUBLIC OPINION
 SPEED, WORDS, AND CLEARNESS
-75
+
 victim of all sorts of pother, in a home which needs to
 be ventilated of its welter of drudgery, shrieking
 children, raucous assertions, indigestible food, bad
@@ -4562,15 +4143,14 @@ Occasionally perhaps we enter a building which
 is composed and spacious; we go to a theatre where
 modern stagecraft has cut away distraction, or go to
 sea, or into a quiet place, and we remember how
-cluttered, how capricious, how superfluous and clam-
-orous is the ordinary urban life of our time.
+cluttered, how capricious, how superfluous and clamorous is the ordinary urban life of our time.
 We
 learn to understand why our addled minds seize so
 little with precision, why they are caught up and
 tossed about in a kind of tarantella by headlines and
 catch-words, why so often they cannot tell things
 apart or discern identity in apparent differences.
-5
+
 But this external disorder is complicated further
 by internal.
 Experiment shows that the speed, the
@@ -4589,10 +4169,8 @@ They distort our reading,
 our thinking, our talking and our behavior in a great
 variety of ways.-
 1 Jung, Clark Lectures.
-And finally since opinions do not stop at the nor-
-mal members of society, since for the purposes of an
-election, a propaganda, a following, numbers con-
-stitute power, the quality of attention is still further
+And finally since opinions do not stop at the normal members of society, since for the purposes of an
+election, a propaganda, a following, numbers constitute power, the quality of attention is still further
 depressed.
 The mass of absolutely illiterate, of
 feeble-minded, grossly neurotic, undernourished and
@@ -4600,8 +4178,7 @@ frustrated individuals, is very considerable, much
 more considerable there is reason to think than we
 generally suppose.
 Thus a wide popular appe.al
-is circulated among persons who are mentally chil-
-dren or barbarians, people whose lives are a morass of
+is circulated among persons who are mentally children or barbarians, people whose lives are a morass of
 entanglements, people whose vitality is exhausted,
 shut-in people, and people whose experience has
 comprehended
@@ -4617,8 +4194,7 @@ of
 public
 opinion
 is
-stopped by them in little eddies of misunderstand-
-ing, where it is discolored with prejudice and far
+stopped by them in little eddies of misunderstanding, where it is discolored with prejudice and far
 fetched analogy.
 A "broad appeal" takes account of the quality of
 association, and is made to those susceptibilities which
@@ -4628,15 +4204,12 @@ appeal is one made to those susceptibilities which are
 uncommon.
 But the same individual may respond
 with very different quality to different stimuli, or to
-the same stimuli at different times. Human suscepti-
-bilities are like an alpine country. There are isolated
+the same stimuli at different times. Human susceptibilities are like an alpine country. There are isolated
 peaks, there are extensive but separated plateaus,
-and there are deeper strata which are quite continu-
-ous for nearly all mankind.
+and there are deeper strata which are quite continuous for nearly all mankind.
 Thus the individuals
 whose susceptibilities reach the rarefied atmosphere
-of those peaks where there exists an exquisitive dif-
-ference between Frege and Peano, or between Sas-
+of those peaks where there exists an exquisitive difference between Frege and Peano, or between Sas-
 
 
 PUBLIC OPINION
@@ -4644,27 +4217,23 @@ setta's earlier and later periods, may be good stanch
 Republicans at another level of appeal, and when
 they are starving and afraid, indistinguishable from
 any other starving and frightened person.
-No won-
-der that the magazines with the large circulations
+No wonder that the magazines with the large circulations
 prefer the face of a pretty girl to any other trade
 mark, a face, pretty enough to be alluring, but
 innocent enough to be acceptable.
 For the "psychic
 level" on which the stimulus acts determines whether
 the public is to be potentially a large or a small one.
-6
+
 Thus the environment with which our public
-opinions deal is refracted in many ways, by censor-
-ship and privacy at the source, by physical and social
+opinions deal is refracted in many ways, by censorship and privacy at the source, by physical and social
 barriers at the other end, by scanty attention, by the
 poverty of language, by distraction, by unconscious
 constellations of feeling, by wear and tear, violence,
 monotony.
 These limitations upon our access to
 that environment combine with the obscurity and
-complexity of the facts themselves to thwart clear-
-ness and justice of perception, to substitute mislead-
-ing fictions for workable ideas, and to deprive us of
+complexity of the facts themselves to thwart clearness and justice of perception, to substitute misleading fictions for workable ideas, and to deprive us of
 adequate checks upon those who consciously strive
 to mislead.
 PART III
@@ -4721,29 +4290,23 @@ witnesses and classes of events, and also as to type of perception.
 Thus,
 perceptions of touch, odor, and taste have low evidential value.
 Our
-hearing is defective and arbitrary when it judges the source and direc-
-tion of sound, and in listening to the talk of other people" words which
+hearing is defective and arbitrary when it judges the source and direction of sound, and in listening to the talk of other people" words which
 are not heard will be supplied by the witness in all good faith.
 He
 will have a theory of the purport of the conversation, and will arrange
 the sounds he heard to fit it."
 Even visual perceptions are liable to great
 error, as in identification, recognition, judgment of distance, estimates
-79
 
-
-80
 PUBLIC OPINION
 STEREOTYPES
-81
+
 show that he himself brings something to the scene
 which later he takes away from it, that oftener than
 not what he imagines to be the account of an event is
 really a transfiguration of it.
-Few facts in conscious-
-ness seem to be merely given.
-Most facts in con-
-sciousness seem to be partly made.
+Few facts in consciousness seem to be merely given.
+Most facts in consciousness seem to be partly made.
 A report is the
 joint product of the knower and known, in which the
 role of the observer is always selective and usually
@@ -4755,19 +4318,15 @@ g~~.~.t,....~.l,~.?m.in~~
 .~\l::i~ .~...'s2,!!.fy§iQn.,~,~ ..,...!,..""",r,his,;.jillie
 ~~'y~;~,~t~,;'.• :~t:,~.J?~~,'P'~'Y~y,:; .·.,·theJ:... (;lpy: .. neW,,~lhlng
 ~!dkesan~d1.!lt, ..~o,f~~ as .!he thing j~treallYl1~:w~_e<t!4'·
-,~.tran.ge.; c, Foreign languages that we do not under-
-stand always seem jibberings, babblings, in which it
+,~.tran.ge.; c, Foreign languages that we do not understand always seem jibberings, babblings, in which it
 is impossible to fix a definite, clear-cut, individualized
 group of sounds.
 The countryman in the crowded
 street, the landlubber at sea, the ignoramus in sport
 at a contest between experts in a complicated game,
 are further instances. Put an inexperienced man in a
-factory, and at first the work seems to him a meaning-
-less medley.~I~strap.g~,~_~_..Q.L.C!nQ!~er~a~e proverb-
-i~Uy-.lQ.Qk~li~~...fothe_visit!Qg_~~Eanger: .. -Only gross
-differences of size or color are perceived by an out-
-sider in a flock of sheep, each of which is perfectly
+factory, and at first the work seems to him a meaningless medley.~I~strap.g~,~_~_..Q.L.C!nQ!~er~a~e proverbi~Uy-.lQ.Qk~li~~...fothe_visit!Qg_~~Eanger: .. -Only gross
+differences of size or color are perceived by an outsider in a flock of sheep, each of which is perfectly
 of numbers, for example, the size of a crowd.
 In the untrained observer
 the sense of time is highly variable.
@@ -4800,16 +4359,14 @@ and (2) consistency or st(£b,;r;[,/"or'meaning into what
 is otherwise vague, and wavering."
 '.'., ,
 "
-""-"'~"'B'ii't"'''tJ~;"''''ki'~d'''''~f'''''d~~fi~I~~.~;;~. i"\'~~'d consistency in-
-troauCecr"c(re'en'(rs'"'lt"'on"who'T~t~~(r~~~S thetn.
+""-"'~"'B'ii't"'''tJ~;"''''ki'~d'''''~f'''''d~~fi~I~~.~;;~. i"\'~~'d consistency introauCecr"c(re'en'(rs'"'lt"'on"who'T~t~~(r~~~S thetn.
 In a
 -'. .
 , .. '_,,,,,,",,,-nJ?,=__=,",,,,,,'C,,,,,Rw,".,,.,,,_.,,.,,,,_,,.,,,,,"..~,,_~,,.,,
 ,';.;. '.--. ---
 ,
 .
-fii"fer=Pp-assage 1 Dewey gives an example of how dif-
-ferently an experienced layman and a chemist might
+fii"fer=Pp-assage 1 Dewey gives an example of how differently an experienced layman and a chemist might
 define the word metal.
 " Smoothness, hardness,
 glossiness, and brilliancy, heavy weight for its size
@@ -4817,8 +4374,7 @@ glossiness, and brilliancy, heavy weight for its size
 hammered and pulled without breaking, of being
 softened by heat and hardened by cold, of retaining
 the shape and form given, of resistance to pressure
-and decay, would probably be included" in the lay-
-man's definition.
+and decay, would probably be included" in the layman's definition.
 But the chemist. would likely as
 not ignore these esthetic and utilitarian qualities,
 and define a metal as "any chemical element that
@@ -4840,11 +4396,9 @@ Of the great men who assembled at Paris to settle the
 
 affairs of mankind, how many were there who were
 able to see much of the Europe about them rather
-than their commitments about Europe? COcld any-
-one have penetrated the mind of M. Clemenceau
+than their commitments about Europe? COcld anyone have penetrated the mind of M. Clemenceau
 would he have found, there images of the El;rope of
-1919, or a great sedimenr of stereotyped ideas ac-
-curnularsd an? hardened in a long and pugnacious
+1919, or a great sedimenr of stereotyped ideas accurnularsd an? hardened in a long and pugnacious
 eXIstence?
 DId he see the Germans of 1919, or the
 German type as he had learned to sec it since 187I?
@@ -4855,11 +4409,8 @@ was In ~IS mind.
 If a junker blustered, that was an
 au~hentIc German; if a labor leader confessed the
 guilt of the empire, he was not an authentic German.
-~t a Con&"ress of Psychology in Gottingen an inter-
-estIng e~perIment was made with a crowd of presum-
-ably trained observers.!
-. "Not far from the hall in which the Congress was sit-
-ting there was a public rete with a masked ball. Suddenly
+~t a Con&"ress of Psychology in Gottingen an interestIng e~perIment was made with a crowd of presumably trained observers.!
+. "Not far from the hall in which the Congress was sitting there was a public rete with a masked ball. Suddenly
 ~he door of the hall was thrown open and a clown rushed
 In madl~ pursued by a negro, revolver in hand.
 They
@@ -4868,8 +4419,7 @@ fell, the negro leapt upon him, fired, and then both rushed
 out of the hall.
 The whole incident hardly lasted twenty
 seconds.
-"The President asked those present to write immedi-
-ately a report since there was sure to be a judicial inquiry.
+"The President asked those present to write immediately a report since there was sure to be a judicial inquiry.
 Fort:y report,s were sent in.
 Only one had less than 20%
 of mIstakes In regard to the principal facts; fourteen had
@@ -4881,12 +4431,11 @@ Cited F
 van
 angen ove, The Growth oj a Legend, pp, 120-122.
 •
-82
+
 PUBLIC OPINION
 STEREOTYPES
 thirteen more than 50%.
-Moreover in twenty-four ac-
-counts 10% of the details were pure inventions and this
+Moreover in twenty-four accounts 10% of the details were pure inventions and this
 proportion was exceeded in ten accounts and diminished
 in six.
 Briefly a quarter of the accounts were false.
@@ -4894,9 +4443,7 @@ Briefly a quarter of the accounts were false.
 arranged and even photographed in advance.
 The ten
 false reports may then be relegated to the category of
-tales and legends; twenty-four accounts are half legen-
-dary) and six have a value approximating to exact evi-
-dence."
+tales and legends; twenty-four accounts are half legendary) and six have a value approximating to exact evidence."
 Thus out of forty trained observers writing a
 responsible account of a scene that ?a~justhappened
 before their eyes, more than a majority saw a scene
@@ -4911,8 +4458,7 @@ before their eyes. In one man these images displaced
 less than 20% of the. actual scene, in thirteen men
 more than half.
 In thirty-four out of the forty
-observers the stereotypes preempted at least one-
-ten th of the scene.
+observers the stereotypes preempted at least oneten th of the scene.
 "
 A distinguished art critic has said 1 that
 :'~h~~_
@@ -4942,8 +4488,7 @@ socia .. ;P..... ~ . 8~gtL,}.~§"";.,,iUl~L;Qur,·~PQli!i~,aL,~~gi!.~~i()ns
 as
 w:~1,1.,
 Substitute in the following passage "~f""trr.
-Berenson's the words 'politics,' 'business,' and 'soci-
-ety,' for the word 'art' and the sentences will be no
+Berenson's the words 'politics,' 'business,' and 'society,' for the word 'art' and the sentences will be no
 less true:
 CC ••• unless years devoted to the study
 of all schools of art have taught us also to see with
@@ -4957,8 +4502,7 @@ us shapes
 and colors
 which we cannot instantly
 n:atch in our paltry stock of hackneyed forms and
-tints, and we shake our heads at his failure to re-
-produce things as we know they certainly are or
+tints, and we shake our heads at his failure to reproduce things as we know they certainly are or
 we accuse him of insincerity. "
 ,
 ~r. Berenson speaks of our displeasure when a
@@ -4969,8 +4513,7 @@ visualizing forms has changed in a thousand ways." 1
 He goes on to show how in regard to the human
 ~gure we have been taught to see what we do see.
 Created by Donatello and
-Masaccio, and sane-
-I Cf. also. his comment on Dante's
+Masaccio, and saneI Cf. also. his comment on Dante's
 Pisual
 I mages
 and h'
@@ -4994,8 +4537,7 @@ b bl
 .
 '
 s visua Image 0
-rrgt .was pro a. Y, no less mediaeval, no more based on a critical recon-
-strucnon of antlqUlt,Y, than hIS entire conception of the Roman
+rrgt .was pro a. Y, no less mediaeval, no more based on a critical reconstrucnon of antlqUlt,Y, than hIS entire conception of the Roman
 Iourtee'!th Century Illustrators make Yirgillook like a mediseval sc~l:'
 . ressed 1o.cap and gown, and there IS no reason wh
 Da
@@ -5013,8 +4555,7 @@ human forces. ..
 Who had the power to break
 through this new standard of vision and, out of the
 chaos of things, to select shapes more definitely
-expressive of reality than those fixed by men of gen-
-ius?
+expressive of reality than those fixed by men of genius?
 Noone had such power.
 People had perforce
 to see things in that way and in no other, and to see
@@ -5022,7 +4563,7 @@ only the shapes depicted, to love only the ideals
 d
 "1
 presente . · · ·
-2
+
 If vve ,~~~~Qt"JYJ1Y>u"JJ!1,det,sj:,an.d,the"acts"cqfQth~r
 people~~':~':~~~I",;~,~""knQ¥l,.,what;;the¥".thinkJ,h~,~*,.know.,;,
 tnefi itl-~r~~! .~2 ..g2jJJ§.til;e...we.have..toapp!aisenot
@@ -5036,11 +4577,9 @@ European stereotypes.
 Thus the peasant who might
 see his landlord as if he were the lord of the manor,
 his employer as he saw the local magnate, is taught by
-Americanization to see the landlord and employer ac-
-cording to American standards.
+Americanization to see the landlord and employer according to American standards.
 This constitutes a
-change of mind, which is, in effect, when the inocu-
-lation succeeds, a change of vision.
+change of mind, which is, in effect, when the inoculation succeeds, a change of vision.
 His eye sees
 differently.
 One kindly gentlewoman has confessed
@@ -5052,8 +4591,7 @@ I, 1921
 p.21.
 ,
 •
-that the stereotypes are of such overweening import-
-ance, that when hers are not indulged) she at least is
+that the stereotypes are of such overweening importance, that when hers are not indulged) she at least is
 unable to accept the brotherhood of man and the
 fatherhood of God: "we are strangely affected by the
 clothes we wear.
@@ -5085,8 +4623,7 @@ was made up of men of all the foreign nationalities
 employed in the factories.
 They wore their native
 costumes, they.were singing their national songs;
-they danced their folk dances, and carried the ban-
-ners of all Europe.
+they danced their folk dances, and carried the banners of all Europe.
 The master of ceremonies was
 the principal of the grade school dressed as Uncle
 Sam.
@@ -5094,30 +4631,26 @@ He led them to the pot.
 He directed them up
 the steps to the rim, and inside.
 He called them our
-86
+
 PUBLIC OPINION
 STEREOTYPES
 again on the other side.
 They came, dressed in
-derby hats, coats, pants,.vest, sti~ collar and polka-
-dot tie undoubtedly, said my friend, each with an
+derby hats, coats, pants,.vest, sti~ collar and polkadot tie undoubtedly, said my friend, each with an
 Eversh~rp pencil in his pocket, and all singing the
 Star-Spangled Banner.
 To the promoters of this pageant, and probably to
 most of the actors, it seemed as if they had managed
-to express the most intimate difficulty to frie~dly as-
-sociation between the older peoples of America and
+to express the most intimate difficulty to frie~dly association between the older peoples of America and
 the newer.
-The contradiction of their stereotypes in-
-terfered with the full recognition of their common
+The contradiction of their stereotypes interfered with the full recognition of their common
 humanity. The people who change their names know
 this.
 They mean to change themselves, and the
 attitude of strangers toward them.
 There is, of course, some connection between the
 scene outside and the mind through which we watch
-it, just as there are some long-hai:ed men and short-
-haired women in radical gatherIngs.
+it, just as there are some long-hai:ed men and shorthaired women in radical gatherIngs.
 But to the
 hurried observer a slight connection is enough.
 If
@@ -5129,8 +4662,7 @@ management of their hair.
 There IS
 ~
 c~nnectlon
-between our vision and the facts, but 1t IS often 2-
-strange connection.
+between our vision and the facts, but 1t IS often 2strange connection.
 A man has
 rarel~ lo~ked at .a
 landscape, let us say, except to examine ItS
@@ -5142,40 +4674,33 @@ rosy sunset, or as a country road with a church
 steeple and a silver moon.
 One day he goes to the
 
-
-88
 PUBLIC OPINION
 STEREOTYPES
-country, and for hours he does not see a single land-
-scape.
+country, and for hours he does not see a single landscape.
 Then the sun goes down looking rosy.
 At
 once he recognizes a landscape and exclaims that
 it is beautiful.
 But two days later, when he tries to
-recall what he saw, the odds are that he will remem-
-ber chiefly some landscape in a parlor.
+recall what he saw, the odds are that he will remember chiefly some landscape in a parlor.
 . Unless he has been drunk or dreaming or insane he
 did see a sunset, but he saw in it, and above all
 remembe:s from it, more of what the oil painting
 ta~ght him to observe, than what an impressionist
 painter, for example, or a cultivated Japanese would
 have seen and taken away with him.
-And the Jap-
-anese and the painter in turn will have seen and
+And the Japanese and the painter in turn will have seen and
 remembered more of the form they had learned,
 unless they happen to be the very rare people who
 find fresh sight for mankind.
-In untrained observa-
-tion we pick recognizable signs out of the environ-
-ment.
+In untrained observation we pick recognizable signs out of the environment.
 The signs stand for ideas, and these ideas we
 fill out with our stock of images.
 We do not so much
 see this man and that sunset; rather we notice that
 the th~ng .is man or sunset, and then see chiefly what
 our mind IS already full of on those subjects.
-3
+
 There is economy in this.
 Forthe attempt to see
 all things freshly.. and in deta~l..·....·~t·"fi'~_h"·,,·....··t..-1i""..~""·'"·""'..,·"·..,·~'"~'''-'-_..
@@ -5190,16 +4715,14 @@ an as types
 ~)(~allstin~,
 ~.~.~... ~~?ng~y
 ,.~~~,Ir~p~~ctically. o'l1t of. the question.' 111 a circle of
-friends, and in relation to close associates or competi-
-tors, there is no shortcut through, and no substitute
+friends, and in relation to close associates or competitors, there is no shortcut through, and no substitute
 for, an individualized understanding.
 Those whom
 we love and admire most are the men and women
 whose consciousness is peopled thickly with persons
 rather than with types, who know us rather than the
 classification into which we might fit.
-For even with-
-out phrasing it to ourselves, we feel intuitively that
+For even without phrasing it to ourselves, we feel intuitively that
 all classification is in relation to some purpose not
 necessarilv our own; that between two human beings
 no association has final dignity in which each does
@@ -5233,8 +4756,7 @@ That much we notice, or are told.. Wel.l~
 an agitator is this sort of person, and so he IS this
 sort of person.
 He is an intellectual.
-He is a pluto-
-crat.
+He is a plutocrat.
 He is a foreigner.
 He is a "South European."
 He is from Back Bay.
@@ -5276,8 +4798,7 @@ whQl~."p,l:~Q.ces§g(p~rc;~.J;?J1Qn~. ,-: TheY~a:~~()ll!. certain
 1~~~~~lar~;~a~;~~o~~;~~;:~:~f~?;:s,~~~~
 i vary from a true.lu:d~x to ~ va~t.Ie·~~~:-~··:A:foused,
 j
-~hey .flood fresh VISIon with older Images, and pro-
-ject Into the world what has been resurrected in
+~hey .flood fresh VISIon with older Images, and project Into the world what has been resurrected in
 l11em?:y.("Were there no practical
 riniforml'tl'~~in',
 the envifonment, there would be no economy and \
@@ -5286,8 +4807,7 @@ only ~rror in the human habit of accepting foresight
 for sight.
 But there are uniformities sufficiently
 accurate, and the need of economizing attention is
-so inevitable, that the abandonment of all stereo-
-j
+so inevitable, that the abandonment of all stereoj
 types ~or a wh?lly innocen~ approach toe~J2e.rien~~//
 would }illHQyer!§b.
 hUll1,~11 .. 1!fe.~ .. r·····
@@ -5296,8 +4816,7 @@ hUll1,~11 .. 1!fe.~ .. r·····
 .
 What matters is the ch~ract:er of the stereotypes
 and th.e gullibiiity with which we employ them. And
-these In .the end .depend upon those inclusive pat-
-terns w?Ich constitute our philosophy of life.
+these In .the end .depend upon those inclusive patterns w?Ich constitute our philosophy of life.
 If in
 that philosophy we assume that the world is codified
 according to a code which we possess, we.are likely to
@@ -5319,15 +4838,11 @@ All useful history is
 antiseptic in this fashion.
 I t enables us to ~~ow
 what fairy tale, what school book, what tradItion,
-what novel, play, picture; phrase, planted one pre-
-conception in this mind, another in that mind.
-4
-Those who wish to censor art do not at least under-
-estimate this influence.
-They generally misunder-
-stand it, and almost always they are absurdly bent
-on preventing other people from discovering any-
-thing not sanctioned by them.
+what novel, play, picture; phrase, planted one preconception in this mind, another in that mind.
+
+Those who wish to censor art do not at least underestimate this influence.
+They generally misunderstand it, and almost always they are absurdly bent
+on preventing other people from discovering anything not sanctioned by them.
 But at any rate,
 like Plato in his argument about the poets, they feel
 vaguely that the types. acquired through fiction ~end
@@ -5337,9 +4852,7 @@ doubt that the moving picture is steadily building
 up imagery which is then evoked by the
 words
 people read in their newspapers.
-In t~e whol.e ex-
-perience of the race there ha~ been no aid to vlsu.al-
-ization comparable to the cinema.
+In t~e whol.e experience of the race there ha~ been no aid to vlsu.alization comparable to the cinema.
 If a FlorentIne
 wished to visualize the saints, he could go to the
 frescoes in his church, where he might see a vision of
@@ -5365,9 +4878,7 @@ formulse ¥!~I~§tP.lg.,¥/so"d,eGlS.l,y;e;",~,:,tl5!r,1",ln""hUl,,,d ..~
 ,whichthe,~native character, IS
 tne ,111ellta, "":'<::>,t"//-""s,\""Q,k<',"!':,;;"""",:",,,,,,,,,,,;,,,,,,,"",,' ""'-''''''''''''''''''i''''i9)1;''''''!:Ab"""\"r,r..",,,.~~~~Ill>'''i':'-;'~"'"""l''''~~
 a~~§~~~~?c,"~~~~J25~,~~~~~
-Failure to make this dIS-
-tinction accounts for oceans of loose talk about col-
-lective minds, national souls, and race .psychology.
+Failure to make this dIStinction accounts for oceans of loose talk about collective minds, national souls, and race .psychology.
 To be sure a steJ:eQtYP~111~Y"?,~§9, . ~2!lsJ,sten,tl.Y4""'~HH;l"",,,
 ~.~'='~,"""",;""c""""""'·""---"'l
 . 'd·n each
@@ -5388,8 +4899,7 @@ EoIDe;"as Mr. Wallas says;'
 bIolo~Ically pa~aSIt1C
 upon our social heritage.
 But.certainly there IS not
-the least scientific evidence which would enable any-
-one to argue that men are born with the political
+the least scientific evidence which would enable anyone to argue that men are born with the political
 habits of the country in which they are born. In so
 far as political habits are alike in a nation, the first
 places to look for an explanation
@@ -5399,8 +4909,7 @@ bY-"G;oup'Minds and National ??u!s.
 .Until you
 have thoroughly failed to see tradition being h~n?ed
 on from parents, teachers, priests, and u~~les, I~ IS a
-solecism of the worst order to ascribe political differ-
-ences to the germ plasm.
+solecism of the worst order to ascribe political differences to the germ plasm.
 .
 .
 It is possible to generalize te?tatI.ve1y and w~th.a
@@ -5435,12 +4944,10 @@ ey come, we ImagIne,
 irect y totrs.
 human meddling, and they are the most
 eff?rt~ess.food for the mind conceivable.
-Any de-
-scnption In words, or even any inert picture, requires
+Any descnption In words, or even any inert picture, requires
 an effort of memory before a picture exists in the
 mind.
-But on the screen the whole process ofobserv-
-ing, describing, reporting, and then imagining, has
+But on the screen the whole process ofobserving, describing, reporting, and then imagining, has
 been accomplished for you.
 Without more trouble
 ~han.is ~eed:d to stay awake the result which your
@@ -5459,10 +4966,7 @@ name again without seeing those white horsemen.
 t:
 .J
 STEREOTYPES
-93
 
-
-94
 PUBLIC OPINION
 does have the .experience of being the younger.
 And
@@ -5470,8 +4974,7 @@ therefore, unttl we are able to discount th
 dia:
 .
 e
-Irrer-
-e~ce In nurture, we must withhold judgment about
+Irrere~ce In nurture, we must withhold judgment about
 dlfferenc~sof nature.
 As well judge the productivity
 of ~wo ~Ol~S by comparing their yield before you !~now
@@ -5486,8 +4989,7 @@ THERE is another reason, besides economy of effort,
 why we so often hold to our stereotypes when we
 might pursue a more disinterested vision.
 The
-systems of stereotypes may be the core of our per-
-sonal tradition, the defenses of our position in society.
+systems of stereotypes may be the core of our personal tradition, the defenses of our position in society.
 I
 They are an ordered, more or less consistent pic-
 .~
@@ -5496,8 +4998,7 @@ our capacities, our comforts and our hopes have ad-
 :.~.
 justed themselves.
 They may not be a complete t
-picture of the world, but they are a picture of a pos-
-I'
+picture of the world, but they are a picture of a posI'
 sible world to which we are adapted.
 In that world i
 people and things have their well-known places, and
@@ -5510,7 +5011,7 @@ We know the way
 I
 around.
 There we find the charm of the familiar,
-1
+
 the normal, the dependable; its grooves and shape~._J
 are where we are accustomed to find them.
 And
@@ -5519,10 +5020,7 @@ tempted us before we creased ourselves into that
 mould, once we are firmly in, it fits as snugly as an
 old shoe.
 No wonder, then, that any disturbance of the
-stereotypes seems like an attack upon the founda-
-tions of the universe. It is an attack upon the founda-
-95
-
+stereotypes seems like an attack upon the foundations of the universe. It is an attack upon the founda-
 
 Mr. Zimmern quotes an amusing passage from the
 Old Oligarch explaining the good treatment of the
@@ -5572,8 +5070,7 @@ different from each other, that the one should be
 1 Politics, Bk. I, Ch. 5.
 PUBLIC OPINION
 tions of our universe, and, where big things are at
-stake, we do not readily admit that there is any dis-
-tinction between our universe and the universe,
+stake, we do not readily admit that there is any distinction between our universe and the universe,
 A
 world which turns out to be one in which those we
 ~onor are un~orthy, and those we despise are noble,
@@ -5604,7 +5101,7 @@ its'''defenses''we'h'can continue to feel '~~r;~ervessafe
 in~=~~~~~~
 >__~~-_>
 ~.
-2
+
 ~hen, for exau:ple, in the fourth century B. C.,
 Art.stode ~rote hIS. ~efense of slavery in the face
 of increasing skeptIcIsm,l the Athenian slaves were
@@ -5614,31 +5111,25 @@ fre~ citizens
 1 Zimmern: Greek Commonwealth.
 See his footnote, p, 383.
 STEREOTYPES AS DEFENSE
-97
-
 
 PUBLIC OPINION
 STEREOTYPES AS DEFENSE
-99
+
 robust for their necessary purposes, but the other
 erect; useless indeed for such servile labours
 but
 fit for civil life. . . . It is clear then that some men
 are free by nature, and others are slaves.... JJ
 If we ask ourselves what is the matter with Aris-
-:otle's argument, we find that he has begun byerect-
-rng a great barrier between himself and the facts.
+:otle's argument, we find that he has begun byerectrng a great barrier between himself and the facts.
 When he had said that those who arc slaves are by
-nature intended to be slaves, he at one stroke ex-
-cluded the fatal question whether those particular
+nature intended to be slaves, he at one stroke excluded the fatal question whether those particular
 men .who happened to be slaves were the particular
 ~en Intended by na~ure to be slaves.
-For that ques-
-tron would ha.ve tarnted each case of slavery with
+For that questron would ha.ve tarnted each case of slavery with
 do~bt.
 And SInce the fact of being a slave was not
-e~Idence that a man was destined to be one, no cer-
-tam test would have remained.
+e~Idence that a man was destined to be one, no certam test would have remained.
 Aristotle therefore
 excluded entirely that destructive doubt.
 Thos~
@@ -5656,11 +5147,9 @@ and that they had the muscles to do servile work.
 ",~!."rE::~,<~.:~ .~~: ..~.~~.".~.f,E~!:~~!ljj~~ ..~ forlll of..perc~tion,
 6;f~~e~~~c~:~~<f~<'t,r<l;<:>ter; Q!L~1rata:DD~~Jie®:s.
 ,,~',"''''M''''''~'' • .__.,~,..,s;;h=,tbJ~.~,l!!!~!_~g~.
-The stereo-
-type IS like the lavender window-panes on Beacon
+The stereotype IS like the lavender window-panes on Beacon
 ~treet, like the door-keeper at a costume ball who
-Judges whether the guest has an appropriate mas-
-querade.
+Judges whether the guest has an appropriate masquerade.
 L~rJ~;__js"no,thing..sQQbdurate to education
 .
 '
@@ -5671,12 +5160,12 @@ or to criticispl ~.~
 ~:\((M-~~~."!;"f~~i&!L,~!''{'~l!I''.
 "
 t-i<;~,~t:l>.1ifJ,~':J;"l~·r:"I.,>'W'~~'~lli-jtl:J'"¥~-'
-1
+
 f
 .
 h
 upon the evidence In the very act
-0
+
 securing
 ~ e
 evidence.
@@ -5684,14 +5173,12 @@ That is why the accounts of returnIng
 travellers are often an interesting tale of what the
 traveller carried abroad with him on his trip.
 If
-he carried chiefly his appetite, a zeal for tiled bath-
-rooms, a conviction that the Pullman car is the acme
+he carried chiefly his appetite, a zeal for tiled bathrooms, a conviction that the Pullman car is the acme
 of human comfort, and a belief that it is proper to
 tip waiters, taxicab drivers, and barbers, but und~r
 no circumstances station agents and ushers, then hIS
 Odyssey will be replete with good meals and bad
-meals, bathing adventures, compartment-train escap-
-ades, and voracious demands for money.
+meals, bathing adventures, compartment-train escapades, and voracious demands for money.
 Or if he is
 a more serious soul he may while on tour have found
 himself at celebrated spots.
@@ -5702,26 +5189,20 @@ head
 in
 Baedeker, read every word
 through, and moved on to the next celebrated spot;
-and thus returned with a compact and orderly im-
-pression of Europe, rated one star, or two.
+and thus returned with a compact and orderly impression of Europe, rated one star, or two.
 In .s0n:le measure, stiW.uli~,Jt2!E:;__,.!h.~'f,{lu,ts,iG@j,"".es,p~:
 __
 ciarry-;'h~n"'they"".are'~Frin ted or spoken words, evoke
 some part of a system of stereotypes, so that the
-actual sensation and the preconception occupy con-
-sciousness at the same time.
+actual sensation and the preconception occupy consciousness at the same time.
 The two are blended,
 much as if Wf> looked at red through blue glasses and
 saw green.
 If what we are looking at corresponds
-successfully with what we anticipated, the stereo-
-type is reinforced for the future, as it is in a man
-who knows in advance that the Japanese are cun-
-ning and has the bad luck to run across two dishonest
+successfully with what we anticipated, the stereotype is reinforced for the future, as it is in a man
+who knows in advance that the Japanese are cunning and has the bad luck to run across two dishonest
 Japanese.
 
-
-100
 PUBLIC OPINION
 STEREOTYPES AS DEFENSE
 IOI
@@ -5729,10 +5210,8 @@ If the experience contradicts the stereotype, one
 of two things happens.
 If the man is no longer
 plastic, or if some powerful interest makes it highly
-inconvenient to rearrange his stereotypes, he pooh-
-poohs the contradiction as an exception that proves
-the rule, discredits the witness, finds a flaw some-
-where, and manages to forget it.
+inconvenient to rearrange his stereotypes, he poohpoohs the contradiction as an exception that proves
+the rule, discredits the witness, finds a flaw somewhere, and manages to forget it.
 But if he is still
 curious and open-minded, the novelty is taken into
 the picture, and allowed to modify it.
@@ -5747,14 +5226,12 @@ In the extreme case, especially if
 he is literary, he may develop a passion for inverting
 the moral canon by making Judas, Benedict Arnold,
 or Caesar Borgia the hero of his tale.
-3
+
 The role played by the stereotype can be seen in the
 German tales about Belgian snipers.
 Those tales
-curiously enough were first refuted by an organ-
-ization of German Catholic priests known as Pax.!
-The existence of atrocity stories is itself not remark-
-able, nor that the German people gladly believed
+curiously enough were first refuted by an organization of German Catholic priests known as Pax.!
+The existence of atrocity stories is itself not remarkable, nor that the German people gladly believed
 them.
 But it is remarkable that a great conservative
 body of patriotic Germans should have set out as
@@ -5767,8 +5244,7 @@ were of the utmost value in soothing the troubled
 conscience of their fellow countrymen.
 Why should
 the Je.suit order in particular have. set out to destroy
-a fiction so important to the fighting morale of Ger-
-many?
+a fiction so important to the fighting morale of Germany?
 I quote from M. van Langenhove's account:
 "Hardly had the German armies entered Belgium
 when strange rumors began
@@ -5780,8 +5256,7 @@ of Germany.
 It was said that the Belgian people,
 instigated by the clergy, had intervened ~er~diously
 in the hostilities· had attacked by surprtse Isolated
-detachments; had indicated to the enemy the posi-
-tions occupied by the troops; tha~ old men,. ~nd even
+detachments; had indicated to the enemy the positions occupied by the troops; tha~ old men,. ~nd even
 children had been guilty of horrible atrocities upon
 wounded and defenseless German soldiers, tearing
 out their eyes and cutting off fingers, nose or ears;
@@ -5825,63 +5300,49 @@ the
 infernal nuisance
 tramping
 through hIS streets.
-It would be no less extraordi-
-nary if an army that had never been under fire, did
-not regard every bullet that came its way as un-
-authorized, because it was inconvenient, and indeed
+It would be no less extraordinary if an army that had never been under fire, did
+not regard every bullet that came its way as unauthorized, because it was inconvenient, and indeed
 as somehow a violation of the rules of the Kriegspiel,
 which then constituted its only experience of war.
-One can imagine the more sensitive bent on convinc-
-ing themselves that the people to whom they were
+One can imagine the more sensitive bent on convincing themselves that the people to whom they were
 doing such terrible things must be terrible people.
 And so the legend may have been spun until it
 reached the censors and propagandists, who, whether
 they believed it or not, saw its value, and let it loose
 on the German civilians.
-They too were not alto-
-gether sorry to find that the people they were out-
-raging were sub-human.
+They too were not altogether sorry to find that the people they were outraging were sub-human.
 And, above all, since the
 legend came from their heroes, they were not only
 entitled to believe it, they were unpatriotic if they
 did not.
-But where so much is left to the imagination be-
-cause the scene of action is lost in the fog of war,
+But where so much is left to the imagination because the scene of action is lost in the fog of war,
 lOp. cit., pp, 5-7.
 there is no check and no control.
 The legend of the
 ferocious Belgian priests soon tapped an old hatred.
-For in the minds of most patriotic protestant Ger-
-mans, especially of the upper classes, the
+For in the minds of most patriotic protestant Germans, especially of the upper classes, the
 pic~ure of
 Bismarck's victories included a long quarrel WIth the
 Roman Catholics.
 By a process of association, ~el­
 gian priests became priests, and hatred of Belgians
 a vent for all their hatreds.
-These German protes-
-tants did what some Americans did when under the
+These German protestants did what some Americans did when under the
 stress of war they created a compound ?bject of
-hatred out of the enemy abroad and all their oppon-
-ents at home.
+hatred out of the enemy abroad and all their opponents at home.
 Against this synthetic enemy, the
 Hun in Germany and the Hun within the Gate, they
 launched all the animosity that was in them.
 The Catholic resistance to the atrocity tales was,
 of course defensive.
-It was aimed at those particu-
-lar ficti;ns which aroused animosity against all
+It was aimed at those particular ficti;ns which aroused animosity against all
 Catholics, rather than against Belgian Catholics
 alone.
-The Informations Pax, says M. van Langen-
-hove, had only an ecclesiastical
-~earing and "con-
-fined their attention almost exclusively to the repre-
-hensible acts attributed to the priests." And yet o~e
+The Informations Pax, says M. van Langenhove, had only an ecclesiastical
+~earing and "confined their attention almost exclusively to the reprehensible acts attributed to the priests." And yet o~e
 cannot help wondering a little about wha: was set l.n
 motion in the minds of German Catholics by this
-revelation of what Bismarck's empire meant in rela-
-tion to them; and also whether there was any obscure
+revelation of what Bismarck's empire meant in relation to them; and also whether there was any obscure
 connection between that knowledge and the fact. t?at
 the prominent German politician who was willing
 in the armistice to sign the death warrant of
@@ -5889,11 +5350,9 @@ t~e
 empire was Erzberger;' the leader of the Cathohc
 Centre Party.
 1 Since this was written, Erzberger has been assassinated.
-102
+
 PUBLIC OPINION
 STEREOTYPES AS DEFENSE
-103
-
 
 CHAPTER VIII
 BLIND SPOTS AND THEIR VALUE
@@ -5941,7 +5400,7 @@ rrnprovmg them Into logical systems, known as the
 ~
 L:,:s ofPolitical Econou:~ the Principlesof Politics,
 BLIND SPOTS AND THEIR VALUE
-105
+
 and the like. Generally when we write about culture,
 tradition, and the group mind, we are thinking of
 these systems perfected by men of genius.
@@ -5952,8 +5411,7 @@ historian of people, the politician, and the publicity
 man cannot stop there.
 For what operates in history
 is not the systematic idea as a genius formulated .
-but shifting imitations, replicas, counterfeits, ana-
-logies, and distortions in individual minds.
+but shifting imitations, replicas, counterfeits, analogies, and distortions in individual minds.
 Thus Marxism is not necessarily what Karl Marx
 wrote in Das Kapital, but whatever it is that all the
 warring sects believe, who claim to be the faithful.
@@ -5962,8 +5420,7 @@ Christianity, nor from the Constitution
 t!l~ political
 history of America.
 !~t"!~"yR,J!§,,,,,,K~E,~,!,~t,,~~!;'~,~,~£~i~~\2~J,"v
-t~~..gg~~12~!§,Jl,§,.;P.r.~~1~Jl~~l."f!11g,th~ii,11t,e£c~<;hm,ent"as.,u.tlQ:v-
-st():o~,.. ~~~.. <=011~~i.~,~,t,~9!},n;~~"i,i:U"t~,~~t:e~t~d~,and ..~aGlm1,\a'l'S~"@;='·
+t~~..gg~~12~!§,Jl,§,.;P.r.~~1~Jl~~l."f!11g,th~ii,11t,e£c~<;hm,ent"as.,u.tlQ:vst():o~,.. ~~~.. <=011~~i.~,~,t,~9!},n;~~"i,i:U"t~,~~t:e~t~d~,and ..~aGlm1,\a'l'S~"@;='·
 tel:~Cl';,~'t9""'YJii:Cli«:¥Q.ti:~h~iM,~?<t@,,~~~
 J~:QrG,w"hile"J:h~t~.,;,i§,,,~"
 r~~~~~t[~~.:i?~~~~!:5'~9~~~.",.~e::~~nclar.d.,ye!§i91;
@@ -5981,8 +5438,7 @@ best he can do is to follow Lord Bryce s suggestion [ModernDemocracies;
 Vol. I, p. 156] that he move freely" among all sorts and conditions of
 men" to seek out the unbiassed persons in every neighborhood who
 hav~ skill in sizing up.
-"There is a flair which long practise and' sym-
-pathetic touch' bestow.
+"There is a flair which long practise and' sympathetic touch' bestow.
 The trained observer learns how to profit by
 small indications, as an old seaman discerns, sooner than the landsman,
 the signs of coming storm."
@@ -5991,11 +5447,9 @@ work involved, and it is no wonder that scholars, who enl,oy preCISIOn,
 so often confine their attentions to the neater formulations of other
 scholars.
 
-
-106
 PUBLIC OPINION
 BLIND SPOTS AND THEIR VALUE
-107
+
 "The theory of Relativity," says a critic whose
 eyelids, like the Lady Lisa's, are a little weary,
 "promises to develop into a principle as adequate: to
@@ -6005,8 +5459,7 @@ hypothesis, became an inspiring guide to workers in
 practically every branch of knowledge: manners and
 customs, morals, religions, philosophies, arts, steam
 engines, electric tramways-everything had 'evolved.'
-'Evolution' became a very general term; it also be-
-came imprecise until, in many cases, the original
+'Evolution' became a very general term; it also became imprecise until, in many cases, the original
 ?efinite meaning of the word was lost, and the theor;
 It had been evoked to describe was misunderstood.
 We are hardy enough to prophesy a similar career
@@ -6047,10 +5500,8 @@ specula~ive toy.
 "It is
 ~ot
 easy," he writes;' "for a new Idea of the speculative
-order to penetrate and inform the general conscious-
-ness of a community until it has assumed some
-external and concrete embodiment, or is recom-
-mended by some striking material evidence.
+order to penetrate and inform the general consciousness of a community until it has assumed some
+external and concrete embodiment, or is recommended by some striking material evidence.
 In the
 case of Progress both these conditions were fulfilled
 (in England) in the period 1820-1850."
@@ -6060,8 +5511,7 @@ mec~ani.cal
 revolution.
 "Men who were born at the beginning
 of the century had seen, before they had passed the
-age of thirty, the rapid development of steam naviga-
-tion, the illumination of towns and houses by gas, the
+age of thirty, the rapid development of steam navigation, the illumination of towns and houses by gas, the
 opening of the first railway."
 In the consciousness
 of the average householder miracles like these formed
@@ -6105,13 +5555,12 @@ elaborately
 in
 Herbert
 Spencer, was a "progress towards perfection."
-2
+
 The stereotype represented
 by such
 words
 as
-"progress" and "perfection" was composed funda-
-mentally of mechanical inventions.
+"progress" and "perfection" was composed fundamentally of mechanical inventions.
 And mechanical
 \,
 it has remained, on the whole, to this day.
@@ -6127,13 +5576,10 @@ Be he of long native ancestry,
 or a recent immigrant, the aspect that has always
 struck his eye is the immense physical growth of
 American civilization.
-That constitutes a funda-
-mental stereotype through which he views the world:
-the country village will become the great metro-
-polis, the modest building a skyscraper, what is
+That constitutes a fundamental stereotype through which he views the world:
+the country village will become the great metropolis, the modest building a skyscraper, what is
 small shall be big; what is slow shall be fast; what is
-poor shall be rich; what is few shall be many; what-
-ever is shall be more so.
+poor shall be rich; what is few shall be many; whatever is shall be more so.
 Not every American, of course, sees the world this
 way.
 Henry Adams didn't,
@@ -6155,8 +5601,7 @@ It is easy to laugh, but, In fact,
 another it adopts an earthly criterion; for a third
 it is habituating men to think
 quanti~ativ~ly. To
-be sure the ideal confuses excellence With SIze, hap-
-piness with speed, and ~uman nature with ~ontrap­
+be sure the ideal confuses excellence With SIze, happiness with speed, and ~uman nature with ~ontrap­
 tion.
 Yet the same motives are at work which have
 ever actuated any moral code, or ever. will.
@@ -6185,22 +5630,18 @@ They have made a civilization which provides them
 who made it with what they feel to
 be ample
 satisfaction in work,mating and play, and the ru~h
-of their victory over mountains, wildernesses, dIS-
-tance and human competition has even done duty
+of their victory over mountains, wildernesses, dIStance and human competition has even done duty
 for that part of religious feeling which is a sense of
-108
+
 PUBLIC OPINION
 BLIND SPOTS AND THEIR VALUE
-109
-
 
 communion with the purpose of the universe.
 The
 pattern has been a success so nearly perfect in the
 sequence of .id.eals, practice, and results, that any
 challenge to It IS called un-American.
-And yet, ~~~y,\l~","a very partial and inade-
-q,uate. w.,a,.Y 0
+And yet, ~~~y,\l~","a very partial and inadeq,uate. w.,a,.Y 0
 ..,..",f.,..'..r,..e.p. ,res'" ,n'.t.,
 ' ".'.t"'..1!"""""",u''''''''''''''''I''::J'''''''·'''''''T''L.,,,u"">t:··'"'~b-~---'·~-
 'f"~"~~'''''''~''i''''"'.". ,,' ,~,.,'c,.. ,~
@@ -6228,8 +5669,7 @@ unassimilated
 immigration.
 They
 expanded industry furiously at reckless cost to their
-r:atural :esources; they huilt up gigantic corpora-
-tions
+r:atural :esources; they huilt up gigantic corporations
 WIthout
 arranging
 for
@@ -6239,14 +5679,11 @@ They grew. to be one
 o~ the most powerful nations
 o~ earth WIthout preparIng their institutions or their
 minds for the ending of their isolation.
-They stum-
-bled into the World War morally and physically
-~nr~ady, and they stumbled out again, much dis-
-illusioned, but hardly more experienced.
+They stumbled into the World War morally and physically
+~nr~ady, and they stumbled out again, much disillusioned, but hardly more experienced.
 In the World War the good and the evil influence
 ?f the American stereotype was plain!y visihIe. The
-~dea that. the w~~ could ?e .won by recruiting unlim-
-Ite~
+~dea that. the w~~ could ?e .won by recruiting unlimIte~
 ~rmles, raISIng unhn;-Ited credi ts, building an
 unlu?:ted number of ShIpS,
 producing unlimited
@@ -6263,8 +5700,7 @@ But among
 those most affected by the stereotype, there was no
 place for the consideration of what the frui:s of
 victory were, or how they were to be attained.
-Therefore} aims were ignored, or regarded as auto-
-matic, and victory was conceived, because th~ ~ter~o­
+Therefore} aims were ignored, or regarded as automatic, and victory was conceived, because th~ ~ter~o­
 type demanded it, as nothing .but an
 a~mhl1atmg
 victory in the field.
@@ -6282,12 +5718,10 @@ You have
 to do something on an entirely different
 patter~.
 And if you lack such a pattern, the end of the war :s
-to you what it was to so many good people, an anti-
-climax in a dreary and savorless world.
+to you what it was to so many good people, an anticlimax in a dreary and savorless world.
 This marks the point where the stereotype and the
 facts
-that cannot be ignored, definitely part com-
-pan;.
+that cannot be ignored, definitely part compan;.
 There is always such a point, because our
 images of how things behave are simpler and more
 fixed than the ebb and flow of affairs.
@@ -6299,8 +5733,6 @@ and leaders capable of understanding the change,
 III
 BLIND SPOTS AND THEIR VALUE
 PUBLIC OPINION
-110
-
 
 and a people tolerant by habi t,
 the stereotype,
@@ -6309,19 +5741,16 @@ as it did in 1917 and 1918, may frustrate effort and
 waste men's energy by blinding them, as it did for
 those people who cried for a Carthaginian peace in
 1919 and deplored the Treaty of Versailles in 192 1.
-3
+
 if
 Uncritically held, the stereotype not only censors
 i~ out much that needs to be taken into account but
 ,I
 ,
-;i, when the day of reckoning comes, and the stereo-
-l type is shattered, likely as not that which it did
+;i, when the day of reckoning comes, and the stereol type is shattered, likely as not that which it did
 ~'wisely take into account is ship-wrecked with it.
 That is the punishment assessed by Mr. Bernard
-Shaw against Free Trade, Free Contract, Free Com-
-petition, Natural Liberty, Laissez-faire, and Dar-
-winism.
+Shaw against Free Trade, Free Contract, Free Competition, Natural Liberty, Laissez-faire, and Darwinism.
 A hundred years ago, when
 he would
 surely have been one of the tartest advocates of
@@ -6329,12 +5758,9 @@ these doctrines, he would not have seen them as he
 sees them to-day, in the Infidel Half Century, 1 to
 be excuses for '" doing the other fellow down' with
 impunity, all interference by a
-guiding govern-
-ment, all organization except police organization
-to protect legalized fraud against fisticuffs, all at-
-tempt to introduce human purpose and design and
-forethought into the industrial welter being 'con-
-trary to the laws of political economy.'"
+guiding government, all organization except police organization
+to protect legalized fraud against fisticuffs, all attempt to introduce human purpose and design and
+forethought into the industrial welter being 'contrary to the laws of political economy.'"
 He would
 have seen, then, as one of the pioneers of the march
 to the plains of heaven 2 that, of the kind of human
@@ -6342,7 +5768,7 @@ purpose and design and forethought to be found
 in a government like that of Queen Victqria's uncles,
 1 lJack to Methuselah.
 Preface.
-113
+
 BLIND SPOTS AND THEIR VALUE
 the less the better.
 He would have
@@ -6353,16 +5779,14 @@ the strong down.
 He would have seen
 p~rpos.es,
 designs and forethoughts at .work,
-obstr~ctIng In-
-vention, obstructing enterprise, .obstructlng what
+obstr~ctIng Invention, obstructing enterprise, .obstructlng what
 he would infallibly have recognized as the next
 move of Creative Evolution.
 .
 Even now Mr. Shaw is none too eager for the guid.
 ance of any guiding government he kn.ows,
 b~t in
-theory he has turned a full loop against laissez-
-faire.
+theory he has turned a full loop against laissezfaire.
 Most advanced thinking before the war had
 made the same turn against the established notion
 that if you unloosed everything,
@@ -6420,8 +5844,6 @@ government,
 PUBLIC OPINION
 lIZ
 
-
-114
 PUBLIC OPINION
 impe~ialism at ho~e and. abroad, at its best deeply
 con~cIous of the prrce of disorder, relies at last on the
@@ -6488,8 +5910,7 @@ most _p.al:tr~t.h@-.waqy.,."",w:@<",see".thi.ngs,."is,"",,9:_,~q<mQi!!,~!,L9~
 _,
 .?L~h~tj_~",,,,lhe"te,.; .,J!nd_Q.L":whi!,L,.lY.~.,...~~.R~S~,~S!.,. -,!g , .. §~_~:_ ..
 The heavens are not the same to an astronomer as
-to a pair of lovers; a page of Kant will start a differ-
-ent train of thought in a Kantian and in a radical
+to a pair of lovers; a page of Kant will start a different train of thought in a Kantian and in a radical
 empiricist; the Tahitian belle is a better looking
 person to her Tahitian suitor than to the readers
 of the National Geographic Magazine.
@@ -6500,12 +5921,9 @@ Expertness in any subject is, in fact" a multiplica-
 ~oLtlre_~l1!!!!lQ,~!_-2f a~e~~_.~e .,"~~e prepared to
 discover~,J?.!~..!~.~".."h.~_!?..Lt, oD!jsc.o~12~tLllg~.Q!!!~iEerut:­
 ~~i.~.!l:.~~·~ Where to the ignoramus all things look alike,
-and life is just one thing after another, to the special-
-ist things are highly individual.
+and life is just one thing after another, to the specialist things are highly individual.
 For a chauffeur,
-an epicure, a connoisseur, a member of the Presi-
-den t's cabinet, or a professor's wife, there are evi-
-dent distinctions and qualities, not at all evident to
+an epicure, a connoisseur, a member of the Presiden t's cabinet, or a professor's wife, there are evident distinctions and qualities, not at all evident to
 the casual person who discusses automobiles, wines,
 old masters, Republicans, and college faculties.
 But in our public opini91ls few can be eXEert
@@ -6540,51 +5958,40 @@ have really happened, we read back into them the
 qualities that are presupposed in the stereotypes.
 These qualities were
 standardized rather
-inno-
-cently by the older economists.
+innocently by the older economists.
 ~hey set
 o~t to
 describe the social system under which they lived,
 and found it too complicated for words.
 So they
-constructed what they sincerely hoped was a sim-
-plified diagram, not so different in I:rinciple and
+constructed what they sincerely hoped was a simplified diagram, not so different in I:rinciple and
 in veracity from the parallelogram WIth legs and
 head in a child's drawing of a complicated cow.
 The
 sche~e consisted of a capitalist who had diligently
 saved capital from his labor, an entrepreneur ~ho
 conceived a socially useful demand and organized
-a factory, a collection of workmen who freely con-
-tracted take it or leave it, for their labor, a landlord,
-and a ~roup of consumers who bought in the cheap-
-est market those goods which by the ready use of the
+a factory, a collection of workmen who freely contracted take it or leave it, for their labor, a landlord,
+and a ~roup of consumers who bought in the cheapest market those goods which by the ready use of the
 pleasure-pain calculus they knew would give them
 the most pleasure.
 The model worked: . Th~ kind
 of people, which the model assumed, hVIng In the
-sort of world the model assumed, invariably cooper-
-ated harmoniously in the books where the model
+sort of world the model assumed, invariably cooperated harmoniously in the books where the model
 was descri bed.
-With modification and embroidery, this pure fic-
-tion, used by economists to simplify their think.ing,
+With modification and embroidery, this pure fiction, used by economists to simplify their think.ing,
 was retailed and popularized until for larg~ sections
-of the population it prevailed as the economic n:ytho-
-logy of the day.
+of the population it prevailed as the economic n:ythology of the day.
 It supplied a standard ~erslon ~f
-capitalist, promoter, worker and consume~ I~ a SOCI-
-ety that was naturally more bent .o~ achIev.Ing suc-
-cess than on explaining it.
+capitalist, promoter, worker and consume~ I~ a SOCIety that was naturally more bent .o~ achIev.Ing success than on explaining it.
 The buildings which rose,
 and the bank accounts which accumulated, were
 evidence that the stereotype of how the thing had
 been done was accurate.
 And those who benefited
-116
+
 PUBLIC OPINION
 CODES AND THEIR ENEMIES
-117
-
 
 most by success came to believe they were the kind
 of men they were supposed to be.
@@ -6596,7 +6003,7 @@ from
 asking
 whether this is
 indeed their friend.
-2
+
 To the vanquished and the victims, the official
 portraiture was,
 of course,
@@ -6623,12 +6030,9 @@ said they were the agents of prosperity, and the
 developers of trade.
 The vanquished insisted upon
 the wastes and brutalities of the trusts, and called
-loudly upon the Department of Justice to free busi-
-ness from conspiracies.
+loudly upon the Department of Justice to free business from conspiracies.
 In the same situation one
-side saw progress, economy, and a splendid develop-
-ment; the other, reaction, extravagance, and a re-
-straint of trade.
+side saw progress, economy, and a splendid development; the other, reaction, extravagance, and a restraint of trade.
 Volumes of statistics, anecdotes
 about the real truth and the inside truth, the deeper
 and the larger truth, were published to prove both
@@ -6636,13 +6040,12 @@ sides of the argument.
 :
 1 The Letters oj William James, Vol. I, p. 65.
 CODES AND THEIR ENEMIES
-119
+
 For when a system....Qi~tet~12~tLi§.."w~lL,fi!~g""-~QJdL
 attention is. called
 tQtb.Q£eJa1=ts"",JYhi~.hp.S4J.2,t?9rt,j1J
 and di;';ted iI-gill t~o..§e,w~i£h-_,£?n!!:~t~
-So per-
-hps It i~ because they are attuned to find .it, that
+So perhps It i~ because they are attuned to find .it, that
 kindly people discover so muc~ reason for klndne~s,
 malicious people so much malice,
 We speak qUlte
@@ -6666,9 +6069,7 @@ JIS
 
 
 volatile Irishman, a greedy Jew, a 100% American..
-In the workaday world that is often the real judg-
-ment, long in advance of the evidence, and it con-
-tains within itself the conclusion which the evidence
+In the workaday world that is often the real judgment, long in advance of the evidence, and it contains within itself the conclusion which the evidence
 is pretty certain to confirm.
 Neither justice, nor
 mercy, nor truth, enter into sucfialJ·udgment Tor-ilie
@@ -6688,8 +6089,7 @@ it,i,~u~~~u~t?t~i~~,.:~~t11()~~hell1~. of. educatf;ii-'-"
 be
 .....etected,....,,__Q!~E~~~ .!~gl......~'!!lst~~,tiJ;ted""",,,b~,~,,,,,se-1~
 ~J:1i~,~.c.. ,tE:?l1.!!?:~"~-!",-E?~EE:~~.,}~.~?, ..,~..... ~l1()~t sc.hooling
-]~E~P~~,=~I~~. for dealing with a va'st'civilizatiOn; tIley-
-must carry icturesof ifarcfufidwitlr'iIiem='al1Clnave
+]~E~P~~,=~I~~. for dealing with a va'st'civilizatiOn; tIleymust carry icturesof ifarcfufidwitlr'iIiem='al1Clnave
 re--Y£:l1~es;}J'I11e ..iiii]i v _.... _c._.;'"~,;.,.~;-=
 "p. J.:
 .~
@@ -6701,11 +6101,9 @@ eo Ie
 to'o'tfi'er'iaeas"'wfi"'~~~Ii"'-1lie\'-'--~
 ••.c,.•.•••'k··.~~~'1·;"'''..,,··;·,,·;,.····f·. w ....'t;·,···,,·P.ii,·;,·~··t"l.·· .. .')', ...,...;:".... ,'t,..••,.•,~',".";n".""""~~~: t. ey
 ~y:9"."'~0';-.Qy~,9 yy atl§.,. ,~,t.,tR.;cJ?~,1?Q§,!1tY.~!L~_gQo~--
-t~th~I,Jba.,!l~a.tt~qc)f\Vhat is not contained in their-
-W
+t~th~I,Jba.,!l~a.tt~qc)f\Vhat is not contained in theirW
 version "~I'tE~ "g'~od.' -'" .
-''';·~~?,~~!E_y;.g?odta~te ~~<:l~?()d f<?Tll! first standard-
-j~~.,.~gn-~.....j:hen~'~:empli~~!~~· ..'£~E!a.Ig .. ,~.[;.r~~~s,e -~n-derlying
+''';·~~?,~~!E_y;.g?odta~te ~~<:l~?()d f<?Tll! first standardj~~.,.~gn-~.....j:hen~'~:empli~~!~~· ..'£~E!a.Ig .. ,~.[;.r~~~s,e -~n-derlying
 P~~J,'~~~~§~w~ ..,.As \Y~"a.djl.l~t.
 0l.lr~.~~.v~s: ...~o"~o~ir "co-ae,-we
 ,~=~~I~~t.!.h~.,f~~t§ ..'Y~~~~,i~,;,!2 Jh9:"t~iig~! ...,..~~t~onany~ t~
@@ -6724,10 +6122,10 @@ It may be God's
 will, or
 the
 king's,
-120
+
 PUBLIC OPINION'
 CODES AND THEIR ENEMIES
-121
+
 individual salvation in a good, solid, three d~men­
 sional paradise, success on earth, or the service of
 :a::~:;tai~ t~1c~~J:ti~o~~a~~-~~~_e-614~~~~
@@ -6748,13 +6146,10 @@ Therefore,
 around every code there is a cloud of interpreters who
 deduce more specific cases.
 Suppose, ther:, t?at the
-doctors of the law decide that he may kill In self-
-defense.
+doctors of the law decide that he may kill In selfdefense.
 For the next man the doubt is almost as
-great- how does he know that he is defining self-
-defen~e correctly, or that he has not misjudged the
-facts, imagined the attack, and is really the aggres-
-sor? Perhaps he has provoked the attac~. B.ut what
+great- how does he know that he is defining selfdefen~e correctly, or that he has not misjudged the
+facts, imagined the attack, and is really the aggressor? Perhaps he has provoked the attac~. B.ut what
 is a provocation?
 Exactly t~ese confusions Infected
 the minds of most Germans In August, 1914.
@@ -6770,13 +6165,10 @@ do unto you rests on the belief that human nature IS
 uniform.
 Mr. Bernard Shaw's statement that you
 
-
-4
-The statement is, I think, susceptible of over-
-whelming proof, that..!P0r~J=~9~Q.~~L~§§um.e"caMpat.ticulat
+The statement is, I think, susceptible of overwhelming proof, that..!P0r~J=~9~Q.~~L~§§um.e"caMpat.ticulat
 ..,.
 view_...2.f=lh~JaCl§~~.~.~ ..lIg~g,~J::."Jh~".t~xm,,,!!?:~!~! ..,,~5?~e.~ ..""!,, .
-123
+
 CODES AND THEIR ENEMIES
 the mind.~,~tv.e cOll~~~PJjQn.".~.~~~2.~__!a~~.!},_.~J~ulJ:n::.t?9Jh~~
 ~demanding proof or.E,2.!lo:~g"!S~t!g'~'?,",,'~'~!"~'~"C~,.§£~.!2'!!
@@ -6811,7 +6203,7 @@ ptQLo~un,dl¥""-t,atld.~iulJ:J,Qr,t~!1!!,Y,,,,,!E~~.:.,,w;.,~h~t.,Jl._Jny;!1!."~
 •
 ..1-.
 ••
-1
+
 .
 .
 t
@@ -6830,15 +6222,12 @@ ___-.t:...t: ".."" _., ,
 any other, there is no answer unless you are willing
 to use the test in order to test it.
 PUBLIC OPINION
-122
-
 
 persons in the same social set, diffe: widely as between
 social sets, and between two nations, or two colors,
 may differ to the point where there is no common
 assumption whatever.
-That is why people profess-
-ing the same stock of religious beliefs can go to war.
+That is why people professing the same stock of religious beliefs can go to war.
 The element of their belief which determines conduct
 is that view of the facts which they assume.
 rh~,,,,,,i~.",r~,,~I~,,,,£Q.'des,,,,,~eltte.r.,,.,s.Q,.,.,,suhtl¥r""an,d.~"§,Q,,,,~~!::;,,,",,.
@@ -6875,8 +6264,7 @@ of all hitherto existing society is the history of class
 struggles," says the Communist Manifesto.
 I.f you
 have the editor's pattern in your mind, you will see
-vividly the facts that confirm it, vaguely and inef-
-PUBLIC OPINION
+vividly the facts that confirm it, vaguely and inefPUBLIC OPINION
 ~~~~~f-~,~i~~~!-pro-_
 "'''''"''''''''''''''',c",.'"",<"',)"w'''H"""~g'"n",,,,,",,",,,,,,It<~."""'."~I,;"","-",~"""",J"n!,~,tn"~ltl,£lU,,.al." At tIi'e"
 ~.'~",~B,~,~Xi,2f"<;e,<;h""~t~~J:~,j§",~.,,p~tt~xnc,,Q[,,,§'!~~91iP~~~
@@ -6890,8 +6278,7 @@ di .
 the economic and the patriotic codes.
 There is a
 war ~uppo~ed to affect all alike.
-Two men are part-
-ners In business,
+Two men are partners In business,
 One enlists, the other takes a war
 cantrac:t.. The soldier sacrifices everything, perhaps
 even hIS hfe.
@@ -6899,8 +6286,7 @@ He is paid a dollar a day, and no one
 says, no one believes, that you could make a better
 soldier out of him by any form of economic incentive.
 That motive disappears out of his human .nature,
-The cantractor sacrifices very little, is paid a hand-
-some profit over costs, and few say or believe that
+The cantractor sacrifices very little, is paid a handsome profit over costs, and few say or believe that
 he would produce the munitions if there were no
 economic incentive.
 .That may be unfair to him.
@@ -6911,8 +6297,7 @@ And the codes are probably founded on
 true expectations to this extent, that when a man
 adopts a certain code he tends to exhibit the kind
 of human nature which the code demands.
-.That is one reason why it is so dangerous to gener-
-alize about human nature.
+.That is one reason why it is so dangerous to generalize about human nature.
 A loving father can be a
 sour boss, an earnest municipal reformer
 and a
@@ -6929,16 +6314,13 @@ totally dIfferent versions of what others are like and
 These versions differ by codes
 In the same person, the codes differ somewhat among
 CODES AND THEIR ENEMIES
-125
-
 
 fectively those that contradict.
 If you have the
-communist pattern, you wiIl not only look for differ-
-ent thi~gs, but you will see with a totally different
+communist pattern, you wiIl not only look for different thi~gs, but you will see with a totally different
 emphasis what you and the editor happen to see in
 common.
-5
+
 A~,9:~..§iq£~.,.m.Y ..moral srs.~~~._~.~~t~.g!?..J)1Y: a~c=~!~~t.
 -,Y:~I'.§JQn,Qfth~Jacts,
 h~ who denies either...JJ:Ly_~~1
@@ -6979,14 +6361,12 @@ WI thou~. t~at liabit
 "..~;~~;~~,g~~!}.dy' ,!g
 ~he
 !!~..~,£.h~~o~s: .char'ac'teroT-ail-.·
-~pe~,~,~;!~,~~.:,", ....,~,~Ee..\\T.~il~ l?~~ct':~~·.·il1Ii'ng'Io"·'~~g]I[Dliat-
-t,~e.r~~re
+~pe~,~,~;!~,~~.:,", ....,~,~Ee..\\T.~il~ l?~~ct':~~·.·il1Ii'ng'Io"·'~~g]I[Dliatt,~e.r~~re
 t.WQsICles to a
 '. question," they donor'"
 ~:i~~:;!h~~~r~Jf:t~~~:t~bw~:~e~~e::
 after long critical education, they are fully conscious
-of how second-hand and subjective is their appre-
-hension of their social data.
+of how second-hand and subjective is their apprehension of their social data.
 .§~...!~~:~,~~9."lec;,~i?l?:s
 .seeviyidly.~~c;~j t~,.Q~l1
 ._~a.sp,e,.c.t~ a.n~ :Qn.tri.¥e their ..()in,~.~!'p~~ri.~ji9~~'.::·Q("~ h;'t~
@@ -7044,12 +6424,10 @@ Thus to the Italians in Paris Fiume was Italian.
 I'l7
 CODES AND THEIR ENEMIES
 PUBLIC OPINION
-126
-
 
 PUBLIC OPINION
 CODES AND THEIR ENEMIES
-129
+
 It was not merely a city that it would be desirable
 to include within the Italian kingdom.
 It was
@@ -7064,16 +6442,14 @@ eyes on Fiume as a central European port of entry.
 They saw vividly the Jugoslavs in the suburbs and
 the non-Italian hinterland.
 Some of the Italians in
-Paris were therefore in need of a convincing explana-
-tion of the American perversity.
+Paris were therefore in need of a convincing explanation of the American perversity.
 They found it in a
 rumor which started, no one knows where, that an
 influential American diplomat was in the snares of a
 Jugoslav mistress.
 She had been seen. . ..
 He
-had been seen. . .. At Versailles just off the boule-
-vard. . . . The villa with the large trees.
+had been seen. . .. At Versailles just off the boulevard. . . . The villa with the large trees.
 This is a rather common way of explaining away
 opposition. In their more libelous form such charges
 rarely reach the printed page, and a Roosevelt may
@@ -7095,12 +6471,10 @@ t~IS sort ~f thing IS, I believe, less prevalent
 -.~~LJh~ __QPpositiQn""w}y'~_!!tek.~~_yj:,J1~i.n~
 ... ~nft_~on­
 ~.E:,a~2:'~ If prices go up unmercifully the pro:---
-fiteers have conspired; if the newspapers misrepre-
-sent the news, there is a capitalist plot; if the rich
+fiteers have conspired; if the newspapers misrepresent the news, there is a capitalist plot; if the rich
 are too rich, they have been stealing; if a closely
 fought election is lost, the electorate was corrupted;
-if a statesman does something of which you dis-
-approve, he has been bought or influenced by some
+if a statesman does something of which you disapprove, he has been bought or influenced by some
 discredi table person.
 If workingmen are restless,
 they are the victims of agitators; if they are restless
@@ -7111,10 +6485,8 @@ ofspies; if there is trouble in Ireland, it is German
 or Bolshevik "gold."
 And if you go stark, staring
 mad looking for plots, you see all strikes, the Plumb
-plan, Irish rebellion, Mohammedan unrest, the restor-
-ation of King Constantine, the League of Nations,
-Mexican disorder, the movement to reduce arma-
-ments, Sunday movies, short skirts, evasion of the
+plan, Irish rebellion, Mohammedan unrest, the restoration of King Constantine, the League of Nations,
+Mexican disorder, the movement to reduce armaments, Sunday movies, short skirts, evasion of the
 liquor laws, Negro self-assertion, as sub-plots under
 some grandiose plot engineered either by Moscow,
 Rome, the Free Masons, the Japanese, or the Elders
@@ -7127,8 +6499,7 @@ I
 ~Kl~_diplQmJlti~J,§"".,,~Qm,p~11ed~tQ_ta.lk. aut l2gd to
 ,<=th~",.},Y.~rrLllgJle,Qples.".J.eat.ned"hQlY..JQJ1§.~ ~Jl!!ge r~-
 .19IJr,,,,QL.ster.e,Q,t;,y,:,11~,§.~.,,.,,,,They were dealing with a pre:-
-carious alliance of powers, each of which was main-
-taining its war unity only by the most careful
+carious alliance of powers, each of which was maintaining its war unity only by the most careful
 leadership.
 The ordinary soldier and his wife, heroic
 and selfless beyond anything in the chronicles of
@@ -7151,17 +6522,14 @@ on the territory of several of its neighbors.
 These
 claims were called the Greater Ruritania by the
 cuItivated classes who regarded Kipling, Treitschke,
-and Maurice Barres as one hundred percent Ruritan-
-ian.
+and Maurice Barres as one hundred percent Ruritanian.
 But the grandiose idea aroused no enthusiasm
 abroad.
-So holding this finest flower of the Ruritan-
-ian genius, as their poet laureate said, to their hearts,
-130
+So holding this finest flower of the Ruritanian genius, as their poet laureate said, to their hearts,
+
 THE DETECTION OF STEREOTYPES
-131
-Ruritania's statesmen went forth to divide and con-
-quer.
+
+Ruritania's statesmen went forth to divide and conquer.
 They divided the claim into sectors.
 For
 each piece they invoke~ that ste~eotype which so~e
@@ -7178,15 +6546,11 @@ Rurit~nia
 demanded it to complete her natural geographIcal
 frontier.
 If you fixed your attention long enough on
-the ineffable value of what is natural, those alien peas-
-ants just dissolved into fog, and only the slope .of the
+the ineffable value of what is natural, those alien peasants just dissolved into fog, and only the slope .of the
 mountains was visible.
-The next sector was Inhab-
-ited by Ruritanians, and on the principle that no
-people ought to live under alien rule, they were re-
-annexed.
-Then came a city of considerable com-
-mercial importance, not inhabited by Ruritanians.
+The next sector was Inhabited by Ruritanians, and on the principle that no
+people ought to live under alien rule, they were reannexed.
+Then came a city of considerable commercial importance, not inhabited by Ruritanians.
 But until the Eighteenth Century it had been part
 of Ruritania, and on the principle of Historic Right
 it was annexed.
@@ -7197,10 +6561,8 @@ On the principle of reparation for damage
 it was annexed.
 Beyond this there was a territory S
 inhabited 97% by aliens, constituting the natural
-geographical frontier of another nation, never his-
-torically a part of Ruritania.
-But one of the prov-
-inces which had been federated into Ruritania had
+geographical frontier of another nation, never historically a part of Ruritania.
+But one of the provinces which had been federated into Ruritania had
 former!y traded in those markets, and the upper
 class culture was Ruritanian.
 ~~J.h~,,".J2.!iD£!R!~,.2f
@@ -7233,8 +6595,7 @@ That eternal principle
 censors out all the objections, isolates the issue from
 its background and its context, and sets going in you
 some strong emotion, appropriate enough to the
-principle, highly inappropriate to the docks, ware-
-houses, and real estate.
+principle, highly inappropriate to the docks, warehouses, and real estate.
 And having started in that
 mood you cannot stop.
 A real danger exists.
@@ -7246,13 +6607,12 @@ have to defend the defenses, erect buffers, and buffers
 for the buffers, until the whole affair is so scrambled
 that it seems less dangerous to fight than to keep on
 talking.
-There are certain clues which often help in detect-
-ing the false absolutism of a stereotype.
+There are certain clues which often help in detecting the false absolutism of a stereotype.
 In the case
 ofthe Ruritanian propaganda the principles blanketed
 each other so rapidly that one ,could/readily see
 how the argument had been c;nst~~~-";e'~s¥eries~
-2
+
 Inability to take account of space is another.
 In
 the spring of 1918, for example, large num~ers of
@@ -7263,11 +6623,8 @@ The war, as they had conceived it, was on two fronts,
 and when one of them disappeared there was an
 instant
 de~lCl.l'ld that it be recreated.
-The unem-
-ployed:~Jap';~'~~?)army was to man the front! sub-
-stitutingtoF"nffie Russian.
-But there was one Insup-
-erable
+The unemployed:~Jap';~'~~?)army was to man the front! substitutingtoF"nffie Russian.
+But there was one Insuperable
 obstacle.
 Between
 Vladivostok
@@ -7295,25 +6652,20 @@ had to do with reaching the moon.
 The stereotype in this instance was the.war.on two
 fronts.
 Ever since men had begun to imagine the
-Great War they had conceived Germany held be-
-THE DETECTION OF STEREOTYPES
-133
+Great War they had conceived Germany held beTHE DETECTION OF STEREOTYPES
+
 oLconttadictions"".shQlV~~q"".th~t,."fQt,,,"~9-~Ch,~,..s@e,tQ,t:,",,,,tbat,,.,
 ~.teo1.¥pe~w~a~"~ml?,lQ,y,~g~>~h!£h,~~2!:!~,g,.,.Q!?!,i!~.r~,!~,""'~U,
 the fu&ts-thatjn!,~tfm:"g"~~,!!h,."!,h~.,,~1~UlJ.
 ..~,~,,,,CoJ11r,!glc~
 ~~ of this sort is often a good clue.
 PUBLIC OPINION
-132
 
-
-134
 PUBLIC OPINION
 THE DETECTION OF STEREOTYPES
-135
+
 tween France and Russia.
-One generation of strat-
-egists, and perhaps two, had lived with that visual
+One generation of strategists, and perhaps two, had lived with that visual
 image as the starting point of all their calculations.
 For nearly four years every battle-map they saw had
 deepened the impression that this was the war.
@@ -7323,42 +6675,34 @@ They were seen through
 the stereotype, and facts which conflicted with it,
 such as the distance from Japan to Poland, were
 incapable of coming vividly into consciousness.
-It is interesting to note that the American authori-
-ties dealt with the new facts more realistically than
+It is interesting to note that the American authorities dealt with the new facts more realistically than
 the French.
 In part, this was because (previous
 to 1914) they had no preconception of a war upon
-the continent; in part because the Americans, en-
-grossed in the mobilization of their forces, had a
-vision of the western front which was itself a stereo-
-type that excluded from their consciousness any
+the continent; in part because the Americans, engrossed in the mobilization of their forces, had a
+vision of the western front which was itself a stereotype that excluded from their consciousness any
 very vivid sense of the other theatres of war.
 In
-the spring of 1918 this American view could not com-
-pete with the traditional French view, because while
+the spring of 1918 this American view could not compete with the traditional French view, because while
 the Americans believed enormously in their own
 powers, the French at that time (before Cantigny
 and the Second Marne) had the gravest doubts.
 .The American confidence suffused the American
-stereotype, gave it that power to possess conscious-
-ness, that liveliness and sensible pungency, that
+stereotype, gave it that power to possess consciousness, that liveliness and sensible pungency, that
 stimulating effect upon the will, that emotional
 interest as an object of desire, that congruity with
-the activity in hand, which James notes as char-
-acteristic of what we regard as
+the activity in hand, which James notes as characteristic of what we regard as
 H real." 1 The French
 I Principles oj Psychology, Vol. II, p. 300.
 in despair remained fixed on their accepted image.
 And when facts, gross geographical facts, would
-not fit with the preconception, they were either cen-
-sored out of mind, or the facts were themselves
+not fit with the preconception, they were either censored out of mind, or the facts were themselves
 stretched out of shape.
 Thus the difficulty of the
 Japanese reaching the Germans five thousand miles
 away was, in measure, overcome by bringing the
 Germans more than half way to meet them.
-Be-
-tween March and June 1918, there was supposed
+Between March and June 1918, there was supposed
 to be a German army operating in Eastern Siberia.
 This phantom army consisted of some German
 prisoners
@@ -7369,7 +6713,7 @@ German
 prisoners
 thought about, and chiefly of the delusion that those
 five thousand intervening miles did not really exist.'
-3
+
 A true conception of space is not a simple matter.
 If I draw a straight line on a map between Bombay
 and Hong Kong and measure the distance, I have
@@ -7381,8 +6725,7 @@ very little until I know what ships are in the service,
 when they run, how fast they go, whether I can
 secure accommodation and afford to pay for it.
 In
-practical life space is a matter of available transporta-
-l See in this connection Mr. Charles Grasty's interview with Marshal
+practical life space is a matter of available transportal See in this connection Mr. Charles Grasty's interview with Marshal
 Foch, New York Times, February 26, 1918.
 .
 "Germany is walking through Russia.
@@ -7399,8 +6742,7 @@ PUBLIC OPINION
 tion, not of geometrical planes, as the old railroad
 magnate knew when he threatened to make grass
 grow in the streets of a city that had offended him.
-If I am motoring and ask how far it is to my destina-
-tion, I curse as an unmitigated booby the man who
+If I am motoring and ask how far it is to my destination, I curse as an unmitigated booby the man who
 tells me it is three miles, and does not mention a
 six mile detour.
 It does me no good to be told that
@@ -7418,8 +6760,7 @@ me it was one mile.
 Both of them are talking about
 the space they have to cover, not the space I must
 cover.
-In the drawing of boundary lines absurd com-
-plications have arisen through failure to conceive
+In the drawing of boundary lines absurd complications have arisen through failure to conceive
 the practical geography of a region.
 Under some
 general formula like self-determination statesmen
@@ -7435,8 +6776,8 @@ On the colored ethnic map the line was ethnically
 just, that is to say, just in the world of that ethnic
 map.
 THE DETECTION OF STEREOTYPES
-137
-4
+
+
 But time, no less than space, fares badly.
 A
 common example is that of the
@@ -7445,11 +6786,9 @@ by making an elaborate will to control his money
 long after his death.
 "It had been the purpose of
 the first William James," writes his great-grandson
-Henry j ames;' "to provide that his children (sev-
-eral of whom were under age when he died) should
+Henry j ames;' "to provide that his children (several of whom were under age when he died) should
 qualify themselves by industry and experience to
-enjoy the large patrimony which he expected to be-
-queath to them, and with that in view he left a will
+enjoy the large patrimony which he expected to bequeath to them, and with that in view he left a will
 which was a voluminous compound of restraints and
 instructions.
 He showed thereby how great were
@@ -7465,10 +6804,8 @@ human that the law permits it to operate for a
 limited time after death.
 The amending clause of any constitution is a good
 index of the confidence the authors entertained about
-the reach of their opinions in the succeeding genera-
-tions.
-There are, I believe, American state con-
-stitutions which are almost incapable of amendment.
+the reach of their opinions in the succeeding generations.
+There are, I believe, American state constitutions which are almost incapable of amendment.
 The men who made them could have had but little
 sense of the flux of time: to them the Here and Now
 was so brilliantly certain, the Hereafter so vague or
@@ -7478,11 +6815,9 @@ so terrifying, that they had the courage to say how
 
 PUBLIC OPINION
 life should run after they were gone.
-And then be-
-cause consti tutions are difficult to amend, zealous
+And then because consti tutions are difficult to amend, zealous
 people with a taste for mortmain have loved to write
-on this imperishable brass all kinds of rules and re-
-strictions that, given any decent humility about the
+on this imperishable brass all kinds of rules and restrictions that, given any decent humility about the
 future, ought to be no more permanent than an
 ordinary statute.
 ~.pr~=~t:!El~.~~~~...!:~£~~t~ ti1E.~~.~n:!,~£~__}yk!~lY.l!2!o our
@@ -7496,8 +6831,7 @@ from biological time.
 Social time is most complex.
 The statesman has to decide whether to calculate
 for the emergency or for the long run.
-Some deci-
-sions have to be made on the basis of what will
+Some decisions have to be made on the basis of what will
 happen in the next two hours; others on what will
 happen in a week, a month, a season, a decade,
 when the children have grown up, or their children's
@@ -7515,22 +6849,18 @@ nothing else.
 acu tesel1§~qf relati\T~thu.e..""
 '"-Dl's"t;ii't~'Wtr~~:"·"p;·;·t·N~~d .future, has somehow to be
 conceived.
-But as James says, "of the longer dura-
-tion we have no direct 'realizing' sense." 1
+But as James says, "of the longer duration we have no direct 'realizing' sense." 1
 The
 longest duration which we immediately feel is what
 is called the "specious present."
-It endures, ac-
-1 Principles of Psychology, Vol. I, p. 638.
+It endures, ac1 Principles of Psychology, Vol. I, p. 638.
 THE DETECTION OF STEREOTYPES
-139
+
 cording to Titchener, for about six seconds.'
 "All
 impressions within this period of time are present
 to us at once.
-This makes it possible for us to per-
-ceive changes and events as well as stationary ob-
-jects. The perceptual present is supplemented by the
+This makes it possible for us to perceive changes and events as well as stationary objects. The perceptual present is supplemented by the
 ideational present. Through the combination of per..
 ceptions with memory images, entire days, months,
 and even years of the past are brought together into
@@ -7538,8 +6868,7 @@ h
 "
 t e present.
 In this ideational present, vividness, as James
-said, is proportionate to the number of discrimina-
-tions we perceive within it.
+said, is proportionate to the number of discriminations we perceive within it.
 Thus a vacation in
 which we were bored with nothing to do passes
 slowly while we are in it, but seems very short in
@@ -7590,7 +6919,7 @@ like restless boiling water springs; the motions of animals
 will be as invisible as are to us the movements of bullets
 and cannon-balls; the sun will scour through the sky like
 a meteor, leaving a fiery trail behind him, etc."
-5
+
 In his Outline of History Mr. Wells has made a
 gallant effort to visualize "the true proportions of
 historical to geological time." 1
@@ -7602,8 +6931,7 @@ caves, 550 feet to see the earlier Neanderthalers, a
 mile or so to the last of the dinosaurs.
 More or less
 precise chronology does. not begin until after 1000
-B. c., and at that time" Sargon I of the Akkadian-
-Sumerian Empire was a remote memory, . . . more
+B. c., and at that time" Sargon I of the AkkadianSumerian Empire was a remote memory, . . . more
 remote than is Constantine the Great from the world
 of the present day. . ..
 Hammurabi had been
@@ -7611,7 +6939,7 @@ Hammurabi had been
 See also James Harvey Robinson, The New History,
 P·239·
 THE DETECTION OF STEREOTYPES
-141
+
 dead a thousand years. . . .
 Stonehenge in England
 was already a thousand years old."
@@ -7631,8 +6959,7 @@ astronomical measure of time, the geological, the
 biological, any telescopic measure which minimizes
 the present is not "more true" than a microscopic.
 Mr. Simeon Strunsky is right when he insists that
-"if Mr. Wells is thinking of his subtitle, The Prob-
-able Future of Mankind, he is entitled to ask for
+"if Mr. Wells is thinking of his subtitle, The Probable Future of Mankind, he is entitled to ask for
 any number of centuries to work out his solution.
 If he is thinking of the salvaging of this western
 civilization, reeling under the effects of the Great
@@ -7646,9 +6973,7 @@ The man who says that it does not matter if
 15,000,000 Chinese die of famine, because in two
 generations the birthrate will make up the loss,
 has used a time perspective to excuse his inertia.
-A person who pauperizes a healthy young man be-
-cause he is sentimentally overimpressed with an im-
-1 In a review of The Salvaging of Civilization, The Literary Review of
+A person who pauperizes a healthy young man because he is sentimentally overimpressed with an im1 In a review of The Salvaging of Civilization, The Literary Review of
 the N. Y. Evening Post, June 18, 1921, p. 5·
 
 
@@ -7657,19 +6982,15 @@ mediate difficulty has lost sight of the duration of
 the beggar's life.
 The people who for the sake of
 an
-i~mediat~ peace. are willing to buy off an ag-
-gressIve
-em~Ire by Indulging its appetite have al-
-lowed .a SP~CIOUS present to interfere with the peace
+i~mediat~ peace. are willing to buy off an aggressIve
+em~Ire by Indulging its appetite have allowed .a SP~CIOUS present to interfere with the peace
 of theIr. children,
-The people who will not be pa-
-tI~nt WIth a troublesome neighbor, who want to
+The people who will not be patI~nt WIth a troublesome neighbor, who want to
 brIng everything to a "showdown " are no less the
 victims of a specious present.
 '
-6
-In~o almo~t every social problem the proper cal-
-culation of time enters.
+
+In~o almo~t every social problem the proper calculation of time enters.
 Suppose, for example it is
 a question of timber.
 Some trees grow faster' than
@@ -7694,8 +7015,7 @@ the
 restoration of the balance as a charge upon the
 future.
 Coal i?volves a different theory of time, because
-co~l, unl.Ike a tree, is produced on the scale of geo-
-logical time,
+co~l, unl.Ike a tree, is produced on the scale of geological time,
 The supply is limited.
 Therefore a
 correct so~ial policy involves intricate computation
@@ -7705,24 +7025,20 @@ us~, the present
 economy of use, and the alternative 'fuels.
 But
 THE DETECTION OF STEREOTYPES
-143
+
 when that computation has been reached it must
 finally be squared with an ideal standard involving
 time.
-Suppose, for example, that engineers con-
-clude that the present fuels are being exhausted at
+Suppose, for example, that engineers conclude that the present fuels are being exhausted at
 a certain rate; that barring new discoveries industry
 will have to enter a phase of contraction at some
 definite time in the future.
-We have then to de-
-termine how much thrift and self-denial we will use,
+We have then to determine how much thrift and self-denial we will use,
 after all feasible economies have been exercised, in
 order not to rob posterity.
-But what shall we con-
-sider posterity?
+But what shall we consider posterity?
 Our grandchildren?
-Our great-
-grandchildren? Perhaps we shall decide to calculate
+Our greatgrandchildren? Perhaps we shall decide to calculate
 on a hundred years, believing that to be ample
 time for the discovery of alternative fuels if the
 necessity is made clear at once.
@@ -7745,8 +7061,7 @@ think that surface cars, run from a central power
 plant on tracks, are going out of fashion in twenty
 years.
 Then it is a most unwise contract to make,
-for you are virtually condemning a future genera-
-tion to inferior transportation.
+for you are virtually condemning a future generation to inferior transportation.
 In making such a
 contract the city officials lack a realizing sense of
 ninety-nine years.
@@ -7809,10 +7124,10 @@ of them are French; If you take Louis XIV and the
 year 1688 they are almost all French.' If you are
 ,_
 .....,_....~"""=...._"'~---"""
-144
+
 PUBLIC OPINION
 THE DETECTION OF STEREOTYPES
-145
+
 using the argument from
 histQr~~¥"Q1L"ate."Jai!1~",,,~,~~t:,",
 tiJill~'~eI~cI!fi~"~~tP.s-P.!§L~hi~h"",~~P1~~E~w
@@ -7878,7 +7193,7 @@ The tree is male.
 At various
 rnoments females accrue to it as itinerant bees light
 upon an ancient apple tree.
-7
+
 But the future is the most illusive time of all. Our
 "';'_·..,..-"'.,
 ~~,~.t:~"•..,_.~.,."..-,
@@ -7899,8 +7214,7 @@ For management is a word that covers
 many functions.'
 Some of these require no training;
 some require a little training; others can be learned
-only in a lifetime. And the truly discriminating pro-
-gram ofindustrial democratization would beone based
+only in a lifetime. And the truly discriminating program ofindustrial democratization would beone based
 on the proper time sequence, so that the assumption of
 responsibility would run paraIlel to a complementary
 program of industrial training.
@@ -7910,12 +7224,11 @@ to do a,:,ay with the intervening time of preparation;
 the resistance to all sharing of responsibility an
 ~ttempt to deny the alteration of human capacity
 In the course of time.
-Primitive notions of democ-
-racy, such as rotation in office, and contempt for
+Primitive notions of democracy, such as rotation in office, and contempt for
 the expert, are really nothing but the 01<;1 myth that
 1 Cf, Carter 1. Goodrich, The Frontt'er of Co~trol.
 THE DETECTION OF STEREOTYPES
-147
+
 the Goddess of Wisdom sprang mature and fully
 armed from the brow of Jove.
 They assume that
@@ -7940,7 +7253,7 @@ h
 "':00.
 "-~""""'T:--""
 c d
-1
+
 t
 ,.
 t err inue
@@ -7992,22 +7305,20 @@ undoubtedly is.
 In our own race wars we can see
 some of the results of the failure to realize that time
 would gradually obliterate the slave morality of the
-Negro, and that social adjustment based on this rnor-
-ality would begin to break down.
+Negro, and that social adjustment based on this rnorality would begin to break down.
 1~ is ~~~~~~~.,.~~J2~,£!-l!!:~,...t~~".f~,~Ere3..~ if ito~~yed
 oU!:J~~~~,~~!J..!,.,PYrJ2,Q~~~~,~"!Q,",,,!~,!}!hlJa!~~erde,gt"ys'
 our desire, or immortalize whatever stands between
 us....aii(:r;;oti'F"fe~rF's~
 e",,"",', -"",",~ "'~""--'--~'-'--"~""---"----
-8
+
 In putting together our public opinions, not only
 do we have to picture more space than we can see
 with our eyes, and more time than we can feel, but
 we have to describe and judge more people, more
 actions, more things than we can ever count, or
 vividly imagine.
-We have to summarize and general-
-ize.
+We have to summarize and generalize.
 We have to pick out samples, and treat them as
 typical.
 ,!2-Pl~_~~.,i~~£!y.,~_g~C?~,,~,~~E!<~~,.9(..~~J'lrg~"£la_~~§,,",is "
@@ -8023,12 +7334,11 @@ All
 they have done for me is to make me a little more
 conscious of~?~h'!r~t,~t,!~ .1Q",.,~1 a_ssj£y_~ali.d._to-saalple)".
 THE DETECTION OF STEREOTYPES
-149
+
 how readily we spread a little butter over the whole
 universe.
 Some time ago a group of social workers in Sheffield,
-England, started out to substitute an accurate PIC-
-ture of the mental equipment of the workers of that
+England, started out to substitute an accurate PICture of the mental equipment of the workers of that
 city for the impressionistic one they had.'
 T~ey
 wished to say, with some decent grounds for sayIng
@@ -8038,11 +7348,9 @@ f~und as we all find the moment we refuse to let
 our fi;st notion prevail, that they were beset w.ith
 complications.
 Of the test the~ employed nothing
-need be said here except that It was a large ques-
-tionnaire.
+need be said here except that It was a large questionnaire.
 For the sake of the illustration, assume
-that the questions were a fair test of mental equip-
-ment for English city life.
+that the questions were a fair test of mental equipment for English city life.
 Theoretically, then, those
 questions should have been
 ~ut. to every member
@@ -8057,10 +7365,8 @@ possessed the answers which would justify or refute
 the casual phrase about the "ignorant workers"
 or the "intelligent workers."
 But nobody could
-think of questioning the whole two hundred thou-
-sand.
-So the social workers consulted an eminent statis-
-tician, Professor Bowley.
+think of questioning the whole two hundred thousand.
+So the social workers consulted an eminent statistician, Professor Bowley.
 He advised them that not
 less than 408 men and 408 women would. prove to be
 a fair sample.
@@ -8079,15 +7385,13 @@ But which 816 people should they approach?
 might have gathered particulars concerning workers
 to whom one or another of us had a pre-inquiry
 access; we might have worked through philanthropic
-gentlemen and ladies who were in contact with cer-
-tain sections of workers at a club, a mission, an
+gentlemen and ladies who were in contact with certain sections of workers at a club, a mission, an
 infirmary, a place of worship, a settlement.
 But
 such a method of selection would produce entirely
 worthless results.
 The workers thus selected would
-not be in any sense representative of what is popu-
-larly called' the average run of workers;' they would
+not be in any sense representative of what is popularly called' the average run of workers;' they would
 represent nothing but the Iittle coteries to which they
 belonged.
 .
@@ -8098,10 +7402,8 @@ or 'accidental' or 'random' method of approach."
 This they did.
 And after all these precautions they
 came to no more definite conclusion than that on
-their classification and according to their question-
-naire, among 200,000 Sheffield workers "about one
-quarter" were" well equipped," "approaching three-
-quarters" were "inadequately equipped" and that
+their classification and according to their questionnaire, among 200,000 Sheffield workers "about one
+quarter" were" well equipped," "approaching threequarters" were "inadequately equipped" and that
 "about one-fifteenth" were" mal-equipped."
 Compare this conscientious and almost pedantic
 method of arriving at an opinion, with our usual
@@ -8118,8 +7420,7 @@ All these are generalizations drawn
 from samples, but the samples are selected by a
 method that statistically is wholly unsound.
 Thus
-the employer will judge labor by the most trouble-
-some employee or the most d?cile. that he
+the employer will judge labor by the most troublesome employee or the most d?cile. that he
 ~nows,
 and many a radical group has imagined that It was
 a fair sample of the working class..
@@ -8155,8 +7456,7 @@ and call them the working class, you
 cannot help assuming that the people so classified
 will behave in accordance with your stereotype. Just
 who those people are you are not ~uite certain.
-Fac-
-tory hands and mine workers fit In more or less, but
+Factory hands and mine workers fit In more or less, but
 farm
 hands,
 small
@@ -8165,8 +7465,7 @@ peddlers, little shop
 keepers, clerks, servants, soldiers, policemen, firemen
 slip out of the net.
 The tendency, when you are
-appealing to the "working class," is to fix your at-
-tention on two or three million more or less confirmed
+appealing to the "working class," is to fix your attention on two or three million more or less confirmed
 
 
 PUBLIC OPINION
@@ -8184,12 +7483,10 @@ the evidence which supports itself and rejects the
 other.
 And so parallel with the real movements of
 working men there exists a fiction of the Labor
-Movement, in which an idealized mass moves to-
-wards an ideal goal.
+Movement, in which an idealized mass moves towards an ideal goal.
 The fiction deals with the
 future.
-In ...th~.Jg1!Jr~'i,1?Q§§i.biUti~,§."",,~re .al,most. indis-
-tiflg~,~,~h~I~~:'::}i9m probabilities
+In ...th~.Jg1!Jr~'i,1?Q§§i.biUti~,§."",,~re .al,most. indistiflg~,~,~h~I~~:'::}i9m probabilities
 and~p;~babilities
 "lr;ii1"'certilnt:ies~"""rr"tlie"f~ruture"'Tslon'''"'''''enou"-fi~~tlie
 "f",.",., ".".,.' '.',....
@@ -8204,7 +7501,7 @@ J~"~14~r,'ana"sai'cf'fllat"'CCTt is a slope of g~~d~i:rr-'on''"~
 which in the larger questions of life men habitually
 I,
 "
-1
+
 rve,
 "1. There is nothing absurd in a certain view of the
 world being true, nothing contradictory;
@@ -8216,7 +7513,7 @@ world being true, nothing contradictory;
 7. It shall be true, at any rate true for me."
 1 William James, Some Problemsof Philosophy, p. 224.
 THE DETECTION OF STEREOTYPES
-153
+
 And, as he added in another place,' "your acting
 thus may in certain special cases be a means of
 making it securely true in the end."
@@ -8262,10 +7559,9 @@ In
 dealing with any large mass of facts, the presumption
 is against our having picked true samples, if we are
 acting on a casual impression.
-9
+
 And when we try to go one step further in order
-to seek the causes and effects of unseen and com-
-plicated affairs, haphazard opinion is very tricky.
+to seek the causes and effects of unseen and complicated affairs, haphazard opinion is very tricky.
 There are few big issues in public life where cause
 and effect are obvious at once.
 They are not obvious
@@ -8273,8 +7569,7 @@ They are not obvious
 
 
 to scholars who have devoted years, let us say, to
-studying business cycles, or price and wage move-
-ments, or the migration and the assimilation of
+studying business cycles, or price and wage movements, or the migration and the assimilation of
 peoples, or the diplomatic purposes of foreign powers.
 Yet somehow we are all supposed to have opinions
 on these matters, and it is not surprising that the
@@ -8287,8 +7582,7 @@ We have already dwelt at some length on the way
 things reach our attention.
 We have seen that~
 access to information,...,is. 0bstrllcted and uncertain"
-~dth;t~~~~-'~pprehensi~"'-i~~~~I~eply'co~trolled~_~_y-
-our~'si~reot~w""'~es~"that"OtTie~~evlcrei1~ce~avairaole LQ=O\If
+~dth;t~~~~-'~pprehensi~"'-i~~~~I~eply'co~trolled~_~_your~'si~reot~w""'~es~"that"OtTie~~evlcrei1~ce~avairaole LQ=O\If
 ~, " ~
 ,4~~=.,rR~"o"",·~~·,""~·"·"'"'~"-~~;f~'~~~ .:: ~-d'fu~~;'~-;esti
 .e
@@ -8304,17 +7598,16 @@ eif-ect~-'-"'"'''''-''''''''''~'-'''''....,...""'--..','......",,,_"-'w,-.,·,'=
 -~"~Thl~I~most likely to happen when two ideas that
 come together arouse the same feeling. If they come
 together they are likely to arouse the same feeling;
-and even when they do not arrive together a power-
-ful feeling attached to one is likely to suck out
+and even when they do not arrive together a powerful feeling attached to one is likely to suck out
 of all the corners of memory any .idea that feels
 about the same.
 Thus everything painful tends
 to collect into one system of cause and effect, and
 likewise everything pleasant.
-154
+
 PUBLIC OPINION
 THE DETECTION OF STEREOTYPES
-155
+
 "lId I rrn (1675) This day I hear that G[od] has shot
 arrow into the midst of this Town.
 The small pox
@@ -8331,15 +7624,14 @@ h
 d'
 name is Windsor.
 His daughter IS SIC
-0
+
 t e
 isease.
 It is observable that this disease begins at an alehouse,
 to testify God's displeasure ag" the sin of drunkenness
 & yt of multiplying alehouses!" 1
 Thus Increase Mather, and thus in the year 1919
-a distinguished Professor of Celestial Mechanics dis-
-cussing the Einstein theory:
+a distinguished Professor of Celestial Mechanics discussing the Einstein theory:
 "It may well be that.... Bolshevist upris~ngs are in
 reality the visible objects of some
 underlying,
@@ -8364,13 +7656,11 @@ til'
 t er t Ings we
 -wl~~r;t:L!!f~~·J},·;~~·~k~~~
 it~··· ~or~ .....
-,~~~~~~;t a~ alehouses, or Rela-
-tivity and Bolshevism, but they ar~ ?ound ~oget~er
+,~~~~~~;t a~ alehouses, or Relativity and Bolshevism, but they ar~ ?ound ~oget~er
 in the same emotion.
 In a superstrtious mind, like
 that of the Professor of Celestial Mechanics, emotion
-is a stream of molten lava which catches and im-
-beds whatever it touches. When you excavate !n it
+is a stream of molten lava which catches and imbeds whatever it touches. When you excavate !n it
 you find, as in a buried city, all sorts of .objects
 ludicrously entangled in each ot~er.
 ~~ny.!h,H!;g.S~t:l:...
@@ -8387,8 +7677,7 @@ Hanscom.
 
 
 PUBLIC' OPINION
-where anything ~~~}~,#Qr~"~~£l~=~Lj~~",.ths-s..~~~.,,.~.f any-
-thing"'e'tse-ftiitt--iS dreaded."·"",,·-----·
+where anything ~~~}~,#Qr~"~~£l~=~Lj~~",.ths-s..~~~.,,.~.f anything"'e'tse-ftiitt--iS dreaded."·"",,·-----·
 ."""""""i;"""""'''''Je"i''''''''';'''''''''''&.'~fm"f!'''''<'"'''''''''~
 '~::;';~~""';~'~C1'''''''''''.",,,",,,.
 j
@@ -8399,15 +7688,13 @@ evi~~.".\,:!l"~";",£L""~J1Q.theh,,,,,,"whic.h,~-tlie
 s"'~~'te"m~""or"'aIr"""'j"ooa:,m,," Then our love of the absolute
 ~'~~~~1~tse1r:~,,~r~'o'r""we''(fo"'ii'o;t"'ri'k'~"""'~';Ii'f:"'T~'-'a(lverb's-~-f'~'
 .>"';'ni~'''''~W'''''''~'''''''''''''''''''''__~~'_''~"'"'''''''''''''.,.",••"",.,.••.,." .."."""",,,,q.,,,,t,,./.,,,,.,,,,x."=g_",,",,,_._~
-They clutter up sentences, and interfere with irre-
-sistible feeling.
+They clutter up sentences, and interfere with irresistible feeling.
 We prefer most to more, least to
 less, we dislike the words rather, perhaps, if, or, but,
 toward, not quite, almost, temporarily, partly.
 Yet
 .~~11#~~7·:~a~"h~Ti~c~~u~e~~s:;
-f~~e'''-'m~'n;ents'''''ev'e'ryIliing'''·''teiids''''''to'"=15ehaveabso-
-Iutely,-one hundred percent, everywhere, forever.
+f~~e'''-'m~'n;ents'''''ev'e'ryIliing'''·''teiids''''''to'"=15ehaveabsoIutely,-one hundred percent, everywhere, forever.
 It is not enouzh to sax that our side is more rivht
 ~l!-'#>til~.~'~~~'.'~-':":::":;;;"';;:""'~i'':;.'.'1.''':"d7;~,~'jc'';;?,~,,,,·,:.';,;.,{,.:,·~·.,:.;'i;:';;i)·,:;,·,,,·,.::-,;r'
 '~·;'.'i",~C':'_':·"'~:;(·;_,~iO:;."i'j"):._':",._.'.j,'.:;"
@@ -8425,8 +7712,7 @@ andwefeel that we are helpless because we~fiave not"
 been' 'irresi'SfibTe: 'Befweenomni" 'otence'~"arra·=~/im:"'
 ..,';8,"",···,"',·'·'··"1l'····'·,",·"··,·r".'v.,"'r·""""",··""",·,;,,,·,,,,,·,,,,n..,...,,,,.•.,E,,...,,,,. '-- ..,. ' .....'_k, ....
 potence .t~H~1l.q.~,."ym,§:W:J.ngl?~,,,.,,,
-Real space, real time, real numbers, real connec-
-tro~·s;~"~~~~t::5~~~§rg~:~'~:·~'~"r~"'''~t()~''t·~,,:,:,:~~~:':~~F£E~P·~~.tiYe~
+Real space, real time, real numbers, real connectro~·s;~"~~~~t::5~~~§rg~:~'~:·~'~"r~"'''~t()~''t·~,,:,:,:~~~:':~~F£E~P·~~.tiYe~
 t~e~:'·})'~~~gr~~~d.. >~~5!., !.~~:'~i·~~g§!9n§ ..2f':v~ic'fi"(Yn-'are
 cIipp,eds,c~n:st:",[r.Qi~!l,#l!i:Ihi,~"t~i~.Qiip,~,~.",.,:~'"." ..
 1 Cf. Freud's discussion of absolutism in dreams, Interpretation of
@@ -8444,8 +7730,7 @@ I
 BUT the human mind is not a film which registers
 once and for all each impression that comes through
 its shutters and lenses.
-The human mind is end-
-lessly and persistently creative.
+The human mind is endlessly and persistently creative.
 The pictures fade
 or combine, are sharpened here, condensed there,
 as we make them more completely our own.
@@ -8455,16 +7740,13 @@ are reworked by the poetic faculty into a personal
 expression of ourselves.
 We distribute the emphasis
 and participate in the action.
-In order to do this we tend to personalize quanti-
-ties, and to dramatize relations.
+In order to do this we tend to personalize quantities, and to dramatize relations.
 As some sort of
 allegory, except in acutely sophisticated minds, the
 affairs of the world are represented.
-Social Move-
-ments, Economic Forces, National Interests, Public
+Social Movements, Economic Forces, National Interests, Public
 Opinion are treated as persons, or persons like the
-Pope, the President, Lenin, Morgan or the King be-
-come ideas and institutions.
+Pope, the President, Lenin, Morgan or the King become ideas and institutions.
 The deepest of all the
 stereotypes is the human stereotype which imputes
 human nature to inanimate or collective things.
@@ -8473,13 +7755,10 @@ after they have been censored in all kinds of ways,
 tends to force us to adopt the greater economy of
 the allegory.
 So great is the multitude of things
-159
 
-
-160
 PUBLIC OPINION
 THE ENLISTING OF INTEREST
-161
+
 that we cannot keep them vividly in mind.
 Usually,
 then, we name them, and let the name stand for
@@ -8492,21 +7771,17 @@ almost as fatiguing as trying to recall the original
 impressions.
 Yet names are a poor currency for
 thought.
-They are too empty, too abstract, too in-
-human.
+They are too empty, too abstract, too inhuman.
 And so we begin to see the name through
 some personal stereotype, to read into it, finally to
 see in it the incarnation of some human quality.
 Yet human qualities are themselves vague and
 fluctuating.
-They are best remembered by a physi-
-cal sign.
+They are best remembered by a physical sign.
 And therefore, the human qualities we
 tend to ascribe to the names of our impressions,
-themselves tend to be visualized in physical meta-
-phors.
-The people of England, the history of Eng-
-land, condense into England, and England becomes
+themselves tend to be visualized in physical metaphors.
+The people of England, the history of England, condense into England, and England becomes
 John Bull, who is jovial and fat, not too clever, but
 well able to take care of himself.
 The migration of
@@ -8517,22 +7792,17 @@ courage people display may be objectified as a rock;
 their purpose as a road, their doubts as forks of the
 road, their difficulties as ruts and rocks, their progre_ss
 as a fertile valley.
-If they mobilize their dread-
-naughts they unsheath a sword.
-If their army sur-
-renders they are thrown to earth.
-If they are op-
-pressed they are on the rack or under the harrow.
+If they mobilize their dreadnaughts they unsheath a sword.
+If their army surrenders they are thrown to earth.
+If they are oppressed they are on the rack or under the harrow.
 When public affairs are popularized in speeches,
 headlines, plays, moving pictures, cartoons, novels,
 statues or paintings, their transformadon into a
 human interest requires first abstraction from the
-original, and then animation of what has been ab-
-stracted.
+original, and then animation of what has been abstracted.
 We cannot be much interested in, or much
 moved by, the things we do not see.
-Of public af-
-fairs each of us sees very little, and therefore, they
+Of public affairs each of us sees very little, and therefore, they
 remain dull and unappetizing, until somebody, with
 the makings of an artist, has translated them into a
 moving picture.
@@ -8548,21 +7818,18 @@ names and gray theory.
 Being artists of a sort we
 paint pictures, stage dramas and draw cartoons out
 of the abstractions.
-Or, if possible, we find gifted men who can visu-
-alize for us.
+Or, if possible, we find gifted men who can visualize for us.
 For people are not all endowed to the
 same degree with the pictorial faculty.
 Yet one
-may, I imagine, assert with Bergson that the prac-
-tical intelligence is most closely adapted to spatial
+may, I imagine, assert with Bergson that the practical intelligence is most closely adapted to spatial
 qualities.' A (( clear" thinker is almost always a goo.d
 visualizer.
 But for that same reason, because he IS
 "cinematographic," he is often by that much external
 and insensitive.
 For the people who have intuition,
-which is probably another name for musical or mus-
-cular perception, often appreciate the quaE ty of an
+which is probably another name for musical or muscular perception, often appreciate the quaE ty of an
 event and the inwardness of an act far better than
 the visualizer.
 They have more understanding when
@@ -8570,15 +7837,12 @@ the crucial element is a desire that is never crudely
 overt, and appears on the surface only in a veiled
 1 Creative Evolution, Chs. III, IV.
 
-
-162
 PUBLIC OPINION
 THE ENLISTING OF INTEREST
 gesture, or in a rhythm of speech.
 Visualization may
 catch the stimulus and the result.
-But the inter-
-mediate and internal is often as badly caricatured
+But the intermediate and internal is often as badly caricatured
 by a visualizer, as is the intention of the composer
 by
 an enormous soprano in
@@ -8598,8 +7862,7 @@ For while intuition does
 give a fairer perception of human feeling, the reason
 with its spatial and tactile prejudice can do little
 with that perception.
-Therefore, where action de-
-pends on whether a number of people are of one
+Therefore, where action depends on whether a number of people are of one
 mind, it is probably true that in the first instance
 no idea is lucid for practical decision until it has
 visual or tactile value.
@@ -8610,9 +7873,8 @@ Until it releases
 or resists, depresses or enhances, some craving of our
 own, it remains one of the objects which do not
 matter.
-2
-Pictures have always been the surest way of con-
-veying an idea, and next in order, words that call
+
+Pictures have always been the surest way of conveying an idea, and next in order, words that call
 up pictures in memory.
 But the idea conveyed is not
 fully our own until we have identified ourselves with
@@ -8621,8 +7883,7 @@ The identification, or
 what Vernon Lee has called empathy;' may be almost
 infinitely subtle and symbolic.
 The mimicry may
-be performed without our being aware ofit, and some-
-times in a way that would horrify those sections of
+be performed without our being aware ofit, and sometimes in a way that would horrify those sections of
 our
 personality
 which
@@ -8633,8 +7894,7 @@ In sophisticated people the participation may not
 be in the fate of the hero, but in the fate of the whole
 idea to which both hero and villain are essential.
 But these are refinements.
-In popular representation the handles for iden tifi-
-cation are almost always marked.
+In popular representation the handles for iden tification are almost always marked.
 You know who
 the hero is at once.
 And no work promises to be
@@ -8642,8 +7902,7 @@ easily popular where the marking is not definite and
 the choice clear."
 But that is not enough.
 The
-audience must have something to do, and the con-
-templation of the true, the good and the beautiful
+audience must have something to do, and the contemplation of the true, the good and the beautiful
 is not something to do.
 In order not to sit inertly
 in the presence of the picture, and this applies as
@@ -8674,9 +7933,7 @@ Except in certain minor ecstasies
 of war, in an occasional scandal, or in phases of the
 racial conflict with Negroes or Asiatics, to speak of it
 at all would seem far-fetched.
-Only in moving pic-
-tures, novels, and some magazine fiction are indus-
-trial relations, business competition, poli tics, and
+Only in moving pictures, novels, and some magazine fiction are industrial relations, business competition, poli tics, and
 diplomacy tangled up with the girl and the other
 woman.
 But the fighting motif appears at every
@@ -8695,8 +7952,7 @@ For those who are involved the
 absorption may be real enough to hold them even
 when no issue is involved.
 They may be exercised
-by sheer joy in activity, or by subtle rivalry or inven-
-tion.
+by sheer joy in activity, or by subtle rivalry or invention.
 But for those to whom the whole problem is
 external and distant, these other faculties do not
 easily come into play.
@@ -8707,8 +7963,7 @@ suspense, and victory.
 Miss Patterson 2 insists that" suspense. . . con-
 "
 1 Cf. Frances Taylor Patterson, Cinema Craftsmanship, pp. 31-32.
-III. If the plot lacks suspense: I. Add an antagonist, 2. Add an ob-
-stacle, 3. Add a problem, 4· Emphasize one of the questions in the
+III. If the plot lacks suspense: I. Add an antagonist, 2. Add an obstacle, 3. Add a problem, 4· Emphasize one of the questions in the
 minds of the spectator. •.."
 2 Op. cit., pp. 6-7.
 THE ENLISTING OF INTEREST
@@ -8730,14 +7985,12 @@ The hundreds in
 the Rivoli or the Rialto look at the picture for more
 than an hour.
 As far as beauty is concerned there
-can be no comparison of the merits of the two pic-
-tures.
+can be no comparison of the merits of the two pictures.
 Yet the motion picture draws more people
 and holds them at attention longer than do the
 masterpieces, not through any intrinsic merit of its
 own, but because it depicts unfolding events, the
-outcome of which the audience is breathlessly wait-
-ing.
+outcome of which the audience is breathlessly waiting.
 It possesses the element of struggle, which
 never fails to arouse suspense."
 In order then that the distant situation shall not
@@ -8761,12 +8014,11 @@ stage, a?d wrestle as the hero for the victory of good
 over evil.
 We must breathe into the allegory the
 breath of our life.
-3
+
 . And so, in spite of the critics, a verdict is rendered
 In the old controversy about realism and romanticism.
 Our. popula.r ~aste is to have the drama originate in a
-~ett1ng realistic en.ough t? make identification plaus-
-ible and to have. It terminate in a setting romantic
+~ett1ng realistic en.ough t? make identification plausible and to have. It terminate in a setting romantic
 ~nough.to be desirable, but not so romantic as to be
 Inconceivable.
 In between the beginning and the
@@ -8781,8 +8033,7 @@ that has become its own.
 W~lat will be accepted as true, as realistic, as good,
 as eVI, as desirable, is not eternally fixed.
 These
-are fixed by ste.reotypes,.acquired from earlier experi-
-ences and earned over Into judgment of later ones.
+are fixed by ste.reotypes,.acquired from earlier experiences and earned over Into judgment of later ones.
 And, therefore, if the financial investment in each
 film and in popular magazines were not so exorbitan t
 as to
@@ -8795,7 +8046,7 @@ their' ~e!n.g used, to enlarge and to refine, to verify
 imaginations work.
 But, given the present costs
 the men who make moving pictures, like the church
-166
+
 PUBLIC OPINION
 THE ENLISTING OF INTEREST
 and the court painters of other ages, must adhere to
@@ -8804,8 +8055,7 @@ frustrating expectation.
 The stereotypes can be
 altered, but not in time to guarantee success when
 the film is released six months from now.
-The men who do alter the stereotypes, the pioneer-
-ing artists and critics, are naturally depressed and
+The men who do alter the stereotypes, the pioneering artists and critics, are naturally depressed and
 angered at managers and editors who protect their
 investmen ts.
 They are risking everything,
@@ -8817,10 +8067,8 @@ rewards, which are beyond any that their employers
 can hope to feel.
 They could not, and would not
 if they could, change places.
-And they have for-
-gotten another thing in the unceasing war with
-Philistia. They have forgotten that they are measur-
-ing their own success by standards that artists and
+And they have forgotten another thing in the unceasing war with
+Philistia. They have forgotten that they are measuring their own success by standards that artists and
 wise men of the past would never have dreamed of
 invoking.
 They are asking for circulations and
@@ -8830,8 +8078,7 @@ And when they do not
 get them, they are disappointed.
 .~
 Those who catch on, like Sinclair Lewis in "Main
-Street," are men who have succeeded in project-
-ing definitely what great numbers of other people
+Street," are men who have succeeded in projecting definitely what great numbers of other people
 were obscurely trying to say inside their heads.
 "You have said it for me."
 They establish a new
@@ -8874,15 +8121,14 @@ to wash.
 To satisfy these demands there exists an
 intermediate class of artists who are able and willing
 to
-conf~se the planes, to piece together a realistic-
-romantic compou.nd out of the inventions of greater
+conf~se the planes, to piece together a realisticromantic compou.nd out of the inventions of greater
 men, .and, as MISS Patterson advises, give (( what
 real life so rarely does-the triumphant resolution
 o~ a set of di~culties; the anguish of virtue and the
 trIu~ph of SIn. ..
 changed to the glorifications
 of vrrtue and the eternal punishment of its enemy." 1
-4
+
 The ideologies of politics obey these rules.
 The
 foothold of realism is always there.. The picture of
@@ -8895,7 +8141,7 @@ threat
 or
 lOp. cit., p. 46. "The hero and heroine must in general possess youth,
 beauty, goodness, exalted self-sacrifice, and unalterable constancy."
-168
+
 PUBLIC OPINION
 THE ENLISTING OF INTEREST
 class conflict, is recognizable in the argument.
@@ -8903,16 +8149,13 @@ Th~re
 is a description of some aspect o~ the w~~ld ~hlch
 is convincing because it agrees With familiar Ideas.
 But as the ideology deals with a~ unseen future,. as
-11 as with a tangible present, It soon crosses im-
-we
+11 as with a tangible present, It soon crosses imwe
 .
 I
 d
 ib
-erceptibly the frontier of verification-
-n
-escrl-
-fng the present you are mor~ ~r less tied down to
+erceptibly the frontier of verificationn
+escrlfng the present you are mor~ ~r less tied down to
 common experience.
 In descnbmg what nobody has
 experienced you are bound to let go.
@@ -8929,18 +8172,14 @@ if they were Germans.
 The bestiality was there all
 right. But after the victory, eternal peace.
 ~lenty of
-this is quite cynically deliberate. For the skIlful. pro-
-pagandist knows that while you must start Wit? a
+this is quite cynically deliberate. For the skIlful. propagandist knows that while you must start Wit? a
 plausible analysis, you must n?: keep on an~lyzmg,
 because the tedium of real polItIcal accomphs~ment
-will soon destroy interest. So the propagandIst .ex-
-hausts the interest in reality by a tolerably plaUSIble
+will soon destroy interest. So the propagandIst .exhausts the interest in reality by a tolerably plaUSIble
 beginning, and then stokes up energy for a long
 voyage by brandishing a passport to ~eaven..
-The formula works when the public fiction en-
-meshes itself with a private urgency.
-But once en-
-meshed in the heat of battle, the original self and the
+The formula works when the public fiction enmeshes itself with a private urgency.
+But once enmeshed in the heat of battle, the original self and the
 original stereotype which effected the junction may
 be wholly lost to sight.
 
@@ -8966,14 +8205,12 @@ role with a pantomime of our own.
 The pantomime
 may be subtle or gross, may be sympathetic to the
 story, or only crudely analogous; but it will consist
-o.f those feelings which are aroused by our concep-
-t~on of the .role.
+o.f those feelings which are aroused by our concept~on of the .role.
 And so, the original theme as it
 CIrculates,.IS stressed, twisted, and embroidered by
 all the minds through which it goes. It is as if a
 pIay of Shakespeare's were rewritten each time it is
-performed with all the changes ofemphasis and mean-
-Ing that the actors and audience inspired.
+performed with all the changes ofemphasis and meanIng that the actors and audience inspired.
 Someth~ng.very like that seems to have happened
 to ~he stones In the sagas before they were definitively
 .
@@ -8982,7 +8219,7 @@ In our time the printed record, such
 as It IS, checks the exuberance of each individual's
 17°
 SELF-INTEREST RECONSIDERED
-171
+
 fancy.
 But against rumor there is little or no check,
 and the original story, true or invented, grows wings
@@ -9004,19 +8241,17 @@ This story, lacking
 precise.character of its own, is heard by people of
 highly varied character.. They give it their own
 character.
-2
+
 The character they give it varies not only with
 sex and age, race and religion and social position,
 but within these cruder classifications, according to
-the inherited and acquired constitution of the in-
-dividual, his faculties, his career, the progress of
+the inherited and acquired constitution of the individual, his faculties, his career, the progress of
 his career, an emphasized aspect of his career, his
 moods and tenses, or his place on the board in
 any of the games of life that he is playing.
 What
 reaches him of public affairs, a few lines of print,
-some photographs, anecdotes, and some casual ex-
-perience of his own, he conceives through his set
+some photographs, anecdotes, and some casual experience of his own, he conceives through his set
 patterns and recreates with his own emotions.
 He
 does not take his personal
@@ -9026,15 +8261,12 @@ Zentralblatt fur Psychoanalyse, 19B, Vol. I, p. 81.
 Translated by
 Constance Long, in Analytical Psychology, Ch. IV.
 
-
-172
 PUBLIC OPINION
 SELF-INTEREST RECONSIDERED
-173
+
 samples of the greater environment.
 He takes his
-stories of the greater environment as a mimic en-
-largement of his private life.
+stories of the greater environment as a mimic enlargement of his private life.
 But not necessarily of that private life as he would
 describe it to himself.
 For in his private life the
@@ -9043,28 +8275,23 @@ down and out of sight where it cannot directly govern
 his outward behavior.
 And thus, beside the more
 average people who project the happiness of their
-own lives into a general good will, or their unhappi-
-ness into suspicion and hate, there are the outwardly
+own lives into a general good will, or their unhappiness into suspicion and hate, there are the outwardly
 happy people who are brutal everywhere but in their
 own circle, as well as the people who, the more they
 detest their families, their friends, their jobs, the
 more they overflow with love for mankind.
-As you descend from generalities to detail, it be-
-comes more apparent that the character in which
+As you descend from generalities to detail, it becomes more apparent that the character in which
 men deal with their affairs is not fixed.
 Possibly
-their different selves have a common stem and com-
-mon qualities, but the branches and the twigs have
+their different selves have a common stem and common qualities, but the branches and the twigs have
 many forms.
 Nobody confronts every situation with
 the same character.
 His character varies in some
-degree through the sheer influence of time and ac-
-cumulating memory, since he is not an automaton.
+degree through the sheer influence of time and accumulating memory, since he is not an automaton.
 His character varies, not only in time, but according
 to circumstance.
-The legend of the solitary English-
-man in the South Seas, who invariably shaves and
+The legend of the solitary Englishman in the South Seas, who invariably shaves and
 puts on a black tie for dinner, bears witness to his
 own intuitive and civilized fear oflosing the character
 which he has acquired.
@@ -9075,13 +8302,11 @@ how hard it is to step twice
 in the Heraclitan
 river.
 There is no one self always at work.
-And there-
-fore it is of great importance in the formation of
+And therefore it is of great importance in the formation of
 any public opinion, what self is engaged.
 The
 Japanese ask the right to settle in California. Clearly
-it makes a whole lot of difference whether you con-
-ceive the demand as a desire to grow fruit or to
+it makes a whole lot of difference whether you conceive the demand as a desire to grow fruit or to
 marry the white man's daughter.
 If two nations
 are disputing a piece of territory, it matters greatly
@@ -9091,8 +8316,7 @@ the excited and provocative language which usually
 enclouds these arguments, as a rape.
 For the self
 which takes charge of the instincts when we are
-thinking about lemons or distant acres is very dif-
-ferent from the self which appears when we are
+thinking about lemons or distant acres is very different from the self which appears when we are
 thinking even potentiall y as the outraged head of a
 family.
 In one case the private feeling which enters
@@ -9102,8 +8326,7 @@ so while it is so true as to be mere tautology that
 "self-interest" determines opinion, the statement is
 not illuminating, until we know which self out of
 many selects and directs the interest so conceived.
-Religious teaching and popular wisdom have al-
-ways
+Religious teaching and popular wisdom have always
 distinguished
 several
 personali-ties
@@ -9114,36 +8337,30 @@ and Lower, the Spiritual and the Material, the
 Divine and the Carnal; and although we may not
 wholly accept this classification, we cannot fail t.a
 observe that distinctions exist.
-Instead of two anti-
-thetic selves, a modern man would probably note
+Instead of two antithetic selves, a modern man would probably note
 
-
-174
 PUBLIC OPINION
 SELF-INTEREST RECONSIDERED
-175
+
 a good many not so sharply separated.
 He would
 say that the distinction drawn by theologians was
 arbitrary and external, because many different selves
 were grouped together as higher provided they fitted
-into the theologian's categories, but he would recog-
-nize nevertheless that here was an authentic clue to
+into the theologian's categories, but he would recognize nevertheless that here was an authentic clue to
 the variety of human nature.
 We have learned to note many selves, and to be a
 little less ready to issue judgment upon them.
 We
 understand that we see the same body, but often a
 different man, depending on whether he is dealing
-with a social equal, a social inferior, or a social su-
-perior; on whether he is making love to a woman
+with a social equal, a social inferior, or a social superior; on whether he is making love to a woman
 he is eligible to marry, or to one whom he is not;
 on whether he is courting a woman, or whether he
 considers himself her proprietor; on whether he is
 dealing with his children, his partners, his most
 trusted subordinates, the boss who can make him or
-break him; on whether he is struggling for the neces-
-sities of life, or successful; on whether he is dealing
+break him; on whether he is struggling for the necessities of life, or successful; on whether he is dealing
 with a friendly alien, or a despised one; on whether
 he is in great danger, or in perfect security; on
 whether he is alone in Paris or among his family in
@@ -9153,9 +8370,7 @@ of their characters, so widely that they may cover
 the whole gamut of differences between a split soul
 like Dr. Jekyll's and an utterly singleminded Brand,
 Parsifal, or Don Quixote.
-If the selves are too un-
-related, we distrust the man; if they are too inflex-
-ibly on one track we find him arid, stubborn, or
+If the selves are too unrelated, we distrust the man; if they are too inflexibly on one track we find him arid, stubborn, or
 eccentric.
 In the repertory of characters, meager
 for the isolated and the self-sufficient, highly varied
@@ -9167,24 +8382,21 @@ There may be octaves for the
 family,-father,
 Jehovah,
 tyrant,-husband,
-pro-
-prietor, male,-lover, lecher,-for the occupation,-
+proprietor, male,-lover, lecher,-for the occupation,-
 employer, master, exploiter,-competitor, intriguer,
 enemy,-subordinate, courtier, snob.
 Some never
 come out into public view.
 Others are called out
 only by exceptional circumstances.
-But the char-
-acters
+But the characters
 take
 their form
 from a man's conception
 of the situation in which he finds himself.
 If the
 environment to which he is sensitive happens to be
-the smart set, he will imitate the character he con-
-ceives to be appropriate.
+the smart set, he will imitate the character he conceives to be appropriate.
 That character will tend
 to act as modulator of his bearing, his speech, his
 choice of subjects, his preferences.
@@ -9194,9 +8406,8 @@ their characters for situations that are strange to
 them: the professor among promoters, the deacon
 at a poker game, the cockney in the country, the paste
 diamond among real diamonds.
-3
-Into the making of a man's characters there en-
-ters a variety of influences not easily separated.'
+
+Into the making of a man's characters there enters a variety of influences not easily separated.'
 The analysis in its fundamentals is perhaps still as
 doubtful as it was in the fifth century
 B. c. when
@@ -9208,7 +8419,7 @@ Conviction.
 
 PUBLIC OPINION
 SELF-INTEREST RECONSIDERED
-177
+
 Hippocrates formulated the doctrine of the humors,
 distinguished
 the
@@ -9231,16 +8442,13 @@ such as one finds them in Cannon,1 Adler," Kempf,"
 appear to follow much the same scent, from the
 outward behavior and the inner consciousness to
 the physiology of the body.
-But in spite of an im-
-mensely improved technique, no one would be likely
+But in spite of an immensely improved technique, no one would be likely
 to claim that there are settled conclusions which
-enable us to set apart nature from nurture, and ab-
-stract the native character from the acquired.
+enable us to set apart nature from nurture, and abstract the native character from the acquired.
 It
 is only in what Joseph J astrow has called the slums
 of psychology that the explanation of character is
-regarded as a fixed system to be applied by phrenol-
-ogists, palmists, fortune-tellers, mind-readers, and a
+regarded as a fixed system to be applied by phrenologists, palmists, fortune-tellers, mind-readers, and a
 few political professors.
 There you will still find it
 asserted that "the Chinese are fond of colors, and
@@ -9248,8 +8456,7 @@ have
 their eyebrows much vaulted" while "the
 heads of the Calmucks are depressed from above,
 but very large laterally, about the organ which gives
-the inclination to acquire; and this nation's pro-
-pensity to steal, etc., is admitted." 4
+the inclination to acquire; and this nation's propensity to steal, etc., is admitted." 4
 The modern psychologists are disposed to regard
 the outward behavior of an adult as an equation
 between a number of variables, such as the resistance
@@ -9276,8 +8483,7 @@ himself as a patriot.
 No doubt there are impulses,
 more or less incipient in childhood, that are never
 exercised again in the whole of a man's life, except
-as they enter obscurely and indirectly into combina-
-tion with other impulses.
+as they enter obscurely and indirectly into combination with other impulses.
 But even
 that is not
 certain, since repression is not irretrievable.
@@ -9292,8 +8498,7 @@ of our dispositions.
 When the unexpected occurs, we
 learn much about ourselves that we did not know.
 The selves, which we construct with the help of all
-who influence us, prescribe which impulses, how em-
-1 Formulated by Kempf, Psychopathology, p. 74, as follows:
+who influence us, prescribe which impulses, how em1 Formulated by Kempf, Psychopathology, p. 74, as follows:
 Manifest wishes
 over
 Later Repressed Wishes
@@ -9324,13 +8529,10 @@ LeBon, The Crowd, elaborates this observation of Hobbes's.
 
 PUBLIC OPINION
 SELF-INTEREST RECONSIDERED
-179
+
 phasized, how directed, are appropriate to certain
-typical situations for which we have learned pre-
-pared attitudes.
-For a recognizable type of exper-
-ience, there is a character which controls the out-
-ward manifestations of our whole being.
+typical situations for which we have learned prepared attitudes.
+For a recognizable type of experience, there is a character which controls the outward manifestations of our whole being.
 Murderous
 hate is, for example, controlled in civil life. Though
 you choke with rage, you must not display it as a
@@ -9353,15 +8555,13 @@ August 3, 1914, and in President Wilson's address to
 Congress on April 2, 1917. The reality of war is still
 abhorred, and what war actually means is learned
 but gradually.
-For previous wars are only trans-
-figured memories.
+For previous wars are only transfigured memories.
 In that honeymoon phase, the
 realists of war rightly insist that the nation is not
 yet awake, and reassure each other by saying: "Wait
 for the casualty lists."
 Gradually the impulse to
-kill becomes the main business, and all those char-
-acters which might modify it, disintegrate.
+kill becomes the main business, and all those characters which might modify it, disintegrate.
 The
 impulse becomes central, is sanctified, and gradually
 turns unmanageable.
@@ -9384,13 +8584,11 @@ in civilian character.
 Modern war, as Mr. Herbert Croly has said, is
 inherent in the political structure of modern society,
 but outlawed by its ideals.
-For the civilian popula-
-tion there exists no ideal code of conduct in war,
+For the civilian population there exists no ideal code of conduct in war,
 such as the soldier still possesses and chivalry once
 prescribed.
 The civilians are without standards,
-except those that the best of them manage to im-
-provise.
+except those that the best of them manage to improvise.
 The only standards they possess make war
 an accursed thing.
 Yet though the war may be a
@@ -9398,11 +8596,8 @@ necessary one, no moral training has prepared them
 for it.
 Only their higher selves have a code and
 patterns, and when they have to act in wh.at the
-higher regards as a lower character profound disturb-
-ance results.
-The preparation of characters for all the situa-
-tions in which men may find themselves is one func-
-tion of a moral education.
+higher regards as a lower character profound disturbance results.
+The preparation of characters for all the situations in which men may find themselves is one function of a moral education.
 Clearly then, it depends
 for its success upon the sincerity and knowledge
 with which
@@ -9419,8 +8614,7 @@ PUBLIC OPINION
 SELF-INTEREST RECONSIDERED
 lSI
 ful some of its phases may be, or he must guarantee
-that his pupils will never be confronted by the situa-
-tions he disapproves.
+that his pupils will never be confronted by the situations he disapproves.
 Either he must abolish war,
 or teach people how to wage it with the greatest
 psychic economy; either he must abolish the economic
@@ -9438,34 +8632,28 @@ Now whether the moralists
 study economics and politics and psychology, or
 whether the social scientists educate the moralists is
 no great matter.
-Each generation will go unpre-
-pared into the modern world, unless it has been
+Each generation will go unprepared into the modern world, unless it has been
 taught to conceive the kind of personality it will
 have to be among the issues it will most likely meet.
-4
+
 Most of this the naive view of self-interest leaves
 out of account.
 It forgets that self and interest are
 both conceived somehow, and that for the most
 part they are conventionally conceived.
-The ordin-
-ary doctrine of self-interest usually omits altogether
+The ordinary doctrine of self-interest usually omits altogether
 the cognitive function.
 So insistent is it on the fact
-that human beings finally refer all things to them-
-selves, that it does not stop to notice that men's
-ideas of all things and of themselves are not instinc-
-tivee
+that human beings finally refer all things to themselves, that it does not stop to notice that men's
+ideas of all things and of themselves are not instinctivee
 They are acquired.
 Thus it may be true enough, as James Madison
 wrote in the tenth paper of the Federalist, that" a
-landed interest, a manufacturing interest, a mercan-
-tile interest, a moneyed interest, with many lesser
+landed interest, a manufacturing interest, a mercantile interest, a moneyed interest, with many lesser
 interests, grow up of necessity in civilized nations,
 and divide them into different classes, actuated by
 different sentiments and views."
-But if you exam-
-ine the context of Madison's paper, you discover
+But if you examine the context of Madison's paper, you discover
 something -which I think throws light upon that
 view of instinctive fatalism, called sometimes the
 economic interpretation of history.
@@ -9478,11 +8666,8 @@ Faction was what worried Madison.
 And
 the causes of faction he traced to "the nature of
 man," where latent dispositions are "brought into
-different degrees of activity, according to the differ-
-ent circumstances of civil society.
-A zeal for differ-
-ent opinions concerning religion, concerning govern-
-ment and many other points, as well of speculation
+different degrees of activity, according to the different circumstances of civil society.
+A zeal for different opinions concerning religion, concerning government and many other points, as well of speculation
 as of practice; an attachment to different leaders
 ambitiously contending for preeminence and power,
 or to persons of other descriptions whose fortunes
@@ -9492,13 +8677,10 @@ with mutual animosity, and rendered them much
 more disposed to vex and oppress each other, than
 to cooperate for their common good.
 So strong is
-this propensity of mankind to fall into mutual ani-
-mosities, that where no substantial occasion presents
+this propensity of mankind to fall into mutual animosities, that where no substantial occasion presents
 itself, the most frivolous and fanciful distinctions
 have been sufficient to kindle their unfriendly pas-
 
-
-182
 PUBLIC OPINION
 SELF-INTEREST RECONSIDERED
 sions and excite their most violent conflicts.
@@ -9516,8 +8698,7 @@ He does not say that their property
 and their opinions are cause and effect, but that
 differences of property are the causes of differences
 of opinion.
-The pivotal word in Madison's argu-
-ment is "different."
+The pivotal word in Madison's argument is "different."
 From the existence of differing
 economic situations you
 can
@@ -9527,19 +8708,15 @@ what those opinions will necessarily be.
 This reservation cuts radically into the claims of
 the theory as that theory is usually held.
 That the
-reservation is necessary, the enormous contradic-
-tion between dogma and practice among orthodox
+reservation is necessary, the enormous contradiction between dogma and practice among orthodox
 socialists bears witness.
 They argue that the next
 stage in social evolution is the inevitable result of
 the present stage.
-But in order to produce that in-
-evitable next stage they organize and agitate to pro-
-duce "class consciousness." Why, one asks, does not
+But in order to produce that inevitable next stage they organize and agitate to produce "class consciousness." Why, one asks, does not
 the economic situation produce consciousness of class
 in everybody? It just doesn't, that is all.
-And there-
-fore the proud claim will not stand that the socialist
+And therefore the proud claim will not stand that the socialist
 philosophy rests on prophetic insight into destiny.
 It rests on an hypothesis about human nature."
 1 Cf. Thorstein Veblen, "The Socialist Economics of Karl Marx and
@@ -9550,36 +8727,26 @@ if men are economically situated in different ways,
 they can then be induced to hold certain views.
 Undoubtedly they often come to believe, or can be
 induced to believe different things, as they are, for
-example, landlords or tenants, employees or em-
-ployers, skilled or unskilled laborers, wageworkers
-or salaried men, buyers or sellers, farmers or middle-
-men, exporters or importers, creditors or debtors.
+example, landlords or tenants, employees or employers, skilled or unskilled laborers, wageworkers
+or salaried men, buyers or sellers, farmers or middlemen, exporters or importers, creditors or debtors.
 Differences of income make a profound difference in
 contact and opportunity.
-Men who work at ma-
-chines will tend, as Mr. Thorstein Veblen has so
+Men who work at machines will tend, as Mr. Thorstein Veblen has so
 brilliantly demonstrated,'
 to interpret experience
 differently from handicraftsmen or traders.
 If this
-were all that the materialistic conception of politics as-
-serted, the theory would be an immensely valuable hy-
-pothesis that every interpreter of opinion would have
+were all that the materialistic conception of politics asserted, the theory would be an immensely valuable hypothesis that every interpreter of opinion would have
 to use.
 But he would often have to abandon the
 theory, and he would always have to be on guard.
 For in trying to explain a certain public opinion, it is
-rarely obvious which of a man's many social rela-
-tions is effecting a particular opinion.
+rarely obvious which of a man's many social relations is effecting a particular opinion.
 Does Smith's
-opinion arise from his problems as a landlord, an im-
-porter, an owner of railway shares, or an employer?
+opinion arise from his problems as a landlord, an importer, an owner of railway shares, or an employer?
 Does Jones's opinion, Jones being a weaver in a textile
-mill, come from the attitude of his boss, the competi-
-tion of new immigrants, his wife's grocery bills, or
-the ever present contract with the firm which is sell-
-ing him a Ford car and a house and lot on the in-
-stalment plan?
+mill, come from the attitude of his boss, the competition of new immigrants, his wife's grocery bills, or
+the ever present contract with the firm which is selling him a Ford car and a house and lot on the instalment plan?
 Without special inquiry you cannot
 tell.
 The economic determinist cannot tell.
@@ -9587,11 +8754,9 @@ The economic determinist cannot tell.
 
 
 PUBLIC OPINION
-A man's various economic contacts limit or en-
-large the range of his opinions.
+A man's various economic contacts limit or enlarge the range of his opinions.
 But which of the
-contacts, in what guise, on what theory, the material-
-istic conception. of politics cannot predict.
+contacts, in what guise, on what theory, the materialistic conception. of politics cannot predict.
 It can
 predict, with a high degree of probability, that if a
 man owns a factory, his ownership will figure in
@@ -9602,17 +8767,14 @@ an owner will figure, no economic determinist as
 such, can tell you.
 There is no fixed set of opinions
 on any question that go with being the owner of a
-factory, no views on labor, on property, on manage-
-ment, let alone views on less immediate matters.
+factory, no views on labor, on property, on management, let alone views on less immediate matters.
 The determinist can predict that in ninety-nine
 cases out of a hundred the owner will resist attempts
 to deprive him of ownership, or that he will favor
 legislation which he thinks will increase his profits.
 But since there is no magic in ownership which
 enables a business man to know what laws will make
-him prosper, there is no chain of cause and effect de-
-scribed in economic materialism which enables any-
-one to prophesy whether the owner will take a long
+him prosper, there is no chain of cause and effect described in economic materialism which enables anyone to prophesy whether the owner will take a long
 view or a short one, a competitive or a cooperative.
 Did the theory have the validity which is so often
 claimed for it, it would enable us to prophesy.
@@ -9636,8 +8798,7 @@ that men's
 economic
 position
 would irresistibly
-produce a clear conception of their economic inter-
-ests.
+produce a clear conception of their economic interests.
 They
 thought
 they
@@ -9662,8 +8823,7 @@ and a coherent policy for obtaining it.
 Yet nothing
 is more certain than that all classes of men are in
 constant perplexity as to what their interests are.!
-This dissolves the impact of economic determin-
-1 As a matter of fact, .when it came to the test, Lenin completely
+This dissolves the impact of economic determin1 As a matter of fact, .when it came to the test, Lenin completely
 abandoned the materialistic interpretation of politics.
 Had he held
 sincerely to the Marxian formula when he seized power in 1917, he would
@@ -9672,8 +8832,7 @@ develop out of a mature capitalism ... here am I, in control of a nation
 that is only entering upon a capitalist development ... it is true that I
 am a socialist, but I am a scientific socialist ... it follows that for the
 present all idea of a socialist republic is out of the question . . . we
-must advance capitalism in order that the evolution which Marx pre-
-dicted may take place.
+must advance capitalism in order that the evolution which Marx predicted may take place.
 But Lenin did nothing of the sort.
 Instead of
 waiting for evolution to evolve, he tried by will, force, and education, to
@@ -9686,8 +8845,6 @@ consistent with Marxist dogma.
 But It shows how httle determinism
 there is in the opinions of a determinist.
 
-
-186
 PUBLIC OPINION
 SELF-INTEREST RECONSIDERED
 ism.
@@ -9697,8 +8854,7 @@ master key to social processes the theory fails. That
 theory assumes that men are capable of adopting
 only one version of their interest, and that having
 adopted it, they move fatally to realize it.
-It as-
-sumes the existence of a specific class interest. That
+It assumes the existence of a specific class interest. That
 assumption is false. A class interest can be conceived
 largely or narrowly, selfishly or unselfishly, in the
 light of no facts, some facts, many facts, truth and
@@ -9709,8 +8865,7 @@ That remedy assumes that if all
 property could be held in common, class differences
 would disappear.
 The assumption is false.
-Prop-
-erty might well be held in common, and yet not be
+Property might well be held in common, and yet not be
 conceived as a whole.
 The moment any group of
 people failed to see communism in a communist
@@ -9736,14 +8891,11 @@ partial access of each man to the whole range of
 facts would nevertheless create conflict.
 A socialist
 state will not be able to dispense with education,
-morality, or liberal science, though on strict mater-
-ialistic grounds the communal ownership of proper-
-ties ought to make them superfluous.
-The commun-
-ists in Russia would not propagate their faith with
+morality, or liberal science, though on strict materialistic grounds the communal ownership of properties ought to make them superfluous.
+The communists in Russia would not propagate their faith with
 such unflagging zeal if economic determinism were
 alone determining the opinion of the Russian people.
-5
+
 The socialist theory of human nature is, like the
 hedonistic calculus, an example of false determinism.
 Both assume that the unlearned dispositions fatally
@@ -9768,11 +8920,9 @@ birth, the innate dispositions are from earliest infancy
 1 Principles of Psychology, Vol. II, p, 383.
 2 Ope cit., VoL II, p. 390-
 
-
-188
 PUBLIC OPINION
 SELF-INTEREST RECONSIDERED
-189
+
 immersed in experience which determines what shall
 excite them as stimulus. "They become capable," as
 Mr. McDougall says,' "of being initiated, not only
@@ -9782,11 +8932,9 @@ excitants of the instinct, but also by ideas of such
 objects, and by perceptions and by ideas of objects
 of other kinds." 2
 It is only the "central part of the disposition" 3
-says Mr. McDougall further, "that retains its spe-
-cific character and remains common to all individuals
+says Mr. McDougall further, "that retains its specific character and remains common to all individuals
 and all situations in which the instinct is excited."
-The cognitive processes, and the actual bodily move-
-ments by which the instinct achieves its end may be
+The cognitive processes, and the actual bodily movements by which the instinct achieves its end may be
 indefinitely complicated.
 In other words, man has
 an instinct of fear, but what he will fear and how he
@@ -9795,8 +8943,7 @@ by experience.
 If it were not for this variability, it would be
 difficult to conceive the inordinate variety of human
 nature.
-But when you consider that all the import-
-ant tendencies of the creature, his appetites, his
+But when you consider that all the important tendencies of the creature, his appetites, his
 loves, his hates, his curiosity, his sexual cravings,
 his fears, and pugnacity, are freely attachable to
 all sorts of objects as stimulus, and to all kinds of
@@ -9818,30 +8965,25 @@ the
 possible
 combinations
 and
-permu-
-ta tions are enormous.
+permuta tions are enormous.
 There is no prima facie case then for supposing
 that because persons crave some particular thing,
 or behave in some particular way, human nature
 is fatally constituted to crave that and act thus. The
 craving and the action are both learned, and in
 another generation might be learned differently.
-Analytic psychology and social history unite in sup-
-porting this conclusion.
+Analytic psychology and social history unite in supporting this conclusion.
 Psychology indicates how
 essentially casual is the nexus between the particular
 stimulus and the particular response.
 Anthropology
-in the widest sense reinforces the view by demonstrat-
-ing that the things which have excited men's pas-
-sions, and the means which they have used to realize
+in the widest sense reinforces the view by demonstrating that the things which have excited men's passions, and the means which they have used to realize
 them, differ endlessly from age to age and from place
 to place.
 Men pursue their interest.
 But how they shall
 pursue it is not fatally determined, and, therefore,
-within whatever limits of time this planet will con-
-tinue to support human life, man can set no term
+within whatever limits of time this planet will continue to support human life, man can set no term
 upon the creative energies of men.
 He can issue no
 doom of automatism.
@@ -9855,8 +8997,6 @@ be taking as the measure of good a measure which is
 only the one he happens to possess. He can find no
 ground for abandoning his highest hopes and relaxing
 
-
-190
 PUBLIC OPINION
 his conscious effort unless he chooses to regard the
 unknown as the unknowable, unless he elects to
@@ -9877,8 +9017,7 @@ THE TRANSFER OF INTEREST
 I
 THIS goes to show that there are many variables
 in each man's impressions of the invisible world.
-The points of contact vary, the stereotyped expec-
-tations vary, the interest enlisted varies most subtly
+The points of contact vary, the stereotyped expectations vary, the interest enlisted varies most subtly
 of all.
 The living impressions of a large number of
 people are to an immeasurable degree personal in
@@ -9889,8 +9028,7 @@ then,
 is
 any practical relationship
 established between what is in people's heads and
-what is out there beyond their ken in the environ-
-ment?
+what is out there beyond their ken in the environment?
 How in the language of democratic theory,
 do great numbers of people feeling each so privately
 about so abstract a picture, develop any common
@@ -9901,19 +9039,15 @@ known as the Will of the People, or the National
 Purpose, or Public Opinion crystallized out of such
 fleeting and casual imagery?
 That there is a real difficulty here was shown by
-an angry tilt in the spring of 1921 between the Amer-
-ican Ambassador to England and a very large number
+an angry tilt in the spring of 1921 between the American Ambassador to England and a very large number
 of other Americans.
 Mr. Harvey, speaking at a
 British dinner table, had assured the world without
 the least sign of hesitancy what were the motives
-193
 
-
-194
 PUBLIC OPINION
 THE TRANSFER OF INTEREST
-195
+
 of Americans in 1917.1
 As he described them, they
 were not the motives which President Wilson had
@@ -9952,14 +9086,12 @@ and nine millions Democratic.
 They voted, says
 Mr. Harvey, for and against the League of Nations,
 and in support of this claim, he can point to Mr.
-Wilson's request for a referendum, and to the undeni-
-able fact that the Democratic party and Mr. Cox
+Wilson's request for a referendum, and to the undeniable fact that the Democratic party and Mr. Cox
 1 New York Times, May 20, 1921.
 insisted that the League was the issue.
 But then,
 saying that the League was the issue did not make the
-League the issue, and by counting the votes on elec-
-tion day you do not know the real division of opinion
+League the issue, and by counting the votes on election day you do not know the real division of opinion
 about the League.
 There were, for example, nine
 million Democrats.
@@ -9977,34 +9109,28 @@ doubt pleased that the Democratic party wanted it
 too.
 Those who disliked the League may have held
 their noses as they voted.
-But both groups of South-
-erners voted the same ticket.
+But both groups of Southerners voted the same ticket.
 Were the Republicans more unanimous?
-Any-
-body can pick Republican voters enough out of his
+Anybody can pick Republican voters enough out of his
 circle of friends to cover the whole gamut of opinion
 from the irreconcilability of Senators Johnson and
 Knox to the advocacy of Secretary Hoover and Chief
 Justice Taft.
 No one can say definitely how many
 people felt in any particular way about the League,
-nor how many people let their feelings on that sub-
-ject determine their vote.
+nor how many people let their feelings on that subject determine their vote.
 When there are only two
 ways of expressing a hundred varieties of feeling,
 there is no certain way of knowing what the decisive
 combination was.
-Senator Borah found in the Re-
-publican ticket a reason for voting Republican, but
+Senator Borah found in the Republican ticket a reason for voting Republican, but
 so did President Lowell.
 The Republican majority
 was composed of men and women who thought a
 
-
-196
 PUBLIC OPINION
 THE TRANSFER OF INTEREST
-197
+
 Republican victory would kill the League, plus
 those who thought it the most practical way to
 secure the League, plus those who thought it the
@@ -10019,51 +9145,42 @@ lower taxes, or to stop Mr. Daniels from outbuilding
 the world, or to help Mr. Harding do the same thing.
 And yet a sort of decision emerged; Mr. Harding
 moved into the White House.
-For the least com-
-mon denominator of all the votes was that the Demo-
-crats should go and the Republicans come in.
+For the least common denominator of all the votes was that the Democrats should go and the Republicans come in.
 That
-was the only factor remaining after all the contra-
-dictions had cancelled each other out.
+was the only factor remaining after all the contradictions had cancelled each other out.
 But that
 factor was enough to alter policy for four years.
 The precise reasons why change was desired on that
 November day in 1920 are not recorded, not even
 in the memories of the individual voters. The reasons
 are not fixed. They grow and change and melt into
-other reasons, so that the public opinions Mr. Hard-
-ing has to deal with are not the opinions that elected
+other reasons, so that the public opinions Mr. Harding has to deal with are not the opinions that elected
 him.
-That there is no inevitable connection be-
-tween an assortment of opinions and a particular
+That there is no inevitable connection between an assortment of opinions and a particular
 line of action everyone saw in 1916.
-Elected appar-
-ently on the cry that he kept us out of war, Mr.
+Elected apparently on the cry that he kept us out of war, Mr.
 Wilson within five months led the country into war.
 The working of the popular will, therefore, has
 always called for explanation.
 Those who have been
 most impressed by its erratic working have found a
-prophet in M. LeBon, and have welcomed generali-
-zations about what Sir Robert Peel called (( that
+prophet in M. LeBon, and have welcomed generalizations about what Sir Robert Peel called (( that
 great compound of folly, weakness, prejudice, wrong
-feeling, right feeling, obstinacy and newspaper para-
-graphs which is called public opinion."
+feeling, right feeling, obstinacy and newspaper paragraphs which is called public opinion."
 Others have
 concluded that since out of drift and incoherence,
 settled aims do appear, there must be a mysterious
 contrivance at work somewhere over and above the
 inhabitants of a nation.
 They invoke a collective
-soul, a national mind, a spirit of the age which im-
-poses order upon random opinion.
+soul, a national mind, a spirit of the age which imposes order upon random opinion.
 An oversoul
 seems to be needed, for the emotions and ideas in
 the members of a group do not disclose anything so
 simple and so crystalline as the formula which those
 same individuals will accept as a true statement of
 their Public Opinion.
-2
+
 But the facts can, I think, be explained more
 convincingly without the help of the oversoul in
 any of its disguises.
@@ -10075,26 +9192,21 @@ example, the Republican candidate had to produce
 Republican votes out of many different kinds of
 Republicans.
 Let us look at Mr. Hughes' first
-speech after accepting the nomination.' The con-
-text is still clear enough in our minds to obviate
+speech after accepting the nomination.' The context is still clear enough in our minds to obviate
 much explanation; yet the issues are no longer
 contentious.
 The candidate was a man of unusually
 1 Delivered at Carnegie Hall, New York City, July 3I, 1916.
 
-
-198
 PUBLIC OPINION
 THE TRANSFER OF INTEREST
-199
+
 plain speech, who had been out of politics for several
 years and was not personally committed on the
 issues of the recent past.
 He had, moreover, none of
 th~t wizardry which popular leaders like Roosevelt,
-Wilson, or Lloyd George possess, none of that his-
-trionic gift by which such men impersonate the feel-
-ings of their followers.
+Wilson, or Lloyd George possess, none of that histrionic gift by which such men impersonate the feelings of their followers.
 From that aspect of politics
 he was by temperament and by training remote.
 But yet he knew by calculation what the politician's
@@ -10118,12 +9230,10 @@ box sat Theodore Roosevelt just back from Missouri.
 All.over the house sat the veterans of Armageddon in
 varIOUS
 s~ages of doubt and dismay.
-On the plat-
-form and in the other boxes the ex-whited sepulchres
+On the platform and in the other boxes the ex-whited sepulchres
 and ex-second-story men of 1912 were to be seen
 obviously in the best of health and in a melting mood:
-Out beyond the hall there were powerful pro-Ger-
-mans and powerful pro-Allies; a war party in the
+Out beyond the hall there were powerful pro-Germans and powerful pro-Allies; a war party in the
 East and in the big cities; a peace party in the middle
 and far West. There was strong feeling about Mexico.
 Mr. Hughes had to form a majority against the
@@ -10136,8 +9246,7 @@ About the morality or the wisdom of the affair we
 are, of course, not concerned here.
 Our only interest
 is in the method by which a leader of heterogeneous
-opinion goes about the business of securing a h01110-
-geneous vote.
+opinion goes about the business of securing a h01110geneous vote.
 "This representative gathering is a happy augury.
 It
 means the strength of reunion.
@@ -10146,11 +9255,9 @@ of Lincoln is restored. . . ."
 The italicized words are binders: Lincoln in such a
 speech has of course, no relation to Abraham Lincoln.
 I t is merely a stereotype by which the piety which
-surrounds that name can be transferred to the Re-
-publican candidate who now stands in his shoes.
+surrounds that name can be transferred to the Republican candidate who now stands in his shoes.
 Lincoln reminds the Republicans, Bull Moose and
-Old Guard, that before the schism they had a com-
-mon history.
+Old Guard, that before the schism they had a common history.
 About the schisrn no one can afford to
 speak.
 But it is there, as yet unhealed.
@@ -10167,29 +9274,24 @@ was necessary to find an opening subject which
 would not only ignore 1912 but would avoid also the
 explosive conflicts of 1916.
 The speaker skilfully
-selected the spoils system in diplomatic appoint-
-ments.
+selected the spoils system in diplomatic appointments.
 "Deserving Democrats" was a discrediting
 phrase, and Mr. Hughes at once evokes it.
 The
 
-
-200
 PUBLIC OPINION
 THE TRANSFER OF INTEREST
 201:
 record being indefensi ble, there is no hesitation in the
 vigor of the attack.
-Logically it was an ideal intro-
-duction to a common mood.
+Logically it was an ideal introduction to a common mood.
 Mr. Hughes then turns to Mexico, beginning with
 an historical review.
 He had to consider the general
 sentiment that affairs were going badly in Mexico;
 also, a no less general sentiment that war should be
 avoided; and two powerful currents of opinion, one of
-which said President Wilson was right in not recog-
-nizing Huerta, the other which preferred Huerta to
+which said President Wilson was right in not recognizing Huerta, the other which preferred Huerta to
 Carranza, and intervention to both. Huerta was the
 first sore spot in the record...
 "He was certainly in fact the head of the Government
@@ -10207,8 +9309,7 @@ principles, and everybody, of course, believes he
 possesses them.
 To blur the
 issue still further
-President Wilson's policy is described as "inter-
-vention." It was that in law, perhaps, but not in
+President Wilson's policy is described as "intervention." It was that in law, perhaps, but not in
 the sense then currently meant by the word.
 By
 stretching the word to cover what Mr. Wilson had
@@ -10220,8 +9321,7 @@ Having got by the two explosive points" Huerta"
 and "intervention" by letting the words mean all
 things to all men, the speech passes for a while to
 safer ground.
-The candidate tells the story of Tam-
-pico, Vera Cruz, Villa, Santa Ysabel, Columbus and
+The candidate tells the story of Tampico, Vera Cruz, Villa, Santa Ysabel, Columbus and
 Carrizal. Mr. Hughes is specific, either because the
 facts as known from the newspapers are irritating, or
 because the true explanation is, as for example in
@@ -10242,14 +9342,12 @@ We wish
 her to have peace, stability and prosperity.
 We should be
 ready to aid her in binding up her wounds, in relieving her
-from starvation and distress, in giving her in every prac-
-ticable way the benefits of our disinterested friendship.
+from starvation and distress, in giving her in every practicable way the benefits of our disinterested friendship.
 The conduct of this administration has created difficulties
 which we shall have to surmount. . ..
 We shall have to
 adopt a new policy, a policy of firmness and consistency
-through which alone we can promote an enduring friend-
-ship."
+through which alone we can promote an enduring friendship."
 The theme friendship is for the non-interventionists,
 the theme "new policy" and "firmness" is for the
 interventionists.
@@ -10257,11 +9355,9 @@ On the non-contentious record,
 the detail is overwhelming; on the issue everything is
 cloudy.
 
-
-202
 PUBLIC OPINION
 THE TRANSFER OF INTEREST
-203
+
 Concerning the European war Mr. Hughes em...
 ployed an ingenious formula:
 "I stand for the unflinching maintenance of all American
@@ -10281,20 +9377,17 @@ symbolic phrase"American rights."
 But there was the Lusitania.
 Like
 the
-1912
+
 schism, it was an invincible obstacle to harmony.
 " ... I am confident that there would have been no
-destruction of American lives by the sinking of the Lusi-
-tania."
-Thus, what cannot be compromised must be obliter-
-ated, when there is a question on which we cannot all
+destruction of American lives by the sinking of the Lusitania."
+Thus, what cannot be compromised must be obliterated, when there is a question on which we cannot all
 hope to get together, let us pretend that it does not
 exist.
 About the future of American relations with
 Europe Mr. Hughes was silent.
 Nothing he could
-say would possibly please the two irreconcilable fac-
-tions for whose support he was bidding.
+say would possibly please the two irreconcilable factions for whose support he was bidding.
 It is hardly necessary to say that Mr. Hughes did
 not invent this technic and did not employ it with the
 utmost success.
@@ -10307,13 +9400,12 @@ superficial harmony is the aim and conflict the fact,
 obscurantism in a public appeal is the usual result.
 Almost always vagueness at a crucial point in public
 debate is a symptom of cross-purposes.
-3
+
 But how is it that a vague idea so often has the
 power to unite deeply felt opinions?
 These opinions,
 we recall, however deeply they may be felt, are not in
-continual and pungent contact with the facts they pro-
-fess to treat.
+continual and pungent contact with the facts they profess to treat.
 On the unseen environment, Mexico,
 the European war, our grip is slight though our
 feeling may be intense.
@@ -10366,19 +9458,16 @@ from its first thing is carrying on a misalliance with
 some other thing.
 It is more difficult still to guard
 against changelings in casual politics.
-For by what is known to psychologists as condi-
-tioned response, an emotion is not attached merely to
+For by what is known to psychologists as conditioned response, an emotion is not attached merely to
 one idea. There are no end of things which can arouse
 the emotion, and no end of things which can satisfy it.
 This is particularly true where the stimulus is only
-dimly and indirectly perceived, and where the ob-
-jective is likewise indirect.
+dimly and indirectly perceived, and where the objective is likewise indirect.
 For you can associate an
 emotion, say fear, first with something immediately
 dangerous, then with the idea of that thing, then
 with something similar to that idea, and so on and on.
-The whole structure of human culture is in one re-
-spect an elaboration- of the stimuli and responses of
+The whole structure of human culture is in one respect an elaboration- of the stimuli and responses of
 which the original emotional capacities remain a
 fairly fixed center.
 No doubt the quality of emotion
@@ -10397,13 +9486,11 @@ And there are people
 who are insensitive to facts, and aroused only by
 ideas.
 But though the emotion is aroused by the
-idea, we are unable to satisfy the emotion by act-
-ing ourselves upon the scene itself. The idea of the
+idea, we are unable to satisfy the emotion by acting ourselves upon the scene itself. The idea of the
 starving Russian child evokes a desire to feed the
 child.
 But the person so aroused cannot feed it.
-He can only give money to an impersonal organi-
-zation, or to a personification which he calls Mr.
+He can only give money to an impersonal organization, or to a personification which he calls Mr.
 Hoover.
 His money does not reach that child.
 It
@@ -10427,12 +9514,9 @@ hand.
 Within limits that vary, the emotion is transferable
 both as regards stimulus and response.
 Therefore, if
-among a number of people, possessing various tend-
-encies to respond, you can find a stimulus which will
+among a number of people, possessing various tendencies to respond, you can find a stimulus which will
 arouse the same emotion in many of them, you can
 
-
-206
 PUBLIC OPINION
 THE TRANSFER OF INTEREST
 2°7
@@ -10450,17 +9534,14 @@ he may call it, independence; the second as the
 rejection of a politician who clashes with his idea of
 what an American president should be, the third as a
 call to resist revolution.
-The symbol in itself signi-
-fies literally no one thing in particular, but it can be
+The symbol in itself signifies literally no one thing in particular, but it can be
 associated with almost anything.
 And because of
 thatit can become the common bond of common
 feelings, even though those feelings were originally
 attached to disparate ideas.
 When political parties or newspapers declare for
-Americanism, Progressivism, Law and Order, Jus-
-tice, Humanity, they hope to amalgamate the emo-
-tion of conflicting factions which would surely divide,
+Americanism, Progressivism, Law and Order, Justice, Humanity, they hope to amalgamate the emotion of conflicting factions which would surely divide,
 if, instead of these symbols, they were invited. to
 discuss a specific program.
 For when a coalition
@@ -10471,20 +9552,15 @@ It is, I
 think, convenient and technically correct to call
 multiple phrases like these symbolic.
 They do not
-stand for specific ideas, but for a sort of truce or junc-
-tion between ideas.
-They are like a strategic rail-
-road center where many roads converge regardless
-of their ultimate origin or their ultimate destina-
-tion.
+stand for specific ideas, but for a sort of truce or junction between ideas.
+They are like a strategic railroad center where many roads converge regardless
+of their ultimate origin or their ultimate destination.
 But he who captures the symbols by which
 public feeling is for the moment contained, controls
 by that much the approaches of public policy.
 And
-as long as a particular symbol has the power of coali-
-tion, ambitious factions will fight for possession.
-Think, for example, of Lincoln's name or of Roose-
-velt's.
+as long as a particular symbol has the power of coalition, ambitious factions will fight for possession.
+Think, for example, of Lincoln's name or of Roosevelt's.
 A leader or an interest that can make itself
 master of current symbols is master of the current
 situation.
@@ -10498,15 +9574,14 @@ In this manner, during the
 year 1917, the imposing symbol of Holy Russia and
 the Little Father burst under the impact of suffering
 and defeat.
-4
+
 The tremendous consequences of Russia's collapse
 were felton all the fronts and among all the peoples.
 They led directly to a striking experiment in the
 crystallization of a common opinion out of the
 varieties of opinion churned up by the war.
 The
-Fourteen Points were addressed to all the govern-
-ments, allied, enemy, neutral, and to all the peoples.
+Fourteen Points were addressed to all the governments, allied, enemy, neutral, and to all the peoples.
 They were an attempt to knit together the chief
 imponderables of a world war. Necessarily this was a
 new departure, because this was the first great war
@@ -10516,8 +9591,6 @@ least about the same names for ideas, simultaneously.
 Without cable, radio, telegraph, and daily press,
 the experiment of the Fourteen Points would have
 
-
-208
 PUBLIC OPINION
 THE TRANSFER OF INTEREST
 2°9
@@ -10526,18 +9599,15 @@ It was an attempt to exploit the
 modern machinery of communication to start the
 return to a "common consciousness" throughout the
 world.
-But first we must examine some of the circum-
-stances as they presented themselves at the end of
+But first we must examine some of the circumstances as they presented themselves at the end of
 1917.
 For in the form which the document finally
-assumed, all these considerations are somehow repre-
-sented.
+assumed, all these considerations are somehow represented.
 During the summer and autumn a series
 of events had occurred which profoundly affected
 the temper of the people and the course of the war.
 In July the Russians had made a last offensive, had
-been disastrously beaten, and the process of demoral-
-ization which led to the Bolshevik revolution of
+been disastrously beaten, and the process of demoralization which led to the Bolshevik revolution of
 November had begun.
 Somewhat earlier the French
 had suffered a severe and almost disastrous defeat in
@@ -10556,16 +9626,14 @@ loose men's concentration on the accepted version
 of the war.
 Their interests were no longer held by the
 ordinary official pronouncements, and their attention
-began to wander, fixing now upon their own suffer-
-ing, now upon their party and class purposes, now
+began to wander, fixing now upon their own suffering, now upon their party and class purposes, now
 upon general resentments against the governments.
 That more or less perfect organization of perception
 by official propaganda, of interest and attention by
 the stimuli of hope, fear, and hatred, which is called
 morale, was by way of breaking down.
 The minds
-of men everywhere began to search for new attach-
-ments that promised relief.
+of men everywhere began to search for new attachments that promised relief.
 Suddenly they beheld a tremendous drama.
 On
 the Eastern front there was a Christmas truce, an
@@ -10574,8 +9642,7 @@ At Brest-Litovsk the dream of all simple people had
 come to life: it was possible to negotiate, there was
 some other way to end the ordeal than by matching
 lives with the enemy.
-Timidly, but with rapt atten-
-tion, people began to turn to the East.
+Timidly, but with rapt attention, people began to turn to the East.
 Why not,
 they asked?
 What is it all for?
@@ -10585,10 +9652,8 @@ Are we really fighting
 for what they say?
 Is it possible, perhaps, to secure
 it without fighting ?
-Under the ban of the censor-
-ship, little of this was allowed to show itself in print,
-but, when Lord Lansdowne spoke, there was a re-
-sponse from the heart.
+Under the ban of the censorship, little of this was allowed to show itself in print,
+but, when Lord Lansdowne spoke, there was a response from the heart.
 The earlier symbols of the
 war had become hackneyed, and had lost their power
 to unify.
@@ -10618,7 +9683,7 @@ They had not, of course, a perfect knowl..
 ZIO
 PUBLIC OPINION
 THE TRANSFER OF INTEREST
-211
+
 edge of the situation, but what I have sketched they
 knew.
 They knew also that the Allied Governments were
@@ -10630,17 +9695,14 @@ Paris Economic Conference were, of course, public
 property, and the network of secret treaties had been
 published by the Bolsheviks in November of 1917.1
 Their terms were only vaguely known to the peoples,
-but it was definitely believed that they did not com-
-port with the idealistic slogan of self-determination,
+but it was definitely believed that they did not comport with the idealistic slogan of self-determination,
 no annexations and no indemnities.
-Popular ques-
-tioning took the form of asking how many thousand
+Popular questioning took the form of asking how many thousand
 English lives
 Alsace-Lorraine or
 Dalmatia
 were
-worth, how many French lives Poland or Meso-
-potamia were worth.
+worth, how many French lives Poland or Mesopotamia were worth.
 Nor was such questioning
 entirely unknown in America.
 The whole Allied
@@ -10650,11 +9712,9 @@ Here was a highly sensitive state of mind which no
 competent leader could fail to consider.
 The ideal
 response would have been joint action by the Allies.
-That was found to be impossible when it was con-
-sidered at the Interallied Conference of October.
+That was found to be impossible when it was considered at the Interallied Conference of October.
 But by December the pressure had become so great
-that Mr. George and Mr. Wilson were moved inde-
-pendently to make some response.
+that Mr. George and Mr. Wilson were moved independently to make some response.
 The form selected
 1 President Wilson stated at his conference with the Senators that he
 had never heard of these treaties until he reached Paris.
@@ -10662,28 +9722,23 @@ That statement
 is perplexing.
 The Fourteen Points, as the text shows, could not have
 been formulated without a knowledge of the -secret treaties.
-The sub-
-stance of those treaties was before the President when he and Colonel
+The substance of those treaties was before the President when he and Colonel
 House prepared the final published text of the Fourteen Points.
 by the President was a statement of peace terms
 under fourteen heads.
 The numbering of them was
 an artifice to secure precision, and to create at once
-the impression that here was a business-like docu-
-ment.
+the impression that here was a business-like document.
 The idea of stating" peace terms" instead
-of "war aims" arose from the necessity of estab-
-lishing a genuine alternative to the Brest-Litovsk
+of "war aims" arose from the necessity of establishing a genuine alternative to the Brest-Litovsk
 negotiations.
 They were intended to compete for
-attention by substituting for the spectacle of Russo-
-German parleys the much grander spectacle of a
+attention by substituting for the spectacle of RussoGerman parleys the much grander spectacle of a
 public world-wide debate.
 Having enlisted the interest of the world, it was
 necessary to hold that interest unified and flexible
 for all the different possibilities which the situation
-conrained. The terms had to be such that the major-
-ity among the Allies would regard them as worth
+conrained. The terms had to be such that the majority among the Allies would regard them as worth
 while.
 They had to meet the national aspirations of
 each people, and yet to limit those aspirations so that
@@ -10707,8 +9762,7 @@ their people, and establish a
 lip.~ of common under-
 
 
-standing between the Allies, the non-official Ger-
-mans, and the subject peoples of Austria-Hungary.
+standing between the Allies, the non-official Germans, and the subject peoples of Austria-Hungary.
 The Fourteen Points were a daring attempt to raise
 a standard to which almost everyone might repair.
 If a sufficient number of the enemy people were
@@ -10724,8 +9778,7 @@ us examine certain aspects of the document.
 The
 first five points and the fourteenth deal with" open
 diplomacy," "freedom of the seas," "equal trade
-opportunities," "reduction of armaments," no imper-
-ialist annexation of colonies, and the League of
+opportunities," "reduction of armaments," no imperialist annexation of colonies, and the League of
 Nations.
 They might be described as a statement of
 the popular generalizations in which everyone at
@@ -10736,29 +9789,26 @@ It was aimed consciously and
 directly at the resolutions of the Paris Economic
 Conference, and was meant to relieve the German
 people of their fear of suffocation.
-Number six is the first point dealing with a par-
-ticular nation. It was intended as a reply to Russian
+Number six is the first point dealing with a particular nation. It was intended as a reply to Russian
 suspicion of the Allies, and the eloquence of its
 promises was attuned to the drama of Brest-Litovsk.
-Number seven deals with Belgium, and is as un-
-qualified in form and purpose as was the conviction
+Number seven deals with Belgium, and is as unqualified in form and purpose as was the conviction
 of practically the whole world, including very large
 sections of Central Europe.
 Over number eight we
 must pause.
 It begins with an absolute demand for
 THE TRANSFER OF INTEREST
-212
+
 PUBLIC OPINION
-213
+
 evacuation and restoration of French territory, and
 then passes on to the question of Alsace-Lorraine.
 The phrasing of this clause most perfectly illustrates
 the character of a public statement which must
 condense a vast complex of interests in a few words.
 "And the wrong done to France by Prussia in 1871
-in the matter of Alsace-Lorraine, which has un-
-settled the peace of the world for nearly fifty years,
+in the matter of Alsace-Lorraine, which has unsettled the peace of the world for nearly fifty years,
 should be righted...."
 Every word here was
 chosen
@@ -10775,14 +9825,11 @@ English and Italians would
 fight on.
 The formula had, therefore, to cover both
 contingencies.
-The word"righted" guaranteed sat-
-isfaction to France, but did not read as a commit-
-ment to simple annexation.
+The word"righted" guaranteed satisfaction to France, but did not read as a commitment to simple annexation.
 But why speak of the
 wrong done by Prussia in I87I?
 The word Prussia
-was, of course, intended to remind the South Ger-
-mans that Alsace-Lorraine belonged not to them
+was, of course, intended to remind the South Germans that Alsace-Lorraine belonged not to them
 but to Prussia.
 Why speak of peace unsettled for
 "fifty years," and why the use of " 1871"?
@@ -10803,12 +9850,8 @@ planned for more than the Alsace-Lorraine of 187I.
 The secret memoranda that had passed between the
 Czar's ministers and French officials in 1916 covered
 
-
-5
-It would be a mistake to suppose that the ap-
-parently unanimous enthusiasm which greeted the
-Fourteen Points represented agreement on a pro-
-gram.
+It would be a mistake to suppose that the apparently unanimous enthusiasm which greeted the
+Fourteen Points represented agreement on a program.
 Everyone seemed to find something that he
 liked and stressed this aspect and that detail.
 But
@@ -10817,22 +9860,17 @@ with the underlying conflicts of the civilized world,
 the annexation of the Saar Valley and some sort of
 dismemberment of the Rhineland.
 It was planned
-to include the Saar Valley under the term "Alsace-
-Lorraine" because it had been part of Alsace-Lorraine
+to include the Saar Valley under the term "AlsaceLorraine" because it had been part of Alsace-Lorraine
 in 1814, though it had been detached in 1815, and was
-no part of the territory at the close of the Franco-
-Prussian war.
+no part of the territory at the close of the FrancoPrussian war.
 The
 official
 French
 formula for
-annexing the Saar was to subsume it under "Alsace-
-Lorraine" meaning the
-Alsace-Lorraine of 1814-
-1815.
+annexing the Saar was to subsume it under "AlsaceLorraine" meaning the
+Alsace-Lorraine of 18141815.
 By insistence on "1871" the President was
-really defining the ultimate boundary between Ger-
-many and
+really defining the ultimate boundary between Germany and
 France, was adverting to
 the
 secret
@@ -10843,22 +9881,20 @@ thing in respect to Italy.
 lines of nationality" are exactly what the lines of
 the Treaty of London were not.
 Those lines were
-partly strategic, partly economic, partly imperial-
-istic, partly ethnic.
+partly strategic, partly economic, partly imperialistic, partly ethnic.
 The only part of them that
 could possibly procure allied sympathy was that
 which would recover the genuine Italia Irredenta.
 All the rest, as everyone who was informed knew,
 merely delayed the impending Jugoslav revolt.
 THE TRANSFER OF INTEREST
-214
+
 PUBLIC OPINION
-215
+
 were accepted.
 They stood for opposing ideas, but
 they evoked a common emotion.
-And to that ex-
-tent they played a part in rallying the western
+And to that extent they played a part in rallying the western
 peoples for the desperate ten months of war which
 they had still to endure.
 As long as the Fourteen Points dealt with that
@@ -10872,10 +9908,8 @@ hope, all hopes ran together as a public hope.
 For
 ?arm~nization, as we saw in Mr. Hughes's speech,
 IS a hierarchy of symbols.
-As you ascend the hier-
-archy in order to include more and more factions
-you may for a time preserve the emotional connec-
-tion though you lose the intellectual.
+As you ascend the hierarchy in order to include more and more factions
+you may for a time preserve the emotional connection though you lose the intellectual.
 But even the
 emotion becomes thinner.
 As you go further away
@@ -10891,8 +9925,7 @@ Yet the people whose emotions are
 entrained do not remain passive.
 As the public
 appeal becomes more and more all things to all men,
-as the emotion is stirred while the meaning is dis-
-persed,
+as the emotion is stirred while the meaning is dispersed,
 their very private meanings are given a
 universal application.
 Whatever you want badly
@@ -10905,10 +9938,8 @@ more vacant, capable of meaning almost anything,
 the allied statesmen just before the armistice.
 soon comes to mean pretty nearly everything.
 Mr.
-Wilson's phrases were understood in endlessly dif-
-feren t ways in every corner of the earth.
-No docu-
-ment negotiated and made of public record existed
+Wilson's phrases were understood in endlessly differen t ways in every corner of the earth.
+No document negotiated and made of public record existed
 to correct the confusion.'
 And so, when the day
 of settlement came, everybody expected everything.
@@ -10923,8 +9954,7 @@ They did not abandon the use of symbols.
 They abandoned only those which after the war
 had no permanent roots in the imagination of their
 constituents. They preserved the unity of France by
-the use of symbolism, but they would not risk any-
-thing for the unity of Europe.
+the use of symbolism, but they would not risk anything for the unity of Europe.
 The symbol France
 was deeply attached, the symbol Europe had only a
 recent history.
@@ -10938,18 +9968,15 @@ men have moved consistently from smaller loyalties
 to larger ones, because the facts will not bear out the
 claim.
 The Roman Empire and the Holy Roman
-Empire bellied out further than those national uni-
-fications in the Nineteenth Century from which be-
-lievers in a World State argue by analogy.
-Never-
-ZI6
+Empire bellied out further than those national unifications in the Nineteenth Century from which believers in a World State argue by analogy.
+NeverZI6
 PUBLIC OPINION
 THE TRANSFER OF INTEREST
 ZI7
 theless, it is probably true that the real integration
 has increased regardless of the temporary inflation
 and deflation of empires.
-6
+
 Such a real integration has undoubtedly occurred
 in American history.
 In the decade before 1789
@@ -10981,11 +10008,9 @@ They needed a common defense.
 They needed a
 financial and economic regime as extensive as the
 Confederation.
-But as long as the pseudo-environ-
-ment of the state encompassed them, the state
+But as long as the pseudo-environment of the state encompassed them, the state
 symbols exhausted their political interest.
-An inter-
-state idea, like the Confederation, represented a
+An interstate idea, like the Confederation, represented a
 powerless abstraction.
 It was an omnibus, rather
 than a symbol, and the harmony among divergent
@@ -11001,8 +10026,7 @@ unless the need of unity was taken into account.
 Gradually certain classes in each colony began to
 break through the state experience.
 Their personal
-interests led across the state lines to interstate ex-
-periences, and gradually there
+interests led across the state lines to interstate experiences, and gradually there
 w~s
 const~ucted in
 their minds a picture of the American environment
@@ -11022,9 +10046,7 @@ to most men of the time the question of whether the
 capital should be in Virginia or in Philadelphia was
 of enormous importance, because they were locally
 minded.
-To Hamilton this question was of no emo-
-tional consequence; what he wanted was the assump-
-tion of the state debts because they would further
+To Hamilton this question was of no emotional consequence; what he wanted was the assumption of the state debts because they would further
 nationalize the proposed union.
 So he gladly traded
 the site of the capitol for two necessary votes from
@@ -11046,21 +10068,18 @@ always an Alexander Hamilton at work.
 1 Works} Vol. IX, p. 87.
 Cited by Beard, Economic Origins of
 Jeffersonian Democracy} p. 172.
-218
+
 PUBLIC OPINION
 THE TRANSFER OF INTEREST
-219
-
 
 YES OR NO
-221
+
 CHAPTER XIV
 YES OR NO
 I
 SYMBOLS are often so useful
 and so mysteriously
-powerful that the word itself exhal.es .a magic~l gla-
-mor.
+powerful that the word itself exhal.es .a magic~l glamor.
 In thinking about symbols It IS temptIng to
 treat them as if they possessed independent energy.
 Yet no end of symbols which once provoked ecstasy
@@ -11090,7 +10109,7 @@ are mere wind.
 The symbols must be earmarked.
 For in themselves they mean nothing, and the choice
 of possible symbols is always so great that we should,
-220
+
 like the donkey who stood equidistant between two
 bales of hay, perish from sheer indecision among
 the symbols that compete for our attention.
@@ -11123,8 +10142,7 @@ The two sets of phrases are equally noble, equally
 true
 and almost reversible.
 Would Clarence and
-Wilmot have admitted for an instant that they in-
-tended to default in our duty pledged on the fields of
+Wilmot have admitted for an instant that they intended to default in our duty pledged on the fields of
 France; or that they did not desire international
 
 
@@ -11142,26 +10160,22 @@ all the world, plus a Monroe Doctrine for the planet.
 '2
 Since the offering of symbols is so generous, and
 the meaning that can be imputed is so elastic, how
-does any particular symbol take root in any parti-
-cular person's mind?
+does any particular symbol take root in any particular person's mind?
 It is planted there by another
 human being whom we recognize as authoritative.
 Ifit is planted deeply enough, it may be that later we
 shall call the person authoritative who waves that
 symbol at us.
 But in the first instance symbols are
-made congenial and important because they are intro-
-duced to us by congenial and important people.
+made congenial and important because they are introduced to us by congenial and important people.
 For we are not born out of an egg at the age of
 eighteen with a realistic imagination; we are still, as
 Mr. Shaw recalls, in the eraof Burge and Lubin, where
 in infancy we are dependent upon older beings for our
 contacts.
 And so we make our connections with the
-outer world through certain beloved and authorita-
-tive persons.
-They are the first bridge to the invisi-
-ble world.
+outer world through certain beloved and authoritative persons.
+They are the first bridge to the invisible world.
 And though we may gradually master for
 ourselves many phases of that larger environment,
 there always remains a vaster one that is unknown.
@@ -11169,9 +10183,9 @@ To that we still relate ourselves through authorities.
 Where all the facts are out of sight a true report and a
 plausible error read alike, sound alike, feel alike.
 YES OR NO
-222
+
 PUBLIC OPINION
-223
+
 ~xcept on a few subjects where our own knowledge
 1S great, we cannot choose between true and false
 accounts.
@@ -11182,8 +10196,7 @@ on each subject.
 But the choice of the expert, though
 a good deal easier than the choice oftruth, is still too
 difficult and often impracticable.
-The experts them-
-selves are not in the least certain who among them is
+The experts themselves are not in the least certain who among them is
 the most expert.
 And at that, the expert, even when
 we can identify him, is, likely as not, too busy to be
@@ -11195,15 +10208,12 @@ Parents,
 teachers, and masterful friends are
 the
 first people of this sort we encounter.
-Into the diffi-
-cult question of why children trust one parent rather
+Into the difficult question of why children trust one parent rather
 than another, the history teacher rather than the
 Sunday school teacher, we need not try to enter.
-Nor how trust gradually spreads through a news-
-paper or an acquaintance who is interested in public
+Nor how trust gradually spreads through a newspaper or an acquaintance who is interested in public
 affairs to public personages.
-The literature of psy-
-choanalysis is rich in suggestive hypothesis.
+The literature of psychoanalysis is rich in suggestive hypothesis.
 At any rate we do find ourselves trusting certain
 people, who constitute our means of junction with
 pretty nearly the whole realm of unknown things.
@@ -11225,8 +10235,7 @@ of a hermit's action is very short.
 Acting entirely
 for himself, he can act only within a tiny radius and
 for simple ends. If he has time to think great thoughts
-we can be certain that he has accepted without ques-
-tion, before he went in for being a hermit, a whole
+we can be certain that he has accepted without question, before he went in for being a hermit, a whole
 repertory of painfully acquired information about
 how to keep warm and how to keep from being
 hungry, and also about what the great questions are.
@@ -11242,8 +10251,7 @@ In such a debate we can often
 judge who has won the dialectical victory, but we are
 virtually defenseless against a false premise that
 none of the debaters has challenged, or a neglected
-aspect that none of them has brought into the argu-
-ment.
+aspect that none of them has brought into the argument.
 We shall see later how the democratic theory
 proceeds on the opposite assumption and assumes for
 the purposes of government an unlimited supply of
@@ -11254,12 +10262,11 @@ They may be running only a very small part of the
 world.
 The nurse feeds the child, bathes it, and puts
 it to bed.
-That does not constitute the nurse an au-
-1 Cf. Bryce, Modern Democracies, Vol. II, pp. 544-545·
+That does not constitute the nurse an au1 Cf. Bryce, Modern Democracies, Vol. II, pp. 544-545·
 YES OR NO
-224
+
 PUBLIC OPINION
-225
+
 thority on physics, zoology, and the Higher Criticism.
 Mr. Smith runs, or at least hires, the man who runs
 the factory.
@@ -11268,8 +10275,7 @@ on the Constitution of the United States, nor on the
 effects of the Fordney tariff.
 Mr. Smoot runs the
 Republican party in the State of Utah.
-That in it-
-self does not prove he is the best man to consult
+That in itself does not prove he is the best man to consult
 about taxation.
 But
 the nurse may nevertheless
@@ -11287,36 +10293,29 @@ They
 are the officers, and although the same man maybe
 field marshal at home, second lieutenant at the office,
 and scrub private in politics, although in many
-institutions the hierarchy of rank is vague or con-
-cealed, yet in every institution that requires the
+institutions the hierarchy of rank is vague or concealed, yet in every institution that requires the
 cooperation of many persons, some such hierarchy
 exists. 1 In American politics we call it a machine, or
 "the organization."
-3
+
 There are a number of important distinctions
 between the members of the machine and the rank
 1 Cf. M. Ostrogorski, Democracy and the Organization of Political Parties,
-passim; R. MIchels, Political Parties, passim; and Bryce, Modern Democ-
-racies, particularly Chap. LXXV; also Ross, Principles of Sociology,
+passim; R. MIchels, Political Parties, passim; and Bryce, Modern Democracies, particularly Chap. LXXV; also Ross, Principles of Sociology,
 Chaps. XXII-XXIV.
 
-
-226
 PUBLIC OPINION
 YES OR NO
-227
+
 and file.
 The leaders, the steering committee and the
-inner circle, are in direct contact with their environ-
-ment.
+inner circle, are in direct contact with their environment.
 They may, to be sure, have a very limited
-notion of what they ought to define as the environ-
-ment, but they are not dealing almost wholly with
+notion of what they ought to define as the environment, but they are not dealing almost wholly with
 abstractions.
 There are particular men they hope to
 see elected, particular balance sheets they wish to
-see improved, concrete objectives that must be at-
-tained.
+see improved, concrete objectives that must be attained.
 I do not mean that they escape the human
 propensity to stereotyped vision.
 Their stereotypes
@@ -11331,8 +10330,7 @@ They bargain.
 And
 something definite, perhaps not at all what they
 imagined, actually happens.
-Their subordinates are not tied to them by a com-
-mon conviction.
+Their subordinates are not tied to them by a common conviction.
 That is to say the lesser members
 of a machine do not dispose their loyalty according
 to independent judgment about the wisdom of the
@@ -11351,8 +10349,7 @@ They vary from military rank in armies,
 through land and services in a feudal system, to
 jobs and publicity in a modern democracy.
 That is
-why you can break up a particular machine by abolish-
-ing its privileges.
+why you can break up a particular machine by abolishing its privileges.
 But the machine in every coherent
 ~roup !s, I believ~, certain to reappear.
 For privilege
@@ -11361,8 +10358,7 @@ en~lrely relatIve, and uniformity is impossible.
 ImagIne the most absolute communism of which
 yo?r mind is capable, whe.re no one possessed any
 object that ~veryone else did not possess, and still, if
-the comrnurnsr group had to take any action what-
-ever, the mere pleasure of being the friend of the man
+the comrnurnsr group had to take any action whatever, the mere pleasure of being the friend of the man
 who was going to make the speech that secured the
 most v?tes, would, I am convinced, be enough to
 crystalhze an organization of insiders around him
@@ -11389,20 +10385,20 @@ certain ways of seeing and doing are taught.
 Thes~
 ways become familiar, and are recognized as such by
 the mass of outsiders.
-4
+
 Distance alone lends enchantment to the view
 that masses of human beings ever cooperate in any
 
 
 complex affair without a central machine managed
 L
-1
+
 "N
 "
 B
-1
+
 by a very lew peop e.
-0
+
 one,
 says
 ryce,
@@ -11419,26 +10415,21 @@ of people who govern is considerable, but ~f you take
 any particular institution, be it a legIslature, a
 party, a trade union, a nationalist movement, a
 factory, or a club, the number of those who gove.rn
-is a very small percentage of those who are theoretic-
-ally supposed to govern.
+is a very small percentage of those who are theoretically supposed to govern.
 .
 Landslides can turn one machine out and put
-another in· revolutions sometimes abolish a particu-
-lar machi;e altogether.
+another in· revolutions sometimes abolish a particular machi;e altogether.
 The democratic r~vo~ution
 set up two alternating machines, each of which In the
 course of a few years reaps the advantage from the
 mistakes of the other.
-But nowhere does the ma-
-chine disappear.
+But nowhere does the machine disappear.
 Nowhere is the
 ~dyllic theor.y of
 democracy realized.
 Certainly not In trades umons,
-nor in socialist parties, nor in communist govern-
-ments.
-There is an inner circle, surrounded by con-
-centric circles which fade out gradually into the
+nor in socialist parties, nor in communist governments.
+There is an inner circle, surrounded by concentric circles which fade out gradually into the
 disinterested or uninterested rank and file.
 Democrats have never come to terms with this
 commonplace of group life.
@@ -11449,12 +10440,11 @@ democracy: one presupposes the self~su:fficlent l~dl­
 vidual; the other an Oversoul regulatIng everythIng.
 lOp. cis., Vol. II, p. 542•
 YES OR NO
-228
+
 PUBLIC OPINION
-229
+
 Of the two the Oversoul has some advantage because
-it does at least recognize that the mass makes deci-
-sions that are not spontaneously born in the breast of
+it does at least recognize that the mass makes decisions that are not spontaneously born in the breast of
 every member.
 But the Oversoul as presiding genius
 in corporate behavior is a superfluous mystery if we
@@ -11466,7 +10456,7 @@ who wear clothes and live in houses, who can be
 named and described.
 They perform all the duties
 usually assigned to the Oversoul,
-5
+
 The reason for the machine is not the perversity
 of human nature. It is that out of the private notions
 of any group no common idea emerges by itself.
@@ -11489,8 +10479,7 @@ too low.
 A trade union can by mass action in a
 strike break an opposition so that the union officials
 can negotiate an agreement.
-It may win, for ex-
-ample, the right to joint control.
+It may win, for example, the right to joint control.
 But it cannot
 exercise the right except through an organization.
 A nation can clamor for war, but when it goes to
@@ -11498,20 +10487,17 @@ A nation can clamor for war, but when it goes to
 
 PUBLIC OPINION
 YES OR NO
-231
+
 I
 !
 war it must put itself under orders from a general
 staff.
-The limit of direct action is for all practical pur-
-poses the power to say Yes or No on an issue pre-
-sented to the mass.!
+The limit of direct action is for all practical purposes the power to say Yes or No on an issue presented to the mass.!
 For only in the very simplest
 cases does an issue present itself in the same form
 spontaneously and approximately at the same time
 to all the members of a public.
-There are unorgan-
-ized strikes and boycotts, not merely industrial ones,
+There are unorganized strikes and boycotts, not merely industrial ones,
 where the grievance is so plain that virtually without
 leadership the same reaction takes place in many
 people.
@@ -11529,8 +10515,7 @@ that come to us from the invisible world is a kind of
 pantomime played out in revery.
 The number of
 times is small that we consciously decide anything
-about events beyond our sight, and each man's opin-
-ion of what he could accomplish if he tried, is slight.
+about events beyond our sight, and each man's opinion of what he could accomplish if he tried, is slight.
 There is rarely a practical issue, and therefore no
 great habit of decision.
 This would be more evident
@@ -11547,14 +10532,12 @@ That suggestion we
 need, and if we do not find it in the news we turn
 to the editorials or to a trusted adviser.
 The revery,
-if we feel ourselves implicated, is uncomfortable un-
-til we know where we stand, that is, until the facts
+if we feel ourselves implicated, is uncomfortable until we know where we stand, that is, until the facts
 have been formulated so that we can feel Yes or No
 in regard to them.
 When a number of people all say Yes they may
 have all kinds of reasons for saying it.
-They gener-
-ally do.
+They generally do.
 For the pictures in their minds are, as we
 have already noted, varied in subtle and intimate
 ways.
@@ -11562,8 +10545,7 @@ But this subtlety remains within their minds·
 it becomes represented publicly by a number of
 symbolic phrases which carry the individual emotion
 after evacuating most of the intention.
-The hier-
-archy, or, if it is a contest, then the two hierarchies
+The hierarchy, or, if it is a contest, then the two hierarchies
 associate the symbols with a definite action, a vote
 of Yes or No, an attitude pro or con.
 Then Smith
@@ -11587,14 +10569,11 @@ And so they organized the
 caucus, the nominating convention, and the steering
 committee, as the means of formulating a definite
 
-
-232
 PUBLIC OPINION
 YES OR NO
-233
+
 choice.
-Everyone who wishes to accomplish any-
-thing that requires the cooperation of a large number
+Everyone who wishes to accomplish anything that requires the cooperation of a large number
 of people follows their example.
 Sometimes it is
 done rather brutally as when the Peace Conference
@@ -11603,18 +10582,16 @@ of Ten to the Big Three or Four; and wrote a treaty
 which the minor allies, their own constituents, and
 the enemy were permitted to take or leave.
 More
-consultation than that is generally possible and de-
-sirable.
+consultation than that is generally possible and desirable.
 But the essential fact remains that a small
 number of heads present a choice to a large group.
-6
+
 The abuses of the steering committee have led to
 various proposals such as the initiative, referendum
 and direct primary.
 But these merely postponed or
 obscured the need for a machine by complicating the
-elections, or as H. G. Wells once said with scrupu-
-lous accuracy, the selections.
+elections, or as H. G. Wells once said with scrupulous accuracy, the selections.
 For no amount of
 balloting can obviate the need of creating an issue,
 be it a measure or a candidate, on which the voters
@@ -11642,8 +10619,7 @@ But the necessary
 simplicity of any mass decision is a very important
 fact in view of the inevitable complexity of the world
 in which those decisions operate.
-The most compli-
-cated form of voting that anyone proposes is, I
+The most complicated form of voting that anyone proposes is, I
 suppose, the preferential ballot. Among a number of
 candidates presented the voter under that system,
 instead of saying yes to one candidate and no to all
@@ -11659,8 +10635,7 @@ The Many can elect
 after the Few have nominated.
 1 Cf. H. J. Laski, Foundations of Sovereignty, p.
 224.
-" ••• pro-
-portional representation ... by leading, as it seems to lead, to the
+" ••• proportional representation ... by leading, as it seems to lead, to the
 group system ... may deprive the electors of their choice of leaders."
 The group system undoubtedly
 tends, as Mr. Laski says, to make
@@ -11670,11 +10645,9 @@ opinion are
 more fully represented.
 Whether that is good or bad
 cannot be determined a priori.
-But one can say that successful co-
-operation and
+But one can say that successful cooperation and
 responsibility in a more
-accurately representative as-
-sembly
+accurately representative assembly
 require a higher
 organization of political
 intelligence
@@ -11690,8 +10663,7 @@ I
 BECAUSE of their
 transcendent
 practical
-import-
-ance, no successful leader has ever been too busy to
+importance, no successful leader has ever been too busy to
 cultivate the symbols which organize his following.
 What privileges do within the hierarchy, symbols do
 for the rank and file.
@@ -11709,8 +10681,7 @@ observer
 may
 scorn
 the
-ccstar-
-spangled" ritual which hedges the symbol, perhaps as
+ccstarspangled" ritual which hedges the symbol, perhaps as
 much as the king who told himself that Paris was
 worth a few masses.
 But the leader knows by
@@ -11718,17 +10689,16 @@ experience that only when symbols have done their
 work is there a handle he can use to move a crowd.
 In the symbol emotion is discharged at a common
 target, and the idiosyncrasy ofreal ideas blotted aut.
-No wonder he hates what he calls destructive criti-
-cism, sometimes called by free spirits the elimination
+No wonder he hates what he calls destructive criticism, sometimes called by free spirits the elimination
 of buncombe.
 ccAbove all things," says Bagehot,
 "our royal ty is to be reverenced, and if you begin to
 poke about it you cannot reverence it."1
 For poking
 1 The English Constitution, p. 127. D. Appleton & Company, 1914.
-234
+
 LEADERS AND THE RANK AND FILE
-235
+
 about with clear definitions and candid statements
 serves all high purposes known to man, except the
 easy conservation of a common will.
@@ -11783,8 +10753,7 @@ instrument by which a few can fatten on many,
 deflect criticism, and seduce men into facing agony
 for objects they do not understand.
 Many aspects of our subjection to symbols are not
-flattering if we choose to think of ourselves as realis-
-tic, self-sufficient, and self-governing personalities.
+flattering if we choose to think of ourselves as realistic, self-sufficient, and self-governing personalities.
 Yet it is impossible to conclude that symbols are
 altogether instruments of the deviL
 In ·the realm of
@@ -11792,8 +10761,7 @@ science and contemplation they are undoubtedly the
 tempter himself.
 But in the world of action they
 may be beneficent, and are sometimes a necessity.
-The necessity is often imagined, the peril manu-
-factured.
+The necessity is often imagined, the peril manufactured.
 But when quick results are imperative, the
 manipulation of masses through symbols may be the
 only quick way of having a critical thing done.
@@ -11801,8 +10769,7 @@ It is often more important to act than to understand.
 It is sometimes true that the action would fail if
 everyone understood it.
 There are many affairs
-which cannot wait for a referendum or endure pub-
-licity, and there are times, during war for example,
+which cannot wait for a referendum or endure publicity, and there are times, during war for example,
 when a nation, an army, and even its commanders
 must trust strategy to a very few minds; when two
 conflicting opinions, though one happens to be right,
@@ -11811,11 +10778,9 @@ The wrong opinion may have bad results, but the two
 opinions may entail disaster by dissolving unity.'
 1 Captain Peter S. Wright, Assistant Secretary of the Supreme War
 LEADERS AND THE RANK AND FILE
-237
+
 Thus Foch and Sir Henry Wilson, who foresaw the
-impending disaster to Gough's army, as a conse-
-quence of the divided and scattered reserves, never-
-theless kept their opinions well within a small circle,
+impending disaster to Gough's army, as a consequence of the divided and scattered reserves, nevertheless kept their opinions well within a small circle,
 knowing that even the risk of a smashing defeat was
 less certainly destructive, than would have been an
 excited debate in the newspapers.
@@ -11827,26 +10792,19 @@ command. Had Foch "gone to the people" he might
 have won the debate, but long before he could have
 won it, the armies which he was to command would
 have dissolved.
-For the spectacle of a row on 01ym-
-pus is diverting and destructive.
+For the spectacle of a row on 01ympus is diverting and destructive.
 But so also is a conspiracy of silence.
-Says Cap-
-tain Wright: "It is in the High Command and not in
+Says Captain Wright: "It is in the High Command and not in
 the line, that the art of camouflage is mostpracticed,
 and reaches to highest flights.
 All chiefs everywhere
-are now kept painted, by the busy work of number-
-less publicists, so as to be mistaken for Napoleons-
-at a distance. . ..1t becomes almost impossible to
+are now kept painted, by the busy work of numberless publicists, so as to be mistaken for Napoleonsat a distance. . ..1t becomes almost impossible to
 displace these Napoleons, whatever their incom-,
 petence, because of the enormous public support
-created by hiding or glossing failure, and exaggerat-
-ing or inventing success.... But the most insidi-
-ous and worst effect of this so highly organized falsity
+created by hiding or glossing failure, and exaggerating or inventing success.... But the most insidious and worst effect of this so highly organized falsity
 is on the generals themselves: modest and patriotic as
 they mostly are, and as most men must be to take up
-and follow the noble profession of arms, they them-
-Council, At the Supreme War Council, is well worth careful reading on
+and follow the noble profession of arms, they themCouncil, At the Supreme War Council, is well worth careful reading on
 secrecy and unity of command, even though in respect to the allied lead..
 ers he wages a passionate polemic.
 
@@ -11869,9 +10827,8 @@ Victory or
 defeat ceases to be the prime interest. What matters
 to these semi-sovereign corporations is whether dear
 old Willie or poor old Harry is going to be at their
-head, or the Chantilly party prevail over the Boule-
-vard des Invalides party. "
-1
+head, or the Chantilly party prevail over the Boulevard des Invalides party. "
+
 Yet Captain Wright who can be so eloquent and so
 discerning about the dangers of silence is forced
 nevertheless to approve the silence of Foch in not
@@ -11882,28 +10839,23 @@ fully later on, because the traditional democratic
 view of life is conceived, not for emergencies and
 dangers, but for tranquillity and harmony.
 And so
-where masses of people must cooperate in an uncer-
-tain and eruptive environment, it is usually necessary
+where masses of people must cooperate in an uncertain and eruptive environment, it is usually necessary
 to secure unity and flexibility without real consent.
 The symbol does that.
-It obscures personal inten-
-tion, neutralizes discrimination, and obfuscates in-
-dividual purpose.
+It obscures personal intention, neutralizes discrimination, and obfuscates individual purpose.
 It immobilizes personality, yet at
 the same time it enormously sharpens the inten tion
 of the group and welds that group, as nothing else in a
 lOp. cit., pp. 98, 101-105.
 LEADERS AND THE RANK AND FILE
-239
+
 crisis can weld it, to purposeful action.
 It renders
 the mass m~bile t~ough it immobilizes personality.
 The symbol IS the Instrument by which in the short
-run the mass escapes from its own inertia, the in-
-ertia of indecision, or the inertia of headlong move-
-ment, and is rendered capable of being led along the
+run the mass escapes from its own inertia, the inertia of indecision, or the inertia of headlong movement, and is rendered capable of being led along the
 zigzag of a complex situation.
-2
+
 But in the longer run, the give and take increases
 between the leaders and the led.
 The word most
@@ -11916,10 +10868,8 @@ whole strength is evoked by the command from
 above.
 It follows that every leader must plan his
 policy with this in mind.
-He must consider his de-
-cision not only on "the merits," but also in its effect
-on any part of his following whose continued sup-
-port he requires.
+He must consider his decision not only on "the merits," but also in its effect
+on any part of his following whose continued support he requires.
 If he is a general planning an
 attack, he knows that his organized military units
 will scatter into mobs if the percentage of casualties
@@ -11972,8 +10922,7 @@ may find that a
 mutiny breaks out over some comparatively minor
 blunder," like Nivelle's offensive of 1917, because
 it is a cumulative blunder.
-Revolutions and mutin-
-ies generally follow a small sample of a big series of
+Revolutions and mutinies generally follow a small sample of a big series of
 evils."
 lOp cit., p. 34, the Somme cost nearly 500,000 casualties; the Arras
 and Flanders offensives of 1917 cost 650,000 British casualties.
@@ -11984,7 +10933,7 @@ and the method adopted by Petain to deal with them.
 Vol. I, Part III,
 et seq.
 LEADERS AND THE RANK AND FILE
-241
+
 The incidence of policy determines the relation
 between leader and following.
 If those whom he
@@ -11998,27 +10947,21 @@ Those programs are immediately most
 popular, like prohibition among teetotalers, which
 do not at once impinge upon the private habits of
 the followers.
-That is one great reason why govern-
-ments have such a free hand in foreign affairs.
+That is one great reason why governments have such a free hand in foreign affairs.
 Most
 of the frictions between two states involve a series
-of obscure and long-winded contentions, occasion-
-ally on the frontier, but far more often in regions
+of obscure and long-winded contentions, occasionally on the frontier, but far more often in regions
 about which school geographies have supplied no
 precise ideas.
-In Czechoslovakia America is re-
-garded as the Liberator; in American newspaper
-paragraphs and musical comedy, in American con-
-versation by and large, it has never been finally
-settled whether the country we liberated is Czecho-
-slavia or Jugoslovakia.
+In Czechoslovakia America is regarded as the Liberator; in American newspaper
+paragraphs and musical comedy, in American conversation by and large, it has never been finally
+settled whether the country we liberated is Czechoslavia or Jugoslovakia.
 In foreign affairs the incidence of policy is for a
 very long time confined to an unseen environment.
 Nothing that happens out there is felt to be wholly
 real.
 And so, because in the ante-bellum period,
-nobody has to fight and nobody has to pay, govern-
-ments go along according to their lights without
+nobody has to fight and nobody has to pay, governments go along according to their lights without
 much reference to their people.
 In local affairs the
 cost of a policy is more easily visible.
@@ -12028,7 +10971,7 @@ in which the costs are as far as possible indirect.
 
 
 PUBLIC OPINION
-242
+
 They do not like direct taxation.
 They do not like
 to pay as they go. They like long term deb~s. Th:y
@@ -12072,15 +11015,13 @@ is such as to produce a commodity prIce beyond
 what the consumer can pay.
 Whether the consumer
 LEADERS AND THE RANK AND FILE
-243
+
 will pay the price depends not upon whether he
 nodded his head nine months previously at the
 proposal to raise rates and save business, but on
-whether he now wants a new hat or a new automo-
-bile enough to pay for them.
-3
-Leaders often pretend that they have merely un-
-covered a program which existed in the minds of
+whether he now wants a new hat or a new automobile enough to pay for them.
+
+Leaders often pretend that they have merely uncovered a program which existed in the minds of
 their public.
 When they believe it, they are usually
 deceiving
@@ -12090,12 +11031,10 @@ do
 not
 invent
 themselves synchronously in a multitude of minds.
-That is not because a multitude of minds is necessar-
-ily inferior to that of the leaders, but because thought
+That is not because a multitude of minds is necessarily inferior to that of the leaders, but because thought
 is the function of an organism, and a mass is not an
 organism.
-This fact is obscured because the mass is con-
-stantly exposed to suggestion. It reads not the news,
+This fact is obscured because the mass is constantly exposed to suggestion. It reads not the news,
 but the news with an aura of suggestion about it,
 indicating the line of action to be taken.
 It hears
@@ -12105,8 +11044,7 @@ Thus
 the ostensible leader often finds that the real leader
 is a powerful newspaper proprietor.
 But if, as in a
-laboratory, one could remove all suggestion and lead-
-ing from the experience of a multitude, one would,
+laboratory, one could remove all suggestion and leading from the experience of a multitude, one would,
 I think, find something like this: A mass exposed to
 the
 same stimuli
@@ -12123,7 +11061,7 @@ These classifica-
 
 
 PUBLIC OPINION
-244
+
 tions would tend to harden as individuals in each of
 the classifications made their reactions vocal.
 That
@@ -12177,16 +11115,11 @@ of policy is remote, all that is essential is that the
 program shall be verbally and emotionally connected
 at the start with what has become vocal in the
 multitude.
-Trusted men in a familiar role subscrib-
-ing to .the acc~p~~d ~ymb?ls can go a very long way
-on their own rmtratrve WIthout explaining the sub-
-stance of their programs.
+Trusted men in a familiar role subscribing to .the acc~p~~d ~ymb?ls can go a very long way
+on their own rmtratrve WIthout explaining the substance of their programs.
 But wise leaders are not content to do that.
-Pro-
-vid~~ they think publicity will not strengthen op-
-pOs.Ition too much, and that debate will not delay
-action too long, they seek a certain measure of con-
-sent.
+Provid~~ they think publicity will not strengthen oppOs.Ition too much, and that debate will not delay
+action too long, they seek a certain measure of consent.
 They take, if not the whole mass
 then the
 .
@@ -12213,18 +11146,13 @@ And only theorists do.
 If we have had
 our day in court, if what we had to say was heard,
 and then if what is done comes out well, most of us
-do not stop to consider how much our opinion af-
-fected the business in hand.
+do not stop to consider how much our opinion affected the business in hand.
 
-
-246
 PUBLIC OPINION
-And therefore, if the established powers are sen-
-sitive and well-informed, if they are visibly trying to
+And therefore, if the established powers are sensitive and well-informed, if they are visibly trying to
 meet popular feeling, and actually removing some ot
 the causes of dissatisfaction, no matter how slowly
-they proceed, provided they are seen to be proceed-
-ing, they have little to fear.
+they proceed, provided they are seen to be proceeding, they have little to fear.
 It takes
 stup~nd~us
 and
@@ -12249,8 +11177,7 @@ relieving
 the
 tension by expressing
 the
-feel-
-ing.
+feeling.
 But the statesman knows that such rel.ief is
 temporary, and if indulged too often, unsanIta.ry.
 He, therefore, sees to it that he arouses no feeling
@@ -12279,25 +11206,21 @@ to stop somebody's vices.
 Study the daily ~ctivity
 of any public official who depends on election and
 LEADERS AND THE RANK AND FILE
-247
+
 you can enlarge this list.
 There are Congressmen
 elected year after year who never think of dissipating
 their energy on public affairs.
 They prefer to do a
-little service for a lot of people on a lot of little sub-
-jects, rather than to engage in trying to do a big
+little service for a lot of people on a lot of little subjects, rather than to engage in trying to do a big
 service out there in the void.
 But the number
-of people to whom any organization can be a suc-
-cessful valet is limited, and shrewd politicians take
+of people to whom any organization can be a successful valet is limited, and shrewd politicians take
 care to attend either the influential, or somebody
-so blatantly uninfluential that to pay any atten-
-tion to him is a mark of sensational magnanimity.
+so blatantly uninfluential that to pay any attention to him is a mark of sensational magnanimity.
 The far greater number who cannot be held by
 favors,
-the anonymous multitude, receive propa-
-ganda.
+the anonymous multitude, receive propaganda.
 The established leaders of any organization have
 great natural advantages.
 They are believed to
@@ -12331,11 +11254,10 @@ the official finds himself deciding more and more
 PUBLIC OPINION
 consciously what facts, in what setting, m what
 guise he shall permit the public to know.
-4
+
 That the manufacture of consent is capable of
 great refinements no one, I think, denies.
-The pro-
-cess by which public opinions arise is certainly no
+The process by which public opinions arise is certainly no
 less intricate than it has appeared in these pages,
 and the opportunities for manipulation open
 to
@@ -12348,8 +11270,7 @@ But it has not
 died out.
 It has, in fact, improved enormously in
 technic, because it is now based on analysis rather
-than on rule of thumb. And so, as a result ofpsycho-
-logical research, coupled with the modern means
+than on rule of thumb. And so, as a result ofpsychological research, coupled with the modern means
 of communication, the practice of democracy has
 turned a corner.
 A revolution is taking place,
@@ -12365,8 +11286,7 @@ and a regular organ of popular government.
 None
 of us begins to understand the consequences, but it
 is no daring prophecy to say that the knowledge of
-how to create consent will alter every political cal-
-culation and modify every political premise.
+how to create consent will alter every political calculation and modify every political premise.
 Under
 the impact of propaganda, not necessarily in the
 sinister meaning of the word alone, the old constants
@@ -12475,8 +11395,7 @@ y
 '
 ," "E,,,'~.,,."" """~,."".,'M',.'''\.,.,',,.,,~.,.,''''''''>,, .•x,·,,'~'''',..,·
 TlrU8"'flie'~'eaitor- o(-"i" ';i'otab1e""serIes of text-books
-writes that" the most difficult and the most moment-
-ous question of government (is) how to transmit the
+writes that" the most difficult and the most momentous question of government (is) how to transmit the
 force of individual opinion into public action." 1
 But surely there is a still more momentous question,
 the question of how to validate our private versions
@@ -12485,15 +11404,12 @@ Bushnell Hart in the Introductory note to A. Lawrence
 Lowell's Public Opinionand PopularGovernment.
 z53
 
-
-254
 PUBLIC OPINION
 THE SELF-CENTERED MAN
-255
+
 of the political scene.
 There is, as I. sha!l try to
-indicate further on, the prospect of radical improve-
-ment by the development of principles already in
+indicate further on, the prospect of radical improvement by the development of principles already in
 operation.
 But this development will depend on how
 well we learn to use knowledge of the way opinions are
@@ -12514,12 +11430,9 @@ Therefore, unless there is in the community at large a
 growing conviction that prejudice and. in.tuitio,n .are
 not enough, the working out of realistic optnIOn,
 which takes time, money, labor, conscious effort,
-patience, and equanimity, will not find enough sup-
-port.
-That conviction grows as self-criticism in-
-creases
-and makes us conscious of buncombe, e-on-
-temptuous of ourselves when we employ it, and on
+patience, and equanimity, will not find enough support.
+That conviction grows as self-criticism increases
+and makes us conscious of buncombe, e-ontemptuous of ourselves when we employ it, and on
 guard to detect it.
 Without an ingrained habi~ of
 anal yzing opinion when we read, talk, and decide,
@@ -12535,7 +11448,7 @@ OOT~rp.;~li~<QPrn;Qli:::~Th~re]i~L§kill~
 J)I)e"f>i ..J
 i J
 ~, ,:;)
-1
+
 J
 <i~
 -r
@@ -12560,8 +11473,7 @@ action, the tendency of students, orators, editors,
 has been to look upon Public Opinion as men in other
 societies looked upon the uncanny forces to which
 they ascribed the last word in the direction of events.
-For in almost every political theory there is an in-
-scrutable element which in the heyday of that theory
+For in almost every political theory there is an inscrutable element which in the heyday of that theory
 goes unexamined.
 Behind the appearances
 there
@@ -12573,25 +11485,23 @@ obvious angels, demons, and kings are gone out of
 democratic thinking, but the need for believing that
 there are reserve powers of guidance persists.
 It
-persisted for those thinkers of the Eighteenth Cen-
-tury who designed the matrix of democracy.
+persisted for those thinkers of the Eighteenth Century who designed the matrix of democracy.
 They
 had a pale god, but warm hearts, and i!tJ,h~"gg",~1Xin~,
 oil?~EI~!:.§'Qy~t~ig,~t~~th~y~J2",'1E:,~Lth~.",,~.~,~.~,~~
 .. !~.,,!~~i~ ..,...,
 T~~~~s~~:'!l;~J<~~i~~:~~:l.:~~.
 people touched it with profane and curious hands.
-2
+
 They did not remove the veil because they were
 practical politicians in a bitter and uncertain struggle.
 
 
 PUBLIC OPINION
 THE SELF-CENTERED MAN
-257
+
 They had themselves felt the aspiration
-o~ d7moc-
-racy, which is ever so much deeper, more intimate
+o~ d7mocracy, which is ever so much deeper, more intimate
 and more important than any theory of government.
 They were engaged, as against the prejudice of ages,
 in the assertion of human dignity.
@@ -12618,8 +11528,7 @@ the aristocratic arguments they would have opened a
 breach in the defenses.
 And so just as Aristotle had
 to insist that the slave was a slave by nature, the
-democrats had to insist that the free man was a legis-
-lator and administrator by nature.
+democrats had to insist that the free man was a legislator and administrator by nature.
 They could not
 stop to explain that a human soul might not yet have,
 or indeed might never have, this technical equipment,
@@ -12633,14 +11542,12 @@ righteousness welled up spontaneously out of the
 mass of men.
 All of them hoped that it would, many
 ~f them believed that it did, although the cleverest,
-like Thomas Jefferson, had all sorts of private reser-
-v~tions.
+like Thomas Jefferson, had all sorts of private reserv~tions.
 But one thing was certain: if public opinion
 did not come forth spontaneously, nobody in that
 age believed it would come forth at all.
 For in one
-fundamental respect the political science on which de-
-mocracy was based was the same science that Aristotle
+fundamental respect the political science on which democracy was based was the same science that Aristotle
 formulated.
 It was the same science for democrat
 and aristocrat, royalist and republican, in that its
@@ -12656,13 +11563,11 @@ Hamilton
 thought that
 while
 "there
-are strong minds in every walk of life . . . the repre-
-sentative body, with too few exceptions to have 'lny
+are strong minds in every walk of life . . . the representative body, with too few exceptions to have 'lny
 influence on the spirit of the government, will be
 composed of landholders, merchants, and men of the
 learned professions." 1
-Jefferson thought the politi-
-cal faculties were deposited by God in farmers and
+Jefferson thought the political faculties were deposited by God in farmers and
 planters, and sometimes spoke as if they were found
 in all the people,"
 The main premise was the same:
@@ -12678,12 +11583,11 @@ Ch, V.
 
 PUBLIC OPINION
 THE SELF-CENTERED MAN
-259
+
 and twenty-one, perhaps even in all men and all
 women.
 o~1$~:;Ot';f!~J~~,ti:~~~:~:~~-_.
-"'~"'6elieve(r'th;aF"'tlios'e~~ho""d~~ft";rth~"rarge affairs pos-
-sessed the instinct, the democrats asserted that all
+"'~"'6elieve(r'th;aF"'tlios'e~~ho""d~~ft";rth~"rarge affairs possessed the instinct, the democrats asserted that all
 men possessed the instinct and could therefore deal
 with large affairs.
 It ~~~,,E.2-Ear!2L201i!isal..~cieE~.e __.
@@ -12704,7 +11608,7 @@ _.' _;,,_.': I,;~;:.:,;:(,,,.~'~:::~'\";':'>::X'J;\:"-'';;j'r~'',·''-'''--··'
 --.,,:••••,.'.,
 ,:..,...,."'~
 ,~5~~yj:oQ!il!1.-.tb&i!:~bt~~th,,~-.<>,,-,.
-3
+
 But the facts men could come to possess in this
 effortless way were limited.
 They could know the
@@ -12718,8 +11622,7 @@ Therefore, the only environment in
 which spontaneous politics were possible was one
 confined within the range of the ruler's direct and
 certain knowledge.
-There is no escaping this con-
-clusion,wherever you found government on the
+There is no escaping this conclusion,wherever you found government on the
 natural range of men's faculties.
 "If," as Aristotle
 s~id,~
@@ -12742,11 +11645,8 @@ as long as the rest of mankind was passive, the only
 characters one needed to know were the characters
 of men in the ruling class.
 But the democrats, who
-wanted to raise the dignity of all men, were im-
-mediately involved by the immense size and con-
-fusion of their ruling class-the male electorate.
-T?eir science told them that politics was an in-
-stinct, and that the instinct worked in a limited
+wanted to raise the dignity of all men, were immediately involved by the immense size and confusion of their ruling class-the male electorate.
+T?eir science told them that politics was an instinct, and that the instinct worked in a limited
 environment.
 Their hopes bade them insist that all
 m~n in a very la:ge environment could govern.
@@ -12758,24 +11658,20 @@ the voice of Gbd.
 ~he. paradox was too great, the stakes too big,
 their Ideal too precious for critical examination,
 They could not show how a citizen of Boston was to
-stay in Boston and conceive the views of a Vir-
-ginian, how a Virginian in Virginia could have real
+stay in Boston and conceive the views of a Virginian, how a Virginian in Virginia could have real
 opinions
 about
 the
 government at Washington,
 1 Politics, Bk. VII, Ch. 4.
 
-
-260
 PUBLIC OPINION
 THE SELF-CENTERED MAN
-261
+
 how Congressmen in Washington could have opinions
 about China or Mexico.
 For in that day it was not
-possible for many men to have an un~ee~ environ-
-ment brought into the field of their Judgment.
+possible for many men to have an un~ee~ environment brought into the field of their Judgment.
 There had been some advances, to be sure, since
 Aristotle.
 There were a few newspapers, and there
@@ -12785,14 +11681,12 @@ assumptions of the Eighteenth Cen.tury.had
 e~~en­
 tially to be those that had prevaIled. in rpolitical
 science for two thousand years.
-The pioneer demo-
-crats did not possesss
+The pioneer democrats did not possesss
 the material for resolving
 the conflict between the known range of man's
 attention and their illimitable faith in his dignity.
 Their assumptions antedated not only the modern
-newspaper, the world-wide press services,. photog-
-raphy and moving pictures, but, what
+newspaper, the world-wide press services,. photography and moving pictures, but, what
 IS really
 more significant, they antedated n:easureme~t and
 record, quantitative and comp~:at1ve analysis, .the
@@ -12800,10 +11694,8 @@ canons of evidence, and the ability of psychological
 analysis to correct and discount the prejudices of
 the witness.
 I do not mean to say that our records
-are satisfactory, our analysis unbiased, our measu:e-
-ments sound.
-I do mean to say that the key In-
-ventions have been made for bringing the unseen
+are satisfactory, our analysis unbiased, our measu:ements sound.
+I do mean to say that the key Inventions have been made for bringing the unseen
 world into the field of judgment.
 They had not
 been made in the time of Aristotle, and they were
@@ -12843,8 +11735,7 @@ fact that we begin to know how badly it is often
 done, shows that it can
 be done better.
 With
-varying degrees of skill and honesty distant com-
-plexities are reported every day by engineers and
+varying degrees of skill and honesty distant complexities are reported every day by engineers and
 accountants for business men, by secretaries and
 civil servants for officials, by intelligence officers
 for the General Staff, by some journalists for some
@@ -12875,9 +11766,7 @@ have demonstrated in their own persons the effects
 of a very limited and self-centered knowledge of the
 world.
 But for the political thinkers who have
-counted from Plato and Aristotle through Machia-
-velli and Hobbes to the democratic theorists, specu-
-lation has revolved around the
+counted from Plato and Aristotle through Machiavelli and Hobbes to the democratic theorists, speculation has revolved around the
 self-cen~ered man
 who had tQ,,,,$e.e~,,,,th,ew,~hQ,1~,.,jY2!1~~~
 ~."fi:l>~"f,iJ{'i~'~
@@ -12897,19 +11786,16 @@ truth there is at any rate in that famous passage in
 the Leviathan where Hobbes says that "though
 there had never been any time wherein particular
 men were in a condition of war one against another,
-yet at all times kings and persons of sovereign au-
-thority because of their independency,are in continual
+yet at all times kings and persons of sovereign authority because of their independency,are in continual
 jealousies and in the state and posture of gladiators,
 having their weapons pointing, and their eyes fixed
 on one another..." 1
-2-
-To circumvent this conclusion one great branch
+2To circumvent this conclusion one great branch
 of human thought, which had and has many schools,
 proceeded in this fashion: it conceived an ideally
 just pattern of human relations in which each person
 had well defined functions and rights.
-If he con-
-scientiously filled the role allotted to him, it did not
+If he conscientiously filled the role allotted to him, it did not
 matter whether his opinions were right or wrong.
 He did his duty, the next man did his, and all the
 dutiful people together made a harmonious world.
@@ -12923,10 +11809,8 @@ PUBLIC OPINION
 Every caste system illustrates this principle; you
 find it in Plato's Republic and in Aristotle, in the
 feudal ideal, in the circles of Dante's Paradise, in
-the bureaucratic type of socialism, and in laissez-
-faire, to an amazing degree in syndicalism, guild
-socialism, anarchism, and in the system of interna-
-tional law idealized by Mr. Robert Lansing.
+the bureaucratic type of socialism, and in laissezfaire, to an amazing degree in syndicalism, guild
+socialism, anarchism, and in the system of international law idealized by Mr. Robert Lansing.
 All of
 them assume a pre-established harmony, inspired,
 imposed, or innate, by which the self-opinionated
@@ -12947,8 +11831,7 @@ because all they had to do was to generalize the
 experience that nobody could escape.
 Machiavelli
 is the classic of this school, a man most mercilessly
-maligned, because he happened to be the first na-
-turalist who used plain language in a field hitherto
+maligned, because he happened to be the first naturalist who used plain language in a field hitherto
 preempted by supernaturalists.'
 He has a worse
 name and more disciples than any political thinker
@@ -12969,7 +11852,7 @@ nasty."
 THE
 SELF-CONTAINED
 COMMUNITY
-265
+
 existence for the self-contained state.
 That is why
 he has the disciples.
@@ -13032,8 +11915,7 @@ people whose vision could rarely be corrected, and
 Machiavelli knew that such people, since they see all
 public relations in a private way, are involved in
 perpetual strife.
-What they see is their own per-
-sonal, class, dynastic, or municipal version of affairs
+What they see is their own personal, class, dynastic, or municipal version of affairs
 that in reality extend far beyond the boundaries
 of their vision.
 They see their aspect.
@@ -13051,14 +11933,14 @@ the means.
 They will sacrifice anyone of these
 ideals to save all of them, .... "one judges by
 the result. . ."
-3
+
 These elemental truths confronted the democratic
 philosophers.
 Consciously or otherwise, they knew
 THE
 SELF-CONTAINED
 COMMUNITY
-267
+
 that the range of political knowledge was limited,
 that the area of self-government would have to be
 limited, and that self-contained states when they
@@ -13071,8 +11953,7 @@ How could they reconcile the wish and the fact?
 They looked about them.
 In the city states of
 Greece
-and Italy they found a chronicle of cor-
-ruption, intrigue and war.!
+and Italy they found a chronicle of corruption, intrigue and war.!
 In their own cities
 they saw faction, artificiality, fever.
 This was no
@@ -13104,8 +11985,7 @@ Massachusetts and Virginia, if you wore glasses
 that obliterated the slaves, you could see with your
 mind's eye the image of what democracy was to be.
 "The American Revolution broke out," says de
-. 1" Democracies have ever been spectacles of turbulence and conten-
-non . : . and have in
+. 1" Democracies have ever been spectacles of turbulence and contennon . : . and have in
 gene~~l been. as short in their lives as they have
 been VIOlent In their deaths.
 Madison, Federalist, No. 10.
@@ -13113,8 +11993,7 @@ Madison, Federalist, No. 10.
 
 Tocqueville,!
 cc and the doctrine of the sovereignty
-of the people, which had been nurtured in the town-
-ships, took possession of the state."
+of the people, which had been nurtured in the townships, took possession of the state."
 It certainly
 took possession of the minds of those men who
 formulated
@@ -13127,8 +12006,7 @@ democracy.
 ccThe cherishment of the people was
 our principle," wrote jefferson."
 But the people he
-cherished almost exclusively were the small land-
-owning farmers: "Those who labor in the earth
+cherished almost exclusively were the small landowning farmers: "Those who labor in the earth
 are the chosen people of God, if ever He had a
 chosen people, whose
 breasts He has
@@ -13164,10 +12042,8 @@ abominations of the world.
 If the farmers are to
 manage their own affairs, they must confine affairs
 to those they are accustomed to managing.
-Jeffer-
-son drew all these logical conclusions.
-He disap-
-proved of manufacture, of foreign commerce, and a
+Jefferson drew all these logical conclusions.
+He disapproved of manufacture, of foreign commerce, and a
 1 Demo~racy in America, Vol. I, P: 5I.. fhird Edition..
 2 Cited In Charles Beard, Economic Origins of Jeffersoman Democracy.
 Ch. XIV.
@@ -13182,10 +12058,9 @@ He had critics
 in his day: one of them remarked that "wrapt up
 ~n the ~ullness of self-consequence and strong enough,
 In rea!lty, to ?efend ourselves against every invader,
-we might enJoy an eternal rusticity and live, for-
-ever, thus apathized and vulgar under the shelter
+we might enJoy an eternal rusticity and live, forever, thus apathized and vulgar under the shelter
 of a selfish, satisfied indifference." 1
-4
+
 The democratic ideal, as Jefferson moulded it
 consisting of an ideal environment and a selected
 class, did not conflict with the political science of
@@ -13193,33 +12068,27 @@ his time.
 It did conflict with the realities.
 And
 when the ideal was stated in absolute terms, partly
-throug~ exuberance and partly for campaign pur-
-p~s~s,
+throug~ exuberance and partly for campaign purp~s~s,
 1twas .soon forgotten that the theory was
 originally devised for very special conditions.
 It
-became the political gospel, and supplied the stereo-
-types through which Americans of all parties have
+became the political gospel, and supplied the stereotypes through which Americans of all parties have
 looked at politics.
 That gospel was fixed by the necessity that in
 J e~e.rson's time no one could have conceived public
 opInIons that were not spontaneous and subjective.
 The democratic tradition is therefore always trying
-to see a world where people are exclusively con-
-cerned with affairs of which the causes and effects
+to see a world where people are exclusively concerned with affairs of which the causes and effects
 all operate within the region they inhabit.
 Never
 has democratic theory been able to conceive itself in
-the context of a wide and unpredictable environ-
-lOp. cit., p. 426.
+the context of a wide and unpredictable environlOp. cit., p. 426.
 
 
 PUBLIC OPINION
 menr,
 The mirror is concave.
-And although dem-
-ocrats recognize that they are in contact with ex-
-ternal
+And although democrats recognize that they are in contact with external
 affairs,
 they
 see quite surely
@@ -13230,8 +12099,7 @@ That IS a
 wise fear.
 If democracy is to be spontaneous, the
 interests of democracy must remain
-simple, in-
-telligible, and easily mana.ged.
+simple, intelligible, and easily mana.ged.
 Conditions
 mu~t
 approximate those of the Isolated rural township
@@ -13247,8 +12115,7 @@ knowledge.
 The democrat has understood what an analysis of
 public opinion seems.to demonstra~~: tha;, in dealin.g
 with an unseen environment decisions
-are marn-
-festly
+are marnfestly
 settled at
 haphazard,
 which
@@ -13261,16 +12128,14 @@ unseen environment.
 He feared foreign trade
 ~e­
 cause trade involves foreign
-connections; he dIS-
-trusted manufactures because they produced big
+connections; he dIStrusted manufactures because they produced big
 cities and collected crowds; if he had nevertheless
 to have manufactures, he
 anted protection in the
 interest of self-sufficiency.
 hen he could not ~nd
 these conditions in the real
-orld, he went paSSI?n-
-ately
+orld, he went paSSI?nately
 into
 the
 wildernes.s,
@@ -13291,11 +12156,10 @@ ny notion of consent or
 1 Aristotle, Politics,
 k. VII, Ch. IV.
 THE SELF-CONTAINED COMMUNITY
-271
+
 community beyond the frontiers of the self-governing
 groups.
-The field of democratic action is a cir-
-cumscribed
+The field of democratic action is a circumscribed
 area.
 Within
 protected
@@ -13305,15 +12169,13 @@ to achieve self-sufficiency and
 avoid entanglement.
 This rule is not confined to
 foreign policy, but it is plainly evident there, because
-life outside the national boundaries is more dis-
-tinctly alien than any life within.
+life outside the national boundaries is more distinctly alien than any life within.
 And as history
 shows, democracies in their foreign .policy have had
 generally to choose between splendid isolation and
 a diplomacy that violated their ideals.
 The most
-successful democracies, in fact, Switzerland, Den-
-mark, Australia, New Zealand, and America until
+successful democracies, in fact, Switzerland, Denmark, Australia, New Zealand, and America until
 recently, have had no foreign policy in the §ro1?-~~.n._,,"
 _sens~of that phrase.
 Even a rule like the Monroe
@@ -13350,7 +12212,7 @@ American Politics, p. 69.
 
 
 PUBLIC OPINION
-272
+
 quick
 ~n~,llt1.~~~,~.~__.,.~~,~~.§iQ.~"~,~,-~!~- r~~ired.
 Ev.ery
@@ -13387,46 +12249,38 @@ they knew of the art of government, they could, no
 more than Aristotle before them, conceive a society
 of autonomous individuals, except an enclosed and
 simple one.
-They could, then, select no other prem-
-ise if they were to reach the conclusion that all the
+They could, then, select no other premise if they were to reach the conclusion that all the
 people could
 spontaneousl
 ma1!age
 ~~heir.
 pub~~c
 affairs.
-,. ,If A.f-
-tA~",tl'
+,. ,If A.ftA~",tl'
 i\l;l..f~,/~
 if""}
 .
-5
-Having adopted the premise because it was neces-
-sary to their keenest hope, they drew other conclu-
-sions as well.
+
+Having adopted the premise because it was necessary to their keenest hope, they drew other conclusions as well.
 Since in order to have spontaneous
-self-government, you had to have a simple self-
-contained community, they took it for granted that
+self-government, you had to have a simple selfcontained community, they took it for granted that
 one man was as competent as the next to manage
 THE SELF-CONTAINED COMMUNITY
-273
+
 these simple and self-contained affairs.
 Where the
 wish is father to the.thought such logic is convincing.
 !'1oreover, the d?cttlne of the omnicompetent citizen
-IS for most practical purposes true in the rural town-
-ship.
+IS for most practical purposes true in the rural township.
 Everybody in a village sooner or later tries
 his hand at everything the village does.
 There is
 rotation in office by men who are jacks of all trades.
 There was no serious trouble with the doctrine of the
-omnicompetent citizen until the democratic stereo-
-type was universally applied, so that men looked at
+omnicompetent citizen until the democratic stereotype was universally applied, so that men looked at
 a complicated civilization and saw an enclosed village.
 Not only was the individual citizen fitted to deal
-wi.t~ all public affairs, but he was consistently public-
-spirited and endowed with unflagging interest.
+wi.t~ all public affairs, but he was consistently publicspirited and endowed with unflagging interest.
 He
 was public-spirited enough in the township, where he
 kne~ everybody.and was interested in everybody's
@@ -13455,13 +12309,11 @@ lived their whole lives in one environment, and with
 
 
 PUBLIC OPINION
-274
+
 nothing but a few feeble newspapers, some pamphlets,
 political speeches, their religious training, and rumor
-to go on, they had to conceive that larger environ-
-ment of commerce and finance, of war and peace.
-The number of public opinions based on any objec-
-tive report was very small in proportion to those
+to go on, they had to conceive that larger environment of commerce and finance, of war and peace.
+The number of public opinions based on any objective report was very small in proportion to those
 based on casual fancy.
 And so for many different reasons, self-sufficiency
 was a spiritual ideal in the formative period.
@@ -13471,8 +12323,7 @@ the pioneer, the theory of democracy, the Protestant
 tradition, and the limitations of political science all
 converged to make men believe that out of their own
 consciences they must extricate political wisdom.
-It is not strange that the deduction of laws from abso-
-lute principles should have usurped so much of their
+It is not strange that the deduction of laws from absolute principles should have usurped so much of their
 free energy.
 The American political mind had to
 live on its capital.
@@ -13481,22 +12332,19 @@ of rules from which new rules could be spun without
 the labor ofearning new truths from experience. The
 formulre became so curiously sacred that every good
 foreign observer has been amazed at the contrast
-between the dynamic practical energy of the Ameri-
-can people and the static theorism of their public
+between the dynamic practical energy of the American people and the static theorism of their public
 life.
 That steadfast love of fixed principles was
 simply the only way known
 of achieving
-self-
-sufficiency.
+selfsufficiency.
 But it meant that the public opinions
-of anyone community about the outer world con-
-sisted chiefly of a few stereotyped images arranged in
+of anyone community about the outer world consisted chiefly of a few stereotyped images arranged in
 a pattern deduced from their legal and their moral
 codes, and animated by the feeling aroused by local
 experIences.
 THE SELF-CONTAINED COMMUNITY
-275
+
 Thus democratic theory, starting from its fine
 vision of ultimate human dignity, was forced by lack
 of
@@ -13505,8 +12353,7 @@ environment, to fall back upon the wisdom and
 experience which happened to have accumulated in
 the voter.
 God had, in the words of Jefferson,
-made men's breasts "His peculiar deposit for substan-
-tial and genuine virtue."
+made men's breasts "His peculiar deposit for substantial and genuine virtue."
 These chosen people in
 their self-contained environment had all the facts
 before them.
@@ -13516,12 +12363,10 @@ about substantially the same things.
 The only real
 disagreements, therefore, would be in judgments
 about the same facts.
-There was no need to guar-
-antee the sources of information. They were obvious,
+There was no need to guarantee the sources of information. They were obvious,
 and equally accessible to all men. Nor was there need
 to trouble about the ultimate criteria.
-In the self-
-contained community one could assume, or at least
+In the selfcontained community one could assume, or at least
 did assume, a homogeneous code of morals.
 The
 only place, therefore, for differences of opinion was
@@ -13560,8 +12405,7 @@ the complete execution of
 every important measure that proceeds from the
 Union."
 How could it be otherwise, he asked: "The
-rulers of the respective members ... will under-
-take to judge of the propriety of the measures
+rulers of the respective members ... will undertake to judge of the propriety of the measures
 themselves.
 They will consider the conformity of
 the thing proposed or required to their immediate
@@ -13575,7 +12419,7 @@ essential to right judgment, and with that strong
 1 Federalist, No. 15.
 '1.76
 FORCE, PATRONAGE, AND PRIVILEGE
-277
+
 predilection in favor of local objects which can hardly
 fail to mislead the decision.
 The same process must
@@ -13584,8 +12428,7 @@ constituted; and the execution of the plans framed by
 the councils of the whole, will always fluctuate on
 the discretion of the ill-informed and prejudiced
 opinion of every part.
-Those who have been con-
-versant in the proceedings of popular assemblies,
+Those who have been conversant in the proceedings of popular assemblies,
 who have seen how difficult it often is, when there
 is no exterior pressure of circumstances, to bring
 them to harmonious resolutions on important points,
@@ -13596,18 +12439,12 @@ under different impressions, long to cooperate in the
 same views and pursuits."
 Over ten years of storm and stress with a congress
 that was, as John Adams said,' "only a diplomatic
-assembly," had furnished the leaders of the revolu-
-ion "with an instructive but affiicting lesson" 2 in
-what happens when a number of self-centered com-
-munities are entangled in the same environment.
+assembly," had furnished the leaders of the revoluion "with an instructive but affiicting lesson" 2 in
+what happens when a number of self-centered communities are entangled in the same environment.
 And so, when they went to Philadelphia in May of
-1787, ostensibly to revise the Articles' of Confedera-
-tion, they were really in full reaction against the
-fundamental premise of Eighteenth Century democ-
-racy. Not only were the leaders consciously opposed
-to the democratic spirit of the time, feeling, as Mad-
-ison said, that" democracies have ever been spec-
-tacles of turbulence and contention," but within
+1787, ostensibly to revise the Articles' of Confederation, they were really in full reaction against the
+fundamental premise of Eighteenth Century democracy. Not only were the leaders consciously opposed
+to the democratic spirit of the time, feeling, as Madison said, that" democracies have ever been spectacles of turbulence and contention," but within
 the national frontiers they were determined to offset
 1 Ford, op. cit., p. 36.
 2 Federalist, No. 15.
@@ -13617,13 +12454,13 @@ I
 II
 I
 III
-1
+
 Ii
 III
 ,'II,
 Ii,
-1
-1
+
+
 1,',1.:
 ~iI
 III
@@ -13638,10 +12475,8 @@ II
 II;,'
 JII
 PUBLIC OPINION
-as far as they could the ideal of self-governing com-
-munities in self-contained environments.
-The col-
-lisions and failures of concave democracy, where men
+as far as they could the ideal of self-governing communities in self-contained environments.
+The collisions and failures of concave democracy, where men
 spontaneously managed all their own affairs, were
 before their eyes.
 The problem as they saw it, was
@@ -13666,34 +12501,28 @@ of life.
 The whole idea of a voluntary federalism
 in industry and world politics is still so rudimentary,
 that, as we see in our own experience, it enters only
-a little, and only very modestly, into practical poli-
-tics.
+a little, and only very modestly, into practical politics.
 What we, more than a century later, can only
-conceive as an incentive to generations of intellec-
-tual effort, the authors of the Constitution had no
+conceive as an incentive to generations of intellectual effort, the authors of the Constitution had no
 reason to conceive at all.
-In order to set up na-
-tional government, Hamilton and
+In order to set up national government, Hamilton and
 his colleagues
 had to make plans, not on the theory that men
-would cooperate because they had a sense of com-
-mon interest, but on the theory that men could
+would cooperate because they had a sense of common interest, but on the theory that men could
 be governed, if special
 interests
 were
 kept
 in
 FORCE, PATRONAGE, AND PRIVILEGE
-279
+
 equilibrium by a balance of power.
 "Ambition"
 Madison said, 1 "must be made to counteract a~­
 bition."
 . They did not, as some writers have supposed,
-Intend to balance every interest so that the govern-
-ment would be in a perpetual deadlock.
-They in-
-tended to deadlock local and class interest to prevent
+Intend to balance every interest so that the government would be in a perpetual deadlock.
+They intended to deadlock local and class interest to prevent
 these from obstructing government.
 "In framing
 a government which is to be administered by men
@@ -13705,13 +12534,11 @@ In one very important sense
 then, the doctrine of checks and balances was the
 rem~dy ~f .the federalist leaders for the problem of
 public opiruon, They saw no other way to substitute
-" the mild influence of the magistracy" for the" san-
-gui~ary ~gency of ~he sword" 3 except by devising
+" the mild influence of the magistracy" for the" sangui~ary ~gency of ~he sword" 3 except by devising
 an Ing:nIous machine to neutralize local opinion.
 They did not understand how to manipulate a large
 electorate, any more than they saw the possibility
-of common consent upon the basis of common infor-
-mation.
+of common consent upon the basis of common information.
 It is true that Aaron Burr taught Hamilton
 a lesson which impressed him a good deal when he
 seized control of New York City in 1800 by the aid
@@ -13729,7 +12556,7 @@ out of the Federal party.
 lOp. ca., p. 144.
 2 Op. cit., p. 47.
 3 Beard, Economic Interpretation of the Constitution, passim.
-2
+
 When
 the
 constitution
@@ -13748,8 +12575,7 @@ Hamilton, who belonged to this class by adoption,
 had a human prejudice in their favor.
 But that by
 itself is a thin explanation of his statecraft.
-Cer-
-tainly there can be no question of his consuming
+Certainly there can be no question of his consuming
 passion for union, and it is, I think, an inversion of
 the truth to argue that he made the Union to protect
 class privileges, instead of saying that he used class
@@ -13758,23 +12584,21 @@ privileges to make the Union.
 as we find him," Hamilton said, "and if we expect
 him to serve the public we must interest his passions
 in doing so."
-2
+
 He needed men to govern, whose
-passions could be most quickly attached to a na-
-tional interest.
+passions could be most quickly attached to a national interest.
 These were the gentry, the public
 creditors, manufacturers, shippers, and traders," and
 there is probably no better instance in history of the
 adaptation of shrewd means to clear ends, than in:
 the series of fiscal measures, by which Hamilton
-attached the provincial notables to the new govern-
-ment.
+attached the provincial notables to the new government.
 Although the constitutional convention worked
 behind closed doors, and although ratification was
-280
+
 PUBLIC OPINION
 FORCE, PATRONAGE, AND PRIVILEGE
-281
+
 engin.eered by
 H a vote of probably not more than
 one-sixth of the adult males," 1 there was little or
@@ -13786,15 +12610,12 @@ the
 word
 republic
 had an unpleasant sound to George Washington
-whe~ he had. been for more than two years a re-
-publican president,
-The constitution was a can-
-did attempt to limit the sphere of popular rule·
+whe~ he had. been for more than two years a republican president,
+The constitution was a candid attempt to limit the sphere of popular rule·
 the only democratic organ it was intended
 the
 government should possess was the House, based
-on .a suffrage highly limited by property qualifi-
-cat:ons.
+on .a suffrage highly limited by property qualificat:ons.
 And even at that, the House, it was
 believed,
 would be so licentious a part of the
@@ -13806,13 +12627,10 @@ Senate,
 the
 electoral
 college,
-t?e Presidential veto, and by judicial interpreta-
-non.
-Thus at the moment when the French Revolu-
-tion was kindling popular feeling the world over
+t?e Presidential veto, and by judicial interpretanon.
+Thus at the moment when the French Revolution was kindling popular feeling the world over
 the American revolutionists of 1776 came under ~
-constitution wh~c.h went back, as far as it was expedi-
-ent, to the British Monarchy for a model.
+constitution wh~c.h went back, as far as it was expedient, to the British Monarchy for a model.
 This
 conservative reaction could not endure.
 The men
@@ -13824,15 +12642,12 @@ position of the
 gentry was not
 strong enough. to survive the inevitable struggle
 for the succession.
-The anomaly between the origi-
-nal plan of, the
+The anomaly between the original plan of, the
 F~thers and the moral feeling of
 the age was too wide not to be capitalized by a
 good politician.
 1 Beard, op. cit., p. 325.
 
-
-3
 Jefferson referred to his election as
 ccthe great
 revolution of 1800," but more than anything else
@@ -13851,12 +12666,10 @@ So complete was the mental victory,
 that twenty-five years later de Tocqueville, who was
 received in Federalist homes, noted that even those
 who were "galled by its continuance"-were not
-uncommonly heard to "laud the delights of a repub-
-lican government, and the advantages of democratic
+uncommonly heard to "laud the delights of a republican government, and the advantages of democratic
 institutions when they are in public." 1
 The Constitutional Fathers with all their sagacity
-had failed to see that a frankly undemocratic con-
-stitution would not long be tolerated.
+had failed to see that a frankly undemocratic constitution would not long be tolerated.
 The bold
 denial of popular rule was bound to offer an easy
 point of attack to a man, like Jefferson, wh~ so far
@@ -13865,8 +12678,7 @@ ready than Hamilton to turn over government .to
 the" unrefined" will of the people. 2 The Federahst
 leaders had been men of definite convictions who
 stated them bluntly.
-There was little real discrep-
-ancy between their public and their private views.
+There was little real discrepancy between their public and their private views.
 But Jefferson's mind was a mass of ambiguities, not
 1 Democracy in America, Vol. I, Ch. X. (Third ~d~tion, 1838), p. 216.
 2 Cf. his plan for the Constitution of Virginia, hIS Ideas for a senate of
@@ -13876,7 +12688,7 @@ Origins of Jeffersonian Democracy, pp, 450 et seq.
 z8z
 PUBLIC OPINION
 FORCE, PATRONAGE, AND PRIVILEGE
-283
+
 s~lely because of its defects, as Hamilton and his
 blog:aphers have t~ought, but because he believed in
 a unl.on and he. ~eheved in spontaneous democracies,
@@ -13888,8 +12700,7 @@ vision of a new and tremendous idea that no one
 had thought out in all its bearings.
 But though
 popular sovereignty was not clearly understood by
-anybody, it seemed to imply so great an enhance-
-ment of human life, that no constitution could
+anybody, it seemed to imply so great an enhancement of human life, that no constitution could
 stand which frankly denied it.
 The frank denials
 were therefore expunged from consciousness and the
@@ -13897,9 +12708,7 @@ were therefore expunged from consciousness and the
 limited constitutional democracy, was talked and
 thought about as an instrument for direct popular
 :ule.
-Jefferson actually reached the point of believ-
-I~g that the Federalists had perverted the Constitu-
-tion, of whichin his fancy they were no longer the
+Jefferson actually reached the point of believI~g that the Federalists had perverted the Constitution, of whichin his fancy they were no longer the
 authors.
 And so the Constitution was
 in spirit
@@ -13909,8 +12718,7 @@ in spirit
 rewr1~ten.
 ~artIy by actual amendment, partly by
 pr~ctlce, as In. the case of the electoral college, but
-chiefly by looking at it through another set of stereo-
-types,
+chiefly by looking at it through another set of stereotypes,
 t~e facade was no longer permitted to look
 oligarchic,
 The American people came to believe that their
@@ -13919,30 +12727,26 @@ was a democratic
 instrument
 and
 treated it as such.
-They owe that fiction to the vic-
-torr o~ Thomas Jefferson, and a great conservative
+They owe that fiction to the victorr o~ Thomas Jefferson, and a great conservative
 fiction It has been. It is a fair guess that if everyone
 had always regarded the Constitution as did the
 authors of it, the Constitution would have been
 
 
 PUBLIC OPINION
-violently overthrown, because loyalty to the Con-
-stitution and loyalty to democracy would have
+violently overthrown, because loyalty to the Constitution and loyalty to democracy would have
 seemed incompatible.
-Jefferson resolved that para-
-dox by teaching the American people to read the
+Jefferson resolved that paradox by teaching the American people to read the
 Constitution as an expression of democracy.
 He
 himself stopped there.
-But in the course of twenty-
-five years or so social conditions had changed so
+But in the course of twentyfive years or so social conditions had changed so
 radically,
 that Andrew Jackson
 carried out the
 political revolution for which Jefferson had prepared
 the tradition.'
-4
+
 The political center of that revolution was the
 question of patronage.
 By the men who founded the
@@ -13954,11 +12758,9 @@ But the democratic
 theory had as one of its main principles the doctrine
 of the omnicompetent citizen.
 Therefore, when
-people began to look at the Constitution as a demo-
-cratic instrument, it was certain that permanence in
+people began to look at the Constitution as a democratic instrument, it was certain that permanence in
 office would seem undemocratic.
-The natural ambi-
-tions of men coincided here with the great moral
+The natural ambitions of men coincided here with the great moral
 impulse of their age.
 Jefferson had popularized the
 idea without carrying it ruthlessly into practice,
@@ -13971,9 +12773,8 @@ into patronage.
 separated Hamilton's opinions from Jackson's practice should turn- to
 Mr. Henry Jones Ford's Rise and Growth of American Politics.
 FORCE, PATRONAGE, AND PRIVILEGE
-285
-Curious as it sounds to us, the principle of rota-
-tion in office with short terms was regarded as a
+
+Curious as it sounds to us, the principle of rotation in office with short terms was regarded as a
 g:ea~ reform.
 Not only did it acknowledge the new
 dignity of the average man by treating him as fit
@@ -13981,14 +12782,12 @@ for any office, not only did it destroy the monopoly
 of a small social class and appear to open careers to
 talent, but"it had been advocated for centuries as
 a sovereign remedy for political corruption," and
-as the one way to prevent the creation of a bureau-
-cracy.!
+as the one way to prevent the creation of a bureaucracy.!
 The practice of rapid change in public
 office was the application to a great territory of
 the
 image of democracy derived from
-the self-
-contained village.
+the selfcontained village.
 Naturally it did not have the same results in the
 nation that it had in the ideal community on which
 the democratic theory was based.
@@ -13999,15 +12798,13 @@ Unintentionally, patronage did for a large electorate
 what Hamilton's fiscal measures had done for the
 upper classes.
 We often fail to realize how much
-of the stability of our government we owe to pa-
-tronage.
+of the stability of our government we owe to patronage.
 For it was patronage that weaned natural
 leaders from
 too
 much attachment
 to
-the self-
-centered community, it was patronage that weakened
+the selfcentered community, it was patronage that weakened
 the local spirit and brought together in some kind
 of peaceful cooperation,
 the very men
@@ -14023,7 +12820,7 @@ supposed to produce a new governing class, and it
 z86
 PUBLIC OPINION
 FORCE, PATRONAGE, AND PRIVILEGE
-287
+
 has never accommodated itself to the fact.
 When
 the democrat wanted to abolish monopoly of offices,
@@ -14039,10 +12836,8 @@ what he did like
 because his theory was derived
 from an ideal environment, and he was living in a
 real one.
-The more deeply he felt the moral im-
-pulse of democracy, the less ready he was to see the
-profound truth of !Iamilton's s~atement that com-
-munities
+The more deeply he felt the moral impulse of democracy, the less ready he was to see the
+profound truth of !Iamilton's s~atement that communities
 deliberating
 at
 a
@@ -14051,8 +12846,7 @@ and
 und~r
 different impressions could not long cooperate In
 the same views and pursuits.
-For that truth post-
-pones anything like the full realization, o.f democracy
+For that truth postpones anything like the full realization, o.f democracy
 in public affairs until the art of obtaining comm?n
 consent has been radically improved.
 And so while
@@ -14068,8 +12862,7 @@ rotation in office might be the ostensible
 theory,' in practice the offices oscillated between
 the henchmen.
 Tenure might not be a permanent
-monopoly, but the professional politician was. per-
-manent.
+monopoly, but the professional politician was. permanent.
 Government
 might
 be,
@@ -14082,8 +12875,7 @@ salaries in office might be as ostentatiously frugal as
 Jefferson's home-spun, but the expenses of party
 organization and the fruits of victory were in the
 grand manner.
-The stereotype of democracy con-
-trolled the visible government; the corrections, the
+The stereotype of democracy controlled the visible government; the corrections, the
 exceptions and adaptations of the American people
 to the real facts of their environment have had to
 be invisible, even when everybody knew all about
@@ -14092,12 +12884,11 @@ It was only the words of the law, the speeches
 of politicians, the platforms, and the formal machinery
 of administration that have had to conform to the
 pristine image of democracy.
-5
+
 If one had asked a philosophical democrat how
 these self-contained communities were to cooperate,
 when their public opinions were so self-centered,
-he would have pointed to represen tative govern-
-ment embodied in
+he would have pointed to represen tative government embodied in
 the
 Congress.
 And
@@ -14114,8 +12905,7 @@ nationally eminent men,
 the life of the capital
 would be more brilliant.
 It would be, of course,
-and it would be a very good thing if retiring Presi-
-dents and Cabinet officers followed the example of
+and it would be a very good thing if retiring Presidents and Cabinet officers followed the example of
 John Quincy Adams.
 But the absence of these men
 does not explain the plight of Congress, for its
@@ -14124,11 +12914,9 @@ was relatively
 the
 most
 
-
-288
 PUBLIC OPINION
 FORCE, PATRONAGE, AND PRIVILEGE
-289
+
 eminent branch of the government.
 Indeed it is
 more probable that the reverse is true, and that
@@ -14139,9 +12927,7 @@ wide, is, I think, to be found in the fact that a
 congress of representatives is essentially a group
 of blind men in a vast, unknown world.
 With some
-exceptions, the only method recognized in the Con-
-stitution or in the theory of representative govern-
-ment, by which Congress can inform itself, is to
+exceptions, the only method recognized in the Constitution or in the theory of representative government, by which Congress can inform itself, is to
 exchange opinions from the districts.
 There is no
 systematic,
@@ -14191,8 +12977,7 @@ an accountant can dig out for him, so the lawmaker
 does not arrive at a true picture of the state of the
 union by putting together a mosaic of local pictures.
 He needs to know the local pictures, but unless he
-possesses instruments for calibrating them, one pic-
-ture is as good as the next, and a great deal better.
+possesses instruments for calibrating them, one picture is as good as the next, and a great deal better.
 The President does come to the assistance of
 Congress by delivering messages on the state of the
 Union.
@@ -14220,11 +13005,9 @@ subordinate
 official.
 So bad is the contact of legislators with
 necessary facts that they are forced to rely either on
-private tips or on that legalized atrocity, the Con-
-gressional investigation, where Congressmen, starved
+private tips or on that legalized atrocity, the Congressional investigation, where Congressmen, starved
 of their legitimate food for thought, go on a wild
-and feverish man-hunt, and do not stop at can-
-nibalism.
+and feverish man-hunt, and do not stop at cannibalism.
 
 
 PUBLIC OPINION
@@ -14239,8 +13022,7 @@ executive departments, interested and disinterested
 data collected by private persons, such newspapers,
 periodicals, and books as Congressmen read, and a
 new and excellent practice of calling for help from
-expert bodies like the Interstate Commerce Com-
-mission
+expert bodies like the Interstate Commerce Commission
 the Federal Trade Commission, and the
 ,
 .
@@ -14274,7 +13056,7 @@ treated as a bundle of local issues. For a legislature
 without effective means of information and analysis
 must oscillate between blind regularity, tempered
 FORCE, PATRONAGE, AND PRIVILEGE
-291
+
 by occasional insurgency, and logrolling.
 And it is
 the logro~lin~ which makes the regularity palatable,
@@ -14306,7 +13088,7 @@ central federated union, and the women's clubs had
 spared themselves these labors, and were prepared
 to view the Congressman's performance through
 local spectacles.
-6
+
 What patronage did to attach political chieftains
 to the national government, the infinite variety of
 local subsidies and privileges do for self-centered
@@ -14370,8 +13152,7 @@ But if
 they had seen this simple freedom squandered in
 parochial jealousies they longed for the spacious
 order of a great and powerful state.
-Whichever choice they made, the essential diffi-
-culty was the same.
+Whichever choice they made, the essential difficulty was the same.
 If decisions were decentralized
 they soon
 flounder~d in a chaos of local opinions.
@@ -14383,8 +13164,6 @@ one local right against another, or to impose law and
 order on the localities, or to resist class government at
 the center, o.r to defend the whole society, centralized
 or decentralized, against the outer barbarian.
-293
-
 
 Modern democracy and the
 industrial system
@@ -14402,18 +13181,15 @@ owned by somebody, there would be somebody to
 manage everything.
 This was plural sovereignty
 with a vengeance.
-It was economic government by anybody's eco-
-nomic philosophy, though it was supposed to be
+It was economic government by anybody's economic philosophy, though it was supposed to be
 controlled by immutable laws of political economy
 that must in the end produce harmony.
-It pro-
-duced many splendid things, but enough sordid and
+It produced many splendid things, but enough sordid and
 terrible ones
 to start counter-currents.
 One of
 these was the trust, which established a kind of
-Roman peace within industry, and a Roman preda-
-tory imperialism outside.
+Roman peace within industry, and a Roman predatory imperialism outside.
 People turned to the
 legislature for relief.
 They invoked representative
@@ -14422,24 +13198,21 @@ farmer, to regulate the semi-sovereign corporations.
 The working class turned to labor organization.
 There followed a period of increasing centralization
 and a sort of race of armaments.
-The trusts inter-
-locked, the craft unions federated and combined
+The trusts interlocked, the craft unions federated and combined
 into a labor movement, the political system grew
 stronger at Washington and weaker in the states,
 as the reformers tried to match its strength against
 big business.
 In this period practically all the schools of socialist
 THE OLD IMAGE IN A NEW FORM
-294
+
 PUBLIC OPINION
-295
+
 thought from the Marxian left to the New National,
-ists. ar~und Theodore Roosevelr, looked upon cen-
-tralization as the first stage of an evolution which
+ists. ar~und Theodore Roosevelr, looked upon centralization as the first stage of an evolution which
 would end in the absorption of all the semi-sovereign
 powers of business by the political state.
-The evolu-
-tion never took place, except for a few months
+The evolution never took place, except for a few months
 during the war.
 That was enough, and there was
 a turn of the wheel against the omnivorous state in
@@ -14452,8 +13225,7 @@ individualism of voluntary groups.
 One of the interesting things
 about all these
 oscillations of theory is that each in turn promises a
-world in which no one will have to follow Machia-
-velli in order to survive.
+world in which no one will have to follow Machiavelli in order to survive.
 They are all established
 by some form of coercion, they all exercise coercion
 i~ order to maintain themselves, and they are all
@@ -14485,15 +13257,14 @@ man who is trying to rationalize human life.
 
 
 THE OLD IMAGE IN A NEW FORM
-3
+
 But leaving aside the problems of transition, and
 any consideration of what the effect is on their
 future action, when men have hacked their way
 2 Cf. op. cit., Ch. X.
 lOp. cit., p. 14I.
-297
-makes whatever laws are necessary to regulate per-
-sonal conduct and personal property.
+
+makes whatever laws are necessary to regulate personal conduct and personal property.
 These powers are exercised not by one commune,
 but by a federal structure of local and provincial
 commune~ with a National commune at the top.
@@ -14514,8 +13285,7 @@ already reserved for their communes
 the widest
 kind of coercive power.
 It is acknowledged at once
-that the new society cannot be brought into ex-
-istence by universal consent.
+that the new society cannot be brought into existence by universal consent.
 Mr. Cole is too honest
 to shirk the element of force required to make the
 transition. 2
@@ -14523,7 +13293,7 @@ And while obviously he cannot predict
 how much civil war there might be, he is quite clear
 that there would have to be a period of direct action
 by the trade unions.
-2
+
 The lengths to which a clever man will sometimes
 go in order to escape a full recognition of the role of
 force is shown by Mr. G. D. H. Cole's book on Guild
@@ -14546,8 +13316,7 @@ It ratifies
 the budgets
 of the guilds and the civil services. .It levies taxes.
 " All questions of income" fall within its jurisdiction.
-It "allocates" income to the non-productivernem-
-bers of the community.
+It "allocates" income to the non-productivernembers of the community.
 It is the final arbiter in all
 questions of policy and jurisdiction between the
 guilds.
@@ -14560,10 +13329,8 @@ and ratifies their by-laws wherever these involve
 coercion.
 It declares war and makes peace.
 It
-controls the armed forces. It is the supreme rep-
-resentative of the nation abroad.
-It settles bound-
-ary questions within the national state.
+controls the armed forces. It is the supreme representative of the nation abroad.
+It settles boundary questions within the national state.
 It calls
 into existence new functional bodies, or distributes
 new functions to old ones.
@@ -14593,8 +13360,7 @@ were correct, the Marxian would be quite right: if
 the disease were the capitalist class and only the
 capitalist class, salvation would automatically follow
 its extinction.
-But Mr. Cole is enormously con-
-cerned about whether the society which follows the
+But Mr. Cole is enormously concerned about whether the society which follows the
 revolution is to be run by state collectivism, by
 guilds or cooperative societies, by a democratic
 parliament or
@@ -14602,8 +13368,7 @@ by
 functional
 representation.
 In
-fact, it is as a new theory of representative govern-
-ment that guild socialism challenges attention.
+fact, it is as a new theory of representative government that guild socialism challenges attention.
 The guildsmen do not expect a miracle to result
 from the disappearance of capitalist property rights.
 They do expect, and of course quite rightly, that if
@@ -14618,15 +13383,14 @@ equalized both in income and in service, they would
 then lose the incentives to aggression. The guildsmen
 also propose to establish equality by force, but are
 THE OLD IMAGE IN A NEW FORM
-299
+
 shrewd enough to see that if an equilibrium is to
 be maintained they have to provide institutions for
 maintaining it.
 Guildsmen, therefore, put their
 faith in what they believe to be a new theory of
 democracy.
-Their object, says Mr. Cole, is "to get the me-
-chanism right, and to adjust it as far as possible to
+Their object, says Mr. Cole, is "to get the mechanism right, and to adjust it as far as possible to
 the expression of men's social wills." 1
 These wills
 need to be given opportunity for self-expression in
@@ -14647,31 +13411,28 @@ the country to the city.
 The new democrat can no
 longer turn to the idealized rural township for the
 image of democracy.
-He turns now to the work-
-shop.
+He turns now to the workshop.
 "The spirit of association must be given free
 play in the sphere in which it is best able to find
 expression.
 This is manifestly the factory, in which
-men have the habit and tradition of working to-
-gether.
+men have the habit and tradition of working together.
 The factory is the natural and fundamental
 unit of industrial democracy.
 This involves, not
 only that the factory must be free, as far as possible,
-to manage its own affairs, but also that the dem-
-lOp. cit., p. 16.
+to manage its own affairs, but also that the demlOp. cit., p. 16.
 
 
 PUBLIC OPINION
-300
+
 ocratic unit of the factory must be made the basis
 of the larger democracy of ~h~ Guild, and that the
 larger organs of Guild admInIstration an~ ~overn­
 ment must be based largely on the prmclple of
 •
 "
-1
+
 factory representation.
 Factory is, of course,. a very
 l~ose word,
@@ -14682,8 +13443,7 @@ docks
 stations, and every place whIch IS
 "a n~tural c~nter of production." 2
 But a factory
-in this sense is quite a different thing f:om .an .In-
-dustry.
+in this sense is quite a different thing f:om .an .Industry.
 The factory, as Mr. Cole eoncerves It, IS a
 work place where men are really in personal c~ntact,
 an environment small enough to be kn?,,:n ~Irectly
@@ -14691,22 +13451,20 @@ to all the workers.
 "This democracy. If It IS. to be
 real must come horne to, and be exercIsable directly
 by, 'every individual member of.the Guild." 3 .This is
-important, because Mr. Cole, like Jefferson, IS seek-
-ing a natural unit of gov:e;nment: The only natural
+important, because Mr. Cole, like Jefferson, IS seeking a natural unit of gov:e;nment: The only natural
 unit is a perfectly familiar envIronment.
 Now.a
 large plant, a railway system, a great
 c~al. field, IS
 not a natural unit in this sense.
 Unl~ss It IS a ~ery
-small factory indeed, what Mr. Cole IS really rhink-
-ing about is the shop.
+small factory indeed, what Mr. Cole IS really rhinking about is the shop.
 That is wher~ men can .be
 supposed to have" the habit and uadirion of workmg
 together."
 Th~ rest of th: plant, the rest of the
 industry, is an Inferred enVIronment.
-4
+
 Anybody can see, and almost everybody will a~mit,
 that self-government in the purely internal affairs of
 the shop is government of affairs that" can be taken
@@ -14718,11 +13476,10 @@ A I.
 p. cu., p, 40.
 T
 THE OLD IMAGE IN A NEW FORM
-301
+
 in at a single view." 1 But dispute would arise as to
 what constitute the internal affairs of a shop.
-Obvi-
-ously t~e biggest interests, like wages, standards of
+Obviously t~e biggest interests, like wages, standards of
 production, the purchase of supplies, the marketing
 of the product, the larger planning of work, are by no
 means purel ~ internal.
@@ -14739,8 +13496,7 @@ Above all it can act as a
 unit in dealing with other shops, and perhaps with
 the pla?t as. a who!e.
 But isolation is impossible.
-The unI: of I~dustrta! democracy is thoroughly en-
-tangled In foreign affairs,
+The unI: of I~dustrta! democracy is thoroughly entangled In foreign affairs,
 And it is the management
 of these external relations that constitutes the test
 of the guild socialist theory.
@@ -14760,8 +13516,7 @@ derives from the shop, and all its peculiar virtues are
 ascribed to this source.
 The representatives who
 choos~ the representatives
-who choose the repre-
-sentanves who finally (( coordinate" and (( regulate"
+who choose the representanves who finally (( coordinate" and (( regulate"
 the shops are elected, Mr. Cole asserts, by a true
 democracy.
 Because they come originally from a
@@ -14771,8 +13526,7 @@ self-governing uni t, the whole federal organism will
 
 PUBLIC OPINION
 3°2
-be inspired by the spirit and the reality of self-govern-
-ment.
+be inspired by the spirit and the reality of self-government.
 Representatives will aim to carry aut
 ~?~
 workers' "actual will as understood by themselves,
@@ -14784,8 +13538,7 @@ For while the worker
 in the shop can have a re~l ?pi~i~~ about matters
 entirely within the shop, his
 WIll
-about the rela-
-tion of that shop to the plant, the industry, and the
+about the relation of that shop to the plant, the industry, and the
 nation is subject to all the limitations of access,
 stereotype, and self-interest that .surro~nd any other
 self-centered opinion.
@@ -14797,31 +13550,28 @@ His opinion of what i~ rig~t in the ~reat complIcated
 environment out of sight IS more likely to be wro~g
 than right if it is a generalization from the exper~­
 ence of the individual shop.
-As a matter of experI-
-ence, the representatives of a
+As a matter of experIence, the representatives of a
 ~uild
 so~iety would
-find just as the higher trade union offiCIals find to-
-day: that on a great .num~er of que.stions which the~
+find just as the higher trade union offiCIals find today: that on a great .num~er of que.stions which the~
 have to decide there IS no
 actual WIll as understood
 by the shops.
-5
+
 The guildsmen insist, however, th~t.such .criticism
 is blind because it ignores a great pohtlca~dIsc?ve.ry.
 You may be quite right, they would say, In thinking
 that the representatives of the shops would have to
 lOp. cit., p. 42.
 THE OLD IMAGE IN A NEW FORM
-303
+
 make up their own minds on many questions about
 which the shops have no opinion.
 But you are
 simply entangled in an ancient fallacy: you are
 looking for somebody to represent a group of people.
 He cannot be found.
-The only representative pos-
-sible is one who acts for" some particular function," 1
+The only representative possible is one who acts for" some particular function," 1
 and therefore each person must help choose as many
 representatives" as there are distinct essential groups
 of functions to be performed. "
@@ -14832,8 +13582,7 @@ They are, mind you,
 disloyal if they do not carry out the will of the group
 about the function, as understood by the group."
 These functional representatives meet.
-Their busi-
-ness is to coordinate and regulate.
+Their business is to coordinate and regulate.
 By what standard
 does each judge the proposals of the other, assuming,
 as we must, that there is conflict of opinion between
@@ -14856,9 +13605,7 @@ lOp. cit., pp. 23- 24.
 
 
 PUBLIC OPINION
-and in society, are matters of education or propa-
-ganda, not the automatic product of shop-conscious-
-ness.
+and in society, are matters of education or propaganda, not the automatic product of shop-consciousness.
 Whether the guildsmen elect a delegate, or a
 representative, they do not escape the problem of the
 orthodox democrat.
@@ -14866,20 +13613,16 @@ Either the group as a whole, or
 the elected spokesman, must stretch his mind beyond
 the limits of direct experience.
 He must vote on
-questions coming up from other shops, and on mat-
-ters coming from beyond the frontiers of the whole
+questions coming up from other shops, and on matters coming from beyond the frontiers of the whole
 industry.
 The primary interest of the shop does not
-even cover the function of a whole industrial voca-
-tion.
+even cover the function of a whole industrial vocation.
 The function of a vocation, a great industry,
 a district, a nation is a concept, not an experience,
-and has to be imagined, invented, taught and be-
-lieved.
+and has to be imagined, invented, taught and believed.
 And even though you define function as
 carefully as possible, once you admit that the view of
-each shop on that function will not necessarily coin-
-cide with the view of other shops, you are saying that
+each shop on that function will not necessarily coincide with the view of other shops, you are saying that
 the representative of one interest is concerned in the
 proposals made by other interests.
 You are saying
@@ -14892,7 +13635,7 @@ represent your views about other people's views of
 that function.
 You are voting as indefinitely as the
 orthodox democrat.
-6
+
 The guildsmen in their own minds have solved the
 question of how to conceive a common interest by
 playing with the word function.
@@ -14924,15 +13667,13 @@ But it makes a considerable practical
 difference whether they believe that the groups define
 their own functions or not.
 In either case, Mr. Cole assumes that society can
-be carried on by a social contract based on an ac-
-cepted idea of" distinct essential groups of functions."
+be carried on by a social contract based on an accepted idea of" distinct essential groups of functions."
 How does
 one recognize
 these distinct essential
 groups?
 So far as I can make out, Mr. Cole thinks
-that a function is what a group of people are inter-
-ested in.
+that a function is what a group of people are interested in.
 "The essence of functional democracy is
 that a man should count as many times over as there
 are functions in which he is interested." 2
@@ -14942,13 +13683,10 @@ You can use it to mean that a man is involved, or
 1 C]. Ope cit., Ch. XIX.
 2 Social Theory, p. 102 etseq.
 
-
-306
 PUBLIC OPINION
 that his mind is occupied.
 John Smith, for example,
-may have been tremendously interested in the Still-
-man divorce case. He may have read every word of
+may have been tremendously interested in the Stillman divorce case. He may have read every word of
 the news in every lobster edition. On the other hand,
 young Guy Stillman, whose le~itimacy was at stake,
 probably did
@@ -14993,7 +13731,7 @@ interested enough in important affairs, only those affairs came to seem
 important in which everybody was interested."
 2 Guild Socialism, p, 24·
 THE OLD IMAGE IN A NEW FORM
-307
+
 entitled to be interested. If I were asked to say what
 I believe Mr. Cole thinks, it would be that he has
 smoothed over the difficulty by
@@ -15057,8 +13795,7 @@ that the radicals under guild socialism would be
 asking for communes strong enough to define the
 functions of the guilds.
 But if you are going to have the government
-(commune) define functions, the premise of the the-
-ory disappears.
+(commune) define functions, the premise of the theory disappears.
 It had to suppose that a scheme of
 functions was obvious in order that the concave shops
 would voluntarily relate themselves to society.
@@ -15083,7 +13820,7 @@ And so instead of the scheme being the skeleton that
 THE OLD IMAGE IN A NEW FORM
 3°8
 PUBLIC OPINION
-309
+
 keeps guild society together, the attempt to define
 wh~t .the scheme ought to be, .would be under guild
 SOCIalIsm as elsewhere, the main business of politics.
@@ -15095,8 +13832,7 @@ Unfortunately
 he has Inserted In hIS premise what he wishes a
 guild society to deduce.'
 1 I have dealt with Mr. Cole's theory rather than with the experience
-of Soviet RUSSIa because, while the testiI!10~y is fragmentary, all com-
-petent observers ~eem to ,agree that RUSSIa 10 1921 does not illustrate a
+of Soviet RUSSIa because, while the testiI!10~y is fragmentary, all competent observers ~eem to ,agree that RUSSIa 10 1921 does not illustrate a
 communist state 10 working order.
 Russia is in revolution
 and what
@@ -15110,8 +13846,7 @@ public officials, the RUSSIan communists have relied not upon the spon-
 !nteres~ and the noblesse oblige of a specialized class-the l;yal and
 indoctrinated ,mem,be!s of the Communist party.
 In the "transition,"
-on which no trme limit has been s.et, I believe, the cure for class govern-
-ment and the coercive state IS strictly homeopathic.
+on which no trme limit has been s.et, I believe, the cure for class government and the coercive state IS strictly homeopathic.
 There IS also the question of why I selected Mr. Cole's books rather
 than the much more closely reasoned "Constitution for the Socialist
 Commonwealth of Great Britain" by Sidney and Beatrice Webb.
@@ -15124,7 +13859,7 @@ a better witness.
 
 
 A NEW IMAGE
-311
+
 CHAPTER XX
 A NEW IMAGE
 to be the master of one's own destiny is a strong
@@ -15132,18 +13867,14 @@ desire, but it has to adjust itself to other equally
 strong desires, such as the desire for a good life,
 for peace, for relief from burdens.
 In the original
-assumptions of democracy it was held that the ex-
-pression of each man's will would spontaneously
+assumptions of democracy it was held that the expression of each man's will would spontaneously
 satisfy not only his desire for self-expression, but
 his desire for a good life, because the instinct to
 express one's self in a good life was innate.
 The emphasis, therefore, has always been on the
 mechanism for expressing the will.
 The democratic
-El Dorado has always been some perfect environ-
-ment, and some perfect system of voting and rep-
-resentation, where the innate good will and in-
-stinctive statesmanship of every man
+El Dorado has always been some perfect environment, and some perfect system of voting and representation, where the innate good will and instinctive statesmanship of every man
 could
 be
 translated into action.
@@ -15151,8 +13882,7 @@ In limited areas and for
 brief periods the environment has been so favorable,
 that is to say so isolated, and so rich in opportunity,
 that the theory worked well enough to confirm men
-in thinking that it was sound for all time and every-
-where.
+in thinking that it was sound for all time and everywhere.
 Then when the isolation ended, and society
 became complex, and men had to adjust themselves
 closely to one another, the democrat spent his time
@@ -15160,17 +13890,13 @@ trying to devise more perfect units of voting, in the
 hope that somehow he would, as Mr. Cole says,
 "get the mechanism right, and adjust it as far as
 possible to men's social wills."
-But while the dem-
-ocratic theorist was busy at this, he was far away
+But while the democratic theorist was busy at this, he was far away
 from the actual interests of human nature.
 He was
 absorbed by one interest: self-government.
-Man-
-kind was interested in all kinds of other things, in
+Mankind was interested in all kinds of other things, in
 order, in its rights, in prosperity, in sights and sounds
 
-
-312
 PUBLIC OPINION
 A NEW IMAGE
 and in not being bored.
@@ -15178,8 +13904,7 @@ In so far as spontaneous
 democracy does not satisfy their other interests,
 it seems to most men most of the time to be an
 empty thing.
-Because the art of successful self-
-government is not instinctive, men do not long
+Because the art of successful selfgovernment is not instinctive, men do not long
 desire
 self-government for its
 own sake.
@@ -15198,8 +13923,7 @@ the right way, it would be beneficent.
 His whole
 attention has been on the source of power, since he
 is hypnotized by the belief that the great thing is
-to express the will of the people, first because ex-
-pression is the highest interest of man, andsecond
+to express the will of the people, first because expression is the highest interest of man, andsecond
 because the ..... 'Yig<,!~w"jg§!in~!iy,~!x..",.g~~~-:.,,) Butno
 amount of regulation at"the source of a river will
 completely control its behavior, and whil~~~~oc~~ts
@@ -15232,14 +13956,12 @@ the
 whole personality instead of with a meager
 aspect of it.
 For the traditional democrat risked
-thedignity of man on one very precarious assump-
-tion, that he would exhibit that dignity instinctively
+thedignity of man on one very precarious assumption, that he would exhibit that dignity instinctively
 in wiselaws and good government. Voters did not do
 that, and so the democrat was forever being made
 to look a little silly by tough-minded men.
 But if,
-instead of hanging human dignity on the one as-
-sumption about self-government, you insist that
+instead of hanging human dignity on the one assumption about self-government, you insist that
 man's dignity requires a standard of living, in which
 his capacities are properly exercised, the
 whole
@@ -15251,8 +13973,7 @@ apply to government are whether it is producing
 a certain minimum of health, of decent housing,
 of material necessities, of education, of freedom, of
 pleasures, of beauty, not simply whether at the
-sacrifice of all these things, it vibrates to the self-
-centered opinions that happen to be floating around
+sacrifice of all these things, it vibrates to the selfcentered opinions that happen to be floating around
 in men's minds.
 In
 the degree to which these
@@ -15260,8 +13981,7 @@ criteria can be made exact and objective, political
 
 
 PUBLIC OPINION
-decision, which is inevitably the concern of com-
-paratively
+decision, which is inevitably the concern of comparatively
 few people,
 is actually
 brought into
@@ -15297,13 +14017,10 @@ sphere will act more>J!DJi,.,.m9X~","QP._a realistic nicture
 autside the rather narrow range
 of our own possible attention, social control depends
 upon devising standards of living and methods of
-audit by which the acts of public officials and in-
-dustrial directors are measured.
-We cannot our-
-selves inspire or guide all these acts, as the mystical
+audit by which the acts of public officials and industrial directors are measured.
+We cannot ourselves inspire or guide all these acts, as the mystical
 democrat has always imagined.
-But we can stead-
-ily increase our real control over these acts by
+But we can steadily increase our real control over these acts by
 insisting that all of them shall be plainly recorded,
 and their results objectively measured.
 I should
@@ -15349,14 +14066,10 @@ right conditions, such as exist in the self-contained
 village or the self-contained shop, the mechanism
 would somehow overcome the brevity of attention
 which Aristotle had observed, and the narrowness of
-its range, which the theory of a self-contained com-
-munity tacitly acknowledged.
+its range, which the theory of a self-contained community tacitly acknowledged.
 We have seen how
 even at this late date the guild socialists are trans-
-311
 
-
-318
 PUBLIC OPINION
 fixed by the notion that if only you ~an buH? o~ the
 right unit of voting and
@@ -15367,9 +14080,7 @@ could find it, democrats have treated the problem
 of making public opinions as a problem in civil
 liberties.' "Who ever knew Truth put to the worse,
 in a free and open encounter?" 2 Supposing that no
-one has ever seen it put to the worse, are we to be-
-lieve then that the truth is generated by the encoun-
-ter
+one has ever seen it put to the worse, are we to believe then that the truth is generated by the encounter
 like fire by rubbing two sticks?
 Behind this
 classic doctrine of liberty, which American democrats
@@ -15381,8 +14092,7 @@ truth.
 This is probably sound if you allow the
 competition to extend over a sufficiently long time.
 When men argue in this vein they have in mind the
-verdict of history, and they think specifically of here-
-tics persecuted when they lived, canonized after th~y
+verdict of history, and they think specifically of heretics persecuted when they lived, canonized after th~y
 were dead.
 Milton's question rests also on a belief
 that the capacity to recognize truth is inherent in all
@@ -15390,8 +14100,7 @@ men
 and that truth freely put in circulation will
 win 'acceptance.
 I t derives no less from. the expe:i..
-ence, which has shown that men are not likely to dIS-
-cover truth if they cannot speak it, except under the
+ence, which has shown that men are not likely to dIScover truth if they cannot speak it, except under the
 eye of an uncomprehending policeman.
 1 The best study is Prof. Zechariah Chafee's, Freedom of Spttch.
 2 Milton, Areopagitica, cited at .the opening of Mr. Chafee's book.
@@ -15406,10 +14115,7 @@ mamtairung them.
 When they are in jeopardy, the
 human spirit is in jeopardy, and should there come a
 time when they have to be curtailed, as during a
-war, the suppression of thought is a risk to civiliza-
-tion which might prevent its recovery from. the ef-
-fects of war, if the hysterics, who exploit the neces-
-sity, were numerous enough to carryover into peace
+war, the suppression of thought is a risk to civilization which might prevent its recovery from. the effects of war, if the hysterics, who exploit the necessity, were numerous enough to carryover into peace
 the taboos of war.
 Fortunately, the mass of men is
 too tolerant long to enjoy the professional inquisitors,
@@ -15422,8 +14128,7 @@ what they are talking about."
 ~£~Y I!l_t-hls-sell,se.,does..nnt.g,uaJ:an,te,e."tl1tQ.li~.g;pit1,ig!t'"
 In the~2del:n;-~ocld."i,"",E,()r it always assumes, either
 -rnar-truth is spontaneous, or that the means of
-securing truth exist when there is no external inter-
-ference.
+securing truth exist when there is no external interference.
 But when you are dealing with an invisible
 environment, the assumption is false.
 The truth
@@ -15441,8 +14146,6 @@ York, and the public statements and prophecies of Mr. Mitchell Palmer,
 who was Attorney-General of the United States during the period of
 President Wilson's illness.
 
-
-320
 PUBLIC OPINION
 THE BUYING PUBLIC
 32 1
@@ -15458,12 +14161,10 @@ I am not
 referring to schools of journalism, for they are trade
 schools, intended to prepare men and women for a
 career.
-I am referring to political science as ex-
-pounded to future business men, lawyers, public
+I am referring to political science as expounded to future business men, lawyers, public
 officials, and citizens at large.
 In that science a
-study of the press and the sources of popular informa-
-tion found no place.
+study of the press and the sources of popular information found no place.
 It is a curious fact.
 To anyone
 not immersed in the routine interests of political
@@ -15497,7 +14198,7 @@ of all the outer world in.wbicb we are interested.
 .. ,.""
 " .. ',.,.... ,....•.:;....,.,
 . '•.'.' ·'·'·"-'--'··-'·",":·',C· :,'."...•~.;,_-i:;:;:;::._!;,"'I"'\""~~~'.':.~........"._.~.....__.......__'""~""-
-2
+
 Thisi~~iste~!Cln4ct~cient,.1>~li~rthat truth is not
 ·~''''''''''.<''!a··". "'1:.'
 '"t,,,j~··'
@@ -15577,7 +14278,7 @@ more when it buys the advertised commodities.
 Th.~_"E!;tQliS;_p~.ysLfQr the....fPt~~§"",,ll~\!!~~QUl;y:;< ..iw,he!l. ",Jh~
 ~~~'§~,e~E(HJ~~,"£211S~~!~~l~,,~
 '-"""""',_~_~~
-3
+
 Circulation is,
 ther~fore, the means to an end.
 !!.~§,~£g:m~s:':i:t1~:g~se~t:Qnr~'--wI\.~:ii:.:J:;t~::,~i.5:::!i~':§2I~::_!9::,:!li"~
@@ -15596,8 +14297,7 @@ line, for in respect to most commodities sold by
 advertising, the customers are neither the small
 class of the very rich nor the very poor.
 They are
-the people with enough surplus over bare neces-
-sities to exercise discretion in their buying.
+the people with enough surplus over bare necessities to exercise discretion in their buying.
 The
 paper, therefore, which goes into the homes of the
 fairly prosperous is by and large the one which offers
@@ -15606,8 +14306,7 @@ It may also go into the
 homes of the poor, but except for certain lines of
 goods, an analytical advertising agent does not rate
 that circulation as a great asset, unless, as seems
-to be the case with certain of Mr. Hearst's prop-
-erties, the circulation is enormous.
+to be the case with certain of Mr. Hearst's properties, the circulation is enormous.
 A newspaper which angers those whom it pays
 best
 to reach
@@ -15617,8 +14316,7 @@ bad
 that its net receipts from circulation may be left on the credit side of the
 profit and loss account.
 To arrive at net receipts, I would deduct from
-the gross the cost of promotion, distribution, and other expenses inciden-
-tal to circulation."
+the gross the cost of promotion, distribution, and other expenses incidental to circulation."
 From an address by Mr. Adolph S. Ochs, publisher
 of the New York Times, at the Philadelphia Convention of the Associated
 Advertising Clubs of The World, June 26, 1916.
@@ -15630,9 +14328,7 @@ school is endowed or supported by
 tUItion fees,
 there are subsidies and collections for the
 churc~.
-You cannot compare journalism with law, medi-
-cine or engineering, for in everyone of th~se pro-
-rePj
+You cannot compare journalism with law, medicine or engineering, for in everyone of th~se prorePj
 fessions the consumer pays for the service. !..
 fu~-p.r~S_~,jLLQ.!lj!!4gL!ll:_.l~_a~~~f ofi~:~ .
 readers, .m~~.n§.n~W.§.p;!R,et§"lhatJlr~..~~c<.","".~,,,,".~_.y~g<.
@@ -15646,11 +14342,9 @@ disinterested professions are
 suppos.:~,~,,~,~.,.!~~e.:,,~ ~!nIs
 -: .,., ,\.
 ".'#',~~","",wN··~-·"·····"'""ain'·""·tfie·"~'coil'c~rve""'"'cnaracter
-of aenlxf-
-k~,¥~QI'1' ~Ii~;;~at~o ~eed f()rartlliciaIly"acqulrecilnl'Orma:i'I()n
+of aenlxfk~,¥~QI'1' ~Ii~;;~at~o ~eed f()rartlliciaIly"acqulrecilnl'Orma:i'I()n
 is felt to exist.
-The information must come natur-
-ally that is to say gratis, if not out of the heart of
+The information must come naturally that is to say gratis, if not out of the heart of
 the 'citizen, then gratis out of the ~ews~aper..The
 citizen will pay for his telephone, his railroad rides,
 his motor car, his entertainment,
@@ -15665,8 +14359,7 @@ directly to
 ad~~!,~~~_~:~~
 And he WIll pay IndIrectly
 for'--tIl~-""aaverdsements of other people, because
-that payment, being con.cea!~d in the. price of com-
-modities is part of an invisible environment that
+that payment, being con.cea!~d in the. price of commodities is part of an invisible environment that
 he does not effectively comprehend.
 It would be
 regarded as an outrage to have to pay openly the
@@ -15681,8 +14374,7 @@ claimed
 that
 advertising was
 philanthropy,
-ad-
-vertisers buy space in those publications which are
+advertisers buy space in those publications which are
 fairly certain to reach their future customers.
 One
 need not spend much time worrying about the
@@ -15697,8 +14389,7 @@ critics of the press suppose. ~~~~L~~~~T..is"
 that the readers...2L""~R","D,~~§,12i!,P,er'\)",,"u,nacGus,tQmea:t:o
 .... ""''',''.,."".,~'''''''''·.·"''·'>.~'.d''','','.,.,''.'' ...•,····,,",···"······ofn ws atheri
 can
-be ca i-
-Ea.Yln.g...."~.h~"':J£g§i!.:..."J"."•...... ,;>;::·~".··:,.,."'·"'g,,·:t·,',·p··,· .."""".,ng~.''''''M"~''''.'_~_'''''''''''~.,''.,.,,''',,!l?_
+be ca iEa.Yln.g...."~.h~"':J£g§i!.:..."J"."•...... ,;>;::·~".··:,.,."'·"'g,,·:t·,',·p··,· .."""".,ng~.''''''M"~''''.'_~_'''''''''''~.,''.,.,,''',,!l?_
 talize(f~oI:;iy"hy tur~.~~g""lh~nlp"in.1Q,,~£it£.qt~~!i~!!-~~~t
 'c'anl)e's'ord"to"~m'an'uracturers and merchants.
 And
@@ -15716,8 +14407,7 @@ buyirrgm<~p'uDTi'c':"""C'rr'-is' for 'this buying public that
 e'atre(r""aii'a=,,~w"·uBlisl1ecr;-~for--wi tfiOUf
 _...~~"_"m.P.."".E."".".,=~,,,., ....,:~,,,...,,,.,,,,,,,..,,,,,_.,,.""",~."" .._,.,!e-",~,.",.".""." ...,.,.P.,...,_.,''''.-',.."''.,.'''.''''';''''''''''''''__,,.."'''_'''''-'''"~_._
 that support tfie
-newsp~E~£,,",,S;,~nll9,tJ!y~~._,,,,A news-
-paper'can'fl"ou't"in''''aoverti'ser, it can attack a powerful
+newsp~E~£,,",,S;,~nll9,tJ!y~~._,,,,A newspaper'can'fl"ou't"in''''aoverti'ser, it can attack a powerful
 banking or traction interest, but if it alienates the
 buying public, it loses the. o~~~,J,,~]I~nsaDTe""asset~
 of''"'rfs''''exisfence,~,,,,v''''''''''''"''''''''<''''''<'''-''''''''~N,.-.....-
@@ -15749,12 +14439,10 @@ one
 hundred
 and seventy-five
 depend
-ulti-
-mately upon them for news of the outer world.
+ultimately upon them for news of the outer world.
 For they make up the great press associations which
 cooperate in the exchange of news.
-Each is, there-
-fore, not only the informant of its own readers,
+Each is, therefore, not only the informant of its own readers,
 but it is the local reporter for the newspapers of
 other cities.
 The rural press and the special press
@@ -15763,8 +14451,7 @@ key papers.
 And among these there are some very
 much richer than others, so that for international
 news, in the main, the whole press of the nation
-may depend upon the reports of the press associa-
-tions and the special services of a few metropolitan
+may depend upon the reports of the press associations and the special services of a few metropolitan
 dailies.
 Roughly
 speaking,
@@ -15775,8 +14462,7 @@ for
 ge~~]!~"'=:g~'.t:b-~ti:u'g;;,i~~'~i;ij::,th~.: •. P,~!f~,·.P.~!g·JQr.·· .•··~a~
 ~itj~~~d~gQQd~el1~'h~!h~",J:eid'y~~,~Rr.Q§11~r.Q~i
 ,§,ecti.QJl.s Q{·,
-ci.~ies\Vi thlllorethan one hundred thousandjn-
-h'"'tit;~t;:~""u-Th~~~"b'u-ln-'''''uETi'cs''ar-"d ,.,
+ci.~ies\Vi thlllorethan one hundred thousandjnh'"'tit;~t;:~""u-Th~~~"b'u-ln-'''''uETi'cs''ar-"d ,.,
 -..,..,
 ··'d'"
 ij"h''''''''"'''~.".".".S"'''CO".~".~''"'''"
@@ -15786,8 +14472,7 @@ members of families, who depend for their income
 chiefly on trade, merchandising, the direction of
 manufacture, and finance.
 They are the clientele
-among whom it pays best to advertise in a news-
-paper. They wield a concentrated purchasing power,
+among whom it pays best to advertise in a newspaper. They wield a concentrated purchasing power,
 which may be less in volume than the aggregate
 for farmers and workingmen; but within the radius
 covered by a daily newspaper they are the quickest
@@ -15796,10 +14481,9 @@ assets.
 
 THE BUYING PUBLIC
 PUBLIC OPINION
-4
+
 They have, moreover, a double claim to attention.
-They are not only the best customers for the ad-
-vertiser, they include the advertisers.
+They are not only the best customers for the advertiser, they include the advertisers.
 Therefore
 the impression made by the newspapers on this
 public matters deeply.
@@ -15826,8 +14510,7 @@ and more peculiarly on a circulation based not on a
 marriage contract with their readers, but on free
 love.
 The object of every publisher is, therefore,
-to turn his circulation from a medley of catch-as-
-catch-can news stand buyers into a devoted band of
+to turn his circulation from a medley of catch-ascatch-can news stand buyers into a devoted band of
 constant readers.
 A
 n:wsp~y~-!,h!.L>«salL··t,e111y_
@@ -15846,11 +14529,10 @@ independence of the influence of advertisers; fewer readers and more
 dependence on the advertiser!
 It may seem like a contradiction (yet
 it is the truth) to assert: the greater the number of advertisers, the less
-327
+
 stay by it through thick and thin is a power greater
 than any which the individual advertiser can wield,
-and a power great enough to break up acornbina-
-tion of advertisers.
+and a power great enough to break up acornbination of advertisers.
 Therefore, whenever you find
 a newspaper betraying its readers for the sake of an
 advertiser, you can be fairly certain either that the
@@ -15892,12 +14574,10 @@ Though everything turns on the constancy o~ ~he
 reader
 there does not exist even a vague tradinon
 to call that fact to the reader's mind.
-His con-
-stancy depends on how he happ:ns to feel, or on ?is
+His constancy depends on how he happ:ns to feel, or on ?is
 habits.
 And these depend not SImply on the quality
-of the news, but more often on a num?er of ob-
-scure elements that in our casual relation to the
+of the news, but more often on a num?er of obscure elements that in our casual relation to the
 press, we hardly take the tro~ble to make conscious.
 The most important of these l~ that ~~,~~~~<?~_.~s~,::~.~.~__.
 to judge a newspaper, if we Judge It at .!11,_~rlt~s.,
@@ -15911,7 +14591,7 @@ _._~,.•.='=~~""" •.""..""""."'.''''.:'''"i!Ji'> '''',;''B~~''''~3 28'-'"·..
 ~M.:,
 .
 THE CONSTANT READER
-329
+
 m~l!!.!~~,~wg.f=~_y~n~§". J?~Y:Qnd,..our.experieuce.;....BJJ,!"j,!
 g~.~l§;."al~1Q.,~,:with
 .""some ."event.~,~.~..~h!nQyr.>"~.x.peri~n~,~~,
@@ -15981,22 +14661,17 @@ matter which is vaguely described as immoral or
 seditious.
 But the body of the news, though unchecked as a
 whole by the disin terested reader, consists of items
-about which some readers have very definite pre-
-conceptions.
-Those items are the data of his judg-
-ment, and news which men read without this per-
-sonal criterion, they judge by some other standard
+about which some readers have very definite preconceptions.
+Those items are the data of his judgment, and news which men read without this personal criterion, they judge by some other standard
 than their standard of accuracy.
 They are dealing
-here with a subject matter which to them is indis-
-tinguishable from fiction.
-The canon of truth can-
-not be applied.
+here with a subject matter which to them is indistinguishable from fiction.
+The canon of truth cannot be applied.
 They do not boggle over such news
 if it conforms to their stereotypes, and they continue
 to read it if it interests them."
 THE CONSTANT READER
-331
+
 tain.ed in a letter written by Horace Greeley on
 April 3, 1860, to "Friend Fletcher" who was about
 to start a country newspaper: 1
@@ -16017,8 +14692,7 @@ or corn, set forth the fact as concisely and unexceptionally
 as possible."
 PUBLIC OPINION
 33°
-2-
-There are newspapers, even in large cities, edited
+2There are newspapers, even in large cities, edited
 on the principle that the readers wish to read about
 themselves.
 The theory is that if enough people
@@ -16037,8 +14711,7 @@ birthdays,
 their
 silver weddings, their outings and clambakes, they
 will make a reliable circulation.
-The classic formula for such a newspaper is con-
-1 The reader will not mistake this as a plea for censorship.
+The classic formula for such a newspaper is con1 The reader will not mistake this as a plea for censorship.
 It might,
 however, be a good thing if there were competent tribunals, preferably
 not official ones, where charges of untruthfulness and unfairness In the
@@ -16051,8 +14724,7 @@ The function of becoming, as Mr. Lee puts it
 (( the printed diary of the home town" is one that
 every newspaper no matter where it is published
 n:ust ~n some measure fill. And where, as in a great
-CIty like New York, the general newspapers cir-
-culated broadcast cannot fill it, there exist small
+CIty like New York, the general newspapers circulated broadcast cannot fill it, there exist small
 newspapers
 published
 on
@@ -16064,8 +14736,7 @@ In the boroughs of Manhattan
 and the Bronx there are perhaps twice as many
 local dailies as there are general newspapers. 2
 And
-t.hey. are supplemented by all kinds of special pub-
-lications for trades, religions, nationalities.
+t.hey. are supplemented by all kinds of special publications for trades, religions, nationalities.
 These
 diaries
 are
@@ -16090,10 +14761,8 @@ with whose gorgeous
 vices
 the reader can in his
 fancy safely identify himself.
-Mr. Hearst's unflag-
-ging interest in high society caters to people who
-never hope to be in high society, and yet man-
-age to derive some enhancement out of the vague
+Mr. Hearst's unflagging interest in high society caters to people who
+never hope to be in high society, and yet manage to derive some enhancement out of the vague
 feeling that they are part of thelife that they read
 about.
 In the great cities "the printed diary of
@@ -16111,8 +14780,7 @@ and
 social
 news
 which
-holds the circulation. The interest in that is intermit-
-tent, and few publishers can bank on it alone.
+holds the circulation. The interest in that is intermittent, and few publishers can bank on it alone.
 Ihe .
 newsJ2aI2er
 therefore, takes to itself a variety of
@@ -16142,8 +14810,7 @@ M ""'-"-"~-'-'''-~''''"''~~b'-'-'-
 rna.il1,~Y~l1~~; it is only once in a while that a great
 ~sc~'Op"'lS'~~ade; there is apparently not a very great
 reading public for such massive reporting as has
-made the New York Times of recent years indis-
-pensable to men of all shades of opinion.
+made the New York Times of recent years indispensable to men of all shades of opinion.
 In order
 to differentiate
 themselves and collect
@@ -16154,8 +14821,7 @@ They go to the dazzling levels of
 society, to scandal and crime, to sports, pictures,
 actresses, ad vice to the lovelorn, highschool notes,
 women's pages, buyer's pages, cooking receipts, chess,
-whist, gardening, comic strips, thundering partisan-
-ship, not becausepublishers and edi tors are in terested
+whist, gardening, comic strips, thundering partisanship, not becausepublishers and edi tors are in terested
 in everything but''''n'ews:'b~r''1)'~~'~'~:~e th~y
 hay~~()
 tind@<Cs.QJn,e"'ii,wa,¥'""Q,f~hQ1Gtit1g"JJu".?£Q:~i1i~,£:,\,~ji,~gi4:~
@@ -16184,30 +14850,24 @@ L"y~-",,,,&~,~,-,,,,,",,,,",-~,,,,,,*,,,,,,,,~,,~~\,,,~,,,,,,,,,,,,,,,,,,,,,,""'
 t:: , ..••0 f
 t~~ng§ ....Jh~y ....".b~:Y~,...",n,R,..",cj,!1gbR~n9~nt,,)E29~J~gge.
 of
-rn()§t"D~:W,~,.J.h~I,,,"£~~~~=~ If the judgment is not un-
-favorable, the' editor IS at least within range of a
+rn()§t"D~:W,~,.J.h~I,,,"£~~~~=~ If the judgment is not unfavorable, the' editor IS at least within range of a
 circulation that pays.
 But in order to secure that
 circulation, he cannot rely wholly upon news of the
 greater environment.
-He handles that as interest-
-ingly as he can, of course, but the quality of the
+He handles that as interestingly as he can, of course, but the quality of the
 general news, especially about public affairs, is not
 in itself sufficient to cause very large numbers of
 readers to discriminate among the dailies.
 This somewhat left-handed relationship between
 newspapers and public information is reflected in
-332
+
 PUBLIC OPINION
 THE CONSTANT READER
-333
 
-
-3
 Yet all this does not go to the root of the rnatter,
 For while the economics of journalism is such as to
-depress the value of newsreporting, it is, I am cer-
-the salaries of newspaper men.
+depress the value of newsreporting, it is, I am certhe salaries of newspaper men.
 Reporti~...!Vh!~h
 th~o~e!!s~11Y,",v"",~,Ql1§,titutes.""""the.",.,..'£ouJUi,atiQJ1,,,,,.,"gK__,~he
 whol~"-' i'nsti ~uti~~.,\i§.,;.the~.."tnost~;,;R.QQ,t!Y";~E.~~2,,,.,,!~E~~~h
@@ -16260,8 +14920,7 @@ seem to demand.
 The fact that the able men take up
 " straigfit'r~p'~;'tl~g'" with the intention of leaving ~t
 as soon as possible is, I think, the chief reason why It
-has never developed in sufficien t measure those cor-
-porate traditions that give to a profession prestige
+has never developed in sufficien t measure those corporate traditions that give to a profession prestige
 "..."...a,nd~.j~~1<?l:l~,.~.~1f:r~.~p ..~£!.~
 For it is these corpor~te
 traditions which engender the pride of craft, which
@@ -16288,8 +14947,7 @@ he calls "The Brass Check" he has found
 this
 deeper reason:
 "The Brass Chec.k is found in your pay envelope every
-week-you who wnte and print and distribute our news-
-papers and magazines.
+week-you who wnte and print and distribute our newspapers and magazines.
 The Brass check is the price of
 !o~r shame-you who take the fair body of truth and sell
 It In ~he .market place, who betray the virgin hopes of
@@ -16313,24 +14971,20 @@ BUSIness somehow failed to contain the fair body of
 JIlewspapers. ct. The Free Press.
 2 Upton Sinclair, The Brass Check. A Study of American .lournalism,
 p. 436.
-335
+
 THE CONSTANT READER
 PUBLIC OPINION
-334
-
 
 " capitalisrn " for the faults of the press, you are
 compelled to prove that those faults do not exist
 except where capitalism controls.
-That Mr. Sin-
-clair cannot do this, is shown by the fact that while
+That Mr. Sinclair cannot do this, is shown by the fact that while
 ~n
 h~s diagno.sis. he traces everything to capitalism,
 in hIS prescription he ignores both capitalism and
 anti-capi talism.
 One would have supposed that the inability to
-take any non-capitalist paper as a model of truth-
-fulness and competence would have caused Mr.
+take any non-capitalist paper as a model of truthfulness and competence would have caused Mr.
 Sinclair, and those who agree with him, to look
 somewhat
 more
@@ -16345,8 +14999,7 @@ obtain?
 For that question leads, I believe, to the
 heart of the matter, to the question of what is news.
 PUBLIC OPINION
-truth, something would be wrong with Mr. Sin-
-clair's theory.
+truth, something would be wrong with Mr. Sinclair's theory.
 ..
 There is such a press.
 Strange to say, In proposIng
@@ -16372,8 +15025,7 @@ say why not.
 But the reason
 ~s simple.
 He cann~t
-convince anybody, not even himself, that the. an.t1-
-capitalist press is the remedy for the
+convince anybody, not even himself, that the. an.t1capitalist press is the remedy for the
 capitalist
 press.
 He ignores the
@@ -16387,21 +15039,17 @@ journalism you cannot Ignore 1t.
 If what you
 ca~e
 about is " the fair body of truth," you do not commit
-the gross logical error of .assembling all t?e in-
-stances of unfairness and lying you can find In one
+the gross logical error of .assembling all t?e instances of unfairness and lying you can find In one
 set of newspapers, ignore all the
 instance~ you
 could easily find in another set, and then assign as
 the cause of the lying, the one supposedly common
-characteristic of the press to which you have con-
-fined your investigation.
+characteristic of the press to which you have confined your investigation.
 If you are going to blame
 THE CONSTANT READER
-337
-
 
 THE NATURE OF NEWS
-339
+
 CHAPTER XXIII
 THE NATURE OF NEWS
 John Smith, let it be supposed, becomes a broker.
@@ -16430,8 +15078,7 @@ does not mean that they know them as Smith knows
 them, or as Mr. Arnold Bennett would know them
 if he had made Smith the hero of a three volume
 novel.
-The newspapers know only "in a few min-
-utes" the bald facts which are recorded in the County
+The newspapers know only "in a few minutes" the bald facts which are recorded in the County
 Clerk's Office.
 That overt act "uncovers" the
 news about Smith.
@@ -16449,8 +15096,7 @@ lOp. cit., p. 57.
 
 THE NATURE OF NEWS
 PUBLIC OPINION
-the financi al edi tor if Smith's friends were talka-
-tive.
+the financi al edi tor if Smith's friends were talkative.
 But apart from the fact that none of this
 could be published because it woul.d be
 libel~ there
@@ -16487,7 +15133,7 @@ r.>",>,t,','>.'.~.H,.r,s.s,,",.,.!,.r;;;,~;~;~;~~~~~~m~~;~~,
 fact, news, qoes""",,,~9,~,,,,,~:~,E,~£~,~~,,,,,,~;!'§"""'!f"H!i"":,,,,,,e,,,
 ..,,,,,,,,,,,,,,,,,r.,~':\',,,,,,""'''''''''H·>,,,,,~,,>,,,.,,,~~.,,"
 (;'t'p~s~·lbr~·""·truth.
-2
+
 .1'I~t,:r.~11y. the~~i,~ ...,~~~~~J~:d,.J:Y!~S~,,~j[~J,1.<;'uL
 opriiiou'as to Wh=~::~~~,~.~,,,~.~~~,~,~h\l~~·lJ.t.~
 r~~()rI~~r~-~'i\:g6od 'Journahst. w~l1 fin.d news oftener
@@ -16508,13 +15154,12 @@ Usually it is the stereotyped shape assumed
 by an event at an obvious place that uncovers the
 run of the news.
 The most.obvious place is where
-341
+
 people's affairs touch public authority.
 De minimis
 n?n curat lex.
 It is at these places that marriages,
-births, deaths, contracts, failures, arrivals, depart-
-ures, lawsuits, disorders, epidemics and calamities
+births, deaths, contracts, failures, arrivals, departures, lawsuits, disorders, epidemics and calamities
 are made known.
 In the first instance, therefore, the news is not
 a mirror of social conditions, but the report of an
@@ -16588,8 +15233,7 @@ There is one on the stock exchange, and the news
 of price movements is flashed over tickers with
 dependable accuracy.
 There is a machinery for
-election returns, and when the counting and tabu-
-lating are well done, the result of a national election
+election returns, and when the counting and tabulating are well done, the result of a national election
 is usually known on the night of the election.
 In
 civilized communities deaths, births, marriages and
@@ -16607,9 +15251,9 @@ It
 exists for imports and exports because they pass
 through a custom house and can be directly recorded.
 THE NATURE OF NEWS
-342
+
 PUBLIC OPINION
-343
+
 I t exists in nothing like the same degree for internal
 trade, ~nd especially for trade over the counter.
 . It will b~ found, I think, that there is a very
@@ -16624,17 +15268,14 @@ umpIre In the unscored baseball game.
 All news
 about states of mind is of this character: so are all
 desc.ripti?ns o~ personalities, of sincerity, aspiration,
-motive, IntentIon, of mass feeling, of national feel-
-ing, of pubE: opinion, the policies of foreign govern-
-ments.
+motive, IntentIon, of mass feeling, of national feeling, of pubE: opinion, the policies of foreign governments.
 SO IS much news about what is going to
 h~ppen.. So are questions turning on private profit,
 pnv.ate
 Income, wages, working
 conditions,
 the
-efficIency of labor, educational opportunity, un-
-employment,l
+efficIency of labor, educational opportunity, unemployment,l
 monotony,
 health
 discrimination
@@ -16643,8 +15284,7 @@ r
 "
 unrairness, restraint of trade, waste,
 "backward
-peoples," cons~rvatism, imperialism, radicalism, lib-
-erty, honor, righteousness.
+peoples," cons~rvatism, imperialism, radicalism, liberty, honor, righteousness.
 All involve data that
 are ~t best spasmodically recorded.
 The data may
@@ -16670,9 +15310,8 @@ are reported either as personal and conventional
 1 Address before the Women's City Club of New York, Dec. 1I, 1919.
 Reprinted, New Republic, Dec. 3I, 1919, p. 44·
 THE NATURE OF NEWS
-3
-The good press agent understands that the vir-
-tues of his cause are not news, unless they are such
+
+The good press agent understands that the virtues of his cause are not news, unless they are such
 strange virtues that they jut right out of the routine
 ~f life:
 This is not because the newspapers do not
@@ -16681,11 +15320,10 @@ that
 ~othing has happened when nobody expected
 anything to happen.
 So if the publicity man wishes
-345
+
 clerk.
 But since, in respect to most of the big topics
-news, the facts are not simple, and not at all ob-
-vious, but subject to choice and opinion, it is natural
+news, the facts are not simple, and not at all obvious, but subject to choice and opinion, it is natural
 that everyone should wish to make his own choice
 of facts for the newsp~pers.to ~rint.
 The publicity
@@ -16695,27 +15333,23 @@ t~e reporter :nuc~ trouble, by presenting him a clear
 p1cture o.fa situation out of which he might otherwise
 make neither head nor tail.
 But it follows that the
-picture which the publicity man makes for the re-
-porter is the one he wishes the public to see.
+picture which the publicity man makes for the reporter is the one he wishes the public to see.
 He is
 censor and propagandist, responsible only to his
 employers, and. to the whole truth responsible only
 as 1t. accords WIth the employers' conception of his
 own Interests.
 . The development of the publicity man is a clear
-s1gn that the facts of modern life do not spontan-
-eously take a shape in which they can be known.
+s1gn that the facts of modern life do not spontaneously take a shape in which they can be known.
 They mu~t be given a shape by somebody, and since
 rn the daIly. routine reporters cannot give a shape to
-f~cts, a?d s1~ce there is little disinterested organiza-
-non of intelligence, the need for some formulation is
+f~cts, a?d s1~ce there is little disinterested organizanon of intelligence, the need for some formulation is
 being met by the interested parties.
 PUBLIC OPINION
 ~44
 opinions, or they are not news.
 They do not t~ke
-shape until somebody prot.ests,. or somebody .1n-
-vestigates, or somebody pubhcly, in the etymological
+shape until somebody prot.ests,. or somebody .1nvestigates, or somebody pubhcly, in the etymological
 meaning of the word, makes an issue of them.
 r'~·-·This is the underlying reason for the existence of
 } the press agent.
@@ -16799,17 +15433,14 @@ e-s-e
 """',"-,~"-,.
 ~rrea(ty:n~W'~..!hesuffragists knew this, did not
 particularly enjoy the knowledge but acted on it,
-and kept suffrage in the news long after the argu-
-ments pro and con were straw in their mouths, and
+and kept suffrage in the news long after the arguments pro and con were straw in their mouths, and
 people were about to settle down to thinking of the
-suffrage movement as one of the established insti-
-tutions of American life.!
+suffrage movement as one of the established institutions of American life.!
 Fortunately the suffragists, as distinct from the
 feminists, had a perfectly concrete objective, and a
 very simple one.
 What the vote symbolizes is not
-simple, as the ablest advocates and the ablest op-
-ponents knew.
+simple, as the ablest advocates and the ablest opponents knew.
 But the right to vote is a simple
 and familiar right.
 Now in labor disputes, which
@@ -16826,15 +15457,13 @@ A
 certain conception of a proper standard of living,
 hygiene, economic
 security, and human dignity.
-The industry may be far below the theoretical stand-
-ard of the community, and the workers may be too
+The industry may be far below the theoretical standard of the community, and the workers may be too
 1 Cf. Inez Haynes Irwin, The Story of the Woman's Party.
 It is not
 only a good account of a vital part of ~ great agitation, '~~t a reservoir
 of material on successful, non-revolutionary, non-conspirmg agrtanon
-under modern conditions of public attention, public interest, and politi-
-cal habit.
-347
+under modern conditions of public attention, public interest, and political habit.
+
 wretched to protest.
 Conditions may be above the
 standard, and the workers may protest violently
@@ -16845,8 +15474,7 @@ as par IS understood by the editor.
 Occasionally
 without waiting for the workers to threaten
 but
-prompted say by a social worker, he will send re-
-port~r~ to investigate, and will call attention to bad
+prompted say by a social worker, he will send report~r~ to investigate, and will call attention to bad
 conditions.
 Necessarily he cannot do that often.
 For these investigations cost time, money, special
@@ -16881,8 +15509,7 @@ conditions might become news if the B'~'~~~fu~f Health
 •
 1 ~o~ 10nghagorBabe Ruth was jailed for speeding.
 Released from jail
-Just. e ore t e atternoon game started, .he rushed into his waiting auto-
-lioblle, and hade up for time lost m.jail by breaking the speed laws on
+Just. e ore t e atternoon game started, .he rushed into his waiting autolioblle, and hade up for time lost m.jail by breaking the speed laws on
 ,IS way.to t e ball g~ounds:
 No policeman stopped him, but a reporter
 timed him, and published hIS speed the next morning.
@@ -16895,10 +15522,9 @@ ta e t err news about speeding from the police.
 
 PUBLIC OPINION
 THE NATURE OF NEWS
-348
+
 reported an unusually high
-dea~h rate i~ an indus-
-trial area.
+dea~h rate i~ an industrial area.
 Failing an intervention of this sort, ~he
 facts do not become news, until the workers organize
 and make a demand upon their employers.
@@ -16906,8 +15532,7 @@ Even
 then if an easy settlement is certain the news value
 is low whether or not the conditions themselves are
 remedied in the settlement.
-But if industrial rela-
-tions collapse into a strike or lockout the new~ value
+But if industrial relations collapse into a strike or lockout the new~ value
 increases.
 If the stoppage involves a service on
 which the readers of the newspapers immediately
@@ -16920,8 +15545,7 @@ appears ... ,.,t,~'''Y''~~~'W'M~:WS
 h
 ".'·.···.···.·.··."k ,.,." ~
 ·t.··"·'I·~n··e·.'a.·s
-.·.··.·i.·.I..v ·.r. ecognizab.le s.y.mntOfllS, a oe-
-t rougn cer a
+.·.··.·i.·.I..v ·.r. ecognizab.le s.y.mntOfllS, a oet rougn cer a
 L . .',
 ,...............
 ..........., •.t:'.•-,
@@ -16941,7 +15565,7 @@ et"~"'a.,..,~,,, ...•"' ~
 'lncl2f~~t~ ..in .....fl,...process..that.. Jor<c,them~"is,,:wr.ich~y: £Q.Q?;,..
 ......................
 .
-11
+
 he j
 di
 1t
@@ -16971,8 +15595,7 @@ are sllppo:e. ,
 _..,;
 "''''~"''
 in-.."tli~"'shape o(anover.tact.".",. ~~:n_that.signal.=
-c~~s,__say through a walko.ut of the men or a sum-
-mons for the police, i..!_,~.~JJ~Jnt9,R!"eJ?: __lhe.ste!:.~
+c~~s,__say through a walko.ut of the men or a summons for the police, i..!_,~.~JJ~Jnt9,R!"eJ?: __lhe.ste!:.~
 ;:~;~et~:~~,~~~!~~~!lfu~~~~~~~~,i!~~-¥-~
 ·~!>s~.~<f!ir~" •.~~.4.~..t_~~~..~,?~'~~,~.~.t.~~!:,.~~.~~~~.h_:~_~~I:n.a ~~~..b~_
 theimmediateexperience of..t~~.,.E~_~~~~"._~~~."!~E~r ~e!:...
@@ -16986,14 +15609,13 @@ the
 foreman,
 the
 nerve-racking
-349
+
 monotony of the machine, the depressingly bad air
 th~ drud&"ery o~ t~eir wives, the stunting of thei;
 chIldren,
 the dIngIness of their tenements.
 The
-slogans of the strike are invested with these feel-
-ings': But the reporter and reader see at first only
+slogans of the strike are invested with these feelings': But the reporter and reader see at first only
 a strike and some catchwords.
 They invest these
 with
@@ -17016,15 +15638,13 @@ And when they give color to the abstract news that
 a strike has been called, it is in the nature of things
 that the workers are at a disadvantage.
 It is in the
-nature, that is to say, of the existing system of in-
-dustrial relations that news arising from grievances
+nature, that is to say, of the existing system of industrial relations that news arising from grievances
 or hopes by workers should almost invariably be
 uncovered by an overt attack on production.
 You have, therefore, the circumstances in all their
 sprawling complexity, the overt act which signalizes
 t~em, the stereotyped bulletin which publishes the
-SIgnal, and the meaning that the reader himself in-
-j ects, after he has derived that rn.eaning from the
+SIgnal, and the meaning that the reader himself inj ects, after he has derived that rn.eaning from the
 experience which directly affects him.
 Now the
 ~eader's experience of a strike may be very important
@@ -17098,10 +15718,8 @@ Art.
 35 1
 journalists who can see what they have not learned
 to see.
-It comes from the almost unavoidable diffi-
-culty of finding sufficient space in which even the
-best journalist can make plausible an unconven-
-tio?al
+It comes from the almost unavoidable difficulty of finding sufficient space in which even the
+best journalist can make plausible an unconventio?al
 vie~.
 It comes from the economic necessity
 of mterestmg the reader quickly, and the economic
@@ -17114,8 +15732,7 @@ make for uncertainty in the editor when there are
 dangerous issues at stake, and cause him naturally
 to prefer the indisputable fact and a treatment more
 readily adapted to the reader's interest.
-The indis-
-putable fact and the easy interest, are the strike
+The indisputable fact and the easy interest, are the strike
 1tself.and-the.reader's inconvenience.
 All.the.subtler ~nd deeper truths are in the present
 orgarnzatron
@@ -17167,7 +15784,7 @@ The bulletins from the scene
 of action will note the trouble that arose from the
 assertion, rather than the reasons which led to it.
 The reasons are intangible.
-4
+
 The editor deals with these bulletins.
 He sits in
 his office, reads them, rarely does he see any large
@@ -17179,8 +15796,7 @@ bec~use they will leave ?im
 ~ithout mercy
 if a rival paper happens to hit their fancy.
 ~e
-works under enormous pressure, for the compen-
-tion of newspapers is often a. matter of mi?utes.
+works under enormous pressure, for the compention of newspapers is often a. matter of mi?utes.
 Every bulletin requires
 a SWIft but
 c?mphca~ed
@@ -17192,13 +15808,11 @@ prob~ble i~terest
 for the public, as the editor conceives It:
 WIthout
 standardization
-without stereotypes, WIthout rou-
-tine judgments: without a fairly r~thless ~isregard
+without stereotypes, WIthout routine judgments: without a fairly r~thless ~isregard
 of subtlety, the editor would soon die of excrtement.
 The final page is of a definite size, must be rea~y
 at a precise moment; there can be only a certam
-number of captions on the items, and in each cap-
-tion there must be a definite number of letters.
+number of captions on the items, and in each caption there must be a definite number of letters.
 Always there is the precarious urgency of the buying
 public, the law of libel, and the possibility of endless
 trouble.
@@ -17249,7 +15863,7 @@ effective news reporting by the fact that the hardest
 thing to report is chaos, even though it is an evolving
 chaos.
 This put the formulating of Russian news
-353
+
 THE NATURE OF NEWS
 PUBLIC OPINION
 35 2
@@ -17257,7 +15871,7 @@ PUBLIC OPINION
 
 THE NATURE OF NEWS
 PUBLIC OPINION
-354
+
 1 Cf. A Test of the News, by Walter ~ippmann and Charles Merz,
 assisted by Faye Lippmann, New Republ~c, August 4, 1920 •
 at its source in Helsingfors, Stockholm, Geneva,
@@ -17287,8 +15901,7 @@ grocer has a full creed as to foreign policy, a young
 lady a complete theory of the sacraments, as to
 which neither has any doubt whatever."
 Yet that same grocer will have many doubts
-about his groceries, and that young lady, mar-
-velously certain about the sacraments, may have
+about his groceries, and that young lady, marvelously certain about the sacraments, may have
 all kinds of doubts as to whether to marry the
 grocer, and if not whether it is proper to accept
 his attentions.
@@ -17313,8 +15926,7 @@ SR~",t.,~~he","int~re.§ty£!,,,_~!~~~,t~ ..,"!S~"2~~l:~,,J!~'"~~st", :~ter'-­
 the' -outcorrfe.
 But if he does that he' cannot rest=in'" a"""negative;-
 and unless indcEendent ~~al1s..?fcheckingt.h:l:ad
-~~~~~,__liTt;==];~~:~hli:~:iiew§p,'~Ii~t<:~:~ifi~~~~~~'''very-
-f act'
+~~~~~,__liTt;==];~~:~hli:~:iiew§p,'~Ii~t<:~:~ifi~~~~~~'''veryf act'
 P!h~_t h~~"is~,iR.t@t:es.ted"maymake-it""di1E;~l!r!=:fQ:!!!~riye
 ~_~..!hE.1_,halaaGe~,oLopjnions
 'Yhi£ll",!ll~,y,=mg,~!",,!1early
@@ -17328,15 +15940,14 @@ Tha.~'His.,whyman¥__a-..ne4wjp~:~r"--fijrdS'··
 
 
 NEWS, TRUTH, AND A CONCLUSION
-359
+
 In this sector, and only in this sector, the tests of
 the news are sufficiently exact to make the charges
 of perversion or suppression more than a partisan
 judgment.
 There is no defense, no extenuation,
 no excuse whatever, for stating six times that Lenin
-is dead, when the only information the paper pos-
-sesses is a report that he is dead from a source
+is dead, when the only information the paper possesses is a report that he is dead from a source
 repeatedly shown to be unreliable.
 The news, in
 that instance, is not "Lenin Dead" but "Helsingfors
@@ -17355,8 +15966,7 @@ exact tests .. accotlPt~, .. J.-
 think:-7or-'-tlie-char';~ter--of~t~
 pr-C;~;;'i~~~" as no
 ~e~~~~~Pr~~~.~.i?ri·.·.·d()~.s.:.·.~.~1Ji~re·'··iia~--~eEy-=-sman:I5QQ~f'-
-~act---knnwledge.,_\~dilC1Ll.t__r~el1u~~~_nQ_Quts.tand-
-jmt~~ili tY_~~_.~E~!!:!E~ __~~_~eal_~_~~h· __Ih~_.re.st_js-in
+~act---knnwledge.,_\~dilC1Ll.t__r~el1u~~~_nQ_Quts.tandjmt~~ili tY_~~_.~E~!!:!E~ __~~_~eal_~_~~h· __Ih~_.re.st_js-in
 t~ej.ouiliali_s_L's_-uwn_~Q-isG1=@,tiQn.
 Once he departs
 from the region where it is definitely recorded at
@@ -17367,8 +15977,7 @@ frailties, the
 analysis of the economic conditions
 on which he was shipwrecked, all of this can be
 told in a hundred different ways.
-There is no dis-
-cipline in a~Qu.~~E.~_y_~~?logy'.,_~~_~~.~r~__~~~._.~._£~sc!Rline-_
+There is no discipline in a~Qu.~~E.~_y_~~?logy'.,_~~_~~.~r~__~~~._.~._£~sc!Rline-_
 in medicine, engineering, or even law, which has
 ----
 . .
@@ -17376,8 +15985,6 @@ in medicine, engineering, or even law, which has
 ~
 -....._-,..__ .~••_'~.,~'>.•~-.,..~"'""""~-~_._......,..~......_.,..........-----"~-...- •.~~ ...._--.,,-~....
 
-
-360
 PUBLIC OPINION
 author!'!y- to dit:G~-the-jmrfl'lm:r~d when he.
 };~~~!2.~e.-~ ~f truth.
@@ -17474,8 +16081,7 @@ SOClet-v
 -=::::J~..,-"",,,,==p,•••o.,"'<7'~~"'''~'-'''.''''''1'~'''~'~''''~
 ,----.
 "'''e='''''''''''~--'' ,'" '''"1",,~n mdex Or Its SOCIa
-or-
-Llanization..
+orLlanization..
 Th~.heJier_theJnslituttO.h
 . s,",-,'~tli""·'·"'·,-",u·""--·-.l'l--
 ~~- ..---""'~.,-~.--,,'~
@@ -17502,8 +16108,7 @@ PUBLIC OPINION
 it.i~L~e~1}_~._._~.y~!':hic,b=,a"=Je~.ex121ci~~:.
 ~~at~~r.2lYn~~E~ In the degree to
 which institutions fail to function, the unscrupulous
-journalist can fish in troubled waters, and the con-
-scientious one must gamble with uncertainties.
+journalist can fish in troubled waters, and the conscientious one must gamble with uncertainties.
 The Eress is no substitute f9!jpstitutions.
 It is
 JikJ~".,~the.]2~m·]>1-~ .s-earcnllgnt thatmoves rest~
@@ -17546,10 +16151,10 @@ p,~,~s,s..,,,;.like._..the _J!9J!ble~-9Lrep~§..entati"ve=-goll.er.n:::..,
 of Industry, be It capitalist, cooperatIve, or' com-
 .......".,.,>;,.,,cc..",,-...;.;,;-:..;,.....,.....,.•.,.•.....•..:..,_.,.,__:...,......'..'_.'"O,'~';,"':.,.....,~...._.,~........lY~" '~ "' :"':.,~... .".".., ...........,~_.~.~.~ .~------~
 .NEWS, TRUTH, AND A CONCLUSION
-365
+
 mf~~ back to a common source· to the f '1
 or se!!:governtnu-
-1
+
 .
 - ai ure
 exnpf"l p., :--d--:·:·bh""--I:..!.~-~~.tQ_J:r~llS,c_end,.their casual
@@ -17559,8 +16164,7 @@ t err pre1udice b'
 InlY
 d
 -.--"._.."_."_~-"'J" __.'. __,:J.
-Y l.pyentlno- creat-
-y,,Q.! an. _EEganlzlng a machinery
+Y l.pyentlno- creaty,,Q.! an. _EEganlzlng a machinery
 of--" -k'.-. ~J'-l'~-d'~"-'-~
 ..t .~~be~ tlley-'"'ar~--co;;·_'v··~-lT;d " c.'
 _._-,,~~~_~~~.
@@ -17584,10 +16188,8 @@ f d
 mocracy, against violent
 '.
 gs 0
-e-
-ence for the curious t .
-p~eJudlce~ apathy, prefer-
-portant
+eence for the curious t .
+p~eJudlce~ apathy, preferportant
 and th
 h
 rIVl~ as ~galnst the dull im,
@@ -17646,14 +16248,12 @@ and those to whom it is painful, the trading politician
 and the partisan who has much to conceal, often
 exploit the dullness that the public feels, in order to
 remove the pain that they feel.
-2
+
 Yet every complicated community has sought the
 assistance of special men, of augurs, priests, elders.
 Our own democracy, based though it was on a theory
 of universal competence, sought lawyers to manage
 its government, and to help manage its industry.
-369
-
 
 It was recognized that the specially trained man
 was in some dim way oriented to a wider system of
@@ -17666,8 +16266,7 @@ The Great Society had grown furiously
 and to colossal dimensions by the application of
 technical knowledge.
 It was made by engineers who
-had learned to use exact measurements and quanti-
-tative analysis.
+had learned to use exact measurements and quantitative analysis.
 It could not be governed, men
 began to discover, by men who thought deductively
 about rights and wrongs.
@@ -17680,10 +16279,8 @@ had trained themselves, to make parts of this Great
 Society intelligible to those who manage it.
 These
 men are known by all kinds of names, as statisticians,
-accountants, auditors, industrial counsellors, engi-
-neers of many species, scientific managers, personnel
-administrators, research men, (( scientists," and some-
-times just as plain private secretaries.
+accountants, auditors, industrial counsellors, engineers of many species, scientific managers, personnel
+administrators, research men, (( scientists," and sometimes just as plain private secretaries.
 They have
 brought with them each a jargon of his own, as well
 as filing cabinets, card catalogues, graphs, loose-leaf
@@ -17695,13 +16292,11 @@ his rejection or approval.
 This whole development has been the work, not so
 much of a spontaneous creative evolution, as of
 blind natural selection.
-The statesman, the execu-
-THE ENTERING WEDGE
+The statesman, the execuTHE ENTERING WEDGE
 37°
 PUBLIC OPINION
-371
-t~ve! the party leade:, the head of a voluntary asso-
-cianon, found that If he had to discuss two dozen
+
+t~ve! the party leade:, the head of a voluntary associanon, found that If he had to discuss two dozen
 different subjects in the course of the day, somebody
 would have to coach him.
 He began to clamor for
@@ -17710,8 +16305,7 @@ He found he could not read his mail.
 !Ie de~anded somebody who would blue-pencil the
 mteresting sentences in the important letters.
 He
-fo~nd he could not digest the great stacks of type-
-written reports that grew mellow on his desk.
+fo~nd he could not digest the great stacks of typewritten reports that grew mellow on his desk.
 He
 demanded summaries.
 He found he could not read
@@ -17719,8 +16313,7 @@ an unending series of figures.
 He embraced the
 man who made colored pictures of them.
 He found
-that he reall y did not know one machine from an-
-other.
+that he reall y did not know one machine from another.
 He hired engineers to pick them
 and tell
 him how much they cost and what they 'could do.
@@ -17729,13 +16322,12 @@ as a man
 will take off first his hat, then his coat, the~ his collar
 when he is struggling to move an unwieldy load.
 '
-3
+
 Yet curiously enough, though he knew that he
 needed help, he was slow to call in the social scientist,
 The chen:ist, the physicist, the geologist, had a
 mu.ch earlier and more friendly reception.
-Labora-
-tortes were set up for them, inducements offered for
+Laboratortes were set up for them, inducements offered for
 there was quick appreciation of the victories ~ver
 nature.
 But the scientist who has human nature
@@ -17768,8 +16360,7 @@ and action.
 He brings a sample of the action to a
 quiet place, where it can be rep~ated. at. wi~l, and
 examined at leisure.
-But the social screntist IS con-
-stantly being impaled on a dile~ma.
+But the social screntist IS constantly being impaled on a dile~ma.
 If?e stays in
 his library, where he has the leisure to think, he has
 to rely upon the exceedingly <:asual and
@@ -17799,20 +16390,16 @@ American Political Science Review, Vol. XV, No.2, May, 1921.
 '
 In his heart of hearts the social scientist shares
 this estimate of himself.
-He has little inner cer-
-tainty about his own work.
+He has little inner certainty about his own work.
 He only half believes
-in it, and being sure of nothing, he can find no com-
-pelling reason for insisting on his own freedom of
+in it, and being sure of nothing, he can find no compelling reason for insisting on his own freedom of
 thought.
 What can he actually claim for it, in the
 light of his own conscience? 1
-His data are uncer-
-tain, his means of verification lacking.
+His data are uncertain, his means of verification lacking.
 The very
 best qualities in him are a source of frustration.
-For if he is really critical and saturated in the scien-
-tific spirit, he cannot be doctrinaire, and go to
+For if he is really critical and saturated in the scientific spirit, he cannot be doctrinaire, and go to
 Armageddon against the trustees and the students
 and the Civic Federation and the conservative press
 fo~ a theory of which he is not sure.
@@ -17820,13 +16407,9 @@ If you are
 gOIng to Armageddon, you have to battle for the
 Lord, but the political scientist is always a little
 doubtful whether the Lord called him.
-~onsequently ifso much of social science is apolo-
-getic rather than constructive, the explanation lies
-in the opportunities of social science, not in "capital-
-ism." The physical scientists achieved their freedom
-from clericalism by working out a method that pro-
-duced conclusions of a sort that could not be sup-
-pressed or ignored.
+~onsequently ifso much of social science is apologetic rather than constructive, the explanation lies
+in the opportunities of social science, not in "capitalism." The physical scientists achieved their freedom
+from clericalism by working out a method that produced conclusions of a sort that could not be suppressed or ignored.
 They convinced themselves and
 acquired dignity, and knew what they were fighting
 for.
@@ -17835,11 +16418,9 @@ and hIS strength when he has worked out his method.
 He will do that by turning into opportunity the
 ?eed among directing men of the Great Society for
 Instruments of analysis by which an invisible and
-372
+
 PUBLIC OPINION
 THE ENTERING WEDGE
-373
-
 
 most
 stupendously difficult
@@ -17854,8 +16435,7 @@ accidents of administration.
 A report to Congress,
 a debate, an investigation, legal briefs, a census, a
 tariff, a tax schedule; the material, like the skull of
-the Piltdown man, has to be put together by ingen-
-ious inference before
+the Piltdown man, has to be put together by ingenious inference before
 the student obtains any sort
 of picture of the event he is studying.
 Though it
@@ -17863,18 +16443,15 @@ deals with the conscious life of his fellow citizens, it
 is all too often distressingly opaque, because the
 man who is trying to generalize has practically no
 supervision of the way his data are collected.
-Imag-
-ine medical research conducted by students who
+Imagine medical research conducted by students who
 could rarely go into a hospital, were deprived of
-animal experiment, and compelled to draw conclu-
-sions from the stories of people who had been ill,
+animal experiment, and compelled to draw conclusions from the stories of people who had been ill,
 the reports of nurses, each of whom had her own
 system of diagnosis, and the statistics compiled by
 the Bureau of Internal Revenue on the excess profits
 of druggists.
 The social scientist has usually to
-make what he can out of categories that were un-
-critically in the mind of an official who administered
+make what he can out of categories that were uncritically in the mind of an official who administered
 some part of a law, or who was out to justify, to
 persuade, to claim, or to prove.
 The student knows
@@ -17883,21 +16460,18 @@ that branch of scholarship which is an elaborated
 suspicion about where to discount his information.
 That is a virtue, butit becomes a very thin virtue
 when it is merely a corrective for the unwholesome
-4
+
 For the physical sciences this change in strategic
-position began slowly, and then accelerated rap-
-idly.
+position began slowly, and then accelerated rapidly.
 There was a time whe tj, the inven tor and
 the engineer were romantic half-starved outsiders,
 treated as cranks.
 The business man and the artisan
 position of social science.
-For the scholar IS con-
-demned to guess as shrewdly as he can why in a
+For the scholar IS condemned to guess as shrewdly as he can why in a
 situation not clearly understood something or other
 may have happened.
-But the expert who is em-
-ployed as the mediator among representatives, and
+But the expert who is employed as the mediator among representatives, and
 as the mirror and measure of administration, has a
 very different control of the facts.
 Instead of being
@@ -17921,21 +16495,17 @@ fine word.
 The real sequence should be one where
 the disinterested expert first finds and formulates
 the facts for the man of action, and later makes what
-wisdom he can out of comparison between the de-
-cision, which he understands, and the facts, which
+wisdom he can out of comparison between the decision, which he understands, and the facts, which
 he organized.
-375
+
 THE ENTERING WEDGE
 PUBLIC OPINION
-374
-
 
 THE ENTERING WEDGE
 PUBLIC OPINION
 knew all the mysteries of their craft.
 The? the
-mysteries grew more mysterious, and at last Indus-
-try
+mysteries grew more mysterious, and at last Industry
 began
 to
 depend upon
@@ -17955,8 +16525,7 @@ he took as much as he gave, perhaps more:
 pu~e
 science developed faster than applied,
 tho~gh. It
-drew its economic support, a great deal of Its In-
-spiration, and even more of .its rele,:a;tcy, from
+drew its economic support, a great deal of Its Inspiration, and even more of .its rele,:a;tcy, from
 constant
 contact
 with
@@ -17966,23 +16535,19 @@ But
 physical science still labored under the. ~normous
 limitation that the men who made decisions had
 only their commonse~se .to g~ide them.
-Th~y ad-
-ministered without sClentlfic aid a world comphcated
+Th~y administered without sClentlfic aid a world comphcated
 by scientists.
 Again they had to deal with facts
 they could not apprehend, and as once th~y had .to
-call in engineers, they now have to call In statis-
-ticians accountants, experts of all sorts.
+call in engineers, they now have to call In statisticians accountants, experts of all sorts.
 The~e practical students are th~ true pion.eers of
 a new social science.
 They are "In mesh WIth the
 driving wheels" 1 and f:om this
 p~actical
 engag~­
-ment of science and action, both Will benefit radi-
-cally: action by the clarification of its
-belief~; be-
-liefs by a continuing test in action.
+ment of science and action, both Will benefit radically: action by the clarification of its
+belief~; beliefs by a continuing test in action.
 We are In the
 earliest beginnings.
 But if it is conceded that all
@@ -17991,18 +16556,16 @@ large forms of human association mus.t, bec.ause .of
 Associ'ation, Mr. Ralph B.arton Perry, Dec.. 28, 1920.
 published In the
 Proceedings of the Twentieth Annual Meeting.
-377
+
 sheer practical difficulty, contain men who will come
-t? see the ~eed for an expert reporting of their par-
-ticular environment, then
+t? see the ~eed for an expert reporting of their particular environment, then
 the imagination has a
 premise on which to work.
 In the exchange of
 technic and result among expert staffs, one can see
 I think, the beginning of experimental method i~
 social science.
-When each school district and bud-
-get, and health department, and factory, and tariff
+When each school district and budget, and health department, and factory, and tariff
 schedule, is the material of knowledge for every
 other, the number of comparable experiences begins
 to approach the dimensions of genuine experiment.
@@ -18011,8 +16574,7 @@ school
 houses,
 270,000
 manufacturing
-establish-
-ments, 27,000 mines and quarries, there is a wealth
+establishments, 27,000 mines and quarries, there is a wealth
 of experience, if only it were recorded and available.
 And there is, too, opportunity for trial and error
 at such slight risk that any reasonable hypothesis
@@ -18020,27 +16582,21 @@ might be given a fair test without shaking the
 foundations of society.
 The wedge has been driven, not only by some
 directors of industry and some statesmen who had
-to have help, but by the bureaus of municipal re-
-search;' the legislative reference libraries, the special-
-ized lobbies of corporations and trade unions and
+to have help, but by the bureaus of municipal research;' the legislative reference libraries, the specialized lobbies of corporations and trade unions and
 public causes, and by voluntary organizations like
 the League
 of Women
 Voters,
 the
 Consumers'
-League, the Manufacturers' Associations: by hun-
-1 The number of these organizations in the United States is very great.
+League, the Manufacturers' Associations: by hun1 The number of these organizations in the United States is very great.
 Some.are alive, some half dead.
 They are in rapid flux. Lists of them
-supplied to me by Dr. L. D. Upson of the Detroit Bureau of Govern-
-mental Research, Miss Rebecca B. Rankira of the Municipal Reference
+supplied to me by Dr. L. D. Upson of the Detroit Bureau of Governmental Research, Miss Rebecca B. Rankira of the Municipal Reference
 Library of New York City, M;r. Edward A. Fitzpatrick, Secretary of the
 State Board of EducatIOn (Wlsconsm), Mr. Savel Zimand of the Bureau
 of Industrial Research (New York City), run into the hundreds.
 
-
-378
 PUBLIC OPINION
 dreds of trade associations, and citizens' unions; by
 publications like the
@@ -18048,8 +16604,7 @@ Searchlight on Congress and
 the Survey; and by foundations like the
 Gene~al
 Education Board.
-Not all by any means are dIS-
-interested.
+Not all by any means are dISinterested.
 That is not the point.
 All of them do
 begin to demonstrate the need for interposing some.
@@ -18063,8 +16618,7 @@ theory.
 For the theory holds that the adult electors
 taken together make decisions out of a will that is
 in them.
-But just as there grew up governing hier-
-archies which were invisible in theory, so there has
+But just as there grew up governing hierarchies which were invisible in theory, so there has
 been a large amount of constructive adaptation,
 also unaccounted for in the image of democracy.
 Ways have been found to represent many interests
@@ -18091,16 +16645,12 @@ the
 Department
 of
 Agriculture represents in the councils of the nation
-factors of which each farmer sees only an infinites-
-imal part. School authorities, the Tariff Commission,
-the consular service, the Bureau of Internal Rev-
-enue give representation
+factors of which each farmer sees only an infinitesimal part. School authorities, the Tariff Commission,
+the consular service, the Bureau of Internal Revenue give representation
 to persons,
 ideas,
 and
 objects which would never automatically find them-
-379
-
 
 PUBLIC OPINION
 selves represented in this perspective by an election.
@@ -18108,8 +16658,7 @@ The Children's Bureau is the spokesman of a whole
 complex of interests and functions not ordinarily
 visible to the voter, and,
 therefore, incapable of
-becoming spontaneously a part of his public opin-
-ions.
+becoming spontaneously a part of his public opinions.
 Thus the printing of comparative statistics
 of infant mortality is often followed by a reduction
 of the death rate of babies.
@@ -18119,8 +16668,7 @@ their picture of the environment for those babies.
 The statistics made them visible, as visible as if
 the babies had elected an alderman to air their
 grievances.
-In the State Department the government main-
-tains a Division of Far Eastern Affairs.
+In the State Department the government maintains a Division of Far Eastern Affairs.
 What is
 it for? The Japanese and the Chinese Governments
 both maintain ambassadors in Washington.
@@ -18134,8 +16682,7 @@ that
 the
 American Government could
 learn all
-that it needed to know about the Far East by con-
-sulting these ambassadors.
+that it needed to know about the Far East by consulting these ambassadors.
 Supposing them to be
 as candid as they know how to be, they are still
 limited
@@ -18158,7 +16705,7 @@ its appropriation.
 But there are
 Secretaries to
 INTELLIGENCE WORK
-381
+
 whom special revelation is denied, and they turn to
 their divisions for help.
 The last thing they expect
@@ -18170,11 +16717,9 @@ bring the Far East to the Secretary's desk, with all
 the elements in such relation that it is as if he were
 in contact with the Far East itself.
 The expert
-must translate, simplify, generalize, but the in-
-ference from the result must apply in the East, not
+must translate, simplify, generalize, but the inference from the result must apply in the East, not
 merely on the premises of the report.
-If the Secre-
-tary is worth his salt, the very last thing he will
+If the Secretary is worth his salt, the very last thing he will
 tolerate in his experts is the suspicion that they
 have a
 ccpolicy."
@@ -18198,7 +16743,7 @@ Secretary of State he will be.
 He may decide to
 take his policy from the Pacific Coast, but he will
 take his view of Japan from Japan.
-2
+
 It is no accident that the best diplomatic service
 in the world is the one in which the divorce between
 the assembling of knowledge and the control of policy
@@ -18206,10 +16751,8 @@ the assembling of knowledge and the control of policy
 
 PUBLIC OPINION
 is most perfect.
-During the war in many British Em-
-bassies and in the British Foreign Office there were
-nearly always men, permanent officials or else spe-
-cial appointees, who quite successfully discounted
+During the war in many British Embassies and in the British Foreign Office there were
+nearly always men, permanent officials or else special appointees, who quite successfully discounted
 the prevailing war mind.
 They discar~ed the
 r~g­
@@ -18241,16 +16784,14 @@ For when
 he begins to care too much, he begins to see what he
 wishes to see, and by that fact ceases to see what
 he is there to see.
-He is there to represent the un-
-seen.
+He is there to represent the unseen.
 He represents people who are not voters,
 functions of voters that are not evident, events
 that are out of sight, mute people, unborn people,
 relations between things and people.
 He has a
 constituency of intangibles.
-And intangibles can-
-not be used to form a political majority, because
+And intangibles cannot be used to form a political majority, because
 voting is in the last analysis a test of strength, a
 sublimated battle, and the expert represents no
 INTELLIGENCE WORK
@@ -18258,10 +16799,8 @@ strength available in the immediate.
 But he can
 exercise ~orce by disturbing the line up of the forces.
 By making the invisible visible, he confronts the
-people who exercise material force with a new en-
-vironment, sets ideas and feelings at work in them,
-throws them out of posi tion, and so, in the pro-
-foundest way, affects the decision.
+people who exercise material force with a new environment, sets ideas and feelings at work in them,
+throws them out of posi tion, and so, in the profoundest way, affects the decision.
 Men ~a~not long act i~ a way that they know is a
 ~ontradIctIon of the environment as they conceive
 It.
@@ -18285,9 +16824,7 @@ whole behavior to the enlarged environment.
 The idea that the expert is an ineffectual person
 because he lets others make the decisions is qui te
 contrary to experience.
-The more subtle the ele-
-ments that enter into the decision, the more ir-
-responsible power the expert wields.
+The more subtle the elements that enter into the decision, the more irresponsible power the expert wields.
 He is certain,
 moreover, to exercise more power in the future than
 ever he did before, because increasingly the relevant
@@ -18296,8 +16833,6 @@ All governing agencies will tend to organize bodies
 of research and information, which will throw out
 tentacles and expand, as have the intelligence de...
 
-
-384
 PUBLIC OPINION
 partments of all
 th~ armies in
@@ -18309,15 +16844,12 @@ will
 remain .human
 b~Ings.. They
 will
-enjoy power, and their temptation WIll be to ap-
-point themselves censors, and S? absor?
+enjoy power, and their temptation WIll be to appoint themselves censors, and S? absor?
 t~e real
 function of decision.
-Unless their function IS cor-
-rectly defined they will tend to pass on the facts
+Unless their function IS correctly defined they will tend to pass on the facts
 they think appropriate, and
-t~ pass do.wn the de-
-cisions they approve.
+t~ pass do.wn the decisions they approve.
 They will tend, In short, to
 become a bureaucracy.
 The only institutional safeguard is to
@@ -18330,15 +16862,12 @@ two should be parallel but quite distinct bodies of
 men
 recruited differently, paid if possible from
 sepa'rate funds, respon~ible to
-diffe~ent heads, in-
-trinsically uninterested In ea~h other s personal suc-
-cess.
+diffe~ent heads, intrinsically uninterested In ea~h other s personal success.
 In industry, the auditors, accountants, and
 inspectors should be independent
 o~
 th~ manager,
-the superintendents, foremen, and In time, I be-
-lieve
+the superintendents, foremen, and In time, I believe
 we shall come to see that in order to bring
 indu~try under
 social
@@ -18347,21 +16876,19 @@ the
 machinery of
 record will have to be independent of the boards of
 directors and the shareholders.
-3
-But in building the intelligence sections of indus-
-try and politics, we d~ not sta~t on
+
+But in building the intelligence sections of industry and politics, we d~ not sta~t on
 ~leared gr~und.
 And, apart from insisting on this basic sep~r~tIon of
 function
 it would be cumbersome to msist too
-precisel; on the form which in any particular in-
-stance the principle shall take.
+precisel; on the form which in any particular instance the principle shall take.
 There .are men w?o
 believe in
 intelligence work,
 and will adopt It;
 INTELLIGENCE WORK
-385
+
 there a.re men who do not understand it, but cannot
 do their work without it; there are men who will
 resist.
@@ -18393,8 +16920,7 @@ And by that time you are busy with the
 tariff and the railroads, and the era of reform is
 over.
 ~es~des, in order to effect a truly logical
-reorganization of the government, such as all candi-
-dates always promise, you would have to disturb
+reorganization of the government, such as all candidates always promise, you would have to disturb
 more passions than you have time to quell.
 And any
 new scheme, supposing you had one ready, would
@@ -18416,24 +16942,21 @@ you can find an opening, agencies that will hold up a
 mirror week by week, month by month.
 You can
 hope, then, to make the machine visible to those
-who work it, as well as to the chiefs who are re-
-sponsible, and to the public outside.
+who work it, as well as to the chiefs who are responsible, and to the public outside.
 When the
 office-holders begin to see themselves,-or rather
 when the outsiders, the chiefs, and the subordinates
 all begin to see the same facts, the same damning
 facts if you like, the obstruction will diminish.
 The
-reformer's opinion that a certain bureau is inef-
-ficient is just his opinion, not so good an opinion
+reformer's opinion that a certain bureau is inefficient is just his opinion, not so good an opinion
 in the eyes of the bureau, as its own.
 But let the
 work of that bureau be analysed and recorded, and
 then compared with other bureaus and with private
 corporations, and the argument moves to another
 plane.
-There are ten departments at Washington rep-
-resented in the Cabinet.
+There are ten departments at Washington represented in the Cabinet.
 Suppose, then, there was
 a permanent intelligence section for each.
 What
@@ -18447,23 +16970,20 @@ should be independent both of the Congressional
 Committees dealing with that department, and of
 the Secretary at the head of it; that they should not
 be entangled either in decision or in action.
-Inde-
-pendence, then, would turn mainly on three points:
+Independence, then, would turn mainly on three points:
 on funds, tenure, and access to the facts.
 For clearly
 if a particular Congress or departmental official can
 deprive them of money, dismiss them, or close the
 files, the staff becomes its creature.
 INTELLIGENCE WORK
-4
-The question of funds is both important and diffi-
-cuIt.
+
+The question of funds is both important and difficuIt.
 No agency of research can be really free if it
 ?epends upon annual doles from what may be a
 Jealous or a parsimonious congress.
 Yet the ultimate
-control of funds c~nnot be removed from the legisla-
-ture.
+control of funds c~nnot be removed from the legislature.
 The financial arrangement should insure the
 staff against left-handed, joker and rider attack,
 agaI~st sly destruction, and should at the same time
@@ -18474,14 +16994,11 @@ have to ?e made in the open.
 It might, perhaps,
 work b~h~nd a federal charter creating a trust fund,
 and a slt.dI~g scale over a period of years based on the
-ap~roprtat1on for the department to which the in-
-telh?ence bureau belonged.
+ap~roprtat1on for the department to which the intelh?ence bureau belonged.
 No great sums of money
 are Involved anyway..
 The trust fund might cover
-the overhead and capItal charges for a certain mini-
-mum staff", the sliding scale might cover the enlarge-
-ments.
+the overhead and capItal charges for a certain minimum staff", the sliding scale might cover the enlargements.
 At any rate the appropriation should be
 put beY0;tld ~ccident,.li~e the payment of any long
 ter~ ?bhgatlon.
@@ -18498,8 +17015,7 @@ the
 charter.
 But It would have to repeal it, not throw
 monkey wrenches into it.
-Tenure should be for life, with provision for retire-
-m~nt on a liberal pension, with sabbatical years set
+Tenure should be for life, with provision for retirem~nt on a liberal pension, with sabbatical years set
 a~Ide. for advanced study and training, and with
 dIsmlssal.o~1y afte.r a trial by professional colleagues.
 The conditions which apply to any non-profit-making
@@ -18511,8 +17027,7 @@ If the work
 is to be salient, the men who do it must have dignity,
 security, and, in the upper ranks at least, that
 freedom of mind which you find only where men
-are not too immediately concerned in practical de-
-o
+are not too immediately concerned in practical deo
 •
 cision.
 Access to the materials should be established in the
@@ -18521,14 +17036,10 @@ The bureau should have the right to
 examine all papers, and to question any official or
 any outsider.
 Continuous investigation of this sort
-would not at all resemble the sensational legisla-
-tive inquiry and the spasmodic fishing expedition
-which are now a common feature of our govern-
-ment. The bureau should have the right to pro-
-pose accounting methods to the department, and
+would not at all resemble the sensational legislative inquiry and the spasmodic fishing expedition
+which are now a common feature of our government. The bureau should have the right to propose accounting methods to the department, and
 if the proposal is rejected, or violated after it has
-been accepted, to appeal under its charter to Con-
-gress.
+been accepted, to appeal under its charter to Congress.
 In the first instance each intelligence bureau would
 be the connecting link between Congress and the
 Department, a better link, in my judgment, than the
@@ -18540,32 +17051,27 @@ Congressional eye on the execution of its policy.
 It
 would be the departmental answer to Congressional
 criticism.
-And then, since operation of the Depart-
-ment would be permanently visible, perhaps Congress
+And then, since operation of the Department would be permanently visible, perhaps Congress
 would cease to feel the need of that minute legislation
 born of distrust and a false doctrine of the separation
 of powers, which does so much to make efficient
 administration difficult.
 INTELLIGENCE WORK
-5
+
 But, of course, each of the ten bureaus could not
 work in a watertight compartment.
 In their relation
-one to another lies the best chance for that cccoordi-
-nation" of which so much is heard and so little seen.
+one to another lies the best chance for that cccoordination" of which so much is heard and so little seen.
 Clearly the various staffs would need to adopt,
 wherever possible, standards of measurement that
 were comparable.
-They would exchange their rec-
-ords.
+They would exchange their records.
 Then if the War Department and the Post
 Office both buy lumber, hire carpenters, or construct
 brick walls they need not necessarilydo them through
 the same agency, for that might mean cumbersome
 over-centralization; but they would be able to use
-the same measure for the same things, be con-
-scious of the comparisons, and be treated as com-
-petitors. And the more competition of this sort the
+the same measure for the same things, be conscious of the comparisons, and be treated as competitors. And the more competition of this sort the
 better.
 For the value of competition is determined by the
 value of the standards used to measure it.
@@ -18574,9 +17080,7 @@ then, of asking ourselves whether we believe in
 competition, we should ask ourselves whether we
 believe in that for which the competitors compete.
 No one in his senses expects to
-ccabolish competi-
-tion," for when the last vestige of emulation had dis-
-appeared, social effort would consist in mechanical
+ccabolish competition," for when the last vestige of emulation had disappeared, social effort would consist in mechanical
 obedience to a routine, tempered in a minority by
 native inspiration.
 Yet no one expects to work out
@@ -18590,11 +17094,9 @@ of measurement will determine the rules of the game:
 
 such as money, power, popularity, applause, or Mr.
 Veblen's "conspicuous waste."
-What other stand-
-ards of measurement does our civilization normally
+What other standards of measurement does our civilization normally
 provide?
-How does it measure efficiency, produc-
-tivity, service, for which we are always clamoring?
+How does it measure efficiency, productivity, service, for which we are always clamoring?
 By and large there are no measures, and there
 is, therefore, not so much competition to achieve
 these ideals.
@@ -18608,8 +17110,7 @@ and he knows at what to aim.
 Exhort him to render
 more social service, and how is he to be certain what
 service is social?
-What is the test, what is the meas-
-ure?
+What is the test, what is the measure?
 A subjective feeling, somebody's opinion.
 Tell
 a man in time of peace that he ought to serve his
@@ -18635,12 +17136,10 @@ If you can contrive
 INTELLIGENCE WORK
 39°
 PUBLIC OPINION
-391
-t~e right inde~ n~~bers 1 you can set up a competi-
-tion between individual workers in a shop; between
+
+t~e right inde~ n~~bers 1 you can set up a competition between individual workers in a shop; between
 shops; between factories; between schools; 2 between
-government departments; between regiments; be-
-tween
+government departments; between regiments; between
 divisions;
 between
 ships;
@@ -18651,33 +17150,26 @@ states'
 ,
 counties; cines; and the better your index numbers
 the more useful the competition.
-6
-The possibilities that lie in the exchange of mater-
-ial are evident.
+
+The possibilities that lie in the exchange of material are evident.
 Each department of government is
-all the time asking for information that may al-
-ready have been obtained by another department,
+all the time asking for information that may already have been obtained by another department,
 though perhaps in a somewhat different form.
 The
 State Department needs to know, let us say, the
 extent of the Mexican oil reserves, their relation to
 the rest of the world's supply, the present ownership
-of Mexican oil lands, the importance of oil to war-
-ships now under construction or planned, the com-
-parative costs in different fields.
+of Mexican oil lands, the importance of oil to warships now under construction or planned, the comparative costs in different fields.
 How does it secure
 such information to-day?
-The information is prob-
-ably scattered through the Departments of Interior,
+The information is probably scattered through the Departments of Interior,
 Justice, Commerce, Labor and Navy.
 Either a clerk
 in the State Department looks up Mexican oil in a
 book of reference, which mayor may not be accurate,
-or somebody's private secretary telephones some-
-body else's private secretary, asks for a memoran-
+or somebody's private secretary telephones somebody else's private secretary, asks for a memoran-
 .
-1 I am not using the term index numbers in its purely technical mean-
-mg, but to cover any device for the comparative measurement of social
+1 I am not using the term index numbers in its purely technical meanmg, but to cover any device for the comparative measurement of social
 phenomena.
 2 See, for example, An Index Number for State School Systems by
 Leonard P. Ayres, Russell Sage Foundation, 1920.
@@ -18697,21 +17189,18 @@ together.
 A part of the research itself would be done
 by students, and political science in the universities
 would be associated with politics in America.
-7
-In its main outlines the principle is equally ap-
-plicable to state governments, to cities, and to rural
+
+In its main outlines the principle is equally applicable to state governments, to cities, and to rural
 counties.
 The work of comparison and interchange
 could take place by federations of state and city
 and county bureaus.
 And within those federations
-any desirable regional combination could be or-
-ganized.
+any desirable regional combination could be organized.
 So long as the accounting systems were
 comparable, a great deal of duplication would be
 avoided.
-Regional coordination is especially de-
-sirable.
+Regional coordination is especially desirable.
 For legal frontiers often do not coincide
 with the effective environments.
 Yet they have a
@@ -18721,11 +17210,8 @@ By coordinating their information several
 administrative areas could reconcile autonomy of
 decision with cooperation.
 New York City, for
-example, is already an unwieldy unit for good gov-
-ernment from the City Hall.
-Yet for many pur-
-poses, such as health and transportation, the metro-
-politan district is the true unit of administration.
+example, is already an unwieldy unit for good government from the City Hall.
+Yet for many purposes, such as health and transportation, the metropolitan district is the true unit of administration.
 In that district, however, there are large cities,
 like
 Yonkers, Jersey
@@ -18741,13 +17227,12 @@ functions.
 Ultimately
 perhaps
 some
-392
+
 dum, and in the course of time a darkey messenger
 arrives with an armful of unintelligible reports.
 The
 Department should be able to call on
-it~ own in-
-telligence bureau to assemble the facts In a. ~ay
+it~ own intelligence bureau to assemble the facts In a. ~ay
 suited to the diplomatic problem up for decision.
 And these facts the diplomatic intelligence bureau
 would obtain
@@ -18763,8 +17248,7 @@ problems of government
 r~~lly are.
 T~ey would
 deal with problems of definition, of terminology, of
-statistical technic, of logic; they would traverse con-
-cretely the whole gamut of the social sciences.
+statistical technic, of logic; they would traverse concretely the whole gamut of the social sciences.
 It
 is difficult to see why all this material, except a few
 diplomatic and military secrets, should not be open to
@@ -18792,12 +17276,9 @@ associations.
 The possibilities of a perverted use were revealed by the
 New York Building Trades investisatioa of 1921.
 INTELLIGENCE WORK
-393
-
 
 PUBLIC OPINION
-present fundamentally invisible system of govern-
-ment is so intricate that most people have given up
+present fundamentally invisible system of government is so intricate that most people have given up
 trying to follow it, and because they do not try, they
 are
 tempted
@@ -18818,12 +17299,9 @@ officials, if you
 take into account the
 time now
 spent vainly by special investigating committees,
-grand juries, district attorneys, reform organiza-
-tions, and bewildered office holders, in trying to
+grand juries, district attorneys, reform organizations, and bewildered office holders, in trying to
 find their way through a dark muddle.
-If the analysis of public opinion and of the dem-
-ocratic theories in relation to the modern environ-
-ment is sound in principle, then I do not see how
+If the analysis of public opinion and of the democratic theories in relation to the modern environment is sound in principle, then I do not see how
 one can escape the conclusion that such intelligence
 work is the clue to betterment.
 I am not referring
@@ -18846,7 +17324,7 @@ be
 reported
 effectively,
 that
-394
+
 such flexible scheme of local government as Sidney
 and Beatrice Webb have suggested may be the
 proper solution."
@@ -18856,7 +17334,7 @@ information and research.
 Let the officials of the
 various municipalities see their common problems
 in the light of the same facts.
-8
+
 It would be idle to deny that such a net work of
 intelligence bureaus in politics and industry might
 become a dead weight and a perpetual irritation.
@@ -18864,8 +17342,7 @@ One can easily imagine its attraction for men in
 search of soft jobs, for pedants, for meddlers.
 One
 can see red tape, mountains of papers, questionnaires
-ad nauseam, seven copies of every document, en-
-dorsements, delays, lost papers, the use of form 136
+ad nauseam, seven copies of every document, endorsements, delays, lost papers, the use of form 136
 instead of form 2gb, the return of the document
 because pencil was used instead of ink, or black
 ink instead of red ink.
@@ -18891,12 +17368,9 @@ The
 .IV)~ in A Con'4
 stitution for the Socialist Commonwealth of Great Britain.
 INTELLIGENCE WORK
-395
-
 
 1 qf. H. J. Laski, The Foundations of Sovereignty, and other Essays,
-particularly the Essay of this name, as well as the Problems of Adminis-
-trative Areas, The Theory of Popular Sovereignty, and The Pluralistic
+particularly the Essay of this name, as well as the Problems of Administrative Areas, The Theory of Popular Sovereignty, and The Pluralistic
 State.
 For while federalism is the only possible method of
 union
@@ -18913,11 +17387,9 @@ or
 towards parochial anarchy wherever the union is
 not based on correct and commonly accepted ideas
 of federal matters.
-These ideas do not arise spon-
-taneously.
+These ideas do not arise spontaneously.
 They have to be pieced together by
-generalization based on analysis, and the instru-
-ments for that analysis have to be invented and
+generalization based on analysis, and the instruments for that analysis have to be invented and
 tested by research.
 No electoral device, no manipulation of areas, no
 change in the system of property, goes to the root
@@ -18925,15 +17397,12 @@ of the matter.
 You cannot take more political
 wisdom out of human beings than there is in them.
 And no reform, however sensational, is truly radical,
-which does not consciously provide a way of over-
-coming the subjectivism of human opinion based
+which does not consciously provide a way of overcoming the subjectivism of human opinion based
 on the limitation of individual experience.
 There
-are systems of government, of voting, and repre-
-sentation which extract more than others.
+are systems of government, of voting, and representation which extract more than others.
 But
-in the end knowledge must come not from the con-
-science but from the environment with which that
+in the end knowledge must come not from the conscience but from the environment with which that
 conscience deals.
 When men act on the principle
 of intelligence they go out to find the facts and to
@@ -18943,7 +17412,7 @@ inside themselves and find only what is there.
 They
 elaborate their prejudice, instead of increasing their
 knowledge.
-396
+
 PUBLIC OPINION
 they can be reported to divergent .group.s o~ people
 in a way which is neutral to their prejudice, and
@@ -18955,8 +17424,7 @@ overco~e the
 central difficulty of self-government, the difficulty
 of dealing with an unseen reality.
 Because of that
-difficulty, it has been impossible for any self-gov-
-erning community to reconcile its need for isolati?n
+difficulty, it has been impossible for any self-governing community to reconcile its need for isolati?n
 with the necessity for wide contact, to reconcile
 the dignity and individuality of local decision with
 security and wide coordination, to secure effective
@@ -18964,12 +17432,10 @@ leaders without sacrificing responsibility, to have
 useful public opinions without attempting universal
 public opinions on all subjects.
 As long as there
-was no way of establishing common versions o~ un-
-seen events, common measures for separate actions,
+was no way of establishing common versions o~ unseen events, common measures for separate actions,
 the only image of democracy that would work, even
 in theory, was one based on an isolated community
-of people whose political faculties were limited, ac-
-cording to Aristotle's famous maxim, by the range
+of people whose political faculties were limited, according to Aristotle's famous maxim, by the range
 of their vision.
 But now there is a way out, a long one to be sure,
 but a way.
@@ -18980,15 +17446,11 @@ hear over great distances.
 It is possible to-day, It
 will become more possible when more labor has
 gone into it, to reduce the discrepancies between
-the conceived environment and the effective en-
-vironment.
+the conceived environment and the effective environment.
 As that is done, federalism will work
 more and more by consenr, less and less by coercion.
 INTELLIGENCE WORK
-397
 
-
-2
 CHAPTER XXVII
 THE APPEAL TO THE PUBLIC
 I
@@ -19000,8 +17462,7 @@ no public opinion.
 But in the theory of our politics
 we continue to think more literally than Lord Bryce
 intended
-that "the action of Opinion is continu-
-ous," 1 even
+that "the action of Opinion is continuous," 1 even
 though "its action . . . deals with
 broad principles only." 2
 And then because we try
@@ -19013,8 +17474,7 @@ certain
 what
 a
 broad
-principle is, we quite naturally greet with .an an-
-guished yawn an argument that seems to Involve
+principle is, we quite naturally greet with .an anguished yawn an argument that seems to Involve
 the
 reading
 of
@@ -19037,20 +17497,17 @@ bureaus, become alert, informed, and eager on the
 multitude of real questions that never do fit very
 1 Modern Democracies, Vol. I, p. 159.
 2Id., footnote, p, 158.
-398
+
 THE APPEAL TO THE PUBLIC
-399
+
 well into any broad principle.
 I am not making that
 assumption.
 Primarily, the intelligence bureau is an
-instrument of the man of action, of the representa-
-tive charged with decision, of the worker at his
-work, and if it does not help them, it will help no-
-body in the end.
+instrument of the man of action, of the representative charged with decision, of the worker at his
+work, and if it does not help them, it will help nobody in the end.
 But in so far as it helps them to
-understand the environment in which they are work-
-ing, it makes what they do visible.
+understand the environment in which they are working, it makes what they do visible.
 And by that
 much they become more responsible to the general
 r~~u;p~s0hei1,lSllottoDuraeii-eve;:y"~rti;;~--")
@@ -19062,9 +17519,7 @@ An intelligence system has value,
 of course, as a source of general information, and as
 a check on the daily press.
 But that is secondary.
-Its real use is as an aid to representative govern-
-ment and administration both in politics and in-
-dustry.
+Its real use is as an aid to representative government and administration both in politics and industry.
 The demand for the assistance of expert
 reporters in the shape of accountants, statisticians,
 secretariats, and the like, comes not from the public,
@@ -19084,8 +17539,7 @@ I~gislature, as an officer in government, business,
 PUBLIC OPINION
 THE APPEAL TO THE PUBLIC
 4°1
-, or a trade union, as a member of an industrial coun-
-cil, reports on the specific matter at issue will be
+, or a trade union, as a member of an industrial council, reports on the specific matter at issue will be
 increasingly welcome.
 The private citizen interested
 in some cause would belong, as he does now, to
@@ -19098,8 +17552,7 @@ deal by experts and by political scientists.
 But
 the outsider, and everyone of us is an outsider
 to all but a few aspects of modern life, has neither
-time, nor attention, nor interest, nor the equip-
-men t
+time, nor attention, nor interest, nor the equipmen t
 for
 specific judgment.
 It is on
@@ -19140,8 +17593,7 @@ to whether the procedure itself is right, if its normal
 results conflict with his ideal of a good life.'
 But
 if he tries in every case to substitute himself for the
-procedure, to bring in Public Opinion like a provi-
-dential uncle in the crisis of a play, he will confound
+procedure, to bring in Public Opinion like a providential uncle in the crisis of a play, he will confound
 his own confusion.
 He will not follow any train
 of thought consecutively.
@@ -19160,8 +17612,7 @@ There
 may be several other sides, unmentioned by any
 of the organized, financed and active partisans.
 The private citizen, beset by partisan appeals for
-the loan of his Public Opinion, will soon see, per-
-haps, that these appeals are not a compliment to
+the loan of his Public Opinion, will soon see, perhaps, that these appeals are not a compliment to
 his intelligence, but an imposition on his good nature
 and an insul t to his sense of evidence.
 As his civic
@@ -19175,8 +17626,6 @@ the burden of these decisions, and will turn down
 his thumbs in most cases on those who, in their
 1 Cf. Chapter XX.
 
-
-3
 That can be done by having the representative
 inside carryon discussion in the presence of some
 one, chairman or mediator, who forces the discussion
@@ -19194,16 +17643,14 @@ It is the Socratic dialogue, with all of Socrates's
 hurry to win, rush from the conference table with
 the first dope for the reporters.
 Only by insisting that problems shall not come
-up to him until they have passed through a proce-
-dure, can the busy citizen of a modern state hope
+up to him until they have passed through a procedure, can the busy citizen of a modern state hope
 to deal with them in a form that is intelligible,
 For
 issues, as they are stated by a partisan,
 almost
 always consist of an intricate series of facts, as he
 has observed them, surrounded by a large fatty
-mass of stereotyped phrases charged with his emo-
-tion.
+mass of stereotyped phrases charged with his emotion.
 According to the fashion of the day, he will
 emerge from the conference room insisting that
 what he wants is some soulfilling idea like Justice,
@@ -19218,8 +17665,7 @@ to be boiled out of it for him.
 PUBLIC OPINION
 THE APPEAL TO THE PUBLIC
 energy for breaking through words to meanings,
-and something more than that, because the dia-
-lectic in modern life must be done by men who have
+and something more than that, because the dialectic in modern life must be done by men who have
 explored the environment as well as the human
 mind.
 There is, for example, a grave dispute in the steel
@@ -19230,8 +17676,7 @@ The only public opinion that is
 worth respect at this stage is the opinion which
 insists that a conference be organized.
 For the
-side which says its cause is too just to be contam-
-inated by conference there can be little sympathy,
+side which says its cause is too just to be contaminated by conference there can be little sympathy,
 since there is no such cause anywhere among mortal
 men.
 Perhaps those who object to conference do
@@ -19247,8 +17692,7 @@ word for it.
 But suppose a conference is agreed to,
 and suppose there is a neutral chairman who has
 at his beck and call the consulting experts of the
-corporation, the union, and, let us say, the Depart-
-ment of Labor.
+corporation, the union, and, let us say, the Department of Labor.
 Judge Gary states with perfect sincerity that his
 men are well paid and not overworked, and then
 proceeds to sketch the history of Russia from the
@@ -19295,8 +17739,7 @@ that he does not regard the official statistics as
 sound.
 The budgets are too high, and prices have
 come down.
-Mr. Foster also serves notice of ex-
-ception.
+Mr. Foster also serves notice of exception.
 The budget is too low, prices have gone
 up.
 The chairman rules that this point is not
@@ -19315,8 +17758,7 @@ Republic, July 27, 1921, by Dr. L~? Wolman, for a br}lliant discussion
 of the naive use of such figures and
 pseudo-principles.
 The warmng IS
-of particular importance because it com~s from an economist a~d statis-
-tician who has himself done so much to improve the techmc of industrial
+of particular importance because it com~s from an economist a~d statistician who has himself done so much to improve the techmc of industrial
 disputes.
 THE APPEAL TO THE PUBLIC
 I can't, they are private, says Judge Gary.
@@ -19324,14 +17766,12 @@ What
 is private does not interest us, says the chairman,
 and, therefore, issues a statement to the public
 announcing that the wages of workers in groups C
-and M are so-and-so much below the official mini-
-mum living wage, and that Judge Gary declines
+and M are so-and-so much below the official minimum living wage, and that Judge Gary declines
 to increase them for reasons that he refuses to stateo
 After a procedure of that sort, a public opinion in
 the eulogistic sense of the term 1 can exist.
 The value of expert mediation is not that it sets
-up opinion to coerce the partisans, but that it dis-
-integrates
+up opinion to coerce the partisans, but that it disintegrates
 partisanship.
 Judge
 Gary
@@ -19346,20 +17786,17 @@ being entangled.
 For the entangling stereotypes
 and slogans to which his reflexes are so ready to
 respond are by this kind of dialectic untangled.
-4
+
 On many subjects of great public importance,
 and in varying degree among different people for
 more personal matters, the threads of memory and
 emotion are in a snarl.
 The same word will connote
-any number of different ideas: emotions are dis-
-placed from the images to which they belong to names
+any number of different ideas: emotions are displaced from the images to which they belong to names
 which resemble the names of these images.
 In the
 uncriticized parts of the mind there is a vast amount
-of association by mere clang, contact, and sue-
-1 As used by Mr. Lowell in his Public Opinion and Popular Govern-
-ment.
+of association by mere clang, contact, and sue1 As used by Mr. Lowell in his Public Opinion and Popular Government.
 
 
 PUBLIC OPINION
@@ -19368,12 +17805,10 @@ There are stray emotional attachments,
 there are words that were names and are masks.
 In dreams, reveries, and panic, we uncover some
 of the disorder, enough to see how the naive mind
-is composed, and how it behaves when not dis-
-ciplined by wakeful effort and external resistance.
+is composed, and how it behaves when not disciplined by wakeful effort and external resistance.
 We see that there is no more natural order than in a
 dusty old attic.
-There is often the same incon-
-gruity between fact, idea, and emotion as there
+There is often the same incongruity between fact, idea, and emotion as there
 might be in an opera house, if all the wardrobes
 were dumped in a heap and all the scores mixed
 up, so that Madame Butterfly in a Valkyr's dress
@@ -19407,15 +17842,13 @@ the words, cross-examine him until he has defined
 them, and made words the names of ideas.
 Made
 them mean a particular object and nothing else.
-For these tense syllables have got themselves con-
-nected in his mind by primitive association, and
+For these tense syllables have got themselves connected in his mind by primitive association, and
 are bundled together by his memories of Christmas,
 THE APPEAL TO THE PUBLIC
 his indignation as a conservative, and his thrills as
 the heir to a revolutionary tradition.
 Sometimes
-the snarl is too huge and ancient for quick unravel-
-ling.
+the snarl is too huge and ancient for quick unravelling.
 Sometimes,
 as in
 modern
@@ -19424,21 +17857,17 @@ there are layers upon layers of memory reaching
 back to infancy, which have to be separated and
 named.
 The effect of naming, the effect, that is, of saying
-that the labor groups C and M, but not X, are under-
-paid, instead of saying that Labor is Exploited, is
+that the labor groups C and M, but not X, are underpaid, instead of saying that Labor is Exploited, is
 incisive.
 Perceptions recover their identity, and the
 emotion they arouse is specific, since it is no longer
 reinforced by large and accidental connections with
 everything from Christmas to Moscow.
-The dis-
-entangled idea with a name of its own, and an emo-
-tion that has been scrutinized, is ever so much more
+The disentangled idea with a name of its own, and an emotion that has been scrutinized, is ever so much more
 open to correction by new data in the problem.
 It
 had been imbedded in the whole personality, had
-affiliations of some sort with the whole ego: a chal-
-lenge would reverberate through the whole soul.
+affiliations of some sort with the whole ego: a challenge would reverberate through the whole soul.
 After it has been thoroughly criticized, the idea is no
 longer me but that.
 It is objectified, it is at arm's
@@ -19446,11 +17875,10 @@ length.
 Its fate is not bound up with my fate, but
 with the fate of the outer world upon which I am
 acting.
-5
+
 Re-education of this kind will help to bring our
 public opinions into grip with the environment.
-That is the way the enormous censoring, stereotyp-
-ing, and dramatizing apparatus can be liquidated.
+That is the way the enormous censoring, stereotyping, and dramatizing apparatus can be liquidated.
 Where there is no difficulty in knowing what the
 
 
@@ -19461,15 +17889,13 @@ environment is as obscure to the analyst as to his
 pupil, no analytic technic is sufficient.
 Intelligence
 work is required.
-In political and industrial prob-
-lems the critic as such can do something, but unless
+In political and industrial problems the critic as such can do something, but unless
 he can count upon receiving from expert reporters a
 valid picture of the environment, his dialectic cannot
 go far.
 Therefore, though here, as in most other matters,
 ceeducation" is the supreme remedy, the value of this
-education will depend upon the evolution of knowl-
-edge.
+education will depend upon the evolution of knowledge.
 And our knowledge of human institutions is
 still
 extraordinarily
@@ -19485,16 +17911,14 @@ be sure, for the sake of its ultimate use.
 It will be
 made because modern decision requires it to be made.
 But as it is being made, there will accumulate a body
-of data which political science can turn into general-
-ization, and build up for the schools into a conceptual
+of data which political science can turn into generalization, and build up for the schools into a conceptual
 picture of the world.
 When that picture takes form,
 civic education can become a preparation for dealing
 with an unseen environment.
 As a working model of the social system becomes
 available to the teacher, he can use it to make the
-pupil acutely aware of how his mind works on un-
-familiar facts.
+pupil acutely aware of how his mind works on unfamiliar facts.
 Until he has such a model, the teacher
 cannot hope to prepare men fully for the world they
 will find.
@@ -19516,11 +17940,9 @@ for
 the
 statemen t,
 the
-circum-
-stances under which the statement was secured.
+circumstances under which the statement was secured.
 He
-can teach the pupil to ask himself whether the re-
-porter saw what hedescribes, and to remember how
+can teach the pupil to ask himself whether the reporter saw what hedescribes, and to remember how
 that reporter described other events in the past.
 He can teach him the character of censorship, of the
 idea of privacy, and furnish him with knowledge of
@@ -19544,8 +17966,7 @@ romantic,
 economic
 which he adopts while holding a particular opinion.
 The study of error is not only in the highest degree
-prophylactic, but it serves as a stimulating introduc-
-tion to the study of truth.
+prophylactic, but it serves as a stimulating introduction to the study of truth.
 As our minds become
 more deeply aware of their own subjectivism, we
 find a zest in objective method that is not other-
@@ -19581,8 +18002,7 @@ and
 more
 interesting.
 For if you
-teach the princi-
-ples of science as if they had always been accepted,
+teach the principles of science as if they had always been accepted,
 their chief virtue as a discipline, which is objectivity,
 will make them dull.
 But teach them at first as
@@ -19592,7 +18012,7 @@ carry the pupil over that hard transition from his
 own self-bound experience to the phase where his
 curi?sity has matured, and his reason has acquired
 paSSIon.
-410
+
 PUBLIC OPINION
 CHAPTER XXVIII
 THE APPEAL TO REASON
@@ -19607,14 +18027,13 @@ writer has not forgotten, are unravelled.
 In politics
 the hero does not live happily ever after, or end his
 life perfectly.
-There is no concluding chapter, be-
-cause the hero in politics has more future before him
+There is no concluding chapter, because the hero in politics has more future before him
 than there is recorded history behind him.
 The last
 chapter is merely a place where the writer imagines
 that the polite reader has begun to look furtively at
 his watch.
-2
+
 When Plato came to the point where it was fitting
 that he should sum up, his assurance turned into
 stage-fright as he thought how absurd it would
@@ -19626,8 +18045,6 @@ them nor live by them.
 So he makes Socrates say to
 Glaucon that he will be broken and drowned in
 laughter for telling" what is the least change which
-411
-
 
 will enable a state to pass into the truer form," 1
 because the thought he "would fain have uttered if it
@@ -19683,8 +18100,7 @@ attention to the year and seasons and sky and stars
 and winds, and whatever else belongs to his art." 1
 He can dismiss nothing which is necessary to make
 that ship sail prosperously.
-Because there are mu-
-tineers aboard, he cannot say: so much the worse for
+Because there are mutineers aboard, he cannot say: so much the worse for
 us all. . . it is not in the order of nature that I
 should handle a mutiny ... it is not in the order of
 philosophy that I should consider mutiny ... I
@@ -19694,7 +18110,7 @@ see that I am the man to steer, I cannot help it.
 We shall all go on the rocks, they to be punished
 for their sins; I, with the assurance that I knew
 better....
-3
+
 Whenever we make an appeal to reason in politics,
 the difficulty in this parable recurs.
 For there is an
@@ -19743,8 +18159,7 @@ with those causes that take a long time to remove.
 They will be dealing in years and generations, not in
 emergencies alone.
 And nothing will put a greater
-strain upon their wisdom than the necessity of dis-
-tinguishing false crises from real ones.
+strain upon their wisdom than the necessity of distinguishing false crises from real ones.
 For when
 there is panic in the air, with one crisis tripping over
 the heels of another, actual dangers mixed with
@@ -19754,33 +18169,27 @@ preferable to any disorder.
 It is only on the premise of a certain stability
 over a long run of time that men can hope to follow
 the method of reason.
-This is not because man-
-kind is inept, or because the appeal to reason is
+This is not because mankind is inept, or because the appeal to reason is
 visionary, but because the evolution of reason on
 political subjects is only in its beginnings.
 Our
-rational ideas in politics are still large, thin generali-
-ties, much too abstract and unrefined for practical
+rational ideas in politics are still large, thin generalities, much too abstract and unrefined for practical
 THE APPEAL TO REASON
 guidance, except where the aggregates are large
-enough to cancel out individual peculiarity and ex-
-hibit large uniformities.
+enough to cancel out individual peculiarity and exhibit large uniformities.
 Reason in politics is espe,.
-cially immature in predicting the behavior of individ-
-ual men, because in human conduct the smallest
-initial variation often works out into the most elab-
-orate differences.
+cially immature in predicting the behavior of individual men, because in human conduct the smallest
+initial variation often works out into the most elaborate differences.
 That, perhaps, is why when we
 try to insist solely upon an appeal to reason in dealing
 with sudden situations, we are broken and drowned
 in laughter.
-4
+
 For the rate at which reason, as we possess it, can
 advance itself is slower than the rate at which action
 has to be taken.
 In the present state of political
-science there is, therefore, a tendency for one situa-
-tion to change into another, before the first is clearly
+science there is, therefore, a tendency for one situation to change into another, before the first is clearly
 understood, and so to make much political criticism
 hindsight and little else.
 Both in the discovery of
@@ -19788,18 +18197,14 @@ what is unknown, and in the propagation of that
 which has been proved, there is a time-differential,
 which ought to, in a much greater degree than it ever
 has, occupy the political philosopher.
-We have be-
-gun, chiefly under the inspiration of Mr. Graham
-Wallas, to examine the effect of an invisible environ-
-ment upon our opinions.
-We do not, as yet, under-
-stand, except a little by rule of thumb, the element of
+We have begun, chiefly under the inspiration of Mr. Graham
+Wallas, to examine the effect of an invisible environment upon our opinions.
+We do not, as yet, understand, except a little by rule of thumb, the element of
 time in politics, though it bears most directly upon
 the practicability of any constructive proposal."
 We
 can see, for example, that somehow the relevancy of
-any plan depends upon the length of time the opera-
-1 Cf. H. G. Wells in the opening chapters of Mankind in the Making.
+any plan depends upon the length of time the opera1 Cf. H. G. Wells in the opening chapters of Mankind in the Making.
 
 
 PUBLIC OPINION
@@ -19811,13 +18216,11 @@ There is a
 factor here which realistic and experienced men do
 take into account, and it helps to mark them off
 somehow from the opportunist, the visionary, the
-philistine and the pedant.> But just how the calcula-
-tion of time enters into politics we do not know at
+philistine and the pedant.> But just how the calculation of time enters into politics we do not know at
 present in any systematic way.
 Until we understand these matters more clearly,
 we can at least remember that there is a problem of
-the utmost theoretical difficulty and practical con-
-sequence.
+the utmost theoretical difficulty and practical consequence.
 It will help us to cherish Plato's ideal,
 without sharing his hasty conclusion about
 the
@@ -19837,19 +18240,15 @@ immediate
 struggle ofpolitics will continue to require an amount
 of native wit, force, and unprovable faith, that reason
 can neither provide nor control, because the facts of
-life are too undifferentiated for its powers of under-
-standing.
+life are too undifferentiated for its powers of understanding.
 The methods of social science are so little
 perfected that in many of the serious decisions and
 most of the casual ones, there is as yet no choice but
 to gamble with fate as intuition prompts.
 But we can make a belief in reason one of those
-1 The better the current analysis in the intelligence work of.any insti-
-tution, the less likely, of course, that men will deal with tomorrow's
+1 The better the current analysis in the intelligence work of.any institution, the less likely, of course, that men will deal with tomorrow's
 problems in the light of yesterday's facts.
-2 Not all, but some of the differences between reactionaries, conserva-
-tives, liberals, and radicals are due, I think, to a different intuitive esti-
-mate of the rate of change in social affairs.
+2 Not all, but some of the differences between reactionaries, conservatives, liberals, and radicals are due, I think, to a different intuitive estimate of the rate of change in social affairs.
 THE APPEAL TO REASON
 intui tions,
 We can use our wit and our force to
@@ -19866,7 +18265,7 @@ according to the dictates of reason.
 The number of
 human problems on which reason is prepared to
 dictate is small.
-5
+
 There is, however, a noble counterfeit in that
 charity which comes from self-knowledge and an
 unarguable belief that no one ofour gregarious species
@@ -19877,8 +18276,7 @@ with a flutter of their pulse, that they are not all of
 them important.
 And where so much is uncertain,
 where so many actions have to be carried out on
-guesses, the demand upon the reserves of mere de-
-cency is enormous, and it is necessary to live as if
+guesses, the demand upon the reserves of mere decency is enormous, and it is necessary to live as if
 good will would work.
 We cannot prove in every
 instance that it will, nor why hatred, intolerance,
@@ -19895,8 +18293,7 @@ lives, we can cherish a hearty prejudice against them.
 PUBLIC OPINION
 We can do this all the better if we do not allow
 frightfulness and fanaticism to impress us so deeply
-that we throw up our hands peevishly, and lose inter-
-est in the longer run of time because we have lost
+that we throw up our hands peevishly, and lose interest in the longer run of time because we have lost
 faith in the future of man.
 There is no ground for
 this despair, because all the ifs on which, as James
@@ -19909,8 +18306,7 @@ not Armageddon, as we rhetorically said.
 The more
 realistically men have faced out the brutality and the
 hysteria, the more they have earned the right to say
-that it is not foolish for men to believe, because an-
-other great war took place, that in telligence, courage
+that it is not foolish for men to believe, because another great war took place, that in telligence, courage
 and effort cannot ever cantri ve a good life for all men.
 Great as was the horror, it was not universal.
 There were corrupt, and there were incorruptible.
@@ -19982,7 +18378,7 @@ Asquith, Margot, 8, 55
 Attention, distractions of city
 life, 72;
 time and attention given to newspapers,
-58
+
 Attrition, 40, 41, 42
 Authorities, 222, 224
 Automatism, 73, 189
@@ -20015,8 +18411,7 @@ Brown, R. W., 350
 Brutality, 418
 Bryce, Lord, 105,224,225,228,398
 Buncombe, 234, 254
-Bureaus, intelligenoe, 385; see also In-
-telligence bureaus
+Bureaus, intelligenoe, 385; see also Intelligence bureaus
 Burr, Aaron, 279
 Bury, J. B., 107
 Buying public, 317, 324
@@ -20031,7 +18426,7 @@ Catholic feudal society, 305
 Catholics and Germans, 101
 Cause and effect, 153
 Censorship, 30; military, 43; privacy and,
-35
+
 Chafee, Zechariah, 318
 Change of name, 87
 Characters, 171, 174, 179
@@ -20062,10 +18457,7 @@ College societies, 53
 Commercial code, 124
 Common will, crystallizing, 217
 Commune, 296
-421
 
-
-422
 INDEX
 INDEX
 Communication, barriers, 49
@@ -20118,8 +18510,7 @@ instinct,
 industrial,
 146;
 new
-theory of, 299; old dogma, 249; philoso-
-phy, 267; public opinion made a mystery
+theory of, 299; old dogma, 249; philosophy, 267; public opinion made a mystery
 254-255; revolution in, 248; two visions,
 228; unseen environments, 270
 Democratic ideal, 269
@@ -20128,15 +18519,13 @@ Democrats, 194: pioneer, 260
 "Deserving Democrats," 199
 Determinism, 187, 189
 Devils, 10
-Dewey, john., on the problem of appre-
-hension, 80
+Dewey, john., on the problem of apprehension, 80
 Diblee, G. B., 324
 Dignity, 52, 256, 299, 313
 Diplomatists,
 381;
 Ruritanian
-propa-
-ganda and, 130
+propaganda and, 130
 Direct action, limit, 230
 Direct primary, 232
 Discrimination, 69, 71
@@ -20225,7 +18614,7 @@ Government, as an instinct, 259; inner
 circle, 228; most momentous question of,
 253; natural, inborn art, 257; narural
 writ, 300; system of checks and balances,
-277
+
 Grasty, Charles, 135
 Great War. See World War
 Greece, city states of, 267
@@ -20244,7 +18633,7 @@ Harmony, 263
 Hart, A. B., 253
 Harvey, George, on American
 motives,
-193
+
 Hatred, 178
 Headlines, 354
 Hearst, W. R., 323, 332
@@ -20270,8 +18659,7 @@ Hughes, C. E., on the European war, 202;
 speech of July 31, 1916, 197
 Human dignity, 256, 299, 313
 Human figure, 84
-Human nature, 121, 124, 187, 189; com-
-plexity, 188
+Human nature, 121, 124, 187, 189; complexity, 188
 Human relations, harmonious, 203
 Huns, 103
 Hysteria, 418
@@ -20290,7 +18678,7 @@ Indirect costs, 241
 Industrial .conditions
 and
 newspapers,
-346
+
 Industrial democracy, 146, 300; factory as
 unit, 299
 Industrial dialectic, 403
@@ -20304,8 +18692,7 @@ Institutions and the press, 364
 Intelligence,
 organized,
 367;
-organiza-
-tions, 377
+organizations, 377
 Intelligence bureaus,
 clearing
 house
@@ -20350,8 +18737,7 @@ war, 133
 Jastrow, Joseph, 175, 176
 Jean Paul. See Richter, J. P. L.
 Jefferson, Thomas,
-219, 257, 267": con-
-stitution and, 282
+219, 257, 267": constitution and, 282
 Jekyll, Dr., 174
 Joffre, General, 9, 10, 13: as editor of war
 news, 35; at Verdun, 35, 37
@@ -20370,7 +18756,7 @@ disputes
 and
 the
 newspapers,
-346
+
 Labor Movement, 152
 Laissez-faire, 112, 113, 114
 Lamp post, four men at, 23
@@ -20383,7 +18769,7 @@ Lansdowne, Lord, 209
 Lansing, Robert, 264
 Langenhove,F. van, 82, 100
 Language, condensation, 64; inadequacy,
-66
+
 Laski, H. J., 233, 397
 Last chapters, 411
 Leaders, 233; advantages, 247; policy with
@@ -20393,7 +18779,7 @@ mass.,
 propaganda,
 247;
 rank and file and, 234; social, 53; wise,
-245
+
 League
 of
 Nations,
@@ -20474,7 +18860,7 @@ National Will, 30
 Negroes, 54, 148
 New, Senator, 19
 New York City, writ of administration,
-393
+
 New York Times, 332
 ,
 News,-gues,S; wOlki~343J lack
@@ -20482,20 +18868,17 @@ of exact
 tests, 359J )llachinery of record, 342;
 nature
 of,J.Q.J.~~ r~ader's interest, 35.4;
-system of retOrd and; 343; truth dIS-
-tinguished from, 358; uncovering, 339;
+system of retOrd and; 343; truth dIStinguished from, 358; uncovering, 339;
 unpaid for, 321
 News-gathering, 320, 334
 Newspapers, 31,32; accuracy, 329; casual
 relation of the public to
-321; circula-
-tion, 323, 326; concealed payment for,
+321; circulation, 323, 326; concealed payment for,
 323; constant reader, 328; diary and
 personal patter, 330; editor's position,
 333,352; influence on one another, 353;
 institutions and, 364; investigations of
-industrial conditions, 347; misrepresen-
-tation, 350; political science and 320;
+industrial conditions, 347; misrepresentation, 350; political science and 320;
 publishing as a business, 326; radical,
 336; salaries of reporters, etc .• 334; time
 and attention given to, 58; truth and,
@@ -20515,7 +18898,7 @@ Opinion, 123; property and 182
 Opportunity and contact, 46
 Organization, political, 225
 Organizations of -research and reference,
-377
+
 Organized intelligence, 367
 Ostrogorski, M., 225
 Outside public, 400
@@ -20567,16 +18950,14 @@ Political world, 29
 Politicians,
 fence-mending,
 246;
-pro-
-fessional, 231
+professional, 231
 Politics
 ancient
 theory,
 261;
 fighting
 motif in, 164; ideologies, 168;
-organ-
-ization, 225; reason and, 411
+organization, 225; reason and, 411
 Popular will, 193
 Preconceptions, 90
 Prejudice, 119, 254, 410
@@ -20590,7 +18971,7 @@ Privacy, 45; censorship and, 35
 Private affairs, 44; public affairs and, 54
 Privileged, 226, 276, 291
 Progress, 109; American idea, 108; idea,
-107
+
 Propaganda, 26, 248; government during
 the World War, 46; leaders and
 247;
@@ -20605,7 +18986,7 @@ Psychoanalysts, 27
 Psychology, behavior and character, 175;
 new, 28
 Public the, as judge in intricate matters,
-401
+
 Public affairs, 29, 30; private and, 54
 Public office, 284
 Public opinion, 29, 362; civil liberty and,
@@ -20653,8 +19034,7 @@ Revolution,
 246;
 democratic,
 248;
-me-
-chanical (1820-50), 107
+mechanical (1820-50), 107
 Rhineland, 214
 Richter, J. P. L., 66
 Rights and duties, 264
@@ -20722,7 +19102,7 @@ Social Purpose, 30
 Social rank, 51
 Social science, experimental method, 377
 Social scientists, 371; strategic position,
-375
+
 Social sets, SO, 52, 54
 Socialism, 182, 184, 186
 Society, Great, 25, 55, 370; High, 54;
@@ -20740,8 +19120,7 @@ Steel industry, 336, 347, 403
 Stereotypes, 79; as personal defenses, 95;
 character, 90; detection, 130; facts and,
 111; human and
-personal, 159; main-
-tenance,
+personal, 159; maintenance,
 value,
 89;
 the
@@ -20749,7 +19128,7 @@ perfect,
 98;
 systematizing, 104
 Stories, varying with character of hearer,
-170
+
 Strachey's Queen Victoria, 8
 Strife, 263, 267
 Strikes and the newspapers, 346
@@ -20763,8 +19142,7 @@ Susceptibilities, 7.5
 Suspense, 164
 Symbolic personality, 11
 Symbols, 11, 206;
-character, 220; hier-
-archy, 215; leaders' use of, 234; power
+character, 220; hierarchy, 215; leaders' use of, 234; power
 and value, 235-236
 Taft, W. H .. 135
 Taste, 52
@@ -20775,8 +19153,7 @@ Technical knowledge, 370
 Telegraphy, 64
 Tennyson, Alfred, on evolution, 107
 Teutons, 145
-Thinking, difficult conditions, 73; effect-
-ive, 56
+Thinking, difficult conditions, 73; effective, 56
 Timber, 142
 Time, as element in social problems, 142;
 attention and time given to newspapers,
@@ -20855,10 +19232,8 @@ speed, clearness, and, 64
 Working class, 151
 World, political, 29
 World made safe for democracy, 215
-World War, American view, 134; Amer-
-ica's experience,
-110; casualties, 239-
-240;
+World War, American view, 134; America's experience,
+110; casualties, 239240;
 crisis
 and
 Wilson's

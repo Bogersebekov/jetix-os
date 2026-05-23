@@ -9,8 +9,11 @@ chars: 431925
 approx_tokens: 107981
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 431927
+phase4_chars_after: 431739
+phase4_saved_pct: 0.0
 ---
-
 
 
 How to Solve It
@@ -266,7 +269,7 @@ Solutions
 
 
 HOW TO SOLVE IT
- 
+
 UNDERSTANDING THE PROBLEM
 First.
 You have to
@@ -279,7 +282,7 @@ insufficient? Or redundant? Or contradictory?
 Draw a figure. Introduce suitable notation.
 Separate the various parts of the condition. Can you
 write them down?
- 
+
 DEVISING A PLAN
 Second.
 Find the connection
@@ -306,7 +309,7 @@ use its method? Should you introduce some auxiliary
 element in order to make its use possible?
 Could you restate the problem? Could you restate it
 still differently? Go back to definitions.
- 
+
 If you cannot solve the proposed problem try to solve
 
 
@@ -324,14 +327,14 @@ are nearer to each other?
 Did you use all the data? Did you use the whole
 condition? Have you taken into account all essential
 notions involved in the problem?
- 
+
 CARRYING OUT THE PLAN
 Third.
 Carry out your plan.
 Carrying out your plan of the solution, check each step.
 Can you see clearly that the step is correct? Can you
 prove that it is correct?
- 
+
 LOOKING BACK
 Fourth.
 Examine the solution
@@ -472,8 +475,7 @@ University in 1933, and while in the United States was invited by H. F.
 Blichfeldt to visit Stanford University, which he greatly enjoyed, and which
 ultimately became his home. Polya held a professorship at Stanford from 1943
 until his retirement in 1953, and it was there, in 1978, that he taught his last
-course, in combinatorics; he died on September 7, 1985, at the age of ninety-
-seven.
+course, in combinatorics; he died on September 7, 1985, at the age of ninetyseven.
 Some readers will want to know about Polya’s many contributions to
 mathematics. Most of them relate to analysis and are too technical to be
 understood by non-experts, but a few are worth mentioning.
@@ -538,8 +540,7 @@ contains also directions how to find information about particular items of the l
 It must be emphasized that there is a common plan and a certain unity, because
 the articles of the Dictionary show the greatest outward variety. There are a few
 longer articles devoted to the systematic though condensed discussion of some
-general theme; others contain more specific comments, still others cross-
-references, or historical data, or quotations, or aphorisms, or even jokes.
+general theme; others contain more specific comments, still others crossreferences, or historical data, or quotations, or aphorisms, or even jokes.
 The Dictionary should not be read too quickly; its text is often condensed,
 and now and then somewhat subtle. The reader may refer to the Dictionary for
 information about particular points. If these points come from his experience
@@ -914,7 +915,7 @@ more clearly the idea of the solution which is to introduce an auxiliary problem
 whose unknown is y. Finally, working at one right triangle after the other, he
 may obtain (see Fig. 1) x2 = y2 + c2
 y2 = a2 + b2
-and hence, eliminating the auxiliary unknown y, 
+and hence, eliminating the auxiliary unknown y,
 The teacher has no reason to interrupt the student if he carries out these
 details correctly except, possibly, to warn him that he should check each step.
 Thus, the teacher may ask: “Can you see clearly that the triangle with sides x, y,
@@ -966,7 +967,7 @@ or apply the result obtained. Can you use the result, or the method, for some
 other problem?
 14. Example. In section 12, the students finally obtained the solution: If the
 three edges of a rectangular parallelogram, issued from the same corner, are a, b,
-c, the diagonal is 
+c, the diagonal is
 Can you check the result? The teacher cannot expect a good answer to this
 question from inexperienced students. The students, however, should acquire
 fairly early the experience that problems “in letters” have a great advantage over
@@ -1358,13 +1359,13 @@ y. By the way, one of these data is a ‘rate.’ Which one?”
 suitable notation?”
 “What is V?”
 “The volume of the water in the vessel at the time t.”
-“Good. Thus, you have to express 
- in terms of a, b, 
+“Good. Thus, you have to express
+ in terms of a, b,
 , y. How will you
 do it?”
 . . . . .
 “If you cannot solve the proposed problem try to solve first some related
-problem. If you do not see yet the connection between 
+problem. If you do not see yet the connection between
  and the data, try to
 bring in some simpler connection that could serve as a stepping stone.”
 . . . . .
@@ -1390,17 +1391,17 @@ forget, you wished to know the connection between V and y.”
 forget your goal. What is the unknown?”
 
 
-“Well, 
+“Well,
 .”
-“You have to find a connection between 
-, 
+“You have to find a connection between
+,
 , and other quantities. And
 here you have one between y, V, and other quantities. What to do?”
 “Differentiate! Of course!
 Here it is.”
 “Fine! And what about the numerical values?”
-“If a = 4, b = 3, 
- = r = 2, y = 1, then 
+“If a = 4, b = 3,
+ = r = 2, y = 1, then
 
 
 PART II. HOW TO SOLVE IT A DIALOGUE
@@ -1677,12 +1678,11 @@ The segment has 2 zero-dimensional bounding elements (2 end-points) and its
 interior is one-dimensional.
 The triangle has 3 zero-dimensional and 3 one-dimensional bounding
 elements (3 vertices, 3 sides) and its interior is two-dimensional.
-The tetrahedron has 4 zero-dimensional, 6 one-dimensional, and 4 two-
-dimensional bounding elements (4 vertices, 6 edges, 4 faces), and its interior is
+The tetrahedron has 4 zero-dimensional, 6 one-dimensional, and 4 twodimensional bounding elements (4 vertices, 6 edges, 4 faces), and its interior is
 three-dimensional.
 These numbers can be assembled into a table. The successive columns
 contain the numbers for the zero-, one-, two-, and three-dimensional elements,
-the successive rows the numbers for the segment, triangle, and tetrahedron: 
+the successive rows the numbers for the segment, triangle, and tetrahedron:
 Very little familiarity with the powers of a binomial is needed to recognize in
 these numbers a section of Pascal’s triangle. We found a remarkable regularity in
 segment, triangle, and tetrahedron.
@@ -1797,15 +1797,15 @@ figures 9, 10; placing the length p we treated b and c differently; the figures 
 and 10 spoil the natural symmetry of the problem with respect to b and c. We
 should place p so that it has the same relation to b as to c.
 This consideration may be helpful in suggesting to place the length p as in
-Fig. 
-11. 
-We 
-add 
-to 
-the 
-side 
-a 
-of 
+Fig.
+11.
+We
+add
+to
+the
+side
+a
+of
 FIG. 11
 the triangle the segment CE of length b on one side and the segment BD of the
 length c on the other side so that p appears in Fig. 11 as the line ED of length b +
@@ -1819,7 +1819,7 @@ unreasonable to introduce elements into the problem which are particularly
 simple and familiar, as isosceles triangle.
 We have been quite lucky in introducing our auxiliary lines. Examining the
 new figure we may discover that ∠EAD has a simple relation to the given angle
-α. In fact, we find using the isosceles triangles Δ ABD and Δ ACE that ∠DAE = 
+α. In fact, we find using the isosceles triangles Δ ABD and Δ ACE that ∠DAE =
  + 90°. After this remark, it is natural to try the construction of Δ DAE. Trying
 this construction, we introduce an auxiliary problem which is much easier than
 the original problem.
@@ -1934,22 +1934,22 @@ attained as the last link in a chain of auxiliary problems.
 Chains of problems of this kind were noticed by the Greek mathematicians as
 we may see from an important passage of PAPPUS. For an illustration, let us
 reconsider our example 1. Let us call (A) the condition imposed upon the
-unknown x: 
+unknown x:
 One way of solving the problem is to transform the proposed condition into
-another 
-condition 
-which 
-we 
-shall 
-call 
-(B) 
-: 
+another
+condition
+which
+we
+shall
+call
+(B)
+:
 Observe that the conditions (A) and (B) are different. They are only slightly
 different if you wish to say so, they are certainly equivalent as you may easily
 convince yourself, but they are definitely not identical. The passage from (A) to
 (B) is not only correct but has a clear-cut purpose, obvious to anybody who is
 familiar with the solution of quadratic equations. Working further in the same
-direction we transform the condition (B) into still another condition (C) : 
+direction we transform the condition (B) into still another condition (C) :
 Proceeding in the same way, we obtain
 
 
@@ -2015,7 +2015,7 @@ them. Although I am free from the illusion that I shall fully succeed even in
 doing this, I still hope that the little that is presented here may please some
 people and have some application afterwards.”
 Bright idea, or “good idea,” or “seeing the light,” is a colloquial expression
-describing a sudden advance toward the solution; see PROGRESS 
+describing a sudden advance toward the solution; see PROGRESS
 AND
 ACHIEVEMENT, 6. The coming of a bright idea is an experience familiar to
 everybody but difficult to describe and so it may be interesting to notice that a
@@ -2072,7 +2072,7 @@ We may test this result by SPECIALIZATION. In fact, if b = a the frustum becomes
 
 
 prism and the formula yields a2h; and if b = 0 the frustum becomes a pyramid
-and the formula yields 
+and the formula yields
 . We may apply the TEST BY DIMENSION. In fact, the
 expression has as dimension the cube of a length. Again, we may test the
 formula by variation of the data. In fact, if any one of the positive quantities a, b
@@ -2124,29 +2124,28 @@ This problem can be solved by various procedures. For instance, we may
 know the formula for the lateral surface of a full cone. As the frustum is
 generated by cutting off from a cone a smaller cone, so its lateral surface is the
 difference of two full conical surfaces; it remains to express these in terms of R,
-r, h. Carrying through this idea, we obtain finally the formula 
+r, h. Carrying through this idea, we obtain finally the formula
 
 
 Having found this result in some way or other, after longer calculation, we may
 desire a clearer and less roundabout argument. Can you derive the result
 differently? Can you see it at a glance?
 Desiring to see intuitively the whole result, we may begin with trying to see
-the geometric meaning of its parts. Thus, we may observe that 
+the geometric meaning of its parts. Thus, we may observe that
 is the length of the slant height. (The slant height is one of the nonparallel sides
 of the isosceles trapezoid that, revolving about the line joining the midpoints of
 its parallel sides, generates the frustum; see Fig. 12.) Again, we may discover
-that 
+that
 is the arithmetic mean of the perimeters of the two bases of the frustum. Looking
-at the same part of the formula, we may be moved to write it also in the form 
+at the same part of the formula, we may be moved to write it also in the form
 that is the perimeter of the mid-section of the frustum. (We call here mid-section
 the intersection of the frustum with a plane which is parallel both to the lower
-base and to the upper base of the frustum and bisects the altitude.) 
+base and to the upper base of the frustum and bisects the altitude.)
 
 
 FIG. 12
 Having found new interpretations of various parts, we may see now the whole
-formula in a different light. We may read it thus: Area = Perimeter of mid-
-section × Slant height.
+formula in a different light. We may read it thus: Area = Perimeter of midsection × Slant height.
 We may recall here the rule for the trapezoid: Area = Middle-line × Altitude.
 (The middle-line is parallel to the two parallel sides of the trapezoid and bisects
 the altitude.) Seeing intuitively the analogy of both statements, that about the
@@ -2424,7 +2423,7 @@ a figure, exhibiting the data (Fig. 13).
 What is the unknown? A straight line.
 What is the condition? The required line passes through A, and passes
 between B and C, at the same distance from each. We assemble the unknown and
-the data 
+the data
 FIG. 13
 in a figure exhibiting the required relations (Fig. 14). Our figure, suggested by
 the definition of the distance of a point from a straight line, shows the right
@@ -2974,12 +2973,12 @@ data? Did you use the whole condition? The corresponding question concerning
 “problems to prove” is: Did you use the whole hypothesis?
 1. For an illustration, let us go back to the “parallelepiped problem” stated in
 section 8 (and followed up in sections 10, 12, 14, 15). It may happen that a
-student runs into the idea of calculating the diagonal of a face, 
+student runs into the idea of calculating the diagonal of a face,
 ,
 but then he gets stuck. The teacher may help him by asking: Did you use all the
-data? The student can scarcely fail to observe that the expression 
+data? The student can scarcely fail to observe that the expression
 does not contain the third datum c. Therefore, he should try to bring c into play.
-Thus, he has a good chance to observe the decisive right triangle whose legs are 
+Thus, he has a good chance to observe the decisive right triangle whose legs are
 
 
  and c, and whose hypotenuse is the desired diagonal of the
@@ -3136,10 +3135,10 @@ language of algebra.
 The area of a rectangle with adjacent sides a and b is ab. Its perimeter is 2a +
 2b.
 One side of the square that has the same perimeter as the rectangle just
-mentioned is 
-. Thus, the area of this square is 
+mentioned is
+. Thus, the area of this square is
 . It should
-be greater than the area of the rectangle, and so we should have 
+be greater than the area of the rectangle, and so we should have
 Is this true? The same assertion can be written in the equivalent form a2 + 2ab +
 b2 > 4ab.
 This, however, is true, for it is equivalent to a2 − 2ab + b2 > 0
@@ -3489,7 +3488,7 @@ case n = 5 is the next one. Let us add, for the sake of uniformity and
 completeness, the case n = 1. Arranging neatly all these cases, as a geologist
 
 
-would arrange his specimens of a certain ore, we obtain the following table: 
+would arrange his specimens of a certain ore, we obtain the following table:
 It is hard to believe that all these sums of consecutive cubes are squares by mere
 chance. In a similar case, the naturalist would have little doubt that the general
 law suggested by the special cases heretofore observed is correct; the general
@@ -3517,7 +3516,7 @@ How do they increase? The difference between two successive terms of this
 sequence is itself increasing, 3 − 1 = 2,   6 − 3 = 3,   10 − 6 = 4,   15 − 10 = 5.
 Now these differences are conspicuously regular. We may see here a surprising
 analogy between the bases of those squares, we may see a remarkable regularity
-in the numbers 1, 3, 6, 10, 15: 
+in the numbers 1, 3, 6, 10, 15:
 If this regularity is general (and the contrary is hard to believe) the theorem we
 suspected takes a more precise form: It is, for n = 1, 2, 3, . . .
 13 + 23 + 33 + · · · + n3 = (1 + 2 + 3 + · · · + n)2.
@@ -3545,15 +3544,15 @@ reasoning that led to it was merely plausible, experimental, provisional,
 heuristic; let us try to establish it definitively by a rigorous proof.
 We have arrived now at a “problem to prove”: to prove or to disprove the
 result stated before (see 2, above).
-There 
-is 
-a 
-minor 
-simplification. 
-We 
-may 
-know 
-that 
+There
+is
+a
+minor
+simplification.
+We
+may
+know
+that
 At any rate, this is easy to verify. Take a rectangle with sides n and n + 1, and
 divide it in two halves by a zigzag line as in Fig. 15a which shows the case n =
 4. Each of the halves is “staircase-shaped” and its area has the expression 1 + 2 +
@@ -3563,34 +3562,34 @@ the formula.
 FIG. 18
 
 
-We may transform the result which we found by induction into 
+We may transform the result which we found by induction into
 5. If we have no idea how to prove this result, we may at least test it. Let us
 test the first case we have not tested yet, the case n = 6. For this value, the
-formula yields 
+formula yields
 and, on computation, this turns out to be true, both sides being equal to 441.
 We can test the formula more effectively. The formula is, very likely,
 generally true, true for all values of n. Does it remain true when we pass from
 any value n to the next value n + 1? Along with the formula as written above (p.
-118) 
-we 
-should 
-also 
-have 
+118)
+we
+should
+also
+have
 Now, there is a simple check. Subtracting from this the formula written above,
-we obtain 
-This is, however, easy to check. The right hand side may be written as 
+we obtain
+This is, however, easy to check. The right hand side may be written as
 Our experimentally found formula passed a vital test.
-Let us see clearly what this test means. We verified beyond doubt that 
+Let us see clearly what this test means. We verified beyond doubt that
 
 
 We do not know yet whether
 is true. But if we knew that this was true we could infer, by adding the equation
-which 
-we 
-verified 
-beyond 
-doubt, 
-that 
+which
+we
+verified
+beyond
+doubt,
+that
 is also true which is the same assertion for the next integer n + 1. Now, we
 actually know that our conjecture is true for n = 1, 2, 3, 4, 5, 6. By virtue of what
 we have just said, the conjecture, being true for n = 6, must also be true for n =
@@ -3919,8 +3918,8 @@ indispensable help.
 not considered at all in this book and others only very briefly. It is justified, I
 think, to exclude from a first short exposition points which could appear too
 subtle, or too technical, or too controversial.
-Provisional, merely plausible 
-HEURISTIC 
+Provisional, merely plausible
+HEURISTIC
 REASONING is important in
 discovering the solution, but you should not take it for a proof; you must guess,
 but also EXAMINE YOUR GUESS. The nature of heuristic arguments is discussed in
@@ -4128,7 +4127,7 @@ symbols may acquire a sort of second meaning from contexts in which they are
 often used. If we choose our notation carefully, we have to take this
 circumstance into account. Let us illustrate the point.
 There are certain letters which have acquired a firmly rooted, traditional
-meaning. Thus, e stands usually for the basis of natural logarithms, i for 
+meaning. Thus, e stands usually for the basis of natural logarithms, i for
 ,
 the imaginary unit, and π for the ratio of the circumference of the circle to the
 diameter. It is on the whole better to use such symbols only in their traditional
@@ -4174,8 +4173,7 @@ In the seventh book of his Collectiones, Pappus reports about a branch of study
 which he calls analyomenos. We can render this name in English as “Treasury of
 Analysis,” or as “Art of Solving Problems,” or even as “Heuristic”; the last term
 seems to be preferable here. A good English translation of Pappus’s report is
-easily accessible7; what follows is a free rendering of the original text: “The so-
-called Heuristic is, to put it shortly, a special body of doctrine for the use of
+easily accessible7; what follows is a free rendering of the original text: “The socalled Heuristic is, to put it shortly, a special body of doctrine for the use of
 those who, after having studied the ordinary Elements, are desirous of acquiring
 the ability to solve mathematical problems, and it is useful for this alone. It is the
 work of three men, Euclid, the author of the Elements, Apollonius of Perga, and
@@ -4235,14 +4233,14 @@ described by Pappus are by no means restricted to geometric problems; they are,
 in fact, not even restricted to mathematical problems. We have to illustrate this
 by examples since, in these matters, generality and independence from the nature
 of the subject are important (see section 3).
-3. 
-Algebraic 
-illustration. 
-Find 
-x 
-satisfying 
-the 
-equation 
+3.
+Algebraic
+illustration.
+Find
+x
+satisfying
+the
+equation
 This is a “problem to find,” not too easy for a beginner. He has to be familiar
 with the idea of analysis; not with the word “analysis” of course, but with the
 idea of attaining the aim by repeated reduction. Moreover, he has to be familiar
@@ -4253,7 +4251,7 @@ idea, a little luck, a little invention to observe that, since 4∞ = (2∞)2 an
 
 Now, this substitution is really advantageous, the equation obtained for y
 appears simpler than the original equation; but our task is not yet finished. It
-needs another little invention, another substitution 
+needs another little invention, another substitution
 
 
 which transforms the condition into
@@ -4359,8 +4357,7 @@ fits in many cases and fails only occasionally.
 To apply a rule with natural ease, with judgment, noticing the cases where it
 fits, and without ever letting the words of the rule obscure the purpose of the
 action or the opportunities of the situation, is mastery.
-2. The questions and suggestions of our list may be helpful both to problem-
-solvers and to teachers. But, first, they must be understood, their proper use must
+2. The questions and suggestions of our list may be helpful both to problemsolvers and to teachers. But, first, they must be understood, their proper use must
 be learned, and learned by trial and error, by failure and success, by experience
 in applying them. Second, their use should never become pedantic. You should
 ask no question, make no suggestion, indiscriminately, following some rigid
@@ -4410,8 +4407,7 @@ acquired knowledge. The modern engineer has a highly specialized body of
 knowledge at his disposal, a scientific theory of the strength of materials, his
 own experience, and the mass of engineering experience stored in special
 technical literature. We cannot avail ourselves of such special knowledge here
-but we may try to imagine what was in the mind of an ancient Egyptian dam-
-builder.
+but we may try to imagine what was in the mind of an ancient Egyptian dambuilder.
 He has seen, of course, various other, perhaps smaller, dams: banks of earth
 or masonry holding back the water. He has seen the flood, laden with all sorts of
 debris, pressing against the bank. He might have helped to repair the cracks and
@@ -4598,8 +4594,7 @@ cases. The step from such concrete cases to a general description is not easy at
 all. Yet we have to undertake this step if we wish to make our study of heuristic
 somewhat complete and we must try to clarify what constitutes, in general,
 progress and achievement in solving problems.
-1. In order to solve a problem, we must have some knowledge of the subject-
-matter and we must select and collect the relevant items of our existing but
+1. In order to solve a problem, we must have some knowledge of the subjectmatter and we must select and collect the relevant items of our existing but
 initially dormant knowledge. There is much more in our conception of the
 problem at the end than was in it at the outset; what has been added? What we
 have succeeded in extracting from our memory. In order to obtain the solution
@@ -4671,11 +4666,11 @@ notions involved in the problem?
 Some questions aim directly at the variation of the problem: Could you
 restate the problem? Could you restate it still differently? Many questions aim at
 the variation of the problem by specified means, as going back to the DEFINITION,
-using 
-ANALOGY, 
-GENERALIZATION, 
-SPECIALIZATION, 
-DECOMPOSING 
+using
+ANALOGY,
+GENERALIZATION,
+SPECIALIZATION,
+DECOMPOSING
 AND
 RECOMBINING.
 Still other questions suggest a trial to foresee the nature of the solution we are
@@ -4798,7 +4793,7 @@ upon the idea that the sum of the figures denoting tens may be of some
 importance. In fact, let t stand for this sum. Then the sum of the remaining
 figures, denoting units, is 45 − t. Therefore, the sum of all numbers in the set
 must be 10t + (45 − t) = 100.
-We have here an equation to determine t. It is of the first degree and gives 
+We have here an equation to determine t. It is of the first degree and gives
 Now, there is something that is definitely wrong. The value of t that we have
 found is not an integer and t should be, of course, an integer. Starting from the
 supposition that both parts of the proposed condition can be simultaneously
@@ -5138,8 +5133,7 @@ floating seaweed or low banks of cloud might indicate land, but they were again
 disappointed. One day, however, the signs multiplied. On Thursday, the 11th of
 October, 1492, “they saw sandpipers, and a green reed near the ship. Those of
 the caravel Pinta saw a cane and a pole, and they took up another small pole
-which appeared to have been worked by iron; also another bit of cane, a land-
-plant, and a small board. The crew of the caravel Niña also saw signs of land,
+which appeared to have been worked by iron; also another bit of cane, a landplant, and a small board. The crew of the caravel Niña also saw signs of land,
 and a small branch covered with berries. Everyone breathed afresh and rejoiced
 at these signs.” And in fact the next day they sighted land, the first island of a
 
@@ -5168,7 +5162,7 @@ task is to express the area of a triangle in terms of its three sides, a, b, and
 have already made some sort of plan. I know, more or less clearly, which
 geometrical connections I have to take into account and what sort of calculations
 I have to perform. Yet I am not quite sure whether my plan will work. If now,
-proceeding along the line prescribed by my plan, I observe that the quantity 
+proceeding along the line prescribed by my plan, I observe that the quantity
 enters into the expression of the area I am about to construct, I have good reason
 
 
@@ -5406,7 +5400,7 @@ term.
 The heuristic syllogism introduced in the foregoing may be regarded as the
 simplest and most widespread pattern of plausible reasoning. It reminds us of a
 classical pattern of demonstrative reasoning, of the so-called “modus tollens of
-hypothetical syllogism.” We exhibit here both patterns side by side: 
+hypothetical syllogism.” We exhibit here both patterns side by side:
 The comparison of these patterns may be instructive. It may grant us an insight,
 not easily obtainable elsewhere, into the nature of plausible (heuristic, inductive)
 reasoning.
@@ -5471,7 +5465,7 @@ Specialization is passing from the consideration of a given set of objects to
 that of a smaller set, or of just one object, contained in the given set.
 Specialization is often useful in the solution of problems.
 1. Example. In a triangle, let r be the radius of the inscribed circle, R the
-radius of the circumscribed circle, and H the longest altitude. Then r + R 
+radius of the circumscribed circle, and H the longest altitude. Then r + R
  H.
 We have to prove (or disprove) this theorem9; we have a “problem to prove.”
 
@@ -5479,20 +5473,20 @@ We have to prove (or disprove) this theorem9; we have a “problem to prove.”
 The proposed theorem is of an unusual sort. We can scarcely remember any
 theorem about triangles with a similar conclusion. If nothing else occurs to us,
 we may test some special case of this unfamiliar assertion. Now, the best known
-special 
-triangle 
-is 
-the 
-equilateral 
-triangle 
-for 
-which 
+special
+triangle
+is
+the
+equilateral
+triangle
+for
+which
 so that, in this case, the assertion is correct.
 If no other idea presents itself, we may test the more extended special case of
 isosceles triangles. The form of an isosceles triangle varies with the angle at the
 vertex and there are two extreme (or limiting) cases, the one in which the angle
 at the vertex becomes 0°, and the other in which it becomes 180°. In the first
-extreme case the base of the isosceles triangle vanishes and visibly 
+extreme case the base of the isosceles triangle vanishes and visibly
 thus, the assertion is verified. In the second limiting case, however, all three
 heights vanish and r = 0      R = ∞      H = 0.
 The assertion is not verified. We have proved that the proposed theorem is false,
@@ -5520,8 +5514,7 @@ task finished. If, however, the object examined complies with the statement we
 may possibly derive some hint from its examination. We may receive the
 impression that the statement could be true, after all, and some suggestion in
 which direction we should seek the proof. Or, we may receive, as in our example
-under 1, some suggestion in which direction we should seek the counter-
-example, that is, which other special cases should we test. We may modify the
+under 1, some suggestion in which direction we should seek the counterexample, that is, which other special cases should we test. We may modify the
 case we have just examined, vary it, investigate some more extended special
 case, look around for extreme cases, as exemplified under 1.
 Extreme cases are particularly instructive. If a general statement is supposed
@@ -5740,8 +5733,7 @@ PROBLEMS TO PROVE, 3, 4.
 regretfully to replace historical terms whose meaning, however, is confused
 beyond redemption by current usage. In Latin versions of Greek mathematical
 texts, the common name for both kinds of problems is “propositio”; a “problem
-to find” is called “problema,” and a “problem to prove” “theorema.” In old-
-fashioned mathematical language, the words proposition, problem, theorem have
+to find” is called “problema,” and a “problem to prove” “theorema.” In oldfashioned mathematical language, the words proposition, problem, theorem have
 still this “Euclidean” meaning, but this is completely changed in modern
 mathematical language; this justifies the introduction of new terms.
 6. Progressive reasoning was used in various meanings by various authors,
@@ -5775,7 +5767,7 @@ R be the radius of the lower base,
 r the radius of the upper base,
 h the altitude of the frustum,
 S the area of the lateral surface of the frustum.
-If R, r, h are given, S is visibly determined. We find the expression 
+If R, r, h are given, S is visibly determined. We find the expression
 to which we wish to apply the test by dimension.
 The dimension of a geometric quantity is easily visible. Thus, R, r, h are
 lengths, they are measured in centimeters if we use scientific units, their
@@ -5790,18 +5782,18 @@ cm. The two terms (R − r)2 and h2 have the same dimension (as they must),
 cm2.
 The dimension of a product is the product of the dimensions of its factors, and
 there is a similar rule about powers. Replacing the quantities by their dimensions
-on 
-both 
-sides 
-of 
-the 
-formula 
-that 
-we 
-are 
-testing, 
-we 
-obtain 
+on
+both
+sides
+of
+the
+formula
+that
+we
+are
+testing,
+we
+obtain
 This being visibly so, the test could not detect any error in the formula. The
 formula passed the test.
 For other examples, see section 14, and CAN YOU CHECK THE RESULT? 2.
@@ -5836,17 +5828,17 @@ both sides, and thus we obtain 0 = m + n     1 = −2n
 
 
 and hence
-Therefore, 
-the 
-formula 
-for 
-the 
-period 
-T 
-must 
-have 
-the 
-form 
+Therefore,
+the
+formula
+for
+the
+period
+T
+must
+have
+the
+form
 The test by dimension yields much in this case but it cannot yield everything.
 First, it gives no information about the value of the constant c (which is, in fact,
 2π). Second, it gives no information about the limits of validity; the formula is
@@ -6431,7 +6423,7 @@ What are we required to do? (What is the unknown?) Let us visualize the final
 situation we aim at as clearly as possible. Let us imagine that we have here,
 before us, the larger container with exactly 6 quarts in it and the smaller
 container empty as in Fig. 25. (Let us start from what is required and assume
-what is sought as already found, says Pappus.) 
+what is sought as already found, says Pappus.)
 FIG. 25
 
 
@@ -6443,7 +6435,7 @@ quarts. To do that . . . we must have just one quart in the smaller container!
 That’s the idea. See Fig. 26.
 (The step that we have just completed is not easy at all. Few persons are able
 to take it without much foregoing hesitation. In fact, recognizing the significance
-of this step, we foresee an outline of the following solution.) 
+of this step, we foresee an outline of the following solution.)
 FIG. 26
 But how can we reach the situation that we have just found and illustrated by
 Fig. 26? (Let us inquire again what could be the antecedent of that antecedent.)
@@ -6548,25 +6540,25 @@ point, the straight line, and the plane. Their “definitions” however are sca
 intuitive illustrations of a sort. Illustrations, of course, are allowed, and even very desirable in teaching.
 4 The Nation, June 9, 1945, Crossword Puzzle, No. 119.
 5 If the angles of a triangle are α, β, γ and 90° > α > β > γ, then at least one of the differences 90° − α, α −
-β, 
-β 
-− 
-γ 
-is 
-< 
-15°, 
-unless 
-α 
-= 
-75°, 
-β 
-= 
-60°, 
-γ 
-= 
-45°. 
-In 
-fact, 
+β,
+β
+−
+γ
+is
+<
+15°,
+unless
+α
+=
+75°,
+β
+=
+60°,
+γ
+=
+45°.
+In
+fact,
 6 See also a paper by the author in American Mathematical Monthly, vol. 48, pp. 450-465.
 7 T. L. Heath, The Thirteen Books of Euclid’s Elements, Cambridge, 1908, vol. 1, p. 138.
 8 Several points discussed in this article are more fully considered in the author’s paper, Acta
@@ -6740,16 +6732,16 @@ are given (product of both, divided by 3) but in the present case neither the ba
 nor the height is given. Could you imagine a more accessible related problem?
 (Don’t you see a more accessible tetrahedron which is an aliquot part of the
 given one?)
-10. 
-Do 
-you 
-know 
-a 
-related 
-theorem? 
-Do 
-you 
-know 
+10.
+Do
+you
+know
+a
+related
+theorem?
+Do
+you
+know
 a
 related . . . simpler . . . analogous theorem? Yes: the foot of the altitude is the
 midpoint of the base in an isosceles triangle. Here is a theorem related to yours
@@ -6866,7 +6858,7 @@ useful (or even necessary, as in the present case).
 by 8, the number 79_ must be divisible by 8 (since 1000 is divisible by 8) and so
 79_ must be 792: the last faded digit is 2. If _6792 is divisible by 9, the sum of
 its digits must be divisible by 9 (the rule about “casting out nines”) and so the
-first faded digit must be 3. The price of one turkey was (in grandfather’s time) 
+first faded digit must be 3. The price of one turkey was (in grandfather’s time)
 367.92 ÷ 72 = 5.11.
 6. “A point and a figure with a center of symmetry (in the same plane) are
 given in position. Find a straight line that passes through the given point and
@@ -6954,8 +6946,8 @@ follows
 t1 = t3;
 that is, Peter walks just as much as Paul. From the first equation, we find that
 which is, of course, also the value for t1/t2. Hence we obtain the answers:
-(a) 
-(b) 
+(a)
+(b)
 (c) In fact, 0 < p < c. There are two extreme cases:
 
 

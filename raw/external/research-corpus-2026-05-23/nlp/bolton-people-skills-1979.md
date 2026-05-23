@@ -9,10 +9,11 @@ chars: 705216
 approx_tokens: 176304
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 705218
+phase4_chars_after: 704851
+phase4_saved_pct: 0.1
 ---
-
-
-
 
 
 PEOPLE
@@ -416,8 +417,7 @@ THE ACHE OF LONELINESS
 Many people today yearn for warm, positive, meaningful relatedness to others,
 but seem unable to experience it. The psychiatrist Harry Stack Sullivan put it this
 way:
-The deepest problem of people is loneliness, isolation, and difficulty of self-
-esteem in our society. Whereas the problem in Freud’s early decades was sexual
+The deepest problem of people is loneliness, isolation, and difficulty of selfesteem in our society. Whereas the problem in Freud’s early decades was sexual
 repression, and the chief problem in the early thirties, when Karen Horney
 wrote, was disguised hostility, today it is loneliness.3
 There are two kinds of aloneness. Solitude can be a creative, joyous, full
@@ -555,11 +555,9 @@ Not many people have had models of effective communication in their home
 environments. The lucky few who have had such models seem to be “naturals”
 at communicating well. What seems natural, however, is usually the result of
 their good fortune at having learned to communicate effectively from early
-childhood. Many of us, however, were taught to communicate poorly by well-
-intentioned people who themselves were taught inadequate ways of relating. As
+childhood. Many of us, however, were taught to communicate poorly by wellintentioned people who themselves were taught inadequate ways of relating. As
 far as communication is concerned, many of us are victims of victims.
-We first experienced the training process at an early age. Parents or parent-
-substitutes rewarded some kinds of nonverbal behavior, like smiling, and they
+We first experienced the training process at an early age. Parents or parentsubstitutes rewarded some kinds of nonverbal behavior, like smiling, and they
 communicated displeasure over other kinds of nonverbal behavior such as
 “temper tantrums.” When we were still quite young, they helped us frame our
 first words. Then they trained us to speak in certain ways. No matter how badly
@@ -1032,8 +1030,7 @@ often implied, even when they are not stated directly.
 thwart honest self-expression, and invites pretense.
 Excessive or Inappropriate Questioning
 Some kinds of questions have their place in communication. But questions can
-be real conversation-stoppers, as illustrated in this familiar question-and-
-nonresponse routine:
+be real conversation-stoppers, as illustrated in this familiar question-andnonresponse routine:
 “Where did you go?”
 “Out.”
 “What did you do?”
@@ -1217,8 +1214,7 @@ conversation, being harmful to the relationship, triggering feelings of
 inadequacy, anger, or dependency in the other person, or all of these things. As a
 result of one or more of the twelve roadblocks, the other may become more
 submissive and compliant. Or she may become more resistant, rebellious, and
-argumentative. These barriers to conversation tend to diminish the other’s self-
-esteem and to undermine motivation. They decrease the likelihood that the other
+argumentative. These barriers to conversation tend to diminish the other’s selfesteem and to undermine motivation. They decrease the likelihood that the other
 will be self-determining—they increase the likelihood that she will put the focus
 of evaluation outside herself. Roadblocks are prevalent in our culture; they are
 used in over 90 percent of the conversations where one or both persons have a
@@ -1281,8 +1277,7 @@ the ability of people to understand and remember what they hear…. These
 extensive tests led to this general conclusion: immediately after the average
 person has listened to someone talk, he remembers only about half of what he
 has heard—no matter how carefully he thought he was listening. What happens
-as time passes? Our own testing shows … that … we tend to forget from one-
-half to one-third [more] within eight hours….5
+as time passes? Our own testing shows … that … we tend to forget from onehalf to one-third [more] within eight hours….5
 All too often the speaker’s words go “in one ear and out the other.”
 A major reason for the poor listening in our society is that most of us receive a
 very rigorous early training in nonlistening. The therapist Franklin Ernst says
@@ -1369,30 +1364,29 @@ SKILL CLUSTERS
 SPECIFIC SKILLS
 Attending Skills
 • A Posture of Involvement
- 
+
 • Appropriate Body Motion
- 
+
 • Eye Contact
 
 
- 
 • Nondistracting Environment
 Following Skills
 • Door Openers
- 
+
 • Minimal Encourages
- 
+
 • Infrequent Questions
- 
+
 • Attentive Silence
 Reflecting Skills
 • Paraphrasing
- 
+
 • Reflecting Feelings
- 
+
 • Reflecting Meanings (Tying Feelings to
 Content)
- 
+
 • Summative Reflections
 Definitions of each of the specific skills will be given as they are treated in this
 and the next chapter.
@@ -2419,8 +2413,7 @@ with Sigmund Freud in the year 1907. Jung had much that he wanted to talk
 about with Freud, and he spoke with intense animation for three whole hours.
 Finally Freud interrupted him and, to Jung’s astonishment, proceeded to group
 the contents of Jung’s monologue into several precise categories that enabled
-them to spend their remaining hours together in a more profitable give-and-
-take.7
+them to spend their remaining hours together in a more profitable give-andtake.7
 A summary can help a speaker understand herself more clearly. Gerard Egan
 gives this example:
 Counselor: Let’s go over what we have so far. You’re down, depressed—not just
@@ -3025,8 +3018,7 @@ the rough and tumble of one’s daily interactions. Ultimately the worth of
 
 reflective responses cannot be decided in the mind but must be decided on the
 basis of experience. As Thomas Carlyle, the English essayist, wrote, “Doubt of
-any sort cannot be removed except by action.”11 Constructive skepticism field-
-tests the hypotheses it is examining.
+any sort cannot be removed except by action.”11 Constructive skepticism fieldtests the hypotheses it is examining.
 The next two chapters contain guidelines that will help you develop improved
 reflecting skills. They will help you develop sufficient ability to give this
 approach to listening a fair trial.
@@ -3104,8 +3096,7 @@ them.”
 While body language has been a source of interpersonal understanding from the
 very beginning of the human race, only in the past few decades have behavioral
 scientists started making systematic observations of nonverbal meanings. They
-have developed intricate notational systems, filmed people interacting for slow-
-motion frame-by-frame analysis, and conducted thousands of other experiments.
+have developed intricate notational systems, filmed people interacting for slowmotion frame-by-frame analysis, and conducted thousands of other experiments.
 The scientific study of body language is still in its infancy, and though
 conclusions are somewhat speculative, major contributions have already been
 made to our understanding of human interaction. When we add this research of
@@ -4235,8 +4226,7 @@ described how David Kennedy witnessed, on the television screen, the death of
 his father, Robert Kennedy. The journalist Theodore White found the boy near
 shock from what he had seen. White “took David in his arms, held him close in
 bodily contact, and they wept together.”
-Touching can also be an intrusion. It can impede the process of self-
-understanding. The speaker, like many in our culture, may be uptight about any
+Touching can also be an intrusion. It can impede the process of selfunderstanding. The speaker, like many in our culture, may be uptight about any
 form of physical contact. Still, there are many times when a pat on the back, a
 warm touch, or a caring hug are very appropriate.
 Providing Factual Information
@@ -4460,8 +4450,7 @@ throb now.
 Neck and Head: (Sends more signals of physical discomfort.)
 Me: This is just the beginning, you say? It will be much worse soon.
 Neck & Head: (The muscles are still tense from the day’s emotional pressure.)
-Me: You want me to lay off and give you a rest before you develop into a full-
-blown headache. I bet you’d like a massage, too.
+Me: You want me to lay off and give you a rest before you develop into a fullblown headache. I bet you’d like a massage, too.
 
 
 Now at least you have heard your body complain about the way you are abusing
@@ -4665,8 +4654,7 @@ relationships. Being able to verbally and nonverbally communicate your positive
 and negative feelings, thoughts, and emotions without experiencing undue
 amounts of anxiety or guilt and without violating the dignity of others. Taking
 responsibility for what happens to you in life. Making more decisions and free
-choices. Being a friend to yourself and maintaining your own dignity and self-
-respect. Recognizing that you have certain rights and a value system that need
+choices. Being a friend to yourself and maintaining your own dignity and selfrespect. Recognizing that you have certain rights and a value system that need
 not be sacrificed. Being able to protect yourself from being victimized and taken
 advantage of by others. Discriminating as to when assertive behaviors may lead
 to negative as well as positive consequences.
@@ -4997,14 +4985,13 @@ of counteraggression or even of aggression. Though the theoretical sections in t
 into basic ethical dilemmas, I believe a strong and consistent case is made for trying to behave in
 ways that respect the rights and fulfill the needs of all parties in a transaction. Where that is not
 possible, conflict resolution methods and sound ethical judgment are required.
- 
+
 Submissive
 Assertive
 Aggressive
 EXAMPLE
- 
- 
- 
+
+
 In a packed theater, the
 people behind you keep
 talking in a fairly loud
@@ -5015,22 +5002,19 @@ enjoyment of the
 movie. The theater is so
 crowded that you
 cannot change seats.
- 
- 
- 
+
+
 Response A
- 
- 
- 
+
+
 You say nothing and
 suffer in silence.
 x
- 
- 
+
+
 Response B
- 
- 
- 
+
+
 You turn around and
 snarl at them, “Don’t
 you have any respect
@@ -5039,13 +5023,12 @@ shut up immediately,
 I’ll call the manager
 and have him throw
 you out of the theater.”
- 
- 
+
+
 x
 Response C
- 
- 
- 
+
+
 You turn around, look
 
 
@@ -5056,9 +5039,8 @@ enjoyment of the
 movie.”
 x
 SITUATION #1
- 
- 
- 
+
+
 A school principal
 makes frequent
 announcements over
@@ -5066,13 +5048,11 @@ the loudspeaker system
 and interrupts Mr.
 Jones’s classroom
 unnecessarily.
- 
- 
- 
+
+
 Response A
- 
- 
- 
+
+
 Mr. Jones says, “When
 you make
 announcements over
@@ -5083,41 +5063,34 @@ teaching, I feel
 frustrated because my
 lessons are
 interrupted.”
- 
- 
- 
+
+
 Response B
- 
- 
- 
+
+
 Mr. Jones is furious,
 thinking how
 insensitive the principal
 is. But Jones keeps his
 feelings to himself.
- 
- 
- 
+
+
 Response C
- 
- 
- 
+
+
 Mr. Jones says to the
 principal, “What kind
 of jerk are you sending
- 
- 
- 
- 
+
+
 Submissive
 Assertive
 Aggressive
 messages over the speaker system at all times of the day? Can’t you get organized enough to do them
 at one time? If you were much of an educator, you’d mimeograph the stupid announcements!”
 SITUATION #2
- 
- 
- 
+
+
 Carlos Santos is often physically and emotionally drained when he returns home from his day at
 work. As soon as he comes into the house, his wife tells him about all the trouble she’s had during the
 day. Carlos needs a breather. He doesn’t want to listen to anyone for a few minutes. He needs to
@@ -5125,23 +5098,20 @@ center himself first.
 
 
 Response A
- 
- 
- 
+
+
 Carlos is seething inside while he half-listens to her words. Sometimes he glances at the newspaper
 while she is talking, hoping she will take the hint. All the time he thinks, “Boy, is she selfish. If she
 loved me, she would know how I feel right now.”
 Response B
- 
- 
- 
+
+
 Carlos storms around the room screamihg at her, “You are the most selfish person I’ve ever known.
 All I want is a few minutes peace and quiet when I get home from work. But what do I get? Your
 depressing babble. I’m sick of it and I’m sick of you.”
 Response C
- 
- 
- 
+
+
 Carlos immediately tells Mrs. Santos how tired he is and how much he needs a period of quiet before
 dinner. He says that unless there is something very pressing, he would like to wait until after dinner
 to hear about the events of her day, adding that he would also like to tell her about his day.
@@ -5433,8 +5403,7 @@ increasingly dangerous to casually enjoy simple pleasures we once took for
 granted. The evening stroll in the park, the freedom to leave one’s possessions
 momentarily unattended in a public place or one’s home vacant during a holiday,
 the fun of seeking treats on Halloween—these are a few of the “routine personal
-pleasures” that can no longer be enjoyed without carefully premeditated self-
-protection. A growing distrust and fear hamper the pleasure and freedom of
+pleasures” that can no longer be enjoyed without carefully premeditated selfprotection. A growing distrust and fear hamper the pleasure and freedom of
 aggressive, submissive, and assertive people alike.
 War is the most devastating problem we face. Today the incredible horrors of
 thermonuclear, chemical, and bacteriological warfare threaten the very survival
@@ -5449,8 +5418,7 @@ only factor in building a sense of self-worth, there is much truth in therapist
 Herbert Fensterheim’s claim that “the extent to which you assert yourself
 determines the level of your self-esteem.”
 A second benefit: of assertion is that it fosters fulfilling relationships. Assertion
-releases much positive energy toward others. Less preoccupied by self-
-consciousness and anxiety and less driven by the needs for self-protection or
+releases much positive energy toward others. Less preoccupied by selfconsciousness and anxiety and less driven by the needs for self-protection or
 control, the assertive: person can “see,” “hear,” and love others more easily.
 Assertion makes you more comfortable with yourself, and therefore others find it
 more comfortable to be with you. The richest and most wholesome intimate
@@ -5461,8 +5429,7 @@ behavior. There is another important dimension to intimacy, however, which is
 
 
 frequently overlooked. In their book The Intimate Marriage, Howard and
-Charlotte Clinebell point out that intimacy is “the degree of mutual need-
-satisfaction within the relationship.” Healthy, mutual need-satisfaction can only
+Charlotte Clinebell point out that intimacy is “the degree of mutual needsatisfaction within the relationship.” Healthy, mutual need-satisfaction can only
 occur between mutually assertive people. The finest marriages, friendships, and
 parent-child relationships are the fruit of assertive living.
 Then, too, assertive behavior greatly reduces a person’s fear and anxiety.
@@ -5691,8 +5658,7 @@ haul. It is normally a bonding factor between mature people.
 5. There is a low risk of diminishing motivation.
 6. There is little likelihood that defensiveness will escalate to destructive
 levels. An assertion message can be phrased in ways that are less likely to
-provoke excessive defensiveness in the other person. And defensiveness-
-reducing methods can be used when the other person does experience
+provoke excessive defensiveness in the other person. And defensivenessreducing methods can be used when the other person does experience
 greater stress.
 The three-part assertion message meets the above criteria. It begins with a
 description of the offending behavior and includes a description of the
@@ -5708,11 +5674,10 @@ Behavior
 When you don’t clean the counter
 after making snacks,
 +
- 
+
 Feelings
 I feel very annoyed
 +
- 
 
 
 Effects
@@ -5769,8 +5734,7 @@ People often find it hard to believe that the trespasser may not know what
 behavior you want modified. They repeatedly tell us, “Don’t be ridiculous. He
 knows it bugs me. He just doesn’t care enough to stop doing it.” Sometimes, of
 course, the offending party was well aware of his actions and the negative effects
-those behaviors had on the other person. Even in those circumstances, a well-
-executed assertion message will often prevent a repetition of that behavior.
+those behaviors had on the other person. Even in those circumstances, a wellexecuted assertion message will often prevent a repetition of that behavior.
 Frequently, however, people who were certain that the intruder was aware of
 how a specific behavior violated their space learned differently when they sent
 an assertion message. Many are surprised to find that the trespasser had no idea
@@ -6156,7 +6120,7 @@ behavior to meet the asserter’s needs. I estimate that by using this type of
 assertion I have been able to satisfy my needs about 90 to 95 percent of the time.
 Let’s look at some examples of tangible effects from the assertions made by
 some of our workshop participants.
- 
+
 Behavior
 Description
 Disclosure
@@ -6398,8 +6362,7 @@ Handling
 The Push-Push Back
 Phenomenon
 Crisis in dialogue occurs when the participants … fail really to address each
-other but turn away defensively, each within himself, for the purposes of self-
-justification.
+other but turn away defensively, each within himself, for the purposes of selfjustification.
 —Reuel Howe, theologian
 SURPRISE ATTACK
 Picture this scene. Someone has trespassed on your space, causing an adverse
@@ -6632,8 +6595,7 @@ assertive.
 Clara’s Verbal Message
 Clara’s Body Language
 When we … uh … set our date for … uh …
-seven o’clock and … er … you come at eight-
-fifteen I feel … uh … frustrated because I
+seven o’clock and … er … you come at eightfifteen I feel … uh … frustrated because I
 couldn’t continue painting my room once I got
 dressed up.
 Voice soft. Hesitant speech. Lots of “uhs” and
@@ -7339,8 +7301,7 @@ to stimulate a defensive reaction.”
 
 To help the recipient receive our descriptive-recognition message, we must be
 prepared to listen to his defensive comments, reflect back the meanings, and then
-state the message again. This rhythm between sending the descriptive-
-recognition message and reflectively listening to a defensive response is similar
+state the message again. This rhythm between sending the descriptiverecognition message and reflectively listening to a defensive response is similar
 to the confrontative assertion process except that the sending/reflecting process
 is only recycled once or twice.
 These “matchless units of life sustaining recognition” build self-esteem, foster
@@ -7544,8 +7505,7 @@ development and/or to my enjoyment of life.
 3. Noncontributing relationships—these neutral encounters do nothing for me.
 4. Mildly toxic relationships—these slightly diminish my selfhood and/or my
 enjoyment of life.
-5. Very toxic relationships—these excessively demanding, hostile, or nerve-
-wracking relationships are very depleting to me.
+5. Very toxic relationships—these excessively demanding, hostile, or nervewracking relationships are very depleting to me.
 Sometimes a given relationship will be both nourishing and toxic.
 Each of us experiences many toxic relationships. Toxic relationship may be with
 
@@ -7562,8 +7522,7 @@ choose to live in a physically toxic environment if I had a good alternative, so
 why should I poison myself interpersonally when I have other options?
 If the relationship is an important one, I try to use self-modification methods and
 assertion skills to improve the interaction between us. With one person in
-particular, this has been a long and sometimes painful (but primarily growth-
-filled rather than toxically painful) process. In this particular case, and in some
+particular, this has been a long and sometimes painful (but primarily growthfilled rather than toxically painful) process. In this particular case, and in some
 others, the effort was well spent. The relationship is now primarily nurturing and
 satisfying. In another situation, we struggled for years to improve the
 relationship which was important to both of us. Despite the fact that we both
@@ -8032,8 +7991,7 @@ can be traumatic for all involved. Many could avoid the excesses with effective
 coaching and self-discipline.
 Some people use assertion methods but have an aggressive spirit. Their approach
 is not collaborative. It is not win/win. My colleagues and I once were discussing
-the fact that our relationships with some assertive people were largely hassle-
-free. In other relationships, the people seemed assertive because they were using
+the fact that our relationships with some assertive people were largely hasslefree. In other relationships, the people seemed assertive because they were using
 assertive methods. But they confronted over many little things. They asserted at
 the “drop of a hat.” We finally decided there was a fourth category on the
 assertion continuum. Besides people who are submissive, assertive, and
@@ -8478,8 +8436,7 @@ needless conflict and for the resolution of the conflicts that are inevitable in
 relationship or organization. My bias is that presentations alone are virtually
 useless. To be able to use sound methods in stressful conflict situations requires
 skill development. Further conflict management skills should be taught as part of
-a training program that includes listening, assertion, and collaborative problem-
-solving skills. Finally, the training should be but one aspect of the family or
+a training program that includes listening, assertion, and collaborative problemsolving skills. Finally, the training should be but one aspect of the family or
 organization’s effort to utilize conflict better. Agreed-upon ways of preventing
 and resolving conflict, adequate channels of communication, mechanisms for
 handling grievances—these and other methods when combined with effective
@@ -8587,8 +8544,7 @@ handling emotion-laden disagreements. This process encourages assertive
 communication and the expression of feeling, but it does not permit the typical
 verbal free-for-all which blocks creative resolution of conflict and which tends to
 be very destructive of relationships. The three-step process of conflict resolution
-helps people fight constructively—in a systematic, noninjurious, growth-
-producing way.
+helps people fight constructively—in a systematic, noninjurious, growthproducing way.
 Step 1: Treat the Other Person
 with Respect
 What does it mean to treat the other person with respect in the midst of a
@@ -8901,8 +8857,7 @@ the next opportunity arose. He didn’t have long to wait. This is Bart’s acco
 what happened:
 Jim started a fight with a child in another class. During the slugfest some school
 equipment was broken. When Jim and I talked about this type of thing
-previously we seemed to get nowhere. This time I resolved to use the one-two-
-three method.
+previously we seemed to get nowhere. This time I resolved to use the one-twothree method.
 I asked Jim to go to my room and wait for me while I took the rest of the class to
 the library. When I went to my room, Jim looked like he was ready to “fly off the
 handle” with me, as he had on so many previous occasions. I sat down next to
@@ -9172,17 +9127,17 @@ Other’s Need
 To have transportation to do necessary
 shopping tonight.
 To have for an important date.
- 
+
 To have our home telephone “open” for an
 
 
 expected long-distance call.
 To talk with friends about a mutual problem.
- 
+
 To have important typing projects completed.
 To be with your young children because of
 problems with a babysitter.
- 
+
 To have the grounds of our Conference Center
 look well.
 To avoid aches caused by the use of heavy
@@ -9402,8 +9357,7 @@ After training thousands of people—managers, teachers, parents, health care
 professionals, salespersons, therapists, clergy, and so on—our staff believe that it
 comes as a surprise to most people to discover that a win/win method exists
 which can actually resolve many of the thorniest interpersonal issues they face.
-Many have told us how gratifying it is to be released from the win/lose, mini-
-lose/mini-lose, and lose/lose methods of problem solving that they have been
+Many have told us how gratifying it is to be released from the win/lose, minilose/mini-lose, and lose/lose methods of problem solving that they have been
 locked into for years.
 Of course, many people are skeptical that win/win methods can work in the “real
 world.” When I mention Mary Parker Follett’s examples of opening a window in
@@ -9588,14 +9542,12 @@ from assertion) is difficult and time-consuming when first learning
 
 communication skills. With practice, however, it becomes much easier and
 somewhat quicker.
-Defining the problem in terms of needs, which is the first step of the problem-
-solving method, often takes about half of the time required for the whole
+Defining the problem in terms of needs, which is the first step of the problemsolving method, often takes about half of the time required for the whole
 process. To repeat, it requires asserting one’s own needs, listening reflectively
 until you understand the other person’s needs, and then stating both sets of needs
 in a one-sentence-long summary of the problem. Except for very simple or very
 difficult problems I figure on five to twenty minutes for this step. It’s well worth
-the time involved. As the old saying has it, “A problem well defined is half-
-solved.”
+the time involved. As the old saying has it, “A problem well defined is halfsolved.”
 Step 2: Brainstorm Possible
 Solutions
 Once the problem is adequately defined, the search for possible solutions begins.
@@ -9661,10 +9613,8 @@ even if one person makes a contribution which is adopted, it is a group effort.
 
 
 Focusing on who gave words to the idea is dysfunctional.
-Research findings demonstrate that it is important not to come into a problem-
-solving session with the attitude that there is only one adequate solution to this
-conflict.17 Solution rigidity is responsible for the failure of many problem-
-solving efforts. Once you begin utilizing this process regularly, you will
+Research findings demonstrate that it is important not to come into a problemsolving session with the attitude that there is only one adequate solution to this
+conflict.17 Solution rigidity is responsible for the failure of many problemsolving efforts. Once you begin utilizing this process regularly, you will
 probably be amazed at the number of “elegant” solutions there are for very
 difficult problems.
 Step 3: Select the Solution
@@ -9719,8 +9669,7 @@ important activity.
 Step 4: Plan Who Will Do What,
 Where, and by When
 Sometimes people are so elated at arriving at a decision that meets everyone’s
-diverse needs that they celebrate prematurely rather than work out the nitty-
-gritty of how the solution will be implemented. However, a solution is no better
+diverse needs that they celebrate prematurely rather than work out the nittygritty of how the solution will be implemented. However, a solution is no better
 than its implementation. The parties involved need to decide who will do what,
 where, and by when. Sometimes determining the how—the methods to be
 utilized—is also important. It is helpful, too, to specify times when the people
@@ -9791,19 +9740,19 @@ Your needs are important to me; you are
 important to me. I am important enough to have
 my needs expressed and heard. We really can
 understand one another.
- 
+
 II. Brainstorm possible solutions.
 I value your creative thinking and mine, and
 believe that together we can be even more
 creative in dealing with our common problem.
- 
+
 III. Select the solutions(s) that will meet both
 (all) parties’ needs—and check possible
 consequences.
 I want you to have your needs satisfied, I want
 my needs satisfied, and I won’t accept either
 one of us denying our uniqueness.
- 
+
 You and I are willing to make joint decisions
 
 
@@ -9811,7 +9760,7 @@ IV. Plan who will do what, where, and by
 When.
 and coordinated plans to assist each other in
 getting our needs met.
- 
+
 V. Implement the plan.
 You and I have the power to change our
 behaviors in ways that can enhance our lives
@@ -9823,7 +9772,7 @@ You and I want to continually improve the way
 we solve problems that arise between us. In
 honesty and caring we will discuss our feelings
 about this interaction.
- 
+
 and the solution.
 We are not locked into any solution, policy, or
 program. If our decision is not as good for us as
@@ -9876,8 +9825,7 @@ complicated projects, each requiring the use of a special clamp. The shop was
 equipped with only one of these clamps, and, since both students were aware of
 this, each had decided he would use it first. Their anxiety over not being able to
 complete the project resulted in the fight in the hall.
-At my suggestion, the two boys decided to try using the collaborative problem-
-solving method. The problem was that each boy needed to complete his project
+At my suggestion, the two boys decided to try using the collaborative problemsolving method. The problem was that each boy needed to complete his project
 before the end of the term which was close at hand.
 Five possible solutions were generated by the brainstorming:
 
@@ -9932,8 +9880,7 @@ The next preliminary is to write out the assertion message with which you will
 start out the problem-solving session. Yes, write it out. It is very important for
 you to be very clear about your own needs and able to state them accurately and
 nonjudgmentally. By now, you may think you are a seasoned pro at writing
-assertion messages. Nontheless, there is a high probability that the problem-
-solving session will be more productive if you are prepared with a well-worded
+assertion messages. Nontheless, there is a high probability that the problemsolving session will be more productive if you are prepared with a well-worded
 message that you have committed to writing (usually for your eyes only).
 When you begin the problem-solving session, explain the method you would like
 to use and why you would like to use it. I find two compelling reasons for using
@@ -10020,8 +9967,7 @@ that they don’t care about you or about the agreed-upon solution. It can be
 important, therefore, to set and use realistic checkpoints to evaluate the progress
 you are making in the resolution of your joint problem.
 Smoke Out Hidden Agendas
-Sometimes when people are not making adequate progress in the problem-
-solving process it is due to an underlying problem that has not been brought into
+Sometimes when people are not making adequate progress in the problemsolving process it is due to an underlying problem that has not been brought into
 the open. This problem constitutes a large emotional barrier between the two
 people. When this seems to be the case, you may wish to offer a door opener
 like, “Seems like something is hanging us up. Is there something else in our
@@ -10126,8 +10072,7 @@ group adds them. When some rules prove unnecessary, they are dropped by
 group action. When the “principle of participation” is employed in the setting of
 rules, they tend to make more sense to people and to be observed with greater
 regularity.
-Someone once said that life is a procession of problems. This six-step problem-
-solving process can also be used by a single individual for the various personal
+Someone once said that life is a procession of problems. This six-step problemsolving process can also be used by a single individual for the various personal
 problems in her life that could benefit from a systematic approach.
 SUMMARY
 There are several alternatives to collaborative problem solving—including denial
@@ -10193,8 +10138,7 @@ Empirical data show that high levels of these key attitudes in therapists lead t
 constructive relationships with clients. Low levels are associated with harmful
 therapist-client interactions. Other data show that teachers who embody these
 qualities foster greater student achievement than teachers who are deficient in
-them. A student with these qualities is likely to improve his roommate’s grade-
-point average substantially.
+them. A student with these qualities is likely to improve his roommate’s gradepoint average substantially.
 Physicians and nurses can facilitate a patient’s return to health through the
 
 
@@ -10235,8 +10179,7 @@ impossible to be completely self-revealing, but is committed to a responsible
 
 
 honesty and openness with others.
-Genuineness has three ingredients: self-awareness, self-acceptance, and self-
-expression.
+Genuineness has three ingredients: self-awareness, self-acceptance, and selfexpression.
 Self-Awareness
 The noted nineteenth-century political cartoonist Thomas Nast once attended a
 party with a group of friends. Someone asked him to draw a caricature of
@@ -10447,8 +10390,7 @@ Acceptance is best defined as an attitude of neutrality toward another person or
 persons. When a person is accepting, he offers an atmosphere largely
 uncontaminated by evaluations of the other’s thoughts, feelings, or behaviors.
 The other person can cry or laugh or be angry—and even if his behavior is
-disliked, he is accepted. For that reason, I sometimes call acceptance “in-spite-
-of-love.” I can often provide an atmosphere of neutrality for the other in spite of
+disliked, he is accepted. For that reason, I sometimes call acceptance “in-spiteof-love.” I can often provide an atmosphere of neutrality for the other in spite of
 the fact that his behaviors and outlooks may not correspond with my values, and
 may even conflict with them.
 Every person stands in need of acceptance. No one is perfect. Everyone has
@@ -10507,8 +10449,7 @@ accepting and confrontative at the same time.
 Respect: Another
 Core Element of Love
 Genuine love respects what Buber refers to as the “elemental otherness of the
-other.” It recognizes the sanctity of the other’s privacy, it supports his self-
-direction, and it fosters greater potency rather than greater dependency on the
+other.” It recognizes the sanctity of the other’s privacy, it supports his selfdirection, and it fosters greater potency rather than greater dependency on the
 other’s part. Love maintains a reverence—a distance—in the relationship.
 Real love is not intrusive. It does not violate the privacy of others. It does not try
 to force its way into the inner sanctum of another’s personality.
@@ -10675,8 +10616,7 @@ the grief of another at a funeral home that the bereaved had to console his
 supposed comforter.
 Sympathy is defined as “feeling for” another person in contrast to empathy,
 which is “feeling with” the other. Sympathy, though it does not come from a
-position of strength, is often condescending. It frequently conveys an “Oh-you-
-poor-thing” attitude. It weakens its receiver just when the person most needs to
+position of strength, is often condescending. It frequently conveys an “Oh-youpoor-thing” attitude. It weakens its receiver just when the person most needs to
 maintain his own strength.
 There is a strong tendency for sympathy to sink into sentimentality.
 Sentimentality is the inappropriate experience and enjoyment of one’s emotions.
@@ -10854,122 +10794,50 @@ Oct
 November
 December
 Jan
-20
-27
-3
+
+
 10 17 24 1
-8
+
 15 22 29
-5
-12
- 
- 
+
+
 Attending
 5/wk
-6
-4
-5
-0
+
+
 3 12
-8
-3
-4
-6
-14
-6
-4
+
+
 Reflective Listening
 2/wk
-3
-2
-1
-0
-4
-6
-3
-3
-2
-0
-4
-3
- 
+
+
 Logical
 Consequences
 2/mo
-1
-0
-1
-0
-1
-1
-0
-1
-1
-0
-1
-0
-0
+
+
 3-Part Assertion
 1/wk
-3
-2
-3
-1
-2
-1
-1
-1
-0
-1
-0
-2
-1
+
+
 Descriptive
 Recognition
 4/wk
-4
-3
-0
-0
+
+
 0 14
-5
-6
-4
-7
-18
-8
-9
+
+
 Conflict Reduction
 2/mo
-0
-1
-1
-0
-7
-0
-0
-1
-2
-0
-1
-0
-0
+
+
 Collaborative
 Problem Solving
 2/mo
-1
-0
-2
-0
-0
-1
-2
-0
-1
-1
-0
-1
-1
+
+
 Every Friday afternoon, Harry reviewed his commitment and recorded on the
 chart the number of times he used each skill. He said, “It’s amazing how using
 the chart helped me to persist in using the skills. There were times, like the week
@@ -11096,8 +10964,7 @@ teaching the course. When these problems are not present, research suggests that
 participants can increase their ability with the skills in a remarkably brief
 period.2
 It is my strong conviction that, with rare exceptions, a high level of
-communication effectiveness is seldom achieved without an intensive and well-
-designed training program. For these reasons I would encourage you to be highly
+communication effectiveness is seldom achieved without an intensive and welldesigned training program. For these reasons I would encourage you to be highly
 selective and critical in choosing a communications training program if that is a
 possible direction for you. Organizations that desire more information about the
 training programs that my colleagues and I designed to teach the skills described
@@ -11170,8 +11037,7 @@ Children (New York: Peter H. Wyden, 1970), pp. 44, 108.
 3Carl Rogers , Client-Centered Therapy: Its Current Practice, Implications, and Theory (Boston:
 Houghton Mifflin, 1951); note especially 31. See also Carl Rogers , On Becoming a Person: A
 Therapist’s View of Psychotherapy (Boston: Houghton Mifflin, 1961). Copyright © 1961 by Carl R.
-Rogers. Reprinted by permission of Houghton Mifflin Co. Howe, The Miracle of Dialogue , pp. 18-
-35. Haim Ginott , Between Parent and Child: New Solutions to Old Problems (New York: Macmillan,
+Rogers. Reprinted by permission of Houghton Mifflin Co. Howe, The Miracle of Dialogue , pp. 1835. Haim Ginott , Between Parent and Child: New Solutions to Old Problems (New York: Macmillan,
 1965). See also Ginott ’s Between Parent and Teenager (New York: Avon, 1969) and Teacher and
 Child: A Book for Parents and Teachers (New York: Macmillan, 1972). Jack Gibb “Defensive
 Communication,” in Leadership and Interpersonal Behavior, edited by Luigi Petrullo and Bernard M.
@@ -11695,8 +11561,7 @@ Psychology 22 (1957); 95-110.
 3John O. Stevens , Awareness: Exploring, Experimenting, Experiencing (New York: Bantam Books,
 1973).
 4David Duncombe, The Shape of the Christian Life (New York: Abingdon Press, 1969).
-5Margery Williams , The Velveteen Rabbit, or How Toys Become Real (New York: Avon, 1975), pp. 16-
-17.
+5Margery Williams , The Velveteen Rabbit, or How Toys Become Real (New York: Avon, 1975), pp. 1617.
 6Carl Rogers , On Becoming a Person: A Therapist’s View of Psychotherapy (Boston: Houghton Mifflin,
 1961). Copyright © 1961 by Carl R. Rogers. Reprinted by permission of Houghton Mifflin Co., and
 that of Constable Publishers, London.
@@ -11913,7 +11778,7 @@ Hosea, 195
 Howe, Reuel, 14, 15, 158
 Hugo, Victor, 82
 Human Territories: How We Behave in Space-Time (Scheflen and Ashcroft), 34,
-120
+
 Huxley, Thomas Henry, 132
 I
 Ibsen, Henrik, 93
@@ -12125,8 +11990,7 @@ included. 43827-1  $8.95
 A New Beginning: How You Can Change Your Life Through Cognitive
 Therapy
 by Gary Emery, Ph.D.
-A clinical psychologist explains how cognitive therapy, an effective and easy-to-
-use self-help strategy, can give women a new, positive outlook on life that can
+A clinical psychologist explains how cognitive therapy, an effective and easy-touse self-help strategy, can give women a new, positive outlook on life that can
 prevent the recurrence of depression. Anxiety and sadness, weight control,
 alcoholism and drug dependency, suicidal feelings, and other problems related to
 depression are addressed through a program that works to increase self-reliance
@@ -12145,8 +12009,7 @@ Transformations not only describes those crises and changes, but also explains
 
 
 why they are predictable and how we can cope with them creatively. “A
-revolutionary book.”—Psychotherapy and Social Science Review 25066-
-3  $8.95
+revolutionary book.”—Psychotherapy and Social Science Review 250663  $8.95
 Vital Lies, Simple Truths: The Psychology of Self-Deception
 by Daniel Goleman
 New York Times behavioral science writer Daniel Goleman draws on fields from

@@ -9,11 +9,13 @@ chars: 2008038
 approx_tokens: 502009
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 2008040
+phase4_chars_after: 2003382
+phase4_saved_pct: 0.2
 ---
 
 Table of Contents
-
-
 
 
 Table of Contents
@@ -732,15 +734,12 @@ Bhatnagar, Nancy Nowacek, Mark Owens, Peter Lee, and Julian Kücklich;to our own
 who helped inspired clarity and invention; to Doug Sery and therest of MIT Press; and most of all to our
 families and friends, who waited patiently for us to join themback in the real world. We could not have done it
 without you.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Rules of Play - Game Design Fundamentals
-1
 
-
-2
 Rules of Play - Game Design Fundamentals
-2
+
 Rules of Play - Game Design Fundamentals
 
 
@@ -791,8 +790,6 @@ do with a computer?" Compare that with the current crop of computer games, the m
 be addressing the question "What can you do while controlling an avatar that is moving through a simulated
 three-dimensional space?"
 Foreword
-1
-
 
 This, then, is what is at stake: a vast discrepancy between the radical possibilities contained in the medium
 and the conservative reality of mainstream game development. And this is the way in which Rules of Play is
@@ -828,11 +825,11 @@ evolution will take. At this stage the entire field has the unpredictable energy
 balanced on one thin edge, still vulnerable to the effects of even a slight pressure. Under the guise of
 examining this curious object, the authors of Rules of Play are giving it an energetic shove.
 Of course, if you are holding this book then you also have a hand in it yourself.
- < Day Day Up > 
- < Day Day Up > 
-2
+ < Day Day Up >
+ < Day Day Up >
+
 Foreword
-2
+
 Foreword
 
 
@@ -879,8 +876,6 @@ sport.
 It is fun. Simple though it may seem, it is genuinely fun to interact with Pong. Players derive
 pleasure from the game for many different reasons, from the pleasure of competition and
 Preface
-1
-
 
 winning to the satisfyingly tactile manipulation of the knob.
 It is cool. As a cultural artifact, Pong is a poster child for the hip, low-fi graphics of classic
@@ -919,11 +914,11 @@ We're all in this together. Are you ready to play?
 Katie Salen and Eric
 Zimmerman New York City, May 2003
 [1]Scott Cohen, Zap: The Rise and Fall of Atari (New York: McGraw-Hill, 1984), p. 17.
- < Day Day Up > 
- < Day Day Up > 
-2
+ < Day Day Up >
+ < Day Day Up >
+
 Preface
-2
+
 Preface
 
 
@@ -951,7 +946,7 @@ in the service of another field such as sociology, literary criticism, or comput
 games within their own disciplinary space. Because game design is an emerging discipline, we often borrow
 from other areas of knowledge- from mathematics and cognitive science; from semiotics and cultural studies.
 We may not borrow in the most orthodox manner, but we do so in the service of helping to establish a field of
-game design proper. 
+game design proper.
 This book is about game design, not game development. It is not a "how to" book, offering tips and tricks for
 making successful digital games. It is not a book about digital game programming or choosing development
 tools; it is not about writing design documents or generating game ideas. And it is definitely not about
@@ -973,14 +968,12 @@ emerging academic study of games in fields as diverse as sociology, media studie
 Engagement with ideas, like engagement with a game, is all about the play the ideas make possible. Even if
 you are not a game designer, we think you will find something here that lets you play with your own line of
  Chapter 1: What Is This Book About?
-1
-
 
 work in a new way.
 [1]E.M. Avedon, "The Structural Elements of Games," In The Study of Games, edited by E.M. Avedon and
 Brian Sutton-Smith (New York: Wiley, 1971), p. 438.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Establishing a Critical Discourse
 One way to describe the project of this book is to say that we are working to establish a critical discourse for
 game design. We agree with veteran game designer Warren Spector that "It is absolutely vital that we start to
@@ -990,20 +983,20 @@ ways of talking about games and how they function.
 What is the point of establishing a critical discourse? Simply put, a critical vocabulary lets us talk to each
 other. It lets us share ideas and knowledge, and in doing so, expands the borders of our emerging field. Media
 theorist and game scholar Henry Jenkins identifies four ways that building a critical discourse around games
-can assist not just game designers, but the field as a whole: 
+can assist not just game designers, but the field as a whole:
 Training: A common language facilitates the education of game designers, letting them explore their
 medium in more variety and depth.
-• 
+•
 Generational Transfer: Within the field, a disciplinary vocabulary lets game designers and developers
 pass on skills and knowledge, rather than solving the same problems over and over in isolation.
-• 
+•
 Audience-building: In finding a way to speak about them, games can be reviewed, critiqued, and
 advertised to the public in more sophisticated ways.
-• 
+•
 Buffer Against Criticism: There are many factions that would seek to censor and regu late the content
 and contexts for gaming, particularly computer and video games. A critical discourse gives us the
 vocabulary and understanding to defend against these attacks.[3]
-• 
+•
 Creating a critical discourse requires that we look at games and the game design process from the ground up,
 proposing methods for the analysis of games, assessing what makes a great game great, and asking questions
 about what games are and how they function. The result is a deeper understanding of game design that can
@@ -1021,9 +1014,9 @@ ability to serve as a critical tool for understanding and solving design problem
 definitions, our intention is not to exclude other definitions that might complement or contradict our own. We
 wholeheartedly acknowledge that our definitions, concepts, and models leave some things out and work better
 in some circumstances than others. But this doesn't lessen their overall utility.
-2
+
  Chapter 1: What Is This Book About?
-2
+
  Chapter 1: What Is This Book About?
 
 
@@ -1034,8 +1027,8 @@ discussion and dialogue as well as virulent debate and disagreement.
 [3]"Computer and Video Games Come of Age. A National Conference to Explore the Current State of an
 Entertainment Medium." February 10-11, 2000. Comparative Media Studies Department, MIT. Transcripts.
 Henry Jenkins.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Ways of Looking
 A game is a particular way of looking at something, anything. -Clark C. Abt, Serious Games
 Social theorist Clark C. Abt makes a powerful suggestion. In his claim that a game is a particular way of
@@ -1061,7 +1054,7 @@ Is this approach appropriate for design? Absolutely. In his book Notes on the Sy
 Christopher Alexander wrestles with the challenges of design, describing a methodology that centers on the
 inherent complexity of design problems. His argument is based in part on the assumption that clarity in form
 cannot be achieved until there is first clarity in the designer's mind and actions. Alexander asks us to consider
-the range of factors affecting the design of a kettle. 
+the range of factors affecting the design of a kettle.
 Let us look again at just what kind of difficulty the designer faces. Take, for example, the
 design of a simple kettle. He has to invent a kettle, which fits the context of its use. It must
 not be too small. It must not be hard to pick up when it is hot. It must not be easy to let go of
@@ -1070,10 +1063,8 @@ of. It must pour cleanly. It must not let the water in it cool too quickly. The 
 out of must not cost too much. It must be able to withstand the temperature of boiling water.
 It must not be too hard to clean on the outside. It must not be a shape which is too hard to
  Chapter 1: What Is This Book About?
-3
- Chapter 1: What Is This Book About?
-3
 
+ Chapter 1: What Is This Book About?
 
 machine. It must not be a shape which is unsuitable for whatever reasonably priced metal it is
 made of. It must not be too hard to assemble, since this costs man-hours of labor. It must not
@@ -1094,34 +1085,34 @@ phenomenon from a single perspective. To do so would be to miss most of the desi
 solution? Game design schemas.
 [4]Jesper Juul, Digital Arts and Culture Conference at Brown University, 2001.
 [5]Christopher Alexander, Notes on the Synthesis of Form (Cambridge: Harvard University Press, 1964), p.60
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Game Design Schemas
 Most of the chapters of this book are organized under the heading of a game design schema. A schema is a
 way of framing and organizing knowledge. A game design schema is a way of understanding games, a
 conceptual lens that we can apply to the analysis or creation of a game. What are some of the game design
 schemas we employ in the course of this book? We look at games through the mathematical lens of
 probability. We look at them as contexts for social interaction. We look at games as storytelling systems. We
-look at them as sites of cultural resistance. We do so in every case from the point of view of game design. 
+look at them as sites of cultural resistance. We do so in every case from the point of view of game design.
 We organize these varied points of view according to three primary schemas, each one containing a cluster of
 related schemas. Our primary schemas are RULES, PLAY, and CULTURE:
 RULES contains formal game design schemas that focus on the essential logical and mathematical
 structures of a game.
-• 
+•
 PLAY contains experiential, social, and representational game design schemas that foreground the
 player's participation with the game and with other players.
-• 
+•
 CULTURE contains contextual game design schemas that investigate the larger cultural contexts
 within which games are designed and played.
-• 
+•
 These schemas not only organize ways of looking at games but also, when taken as a whole, offer a general
 method for the study of game design. Each schema brings certain aspects of games to light, while building on
 previous schemas to arrive at a multivalent understanding of games. The three primary schemas are neither
 mutually exclusive nor scientific in nature. We have not created them as a taxonomy, in order to say "this is a
 feature of RULES, not a feature of PLAY."Rather, they are conceptual design tools to help focus our thinking
-4
+
  Chapter 1: What Is This Book About?
-4
+
  Chapter 1: What Is This Book About?
 
 
@@ -1129,18 +1120,18 @@ for particular design problems.
 As a framework, RULES, PLAY, CULTURE is not merely a model for game design. It also represents a
 way of understanding any kind of design. Consider the model applied more broadly:
 RULES = the organization of the designed system
-• 
+•
 PLAY = the human experience of that system
-• 
+•
 CULTURE = the larger contexts engaged with and inhabited by the system
-• 
+•
 In analyzing or creating a typeface, for example, you might study the formal rules of the system (how the
 visual weights of the letterforms relate to each other), the play of the system (the kind of reading experience
 that the typeface engenders), or the cultural aspects of the system (historical references and the contexts where
 the typeface will be seen). RULES, PLAY, and CULTURE is a structure that can facilitate critical design
 thinking in any design field.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Game Design Fundamentals
 Rules of Play is a book about fundamentals. As a design practice, game design has its own essential
 principles, a system of ideas that define what games are and how they work. Innovation in the field can grow
@@ -1149,7 +1140,7 @@ include understanding design, systems, and interactivity, as well as player choi
 include a study of rule-making and rule-breaking, complexity and emergence, game experience, game
 representation, and social game interaction. They include the powerful connection between the rules of a
 game and the play that the rules engender, the pleasures games invoke, the meanings they construct, the
-ideologies they embody, and the stories they tell. 
+ideologies they embody, and the stories they tell.
 As fundamental principles, these ideas form a system of building blocks that game designers arrange and
 rearrange in every game they create. As unlikely as it may sound, Go, Trivial Pursuit, Dance Dance
 Revolution, and Unreal Tournament all share the same fundamental principles, articulated in radically
@@ -1170,27 +1161,25 @@ No single curriculum can fit all of these contexts. Rather than design a single 
 provided tools to allow faculty to address their own particular circumstances. We developed the bibliography,
 suggested readings, case studies, commissioned games, and game design exercises with this kind of flexibility
  Chapter 1: What Is This Book About?
-5
- Chapter 1: What Is This Book About?
-5
 
+ Chapter 1: What Is This Book About?
 
 in mind. We believe that a variety of curricula that meet the needs of different (and perhaps competing)
 perspectives will lead to better games, better game designers, and hours and hours of more meaningful play.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Readings
 At the end of most of the chapters to follow, we include a list of books to suggest further readings. These
 readings might be used to construct a syllabus for a class, a handout for a workshop, or to round out curiosity
 on a topic introduced in the chapter. The selected readings reflect our own idiosyncrasies, and are not meant
 as a definitive canon for game design theory. However, they do represent what we felt were the most relevant
-sources on the topic. 
+sources on the topic.
 Each chapter lists only a handful of further readings, but there are other research sources in this book as well.
 At the end of the book, we include a few more suggested readings that did not fit into any particular
 chapter.The chapter footnotes and general bibliography also contain many references that are not found in any
 of the further readings listings. Following are the suggested readings for this chapter.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 The Art of Computer Game Design, by Chris Crawford
 Chris Crawford is a game designer who started his career at Atari. He wrote The Art of Computer Game
@@ -1208,9 +1197,9 @@ Part of the Gama Network, which includes the Game Developers Conference and Game
 Gamasutra is one of the very best game design resources around.The site supports news from the game
 development industry, editorial features on practical game design problems, and postmortems of commercial
 games. They recently added a section on education, publishing more academ-ically-oriented writing on games
-6
+
  Chapter 1: What Is This Book About?
-6
+
  Chapter 1: What Is This Book About?
 
 
@@ -1221,7 +1210,7 @@ A good resource for new scholarly writing on games, Game Studies is a cross-disc
 journal on computer and video games. Edited by an excellent team of academics and researchers with a deep
 interest in the study of games, the journal focuses on games research from a humanities and ludology
 perspective. While the material does not necessarily have a game design focus, the articles offer various
-models and critiques of larger theoretical issues regarding narrative, media, interactivity, and immersion. 
+models and critiques of larger theoretical issues regarding narrative, media, interactivity, and immersion.
 IGDA Curriculum Framework: The Study of Games and Game Development, by the International Game
 Developers Association, Education Committee
 For the last few years, IGDA members Doug Church, Robin Hunicke, Jason Della Roca, Warren Spector, and
@@ -1241,17 +1230,14 @@ This essay, originally published in 1999 in Merge Magazine, is the first appeara
 Rules/Play/Culture model for thinking about games, which the authors developed while teaching game design
 together at New York University. Elements of this model were the basis for the overall structure of this book.
 As such, the essay offers a brief and useful overview of these core game design topics.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 1: What Is This Book About?
-7
- Chapter 1: What Is This Book About?
-7
 
-
-8
  Chapter 1: What Is This Book About?
-8
+
+ Chapter 1: What Is This Book About?
+
  Chapter 1: What Is This Book About?
 
 
@@ -1278,7 +1264,7 @@ design process as possible. This prototype has none of the aesthetic trappings o
 define its fundamental rules and core mechanics. It is not a visual prototype, but an interactive one. This
 prototype is played, evaluated, adjusted, and played again, allowing the designer or design team to base
 decisions on the successive iterations or versions of the game. Iterative design is a cyclic process that
-alternates between prototyping, playtesting, evaluation, and refinement. 
+alternates between prototyping, playtesting, evaluation, and refinement.
 Why is iterative design so important for game designers? Because it is not possible to fully anticipate play in
 advance. It is never possible to completely predict the experience of a game. Is the game accomplishing its
 design goals? Do the players understand what they are supposed to be doing? Are they having fun? Do they
@@ -1300,8 +1286,6 @@ game SiSSYFiGHT 2000 was first prototyped on Post-It notes around a conference t
 IRC (Internet Relay Chat) game, and then as a skeletal web-based game, which became the basis for the final
 application. At each stage, the game prototype was rigorously played, evaluated, tweaked, and played again.
  Chapter 2: The Design Process
-1
-
 
 Most paper-based game designers follow an iterative design process, but most digital game designers do not.
 Typically, a commercial computer game is copiously designed in advance, with extensive storyboards and
@@ -1311,14 +1295,14 @@ game will always surprise its creators, particularly if the game design is unusu
 veteran designer cannot exactly predict what will and will not work before experiencing the game firsthand.
 Prototype your game early. Play it throughout the entire design process. Have as many other people as you
 possibly can play your game, and observe them playing. Let yourself be surprised and challenged. Remain
-flexible. And don't forget to have fun. 
+flexible. And don't forget to have fun.
 Managing game software development or any kind of game development offers its own challenges, and we
 are not suggesting that iterative design represents a complete development methodology. Our focus is game
 design, not game development. Iterative design is just one part of a much larger process for moving a game
 project from concept to completion. But taken on its own, it is an excellent starting point for a rigorous and
 effective game design process.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Commissions
 One of the best ways to understand iterative design is to study the processes of other game designers. How do
 they come up with ideas for games? How do they implement, playtest, and refine these ideas? How do their
@@ -1347,9 +1331,9 @@ robots. The other is a game about two logicians attempting to resolve a philo so
 Players play in both games each turn, and no one is certain which game is actually being
 played until one of the sets of victory conditions is met. Ironclad is played on a checkerboard
 grid, with Go stones and Checkers pieces.
-2
+
  Chapter 2: The Design Process
-2
+
  Chapter 2: The Design Process
 
 
@@ -1369,8 +1353,8 @@ To give insight into a more involved game design process, we commissioned one ad
 the prolific board game designer Reiner Knizia, the essay describes the conceptual and practical process of
 designing the Lord of the Rings Board Game. This detailed account of his iterative design process appears
 immediately following this chapter.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Game Design Exercises
 In the pages that follow, we offer a number of practical game design exercises, for students and designers, for
 use in classrooms and professional workshops, for solo or collaborative efforts, for short-term experiments or
@@ -1383,7 +1367,7 @@ Each exercise listed has a particular design focus, corresponding to a chapter o
 The design focus serves two crucial roles. First, it guides students as they work, giving them a concrete way to
 direct their thinking and design method. Second, a design focus gives instructors a way to evaluate a project
 during and after the design process, offering a conceptual framework for analyzing a game's successes and
-failures. In each exercise, the design focus helps identify the design problem as well as potential solutions. 
+failures. In each exercise, the design focus helps identify the design problem as well as potential solutions.
 The exercises are divided into three categories: game creation, game modification, and game analysis. Note
 that many of them make use of concepts and terms that are explained in the associated chapters. Of course, it
 goes without saying that all of these exercises should make use of an iterative design process. Learning how to
@@ -1395,10 +1379,8 @@ of our classes have not required students to actually program games. Programming
 game design and as soon as students are tasked with creating games on a computer, programming can quickly
 become their primary activity.
  Chapter 2: The Design Process
-3
- Chapter 2: The Design Process
-3
 
+ Chapter 2: The Design Process
 
 In our classes, students are asked to focus on core game design issues, issues which are not intrinsic to digital
 technology. In many cases, the students work off of the computer to create board games, card games, physical
@@ -1440,10 +1422,10 @@ visible for the third person to write one more rule and a winning condition. The
 group has to fashion a game out of the total set of rules. The goal of the exercise is to see how rules interact
 with each other within the system of a game, and to explore the limits of ambiguity and specificity in rules.
 With more people in each group, students might write only a single rule, to keep the rule-set from becoming
-too complex. 
-4
+too complex.
+
  Chapter 2: The Design Process
-4
+
  Chapter 2: The Design Process
 
 
@@ -1473,7 +1455,7 @@ of a single game using the game system. Each group is then given the game system
 asked to design a game using the new system. Groups then take the game systems they originally created,
 along with the two sets of game rules, and create a third game that is a synthesis of the two. The focus of this
 exercise is on designing an open source set of game materials that lend themselves to a diversity of game
-designs. 
+designs.
 In all game creation problems, it is particularly important to emphasize the iterative design process. It is often
 difficult for students to shift from brainstorming game ideas to imple menting their concepts within an actual
 game prototype. This is one reason why it is important to choose design parameters wisely. The parameters
@@ -1491,10 +1473,8 @@ Modification
 Modification exercises represent another category of game design problems. Instead of coming up with a
 game using only a set of parameters, the starting point of a modification exercise is an existing game that is
  Chapter 2: The Design Process
-5
- Chapter 2: The Design Process
-5
 
+ Chapter 2: The Design Process
 
 altered through an act of design. The same points made earlier about the importance of a design focus, careful
 selection of design parameters, and the use of iterative design apply equally here.
@@ -1534,9 +1514,9 @@ knowledge distinction (make Chess a conflict over knowledge or Trivial Pursuit a
 possibility is to modify the games to depict subject matter not normally found in games, such as social or
 psychological conflict. The games should use techniques of procedural representation to depict their subject
 matter.
-6
+
  Chapter 2: The Design Process
-6
+
  Chapter 2: The Design Process
 
 
@@ -1576,16 +1556,14 @@ Design Focus: Games as Narrative Play (chapter 26)
 Description: Students choose a game and study it as a system of narrative representation. They must identify
 elements of embedded and emergent narrative, as well as discuss the different forms of narrative descriptors
 used by the game. For example, what role do setting, plot, and character play? What about the visual design,
-the title of the game, the spatial construction of the game world? 
+the title of the game, the spatial construction of the game world?
 Social Interaction Analysis
 Design Focus: Games as Social Play (chapter 28)
 Description: Using concepts from the schema on social play, students analyze a game.They must identify at
 least two of the following social play phenomena in their paper and describe how these elements contribute to
  Chapter 2: The Design Process
-7
- Chapter 2: The Design Process
-7
 
+ Chapter 2: The Design Process
 
 meaningful play: player roles,player community, core social mechanics, metagaming, forbidden play.
 Cultural Environment Analysis
@@ -1595,8 +1573,8 @@ as a cultural environment. The analysis should address the following kinds of qu
 architectural, narrative, or other aspects of the game overlap with the world outside the magic circle? How
 does the blurring of the boundary support meaningful play? In what ways does the formal structure of the
 game keep the game contained? What cultural rhetorics are reflected or transformed by the play of the game?
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 The Well-Played Game: A Player's Philosophy, by Bernard DeKoven As the former director of the New
 Games Foundation, Bernard DeKoven gives an overview of an ideology of play that focuses on giving players
@@ -1619,9 +1597,9 @@ Recommended:
 For Examples of Iterative Design:
 The Player-Referee's Non-Rulebook
 New Volleyball
-8
+
  Chapter 2: The Design Process
-8
+
  Chapter 2: The Design Process
 
 
@@ -1633,8 +1611,8 @@ game modification exercises, the final chapter recommended below lists suggestio
 existing games
 Recommended:
 Chapter 15: Creating Your Own Winning Variations
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Design and Testing of the Board Game- Lord of the
 Rings
 The design of the Lord of the Rings Board Game was a great opportunity but also an extraordinary challenge.
@@ -1643,8 +1621,8 @@ audience, but they would have high and very specific expectations. My brief from
 a sophisticated family game of about one hour playing time. Even though I couldn't cover the entire story line,
 my aim was to stay within the spirit of the book so that the players would experience something similar to the
 readers of the book. These design goals would have many consequences for the game design.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Design Process
 I don't have a fixed design process. Quite the contrary, I believe that starting from the same beginning will
 frequently lead to the same end. Finding new ways of working often leads to innovative designs. Of course,
@@ -1661,12 +1639,10 @@ fans, and what was at the center of their discussions. Dave Farquhar, a friend a
 great fan of Tolkien. We spent countless hours going through the story page by page, discussing its relevance
 for the game. Clearly I could not reflect much of the detail of the books. But more important was the feeling
 of the world. The true focus of the book was not the fighting, but more personal themes-the development of
-each character's sense of self as they attempt to overcome adversity. 
+each character's sense of self as they attempt to overcome adversity.
  Chapter 2: The Design Process
-9
- Chapter 2: The Design Process
-9
 
+ Chapter 2: The Design Process
 
 The story starts with the hobbits leaving their home to venture into unknown lands. I decided that each player
 would represent a hobbit, aided by the good characters and peoples in Middle Earth. Of course their only
@@ -1684,8 +1660,8 @@ atmosphere, and has long been a source of inspiration for beautiful illustration
 artist, was signed up to do the artwork, and I wanted to give him plenty of opportunities to enrich the game
 and excite the Tolkien fans with powerful visuals. Furthermore, the target retail price and the square box
 shape would influence the components I could use.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Scripted Game System
 Considering the challenge of distilling an epic story into a game, I started to develop a general approach that I
 call the "scripted game system." Essentially, this is a method of distilling the key parts of a story and
@@ -1698,7 +1674,7 @@ episodes would be played in sequential order. These boards would reflect the fla
 through thematic events and play would take place on activity tracks representing fighting, movement, hiding,
 or friendship. Each scenario board would have a primary track that provided the main route through the
 scenario and measured the players' overall progress. Shields, representing victory points, would generally be
-acquired on the primary track. 
+acquired on the primary track.
 In order to avoid players merely concentrating on the main track and moving swiftly through the scenario,
 valuable life tokens, resources, and allies would appear on the minor tracks. A scenario could be finished in
 two ways, either by completing the primary track, or because the events had run their course and had
@@ -1712,9 +1688,9 @@ be eliminated from the game and all his resources would be lost. Even worse, if 
 One Ring was caught by Sauron, the game would end in defeat for all players. Although players could
 sacrifice time and resources to move back toward the light, Sauron would never retreat. So over the course of
 the game the players would gradually slip toward the dark, creating a sense of claustrophobia and impending
-10
+
  Chapter 2: The Design Process
-10
+
  Chapter 2: The Design Process
 
 
@@ -1730,15 +1706,15 @@ themselves and hopefully lead to a rich interaction between the players. The pla
 personalities and playing styles to the table, would have to pull together and truly collaborate. This would
 create a similar feel to the book-the game would not just re-tell Tolkien's plot, but more importantly it would
 make the players feel the emotional circumstances of the story.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Playtesting
 My primary design technique is to create a game first in my mind and play it there over and over again. This
 can go on for many weeks. When I feel the need for practical playing experience, I finally build the first
 prototype and play it with my playtest groups. The decision to enter the prototype stage is critical. Moving too
 early without a clear concept wastes a lot of time, as it is much simpler to change things in one's mind than in
 a physical prototype. Moving too late may not reveal design weaknesses early enough and may require a
-complete redesign. 
+complete redesign.
 Once the initial concept is properly elaborated, playtesting becomes the core activity of game development.
 The fun and excitement of playing cannot be calculated in an abstract fashion: it must be experienced. I
 prepare each of my playtest sessions in great detail-I plan the exact issues I want to monitor and test. During
@@ -1761,15 +1737,13 @@ I selected four main episodes from the story: Moria, Helm's Deep, Shelob's Lair,
 created corresponding scenario boards. These scenarios were then linked on the summary board with small
 episodes in Rivendell and Lothlorien. I played and played the game with my playtest groups over the better
  Chapter 2: The Design Process
-11
- Chapter 2: The Design Process
-11
 
+ Chapter 2: The Design Process
 
 part of a year-typically three or four playtest sessions each week with changes between each session. In
 addition, I gave Dave Farquhar a test copy to use with other testers and generate even more playtest results.
 Many details were analyzed for each board, including the positions of the hobbits and Sauron on the
-corruption line, cards and shields held by each player, tiles drawn, and number of turns played. 
+corruption line, cards and shields held by each player, tiles drawn, and number of turns played.
 One of the vital tenets of good playtesting is comprehensively to explore every possible strategy and style of
 play. A frequent error committed by inexperienced designers is to develop a game for just one test group. Of
 course, to be successful a game must appeal to many different types of players. It must be robust and exciting
@@ -1782,8 +1756,8 @@ discussions focus much more on strategy and risk. The more the game proceeds, th
 get, and the greater the need for the players to strategically cooperate. Like the book, the game offers a
 journey of personal growth. In the game, you have the advantage of being able to play over and over again to
 do better each time.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 More Changes
 I like my game designs to begin with elaborate concepts and too many features, and then later streamline the
 game play, only retaining the best parts of the design. I find this process easier than trying to bolt on
@@ -1802,16 +1776,16 @@ the game; and second, I wanted to give the shield tokens a purpose other than me
 points. Often I find it harder to solve a single design problem than to address two at the same time. A single
 problem allows many possible solutions and-being a perfectionist-it is difficult for me to identify the single
 "best" solution. When looking at two problems at once, a common solution often appears more readily. In this
-case I introduced a Gandalf deck containing powerful cards that the players could buy using the shields. 
+case I introduced a Gandalf deck containing powerful cards that the players could buy using the shields.
 This also illustrates another important game design principle. Solving a specific design issue should not just
 address the issue in isolation but should ideally contribute to the overall game play. This differentiates a game
 fix from a game feature, and of course, games should never use fixes. The Gandalf cards are a nice game
 feature, because they allow the players more tactical choices and help in balancing the game. Players may
 decide to keep their shields to achieve a higher score, or "invest" them to gain more powerful resources or
 overcome an obstacle. And of course, different players may prefer different approaches and have to arrive at a
-12
+
  Chapter 2: The Design Process
-12
+
  Chapter 2: The Design Process
 
 
@@ -1828,8 +1802,8 @@ target audience! For confidentiality reasons, I normally keep testing within my 
 so unusual that I needed to confirm once more how the general public would react to it. So we set up separate
 test sessions, some with game players and some with non-players. Sometimes the non-player groups did better
 than the game players! So we knew that we had what we wanted.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Road Goes Ever On
 After eighteen months,the design was finished and delivered to the publisher. But the design process
 continued. Nine months later, in October 2000, the game was released into the market. One year later, in
@@ -1842,18 +1816,15 @@ Reiner Knizia was born in Germany and now lives in the United Kingdom designing 
 games and card games. His past lives include being a professor of Mathematics and a Director of Strategic
 Planning in major German banks. Reiner is one of the most prolific and respected game designers working
 today, with more than 200 published games and several books on games and design. Games include Lord of
-the Rings, Taj Mahal, Safari, and Lost Cities. 
- < Day Day Up > 
- < Day Day Up > 
+the Rings, Taj Mahal, Safari, and Lost Cities.
+ < Day Day Up >
+ < Day Day Up >
  Chapter 2: The Design Process
-13
- Chapter 2: The Design Process
-13
 
-
-14
  Chapter 2: The Design Process
-14
+
+ Chapter 2: The Design Process
+
  Chapter 2: The Design Process
 
 
@@ -1880,15 +1851,12 @@ play? In this unit, we begin to answer these questions by clarifying several key
 After first looking closely at the concept of meaningful play, we introduce three interrelated ideas-design,
 systems, and interactivity-that lead us directly to a definition of games and game design. These core concepts
 provide the crucial foundation for any understanding of game design and meaningful play.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Unit 1: Core Concepts
-1
 
-
-2
  Unit 1: Core Concepts
-2
+
  Unit 1: Core Concepts
 
 
@@ -1905,8 +1873,8 @@ a mere physiological phenomenon or a psychological reflex. It goes beyond the co
 purely biological activity. It is a significant function-that is to say, there is some sense to it. In play there is
 something "at play" which transcends the immediate needs of life and imparts meaning to the action. All play
 means something.-Johann Huizinga, Homo Ludens
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Introducing Meaningful Play
 Johann Huizinga is one of the greatest scholars of play in the twentieth century. His groundbreaking book,
 Homo Ludens, is a unique investigation of the role of play in human civilization. The title is a play on Homo
@@ -1918,8 +1886,6 @@ in many ways,an attempt to redefine and elevate the significance of play.
 Huizinga's vision of play offers a perfect point of departure for the development of the concept of meaningful
 play. We begin with a close reading of one section of the opening passage from Homo Ludens:
  Chapter 3: Meaningful Play
-1
-
 
 It [play] is a significant function-that is to say, there is some sense to it. In play there is
 something "at play" which transcends the immediate needs of life and imparts meaning to the
@@ -1935,31 +1901,31 @@ meaning.
 Huizinga says that play is a significant function. Does this mean that play is an important (and
 possibly unrecog nized) force in culture-that it is significant in the way that art and literature are? Or
 does he mean that play sig-nifies-that it is a symbolic act of communication?
-• 
+•
 He mentions that there is some sense to play.Does he mean that play isn't soley chaotic, but is instead
 an event that can be understood and analyzed if one looks closely enough? Or is he implying that
 sense itself (the opposite of nonsense) is something intrinsically related to play?
-• 
+•
 There's the complex statement: In play there is something "at play." Does Huizinga mean that there is
 always some thing deeper "at play," which constitutes any instance of play we observe in the real
 world? Or that in play some thing is always in motion, never fixed, and in a constant state of
 transformation?
-• 
+•
 This "at play" quality of play transcends the immediate needs of life. Does the word "transcend" imply
 something spiritual? Or does Huizinga simply mean that play creates an artificial space beyond that of
 ordinary life?
-• 
+•
 The same "at play" characteristic of play imparts meaning to the action. Does the fact that play is
 always "at play" relate to the meaning of the action? Or does it imply that play must be understood as
 one element of a more gen eral system out of which meaning grows?
-• 
+•
 The passage concludes with the sentence, All play means something. But what does play mean? To
 who or what is it meaningful? What is the process by which meaning emerges from play?
-• 
+•
 [1]Johann Huizinga, Homo Ludens: A Study of the Play Element in Culture (Boston: Beacon Press, 1955), p.
 446.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Meaning and Play
 Meaning, meaning, meaning. If you repeat the word enough, you can almost coax it into the realm of pure
 non-sense. Because asking about the meaning of meaning can quickly turn into a jumbled, meaningless mess,
@@ -1971,9 +1937,9 @@ care about the relationship between meaning and play.
 Learning to create great game experiences for players-expe-riences that have meaning and are meaningful-is
 one of the goals of successful game design, perhaps the most important one. We call this goal the design of
 meaningful play, the core concept of our approach. This concept is so critical to the rest of this chapter that we
-2
+
  Chapter 3: Meaningful Play
-2
+
  Chapter 3: Meaningful Play
 
 
@@ -1984,14 +1950,14 @@ design in shaping play.
 One of the difficulties in identifying meaningful play in games is the near-infinite variety of forms that play
 can take. Here are some examples:
 the intellectual dueling of two players in a well-met game of Chess
-• 
+•
 the improvisational, team-based balletics of Basketball
-• 
+•
 the dynamic shifting of individual and communal identi ties in the online role-playing game
 EverQuest
-• 
+•
 the lifestyle-invading game Assassin, played on a college campus
-• 
+•
 What do all of these examples have in common? Each situates play within the context of a game. Play doesn't
 just come from the game itself, but from the way that players interact with the game in order to play it. In
 other words, the board, the pieces, and even the rules of Chess can't alone constitute meaningful play.
@@ -2015,17 +1981,15 @@ overall system of the game. Another way of stating this point is that an action 
 in the creation of new meanings within the system. For example, after you move a piece in Chess, the newly
 established relationships between Chess pieces gives rise to a new set of meanings-meanings created by the
 play-er's action.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Two Kinds of Meaningful Play
 We define meaningful play in two separate but related ways. The first sense of meaningful play refers to the
 way game actions result in game outcomes to create meaning. Framing the concept in this way, we offer the
 following definition:
  Chapter 3: Meaningful Play
-3
- Chapter 3: Meaningful Play
-3
 
+ Chapter 3: Meaningful Play
 
 Meaningful play in a game emerges from the relationship between player action and system outcome; it
 is the process by which a player takes action within the designed system of a game and the system
@@ -2069,10 +2033,10 @@ the following excerpt from Game Design: Theory and Practice, Richard Rouse III p
 of displaying discernable information to the player within the context of the game world. His example looks
 explicitly at computer games where there is an obvious need to condense massive amounts of data into a
 representative form that can be clearly communicated to the player. However, the idea of discernable
-outcomes applies to all games, digital or otherwise. Rouse writes, 
-4
+outcomes applies to all games, digital or otherwise. Rouse writes,
+
  Chapter 3: Meaningful Play
-4
+
  Chapter 3: Meaningful Play
 
 
@@ -2113,20 +2077,18 @@ outcomes of the footrace are well integrated into the game as a whole.
 Whereas discernability of game events tells players what happened (I hit the monster),integration lets players
 know how it will affect the rest of the game (If I keep on hitting the monster I will kill it. If I kill enough
 monsters, I'll gain a level.). Every action a player takes is woven into the larger fabric of the overall game
-experience: this is how the play of a game becomes truly meaningful. 
+experience: this is how the play of a game becomes truly meaningful.
 Meaningful play can be realized in a number of ways, depending on the design of a particular game. There is
 no single formula that works in every case. In the example of the asteroid shooting game, immediate and
 visceral feedback was needed to make the action discernable. But it might also be the case that in a
 story-based game, the results of an action taken near the beginning of the game are only understood fully at
 the very end, when the implications are played out in a very unexpected and dramatic way. Both instances
-require different approaches to designing meaningful play. 
+require different approaches to designing meaningful play.
 Meaningful play engages several aspects of a game simultaneously, giving rise to layers of meaning that
 accumulate and shape player experience. Meaningful play can occur on the formal, mathematically strategic
  Chapter 3: Meaningful Play
-5
- Chapter 3: Meaningful Play
-5
 
+ Chapter 3: Meaningful Play
 
 level of a single move in Chess. It can occur on a social level, as two players use the game as a forum for
 meaningful communication. And it can occur on larger stages of culture as well, where championship Chess
@@ -2136,36 +2098,36 @@ The next three chapters elaborate on the many ways that game designers construct
 for players. Among the many topics we might select, we cover three core concepts that form several of the
 fundamental building blocks of game design: design, systems, and interactivity.
 [2]Richard Rouse III, Game Design: Theory and Practice (Plano, TX: Wordware Publishing, 2001), p. 141.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 Meaning, play, and games are intimately related concepts. The goal of successful game design is
 meaningful play.
-• 
+•
 There are two ways to define meaningful play: descriptive and evaluative. The descriptive definition
 addresses the mechanism by which all games create mean ing through play. The evaluative definition
 helps us understand why some games provide more meaningful play than others.
-• 
+•
 The descriptive definition of meaningful play: Meaningful play in a game emerges from the
 relationship between player action and system outcome; it is the process by which a player takes
 action within the designed system of a game and the system responds to the action. The meaning of an
 action in a game resides in the relation ship between action and outcome.
-• 
+•
 The evaluative definition of meaningful play: Meaningful play is what occurs when the relationships
 between actions and outcomes in a game are both discernable and integrated into the larger context of
 the game.
-• 
+•
 Discernability means that a player can perceive the immediate outcome of an action. Integration
 means that the outcome of an action is woven into the game system as a whole.
-• 
+•
 The two ways of defining meaningful play are closely related. Designing successful games requires
 understanding meaningful play in both senses.
-• 
- < Day Day Up > 
- < Day Day Up > 
-6
+•
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 3: Meaningful Play
-6
+
  Chapter 3: Meaningful Play
 
 
@@ -2177,7 +2139,7 @@ Introducing Design
 exploration of games and meaningful play. Yet it is difficult to define. Like the term game, design is a concept
 with many meanings, "Its definition depends on whether design is considered to be an idea, a knowledge, a
 practice, a process, a product, or even a way-of-being."[1] Lacking a neat consensus, is it possible, or even
-appropriate, to offer a general definition of design? Where do we go from here? 
+appropriate, to offer a general definition of design? Where do we go from here?
 We could begin by listing familiar kinds of design practice: graphic design, industrial design, architecture,
 fashion design, textile design, urban planning, information architecture, design planning . . . the list could go
 on. Each of these practices involves the "design" of something, be it an object (such as a chair or a typeface)
@@ -2187,11 +2149,9 @@ obvious, it an often overlooked basic feature of design. We think it is of parti
 designers, for people are at the heart of the games we create.
 [1]Alain Findeli,"Moholy-Nagy's Design Pedagogy in Chicago, 1937-46." In The Idea of Design, A Design
 Issues Reader, edited by Victor Margolin and Richard Buchanan (Cambridge: MIT Press, 1995), p. 29.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 4: Design
-1
-
 
 Some Definitions of Design
 Unfortunately, a list of design practices doesn't bring us closer to a general definition of design suited to our
@@ -2236,9 +2196,9 @@ In order to answer this question, we must ask another: What is the "design" in g
 connected to the concept of meaningful play? As an answer, we offer the following general definition:
 Design is the process by which a designer creates a context to be encountered by a participant, from
 which meaning emerges.
-2
+
  Chapter 4: Design
-2
+
  Chapter 4: Design
 
 
@@ -2246,15 +2206,15 @@ Let us look at each part of this definition in relation to game design:
 The designer is the individual game designer or the team of people that creates the game. Sometimes,
 games emerge from folk culture or fan culture, so there may not be an individual designer or design
 team. In this case, the designer of the game can be considered culture at large.
-• 
+•
 The context of a game takes the form of spaces, objects, narratives, and behaviors.
-• 
+•
 The participants of a game are the players.They inhabit, explore, and manipulate these contexts
 through their play.
-• 
+•
 Meaning is a concept that we've already begun to explore. In the case of games, meaningful play is
 the result of players taking actions in the course of play.
-• 
+•
 This connection between design and meaning returns us to the earlier discussion of meaningful play. Consider
 a game of Tag. Without design we would have a field of players scampering about, randomly touching each
 other, screaming, and then running in the other direction. With design, we have a carefully crafted experience
@@ -2278,13 +2238,11 @@ Publications, 1988), p. 24.
 65-97.Proceedings of the Ohio Conference, Doctoral Education in Design, October 8-11, 1998.Pittsburgh
 School of Design. Carnegie Mellon University.
 [10]Doug Church, "Formal Abstract Design Tools." <www.gamasutra.com>, July 16, 1999.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 4: Design
-3
- Chapter 4: Design
-3
 
+ Chapter 4: Design
 
 Design and Meaning
 When we ask what something "means," particularly in the context of design, we are trying to locate the value
@@ -2306,8 +2264,8 @@ virtual game world. This question of how users make sense of objects has led som
 to borrow insights and expertise from other fields. In particular, the field of semiotics has been instructive.
 Semiotics is the study of meaning and the process by which meaning is made. In the next few pages, we will
 take a slight detour into semiotics, in order to more carefully build our concept of meaningful play.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Semiotics: A Brief Overview
 It is…possible to conceive of a science which studies the role of signs as part of life…We
 shall call it semiology (from the Greek semeîon,"sign"). It would investigate the nature of
@@ -2329,9 +2287,9 @@ sensual pleasure, anxiety, or community. We might even consider what the act of 
 represents or what it means to those who were not invited. Each of these perspectives contributes to our
 understanding of the dinner party as a system of meaning, one comprised of signs that refer to things familiar
 to us from the world "out there." But what do we mean when we say "sign"?
-4
+
  Chapter 4: Design
-4
+
  Chapter 4: Design
 
 
@@ -2355,28 +2313,26 @@ and words we use, derive their meanings from the sign systems to which they belo
 [11]Ellen Lupton and J. Abbott Miller,"Laws of the Letter." In Design, Writing, Research: Writing on Graphic
 Design (New York: Princeton Architectural Press, 1996), p. 55.
 [12]Daniel Chandler, Semiotics for Beginners. <www.aber.ac.uk/~dgc/semiotic.html.>
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Four Semiotic Concepts
 The American philosopher and semiotician Charles S. Peirce defines a sign as "something that stands for
 something, to somebody, in some respect or capacity." [13]This broad definition recognizes four key ideas that
 constitute the concept of a sign:
 A sign represents something other than itself.
-1. 
+1.
 Signs are interpreted.
-2. 
+2.
 Meaning results when a sign is interpreted.
-3. 
+3.
 Context shapes interpretation.
-4. 
+4.
 [13]Charles S. Pierce: Selected Writings, ed. P.O. Wiener (New York: Dover, 1958), p. 37.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 4: Design
-5
- Chapter 4: Design
-5
 
+ Chapter 4: Design
 
 A Sign Represents Something Other Than Itself
 A sign represents something other than itself; it "stands for something."The mark of a circle (O) in the game
@@ -2424,16 +2380,16 @@ signs. Viewing them from a macro- rather than micro-perspective allows us to loo
 seeing them as signs within larger sign systems. The game of Tic-Tac-Toe, for instance, could be seen as a
 sign representing childhood play, whereas the game of Assassin might stand for college mischief in the 1980s
 or the film The 10th Victim, which inspired the game.
-6
+
  Chapter 4: Design
-6
+
  Chapter 4: Design
 
 
 [14]Stefan Fatsis, Word Freak: Heartbreak, Triumph, Genius, and Obsession in the World of Competitive
 Scrabble Players (Boston: Houghton Mifflin, 2001), p. 149.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Signs Are Interpreted
 Peirce's definition suggests that signs are interpreted; they stand for something to somebody. It was one of
 Saussure's fundamental insights that the meanings of signs are arrived at arbitrarily via cultural convention.
@@ -2458,8 +2414,8 @@ systems and reality, it is we who are the active makers of meanings."[16]
 [15]Daniel Chandler, Semiotics for Beginners. <www.aber.ac.uk/~dgc/semiotic.html>.
 [16]Mick Underwood, CCMS. <http://www.cultsock.ndirect.co.uk/MUHome/cshtml/semiomean/
 semio1.html>.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Meaning Results When a Sign Is Interpreted
 Peirce's definition suggests that meaning results when a sign is interpreted; a sign stands for something, to
 somebody, in some respect or capacity. Although this may seem like an obvious point it is important to note,
@@ -2468,10 +2424,8 @@ down to eat a bowl of soup at a formal dinner party and finding a pair of chopst
 response would be to disregard the chopsticks as a sign for "spoon," and instead ask the waiter for the missing
 utensil. Within this scenario we are interpreting a set of signs within the sign system representing "soup
  Chapter 4: Design
-7
- Chapter 4: Design
-7
 
+ Chapter 4: Design
 
 utensils," of which spoons -and not chopsticks-are part. Within this system, the sign for spoon has value,
 whereas the sign for chopstick does not.
@@ -2482,8 +2436,8 @@ infuse the sign with value within the system of the game. If player A responds, 
 two choices. She can either accept the new sign as representative of "scissors" or she can reject the
 interpretation. If she accepts the new representation, the players have, in effect, added a new sign to the
 system; a three-fingered sign that now means "scissors."
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Context Shapes Interpretation
 Context is a key component to our general definition of design. It also is a key component in the creation of
 meaning. Design is "the process by which a designer creates a context to be encountered by a participant,
@@ -2515,9 +2469,9 @@ smoogle is referred to in this sentence. We know that comcom is a noun and that 
 or thing which most smoogles are claimed to have. We still don't know what is referred to,
 but the formal properties of English grammar have already provided us with a lot of
 information.[17]
-8
+
  Chapter 4: Design
-8
+
  Chapter 4: Design
 
 
@@ -2566,59 +2520,57 @@ does not reside within the sign itself, but from the surrounding system of which
 you provide for your players emerges from the designed system of a game- and how that game interacts with
 larger social and cultural systems. What is it that game designers design? Systems. This is the key concept we
  Chapter 4: Design
-9
- Chapter 4: Design
-9
 
+ Chapter 4: Design
 
 introduce in the next chapter.
 [17]Ibid.
 [18]Ibid.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 There are many general definitions of design. Each emphasizes different aspects of the vast range of
 design practices.
-• 
+•
 Our definition of design emphasizes the creation of meaningful experience:
 Design is the process by which a designer creates a context to be encountered by a participant, from
 which meaning emerges.
-• 
+•
 Semiotics is the study of meaning. It is primarily concerned with the question of how signs represent,
 or denote.
-• 
+•
 People use signs to designate objects or ideas. Because a sign represents something other than itself,
 we take the representation as the meaning of the sign.
-• 
+•
 Charles Pierce identifies four semiotic concepts:
 A sign represents something other than itself.
-1. 
+1.
 Signs are interpreted.
-2. 
+2.
 Meaning results when a sign is interpreted.
-3. 
+3.
 Context shapes interpretation.
-4. 
+4.
 A sign represents something other than itself: In a game, gestures, objects, behaviors, and
 other elements act as signs. In the game Assassin, a tap denotes a "kill."
-♦ 
+♦
 Signs are interpreted: A sign stands for something to somebody. Meaning emerges in a
 game as players take on active roles as interpreters of the game's signs.
-♦ 
+♦
 Meaning results when a sign is interpreted: A sign stands for something to somebody in some
 respect or capacity. The meaning of a sign emerges from relationships between elements of a
 system.
-♦ 
+♦
 Context shapes interpretation: Context is the environment of a sign that affects
 interpretation. The related phenomenon of structure also shapes interpretation. Structure is a
-set of rules or guidelines that prescribe how signs can be combined. 
-♦ 
-• 
- < Day Day Up > 
- < Day Day Up > 
-10
+set of rules or guidelines that prescribe how signs can be combined.
+♦
+•
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 4: Design
-10
+
  Chapter 4: Design
 
 
@@ -2631,42 +2583,40 @@ Artificial'"
 Introducing Systems
 Games are intrinsically systemic: all games can be understood as systems. What do we mean by this? Let's
 begin our investigations of games and systems by looking at some common understandings of the word
-"system." 
+"system."
 System
 A group of interacting, interrelated, or interdependent elements forming a complex whole.
-1. 
+1.
 A functionally related group of elements, especially:
 The human body regarded as a functional physiological unit.
-a. 
+a.
 An organism as a whole, especially with regard to its vital processes or functions
-b. 
+b.
 A group of physiologically or anatomically complementary organs or parts: the nervous
 system; the skeletal system.
-c. 
+c.
 A group of interacting mechanical or electrical components.
-d. 
+d.
 A network of structures and channels, as for communication, travel, or distribution.
-e. 
-2. 
+e.
+2.
 An organized set of interrelated ideas or principles.
-3. 
+3.
 A social, economic, or political organizational form.
-4. 
+4.
 A naturally occurring group of objects or phenomena: the solar system.
-5. 
+5.
 A set of objects or phenomena grouped together for classification or analysis.
-6. 
+6.
 A condition of harmonious, orderly interaction.
-7. 
+7.
 An organized and coordinated method; a procedure.[1]
-8. 
+8.
 Some of these definitions focus on the biological or natural idea of the word "system" (2a, 2b, 2c, 5). Others
 reference mechanical systems (2d) or systems of transportation and communication (2e). Still others focus on
 the social meanings of the word (4, 7) or on ideas and knowledge (3, 6, 8). Despite differences in emphasis,
 there is something that all of these def-
  Chapter 5: Systems
-1
-
 
 initions of "system" share. Look for it in the very first definition on the list, which describes systems as "a
 group of interacting, interrelated, or interdependent elements forming a complex whole." This understanding
@@ -2687,42 +2637,42 @@ many ways that a game can be framed as a system. Chess, for example, could be th
 mathematical system. It could also be thought of as a system of social interaction between two players, or a
 system that abstractly simulates war.
 [1]<dictionary.com>.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Elements of a System
 A system is a set of things that affect one another within an environment to form a larger pattern that is
 different from any of the individual parts. In his textbook Theories of Human Communication, Stephen W.
 Littlejohn identifies four elements that constitute a system: Let us take a detailed look at a particular game,
 Chess. We will first think about Chess as a strictly strategic and mathematical system. This means considering
 Chess as a purely formal system of rules. Framed in this way, the four elements of the system of Chess are as
-follows: 
+follows:
 The first is objects-the parts, elements, or variables within the system. These may be physical or
 abstract or both, depending on the nature of the system.
-• 
+•
 Second, a system consists of attributes-the qualities or properties of the system and its objects.
-• 
+•
 Third a system has internal relationships among its objects. This characteristic is a crucial aspect [of
 systems].
-• 
+•
 Fourth, systems also possess an environment. They do not exist in a vacuum but are affected by their
 surroundings.[2]
-• 
+•
 Objects: The objects in Chess are the pieces on the board and the board itself.
-• 
+•
 Attributes: These are the characteristics the rules give these objects, such as the starting positions of
 each piece and the specific ways each piece can move and capture.
-• 
+•
 Internal Relationships: Although the attributes determine the possible movements of the pieces, the
 internal relationships are the actual positions of the pieces on the board. These spatial relationships on
 the grid determine strategic relationships: one piece might be threatening another one, or protecting an
 empty square. Some of the pieces might not even be on the board.
-• 
+•
 Environment: If we are looking just at the formal system of Chess, then the environment for the
 interaction of the objects is the play of the game itself. Play provides the context for the formal
-• 
-2
+•
+
  Chapter 5: Systems
-2
+
  Chapter 5: Systems
 
 
@@ -2734,14 +2684,14 @@ game. Changing the way that we frame the game affects how we would define the fo
 system. Framed as an experiential system, the elements of the system of Chess are as follows:
 Objects: Because we are looking at Chess as the interaction between players, the objects of the system
 are actually the two players themselves.
-• 
+•
 Attributes: The attributes of each player are the pieces he or she controls, as well as the current state
 of the game.
-• 
+•
 Internal Relationships: Because the players are the objects, their interaction constitutes the internal
 relationships of the system. These relationships would include not just their strategic interaction, but
 their social, psychological, and emotional communication as well.
-• 
+•
 Environment: Considering Chess as an experiential system, the total environment would have to
 include not just the board and pieces of the game, but the immediate environment that contained the
 two players as well. We might term this the context of play. Any part of the environment that
@@ -2751,7 +2701,7 @@ and receive moves. Any context of play would also include players' preconception
 the fact that they think it is cool or nerdy to play. This web of physical, psychological, and cultural
 associations delineate-not the experience of the game -but rather the context that surrounds the game,
 the environment within which the experience of play occurs.
-• 
+•
 Lastly, we can expand our focus and think about Chess as a cultural system. Here the concern is with how the
 game fits into culture at large. There are many ways to conceive of games as culture. For example, say that we
 wanted to look at the game of Chess as a representation of ideological values associated with a particular time
@@ -2762,18 +2712,18 @@ references made in the structure and rituals of game play (Was playing Chess pol
 and cutthroat?); and references made to the people who play (Who are they-intellectuals, military types, or
 computer geeks?). Framed as a cultural system, the four elements of the system of Chess are as follows:
 Objects: The object is the game of Chess itself, considered in its broadest cultural sense.
-• 
+•
 Attributes: The attributes of the game would be the designed elements of the game, as well as
 information about how, when, and why the game was made and used.
-• 
+•
 Internal Relationships: The relationships would be the linkages between the game and culture. We
 might find, for example, a relationship between the "black and white" sides of the game and the way
 that race is referenced when the game pieces are represented figuratively.
-• 
+•
 Environment: The environment of the system extends beyond any individual game of Chess, or even
 the context of play. The total environment for this cultural framing of Chess is culture itself, in all of
 its forms.
-• 
+•
 Note that there are innumerable ways of framing Chess as a cultural system. We could examine the complex
 historical evolution of the game. Or we could investigate the amateur and professional subcultures (books,
 websites, competitions, etc.) that surround the game. We could study the culture of Chess variants, in which
@@ -2782,13 +2732,11 @@ game Spock played on the television show Star Trek. The list goes on.
 [2]Stephen W. Littlejohn, Theories of Human Communication, 3rd edition (Belmont, CA: Wadsworth
 Publishing Company, 1989), p. 41.
  Chapter 5: Systems
-3
+
  Chapter 5: Systems
-3
 
-
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Framing Systems
 Even though we were talking about the same game each time, as we proceeded from a formal to an
 experiential to a cultural analysis, our sense of what we considered as part of the system grew. In fact, each
@@ -2808,7 +2756,7 @@ embedded in the cultural framing of the game. For example, understanding the cul
 visual design of a game piece still should take into account the game's rules and play: the relative importance
 of the pieces and how they are actually used in a game. For example, answering a cultural question regarding
 the politics of racial representation would have to include an understanding of the formal way the core rules of
-the game reference color. What does it mean that white always moves first? 
+the game reference color. What does it mean that white always moves first?
 Similarly, when you are designing a game you are not designing just a set of rules, but a set of rules that will
 always be experienced as play within a cultural context. As a result, you never have the luxury of completely
 forgetting about context when you are focusing on experience, or on experience and culture when you're
@@ -2829,9 +2777,9 @@ contemporary concepts of computer science.
 Although formal systems theory is no longer in common use today, sys-tems-based approaches have given
 rise to a variety of interdisciplinary fields, including studies of complexity, chaos, and artificial life. Scholars
 come to these fields from a wide array of disciplines, including mathematics, genetics, physics, biology,
-4
+
  Chapter 5: Systems
-4
+
  Chapter 5: Systems
 
 
@@ -2841,8 +2789,8 @@ Games as Emergent Systems.
 [3]Per Bak, "Self-Organized Criticality: A Holistic View of Nature." In Complexity: Metaphors, Models and
 Reality, edited by George A. Cowan, David Pine, and David Meltzer (Cambridge: Perseus Books, 1994), p.
 492.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Open and Closed Systems
 There are two types of systems, open and closed. In fact, the concept of open and closed systems forms the
 basis of much of our discussion concerning the formal properties of games and their social and cultural
@@ -2862,11 +2810,11 @@ in a variety of ways (speedometer, gas pedal, steering wheel, etc.).
 When we frame a game as a system it is useful to recognize whether it is being treated as an open or closed
 system. If we look at our three framings of Chess, which framings were open and which were closed?
 Formal system: As a formal system of rules, Chess is a closed, self-contained system.
-• 
+•
 Cultural system: As a cultural system,Chess is clearly an open system, as we are essentially
 considering the way that the game intersects with other contexts such as society, language, history,
 etc.
-• 
+•
 Experiential system: As an experiential system of play, things get tricky. Framing Chess as an
 experiential system could lead to understanding the game as either open or closed. If we only consider
 the players and their strategicgame actions, we could say that once the game starts, the only relevant
@@ -2874,63 +2822,61 @@ events are internal to the game. In this sense, the game is a closed system. On 
 could emphasize the emotional and social baggage that players bring into the game, the distractions of
 the environment,the reputations that are gained or lost after the game is over. In this sense, the play of
 Chess would be an open system. Framed as play, games can be either open or closed.
-• 
+•
 In defining and understanding key concepts like design and systems, our aim is to better understand the
 particular challenges of game design and meaningful play. Game designers do practice design, and they do so
 by creating systems. But other kinds of designers create systems as well-so what is so special about games?
 The systems that game designers create have many peculiar qualities, but one of the most prominent is that
 they are interactive, that they require direct participation in the form of play. In the next chapter, we build
  Chapter 5: Systems
-5
- Chapter 5: Systems
-5
 
+ Chapter 5: Systems
 
 directly on our understanding of systems and design to tackle this confounding but crucial concept: the
 enigmatic interactivity.
 [4]Littlejohn, Theories of Human Communication, p. 41
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 A system is a set of parts that interrelate to form a complex whole. There are many ways to frame a
 game as a system: a mathematical system, a social system, a representational system, etc.
-• 
+•
 There are four elements that all systems share:
 Objects are the parts, elements, or variables within the system.
-♦ 
+♦
 Attributes are the qualities or properties of the system and its objects.
-♦ 
+♦
 Internal relationships are the relations among the objects.
-♦ 
+♦
 Environment is the context that surrounds the system.
-♦ 
-• 
+♦
+•
 The way these elements are identified in any individual game depends on the way it is framed as a system.
 The four elements would be different, for example, if a game were framed as a formal, mathematical system,
 an experiential system of play, or as a cultural system.
 These three framings of a game as a system, formal, experiential, and cultural, are embedded in
 each other. A game as a formal system is always embedded within an experiential system, and a game
 as a cultural system contains formal and experiential systems.
-• 
+•
 Although all three levels (formal, experiential, and cultural) exist simultaneously, it can be useful to
 focus on just one of them when making an analysis or solving a design problem. It is crucial when
 designing a game to understand how these three levels interact and interrelate to each other.
-• 
+•
 Systems can be open or closed. An open system has an exchange of some kind with its environment.
 A closed system is isolated from its environment. Whether or not you consider a game as a closed or
 open system depends on the way you frame it:
 Formal systems are closed systems.
-♦ 
+♦
 Experiential systems can be open or closed systems.
-♦ 
+♦
 Cultural systems are open systems.
-♦ 
-• 
- < Day Day Up > 
- < Day Day Up > 
-6
+♦
+•
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 5: Systems
-6
+
  Chapter 5: Systems
 
 
@@ -2950,8 +2896,8 @@ and perform a whole range of explicit actions. In some sense, it is these moment
 the tone and texture of a specific game experience. To understand this particular quality of games- the element
 of interaction-we must more completely grasp the slippery terms "interactive,""interaction," and
 "interactivity."
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Defining Interactivity
 Perhaps even more than "design" and "systems," debates over the term "interactivity" have run rampant.
 Interactivity is one of those words that can mean everything and nothing at once. If everything can indeed be
@@ -2960,17 +2906,15 @@ runaway word, our aim is to try and understand it in its most general sense, but
 particular aspects of interactivity that are relevant to games. To this end, we look at several definitions of
 interactivity.We begin with a general question: What is "interaction?" Here are some basic dictionary
  Chapter 6: Interactivity
-1
-
 
 definitions:
 interaction: 1. intermediate action; 2. mutual or reciprocal action or influence;
-• 
+•
 interact: to act on each other; act reciprocally
-• 
+•
 interactive: reciprocally active; acting upon or influencing each other; allowing a two-way flow of
 information between a device and a user, responding to the user's input.[1]
-• 
+•
 In the most general terms, interactivity simply describes an active relationship between two things. For our
 purposes, however, we require a slightly more rigorous definition, one that takes into account the particular
 nature of games. Instead of asking about interactivity in the abstract, what does it mean to say that something
@@ -2987,7 +2931,7 @@ agents within a representational context. (An agent is 'one who initiates action
 emphasizes the interpretive component of interactive experiences, framing an interactive system as a
 representational space.
 In an alternative definition of interactivity, theorist Andy Cameron builds on this interpretive dimension by
-stressing the idea of direct intervention. In his essay "Dissimulations,"Cameron writes that 
+stressing the idea of direct intervention. In his essay "Dissimulations,"Cameron writes that
 Interactivity means the ability to intervene in a meaningful way within the representation
 itself, not to read it differently. Thus interactivity in music would mean the ability to change
 the sound, interactivity in painting to change colors, or make marks, interactivity in film…the
@@ -3008,9 +2952,9 @@ Step One: Fred listens to what Joe has to say. He expends the energy to pay atte
 words. He gathers in all of Joe's words and assembles them into a coherent whole.This
 requires an active effort on Fred's part.
 Step Two: Fred thinks about what Joe said. He considers, contemplates, and cogitates.The
-2
+
  Chapter 6: Interactivity
-2
+
  Chapter 6: Interactivity
 
 
@@ -3038,8 +2982,8 @@ Publishing Company, 1989), p. 175.
 <http://infotyte.rmit.edu.au/rebecca/html/dissimula-tions. html>.
 [5]Chris Crawford, Understanding Interactivity (San Francisco: No Starch Press), 2002, p. 6.
 [6]Ibid; p. 7.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 A Multivalent Model of Interactivity
 Each of the previous definitions foreground a particular aspect of interaction; in our view, they are all are
 useful ways of defining interactivity. Rather than try and distill them into a composite definition, we have
@@ -3051,17 +2995,15 @@ This is the psychological, emotional, and intellectual participation between a p
 system. Example: the complex imaginative interaction between a single player and a graphic
 adventure game.
  Chapter 6: Interactivity
-3
- Chapter 6: Interactivity
-3
 
+ Chapter 6: Interactivity
 
 Mode 2: Functional interactivity; or utilitarian participation
 Included here: functional, structural interactions with the material components of the system
 (whether real or virtual). For example, that graphic adventure you played: how was the
 interface? How "sticky" were the buttons? What was the response time? How legible was the
 text on your high-resolution monitor? All of these elements are part of the total experience of
-interaction. 
+interaction.
 Mode 3: Explicit interactivity; or participation with designed choices and procedures
 This is "interaction" in the obvious sense of the word: overt participation like clicking the
 non-linear links of a hypertext novel, following the rules of a board game, rearranging the
@@ -3088,16 +3030,16 @@ participation that lie outside the bounds of the particular game being played.
 Interaction, even the explicit interaction of a seemingly straightforward game choice, is never as simple as it
 appears at first glance. But before we dissect the components of explicit interactive choices, let's pause to
 consider the role of design itself in creating interactivity.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 But Is it "Designed" Interaction?
 Interaction comes in many forms. But for the purposes of designing interactivity, it is important to be able to
 recognize what forms of interactivity designers create. As an example, compare the following two actions:
 someone dropping an apple on the ground and someone rolling dice on a craps table. Although both are
 examples of interaction proper, only the second act, the rolling of the dice, is a form of designed interaction.
-4
+
  Chapter 6: Interactivity
-4
+
  Chapter 6: Interactivity
 
 
@@ -3108,7 +3050,7 @@ outcome-for example, "When the dice are rolled a player counts the number of dot
 sides of the dice." Even this extremely simple rule demonstrates how the act of rolling has meaning within the
 designed interactive system of the game. Secondly, the interaction is situated within a specific context: a
 game. Remember that meaningful play is tied not only to the concept of player action and system outcome,
-but also to a particular context in which the action occurs. 
+but also to a particular context in which the action occurs.
 The description of "someone dropping an apple on the ground," on the other hand, does not contain a designed
 structure or context. What conditions would have to be present to evolve this simple interaction into a
 designed interaction? The dropping of the apple does meet baseline criteria for interaction: there is a
@@ -3124,8 +3066,8 @@ apple before dropping it, we add an even fuller context for the interaction. The
 designating that the players quantify their interaction locates the single act of toss-catch within an overall
 system.Each element in the system is assigned a meaning: the toss, the catch, and the dropped toss. Even in
 the simplest of contexts, design creates meaning.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Interaction and Choice
 The careful crafting of player experience through a system of interaction is critical to the design of meaningful
 play. Yet, just what makes an interactive experience "meaningful"? We have argued that in order to create
@@ -3146,15 +3088,13 @@ its ability to effortlessly link the micro and the macro, so that every move a p
 simultaneously on both levels. Micro-interaction and macro-interaction are usually intertwined and there are,
 of course, numerous shades of gray in-between.
  Chapter 6: Interactivity
-5
- Chapter 6: Interactivity
-5
 
+ Chapter 6: Interactivity
 
 Keep in mind that "choice" does not necessarily imply obvious or rational choice, as in the selection of an
 action from a menu. Choice can take many forms, from an intuitive physical action (such as the "twitch" firing
 of a Time Crisis pistol) to the random throw of a die. Following are a few more examples of designed choices
-in games. 
+in games.
 The choice of whether or not to take a hit in Blackjack. A Blackjack player always has a clear
 set of choices: the micro-choice of taking or not taking a hit will have the eventual outcome
 of a win or a loss against the house. On the macro-level, each round affects the total amount
@@ -3198,14 +3138,14 @@ likely not play again. On the other hand, if you know why your opponent is bette
 meaningful, as it helps you assess your own abilities, gives you ideas for improvement, and spurs on your
 overall interaction with the game.
 [7]Doug Church, "Formal Abstract Design Tools." <www.gamasutra.com>, July 16, 1999.
-6
+
  Chapter 6: Interactivity
-6
+
  Chapter 6: Interactivity
 
 
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Choice Molecules
 [The designers of Spacewar!, the first computer game] identified action as the key ingredient
 and conceived Spacewar! as a game that could provide a good balance between thinking and
@@ -3226,29 +3166,27 @@ interactive units of Asteroids are manipulated through a series of five player c
 button on the arcade game's control panel: rotate left, rotate right, thrust, fire, and hyperspace. Within the
 scope of an individual game, possible player actions map to the five buttons:
 Press rotate right button: spaceship rotates right
-• 
+•
 Press rotate left button: spaceship rotates left
-• 
+•
 Press thrust button: spaceship accelerates in the direction it is facing
-• 
+•
 Press fire button: spaceship fires projectile (up to four on the screen at a time)
-• 
+•
 Press hyperspace button: spaceship disappears and reappears in a different location (and
 occasionally perishes as a result)
-• 
+•
 Action on the screen is affected through the subtle (and not so subtle!) orchestration of these five controls. As
 the game progresses, each new moment of choice is a response to the situation onscreen, which is the result of
 a previous string of action > outcome units. The seamless flow that emerges is one of the reasons why
 Asteroids is so much fun to play. Rarely are players aware of the hundreds of choices they make each minute
 as they dodge space rocks and do battle with enemy ships- they perceive only their excitement and
 participation inside the game.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 6: Interactivity
-7
- Chapter 6: Interactivity
-7
 
+ Chapter 6: Interactivity
 
 Anatomy of a Choice
 Although the concept of choice may appear basic upon first glance, the way that a choice is actually
@@ -3267,7 +3205,7 @@ player.
 3. How did the player make the choice?Did the player make a choice by playing a card,
 pressing a button, moving a mouse, running in the opposite direction, or passing on a turn?
 The mechanisms a player uses to make a choice vary greatly, but all are forms through which
-players are given the opportunity to take action. 
+players are given the opportunity to take action.
 4. What is the result of the choice? How will it affect future choices? A player taking action
 within a system will affect the relationships present in that system. This element of the
 anatomy of a choice speaks to the outcome of a player action, identifying how a single choice
@@ -3294,9 +3232,9 @@ A game is actually what computer science describes as a state machine. It is a s
 be in different states. It contains input and output functions, as well as definitions of what
 state and what input will lead to what following state. When you play a game, you are
 interacting with the state machine that is the game. In a board game, this state is stored in the
-8
+
  Chapter 6: Interactivity
-8
+
  Chapter 6: Interactivity
 
 
@@ -3312,15 +3250,15 @@ together, let us take an even closer look at the way choice is constructed in tw
 Asteroids and Chess. (Figure 1)
 Anatomy of a choice
 What happened before the player was given the choice? (internal event)
-1. 
+1.
 How is the possibility of choice conveyed to the player? (external event)
-2. 
+2.
 How did the player make the choice? (internal event)
-3. 
+3.
 What is the result of the choice? How will it affect future choices? (internal event)
-4. 
+4.
 How is the result of the choice conveyed to the player? (external event)
-5. 
+5.
 Anatomy of a Choice
 Asteroids
 Chess
@@ -3362,10 +3300,8 @@ Each move affects the overall system,
 such as capturing a piece or shifting
 the strategic possibilities of the game.
  Chapter 6: Interactivity
-9
- Chapter 6: Interactivity
-9
 
+ Chapter 6: Interactivity
 
 5. How is the result of the choice
 conveyed to the player? (external
@@ -3386,43 +3322,43 @@ occurs in every game, although each game will manifest choice in its own way.
 This way of understanding choice in a game can be extremely useful in diagnosing game design problems. If
 your game is failing to deliver meaningful play, it is probably because there is a breakdown somewhere in the
 action > outcome chain. Here is a sample list of common "failure states" that can often be found in games and
-the way that they relate to the stages of a choice. 
+the way that they relate to the stages of a choice.
 Feeling as if decisions are arbitrary. If you need to play a card from your hand and it always feels
 like it doesn't matter which card you select, the game probably suffers in stage 4, the effect of the
 player's choice on the system of the game. The solution is to make sure that player actions have
 meaningful outcomes in the internal system of the game.
-• 
+•
 Not knowing what to do next. This can be a common problem in large digital adventure games, where
 it is not clear how a player can take action to advance the game. The problem is in stage 2,
 representing choices to the player. These kinds of problems are often solved with additional
 information display, such as highlights on a map, or an arrow or indicator that helps direct the player.
-• 
+•
 Losing a game without knowing why. You think that you're about to reach the top of the mountain,
 when your character dies unexpectedly from overexposure. This frustrating experience can come
 about because a player has not sufficiently been informed about the current state of the game. The
 problem might be in stage 5, where the new state of the game resulting from a choice is not
 represented clearly enough to the player.
-• 
+•
 Not knowing if an action had an outcome. Although this sounds like something that would never
 happen, there are many examples of experimental interactivity (such as a gallery-based game with
 motion sensor inputs) in which the player never receives clear feedback on whether or not an action
 was taken. In this case, there is a breakdown at stages 3 and 4, when a player is taking an action and
 receiving feedback on the results.
-• 
+•
 These examples represent only a small sampling of the kinds of problems that a game's design can have. The
 anatomy of a choice is not a universal tool for fixing problems, but it can be especially useful in cases where
 the game is breaking down because of a glitch in the player's choice-making process.
 [8]Jesper Juul, Computer Games and Digital Textuality. Conference at IT University of Copenhagen, March
 1-2, 2001.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Space of Possibility
 We conclude this chapter with an excerpt from David Sudnow's book, Pilgrim in a Microworld, a wonderfully
 detailed personal account of one man's very real obsession with the video game Breakout. Sudnow brings
 readers into the space of designed interactivity through detailed descriptions of what he
-10
+
  Chapter 6: Interactivity
-10
+
  Chapter 6: Interactivity
 
 
@@ -3475,16 +3411,14 @@ and touch the electronic blip of his Breakout paddle, as a game designer you can
 possible space of your game. You only can indirectly construct the space of possibility, through the rules you
 design. Game design is an act of faith-in your rules, in your players, in your game itself. Will your game
  Chapter 6: Interactivity
-11
- Chapter 6: Interactivity
-11
 
+ Chapter 6: Interactivity
 
 create meaningful play? You can never know for sure. But understanding key concepts like design, systems,
 and interactivity can help bring you closer to a meaningful outcome.
 [9]David Sudnow, Pilgrim in a Microworld (New York: Warner Books, 1983), p.177.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 Computers as Theater, by Brenda Laurel
 Although Laurel is not speaking about games directly, her discussion of a dramatic theory of human-computer
@@ -3501,7 +3435,7 @@ car doors, his observations have direct application to the design of games as in
 Recommended:
 Chapter 1: The Psychopathology of Everyday Things
 Chapter 2: The Psychology of Everyday Actions
-Chapter 3: Knowledge in the Head and in the World 
+Chapter 3: Knowledge in the Head and in the World
 "Designing Interactive Theme Park Rides: Lessons From Disney's Battle for the Buccaneer Gold," by
 Jesse Schell and Joe Shochet
 In this design postmortem of one of Disney's interactive theme park rides, Schell and Shochet discuss the
@@ -3513,9 +3447,9 @@ In making one of the most robust arguments for the development of a common vocab
 Church establishes a precedent for critical thinking within the emerging field of game design. "Formal
 Abstract Design Tools" is written from a game design perspective and explores concrete concepts of
 interactivity in the design of player experience. Available at <www.gamasutra.com>.
-12
+
  Chapter 6: Interactivity
-12
+
  Chapter 6: Interactivity
 
 
@@ -3539,63 +3473,61 @@ interaction is "a cyclic process in which two actors alternatively listen, think
 model of interaction is used throughout the text to good effect.
 Recommended:
 Part I: Chapters 1–6
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 Interactivity is closely linked to the concepts of design, systems, and meaningful play. When a player
 interacts with the designed system of a game, meaningful play emerges.
-• 
+•
 There are many valid definitions of interactivity. Cutting across all of them are four modes of
 interactivity:
 Mode 1: Cognitive interactivity; or interpretive participation;
 Mode 2: Functional interactivity; or utilitarian participation;
 Mode 3: Explicit interactivity; or participation with designed choices and procedures;
 Mode 4: Beyond-the-object-interactivity or cultural participation.
-• 
+•
 These four modes are not distinct categories but are instead overlapping ways of understanding any
 moment of interactivity. They usually occur simultaneously in any experience of a designed system.
-• 
+•
  Chapter 6: Interactivity
-13
- Chapter 6: Interactivity
-13
 
+ Chapter 6: Interactivity
 
 Not all interaction is designed interaction. When an interaction is designed, it has an internal
 structure and a context that assign meaning to the actions taken.
-• 
+•
 An interactive context presents participants with choices. Choices can be micro-choices of
 moment-to-moment interactivity or macro-choices, which concern the long-term progress of the
 game experience.
-• 
+•
 The basic unit out of which interactive meaning is made is the action > outcome unit. These units are
 the molecules out of which interactive designers (including game designers) create larger structures of
 designed interaction.
-• 
+•
 Within each action > outcome event is a series of five stages that help construct a choice in a game.
 These stages are expressed through the following questions:
 What happened before the player was given the choice?
-1. 
+1.
 How is the possibility of choice conveyed to the player?
-2. 
+2.
 How did the player make the choice?
-3. 
+3.
 What is the result of the choice? How will it affect future choices?
-4. 
+4.
 How is the result of the choice conveyed to the player?
-5. 
-• 
+5.
+•
 Each of these stages represents either an internal event, in which the system of the game processes
 and receives the choice, or an external event, in which the choice is represented to the player.
-• 
+•
 The space of possibility of a game is the space of all possible actions and meanings that can emerge
 in the course of the game. This concept ties together meaning, design, systems, and interactivity.
-• 
- < Day Day Up > 
- < Day Day Up > 
-14
+•
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 6: Interactivity
-14
+
  Chapter 6: Interactivity
 
 
@@ -3620,11 +3552,9 @@ simulations to literary theorists studying the "play" of meaning in language and
 investigations study games or play in the service of another field. Our intent, on the other hand, is to study
 play and games within the field of game design. A definition of "game" should help to not only distinguish
 game design from other design practices, but also bring us closer to an understanding of meaningful play.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 7: Defining Games
-1
-
 
 Play and Game
 As a first step, let us see how game relates to the equally complex play. We begin with an obvious question: Is
@@ -3638,7 +3568,7 @@ but distinct meanings.
 It turns out that play and games have a surprisingly complex relationship. Play is both a larger and a smaller
 term than "game," depending on the way it is framed. In one sense, "play" is a larger term that includes
 "game" as a subset. In another, the reverse is true: "game" is the bigger term, and includes "play" within it.
-Consider each of these relationships separately: 
+Consider each of these relationships separately:
 Relationship one: Games are a subset of play.
 If we think about all of the activities we could call play, from two dogs playfully chasing each
 other in a grassy field, to a child singing a nursery rhyme, to a community of online
@@ -3658,9 +3588,9 @@ play of the game represents one aspect of games. Although play is a crucial elem
 larger concept of games,"play" is in fact a subset of "game." Rather than typological, this
 pairing of the terms represents a more conceptual approach that situates play and games
 within the field of game design.
-2
+
  Chapter 7: Defining Games
-2
+
  Chapter 7: Defining Games
 
 
@@ -3670,8 +3600,8 @@ English may be an anomaly in the way that it differentiates between these two te
 useful distinction. A good definition of game should distinguish it clearly from play in both of the senses
 described here.
 [1]David Parlett, The Oxford History of Board Games (New York: Oxford University Press, 1999), p. 1.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Comparing Definitions
 One challenge of understanding the term "game" is that it has so many uses. Consider, for example, many of
 the ways that the word is utilized in English: For our purposes, only a single subset of all of the possible
@@ -3680,21 +3610,21 @@ games, sports, computer games, and similar activities. Put another way, games ar
 create. Although this is an important qualification, it does not bring us any closer to a precise understanding of
 what is and what is not a game.
 limp or crippled:
-• 
+•
 a game leg a hunted animal: game hunting season is open
-• 
+•
 being skilled, particularly in sports or in romance: having game; "he got game"
-• 
+•
 to partake in gambling: to spend a night gaming in Vegas
-• 
+•
 social and psychological manipulation: playing hea games
-• 
+•
 a procedure for gaining an end: playing the waiting game with a stubborn friend
-• 
+•
 a field in which one earns a living: the writing game and, of course
-• 
+•
 board games, card games, computer games, etc.
-• 
+•
 Luckily, we are not the first to attempt a definition of "game," so we will be taking a close and comparative
 look at eight definitions that come from a variety of fields. In and among the definitions a handful of thorny
 issues appear again and again. These issues not only include articulating the unique qualities that make a game
@@ -3707,15 +3637,13 @@ between "play" and "game." As a result, we look at definitions of play as well a
 investigation. Bear in mind that we are not building a definition of play (that comes in a later chapter), but are
 using definitions of play to shed light on an understanding of games.
  Chapter 7: Defining Games
-3
- Chapter 7: Defining Games
-3
 
+ Chapter 7: Defining Games
 
 Definition 1: David Parlett
 David Parlett is a game historian who has written extensively on card games and board games. Earlier we
 noted Parlett's skepticism regarding the ability to define the slippery term "game." Yet despite his assertion to
-the contrary, Parlett does provide a model for understanding games. 
+the contrary, Parlett does provide a model for understanding games.
 Parlett begins by distinguishing between formal and informal games."An informal game is merely undirected
 play, or 'playing around,' as when children or puppies play at rough and tumble." He contrasts this kind of
 activity with a "formal game":
@@ -3732,9 +3660,9 @@ definition of "game:" how to distinguish games from other forms of play. What Pa
 game" of two puppies romping about might more simply be called play. His definition of a "formal game" has
 two main components:
 Ends: The fact that a "formal game" is a contest with an endpoint as its goal.
-• 
+•
 Means: The agreed-upon rules and materials by which one wins the contest.
-• 
+•
 Both components—the idea of winning and the idea of doing so by means of rules—are key ideas in defining
 games, and in distinguishing them from other, less "formal" kinds of play.
 Definition 2: Clark C. Abt
@@ -3746,21 +3674,21 @@ trying to win objectives. [3]
 Abt's definition offers an understanding of games that emphasizes the active role of players in a game. Here
 are the four key terms he highlights:
 Activity: a game is an activity, a process, an event;
-• 
+•
 Decision-makers: games require players actively making decisions;
-• 
+•
 Objectives: as with Parlett's definition, games have goals;
-• 
+•
 Limiting context: there are rules that limit and structure the activity of the game.
-• 
+•
 Comparing Abt's definition to Parlett's, we have another instance where games are seen to have a goal or
 objective. Abt refines Parlett's idea of rules-based means by implying that rules are intrinsically limiting. But
 perhaps the most interesting component is Abt's acknowledgment that games are an activity in which players
 make decisions. We know from our discussion of meaningful play that the interactivity present in games is
 based on players making decisions that have meaningful outcomes.
-4
+
  Chapter 7: Defining Games
-4
+
  Chapter 7: Defining Games
 
 
@@ -3795,19 +3723,19 @@ promotes the formation of social groupings, which tend to surround themselves wi
 and to stress their difference from the common world by disguise or other means.[6]
 In this definition, Huizinga asserts that play:
 is outside ordinary life;
-• 
+•
 is "not serious";
-• 
+•
 is utterly absorbing;
-• 
+•
 is not to be associated with material interest or profit;
-• 
+•
 takes place in its own boundaries of time and space;
-• 
+•
 proceeds according to rules;
-• 
+•
 creates social groups that separate themselves from the outside world.
-• 
+•
 One of strengths of this definition is that Huizinga manages to identify some of the more elusive and abstract
 qualities of play. The idea that play is both utterly absorbing but also not serious, for example, wonderfully
 describes the sense of being at play. On the other hand, it is not clear that these experiential qualities will help
@@ -3816,10 +3744,8 @@ Other aspects of his definition, such as his emphasis on play's separation from 
 play takes place within special boundaries of time and space, point to the intrinsic artificiality of games. Is this
 feature of artificiality a defining quality of games? We shall see.
  Chapter 7: Defining Games
-5
- Chapter 7: Defining Games
-5
 
+ Chapter 7: Defining Games
 
 Huizinga's definition includes many important ideas, but on the whole it has some problems. Several of the
 components, such as the fact that play creates social groups, address the effects of play and games rather than
@@ -3832,22 +3758,22 @@ Play, and Games, a book that is in many ways a direct response to Homo Ludens. C
 definition of play, describing it as being:
 Free: in which playing is not obligatory; if it were, it would at once lose its attractive and joyous
 quality as diversion;
-• 
+•
 Separate: circumscribed within limits of space and time, defined and fixed in advance;
-• 
+•
 Uncertain: the course of which cannot be determined, nor the result attained beforehand, and some
 latitude for innovations being left to the player's initiative;
-• 
+•
 Unproductive: creating neither goods, nor wealth, nor new elements of any kind; and, except for the
 exchange of property among the players, ending in a situation identical to that prevailing at the
 beginning of the game;
-• 
+•
 Governed by rules: under conventions that suspend ordinary laws, and for the moment establish new
 legislation, which alone counts;
-• 
+•
 Make-believe: accompanied by a special awareness of a second reality or of a free unreality, as
 against real life.[7]
-• 
+•
 Some of these ideas were part of the previous definitions; several are new. Every definition so far includes
 reference to the fact that play is governed by rules. The ideas that play exists in a separate space and does not
 create capital are borrowed from Huizinga. But Caillois extends an understanding of play by describing it as
@@ -3871,9 +3797,9 @@ affairs, using only means permitted by rules, where the rules prohibit more effi
 of less efficient means, and where such rules are accepted just because they make possible
 such activity.[8]
 —or more succinctly—
-6
+
  Chapter 7: Defining Games
-6
+
  Chapter 7: Defining Games
 
 
@@ -3882,17 +3808,17 @@ playing a game is the voluntary effort to overcome unnecessary obstacles.[9]
 Although Suit's definitions sound abstract, he is covering familiar territory. Here are the primary elements
 from both versions:
 Activity: as with Abt, Suits emphasizes the activity of playing a game;
-• 
+•
 Voluntary: games are freely entered into;
-• 
+•
 A specific state of affairs: games have a goal;
-• 
+•
 Rules: as in the previous definitions, Suits identifies rules as a component of games;
-• 
+•
 Inefficiency: the rules of games limit behavior, making it less efficient;
-• 
+•
 Rules are accepted: playing a game means accepting the rules.
-• 
+•
 Other definitions have included many of these elements: the fact that a game is an activity, that it is voluntary,
 has a goal, and involves rules. However, Suits adds some new ideas to the mix. When he states that "the rules
 prohibit more efficient in favour of less efficient means…such rules are accepted just because they make
@@ -3929,10 +3855,8 @@ interaction in a game. The player is actively pursuing some goal. Obstacles prev
 easily achieving this goal. Conflict is an intrinsic element of all games.It can be direct or
 indirect, violent or nonviolent, but it is always present in every game. [12]
  Chapter 7: Defining Games
-7
- Chapter 7: Defining Games
-7
 
+ Chapter 7: Defining Games
 
 Safety: Conflict implies danger; danger means risk of harm; harm is undesirable. Therefore, a
 game is an artifice for providing the psychological experiences of conflict and danger while
@@ -3945,7 +3869,7 @@ game's capacity for representation directly to its rules, and to its status as a
 fact, Crawford's definition is the first to explicitly call games a system, perhaps because he is the first of these
 authors writing from a digital game point of view.Tied closely to the systemic nature of games is Crawford's
 element of interaction. His scheme of interactive "cause and effect" parallels the ideas of action and outcome
-outlined in the previous chapter. 
+outlined in the previous chapter.
 Crawford's definition names conflict for the first time. Although Parlett's "contest to achieve an objective" and
 Abt's "contest among adversaries" imply conflict, Crawford names conflict explicitly, linking it directly to the
 fact that games have goals. His final characteristic of games, safety, echoes the emphasis made in other
@@ -3958,15 +3882,15 @@ A game is a form of art in which participants, termed players, make decisions in
 manage resources through game tokens in the pursuit of a goal.
 The key terms in this definition are:
 Art: games are identified as a form of culture;
-• 
+•
 Decision-making players: games require active participation as choices are made;
-• 
+•
 Resource management: player decisions hinge on manipulating resources;
-• 
+•
 Game tokens: the means by which players enact their decisions;
-• 
+•
 Goal: a game has an objective.
-• 
+•
 Like Crawford, Costikyan is influenced by digital game design and shares an emphasis on the
 decision-making, interactive quality of game playing. Although his acknowledgement of the goal of a game is
 something mentioned in other definitions, Costikyan's formulation has a number of unique elements. For
@@ -3981,9 +3905,9 @@ Definition 8: Elliot Avedon and Brian Sutton-Smith
 Brian Sutton-Smith is perhaps the most prolific and important scholar of play and games in the twentieth
 century. In The Study of Games, which Sutton-Smith co-edited with Elliot Avedon, the authors present an
 extremely concise and powerful definition of games:
-8
+
  Chapter 7: Defining Games
-8
+
  Chapter 7: Defining Games
 
 
@@ -3991,16 +3915,16 @@ Games are an exercise of voluntary control systems, in which there is a contest 
 powers, confined by rules in order to produce a disequilibrial outcome. [15]
 The key elements of this definition are:
 Exercise of control systems: games involve some form of physical or intellectual activity:
-• 
+•
 Voluntary: games are freely entered into;
-• 
+•
 Contest between powers: games embody a conflict between players;
-• 
+•
 Confined by rules: the limiting nature of rules is emphasized;
-• 
+•
 Disequilibrial outcome: the outcome of a game is a goal-state which is different than the starting state
 of the game.
-• 
+•
 Although none of these elements are wholly original to this definition, the strength of Avedon and
 Sutton-Smith's formulation is that it is compact, clear, and addresses games themselves, rather than the
 activity of playing them. Elegantly narrow in scope, their definition clearly demarcates games from less
@@ -4072,10 +3996,8 @@ A form of art
 [6]Johann Huizinga, Homo Ludens: A Study of the Play Element in Culture (Boston: Beacon Press, 1955), p.
 13.
  Chapter 7: Defining Games
-9
- Chapter 7: Defining Games
-9
 
+ Chapter 7: Defining Games
 
 [7]Roger Caillois, Man, Play, and Games, Translated from the French by Meyer Barash (Champaign:
 University of Illinois Press, 2001), p. 9–10.
@@ -4083,15 +4005,15 @@ University of Illinois Press, 2001), p. 9–10.
 [9]Ibid. p. 41.
 [10]Chris Crawford, The Art of Computer Game Design.
 <http://www.van-couver.wsu.edu/fac/peabody/game-book/Coverpage.html>.
-[11]Ibid. 
+[11]Ibid.
 [12]Ibid.
 [13]Ibid.
 [14]Greg Costikyan,"I Have No Words and I Must Design." Interactive Fantasy #2, 1994
 <www.geocities.com/SiliconValley/Bay/2535/nowords.html>.
 [15]Elliott Avedon and Brian Sutton-Smith, eds, The Study of Games (New York: John Wiley & Sons, 1971),
 p. 405.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 A Comparison
 The chart above summarizes the elements of a game, as described in each of the definitions.
 In simplifying complex ideas to a grid of common elements, much of the context and subtlety of the authors'
@@ -4100,17 +4022,17 @@ with the exception of Chris Crawford and Greg Costikyan, none of the authors are
 field of game design. On the other hand, this cannibalistic dissection of their approaches to defining games
 yields some interesting comparative results. All of the authors except Costikyan include rules as a key
 component. Beyond this there is no clear consensus. Although 10 of the 15 elements are shared by more than
-one author, apart from rules and goals, there is no majority agreement on any one of them. 
+one author, apart from rules and goals, there is no majority agreement on any one of them.
 It is clear that not all of the elements need to be included in a definition of game. Some elements, such as
 games being voluntary or inefficient, do not seem to apply to all games. Others, such as the fact that games
 create social groups, describe the effects of games rather than games themselves. Still other elements, such as
 the representational or make-believe quality of games, appear in many other media and do not help
 differentiate games from other kinds of designed experiences.
- < Day Day Up > 
- < Day Day Up > 
-10
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 7: Defining Games
-10
+
  Chapter 7: Defining Games
 
 
@@ -4142,21 +4064,19 @@ the field of study at the center of this book:
 Game design is the process by which a game designer creates a game, to be encountered by a player,
 from which meaningful play emerges.
 Aren't you happy to finally know what it is this book is about?
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Puzzle of Puzzles
 This definition of games is intentionally quite narrow. It is not our intent to understand the broad phenomena
 of play, but instead to clearly demarcate the realm of games and game design. But is the definition too
 narrow? Are there things that are clearly are games but that don't fit this definition? This chapter on defining
 games concludes by looking at two kinds of game-activities that may or may not fit into the category of games
  Chapter 7: Defining Games
-11
- Chapter 7: Defining Games
-11
 
+ Chapter 7: Defining Games
 
 this definition delineates. These "limit cases" will help clarify how this definition can help us investigate
-game-like phenomena. 
+game-like phenomena.
 First, puzzles. According to puzzle and game designer Scott Kim, puzzles are different from games because
 puzzles have a correct answer or outcome. Think of a crossword puzzle: the puzzle designer creates the
 correct answer, and the player's activity consists of trying to reconstruct that answer. This is a very different
@@ -4185,8 +4105,8 @@ game play into it and better shape the player's sense of accomplishment. The ide
 helpful way to frame game design problems.
 [16]Scott Kim,"What is a Puzzle?" <www.scottkim.com/articles.html>.
 [17]Ibid.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Role-Playing Games
 The second game "limit case" is role-playing games. Off the computer, these are games such as Dungeons &
 Dragons, in which players are cast as characters in an imaginary world. Digital role-playing games can be
@@ -4194,9 +4114,9 @@ single-player adventures like the classic Ultima games, or multiplayer community
 both cases, the player controls and evolves a character over time within a narrative setting.
 Role-playing games (or RPGs) certainly have the trappings of games. A paper-based, tabletop RPG usually
 involves dice, rulebooks, statistics, and a fair amount of strategic play. Role-playing games clearly embody
-12
+
  Chapter 7: Defining Games
-12
+
  Chapter 7: Defining Games
 
 
@@ -4211,7 +4131,7 @@ Gygax, co-designer of Dungeons & Dragons, would concur: "Advanced Dungeons and D
 most role-playing games, open-ended. There is no 'winner,' no final objective, and the campaign grows and
 changes as it matures."[18] This is true of both digital and non-digital multiplayer RPGs. (Note that
 single-player digital RPGs are structured differently—usually with an adventure game-style winning
-outcome.) 
+outcome.)
 From this description, it would appear that multiplayer role-playing games are not, in fact, games. But this
 seems like a ridiculous conclusion, because RPGs are so closely bound up in the development of games and
 gaming culture. Our position is this: RPGs can be framed either way—as having or not having a quantifiable
@@ -4244,14 +4164,12 @@ our model of game design.
 7.
 [19]Costikyan, "I Have No Words and I Must Design."
 <http://www.geoci-ties.com/SiliconValley/Bay/2535/nowords.html>.
- < Day Day Up > 
+ < Day Day Up >
  Chapter 7: Defining Games
-13
+
  Chapter 7: Defining Games
-13
 
-
- < Day Day Up > 
+ < Day Day Up >
 Further Reading
 Man, Play, and Games, by Roger Caillois
 A book that builds directly from the work of Johann Huizinga's Homo Ludens, Man, Play, and Games by
@@ -4262,38 +4180,38 @@ games.
 Recommended:
 I. The Definition of Play
 II. The Classification of Games
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 The words play and games have a unique relationship in the English language. There are two ways to
 frame their relationship, both of which are useful:
 Games are a subset of play: The category of play represents many kinds of playful activities.
 Some of these activities are games, but many of them are not. In this sense, games are
 contained within play.
-1. 
+1.
 Play is a subset of games: Games are complex phenomena and there are many ways to frame
 them and understand them. RULES, PLAY, and CULTURE are three aspects of the
 phenomena of games. In this sense, play is contained within games.
-2. 
-• 
+2.
+•
 A game is a system in which players engage in an artificial conflict, defined by rules, that results
 in a quantifiable outcome. The key elements of this definition are the fact that a game is a system,
 players interact with the system, a game is an instance of conflict, the conflict in games is artificial,
 rules limit player behavior and define the game, and every game has a quantifiable outcome or goal.
-• 
+•
 A puzzle is a special kind of game in which there is a single correct answer or set of correct answers.
 All puzzles are games.
-• 
+•
 Multiplayer Role-playing games (RPGs) do not clearly possess a quantifiable outcome. Whether or
 not they fit the definition of a game depends on how they are framed. As with other open-ended
 game-like experiences such as Sim City, RPGs have emergent quantifiable goals but usually no single
 overriding outcome.
-• 
- < Day Day Up > 
- < Day Day Up > 
-14
+•
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 7: Defining Games
-14
+
  Chapter 7: Defining Games
 
 
@@ -4310,8 +4228,8 @@ whose definitions we explored were writing before the invention of computer game
 recent explosion of the video game industry. Yet computer and video games are an important part of the game
 landscape, as they bring a number of unique qualities and concerns to the practice of game design. Before
 proceeding any further, in this chapter we take a brief look at the special qualities of digital games.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Computer Is Not a Computer
 Digital and electronic games take a multitude of forms and appear on many different computer platforms.
 These include games for personal computers or TV-attached game consoles such as the Sony Playstation or
@@ -4323,8 +4241,6 @@ Digital games are systems, just like every other game discussed so far. The phys
 is one element that makes up the system of the game, but it does not represent the entire game.The computer
 hardware and software are merely the materials of which the game is composed. One would not say that a
  Chapter 8: Defining Digital Games
-1
-
 
 deck of UNO cards is the same thing as the game of UNO. But people often fall into this kind of thinking
 when it comes to describing digital games. Take a straightforward example of a digital game: the game title
@@ -4348,7 +4264,7 @@ relationships that emerge between a player and the game. In this case, the eleme
 constituted by 1) the player and 2) the Game Boy Advance console. The circuit of interaction between player
 and game runs in a kind of loop as the player plays, responding to the game even as the game responds to the
 player. In this picture, the digital technology itself is a part of the system, but certainly does not constitute it
-entirely. 
+entirely.
 Narrowing the focus to the formal rules of Tetris, the mathematical system of the game that exists apart from
 the player, are we talking just about the technology? Yes and no. The rules are embedded in the hardware and
 the software, but they are also something separate from the code. For example, the enactment of the rules is
@@ -4360,8 +4276,8 @@ What is the point of these multiple framings? A game designer doesn't create tec
 creates an experience. Computer and video game technology can be a part of that experience-it can even be
 the focal point of that experience-but in order to design meaningful play a designer has to consider the
 complete picture.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 What Can It Do?
 The key question for game designers and digital media is not, What is it? But instead, What can it do?
 Confronted with a digital platform, a game designer needs to understand how to harness the technology into a
@@ -4369,9 +4285,9 @@ designed system that results in meaningful play. This emphasis is not unique to 
 that constitute a game are always crucial in designing an experience.
 What can digital technology do? What are the special qualities of digital media that can support gaming
 experiences not possible in other game forms? We can list four "traits" of digital media. The qualities are not
-2
+
  Chapter 8: Defining Digital Games
-2
+
  Chapter 8: Defining Digital Games
 
 
@@ -4406,7 +4322,7 @@ sport such as bicycle racing gives players a very restricted set of interactions
 time, players receive immediate feedback for each tiny modification of speed, steering, and
 the position of their bodies on their bicycles. Much of the deep engagement that cyclists
 experience while racing emerges directly from the narrow but immediate interactivity of the
-sport. 
+sport.
 Trait 2: Information Manipulation
 One way of framing digital media is as machines for storing and manipulating information.
 Games certainly capitalize on this capacity for what Janet Murray, in Hamlet on the Holodeck
@@ -4421,10 +4337,8 @@ Every aspect of a digital game, in fact every aspect of its program-the internal
 mechanisms for handling player interactivity, memory management-can be regarded as
 information. Digital games manipulate this information in ways that non-digital games
  Chapter 8: Defining Digital Games
-3
- Chapter 8: Defining Digital Games
-3
 
+ Chapter 8: Defining Digital Games
 
 generally cannot. For example, consider the rules of a game. In a typical board game it is
 necessary for at least one of the players to learn the rules and understand them fully before a
@@ -4456,7 +4370,7 @@ more dynamic variables than their non-digital counterparts.
 This is not necessarily a good thing. As James Dunnigan, a designer of wargames on and off
 the computer states, "While computer wargames had many advantages over manual games,
 they had one major minus for game designers. Computer games did not reveal their internal
-workings."[3] Dunnigan calls this the "Black Box Syndrome" of computer games: 
+workings."[3] Dunnigan calls this the "Black Box Syndrome" of computer games:
 Another advantage of paper games is that you know why things are happening a certain way
 in the game. All the rules and probability tables are right there in front of you. Yes, it takes a
 lot of effort to wade through all of that detail, but you do end up with a good idea of how the
@@ -4472,9 +4386,9 @@ diminishing a player's experience of the game.
 The kinds of automated complex systems that appear in digital games vary greatly, from the
 evolving ecosystems of Sim City, to the sophisticated artificial intelligence opponents of
 Thief, to the complex light-and-shadow rendering routines of Unreal, to the natural language
-4
+
  Chapter 8: Defining Digital Games
-4
+
  Chapter 8: Defining Digital Games
 
 
@@ -4515,32 +4429,30 @@ communicative function similar to online high score boards.
 [3]James F. Dunnigan, Wargames Handbook: How to Play and Design Commercial and Professional
 Wargames, 3d ed. (San Jose: Writers Club Press, 2000), p. xii.
 [4]Ibid. p.74-5.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 8: Defining Digital Games
-5
- Chapter 8: Defining Digital Games
-5
 
+ Chapter 8: Defining Digital Games
 
 Integration
 In concluding the discussion of the qualities of digital games, it is important to remember that these four traits
 are not a roadmap for designing games or a checklist for analyzing them. They simply highlight ways of
 understanding the capabilities of digital game design. In a Quake deathmatch, for example, we can see all four
-traits in operation: 
+traits in operation:
 Immediate but narrow interactivity: The game controls require deft manipulation of the mouse and
 keyboard, with instantaneous response from the game system.
-• 
+•
 Manipulation of information: Like all digital games, Quake manipulates information, from the 3D
 data defining the deathmatch map to the way that players' movements are present but hidden from
 each other.
-• 
+•
 Automated complex systems: The graphics engine, control routines, opponent AI, and all other formal
 aspects of the game are automated.
-• 
+•
 Networked communication: The online deathmatches create a forum for rich social interaction
 between players.
-• 
+•
 During any actual game experience, the four categories generally overlap and operate simultaneously,
 together providing the overall experience of play.
 Before we end this chapter, let's take a moment to consider a "border-line" case: the board game Stay Alive.
@@ -4561,9 +4473,9 @@ medium. In fact, a deck of cards can hold information as well: if a player shuff
 not need to internalize the order of the cards. Instead, the physical properties of the deck (the fact that it can be
 shuffled and that the cards can be face-down) lets the cards contain information that is autonomous from the
 players, such as which card is on the top of a face-down deck.
-6
+
  Chapter 8: Defining Digital Games
-6
+
  Chapter 8: Defining Digital Games
 
 
@@ -4572,34 +4484,31 @@ the kinds of complexity that game materials can embody. They also help to unders
 although different game materials allow for different game experiences, the underlying properties of games
 are ultimately more similar than different. The core challenges of designing meaningful play hold true in any
 game medium.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 If a game is framed as a system, it is clear that the game's physical medium is an important element of
 the game, but does not constitute the entire system. Digital technology should not be emphasized as
 an end in itself, but instead should be understood as one element in a larger designed system.
-• 
+•
 There are four traits that summarize the special qualities of digital games. These traits are also present
 in non-digital games, but digital games generally embody them more robustly:
 Trait 1: Immediate but narrow interactivity
 Trait 2: Manipulation of information
 Trait 3: Automated complex systems
 Trait 4: Networked communication
-• 
+•
 The underlying properties of games and the core challenges of game design hold true regardless of the
 medium in which a game manifests.
-• 
- < Day Day Up > 
- < Day Day Up > 
+•
+ < Day Day Up >
+ < Day Day Up >
  Chapter 8: Defining Digital Games
-7
- Chapter 8: Defining Digital Games
-7
 
-
-8
  Chapter 8: Defining Digital Games
-8
+
+ Chapter 8: Defining Digital Games
+
  Chapter 8: Defining Digital Games
 
 
@@ -4633,8 +4542,6 @@ perceptible physical representation: the proscenium arch of the theater, the rai
 park, the boundary line on the cricket pitch, and so on. But such a frame may also be abstract,
 such as the rules governing the game being played.[3]
  Chapter 9: The Magic Circle
-1
-
 
 In other words, the frame is a concept connected to the question of the "reality" of a game, of the relationship
 between the artificial world of the game and the "real life" contexts that it intersects. The frame of a game
@@ -4646,8 +4553,8 @@ inspired by Johann Huizinga's work on play.
 [2]Ibid. p. 2.
 [3]Michael J. Apter, "A Structural-Phenomenology of Play," in Adult Play: A Reversal Theory Approach,
 edited by J. H. Kerr and Michael J. Apter (Amsterdam: Swets and Zeitlinger, 1991), p. 15.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Boundaries
 What does it mean to say that games take place within set boundaries established by the act of play? Is this
 really true? Is there really such a distinct boundary? In fact there is. Compare, for example, the informal play
@@ -4659,7 +4566,7 @@ at other times forgetting it is there.
 The boundary between the act of playing with the doll and not playing with the doll is fuzzy and permeable.
 Within this scenario, we can identify concrete play behaviors, such as making the doll move like a puppet. But
 there are just as many ambiguous behaviors, which might or not be play, such as idly kneading its head while
-watching TV. There may be a frame between playing and not playing, but its boundaries are indistinct. 
+watching TV. There may be a frame between playing and not playing, but its boundaries are indistinct.
 Now compare that kind of informal play with the play of a game-two children playing Tic-Tac-Toe. In order
 to play, the children must gather the proper materials, draw the four lines that make up the grid of the board,
 and follow the proper rules each turn as they progress through the game.With a toy, it may be difficult to say
@@ -4676,9 +4583,9 @@ regarding play: the game is either in play or it is not. Players of Tetris do no
 they are playing a game. It is true that a Tetris player could pause a game in progress and resume it later-just
 as two Tennis players might pause for a drink of water. But in both cases, the players are stepping out of the
 game space, formally suspending the game before stepping back in to resume play.
-2
+
  Chapter 9: The Magic Circle
-2
+
  Chapter 9: The Magic Circle
 
 
@@ -4700,14 +4607,14 @@ circle inscribes a space that is repeatable, a space both limited and limitless.
 infinite possibility.
 [4]Johann, Huizinga, Homo Ludens: A Study of the Play Element in Culture (Boston: Beacon Press, 1955), p.
 10.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Enter In
 In a very basic sense, the magic circle of a game is where the game takes place. To play a game means
 entering into a magic circle, or perhaps creating one as a game begins. The magic circle of a game might have
 a physical component, like the board of a board game or the playing field of an athletic contest. But many
 games have no physical boundaries-arm wrestling, for example, doesn't require much in the way of special
-spaces or material. The game simply begins when one or more players decide to play. 
+spaces or material. The game simply begins when one or more players decide to play.
 The term magic circle is appropriate because there is in fact something genuinely magical that happens when
 a game begins. A fancy Backgammon set sitting all alone might be a pretty decoration on the coffee table. If
 this is the function that the game is serving-decoration-it doesn't really matter how the game pieces are
@@ -4725,10 +4632,8 @@ Consider a group of kids in a suburban front yard, casually talking and hanging 
 game of Hide-and-Seek. One of the kids takes a rock and plants it in the middle of yard to represent home
 base. The group huddles around it, playing "eenie-meenie-miney-moe" to pick the first person to be "It"; then
  Chapter 9: The Magic Circle
-3
- Chapter 9: The Magic Circle
-3
 
+ Chapter 9: The Magic Circle
 
 they scatter and hide as "It" covers his eyes and starts to count to twenty. All at once, the relationships among
 the players have taken on special meanings. Who is "It" and who is not? Who is hidden and who can be seen?
@@ -4736,8 +4641,8 @@ Who is captured and who is free? Who will win the game?
 What is going on in these examples of Backgammon, Chutes and Ladders, and Hide-and-Seek? As Huizinga
 eloquently states, within the space of a game "special rules obtain." The magic circle of a game is the
 boundary of the game space and within this boundary the rules of the game play out and have authority.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Temporary Worlds
 What lies at the border of the game? Just how permeable is the boundary between the real world and the
 artificial world of the game that is circumscribed and delimited by the magic circle? Huizinga calls
@@ -4764,16 +4669,16 @@ the experience of play, it is possible to restrict our focus and look at just th
 that are intrinsic to the game, ignoring all others. At the same time, players bring a great deal
 in from the outside world: their expectations, their likes and dislikes, social relationships, and
 so on. In this sense, it is impossible to ignore the fact that games are open, a reflection of the
-players who play them. 
+players who play them.
 CULTURE: Considered as CULTURE,games are extremely open systems. In this case, the
 internal functioning of the game is not emphasized; instead, as a cultural system the focus is
 on the way that the game exchanges meaning with culture at large. In considering the cultural
 aspects of professional Football-political debates over Native American team mascots, for
 example-the system of the game is opened up to expose the way that it interfaces with society
 as a whole.
-4
+
  Chapter 9: The Magic Circle
-4
+
  Chapter 9: The Magic Circle
 
 
@@ -4785,8 +4690,8 @@ times over the course of this book.
 [5]Stephen W. Littlejohn, Theories of Human Communication, 3rd edition (Belmont, CA: Wadsworth
 Publishing Company, 1989), p. 41.
 [6]Bernard DeKoven, The Well-Played Game (New York: Doubleday, 1978),
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Lusory Attitude
 So far in the discussion of the magic circle we have outlined the ways that the interior space of a game relates
 to the real world spaces outside it, how the magic circle frames a distinct space of meaning that is separate
@@ -4819,12 +4724,10 @@ decidedly irrational thing to do, whereas in games it appears to be an absolutel
 calls this state of mind the lusory attitude,a term we introduced under his definition of a game.The lusory
 attitude allows players to "adopt rules which require one to employ worse rather than better means for
 reaching an end." [9]Trying to propel a miniature ball with a metal stick into a tiny hole across great distances
-certainly requires something by way of attitude! 
+certainly requires something by way of attitude!
  Chapter 9: The Magic Circle
-5
- Chapter 9: The Magic Circle
-5
 
+ Chapter 9: The Magic Circle
 
 The word "ludo" means play in Latin, and the root of "lusory" is the same root as "ludens" in "Homo
 Ludens."The lusory attitude is an extremely useful concept as it describes the attitude that is required of game
@@ -4864,11 +4767,11 @@ systems.
 [8]Ibid. p. 38-9.
 [9]Ibid. p. 38-9.
 [10]Ibid. p. 40.
- < Day Day Up > 
- < Day Day Up > 
-6
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 9: The Magic Circle
-6
+
  Chapter 9: The Magic Circle
 
 
@@ -4880,7 +4783,7 @@ of games versus the real world are among the topics Suits addresses. It is from 
 concept of the lusory attitude, an important game design concept.
 Recommended:
 Chapter 3: Construction of a Definition
-Chapter 4: Triflers, Cheats, and Spoilsports 
+Chapter 4: Triflers, Cheats, and Spoilsports
 Homo Ludens, by Johann Huizinga
 Perhaps the most influential theoretical work on play in the twentieth century, in Homo Ludens (Man the
 Player), Dutch philosopher and historian Huizinga explores the relationship between games, play, and culture.
@@ -4889,37 +4792,34 @@ other authors we reference here, such as Roger Caillois and Brian Sutton-Smith. 
 below, Huizinga establishes his essential definition of play.
 Recommended:
 Chapter 1: Nature and Significance of Play as a Cultural Phenomenon
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 Every game exists within a frame: a specially demarcated time and space. The frame communicates
 to players, consciously or unconsciously, that a game is being played.
-• 
+•
 The magic circle of a game is the space within which a game takes place. Whereas more informal
 forms of play do not have a distinct boundary, the formalized nature of games makes the magic circle
 explicit.
-• 
+•
 Within the magic circle, the game's rules create a special set of meanings for the players of a game.
 These meanings guide the play of the game.
-• 
+•
 As a system, a game can be considered to have an open or closed relationship to its context.
 Considered as RULES, a game is closed. Considered as PLAY, a game is both open and closed.
 Considered as CULTURE, a game is open.
-• 
+•
 The lusory attitude is the state of mind required to enter into the play of a game. To play a game, a
 group of players accepts the limitations of the rules because of the pleasure a game can afford.
-• 
- < Day Day Up > 
- < Day Day Up > 
+•
+ < Day Day Up >
+ < Day Day Up >
  Chapter 9: The Magic Circle
-7
- Chapter 9: The Magic Circle
-7
 
-
-8
  Chapter 9: The Magic Circle
-8
+
+ Chapter 9: The Magic Circle
+
  Chapter 9: The Magic Circle
 
 
@@ -4942,16 +4842,14 @@ games, a lens that we can apply to the analysis or creation of any game. The var
 selected is vast, as there are many, many ways of looking at games. For our purposes, we selected three
 primary schemas: RULES, PLAY, and CULTURE.
 RULES is a formal primary schema, and focuses on the intrinsic mathematical structures of games.
-• 
+•
 PLAY is an experiential primary schema, and emphasizes the player's interaction with the game and
 other players.
-• 
+•
 CULTURE is a contextual primary schema, and highlights the cultural contexts into which any game
 is embedded.
-• 
+•
  Chapter 10: The Primary Schemas
-1
-
 
 Primary Schemas
 This three-part structure is the conceptual architecture supporting even more detailed schemas. Contained
@@ -4964,8 +4862,8 @@ The end result is a system that frames and reframes games from a series of overl
 of schemas not only offers a general framework for uncovering the richness of games, but also, when taken as
 a whole, offers a general method for any design study. As we mentioned in the opening chapter, the
 framework of RULES, PLAY, and CULTURE can help facilitate critical design thinking in any design field.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 What Is a Schema?
 Schemas are the building blocks of our RULES, PLAY, CULTURE framework. But what is a schema,
 really, and why is it a concept appropriate to the study of games? In his essay,"The Schema," [1]Ben Martin
@@ -4978,7 +4876,7 @@ contemporary times, the concept of schema falls under the domain of psychology a
 through the work of psychologists Frederic Bartlett and Piaget, as well as cognitive theorists such as Marvin
 Minksy. For these thinkers, schema refers to the way that the mind acquires, represents, and transforms
 knowledge. The use of the concept of schema as a way of organizing the study of game design draws directly
-on this tradition, even as it appropriates and transforms the concept. 
+on this tradition, even as it appropriates and transforms the concept.
 David Rumelhart and Andrew Ortony, in their essay "The Representation of Knowledge in Memory"
 [4]undertake a detailed theory of schema that draws on the disciplines of both cognitive psychology and
 computer science. Rumelhart and Ortony point out four qualities of schemas:
@@ -4987,9 +4885,9 @@ environment is integrated.
 Schemas can embed. In other words, the schema that constitutes a framework for
 understanding the concept airplane may contain a schema for representing information about
 wings or even about the process of traveling.
-2
+
  Chapter 10: The Primary Schemas
-2
+
  Chapter 10: The Primary Schemas
 
 
@@ -5022,8 +4920,8 @@ the Acquisition of Knowledge, edited by Richard Anderson, Rand Spiro, and Willia
 NJ: Lawrence Earlbarm, 1997), p. 99-135.
 [5]Ben Martin, "The Schema." In Complexity: Metaphors, Models and Reality, edited by George Cowen and
 David Pines (Santa Fe: Addison Wesley Longman, 1994), p. 272-273.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 RULES: Formal Schemas
 Games have rules. This is perhaps the most prominent feature of games, one that distinguishes them from
 other forms of media, art, and entertainment. In comparing the many definitions of "game" in the previous
@@ -5033,24 +4931,22 @@ under the rubric of RULES are formal schemas. They include, among others, lookin
 public and private information, as systems of conflict, and as Game Theory systems. How are all of these
 ways of looking at games formal? More specifically, to what does the word "formal" refer?
  Chapter 10: The Primary Schemas
-3
- Chapter 10: The Primary Schemas
-3
 
+ Chapter 10: The Primary Schemas
 
 There are at least two senses in which the RULES schemas offer a "formal" way of looking at games. First,
 the term formal is used in the sense of "form": rules constitute the inner form or organization of games. In
 other words, rules are the inner, essential structures that constitute the real-world objects known as games. For
 example, consider two games of Go that differ in a variety of ways. They might differ in terms of:
 Material: one version is played with stones on a wooden board; the other is played on a computer.
-• 
+•
 Motivation: in one a friend teaches the game to a friend; in the other, two masters compete for a prize.
-• 
+•
 Outcome: in one game white wins easily; the other game is a very close match with black pulling
 ahead at the end.
-• 
+•
 Time and space: one game is played in ancient China; the other is played in contemporary France.
-• 
+•
 The list could go on. The point is that although these games of Go would be radically different as game play
 experiences, all would be identified as the game of "Go." Despite their differences, the games share one thing
 in common: the rules of Go. These "rules of play" unite all of the games of Go that have ever been or will ever
@@ -5062,8 +4958,8 @@ most analytical. In addition, most of the formal schemas employed contain a math
 Looking at games as RULES means looking at games as formal systems, both in the sense that the rules are
 inner structures that constitute the games and also in the sense that the RULES schemas are analytic tools that
 mathematically dissect games.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 PLAY: Experiential Schemas
 Although all games have rules, it is certainly also true that the very concept of games is closely intertwined
 with the idea of play. Play is, in fact, what we do with games. We play Chess, we play Baseball, and we play
@@ -5082,14 +4978,14 @@ experience might be a social experience, or a narrative experience, or an experi
 games as experiential systems means looking at them as participation, as observation, as a mental state, as
 bodily sensation, as emotion, as something lived. In PLAY, the experiential dimensions of games are made
 explicit.
-4
+
  Chapter 10: The Primary Schemas
-4
+
  Chapter 10: The Primary Schemas
 
 
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 CULTURE: Contextual Schemas
 Even though the realm of play may seem expansive and varied compared to the analytic world of rules, play
 is, in some sense, bounded too. Games take place in definite locales of time and space. It is when we explore
@@ -5104,7 +5000,7 @@ how the design of a game, as the design of meaningful play, engages shared syste
 While taking into account both the formal and experiential qualities of games, these schemas look at the
 effects of culture on games, and the effects of games on culture. From ideas of rhetoric and representation to
 the leaking of the artificial world of a game into the real world, these schemas highlight the variable
-boundaries between games and the contexts in which they are played and produced. 
+boundaries between games and the contexts in which they are played and produced.
 The role of context is critical to the study of games because a context is the environment of the game system.
 It is the space that surrounds and exists outside the system. In creating the outer boundary of the system, the
 context also helps define the system itself. Furthermore, if the system is an open system, it interacts with its
@@ -5112,53 +5008,51 @@ environment, changing its context even as it is changed itself.
 With this outline of our three Primary Schemas, we end Unit 1 of Rules of Play. In the chapters to come, we
 flesh out this skeletal structure, building on our fundamental key concepts to bring game design and
 meaningful play fully to life.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 The conceptual framework for this book provides three ways to frame or understand games: RULES,
 PLAY, and CULTURE. Each of these primary schemas contains a number of more specialized
 schemas.
 RULES contains formal game design schemas
-♦ 
+♦
 PLAY contains experiential game design schemas
-♦ 
+♦
 CULTURE contains contextual game design schemas
-♦ 
-• 
+♦
+•
 A schema is a way of organizing and framing knowledge. Schemas have the following
 characteristics:
 Schemas have variables: they provide a framework that can integrate new information.
-♦ 
+♦
 Schemas can embed: they can contain other schemas inside of themselves.
-♦ 
+♦
 Schemas represent knowledge at many levels of abstraction: they allow many points of
 view of the same object. ·
-♦ 
-• 
+♦
+•
  Chapter 10: The Primary Schemas
-5
- Chapter 10: The Primary Schemas
-5
 
+ Chapter 10: The Primary Schemas
 
 Schemas represent knowledge rather than definitions: they are essentially "encyclopedic"
 rather than "definitional."
-♦ 
+♦
 Rule-based or formal schemas focus on the logical and mathematical structures of games. The word
 "formal" refers both to the inner form of games as well as to formalization of the knowledge about the
 game.
-• 
+•
 Play-based or experiential schemas focus on human experience and interaction in its many
 dimensions.
-• 
+•
 Cultural or contextual schemas focus on the relationship between a game and the cultural contexts in
 which it is embedded.
-• 
- < Day Day Up > 
- < Day Day Up > 
-6
+•
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 10: The Primary Schemas
-6
+
  Chapter 10: The Primary Schemas
 
 
@@ -5205,8 +5099,6 @@ Ending Your Turn
 If you accumulated three (or more) 1s, Mom or Dad has caught you in the act and you move backwards on the
 score track one square for each 1 you ended your turn with. You also remove your challenge pawn.
 Commissioned Game 1 — Richard Garfield
-1
-
 
 If you choose to end your turn and have the only pawn on your challenge track, you leave it there and hope
 that it is still there at the start of your next turn, so you can score the points for that square.
@@ -5217,8 +5109,8 @@ If you choose to end your turn and you were tied with or behind another pawn in 
 your challenge pawn, because you have not outdone your sibling.
 If you manage to advance a challenge pawn to the last square on a track, remove all pawns in that track, score
 the square, and take another turn.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Scoring
 When you advance your scoring pawn:
 If you land on another player's pawn move backwards until you are on a free space (or slide off the scoring
@@ -5227,25 +5119,23 @@ If your scoring pawn isn't on the board yet, ignore backwards movement. Similarl
 pawn backwards and reach the end of the track, remove your scoring pawn and ignore the excess backward
 movement.
 If your pawn is on "Little Angel," you have somehow gotten into your parent's good graces. It takes four 1s to
-catch you! 
+catch you!
 f your pawn is on "Little Devil," your parents have developed a heightened suspicion of you. It takes only two
-1s to catch you. 
+1s to catch you.
 If you advance your scoring pawn past the finish, you have won the game!
-2
+
 Commissioned Game 1 — Richard Garfield
-2
+
 Commissioned Game 1 — Richard Garfield
 
 
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Design Notes
 Richard Garfield
 Commissioned Game 1 — Richard Garfield
-3
-Commissioned Game 1 — Richard Garfield
-3
 
+Commissioned Game 1 — Richard Garfield
 
 Sibling Rivalry
 Stage 1: General Constraints
@@ -5275,7 +5165,7 @@ Another example is Six Man Zonk, which was marketed as Cosmic Wimpout. I have us
 core mechanic in several of my own games, my favorite being a game I call Gonzo. In Gonzo,
 players roll five dice, count a particular result—say, 4s—and set aside the 1s, and choose
 whether to re-roll or bank. If the player ever accumulated three 1s, they lost their turn. I like
-this mechanic because it always feels like you can get lucky and come back. 
+this mechanic because it always feels like you can get lucky and come back.
 Once I had both these concepts in my head—the motif of sibling rivalry, and the game mechanic of
 Gonzo—I realized I had a combination that probably worked. The idea of my trying to do more and
 more outrageous things to my sibling while risking getting caught (three 1s), was an appealing idea for
@@ -5291,9 +5181,9 @@ points, not the final game's 4 points), and there was a bonus for "starting it" 
 It was quickly apparent that "starting it," though a neat game mechanic in principle, required too
 many rules: it made the game far more complex for only a little play value. Keeping track of points was
 also a pain, involving a lot of addition and subtraction. This observation led to the construction of a
-4
+
 Commissioned Game 1 — Richard Garfield
-4
+
 Commissioned Game 1 — Richard Garfield
 
 
@@ -5317,10 +5207,8 @@ immediate victory plus an additional turn seemed to be a pretty good idea. In pa
 that a player can win on any turn if they are lucky enough, which has a wild feel to it.
 Evolution of Scoring Track
 Commissioned Game 1 — Richard Garfield
-5
-Commissioned Game 1 — Richard Garfield
-5
 
+Commissioned Game 1 — Richard Garfield
 
 The scoring track shrank in size throughout development process, which not only made the scoring more
 simple, it also allowed the score track to acquire a special play function. For example, the rule that a player
@@ -5344,7 +5232,7 @@ more players. Playtesting showed that at these numbers the game worked surprisin
 if there were ever changes made to the game to accommodate groups of more than two players—just changes
 made to the way I generalized the rules. For example, with two players, I thought that when one player was
 caught by Mom or Dad, the round would end. With more than two players, it worked best if just the player
-that was caught was punished and the round continued, until the challenge board was clear. 
+that was caught was punished and the round continued, until the challenge board was clear.
 Evolution of Play Ergonomics
 Play ergonomics is how I view the mechanical process of playing: what is awkward, what is too complex,
 which manipulations take too much time or spawn too many mistakes. An example of a change to the play
@@ -5361,24 +5249,21 @@ Pennsylvania, intending to live the life of an academic mathematician. Richard's
 The Gathering, was a game that allowed players to choose their own cards, in effect sharing the role of game
 designer with the players. The phenomenal success of Magic allowed him to become a full-time game
 designer. Now he studies and designs games ranging from party games to the trading card game, a genre of
-paper game that he created. 
- < Day Day Up > 
-6
+paper game that he created.
+ < Day Day Up >
+
 Commissioned Game 1 — Richard Garfield
-6
+
 Commissioned Game 1 — Richard Garfield
 
 
- < Day Day Up > 
+ < Day Day Up >
 Commissioned Game 1 — Richard Garfield
-7
-Commissioned Game 1 — Richard Garfield
-7
 
-
-8
 Commissioned Game 1 — Richard Garfield
-8
+
+Commissioned Game 1 — Richard Garfield
+
 Commissioned Game 1 — Richard Garfield
 
 
@@ -5404,21 +5289,18 @@ draws his lines too loosely the game will be dull because winning will be too ea
 to the point of utter laxity the game simply falls apart, since there are then no rules proscribing available
 means…. On the other hand, rules are lines that can be drawn too tightly, so that the game becomes too
 difficult. And if a line is drawn very tightly indeed the game is squeezed out of existence.—Bernard Suits,
-Grasshopper: Games, Life, and Utopia 
+Grasshopper: Games, Life, and Utopia
 To play a game is to follow its rules.
 Rules are one of the essential qualities of games: every game has a set of rules. Conversely, every set of rules
 defines a game. Rules are the formal structure of a game, the fixed set of abstract guidelines describing how a
 game system functions. What are rules? How do they function? And what is their relevance for game design?
 In this unit on RULES,we address these questions and many more regarding the formal structures of games.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Unit 2: Rules
-1
 
-
-2
  Unit 2: Rules
-2
+
  Unit 2: Rules
 
 
@@ -5431,14 +5313,14 @@ Suits, Grasshopper: Games, Life, and Utopia
 What are game rules? Let's begin with a simple example, one of the most minimal games we can find:
 Tic-Tac-Toe. The game of Tic-Tac-Toe is defined by the following set of rules:
 Play occurs on a 3 by 3 grid of 9 empty squares.
-1. 
+1.
 Two players take turns marking empty squares, the first player marking Xs and the second player
 marking Os.
-2. 
+2.
 If one player places three of the same marks in a row, that player wins.
-3. 
+3.
 If the spaces are all filled and there is no winner, the game ends in a draw.
-4. 
+4.
 These four rules completely describe the formal system of Tic-Tac-Toe. They don't describe the experience of
 playing the game, they don't describe the history and culture of the game, but they do constitute the rules of
 the game. These four rules are all you need to begin playing a game of Tic-Tac-Toe.
@@ -5447,11 +5329,9 @@ with these rules, any two Tic-Tac-Toe players can be assured that when they begi
 playing the exact same game. Whether played in front of a computer terminal or scratched in the sand of a
 beach, every game of Tic-Tac-Toe shares the same basic formal identity. In this sense, rules are the deep
 structure of a game from which all real-world instances of the game's play are derived.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 11: Defining Rules
-1
-
 
 A Deck of Cards
 In exploring games as formal systems it is important to determine exactly what are and are not rules. Rules are
@@ -5466,7 +5346,7 @@ that each card is defined by a number and a suit, etc.) are a crucial part of th
 for example, specify whether or not Jokers are to be used. The constitution of a deck of playing cards is
 always part of the rules of Poker, even though this element of the rules usually goes unstated. The relationship
 between stated and unstated rules will come up again in later chapters. For now, it is enough to know that the
-rules of Poker contain—or at least imply—the precise structure of a deck of playing cards. 
+rules of Poker contain—or at least imply—the precise structure of a deck of playing cards.
 What if the deck of cards was altered by changing its four suits? Would we still be playing the same game?
 Perhaps Spades becomes Death, Hearts becomes Love, Clubs becomes War, and Diamonds becomes Sex. The
 change might entail a graphical alteration to the suits as they appear on the cards or the name by which players
@@ -5499,9 +5379,9 @@ Rules and Strategy
 One note of clarification about the difference between the rules of a game and rules of strategy: rules as we
 understand them here as the formal structure of a game are not the same thing as strategies for play, even
 though the two might seem similar.
-2
+
  Chapter 11: Defining Rules
-2
+
  Chapter 11: Defining Rules
 
 
@@ -5511,8 +5391,8 @@ is an important aspect of games (for example, you might use rules like this to p
 for a Tic-Tac-Toe game), but these rules of strategy are not part of the formal rules of the game. The actual
 game rules are the core formal system that constitutes how a game functions. Rules that help players perform
 better are not a part of this formal system.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Other Kinds of Rules
 Often, when we investigate a particular quality of games, we compare them to other forms of culture.
 Comparison helps situate games within a broader context and also highlights the qualities of games that make
@@ -5528,7 +5408,7 @@ molecules, for example, obey certain rules when they combine. If rules are guide
 behavior, there are many contexts in which people or phenomena do seem to "follow the rules."
 The word "rules," like the words "play" and "game," can be used in many different ways. For the purposes of
 game design, it is important to consider in what ways games make use of rules. Perhaps a better question than
-"Are rules unique to games?" is, "What is unique about the rules found in games?" 
+"Are rules unique to games?" is, "What is unique about the rules found in games?"
 Games are artificial systems, separate in some way from ordinary life. The authority of game rules only holds
 sway within the limited context of the game. The laws of a state, on the other hand, permeate the lived
 experience of its citizens in a much less limited way. It is true that laws are a social construct, as are game
@@ -5536,16 +5416,14 @@ rules. However, from a formal point of view, the artificiality of games keeps th
 outside the magic circle of the game. As game designer and philosopher Bernard DeKoven states, "I consider
 a game to be something that provides us with a common goal, the achievement of which has no bearing on
 anything that is outside the game."
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Qualities of Rules
 The rules of a game are absolutely binding and allow no doubt.—Johann Huizinga, Homo
 Ludens
  Chapter 11: Defining Rules
-3
- Chapter 11: Defining Rules
-3
 
+ Chapter 11: Defining Rules
 
 Rules are what differentiate games from other kinds of play. Probably the most basic
 definition of a game is that it is organized play, that is to say rule-based. If you don't have
@@ -5562,7 +5440,7 @@ any of these things. When you play a game of Yatzee, you follow the rules and do
 incrediblynarrow and specific. When it is your turn, you roll the dice and interpret their numerical
 results in particular ways. Rules are "sets of instructions," and following those instructions means
 doing what the rules require and not doing something else instead.
-• 
+•
 Rules are explicit and unambiguous. Rules are complete and lack any ambiguity. For example, if
 you were going to play a board game and it wasn't clear what to do when you landed on a particular
 space, that ambiguity would have to be cleared up in order to play. Similarly, rules have to be totally
@@ -5570,7 +5448,7 @@ explicit in what they convey. If you were play-ing baseball in an abandoned lot 
 used as second base, ambiguities regarding what counted as second base could lead to a collapse of
 the game. What can you touch and still be on second base? The roots? The branches? Or just the tree
 trunk?
-• 
+•
 Rules are shared by all players. In a game with many players all players share the same set of rules.
 If one player is operating under a set of rules different than the others, the game can break down. Take
 the abandoned lot base-ball game example. If one player thinks that touching a branch of the tree is
@@ -5580,7 +5458,7 @@ raised, the game grinds to a halt. For the situation to be resolved, allowing th
 players must come to a common understanding of the rules and their application within play. It is not
 enough that rules are explicitly and unambiguously stated: the interpretation of the rules must also be
 shared.
-• 
+•
 Rules are fixed. The rules of a game are fixed and do not change as a game is played. If two players
 are playing a game of Chess and one of them suddenly announces a new rule that one of her own
 pawns is invulnerable, the other player would most likely protest this sudden rule improvisation.
@@ -5590,24 +5468,24 @@ must pass through a legislative process by governing organizations. Even in game
 are changed during play itself, such as the whimsical card game Flux (in which playing a card can
 change the overall game's goals and rules), the ways the rules change are quite limited and are
 themselves determined by other, more fundamental rules.
-• 
+•
 Rules are binding. Rules are meant to be followed. Part of the "magic" of the magic circle is that the
 rules contain their own authority. The reason why the rules of a game can remain fixed and shared is
 because they are ultimately binding. In some games, the authority of the rules is manifest in the
 persona of the referee. Like the rules themselves, the referee has an authority beyond that of an
 ordinary player. If players did not feel that rules were binding, they would feel free to cheat or to
 leave the game as a "spoil sport."
-• 
+•
 Rules are repeatable. Rules are repeatable from game to game and are portable between sets of
 different players. In a Magic: The Gathering tournament, all the players in the tournament follow the
 same rules when they square off against each other. Outside of the limited context of an individual
 tournament, the game rules are equally repeatable and portable. Although games often have "home
 rules," such as the many different versions of rules for the "Free Parking" space in Monopoly, these
 rule variants are just local variants on largely consistent rule sets. In any case, players must resolve
-• 
-4
+•
+
  Chapter 11: Defining Rules
-4
+
  Chapter 11: Defining Rules
 
 
@@ -5622,8 +5500,8 @@ same rule set, and resolving this discrepancy is what the game is all about. Or 
 game. Clearly, the authority of rules is not always strictly obeyed: cheating does happen. As we examine the
 rules of games from many different angles, some of these qualities may be called into question. But from a
 strictly formal point of view, these are the general characteristics of all game rules.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Rules in Context
 If you think all of this talk about fixed and authoritative rules makes games seem a bit constraining, you are
 right. Out of all of the possible forms of play, from casual Frisbee-tossing to playful lovemaking, there is
@@ -5649,52 +5527,50 @@ emergence, uncertainty, information, feedback, decision making, and conflict. We
 systems of rules to be broken. But before leaping into these schemas, it is necessary to understand rules in and
 of themselves, as formal systems. In the next two chapters, we build a more concrete foundation for
 understanding exactly what rules are, including the rules of digital games.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 11: Defining Rules
-5
- Chapter 11: Defining Rules
-5
 
+ Chapter 11: Defining Rules
 
 Summary
 Rules constitute the inner, formal structure of games. All games have rules, and rules are one of the
 defining qualities of games.
-• 
+•
 Rules are not the experience of play. It is possible to make experiential changes to a game (such as
 changing the names of the four suits in a deck of cards) without changing the rules or formal
 structures of a game.
-• 
+•
 Game rules as considered under the Primary Schema of RULES are different than rules of strategy.
 Strategic "rules of thumb" help players to play a game, but do not define the formal identity of a
 game.
-• 
+•
 Game rules are different than the rules of etiquette, law, war, or other social rules. Games are
 intrinsically artificial and separate from "real-world" contexts, whereas these other forms of rules are
 not separate from ordinary life.
-• 
+•
 Following are the general characteristics that all game rules share:
 Rules limit player action
-♦ 
+♦
 Rules are explicit and unambiguous
-♦ 
+♦
 Rules are shared by all players
-♦ 
+♦
 Rules are fixed
-♦ 
+♦
 Rules are binding
-♦ 
+♦
 Rules are repeatable
-♦ 
-• 
+♦
+•
 Although some games question and violate these characteristics, these are the common traits of game
 rules considered from a strictly formal point of view.
-• 
- < Day Day Up > 
- < Day Day Up > 
-6
+•
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 11: Defining Rules
-6
+
  Chapter 11: Defining Rules
 
 
@@ -5712,31 +5588,29 @@ version mirrors exactly the real-world game we normally see…the game of Chess 
 between one set of abstract symbols (the black and white pieces) and another set of abstract symbols (the
 squares on the board). In short, there is nothing crucial about the material embodiment of these symbols
 insofar as the essentials of the game are concerned.— John L. Casti, Complexification
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Tic-Tac-What?
 So far we have discussed rules in a relatively straightforward way. For example, we looked at the rules of
 Tic-Tac-Toe as they might appear in an instructions manual and argued that these rules fully constitute the
 rules of the game, the complete formal structure of Tic-Tac-Toe. Here are those rules one more time:
 Play occurs on a 3 by 3 grid of 9 empty squares.
-1. 
+1.
 Two players alternate marking empty squares, the first player marking Xs and the second player
 marking Os.
-2. 
+2.
 If one player places three of the same marks in a row, that player wins.
-3. 
+3.
  Chapter 12: Rules on Three Levels
-1
-
 
 If the spaces are all filled and there is no winner, the game ends in a draw.
-4. 
+4.
 Do these four rules constitute the complete formal system of Tic-Tac-Toe? Although these rules do describe
 to players what they need to know in order to play, there are aspects of the formal system of Tic-Tac-Toe that
 are not included here. Specifically, there are two kinds of formal structures that these four rules do not
 completely cover: the underlying mathematical structures of the game and the implied rules of game etiquette.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Under the Hood
 Let us explore these two kinds of formal structures one at a time. First, there is the foundational formal
 structure that lies "under the hood" of the rules of Tic-Tac-Toe. Does such a structure exist? Is it different than
@@ -5745,12 +5619,12 @@ necessarily expressed directly in the stated rules of the game that a player mus
 point, take a look at a game thought experiment by Marc LeBlanc. The game is called 3-to-15.[1]
 Rules for 3-to-15:
 Two players alternate turns.
-1. 
+1.
 On your turn, pick a number from 1 to 9.
-2. 
+2.
 You may not pick a number that has already been picked by either player. If you have a set of exactly
 3 numbers that sum to 15, you win.
-3. 
+3.
 What does this game have to do with Tic-Tac-Toe? At first glance, 3-to-15 doesn't seem anything like
 Tic-Tac-Toe. Instead of making Xs and Os, players are picking numbers. There is not even mention of a grid.
 However, the "punch line" of the game is that 3-to-15 is in fact a kind of Tic-Tac-Toe. If you think you have it
@@ -5760,42 +5634,42 @@ figured out, look at the diagram across the page.
 playing a game of Tic-Tac-Toe. Or are they? What do the two games have in common? The underlying rules
 found in both Tic-Tac-Toe and 3-to-15 look something like this:
 Two players alternate making a unique selection from a grid array of 3 by 3 units.
-• 
+•
 The first player to select three units in a horizontal, vertical, or diagonal row is the winner.
-• 
+•
 If no player can make a selection and there is no winner, then the game ends in a draw.
-• 
+•
 These "rules" resemble both the rules of Tic-Tac-Toe and 3-to-15, with some significant differences. For
 example, the rules don't mention how the player makes a selection from the array of choices, or how to record
-a player's action. The rules above are a kind of abstraction of both games. 
+a player's action. The rules above are a kind of abstraction of both games.
 Questions remain: is 3-to-15 a variant of Tic-Tac-Toe or a different game entirely? If it is a different game,
 what does it share with Tic-Tac-Toe? What does all of this say about the "rules" of Tic-Tac-Toe? We answer
 these questions later in this chapter. For the time being, just note that there are in fact formal aspects of games
 such as Tic-Tac-Toe that lie underneath the stated "rules of play."
-2
+
  Chapter 12: Rules on Three Levels
-2
+
  Chapter 12: Rules on Three Levels
 
 
 The punch line
 [1]Marc LeBlanc, Game Developers Conference 2000.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Being a Good Sport
 If there are aspects of the formal systems of games that underlie the rules as they are expressed to players,
 there are also aspects of a game that lie beyond or outside the stated rules. These rules are rules of behavior
 that are implied but usually not explicitly stated in a game. Take a look again at the four "rules" of
 Tic-Tac-Toe.
 Play occurs on a 3 by 3 grid of 9 empty squares.
-1. 
+1.
 Two players alternate marking empty squares, the first player marking Xs and the second player
 marking Os.
-2. 
+2.
 If one player places three of the same marks in a row, that player wins.
-3. 
+3.
 If the spaces are all filled and there is no winner, the game ends in a draw.
-4. 
+4.
 Does that really cover every possible rule of Tic-Tac-Toe behavior? Not really. There are other rules that
 players observe as well. In his essay "Life of Games," Stephen Sniderman points out one of these rules: the
 implied time limit between turns in Tic-Tac-Toe:
@@ -5819,17 +5693,15 @@ is why most games take place by marking a piece of paper instead of picking blad
 section of land, or making chalk marks on the asphalt of a dangerously busy superhighway—the conditions of
 play in these cases would make for a nearly impossible game. Other unwritten rules assume that players will
  Chapter 12: Rules on Three Levels
-3
- Chapter 12: Rules on Three Levels
-3
 
+ Chapter 12: Rules on Three Levels
 
 not tickle each other, hide the gameboard, or take other actions that prevent their opponents from taking a
 turn. These rules are implicit in some way in the four stated "rules." But if every possible implicit rule had to
 be listed, the list would be infinite.
 [2]Stephen Sniderman, "The Life of Games." <www.gamepuzzles.com/ tlog/tlog2.htm>.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Three Kinds of Rules
 As the example of Tic-Tac-Toe demonstrates, in order to fully understand the formal operation of a game, we
 need to complexify our understanding of game rules. We propose a three-part system for understanding what
@@ -5850,59 +5722,57 @@ be completely listed. The implicit rules of Tic-Tac-Toe are similar to the impli
 games such as Chess. However, implicit rules can change from game to game and from context to context.
 For example, you might let a young child "take back" a foolish move in a game of Chess, but you probably
 wouldn't let your opponent do the same in a hotly contested grudge match.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Rules of Chutes and Ladders
 So much for the simplicity of rules. Now that we have taken a closer look at the formal structure of
 Tic-Tac-Toe, it is clear that the phenomenon of game rules is more complex than it initially appeared. Let us
 continue our investigation of three kinds of rules by turning to the board game Chutes and Ladders. The
 printed rules of the game read as follows:
-4
+
  Chapter 12: Rules on Three Levels
-4
+
  Chapter 12: Rules on Three Levels
 
 
 How to Play:
 Everyone spins the spinner. The player with the highest number goes first. Play proceeds to the left.
-1. 
+1.
 What to Do on Your Turn: On your turn, spin the spinner and move your pawn, square by square, the
 number shown on the spinner. For example, on your first turn, if you spin a 5, move to "listitem">
 Two or more pawns may be on the same space at the same time.
-2. 
+2.
 Going Up or Down a Chute or Ladder: Any time a pawn ends its move on a picture square at the
 bottom of a ladder, that pawn must climb up to the picture square at the top of the ladder.... Chutes:
 Any time a pawn ends its move on a picture square at the top of a chute, that pawn must slide down
 the chute to the picture square at the bottom of the chute.
-3. 
+3.
 If your pawn ends its turn on any of the following spaces, your turn is over:
 a square with no picture
-♦ 
+♦
 a square with no picture and just an arrow
-♦ 
+♦
 a square that a ladder or chute just passes through
-♦ 
+♦
 a picture square at the top of the ladder
-♦ 
+♦
 a picture square at the bottom of a chute
-♦ 
-4. 
+♦
+4.
 Winning the Game:
 The first player to reach the Blue Ribbon square #100 wins the game. You can get there two ways:
 Land there by exact count. If your spin would take you past square #100, don't move. Try again on
 your next turn.
-1. 
+1.
 Climb there by ending your move on ladder square #803.[3]
 Chutes and Ladders
-2. 
+2.
 Although these aren't the complete printed rules that accompany the game (the official rules include a
 narrative introduction and a Setup section), they give us the information that we need for our formal analysis.
 How do these printed rules relate to the operational, constituative, and implicit rules of the game?
  Chapter 12: Rules on Three Levels
-5
- Chapter 12: Rules on Three Levels
-5
 
+ Chapter 12: Rules on Three Levels
 
 Chutes and Ladders: Operational Rules
 Like most rules that are written out as instructions for players, the printed rules of Chutes and Ladders consist
@@ -5923,18 +5793,18 @@ material form or in a set of behavioral guidelines for the player. Constituative
 logic, which does not explicitly state how a player will make use of them.
 What are the constituative rules of Chutes and Ladders? They might look something like this:
 Players all begin with a value of zero.
-1. 
+1.
 Players alternate turns adding a random number of 1–6 to their current value.
-2. 
+2.
 The first player to reach a value of exactly 100 wins (if adding the random number to a player's total
 would make the total exceed 100, do not add the random number this turn).
-3. 
+3.
 When a player's total exactly reaches certain numbers, the total changes. For example, if a player
 reaches exactly 9, her total becomes 31. If a player reaches exactly 49, her total becomes 11.(This rule
 covers the "chutes" and "ladders" of the game. For a true set of constituative rules, this rule would
 have to be expanded to include all of the possible "chute" and "ladder" number adjustments for the
 particular edition of the game.)
-4. 
+4.
 Notice that in these rules, there is no mention of a spinner, a board, or pawns. There is no mention of how
 players are supposed to generate random numbers or to keep track of their numbers during the game. These
 mechanisms, which involve particular materials and behaviors, are part of the operational rules of the game.
@@ -5942,22 +5812,22 @@ How do the constituative rules relate to the operational rules? Is there a one-t
 experiment, we could use these same four constituative rules to invent new sets of operational rules that differ
 from the standard Chutes and Ladders game. Say that we wanted to change only the way that players
 generated the random number on their turn and the way that they kept track of their progress. Here are a few
-of the many different ways we could redesign the game: 
+of the many different ways we could redesign the game:
 Die and Scoresheet. Players keep track of their total by writing numbers on a scoresheet and roll a die
 to generate a random number.
-• 
+•
 Cards and Chips. Players keep track of their total by taking chips from a central pool and they pick
 from a set of six shuffled cards to generate a random number.
-• 
+•
 Spinner and Pegs. Players move pegs along a linear track, using pawns to keep their place. Players
 use a spinner to generate a random number.
-• 
+•
 Each of these three games would have its own set of operational rules, which would vaguely resemble the
 original rules of Chutes and Ladders, but the rules would have to be adjusted to take into account the new
 materials and behaviors we introduced. For each game, we would have to provide an informational sheet for
-6
+
  Chapter 12: Rules on Three Levels
-6
+
  Chapter 12: Rules on Three Levels
 
 
@@ -5974,13 +5844,13 @@ Ladders. For example, the implicit rule we pointed out in Tic-Tac-Toe relating t
 between turns also applies here. But there are other implicit rules of Chutes and Ladders too. Some of them
 are even included in the printed game rules. Below is the Setup section from the game's rule booklet:
 Position the gameboard so that all the players can easily move their pawns from square to square.
-1. 
+1.
 All About the Squares: Take a peek at the gameboard.The squares are numbered from 1 to 100.
 Players' pawns will move back and forth across the board, following the numbers upward—starting at
 square "listitem">
 Everyone chooses a pawn to play. Any extra pawns are out of play. Chosen pawns are placed off the
 board near square #1. Now get ready for the fun! [4]
-2. 
+2.
 Although these rules might seem obvious, they help illustrate some of the implicit rules of Chutes and
 Ladders. Setup rule number 1 is a classic example of an implicit rule, here made explicit in the printed text.
 The gameboard must be positioned so that everyone can access it—in other words, it is necessary that
@@ -5994,7 +5864,7 @@ because the potential number of implicit rules is infinite, there are many other
 stated as well. Which ones should you include when you are writing instructions, manuals, or help sections for
 a game? It all depends on your audience and the kind of experience you want the participants to have.
 Ultimately, sets of rules and instructions need to be designed, analyzed, tested, and revised just as other
-aspects of a game. 
+aspects of a game.
 For the purposes of our formal analysis, what does it mean to call these written rules "implicit rules"? If a rule
 is explicitly written out, how can it possibly be implicit? The boundary between operational and implicit rules
 can be quite fuzzy. Often, a "rule of play" can shift from implicit to operational, depending on the context. To
@@ -6008,15 +5878,13 @@ fit into our model. Like all of the concepts in this book, these three ways of u
 presented as a definitive explanatory typology: it is offered as a framework for identifying, analyzing, and
 solving design problems as they arise in your game.
  Chapter 12: Rules on Three Levels
-7
- Chapter 12: Rules on Three Levels
-7
 
+ Chapter 12: Rules on Three Levels
 
 [3]Milton Bradley, Chutes and Ladders.
 [4]Ibid.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Identity of a Game
 Every game has its rules," says Huizinga in Homo Ludens. But we may go further, and say,
 "Every game is its rules," for they are what define it.—David Parlett, The Oxford History of
@@ -6048,16 +5916,16 @@ system of Chutes and Ladders (or any game) emerges from the interaction between 
 first glance, it might seem like the constituative rules of a game are the "core" or "essence" of the game rules
 and the operational rules merely describe ways of accessing the constituative rules. In fact, this is not the case.
 The constituative and operational rules of a game work in concert to generate the formal "meaning" of a
-game. There is no "essence" of a game wrapped up in its logical, constituative core. 
+game. There is no "essence" of a game wrapped up in its logical, constituative core.
 Are we sure about this? Think back to the variations on Chutes and Ladders that shared the same constituative
 rules. Those other game variations just did not feel like Chutes and Ladders—because they were not Chutes
 and Ladders. As much as the formal identity of a game is tied to its constituative logic, the material way that
 players experience that logic, as proscribed by the operational rules, is equally important. The fact that players
 are rolling a die and moving pieces on a board is as much a part of Chutes and Ladders as the mathematical
 logic that those behaviors express.
-8
+
  Chapter 12: Rules on Three Levels
-8
+
  Chapter 12: Rules on Three Levels
 
 
@@ -6070,27 +5938,27 @@ as a "stripped down" version of Chutes and Ladders. However, even though the pla
 from a formal point of view, they would be playing Chutes and Ladders. Formally, even with all of the
 illustrative graphics taken out, the rules of the game would remain the same. When it comes to defining the
 formal identity of a game, only the rules matter.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Specificity of Rules
 Let us take another look at the complex intersection of constituative and operational rules. Is it really true that
 for any given game, there exists a single set of constituative rules? Or are there many sets of constituative
 rules we might apply to the same game? What if the constituative rules of Chutes and Ladders were simplified
 in the following manner:
 Players all begin with a value of zero.
-1. 
+1.
 Players alternate turns generating a number and adding it to their value.
-2. 
+2.
 The first player to reach a value of 100 wins.
-3. 
+3.
 Or simplified even further:
 Players begin with a value of zero.
-1. 
+1.
 The first player to reach a value of 100 wins.
-2. 
+2.
 Or even further:
 The first player to satisfy the victory conditions is the winner.
-1. 
+1.
 What is going on with these successive simplifications of the constituative rules? With each stylization, we
 not only move farther away from Chutes and Ladders, but we also move farther away from a set of
 constituative rules that could be contained within a particular set of operational rules.
@@ -6106,18 +5974,16 @@ of rules and not that set of rules. There is no absolute measure for the moment 
 ends and another begins. But the identity of the game is usually self-evident. So if identity is self-evident, why
 are we going through such trouble to pin it down? Because the formal identity of a game emerges from the
 intersection of its constituative and operational rules, understanding how it operates will help us understand
-how rules construct a game. 
+how rules construct a game.
  Chapter 12: Rules on Three Levels
-9
- Chapter 12: Rules on Three Levels
-9
 
+ Chapter 12: Rules on Three Levels
 
 The operational rules are not merely an expression of the constituative rules of a game. The relationship is
 more of a two-way street. Operational rules are concrete, real-world rules. Constituative rules are abstract,
 logical rules. They are very different, but every game ties them together tightly by virtue of its unique identity.
 What is the relationship between these two kinds of rules? Mathematician John Casti sheds some light on the
-problem: 
+problem:
 Given a particular kind of mathematical structure, we have to make up a dictionary to
 translate (i.e., interpret) the abstract symbols and rules of the formal system into the objects of
 that structure. By this dictionary-construction step, we attach a meaning to the abstract, purely
@@ -6135,8 +6001,8 @@ interdependence of its parts. Within the magic circle of a game, formal structur
 these interrelationships.
 [5]John Casti, Complexification: Explaining a Paradoxical World Through the Science of Surprise (New
 York: HarperCollins Publishers, 1994), p. 123.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Designing Elegant Rules
 It is curious to realize that when players move pawns or tokens along a track (as in Chutes and Ladders) their
 action is really just a different way of keeping score. Conversely, any game in which players display or record
@@ -6152,9 +6018,9 @@ What do rules have to do with design? Are we advocating that game designers crea
 explicitly in terms of constituative, operational, and implicit rules?
 First of all, there is no magic formula for designing meaningful play. There are as many approaches to
 creating games as there are game designers. As a game designer, you might be driven by a desire to explore
-10
+
  Chapter 12: Rules on Three Levels
-10
+
  Chapter 12: Rules on Three Levels
 
 
@@ -6168,7 +6034,7 @@ More than a procedure for designing games, the three kinds of rules provide a fr
 how rules operate. As a game designer, the systems you're building through the iterative process of game
 design will have rules as one of their raw materials. Designing and re-designing game systems means, on
 some level, tinkering with rules. Understanding how rules operate makes it much easier to design meaningful
-play. 
+play.
 In Chutes and Ladders, there are many reasons why the game takes place on a board, with players moving
 pawns, instead of, for example, players keeping score on a piece of paper. One reason is the game's audience.
 Children use the squares to help them count. Instead of adding 6 to 57 on a sheet of paper, they can simply
@@ -6183,13 +6049,13 @@ random number, recording progress, and seeing whether or not your token climbs o
 the meaning of the game in a number of ways:
 The board contains all aspects of the game information— progress toward the end space as well as
 climbing and sliding—at once.
-• 
+•
 The representations of the players (their tokens) are all in the same "space," making comparison of
 relative positions immediate and intuitive.
-• 
+•
 Players can clearly see the consequences of their actions, whether it is moving normally during a turn,
 climbing, or sliding.
-• 
+•
 It is easy to take the elegance of a game such as Chutes and Ladders for granted. Compare it with a game in
 which the operational rules make the game more difficult to play. Remember Marc LeBlanc's Tic-Tac-Toe
 variant 3-to-15? The problem with 3-to-15 is that by picking numbers instead of making marks, players
@@ -6209,61 +6075,59 @@ requires secrecy, confusion, and hidden information. Having too much information
 making clarity of information an undesirable quality of game play. However, the ways that players learn the
 game itself—how to enter the system of secrecy, confusion, and hidden information—has to be clear. Rules
  Chapter 12: Rules on Three Levels
-11
- Chapter 12: Rules on Three Levels
-11
 
+ Chapter 12: Rules on Three Levels
 
 themselves must ultimately be unambiguous.
 When a game creates ambiguity, it is always within some larger frame that is clearly articulated and shared by
 all players. Creating that clear ruleset and tying it to the actions and outcomes of genuinely meaningful play is
 one way of understanding the entire process of game design. Understanding how constituative, operational,
 and implicit rules work together in your game is a key element of this process.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 "The Life of Games," by Stephen Sniderman
 In this online essay, Sniderman takes a philosophical look at the "unwritten" rules of games. This is the essay
 from which we derive our understanding of implicit rules, and in it Sniderman makes a number of strong
 connections between game play, etiquette, and larger notions of cultural behavior. It can be found online at:
 <www.gamepuzzles.com/tlog/tlog2.htm>.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 The rules of any game exist on three related levels: constituative rules, operational rules, and implicit
 rules.
 Constituative rules are the abstract, core mathematical rules of a game. Although they
 contain the essential game logic, they do not explicitly indicate how players should enact
 these rules.
-♦ 
+♦
 Operational rules are the "rules of play" that players follow when they are playing a game.
 Operational rules direct the players' behavior and are usually the kinds of rules printed out in
 instructions and rulebooks for games.
-♦ 
+♦
 Implicit rules are the "unwritten rules" of etiquette and behavior that usually go unstated
 when a game is played. Similar implicit rules apply to many different games.
-♦ 
-• 
+♦
+•
 The operational rules for any particular game build directly on that game's constituative rules.
 However, any given set of constituative rules can be expressed in many different operational forms.
-• 
+•
 There is a fuzzy boundary between operational and implicit rules. For example, sometimes a game
 designer may make certain implicit rules explicit by including them in the printed rules of a game.
-• 
+•
 The formal identity of a game allows us to distinguish a game as formally unique and distinct from
 other games. This identity emerges from the relationship between the game's constituative rules and
 operational rules.
-• 
+•
 Key in establishing the formal identity of a game is the specificity of the rules. The exact and
 unambiguous nature of the constituative and operational rules allow a game to be this game and not
 that game.
-• 
+•
 There is a translation that occurs among the constituative, operational, and implicit rules of a game.
 The magic circle is the context for this translation. The formal meaning of a game emerges through a
-• 
-12
+•
+
  Chapter 12: Rules on Three Levels
-12
+
  Chapter 12: Rules on Three Levels
 
 
@@ -6271,18 +6135,15 @@ process that bridges all three levels of rules in a game.
 Elegant rules allow players to focus on the experience of play rather than on the logic of the rules.
 Designing meaningful play involves building discernable and integrated relationships between action
 and outcome into all levels of the rules of a game.
-• 
- < Day Day Up > 
- < Day Day Up > 
+•
+ < Day Day Up >
+ < Day Day Up >
  Chapter 12: Rules on Three Levels
-13
- Chapter 12: Rules on Three Levels
-13
 
-
-14
  Chapter 12: Rules on Three Levels
-14
+
+ Chapter 12: Rules on Three Levels
+
  Chapter 12: Rules on Three Levels
 
 
@@ -6315,27 +6176,25 @@ embodied in the medium of printed ink on paper. But as with the rules of a non-d
 of the rules can be hidden "under the hood" on the constituative level, or pass unspoken on the implicit level,
 the rules of a digital game take a number of different forms. This means that although there is some overlap
  Chapter 13: The Rules of Digital Games
-1
-
 
 between the code of a game program and the rules of the game that the program makes possible, there is not a
 one-to-one correspondence between them.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 So What Are the Rules?
 A quick review of the qualities of game rules will be helpful. From Defining Rules, we know that rules:
 limit player action
-• 
+•
 are explicit and unambiguous
-• 
+•
 are shared by all players
-• 
+•
 are fixed
-• 
+•
 are binding
-• 
+•
 are repeatable
-• 
+•
 Many of these qualities seem to be intrinsic qualities of the computer. For example, the idea that computer
 code is explicit and unambiguous is true. Code is quite precise: a colon turned into a semicolon, or a zero into
 a one, can render a program inoperable. Computer code is also shared and repeatable: all players who buy a
@@ -6344,7 +6203,7 @@ the same game experience, but from a formal point of view, the rules each player
 The idea that rules are binding, as well as fixed is as true for digital games as it is for non-digital ones. In a
 classical sense, the rules of the game don't change while the game is being played. Of course, there are plenty
 of cases of hacking, cheats, and Easter eggs in games, but these interventions only serve to highlight the fact
-that as a whole, the rules of digital games are indeed fixed and binding. 
+that as a whole, the rules of digital games are indeed fixed and binding.
 What characteristics help identify the special qualities of the rules of digital games? The first characteristic of
 rules, that they limit player action, is extremely useful. Rules serve to restrict and stylize players' actions. It
 makes sense that the rules of a digital game are those aspects directly related to shaping player behavior. How
@@ -6361,11 +6220,11 @@ define the possible actionthat a player can take and the outcome that the action
 There are other rules to Tetris as well: the rules for eliminating lines of blocks, the rules for scoring, the rules
 for losing, the rules that determine the pacing and acceleration of the game. All of these help determine the
 struc ture of the game and all are part of its formal system.
- < Day Day Up > 
- < Day Day Up > 
-2
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 13: The Rules of Digital Games
-2
+
  Chapter 13: The Rules of Digital Games
 
 
@@ -6377,38 +6236,38 @@ disappear. Any sections of blocks that are above to the basic single-player vers
 the row or rows that disappeared fall downward until they leaving out elements such as difficulty level and
 audio selection. hit the bottom of the grid or another block section.
 Play takes place on a grid of 19 by 10 squares.
-• 
+•
 The player can move the currently falling block left and right one grid square by tapping left and right
 on the directional pad. If the player presses and holds left or right on the directional pad, after a set
 pause the block will -move quickly in that direction at a set rapid rate.
-• 
+•
 Blocks cannot be moved off the left or right borders of the grid.
-• 
+•
 The up-direction on the directional pad has no effect.
-• 
+•
 The player can rotate the currently falling block using the A or B button. The A button rotates the
 block 90 degrees clockwise and the B button rotates the block 90 degrees counterclockwise. The
 block rotates on its center axis
-• 
+•
 When a portion of a block hits the bottom of the grid or The Rules of Tetris another block, the
 descending block stops falling
-• 
+•
 If,when a block stops falling, one or more rows of the grid
-• 
+•
 As soon as the descending block stops moving (or if rows disappeared, as soon as the upper rows
 finish falling · Blocks in one of five configurations appear at the top cen-down), a new randomly
 selected block appears at the top ter of the screen. These configurations are made up out of center of
 the screen.four grid squares and consist of the following pieces:
-• 
+•
 If blocks accumulate on the grid so that the next descending block cannot completely enter onto the
 grid, the game is over.
-• 
+•
 The player receives points for each row that disappeared, according to a scheme in which removing
 more rows at once (up to four) gives more points than removing fewer rows. The exact points for
 removing rows depends on the difficulty level selected by the player. Also, when a player uses the
 down-control to accelerate a block's descent, a player receives one point per grid square that the block
 descended in this way.
-• 
+•
 There are a few precise details that we left out for brevity's sake (such as scoring, timing, speed, the exact
 procedure by which blocks rotate, and so on) but in general, these are the rules by which the game operates.
 Do the rules seem simpler or more complicated than you expected?
@@ -6422,14 +6281,12 @@ shape for an entire game, letting a player pick which of the five shapes to use 
 randomly give the player a block as opposed to other possible schemes certainly has an affect on the formal
 structure of how the game proceeds; it is therefore part of the rules. We could use a similar process with each
  Chapter 13: The Rules of Digital Games
-3
- Chapter 13: The Rules of Digital Games
-3
 
+ Chapter 13: The Rules of Digital Games
 
 of the rules listed above, considering how changes to the rules would impact the functioning of the game.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Rules and Not Rules
 Most or all of the program code that makes up a digital game directly or indirectly affects the experience of
 the game. But as we have mentioned, that doesn't mean that the code is self-identical to the rules. As with
@@ -6446,7 +6303,7 @@ rules: it is merely part of the code that handles the visual representation of a
 doesn't mean that the reflective water doesn't affect the game experience, just that it is not part of the game
 rules. On the other hand, if the water's reflectivity is a vital clue that lets players know that the pool is a
 magical pool with special game properties, then the code that determines the presence or absence of
-reflectivity would in fact be part of the rules of the game. 
+reflectivity would in fact be part of the rules of the game.
 Game and Watch Gallery Donkey Kong, Classic mode
 The Game Boy Game and Watch Gallery game series provides a useful example. These games are based on
 the Nintendo Game and Watch LCD games from the early 1980s. In the Game Boy versions of these games,
@@ -6459,9 +6316,9 @@ regulate the game logic, player action and outcome, scoring system, structural a
 and so on. The graphics and audio are not intrinsic to these formal qualities of the games and therefore can be
 changed while keeping the formal structure the same.
 On the other hand, if visual representation has an impact on the formal structure of the game, it is part of the
-4
+
  Chapter 13: The Rules of Digital Games
-4
+
  Chapter 13: The Rules of Digital Games
 
 
@@ -6483,8 +6340,8 @@ the game rules. The rules regarding visual representation help distinguish betwe
 information has a direct impact on a player's strategic choice-making and is therefore part of the formal
 structure of the game. Sometimes, aspects of a game that are normally not considered part of the rules (such as
 the visual component) can in fact be key parts of the formal structure.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Wheels Within Wheels
 If the rules of a digital game are those aspects of the program that have to do with the behavior of the player,
 where do the rules end? For example, interacting with the game of Tetris to move and rotate falling blocks is
@@ -6499,10 +6356,8 @@ Ladders make the interaction with these game elements explicit.
 In order to more precisely clarify the kinds of lines that we might draw in framing the rules of a digital game,
 we return to our three-part model of constituative, operational, and implicit game rules.
  Chapter 13: The Rules of Digital Games
-5
- Chapter 13: The Rules of Digital Games
-5
 
+ Chapter 13: The Rules of Digital Games
 
 The operation of computer machinery can be described at a number of levels. The "lowest" of
 these is the electronics of hardware… Descriptions are causal and physical: electrons,
@@ -6529,20 +6384,20 @@ Constituative
 The constituative rules of a digital game are remarkably similar to those of a non-digital game. For example,
 take another look at the constituative rules of Tic-Tac-Toe:
 Two players alternate making a unique selection from a grid array of 3 by 3 units.
-1. 
+1.
 The first player to select three units in a horizontal, vertical, or diagonal row is the winner.
-2. 
+2.
 If no player can make a selection and there is no winner, then the game ends in a draw.
-3. 
+3.
 These rules would have to be the foundation of a digital game of Tic-Tac-Toe as well. Note that the actions
 the players take, the way that these actions are represented to the players, and even whether one or both
 players are human or program-controlled, are not specified. Constituative rules are concerned only with the
 internal functioning of the game logic.To use the terms that we established in Interactivity, constituative rules
 are concerned with internal events (events related to the processing of a choice) and not with external events
 (events relating to the representation of a choice).
-6
+
  Chapter 13: The Rules of Digital Games
-6
+
  Chapter 13: The Rules of Digital Games
 
 
@@ -6554,27 +6409,27 @@ controller. Just as with non-digital games, there are many different sets of ope
 formulated from any given set of constituative rules. Below is one set of operational rules for a digital
 Tic-Tac-Toe game, designed for two human players on a computer:
 A game begins with an empty 3 by 3 grid on the screen.
-1. 
+1.
 The screen displays an X or an O to one side of the grid to indicate which player will move next. The
 first player is always X.
-2. 
+2.
 Players alternate turns, using the mouse to click on an empty square of the grid. When a player clicks
 on an empty square, the current symbol will be displayed in that square. At the same time, a sound
 effect of a voice saying "X" or "O" will play (the sound will correspond to the current symbol). Also
 at that time, the symbol indicating which player is currently taking a turn will flash on and off twice
 and then switch to the other symbol.
-3. 
+3.
 If a player attempts to click anywhere else on the screen besides an empty square, there is no effect.
-4. 
+4.
 If a player places an X or O and thereby creates three symbols in a horizontal, vertical, or diagonal
 row, the three symbols that are in a row will begin flashing. At the same time, a sound effect of a
 voice saying "X wins" or "O wins" will play, depending on which symbol won the game. If a player
 places a symbol and there is no winner and no empty squares, a sound effect of a voice saying "draw"
 will play.
-5. 
+5.
 After a win or a draw, if the player clicks anywhere on the screen, the game will reset back to the
 beginning with an empty 3 by 3 grid.
-6. 
+6.
 Note that in describing the operational rules of the game, we only went into detail about the external or
 representational events that impact player interactivity and formal game events. We did not include the
 aesthetic, experiential components of the game that did not relate to the rules. We did not describe, for
@@ -6597,18 +6452,16 @@ applies. In addition, there are implicit rules that are unique to digital games,
 games designed for the same technological platform. Below are a few examples of implicit rules of the digital
 Tic-Tac-Toe game:
 When you move the mouse, the cursor on the screen corresponds to the mouse movement.
-1. 
+1.
 The Tic-Tac-Toe game program can be started, stopped, copied, deleted, renamed, etc., like other
 program files.
-2. 
+2.
  Chapter 13: The Rules of Digital Games
-7
- Chapter 13: The Rules of Digital Games
-7
 
+ Chapter 13: The Rules of Digital Games
 
 Playing the game will not affect your computer in any permanent way.
-3. 
+3.
 Although these implicit rules may seem like obvious assumptions, it is the nature of implicit rules that they
 are usually taken for granted. But it might be interesting to design a game that surprised players by "playing"
 with the implicit rules of computer interaction. For example, what if during a game the cursor did not
@@ -6616,8 +6469,8 @@ correspond directly to mouse movement? Or what if when you typed in chat to anot
 multi-player game, the text that appeared on the other player's screen did not correspond exactly to what you
 typed? Questioning implicit rules can be a powerful source for design ideas.
 [1]Paul N. Edwards, The Closed World (Cambridge: MIT Press, 1996), p. 246.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Why Rules?
 Understanding the rules of a digital game is a tricky business, compounded by the complexities of software
 operation. In a non-digital game, the rules of a game are generally something that is concretely manifest in an
@@ -6638,16 +6491,16 @@ The goal of this book is to offer useful frameworks for understanding how games 
 the discussion of rules has created a general understanding of the formal nature of games. In the next several
 chapters, we provide formal schemas that present even more specific tools for understanding elements of
 game design.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 The rules of a digital game are related to the program code, but they are not the same thing as the
 program code. Rules are abstract tools for thinking about the formal structure of a game and are not
 necessarily literally manifest in code.
-• 
-8
+•
+
  Chapter 13: The Rules of Digital Games
-8
+
  Chapter 13: The Rules of Digital Games
 
 
@@ -6655,43 +6508,40 @@ In a general sense, the rules of a digital game are the same as the rules of a n
 directly concerned with the actions players take and the outcome of those actions. Therefore, the
 aspects of a game program that structure and take in player input and determine the game's output are
 those aspects that constitute the game's rules.
-• 
+•
 The internal functioning of formal game logic (such as the way a program selects the next block to
 appear in Tetris) is also part of the rules of a digital game.
-• 
+•
 The specific manifestations of the visuals and audio in a digital game are usually not part of the
 formal structure of the game. However, there are cases where these elements impact the formal
 structure of a game and should be considered part of the rules.
-• 
+•
 The constituative rules of digital and non-digital games are quite similar. The constituative rules of a
 digital game serve as the core logic of the game and are usually contained directly in the code in some
 fashion. The constituative rules of a digital game handle the game's internal events.
-• 
+•
 The operational rules of digital games are not only concerned with the internal events, but also the
 external events of a game-player input and game output, expressing choices and outcomes to the
 player. As with non-digital games, there is a fuzzy line between the operational and implicit rules of
 digital games.
-• 
+•
 Digital games share many implicit rules with non-digital games. In addition, they have their own
 kinds of implicit rules, which include the unstated assumptions of the game's platform. Playing with
 these implicit rules can be the source of innovative design ideas.
-• 
+•
 Because game programs are multi-layered, complex objects, determining exactly which aspects of a
 game program belong to each type of rules is not always clear. However, the value of the three-part
 rules framework is not for game development or program design, but instead to understand better the
 abstract formal system of a game and how it functions to produce meaningful play.
-• 
- < Day Day Up > 
- < Day Day Up > 
+•
+ < Day Day Up >
+ < Day Day Up >
  Chapter 13: The Rules of Digital Games
-9
- Chapter 13: The Rules of Digital Games
-9
 
-
-10
  Chapter 13: The Rules of Digital Games
-10
+
+ Chapter 13: The Rules of Digital Games
+
  Chapter 13: The Rules of Digital Games
 
 
@@ -6725,11 +6575,9 @@ opens this chapter, emergence arises out of complexity. It is the phenomenon of 
 from within a system. Emergence is a crucial aspect of games, linking their intrinsically systemic nature to the
 space of possibility and meaningful play.
  Chapter 14: Games as Emergent Systems
-1
 
-
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Complexity
 As a preliminary step to understanding emergence and systems, we begin with the concept of complexity.
 Growing out of classical systems theory, the study of complexity has become its own interdisciplinary field.
@@ -6755,7 +6603,7 @@ Although mathematical models for precisely defining the "complexity barrier" do 
 difference between a simple system and a complex system is more conceptual than numerical. A simple
 system such as a wooden table does have parts (four legs and a tabletop) that interrelate to form a whole, and
 the whole is more than the sum of the parts, since a complete table can serve functions that the isolated pieces
-cannot. But it is clearly a simple system, as the relationships between parts are fixed and entirely predictable. 
+cannot. But it is clearly a simple system, as the relationships between parts are fixed and entirely predictable.
 The table, as a system, is much simpler than even the most elementary game. In Tic-Tac-Toe, the
 relationships among the parts, the unpredictability of the player's actions, the dynamic shifting of the system
 over time, the uncertain outcome, all contribute to the complexity of the game, a kind of complexity that is
@@ -6765,11 +6613,11 @@ meaningful play. If complexity is not present in a game, meaningful play cannot 
 [1]Jeremy Campbell, Grammatical Man: Information, Entropy, Language, and Life (New York: Simon &
 Schuster, 1982), p. 105.
 [2]Ibid, p. 102.
- < Day Day Up > 
- < Day Day Up > 
-2
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 14: Games as Emergent Systems
-2
+
  Chapter 14: Games as Emergent Systems
 
 
@@ -6796,12 +6644,10 @@ messenger between the two buildings. But with 10 messengers and 50 buildings, it
 task. If a messenger delivers her last message at a building and there isn't a new message to pick up, where
 does she go next? This decision should be based partially on which buildings are closest to the messenger, but
 it should also take into account which buildings other messengers have recently visited; buildings that haven't
-been visited recently are most likely to have an undelivered message. 
+been visited recently are most likely to have an undelivered message.
  Chapter 14: Games as Emergent Systems
-3
- Chapter 14: Games as Emergent Systems
-3
 
+ Chapter 14: Games as Emergent Systems
 
 Or consider what should happen when a messenger picks up several pieces of mail that need to go to buildings
 in different parts of the city. What is the logic that determines how to deliver the messages? What if the
@@ -6826,8 +6672,8 @@ initial version of the system, with two buildings and one messenger, was primiti
 comparison. But the more complex versions of our city resemble an ecosystem filled with intelligent agents.
 We articulate this conceptual distinction between a simple and a complex system further in the examples that
 follow.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Simple Complexity
 In the case of the messenger city, the system eventually became complex because we loaded lots of complex
 relationships and contingencies into it. But sometimes complexity can arise quite suddenly and unexpectedly
@@ -6846,23 +6692,23 @@ other two, drastically complicating the mathematical factors determining their r
 The addition of a third planetary body into this system changes everything: the system crosses Campbell's
 "complexity barrier" to become a genuinely complex system. The relationships among the elements in the
 system become intertwined in such a complex fashion that the resulting dynamics have yet to be
-4
+
  Chapter 14: Games as Emergent Systems
-4
+
  Chapter 14: Games as Emergent Systems
 
 
 mathematically resolved. What is striking about this example is the low number of elements the system
 contains. Two planetary bodies have a simple relationship; the addition of just one more element into the
-system introduces complexity of a completely different order. 
+system introduces complexity of a completely different order.
 There are many examples of seemingly simple systems that in reality are staggeringly complex. A
 conversation, for example, might only have two people interacting with each other. When all of the cognitive,
 social, perceptual, linguistic, and contextual factors are taken into account, however, it is clear that even a
 simple conversation is an exceedingly complex process.
 [3]John Casti, Complexification: Explaining a Paradoxical World Through the Science of Surprise (New York:
 HarperCollins Publishers, 1994), p. 40-41.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 What Complexity Is Not
 What is complexity? Certainly ordered systems where every point in time and space looks like
 every other point are not complex. Also, it does not make sense to talk about complexity when
@@ -6887,13 +6733,11 @@ swap messages. Unlike a completely fixed or completely random set of points, the
 and rhythm, as the messengers moved in patterns through the space. The unpredictable but patterned
 visualization of these complex behavioral sequences would be a reflection of the genuinely complex system
 underneath.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 14: Games as Emergent Systems
-5
- Chapter 14: Games as Emergent Systems
-5
 
+ Chapter 14: Games as Emergent Systems
 
 Four Kinds of Systems
 Before moving into a discussion of complexity and games, let us take stock. We have looked at several
@@ -6905,29 +6749,29 @@ On the far left are fixed systems that remain unchanging.hand, a screen that is 
 would be completely The relationships between their elements are always the chaotic, with the color
 of a dot at one moment having nothing same. The black, unchanging TV screen is a good image for
 this kind of system.
-• 
+•
 To the right of fixed systems in the chart are periodic ones. Periodic systems are simple systems that
 repeat the same patterns endlessly. The simple two-building version of the messenger system, where a
 single messenger oscillates back and forth, is a periodic system.
-• 
+•
 On the far right of the chart are chaotic systems. In a chaotic system, the elements are constantly in
 motion, but their states and relationships are random, like a TV screen full of static.
-• 
+•
 The final category is the one that interests us the most: complex systems. These systems are more
 complicated and unpredictable than a periodic system, but not so full of dynamic relationships that
 they end up as a chaotic haze of static.
-• 
+•
 Considering all of the possible kinds of systems that might exist, complex systems inhabit a narrow band. The
 conditions that allow a complex system to exist are something like the conditions that allow a planet to
 support life: among all of the planets that exist in the universe, only a small subset have the right combination
 of temperature, atmosphere, and chemical composition to allow life to emerge. What are the special
 conditions that allow systems to become complex, especially in the case of games?
 [4]Christopher Langton, Artificial Life: An Overview (Cambridge: MIT Press, 1995), p. 112.
- < Day Day Up > 
- < Day Day Up > 
-6
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 14: Games as Emergent Systems
-6
+
  Chapter 14: Games as Emergent Systems
 
 
@@ -6960,7 +6804,7 @@ constantly in motion, but they would never form coherent strategic patterns wher
 meaningful relationship to each other (as Bak put it, the pieces would be "uncorrelated points").
 Both Heads and Tails and The Grid lack complexity.They are also very different games. What do they have in
 common that keeps them from attaining complexity? To answer this question, we return to our core concept of
-meaningful play. 
+meaningful play.
 Meaningful play in a game emerges from the relationship between player action and system outcome; it
 is the process by which a player takes action within the designed system of a game and the system
 responds to the action. The meaning of an action resides in the relationship between action and
@@ -6977,10 +6821,8 @@ If both of these games lack complexity, and they both lack meaningful play, does
 play and complexity are the same thing? Not at all. Meaningful play and complexity address two different
 aspects of games. Meaningful play concerns the relationship between decision and outcome, and complexity
  Chapter 14: Games as Emergent Systems
-7
- Chapter 14: Games as Emergent Systems
-7
 
+ Chapter 14: Games as Emergent Systems
 
 concerns the way that parts relate to each other in a system. Despite this distinction, the two concepts are
 closely related. In games where meaningful play does exist, some aspect of the game system will be complex.
@@ -7011,7 +6853,7 @@ to different aspects of games. But complexity is a necessary prerequisite of mea
 additional variations to Heads and Tails that underscore this point. Each version of the game makes a few
 rules modifications that affect the integration of player action and system outcome. Although each variation
 only adds a few new rules, each one pushes the operation of the game system beyond the complexity barrier
-and into meaningful play. 
+and into meaningful play.
 The Talking Variant. In this version of the game, the flipper decides which side of the coin is
 up. But before the guesser guesses, the two players have ten minutes to discuss the decision
 the flipper made. The flipper might lie about which side is up, tell the truth, or try some
@@ -7028,9 +6870,9 @@ point. At the end of the game, the player with the most points wins.
 Why it is more meaningful: The Repeating Guess is very similar to the Decision Variant. The
 difference is that because the game is played many times, there is a chance for patterns to
 emerge. As with Rock-Paper-Scissors, the two players are trying to outguess each other and
-8
+
  Chapter 14: Games as Emergent Systems
-8
+
  Chapter 14: Games as Emergent Systems
 
 
@@ -7055,8 +6897,8 @@ Repeating Guess Variant? How much would players be willing to risk in the Increa
 game experiences that would emerge from within these variations would be surprisingly complex, more so
 than their very simple sets of rules might lead you to believe. This phenomenon-systems generating complex
 and unpredictable patterns of behavior from simple rules-is called emergence.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Emergence
 A modest number of rules applied again and again to a limited collection of objects leads to
 variety, novelty, and surprise. One can describe all the rules, but not necessarily all the
@@ -7078,10 +6920,8 @@ they can interact are quite limited. If two enemy units meet, they won't strike 
 dance together—they will either fight or not fight. Despite the complexity of the code, there is still arguably a
 "modest number of rules" applied to a "limited collection of objects".The system of the game, when it plays
  Chapter 14: Games as Emergent Systems
-9
- Chapter 14: Games as Emergent Systems
-9
 
+ Chapter 14: Games as Emergent Systems
 
 out, results in unpredictable patterns of emergence.
 In including such a wide range of game phenomena under the heading of emergence, we are admittedly
@@ -7092,8 +6932,8 @@ purposes, however, we collapse these distinctions to consider emergence in a mor
 can come about through complex programmed mechanisms that simulate adaptive agents and systems, but it
 can also happen on an experiential level, where extremely simple rules give rise to complex social or
 psychological relationships among players.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Parts and the Whole
 Regardless of how we frame it, all of these instances of emergence share certain characteristics:
 Emergence is above all a product of coupled, context-dependent interactions. Technically
@@ -7108,7 +6948,7 @@ line, working from the final statement back to the beginning. In the last senten
 emergence is in operation, "the whole is indeed more than the sum of its parts." This fits into our general
 understanding of systems, in which the parts interrelate to form a whole. In an emergent system, there is a
 special relationship between the parts and the whole. Because an emergent system will play out in
-unpredictable ways, the whole of the game is more than the sum of the parts. 
+unpredictable ways, the whole of the game is more than the sum of the parts.
 What does Holland mean by this? Look one sentence earlier:
 "We can no more truly understand strategies in a board game by compiling statistics of the movements of its
 pieces than we can understand the behavior of an ant colony in terms of averages."
@@ -7124,9 +6964,9 @@ we might know all of the words in that language along with the rules of grammar 
 Campbell and Holland are both saying the same thing: what makes a system emergent is that there is a special
 disconnect between the rules of the system and the ways those rules play out. Although the rules might be
 concise and knowable, the behavior of those rules set into motion in the system creates patterns and results not
-10
+
  Chapter 14: Games as Emergent Systems
-10
+
  Chapter 14: Games as Emergent Systems
 
 
@@ -7144,8 +6984,8 @@ increase geometrically. This is the kind of complexity seen in the example of th
 a third planet to the equation did not just increase the complexity of the system by a third: it added orders of
 magnitude of new complexity.
 [5]John Holland, Emergence (Reading, PA: Helix Books, 1998), p. 121–122.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Object Interactions
 We have now arrived at the first line of Holland's quote:
 "Emergence is above all a product of coupled, context-dependent interactions." So far we have looked at the
@@ -7164,7 +7004,7 @@ creates another change, giving rise to patterns over the space of the system. Th
 context-dependent, which means that the changes that occur are not the same every time. Instead, the exact
 nature of the transformations depends on what else is happening in the system at any given moment. Coupled
 interactions help produce global patterns across a system; context-dependent interactions ensure that the exact
-arrangement of these patterns are dynamically changing over time. 
+arrangement of these patterns are dynamically changing over time.
 In the messenger communication system example, the objects (messengers and buildings) have attributes and
 also have relationships to each other. If a messenger picks up mail from a building, the attributes of the
 building (Does it have undelivered mail or not?) and the attributes of the messenger (Does the messenger have
@@ -7174,18 +7014,16 @@ unexpected patterns would arise in the behaviors of the objects, behaviors not c
 themselves. For example, imagine that we decided to color blue any building that didn't have any messages
 waiting to be picked up. It could be that patterns of blue buildings would cycle regularly lengthwise across the
  Chapter 14: Games as Emergent Systems
-11
- Chapter 14: Games as Emergent Systems
-11
 
+ Chapter 14: Games as Emergent Systems
 
 system. These patterns are not part of any of the sys-tem's rules but are patterns that nevertheless arise out of
 the system as it functions. This is precisely the kind of emergent pattern that Steven Johnson described in his
 fanciful example of motorized billiard balls in the quote at the beginning of this chapter. In both cases, the
 coupled, context-dependent interactions among elements of the system are responsible for the emergent
 phenomena.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Life, the Game
 In the field of complexity theory, perhaps the most well-known examples come from the mathematical study
 of cellular automata. Cellular automata are grid-based systems that vaguely resemble game boards. At any
@@ -7197,15 +7035,15 @@ Not all cellular automata systems automatically create emergence. It all depends
 behavior of the cells. For example, if we wanted to replicate a blank TV screen in a cellular automata grid, we
 could create the following rules:
 To begin, all of the cells are unoccupied.
-1. 
+1.
 The state of the cells does not change.
-2. 
+2.
 These rules would result in the fixed system of a blank, empty field. If we wanted to replicate a cellular
 automata system that would result in pure chaos, we could create the following rules:
 To begin, half of the cells are occupied and half are unoccupied, determined randomly.
-1. 
+1.
 Every thirtieth of a second, a new set of half of the cells is occupied, randomly determined.
-2. 
+2.
 These rules would result in the ever-changing but patternless sheen of dots that make up television static.
 Cellular automata were systems originally developed by the mathematicians John Von Neumann and
 Stanislaw Ulam in the 1930s and 1940s. But the most famous application comes from John Conway. His
@@ -7221,9 +7059,9 @@ its corners.
 If a cell on the checkerboard is alive, it will survive in the next time step (or generation) if
 there are either two or three neighbors also alive. It will die of overcrowding if there are more
 than three live neighbors, and it will die of exposure if there are fewer than two.
-12
+
  Chapter 14: Games as Emergent Systems
-12
+
  Chapter 14: Games as Emergent Systems
 
 
@@ -7234,7 +7072,7 @@ Although Conway's Life was not originally created on a computer, it is commonly 
 software. Life always begins with some of the cells full and some empty, either in predetermined or random
 patterns. When the program is run, the grid is updated in steps, each step iterating the rules according to the
 current configuration on the grid. Visually, Life manifests as a set of dynamic, shifting geometric patterns as
-grid cells die and come to life. 
+grid cells die and come to life.
 The Game of Life: The Glider
 Some triplet histories in the Game of Life
 The startling thing about Life is that from these extremely simple rules, strikingly unexpected patterns result.
@@ -7256,26 +7094,24 @@ Context-dependent: Over time, as the context of an object in a system changes, i
 relationships to other objects change, giving rise to global transformations in the system. In
 the case of Life, the context of any given cell is its eight neighbors. At each time step, this
  Chapter 14: Games as Emergent Systems
-13
- Chapter 14: Games as Emergent Systems
-13
 
+ Chapter 14: Games as Emergent Systems
 
 context shifts, propagating dynamic behavior across the system. Just as coupled interactions
 reverberate across the space of the grid, context-dependent interactions ripple out over time as
 the space of the system transforms and creates new contexts for the system objects.
 [6]Langton, Artificial Life, p. 52.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Bottom-Up Behaviors
 The striking thing about The Game of Life is that its coupled and context-dependent interactions emerge from
 a very simple set of rules. Look at how simply we can summarize the behavior of the cells:
 A living cell will be alive in the next generation if two or three of its neighbors are alive.
-• 
+•
 A dead cell will be alive in the next generation if three of its neighbors are alive.
-• 
+•
 Otherwise, a cell will be dead.
-• 
+•
 The fact that these simple rules can produce everything from glider guns to working calculators is astonishing.
 Glider guns are nowhere described in the three rules listed above. But paradoxically, they do exist in the space
 of possibility defined by the three rules. All of the possible patterns of cells, all of the virtual machines that
@@ -7301,20 +7137,20 @@ chapter on the formal properties of emergence, but in a sense the rest of this b
 begin here, examining the many ways that meaningful play can emerge from a game.
 [7]Steven Johnson, Emergence: The Connected Lives of Ants, Brains, Cities, and Software (New York:
 Scribner, 2001), p. 18.
-14
+
  Chapter 14: Games as Emergent Systems
-14
+
  Chapter 14: Games as Emergent Systems
 
 
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Emergence in Games
 Many studies of emergence look at systems such as The Game of Life, which are autonomous and do not
 require active human participation in order to function. But Life is not really a game. Not only does it lack a
 quantifiable goal, but it is not a system of conflict in which one or more players participate. It is true that a
 user can set up the initial set of cells, which are either on or off. But once the game begins, Life runs all by
-itself. The behavior of Life, once the program is in motion, is divorced from human interaction. 
+itself. The behavior of Life, once the program is in motion, is divorced from human interaction.
 Games are not like this at all. Games require players, and those players make decisions that move the game
 forward. The concept of meaningful play, for example, is premised on the idea that there are perceivable
 relationships between player action and game outcome. The participatory nature of games makes them tricky
@@ -7352,12 +7188,10 @@ around the world from both academics and commercial game developers over the las
 the focus of Go research has been in Asia, where the game is more common, the amount of attention given to
 programming AI for the two games is roughly equivalent. A few years ago, when Gary Kasparov lost to
 IBM's Deep Blue in Speed Chess, computers arguably exceeded human mastery of Chess. But a Go program
-has yet to be written that can challenge an advanced player of the game. 
+has yet to be written that can challenge an advanced player of the game.
  Chapter 14: Games as Emergent Systems
-15
- Chapter 14: Games as Emergent Systems
-15
 
+ Chapter 14: Games as Emergent Systems
 
 Why the discrepancy? Go demonstrates a higher degree of emergent complexity, arising out of the coupled
 interactions between game pieces. Like a cellular autonoma, each piece in Go forms relationships with
@@ -7369,8 +7203,8 @@ pastimes for game players, and playing either one well is a demanding intellectu
 that more complex rules do not necessarily equal more complexity in the system. Paradoxically enough, the
 simpler rules of Go generate a higher degree of emergent complexity.
 [8]Holland, Emergence, p. 22–23.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Designing Surprise
 How do the concepts of complexity and emergence relate to game design? It is clear that games are systems
 and that complexity and emergence affect meaningful play. But how do emergence and complexity impact the
@@ -7400,9 +7234,9 @@ automatic, and the player is free to get on with other things. But now consider 
 wave of enemy warriors. They come running up, and the first thing they encounter is not the
 preacher's conversion radius but the attack radius of the last lot of warriors to be converted. A
 fight breaks out between the groups of warriors, and the preachers cannot intervene to convert
-16
+
  Chapter 14: Games as Emergent Systems
-16
+
  Chapter 14: Games as Emergent Systems
 
 
@@ -7441,18 +7275,16 @@ settlement's preachers. It was only through careful attention to game rules in t
 behaviors emerged.
 [9]Andrew Rollings and Dave Morris, Game Architecture and Design (Scottsdale: Coriolis Group, 1999), p.
 26.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Engine Tuning
 Arriving at sets of game rules that produce successfully emergent behavior involves a difficult and often
 time-consuming design process. It can only be completed through the kind of iterative design outlined in
 chapter 2. The rules for The Game of Life seem simple and elegant, but it took John Conway two years of
 testing and refinement to arrive at their final form.
  Chapter 14: Games as Emergent Systems
-17
- Chapter 14: Games as Emergent Systems
-17
 
+ Chapter 14: Games as Emergent Systems
 
 In the example from Populous:The Beginning, emergent behaviors were the result of what game designer
 Marc LeBlanc calls game tuning: iterative tweaking, testing, and refinement of game rules in order to create a
@@ -7470,7 +7302,7 @@ kinds of toys and tune their attributes. Inside the game application were pull-d
 statistics for each toy. As the attributes of each type of toy were altered, the changes immediately took effect
 in the game, so that even in the middle of a game the designers could easily make adjustments and see how
 the changes affected the overall game play. The iterative playtesting that took place throughout the 18-month
-development process helped create a balanced game. 
+development process helped create a balanced game.
 During development, the designers discovered emergent combinations of toys. They found that although toys
 could be used as individual game units, the real richness of Gearheads arose from using toys in concert with
 each other. Often the toy combinations they discovered were highly surprising. Designers Frank Lantz and
@@ -7503,9 +7335,9 @@ Although Crush Kringle is a powerful toy, it is very slow, which means that the 
 spend a long time winding it. However, a game engine provides a shortcut around this
 limitation. First, players release a very lightly wound Crush Kringle, followed by a Handy,
 followed by another lightly wound Crush Kringle, all on the same row of the playfield. The
-18
+
  Chapter 14: Games as Emergent Systems
-18
+
  Chapter 14: Games as Emergent Systems
 
 
@@ -7517,7 +7349,7 @@ across the playfield, the Handy toy running back and forth between the two Crush
 The toy-combination engines were not something designed directly into the rules of Gearheads. They were
 emergent patterns of play that arose out of the more simple set of attributes that defined each individual toy. In
 some cases, the toy attributes were refined in order to make a particular engine possible—but most of the
-time, engines were discovered as the game was played and developed. 
+time, engines were discovered as the game was played and developed.
 As with the example from Populous: The Beginning, emergence in Gearheads manifests on many levels at
 once. The unexpected local interactions between toys creates larger patterns on the playfield. The player's own
 decision-making process is also a pattern that emerges as a result of the toy combinations, as players adjust
@@ -7527,8 +7359,8 @@ or two in the four or five toy types they pick for a game. Another way that thes
 development was the AI programming. In designing the computer opponent, engine-based heuristics were
 included, so that the program was aware of advantageous toy combinations and often used engines against the
 player. Some Gearheads players learn about certain engines simply by observing the behavior of the AI.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Second-Order Design
 Engines such as these occur in non-digital games as well. A card game such as Magic: The Gathering, with its
 thousands of different cards types, is a hothouse of emergence, designed specifically to facilitate the creation
@@ -7554,10 +7386,8 @@ change to the play of the game, and you will never be able to test out every pos
 tiny fraction of them. That is why anticipating how changes to the formal structure of a game affect its play is
 one of the core skills that game designers must develop. Over time, game designers acquire a structural "sixth
  Chapter 14: Games as Emergent Systems
-19
- Chapter 14: Games as Emergent Systems
-19
 
+ Chapter 14: Games as Emergent Systems
 
 sense" of what will and will not work in a game, of how changes to one part of the system are likely to play
 out in the experience as a whole. At the same time, one cannot anticipate every effect. One of the great
@@ -7569,8 +7399,8 @@ Although a rules-based approach is not the only way to understand games, it is a
 game designer's conceptual toolset. By defining rules and framing games as emergent systems, we have laid
 the groundwork for thinking about games in structural terms. The game design schemas that follow all offer
 more specific ways of thinking about and designing games as formal systems.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 Complexification, by John Casti
 This book on the science of complexity written by mathematician John Casti is a non-technical but
@@ -7593,9 +7423,9 @@ A popular introduction to emergent systems and complexity, in Emergence,digital 
 Johnson reports on a variety of emergent phenomena, from ant colonies to urban planning to computer games.
 Recommended:
 Chapter 1: The Myth of the Ant Queen
-20
+
  Chapter 14: Games as Emergent Systems
-20
+
  Chapter 14: Games as Emergent Systems
 
 
@@ -7614,44 +7444,42 @@ highly accessible book about decentralized systems.The volume includes both a ge
 subject as well as detailed accounts of Resnick's own work in the field with StarLogo.
 Recommended:
 Chapter 1: Foundations
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 Systems can reach a level of complexity where a "complexity barrier" is crossed. The systems that
 cross this barrier are complex systems and exhibit special behaviors.
-• 
+•
 Christopher Langton identifies four categories of systems that represent types of complexity:
 Fixed systems remain the same forever, the relationships between their elements never
 changing.
-♦ 
+♦
 Periodic systems are simple systems that repeat the same patterns endlessly.
-♦ 
+♦
 Complex systems lie between periodic and chaotic systems, exhibiting patterns of behavior
 more complex than the repetition of periodic systems.
-♦ 
+♦
 Chaotic systems behave in a completely random fashion.
-♦ 
-• 
+♦
+•
 Complex systems can be the result of many complex interrelated elements. However, sometimes a
 complex system can contain just a few elements that relate to each other in very intricate ways.
-• 
+•
 When a game lacks complexity, it also lacks meaningful play. When meaningful play is present in a
 game, some aspect of the game has achieved complexity. Complexity ensures that the space of
 possibility of a game is large enough to support meaningful play.
-• 
+•
 Systems that are emergent systems generate unpredictable patterns of complexity from a limited set
 of rules. In an emergent system, the whole is greater than the sum of the parts. For example, the
 limited set of the rules of grammar cannot account for all of the possible statements that might be
 made in a language.
-• 
+•
 In an emergent system, the interactions between objects in the system are coupled and
 context-dependent. Coupled interactions affect the overall space and pattern of a system as each
-• 
+•
  Chapter 14: Games as Emergent Systems
-21
- Chapter 14: Games as Emergent Systems
-21
 
+ Chapter 14: Games as Emergent Systems
 
 interaction links to others, which in turn link to others. Context-dependent interactions change from
 moment to moment depending on what is happening in other parts of the system, creating patterns
@@ -7661,30 +7489,30 @@ local rules of a system to spread up through the system, creating global pattern
 Game of Life is a bottom-up system that produces phenomena such as glider guns, which are not
 explicitly described in the rules of the system, but which are patterns produced by the bottom-up
 functioning of its simple rules.
-• 
+•
 Emergence in games results from the formal system of the game put to use by players. Bluffing in
 Poker, for example, is not explicitly stated in the rules of the game, but it is a pattern of player
 behavior that emerges from the game.
-• 
+•
 The way that emergence arises in a game cannot always be intuited from the rules. Go has much
 simpler rules than Chess, but due to emergence, it is a game with a higher number of mathematical
 permutations.
-• 
+•
 If a game is emergent, it has a space of possibility large enough to reward players for exploring all of
 the possible ways to play the game. For example, in games with different kinds of units or objects,
 players can create engines by using units in unexpected combinations. Designing a game that can
 support these kinds of engines generates rich emergence and increases the game's space of possibility.
-• 
+•
 Game design is a second-order design problem. A game designer designs the rules of the game
 directly but designs the player's experience only indirectly. A system-based understanding of how
 games function can greatly improve a game designer's ability to anticipate how changes in a game's
 rule-structure will ramify into a play experience.
-• 
- < Day Day Up > 
- < Day Day Up > 
-22
+•
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 14: Games as Emergent Systems
-22
+
  Chapter 14: Games as Emergent Systems
 
 
@@ -7702,8 +7530,8 @@ table, or at other points, so that the ball would necessarily fall into one of t
 favor skill, there would be a mechanical trigger and the ball would be shot up the slope by a spring that the
 player would pull with more or less force. This game of mechanical billiards is no less random than
 traditional dice.—Ivar Ekeland, The Broken Dice
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Introducing Uncertainty
 Imagine how incomplete you would feel if, before the game, you were already declared the
 winner. Imagine how purposeless the game would feel.—Bernard DeKoven, The Well-Played
@@ -7714,8 +7542,6 @@ in giving a game a feeling of purpose. Uncertainty, in other words, is a key com
 In this chapter, we explore games as Systems of Uncertainty. Games express uncertainty on two levels: on a
 macro-level relating to the overall outcome of a game, and on a micro-level relating to specific operations of
  Chapter 15: Games as Systems of Uncertainty
-1
-
 
 chance within the designed system. Although all games possess uncertainty on a macro-level, not all games
 formally possess elements of uncertainty on a micro-level. As we will see, a player's experience of uncertainty
@@ -7744,8 +7570,8 @@ uncertainty within a game. The specific mechanisms of uncertainty that incorpora
 whether through the spin of a Roulette wheel or the generation of a random number in a game program, are
 just as important as the larger feeling of uncertainty linked to a game's outcome. From the interaction between
 these two levels, the meaningful play of uncertainty arises.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Certainty, Uncertainty, and Risk
 The essence of the phenomenon of gambling is decision making. The act of making a decision
 consists of selecting one course of action, or strategy, from among the set of admissible
@@ -7759,9 +7585,9 @@ emphasis on decision making and the relationship between action and outcome, Eps
 own core ideas.
 In his book, Epstein identifies three types of decision-outcome relationships, leading to three degrees of
 uncertainty: uncertainty, risk, and certainty. Each category corresponds to a different kind of
-2
+
  Chapter 15: Games as Systems of Uncertainty
-2
+
  Chapter 15: Games as Systems of Uncertainty
 
 
@@ -7794,8 +7620,8 @@ Even though you know something about the general chances of winning against your
 don't have absolute mathematical certainty about your chances of winning. And although you know the exact
 risk each time you make a bet on the Roulette wheel, your overall loss or winnings over an evening of play is
 much more uncertain.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Feeling of Randomness
 Roulette and Chess point to a very important aspect of uncertainty. Often, the degree of chance in a game has
 less to do with the actual mathematics of the game system and more to do with how the player's experience of
@@ -7806,12 +7632,10 @@ of chance. Below are two examples:
 Chinese Checkers. When four, five, or six players play this game, it can feel quite random.
 As the game unfolds and players move their pieces, the center of the board becomes crowded
 with a seemingly random arrangement of pieces. This is true even though every single move
-on the board is the result of a player making a strategic choice about where to play next. 
+on the board is the result of a player making a strategic choice about where to play next.
  Chapter 15: Games as Systems of Uncertainty
-3
- Chapter 15: Games as Systems of Uncertainty
-3
 
+ Chapter 15: Games as Systems of Uncertainty
 
 If you closed your eyes and opened them only when it is your turn to move,it might seem like
 the board is merely reshuffling itself, particularly in the middle period of the game, when the
@@ -7857,14 +7681,14 @@ cases, the goal is to give players meaningful choices within the larger game sys
 competitive game can be meaningful as long as the players have a fair opportunity to best their opponents. A
 completely random game can also be meaningful, if the players are making interesting choices as they explore
 the game's system, pushing their luck and taking risks.
- < Day Day Up > 
-4
+ < Day Day Up >
+
  Chapter 15: Games as Systems of Uncertainty
-4
+
  Chapter 15: Games as Systems of Uncertainty
 
 
- < Day Day Up > 
+ < Day Day Up >
 Probability in Games
 The focus of this chapter so far has been on the macro-level of uncertainty inherent in all games. Now we turn
 to a more specific examination of the micro-operations of chance. The study of mathematical uncertainty is
@@ -7892,8 +7716,8 @@ overview of the field. However, for the purposes of this volume, we will keep th
 straightforward.
 [1]Richard Epstein, The Theory of Gambling and Statistical Logic (San Diego: Academic Press, 1995), p. 43.
 [2]Elliott Avedon and Brian Sutton-Smith, The Study of Games (New York: John Wiley & Sons, 1971), p. 383.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Dice Probability
 Another book that explores probability in games in a completely different manner is Dice Games Properly
 Explained, by game designer Reiner Knizia. In addition to providing an extensive library of dice games, the
@@ -7902,10 +7726,8 @@ understanding probability. Depending on your experience with and love for mathem
 sections might seem ridiculously facile or excruciatingly dry. But it is important in this schema to establish a
 few basic concepts for understanding what probability in games is all about.
  Chapter 15: Games as Systems of Uncertainty
-5
- Chapter 15: Games as Systems of Uncertainty
-5
 
+ Chapter 15: Games as Systems of Uncertainty
 
 As the first example of probability, consider a single, standard die which has six sides, each side displaying a
 number from one to six. Knizia calls the numbers one to six the basic outcomes of throwing a die. Each time
@@ -7913,11 +7735,11 @@ you throw a die, each basic outcome has a 1/6 or 16.67 percent chance of appeari
 chances of basic outcomes, they total to 1 or 100 percent.
 Knizia lists three qualities of any basic outcome on a die:
 All basic outcomes are equally likely.
-• 
+•
 The process always produces one of the basic outcomes.
-• 
+•
 The probabilities of all basic outcomes add up to 1.[3]
-• 
+•
 A combined outcome is a result that puts together more than one basic outcome.To determine a combined
 outcome, add the basic outcomes. For example, rolling an even number on a single die means rolling a 2, 4, or
 6. These three basic outcomes add up to 3/6, so the combined outcome of rolling an even number is 50
@@ -7949,17 +7771,8 @@ distribution of probabilities for rolling the highest and lowest numbers, as opp
 middle of the range.
 Table 2
 Total
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
+
+
 Outcomes 1-1 1-2 1-3 1-4
 1-5
 1-6
@@ -7972,9 +7785,9 @@ Outcomes 1-1 1-2 1-3 1-4
 3-5
 4-5
 5-5 6-5
-6
+
  Chapter 15: Games as Systems of Uncertainty
-6
+
  Chapter 15: Games as Systems of Uncertainty
 
 
@@ -7994,16 +7807,8 @@ Outcomes 1-1 1-2 1-3 1-4
 6-2
 6-1
 Favorable 1
-2
-3
-4
-5
-6
-5
-4
-3
-2
-1
+
+
 Probability 1/36 2/36 3/36 4/36
 5/36
 6/36
@@ -8034,8 +7839,8 @@ to land on each other's properties. If you are creating a game with a similar st
 use of dice to achieve a pacing of events appropriate for your game.
 [3]Reiner Knizia, Dice Games Properly Explained (Tadworth, Surrey: Right Way Books, 1992), p. 62.
 [4]Ibid. p. 63.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Chance and Game Play
 There is a curious relationship between chance and game play. One way of framing chance, especially a game
 of pure chance, is that players completely give up control and have to passively accept the results of the game
@@ -8050,10 +7855,8 @@ a player has an active and engaged relationship to the game and is making choice
 A player that does nothing but "await, in hope and trembling, the cast of the die" cannot be engaged in
 meaningful play.
  Chapter 15: Games as Systems of Uncertainty
-7
- Chapter 15: Games as Systems of Uncertainty
-7
 
+ Chapter 15: Games as Systems of Uncertainty
 
 Let us look again at a game with which we are all too familiar, Chutes and Ladders. Formally, it is a game of
 pure chance. On your turn, you roll the die, move your token appropriately, and then pass the die to the next
@@ -8063,14 +7866,14 @@ provide, there are any number of ways that Chutes and Ladders provides pleasure 
 its game play:
 The mechanistic pleasure of inhabiting a game system and helping that system move forward by
 rolling dice, counting spaces, and moving your token.
-• 
+•
 The uncertainty of knowing who will win and the struggle to finish first.
-• 
+•
 The chutes and ladders themselves, which reinforce both of the previous pleasures. On the one hand,
 with the erratic swoops of movement they produce, the chutes and ladders make the mechanistic
 system itself richer and more fun to inhabit. They also allow for unexpected reversals of fortune,
 increasing the dramatic potential of who will finish first.
-• 
+•
 Although it is true that almost any game will possess the first two qualities, it is always challenging to harness
 these two pleasures in the service of meaningful play. In Chutes and Ladders, it is the chutes and ladders
 themselves that serve as the central feature in the formal game structure to provide interest. Imagine the game
@@ -8104,14 +7907,14 @@ pure chance, the players' relation to the game system needs to be carefully desi
 they come into contact with the system, the possibilities for meaningful play should be teased out and
 emphasized.
 [5]Roger Caillois, Man, Play, and Games (London: Thames and Hudson, 1962), p. 17.
-8
+
  Chapter 15: Games as Systems of Uncertainty
-8
+
  Chapter 15: Games as Systems of Uncertainty
 
 
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Case Study One: Thunderstorm
 Although Dice Games Properly Explained has an entire chapter on dice probability theory, most of the book
 offers descriptions and analyses of more than one hundred dice games.The games range from simple
@@ -8128,13 +7931,13 @@ Play. One player begins, then play progresses clockwise. The first player throws
 may have fewer dice available, even only one.
 If your throw contains at least one 1, you are fine. Set aside all 1s and pass the remaining dice to the
 next player. If you roll nothing but 1s, recover all six dice and pass them to the next player.
-• 
+•
 If your throw does not contain any 1s, you fail and pass the dice to the next player. In the course of
 the game, a six-line house is drawn for each player. Each time you fail, a line is added to your
 house.When your house is complete and you fail again, your house is struck by lightning and you are
 out of the game.
 The game continues until only one player remains. This player wins. [6]
-• 
+•
 Thunderstorm, like Chutes and Ladders, is a game of pure chance. The player makes no strategic or tactical
 decisions. However, it is an engaging game because the design choreographs meaningful choice and outcome
 on many levels. There is a wonderful translation of information from the die rolls to the drawing of the house.
@@ -8149,10 +7952,8 @@ mounts and the game accelerates as the chance for rolling a 1 decreases. A singl
 quite some time without anyone rolling a 1. Then suddenly someone rolls a 1, avoids drawing a line on his or
 her house, and the next player begins the pattern again by rolling all six dice.
  Chapter 15: Games as Systems of Uncertainty
-9
- Chapter 15: Games as Systems of Uncertainty
-9
 
+ Chapter 15: Games as Systems of Uncertainty
 
 As a player, you feel two ways about this progression. It is great to see the other players rolling a single die,
 not rolling 1s, and adding a line to their houses. On the other hand, as the die approaches you around the circle
@@ -8160,23 +7961,23 @@ of players, you would love for another player to roll a 1 because it means that 
 making it likely that you will have more dice to roll on your turn. This formal structure of uncertainty results
 in a game with a compelling dramatic rhythm, which takes place in a number of overlapping cycles:
 Every turn a player throws the dice, establishing a regular pace to the game.
-• 
+•
 On top of this rhythm, the reduction of the number of dice from six to one and then back to six again
 sets up a cycle that lasts for many turns and repeats itself a number of times within a single game.
-• 
+•
 Each player also sets up a linear progression of house-building. Although the elements of this
 construction occur in the same sequence for all players, it happens at a different pace for each player.
-• 
+•
 The fourth cycle happens near the end, as players begin to drop out of the game and the circle closes
 until there is only one house left standing, the house belonging to the winner.
-• 
+•
 The overall result is an exciting game with a sense of dramatic inevitability—the destruction of all of the
 houses but one becomes a dreadful certainty. What is striking about Thunderstorm (no pun intended) is that all
 of this complexity arises out of a simple game of pure chance—and no betting. Thunderstorm is an example
 of a game that provides players with a rich chance-based system that generates surprisingly meaningful play.
 [6]Knizia, Dice Games Properly Explained, p. 26–27.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Case Study Two: Pig
 The game of Pig differs from Thunderstorm in that it offers choice within the context of a game of chance.
 Like Thunderstorm, Pig demonstrates how meaningful play can be designed into a system with a great deal of
@@ -8188,21 +7989,21 @@ three to five. You need one die and a notepad.
 Object. The aim of the game is to avoid rolling 1s and to be the first player who reaches 100 points or more.
 Play. One player begins, then play progresses clockwise. On your turn, throw the die:
 If you roll a 1, you lose your turn and do not score.
-• 
+•
 If you roll any other number, you receive the corresponding points.
-• 
+•
 As long as you receive points you can throw again, and again. Announce your accumulated points so that
 everybody can easily follow your turn. You may throw as often as you wish. Your turn ends in one of two
 ways: Record all scores on the notepad and keep running totals for each player. The first player to reach 100
 points or more is the winner.[7]
 If you decide to finish your turn before you roll a 1, score your accumulated points on the notepad.
 These points are now safe for the rest of the game.
-• 
+•
 If you roll a 1, you lose your turn and your accumulated points.
-• 
-10
+•
+
  Chapter 15: Games as Systems of Uncertainty
-10
+
  Chapter 15: Games as Systems of Uncertainty
 
 
@@ -8218,7 +8019,7 @@ chances are the same for every roll considered in isolation, the more that you d
 is that you will eventually roll a 1. If you decide in advance that you are going to roll twice, the chances of
 rolling a 1 on your turn is the combined outcome of a 2-die roll. In the 36 possible 2-die rolls, there are 11
 ways you can roll a 1 (1~1, 1~2, 1~3, 1~4, 1~5, 1~6, 2~1, 3~1, 4~1, 5~1, 6~1). This adds up to 11/36 or 30.56
-percent chance to roll a 1 in two rolls. 
+percent chance to roll a 1 in two rolls.
 Each time you roll again, your overall chance of rolling a 1 increases, and as soon as you roll a 1, your entire
 accumulated points for that turn are erased.The drama of the decision to roll or not to roll is that each time you
 roll the die, you increase your chances of getting more points, as well as increasing your chances to fail. But
@@ -8228,30 +8029,12 @@ you are likely to earn with a certain number of rolls, using 4 as the average nu
 possible earnings are 2, 3, 4, 5 or 6). See Table 3.
 Table 3
 Number of throws
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
+
+
 Probability of Survival 83% 69% 58% 48% 40% 33% 28% 23% 19% 16% 13%
 Average Total Points
-4
-8
-12
-16
-20
-24
-28
-32
-36
-40
-44
+
+
 Knizia suggests that the best Pig strategy is to stop rolling once you have 20 points or more. However, he also
 acknowledges that a good player takes into account the progress of the other players as well. There are two
 sides to the formal strategy of playing Pig. On the one hand, there is the aspect of a single player playing
@@ -8266,13 +8049,11 @@ simple, strategically deep, and increasingly dramatic. Pig is a great example of
 harnessed through simple choices and transformed into meaningful play. Can you say that the decisions in
 your game are as meaningful the decision to roll in Pig?
 [7]Ibid. p. 128–29.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 15: Games as Systems of Uncertainty
-11
- Chapter 15: Games as Systems of Uncertainty
-11
 
+ Chapter 15: Games as Systems of Uncertainty
 
 Breakdowns in Uncertainty
 Luck is very much fate's last hope. It is the play of the last chance. It is the play of everyman.. . . In this sense
@@ -8291,16 +8072,16 @@ numbers. Digital games make extensive use of random algorithms, whether to deter
 first, to generate the background texture of a game level, or to randomize the behavior of an in-game agent.
 Ironically, computers cannot produce random numbers. They can execute algorithms that result in
 random-seeming results, but they are not capable of producing pure randomness. Why is this so? John Casti
-offers an explanation: 
+offers an explanation:
 Back in the early days of computers, one of the more popular methods of generating a
 sequence of random numbers was to employ the following scheme:
 Choose a starting number between 0 and 1.
-1. 
+1.
 Multiply the starting number by 4 ("stretch" it).
-2. 
+2.
 Subtract 4 times the square of the starting number from the quantity obtained in step 2 ("fold" the
 interval back on itself in order to keep the final result in the same range).
-3. 
+3.
 Given a starting number between 0 and 1, we can use the proce-dure—often termed the
 logistic rule—to generate a sequence of numbers that to all appearance is completely random.
 For example, in such a sequence each of the ten digits 0 through 9 appears with equal
@@ -8322,9 +8103,9 @@ Usually, an intimate understanding of how computers compute random numbers is no
 designer needs to know. But you should never forget that random functions are not infallible. Eric was once
 working on a game prototype about swarming microbe-like creatures in a fluid environment (the game was
 never published). The microbes would grow, give birth, and die, flocking together to seek out food in their
-12
+
  Chapter 15: Games as Systems of Uncertainty
-12
+
  Chapter 15: Games as Systems of Uncertainty
 
 
@@ -8373,10 +8154,8 @@ Skipping Regular Counts: The counter simply skips himself or herself when going 
 circle, if the counter is about to be selected. Although this was the most popular technique
 employed, it was also the most obvious, and the one most frowned upon.
  Chapter 15: Games as Systems of Uncertainty
-13
- Chapter 15: Games as Systems of Uncertainty
-13
 
+ Chapter 15: Games as Systems of Uncertainty
 
 Stopping or Continuing: Because most rhymes do not specify whether the selected player is
 "It" or whether the selected player is "counted out" and is safe from becoming "It," the
@@ -8386,7 +8165,7 @@ switching to a new spot in the circle in order to be selected as the next player
 Respite by Calling Out: In this blatant strategy of avoidance, a player will simply call "safe"
 or "free" and be exempt from counting in the current round. The groups that allowed this
 technique did place restrictions on it, such as having only one player be able to call "safe" per
-counting round. 
+counting round.
 The paradox of Counting Out is that even though players describe it as a game of chance, it is a game with a
 rich strategic component, in which experienced players can achieve the results they desire. The point of this
 example, as with the operation of chance in software, is to demonstrate that sometimes the differences
@@ -8409,42 +8188,42 @@ in The Theory of Gambling and Statistical Logic. [10]
 Overvaluing the long shot. Game players have a tendency to overvalue "long-shot" bets that have a
 low probability of achieving a high gain,in contrast to "safe" bets that have a higher probability of
 achieving a low gain.
-• 
+•
 The tendency to think of successive chance events as additive. For example, the chance of rolling a 1
 on one die is 1/6 or 16.67 per-cent.The chance of rolling a 1 with two dice is not 2/6 or 33.33 percent,
 as you might think at first glance. As we know from probability theory, the chances are 11/36 or
 30.56 percent. This difference might seem small in this example, but with successive iterations, the
 differences between the actual probability and the presumed one can be quite large.
-• 
+•
 The Monte Carlo Syndrome. This refers to the tendency to think that after a run of failures, a success
 is likely, and vice versa. In other words, if the Roulette wheel has just landed on a black number, it is
 not more likely that the next number will be red.
-• 
+•
 Overemphasis on good outcomes. Given a very unlikely negative outcome and a very unlikely
 positive outcome, people tend to overemphasize the good one. Epstein uses the example of winning
 the lottery and being killed in a car accident in the next year. Both have about the same chance of
 occurring (1 in 10,000), even though most believe that the lottery win is more likely.
-• 
+•
 Lightning striking twice. Related to the previous fallacy, people tend to believe that highly unlikely
 negative events will not repeat themselves (such as getting struck twice by lighting), but that highly
 unlikely positive events will happen again (such as winning the top jackpot on a slot machine). In
 fact, the chance of a random event occurring is not related to the frequency of past occurrences.
-• 
-14
+•
+
  Chapter 15: Games as Systems of Uncertainty
-14
+
  Chapter 15: Games as Systems of Uncertainty
 
 
 Luck. From a purely mathematical point of view, there is no such thing as luck. People aren't lucky,
 dice aren't lucky, charms aren't lucky, calendar dates aren't lucky. However, widespread belief in luck
 persists, even among experienced game players.
-• 
+•
 Each of these fallacies has important implications for game design. For example, think about the long shot
 fallacy. If your game allows players a choice between a long shot and safe bet, you should expect most
 players to take the long shot and balance your formal system accordingly. Overemphasis on good outcomes
 and the lightning striking twice fallacies can help keep players optimistic in a game with a large chance
-element. Even if a player has seen a lot of bad luck, these fallacies keep hope for a turnaround alive. 
+element. Even if a player has seen a lot of bad luck, these fallacies keep hope for a turnaround alive.
 The larger lesson is that when you design a game with a random element, it is important to understand not just
 the probabilistic mechanisms of chance, but also the way that players will interpret or misinterpret these
 mechanisms. All three "breakdowns" of chance highlight common pitfalls to avoid in game design. On the
@@ -8454,16 +8233,16 @@ It may be true that a computer cannot generate true randomness. Why not make a d
 which the operation of randomness is intentionally out of balance? Perhaps what seems to be a
 randomly generated string of numbers is really a secret code that needs to be deciphered. Or in certain
 locations of the game-world, the player can shift the operation of chance to his or her advantage.
-• 
+•
 It may be true that chance operations become strategic elements in the hands of competitive players.
 You might design a game in which players can legally construct or modify the "random" component
 of a game, such as spending game money to affect the outcome of a die roll or giving players the
 ability to strategically stack a deck of cards.
-• 
+•
 It may be true that players suffer from probability fallacies. Design a game around one of them. Build
 a game around luck, in which players pick lucky and unlucky numbers for themselves, rolling dice
 and trying to avoid unlucky numbers and score the lucky ones.
-• 
+•
 Any "rule" of game design that you might think of can be broken, and as we will discover in Breaking the
 Rules, broken design rules can often lead to innovative game design ideas.
 [8]John L. Casti, Complexification: Explaining a Paradoxical World Through the Science of Surprise (New
@@ -8471,8 +8250,8 @@ York: HarperCollins, 1994), p. 93.
 [9]Kenneth Goldstein, "Strategies in Counting Out" In The Study of Games, edited by Elliott Avedon and
 Brian Sutton-Smith (New York: John Wiley & Sons, 1971), p. 172–177.
 [10]Epstein, The Theory of Gambling and Statistical Logic, p. 393–394.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Meaningful Chance
 But [chance in a game] is never sure. That's what makes the game interesting. Not only is
 there a possibility that, despite the odds against us, the chance we take will pay off. There is
@@ -8482,10 +8261,8 @@ kings might win the game for me. That's what confidence games are all about. The
 the opportunity and reward for your display of self as well as for your ability to play well with
 chance—they call for control over yourself as well as control over the game.—Bernard
  Chapter 15: Games as Systems of Uncertainty
-15
- Chapter 15: Games as Systems of Uncertainty
-15
 
+ Chapter 15: Games as Systems of Uncertainty
 
 DeKoven, The Well-Played Game
 In thinking about games as systems of uncertainty, we have looked at the micro-level of chance operation as
@@ -8498,8 +8275,8 @@ rewarding and punishing, and asking for leaps of faith. In thinking about games 
 ultimately divorce the formal system of a game from the ways that players manipulate and inhabit the system.
 This is as true for the operation of chance as it was for the emergence of complexity. Uncertainty is in the eye
 of the beholder, or perhaps, in the play of the player.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 The Broken Dice and Other Mathematical Games of Chance, by Ivar Ekeland
 Part philosophy, part mathematics, and part folklore, The Broken Dice is an idiosyncratic book that explores
@@ -8521,65 +8298,62 @@ Ivars Peterson writes popular books about mathematics, and in this playful work 
 dilemmas of randomness and probability. He makes common references to games throughout, and the chapter
 recommended below includes a spectacular analysis of the layout of the Chutes and Ladders gameboard.
 Recommended:
-16
+
  Chapter 15: Games as Systems of Uncertainty
-16
+
  Chapter 15: Games as Systems of Uncertainty
 
 
 Chapter 1: The Die is Cast
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 Uncertainty is a key component of every game. If a game is completely predetermined, the player's
 actions will not have an impact on the outcome of the game and meaningful play will be impossible.
-• 
+•
 There are two levels at which uncertainty operates in a game. On the micro-level are the actual
 operations of chance that occur at isolated moments in the system of a game. On the macro-level are
 larger questions of uncertainty, which relate to the ultimate outcome of the game.
-• 
+•
 The relationship between a game decision and a game outcome can have three degrees of uncertainty.
 A certain outcome is completely predetermined. A risk is an outcome with a known probability of
 happening. An uncertain outcome is completely unknown to the player. It is rare to find a game of
 pure certainty, risk, or uncertainty. Most games combine some degree of risk and uncertainty.
-• 
+•
 It is possible for a game to possess a "feeling of randomness" even if no actual random mechanisms
 are present in the game system.This feeling can stem from strategic or social complexities that cannot
 be predicted in advance.
-• 
+•
 A game that has very little feeling of randomness can become too dry or competitive. A game that has
 too much of a feeling of randomness can become overly chaotic, leaving the players feeling
 powerless. There is no magic formula for how much randomness should be present in a game. In all
 cases, the key is to create meaningful play that takes unique advantage of the game structure.
-• 
+•
 When designing a game with chance elements, it is vitally important to understand the basic
 mathematics of probability and how they will impact the system you are designing.
-• 
+•
 Even games of pure chance can provide meaningful game play as long as players are given
 meaningful opportunities to take action within the game system.
-• 
+•
 There are many surprising ways that the operation of uncertainty can "break down" in the system of a
 game:
 Because computer programs cannot generate true randomness, game designers should be
 skeptical about the random number-generating algorithms in a game.
-♦ 
+♦
 Players can sometimes take a random component of a game and turn it into a strategic
 activity.
-♦ 
+♦
 There are many commonly held fallacies about chance.
-♦ 
-• 
- < Day Day Up > 
- < Day Day Up > 
+♦
+•
+ < Day Day Up >
+ < Day Day Up >
  Chapter 15: Games as Systems of Uncertainty
-17
- Chapter 15: Games as Systems of Uncertainty
-17
 
-
-18
  Chapter 15: Games as Systems of Uncertainty
-18
+
+ Chapter 15: Games as Systems of Uncertainty
+
  Chapter 15: Games as Systems of Uncertainty
 
 
@@ -8608,12 +8382,10 @@ information? How do redundancy and uncertainty affect meaningful play from a for
 the qualities of a game as a communication system? Each of these inquiries raises yet more questions about
 the nature of information in games, questions that we will explore over the course of this schema and the next
 one.
- < Day Day Up > 
+ < Day Day Up >
  Chapter 16: Games as Information Theory Systems
-1
 
-
- < Day Day Up > 
+ < Day Day Up >
 Information Theory
 The field of information theory arose after WWII in tangent with the emerging telecommunications industry.
 Originally intended as the study of signal transmission, information theory is an interdisciplinary set of
@@ -8638,7 +8410,7 @@ messages, one of which is heavily loaded with meaning and the other of which is 
 nonsense, can be exactly equivalent, from the present viewpoint, as regards information.[2]
 Unlike a knowledge-based understanding of the word, in information theory, "information" is divorced from
 meaning. But what does this mean exactly? Let's look at another description of "information" that comes from
-communications theorist Stephen W. Littlejohn: 
+communications theorist Stephen W. Littlejohn:
 Information is the measure of uncertainty in a situation. When a situation is completely
 predictable, no information is present…. As used by the information theorist, the concept of
 information does not refer to a message, facts, or meaning. It is a concept bound only to the
@@ -8655,9 +8427,9 @@ Information measures uncertainty. Furthermore (and this is a tricky point to gra
 information theory, information does not measure the amount of "stuff"in a message. It does
 not measure the knowledge contained in a mes-sage—it measures uncertainty instead. As
 Littlejohn notes, "When a situation is completely predictable, no information is present."
-2
+
  Chapter 16: Games as Information Theory Systems
-2
+
  Chapter 16: Games as Information Theory Systems
 
 
@@ -8710,10 +8482,8 @@ a measure of freedom in decision making. Games are contexts which provide player
 meaningful decisions. In a sense, the information in a communication system is analogous to the space of
 possibility in a game. The sender of an information-rich message is choosing from many potentially
  Chapter 16: Games as Information Theory Systems
-3
- Chapter 16: Games as Information Theory Systems
-3
 
+ Chapter 16: Games as Information Theory Systems
 
 meaningful options. The player in a game with a large space of possibility is selecting an action from among
 many possible meaningful options as well.
@@ -8726,8 +8496,8 @@ of Illinois Press, 1963), p. 8–9.
 [5]Weaver and Shannon, Mathematical Theory of Communication,p. 25.
 [6]Ibid. p. 8–9.
 [7]Ibid. p. 8–9.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Probability and Guesswork
 Another important connection between games and information theory is that information is a measure of
 uncertainty. We know that meaningful play in games requires some degree of uncertainty on the macro-level.
@@ -8741,7 +8511,7 @@ We can also make a connection on the micro-level of uncertainty. Uncertainty, in
 all share a set of formal relationships. Think about a die roll as an information theory signal. If one die is
 rolled, there is less information (and uncertainty of the outcome) than if two are rolled, where the set of
 possible outcomes is greater.Two die rolls—more possibilities and more uncertainty—equals more
-information. Because guessing games rely on uncertainty, they make good information theory case studies. 
+information. Because guessing games rely on uncertainty, they make good information theory case studies.
 Take a game such as Mastermind. Each turn, one player attempts to guess the correct answer. By receiving
 coded feedback in the form of black and white pegs, her opponent tells her how correct or incorrect her guess
 was. The goal of the game is to arrive at the correct answer within a limited number of turns. Understood as
@@ -8754,9 +8524,9 @@ certain. Imagine for a moment a variation on Mastermind, in which the guesser's 
 solution pegs each time. In this game, a non-winning guess would not reduce the amount of uncertainty,
 because the system is "reset" every turn. Like a gambler betting on a single Roulette number over and over
 again, the amount of uncertainty would remain fixed and would not be reduced by successive guesses.
-4
+
  Chapter 16: Games as Information Theory Systems
-4
+
  Chapter 16: Games as Information Theory Systems
 
 
@@ -8783,8 +8553,8 @@ informational connections. Each guess is a deductive gesture that narrows the fo
 until the uncertainty of culture resolves itself into a single coherent answer that, finally, marks the end of the
 game.
 [8]Ludwig von Bertalanffy, General Systems Theory Foundations (New York:George Braziller, 1968), p. 42.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Noise in the Channel
 Up to this point, we have discussed information itself as a concept. But how are informational signals sent and
 received? How does information get from one context to another? One of information theory's most enduring
@@ -8797,10 +8567,8 @@ mind. If we look at the circumstance of a driver regarding a stoplight, the sign
 mechanism of the stoplight is the source, which activates a light bulb, a signal that travels as light to the
 driver's eye, where is it is interpreted by the mind.
  Chapter 16: Games as Information Theory Systems
-5
- Chapter 16: Games as Information Theory Systems
-5
 
+ Chapter 16: Games as Information Theory Systems
 
 As information theory systems, games are rife with instances of signal transmission and reception. Players
 communicate with each other through speech, written words, and gesture. They also communicate with the
@@ -8836,16 +8604,16 @@ activity and the pleasure for the participants comes from the noise in the syste
 receives noise as it passes from person to person, transforming the message a little bit each time. By the time
 the message reaches the last person, the noise has impacted the identity of the original signal. In most cases,
 the signal that emerges from the long chain of whisperers undergoes a radical transformation—and that is
-exactly the fun of the game. 
+exactly the fun of the game.
 Similarly, Charades is based on the transmission of signals from one form to another. At the start of the game,
 players write the titles of books, movies, and television shows and put them into a hat. Then one player takes
 that written signal and transforms it into a set of improvised gestures, attempting to convey the information
 back to teammates, while narrowing the uncertainty of the answer through silent encouragement and
 discouragement as teammates guess. Ultimately, the title is transformed from written word into gesture and
 then back into spoken language, as the signal returns full circle.
-6
+
  Chapter 16: Games as Information Theory Systems
-6
+
  Chapter 16: Games as Information Theory Systems
 
 
@@ -8864,19 +8632,17 @@ players enjoy the difficulty of indirect communication, rather than just speakin
 and saving themselves the trouble of guessing, is a great example of how the lusory attitude manifests in the
 experience of play.
 [9]Shannon and Weaver, Mathematical Theory of Communication,p. 19.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Redundancy in the System
 Whereas noise negatively impacts the successful transmission of a signal, information theory also identifies its
 opposite, the counterbalance to noise known as redundancy. Redundancy refers to the fact that in information
  Chapter 16: Games as Information Theory Systems
-7
- Chapter 16: Games as Information Theory Systems
-7
 
+ Chapter 16: Games as Information Theory Systems
 
 systems, the message can be successfully transmitted even if some of the signal is lost, because redundant
-information patterns compensate for "holes" in the data of the signal. 
+information patterns compensate for "holes" in the data of the signal.
 In most communication systems, such as spoken language, much more information is transmitted in a single
 statement than is minimally required to convey the signal. As Weaver notes, "the redundancy of English is
 just about 50 per cent, so that about half of the letters or words we choose in writing or speaking are under our
@@ -8917,14 +8683,14 @@ them just flexible enough to allow for numerous combinations, but still rigid en
 answered clue leads to others, and yet others, until the crossword puzzle is solved.
 [10]Ibid. p. 13
 [11]Ibid. p. 14
- < Day Day Up > 
-8
+ < Day Day Up >
+
  Chapter 16: Games as Information Theory Systems
-8
+
  Chapter 16: Games as Information Theory Systems
 
 
- < Day Day Up > 
+ < Day Day Up >
 Balancing Act
 Information, signals, noise, redundancy: the relationships between games and information theory offer subtle
 but powerful ways of thinking about design. Successful signal processing requires balancing noise and
@@ -8950,8 +8716,8 @@ space of possibility but limited enough to properly structure their decisions. F
 too much and too little freedom, designing constraints that provide enough (but not too much) challenge for
 players, is an elemental problem of game design. Information theory is one useful way to make sense of these
 eternal design dilemmas.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 Grammatical Man, by Jeremy Campbell (see page 169)
 Recommended:
@@ -8961,10 +8727,8 @@ The Mathematical Theory of Communication, by Claude E. Shannon and Warren Weaver
 The Mathematical Theory of Communication is the foundational text of information theory. While much of
 Shannon's contribution is highly mathematical, Warren's introduction to the book details the basic tenants of
  Chapter 16: Games as Information Theory Systems
-9
- Chapter 16: Games as Information Theory Systems
-9
 
+ Chapter 16: Games as Information Theory Systems
 
 the field in non-technical language.
 Recommended:
@@ -8975,40 +8739,40 @@ at a somewhat shallow depth. That said, his explication of basic systems theory,
 cybernetics provide the most lucid articulations of these complex fields that we have encountered.
 Recommended:
 Chapter 3: System Theory
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 Information theory is a mathematical, structural way of looking at signals that disregards the
 knowledge-content or meaning of a message.
-• 
+•
 In information theory, information measures uncertainty. Information is a measure of all of the
 possible messages an act of communication might contain. The answer to a yes/no question contains
 less information (and less uncertainty) than an answer to a question about a favorite color, because
 there are fewer possible answers to the yes/no question.
-• 
+•
 Information Theory studies signal transmission from a source to a target. Part of this process is noise,
 in which distortion enters into the signal from an outside source. Noise increases the uncertainty and
 the therefore the amount of information in a message.
-• 
+•
 Although noise in the engineering of signal transmission is usually undesirable, in games noise can be
 a productive design element. According to the lusory attitude, players seek out inefficient activities in
 a game. Thus noise, which makes communication more difficult and uncertain, makes games such as
 Charades possible, in which difficulty in communication is the premise of the game.
-• 
+•
 Redundancy in a system acts to balance out noise by ensuring that not every component of a message
 is necessary. The English language as a form of communication contains about 50 percent
 redundancy.
-• 
+•
 In an information theory system of communication, greater freedom of choice, greater uncertainty,
 and greater information all increase together. The concept of choice in this sense relates directly to the
 space of possibility and meaningful play. As a complex system, a game design must strike a balance
 between too little and too much uncertainty, flexibility, and information.
-• 
- < Day Day Up > 
- < Day Day Up > 
-10
+•
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 16: Games as Information Theory Systems
-10
+
  Chapter 16: Games as Information Theory Systems
 
 
@@ -9041,8 +8805,6 @@ percentage chance of being dealt a particular hand. But by considering Poker wit
 Information, we can take a cue from game historian David Parlett and explore information as a commodity to
 be hidden or shared. How do players hide information in the cards they hold? How is information concealed,
  Chapter 17: Games as Systems of Information
-1
-
 
 revealed, disguised, and deduced?
 Although Poker is premised on the manipulation of information, we can consider any game along similar
@@ -9052,8 +8814,8 @@ stream of data flowing from successive die rolls, and the way that this informat
 transformed into player movement on the board. A console adventure game such as Jak and Daxter brokers
 information in many complex ways, from hidden sections of the world revealed as the player unlocks them to
 special powers and abilities that are unknown to the player when the game begins.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Perfect and Imperfect Information
 Such games have perfect information: Each player, when deciding his move, must have
 complete information about the current position of the board (I include in "position" qualities
@@ -9086,9 +8848,9 @@ the game and still possess either perfect or imperfect information. As Thompson 
 Backgammon are games of perfect information, even though Backgammon makes use of die rolls every turn.
 An imperfect information game such as Stratego does not use any kind of chance mechanism, whereas Poker
 does, in the form of a shuffled deck.
-2
+
  Chapter 17: Games as Systems of Information
-2
+
  Chapter 17: Games as Systems of Information
 
 
@@ -9098,14 +8860,14 @@ and scholar Celia Pearce presents a different typology for understanding the way
 information. She proposes four scenarios:
 Information known to all players: In Chess, this would consist of the rules of the game, board layout,
 and piece movement parameters.
-• 
+•
 Information known to only one player: In Gin, this would be the cards in your hand.
-• 
+•
 Information known to the game only: In Gin, this would be unused cards in deck. In Space Invaders,
 this would be the paths and frequency of alien space ships.
-• 
+•
 Randomly generated information: In Backgammon, this would be the roll of the dice.[2]
-• 
+•
 Pearce's categories offer another way of describing the informational component of a game. She differentiates
 between two kinds of hidden information, one in which each player possesses private information and another
 in which the game system itself hides information from all of the players. As she illustrates through her
@@ -9119,7 +8881,7 @@ of a game is particularly useful, since in all games, some or all of the game ru
 There may be hidden strategic relationships in a game that are gradually uncovered (like the strengths and
 weaknesses of particular unit combinations) but these are not rules. Rules are the formal foundation of a game
 that allows players to manipulate information. Rules generally do not constitute the information being
-manipulated during play. 
+manipulated during play.
 There are other slightly ambiguous aspects of her model as well. For example, although a deck of cards in Gin
 might contain information "known to the game only," one could imagine a deck of cards that is reshuffled
 every turn, functioning in exactly the same way as a random die roll—Pearce's "randomly generated
@@ -9136,13 +8898,11 @@ them, but known to their opponent. As Battleship proceeds, the positions of the 
 become public knowledge.
 [1]<http://www.flash.net/~markthom/html/game_thoughts.html. >
 [2]Celia Pearce, The Interactive Book (New York: Macmillan Technical Pub-lishing,1997), p. 422–423.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 17: Games as Systems of Information
-3
- Chapter 17: Games as Systems of Information
-3
 
+ Chapter 17: Games as Systems of Information
 
 Enchanted Information
 Whether you prefer a model of perfect and imperfect informa-tion or Pearce's four categories, it is important
@@ -9175,17 +8935,17 @@ Information known to all players: There are many elements of Enchanted Forest no
 players. For example, the networks of paths on the boards, the locations of the players' pieces, the
 cards each player has collected, and the treasure that players are currently seeking represent
 information known to everyone.
-• 
+•
 Information known only to one player: The one kind of information that is known only to one player
 is the loca-tions of the treasures that players secretly uncover as they move about the forest. In most
 games that make use of private information, that information is kept in a hand of cards or an
 otherwise concealed collection of game components. In Enchanted Forest, however, the privately held
 information is something that each player keeps in memory, adding to the challenge of using the
 information.
-• 
-4
+•
+
  Chapter 17: Games as Systems of Information
-4
+
  Chapter 17: Games as Systems of Information
 
 
@@ -9194,7 +8954,7 @@ hidden from all of the players. However, as the game proceeds, the hidden inform
 treasure locations shifts subtly from this category to the others. As they move about the board, each
 player begins to piece together a larger picture of the information hidden under the trees. Sometimes,
 when a player correctly guesses the location of a treasure, the information is temporarily made public.
-• 
+•
 Randomly generated information: Enchanted Forest creates random information through a two-die
 roll. Players use each die separately when deciding where to move, so that rolling a 4 and a 5 can be
 used to move one space (moving five in one direction and then doubling back four spaces). These
@@ -9203,13 +8963,13 @@ game board. Moving onto a particular space can let a player look at a tree, ente
 another player back to the village. Rolling doubles also allows special actions. Even the raw,
 randomly generated information of the die roll is used in a number of ways in the game.
 Enchanted Forest
-• 
+•
 As a game of Enchanted Forest proceeds, players gradually discover the hidden information stored under the
 trees, allowing them to build their own personal system of information and accompanying strategies. How
 will you navigate the board? Do you want to seek out trees that no other player has looked at, so that you have
 an informational advantage? Or perhaps you want to shadow other players and make sure that no one else has
 an advantage over you. Maybe you should just look at the trees near the castle, so that you can more quickly
-move there if a treasure you have seen turns up on a card. 
+move there if a treasure you have seen turns up on a card.
 If each player were allowed to take notes and store the data they gather, then a gradual accumulation of the
 game's hidden information would be inevitable. However, because players are storing all of this information
 in their memories, it is easy to forget exactly where a treasure is, even after they have seen it. The fact that
@@ -9225,13 +8985,11 @@ moving. If another player is about to reach the castle and make a guess, you can
 new card. But that might only reveal a card that the player already knows. If you think you know the tree
 where the treasure is, you can teleport next to the castle. Or perhaps you just want to ignore the other player's
 movement toward the castle and use your doubles to look under a tree on the far side of the forest.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 17: Games as Systems of Information
-5
- Chapter 17: Games as Systems of Information
-5
 
+ Chapter 17: Games as Systems of Information
 
 Each turn, Enchanted
 Forest players must make tough decisions about what action to take. This is a good sign that meaningful play
@@ -9257,7 +9015,7 @@ system of the game. Furthermore, the systemic nature of information in a game an
 generate meaningful play has two facets: the actual make-up of the information structures in a system, and the
 apprehension of that information by players. We call a game's information structures objective information
 and the player's understanding of these structures perceived information. The interaction of these two aspects
-of game information determines the way that information operates within the system of a game. 
+of game information determines the way that information operates within the system of a game.
 In a trick-taking game such as Euchre, for example, if all of the trumps have already been played during a
 round, the once-private but now-public information regarding the location of the trumps becomes extremely
 important for making game decisions. The fact that any given card can be a trump or non-trump is a function
@@ -9279,9 +9037,9 @@ on perceived informa-tion: whether or not you know that the single Z has already
 The fact that the ratios of letters are printed on the Scrabble game board, next to the grid where letters are
 placed, points to the way that the structure of Scrabble's informational system is central to the play of the
 game.
-6
+
  Chapter 17: Games as Systems of Information
-6
+
  Chapter 17: Games as Systems of Information
 
 
@@ -9289,8 +9047,8 @@ When you create information in your game, its value for the players emerges from
 perceived status: its structural position within a larger informational economy and the player's knowledge
 about that economy. Shaping these aspects of your game's design is a key component in creating meaningful
 play.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Hiding and Revealing Systems
 We conclude our discussion of games as information systems by looking at some examples of digital games
 that successfully integrate information into the overall game design. These games take advantage of the ability
@@ -9302,7 +9060,7 @@ gradually revealed to players as perceived the map near a player's own units. In
 about your own local area of the playfield. Sending out scouts and spies to learn more about the
 terrain and the location of your enemies becomes an important part of the game. The strategic
 unveiling of hidden information adds suspense and tension to the game experience.
-• 
+•
 Secret Locations and Hidden Moves: Many digital games possess locations and features which are
 hidden to players at the beginning of a game and are slowly revealed through play. In Super Mario 64,
 not only does the player slowly gain enough coins to unlock new game worlds, but some of these
@@ -9311,7 +9069,7 @@ be considered a system of information revealed to players over the course of a g
 masterfully integrates the uncovering of this information into the geography of the overall game
 space. Such an approach creates a rhythm of discovery that keeps players engaged throughout the
 game.
-• 
+•
 Item Economies: Many digital games feature complex. economies of items. In LEGO Drome Racing
 Challenge, a multiplayer online game in which players customize their cars by purchasing parts, the
 game limits a player's ability to purchase car parts based on their License Class: as a player
@@ -9323,7 +9081,7 @@ structure gives players a better understanding of the relative value of the item
 while also allowing them to make meaningful decisions about what to buy. Rather than purchasing a
 currently accessible item, a player can choose to "save up" for a more expensive item that can only be
 purchased once he or she has advanced to another License class.
-• 
+•
 Rules as Information: The automated nature of game systems, combined with their ability to
 manipulate information, forms a powerful design tool: the ability to reveal not just static information,
 but dynamic behaviors and relationships as well. In the game FLUID,the player has little information
@@ -9333,12 +9091,10 @@ ecosystem; as the player plays with FLUID,interaction and observation reveals th
 principles of the system. In this case, the hidden information gradually revealed through play is the
 rules of the simulation itself. Part of the play of FLUID is the discovery of the game rules as
 information.
-• 
+•
  Chapter 17: Games as Systems of Information
-7
- Chapter 17: Games as Systems of Information
-7
 
+ Chapter 17: Games as Systems of Information
 
 Many digital games rely on vast sets of information rewards for player interaction. Huge worlds to explore,
 complex economies of items, and hidden fighting moves are the "stuff" with which digital game designers fill
@@ -9357,51 +9113,48 @@ opportunities for mastery of Go. On the other hand, a game that contains large a
 segments—can let players slowly come to know the game without feeling overwhelmed. Your challenge as a
 game designer is to identify the kind of experience you want to create and design a system that finds the
 proper balance of meaningful informational play.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 In this schema, the concept of information refers to knowledge or content that is manipulated,
 acquired, hidden, and revealed during play.
-• 
+•
 In a game of perfect information such as Chess or Backgammon, players publicly share all
 knowledge in the game. In a game of imperfect information such as Poker or Memory, some
 information is hidden from some or all players.
-• 
+•
 Games of perfect information tend to be analytically competitive, whereas games of imperfect
 information tend to have more uncertainty and inspire distrust among players.
-• 
+•
 Celia Pearce identifies four kinds of information in a game: Information known to all players,
 information known to only one player, information known to the game only, and randomly
 generated information.
-• 
+•
 Information in a system does not have an intrinsic value but instead gains its value from its
 relationships to other units of information in the system's information economy.
-• 
-8
+•
+
  Chapter 17: Games as Systems of Information
-8
+
  Chapter 17: Games as Systems of Information
 
 
 Information can contribute to meaningful play in two ways: objective information, the game
 system's internal informational structure; and perceived information, the information that a player
 observes and acquires through play.
-• 
+•
 Digital games are particularly adept at manipulating complex sets of information. Because they are
 more automated than non-digital games, digital games can make the discovery of hidden game rules
 and mechanisms themselves part of the game experience.
-• 
- < Day Day Up > 
- < Day Day Up > 
+•
+ < Day Day Up >
+ < Day Day Up >
  Chapter 17: Games as Systems of Information
-9
- Chapter 17: Games as Systems of Information
-9
 
-
-10
  Chapter 17: Games as Systems of Information
-10
+
+ Chapter 17: Games as Systems of Information
+
  Chapter 17: Games as Systems of Information
 
 
@@ -9425,11 +9178,9 @@ change within a game system? How does a game system adjust to change over time? 
 feedback within a game? How can positive and negative feedback loops be used in the design of meaningful
 play? Within this schema on Games as Cybernetic Systems, we bring cybernetics to bear on these important
 game design questions.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 18: Games as Cybernetic Systems
-1
-
 
 Elements of a Cybernetic System
 Cybernetics deals with the ways a system gauges its effect and makes necessary adjustments.
@@ -9453,7 +9204,7 @@ A common example of a cybernetic system is a thermostat. Imagine a hot summer da
 conditioner that is attached to a thermostat. The thermostat contains the system's sensor, a thermometer. The
 thermostat also contains a comparator it can use to compare the temperature of the room to a user-set
 temperature. If the thermostat measures the air temperature above the set amount, it activates the air
-conditioner, the activator of the system, which cools down the room. 
+conditioner, the activator of the system, which cools down the room.
 As the air begins to cool, the system continues to monitor the room temperature. When the room is
 sufficiently cooled so that the thermostat's sensor doesn't register the temperature as being above the set limit,
 the thermostat no longer sends a signal to activate the air conditioner, and so shuts off the cold air. However,
@@ -9469,9 +9220,9 @@ temperature. If this data causes the system to continue moving in the same direc
 continues to rise), then it is positive feedback. This means that the effect is cumulative. If, on the other hand,
 the new data produces a result in opposition to the previous result (the temperature is rising, it will now be
 lowered), the feedback is negative. The effects of negative feedback stabilize the system.
-2
+
  Chapter 18: Games as Cybernetic Systems
-2
+
  Chapter 18: Games as Cybernetic Systems
 
 
@@ -9516,10 +9267,8 @@ the temperature in that direction. If the temperature setting for the heater wer
 for the air conditioner, once the room temperature strayed from the middle range, it would never reach the
 center again. On the other hand, imagine that the heater's activation temperature was below the air
  Chapter 18: Games as Cybernetic Systems
-3
- Chapter 18: Games as Cybernetic Systems
-3
 
+ Chapter 18: Games as Cybernetic Systems
 
 conditioner's activation temperature. If the room started out in a middle temperature range somewhere
 between the two activation temperatures, when the two systems were turned on, both activators would begin
@@ -9528,18 +9277,18 @@ Negative feedback heating system
 Positive feedback heating system
 The important thing to notice in all of the heating and cooling examples is that cybernetic systems affect
 phenomena like temperature in very specific ways. When more than one cybernetic system is operating
-together, things get complex quite quickly. 
+together, things get complex quite quickly.
 Hot and cold negative feedback system
-4
+
  Chapter 18: Games as Cybernetic Systems
-4
+
  Chapter 18: Games as Cybernetic Systems
 
 
 Hot and cold positive feedback system
 [1]<pespmc1.vub.ac.be>.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Feedback Systems in Games
 How do feedback systems operate in games? As a cybernetic system, the rules of a game define the sensors,
 comparators, and activators of the game's feedback loops. Within a game, there are many sub-systems that
@@ -9562,10 +9311,8 @@ experience of the players. Of course, these player-based factors will definitely
 a masterful Virtua Fighter 4 player and your opponent is not, this will be evident in the play of the game.
 However, the game state itself refers only to the formal, internal condition of the game.
  Chapter 18: Games as Cybernetic Systems
-5
- Chapter 18: Games as Cybernetic Systems
-5
 
+ Chapter 18: Games as Cybernetic Systems
 
 The other elements of LeBlanc's model correspond directly to the components of a cybernetic system as we
 have discussed them. The scoring function is the system's sensor that measures some aspect of the game state.
@@ -9579,13 +9326,13 @@ determining which player goes first next round or the relative speed of players 
 study of systems that all parts of a game are interrelated in some way. A cybernetic system within a game that
 directly affects just one component of a game will indirectly affect the game as a whole.
 [2]Marc LeBlanc, presentation at Game Developer's Conference, 1999.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Positive and Negative Basketball
 To bring this abstract discussion closer to game design, let's look at several game examples. In his talk
 "Feedback Systems and the Dramatic Structure of Competition," LeBlanc invented two variations on the
 formal structure of Basketball: Positive Feedback Basketball and Negative Feedback Basketball. Each
-variation adds just a single rule on top of the existing formal structure of the game: 
+variation adds just a single rule on top of the existing formal structure of the game:
 Negative Feedback Basketball: For every N points of difference in the two teams' scores, the
 losing team may have an extra player in play.
 Positive Feedback Basketball: For every N points of difference in the two teams' scores, the
@@ -9607,9 +9354,9 @@ team. Eventually, the court would be absurdly crowded with members of one team, 
 overwhelm and defeat the team with only five players. Positive Feedback Basketball encourages a large
 difference between the two teams' scores, so that there is a runaway, devastating victory instead of a closely
 matched game.
-6
+
  Chapter 18: Games as Cybernetic Systems
-6
+
  Chapter 18: Games as Cybernetic Systems
 
 
@@ -9624,12 +9371,12 @@ toward stable, close matches and Positive Feedback Basketball tends toward unsta
 Each variation on the game of Basketball would result in vastly different player and spectator experiences.
 Yet all we did was add one rule that affected the behavior of the system. Feedback systems offer game
 designers a powerful tool to affect a game's formal structure and the way that structure manifests in play.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Racing Loops
 Positive Feedback Basketball and Negative Feedback Basketball were variations on the game of Basketball.
 But many existing games already make use of feedback systems in their designs. Here, we look at the use of
-cybernetic systems in two digital racing games. 
+cybernetic systems in two digital racing games.
 Wipeout is a science-fiction racing game originally released for the Playstation, in which the player pilots a
 fast-moving hover vehicle around a track, trying to beat the computer-controlled vehicles and come in first
 place. It is common in racing games such as Wipeout for the program to employ feedback mechanisms.
@@ -9649,10 +9396,8 @@ tail or dead ahead in your sights.
 Without a feedback loop, these moments are unlikely to occur. What if a player crashes early in a race—will
 she ever catch up to the computer-controlled vehicles? Or what if a player's skill far outmatches the
  Chapter 18: Games as Cybernetic Systems
-7
- Chapter 18: Games as Cybernetic Systems
-7
 
+ Chapter 18: Games as Cybernetic Systems
 
 pre-programmed computer opponents? Once she gains a lead early in the race, she might as well be racing
 alone, because the computer opponents will never catch up to her.
@@ -9662,10 +9407,10 @@ behavior of the computer-con-trolled vehicles in the game. Although these are no
 determining their speed, they do have a clear impact on the experience of the game:
 If the human player is in first place, the vehicle in second place will accelerate and catch up to the
 human player's vehicle.
-• 
+•
 If the human player is in last place, the last few vehicles will slow down to let the player catch up to
 them.
-• 
+•
 The result of these two rules is a negative feedback system. Like Negative Feedback Basketball, together
 these two rules operate to reduce the distance between vehicles in the game, eliminating the "extremes" of the
 player being very far ahead or very far behind the computer opponents.
@@ -9676,7 +9421,7 @@ place, vehicle behavior adjusts accordingly. The outcome of this feedback system
 tends to offer exciting and satisfying play. Significantly, Wipeout only affects the computer-opponent
 vehicles, not the hovercraft that the player is driving. In essence, the program carefully adjusts the competitive
 backdrop, rather than boosting or handicapping the player directly. However, there are games that apply a
-negative feedback system more directly to a player's abilities. 
+negative feedback system more directly to a player's abilities.
 One example of such a game is Super Monkey Ball for the Nintendo GameCube. Super Monkey Ball contains
 several different game modes; one of them is a racing game in which up to four players simultaneously race
 monkey characters through a series of tracks.When players drive through a power-up object on the track, they
@@ -9693,9 +9438,9 @@ receives the least useful kind of power-up: a player in first place can't use a 
 position, because no one is ahead of him. These rules add up to a negative feedback system. As with Wipeout,
 Super Monkey Ball's feedback loops encourage a close race, in which no player is too far ahead of or behind
 the others.
-8
+
  Chapter 18: Games as Cybernetic Systems
-8
+
  Chapter 18: Games as Cybernetic Systems
 
 
@@ -9709,8 +9454,8 @@ important role in racing games, and it is possible for a player in Super Monkey 
 there is very little chance of victory. There is no universal strategy for crafting meaningful play. But in
 Wipeout and Super Monkey Ball, feedback systems support meaningful play by making the game responsive
 to the ongoing state of the game.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Positive Feedback in a Game
 Not all games use negative feedback systems. Some make good use of positive feedback systems as well.
 Powerstone is a console fighting game for up to four players that features cartoony, fast-paced brawling
@@ -9736,10 +9481,8 @@ outcome, they are usually dampened by other game factors that limit the accelera
 real-time multiplayer strategy games such as Warcraft II, players gather resources, which allow them to build
 more units that can gather yet more resources, increasing the acceleration of resource-gathering. In this way,
  Chapter 18: Games as Cybernetic Systems
-9
- Chapter 18: Games as Cybernetic Systems
-9
 
+ Chapter 18: Games as Cybernetic Systems
 
 all of the players are building their own positive feedback loops, joined together in an arms race to see who
 will gather enough resources and be the first to front an army capable of winning the game.
@@ -9753,8 +9496,8 @@ there are many strategic factors other than the resource-feedback loops that det
 Warcraft II. (For example, skillful battle tactics can help defeat a more resource-powerful opponent.)
 However, positive feedback systems are clearly a key element of the game design and contribute to the
 successful play of the game.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Dynamic Difficulty Adjustment
 Increasingly, digital game designers are incorporating more sophisticated feedback techniques into their game
 designs.The game developer Naughty Dog Entertainment is known in the game industry for what it calls
@@ -9764,7 +9507,7 @@ Dynamic Difficult Adjustment, or DDA, uses feedback loops to adjust the difficul
 the original Crash Bandicoot game, the player is generally maneuvering the character Crash through a series
 of jumping and dodging obstacles, trying to overcome damaging hazards and reach objectives to finish the
 level. When a player dies, the game restarts at the beginning of the level or at the most recent "save point"
-reached in the level. 
+reached in the level.
 The danger in designing this kind of game is that players possess widely varying skill levels. An experienced
 gamer might breeze through a level, whereas a beginner might become frustrated after dying several times
 without making any progress.
@@ -9783,9 +9526,9 @@ DDA points to a different kind of game, a game that constantly anticipates the a
 player's behavior, and makes adjustments accordingly. Playing a game becomes less like learning an
 expressive language and more like being the sole audience member for a participatory, improvisational
 performance, where the performers adjust their actions according to how you interact with them. Are you then
-10
+
  Chapter 18: Games as Cybernetic Systems
-10
+
  Chapter 18: Games as Cybernetic Systems
 
 
@@ -9797,8 +9540,8 @@ player, or it could be considered an elegant way of invisibly shaping game play 
 optimal experience. Regardless of your opinion on the matter, DDA is an important tool, and as digital games
 rely more and more on their ability to automate complex processes, this kind of design strategy will become
 more common.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 A Simple Die Roll
 Because most of the examples used so far have come from complex digital games, we wanted to finish by
 looking at a cybernetic feedback system within a more minimal game context. Sometimes in games, there is
@@ -9816,7 +9559,7 @@ distance between players. In a game of Chutes and Ladders, the player that is fa
 within six spaces of the finish square and will usually end up spending a few more turns trying to make the
 exact roll, or possibly inch ahead by rolling small numbers. During this time, the other players often catch up.
 The overall effect is to level out the playing field by reducing the difference between the positions of the
-players. The result of stretching out the end of the game in this way is a closer and more dramatic finish. 
+players. The result of stretching out the end of the game in this way is a closer and more dramatic finish.
 Think about the game without this rule. If players can overshoot the final space and still win, imagine that you
 are playing against someone who is just three spaces away from the last square. Even if that player has very
 bad luck (rolling three 1s in a row), that player is no more than three turns from winning the game. If you are
@@ -9832,10 +9575,8 @@ would have a true feedback loop, in which a procedural change is enacted when ce
 Here the player is the sensor, the rule itself the comparator, and the activator is the action of subtracting one
 from the die roll.
  Chapter 18: Games as Cybernetic Systems
-11
- Chapter 18: Games as Cybernetic Systems
-11
 
+ Chapter 18: Games as Cybernetic Systems
 
 Coming back to our exact landing rule, if we frame the rule in the following fashion, we might consider it to
 have a feedback loop: "If a player is fewer than 6 spaces from the final space, then rolling higher than N,
@@ -9846,8 +9587,8 @@ theorist would approve of this example or not. As designers, the value of a sche
 problems. The rule that requires players to land by exact count on the final space does create more meaningful
 play. Understanding the rule as a cybernetic feedback loop, or even a pseudo-cybernetic feedback loop, can
 only enhance our appreciation for the game's design.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Putting Feedback to Use
 As a game design schema, Games as Cybernetic Systems is one of the most practically applicable frameworks
 presented in this book. Cybernetic feedback systems can be wonderful ways of balancing your game to arrive
@@ -9859,16 +9600,16 @@ In his lecture, Marc LeBlanc boiled down the relationship between game design an
 of design "rules." These rules offer a useful set of guidelines for integrating feedback systems into your
 design. Here are a number of LeBlanc's "rules" and some of our comments on each of them:
 Negative feedback stabilizes the game.
-• 
+•
 Positive feedback destabilizes the game.
-• 
+•
 These two observations form perhaps the most fundamental cybernetics insight for game design. As a
 designer, you should be aware of the ways that your game creates stabilities and instabilities. If your
 two-player card game lets the most powerful player take cards from the weaker player, then you have created
 a positive feedback system where the most powerful player will quickly dominate. The game is unstable, and
 will rapidly fall out of balance. Perhaps the solution is to add more players to the game and allow them to
 team-up on the player that is ahead. This would be adding a negative feedback system to re-balance the game
-and make it less likely that a player who gains a small advantage will end up winning. 
+and make it less likely that a player who gains a small advantage will end up winning.
 Although our examples have emphasized negative feedback as a useful game design tool, too much negative
 feedback can make a game too stable. Imagine a variation on Chutes and Ladders in which, whenever a player
 is ahead of another player, all of the players go back to the start. Although this rule would certainly add
@@ -9876,23 +9617,23 @@ negative feedback to the game, ensuring that no player would get ahead of the ot
 the point of stasis, so that the game doesn't move forward at all. Finding a balance of negative and positive
 factors for your game is crucial in designing meaningful play.
 Negative feedback can prolong the game.
-• 
+•
 Positive feedback can end it.
-• 
+•
 LeBlanc's next two "rules" should follow intuitively from our many examples of feedback systems. Positive
 feedback can rush a game to conclusion, rewarding a player that is already ahead, as in Warcraft II. Negative
 feedback, as in the Chutes and Ladders exact landing rule, makes it easier for a losing player to catch up,
-12
+
  Chapter 18: Games as Cybernetic Systems
-12
+
  Chapter 18: Games as Cybernetic Systems
 
 
 prolonging the game by reducing the winning player's lead.
 Positive feedback magnifies early successes.
-• 
+•
 Negative feedback magnifies late ones.
-• 
+•
 These two "rules" follow closely from the last pair. In Warcraft II, an early advantage in establishing positive
 feedback resource loops can put a player too far ahead of the other players. In Chutes and Ladders, on the
 other hand, negative feedback at the very end can allow a player that has been behind the whole game to catch
@@ -9909,9 +9650,9 @@ integrated way. In general, players that play well should be rewarded with victo
 a chance for a dramatic turn of events at the end, where the first becomes the last and the last becomes the
 first.
 Feedback systems can emerge from your game systems "by accident." Be sure to identify them.
-• 
+•
 Feedback systems can take control away from players.
-• 
+•
 LeBlanc's final few "rules" are crucial. Game systems are complex and unpredictable and you can never be
 sure what feedback systems might be hiding out in the space of possibility you are constructing. Feedback
 systems can be great ways of shaping player experience, but as LeBlanc warns, as you incorporate systems
@@ -9920,23 +9661,21 @@ your players feeling powerless. Some feedback systems, such as the last space ru
 relatively innocuous. But many game players will feel "cheated" if they can detect a game adjusting itself to
 their play. If that second place car is always on your tail, does it really matter how well you perform? Perhaps
 there should be limits on the speed of the second place car, so that a truly masterful player can have the
-satisfaction of driving far ahead of the rest of the pack. 
+satisfaction of driving far ahead of the rest of the pack.
 As this last example clearly demonstrates, the most important thing about players and control is not their
 actual control in a game, but their feeling of control in the experience of play. We explored this phenomenon
 in the schema on Uncertainty, and it is just as valid here. Meaningful play is, after all, measured by what a
 player experiences, not by the underlying rules of a game.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Afterword: Don't Forget the Participant
 Before departing a discussion of cybernetic systems entirely, we would like to make a few critical comments
 on the field. Cybernetics is clearly a formal way of understanding systems, which is why the schema of
 Games as Cybernetic Systems belongs within our RULES primary schema. However, as with all formal
 schemas, there are many things that cybernetics fails to address.
  Chapter 18: Games as Cybernetic Systems
-13
- Chapter 18: Games as Cybernetic Systems
-13
 
+ Chapter 18: Games as Cybernetic Systems
 
 As a field, cybernetics initially considered a system as a completely self-contained entity. Cybernetics played
 into the classical scientific idea that the observer of a system had no effect on the operation of the system.This
@@ -9957,8 +9696,8 @@ influence the experience of the game for the players. In the PLAY and CULTURE se
 do in fact look at games as much more than self-contained systems. For the time being, however, we continue
 our rules-based investigations. Even considered as purely formal structures, there are still many layers to the
 complex phenomena of games for us to uncover.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 How We Become Post-Human, by Katherine Hayles
 Hayles' book is less an explication of cybernetic theory and more an ideological critique of the field.
@@ -9973,11 +9712,11 @@ Chapter 6: The Second Wave of Cybernetics: From Reflexivity to Self-Organization
 Theories of Human Communication, by Stephen W. Littlejohn (see page 200)
 Recommended:
 Chapter 3: System Theory
- < Day Day Up > 
- < Day Day Up > 
-14
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 18: Games as Cybernetic Systems
-14
+
  Chapter 18: Games as Cybernetic Systems
 
 
@@ -9985,13 +9724,13 @@ Summary
 Cybernetics studies the behavior of self-regulating systems. A cybernetic systems consists of three
 elements:
 A sensor that measures some aspect of the system or its environment
-♦ 
+♦
 A comparator that compares this measure to a set value and decides whether or not to take
 action
-♦ 
+♦
 An activator that creates a change in the state of the system
-♦ 
-• 
+♦
+•
 For example, in an air conditioner, the sensor and comparator are in the thermostat, which activates the air
 conditioner activator to cool down a room when the temperature gets too high.
 Cybernetic feedback systems can be positive or negative:
@@ -10001,57 +9740,54 @@ down, is a negative feedback system. The temperature remains within a narrow ran
 A positive feedback system is cumulative and makes a system unstable. If the air conditioner turned
 on when the temperature was below a certain number, then the room would become colder and
 colder, moving away from a stable state.
-• 
+•
 A game can contain many feedback systems that interact with each other within the larger system of
 the game.
-• 
+•
 Many game feedback systems are negative, reducing the advantage or disadvantage of a player or a
 team. This phenomenon is common in digital racing games.
-• 
+•
 Games also make use of positive feedback systems for dramatic effect or to bring a game to
 conclusion. Often, a positive feedback system is countered by a negative feedback system in a game.
 Powerstone's stunning and hurling features demonstrate positive and negative feedback systems
 working together.
-• 
+•
 Dynamic Difficulty Adjustment, or DDA, is the modification of a game's challenge according to
 player performance. It is most often used in complex single-player digital games.
-• 
+•
 Game Designer Marc LeBlanc outlines a number of design "rules" that apply cybernetics to game
 design. These "rules" include the following:
 Negative feedback stabilizes the game.
-♦ 
+♦
 Positive feedback destabilizes the game.
-♦ 
+♦
 Negative feedback can prolong the game.
-♦ 
+♦
 Positive feedback can end it.
-♦ 
+♦
 Positive feedback magnifies early successes.
-♦ 
+♦
 Negative feedback magnifies late ones.
-♦ 
+♦
 Feedback systems can emerge from your game systems "by accident." Be sure to identify
 them.
-♦ 
+♦
 Feedback systems can take control away from the players.
-♦ 
-• 
+♦
+•
 In the field of cybernetics, the more classical first-order cybernetics, which considers a system as a
 self-contained entity, was challenged by second-order cybernetics, which includes the observer of a
 system as an element of the system. Within this formal schema, we have not made use of
 second-order cybernetic thinking.
-• 
- < Day Day Up > 
- < Day Day Up > 
+•
+ < Day Day Up >
+ < Day Day Up >
  Chapter 18: Games as Cybernetic Systems
-15
- Chapter 18: Games as Cybernetic Systems
-15
 
-
-16
  Chapter 18: Games as Cybernetic Systems
-16
+
+ Chapter 18: Games as Cybernetic Systems
+
  Chapter 18: Games as Cybernetic Systems
 
 
@@ -10084,8 +9820,6 @@ choices) that corresponds to your floor.[1]
 As a formal game design schema, Games as Game Theory Systems looks at games as systems of rational
 choice. It is potentially useful to game designers for two chief reasons.
  Chapter 19: Games as Game Theory Systems
-1
-
 
 First, it analyzes situations that resemble simple games in a very detailed way. Even more importantly, as
 game theorist Morton
@@ -10096,8 +9830,8 @@ course of action within a game and how they formulate strategies and make decisi
 degenerate strategies, we will look closely at the application of game theory concepts to the design of
 meaningful play.
 [1]Morton D. Davis, Game Theory: A Nontechnical Introduction (Mineola: Dover Publications, 1970), p. 3.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Decision Trees
 As a formal approach to understanding games, game theory looks at games as a series of strategic decisions
 made by the players of a game. What does it mean to reduce a game to its strategic decisions? One common
@@ -10118,9 +9852,9 @@ pawns have been maneuvered out of the way. The complexity of games leads to a sy
 actions. Which actions can happen at a given moment is contingent on the current state of the game.
 Because Chess is a complicated game to diagram as a decision tree, let's start with a simpler example:
 Tic-Tac-Toe. In Prisoner's Dilemma, a book about game theory and its historical context, writer William
-2
+
  Chapter 19: Games as Game Theory Systems
-2
+
  Chapter 19: Games as Game Theory Systems
 
 
@@ -10154,7 +9888,7 @@ physical skill, such as American Football, does not have self-contained moments 
 be diagrammed like the alternate turn-taking of Tic-Tac-Toe. Instead, the game exists as a continuous flow of
 action. When the ball is hiked, a quarterback does not take a single discrete action. Instead, the game flows
 forward in a complex web of activity. Perception, movement, and the granularity of the real world creates a
-non-discrete game space. 
+non-discrete game space.
 Although the moment-to-moment play of Football is continuous, the game can be broken down into a system
 of separate plays. Does that mean it is possible to create a decision tree of Football by widening the frame of
 analysis, so that each decision point on the chart represents the choice of a play by one team's coach? The
@@ -10170,17 +9904,15 @@ can be used to schematize the play of Football. But these play diagrams do not q
 What kinds of games can we turn into decision trees? Decision trees work for any game that has the following
 qualities:
  Chapter 19: Games as Game Theory Systems
-3
- Chapter 19: Games as Game Theory Systems
-3
 
+ Chapter 19: Games as Game Theory Systems
 
 Time in the game takes place in turns or other discrete units.
-• 
+•
 Players make a finite number of clear decisions that have knowable outcomes.
-• 
+•
 The game is finite (it can't go on forever).
-• 
+•
 Although this disqualifies many games (including Football), it does include a wide variety of games, such as
 turn-based strategy games like Tic-Tac-Toe, which clearly fulfills all three criteria listed above. What about
 Chess? Chess takes place in turns and decisions have clear outcomes, but is it finite? Chess might seem like
@@ -10205,7 +9937,7 @@ If decision trees for games are so unwieldy in the real world, how are they poss
 Decision trees are more theoretical constructs than engineering tools. At the same time, the ability to
 understand what a decision tree is and how it works is crucial to game design. Why? Because a decision tree
 is also a diagram of the formal space of possibility of a game. Being able to conceptualize the space of
-possibility you are designing is an important game design skill. 
+possibility you are designing is an important game design skill.
 Even though true decision trees are usually impossible to create, often you can create very useful decision
 trees for sections or aspects of a game. For example, say you are designing a mis-sion-based strategy game
 that contains many level "missions" that the player has to complete. A player can succeed or fail at a mission,
@@ -10218,14 +9950,14 @@ themselves.When you can make use of them, decision trees are a straightforward a
 understanding the structure of a game. Perhaps more importantly, however, decision trees are an important
 part of understanding game theory.
 [2]William Poundstone, Prisoner's Dilemma (New York: Doubleday, 1992),
-4
+
  Chapter 19: Games as Game Theory Systems
-4
+
  Chapter 19: Games as Game Theory Systems
 
 
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Strategies in Game Theory
 Decision trees help us understand how players move through the space of possibility of a game. To see how
 this works, think back to the Tic-Tac-Toe decision tree. The tree contains every conceivable move, in every
@@ -10259,17 +9991,15 @@ of what the other player does. This can make game theory strategies quite intric
 strategy for Tic-Tac-Toe for the first player X.
 Put X in the center square. O can respond two ways:
  Chapter 19: Games as Game Theory Systems
-5
- Chapter 19: Games as Game Theory Systems
-5
 
+ Chapter 19: Games as Game Theory Systems
 
 If O goes in a non-corner square, put X in a corner cell adjacent to O. This gives you
 two-in-a-row. If O fails to block on the next move, make three-in-a-row for a win. If
 O blocks, put X in the empty corner cell that is not adjacent to the first (non-corner)
 O.This gives you two-in-a-row two ways. No matter what O does on the next move,
 you can make three-in-a-row after that and win.
-1. 
+1.
 If instead O's first move is a corner cell, put X in one of the adjacent non-corner cells.
 This gives you two-in-a-row.If O fails to block on the next move, make
 three-in-a-row for a win. If O blocks, put X in the corner cell that is adjacent to the
@@ -10278,7 +10008,7 @@ If O fails to block on the next move, make three-in-a-row for a win. If O blocks
 X in the empty cell adjacent to the third O. This gives you two-in-a-row. If O fails to
 block on the next move, make three-in-a-row for a win. If O blocks, fill in the
 remaining cell for a tie. [4]
-2. 
+2.
 As you can see, the strategy for even a simple game such as Tic-Tac-Toe is somewhat complex. A complete
 strategy is ultimately a methodology for navigating the branches of a decision tree. A strategy proscribes exact
 actions for the player utilizing the strategy, but it also has to take into account all of the possible branches that
@@ -10290,8 +10020,8 @@ not study games as strategically complicated as Chess. In fact, the games that g
 remarkably simple. But as we already know, even very simple games can play out in quite complex ways.
 [3]Ibid. p. 46.
 [4]Ibid. p. 48.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Game Theory Games
 Game theory demands a sacred character for rules of behavior which may not be observed in
 reality. The real world, with all its emotional, ethical, and social suasions, is a far more
@@ -10308,9 +10038,9 @@ Rational play, simultaneity, strategy, outcome, utility, and two players. Let us
 separately. First, game theory focuses its attention on rational players. Rational players are perfectly logical
 players that know everything there is to know about a game situation. Furthermore, rational players play to
 win. As Poundstone puts it, "Perfectly rational players would never miss a jump in checkers or 'fall into a trap'
-6
+
  Chapter 19: Games as Game Theory Systems
-6
+
  Chapter 19: Games as Game Theory Systems
 
 
@@ -10362,10 +10092,8 @@ attractiveness. If the pear was desired most and the apple least, the utility of
 greatest and the apple's utility would be least.[7]
 Utility can become more complex when multiple factors come into play. For example, if you were building a
  Chapter 19: Games as Game Theory Systems
-7
- Chapter 19: Games as Game Theory Systems
-7
 
+ Chapter 19: Games as Game Theory Systems
 
 house for yourself on beachfront property, thinking in game theory terms, you could measure different
 locations of your house in terms of utility. You might be able to get the highest utility, say +10, if you built
@@ -10407,11 +10135,11 @@ We follow suit in the material to follow.
 [6]John Von Neumann and Oscar Morganstern, Theory of Games and Economic Behavior (Princeton:
 Princeton University Press, 1944), p. 77.
 [7]Davis, Game Theory: A Nontechnical Introduction, p. 62.
- < Day Day Up > 
- < Day Day Up > 
-8
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 19: Games as Game Theory Systems
-8
+
  Chapter 19: Games as Game Theory Systems
 
 
@@ -10452,10 +10180,8 @@ the cake division problem, taken from Prisoner's Dilemma. Note that William Poun
 assumption that the cake slicing is going to happen in an imperfect world, so that even if the child that cuts the
 cake tries to slice it evenly, the two resulting slices will still differ a tiny bit, say by one crumb.
  Chapter 19: Games as Game Theory Systems
-9
- Chapter 19: Games as Game Theory Systems
-9
 
+ Chapter 19: Games as Game Theory Systems
 
 Along the left side of the matrix are strategies that the cutter can take: either cut the cake evenly or cut it
 unevenly. Although there are any number of ways to cut the cake, these are the two essential strategies from
@@ -10463,7 +10189,7 @@ which the cutter can choose. Across the top of the matrix are strategies the cho
 piece or choose the smaller piece. The cells show the utility or payoff for only one of the players (the cutter),
 but it can be assumed that the inverse payoff would happen for the chooser. If the payoff matrix indicates that
 the cutter receives the "small piece," the chooser would therefore receive the "big piece." This is also true for
-half of the cake plus or minus a crumb. 
+half of the cake plus or minus a crumb.
 The cake division problem illustrates two important game theory concepts. The first is the concept of a
 zero-sum game. In a zero-sum game, the utilities of the two players for each game outcome are the inverse of
 each other. In other words, for every gain by one player, the other player suffers an equal loss. For example,
@@ -10479,7 +10205,7 @@ exactly why it is called a "zero-sum" game. Some games, such as the cooperative 
 Rings, are not zero sum games. In the basic version of Lord of the Rings, players cooperate against the game
 system itself. Players other. If one player receives half of the cake minus a crumb (-1) the other player will
 receive half of the cake plus a crumb (+1). The total is zero. Cake division is a zero-sum game.
-We know that the two player outcomes are inverses of each 
+We know that the two player outcomes are inverses of each
 Why is this important? Because, according to game theory, every finite, zero-sum, two-player game has a
 solution (a proper way to play the game), the strategy that any rational player would take. What is the solution
 to the cake division problem? The game will always end in the upper left corner. The cutter will get half of the
@@ -10498,9 +10224,9 @@ across the two mountains will reach, as well as the maximum elevation that a val
 mountain pass will achieve. The mathematical proof of saddle points in games is called the minimax theorem,
 which Von Neumann first published in 1928, many years before the 1944 publication of Theory of Games and
 Economic Behavior.
-10
+
  Chapter 19: Games as Game Theory Systems
-10
+
  Chapter 19: Games as Game Theory Systems
 
 
@@ -10528,7 +10254,7 @@ the terms "exploit" and "degenerate" imply that players are consciously eschewin
 favor of the shortest route to victory. There are some players that will refuse to make use of degenerate
 strategies, even after they find out about them, because they wish to play the game in a "proper" manner. On
 the other hand, many players will not hesitate to employ a degenerate strategy, especially if their winnings are
-displayed in a larger social space outside the game, such as an online high score list. 
+displayed in a larger social space outside the game, such as an online high score list.
 Degenerate strategies can be painful for game designers, as players shortcut all of the attention lavished on a
 game's rich set of possibilities. Try to find degenerate strategies and get rid of them! We learned in the
 previous schema that positive and negative feedback systems can emerge unexpectedly from within a game's
@@ -10537,8 +10263,8 @@ analysis of your game design can sometimes reveal them but the only real way to 
 rigorous playtesting. If you see players drawn to a particular set of strategies again and again, they may be
 exploiting a weakness in your design.
 [8]Poundstone, Prisoner's Dilemma, p. 43.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Playing for Pennies
 Not all game theory games have a saddle point. Consider a simple game that requires a more complex playing
 strategy: Matching Pennies, another classic game theory problem. Here is how the game works: two players
@@ -10548,17 +10274,15 @@ gets them. We can graph this game on a payoff grid : ing to a certain probabilit
 the mixed strategy requires rational players to randomly pick heads or tails, with a 50/50 chance of selecting
 either one.
  Chapter 19: Games as Game Theory Systems
-11
- Chapter 19: Games as Game Theory Systems
-11
 
+ Chapter 19: Games as Game Theory Systems
 
 Remember that rational players will attempt to maximize their own gains in utility while minimizing the gains
 of their opponents. If rational players play many, many games of Matching Pennies, they will end up with an
 average utility of zero. This means that neither player will ever come out ahead, but that is the best that they
 can hope for in this "game."
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Prisoner's Dilemma
 Of course, it is possible to construct payoff grids in many different ways, and they do not always have to be
 zero-sum. In fact, constructing game theory problems that are intentionally less symmetrical than Mixed
@@ -10586,9 +10310,9 @@ sentenced to two years in jail.
 The prisoners are given a little time to think this over, but in no case may either learn what the
 other has decided until he has irrevocably made his decision. Each is informed that the other
 prisoner is being offered the very same deal. Each prisoner is only concerned with his own
-12
+
  Chapter 19: Games as Game Theory Systems
-12
+
  Chapter 19: Games as Game Theory Systems
 
 
@@ -10622,23 +10346,21 @@ The Prisoner's Dilemma remains an unsolved game theory problem. It clearly demon
 simple sets of rules can provide incredibly complex decision-making contexts, which raise questions not just
 about mathematics and game design, but about society and ethics as well.
 [9]Ibid. p. 118.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Game Theory and Game Design
 Game theory is a curious thing. It promises to be a detailed theory of decision making in a game context. At
 the same time, its relationship to real-world games seems incidental: the "games" that game theory studies are
 far removed from the kinds of games that most game designers would like to create.
  Chapter 19: Games as Game Theory Systems
-13
- Chapter 19: Games as Game Theory Systems
-13
 
+ Chapter 19: Games as Game Theory Systems
 
 Does that mean that game theory is irrelevant to game design? Absolutely not. This schema on Games as
 Game Theory Systems, like most of our other RULES-based schema, borrows concepts and theories from
 disciplines that make a formal study of systems. Like systems theory, complexity theory, information theory,
 and cybernetics, game theory was not created in order to assist in the game design process. But that doesn't
-mean that it isn't relevant to designers. 
+mean that it isn't relevant to designers.
 Decision trees that mark out a game's formal space of possibility; utility that measures the desire of a player
 for a given game outcome; saddle points that erase meaningful play—game theory is rife with connections to
 some of our core design concepts. Game theory games are microcosms for game design problems, an
@@ -10649,8 +10371,8 @@ The rules of games constitute systems of incredible subtlety and complexity. As 
 very young history, game design must turn to these more established ways of thinking in order to try and
 make sense of the phenomena of games. Perhaps as the field matures, the theoretical borrowings that take
 place in this book will be replaced by more game-centric schools of thought. At least, we certainly hope so.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 Emergence: From Chaos to Order, by John Holland (see page 169)
 Recommended:
@@ -10665,28 +10387,28 @@ Recommended:
 Chapter 3: Game Theory
 Chapter 6: Prisoner's Dilemma
 Chapter 12: Survival of the Fittest
- < Day Day Up > 
- < Day Day Up > 
-14
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 19: Games as Game Theory Systems
-14
+
  Chapter 19: Games as Game Theory Systems
 
 
 Summary
 Game theory is a branch of economics that studies rational decision making. It often looks at
 game-like situations, but it is not a general theory of games or game design.
-• 
+•
 A decision tree is a diagram that maps out all of the possible decisions and outcomes that a player
 can take in a game. A completed decision tree is equivalent to the formal space of possibility of a
 game. A game must have the following characteristics to be reducible to a decision tree:
 Time in the game takes place in turns or other discrete units.
-♦ 
+♦
 Players make a finite number of clear decisions that have knowable outcomes.
-♦ 
+♦
 The game is finite (it can't go on forever).
-♦ 
-• 
+♦
+•
 Even if a game meets these criteria, most games are too complex to be diagrammed as a decision tree.
 Decision trees are most useful for mapping aspects of games, or as conceptual tools for thinking about the
 formal structure of a game.
@@ -10696,48 +10418,45 @@ games with only two players.
 A rational player doesn't exist in the real world. A rational player is a completely logical
 player that plays only to maximize winnings, regardless of emotions, ethics, and social
 attachments.
-♦ 
+♦
 A game theory strategy is a complete plan for playing a game. A strategy explicitly and
 comprehensively covers every possible situation that a player might encounter in the course
 of playing a game, including every possible strategy that an opponent might select.
-♦ 
+♦
 In a game theory game, rational players make a simultaneous decision about what strategy to
 take. They know the complete rules of the game and the possible outcomes of their decisions,
 but they do not know the strategy that the other player will take.
-♦ 
+♦
 The results of a game theory game are measured in utility, which is a numerical
 representation of the players' desire for a certain outcome. Attractive outcomes are assigned
 higher positive numbers, and less attractive outcomes are assigned lower numbers. Negative
 numbers represent an unpleasant utility.
-♦ 
-• 
+♦
+•
 A payoff matrix is a grid of cells used to diagram the possible outcomes of a game theory problem.
-• 
+•
 In a zero-sum game, the winnings of the victor are equal to the losses of the loser. Games such as
 Chess with a single winner and a single loser are zero-sum games.
-• 
+•
 Every two-player, zero-sum game theory game has a solution, a proper way to play the game that will
 maximize winnings for the player every time. When there is a single best solution to a game for both
 players, the solution is known as a saddle point.
-• 
+•
 Saddle points in any game can lead to degenerate strategies, also called exploits. A degenerate
 strategy is a way to play a game that leads to victory every time. Generally, degenerate strategies are
 to be avoided in games because they diminish uncertainty and meaningful play.
-• 
+•
 Some game theory solutions consist of mixed strategies, where players select among different
 strategies with a weighted percentage.
-• 
- < Day Day Up > 
- < Day Day Up > 
+•
+ < Day Day Up >
+ < Day Day Up >
  Chapter 19: Games as Game Theory Systems
-15
- Chapter 19: Games as Game Theory Systems
-15
 
-
-16
  Chapter 19: Games as Game Theory Systems
-16
+
+ Chapter 19: Games as Game Theory Systems
+
  Chapter 19: Games as Game Theory Systems
 
 
@@ -10769,30 +10488,28 @@ against the program, or two players can cooperate against it. Still others have 
 change over time, such as the television show Survivor, in which players are initially divided into two
 competitive teams, eventually becoming a single group from which a single winner emerges.
 Single player vs. single player: a Chess game or Boxing match
-• 
+•
  Chapter 20: Games as Systems of Conflict
-1
-
 
 Group vs group: Basketball, Soccer, and other team sports
-• 
+•
 One against many: Tag or Mother May I?
-• 
+•
 Every player for themselves: a footrace or the strategic board game Risk
-• 
+•
 Single player competing against a game system: Solitaire or Tetris
-• 
+•
 Individual players competing side by side against the game: casino Blackjack
-• 
+•
 A group of players cooperating against a game: Lord of the Rings Board Game
-• 
-• 
+•
+•
 Conflict in a game can be direct or indirect. In an arm wrestling match, players are pitted directly against each
 other, trying to pin the other player's arm while avoiding being pinned themselves. The back and forth
 movements of the players' locked hands is a direct meter of the struggle, indicating how near or how far either
 one of them is from achieving the winning conditions of the conflict. In a figure skating contest, the conflict is
 indirect. Competitors each have their own turn to perform and be judged. They cannot directly interfere with
-each other's success, and winning the competition means receiving the highest score from the judges. 
+each other's success, and winning the competition means receiving the highest score from the judges.
 Still other games mix direct and indirect conflict. In a real-time strategy game such as multiplayer Starcraft,
 players compete against each other, though they are not always directly interacting. Players have to think
 offensively and defensively, building their resources and defenses, anticipating the actions of other players.
@@ -10800,8 +10517,8 @@ As a game proceeds, the solo activities of each player evolve into direct confli
 players come into contact. Further, there is more than one way to configure the conflict in Starcraft: the game
 lets players set · up team vs. team games, one player vs. many players, human players vs. computer
 opponents, and so on.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Conflict Case Studies
 As these examples illustrate, more than one form of conflict can exist within the scope of a single game
 design. Next we take a detailed look at three different games, focusing on the ways each one configures
@@ -10815,22 +10532,22 @@ system provides many ways for players to struggle and pursue goals.
 As a single-player experience, you compete against the program.The game compiles an ongoing
 "score" based on your performance, and the presumed goal of the game is to achieve the highest
 score.
-• 
+•
 There are many ways that you might pursue goals related to the high score goal of the game. You
 might have a general idea of what constitutes a "good score," which you try to achieve. Or you might
 try to surpass your previous game's score, or attain a new personal best score.
-• 
+•
 You might set other goals besides those involving your score. For example, you might try to play for a
 certain · amount of time, get to a certain level in the game, or destroy every enemy of a particular type
 that appears. Several of these goals might co-exist with each other and with the score-oriented goals.
-• 
+•
 Centipede can be played as a two-player game. Both players alternate play, switching places when the
 current player loses a life. If you compete against another player in this way, the quantifiable outcome
 of the game (your score) has new meaning. It is no longer only an indicator of your personal success
-• 
-2
+•
+
  Chapter 20: Games as Systems of Conflict
-2
+
  Chapter 20: Games as Systems of Conflict
 
 
@@ -10842,7 +10559,7 @@ Aspects of the single-player competition can be combined with aspects of the two
 You might have lost to your opponent, but you might also have gotten your best score ever, in which
 case you won in your own self- competition, even while losing to the other player in the zero-sum
 conflict of the two-player game.
-• 
+•
 The fact that players can enter their initials into a high score list creates a different kind of
 competition: you compete against previous players, whom you probably have never met. This
 competition is more indirect: you compare your score with their scores, and if you are one of the top
@@ -10850,16 +10567,16 @@ eight players, you get to enter your initials into the game for other players to
 player at the bottom of the list. However, you might later be bumped off as well. Here, your numeric
 score is translated into a scaled rank: either your score wasn't high enough to put you on the list, or
 you entered the list at a specific rank.
-• 
+•
 There are other competition scenarios as well. For example, you might play as a single player and set
 the goal of making it onto the high score list. In this case, you turn the game into a system of
-competition with a binary win/loss condition: either you make it onto the high score list or you don't. 
-• 
+competition with a binary win/loss condition: either you make it onto the high score list or you don't.
+•
 You might have an ongoing rivalry with a friend about who can achieve the higher score on
 Centipede. The two of you are not good enough to get on the high score list, but you can still keep
 track of your relative scores. Your score in this scenario is translated into a rank between you and
 your friend, a rank that changes as one of you bests the other's higher score.
-• 
+•
 Joust
 Who knew so many different forms of conflict were lurking under the surface of a simple arcade game? Our
 next example adds even more. In Joust, two players maneuver bird-mounted knights, attacking enemies
@@ -10868,32 +10585,30 @@ structure opens up whole new forms of competition.
 Joust can be a single-player game. Individual players receive a score and there is a list of player high
 scores, including separate rankings for daily high scores and "all time" high scores. Most of the forms
 of competition in · Centipede also occur in Joust.
-• 
+•
 Two players could compete to see who gains the higher score over the course of a game. Because
 players do not alternate turns but compete simultaneously, the scores of · both players are visible at all
 times, heightening the drama of this form of competition.
-• 
+•
 The simultaneous two-player structure opens other possibilities for conflict. Two Joust players can
 attack each other if they wish. One way to play the game is as a fighting game, where players directly
 attack each other, killing their opponent with a successful attack. The goal of the competition in this
 case is to kill your opponent more times than you are killed. Playing the game in this way turns Joust
 into a zero-sum game. Numerical scores do not matter, only who is left alive at the end.
 Joust
-• 
+•
 It is also possible for two players to refrain from attacking each other and instead work together to
-• 
+•
  Chapter 20: Games as Systems of Conflict
-3
- Chapter 20: Games as Systems of Conflict
-3
 
+ Chapter 20: Games as Systems of Conflict
 
 defeat the com-puter-generated enemies, strategically coordinating their actions. In this case, the two
 players compete together against the computer. They might set a goal of reaching the highest level or
 for playing as long as possible.
 Even if players cooperate, they might still compete in other ways. For example, two players
 coordinating their actions against the computer might compete to get the higher score.
-• 
+•
 Often, these different kinds of competition overlap. The game design of Joust makes it easy for a
 player to kill another player: if they collide, the one that is in a higher position destroys the other one.
 Even cooperating players sometimes accidentally kill each other, an event that usually affects the
@@ -10901,13 +10616,13 @@ competitive flow of the game. After an accidental killing, one player might beco
 aggressive and the game might transition into the "fighting game" version of Joust. Or the accidental
 killer might let his opponent kill him one time, just to balance things out. The game might also just
 continue as usual.
-• 
+•
 Competitive tensions persist throughout the game. Because both players are operating on the screen at
 the same time, there may be competition about where and how they should play, even if they are not
 actively trying to kill each other. For example, two players might both wish to occupy a certain
 section of the screen or attack a specific group of enemy characters. An accidental player-killing (or
 the threat of one) can enter the game as a result, opening up additional competitive complexities.
-• 
+•
 Gauntlet
 In Joust, the two-player simultaneous structure adds new layers to the possibilities of game conflict. In
 Gauntlet, our third arcade game example, up to four players can play at once. The players take fixed roles
@@ -10916,29 +10631,29 @@ fights computer-generated enemies, and gathers resources that boost their abilit
 Like Joust and Centipede, Gauntlet can be played by a single player. Gauntlet players also receive a
 score; if the score is high enough, players record high scores and player · initials. All of the
 single-player and high score list forms of competition apply to Gauntlet as well.
-• 
+•
 Unlike Joust, Gauntlet players can only attack computer-generated opponents—their attacks do not
 affect the other players. As a result, Gauntlet lacks the "fighting game" as a possible form of conflict.
 Instead, the players consistently work together, usually with the goal of seeing how many levels of the
 game they can explore.
-• 
+•
 Because Gauntlet players receive a score, players might also compete to see who has the highest score
 at the end of the game. As with Joust, the scores are displayed throughout the game, allowing players
 to constantly check their relative scores.
-• 
+•
 Whenever players clear a level of the game, the game pauses to display the relative points of each
 player and their overall performance in the game, showing, for example, which player received the
 most treasure in the last level. These moments highlight score-based and stat-based competition
 between players, encouraging them to compare their performances against each other and invent
 competition around the many kinds of statistics in the game.
 Gauntlet
-• 
+•
 During the actual play of a game, another form of competition takes place over in-game resources. As
 players progress in the game, a number representing their health is slowly reduced. When a character
-• 
-4
+•
+
  Chapter 20: Games as Systems of Conflict
-4
+
  Chapter 20: Games as Systems of Conflict
 
 
@@ -10961,31 +10676,31 @@ putting money into the game, a form of conspicuous consumption much like high-st
 Conversely, players might compete to see who can play the longest before having to spend more
 money to continue, because skillful players will avoid being killed. In this case, spending less money
 for the same amount of time would be the goal.
-• 
+•
 There are obviously many, many more models of competition in games. However, even within these three
 similar examples there is a wealth of ways that conflict can manifest. The point of these examples is to
 demonstrate how the design of a game leads to forms of conflict. In each case, formal decisions about the
 game's structure directly shape the nature of conflict emerging from the game. For each game, the following
 kinds of questions determine the essential formal structures:
 How many players can play?
-• 
+•
 Do they play simultaneously or do they alternate playing the game?
-• 
+•
 Is there a high score list?
-• 
+•
 Are players given constant feedback about their relative scores?
-• 
+•
 Does the game pause to allow players to directly compare their scores and other game statistics?
-• 
+•
 Are there computer-generated opponents and obstacles that players face together or do the players
 serve as opponents for each other?
-• 
+•
 Does the structure of the game allow players to have direct conflict with each other?
-• 
+•
 Are there resources for which players can compete?
-• 
+•
 Can players spend money to continue the game or enhance their play?
-• 
+•
 The forms of conflict we observed follow directly from the way that each game answers these design
 questions. Take Gauntlet: if players were allowed to damage each other through attacks, the game would lose
 its enforced cooperative spirit, and inter-player fighting might become common. If players could not continue
@@ -10999,20 +10714,18 @@ Back in Defining Games, in discussing whether or not Sim City was a game, we con
 borderline case. Although Sim City does not formally define goals with quantitative outcomes, it does provide
 a space within which players form their own goals and arrive at their own outcomes. As the investigation of
 Centipede, Joust, and Gauntlet demonstrates, in many ways all games can function like Sim City, with players
-inventing their own goals and layering these goals on top of those defined directly by the rules of a game. 
+inventing their own goals and layering these goals on top of those defined directly by the rules of a game.
 A game's space of possibility is a space of possible conflict. Part of playing a game involves selecting game
  Chapter 20: Games as Systems of Conflict
-5
- Chapter 20: Games as Systems of Conflict
-5
 
+ Chapter 20: Games as Systems of Conflict
 
 goals as a means of navigating and exploring forms and degrees of conflict. What is the best form of conflict
 to provide your players? As with other aspects of games, there is no single formula that will work best for all
 players in all contexts. However, providing a rich space of possibility that supports a range of conflict
 increases the potential variety of players and the ways that they might find your game meaningful.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Competition and Cooperation
 So far, we have spoken somewhat loosely about competition and cooperation as they relate to the conflict in a
 game. But what do these terms really mean? Competition occurs when players struggle against each other
@@ -11043,16 +10756,16 @@ which players strive, it is very difficult for a player to measure his or her pr
 game. Without a measure of progress to give a player feedback on the meaning of his or her decisions,
 meaningful play is not possible. Remember the "horrible" game The Grid in Games as Emergent Systems?
 That game had no goal, and no way for players to compete with each other. There was nothing to motivate
-players to move their pieces this way instead of that way. Meaningful play was impossible. 
+players to move their pieces this way instead of that way. Meaningful play was impossible.
 Our opinion is that all games are competitive. All games involve a conflict, whether that conflict occurs
 directly between players or whether players work together against the challenging activity presented by the
 game system. Without a clearly defined goal, games generally become less formalized play activities.
 However, just because all games are competitive does not mean that they are not cooperative as well.
 Although we can assert with confidence that all games are competitive, it is equally true that all games are
 cooperative. Are these two statements contradictory? Can all games be both competitive and cooperative? The
-6
+
  Chapter 20: Games as Systems of Conflict
-6
+
  Chapter 20: Games as Systems of Conflict
 
 
@@ -11091,13 +10804,11 @@ a game, but only within a larger cooperative frame sustained by the participatio
 [1]Bernard DeKoven, The Well-Played Game (New York: Doubleday, 1978), p. 11.
 [2]Mihaly Csikszentmihalyi, Flow: The Psychology of Optimal Experience (New York: HarperCollins
 Publishers, 1991), p. 72–3.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 20: Games as Systems of Conflict
-7
- Chapter 20: Games as Systems of Conflict
-7
 
+ Chapter 20: Games as Systems of Conflict
 
 New Games
 In the earlier critique of Bernard DeKoven's ideas about the negative aspects of competition, we were not
@@ -11105,7 +10816,7 @@ quite playing fair. It is true that DeKoven questions traditional forms of compe
 we do not agree with all of his ideas on the subject. But DeKoven's concepts have to be understood within the
 larger context of his important work on games. In his book The Well-Played Game, DeKoven argues for a
 new understanding of play, governed by a shift in emphasis away from competition. Instead, DeKoven is an
-advocate for more improvisational games in which players take on the role of game designers. 
+advocate for more improvisational games in which players take on the role of game designers.
 DeKoven was not alone in his ideas. He was one of the early members of the New Games Movement, a group
 of game designers and play advocates that had a tremendous impact on the culture of games. Founded by
 Stewart Brand (the same man who started The Whole Earth Catalog) in the late 1960s, the New Games
@@ -11145,9 +10856,9 @@ few roars—fearsome enough, we wager, to put Hydra to shame.
 At the signal, the dragon begins chasing its own tail, the object being for the person at the
 head of the line to snatch the handkerchief. The tricky part of this epic struggle is that the
 people at the front and the people at the back are clearly competing—but the folks in the
-8
+
  Chapter 20: Games as Systems of Conflict
-8
+
  Chapter 20: Games as Systems of Conflict
 
 
@@ -11167,8 +10878,8 @@ even seemingly fundamental ideas about competition in games are subject to playf
 [3]Andrew Fluegelman and Shoshana Tembeck, The New Games Book (New York: Doubleday, 1976), p.
 87–88.
 [4]Ibid. p. 47.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Goal of a Game
 In addition to competition and cooperation, another essential component of a game as a system of conflict is a
 goal. Goals are fundamental to games. In the explication of Centipede, Joust, and Gauntlet, goals figured into
@@ -11194,16 +10905,14 @@ Invaders, in which the game structure repeats itself with increasing challenge t
 victorious endpoint. In this form of game, the goal is to play as long as possible or achieve the highest score.
 This formal structure heightens the sense of inevitable death. The player is living on borrowed time, staving
  Chapter 20: Games as Systems of Conflict
-9
- Chapter 20: Games as Systems of Conflict
-9
 
+ Chapter 20: Games as Systems of Conflict
 
 off the inevitable end of a game that occurs when conditions of failure are met.
 The space of possibility of a game is a plane stretched between two anchorage points: the beginning and the
 end of the game. The players journey from one end to another, making their way from the start to the finish. In
 a well-designed game that supports meaningful play, this journey between points should be taut and efficient,
-with every element contributing directly or indirectly to the larger experience. 
+with every element contributing directly or indirectly to the larger experience.
 In case this all sounds too goal-oriented, we must acknowledge that goals are not the only reason people play
 games. Play can be an end in itself, or a way to achieve social interaction, or affect cultural change.We
 address each of these motivations for play in later chapters. But seen as a formal system, the goal of a game
@@ -11219,11 +10928,11 @@ of them (such as butterflies of the same color). The first prototype demonstrate
 start and finish conditions of the game had not been defined. Many options for the victory conditions were
 discussed and were narrowed down to three scenarios:
 The player has to catch a certain number of butterflies to finish a level.
-1. 
+1.
 The player has to clear the screen of all of the butterflies to finish a level.
-2. 
+2.
 There are no levels: the player has to keep on catching butterflies forever.
-3. 
+3.
 Each of these endpoints entailed different kinds of player experiences. For example, scenarios 1 and 2
 presumed that the game proceeded as a series of discrete levels, whereas scenario 3 provided a single,
 continuous game, as in Tetris. There were other unsolved questions too: for example, in scenario 2, what
@@ -11232,19 +10941,19 @@ have levels, there needed to be victory and loss conditions for finishing a leve
 levels, there only needed to be a loss condition for the game as a whole. In considering the loss conditions,
 two primary schemes were proposed:
 A player has a certain amount of time to attain the victory conditions.
-1. 
+1.
 Butterflies appear as the player proceeds. If too many appear, the game is over.
-2. 
+2.
 Many of these variations were playtested in different combinations. For the loss conditions, a time limit was
 selected, rather than the option of having the screen overrun with butterflies, because it gave the game a
 clearer sense of progression. In Tetris, it is clear that when the bricks pile up near the top of the screen, you
 are about to lose. In the prototype of LOOP, it was never quite clear when there were too many butterflies on
 the screen.
- < Day Day Up > 
- < Day Day Up > 
-10
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 20: Games as Systems of Conflict
-10
+
  Chapter 20: Games as Systems of Conflict
 
 
@@ -11267,13 +10976,11 @@ key component of the lusory attitude. Even though games may have elements of unc
 within which that uncertainty plays out is known in advance. The qualities of rules themselves make this so.
 As we know from Defining Rules, rules of a game limit player action, are explicit, unambiguous, binding, and
 shared by all players. Within the magic circle, players experience a kind of equality and fairness that is not
-present outside games. 
+present outside games.
 Loop
  Chapter 20: Games as Systems of Conflict
-11
- Chapter 20: Games as Systems of Conflict
-11
 
+ Chapter 20: Games as Systems of Conflict
 
 Is it really true that games strive to create spaces of equality, where only the play of the game can determine
 the winner of a game? Are games so pure and separate from the real world that no other factors possibly enter
@@ -11308,7 +11015,7 @@ conditions? What if the goal of the game is to lose as quickly as possible, or r
 the Dragon's Tail played with traditional ideas of competition and cooperation, your games can play with
 traditional ideas of winning and losing as well.
 Given the artificial nature of games, is fairness possible? Does the magic circle offer a truly level playing
-field? Caillois thinks not: 
+field? Caillois thinks not:
 As carefully as one tries to bring it about, absolute equality does not seem to be realizable.
 Sometimes, as in checkers or chess, the fact of moving first is an advantage, for this priority
 permits the favored player to occupy key positions or to impose a special strategy.
@@ -11319,9 +11026,9 @@ aids or hinders one or the other side; the fact, in disputing for positions on a
 finding oneself in the inside or outside lane constitutes a crucial test, a trump or disadvantage
 whose influence may be negated or modified by drawing lots at the beginning, then by strict
 alternation of favored positions.[6]
-12
+
  Chapter 20: Games as Systems of Conflict
-12
+
  Chapter 20: Games as Systems of Conflict
 
 
@@ -11345,8 +11052,8 @@ context, establishing a sense of fairness is crucial to successful game play. Th
 one example of this problem in detail.
 [5]Roger Caillois, Man, Play, and Games (London: Thames and Hudson, 1962), p. 14.
 [6]Ibid. p. 14-15.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Pig Redux
 We first examined the game Pig in Games as Systems of Uncertainty. In Pig, the goal of the game is to score
 points by rolling a die and adding to your score until you reach 100 points. If you roll a 1, then you lose the
@@ -11357,7 +11064,7 @@ The game is very simple. But is it truly fair? Does the first player have an adv
 accumulating a score, turn after turn, it does favor the first player: that person has an added chance of reaching
 100 first. If there are five players and on the tenth turn the player that went first scores 100 points or more,
 that player wins. But some of the other players, who only got to play nine rounds, might have reached 100 if
-they had been allowed a tenth turn as well. 
+they had been allowed a tenth turn as well.
 Pig embodies the classic game design problem of creating a level playing field. Ideally, every player should
 have an equal chance of winning. So what is the solution? There are a few possible game design adjustments.
 One solution is that the winner of the previous game gets to go first, as an added reward. But this does not
@@ -11367,10 +11074,8 @@ lowest score go first? Neither of these solutions create fairness for all player
 Another solution is using a random die roll to determine player order. The player that rolled the highest
 number goes first. Even though a great many games use this method, it is not necessarily the best solution to
  Chapter 20: Games as Systems of Conflict
-13
- Chapter 20: Games as Systems of Conflict
-13
 
+ Chapter 20: Games as Systems of Conflict
 
 the problem. Will it feel fair to all of the players? For example, because play proceeds around the circle of
 players, the player that rolled the lowest number may end up as the second player, if that player is sitting next
@@ -11403,70 +11108,67 @@ challenged through innovative game designs such as Catch the Dragon's Tail. Does
 playing field of a game as well? Perhaps. But it is a very complicated question. In the next schema, Breaking
 the Rules, we do our best to answer it.
 [7]Reiner Knizia, Dice Games Properly Explained (Tadworth, Surrey: Right Way Books, 1992), p. 128-30.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 Homo Ludens, by Johann Huizinga (see page 99)
 Recommended:
 Chapter 1: Nature and Significance of Play as a Cultural Phenomenon
 The New Games Book, by Andrew Fluegelman and Shoshana Tembeck (see page 21)
 Recommended:
-14
+
  Chapter 20: Games as Systems of Conflict
-14
+
  Chapter 20: Games as Systems of Conflict
 
 
 "Creating the Play Community," Bernard DeKoven
 "Theory of Game Change," Stewart Brand
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 Conflict is an intrinsic element of every game. The conflict in a game emerges from within the magic
 circle as players struggle to achieve the goals of a game.
-• 
+•
 Game conflict comes in many forms. Conflict can be individual or team-based, cooperative or
 non-cooperative, direct or indirect. Many games mix and match forms of conflict within a single
 game structure.
-• 
+•
 The forms of conflict occurring within a game are a direct outgrowth of its rules. One way of framing
 a game's space of possibility is that it is a space of possible forms of conflict. Players take part not just
 in the forms of conflict that the game design proscribes, but will also find their own forms as well.
-• 
+•
 All games are competitive in that players struggle against each other or against a game system as they
 play.Without this sense of competition, meaningful play would be difficult because players would not
 be able to judge their progress through the space of possibility of a game.
-• 
+•
 All games are cooperative, in that playing a game means engaging with the shared meanings of the
 game, "speaking the language" of the game with other players in order to play.
-• 
+•
 Systemic cooperation refers to the fundamental, discursive cooperation that is intrinsic to all games.
 Player cooperation refers to games in which players all work together to achieve the goal. Not all
 games exhibit player cooperation.
-• 
+•
 The goal of a game is a fundamental element that shapes the game's formal structure. The goal is at
 once that toward which players strive, while also that which represents the end or symbolic death of a
 game.
-• 
+•
 Shaping victory and loss conditions is an important component of game design. Victory and loss
 conditions directly shape the possible outcomes of a game.
-• 
+•
 Game conflict is premised on a level playing field where all players have an equal chance of winning.
 A truly equitable game is virtually never possible in the real world, creating an intrinsic tension in
 regards to the fairness of any game. Players will generally refuse to play a game they perceive to be
 unfair.
-• 
- < Day Day Up > 
- < Day Day Up > 
+•
+ < Day Day Up >
+ < Day Day Up >
  Chapter 20: Games as Systems of Conflict
-15
- Chapter 20: Games as Systems of Conflict
-15
 
-
-16
  Chapter 20: Games as Systems of Conflict
-16
+
+ Chapter 20: Games as Systems of Conflict
+
  Chapter 20: Games as Systems of Conflict
 
 
@@ -11499,8 +11201,6 @@ the rules. Although this does describe many game players, it is certainly not tr
 children that Goldstein studied in his analysis of counting-out games. In manipulating rhymes in order to
 achieve certain desired results (he is going to be "It," not me!), what were these players actually doing? Were
  Chapter 21: Breaking the Rules
-1
-
 
 they stretching and altering the rules of counting-out in order to win? Were they cheating at the game? Or
 were they simply playing the game very well? This final formal schema, Breaking the Rules, takes a direct
@@ -11513,8 +11213,8 @@ to be an intrinsic part of games themselves. But what guides a player to break t
 rule-breaking on game play? How does a game's design either encourage or discourage players from breaking
 the rules? Lastly, can rule-breaking be used as a creative strategy for game design? We investigate these
 questions in the following pages.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Kinds of Rule-Breaking
 Rule-bending and rule-breaking manipulate the structure of a game. To cheat or transgress in a game means to
 break the rules, to have a relationship to the formal system that is different than the relationship that the
@@ -11522,11 +11222,11 @@ formal system itself presupposes and endorses. In considering the ways that game
 divide players into different player "types." Each type of player is defined by his or her relation to the formal
 systems of a game, along three related axes of behavior and attitude:
 The rule-breaking player's adherence to the rules
-• 
+•
 The rule-breaking player's interest in winning
-• 
+•
 The rule-breaking player's degree of lusory attitude
-• 
+•
 Player Types
 The Standard Player: This player type is a "standard" and honest game player that plays the game as it was
 designed to be played, following the rules and respecting their authority.
@@ -11544,9 +11244,9 @@ acknowledge the magic circle of the game and does not care about winning or abou
 Example: The frustrated Twister player that ruins a game by pushing over the other players.
 In the sections that follow, we describe each kind of player in more detail. But before moving on, it is
 important to recognize that these categories are neither fixed nor mutually exclusive. The boundaries between
-2
+
  Chapter 21: Breaking the Rules
-2
+
  Chapter 21: Breaking the Rules
 
 
@@ -11555,8 +11255,8 @@ might be seen as an unsportsmanlike, overly competitive "power gamer" when playi
 casual players. Likewise, a player might shift between categories over time, or even within the course of a
 single game. Despite the fluid boundaries between them, however, these categories provide a useful typology
 for understanding the ways players stretch, bend, and break game rules.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Standard Players
 The standard player is the test case against which all other types of players are contrasted. The standard game
 player attempts to follow the rules as best he or she can, respecting their authority and honoring the limits they
@@ -11579,8 +11279,8 @@ the "standard player" is really the majority case or a fiction that doesn't exis
 the "standard player" is still important.The idea that there is a standard player, a game player that earnestly
 follows the rules without trying to bend and break them, provides the backdrop against which less
 rule-governed styles of play can be understood.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Dedicated Players
 The next type of game player is the dedicated player. The dedicated player is really more of a special case of
 the standard player than a completely different player type. The dedicated player desires to become an expert
@@ -11590,10 +11290,8 @@ themselves to this task with a certain kind of zeal, to a degree that more casua
 enjoyable. If the game permits, dedicated players tend to practice their play, testing out strategies and
 perfecting their knowledge of the game.
  Chapter 21: Breaking the Rules
-3
- Chapter 21: Breaking the Rules
-3
 
+ Chapter 21: Breaking the Rules
 
 A typical Las Vegas tourist who wants to enjoy Blackjack might play a few games here and there, browsing
 different casinos and tables, relying on intuition to guide him as he plays. A dedicated Blackjack player, on
@@ -11625,7 +11323,7 @@ often contextual. Among your dedicated bowling buddies, you might fit in just fi
 scoffing at the league players that wear matching shirts and play the game "too seriously" to have fun. But
 when you end up in a game with a group of beginners who want to abandon a match in the middle to go see a
 movie, you might find yourself being accused of playing "too seriously" when you demand that they stay to
-the tenth frame and finish what they started. 
+the tenth frame and finish what they started.
 As game designers, it is important to understand the range of player types that encounter your game, and the
 kinds of relationships they have to the rules, goals, and magic circle that your game delineates. Some games
 clearly appeal to both standard and dedicated players, such as Scrabble. Scrabble is often played as casual
@@ -11639,9 +11337,9 @@ They are "classical" game players, the kinds of players for whom designers usual
 functionaries of the rules. Like standard players, dedicated players are indeed rule-abiding. But as we'll see
 soon enough, even though they seem more invested in the magic circle of a game, their dedication takes them
 one step closer to actual rule-breaking.
-4
+
  Chapter 21: Breaking the Rules
-4
+
  Chapter 21: Breaking the Rules
 
 
@@ -11670,14 +11368,14 @@ to lose a game of Tic-Tac-Toe, but refuses to take a turn. The player might stat
 next move, and claim that because the rules do not state a time limit, he can take as long as he wants, even
 years, before he has to move. This kind of behavior, although not violating the operational rules, clearly
 violates the spirit of the game.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Degenerate Strategies
 Dedicated and unsportsmanlike players have particular ways of engaging with the system of a game. One
 common behavior these player types exhibit is to make use of degenerate strategies or exploits. We first
 encountered degenerate strategies in Games as Game Theory Systems. A degenerate strategy is a way of
 playing a game that takes advantage of a weakness in the game design, so that the play strategy guarantees
-success. 
+success.
 Degenerate strategies often appear in complex games, where the numerous permutations of play sometimes
 afford shortcuts in the space of possibility. For example, you are playing a real-time strategy game against the
 computer and you realize that the program's AI does not handle pathfinding well. (Pathfinding refers to the
@@ -11688,10 +11386,8 @@ terrain. It is not difficult for you, however, to make the small corrections nec
 together. If you decided to take advantage of this weakness by strategically leading the computer-controlled
 opponents into obstacle-filled parts of the map, you would be using a degenerate strategy.
  Chapter 21: Breaking the Rules
-5
- Chapter 21: Breaking the Rules
-5
 
+ Chapter 21: Breaking the Rules
 
 Taking advantage of the game's weakness in this way would not exactly constitute cheating, but it does
 exploit the game's structure as a means of winning. Although games are not designed to be exploited by
@@ -11730,7 +11426,7 @@ the game, sacrificing "fun" in exchange for a shortcut to victory. It could also
 exploit was being used by a dedicated player who had "solved" the fighting game like a puzzle. As with the
 Pac-Man pattern players, instead of playing the game the way it was designed to be played, the dedicated
 player simply invented a new method of interaction. This is arguably an example of transformative play, an
-important game phenomena we will investigate in chapters to come. 
+important game phenomena we will investigate in chapters to come.
 Whether or not a particular degenerate strategy is considered proper is often contextual. For example, the use
 of the single-technique exploit to beat all of the computer opponents in our hypothetical fighting game might
 be admired by a group of players for its elegance. On the other hand, if the degenerate strategy were used
@@ -11740,14 +11436,14 @@ unsportsmanlike behavior, a violation of the implicit rules and the enjoyable sp
 of a game action, even if the action is the selection of a general strategy, is always influenced by the context in
 which it occurs. In a social context, the exploit unbalances the level playing field of conflict and shrinks the
 space of possibility to a very narrow range, threatening the meaningful play of the game.
-6
+
  Chapter 21: Breaking the Rules
-6
+
  Chapter 21: Breaking the Rules
 
 
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Degenerate Strategy Ecosystems
 As a rule of thumb, you want to be on the lookout for degenerate strategies and keep them out of your game.
 The ability to win a game by playing in a singular way demonstrates a poor game design, a space of
@@ -11770,7 +11466,7 @@ strategies, it is often necessary for the designers to step in and correct the b
 Magic's Black Lotus card. With popular games, play strategies sometimes evolve in a way that necessitates a
 refinement of the formal structure, like a gardener pruning branches of a tree to improve the overall health of
 the plant. The process of degenerate strategy correction is ultimately part of the iterative process of game
-design. One game that has undergone constant refinement is professional Basketball in the U.S. 
+design. One game that has undergone constant refinement is professional Basketball in the U.S.
 Over the last several decades, Basketball has undergone a number of rule changes. For example, in the 1960s
 and 1970s, most of the action took place right under the basket, where the chance of scoring was greatest. Play
 was dominated by tall players that could control this space with the greater offensive and defensive
@@ -11791,10 +11487,8 @@ The "illegal-defense rule" which banned zone defenses, however, did more than sa
 game. It moved professional basketball into fluid complexity…leaving the college game with
 its zoned parcels of real estate behind. Initially, it was feared that this legislated man-to-man
  Chapter 21: Breaking the Rules
-7
- Chapter 21: Breaking the Rules
-7
 
+ Chapter 21: Breaking the Rules
 
 defense would resolve competition in terms of "natural comparative advantage" (as an
 economist might call it), since if each player is matched up with a player on the other team,
@@ -11812,8 +11506,8 @@ to keep the game fresh.The act of rule-modification itself-by game designers, pl
 bodies-is an important kind of game design which will be addressed further in the pages to come.
 [1]Dave Hickey, Air Guitar: Essays on Art and Democracy (Los Angeles: Foundation for Advanced Critical
 Studies, 1997), p. 160-1.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Cheats and Spoil-Sports
 The player who trespasses against the rules or ignores them is a "spoil-sport." The
 spoil-sport is not the same as the false player, the cheat; for the latter pretends to be playing
@@ -11830,16 +11524,16 @@ violates the implicit, unspoken rules of a game, the cheater transgresses the op
 of play. The cheater is the player that secretly moves a piece when her opponent looks away from the board,
 the player that steals Monopoly money from the bank and hides it for future use, the player that uses a
 non-regulation golf ball in a tournament in order to gain a little more distance. The cheater surreptitiously
-takes actions that are not proscribed by the rules, in order to gain an advantage. 
+takes actions that are not proscribed by the rules, in order to gain an advantage.
 Does cheating destroy a game? The unexpected paradox of cheating is that, as Huizinga points out, the cheater
 is still in some way playing the game. The cheater breaks rules, but only to further the act of winning. So
 while the cheater sheds enough of the lusory attitude to disrespect the authority of the rules, the cheater still
 has faith in the sanctioned conflict of the game: being the victor still has meaning to the cheater. This may
 seem like bizarre behavior. What is the point of hanging onto the authority of the quantifiable outcome when
 the proscribed steps for getting there are thrown out the window?
-8
+
  Chapter 21: Breaking the Rules
-8
+
  Chapter 21: Breaking the Rules
 
 
@@ -11871,8 +11565,8 @@ belief, the spoil-sport has no qualms about ruining the play of others. The chea
 deathmatch to up his ping time and secretly improve his play performance. But the spoil-sport will unleash a
 virus that brings the game servers to a halt, making play impossible for all players.
 [2]Marc Prensky, Digital Game-Based Learning (New York: McGraw-Hill, 2001), p. 119.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Five Player Types Compared
 On the following page is table that summarizes the five kinds of players discussed in this schema. Several
 fascinating patterns arise when we compare player types in this way. The slippery slope between the dedicated
@@ -11896,10 +11590,8 @@ Intense interest in winning
 Unsportsmanlike Player
 Intense interest in winning
  Chapter 21: Breaking the Rules
-9
- Chapter 21: Breaking the Rules
-9
 
+ Chapter 21: Breaking the Rules
 
 Sometimes resembles the
 Dedicated player,
@@ -11927,8 +11619,8 @@ it certainly demonstrates an overly serious interest in the act of winning. How 
 about games that encourage rule-breaking as part of their play? Where do they fit into our understanding of
 formal transgressions? We end this chapter by looking at a series of games that incorporate rule-breaking into
 the game design itself.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Sanctioned Violations: Professional Sports
 In most games, rule violations threaten to destroy the magic circle. However, there is one category of game in
 which rule-breaking by players and punishments for violations of the rules are an important part of the overall
@@ -11944,7 +11636,7 @@ result of an "honest mistake" and is therefore treated somewhat lightly. Six fou
 pattern of rule-breaking behavior, and the player is ejected from the magic circle entirely. Sports referees, as
 extensions of the formal system of a game, have authority to decide when violations occur and how to
 interpret the rules to mete out punishment. For example, referees generally have the authority to throw players
-and coaches out of games if their behavior becomes too extreme. 
+and coaches out of games if their behavior becomes too extreme.
 When rule-breaking becomes sanctioned, as it is in sports, a whole new layer of implicit rules enters into the
 space of play. Whereas it is considered aggressive play (and a foul) to elbow an opponent on a Basketball
 court, it is truly bad sportsmanship to punch that same opponent in the face. As rule-breaking is integrated
@@ -11955,9 +11647,9 @@ This intentional brokering of rule-breaking can be quite complex. In Basketball,
 "draw fouls" from opponents. This risky practice can result in the player who is attempting to draw a foul
 committing a foul himself. Players who charge the basket on offense hoping to be fouled on their way to the
 hoop are often called for "charging," an offensive foul that results in the loss of the ball for the offensive team.
-10
+
  Chapter 21: Breaking the Rules
-10
+
  Chapter 21: Breaking the Rules
 
 
@@ -11980,8 +11672,8 @@ salaries to ticket sales to network advertising. When the external stakes of a g
 important to maintain and enforce the level playing field of conflict. The premise of a professional sport, even
 more than with most games, is that it is being played fairly. This emphasis on fairness extends naturally to its
 opposite: an emphasis on breaking the rules.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Sanctioned Cheating: Illuminati
 For a different approach to the integration of rule-breaking into a game, we turn to Illuminati, a humorous
 strategic tabletop game based on the Illuminatus books by Robert Anton Wilson. In the game, players take on
@@ -11992,34 +11684,32 @@ Some fiendish people think Illuminati is even more fun when nothing, not even th
 sacred. In this variant of the game, most forms of cheating are permitted.
 Exceptions:
 You may not tip over the table or disarrange opposing power structures.
-• 
+•
 You may not bring in counterfeit money or money from other sets.
-• 
+•
 You may not cheat on the amount of money drawn from the bank during setup or the income phase
 (this would slow things down too much).
-• 
+•
 Anything else goes. Anyone caught in the act must undo that cheat. There is no other penalty.
 Suggested methods for cheating include:
-• 
+•
 Accidentally misread the dice.
-• 
+•
 Steal from the bank (other than during the income phase).
-• 
+•
 Lie about the amount of power or resistance your groups have.
-• 
+•
 Stack the deck or peek ahead.
-• 
+•
 If anyone leaves the table, anything goes!
-• 
+•
  Chapter 21: Breaking the Rules
-11
- Chapter 21: Breaking the Rules
-11
 
+ Chapter 21: Breaking the Rules
 
 We recommend you play the cheating game only with very good friends or with people you will
 never see again.[3]
-• 
+•
 These "rules" for cheating in Illuminati provide a fascinating example of the relationship between
 rule-following and rule-breaking. Normally, cheating is considered something that runs counter to the spirit of
 the game rules. But in Illuminati, the sanctioned formal system of the game actually contains rules for
@@ -12054,7 +11744,7 @@ and the suggestions at the end, which imply that only good friends or near-stran
 game, are revealing. By removing the artificial nature of the game conflict, cheating can destroy the implicit
 camaraderie of the magic circle, letting its conflict leak out to infect the real-world relationships of players.
 Only friendships strong enough to weather such an experience or more disposable relationships in which
-further contact is not desired are appropriate. 
+further contact is not desired are appropriate.
 The very notion that the rules could sanction cheating is a bit outrageous, but it ultimately fits the spirit of the
 game and its narrative world quite well. Illuminati is a parodic game about hidden organizations that rule the
 world, where the players are secret power brokers manipulating governments, media, and culture to their own
@@ -12065,17 +11755,17 @@ In the right context, sanctioned cheating can be an innovative way to enrich a g
 done with great care. Beneath the light-hearted tone of Illuminati's rules is a careful design allowing only
 those forms of cheating that leave the game intact, playable, and meaningful. Cheating in Illuminati does not
 remove all rules and boundaries from the game: it serves to re-draw them. Although the new boundaries might
-12
+
  Chapter 21: Breaking the Rules
-12
+
  Chapter 21: Breaking the Rules
 
 
 be drawn in lines that are considerably more fuzzy, a clear formal system remains. Even cheating is something
 that can be intentionally designed to facilitate meaningful play.
 [3]Illuminati: The Game of Conspiracy, Fourth Edition (Austin: Steve Jackson Games, 1991), p. 9–10.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Hacks, Cheats, and Mods: Digital Rule-Breaking
 When it comes to forms of rule-breaking incorporated into the design and experience of games, computer and
 video games offer a cornucopia of examples. Following are some sample instances of digital game
@@ -12108,10 +11798,8 @@ that breach the spirit of a game. At the same time, walkthroughs have raised the
 complexity in certain game genres. Many digital games are so challenging that they seem designed to require
 a guide.
  Chapter 21: Breaking the Rules
-13
- Chapter 21: Breaking the Rules
-13
 
+ Chapter 21: Breaking the Rules
 
 Workarounds
 The complexity of digital games often makes it impossible for designers to test or anticipate every possible
@@ -12155,11 +11843,11 @@ networks mediate players, encourages rule-breaking as well. The reduced physical
 permits a greater sense of social autonomy, which can facilitate the surreptitious activities of rule-breaking.
 Lastly, digital games are pop culture with a rich fan base: game fans deconstruct and reconstruct the codes and
 structures of the works that interest them. Cheating and hacking in this sense is similar to the ways that Star
-Trek fans re-mix the narrative universe of the television show to invent new stories and characters. 
+Trek fans re-mix the narrative universe of the television show to invent new stories and characters.
 The blessing and curse of digital gaming media is that they provide a pliable space in which to play. With so
-14
+
  Chapter 21: Breaking the Rules
-14
+
  Chapter 21: Breaking the Rules
 
 
@@ -12171,8 +11859,8 @@ a digital game designer, you need to decide what kinds of rule-breaking you want
 you want to outlaw. Can you foster fan communities by offering sanctioned ways to violate the game without
 letting things get out of hand altogether? Ethics and game design collide in this rich space of rule-break-ing
 possibility.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Rule-Breaking as a Game Design Practice
 Our discussion of rule-breaking is not just an explication of the ways in which players break the rules of a
 game. It is a game design schema, a way of looking at all games that offers a framework for solving particular
@@ -12206,10 +11894,8 @@ our disposal the means whereby we can always fit the game to the way we want to 
 This is an incredible freedom, a freedom that does more than any game can, a freedom with
 which we nurture the play community. The search for the well-played game is what holds the
  Chapter 21: Breaking the Rules
-15
- Chapter 21: Breaking the Rules
-15
 
+ Chapter 21: Breaking the Rules
 
 community together. But the freedom to change the game is what gives the community its
 power. [4]
@@ -12254,14 +11940,14 @@ permeable is the boundary of the magic circle? How is it possible to not just pl
 very structures of gaming? We directly address these questions and many more in the PLAY and CULTURE
 schemas to come.
 [4]Bernard DeKoven, The Well-Played Game (New York: Doubleday, 1978)
- < Day Day Up > 
-16
+ < Day Day Up >
+
  Chapter 21: Breaking the Rules
-16
+
  Chapter 21: Breaking the Rules
 
 
- < Day Day Up > 
+ < Day Day Up >
 Further Reading
 Grasshopper: Games, Life, by Bernard Suits (see page 98)
 Recommended:
@@ -12271,66 +11957,64 @@ Recommended:
 Chapter 2: Guidelines
 Chapter 3: The Play Community
 Chapter 5: Changing the Game
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 Breaking the rules is a phenomenon that occurs in almost every kind of game.
-• 
+•
 Relative to rule-breaking, there are five player types. Each type of player has a particular relationship
 to the following aspects of a game:
 adherence to the rules
-♦ 
+♦
 interest in winning
-♦ 
+♦
 degree of lusory attitude
-♦ 
-• 
+♦
+•
 The standard player is the typical rule-following player that obeys the restrictions of the game and
 possesses the lusory attitude. Even if the standard player is a theoretical fiction, it is important to
 acknowledge this player position, which stands in contrast to the other four types.
-• 
+•
 A dedicated player is similar to the standard player but has an extra zealousness toward succeeding
 at a game. The dedicated player follows the rules, is interested in winning, and possesses the lusory
 attitude.
-• 
+•
 Unsportsmanlike players violate the implicit rules of a game without actually breaking operational
 rules. Their strong interest in winning gives them license to violate rules of etiquette and proper game
 behavior.
-• 
+•
 Cheaters break operational rules of a game in order to win. Cheating players thus possess a strong
 interest in winning, but will forgo the normal means of achieving victory. Acknowledging that other
 players can invoke the authority of the rules, cheaters break rules secretly.
-• 
+•
 A spoil-sport is a player that refuses to acknowledge the authority of a game in any way. These
 nihilistic players do not hesitate to destroy the magic circle of a game.
-• 
+•
 The five player types are not always distinct. During a single game, a player can move from one
 category to another. The same behavior in different contexts can fall into different player categories.
-• 
+•
  Chapter 21: Breaking the Rules
-17
- Chapter 21: Breaking the Rules
-17
 
+ Chapter 21: Breaking the Rules
 
 A degenerate strategy or exploit is a way of playing a game that ensures victory every time.
 Dedicated players and unsportsmanlike players make use of degenerate strategies. In general,
 degenerate strategies are detrimental to a game. However, within a community of players, degenerate
 strategies can sometimes act to expand the space of possibility.
-• 
+•
 There are many examples of the integration of rule-breaking into game design and player experience,
 including professional sports, digital games, and games that sanction cheating such as Illuminati.
-• 
+•
 Game designers need to recognize that rule-breaking is a common phenomenon in gaming and
 incorporate it into their game design thinking. One solution, which comes from the New Games
 Movement, is to empower players to be more like game designers by creating games with rules that
 are meant to broken and modified.
-• 
- < Day Day Up > 
- < Day Day Up > 
-18
+•
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 21: Breaking the Rules
-18
+
  Chapter 21: Breaking the Rules
 
 
@@ -12342,8 +12026,8 @@ about two logicians attempting to resolve a philosophical disagreement. The two 
 different dimensions of the same space. The gameboard is a grid: the robot combat occurs in the squares of the
 grid, whereas the philosophical debate occurs on the intersections of the grid. The two sub-games occur in
 separate and unrelated domains, but each exerts a subtle and crucial influence on the other.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Rules
 The Board
 The gameboard is a 6 x 8 (48-square) checkerboard, positioned between the players with the two narrow ends
@@ -12351,32 +12035,30 @@ facing either player. You can create an Ironclad gameboard simply by marking off
 checkerboard with masking tape.
 The Pieces
 24 checkers (or any other stackable piece): 2 colors, 12 of each color
-• 
+•
 64 stones (or any other small marker): 2 colors, 32 of each color
-• 
+•
 a 6-sided die
-• 
+•
 Setup
 Each player chooses a color of checker and a color of stone. Organize the checkers into six stacks as follows:
 two stacks of three checkers, two stacks of two checkers, and two stacks of one checker. Place the stacks
 according to the diagram below. Collect the stones in two bowls and set them beside the board.
 Structure of Play
 Players alternate turns.
-• 
+•
 Commissioned Game 2 — Ironclad
-1
-
 
 During a player's turn, he or she chooses one of the two sub-games and makes a move in this
 sub-game.
-• 
+•
 The player's opponent then makes any legal move for the player in the other sub-game.
-• 
+•
 As soon as a player achieves a winning condition in either sub-game, that player immediately wins
 the overall game.
-• 
- < Day Day Up > 
- < Day Day Up > 
+•
+ < Day Day Up >
+ < Day Day Up >
 Playing Ironclad: The Spectacle of Mechanical Destruction
 Beneath its hermetically sealed dome, the Grid is a clockwork battlefield littered with the steel corpses of
 recombinant automata. They re-assemble nightly to battle for the horror and amusement of an audience that
@@ -12390,15 +12072,15 @@ To move one of your robots onto any of the six squares on the opposite side of t
 row).
 How to Play
 You control a combat squad of giant robots, each robot represented by a stack of chips. During your turn you
-move one of your robots or fire on one enemy robot. 
+move one of your robots or fire on one enemy robot.
 Moving
 Robots can move one square in any direction horizontally, vertically, or diagonally. They may not move into a
 square already occupied by another robot.
 Robot movement
 Firing
-2
+
 Commissioned Game 2 — Ironclad
-2
+
 Commissioned Game 2 — Ironclad
 
 
@@ -12420,16 +12102,14 @@ stone gives one terrain bonus. If this robot is the target of enemy fire, the fi
 time for each robot that is firing on the target. The number showing on the die must be greater than the target's
 terrain bonus, in order for that robot to damage the target.
 Commissioned Game 2 — Ironclad
-3
-Commissioned Game 2 — Ironclad
-3
 
+Commissioned Game 2 — Ironclad
 
 Defensive terrain Again, the white target is under attack. This time, the target has a terrain bonus of 3. The
 black player must roll twice, once for each attacking robot. The target only takes damage on a roll of 4, 5, or
 6.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Playing Ironclad: The Technique of Scholarly Discourse
 The Grid is a formal system for philosophical disputation. It has been handed down through countless
 generations by the ones who live and die in pursuit of enlightenment. Its borders, once engraved with
@@ -12442,9 +12122,9 @@ How to Play
 You are attempting to manipulate stones (representing logical statements) on a grid (representing a formal
 philosophical system). Each turn you must place a stone of your color onto the grid. If you cannot place a
 stone you must move one stone of either color.
-4
+
 Commissioned Game 2 — Ironclad
-4
+
 Commissioned Game 2 — Ironclad
 
 
@@ -12453,7 +12133,7 @@ Placing
 Stones can be placed onto any unoccupied intersection of the grid, including those around the edges of the
 grid. The only limitation on stone placement is the Rule of Negation.
 The Rule of Negation
-You may not place a stone on the corner point of any square that contains one or more checkers. 
+You may not place a stone on the corner point of any square that contains one or more checkers.
 Rule of Negation No stones can be placed on intersections shown marked with an X.
 Movement
 If during your turn you cannot place a stone, you must move one stone of either color from one intersection of
@@ -12461,18 +12141,16 @@ the grid to another. In order to move, a stone must be situated next to an open 
 stone in the direction of any open intersection as far as you want, until it is blocked by another stone. The
 Rule of Negation has no effect on stone movement.
 Commissioned Game 2 — Ironclad
-5
-Commissioned Game 2 — Ironclad
-5
 
+Commissioned Game 2 — Ironclad
 
 Moving a Stone
 The Rule of Circularity
 You may not move a stone if that stone was the last stone moved.
 Forfeit
 If during your turn you cannot place or move a stone, your opponent wins.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Design Notes
 Frank Lantz
 Ironclad
@@ -12489,9 +12167,9 @@ about giant robots battling in arena combat.
 The cards use abstract symbols and numbers. A card that represents a "Premise"in the
 philosophy game might represent a "Base" in the battling robots game, "Irony" vs.
 "Camouflage Armor," and so on. All game actions would share the same mechanic but have
-6
+
 Commissioned Game 2 — Ironclad
-6
+
 Commissioned Game 2 — Ironclad
 
 
@@ -12510,7 +12188,7 @@ mech: enormous and overpowering, but piloted by a shriveled homunculus who is cr
 over the monster's surface wrenching off parts of the machinery and using them to jam his
 own gears. The Derridean mech: a swarm of robots who scatter to the edges of the arena and
 begin to disassemble its walls and floor, etc.) It's one of those idée fixe that I knew would
-come out somewhere but never knew when it would appear. 
+come out somewhere but never knew when it would appear.
 I love the high-culture/low-culture friction of the game, and I also think that the concept gets
 at something about games and representation that is hard to put into words but is an important
 and unique aspect of games.
@@ -12539,10 +12217,8 @@ most efficient way. The cards would have abstract symbols in the center and a di
 "flavor text" facing each opponent. One direction would say "EMP Blast" the other would say
 "Occam's Razor." Imagine Richard Garfield's NetRunner, only not as much fun.
 Commissioned Game 2 — Ironclad
-7
-Commissioned Game 2 — Ironclad
-7
 
+Commissioned Game 2 — Ironclad
 
 At this point I had a game that was almost working but wasn't at all enjoyable. More importantly, the
 game was supposed to be about one structure and two representations, but the structure really didn't fit
@@ -12592,9 +12268,9 @@ would dutifully carry my two precious themes!
 So, I abandoned Ironclad and I retreated, with some relief, to a totally different idea that I had been
 idly thinking about for a while. Often, when I looked at a grid, I would imagine a board game that was
 two different games at once. One set of pieces would move, like Chess, from square to square, while
-8
+
 Commissioned Game 2 — Ironclad
-8
+
 Commissioned Game 2 — Ironclad
 
 
@@ -12647,10 +12323,8 @@ term that describes a player leaving a "local" situation to move somewhere else 
 A final note: although the philosophers have long ago forgotten what they are arguing about, I happen
 to know that it's the mind/body problem. The robots are fighting because that's what robots do.
 Commissioned Game 2 — Ironclad
-9
-Commissioned Game 2 — Ironclad
-9
 
+Commissioned Game 2 — Ironclad
 
 Frank Lantz
 Frank Lantz is a freelance game designer based in New York City. For the past 3 years Frank has been lead
@@ -12658,11 +12332,11 @@ designer on a variety of projects for two independent game developers—gameLab 
 was Creative Director of New York design firm R/GA Interactive, where he worked on several games
 including the PC titles Gearheads and The Robot Club. Frank is a member of the faculty of NYU's Interactive
 Telecommunications Program, where he teaches classes in game design and interactive narrative.
- < Day Day Up > 
- < Day Day Up > 
-10
+ < Day Day Up >
+ < Day Day Up >
+
 Commissioned Game 2 — Ironclad
-10
+
 Commissioned Game 2 — Ironclad
 
 
@@ -12678,22 +12352,19 @@ Chapter 28: Games as Social Play
 Commissioned Game: Kira Snyder
 [Play] is a structuring activity, the activity out of which understanding comes. Play is at one and the same
 time the location where we question our structures of understanding and the location where we develop
-them.—James S. Hans, The Play of the World 
+them.—James S. Hans, The Play of the World
 How do the rules play out?
 Ultimately, game design is play design. The rules of a game are relevant because they facilitate the experience
 of players. Within this primary schema, we expand our understanding of games considerably, delving into
 topics like pleasure, narrative, and social interaction. In the movement from the primary schema of RULES to
 PLAY, we loosen our tight focus on rules as a formal system to examine the ways that rules become a
 meaningful experience for the players of a game.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Unit 3: Play
-1
 
-
-2
  Unit 3: Play
-2
+
  Unit 3: Play
 
 
@@ -12726,11 +12397,9 @@ We don't, for example, look at play as an experience of learning, or at play as 
 movement. The schemas included offer a starting point for an ongoing discussion of game design and play, a
 discussion that is only just beginning.
  Chapter 22: Defining Play
-1
 
-
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 What Is Play?
 As psychologist J. Barnard Gilmore notes in Child's Play, "Certainly everyone knows what play is not even if
 everyone can't agree on just what play is."[1] The psychological and anthropological study of play has resulted
@@ -12745,34 +12414,34 @@ seem to be many other activities that fall under the category of play and playin
 connection between the terms "play" and "game"? When we defined the word game in chapter 7, we posited
 two possible relationships between games and play:
 the act of creating music, such as playing the radio or playing a musical instrument
-• 
+•
 pretending: playing at being angry, playing the fool
-• 
+•
 activating a process: putting something into play
-• 
+•
 taking a risky action: playing fast and loose
-• 
+•
 the course of events or fate: letting things play out, playing into the hand of fate
-• 
+•
 stalling: playing for time
-• 
+•
 being joking or not serious: just playing around, playing tricks
-• 
+•
 gambling: playing the horses
-• 
+•
 a subtle effect: a smile playing on the lips, the play of light on the wall
-• 
+•
 the loose space between gears or cogs: the play of a car's steering wheel
-• 
+•
 fooling or deceiving someone: playing someone for all they're worth, playing on someone's feelings,
 playing up to someone
-• 
+•
 being artful, clever, or youthfully jubilant: dressing in a playful style, engaging in wordplay and, of
 course,
-• 
+•
 playing with toys or playing a game
-• 
-• 
+•
+•
 Games are a subset of play: Games constitute a formalized part of everything we might
 consider to be play. Playing catch or playing doctor are play activities that fall outside our
 definition of games (a contest of powers with a quantifiable outcome, etc.). However,
@@ -12788,9 +12457,9 @@ point to other understandings of the concept, which fall completely outside thes
 "play." Making a playful gesture, for example, or the play of the waves on the beach—these examples don't
 seem to have anything at all to do with games. Or do they? Looking over all of the ways that play manifests,
 we can group them into three categories of "play:"
-2
+
  Chapter 22: Defining Play
-2
+
  Chapter 22: Defining Play
 
 
@@ -12810,7 +12479,7 @@ activities, but also to the idea of being in a playful state of mind, where a sp
 injected into some other action. For instance, we are being playful with words when we create
 nicknames for friends or invent rhymes to tease them. We might dress in a playful way or
 deliver a critique of a sibling in a playful tone. In each case, the spirit of play infuses
-otherwise ordinary actions. 
+otherwise ordinary actions.
 Each of the three categories of play is successively more open and inclusive. As a category, ludic activities
 includes game play, and the category being playful includes both of the previous two. Game play is really just
 a special kind of formalized ludic activity. Similarly, ludic activities are formalized, literal ways of being
@@ -12818,13 +12487,11 @@ playful.
 [1]J. Barnard Gilmore, "Play: A Special Behavior." In Child's Play, edited by R.E. Herron and Brian
 Sutton-Smith (New York: John Wiley & Sons, 1971), p. 311.
 [2]Ibid.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 22: Defining Play
-3
- Chapter 22: Defining Play
-3
 
+ Chapter 22: Defining Play
 
 A General Definition of Play
 Although these three categories bring the many expressions of play into focus, we still lack a general
@@ -12855,7 +12522,7 @@ of moving around and inside them.
 Being Playful: Even in this broad category of play the definition is relevant. Using playful
 slang, for example, is to find free movement of words and phrases within the more rigid rule
 structures of grammar. Being playful while walking down the street means playing with the
-more rigid social, anatomical, and urban structures that determine proper walking behavior. 
+more rigid social, anatomical, and urban structures that determine proper walking behavior.
 In every case, play exists because of more rigid structures, but also exists somehow in opposition to them.
 Slang is only slang because it departs from the grammatical norm. It is oppositional to the more staid and
 conservative "official" uses of language, and gains its identity through its difference from them. Similarly,
@@ -12864,11 +12531,11 @@ action conforms to certain rules afforded by the formal structure of the buildin
 interaction. The play of a game, as we have explored in detail, is only possible because of rules. Yet
 paradoxically game play is in many ways the opposite of rules. In all of its many guises, play opposes and
 play resists. But it does so playfully, making use of existing structures to invent new forms of expression.
- < Day Day Up > 
- < Day Day Up > 
-4
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 22: Defining Play
-4
+
  Chapter 22: Defining Play
 
 
@@ -12910,13 +12577,11 @@ In the remaining sections of this chapter, we explore the three types of play in
 discover how each category intersects with our general definition of play, transformative play, and game
 design.
 [3]James S. Hans, The Play of the World (Boston: University of Massachusetts Press, 1981), p. 5.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 22: Defining Play
-5
- Chapter 22: Defining Play
-5
 
+ Chapter 22: Defining Play
 
 Being Playful
 If we examine how the word "play" is used and concentrate on its so-called transferred
@@ -12955,7 +12620,7 @@ Are these examples of "being playful" transformative as well? Possibly. Maybe th
 transforms your behavior: perhaps you make a habit of sitting in the same room at the same time the next day
 to enjoy the possibilities of the play. Or maybe telling the "seven ate nine" joke at dinner leads to an entire
 evening of math jokes that wouldn't otherwise have occurred. Every instance of play carries with it the seeds
-of transformative play. 
+of transformative play.
 How is this general understanding of being playful relevant to game design? When you are designing a game,
 you should maximize meaningful play for your participants at every possible moment. Often, this means
 thinking about how you can inject the proper spirit of playfulness into an otherwise ordinary behavior. You
@@ -12963,16 +12628,16 @@ Don't Know Jack, for example, took the normally chore-like routine of entering i
 game data, and outlining game rules and turned it into an entertainingly playful series of events that even
 experienced players of the game continue to enjoy. Could you make an entire game out of an experience that
 is typically ordinary or tedious? How about a game designed to be played while waiting in line? Or watching
-6
+
  Chapter 22: Defining Play
-6
+
  Chapter 22: Defining Play
 
 
 the news? Or driving a car? Once you understand that play is latent in any human activity, you can find
 inspiration for play behaviors and contexts anywhere.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Ludic Activities
 The second category of play, ludic activities, brings us closer to the play of games. Games represent one type
 of ludic activity, a particularly formalized variety of play. But there are many less formal versions of play as
@@ -12987,15 +12652,15 @@ framework for classifying play activities. Caillois' model is one of the most th
 organize the many forms of play.
 Caillois' model begins with four "fundamental categories" of play:[4]
 Agôn: Competitive play, as in Chess, sports, and other contests
-• 
+•
 Alea: Chance-based play, based in games of probability
-• 
+•
 Mimicry: Role-playing and make-believe play, including theater and other exercises of the
 imagination
-• 
+•
 Ilinx: Playing with the physical sensation of vertigo, as when a child spins and spins until he falls
 down
-• 
+•
 Here are some of Caillois' thoughts about each fundamental category:
 Agôn. A whole group of games would seem to be competitive, that is to say, like a combat in
 which equality of chances is artificially created, in order that adversaries should confront each
@@ -13014,10 +12679,8 @@ forgets, disguises, or temporarily sheds his personality in order to feign anoth
 Ilinx. The last kind of game includes those which are based on the pursuit of vertigo and
 which consist of an attempt to momentarily destroy the stability of perception and inflict a
  Chapter 22: Defining Play
-7
- Chapter 22: Defining Play
-7
 
+ Chapter 22: Defining Play
 
 kind of voluptuous panic upon an otherwise lucid mind…. Every child very well knows that
 by whirling rapidly he reaches a centrifugal state of flight from which he regains bodily
@@ -13025,8 +12688,7 @@ stability and clarity of perception only with difficulty. [8]
 Caillois' categories cover a wide range of play activities. Some of them, such as the game contests of agôn and
 the chance-based games of alea, resemble many of the games we have already discussed. Other activities he
 mentions, such as the make-believe play of mimicry and ilinx activities like leapfrog and waltzing, clearly fall
-outside the boundaries of games. Although many games include elements of mimicry and ilinx, these cate-
-gories go beyond a description of games—but they do outline a model for understanding many kinds of ludic
+outside the boundaries of games. Although many games include elements of mimicry and ilinx, these categories go beyond a description of games—but they do outline a model for understanding many kinds of ludic
 activities.
 Caillois doesn't limit his classification system to these four cat- egories. He enriches his taxonomy by adding
 the pair of concepts Paida represents wild, free-form, improvisa- tional play, whereas ludus represents
@@ -13055,10 +12717,10 @@ move- ment through the rigid rule-structures of the game. In a competitive game,
 to win by playing within the behavioral boundaries set by the system of rules. In a game of chance,
 players set the game in motion through their participation, hoping the system plays out in a fortuitous
 manner.
-• 
-8
+•
+
  Chapter 22: Defining Play
-8
+
  Chapter 22: Defining Play
 
 
@@ -13066,11 +12728,11 @@ The free of play of mimicry is the play of representation. If you wiggle your in
 "hello," pretending that your finger is a little person that can talk, you are play-ing with the fixed
 representational categories of finger and person, finding free movement within these more typically
 rigid sign systems through imaginative play.
-• 
+•
 Play in ilinx emerges as the play within physical and sensual structures. The spinning player abandons
 more typically tame behavior to find new sensation in the interplay between bodily movement and
 perceptual input.
-• 
+•
 Furthermore, the categories of ludus and paida directly address a structural understanding of games, a
 continuum of relationships between structure and play. As play edges closer to the ludus end of the spectrum,
 for example, the rules become tighter and more influential. Located on the other end of the spectrum,
@@ -13095,18 +12757,16 @@ way can be a valuable game design tool.
 [7]Ibid. p. 19.
 [8]Ibid. p. 23.
 [9]Ibid. p. 27.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Game Play
 The third and final category of play is game play. Just as ludic activities constitute a special subset of the
 larger category of being playful, game play is a special subset of the category of ludic activities. Game play
 only occurs within games. It is the experience of a game set into motion through the participation of players.
 The other two categories of play, being playful and ludic activities, contain a vast and diverse array of play
  Chapter 22: Defining Play
-9
- Chapter 22: Defining Play
-9
 
+ Chapter 22: Defining Play
 
 forms.Yet even though game play is the smallest category of the three, the play of games takes on a multitude
 of forms as well: the strategic competitive play of Settlers of Catan; the performative social play of Charades;
@@ -13123,19 +12783,19 @@ assumption is that play serves a larger purpose for the individual psyche, the s
 species, and so on. In Child's Play, Frank A. Beach indexes some of the functions that are typically associated
 with play across many fields:
 a release of surplus energy
-• 
+•
 an expression of general exuberance, or joie-de-vivre
-• 
+•
 expression of sex drive, aggression, or anxiety
-• 
+•
 youthful "practice" for adult life skills
-• 
+•
 necessary context for exploration and experimentation
-• 
+•
 a means of socialization
-• 
+•
 tool for self-expression and diversion[12]
-• 
+•
 Studying the function and purpose of play is important and fascinating work, but we will not address it in this
 book. The schemas we present for understanding play and other aspects of games focus on the challenges of
 creating meaningful play, rather than on investigating the social or psychological purpose of games. There is a
@@ -13158,9 +12818,9 @@ rules, and the psychology of the players.[11]
 Most or all of the "facets" Reider lists are ways of understanding the operation of play in a game. The
 psychology of play, the expression of love and aggression, the way that the game facilitates individual styles
 of play, are part of the play experience of Chess. Understanding the experiential qualities of play, engendered
-10
+
  Chapter 22: Defining Play
-10
+
  Chapter 22: Defining Play
 
 
@@ -13171,19 +12831,19 @@ Sutton-Smith (New York: John Wiley & Sons, 1971), p. 311.p. 204–208.
 [10]Ibid.p.8.
 [11]Norman Reider, "Chess, Oedipus, and the Mater Dolorosa." In The Study of Games, edited by Elliott
 Avedon and Brian Sutton-Smith (New York: John Wiley & Sons, 1971), p. 440.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 The play of a game is the experiential aspect of a game. Play in a game occurs as the game rules are
 set into motion and experienced by the players.
-• 
+•
 The relationship between games and play can be structured in two ways:
 Games are a subset of play: Games constitute a formalized part of all activities considered
 to be play.
-♦ 
+♦
 Play is an element of games: Play is one way to frame the complex phenomenon of games.
-♦ 
-• 
+♦
+•
 All of the different phenomena of play behavior can be organized into three categories:
 Game Play: the formalized, focused interaction that occurs when players follow the rules of a game
 in order to play it.
@@ -13191,38 +12851,36 @@ Ludic Activities: non-game behaviors in which participants are "playing," such a
 animals or a group of children tossing a ball in a circle. Game play is a subset of ludic activities.
 Being Playful: the state of being in a playful state of mind, such as when a spirit of play is injected
 into some other action. This category includes both game play and ludic activities.
-• 
+•
 A general definition of play: play is free movement within a more rigid structure.
-• 
+•
 Play emerges both because of and in opposition to more rigid structures.
-• 
+•
 Transformative play is a special kind of play that occurs when the free movement of play alters the
 more rigid structure in which it takes shape.The play actually transforms the rigid structure in some
 way. Not all play is transformative, but all forms of play contain the potential for transformation.
-• 
+•
 Anthropologist Roger Caillois classifies play according to four "fundamental categories:"
 agôn: competitive play
-♦ 
+♦
 alea: chance-based play
-♦ 
+♦
 mimicry: simulation or make-believe play
-♦ 
+♦
 ilinx: vertigo or physically-based play
-♦ 
-• 
+♦
+•
 Each of these categories can be plotted along an axis that runs from ludus, or rule-bound play to paida, or
 free-form play. Many games possess several of these characteristics of play at once.
- < Day Day Up > 
+ < Day Day Up >
  Chapter 22: Defining Play
-11
- Chapter 22: Defining Play
-11
 
-
- < Day Day Up > 
-12
  Chapter 22: Defining Play
-12
+
+ < Day Day Up >
+
+ Chapter 22: Defining Play
+
  Chapter 22: Defining Play
 
 
@@ -13256,8 +12914,6 @@ moves a paddle back and forth across the bottom of the screen, bouncing a ball i
 along the top of the screen. Each time the ball hits a brick it disappears; the goal of the game is to move
 through as many screens as possible, clearing every brick on the screen.
  Chapter 23: Games as the Play of Experience
-1
-
 
 Throughout his extraordinary book, author David Sudnow vividly evokes the experience of playing Breakout.
 His highly personal account describes the complex experience of play with a nuance and insight rarely found
@@ -13272,11 +12928,11 @@ visceral space of experiential potential, a space he explores through play, his 
 extended though the input, output, and logic of the game.
 The experience of play is just that: an experience. The word "experience" commonly refers to:
 The apprehension of an object, thought, or emotion through the senses or mind;
-1. 
+1.
 Active participation in events or activities, leading to knowledge or a skill;
-2. 
+2.
 An event or a series of events participated in or lived through.[1]
-3. 
+3.
 In other words, experience is participation. Every game creates its own kind of experience, from the theatrical
 interventions of live-action role playing, to the international spectacle of the Olympics, to the vast virtual
 communities of Phantasy Star Online. There is no single, proper kind of experience that all games should try
@@ -13284,8 +12940,8 @@ and provide. Yet there are principles of meaningful play that we can apply to ga
 contexts. In this chapter, and in the PLAY schema that follow, we investigate the design of experience as a
 fundamental principle of game design.
 [1]American Heritage Dictionary (Boston: Houghton Mifflin, 2000).
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Qualities of Experience
 The experience of play comes in so many diverse forms that creating a single catalog that takes all of them
 into account would be an impossible task. However, this does not mean that systems for categorizing play
@@ -13295,22 +12951,22 @@ as Culture,[2] Brian Sutton-Smith presents another model, one that lists the psy
 games are experienced. Although Sutton-Smith is looking specifically at video games, his model is relevant to
 other kinds of games as well. His five elements of game experience are:
 Visual scanning: visual perception, especially scanning the entire screen at once.
-• 
+•
 Auditory discriminations: listening for game events and signals.
-• 
+•
 Motor responses: physical actions a player takes with the game controls.
-• 
+•
 Concentration: intense focus on play.
-• 
+•
 Perceptual patterns of learning: coming to know the structure of the game itself.
-• 
+•
 Sutton-Smith offers a relatively succinct list of the elements that constitute the experience of play within a
 digital game. Visual scanning and auditory discrimination represent the sensorial activities of the player,
 motor responses represent the player's physical actions, and the other two elements (concentration and
 perceptual patterns of learning) represent cognitive mechanisms internal to the player that link these inputs
-2
+
  Chapter 23: Games as the Play of Experience
-2
+
  Chapter 23: Games as the Play of Experience
 
 
@@ -13338,7 +12994,7 @@ between input and output, between the action and outcome of player choice.
 Although Sutton-Smith's five categories do a good job of describing the experience of early, single player
 console games, they are certainly not inclusive of all games. A game might be invented, for example, that
 involves smell-based sensory input. There are also plenty of games that involve social communication
-between players, which Sutton-Smith's model does not take into account. 
+between players, which Sutton-Smith's model does not take into account.
 However, we can abstract elements from Sutton-Smith's thinking that are more widely applicable. His model
 in essence posits relationships between inputs, outputs, and internal player mechanisms. This three-part model
 is a useful general structure for understanding how players experience a game. The way that a player
@@ -13356,13 +13012,11 @@ on screen, responding to game events with rapid and repetitive motor responses. 
 play you want your players to experience is a useful way of framing any game design problem.
 [2]Brian Sutton-Smith, Toys as Culture (New York: Gardner Press, 1986), p. 69–72.
  Chapter 23: Games as the Play of Experience
-3
+
  Chapter 23: Games as the Play of Experience
-3
 
-
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Designing Interactive Experiences
 The challenge, of course, is that the experience of play is not something that a game designer directly creates.
 Instead, play is an emergent property that arises from the game as a player engages with the system. The game
@@ -13384,8 +13038,8 @@ the way these core interactions combine to form a larger trajectory of experienc
 cover the many dimensions of the micro- and macro- components of designed game play. The rest of this
 chapter will take a very close look at the fundamental micro-interactions of a game, known as the core
 mechanic.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Core Mechanic
 Every game has a core mechanic. A core mechanic is the essential play activity players perform again and
 again in a game. Sometimes, the core mechanic of a game is a single action. In a footrace, for example, the
@@ -13402,9 +13056,9 @@ essential mom-ent-to-moment activity of players, something that is repeated over
 During a game, core mechanics create patterns of behavior, which manifest as experience for players. The
 core mechanic is the essential nugget of game activity, the mechanism through which players make
 meaningful choices and arrive at a meaningful play experience. It is therefore very important to be able to
-4
+
  Chapter 23: Games as the Play of Experience
-4
+
  Chapter 23: Games as the Play of Experience
 
 
@@ -13418,8 +13072,8 @@ However, in focusing on the "high level," narrative elements of a game, game des
 fundamental questions that concern the core mechanic and play experience. Game designers don't just create
 content for players, they create activities for players, patterns of actions enacted by players in the course of
 game play.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Core Mechanics in Context
 Designing the activity of play means creating the system that includes the game's sensory output to the player
 and the play-er's ability to make input, as well as guiding the internal cognitive and psychological processes
@@ -13443,14 +13097,12 @@ Verbal Tennis
 Verbal Tennis is an unusual game in which two players carry on a conversation, taking turns making
 statements. The only rules are that each statement must be in the form of a question and cannot repeat another
 statement that has already been made. If a player gets stuck and cannot make a coherent response to the
-previous statement, he or she loses. A game might begin as follows: 
+previous statement, he or she loses. A game might begin as follows:
 PLAYER 1:Are you feeling well today?
 PLAYER 2:Don't I look well?
  Chapter 23: Games as the Play of Experience
-5
- Chapter 23: Games as the Play of Experience
-5
 
+ Chapter 23: Games as the Play of Experience
 
 PLAYER 1:If I knew that, why would I have asked you?
 PLAYER 2:Why do you care how I'm feeling?
@@ -13488,11 +13140,11 @@ has to rely on the conventions of other games. What if mouse movement was the in
 What if the keyboard was used as a physical input grid? What if the player had to hold the console controller
 upside-down? Designing inventive core mechanics, on or off the computer, often comes from questioning
 existing conventions.
- < Day Day Up > 
- < Day Day Up > 
-6
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 23: Games as the Play of Experience
-6
+
  Chapter 23: Games as the Play of Experience
 
 
@@ -13534,10 +13186,8 @@ shots. Sure enough they'd programmed the trajectories and different parts of the
 surface to match, so the light-ball behaved rather like a tangible object, refracting and
 deflecting so it seemed you could at least somewhat control the ball's direction.[3]
  Chapter 23: Games as the Play of Experience
-7
- Chapter 23: Games as the Play of Experience
-7
 
+ Chapter 23: Games as the Play of Experience
 
 At first, playing Breakout is simply a matter of hitting the ball, trying not to let it pass by the paddle. If a
 player misses the ball five times, the game is over. But as play continues, the game play grows deeper. The
@@ -13560,8 +13210,8 @@ blossoms an entire structure of play. This is precisely how meaningful play emer
 experience: through player action, input, and output. In the end, the system of play becomes more than the
 sum of its parts.
 [3]David Sudnow, Pilgrim in the Microworld (New York: Warner Books, 1983), p. 37.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Variations on a Core Mechanic
 Working with an existing core mechanic is a common game design problem. Perhaps there is a core mechanic
 that you want to borrow. Or maybe a publisher is funding a digital game project that needs to resemble an
@@ -13581,16 +13231,16 @@ Timed Play
 Breakout on the Atari 2600 is a finite game. The goal is to clear the bricks from one screen, which leads to a
 second screen of bricks. If that screen is cleared, the game ends. Because players score points for each brick
 eliminated, the score at the end of a finished game is always the same (864 points). One problem with this
-8
+
  Chapter 23: Games as the Play of Experience
-8
+
  Chapter 23: Games as the Play of Experience
 
 
 game design is that an expert player will be able to clear both screens and will eventually lose interest in the
 game. Even though the core mechanic might be engaging enough to encourage repeat play, it is more likely
 that the player will feel as if the game has been "solved." The game's space of possibility will become too
-familiar, and is unlikely to offer any more surprising challenges. 
+familiar, and is unlikely to offer any more surprising challenges.
 To address this potential problem, the cartridge includes a "timed" version of the game. In addition to a point
 score, the game keeps track of how long a player has been playing. The goal of a timed game becomes not
 only reaching the maximum number of points, but doing so as quickly as possible, adding a quantifiable tool
@@ -13633,13 +13283,11 @@ offers a total of twelve different Breakout games, eleven variants on the basic 
 game's core game mechanic. Obviously, one effect of including variations is to greatly expand the overall
 space of play; each version of the game provides new strategic and experiential possibilities. Playing Breakout
  Chapter 23: Games as the Play of Experience
-9
- Chapter 23: Games as the Play of Experience
-9
 
+ Chapter 23: Games as the Play of Experience
 
 takes place on two levels: not only do players explore the structure of an individual variant, but they also
-explore the larger set of variants as a whole. 
+explore the larger set of variants as a whole.
 For example, perhaps you like the satisfaction of the Breakthru version of the game, but you find it too easy.
 You might balance the difficulty by playing Breakthru with invisible bricks. If you are a strategic player that
 enjoys the pressure of the clock, timed versions of the game with steerable or catchable balls might work well
@@ -13682,9 +13330,9 @@ helps emphasize this event when it does occur.
 Repetitive Play
 One common criticism of early digital games like Breakout is that they are too repetitive. Although the core
 mechanic of the game is quite satisfying on its own, each level is essentially identical.There might be many
-10
+
  Chapter 23: Games as the Play of Experience
-10
+
  Chapter 23: Games as the Play of Experience
 
 
@@ -13712,13 +13360,11 @@ create meaningful variations on an existing game, or a new game altogether. The 
 mechanic and modifying it within a game relies on an iterative process. As you experiment with variations,
 ask yourself what is successful or unsuccessful about the existing core mechanic. Then try out your best
 guesses to see whether or not adjustments to the core mechanic result in more meaningful play.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 23: Games as the Play of Experience
-11
- Chapter 23: Games as the Play of Experience
-11
 
+ Chapter 23: Games as the Play of Experience
 
 Putting It All Together
 This chapter has introduced some general frameworks for thinking about the experience of play: how rules
@@ -13759,7 +13405,7 @@ What distinguishes Centipede's well-designed play from a more generic 2D shooter
 the player's unit:
 Mushrooms are immobile objects that clutter up the screen. It takes four shots from the player to
 destroy a mushroom, each shot taking away a quarter of the mushroom.
-• 
+•
 Centipedes are multi-segmented creatures that descend from the top of the screen and move back and
 forth, descending toward the player. When a centipede hits a mushroom, it drops a row downward,
 toward the player, meaning that the more mushrooms there are onscreen, the more quickly the
@@ -13768,10 +13414,10 @@ loop in which the player is constantly trying to clear mushrooms from the screen
 cen-tipede's descent, but is also creating more mushrooms by shooting the centipede. When a player
 shoots a segment of a centipede that is not the head or tail, the centipede splits into two creatures,
 becoming a multiple threat.
-• 
-12
+•
+
  Chapter 23: Games as the Play of Experience
-12
+
  Chapter 23: Games as the Play of Experience
 
 
@@ -13779,16 +13425,16 @@ Fleas descend in a straight line from the top of the screen, leaving behind a de
 mushrooms in their wake. Fleas only appear when the number of mushrooms in the lower half of the
 screen is below a certain amount, ensuring that there will always be enough mushrooms to create a
 challenging playfield.
-• 
+•
 Spiders move in a zig-zag style near the bottom of the screen, directly threatening the player's unit.
 But spiders eat mushrooms, so the player always has to decide whether it is better to kill a spider right
 away or to let it eat mushrooms while risking a collision with it.
-• 
+•
 Scorpions cross the screen horizontally above the player, so they do not pose a direct threat. However,
 they poison any mushrooms they encounter. If a centipede hits a poisoned mushroom, it will
 immediately move directly downward toward the player.As a result it is best to remove poisoned
 mushrooms from the screen.
-• 
+•
 Each of the five elements plays a role in the game's tightly designed system. The experience of play, a
 composite of all of the decisions made by the player, emerges from the possibilities mapped out by this
 system. For example, it is best to keep the overall number of mushrooms low, because the more mushrooms
@@ -13818,20 +13464,18 @@ But there's more. In his explication of the game, Rouse goes on to describe not 
 between game elements, but also how they create what he calls "escalating tension" over time. Centipede's
 design carefully orchestrates the experience of play, creating tension across many levels of the game at once.
 For example, there is an immediate sense of tension created through the way that the flea and the centipede
-respond to being hit: 
+respond to being hit:
 The first time the flea is shot, it will accelerate its descent, only being destroyed by a second shot.
-• 
+•
 Hitting a central segment of the centipede creates two centipedes.
-• 
+•
 In both of these cases, the result of a shot helps the player by bringing an enemy closer to destruction, but also
 adds additional danger to the game. As the centipede descends toward the bottom of the screen, anxiety
 slowly builds up. If the centipede reaches the bottom, extra centipede heads appear, making things
 dangerously crowded. However, once a level is complete, the player gains a brief respite before the next level
  Chapter 23: Games as the Play of Experience
-13
- Chapter 23: Games as the Play of Experience
-13
 
+ Chapter 23: Games as the Play of Experience
 
 begins, a relief that only accentuates the escalating tension that will immediately follow.
 Tension also escalates across an entire game. As the game proceeds, more and more mushrooms crowd the
@@ -13854,8 +13498,8 @@ of a game's core mechanic is a good starting point for designing powerful player
 [4]Richard Rouse III, Game Design: Theory and Practice (Plano, TX: Word-ware Publishing, 2001), p. 68.
 [5]Ibid. p. 68.
 [6]Ibid. p. 68.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 "Formal Abstract Design Tools," by Doug Church (see page 68)
 Man, Play, and Games, by Roger Caillois (see page 82)
@@ -13867,70 +13511,67 @@ Recommended:
 Memory
 Interface
 Cathexis
-14
+
  Chapter 23: Games as the Play of Experience
-14
+
  Chapter 23: Games as the Play of Experience
 
 
 Eyeball
 Coin
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 Play is experienced through participation. When a player interacts with a game, the formal system is
 manifest through experiential effects.
-• 
+•
 Sutton-Smith's model for the psychological processes by which video games are experienced:
 Concentration
-♦ 
+♦
 Visual scanning
-♦ 
+♦
 Auditory discriminations
-♦ 
+♦
 Motor responses
-♦ 
+♦
 Perceptual patterns of learning
-♦ 
-• 
+♦
+•
 This model can be abstracted into three components that constitute the system of experience of any
 game:
 input by which a player takes action
-♦ 
+♦
 output of the system to the player
-♦ 
+♦
 internal processes by which a player makes decisions
-♦ 
-• 
+♦
+•
 Game design is a second-order design problem. A game designer only indirectly designs the player's
 experience, by directly designing the rules. Creating meaningful experiences means understanding the
 ways a game's formal system transforms into an experiential one.
-• 
+•
 The core mechanic of a game is the essential moment-to-moment activity players enact. A core
 mechanic is repeated over and over in the course of a game to create larger patterns of experience.
-• 
+•
 A core mechanic can be a single activity, such as running in a footrace. A core mechanic can also be a
 compound activity, such as the military tactics, resource management, and mouse and keyboard skills
 of a real-time strategy game.
-• 
+•
 Too often, game designers do not consider a game design on the level of the core mechanic, instead
 relying on conventional interactivity to determine the key player activity.
-• 
+•
 A core mechanic can be extended and enlarged through the design of variations. Breakout provides a
 good example of a simple core mechanic that is intrinsically successful, but which has been
 successfully modified into many variations.
-• 
- < Day Day Up > 
- < Day Day Up > 
+•
+ < Day Day Up >
+ < Day Day Up >
  Chapter 23: Games as the Play of Experience
-15
- Chapter 23: Games as the Play of Experience
-15
 
-
-16
  Chapter 23: Games as the Play of Experience
-16
+
+ Chapter 23: Games as the Play of Experience
+
  Chapter 23: Games as the Play of Experience
 
 
@@ -13964,8 +13605,6 @@ are equally important in understanding the play of pleasure in a game.
 Within Games as the Play of Pleasure, a game's space of possibility is defined as more than a mathematical
 entity. It is a space in which a player's emotions and sense of desire undergoes manipulation and coercion,
  Chapter 24: Games as the Play of Pleasure
-1
-
 
 teasing and seduction, frustration and reward. As the sculptor of the space of possible pleasure, the game
 designer faces a truly challenging set of problems. Managing the pleasure of a game's players means
@@ -13973,8 +13612,8 @@ translating the formal intricacies of the rules into an engaging experience of p
 of formal rulesets may be complex, the tangled puzzles of pleasure and desire are surely enigmatic dilemmas
 of an even higher order.
 [1]Wordnet, Princeton University.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Rule-Bound
 Picture a child poised excitedly at the starting line of a footrace, ready to run down the track, breathlessly
 awaiting the starting signal. Rather than giving in to her intense desire to leap from the starting line, she waits
@@ -14005,10 +13644,10 @@ point for a discussion of the play of pleasure in games. Consider, for example, 
 intersects with several core game design concepts:
 Rules and Play. The idea that players subordinate their behaviors to the restrictions of rules in order
 to experience play-and its pleasures-is a fundamental aspect of games. The restrictions of rules
-• 
-2
+•
+
  Chapter 24: Games as the Play of Pleasure
-2
+
  Chapter 24: Games as the Play of Pleasure
 
 
@@ -14019,14 +13658,14 @@ Caillois makes an explicit link between a player's free action within the limits
 player gratification: "This latitude of the player, this margin accorded to his action is essential to the
 game and partly explains the pleasure which it excites."[4] Free play is dependant on, yet also resists,
 the rigid structures that give rise to it.
-• 
+•
 The Lusory Attitude. Playing a game means abiding by artificial restrictions, which make game
 actions seemingly inefficient. Runners not only wait for the starting gun, but, as Bernard Suits points
 out in Grasshopper, they also run around a circular track, instead of cutting through the middle of the
 field to reach the finish line first. Games are constituted by these kinds of constraints, which
 simultaneously restrain and enable pleasure. The willingness of players to step into these artificial
 systems in order to experience the resulting pleasure is at the heart of the lusory attitude.
-• 
+•
 Stylized Behavior. Although play is a free and improvisational activity, the rules of a game stylize the
 actions and behaviors of players in very particular ways. Think about the patterned movement of
 players engaged in a game of Ping Pong, or the tightly constrained movements of Simon Says. There
@@ -14034,7 +13673,7 @@ is something very pleasurable in the way that games stylize play through a ritua
 orchestration of movement and action. Children derive pleasure not just from the dramatic tension at
 the start of a race, but also from the collective experience of running together in formation, pumping
 their arms and kicking their heels toward the finish line.
-• 
+•
 Rules give rise to the dramatic structure of pleasure, the link between constraint and pleasure binding tightly
 the formal and experiential qualities of a game. But players don't simply stumble into a game. Unlike other
 forms of ludic activities (such as playing with a toy), a game demands that players know the rules before play
@@ -14043,8 +13682,8 @@ begins. What provides the enticement to begin play? What makes players stay in a
 Development and Evolution, edited by J.S. Bruner, A. Jolly, and K. Sylva (New York: Penguin, 1976), p. 548.
 [3]Ibid. p. 548
 [4]Roger Caillois, Man, Play, and Games (London: Thames and Hudson, 1962), p. 8.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Autotelic Play
 The magic circle of a game is, by definition, removed in some way from what Huizinga calls "ordinary life."
 The victories and losses, the triumphs and failures that a player experiences in a game are in a very real sense
@@ -14059,10 +13698,8 @@ If one considers the self-contained nature of the magic circle, the way that gam
 and provide their own goals, it is clear that games are strongly autotelic. We borrow the term from
 psychologist Mihaly Csikszentmihalyi, who in his book Flow explains that "The term 'autotelic' derives from
  Chapter 24: Games as the Play of Pleasure
-3
- Chapter 24: Games as the Play of Pleasure
-3
 
+ Chapter 24: Games as the Play of Pleasure
 
 two Greek words, auto meaning self and telos meaning goal. It refers to a self-contained activity, one that is
 done not with the expectation of some future benefit, but simply because the doing itself is the reward."[6]
@@ -14089,7 +13726,7 @@ player exploring the game world, customizing her character, killing monsters, an
 Because she is playing the game. The game is not a tool being used to fill an external, utilitarian need. The
 player is not playing the game in order to feed her cats, or tune her car's engine. The explicit interaction of the
 game is not a means to an end, as in the case of the medical database program; rather, the play of the game
-represents an end in itself. We play, in some measure, for play's own sake. 
+represents an end in itself. We play, in some measure, for play's own sake.
 Consider the way that the experience of play as an end, rather than a means, has affected the development of
 digital game technology. One of the reasons why games have been so inno-vative-pushing the envelope of
 computer processing power, creating experimental hardware interfaces, pioneering graphics rendering and
@@ -14102,11 +13739,11 @@ experiences that both feed and satisfy this sense of desire.
 [5]Bernard DeKoven, The Well-Played Game (New York: Doubleday, 1978),
 [6]Mihaly Csikszentmihalyi, Flow: The Psychology of Optimal Experience (New York: HarperCollins
 Publishers, 1991), p. 67.
- < Day Day Up > 
- < Day Day Up > 
-4
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 24: Games as the Play of Pleasure
-4
+
  Chapter 24: Games as the Play of Pleasure
 
 
@@ -14140,7 +13777,7 @@ a game? Where does the initial seduction begin? Does it begin the first time a p
 reads a review of a game that encourages or discourages the player to make a purchase? Does the seduction
 emerge from peer pressure and social values (Barbie Fashion Designer is for girls! Quake is cool! Everybody
 is playing P.O.X.!). Does it begin with the installation of a downloaded game, the first reading of a game's
-rules, or the menu screen of a console title? Does it start the moment a newbie shoots his first monster? 
+rules, or the menu screen of a console title? Does it start the moment a newbie shoots his first monster?
 Clearly, there is no single factor to which the act of seduction can be attributed and no single, isolated moment
 when the player decides to begin play. Designing the seduction of a game means understanding all of the
 formal, social, and cultural factors that contribute to the player's experience. It is important, for example, to
@@ -14153,13 +13790,11 @@ On the other hand, once players start playing your game, they have stepped out o
 entered into the magic circle of the game's design. As we will see, keeping players in a game, understanding
 and sculpting their experience of pleasure, offers at least as great a challenge as getting them to play in the
 first place.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 24: Games as the Play of Pleasure
-5
- Chapter 24: Games as the Play of Pleasure
-5
 
+ Chapter 24: Games as the Play of Pleasure
 
 Typologies of Pleasure
 It is difficult to generally speak about pleasure. It is especially hard to find the words that describe the
@@ -14185,25 +13820,25 @@ has done some thinking along these lines and has created his own typology, propo
 singular concept of "fun." In his typology LeBlanc lists eight categories that describe the kinds of experiential
 pleasure players derive from playing games.
 Sensation: Game as sense-pleasure
-1. 
+1.
 Fantasy: Game as make-believe
-2. 
+2.
 Narrative: Game as drama
-3. 
+3.
 Challenge: Game as obstacle course
-4. 
+4.
 Fellowship: Game as social framework
-5. 
+5.
 Discovery: Game as uncharted territory
-6. 
+6.
 Expression: Game as self-discovery
-7. 
+7.
 Submission: Game as masochism  [8]
-8. 
+8.
 Most of these categories are self-explanatory. Note, however, that "masochism" doesn't refer to sexual
 pleasure, but instead to the more general pleasure of submission to a system. Part of the hypnotic pleasure of
 Bejeweled or Solitaire, for example, comes from the ritualized act of behaving in a rule-based, stylized
-manner. That is what LeBlanc means by his category of Submission. 
+manner. That is what LeBlanc means by his category of Submission.
 LeBlanc's model is intended not only to assist game designers in understanding the range of forms that "fun"
 can take, but also to provide a common language for marketing digital games. He has proposed, for example,
 that by rating each of these categories on a zero-to-ten scale and putting that information on the back of a
@@ -14214,9 +13849,9 @@ to overlap. There is a very fuzzy line, for example, between Fantasy and Narrati
 as well. Categories such as Discovery and Expression might easily be applied to other categories: can't a
 social framework be uncharted territory? Doesn't self-discovery occur in a challenge? Moreover, even if these
 theoretical problems could be resolved, "officially" rating a game's pleasure in this way would be a highly
-6
+
  Chapter 24: Games as the Play of Pleasure
-6
+
  Chapter 24: Games as the Play of Pleasure
 
 
@@ -14227,19 +13862,19 @@ A different approach comes from psychologist Michael J. Apter, in his essay "A S
 Play." In focusing on the cognitive arousal play provides, Apter compiles the following list, amended with our
 brief paraphrasing in italics:
 Exposure to Arousing Stimulation: intense and overwhelming sensation
-1. 
+1.
 Fiction and Narrative: emotional arousal from character identification
-2. 
+2.
 Challenge: difficulties and frustrations arising from competition
-3. 
+3.
 Exploration: moving off the beaten track into new territory
-4. 
+4.
 Negativism: deliberate and provocative rule-breaking
-5. 
+5.
 Cognitive Synergy: imaginative play
-6. 
+6.
 Facing Danger: risk within the "protective frame" of play  [9]
-7. 
+7.
 Apter admits in his essay that these categories offer only a partial list of cognitive arousals, and that there is
 considerable overlap between categories. Despite these delimitations, Apter's model gives us another
 framework within which to consider pleasure in games, one that emphasizes cognition. Some of his
@@ -14249,13 +13884,13 @@ A third typology of pleasure comes from the classification of games by anthropol
 Defining Play, we introduced his four "fundamental categories," which purport to describe the phenomena of
 play:
 Agôn: competition and competitive struggle
-1. 
+1.
 Alea: submission to the fortunes of chance
-2. 
+2.
 Mimicry: role-playing and make-believe play
-3. 
+3.
 Ilinx: vertigo and physical sensation
-4. 
+4.
 In some ways, Caillois' compact categories offer a succinct distillation of the models LeBlanc and Apter
 propose. In agôn, alea, mimicry, and ilinx, there is a fusion of experiential and cognitive components that
 creates a useful critical framework.
@@ -14267,7 +13902,7 @@ typology to represent pleasure in games. You should feel free to mix and match d
 experience and pleasure, depending on the needs of your design.These typologies are less useful for theorizing
 about pleasure or for classifying games, but they can be very handy as a way of organizing observations about
 the kinds of pleasures that a particular game provides. One model is not necessarily better than the others;
-each offers a different way of thinking about pleasure and its many motivations. 
+each offers a different way of thinking about pleasure and its many motivations.
 For example, let us employ one of these typologies-Caillois' four categories-in looking at an Unreal
 deathmatch. Do they apply to the pleasures of playing Unreal? Certainly the game contains a great deal of
 competitive, agônistic struggle. Mimicry plays a strong role as well, in the fact that each player is represented
@@ -14277,10 +13912,8 @@ vertigo in the form of motion sickness. There are arguably even elements of chan
 the particular players that happen to join an online deathmatch, or the layout and distribution of items on a
 level.
  Chapter 24: Games as the Play of Pleasure
-7
- Chapter 24: Games as the Play of Pleasure
-7
 
+ Chapter 24: Games as the Play of Pleasure
 
 We can similarly apply the categories of LeBlanc and Apter. A game of Unreal provides all of the pleasures
 they list too, from the Fellowship that emerges out of hard-fought competition, to the creative Negativism of
@@ -14296,8 +13929,8 @@ Transcripts. Henry Jenkins.
 [8]Marc LeBlanc, Game Developers Conference, 2000.
 [9]Michael J. Apter, "A Structural-Phenomenology of Play." In Adult Play: A Reversal Theory Approach,
 edited by J. H. Kerr and Michael J. Apter (Amsterdam: Swets & Zeitlinger, 1991), p. 18-20.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Game Flow
 Listing categories is one approach to describing pleasure in a game. Are there other approaches? Is it possible
 to look at game pleasure in a more abstract way to synthesize the diverse pleasures of gaming into a single
@@ -14324,9 +13957,9 @@ when we achieve a state of flow we are deeply exhilarated. Csikszentmihalyi refe
 optimal experience. [10]
 It is what the sailor holding a tight course feels when the wind whips through her hair, when
 the boat lunges through the waves like a colt-sails, hull, wind, and sea humming a harmony
-8
+
  Chapter 24: Games as the Play of Pleasure
-8
+
  Chapter 24: Games as the Play of Pleasure
 
 
@@ -14376,17 +14009,15 @@ struggle against the system of artificial conflict, they attempt to assert contr
 actions. Yet the outcome of a game is always uncertain.
 The Loss of Self-Consciousness: In flow, the participant's sense of self becomes subservient
  Chapter 24: Games as the Play of Pleasure
-9
- Chapter 24: Games as the Play of Pleasure
-9
 
+ Chapter 24: Games as the Play of Pleasure
 
 to the greater whole of the experience. "When a person invests all her psychic energy into an
 interaction. . . she in effect becomes part of a system of action greater than what the
 individual self had been before. This system takes its form from the rules of the activity; its
 energy comes from the person's attention." The fact that Csikszentmihalyi emphasizes the
 systemic quality of a participant's connection with the flow activity is reminiscent of the
-system-based nature of games. 
+system-based nature of games.
 When we consider a game as an experiential system, the player is a component of that
 system-a formulation echoed by Csikszentmihalyi.
 The Transformation of Time: The participant's sense of time can stretch or shrink.
@@ -14407,36 +14038,36 @@ way of understanding that pleasure which draws players to a game and keeps them 
 Although he does not organize them this way, Csikszentmi-halyi's eight categories can be divided into two
 groups. Four of the eight components of flow describe the effects of the flow state:
 the merging of action and awareness
-• 
+•
 concentration
-• 
+•
 the loss of self-consciousness
-• 
+•
 the transformation of time
-• 
+•
 All of these effects occur in the player's experience once flow commences. These four facets of flow can
 diagnose whether a player has reached the flow state. If you are not sure if your game is truly producing flow,
 go down the list. If some or all of the four experiences listed are missing, you may need to adjust your design.
 But what kinds of adjustments are necessary? That's where the other four components come into play. Rather
 than being effects of flow, they represent flow's prerequisites:
 a challenging activity
-• 
+•
 clear goals
-• 
+•
 clear feedback
-• 
+•
 the paradox of having control in an uncertain situation
-• 
+•
 These four prerequisite elements of flow are characteristics of the flow activity itself. Within them is the key
 to designing flow in games. Does your game contain the prerequisites of flow? Is there enough challenge to
 create real uncertainty? Do the players clearly understand the goals? As they move through the system, do
 their actions provide clear feedback and a sense of control? If your game supplies all of these mechanisms,
-you are well on your way to creating the necessary conditions for flow. 
+you are well on your way to creating the necessary conditions for flow.
 If your aim is to create a flow state for your players, we can summarize our advice quite simply: design
 meaningful play. The four prerequisites of flow bear a striking resemblance to the key components of
-10
+
  Chapter 24: Games as the Play of Pleasure
-10
+
  Chapter 24: Games as the Play of Pleasure
 
 
@@ -14461,8 +14092,8 @@ worthy pursuit.
 [12]Ibid. p. 49.
 [13]Ibid. p.49-67.
 [13]Brian Sutton-Smith, The Ambiguity of Play (Boston: Harvard University Press, 2001), p. 185.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Sculpting Desire
 If one problem with the concept of flow is that it is not as game-specific as we would like, what would it mean
 to take a more game-centric look at pleasure? Thinking of games as systems of pleasure implies that the game
@@ -14471,17 +14102,15 @@ game, set in motion by the participation of players, becomes not just an experie
 experience of sensual, emotional, and psychological pleasure.
 Achieving such an experience requires that a game designer not only pay attention to the immediate feelings
 of pleasure a game may produce, but also the way that a player's pleasure evolves and changes over the course
-of a single game, or across many games. 
+of a single game, or across many games.
 Anyone can sit down at Quake and start shooting things. As he gains more experience, he
 realizes that if he stands in one place, he'll get killed, so he learns to start moving while
 shooting.Then he learns to circle-strafe. Then, to shoot while running backwards. Then, to
 figure out which weapons are better up close or far away.
 Disclaimer: The Limits of Flow
  Chapter 24: Games as the Play of Pleasure
-11
- Chapter 24: Games as the Play of Pleasure
-11
 
+ Chapter 24: Games as the Play of Pleasure
 
 As useful as it is, the concept of flow is not a skeleton key to unlock every mystery surrounding play and
 pleasure in games. Consider a few of the challenges in applying flow to game design:
@@ -14528,9 +14157,9 @@ interactivity-but with different results.
 The core mechanic of a game provides its own inherent pleasure, whether it takes the form of the sensual click
 of a Tiddley-Winks flip or the simple, randomized drama of each round of the card game War. If a game's
 core mechanic is well-designed, players may not even care about winning. Players can enjoy Tennis just for
-12
+
  Chapter 24: Games as the Play of Pleasure
-12
+
  Chapter 24: Games as the Play of Pleasure
 
 
@@ -14546,7 +14175,7 @@ familiar, and the player continues to play out the possible experiential permuta
 between games, players discover the comforting familiarity of a fixed structure and the challenge and danger
 of an uncertain outcome. This same-but-different mechanism makes for an extremely powerful engine of
 desire. It is the itch of the same-but-different that brings you back, time and time again, for just one more
-round of play. 
+round of play.
 Furthermore, transformative play assists this process. In Defining Play, we established transformative play as
 the special case of play, when the free movement of play alters the more rigid structure in which it takes
 shape. When the structure of the game is altered, the possibilities for replayability increase. Even in a simple
@@ -14569,18 +14198,16 @@ meanings, even as they are experienced, putting pleasure "at play" at each momen
 [15]Bob Bates,Game Design: The Art and Business of Creating Games (Roseville, CA: Prima Publishing,
 2001), p. 37.
 [16]James S. Hans, The Play of the World (Boston: University of Massachusetts Press, 1981), p. 28.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Patterns of Pleasure
 The patterns of pleasure that emerge within and between games offer special kinds of enjoyments. Game
 designer Brian Moriarty uses the word entrainment to refer to this kind of rhythmic pleasure. Entrainment
 comes from the French word "entrainer" and has two meanings: to carry along, and to trap. The word has
 commonly been applied to a range of physical and natural phenomena, from circadian sleep rhythms to the
  Chapter 24: Games as the Play of Pleasure
-13
- Chapter 24: Games as the Play of Pleasure
-13
 
+ Chapter 24: Games as the Play of Pleasure
 
 sonic play of a thunderstorm. According to holistic thinker Dr. Stephan Rechtschaffen, "Rhythmic
 entrainment is one of the great organizing principles of the world, as inescapable as gravity. It explains how
@@ -14601,7 +14228,7 @@ experiential, both mathematically regular and playfully flexible. Entrainment is
 unique to games, but it does come very close to identifying the curious structural pleasure that all game
 experiences seem to contain: the meditative patterns of Tetris; the turn-taking, clacking cadence of Billiards;
 the rhythmic shooting pattern of Space Invaders; the pulsing flow of cards, hits, and chips of Blackjack. Each
-of these game experi-ences-every game experience-can be framed as an instance of entrainment. 
+of these game experi-ences-every game experience-can be framed as an instance of entrainment.
 Entrainment is the experience of the same-but-different. As players explore the space of possible game
 pleasures, progress through the space occurs through patterned repetition, the drumbeat driving the heart of a
 game experience. Entrainment sometimes literally takes on form: the recurrent bleep of a laser blast, or the
@@ -14613,8 +14240,8 @@ changes. We find ourselves not just playing a game, but being played by the game
 mighty force, and it can carry along those trapped in its wake.
 [17]Dr. Stephan Rechtschaffen, The Omega Institute. <www.omega-institute.com>.
 [18]<http://www.xyzzynews.com/xyzzy.16f.shtml >.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Role of the Goal
 How does this transition come about? How is it that a game can draw us in and take us hostage? Some of the
 most powerful mechanisms of pleasure that a game contains are derived from their constituent parts. The
@@ -14623,9 +14250,9 @@ quantifiable outcome. When it comes to understanding the pleasure of a game, the
 crucial role.
 A game's goal is often the largest single element that drives the pleasure of a player. The goal is the ostensible
 reason for playing, but the goal is never easily attained; rather, it is the obscure object of desire, the carrot held
-14
+
  Chapter 24: Games as the Play of Pleasure
-14
+
  Chapter 24: Games as the Play of Pleasure
 
 
@@ -14663,8 +14290,8 @@ invented condition that the players accept as their ultimate objective. In estab
 and the way that players overcome adversity to work toward it, the game designer has tremendous influence
 on crafting the character of the play experience.
 [14]Herz, Joystick Nation, p. 64.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Goals Within Goals
 The goal is not the only source of pleasure in a game. In addition to the thrill that the pursuit of victory (or the
 agony of defeat!) can provide, games offer many pleasures that are parallel, or even tangential, to winning.
@@ -14673,10 +14300,8 @@ micro-interactions that move a player though a game. These smaller moments of pl
 engages repeatedly with the core mechanic, the same-but-different experience sustaining the interest and
 desire of the player.
  Chapter 24: Games as the Play of Pleasure
-15
- Chapter 24: Games as the Play of Pleasure
-15
 
+ Chapter 24: Games as the Play of Pleasure
 
 If the macro-level of a game's pleasure is the player's pursuit of the goal, and the micro-level is the player's
 engagement with the core mechanic, then what is it that links these two levels of play? The answer is
@@ -14702,7 +14327,7 @@ short-term goals themselves, in response to their current situation. A Pokémon 
 with earning every medal in the game, but perhaps he invents a different short-term goal, such as capturing
 every species of Pokémon, or moving his Pidgeotto up to level 50.
 Encouraging players to conceive and achieve goals gives them a sense of control in the game, as Doug Church
-points out in his essay "Formal Abstract Design Tools:" 
+points out in his essay "Formal Abstract Design Tools:"
 There are many ways in which players are encouraged to form their own goals and act on
 them. The key is that players know what to expect from the world and thus are made to feel in
 control of the situation. Goals and control can be provided and created at multiple scales,
@@ -14725,9 +14350,9 @@ whole continent.) Short-term goals generate pleasure through both of these funct
 achieving them.
 Short-term goals are necessary because without them, a player can get lost in the landscape of a game. Are
 your players confused about what to do next? Perhaps you need to adjust the design to encourage the creation
-16
+
  Chapter 24: Games as the Play of Pleasure
-16
+
  Chapter 24: Games as the Play of Pleasure
 
 
@@ -14750,15 +14375,15 @@ from a careful, conscious design process, but creating a game that can nourish d
 entrain and enrapture players, that can lead to new forms of pleasure and meaning-is always a matter of
 sensitive and detailed game design.
 [15] Doug Church,"Formal Abstract Design Tools." <www.gamasutra.com>, July 16, 1999.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Conditioned Pleasure
 Meaningful play is key to designing pleasure in games, but it is only by making choices that meaningful play
 emerges. If you recall from Interactivity, a choice is made up of two primary components: the action that the
 player takes and the outcome of that action. Our exploration of the core mechanic focused on the action half of
 the equation: the actual activity that the player performs. So what about the other half-the outcome? One way
 of framing this facet of the moment of choice is that whenever a player takes an action, she ends up being
-rewarded or punished by the game as a result. 
+rewarded or punished by the game as a result.
 Psychologists have studied the connection between choice, action, reward, and punishment in a variety of
 contexts. One useful approach, known as behavior theory, emphasizes observable behavior, specifically the
 way that interaction with an environment shapes behavior. Ivan Pavlov and John B. Watson were early
@@ -14774,10 +14399,8 @@ According to Skinner's theory of operant behavior, people learn to behave the wa
 certain kind of behavior has been rewarded in the past. If a lab rat learns that pressing a lever results in a food
 pellet appearing, it is going to develop a strong tendency to press that lever over time.
  Chapter 24: Games as the Play of Pleasure
-17
- Chapter 24: Games as the Play of Pleasure
-17
 
+ Chapter 24: Games as the Play of Pleasure
 
 Behavior theory distinguishes between positive reinforcements (a positive reward, such as a rat getting a food
 pellet), negative reinforcements (the removal of something unpleasant, like silencing a loud, high-pitched
@@ -14797,8 +14420,8 @@ rewards and punishments, game designers shape the actions players are likely to 
 important game design concept, especially in digital games, where the program automates so much of the play
 activity.
 [16]Henry Gleitman, Psychology, 2nd ed. (New York: W.W. Norton & Company, 1986).
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Rewards and Schedules
 Operant conditioning not only affects the kinds of choices players make during the course of a game, but also
 their general motivation to continue playing. More than just shaping good and bad behaviors, rewards and
@@ -14811,7 +14434,7 @@ curiosity, you're only going to drive away the very people who want to enjoy you
 Keeping players engrossed in your game as they play is the second of the two seductions of game design.
 Hallford and Hallford are absolutely correct that players need to be rewarded, that they need to accomplish
 tasks and feel satisfaction as they play. Although punishments are important, on balance a play experience
-needs to be pleasurable. Otherwise, nobody is having any fun. 
+needs to be pleasurable. Otherwise, nobody is having any fun.
 What kinds of rewards can games offer players? There are as many kinds of rewards as there are forms of
 play. Hallford and Hallford list four general types. Although these categories were written about computer
 role-playing games, they suggest the kinds of rewards other kinds of games might contain.
@@ -14819,13 +14442,13 @@ Rewards of Glory. Glory rewards are all the things you're going to give to the p
 absolutely no impact on the game play itself but will be things they end up taking away from the
 experi-ence. This includes winning the game by getting all the way to the end, completing a
 particularly difficult side quest, or defeating the plots of evil monsters.
-• 
+•
 Rewards of Sustenance. Rewards of this nature are given so the player can maintain their avatar's
 status quo and keep all the things they've gained in the game so far. This might include health packs
-• 
-18
+•
+
  Chapter 24: Games as the Play of Pleasure
-18
+
  Chapter 24: Games as the Play of Pleasure
 
 
@@ -14836,13 +14459,13 @@ Rewards of Access. Rewards of access have three critical features: they allow a 
 locations or resources that were previously inaccessible, they are generally used only once, and they
 have no other value to the player once they've been used. Keys, picklocks, and passwords are typical
 examples of this kind of reward.
-• 
+•
 Rewards of Facility. Rewards of facility enable a player's avatar to do things they couldn't do before
 or enhance abilities they already possess. When well handled, they should increase the number of
 strategies and options that player will have for playing the game. A good example of a facility reward
 might be a magic orb that lets an avatar walk through a stone wall or a cybernetic software up-grade
 that lets them shut down enemy gun turrets from a distance.[18]
-• 
+•
 Punishments, negative reinforcement, and positive reinforcement are important game design tools. They not
 only teach players what actions to take and not to take in a game, but also craft larger structures of pleasure.
 These structures assure that players are properly rewarded for spending the time to take part in the experience
@@ -14858,7 +14481,7 @@ Fixed reinforcement means that rewards or punishments are occurring at a steady,
 rate. A fixed ratio means that the outcome occurs a set number of times that the behavior is
 performed, such as a player getting a chevron for every five waves of aliens defeated. A fixed
 interval refers to a regular amount of time between reinforcements, as when a power-up
-appears in a game every 30 seconds as long as a player can stay alive. 
+appears in a game every 30 seconds as long as a player can stay alive.
 With variable reinforcement, the rewards and punishments are coming at irregular intervals.
 Variable ratio means that the outcome happens after an irregular number of intervals, like slot
 machine payoffs that occur at a random rate. With a variable interval, the reward or
@@ -14877,10 +14500,8 @@ keys, mobile enemies, movement, combat, manipulation of an inven-tory,and so on.
 will not read the instructions (and just as many will forget them soon after reading), how do you teach players
 what they are supposed to do in the game? Rewards and punishments are one means of shaping their behavior.
  Chapter 24: Games as the Play of Pleasure
-19
- Chapter 24: Games as the Play of Pleasure
-19
 
+ Chapter 24: Games as the Play of Pleasure
 
 The overall trajectory of the game is to open doors and move on to new rooms and new game levels. So you
 want your players to open those doors. Imagine the first time a player finds a key and uses it on a locked door.
@@ -14895,7 +14516,7 @@ rewards (points, extra lives, information about the next door location) with ext
 (sound effects, gold stars, congratulatory text). If you can craft the proper reward for your player, you will
 create a desire to achieve that satisfying reward event again, and the player's actions will follow suit.
 The same is true of negative reinforcements and punishments. By providing unpleasant feedback, you can
-teach your player what not to do in your game. Let's say your intention 
+teach your player what not to do in your game. Let's say your intention
 Fixed schedules are best at shaping behavior if the subject is being punished: sending a child to his room
 every time he performs an undesired behavior is much more effective than sending him to his room only some
 of the time. On the other hand, for many kinds of reinforcements, especially positive ones, variable schedules
@@ -14928,10 +14549,10 @@ In these levels, Half-Life uses variable ratio punishments. Sometimes the player
 opens a door or rounds a corner, but usually he is not. The experiential result of this design strategy is that in
 Half-Life, deadly threats seem to lurk in every dark shadow and beyond every closed doorway. Deploying
 enemies with restraint, creating a sparse pattern of unexpected, horrifying encounters, results in a more
-powerful experience through the use of fewer game elements. 
-20
+powerful experience through the use of fewer game elements.
+
  Chapter 24: Games as the Play of Pleasure
-20
+
  Chapter 24: Games as the Play of Pleasure
 
 
@@ -14961,7 +14582,7 @@ course, if you continue to observe your Unlocker playtesters engaging in too muc
 door unlocking, it might be telling you something else. Maybe something about the game's core mechanic
 makes combat more compelling than the hunt-and-unlock activities you intended as the game's focus. Perhaps
 you should turn Unlocker into a combat game. On the other hand, you could always remove the combat
-component entirely. It's your design. You decide. 
+component entirely. It's your design. You decide.
 Reward and punishment are two sides of a coin, both of them necessary to craft the structure of meaningful
 experience for players. Finding that elusive balance between positive and negative experience-between
 anxiety and pleasure-is one of the deepest challenges of game design. In the following section, we engage
@@ -14972,13 +14593,11 @@ Games ( Roseville, CA: Prima Publishing, 2001),
 [19]Gabe Newell, "Computer and Video Games Come of Age. A National Conference to Explore the Current
 State of an Entertainment Medium." February 10-11, 2000. Comparative Media Studies Department, MIT.
 Transcripts. Henry Jenkins.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 24: Games as the Play of Pleasure
-21
- Chapter 24: Games as the Play of Pleasure
-21
 
+ Chapter 24: Games as the Play of Pleasure
 
 Boredom and Anxiety: Flow Redux
 The concepts that come from behavioral psychology-operant conditioning, reinforcement schedules, positive
@@ -15023,14 +14642,14 @@ is an example of a negative feedback system (tendency toward a stable state wher
 The boost will most likely have a positive emotional impact on the losing player. "Positive reinforcement" and
 "negative reinforcement" are not universal terms, and mean very different things depending on whether you're
 referring to cybernetics or psychology. Be careful how you use them!
-22
+
  Chapter 24: Games as the Play of Pleasure
-22
+
  Chapter 24: Games as the Play of Pleasure
 
 
 One axis represents the degree of challenge an activity offers. The other axis represents the skills a participant
-possesses. 
+possesses.
 Both factors can range from a low to a high value, and as a player moves to different positions on the chart, he
 or she is navigating through different experiences of the activity. The narrow diagonal strip represents a
 potential flow state, those moments when a player's skills equally meet the challenges of the activity. On one
@@ -15058,7 +14677,7 @@ master, providing an appropriate degree of challenge for beginners and advanced 
 about your players' game experience. Can you provide proper challenge at every stage of the game, for all
 levels of players? During play-testing, keep a sharp eye out for players encountering boredom and anxiety and
 note when these moments occur. What was the context? What kinds of decisions and outcomes were
-happening during these moments? What kinds of player strategies led to boredom or anxiety? 
+happening during these moments? What kinds of player strategies led to boredom or anxiety?
 We can also frame boredom and anxiety in terms of meaningful play. Both states represent poorly designed
 moments of choice. If a player is feeling boredom, for example, she is not meaningfully exploring the space of
 possibility of a game.
@@ -15068,10 +14687,8 @@ player is not being confronted with a rich set of choices in an entraining patte
 is a dance between a player and the system of the game. When a game is boring, the player's dance partner
 feels like a lifeless mass that has to be dragged about the dance floor. That doesn't sound like much fun.
  Chapter 24: Games as the Play of Pleasure
-23
- Chapter 24: Games as the Play of Pleasure
-23
 
+ Chapter 24: Games as the Play of Pleasure
 
 Boredom can come from many different sources in a game. In the passage from Gabe Newell, he recalled the
 disappointing discovery of "long lulls where basically all you were doing was doing stuff that you'd already
@@ -15103,22 +14720,22 @@ how a player navigates the terrain of skill and challenge within a single game, 
 the way game skills are slowly built up over time. Csikszentmihalyi's model can also serve as a tool within the
 game design process. An iterative design process allows game designers to locate moments of boredom and
 anxiety in their game and re-shape the game experience to minimize moments of less meaningful play.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Anxiety and Boredom on the High Seas
 In a wonderful essay published on Gamasutra.com, Jesse Schell and Joe Shochet of Disney Imagineering
 write about the process of designing Pirates of the Caribbean-Battle for the Buccaneer Gold, a game "ride"
 where a group of players stands on a motion-platform pirate ship surrounded by video projections. During the
 game, one player steers the ship while the other players operate a number of cannons, firing at monsters, forts,
 and enemy vessels. Pirates of the Caribbean is designed as a condensed five-minute experience, and it was
-essential that players feel properly challenged at every moment of the game. 
+essential that players feel properly challenged at every moment of the game.
 In their design analysis, Schell and Shochet detail a number of design problems that had to be overcome in
 order to maximize player enjoyment. For example, during playtesting they identified as a problem the fact that
 the player steering the ship could take the ship to what they call "dull places," leading to a less engaging
 experience for all of the players. In the selected quotes below, Schell and Shochet outline some solutions to
-24
+
  Chapter 24: Games as the Play of Pleasure
-24
+
  Chapter 24: Games as the Play of Pleasure
 
 
@@ -15160,13 +14777,11 @@ experience of play can only be indirectly designed. How do you create a set of r
 of pleasure for your audience?
 [20]Jesse Schell and Joe Shochet,"Designing Interactive Theme Park Rides: Lessons From Disney's Battle for
 the Buccaneer Gold." <www.gamasutra.com/features/20010706/schell_01.htm >.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 24: Games as the Play of Pleasure
-25
- Chapter 24: Games as the Play of Pleasure
-25
 
+ Chapter 24: Games as the Play of Pleasure
 
 Meaningful Pleasure
 We can identify elements of the play of pleasure through concepts such as repetition and entrainment,
@@ -15210,25 +14825,23 @@ Designing for meaningful play comes down to treating players with great care and
 of the game. Too often, for example, a digital game just doesn't feel right. The interface is clunky, the player
 is not sure what to do when the game begins, or the first level is too hard. Retail digital games are usually
 designed for 30 to 40 hours of play. That kind of commitment demands a tremendous amount of trust. If the
-first five minutes are unpleasant, why would a player want to continue? 
+first five minutes are unpleasant, why would a player want to continue?
 There is a reason why Myst was superior to all of the CD-ROM multimedia game clones that followed it, or
 why Super Mario 64 is still better than the scores of 3D over-the-shoulder, char-acter-based console games
 that are released every year. Myst and Super Mario 64, although very different in the experiences they
 provide, have one thing in common: they both treat the player with a tremendous amount of care. From the
 moment the game begins, the player has clear direction and purpose. As players explore their expansive
-26
+
  Chapter 24: Games as the Play of Pleasure
-26
+
  Chapter 24: Games as the Play of Pleasure
 
 
 worlds, both games provide a satisfying increase in challenge, while never leaving the player feeling lost or
 confused. There is clarity to the way that these games construct player pleasure.
  Chapter 24: Games as the Play of Pleasure
-27
- Chapter 24: Games as the Play of Pleasure
-27
 
+ Chapter 24: Games as the Play of Pleasure
 
 Neopets
 Crafting this degree of pleasure is extremely challenging. Pleasure is difficult to design because it is an
@@ -15237,14 +14850,14 @@ for exploration by game designers. There are multitudes of game pleasures for yo
 deep into the hearts of your players; pleasures that transform your players and the ways that they understand
 the world; pleasures that expand the very medium of games. The process of discovering and inventing these
 pleasures is itself a unique form of bliss: the boundless joy of game design.
- < Day Day Up > 
-28
+ < Day Day Up >
+
  Chapter 24: Games as the Play of Pleasure
-28
+
  Chapter 24: Games as the Play of Pleasure
 
 
- < Day Day Up > 
+ < Day Day Up >
 Against "Addiction"
 The great damnation of the game [of Chess] has come from those who have been plagued by
 it. None has expressed so convincingly his sad and resigned self-denial as a minister who in
@@ -15256,7 +14869,7 @@ The play of pleasure in games is immensely complex, but we have done our best to
 Before ending this chapter, there is an additional issue we must address: addiction. Addiction and addictive
 play can mean many things. But by and large, among game designers, addiction is considered a positive trait,
 the mark of compelling play. In business terms, lots of addicted players mean that a game has a greater chance
-of being a commercial success. 
+of being a commercial success.
 Meaningful play can become addictive. If a player enjoyed the play of a game, he or she will probably want to
 play it again. If you create a space of possibility that rewards players for exploration, then you are likely to
 have players that want to see more permutations of how the rules play out. The same-but-different quality
@@ -15289,10 +14902,8 @@ playground to go into school.[21]
 Play is intrinsically engaging. But that doesn't mean that it is negatively addictive. It is true that some forms of
 play can become pathological. People can become compulsive gamblers, or they can spend so many hours in
  Chapter 24: Games as the Play of Pleasure
-29
- Chapter 24: Games as the Play of Pleasure
-29
 
+ Chapter 24: Games as the Play of Pleasure
 
 an online MUD that they neglect aspects of their life outside the game. These rare cases, often highly
 publicized, are the exceptions that prove the rule. The overwhelming majority of play phenomena are not
@@ -15300,7 +14911,7 @@ destructively addictive. This is true even for forms of play most commonly assoc
 addiction, such as gambling. In The Ambiguity of Play, Sutton-Smith presents extensive research on gambling
 with the conclusion that "the majority of players gamble moderately and with positive results for family life
 and pleasure."[22] The existence of addictive play disorders doesn't mean that all play is bad for you. Eating
-disorders and addictions abound. But that doesn't mean that you should avoid the pleasure of dining. 
+disorders and addictions abound. But that doesn't mean that you should avoid the pleasure of dining.
 To play is to find free movement within a more rigid structure. When a game activity becomes pathologically
 addictive, this movement is censured: free movement is shut down, the sense of free choice evaporates, and
 meaningful play abates. In this experiential sense, when a player becomes medically addicted to some form of
@@ -15313,28 +14924,28 @@ problem-solving. The rules are summarized below.[23]
 How to play the L Game
 Pieces. The Board is made up of 16 squares. Each player (only 2 can play) has an L piece that he must
 move when it is his turn. There are also two neutral pieces that either player can move.
-• 
+•
 Object. The object of the game is to maneuver the other player into a position on the board where he
 cannot move his L piece.
-• 
+•
 Starting Position. Proceeding from the starting position, the first player (and each player on each
 move thereafter) must move the L piece first. When moving, a player may slide, turn or pick up and
 flip the L piece into any open position other than the one it occupied prior to the move. When the L
 piece has been moved, a player may move either one (but only one) of the neutral square pieces to any
 open square on the board. It is not required that the neutral piece be moved, this is up to the player! A
 player wins the game when his opponent cannot move his L piece.
-• 
+•
 [21]Brian Sutton-Smith, Toys as Culture (New York: Gardner Press, 1986), p. 69-70.
 [22]Sutton-Smith, The Ambiguity of Play, p. 67.
-30
+
  Chapter 24: Games as the Play of Pleasure
-30
+
  Chapter 24: Games as the Play of Pleasure
 
 
 [23]< http://www.edwdebono.com/debono/lgame.htm >.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 "Designing Interactive Theme Park Rides: Lessons From Disney's Battle for the Buccaneer Gold," by Jesse
 Schell and Joe Shochet (see page 68)
@@ -15368,80 +14979,78 @@ Game is actually what makes it so distinctive and compelling as a play experienc
 Game seems to violate some of our most basic ideas about meaningful play, it still provides pleasure.
 Sometimes, when design rules are broken in a very original way, whole new modes of play can be invented.
  Chapter 24: Games as the Play of Pleasure
-31
+
  Chapter 24: Games as the Play of Pleasure
-31
 
-
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 Pleasure is intrinsic to games in many ways. The act of playing a game, submitting to a set of rules, is
 itself a form of pleasure. The restraint that limiting game behavior affords heightens the player's sense
 of pleasure.
-• 
+•
 Games provide autotelic pleasures, experiences that are pursued for their own sake. Although it is
 true that games provide extrinsic pleasures that affect a player's life outside the game, all games also
 provide intrinsic, autotelic pleasures that are significant only within the artificial meanings that the
 game creates.
-• 
+•
 Games must provide a double seduction for players. First, players must be seduced into entering the
 magic circle. Second, players must be continually seduced into remaining inside the circle of play.
-• 
+•
 There are many established typologies that address the forms of pleasure provided by
 games.Typologies of game pleasure are generally less useful for theorizing pleasure and more useful
 for organizing observations about game experience.
-• 
+•
 Psychologist Mihaly Csikszentmihalyi describes optimal experience as flow. Flow is the exhilarating
 pleasure that occurs when someone is engaged with an activity and feels in control of his or her
 actions. Although flow is not unique to games, it is a useful way of thinking about the creation of
 game pleasure.
-• 
+•
 Csikszentmihalyi names eight characteristics of flow, each of which has a strong connection to games.
 Four of the eight characteristics describe the effects of flow:
 the merging of action and awareness
-♦ 
+♦
 concentration
-♦ 
+♦
 the loss of self-consciousness
-♦ 
+♦
 the transformation of time
-♦ 
-• 
+♦
+•
 The other four characteristics describe the prerequisites of the kind of activity that will result in flow:
 a challenging activity
-♦ 
+♦
 clear goals
-♦ 
+♦
 clear feedback
-♦ 
+♦
 the paradox of having control in an uncertain situation
-♦ 
-• 
+♦
+•
 Games possess a quality we call same-but-different. Every time one plays a game, the formal
 structure remains the same, but the way the rules play out are different. This quality of games makes it
 pleasurable for players to explore the space of possibility. Because play is often transformative, the
 continued exploration of a game can change the game structure itself, leading to a potentially endless
 sequence of same-but-different pleasures.
-• 
+•
 Entrainment means both to carry along and to trap. Entrainment is the process of falling into the
 rhythmic patterns of pleasure that games can provide.
-• 
+•
 The goal of a game is a key component in shaping the experience of pleasure. The goal is the object
 of desire held out to entice players to continue playing.
-• 
+•
 Suspended between moment-to-moment core mechanics and the ultimate end goal are short-term
 goals. Short-term goals help players make plans in a game as well as provide moments of
 satisfaction when they reach them.
-• 
+•
 Behavior theory is a branch of psychology that studies observable behavior. Conditioning is the
 acquisition of learned behaviors through rewards and punishments. Rewards and punishments can be
 used to teach players how to behave in a game from moment-to-moment, as well as create an
 experience that rewards players for their participation over time.
-• 
-32
+•
+
  Chapter 24: Games as the Play of Pleasure
-32
+
  Chapter 24: Games as the Play of Pleasure
 
 
@@ -15449,30 +15058,27 @@ Reinforcement schedules refer to the rate at which players receive rewards and p
 Schedules can be either fixed or variable in regard to an interval of time or the ratio of action to
 outcome. Generally, variable reinforcement shapes behavior more powerfully than fixed
 reinforcement.
-• 
+•
 Challenge is an important way to shape player pleasure. If the challenge of a game is too high for a
 player's skills, anxiety results. If there is not enough challenge, boredom results. Ideally, games
 provide a balanced challenge at all moments.
-• 
+•
 A game designer can only indirectly design the pleasurable experience of a game through the creation
 of a game's rules. To provide meaningful play and pleasure, the actions a player takes must be
 discernable and integrated.
-• 
+•
 The word addiction has different meanings in the medical community and the game community. For
 game designers, addiction is a positive quality that signifies players' meaningful interaction with a
 game. When pathologically addictive behavior emerges from a game, play is no longer possible.
-• 
- < Day Day Up > 
- < Day Day Up > 
+•
+ < Day Day Up >
+ < Day Day Up >
  Chapter 24: Games as the Play of Pleasure
-33
- Chapter 24: Games as the Play of Pleasure
-33
 
-
-34
  Chapter 24: Games as the Play of Pleasure
-34
+
+ Chapter 24: Games as the Play of Pleasure
+
  Chapter 24: Games as the Play of Pleasure
 
 
@@ -15496,11 +15102,9 @@ detailed understanding of the way that games represent. The concepts we present 
 abstract, and this schema is certainly one of the more theoretical in this book. But the ideas initiated here find
 fruition in the more pragmatic schemas to follow, Games as Narrative Play and Games as the Play of
 Simulation.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 25: Games as the Play of Meaning
-1
-
 
 Two Kinds of Representation
 What exactly is the relationship between games and representation? There are two ways to think about it:
@@ -15523,8 +15127,8 @@ course of game play (traffic jams, the city electrical grid, budget spreadsheets
 representations have meaning within the game, but also contribute to the meaning of the game as a
 representational object in its own right. The many internal representations of Sim City add up to create a
 single representation: the game depicts the process of urban planning.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Systems of Meaning
 It should be self-evident that games contain representations. Think about the thousands of objects represented
 in a game such as Animal Crossing or Grand Theft Auto III. But games are not the only cultural forms that
@@ -15542,9 +15146,9 @@ players select a character and engage in hand-to-hand combat. Both characters be
 percent health, represented by a full green bar. As a character is struck by attacks, her health is reduced; when
 a character's health reaches zero, she has lost the match. Both health bars are visible to both players; each one
 communicates to a player the status of his or her own health, as well as the health of his or her opponent. This
-2
+
  Chapter 25: Games as the Play of Meaning
-2
+
  Chapter 25: Games as the Play of Meaning
 
 
@@ -15552,17 +15156,17 @@ information can suggest actions for the player to take, such as switching from a
 strategy if the player's own health is very low. Thus the "health bar" is a complex sign, which represents
 several things at once:
 The current level of health of a player's own character
-• 
+•
 A meter measuring who is winning the match (who has more health)
-• 
+•
 A display of how near the game is to finishing
-• 
+•
 A display of how soon one or both characters will die
-• 
+•
 The relative skill of both players
-• 
+•
 The effectiveness of a player's current playing strategy
-• 
+•
 This example illustrates that even a simple game stat can have multiple, interrelated meanings. The health bar
 is part of a complex network of signs, which is why appreciating the meaning of the health bar requires an
 understanding of the larger system. For example, your character's health is at 30 percent. Are you about to
@@ -15586,8 +15190,8 @@ interaction. For this example, we used the single stat of a health bar, but we c
 the game. When all of the elements represented in VF4 are considered at once, from the stances and
 maneuvers of the characters to the distances and spaces between them, the total system of meaning becomes
 staggeringly complex.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 System and Context
 The health bar in Virtua Fighter 4 is an individual sign. Individual signs are a key part of the way that
 meaning emerges from a game—but meaning requires more than just signs. Meaning requires a formal system
@@ -15599,10 +15203,8 @@ has to be played—ultimately, the meaning of the formal system emerges from wit
 context affects interpretation, and can enhance, distort, or even radically alter the meaning conferred by the
 system. Checkmate might not just mean the end of the game. It might also mean that money passes hands if
  Chapter 25: Games as the Play of Meaning
-3
- Chapter 25: Games as the Play of Meaning
-3
 
+ Chapter 25: Games as the Play of Meaning
 
 there was a wager on the game, or that reputations are gained and lost. It might not even mean final victory, if
 players are playing in a tournament for the best two out of three games.
@@ -15622,8 +15224,8 @@ that uses a Tic-Tac-Toe board to spell out "XXX." Rather than interpreting the t
 move in a game, the signs would also be read as symbols for kisses. The context of the "X" has shifted its
 meaning from a game move to a declaration of "winning" affection. The author of the love letter has played
 with the meaning of the sign "X" by shifting the context within which the sign is interpreted.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Emergent Representations
 In the "X" of Tic-Tac-Toe and in the action of Checkmate, we see that games create meaning through the
 interplay of system and context—but this operation is not unique to games. System and context represent a
@@ -15631,7 +15233,7 @@ general semiological approach to understanding how representation works. For exa
 written language. Language is structured by grammar, the formal system that gives its individual elements
 meaning. Yet the meaning of any utterance of language is also contextual. The phrase "Don't have a cow"
 means two different things when spoken by a dairy farmer or by Bart Simpson. The interpretation of the
-phrase relies both on grammatical structures and the context of the speaker. 
+phrase relies both on grammatical structures and the context of the speaker.
 Meaning is emergent. When we use language, as when we play a game, we are playing within the limits that
 the rules allow. To speak a sentence is to play with words—but only in ways that the rules of language permit.
 A paradox of meaning is that although simple rules shape every utterance, the total number of potential
@@ -15646,16 +15248,16 @@ play of meaning that occurs as players inhabit the system. Game designers must p
 of meaning within a game, crafting individual instances of player interaction within a larger field of
 representation. As a game designer creates a system of rules, he or she is also creating a vast space of
 representational possibility, a space that becomes meaningful through player interaction.
-4
+
  Chapter 25: Games as the Play of Meaning
-4
+
  Chapter 25: Games as the Play of Meaning
 
 
 [1]Jeremy Campbell, Grammatical Man: Information, Entropy, Language, and Life (New York: Simon &
 Schuster, 1983), p. 127.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Context of Meaning
 To see these abstract ideas in action, we'll turn to a thought experiment from Swords and Circuitry: A
 Designer's Guide to Computer Role-Playing Games by Neal and Jana Hallford. To illustrate how players learn
@@ -15696,10 +15298,8 @@ which buttons are "good" and "bad," and can make informed choices about their ac
 system implicates the player directly, for the meaning of a button is only ever established through player
 interaction. As Hallford and Hallford note, this design strategy "will also have the added bonus that players
  Chapter 25: Games as the Play of Meaning
-5
- Chapter 25: Games as the Play of Meaning
-5
 
+ Chapter 25: Games as the Play of Meaning
 
 will pay a little closer attention to their environment to see if there's anything new around them that may lead
 to new kinds of experiences."[3] In short, the rules and context of interaction help to establish "what things
@@ -15718,8 +15318,8 @@ design of an interactive context from which meaning can emerge.
 [2]Neal Hallford with Jana Hallford, Swords and Circuitry: A Designer's Guide to Computer Role-Playing
 Games (Roseville, CA: Prima Publishing, 2001),
 [3]Ibid. p. 154.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Down the Rabbit Hole
 In this schema, we frame games as the play of meaning, which is also a way of framing play as the process of
 making sense of the representational space of a game. What does it mean for a game to be a space of
@@ -15743,14 +15343,14 @@ Wonderland has its own set of rules for determining not only what things mean bu
 they are made meaningful. Alice's descent down the rabbit hole can be metaphorically seen as an entry into
 the magic circle that is Wonderland, a realm of artificial meanings, marked off in time and space from the real
 world. The rules of the real world do not precisely obtain in Wonderland, even though Wonderland itself is in
-6
+
  Chapter 25: Games as the Play of Meaning
-6
+
  Chapter 25: Games as the Play of Meaning
 
 
 some ways a parody of the real world, a curious mirror of reality that playfully distorts our ideas about the
-logic of representation. 
+logic of representation.
 Each individual game that Alice encounters in Wonderland is a microcosm of this general scheme. The
 absurdly humorous contest Carroll describes is still recognizable as a race. It has a track, runners, a starting
 count, and a clear moment when the race ends. At the same time, it is like no race in the real world. The shape
@@ -15776,8 +15376,8 @@ meaning of the Wonderland race illustrates the paired interaction of system and 
 internal and external meanings that makes representation possible.
 [4]Lewis Carroll, Alice's Adventures in Wonderland and Through the Looking Glass (New York: Signet
 Classic, 2000), p. 97–98, p. 173–74.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 In the Queen's Court
 Wonderland makes ideas about the artificiality of the play of meaning explicit. Alice's trip down the rabbit
 hole landed her in another context entirely, one where the rules of nonsense (rather than common sense)
@@ -15793,10 +15393,8 @@ ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, 
 soldiers had to double themselves up to stand on their hands and feet, to make arches. The
 chief difficulty Alice found at first was in managing her flamingo: she succeeded in getting its
  Chapter 25: Games as the Play of Meaning
-7
- Chapter 25: Games as the Play of Meaning
-7
 
+ Chapter 25: Games as the Play of Meaning
 
 body tucked away, comfortably enough, under her arm, with its legs hanging down, but
 generally, just as she got its neck nicely straightened out, and was going to give the hedgehog
@@ -15829,8 +15427,8 @@ was, in fact, one of the points of Carroll's "design." Carroll was a master in t
 game structures, whether that of playing cards, Chess, or Croquet, demonstrates the mechanisms of
 sense-making, revealing how the fields of representation denoted by games are ripe for playful interpretation.
 [5]Ibid. p. 176.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Framing Play
 It is time to climb out of the rabbit hole. Next stop: a concept that is critical to an understanding of play and
 meaning, the cognitive frame, which comes to us from the field of psychology. Taken most generally, a
@@ -15841,9 +15439,9 @@ and instructive. Carroll employs the cognitive frames of "game" and "play" throu
 communicate that Wonderland is a space separate from reality, one where special rules abound. If you first
 had to read Alice in Wonderland for an English class, perhaps the cognitive frame of "exam" or "essay"
 shaped your interpretation and experience of the book.
-8
+
  Chapter 25: Games as the Play of Meaning
-8
+
  Chapter 25: Games as the Play of Meaning
 
 
@@ -15852,7 +15450,7 @@ game, he or she is crossing that boundary, or frame, which defines the game in t
 frame is a concept connected to the question of the "reality" of a game, of the relationship between the
 artificial world of the game and the "real life" contexts that it intersects. Additionally, a game's frame is
 responsible not only for the unusual relationship between the game and the outside world, but also for many
-of the internal mechanisms and experiences of game play. 
+of the internal mechanisms and experiences of game play.
 How does the concept of the cognitive frame fit into a discussion of play and meaning? Anthropologist
 Gregory Bateson notes that, "play occurs within a delimited psychological frame, a spatial and temporal
 bounding of a set of interactive messages."[6] The frame of a game communicates that those contained within
@@ -15867,8 +15465,8 @@ additional function that helps shape how we communicate and make meaning, embodi
 metacommunication.
 [6]Gregory Bateson, "A Theory of Play and Fantasy." In Steps to an Ecology of Mind (Chicago: The
 University of Chicago Press, 1972) , p. 191.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Metacommunication and Play
 In his important essay "A Theory of Play and Fantasy," Gregory Bateson defines the concept of
 metacommunication. For Bateson, play not only grants distinctive meanings to actions but also communicates
@@ -15891,10 +15489,8 @@ what is going on here? The playful nip connotes a bite: it means, Aha! I pursued
 bit you! At the same time, the nip connotes the opposite: the nip also means, I didn't really bite you. I'm just
 playing. This double meaning, that the nip represents the bite but also exactly what the bite is not, is what
  Chapter 25: Games as the Play of Meaning
-9
- Chapter 25: Games as the Play of Meaning
-9
 
+ Chapter 25: Games as the Play of Meaning
 
 Bateson means by metacommunication.
 Metacommunication not only occurs with animals, but in games that people play as well. In Spin the Bottle,
@@ -15927,8 +15523,8 @@ meanings.
 [7]Ibid. p. 179.
 [8]Ibid. p. 178.
 [9]Brian Sutton-Smith, The Ambiguity of Play (London: Harvard University Press, 1997), p. 23.Our emphasis.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Captured by the Game
 Imagine a neighborhood game of Cops and Robbers. Everyone playing the game takes on a role of either a
 "cop" or a "robber." The cops designate a tree to represent the "jail" in the game.The rules of the game
@@ -15936,9 +15532,9 @@ describe what players can do and when: how robbers can be captured by cops, plac
 other robbers. The game contains many representations: cops, robbers, and a jail, as well as actions such as
 capturing and making a jailbreak. The rules initially establish these representations, but they find their
 meaning through play.
-10
+
  Chapter 25: Games as the Play of Meaning
-10
+
  Chapter 25: Games as the Play of Meaning
 
 
@@ -15961,8 +15557,8 @@ Game players inhabit that wonderland space where the frame of the game intersect
 world. Game designers have the supreme pleasure of creating their own rabbit holes, hoping players find their
 way down inside, in order to create their own meanings. Game designers are the architects, the
 meaning-makers, the storytellers that make the play of wonderland possible.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 Nonsense: Aspects of Intertextuality in Folklore and Literature, by Susan Stewart
 Stewart explores the labyrinthine relationships between common sense and nonsense, pointing to the ways
@@ -15982,59 +15578,57 @@ metacommunication, and their relationship to play, are wonderfully explored in t
 offers a good introduction to the idea that play is a system of representation, in which interpretations are
 affected through their framing as "play".
  Chapter 25: Games as the Play of Meaning
-11
+
  Chapter 25: Games as the Play of Meaning
-11
 
-
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 There are two ways of understanding the relationship between games and representation:
 Games can represent (they contain internal depictions)
-♦ 
+♦
 Games are representations (a game as a whole is a sign)
-♦ 
-• 
+♦
+•
 Meaning in a game emerges from the interaction between system and context:
 The system of a game's meaning is the set of formal relationships defined by the rules. It is
 the pre-existing structure of signs that does not change from game to game.
-♦ 
+♦
 The context of a game's meaning is the space of experience where interpretation takes place.
 Interpretation in games is the act of play.
-♦ 
-• 
+♦
+•
 This process of generating meaning is not unique to games. For example, meaning in language also
 emerges from the relationship between formal systems (grammar) and the context of interpretation.
-• 
+•
 Because games are emergent systems, even a simple system can generate infinite meanings. The
 resulting set of possible meanings is the space of representational possibility of a game.
-• 
+•
 Players in a game navigate this space of representational possibility through interaction. Game
 designers, by creating chains of actions and outcomes, build this space of possible meaning.
-• 
+•
 The magic circle of a game is the space where special meanings obtain. It is the space where the rules
 of a game take hold, as well as the context for the interpretation of meaning.
-• 
+•
 The meanings within the magic circle of a game are derived both from the internal formal system of
 the game as well as the ways that the game refers to the real world.
-• 
+•
 A cognitive frame is a way of organizing how we look at the world. Game players take on a
 cognitive frame that affects how they interpret actions and events.
-• 
+•
 Metacommunication is communication that takes place in the context of play. In addition to
 communicating game actions, players are also always communicating the fact that they are "just
 playing".
-• 
+•
 Metacommunication helps generate the complex play of meaning in a game. Every game behavior
 signifies an action ("I just captured you!") but it also signifies what the action is not ("I didn't really
 capture you, since we were just playing.").
-• 
- < Day Day Up > 
- < Day Day Up > 
-12
+•
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 25: Games as the Play of Meaning
-12
+
  Chapter 25: Games as the Play of Meaning
 
 
@@ -16051,8 +15645,8 @@ travel through this mysterious force field or will you crash and be destroyed? A
 you make it through one, can you make it through the next, and the next? It's decision time and there are only
 a few seconds to think about it. Turn back or blast ahead and try to make it through the layers of this brightly
 colored force field. It's up to you.—Atari Super Breakout Game Program Instructions
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Introducing Narrative Play
 Consider the card game War as an epic battle between the forces of good and evil, waged with a deck of cards
 and the laws of probability. Imagine Wipeout XL as a future sport circa 2097, in which corporate-sponsored,
@@ -16062,8 +15656,6 @@ space shuttle and a mysterious force field of blinding intensity, a gigantic arr
 engine. Energize the laser blaster. Check the radar screen. Blackness, a flash of light, and then…you are
 playing the game. The story, your story, begins.
  Chapter 26: Games as Narrative Play
-1
-
 
 Playing a game means interacting with and within a representational universe, a space of possibility with
 narrative dimensions. In Oddworld: Abe's Exoddus, players fight the Glukkons of the rapacious Magog Cartel
@@ -16097,8 +15689,8 @@ how games generate meaningful play through the process of signification. In this
 at larger questions of games and the experience of narrative representation. In the next chapter on simulation,
 we zoom back in to investigate the more atomic structures of games as representational systems, linking
 together signification, simulation, and storytelling.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Narrative Tensions
 Using other media as starting points, we may learn many things about the construction of
 fictive worlds, characters…but relying too heavily on existing theories will make us forget
@@ -16108,9 +15700,9 @@ the unique parts that we need to study now.—Jesper Juul, "Games Telling Storie
 The intersection of the terms "narrative" and "game" has been surprisingly contentious in the study and design
 of games. In recent years, scholars and students of literature, film, and electronic narrative forms such as
 hypertext have gravitated toward the study of computer games. As disciplines outside of game design have
-2
+
  Chapter 26: Games as Narrative Play
-2
+
  Chapter 26: Games as Narrative Play
 
 
@@ -16145,14 +15737,14 @@ Stories? A Brief Note on Games and Narratives," Jesper Juul summarizes these tre
 arguments writers and scholars commonly make supporting an intrinsic connection between games and
 narrative:
 We use narratives for everything.
-1. 
+1.
 Most games feature narrative introductions and backstories.
-2. 
+2.
 Games share some traits with narratives.[2]
-3. 
+3.
 The first argument offers a holistic view: we use narratives to make sense of our lives, to process information,
 and tell stories about a game we have played. Therefore, no genre or cultural form (including games) falls
-outside the idea of narrative. 
+outside the idea of narrative.
 The second argument centers on the story context provided by a game's opening cinematic or textual
 introduction. (You are in a galaxy far, far, away . . .) Backstories position a player in the context of a larger
 story; a player's action in a game is the means by which the larger story is realized. In Super Breakout, for
@@ -16164,10 +15756,8 @@ journey. Without this con-text,a player's actions in the highly abstract game of
 narrative motivation. Although his actions certainly have interactive meaning—one pixel interacts with
 another, one action has a discernable and integrated outcome —they lack a designed experiential context
  Chapter 26: Games as Narrative Play
-3
- Chapter 26: Games as Narrative Play
-3
 
+ Chapter 26: Games as Narrative Play
 
 within which these more formal meanings are framed as a story.
 The third argument, that games share some traits with narratives, is exceedingly broad. This argument holds
@@ -16181,8 +15771,8 @@ from many points of view. Seeing games as information, conflict, pleasure, or me
 designers to design meaningful play. The same is true when we look at games as narrative play.
 [1]RE:PLAY: Game Design + Game Culture. Online conference. 2000. <www.eyebeam.org/replay >
 [2]Jesper Juul, "Games Telling Stories? A Brief Note on Games and Narratives." Gamestudies.org
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 A Framework for "Narrative"
 Before we go any further, let's define the key term of this schema, narrative. Rather than coming up with our
 own definition, we borrow one from literary theorist J. Hillis Miller. In his essay "Narrative," he outlines a
@@ -16196,24 +15786,24 @@ story-telling….Third, there must be some patterning or repetition of key eleme
 Miller's model for understanding narrative contains the following elements:
 Situation: A narrative has an initial state, a change in that state, and insight brought about by that
 change. This process constitutes the events of a narrative.
-• 
+•
 Character: A narrative is not merely a series of events, but a personification of events though a
 medium such as language. Miller doesn't mean character in the usual sense of fictional persona, but
 rather the process by which "character is created out of signs." This component references narratives
 as not just events that take place in the world, but as represented events, events that occur via systems
 of representation.
-• 
+•
 Form: Representation is constituted by patterning and repetition. This is true on every level of a
 narrative, whether it is the material form of the story or its conceptual themes.
-• 
+•
 Miller goes on to note that "even narratives that do not fit this paradigm draw their meaning from the way
 they play ironically against our deeply engrained expectations that all narratives are going to be like that."[4]
 How do games relate to Miller's definition of narrative? From a formal perspective, they fit the definition very
 well. Take Chess, for example. Chess has a beginning state (when it is set up for a game), changes to that state
 (the game play), and a resulting insight (the outcome). It is a personified representation, a stylized depiction of
-4
+
  Chapter 26: Games as Narrative Play
-4
+
  Chapter 26: Games as Narrative Play
 
 
@@ -16253,20 +15843,18 @@ looking in detail at one game, through an experiential application of Miller's f
 [3]J. Hillis Miller, "Narrative," In Critical Terms for Literary Study, edited by Frank Lentricchia and Thomas
 McLaughlin (Chicago: The University of Chicago Press, 1990), p. 77.
 [4]Ibid. p. 76.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Thunderstorm
 We first introduced the dice game Thunderstorm in Games as Systems of Uncertainty, where we investigated
 the dramatic uncertainty created through the game's formal structure. We now look at the game again, this
 time with an eye toward narrative play. Thunderstorm embodies a very simple narrative. Players await the
 approach of a thunderstorm. If they play well their houses will be safe from the storm; if not, a powerful bolt
  Chapter 26: Games as Narrative Play
-5
+
  Chapter 26: Games as Narrative Play
-5
 
-
-of lightning will destroy their homes. Beware the player that fails to roll a 1! 
+of lightning will destroy their homes. Beware the player that fails to roll a 1!
 Although Thunderstorm is a game of pure chance, the design of the experience crafts narrative drama on
 many levels. The experience of the game's "story" is intrinsically structural, tied directly to the game events.
 The roll of the dice not only controls the rate at which a player's house is built, but simultaneously the speed at
@@ -16308,11 +15896,11 @@ players are eliminated, the circle closes until there is only one house left. Th
 lightning striking individual houses is different every game, but inevitably, as the circle closes, the narrative
 pace quickens as fewer players remain alive. On a macro-level, the narrative pattern is one of construction and
 destruction, of movement and stasis.The overall result is a surprisingly rich narrative experience.
- < Day Day Up > 
- < Day Day Up > 
-6
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 26: Games as Narrative Play
-6
+
  Chapter 26: Games as Narrative Play
 
 
@@ -16326,10 +15914,10 @@ play.
 We can identify two broad structural rubrics for understanding the narrative components of a game:
 Players can experience a game narrative as a crafted story interactively told: the characters Jak and
 Daxter are saving the world.
-• 
+•
 Players can engage with narrative as an emergent experience that happens while the game is played:
 Jak and Daxter's story arises through the play of the game.
-• 
+•
 Both of these points of view, crafted interactive story versus improvised play experience, place narrative
 within the context of interactivity. Specifically, these viewpoints represent two ways of understanding how a
 game system produces narrative. The best terms we have found for these two structural relationships between
@@ -16360,15 +15948,13 @@ Lurkers, the narrative experience does not consist of pre-scripted sequences of 
 camera movements. Instead, the game rules allow the player to hop on a Zoomer to try and defeat the Lurkers
 and gather resources through skillful maneuvering. The exact narrative experience of a particular game,
 whether it is Jak easily dispatching the Lurkers, or whether it is a series of crushing defeats that leads to an
-eventual victory, depends on player interaction. 
+eventual victory, depends on player interaction.
 Emergent narrative is possible because of the way games function as complex systems. As the name implies,
 emergent narrative is linked directly to our earlier explorations of emergent complexity and meaningful
 interaction. For example, emergent narrative arises from interactions that are both coupled and
  Chapter 26: Games as Narrative Play
-7
- Chapter 26: Games as Narrative Play
-7
 
+ Chapter 26: Games as Narrative Play
 
 context-dependent. These two terms, which we introduced in Games as Emergent Systems, describe
 interactions between elements in a complex system. When interactions within a complex system are coupled,
@@ -16406,7 +15992,7 @@ and video games." They are more clearly narrative because they more closely rese
 think of as a story experience. As Church puts it, these games contain "plot lines…characters, objects, and the
 world." But that doesn't mean that emergent narratives, such as in a sports game like NBA Live, can't be just
 as important in generating narrative experience. Ultimately, the unique narratives games produce come from a
-balance of both of these approaches. 
+balance of both of these approaches.
 Embedded elements are narrative structures directly authored by game designers that serve as a frame for
 interaction. Emergent narrative approaches emphasize the ways that players interact with a game system to
 produce a narrative experience unique to each player. Some games, such as the classic adventure game The
@@ -16417,9 +16003,9 @@ approach, in which the game rules represent a space of emergent narrative possib
 differently every time.
 Virtually every game combines embedded and emergent elements. The Secret of Monkey Island is not
 entirely pre-scripted, like a slide show: there are many routes to take through the game, making for a limited
-8
+
  Chapter 26: Games as Narrative Play
-8
+
  Chapter 26: Games as Narrative Play
 
 
@@ -16440,8 +16026,8 @@ narrative experience of the game includes both embedded and emergent approaches,
 single game structure.
 [5]Marc LeBlanc, presentation at the Game Developers Conference, 1999.
 [6]Doug Church,"Formal Abstract Design Tools." Gamasutra.com
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Narrative Goals
 Within narrative we order and reorder the givens of experience. We give experience a form
 and a meaning. —J. Hillis Miller, "Narrative"
@@ -16456,7 +16042,7 @@ the significance of their actions within a narrative context. In Super Breakout,
 of player interaction within a narrative context, making the interaction meaningful. The outcome of the
 interaction is clear on a formal level (blocks are destroyed) as well as on a narrative level (the space ship
 breaks through the force field!). In this example we see again how embedded narrative can provide a
-framework that makes the more immediate game play narratively meaningful. 
+framework that makes the more immediate game play narratively meaningful.
 In addition to the embedded narrative arc of the game, narrative play can occur on the moment-to-moment,
 emergent level as well. In the Hostage Rescue mode of multiplayer Counter-Strike, players compete in teams
 as either counter-terrorists or terrorists. Each team has complementary goals: to find and rescue the hostages
@@ -16466,10 +16052,8 @@ experienced each moment of the game, as players make decisions regarding their i
 and opponents. Where are the hostages hidden? Why are the terrorists so unorganized? Can you count on your
 teammate to cover you as you sneak into enemy territory? With half your team down, will you be able to
  Chapter 26: Games as Narrative Play
-9
- Chapter 26: Games as Narrative Play
-9
 
+ Chapter 26: Games as Narrative Play
 
 rescue enough of the hostages to beat the terrorists? Counter-Strike players constantly interact with one
 another hrough the narrative frame of counter-terrorist military opera- tions. The collaboration and
@@ -16495,25 +16079,25 @@ adequate Energy and that her Sim's Motive values are at their maximum. Mood, an 
 Motive scores, plays a big role in the duration of the date and the success of each interaction during a
 date. Because a date's overall success is entirely based upon the sum of interactions between Sims, a
 large number of bad interactions results in an unsuccessful date.
-• 
+•
 Getting a date: A Sim can get a date by asking one of her housemates, accosting a visitor, calling a
 friend or acquaintance, or by randomly meeting someone downtown. Whether a Sim accepts the
 proposal of a date from another Sim depends on a Relationship score, which develops hrough social
 interactions. Sims can joke, flirt, apologize, tease, and scare each other in an attempt to accomplish
 the goal of getting a date.
-• 
+•
 Sharing one or more activities: A date consists of a set of carefully considered interactions and
 events, designed by the player to maximize the Relationship score of the two Sims. A poorly designed
 set of events will inevitably lead to bad interactions—and a bad date. A rejected kiss at the bar, for
 example, immediately ends a date. Each kind of event players choose to include in their date has its
 own set of narrative expectations. Trying on clothes in a store, for instance, offers a very different
 narrative experience than a dip in the hot tub!
-• 
+•
 Going home together (optional): The ultimate end to a date is to get a Sim to come home for some
 shenanigans on the Love Seat or in the Love Tub. In order for this to occur, how-ever, a player must
 carefully manage Energy resources as well as maintain a high Relationship score throughout the date.
 Achieving this goal affords clear narrative resolution.
-• 
+•
 Saying goodbye: If the date goes well, a Sim might invite a date to move in, or even to get married.
 With either of these outcomes, the new Sim becomes a member of the household. There is also the
 possibility that the date will end badly, meaning that the Sim's Relationship score has bottomed out.
@@ -16521,10 +16105,10 @@ The player has some choice in defining his or her own goals for a date, but the 
 determined by the events and interactions that have taken place up to that point, and are emergently
 generated. This concluding step in the larger narrative event of the romantic date provides a snapshot
 of the overall experience, giving the player a sense of narrative closure.
-• 
-10
+•
+
  Chapter 26: Games as Narrative Play
-10
+
  Chapter 26: Games as Narrative Play
 
 
@@ -16538,8 +16122,8 @@ complex system that supports and links player actions. If every date ended the s
 actions the player took, there would be no reason for the player to engage deeply in the decision-making
 process. Because each step of the process plays a role in determining the outcome, the experience of a Sims
 date provides genuinely meaningful narrative play.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Confict
 Goals in a game are never easy to achieve. As players struggle toward the goal, conflict arises. Game conflict
 provides both opportunity for narrative events and a narrative context that frames the obstacles a player must
@@ -16560,12 +16144,10 @@ traditional storytelling, the internal conflict of a character often shapes the 
 by the audience. Internal conflict reveals a character's vulnerability, which is usually exploited by those who
 wish to see the character fail. Lex Luthor knows Superman is vulnerable to kryptonite and in love with Lois
 Lane. The trick to using game conflict as a narrative game design tool is to tie it closely to the formal game
-structure itself. 
+structure itself.
  Chapter 26: Games as Narrative Play
-11
- Chapter 26: Games as Narrative Play
-11
 
+ Chapter 26: Games as Narrative Play
 
 In the strategy board game Settlers of Catan, the narrative premise is that the players are competing to
 colonize a small island, establishing their own networks of roads, settlements, and resources. Players can trade
@@ -16589,8 +16171,8 @@ social, strategic, and representational structures of the game. We are not sayin
 Settlers of Catan in order to role-play fictional characters. But narrative play is clearly part of the game's
 appeal. Without its narrative framework, designed to function in concert with the game conflict, Settlers of
 Catan would feel like an exercise in number shuffling.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Uncertainty
 Uncertainty is another requisite quality of meaningful play. If a game is certain, if the outcome is known in
 advance, there is no reason to play in the first place. But uncertainty is also a narra-tive concept, for the
@@ -16612,10 +16194,10 @@ wants me to think…. The mechanics of betting heighten the feeling of uncertain
 wage higher bets against uncertain outcomes, whereas players may limit bets when the degree of uncertainty
 in a game feels too great. As players fold and the circle of active players shrinks, narrative tension grows.
 Although players may have good hands, the outcome remains uncertain until all bets are made and the cards
-are called. This moment can be quite dramatic, particularly when a hand has been well-played. 
-12
+are called. This moment can be quite dramatic, particularly when a hand has been well-played.
+
  Chapter 26: Games as Narrative Play
-12
+
  Chapter 26: Games as Narrative Play
 
 
@@ -16631,8 +16213,8 @@ advice, risking starvation during the long journey? Do you spend your last few g
 guards to accompany you? Each of these choices involves not just dramatic narrative outcomes, but different
 uses of the role-players' limited resources. As players make a choice and its uncertain outcomes slowly
 unfold, new choices present themselves, each emerging option cloaked in its own narrative uncertainty.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Core Mechanics
 Whereas uncertainty tends to affect the larger trajectory of a game's narrative arc, core mechanics represent
 the essential moment-to-moment activity of players. During a game, core mechanics create patterns of
@@ -16657,15 +16239,13 @@ scientist observing and interacting with a strange form of life evolving in a fi
 entirely appropriate to the narrative of the game. Even when the player is using the controller buttons to take
 action, the game design creates evocative mechanics of interaction. Grabbing Seaman and lifting him up out
  Chapter 26: Games as Narrative Play
-13
- Chapter 26: Games as Narrative Play
-13
 
+ Chapter 26: Games as Narrative Play
 
 of the virtual fish tank is accomplished by a slightly awkward, single-handed button combination that creates
 a hand gesture very much like grabbing a fish with your forefinger and thumb. The core mechanics of Seaman
 not only let the player access new content, but actually force the player to perform the narrative of the game
-from moment to moment. 
+from moment to moment.
 The default rules for Mind's Eye Theater, the live-action version of the role-playing game Vampire: The
 Masquerade, resolve actions by means of Rock-Paper-Scissors. Although this system is convenient for the
 real-world context of a LARP (where it would be awkward and time-consuming to pull out dice and
@@ -16676,8 +16256,8 @@ designed custom cards. Flashing an image of a devil before your opponent in orde
 suits the dark Goth narrative of Vampire much more than making the schoolyard gesture of scissors. This
 game design solution keeps the formal system of Rock-Paper-Scissors completely intact, while modifying the
 experiential component of the core mechanic for dramatic narrative effect.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Narrative Space
 The last several sections of this chapter have utilized fundamental game concepts, reframing them in narrative
 terms to shed light on the intersection of game design and storytelling. Goals, conflict, uncertainty, and the
@@ -16705,9 +16285,9 @@ weapons. Artifacts such as jewels may embody friendship or rivalries or may beco
 sources of the player's power. The game space is organized so that paths through the game
 world guide or constrain action, making sure we encounter characters or situations critical to
 the narrative.[8]
-14
+
  Chapter 26: Games as Narrative Play
-14
+
  Chapter 26: Games as Narrative Play
 
 
@@ -16717,7 +16297,7 @@ interactions made possible by the players' positions within the spatial grid. Pl
 positions on the court which guide and constrain player action. How and when players touch the ball, for
 example, is a product of their positions within the grid. The net that divides the court engages narrative play as
 well, for it articulates the space of friend and foe, of teammate and opponent. Across this net, dramatic
-narratives of attack and defense occur each time a player serves the ball. 
+narratives of attack and defense occur each time a player serves the ball.
 The organization of spatial features in a game is critical to the design of a game's narrative space of
 possibility. If you want your players to form strong social relations, make sure to create narrative spaces that
 support social interaction. The spatial design of a house or restaurant in The Sims defines the type of social
@@ -16756,12 +16336,10 @@ set at nighttime and feature a rising moon as a timer instead of a setting sun. 
 of butterflies to catch and therefore provide a more relaxed context for the core mechanic within the overall
 rhythm of the game. These nighttime levels reframe the core mechanic in a narrative context opposite to that
 of the daytime levels. In this way, the narrative framing works hand in hand with the formal game structure to
-maximize narrative meaning from the simple core mechanic. 
+maximize narrative meaning from the simple core mechanic.
  Chapter 26: Games as Narrative Play
-15
- Chapter 26: Games as Narrative Play
-15
 
+ Chapter 26: Games as Narrative Play
 
 What about a game that has no predefined physical space? Mafia is a social game of secret identities and
 clever bluffing in which players sit in a circle and take turns voting which among them are the secretly
@@ -16791,8 +16369,8 @@ facilitate the stories you want to tell.
 [7]Henry Jenkins and Kurt Squire,"The Art of Contested Spaces." In GAME ON: The History and Culture of
 Videogames, edited by Lucien King (London: Laurence King Publishing, 2002), p. 70.
 [8]Ibid. p. 65.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Digital Game Spaces
 Although games have been played in real-world spaces for millennia, the appearance of electronic and digital
 games in the last few decades have provided new kinds of game spaces: playgrounds that exist only on the
@@ -16804,9 +16382,9 @@ essay:
 LOOP
 The patterns of behavior created through the core mechanic of LOOP support narrative play in a number of
 ways: by situating play within a repeating framework of a day, by linking the formal interaction of looping to
-16
+
  Chapter 26: Games as Narrative Play
-16
+
  Chapter 26: Games as Narrative Play
 
 
@@ -16818,27 +16396,27 @@ appear on bonus levels; and the visual motif of a book that links the act of but
 storytelling. These narrative contexts add yet more meaning to the player's interaction, forming an overall
 system of play that results in an experience full of narrative possibility.
 Text-only space: text adventure games such as Zork and Planetfall
-• 
+•
 One contained screen: Pong, Space Invaders, Breakout
-• 
+•
 One screen with wraparound: Asteroids, Pac-Man (with teleporter wraparound)
-• 
+•
 Scrolling on one axis: Defender, Atari's Football arcade game
-• 
+•
 Scrolling on two axes: Gauntlet, Sim City
-• 
+•
 Adjacent spaces displayed one room at a time: Berzerk, Atari's Adventure
-• 
+•
 Scrolling with separate background layers: Zaxxon, Double Dragon
-• 
+•
 Limited 3D space: Tempest, Night Driver
-• 
+•
 Two spaces on one screen or two separate screens: Spy vs. Spy, Dactyl Nightmare
-• 
+•
 Full 3D spaces: Battlezone, DOOM, Tomb Raider
-• 
+•
 "Mapped" Spaces: Defender, Myst (both have a separate radar or map display) [9]
-• 
+•
 Wolf 's categories are not without some conceptual problems. For example, there is a fundamental difference
 between a "two-and-a-half" dimensional space like DOOM and a more fully 3D space like Tomb Raider (in
 DOOM the player can only move in two dimensions and the objects are completely flat). Additionally, some
@@ -16851,13 +16429,11 @@ The structure of a digital game space always grows directly from the formal syst
 However, the space that a player experiences is also a function of representation (how the space is displayed
 to the player) and interaction (how a player navigates through the space). These three ele-ments—formal
  Chapter 26: Games as Narrative Play
-17
- Chapter 26: Games as Narrative Play
-17
 
+ Chapter 26: Games as Narrative Play
 
 structure, structure of display, and interactive structure—together constitute the experience of a digital game
-space. All three of them need to be designed in concert to achieve proper narrative effect in your game. 
+space. All three of them need to be designed in concert to achieve proper narrative effect in your game.
 For example, the feeling of zero-G drift in Asteroids is linked directly to the design of the game space. Rather
 than bouncing off the screen wall like a Pong ball, the player's ship moves right on through to the other side,
 evoking the illusion of endless movement through the darkness of space. The game's style of movement,
@@ -16870,13 +16446,13 @@ on screen (the player's ship and existing asteroids) whereas others seem to drif
 asteroids and UFOs), adds up to a rich and multi-layered narrative of cosmic exploration and survival. Space
 creates narrative in all senses of Miller's definition: space helps define the "characters"(the game objects);
 space is the context in which narrative events occur; and space patterns narrative experience over time for the
-player. 
+player.
 Asteroids: One screen with wraparound
 Tempest: Limited 3D space
 Tomb Raider: Full 3D space
-18
+
  Chapter 26: Games as Narrative Play
-18
+
  Chapter 26: Games as Narrative Play
 
 
@@ -16892,10 +16468,8 @@ moment-to-moment action of the core mechanic. The space of a game is quite liter
 In a fighting game such as Tekken, the space is tightly constrained, crowding the two fighters up against each
 other. There is nowhere to run and nowhere to hide. All you can do is fight your opponent, an action the
  Chapter 26: Games as Narrative Play
-19
- Chapter 26: Games as Narrative Play
-19
 
+ Chapter 26: Games as Narrative Play
 
 design of the space explicitly encourages and facilitates. In contrast, the corridors and rooms of a Quake
 deathmatch space create a narrative of stealthy maneuvers, mad dashes to grab power-ups, and the surprise of
@@ -16916,8 +16490,8 @@ home turf or invading an enemy's territory.
 (Austin: University of Texas Press, 2002), p.53-70
 [10]MarshaKinder, Playing with Power in Movies, Television, and Video Games: From Muppet Babies to
 Teenage Mutant (Los Angeles: University of California Press, 1993), p. 2.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Spaces of Adventure
 One of the wonderful qualities of digital game spaces is their plasticity and flexibility. The emphasis in recent
 years on photorealistic, logically consistent 3D game spaces has eschewed experimental approaches to space
@@ -16931,16 +16505,16 @@ This is no easy task, as the Evil Magician has created three Dragons to hinder y
 quest for the Golden Chalice. There is Yorgie, the Yellow Dragon, who is just plain mean;
 there is Grundle, the Green Dragon, who is mean and ferocious; and there is Rhindle, the Red
 Dragon, who is the most ferocious of all. Rhindle is also the fastest Dragon and is the most
-difficult to outmaneuver. 
+difficult to outmaneuver.
 There are three castles in the Kingdom; the White Castle, the Black Castle, and the Golden
 Castle. Each castle has a Gate over the entrance. The Gate can be opened with the
 corresponding colored Key. Inside each Castle are rooms (or dungeons, depending at which
 Skill Level you are playing).
 The Castles are separated by rooms, pathways, and labyrinths. Common to all the Skill Levels
 is the Blue Labyrinth through which you must find your way to the Black Castle. Skill Levels
-20
+
  Chapter 26: Games as Narrative Play
-20
+
  Chapter 26: Games as Narrative Play
 
 
@@ -16977,10 +16551,8 @@ from each room.
 The experience of navigating these mazes can be initially disconcerting, especially because some of them are
 darkened "catacombs," where you only see the walls in a limited area immediately surrounding your dot. It is
  Chapter 26: Games as Narrative Play
-21
- Chapter 26: Games as Narrative Play
-21
 
+ Chapter 26: Games as Narrative Play
 
 possible in these mazes to feel completely and utterly lost—a wonderfully appropriate emergent narrative
 effect. Yet at the same time, the labyrinths are not gratuitously complex, containing only three, four, or five
@@ -17001,15 +16573,15 @@ the game, and are made possible by the way that the simple yet structurally intr
 frames and enables game action. The formal game elements become narratively meaningful within the story
 context that the game provides.
 [11]Atari Inc., Adventure. Atari Game Program Instructions (Sunnyvale, CA: Atari, Inc., 1980), p. 2–3.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Narrative Descriptors
 On a black screen there's nothing but white Rorschach-shaped outlines moving around, and
 you're to hit them, so to speak, before they hit you. Once you've figured out what "you" is.The
 name on the machine implies you're in a field of asteroids, not that you know what a field of
-22
+
  Chapter 26: Games as Narrative Play
-22
+
  Chapter 26: Games as Narrative Play
 
 
@@ -17048,7 +16620,7 @@ confusing. We quoted it at the beginning of this chapter, but below is a short e
 Suddenly, without warning, there's a brilliant flash straight ahead. You check the radar screen.
 Nothing. Pretty soon there's another flash, and another. Next thing you know the flashes have
 turned into one gigantic force field of some kind and it's dead ahead. You check the radar
-screen, still nothing. 
+screen, still nothing.
 From a game play perspective, this narrative is strangely disconnected from player interaction. Twice in the
 text the "you" of the narrative checks the radar screen. What radar screen? There isn't any radar element in the
 game at all. And what about the flashes of light? When the game begins, there are no flashes of light, only
@@ -17061,10 +16633,8 @@ doesn't have to provide a logical basis for play, and can simply reference a mor
 the case of Super Breakout, the descriptor fails to produce an accurate narrative for the impending game play,
 but it does tell a wonderfully meta-textual story of electrons dancing on a phosphor screen, circa 1981.
  Chapter 26: Games as Narrative Play
-23
- Chapter 26: Games as Narrative Play
-23
 
+ Chapter 26: Games as Narrative Play
 
 In addition to acting as a "frame" for the central game play, narrative descriptors also can appear within a
 game. In Thunderstorm there is little or no pre-game narrative set-up that describes player interaction. Instead,
@@ -17084,32 +16654,32 @@ What information does this narrative description contain? We can infer that:
 There are two kinds of objects in the game we will battle: asteroids and flying saucers. Both have
 destructive capabilities. Destruction occurs through collision, either with an asteroid or a guided
 missile.
-• 
+•
 Interaction with the asteroids takes two forms: we can shoot them or we can maneuver around the
 asteroids to avoid contact.
-• 
+•
 Interaction with the flying saucers involves shooting and maneuvering as well. Because the flying
 saucers use guided missiles, it will be more difficult to outmaneuver them.
-• 
+•
 Flying saucers are more rare and therefore more valuable. We gain additional points by destroying
 them.
-• 
+•
 Flying saucers are active enemies: they will try to destroy us. Asteroids are passive enemies: we must
 avoid running into them.
-• 
+•
 The movement of the asteroids is independent of the movement of our ship, whereas the movement of
 the guided missiles is directly linked to it.
-• 
+•
 The guided missiles can destroy asteroids if we position our ship behind an asteroid. The asteroid then
 becomes a shield for the ship.
-• 
+•
 So much information contained within such a short descriptor! But there is more. Although it is not explicitly
 stated that we are in a spaceship or that we are in outer space, both of these facts follow from the instructions.
 We know asteroids and flying saucers exist in outer space, not in the desert or the ocean. We also know that if
 we are able to shoot and maneuver we must be in a vehicle that allows these actions. We can conclude from
 the story's narrative logic that we are in a spaceship. The details about our spaceship—what it is called, what it
 uses for fuel, the size of the crew—don't matter. The key narrative information is that it can maneuver and
-shoot the enemy. 
+shoot the enemy.
 But what if a player skips over the instructions and just starts playing? Without the introductory textual
 description, will players know what to do? In a well-designed game like Asteroids the answer is yes, as there
 are many other narrative descriptors to orient the player. First, the name of the game and the hard-to-miss
@@ -17121,9 +16691,9 @@ located dead center. If the central placement and unique identity of the arrow-s
 clue, a player who simply starts mashing the button interface will quickly discover that he or she can directly
 control the arrow (but not the asteroids). It is easy to conclude that the arrow object represents the player,
 situated in the game world of an asteroid field.
-24
+
  Chapter 26: Games as Narrative Play
-24
+
  Chapter 26: Games as Narrative Play
 
 
@@ -17147,15 +16717,15 @@ communicate the story that you want your players to experience. In Asteroids, th
 interface, and even the arcade game cabinet all play a role in the narrative. Nothing is irrelevant: every piece
 helps tell the story, which is greater than the sum of the parts. Is your game narrative as tightly and elegantly
 designed as Asteroids?
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Worlds and Stories
 Representations in games do not exist in isolation from the rest of culture. They rely on conventions drawn
 from narrative genres in other media. Although the playgrounds of games may offer fictive and fantastical
 spaces, these spaces are almost always familiar in some way to players. The deep space of Asteroids is not
 something any of us have experienced directly, but it is part of a genre-based universe found in the stories of
 science fiction writers and astrophysicists. Players can appreciate the narrative of the game even if they have
-never piloted a space ship in a field of asteroids, because of the familiar conventions of its representation. 
+never piloted a space ship in a field of asteroids, because of the familiar conventions of its representation.
 In order to understand the setting of a game world, players rely on knowledge from other, similar stories.
 Players starting a game of Asteroids for the first time know what to do in part because they are familiar with a
 fictive genre describing interactions between spaceships, flying saucers, and asteroids in outer space. (UFOs
@@ -17170,10 +16740,8 @@ specific, typified universe constructed by the game. Within this familiar fictio
 the mean-looking guy turns into (through a few, stylized hints) a very familiar gangster of the
 most ruthless, drug-dealing kind.[12]
  Chapter 26: Games as Narrative Play
-25
- Chapter 26: Games as Narrative Play
-25
 
+ Chapter 26: Games as Narrative Play
 
 Grand Theft Auto III takes place within the pulp genre setting of urban gang warfare and organized crime. As
 a fictional universe, a set of narrative conventions stylizes this world. Shooting a gangster fits within these
@@ -17189,7 +16757,7 @@ playground. Even though we can imagine a similar fictional world without one, si
 overarching story framing the game play, there would at least have to be recognizable
 narrative elements that could give some more genre-specific substance to an otherwise vague
 atmosphere of urban crime. In genre fiction, description evokes implied narratives, and
-narration evokes implied description. 
+narration evokes implied description.
 Klevjer identifies two components of game narratives: fictive worlds, which represent narrative context, and
 story events, the actual game incidents that take place within the fictive world. There is a complex relationship
 between these two narrative elements, each informing and enriching the other with narrative meaning. In
@@ -17224,9 +16792,9 @@ anti-gravity racing game, the narrative descriptors of characters, events, objec
 contained within the logical limits of this setting. Players should have a sense that the technology powering
 their vehicles has not yet been invented, and that the physics affecting the speed and movement of the vehicles
 is not something they have experienced on Earth. The design of a board game titled "Dot.Com Mania" should
-26
+
  Chapter 26: Games as Narrative Play
-26
+
  Chapter 26: Games as Narrative Play
 
 
@@ -17252,8 +16820,8 @@ living toys, the playful tale of Pinocchio, or even the office life parody 9-to-
 offers different ways to establish both the fictive world and to organize the events that happen within it.
 [12]Rune Klevjer,"In Defense of Cut-Scenes," In Computer Games and Digital Cultures, Conference
 Proceedings, edited by Frans Mäyrä (Tampere, Finland: Tampere University Press, 2002), p. 198.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Crafting Game Narratives
 How do you create the details of a narrative that will let you achieve the fictional world and story events that
 you want your players to experience? There is no single magic formula, and as storytellers in every medium
@@ -17261,7 +16829,7 @@ know, the devil is in the details. Because our focus is game design, this book d
 visual aesthetics of character design, tips for writing in-game dialogue, or other specifics of how to construct
 narrative descriptors. However, we can offer some general ways of thinking about the craft of game
 narratives. By paying careful attention to the details of your game representations, and how they bridge the
-formal game system and the player experience, you will be able to generate meaningful narrative play. 
+formal game system and the player experience, you will be able to generate meaningful narrative play.
 Consider the following text from the Wipeout XL game manual:
 Future world...
 A ball bounces. A pin drops. A man falls.
@@ -17269,10 +16837,8 @@ Gravity is the glue which binds us to our planet.
 We are about to apply the solvent which will free our species for-ever.—Pierre Belmondo, Director of
 European AG [anti-gravity] Research, Nevada, April 2035
  Chapter 26: Games as Narrative Play
-27
- Chapter 26: Games as Narrative Play
-27
 
+ Chapter 26: Games as Narrative Play
 
 Although Wipeout XL's introductory narrative is extremely abstract, it communicates a sense of what it is
 going to feel like within this future world. The sparseness of the description, the metaphors of gravity's glue
@@ -17305,8 +16871,8 @@ system. In all of the successful examples of narrative play discussed so far, th
 integration and discernability still hold true. For example, the approaching enemy sound effects in Silent Hill
 become meaningful because they are integrated into the game system, warning the player about impending
 known (or unknown) monsters in a way that is consistently clear and discernable.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Games as Narrative Systems
 The creation of a game narrative is really the creation of a narrative system. This notion unifies all of the
 concepts presented so far in this chapter. As a design problem, creating the narrative elements of a game is
@@ -17317,9 +16883,9 @@ relationships.
 Case Study: Drome Racing as Narrative System
 Even games that are not explicitly oriented toward story creation can be framed as a narrative system. The
 LEGO Drome Racing Challenge is a massively multiplayer game in which players create a game persona,
-28
+
  Chapter 26: Games as Narrative Play
-28
+
  Chapter 26: Games as Narrative Play
 
 
@@ -17344,7 +16910,7 @@ are more modular and emergent ways of personifying the player.
 Multiple goals. The Drome Racing Challenge embeds long- and short-term goals throughout the game
 experience and ties them directly into the narrative. Players build a collection of cars and parts, upgrade and
 evolve cars that they own, improve their license class, compete on the rankings boards, and interact in limited
-social ways with other players through the narrative world of the game. 
+social ways with other players through the narrative world of the game.
 The total narrative experience of Ms. Pac-Man arises from a myriad of components: the title of the game and
 its reference to the existing narrative of Pac-Man, the arcade cabinet graphics and text, the looping animated
 title screens, the in-game cartoons between levels, and all of the visual and audio elements of the game itself.
@@ -17369,10 +16935,8 @@ player-character. The Dungeon Master provides the rest of the narrative elements
 players enter, role-playing allies and enemies the players encounter, and slowly revealing the dark mysteries
 and unexpected plot twists of the ongoing story.
  Chapter 26: Games as Narrative Play
-29
- Chapter 26: Games as Narrative Play
-29
 
+ Chapter 26: Games as Narrative Play
 
 Dungeons & Dragons and other similar games are quite explicit story-creation systems, designed to facilitate
 the structured, collaborative authorship of narrative play. Each player is a part of that system, as are the
@@ -17385,8 +16949,8 @@ narrative play. Every action taken, whether a difficult feat that requires a die
 stratagem, has its place in the overall narrative system, buoyed up by the formal rules that make such actions
 possible. Actions simultaneously expand the ongoing story as new narrative elements are added to the series
 of events.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Cutscenes
 Kane sneering out from the briefing video of Command and Conquer. Lantern light over a
 wrecked inn in Diablo II. Bahamut blasting your foes to ashes in Final Fantasy VII. There is
@@ -17415,9 +16979,9 @@ their cars. In the garage, players prepare for a race, tuning and tweaking their
 common game play pattern is to run a few races, then head back to the garage to buy a new part, tweak a car,
 and return to the tracks to test it out. This behavioral loop becomes a narrative pattern, evoking the dedicated
 lifestyle of a hard-working race driver.
-30
+
  Chapter 26: Games as Narrative Play
-30
+
  Chapter 26: Games as Narrative Play
 
 
@@ -17430,7 +16994,7 @@ and shot structure. The animation then plays out as a Speed Racer-style, action-
 Abstract speed lines, informational overlays, and inset views of the drivers are combined with shots of the
 vehicles racing through the Drome's hazardous environments. The resulting experience references the
 cartoony, sci-fi style of the overall game space, generating a compelling narrative out of the linkages among
-descriptor aesthetics, the fictive world frame, and meaningful game outcomes. 
+descriptor aesthetics, the fictive world frame, and meaningful game outcomes.
 Cutscenes take many forms, from text-based descriptions to comic-book style storyboards to real-time 3D
 cinematics or pre-rendered animated sequences. Sometimes these forms are mixed, as in Max Payne, which
 combines real-time cinematics with the visual language of a graphic novel to tell its story. Pre-scripted
@@ -17468,10 +17032,8 @@ game space, or provide information on the current whereabouts of a character or 
 are seeking. As a planning tool, cutscenes can provide players with information about an
 event or obstacle they will soon encounter, or elaborate on the outcome of an action.
  Chapter 26: Games as Narrative Play
-31
- Chapter 26: Games as Narrative Play
-31
 
+ Chapter 26: Games as Narrative Play
 
 Drome Racing Challenge
 Multiple narrative tellings. After a race, the race events are translated into a "race analy-sis."The race analysis
@@ -17503,9 +17065,9 @@ event, but also transported the player to another part of the game world. Cutsce
 players directly into the middle of game action allow them to resolve the cutscene's
 mini-narrative through game play. Using a cutscene in this way enhances suspense and drama
 by grafting the non-inter-active sequence directly to player action.
-32
+
  Chapter 26: Games as Narrative Play
-32
+
  Chapter 26: Games as Narrative Play
 
 
@@ -17521,7 +17083,7 @@ move deeper into Silent Hill, the cutscenes become increasingly eerie and distur
 Fantasy IX, cutscenes reinforce the epic quality of the hero's journey through the use of
 dramatic animation, sound, and editing. The tongue-in-cheek dialogue of Max Payne's
 cutscenes lends an ironic edge to the urban noir of the game world. In each example,
-cut-scenes establish a mood that becomes part of the game's narrative play. 
+cut-scenes establish a mood that becomes part of the game's narrative play.
 Choice and Consequence
 Cutscenes give game designers the power to dramatically reveal the outcomes of player
 choices, outcomes that can affect not only the player's character, but often the game world as
@@ -17556,10 +17118,8 @@ cutscenes in Warcraft III were designed, in part, to reward players for their in
 many hours of game play. Although using cutscenes as rewards might seem like a
 straightforward design idea, the experience of receiving such a gift during game play can be
  Chapter 26: Games as Narrative Play
-33
- Chapter 26: Games as Narrative Play
-33
 
+ Chapter 26: Games as Narrative Play
 
 tremendously satisfying and motivating.
 Hardcore Gamers and Cutscenes
@@ -17597,11 +17157,11 @@ these possible elements, albeit one that is highly narrative in its own right.
 [13]lbid. p.199.
 [14]Hugh Hancock,"Better Game Design Through Cut-Scenes." Gamasutra.com
 Ibid.
- < Day Day Up > 
- < Day Day Up > 
-34
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 26: Games as Narrative Play
-34
+
  Chapter 26: Games as Narrative Play
 
 
@@ -17637,7 +17197,7 @@ play is the retelling of this experience in story form. This phenomenon of retel
 surprising. When we see a great movie or overcome a life obstacle, there is a natural tendency to share this
 personal information with friends. Games can also represent powerful experiences in our lives that we want to
 share and relive with others, particularly other game players that will appreciate the details of play. Retelling
-play helps build communities of players through a common interest in the experience of a particular game. 
+play helps build communities of players through a common interest in the experience of a particular game.
 Retelling play can take many diverse forms, such as verbally recounting a Dungeons & Dragons encounter,
 pantomiming a thrilling Basketball play, posting a sequence of edited Sim City screenshots online, writing fan
 fiction about an EverQuest adventure, watching an instant replay in a drag racing stadium, text-chatting about
@@ -17649,13 +17209,11 @@ providing functions that let players take screengrabs of your game to post onlin
 devices game designers use to support re-telling play. In the next few pages, we look at strategies for
 designing retelling play in more detail.
  Chapter 26: Games as Narrative Play
-35
+
  Chapter 26: Games as Narrative Play
-35
 
-
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Replay
 One common tool designed for retelling play is the in-game replay mode. Many sports games such as Tony
 Hawk's Pro Skater 3 or NBA Courtside offer this function, which allows players to watch a recording of their
@@ -17684,7 +17242,7 @@ the game's soundtrack, from Snoop Dog to Lenny Kravitz and Jimi Hendrix, employi
 effects to make the replay look like a music video. Lastly, the incredibly detailed Analyzer mode is available
 when there is only a single car in the race. This form of replay allows players to see telemetry data at each
 segment of the track, illustrating where a player hit his or her brakes, where the player should have hit them,
-and just what caused the player's car to go skidding into the wall. 
+and just what caused the player's car to go skidding into the wall.
 All three of these game replay examples, NBA Courtside, Wreckless, and Gran Turismo 3, use retelling play
 not only to recall recent game actions, but to recast and extend them in a particular narrative light. In each
 case, the retelling play creates its own narrative experience appropriate for the particular game. The replays of
@@ -17700,14 +17258,14 @@ modes emphasize the minutiae of racing strategy (although the Video mode is alwa
 counterpoint). The act of replaying a game, although not formally part of the game experience proper, is still
 part of the overall designed interaction. These three games demonstrate how retelling play can be used to
 wonderful narrative effect.
-36
+
  Chapter 26: Games as Narrative Play
-36
+
  Chapter 26: Games as Narrative Play
 
 
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Recams
 Tools that support players' natural inclination to transform their experience of play into a story to
 re-experience and share can enhance the narrative play of a game. In addition, these tools can spawn new
@@ -17743,17 +17301,15 @@ the world's top Quake players, Thresh and Billox (expertly recammed by Overman o
 example, not only lets viewers experience the game play from a third-person perspective, but situates the
 viewer both literally and figuratively outside of the militarized language of Quake and other FPS games.
 Recamming offers a point of transition between player and spectator, opening up the line of sight to include a
-new kind of narrative eye. 
+new kind of narrative eye.
 The car racing and combat game, Driver: You Are the Wheelman, gives players a very different kind of
 retelling play: the opportunity to produce their very own recam movie. First, a player plays through a game
 mission. Then the player can access editing tools to select camera angles, film stock, and edit together
 moments of the game play into a cinematic story. The retelling play translates the fragmented,
 moment-to-moment action of a game into a single, unified narrative event.
  Chapter 26: Games as Narrative Play
-37
- Chapter 26: Games as Narrative Play
-37
 
+ Chapter 26: Games as Narrative Play
 
 Narrative play of this sort can become truly transformative. Players of Driver sometimes play the game as if
 they were actors in a film, making driving decisions based on how dramatic the action will look in the replay.
@@ -17769,8 +17325,8 @@ these stories strengthens social community by providing an economy of exchange. 
 player engagement, as they encourage play in new and often innovative ways. What can retelling play do for
 your game?
 [16]Personal email correspondence between Dr.Uwe Girlich and Katie Salen, November, 1999.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Games Within Games
 We began this chapter with a tightly focused, formal definition of narrative. One by one we took note of the
 narrative elements of games, pulling farther and farther back until we have all but exited the game itself.
@@ -17789,20 +17345,20 @@ the previous two chapters, we look at the way games represent through simulated 
 representation that grows from the status of games as dynamic systems. Analyzing the mechanisms of
 simulation in one sense means dissecting the internal representational machinery of games. At the same time,
 it also entails a much wider focus that looks at the relationship between games and the real-world phenomena
-they reference, a relationship fraught with the double-meanings of metacommunication and play. 
+they reference, a relationship fraught with the double-meanings of metacommunication and play.
 If you are reading this book in order to tell better stories with your games, don't stop at the end of this chapter.
 The schemas that precede and follow this one, Games as the Play of Meaning and Games as the Play of
 Simulation, make up a special triad: three chapters that focus on games as systems of representation.
 Together they provide a series of structures for generating strong story experiences. And of course, they are
 also three ways of understanding the design of meaningful play.
-38
+
  Chapter 26: Games as Narrative Play
-38
+
  Chapter 26: Games as Narrative Play
 
 
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 Computer Games and Digital Cultures Conference Proceedings, Frans Mäyrä, editor
 Organized by the Hypermedia Laboratory of University of Tampere, Finland, the CGDC conference focused
@@ -17837,17 +17393,15 @@ storytelling, particularly electronic fiction. In looking at interactive fiction
 and other forms of storytelling within the digital realm, Murray discusses ideas of authorship, immersion,
 agency, and the aesthetics of electronic representation. The text is useful in outlining some of the basic issues
  Chapter 26: Games as Narrative Play
-39
- Chapter 26: Games as Narrative Play
-39
 
+ Chapter 26: Games as Narrative Play
 
 connecting digital media and storytelling forms.
 Recommended:
 Chapter 3: From Additive to Expressive Form
 Chapter 4: Immersion
 Chapter 5: Agency
-Chapter 6: Transformation 
+Chapter 6: Transformation
 Shared Fantasy, by Gary Alan Fine
 In one of the best sociological studies of fantasy gaming groups and role-playing games available, Fine offers
 an in-depth analysis of RPGs as a subculture, identifying how players generate meanings and identities in
@@ -17859,102 +17413,99 @@ Chapter 1: FRP
 Chapter 2: Players
 Chapter 3: Collective Fantasy
 Chapter 6: Frames and Games
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 The study of games and narrative is an interdisciplinary field of inquiry that has been surprisingly
 contentious. Game design has a specific set of concerns that sidesteps many of these debates. In
 considering games as narrative play, the primary question is not Are games narrative? but instead
 How are games narrative?
-• 
+•
 J. Hillis Miller defines a narrative as possessing the following characteristics:
 Situation: A series of events that change over time.
-♦ 
+♦
 Character: A narrative is conveyed through a system of representation.
-♦ 
+♦
 Form: Representation is constituted by patterning and repetition.
-♦ 
-• 
+♦
+•
 Games elements can have embedded or emergent narrative structures:
 Embedded elements are pre-generated narrative components such as video clips and scripted
 scenes.
-♦ 
+♦
 Emergent narrative elements are created on-the-fly as the player interacts with the game,
 arising from the operation of the game system.
-♦ 
-• 
-40
+♦
+•
+
  Chapter 26: Games as Narrative Play
-40
+
  Chapter 26: Games as Narrative Play
 
 
 Games make use of embedded and emergent elements in various balances. The narrative of a game
 arises out of the combination of emergent and embedded narrative components.
-• 
+•
 Goals help structure narrative play by making player planning and decision outcomes narratively
 legible.
-• 
+•
 Conflict is another characteristic of all games that can shape narrative play. Conflict between players
 or between players and the game system can be tied to narrative conflicts for dramatic effect.
-• 
+•
 Uncertainty of game outcome is linked to dramatic uncertainty that can fuel narrative tension. In
 narrative play, the unknown outcome of the game (or section of the game) is synonymous with the
 unknown outcome of the narrative.
-• 
+•
 The core mechanic of a game, when considered as a narrative activity, can create game stories by
 having players perform narrative acts.
-• 
+•
 Space in a game plays a large role in shaping the narrative frame and experience. Represented
 narrative space in digital games is particularly plastic and can engender narrative play through careful
 design.
-• 
+•
 A narrative descriptor is any component of a game that participates in the game's system of
 representation. Instructional text, in-game cinematics, interface elements, game objects, and other
 visual and audio elements are all narrative descriptors. All of these elements must be carefully crafted
 with narrative experience in mind in order to maximize narrative play.
-• 
+•
 Narrative descriptors imply a representational logic that limits and constrains the design of the space
 of possibility. These limitations allow for the narrative integration and discernability of all elements
 contained within the game world.
 Narrative descriptors play two roles in a game, as fictive worlds and as story events:
-♦ 
+♦
 Fictive worlds are the larger frames that contain the game world narrative.
-♦ 
+♦
 Story events are the individual moments of narrative play generated as the game moves
 forward.
-♦ 
+♦
 These two elements are interrelated. Fictive worlds create the coherent narrative spaces in which story
 events take place and become meaningful. At the same time, story events help expand and refine the
 fictive world. Games maintain consistent and understandable narrative experiences when there is a
 good fit between these two elements.
-• 
+•
 A game is a narrative system in which the narrative experience of the player arises out of the
 functioning of the game as a whole. As with other kinds of complex systems, the whole is more than
 the sum of the parts, as individual elements interact with each other to form global patterns.
-• 
+•
 Cutscenes are a common storytelling technique used in digital games. They help define the fictive
 world of a game, as well as fulfill a number of game play functions.
-• 
+•
 Retelling play is the popular phenomenon of recounting game experiences. Digital games have
 developed specific techniques for encouraging retelling play, including:
 The replay, in which a game experience is played again for the player.
-♦ 
+♦
 Recamming, a special kind of replay in which the player can cinematically manipulate the
 information contained within the replay.
-♦ 
-• 
- < Day Day Up > 
- < Day Day Up > 
+♦
+•
+ < Day Day Up >
+ < Day Day Up >
  Chapter 26: Games as Narrative Play
-41
- Chapter 26: Games as Narrative Play
-41
 
-
-42
  Chapter 26: Games as Narrative Play
-42
+
+ Chapter 26: Games as Narrative Play
+
  Chapter 26: Games as Narrative Play
 
 
@@ -17989,8 +17540,6 @@ that it is simulating. Diplomacy is a polit-ical simulation because it mimics pr
 known and familiar in the real world. Yet even though Diplomacy faithfully models the art of negotiation, its
 representation is still in some measure artificial, contained within the game, separate from the real world. The
  Chapter 27: Games as the Play of Simulation
-1
-
 
 relationship between a game and the "reality" that it depicts is a fundamental aspect of considering games as
 simulations.
@@ -18001,8 +17550,8 @@ only how a game simulates, but also what it simulates raises questions regarding
 artificial world of a game and the "real life" contexts it intersects. These questions will play an important role
 in our understanding of games as simulations, and will become increasingly important as we move into our
 primary schema on CULTURE.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Defining "Simulation"
 A video game is an imaginary world: its inhabitants are nonexistent creatures that
 nevertheless the eye can see, and the hand can move. It is imaginary in the sense that there is
@@ -18035,9 +17584,9 @@ graphs, and circuit diagrams, but includes working models of all types.[1]
 The authors Eddington, Addinall, and Percival identify two components that make a representation a
 simulation. First, a simulation represents something: an "actual situation," which is either a circumstance from
 real life or an imaginary situation that is conceivably real. This component points out the referential qualities
-2
+
  Chapter 27: Games as the Play of Simulation
-2
+
  Chapter 27: Games as the Play of Simulation
 
 
@@ -18062,8 +17611,8 @@ elements of "reality," represent surprisingly complex concepts. In the pages tha
 these two aspects of simulations, considering each in turn.
 [1]Henry Eddington, Eric Addinall, and Fred Percival, A Handbook of Game Design (London: Kogan Page
 Limited, 1982), p. 10.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Game and Non-Game Simulations
 The general concept of a simulation is certainly not restricted to games. For example, economists and
 sociologists use simulations to study mathematical relationships among variables, often as a set of equations
@@ -18084,10 +17633,8 @@ emergency simulations in which the residents of an apartment building hold fire 
 its identity from a real-world situation: flying a real plane, pitching a real sale, attempting a real space walk,
 or escaping from a real fire. In every case, the representation the simulation creates is a process: the complex
  Chapter 27: Games as the Play of Simulation
-3
- Chapter 27: Games as the Play of Simulation
-3
 
+ Chapter 27: Games as the Play of Simulation
 
 machinery and interactivity of a flight simulator, the social and conversational process of role-play-ing, the
 physical simulation of being in outer space, and the flow of bodies down stairwells and along fire escapes.
@@ -18108,7 +17655,7 @@ simulation game. Other game simulations depict historical processes, natural eco
 Although sims, perhaps more than other games, explicitly fulfill both components of our definition (a
 procedural representation of aspects of "reality"), all games can in fact be considered simulations. Remember
 that a game design schema must be applicable to all games. Therefore in proposing the schema Games as the
-Play of Simulation, we are arguing that any game can be considered a simulation. 
+Play of Simulation, we are arguing that any game can be considered a simulation.
 As abstract or fantastical as games may be, it is possible to see them as simulations of one kind or another.
 Chess and Tic-Tac-Toe, for example, can be framed as representations of territorial conflict, in which
 simulated units war for control of a stylized battlefield. Games that involve fantastic elements, such as
@@ -18129,11 +17676,11 @@ Unlike a simulation designed for scientific research purposes, a game simulation
 representing empirical truth. Pong is not meaningful to players because it is a scientifically accurate
 representation of Table Tennis; it is meaningful because as a simulation it provides a context for deep and
 engaging play.
- < Day Day Up > 
- < Day Day Up > 
-4
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 27: Games as the Play of Simulation
-4
+
  Chapter 27: Games as the Play of Simulation
 
 
@@ -18157,7 +17704,7 @@ Players interact within the simulation by navigating through their book (players
 books) and selecting maneuvers. At the bottom of each page is a list of the possible maneuvers a player can
 take, with a number assigned to each. Both players select a maneuver in secret and call out the corresponding
 number, which determines the next page each player turns to in their book. The elegant formal system of the
-game is amazingly effective at simulating a dogfight between two World War I airplanes. 
+game is amazingly effective at simulating a dogfight between two World War I airplanes.
 Does this seem hard to believe? Consider the scenario we describe: your opponent positioned directly on your
 tail. You choose a maneuver to slow down and perform a weaving turn to the right, in which you shift your
 position to the side, ending up parallel to your previous position—something like a car changing lanes. Let's
@@ -18167,10 +17714,8 @@ you turn to the appropriate page in your book and see the outcome of last round'
 would show your opponent's plane ahead of you and to the left; and in your opponent's book your plane would
 be visible behind and to the right.
  Chapter 27: Games as the Play of Simulation
-5
- Chapter 27: Games as the Play of Simulation
-5
 
+ Chapter 27: Games as the Play of Simulation
 
 Your book
 Through the use of a clever spatial model, Ace of Aces simulates aspects of World War I air combat. It does
@@ -18189,7 +17734,7 @@ Choose-Your-Own Adventure book and more like video frames from a real-time simul
 snapshots of an ongoing battle. In creating a simulation, both emergent and embedded elements can be
 incorporated into the overall game. However, because of the way that simulations rely on dynamic systems,
 framing a game as a simulation tends to emphasize the emergent components of the game, the more purely
-systemic elements that interact in complex ways to generate unexpected results. 
+systemic elements that interact in complex ways to generate unexpected results.
 Ace of Aces not only provides a rich and coherent simulation of air-to-air combat, but also facilitates
 meaningful play. Because the pages of the two books contain all of the possible spatial relationships between
 planes (made possible by a set of rules), the players are literally navigating through the game's space of
@@ -18203,9 +17748,9 @@ Your opponent's book
 Ace of Aces is a fascinating example of a game simulation, not just because it provides meaningful play, but
 because it does so through such unexpected means. Since the game was first published, real-time flying
 simulations on computers have become commonplace, used both for training and entertainment purposes. But
-6
+
  Chapter 27: Games as the Play of Simulation
-6
+
  Chapter 27: Games as the Play of Simulation
 
 
@@ -18221,8 +17766,8 @@ mathematical model that connects Ace of Aces to planes moving through space. But
 game—turning pages and calling out numbers—is nothing like sitting in an actual cockpit. In fact, this
 metaphorical difference between the core mechanic of Ace of Aces and its simulated referent is one source of
 the game's pleasure.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Procedural Representation
 Seen as simulations, games are dynamic systems that construct representation through play. Asteroids, for
 example, represents the feeling of vast space through the inertial drift of the player's ship. The game designers
@@ -18241,7 +17786,7 @@ emerges out of the procedures of game play. We call this form of depiction proce
 term "procedural" is shorthand for all of the process-based ways that games can signify. A procedural
 representation might arise from the functioning of a computer program's AI; it might be an emergent result of
 players following the rules of a game; or it could be an expressive core mechanic that references a particular
-action outside the game. 
+action outside the game.
 A miniatures-based wargame is a representation of war partly because the pieces themselves resemble
 miniature soldiers and because the battlefield can be painted to look like a contested landscape. But these
 visual signs make up only one part of the game's larger representation. Wargame representation is also
@@ -18255,10 +17800,8 @@ is fundamentally different than the visual aesthetics of the game token. Its rep
 on the unit's formal identity and its interactive capabilities within the game system. Of course, the units in
 wargames have many other kinds of formal statistics as well, from offensive and defensive abilities to
  Chapter 27: Games as the Play of Simulation
-7
- Chapter 27: Games as the Play of Simulation
-7
 
+ Chapter 27: Games as the Play of Simulation
 
 movement strengths and weaknesses on different types of terrain. All of these formal designations are based
 on the simulated characteristics of various battle units. As the game is played, these formal identities become
@@ -18292,7 +17835,7 @@ The board game Diplomacy is a complex representation of World War I political ne
 The game takes place on a map of Europe and (depending on the particular edition of the
 game) the tokens used by players might resemble land-based and naval military units, or they
 might be abstract shapes. Each player assumes the role of a European military power, vying
-to occupy a number of key cities and conquer the continent. 
+to occupy a number of key cities and conquer the continent.
 The game is played in turns. Each turn, players negotiate in public and private for a limited
 amount of time (usually about 10 or 15 minutes). At the end of the negotiation period, players
 write down and simultaneously reveal their selected actions. The outcomes of their actions
@@ -18307,9 +17850,9 @@ alliances and coordinate their actions.
 The formal game mechanics of Diplomacy result in a dramatic procedural representation of
 negotiated alliances, uneasy agreements, and broken peace treaties: a representation, in other
 words, of diplomacy itself. Only one player can ultimately emerge as victor, and it is usually
-8
+
  Chapter 27: Games as the Play of Simulation
-8
+
  Chapter 27: Games as the Play of Simulation
 
 
@@ -18358,10 +17901,8 @@ Because Vampire requires no game materials (no map or game pieces), it relies en
 the activity of the players' bodies to generate play: game representations emerge solely from
 the interaction between players. The initial limitation on the game, the fact that players must
  Chapter 27: Games as the Play of Simulation
-9
- Chapter 27: Games as the Play of Simulation
-9
 
+ Chapter 27: Games as the Play of Simulation
 
 keep their eyes closed for the duration of play, orchestrates a certain kind of representational
 experience. Enclosed in darkness, the player is taken out of the ordinary world and placed in
@@ -18397,7 +17938,7 @@ We first mentioned the board game Illuminati in Breaking the Rules. The game des
 remarkable, among other reasons, because it offers a play variant that encourages
 rule-breaking within certain boundaries. Although Illuminati uses many means to simulate its
 subject matter, we focus here on how rule-breaking itself acts to create a procedural
-representation. 
+representation.
 Illuminati is based on the Illuminatus books of Robert Anton Wilson, and the subculture of
 conspiracy theory associated with them. Players in Illuminati assume the roles of shadowy
 power brokers that manipulate world events and political structures to their own devious ends.
@@ -18410,9 +17951,9 @@ When players use the rule-breaking variant, a completely different kind of repre
 experience results. The premise of the game requires players to twist existing social structures
 and institutions to the mysterious—and often ridiculous—ends of the Illuminati. A player
 might arrange things, for example, so that Trekkies control the FBI, and the FBI in turn
-10
+
  Chapter 27: Games as the Play of Simulation
-10
+
  Chapter 27: Games as the Play of Simulation
 
 
@@ -18430,8 +17971,8 @@ play with genuine power. The authority of the rules, the social contract of a ga
 and trust of play, all become radically undermined, as the game flirts with its own destruction.
 Can you imagine a better way to represent the topsy-turvy world of the Illuminati?
 [2]Andrew Fluegelman and Shoshana Tembeck, The New Games Book (New York: Doubleday, 1976), p. 109.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Represented Conflict
 We are beginning to understand how procedural representations work to simulate phenomena through
 dynamic depictions. But there is a question that precedes a discussion of how games create such
@@ -18455,14 +17996,12 @@ suggests an idea" for a simulation. Why then, do games seem to focus on a narrow
 simulate? Why do we see the same genres of games over and over: fighting, racing, war, sports, and so on? Of
 course, economic and business concerns greatly influence game content. But is there something else,
 something deeper about the underlying structure of games that determines the kinds of processes they can and
-cannot depict? 
+cannot depict?
 Our definition of a game describes them as systems in which players engage in an artificial conflict, defined
 by rules, that results in a quantifiable outcome. The part of the definition relevant to our present discussion of
  Chapter 27: Games as the Play of Simulation
-11
- Chapter 27: Games as the Play of Simulation
-11
 
+ Chapter 27: Games as the Play of Simulation
 
 simulation and representation is conflict. Games are contests of power: they are systems of conflict. Conflict is
 not only a product of the game's rules, but of its system of representation as well. Every game, on some level,
@@ -18505,14 +18044,14 @@ invaded. Tabletop games such as Warhammer offer incredibly complex representatio
 warfare dynamically enacted, with dozens of different kinds of units, large detailed maps, and
 thick rulebooks controlling the particulars of interaction. The U.S. military uses even more
 complex war games as training exercises, in which hundreds or even thousands of troops play
-vast games of laser tag in real and simulated environments. 
+vast games of laser tag in real and simulated environments.
 Economic Conflict
 Economic conflict is another common form of conflict in games. Within simulations of
 economic conflict, it is not terrain that is contested, but a unit of value.The word "economic"
 does not necessarily refer to money, but to any collection of pieces, parts, points, cards, or
-12
+
  Chapter 27: Games as the Play of Simulation
-12
+
  Chapter 27: Games as the Play of Simulation
 
 
@@ -18558,16 +18097,14 @@ conflict. In Trivial Pursuit, for example, it is true that pieces move about on 
 territory of a board. It is also true that the players acquire a set of colored plastic pieces within
 an economy of parts in order to win the game. But these ways of framing Trivial Pursuit seem
 to leave out the key component of the game conflict: the process of asking and answering
-trivia questions. 
+trivia questions.
 In Trivial Pursuit, as with many other games in which information itself forms the arena of
 conflict, the contested "terrain" of the game is knowledge. Game shows such as Hollywood
 Squares, computer trivia games such as You Don't Know Jack, and even games about
 translation of information from one form to another such as Charades, can all be understood
  Chapter 27: Games as the Play of Simulation
-13
- Chapter 27: Games as the Play of Simulation
-13
 
+ Chapter 27: Games as the Play of Simulation
 
 as games in which the conflict is one of knowledge. Conflicts over knowledge are inherently
 cultural, because the game conflict itself engages with a cultural space that lies outside the
@@ -18609,11 +18146,11 @@ challenges are part of what makes game design as a field so remarkable. Despite 
 ancient phenomenon, there are still countless avenues for representational innovation—as long as you are
 ready to question long-standing assumptions about what games are and what they can be.
 [3]Warren Robinett, Inventing the Adventure Game, unpublished manuscript.
- < Day Day Up > 
- < Day Day Up > 
-14
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 27: Games as the Play of Simulation
-14
+
  Chapter 27: Games as the Play of Simulation
 
 
@@ -18654,7 +18191,7 @@ makes her character more difficult to find. Both of these attributes (isolated a
 visit) are very "witchy" characteristics. In the game, these characteristics are a function of the
 position of the witch's house relative to other elements on the game-grid of the imaginary
 world: they are procedural, growing from the formal characteristics of the game and the
-player's own game interactions. 
+player's own game interactions.
 When a player reaches the witch, she informs Link (via onscreen text) to bring her a
 mushroom. If the player goes back out into the forest, collects a mushroom, and then brings it
 back to the witch, she will take the mushroom, stir her cauldron, and produce a magical
@@ -18665,10 +18202,8 @@ characteristic is common in adventure games (take object A to character X and re
 B). Yet in the case of the witch, it works very well to depict her character.The procedural
 elements constituting her representation (her location in the world, her ability to convert
  Chapter 27: Games as the Play of Simulation
-15
- Chapter 27: Games as the Play of Simulation
-15
 
+ Chapter 27: Games as the Play of Simulation
 
 objects) are truly witch-like and serve to create an effective and memorable character.
 One last note of clarification: imagine a witch character in a book similar to the witch in
@@ -18708,7 +18243,7 @@ background as an action hero and dancer make her quick and agile. Her preferred 
 fighting favors rapid combinations that often leave her defenseless if her attacks are blocked.
 Because of her intense desire to defeat her father, Pai Chan is driven by emotion, not logic.
 As a result, her fighting style is visceral and immediate. She reacts quickly, but rarely plans
-for the long fight. 
+for the long fight.
 This character sketch not only describes Pai Chan herself, but also the playing style that her
 procedural characteristics engender. By "playing" Pai Chan in a match, the player participates
 in her representation, bringing her procedural characteristics to life. The play becomes a
@@ -18717,9 +18252,9 @@ characteristics, appearance, backstory, and emergent personality. This kind of r
 simulation is a fantastic example of the unique ways that games signify through an integrated
 suite of representational mechanisms.
 Deus Ex
-16
+
  Chapter 27: Games as the Play of Simulation
-16
+
  Chapter 27: Games as the Play of Simulation
 
 
@@ -18733,37 +18268,37 @@ mechanisms by which the game's characters are procedurally represented. Here is 
 excerpt from the document :
 Civilian:
 Does not harm civilians
-♦ 
+♦
 Ignores unidentified sounds
-♦ 
+♦
 Aware of alarms
-♦ 
+♦
 Issues warning before attacking
-♦ 
+♦
 Flees when wounded below X% (where X is high)
-♦ 
+♦
 Tends to protect self
-♦ 
+♦
 Ground-based movement, normal
-♦ 
+♦
 Thug:
 No concern for safety of civilians · Investigates unidentified sounds · Aware of
 alarms · Attacks without warning · Flees when wounded below X% (where X is low)
 · Ground-based movement, normal
-♦ 
+♦
 Military:
 Does not harm civilians
-♦ 
+♦
 Investigates unidentified sounds (if possible without abandoning post)
-♦ 
+♦
 Aware of alarms
-♦ 
+♦
 Issues warning before attacking
-♦ 
+♦
 Never flees when wounded
-♦ 
+♦
 Ground-based movement, fast [4]
-♦ 
+♦
 These character descriptions are quite high level—they do not formally specify exactly how
 each character will behave. For example, the speed of each character is only defined as
 "normal" and "fast" rather than numerically. However, as an abstract character sketch, these
@@ -18779,17 +18314,15 @@ procedurally generated actors could be developed.
 To appreciate the sophistication of these strategies for representation, compare the Deus Ex
 characters to the witch in Zelda. The witch behavior is fairly simple and wholly predictable
 (if: receive mushroom, then: create powder). In contrast, several Deus Ex characters
-encountering each other in the game create a scene rife with emergent drama. 
+encountering each other in the game create a scene rife with emergent drama.
 Imagine, for example, the following situation: A thug approaches a civilian. The civilian (who
 ignores unidentified sounds) pays no heed to the footsteps of the approaching thug, who
 begins to mercilessly beat the civilian (attacks without warning; no concern for safety of
 civilians). After the thug strikes a single blow, the civilian starts to flee (flees when wounded
 below X%, where X is high), pursued by the thug (both characters move at normal speed).
  Chapter 27: Games as the Play of Simulation
-17
- Chapter 27: Games as the Play of Simulation
-17
 
+ Chapter 27: Games as the Play of Simulation
 
 The pair of them run by a military character who takes notice of them (investigates
 unidentified sounds) and takes up the chase herself, quickly catching up to them (moving at
@@ -18829,15 +18362,15 @@ The game of Blob is centrally focused on the procedural representation of a sing
 the Blob. The form that the character takes, a mass of moving bodies, is quite different than
 the characters in Zelda: Link's Awakening, Virtua Fighter 4, and Deus Ex, which are
 experienced as visual images and audio. Yet, like these characters, the Blob is generated out
-of a set of representational procedures. 
+of a set of representational procedures.
 The Blob parodies a B-grade movie monster: a humongous, horrifying, pudding-like creature.
 The rules of the game cleverly bring this character to life through a set of behavioral
 procedures for representation. The fact that the rest of the players try to avoid the Blob
 immediately creates an environment of fear. The slow-moving Blob scatters players before it,
 lumbering through the playfield. The touch of the Blob is deadly, and when a player is
-18
+
  Chapter 27: Games as the Play of Simulation
-18
+
  Chapter 27: Games as the Play of Simulation
 
 
@@ -18851,14 +18384,13 @@ represented with numerical val-function of the number of players running loose a
 and what the relationships are that let these parts affect one the playfield. The dwindling
 non-Blob players become a another…. community of hard-nosed survivors. Oh no! Don't tell
 me it got Sharyn too! At the game's climax, the Blob symbolically ingests the entire world,
-becoming synonymous with the group of players as they reach a competitively and coop-
-eratively achieved endpoint. The game's narrative may only have one ending, but as the rules
+becoming synonymous with the group of players as they reach a competitively and cooperatively achieved endpoint. The game's narrative may only have one ending, but as the rules
 point out, there is a moral to the story
 Just as the witch in Zelda: Link's Awakening was repre
 [4]Harvey Smith, "The Future of Game Design," <www.gamasutra.com >.
 [5]Fluegelman and Tembeck, The New Games Book,p. 107.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Designing Simulations
 Procedural representations clearly can provide meaningful play for game players. But designing simulations is
 challenging Once you decide what it is you want your game to simulate, how do you put the pieces together to
@@ -18881,12 +18413,10 @@ growing, nomenon you want to depict in your game is most likely ingests players,
 recombines, inevitably wins) overflowing with layers of detail. But as with all forms of that are
 exceedingly Blob-like. An elegantly designed game representational media, you will never be able to
 fully persona, the Blob generates a character through excep-represent every facet of your subject.
-• 
+•
  Chapter 27: Games as the Play of Simulation
-19
- Chapter 27: Games as the Play of Simulation
-19
 
+ Chapter 27: Games as the Play of Simulation
 
 Thus your simulated tionally effective procedural means—and completely representation, as Robinett
 points out, is an abstraction. without digital technology! Chess is a highly abstracted representation of
@@ -18905,7 +18435,7 @@ but weak character and a slow but strong character. But what does "fast,""slow,"
 mean in your system? How do they interrelate? How do these attributes affect the decisions and
 outcomes a player makes? All games are systems, but when we frame them as simulations, the
 systemic aspect of the game is harnessed directly for representational effect.
-• 
+•
 Simulations are numerical. Not only are simulations abstracted, systemic representations, but they
 are also reducible to a formal, numerical structure. We know this already about games: at some level
 games are composed of rules, and at their most formal level, all rules are logical, mathematical,
@@ -18915,7 +18445,7 @@ mathematical modeling. The behavior of artificial characters, whether on a Magic
 card or inside Deus Ex, can be reduced to their formal identity. The fact that simulations must reduce
 their subjects to formal, numerical values is exactly why it is so challenging to procedurally depict
 social, psychological, and other experientially complex phenomena in a game.
-• 
+•
 Simulations are limited. Because simulations are numerical abstractions, they are intrinsically
 limited. As Robinett points out, "every model has its limitations and is not a complete representation
 of reality." We emphasize this aspect of simulations because of prevalent ideas in the computer game
@@ -18928,14 +18458,14 @@ thousands of other possible characteristics that might be simulated, from the ae
 materials to the effect of the bridge construction on the surrounding ecosystem. But that's OK. The
 game turns the intrinsically limited nature of simulation into an asset, by focusing player activity on a
 fun and educational aspect of building bridges.
-• 
+•
 Design involves choice: to create a simulation, you need to decide what to simulate and how. Every choice
 you make as a game designer opens some possibilities and closes others. What is meaningful in the context of
 a particular simulation? Is it meaningful to blow wind into the face of the player as she is piloting a hang
 glider? Is it meaningful to provide a full-body harness in which the player can lie as she interacts with the
 simulation? Is it meaningful to simulate the insurance and legal procedures by which a player purchases or
 rents a hang glider? Pilotwings for the Nintendo Entertainment System, a popular game simulation of hang
-gliding, includes none of these features. 
+gliding, includes none of these features.
 In digital games, much of this decision-making process involves the scope and depth of a simulation. If a
 racing game is composed of a single car on a single track, it can be extremely detailed. It might include a
 complex set of physics models, simulations of the internal suspension of the car, or wear on tire treads as they
@@ -18943,9 +18473,9 @@ are used over time. Given the same design resources, the addition of more cars a
 fewer characteristics can be simulated in an equally detailed way. If even more elements are added—such as
 cars that can transform into jets and fly around the track—the focus of the simulation shifts once more. If a
 character can get out of the vehicle, walk around, and interact with other people, that casts the net even wider
-20
+
  Chapter 27: Games as the Play of Simulation
-20
+
  Chapter 27: Games as the Play of Simulation
 
 
@@ -18997,10 +18527,8 @@ focus of the game.The heartbroken driver implies a game system that would focus 
 emotions, and stylized romance. As you craft representations in your game system, you simultaneously create
 the meanings that players will experience.
  Chapter 27: Games as the Play of Simulation
-21
- Chapter 27: Games as the Play of Simulation
-21
 
+ Chapter 27: Games as the Play of Simulation
 
 The key is to remember that just because a simulation is limited in scope doesn't mean that it is impoverished
 in what it can provide players. The abstract play of Go contains an infinite number of strategic options. The
@@ -19013,8 +18541,8 @@ of your game's meaningful play.
 [6]Robinett, Inventing the Adventure Game.
 [7]Harvey Smith, "The Future of Game Design," <www.gamasutra.com >.
 [8]Ibid.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Learning from Wargames
 Working within the intrinsic limitations of simulations is one of the key challenges of game design. What are
 you going to simulate in your game? How are you going to abstract it? Which features of the phenomena will
@@ -19042,40 +18570,40 @@ study for the design of simulations. We have already touched on one aspect of wa
 abstraction of unit characteristics. The pieces in a war-game are far more complex than in a game like Chess.
 When a wargame unit "attacks" an enemy piece, the outcome of the simulated combat is not simply to remove
 the attacked unit (as in Chess); instead, a variety of factors determine the outcome. Resolving an attack might
-involve some or all of the following: 
-22
+involve some or all of the following:
+
  Chapter 27: Games as the Play of Simulation
-22
+
  Chapter 27: Games as the Play of Simulation
 
 
 offensive strength of the attacking unit
-• 
+•
 defensive strength of the defending unit
-• 
+•
 whether or not either unit has already been wounded in battle
-• 
+•
 terrain that might give advantages and disadvantages to either unit
-• 
+•
 nearby units that can lend support
-• 
+•
 the nearby presence or absence of a General or other leader
-• 
+•
 the morale of a unit or of its team
-• 
+•
 a random dice roll (to simulate the uncertainty of actual combat)
-• 
+•
 Generally, players tally these factors and consult an appropriate table that lists the outcome of the encounter.
 The complexity of the simulation doesn't end there, however, because the result of an attack can also take a
 variety of forms, including:
 one or both units is eliminated
-• 
+•
 one or both units is reduced in strength
-• 
+•
 one or both units is forced to retreat
-• 
+•
 one unit displaces the other's position
-• 
+•
 A rich procedural representation emerges out of the factors going into and coming out of an encounter
 between wargame units. By tweaking the formal characteristics of units and the overall resolution system of a
 game, game designers can arrive at highly specific procedural representations of a historical battle. Depending
@@ -19090,8 +18618,8 @@ wargames radically abstract their subject matter. However, if you accept these l
 conventions of the game genre, within them there is room for endless play, both for the player exploring
 permutations of history and for the game designer constructing the systems that make the historical simulation
 possible.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Field of Battle
 In addition to characteristics of the units and the rules for their interaction, the design of the field of play
 presents its own challenges. A historical wargame has to function as both a playable game and an accurate
@@ -19105,10 +18633,8 @@ of providing an accurate simulation. The designer usually feels obliged to justi
 detail. Often the gamer will be equally expectant that all of this detail be put to some use or
 otherwise why bother him with it. There is an unspoken assumption that only that which is
  Chapter 27: Games as the Play of Simulation
-23
- Chapter 27: Games as the Play of Simulation
-23
 
+ Chapter 27: Games as the Play of Simulation
 
 essential is displayed. It is normally considered a bad design if information is included in the
 game that does not contribute to one's understanding of what is going on. [9]
@@ -19143,23 +18669,23 @@ your game simulates combat between individual soldiers, the terrain elements you
 representational statement about which type of terrain affects a certain kind of combat. The meaning of a
 wargame map arises not just from its geographic or pictorial features: the meaning derives from the role the
 map plays in the larger game experience. The formal qualities of the map make certain player actions
-possible, actions that constitute the ongoing moments of game play. 
+possible, actions that constitute the ongoing moments of game play.
 Not all wargames use a grid. Some miniatures games measure unit movement in inches, and in some digital
 wargames, unit movement is free-form and highly granular. In these cases, the principles of abstraction and
 meaningful play still hold. Are the map elements communicating their meaning to the player? Do they affect
 game play in ways that make sense within the experience of the game emerges. In this way, the play of
 simu-lation brings us back to the most fundamental questions of game design.
-24
+
  Chapter 27: Games as the Play of Simulation
-24
+
  Chapter 27: Games as the Play of Simulation
 
 
 hexagonally stylized river
 [9]James F. Dunnigan, Wargames Handbook, Third Edition: How to Play and Design Commercial and
 Professional Wargames (San Jose: Writers Club Press, 2000), p. 109.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Simulation in Context
 Historical wargaming provides a terrific context for better understanding issues of representation and
 simulation because the premise of the genre is that a game accurately depicts a real-world historical referent.
@@ -19181,7 +18707,7 @@ doors would larger system of the game? Is the simulation creating a coher-belong
 category of objects that break when ent representation? Are the outcomes of the player's choices they
 receive damage. Hallford and Hallford strongly prefer meaningful? As play unfolds moment by
 moment, the total this latter approach to simulation design.[10]
-• 
+•
 In Game Design: Theory and Practice, Richard Rouse III dis cusses a related set of ideas through the
 example of a dungeon puzzle, in which players open a secret door by dropping objects on a pressure
 plate trigger. One design approach would be to hard-code relationships between every object and the
@@ -19189,16 +18715,14 @@ pressure plate, so that objects defined as "heavy" trigger the plate. Rouse advo
 generalized weight system instead, in which every object in the game has a numeric weight rating; if
 the weight value of the objects on the pressure plate reaches a certain number, the plate is
 triggered.[11]
-• 
+•
 In "The Future of Game Design," Harvey Smith shows a similar preference in an example involving
 bird behavior. Bird behavior could be modeled so that when a player moves within a certain radius of
 a simulated bird, the bird flies into the air. However, Smith would rather see a more detailed
-• 
+•
  Chapter 27: Games as the Play of Simulation
-25
- Chapter 27: Games as the Play of Simulation
-25
 
+ Chapter 27: Games as the Play of Simulation
 
 simulation in which the bird's behavior could be triggered by the perception of light, sound, motion,
 or other modeled stimuli that would be more tightly integrated into the system of the game as a
@@ -19216,7 +18740,7 @@ to be immune to grenade damage) means going back into the code and modifying eve
 instance. By creating classes of objects as Hallford and Hallford suggest, categories of objects can be
 moved in and out of different effect classes, so that game designers can quickly try out different
 combinations of relationships in the game.
-• 
+•
 It increases emergence: More flexible game simulations lead to a greater degree of emergence in the
 game as a whole. In Smith's example, having a more detailed behavioral simulation for the birds
 creates more varied roles for the birds to play in the game. If the birds react to sound and not just to
@@ -19224,7 +18748,7 @@ proximity, a game moment in which gunshots ring out and the flock of birds drama
 sky becomes possible. This is not necessarily something designed directly into the game, but it is an
 emergent effect of the simple rules governing bird behavior. With more detailed simulations, the
 space of possibility is enlarged and complexified.
-• 
+•
 It increases play options: More generalized simulation systems give players more choices and more
 ways to solve problems. In Rouse's example of the dungeon pressure plate, a player that had no object
 to drop might create a magical snowstorm that created enough weight on the floor to affect the plate.
@@ -19233,20 +18757,20 @@ possibility. This leads to more distinct styles of play and more avenues for mea
 Smith's birds were present in a deathmatch game, for example, a smart player might strategically
 position himself, fire a shot to scatter the flock, and then use the motion of the birds as visual cover
 for an assault on the enemy.
-• 
+•
 [10]Hallford and Hallford, Swords and Circuitry, p. 170–171
 [11]Richard Rouse III, Game Design: Theory and Practice (Plano, TX: Word-ware Publishing, 2001), p.
 122-123.
 [12]Harvey Smith, "The Future of Game Design"
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 A Balanced Approach
 Hallford and Hallford, Rouse, and Smith strongly advocate the use of generalized simulation design
 techniques as opposed to a case-based approach. But is it really possible to integrate every aspect of a game
 within a generalized system? One eloquent thinker on this topic is game designer Marc LeBlanc:
-26
+
  Chapter 27: Games as the Play of Simulation
-26
+
  Chapter 27: Games as the Play of Simulation
 
 
@@ -19299,10 +18823,8 @@ ambiguous. If you are playing a game and you see a group of birds that suddenly 
 their behavior will seem random and meaningless. It might be that their behavior is simulated in such detail
 that their internal clocks told them it was time to leave the scene and migrate south for the winter.
  Chapter 27: Games as the Play of Simulation
-27
- Chapter 27: Games as the Play of Simulation
-27
 
+ Chapter 27: Games as the Play of Simulation
 
 Unfortunately, the accuracy of the simulation would be lost on the player, who has no way of knowing how
 the meaning of the birds' actions fit into the larger game experience.
@@ -19313,7 +18835,7 @@ procedure: if the player brings a mushroom to the witch, she will turn it into m
 representation was well-integrated into the other more generalized representational strategies of the game (the
 witch's hut is isolated, difficult to find, and dangerous to reach; mushrooms are hidden in the forest; magic
 powder has special effects in the game). Thus the meaning of the witch gained its power from the total game
-context in which it was experienced. 
+context in which it was experienced.
 The fact that rich meanings can emerge from a representational context not based on software complexities
 offers an important insight into game design and simulation. As we've mentioned, games currently suffer from
 a narrow range of simulated subject matter. Although there are important historical reasons for the prevalence
@@ -19336,8 +18858,8 @@ complex interplay between a simulation and its simulated subject. It is to this 
 now turns.
 [13]RE:PLAY: Game Design + Game Culture.Online conference, 2000 <www.eyebeam.org>.
 [14]Ibid.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Value of Reality
 We have come to a turning point in this chapter. Up to now, our primary focus in considering the play of
 simulation has been on how simulations operate: the mechanisms that generate procedural representation, the
@@ -19346,9 +18868,9 @@ generalized strategies for structuring simulations. But there is a very differen
 consider. Recall our definition: a simulation is a procedural representation of aspects of "reality." So far, our
 emphasis has been on the procedural component of simulations. But now we turn to the equally important and
 immensely complicated set of questions regarding simulations and "reality."
-28
+
  Chapter 27: Games as the Play of Simulation
-28
+
  Chapter 27: Games as the Play of Simulation
 
 
@@ -19361,7 +18883,7 @@ precisely on the geometry of an existing speedway. But when they test-drove thei
 steering wheel and pedal interface, they weren't able to reach the top speeds of the car on which the simulation
 was based. One day a professional race car driver visited the company. He sat down at the game prototype and
 immediately drove the simulated car around the track at breakneck speed, completing it close to the real-world
-speed record. 
+speed record.
 The simulation was so "accurate" that it required expert manipulation in order to resemble the real-world
 phenomena it had been designed to replicate. What's the lesson? Don't forget the player. The designers of the
 game had assumed that simulation design meant only formally recreating a mathematical model of the car and
@@ -19382,8 +18904,8 @@ sound, and procedures. But how do these representations relate to their referent
 the letters C-O-W don't resemble a cow in any way. But a photograph of a cow does bear some similarity to
 our own perception of a cow in the real world. How do games relate to their depicted subject matter? To
 answer these important questions, we return to the concept of metacommunication.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Framing the Simulation
 Children know that they are manipulating their thoughts about reality, not reality itself; and
 they know that their play self is not the same as their everyday self.—Brian Sutton-Smith,
@@ -19396,10 +18918,8 @@ the two dogs are playing and not actually fighting. This kind of metacommunicati
 communica-tion—is present not just in informal play but in games as well. It is a significant part of the
 complex mechanisms games use to construct meanings for their players.
  Chapter 27: Games as the Play of Simulation
-29
- Chapter 27: Games as the Play of Simulation
-29
 
+ Chapter 27: Games as the Play of Simulation
 
 Why is the concept of metacommunication so important, especially in the context of simulation?
 Metacommunication makes it clear that to play a game is to take part in a kind of double-consciousness.
@@ -19436,16 +18956,16 @@ metacommunication and paradox, are not just abstract philosophical chatter. In u
 construct meaning, we are address-ing the deeply felt ways that players engage with games and the emotional
 and social realities games reflect and construct. The metacommunicative state of mind is deeply intertwined
 with the unique pleasures and experiences of play.
-30
+
  Chapter 27: Games as the Play of Simulation
-30
+
  Chapter 27: Games as the Play of Simulation
 
 
 [15]Gregory Bateson, "A Theory of Play and Fantasy" in Steps to an Ecology of Mind (Chicago: University of
 Chicago Press, 1972), p. 184.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Immersive Fallacy
 All forms of entertainment strive to create suspension of disbelief, a state in which the
 player's mind forgets that it is being subjected to entertainment and instead accepts what it
@@ -19464,7 +18984,7 @@ game are extremely common in the digital game industry, the game press, and even
 Game designer Frank Lantz has called these kinds of ideas about immersion "widely held but seldom
 examined" beliefs. [16]We wholeheartedly agree, and in the pages that follow we refute these beliefs, referring
 to them as the immersive fallacy. The immersive fallacy is the idea that the pleasure of a media experience lies
-in its ability to sensually transport the participant into an illusory, simulated reality. 
+in its ability to sensually transport the participant into an illusory, simulated reality.
 According to the immersive fallacy, this reality is so complete that ideally the frame falls away so that the
 player truly believes that he or she is part of an imaginary world.
 Although the immersive fallacy has taken hold in many fields, it is particularly prevalent in the digital game
@@ -19484,10 +19004,8 @@ followed, it was clear that many participants take for granted the propositions 
 Spector's selective history of entertainment technologies offers one reading of the development of media. But
 there are others. History rarely provides such a linear progression, and in regard to immersion, cultural
  Chapter 27: Games as the Play of Simulation
-31
- Chapter 27: Games as the Play of Simulation
-31
 
+ Chapter 27: Games as the Play of Simulation
 
 developments tend to be cyclical. As theorist Marie-Laure Ryan puts it, "The history of Western art has seen
 the rise and fall of immersive ideals." [18]According to Ryan, immersion as a representational goal has gone
@@ -19499,8 +19017,8 @@ and well.
 [17]RE:PLAY: Game Design + Game Culture. Online conference, 2000.
 [18]Marie-Laure Ryan, Narrative as Virtual Reality: Immersion and Interactivity in Literature and Electronic
 Media (Baltimore: John Hopkins University Press, 2000), p. 2.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Metacommunicative
 Media The immersive fallacy is symptomatic of contradictory ideas about technology. On one hand, there is a
 technological fetishism that sees the evolutionary development of new technology as the saving grace of
@@ -19517,7 +19035,7 @@ the manner the immersive fallacy implies. A game player does become engrossed in
 engagement that occurs through play itself. As we know, play is a process of metacommunication, a
 double-conscious-ness in which the player is well aware of the artificiality of the play situation.
 During the same online conversation in which Spector posted his intentionally provocative question, film
-studies scholar Elena Gorfinkel responded: 
+studies scholar Elena Gorfinkel responded:
 Immersion is not a property of a game or media text but is an effect that a text produces. What
 I mean is that immersion is an experience that happens between a game and its player, and is
 not something intrinsic to the aesthetics of a game. The confusion in this conversation has
@@ -19530,9 +19048,9 @@ perception, works.[19]
 Gorfinkel makes a number of critical points. First, with her example of Tetris she points out that there are
 plenty of examples of games in which "immersion" is not tied to a sensory replication of reality. In fact, there
 are countless examples of art and entertainment media, from techno music to comic books to expressionist
-32
+
  Chapter 27: Games as the Play of Simulation
-32
+
  Chapter 27: Games as the Play of Simulation
 
 
@@ -19549,8 +19067,8 @@ possible to say that the players of a game are "immersed"—immersed in meaning.
 part in a complex interplay of meaning. But this kind of immersion is quite different from the sensory
 transport promised by the immersive fallacy.
 [19]RE:PLAY: Game Design + Game Culture. Online conference, 2000.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Remediating Games
 In some sense, the layered, metacommunicative state of play is similar to our experience of all media. In their
 book Remediation, theorists Jay David Bolter and Richard Grusin analyze the mechanisms by which media
@@ -19570,7 +19088,7 @@ operating system, in a browser, on a web page, inside an interface, reminds them
 transparently experiencing the locale where the web cam exists, but are instead interacting with a highly
 artificial media construct. The main argument made by Bolter and Grusin is that all media combine these two
 processes into what they term remediation, an experience of media in which immediacy and hypermediacy
-co-exist. 
+co-exist.
 We can also analyze games within this model. The double consciousness of play finds a strong parallel in the
 process of remediation, which mixes transparent immediacy with a hyper-mediated awareness of the
 constructed nature of play. In Cops and Robbers, players willingly take on the theatrical roles of criminals and
@@ -19580,10 +19098,8 @@ space. But playing the game also involves an awareness of the game interface, th
 frame-breaking options, the use of text-based chat, fluctuating server speeds, and the sharing of tips with
 friends in the larger social context of play. These frame-related aspects of the Halo experience remind the
  Chapter 27: Games as the Play of Simulation
-33
- Chapter 27: Games as the Play of Simulation
-33
 
+ Chapter 27: Games as the Play of Simulation
 
 player that the game is a constructed, hypermediated experience.
 The value of Bolter and Grusin's model is that it doesn't do away with illusionistic immersion, but includes it
@@ -19593,8 +19109,8 @@ in real-time to player action. The immersive fallacy grossly overemphasizes thes
 doing, misrepresents the diverse palette of experiences games offer.
 [20] Jay David Bolter and Richard Grusin, Remediation: Understanding New Media (Cambridge: MIT Press,
 1999), p. 16.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Character of Character
 The danger of the immersive fallacy is that it misrepresents how play functions—and game design can suffer
 as a result. If game designers fail to recognize the way games create meaning for players—as something
@@ -19627,13 +19143,13 @@ Final Fantasy VII is a complex role-playing game. The play experience occurs by 
 navigating Cloud and his comrades though virtual spaces, managing a detailed inventory of weapons, items,
 and magic, taking part in constant strategic battles, and engaging with the game's intricate spreadsheet-like
 interface. Through these diverse activities, the performance of play acknowledges and celebrates its own
-34
+
  Chapter 27: Games as the Play of Simulation
-34
+
  Chapter 27: Games as the Play of Simulation
 
 
-hypermediated construction. 
+hypermediated construction.
 The psychologist Gary Alan Fine, in his excellent book Shared Fantasies, offers a model for understanding
 the complex relationship between player and character. Shared Fantasies is an ethnographic study of tabletop
 role-playing game communities. Borrowing from psychologist Erving Goffman's theories of Frame Analysis,
@@ -19678,12 +19194,10 @@ During game play, he might switch between the character/player/person frames man
 moving between emotional identification with his robot character (Ouch! I just got slammed!)
 and his role as player in the game contest (Let's see if I can get my bot out of the corner). He
 might even break the frame of player to wave to a friend in the crowd or to offer a sound bite
-to the television host. 
+to the television host.
  Chapter 27: Games as the Play of Simulation
-35
- Chapter 27: Games as the Play of Simulation
-35
 
+ Chapter 27: Games as the Play of Simulation
 
 Fine's three-layer model is an extension of the double-con-sciousness of play. Players always know that they
 are playing, and in that knowledge are free to move among the roles of person, player, and character. Players
@@ -19697,8 +19211,8 @@ affairs that will only evolve to its true state of pure immersion when the techn
 otherwise. The many-layered state of mind that occurs during play is something to be celebrated, not
 repressed—it is responsible for some of the unique pleasures that emerge from a game.
 [21]Gary Alan Fine, Shared Fantasies (Chicago: University of Chicago Press, 1983), p. 186.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Hacking the Holodeck
 The questions surrounding games as simulations are always more complex than they first appear.[22] There is
 no simple relationship between player and character, or player and game, or game and outside world. This is
@@ -19727,9 +19241,9 @@ to their referent, the very fact that they are dynamic systems means they allow 
 permutations. Simulations allow players to explore a space of representational possibility through the very act
 of play. Certainly there are a great many game designers driven by a desire to tell stories and provide narrative
 worlds for players. Framing games as simulations, as dynamic systems of procedural representation, unlocks
-36
+
  Chapter 27: Games as the Play of Simulation
-36
+
  Chapter 27: Games as the Play of Simulation
 
 
@@ -19738,8 +19252,8 @@ scratched at the surface. Questions remain: What can games represent? How can ga
 through meaningful play? And how can games challenge, critique, and contribute to the world outside the
 magic circle?
 [22]Frank Lantz, Hacking the Holodeck, unpublished manuscript.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 Narrative as Virtual Reality: Immersion and Interactivity in Literature and Electronic Media, by
 Marie-Laure Ryan
@@ -19767,88 +19281,83 @@ Shared Fantasy, by Gary Alan Fine (see page 417)
 Recommended:
 Chapter 1: FRP
  Chapter 27: Games as the Play of Simulation
-37
- Chapter 27: Games as the Play of Simulation
-37
 
+ Chapter 27: Games as the Play of Simulation
 
 Chapter 2: Players
 Chapter 3: Collective Fantasy
 Chapter 6: Frames and Games
 "A Theory of Play and Fantasy" by Gregory Bateson (see page 373)
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 A simulation is a procedural representation of aspects of "reality." Simulations represent
 procedurally and they have a special relationship to the "reality" that they represent.
-• 
+•
 There are many kinds of simulations that are not games. However, all games can be understood as
 simulations, even very abstract games or games that simulate phenomena not found in the real world.
-• 
+•
 Game simulations usually operate metaphorically: they do not literally recreate a representation of
 their subject matter. The difference between a game simulation and its referent can be a source of
 pleasure for players.
-• 
+•
 A procedural representation is a process-based, dynamic form of depiction. Procedural
 representation is how simulations simulate their subject matter. These forms of representation emerge
 from the combination of the formal system of a game and the interaction of a player with the game.
-• 
+•
 An entire game can be considered a procedural representation of a particular subject. In addition,
 games include smaller procedural representations that make up the larger depiction.
-• 
+•
 The subject matter of game representations is linked to the kinds of conflict that a game can represent.
 Games typically represent territorial conflict, economic conflict, or conflict over knowledge. Most
 games combine two or all three of these categories. It is possible to represent other forms of conflict
 as well.
-• 
+•
 Simulations are a powerful way of thinking about narrative because procedural representation is an
 approach to storytelling that directly emphasizes the player's experience.
-• 
+•
 Simulations are abstract, numerical, limited, and systemic. A simulation cannot be both broad and
 deep. Because designing a simulation means radically reducing the simulation's subject matter, a
 game designer must carefully select which aspects of a phenomenon to depict and how to embody
 them within the system of the game.
-• 
+•
 Simulations, especially in digital games, can be structured according to a case-based logic, in which
 relationships between every element of a system are specified in advance, or a more generalized logic
 in which system elements share a set of general attributes. Generalized structures can save work time
 and lead to more emergent games where players have greater options for action. However, a balance
 between the two kinds of structures is usually necessary in any given game.
-• 
+•
 The phenomenon of metacommunication implies that game players are aware of the frame of a game
 and that a player's state of mind embodies a kind of double-consciousness that both accepts and
 refutes that frame.
-• 
+•
 The immersive fallacy is the belief that the pleasure of a media experience is the ability of that
 experience to sensually transport a player into an illusory reality. Although the immersive fallacy is
 prevalent in the digital game industry, it does not take into account the metacommunicative nature of
 play.
-• 
+•
 Media theorists Bolter and Grusin argue that all media operate through the process of remediation.
 The two opposing elements of remediation are immediacy, which promises true and authentic
 representation, and hypermediacy, which emphasizes the constructed nature of media representation.
-• 
-38
+•
+
  Chapter 27: Games as the Play of Simulation
-38
+
  Chapter 27: Games as the Play of Simulation
 
 
 Psychologist Gary Allen Fine identifies three layers of game player consciousness: direct
 identification with the game character, engagement with the game procedures as a player, and
 existence in larger social contexts as a person.
-• 
- < Day Day Up > 
- < Day Day Up > 
+•
+ < Day Day Up >
+ < Day Day Up >
  Chapter 27: Games as the Play of Simulation
-39
- Chapter 27: Games as the Play of Simulation
-39
 
-
-40
  Chapter 27: Games as the Play of Simulation
-40
+
+ Chapter 27: Games as the Play of Simulation
+
  Chapter 27: Games as the Play of Simulation
 
 
@@ -19878,12 +19387,10 @@ Theory Systems, for example, we explored the decision-making process of rational
 specialized kinds of games. Even within the incredibly narrow constraints of game theory, the consideration
 of two-player strategies transformed simple choices into remarkably complex game problems. Now as we
 consider player interaction within the full gamut of social play, things get very tricky indeed.
- < Day Day Up > 
+ < Day Day Up >
  Chapter 28: Games as Social Play
-1
 
-
- < Day Day Up > 
+ < Day Day Up >
 Social Relations
 When we frame a game as social play, we consider the relationships between elements in the game system to
 be social relationships. The word "social" refers broadly to player interaction, and occurs on two levels. The
@@ -19899,7 +19406,7 @@ for long if you are quick!) Navigating, manipulating, and transforming these rel
 players achieve meaningful play in the social realm. Furthermore, the social play that occurs between players
 is a function of the way the game operates as a system of meaning. Playing games generates meanings for
 players, which reproduce and challenge codes of social interaction. The kinds of meaning generated as players
-relate to one another within and through a game is at the center of our exploration of games as social play. 
+relate to one another within and through a game is at the center of our exploration of games as social play.
 In earlier chapters, we established the idea that games are symbolic systems of meaning. Extending this idea
 through social play, we can consider a game as a symbolic system players use to communicate with each
 other. For example, two players can sit down and play Tic-Tac-Toe even if they don't share the same native
@@ -19918,14 +19425,14 @@ interaction outside the game, it will be impossible to consider social play with
 realm of culture. For this reason, Games as Social Play has a somewhat ethnographic character: understanding
 games as social play requires a great deal of careful observation.These initial forays to the edge of the magic
 circle and beyond will help set the stage for the CULTURE chapters to follow.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Player Roles
 From a social play point of view, when a player enters into the system of a game, that player is given a role to
 play. By "role" we don't mean that a player becomes a character in a story. Rather, we mean that each player
-2
+
  Chapter 28: Games as Social Play
-2
+
  Chapter 28: Games as Social Play
 
 
@@ -19975,10 +19482,8 @@ members as a cutthroat competitor forced a re-evaluation of social (and strategi
 Clearly, the social roles that a game provides exert a tremendous influence on the overall experience of play.
 The chart to the right presents a list of social play roles from Brian Sutton-Smith's "A Syntax for Play and
  Chapter 28: Games as Social Play
-3
- Chapter 28: Games as Social Play
-3
 
+ Chapter 28: Games as Social Play
 
 Games" in Child's Play, a book he edited with R.E. Herron.[1] Each of the roles Sutton-Smith identifies
 represents internally derived social interactions. In other words, they are roles created by the formal system of
@@ -20041,18 +19546,18 @@ Not just two players. Although Sutton-Smith's model is based on a relationship b
 (an actor and a counteractor), these roles don't have to be played by just one player each. Game roles
 are rarely so simple and singular. In Hide-and-Seek (where the core activity is the search), the player
 that is "It" plays the role of actor while all of the other players are the hiding counteractor.
-• 
+•
 Many activities. As with other kinds of play, a player can assume a range of social roles in the course
 of a single game. In Capture the Flag, almost every one of the activities listed on the chart takes place
 at one point or another, with any individual player playing both actor and counter-actor at different
 moments in the game.
-• 
+•
 More than one activity at once. Beyond switching roles, a player might inhabit more than one role
 simultaneously. Imagine a pair of Hide-and-Seek players hiding together. As they bide their time they
-• 
-4
+•
+
  Chapter 28: Games as Social Play
-4
+
  Chapter 28: Games as Social Play
 
 
@@ -20063,12 +19568,12 @@ Not just human players. Both roles don't have to be taken on by human players. A
 trying to beat her own best time in a race, in which case her previous time serves as the opponent. In
 the single-player arcade game Robotron, the program provides different game elements that must be
 avoided (indestructible enemies), destroyed (shootable enemies) and rescued (humans).
-• 
+•
 Different activities at different levels. Different social game activities can be applied to the same
 game depending on how the game is framed. Although Robotron can be described in terms of chase,
 attack, capture, and rescue, it is also possible to frame an entire game of Robotron as a race, in which
 a player tries to beat a previous high score.
-• 
+•
 Sutton-Smith's list of social play roles is quite extensive, but it is certainly not exhaustive. The essay "Hearts,
 Clubs, Diamonds, Spades: Players Who Suit MUDs," by MUD designer Richard Bartle, considers another
 typology of social play roles. In opposition to Sutton-Smith's model, Bartle's roles are externally derived,
@@ -20077,7 +19582,7 @@ games, and Bartle similarly focuses on one kind of game: text-based online MUDs.
 MUDs there are four types of roles, or playing styles: Achievers, Explorers, Socializers, and Killers. Although
 many individual players assume hybrid roles, according to Bartle one is generally dominant. Bartle associates
 each role with a playing card suit. In his account of the categories below, he descibes how each player role
-regards the other three styles of play: 
+regards the other three styles of play:
 Achievers [diamonds] regard points-gathering and rising in levels as their main goal, and all is
 ultimately subservient to this. Exploration is necessary only to find new sources of treasure,
 or improved ways of wringing points from it. Socializing is a relaxing method of discovering
@@ -20108,10 +19613,8 @@ socializing is sometimes worthwhile beyond taunting a recent victim, for example
 out some- one's playing habits, or discussing tactics with fellow killers. They'reall just means
 to an end, though; only in the knowledge that a real person, somewhere, is very upset by what
  Chapter 28: Games as Social Play
-5
- Chapter 28: Games as Social Play
-5
 
+ Chapter 28: Games as Social Play
 
 you've just done, yet can themselves do nothing about it, is there any true
 adrenaline-shoot-ing, juicy fun.[2]
@@ -20132,8 +19635,8 @@ cluster of related activities and interactions.
 (New York: John Wiley and Sons, 1971), p. 304.
 [2]Richard Bartle, "Hearts, Clubs, Diamonds, Spades: Players Who Suit MUDs."
 <http://www.mud.co.uk/richard/hcds.htm>.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Three Emergent Social Games
 In Games Emergent Systems, we established that meaningful play in a game requires a complex, emergent
 system. The same is true for social play: social interaction in games is closely tied to the concept of
@@ -20153,9 +19656,9 @@ Games Properly Explained. Not only is Little Max a simple and elegant version of
 game rich in social play. Here are the rules, paraphrased from Knizia's description:
 You will need two dice and a cup. The object of the game is to remain in the game by making the other
 players believe what you say about your dice roll.The last remaining player in the game wins.
-6
+
  Chapter 28: Games as Social Play
-6
+
  Chapter 28: Games as Social Play
 
 
@@ -20172,13 +19675,13 @@ next player starts a new round.
 Following are the ranking of dice results:
 A Little Max, when one die shows a 1 and the other shows a 2, is the highest result in the game and
 must always be challenged when it is called.
-• 
+•
 Pairs are the next highest results, with a pair of 6s the highest pair and a pair of 1s the lowest. Below
 pairs are figures, any other two numbers.
-• 
+•
 Figures are declared with the highest number in front (so a 4 and a 2 beats a 4 and a 1). A 6 and a 5 is
 the highest figure and a 3 and a 1 is the lowest.
-• 
+•
 Play continues until only one player is left. Note that a player may decide not to look at his roll and simply
 claim a result. He doesn't even have to reroll the dice if he wants, in which case he passes the cup unseen with
 a higher claim.[3]
@@ -20192,7 +19695,7 @@ you.
 Your decision to challenge depends on your chances to better the current claim, but also on your evaluation of
 the previous player's chances to produce his claim.. . .
 The chances of beating a 6-1 or better are exactly 50%. In theory you should challenge the claim if the
-previous player had to beat 6-1 or better, because the odds are in your favor. 
+previous player had to beat 6-1 or better, because the odds are in your favor.
 Practical play turns out to be different. Challenges happen less frequently as most players tend to duck and
 hope that the evil will pass over them. If you can assume that the next player will follow this trend and not
 challenge you, why should you take any risks? Ducking among ducks is the best strategy.
@@ -20203,10 +19706,8 @@ over the top. A contradiction! What about calling out the next possible result e
 something higher?
 Body language and trembling nerves usually prevail over logical analysis. You will soon find yourself
  Chapter 28: Games as Social Play
-7
- Chapter 28: Games as Social Play
-7
 
+ Chapter 28: Games as Social Play
 
 desperately searching for a good combination to claim while staring in disbelief at your incredibly low dice.
 Mumbling something like "five-six"obviously indicates that your mind is distracted. Could it be fear?. . .
@@ -20238,7 +19739,7 @@ Mafia is a game for approximately 8–10 players, although it can be played with
 works best when all of the players are sitting around a table and can see each other. At the beginning of the
 game, three of the players are secretly given roles. This is usually accomplished by passing out a pre-sorted
 and shuffled set of playing cards, one card for each player. The set includes one heart, two spades, and the rest
-of the cards are diamonds. 
+of the cards are diamonds.
 The player that receives the heart is moderator and is out of the game. The moderator serves as referee and
 runs the game. The moderator collects the cards at the start of the game—they are not used again.The two
 players that received spades are the members of the mafia. Their objective is to eliminate all of the other
@@ -20253,9 +19754,9 @@ game. All of the remaining players begin a debate about who is in the mafia. Aft
 discussion, the moderator calls for a vote. The player receiving the most votes is killed by an uprising of the
 villagers and is out of the game. A moderator can call for a re-vote if there is a tie, or can end the day without
 an uprising if there is a true deadlock. Then the moderator instructs everyone to close their eyes as night falls
-8
+
  Chapter 28: Games as Social Play
-8
+
  Chapter 28: Games as Social Play
 
 
@@ -20285,7 +19786,7 @@ other points in delicate and puzzling ways. None of the villagers can fully trus
 players can work together, they have to keep their partnership a secret. The game of Mafia is truly a tangled
 knot of social play. Mafia also plays wonderfully with the magic circle. Once a player has been eliminated,
 that player steps halfway out of the magic circle, finally learning the information they had been seeking, but
-forced by the rules they are still observing to remain silent as the engaging drama unfolds. 
+forced by the rules they are still observing to remain silent as the engaging drama unfolds.
 Stand Up
 We complete our trio of examples with another game that seems extremely simple on the surface: it contains
 no hidden information, all players have the same role, and there is only one thing they can do. The game is
@@ -20304,10 +19805,8 @@ mechanic of Stand Up is not only athletically engaging for the entire body, but 
 when only two players take part in the game, they are challenged to work in concert as they struggle to move
 from one stable state (sitting) to another (standing), by making their way together through an interstitial state
  Chapter 28: Games as Social Play
-9
- Chapter 28: Games as Social Play
-9
 
+ Chapter 28: Games as Social Play
 
 of great unbalance.
 As they play together, the fact that the players are facing away from each other means that their primary
@@ -20332,8 +19831,8 @@ to be a truly remarkable game design.
 [3]Reiner Knizia, Dice Games Properly Explained (Tadworth, Surrey: Right Way Books, 1992), p. 197–8.
 [4]Ibid., p. 198–99.
 [5]Andrew Fluegelman and Shoshana Tembeck, The New Games Book (New York: Doubleday, 1976), p. 65.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Bounded Communities
 Earlier in this chapter we introduced the concept of the play community, a term borrowed from Bernard
 DeKoven's book, The Well-Played Game. We like his terminology and use the idea of a play community in
@@ -20350,9 +19849,9 @@ professional sports teams, most play communities are informal, temporary affairs
 usually like a housing development, requiring extensive advance planning and preparation before it can be
 properly inhabited. Instead, a play community is often more like a conversation, in which the improvisational
 act of communication itself creates the conversational context. This emergence of a social play context is not
-10
+
  Chapter 28: Games as Social Play
-10
+
  Chapter 28: Games as Social Play
 
 
@@ -20377,15 +19876,15 @@ instance of a game. With this framing, we are considering a group of players acr
 across a number of sessions of play. These communities are not contained within an individual game and are
 not bounded.A play community that is not bounded is an open system. Both framings are useful, and in the
 sections that follow we look at each, focusing first on bounded play communities.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Contract for Artifice
 Within the bounded play community of a game, the community arises with the onset of the game and
 disappears when the game is finished. A bounded play community is more synonymous with an individual
 game, and the rules of the game have a great influence on the nature and experience of the play community. In
 other words, a bounded play community is more artificial than an unbounded one, because it has less traffic
 with contexts outside the magic circle. This social contract for artifice affects the meaning of social
-relationships within the limited context of the game. 
+relationships within the limited context of the game.
 In order to understand how the social system of a game can be considered artificial, we turn to the work of the
 psychologist Jean Piaget. Much of Piaget's work focused on the cognitive development of children; his
 research had a tremendous impact on theories of the mind in the twentieth century. For our purposes, the most
@@ -20399,10 +19898,8 @@ understanding of the social contract engendered by the rules of play. Although w
 experiments or the complex stages of a child's psychological development, he makes a number of important
 insights relevant to a discussion of social play and game design.
  Chapter 28: Games as Social Play
-11
- Chapter 28: Games as Social Play
-11
 
+ Chapter 28: Games as Social Play
 
 One of the assumptions shaping The Moral Judgment of the Child is that the rules of a game are
 fundamentally different than larger social rules shaping social convention, such as the cultural and legal rules
@@ -20450,9 +19947,9 @@ destroy the social contract entirely.
 A social contract, a commitment to a shared set of behaviors and values, is a social frame for understanding
 what it means to enter into the magic circle. For example, a game is a space of conflict with an uncertain
 outcome. In other spheres of our lives, most of us would not willingly enter into a conflict, especially one with
-12
+
  Chapter 28: Games as Social Play
-12
+
  Chapter 28: Games as Social Play
 
 
@@ -20487,8 +19984,8 @@ is a concept we introduced many chapters ago: the implicit rules of a game.
 [7]Johann Huizinga, Homo Ludens: A Study of the Play Element in Culture (Boston: Beacon Press, 1955), p.
 12.
 [8]Bernard DeKoven, The Well-Played Game (New York: Doubleday, 1978),
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Knowing the Rules
 When children play together, in the street or the back lot, they too establish a play
 community. When someone gets hurt, the game stops. When there's a little kid around, you
@@ -20496,10 +19993,8 @@ watch out for him, you play softer when you're near him, you give the kid a brea
 there is an acceptance of a shared responsibility for the safety of those with whom you
 play.—Bernard DeKoven, The Well-Played Game
  Chapter 28: Games as Social Play
-13
- Chapter 28: Games as Social Play
-13
 
+ Chapter 28: Games as Social Play
 
 In Rules on Three Levels, we identified three layers of game rules: the underlying constituative rules of a
 game, the operational rules that directly guide player action, and the implicit rules of proper game behavior,
@@ -20541,14 +20036,14 @@ child acquires an understanding of a game's rules, he or she also develops an un
 contract of a game. Like adults, children at this stage of development are able to see rules as structures that
 describe how players are to relate to one another within the game, both formally and socially. They are also
 able to recognize that the game world is a flexible world that can be altered collectively. This is an important
-part of recognizing the existence of a play community. 
+part of recognizing the existence of a play community.
 Additionally, Piaget's developmental model has a loose correlation to the way an adult player comes to know
 a game. When a player is initially brought into the magic circle of a game, a player is often not yet familiar
 with its specific rules. Instead, a player has a vague sense of the game's operation, similar to a child in Stage
 one of Piaget's model. When a player is learning to play a game, the mechanisms of a game seem fixed and
-14
+
  Chapter 28: Games as Social Play
-14
+
  Chapter 28: Games as Social Play
 
 
@@ -20562,8 +20057,8 @@ very approximate sense, the progress of a player into a game or the general cult
 Piaget's model of a child coming to understand the concept of game rules.
 [9]Piaget, The Moral Judgment of the Child,p. 28.
 [10]Ibid., p. 65.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Transformative Social Play
 Whether describing the way a child comes to know the rules of Marbles or the way an adult gradually enters
 into a game's fan community, the rules of a game are experienced and transformed through social play. In
@@ -20594,25 +20089,23 @@ Brian Sutton-Smith (New York: John Wiley & Sons, 1971), p. 172–177.
 [12]Frank E. Manning, The World of Play. Proceedings of the 7th Annual Meeting of The Association of the
 Anthropological Study of Play (New York: Leisure Press, 1983), p. 19.
  Chapter 28: Games as Social Play
-15
+
  Chapter 28: Games as Social Play
-15
 
-
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Ideal and Real Foursquare
 In the early 1980s, sociologist Linda Hughes (then a graduate student at the University of Pennsylvania) spent
 three years observing children playing the game of Foursquare on a playground in the suburbs of Philadelphia.
 Her interest was in understanding how children elaborate rules to support existing social relations. Hughes
 focused specifically on the difference between the "basic" (or ideal) rules of a game and the rules that were
-defined as the "real rules" by players. The basic rules of Four-square require that players: 
+defined as the "real rules" by players. The basic rules of Four-square require that players:
 Hit a ball that lands in your square to another square.
-1. 
+1.
 Let the ball bounce once, but only once, in your square.
-2. 
+2.
 Don't hit a ball that lands in another square.[13]
-3. 
+3.
 The real rules of the games, however, describe a much more Baby Bottles Frontsies Part-Rules Poison Trades
 complex set of interactions. A list of in-game calls documented Baby Stuff Goody Rules Purpose Duckfeet
 Tricks by Hughes reveals a rich language of social play (see Figure 1). Calls include such shots as Babies,
@@ -20635,7 +20128,7 @@ after a girl named Rooie who was one of the regular players on the playground at
 was conducted—meant that players were to play "nice." Rooie Rules included the following:"no holding" (the
 ball must be hit, not caught and thrown); "no slams" (bounces high over a player's head); no "duckfeet" (being
 hit on the legs); "spins" are allowed; and so on. "Rooie Rules" operated as shorthand for a long list of
-individual calls. 
+individual calls.
 1–2–3–4
 Fish
 No Outs
@@ -20665,9 +20158,9 @@ Untimes
 Backspins
 Half Wings
 Randi Rules
-16
+
  Chapter 28: Games as Social Play
-16
+
  Chapter 28: Games as Social Play
 
 
@@ -20755,13 +20248,11 @@ Press, 1999), p. 100.
 [16]Linda Hughes, "Beyond the Rules of the Game: Why are Rooie Rules Nice?" In The World of Play, edited
 by Frank E. Manning.
  Chapter 28: Games as Social Play
-17
+
  Chapter 28: Games as Social Play
-17
 
-
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 When Players Won't Be "Nice"
 In the cutthroat social ecosystem of the playground, games are often contexts for asserting and challenging
 social power. In the following extended excerpt from Hughes' research, Foursquare becomes an arena of
@@ -20789,16 +20280,16 @@ the game, while Rooie lists her rules.
 (It should be noted that another understanding among these gamers is that players are only
 responsible for violating a rule they know about. Only if they know, and then violate, a rule
 can they be denied a takeover of the last round. This attempt to list very explicitly the rules in
-effect is highly unusual. It functions as a kind of warning to the offending players.) 
+effect is highly unusual. It functions as a kind of warning to the offending players.)
 A little later, Cindy (who is now "king") calls: "Rooie Rules."
 But Andy continues to "wing" and "slam" the ball consistently. After several such hits, Rooie,
 who is waiting in line, walks over to Andy's square.
 Rooie (to Andy): "You're out! Wings are out!"
 Cindy steps forward to back Rooie up.
 Cindy (to Andy): "I called Rooie Rules and there's no wings! You're out!"
-18
+
  Chapter 28: Games as Social Play
-18
+
  Chapter 28: Games as Social Play
 
 
@@ -20829,8 +20320,8 @@ and motivations of a play community. Clearly, the experience of play must be und
 system of interaction that is influenced by formal, social, and cultural factors. These factors shape the play of
 a game in wonderful and often unexpected ways.
 [18]Ibid., p. 192–194.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Forbidden Play
 There is an exception to every rule. Our prior discussions of implicit social rules have assumed that etiquette
 and proper behavior are the same both inside and outside of a game. After all, it is only when a player feels
@@ -20840,15 +20331,13 @@ rules of a game—between the rules for what is permitted in each context. Games
 which, very often, behaviors take place that would be strictly forbidden in society at large. In a game, you can
 plot treachery against your friends and backstab them when they least expect it. You can engage in
 representations of criminal behavior. Or you can put on padded gloves and try to knock another person
-unconscious. 
+unconscious.
 Games permit and often encourage normally taboo behavior, or forbidden play. Games throughout history and
 across the world have subverted norms of social behavior. Perhaps this should come as no surprise. Inside the
 artificial context of the magic circle, games not only create meaning, but they play with meaning as well.The
  Chapter 28: Games as Social Play
-19
- Chapter 28: Games as Social Play
-19
 
+ Chapter 28: Games as Social Play
 
 social contract of a game ensures that play spaces are "safe" spaces in which risks have fewer consequences
 than in the outside world. In "The Kissing Games of Adolescents of Ohio," Brian Sutton-Smith investigated
@@ -20890,14 +20379,14 @@ The forbidden play: Draw and Kiss is a structural inversion of The Card Game. Th
 interaction is fixed (kissing) but chance determines who kisses whom. The fact that there is an
 overall "loser" in this game is fascinating. What is the implied social message? Is the slowest
 player the one that was most prudish and hesitant or the most indulgent? Is being kissed by
-everyone else a punishment or an inverted reward? 
+everyone else a punishment or an inverted reward?
 Endurance Kissing: It is essentially a comic endurance test, in which a couple sees how long
 they can hold a kiss without breathing. A watch is used. The bystanders laugh at the
 competitors. It is done usually only with one's steady date. On a double date the losers might
 be expected to buy a Coke for the winners.
-20
+
  Chapter 28: Games as Social Play
-20
+
  Chapter 28: Games as Social Play
 
 
@@ -20948,10 +20437,8 @@ a kissing relationship, but be protected from a more total and intimate commitme
 "might" happen is removed by the structure of the game."[21]
 Forbidden play entails a shift in the implicit rules of a game. Playing in a sportsmanlike manner usually means
  Chapter 28: Games as Social Play
-21
- Chapter 28: Games as Social Play
-21
 
+ Chapter 28: Games as Social Play
 
 adhering to the etiquette of proper behavior that exists outside the game. Implicit rules embody more general
 social values. It isn't proper to cheat in a game, in the same way that it isn't proper to cheat on your spouse.
@@ -20978,8 +20465,8 @@ Avedon and Brian Sutton-Smith (New York: John Wiley and Sons, 1971), p. 213.
 [20] Roger Caillois, Man, Play, and Games (London: Thames and Hudson, 1962), p. 8.
 [22]Ibid., p. 213.
 [21]Sutton-Smith,"The Kissing Games of Adolescents of Ohio," p. 213–216.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Metagame: the Larger Social Context
 Throughout this schema, we have investigated many kinds of play communities, from the elemental social
 roles of actor and counteractor to the complex social tangles of forbidden play. Each offered a different
@@ -20995,9 +20482,9 @@ Post-game locker room conversations about the match are metagame interactions. M
 Scrabble dictionary is a metagame activity, the honing of in-game skills. The typical playing strategies of a
 particular Go master are metagame information, useful if you are playing against him in a tournament next
 week. In all cases, the metagame refers to the way a game engages with factors permeating the space beyond
-22
+
  Chapter 28: Games as Social Play
-22
+
  Chapter 28: Games as Social Play
 
 
@@ -21009,8 +20496,8 @@ to distract your opponent in a Racquetball match, fall into the category of unsp
 other kinds of metagaming, such as painting and preparing wargaming figures, are thought of as valuable
 pursuits. These various uses of the term essentially all refer to the same thing: activities that link the game to
 outside contexts.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 A Metagame Model
 In an essay titled "Metagames," written for Horsemen of the Apocalypse: Essays on Roleplaying, game
 designer Richard Garfield presents a useful model for thinking about meta-games. In it, he defines metagame
@@ -21018,13 +20505,13 @@ as the way in which "a game interfaces outside of itself."[23] Under the rubric 
 includes a wide array of social play phenomena. He divides manifestations of the metagame into four
 categories:
 What a player brings to a game
-1. 
+1.
 What a player takes away from a game
-2. 
+2.
 What happens between games
-3. 
+3.
 What happens during a game other than the game itself [24]
-4. 
+4.
 On the next few pages, we outline each of these categories in turn, using some of the examples that Garfield
 himself presents.
 To: What a Player Brings to a Game
@@ -21047,10 +20534,8 @@ community, either through "official" channels or unofficial ones, such as fan si
 Reputation is the final category of what players bring to a game, and is often not voluntary.
 Are you known to bluff, open up the board early, or take advantage of weaker players?
  Chapter 28: Games as Social Play
-23
- Chapter 28: Games as Social Play
-23
 
+ Chapter 28: Games as Social Play
 
 From: What a Player Takes Away from a Game
 Players always take something away from a game. It is not uncommon, for example, to play a
@@ -21062,7 +20547,7 @@ might emerge from a series of games: best two out of three. Large-scale tourname
 weeks or months. The seriousness with which players take a game is affected by how much
 the current game affects another game, particularly within a ladder structure or other
 organized contest. This aspect of the metagame can have a strong postive or negative
-influence on player attitude and performance. 
+influence on player attitude and performance.
 Players also take things away from a game unrelated to the stakes, such as the experience of
 the game itself. A play-er's experience might serve to validate or contradict their beliefs about
 an opponent or about the game as a whole, thereby influencing future games. Crafting play
@@ -21099,9 +20584,9 @@ well. If you are playing Table Tennis and are trying to distract your opponent w
 stream of vociferous insults, you are playing a metagame against him. This kind of
 metagaming behavior may turn into unsportsmanlike behavior, violating implicit rules of
 play. It is then up to the social community of players to either endorse or censor the
-24
+
  Chapter 28: Games as Social Play
-24
+
  Chapter 28: Games as Social Play
 
 
@@ -21119,7 +20604,7 @@ there are players who specialize in it, known not as Magic players but as deck c
 and analysts.
 From: A traditional way to play Magic is for ante, in which each player randomly selects a
 card from her deck before play and sets it aside before the game starts. The winning player
-wins both cards. 
+wins both cards.
 Magic is often played in formal tournament settings as well, in which official standings or
 cash prizes can result from play.
 Between: Between games of Magic, there is much circulation of game resources and
@@ -21131,8 +20616,8 @@ to prove that particular combinations of cards are viable.[25]
 Roger Games, 2000), p. 16.
 [24]Ibid., p. 17.
 [25]<http://www.gdconf.com/archives/proceedings/2000/ >
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Designing the Metagame
 Magic's rich metagame emerges from a handful of key game design decisions. The essential structure of the
 game is that players create their own collections of cards and bring them to a game. Because preparation is a
@@ -21144,10 +20629,8 @@ is what game designer Greg Costikyan calls an "exceptions game," a game that con
 simple set of standard rules.[26] For example, Magic contains a simple set of rules to resolve creature attacks,
 but individual cards detail many special kinds of creatures, such as walls, which can only defend, or flying
  Chapter 28: Games as Social Play
-25
- Chapter 28: Games as Social Play
-25
 
+ Chapter 28: Games as Social Play
 
 creatures, which can bypass any non-flying defending creatures. These "exceptions" lead to new
 creature-combinations, such as flying walls, which can intercept flying creatures, but can only defend. This
@@ -21169,7 +20652,7 @@ noted in earlier chapters, game design is a second-order design problem. Game de
 rules; the play experience is an emergent, indirect outcome of the rules. In a similar sense, social play, and the
 metagame in particular, are only indirectly linked to formal game design. In fact, most of any given game's
 meta-game is beyond the reach of the game designer, for it emerges from play communities and their larger
-social worlds. 
+social worlds.
 Yet careful game design can contribute to the emergence of a rich metagame. In many online games, web
 community features such as chat systems transform play via the metagame by allowing players to establish
 and nurture in-game social relations that gain life outside of game play. For example, the online gaming group
@@ -21196,15 +20679,15 @@ social contexts, you can do your best to cultivate rich metagaming play.
 [26]Greg Costikyan, "Don't be a Vidiot: What Computer Game Designers can Learn from Non-Electronic
 Games." Speech given at the 1998 Game Developer's Conference. Archived at:
 <www.costik.com/vidiot.hmtl>.
-26
+
  Chapter 28: Games as Social Play
-26
+
  Chapter 28: Games as Social Play
 
 
 [27]<http://www.gignews.com/fdl_mainstreamdesign.htm >.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Limits of Social Play
 The metagame and social play bring us to the brink of the magic circle and beyond. In our RULES-based
 explorations of games, we kept our understanding of game systems firmly closed. In PLAY, things shifted.
@@ -21219,15 +20702,15 @@ myriad cultural contexts, from spheres of nationality and ethnicity to ideologie
 those contexts we now turn, to the cultures in which games are played. In doing so we leave behind the
 sometimes open, sometimes closed territory of PLAY to take up instead the wonderfully open-ended
 landscape of games as CULTURE.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 "Beyond the Rules of the Game: Why are Rookie Rules Nice?" by Linda A. Hughes
 An excellent case study of children playing Foursquare and the differences they hold between ideal rules and
 "real" rules. "Real" rules refer to the actual rules children make use of, rather than the rules they are supposed
 use. Hughes' study reveals the close connection between games and the social contexts in which they are
 played, and helps to identify how social relationships between players dramatically impact the enactment of a
-formal systems of rules. 
+formal systems of rules.
 Children's Folklore: A Source Book, Brian Sutton-Smith, Jay Mechling, Thomas W. Johnson, and Felicia R.
 McMahon, eds.
 A collection of essays from fields as far ranging as American studies, folklore, anthropology, psychology,
@@ -21238,10 +20721,8 @@ forms of pleasure and social play engendered by games.
 Recommended:
 "Overview: Methods in Children's Folklore," Brian Sutton-Smith
  Chapter 28: Games as Social Play
-27
- Chapter 28: Games as Social Play
-27
 
+ Chapter 28: Games as Social Play
 
 "Double Dutch and Double Cameras," Ann Richman Beresin
 "Urban Schoolyard," Ann Richman Beresin
@@ -21260,112 +20741,109 @@ distinguish right and wrong. Piaget focuses on the qualities of rules handed dow
 to another, and tracks the changing attitudes of children toward the authority of these rules.
 Recommended:
 The Rules of the Game, chapters 1–6
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 When games are framed as Social Play the relationships between elements in the game system are
 considered to be social relationships
-• 
+•
 Social play interactions may emerge in two different ways:
 Interactions internally derived emerge from the functioning of game rules.
-♦ 
+♦
 Interactions externally derived come from outside the magic circle.
-♦ 
-• 
+♦
+•
 A social play community occurs anytime a group of players get together to play a game. Play
 communities can arise around:
 a single game
-♦ 
+♦
 a game event or series of games
-♦ 
+♦
 a larger game context
-♦ 
-• 
+♦
+•
 Player roles refer to the kinds of social relationships that exist between players in a game. Roles are
 not fixed and may change several times within the course of a game.
-• 
+•
 Sutton-Smith's model for player roles includes an actor, a counteractor, and an overall "motive" or
 format for play. For example, if the motive is capture, the actor's role is to take, while the role of the
 counteractor is to avoid being taken.
-• 
+•
 Bartle's model of player roles divides online MUD players into four categories:
-• 
-28
+•
+
  Chapter 28: Games as Social Play
-28
+
  Chapter 28: Games as Social Play
 
 
 Achievers: Players that seek to advance in experience and power.
-♦ 
+♦
 Explorers: Players that want to explore the remote spaces of the world.
-♦ 
+♦
 Socializers: Players that place a premium on direct social interaction.
-♦ 
+♦
 Killers: "Antisocial" players that seek to harm and frustrate others.
-♦ 
+♦
 Games are emergent social systems in which simple play behaviors and social interactions can result
 in incredibly complicated experiences of play.
-• 
+•
 A bounded play community is a closed system: it arises from the social play that takes place strictly
 within the space of an individual game. A play community that is not bounded is an open system, as
 there is an exchange between the game and its environment. Whether or not a play community is
 bounded or not bounded often depends on how it is framed.
-• 
+•
 The bounded play community of a game results in a form of social contract. The social contract:
 emerges from the rules stylizing the ways that players interact with each other in the game
-♦ 
+♦
 consists of the meanings and values which the players give life through play
-♦ 
+♦
 ensures that play spaces are "safe" spaces where players can take risks with fewer
 consequences than in the real world
-♦ 
-• 
+♦
+•
 Safety and trust are two elements of the social contract of the game. They are also requisite
 psychological qualities that players must feel in order to be comfortable enough to enter into the
 social space of the game.
-• 
+•
 Piaget argues that when a child acquires an understanding of a game's rules, he is also developing an
 understanding of the social contract of a game. As children develop, they learn to see rules as flexible
 structures that can be altered through collective consensus.
-• 
+•
 In transformative social play players extend, transform, and manipulate existing social relationships
 through play itself.
-• 
+•
 Players make a distinction between "ideal" and "real" rules. Ideal rules refer to the "official"
 regulations of a game. Real rules are the codes and conventions held by a community of players. Real
 rules reflect a consensus of how the game ought to be played.
-• 
+•
 Players often broker social power by asserting competing sets of real rules.This is the phenomena of
 gaming the game, when players don't merely play within the game, but play with interpretations of
 rules and propose their own play variants.
-• 
+•
 Games permit and often encourage normally taboo behavior, the phenomenon of forbidden play.
 Forbidden play rebels against both the implicit rules of game play and against larger social values.
 The rules of a game both permit and put limits on forbidden play.
-• 
+•
 Metagaming refers to the relationship of a game to elements outside of the game. Garfield's model of
 the metagame includes four categories:
 What a player brings to a game
-♦ 
+♦
 What a player takes from a game
-♦ 
+♦
 What happens between games
-♦ 
+♦
 What happens during a game other than the game itself
-♦ 
-• 
- < Day Day Up > 
- < Day Day Up > 
+♦
+•
+ < Day Day Up >
+ < Day Day Up >
  Chapter 28: Games as Social Play
-29
- Chapter 28: Games as Social Play
-29
 
-
-30
  Chapter 28: Games as Social Play
-30
+
+ Chapter 28: Games as Social Play
+
  Chapter 28: Games as Social Play
 
 
@@ -21377,21 +20855,21 @@ How well do you know your friends? In Sneak, you'll find that out, as well as ho
 deceitful—they can be.
 Half the players are Sporks, and the rest are Foons. But one of you is the Sneak, and can masquerade as either
 Spork or Foon. Can you figure out who's the Sneak as you perform the challenges you are given?
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Rules
 Goal Earn the most points by successfully guessing who the Sneak is, and by fooling other players into
 guessing incorrectly. You'll draw your conclusions based on how players react to written or acted
 "challenges."
 Materials
 Challenges (found on p. 506–587 in this book, the CULTURE primary schema)
-• 
+•
 Counters (beans, pennies, paper clips, etc.)
-• 
+•
 Lots of index cards or slips of blank paper
-• 
+•
 Pens or pencils
-• 
+•
 Setting up
 This game is for 4 or more players. Each player gets 4 counters, something to write with, and a number of
 index cards.
@@ -21406,8 +20884,6 @@ Each player draws a card. This is the player's camp card and is kept secret. If 
 challenge to switch camps, they will update this card to reflect their new camp. This card is only revealed to
 all players at the end of a match after everyone votes on who they think is the Sneak.
 Commissioned Game 3 — Sneak
-1
-
 
 Turns
 Play moves clockwise, starting with the player who owns the hat. For his or her turn, each player can: 1)
@@ -21437,16 +20913,16 @@ Instead of choosing a challenge from the book, a player can buy a look at one of
 cards. The purchaser names the card by challenge, such as "Show me your astronaut/alien card."The player
 who's been targeted must show the card: no refusing the buyer.
 For one counter, the card is shown to all players. For two counters, the card is shown only to the player who
-bought the information. Counters go to the player whose information was purchased. 
+bought the information. Counters go to the player whose information was purchased.
 Calling for a Vote
 Any player can call for a vote during his or her turn. There's a scoring bonus (explained
 below) if the player calls for a vote and guesses correctly, and a scoring penalty if he or she
 calls for a vote and guesses wrong.
 The Sneak can call for a vote just like any other player, but gets no penalty or bonus points.
 Force Vote
-2
+
 Commissioned Game 3 — Sneak
-2
+
 Commissioned Game 3 — Sneak
 
 
@@ -21461,25 +20937,25 @@ then everyone marks their scores.
 Scoring
 Sporks and Foons
 Player who correctly guessed the Sneak: +5 points
-♦ 
+♦
 Player guessed wrong: –1 point
-♦ 
+♦
 Player wasn't the Sneak but was named by another player: +1 for each player incor
-♦ 
+♦
 rectly named as the Sneak
-♦ 
+♦
 The Sneak
 –1 point for each player who guessed correctly
-♦ 
+♦
 +3 points for each player who guessed wrong
-♦ 
+♦
 Vote bonus and penalty
 Player called for a vote and guessed correctly: +3 points (in addition to correct-guess
 points, for +8 total)
-♦ 
+♦
 Player called for a vote and guessed wrong: –2 points (in addition to wrong-guess
 points, for –3 total)
-♦ 
+♦
 If the Sneak is the person who called for a vote or a Force Vote ended the round, no one gets
 the bonus or penalty.
 Hoarders beware: the number of counters you have left doesn't affect your score.
@@ -21494,10 +20970,8 @@ This game is a chance to get to know each other better—and also play head game
 share and discuss their answers and strategies throughout the game.
 Play continues around the table until a player calls for a vote, or until a Force Vote is required.
 Commissioned Game 3 — Sneak
-3
-Commissioned Game 3 — Sneak
-3
 
+Commissioned Game 3 — Sneak
 
 Winning
 At the end of 3 matches, the player with the most points wins.
@@ -21508,8 +20982,8 @@ that developed ZDTV's online community. She has worked in story, game, and virtu
 Microsoft, Purple Moon, and in a wide range of independent projects, from a 3D sci-fi adventure to text
 MUDs to an RPG drama for women. Kira holds an Honors B.A. in Drama from Stanford and a Masters from
 NYU's Interactive Telecommunications Program.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Design Diary
 Kira Snyder
 Sneak
@@ -21524,38 +20998,38 @@ all reassigned for next round, play continues. Player with the most points at en
 Initial Notes
 Cloak and Dagger
 Teams, Cloaks and Daggers, one double agent.
-• 
+•
 At beginning of game, slips are put into a hat, one Double Agent, the rest are Cloaks and Daggers, as
 even as can be devised (not a problem if there's one more of one type).
-• 
+•
 Something for counters—coins, beans, slips of paper. Each player gets 3 of these.
-• 
+•
 Turns: flip coin, go to odd or even page in book. Read task, e.g. Cloaks write down a number 1–10,
 Daggers write a number 10–20. Double agent can do either.
-• 
+•
 Some tasks private, some public. E.g. raise right hand, left hand. Change seats. Give beans.
-• 
+•
 Instead of task you can exchange slips with another player, viewing their entire list.
-• 
+•
 "Pay off" player—one bean for peek at last entry.
-• 
+•
 After everyone's had a turn (10 tasks?), people write down who they think the double agent is.
-• 
+•
 Get 5 points for correct guess, Double Agent loses 1 point for each correct guess. 1 point per bean as
 well.
-• 
-4
+•
+
 Commissioned Game 3 — Sneak
-4
+
 Commissioned Game 3 — Sneak
 
 
 Then everyone's reassigned, new Double Agent, new round.
-• 
+•
 At the end of 3 rounds, person with the most points wins.
-• 
+•
 Header or footer space required on a number of pages.
-• 
+•
 I plan to hold three playtests over the course of 5 weeks, allowing time in between to gather feedback and
 iterate the rules.
 Drafted and revised rules and list of missions. Some missions are clear-cut, meaning that you can tell by what
@@ -21566,11 +21040,11 @@ name Cloak and Dagger might suggest. Players may well want a way to share more o
 group. Also included some missions that make everyone switch faction.
 50 missions total
 6 are switch-faction
-• 
+•
 15 are public (5 are public to one person only)
-• 
+•
 35 are private
-• 
+•
 Cloak and Dagger :Rules for Playtest 1
 Materials
 Missions
@@ -21590,10 +21064,8 @@ Turns
 Play moves clockwise from some randomly chosen first player. For his or her turn, each player can either
 assign a mission or purchase information.
 Commissioned Game 3 — Sneak
-5
-Commissioned Game 3 — Sneak
-5
 
+Commissioned Game 3 — Sneak
 
 Assigning Missions
 The player flips a coin. If the coin is heads, the player chooses a mission at random from the
@@ -21612,13 +21084,13 @@ Scoring
 At the end of a round (after each player has had two turns), all players vote secretly on who the Double Agent
 is.
 Correct guess: +5 points
-• 
+•
 Incorrect guess: –1 point
-• 
+•
 Double Agent: –1 point for each correct guess, +3 points for each incorrect guess
-• 
+•
 Players also get +1 point for each counter they still have
-• 
+•
 Next rounds
 Players start fresh each round, drawing new slips from the hat and starting over with 3 counters. A player can
 be the Double Agent more than once.
@@ -21629,41 +21101,41 @@ Notes from Playtest 1
 well as ideas for refining the rules.
 Rather than have a round comprise X turns, try having play continue until someone calls for a vote. If
 you call for the vote and guess wrong, you lose points.
-• 
+•
 Drawings: info about yourself was fun. People indeed wanted more opportunities to make this public.
 For next test I added 5 more public actions, where players state answers aloud or act them out.
-• 
+•
 Cloak and Dagger not really working as a name. Something lighter and more representative of the
 playful nature of the actions would probably work better. For next test, will go with "Sneak" as the
 game title and Spork and Foon as the camp names.
-• 
+•
 Need some mechanism to keep the double agent from just following one faction. The Double Agent
 in one round just allied with one camp. For next test, added a rule that the Sneak can't act in accord
 with one camp throughout.
-• 
-6
+•
+
 Commissioned Game 3 — Sneak
-6
+
 Commissioned Game 3 — Sneak
 
 
 Some missions didn't quite cut it. Revised them to get rid of ones that were boring or didn't work in
 testing.
-• 
+•
 Number of counters and the scoring system seemed to work fine.
-• 
+•
 Didn't seem too easy to guess double agent, especially in the second round when everyone had the
 hang of things.
-• 
+•
 55 actions total
 6 are switch-camp
-• 
+•
 20 are public
-• 
+•
 5 are public to one person only
-• 
+•
 35 are private
-• 
+•
 Sneak :Rules for Playtest 2
 Goal
 Be the player to earn the most points by successfully guessing who the Sneak is and fooling other players into
@@ -21687,10 +21159,8 @@ Play moves clockwise from some randomly chosen first player. For his or her turn
 an action for the group to perform or 2) Purchase information or 3) Call for a vote.
 Drawing Actions
 Commissioned Game 3 — Sneak
-7
-Commissioned Game 3 — Sneak
-7
 
+Commissioned Game 3 — Sneak
 
 The player flips a coin. If the coin is heads, the player chooses an action at random from the
 Even pile. If the coin is tails, the player chooses an action at random from the Odd pile. The
@@ -21705,7 +21175,7 @@ original camp card, out of regular game play (i.e. these cards are not viewable 
 entries).
 If the action is a public one requiring the use of a private action and there hasn't been one yet
 the player should discard that action and draw a new one.
-Once the action has been performed, it is placed onto a discard pile and removed from play. 
+Once the action has been performed, it is placed onto a discard pile and removed from play.
 Purchasing Information
 Instead of assigning an action, the player can buy a look at any one player's most recent
 private action entry with one counter. This counter goes to the player whose information is
@@ -21717,23 +21187,23 @@ Scoring
 When a vote is called for, all players vote secretly on whom the Sneak is. When everyone has voted, all
 players hold up their camp card, making the results public, then play is scored.
 Correct guess: +5 points
-• 
+•
 Incorrect guess: –1 point
-• 
+•
 Sneak: –1 point for each correct guess, +3 points for each incorrect guess
-• 
+•
 Called for a vote and guessed wrong: –5 points
-• 
+•
 Players also get +1 point for each counter they still have.
-• 
+•
 Next rounds
 Players start fresh each round, drawing new slips from the hat and starting over with 3 counters. A player can
 be the Sneak more than once.
 Winning
 At the end of 3 rounds, the player with the most points wins.
-8
+
 Commissioned Game 3 — Sneak
-8
+
 Commissioned Game 3 — Sneak
 
 
@@ -21743,95 +21213,93 @@ wanted. Getting there…
 Calling for a vote basically worked but people seemed to need a stronger incentive to make the call.
 Will add a bonus for calling and being right, to try to balance out the penalty for calling and being
 wrong.
-• 
+•
 There's no real need for coin flip when choosing an action. Will change rules to have players just pick
 an action at random.
-• 
+•
 Still need to address keeping the Sneak from just aligning with one camp."Because it's a rule" just
 didn't seem strong enough. Will revise some actions to require Sneak to align with specific camp.
-• 
+•
 People still wanted more public actions. Will try out expanding the purchasing-info option—for 2
 counters, private view. For 1 counter, public, meaning all players see the entry. Increase number of
 counters to 5.
-• 
+•
 Camp card. Just for housekeeping—one card that contains all your camp assignations.
-• 
+•
 Will change rules to allow choice about which private entry to view. With the limitation of latest/first,
 many got buried.
-• 
+•
 We hit a lot of switch-camps. Will trim down to 4.
-• 
+•
 Maybe not quite enough actions for full game? Unused pile seemed a little thin. Added 11 more: 4
 public, 7 private.
-• 
+•
 65 actions total
 4 are switch-camp
-• 
+•
 8 require the Sneak to follow a particular camp
-• 
+•
 25 are public
-• 
+•
 6 are public to one person only
-• 
+•
 40 are private
-• 
+•
 Notes from Playtest 3
 6 players. The new buying-info mechanism was successful, and the balance of public and private actions felt
 right finally. Players had fun, and reported that the difficulty of guessing the Sneak not too hard or too easy.
 Number of counters seemed a little high this time. Will change to 4 in final version.
-• 
+•
 Will remove counters from scoring. Although no one did this, it would seem to promote an alternate
 strategy aside from actually playing the game: hoarding counters and guessing the Sneak's identity
 randomly, since you only lose 1 point that way.
-• 
+•
 Added one action for an even number, thinking that would be more helpful for the book layout.
-• 
+•
 Final count
-66 actions total 4 are switch-camp 8 require the Sneak to follow a particular camp 
+66 actions total 4 are switch-camp 8 require the Sneak to follow a particular camp
 26 are public
 7 are public to one person only
 40 are private
 Thanks to all my playtesters: Michael Becker, Lisa Clark, Zack Ford, Roy Gatchalian, Margaret
 Foley-Mauvais, Eileen McMahon and George Rivello.
 Commissioned Game 3 — Sneak
-9
-Commissioned Game 3 — Sneak
-9
 
+Commissioned Game 3 — Sneak
 
 Notes from Eric and Katie's playtesting
 Helpful feedback came in from playtesting with a different group, organized by Eric and Katie. Based on their
 comments, I made some further changes.
 The rules were clarified in spots, and I added a "During the Game" section for general game play
 rules.
-• 
+•
 Actions are now labeled "Write" and "Act" to make clear which are private and which are public.
-• 
+•
 A player who was not the Sneak but who got another player's vote gets a point for each person who
 named him or her.
-• 
+•
 Players still were hesitant to call for a vote, leading to rounds that dragged on a bit. I reduced the
 penalty for calling for a vote then guessing wrong by 1 point, and added a Force Vote, which occurs
 after 3 trips around the table if no one's called for a vote by then. Interestingly, this was the
 mechanism in the first iteration of the rules, before the option to call for a vote during a turn. Seems
 that both the voluntary and mandatory votes are needed to keep the pace moving and the stakes high.
-• 
+•
 I sent the updated rules to several friends for a cold read (thanks, Jennie Sharf, Allen Blue, and Greg Gibson!),
 and further revised them based on that feedback.
 Added an Introduction section to briefly describe the game.
-• 
+•
 Renamed "actions" to "challenges." A more interesting word, and less confusing now that "Act" is a
 challenge type.
-• 
+•
 Cleared up the turn/round/match confusion and other sections that were a bit vague.
-• 
+•
 Gave the whole shebang a polish to give the rules more personality and make them less dry.
-• 
- < Day Day Up > 
- < Day Day Up > 
-10
+•
+ < Day Day Up >
+ < Day Day Up >
+
 Commissioned Game 3 — Sneak
-10
+
 Commissioned Game 3 — Sneak
 
 
@@ -21846,22 +21314,19 @@ Commissioned Game: Caribbean Star
 …media never functions in a vacuum. Playing a game in an arcade is a very different experience than playing
 it in one's own home or as part of a military training exercise. Media consumption gains its meaning through
 association with a range of other activities that constitute our everyday life.—Henry Jenkins, "Lessons from
-Littleton: What Congress Doesn't Want to Hear About Youth and Media" 
+Littleton: What Congress Doesn't Want to Hear About Youth and Media"
 No game is an island.
 Games are always played somewhere, by someone, for some reason or another. They exist, in other words, in
 a context, a surrounding cultural milieu. The magic circle is an environment for play, the space in which the
 rules take on special meaning. But the magic circle itself exists within an environment, the greater sphere of
 culture at large. In the following chapters, we continue our outward movement from the heart of the magic
 circle, beyond RULES and PLAY, into the vast and colorful expanse of CULTURE.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Unit 4: Culture
-1
 
-
-2
  Unit 4: Culture
-2
+
  Unit 4: Culture
 
 
@@ -21870,32 +21335,30 @@ Overview
 There must be a ball: it should be large.
 (This in prescient expectation of Connie Hawkins and Julius Erving, whose hands would reinvent
 basketball as profoundly as Jimi Hendrix's hands reinvented rock-and-roll.)
-1. 
+1.
 There shall be no running with the ball.
 (Thus mitigating the privileges of owning portable property. Extended ownership of the ball is a
 virtue in football. Possession of the ball in basketball is never ownership; it is always temporary and
 contingent upon your doing something else with it.)
-2. 
+2.
 No man on either team shall be restricted from getting the ball at any time that it is in play.
 (Thus eliminating the job specialization that exists in football, by whose rules only those players in
 "skill positions" may touch the ball. The rest just help. In basketball there are skills peculiar to each
 position, but everyone must run, jump, catch, shoot, pass, and defend.)
-3. 
+3.
 Both teams are to occupy the same area, yet there is to be no personal contact.
 (Thus no rigorous territoriality, nor any rewards for violently invading your oppo-nent's territory
 unless you score. The model for football is the drama of adjacent nations at war. The model for
 basketball is the polyglot choreography of urban sidewalks.)
-4. 
+4.
 The goal shall be horizontal and elevated.
 (The most Jeffersonian principle of all: Labor must be matched by aspiration. To score, you must
 work your way down court, but you must also elevate! Ad astra.)—James Naismith's Guiding
 Principles of Basket-Ball, 1891, (With commentary by Dave Hickey, in Air Guitar)
-5. 
- < Day Day Up > 
- < Day Day Up > 
+5.
+ < Day Day Up >
+ < Day Day Up >
  Chapter 29: Defining Culture
-1
-
 
 Introducing Culture
 Why would cultural critic Dave Hickey compare a rule about the size of a basketball to the hands of players
@@ -21913,7 +21376,7 @@ outwards, into the space beyond the boundaries of games? What would we find? The
 course. We know from systems theory that every system has an environment. But what contexts constitute the
 environment of a game? How do cultural contexts affect representation and game play? How do games, in
 turn, affect cultural contexts? These questions are the focus of our final set of game design schemas,
-contextual frameworks that usher game design into the richly textured realm of CULTURE. 
+contextual frameworks that usher game design into the richly textured realm of CULTURE.
 The schemas contained within CULTURE move beyond rules and play to map relationships between the
 magic circle and culture at large. In "The Heresy of Zone Defense,"Hickey is writing not about the rules of
 Basketball, but the cultural contexts these rules represent and reinvent. Stated simply, games are culture.
@@ -21934,15 +21397,15 @@ offer represent only a sampling of ways to frame the relationship between game d
 true also of the schemas presented in RULES and PLAY, but it is especially pronounced here. Culture is
 inimitably open-ended, and we have no doubt that new perspectives will emerge to enrich and extend the
 concepts we introduce.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Culture: A Framework
 Games are designed objects that engage culture on several levels. As systems of representation they reflect
 culture, depicting images of gender (think of Barbie Fashion Designer, Duke Nukem', or Tomb Raider), as
 well as portrayals of race and class (Street Fighter II, State of Emergency, or Dope Wars). In this case, the
-2
+
  Chapter 29: Defining Culture
-2
+
  Chapter 29: Defining Culture
 
 
@@ -21960,7 +21423,7 @@ A Soccer match played between two rival nations that leads to international disp
 also transformative play. So is the design of a game patch that fills the bitmapped spaces of Tempest with
 hooded members of the Ku Klux Klan. Each of these instances of transformative play occurs on formal and
 experiential levels. However, a significant feature of these examples is the way they reference, influence, and
-alter cultural contexts beyond the formal limits of the game. 
+alter cultural contexts beyond the formal limits of the game.
 These two ways of understanding games as culture, reflection and transformation, are not both universal to all
 games. We do believe that all games reflect culture to some degree, as they are objects produced and played
 within culture at large. But not all games manifest transformative cultural play to actually transform culture.
@@ -21972,8 +21435,8 @@ concert with their formal and experiential qualities? What are game design's ref
 capabilities? How exactly are games culture? A point of view game designers rarely address, the connection
 between games and cultural contexts acknowledges the game designer's role in shaping the very cultures we
 inhabit.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Cultural Structures: A List
 From a game design perspective, it is crucial to understand the kinds of cultural structures your games engage.
 Does your game enact a set of past attitudes and beliefs, as with historical or quasi-historical sims such as
@@ -21991,10 +21454,8 @@ thought and behavior."[1] But because culture is such a complex and open-ended c
 other definitions from which we can choose. For example, consider this open-ended list of "culture"
 definitions compiled by anthropologist John H. Bodley, based on the work of Tylor:
  Chapter 29: Defining Culture
-3
- Chapter 29: Defining Culture
-3
 
+ Chapter 29: Defining Culture
 
 Topical: Culture consists of everything on a list of topics, or categories, such as social
 organization, religion, or economy.
@@ -22018,7 +21479,7 @@ game, the environment or context within which a game takes place. This broad for
 context for game rules and player experience, can itself be framed in many ways, such as the list of definitions
 above. The cultural context of a game might be its historical context; or the set of ideological values that it
 reflects and transforms; or the way the game fits into the lifestyle of its players. Culture is a diverse and
-flexible concept. 
+flexible concept.
 Grappling with questions of culture and game design is therefore quite difficult. Whenever you consider the
 cultural aspects of a game, you need to define exactly what you consider culture to be.
 This does not mean, however, that all cultural readings of games are equally useful. For a game designer, the
@@ -22032,11 +21493,11 @@ inside as well as outside the magic circle.
 [1]John H. Bodley, Cultural Anthropology: Tribes, States, and the Global System (New York: McGraw-Hill
 Higher Education, 1994), p. 171–72
 [2]Ibid., p. 172.
- < Day Day Up > 
- < Day Day Up > 
-4
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 29: Defining Culture
-4
+
  Chapter 29: Defining Culture
 
 
@@ -22066,7 +21527,7 @@ unhip that it's hip.[3]
 Pop cultural artifact or highbrow pastime? Emblem of geekiness or symbol of the tragically hip? Scrabble is
 all of these things and more, when considered from a cultural perspective. Scrabble appears in so many
 cultural contexts and interacts with culture in so many ways that appreciating every aspect of Scrabble's
-cultural play would be an impossible task. 
+cultural play would be an impossible task.
 Any game that establishes a strong presence in culture immediately engages with innumerable cultural
 structures. Take Basketball, for example. With what contexts outside of the magic circle does the game
 connect? We could consider the roles of players, coaches, referees, cheerleaders, or fans, each of whom
@@ -22086,18 +21547,16 @@ Auto III, for example, plays with the mythos of urban criminal culture and gangs
 offers a stylish sci-fi exposition on graffiti and skate cultures. Silent Hill II, on the other hand, looks to the
 genres of horror and film noir for its cultural play.This kind of play can pair the more rigid forces of cultural
  Chapter 29: Defining Culture
-5
- Chapter 29: Defining Culture
-5
 
+ Chapter 29: Defining Culture
 
 convention with the loose and poetic qualities of human participation. As we play a game like Jet Grind Radio
 or GTA III, we are not just playing with the game rules: we are also playing with the rules and conventions of
 culture that the games reflect and transform.
 [3]Stefan Fatsis, Word Freak: Heartbreak, Triumph, Genius, and Obsession in the World of Competitive
 Scrabble Players (Boston: Houghton Mifflin, 2001), p. 4.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Cultural Texts: Trafficking in Signs
 In previous game design schemas, we explored the ways in which games, as both formal and experiential
 systems, have the capacity to represent. In the game of Mafia, for example, an assassin's silent hand gesture
@@ -22125,7 +21584,7 @@ original Pac-Man. Or we might view her as a very unfeminist symbol, a derivative
 lipstick and a hair bow with the female gender. We might see Ms. Pac-Man as a new kind of video game
 "celebrity"; as an ever-hungry symbol of capitalist consumption; or the marker of a historical moment when
 Japanese pop transformed global electronic culture. This process of interpreting games as symbolic objects, as
-cultural texts that reflect their contexts, is one way of understanding games as culture. 
+cultural texts that reflect their contexts, is one way of understanding games as culture.
 Framing games as cultural texts brings an additional perspective to our interrogation of the term culture.
 Anthropologist Clifford Geertz writes that "Man is an animal suspended in webs of significance he himself
 has spun…. I take culture to be those webs, and the analysis of it to be therefore not an experimental science
@@ -22133,9 +21592,9 @@ in search of law but an interpretative one in search of meaning."[4] Geertz comp
 anthropologist analyzing culture to those of a literary critic analyzing a text: "Sorting out the structures of
 signification… and determining their social ground and import…. Doing ethnography is like trying to read (in
 the sense of 'construct a reading of') a manuscript."[5]
-6
+
  Chapter 29: Defining Culture
-6
+
  Chapter 29: Defining Culture
 
 
@@ -22166,8 +21625,8 @@ equipped to design powerful experiences for players in whatever context they enc
 1977), p. 4–5.
 [5]Ibid., p. 5.
 [6]E.M. Avedon and Brian Sutton Smith, The Study of Games (New York: Wiley, 1971), p. 240.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Redefinition: Locating Design
 Just as there are endless ways to read games as culture, there are innumerable perspectives from which to
 understand the concept of culture itself. We conclude with a final framing of culture that brings our focus
@@ -22176,17 +21635,15 @@ disordering, and reordering in the search for understanding and for values which
 definition challenges and de-centers many common sense notions of design and culture. As he puts it, the fate
 of design "does not lie entirely within the framework of design culture or in the hands of a few gifted
 individuals. It lies within the framework of culture as a whole."[8] The activity of "ordering, disordering, and
-reordering" suggests that the practice of design is, above all, a cultural one. 
+reordering" suggests that the practice of design is, above all, a cultural one.
 Many game designers eschew cultural approaches to their work, preferring craft-centric methods that repress
 the existence of games within larger cultural contexts. You might or might not choose to recognize that as a
 game designer you are a producer of culture. You may choose to rely on the cultural conventions set by
 others, conventions that are at best obstacles to innovation and insight and at worst destructive ideologies tied
 to racism, sexism, and xenophobia.
  Chapter 29: Defining Culture
-7
- Chapter 29: Defining Culture
-7
 
+ Chapter 29: Defining Culture
 
 Regardless of your approach, the status of games as culture is not something to be negotiated or debated. They
 are indisputably cultural. As a game designer, it is your responsibility to acknowledge this fact and make use
@@ -22200,43 +21657,43 @@ game design.
 Responsibility? eds. P. Takhokallio and S. Vihma (Helsinki: University of Art and Design Helsinki, 1995), p.
 10.
 [8]Ibid., p. 10.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 Considering games as culture entails moving beyond the borders of the magic circle to consider how
 games interact with contexts that lie outside the actual rules and play of the game itself.
-• 
+•
 Unlike formal or experiential schemas, culture-based contextual schemas are not directly tied to the
 internal, intrinsic qualities of games. There are any number of ways that games can be regarded as
 culture.
-• 
+•
 All games reflect culture, reproducing aspects of their cultural contexts. Some games also transform
 culture, acting on their cultural contexts to affect genuine change.
-• 
+•
 A game transforming its cultural context is a cultural instance of transformative play. In this case,
 the cultural "free play" of the game is altering the more rigid cultural contexts in which the game is
 taking place.
-• 
+•
 There are many definitions of culture. Most of them directly or indirectly involve what people think,
 what they do, and the material products they produce. For our purposes, culture is what exists outside
 the magic circle, the context within which game play occurs.
-• 
+•
 In addition to understanding that games can represent and that games are representations, we can
 frame games as cultural representations, reflecting the meanings of the contexts where they are
 produced and played.
-• 
+•
 Understanding the meanings that make up the context in which your game is played is critical to
 designing meaningful play.
-• 
+•
 When we consider a game as a cultural representation, we are considering the game as a cultural
 text. This means making an interpretative reading of a game, similar to analyses performed in cultural
 anthropology or cultural studies.
-• 
- < Day Day Up > 
- < Day Day Up > 
-8
+•
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 29: Defining Culture
-8
+
  Chapter 29: Defining Culture
 
 
@@ -22271,8 +21728,6 @@ dig more deeply into this premise, focusing specifically on the way that games r
 explore how the internal structures of a game—rules, forms of interaction, material forms—mirror external
 ideological contexts.
  Chapter 30: Games as Cultural Rhetoric
-1
-
 
 Another way of saying games reflect cultural values is that games are social contexts for cultural learning.
 This means that games are one place where the values of a society are embodied and passed on. Although
@@ -22288,7 +21743,7 @@ Wants to be a Millionaire? (adapted from the British version) glibly celebrates 
 rhetorical question that makes up its title. The question is not if you want to become rich, or what the
 ramifications might be, but merely who will be given the chance. These games encapsulate the paradox of
 American identity and its accompanying ideologies of wealth. They speak to the clash between a rugged,
-pioneering individualism and a desperate desire for shortcuts to success and submission to fate. 
+pioneering individualism and a desperate desire for shortcuts to success and submission to fate.
 In historical games, as much as in contemporary ones, cultural ideologies permeate the magic circle to impact
 rules and play. The rules governing movement and interaction in the game of Chaturanga, an ancient forbearer
 of Chess, reflect the values and social hierarchies of the Indian military of the fifth century. According to
@@ -22302,8 +21757,8 @@ superficial changes, but impacted the formal structure of the game and the playe
 2002.
 [2]Brian Sutton-Smith, The Ambiguity of Play (Boston: Harvard University Press, 2001), p. 77.
 [3]E.M. Avedon and Brian Sutton Smith, editors, The Study of Games (New York: Wiley, 1971), p. 274.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 What is Rhetoric?
 We are analyzing cultural values and ideologies, but the schema is called Games as Cultural Rhetoric. What
 does that term mean? We take the word "rhetoric" from Brian Sutton-Smith's remarkable treatise The
@@ -22317,9 +21772,9 @@ multitude of forms. Rhetoric can manifest in the words and discourse of a philos
 Catholicism or Marxism), in clothes and insignia worn by members of a group (the fashion that identified
 members of the '60s counterculture movement), or in more general behavior (the spitting and gratuitous
 rudeness that were part of Punk). In each example, cultural rhetoric is a language of expression embodying
-2
+
  Chapter 30: Games as Cultural Rhetoric
-2
+
  Chapter 30: Games as Cultural Rhetoric
 
 
@@ -22344,7 +21799,7 @@ into a game design. For example, the Mad Magazine Game takes a typical board gam
 lose all of your money.This simple formal reversal has a strong impact on the cultural rhetoric of the game.
 Parodying a Monopoly-style winner-take-all game, the Mad Magazine Game calls attention to conventional
 ideologies of greed and economic power. Just like Mad Magazine itself, the game pokes fun at American
-institutions and values. 
+institutions and values.
 Whether a game's cultural rhetoric is unconsciously implicit (Monopoly's capitalistic ideology) or consciously
 playful (The Mad Magazine Game's satiric reversal), it involves the play of cultural values. As we discussed
 in Defining Culture, our concept of play as free movement within a more rigid structure can occur on a
@@ -22358,18 +21813,16 @@ shed light on the operations of culture as a whole.
 [5]Nwokah and Ikekeonwu,"Nigerian and American Children's Games," in The Study of Play, Vol 1.Diversions
 and Divergences in Fields of Play. Margaret C. Duncan, Garry Chick, and Alan Aycock, eds. (New York:
 Ablex / Greenwood Publishing Company, 1998), p. 61.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Seven Rhetorics of Play
 Games embody cultural rhetorics. But what specific ideologies do they represent? In The Ambiguity of Play,
 Brian Sutton-Smith does more than simply introduce the general idea of cultural rhetoric. Sutton-Smith
 identifies seven different "rhetorics of play," large-scale value-systems that have historically informed and
 defined the concept of play. These rhetorics—progress, fate, power, identity, the imaginary, the self, and the
  Chapter 30: Games as Cultural Rhetoric
-3
- Chapter 30: Games as Cultural Rhetoric
-3
 
+ Chapter 30: Games as Cultural Rhetoric
 
 frivolous—are part of broad symbolic systems (political, religious, social, and educational) that help construct
 cultural meanings. They are seven ways that the concept of play has traditionally been brokered by culture. As
@@ -22399,7 +21852,7 @@ categories identify how games and play embody ideological values and how specifi
 perpetuate and justify these values. Rhetorics conflict and compete within the ecosystem of culture. A
 museum exhibit that included video games might spark a clash of rhetorics: perhaps the curator uses play as
 the imaginary to justify the creative value of video games, offending outraged adherents of play as progress
-that see no cultural value in games that merely entertain. 
+that see no cultural value in games that merely entertain.
 Just as one rhetoric can include many games, a single game can embody more than one rhetoric. As complex
 objects, games can contain many different, and sometimes contradictory, cultural rhetorics in their design and
 use. The lottery is based on an ancient game form that embodies play as fate; at the same time, in
@@ -22426,9 +21879,9 @@ form of destiny, gods,
 Gambling and games of
 chance
 Ancient origin
-4
+
  Chapter 30: Games as Cultural Rhetoric
-4
+
  Chapter 30: Games as Cultural Rhetoric
 
 
@@ -22487,8 +21940,8 @@ multicultural roles of the
 Trickster and the Fool
 Ancient origin
 [6]Sutton-Smith, The Ambiguity of Play, p. 7–17.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Two Examples
 The challenge of recognizing cultural rhetoric is that ideologies often pass unnoticed in our own actions and
 behaviors. Luckily, because of their intrinsically playful and artificial nature, games present particularly ripe
@@ -22502,10 +21955,8 @@ living in Virginia, and an ardent follower of economist Henry George. George was
 tax movement, which held that the economic rent of land and the unearned increase in land values profited a
 few individuals rather than the majority of the people, whose very existence produced the land values. He
  Chapter 30: Games as Cultural Rhetoric
-5
- Chapter 30: Games as Cultural Rhetoric
-5
 
+ Chapter 30: Games as Cultural Rhetoric
 
 therefore advocated a single tax on land alone to meet all the costs of government, a policy that would erode
 the power of monopolies to suppress competition, and therefore equalize opportunity.[7] Magie designed The
@@ -22534,15 +21985,15 @@ present or prevailing system to land tenure, the landlord has an advantage over 
 how the single tax would discourage speculation.
 The introduction to Parker Brothers' Monopoly reads:
 The idea of the game is to buy and rent or sell property so profitably that one becomes the wealthiest player
-and eventually monopolist…. The game is one of shrewd and amusing trading and excitement. 
+and eventually monopolist…. The game is one of shrewd and amusing trading and excitement.
 The Landlord'sGame
 As the direct progenitor of Monopoly, it is ironic that Magie's game became a parody of exactly what it
 intended to critique. What began as an earnest attempt to educate the masses about the ills of land monopoly
 was transformed by Parker Brothers into a rhetorical tool for capitalism itself. Thus, although the two games
 share many formal elements, their designs embody radically different ideologies. These cultural rhetorics are
-6
+
  Chapter 30: Games as Cultural Rhetoric
-6
+
  Chapter 30: Games as Cultural Rhetoric
 
 
@@ -22593,17 +22044,15 @@ step. But if we want to stretch people's conceptions of games into spaces beyond
 spaces occupied by art, literature and film—or politics, punk rock, and the academy—then designers need to
 be much smarter in how they incorporate cultural rhetorics in the actual design of their games.
  Chapter 30: Games as Cultural Rhetoric
-7
- Chapter 30: Games as Cultural Rhetoric
-7
 
+ Chapter 30: Games as Cultural Rhetoric
 
 [7]Burton H. Wolfe, "The Monopolization of Monopoly: The Story of Lizzie Magie," The San Francisco Bay
 Guardian, 1976.
 [8]Greg Costikyan, RE:PLAY: Game Design + Game Culture. Online conference,
 <2000.www.eyebeam.org.replay>.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Rhetorics of Gender
 By now it should be clear: when framed as cultural rhetoric, games are systems of representation imbued with
 cultural beliefs and values. Designers must recognize how cultural rhetorics operate within their games and
@@ -22617,7 +22066,7 @@ and informs Goth subculture, but the subculture itself and its interaction with 
 subtle. To highlight the challenges of using rhetorics within games, we focus for the next few pages on an
 important debate involving the cultural rhetoric of gender. Our goal is not to draw definitive conclusions
 about how gender operates in games, but instead to demonstrate the complexity of the issues raised when we
-frame games as expressions of cultural rhetoric. 
+frame games as expressions of cultural rhetoric.
 Investigating the cultural rhetorics of gender means examining the ways that games reflect, reinforce,
 question, or subvert cultural ideas about the categories of masculine and feminine, male and female,
 transgender and other concepts related to gendered identity. Saying that games can interact with ideologies of
@@ -22635,11 +22084,11 @@ rhetorics of gender. Our intention is to demonstrate the complexities by which a
 operates in games. We selected the rhetoric of gender because of the history of the debate within gaming.
 There are certainly innumerable other cultural rhetorics we could have chosen as well, from the representation
 of race and ethnicity to narratives of colonialism and imperialism.
- < Day Day Up > 
- < Day Day Up > 
-8
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 30: Games as Cultural Rhetoric
-8
+
  Chapter 30: Games as Cultural Rhetoric
 
 
@@ -22681,13 +22130,11 @@ they embody has been passed down from an earlier era.
 Barbie to Mortal Kombat: Gender and Computer Games, edited by Justine Cassell and Henry Jenkins
 (Cambridge: MIT Press, 1998), p. 279.
 [10]Ibid., p. 280.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 30: Games as Cultural Rhetoric
-9
- Chapter 30: Games as Cultural Rhetoric
-9
 
+ Chapter 30: Games as Cultural Rhetoric
 
 Flipping the Gender Bit
 The games Jenkins wrote about in his essay are primarily console or PC games from the late 1980s and early
@@ -22727,9 +22174,9 @@ and which values does she call into question? As a powerful and playable avatar,
 role usually accorded female game characters. In fact, a disproportionately high number of women have been
 consumers of the Tomb Raider games. But as an overtly sexualized representation, she replicates and
 exaggerates images of women found in other media, images often seen as objectifying and disempowering.
-10
+
  Chapter 30: Games as Cultural Rhetoric
-10
+
  Chapter 30: Games as Cultural Rhetoric
 
 
@@ -22737,10 +22184,8 @@ Lara Croft
 Smurfette
 Princess Toadstool
  Chapter 30: Games as Cultural Rhetoric
-11
- Chapter 30: Games as Cultural Rhetoric
-11
 
+ Chapter 30: Games as Cultural Rhetoric
 
 Lara Croft
 The rhetoric of gender is complicated even further when we consider that the representation of Lara is
@@ -22761,12 +22206,12 @@ Ms. Pac-Man is arguably the first game avatar gendered female. Although she is c
 wasn't given a curvaceous "womanly" figure. Rather, she is nothing more than a feminized version of
 Pac-Man, designed as if lipstick and a bow were equivalent to being female. Pac-Man, the male
 gerund, is the presumed neutral identity. Ms. Pac-Man is the marked,special case.
-• 
+•
 Female Fighting Game Characters also offer active female roles for players to take on. But by and
 large, these characters suffer from the same hyperfeminization as Lara Croft, even joining her in game
 magazine pin-ups and posters. The marketing of contemporary fighting games (touting features such
 as a "breast jiggle" option) emphasize the sexist stereotypes these characters embody.
-• 
+•
 Samus Aran, the heroine of the popular Metroid series, is a female character that in the original
 Metroid game doesn't reveal her gender until the end, when she removes her high-tech helmet. This
 clever design decision reveals the rhetorical presumptions players make about game character
@@ -22774,16 +22219,16 @@ gender—many gamers recall with relish their shock when the hero of Metroid was
 heroine. But why is it only at the end of the game that Samus Aran can "come out" as a woman?
 Would the play of the game, or the interest of the players, be any different if the protagonist were
 male?
-• 
+•
 SiSSYFiGHT 2000 features unusual female characters that are neither passive Princess Toadstools nor
 sexist action sluts. They are bratty schoolgirls, equal parts cute and ugly, designed consciously as a
 playful intervention into existing cultural rhetorics of gendered game representation. Despite these
 feminist intentions, the bratty girls of the game have been criticized as portraying negative images of
 women, perpetuating stereotypes of catty, gossipy female behavior.
-• 
-12
+•
+
  Chapter 30: Games as Cultural Rhetoric
-12
+
  Chapter 30: Games as Cultural Rhetoric
 
 
@@ -22797,8 +22242,8 @@ within its design.
 [11]Katie Salen, "Lock, Stock, and Barrel: Sexing the Digital Siren. In "Sex Appeal: The Art of Allure in
 Graphic and Advertising Design, edited by Steven Heller (New York: Allworth Press, 2000), p. 148.
 [12]Ibid., p. 149.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Transforming Spaces
 Do not despair! It's true that cultural rhetorics are complicated, but that does not mean they cannot be
 successfully incorporated into a game design. In fact, it is possible for games to take the concept of cultural
@@ -22832,10 +22277,8 @@ holds the community together. But the freedom to change the game is what gives t
 power."[14] This powerful, poetic rhetoric conflates the act of changing an individual game with changing the
 larger "game" of society—a premise at the heart of the New Games Movement.
  Chapter 30: Games as Cultural Rhetoric
-13
- Chapter 30: Games as Cultural Rhetoric
-13
 
+ Chapter 30: Games as Cultural Rhetoric
 
 Earthball, a classic New Games design, clearly embodies the movement's rhetoric. Created in 1966 by Stewart
 Brand for a public event sponsored by the War Resisters League at San Francisco State College, Earthball
@@ -22853,9 +22296,9 @@ went on for an hour without a score. The players had been competing, but not to 
 unspoken and accepted agreement had been to play, as long and hard as possible. [16]
 Samus Aran: Metroid
 MS.Pac-Man
-14
+
  Chapter 30: Games as Cultural Rhetoric
-14
+
  Chapter 30: Games as Cultural Rhetoric
 
 
@@ -22863,10 +22306,8 @@ Vanessa: Virtua Fighter 4
 SISSYFIGHT 2000
 Chun Li: Street Fighter
  Chapter 30: Games as Cultural Rhetoric
-15
- Chapter 30: Games as Cultural Rhetoric
-15
 
+ Chapter 30: Games as Cultural Rhetoric
 
 Nina: Tekken 3
 Ling: Tekken 2
@@ -22883,9 +22324,9 @@ movement. For example, the game of Catch the Dragon's Tail (first mentioned in G
 Conflict), has a definite winning condition and goal, but certain players (in the dragon's middle) are not
 clearly on one team or the other. The New Game titled Vampire (analyzed in Games as the Play of
 Simulation, not to be confused with the LARP game Vampire: The Masquerade) also plays with competition,
-16
+
  Chapter 30: Games as Cultural Rhetoric
-16
+
  Chapter 30: Games as Cultural Rhetoric
 
 
@@ -22914,8 +22355,8 @@ by no means unrealistic. It did happen; it can happen again.
 [14]Bernard DeKoven, The Well-Played Game (New York: Doubleday, 1978), p. 68.
 [15]Fluegelman and Tembeck, The New Games Book, p. 9.
 [16]Ibid.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Battling Toys
 By now it should be clear that we can connect games' artificial spaces of meaning to the values and ideologies
 of the world at large in countless ways. Each of the examples we explored within this chapter shares a
@@ -22926,12 +22367,10 @@ This chapter concludes by exploring the reflection and transformation of cultura
 particular game design. Toys is a game for two players Eric created in collaboration with school children
 during a residency at the Bellevue Museum of Art in Seattle in 2000. The design mimics the battling character
 structure of a game like Pokémon, feeding on the rich social codes created by children for their toys— one
-plays the game by inhabiting, interpreting, and disputing these codes. 
+plays the game by inhabiting, interpreting, and disputing these codes.
  Chapter 30: Games as Cultural Rhetoric
-17
- Chapter 30: Games as Cultural Rhetoric
-17
 
+ Chapter 30: Games as Cultural Rhetoric
 
 To begin the game, each player selects three character toys from a large collection of action figures scavenged
 from Seattle flea markets; the figures then "fight" with each other one by one. The battles between toys are
@@ -22942,11 +22381,11 @@ by interpreting the statement and coming to an agreement on which toy it identif
 Toys: A social game for two players.
 Setup:
 Each player selects 3 toys to create his or her toy collection.
-• 
+•
 Shuffle the game cards and deal 2 to each player. Keep these cards hidden.
-• 
+•
 Place the rest of the cards face-down in a pile.
-• 
+•
 Object:
 The goal of the game is to defeat your opponent's toy collection.
 Game play:
@@ -22956,7 +22395,7 @@ Both players must then decide the result of the match based on the best applicat
 toys. If the players cannot agree, deal two new cards to create a new statement. At any point in the game,
 players can use the two cards they were dealt to change the statement on the board.
 After a match the loser selects a new toy from his or her collection to face the winning toy. If you defeat all
-three of your opponent's toys, you win. 
+three of your opponent's toys, you win.
 Conflict is an intrinsic part of every game. As we outlined in Games as the Play of Simulation, game conflict
 is typically a territorial military conflict, a numerical economic conflict, or a conflict over fixed units of
 knowledge. The design of Toys, however, presents an alternative model. Although it superficially resembles a
@@ -22969,7 +22408,7 @@ relative maleness. What makes the collaborative element of Toys so compelling is
 not only to meet a set of victory conditions (this toy beats that toy) but also to navigate a rich playground of
 cultural signs. The game complexifies this negotiation by using not just one comparative term but two (the
 American toy beats the expensive toy) and by allowing players to intervene twice during a game to
-strategically change the linguistic equation. 
+strategically change the linguistic equation.
 The statements generated in Toys contain a high degree of strategic and cultural ambiguity; resolving this
 ambiguity is the point of the play. Although there are many games that reward players for cultural knowledge
 (such as Trivial Pursuit), these games generally provide correct answers to game questions. Toys does not
@@ -22977,10 +22416,10 @@ provide the right or wrong answer to the resolution of a match; the game instead
 authority in determining the answer. In most games, players are expected to act in their own self-interest. But
 Toys turns the conventional authority structure of a game inside-out: instead of relying on the rules of the
 game to resolve the conflict each turn, players must resolve the battles through a potentially heated
-negotiation. 
-18
+negotiation.
+
  Chapter 30: Games as Cultural Rhetoric
-18
+
  Chapter 30: Games as Cultural Rhetoric
 
 
@@ -23003,14 +22442,12 @@ just a formal or experiential level, for game designers that want to explore pla
 itself, Games as Cultural Rhetoric is an indispensable design tool.
 Toys: sample playing cards
  Chapter 30: Games as Cultural Rhetoric
-19
- Chapter 30: Games as Cultural Rhetoric
-19
 
+ Chapter 30: Games as Cultural Rhetoric
 
 Toys: gameboard
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 Air Guitar, by Dave Hickey
 The essay "The Heresy of Zone Defense" is cultural critic Dave Hickey's love letter to the game of Basketball,
@@ -23032,9 +22469,9 @@ A collection of essays focusing on connections between girls and computer games 
 and gender identities evoked by such connections. Much of the discussion is based on the early research of the
 Girl Games movement, which argued that girls have play patterns and interests different from those of boys.
 The ideology of this movement has itself come under attack, represented by the book's final essay,
-20
+
  Chapter 30: Games as Cultural Rhetoric
-20
+
  Chapter 30: Games as Cultural Rhetoric
 
 
@@ -23059,31 +22496,29 @@ speak in front of the U.S. Senate committee on the effects of video games and vi
 compelling argument against links between medium and behavior, debunking many of the myths commonly
 touted in the media. According to Jenkins, media and violence have a complex relationship that cannot be
 reduced to singular arguments.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 Games are social contexts for cultural learning. This means that games have an ideological
 dimension: they are one context through which society passes on its values.
-• 
+•
 Rhetoric is a persuasive discourse or implicit cultural narrative. It is a set of connected ideas used to
 convince others of the truthfulness of one's own beliefs.
-• 
+•
 All games reflect the rhetoric of the cultural context in which they are designed or played. This is true
 of both historical and contemporary games.
-• 
+•
 Cultural rhetorics can be an unconscious aspect of a game's ideology or they can be consciously
 designed into a game. When game designers allow cultural rhetorics to enter into the play of a game,
 they are creating an instance of free play within more rigid cultural structures.
-• 
+•
 Brian Sutton-Smith identifies seven rhetorics of play. Four rhetorics stem from ancient
 ideologies—fate, power, identity, and the frivolous. Three rhetorics have more contemporary
 origins: progress, the imaginary, and the self. The prevalent rhetoric of contemporary Western
-• 
+•
  Chapter 30: Games as Cultural Rhetoric
-21
- Chapter 30: Games as Cultural Rhetoric
-21
 
+ Chapter 30: Games as Cultural Rhetoric
 
 culture is play as progress: the notion that play is for children and that it is valuable because it helps
 them properly evolve into adults.
@@ -23091,18 +22526,18 @@ Cultural rhetorics, such as the representation of gender in games, are exceeding
 rhetorics do not always resolve into a single ideological interpretation. For example, although the
 game character of Lara Croft challenges rhetorics of boy-based play in some respects, in other
 respects the character follows rigid gender stereotypes.
-• 
+•
 Sometimes the cultural rhetorics of a game can change the cultural structures in which they exist. This
 is the phenomenon of transformative cultural play.
-• 
+•
 The New Games Movement is an example of a game design ideology that consciously sought to
 transform cultural rhetorics through specific forms of community and play design.
-• 
- < Day Day Up > 
- < Day Day Up > 
-22
+•
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 30: Games as Cultural Rhetoric
-22
+
  Chapter 30: Games as Cultural Rhetoric
 
 
@@ -23144,15 +22579,13 @@ designed elements that interact to produce emergent cultural effects. A game des
 players in some way to access the game structure and directly change its meanings. But what is the extent of
 this change? How deep is the exchange of meanings between the game and its context? Is the game system
  Chapter 31: Games as Open Culture
-1
-
 
 affected on an aesthetic level, as when the skins of game avatars are customized by players? Is the game
 system affected on the level of experience, as in a custom mod that adds new interactive possibilities? Or are
 the game rules themselves changed, at the level of code? How does each of these transformative effects
 change the cultural meaning of the game?
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Inventing Jenny
 What is an open culture game? Let's start with an example. After the launch of massively multiplayer online
 role-playing game Ultima Online, the open-ended nature of the game play immediately gave rise to a rich
@@ -23184,11 +22617,11 @@ Culture implies a game design model in which the structure of a game offers play
 Players are encouraged to add to, delete from, or altogether alter the experience of play through manipulation
 of the game's system. We call this the player-as-producer paradigm, a design strategy linked to the creation of
 culturally transformative play.
- < Day Day Up > 
- < Day Day Up > 
-2
+ < Day Day Up >
+ < Day Day Up >
+
  Chapter 31: Games as Open Culture
-2
+
  Chapter 31: Games as Open Culture
 
 
@@ -23209,7 +22642,7 @@ players that make game creation tools, like a 3D graphics tool that lets players
 The next tier contains players that use the design tools to make game objects, such as new character bodies
 with ani-mal-inspired anatomy. These objects are disseminated by players in the next tier, webmasters that
 host Sims websites. At the bottom of the pyramid (highest in number of participants) are the players that make
-use of these objects in their game. 
+use of these objects in their game.
 The design of The Sims facilitates the development of these groups at every level. Rather than a closed,
 airtight system, The Sims is structured as modular code, designed for expansion and manipulation by players.
 However, flexible code is not enough: you need to communicate to your audience the possibility of
@@ -23234,10 +22667,8 @@ producers. Game tools to create new game assets might ship with the game, as wit
 Neverwinter Nights. Level design tools can be made freely available within a designed online community, as
 with the puzzle game BLiX.Extra blank cards for players to fill out can be part of a game deck, as in the
  Chapter 31: Games as Open Culture
-3
- Chapter 31: Games as Open Culture
-3
 
+ Chapter 31: Games as Open Culture
 
 narrative card game Once Upon a Tale. Code for a digital game can be made available to the public, as with
 DOOM.Or the very premise of the game can be based on active player creation, as with tabletop role-playing
@@ -23251,8 +22682,8 @@ share across a community of players is incredibly exciting.There is something de
 a game that allows players to participate as designers in their own right.
 [1]J. C. Herz, "Gaming the System: Multi-player Worlds Online." In Game On: The History and Culture of
 Video Games, edited by Lucien King (London: Laurence Ling Publishing, 2002), p. 91.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Meaningful Production
 The key to creating emergent player-as-producer play is the same as in other aspects of games. Designing
 successful play is designing meaningful play, where the game system supports the choices players take by
@@ -23282,9 +22713,9 @@ adjustments to the way they played the game, in order to compose the exact "shot
 storyboard-like narratives. Strategies for successful game play, such as keeping game characters happy, were
 superceded by strategies for positioning objects and characters in a scene. Because Sims characters move
 about on their own, it can be quite challenging to compose a multi-char-acter shot.
-4
+
  Chapter 31: Games as Open Culture
-4
+
  Chapter 31: Games as Open Culture
 
 
@@ -23308,10 +22739,8 @@ looking forward to celebrating Christmas in their new home…that is, if they la
 Gingerbread (shown here) and The Metamora Family (previous page) are Sims Family Albums created by
 players and posted for review at the Sims Exchange, www.thesims.ea.com
  Chapter 31: Games as Open Culture
-5
- Chapter 31: Games as Open Culture
-5
 
+ Chapter 31: Games as Open Culture
 
 Like most fleeing edibles, George and Ginny are tormented by the possibility of becoming someone's next
 meal. Ginny, longing for some normalcy in her life, is hoping to meet new friends and finally settle down in a
@@ -23335,9 +22764,9 @@ He is aware that Joy Holiday is lurking outside the window, in cahoots with Bob,
 informed Joy that he and Ginny have no desire to be storefront props for her stupid Bakery. These humans!!!
 But George is playing it cool. He does not want Joy to know he is on to her. He's not worried, though. She'll
 get hers too.
-6
+
  Chapter 31: Games as Open Culture
-6
+
  Chapter 31: Games as Open Culture
 
 
@@ -23375,10 +22804,8 @@ might then change the relationship between elements in the system: the toaster t
 characters can do in the kitchen. A player might also intervene on the level of the game's environment, by
 making a fan site that distributes game objects or by creating a Sims Family Album. In every case, the system
  Chapter 31: Games as Open Culture
-7
- Chapter 31: Games as Open Culture
-7
 
+ Chapter 31: Games as Open Culture
 
 of the game accommodates the changes by absorbing them and transforming itself accordingly.
 Player-as-producer artifacts not only reflect the meanings and values of the games from which they arise, but
@@ -23388,8 +22815,8 @@ to extract a retelling story out of game play. Other forms can move from outside
 in), such as when a player-generated character model is downloaded for use in the game. In both cases, the
 permeability of the magic circle feeds innovation, resulting in rich systems of cultural production and new
 forms of creative expression.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Open Source Games
 The play of open systems concerns more than player experience: there are ideological dimensions as well. To
 explore some of the values underlying open culture, we will take a brief detour through the phenomenon of
@@ -23423,9 +22850,9 @@ game systems, like open source software, are designed to be evolutionary, not st
 multiple forms. Players operate as a community of developers, transforming elements of the game system,
 playtesting them, sharing them with other players, and submitting them for further modification. This free
 play is not obligatory, of course: players of an "open source" game can modify it if they wish, but are not
-8
+
  Chapter 31: Games as Open Culture
-8
+
  Chapter 31: Games as Open Culture
 
 
@@ -23438,14 +22865,14 @@ open source software, but also happen to describe open culture games as well. Ac
 model, open source users have the freedom to:
 Use the software as they wish, for whatever they wish, on as many computers as they wish, in any
 technically appropriate situation.
-• 
+•
 Have the software at their disposal to fit it to their needs. Of course, this includes improving it, fixing
 its bugs, augmenting its functionality, and studying its operation.
-• 
+•
 Redistribute the software to other users, who could themselves use it according to their own needs.
-• 
+•
 Users of a piece of software must have access to its source code.[3]
-• 
+•
 Now reread these principles, replacing "software" with "game" and "user" with "player." It is striking how
 smoothly the concepts of open source software transfer to games as open culture. In the case studies that
 follow, we explore these principles in the context of two games, one non-digital (Icehouse), and one digital
@@ -23456,8 +22883,8 @@ intent on participating.
 <http://eu.conecta.it/paper/brief_history_open_source.html >.
 [3]Ibid.
 Ron Hale-Evans,"Game Systems: Part 1." <www.thegamesjournal.com/articles/GameSystems1.shtml>
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Game Systems
 Within the domain of non-digital games, a special class of games is known as game systems. A game system
 is a set of components that function together across multiple games. The most commonly used game system is
@@ -23474,10 +22901,8 @@ and golf course are quite specific; there is relatively little room for reinvent
 Unlike a closed game, a game system exemplifies all four qualities of open source software. A game system is
 non-hierarchical, openly accessible, non-guided, and emergent. Like open source code, game systems provide
  Chapter 31: Games as Open Culture
-9
- Chapter 31: Games as Open Culture
-9
 
+ Chapter 31: Games as Open Culture
 
 players with the "source code" (the game's components and perhaps a sample ruleset or two) and encourage
 players to modify them in whatever way they wish, in as many ways as they wish (usually by inventing new
@@ -23494,7 +22919,7 @@ The Icehouse Set has led to the invention of a great many delightful and unconve
 Zarcana and Gnostica, both played on a board made of Tarot cards; Chess-like variants such as Martian Chess
 and Pikeman; a computer sim called RAMbots; a building game known as Thin Ice; and a deep-space epic
 about good and evil called Homeworlds. To get a sense of the incredible range of games designed for the
-Icehouse Set, we summarize a few of the games in a bit more detail: 
+Icehouse Set, we summarize a few of the games in a bit more detail:
 Volcano is a clever, puzzle-like game in which players move "caps" around the tops of
 volcanoes, triggering eruptions that cause colored streams of lava to flow out across the
 playing field. The object of the game is to capture as many pieces as possible, with bonus
@@ -23517,9 +22942,9 @@ Does it have to do with relative color? Size? Number? Pattern? Or maybe it is ba
 something outside the magic circle…. Beguilingly simple, Zendo rewards cleverness and
 creativity on the part of both Students and Masters.[6]
 Zendo
-10
+
  Chapter 31: Games as Open Culture
-10
+
  Chapter 31: Games as Open Culture
 
 
@@ -23546,8 +22971,8 @@ control is ultimately what is so satisfying about designing game systems: as a p
 creativity, a game system is a catalyst for truly transformative and emergent play.
 [5]Ibid.
 [6]The Official Icehouse Homepage, <www.wunderland.com/ice-house/Default.html>
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Escape from the Dungeon
 As we have mentioned, game systems are like open source "operating systems." Player-designers interact with
 data and write their own software, creating programs (rulesets) that manipulate or transform the organization
@@ -23566,10 +22991,8 @@ One such voice is Elemental, a player-produced mod for the fantasy role-playing 
 created by Gas Powered Games. Elemental is what is known as a "total conversion" mod: rather than simply
 inventing a new character skin, game level, or in-game object, the mod transforms Dungeon Siege into a
  Chapter 31: Games as Open Culture
-11
- Chapter 31: Games as Open Culture
-11
 
+ Chapter 31: Games as Open Culture
 
 completely different game. The result is a game that utilizes elements of Dungeon Siege's core game system
 within a radically altered context of expression. As Zendo to Icehouse, Elemental recasts Dungeon Siege
@@ -23590,7 +23013,7 @@ Tolkienesque world of the original game to invent something with a radically dif
 game play mechanic. The resulting experience of play would be very different than what the original game
 offered. Affectionately described as "biblepunk" (players are former slaves seeking retribution in the ancient
 city of Jericho), it remains to be seen if the Dungeon Siege community will embrace the new world by
-modding it in turn. 
+modding it in turn.
 Dungeon Seige editor
 One of the unique features of Elemental's creation was the collaborative environment nurtured by Dungeon
 Siege's developers. Although many open source games make their code available for modification by players,
@@ -23606,9 +23029,9 @@ thought it could be. We found this idea to be very exciting, and in many ways, f
 way of the future. Imagine, people all over the world working together on teams to create
 fantastic new adventures, stories, characters.The possibilities are endless, and this is just the
 beginning![8]
-12
+
  Chapter 31: Games as Open Culture
-12
+
  Chapter 31: Games as Open Culture
 
 
@@ -23625,8 +23048,8 @@ depth of possible modifications.
 [7]<http://dungeonseige.com>
 [8]Tricia "Kazi Wren" Harris,"Mod World: Part 12." Gamespy.com. August 22, 2002
 <www.gamespy.com/modworld/august02/modworld12/ >.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Telefragging Monster Movies
 Sometimes, the player-as-producer paradigm takes the modification of a game so far that the invented activity
 no longer resembles the play of the game at all. Such is the case with machinima, a player-as-producer open
@@ -23655,16 +23078,14 @@ that would exploit the built-in moviemaking capabilities of the game's software.
 demo recording to play within the game, The Rangers would use Quake as a filmmaking tool. This decision
 transformed the game space into a virtual movie set, complete with lights, camera, and action—lots of action.
  Chapter 31: Games as Open Culture
-13
- Chapter 31: Games as Open Culture
-13
 
+ Chapter 31: Games as Open Culture
 
 The Rangers used their characters as virtual actors and recorded their movements on a deathmatch map; typed
 text messages represented speech. As short and simple as their first effort appears to us today, "Diary of a
 Camper" established the filmic genre machinima, which has spawned hundreds of movies to date. Creatively
 responding to the affordances of the game system, Quake players not only transformed the play of the game,
-but took an open source model and applied it to the production of new forms of culture. 
+but took an open source model and applied it to the production of new forms of culture.
 Part theater, part film, part computer game, machinima represents the kind of wild exchanges that result from
 thoroughly transformative play. The cultural play of machinima crosses formal, experiential, and contextual
 levels, as players playfully repurpose the original structures of the game. The formal structure of the game
@@ -23678,9 +23099,9 @@ machinima.com, the Quake Movie Library, Planetquake's Cineplex, and Zarathustra 
 production by offering tools, tutorials, movie reviews, and most important of all, free downloads of the
 movies themselves.
 Devil's Covenant, 1998 | Clan Phantasm
-14
+
  Chapter 31: Games as Open Culture
-14
+
  Chapter 31: Games as Open Culture
 
 
@@ -23690,8 +23111,8 @@ machinima producers deconstruct the game in order to play with it. Instead of ac
 challenge and modify them. This creative practice is a form of rule-breaking, one occurring at the deep level
 of code. By bending and modifying the game's formal structure, players affect their experience with the game
 by remolding its play into something that only barely resembles its former shape.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Circle Back
 The model of games as open culture offers players rich opportunities to participate in larger systems of
 cultural production. The design artifacts left in the wake of such production—from open game systems to
@@ -23713,10 +23134,8 @@ game through their circulation within culture. experiences, player artifacts, an
 could not have anticipated is a special pleasure reserved for game designers. So make sure your games have
 the potential to surprise you, by creating moments of open play for your audience.This doesn't mean you have
  Chapter 31: Games as Open Culture
-15
- Chapter 31: Games as Open Culture
-15
 
+ Chapter 31: Games as Open Culture
 
 to create a radically play-er-centric game every time: remember that the design of open culture exists along a
 sliding scale, from wholly internal activities such as finding new game strategies to the production of new
@@ -23731,8 +23150,8 @@ a glimpse into the psyche of a social milieu. In gaining a life beyond the borde
 which they were born, artifacts like Family Album stories create feedback loops of their own, formulating
 new cultural territories to be explored and eventually, transformed in turn. This movement from reflection to
 transformation is another case of culturally transformative play.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 Game On: The History and Culture of Videogames, Lucien King, ed.
 (see page 426)
@@ -23749,9 +23168,9 @@ Textual Poachers: Television Fans and Participatory Culture, by Henry Jenkins
 In his study of media fan culture, Jenkins represents media fans within a player-as-producer paradigm:
 actively constructing their own objects and meanings from borrowed materials. Jenkins' study is of particular
 relevance to the culture of hacks, mods, and cheats emerging from open source games.
-16
+
  Chapter 31: Games as Open Culture
-16
+
  Chapter 31: Games as Open Culture
 
 
@@ -23759,53 +23178,50 @@ Recommended:
 Chapter 1:"Get a Life!": Fans, Poachers, and Nomads
 Chapter 5: Scribbling in the Margins
 Chapter 7:"Layers of Meaning": Fan Music Videos and the Poetics of Poaching
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 The schema Games as Open Culture is based on two premises: first, as open systems, play occurs on
 the level of culture; second, games exchange meaning with their surrounding contexts.
-• 
+•
 Transformative cultural play occurs when the open system quality of a game leads to an exchange
 between the meanings of a game and culture at large, changing the context of the game.
-• 
+•
 The player-as-producer paradigm is a design approach and social phenomenon in which players are
 given the opportunity to act as creative producers within the system of the game, modifying it on
 formal, experiential, or cultural levels.
-• 
+•
 When players become producers, their activities are a form of metagaming, as they interact with the
 game outside the bounds of the magic circle.
-• 
+•
 Player-producers have the potential to create entirely new contexts for play, an emergent property of
 games as open culture. These new contexts themselves can encourage new play experiences, creating
 instances of transformative play.
-• 
+•
 Open source is a software development model with two important features that support user-centered
 production: first, code is written as an open system available for modification and exchange by a
 community of designers; second, the source code is always available and freely shared.
-• 
+•
 The qualities of open culture games are similar to the fundamental features of open source software.
 They are: non-hierarchical, openly accessible, non-guided, and emergent.
-• 
+•
 Player-produced modifications can occur in one of two ways: production occurring within the magic
 circle moving outward (inside > out), or production taking place within culture that moves inward to
 affect the game (outside > in).
-• 
+•
 Game systems are sets of components that can be used to play different games. Game systems can be
 digital (an open source game engine) or non-digital (a set of physical game materials).
-• 
+•
 Machinima are animated movies created with game engine technology.
-• 
- < Day Day Up > 
- < Day Day Up > 
+•
+ < Day Day Up >
+ < Day Day Up >
  Chapter 31: Games as Open Culture
-17
- Chapter 31: Games as Open Culture
-17
 
-
-18
  Chapter 31: Games as Open Culture
-18
+
+ Chapter 31: Games as Open Culture
+
  Chapter 31: Games as Open Culture
 
 
@@ -23820,8 +23236,8 @@ between the two of them! How'd they do it?
 You might be the victim of a pair of cheaters…
 Regardless of whether you win or lose, you have an obligation to let the rest of the SiSSYFiGHT community
 know about the cheaters.—www.sissyfightnews.com
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Introducing Cultural Resistance
 In Games as Open Culture, we looked at what forms of player-production can occur in games and where
 those forms of production are situated relative to the magic circle. But we still have questions to answer: How
@@ -23840,8 +23256,6 @@ contact with one another, friction, or resistance, results. In this chapter, we 
 between games and their cultural contexts, when one acts to resist the other. The term "friction" may make
 this process sound negative, but the resistance that results can affect play in deeply meaningful ways. For
  Chapter 32: Games as Cultural Resistance
-1
-
 
 example, we can use the concept of friction to reframe the relationship between rules and play. In Defining
 Play, we identified play as free movement within a more rigid structure. Considering a game as resistance or
@@ -23870,8 +23284,8 @@ Online emerged from the formal and narrative structures of the game as they came
 real-world narrative expectations. The whole result, as with all complex systems, was more than the sum of
 the parts, an instance of play that modified the game, even as it transformed the attitudes and assumptions of
 the game community.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 DIY Gaming
 Of punk music, rock critic Greil Marcus writes, "The Sex Pistols made a breach in the pop milieu, in the
 screen of received cultural assumptions governing what one expected to hear and how one expected to
@@ -23887,9 +23301,9 @@ control of the tools of production could be wrested from the dominant culture an
 version of reality. Playing in a punk band meant picking up a guitar and making noise; making a 'zine simply
 required access to scissors, ink, and a photocopy machine. Years later this spirit was carried forward into the
 design of DOOM,where the DIY attitude was embodied in the way players were given access to the game's
-2
+
  Chapter 32: Games as Cultural Resistance
-2
+
  Chapter 32: Games as Cultural Resistance
 
 
@@ -23907,8 +23321,8 @@ part of digital gaming's development ever since.
 [1]Greil Marcus, Lipstick Traces: A Secret History of the Twentieth Century (Cambridge: Harvard University
 Press, 1989), p. 3.
 [2]"Brave New Worlds: A Special Issue on Video Games," Feed Magazine.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Resistant Strategies
 Designed strategies of resistance in a game, whether created by players or designers, are called game
 modifications, or mods. Modifications can be officially sanctioned, such as a developer-distributed
@@ -23920,7 +23334,7 @@ of the game. This is especially true when we consider the larger social contexts
 are designed, disseminated, and put to use. Game modifications are inherently transformative—they do, after
 all, literally change the game. The friction they create connects game to context, player-as-producer to
 player-as-consumer, designer to user, fan to developer, programmer to hacker. In blurring these categories,
-game modifications enact cultural resistance in a variety of contexts. 
+game modifications enact cultural resistance in a variety of contexts.
 Not every act of game resistance is explicitly political. Remember that our use of the term "resistance" refers
 generally to any act of play that creates friction with more rigid structures. Resistance can be a highly useful
 model for game designers, particularly if you want your game to engage culture along critical lines. There are
@@ -23936,17 +23350,15 @@ modifications, broadly grouped according to design method. We have divided the m
 of alteration, juxtaposition, and reinvention, each category representing a different strategy for achieving
 resistance in a game:
  Chapter 32: Games as Cultural Resistance
-3
- Chapter 32: Games as Cultural Resistance
-3
 
+ Chapter 32: Games as Cultural Resistance
 
 Strategies of alteration make changes to existing game structures.
-• 
+•
 Strategies of juxtaposition combine unexpected elements within a game space.
-• 
+•
 Strategies of reinvention rework entire game structures on deeper levels.
-• 
+•
 Although these three methods overlap, as a whole they provide a conceptual model for understanding existing
 forms of game resistance, as well as planning new ones.
 Strategies of Alteration
@@ -23976,11 +23388,11 @@ North America."[5] Drawing directly on the lexicon of Japanese Animé in the con
 the wad (a nickname for DOOM level files based on the filename extension) alters the gothic architecture of
 DOOM by littering the space with objects from the world of Sailor Moon: cupcakes, slices of chocolate cake,
 hearts, roses, bunny suitcases, and messenger bees. Here the implicit masculinity of DOOM is playfully called
-into question through the addition of an entire system of feminized artifacts. 
+into question through the addition of an entire system of feminized artifacts.
 SOD
-4
+
  Chapter 32: Games as Cultural Resistance
-4
+
  Chapter 32: Games as Cultural Resistance
 
 
@@ -24021,10 +23433,8 @@ A game designed by the London-based activist group Mongrel, Blacklash juxtaposes
 nostalgia in a racial re-versioning of the arcade game Tempest. Building upon the game's existing
 shoot-or-be-shot structure, Blacklash transforms the aliens of the original game into comic book renditions of
  Chapter 32: Games as Cultural Resistance
-5
- Chapter 32: Games as Cultural Resistance
-5
 
+ Chapter 32: Games as Cultural Resistance
 
 hooded Ku Klux Klan members and uniformed British police officers. Described by Mongrel as "a wake-up
 call for young black youth under threat by ignorance and racist fools,"[8] Black-lash references the retro
@@ -24046,7 +23456,7 @@ lines of children and their parents waiting for rides. The interactivity and aes
 accepted conventions of the first-person shooter by reforming them into critical caricatures. The substitution
 of aliens with guns by tourists with surveillance cameras, for example, offers a softer, more insidious
 experience of game attack and conflict. Los Disneys' "play" on the play of violence in games is an articulate
-and humorous strategy of resistance. 
+and humorous strategy of resistance.
 Strategies of Reinvention
 Our third strategy of resistance—reinvention—overlaps with the categories of alteration and juxtaposition,
 while offering some distinct critical affordances of its own. Like the two previous strategies, reinvention
@@ -24054,9 +23464,9 @@ affects form and context through a change in the game's representational or inte
 strategies of reinvention go deeper, modifying the core structures of a game, reshaping them from the inside
 out. Of the three categories we outline, strategies of reinvention are perhaps the most radical form of cultural
 resistance through transformative play.
-6
+
  Chapter 32: Games as Cultural Resistance
-6
+
  Chapter 32: Games as Cultural Resistance
 
 
@@ -24106,10 +23516,8 @@ transition between the space inside and outside the game is interrupted; players
 the game which usually pass unnoticed. Allowing players to experience this kind of transformative play
 increases options for play: when critical consciousness is enriched, play too becomes richer.
  Chapter 32: Games as Cultural Resistance
-7
- Chapter 32: Games as Cultural Resistance
-7
 
+ Chapter 32: Games as Cultural Resistance
 
 [3]Erkki Huhtamo, "Game Patch: the Son of Scratch?" In Cracking the Maze, curated by Anne-Marie
 Schleiner. July 16, 1999.<switch.sjsu.edu/CrackingtheMaze>.
@@ -24122,8 +23530,8 @@ Schleiner. July 16, 1999.<switch.sjsu.edu/CrackingtheMaze>.
 [9]Janet Abrams, "Other Victories." In If/Then, edited by Janet Abrams. (Amsterdam: Netherlands Design
 Institute, 1999), p. 245.
 [10]"Brave New Worlds: A Special Issue on Video Games," Feed Magazine.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Additional Lines of Resistance
 At the very beginning of his book Homo Ludens, philosopher and historian Johann Huizinga makes the
 profound assertion that,"In play there is always something 'at play.'"[11] Games always already play, an
@@ -24145,14 +23553,14 @@ take on roles of resistance as well. Our next example offers a scenario where tw
 within and without the magic circle, bend the "shape" of the game system in two competing ways.
 [11]Johann Huizinga, Homo Ludens: A Study of the Play Element in Culture (Boston: Beacon Press, 1955), p.
 1.
- < Day Day Up > 
-8
+ < Day Day Up >
+
  Chapter 32: Games as Cultural Resistance
-8
+
  Chapter 32: Games as Cultural Resistance
 
 
- < Day Day Up > 
+ < Day Day Up >
 Friction on the Playground
 The sidebar text on this page and the next is excerpted from sissyfightnews.com, a fan site devoted to the
 game SiSSYFiGHT 2000. The text is a manifesto against cheating; it details how to identify and combat
@@ -24197,10 +23605,8 @@ talk smack in their word balloons, but they will never actually give any indicat
 their next moves will be.
 There are two ways to cheat in SiSSYFiGHT: external communication and multiple sessions.
  Chapter 32: Games as Cultural Resistance
-9
- Chapter 32: Games as Cultural Resistance
-9
 
+ Chapter 32: Games as Cultural Resistance
 
 Cheaters who use external communication basically resort to some form of telegraphing their moves to each
 other by any means outside of the SiSSYFiGHT window itself. This most often takes its form in either AOL
@@ -24235,8 +23641,8 @@ player-production; as a strategy of resistance, it demonstrates that meaningful 
 game from contexts beyond its permeable edges. And in this instance, the story had a happy ending: the
 designers intervened, reaching the entire community of players through the game's official website, revising
 the rules of the game and raising the consciousness of the player community as a whole.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Resist!
 The resistant strategies taken by independent game designers such as the Counter-Strike team, dedicated
 players such as the Sissyfightnews crew, and game artists such as Uri Tzaig suggest how games can be
@@ -24244,9 +23650,9 @@ designed or redesigned from a cultural perspective to support transformative pla
 taken are formal, aesthetic, or politically inspired, the cultural dimensions of these acts of resistance shape
 ideology and interaction. If game designers were to embrace strategies of resistance more often, the potential
 for games to affect culture in significant ways would surely increase.
-10
+
  Chapter 32: Games as Cultural Resistance
-10
+
  Chapter 32: Games as Cultural Resistance
 
 
@@ -24271,8 +23677,8 @@ code and let loose in the field of play? Clearly we would have a very different 
 that would radically reinvent the potential for culturally transformative play. The possibilities are out there.
 But until you begin to resist the conventions of game design, we will never find out just how fun they are to
 play. Fight the establishment! Down with the old rules! Vive la resistance!
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 Cracking the Maze: Game Plug-ins and Patches as Hacker Art, Anne-Marie Schleiner, curator
 <http://switch.sjsu.edu/CrackingtheMaze/ >
@@ -24286,16 +23692,14 @@ The Game Girl Advance website is a journalistic website addressing the culture o
 content of standard commercial game sites, Game Girl Advance features short essays on topics such as the
 gender politics of gaming conferences or how games personally impact the lives of players. Although there
 are many grassroots alternative game news sites on the web, Game Girl Advance distinguishes itself with
-smart writing that is both culturally critical and industry-savvy. 
+smart writing that is both culturally critical and industry-savvy.
 Subculture: The Meaning of Style, by Dick Hebdige
 Hebdige investigates subcultures as systems of meaning, particularly subcultures like Punk and the Teddy
 Boys, that resist larger cultural institutions. These systems, like games, create their own boundaries within
 which forms, behaviors, and actions gain meaning separate from, but connected to the real world. He explores
  Chapter 32: Games as Cultural Resistance
-11
- Chapter 32: Games as Cultural Resistance
-11
 
+ Chapter 32: Games as Cultural Resistance
 
 style as a system of communication, a stylized, symbolic, and interactive language borne from the "rules" of
 the system. Although Hebdige is speaking from a Marxist, structuralist, and semiotic perspective, his
@@ -24310,53 +23714,50 @@ Recommended:
 Chapter 5: Scribbling in the Margins
 Chapter 7:"Layers of Meaning": Fan Music Videos and the
 Poetics of Poaching
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 Games as Cultural Resistance explores the tension between games and their cultural contexts. The
 focus of the schema is exclusively on culturally transformative play.
-• 
+•
 Resistance is the friction that occurs when two phenomena come into conflictual contact. Framed as
 resistance, the free movement of play has intrinsic friction with the systems of rules that seek to
 contain it. Through this process of resistance, the normally invisible edges of the magic circle become
 visible.
-• 
+•
 A DIY or Do-It-Yourself approach to cultural resistance appears in modifications, designed
 strategies of resistance in a game. Game modifications or mods can be "official" utilitarian changes
 enacted by game designers, or "unofficial" projects created and distributed by players.
-• 
+•
 Game modifications fall into three overlapping categories: alteration, juxtaposition, and reinvention.
 Alterations change the representational or interactive structures of a game. Examples: SOD,
 Sailor Moon Wad, SimCopter Hack
-♦ 
+♦
 Juxtapositions place unlikely elements together in the same game space. Examples: Frag
 Queens, Blacklash, Los Disneys
-♦ 
+♦
 Reinventions more radically redesign the structure of a game. Examples: Universal Square,
 Counter-Strike
-♦ 
-• 
+♦
+•
 Resistance flows naturally from the intrinsic qualities of games. The free play of a game already
 involves the friction of movement within a rigid structure. For this reason, games are rich with
 possibilities for players or designers to intervene with strategies of resistance.
-• 
-12
+•
+
  Chapter 32: Games as Cultural Resistance
-12
+
  Chapter 32: Games as Cultural Resistance
 
 
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
  Chapter 32: Games as Cultural Resistance
-13
- Chapter 32: Games as Cultural Resistance
-13
 
-
-14
  Chapter 32: Games as Cultural Resistance
-14
+
+ Chapter 32: Games as Cultural Resistance
+
  Chapter 32: Games as Cultural Resistance
 
 
@@ -24391,12 +23792,10 @@ simultaneously, cultural meanings ripple outward from the game to interact with 
 Given all of this play at and across the border, given the fact that games are not separate from but are part of
 culture, what would happen if we questioned the artificiality of games? What if a schema specifically sought
 to frame games as systems completely synchronous with their surroundings?
- < Day Day Up > 
+ < Day Day Up >
  Chapter 33: Games as Cultural Environment
-1
 
-
- < Day Day Up > 
+ < Day Day Up >
 Introducing Cultural Environment
 This is the premise of Games as Cultural Environment, a chapter engaged with the question of the "reality"
 of games, a schema that interrogates the relationship between the artificial world of games and the "real life"
@@ -24406,7 +23805,7 @@ to distinguish the space of play from ordinary life. These kinds of games have a
 characteristics. They create a heightened overlap between the artificial space of the game and the physical
 spaces and lifestyles of their players. They blur the distinction between players and non-players, sometimes
 involuntarily roping in unsuspecting participants. Perhaps most importantly, these sorts of games raise
-fundamental questions about the artificiality of games and their relationship to real life. 
+fundamental questions about the artificiality of games and their relationship to real life.
 The most familiar examples of games that bleed over into their cultural environment are designs such as
 Assassin (also known as Killer), made popular on college campuses in the 1970s and 1980s, a game in which
 players stalked, hunted, and evaded each other with dart guns over days or weeks of real time. Game play took
@@ -24430,17 +23829,17 @@ these concepts genuinely inform an analysis of games as cultural environments. H
 is to use these game analyses as an informal review of material covered previously. The review is not meant to
 be comprehensive, but it does demonstrate how a framework of related ideas, connected through the concept
 of meaningful play, is necessary for a truly sophisticated and integrated understanding of game design.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Back to Basics
 A game creates a special place of play. Following Huizinga, these spaces define the game's magic circle, a
 "temporary world within the ordinary world, dedicated to the performance of an act apart."[1] It is within the
 magic circle that the authority of the rules hold sway. If you are visiting a casino equipment store, you might
 give a Roulette wheel a test spin to see if it is in working order, but you would neither gain nor lose money as
 a result of the spin. On the other hand, if you are playing a game of Roulette and your chips are on the table,
-2
+
  Chapter 33: Games as Cultural Environment
-2
+
  Chapter 33: Games as Cultural Environment
 
 
@@ -24459,7 +23858,7 @@ even the simplest game. Among other requirements, they must:
 Consciously understand and follow the etiquette of the game—i.e., the unwritten but
 sometimes stated traditions associated with the game that do not necessarily affect the play
 itself (e.g., appropriateness of talking, gloating, taunting, celebrating, stalling, replaying a
-point, giving advice to your opponent or teammates, letting players take back moves, etc.). 
+point, giving advice to your opponent or teammates, letting players take back moves, etc.).
 Intuitively understand and follow the ethos of that particular game—i.e., the unwritten and
 rarely expressed assumptions about how to interpret and enforce the "written" rules (e.g.,
 palming in basketball; the strike zone in American and National leagues; the footfault in
@@ -24491,10 +23890,8 @@ in order to experience the play of the game itself. Accepting the artificial aut
 submitting behavior to the constraints of rules in order to experience the free movement of play, is a
 paradoxical state of mind. This state of mind is manifest in the lusory attitude.
  Chapter 33: Games as Cultural Environment
-3
- Chapter 33: Games as Cultural Environment
-3
 
+ Chapter 33: Games as Cultural Environment
 
 In previous chapters, we considered the lusory attitude primarily in relationship to the formal rules of a game.
 But taking on the lusory attitude doesn't just mean accepting the limitations of the operational rules. It also
@@ -24517,8 +23914,8 @@ May 2001.Cloudmakers.org
 Game." May <www.gamepuzzles.com/tlog/tlog2.htm>. 2001 CNN.com
 [3]Brian Sutton Smith, The Ambiguity of Play (London: Harvard University 7.Daragh Sankey,"A.I. Game."
 Joystick101.org Press, 1997), p. 77.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Shall We Play a Game?
 Upon first glance it might seem that only highly unconventional games like Assassin, Majestic, and
 Botfighters genuinely blur the boundaries of the magic circle. However, implicit rules, the lusory attitude, and
@@ -24538,9 +23935,9 @@ backstory, which concerned a dramatic struggle between humans and robots capable
 Over the course of several months leading up to the film's premiere, thousands of players took part in the
 game. Many expressed profound reactions to the distortion of the boundaries between game, film, life, and
 reality. As one player wrote in an essay on cloudmakers.org, the most active community site developed by
-4
+
  Chapter 33: Games as Cultural Environment
-4
+
  Chapter 33: Games as Cultural Environment
 
 
@@ -24587,10 +23984,8 @@ www.cloudmakers.org was quickly adopted as the game's primary player-created por
 Game events occurred outside the web
 Although the bulk of the game was located on the web, the most dramatic events seemed to occur offline.
  Chapter 33: Games as Cultural Environment
-5
- Chapter 33: Games as Cultural Environment
-5
 
+ Chapter 33: Games as Cultural Environment
 
 Email, faxes, and phones all played a part in the game. For example, the A.I. trailer included an encoded
 phone number, which when called, played a mysterious voice message from "mother." Players were able to
@@ -24636,9 +24031,9 @@ In fact, one player noted that the easiest way for game authors to control the s
 for them to surreptitiously join the ranks of the fans, posting solutions to puzzles when they saw that the real
 players were having trouble.
 Each of these design decisions contributed in distinct ways to blur the boundaries between the space of the
-6
+
  Chapter 33: Games as Cultural Environment
-6
+
  Chapter 33: Games as Cultural Environment
 
 
@@ -24669,8 +24064,8 @@ moved the game forward and created compelling forms of play.
 [5]Maria Bonasia,“MetaMystery.” 30th May 2001. Cloudmakers.org
 [6]Daniel Sieberg, “Reality Blurs, Hype Builds with Web ‘A.I.’ Game.” May 2001. CNN.com
 [7]Daragh Sankey,“A.I.Game.” Joystick101.org
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Invisible Playground
 From the electronically mediated spaces of A.I. we turn to another game that emphasizes the play of its
 cultural environment: the LARP,or live-action role-playing game. LARPs also blur the boundaries between
@@ -24684,10 +24079,8 @@ actions in real-time. Although LARPs do have Game Masters that plan and referee 
 rules that handle combat and other complex player actions, most LARP activity consists of social interaction,
 as players converse "in character" to make plans, pursue narrative threads, and scheme against each other.
  Chapter 33: Games as Cultural Environment
-7
- Chapter 33: Games as Cultural Environment
-7
 
+ Chapter 33: Games as Cultural Environment
 
 Live-Action Role-Playing Games can take place in outdoor or indoor settings, in private or public spaces. The
 location in which the LARP takes place, as well as the dress and interaction of the players, depends largely on
@@ -24712,7 +24105,7 @@ for the game. Seasons of Darkness did not use an artificially designed space, bu
 ones. The players integrated their "found" context into the game play in many ways. A balcony overlooking
 the World Trade Center's Winter Garden, for example, might be used to heighten dramatic effect for a player
 delivering a speech to other players below; the same balcony might also be used strategically, as a vantage
-point for spying. 
+point for spying.
 The game-space of Seasons of Darkness was congruent not just with the material setting but also with the
 cultural environment of New York City. Media, signage, and unknowing passersby were all fodder for the
 game. A character on the run might duck into a throng of commuters, camouflaging herself among the passing
@@ -24737,9 +24130,9 @@ interactions. The core mechanics of a game are basic game actions or set of acti
 and over as they play. In the case of Seasons of Darkness, the game's core mechanics overlapped with the
 behaviors of everyday life. Gestures, speech, dramatic skills: these tools for social interaction were part of the
 cultural environment each player brought to the game. Although social communication occurs in most games,
-8
+
  Chapter 33: Games as Cultural Environment
-8
+
  Chapter 33: Games as Cultural Environment
 
 
@@ -24767,7 +24160,7 @@ like narrative particles. Every interaction between characters built on previous
 patterns of narrative behavior. In managing these patterns from session to session, Fortugno had to balance
 emergent with embedded narrative elements. The unexpected, emergent qualities of the game kept it moving
 in lively, unpredictable directions. But over the course of the years that the game was played, Fortugno also
-developed elaborately embedded plots that were only fully realized during the game's final climax. 
+developed elaborately embedded plots that were only fully realized during the game's final climax.
 Emergence takes place within a context, the environment of the system. In Seasons of Darkness, narrative
 contexts were established out of the complex backstory of the game, which was derived from a host of
 sources: vampire lore and legend; the mythos of the published game rules; a fictional history of NYC
@@ -24790,10 +24183,8 @@ At the same time, players maintain another form of secret information: the fact 
 game.The secret meanings of the game, like the fact that a player with crossed arms is "invisible," remain
 unknown to the general public.
  Chapter 33: Games as Cultural Environment
-9
- Chapter 33: Games as Cultural Environment
-9
 
+ Chapter 33: Games as Cultural Environment
 
 There is a beautiful double logic to the way these game elements play out. Just as vampires in the fictional
 game-world keep their existence to themselves, players of the game secret away the very presence of the
@@ -24843,9 +24234,9 @@ becomes too ambiguous, the shared safety and trust that allows a play community 
 Acknowledging this danger, Fortugno kept the game design tightly constrained in many respects. Treating the
 published game as an open system, he re-wrote the rules, streamlining the formal game mechanics so players
 could focus on role-playing and storytelling. Although the game existed in public spaces, there were always
-10
+
  Chapter 33: Games as Cultural Environment
-10
+
  Chapter 33: Games as Cultural Environment
 
 
@@ -24858,8 +24249,8 @@ experiences, but only indirectly, by creating rules and structures which then gi
 designer, Fortugno skillfully manipulated the game's formal structures and their relationships to cultural
 contexts, balancing tight constraint with an open-ended integration into the game's cultural environment.The
 result was the passionate and refined play of Seasons of Darkness.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Ideological Environment
 For a third and final case study, we look at Suspicion, an unpublished card game designed for an office
 environment, to be played over a week of real time. Eric created Suspicion while working at a game
@@ -24889,10 +24280,8 @@ players figuring out who was and was not playing, next using code words and gest
 their groups, and eventually sharing knowledge and Stash Cards within a group in order to strategically attack
 other players. The play of Suspicion engaged with its cultural environment in a variety of ways.
  Chapter 33: Games as Cultural Environment
-11
- Chapter 33: Games as Cultural Environment
-11
 
+ Chapter 33: Games as Cultural Environment
 
 Lived Conflict
 As with Seasons of Darkness, Suspicion took place in a physical space not designed for the artificial play of a
@@ -24941,9 +24330,9 @@ properly protected—but he might simply be planning to selfishly use the cards 
 of constant uncertainty and distrust created a tense game atmosphere. The game rewarded deception and play
 involved much trickery and backstabbing. Not only were existing power relationships undermined, but they
 were never given the chance to settle into a stable hierarchy. Suspicion revealed some of the cultural
-12
+
  Chapter 33: Games as Cultural Environment
-12
+
  Chapter 33: Games as Cultural Environment
 
 
@@ -24977,8 +24366,8 @@ cultural critique of the players' work context. At the same time, the mischievou
 balanced by the need for a sense of responsibility toward the players. Cultural environments are always home
 to someone and even a game that embodies a radical critique needs to maintain a spirit of fair play to those it
 impacts.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Game Design Fundamentals
 Games as Cultural Environment is the final schema in Rules of Play. In some ways, this chapter has brought
 us full circle. In the course of analyzing A.I., Seasons of Darkness, and Suspicion, we revisited many of the
@@ -24994,10 +24383,8 @@ Rules on Three Levels
 lusory attitude
 The Magic Circle
  Chapter 33: Games as Cultural Environment
-13
- Chapter 33: Games as Cultural Environment
-13
 
+ Chapter 33: Games as Cultural Environment
 
 open and closed systems
 Systems
@@ -25049,8 +24436,8 @@ intricate operation of a game can only be fully appreciated when you take a mult
 many points of view, strategically constructing your analysis in order to solve the problem at hand. In this
 chapter, we were specifically looking at games as cultural environments. But in order to do so, it was
 necessary to make extensive use of ideas from the RULES, PLAY, and CULTURE of games.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 The Artificial Question
 We now return to the question posed at the beginning of this chapter. The premise of the schema asserts that
 games can be framed as cultural environments, as phenomena that co-exist with real-world contexts. If this
@@ -25062,9 +24449,9 @@ the magic circle. In very different ways, A.I., Seasons of Darkness, and Suspici
 environments, effacing the boundaries of the magic circle to a more extreme degree than more conventional
 games. Yet in each case, although the magic circle blurred, shifted, and blended in with its environment, it
 still in some way remained intact. In A.I., the players never forgot that the game was really a promotion for a
-14
+
  Chapter 33: Games as Cultural Environment
-14
+
  Chapter 33: Games as Cultural Environment
 
 
@@ -25090,7 +24477,7 @@ games—framings that acknowledge their status as open systems—call the artifi
 If games are not separate from the rest of culture, are they still really artificial? Yes. Calling games artificial
 does not mean that they are wholly distinct from culture. No matter how integrated into culture games might
 be, there will always be some aspect of a game's operation that relies on its own system, rather than that of
-culture, to create meanings for players. 
+culture, to create meanings for players.
 For example, Scrabble makes use of language, letters, and words borrowed from its cultural environment, but
 that does not mean it can't also designate its own set of meanings as well. The letter "Q" and the letter "E"
 both appear on this page. But in the context of reading this book, the Q is not worth more points than the letter
@@ -25098,8 +24485,8 @@ E. In fact, neither one of them is worth any points. Only in the highly speciali
 do we assign Scrabble points to letters. Scrabble is certainly not a wholly artificial system. But neither does it
 disappear entirely into its cultural environment. However we frame it, Scrabble will always maintain its
 artificial status in some measure.That is simply part of what makes it a game.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Final Framings
 One last note about the importance of game design fundamentals. There is a widespread impulse among those
 who study games to want to leapfrog over the basics, immediately break all of the rules, violate the magic
@@ -25113,17 +24500,15 @@ design remain. For every A.I., Seasons of Darkness, or Suspicion, there are hund
 unsuccessful game designs: online/real-world scavenger hunts that never found an audience, LARPs that
 fizzled out before they got off the ground, and game experiments that were just no fun at all to play.
  Chapter 33: Games as Cultural Environment
-15
- Chapter 33: Games as Cultural Environment
-15
 
+ Chapter 33: Games as Cultural Environment
 
 Games as Cultural Environments takes us to the edge of the void: it lets us consider a game that undermines
 its own existence by creating the means for its erasure. It is ironic perhaps that the abstraction and complexity
 of this phenomenon was best deciphered by a return to the game design fundamentals, to the core language of
 meaningful play, to the concepts that constitute the Rules of Play.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Further Reading
 The Fantasy Role-Playing Game: A New Performing Art, by Daniel Mackay
 This book is about role-playing as a performance art. Of particular interest to game designers is the discussion
@@ -25140,59 +24525,56 @@ Artificial Intelligence. The site houses an archive of the game,including an app
 game from July 23, 2001, the day before the game was officially "solved," as well as essays and editorials
 written by players, links to media coverage, and a moderated discussion board. It is an excellent document of
 the play of a game from the perspective of a community of its players.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Summary
 The schema Games as Cultural Environment explores the following aspects of games:
 Blurring the spaces inside and outside the magic circle
-♦ 
+♦
 Ambiguity between players and non-players
-♦ 
+♦
 Overlap between game and real life
-♦ 
-• 
+♦
+•
 It is only within the magic circle that the authority of formal rules holds sway; at the same time, the
 implicit rules of games are based not in the magic circle, but within culture at large.
-• 
-16
+•
+
  Chapter 33: Games as Cultural Environment
-16
+
  Chapter 33: Games as Cultural Environment
 
 
 Etiquette, ethos, convention, and context are among the forms that implicit rules can take. As
 manifestations of cultural authority, they link the artificiality of games to the real-world contexts they
 inhabit.
-• 
+•
 The lusory attitude applies not just to the formal rules of a game, but to the implicit rules as well.
 When a player submits to the authority of a game, he or she is accepting its formal as well as its
 cultural authority. In this sense, the magic circle of a game extends to embrace larger cultural
 domains.
-• 
+•
 A.I., Seasons of Darkness, and Suspicion are all games that explicitly operate as cultural
 environments. In each case, meaningful play arises because careful game design maintains the magic
 circle in some way.
-• 
+•
 Considered as a cultural environment, a game plays with the possible erasure of the magic circle and
 therefore plays with the possibility of its own existence. However, some semblance of the magic
 circle always remains.
-• 
+•
 The premise that the boundaries of the magic circle can be blurred or erased calls into question
 whether or not games can be considered artificial. Games are always in some way artificial and
 capable of producing internal game meanings, even when they are framed as culture; games are
 artificial because they are designed.
-• 
- < Day Day Up > 
- < Day Day Up > 
+•
+ < Day Day Up >
+ < Day Day Up >
  Chapter 33: Games as Cultural Environment
-17
- Chapter 33: Games as Cultural Environment
-17
 
-
-18
  Chapter 33: Games as Cultural Environment
-18
+
+ Chapter 33: Games as Cultural Environment
+
  Chapter 33: Games as Cultural Environment
 
 
@@ -25206,8 +24588,8 @@ knickknacks in Jamaican straw markets, and drink Piña Coladas from the source. 
 here to entertain them.You and your opponent are magicians with, more or less, the same act. The Caribe
 Line's Miami office accidentally booked both of you on the same ship, and now you've got exactly one week
 to prove who's the better magician.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Rules
 Equipment
 You need a deck of playing cards, a score pad, and a pencil.
@@ -25230,10 +24612,8 @@ trick. When you play a Magic Trick in your color, put it in your "Practice" pile
 of cards face up on the table in front of you, spread out so that every card in the pile is visible.
 If you play a Magic Trick in your opponent's color, you put that card in your opponent's
 Commissioned Game 4 — Caribbean Star
-1
 
-
-Practice pile. 
+Practice pile.
 Point Values and Times
 A perfect show is 15 minutes long. Face cards add 5 minutes to your show. Jacks are worth 2 points, Queens
 are worth 4 points, and Kings are worth 6 points. Tens add 10 minutes to your show, and are worth 10 points.
@@ -25263,7 +24643,7 @@ Twos through Fours are Mistakes. These are a little like Magic Tricks but they a
 you play a Mistake of your own color it will go into your Practice pile. If you play a Mistake of your
 opponent's color, it will go into his Practice pile. Mistakes don't always hurt you: if you perform a show
 composed entirely of Mistakes, it's called a "Comedy Act" and is worth nothing—which is better than
-negative points! 
+negative points!
 How to Score Your Shows
 Now that we've described all the possible contents of a Practice pile (Magic Tricks, Rehearsals, and Mistakes)
 here is how to score the show.
@@ -25272,9 +24652,9 @@ long. Face Cards add 5 minutes each and Tens add 10 minutes. If your show is the
 length, you will score full value for all your Magic Tricks. If you run long or short by 5
 minutes, you must cut the value of your biggest Trick (or one of your biggest Tricks, if you
 have two big Tricks of the same size) by half. If you run short or long by 10 minutes, you
-2
+
 Commissioned Game 4 — Caribbean Star
-2
+
 Commissioned Game 4 — Caribbean Star
 
 
@@ -25301,7 +24681,7 @@ Aces are not played like other cards. They are not color-specific and they alway
 them. You can play an Ace from your hand to cancel the effect of any other card immediately before it is
 resolved. In other words, once the cards are revealed, and just before executing a particular card, either player
 may use an Ace to stop that card from happening. When you play the Ace, you pick up the card you canceled
-and put it in your hand. You also discard the Ace. You cannot use one Ace to cancel another. 
+and put it in your hand. You also discard the Ace. You cannot use one Ace to cancel another.
 An Example of Playing an Ace
 Red has played a Red Five, and Black has played a Red Ten. Black holds an Ace. Before the
 Five swaps both players' hands, Black has the opportunity to play his Ace, but he chooses not
@@ -25319,13 +24699,11 @@ each player gets one "Farewell Show" in which he scores the cards remaining in h
 Farewell Show is not optional: you can lose a lot of points in this show if you're not careful. After the farewell
 show, the player with the most points wins.
 Commissioned Game 4 — Caribbean Star
-3
+
 Commissioned Game 4 — Caribbean Star
-3
 
-
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Design Notes
 James Ernest
 Caribbean Star
@@ -25352,20 +24730,20 @@ I have an extensive list of "good ideas" that I have compiled over many years. I
 choosing a new game design project for Cheapass Games. A good game idea should not only be entertaining,
 it should also provide the basis of a good system. Some good jokes make terrible games.
 Here is a short brainstorm of possible themes for my game, inspired by my vacation:
-4
+
 Commissioned Game 4 — Caribbean Star
-4
+
 Commissioned Game 4 — Caribbean Star
 
 
 Bellhops angling for tips.
-• 
+•
 Cruise directors booking acts for their ships.
-• 
+•
 Passengers collecting raffle tickets.
-• 
+•
 Travel Agents booking trips.
-• 
+•
 Let's examine the game possibilities of each of these storylines. You will notice that in each story I name a
 type of character (the players) and some sort of competitive activity (the game).
 Bellhops Angling for Tips: Who are the players in the Bellhop game, and what is their goal?
@@ -25393,7 +24771,7 @@ whole game of collecting tickets followed by a raffle at the end. This isn't the
 present this story, though. The players could represent the cruise staff whose job is to give out
 the raffle tickets. The story could revolve around fixing the raffle, or stealing tickets from
 other players. Or there could be several raffles, and this could be a game about trading tickets
-in one raffle for tickets in another. 
+in one raffle for tickets in another.
 Travel Agents Booking Cruises: In this game, players would probably try to make the most
 money by booking the best trips at the most competitive prices. If you charge more money for
 a trip, you will make more when you sell it, but you might not sell as many. If you were a
@@ -25408,10 +24786,8 @@ types are essentially interchangeable. In a racing game, players are trying to g
 directly interfere with other players. Scrabble is a good example of a racing game. Everyone acquires points,
 and the object is to have the highest score at the end. Golf is actually this type of game also. Even though the
 Commissioned Game 4 — Caribbean Star
-5
-Commissioned Game 4 — Caribbean Star
-5
 
+Commissioned Game 4 — Caribbean Star
 
 object is to score the least, the players are still collecting their own points with no influence on the scores of
 the others.
@@ -25454,14 +24830,14 @@ Equipment: You need a deck of playing cards.
 Story: Welcome aboard the Caribbean Star, Caribe Cruise Lines' most luxurious cruise ship. It's chock to the
 gills with newlyweds and nearlydeads who have ventured to the Caribbean to see the Panama Canal and drink
 Piña Coladas from the source. And you are here to entertain them.
-6
+
 Commissioned Game 4 — Caribbean Star
-6
+
 Commissioned Game 4 — Caribbean Star
 
 
 You and your opponent are performers aboard the Caribbean Star, two acts doing the work of one. The line
-has accidentally booked both a Magician and a Ventriloquist on the same boat, and… 
+has accidentally booked both a Magician and a Ventriloquist on the same boat, and…
 At this point, I'm already thinking it's funnier if you are just two magicians, rather than a
 magician and a ventriloquist. Writing the intro from scratch like this always gives me good
 insight into the main joke of the game.
@@ -25486,7 +24862,7 @@ goes first, or second, depending on the mechanics. Simultaneous play solves this
 presents some others. Let's try simultaneous play.
 After shuffling, deal a hand of five cards to each player. Turns will be simultaneous.
 On each turn: Players choose one card from their hand and play it face down on the table. This card will
-determine their action for the round. 
+determine their action for the round.
 Card functions: Each card has a unique function, as described below. Both players have the same bag of
 tricks, but the order in which you play them can make a big difference. Also, each player "owns" half of the
 deck. Playing your own cards has a different effect than playing the same cards for your opponent.
@@ -25502,10 +24878,8 @@ based on the order it falls in the series.
 Face cards: Face cards are "rehearsal" cards. When you play a face card, you are practicing tricks for your
 next performance. Each player will have a maximum of four performances during the game, and the point
 Commissioned Game 4 — Caribbean Star
-7
-Commissioned Game 4 — Caribbean Star
-7
 
+Commissioned Game 4 — Caribbean Star
 
 value of those performances determines your score.
 When you play a face card, set it aside in your Practice pile, a set of face up face cards that denote your set for
@@ -25546,9 +24920,9 @@ This is a language problem: I'm unknowingly using "rehearsal" to describe both t
 FaceCards and Tens, and the Sixes. This is fixed in the final draft.
 Five: Afternoon Nap: When you play a Five you must discard your hand and draw four new cards. If you play
 your opponent's Five, he must do the same.
-8
+
 Commissioned Game 4 — Caribbean Star
-8
+
 Commissioned Game 4 — Caribbean Star
 
 
@@ -25559,7 +24933,7 @@ Four through Two: These cards are mistakes. They are like practice cards but the
 4 through 2 respectively. If you play a mistake of your own color it will go into your Practice Pile. If you play
 a card of your opponent's color, it will go into his. The negative points are doubled by Sixes but are not halved
 by going long or short. They do not count as cards for the length of your act, and you cannot perform them to
-get rid of them at the dinner buffet. 
+get rid of them at the dinner buffet.
 The exact order of resolving points, negative points, and doublers, needs some work here.But
 this is a first pass. It becomes evident on playing this game that this math, while critical to the
 game, needs to be presented in the simplest possible manner. In general, whenmath gets too
@@ -25590,15 +24964,13 @@ The cards sum to 13, minus 4 is 9, doubled is 18. Don't let this confuse you if 
 final draft: I later cut all the showtimes in half to make Tens last 10 minutes.
 Score Tracking: It's possible to track your score by the way you stack your tricks, but it's probably much
 cleaner to use a score pad and write down each show as you finish it. That will also make it more obvious who
-is winning, of which I'm a big fan. 
+is winning, of which I'm a big fan.
 Endgame: It's a little unsatisfying to finish with cards left in your hand, so I want players to
 play out their hands. I'm not sure what to do in the case where one player has more cards,
 such as when exactly one Ace is left to play. This problem is solved later.
 Commissioned Game 4 — Caribbean Star
-9
-Commissioned Game 4 — Caribbean Star
-9
 
+Commissioned Game 4 — Caribbean Star
 
 Spoiler Cards: Fives have been changed to swap the players' hands, not discard them. If you
 play a Five, players swap hands. The reason for this is that otherwise the deck is burned far
@@ -25640,9 +25012,9 @@ James Ernest is the president and lead designer for Cheapass Games, a small but 
 Seattle, Washington. His award-win-ning titles include Kill Doctor Lucky, Give Me the Brain, BRAWL, and
 Button Men. Ernest is known for his quirky humor and innovative game mechanics, and he writes about 30
 new games every year.
-10
+
 Commissioned Game 4 — Caribbean Star
-10
+
 Commissioned Game 4 — Caribbean Star
 
 
@@ -25666,7 +25038,7 @@ developers. The association's website can be found at: <www.digra.org>.
 Electronic Plastic, by Jaro Gielens, Büro Destruct, Uwe Schütte
 Electronic Plastic is a visual survey of over 400 old-school computer games, including portable handhelds
 and cocktail table arcade games. The book offers a terrific overview of the visual design of games from the
-1970s and 1980s, including retro-typography, period branding and packaging, and colorful cast plastic cases. 
+1970s and 1980s, including retro-typography, period branding and packaging, and colorful cast plastic cases.
 The 400 Rules Project
 Located at <http://www.theinspiracy.com/400_project.htm>, The 400 Rules Project is a collaborative game
 design project headed by veteran computer game designers Noah Falstein and Hal Barwood. Inspired by a talk
@@ -25685,10 +25057,8 @@ phenomenon of video games. A straightforward journalistic account, the book offe
 pop culture flavor of games and traces some of the factors affecting the rise of video games as a cultural form.
 Ludology.org
 Commissioned Game 4 — Caribbean Star
-11
-Commissioned Game 4 — Caribbean Star
-11
 
+Commissioned Game 4 — Caribbean Star
 
 This website, maintained by game theorist Gonzalo Frasca, is one of the better clearinghouses for events and
 issues related to the academic study of games. It includes extensive lists of game studies blogs, conferences
@@ -25728,9 +25098,9 @@ been there all along, waiting patiently to be discovered.
 Having built the system, played it through, and exited out the other side, we find ourselves transformed.
 We spent so many months (years even) inside the system, playing with it, resisting it, at times breaking
 it. It was easy to forget that we too were being played, resisted, and at times, broken. (But this is not as
-12
+
 Commissioned Game 4 — Caribbean Star
-12
+
 Commissioned Game 4 — Caribbean Star
 
 
@@ -25769,17 +25139,14 @@ challenged by in the course of our own evolution as students of the game. And to
 at last.
 Thanks for a great game.
 Shall we play again?
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Commissioned Game 4 — Caribbean Star
-13
-Commissioned Game 4 — Caribbean Star
-13
 
-
-14
 Commissioned Game 4 — Caribbean Star
-14
+
+Commissioned Game 4 — Caribbean Star
+
 Commissioned Game 4 — Caribbean Star
 
 
@@ -25818,8 +25185,6 @@ Bonasia, Maria. "MetaMystery," May 30, 2001, <www.cloudmakers.org>.
 Boria, Eric, Paul Breidenbach, and Talmadge Wright. "Player Talk and the Social Mediation of Virtual
 Violence." Unpublished paper, 2002.
 Bibliography
-1
-
 
 Buchanan, Richard. "Wicked Problems in Design Thinking." In The Idea of Design: A Design Issues Reader,
 ed. Victor Margolin and Richard Buchanan. Cambridge, MA: MIT Press, 1995, p. 3–20.
@@ -25856,9 +25221,9 @@ Crawford, Chris. The Art of Interactive Design: A Euphorious and Illuminating Gu
 Software. San Francisco: No Starch Press, 2002.
 Crawford, Chris. Understanding Interactivity. San Francisco: No Starch Press, 2002.
 Csikszentmihalyi, Mihaly. Flow: The Psychology of Optimal Experience. New York: HarperCollins
-2
+
 Bibliography
-2
+
 Bibliography
 
 
@@ -25895,10 +25260,8 @@ Garfield, Richard. "Metagames," In Horsemen of the Apocalypse: Essays on Rolepla
 IL: Jolly Rogers Games, 2000, p. 16–22.
 Geertz, Clifford. The Interpretation of Cultures. New York: Basic Books, 1977.
 Bibliography
-3
-Bibliography
-3
 
+Bibliography
 
 Gielens, Jaro. Electronic Plastic. Berlin: Die Gestalten Verlag, 2000.
 Game Girl Advance. <www.gamegirladvance.com>.
@@ -25932,9 +25295,9 @@ Studies, Incorporated, 1997.
 Holland, John. Emergence. Reading: Helix Books, 1998.
 Hughes, Linda. "Beyond the Rules of the Game: Why Are Rooie Rules Nice?" In The World of Play, ed.
 Frank E. Manning. Proceedings of the 7th Annual Meeting of the Association of the Anthropological Study of
-4
+
 Bibliography
-4
+
 Bibliography
 
 
@@ -25975,10 +25338,8 @@ Klevjer, Rune. "In Defense of Cut-Scenes." In Computer Games and Digital Culture
 Proceedings, ed. Frans Mäyrä. Tampere, Finland: Tampere University Press, 2002, p. 191–2002.
 Knizia, Reiner. Dice Games Properly Explained. Tadworth, Surrey: Elliot Right Way Books, 2001.
 Bibliography
-5
-Bibliography
-5
 
+Bibliography
 
 Krippendorff, Klaus. "On the Essential Contexts of Artifacts or On the Proposition that 'Design is Making
 Sense (of Things).'" In The Idea of Design: A Design Issues Reader, ed. Victor Margolin and Richard
@@ -26015,9 +25376,9 @@ Norman, Donald. The Design of Everyday Things. New York: Doubleday, 1988.
 Nwokah and Ikekeonwu. "Nigerian and American Children's Games." In The Study of Play Vol. 1. Diversions
 and Divergences in Fields of Play, ed. Margaret C. Duncan, Gary Chick, and Alan Aycock. New York:
 Ablex/Greenwood Publishing Company, 1998, p147–153.
-6
+
 Bibliography
-6
+
 Bibliography
 
 
@@ -26054,10 +25415,8 @@ the Buccaneer Gold." <www.gamasutra.com/fea-tures/20010706/ schell_01.htm>.
 Schleiner, Anne-Marie. "Game Plug-ins and Patches as Hacker Art." Cracking the Maze. July 16, 1999.
 <switch.sjsu.edu/CrackingtheMaze>.
 Bibliography
-7
-Bibliography
-7
 
+Bibliography
 
 Schmittberger, R. Wayne. New Rules for Classic Games. New York: John Wiley, 1992.
 Schon, Donald. The Reflective Practitioner: How Professionals Think in Action. New York: Basic Books,
@@ -26091,25 +25450,22 @@ and Development, ed. J. S. Bruner, A. Jolly, and
 K. Sylva. New York: Penguin, 1976, p. 548–63.
 Wolf, Mark J.P. "Space in the Video Game." In The Medium of the Video Game, Austin: University of Texas
 Press, 2002, p. 53–70.
-8
+
 Bibliography
-8
+
 Bibliography
 
 
 Wolfe, Burton H. "The Monopolization of Monopoly: The Story of Lizzie Magie." In The San Francisco Bay
 Guardian, 1976.
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Bibliography
-9
-Bibliography
-9
 
-
-10
 Bibliography
-10
+
+Bibliography
+
 Bibliography
 
 
@@ -26156,8 +25512,6 @@ Computer game: This group includes games designed to be played on personal compu
 venerable PDP-1 to present-day Macintosh and Windows machines. These games are played primarily on a
 single machine by a single player.
 List of Games Cited
-1
-
 
 Console game: These games are played on game console machines that attach to a television, ranging from
 the Atari 2600 to today's Xbox, GameCube, and Playstation2.
@@ -26192,7 +25546,7 @@ games listed as Sports can also constitute a leisure activity, such as Skiing.
 Television game show: These games exist as televised experiences, and include shows like Survivor,
 Jeopardy, and Who Wants to be a Millionaire.
 Tile game: Games in this group are played with some form of modular tiles, and include games like
-Dominoes and Mah Jongg. 
+Dominoes and Mah Jongg.
 1000 Blank White Cards
 Nathan McQuillen, 1994
 Social game
@@ -26205,9 +25559,9 @@ Social game
 Asteroids
 Atari, 1979
 Arcade game; Console game
-2
+
 List of Games Cited
-2
+
 List of Games Cited
 
 
@@ -26285,10 +25639,8 @@ Computer game
 Billiards
 Bughouse
 List of Games Cited
-3
-List of Games Cited
-3
 
+List of Games Cited
 
 Traditional, circa 1500
 Sport
@@ -26369,9 +25721,9 @@ Checkers
 Traditional, circa 1500
 Craps
 Circa 1700
-4
+
 List of Games Cited
-4
+
 List of Games Cited
 
 
@@ -26478,10 +25830,8 @@ Michel Matsechoss and Alex Randolph, 1992
 Foursquare
 Traditional
 List of Games Cited
-5
-List of Games Cited
-5
 
+List of Games Cited
 
 Board game
 Sport
@@ -26567,9 +25917,9 @@ Hearts
 Traditional, circa 1880
 Card game
 Jeopardy
-6
+
 List of Games Cited
-6
+
 List of Games Cited
 
 
@@ -26652,10 +26002,8 @@ Mousetrap
 Ideal, 1963
 Board game
 List of Games Cited
-7
-List of Games Cited
-7
 
+List of Games Cited
 
 Mega Man (series)
 Capcom, 1987
@@ -26731,7 +26079,7 @@ Nintendo, 1990
 Console game
 Once Upon a Time
 Richard Lambert, Andrew Rilstone, and James Wallis,
-1993
+
 Card game
 Ping Pong (see Table Tennis)
 Othello
@@ -26742,9 +26090,9 @@ Traditional, circa 1900
 Card game
 P.O.X.
 Planetfall
-8
+
 List of Games Cited
-8
+
 List of Games Cited
 
 
@@ -26843,10 +26191,8 @@ SSX (series)
 Electronic Arts, 2000
 Console game
 List of Games Cited
-9
-List of Games Cited
-9
 
+List of Games Cited
 
 Skiing
 Traditional, circa 1880
@@ -26948,9 +26294,9 @@ Arcade game; Console game
 Tomb Raider (series)
 Core Design, 1996
 Console game; Computer game
-10
+
 List of Games Cited
-10
+
 List of Games Cited
 
 
@@ -27039,10 +26385,8 @@ Zarcana
 John Cooper, 2001
 Icehouse game
 List of Games Cited
-11
-List of Games Cited
-11
 
+List of Games Cited
 
 Zaxxon
 Sega, 1982
@@ -27075,23 +26419,20 @@ Kent, Stephen L.. The Ultimate History of Video Games (Roseville, CA:Prima Publi
 Parlett, David. The Oxford Dictionary of Card Games (New York: OxfordUniversity Press, 1992).
 Parlett, David. The Oxford History of Board Games (New York: OxfordUniversity Press, 1999).
 Scarpone, Desi. Board Games (Atglen, PA: Schiffer Publishing, 1995).
- < Day Day Up > 
- < Day Day Up > 
-12
+ < Day Day Up >
+ < Day Day Up >
+
 List of Games Cited
-12
+
 List of Games Cited
 
 
 List of Games Cited
-13
-List of Games Cited
-13
 
-
-14
 List of Games Cited
-14
+
+List of Games Cited
+
 List of Games Cited
 
 
@@ -27144,8 +26485,6 @@ anxiety, 351, 352
 Apter, Michael, 94, 335
 arcade games
 Index
-1
-
 
 attraction of, 336
 conflict in, 251–253
@@ -27179,11 +26518,11 @@ autotelic play, 331–333, 360
 Avedon, E. M., 9, 28, 61, 78, 188, 512, 533
 awareness, 337, 452–453
 Aycock, Alan, 533
- < Day Day Up > 
- < Day Day Up > 
-2
+ < Day Day Up >
+ < Day Day Up >
+
 Index
-2
+
 Index
 
 
@@ -27239,8 +26578,6 @@ with digital traits, 90
 and emergence, 164
 ergonomics, 115
 Index
-1
-
 
 and probability, 179
 See also Lord of the Rings Board Game;
@@ -27266,11 +26603,11 @@ Bruckman, Amy, 511
 Buchanan, Richard, 46, 511
 Büro Destruct, 602
 Bust-A-Groove, 316
- < Day Day Up > 
- < Day Day Up > 
-2
+ < Day Day Up >
+ < Day Day Up >
+
 Index
-2
+
 Index
 
 
@@ -27326,8 +26663,6 @@ dynamic difficulty adjustment, 222–223,
 and flow state, 350–351
 lack of, 350–353
 Index
-1
-
 
 negative reinforcement as, 348
 in Sneak, 491
@@ -27383,9 +26718,9 @@ conflict, 250, 432, 433
 as cybernetic system, 218
 decision tree, 233, 234
 emergence, 164
-2
+
 Index
-2
+
 Index
 
 
@@ -27444,10 +26779,8 @@ in metagame model, 483
 and time, 259–261
 zero-sum games, 255
 Index
-3
-Index
-3
 
+Index
 
 See also conflict
 compilers/decompilers, 414
@@ -27498,14 +26831,14 @@ messenger network, 153–154, 160–161
 metacommunication, 371–372, 374,
 449–452, 458
 and operational rules, 132–133, 135–136,
-139
+
 constraints, 330–331
 context
 cultural, 86, 94, 104–105
 and flow state, 339
-4
+
 Index
-4
+
 Index
 
 
@@ -27564,10 +26897,8 @@ in Joust, 252–253, 258
 and knowledge, 433–434, 457
 level playing field, 260–263, 265
 Index
-5
-Index
-5
 
+Index
 
 LOOP case study, 259–261
 in narrative, 387–388, 418
@@ -27623,9 +26954,9 @@ strategies, 559–565
 See also The Rhetoric of the Lottery;
 Site-Specific Resistance
 cultural rhetoric, 516–517, 534
-6
+
 Index
-6
+
 Index
 
 
@@ -27673,17 +27004,14 @@ elements of, 214–217, 218
 exercises, 18–19, 20
 and game design, 222–223, 224–226, 227, 228
 player control, 225–226
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Index
-7
-Index
-7
 
-
-8
 Index
-8
+
+Index
+
 Index
 
 
@@ -27725,7 +27053,7 @@ definitions
 of design, 40–41
 of game, 2–3, 73–81
 degenerate strategies, 241, 246, 271–274,
-285
+
 DeKoven, Bernard, 21, 96, 174, 187,
 255–256, 257, 267, 268, 281–282, 283,
 331–332, 461, 470–471, 473–475, 528
@@ -27739,8 +27067,6 @@ See also narrative descriptors
 design
 complexity, 4–5
 Index
-1
-
 
 as culture, 511–512
 definition, 41
@@ -27796,9 +27122,9 @@ protective frame, 95
 repetitiveness, 323
 research association, 602
 rules, 142–149
-2
+
 Index
-2
+
 Index
 
 
@@ -27857,20 +27183,18 @@ as narrative system, 406
 and retelling, 413
 as simulation, 424–425, 440
 Index
-3
-Index
-3
 
+Index
 
 Dungeon Siege, 548–550
 Dunnigan, James, 88–89, 442, 443
 dynamic difficulty adjustment (DDA), 222–223,
 227, 352–353
- < Day Day Up > 
- < Day Day Up > 
-4
+ < Day Day Up >
+ < Day Day Up >
+
 Index
-4
+
 Index
 
 
@@ -27926,8 +27250,6 @@ environment. See cultural environment
 Epimenides’ Paradox, 449–450
 Epstein, Richard, 174–175, 177, 186, 236
 Index
-1
-
 
 equality, 260, 265
 ergonomics, 115
@@ -27978,23 +27300,20 @@ explorers, 466, 488
 The Exquisite Corpse Game Game
 (exercise), 16
 external events, 69
- < Day Day Up > 
- < Day Day Up > 
-2
+ < Day Day Up >
+ < Day Day Up >
+
 Index
-2
+
 Index
 
 
 Index
-3
-Index
-3
 
-
-4
 Index
-4
+
+Index
+
 Index
 
 
@@ -28050,8 +27369,6 @@ fouls, 276
 Foursquare, 475–478
 frag queens, 562
 Index
-1
-
 
 frame
 cognitive, 370–371
@@ -28068,11 +27385,11 @@ friendships, 462
 frivolity, 518–519
 fun, 334
 functional interactivity, 59
- < Day Day Up > 
- < Day Day Up > 
-2
+ < Day Day Up >
+ < Day Day Up >
+
 Index
-2
+
 Index
 
 
@@ -28128,8 +27445,6 @@ open play, 537, 538, 540, 552
 parameter selection, 17–18
 and player expertise, 412
 Index
-1
-
 
 player focus, 41, 136
 by players, 539–544
@@ -28185,9 +27500,9 @@ Gauntlet
 conflict, 253–255, 258
 social play, 466
 space, 394
-2
+
 Index
-2
+
 Index
 
 
@@ -28246,18 +27561,16 @@ in crossword puzzles, 198
 and information theory, 194–195
 and probability, 104–195
 Index
-3
-Index
-3
 
+Index
 
 repeated, 158
 Gygax, Gary, 81
- < Day Day Up > 
- < Day Day Up > 
-4
+ < Day Day Up >
+ < Day Day Up >
+
 Index
-4
+
 Index
 
 
@@ -28307,15 +27620,12 @@ Huizinga, Johann, 32, 75, 95, 99, 264,
 Hunicke, Robin, 9
 hypermediacy, 452–453, 458
 hypertext, 416, 456
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Index
-1
 
-
-2
 Index
-2
+
 Index
 
 
@@ -28371,8 +27681,6 @@ noise, 195–197, 201
 redundancy, 197–198, 201
 uncertainty, 193–197, 201 (see also uncertainty)
 Index
-1
-
 
 instability, 224
 instant messaging system, 413
@@ -28419,11 +27727,11 @@ iteration, 11–12, 15, 17
 and degenerate strategy, 274
 and interactivity, 59
 in Sibling Rivalry, 111–115
- < Day Day Up > 
- < Day Day Up > 
-2
+ < Day Day Up >
+ < Day Day Up >
+
 Index
-2
+
 Index
 
 
@@ -28442,15 +27750,12 @@ Johnson, Thomas W., 486
 Jonas, Wolfgang, 49
 Joust, 252–253, 258
 Juul, Jesper, 4, 64, 68, 379, 380, 416
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Index
-1
 
-
-2
 Index
-2
+
 Index
 
 
@@ -28473,15 +27778,12 @@ Koster, Ralph, 280
 Krippendorff, Klaus, 46
 Krzywinska, Tanya, 411, 416
 Kuper, Simon, 515, 516
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Index
-1
 
-
-2
 Index
-2
+
 Index
 
 
@@ -28537,8 +27839,6 @@ design of, 22–24
 iteration, 26–27
 simulation, 427, 432
 Index
-1
-
 
 testing, 24–26
 and zero-sum games, 240
@@ -28558,11 +27858,11 @@ and cooperation, 255–256
 and implicit rules, 574
 and noise, 197, 201
 and pleasure, 331
- < Day Day Up > 
- < Day Day Up > 
-2
+ < Day Day Up >
+ < Day Day Up >
+
 Index
-2
+
 Index
 
 
@@ -28618,8 +27918,6 @@ context, 273, 366, 367–368, 373, 374
 cultural, 509–510
 emergence, 366–367, 374, 404
 Index
-1
-
 
 interpretation, 372
 in player/character experience, 454
@@ -28675,9 +27973,9 @@ mimicry, 307, 308
 in Quake, 335–336
 Mind’s Eye Theater, 389–390
 minimax theorem, 241, 243
-2
+
 Index
-2
+
 Index
 
 
@@ -28715,17 +28013,14 @@ Murray, Janet, 88, 416
 Musical Chairs, 67
 Myst, 270, 354–355, 394
 Myth: The Fallen Lords, 270–271
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Index
-3
-Index
-3
 
-
-4
 Index
-4
+
+Index
+
 Index
 
 
@@ -28781,8 +28076,6 @@ NBA Courtside, 413–414
 negative feedback, 215, 224–227
 in Basketball, 218–219
 Index
-1
-
 
 in Chutes and Ladders, 223–224
 in digital games, 219–221
@@ -28808,11 +28101,11 @@ Nintendo Game, 144–145
 noise, 196–197, 201
 Norman, Donald, 39, 67
 Nwokah, 533
- < Day Day Up > 
- < Day Day Up > 
-2
+ < Day Day Up >
+ < Day Day Up >
+
 Index
-2
+
 Index
 
 
@@ -28860,15 +28153,12 @@ quantification, 80, 238, 259
 in role-playing games, 81–82, 83
 and rules, 103
 in zero-sum games, 240
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Index
-1
 
-
-2
 Index
-2
+
 Index
 
 
@@ -28924,8 +28214,6 @@ Caillois’ categories, 307–309
 consciousness of, 453–455
 cultural meanings, 509
 Index
-1
-
 
 definitions, 301, 302–305, 311
 forbidden, 478–481
@@ -28981,9 +28269,9 @@ number of
 in Centipede, 252–252, 258
 in digital games, 462
 in fighting vs. racing games, 594
-2
+
 Index
-2
+
 Index
 
 
@@ -29038,17 +28326,15 @@ puzzles, 80–81, 83
 crossword, 80–81, 198
 vs. games, 575
 pyramids, 546–547
- < Day Day Up > 
+ < Day Day Up >
 Index
-3
-Index
-3
 
-
- < Day Day Up > 
-4
 Index
-4
+
+ < Day Day Up >
+
+Index
+
 Index
 
 
@@ -29068,15 +28354,12 @@ remediation, 453
 retelling, 413
 space, 396
 transformative play, 305
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Index
-1
 
-
-2
 Index
-2
+
 Index
 
 
@@ -29132,8 +28415,6 @@ prostitution, 538–539, 558
 protective frame, 94–99
 feeling of, 189
 Index
-1
-
 
 of information, 205–207
 random numbers, 179, 183–184
@@ -29189,9 +28470,9 @@ of play, 518–519, 534
 The Rhetoric of the Lottery (exercise), 19–20
 rhythm, 341, 411
 Risk, 250, 344
-2
+
 Index
-2
+
 Index
 
 
@@ -29250,10 +28531,8 @@ and identity, 134–136, 139
 implicit, 130 (see also implicit rules)
 and operational, 133–134, 139
 Index
-3
-Index
-3
 
+Index
 
 (in)efficiency, 77
 as information, 205, 210
@@ -29262,7 +28541,7 @@ operational, 130, 147
 and constituative rules, 132–133,
 135–136, 139
 and implicit rules, 132–133, 135–136,
-139
+
 and pleasure, 330–331
 schema description, 6, 103–104
 in society, 121, 125, 472–473
@@ -29277,11 +28556,11 @@ exercises, 16, 18
 relationships between, 132–133,
 133–134, 139
 Ryan, Marie-Laure, 8, 451, 456
- < Day Day Up > 
- < Day Day Up > 
-4
+ < Day Day Up >
+ < Day Day Up >
+
 Index
-4
+
 Index
 
 
@@ -29337,8 +28616,6 @@ signal transmission, 195–196
 balancing, 198–199, 201
 in games, 204
 Index
-1
-
 
 noise, 196–197, 201
 redundancy, 197–198, 201
@@ -29394,9 +28671,9 @@ prototype, 12
 randomness, 176
 Site-Specific Resistance (exercise), 17
 situation, 380, 416
-2
+
 Index
-2
+
 Index
 
 
@@ -29455,10 +28732,8 @@ transforming, 526–529
 Space Invaders, 258, 341, 394
 space of possibility
 Index
-3
-Index
-3
 
+Index
 
 concept, 66–67, 69
 and conflict, 255, 258
@@ -29514,9 +28789,9 @@ Street Fighter II, 507
 structure
 and interpretation, 44–47
 levels, 261, 386–387, 391
-4
+
 Index
-4
+
 Index
 
 
@@ -29563,17 +28838,14 @@ periodicity, 155, 170
 of signal processing, 204
 simulations as, 440
 See also cybernetic systems; game systems
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Index
-5
-Index
-5
 
-
-6
 Index
-6
+
+Index
+
 Index
 
 
@@ -29629,8 +28901,6 @@ Thompson, J. Mark, 204
 3-to-15, 128–129, 137
 Thunderstorm, 181–182, 381–382, 400
 Index
-1
-
 
 Tic-Tac-Toe
 complexity, 152–153
@@ -29686,9 +28956,9 @@ social play, 475, 489
 in Suspicion, 583
 Transporting the Core Mechanic (exercise), 19
 trash-talking, 481, 483
-2
+
 Index
-2
+
 Index
 
 
@@ -29700,17 +28970,14 @@ Twister, 330
 Tylor, Edward, 508
 typography, 42, 602
 Tzaig, Uri, 563–564
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Index
-3
-Index
-3
 
-
-4
 Index
-4
+
+Index
+
 Index
 
 
@@ -29742,15 +29009,12 @@ Unreal, 89
 unsportsmanlike players, 269, 271, 481
 utilitarian participation, 59
 utility, 237–238, 240, 245
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Index
-1
 
-
-2
 Index
-2
+
 Index
 
 
@@ -29786,15 +29050,12 @@ voluntary activity, 76
 Von Neumann, John, 161, 231, 232,
 237–238, 241
 Vygotsky, L. S., 330–331
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Index
-1
 
-
-2
 Index
-2
+
 Index
 
 
@@ -29846,30 +29107,25 @@ Wreckless: The Yakuza Missions, replays,
 413–414
 Wrestling, 574
 Wright, Will, 539
- < Day Day Up > 
+ < Day Day Up >
 Index
-1
 
+ < Day Day Up >
 
- < Day Day Up > 
-2
 Index
-2
+
 Index
 
 
 Index
 Y
 You Don’t Know Jack, 434
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Index
-1
 
-
-2
 Index
-2
+
 Index
 
 
@@ -29882,15 +29138,12 @@ Zendo, 295, 547
 zero-sum games, 239–242, 246, 255
 Zimmerman, Eric, 9, 167
 Zork, 44–45, 89, 394
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 Index
-1
 
-
-2
 Index
-2
+
 Index
 
 
@@ -29926,8 +29179,6 @@ Wipeout
 Super Monkey Ball
 Powerstone
 List of Figures
-1
-
 
 Chapter 19: Games as Game Theory Systems
 Cake division payoff grid
@@ -29966,9 +29217,9 @@ open castle
 Blue Labyrinth (expanded view)
 Inside the Black Castle
 Drome Racing animation
-2
+
 List of Figures
-2
+
 List of Figures
 
 
@@ -30018,10 +29269,8 @@ enemies, you know, those that might find his curly que hairdo just a little too 
 more for Ginny. She tends to be too trusting. Her kind nature has unfortunately gotten the couple in more than
 a few mixes…er…fixes.The upside to this is that all this "escaping" has kept the two in prime physical
 List of Figures
-3
-List of Figures
-3
 
+List of Figures
 
 condition.
 …George insists that he and Ginny sleep in the guest room on the first floor. This way he will be ready for
@@ -30056,11 +29305,11 @@ SOD
 Sailor Moon Wad
 Frag Queens
 Blacklash
- < Day Day Up > 
- < Day Day Up > 
-4
+ < Day Day Up >
+ < Day Day Up >
+
 List of Figures
-4
+
 List of Figures
 
 
@@ -30071,15 +29320,12 @@ Table 2
 Table 3
 Chapter 30: Games as Cultural Rhetoric
 Brian-Sutton Smith's Seven Rhetorics of Play
- < Day Day Up > 
- < Day Day Up > 
+ < Day Day Up >
+ < Day Day Up >
 List of Tables
-1
 
-
-2
 List of Tables
-2
+
 List of Tables
 
 
@@ -30114,8 +29360,6 @@ Terminological Aside: Behavior Theory and Cybernetics
 Case Study: The L Game : An Exception to Every Rule
 The L Game
 List of Sidebars
-1
-
 
 Chapter 26: Games as Narrative Play
 Case Study: A Loopy Core Mechanic
@@ -30134,7 +29378,7 @@ Chapter 32: Games as Cultural Resistance
 from sissyfightnews.com
 Commissioned Game 4 — Caribbean Star
 James Ernest
-2
+
 List of Sidebars
-2
+
 List of Sidebars

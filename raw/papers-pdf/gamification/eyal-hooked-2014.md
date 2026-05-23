@@ -9,8 +9,11 @@ chars: 282859
 approx_tokens: 70714
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 282861
+phase4_chars_after: 282695
+phase4_saved_pct: 0.1
 ---
-
 
 
 Hooked:
@@ -49,7 +52,7 @@ Note: Some sections of this book have appeared in articles previously published 
 
 
 INTRODUCTION
- 
+
 79 percent of smartphone owners check their device within 15 minutes of waking up every morning.
 [i]
 Perhaps more startling, fully one-third of Americans say they would rather give up sex than lose their
@@ -165,7 +168,6 @@ the psychological motivation to do it.
 [x]
 Once Barbra completes the simple action of clicking on the photo, she is dazzled by what she sees
 next.
- 
 
 
 3. Variable Reward
@@ -207,7 +209,7 @@ As Barbra enjoys endlessly scrolling through the Pinterest cornucopia, she build
 the things that delight her. By collecting items, she’ll be giving the site data about her preferences.
 Soon she will follow, pin, re-pin, and make other investments, which serve to increase her ties to the
 site and prime her for future loops through the hook.
- 
+
 A New Superpower
 Habit-forming technology is already here, and it is being used to mold our lives. The fact that we
 have greater access to the web through our various connected devices — smartphones and tablets,
@@ -277,7 +279,7 @@ frequently enough to form a habit.
 
 
 1. THE HABIT ZONE
- 
+
 When I run, I zone out. I don’t think about what my body is doing and my mind usually wanders
 elsewhere. I find it relaxing and refreshing, and run about three mornings each week. Recently, I
 needed to take an overseas client call during my usual morning run time. “No biggie,” I thought. “I can
@@ -355,7 +357,7 @@ increasing revenues or decreasing expenses.
 Fostering consumer habits is an effective way to increase the value of a company by driving higher
 customer lifetime value (CLTV). CLTV is the amount of money made from a customer before she
 switches to a competitor, stops using the product, or dies. User habits increase how long and how
-frequently customers use a product, resulting in higher CLTV. 
+frequently customers use a product, resulting in higher CLTV.
 Some products have a very high CLTV. For example, credit card customers tend to stay loyal for a
 very long time and are worth a bundle. Hence, credit card companies are willing to spend a
 considerable amount of money acquiring new customers. This explains why you receive so many
@@ -385,8 +387,7 @@ paying customers, netting the game’s maker nearly a million dollars per day.
 This pattern also applies to other services. Take Evernote, the popular note-taking and archiving
 software, for example. The software is free to use but the company offers upgraded features like
 offline viewing and collaboration tools for a price — which many devoted users are happy to pay.
-Evernote’s CEO Phil Libin shared some revealing insights about how the company turns non-
-paying users into revenue generating ones.
+Evernote’s CEO Phil Libin shared some revealing insights about how the company turns nonpaying users into revenue generating ones.
 [xxiii] In 2011, Libin published a chart now known as the
 “smile graph.” With the percentage of sign-ups represented on the Y-axis and time spent on the
 service on the X-axis, the chart showed that, although usage plummeted at first, it rocketed upward as
@@ -422,7 +423,7 @@ Cycle Time for two reasons: First, daily users initiate loops more often (think 
 Facebook photo); second, more daily active users means more people to respond and react to each
 invitation. The cycle not only perpetuates the process — with higher and higher user engagement, it
 accelerates it.
- 
+
 Sharpening the Competitive Edge
 User habits are a competitive advantage. Products that change customer routines are less susceptible
 to attacks from other companies.
@@ -476,8 +477,7 @@ The fact is, successfully changing long-term user habits is exceptionally rare.
 Altering behavior requires not only an understanding of how to persuade people to act — for
 example, the first time they land on a webpage — but also necessitates getting them to repeat
 behaviors for long periods, ideally for the rest of their lives.
-Companies that succeed in building a habit-forming business are often associated with game-
-changing, wildly successful innovation. But like any discipline, habit design has rules and caveats that
+Companies that succeed in building a habit-forming business are often associated with gamechanging, wildly successful innovation. But like any discipline, habit design has rules and caveats that
 define and explain why some products change lives while others do not.
 For one, new behaviors have a short half-life, as our minds tend to revert to our old ways of
 thinking and doing. Experiments show that lab animals habituated to new behaviors tend to regress to
@@ -513,7 +513,7 @@ So why haven’t more Google users switched to Bing? Habits keep users loyal. If
 with the Google interface, switching to Bing requires cognitive effort. Although many aspects of Bing
 are similar to Google, even a slight change in pixel placement forces the would-be user to learn a
 new way of interacting with the site. Adapting to the differences in the Bing interface is what actually
-slows down regular Google users and makes Bing feel inferior, not the technology itself. 
+slows down regular Google users and makes Bing feel inferior, not the technology itself.
 Internet searches occur so frequently that Google is able to cement itself as the one and only
 solution in the habituated user’s mind. Users no longer need to think about whether or not to use
 Google, they just do. Furthermore, whenever the company can identify the user through tracking
@@ -644,7 +644,7 @@ Addictions are persistent, compulsive dependencies on a behavior or substance. A
 definition, are self-destructive. Thus, it is irresponsible to make products that rely on creating and
 
 
-maintaining user addiction, since doing so would mean intentionally harming people. 
+maintaining user addiction, since doing so would mean intentionally harming people.
 A habit, on the other hand, is a behavior that can have a positive influence on a person’s life.
 Habits can be healthy or unhealthy, and you likely have several helpful habits you carry out throughout
 your day. Did you brush your teeth today? Take a shower? Did you express gratitude by saying
@@ -685,12 +685,8 @@ If you are building a habit-forming product, write down the answers to these que
 - What user behavior do you want to make into a habit?
 
 
-
-
-
-
 2. TRIGGER
- 
+
 Yin (not her real name) is in her mid-twenties, lives in Palo Alto, and attends Stanford University.
 She has all the composure and polish you’d expect of a student at a prestigious school, yet she
 succumbs to a persistent habit throughout her day. She can’t help it; she is compulsively hooked on
@@ -702,8 +698,7 @@ acquisition demonstrates the increasing power of — and immense monetary value 
 habit-forming technology. Of course, the Instagram purchase price was driven by a host of factors,
 including a rumored bidding war for the company.
 [xlii] But at its core, Instagram is an example of an
-enterprising team — conversant in psychology as much as technology — that unleashed a habit-
-forming product on users who subsequently made it a part of their daily routines.
+enterprising team — conversant in psychology as much as technology — that unleashed a habitforming product on users who subsequently made it a part of their daily routines.
 [xliii]
 Yin doesn’t realize she’s hooked, although she admits she regularly snaps and posts dozens of
 pictures per day using the app. “It’s just fun,” she says as she reviews her latest collection of moody
@@ -761,7 +756,7 @@ action. For example, we’ve all learned that website links are for clicking and
 tapping. The only purpose for these common visual triggers is to prompt the user to action. As a
 readily accepted aspect of interface design, these calls to action don’t need to tell people how to use
 them, the information is embedded.
- 
+
 Types of External Triggers
 Companies can utilize four types of external triggers to move users to complete desired actions:
 1. Paid Triggers
@@ -800,7 +795,7 @@ blasting a message to their social networks, they may see some initial growth, b
 expense of the social currency of users, including their goodwill and trust. When people discover
 they’ve been duped, they vent their frustration and stop using the product.
 Proper use of relationship triggers requires building an engaged user base that is enthusiastic about
-sharing the benefits of the product with others. 
+sharing the benefits of the product with others.
 4. Owned Triggers
 Owned triggers consume a piece of real-estate in the user’s environment. They consistently show up
 in daily life and it is ultimately up to the user to opt into allowing these triggers to appear.
@@ -1030,12 +1025,8 @@ not be so crazy after all. In a few years, new technologies will create all sort
 unimaginable triggering opportunities.
 
 
-
-
-
-
 3. ACTION
- 
+
 The next step in The Hook is the action phase. The trigger, driven by internal or external cues,
 informs the user of what to do next; however, if the user does not take action, the trigger is useless. To
 initiate action, doing must be easier than thinking. Remember, a habit is a behavior done with little or
@@ -1068,8 +1059,7 @@ In the previous chapter, we covered triggers, so now let’s dive deeper into th
 components of the Fogg Behavior Model: motivation and ability.
 Motivation
 While a trigger cues an action, motivation defines the level of desire to take that action. Dr. Edward
-Deci, Professor of Psychology at the University of Rochester and a leading researcher on Self-
-Determination Theory, defines motivation as, "the energy for action."
+Deci, Professor of Psychology at the University of Rochester and a leading researcher on SelfDetermination Theory, defines motivation as, "the energy for action."
 [lvi]
 While the nature of motivation is a widely contested topic in psychology, Fogg argues that three
 Core Motivators drive our desire to act.
@@ -1144,7 +1134,7 @@ marvel known as the Internet.
 Of course, today few of us could stand the torture of using a 2400 baud modem after we’ve become
 accustomed to our always-on, high-speed Internet connections. Emails are now instantaneously
 pushed to the devices in our pockets. Our photos, music, videos, and files — not to mention the
-vastness of the open web — are accessible almost anywhere, anytime, on any connected device. 
+vastness of the open web — are accessible almost anywhere, anytime, on any connected device.
 In line with Hauptly’s assertion, as the steps required to get something done (in this case, to get
 online and use the Internet) were removed or improved upon, adoption increased.
 For example, consider the trend-line of the relationship between the percentage of people creating
@@ -1230,7 +1220,7 @@ Facebook might share their personal information may not find the login button he
 trigger new anxieties (and thus, brain cycles) about the social networking giant’s trustworthiness.
 Again, the roadblocks confronting users vary by person and context. There is no one-size-fits-all
 solution, so designers should seek to understand an array of possible user challenges.
- 
+
 Sharing with the Twitter Button
 Twitter helps people share articles, videos, photos or any other content they find on the web. The
 
@@ -1249,8 +1239,7 @@ incumbents such as Yahoo!, Lycos, AltaVista, and Excite when it launched in the 
 Google come to dominate the multi-billion dollar industry?
 For one, Google’s PageRank algorithm proved to be a much more effective way to index the web.
 By ranking pages based on how frequently other sites linked to them, Google improved search
-relevancy. Compared with directory-based search tools such as Yahoo!, Google was a massive time-
-saver. But Google also beat out other search engines that had become polluted with irrelevant content
+relevancy. Compared with directory-based search tools such as Yahoo!, Google was a massive timesaver. But Google also beat out other search engines that had become polluted with irrelevant content
 and cluttered with advertising (figure 10). From its inception, Google’s clean and simple homepage
 and search results pages were solely focused on streamlining the act of searching and getting relevant
 results (figure 11).
@@ -1268,8 +1257,7 @@ easier to keep users coming back.
 Taking Photos with the Apple iPhone
 Many of life’s most treasured moments come and go in an instant. We try and capture these memories
 in photos, but if our camera is out of reach or too cumbersome to catch the shot, we lose those
-moments forever. Apple recognized it could help iPhone owners take more photos by making picture-
-taking easier. The company made the camera app directly launchable from the locked screen, without
+moments forever. Apple recognized it could help iPhone owners take more photos by making picturetaking easier. The company made the camera app directly launchable from the locked screen, without
 requiring a password. Compared to the number of steps needed to access photo apps on other
 smartphones, the simple flick gesture of the native iPhone camera gives it a virtual monopoly as
 users’ go-to solution whenever they need to snap a quick pic (figure 12).
@@ -1285,7 +1273,7 @@ without end (figure 13).
 Figure 13
 ***
 The examples above show how simplicity increases the intended user behaviors.
- 
+
 Motivation or Ability — Which Should You Increase First?
 After uncovering the triggers that prompt user actions and deciding which actions you want to turn
 into habits, you can increase motivation and ability to spark the likelihood of your users taking a
@@ -1387,7 +1375,7 @@ while a search for a book I’ve had my eye on says only three copies remain. Is
 online retailer almost sold out of nearly everything I want to buy or are they using the scarcity
 heuristic to influence my buying behavior?
 Figure 18 - “Only 14 left in stock”?
- 
+
 The Framing Effect
 Context also shapes perception. In a social experiment, world-class violinist Joshua Bell decided to
 play a free impromptu concert in a Washington, DC subway station.
@@ -1416,8 +1404,7 @@ The Anchoring Effect
 Rarely can you walk into a clothing store without seeing signage for “30% off,” “buy-one-get-one
 free,” and other sales and deals. In reality, these items are often marketed to maximize profits for the
 business. Often, the same store will have similar but less expensive (yet non-discounted) products. I
-recently visited a store that offered a package of three Jockey brand undershirts at a buy-one-get-one-
-half-off discount for $29.50. After surveying other options, I noticed a package of five Fruit of the
+recently visited a store that offered a package of three Jockey brand undershirts at a buy-one-get-onehalf-off discount for $29.50. After surveying other options, I noticed a package of five Fruit of the
 Loom brand undershirts selling for $34. After some quick math, I discovered that the shirts not on sale
 were actually cheaper per-shirt than the “discounted” brand’s package.
 People often anchor to one piece of information when making a decision. I almost bought the shirts
@@ -1506,10 +1493,8 @@ habits?
 -  Consider how you might apply heuristics to make habit-forming actions more likely.
 
 
-
-
 4. VARIABLE REWARD
- 
+
 Ultimately, all businesses help users achieve an objective. As we learned in the previous chapter,
 reducing the steps needed to complete the intended outcome increases the likelihood of that outcome.
 But to keep users engaged, products need to deliver on their promises. To form the learned
@@ -1600,7 +1585,7 @@ these variable reward types.
 
 
 Figure 20
- 
+
 Rewards of the Tribe
 We are a species that depends on each other. Rewards of the tribe, or social rewards, are driven by
 our connectedness with other people. Our brains are adapted to seek rewards that make us feel
@@ -1636,7 +1621,7 @@ click of the “Like” button provides a variable reward for the content’s cr
 comments offer tribal validation for those who shared the content, and provide variable rewards that
 motivate them to continue posting.
 Figure 21
- 
+
 Stack Overflow
 Stack Overflow is the world’s largest question-and-answer site for software developers. As with
 other user-generated content sites such as Quora, Wikipedia, and YouTube, all of Stack Overflow’s
@@ -1650,7 +1635,7 @@ submits an answer, other members have the opportunity to vote the response up or
 responses percolate upwards, accumulating points for their authors (figure 22). When they reach
 certain point levels, members earn badges, which confer special status and privileges. Of course, the
 process of accumulating upvotes (and, therefore, points and badges) is highly variable — no one
-knows how many they will receive from the community when responding to a question. 
+knows how many they will receive from the community when responding to a question.
 
 
 Figure 22
@@ -1667,8 +1652,7 @@ video game was filled with “trolls” — people who enjoyed bullying other pl
 protected by the anonymity the game provides. Soon, League of Legends earned a nasty reputation for
 having an “unforgiving — even abusive — community.”
 [lxxviii] A leading industry publication wrote,
-“League of Legends has become well known for at least two things: proving the power of the free-to-
-play model in the West and a vicious player community.”
+“League of Legends has become well known for at least two things: proving the power of the free-toplay model in the West and a vicious player community.”
 [lxxix]
 To combat the trolls, the game creators designed a reward system leveraging Bandura’s social
 learning theory, which they called Honor Points (figure 23). The system gave players the ability to
@@ -1732,7 +1716,7 @@ Rewards of the hunt existed long before the advent of computers. But today we fi
 examples of variable rewards associated with the pursuit of resources and information that compel us
 with the same determination as the San hunter chasing his prey.
 Here are a few examples of products that create habits by leveraging rewards of the hunt:
- 
+
 Machine Gambling
 Most people know that gambling benefits the casino or broker far more than the players. As the old
 adage says, “the house always wins.” Yet despite this knowledge, the multi-billion dollar gambling
@@ -1767,7 +1751,7 @@ images offer a glimpse of what's ahead, even if just barely visible. To relieve 
 have to do is scroll to reveal the full picture (figure 25). As more images load on the page, the
 endless search for variable rewards of the hunt continues.
 Figure 25
- 
+
 Rewards of the Self
 Finally, there are the variable rewards we seek for a more personal form of gratification. We are
 driven to conquer obstacles, even if just for the satisfaction of doing so. Pursuing a task to completion
@@ -1813,13 +1797,12 @@ pushing some low priority emails out of sight, and then having them reappear at 
 giving users the sense that they are processing their inbox more efficiently, Mailbox delivers
 something other email clients do not — a feeling of completion and mastery.
 Figure 27
- 
+
 Codecademy
 Learning to program is not easy. Software engineers take months, if not years, of diligent hard work
 before they have the confidence and skill to write useful code. Many people attempt to learn how to
 write software, only to give up, frustrated at the tedious process of learning a new computer language.
-Codecademy seeks to make learning to write code more fun and rewarding. The site offers step-by-
-step instructions for building a web app, animation, and even a browser-based game. The interactive
+Codecademy seeks to make learning to write code more fun and rewarding. The site offers step-bystep instructions for building a web app, animation, and even a browser-based game. The interactive
 lessons deliver immediate feedback, in contrast to traditional methods of learning to code by writing
 whole programs. At Codecademy, users can enter a single correct function and the code works or
 doesn’t, providing instant feedback.
@@ -1835,8 +1818,7 @@ Figure 28
 ***
 Important Considerations for Designing Reward Systems
 Variable Rewards Are Not a Free Pass
-In May 2007, a site called Mahalo.com was born. A flagship feature of the new site was a question-
-and-answer forum known as Mahalo Answers. Unlike previous Q&A sites, Mahalo utilized a special
+In May 2007, a site called Mahalo.com was born. A flagship feature of the new site was a questionand-answer forum known as Mahalo Answers. Unlike previous Q&A sites, Mahalo utilized a special
 incentive to get users to ask and answer questions.
 First, people who submitted a question would offer a bounty in the form of a virtual currency
 known as “Mahalo Dollars.” Then, other users would contribute answers to the question and the best
@@ -1886,7 +1868,7 @@ In an effort to increase user engagement, Quora introduced a new feature called 
 revealed the real identity of people visiting a particular question or answer. For users, the feedback
 of knowing who was seeing content they added to the site proved very intriguing. Users could now
 know, for example, when a celebrity or prominent venture capital investor viewed something they
-created.  
+created.
 However, the feature ultimately backfired. Quora automatically opted users into the new feature
 without alerting them that their browsing history on the site would be exposed to others. In an instant,
 users lost their treasured anonymity when asking, answering, or simply viewing Quora questions that
@@ -2015,7 +1997,7 @@ episode, White discovers one of the drug dealers is still alive and is faced wit
 having to kill someone he thought was already dead. Invariably, each episode’s central conflict is
 resolved near the end of the show, at which time a new challenge arises to pique the viewer’s
 curiosity. By design, the only way to know how Walter gets out of the mess he is in at the end of the
-latest episode is to watch the next episode.    
+latest episode is to watch the next episode.
 The cycle of conflict, mystery and resolution is as old as storytelling itself, and at the heart of every
 good tale is variability. The unknown is fascinating and strong stories hold our attention by waiting to
 reveal what happens next. In a phenomenon called “experience-taking,” researchers have shown that
@@ -2087,8 +2069,7 @@ discussed in earlier chapters. However, products utilizing infinite variability 
 holding onto users’ attention, while those with finite variability must constantly reinvent themselves
 just to keep pace.
 Which Rewards Should You Offer?
-Fundamentally, variable reward systems must satisfy users’ needs, while leaving them wanting to re-
-engage. The most habit-forming products and services utilize one or more of the three variable
+Fundamentally, variable reward systems must satisfy users’ needs, while leaving them wanting to reengage. The most habit-forming products and services utilize one or more of the three variable
 rewards types of tribe, hunt and self. In fact, many habit-forming products offer multiple variable
 rewards.
 Email, for example, utilizes all three variable reward types. What subconsciously compels us to
@@ -2140,10 +2121,8 @@ Is there anything they find particularly satisfying about using the product?
 - Rewards of the Self - mastery, completion, competency or consistency
 
 
-
-
 5. INVESTMENT
- 
+
 In the Trigger phase of the Hook Model, we discussed the importance of aligning with the right
 internal triggers. Then, by utilizing external triggers, designers can prompt users with information for
 the next intended action.
@@ -2361,7 +2340,7 @@ customize the site and make it more valuable with use. For example, the act of l
 categorizing transactions, or creating a budget are all forms of investment. The more data collected,
 the more the service’s stored value increases (figure 31).
 Figure 31
- 
+
 Followers
 On the morning of Twitter’s IPO on November 7, 2013, a news commentator on Bloomberg’s
 television channel said “the technology needed to build the company could be built in a day.”
@@ -2405,12 +2384,11 @@ score (figure 33).
 
 
 Figure 33
- 
+
 Skill
 Investing time and effort into learning to use a product is a form of investment and stored value. Once
 a user has acquired a skill, using the service becomes easier and moves them to the right on the
-Ability axis of the Fogg Behavior Model we discussed in chapter three. As Fogg describes it, non-
-routine is a factor of simplicity, and the more familiar a behavior is, the more likely the user is to do
+Ability axis of the Fogg Behavior Model we discussed in chapter three. As Fogg describes it, nonroutine is a factor of simplicity, and the more familiar a behavior is, the more likely the user is to do
 it.
 For example, Adobe Photoshop is the most widely-used professional graphics editing program in
 the world. The software provides hundreds of advanced features for creating and manipulating
@@ -2557,16 +2535,13 @@ returning?
 - Store value as data, content, followers, reputation and skill
 - Identify how long it takes for a “loaded trigger” to re-engage your users. How can you reduce
 the delay to shorten cycle-time through the Hook?
- 
 
 
 6. WHAT ARE YOU GOING TO DO WITH THIS?
- 
+
 The Hook Model is designed to connect the user’s problem with the designer’s solution frequently
-enough to form a habit. It is a framework for building products that solve user needs through long-
-term engagement.
-As users pass through cycles of The Hook Model, they learn to meet their needs with the habit-
-forming product. Effective hooks transition users from relying upon external triggers to cueing mental
+enough to form a habit. It is a framework for building products that solve user needs through longterm engagement.
+As users pass through cycles of The Hook Model, they learn to meet their needs with the habitforming product. Effective hooks transition users from relying upon external triggers to cueing mental
 associations with internal triggers. Users move from states of low engagement to high engagement and
 from low preference to high preference.
 You are now equipped to use the Hook Model to ask yourself these five fundamental questions for
@@ -2650,7 +2625,7 @@ use the product myself?” and second, “Will the product help users materially
 Figure 36
 Remember, this framework is for creating habit-forming products, not one-time use goods. Now,
 let’s explore the types of creators who represent the four quadrants of the Manipulation Matrix.
- 
+
 The Facilitator
 When you create something that you would use and that you believe makes the user’s life better, you
 are facilitating a healthy habit. It is important to note that only you can decide if you would actually
@@ -2760,7 +2735,7 @@ running on an incessantly rolling treadmill: You have to keep up with the consta
 demands of your users. In this quadrant, the sustainable business is not purely the game, the song, or
 the book — profit comes from an effective distribution system for getting those goods to market while
 they’re still hot, and at the same time keeping the pipeline full of fresh releases to feed an eager
-audience. 
+audience.
 The Dealer
 Creating a product that the designer does not believe improves users’ lives and that he himself would
 not use is called exploitation. In the absence of these two criteria, presumably the only reason the
@@ -2820,10 +2795,8 @@ product or service? Does it influence positive or negative behaviors? How does i
 Ask yourself if you are proud of the way you are influencing the behavior of others.
 
 
-
-
 7. CASE STUDY: THE BIBLE APP
- 
+
 In the previous chapter, I urged you to be a facilitator and to use the tools in this book to improve the
 lives of others. I encouraged you to align your work with a purpose that provides you with meaning
 and helps cultivate meaning for others. This is not only a moral imperative, it’s good business
@@ -2916,7 +2889,6 @@ readings into digestible communion wafer-sized portions, the app focuses the rea
 small task at hand while avoiding the intimidation of reading the entire book.
 
 
- 
 Holy Triggers
 Five years of testing and tinkering have helped Gruenewald’s team discover what works best. Today,
 the Bible app’s reading plans are tuned to immaculate perfection and Gruenewald has learned that
@@ -3001,8 +2973,7 @@ found the act, “engages neural and cognitive mechanisms associated with reward
 feels so good that one study found “individuals were willing to forgo money to disclose about the
 self.”
 There are many opportunities to share verse from within the Bible app, but one of Gruenewald’s
-most effective distribution channels is not online but in-row — that is, in the pews where church-
-goers sit side by side every week.
+most effective distribution channels is not online but in-row — that is, in the pews where churchgoers sit side by side every week.
 “People tell each other about the app because they use it surrounded by people who ask about it,”
 Gruenewald says. The app always sees a spike in new downloads on Sundays when people are most
 likely to share it through word of mouth.
@@ -3043,7 +3014,7 @@ committing users.
 
 
 8. HABIT TESTING AND WHERE TO LOOK FOR HABIT-FORMING OPPORTUNITIES
- 
+
 Now that you have an understanding of the Hook Model and have reflected on the morality of
 influencing user behavior, it is time to get to work. Running your idea through the four phases of the
 model will help you discover potential weaknesses in your product’s habit-forming potential.
@@ -3214,8 +3185,7 @@ employees at select companies. Finally, in September of 2006, Facebook was opene
 Today, Facebook is used by over a billion people. What first began as a nascent behavior at one
 campus became a global phenomenon catering to the fundamental human need for connection to
 others.
-As discussed early in the book, many habit-forming technologies begin as “vitamins” — nice-to-
-have products that, over time, become must-have “painkillers” by relieving an itch or pain.  It is
+As discussed early in the book, many habit-forming technologies begin as “vitamins” — nice-tohave products that, over time, become must-have “painkillers” by relieving an itch or pain.  It is
 revealing that so many breakthrough technologies and companies, from airplanes to Airbnb, were at
 first dismissed by critics as toys or niche markets. Looking for nascent behaviors among early
 adopters can often uncover valuable new business opportunities.
@@ -3319,13 +3289,11 @@ uncover any unnecessary or nascent behaviors.
 - Brainstorm five new interfaces that could introduce opportunities or threats to your business.
 
 
-
-
 APPENDIX
 
 
 NOW WHAT?
- 
+
 Thank you for investing in this book. Now that you have read it, let me hear from you!
 Please take a moment to review the book on Amazon (http://www.amazon.com/dp/B00HJ4A43S)
 and Goodreads (http://goo.gl/UBHeLY).
@@ -3350,7 +3318,7 @@ training startup talent.
 
 
 ACKNOWLEDGEMENTS
- 
+
 If I am ever asked, “What was the most surprising thing you learned while writing this book?,” I
 won’t respond with any of the research studies or company examples you’ve read. Although the topic
 has captivated me for over two and a half years, there can only be one answer to this question: I never
@@ -3387,7 +3355,7 @@ got so lucky.
 
 
 CONTRIBUTORS
- 
+
 Thank you to the loyal blog subscribers who provided insightful feedback, careful edits, moral
 support, and gentle prodding.
 The people listed on the following pages donated their time and insights to improving this book. I
@@ -3886,22 +3854,20 @@ Introduction
 [i] “IDC-Facebook Always Connected.pdf - File Shared from Box.” Accessed December 19, 2013.
 https://fb-public.app.box.com/s/3iq5x6uwnqtq7ki4q8wk.
 [ii] “Survey Finds One-Third of Americans More Willing to Give Up Sex Than Their Mobile
-Phones.” Accessed December 19, 2013. http://www.telenav.com/about/pr-summer-travel/report-
-20110803.html.
+Phones.” Accessed December 19, 2013. http://www.telenav.com/about/pr-summer-travel/report20110803.html.
 [iii] Oulasvirta, Antti, Tye Rattenbury, Lingyi Ma, and Eeva Raita. “Habits Make Smartphone Use
 More Pervasive.” Personal Ubiquitous Comput. 16, no. 1 (January 2012): 105–114.
 doi:10.1007/s00779-011-0412-2.
 [iv] Belic, Dusan, IntoMobile Thursday, February 9th, and 2012 at 12:50 AM. “Tomi Ahonen:
 Average Users Looks at Their Phone 150 Times a Day!” IntoMobile. Accessed December 19, 2013.
-http://www.intomobile.com/2012/02/09/tomi-ahonen-average-users-looks-their-phone-150-times-
-day/.
+http://www.intomobile.com/2012/02/09/tomi-ahonen-average-users-looks-their-phone-150-timesday/.
 [v]  Morsella E, Bargh JA, Gollwitzer PM (eds) (2008) Oxford handbook of human action. Oxford
 University Press, Oxford.
 [vi] For purposes of this book, I use the definition of habit formation as the process of learning new
 behaviors through repetition until they become automatic. I am grateful to Dr. Stephen Wendel for
 pointing out the spectrum of habits. For a framework describing other automatic behaviors see:
 Bargh, John A. “The Four Horsemen of Automaticity: Awareness, Intention, Efficiency, and Control
-in Social Cognition.” In Handbook of Social Cognition, Vol. 1:  Basic Processes; Vol. 2: 
+in Social Cognition.” In Handbook of Social Cognition, Vol. 1:  Basic Processes; Vol. 2:
 Applications (2nd Ed.), edited by R. S. Wyer and T. K. Srull, 1–40. Hillsdale,  NJ,  England:
 Lawrence Erlbaum Associates, Inc, 1994.
 [vii] Verplanken, Bas, and Wendy Wood. “Interventions to Break and Create Consumer Habits.”
@@ -3940,24 +3906,18 @@ Motivation, and Emotion. Wiley and Sons, New York, pp. 497–534.
 [xx] “Notes from 2005 Berkshire Hathaway Annual Meeting” Tilson Funds. Accessed November 12,
 2013. http://www.tilsonfunds.com/brkmtg05notes.pdf
 [xxi] “Mungerisms: Charlie Munger: Turning $2 Million Into $2 Trillion.” Mungerisms. Accessed
-November 12, 2013. http://mungerisms.blogspot.com/2010/04/charlie-munger-turning-2-million-into-
-2.html.
+November 12, 2013. http://mungerisms.blogspot.com/2010/04/charlie-munger-turning-2-million-into2.html.
 [xxii] “Candy Crush: So Popular It’s Killing King’s IPO?” Yahoo Finance. Accessed December 16,
-2013. http://finance.yahoo.com/blogs/the-exchange/candy-crush-so-popular-it-s-smashing-interest-in-
-an-ipo-160523940.html.
+2013. http://finance.yahoo.com/blogs/the-exchange/candy-crush-so-popular-it-s-smashing-interest-inan-ipo-160523940.html.
 [xxiii] “Evernote: ‘The Longer You Use It, the More Likely You Are to Pay’.” CNET. Accessed
-November 12, 2013. http://news.cnet.com/8301-30685_3-57339139-264/evernote-the-longer-you-
-use-it-the-more-likely-you-are-to-pay/.
+November 12, 2013. http://news.cnet.com/8301-30685_3-57339139-264/evernote-the-longer-youuse-it-the-more-likely-you-are-to-pay/.
 [xxiv] Freedman, David H. “Say Hello to Your New Brain.” Inc.com. Accessed November 14, 2013.
 http://www.inc.com/magazine/201112/evernote-2011-company-of-the-year.html.
 [xxv] Skok, David. “Lessons Learned – Viral Marketing.” For Entrepreneurs. Accessed November
 12, 2013. http://www.forentrepreneurs.com/lessons-learnt-viral-marketing/.
-[xxvi] Gourville, John T. “Eager Sellers and Stony Buyers: Understanding the Psychology of New-
-Product Adoption.” Accessed November 12, 2013. http://hbr.org/product/eager-sellers-and-stony-
-buyers-understanding-the-p/an/R0606F-PDF-ENG.
+[xxvi] Gourville, John T. “Eager Sellers and Stony Buyers: Understanding the Psychology of NewProduct Adoption.” Accessed November 12, 2013. http://hbr.org/product/eager-sellers-and-stonybuyers-understanding-the-p/an/R0606F-PDF-ENG.
 [xxvii] Adams, Cecil. “Was the QWERTY Keyboard Purposely Designed to Slow Typists?,”
-October 30, 1981. http://www.straightdope.com/columns/read/221/was-the-qwerty-keyboard-
-purposely-designed-to-slow-typists
+October 30, 1981. http://www.straightdope.com/columns/read/221/was-the-qwerty-keyboardpurposely-designed-to-slow-typists
 [xxviii] Bouton, Mark E. “Context and Behavioral Processes in Extinction.” Learning & Memory 11,
 no. 5 (September 1, 2004): 485–494. doi:10.1101/lm.78804.
 [xxix] Kirshenbaum, Ari P., Darlene M. Olsen, and Warren K. Bickel. “A Quantitative Review of the
@@ -3980,8 +3940,7 @@ again.aspx
 Accessed November 12, 2013.
 http://www.comscore.com/Insights/Press_Releases/2013/10/comScore_Releases_September_2013_U
 [xxxv] “Amazon Product Ads” Amazon. Accessed November 12, 2013.
-http://services.amazon.com/content/product-ads-on-amazon.htm/ref=as_left_pads_apa1#!how-it-
-works
+http://services.amazon.com/content/product-ads-on-amazon.htm/ref=as_left_pads_apa1#!how-itworks
 [xxxvi] Trifts, Valerie, and Gerald Häubl. “Information Availability and Consumer Preference: Can
 Online Retailers Benefit from . . .” In Journal of Consumer Psychology, 149–159, 2003.
 [xxxvii] “More Retailers at Risk of Amazon ‘Showrooming’.” Bits Blog. Accessed December 16,
@@ -3997,15 +3956,12 @@ Chapter 2: Trigger
 [xli] Accessed November 12, 2013. http://instagram.com/press/
 [xlii] Perlroth, Somini Sengupta, Nicole, and Jenna Wortham. “Instagram Founders Were Helped by
 Bay Area Connections.” The New York Times, April 13, 2012, sec. Technology.
-http://www.nytimes.com/2012/04/14/technology/instagram-founders-were-helped-by-bay-area-
-connections.html.
+http://www.nytimes.com/2012/04/14/technology/instagram-founders-were-helped-by-bay-areaconnections.html.
 [xliii] “Twitter ‘Tried to Buy Instagram before Facebook’.” Telegraph.co.uk, April 16, 2012, sec.
-twitter. http://www.telegraph.co.uk/technology/twitter/9206312/Twitter-tried-to-buy-Instagram-
-before-Facebook.html.
+twitter. http://www.telegraph.co.uk/technology/twitter/9206312/Twitter-tried-to-buy-Instagrambefore-Facebook.html.
 [xliv] Schwartz, Barry. The Paradox of Choice. New York: ECCO, 2004.
 [xlv] Masters, Blake. “Blakemasters.com.” Peter Thiel’s CS183: Startup - Class 2 Notes Essay,
-April 6, 2012. http://blakemasters.com/post/20582845717/peter-thiels-cs183-startup-class-2-notes-
-essay.
+April 6, 2012. http://blakemasters.com/post/20582845717/peter-thiels-cs183-startup-class-2-notesessay.
 [xlvi] Katikalapudi, R., S. Chellappan, F. Montgomery, D. Wunsch, and K. Lutzen. “Associating
 Internet Usage with Depressive Behavior Among College Students.” IEEE Technology and Society
 Magazine 31, no. 4 (2012): 73–80. doi:10.1109/MTS.2012.2225462.
@@ -4016,15 +3972,14 @@ http://www.nytimes.com/2012/06/17/opinion/sunday/how-depressed-people-use-the-in
 Wired.com.” Wired Business. Accessed November 12, 2013.
 http://www.wired.com/business/2013/09/ev-williams-xoxo/.
 [xlix] “How the ‘Failure’ Culture of Startups Is Killing Innovation | Wired Opinion | Wired.com.”
-Wired Opinion. Accessed November 12, 2013. http://www.wired.com/opinion/2013/09/why-do-
-research-when-you-can-fail-fast-pivot-and-act-out-other-popular-startup-cliches/.
+Wired Opinion. Accessed November 12, 2013. http://www.wired.com/opinion/2013/09/why-doresearch-when-you-can-fail-fast-pivot-and-act-out-other-popular-startup-cliches/.
 [l] “The Power of User Narratives: Jack Dorsey (Square).” Video. Entrepreneurial Thought Leaders
 
 
 Lecture. Stanford University, 2011. http://ecorner.stanford.edu/authorMaterialInfo.html?mid=2644.
 [li] “What is Customer Development.” Startup Lessons Learned by Eric Reis. Accessed November
 12, 2013. http://www.startuplessonslearned.com/2008/11/what-is-customer-development.html
-[lii] “Empathy Map.” The k12 Lab Wiki. Accessed November 12, 2013. 
+[lii] “Empathy Map.” The k12 Lab Wiki. Accessed November 12, 2013.
 https://dschool.stanford.edu/groups/k12/wiki/3d994/Empathy_Map.html
 [liii] “5 Whys.” Wikipedia, the Free Encyclopedia, November 12, 2013.
 http://en.wikipedia.org/w/index.php?title=5_Whys&oldid=581315459.
@@ -4046,13 +4001,11 @@ Wired.com.” Wired Business. Accessed November 12, 2013.
 http://www.wired.com/business/2013/09/ev-williams-xoxo/.
 [lx] Lunden, Ingrid. “Analyst: Twitter Passed 500M Users In June 2012, 140M Of Them In US;
 Jakarta ‘Biggest Tweeting’ City.” TechCrunch. Accessed November 12, 2013.
-http://techcrunch.com/2012/07/30/analyst-twitter-passed-500m-users-in-june-2012-140m-of-them-in-
-us-jakarta-biggest-tweeting-city/.
+http://techcrunch.com/2012/07/30/analyst-twitter-passed-500m-users-in-june-2012-140m-of-them-inus-jakarta-biggest-tweeting-city/.
 [lxi]  “What Causes Behavior Change?.” BJ Fogg’s Behavior Model. Accessed November 12, 2013.
 http://www.behaviormodel.org/
 [lxii] Rao, Leena. “Twitter Seeing 90 Million Tweets Per Day, 25 Percent Contain Links.”
-TechCrunch. Accessed November 12, 2013. http://techcrunch.com/2010/09/14/twitter-seeing-90-
-million-tweets-per-day/.
+TechCrunch. Accessed November 12, 2013. http://techcrunch.com/2010/09/14/twitter-seeing-90million-tweets-per-day/.
 [lxiii] Worchel, Stephen, Jerry Lee, and Akanbi Adewole. “Effects of Supply and Demand on Ratings
 of Object Value.” Journal of Personality and Social Psychology 32, no. 5 (1975): 906–914.
 doi:10.1037/0022-3514.32.5.906.
@@ -4082,8 +4035,7 @@ Numbers. New York: Pi Press, 2004.
 [lxxii] Pessiglione, Mathias, Ben Seymour, Guillaume Flandin, Raymond J. Dolan, and Chris D.
 Frith. “Dopamine-dependent Prediction Errors Underpin Reward-seeking Behaviour in Humans.”
 Nature 442, no. 7106 (August 31, 2006): 1042–1045. doi:10.1038/nature05051.
-[lxxiii] Ferster, Charles B, and Skinner. Schedules of Reinforcement. New York: Appleton-Century-
-Crofts, 1957.
+[lxxiii] Ferster, Charles B, and Skinner. Schedules of Reinforcement. New York: Appleton-CenturyCrofts, 1957.
 [lxxiv] Berns GS, McClure SM, Pagnoni G, Montague PR.. Predictability modulates human brain
 response to reward" Journal of Neuroscience. 2001 Apr 15;21(8):2793-8.
 [lxxv] Aharon, L., Etcoff, N., Ariely, D., CHabris, C. F., et al. Beautiful faces have variable reward
@@ -4107,62 +4059,51 @@ http://www.theguardian.com/science/2012/nov/15/stone-spear-early-human-species.
 Guardian, September 22, 2012, sec. Science.
 http://www.theguardian.com/science/2012/sep/23/human-hunting-evolution-2million-years?
 INTCMP=ILCNETTXT3487.
-[lxxxiii] The Barefoot Professor: By Nature Video, 2010. http://www.youtube.com/watch?v=7jrnj-
-7YKZE&feature=youtube_gdata_player.
+[lxxxiii] The Barefoot Professor: By Nature Video, 2010. http://www.youtube.com/watch?v=7jrnj7YKZE&feature=youtube_gdata_player.
 [lxxxiv] Rivlin, Gary. “Slot Machines for the Young and Active.” The New York Times, December
 10, 2007, sec. Business. http://www.nytimes.com/2007/12/10/business/10slots.html.
 
 
 [lxxxv] “Pinterest Does Another Massive Funding — $225 Million at $3.8 Billion Valuation
-(Confirmed).” AllThingsD. Accessed November 12, 2013. http://allthingsd.com/20131023/pinterest-
-does-another-massive-funding-225-million-at-3-8-billion-valuation/.
+(Confirmed).” AllThingsD. Accessed November 12, 2013. http://allthingsd.com/20131023/pinterestdoes-another-massive-funding-225-million-at-3-8-billion-valuation/.
 [lxxxvi]  Zeigarnik, B. (1927). Uber das Behalten yon erledigten und underledigten Handlungen.
 Psychologische Forschung, 9, 1-85.
 [lxxxvii] Deci, Edward L., and Richard M. Ryan. “Self-determination Theory: A Macrotheory of
 Human Motivation, Development, and Health.” Canadian Psychology/Psychologie Canadienne 49, no.
 3 (2008): 182–185. doi:10.1037/a0012801.
 [lxxxviii] Tsotsis, Alexia, and Leena Rao. “Mailbox Cost Dropbox Around $100 Million.”
-TechCrunch. Accessed November 29, 2013. http://techcrunch.com/2013/03/15/mailbox-cost-
-dropbox-around-100-million/.
+TechCrunch. Accessed November 29, 2013. http://techcrunch.com/2013/03/15/mailbox-costdropbox-around-100-million/.
 [lxxxix] "Quantcast Audience Profile for mahalo.com". Quantcast.com. Accessed June 19, 2010
 (according to Jason Calacanis.” Wikipedia, the Free Encyclopedia, October 31, 2013.
 http://en.wikipedia.org/w/index.php?title=Jason_Calacanis&oldid=579577057).
 https://www.quantcast.com/mahalo.com
 [xc] Cluley, Graham. “Creepy Quora Erodes Users’ Privacy, Reveals What You Have Read.” Naked
-Security. Accessed December 1, 2013. http://nakedsecurity.sophos.com/2012/08/09/creepy-quora-
-erodes-users-privacy-reveals-what-you-have-read/.
+Security. Accessed December 1, 2013. http://nakedsecurity.sophos.com/2012/08/09/creepy-quoraerodes-users-privacy-reveals-what-you-have-read/.
 [xci] “Removing Feed Stories About Views.” Quora. Accessed November 12, 2013.
 http://www.quora.com/permalink/gG922bywy.
 [xcii] Carpenter, Christopher J. “A Meta-Analysis of the Effectiveness of the ‘But You Are Free’
 Compliance-Gaining Technique.” Communication Studies 64, no. 1 (2013): 6–17.
 doi:10.1080/10510974.2012.727941.
 [xciii] Hamari, Juho. “Social Aspects Play an Important Role in Gamification.” Gamification
-Research Network. Accessed November 13, 2013. http://gamification-research.org/2013/07/social-
-aspects/.
+Research Network. Accessed November 13, 2013. http://gamification-research.org/2013/07/socialaspects/.
 [xciv] Adalian, Josef. “Breaking Bad Returns to Its Biggest Ratings Ever.” Vulture. Accessed
-November 13, 2013. http://www.vulture.com/2013/08/breaking-bad-returns-to-its-biggest-ratings-
-ever.html.
+November 13, 2013. http://www.vulture.com/2013/08/breaking-bad-returns-to-its-biggest-ratingsever.html.
 [xcv] “Breaking Bad Cooks up Record-breaking Formula for GUINNESS WORLD RECORDS 2014
 Edition.” Accessed November 13, 2013.
-http://www.guinnessworldrecords.com/news/2013/9/breaking-bad-cooks-up-record-breaking-
-formula-for-guinness-world-records-2014-edition-51000/.
-[xcvi] Kaufman, Geoff F, and Lisa K Libby. “Changing Beliefs and Behavior through Experience-
-taking.” Journal of Personality and Social Psychology 103, no. 1 (July 2012): 1–19.
+http://www.guinnessworldrecords.com/news/2013/9/breaking-bad-cooks-up-record-breakingformula-for-guinness-world-records-2014-edition-51000/.
+[xcvi] Kaufman, Geoff F, and Lisa K Libby. “Changing Beliefs and Behavior through Experiencetaking.” Journal of Personality and Social Psychology 103, no. 1 (July 2012): 1–19.
 doi:10.1037/a0027525.
 [xcvii] “CityVille Tops FarmVille’s Highest Peak Of Monthly Users.” SocialTimes. Accessed
-November 13, 2013. http://socialtimes.com/cityville-tops-farmvilles-highest-peak-of-monthly-
-users_b33272.
+November 13, 2013. http://socialtimes.com/cityville-tops-farmvilles-highest-peak-of-monthlyusers_b33272.
 [xcviii] Zynga, Inc. 2011 Annual Report. San Francisco, CA. Filed February 28, 2012
 [xcviii]http://investor.zynga.com/secfiling.cfm?filingID=1193125-12-85761&CIK=1439404
 [xcix] Karmali, Luke. “Mists of Pandaria Pushes Warcraft Subs Over 10 Million.” IGN, October 4,
-2012. http://www.ign.com/articles/2012/10/04/mists-of-pandaria-pushes-warcraft-subs-over-10-
-million.
+2012. http://www.ign.com/articles/2012/10/04/mists-of-pandaria-pushes-warcraft-subs-over-10million.
 
 
 Chapter 5: Investment
 [c] “Taiwan Teen Dies after Gaming for 40 Hours.” The Australian. Accessed November 13, 2013.
-http://www.theaustralian.com.au/news/latest-news/taiwan-teen-dies-after-gaming-for-40-
-hours/story-fn3dxix6-1226428437223.
+http://www.theaustralian.com.au/news/latest-news/taiwan-teen-dies-after-gaming-for-40hours/story-fn3dxix6-1226428437223.
 [ci] Lord, James Gregory. The Raising of Money: 35 Essentials Trustees Are Using to Make a
 Difference. Seattle, Wash.: New Futures Press, 2010.
 [cii] Cialdini, Robert B. Influence: The Psychology of Persuasion. New York: HarperCollins, 2007.
@@ -4179,8 +4120,7 @@ demonstrates behavior change. In Proceedings of CHI 1997, ACM Press, 331-332.
 Build the Network and Infrastructure.’ Didn’t Know It Was so Easy!” Microblog. @libovness,
 November 7, 2013. https://twitter.com/libovness/status/398451464907259904.
 [cviii] “Mobile App Analytics Show 26% of App Downloads Used One-time.” Localytics. Accessed
-November 13, 2013. http://www.localytics.com/blog/2011/first-impressions-matter-26-percent-of-
-apps-downloaded-used-just-once
+November 13, 2013. http://www.localytics.com/blog/2011/first-impressions-matter-26-percent-ofapps-downloaded-used-just-once
 [cix] Mon, Peter Farago on, Oct 22, and 2012. “App Engagement: The Matrix Reloaded.” Accessed
 November 13, 2013. http://blog.flurry.com/bid/90743/App-Engagement-The-Matrix-Reloaded.
 [cx] Dating, Facebook Twitter LinkedIn Tinder’s Sean Rad Hints At A. Future Beyond, and Says The
@@ -4188,11 +4128,9 @@ App Sees 350M Swipes A. Day. “Tinder’s Sean Rad Hints At A Future Beyond Dat
 App Sees 350M Swipes A Day.” TechCrunch. Accessed November 13, 2013.
 http://techcrunch.com/2013/10/29/sean-rad-disrupt/.
 [cxi] “Snapchat: Self-destructing Messaging App Raises $60m in Funding.” The Guardian, June 25,
-2013. http://www.theguardian.com/technology/appsblog/2013/jun/25/snapchat-app-self-destructing-
-messaging.
+2013. http://www.theguardian.com/technology/appsblog/2013/jun/25/snapchat-app-self-destructingmessaging.
 [cxii] “Pinterest Does Another Massive Funding — $225 Million at $3.8 Billion Valuation
-(Confirmed).” AllThingsD. Accessed November 13, 2013. http://allthingsd.com/20131023/pinterest-
-does-another-massive-funding-225-million-at-3-8-billion-valuation/.
+(Confirmed).” AllThingsD. Accessed November 13, 2013. http://allthingsd.com/20131023/pinterestdoes-another-massive-funding-225-million-at-3-8-billion-valuation/.
 Chapter 6: What Are You Going to Do with This?
 [cxiii] For further thoughts on the morality of designing behavior, see: Thaler, Richard H., Cass R.
 Sunstein, and John P. Balz. Choice Architecture. SSRN Scholarly Paper. Rochester, NY: Social
@@ -4229,13 +4167,10 @@ Chapter 7:  Case Study: The Bible App
 Downloads: First-Ever Survey Shows How App Is Truly Changing Bible Engagement.” PRWeb, July
 8, 2013. http://www.prweb.com/releases/2013/7/prweb10905595.htm.
 [cxxvi] Tsotsis, Alexia. “Snapchat Snaps Up A $80M Series B Led By IVP At An $800M Valuation.”
-TechCrunch. Accessed November 13, 2013. http://techcrunch.com/2013/06/22/source-snapchat-
-snaps-up-80m-from-ivp-at-a-800m-valuation/.
-[cxxvii] “YouVersion Infographics.” Accessed November 13, 2013. http://blog.youversion.com/wp-
-content/uploads/2013/07/themobilebible1.jpg.
+TechCrunch. Accessed November 13, 2013. http://techcrunch.com/2013/06/22/source-snapchatsnaps-up-80m-from-ivp-at-a-800m-valuation/.
+[cxxvii] “YouVersion Infographics.” Accessed November 13, 2013. http://blog.youversion.com/wpcontent/uploads/2013/07/themobilebible1.jpg.
 [cxxviii] Alford, Henry. “If I Do Humblebrag So Myself.” The New York Times, November 30,
-2012, sec. Fashion & Style. http://www.nytimes.com/2012/12/02/fashion/bah-humblebrag-the-
-unfortunate-rise-of-false-humility.html.
+2012, sec. Fashion & Style. http://www.nytimes.com/2012/12/02/fashion/bah-humblebrag-theunfortunate-rise-of-false-humility.html.
 [cxxix] Tamir, Diana I., and Jason P. Mitchell. “Disclosing Information About the Self Is Intrinsically
 Rewarding.” Proceedings of the National Academy of Sciences (May 7, 2012): 201202129.
 doi:10.1073/pnas.1202129109.
@@ -4244,8 +4179,7 @@ Chapter 8: Habit Testing and Where to Look for Habit-Forming Opportunities
 http://www.growhack.com/2012/12/04/discovering-your-aha-moment/.
 [cxxxi] Graham, Paul. “Schlep Blindness,” January 2012. http://paulgraham.com/schlep.html
 [cxxxii] Gascoigne, Joel. “Buffer October Update: $2,388,000 Annual Revenue Run Rate, 1,123,000
-Users,” November 7, 2013. http://open.bufferapp.com/buffer-october-update-2388000-run-rate-
-1123000-users/.
+Users,” November 7, 2013. http://open.bufferapp.com/buffer-october-update-2388000-run-rate1123000-users/.
 [cxxxiii] “I’m Joel Gascoigne, and This Is the Story Behind Buffer.” Life Hacker. Accessed
 November 13, 2013. http://www.lifehacker.co.in/technology/Im-Joel-Gascoigne-and-This-Is-the-
 
@@ -4258,8 +4192,7 @@ Story-Behind-Buffer/articleshow/24271474.cms.
 [cxxxvii] Stoll, Clifford. “The Internet? Bah!” Newsweek, February 27, 1995.
 http://www.english.illinois.edu/-people-/faculty/debaron/582/582%20readings/stoll.pdf.
 [cxxxviii] Maples, Jr, Mike. “Technology Waves and the Hypernet.” Roger and Mike’s Hypernet
-Blog. Accessed November 13, 2013. http://rogerandmike.com/post/14629058018/technology-waves-
-and-the-hypernet.
+Blog. Accessed November 13, 2013. http://rogerandmike.com/post/14629058018/technology-wavesand-the-hypernet.
 [cxxxix] “How to Get Startup Ideas,” November 2012. http://paulgraham.com/startupideas.html.
 
 

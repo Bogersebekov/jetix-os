@@ -9,10 +9,11 @@ chars: 414435
 approx_tokens: 103608
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 414437
+phase4_chars_after: 414235
+phase4_saved_pct: 0.0
 ---
-
-
-
 
 
 Thank you for downloading this Simon & Schuster eBook.
@@ -21,8 +22,6 @@ books from Simon & Schuster.
 CLICK HERE TO SIGN UP
 or visit us online to sign up at
 eBookNews.SimonandSchuster.com
-
-
 
 
 Contents
@@ -134,8 +133,7 @@ Wein thought he could get some buzz by raising the humble cheesesteak
 to new culinary heights—and attaching a newsworthy price tag. So he
 started with a fresh, house-made brioche roll brushed with homemade
 mustard. He added thinly sliced Kobe beef, marbleized to perfection. Then
-he included caramelized onions, shaved heirloom tomatoes, and triple-
-cream Taleggio cheese. All this was topped off with shaved hand-harvested
+he included caramelized onions, shaved heirloom tomatoes, and triplecream Taleggio cheese. All this was topped off with shaved hand-harvested
 black truffles and butter-poached Maine lobster tail. And just to make it
 even more outrageous, he served it with a chilled split of Veuve Clicquot
 champagne.
@@ -371,8 +369,7 @@ they may not be as easy to see, they still have an important impact on our
 behavior.
 Further, while one might think that online word of mouth reaches more
 people, that’s not always the case. Sure, online conversations could reach
-more people. After all, while face-to-face conversations tend to be one-on-
-one, or among a small handful of people, the average tweet or Facebook
+more people. After all, while face-to-face conversations tend to be one-onone, or among a small handful of people, the average tweet or Facebook
 status update is sent to more than one hundred people. But not all of these
 potential recipients will actually see every message. People are inundated
 with online content, so they don’t have the time to read every tweet,
@@ -636,8 +633,7 @@ mouth, I would direct them to the various academic papers I and others had
 published in the area. Inevitably, some people would e-mail back to say
 thanks but request something more “accessible.” In other words, something
 that was rigorous but less dry than the typical jargon-laden articles
-published in academic journals. A book that provided them with research-
-based principles for understanding what makes things catch on.
+published in academic journals. A book that provided them with researchbased principles for understanding what makes things catch on.
 This is that book.
 
 
@@ -683,8 +679,7 @@ Principle 2: Triggers
 How do we remind people to talk about our products and ideas? Triggers
 are stimuli that prompt people to think about related things. Peanut butter
 reminds us of jelly and the word “dog” reminds us of the word “cat.” If you
-live in Philadelphia, seeing a cheesesteak might remind you of the hundred-
-dollar one at Barclay Prime. People often talk about whatever comes to
+live in Philadelphia, seeing a cheesesteak might remind you of the hundreddollar one at Barclay Prime. People often talk about whatever comes to
 mind, so the more often people think about a product or idea, the more it
 will be talked about. We need to design products and ideas that are
 frequently triggered by the environment and create new triggers by linking
@@ -856,8 +851,7 @@ really needed more space. Next door was a struggling bubble tea lounge.
 Brian’s lawyer said that if they could get the space, the liquor license would
 transfer. After three years of consistent prodding, the neighbor finally gave
 in.
-But now came the tough part. New York City is flush with bars. In a four-
-block radius around Crif Dogs there are more than sixty places to grab a
+But now came the tough part. New York City is flush with bars. In a fourblock radius around Crif Dogs there are more than sixty places to grab a
 drink. A handful are even on the same block. Originally, Brian had a grungy
 rock-and-roll bar in mind. But that wouldn’t cut it. The concept needed be
 something more remarkable. Something that would get people talking and
@@ -952,8 +946,7 @@ make it even more interesting, Tamir and Mitchell varied the amount that
 
 people got paid for choosing a particular option. In some trials people could
 get paid a couple of cents more for choosing to wait for a few seconds. In
-others they could get paid a couple of cents more for choosing to self-
-disclose.
+others they could get paid a couple of cents more for choosing to selfdisclose.
 The result? People were willing to forgo money to share their opinions.
 Overall, they were willing to take a 25 percent pay cut to share their
 thoughts. Compared with doing nothing for five seconds, people valued
@@ -975,8 +968,7 @@ friend Todd. He’s a really cool guy. He also happens to have a Mohawk.
 Any idea what he’s like? How old he is? What type of music he likes?
 Where he shops?
 I’ve played this game with hundreds of people and the results are always
-the same. Most people think Carla is somewhere between thirty and forty-
-five years old. All of them—yes, 100 percent—believe she has kids. Most
+the same. Most people think Carla is somewhere between thirty and fortyfive years old. All of them—yes, 100 percent—believe she has kids. Most
 are convinced those kids play sports, and almost everyone who believes that
 guesses that soccer is the sport of choice. All that from a minivan.
 Now Todd. Most people agree that he’s somewhere between fifteen and
@@ -1175,13 +1167,10 @@ no one would have thought possible (such as blend golf balls like
 Blendtec)? Are the consequences of the idea or issue more extreme than
 people ever could have imagined?
 One way to generate surprise is by breaking a pattern people have come
-to expect. Take low-cost airlines. What do you expect when you fly a low-
-cost carrier? Small seats, no movies, limited snacks, and a generally no-
-frills experience. But people who fly JetBlue for the first time often tell
+to expect. Take low-cost airlines. What do you expect when you fly a lowcost carrier? Small seats, no movies, limited snacks, and a generally nofrills experience. But people who fly JetBlue for the first time often tell
 others because the experience is remarkably different. You get a large,
 comfortable seat, a variety of snack choices (from Terra Blues chips to
-animal crackers), and free DIRECTV programming from your own seat-
-back television. Similarly, by using Kobe beef and lobster, and charging one
+animal crackers), and free DIRECTV programming from your own seatback television. Similarly, by using Kobe beef and lobster, and charging one
 hundred dollars, Barclay Prime got buzz by breaking the pattern of what
 people expected from a cheesesteak.
 Mysteries and controversy are also often remarkable. The Blair Witch
@@ -1562,8 +1551,7 @@ Southern barbecue. He loved the rich, smoky flavor and thought it would be
 a perfect addition to the McDonald’s menu.
 But contrary to what the name suggests, there is actually very little rib
 meat on the McRib. Instead, imagine a pork patty shaped into something
-that looks like a rack of ribs. Subtract the bones (and most of the higher-
-quality meat), add barbecue sauce, top it off with onions and pickles, toss it
+that looks like a rack of ribs. Subtract the bones (and most of the higherquality meat), add barbecue sauce, top it off with onions and pickles, toss it
 in a bun, and you pretty much have the McRib.
 Lack of rib meat aside, the product test-marketed quite well. McDonald’s
 was excited and soon added the product to the nationwide menu. McRibs
@@ -1671,8 +1659,7 @@ relaxing the restrictions later is a particularly good way to build demand.
 Also be wary of how restricting availability can come off as snooty or standoffish. People are
 used to getting what they want and if they hear “no” too much they may go elsewhere. Jim Meehan at
 Please Don’t Tell addresses this problem explicitly by instructing his staff that if they need to say
-“no” they should try to figure out a way to say “no, but.” Such as, “No, we are all booked up at eight-
-thirty, unfortunately, but how about eleven?” or “No, we don’t have brand X but we have brand Y,
+“no” they should try to figure out a way to say “no, but.” Such as, “No, we are all booked up at eightthirty, unfortunately, but how about eleven?” or “No, we don’t have brand X but we have brand Y,
 would you like to try it?” By managing the disappointment, they maintain the allure while also
 maintaining customer satisfaction.
 
@@ -1737,8 +1724,7 @@ Over the years, the company has assembled a network of more than
 800,000 BzzAgents, people who have said that they are interested in
 learning about and trying new products. Agents span a broad range of ages,
 incomes, and occupations. Most are between eighteen and fifty-four years
-old, are well educated, and have a reasonable income. Teachers, stay-at-
-home moms, working professionals, PhDs, and even CEOs are BzzAgents.
+old, are well educated, and have a reasonable income. Teachers, stay-athome moms, working professionals, PhDs, and even CEOs are BzzAgents.
 If you wonder what type of person would be a BzzAgent, the answer is
 you. Agents reflect the U.S. population at large.
 When a new client calls, Dave’s team culls through its large database to
@@ -2083,8 +2069,7 @@ thirteen-year-old released what many music critics dubbed the worst song
 ever.
 
 
-Born in 1997, Rebecca was just a kid when she released her first full-
-length song. But this was far from her first foray into music. She had
+Born in 1997, Rebecca was just a kid when she released her first fulllength song. But this was far from her first foray into music. She had
 auditioned for shows, had attended music summer camp, and had sung
 publicly for a number of years. After hearing from a classmate who had
 turned to outside help for her music career, Rebecca’s parents paid four
@@ -2500,8 +2485,7 @@ By October 27, 2008, Denise Grady had been writing about science for
 The New York Times for more than a decade. With an eye for quirky topics
 and a deft narrative style, Grady won numerous journalism prizes by
 making esoteric topics accessible to lay readers.
-That day, one of Grady’s articles rocketed up the newspaper’s Most E-
-Mailed list. Within hours of its publication thousands of people had decided
+That day, one of Grady’s articles rocketed up the newspaper’s Most EMailed list. Within hours of its publication thousands of people had decided
 to pass on the article to their friends, relatives, and coworkers. Grady had
 scored a viral hit.
 The topic? How fluid and gas dynamic theories were being used in
@@ -2690,8 +2674,7 @@ political ones.
 Nice. But we were more interested in understanding what drives sharing
 than in simply describing the attributes of content that was shared. Okay, so
 sports articles are less viral than dining articles. But why? It’s like saying
-people like to share pictures of cats or talk about paintball more than Ping-
-Pong. That doesn’t really tell us much about why that is happening or allow
+people like to share pictures of cats or talk about paintball more than PingPong. That doesn’t really tell us much about why that is happening or allow
 us to make predictions beyond the narrow domains of cat stuff or sports that
 start with the letter P.
 Two reasons people might share things are that they are interesting and
@@ -2760,8 +2743,7 @@ plays even though he has brain cancer evoked lots of awe. Articles about
 holiday shopping bargains evoked little or no awe. We then used statistical
 analyses to compare these scores with whether articles were highly shared.
 Our intuition was right: awe boosted sharing.
-Awe-inspiring articles were 30 percent more likely to make the Most E-
-Mailed list. Articles previously judged to have low Social Currency and
+Awe-inspiring articles were 30 percent more likely to make the Most EMailed list. Articles previously judged to have low Social Currency and
 Practical Value—Grady’s cough piece or an article suggesting that gorillas
 may, like humans, grieve when losing loved ones—nevertheless made the
 Most E-Mailed list because of the awe they inspired.
@@ -2811,8 +2793,7 @@ experiences better. If we get promoted, telling others helps us celebrate. If
 we get fired, telling others helps us vent.
 
 
-Sharing emotions also helps us connect. Say I watch a really awe-
-inspiring video, like Susan Boyle’s performance. If I share that video with a
+Sharing emotions also helps us connect. Say I watch a really aweinspiring video, like Susan Boyle’s performance. If I share that video with a
 friend, he’s likely to feel similarly inspired. And the fact that we both feel
 the same way helps deepen our social connection. It highlights our
 similarities and reminds us how much we have in common. Emotion
@@ -2987,8 +2968,7 @@ But while it is tempting to say that these things went viral simply because
 they are funny, a more fundamental process is at work. Think about the last
 time you heard a really hilarious joke or were forwarded a humorous clip
 and felt compelled to pass it along. Just like inspiring things, or those that
-make us angry, funny content is shared because amusement is a high-
-arousal emotion.
+make us angry, funny content is shared because amusement is a higharousal emotion.
 Low-arousal emotions, however, like sadness, decrease sharing.
 Contentment has the same effect. Contentment isn’t a bad feeling. Being
 content feels pretty good. But people are less likely to talk about or share
@@ -3221,8 +3201,7 @@ from carrying their babies in slings. The ad noted that while babywearing
 can be great for the baby, it can put a ton of strain on the back, neck, and
 shoulders of the mom.
 The company was trying to be supportive. It wanted to show that it
-understood mom’s pain and Motrin was there to help. But a number of so-
-called mommy bloggers saw things differently. The mom’s voice-over in
+understood mom’s pain and Motrin was there to help. But a number of socalled mommy bloggers saw things differently. The mom’s voice-over in
 the ad said babywearing “totally makes me look like an official mom. And
 so if I look tired and crazy, people will understand why.”
 Deeply offended on two fronts—by the implication that they wore their
@@ -3291,8 +3270,7 @@ made the request, but all complied.
 After they were done, they participated in what seemed like a second,
 unrelated experiment. They were told the experimenters were interested in
 what people share with others and were given a recent article from the
-school newspaper. Then, after reading it, they were given the option of e-
-mailing it to anyone they liked.
+school newspaper. Then, after reading it, they were given the option of emailing it to anyone they liked.
 In actuality, this “unrelated study” was part of my initial experiment. I
 wanted to test a simple but intriguing hypothesis. At this point we knew that
 emotionally arousing content or experiences would be more likely to be
@@ -3628,11 +3606,11 @@ read one another’s thoughts. If they could, they’d realize that everyone fel
 the same way. And they wouldn’t feel all this social proof compelling them
 to drink as much.
 For a more familiar example, think about the last time you sat through a
-bewildering 
-PowerPoint 
-presentation. 
-Something 
-about 
+bewildering
+PowerPoint
+presentation.
+Something
+about
 equity
 
 
@@ -3763,8 +3741,7 @@ something that everyone can see. For the thirty days of November people
 who sport a moustache effectively become walking, talking billboards for
 the cause. As noted on Movember’s website,
 Through their actions and words they [participants] raise awareness
-by prompting private and public conversations around the often-
-ignored issue of men’s health.
+by prompting private and public conversations around the oftenignored issue of men’s health.
 And start conversation it does. Seeing someone you know suddenly
 sprout a moustache generates discussion. People usually gossip a bit among
 themselves until someone gets up the courage to ask the wearer what
@@ -3918,8 +3895,7 @@ along the way. From fifteen-year-olds dealing with cancer to college
 students trying to stay in shape, Lance helped people to believe. If he could
 come back from cancer, they could overcome the challenges in their own
 lives. (Note that in the decade since 2003, it has become apparent that
-Armstrong may have achieved his success through the use of performance-
-enhancing drugs. But given the powerful success of Livestrong wristbands,
+Armstrong may have achieved his success through the use of performanceenhancing drugs. But given the powerful success of Livestrong wristbands,
 and the Lance Armstrong Foundation more generally, it is worth
 considering how they became popular, outside of whether Armstrong’s
 personal story is tainted or not.)
@@ -4075,8 +4051,7 @@ of dollars on anti-drug public service announcements. It hoped that the
 messages would teach kids how to react in these situations and, as a result,
 decrease drug use.
 More recent campaigns have relied on the same idea. Between 1998 and
-2004, Congress appropriated almost $1 billion for the National Youth Anti-
-Drug Media Campaign. The goal was to educate kids ages twelve to
+2004, Congress appropriated almost $1 billion for the National Youth AntiDrug Media Campaign. The goal was to educate kids ages twelve to
 eighteen to enable them to reject drugs.
 Communications professor Bob Hornik wanted to see whether anti-drug
 ads were actually effective. So he collected data on the drug use of
@@ -4701,8 +4676,7 @@ people do things they want to do, or encouraging them to do things they
 should do. Faster, better, and easier.
 As we discussed in the Emotions chapter, our analysis of The New York
 Times Most E-Mailed list found that articles about health and education
-were some of the most frequently shared. Recipes and reviews of up-and-
-coming restaurants were also highly shared. One reason is that these types
+were some of the most frequently shared. Recipes and reviews of up-andcoming restaurants were also highly shared. One reason is that these types
 of articles all provide useful information. The health section suggests
 solutions for people with hearing loss and techniques for boosting mental
 fitness in middle age. The education section covers useful programs for
@@ -4826,8 +4800,7 @@ victory. They tied ropes around the beast’s neck and dozens of men set huge
 log rollers underneath the wooden body to pull it slowly up from the beach.
 Others worked to take down the gate so that the monstrous sculpture could
 be dragged inside the city walls.
-Once the statue was inside, the Trojans celebrated the end of the decade-
-long conflict. They decorated the temples with greenery, unearthed the jugs
+Once the statue was inside, the Trojans celebrated the end of the decadelong conflict. They decorated the temples with greenery, unearthed the jugs
 of sacrificial wine, and danced to rejoice at the conclusion of their ordeal.
 But that night, while the city lay unconscious in drunken slumber, the
 Greeks sprang from their hiding place. They slid to the ground, silenced the
@@ -5221,8 +5194,7 @@ officials and security guards.
 
 
 Ron had broken into the Olympics. He wasn’t actually on the Canadian
-swim team. In fact, he wasn’t an Olympic athlete at all. He was the self-
-proclaimed most famous streaker in the world, and he had crashed the
+swim team. In fact, he wasn’t an Olympic athlete at all. He was the selfproclaimed most famous streaker in the world, and he had crashed the
 Olympics as part of a publicity stunt.
 —————
 When Ron jumped off the springboard, he wasn’t naked, but he wasn’t
@@ -5650,8 +5622,7 @@ brand. The hundred-dollar cheesesteak did just that. It not only provided a
 remarkable (Social Currency), surprising (Emotion) narrative (Story) but
 also illustrated the type of quality product that the steakhouse offered
 (Practical Value). And the prevalence of cheesesteaks in Philadelphia
-offered ready reminders for people to pass it on (Triggers). The hundred-
-dollar cheesesteak got people talking and helped make Barclay Prime a
+offered ready reminders for people to pass it on (Triggers). The hundreddollar cheesesteak got people talking and helped make Barclay Prime a
 rousing success.
 George Wright had almost no marketing budget. He needed a way to
 generate buzz about a product most people wouldn’t ordinarily talk about: a
@@ -5749,9 +5720,9 @@ activity so engaging? Consider each of the STEPPS. What keeps you
 hooked? Also, why do we value achievement so much? Where is an
 area you’ve noticed yourself being motivated by it?
 4) Can mundane things (like a blender) really diffuse through public
-consciousness 
-as 
-quickly as 
+consciousness
+as
+quickly as
 remarkable things can? Does
 sensationalism or novelty (inherent remarkability) carry an advantage,
 even when STEPPS are considered?
@@ -5850,8 +5821,7 @@ through the web. Research shows that this decreases some of the benefits of
 social interaction. Warm interpersonal contact reduces stress, but things like
 texting don’t have the same effect. Do we share less? Doubtful, but we do
 share differently.
-6.  The nature of current commercials seems more and more “off-
-brand,” as companies create non-sequitur and nonsensical ads to elicit
+6.  The nature of current commercials seems more and more “offbrand,” as companies create non-sequitur and nonsensical ads to elicit
 a laugh or capitalize on “irony.” Are they failing to follow the
 STEPPS? Is there remarkability to silliness un-related to product?
 (Unlike the Panda in the food store).
@@ -5916,20 +5886,20 @@ eBookNews.SimonandSchuster.com
 
 Notes
 Introduction: Why Things Catch On
-Sixty 
-percent 
-are 
+Sixty
+percent
+are
 gone:
 www.econ.ucsb.edu/~tedb/Courses/Ec1F07/restaurantsfail.pdf.
 “It was like eating gold”: Taken from Barclay Prime’s Yelp page,
 http://www.yelp.com/biz/barclay-prime-philadelphia.
 Most restaurants bomb: Shane, Scott (2008), “Startup Failure Rates—The
-REAL 
-numbers,” 
-Small 
-Business 
-Trends, 
-April 
+REAL
+numbers,”
+Small
+Business
+Trends,
+April
 28,
 http://smallbiztrends.com/2008/04/startup-failure-rates.html.
 People share more than 16,000 words: See Mehl, Matthais R., Simine
@@ -5972,24 +5942,20 @@ Versus Traditional Marketing.”
 customers referred by their friends: Schmitt, Philipp, Bernd Skiera, and
 Christophe Van den Bulte (2011), “Referral Programs and Customer
 Value,” Journal of Marketing 75 (January), 46–59. See also
-http://techcrunch.com/2011/11/27/social-proof-why-people-like-to-
-follow-the-crowd.
+http://techcrunch.com/2011/11/27/social-proof-why-people-like-tofollow-the-crowd.
 Millions of people use these sites: Eridon, Corey (2011), “25 Billion Pieces
 of Content Get Shared on Facebook Monthly,” Hubspot Blog, December
-2, http://blog.hubspot.com/blog/tabid/6307/bid/29407/25-Billion-Pieces-
-of-Content-Get-Shared-on-Facebook-Monthly-INFOGRAPHIC.aspx.
+2, http://blog.hubspot.com/blog/tabid/6307/bid/29407/25-Billion-Piecesof-Content-Get-Shared-on-Facebook-Monthly-INFOGRAPHIC.aspx.
 The actual number is 7 percent: This book provides a really nice
 perspective on the importance of face-to-face word of mouth: Keller, Ed,
 and Brad Fay (2012), The Face-to-Face Book: Why Real Relationships
 Rule in a Digital Marketplace (New York: Free Press).
-Close to two hours a day: See http://news.cnet.com/8301-1023_3-
-10421016-93.html.
+Close to two hours a day: See http://news.cnet.com/8301-1023_310421016-93.html.
 the average tweet: Arthur, Charles (2009), “Average Twitter User has 126
 Followers, and Only 20% of Users Go via Website,” The Guardian,
-March 
+March
 29,
-http://www.guardian.co.uk/technology/blog/2009/jun/29/twitter-users-
-average-api-traffic.
+http://www.guardian.co.uk/technology/blog/2009/jun/29/twitter-usersaverage-api-traffic.
 offline discussions are more prevalent: When thinking about whether online
 or offline word of mouth will be more effective, also think about where
 the desired action is taking place. If you’re trying to get people to check
@@ -6004,8 +5970,7 @@ people do research before they buy. While most people buy a car offline,
 they do a lot of research online and may make their decision before they
 ever step into the dealership. In those instances, online word of mouth
 may sway their decision.
-Only one-third of 1 percent: See http://articles.businessinsider.com/2009-
-05-20/tech/30027787_1_tubemogul-videos-viral-hits.
+Only one-third of 1 percent: See http://articles.businessinsider.com/200905-20/tech/30027787_1_tubemogul-videos-viral-hits.
 “by the efforts”: Gladwell, Malcolm (2000), The Tipping Point: How Little
 Things Can Make a Big Difference (New York: Little, Brown).
 “one in 10 Americans”: Keller, Ed, and Jon Berry (2003), The Influentials:
@@ -6033,14 +5998,13 @@ Tom Dickson was looking for a new job: Sauer, Patrick J. (2008),
 http://jonahberger.com to see Tom blending an iPhone.
 
 
-in 
-1999 
-Blendtec 
-was 
-founded: 
+in
+
+Blendtec
+was
+founded:
 See
-http://donteattheshrimp.com/2007/07/03/will-it-blend-gets-blendtec-in-
-the-wsj/ and http://magazine.byu.edu/?act=view&a=2391 for some good
+http://donteattheshrimp.com/2007/07/03/will-it-blend-gets-blendtec-inthe-wsj/ and http://magazine.byu.edu/?act=view&a=2391 for some good
 discussions of the early years at Blendtec.
 1. Social Currency
 Brian decided: Interviews with Brian Shebairo on May 16, 2012, and Jim
@@ -6048,8 +6012,7 @@ Meehan on May 13, 2012.
 40 percent of what people talk about: Dunbar, Robert I. M., Anna Marriott,
 and N. D. C. Duncan (1997), “Human Conversational Behavior,” Human
 Nature 8, no. 3, 231–44.
-half of tweets are “me” focused: Naaman, Mor, Jeffrey Boase, and Chih-
-Hui Lai (2010), “Is It Really About Me? Message Content in Social
+half of tweets are “me” focused: Naaman, Mor, Jeffrey Boase, and ChihHui Lai (2010), “Is It Really About Me? Message Content in Social
 Awareness Streams,” Proceedings of the ACM Conference, 189–92.
 Jason Mitchell and Diana Tamir: Tamir, Diana I., and Jason P. Mitchell
 (2012), “Disclosing Information About the Self Is Intrinsically
@@ -6062,20 +6025,18 @@ Social Psychology 95, no. 3, 593–605. See also Berger, Jonah, and Chip
 Heath (2007), “Where Consumers Diverge from Others: Identity
 Signaling and Product Domains,” Journal of Consumer Research 34, no.
 2, 121–34, for discussions of research in this area.
-Prada handbag: Wojnicki, Andrea C., and Dave Godes (2010), “Word-of-
-Mouth as Self-Enhancement,” University of Toronto working paper. See
+Prada handbag: Wojnicki, Andrea C., and Dave Godes (2010), “Word-ofMouth as Self-Enhancement,” University of Toronto working paper. See
 also De Angelis, Matteo, Andrea Bonezzi, Alessandro Peluso, Derek
 Rucker, and Michele Costabile (2012), “On Braggarts and Gossips: A
-Self-Enhancement 
-Account 
-of 
-Word-of-Mouth 
-Generation 
+Self-Enhancement
+Account
+of
+Word-of-Mouth
+Generation
 and
 Transmission,” Journal of Marketing Research, forthcoming.
 Something “out of the ordinary”: For a discussion of the story behind
-Snapple facts, see http://mittelmitte.blogspot.com/2006/09/snapple-real-
-facts-are-100-true.html and http://mysnapplerealfacts.blogspot.com/.
+Snapple facts, see http://mittelmitte.blogspot.com/2006/09/snapple-realfacts-are-100-true.html and http://mysnapplerealfacts.blogspot.com/.
 Wharton professor Raghu Iyengar: Berger, Jonah, and Raghuram Iyengar
 (2013), “How Interest Shapes Word-of-Mouth over Different Channels,”
 Wharton working paper.
@@ -6099,18 +6060,18 @@ Wharton working paper.
 Shot on a handheld camera: Details about The Blair Witch Project can be
 found at http://en.wikipedia.org/wiki/The_Blair_Witch_Project.
 black toilet paper: Information about Renova, the Portuguese company that
-makes 
-colored 
-toilet 
-paper, 
-can 
-be 
-found 
+makes
+colored
+toilet
+paper,
+can
+be
+found
 at
 http://www.renovaonline.net/_global/.
 180 million people: The facts about frequent flier programs came from
 http://www.frequentflyerservices.com/press_room/facts_and_stats/freque
-nt_flyer_facts.php 
+nt_flyer_facts.php
 and
 http://www.prweb.com/releases/2011/11/prweb8925371.htm.
 discrete markers motivate us: Information about how goals can act as
@@ -6134,14 +6095,13 @@ They preferred to do better: Solnick, S. J., and D. Hemenway (1998), “Is
 More Always Better? A Survey on Positional Concerns.” Journal of
 Economic Behavior and Organization 37, 373–83.
 the contest helped drive sales: Information about Burberry’s “Art of the
-Trench” 
-campaign 
-can 
-be 
-found 
+Trench”
+campaign
+can
+be
+found
 at
-http://blogs.wsj.com/source/2010/01/19/burberry%E2%80%99s-trench-
-website-too-good-to-be-true/ 
+http://blogs.wsj.com/source/2010/01/19/burberry%E2%80%99s-trenchwebsite-too-good-to-be-true/
 and
 http://www.1to1media.com/weblog/2010/01/internet_marketing_from_th
 e_tr.html.
@@ -6167,15 +6127,15 @@ D. Barnaby (1971), “A Commodity Theory Analysis of Consumer
 Preferences for Scarce Products,” Proceedings 79th Annual Convention
 of the American Psychological Association, 1971, pp. 653–54.
 Chicken McNuggets: Thanks to Dave Balter for telling me about the McRib
-locator. 
-For 
-background 
-details 
-on 
-the 
-story, 
+locator.
+For
+background
+details
+on
+the
+story,
 see
-http://www.maxim.com/funny/the-cult-of-the-mcrib-0 
+http://www.maxim.com/funny/the-cult-of-the-mcrib-0
 and
 http://en.wikipedia.org/wiki/McRib.
 
@@ -6199,8 +6159,7 @@ analysis we discuss in this chapter: Berger, Jonah, and Eric Schwartz
 of Marketing, October, 869–80. The finding also comes from Twitter data
 on the frequency with which these two brands are discussed.
 sixteen word-of-mouth episodes: Carl, Walter (2006), “What’s All the Buzz
-About? Everyday Communication and the Relational Basis of Word-of-
-Mouth and Buzz Marketing Practices,” Management Communication
+About? Everyday Communication and the Relational Basis of Word-ofMouth and Buzz Marketing Practices,” Management Communication
 Quarterly 19, 601–34.
 American consumers mention specific brands: Keller, Ed, and Barak Libai
 (2009), “A Holistic Approach to the Measurement of WOM,”
@@ -6223,8 +6182,7 @@ others (such as movies), but what really drives discussion in the first
 place—the psychology of talk.
 some thoughts are more top of mind: Accessibility is a huge topic in
 psychology; for some classic research on the topic, see Higgins, E. Tory,
-and G. King (1981), “Accessibility of Social Constructs: Information-
-processing Consequences of Individual and Contextual Variability,” in
+and G. King (1981), “Accessibility of Social Constructs: Informationprocessing Consequences of Individual and Contextual Variability,” in
 Personality, Cognition, and Social Interaction, ed. N. Cantor and J. F.
 Kihlstrom (Hillsdale, N.J.: Lawrence Erlbaum), 60–81; and Wyer, Robert
 S., and T. K. Srull (1981), “Category Accessibility: Some Theoretical and
@@ -6287,8 +6245,7 @@ one of the top ten “earworms”: Details about the “Give me a Break” song
 being an earworm came from Kellaris, James (2003), “Dissecting
 Earworms: Further Evidence on the ‘Song-Stuck-in-Your Head’
 Phenomenon,” presentation to the Society for Consumer Psychology. See
-also http://www.webmd.com/mental-health/news/20030227/songs-stick-
-in-everyones-head.
+also http://www.webmd.com/mental-health/news/20030227/songs-stickin-everyones-head.
 ideas also have habitats: Berger, Jonah, and Chip Heath (2005), “Idea
 Habitats: How the Prevalence of Environmental Cues Influences the
 Success of Ideas,” Cognitive Science 29, no. 2, 195–221.
@@ -6297,13 +6254,12 @@ Schwartz, “What Drives Immediate and Ongoing Word-of-Mouth?” 869–
 
 
 80.
-“Bob, 
-I’ve 
-got 
-emphysema”: 
-See 
-http://no-
-smoke.org/images/02_Bob_14x48.jpg.
+“Bob,
+I’ve
+got
+emphysema”:
+See
+http://nosmoke.org/images/02_Bob_14x48.jpg.
 the poison parasite: Cialdini, Robert B., Petia Petrova, Linda Demaine,
 Daniel Barrett, Brad Sagarin, Jon Manner, and Kelton Rhoads (2005),
 “The Poison Parasite Defense: A Strategy for Sapping a Stronger
@@ -6324,12 +6280,12 @@ data.
 3. Emotion
 schlieren photography: Grady’s article about the cough can be found at
 Grady, Denise (2008), “The Mysterious Cough, Caught on Film,” New
-York 
-Times, 
-October 
+York
+Times,
+October
 27;
-http://www.nytimes.com/2008/10/28/science/28cough.html. 
-The 
+http://www.nytimes.com/2008/10/28/science/28cough.html.
+The
 New
 England Journal of Medicine article on which her piece is based is Tang,
 Julian W., and Gary S. Settles (2008), “Coughing and Aerosols,” New
@@ -6418,8 +6374,7 @@ The clip tells a budding love story: A clip of “Parisian Love” can be viewed
 at http://jonahberger.com. The story behind “Parisian Love” came from
 an interview with Anthony Cafaro on June 20, 2012.
 “The best results don’t show up in a search engine”: The quote came from
-Iezzi, Teressa (2010), “Meet the Google Five,” http://creativity-
-online.com/news/the-google-creative-lab/146084.
+Iezzi, Teressa (2010), “Meet the Google Five,” http://creativityonline.com/news/the-google-creative-lab/146084.
 
 
 Simply adding more arousal: Berger and Milkman, “What Makes Online
@@ -6433,20 +6388,18 @@ affects social transmission, see Heath, Chip, Chris Bell, and Emily
 Sternberg (2001), “Emotional Selection in Memes: The Case of Urban
 Legends,” Journal of Personality and Social Psychology 81, no. 6, 1028–
 41.
-the practice strengthens the maternal bond: To learn more about baby-
-wearing and attachment, see www.attachmentparenting.org.
+the practice strengthens the maternal bond: To learn more about babywearing and attachment, see www.attachmentparenting.org.
 the company created an ad centered on the aches: To see a clip of the
 Motrin ad, see http://jonahberger.com.
 the marketing debacle: Learmonth, Michael (2008), “How Twittering
 Critics Brought Down Motrin Mom Campaign: Bloggers Ignite Brush
 Fire over Weekend, Forcing J&J to Pull Ads, Issue Apology,”
-AdAge.com, 
-November 
-17, 
-retrieved 
+AdAge.com,
+November
+17,
+retrieved
 from
-http://adage.com/article/digital/twittering-critics-brought-motrin-mom-
-campaign/132622.
+http://adage.com/article/digital/twittering-critics-brought-motrin-momcampaign/132622.
 4. Public
 Ken Segall was Steve Jobs’s right hand man: All taken from my interview
 with Ken Segall on May, 15, 2012. For more information on Ken’s work
@@ -6481,9 +6434,8 @@ choice, see Burnkrant, Robert E., and Alain Cousineau (1975),
 Journal of Consumer Research 2, 206–15. For evidence of social
 influence in paying taxes, see Thaler, Richard (2012), “Watching
 Behavior Before Writing the Rules,” New York Times, July 12, retrieved
-from 
-http://www.nytimes.com/2012/07/08/business/behavioral-science-
-can-help-guide-policy-economic-view.html.
+from
+http://www.nytimes.com/2012/07/08/business/behavioral-sciencecan-help-guide-policy-economic-view.html.
 people are more likely to laugh: For evidence about social influence in
 laughter, see Provine, R. R. (1992), “Contagious Laughter: Laughter Is a
 Sufficient Stimulus for Laughs and Smiles,” Bulletin of the Psychonomic
@@ -6538,17 +6490,16 @@ affects word of mouth, see Berger, Jonah, and Eric Schwartz (2011),
 “What Drives Immediate and Ongoing Word of Mouth?” Journal of
 Marketing Research 48, no. 5, 869–80.
 cancer claims the lives: For statistics about how cancer affects men, see
-http://www.cdc.gov/features/cancerandmen/ 
+http://www.cdc.gov/features/cancerandmen/
 and
 http://www.wcrf.org/cancer_statistics/world_cancer_statistics.php.
 
 
 It all started one Sunday afternoon: For the backstory on the founding of
 Movember, as well as statistics on its growth and development, see
-ca.movember.com 
-and 
-http://billabout.com/get-your-mo-
-on%E2%80%A8interview-adam-garone-movember-founder/.
+ca.movember.com
+and
+http://billabout.com/get-your-moon%E2%80%A8interview-adam-garone-movember-founder/.
 Johannessen was able to decrease heavy drinking: For a related discussion,
 see Schroeder, Christine M., and Deborah A. Prentice (1998), “Exposing
 Pluralistic Ignorance to Reduce Alcohol Use Among College Students,”
@@ -6564,23 +6515,22 @@ psychologist Sam Gosling. For a discussion of his research in the area,
 see Gosling, Sam (2008), Snoop: What Your Stuff Says About You (New
 York: Basic Books).
 “a stupid idea”: Mickle, Tripp (2009), “Five Strong Years,” Sports
-Business 
-Daily, 
-September 
-14, 
-retrieved 
+Business
+Daily,
+September
+14,
+retrieved
 from
 http://www.sportsbusinessdaily.com/Journal/Issues/2009/09/20090914/Th
 is-Weeks-News/Five-Strong-Years.aspx.
 Even Armstrong was incredulous: Carr, Austin (2011), “Lance Armstrong,
 Doug Ulman Thought the Livestrong Wristband Would Fail,” Fast
-Company, 
-November 
-11, 
-retrieved 
+Company,
+November
+11,
+retrieved
 from
-http://www.fastcompany.com/article/doug-ulman-didnt-think-the-
-livestrong-bracelets-would-sell.
+http://www.fastcompany.com/article/doug-ulman-didnt-think-thelivestrong-bracelets-would-sell.
 This public visibility: Many things contributed to making Livestrong bands
 a success. They cost only a dollar, making it easy for people to try out
 being part of the movement, even if they weren’t sure they wanted to
@@ -6596,10 +6546,9 @@ played an important role, as discussed.
 2006.
 installing these buttons: Gelles, David (2010), “E-commerce Takes an
 Instant Liking to Facebook Button,” Financial Times, September 21,
-retrieved 
-from 
-http://www.ft.com/cms/s/2/1599be2e-c5a9-11df-ab48-
-00144feab49a.html.
+retrieved
+from
+http://www.ft.com/cms/s/2/1599be2e-c5a9-11df-ab4800144feab49a.html.
 whether anti-drug ads were actually effective: Hornik, Robert, Lela
 Jacobsohn, Robert Orwin, Andrea Piesse, and Graham Kalton (2008),
 “Effects of the National Youth Anti-Drug Media Campaign on Youths,”
@@ -6687,14 +6636,13 @@ http://jonahberger.com.
 2 percent of women describe themselves as beautiful: This fact comes from
 Etcoff, Nancy, Susie Orbach, Jennifer Scott, and Heidi D’Agostino
 (2004), The Real Truth About Beauty: A Global Report; retrieved on June
-1, 
-2012, 
+1,
+2012,
 from
-http://www.scribd.com/doc/16653666/1/%E2%80%9CTHE-REAL-
-TRUTH-ABOUT-BEAUTY-A-GLOBAL-REPORT%E2%80%9D.
-double-digit 
-sales 
-growth: 
+http://www.scribd.com/doc/16653666/1/%E2%80%9CTHE-REALTRUTH-ABOUT-BEAUTY-A-GLOBAL-REPORT%E2%80%9D.
+double-digit
+sales
+growth:
 See
 http://www.marketingvox.com/dove_evolution_goes_viral_with_triple_th
 e_traffic_of_super_bowl_spot-022944/ retrieved on May 15, 2012. Also
@@ -6720,18 +6668,17 @@ Company).
 Epilogue
 when Thuan Le arrived: For the story of Thuan Le and the Vietnamese nail
 salons, see Tran, My-Thuan (2008), “A Mix of Luck, Polish,” Los
-Angeles 
-Times, 
-May 
-5. 
-Also 
+Angeles
+Times,
+May
+5.
+Also
 see
 http://www.cnn.com/video/?/video/us/2011/07/05/pkg.wynter.vietnamese.
 nail.salon.cnn.
 Cambodian Americans own: Ardey, Julie (2008), “Cambodian Settlers
 Glaze a Donut Trail,” Daily Yonder, February 18; retrieved from
-http://www.dailyyonder.com/cambodian-settlers-glaze-donut-
-trail/2008/02/18/1062.
+http://www.dailyyonder.com/cambodian-settlers-glaze-donuttrail/2008/02/18/1062.
 Koreans own: Bleyer, Jennifer (2008), “Dry Cleaners Feel an Ill Wind from
 China,” New York Times, April 27.
 60 percent of the liquor stores in Boston: Retrieved on March 10, 2012,

@@ -9,10 +9,11 @@ chars: 296476
 approx_tokens: 74119
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 296478
+phase4_chars_after: 296057
+phase4_saved_pct: 0.1
 ---
-
-
-
 
 
 THE TRUE
@@ -44,8 +45,6 @@ him of his faults.
 —PASCAL, Pensées
 And slime had they for mortar.
 —GENESIS II
-
-
 
 
 Contents
@@ -102,8 +101,6 @@ Useful Mass Movements
           Copyright
           About the Publisher
           Notes
-
-
 
 
 Preface
@@ -196,17 +193,13 @@ I say is by way of discourse, and nothing by way of advice. I
 should not speak so boldly if it were my due to be believed.”
 
 
-
-
 PART 1
 The Appeal of Mass Movements
 
 
-
-
 I
 The Desire for Change
-1
+
 It is a truism that many who join a rising revolutionary movement
 are attracted by the prospect of sudden and spectacular change in
 their conditions of life. A revolutionary movement is a conspicuous
@@ -308,8 +301,6 @@ motive, it is yet worth 3nding out whether a probing of this desire
 might not shed some light on the inner working of mass
 movements. We shall inquire therefore into the nature of the desire
 for change.
-2
-
 
 There is in us a tendency to locate the shaping forces of our
 existence outside ourselves. Success and failure are unavoidably
@@ -335,7 +326,7 @@ mechanism, and so long as it ticks in their favor they are afraid to
 tinker with it. Thus the resistance to change and the ardent desire
 for it spring from the same conviction, and the one can be as
 vehement as the other.
-3
+
 Discontent by itself does not invariably create a desire for change.
 Other factors have to be present before discontent turns into
 disaffection. One of these is a sense of power.
@@ -383,8 +374,6 @@ by the men who set out to build “a city and a tower, whose top
 may reach unto heaven” and who believed that “nothing will be
 restrained from them, which they have imagined to do.”5
 
-
-4
 OBhand one would expect that the mere possession of power
 would automatically result in a cocky attitude toward the world
 and a receptivity to change. But it is not always so. The powerful
@@ -409,7 +398,7 @@ untold riches, of fabulous achievement or world dominion. If the
 Communists win Europe and a large part of the world, it will not
 be because they know how to stir up discontent or how to infect
 people with hatred, but because they know how to preach hope.
-5
+
 Thus the diBerences between the conservative and the radical seem
 to spring mainly from their attitude toward the future. Fear of the
 future causes us to lean against and cling to the present, while faith
@@ -460,7 +449,7 @@ as passed. o t e e s o te a o st ous co g u ty bet ee t e
 hopes, however noble and tender, and the action which follows
 them. It is as if ivied maidens and garlanded youths were to herald
 the four horsemen of the apocalypse.
-6
+
 For men to plunge headlong into an undertaking of vast change,
 they must be intensely discontented yet not destitute, and they must
 have the feeling that by the possession of some potent doctrine,
@@ -477,11 +466,9 @@ Englishman’s political experience that keeps him shy of mass
 movements.
 
 
-
-
 II
 The Desire for Substitutes
-7
+
 There is a fundamental dierence between the appeal of a mass
 movement and the appeal of a practical organization. The practical
 organization oers opportunities for self-advancement, and its
@@ -490,8 +477,7 @@ movement, particularly in its active, revivalist phase, appeals not to
 those intent on bolstering and advancing a cherished self, but to
 those who crave to be rid of an unwanted self. A mass movement
 attracts and holds a following not because it can satisfy the desire
-for self-advancement, but because it can satisfy the passion for self-
-renunciation.
+for self-advancement, but because it can satisfy the passion for selfrenunciation.
 People who see their lives as irremediably spoiled cannot $nd a
 worth-while purpose in self-advancement. The prospect of an
 individual career cannot stir them to a mighty eort, nor can it
@@ -541,10 +527,10 @@ longer recognizes the old movement…. When this happens, the
 The nature of the complete substitute oered by conversion is
 discussed in the chapters on self-sacri$ce and united action in Part
 3. Here we shall deal with the partial substitutes.
-8
+
 Faith in a holy cause is to a considerable extent a substitute for the
 lost faith in ourselves.
-9
+
 The less justi$ed a man is in claiming excellence for his own self,
 
 
@@ -555,7 +541,7 @@ s o
 se ,
 the more ready is he to claim all excellence for his nation, his
 religion, his race or his holy cause.
-10
+
 A man is likely to mind his own business when it is worth minding.
 When it is not, he takes his mind o his own meaningless aairs by
 minding other people’s business.
@@ -563,7 +549,7 @@ This minding of other people’s business expresses itself in gossip,
 snooping and meddling, and also in feverish interest in communal,
 national and racial aairs. In running away from ourselves we
 either fall on our neighbor’s shoulder or fly at his throat.
-11
+
 The burning conviction that we have a holy duty toward others is
 often a way of attaching our drowning selves to a passing raft. What
 looks like giving a hand is often a holding on for dear life. Take
@@ -571,7 +557,7 @@ away our holy duties and you leave our lives puny and
 meaningless. There is no doubt that in exchanging a self-centered
 for a sel+ess life we gain enormously in self-esteem. The vanity of
 the selfless, even those who practice utmost humility, is boundless.
-12
+
 One of the most potent attractions of a mass movement is its
 oering of a substitute for individual hope. This attraction is
 particularly eective in a society imbued with the idea of progress.
@@ -598,7 +584,7 @@ with hope of the future while cheating them of the enjoyment of
 the present. Yet to the frustrated the present is irremediably
 spoiled. Comforts and pleasures cannot make it whole. No real
 content or comfort can ever arise in their minds but from hope.3
-13
+
 When our individual interests and prospects do not seem worth
 living for, we are in desperate need of something apart from us to
 live for. All forms of dedication, devotion, loyalty and self-surrender
@@ -616,11 +602,9 @@ irrevocably missed or spoiled $rst choice is indeed the best there
 ever was.
 
 
-
-
 III
 The Interchangeability of Mass Movements
-14
+
 When people are ripe for a mass movement, they are usually ripe
 for any eective movement, and not solely for one with a particular
 doctrine or program. In pre-Hitlerian Germany it was often a toss
@@ -663,7 +647,7 @@ another. A religious movement may develop into a social
 revolution or a nationalist movement; a social revolution, into
 militant nationalism or a religious movement; a nationalist
 movement into a social revolution or a religious movement.
-15
+
 It is rare for a mass movement to be wholly of one character.
 Usually it displays some facets of other types of movement, and
 sometimes it is two or three movements in one. The exodus of the
@@ -700,7 +684,7 @@ Zionism is a nationalist movement and a social revolution. To the
 orthodox Jew it is also a religious movement. Irish nationalism has
 a deep religious tinge. The present mass movements in Asia are
 both nationalist and revolutionary.
-16
+
 The problem of stopping a mass movement is often a matter of
 substituting one movement for another. A social revolution can be
 stopped by promoting a religious or nationalist movement. Thus in
@@ -732,7 +716,7 @@ t
 ate c apte s. e e e
 shall touch upon one curious substitute for mass movements,
 namely migration.
-17
+
 Emigration oers some of the things the frustrated hope to 4nd
 when they join a mass movement, namely, change and a chance for
 a new beginning. The same types who swell the ranks of a rising
@@ -764,17 +748,13 @@ settlement of new land it is practiced by most active mass
 movements.
 
 
-
-
 PART 2
 The Potential Converts
 
 
-
-
 IV
 The Role of the Undesirables in Human Affairs
-18
+
 There is a tendency to judge a race, a nation or any distinct group
 by its least worthy members. Though manifestly unfair, this
 tendency has some justi"cation. For the character and destiny of a
@@ -811,7 +791,7 @@ decent, peaceful and pleasant, but perhaps without the seed of
 things to come. It was not the irony of history that the undesired in
 the countries of Europe should have crossed an ocean to build a
 new world on this continent. Only they could do it.
-19
+
 Though the disa/ected are found in all walks of life, they are most
 frequent in the following categories: (a) the poor, (b) mis"ts, (c)
 outcasts, (d) minorities, (e) adolescent youth, (f) the ambitious
@@ -822,12 +802,10 @@ bored, (k) the sinners.
 Sections 20–42 deal with some of these types.
 
 
-
-
 V
 The Poor
 The New Poor
-20
+
 Not all who are poor are frustrated. Some of the poor stagnating in
 the slums of the cities are smug in their decay. They shudder at the
 thought of life outside their familiar cesspool. Even the respectable
@@ -876,7 +854,7 @@ unemployment as a degradation. He sees himself disinherited and
 injured by an unjust order of things, and is willing to listen to those
 who call for a new deal.
 The Abjectly Poor
-21
+
 The poor on the borderline of starvation live purposeful lives. To
 be engaged in a desperate struggle for food and shelter is to be
 wholly free from a sense of futility. The goals are concrete and
@@ -904,7 +882,7 @@ the unrebelliousness of the masses in China is the inordinate e,ort
 required there to scrape together the means of the scantiest
 subsistence. The intensi&ed struggle for existence “is a static rather
 than a dynamic influence.”3
-22
+
 Misery does not automatically generate discontent, nor is the
 intensity of discontent directly proportionate to the degree of
 misery.
@@ -943,22 +921,21 @@ who have just come within sight of the promised land, and of the
 disinherited who are still within sight of it; both of the about-to-be
 rich, free, etcetera, and of the new poor and those recently
 enslaved.
-23
+
 Our frustration is greater when we have much and want more than
 when we have nothing and want some. We are less dissatis&ed
 when we lack many things than when we seem to lack but one
 thing.
-24
+
 We dare more when striving for super>uities than for necessities.
 Often when we renounce super>uities we end up lacking in
 necessities.
-25
+
 There is a hope that acts as an explosive, and a hope that
 disciplines and infuses patience. The di,erence is between the
 immediate hope and the distant hope.
 A rising mass movement preaches the immediate hope. It is
-intent on stirring its followers to action, and it is the around-the-
-corner brand of hope that prompts people to act. Rising Christianity
+intent on stirring its followers to action, and it is the around-thecorner brand of hope that prompts people to act. Rising Christianity
 preached the immediate end of the world and the kingdom of
 heaven around the corner; Mohammed dangled loot before the
 
@@ -981,8 +958,7 @@ with their lot in life. Stalinism is as much an opium of the people
 as are the established religions.8
 The Free Poor
 a26a
-Slaves are poor; yet where slavery is widespread and long-
-established, there is little likelihood for the rise of a mass
+Slaves are poor; yet where slavery is widespread and longestablished, there is little likelihood for the rise of a mass
 movement. The absolute equality among the slaves, and the
 intimate communal life in slave quarters, preclude individual
 frustration. In a society with an institution of slavery the
@@ -1021,7 +997,7 @@ owned land that they were receptive to the appeal of the French
 Revolution. Nor perhaps would there have been a Bolshevik
 revolution if the Russian peasant had not been free for a generation
 or more and had had a taste of the private ownership of land.
-27
+
 Even the mass movements which rise in the name of freedom
 against an oppressive order do not realize individual liberty once
 they start rolling. So long as a movement is engaged in a desperate
@@ -1054,7 +1030,7 @@ termination, made possible the emergence of individual freedom.
 This impression will be the more pronounced the more tyrannical
 the dispensation which the mass movement overthrew and
 supplanted.
-28
+
 Those who see their lives as spoiled and wasted crave equality and
 fraternity more than they do freedom. If they clamor for freedom, it
 is but freedom to establish equality and uniformity. The passion for
@@ -1068,7 +1044,7 @@ their shortcomings, blame their failure on existing restraints.
 Actually their innermost desire is for an end to the “free for all.”
 They want to eliminate free competition and the ruthless testing to
 which the individual is continually subjected in a free society.
-29
+
 Where freedom is real, equality is the passion of the masses. Where
 equality is real, freedom is the passion of a small minority.
 
@@ -1076,7 +1052,7 @@ equality is real, freedom is the passion of a small minority.
 Equality without freedom creates a more stable social pattern
 than freedom without equality.
 The Creative Poor
-30
+
 Poverty when coupled with creativeness is usually free of
 frustration. This is true of the poor artisan skilled in his trade and of
 the poor writer, artist and scientist in the full possession of creative
@@ -1097,7 +1073,7 @@ champions of holy causes. Perhaps the sexually impotent are
 subject to the same impulse. (The role of the noncreative in the
 Nazi movement is discussed in Section 111.)
 The Unified Poor
-31
+
 The poor who are members of a compact group—a tribe, a
 closely knit family, a compact racial or religious group—are
 
@@ -1142,8 +1118,6 @@ which it has attained. In the rest of the world where communism is
 still a struggling movement, it does all it can to disrupt the family
 and discredit national, racial and religious ties.
 
-
-32
 The attitude of rising mass movements toward the family is of
 considerable interest. Almost all our contemporary movements
 showed in their early stages a hostile attitude toward the family,
@@ -1214,8 +1188,6 @@ did to Germany what Hitler had done to Europe. It is diScult to see
 how, even under optimal economic and political conditions, a
 continent strewn with the odds and ends of families could settle
 into a normal conservative social pattern.
-33
-
 
 The discontent generated in backward countries by their contact
 with Western civilization is not primarily resentment against
@@ -1231,8 +1203,7 @@ he is not happy. He feels naked and orphaned. The nationalist
 movements in the colonial countries are partly a striving after
 group existence and an escape from Western individualism.
 The Western colonizing powers o,er the native the gift of
-individual freedom and independence. They try to teach him self-
-reliance. What it all actually amounts to is individual isolation. It
+individual freedom and independence. They try to teach him selfreliance. What it all actually amounts to is individual isolation. It
 means the cutting o, of an immature and poorly furnished
 individual from the corporate whole and releasing him, in the
 words of Khomiakov, “to the freedom of his own impotence.”20
@@ -1305,7 +1276,7 @@ more harm than good…. Group incentive plans in which the bonus
 is based on the work of the whole team, including the foreman …
 are much more likely to promote greater productivity and greater
 satisfaction on the part of the workers.”21
-34
+
 A rising mass movement attracts and holds a following not by its
 doctrine and promises but by the refuge it o,ers from the anxieties,
 barrenness and meaninglessness of an individual existence. It cures
@@ -1340,7 +1311,7 @@ Hitler’s early recognition that a rising mass movement can never go
 too far in advocating and promoting collective cohesion. He knew
 that the chief passion of the frustrated is “to belong,” and that there
 cannot be too much cementing and binding to satisfy this passion.
-35
+
 The milieu most favorable for the rise and propagation of mass
 movements is one in which a once compact corporate structure is,
 for one reason or another, in a state of disintegration. The age in
@@ -1479,11 +1450,9 @@ the brotherhood and the revivalist atmosphere of a rising
 movement.29
 
 
-
-
 VI
 Misfits
-36
+
 The frustration of mists can vary in intensity. There are rst the
 temporary mists: people who have not found their place in life
 but still hope to nd it. Adolescent youth, unemployed college
@@ -1509,8 +1478,6 @@ their prewar lives. The readjustment to peace and home is slow and
 painful, and the country is flooded with temporary misfits.
 Thus it seems that the passage from war to peace is more critical
 for an established order than the passage from peace to war.
-37
-
 
 The permanent mists are those who because of a lack of talent or
 some irreparable defect in body or mind cannot do the one thing
@@ -1532,8 +1499,7 @@ The most incurably frustrated—and, therefore, the most vehement
 craving for creative work. Both those who try to write, paint,
 compose, etcetera, and fail decisively, and those who after tasting
 the elation of creativeness feel a drying up of the creative 2ow
-within and know that never again will they produce aught worth-
-while, are alike in the grip of a desperate passion. Neither fame nor
+within and know that never again will they produce aught worthwhile, are alike in the grip of a desperate passion. Neither fame nor
 power nor riches nor even monumental achievements in other
 elds can still their hunger. Even the wholehearted dedication to a
 holy cause does not always cure them. Their unappeased hunger
@@ -1541,11 +1507,9 @@ persists, and they are likely to become the most violent extremists
 in the service of their holy cause.1
 
 
-
-
 VII
 The Inordinately Selfish
-38
+
 The inordinately selsh are particularly susceptible to frustration.
 The more selsh a person, the more poignant his disappointments.
 It is the inordinately selfish, therefore, who are likely to be the most
@@ -1558,11 +1522,9 @@ of some holy cause. And though it be a faith of love and humility
 they adopt, they can be neither loving nor humble.
 
 
-
-
 VIII
 The Ambitious Feeing Unlimited Opportunities
-39
+
 Unlimited opportunities can be as potent a cause of frustration as a
 paucity or lack of opportunities. When opportunities are
 apparently unlimited, there is an inevitable deprecation of the
@@ -1570,8 +1532,7 @@ present. The attitude is: “All that I am doing or possibly can do is
 chicken feed compared with what is left undone.” Such is the
 frustration which broods over gold camps and haunts taut minds in
 boom times. Hence the remarkable fact that, joined with the
-ruthless self-seeking which seems to be the mainspring of gold-
-hunters, land-grabbers and other get-rich-quick enthusiasts, there is
+ruthless self-seeking which seems to be the mainspring of goldhunters, land-grabbers and other get-rich-quick enthusiasts, there is
 an excessive readiness for self-sacri-ce and united action.
 Patriotism, racial solidarity, and even the preaching of revolution
 -nd a more ready response among people who see limitless
@@ -1580,11 +1541,9 @@ within the -xed limits of a familiar, orderly and predictable pattern
 of existence.
 
 
-
-
 IX
 Minorities
-40
+
 A minority is in a precarious position, however protected it be by
 law or force. The frustration engendered by the unavoidable sense
 of insecurity is less intense in a minority intent on preserving its
@@ -1624,11 +1583,9 @@ the most responsive to Zionism; the least and most successful
 among the Blacks are the most race conscious.
 
 
-
-
 X
 The Bored
-41
+
 There is perhaps no more reliable indicator of a society’s ripeness
 for a mass movement than the prevalence of unrelieved boredom.
 In almost all the descriptions of the periods preceding the rise of
@@ -1680,11 +1637,9 @@ and given to *ts of the vapors. Restlessly, they applauded
 innovators.”3
 
 
-
-
 XI
 The Sinners
-42
+
 The sardonic remark that patriotism is the last refuge of scoundrels
 has also a less derogatory meaning. Fervent patriotism as well as
 religious and revolutionary enthusiasm often serves as a refuge from
@@ -1735,17 +1690,13 @@ exaltation of mass movements (whether patriotic, religious or
 revolutionary) common crime declines.
 
 
-
-
 PART 3
 United Action and Self-Sacrifice
 
 
-
-
 XII
 Preface
-43
+
 The vigor of a mass movement stems from the propensity of its
 followers for united action and self-sacrice. When we ascribe the
 success of a movement to its faith, doctrine, propaganda,
@@ -1788,8 +1739,7 @@ in the frustrated mind. What ails the frustrated? It is the
 consciousness of an irremediably blemished self. Their chief desire
 is to escape that self—and it is this desire which manifests itself in a
 propensity for united action and self-sacrice. The revulsion from
-an unwanted self, and the impulse to forget it, mask it, slough it o-
-and lose it, produce both a readiness to sacrice the self and a
+an unwanted self, and the impulse to forget it, mask it, slough it oand lose it, produce both a readiness to sacrice the self and a
 willingness to dissolve it by losing one’s individual distinctness in a
 compact collective whole. Moreover, the estrangement from the self
 is usually accompanied by a train of diverse and seemingly
@@ -1830,13 +1780,11 @@ always to go together. When we hear of a group that is particularly
 contemptuous of death, we are usually justied in concluding that
 the group is closely knit and thoroughly unied.2 On the other
 hand, when we face a member of a compact group, we are likely to
-nd him contemptuous of death. Both united action and self-
-sacrice require self-diminution. In order to become part of a
+nd him contemptuous of death. Both united action and selfsacrice require self-diminution. In order to become part of a
 compact whole, the individual has to forego much. He has to give
 up privacy, individual judgment and often individual possessions.
 To school a person to united action is, therefore, to ready him for
-acts of self-denial. On the other hand, the man who practices self-
-abnegation sloughs o- the hard shell which keeps him apart from
+acts of self-denial. On the other hand, the man who practices selfabnegation sloughs o- the hard shell which keeps him apart from
 others and is thus made assimilable. Every unifying agent is,
 therefore, a promoter of self-sacrice and vice versa. Nevertheless,
 in the following sections, a division is made for the sake of
@@ -1862,12 +1810,10 @@ equilibrium between the individual and his self (fanaticism)—
 Sections 60–63.
 
 
-
-
 XIII
 Factors Promoting Self-sacrifice
 Identification with a Collective Whole
-44
+
 To ripen a person for self-sacrice he must be stripped of his
 individual identity and distinctness. He must cease to be George,
 Hans, Ivan, or Tadao—a human atom with an existence bounded by
@@ -1910,7 +1856,7 @@ movements strive to approximate this primitive perfection, and we
 are not imagining things when the anti-individualist bias of
 contemporary mass movements strikes us as a throwback to the
 primitive.
-45
+
 The capacity to resist coercion stems partly from the individual’s
 identication with a group. The people who stood up best in the
 Nazi concentration camps were those who felt themselves members
@@ -1987,7 +1933,7 @@ individual, a speck of life Eoating in an eternity of nothingness. In
 Palestine he felt himself not a human atom, but a member of an
 eternal race, with an immemorable past behind it and a
 breathtaking future ahead.
-46
+
 The theoreticians in the Kremlin are probably aware that in order
 to maintain the submissiveness of the Russian masses there must not
 be the least chance of an identication with any collective body
@@ -2006,7 +1952,7 @@ oneself with, outside the confines of holy Russia.
 
 
 Make-Believe
-47
+
 Dying and killing seem easy when they are part of a ritual,
 ceremonial, dramatic performance or game. There is need for some
 kind of make-believe in order to face death unEinchingly. To our
@@ -2029,8 +1975,7 @@ ancestors, contemporaries and posterity—and on a stage lighted by
 a burning world city and to the music of barking guns and
 screaming bombs. It is doubtful whether in our contemporary
 world, with its widespread individual di0erentiation, any measure
-of general self-sacrice can be realized without theatrical hocus-
-pocus and reworks. It is diAcult to see, therefore, how the present
+of general self-sacrice can be realized without theatrical hocuspocus and reworks. It is diAcult to see, therefore, how the present
 Labor government in England can realize its program of
 socialization, which demands some measure of self-sacrice from
 every Briton, in the colorless and undramatic setting of socialist
@@ -2043,8 +1988,7 @@ purpose of their lives.1
 The indispensability of play-acting in the grim business of dying
 and killing is particularly evident in the case of armies. Their
 uniforms, Eags, emblems, parades, music, and elaborate etiquette
-and ritual are designed to separate the soldier from his Eesh-and-
-blood self and mask the overwhelming reality of life and death. We
+and ritual are designed to separate the soldier from his Eesh-andblood self and mask the overwhelming reality of life and death. We
 speak of the theater of war and of battle scenes. In their battle
 orders army leaders invariably remind their soldiers that the eyes of
 the world are on them, that their ancestors are watching them and
@@ -2073,8 +2017,6 @@ readiness to identify themselves wholly with an imposing mass
 spectacle.
 Deprecation of the Present
 
-
-48
 At its inception a mass movement seems to champion the present
 against the past. It sees in the established institutions and privileges
 an encroachment of a senile, vile past on a virginal present. But, to
@@ -2119,7 +2061,7 @@ present. Finally, the mysticism of a movement is also a means of
 deprecating the present. It sees the present as the faded and
 distorted reEection of a vast unknown throbbing underneath and
 beyond us. The present is a shadow and an illusion.
-49
+
 There can be no genuine deprecation of the present without the
 assured hope of a better future. For however much we lament the
 baseness of our times, if the prospect o0ered by the future is that of
@@ -2134,12 +2076,9 @@ to a social revolution it is a mean way station on the road to
 Utopia; to a nationalist movement it is an ignoble episode
 preceding the final triumph.
 It is true of course that the hope released by a vivid visualization
-of a glorious future is a most potent source of daring and self-
-forgetting—more potent than the implied deprecation of the
+of a glorious future is a most potent source of daring and selfforgetting—more potent than the implied deprecation of the
 present. A mass movement has to center the hearts and minds of its
-followers on the future even when it is not engaged in a life-and-
-death struggle with established institutions and privileges. The self-
-sacrice involved in mutual sharing and co-operative action is
+followers on the future even when it is not engaged in a life-anddeath struggle with established institutions and privileges. The selfsacrice involved in mutual sharing and co-operative action is
 impossible without hope. When today is all there is, we grab all we
 can and hold on. We are aEoat in an ocean of nothingness and we
 
@@ -2166,7 +2105,7 @@ and ruthless selshness there than in the greediest and most corrupt
 of free societies. “Instead of studying the way in which they could
 best help each other they used all their ingenuity to dominate and
 oppress each other.”2
-50
+
 A glorication of the past can serve as a means to belittle the
 present. But unless joined with sanguine expectations of the future,
 an exaggerated view of the past results in an attitude of caution and
@@ -2201,7 +2140,7 @@ audience—generations gone and generations yet to come. They are
 made to feel that they are not their real selves but actors playing a
 role, and their doings a “performance,” rather than as the real thing.
 Dying, too, they see as a gesture, an act of make-believe.
-51
+
 A deprecating attitude toward the present fosters a capacity for
 prognostication. The well-adjusted make poor prophets. On the
 other hand, those who are at war with the present have an eye for
@@ -2228,7 +2167,7 @@ prognosticators than those who have reason to want the
 preservation of the status quo. “It is often the fanatics, and not
 always the delicate spirits, that are found grasping the right thread
 of the solutions required by the future.”4
-52
+
 It is of interest to compare here the attitudes toward present, future
 and past shown by the conservative, the liberal, the skeptic, the
 radical and the reactionary.
@@ -2288,7 +2227,7 @@ gloried past and simultaneously create an unprecedented Utopia.
 The prophets, too, were a blend of the reactionary and the radical.
 They preached a return to the ancient faith and also envisaged a
 new world and a new life.
-53
+
 That the deprecating attitude of a mass movement toward the
 present seconds the inclinations of the frustrated is obvious. What
 
@@ -2326,8 +2265,6 @@ from an ecstatic awareness that they are clearing the ground for the
 heavenly city. In their fanatical cry of “all or nothing at all” the
 second alternative echoes perhaps a more ardent wish than the first.
 “Things Which are Not”
-54
-
 
 One of the rules that emerges from a consideration of the factors
 that promote self-sacrice is that we are less ready to die for what
@@ -2363,15 +2300,12 @@ practical world do not feel crushed but are suddenly red with the
 apparently absurd conviction that they are eminently competent to
 direct the fortunes of the community and the nation.
 
-
-55
 It is not altogether absurd that people should be ready to die for a
 button, a Eag, a word, an opinion, a myth and so on. It is on the
 contrary the least reasonable thing to give one’s life for something
 palpably worth having. For, surely, one’s life is the most real of all
 things real, and without it there can be no having of things worth
-having. Self-sacrice cannot be a manifestation of tangible self-
-interest. Even when we are ready to die in order not to get killed,
+having. Self-sacrice cannot be a manifestation of tangible selfinterest. Even when we are ready to die in order not to get killed,
 the impulse to ght springs less from self-interest than from
 intangibles such as tradition, honor (a word), and, above all, hope.
 Where there is no hope, people either run, or allow themselves to
@@ -2398,15 +2332,12 @@ fought and died for cities yet to be built and gardens yet to be
 planted.
 Doctrine
 
-
-56
 The readiness for self-sacrice is contingent on an imperviousness
 to the realities of life. He who is free to draw conclusions from his
 individual experience and observation is not usually hospitable to
 the idea of martyrdom. For self-sacrice is an unreasonable act. It
 cannot be the end-product of a process of probing and deliberating.
-All active mass movements strive, therefore, to interpose a fact-
-proof screen between the faithful and the realities of the world.
+All active mass movements strive, therefore, to interpose a factproof screen between the faithful and the realities of the world.
 They do this by claiming that the ultimate and absolute truth is
 already embodied in their doctrine and that there is no truth nor
 certitude outside it. The facts on which the true believer bases his
@@ -2444,7 +2375,7 @@ by how thoroughly it insulates the individual from his self and the
 world as it is. What Pascal said of an e0ective religion is true of any
 e0ective doctrine: it must be “contrary to nature, to common sense
 and to pleasure.”14
-57
+
 The e0ectiveness of a doctrine does not come from its meaning but
 from its certitude. No doctrine however profound and sublime will
 be e0ective unless it is presented as the embodiment of the one and
@@ -2487,7 +2418,7 @@ symbols in a secret message. There is thus an illiterate air about the
 most literate true believer. He seems to use words as if he were
 ignorant of their true meaning. Hence, too, his taste for quibbling,
 hair-splitting and scholastic tortuousness.
-58
+
 To be in possession of an absolute truth is to have a net of
 familiarity spread over the whole of eternity. There are no surprises
 and no unknowns. All questions have already been answered, all
@@ -2516,7 +2447,7 @@ strength, for it can proceed recklessly with the present—with the
 health, wealth and lives of its followers. But it must act as if had
 already read the book of the future to the last word. Its doctrine is
 proclaimed as a key to that book.
-59
+
 Are the frustrated more easily indoctrinated than the non-frustrated?
 Are they more credulous? Pascal was of the opinion that “one was
 well-minded to understand holy writ when one hated oneself.”20
@@ -2537,7 +2468,7 @@ proneness to imposture. The association of believing and lying is
 not characteristic solely of children. The inability or unwillingness
 to see things as they are promotes both gullibility and charlatanism.
 Fanaticism
-60
+
 It was suggested in Section 1 that mass movements are often
 necessary for the realization of drastic and abrupt changes. It seems
 
@@ -2587,7 +2518,7 @@ only salvation is in rejecting his self and in nding a new life in the
 bosom of a holy corporate body—be it a church, a nation or a
 party. In its turn, this vilification of the self keeps passion at a white
 heat.
-61
+
 The fanatic is perpetually incomplete and insecure. He cannot
 generate self-assurance out of his individual resources—out of his
 rejected self—but nds it only by clinging passionately to whatever
@@ -2614,8 +2545,6 @@ from one holy cause to another. He cannot be convinced but only
 converted. His passionate attachment is more vital than the quality
 of the cause to which he is attached.
 
-
-62
 Though they seem to be at opposite poles, fanatics of all kinds are
 actually crowded together at one end. It is the fanatic and the
 moderate who are poles apart and never meet. The fanatics of
@@ -2643,7 +2572,7 @@ The kinship between the reactionary and the radical has been
 dealt with in Section 52. All of us who lived through the Hitler
 decade know that the reactionary and the radical have more in
 common than either has with the liberal or the conservative.
-63
+
 It is doubtful whether the fanatic who deserts his holy cause or is
 suddenly left without one can ever adjust himself to an autonomous
 individual existence. He remains a homeless hitch-hiker on the
@@ -2675,7 +2604,7 @@ Communist Russia can easily turn Japanese war prisoners into
 fanatical Communists, while no American propaganda, however
 subtle and perfect, can turn them into freedom-loving democrats.
 Mass Movements and Armies
-64
+
 It is well at this point, before leaving the subject of self-sacrice, to
 have a look at the similarities and di0erences between mass
 movements and armies—a problem which has already cropped up
@@ -2780,12 +2709,10 @@ which, like God on the day of creation, he will bring forth a new
 world.
 
 
-
-
 XIV
 Unifying Agents
 Hatred
-65
+
 Hatred is the most accessible and comprehensive of all unifying
 agents. It pulls and whirls the individual away from his own self,
 makes him oblivious of his weal and future, frees him of jealousies
@@ -2824,14 +2751,14 @@ vanished from the scene at the end of the war. The ambitious but
 simple-minded General was perhaps too conceited to realize that it
 was not he but the Japanese devil who generated the enthusiasm,
 the unity and the readiness for self-sacrifice of the Chinese masses.
-66
+
 Common hatred unites the most heterogeneous elements. To share
 a common hatred, with an enemy even, is to infect him with a
 feeling of kinship, and thus sap his powers of resistance. Hitler used
 anti-Semitism not only to unify his Germans but also to sap the
 resoluteness of Jew-hating Poland, Rumania, Hungary, and <nally
 even France. He made a similar use of anti-communism.
-67
+
 It seems that, like the ideal deity, the ideal devil is one. We have it
 from Hitler—the foremost authority on devils—that the genius of a
 great leader consists in concentrating all hatred on a single foe,
@@ -2863,7 +2790,7 @@ Revolution the aristocrats were seen as “descendants of barbarous
 Germans, while French commoners were descendants of civilized
 Gauls and Romans.”9 In the Puritan Revolution the royalists “were
 labeled ‘Normans,’ descendants of a group of foreign invaders.”10
-68
+
 We do not usually look for allies when we love. Indeed, we often
 look on those who love with us as rivals and trespassers. But we
 always look for allies when we hate.
@@ -2908,7 +2835,7 @@ Dixiecrats, lynch Blacks.
 Self-contempt produces in man “the most unjust and criminal
 passions imaginable, for he conceives a mortal hatred against that
 truth which blames him and convinces him of his faults.”12
-69
+
 That hatred springs more from self-contempt than from a legitimate
 grievance is seen in the intimate connection between hatred and a
 guilty conscience.
@@ -2928,23 +2855,23 @@ Self-righteousness is a loud din raised to drown the voice of guilt
 within us.
 There is a guilty conscience behind every brazen word and act
 and behind every manifestation of self-righteousness.
-70
+
 To wrong those we hate is to add fuel to our hatred. Conversely, to
 treat an enemy with magnanimity is to blunt our hatred for him.
-71
+
 The most e'ective way to silence our guilty conscience is to
 convince ourselves and others that those we have sinned against are
 indeed depraved creatures, deserving every punishment, even
 extermination. We cannot pity those we have wronged, nor can we
 be indi'erent toward them. We must hate and persecute them or
 else leave the door open to self-contempt.
-72
+
 A sublime religion inevitably generates a strong feeling of guilt.
 There is an unavoidable contrast between loftiness of profession
 and imperfection of practice. And, as one would expect, the feeling
 of guilt promotes hate and brazenness. Thus it seems that the more
 sublime the faith the more virulent the hatred it breeds.
-73
+
 It is easier to hate an enemy with much good in him than one who
 is all bad. We cannot hate those we despise. The Japanese had an
 advantage over us in that they admired us more than we admired
@@ -2999,7 +2926,7 @@ superiority of the National Socialist faith. “The best yardstick for the
 value of his [the National Socialist’s] attitude, for the sincerity of his
 conviction, and the force of his will is the hostility he receives from
 the … enemy.”14
-74
+
 It seems that when we are oppressed by the knowledge of our
 worthlessness we do not see ourselves as lower than some and
 higher than others, but as lower than the lowest of mankind. We
@@ -3014,14 +2941,12 @@ realization that the old will have to be razed to the ground before
 the new can be built. Their clamor for a millennium is shot through
 with a hatred for all that exists, and a craving for the end of the
 world.
-75
+
 Passionate hatred can give meaning and purpose to an empty life.
 Thus people haunted by the purposelessness of their lives try to
 <nd a new content not only by dedicating themselves to a holy
 cause but also by nursing a fanatical grievance. A mass movement
 offers them unlimited opportunities for both.
-76
-
 
 Whether it is true or not as Pascal says that “all men by nature hate
 each other,” and that love and charity are only “a feint and a false
@@ -3038,7 +2963,7 @@ that my heart swells with righteous indignation and hatred and I
 can say with warmth and vehemence: ‘Holy be Thy Name, Thy
 Kingdom come, Thy Will be done!’ And the hotter I grow the more
 ardent do my prayers become.”16
-77
+
 Unity and self-sacri<ce, of themselves, even when fostered by the
 most noble means, produce a facility for hating. Even when men
 league themselves mightily together to promote tolerance and
@@ -3098,10 +3023,9 @@ dehumanization. The torture chamber is a corporate institution.
 
 
 Imitation
-78
-Imitation is an essential unifying agent. The development of a close-
-knit group is inconceivable without a di'usion of uniformity. The
-one-mindedness 
+
+Imitation is an essential unifying agent. The development of a closeknit group is inconceivable without a di'usion of uniformity. The
+one-mindedness
 and Gleichschaltung prized by every mass
 movement are achieved as much by imitation as by obedience.
 Obedience itself consists as much in the imitation of an example as
@@ -3140,7 +3064,7 @@ e
 st ust ou
 judgment and luck, the more are we ready to follow the example of
 others.
-79
+
 Mere rejection of the self, even when not accompanied by a search
 for a new identity, can lead to increased imitativeness. The rejected
 self ceases to assert its claim to distinctness, and there is nothing to
@@ -3148,7 +3072,7 @@ resist the propensity to copy. The situation is not unlike that
 observed in children and undi'erentiated adults where the lack of a
 distinct individuality leaves the mind without guards against the
 intrusion of influences from without.
-80
+
 A feeling of superiority counteracts imitation. Had the millions of
 immigrants who came to this country been superior people—the
 cream of the countries they came from—there would have been not
@@ -3161,12 +3085,9 @@ and be reborn to a new life; and they were automatically equipped
 with an unbounded capacity to imitate and adopt the new. The
 strangeness of the new country attracted rather than repelled them.
 They craved a new identity and a new life—and the stranger the
-new world the more it suited their inclination. Perhaps, to the non-
-Anglo-Saxons, the strangeness of the language was an added
+new world the more it suited their inclination. Perhaps, to the nonAnglo-Saxons, the strangeness of the language was an added
 attraction. To have to learn to speak enhanced the illusion of being
 born anew.
-81
-
 
 Imitation is often a shortcut to a solution. We copy when we lack
 the inclination, the ability or the time to work out an independent
@@ -3174,7 +3095,7 @@ solution. People in a hurry will imitate more readily than people at
 leisure. Hustling thus tends to produce uniformity. And in the
 deliberate fusing of individuals into a compact group, incessant
 action will play a considerable role.22
-82
+
 Uni<cation of itself, whether brought about by persuasion, coercion
 or spontaneous surrender, tends to intensify the imitation capacity.
 A civilian drafted into the army and made a member of a close-knit
@@ -3221,7 +3142,7 @@ Czars. It is also obvious that a primitive people with an intact
 collective framework can be more readily modernized than one
 with a crumbling tribal or communal pattern.24
 Persuasion and Coercion
-83
+
 We tend today to exaggerate the e'ectiveness of persuasion as a
 means of inculcating opinion and shaping behavior. We see in
 propaganda a formidable instrument. To its skillful use we attribute
@@ -3269,8 +3190,6 @@ must always stand behind propaganda if it is to be really
 effective.”26 He also sounds apologetic when he claims that “it
 cannot be denied that more can be done with good propaganda
 than by no propaganda at all.”27
-84
-
 
 Contrary to what one would expect, propaganda becomes more
 fervent and importunate when it operates in conjunction with
@@ -3284,7 +3203,7 @@ who prostituted his soul to live.
 Propaganda thus serves more to justify ourselves than to convince
 others; and the more reason we have to feel guilty, the more fervent
 our propaganda.
-85
+
 It is probably as true that violence breeds fanaticism as that
 fanaticism begets violence. It is often impossible to tell which came
 <rst. Both those who employ violence and those subject to it are
@@ -3326,7 +3245,7 @@ scientists, writers, and artists to recant their convictions and confess
 their errors, the chances are that such recantations and confessions
 represent genuine conversions rather than lip service. It needs
 fanatical faith to rationalize our cowardice.
-86
+
 There is hardly an example of a mass movement achieving vast
 proportions and a durable organization solely by persuasion.
 Professor K. S. Latourette, a very Christian historian, has to admit
@@ -3372,7 +3291,7 @@ blows may avail.’ We shall rouse against you princes and prelates,
 who, alas, will arm nations and kingdoms against this land … and
 thus blows will avail where blessings and gentleness have been
 powerless.”36
-87
+
 The assertion that a mass movement cannot be stopped by force is
 not literally true. Force can stop and crush even the most vigorous
 movement. But to do so the force must be ruthless and persistent.
@@ -3396,7 +3315,7 @@ bene<t from every persecution.”38 The holy terror only knows no
 limit and never flags.
 Thus it seems that we need ardent faith not only to be able to
 resist coercion,39 but also to be able to exercise it effectively.
-88
+
 Whence comes the impulse to proselytize?
 Intensity of conviction is not the main factor which impels a
 movement to spread its faith to the four corners of the earth:
@@ -3427,8 +3346,7 @@ o ab e co
 u s p o es
 Russ a, a d t e o e
 its leaders are compelled to compromise and adulterate the original
-creed, the more brazen and arrogant will be their attack on a non-
-believing world. The slaveholders of the South became the more
+creed, the more brazen and arrogant will be their attack on a nonbelieving world. The slaveholders of the South became the more
 aggressive in spreading their way of life the more it became patent
 that their position was untenable in a modern world. If free
 enterprise becomes a proselytizing holy cause, it will be a sign that
@@ -3440,7 +3358,7 @@ as it is of a band of fugitives setting out for a distant land that they
 escape from an untenable situation at home. And how often indeed
 do the three meet, mingle and exchange their parts.
 Leadership
-89
+
 No matter how vital we think the role of leadership in the rise of a
 mass movement, there is no doubt that the leader cannot create the
 conditions which make the rise of a movement possible. He cannot
@@ -3482,7 +3400,7 @@ Accidents and the activities of other men have to set the stage for
 them before they can enter and start their performance. “The
 commanding man in a momentous day seems only to be the last
 accident in a series.”42
-90
+
 Once the stage is set, the presence of an outstanding leader is
 indispensable. Without him there will be no movement. The
 ripeness of the times does not automatically produce a mass
@@ -3581,7 +3499,7 @@ capitalism and Stalinism. Had Lenin been the emissary of a leader
 and a politburo sitting in some distant foreign land, it is doubtful
 whether he could have exercised his fateful in%uence on the course
 of events in Russia.
-91
+
 The crude ideas advanced by many of the successful mass
 movement leaders of our time incline one to assume that a certain
 coarseness and immaturity of mind is an asset to leadership.
@@ -3617,7 +3535,7 @@ fashioning after a model. This excessive capacity for imitation
 indicates that the hero is without a fully developed and realized
 self. There is much in him that is rudimentary and suppressed. His
 strength lies in his blind spots and in plugging all outlets but one.
-92
+
 The total surrender of a distinct self is a prerequisite for the
 attainment of both unity and self-sacri<ce; and there is probably no
 more direct way of realizing this surrender than by inculcating and
@@ -3656,10 +3574,9 @@ this country, the American employer often <nds in the racial fanatic
 of our South—so given to mass violence—a respectful and docile
 factory hand. The army, too, <nds him particularly amenable to
 discipline.
-93
+
 People whose lives are barren and insecure seem to show a greater
-willingness to obey than people who are self-suGcient and self-
-con<dent. To the frustrated, freedom from responsibility is more
+willingness to obey than people who are self-suGcient and selfcon<dent. To the frustrated, freedom from responsibility is more
 attractive than freedom from restraint. They are eager to barter their
 independence for relief from the burdens of willing, deciding and
 being responsible for inevitable failure. They willingly abdicate the
@@ -3670,7 +3587,7 @@ In time of crisis, during %oods, earthquakes, epidemics,
 depressions and wars, separate individual e'ort is of no avail, and
 people of every condition are ready to obey and follow a leader. To
 obey is then the only firm point in a chaotic day-by-day existence.
-94
+
 The frustrated are also likely to be the most steadfast followers. It is
 remarkable, that, in a co-operative e'ort, the least self-reliant are
 the least likely to be discouraged by defeat. For they join others in a
@@ -3689,7 +3606,7 @@ leading them to a promised land than because of their immediate
 feeling that he is leading them away from their unwanted selves.
 Surrender to a leader is not a means to an end but a ful<llment.
 Whither they are led is of secondary importance.
-95
+
 There is probably a crucial di'erence between a mass movement
 leader and a leader in a free society. In a more or less free society,
 the leader can retain his hold on the people only when he has blind
@@ -3710,7 +3627,7 @@ unions is that by following the line and adopting the tactics of the
 party, they are assuming the attitude and using the tactics of a mass
 movement leader in an organization made up of free men.
 Action
-96
+
 Action is a uni<er. There is less individual distinctness in the
 genuine man of action—the builder, soldier, sportsman and even
 the scientist—than in the thinker or in one whose creativeness %ows
@@ -3743,7 +3660,7 @@ to realize an ideal (of freedom, justice, equality) measured the
 realities of the new land against their ideal and found them
 wanting. They felt superior, and inevitably insulated themselves
 against the new environment.
-97
+
 Men of thought seldom work well together, whereas between men
 of action there is usually an easy camaraderie. Teamwork is rare in
 intellectual or artistic undertakings, but common and almost
@@ -3753,14 +3670,11 @@ Communist commissar of industry has probably more in common
 with a capitalist industrialist than with a Communist theoretician.
 The real International is that of men of action.
 
-
-98
 All mass movements avail themselves of action as a means of
 uni<cation. The con%icts a mass movement seeks and incites serve
 not only to down its enemies but also to strip its followers of their
 distinct individuality and render them more soluble in the collective
-medium. Clearing of land, building of cities, exploration and large-
-scale industrial undertakings serve a similar purpose. Even mere
+medium. Clearing of land, building of cities, exploration and largescale industrial undertakings serve a similar purpose. Even mere
 marching can serve as a uni<er. The Nazis made vast use of this
 preposterous variant of action. Hermann Rauschning, who at <rst
 thought this eternal marching a senseless waste of time and energy,
@@ -3777,7 +3691,7 @@ How else explain the surprising fact that the Lenins, Trotskys,
 Mussolinis and Hitlers who spent the best part of their lives talking
 their heads o' in cafés and meetings reveal themselves suddenly as
 the most able and tireless men of action of their time?
-99
+
 Faith organizes and equips man’s soul for action. To be in
 possession of the one and only truth and never doubt one’s
 righteousness; to feel that one is backed by a mysterious power
@@ -3824,8 +3738,7 @@ mass movement.
 There is of course the constant danger that should the avenues of
 action be thoroughly blocked by a severe depression or defeat in
 war the resulting frustration is likely to be so intense that almost
-any proselytizing mass movement would <nd the situation ready-
-made for its propagation. The explosive situation in Germany after
+any proselytizing mass movement would <nd the situation readymade for its propagation. The explosive situation in Germany after
 the First World War was partly due to the inactivity forced upon a
 
 
@@ -3838,7 +3751,7 @@ important, he opened before them unlimited opportunities for
 feverish, incessant and spectacular action. No wonder they heiled
 him as their Savior.
 Suspicion
-100
+
 We have seen that the acrid secretion of the frustrated mind, though
 composed chie%y of fear and ill will, acts yet as a marvelous slime
 to cement the embittered and disa'ected into one compact whole.
@@ -3880,7 +3793,7 @@ the mouth of the dissenter, and the deviationists are his stooges. If
 anything goes wrong within the movement, it is his doing. It is the
 sacred duty of the true believer to be suspicious. He must be
 constantly on the lookout for saboteurs, spies and traitors.
-101
+
 Collective unity is not the result of the brotherly love of the faithful
 for each other. The loyalty of the true believer is to the whole—the
 church, party, nation—and not to his fellow true believer. True
@@ -3906,7 +3819,7 @@ ambition, avarice, detraction, rebellion.”51
 
 
 The Effects of Unification
-102
+
 Thorough uni<cation, whether brought about by spontaneous
 surrender, persuasion, coercion, necessity or ingrained habit, or a
 combination of these, tends to intensify the inclinations and
@@ -3967,7 +3880,7 @@ ever <nd peace of mind as autonomous individuals. They cannot
 stand on their own, but must embrace a new cause and attach
 themselves to a new group.
 The true believer is eternally incomplete, eternally insecure.
-103
+
 It is of interest to note the means by which a mass movement
 accentuates and perpetuates the individual incompleteness of its
 adherents. By elevating dogma above reason, the individual’s
@@ -3977,8 +3890,7 @@ dependence is maintained by centralizing economic power and by a
 
 depe de ce s a ta ed by ce t a
 g eco o c po e a d by a
-deliberately created scarcity of the necessities of life. Social self-
-suGciency is discouraged by crowded housing or communal
+deliberately created scarcity of the necessities of life. Social selfsuGciency is discouraged by crowded housing or communal
 quarters, and by enforced daily participation in public functions.
 Ruthless censorship of literature, art, music and science prevents
 even the creative few from living self-suGcient lives. The inculcated
@@ -3994,17 +3906,13 @@ yet exhibit the peculiarities of people who crave to lose themselves
 and be rid of an existence that is irrevocably spoiled.
 
 
-
-
 PART 4
 Beginning and End
 
 
-
-
 XV
 Men of Words
-104
+
 Mass movements do not usually rise until the prevailing order has
 been discredited. The discrediting is not an automatic result of the
 blunders and abuses of those in power, but the deliberate work of
@@ -4083,7 +3991,7 @@ a
 e e
 unknowingly among those who prepared the ground for the
 Chinese revolution.
-105
+
 The men of words are of diverse types. They can be priests, scribes,
 prophets, writers, artists, professors, students and intellectuals in
 general. Where, as in China, reading and writing is a di<cult art,
@@ -4148,7 +4056,7 @@ frugality, and religion.”9 The pampered and Hattered men of words
 in Nazi Germany and Bolshevik Russia feel no impulsion to side
 with the persecuted and terrorized against the ruthless leaders and
 their secret police.
-106
+
 Whenever we -nd a dispensation enduring beyond its span of
 competence, there is either an entire absence of an educated class
 or an intimate alliance between those in power and the men of
@@ -4226,8 +4134,7 @@ this system, instead of safeguarding British rule, hastened its end.
 Britain’s failure in Palestine was also due in part to the lack of
 rapport between the typical British colonial o<cial and men of
 words. The majority of the Palestinian Jews, although steeped in
-action, are by upbringing and tradition men of words, and thin-
-skinned to a fault. They smarted under the contemptuous attitude of
+action, are by upbringing and tradition men of words, and thinskinned to a fault. They smarted under the contemptuous attitude of
 the British o<cial who looked on the Jews as on a pack of
 unmanly and ungrateful quibblers—an easy prey for the warlike
 Arabs once Britain withdrew its protective hand. The Palestinian
@@ -4249,7 +4156,7 @@ same discipline imposed on the rest of the elite. In the case of
 Hitler there was a diabolical realism in his plan to make all
 learning the monopoly of the elite which was to rule his envisioned
 world empire and keep the anonymous masses barely literate.
-107
+
 The men of letters of eighteenth-century France are the most
 familiar example of intellectuals pioneering a mass movement. A
 somewhat similar pattern may be detected in the periods preceding
@@ -4308,7 +4215,7 @@ subjected toward the end of the nineteenth century. To a degree the
 nationalist movement which forced the British rulers out of India
 had its inception in the humiliation of a scrawny and bespectacled
 Indian man of words in South Africa.
-108
+
 It is easy to see how the fault-nding man of words, by persistent
 ridicule and denunciation, shakes prevailing beliefs and loyalties,
 
@@ -4379,7 +4286,7 @@ Are full of passionate intensity.
 Surely some revelation is at hand,
 Surely the Second Coming is at hand.17
 The stage is now set for the fanatics.
-109
+
 The tragic -gures in the history of a mass movement are often the
 intellectual precursors who live long enough to see the downfall of
 the old order by the action of the masses.
@@ -4404,8 +4311,7 @@ incompetence, denounce its illegitimacy and oppressiveness, and
 call for freedom of self-expression and self-realization. They take it
 for granted that the masses who respond to their call and range
 themselves behind them crave the same things. However, the
-freedom the masses crave is not freedom of self-expression and self-
-realization, but freedom from the intolerable burden of an
+freedom the masses crave is not freedom of self-expression and selfrealization, but freedom from the intolerable burden of an
 autonomous existence. They want freedom from “the fearful burden
 of free choice,”19 freedom from the arduous responsibility of
 realizing their ine*ectual selves and shouldering the blame for the
@@ -4440,11 +4346,9 @@ but that their attitude is in full accord with the ruling passion of the
 masses.
 
 
-
-
 XVI
 The Fanatics
-110
+
 When the moment is ripe, only the fanatic can hatch a genuine
 mass movement. Without him the disaection engendered by
 militant men of words remains undirected and can vent itself only
@@ -4482,7 +4386,7 @@ g; a d
 oe to t ose,
 inside and outside the movement, who hug and hang on to the
 present.
-111
+
 Whence come the fanatics? Mostly from the ranks of the
 noncreative men of words. The most signi#cant division between
 men of words is between those who can #nd ful#llment in creative
@@ -4497,8 +4401,7 @@ masses does not come into play, either because the old order
 abdicates without a struggle or because the man of words allies
 himself with strong men of action the moment chaos threatens to
 break loose. When the struggle with the old order is bitter and
-chaotic and victory can be won only by utmost unity and self-
-sacri#ce, the creative man of words is usually shoved aside and the
+chaotic and victory can be won only by utmost unity and selfsacri#ce, the creative man of words is usually shoved aside and the
 management of aairs falls into the hands of the noncreative men
 of words—the eternal mis#ts and the fanatical contemners of the
 present.1
@@ -4542,7 +4445,7 @@ the heretic. Thus unless the creative man of words sti4es the
 newborn movement by allying himself with practical men of action
 or unless he dies at the right moment, he is likely to end up either a
 shunned recluse or in exile or facing a firing squad.
-112
+
 The danger of the fanatic to the development of a movement is that
 he cannot settle down. Once victory has been won and the new
 order begins to crystallize, the fanatic becomes an element of strain
@@ -4581,11 +4484,9 @@ entrance of a practical man of action can save the achievements of
 the movement.
 
 
-
-
 XVII
 The Practical Men of Action
-113
+
 A movement is pioneered by men of words, materialized by
 fanatics and consolidated by men of action.
 It is usually an advantage to a movement, and perhaps a
@@ -4633,7 +4534,7 @@ of frustrated souls as mortar in the building of a new world. The
 self-con>dence of these rare leaders is derived from and blended
 with their faith in humanity, for they know that no one can be
 honorable unless he honors mankind.
-114
+
 The man of action saves the movement from the suicidal
 dissensions and the recklessness of the fanatics. But his appearance
 usually marks the end of the dynamic phase of the movement. The
@@ -4662,7 +4563,7 @@ they must represent a loose aggregation rather than a spontaneous
 coalescence. They must be uni>ed only through their unquestioning
 loyalty to the institutions. Spontaneity is suspect, and duty is prized
 above devotion.
-115
+
 The chief preoccupation of a man of action when he takes over an
 “arrived” movement is to >x and perpetuate its unity and readiness
 for self-sacri>ce. His ideal is a compact, invincible whole that
@@ -4727,8 +4628,6 @@ bureaucracy of the Roman Empire, adopted portions of the antique
 ritual, developed the institution of an absolute leader and used
 every means to absorb all existent elements of life and power.3
 
-
-116
 In the hands of a man of action the mass movement ceases to be a
 refuge from the agonies and burdens of an individual existence and
 becomes a means of self-realization for the ambitious. The
@@ -4752,12 +4651,10 @@ instrument of power for the successful and an opiate for the
 frustrated.
 
 
-
-
 XVIII
 Good and Bad Mass Movements
 The Unattractiveness and Sterility of the Active Phase
-117
+
 This book concerns itself chie!y with the active phase of mass
 movements—the phase molded and dominated by the true believer.
 It is in this phase that mass movements of all types often manifest
@@ -4765,8 +4662,7 @@ the common traits we have tried to outline. Now it seems to be true
 that no matter how noble the original purpose of a movement and
 however bene)cent the end result, its active phase is bound to
 strike us as unpleasant if not evil. The fanatic who personi)es this
-phase is usually an unattractive human type. He is ruthless, self-
-righteous, credulous, disputatious, petty and rude. He is often ready
+phase is usually an unattractive human type. He is ruthless, selfrighteous, credulous, disputatious, petty and rude. He is often ready
 to sacri)ce relatives and friends for his holy cause. The absolute
 unity and the readiness for self-sacri)ce which give an active
 movement its irresistible drive and enable it to undertake the
@@ -4821,8 +4717,6 @@ of noises and hoarse disputes”5 which was the Puritan Revolution.
 With the Revolution dead and himself in disgrace, he produced
 Paradise Lost, Paradise Regained and Samson Agonistes.
 
-
-118
 The interference of an active mass movement with the creative
 process is deep-reaching and manifold: 1) The fervor it generates
 drains the energies which would have !owed into creative work.
@@ -4865,7 +4759,7 @@ e t e
 d s as t
 were in solution—ready for all manner of new reactions, new
 combinations and new beginnings.
-119
+
 When an active mass movement displays originality, it is usually an
 originality of application and of scale. The principles, methods,
 techniques, etcetera which a mass movement applies and exploits
@@ -4887,7 +4781,7 @@ long side by side. Actually, if there were no free societies outside
 the Communist orbit, they might have found it necessary to
 establish them by ukase.
 Some Factors Which Determine the Length of the Active Phase
-120
+
 A mass movement with a concrete, limited objective is likely to
 have a shorter active phase than a movement with a nebulous,
 inde)nite objective. The vague objective is perhaps indispensable
@@ -4903,8 +4797,7 @@ tyranny, either domestic or foreign, or to resist an aggressor, or to
 renovate a backward society, there is a natural point of termination
 once the struggle with the enemy is over or the process of
 reorganization is nearing completion. On the other hand, when the
-objective is an ideal society of perfect unity and sel!essness-
-whether it be the City of God, a Communist heaven on earth, or
+objective is an ideal society of perfect unity and sel!essnesswhether it be the City of God, a Communist heaven on earth, or
 Hitler's warrior state-the active phase is without an automatic end.
 Where unity and self-sacri)ce are indispensable for the normal
 functioning of a society, everyday life is likely to be either
@@ -4928,8 +4821,6 @@ no part in it! …. Credulity has deep roots. Socialism may bring back
 by the complicity of Catholicism a new Middle Age, with
 barbarians, churches, eclipses of liberty and individuality-in a word,
 of civilization.”10
-121
-
 
 There is perhaps some hope to be derived from the fact that in
 most instances where an attempt to realize an ideal society gave
@@ -4946,8 +4837,7 @@ atmosphere which is neither hectic nor coercive. The horror a small
 nation has of wasting its precious human material, its urgent need
 for internal harmony and cohesion as a safeguard against aggression
 from without, and, )nally, the feeling of its people that they are all
-of one family make it possible to foster a readiness for utmost co-
-operation without recourse to either religio)cation or
+of one family make it possible to foster a readiness for utmost cooperation without recourse to either religio)cation or
 militarization. It would probably be fortunate for the Occident if
 the working out of all extreme social experiments were left wholly
 to small states with homogeneous, civilized populations. The
@@ -4994,7 +4884,7 @@ identify himself with, and his capacity to resist coercion was nil. But
 in a traditionally free country the individual who pits himself
 against coercion does not feel an isolated human atom but one of a
 mighty race—his rebellious ancestors.
-122
+
 The personality of the leader is probably a crucial factor in
 determining the nature and duration of a mass movement. Such rare
 leaders as Lincoln and Gandhi not only try to curb the evil inherent
@@ -5023,7 +4913,7 @@ Goering, a fundamental change in its course, and the Second World
 War might have been averted. Yet the sepulcher of Hitler, the
 founder of a Nazi religion, might perhaps have been a greater evil
 than all the atrocities, bloodshed and destruction of Hitler’s war.
-123
+
 The manner in which a mass movement starts out can also have
 some eBect on the duration and mode of termination of the active
 phase of the movement. When we see the Reformation, the Puritan,
@@ -5069,7 +4959,7 @@ of it is kept green.
 By this test, the eventual emergence of individual liberty in Russia
 is perhaps not entirely hopeless.
 Useful Mass Movements
-124
+
 In the eyes of the true believer, people who have no holy cause are
 without backbone and character—a pushover for men of faith. On
 the other hand, the true believers of various hues, though they view
@@ -5138,7 +5028,7 @@ gentleman and France’s ideal of the retired rentier are concrete and
 limited. This de)niteness of their national ideal has perhaps
 something to do with the lessened drive of the two nations. In
 America, Russia and Germany the ideal is indefinite and unlimited.
-125
+
 As indicated in Section 1, mass movements are often a factor in the
 awakening and renovation of stagnant societies. Though it cannot
 be maintained that mass movements are the only eBective
@@ -5212,8 +5102,7 @@ shakes the social body out of its stagnation. In the case of Arabia,
 the foreign in!uences alienated the man of words, Mohammed,
 from the prevailing dispensation in Mecca. Mohammed started a
 mass movement (Islam) which shook and integrated Arabia for a
-time. In the time of the Renaissance, the foreign in!uences (Graeco-
-Roman and Arabic) facilitated the emergence of men of words who
+time. In the time of the Renaissance, the foreign in!uences (GraecoRoman and Arabic) facilitated the emergence of men of words who
 had no connection with the church, and also alienated many
 traditional men of words from the prevailing Catholic dispensation.
 The resulting movement of the Reformation shook Europe out of its
@@ -5246,8 +5135,6 @@ miraculous instrument for raising societies and nations from the
 dead—an instrument of resurrection.
 
 
-
-
 About the Author
 ERIC HOFFER (1902–1983) was self-educated. He worked in restaurants,
 and as a migrant )eld-worker and gold prospector. After Pearl
@@ -5265,8 +5152,6 @@ The Temper of Our Time (1967)
 The Ordeal of Change (1963)
 The Passionate State of Mind (1955)
 The True Believer (1951)
-
-
 
 
 Copyright
@@ -5323,10 +5208,6 @@ HarperCollins Publishers Inc.
 10 East 53rd Street
 New York, NY 10022
 http://www.harpercollinsebooks.com
-
-
-
-
 
 
 Notes
@@ -5670,8 +5551,7 @@ Macmillan Company, 1944).
 24. Ernest Renan, op. cit., Vol. V., p. 159.
 
 
-25. Harold Ettlinger, The Axis on the Air (Indianapolis: Bobbs-
-Merrill Company, 1943), p. 39.
+25. Harold Ettlinger, The Axis on the Air (Indianapolis: BobbsMerrill Company, 1943), p. 39.
 
 
 26. Homer, Iliad.

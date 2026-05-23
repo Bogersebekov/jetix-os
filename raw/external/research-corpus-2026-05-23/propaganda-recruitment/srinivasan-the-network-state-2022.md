@@ -9,743 +9,727 @@ chars: 735973
 approx_tokens: 183993
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 735975
+phase4_chars_after: 733287
+phase4_saved_pct: 0.4
 ---
 
 
-
 Contents
-1
+
 Quickstart
-8
+
 1.1
 Preamble
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-8
+
 1.2
 The Network State in One Sentence . . . . . . . . . . . . . . . . . . . .
-9
+
 1.3
 The Network State in One Image . . . . . . . . . . . . . . . . . . . . .
-10
+
 1.4
 The Network State in One Thousand Words . . . . . . . . . . . . . . .
-11
+
 1.5
 The Network State in One Essay
 . . . . . . . . . . . . . . . . . . . . .
-12
+
 1.5.1
 How to Start a New Country
 . . . . . . . . . . . . . . . . . . .
-13
+
 1. Election . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-13
+
 2. Revolution . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-13
+
 3. War . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-13
+
 4. Micronations . . . . . . . . . . . . . . . . . . . . . . . . . . .
-14
+
 5. Seasteading . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-14
+
 6. Space . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-14
+
 7. Network States . . . . . . . . . . . . . . . . . . . . . . . . . .
-15
+
 1.5.2
 Minimum Necessary Innovation . . . . . . . . . . . . . . . . . .
-15
+
 1.5.3
 What Counts as a New Country? . . . . . . . . . . . . . . . . .
-16
+
 1.5.4
 Most Countries are Small Countries . . . . . . . . . . . . . . . .
-17
-2
+
+
 History as Trajectory
-19
+
 2.1
 Prologue . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-19
+
 2.1.1
 Why History is Crucial . . . . . . . . . . . . . . . . . . . . . . .
-20
+
 2.1.2
 Why History is Crucial for Startup Societies . . . . . . . . . . .
-24
+
 2.1.3
 Why Startup Societies Aren’t Solely About Technology . . . . .
-24
+
 2.1.4
 Applied History for Startup Societies . . . . . . . . . . . . . . .
-25
+
 2.2
 Microhistory and Macrohistory
 . . . . . . . . . . . . . . . . . . . . . .
-29
+
 2.2.1
 History as a Cryptic Epic of Twisting Trajectories . . . . . . . .
-29
+
 2.2.2
 Microhistory is the History of Reproducible Systems . . . . . . .
-30
+
 2.2.3
 Macrohistory is the History of Non-Reproducible Systems . . . .
-31
+
 2.2.4
 Bitcoin’s Blockchain Is a Technology for Robust Macrohistory .
-33
+
 2.2.5
 The Bitcoin Blockchain Can Record Non-Bitcoin Events
 . . . .
-34
+
 2.2.6
 Blockchains Can Record the History of an Economy and Society
-36
+
 2.2.7
 Cryptohistory is Cryptographically Verifiable Macrohistory . . .
-37
+
 2.3
 Political Power and Technological Truth
 . . . . . . . . . . . . . . . . .
-38
-1
 
 
-2
 CONTENTS
 2.3.1
 Political Power as the Driving Force of History . . . . . . . . . .
-39
+
 2.3.2
 Technological Truth as the Driving Force of History . . . . . . .
-42
+
 2.3.3
 A Collision of Political Power and Technological Truth
 . . . . .
-47
+
 2.3.4
 A Definition of Political and Technological Truths . . . . . . . .
-48
+
 2.3.5
 A Balance of Political Power and Technological Truth . . . . . .
-48
+
 2.4
 God, State, Network
 . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-49
+
 2.4.1
 What is the Most Powerful Force in the World? . . . . . . . . .
-50
+
 2.4.2
 Rubber Hoses Don’t Scale . . . . . . . . . . . . . . . . . . . . .
-51
+
 2.4.3
 The Network is the Next Leviathan . . . . . . . . . . . . . . . .
-52
+
 Network > State: Trump’s Deplatforming
 . . . . . . . . . . . .
-54
+
 2.4.4
 The State is Still A Leviathan . . . . . . . . . . . . . . . . . . .
-54
+
 2.4.5
 Thesis, Antithesis, Synthesis . . . . . . . . . . . . . . . . . . . .
-58
+
 2.4.6
 Synthesis: The Network/God
 . . . . . . . . . . . . . . . . . . .
-58
+
 2.4.7
 Synthesis: The Network/State . . . . . . . . . . . . . . . . . . .
-59
+
 Positive Syntheses: BTC, Web3, Efficiency . . . . . . . . . . . .
-59
+
 Negative Syntheses: USG, CCP, Monopoly . . . . . . . . . . . .
-60
+
 2.4.8
 Synthesis: God, State, and Network . . . . . . . . . . . . . . . .
-61
+
 2.4.9
 New Leviathan, New States . . . . . . . . . . . . . . . . . . . .
-62
+
 2.5
 People of God, People of the State, People of the Network
 . . . . . . .
-62
+
 2.5.1
 American Tribes and Their Leviathans . . . . . . . . . . . . . .
-63
+
 Blue Tribe: Left-Authoritarians, Left-Libertarians . . . . . . . .
-63
+
 Red Tribe: Secular Nationalists, Internationalist Capitalists
 . .
-70
+
 The Realignment . . . . . . . . . . . . . . . . . . . . . . . . . .
-75
+
 2.5.2
 Tech vs Media, aka PC vs PC . . . . . . . . . . . . . . . . . . .
-75
-The Conflict: Technological Progressives vs Technological Con-
-servatives . . . . . . . . . . . . . . . . . . . . . . . . .
-77
+
+The Conflict: Technological Progressives vs Technological Conservatives . . . . . . . . . . . . . . . . . . . . . . . . .
+
 The Enormous State, not the Entrepreneurial State . . . . . . .
-78
+
 2.5.3
 The Base-Rater as a Flat-Curver
 . . . . . . . . . . . . . . . . .
-79
+
 2.6
 If the News is Fake, Imagine History
 . . . . . . . . . . . . . . . . . . .
-80
+
 2.6.1
 Distortion of the Present . . . . . . . . . . . . . . . . . . . . . .
-82
+
 Patterns of Information Distortion
 . . . . . . . . . . . . . . . .
-83
+
 The Network Delivered Actual Freedom of Speech . . . . . . . .
-84
+
 The Establishment Launched the Counter-Decentralization . . .
-85
+
 2.6.2
 Distortion of the Past
 . . . . . . . . . . . . . . . . . . . . . . .
-86
+
 2.6.3
 Jurassic Ballpark . . . . . . . . . . . . . . . . . . . . . . . . . .
-88
+
 2.6.4
 Further Reading
 . . . . . . . . . . . . . . . . . . . . . . . . . .
-90
+
 2.7
 Fragmentation, Frontier, Fourth Turning, Future Is Our Past . . . . . .
-93
+
 2.7.1
 The Fragmentation Thesis . . . . . . . . . . . . . . . . . . . . .
-94
+
 2.7.2
 The Frontier Thesis . . . . . . . . . . . . . . . . . . . . . . . . .
-95
+
 2.7.3
 The Fourth Turning Thesis
 . . . . . . . . . . . . . . . . . . . .
-98
+
 2.7.4
 The Future Is Our Past Thesis . . . . . . . . . . . . . . . . . . .
-98
+
 2.8
 Left is the New Right is the New Left . . . . . . . . . . . . . . . . . . .
-101
+
 2.8.1
 Why Discuss Left and Right at All? . . . . . . . . . . . . . . . .
-101
+
 2.8.2
 Reunifying Technological and Moral Progress
 . . . . . . . . . .
-102
-
 
 CONTENTS
-3
+
 Moral Progress is Moral Innovation is Moral Inversion . . . . . .
-102
+
 Political Arbitrage and Financial Arbitrage . . . . . . . . . . . .
-104
+
 The Market for Revolutionaries . . . . . . . . . . . . . . . . . .
-105
+
 Startup Societies Reunify Technological and Moral Progress
 . .
-106
+
 2.8.3
 Two Ideologies
 . . . . . . . . . . . . . . . . . . . . . . . . . . .
-107
+
 The Spatial Theory of Voting . . . . . . . . . . . . . . . . . . .
-107
+
 Fights Create Factions . . . . . . . . . . . . . . . . . . . . . . .
-107
+
 Left and Right as Temporary Tactics, Not Constant Classes
 . .
-108
+
 Frontiers Mitigate Factions . . . . . . . . . . . . . . . . . . . . .
-108
+
 Two Ghosts, Different Hosts . . . . . . . . . . . . . . . . . . . .
-109
+
 My Left is Your Right
 . . . . . . . . . . . . . . . . . . . . . . .
-109
+
 2.8.4
 Three Cycles
 . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-110
+
 The Left Cycle
 . . . . . . . . . . . . . . . . . . . . . . . . . . .
-110
+
 The Right Cycle
 . . . . . . . . . . . . . . . . . . . . . . . . . .
-112
+
 The Libertarian Cycle
 . . . . . . . . . . . . . . . . . . . . . . .
-113
+
 The Unified Cycle . . . . . . . . . . . . . . . . . . . . . . . . . .
-114
+
 New Boss: Not Exactly The Same As The Old Boss . . . . . . .
-116
+
 Holy War Wins Wars . . . . . . . . . . . . . . . . . . . . . . . .
-117
+
 2.8.5
 Four Flippenings . . . . . . . . . . . . . . . . . . . . . . . . . .
-118
+
 The Proletarian Flippening
 . . . . . . . . . . . . . . . . . . . .
-119
+
 The American Flippening
 . . . . . . . . . . . . . . . . . . . . .
-124
+
 The Global Flippening . . . . . . . . . . . . . . . . . . . . . . .
-129
+
 The Historical Flippenings . . . . . . . . . . . . . . . . . . . . .
-135
+
 2.9
 The One Commandment . . . . . . . . . . . . . . . . . . . . . . . . . .
-136
+
 2.9.1
 Communities are Causes First, Companies Second . . . . . . . .
-136
+
 The Concept of a Parallel Society . . . . . . . . . . . . . . . . .
-136
+
 2.9.2
 Examples of Parallel Societies: Digital Network Unions . . . . .
-137
+
 Renewal Culture: the Cancel-Proof Society . . . . . . . . . . . .
-137
+
 2.9.3
 Examples of Parallel Societies: Physical Network Archipelagos .
-138
+
 Keto Kosher: the Sugar-free Society . . . . . . . . . . . . . . . .
-138
+
 Digital Sabbath: the Partially Offline Society
 . . . . . . . . . .
-139
+
 2.9.4
 Examples of Parallel Societies: Recognized Network States . . .
-140
+
 Your Body, Your Choice: the post-FDA Society . . . . . . . . .
-140
+
 2.9.5
 Analysis of Parallel Societies . . . . . . . . . . . . . . . . . . . .
-140
+
 Why Not More Than One Commandment? . . . . . . . . . . . .
-141
+
 What About Older Doctrines? . . . . . . . . . . . . . . . . . . .
-142
+
 2.9.6
 Parallel Systems Catalyze Peaceful Reform . . . . . . . . . . . .
-142
+
 Parallel Systems Once Required Contiguous Land, Now They Don’t143
 2.9.7
 Four Points on One Commandments
 . . . . . . . . . . . . . . .
-143
-3
+
+
 The Tripolar Moment
-145
+
 3.1
 NYT, CCP, BTC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-145
+
 3.2
 The Dated and the Timeless . . . . . . . . . . . . . . . . . . . . . . . .
-146
+
 3.3
 A Bipolar America and a Tripolar Triangle . . . . . . . . . . . . . . . .
-147
 
-
-4
 CONTENTS
 3.4
 Moral Power, Martial Power, Money Power . . . . . . . . . . . . . . . .
-148
+
 3.4.1
 Moral State, Martial State, Money State . . . . . . . . . . . . .
-148
+
 3.4.2
 Moral Network, Martial Network, Money Network . . . . . . . .
-150
+
 NYT: The Moral Network . . . . . . . . . . . . . . . . . . . . .
-150
+
 CCP: The Martial Network
 . . . . . . . . . . . . . . . . . . . .
-151
+
 BTC: The Money Network . . . . . . . . . . . . . . . . . . . . .
-154
+
 3.4.3
 Overlaps and Exceptions . . . . . . . . . . . . . . . . . . . . . .
-154
+
 3.5
 Submission, Sympathy, Sovereignty . . . . . . . . . . . . . . . . . . . .
-154
+
 3.5.1
 Extremes and Counter-Extremes Are Undesirable . . . . . . . .
-155
+
 3.5.2
 A Recentralized Center . . . . . . . . . . . . . . . . . . . . . . .
-156
+
 3.6
 Conflicts and Alliances . . . . . . . . . . . . . . . . . . . . . . . . . . .
-156
+
 3.6.1
 One Pole Against Another . . . . . . . . . . . . . . . . . . . . .
-157
+
 3.6.2
 Two Poles vs the Third . . . . . . . . . . . . . . . . . . . . . . .
-157
+
 3.6.3
 Intrapolar Conflicts . . . . . . . . . . . . . . . . . . . . . . . . .
-158
+
 3.6.4
 The Road To Recentralization . . . . . . . . . . . . . . . . . . .
-158
-4
+
+
 Decentralization, Recentralization
-159
+
 4.1
 The Possible Futures . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-159
+
 4.1.1
 Analytical Axes and Scenario Analyses . . . . . . . . . . . . . .
-161
+
 4.1.2
 Strong Form and Weak Form Models of the Future
 . . . . . . .
-162
+
 4.1.3
 Building the Future Rather than Defaulting Into It . . . . . . .
-163
+
 4.2
 Sociopolitical Axes . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-164
+
 4.2.1
 International Indians . . . . . . . . . . . . . . . . . . . . . . . .
-164
+
 4.2.2
 Transhumanism Versus Anarcho-Primitivism . . . . . . . . . . .
-165
+
 4.2.3
 The Identity Stack . . . . . . . . . . . . . . . . . . . . . . . . .
-166
+
 Example: Twitter Bios . . . . . . . . . . . . . . . . . . . . . . .
-167
+
 4.3
 Technoeconomic Axes . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-167
+
 4.3.1
 The Internet Increases Variance . . . . . . . . . . . . . . . . . .
-167
+
 BlueAnon, QAnon, SatoshiAnon . . . . . . . . . . . . . . . . . .
-168
+
 Social Media is American Glasnost, Cryptocurrency is American
 Perestroika
 . . . . . . . . . . . . . . . . . . . . . . . .
-169
+
 The 100-Year Information Tsunami . . . . . . . . . . . . . . . .
-170
+
 4.3.2
 Naturally Physical to Natively Digital
 . . . . . . . . . . . . . .
-170
+
 Three Phase Transition . . . . . . . . . . . . . . . . . . . . . . .
-170
+
 Truly Digital News: Dashboards, On-Chain Event Feeds
 . . . .
-171
+
 Remote Work to Remote Life
 . . . . . . . . . . . . . . . . . . .
-171
+
 From Printing to Materializing
 . . . . . . . . . . . . . . . . . .
-172
+
 4.3.3
 The Productivity Mystery . . . . . . . . . . . . . . . . . . . . .
-173
+
 4.3.4
 Linguistic Borders of the Internet . . . . . . . . . . . . . . . . .
-175
+
 4.3.5
 Network Defects . . . . . . . . . . . . . . . . . . . . . . . . . . .
-175
+
 4.4
 Foreseeable Futures . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-176
+
 4.4.1
 AR Glasses Bridge Physical and Digital Worlds . . . . . . . . .
-176
+
 4.4.2
 Experimental Macroeconomics . . . . . . . . . . . . . . . . . . .
-177
+
 4.5
 American Anarchy, Chinese Control, International Intermediate
 . . . .
-177
-
 
 CONTENTS
-5
+
 4.5.1
 American Anarchy
 . . . . . . . . . . . . . . . . . . . . . . . . .
-178
+
 Prosperity, Tyranny, or Anarchy? . . . . . . . . . . . . . . . . .
-178
+
 Maximalist vs Woke
 . . . . . . . . . . . . . . . . . . . . . . . .
-179
+
 How America Builds Towards Conflict
 . . . . . . . . . . . . . .
-179
+
 A War for Minds, Not Lands . . . . . . . . . . . . . . . . . . . .
-184
+
 Maximalist vs Woke Rotates Left and Right . . . . . . . . . . .
-186
+
 Who Wins? . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-187
+
 Wars Aren’t Romantic . . . . . . . . . . . . . . . . . . . . . . .
-188
+
 4.5.2
 Chinese Control . . . . . . . . . . . . . . . . . . . . . . . . . . .
-188
+
 Attempted Coup Leads to Total Control . . . . . . . . . . . . .
-188
+
 China Blocks the Exits . . . . . . . . . . . . . . . . . . . . . . .
-189
+
 The Path to Chinese Control
 . . . . . . . . . . . . . . . . . . .
-190
+
 China Caveat . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-192
+
 4.5.3
 International Intermediate . . . . . . . . . . . . . . . . . . . . .
-193
+
 4.6
 Victory Conditions and Surprise Endings . . . . . . . . . . . . . . . . .
-194
+
 4.6.1
 The Victory Conditions
 . . . . . . . . . . . . . . . . . . . . . .
-194
+
 The “Base Rate Fallacy” Fallacy . . . . . . . . . . . . . . . . . .
-194
+
 China Can Make a Pencil
 . . . . . . . . . . . . . . . . . . . . .
-194
+
 4.6.2
 The Surprise Endings . . . . . . . . . . . . . . . . . . . . . . . .
-196
+
 Duopoly of Digital Despotism . . . . . . . . . . . . . . . . . . .
-196
+
 Bitcoin Ends Human War, but not Robot War . . . . . . . . . .
-197
+
 4.7
 Towards a Recentralized Center . . . . . . . . . . . . . . . . . . . . . .
-198
+
 4.7.1
 In Defense of Recentralization . . . . . . . . . . . . . . . . . . .
-198
-5
+
+
 From Nation States to Network States
-200
+
 5.1
 Why Now? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-200
+
 5.2
 On Nation States . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-200
+
 5.2.1
 What is a Nation State? . . . . . . . . . . . . . . . . . . . . . .
-201
+
 5.2.2
 What is the Nation State System? . . . . . . . . . . . . . . . . .
-201
+
 Assumptions of the Nation State System . . . . . . . . . . . . .
-202
+
 5.2.3
 The Nation State as a Term . . . . . . . . . . . . . . . . . . . .
-203
+
 5.2.4
 Micronations and Multinations
 . . . . . . . . . . . . . . . . . .
-204
+
 5.2.5
 0-nation, 1-nation, N-nations . . . . . . . . . . . . . . . . . . . .
-204
+
 5.2.6
 What is a Nation?
 . . . . . . . . . . . . . . . . . . . . . . . . .
-205
+
 A Definitional Approach . . . . . . . . . . . . . . . . . . . . . .
-205
+
 An Empirical Approach
 . . . . . . . . . . . . . . . . . . . . . .
-206
+
 A Philosophical Approach . . . . . . . . . . . . . . . . . . . . .
-208
+
 5.2.7
 What is a State?
 . . . . . . . . . . . . . . . . . . . . . . . . . .
-209
+
 The Definitional Approach . . . . . . . . . . . . . . . . . . . . .
-210
+
 The Comparative Approach . . . . . . . . . . . . . . . . . . . .
-210
+
 The Pragmatic Approach . . . . . . . . . . . . . . . . . . . . . .
-211
+
 The Philosophical Approach . . . . . . . . . . . . . . . . . . . .
-211
+
 Statecraft Strategies and Programming Paradigms . . . . . . . .
-212
+
 5.2.8
 What does a Nation State look like on a Map? . . . . . . . . . .
-213
 
-
-6
 CONTENTS
 5.2.9
 How were Modern Nation States Founded? . . . . . . . . . . . .
-214
+
 The Historical Angle . . . . . . . . . . . . . . . . . . . . . . . .
-214
+
 The Patronage Angle . . . . . . . . . . . . . . . . . . . . . . . .
-215
+
 The Military Angle . . . . . . . . . . . . . . . . . . . . . . . . .
-215
+
 5.2.10 Why were Nation States Founded?
 . . . . . . . . . . . . . . . .
-216
+
 5.2.11 How does a Nation State Expand and Contract? . . . . . . . . .
-217
+
 5.2.12 How did States Influence Nations, and Vice Versa?
 . . . . . . .
-217
+
 5.2.13 What is not a Nation State? . . . . . . . . . . . . . . . . . . . .
-218
+
 5.2.14 What Technological Developments underpin the Modern Nation
 State System? . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-219
+
 5.3
 On Network States . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-220
+
 5.3.1
 What is a Network State? . . . . . . . . . . . . . . . . . . . . .
-220
+
 The Definition . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-221
+
 Breaking the Definition . . . . . . . . . . . . . . . . . . . . . . .
-228
+
 5.3.2
 What is the Network State System? . . . . . . . . . . . . . . . .
-232
+
 Assumption: Digital Primary, Physical Secondary . . . . . . . .
-234
+
 Assumption: The State Becomes An Admin Dashboard . . . . .
-234
+
 Assumption: Divide Networks Rather than Land
 . . . . . . . .
-235
+
 Assumption: Consent and Cryptography Constrain . . . . . . .
-235
+
 5.3.3
 The Network State as a Term . . . . . . . . . . . . . . . . . . .
-235
+
 5.3.4
 Micronetworks and Multinetworks . . . . . . . . . . . . . . . . .
-236
+
 Startups create Networks, but Nations create States . . . . . . .
-236
+
 Startups create Networks, but Startups aren’t States
 . . . . . .
-237
-Startups create Centralized Networks, but Chains create Decen-
-tralized Networks . . . . . . . . . . . . . . . . . . . . .
-237
+
+Startups create Centralized Networks, but Chains create Decentralized Networks . . . . . . . . . . . . . . . . . . . . .
+
 Only Decentralized Networks can give rise to Network States . .
-238
+
 5.3.5
 0-network, 1-network, N-networks . . . . . . . . . . . . . . . . .
-238
+
 5.3.6
 What is a (National) Network?
 . . . . . . . . . . . . . . . . . .
-239
+
 A Verbal Description . . . . . . . . . . . . . . . . . . . . . . . .
-239
+
 A Computational Approach . . . . . . . . . . . . . . . . . . . .
-240
+
 5.3.7
 What does a Network State look like on a Map? . . . . . . . . .
-241
+
 The Physical Map
 . . . . . . . . . . . . . . . . . . . . . . . . .
-241
+
 The Digital Map
 . . . . . . . . . . . . . . . . . . . . . . . . . .
-241
+
 Example: Physically Proximal, Digitally Divergent
 . . . . . . .
-242
+
 5.3.8
 How is a Network State Founded? . . . . . . . . . . . . . . . . .
-243
+
 Startup Societies . . . . . . . . . . . . . . . . . . . . . . . . . .
-244
+
 Parallel Societies
 . . . . . . . . . . . . . . . . . . . . . . . . . .
-244
+
 The Network Union . . . . . . . . . . . . . . . . . . . . . . . . .
-245
+
 The New Tokenomics is Nation Formation . . . . . . . . . . . .
-247
+
 Path to the Network State . . . . . . . . . . . . . . . . . . . . .
-247
+
 The Bootstrap Recognizer . . . . . . . . . . . . . . . . . . . . .
-248
+
 Digital Civil Society
 . . . . . . . . . . . . . . . . . . . . . . . .
-248
+
 Recognize Why We Need Recognition . . . . . . . . . . . . . . .
-249
+
 5.3.9
 Why Would we Found a Network State? . . . . . . . . . . . . .
-250
-
 
 CONTENTS
-7
+
 Network States for the Technological Innovator
 . . . . . . . . .
-250
+
 Network States for the Political Progressive
 . . . . . . . . . . .
-251
+
 5.3.10 How does a Network State Expand and Contract? . . . . . . . .
-252
+
 5.3.11 What is not a Network State? . . . . . . . . . . . . . . . . . . .
-254
+
 5.3.12 What Technological Developments enable Network States? . . .
-256
-6
+
+
 Appendix
-260
+
 6.1
 Acknowledgments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-260
+
 6.2
 About 1729 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-260
-
 
 Chapter 1
 Quickstart
@@ -776,11 +760,9 @@ problem statement at all. If you’re an orthodox Bitcoin maximalist, you likely
 agree with every aspect of our proposed solution. And if you’re coming in from another
 school of thought, you may only agree with parts of the problem or solution as we’ve
 1An obvious feature, yet missing from the traditional ebook experience.
-8
-
 
 1.2. THE NETWORK STATE IN ONE SENTENCE
-9
+
 framed them.
 Nevertheless, we believe there’s enough flexibility in the idea of the
 network state that you can customize it and make it your own.
@@ -798,10 +780,8 @@ the network state system starts with the 7+ billion humans of the world and attr
 each mind to one or more networks.
 Here’s a more complex definition that extends that concept and pre-emptively covers
 many edge cases:
-A network state is a social network with a moral innovation, a sense of na-
-tional consciousness, a recognized founder, a capacity for collective action,
-an in-person level of civility, an integrated cryptocurrency, a consensual gov-
-ernment limited by a social smart contract, an archipelago of crowdfunded
+A network state is a social network with a moral innovation, a sense of national consciousness, a recognized founder, a capacity for collective action,
+an in-person level of civility, an integrated cryptocurrency, a consensual government limited by a social smart contract, an archipelago of crowdfunded
 physical territories, a virtual capital, and an on-chain census that proves
 a large enough population, income, and real-estate footprint to attain a
 measure of diplomatic recognition.
@@ -815,8 +795,6 @@ it’ll make more sense if you read the text all the way through. For what it’
 the technical definition of a nation state is similarly multi-clausal, because it needs to
 exclude things we don’t typically think about, like stateless nations.)
 
-
-10
 CHAPTER 1. QUICKSTART
 1.3
 The Network State in One Image
@@ -846,11 +824,10 @@ for all. You get what you measure.
 
 
 1.4. THE NETWORK STATE IN ONE THOUSAND WORDS
-11
+
 1.4
 The Network State in One Thousand Words
-Technology has allowed us to start new companies, new communities, and new curren-
-cies. But can we use it to create new cities, or even new countries? A key concept is to
+Technology has allowed us to start new companies, new communities, and new currencies. But can we use it to create new cities, or even new countries? A key concept is to
 go cloud first, land last — but not land never — by starting with an online community
 and then materializing it into the physical world. We get there in seven steps:
 1. Found a startup society. This is simply an online community with aspirations of
@@ -865,8 +842,7 @@ set up solely in opposition to a particular corporation, so it can take a variet
 of different collective actions.3 Unionization is a key step because it turns an
 otherwise ineffective online community into a group of people working together
 for a common cause.
-3. Build trust offline and a cryptoeconomy online. Begin holding in-person mee-
-tups in the physical world, of increasing scale and duration, while simultaneously
+3. Build trust offline and a cryptoeconomy online. Begin holding in-person meetups in the physical world, of increasing scale and duration, while simultaneously
 building an internal economy using cryptocurrency.
 2Note however that just as one does not simply “start a public company,” one does not simply
 “start a network state.” Instead, you begin with a startup society, which is to a network state what a
@@ -876,24 +852,19 @@ corporations and states. Note that a network union is a useful endpoint in its o
 businesses can provide value to customers without going public, network unions can provide value to
 members without becoming network states.
 
-
-12
 CHAPTER 1. QUICKSTART
 4. Crowdfund physical nodes. Once sufficient trust has been built and funds have
 been accumulated, start crowdfunding apartments, houses, and even towns to
 bring digital citizens into the physical world within real co-living communities.
 5. Digitally connect physical communities. Link these physical nodes together into
 a network archipelago, a set of digitally connected physical territories distributed
-around the world. Nodes of the network archipelago range from one-person apart-
-ments to in-person communities of arbitrary size. Physical access is granted by
+around the world. Nodes of the network archipelago range from one-person apartments to in-person communities of arbitrary size. Physical access is granted by
 holding a web3 cryptopassport, and mixed reality is used to seamlessly link the
 online and offline worlds.
-6. Conduct an on-chain census. As the society scales, run a cryptographically au-
-ditable census to demonstrate the growing size of your population, income, and
+6. Conduct an on-chain census. As the society scales, run a cryptographically auditable census to demonstrate the growing size of your population, income, and
 real-estate footprint. This is how a startup society proves traction in the face of
 skepticism.
-7. Gain diplomatic recognition. A startup society with sufficient scale should eventu-
-ally be able to negotiate for diplomatic recognition from at least one pre-existing
+7. Gain diplomatic recognition. A startup society with sufficient scale should eventually be able to negotiate for diplomatic recognition from at least one pre-existing
 government, and from there gradually increased sovereignty, slowly becoming a
 true network state.
 The key idea is to populate the land from the cloud, and do so all over the earth.
@@ -921,7 +892,7 @@ estate, and finally become recognized as a real state.
 
 
 1.5. THE NETWORK STATE IN ONE ESSAY
-13
+
 billions just to get that fresh start. And now that it is possible to start not just new
 companies but new communities and even new currencies, we see people flocking to
 create those as well.
@@ -961,8 +932,6 @@ The third conventional way to form a new state is to win a war. We don’t advis
 attempting this either.
 A war is, of course, not independent from the other two.
 
-
-14
 CHAPTER 1. QUICKSTART
 Indeed, both elections and revolutions can lead to wars that end up carving out new
 polities. Like a revolution, a war is infrequent and undesirable, but is a means by which
@@ -1005,7 +974,7 @@ crazy as a crowdfunded cruise ship becomes a possibility.
 
 
 1.5. THE NETWORK STATE IN ONE ESSAY
-15
+
 7. Network States
 And finally we arrive at our preferred method: the network state. Our idea is to proceed
 cloud first, land last. Rather than starting with the physical territory, we start with
@@ -1018,8 +987,7 @@ in VR, and we create art and literature that reflects our values.
 When we crowdfund territory in the real world, it’s not necessarily contiguous territory.
 Because an under-appreciated fact is that the internet allows us to network enclaves.
 Put another way, a network archipelago need not acquire all its territory in one place
-at one time. It can connect a thousand apartments, a hundred houses, and a dozen cul-
-de-sacs in different cities into a new kind of fractal polity with its capital in the cloud.
+at one time. It can connect a thousand apartments, a hundred houses, and a dozen culde-sacs in different cities into a new kind of fractal polity with its capital in the cloud.
 Community members migrate between these enclaves and crowdfund territory nearby,
 with every individual dwelling and group house presenting an independent opportunity
 for expansion.
@@ -1035,8 +1003,7 @@ embassies that have arisen around the world to help people better understand Bit
 New recruits can visit either the virtual or physical parts of a network state, beta test
 it, and decide to leave or stay.
 Now, with all this talk of embassies and countries one might well contend that network
-states, like the aforementioned micronations, are also just a LARP. Unlike microna-
-tions, however, they are set up to be a scaled LARP, a feat of imagination practiced
+states, like the aforementioned micronations, are also just a LARP. Unlike micronations, however, they are set up to be a scaled LARP, a feat of imagination practiced
 by large numbers of people at the same time. And the experience of cryptocurrencies
 over the last decade shows us just how powerful such a shared LARP can be.
 1.5.2
@@ -1049,8 +1016,6 @@ It is now feasible to build million-person online communities, start billion-dol
 currencies, and architect buildings in VR to then crowdfund into reality. The network
 state concept stacks together many existing technologies, rather than requiring the
 
-
-16
 CHAPTER 1. QUICKSTART
 invention of new ones — like Mars-capable rockets, or permanent-habitation seasteads.
 At the same time, it avoids the obvious pathways of election, revolution, and war – all
@@ -1072,18 +1037,14 @@ The numerical definition begins with visualizing a hypothetical nationrealestate
 site similar to coinmarketcap.com, which aggregates the cryptographically audited
 censuses of startup societies aspiring to become network states. This dashboard would
 show in realtime the number of community members, the acreage of real estate owned by
-those members, and the community’s on-chain income. A startup society with five mil-
-lion people worldwide, thousands of square miles of (discontiguous) community-owned
+those members, and the community’s on-chain income. A startup society with five million people worldwide, thousands of square miles of (discontiguous) community-owned
 land, and billions in annual income would have indisputable numerical significance.
-This in turn leads us to the societal definition: a new country is one that is diplomati-
-cally recognized by other countries as a legitimate polity capable of self-determination.
+This in turn leads us to the societal definition: a new country is one that is diplomatically recognized by other countries as a legitimate polity capable of self-determination.
 A state with enough such bilateral relationships would have the societal significance
 to gain accession to a group of pre-existing states like ASEAN, the OAS, the African
 Union, the EU, or the United Nations.
-This combination of numerical and societal metrics matches the emergence of cryp-
-tocurrency. Initially ignored, then mocked as an obvious failure, within five years after
-its invention Bitcoin attained a billion-dollar market capitalization (a numerical suc-
-cess) and was subsequently listed on CNBC and Bloomberg alongside blue-chip stocks
+This combination of numerical and societal metrics matches the emergence of cryptocurrency. Initially ignored, then mocked as an obvious failure, within five years after
+its invention Bitcoin attained a billion-dollar market capitalization (a numerical success) and was subsequently listed on CNBC and Bloomberg alongside blue-chip stocks
 (a form of societal recognition). At each step Bitcoin could keep ascending numerically
 on its own, with greater societal recognition following in its wake. By 2020 it had
 changed the trajectory of the People’s Bank of China, the IMF, Goldman Sachs, JP
@@ -1093,7 +1054,7 @@ dozens more considering Bitcoin as legal tender, including Panama.
 
 
 1.5. THE NETWORK STATE IN ONE ESSAY
-17
+
 1.5.4
 Most Countries are Small Countries
 Cryptocurrency could achieve these heights because money has both numerical and
@@ -1115,16 +1076,13 @@ a population of less than 10M. This includes many countries typically thought of
 legitimate, such as Luxembourg (615k), Cyprus (1.2M), Estonia (1.3M), New Zealand
 (4.7M), Ireland (4.8M), and Singapore (5.8M). These “user counts” are surprisingly
 small by tech standards!
-Of course, mere quantity is not everything. The strength of affiliation to our hypo-
-thetical network state matters, as does the time on the property, the percentage of net
+Of course, mere quantity is not everything. The strength of affiliation to our hypothetical network state matters, as does the time on the property, the percentage of net
 worth stored in the currency, and the fraction of contacts found in the community.
 Still, once we remember that Facebook has 3B+ users, Twitter has 300M+, and many
 7The idealized technical fact exists entirely independent of what any human thinks (like the value
 of g, the gravitational constant), while the idealized political fact is entirely about what humans think
 (like the location of a national border).
 
-
-18
 CHAPTER 1. QUICKSTART
 individual influencers have 1M+ followers, it starts to be not too crazy to imagine we
 can build a 1-10M person startup society with a genuine sense of national consciousness,
@@ -1162,10 +1120,7 @@ some history, so as not to repeat it.
 1Though Peter Turchin is working on it. See his monograph War and Peace and War. Then look
 at Ray Dalio’s Principles for a Changing World Order, Strauss and Howe’s The Fourth Turning, Will
 and Ariel Durant’s The Lessons of History, and Asimov’s fictional treatment of psychohistory.
-19
 
-
-20
 CHAPTER 2. HISTORY AS TRAJECTORY
 That’s a theoretical argument. An observational argument is that we know that the
 technological innovation of the Renaissance began by rediscovering history. And we
@@ -1213,7 +1168,7 @@ archipelago that just buys some land, without the need for full diplomatic recog
 
 
 2.1. PROLOGUE
-21
+
 somehow presided over an enormous hike in the costs of drug development even as
 our computers and our knowledge of the human genome vastly improved. Similar
 phenomena can be observed in energy (where energy production has stagnated),
@@ -1226,20 +1181,15 @@ The reason is that behind every FDA is a thalidomide, just as behind every TSA
 there’s a 9/11 and behind every Sarbanes-Oxley is an Enron. Regulation is dull,
 but the incidents that lead to regulation are anything but dull.
 This history is used to defend ancient regulations; if you change them, people
-will die! As such, to legalize physical innovation you’ll need to become a counter-
-historian. Only when you understand the legitimating history of regulatory agen-
-cies better than their proponents do can you build a superior alternative: a new
-regulatory paradigm capable of addressing both the abuses of the American reg-
-ulatory state and the abuses they claim to prevent.
+will die! As such, to legalize physical innovation you’ll need to become a counterhistorian. Only when you understand the legitimating history of regulatory agencies better than their proponents do can you build a superior alternative: a new
+regulatory paradigm capable of addressing both the abuses of the American regulatory state and the abuses they claim to prevent.
 • History determines morality. Religions start with history lessons. You might
 think of these as made-up histories, but they’re histories all the same. Tales of
 the distant past, fictionalized or not, that describe how humans once behaved -
 and how they should have behaved. There’s a moral to these stories.
-Political doctrines are based on history lessons too. They’re how the establish-
-ment justifies itself. The mechanism for propagating these history lessons is the
+Political doctrines are based on history lessons too. They’re how the establishment justifies itself. The mechanism for propagating these history lessons is the
 establishment newspaper, wherein most articles aren’t really about true-or-false,
-but good-and-bad. Try it yourself. Just by glancing at a headline from any es-
-tablishment outlet, you can instantly apprehend its moral lesson: x-ism is bad,
+but good-and-bad. Try it yourself. Just by glancing at a headline from any establishment outlet, you can instantly apprehend its moral lesson: x-ism is bad,
 our system of government is good, tech founders are bad, and so on. And if you
 poke one level deeper, if you ask why any of these things is good or bad, you’ll
 again get a history lesson. Because why is x-ism bad? Well, let me educate you
@@ -1247,8 +1197,7 @@ on some history. . .
 The installation of these moral premises is a zero-sum game. There’s only room
 for so many moral lessons in one society, because a brain’s capacity for moral
 computation is limited. So you get a totally different society if 99% of people
-allocate their limited moral memory to principles like “hard work good, meri-
-tocracy good, envy bad, charity good” than if 99% of people have internalized
+allocate their limited moral memory to principles like “hard work good, meritocracy good, envy bad, charity good” than if 99% of people have internalized
 nostrums like “socialism good, civility bad, law enforcement bad, looting good.”3
 You can try to imagine a scenario where these two sets of moral values aren’t in
 direct conflict, but empirically those with the first set of moral values will favor
@@ -1256,13 +1205,10 @@ direct conflict, but empirically those with the first set of moral values will f
 Lives?), civility is bad (When Civility Is Used As A Cudgel Against People Of Color), law enforcement
 is bad (Yes, We Mean Literally Abolish the Police), and looting is good (In Defense of Looting).
 
-
-22
 CHAPTER 2. HISTORY AS TRAJECTORY
 an entrepreneurial society and those with the second set of values will not.4
 • History is how you develop compelling media. You can make up entirely fictional
-stories, of course. But even fiction frequently has some kind of historical an-
-tecedent. The Lord of the Rings drew on Medieval Europe, Spaghetti Westerns
+stories, of course. But even fiction frequently has some kind of historical antecedent. The Lord of the Rings drew on Medieval Europe, Spaghetti Westerns
 pulled from the Wild West, Bond movies were inspired by the Cold War, and
 so on. And certainly the legitimating stories for any political order will draw on
 history.
@@ -1271,16 +1217,14 @@ of dollars because it’s a cryptographically verifiable history of who holds wh
 BTC. Read The Truth Machine for a book-length treatment of this concept.
 • History tells you who’s in charge. Why did Orwell say that he who controls the
 past controls the future, and that he who controls the present controls the past?
-Because history textbooks are written by the winners. They are authored, sub-
-tly or not, to tell a story of great triumph by the ruling establishment over its
+Because history textbooks are written by the winners. They are authored, subtly or not, to tell a story of great triumph by the ruling establishment over its
 past enemies. The only history most people in the US know is 1776, 1865, 1945,
 and 1965 - a potted history of revolutions, world wars, and activist movements
 that lead ineluctably to the sunny uplands of greater political equality.5 It’s very
 similar to the history the Soviets taught their children, where all of the past
 was interpreted through the lens of class struggle, bringing Soviet citizens to the
 present day where they were inevitably progressing from the intermediate stage
-of socialism towards. . . communism! Chinese schoolchildren learn a similarly se-
-lective history where the (real) wrongs of the European colonialists and Japanese
+of socialism towards. . . communism! Chinese schoolchildren learn a similarly selective history where the (real) wrongs of the European colonialists and Japanese
 are centered, and those of Mao downplayed. And even any successful startup
 tells a founding story that sands off the rough edges.
 In short, a history textbook gives you a hero’s journey that celebrates the triumph
@@ -1305,7 +1249,7 @@ arguments but visceral expression of fundamental moral values.
 
 
 2.1. PROLOGUE
-23
+
 in the process?6 After all, if you know a bit more history, you’ll know that the
 New York Times Company (which originates so many of these jeremiads) is an
 organization where the controlling Ochs-Sulzberger family literally profited from
@@ -1328,14 +1272,12 @@ are now doing. And that’s how a little knowledge of history restores control o
 your hiring policy.
 • History is how you debug our broken society. Many billions of dollars are spent
 on history in the engineering world. We don’t think about it that way, though.
-We call it doing a post-mortem, looking over the log files, maybe running a so-
-called time-travel debugger to get a reproducible bug. Once we find it, we might
+We call it doing a post-mortem, looking over the log files, maybe running a socalled time-travel debugger to get a reproducible bug. Once we find it, we might
 want to execute an undo, do a git revert, restore from backup, or return to a
 previously known-good configuration.
 Think about what we’re saying: on a micro-scale, knowing the detailed past of the
 system allows us to figure out what had gone wrong. And being able to partially
-rewind the past to progress along a different branch (via a git revert) empow-
-6Lest you think I’m exaggerating how dire the straits were for NYTCO, here’s a quote from former
+rewind the past to progress along a different branch (via a git revert) empow6Lest you think I’m exaggerating how dire the straits were for NYTCO, here’s a quote from former
 NYT editor Jill Abramson’s book, Merchants of Truth: “The new digital reality nearly kills two
 venerable newspapers [NYT, WaPo] with an aging readership while creating two media behemoths
 [BuzzFeed, Vice] with a ballooning and fickle audience of millennials.” The internet posed an existential
@@ -1367,12 +1309,9 @@ changing enough words to assert the facts were reported while simultaneously rem
 response. The contrast to when they’re actually going for the throat and trying to get someone fired
 - as they frequently do to people outside media for trivialities - is stark.
 
-
-24
 CHAPTER 2. HISTORY AS TRAJECTORY
 ers us to fix that wrongness. This doesn’t mean throwing away everything and
-returning to the caveman era of a blank git repository, as per either the carica-
-tured traditionalist who wants to “turn back the clock” or the anarcho-primitivist
+returning to the caveman era of a blank git repository, as per either the caricatured traditionalist who wants to “turn back the clock” or the anarcho-primitivist
 who wants to end industrialized civilization. But it does mean rewinding a bit to
 then move forward along a different path9, because progress has both magnitude
 and direction. All these concepts apply to debugging situations at larger scale
@@ -1389,8 +1328,7 @@ general. Now we’ll describe why it’s specifically useful for startup societi
 We begin by introducing an operationally useful set of tools for thinking about the
 past from a bottom-up and top-down perspective: history as written to the ledger, as
 opposed to history as written by the winners.
-We use these tools to discuss the emergence of a new Leviathan, the Network, a con-
-tender for the most powerful force in the world, a true peer (and complement) to both
+We use these tools to discuss the emergence of a new Leviathan, the Network, a contender for the most powerful force in the world, a true peer (and complement) to both
 God and the State as a mechanism for social organization.
 And then we’ll bring it all together in the lead-up to the key concept of this chapter:
 the idea of the One Commandment, a historically-founded sociopolitical innovation
@@ -1413,12 +1351,11 @@ applies even if the equivalent of git revert would be done in paper laws rather 
 
 
 2.1. PROLOGUE
-25
+
 tech-focused community where people solve problems with equations? We’re interested
 in Mars and life extension, not dusty stories of defunct cities!
 The quick answer comes from Paul Johnson at the 11:00 mark of this talk, where he
-notes that early America’s religious colonies succeeded at a higher rate than its for-
-profit colonies, because the former had a purpose. The slightly longer answer is that
+notes that early America’s religious colonies succeeded at a higher rate than its forprofit colonies, because the former had a purpose. The slightly longer answer is that
 in a startup society, you’re not asking people to buy a product (which is an economic,
 individualistic pitch) but to join a community (which is a cultural, collective pitch).
 You’re arguing that the culture of your startup society is better than the surrounding
@@ -1444,26 +1381,20 @@ history as written to the ledger — culminating in the cryptohistory of Bitcoin
 history as conceptualized by what Tyler Cowen calls the Base-Raters, history
 that justifies the current order and proclaims it stable and inevitable. It is a
 theory of Political Power vs. Technological Truth.
-3. We then talk about the history of power, giving names to the forces we just de-
-scribed by identifying the three candidates for most powerful force in the world:
+3. We then talk about the history of power, giving names to the forces we just described by identifying the three candidates for most powerful force in the world:
 God, State, and Network. Framing things in terms of three prime movers rather
-than one allows us to generalize beyond purely God-centered religions to under-
-stand the Leviathan-centered doctrines that implicitly underpin modern society.
+than one allows us to generalize beyond purely God-centered religions to understand the Leviathan-centered doctrines that implicitly underpin modern society.
 4. We apply this to the history of power struggles. With the God/State/Network
 lens, we can understand the Blue/Red and Tech-vs-Media conflicts in a different
 way as a multi-sided struggle between People of God, People of the State, and
 People of the Network.
 5. We go through how the People of the State have used their power to distort recent
 
-
-26
 CHAPTER 2. HISTORY AS TRAJECTORY
 and distant history, and how the Network is newly rectifying this distortion in
 “If the News is Fake, Imagine History.”
-6. Having shown the degree to which history has been distorted, and thereby dis-
-placed the (implicit) historical narrative in which the arc of history bends to the
-ineluctable victory of the US establishment11, we discuss several alternative theo-
-ries of past and future in our section on Fragmentation, Frontier, Fourth Turning,
+6. Having shown the degree to which history has been distorted, and thereby displaced the (implicit) historical narrative in which the arc of history bends to the
+ineluctable victory of the US establishment11, we discuss several alternative theories of past and future in our section on Fragmentation, Frontier, Fourth Turning,
 and Future Is Our Past. These theses don’t describe a clean progressive victory
 on every axis, but instead a set of cycles, hairpin turns, and mirror images, a set of
 historical trajectories far more complex than the narrative of linear inevitability
@@ -1484,19 +1415,16 @@ and a ruling right component.
 terminology we just introduced, we can rattle it off in a few paragraphs. (If the
 following is opaque in any way, read the chapter, then come back and re-read this
 part.)
-If history is not pre-determined to bend in one direction, if the current establish-
-ment may experience dramatic disruption in the form of the Fragmentation and
+If history is not pre-determined to bend in one direction, if the current establishment may experience dramatic disruption in the form of the Fragmentation and
 Fourth Turning, if its power actually arose from the expanding frontier rather
 than the expanding franchise, if history is somehow running in reverse as per
 the Future Is Our Past thesis, if the revolutionary and ruling classes are in fact
 switching sides, if the new Leviathan that is the Network is indeed rising above
-the State, and if the internal American conflicts can be seen not as policy dis-
-putes but as holy wars, as clashes of Leviathans. . . then the assumption of the
+the State, and if the internal American conflicts can be seen not as policy disputes but as holy wars, as clashes of Leviathans. . . then the assumption of the
 Base-Raters that all will proceed as it always has is quite incorrect! But rather
 than admit this incorrectness, they’ll attempt to use political power to suppress
 technological truth.
-11The concept of historical inevitability is found in both American democracy and Soviet commu-
-nism, in many religions, and in fictional settings like Ozymandias. It’s even seen in mirror image
+11The concept of historical inevitability is found in both American democracy and Soviet communism, in many religions, and in fictional settings like Ozymandias. It’s even seen in mirror image
 in works like the Sovereign Individual. The way to understand this is that the “inevitabilists” are
 typically identifying a real and powerful trend, without modeling Sorosian reflexivity and individual
 initiative. That is, there’s a reflexive backlash to any trend (“the enemy also gets a move”), and there
@@ -1504,7 +1432,7 @@ are also individuals who can start new trends.
 
 
 2.1. PROLOGUE
-27
+
 The founder’s counter is cryptohistory and the startup society. We now have
 a history no establishment can easily corrupt, the cryptographically verifiable
 history pioneered by Bitcoin and extended via crypto oracles. We also have a
@@ -1514,8 +1442,7 @@ But what exactly is the nature of that desirable future?
 After all, many groups differ with the old order but also with each other — so a
 blanket solution won’t work. And could well be resisted. That’s where the One
 Commandment comes in.
-As context, the modern person is often morally reticent but politically evange-
-listic. They hesitate to talk about what is moral or immoral, because it’s not
+As context, the modern person is often morally reticent but politically evangelistic. They hesitate to talk about what is moral or immoral, because it’s not
 their place to say what’s right. Yet when it comes to politics, this diffidence is
 frequently replaced by overbearing confidence in how others must live, coupled
 with an enthusiasm for enforcing their beliefs at gunpoint if necessary.
@@ -1531,24 +1458,19 @@ Concrete examples of possible One Commandments include “24/7 internet bad”
 Kosher society), or “traditional Christianity good” (which leads to a Benedict
 Option society), or “life extension good” (which leads to a post-FDA society).
 You might think these One Commandments sound either trivial or unrealistically
-ambitious, but in that respect they’re similar to tech; the pitch of “140 charac-
-ters” sounded trivial and the pitch of “reusable rockets” seemed unrealistic, but
+ambitious, but in that respect they’re similar to tech; the pitch of “140 characters” sounded trivial and the pitch of “reusable rockets” seemed unrealistic, but
 those resulted in Twitter and SpaceX respectively. The One Commandment is
 also similar to tech in another respect: it focuses a startup society on a single
 moral innovation, just like a tech company is about a focused technoeconomic
 innovation.
 That is, as we’ll see, each One Commandment-based startup society is premised
-on deconstructing the establishment’s history in one specific area, erecting a re-
-placement narrative in its place with a new One Commandment, then proving the
-socioeconomic value of that One Commandment by using it to attract subscriber-
-citizens. For example, if you can attract 100k subscribers to your Keto Kosher
+on deconstructing the establishment’s history in one specific area, erecting a replacement narrative in its place with a new One Commandment, then proving the
+socioeconomic value of that One Commandment by using it to attract subscribercitizens. For example, if you can attract 100k subscribers to your Keto Kosher
 society through deeply researched historical studies on the obesity epidemic, and
 then show that they’ve lost significant weight as a consequence, you’ve proven
 12It’s entirely consensual. If people like the society, they join as a subscriber; if they don’t like it
 after joining, they cancel their subscription.
 
-
-28
 CHAPTER 2. HISTORY AS TRAJECTORY
 the establishment deeply wrong in a key area. That’ll either drive them to reform
 — or not reform, in which case you attract more citizens.
@@ -1558,22 +1480,18 @@ support — there’s a playbook for all of that. It’s just Society-as-a-Servi
 new SaaS.
 In parallel, other startup societies are likewise critiquing by building, draining
 citizens away from the establishment with their own historically-informed One
-Commandments, and thereby driving change on other dimensions. Finally, dif-
-ferent successful changes can be copied and merged together, such that the sec-
-ond generation of startup societies starts differentiating from the establishment
+Commandments, and thereby driving change on other dimensions. Finally, different successful changes can be copied and merged together, such that the second generation of startup societies starts differentiating from the establishment
 by two, three, or N commandments. This is a vision for peaceful, parallelized,
 historically-driven reform of a broken society.
 Ok! I know those last few paragraphs involved some heavy sledding, but come back
 and reread them after going through the chapter. The main point of our little preview
 here was to make the case that history is an applied subject — and that you can’t start
 a new society without it.
-Without a genuine moral critique of the establishment, without an ideological root net-
-work supported by history, your new society is at best a fancy Starbucks lounge, a gated
+Without a genuine moral critique of the establishment, without an ideological root network supported by history, your new society is at best a fancy Starbucks lounge, a gated
 community that differs only in its amenities, a snack to be eaten by the establishment
 at its leisure, a soulless nullity with no direction save consumerism.13
 But with such a critique — with the understanding that the establishment is morally
-wanting, with a focused articulation of how exactly it falls short, with a One Com-
-mandment that others can choose to follow, and with a vision of the historical past
+wanting, with a focused articulation of how exactly it falls short, with a One Commandment that others can choose to follow, and with a vision of the historical past
 that underpins your new startup society much as a vision of the technological future
 underpins a new startup company — you’re well on your way.
 You might even start to see a historical whitepaper floating in front of you, the scholarly
@@ -1591,7 +1509,7 @@ community.
 
 
 2.2. MICROHISTORY AND MACROHISTORY
-29
+
 2.2
 Microhistory and Macrohistory
 In the bottom-up view, history is written to the ledger. If everything that happened gets
@@ -1615,8 +1533,7 @@ destination.
 hitting the ground.
 • A powered drone can execute an arbitrarily complicated flight path, mimicking
 that of a bumblebee or helix.
-So, how a system evolves with time — its trajectory — can be complex and counter-
-intuitive, even for something small. This is a good analogy for history. If the flight
+So, how a system evolves with time — its trajectory — can be complex and counterintuitive, even for something small. This is a good analogy for history. If the flight
 path of a single inanimate object can be this surprising, think about the dynamics of
 a massive multi-agent system of highly animate people. Imagine billions of humans
 springing up on the map, forming clusters, careening into each other, creating more
@@ -1630,8 +1547,6 @@ path. Humans do. The people under the microscope are fogging the lens.
 So: the scale is huge, the timeframe is long, and the measurements aren’t just noisy
 but intentionally corrupted.
 
-
-30
 CHAPTER 2. HISTORY AS TRAJECTORY
 We can encode all of this into a phrase: history is a cryptic epic of twisting trajectories.
 Cryptic, because the narrators are unreliable and often intentionally misleading. Epic,
@@ -1656,15 +1571,12 @@ dynamics, in other words.
 And how do we study complex dynamical systems? The first task is to measure.
 2.2.2
 Microhistory is the History of Reproducible Systems
-Microhistory is the history of a reproducible system, one which has few enough vari-
-ables that it can be reset and replayed from the beginning in a series of controlled
-experiments. It is history as a quantitative trajectory, history as a precise log of mea-
-surements. For example, it could be the record of all past values of a state space vector
+Microhistory is the history of a reproducible system, one which has few enough variables that it can be reset and replayed from the beginning in a series of controlled
+experiments. It is history as a quantitative trajectory, history as a precise log of measurements. For example, it could be the record of all past values of a state space vector
 in a dynamical system, the account of all moves made by two deterministic algorithms
 playing chess against each other, or the chronicle of all instructions executed by a
 journaling file system after being restored to factory settings.
-Microhistory is an applied subject, where accurate historical measurement is of di-
-rect technical and commercial importance. We can see this with technologies like the
+Microhistory is an applied subject, where accurate historical measurement is of direct technical and commercial importance. We can see this with technologies like the
 Kalman filter, which was used for steering the spaceship used in the moon landing.
 You can see the full technical details here, but roughly speaking the Kalman filter uses
 past measurements x[t−1], x[t−2], x[t−3] to inform the estimate of a system’s current
@@ -1677,7 +1589,7 @@ estimate is wrong altogether, then the Kalman Filter does not work and Apollo do
 
 
 2.2. MICROHISTORY AND MACROHISTORY
-31
+
 happen.
 At a surface level, the Kalman filter resembles the kind of time series analysis that’s
 common in finance. The key difference is that the Kalman filter is used on reproducible
@@ -1691,8 +1603,7 @@ In finance, however, you usually can’t just keep re-running a trading algorith
 makes money and get the same result. Eventually your counterparties will adapt and
 get wise. A key difference relative to our drone example is the presence of animate
 objects (other humans) who won’t always do the same thing given the same input.15
-In fact, they can often be adversarial, observing and reacting to your actions, inten-
-tionally confounding your predictions, especially if they can profit from doing so. Past
+In fact, they can often be adversarial, observing and reacting to your actions, intentionally confounding your predictions, especially if they can profit from doing so. Past
 performance is no guarantee of future results in finance, as opposed to physics. Unlike
 the situation with the drone, a market isn’t a reproducible system.
 Microhistory thus has its limits, but it’s an incredibly powerful concept. If we have
@@ -1709,8 +1620,7 @@ This is a powerful analogy for civilization. A group of people who doesn’t kno
 they are or where they came from won’t ever make it to the moon, let alone to Mars.
 Can we make it more than an analogy?
 2.2.3
-Macrohistory is the History of Non-Reproducible Sys-
-tems
+Macrohistory is the History of Non-Reproducible Systems
 Macrohistory is the history of a non-reproducible system, one which has too many
 variables to easily be reset and replayed from the beginning. It is history that is not
 14Yes, it could break. If so, use an identical one from the same factory.
@@ -1719,25 +1629,19 @@ pure and impure functions. A pure function like sin(x) always returns the same o
 same input. An impure function like number_of_users() does not, typically because there is some
 external state variable such as a database.
 
-
-32
 CHAPTER 2. HISTORY AS TRAJECTORY
 directly amenable to controlled experiment. At small scale, that’s the unpredictable
 flow of a turbulent fluid; at very large scale, it’s the history of humanity.
 We think of macrohistory as being on a continuum with microhistory. Why? We’ll
 make a few points and then tie them all together.
-• First, science progresses by taking phenomena formerly thought of as non-
-reproducible (and hence unpredictable) systems, isolating the key variables, and
+• First, science progresses by taking phenomena formerly thought of as nonreproducible (and hence unpredictable) systems, isolating the key variables, and
 turning them into reproducible (and hence predictable) systems. For example,
 Koch’s postulates include the idea of transmission pathogenesis, which turned
-the vague concept of infection via “miasma” into a reproducible phenomenon: ex-
-pose a mouse to a specific microorganism in a laboratory setting and an infection
+the vague concept of infection via “miasma” into a reproducible phenomenon: expose a mouse to a specific microorganism in a laboratory setting and an infection
 arises, but not otherwise.
 • Second, and relatedly, science progresses by improved instrumentation, by better
-recordkeeping. Star charts enabled celestial navigation. Johann Balmer’s doc-
-umentation of the exact spacing of hydrogen’s emission spectra led to quantum
-mechanics. Gregor Mendel’s careful counting of pea plants led to modern genet-
-ics. Things we counted as simply beyond human ken — the stars, the atom, the
+recordkeeping. Star charts enabled celestial navigation. Johann Balmer’s documentation of the exact spacing of hydrogen’s emission spectra led to quantum
+mechanics. Gregor Mendel’s careful counting of pea plants led to modern genetics. Things we counted as simply beyond human ken — the stars, the atom, the
 genome — became things humans can comprehend by simply counting.
 • Third, how do we even know anything about the history of ancient Rome or
 Egypt or Medieval Europe? From artifacts and written records. Thousands of
@@ -1753,13 +1657,11 @@ countless data feeds of instruments. And we have massive hard drives to store it
 all. So, if reckoned on the basis of raw bytes, we likely record more information
 in a day than all of humanity recorded up to the year 1900. It is by far the most
 comprehensive log of human activity we’ve ever had.
-We can now see the continuum16 between macrohistory and microhistory. We are col-
-lecting the kinds of precise, quantitative, microhistorical measurements that typically
+We can now see the continuum16 between macrohistory and microhistory. We are collecting the kinds of precise, quantitative, microhistorical measurements that typically
 led to the emergence of a new science. . . but at the scale of billions of people, and going
 into our second decade.
 16This is similar to the continuum between microeconomics and macroeconomics (disputed by the
-Keynesians, who say that governments aren’t households), or the continuum between natural intelli-
-gence and artificial intelligence (disputed by those who think human intelligence is sui generis, rather
+Keynesians, who say that governments aren’t households), or the continuum between natural intelligence and artificial intelligence (disputed by those who think human intelligence is sui generis, rather
 than something that was gradually formed by an evolutionary process and could be formed through a
 computational process), or the continuum between microevolution and macroevolution (disputed by
 those who think that sequence evolution isn’t species evolution, or [more reasonably] that abiogenesis
@@ -1767,7 +1669,7 @@ isn’t yet fully experimentally demonstrated).
 
 
 2.2. MICROHISTORY AND MACROHISTORY
-33
+
 So, another term for “Big Data” should be “Big History.”
 All data is a record of
 past events, sometimes the immediate past, sometimes the past of months or years
@@ -1776,8 +1678,7 @@ past of decades or centuries ago. After all, what’s another word for data stor
 computer? Memory. Memory, as in the sense of human memory, and as in the sense
 of history.
 That memory is commercially valuable. A technologist who neglects history ensures
-their users will get exploited. Proof? Consider reputation systems. Any scaled market-
-place has them. The history of an Uber driver or rider’s on-platform behavior partially
+their users will get exploited. Proof? Consider reputation systems. Any scaled marketplace has them. The history of an Uber driver or rider’s on-platform behavior partially
 predicts their future behavior. Without years of star ratings, without memories of past
 actions of millions of people, these platforms would be wrecked by fraud. Macrohistory
 makes money.
@@ -1785,15 +1686,12 @@ This is just one example. There are huge short and long-term incentives to recor
 this data, all this microhistory and macrohistory. And future historians17 will study
 our digital log to understand what we were like as a civilization.
 2.2.4
-Bitcoin’s Blockchain Is a Technology for Robust Macro-
-history
+Bitcoin’s Blockchain Is a Technology for Robust Macrohistory
 There are some catches to the concept of digital macrohistory, though: silos, bots,
 censors, and fakes. As we’ll show, Bitcoin and its generalizations provide a powerful
 way to solve these issues.
-First, let’s understand the problems of silos, bots, censors, and fakes. The macrohis-
-torical log is largely siloed across different corporate servers, on the premises of Twitter
-and Facebook and Google. The posts are typically not digitally signed or cryptograph-
-ically timestamped, so much of the content is (or could be) from bots rather than
+First, let’s understand the problems of silos, bots, censors, and fakes. The macrohistorical log is largely siloed across different corporate servers, on the premises of Twitter
+and Facebook and Google. The posts are typically not digitally signed or cryptographically timestamped, so much of the content is (or could be) from bots rather than
 humans. Inconvenient digital history can be deleted by putting sufficient pressure on
 centralized social media companies or academic publishers, censoring true information
 in the name of taking down “disinformation,” as we’ve already seen. And the advent
@@ -1810,8 +1708,6 @@ did they attach to the transaction, and when did they send it? That information 
 recorded in the blockchain and sufficient to give a bare bones history of the entire
 17Assuming we make it past the Great Filter.
 
-
-34
 CHAPTER 2. HISTORY AS TRAJECTORY
 Bitcoin economy since 2009. And if you sum up that entire history to the present day,
 you also get the values of how much BTC is held by each address. It’s an immediatist
@@ -1842,8 +1738,7 @@ of all historical Bitcoin transactions to a new protocol.
 With that said, we are not arguing that Bitcoin is infallible. We are arguing that it
 is the best technology yet invented for recording human history. And if the concept
 of cryptocurrency can endure past the invention of quantum decryption, we will likely
-think of the beginning of cryptographically verifiable history as on par with the begin-
-ning of written history millennia ago. Future societies may think of the year 2022 AD
+think of the beginning of cryptographically verifiable history as on par with the beginning of written history millennia ago. Future societies may think of the year 2022 AD
 as the year 13 AS, with “After Satoshi” as the new “Anno Domini,” and the block clock
 as the new universal time.
 2.2.5
@@ -1856,7 +1751,7 @@ because you anticipate the rewriting of history. The proof-of-existence techniqu
 
 
 2.2. MICROHISTORY AND MACROHISTORY
-35
+
 about to describe wouldn’t directly be able to prove the data of the file was real, but
 you could establish the metadata on the file — the who, what, and when — to a future
 observer.
@@ -1882,8 +1777,7 @@ of a single BTC transaction, thereby proving it existed. This would effectively 
 up” this other blockchain and give it some of the irreversibility properties of Bitcoin.
 Call this kind of chain a subchain.
 By analogy to the industrial use of gold, this type of “industrial” use case of a Bitcoin
-transaction may turn out to be quite important. A subchain with many millions of off-
-Bitcoin transactions every ten minutes could likely generate enough economic activity
+transaction may turn out to be quite important. A subchain with many millions of offBitcoin transactions every ten minutes could likely generate enough economic activity
 to easily pay for a single Bitcoin transaction.18
 18But how could those non-Bitcoin chains be cryptographically verifiable if they aren’t based on
 proof-of-work, or are transitioning away? The short answer is that even a proof-of-stake chain can
@@ -1902,8 +1796,6 @@ in some form. This addresses the issue Vitalik Buterin has termed weak subjectiv
 information external to the blockchain needs to be used to figure out which chain is the right one
 to follow - rather than the wholly objective measure of Bitcoin, which says “the chain with the most
 
-
-36
 CHAPTER 2. HISTORY AS TRAJECTORY
 And as more people try to use the Bitcoin blockchain, given its capacity limits, it might
 turn out that only industrial use cases like this could afford to pay sufficient fees in this
@@ -1949,15 +1841,14 @@ security budget and (b) give a last-resort backup plan for the security of other
 
 
 2.2. MICROHISTORY AND MACROHISTORY
-37
+
 • Smart contract chains like Ethereum and Solana extend the capability of what
 can be done on chain, at the expense of higher complexity.
 • Decentralized social networks like Mirror and DeSo put social events on chain
 alongside financial transactions.
 • Naming systems like the Ethereum Name Service (ENS) and Solana Name Service
 (SNS) attach identity to on-chain transactions.
-• Incorporation systems allow the on-chain representation of corporate abstrac-
-tions above the level of a mere transaction, like financial statements or even full
+• Incorporation systems allow the on-chain representation of corporate abstractions above the level of a mere transaction, like financial statements or even full
 programmable company-equivalents like DAOs.
 • New proof techniques like proof-of-solvency and proof-of-location extend the set of
 things one can cryptographically prove on chain from the basic who/what/when
@@ -1971,17 +1862,14 @@ yet privacy-preserving way. The analogy is to the increase in bandwidth, which n
 allows us to download a megabyte of JavaScript on a mobile phone to run a webapp,
 an unthinkable indulgence in the year 2000.
 This is a breakthrough in digital macrohistory that addresses the issues of silos, bots,
-censors, and fakes. Public blockchains aren’t siloed in corporations, but publicly acces-
-sible. They provide new tools, like staking and ENS-style identity, that allow separation
+censors, and fakes. Public blockchains aren’t siloed in corporations, but publicly accessible. They provide new tools, like staking and ENS-style identity, that allow separation
 of bots from humans. They can incorporate many different proof techniques, including
 proof-of-existence and more, to address the problem of deepfakes. And they can have
 very strong levels of censorship resistance by paying transaction fees to hash their chain
 state to the Bitcoin blockchain.
 2.2.7
-Cryptohistory is Cryptographically Verifiable Macrohis-
-tory
-We can now see how the expansion of blockspace is on track to give us a cryptographi-
-cally verifiable macrohistory, or cryptohistory for short.
+Cryptohistory is Cryptographically Verifiable Macrohistory
+We can now see how the expansion of blockspace is on track to give us a cryptographically verifiable macrohistory, or cryptohistory for short.
 This is the log of everything that billions of people choose to make public: every
 decentralized tweet, every public donation, every birth and death certificate, every
 marriage and citizenship record, every crypto domain registration, every merger and
@@ -1991,8 +1879,6 @@ digitally signed, timestamped, and hashed in freely available public ledgers.19
 described, for the price of just one (1) Bitcoin transaction.
 That won’t solve the so-called data
 
-
-38
 CHAPTER 2. HISTORY AS TRAJECTORY
 The thing is, essentially all of human behavior has a digital component now. Every
 purchase and communication, every ride in an Uber, every swipe of a keycard, and
@@ -2002,8 +1888,7 @@ replay the entire cryptographically verified history of a community.18 That’s 
 of public records, a concept that is to the paper-based system of the legacy state what
 paper records were to oral records.
 It’s also a vision for what macrohistory will become. Not a scattered letter from an
-Abelard here and a stone tablet from an Egyptian there. But a full log, a cryptohis-
-tory. The unification of microhistory and macrohistory in one giant cryptographically
+Abelard here and a stone tablet from an Egyptian there. But a full log, a cryptohistory. The unification of microhistory and macrohistory in one giant cryptographically
 verifiable dataset. We call this indelible, computable, digital, authenticatable history
 the ledger of record.
 This concept is foundational to the network state. And it can be used for good or ill.
@@ -2036,7 +1921,7 @@ correspond to benign and malign versions of the Network/State synthesis respecti
 
 
 2.3. POLITICAL POWER AND TECHNOLOGICAL TRUTH
-39
+
 2.3.1
 Political Power as the Driving Force of History
 How do the authorities use history? What techniques are they using? It’s not just a
@@ -2044,9 +1929,7 @@ random collection of names and dates. They have proven techniques for sifting th
 the archives, for staffing a retinue of heros and villains from the past, for distilling the
 documents into (politically) useful parables. Here are two of them.
 • Political determinist model: history is written by the winners. People have heard
-this saying, but taking it seriously has profound implications. For example, who-
-ever claims to be writing the “first draft of history” is therefore one of the win-
-ners. For another, history is what’s useful to the regime. A classic example is
+this saying, but taking it seriously has profound implications. For example, whoever claims to be writing the “first draft of history” is therefore one of the winners. For another, history is what’s useful to the regime. A classic example is
 Katyn Forest: the admission that the Soviets did it would have delegitimized
 their postwar control over Poland during the 1945-1991 period, but once the
 USSR collapsed the truth could be revealed.
@@ -2080,11 +1963,8 @@ his internal enemies, and seemed not to ensnare his allies.
 • US Establishment:
 Today’s US establishment covers 6/4/1989 and the 2022
 Russo-Ukrainian War heavily, because they are real events that make China and
-Russia look bad and the US look good. It does not mention the 1900 Eight-
-Nations Alliance (when the US helped invade China with a “coalition of the will-
+Russia look bad and the US look good. It does not mention the 1900 EightNations Alliance (when the US helped invade China with a “coalition of the will-
 
-
-40
 CHAPTER 2. HISTORY AS TRAJECTORY
 ing” to defend European imperialism) or the 1932 Ukrainian Holodomor (when
 The New York Times Company’s Walter Duranty helped Soviet Russia choke out
@@ -2099,8 +1979,7 @@ when convenient, distorting events from 1619 for today’s headlines, yet someho
 their time machine stutters on the years 1932 or 1900. In modern America, as in
 modern China, the history you hear about is the history the establishment finds
 to be politically useful against its internal and external rivals.
-• The British Empire: The British in both WW1 and WW2 understandably em-
-phasized the evils of Germany, but not so much the evils of their ally Russia, or
+• The British Empire: The British in both WW1 and WW2 understandably emphasized the evils of Germany, but not so much the evils of their ally Russia, or
 their own evils during the Opium Wars, or the desire for the Indian subcontinent
 to breathe free, and so on. (This one is almost too easy as the UK is no longer
 a contender for heavyweight champion of the world, so no one is offended when
@@ -2121,8 +2000,7 @@ are doing and the savage behavior of the enemy. But war is politics by other mea
 politics is war by other means. Even in peacetime, the state is predicated on force. And
 this use of force requires justification. The atrocity story is the tool used to convince
 people that the use of state force is legitimate.
-Coming from a different vantage point, Rene Girard would call this a “founding mur-
-der.”
+Coming from a different vantage point, Rene Girard would call this a “founding murder.”
 Once you see this technique, you see it everywhere.
 Somewhat toned-down
 versions of the atrocity story are the go-to technique used to justify expansions of
@@ -2132,12 +2010,11 @@ political power.
 
 
 2.3. POLITICAL POWER AND TECHNOLOGICAL TRUTH
-41
+
 ple will die!
 • If we don’t set up a disinformation office to stop people from making hostile
 comments online, people will die!
-Indeed, almost everything in politics is backed by an atrocity story.21 There’s a some-
-times real, sometimes fake, sometimes exaggerated Girardian founding murder (or at
+Indeed, almost everything in politics is backed by an atrocity story.21 There’s a sometimes real, sometimes fake, sometimes exaggerated Girardian founding murder (or at
 least founding injury) behind much of what the government does.
 Sometimes the atrocity story is framed in terms of terrorists, sometimes in terms of
 children. . . but the general concept is “something so bad happened, we must use (state)
@@ -2148,8 +2025,7 @@ Law and drug lag.
 And sometimes the atrocity story is just completely fake; before Iraq was falsely accused
 of holding WMD, it was falsely accused of tossing babies from incubators.
 With that said, it’s possible to overcorrect here. Just because there is an incentive to
-fake (or exaggerate) atrocities does not mean that all atrocities are fake or exagger-
-ated.22 Yes, you should be aware that states are always “flopping,” exaggerating the
+fake (or exaggerate) atrocities does not mean that all atrocities are fake or exaggerated.22 Yes, you should be aware that states are always “flopping,” exaggerating the
 severity of the fouls against them or the mascots they claim to represent, trying to
 bring in the public on their side, whether they are Chinese or American or Russian.
 But once you’re aware of the political power model of history, the next goal is to guard
@@ -2171,8 +2047,6 @@ the face of tremendous opposition, affecting millions of citizens, with minimal 
 they’re producing the desired results, an extremely slow customer feedback cycle, and few ways to
 truly opt out. Not all laws, though!
 
-
-42
 CHAPTER 2. HISTORY AS TRAJECTORY
 2.3.2
 Technological Truth as the Driving Force of History
@@ -2183,11 +2057,9 @@ society must pass down true facts about nature, for example, or else its crops w
 grow24 — and its political class will lose power.
 This leads to a different set of tech-focused lenses for analyzing history.
 • Technological determinist model: technology is the driving force of history. While
-the political determinist model stresses that history is written — and hence dis-
-torted — by the winners, and thereby propagates only that which is useful to a
+the political determinist model stresses that history is written — and hence distorted — by the winners, and thereby propagates only that which is useful to a
 given state, the technological determinist model notes that there are some key
-areas — principally in science and technology — where many (if not most) soci-
-eties derive a benefit from passing down a technical fact without distortion. There
+areas — principally in science and technology — where many (if not most) societies derive a benefit from passing down a technical fact without distortion. There
 is after all an unbroken chain from Archimedes, Aryabhata, Al-Kwarizhmi, and
 antiquity to all our existing science and technology. Hundreds of years later, we
 don’t care that much about the laws of Isaac Newton’s time, but we do care about
@@ -2225,7 +2097,7 @@ simply be death of both ruler and ruled.
 
 
 2.3. POLITICAL POWER AND TECHNOLOGICAL TRUTH
-43
+
 flow, incompressible flow, and so on, to describe different ways a velocity field
 can evolve over time. These classifications are derived from measurements made
 of fluids over time. And the study of just one of these trajectory types can be a
@@ -2239,27 +2111,21 @@ This analogy is actually very tight if you think about virtual economies and the
 history of human behavior on social networks and cryptosystems. In the fullness
 of time, with truly open datasets, we may even be able to develop Asimovian
 psychohistory from all the data recorded in the ledger of record, namely a way to
-predict the macroscopic behavior of humans in certain situations without know-
-ing every microscopic detail. We can already somewhat do this for constructed
+predict the macroscopic behavior of humans in certain situations without knowing every microscopic detail. We can already somewhat do this for constructed
 environments like games25 and markets, and ever more human environments are
 becoming literally digitally constructed.26
-• Statistical model: history aids predictions. From a statistician’s perspective, his-
-tory is necessary for accurately computing the future. See any time series analysis
+• Statistical model: history aids predictions. From a statistician’s perspective, history is necessary for accurately computing the future. See any time series analysis
 or machine learning paper — or the Kalman filter, which makes this concept very
 explicit. To paraphrase Orwell, without a quantitatively accurate record of the
 past you cannot control the future, in the sense that your control theory literally
 won’t work.
-• Helix model: linear and cyclical history can coexist. From a progressive’s perspec-
-tive, history is a linear trend, where the “arc of history” bends towards freedom,
+• Helix model: linear and cyclical history can coexist. From a progressive’s perspective, history is a linear trend, where the “arc of history” bends towards freedom,
 and where those against a given cause are on the wrong side of history27. Others
-think of history as cyclical, a constant loop where the only thing these technolo-
-gists are doing is reinventing the wheel, or where “strong men create good times,
-good times create weak men, weak men create hard times, and hard times cre-
-ate strong men.” But there’s a third view, a helical view of history, which says
+think of history as cyclical, a constant loop where the only thing these technologists are doing is reinventing the wheel, or where “strong men create good times,
+good times create weak men, weak men create hard times, and hard times create strong men.” But there’s a third view, a helical view of history, which says
 that from one viewpoint history is indeed progressive, from another it’s genuinely
 cyclical, and the reconciliation is that we move a bit forward technologically with
-each turn of the corkscrew rather than collapsing. In this view, attempts to re-
-store the immediate preceding state are unlikely, as they’re rewinding the clock
+each turn of the corkscrew rather than collapsing. In this view, attempts to restore the immediate preceding state are unlikely, as they’re rewinding the clock
 — but you might be able to get to a good state by winding the helix all the way
 25In history, you can’t re-rerun the experiment. But for chess, you can. You can restore the initial
 condition and replay the game.
@@ -2270,8 +2136,6 @@ grew to have a piece of paper from the state in the middle over the course of th
 27People deemed to be on the wrong side of history aren’t just losing, they’re fighting against a
 changing moral climate which will condemn them for fighting in the first place.
 
-
-44
 CHAPTER 2. HISTORY AS TRAJECTORY
 past 12’o’clock to get the reboot. Or you might just collapse.
 • Ozymandias model: civilization can collapse. History shows us that technological
@@ -2319,7 +2183,7 @@ to end humanity.
 
 
 2.3. POLITICAL POWER AND TECHNOLOGICAL TRUTH
-45
+
 Virtual reality was an abject failure right up to the moment it wasn’t.
 In this way, it has followed the course charted by a few other breakout
 technologies. They don’t evolve in an iterative way, gradually gaining
@@ -2344,13 +2208,11 @@ claims that were selectively advantageous to the success of the regime - often b
 delegitimizing their rivals and legitimizing their own rule, or by giving them new
 technologies. This is a theory of memetic evolution; the ideological mutations
 that add technological edge or political power are the ones selected for.
-• Computational model: history is the on-chain population; all the rest is editorial-
-ization. There’s a great book by Franco Moretti called Graphs, Maps, and Trees.
+• Computational model: history is the on-chain population; all the rest is editorialization. There’s a great book by Franco Moretti called Graphs, Maps, and Trees.
 It’s a computational study of literature. Moretti’s argument is that every other
 study of literature is inherently biased. The selection of which books to discuss
 is itself an implicit editorialization. He instead makes this completely explicit by
-creating a dataset of full texts, and writing code to produce graphs. The argu-
-ment here is that only a computational history can represent the full population
+creating a dataset of full texts, and writing code to produce graphs. The argument here is that only a computational history can represent the full population
 in a statistical sense; anything else is just a biased sample.
 • Genomic model: history is what DNA (and languages, and artifacts) show us.
 David Reich’s Who We Are and How We Got Here is the canonical popular
@@ -2363,8 +2225,6 @@ the new genomic studies are showing about patterns of ancient migrations.
 • Tech Tree model: history is great men constrained by the adjacent possible. As
 context, the great man theory of history says that individuals like Isaac Newton
 
-
-46
 CHAPTER 2. HISTORY AS TRAJECTORY
 and Winston Churchill shaped events. The counterargument says that these men
 were carried on tides larger than them, and that others would have done the
@@ -2383,11 +2243,9 @@ available, the tech tree model allows for individual agency but subjects it to
 the constraint of what is achievable by one person in a given era. The major
 advantage of a tech tree is that (like the idea maze) it can be made visible, and
 navigable, as has been done for longevity by the Foresight Institute.
-You might find it a bit surprising that there are as many different models for under-
-standing history — let’s call them historical heuristics — as there are programming
+You might find it a bit surprising that there are as many different models for understanding history — let’s call them historical heuristics — as there are programming
 paradigms. Why might this be so? Well, just like the idea of statecraft strategies that
-we introduce later, the study of history can also be analogized to a type of program-
-ming, or at least data analysis. That is, history is the analysis of the log files.
+we introduce later, the study of history can also be analogized to a type of programming, or at least data analysis. That is, history is the analysis of the log files.
 • Data exhaust model: history as the analysis of the log files.
 Here, we mean
 “log files” in the most general sense of everything society has written down or
@@ -2408,7 +2266,7 @@ you’ll realize why having access to the full log of public events is a huge st
 
 
 2.3. POLITICAL POWER AND TECHNOLOGICAL TRUTH
-47
+
 2.3.3
 A Collision of Political Power and Technological Truth
 We’ve now defined a top-down and bottom-up model of history. The collision of these
@@ -2422,8 +2280,7 @@ down an NYT story. The New York Times Company claimed the car had run
 out of charge, but his dataset showed they had purposefully driven it around
 to make this happen, lying about their driving history. His numbers overturned
 their letters.
-• Timestamp > Macron, NYT. Twitter posters used a photo’s timestamp to dis-
-prove a purported photo of the Brazilian fires that was tweeted by Emmanuel
+• Timestamp > Macron, NYT. Twitter posters used a photo’s timestamp to disprove a purported photo of the Brazilian fires that was tweeted by Emmanuel
 Macron and printed uncritically by NYT. The photo was shown via reverse image
 search to be taken by a photographer who had died in 2003, so it was more than
 a decade old. This was a big deal because The Atlantic was literally calling for
@@ -2448,8 +2305,6 @@ power can simply dictate what is true. It’s a fusion of Foucalt’s relativist
 social construction of truth. If 2+2 is whatever those in power say it is, then guess what? Those in
 power will say 2+2=5 if they want, and they’ll even get Fields Medalists to go to bat for them.
 
-
-48
 CHAPTER 2. HISTORY AS TRAJECTORY
 2.3.4
 A Definition of Political and Technological Truths
@@ -2484,8 +2339,7 @@ individual technologist if you’re badly outnumbered politically. And if you’
 enough, you won’t have the political power to build in the physical world.
 30This is what the US establishment is set up to manipulate globally, and the Chinese establishment
 is good at domestically.
-31This is where the US establishment is particularly out of its depth, but where the Chinese estab-
-lishment is fairly strong. Most US politicians don’t have technical backgrounds, prominent journalists
+31This is where the US establishment is particularly out of its depth, but where the Chinese establishment is fairly strong. Most US politicians don’t have technical backgrounds, prominent journalists
 can’t do basic math, and few of the people involved in the US establishment have built anything more
 complicated than a bookshelf. Meanwhile, the Chinese establishment is filled with engineers and has
 built up their country over the last 40 years, even if the next generation of Chinese leaders may not
@@ -2498,20 +2352,17 @@ agree to run the same version of node and wallet software, and so on. Contrast t
 
 
 2.4. GOD, STATE, NETWORK
-49
+
 Combining these views tells us to seek a balance between nationalism and rationalism,
 where the former is thought of in the broadest sense as “group identity.” It’s a balance
 between political power and technological truth, between ingroup-stabilizing narratives
 and inconvenient facts. And you need both.
-So that’s how the political and technological theories of history interrelate. Technolog-
-ical history is the history of what works; political history is the history of what works
+So that’s how the political and technological theories of history interrelate. Technological history is the history of what works; political history is the history of what works
 to retain power. Putting all the pieces together:
 • We have a political theory of history that says “social and political incentives
 favor the propagation of politically useful narratives.”
-• We have a technological theory of history that says “financial and technical in-
-centives favor the propagation of technological truths.”
-• We have a set of examples that show how politically powerful actors were con-
-strained by decentralizing technology.
+• We have a technological theory of history that says “financial and technical incentives favor the propagation of technological truths.”
+• We have a set of examples that show how politically powerful actors were constrained by decentralizing technology.
 • We have more examples that show that some facts really are determined by
 societal consensus, while others are amenable to decentralized verification.
 • And we understand why groups need both to survive; the backwards will be
@@ -2536,11 +2387,8 @@ For a political
 movement, it is the State. And for a cryptocurrency, it is the Network. These three
 Leviathans hover over fallible men to make them behave in pro-social ways.
 Once we generalize beyond God, once we realize there’s not one but three Leviathans in
-a Hobbesian sense, much becomes clear. Movements that aren’t God-worshipping reli-
-gions are often State-worshipping political movements or Network-worshipping crypto
+a Hobbesian sense, much becomes clear. Movements that aren’t God-worshipping religions are often State-worshipping political movements or Network-worshipping crypto
 
-
-50
 CHAPTER 2. HISTORY AS TRAJECTORY
 tribes. Many progressive atheists are by no means astatists; they worship the State as
 if it were God. And many libertarian atheists may not believe in either God or the
@@ -2589,7 +2437,7 @@ State, and Network.
 
 
 2.4. GOD, STATE, NETWORK
-51
+
 the cryptocurrency network won’t let you steal because you lack the private key, or
 (eventually) the networked AI will detect you, or all of the above.
 Put another way, what’s the most powerful force on earth? In the 1800s, God. In
@@ -2604,8 +2452,7 @@ up to get that solution, do the proverbial rubber hose attack to get their passw
 private keys — but first they’ll have to find that person’s offline identity, map it to a
 physical location, establish that they have jurisdiction, send in the (expensive) special
 forces, and do this to an endless number of people in an endless number of locations,
-while dealing with various complications like anonymous remailers, multisigs, zero-
-knowledge, dead-man’s switches, and timelocks. So at a minimum, encryption increases
+while dealing with various complications like anonymous remailers, multisigs, zeroknowledge, dead-man’s switches, and timelocks. So at a minimum, encryption increases
 the cost of state coercion.
 In other words, seizing Bitcoin is not quite as easy as inflating a fiat currency. It’s
 not something a hostile state like Venezuela can seize en masse with a keypress, they
@@ -2614,8 +2461,7 @@ be a cheap autonomous army of AI police drones, something China may ultimately b
 capable of, but that’d be expensive and we aren’t there yet.34
 Until then, the history of Satoshi Nakamoto’s successful maintenance of pseudonymity,
 of Apple’s partial thwarting of the FBI, and of the Bitcoin network’s resilience to the
-Chinese state’s mining shutdown show that the Network’s pseudonymity and cryptog-
-raphy are already partially obstructing at least some of the State’s surveillance and
+Chinese state’s mining shutdown show that the Network’s pseudonymity and cryptography are already partially obstructing at least some of the State’s surveillance and
 violence.
 Encryption thus limits governments in a way no legislation can. And as described at
 length in this piece, it’s not just about protection of private property. It’s about using
@@ -2631,8 +2477,6 @@ a different alternative to expensive boots on the ground. These techniques are, 
 and NYT coalitions’ ways around the economic constraints on military action imposed by BTC. See
 the book Gold, Blood, and Power and our later chapter on The Tripolar Moment.
 
-
-52
 CHAPTER 2. HISTORY AS TRAJECTORY
 In this sense, the Network is the next Leviathan, because on key dimensions it is
 becoming more powerful and more just than the State.
@@ -2664,8 +2508,7 @@ presently favoring that point of view.
 4. Social > National. Social networks change many things, but a critical one is that
 they change the nature of community. Your community is your social network,
 not necessarily the people who live near you. When the network identity is more
-salient than the neighor relationship, it challenges the very premise of the West-
-phalian state, which is that (a) people who live geographically near each other
+salient than the neighor relationship, it challenges the very premise of the Westphalian state, which is that (a) people who live geographically near each other
 share values and (b) therefore laws should be based on geographic boundaries.
 The alternative is that only people who are geodesically near each other in the
 social network share values, and therefore the laws that govern them should be
@@ -2678,7 +2521,7 @@ just the beginning of State attempts to control Network-facilitated physical exi
 
 
 2.4. GOD, STATE, NETWORK
-53
+
 But in normal circumstances, smartphones are helping people move ever more
 freely, while the borders of physical states are frozen in place.
 6. Virtual Reality > Physical Proximity. As a complement to mobile, the Network
@@ -2708,8 +2551,7 @@ domain of legacy states, and by global technologists rather than country-specifi
 lawyers.
 10. Cryptographic Verification > Official Confirmation. Perhaps the most important
 arena in which the Network is stronger than the state is in the nature of truth
-itself. As incredible as it may sound, the blockchain is the most important de-
-velopment in history since the advent of writing itself, as it’s a cryptographically
+itself. As incredible as it may sound, the blockchain is the most important development in history since the advent of writing itself, as it’s a cryptographically
 verifiable, highly replicated, unfalsifiable, and provably complete digital record
 of a system. It’s the ultimate triumph of the technological truth view of history,
 as there are now technical and financial incentives for passing down true facts,
@@ -2723,8 +2565,6 @@ about the Network’s telepresence (which defeats physical borders) and its encr
 (which erects digital borders). Or if you care about, say, the US census, the Network
 gives a real-time survey which is far more up to date than the State’s 10 year process.
 
-
-54
 CHAPTER 2. HISTORY AS TRAJECTORY
 In short, if you can bring the Network to bear on an issue, it will often be the most
 powerful force. This is essentially what every startup founder does, all the time: they
@@ -2739,14 +2579,12 @@ Applying the “Network > State” formulation to recent events, think about Jan
 2021, when — at the behest of the New York Times Company and all of mainstream
 media — Google, Apple, Amazon, Facebook, and Twitter combined to deplatform a
 sitting president and disappear his supporters’ app from the internet.
-This was undeniable proof of the US government’s impotence, because the “most pow-
-erful man in the world” was clearly no longer even the most powerful man in his own
+This was undeniable proof of the US government’s impotence, because the “most powerful man in the world” was clearly no longer even the most powerful man in his own
 country. The informal Network (the US establishment) trumped the formal State (the
 US government).35
 Obviously, Trump and the Republicans weren’t in control of events. Less obviously,
 elected Democrats weren’t either. Oh, sure, many of them added their voices to the
-cacophony. But because the First Amendment constrains government capacity to re-
-strain speech, they couldn’t tell the tech CEOs to shut down opposition voices - but
+cacophony. But because the First Amendment constrains government capacity to restrain speech, they couldn’t tell the tech CEOs to shut down opposition voices - but
 the publishers could. And because the final control over these networks is in private
 hands, state officials didn’t have the final say.
 Put another way, the people with their fingers on the button are no longer elected
@@ -2769,9 +2607,8 @@ with a “true election.” Others think you’ll need to start over, with start
 
 
 2.4. GOD, STATE, NETWORK
-55
-Some examples of “State > Network” include Ross Ulbricht’s arrest by the US govern-
-ment, the persecution of Julian Assange and Edward Snowden, China’s crackdown on
+
+Some examples of “State > Network” include Ross Ulbricht’s arrest by the US government, the persecution of Julian Assange and Edward Snowden, China’s crackdown on
 cryptocurrency, the European Union’s GDPR regulation, the COVID lockdowns that
 inhibited any digital nomad’s ability to exit, the rising number of government internet
 shutdowns, and the US establishment’s push to censor the internet.
@@ -2790,21 +2627,17 @@ over. Technology has now globally decentralized into web3, and San Francisco
 (and even Silicon Valley) has now lost its position as the undisputed tech capital
 of the world. You no longer need to go to the Bay Area to build a startup — you
 can found and fund from anywhere.
-This is, on balance, a good thing — the fact that tech is no longer highly depen-
-dent on the triple dysfunction of SF/CA/USA is crucial to the world’s future.
+This is, on balance, a good thing — the fact that tech is no longer highly dependent on the triple dysfunction of SF/CA/USA is crucial to the world’s future.
 Note also that while the defeat of tech in SF was due to State > Network, the
 reason tech lives to fight another day is thanks to remote work, which allowed
 movement away from SF in a “Techxit.” And remote work is a case of Network
 > State.
-2. CCP > Chinese tech founders. Until about 2018, Chinese tech founders were cel-
-ebrated by the CCP. Imagine if Zuckerberg and Dorsey were given the equivalent
-of Senate seats for their contribution to the economy, brought into the estab-
-lishment rather than standing at a remove, and you’ll get a sense of what the
+2. CCP > Chinese tech founders. Until about 2018, Chinese tech founders were celebrated by the CCP. Imagine if Zuckerberg and Dorsey were given the equivalent
+of Senate seats for their contribution to the economy, brought into the establishment rather than standing at a remove, and you’ll get a sense of what the
 tone was like. Jack Ma (Alibaba founder), Pony Ma (Tencent founder), and their
 peers were either one of the 95 million CCP members (<7% of the country) or
 praised by CCP media.
-Then everything shifted. Just like America, China had its own establishment-
-driven techlash.36 The huge cost of pausing of the massive ANT Financial IPO
+Then everything shifted. Just like America, China had its own establishmentdriven techlash.36 The huge cost of pausing of the massive ANT Financial IPO
 on some regulatory pretense was a signal. For the last several years, the CCP has
 put what it considers to be the “national interest” over enormous sums of money,
 36Indeed, many events in America are now followed by a similar event in China, or vice versa.
@@ -2812,8 +2645,6 @@ Some examples include (a) internet censorship, (b) nationalism + socialism, (c) 
 / cancel culture, (d) “human flesh search” and Twitter mobs, (e) COVID lockdowns, (f) increasing
 militarization, and (g) state takeover of tech companies.
 
-
-56
 CHAPTER 2. HISTORY AS TRAJECTORY
 incurring at least a trillion dollars in cost for COVID lockdowns, shutdowns of
 IPOs, and overnight bans of entire industries like gaming and Bitcoin mining.
@@ -2839,8 +2670,7 @@ the Soviet Union did with its commissars, the NSDAP did with gleichschaltung,
 and Xi has done with Xuexi Qiangguo.38
 The fundamental concept is about asserting moral control over a technological
 field. AI “ethics” doesn’t really contest what is true or false, it contests what is
-good and bad. And what is bad? Anything that advances a politically unfavor-
-able narrative. As a concrete example, in 2021, Ukraine was widely reported to
+good and bad. And what is bad? Anything that advances a politically unfavorable narrative. As a concrete example, in 2021, Ukraine was widely reported to
 be a corrupt country full of Azov Battalion Nazis. By mid 2022, those reports
 would have been reclassified as “disinformation” and pushed down to page 10 of
 the search results39, if the AI bias people had their way.
@@ -2860,7 +2690,7 @@ web2.
 
 
 2.4. GOD, STATE, NETWORK
-57
+
 the individual investigator, but instead consistently points in a single “ethically
 approved” direction, whether that be submission to NYT (in Blue America) or
 CCP (in China). It’s centralized political control by another name.
@@ -2878,8 +2708,7 @@ The episode where Merriam-Webster changed the
 dictionary in real-time for political purposes is only the beginning; the new Google
 is about to use its power to centrally change thought.
 This is considerably worse than Baidu, which more straightforwardly filters
-searches that are “problematic” for the CCP. Because the AI bias people pre-
-tend that they are doing it for the powerless, when they are really doing it to
+searches that are “problematic” for the CCP. Because the AI bias people pretend that they are doing it for the powerless, when they are really doing it to
 maintain the US establishment’s power.
 4. Digital Deplatforming. Another example of the State trumping the Network, of
 political power exercised against technological truth, can be seen in the muzzling
@@ -2903,8 +2732,6 @@ it’s unofficial private censorship, but that’s not a substantive difference 
 hard to specify and hard to diligence. It’s easier to push for open, transparent, search algorithms.
 This may come true in web3; see this talk.
 
-
-58
 CHAPTER 2. HISTORY AS TRAJECTORY
 censorship as ordered by the Chinese and US establishments respectively. The
 substantive difference is that in the West there’s a third faction of decentralized
@@ -2943,13 +2770,12 @@ These are political examples of mixing Leviathans, but there are other ways of t
 about the concept.
 2.4.6
 Synthesis: The Network/God
-One important synthesis that deserves special mention is the “Network/God”: a Net-
-work God, an AI God, a GPT-9 or DALL·E 10 that gives instant, superhuman answers
+One important synthesis that deserves special mention is the “Network/God”: a Network God, an AI God, a GPT-9 or DALL·E 10 that gives instant, superhuman answers
 to difficult questions using the knowledge of all of humanity.
 
 
 2.4. GOD, STATE, NETWORK
-59
+
 After all, people already do confide to Google as if it were God, or at least a confessions
 booth. In the 1980s there was a popular children’s book called Are You There God?
 It’s Me, Margaret, and you can imagine an app version of this where people ask a given
@@ -2970,17 +2796,13 @@ not obvious that getting interactive advice from Lee Kuan Yew’s app is worse t
 getting it from Lee Kuan Yew’s books.
 2.4.7
 Synthesis: The Network/State
-The study of God/State/Network syntheses brings us to the fusion we’re most inter-
-ested in: a Network/State, of which one of them is our titular network state. And
+The study of God/State/Network syntheses brings us to the fusion we’re most interested in: a Network/State, of which one of them is our titular network state. And
 there are a few different ways to get to a Network/State fusion.
 The first is the from-scratch version described in chapter one, where an internet leader
-builds a large enough network union online that it can crowdfund territory and eventu-
-ally attain diplomatic recognition. But it’s worth discussing other scenarios, where ex-
-isting governments fuse with the network — both positive and negative Network/State
+builds a large enough network union online that it can crowdfund territory and eventually attain diplomatic recognition. But it’s worth discussing other scenarios, where existing governments fuse with the network — both positive and negative Network/State
 syntheses.
 Positive Syntheses: BTC, Web3, Efficiency
-Start with the observation that companies, cities, currencies, communities, and coun-
-tries are all becoming networks.
+Start with the observation that companies, cities, currencies, communities, and countries are all becoming networks.
 As an analogy, we used to think of books, music, and movies as distinct. Then they
 all became represented by packets sent over the internet. Yes, we listened to music
 in audio players and viewed books in ebook readers, but their fundamental structure
@@ -2989,8 +2811,6 @@ Similarly, today we think of stocks, bonds, gold, loans, and art as different. B
 of them are represented as debits and credits on blockchains. Again, the fundamental
 structure became digital.
 
-
-60
 CHAPTER 2. HISTORY AS TRAJECTORY
 Now, we are starting to think of different kinds of collections of people –— whether
 communities, cities, companies, or countries —– all fundamentally as networks, where
@@ -3000,8 +2820,7 @@ digital, but even already existing cities and countries are starting to be model
 way, because (a) their citizens41 are often geographically remote, (b) the concept of
 citizenship itself is becoming similar to digital single sign-on, (c) many 20th century
 functions of government have already been de-facto transferred to private networks like
-(electronic) mail delivery, hotel, and taxi regulation, (d) cities and countries increas-
-ingly recruit citizens online, (e) so-called smart cities are increasingly administrated
+(electronic) mail delivery, hotel, and taxi regulation, (d) cities and countries increasingly recruit citizens online, (e) so-called smart cities are increasingly administrated
 through a computer interface, and (f) as countries issue central bank digital currencies
 and cities likely follow suit, every polity will be publicly traded on the internet just like
 companies and coins.
@@ -3010,8 +2829,7 @@ network. It doesn’t include the most fundamental network property of the de no
 network states described herein: namely that the citizenry itself first assembles in the
 cloud and only then crowdfunds the earth.
 Examples of pre-existing states integrating with the network include (a) El Salvador’s
-integration with the Bitcoin network, (b) Wyoming’s decentralized autonomous or-
-ganization (DAO) law and Norway’s cap table bill, which are integrations with the
+integration with the Bitcoin network, (b) Wyoming’s decentralized autonomous organization (DAO) law and Norway’s cap table bill, which are integrations with the
 Ethereum network, and (c) places like Estonia and Singapore, where every government
 workflow is already online. In each of these cases, cities and states are fusing with
 networks to ship new services that are useful to citizens.
@@ -3030,12 +2848,11 @@ within followed by (c) anti-trust, regulation, and quasi-nationalization.
 Sometimes the decapitation is forceful (Uber was an early target here) and sometimes
 it’s quasi-voluntary. Indeed, one thesis on why many of the major tech founders have
 stepped down as of mid-2022, other than Zuck, is that they don’t want to become
-41Substitute the word “resident” if you will for a city, as a city doesn’t have citizens in the passport-
-carrying sense.
+41Substitute the word “resident” if you will for a city, as a city doesn’t have citizens in the passportcarrying sense.
 
 
 2.4. GOD, STATE, NETWORK
-61
+
 personally demonized during the no-win antitrust process. It’s more explicit in China
 that this wasn’t a choice — Jack Ma is no longer in control of the company he founded,
 and many other Chinese founders have been similarly relieved of their duties.
@@ -3077,14 +2894,10 @@ later gives a way for founders to ship protocols that are more robust to seizure
 Chinese establishments, as they don’t simply involve demonizing a company but instead a protocol
 with the scale of a country.
 
-
-62
 CHAPTER 2. HISTORY AS TRAJECTORY
 moral innovation that inverts one of society’s core assumptions while keeping all others
 intact.
-For example, taking the seemingly trivial moral premise that “sugar is bad” and se-
-riously carrying it through to build a Keto Kosher society involves a focused yet all-
-encompassing change to every restaurant, grocery store, and meal within a jurisdiction.
+For example, taking the seemingly trivial moral premise that “sugar is bad” and seriously carrying it through to build a Keto Kosher society involves a focused yet allencompassing change to every restaurant, grocery store, and meal within a jurisdiction.
 We give more examples later.
 2.4.9
 New Leviathan, New States
@@ -3105,8 +2918,7 @@ and people of the Network.
 Stereotypically, the people of God offer43 thoughts and prayers, the people of the State
 say “there oughta be a law!”, and the people of the Network write some code.
 The differences go very deep.
-It’s a difference in first steps and in ultimate loyal-
-ties. Once you understand whether someone prioritizes the God, State, or Network
+It’s a difference in first steps and in ultimate loyalties. Once you understand whether someone prioritizes the God, State, or Network
 Leviathan you understand what tactics they’ll prefer, what values they hold, and where
 they’re coming from.
 To illustrate this, let’s apply the lens of Leviathans to analyze (a) the internal divisions
@@ -3167,8 +2979,6 @@ more diplomatic than the cartoonishly nationalist reds, but only slightly, and p
 years they’ve shifted away from Obama-era multilateralism to their own variety of unilateralism. See
 Alvarez’s work here, here, and here, published in late 2020 and which has held up quite well.
 
-
-64
 CHAPTER 2. HISTORY AS TRAJECTORY
 in Western society today, and has two45 main internal factions: the left-authoritarians
 who worship the State, and the left-libertarians who are (unconsciously) people of the
@@ -3183,21 +2993,16 @@ belief or set of beliefs held and taught by a church, political party, or other 
 The concept of a doctrine encompasses religious and political beliefs, both God- and
 State-worship. And nowadays the “other group” could be a Network entity of some
 kind, like a social network or cryptocurrency.
-So now we have an umbrella term: doctrine. God-worshippers have religions (reli-
-gious doctrines), State-loyalists have political parties (with political doctrines), and
-Network-centrists have social networks or cryptocurrencies (with tightly enforced con-
-tent moderation or crypto tribalism respectively, which are network doctrines). Each
+So now we have an umbrella term: doctrine. God-worshippers have religions (religious doctrines), State-loyalists have political parties (with political doctrines), and
+Network-centrists have social networks or cryptocurrencies (with tightly enforced content moderation or crypto tribalism respectively, which are network doctrines). Each
 doctrine has a Leviathan, a most powerful force. And a religion is then just a type of
 doctrine.
-With this definition, we can return to the question: is capital-W Wokeness, like Com-
-munism and Nazism before it, a religion that evolved to jump over the formal principle
-of church/state separation by posing as a non-religion? Well, as several have now ob-
-served, Wokeness does have cognates to many aspects of Christianity — we all have
+With this definition, we can return to the question: is capital-W Wokeness, like Communism and Nazism before it, a religion that evolved to jump over the formal principle
+of church/state separation by posing as a non-religion? Well, as several have now observed, Wokeness does have cognates to many aspects of Christianity — we all have
 the Calvinist original sin of bigotry, we’re going to the warm hell of climate change
 unless we repent, unbelievers must “recant,” heresy must be suppressed, the West’s
 beliefs must be evangelized at gunpoint, and so on. See Curtis Yarvin’s How Dawkins
-Got Pwned, John McWhorter’s Woke Racism, Andrew Sullivan on America’s New Re-
-ligions, Noah Smith on Wokeness as Old-Time Religion, Tom Holland’s concluding
+Got Pwned, John McWhorter’s Woke Racism, Andrew Sullivan on America’s New Religions, Noah Smith on Wokeness as Old-Time Religion, Tom Holland’s concluding
 chapter in Dominion, Paul Graham on Heresy, and Michael Shellenberger and Peter
 Boghossian’s detailed infographic for perspectives on this topic.
 But while it’s directionally accurate, calling wokeness a religion doesn’t quite fit because
@@ -3240,25 +3045,19 @@ that masks don’t work before they do, reliably surging behind the current thin
 are just foot soldiers, but interestingly the most important left-authoritarians aren’t
 the elected officials.
 As Yarvin in particular has documented at length, the most important left-authoritarians
-are not formally part of the elected State at all. They are the professors, activists, bu-
-reaucrats, and journalists.
+are not formally part of the elected State at all. They are the professors, activists, bureaucrats, and journalists.
 The key concept is that much of America’s control circuitry has evolved to live outside
 the formal state, thereby making it resistant to displacement by democratic election.
 They laud “democracy” but avoid it in practice, through dual class stock, tenure for
 their bureaucrats and professors, tax-exempt compounding for their foundations, and
 ideological purification of their organizations. As with the communists who endlessly
-burbled about their “democratic people’s republics” while eschewing elections, the left-
-authoritarians don’t actually subject their control of key institutions to a vote.47
-47They also aren’t diverse, despite how much they caterwaul about the topic. Look at techjournal-
-ismislessdiversethantech.com or Haidt’s study of committed progressives that shows the far left to be
+burbled about their “democratic people’s republics” while eschewing elections, the leftauthoritarians don’t actually subject their control of key institutions to a vote.47
+47They also aren’t diverse, despite how much they caterwaul about the topic. Look at techjournalismislessdiversethantech.com or Haidt’s study of committed progressives that shows the far left to be
 far white.
 
-
-66
 CHAPTER 2. HISTORY AS TRAJECTORY
 There are different names for this left-authoritarian network that controls the state
-from outside by “holding it accountable.” We can call it the Paper Belt (which em-
-phasizes their Rust-Belt-like technological backwardness), we can call it the Cathedral
+from outside by “holding it accountable.” We can call it the Paper Belt (which emphasizes their Rust-Belt-like technological backwardness), we can call it the Cathedral
 (which emphasizes their holiness), we can call it the regime (which emphasizes their
 illegitimacy), or we can call it simply the American establishment (which emphasizes
 their enduring power). Later we will call it NYT/USD, to emphasize their source of
@@ -3283,8 +3082,7 @@ straws makes no nevermind; impact is impact.
 Laws aren’t the only form of impact. Getting someone fired is too. We talk of hit
 pieces and cancel culture as if they’re aberrations, but they’re actually the core of
 left-authoritarian culture. Recall that the most prestigious thing any establishment
-journalist ever did was Watergate: namely, getting a president fired while selling mil-
-lions of copies of their newspaper.
+journalist ever did was Watergate: namely, getting a president fired while selling millions of copies of their newspaper.
 This episode has been endlessly romanticized, but here’s a different perspective on
 it: the corporate takeover of America we’re supposed to be constantly vigilant for
 actually already occured 50 years ago, just from the left, when a few privately-owned
@@ -3308,8 +3106,7 @@ is just fundamentally different from one that puts NASA (or SpaceX) on a pedesta
 Because if what’s applauded is putting a man out of work, rather than putting a man
 on the moon, there will be a lot of cancellation and not a lot of creation. Firing someone
 should be a necessary evil, not the highest good.
-We linger on Watergate because it was the moment when the left-authoritarian Amer-
-ican Network outside the State became unambiguously ascendant. It was the public
+We linger on Watergate because it was the moment when the left-authoritarian American Network outside the State became unambiguously ascendant. It was the public
 demonstration of a very different model from the left-authoritarian Soviets. The Soviets
 had a state-controlled press, but America now had a press-controlled state.
 After Watergate, the left-authoritarians knew that they were the boss of the boss, that
@@ -3319,8 +3116,7 @@ what was the punishment for printing the “disinformation” that led to, say, 
 War, or the Holodomor? Suspension from social media? Reparations for the dead? Or
 nothing? Much easier to pin it all on a single Nixon, or even a Stalin for that matter,
 than a decentralized mass of nameless left-authoritarians.48
-Two additional points before we move on from our God/State/Network-informed anal-
-ysis of the left-authoritarians. First, more recently, as American state capacity has
+Two additional points before we move on from our God/State/Network-informed analysis of the left-authoritarians. First, more recently, as American state capacity has
 declined, the left-authoritarians have shifted their targets to the new authorities: the
 CEOs of tech companies in particular. They realize on some level that (a) Network >
 State in many contexts and furthermore that (b) the Network-aided global ascent of
@@ -3343,8 +3139,6 @@ Company that even publicly admits that their boss, Arthur Gregg Sulzberger, is a
 48This school-of-fish strategy is part of the defense. Individuals can be singled out, but a group can
 only really be beaten by another group.
 
-
-68
 CHAPTER 2. HISTORY AS TRAJECTORY
 white male nepotist. This puts their behavior into stark relief: the left-authoritarian
 wants to get you fired, or get your boss to fire you, but won’t even mention their boss.
@@ -3362,20 +3156,16 @@ ethical anti-imperialists. They really don’t identify with the US establishmen
 much, even if they sometimes wish it would execute the redistribution strategy of their
 dreams. Their primary people are the others in their social network. And that Network
 is becoming their new Leviathan.
-For the professional protester, for example, they can use the offline tactics from Beau-
-tiful Trouble or Roots to Power to laboriously organize an in-person procession outside
-a government office. . . or they can do the same thing online by simply posting a hash-
-tag and materializing a digital crowd, then going direct with their cause rather than
+For the professional protester, for example, they can use the offline tactics from Beautiful Trouble or Roots to Power to laboriously organize an in-person procession outside
+a government office. . . or they can do the same thing online by simply posting a hashtag and materializing a digital crowd, then going direct with their cause rather than
 negotiating with an establishment journalist for exposure. So what’s giving them more
 leverage these days: the institutions that surround the legacy State, or the features of
 the decentralized Network?
 Another factor pushing left-libertarians away from the US establishment is the strong
-left-authoritarian shift towards holiness over coolness. Fredrik DeBoer actually dis-
-cussed this shift while it was underway, while society was still transitioning from the
+left-authoritarian shift towards holiness over coolness. Fredrik DeBoer actually discussed this shift while it was underway, while society was still transitioning from the
 old-time religion of Judeo-Christianity to the new doctrine of wokeness:
 Silicon Valley types, by contrast, believe in things. . . Tangible values about
-progress and culture. The Californian ideology plus the blockchain or what-
-ever. There’s content there. . .
+progress and culture. The Californian ideology plus the blockchain or whatever. There’s content there. . .
 The media has none of that. The old school media values of truth telling
 and muckraking have long since been abandoned by the media itself, as real
 values require sincerity and media culture abhors sincerity. You can’t sit
@@ -3421,16 +3211,12 @@ actually believed the things they said against the establishment, and don’t en
 simply because it’s ostensibly “their” team now wearing the NSA headsets.
 Blue State vs Blue Network
 The left-libertarian subgroup of blues has begun to flirt with decentralized media and
-web3, because they’re realizing the Network could be more interesting than the declin-
-ing American State. Could Substack be more remunerative than Sulzberger? Could
+web3, because they’re realizing the Network could be more interesting than the declining American State. Could Substack be more remunerative than Sulzberger? Could
 Satoshi’s community deliver more for them than Bernie’s? If they need to redefine
-all that as “socialism,” so be it! And if their funding stream is changing, their ide-
-ology is slowly shifting too. Yes, they may have started as mere pawns of America’s
+all that as “socialism,” so be it! And if their funding stream is changing, their ideology is slowly shifting too. Yes, they may have started as mere pawns of America’s
 49All blues aren’t in media, but to first order all media are blue. As CPI found, 96% of journalist
 political donations went to Democrats.
 
-
-70
 CHAPTER 2. HISTORY AS TRAJECTORY
 left-authoritarian establishment, but what they value is increasingly coming from the
 decentralized global Network rather than the centralized American State. So they are
@@ -3440,15 +3226,12 @@ Red Tribe: Secular Nationalists, Internationalist Capitalists
 Each member of red tribe, the conservatives, will also have to make a choice in the
 years to come: do they believe in the founding principles encoded in the Bill of Rights
 and the Constitution, or will they simply enforce whatever edicts emanate from an
-increasingly malign US establishment — supporting statists in practice? Is their def-
-inition of “America” commensurate with a world where the US federal government is
-itself the most determined opponent of liberty, inflating away their savings, decon-
-structing conservative America’s culture, and surveilling them at all times? Or do they
+increasingly malign US establishment — supporting statists in practice? Is their definition of “America” commensurate with a world where the US federal government is
+itself the most determined opponent of liberty, inflating away their savings, deconstructing conservative America’s culture, and surveilling them at all times? Or do they
 believe American cities and states deserve digital self-determination? In short, will the
 American nation choose the decentralized Network or the centralized State?
 This will eventually be a conscious choice. Right now, it’s an unconscious three-way
-split. The three-legged stool of Reaganism — the religious conservatives, the secu-
-lar nationalists, and the internationalist capitalists — side with the God, State, and
+split. The three-legged stool of Reaganism — the religious conservatives, the secular nationalists, and the internationalist capitalists — side with the God, State, and
 Network Leviathans respectively.
 These are their primary identities, because they correspond to that thing which they
 think of as the most powerful force in the world: almighty God, the US military, or
@@ -3458,16 +3241,13 @@ Red God: Religious Conservatives
 During the Cold War, religious conservatives believed in an almighty God, unlike the
 “godless communists” they fought against. Today, the people of God among the reds
 have sharply reduced numbers, but their moral compass remains the man on high.
-Insofar as there is a religious revival, it may be driven by the One Commandment-
-based startup societies we describe later on.
+Insofar as there is a religious revival, it may be driven by the One Commandmentbased startup societies we describe later on.
 See Rod Dreher on the Protestants,
 Adrian Vermeule and Sohrab Ahmari on the Catholics, and Tablet’s Big Tent to get a
 sense of their views.
 Red State: Secular Nationalists
 The people of the State among the reds are more prominent.
-These are the secu-
-lar nationalists, the national security hawks, the people who may not like the left-
-authoritarians but who will nevertheless reflexively support the US in every foreign
+These are the secular nationalists, the national security hawks, the people who may not like the leftauthoritarians but who will nevertheless reflexively support the US in every foreign
 intervention. They may agree that the US is trending in a bad direction, but they
 think China is far worse. As such, they’re still building drones, coding surveillance,
 and cheering videos like this one where the US admits to fomenting the color revolutions
@@ -3494,14 +3274,12 @@ folks are like the Soviet soldiers that dutifully served in Afghanistan. You mig
 they’re fighting for a cause that is at best pointless and at worst evil, and that they’ll
 only come home to find their shelves empty and their culture crushed. . . but you have
 to acknowledge they’re risking their lives regardless.
-Fundamentally, the red secular nationalist often understands how bad the US estab-
-lishment is at home, but doesn’t want to hear about the needless destruction wreaked
+Fundamentally, the red secular nationalist often understands how bad the US establishment is at home, but doesn’t want to hear about the needless destruction wreaked
 by the US military abroad. In this they have the opposite set of blind spots from the
 blue left-libertarian, who can clearly see the ruin of countries unfortunate enough to
 experience a 21st century US “intervention,” yet imagines the same government that’s
 a chaotic destroyer abroad can become a benevolent redistributor at home.
-In other words, while the red secular nationalist maintains an implicit Hollywood-
-movie-style belief in a US military that can beat up anyone, the blue left-libertarian
+In other words, while the red secular nationalist maintains an implicit Hollywoodmovie-style belief in a US military that can beat up anyone, the blue left-libertarian
 persists in their belief that the State’s civilian government could fix anything at home
 if only enough people willed it. Using the lens of the Leviathans, these are both clearly
 ways the State becomes a stand-in for God, in its terrible Father and benevolent Mother
@@ -3515,8 +3293,6 @@ grow stronger.
 The short counterargument is that it may instead be best for countries to rearm, and
 take on their own defense – rather than having an increasingly chaotic US try to fight
 
-
-72
 CHAPTER 2. HISTORY AS TRAJECTORY
 a Second Cold War on others’ behalf in the middle of an internal Cold Civil War and
 what might become a Second Great Depression.
@@ -3554,8 +3330,7 @@ US establishment, but by some combination of political opposition, Constitutiona
 constraint, and bureaucratic incompetence.
 They keep trying, though. The US establishment isn’t organized enough to coordinate
 all the pieces, but unfortunately the recently captured Google, Amazon, Apple, and
-Microsoft are capable of that level of coordination, as we saw during the Parler deplat-
-forming, and the Tiananmen-like censorship of the “whistleblower.” So we’ll see what
+Microsoft are capable of that level of coordination, as we saw during the Parler deplatforming, and the Tiananmen-like censorship of the “whistleblower.” So we’ll see what
 happens.
 Now on the military point.
 
@@ -3591,11 +3366,9 @@ the price of constraining China’s lawful evil ambitions in East Asia should be
 for America’s chaotic evil interventions in the Middle East, that defending against a
 potential Chinese drone armada should mean acceptance of endless destabilization by
 the US military.
-Ideally there’s a third way, a better choice - and that third way may simply be decentral-
-ized defense, where countries like Japan and Germany re-arm, rather than outsourcing
+Ideally there’s a third way, a better choice - and that third way may simply be decentralized defense, where countries like Japan and Germany re-arm, rather than outsourcing
 everything to the US or folding to China. This has its own issues, of course — but if
-we’re moving back into the 1800s and 1700s, as per the Future is Our Past thesis, lim-
-ited wars between gold-limited great powers are arguably preferable to gigantic global
+we’re moving back into the 1800s and 1700s, as per the Future is Our Past thesis, limited wars between gold-limited great powers are arguably preferable to gigantic global
 conflicts between unlimited superpowers.
 In short: the secular American nationalist has an option that doesn’t involve either
 50No, Ukraine doesn’t count. The US military failed to deter, pushed the country into another
@@ -3605,20 +3378,16 @@ million Ukrainian refugees, their country blown to smithereens, thousands dead, 
 Europe, a radicalized Russian population, and the threat of WW3 or even nuclear war - this is just
 chaos, rather than competent deterrence.
 
-
-74
 CHAPTER 2. HISTORY AS TRAJECTORY
 capitulating to China or pretending the US military is currently achieving fruitful
 things abroad. That third way is to support regional rearmament rather than fighting
 everyone else’s wars on their behalf.
 Red Network: Internationalist Capitalists
-Getting back to our original topic, the third group within red tribe are the interna-
-tionalist capitalists. We identify them as people of the Network. This is arguably
+Getting back to our original topic, the third group within red tribe are the internationalist capitalists. We identify them as people of the Network. This is arguably
 something of a retcon, because the internet as we currently know it was barely a factor
 during the Cold War.51 However, this subgroup involved the folks in favor of commerce
 and trade networks, both within and across borders — the capitalists.
-Today, that kind of capitalism is almost synonymous with internet startups and tech-
-nology. The most valuable companies in the world were born on the Network. And
+Today, that kind of capitalism is almost synonymous with internet startups and technology. The most valuable companies in the world were born on the Network. And
 the future of network capitalism is crypto-capitalism, because it’s not just transactions
 that can be represented on-chain — it’s entire financial statements, and companies
 themselves, and eventually the entire economy.
@@ -3627,8 +3396,7 @@ about their Leviathan, something distinct from both God and the State. Because B
 cannot be seized with one click by either the US or Chinese governments, it’s a symbol
 of international freedom and prosperity that is more powerful than any State.
 On balance, I’m sympathetic to this group as well, but it has its own internal issues.
-For one thing, Bitcoin Maximalism in particular is similar to Woke Capital in its funda-
-mentalism. The main difference is that maximalism is zealous mononumism (devotion
+For one thing, Bitcoin Maximalism in particular is similar to Woke Capital in its fundamentalism. The main difference is that maximalism is zealous mononumism (devotion
 to a single coin) rather than monotheism (a single god) or monostatism (a single state).
 The Network doesn’t make the fanatical aspect of humanity vanish; it just moves it
 from God or the State to the Network.
@@ -3653,15 +3421,12 @@ empire depends on the ability to continually inflate, the people of the State ma
 with the legacy state, and the people of the Network will side with the decentralized
 network.52 So, that’s the Network-vs-State division within red tribe.
 The Realignment
-If we add up all these pieces, we get a possible future where the left- and right-
-libertarians from both parties line up against the left- and right-authoritarians.
-We’re already starting to see this if we look at Substack vs establishment journal-
-ists, Tucker Carlson and Glenn Greenwald vs Fox News/NYT, BTC vs USD, web3 vs
+If we add up all these pieces, we get a possible future where the left- and rightlibertarians from both parties line up against the left- and right-authoritarians.
+We’re already starting to see this if we look at Substack vs establishment journalists, Tucker Carlson and Glenn Greenwald vs Fox News/NYT, BTC vs USD, web3 vs
 Big Tech, the migration of ethnic minorities to the Republicans and the migration of
 neoconservatives to the Democrats.
 People have talked about zombie Reaganism, but in this scenario a new coalition would
-be finally popping into view. And it’s a totally different carving of the political spec-
-trum than the Reagan era. Rather than nationalists and capitalists (the right) against
+be finally popping into view. And it’s a totally different carving of the political spectrum than the Reagan era. Rather than nationalists and capitalists (the right) against
 internationalists and socialists (the left), it’s internationalists and capitalists (left- and
 right-libertarians) against socialists and nationalists (left- and right-authoritarians).53
 That Realignment would be the Network against the State. The authoritarians would
@@ -3672,8 +3437,7 @@ and they’d also draw support from the rest of the world.
 Tech vs Media, aka PC vs PC
 Let’s switch gears here and apply the lens of the Leviathans to a different conflict.
 Why are global technology and the US establishment at odds?
-• Economics. You can say it’s because technology disrupted everything from Madi-
-son Avenue to Hollywood, as argued here. Looking at just the 80% drop in US
+• Economics. You can say it’s because technology disrupted everything from Madison Avenue to Hollywood, as argued here. Looking at just the 80% drop in US
 media revenue alone from 2008 to 2012, it’s hard to believe that wasn’t a factor.
 • Geography. You could note that the pre-2020 center of technology was Silicon
 Valley, which is 3000 miles away from the Bos-Wash corridor that houses the US
@@ -3686,18 +3450,13 @@ towards their tech disruptors.
 52Where do the red people of God land up? Well, it’s a wildcard, but some will stick with the
 devil they know, the state they grew up with, while others may bet on Bitcoin to enable the Benedict
 Option and opt out of a sinful society.
-53In the language of the political compass, the Reagan era was right-vs-left, whereas the Network-
-vs-State era would be top vs bottom.
+53In the language of the political compass, the Reagan era was right-vs-left, whereas the Networkvs-State era would be top vs bottom.
 
-
-76
 CHAPTER 2. HISTORY AS TRAJECTORY
-• Psychology. You can contend it’s due to a psychological difference between techni-
-cal/financial types vs social/political elites, between people who focus on what is
+• Psychology. You can contend it’s due to a psychological difference between technical/financial types vs social/political elites, between people who focus on what is
 true versus those who care about what is popular. This relates to the distinction
 between technical and political truths.
-• Metabolism. You might observe that the rivalry is particularly pronounced be-
-tween US tech and media. The other arms of the US establishment, like academia,
+• Metabolism. You might observe that the rivalry is particularly pronounced between US tech and media. The other arms of the US establishment, like academia,
 Hollywood, and government all needed multi-year cycles to ship anything, while
 only the news media had the 24/7 metabolism to match tech’s DNA. So they
 became the point of the spear for the US establishment’s counterattack. This
@@ -3710,8 +3469,7 @@ US itself was a fork of the British Empire. It’s the same root, different bran
 The ambitious intellectual who would in a previous life have become an academic
 theorist, jurist, or journalist is now a founder, engineer, or investor.54 Because
 there’s a common thread between media and tech, which is the handling and
-presentation of information. Computer science took it one step further: it col-
-lapsed the distinction between the word and the deed, and turned a generation
+presentation of information. Computer science took it one step further: it collapsed the distinction between the word and the deed, and turned a generation
 of intellectuals into software CEOs. Many people who previously thought they’d
 just advocate for a law to be passed and not worry about the details found out
 how hard it was to build things, to manage people, to turn a profit, to be the
@@ -3719,11 +3477,9 @@ one in the arena. They became people of the Network. And then they came into
 conflict with those who remained people of the State.
 All of these are factors. But the last one probably gets to the root of the issue, because
 fundamentally, tech-vs-media is a clash of Leviathans.
-After all, the immigrant technologist moves between countries while keeping their tech-
-nical skills and network connections. For them, the Network provides their primary
+After all, the immigrant technologist moves between countries while keeping their technical skills and network connections. For them, the Network provides their primary
 community, while the State is secondary. Conversely, the American establishmentarian
-gains their power from the State. It is all about passing a law or influencing a pol-
-icymaker. And if the Network interferes with this process, perhaps by giving people
+gains their power from the State. It is all about passing a law or influencing a policymaker. And if the Network interferes with this process, perhaps by giving people
 access to information that undermines the State? Then so much for the Network.
 Tech-vs-media is then best understood as a collision of fundamental values, between
 the people of the Network and the people of the State.
@@ -3747,8 +3503,7 @@ people of the State the first recourse is passing laws and collective coercion.
 Put another way, the people of the Network start by thinking about getting a piece
 of the network to call their own. A domain name, something they can build up from
 scratch, starting with a bare website like reddit.com and ending up with a massive
-online destination that everyone voluntarily seeks out. The primary goal of the tech-
-nological progressive, the tech founder is to build — and for no one to have power over
+online destination that everyone voluntarily seeks out. The primary goal of the technological progressive, the tech founder is to build — and for no one to have power over
 them.
 By contrast the people of the State start by thinking about capturing a piece of the
 state. To win an election, to influence legislation via a nonprofit, to write an article
@@ -3779,8 +3534,6 @@ a global scale. (Local and state governments in the US may respond differently, 
 is an intriguing twist).
 The same thing is also happening in China, by the way, where many of the most able
 
-
-78
 CHAPTER 2. HISTORY AS TRAJECTORY
 technologists are now alighting for new countries — and no longer coming to the US,
 where they aren’t welcome anyway.
@@ -3825,8 +3578,7 @@ prior to the founding of NSF, and therefore doesn’t need NSF to exist.
 
 2.5. PEOPLE OF GOD, PEOPLE OF THE STATE, PEOPLE OF THE NETWORK79
 • It further doesn’t acknowledge that it was possible to do science and technology
-before the massive centralized state, through the distributed model of the “gen-
-tleman scientist,” and that this model is returning in the form of open source and
+before the massive centralized state, through the distributed model of the “gentleman scientist,” and that this model is returning in the form of open source and
 (now) decentralized science.
 • It doesn’t take into account the waxing and waning of centralized state capacity
 due to technology.
@@ -3835,8 +3587,7 @@ that happened during the post-1970 period, which Thiel, Cowen, and J Storrs
 Hall have all documented.
 • It doesn’t look at how difficult VC or angel investing actually is, so it doesn’t
 really ask whether those “investments” by the state had real returns.
-• Most importantly, it doesn’t engage with the counterfactual of what would hap-
-pen if we had many independent funding sources, rather than a single centralized
+• Most importantly, it doesn’t engage with the counterfactual of what would happen if we had many independent funding sources, rather than a single centralized
 state.
 So, it’s true that there was a period mid-century where all other actors besides the US
 and USSR were squashed down and centralized states dominated innovation. But it’s
@@ -3858,14 +3609,11 @@ Indeed, that’s why people wrote books like The God that Failed when they turne
 from communism. A Leviathan had given up the ghost. Whether that Leviathan was
 God itself or the State, it was a crushing collapse of faith. As per the book of the same
 title, Everything Was Forever, Until It Was No More.
-This offers a useful way of thinking about the blue and red statists alike, the left-
-authoritarians and the secular nationalists we discussed earlier. The American State is
+This offers a useful way of thinking about the blue and red statists alike, the leftauthoritarians and the secular nationalists we discussed earlier. The American State is
 55Not all prophecies fail, though. JFK did get a man on the moon prior to 1969. Einstein was
 correct that an atomic bomb could be built. Elon Musk did manage to get reusable rockets to work.
 The best technological prophecies are anchored in physical feasibility, not just human belief.
 
-
-80
 CHAPTER 2. HISTORY AS TRAJECTORY
 their God replacement, and they truly can’t envision a world without it. Whether they
 think of it in terms of “the Constitution” (the conservative framing) or “our democracy”
@@ -3881,11 +3629,9 @@ contract back down.
 • The second idea is the premise that historical time is far longer than human time.
 We live on a tiny piece of a grand historical curve, a trajectory that looks flat to
 us over months and years, because historical time (usually) moves slowly.
-• The third idea is what Tyler Cowen diplomatically calls a “base-rater”, the es-
-tablishment type who essentially thinks everything remains constant. This is the
+• The third idea is what Tyler Cowen diplomatically calls a “base-rater”, the establishment type who essentially thinks everything remains constant. This is the
 kind of person who’ll sardonically remarks “Oh, this time is different, huh?”, not
-realizing that (a) they’re quoting that statement out of context, and (b) the ob-
-viously fallacious opposite of that saying is the assertion that “things will never
+realizing that (a) they’re quoting that statement out of context, and (b) the obviously fallacious opposite of that saying is the assertion that “things will never
 change.”
 Put these ideas together and you start to get a mental model of the base-raters, the
 blue and red statists. They think everything will always stay the same, that it’ll stick
@@ -3910,7 +3656,7 @@ the US establishment’s victory over all opponents is now very much in question
 
 
 2.6. IF THE NEWS IS FAKE, IMAGINE HISTORY
-81
+
 outside and inside the US, there’s the sense that the US-dominated postwar order is
 either on its last legs or already over, and that the ancient legislators and endless
 remakes reflect a fading culture trying to hang on by its fingernails to prevent what
@@ -3952,8 +3698,6 @@ Not that Far-Fetched (Bloomberg/WaPo 2021) and How Seriously Should We Take Talk
 Secession (Brookings 2021).
 57See Bitcoin is Civilization and Great Protocol Politics for theses on domestic and foreign policy.
 
-
-82
 CHAPTER 2. HISTORY AS TRAJECTORY
 2.6.1
 Distortion of the Present
@@ -3972,10 +3716,8 @@ after the Mueller report?
 • Remember when the NYT said Hillary Clinton had a 91% chance to win, giving
 the strong impression that the 2016 election wasn’t even close?
 • Remember the detailed, emotional, multipart Caliphate podcast, endorsed by
-Sam Dolnick, a senior member of The New York Times Company’s ruling Ochs-
-Sulzberger family, which turned out to be completely fake?
-• Remember the Miles Taylor episode, where a junior functionary was falsely rep-
-resented as a senior administration official?
+Sam Dolnick, a senior member of The New York Times Company’s ruling OchsSulzberger family, which turned out to be completely fake?
+• Remember the Miles Taylor episode, where a junior functionary was falsely represented as a senior administration official?
 • Remember when Sulzberger’s employees published editorial after editorial against
 free speech, before they pretended they were for it, before they opposed it again?
 • Remember when they said YouTube’s remaining freedom of speech was a bad
@@ -3995,12 +3737,11 @@ that inflation would be transitory?
 
 
 2.6. IF THE NEWS IS FAKE, IMAGINE HISTORY
-83
+
 • And remember when there was minimal mainstream coverage of the 2017 battle
 for Mosul, the world’s largest military operation since the invasion of Iraq in 2003,
 the war that Obama was supposed to have ended?
-You probably didn’t remember that last one, mainly because there was minimal cov-
-erage, but watch this and then ask why you’ve never heard of it before.
+You probably didn’t remember that last one, mainly because there was minimal coverage, but watch this and then ask why you’ve never heard of it before.
 In each of these cases, we have something predicted to go to zero that ends up at
 millions, or a certainty that winds up a nullity, or a hot war featuring the US military
 and 482 suicide car bombings that somehow registered on the public consciousness as
@@ -4038,8 +3779,6 @@ reports were off not by say 50%, but by 1000X or more. Why do these “reporters
 have their jobs, then? Because their job wasn’t to make money, but to make power.
 That is, they weren’t trying to predict the future correctly for the sake of making good
 
-
-84
 CHAPTER 2. HISTORY AS TRAJECTORY
 investments, but to repeat the party line to keep people in line. They’re like actors, in
 that their role was to say (or write) the right thing at the right time, to manufacture
@@ -4071,8 +3810,7 @@ information around the State, giving people actual rather than ostensible freedo
 speech.
 The Network Delivered Actual Freedom of Speech
 We elaborate on this in the Fragmentation Thesis, but the Network is accelerating a
-great decentralization of Western society that began shortly after the peak centraliza-
-tion of about 1950.
+great decentralization of Western society that began shortly after the peak centralization of about 1950.
 Towards the end of this process, in our current era, the US establishment got so fat
 and happy that it forgot how aggressive its predecessors had been in imposing speech
 and thought controls. Basically, the establishment didn’t realize they’d inherited a
@@ -4084,17 +3822,15 @@ and have it too — enjoying the rhetorical windfall of claiming to have a free 
 
 
 2.6. IF THE NEWS IS FAKE, IMAGINE HISTORY
-85
+
 while in practice holding an enormous distribution advantage over the common man
 (“never argue with a man who buys ink by the barrel”).
 Now, it was true that the US was more free than the USSR, but it is not true that
-the US was more free than the Internet. As we discuss later, social media is Amer-
-ican glasnost and cryptocurrency is American perestroika. So as the internet scaled,
+the US was more free than the Internet. As we discuss later, social media is American glasnost and cryptocurrency is American perestroika. So as the internet scaled,
 and Americans actually got the rights to free speech and free markets that they were
 nominally promised, the establishment started to feel threatened.
 Why? Because while speech only influences volitional behavior (like voting), volitional
-behavior in turn influences coercive behavior (like legislating). So, if the US establish-
-ment lost control over speech they would have lost control over everything.
+behavior in turn influences coercive behavior (like legislating). So, if the US establishment lost control over speech they would have lost control over everything.
 The Establishment Launched the Counter-Decentralization
 Thus began the great Counter-Decentralization in 2013, the techlash plus the Great
 Awokening, what Jack Bratich calls a “war of restoration” by an establishment that
@@ -4125,8 +3861,6 @@ US itself.
 concern over Russia as late as 2012, mocked Trump’s emphasis on China in 2015, and even produced
 the relatively pro-China movie American Factory in late 2019.
 
-
-86
 CHAPTER 2. HISTORY AS TRAJECTORY
 2.6.2
 Distortion of the Past
@@ -4173,12 +3907,11 @@ wasn’t done wholly by Russians, but had significant foreign involvement from
 
 
 2.6. IF THE NEWS IS FAKE, IMAGINE HISTORY
-87
+
 Germans and Americans.
 • The Ochs-Sulzberger family, which owns The New York Times Company, owned
 slaves but didn’t report that fact in their 1619 coverage.
-• New York Times correspondent Walter Duranty won a Pulitzer Prize for help-
-ing the Soviet Union starve Ukraine into submission, 90 years before the Times
+• New York Times correspondent Walter Duranty won a Pulitzer Prize for helping the Soviet Union starve Ukraine into submission, 90 years before the Times
 decided to instead “stand with Ukraine.”
 • Herbert Matthews, also a New York Times correspondent, helped Castro win
 power in Cuba, leading to the murderous Cuban revolution and the subsequent
@@ -4204,8 +3937,7 @@ the direction of the Nazi assault.
 in Illinois helped rig the 1960 election, an unmentioned scandal a full decade
 before Watergate.
 And that’s just59 the 20th century, with a focus on the Cold War!
-Once you start seeing that many dissonant facts, plenty of them from the same or-
-ganizations like The New York Times Company that call themselves the “paper of
+Once you start seeing that many dissonant facts, plenty of them from the same organizations like The New York Times Company that call themselves the “paper of
 record” and the “first draft of history,” that literally run billboards calling themselves
 the “Truth”. . . you start to realize that there is an unreliable narrator problem.
 59The establishment’s hostility to technology has been a constant as well.
@@ -4213,11 +3945,8 @@ Here are their early
 denunciations of aviation (airplanes will never happen in a million years!) and rocketry (Goddard
 doesn’t know physics!).
 
-
-88
 CHAPTER 2. HISTORY AS TRAJECTORY
-What if Sulzberger is more like Keyser Söze? What if his employees are highly self-
-interested professional prevaricators? What if they’ve always been like that? What
+What if Sulzberger is more like Keyser Söze? What if his employees are highly selfinterested professional prevaricators? What if they’ve always been like that? What
 if you can’t trust anything they say, and by extension anything the US establishment
 says, without checking it yourself?
 As the Cold War ended, and the internet rose in the late 1990s, a spate of movies
@@ -4231,9 +3960,7 @@ Just like someone who grew up in China and migrated to the US in adulthood would
 find that they’d have been lied to — that Mao wasn’t really “7 parts good and 3 parts
 bad,” but far worse than that — those who grew up in the US and migrated to the
 Internet in adulthood are starting to realize that something is up.
-The reason is that the American establishment didn’t really understand what the inter-
-net would mean for them. Because during the 20th century they’d made obvious-but-
-threatening truths, like the existence of Soviet spies in the US, rude to talk about. Then
+The reason is that the American establishment didn’t really understand what the internet would mean for them. Because during the 20th century they’d made obvious-butthreatening truths, like the existence of Soviet spies in the US, rude to talk about. Then
 a progression happened: after the obvious became rude, the rude became unsayable,
 the unsayable became unthinkable, and the unthinkable went unthought. And once it
 went unthought, it was no longer even thought about as a potential threat. Moreover,
@@ -4245,8 +3972,7 @@ on the internet. Whether Google Books or Wikileaks or the Soviet archives or the
 censorship-resistant web, there are now too many secrets in plain view.
 The question now is whether a newly awakened US establishment can use its control
 of chokepoints like Google and its various “fact-checkers” to suppress access to these
-inconvenient truths, or whether web3-mediated services will make it permanently dif-
-ficult for the State to suppress the Network. You as the reader may have some input
+inconvenient truths, or whether web3-mediated services will make it permanently difficult for the State to suppress the Network. You as the reader may have some input
 on that.
 2.6.3
 Jurassic Ballpark
@@ -4259,21 +3985,18 @@ Let’s call this phenomenon “Jurassic Ballpark.” If you recall the scene fr
 
 
 2.6. IF THE NEWS IS FAKE, IMAGINE HISTORY
-89
+
 Park where they splice in amphibian DNA to spackle over the gaps in their genetic
 reconstruction, that’s similar to what media consumption has done to your brain.60
 You’re unconsciously splicing movie scenes into real-life as a ballpark approximation.
 The gaps in your knowledge have been filled in by TV and movies. These are unreliable
 narrators. For example:
-• What’s your image of the US military? Often something from Top Gun or Trans-
-formers. Even the negative portrayals depict it as all-powerful.61
-• What’s it like to run a business? The evil CEO is a TV trope. Countless sto-
-ries cast a corporation with limitless resources62 as the main bad guy, from the
+• What’s your image of the US military? Often something from Top Gun or Transformers. Even the negative portrayals depict it as all-powerful.61
+• What’s it like to run a business? The evil CEO is a TV trope. Countless stories cast a corporation with limitless resources62 as the main bad guy, from the
 Terminator franchise to Lost.
 • Who’s going to save us from the virus? Why, the competent public servants at
 the CDC, as portrayed in Contagion.
-By contrast, you very rarely see depictions of journalists, activists, professors, regula-
-tors, and the like as bad guys. The public lacks televised narratives for how people in
+By contrast, you very rarely see depictions of journalists, activists, professors, regulators, and the like as bad guys. The public lacks televised narratives for how people in
 those roles can go wrong. That’s why the behavior of journalists in real life was such
 a surprise to Paul Graham:
 One of the biggest surprises of my adult life is how unethical reporters are.
@@ -4303,8 +4026,6 @@ John Reed (Lenin’s journalist), Walter Duranty (Stalin’s journalist), Edgar 
 Herbert Matthews (Castro’s journalist), and Pham Xuan An & David Halberstam (Ho Chi Minh’s
 journalists).
 
-
-90
 CHAPTER 2. HISTORY AS TRAJECTORY
 There are exceptions. Once in a while you do see a House of Cards that depicts evil
 nonprofits, Democrats, and journalists. Once in a while you do get a Dallas Buyers
@@ -4349,20 +4070,18 @@ the centralized power of the 20th century is actually historically aberrant.
 
 
 2.6. IF THE NEWS IS FAKE, IMAGINE HISTORY
-91
+
 • Ray Dalio: Principles of the Changing Economic Order — how today’s America
 resembles the Dutch and British empires of the past in terms of its monetary
 overextension.
 • Peter Turchin: War and Peace and War — how quantitative methods can identify
 recurrent cycles.
 • William Strauss and Neil Howe: The Fourth Turning — how a cyclic theory of
-history forecasts a serious American conflict in the 2020s (written in the mid-
-1990s).
+history forecasts a serious American conflict in the 2020s (written in the mid1990s).
 • Brian McCullough: How the Internet Happened: From Netscape to the iPhone —
 reminds us that the tech era is very new, only really about 10 years old, and only
 began in earnest with iPhone adoption.
-• Kai-Fu Lee: AI Superpowers — how the recent history of the Chinese tech build-
-out in the 2010s shows that they aren’t just copycats.
+• Kai-Fu Lee: AI Superpowers — how the recent history of the Chinese tech buildout in the 2010s shows that they aren’t just copycats.
 Then, some reading on 20th Century history:
 • Curtis Yarvin: Unqualified Reservations — a broad survey of Western historical
 anomalies, with a focus on the 20th and 19th centuries.
@@ -4376,8 +4095,7 @@ of a how-to manual.
 • Antony C. Sutton: Wall Street and the Bolshevik Revolution and Wall Street and
 the Rise of Hitler — how different groups of capitalists funded the communist
 and fascist revolutions respectively.
-• Ashley Rindsberg: The Gray Lady Winked — how The New York Times system-
-atically misrepresented the truth over the 20th century.
+• Ashley Rindsberg: The Gray Lady Winked — how The New York Times systematically misrepresented the truth over the 20th century.
 • Nicholson Baker: Human Smoke — how World War 2 was far more brutal and
 confusing than conventionally conveyed in textbooks.
 • Sean McMeekin: Stalin’s War — how Stalin drove WW2, and (among other
@@ -4385,11 +4103,8 @@ things) sought to push Japan and the US into conflict so he wouldn’t have to
 fight either of them.
 • Viktor Suvorov: The Chief Culprit — how Stalin was preparing to attack Hitler
 prior to Hitler’s attack on Stalin; vindicated by some of McMeekin’s work.
-• John Earl Haynes and Harvey Klehr: Venona and Diana West: American Be-
-trayal — how the US was indeed riddled with communist spies before and after
+• John Earl Haynes and Harvey Klehr: Venona and Diana West: American Betrayal — how the US was indeed riddled with communist spies before and after
 
-
-92
 CHAPTER 2. HISTORY AS TRAJECTORY
 World War 2.
 • Kenneth Ackerman: Trotsky in New York and Sean McMeekin: The Russian
@@ -4398,12 +4113,10 @@ the German High Command in WW1.
 • Ioan Grillo: El Narco — Inside Mexico’s Criminal Insurgency — how Mexico is
 far more beset by violence than commonly understood, and how this relates to
 recent American influence.
-• Wolfgang Schivelbush: Three New Deals — how Roosevelt’s New Deal was di-
-rectly inspired by fascist Italy and Germany.
+• Wolfgang Schivelbush: Three New Deals — how Roosevelt’s New Deal was directly inspired by fascist Italy and Germany.
 • Stephen Kotkin: 5 Questions for Stephen Kotkin — how the Soviets were in the
 final analysis actually devout communists, not cynics.
-• Frank Dikötter: The Cultural Revolution — how Mao’s cultural revolution re-
-sembles the wokeness of modern America, with the BLM riots of 2020 proving
+• Frank Dikötter: The Cultural Revolution — how Mao’s cultural revolution resembles the wokeness of modern America, with the BLM riots of 2020 proving
 particularly similar.
 • Cixin Liu: The Three Body Problem — while fictional, the first chapter of this
 book illustrates the madness unleashed under Maoism, and what the Chinese
@@ -4413,13 +4126,11 @@ China.
 America in the 1970s involved far more violent acts and domestic terrorism than
 is commonly remembered.
 • William H. Whyte: The Organization Man and James Burnham: The Managerial
-Revolution — how the US in the 1950s was much more corporatist and signifi-
-cantly less capitalist than is popularly remembered.
+Revolution — how the US in the 1950s was much more corporatist and significantly less capitalist than is popularly remembered.
 • Stephen Wertheim: Tomorrow, the World; The Birth of US Global Supremacy —
 how the US did not achieve world domination by accident, but intentionally set
 out to do so.
-• Amity Shlaes: The Forgotten Man — how FDR’s “bold, persistent experimenta-
-tion” helped turn a recession into a Great Depression.
+• Amity Shlaes: The Forgotten Man — how FDR’s “bold, persistent experimentation” helped turn a recession into a Great Depression.
 • Adam Fergusson: When Money Dies and Mel Gordon: Voluptuous Panic — the
 monetary and cultural character of the Weimar Republic, and how it resembles
 present day America.
@@ -4472,8 +4183,6 @@ but that do center certain universal values - and that give a bridge between Ame
 and what comes next, as America itself was a bridge between the British Empire and
 the post-WW2 world.
 
-
-94
 CHAPTER 2. HISTORY AS TRAJECTORY
 We give four concrete examples in this chapter. But to be clear, just because a story
 decenters America doesn’t mean it has to be punitive. That is, these stories don’t
@@ -4501,12 +4210,9 @@ the US didn’t yet exist, and thereby prepare us for a post-American period whe
 US in its current form no longer exists.
 2.7.1
 The Fragmentation Thesis
-The Sovereign Individual, written in 1999, is an incredible book that nailed many as-
-pects of our digital future decades in advance, Bitcoin prime among them. We won’t
-recapitulate the whole thing here, but in short the thesis is that after many genera-
-tions in which technology favored centralization (railroads, telegraph, radio, television,
-movies, mass production) since about 1950 it is now favoring decentralization (transis-
-tor, personal computer, internet, remote work, smartphone, cryptocurrency).
+The Sovereign Individual, written in 1999, is an incredible book that nailed many aspects of our digital future decades in advance, Bitcoin prime among them. We won’t
+recapitulate the whole thing here, but in short the thesis is that after many generations in which technology favored centralization (railroads, telegraph, radio, television,
+movies, mass production) since about 1950 it is now favoring decentralization (transistor, personal computer, internet, remote work, smartphone, cryptocurrency).
 So by this measure, peak centralization was about 1950, when there was one
 telephone company (AT&T), two superpowers (US/USSR), and three TV stations
 (ABC/CBS/NBC). Even though the 1950s are romanticized in the US, and there were
@@ -4522,8 +4228,7 @@ Read William H. Whyte’s The Organization Man or James Burnham’s Managerial
 Revolution for a portrait of this midcentury time period. At the time, the mid-century
 US was more corporatist than entrepreneurial. Yes, the system was capitalism, but
 a highly managed and regulated sort of capitalism. It was all about joining the big
-company and working your way up, not founding one, except for the rare and just be-
-ginning startup phenomenon on the West Coast, which was a million-fold less common
+company and working your way up, not founding one, except for the rare and just beginning startup phenomenon on the West Coast, which was a million-fold less common
 than it is now.
 Everything was significantly to the economic left and social right of where it is today.
 Yes, the USA wasn’t communist, but it did have 90% top marginal tax rates, to stop
@@ -4536,8 +4241,7 @@ establishment sources only. That situation actually did obtain in the mid-centur
 when tens of millions of Americans all assembled in their living rooms at the same time
 to watch I Love Lucy.
 Then it all decentralized, fragmented. The story is told in essays like Paul Graham’s
-“Refragmentation,” and in The Sovereign Individual. And we call this the Fragmenta-
-tion thesis.
+“Refragmentation,” and in The Sovereign Individual. And we call this the Fragmentation thesis.
 2.7.2
 The Frontier Thesis
 In the late 1800s, Fredrick Jackson Turner gave an influential talk on the concept of
@@ -4560,8 +4264,6 @@ technological edge they did invade Europe and (b) many North American tribes wer
 by contemporaneous accounts people accustomed to war. So, it’s old-fashioned, but it’s
 65Note again how history informs morality!
 
-
-96
 CHAPTER 2. HISTORY AS TRAJECTORY
 probably healthier to think of the Native Americans more like the 300 Spartans than
 as helpless victims — brave warriors who fought valiantly but lost to superior forces.
@@ -4577,33 +4279,27 @@ by the Ottoman blockade of the Eastern Mediterranean; it was an attempt to find 
 alternative path to India around the Ottomans, but it ended up using technology to
 reopen the frontier in the face of political roadblocks.
 From 1492 to 1890, Europeans had what they considered a frontier. It started with
-transatlantic navigation and the discovery of the New World, then proceeded to Euro-
-pean colonialism, and from there to the independence of the US and Western expansion
+transatlantic navigation and the discovery of the New World, then proceeded to European colonialism, and from there to the independence of the US and Western expansion
 via Manifest Destiny. Towards the end of this period, authors like Charles Nordhoff
 in Communistic Societies of the United States noted how important the frontier was,
 how bad it would be if that avenue for ambitious men was closed off, and how nasty
 the Trade-Unionists were getting.
 Hitherto, in the United States, our cheap and fertile lands have acted as
-an important safety-valve for the enterprise and discontent of our non-
-capitalist population. Every hired workman knows that if he chooses to use
-economy and industry in his calling, he may without great or insurmount-
-able difficulty establish himself in independence on the public lands; and,
+an important safety-valve for the enterprise and discontent of our noncapitalist population. Every hired workman knows that if he chooses to use
+economy and industry in his calling, he may without great or insurmountable difficulty establish himself in independence on the public lands; and,
 in fact, a large proportion of our most energetic and intelligent mechanics
 do constantly seek these lands. . .
 I do not doubt that the eagerness of some of our wisest public men for
 the acquisition of new territory has arisen from their conviction that this
 opening for the independence of laboring men was essential to the security
 of our future as a free and peaceful state. . .
-Any circumstance, as the exhaustion of these lands, which should materi-
-ally impair this opportunity for independence, would be, I believe, a serious
-calamity to our country; and the spirit of the Trades-Unions and Interna-
-tional Societies appears to me peculiarly mischievous and hateful, because
+Any circumstance, as the exhaustion of these lands, which should materially impair this opportunity for independence, would be, I believe, a serious
+calamity to our country; and the spirit of the Trades-Unions and International Societies appears to me peculiarly mischievous and hateful, because
 they seek to eliminate from the thoughts of their adherents the hope or
 expectation of independence. The member of a Trades-Union is taught to
 regard himself, and to act toward society, as a hireling for life; and these
 societies are united, not as men seeking a way to exchange dependence for
-independence, but as hirelings, determined to remain such, and only de-
-manding better conditions of their masters. If it were possible to infuse
+independence, but as hirelings, determined to remain such, and only demanding better conditions of their masters. If it were possible to infuse
 
 
 2.7. FRAGMENTATION, FRONTIER, FOURTH TURNING, FUTURE IS OUR PAST97
@@ -4613,8 +4309,7 @@ could befall us as a nation; for it would degrade the mass of our voters,
 and make free government here very difficult, if it did not entirely change
 the form of our government, and expose us to lasting disorders and attacks
 upon property.
-Nordhoff was right. The aggression of the Trade-Unions eventually led to the commu-
-nist revolutions which killed tens of millions of people globally, led to “lasting disorders
+Nordhoff was right. The aggression of the Trade-Unions eventually led to the communist revolutions which killed tens of millions of people globally, led to “lasting disorders
 and attacks upon property”, and generally became the bane of the world.
 We can attribute some of this to the pause, to the closing of the frontier in 1890.
 That closing took away paths for ambitious men, and ensured that they couldn’t easily
@@ -4645,8 +4340,6 @@ able to escape these political roadblocks and (f) reopen not just a digital fron
 a physical one: on remote pieces of land, on the sea, and eventually in space. This is
 what we refer to as the generalized Frontier thesis.
 
-
-98
 CHAPTER 2. HISTORY AS TRAJECTORY
 2.7.3
 The Fourth Turning Thesis
@@ -4654,8 +4347,7 @@ The Fourth Turning and Ages of Discord both predict very significant unrest with
 the US in the coming years. Ray Dalio does as well in Principles for Dealing with
 the Changing World Order, though he confines most of his comments to monetary
 apocalypse. Their models are somewhat related.
-The Fourth Turning came out in 1997 and is based on a quasi-cyclical theory of Anglo-
-American history, where conflict erupts roughly every 75 years. If you believe in these
+The Fourth Turning came out in 1997 and is based on a quasi-cyclical theory of AngloAmerican history, where conflict erupts roughly every 75 years. If you believe in these
 patterns and want a possible underlying driver of them, 75 years is about one long
 human lifespan. So perhaps those who do not remember66 history really are doomed
 to repeat it.
@@ -4677,8 +4369,7 @@ Take a look at this video of unmixing a fluid. Isn’t that bizarre? You can see
 same process going backward in time, in an unexpected way. This is not the kind of
 trajectory we expect to see, but it happens under certain conditions.
 And it’s one model for what’s happening in the world, as we redecentralize after a
-century of centralization. In other words, an important consequence of the fragmen-
-tation thesis is that our future may be more like our past. If peak centralization was
+century of centralization. In other words, an important consequence of the fragmentation thesis is that our future may be more like our past. If peak centralization was
 around 1950, with one telephone company (AT&T) and two superpowers (US, USSR)
 and three television stations (ABC, CBS, NBC), we grow more decentralized as we
 move in either direction from that point.
@@ -4699,8 +4390,7 @@ people.
 • Today, founders like Elon Musk and Jack Dorsey seem to be winning against
 establishment journalists; back then, the likes of Ida Tarbell demagogued and
 defeated Rockefeller.
-• Today, we have cryptocurrencies; back then we witnessed the era of private bank-
-ing.
+• Today, we have cryptocurrencies; back then we witnessed the era of private banking.
 • Today, we have a populist movement of digital gold advocates; back then, we had
 a populist movement against gold in the form of the Cross of Gold speech.
 • Today, we have the inflation and cultural conflict of Weimar America; back then,
@@ -4718,8 +4408,7 @@ we had what we now know to be antebellum polarization.
 then, The New York Times sided with communist Russia to starve out Ukraine.
 • Today, we see the transition from “neutral” to yellow journalism; back then, we
 saw the transition from yellow to “neutral” journalism.
-• Today, figures like Mike Moritz think of China as energetic and America as la-
-conic, but back then folks like Bertrand Russell thought of America as energetic
+• Today, figures like Mike Moritz think of China as energetic and America as laconic, but back then folks like Bertrand Russell thought of America as energetic
 and China as laconic.
 We can think of more examples, with respect to the emerging Second Cold War.
 • Today, we’re seeing the Chinese and Russians again line up against the West,
@@ -4728,8 +4417,6 @@ except this time, the Chinese are the senior partner in the relationship.
 time rather than being the “Third World” and non-aligned, it may be “Web3” and
 economically aligned.
 
-
-100
 CHAPTER 2. HISTORY AS TRAJECTORY
 • And today, depending on how the economics play out, that third faction may
 come in first, the Second World may come in second, and the former First World
@@ -4773,7 +4460,7 @@ Anyway, this model would explain why we’re seeing an inversion: there was an u
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-101
+
 arc that favored the centralized State, but now we’re in the middle of a downward arc
 that favors the decentralized Network.67 So various historical events are recurring with
 the opposite results, like the fluid flowing in reverse. And that’s the thesis on how our
@@ -4791,8 +4478,7 @@ Social differentiation means being revolutionary in some sense. Not necessarily 
 sense of the Paris Commune. But morally revolutionary in the sense of inverting some
 premise that society at large thinks is good, yet that you can show — through your
 meticulous study of history — is actually bad.68 That moral inversion is the moral
-innovation that’s the basis for a startup society, and it leads us ineluctably to left-vs-
-right.
+innovation that’s the basis for a startup society, and it leads us ineluctably to left-vsright.
 2.8.1
 Why Discuss Left and Right at All?
 Wait. Can’t we just do technology without politics, or use technology to escape politics?
@@ -4805,8 +4491,7 @@ technology to learn business, the startup society founders of the 2020s need to 
 history and politics to their curriculum. Because a theory of left and right is necessary
 for nation formation.
 Our theory begins by discussing the split between visions of moral and technological
-progress, the analogy between political and financial arbitrage, the market for revolu-
-67In the West, at least. The East is a different matter! It’s a whole essay in its own right, but the
+progress, the analogy between political and financial arbitrage, the market for revolu67In the West, at least. The East is a different matter! It’s a whole essay in its own right, but the
 future may be a Centralized East and a Decentralized West.
 68A startup company can get away with mainly being technologically revolutionary, though there
 is often the subtext of being morally revolutionary too, which is why “change the world!” is a big
@@ -4814,30 +4499,24 @@ motivation for many. Turning that subtext into text is crucial for a startup soc
 a mere startup company, as missionary societies tend to outperform mercenary ones. See the One
 Commandment and the section on Parallel Societies.
 
-
-102
 CHAPTER 2. HISTORY AS TRAJECTORY
 tionaries of both the political activist and tech founder type, and the concept of startup
 societies as a way to reunify moral and technological progress.
 Next we discuss left and right as real constructs, using the spatial theory of voting to
-obviate the objection that left and right don’t really exist, and qualifying our observa-
-tion by noting these are point-in-time constructs.
+obviate the objection that left and right don’t really exist, and qualifying our observation by noting these are point-in-time constructs.
 Subsequently we discuss how left and right change over time, using examples from
 what we call the left, right, and libertarian cycles, in the context of both State-oriented
 political movements and more recent Network-centric tech startups.
 Finally, we discuss several specific “flippenings” through history where winning teams
-changed ideological orientation upon victory, and give a thesis on what the next flip-
-pening will look like.
+changed ideological orientation upon victory, and give a thesis on what the next flippening will look like.
 2.8.2
 Reunifying Technological and Moral Progress
 Before we get into left-vs-right, the concept of starting a new project with a moral
 rather than technological innovation will be unfamiliar to many tech founders. So let’s
 make it familiar.
 First, we need to understand the surprising similarities between startup founders and
-political activists, between those focused on technological innovation and those inter-
-ested in moral good. The turn-of-the-century progressives thought of these as the same
-thing: progress was both technological and moral progress. Public sanitation, for ex-
-ample, was both a technological innovation and a moral good (“cleanliness was next to
+political activists, between those focused on technological innovation and those interested in moral good. The turn-of-the-century progressives thought of these as the same
+thing: progress was both technological and moral progress. Public sanitation, for example, was both a technological innovation and a moral good (“cleanliness was next to
 godliness”).
 More recently, technological and moral innovators have grown to be at odds, because
 the US establishment now regards its economic disruptors as enemies.69 As we’ll get
@@ -4857,7 +4536,7 @@ examples:
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-103
+
 Some observations immediately come to mind.
 1. First, from this list, you should be able to generate many more examples (we
 avoided the very obvious ones). And you might realize that a significant fraction
@@ -4900,8 +4579,6 @@ premise that “freedom of speech is good”: that means one thing in 1776, anot
 70Our argument is that a moral principle is consequentially good if it attracts people to your new
 startup society, as per the One Commandment.
 
-
-104
 CHAPTER 2. HISTORY AS TRAJECTORY
 thing during the era of highly centralized mass media, and yet another in an era when
 everything reduces to speech-like digital symbols transmitted over the internet.
@@ -4917,8 +4594,7 @@ bounded confines of a consensual startup society, they’re more acceptable as t
 moral progress. And if you think society has in many ways now generally become bad,
 it may not that be that hard to find ways to improve on it through a moral inversion.
 Political Arbitrage and Financial Arbitrage
-A moral inversion is a form of political arbitrage. Nietzsche criticized it when Chris-
-tianity did it, but also had to admit it worked.71 Why did it work? One view is that
+A moral inversion is a form of political arbitrage. Nietzsche criticized it when Christianity did it, but also had to admit it worked.71 Why did it work? One view is that
 “afflict the comfortable and comfort the afflicted” is essentially the same concept as
 buy low/sell high. You’re supporting something when it’s low and shorting it when it’s
 high.
@@ -4948,7 +4624,7 @@ establish a new ruling class — if successful.
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-105
+
 “afflicted” is itself a form of power. Someone who can pick who to label as “comfortable”,
 who can pick the axis of political arbitrage, can keep knocking down the “comfortable”
 while themselves remaining very comfortable. And that means the concept of “afflicting
@@ -4960,10 +4636,8 @@ more rationally. Political arbitrage involves backing a faction that is politica
 today than it could or should be. An early backer that risks their own political capital
 to make a faction more justly powerful can also gain a slice of that power should it
 actually materialize.
-Think about the status that accrued to the Founding Fathers, to the early Bolshe-
-viks, to Mao’s victorious communists, to the civil rights activists, or to the Eastern
-European dissidents after the Soviets fell. These very different groups of social revolu-
-tionaries all took significant status risks — and gained significant status rewards come
+Think about the status that accrued to the Founding Fathers, to the early Bolsheviks, to Mao’s victorious communists, to the civil rights activists, or to the Eastern
+European dissidents after the Soviets fell. These very different groups of social revolutionaries all took significant status risks — and gained significant status rewards come
 the revolution.
 The Market for Revolutionaries
 Once we see the mapping between financial and political arbitrage, we realize there is
@@ -4972,9 +4646,7 @@ Today, there are two kinds of revolutionaries: technological and political. And 
 two kinds of backers of these revolutionaries: venture capitalists and philanthropists.
 The backers seek out the founders, the ambitious leaders of new technology companies
 and new political movements. And that is the market for revolutionaries.
-Equipped with this framework, you can map the tech ecosystem to the political ecosys-
-tem. You can analogize tech founders to political activists, venture capitalists to polit-
-ical philanthropists, tech trends to social movements, YC Startup School to the Oslo
+Equipped with this framework, you can map the tech ecosystem to the political ecosystem. You can analogize tech founders to political activists, venture capitalists to political philanthropists, tech trends to social movements, YC Startup School to the Oslo
 Freedom Forum, the High Growth Handbook to Beautiful Trouble, startups to NGOs,
 big companies to government agencies, Crunchbase to CharityNavigator, and so on.
 Just as there is an entire ecosystem to source and back tech founders, there is an entire
@@ -4986,23 +4658,18 @@ their investors. Indeed, often the funding trail is intentionally obscured, to f
 opposition research.
 But the process of going from a revolutionary’s bright idea to a small group with a bit
 of funding to a mass movement is similar to the journey of a tech startup. And the
-endgame can be even more ambitious; if the top tech founders end up running compa-
-nies like Google and Facebook, the top political activists end up running countries like
+endgame can be even more ambitious; if the top tech founders end up running companies like Google and Facebook, the top political activists end up running countries like
 
-
-106
 CHAPTER 2. HISTORY AS TRAJECTORY
 Myanmar and Hungary.72 It’s “going public” in a different way.
 Take another look at the careers of political activists as varied as Aung San Suu Kyi,
-Viktor Orban, Vaclav Havel, Hamid Karzai, Ahmad Chalabi, Joshua Wong, Liu Xi-
-aobo, and the like. All of them fit this model. Western resources backed them to
+Viktor Orban, Vaclav Havel, Hamid Karzai, Ahmad Chalabi, Joshua Wong, Liu Xiaobo, and the like. All of them fit this model. Western resources backed them to
 come to power and build pro-Western governments in their region. That doesn’t mean
 these political founders always won (Wong and Xiaobo very much did not) or executed
 well (Karzai and Chalabi did not), or even stayed West-aligned indefinitely (Suu Kyi
 and Orban did not). But if you track each of their careers back, you’ll see something
 like this episode, when Soros was funding Orban and both were on the same side as
-revolutionary forces against the Soviets. At that point in time, Soros was the philan-
-thropist and Orban his protege, much as a venture capitalist might back an ambitious
+revolutionary forces against the Soviets. At that point in time, Soros was the philanthropist and Orban his protege, much as a venture capitalist might back an ambitious
 young founder. That’s a classic example of how backers seek leaders in the market for
 revolutionaries.
 Startup Societies Reunify Technological and Moral Progress
@@ -5011,8 +4678,7 @@ revolutions as being similar to VC-backed startups. But revolutions are difficul
 bootstrap, so there’s often a great power sponsor.
 The French were crucial to the
 American Revolution, for example.
-What’s the relevance for us? Well, the startup society reunifies the concepts of techno-
-logical and political revolution, pulls together the two different kinds of progress, and
+What’s the relevance for us? Well, the startup society reunifies the concepts of technological and political revolution, pulls together the two different kinds of progress, and
 presents a new path to power. Because now both the tech founder and the political
 activist can declare themselves presidents of a startup society.
 Backers can fund startup societies using the mechanisms of tech, out in the open, with
@@ -5035,7 +4701,7 @@ with the State, while when a tech company goes “public” it is merging with t
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-107
+
 2.8.3
 Two Ideologies
 The Spatial Theory of Voting
@@ -5076,8 +4742,6 @@ physics.
 73Best example: the surveillance votes are splitting Republicans and Democrats on the basis of
 Network vs State. The “libertarian” moment happened but not within the State, within the Network.
 
-
-108
 CHAPTER 2. HISTORY AS TRAJECTORY
 Left and Right as Temporary Tactics, Not Constant Classes
 The names for the two tactics that arise in these battles may hail from the French
@@ -5088,19 +4752,15 @@ redistributing the scarce resource (power, money, status, land), while the right
 is to argue that the current order is fair, that the left is causing chaos, and that the
 ensuing conflict will destroy the scarce resource and not simply redistribute it.
 You can think of circumstances where the right was correct, and those where the left
-was. A key concept is that on a historical timescale, right and left are temporary tac-
-tics as opposed to defining characteristics of tribes. For example, Protestants originally
+was. A key concept is that on a historical timescale, right and left are temporary tactics as opposed to defining characteristics of tribes. For example, Protestants originally
 used left tactics relative to the Catholic Church in the time of Martin Luther. Then,
-hundreds of years later, the American descendants of those revolutionaries - the Protes-
-tant establishment, the WASPs – used right tactics to defend its position as the ruling
+hundreds of years later, the American descendants of those revolutionaries - the Protestant establishment, the WASPs – used right tactics to defend its position as the ruling
 class. As we discuss, many such flippenings occur in history, where a given tribe uses
 leftist tactics in one historical period and its cultural descendants use rightist tactics
 in another.
 What’s the guideline for when a tribe will use left or right tactics? The tribe that’s
-defending (the ruling class) uses right tactics, and the tribe that’s attacking (the rev-
-olutionary class) uses left tactics. Because institutional defenders tend to win, each
-individual member of a revolutionary class feels like they’re losing. But because insti-
-tutional defenders have to constantly fight swarms of revolutionaries to hold onto their
+defending (the ruling class) uses right tactics, and the tribe that’s attacking (the revolutionary class) uses left tactics. Because institutional defenders tend to win, each
+individual member of a revolutionary class feels like they’re losing. But because institutional defenders have to constantly fight swarms of revolutionaries to hold onto their
 position, the ruling class also feels like it’s on the back foot.
 While there are big victories where the tribe using right or left tactics manages to
 sweep the field of their enemies for a brief interval, a new tribe usually arises that is
@@ -5121,7 +4781,7 @@ civilization.
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-109
+
 their path to reform (because the ruling class can’t stop them from leaving for the
 frontier and taking unhappy citizens with them), but also more ethically constrained
 (because the revolutionary can’t simply impose their desired reforms by fiat, and must
@@ -5162,16 +4822,11 @@ tactics to defend its wins, and vice versa.
 As an analogy, take a look at this GIF of two magnets. They repel each other into
 mirror positions. Think of this as an analogy for left and right: my left is your right.
 
-
-110
 CHAPTER 2. HISTORY AS TRAJECTORY
 Whatever you adopt, I’ll have to adopt the mirror tactic.
-Americans saw this in fast-forward during COVID. First the Republicans were con-
-cerned about the virus, and the Democrats were calling people racists for paying atten-
-tion to it. Then once Trump started saying the virus wasn’t serious, positions flipped,
+Americans saw this in fast-forward during COVID. First the Republicans were concerned about the virus, and the Democrats were calling people racists for paying attention to it. Then once Trump started saying the virus wasn’t serious, positions flipped,
 with the Democrats calling for (and implementing) lockdowns and the Republicans
-fighting them on libertarian grounds. Then Trump flipped again to supporting vac-
-cines, while Biden, Harris, and other Democrats said they wouldn’t trust a rushed
+fighting them on libertarian grounds. Then Trump flipped again to supporting vaccines, while Biden, Harris, and other Democrats said they wouldn’t trust a rushed
 Trump vaccine. Then the vaccine came out (the same one developed under the Trump
 Administration’s Operation Warp Speed!) and many Democrats were suddenly all in
 favor of mandating that which they once wanted to avoid, while many Republicans
@@ -5203,17 +4858,14 @@ the left, right, and libertarian cycles.
 Three Cycles
 The Left Cycle
 The left cycle is the story of how the revolutionary class becomes the ruling class.
-Think about the following concepts: Christian King, Protestant Establishment, Repub-
-lican Conservative, Soviet Nationalist, CCP Entrepreneur, or Woke Capitalist. Each
+Think about the following concepts: Christian King, Protestant Establishment, Republican Conservative, Soviet Nationalist, CCP Entrepreneur, or Woke Capitalist. Each
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-111
+
 of these compound nouns has within it a fusion of a once-left-associated concept and a
 right-associated one.
-That prefix is important: once-left-associated. At one point, Christians led a revo-
-lutionary movement against the Roman Empire, Protestants led a decentralist move-
-ment against the Catholic Church, Republicans led an abolitionist movement against
+That prefix is important: once-left-associated. At one point, Christians led a revolutionary movement against the Roman Empire, Protestants led a decentralist movement against the Catholic Church, Republicans led an abolitionist movement against
 the South, the Soviets led an internationalist movement against the nationalist White
 Russians, the CCP led a communist movement against the capitalists, and the Wokes
 led a critical movement against American institutions.
@@ -5239,11 +4891,8 @@ any future Renaissance. But those were both communist regimes, rather than capit
 we may diverge from the talented filmmaker (Nassos Vakalis) is on the type of society that moves
 humanity forward – and whether progress is even possible. After all, at one point all humans (or their
 
-
-112
 CHAPTER 2. HISTORY AS TRAJECTORY
-If we take the 1000-year view, this is the long cycle that starts with Christian revolu-
-tionaries tearing down the Western Roman Empire by 476 AD, gives eventual rise to
+If we take the 1000-year view, this is the long cycle that starts with Christian revolutionaries tearing down the Western Roman Empire by 476 AD, gives eventual rise to
 the ruling Catholic Church and Holy Roman Empire, and then (1000+ years later!)
 sees Martin Luther nail his Ninety-five Theses to the Church of Wittenberg in 1517
 AD as a new manifesto that spawns a whole new crop of Protestant revolutionaries.
@@ -5252,8 +4901,7 @@ revolution? Well, if a revolution doesn’t result in some kind of order, it loo
 like a Pol Pot or Seven Kill Stele scenario, where the “revolution” is kept up through
 endless killing. Something like that may be how past civilizations collapsed.
 Thus, some kind of order after the revolution is preferable. That brings us back to the
-left/right titrations: Christian King, Protestant Establishment, Republican Conserva-
-tive, Soviet Nationalist, CCP Entrepreneur, Woke Capital. Each of them justifies the
+left/right titrations: Christian King, Protestant Establishment, Republican Conservative, Soviet Nationalist, CCP Entrepreneur, Woke Capital. Each of them justifies the
 new ruling class, the new order, with the language of the revolutionary class.
 Note also that not every one of these titrations has exactly equal fractions of revolution
 and institution.
@@ -5273,23 +4921,21 @@ is feasible. This contradicts the idea that every new turn of the cycle necessar
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-113
+
 This cycle starts from the right and becomes left. If we turned this into a story, it’d start
 with the rise of a small group of highly aligned Spartans. They grow on the borders
 of empire, so-called “marcher lords” with a strong sense of ingroup spirit, what Ibn
 Khaldun would call asabiyyah. Then they radiate out and start conquering the world.
 Their indomitable will carves a swath through the degenerate empire that surrounds
 them. They eventually achieve total victory. Strong men create good times.
-But as they scale, they can no longer do everything on trust and need to start imple-
-menting processes and taxes. They also start attracting lazy parasites to the wealth
+But as they scale, they can no longer do everything on trust and need to start implementing processes and taxes. They also start attracting lazy parasites to the wealth
 they’ve created, people who want to join something great rather than build something
 great. And they have within their walls many of the people they just conquered, who
 don’t share their values and indeed didn’t much like being conquered. No one wants to
 work as hard or be as ruthless as that early Spartan band, given the easy wealth now
 available, so they enjoy themselves and busy themselves by fighting with each other
 over trifles. So good times create weak men.
-Eventually this bureaucratic, disaligned, decadent empire falls to a new band of Spar-
-tans from the outside. And thus do weak men create hard times, and in turn fall to
+Eventually this bureaucratic, disaligned, decadent empire falls to a new band of Spartans from the outside. And thus do weak men create hard times, and in turn fall to
 strong men.
 The Libertarian Cycle
 The libertarian cycle is the story of how a libertarian founder rebuilds the state.
@@ -5298,14 +4944,11 @@ their own. Most immediately fail, but through pure maneuver warfare and relentle
 execution, that founder might be able to make enough money to hire someone. In the
 early days the most important quantity is the burn rate. Every single person must be
 indispensable.
-Eventually, if successful, the company starts building up some structure. Conserva-
-tivism takes over. With the business growing consistently, the founder adds structure,
+Eventually, if successful, the company starts building up some structure. Conservativism takes over. With the business growing consistently, the founder adds structure,
 career tracks, and a stable hierarchy. Now the most important quantity becomes the
 bus number, the number of people who can get hit by a bus such that the company is
 still functional. Suddenly every single person must now be dispensable.
 
-
-114
 CHAPTER 2. HISTORY AS TRAJECTORY
 This is like the transition from unicellularity to multicellularity. The founder has to
 invest in a bureaucracy that impersonalizes the company and turns every employee into
@@ -5335,16 +4978,14 @@ If you put them together, you get revolutionary, determined, ideologues (a left/
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-115
+
 fusion) whose glorious victory ends in institutional, bureaucratic, decadence (a different
 kind of left/right/libertarian fusion!)
 Most people haven’t studied enough history to have an intuition for cyclicity on a
-100-year or longer timescale. But many people are familiar with the lifecycle of suc-
-cessful tech startups, which exhibit this behavior on a 10-year timescale. That’s about
+100-year or longer timescale. But many people are familiar with the lifecycle of successful tech startups, which exhibit this behavior on a 10-year timescale. That’s about
 the longest kind of experiment we can run repeatedly within a human lifetime. And
 fortunately the results have been widely witnessed.
-That is, within our lives, we’ve seen many examples of a startup disrupting an in-
-cumbent77 through scrappy tactics, becoming the incumbent themselves, and then
+That is, within our lives, we’ve seen many examples of a startup disrupting an incumbent77 through scrappy tactics, becoming the incumbent themselves, and then
 employing incumbent tactics to defend itself against a new wave of startups coming up
 against it.
 We’ve also seen firsthand that a successful tech startup is typically a left/right fusion. It
@@ -5375,8 +5016,6 @@ some point. Because it’s just too hard to start a company as a pure dollars an
 Collison has similarly observed that almost everything you see — this chair, that fountain — was
 someone’s passion project, given how hard it is to ship something competitive.
 
-
-116
 CHAPTER 2. HISTORY AS TRAJECTORY
 New Boss: Not Exactly The Same As The Old Boss
 The concept we’ve described here isn’t Marxism79, which doesn’t have the concept of
@@ -5411,7 +5050,7 @@ startup to then found/fund the competitor to that startup.
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-117
+
 be much better or worse than the old boss, may not be exactly the same. It’s closest
 to the helical theory of history, because we don’t necessarily come back to the same
 place on the z-axis. Many of these revolutions may actually leave everyone worse off,
@@ -5426,16 +5065,13 @@ might to win the fight, and together they allow that leader to prosecute a holy 
 To take two examples:
 • Mao was a communist, but he was also absolutely a “strong man” created by “hard
 times.” He had that rightist ruthlessness about him, and unlike the stereotypical
-vegan pacifist of the libertarian left, his men were willing to impose capital pun-
-ishment for any crime, real or imagined. Without some of that conventionally
+vegan pacifist of the libertarian left, his men were willing to impose capital punishment for any crime, real or imagined. Without some of that conventionally
 right-coded physical might he wouldn’t have won against a Nationalist opposition
 that was willing to use military force.81
 • Conversely, if you think of the Poles and Estonians revolting against the Soviet
-Union in the 1980s, they weren’t only making conventionally right-wing argu-
-ments for capitalism and nationalism and traditional religion, they were also
+Union in the 1980s, they weren’t only making conventionally right-wing arguments for capitalism and nationalism and traditional religion, they were also
 making left-wing arguments for democracy and free speech. Without some of
-that conventionally left-coded humanism they wouldn’t have won against a So-
-viet Union which claimed greater holiness.
+that conventionally left-coded humanism they wouldn’t have won against a Soviet Union which claimed greater holiness.
 The point is that in any holy war, the left is the word, and the right is the sword. It’s
 the priest and the warrior; you need both.
 The left programs the minds. The priests and journalists, the academia and media,
@@ -5450,11 +5086,8 @@ the miners, the engineers and the locomotives, the rugged physicality, the requi
 hierarchy, the necessary frugality, the profit and the loss, the determination and the
 organization, the hard truths to keep a movement going that complement the moral
 81Please note that I think Chiang Kai-Shek was far preferable to Mao in the Chinese Civil War,
-because the people of Taiwan were far better off than those in the PRC under Mao during the 1949-
-1978 period.
+because the people of Taiwan were far better off than those in the PRC under Mao during the 19491978 period.
 
-
-118
 CHAPTER 2. HISTORY AS TRAJECTORY
 premises that get a movement started, the point of the spear that prosecutes that holy
 war.
@@ -5475,15 +5108,13 @@ To summarize: you really do need both the word and the sword to win a war, both
 the left and the right. And that concept applies outside the context of literal war, to
 a variety of large-scale political movements, because (to invert Clausewitz) politics is
 war by other means.
-Again, this doesn’t mean that every movement has a precise 50%/50% titration of left-
-and right-wing concepts, nor that there is some globally optimum combination of X%
+Again, this doesn’t mean that every movement has a precise 50%/50% titration of leftand right-wing concepts, nor that there is some globally optimum combination of X%
 left and Y% right that works across all time periods and societies, nor that the “center”
 always wins. The main point is that a moribund left or right movement can often be
 energized by infusing ideas from the other side.
 A group using right tactics often has a deficit of zealous meaning, and is hanging onto
 a ruling class position while forgetting why they need to justify it from scratch to
-skeptical onlookers. Conversely, a group using left tactics often has a lack of hard-
-nosed practicality, attacking the ruling class without a concrete plan for what to put
+skeptical onlookers. Conversely, a group using left tactics often has a lack of hardnosed practicality, attacking the ruling class without a concrete plan for what to put
 in its place come the revolution. Forming a left/right fusion that’s informed by these
 concepts is quite different from what we typically think of as a left/right hybrid, namely
 passive centrism.
@@ -5500,7 +5131,7 @@ and other conventionally right-coded things are very tangible.
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-119
+
 class flips a ruling class, only to become a new ruling class. The former ruling class
 then gets pushed into oblivion. . . or becomes a new revolutionary class.
 We’ll cover several flippenings in this section: the left/right inversion of the white
@@ -5511,8 +5142,7 @@ The Proletarian Flippening
 The first flippening story is about the inversion of the working class. How did Stakhanov
 become Archie Bunker? That is, how did the white working class flip from the core of
 the left to the core of the right in one hundred years?
-First: who’s Stakhanov, anyway? He’s the jacked Chad of socialist realism, the mythi-
-cal Soviet worker who all the men wanted to be and all the women wanted to be with,
+First: who’s Stakhanov, anyway? He’s the jacked Chad of socialist realism, the mythical Soviet worker who all the men wanted to be and all the women wanted to be with,
 the one who supposedly shoveled the coal of ten men in one day, the comrade who was
 a real bro, the guy in the “worker’s paradise” who somehow took no vacation time at
 all. Here’s a pic of the (likely fictional) Aleksei Grigorevich Stakhanov, from the 1930s.
@@ -5541,11 +5171,8 @@ Of course, in practice, communism was slavery, because the workers had to surren
 than any capitalist breakroom infographic. The Soviet worker couldn’t protest, couldn’t
 strike, couldn’t change jobs, couldn’t really buy anything with his “salary.” And those
 
-
-120
 CHAPTER 2. HISTORY AS TRAJECTORY
-were the lucky ones! The unlucky ones were forced by Trotsky to dig the White Sea-
-Baltic Canal with their bare hands, or deported to Siberia by Stalin.
+were the lucky ones! The unlucky ones were forced by Trotsky to dig the White SeaBaltic Canal with their bare hands, or deported to Siberia by Stalin.
 As in Nazi
 Germany, arbeit did not macht frei.
 But, be that as it may, communism had traction. At its peak it covered “26% of the land
@@ -5581,18 +5208,15 @@ arbitrage was measured in power rather than money.
 And this is how the white working class moved from oppressed to oppressor. But one
 more event had to happen: the fall of the Soviet Union.
 Communism Was Centralized Left
-The women/nonwhites/LGBT group of “minorities” (which >90% of the global popu-
-lation belongs to, if you stop to think about it) gradually became the core justification
+The women/nonwhites/LGBT group of “minorities” (which >90% of the global population belongs to, if you stop to think about it) gradually became the core justification
 for the New Left, just as the working class had been the justification for the Old Left.
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-121
+
 But there was a transitional period.
-For many years, the Western left still had a foot in both camps, with Soviet sympathiz-
-ers coexisting with New Leftists.83 After all, the hippies punched by union workers had
-been aligned with “Hanoi” Jane Fonda, and were pro-Communist or at least anti-anti-
-Communist. They were “objectively pro-Soviet” using the terminology Orwell disliked.
+For many years, the Western left still had a foot in both camps, with Soviet sympathizers coexisting with New Leftists.83 After all, the hippies punched by union workers had
+been aligned with “Hanoi” Jane Fonda, and were pro-Communist or at least anti-antiCommunist. They were “objectively pro-Soviet” using the terminology Orwell disliked.
 Even as late as the mid 1980s, a lion of the Western left like Ted Kennedy offered to
 do a deal with the USSR if they supported him for the US presidency.
 The Soviet Union wouldn’t be around forever, though. For a variety of reasons, ranging
@@ -5634,8 +5258,6 @@ from the Western left.
 as it was the ruling class. In a global context, however, the Soviet Union used leftist tactics, as it was
 attempting to foment revolution.
 
-
-122
 CHAPTER 2. HISTORY AS TRAJECTORY
 became all about the decentralized left, the fusion of the civil rights movement and
 Foucaltian deconstructionism, what we now call wokeness.
@@ -5647,8 +5269,7 @@ Regardless of whether people call them “politically correct” or “SJWs” o
 what have you, they’ll try to scratch off the label and say that they’re just being “good
 people.” (You, of course, they have no problem calling you all kind of names.)
 You can call them Democrats, and that’s in the ballpark, but many wokes are more
-radical than Democratic party candidates (though still vote for them) and many rank-
-and-file Democrats still aren’t wokes.
+radical than Democratic party candidates (though still vote for them) and many rankand-file Democrats still aren’t wokes.
 You can also note that the boundaries of wokeness are fluid. Anyone can just start
 voicing woke rhetoric. You may even sympathize with some of their stated ideas (as
 opposed to their actual practice). I do85, in fact, at least with the motte version - who’s
@@ -5671,13 +5292,12 @@ Communists were centralized, they were not entirely people of the State. The rea
 that they had both the Soviet state and the international Comintern network of spies
 and revolutionaries. But they were primarily people of the State after 1917, as the
 global movement was downstream of the Soviet government.86
-85Just as I sympathize with the working man, but know that the answer wasn’t socialism, commu-
-nism, or fascism.
+85Just as I sympathize with the working man, but know that the answer wasn’t socialism, communism, or fascism.
 86Until the Sino-Soviet split, which was notable because of how formal it was.
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-123
+
 Wokes are the opposite. They are primarily people of the Network, as their habitat is
 outside the elected State. The control circuitry for the US government resides outside
 it, in media, academia, nonprofits, and the unfireable civil service.
@@ -5703,13 +5323,11 @@ cancellation. There’s no factory floor, no formal union leader, no centralized
 from Moscow. Instead, anyone can decide at any time to use the rhetoric in the air to
 lead a campaign against their “oppressor” in combination with others who subscribe to
 one or more woke principles. It’s open source, it’s decentralized left.
-Like the strike, the cancellation is a collective action that seems to help the “marginal-
-ized”, by redistributing status from the hated oppressors to the cancellers. The likes,
+Like the strike, the cancellation is a collective action that seems to help the “marginalized”, by redistributing status from the hated oppressors to the cancellers. The likes,
 retweets, and followers get redistributed in real-time. Over the medium term, however,
 cancellation actually harms the “marginalized” because (a) everyone can now cancel
 each other on some axis, making life highly unpleasant and (b) constant cancellation
-leads to a low-trust society. Nevertheless, cancellation helps wokes gain control of net-
-works. Social media swarms in the 2010s could bring tech executives to their knees,
+leads to a low-trust society. Nevertheless, cancellation helps wokes gain control of networks. Social media swarms in the 2010s could bring tech executives to their knees,
 just as general strikes in the 20th century could bring countries to a halt.
 From Working Class to Wokest Class
 So, that’s how Stakhanov became Archie Bunker.
@@ -5718,8 +5336,6 @@ working class tightly enough to defuse its revolutionary potential, and centrali
 beat centralized left in the USSR and PRC, the left needed a new group it could use to
 justify its revolution. It found it in the “marginalized” that it has now ridden to power
 
-
-124
 CHAPTER 2. HISTORY AS TRAJECTORY
 as Woke Capital.87 From the working class, to the wokest class.
 The American Flippening
@@ -5727,23 +5343,18 @@ The second flippening is about the inversion of the Republican and Democrat part
 over the last 155 years. As context, most Americans know vaguely that the Republican
 and Democrat parties “switched sides,” that Republicans were on the left in 1865 and
 on the right by 1965, but not exactly how88 that happened.
-How did the GOP move from the “Radical Republicans” of Lincoln’s time, to the conser-
-vative Republicans of mid-century, to the proletarian truckers of the post-Trump party?
-And how did Democrats go from secessionist Confederates to anti-anti-communist lib-
-erals to woke capitalists?
+How did the GOP move from the “Radical Republicans” of Lincoln’s time, to the conservative Republicans of mid-century, to the proletarian truckers of the post-Trump party?
+And how did Democrats go from secessionist Confederates to anti-anti-communist liberals to woke capitalists?
 The Short Version
 The short version is that the Republicans gained moral authority after the Civil
 War, used that to gain economic authority, then got critiqued by the (repositioned)
-Democrats for being so rich, then lost moral authority, and consequently also lost eco-
-nomic authority, bringing us to the present day. The Democrats were on the opposite
+Democrats for being so rich, then lost moral authority, and consequently also lost economic authority, bringing us to the present day. The Democrats were on the opposite
 end of that cycle.
 The 1865-2021 Cycle
 Now the longer version.
 Let’s warp back to 1865. Immediately after the Civil War, the Republicans had total
-moral authority — and total command of the country. During the process of Recon-
-struction and what followed, they turned that moral authority into economic authority,
-and became rich by the late 1800s. After all, you wouldn’t want to have a Confederate-
-sympathizing Democrat traitor as head of your railroad company, would you?
+moral authority — and total command of the country. During the process of Reconstruction and what followed, they turned that moral authority into economic authority,
+and became rich by the late 1800s. After all, you wouldn’t want to have a Confederatesympathizing Democrat traitor as head of your railroad company, would you?
 Gradually, the Democrats began repositioning89 from the party of the South to the
 party of the poor. A major moment was William Jennings Bryan’s “Cross of Gold”
 speech in 1896. Another huge move was FDR’s re-election in 1936, when black voters
@@ -5762,13 +5373,12 @@ recognizing the Soviet Union.
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-125
+
 the municipal level.90 The wrap up was in 1965 when black voters moved another 10-15
 points towards Democrats, though the civil rights era was really just the culmination
 of a multi-decadal trend.
 After 1965 the Democrats had complete moral authority. And over the next 50 years,
-from 1965-2015, the Democrats converted their moral authority into economic author-
-ity. You wouldn’t want a Republican bigot as CEO of your tech company, would you?
+from 1965-2015, the Democrats converted their moral authority into economic authority. You wouldn’t want a Republican bigot as CEO of your tech company, would you?
 Now that cycle has reached its zenith, and a critical mass of high income and status
 positions in the US are held by Democrats. Some stats and graphs will show the story.
 Democrats have:
@@ -5801,8 +5411,6 @@ other Democrats, and Republicans typically marry other Republicans. So over just
 these political groups are fated to themselves become ethnic groups, much like what happened with
 Sunnis and Shiites or Protestants and Catholics. The ideology influences the biology.
 
-
-126
 CHAPTER 2. HISTORY AS TRAJECTORY
 • advocating for corporations to fire people at will
 • defending deplatforming as a private property right
@@ -5825,24 +5433,21 @@ This explains the weird flip-flops of American politics over the last few years.
 in a realigning time where many institutional things are flipping from blue to red and
 back before finally going bright blue or red. Free speech is now coded red, while the
 FBI is now blue. Because Democrats are the ruling class now.
-Note that this isn’t an endorsement of either side, just an observation that two ultra-
-long-timeframe sine and cosine waves have now shifted into the opposite relative phase.
-The parties that many identify with and implicitly think of as constant were not con-
-stant. The radical Republicans attained socioeconomic power and their defense of this
+Note that this isn’t an endorsement of either side, just an observation that two ultralong-timeframe sine and cosine waves have now shifted into the opposite relative phase.
+The parties that many identify with and implicitly think of as constant were not constant. The radical Republicans attained socioeconomic power and their defense of this
 order made them conservative; the reactionary Democrats lost socioeconomic power
 and gradually repositioned as revolutionary. Now they’re flipping again.
 This doesn’t mean everything is flipping, of course. Democrats are still pro-choice,
 Republicans still pro-life. Republicans still have an institution or two, like the Supreme
 Court and some states. Just as Democrats after the Civil War were very weak, but not
 eradicated, and able to serve as spoilers.
-However, the two parties have flipped on all the institutional bits, even if many Repub-
-licans maintain the Monty-Python-like pretense that the conservative America of their
+However, the two parties have flipped on all the institutional bits, even if many Republicans maintain the Monty-Python-like pretense that the conservative America of their
 youth has just suffered a flesh wound, and many Democrats maintain the Soviet-like
 pretense that the ruling class is still a revolutionary party. Mexico has a great name for
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-127
+
 this kind of thing, the PRI or “institutional revolutionary party,” but there’s a more
 familiar metaphor: the startup.
 As noted earlier, a successful startup wants to think it’s still the scrappy underdog,
@@ -5885,33 +5490,25 @@ left tactics the other must adopt right tactics, and vice versa.
 93Yes, the flip was already baked many years before this, but this is a particularly obvious public
 example.
 
-
-128
 CHAPTER 2. HISTORY AS TRAJECTORY
-Visualize the startup founder who just cannot adjust to a big company after an ac-
-quisition, or the writer who just refuses to hold back a story because of his editor’s
+Visualize the startup founder who just cannot adjust to a big company after an acquisition, or the writer who just refuses to hold back a story because of his editor’s
 political demurrals. Born revolutionaries of this stripe include Glenn Greenwald, Matt
 Taibbi, Jack Dorsey, Elon Musk, and many Substackers and tech founders. They just
 can’t bend to the establishment.
 But they also have real disagreements with each
 other, which is why they’re independents, and why they can’t mouth a party line. So
-the born revolutionary is really far more anti-establishment, and hence today anti-
-Democrat, than pro-Republican. Many of the most accomplished in tech and media
+the born revolutionary is really far more anti-establishment, and hence today antiDemocrat, than pro-Republican. Many of the most accomplished in tech and media
 share this characteristic – they don’t want to listen to authority because they think they
-know better, and in their case they often actually do. They’re fundamentally insubor-
-dinate and disobedient, rule breakers and novelty seekers, ideological rather than tribal,
+know better, and in their case they often actually do. They’re fundamentally insubordinate and disobedient, rule breakers and novelty seekers, ideological rather than tribal,
 founders rather than followers — and thus sand in the gears of any establishment.
 Other kinds of people are ideologically predisposed in the opposite direction, to what
-some might call “imperialism” and others could call “national greatness.” As the Re-
-publicans fully flipped over from ruling class to revolutionary class, and went from or-
-ganizing the invasion of Iraq to disorganizedly invading the Capitol, the neocon types
+some might call “imperialism” and others could call “national greatness.” As the Republicans fully flipped over from ruling class to revolutionary class, and went from organizing the invasion of Iraq to disorganizedly invading the Capitol, the neocon types
 like David Frum and Liz Cheney switched sides. In our tech analogy, these are the big
 company executives who only join a company once it has 1000+ people and leave out
 the back when the writing is on the wall. They’ll take less upside in return for less
 downside, and are more focused on guaranteed salary and prestige. They’re cyclical,
 as opposed to counter-cyclical like the revolutionaries. They follow the school-of-fish
-strategy, going with the crowd at all times. And in this context, their animating charac-
-teristic is not so much that they’re “pro-Democrat” but that they’re anti-revolutionary.
+strategy, going with the crowd at all times. And in this context, their animating characteristic is not so much that they’re “pro-Democrat” but that they’re anti-revolutionary.
 Much of the national security state and military establishment is also like this; they are
 fundamentally rule-followers, institutional loyalists, and top-down in their thinking.
 So that means that right now, immediately after the American realignment, we see
@@ -5922,8 +5519,7 @@ and (d) ruling class anti-revolutionaries like Frum and Cheney.
 Over time, if history is any guide, the independent thinkers will move away from
 the ruling class to the revolutionary class, while a much larger group of herd-minded
 followers will join the ruling class. Returning to our tech analogy94, think about how
-a few of the most independent-minded people have left Google, while many more risk-
-averse people have joined it. At Google, there isn’t much of the early startup spirit left,
+a few of the most independent-minded people have left Google, while many more riskaverse people have joined it. At Google, there isn’t much of the early startup spirit left,
 but there is a paycheck and stability.95 That’s similar to the dynamic that characterizes
 the Democrats in their formal role as America’s ruling class: they largely control the
 establishment, but they’re losing the talent.
@@ -5935,15 +5531,14 @@ alignment, because it’s still led by its original founder. It’s what Samo Bu
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-129
+
 The Second American Civil War?
 Returning to the previous section, is 2021 really just a repeat of 1865? Well, if history
 is running in reverse as per the Future-is-our-Past thesis, maybe not. Maybe 1861-1865
 has yet to happen; maybe the Second American Civil War is yet to come. We discuss
 this possibility later in our sci-fi scenario on American Anarchy.
 However, if we really push on the historical analogies, there’s another factor that was
-just incipient during the 1860s but that dominated the era to follow. After North-vs-
-South slugged it out, America shifted its attention to the (Wild) West. Similarly, after
+just incipient during the 1860s but that dominated the era to follow. After North-vsSouth slugged it out, America shifted its attention to the (Wild) West. Similarly, after
 whatever Democrat-vs-Republican donnybrook might ensue, we may shift our focus to
 tech.
 Because technology is a third faction. A group that was once identified with the West
@@ -5963,14 +5558,10 @@ That may be the next step in the American Flippening: the conflict between the
 decentralized people of the Network and the centralized people of the State, between
 global technology and the American establishment.
 The Global Flippening
-The third flippening is about the global reversal of the last 30 years, where the com-
-munist countries became ethnonationalists and the capitalist countries became ethno-
-masochists. In this flippening, the countries on the economic left moved to the cultural
+The third flippening is about the global reversal of the last 30 years, where the communist countries became ethnonationalists and the capitalist countries became ethnomasochists. In this flippening, the countries on the economic left moved to the cultural
 right, and countries on the economic right moved to the cultural left. The ideologies
 reversed, but the geopolitical rivalries remained the same.
 
-
-130
 CHAPTER 2. HISTORY AS TRAJECTORY
 The visual above tells the story. The most right-wing country in the world is now
 CCP China, the ethnocentric champion of the Han, the place where “sissy men” are
@@ -6002,7 +5593,7 @@ of the systems in the country.”
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-131
+
 The Global Axis in 1988 was Politico-Economic
 First, what was the political spectrum in 1988, right before the fall of the Berlin Wall?
 From right to left:
@@ -6014,8 +5605,7 @@ From right to left:
 • USSR, Warsaw Pact: far left
 I don’t think any of these ideological positions should be too controversial.
 These
-countries explicitly identified themselves as conservative, socialist, or communist re-
-spectively. India was socialist, but not a member of the Warsaw Pact and not pointing
+countries explicitly identified themselves as conservative, socialist, or communist respectively. India was socialist, but not a member of the Warsaw Pact and not pointing
 guns at the West. China was nominally communist, but also not hostile to the West,
 and entering the second decade of the capitalist reforms begun by Deng in 1978. The
 US was the champion of the capitalist right in spots like Chile and South Korea, and
@@ -6041,8 +5631,6 @@ Switzerland is no longer
 neutral, as it’s siding with the US now.
 Cryptocurrency and cryptography is now
 
-
-132
 CHAPTER 2. HISTORY AS TRAJECTORY
 Switzerland, what Obama called the “Swiss bank account in your pocket.” And – as
 just noted – it offers an ethical alternative to both American ethnomasochism and
@@ -6062,8 +5650,7 @@ though, as placing it on the nationalist right would seem to cluster it near Chi
 Republicans dislike China as much as they dislike the Democrats. So you need to go
 to more dimensions than just a linear axis, which we discuss in the next chapter on
 NYT/CCP/BTC.
-The fifth thing we note is that Europe is now broadly to the right of the US Estab-
-lishment on ethno-cultural issues, whereas it was to the left of the US in 1988. (See
+The fifth thing we note is that Europe is now broadly to the right of the US Establishment on ethno-cultural issues, whereas it was to the left of the US in 1988. (See
 Macron and Orban’s comments, for example, if this isn’t on your radar.)
 The last and most important thing is that this is a rough inversion of the 20th century,
 as the formerly communist/socialist countries are on the ethnocultural right, while the
@@ -6085,15 +5672,14 @@ to defend his Bitcoin, he supports the police to maintain order for everything e
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-133
+
 • And here are several books and articles that talk about this include Destined
 for War, The United States vs.
 China (FT review), and Getting China
 Wrong.
 2. Unity of NYT, Harvard, and Democrats as the US Establishment. Next, let’s
 establish that there is alignment between America’s informal government (NYT,
-Harvard, etc) and the formal government (elected Democrats and career bureau-
-crats). Basically, we want to show that (a) this an interconnected social network
+Harvard, etc) and the formal government (elected Democrats and career bureaucrats). Basically, we want to show that (a) this an interconnected social network
 and (b) it is on the ethnomasochist left.
 • The Progress Flag was raised over the U.S. State Department and
 • The Progress Flag is raised in the White House by the US Press Secretary
@@ -6105,8 +5691,7 @@ and a Navy Admiral
 • NYT’s use of ethnomasochist words went exponential in the 2010s
 • The graphs in Yglesias’ article on the Great Awokening show that white
 Democrats are to the cultural left of black Democrats on many issues
-3. NYT denunciation of entities to their right. Third, let’s show that the US estab-
-lishment’s leading paper, the New York Times, has run articles indicating that
+3. NYT denunciation of entities to their right. Third, let’s show that the US establishment’s leading paper, the New York Times, has run articles indicating that
 China, Russia, India, Israel, Singapore, Hungary, and France are “fascist” and
 “authoritarian” and hence to its right. We note that none of these countries are
 being denounced as “communist” or to NYT’s left.
@@ -6123,11 +5708,8 @@ Symbol of Fascism.”
 China and Russia take culturally conservative positions on marriage and family
 that put them substantially to the right of today’s West.
 
-
-134
 CHAPTER 2. HISTORY AS TRAJECTORY
-• Russia: see their actions in favor of “traditional families”, and Richard Hana-
-nia’s piece on Russia the “Great Satan in the Liberal Imagination”.
+• Russia: see their actions in favor of “traditional families”, and Richard Hanania’s piece on Russia the “Great Satan in the Liberal Imagination”.
 • China: read about their ban on “sissy men” and promotion of traditional
 marriage and family.
 5. Europe is also to the cultural right of America. Now, let’s show how European
@@ -6142,8 +5724,7 @@ migration plan
 • UK on immigration: The UK’s “Anti-Refugee Bill”: What Everyone Should
 Know
 So if you put all those together, we have (a) the existence of a US/China axis, (b) a
-group of institutions that can be reasonably regarded as the voice of the US establish-
-ment, (c) a set of NYT denunciations of other countries as being to the right of the US
+group of institutions that can be reasonably regarded as the voice of the US establishment, (c) a set of NYT denunciations of other countries as being to the right of the US
 establishment, (d) positions from China and Russia that are far to the ethnocultural
 right of the US establishment, and (e) a set of statements from European heads of state
 like Macron and Orban indicating that the US establishment is also to their left.
@@ -6152,15 +5733,12 @@ it’s now hard to argue with their relative position. That is, if you click the
 you’ll see that NYT does think of Russia and China (and France, Hungary, India,
 Israel, and so on) as all being to its right on ethnocultural matters. And Russia and
 China do think of the US establishment as being to their left on the same things.
-I belabor this point because it’s somewhat implicit. The capitalist-vs-communist di-
-vide of the 20th century was an official, declared economic divide. By contrast, today’s
+I belabor this point because it’s somewhat implicit. The capitalist-vs-communist divide of the 20th century was an official, declared economic divide. By contrast, today’s
 ethnonationalist-vs-ethnomasochist divide is an unofficial, undeclared cultural divide.
-It is nevertheless the primary global axis of conflict, and a very real reason for hos-
-tility between the Sino-Russians and the US Establishment.99 Even if the geopolitics
+It is nevertheless the primary global axis of conflict, and a very real reason for hostility between the Sino-Russians and the US Establishment.99 Even if the geopolitics
 have remained similar, with the Chinese and Russians of Mackinder’s world island still
 aligned against the Anglo-Americans, the ideologies have flipped.
-99To make this explicit, see this declassified DoD briefing from 2013. Here, the US military recom-
-mends calling China ’racist’ to help win its defense competition, and to push these messages through
+99To make this explicit, see this declassified DoD briefing from 2013. Here, the US military recommends calling China ’racist’ to help win its defense competition, and to push these messages through
 pop cultural figures rather than directly through official spokesmen. Here’s a quote: “The ‘China is
 a racist state’ message of the United States will help win allies in global, popular culture, which is
 heavily influenced by ideals rooted in Western, left wing political thought, including strong currents
@@ -6170,10 +5748,9 @@ Washington.”
 
 
 2.8. LEFT IS THE NEW RIGHT IS THE NEW LEFT
-135
+
 The Historical Flippenings
-Our fourth flippening story is a survey of historical flippenings. How did the revolu-
-tionary class become the ruling class, through history?
+Our fourth flippening story is a survey of historical flippenings. How did the revolutionary class become the ruling class, through history?
 • From Christian crash to Christian kings.
 Early Christianity was the original
 communism; it delegitimized and then tore down the Roman Empire.
@@ -6184,17 +5761,14 @@ religion, one that fortified hierarchy rather than undermining it. Christians we
 on the left in Roman times as the revolutionary class.
 Then, upon winning,
 descendants of those Christians eventually went to the right as the ruling class.
-• From Protestant heresy to WASP establishment. Much later, Martin Luther be-
-gan a Protestant insurgency against the Catholic Church / Holy Roman Empire.
+• From Protestant heresy to WASP establishment. Much later, Martin Luther began a Protestant insurgency against the Catholic Church / Holy Roman Empire.
 Even later than that, descendants of these Protestants made it to the US to give
 rise to the WASP aristocracy! Protestants were on the left as the revolutionary
 class. Then upon winning, eventually descendants of those Protestants went to
 the right as the ruling class.
 • From ChiCom revolutionary to princeling. Today’s Chinese Communist Party is
 another example. What do people call the descendants of the early Communists,
-who fought both the Japanese and the Chinese Nationalists under Chiang Kai-
-Shek to gain full control of China? Why, they are princelings. A more cut-and-
-dried example of the transition from revolutionary class to ruling class would be
+who fought both the Japanese and the Chinese Nationalists under Chiang KaiShek to gain full control of China? Why, they are princelings. A more cut-anddried example of the transition from revolutionary class to ruling class would be
 hard to find.
 • From marginalized minority to Woke Capital. And perhaps the most important
 contemporary example is Woke Capital.
@@ -6217,8 +5791,6 @@ We could do more, but you see the pattern. Once you’ve seen several cases of h
 flippenings, it changes your perspective on current events. The ideological shifts become
 more predictable. It’s a bit like an experienced investor who’s seen many a company rise
 
-
-136
 CHAPTER 2. HISTORY AS TRAJECTORY
 and fall talking to a first-time entrepreneur. When you’ve seen it before, the pattern
 recognition calms your nerves and allows you to distinguish the truly “unprecedented”
@@ -6235,16 +5807,14 @@ To be clear, it’s a huge endeavor to go and build an entire moral edifice on p
 religion, and work out all the practical details. We’re not advising you come up with
 your own Ten Commandments!
 But we do think you can come up with one commandment. One new moral premise.
-Just one specific issue where the history and science has convinced you that the estab-
-lishment is wanting. And where you feel confident making your case in articles, videos,
+Just one specific issue where the history and science has convinced you that the establishment is wanting. And where you feel confident making your case in articles, videos,
 books, and presentations.
 These presentations are similar to startup pitch decks. But as the founder of a startup
 society, you aren’t a technology entrepreneur telling investors why this new innovation
 is better, faster, and cheaper. You are a moral entrepreneur telling potential future
 citizens about a better way of life, about a single thing that the broader world has
 gotten wrong that your community is setting right.
-By focusing on just one issue, you can set up a parallel society with manageable com-
-plexity, as you are changing only one civilizational rule. Unlike a political party, you’re
+By focusing on just one issue, you can set up a parallel society with manageable complexity, as you are changing only one civilizational rule. Unlike a political party, you’re
 not offering a package deal on many issues that people only shallowly care about. With
 the one commandment you are instead offering a single issue community, and attracting
 not single-issue voters but single-issue movers.
@@ -6262,7 +5832,7 @@ a state-resistant digital history.
 
 
 2.9. THE ONE COMMANDMENT
-137
+
 A parallel society is roughly equivalent to a startup society, but the implication is that
 it could be much larger in scale. It’s parallel because it stands apart from mainstream
 society as a parallel version, as a fork. It’s not set up in opposition to the mainstream on
@@ -6303,8 +5873,6 @@ civilian is routinely turned into a human sacrifice to make an ideological point
 if a passerby took such offense to your offline comment to a friend that they opened
 fire.
 
-
-138
 CHAPTER 2. HISTORY AS TRAJECTORY
 Those who agree that normal online behavior shouldn’t come with risk of a social
 death penalty imposed by random people are the basis of your new society. They agree
@@ -6334,11 +5902,9 @@ The concept is that this kind of startup society serves a dual purpose: it’s u
 “peacetime” but it also gives people a community to fall back on in the event of digital
 cancellation. And that’s how one could build a cancel-proof culture.
 2.9.3
-Examples of Parallel Societies: Physical Network Archipela-
-gos
+Examples of Parallel Societies: Physical Network Archipelagos
 Keto Kosher: the Sugar-free Society
-Next, let’s do an example which requires a network archipelago (with a physical foot-
-print) but not a full network state (with diplomatic recognition).
+Next, let’s do an example which requires a network archipelago (with a physical footprint) but not a full network state (with diplomatic recognition).
 This is Keto Kosher, the sugar-free society.
 Start with a history of the horrible USDA Food Pyramid, the grain-heavy monstrosity
 that gave cover to the corporate sugarification of the globe and the obesity epidemic.
@@ -6347,9 +5913,8 @@ Then operationalize this cure in the form of a partially physical network archip
 
 
 2.9. THE ONE COMMANDMENT
-139
-Organize a community online that crowdfunds properties around the world, like apart-
-ment buildings and gyms, and perhaps eventually even culdesacs and small towns. You
+
+Organize a community online that crowdfunds properties around the world, like apartment buildings and gyms, and perhaps eventually even culdesacs and small towns. You
 might take an extreme sugar teetotaller approach, literally banning processed foods and
 sugar at the border, thereby implementing a kind of “Keto Kosher.”
 You can imagine variants of this startup society that are like “Carnivory Communities”
@@ -6390,8 +5955,6 @@ and involuntary.
 102Of course, fentanyl addicts were soon added in its place. But there was a window where people
 benefited from the walkable waterfront.
 
-
-140
 CHAPTER 2. HISTORY AS TRAJECTORY
 Over time, such a society could even try to build apps to give individuals back control
 over their internet use, with open source machine learning tools running locally on
@@ -6435,7 +5998,7 @@ one-commandment based startup society.
 
 
 2.9. THE ONE COMMANDMENT
-141
+
 Such a society is not a total revolution. We aren’t starting completely de novo. Each
 startup society is simply taking a broken aspect of today’s world, often a State-caused
 or at least State-neglected calamity, writing the history of that state failure, and then
@@ -6461,24 +6024,19 @@ attacked as a crazy cult leader. All of these are understandable hesitations for
 existing religion. (The last is kind of like starting a new denomination of Protestantism,
 where you keep much of the old codebase but add in some crucial distinctive factors.)
 But think about the second part. While there is great hesitation in Western society
-around religious evangelism, there is seemingly no hesitation around political evange-
-lism. Indeed, this is considered an ethical duty, usually in exactly those terms, with
+around religious evangelism, there is seemingly no hesitation around political evangelism. Indeed, this is considered an ethical duty, usually in exactly those terms, with
 the word “ethical” used in place of “moral” but serving a very similar role, and with at
 least two large competing political parties fighting for the souls/votes of their believers.
-Therein lies the paradox: while political and religious movements can both be con-
-sidered doctrines103, in that they come packaged with a number of directives on how
+Therein lies the paradox: while political and religious movements can both be considered doctrines103, in that they come packaged with a number of directives on how
 people must live, the same person who is shy about telling other people about morality
 is often incredibly confident when yelling at other people about politics.
 That’s why we advise one commandment for your new startup society. It’s something
 in between being too shy and too overbearing.
-It’s in between avoiding religious-
-sounding evangelism entirely and indulging in political-sounding evangelism too much.
+It’s in between avoiding religioussounding evangelism entirely and indulging in political-sounding evangelism too much.
 Don’t avoid taking a moral stance, because that means you passively succumb to your
 103A doctrine can also be based not just on God, or State, but on the Network. That is, not just on
 religion, or politics, but on a global coin, like Bitcoin or Ethereum.
 
-
-142
 CHAPTER 2. HISTORY AS TRAJECTORY
 surroundings. But also don’t try imposing an all-encompassing political ideology to
 start, because that’s too hard and means total warfare with your surroundings.
@@ -6509,19 +6067,17 @@ How could it be otherwise? Soviet citizens weren’t stupid, and people knew the
 things that didn’t add up, but they were operating within a constrained information
 environment. The censorship was so pervasive that it controlled thought. The degree
 of self-deception was so all-encompassing that even the nomenklatura like Boris Yeltsin
-didn’t know how truly poor the Soviet Union was till he visited an American supermar-
-ket and threw up his hands at how far behind the USSR was. Unlike Orwell’s O’Brien,
+didn’t know how truly poor the Soviet Union was till he visited an American supermarket and threw up his hands at how far behind the USSR was. Unlike Orwell’s O’Brien,
 the Soviet leaders deceived themselves too.
 So, fundamentally, any proposed edits by Soviet elites to the USSR would have been
 just on the margins. They were information and values constrained. They actually
 needed a totally different system. Yet their system resisted both revolutionary and
 incremental reform.
-The solution was the parallel system of the United States. An alternative society start-
-ing from different moral premises that eventually produced undeniably better results.
+The solution was the parallel system of the United States. An alternative society starting from different moral premises that eventually produced undeniably better results.
 
 
 2.9. THE ONE COMMANDMENT
-143
+
 That’s the same basic thing that reformed the People’s Republic of China. The mere
 existence of successful parallel systems in Taiwan, Hong Kong, and especially Singapore
 is what drove Deng Xiaoping to adopt capitalism. Ezra Vogel’s book is excellent on
@@ -6552,22 +6108,16 @@ conclusion, a one-commandment-based startup society ends up changing huge swaths
 of life, but in a focused, exit-constrained, and intellectually consistent way.104 Just
 think about what “keto” really means when it’s extrapolated out to the scale of an
 entire town, and sugar poisoning is taken as seriously as lead poisoning.
-Second, one-commandment-based societies allow for scalable, parallel, consensual ex-
-ploration of sociopolitical space. Different groups that disagree with each other on how
-to live can nevertheless support the meta-concept of many different one-commandment-
-based experiments. And indeed, both a carnivore community and vegan village would
-likely have better health outcomes than the default Western diet, even if these com-
-munities disagree on core moral premises.
+Second, one-commandment-based societies allow for scalable, parallel, consensual exploration of sociopolitical space. Different groups that disagree with each other on how
+to live can nevertheless support the meta-concept of many different one-commandmentbased experiments. And indeed, both a carnivore community and vegan village would
+likely have better health outcomes than the default Western diet, even if these communities disagree on core moral premises.
 104By “exit-constrained,” we mean that everyone present in a given startup society can cancel their
 subscription and leave at any time.
 
-
-144
 CHAPTER 2. HISTORY AS TRAJECTORY
 Third, there’s a network effect between societies. Each starts off highly focused, of
 course — much as a startup company tries to attract customers with a single focused
-product, each startup society tries to attract subscribers with a single focused com-
-mandment. And as with a startup company, any individual experiment towards a new
+product, each startup society tries to attract subscribers with a single focused commandment. And as with a startup company, any individual experiment towards a new
 sociopolitical order may succeed or fail. But so long as some one-commandment-based
 startup societies succeed, they can copy each other’s proven moral innovations.
 Fourth, each of these one-commandment-based startup societies is supported by a
@@ -6596,8 +6146,7 @@ stands outside all states. And each has a governing ideology.
 • Woke Capital3 is the ideology of America’s ruling class as explicated by America’s
 ruling newspaper, The New York Times. It’s capitalism that enables decentralized
 censorship, cancel culture, and American empire. It’s drone-strike democracy.
-• Communist Capital is the ideology of the Chinese Communist Party. It’s capital-
-ism checked by the centralized power of the Chinese party-state, as summarized
+• Communist Capital is the ideology of the Chinese Communist Party. It’s capitalism checked by the centralized power of the Chinese party-state, as summarized
 here: Leninist, Confucianist, Capitalist, and Nationalist.
 • Crypto Capital is the international ideology of Bitcoin and web3. It’s stateless
 capitalism, capitalism without corporations, decentralized censorship-resistance,
@@ -6611,10 +6160,7 @@ woke, or if they pivot from wokeness to American statism, as seems likely, you m
 more staying power. So you might also call these Dollar Capital vs Yuan Capital vs Bitcoin Capital
 (to emphasize the reserve currency). Or even Chinese Capital vs American Capital vs Internet Capital
 (to emphasize the state-associated nature of the first two, and the stateless nature of the third).
-145
 
-
-146
 CHAPTER 3. THE TRIPOLAR MOMENT
 China, the one that domestic regime opponents align around.
 While superficial aspects of these ideologies may shift with circumstance, we claim
@@ -6627,8 +6173,7 @@ navigate between these poles, the tripolar triangle of the digital world.
 The Dated and the Timeless
 Before we go further, let’s note: anything written about current events is, by its nature,
 likely to become dated.
-It is possible, even likely, that the US Establishment sheds its skin once again, down-
-playing wokeness and emphasizing loyalty to the state, just as they transitioned
+It is possible, even likely, that the US Establishment sheds its skin once again, downplaying wokeness and emphasizing loyalty to the state, just as they transitioned
 overnight from the “Global War on Terror” to the domestic war on your tweets.4
 It is possible, although less likely, that George Soros, Peter Zeihan, Gordon Chang, and
 Roger Garside eventually prove right, that Xi Jinping is displaced from his position
@@ -6657,13 +6202,12 @@ breaking a sweat.
 
 
 3.3. A BIPOLAR AMERICA AND A TRIPOLAR TRIANGLE
-147
+
 That is, a similar tripolar configuration has occurred before. But first let’s establish
 how it came about today.
 3.3
 A Bipolar America and a Tripolar Triangle
-In 1990, as the USSR was clearly falling apart, Charles Krauthammer wrote an influ-
-ential essay called the Unipolar Moment. It made the point that with the Cold War at
+In 1990, as the USSR was clearly falling apart, Charles Krauthammer wrote an influential essay called the Unipolar Moment. It made the point that with the Cold War at
 an end, the US was the sole dominant power on the planet, and would be for roughly
 a generation, after which point “multipolarity will come in time.”5 This thesis held up
 well: unipolarity was true in the 1990s, mostly true6 in the 2000s, much less true with
@@ -6680,8 +6224,6 @@ He modeled the world not as unipolar, or as a sum of random interstate rivalries
 atomized individuals, but as constituted of civilizational blocs that would eventually clash with each
 other.
 
-
-148
 CHAPTER 3. THE TRIPOLAR MOMENT
 3.4
 Moral Power, Martial Power, Money Power
@@ -6709,7 +6251,7 @@ Its moral power9 allowed it to plant moles in every country, which compensated f
 
 
 3.4. MORAL POWER, MARTIAL POWER, MONEY POWER
-149
+
 lack of money and manufacturing. American sympathizers funded the buildout of the
 Soviet state, handed it diplomatic recognition, distracted Japan on its behalf, supplied
 it with the Lend-Lease Act during WW2 and nuclear weapons afterward, and generally
@@ -6721,8 +6263,7 @@ words. It did have an inescapable propaganda apparatus, but its moral preaching 
 martial; it did leave some money-oriented businesses intact, but said it was socialist;
 its raison d’être was ruthless self-interest. It is in this sense that Nazi Germany was a
 martial power.
-To support this martial power, the Germans needed a tremendous manufacturing build-
-out, which they accomplished. Many historians believe the German military had, on
+To support this martial power, the Germans needed a tremendous manufacturing buildout, which they accomplished. Many historians believe the German military had, on
 a pound-for-pound basis, the best equipment in the war. But because they lacked
 the capitalist’s ability to cooperate across borders, they drove away some of their best
 scientists prior to murdering others, ensuring they’d never gain the atomic bomb. And
@@ -6735,8 +6276,7 @@ as opposed to Soviet communism or national socialism. They preached a morality,
 but framed it in terms of a capitalist-friendly four freedoms; they built an arsenal of
 democracy, but it arose from their commercial industrial base. It is in this sense that
 WW2 America was a money power.
-Accompanying the money power was media power, just as capitalism went with democ-
-racy. The Americans were much better at media than the Nazis (who couldn’t argue in
+Accompanying the money power was media power, just as capitalism went with democracy. The Americans were much better at media than the Nazis (who couldn’t argue in
 English) and incrementally better than the Soviets (whose propaganda was ultimately
 undermined by their lack of prosperity). The media battle was a close-run thing, but
 in the end blue jeans out-competed the Red Army.
@@ -6752,8 +6292,6 @@ WW2. The unconventional wisdom is that the Russians did with sheer manpower. The
 the US really did beat Nazi Germany, because Soviet communists couldn’t profitably coordinate their
 economy, and needed an arms bailout from the stable industrial base of the USA.
 
-
-150
 CHAPTER 3. THE TRIPOLAR MOMENT
 3.4.2
 Moral Network, Martial Network, Money Network
@@ -6763,8 +6301,7 @@ to mid-century is that each of these are networks that are upstream of states, r
 than primarily states themselves.
 NYT: The Moral Network
 The NYT-centered network of journalists “holds power to account” and thereby stands
-above any mere elected government. Its go-to tactics are moral badgering and mole-
-driven espionage, just like the Soviet Union.
+above any mere elected government. Its go-to tactics are moral badgering and moledriven espionage, just like the Soviet Union.
 On the moral point, go back and look at any recent NYT headline and note how many
 of the articles involve a moral rather than factual premise as the core point. Free
 speech is bad, white people are bad, communism was good. . . this is the kind of thing
@@ -6799,17 +6336,15 @@ gaining them money at the expense of power.
 
 
 3.4. MORAL POWER, MARTIAL POWER, MONEY POWER
-151
+
 of candor, they “report on but do not investigate Reuters and CNBC” because they
 are “direct rivals”. We occasionally hear about incidents like the episode where ABC
 got CBS to fire the Robach leaker, or when NBC tried to stifle Ronan Farrow’s work,
-but those are the just the tip of the iceberg. There’s an enormous incentive for estab-
-lishment journalists to engage in anti-competitive collusion, because if they all agree
+but those are the just the tip of the iceberg. There’s an enormous incentive for establishment journalists to engage in anti-competitive collusion, because if they all agree
 on what is “true”, who can then fact-check them? No one can “hold accountable” those
 with the power to hold the government accountable.
 CCP: The Martial Network
-This one may require the most explanation as it’s the most foreign to Western expe-
-rience. First we’ll describe why CCP is primarily a network, and then why it’s now
+This one may require the most explanation as it’s the most foreign to Western experience. First we’ll describe why CCP is primarily a network, and then why it’s now
 mainly martial. We don’t pretend to be China experts — few are! — but these are
 relatively basic points that are still not that well known.
 Why Is CCP a Network?
@@ -6837,13 +6372,9 @@ The applicant will then attend party courses, where he will learn about
 the party’s constitution, after which he will have to take and pass written
 tests. . .
 
-
-152
 CHAPTER 3. THE TRIPOLAR MOMENT
-Upon passing the tests, the applicant will required to submit more materi-
-als to the party branch, including personal information of himself and his
-parents. Information about his employment and his parents’ political affil-
-iations also have to be disclosed. Probationary party membership will be
+Upon passing the tests, the applicant will required to submit more materials to the party branch, including personal information of himself and his
+parents. Information about his employment and his parents’ political affiliations also have to be disclosed. Probationary party membership will be
 granted upon:
 • passing the screening,
 • being recommended by two party members, and
@@ -6851,8 +6382,7 @@ granted upon:
 Probation lasts at least a year. At the end of the probation period, the
 party branch decides whether to admit the applicant, extend the probation
 or expel him.
-Lest one misbehave during the probationary period, there are consequences if the ap-
-plicant does not behave up to strict standards:
+Lest one misbehave during the probationary period, there are consequences if the applicant does not behave up to strict standards:
 In the ensuing one-year probation period, the admission process can still
 be stopped if “party discipline” is breached.
 And if you are finally cleared by the Party to join, you have a lifelong commitment to
@@ -6867,20 +6397,18 @@ Everytime the Chairman of China releases important article address the
 issues of current affairs and overarching strategy for the next five years,
 you write that article 10 times, handwritten, due tomorrow. Thankfully,
 these are like, once every five years.
-If you break the law, no matter how small, you get a “Party Internal Warn-
-ing” post. And yes, you write [a] reflection essay about what had led you
+If you break the law, no matter how small, you get a “Party Internal Warning” post. And yes, you write [a] reflection essay about what had led you
 astray, and how wrong you realize you are. . . If it is serious, you are back to
 probation period. . . even more serious? The double policy, you lose both
 your party status and office title. . .
-13Despite their 95M person scale, CCP members comprise only 7% of China’s massive 1.4B popula-
-tion, which is why admission can be so selective. Indeed, as described, the process selects for diligence,
+13Despite their 95M person scale, CCP members comprise only 7% of China’s massive 1.4B population, which is why admission can be so selective. Indeed, as described, the process selects for diligence,
 ideological alignment, and moderate levels of intelligence and initiative: enough smarts and ambition
 to fill out an application to be part of an important group, but not enough to do something off the
 beaten track. In other words, it’s similar to modern America’s college application process.
 
 
 3.4. MORAL POWER, MARTIAL POWER, MONEY POWER
-153
+
 Seems very alien to a Western mindset! What people would choose to constantly post
 new essays regurgitating the latest in regime propaganda, and indoctrinating their
 coworkers and family members? But it all fits if you think of them as China’s New
@@ -6909,8 +6437,7 @@ Robotics could shift manufacturing out of China, but until then it is quite poss
 the “arsenal of democracy” is more like the “arsenal of communism.”14
 Note however that just because China becomes primarily a martial power does not
 mean it will necessarily win a physical conflict. The Nazis too in our framework were
-primarily a martial power, and did not win. Then again, while the Nazis were out-
-numbered by the US/UK/USSR by a 5:1 ratio (70M to 350M), the Chinese outnumber
+primarily a martial power, and did not win. Then again, while the Nazis were outnumbered by the US/UK/USSR by a 5:1 ratio (70M to 350M), the Chinese outnumber
 the Americans by a roughly 4:1 ratio (1.4B to 330M), so past performance may not be
 predictive of future results.
 14If you’re interested in a counterargument, Peter Zeihan has written at length about how weak he
@@ -6924,8 +6451,6 @@ scale even as the US is losing that capability — so it’s implausible that it
 blue water navy, though it might well be an unmanned one. See also Christian Brose in the The Kill
 Chain and Kai-Fu Lee in AI Superpowers.
 
-
-154
 CHAPTER 3. THE TRIPOLAR MOMENT
 BTC: The Money Network
 This one is almost too obvious, so we won’t belabor it. The global network of BTC
@@ -6935,10 +6460,8 @@ it’s very hard for states to seize Bitcoin, in the absence of some kind of qua
 computing breakthrough.
 But it’s primarily a money power rather than a moral power like NYT, or a martial
 power like CCP.
-The less-obvious point is that BTC — and its adjacent group of web3 users — are be-
-coming a media power that will eventually topple the NYT, much as the 20th century
-US’s media power eventually outcompeted that of the Soviet Union. Why? Decentral-
-ized media. You can see early signs of this with Substack, Mirror, and NFTs. . . but in
+The less-obvious point is that BTC — and its adjacent group of web3 users — are becoming a media power that will eventually topple the NYT, much as the 20th century
+US’s media power eventually outcompeted that of the Soviet Union. Why? Decentralized media. You can see early signs of this with Substack, Mirror, and NFTs. . . but in
 brief, the best content creators have better things to do than work for the establishment.
 They can become publishers of their own, by founding their own media companies. As
 with the CCP’s transition to a martial power, the BTC/web3 transition to a money
@@ -6946,8 +6469,7 @@ and media power is not at all conventional wisdom.
 3.4.3
 Overlaps and Exceptions
 Of course, these aren’t pure forms.
-NYT is a publicly traded multibillion dollar corporation, and is certainly able to influ-
-ence the Fed and other huge flows of money. And it can spur much of the US military
+NYT is a publicly traded multibillion dollar corporation, and is certainly able to influence the Fed and other huge flows of money. And it can spur much of the US military
 into action with a fake article or three. So it has money and martial power, even if it
 is primarily a moral power.
 CCP endlessly preaches to its citizens via Xuexi Qiangguo, and until recently was
@@ -6955,8 +6477,7 @@ focused entirely on business. So it has a moral and money power as well, though 
 becoming primarily a martial power.
 Finally, Bitcoin certainly makes a set of implicit moral arguments: inflation is bad,
 centralization is bad, pseudonymity is good, and the like. And it has a martial power,
-though it’s entirely defensive, as the combination of encryption and physical decen-
-tralization render it resistant to 20th-century-style military attacks. But it is, perhaps
+though it’s entirely defensive, as the combination of encryption and physical decentralization render it resistant to 20th-century-style military attacks. But it is, perhaps
 obviously, fundamentally a money power.
 One can do a similar exercise for the US/USSR/NSDAP triangle.
 3.5
@@ -6968,7 +6489,7 @@ Party, and they’re powerful, so you must bow your head. This is very simple an
 
 
 3.5. SUBMISSION, SYMPATHY, SOVEREIGNTY
-155
+
 straightforward and easy to understand, though it only really works for them within
 China and the Chinese internet.
 The NYT pole is slightly more subtle: they demand you must sympathize. After all
@@ -6994,11 +6515,9 @@ want a CCP society where everyone has no recourse but to submit, because that ca
 easily become a now-digital totalitarianism. On the other hand, you also don’t want a
 society where no one submits to anyone, because that looks like San Francisco, where
 people can run into Walgreens and steal everything.
-You don’t want the NYT-run society where everyone has no recourse but to sympa-
-thize with the current thing, because that results in what Matt Yglesias has called the
+You don’t want the NYT-run society where everyone has no recourse but to sympathize with the current thing, because that results in what Matt Yglesias has called the
 Great Awokening: the emotive and irrational breakdowns that set America on fire and
-continue to roil US society. Yet you also don’t want the society where no one sym-
-pathizes, because that looks like the Grand Theft Auto environment of 1990s Russia,
+continue to roil US society. Yet you also don’t want the society where no one sympathizes, because that looks like the Grand Theft Auto environment of 1990s Russia,
 the low-trust post-communist society where any cooperative endeavor is regarded as a
 scam.
 Finally, and perhaps least obviously, you don’t want the society where everyone must
@@ -7014,12 +6533,9 @@ where the reverse has happened. And consider that pronoun choice itself assumes 
 speakers.
 16As you will, Bitcoin Maximalism takes many libertarian leanings to their irrational limits, just as
 
-
-156
 CHAPTER 3. THE TRIPOLAR MOMENT
 water from out of the ground, growing your own food, not trusting any vendor or
-person other than yourself, and generally ending the division of labor that makes cap-
-italism run. Extreme autarky might sound romantic, but in the absence of robotic
+person other than yourself, and generally ending the division of labor that makes capitalism run. Extreme autarky might sound romantic, but in the absence of robotic
 breakthroughs going truly off-grid is a recipe for dramatic regression in the standard of
 living. Conversely, of course you don’t want a society where no one has the possibility
 of being sovereign at all, as this leaves us all subject to the not-so-incipient digital
@@ -7041,10 +6557,8 @@ checks and balances. This concept is the basis of the recentralized center, an i
 discuss in depth later.
 3.6
 Conflicts and Alliances
-A tripolar triangle leads to surprisingly complicated dynamics. During the Great De-
-pression, FDR’s US admired the Nazis and the NYT wrote encomiums to them, as
-documented in Three New Deals and The Gray Lady Winked. Then, after the Molotov-
-Ribbentrop Pact, the USSR and the Nazis kicked off World War 2 by invading Poland
+A tripolar triangle leads to surprisingly complicated dynamics. During the Great Depression, FDR’s US admired the Nazis and the NYT wrote encomiums to them, as
+documented in Three New Deals and The Gray Lady Winked. Then, after the MolotovRibbentrop Pact, the USSR and the Nazis kicked off World War 2 by invading Poland
 together, with the USSR standing by as the Nazis fought the Anglo-Americans, and the
 US-aligned UK seriously contemplating bombing the Soviets. Later, the USSR and the
 Nazis fought each other during Barbarossa. Then, the US and the USSR teamed up
@@ -7061,7 +6575,7 @@ under control. Officially the change of partners had never happened. Oceania was
 
 
 3.6. CONFLICTS AND ALLIANCES
-157
+
 states switched all the time.
 With networks rather than states, the coalitions are even more fluid, with several
 existing simultaneously.
@@ -7092,8 +6606,7 @@ state power.
 NYT + BTC vs CCP. This is Western voice and exit together vs Eastern control. It’s
 when NYT’s interests in disrupting the Chinese regime and BTC’s interests in providing
 globally uncensorable savings overlap to provide a thorn in the side for CCP. The web3
-part of BTC/web3 becomes particularly important here, because it provides hard-to-
-censor global services that complement digital gold, which on its own is necessary but
+part of BTC/web3 becomes particularly important here, because it provides hard-tocensor global services that complement digital gold, which on its own is necessary but
 not sufficient for freedom.
 BTC + CCP vs NYT. This is the post-American world against the American empire.
 Against the inflating dollar, China and crypto together can do something neither can
@@ -7102,8 +6615,6 @@ of operating completely outside the dollar, and based on a more modern digital y
 therefore Oceania had always been at war with Eurasia. The enemy of the moment always represented
 absolute evil, and it followed that any past or future agreement with him was impossible.”
 
-
-158
 CHAPTER 3. THE TRIPOLAR MOMENT
 to boot. The BTC/web3 part of this aligns American dissidents18 with global crypto
 holders, and promotes neutral protocols19 that take away American root access (but
@@ -7121,8 +6632,7 @@ times were better under Hu, as well as the many groups left and right who’ve s
 fortunes dim under newly aggressive Chinese nationalism. . . but, again, who still see
 themselves as Chinese first, and don’t want to bend to American imperialism.
 Near the BTC pole is the web3 community and the tens of millions of Bitcoin holders
-who don’t identify as Maximalists. . . but who also still subscribe to many of the inter-
-nationalist principles that presuppose an internet without American or Chinese root
+who don’t identify as Maximalists. . . but who also still subscribe to many of the internationalist principles that presuppose an internet without American or Chinese root
 control over the financial or communication systems.
 3.6.4
 The Road To Recentralization
@@ -7154,8 +6664,7 @@ human action can influence outcomes.
 Because we aren’t communists that believe
 in the historical inevitability of utopian outcomes, but technologists that believe in
 individual initiative subject to practical constraints.1
-The previous two chapters were about those constraints, about the past and the im-
-mediate present. They orient us to discuss several possible futures, before picking out
+The previous two chapters were about those constraints, about the past and the immediate present. They orient us to discuss several possible futures, before picking out
 one trajectory to focus on - the one where we materialize many startup societies, get a
 few diplomatically recognized as network states, and rebuild high-trust societies via a
 recentralized center.
@@ -7176,10 +6685,7 @@ central to the whole thing as society transitioned from subsistence agriculture 
 so too are we transitioning from the industrial age to a technological age driven by entrepreneurs and
 investors. Tech culture, startup culture, and now BTC/web3 culture is becoming global culture. And
 the modest “why now” slide is a little piece of that - it’s history for pragmatists, functional history,
-159
 
-
-160
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 of the network state. But we cited our references, so you can check our facts.
 On the topic of the present, our chapter on the Tripolar Moment is the section of the
@@ -7210,8 +6716,7 @@ predictions themselves, sometimes to make them come true. In social science, unl
 physical science, every row in a dataset represents a human being with a mind of their
 own.
 The concept of competing curves refers to the fact that there are many simultaneous
-technopolitical movements competing at the present moment, different phenomena ris-
-ing from zero to affect millions over the course of years, months, or even days. For
+technopolitical movements competing at the present moment, different phenomena rising from zero to affect millions over the course of years, months, or even days. For
 example, if you take a look at this graph of how people met their spouses, you can see
 several different curves rising and falling as different cultural movements “come online,”
 history with a point, history that is not (as Henry Ford once said) bunk.
@@ -7226,7 +6731,7 @@ the book.
 
 
 4.1. THE POSSIBLE FUTURES
-161
+
 until the internet just dominates everything. Another example is the market share of
 social networks over time; a third is Ray Dalio’s graph of the rise and fall of nations.
 The point is that you can identify the players, but not always the outcome, in a complex
@@ -7243,8 +6748,7 @@ orbital. It’s checked by reproducible experiment, and your device fails if it 
 financial prediction is at the opposite end of the spectrum: it’s a macroscopic bet on
 the volatile, reflexive behavior of other human beings. It’s checked by the unforgiving
 market, and your fund fails if it fails.
-We aren’t as interested in betting on manipulation-prone government statistics. Ac-
-cording to the Chinese government of 2021, the number of COVID deaths in China
+We aren’t as interested in betting on manipulation-prone government statistics. According to the Chinese government of 2021, the number of COVID deaths in China
 from mid 2020-2022 was zero. According to the San Francisco government of 2021,
 the crime rate in SF was declining. According to the US establishment of 2021, the
 inflation of the dollar was transitory. All this reminds us of the Soviet government of
@@ -7269,34 +6773,26 @@ and Technoeconomic axes. These are mental models that hopefully help compress la
 amounts of data into rough patterns.
 Next, in the section on Foreseeable Futures, we put on our tech investor hats and
 
-
-162
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 project out into the near future, describing developments we anticipate. These aren’t
 just random investment theses, though; they’re pieces of the future that are relevant
 to startup societies and network states.
-We then game out one specific science fiction scenario in detail that we think is unfor-
-tunately quite plausible: American Anarchy, Chinese Control, and the International
+We then game out one specific science fiction scenario in detail that we think is unfortunately quite plausible: American Anarchy, Chinese Control, and the International
 Intermediate. In this scenario, we project a Second American Civil War triggered in
 part by a broke US government that attempts Bitcoin seizures, a situation we call
-American Anarchy. Unlike the first Civil War, this would be a stochastic struggle be-
-tween two Networks rather than an explicit dispute between two States. It would be
+American Anarchy. Unlike the first Civil War, this would be a stochastic struggle between two Networks rather than an explicit dispute between two States. It would be
 more undeclared than declared, more invisible than legible. And this conflict could end
 in decentralization and disunion instead of centralization and consolidation. As radical
-as that sounds, many thinkers from across the political spectrum already foresee some-
-thing like this happening in different ways, including Stephen Marche, David Reaboi,
+as that sounds, many thinkers from across the political spectrum already foresee something like this happening in different ways, including Stephen Marche, David Reaboi,
 Barbara Walter, and Kurt Schlichter, though like me none of them are particularly
 happy about the prospect.
-Meanwhile, in this fictional scenario, the CCP implements an intense domestic crack-
-down on the other side of the world to maintain stability, preventing Chinese people
+Meanwhile, in this fictional scenario, the CCP implements an intense domestic crackdown on the other side of the world to maintain stability, preventing Chinese people
 from freely leaving the digital yuan network with their property, a result we refer
 to as Chinese Control. As America descends into anarchy, the CCP points to their
-functional-but-highly-unfree system as the only alternative, and exports a turnkey ver-
-sion of their surveillance state to other countries as the next version of Belt and Road,
+functional-but-highly-unfree system as the only alternative, and exports a turnkey version of their surveillance state to other countries as the next version of Belt and Road,
 as a piece of “infrastructure” that comes complete with a SaaS subscription to China’s
 all-seeing AI eye.
-In the name of putting a lid on the anarchy and restoring “democracy”, the US es-
-tablishment then silently copies CCP’s methodology without admitting they’re doing
+In the name of putting a lid on the anarchy and restoring “democracy”, the US establishment then silently copies CCP’s methodology without admitting they’re doing
 so, much as they cloned China’s lockdown after loudly denouncing it. Similarly, after
 spending a decade pretending to decry “surveillance capitalism”, the US establishment
 formally deputizes many Big Tech companies as official arms of the surveillance state.
@@ -7312,12 +6808,11 @@ different from our present.5
 and Stephen Marche’s writings on a possible Second American Civil War, Peter Zeihan’s work, or David
 Reaboi and Kurt Schlicter. All of them also think the current age will soon be giving way. Of them, I
 agree with Dalio on about 70%, but he’s a bit more bullish on China than I am and doesn’t take BTC
-or technology into account as a factor. I agree with Walter/Marche and Zeihan on perhaps only 20-
-30%, but it’s worth reading them for the US establishment and heterodox neocon views respectively.
+or technology into account as a factor. I agree with Walter/Marche and Zeihan on perhaps only 2030%, but it’s worth reading them for the US establishment and heterodox neocon views respectively.
 
 
 4.1. THE POSSIBLE FUTURES
-163
+
 Think of the American-Anarchy-vs-Chinese-Control scenario as a strong form model
 of how NYT, BTC, and CCP could collide, with startup societies and network states
 arising out of that atom-smasher as deliberately created alternatives to Wokeness,
@@ -7342,8 +6837,7 @@ Our goal in thinking all this through is not pessimistic but pragmatic: to chang
 what we can change, by setting up a fourth pole as an alternative to the failing US
 establishment, to maximalist crypto-anarchy, and to the centralized surveillance state
 of the CCP.
-We call the raw material for this fourth pole the International Intermediate. It in-
-cludes American centrists, Chinese liberals, Indians, Israelis, web3 technologists, and
+We call the raw material for this fourth pole the International Intermediate. It includes American centrists, Chinese liberals, Indians, Israelis, web3 technologists, and
 essentially everyone from around the world that wants to avoid both the American and
 Chinese whirlpools.
 At first blush, this group represents ~80% of the world population and has little in
@@ -7359,13 +6853,10 @@ driven by international and technological factors to a much greater extent than 
 currently appreciate, because the American theater is becoming the acted-upon, and not simply the
 global actor.
 
-
-164
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 of the International Intermediate needs to build something better than both American
 Anarchy and Chinese Control, a concrete improvement over the propaganda, coercion,
-surveillance, and conflict that may soon characterize the two pillars of the global econ-
-omy.
+surveillance, and conflict that may soon characterize the two pillars of the global economy.
 In other words, the rest of the world will need to lead. They can’t hope for the US
 establishment or CCP to figure it out. And that’s the Recentralized Center: a circle of
 startup societies and network states built by pragmatic founders, a group of high-trust
@@ -7401,7 +6892,7 @@ that they overlap in a way that would have been unthinkable a few decades ago.
 
 
 4.2. SOCIOPOLITICAL AXES
-165
+
 Next, let’s talk about the Indian diaspora. There are about five million people of Indian
 ancestry in the US, UK, Canada, and Australia, and a fair bit more if we include the full
 South Asian diaspora. They have done quite well over the last few decades. While the
@@ -7431,8 +6922,7 @@ humanity in fundamental ways. Conversely, anarcho-primitivists think technology 
 bad, and want to to return to the wild, de-industrialize, and abandon technology. They
 think of humans as pollution on this great Earth.
 There are right and left varieties of each, though they overlap. Left transhumanists like
-Klaus Schwab of the World Economic Forum to some extent give rise to right anarcho-
-primitivists, and vice versa. Basically, left transhumanists make changes to the human
+Klaus Schwab of the World Economic Forum to some extent give rise to right anarchoprimitivists, and vice versa. Basically, left transhumanists make changes to the human
 body that rightists find aesthetically unappealing. Conversely, right transhumanists
 advocate improvements to the human body that left anarcho-primitivists find terrifying.
 It works in reverse as well.
@@ -7442,8 +6932,6 @@ anarcho-primitivists want a Unabomber-like end to industrial civilization which 
 (among other things!) destroy the supply chains needed for the life extension sought
 by transhumanists.
 
-
-166
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 4.2.3
 The Identity Stack
@@ -7466,8 +6954,7 @@ Still others are patriotic about their companies, those things they’ve founded
 funded, breathed life into, those entities that took all their capital and intellect to
 build, which are always far more fragile than they look from the outside, and which
 some callous outsider could break for likes with a few morale-draining tweets.
-And yet others characterize themselves by their cryptocurrencies, thinking of them-
-selves first and foremost as Bitcoiners or Ethereans.
+And yet others characterize themselves by their cryptocurrencies, thinking of themselves first and foremost as Bitcoiners or Ethereans.
 These folks are often digital
 nomads, indifferent as to whether they see the sunset in San Francisco or Singapore, or
 what crypto exchange lives or dies, so long as they can check in with their community
@@ -7477,8 +6964,7 @@ people are identifying with. The city patriot may be a homeowner or otherwise in
 in city governance. The country patriot may have signed a military contract. The
 company patriot may be a founder or early employee with a significant equity stake.
 And the cryptocurrency patriot is often a sizeable holder of coins.
-Now, not all things are like this; people can be right-handed without identifying them-
-selves as right handers, they can do something without being something. So top-level
+Now, not all things are like this; people can be right-handed without identifying themselves as right handers, they can do something without being something. So top-level
 identity, primary identity - that’s precious, it’s rare, it’s the identity that supersedes all
 others. People might use seven daily apps but they have even fewer primary identities
 - usually only one.
@@ -7490,14 +6976,13 @@ the fore of someone’s Twitter bio.
 
 
 4.3. TECHNOECONOMIC AXES
-167
+
 Example: Twitter Bios
 Here’s a concrete example of the identity stack, with three Twitter bios:
 • Jim: #HereWeGo #SteelerNation — All Things PA — Father — Husband —
 #Christian — #ArmyVet
 • Billy: Immutable money, infinite frontier, eternal life. #Bitcoin
-• Bob: Army retired, anti-terrorist assistance program, husband, father, grandfa-
-ther, Iraq vet, educator, but most importantly an AMERICAN!
+• Bob: Army retired, anti-terrorist assistance program, husband, father, grandfather, Iraq vet, educator, but most importantly an AMERICAN!
 Again, everybody is patriotic about something. Jim loves his city; Billy is patriotic
 about technology and transhumanism; Bob would fight for the American flag.
 The collection of all that defines someone, in rank order, is their identity stack. The top
@@ -7517,8 +7002,6 @@ logical conclusion, instantly, even when that digital logic doesn’t quite work
 reality. This means things can flip from zero to one, without warning. An overnight
 success, ten seconds in the making. The only certainty is rising volatility.
 
-
-168
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 First, the observation: over the last 20 years, we’ve gone from 30 minute sitcoms to
 30 second clips and 30 episode Netflix binges. From a stable 9-5 job to a gig economy
@@ -7528,8 +7011,7 @@ This is a very general phenomenon.
 You see it in the dashboard of every internet
 disruptor. With Uber, for example, relative to the time of a standard taxi ride, some
 Uber trips are much longer and others much shorter.
-Why is this happening? Because the internet connects people peer-to-peer. It disinter-
-mediates. In doing this it removes the middleman, the mediator, the moderator, and
+Why is this happening? Because the internet connects people peer-to-peer. It disintermediates. In doing this it removes the middleman, the mediator, the moderator, and
 the mediocrity. Of course, each of those words has a different connotation. People are
 happy to see the middleman and mediocrity go, but they don’t necessarily want to see
 the moderator and mediator disappear.
@@ -7549,8 +7031,7 @@ Then comes the rebundling.
 The songs get grouped into
 playlists, the articles grouped into Twitter feeds. This step too is profitable; it’s not
 the same as what came before, it’s a v3, it’s a flexible bundle. It’s the helical theory of
-history, where from one standpoint we’ve come full circle (“rebundling into an album-
-like playlist”) but from another axis we’ve made amazing progress (“anyone can play
+history, where from one standpoint we’ve come full circle (“rebundling into an albumlike playlist”) but from another axis we’ve made amazing progress (“anyone can play
 any individual song and create whatever playlist they want”).
 With that said, that rebundling is still higher variance than the pre-internet bundles
 that preceded them.
@@ -7567,7 +7048,7 @@ taking away the system administrator.
 
 
 4.3. TECHNOECONOMIC AXES
-169
+
 can cheaply scale it across the rest of the network relatively quickly. So, this probably
 should lead to more net upside over time, just like every past technological revolution
 has. I think we’re already way in the black with the internet (almost every piece of
@@ -7575,11 +7056,9 @@ information ever in billions of people’s hands for free at any time, for start
 depends on your metric.
 Conversely, the establishment can only see the downside outcomes.
 That is, the
-BlueAnons can only see the QAnons who are worse than median, not the Satoshi-
-Anons who are far better than median. It’s a bit like Paul Graham’s concept of the
+BlueAnons can only see the QAnons who are worse than median, not the SatoshiAnons who are far better than median. It’s a bit like Paul Graham’s concept of the
 Blub programmer.
-Just like the Blub programmer can look down to see incompe-
-tence, but can’t look up to see brilliance, the establishmentarian can’t comprehend the
+Just like the Blub programmer can look down to see incompetence, but can’t look up to see brilliance, the establishmentarian can’t comprehend the
 upwards deviations of the internet. They think it’s just weird.
 Just like Hollywood once compared Netflix to the Albanian Army, the US establishment
 doesn’t yet understand how much better Satoshi Nakamoto or Vitalik Buterin is than
@@ -7588,38 +7067,31 @@ that upward deviation is creating a more competent group of global leaders than 
 American establishment, a more meritocratically selected group than the nepotists of
 the East Coast.
 Just as it allowed Satoshi to rise.
-Social Media is American Glasnost, Cryptocurrency is American Pere-
-stroika
+Social Media is American Glasnost, Cryptocurrency is American Perestroika
 There are two particular ways that the internet increases variance worth noting: social
 media and digital currency.
-• Social media increases social volatility. You can go viral or get canceled, experi-
-encing large overnight gains7 or losses in status.
+• Social media increases social volatility. You can go viral or get canceled, experiencing large overnight gains7 or losses in status.
 • Digital currency increases financial volatility. You can go to the moon or “get
 rekt,” experiencing large overnight gains or losses in financial status.
 There’s a parallel in history for this: glasnost and perestroika. Mikhail Gorbachev, the
 last Soviet leader, thought he could reform Soviet society by allowing more free speech
 (via glasnost) and free markets (via perestroika). He didn’t quite understand what he
 was in for. The resultant instability helped bring down the Soviet Union.
-Similarly, social media is like American glasnost and cryptocurrency is American per-
-estroika. Just as Gorbachev unleashed free speech and free market reforms because he
+Similarly, social media is like American glasnost and cryptocurrency is American perestroika. Just as Gorbachev unleashed free speech and free market reforms because he
 believed communism could be reformed, the US establishment actually bought their
-own narrative in the 1990s and 2000s about their ostensibly free and democratic soci-
-ety. Only now are they realizing that the many speech and thought controls that their
+own narrative in the 1990s and 2000s about their ostensibly free and democratic society. Only now are they realizing that the many speech and thought controls that their
 predecessors had set up and hidden in plain sight - like stringent regulations and high
 7Financial status (money) is more measurable than social status, because your bank account balance
 is objectively measurable. But social status has become fairly measurable too, via likes, retweets,
 followers, replies, and backlinks.
 
-
-170
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 capital requirements for broadcast content production - was actually the key to their
 continued power.
 Now that it’s clear that the Internet is to the USA what the USA was to the USSR, that
 it’s truly free speech and free markets, they are trying to tamp down the American
 Spring they’ve unleashed, but it may be too late. Obama was in a sense arguably
-America’s Gorbachev, as he allowed technology to grow mostly unimpeded from 2008-
-2016, to billions of users, without fully realizing what would ensue.
+America’s Gorbachev, as he allowed technology to grow mostly unimpeded from 20082016, to billions of users, without fully realizing what would ensue.
 The 100-Year Information Tsunami
 Few institutions that predated the internet will survive the internet.
 Why? Because the internet increases variance, it causes huge surges of digital pressure
@@ -7630,15 +7102,13 @@ on this topic.
 Indeed, this is a good analogy, because one of the ways to think about the internet is as
 a carrier of massive information waves. Most normal waves propagate in physical space
 –– the standard partial differential equations (PDEs) are 1-, 2-, or 3-dimensional (e.g.
-longitudinal waves like a slinky, transverse like electromagnetic waves, or earthquake-
-style spherical waves). But these information waves propagate on highly dynamic social
+longitudinal waves like a slinky, transverse like electromagnetic waves, or earthquakestyle spherical waves). But these information waves propagate on highly dynamic social
 networks where the topology8 of connection & disconnection changes quite a bit.
 4.3.2
 Naturally Physical to Natively Digital
 The digital is primary and the physical is now secondary.
 Three Phase Transition
-The digital transition happens in three phases: there’s the physical version, the inter-
-mediate form, and then the internet-native version. If you’re into electrical engineering,
+The digital transition happens in three phases: there’s the physical version, the intermediate form, and then the internet-native version. If you’re into electrical engineering,
 you can think of this as analog, to analog/digital, to natively digital.
 • One example is the transition from a piece of paper, to a scanner which scans
 that file into a digital version, to a natively digital text file which begins life on
@@ -7653,14 +7123,13 @@ kind and then think of the wave as propagating on that.
 
 
 4.3. TECHNOECONOMIC AXES
-171
+
 Once you see this pattern you can see it everywhere, and you can look for those spaces
 where we’re still stuck at the v2, at the scanned version, where we’ve taken the offline
 experience and put it online, but not fundamentally innovated.
 Truly Digital News: Dashboards, On-Chain Event Feeds
 Newspapers are actually only partially digitized. In 1996, the primary version of The
-New York Times was the physical paper and the mirror was the website. Then, grad-
-ually, more and more weight got shifted to the digital version. Now it can fairly be
+New York Times was the physical paper and the mirror was the website. Then, gradually, more and more weight got shifted to the digital version. Now it can fairly be
 said that the physical paper is just a printout of the website, a snapshot at a particular
 time. And there are online-only features like interactive graphics that are impossible
 to replicate in the physical paper. Most importantly, the comments section is really
@@ -7675,8 +7144,7 @@ may be a personal or company dashboard, like your fitbit or your sales. This is 
 The first thing you look at each day shouldn’t be random stories someone else picked.
 Should be carefully selected metrics you want to improve. This is a good vector of
 attack to definitionally disrupt newspapers.
-If we think about it from Clayton Christensen’s “jobs to be done” perspective, news-
-papers have this incredible pride-of-place — first thing you look at in the morning! —
+If we think about it from Clayton Christensen’s “jobs to be done” perspective, newspapers have this incredible pride-of-place — first thing you look at in the morning! —
 but typically do not add enough value to deserve that position.
 On-chain event feeds > Twitter > newspapers. One key observation is that just as many
 sports articles are digest of box scores, and many financial articles are summaries of the
@@ -7692,8 +7160,6 @@ Remote Work to Remote Life
 My friend Daniel Gross remarked that 2020 will be seen by future historians as the
 year when the internet age truly began.
 
-
-172
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 The lasting impact of COVID-19 is that it flipped the world from physical to digital
 first. Because the internet in 2000 or 2010 couldn’t bear the load of the entire physical
@@ -7711,8 +7177,7 @@ Now that has flipped. The digital world is primary and the physical world is jus
 mirror. We’re still physical beings, of course. But important events happen on the
 internet first and then materialize in the physical world later, if ever.
 From Printing to Materializing
-All value eventually becomes digital, because we are generalizing the concept of “print-
-ing” from inking a piece of paper to actually materializing digital things in the physical
+All value eventually becomes digital, because we are generalizing the concept of “printing” from inking a piece of paper to actually materializing digital things in the physical
 world. This is counterintuitive, and you’ll have objections. But let’s get there in a few
 steps.
 1. Much value creation is already digital. If you’re reading this, you’re probably
@@ -7738,7 +7203,7 @@ interface of some kind, whether through an ecommerce website like Amazon or a
 
 
 4.3. TECHNOECONOMIC AXES
-173
+
 point-of-sale terminal via Apple Pay. So, it’s already fairly uncommon for people
 in industrialized societies to do a fully offline purely physical transaction, which
 might be conceptualized as “hand a five dollar bill over at a farmer’s market for
@@ -7781,11 +7246,8 @@ paper, or typewriter, you are a golden god surfing on a sea of electrons. You ca
 things happen in seconds that would have taken them weeks, if they could do them at
 all.
 
-
-174
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
-We should also be far more productive in the physical world. After all, our predeces-
-sors built railroads, skyscrapers, airplanes, and automobiles without computers or the
+We should also be far more productive in the physical world. After all, our predecessors built railroads, skyscrapers, airplanes, and automobiles without computers or the
 internet. And built them fast. Using just typewriters, slide rules, & safety margins.
 This is a corollary to the Thiel/Cowen/Hall concept of the Great Stagnation. Where
 has all that extra productivity gone? It doesn’t appear manifest in the physical world,
@@ -7800,10 +7262,8 @@ indistractable few. The founders of tech unicorns, for example, may have more
 ability to focus online than most.
 4. The Great Dilemma. The productivity has been burned in bizarre ways that
 require line-by-line “profiling” of everything, like this tunnel study.
-5. The Great Dumbness. The productivity is here, but we’ve just made dumb deci-
-sions in the West while others have harnessed it. See for example China building
-a train station in nine hours vs taking 100-1000X9 that long to upgrade a Cal-
-train stop. Now, yes, I’m sure not every train station in China is built in nine
+5. The Great Dumbness. The productivity is here, but we’ve just made dumb decisions in the West while others have harnessed it. See for example China building
+a train station in nine hours vs taking 100-1000X9 that long to upgrade a Caltrain stop. Now, yes, I’m sure not every train station in China is built in nine
 hours, and wouldn’t be surprised if some regions in the US (or the West more
 broadly) do better than SFBA. But feels likely that a systematic study would
 find a qualitative speed gap, 10-100X or more.
@@ -7827,7 +7287,7 @@ scratch.
 
 
 4.3. TECHNOECONOMIC AXES
-175
+
 I don’t know the answer, but I think the line-by-line profiling approach used on the
 tunnels is a good but slow way to find out exactly what went wrong, while the approach
 of looking at other countries and time periods – namely, studying history – could
@@ -7837,14 +7297,11 @@ Linguistic Borders of the Internet
 If the organic borders of the physical world are rivers and mountain ranges, the organic
 borders of the internet are software incompatibilities and language barriers.
 The first of these is obvious: Facebook’s ecosystem is distinct from Google’s is distinct
-from Ethereum’s, because the backends don’t fully overlap, because they’re incompat-
-ible at the software level.
+from Ethereum’s, because the backends don’t fully overlap, because they’re incompatible at the software level.
 The second is a bit less obvious.
 You can imagine the internet being cut up into
-continental-scale pieces, with the English-language internet being the largest with bil-
-lions of people, the Chinese-language internet being the second largest with 1.3 billion,
-and so on for the Spanish-language, Japanese-language, Korean-language, Russian-
-language internets.
+continental-scale pieces, with the English-language internet being the largest with billions of people, the Chinese-language internet being the second largest with 1.3 billion,
+and so on for the Spanish-language, Japanese-language, Korean-language, Russianlanguage internets.
 One huge difference between the English internet and Chinese internet is that the
 former is global and arguably decentralized while the latter is heavily concentrated in
 China with the CCP maintaining root control over most key nodes.
@@ -7865,8 +7322,6 @@ is that two or more subgroups within a network have such conflict that it reduce
 global value of the network for both, until one of them defects to another network. So
 it’s a network “defect” in both senses of the term: a failure and a political defection.
 
-
-176
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 4.4
 Foreseeable Futures
@@ -7903,8 +7358,7 @@ dominated by natural law, but the digital world run by human-written code. The o
 world still exists, physics and biology still exist, but algorithms and databases run even
 more of human existence. The Network surrounds us to an even greater extent than
 the State did.
-If combined with some kind of gesture interface (gloves, rings, or perhaps just sophis-
-ticated motion tracking), you might be able to use your hands to do anything in the
+If combined with some kind of gesture interface (gloves, rings, or perhaps just sophisticated motion tracking), you might be able to use your hands to do anything in the
 digital realm. So, with AR glasses, the digital and physical realms fully blend, and
 people would actually be able to see and interact with an open metaverse in real life.
 
@@ -7935,8 +7389,7 @@ But the marketplace operator has immense power to shape
 incentives for good or ill. So the naive libertarian belief in a fully decentralized Hayekian
 order does not always come about.
 4.5
-American Anarchy, Chinese Control, Interna-
-tional Intermediate
+American Anarchy, Chinese Control, International Intermediate
 Here we give a bit more detail on a sci-fi scenario10 in which the US descends into a
 chaotic Second American Civil War, the CCP responds with the opposite extreme of
 a total surveillance state that traps wealth in its digital yuan network, and the rest of
@@ -7951,8 +7404,6 @@ identified at the time gave rise to counter trends which were not yet observable
 of Microsoft by Satya Nadella, the rise of Trump, and the web3 movement as an alternative to US
 and Chinese tech companies alike.
 
-
-178
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 could fall to an external competitor, and Peter Turchin put out a (less euphemistic)
 model of how the US could fall into internal disorder.
@@ -8015,11 +7466,9 @@ the US and China that many are preparing for, the US may be on track to descend
 into an American Anarchy, a chaotic Second American Civil War between the US
 Establishment and its people.
 We foresee two main factions.
-The first will align around the US federal govern-
-ment, NYT/establishment media, wokeness, the dollar, and the Democrat party; they’ll
+The first will align around the US federal government, NYT/establishment media, wokeness, the dollar, and the Democrat party; they’ll
 say they’re fighting for “democracy” against “insurrectionists.” The second will align
-around state governments, decentralized media, maximalism, Bitcoin, and the Repub-
-lican party; they’ll say they’re fighting for “freedom” against fiat “tyranny.” We can’t
+around state governments, decentralized media, maximalism, Bitcoin, and the Republican party; they’ll say they’re fighting for “freedom” against fiat “tyranny.” We can’t
 predict their names, but rather than Democrat Blue and Republican Red, let’s call
 them Wokes and Maximalists, or (more neutrally) Dollar Green and Bitcoin Orange.
 Crucially, in this scenario, many non-whites will switch sides from Democrat Blue to
@@ -8041,21 +7490,17 @@ How could something as radical as a Second American Civil War happen? You could
 write a book on this, and several people have, but in lieu of that we’ll give a bullet
 pointed list. Before reviewing it, you might want to re-read Ray Dalio, Peter Turchin,
 
-
-180
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 and Strauss & Howe if you want more context, as we won’t be able to recapitulate
 every citation that informs this projection. Done? OK, here we go.
 1. Political polarization is way up. All the graphs show this now. The US is not
-really a “nation state” any more, but a binational country comprised of two war-
-ring ethnic groups that disagree on fundamental moral premises. It is about “god,
+really a “nation state” any more, but a binational country comprised of two warring ethnic groups that disagree on fundamental moral premises. It is about “god,
 gays, and guns”, but it’s also also about censorship, surveillance, and inflation.
 2. State capacity is way down. The competent America of mid-century, the left/right
 fusion that FDR put together, the America that combined a powerful centralized
 state with social conservatism, the America depicted in countless movies, the
 America that won World War Two and the Cold War — that country is over.
-This US government can’t build a bathroom in San Francisco, let alone a cost-
-effective fighter jet, destroyer, combat ship, or aircraft carrier.
+This US government can’t build a bathroom in San Francisco, let alone a costeffective fighter jet, destroyer, combat ship, or aircraft carrier.
 3. Economic prosperity is declining. All the political infighting of the last decade
 happened during a period of relative prosperity, even if it was based on the
 artificial expedient of printing money. But now that we face potentially years of
@@ -8073,27 +7518,23 @@ getting ahead, who feels they are falling behind.
 Without a rising tide that lifts all boats, the “rational” act for some is to sink the
 other boats, to pull escaping crabs down into the bucket. Why? Because misery
 loves company, and because stopping someone from getting too far ahead means
-they can’t outcompete you for houses or mates. The only way out of this negative-
-sum trap is to build provably positive-sum systems and high-trust societies. But
+they can’t outcompete you for houses or mates. The only way out of this negativesum trap is to build provably positive-sum systems and high-trust societies. But
 that’s exactly what the US establishment is not doing.12 It’s fomenting hatred
 on social media every day, and giving new reasons not to trust it — whether that
 be the insistent assurance that inflation is transitory or all the other episodes of
 official misinformation.
 5. Foreign military defeat looms. Leaving aside your feelings about the pandemic,
-12It’s also not what the Maximalists or the CCP offer. The Maximalist interprets Bitcoin’s trust-
-minimization to mean that no one should be trusted, rather than thinking of Bitcoin as a way to choose
+12It’s also not what the Maximalists or the CCP offer. The Maximalist interprets Bitcoin’s trustminimization to mean that no one should be trusted, rather than thinking of Bitcoin as a way to choose
 whom to trust, as a tool to rebuild a high-trust society. And the CCP, like the US establishment,
 doesn’t really give a convincing message to the world at large on why it should be trusted, instead
 pushing a top-down message of loyalty through coercion.
 
 
 4.5. AMERICAN ANARCHY, CHINESE CONTROL, INTERNATIONAL INTERMEDIATE181
-the military propaganda beforehand is worth reviewing. In 2018, the US De-
-partment of Defense put out press releases on its preparation for a pandemic, on
+the military propaganda beforehand is worth reviewing. In 2018, the US Department of Defense put out press releases on its preparation for a pandemic, on
 its sophisticated vaccines. . . and then nothing happened. This was the first time
 many in the public had the opportunity to directly compare statements about
-“secret military programs” to the actual results, just as you might compare pro-
-jections by corporate executives to the actual results. And the size of that gap
+“secret military programs” to the actual results, just as you might compare projections by corporate executives to the actual results. And the size of that gap
 was remarkable. It indicated that at least some of the US military was just words,
 and not real.
 I remarked on this in early 2021, months before the defeat in Afghanistan gave
@@ -8108,8 +7549,7 @@ Russians are gaining ground with long-range artillery. To be clear, it’s not a
 obvious what will happen - there’s fog of war with everything - but in the event
 of an outright Russian victory, defined as gaining territory they didn’t have prior
 to the war, that wouldn’t augur well for the US establishment.
-6. US states are pulling away from the feds. There’s enormous coverage of US poli-
-tics at the national level, because it attracts clicks from all over. But local politics
+6. US states are pulling away from the feds. There’s enormous coverage of US politics at the national level, because it attracts clicks from all over. But local politics
 doesn’t get the same attention. However, if you’ve been paying attention, there
 has been a multi-decadal trend wherein states have been pulling away from the
 federal government and each other on matters like guns, immigration, abortion,
@@ -8120,19 +7560,15 @@ centralization of 1950.
 7. Authority has lost respect. The old American left said something like “we all need
 to work for the common good” while the old right said something like “pay your
 dues and you’ll achieve the American dream.” The new left says “we are all equal”
-and the new right says “you ain’t the boss of me.” So, the old left/right combina-
-tion supported self-sacrifice and a stable hierarchy13, while the new one attacks
+and the new right says “you ain’t the boss of me.” So, the old left/right combination supported self-sacrifice and a stable hierarchy13, while the new one attacks
 all hierarchy as fundamentally illegitimate, as oppressive or tyrannical. This is
 reflected in the defacement and degradation of virtually every US institution over
 the last few decades, from the office of the presidency to the statues of American
 founders. George Washington and the US Capitol are no longer sacred.
 13It had many other flaws, like the suppression of individualism, political centralization, restriction
-of technological innovation, and mass seizure of assets. We’re not romanticizing it. But that mid-
-century ideology, which was itself the result of enormous conflict, was a recipe for a more stable order
+of technological innovation, and mass seizure of assets. We’re not romanticizing it. But that midcentury ideology, which was itself the result of enormous conflict, was a recipe for a more stable order
 than what we have now.
 
-
-182
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 8. National divorce is discussed.
 Secession is now officially part of the platform
@@ -8143,10 +7579,8 @@ Civil War), Barbara Walter (How Civil Wars Start), Michael Malice (“The Case
 for American Secession”), David Reaboi (“National Divorce Is Expensive, But It’s
 Worth Every Penny”), and the American Mind (“The Separation”).
 9. Radicalized movements reject the status quo. There have been countless words
-written on wokeness, on how it’s a radical ideology that thinks of the US as in-
-trinsically corrupt — as systemically x-ist for many values of x — and therefore
-doesn’t really seek to reform America so much as to capture the state to com-
-pletely transform it. See Wesley Yang, Richard Hanania, Matthew Yglesias, John
+written on wokeness, on how it’s a radical ideology that thinks of the US as intrinsically corrupt — as systemically x-ist for many values of x — and therefore
+doesn’t really seek to reform America so much as to capture the state to completely transform it. See Wesley Yang, Richard Hanania, Matthew Yglesias, John
 McWhorter, Bari Weiss, and many others for discussion of different aspects of
 this.
 The thing about wokeness is that it’s not just a superficial weed growing out
@@ -8160,11 +7594,8 @@ But Bitcoin
 Maximalism is. If you haven’t heard of it, you will. Bitcoin Maximalism is by
 far the most important ideology in the world that many people haven’t heard of
 - yet.
-There’s philosophical depth to Maximalism. It represents a root-and-branch re-
-jection of the inflation that powers the US government and thus pays for every-
-thing. It fuses the worldview of Mises, Rothbard, Hayek, and Ron Paul with
-Bitcoin. It naturally aligns with the loss of trust in institutions, with the suspi-
-cious individual who (understandably!) no longer trusts the federal government
+There’s philosophical depth to Maximalism. It represents a root-and-branch rejection of the inflation that powers the US government and thus pays for everything. It fuses the worldview of Mises, Rothbard, Hayek, and Ron Paul with
+Bitcoin. It naturally aligns with the loss of trust in institutions, with the suspicious individual who (understandably!) no longer trusts the federal government
 or US institutions on anything. It’s not merely an edit to the state, it’s the end of
 the state. And it’s a push from an ideological direction the Wokes are ill-prepared
 for, because it’s an aracial ultra-libertarianism rather than the white nationalism
@@ -8175,8 +7606,7 @@ aware: just like wokes who reject “civility” on ideological grounds, maximal
 have developed verbal justifications for being “toxic.”
 I disagree with the fundamental moral premise of Maximalism, which is that
 Bitcoin is the only coin and all other digital assets are sins.14 I don’t believe in
-14Just as the Communist pathologized profit, and the Christian fundamentalist pathologized in-
-terest, the Maximalist pathologizes issuance. It’s certainly possible to abuse these financial tools, to
+14Just as the Communist pathologized profit, and the Christian fundamentalist pathologized interest, the Maximalist pathologizes issuance. It’s certainly possible to abuse these financial tools, to
 
 
 4.5. AMERICAN ANARCHY, CHINESE CONTROL, INTERNATIONAL INTERMEDIATE183
@@ -8190,8 +7620,7 @@ is for the Maximalists: the one coin that’s the alternative to the one state. 
 when the dollar collapses due to inflation, the orange coin becomes the new blue
 jeans, the global symbol of freedom and prosperity.
 (And what’s the alternative to that alternative?
-Many network states as al-
-ternative to one nation state, many coins as alternatives to the one coin, many
+Many network states as alternative to one nation state, many coins as alternatives to the one coin, many
 beliefs as the alternative to one belief system. That’s the polystatist, polynumist,
 polytheist model we describe later on in the Recentralized Center.)
 10. Bitcoin seizure could be the trigger event. All of this is a combustible mix, and
@@ -8226,8 +7655,6 @@ implicit assumption of a global, connected, relatively low-latency internet, and
 Bitcoin can succeed, but my confidence in cryptocurrency is bolstered by the fact that other coins
 exist with different failure modes.
 
-
-184
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 A bankrupt state can and will try to seize funds held at centralized exchanges,
 but for those that have taken their funds off exchanges, the state will need to go
@@ -8238,8 +7665,7 @@ during a time of declining state capacity rather than rising centralization.
 The reason something like this could be the trigger event is that neither side could
 easily back down: Wokes would have no power if their state went bankrupt, and
 Maximalists would have no money if they surrendered to the state.
-Thus, this seems like a relatively foreseeable event that could kick off the Sec-
-ond American Civil War — especially if the seizure bill is passed by the federal
+Thus, this seems like a relatively foreseeable event that could kick off the Second American Civil War — especially if the seizure bill is passed by the federal
 government and some states refuse to enforce it.
 How could that happen? A state-level refusal to enforce might just be part of the
 growing divergence between states from the federal government and each other,
@@ -8298,8 +7724,7 @@ person – like Bitcoin – well, that’s a form of resistance. The set of web3
 are more decentralized16 than centralized Silicon Valley tech companies, that are run
 by communities – those too are a form of resistance.
 As such, if the first Civil War was the “War Between the States”, the second Civil War
-will be the “War Between the Networks.” The graphs we’ve shown relate to Red-vs-
-Blue, but add a tint of yellow to each group and rotate it a bit. Then you’ll get what
+will be the “War Between the Networks.” The graphs we’ve shown relate to Red-vsBlue, but add a tint of yellow to each group and rotate it a bit. Then you’ll get what
 we think is the likely future axis of conflict, which is Bitcoin-Orange-vs-Dollar-Green.
 In areas where Greens control the state, they may use militarized police, tech company
 surveillance, deplatforming, denunciation in media, arrests, seizures, and the like. In
@@ -8314,8 +7739,6 @@ was the only user, so it must have become more decentralized over time — and s
 happen, and what are the metrics for decentralization? A full counterargument, along with proposed
 metrics for intermediate levels of decentralization, is in this piece on Quantifying Decentralization.
 
-
-186
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 are in the minority, these tactics could reverse. Think about the BLM riots, or Jan 6,
 or the doxxing of Supreme Court Justices by angry establishmentarians, or the various
@@ -8330,8 +7753,7 @@ Basically, those who side with the US establishment in this scenario would be th
 same personality type as those who sided with the ancien regime during the French
 Revolution: they’d be fighting to preserve the past. Their message would be one of
 particularism, of American nationalism, of continued dollar supremacy.
-By contrast, those who side with Bitcoin Maximalism would be a revolutionary per-
-sonality fighting to overturn what they saw as tyranny. Their message would be one
+By contrast, those who side with Bitcoin Maximalism would be a revolutionary personality fighting to overturn what they saw as tyranny. Their message would be one
 of universalism, of a system that puts everyone worldwide on the same playing field —
 and that doesn’t privilege America over the rest of the globe like the dollar does.
 This will be an extremely uncomfortable position for the US establishment, because
@@ -8373,8 +7795,7 @@ the rest of the world, and because other states won’t necessarily listen to it
 easily seize Bitcoin globally. So long as the long-term price trend is up, which is not
 guaranteed, then Maximalists win.
 That does lead to a related point: with an estimated 300M cryptocurrency holders
-worldwide at the time of writing, hundreds of millions of people who aren’t Maximal-
-ists already believe in Bitcoin. And it’s on track to be billions by 2030. So long as
+worldwide at the time of writing, hundreds of millions of people who aren’t Maximalists already believe in Bitcoin. And it’s on track to be billions by 2030. So long as
 those holders don’t sell their Bitcoin, that’s a fundamentally new international support
 network of a kind that MAGA Republicans don’t have. That is, a man in Brazil doesn’t
 necessarily care about American Republicans vs Democrats — he’s not an American
@@ -8396,8 +7817,7 @@ Bitcoin for their own reasons, though other states will instead vector towards t
 direction of economic freedom.
 19This is why Maximalists may actually push laws against holding other coins in their jurisdiction.
 You might think that such advocacy would be an ideologically inconsistent fusion of anti-Fed and
-pro-SEC, but there is a logic to the illogic. Maximalists are in favor of anything that makes “number-
-go-up”, what they think of as bringing the price of Bitcoin up in the short run. Many have convinced
+pro-SEC, but there is a logic to the illogic. Maximalists are in favor of anything that makes “numbergo-up”, what they think of as bringing the price of Bitcoin up in the short run. Many have convinced
 themselves that investment into the web3 cryptoeconomy actually harms the price of Bitcoin rather
 than supporting it. Again, just like a Communist pathologizes profit, or a Christian fundamentalist
 pathologizes interest, a Maximalist pathologizes the issuance or purchase of any digital asset other
@@ -8406,8 +7826,6 @@ than Bitcoin.
 who’d only known the movie version of Paris, and then were faced with the dreary reality of what it
 actually is.
 
-
-188
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 Moreover, even if the US establishment does lose some territory, it will likely hang
 on to the Northeast and the West Coast. The value proposition in those regions that
@@ -8423,8 +7841,7 @@ prefer a stable world where we could focus on mathematics and getting to Mars th
 the chaos that may soon ensue. And I have no illusions about how bad civil conflict can
 get; there are no unscathed winners in wars. Read David Hines for a good depiction of
 what political violence is actually like.
-Political violence is like war, like violence in general: people have a fan-
-tasy about how it works. This is the fantasy of how violence works: you
+Political violence is like war, like violence in general: people have a fantasy about how it works. This is the fantasy of how violence works: you
 SMITE YOUR ENEMIES IN A GRAND AND GLORIOUS CLEANSING
 BECAUSE OF COURSE YOU’RE BETTER.
 Grand and glorious smiting isn’t actually how violence works. I’ve worked
@@ -8462,13 +7879,11 @@ difficult for Chinese nationals to leave with their property, to “runxue”. I
 accompanied by deniable (or overt) Chinese retaliation against the US for attempting a
 coup, retaliation which could take the form of targeted shortages of key physical goods
 to exacerbate American inflation and supply chain woes.
-If and when the coup is quashed, the CCP will then export their coup-defeating surveil-
-lance state to other countries. And their value proposition to the world will be Chinese
+If and when the coup is quashed, the CCP will then export their coup-defeating surveillance state to other countries. And their value proposition to the world will be Chinese
 Control — the complete opposite of American Anarchy.
 China Blocks the Exits
 A specific prediction is that we’ll see a world where it becomes increasingly difficult for
-Chinese people to leave the country or get their property out of the digital yuan ecosys-
-tem without CCP permission. Take the existing hukou system of internal passports,
+Chinese people to leave the country or get their property out of the digital yuan ecosystem without CCP permission. Take the existing hukou system of internal passports,
 the WeChat system of red/yellow/green travel restrictions based on health status, the
 aggressive COVID lockdowns, and the recent passport restrictions — then fuse them
 with a surveillance state that can track people globally, a WeChat superapp that can
@@ -8491,8 +7906,6 @@ able to politically dissent, but it’ll also be hard for them to leave the coun
 property, as many will want to do. Such an act will be prevented or portrayed as a
 traitorous run-on-the-bank, particularly if the economy isn’t doing well. Think about
 
-
-190
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 how enthusiastic Putin has been about the “renationalization of the elites”, and how
 closely the CCP has been watching Western tactics during the Russo-Ukraine War.
@@ -8503,15 +7916,12 @@ The Path to Chinese Control
 What are the factors that lead us to this prediction, that CCP will emphasize the
 “loyalty” part of Hirschman’s triad and turn strongly against both voice and exit?
 1. Shutting down opposition across the spectrum. This plot from MERICs is worth
-looking at, as it reminds us that the CCP is not solely against US-style “democ-
-ratization”, but also against many different kinds of ideologies that differ from
+looking at, as it reminds us that the CCP is not solely against US-style “democratization”, but also against many different kinds of ideologies that differ from
 the party-state’s current line. Whether that opposition is Maoist (like Bo Xilai),
 democratic (like Hong Kong and Taiwan), Islamic (like the Uighurs), Christian
-(like the churches), technologist (like Jack Ma and other founders), or even ultra-
-nationalist, the CCP stands at the middle of an ideological circle and constantly
+(like the churches), technologist (like Jack Ma and other founders), or even ultranationalist, the CCP stands at the middle of an ideological circle and constantly
 monitors everyone for deviation.
-2. Inculcating Chinese nationalism. Just as the US has gone through a Great Awo-
-kening since the 2013, Chinese society has been driven by Xuexi Qiangguo into a
+2. Inculcating Chinese nationalism. Just as the US has gone through a Great Awokening since the 2013, Chinese society has been driven by Xuexi Qiangguo into a
 phase of ultra-nationalism. There is opposition to this internally, but it remains
 to be seen whether it actually flips the nationalism or simply moderates it.
 3. Building a surveillance state. Much has been written on this, but the sheer scale
@@ -8558,8 +7968,7 @@ book on it.
 An attempted coup, whether actually American-backed or simply accused of being
 such, could be the trigger event for rolling out a fearsome system of Chinese Control.
 AI would be turned on the population, and any even mildly Western-sympathic groups
-would be pattern-recognized and dug out by their roots. Nationalist mobs might par-
-ticipate, online or even in person. It could get very ugly.
+would be pattern-recognized and dug out by their roots. Nationalist mobs might participate, online or even in person. It could get very ugly.
 The last part is important: Chinese Control would have significant popular support.
 The country is heavily nationalist now. It is possible the swing towards nationalism
 partially reverses — there are significant factions in China who do not like the current
@@ -8571,19 +7980,13 @@ I may be
 wrong about this, but putting it all on one person or even one party doesn’t feel right.
 The ideological current towards Chinese ultra-nationalism feels stronger than Xi the
 person, or even the CCP, and may outlast him in the event of a black swan.
-Anyway, with the coup defeated, CCP would then sell a turnkey version of their coup-
-defeating surveillance state to other countries as a way to (a) stop any possible con-
-tagion of American anarchy, (b) control crime, (c) prevent increasingly mobile citizens
-from leaving with their funds to other countries, and (d) prevent unrest of any kind, le-
-gitimate or not. It would ensure that any leader currently in charge remains in charge,
+Anyway, with the coup defeated, CCP would then sell a turnkey version of their coupdefeating surveillance state to other countries as a way to (a) stop any possible contagion of American anarchy, (b) control crime, (c) prevent increasingly mobile citizens
+from leaving with their funds to other countries, and (d) prevent unrest of any kind, legitimate or not. It would ensure that any leader currently in charge remains in charge,
 and would be picked by many governments for exactly that reason.
 
-
-192
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 China Caveat
-There’s an important caveat to all this. Much Western coverage of China is unremit-
-tingly negative. And certainly the scenario described herein is not a particularly rosy
+There’s an important caveat to all this. Much Western coverage of China is unremittingly negative. And certainly the scenario described herein is not a particularly rosy
 one. But we need to temper that negativity with a dose of realism.
 First, why are we even discussing China? Why aren’t we discussing Chad or Chile?
 Because China has on balance executed phenomenally well since 1978. After Deng
@@ -8599,8 +8002,7 @@ China, huh?, it’s not that the US establishment is more ethical than the CCP w
 it comes to civil liberties, it’s just less competent. After all, the US establishment
 also does warrantless surveillance via the NSA, unconstitutional search and seizure via
 the TSA, arbitrary confiscation of property via civil forfeiture, censorship of political
-keywords just like WeChat, and has pushed for disinformation agencies, civilian dis-
-armament, digital censorship, and the like. The US establishment copied the CCP
+keywords just like WeChat, and has pushed for disinformation agencies, civilian disarmament, digital censorship, and the like. The US establishment copied the CCP
 on lockdown, without ever really admitting it was doing so, and funded the lab that
 may have leaked the coronavirus. It’s also bombed and destabilized many countries
 around the world. And if we’re honest, over the last two decades, the US has killed
@@ -8637,8 +8039,7 @@ us to the International Intermediate.
 4.5.3
 International Intermediate
 What’s the International Intermediate?
-They’re just the people who don’t want their societies to descend into American An-
-archy, but also want a better option than Chinese Control. That’s India and Israel,
+They’re just the people who don’t want their societies to descend into American Anarchy, but also want a better option than Chinese Control. That’s India and Israel,
 but also American centrists, Chinese liberals, global technologists, and people from
 other places that want to steer a different course from the US establishment, from
 crypto-anarchy, and from Chinese Control.
@@ -8647,26 +8048,21 @@ are #1 and #2 in immigrant tech founders in the US. India is, separately, also #
 tech unicorns after the US and China. At the state level India and Israel are now highly
 aligned, and at the individual level Indians and Israelis tend to be globally flexible and
 English-speaking.
-So, insofar as there is a third technological pole outside the US and China, it will prob-
-ably have significant Indo-Israeli character, with servers positioned in their respective
+So, insofar as there is a third technological pole outside the US and China, it will probably have significant Indo-Israeli character, with servers positioned in their respective
 territories, and deals inked across borders.
 Of course, it will also have contributions from all around the world.
 It’s probably
 easier to say who the International Intermediate is not than who it is. It’s not the US
-establishment, or places heavily aligned with it. And it’s not China or heavily China-
-aligned regions like Russia and Iran. But it could include places like the Visegrad
+establishment, or places heavily aligned with it. And it’s not China or heavily Chinaaligned regions like Russia and Iran. But it could include places like the Visegrad
 countries (anti-Russia but also skeptical of much in America), or South Korea (which
 elected a pro-Bitcoin head of state), or even Vietnam (now pulling away from China
 to side more with India).
-Because it’s “everyone else”, by default this International Intermediate is just raw ma-
-terial – the 80% of the world that is not American or Chinese is just a formless mass
+Because it’s “everyone else”, by default this International Intermediate is just raw material – the 80% of the world that is not American or Chinese is just a formless mass
 without internal structure. Indeed, that’s what happened to the “Third World” during
 last century’s Cold War. The Non-Aligned countries weren’t just not aligned with the
 US or USSR, they weren’t aligned with each other.
 This time, however, rather than being the Third World / non-aligned movement, a
 
-
-194
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 subset of the many billions of people in the International Intermediate can align around
 web3 to try to build alternatives to American Anarchy and Chinese Control. And that
@@ -8709,7 +8105,7 @@ This is a scenario where the CCP wins, and Chinese Control triumphs.
 
 
 4.6. VICTORY CONDITIONS AND SURPRISE ENDINGS
-195
+
 How might China become the most prosperous and stable country in the world, even
 if it’s unpopular in some places abroad, and even if the US attempts to financially or
 socially sanction it? China would become an autarkic autonomous autocracy.
@@ -8738,8 +8134,7 @@ of supply & demand. And riders wanted speed, not price shopping.
 So, that’s what this win scenario contemplates. If China integrates AI with the digital
 yuan, and makes their entire economy computable, at their scale they might actually
 be able to make a pencil. And everything else.
-Recall that previous abstractions like “six degrees of separation” or “written history” be-
-came very real once social networks digitized decades of interaction and communication
+Recall that previous abstractions like “six degrees of separation” or “written history” became very real once social networks digitized decades of interaction and communication
 by billions of people. So too would previous verbal abstractions like “the economy” or
 “the supply chain” become actual computable objects when you have every transaction
 and vendor in the same database. Basically, all the blockchain supply chain concept
@@ -8747,14 +8142,11 @@ actually could work, but only if all payments (and hence receipts) are on-chain 
 in something like a blockchain, which is what the digital yuan may be.
 This is doubly true if AI-driven robots are carrying out many of these functions. China
 might be able to internalize huge swaths of the economy. It could mean full stack
-production of everything, hyperdeflation of living costs within China, where labor be-
-comes electricity. In this scenario, no one person can make a pencil, but China can
+production of everything, hyperdeflation of living costs within China, where labor becomes electricity. In this scenario, no one person can make a pencil, but China can
 make a pencil, because they can algorithmically coordinate the supply chain of millions
 of cooperating humans in a way no one has ever been able to do before. They’d still
 need the raw materials, but their alliances with African countries, Russia, and places
 
-
-196
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 like Iran might take care of that.
 It’s essentially the vision of Red Plenty, Soviet-style central planning made feasible
@@ -8792,12 +8184,11 @@ actually voted with the US in the UN Security Council to condemn Iraq. That was 
 huge moment, because normally they were reflexively oppositional.
 The explicit version would be something like this, where the otherwise hostile US
 establishment and CCP both decide that BTC and/or web3 are a threat to their power,
-and try to denounce it at the level of the UN, a bit like their quasi-cooperation on non-
-political issues.
+and try to denounce it at the level of the UN, a bit like their quasi-cooperation on nonpolitical issues.
 
 
 4.6. VICTORY CONDITIONS AND SURPRISE ENDINGS
-197
+
 There’s also an implicit version of it, where they team up without teaming up. The US
 establishment on many levels admires the CCP crackdown on speech. For example, in
 The Atlantic they said China took the right course on internet speech, and in the NYT
@@ -8837,15 +8228,12 @@ still be the question of funding the industrial capacity to manufacture the robo
 first place. But if you could get past that bootstrap problem. . . then there’s a scenario
 where CCP’s AI beats both BTC and NYT, and war keeps going. And now the only
 
-
-198
 CHAPTER 4. DECENTRALIZATION, RECENTRALIZATION
 reliable soldiers are robot soldiers that can’t be propagandized by NYT and don’t need
 to be paid in BTC.
 4.7
 Towards a Recentralized Center
-Our base scenario doesn’t contemplate an extended Second Cold War between com-
-munism and capitalism.
+Our base scenario doesn’t contemplate an extended Second Cold War between communism and capitalism.
 But we do think that the choice between American Anarchy and Chinese Control can
 be seen as a kind of global ideological struggle of a different kind, as a choice between
 decentralization and centralization.
@@ -8861,8 +8249,7 @@ will say “what’s the point of decentralizing then? Just stick with our exist
 And the decentralists will say “new boss, same as the old boss, I prefer freedom!”
 Derisive references to Rube Goldberg Machines and Animal Farm will abound.
 But the whole point is that the new boss is not the same as the old boss, anymore
-than Apple was the same as BlackBerry, Amazon was the same as Barnes and No-
-ble, or America was the same as Britain. Recentralization means new leaders, fresh
+than Apple was the same as BlackBerry, Amazon was the same as Barnes and Noble, or America was the same as Britain. Recentralization means new leaders, fresh
 blood. Just as companies and technologies keep leapfrogging each other, so too can
 new societies with One Commandments combine moral and technological innovation
 to genuinely progress beyond our status quo.
@@ -8881,19 +8268,17 @@ want institutions to kind of stand in the middle, and curate and decide
 
 
 4.7. TOWARDS A RECENTRALIZED CENTER
-199
+
 what is reliable and what is not reliable, this doesn’t work, it’s been tried
 so many times in history.
 You know, if you look at religious history, to take a counter example, so you
 have in Christianity, again and again these people coming and saying, “you
 know, we don’t want the Catholic Church, this institution, let’s just every
 person can read the Bible for himself and know the truth, what is more
-simple than that, why do we need an institution,” and you have the Refor-
-mation, the protestant Reformation. And within twenty years or fifty years,
+simple than that, why do we need an institution,” and you have the Reformation, the protestant Reformation. And within twenty years or fifty years,
 they realize that when you let every person read the Bible for themselves
 you get 100 different interpretations, [each] radically different.
-So eventually someone comes and says “No, these are the correct interpreta-
-tions” and you get the Lutheran church. And after 100 years, someone says
+So eventually someone comes and says “No, these are the correct interpretations” and you get the Lutheran church. And after 100 years, someone says
 “wait, but the whole idea of the Reformation was to get rid of the Church
 so we don’t want the Lutheran church. Let every person just read the Bible
 and understand by themselves.” And you have chaos. And after 50 years,
@@ -8902,8 +8287,7 @@ to institutions. So it’s the same with the kind of information explosion that
 we have right now.
 Note that in this example the Protestants, and then the Lutherans, and then the
 Baptists had to attract people to their interpretations.
-Many other competing de-
-nominations did not. This process of constantly forking and innovating and having it
+Many other competing denominations did not. This process of constantly forking and innovating and having it
 compete in the marketplace brings in new blood.
 And that’s the concept of the recentralized center. The way to demonstrate it’s a step
 forward is via mass exodus of people from both American Anarchy and Chinese Control
@@ -8939,11 +8323,9 @@ here is different from the typical dryasdust college lecture, because the networ
 makes political science an applied science, more like political technology.
 You are
 listening with intent to repeat. That is, just like cryptocurrencies gave people other
-200
-
 
 5.2. ON NATION STATES
-201
+
 than the Fed Chair a reason to learn about everything from seignorage to demurrage,
 cryptocountries give people other than the Founding Fathers the ability to put political
 theory into political practice.
@@ -8954,8 +8336,7 @@ The most obvious definition is that a nation state is a geographic region of the
 ruled by a group of humans we call a government. It’s what we talk about when we
 refer to “countries” like the United States of America and the People’s Republic of
 China. It’s a flag-labeled region on a political map of the globe.
-Britannica provides a more precise definition, namely that a nation state is a “territo-
-rially bounded sovereign polity” that is “ruled in the name of a community of citizens
+Britannica provides a more precise definition, namely that a nation state is a “territorially bounded sovereign polity” that is “ruled in the name of a community of citizens
 that identify themselves as a nation.” And that latter bit is key, because a nation state
 is not just a government that controls a territory. It’s supposed to be a government
 that represents a distinct people, a nation.
@@ -8967,8 +8348,7 @@ with the following eight rules:
 • Rule 1: A country is a territory defined by borders mutually agreed
 upon by all countries.
 • Rule 2: A country must have a state that controls (or at least seeks
-to control) the legitimate use of force within its territory, and a pop-
-ulation of citizens.
+to control) the legitimate use of force within its territory, and a population of citizens.
 • Rule 3: Every spot on the earth’s landmass must be occupied by a
 country.
 • Rule 4: Every person on the planet must be a citizen of at least one
@@ -8983,12 +8363,9 @@ grounds for loss of club membership.
 • Rule 7: Under some circumstances, one or more countries may invade
 or occupy another country, but not eliminate its countryhood or redraw
 
-
-202
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 its borders.
-• Rule 8: The currently existing set of countries and the borders be-
-tween them should be left in place whenever possible—that is, the
+• Rule 8: The currently existing set of countries and the borders between them should be left in place whenever possible—that is, the
 club prefers not to admit new members.
 Keating goes on to note that the rules of this club are backed by the institutions of
 the UN and the military force of the US, and that the agreement of billions of people
@@ -9013,8 +8390,7 @@ the earth is spoken for by one and only one state. Much of the ocean is likewise
 split up this way, aside from international waters.
 • Top-down division of land.
 The fully visible map is carved into geographical
-regions called states, with borders precisely demarcated by latitudes and longi-
-tudes.
+regions called states, with borders precisely demarcated by latitudes and longitudes.
 • One state per citizen. People are typically citizens of just one state, changing
 citizenship is infrequent, and most citizens are governed by the same state as
 their parents. The primary method of citizenship is still jus sanguinis, by birth.
@@ -9027,40 +8403,30 @@ point because any group that is in de facto control of territory for long enough
 
 
 5.2. ON NATION STATES
-203
+
 eventually gets recognized.)
 Ideally, a legitimate state reflects the will of its
 people while also respecting the rights of the individual – giving voice to the
 masses and the minority alike.
-• Centralized administration. The administrators of the state, frequently an exec-
-utive and a legislature, write laws on paper to specify what is mandatory and
+• Centralized administration. The administrators of the state, frequently an executive and a legislature, write laws on paper to specify what is mandatory and
 forbidden. These laws are typically interpreted by a judiciary and enforced by
-men with guns. And in the nation state system, every piece of land is adminis-
-tered by exactly one state, regardless of who is on it.
+men with guns. And in the nation state system, every piece of land is administered by exactly one state, regardless of who is on it.
 • Domestic monopoly of violence. Each state keeps order within its borders through
 a police force. Citizens who defy the law are subject to increasing levels of violence
 until they comply, as per Grand Theft Auto.
 • International sovereignty via military.
 In principle, states aren’t supposed to
-interfere with the domestic affairs of other states. In practice, a state only main-
-tains sovereignty if it is competent enough in defending against domestic and
+interfere with the domestic affairs of other states. In practice, a state only maintains sovereignty if it is competent enough in defending against domestic and
 foreign rivals alike, via its police, intelligence agencies, and military.
-• Diplomatic recognition via bilateral and multilateral fora. States may sign bilat-
-eral agreements with each other, or they may be recognized by multilateral fora
+• Diplomatic recognition via bilateral and multilateral fora. States may sign bilateral agreements with each other, or they may be recognized by multilateral fora
 like the UN, the World Trade Organization (WTO), the International Monetary
 Fund (IMF), and the G-20. Diplomatic recognition is a matter of both politics
 and paperwork, and the lack of recognition can isolate a state and/or its citizens.
-• Treaties manage cooperation and constraint. A set of cross-border compacts at-
-tempt to govern interstate interaction and limit abuses, promising things like hu-
-man rights and freedom of movement — declarations that are frequently flouted.
-• Pax Americana. Finally, while it was not always so, the guarantor of the cur-
-rent nation state system is the USA, which is where the UN is headquartered,
+• Treaties manage cooperation and constraint. A set of cross-border compacts attempt to govern interstate interaction and limit abuses, promising things like human rights and freedom of movement — declarations that are frequently flouted.
+• Pax Americana. Finally, while it was not always so, the guarantor of the current nation state system is the USA, which is where the UN is headquartered,
 and which purports to “provide global leadership” and “champion the rules-based
-international order.” All other states must hope that this guarantor of the rules-
-based order doesn’t decide to invade, surveil, sanction, strafe, or otherwise desta-
-bilize them.
-These cover the six essential parts of the state: borders, population, central govern-
-ment, international sovereignty, diplomatic recognition, and the domestic monopoly on
+international order.” All other states must hope that this guarantor of the rulesbased order doesn’t decide to invade, surveil, sanction, strafe, or otherwise destabilize them.
+These cover the six essential parts of the state: borders, population, central government, international sovereignty, diplomatic recognition, and the domestic monopoly on
 violence.
 5.2.3
 The Nation State as a Term
@@ -9070,8 +8436,6 @@ government). They are not the same.
 Even though “nation” is often conflated with “state,” the term “nation state” has two
 words for a reason. The first word (nation) has the same etymological root as “natality.”
 
-
-204
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 It once denoted a group of people with shared ancestry. The second word (state) refers
 to the entity that governs these people, that commands the police and the military, and
@@ -9080,8 +8444,7 @@ In a sense, the nation and the state are as different as labor and management in
 factory. The former are the masses and the latter are the elite.
 The textbook nation state is something like Japan, in which a single group with shared
 ancestry and culture (the Japanese) occupies a clearly delineated territory (the islands
-of Japan) and is ruled by a clear sovereign (the Japanese government) which is repre-
-sentative of the people in some sense (originally via the divine, contemporaneously via
+of Japan) and is ruled by a clear sovereign (the Japanese government) which is representative of the people in some sense (originally via the divine, contemporaneously via
 the Diet).
 5.2.4
 Micronations and Multinations
@@ -9099,15 +8462,13 @@ army? Without a nation, there is no army - and no legitimacy.1
 On the other side of the spectrum is an empire, or multination. The Roman Empire, the
 Ottoman Empire, and the Soviet Empire contained many nations and ethnic groups.
 This vantage point allows us to rectify more vocabulary.
-The concept of a multi-
-national corporation, for example, is something of a misnomer; the right term is a
+The concept of a multinational corporation, for example, is something of a misnomer; the right term is a
 multi-state corporation (which operates across polities), as opposed to a multi-national
 state (which manages the affairs of many different ethnic groups within its boundaries).
 5.2.5
 0-nation, 1-nation, N-nations
 In between 0-nation microstates and N-nation empires are 1-nation states, governments
-that are set up to manage the affairs of a single ethnic group in a defined territory. How-
-ever, while this kind of terminology is not exactly deprecated, it’s a bit old-fashioned.
+that are set up to manage the affairs of a single ethnic group in a defined territory. However, while this kind of terminology is not exactly deprecated, it’s a bit old-fashioned.
 It’s not how we tend to talk about nation states in the current year.
 1To be clear, even if the goal is to gain the minimum necessary sovereignty gradually and peacefully
 - which we strongly recommend! - the founder of a startup society will need an “army” in the sense
@@ -9116,18 +8477,15 @@ state. It’s a collective LARP, not just one person daydreaming to themselves.
 
 
 5.2. ON NATION STATES
-205
+
 First, today we often discuss multiethnic states — multinations, like the USA — which
-are really more like the empires of yore than a classical monoethnic nation state. Sec-
-ond, many contend that physical borders don’t matter in the age of the internet. Third,
+are really more like the empires of yore than a classical monoethnic nation state. Second, many contend that physical borders don’t matter in the age of the internet. Third,
 modern discourse focuses to a much greater extent on proposition nations, where shared
 ideas are the organizing principle rather than shared inheritance. Fourth, and most
 importantly, conflict between ethnic groups within states can result in civil war, mass
-deportation, totalitarian brainwashing, ethnic cleansing, forced conversion, and cul-
-tural destruction, the kind of process that recently resulted in the formations of East
+deportation, totalitarian brainwashing, ethnic cleansing, forced conversion, and cultural destruction, the kind of process that recently resulted in the formations of East
 Timor and South Sudan.
-Later, we’ll talk about how network states address these issues, but these are the (un-
-derstandable!) reasons why the distinction between the nation and the state has fallen
+Later, we’ll talk about how network states address these issues, but these are the (understandable!) reasons why the distinction between the nation and the state has fallen
 out of favor. Scholars don’t want to inadvertently encourage separatism or irredentism
 or worse, lest people think it’s not a real nation state unless the political entity (the
 state) represents all the members of a single ethnicity (the nation) in all the lands
@@ -9149,16 +8507,13 @@ What is a Nation?
 This question was once all-important: what groups are significant enough to be called
 nations, candidates for a state of their own? It will soon be all-important again, as
 important as “what is a currency,” and for similar reasons: because Bitcoin, web3, the
-metaverse, remote work, mobile, and the internet allow people to exit legacy arrange-
-ments and form new groups more easily than at any time in the recent past. But which
+metaverse, remote work, mobile, and the internet allow people to exit legacy arrangements and form new groups more easily than at any time in the recent past. But which
 of these groups should be considered a “nation”?
 A Definitional Approach
 Let’s start with Oxford’s definition by way of their free service Lexico:
 A large body of people united by common descent, history, culture, or
 language, inhabiting a particular country or territory.
 
-
-206
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 From that definition, we can extract the following properties:
 • A large body of people: has to be of a substantial size (10-100k+?)
@@ -9199,7 +8554,7 @@ Israel, or Turkey, there is a Catalonia, a Palestine, a Kurdistan — namely a g
 
 
 5.2. ON NATION STATES
-207
+
 that self-identifies as a nation and feels its national aspirations have been denied.
 These are stateless nations, as distinct from nation states, without necessarily
 endorsing any particular cause.
@@ -9233,13 +8588,10 @@ From these examples, we can already see quite a bit of variation:
 • nations with states (Japanese, Spanish)
 • nations without states (Kurds, Catalonians)
 • nations with partially sovereign states (Taiwan)
-• multiethnic states that are trying to create proposition nations (America, Singa-
-pore, France)
+• multiethnic states that are trying to create proposition nations (America, Singapore, France)
 • imposed multiethnic states that don’t even have a proposition to bind them (many
 “states” formed as shotgun marriages in the aftermath of European colonialism)
 
-
-208
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 • civilization states that are multiethnic, but have long-standing cultural ties that
 unify their constituent nations (China, India)
@@ -9280,7 +8632,7 @@ past and “the will to continue them in the present.” The existence of a nati
 
 
 5.2. ON NATION STATES
-209
+
 is represented by a “daily plebiscite” that constitutes the present consent of a
 people.
 • Ernest Gellner: nations are peoples sharing (via schooling) language, culture,
@@ -9298,12 +8650,10 @@ association.
 it should adopt a broad definition of national membership. But it needs to also
 avoid becoming so assimilated into a large-scale group that there’s no distinct
 culture to defend.
-• Self-determination vs external sponsorship. A nation is based in part on self-
-identification as a nation, but in practice needs to also be capable of delivering
+• Self-determination vs external sponsorship. A nation is based in part on selfidentification as a nation, but in practice needs to also be capable of delivering
 real world results (being “rational and industrious”) and of attracting the support
 of a Great Power patron.
-• Imagined communities vs real linguocultural ties. A nation is an imagined com-
-munity and a social construct, but it needs to share enough of the same language
+• Imagined communities vs real linguocultural ties. A nation is an imagined community and a social construct, but it needs to share enough of the same language
 and culture to feasibly assemble that construct.
 These divergences mean there isn’t yet a single test for whether a group is a nation,
 though one can make a more or less persuasive case in any given instance by appealing
@@ -9319,16 +8669,13 @@ What is a State?
 It’s also worth spending time on the other half of the nation state definition: what
 exactly is a state?
 
-
-210
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 The Definitional Approach
 This helpful video enumerates six properties of a state:
 1. Border: a clearly defined territory
 2. Population: one or more nations that live within that territory
 3. Central government: the ability to create laws
-4. Interstate sovereignty: in theory, control over domestic affairs without interfer-
-ence by other states
+4. Interstate sovereignty: in theory, control over domestic affairs without interference by other states
 5. Recognition: diplomatic recognition by other states
 6. Domestic monopoly on violence: the ability to maintain order inside the territory
 A failed state in the midst of civil war wouldn’t fit, for example, because it wouldn’t
@@ -9346,8 +8693,7 @@ addressing in detail just how a state differs from a nation.
 psychological identity.
 • The state is bound by laws and threat of force, while a nation is bound by
 sentiments and linguistic/genetic/cultural alignment.
-• The state is top-down and hierarchical, while the nation is bottom-up and peer-
-to-peer.
+• The state is top-down and hierarchical, while the nation is bottom-up and peerto-peer.
 • And, as above, the state has a fixed territory, a government and sovereignty over
 a territory, while a nation typically has shared language, culture, and/or ancestry.
 Nations may not always have a single state. The Kurds lack a state, while the Koreans
@@ -9359,7 +8705,7 @@ European idea, there are actually different words for these concepts across lang
 
 
 5.2. ON NATION STATES
-211
+
 The Pragmatic Approach
 Perhaps the simplest test for whether something is a bona fide state is whether it’s a
 member of the United Nations General Assembly. Does it have sufficient diplomatic
@@ -9368,8 +8714,7 @@ is it recognized? This is important because even the very largest groups of peop
 the Chinese and the Indians, are outnumbered by the rest of the world; social viability
 is necessary for state viability.
 A couple of excellent books on this topic are Invisible Countries and Not on the
-Map, which review edge cases like Nagorno-Karabakh, Abkhazia, Transnistria, North-
-ern Cyprus, Somaliland, South Ossetia, and the Sahrawi Arab Democratic Republic,
+Map, which review edge cases like Nagorno-Karabakh, Abkhazia, Transnistria, Northern Cyprus, Somaliland, South Ossetia, and the Sahrawi Arab Democratic Republic,
 Kosovo, and Taiwan. Each of these entities has a greater or lesser degree of internal
 state-like-ness, with Taiwan being the most legit, but all of them lack some degree of
 full interstate recognition — often due to a powerful regional or global opponent.
@@ -9379,13 +8724,11 @@ Nations General Assembly, like the Kurds, the Catalonians, or the Tibetans. And 
 countries that do have seats are more akin to multinational empires than single-nation
 states.
 The Philosophical Approach
-Keynes said “Practical men, who believe themselves to be quite exempt from any in-
-tellectual influences, are usually the slaves of some defunct economist.” Meaning, if
+Keynes said “Practical men, who believe themselves to be quite exempt from any intellectual influences, are usually the slaves of some defunct economist.” Meaning, if
 you don’t know what intellectual software you’re running, you’re probably running it
 unconsciously. So, it’s hard to survey the many thinkers that led to the modern state,
 because we don’t always understand the full scope of their impact.
-We’ll try anyway. Here’s another necessarily imprecise set of summaries of what dif-
-ferent political theorists thought about the state.
+We’ll try anyway. Here’s another necessarily imprecise set of summaries of what different political theorists thought about the state.
 • Plato: the state should make possible the conditions under which everyone can
 provide for themselves and seek the Good.
 • Aristotle: all communities aim at some good, and the state is the highest kind of
@@ -9398,8 +8741,6 @@ of private property.
 • Keynes: The state should intervene to smooth the business cycle and support full
 employment.
 
-
-212
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 • Rawls: The state distributes social goods and economic opportunities equally to
 its free citizens according to the theory of justice as fairness.
@@ -9415,13 +8756,11 @@ of freedoms and respect the family unit.
 The state should embrace multiple
 nations yet demand loyalty.
 Statecraft Strategies and Programming Paradigms
-Again, this isn’t just desiccated theory. It’s important to understand these ideas be-
-cause they are used implicitly or explicitly by the founders and leaders of actually
+Again, this isn’t just desiccated theory. It’s important to understand these ideas because they are used implicitly or explicitly by the founders and leaders of actually
 existing states.
 From a computer science standpoint, these schools of thought are statecraft strategies
 that are analogous to programming paradigms. That is, you can often solve the same
-problem from (say) an object-oriented, functional, or imperative standpoint. But cer-
-tain problems are easier to tackle with a particular paradigm, while others become
+problem from (say) an object-oriented, functional, or imperative standpoint. But certain problems are easier to tackle with a particular paradigm, while others become
 much harder.
 So too for these varying theories of the state. Moreover, rather than being used in
 isolation, these statecraft strategies are often fused within a single legal codebase, much
@@ -9443,15 +8782,14 @@ we must also discard them. Think about how PHP is a programming language that
 
 
 5.2. ON NATION STATES
-213
+
 “sucks” according to many engineers, yet somehow led to many of the most popular
 apps of all time (Facebook, WordPress, Slack, etc), and you’ll get the point.
 It is also possible to run completely in another direction, and have a purely contractual
 state run on an implicitly Hayekian/Lockean paradigm, maximizing some measure of
 wealth without any of the meaning that the Marxist or Schmittian state narratives
 provide. That also has its vulnerabilities, as a vacuum of meaning can be filled by
-a rival whose statecraft strategy involves constant evangelism; this is why the Pla-
-tonic/Aristotlean state narratives have a good point when they prioritize purpose.
+a rival whose statecraft strategy involves constant evangelism; this is why the Platonic/Aristotlean state narratives have a good point when they prioritize purpose.
 The strengths and weaknesses of various statecraft strategies can be discussed at length,
 and we’ll return to this topic. But for now: before you design your ideal state, you
 should have some idea of what others thought their ideal state to be, and how that
@@ -9469,8 +8807,7 @@ Japanese yen, most practitioners of Shintoism, and most people who are culturall
 Japanese live in the islands of Japan administered by the Japanese government.
 Other nations are much messier than that.
 • Some nations have spread fractally around a territory, as in the Balkans.
-• Some nations have spread around the world, as did the Jewish community pre-
-Israel (still true to a significant extent today).
+• Some nations have spread around the world, as did the Jewish community preIsrael (still true to a significant extent today).
 • Some previously unified nations have been split between territories for historical
 reasons, as are North and South Korea.
 • Other nations are defined by multiple overlapping maps, because one variable
@@ -9483,8 +8820,6 @@ because they are really multinational states.
 • Some “nation states,” like France and the United Kingdom, have surprisingly
 distributed global footprints because they are really the remains of multinational
 
-
-214
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 empires.
 In general, the idealized nation state is one where the members of a given group —
@@ -9500,12 +8835,9 @@ principles at the same time. We can define a few critical moments in history.
 • WW2 and Cold War (1945-1991): today’s states were founded under the aegis
 of the postwar order. After World War II, within Europe large-scale population
 transfers created monoethnic states. Meanwhile, outside Europe, the colonies
-owned by Western European powers experienced “decolonization” and then ar-
-guably “recolonization” by the USSR or USA respectively in the name of commu-
-nism or capitalism. Another clutch of independent states arose after the collapse
+owned by Western European powers experienced “decolonization” and then arguably “recolonization” by the USSR or USA respectively in the name of communism or capitalism. Another clutch of independent states arose after the collapse
 of the USSR in 1991.
-• American Revolution, French Revolution, Great Divergence (1776-1800s): Writ-
-ers like Benedict Anderson date the rise of European nationalism in its modern
+• American Revolution, French Revolution, Great Divergence (1776-1800s): Writers like Benedict Anderson date the rise of European nationalism in its modern
 sense to the “Great Divergence” of the early 1800s, after the French Revolution,
 which was in turn inspired by the American Revolution.
 • 30 Years War, Spanish/Dutch War, and Peace of Westphalia (1618-1648): The
@@ -9513,21 +8845,18 @@ Peace of Westphalia ended the 30 Years War between Protestants and Catholics
 that had been kicked off by the Reformation, and ushered in the concept of states
 with bounded territorial sovereignty as opposed to the unbounded authority of
 the Catholic Church.
-• Rise of mapmaking and print capitalism (1500s): The rise of mapmaking tech-
-nologies enabled the creation of accurate maps. We take this for granted today,
-but without good maps there were no explicit borders beyond terrain, only grad-
-ual diminishment of the power of one sovereign as its territory bled into that of
+• Rise of mapmaking and print capitalism (1500s): The rise of mapmaking technologies enabled the creation of accurate maps. We take this for granted today,
+but without good maps there were no explicit borders beyond terrain, only gradual diminishment of the power of one sovereign as its territory bled into that of
 another.
 • Ancient era. Civilization states like China and India date their origins back to
 antiquity, and can point to certain continuities of language, culture, and religious
 practice.
 • Prehistory. Primordialists argue that the nations that underpin states predate
-written history, as their linguistic, genetic, and cultural bonds stretch back thou-
-sands of years. In other words, nations are naturally occurring phenomena, more
+written history, as their linguistic, genetic, and cultural bonds stretch back thousands of years. In other words, nations are naturally occurring phenomena, more
 
 
 5.2. ON NATION STATES
-215
+
 like the periodic table of the elements than a social construct, with boundaries
 that are obvious in a Potterian sense. Any real modern nation state was in this
 sense founded millennia ago.
@@ -9548,9 +8877,7 @@ An alternative approach is to look at the details of how specific nation states 
 founded. One thing that pops out to us when studying enough of these histories is that
 national independence is not solely a matter of self-determination, because the fate of
 many nations is not determined wholly by their own efforts.
-For example, the Soviets were “anti-imperialist” when that meant getting Western-
-sympathetic capitalists out, and Soviet-sympathetic communists in. The French sup-
-ported the fledgling American nation when that meant poking a thumb in the eye of
+For example, the Soviets were “anti-imperialist” when that meant getting Westernsympathetic capitalists out, and Soviet-sympathetic communists in. The French supported the fledgling American nation when that meant poking a thumb in the eye of
 their British rivals. And today’s Americans haven’t been too vocal on the Kurds or
 Yemenis given their alliances with the Turkish and Saudi states, but are extremely
 enthusiastic about the Ukrainians, Taiwanese, and Uighurs given their conflicts with
@@ -9567,8 +8894,6 @@ all, the Pentagon itself was built by human beings just like you and me in year 
 India, Israel, and Singapore were likewise founded in 1947, 1948, and 1965 respectively,
 and have their own defense department equivalents.
 
-
-216
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 Of course, there are other interpretations of this challenge. It could mean “OK, it
 happened a while ago, but I don’t think the Pentagon-forming process can be repeated,”
@@ -9584,8 +8909,7 @@ with an existing sovereign for defense. In fact, this is that this is actually w
 “real” countries already do — few truly have full sovereignty, as most contract out their
 defense in a similar manner way to the US or (nowadays) China.
 Another answer is that you could write a book just on this (and perhaps we’ll need to
-add another chapter), but for a fundamentally digital entity with physical decentral-
-ization around the world, the primary mode will be nonviolent digital defense through
+add another chapter), but for a fundamentally digital entity with physical decentralization around the world, the primary mode will be nonviolent digital defense through
 secrecy, pseudonymity, decentralization, and encryption. In different ways, Google and
 Bitcoin protect many millions of people’s digital footprint without an enormous army.
 5.2.10
@@ -9612,13 +8936,12 @@ fuzzy bordered empires and conflicting sovereigns.
 
 
 5.2. ON NATION STATES
-217
+
 5.2.11
 How does a Nation State Expand and Contract?
 There are at least four ways a nation state expands:
 • Demographically. By reproduction or immigration. A nation grows when it sees
-more birth than death. A state grows when one of its constituent nations expe-
-riences demographic growth, or when it adds immigrants, which may be from a
+more birth than death. A state grows when one of its constituent nations experiences demographic growth, or when it adds immigrants, which may be from a
 different nation. Note that there can be a difference here between expansion of
 the state and the nation!
 • Geographically. By conquest (e.g., Ivan the Terrible’s expansion of Russia), by
@@ -9626,10 +8949,8 @@ acquisition (e.g., the Louisiana Purchase), or by agreement (e.g., Singapore’s
 involuntary separation from Malaysia).
 • Economically. By trade and opening of markets. This is not always peaceful: see
 the British East India Company, Smedley Butler, and the Opium Wars.
-• Ideologically. By education and conversion. Revolutionary France invested heav-
-ily in educating all citizens to speak French, expanding the self-identified French
-nation. Similarly, Christian, Muslim, and Communist groups spent immense ef-
-fort on evangelism. Of course, while some of this evangelism grows the support
+• Ideologically. By education and conversion. Revolutionary France invested heavily in educating all citizens to speak French, expanding the self-identified French
+nation. Similarly, Christian, Muslim, and Communist groups spent immense effort on evangelism. Of course, while some of this evangelism grows the support
 base of a nation state (like Maoism did for the PRC and arguably Wahhabism
 did for Saudi Arabia), other kinds of viral ideas cut across the boundaries of state
 and nation alike in destabilizing ways.
@@ -9639,10 +8960,8 @@ Nation state formation is bidirectional; nations create states which influence n
 and so on. While a nation must come first, many of history’s most successful nation
 states drew adjacent (and then non-adjacent) people into the founding population by
 means ranging from cultural appeal to rape and pillage.
-Prior to Garibaldi, only about 2.5% of “Italians” spoke what we now know as Ital-
-ian, but what was then the Florentine dialect of Italian. Similarly, before the French
-Revolution, less than 50% of France spoke today’s official variety of French. And un-
-til Bismarck’s unification of Germany, there was rivalry between Prussia and Austria
+Prior to Garibaldi, only about 2.5% of “Italians” spoke what we now know as Italian, but what was then the Florentine dialect of Italian. Similarly, before the French
+Revolution, less than 50% of France spoke today’s official variety of French. And until Bismarck’s unification of Germany, there was rivalry between Prussia and Austria
 (“German dualism”) for exactly how and whether a “Germany” should be formed.
 A related phenomenon is the feedback loop between political borders and national
 culture. The 38th parallel didn’t have pre-existing historical significance in Korean
@@ -9654,8 +8973,6 @@ boundaries in the past like rivers, mountains, and deserts. They impede allelic 
 cultural diffusion, and thus contribute to nation-forming dynamics. There’s a feedback
 loop between the political/territorial and the linguistic/genetic/cultural.
 
-
-218
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 5.2.13
 What is not a Nation State?
@@ -9666,8 +8983,7 @@ Put another way, to understand what something is, we need to understand what it
 is not. We live in a world of nation states, so conceptualizing something different is
 difficult. The ideal counterexamples are things that are close, but not quite there. Here
 are a few:
-1. Multiethnic empires like the Soviet Union were not traditional nation states be-
-cause they had more than one nationality within their boundaries.
+1. Multiethnic empires like the Soviet Union were not traditional nation states because they had more than one nationality within their boundaries.
 2. Stateless nations like the Kurds are not nation states because they lack a formally
 recognized territory and government.
 3. Transnational movements like the Catholic Church are not nation states because
@@ -9699,7 +9015,7 @@ states, and are more similar to the Catholic Church in terms of their cross-
 
 
 5.2. ON NATION STATES
-219
+
 jurisdictional influence.2
 5.2.14
 What Technological Developments underpin the Modern
@@ -9724,8 +9040,7 @@ maximize sales for their goods.
 Feudalism was
 enforced by horseback-riding knights in shining armor with heavy swords; guns
 changed that. Others have written about the transition to the gun age, but in
-short, guns reduced the importance of physical inequality. Any man (or, even-
-tually, woman) with a gun could kill any other man, even if the shooter was old
+short, guns reduced the importance of physical inequality. Any man (or, eventually, woman) with a gun could kill any other man, even if the shooter was old
 and frail and the shootee was Sir Lancelot himself. The advent of firearms (and
 crossbows, and cannons) destabilized the feudal hierarchy; a strong right arm was
 suddenly worth less than a strong left brain, as the technology and supply chain
@@ -9739,22 +9054,17 @@ breaking the law.
 2El Salvador’s adoption of Bitcoin in contravention of IMF dictates is, in its own way, similar to a
 Protestant state flipping the bird to the Catholic Church.
 
-
-220
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 5.3
 On Network States
-The network state system starts from different assumptions than the nation state sys-
-tem (which you can review here).
+The network state system starts from different assumptions than the nation state system (which you can review here).
 5.3.1
 What is a Network State?
 Earlier we gave descriptions of the network state in one sentence, one thousand words,
 and one essay. We also showed what a million-person version looks like on a map (see
 above). Here’s that one sentence definition again:
-A network state is a social network with a moral innovation, a sense of na-
-tional consciousness, a recognized founder, a capacity for collective action,
-an in-person level of civility, an integrated cryptocurrency, a consensual gov-
-ernment limited by a social smart contract, an archipelago of crowdfunded
+A network state is a social network with a moral innovation, a sense of national consciousness, a recognized founder, a capacity for collective action,
+an in-person level of civility, an integrated cryptocurrency, a consensual government limited by a social smart contract, an archipelago of crowdfunded
 physical territories, a virtual capital, and an on-chain census that proves
 a large enough population, income, and real estate footprint to attain a
 measure of diplomatic recognition.
@@ -9771,7 +9081,7 @@ like “seed startup,” “series B startup,” and “unicorn” - prior to ac
 
 
 5.3. ON NETWORK STATES
-221
+
 public company. So too there are at least two waypoints between startup society and
 network state worth noting: the network union and the network archipelago.
 Turning a startup society into a network union makes it a digital community capable of
@@ -9790,9 +9100,7 @@ where there is just one coherent community present, rather than many separate
 communities as on Facebook or Twitter. It’s not quite a complete graph - everyone
 doesn’t have to be friends with every single other node - but it’s much closer to
 that than a typical social network.
-Admission to this social network is selective, people can lose their account privi-
-leges for bad behavior, and everyone who’s there has explicitly opted in by apply-
-ing to join. That application process could involve public proof of alignment via
+Admission to this social network is selective, people can lose their account privileges for bad behavior, and everyone who’s there has explicitly opted in by applying to join. That application process could involve public proof of alignment via
 writing, a career history that demonstrates common values, or the investment of
 time and energy into the society to obtain digital assets. Joining the network that
 underpins a network state is not a purely economic proposition, not something
@@ -9804,8 +9112,7 @@ A network state grows out of a startup society that is
 premised on a moral innovation, where everyone within the society thinks some
 principle X is good that the rest of the world thinks is bad, or vice versa. This is
 the proposition part of a proposition nation. For example, the moral innovation
-could be as trivial-seeming as “sugar bad” or “24/7 internet bad”, or as heavy-
-weight as “this traditional religion is good”. The moral innovation draws people
+could be as trivial-seeming as “sugar bad” or “24/7 internet bad”, or as heavyweight as “this traditional religion is good”. The moral innovation draws people
 in. It gives a reason for the society to exist, a purpose that’s distinct from the
 outside world, a universalist complement to the particularist sense of national
 consciousness, an ideological mission that others will nod their heads at even if
@@ -9815,8 +9122,6 @@ The reason we put such a high priority on a moral innovation is that missionary
 societies outcompete mercenary ones, not just in theory but in practice.
 For
 
-
-222
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 example, the historian Paul Johnson once pointed out that the for-profit colonies
 in America failed but the religious ones had the cohesion and commitment to
@@ -9848,8 +9153,7 @@ consciousness. It’s a combination of collective purpose (which is like the mis
 statement of a company, but for a community) and the capacity to act on that
 purpose.
 First, let’s understand the idea of collective purpose through some examples. The
-Puritans wanted to build a “City on a Hill.” The Japanese after the Meiji Restora-
-tion replaced their previous mission statement of “Revere the Emperor, Expel the
+Puritans wanted to build a “City on a Hill.” The Japanese after the Meiji Restoration replaced their previous mission statement of “Revere the Emperor, Expel the
 Barbarians” with “Enrich the Country, Strengthen the Military,” turning their
 society around 180 degrees and thereby building the first non-white industrialized
 power. And while the process of Indian Independence and Partition was messy
@@ -9862,7 +9166,7 @@ decision. That’s where founder control comes in.
 
 
 5.3. ON NETWORK STATES
-223
+
 the Indian nation in a way it never had been before, with hundreds of so-called
 “princely states” and countless ethnic groups now integrated into a single India.4
 As one more example, JFK once focused the US on the common purpose of
@@ -9875,8 +9179,7 @@ These collective purposes helped unify their respective nations. They may be
 imperfect, but once there’s no collective purpose at all, people start wondering
 who they are. “Who are we?”
 That directionlessness leads to what we see in
-today’s US, split into two tribes whose only “collective purpose” is to win a zero-
-sum game against the other - a game each thinks it must win before being able
+today’s US, split into two tribes whose only “collective purpose” is to win a zerosum game against the other - a game each thinks it must win before being able
 to move forward to the promised land.
 Next, supposing we have a collective purpose, what does collective action towards
 that purpose look like?
@@ -9891,38 +9194,30 @@ dashboard, no way of setting and achieving tangible goals as a group.
 people were grossly incivil to each other online, as it was a funny contrast to the
 generally civil offline world. Now it’s just old, and not funny anymore. Moreover,
 internet ideologies have emerged that justify random nastiness with slogans like
-“civility is tone policing” or “toxicity is social defense.” Yet a society where ev-
-eryone is constantly disrespectful to everyone else doesn’t seem like a progressive,
-public-spirited society. And the conservative US of the 1950s managed to main-
-tain a strong level of self-defense because they were internally civil. So whether
+“civility is tone policing” or “toxicity is social defense.” Yet a society where everyone is constantly disrespectful to everyone else doesn’t seem like a progressive,
+public-spirited society. And the conservative US of the 1950s managed to maintain a strong level of self-defense because they were internally civil. So whether
 one is coming from the left or right, pulling together a high-trust society means
 in-person levels of civility towards community fellow members, both offline and
 online. High trust in turn comes from alignment towards a collective purpose and
 a sense of national consciousness.
 • An integrated cryptocurrency. This is the digital backbone of the network state.
-It manages the internal digital assets, the smart contracts, the web3 citizen lo-
-gins, the birth and marriage certificates, the property registries, the public na-
-tional statistics, and essentially every other bureaucratic process that a nation
+It manages the internal digital assets, the smart contracts, the web3 citizen logins, the birth and marriage certificates, the property registries, the public national statistics, and essentially every other bureaucratic process that a nation
 state manages via pieces of paper. Because it’s protected by encryption, it can
 coordinate all the functions of a state across the borders of legacy nation states.
 4See this map and this one to get a sense of what India looked like prior to Independence. It’s
 much like a map of Central Europe before Bismarck.
 
-
-224
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 • An archipelago of crowdfunded physical territories. This is the physical footprint
 of the network state. Rather than buying territory in one place, or trying to
 negotiate sovereignty up front, you build the community in the cloud and then
 crowdfund physical real estate on the earth. That’s office space, yes, but also
-homes and shops - just spread all around the world in clusters, rather than con-
-centrated in one place. You network these clusters together using the internet
+homes and shops - just spread all around the world in clusters, rather than concentrated in one place. You network these clusters together using the internet
 into a network archipelago, eventually using newer technologies to make them
 more real. For example, you can make the flag of a network state appear to
 anyone with augmented reality glasses and the right NFT, as per this visual.
 You can also make doors open on command for community members, where their
-ENS name is their login. The point is that a network state is not a purely digi-
-tal thing. It has a substantial physical component: all the buildings around the
+ENS name is their login. The point is that a network state is not a purely digital thing. It has a substantial physical component: all the buildings around the
 world crowdfunded by its members.
 • A consensual government limited by a social smart contract.
 Now we get to
@@ -9938,13 +9233,11 @@ How is that moral consensus arrived at? It could be through a 51% democracy
 democracy (where 100% of people have migrated into a system and can migrate
 out at any time), or it could be via one of the zillions of techniques for satisfying
 preferences described in the literature.
-The specifics don’t matter as much as the ethics. That is, what makes a govern-
-ment legitimate is not process but substance.5 Given the consent of the governed,
+The specifics don’t matter as much as the ethics. That is, what makes a government legitimate is not process but substance.5 Given the consent of the governed,
 any form of government is internally legitimate. The question is then whether it
 will be considered externally legitimate, whether the world at large will accept
 this government - but that is an empirical question more than an ethical one.
-Put another way, if people can opt in to bungee jumping and skydiving, if eu-
-thanasia is legal, then experimenting with self-governmental systems that vary
+Put another way, if people can opt in to bungee jumping and skydiving, if euthanasia is legal, then experimenting with self-governmental systems that vary
 dramatically from the status quo should also be legal. Many of them won’t work,
 but many projects don’t work either; that doesn’t mean we stop people from
 trying.
@@ -9957,7 +9250,7 @@ that, such as on-chain evidence.
 
 
 5.3. ON NETWORK STATES
-225
+
 Ford is organized by product or by function, whether they’re run top-down by the
 CEO or in a consultative way with the board, whether they pay market salaries
 or incentivize more heavily with stock. Ford could be a holocracy or a co-op.
@@ -10003,15 +9296,12 @@ managed territory.
 crypto name systems as well, like SNS (the Solana Name System); ENS is just the adoption leader at
 time of writing.
 
-
-226
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 You can extrapolate that ENS-login-to-physical-world example dramatically. As
 more physical territories are crowdfunded by a startup society, and more smart
 devices within those territories are owned by the society, it can exert consensual
 digital governance within those territories on all who opted in by signing the
-social smart contract. For example, if someone misbehaves within a given startup-
-society-owned jurisdiction, after a Kleros-style digital trial, their deposits could
+social smart contract. For example, if someone misbehaves within a given startupsociety-owned jurisdiction, after a Kleros-style digital trial, their deposits could
 be frozen and their ENS locked out of all doors for a time period as a punishment.
 This is at first blush similar to what’s already happening in both the West and
 China, where Canadian trucker funds are being frozen and WeChat QR codes are
@@ -10022,8 +9312,7 @@ many startup societies to choose from with explicit social smart contracts.
 Essentially, the key insight is that “government” is becoming synonymous with
 digital government. In any US-establishment- controlled territory your Google
 account will soon be frozen for crossing the US establishment.
-In any CCP-
-controlled territory your WeChat account can be frozen for crossing the CCP. But
+In any CCPcontrolled territory your WeChat account can be frozen for crossing the CCP. But
 in any crypto-anarchic territory there may not be much in the way of functional
 digital services at all. So if one wants modernity constrained by cryptography, the
 concept of the “social smart contract” is one way to achieve consensual, limited
@@ -10038,10 +9327,8 @@ centralized crypto exchange collaborates with traditional offline law enforcemen
 Eventually, if and when that startup society becomes a network state – in the
 sense of achieving diplomatic recognition from a legacy sovereign – then it can
 potentially take on physical law enforcement duties.
-In the meantime, physical law enforcement itself is gradually turning into some-
-thing done with autonomous robots - whether they be legged robodogs, rolling
-cameras, or flying drones. So more law enforcement is being done from a com-
-mand line. And that trend gradually converges with the concept of digital law
+In the meantime, physical law enforcement itself is gradually turning into something done with autonomous robots - whether they be legged robodogs, rolling
+cameras, or flying drones. So more law enforcement is being done from a command line. And that trend gradually converges with the concept of digital law
 enforcement by a network state.
 To summarize: when we say that a network state has “consensual government
 limited by a social smart contract”, we mean that it exercises authority over
@@ -10052,14 +9339,12 @@ centralized exchange by depositing coins there.
 
 
 5.3. ON NETWORK STATES
-227
+
 • A virtual capital. A network state is physically distributed, but its people still
 digitally assemble in one place.
 That cloud assembly point could initially be
-something as modest as a Discord channel, but will eventually be a private sub-
-network of the open metaverse. That means a virtual reality (VR) environment
-with parts that can be seamlessly projected into the physical world with aug-
-mented reality (AR) glasses, so that you can see digital people, buildings, or
+something as modest as a Discord channel, but will eventually be a private subnetwork of the open metaverse. That means a virtual reality (VR) environment
+with parts that can be seamlessly projected into the physical world with augmented reality (AR) glasses, so that you can see digital people, buildings, or
 objects in the real world, like this. Access to a network state’s virtual capital,
 like everything else in a network state, is gated by web3 login limited to citizens.
 The most ambitious version of this allows community members to gather online
@@ -10080,13 +9365,10 @@ to overestimate them. They may trust the US government, or even Facebook
 (a public company) on its audited user numbers, but not some upstart startup
 society - not without some proof.
 But how do you prove that a given startup society really has 10,000 residents
-and one billion dollars in annual income and 10M square meters in its real es-
-tate footprint? Each of these elements can be established via on-chain data. We
-already have techniques for proof-of-human, proof-of-income (via on-chain ac-
-counting) and proof-of-real-estate (via blockchain real estate). We can get into
+and one billion dollars in annual income and 10M square meters in its real estate footprint? Each of these elements can be established via on-chain data. We
+already have techniques for proof-of-human, proof-of-income (via on-chain accounting) and proof-of-real-estate (via blockchain real estate). We can get into
 technical detail on how you solve the “crypto oracle problem” of getting off-chain
-data reliably onto the blockchain, but the short version is that you can use a sta-
-tistical estimator to take into account the fact that individual oracles may have
+data reliably onto the blockchain, but the short version is that you can use a statistical estimator to take into account the fact that individual oracles may have
 errors. By accumulating the censuses of all startup societies in a hypothetical
 nationrealestatepop.com site similar to coinmarketcap.com, you could track
 in realtime the number of startup society members, the acreage of real estate
@@ -10097,8 +9379,6 @@ so-called “shadow statistics” that replace the official statistics of legacy
 if you don’t believe the US government numbers for inflation, you’d do something like the post at
 balajis.com/p/inflation to generate an alternative on-chain dashboard for inflation.
 
-
-228
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 diplomatic recognition. Diplomatic recognition by a pre-existing government is
 what distinguishes a network state from a startup society, just as “diplomatic
@@ -10110,8 +9390,7 @@ and real estate, to prove that your growing society is as large as you say it is
 That’s why the aforementioned census is important.
 Putting all that together, we can see that the definition of a network state culminates
 in attaining diplomatic recognition from a pre-existing government, which requires far
-more substance, leadership, physical presence, and long-term commitment than a typ-
-ical online community, or even a cryptocurrency. It may be a LARP, but it’s not done
+more substance, leadership, physical presence, and long-term commitment than a typical online community, or even a cryptocurrency. It may be a LARP, but it’s not done
 on a lark.
 Breaking the Definition
 You can start to see why we have several parts to the definition. If you subtract one
@@ -10134,9 +9413,7 @@ doesn’t arise from propagandistic bombardment but from free choice.
 there is no nation underpinning the network state. It’s just a bunch of random
 people with nothing in common.
 • No capacity for collective action. A group of people that lacks a capacity for
-collective action - like most online communities, frankly - isn’t going to get any-
-where.9 Even if they have national consciousness, without the capacity to orga-
-8This seems obviously bad, but because it’s easier to split up power than to consolidate it, you
+collective action - like most online communities, frankly - isn’t going to get anywhere.9 Even if they have national consciousness, without the capacity to orga8This seems obviously bad, but because it’s easier to split up power than to consolidate it, you
 see this failure mode all the time - in San Francisco’s vetocracy, in the Polish Parliament, in public
 companies with too many board members, in bureaucratic DAOs, and in co-ops.
 9This is also why ultra-libertarian startup societies tend to fail. They’re right about the desirability
@@ -10144,7 +9421,7 @@ of founding new societies, but wrong in their estimate of how much cooperation a
 
 
 5.3. ON NETWORK STATES
-229
+
 nize (which arises in part from a leader), they certainly can’t build a state.
 • No in-person level of civility. A group of people that constantly tears each other
 down won’t build an outhouse together, let alone a state. More deeply, the folks
@@ -10160,8 +9437,7 @@ generally, a sovereign system of record) there is no sovereignty.10
 • No archipelago of crowdfunded physical territories.
 You can do many things
 online, but not everything.
-Without physical territory you can’t build FDA-
-free zones, or NRC-free areas, or the Keto Kosher community, or many kinds
+Without physical territory you can’t build FDAfree zones, or NRC-free areas, or the Keto Kosher community, or many kinds
 of substantive parallel societies. You also can’t meet, mate, mingle, and do all
 the other things humans do in person. And most importantly you’re not going
 to be taken seriously as a successor to the nation state without a large physical
@@ -10192,8 +9468,6 @@ to the v2 of Bitcoin-only to the v3 of new opt-in fiat currencies checked by the
 11San Marino is the exception that proves the rule, the only surviving city state that didn’t get
 rolled up into a 20th century universalist empire.
 
-
-230
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 That’s the reason a network state has a virtual capital rather than a physical one.
 Think of it as “remote-first,” but for a society. In a remote company, nothing
@@ -10240,7 +9514,7 @@ the organization benefit of the doubt on claims that cannot be so checked.
 
 
 5.3. ON NETWORK STATES
-231
+
 10 billion dollars in annual income, and 100k people, then that starts to become
 a society worthy of diplomatic recognition.
 • No measure of diplomatic recognition. Many libertarians don’t get the concept
@@ -10282,8 +9556,6 @@ sovereign state that recognizes another may revoke that recognition if the secon
 heroin or becomes a base for terrorism. Or it may just act like it’s revoking recognition, without
 formally doing so.
 
-
-232
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 5.3.2
 What is the Network State System?
@@ -10315,14 +9587,11 @@ users of more than one social network. Of course, they can spend most of their
 time in one network state.
 • Legitimacy from physical migration and digital choice.
 The power of network
-states is constrained by consent and cryptography. First, recall that the gover-
-nance network of a given network state is the analog to the state of a traditional
-country. This governance network only has control over those digital citizens (ne-
-tizens) that have opted in, individually or collectively, to its governance, much as
+states is constrained by consent and cryptography. First, recall that the governance network of a given network state is the analog to the state of a traditional
+country. This governance network only has control over those digital citizens (netizens) that have opted in, individually or collectively, to its governance, much as
 one explicitly signs an employment contract when joining a company or implicitly
 signs a social contract when stepping across a border. A given national network
-can choose a governance network as an administrator, thereby forming (or join-
-ing) a network state with an on-chain record of their collective decision. Or an
+can choose a governance network as an administrator, thereby forming (or joining) a network state with an on-chain record of their collective decision. Or an
 individual can join a network state on their own. Cryptography ensures that
 this choice is demonstrably free and uncoerced, because no state can easily seize
 an individual’s private keys. Cryptography further guarantees basic rights like
@@ -10331,36 +9600,29 @@ and the like, so long as each user has exclusive access to their private keys.
 
 
 5.3. ON NETWORK STATES
-233
+
 • Decentralized administration. The group of people that administers a network
-state, which we call a governance network, is composed of a founder/chief execu-
-tive and their engineers. They write laws in code to specify what is mandatory,
-encouraged, discouraged, and forbidden. These laws are interpreted by impar-
-tial servers and enforced by cryptography. In the network state system, each
+state, which we call a governance network, is composed of a founder/chief executive and their engineers. They write laws in code to specify what is mandatory,
+encouraged, discouraged, and forbidden. These laws are interpreted by impartial servers and enforced by cryptography. In the network state system, each
 social subnetwork can choose which governance network administers them, as
 determined both by their physical location and where their digital property lies.
 Over time, this means polycentric law: people in a given physical area can switch
-between network states (and thus governance providers) just as they switch be-
-tween Uber and Lyft as taxi regulators, or Bitcoin and Ethereum as monetary
+between network states (and thus governance providers) just as they switch between Uber and Lyft as taxi regulators, or Bitcoin and Ethereum as monetary
 regulators.
 • Domestic monopoly of root access. The governance network of a network state has
 root access to an administrative interface where law enforcement can flip digital
-switches as necessary to maintain or restore domestic order, just like the sysad-
-mins of today’s tech companies. Of course, postulating the existence of such an
+switches as necessary to maintain or restore domestic order, just like the sysadmins of today’s tech companies. Of course, postulating the existence of such an
 interface presupposes a world where everything from money to messaging, doors
 to dwellings, farms to factories, flying drones to walking droids can be controlled
 from a single computer — but that world isn’t far off, and today there are few
 checks on the digital power of the tech companies that are bringing it into being.
-The network state system checks this power in two ways: by maintaining pri-
-vate keys (so foreign states and corporations cannot interfere in domestic affairs)
+The network state system checks this power in two ways: by maintaining private keys (so foreign states and corporations cannot interfere in domestic affairs)
 and by enabling exit (so citizens can execute financial and electoral votes of no
 confidence if need be, both as individuals and as groups).
 • International sovereignty via cryptography. For a network state, sovereignty is
 private keys.
-If access to the aforementioned administrative interface is con-
-trolled by private keys rather than a username/password combination, then the
-same encryption techniques that make it difficult for an outsider to seize an indi-
-vidual’s private keys can make it difficult for a foreign rival to steal a legitimate
+If access to the aforementioned administrative interface is controlled by private keys rather than a username/password combination, then the
+same encryption techniques that make it difficult for an outsider to seize an individual’s private keys can make it difficult for a foreign rival to steal a legitimate
 government’s private keys. This is a completely new way of defending sovereignty,
 a complement and/or replacement for the military.
 • Digital diplomatic recognition. Network states can recognize each other bilaterally
@@ -10377,8 +9639,6 @@ state honored by another?
 • Chains manage cooperation and constraint. Public blockchains are the equivalent
 of international law in a network state system. They facilitate economic and
 
-
-234
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 social cooperation between network states and their netizens, but also constrain
 those states with cryptographically binding code.
@@ -10395,8 +9655,7 @@ One point we touched on above, but that bears repeating, is that the network sta
 system assumes the world has flipped to digital first: all nontrivial human-created
 events start in the cloud and then, if important, are “printed out” into the physical
 world.
-Think about anything a human does today: all office work is online, as is much social-
-ization. Courts are now online, as are politicians. So is money. So is agriculture, and
+Think about anything a human does today: all office work is online, as is much socialization. Courts are now online, as are politicians. So is money. So is agriculture, and
 manufacturing, and shipping. The phone has indeed become the remote control for
 the world. Many previously offline devices — cars, doors, desks, weights, coffeemakers,
 even toothbrushes — are coming online. Even pacemakers leave a digital trace.
@@ -10421,7 +9680,7 @@ a system administrator with root access. But we also build decentralized service
 
 
 5.3. ON NETWORK STATES
-235
+
 do not have any single system administrator, and tools for the physical and digital exit
 of citizens.
 Assumption: Divide Networks Rather than Land
@@ -10442,18 +9701,15 @@ existing states) and constrained by cryptographic and physical exit, rather than
 paper laws or toothless treaties. This is what powers up citizens, who freely choose
 whether to enter or exit, either collectively or individually.
 Thus, the legitimacy of a network state comes not from top-down declamations, but
-from bottom-up consent, as each netizen has opted in. A truly oppressive or incompe-
-tent network state loses them to exit, or doesn’t gain citizens in the first place. And
+from bottom-up consent, as each netizen has opted in. A truly oppressive or incompetent network state loses them to exit, or doesn’t gain citizens in the first place. And
 no state is strong enough to block the ultimate exit that cryptocurrency represents.
 5.3.3
 The Network State as a Term
 We can unpack the term “network state” in several useful and complementary ways.
-1. The network is the nation. The organic, voluntary, bottom-up nation that un-
-derpins the state is formed online in a network. This could be on the basis of
+1. The network is the nation. The organic, voluntary, bottom-up nation that underpins the state is formed online in a network. This could be on the basis of
 language, culture, proposition, or some combination thereof. This represents a
 digital remedy to the phenomenon Putnam identified in Bowling Alone. In the
-year 2000, we were bowling alone but by 2020 we were posting together. COVID-
-19 accelerated this process — people were spread apart in the physical world but
+year 2000, we were bowling alone but by 2020 we were posting together. COVID19 accelerated this process — people were spread apart in the physical world but
 packed together online.
 2. The network is the territory. VR isn’t yet fully mature, but when it is, we’ll
 identify the territory of a network state as a subnetwork of the open metaverse.
@@ -10461,8 +9717,6 @@ We can understand this if we think about domain names, social profiles, and ENS
 names — digital land can be created for free, but access to that land can become
 very valuable (and, when deplatforming is in the cards, very contentious). The
 
-
-236
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 analogy to land goes very deep — to fully understand it, you need to understand
 graph layouts, but in short you can make maps of networks given any graph
@@ -10507,7 +9761,7 @@ managing, both in the sense of the people in that network and the digital domain
 
 
 5.3. ON NETWORK STATES
-237
+
 Zuck came first, then registered thefacebook.com; only then came the users. But in a
 real nation, the people and their physical domain precede the state. For example, the
 Japanese people and islands predate the current Japanese government.
@@ -10530,8 +9784,7 @@ expectations, yet they weren’t set up to be governments. People didn’t consc
 sign a social contract to be governed by them. Facebook and Twitter grew to take over
 much of people’s lives, but have no concept of digital property rights. Seizures and
 silencing weren’t part of the bargain.
-Startups create Centralized Networks, but Chains create Decentralized Net-
-works
+Startups create Centralized Networks, but Chains create Decentralized Networks
 There are at least two ways to add genuine choice, and hence legitimacy, to centralized
 networks.
 1. Free the backend.
@@ -10548,8 +9801,6 @@ networks.
 social network to enable web3 login, such that users can contact each other outside
 the service and their usernames are not locked into the system. Note that this
 
-
-238
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 is far more substantive than merely allowing users to “export their data” — it’s
 more like the capability to message your followers without Facebook or Twitter’s
@@ -10563,12 +9814,9 @@ ones) must be given the option to leave15 with all their digital valuables in or
 their stay to be considered uncoerced.
 5.3.5
 0-network, 1-network, N-networks
-We know that multinational empires tend to have the same failure modes as microna-
-tions: the state doesn’t actually represent a single distinct people, and thus fails on
+We know that multinational empires tend to have the same failure modes as micronations: the state doesn’t actually represent a single distinct people, and thus fails on
 that basis.
-Towards that end, it’s worth taking the overloaded term of “social networks” and disag-
-gregating it into 0-networks, 1, networks, and N-networks, just as we did for microna-
-tions, nation states, and multinational empires.
+Towards that end, it’s worth taking the overloaded term of “social networks” and disaggregating it into 0-networks, 1, networks, and N-networks, just as we did for micronations, nation states, and multinational empires.
 Here’s a concrete example:
 • 0-network: Facebook at inception, 1 person founder, no users
 • 1-network: Facebook at Harvard, one month after founding
@@ -10587,7 +9835,7 @@ digital property was to them.
 
 
 5.3. ON NETWORK STATES
-239
+
 people interact. Note that not every online service fits this definition; some apps like
 Mathematica or Photoshop are pure utilities.16
 An N-network is the equivalent of a multinational empire. It’s not a good base for a
@@ -10596,8 +9844,7 @@ coherent people. For example, the 300M users of Twitter or the 3B+ users of Face
 are unified by nothing more than a desire for likes. Of course, some of the subnetworks
 of an N-network may have enough asabiyyah to form a network state.
 A 1-network is the basis for a network state, something like a focused subreddit, a
-moderated Facebook group, a PHP BB forum, a large Telegram channel, or the follow-
-ing of a single Twitter influencer. Of course, not all subreddits would be 1-networks,
+moderated Facebook group, a PHP BB forum, a large Telegram channel, or the following of a single Twitter influencer. Of course, not all subreddits would be 1-networks,
 but r/keto with its intense dietary culture is much closer than a global forum like
 r/worldnews. A 1-network typically has some basic form of moderation (a moderator
 can ban you, an influencer can block you), some community norms, and mechanisms
@@ -10619,15 +9866,12 @@ We also earlier noted that the definition of a nation was a bit fuzzy, both in t
 dictionary sense and according to different thinkers. With those preliminaries, we can
 now give a computational answer to the question of “what is a nation?”
 A Verbal Description
-You can redefine a traditional nation as a densely connected subgraph in a social net-
-work. Based on some metric — such as linguistic distance, genomic distance, ideological
+You can redefine a traditional nation as a densely connected subgraph in a social network. Based on some metric — such as linguistic distance, genomic distance, ideological
 distance, or cryptocurrency holdings — the nodes of a bona fide nation should group
 more tightly with each other than they do with other networks.
 16Though as soon as you name something like that, you start asking whether it might be useful to
 build a social network around that tool, just like we have communities of plumbers and electricians.
 
-
-240
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 In mathematical terms, nations are highly connected subgraphs of a global network
 according to one or more network distance metrics, like
@@ -10645,8 +9889,7 @@ By this definition, a real nation would have more ingroup than outgroup connecti
 more “domestic” than “international” calls.
 A Computational Approach
 Here’s how you’d actually do that computation.
-• Begin with any large N-network like Twitter with K = 300M users and N postu-
-lated subnetworks. Calculate any or all of the following distance metrics between
+• Begin with any large N-network like Twitter with K = 300M users and N postulated subnetworks. Calculate any or all of the following distance metrics between
 individuals, if you have available data, using the definitions from the preceding
 section.
 – dp (geographic distance)
@@ -10666,7 +9909,7 @@ like Naive Bayes can work, or something more sophisticated.
 
 
 5.3. ON NETWORK STATES
-241
+
 • Finally, set a threshold of say P(Y = 1|d1..6) > 0.50. All the densely connected
 subgraphs that pop out of that process are the 1-networks.
 In other words, given a set of postulated measures of national similarity, a bit of training
@@ -10689,8 +9932,7 @@ those pieces together digitally, and then use technologies like web3 logins and 
 reality to seamlessly link the online and offline.
 Each such node of the network state represents a group of digital citizens who have
 chosen to live together in the physical world. As shown in the dashboard, the network
-state’s population, income, and real estate is summed over all netizens across all net-
-work nodes. As the state grows, these numbers can, over time, become comparable to
+state’s population, income, and real estate is summed over all netizens across all network nodes. As the state grows, these numbers can, over time, become comparable to
 the footprint of legacy nation states, including the real estate footprint.
 So, a network state is a physically distributed state, a bit like Indonesia, but with its
 pieces of land separated by internet rather than ocean.
@@ -10705,8 +9947,6 @@ the graph structure.
 a footbridge to connect the two. That’s like Spotify doing a deal with Uber;
 suddenly, two huge networks get bridged and people can start walking across.
 
-
-242
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 This will become much more obvious as metaverse subnetworks are connected
 and disconnected by management on the basis of diplomatic relations between
@@ -10749,7 +9989,7 @@ the US is not really a “nation” state. It’s at least a binational state, w
 
 
 5.3. ON NETWORK STATES
-243
+
 2-network, with two strongly connected subgraphs at each other’s throats. These two
 nations are packed into the same physical environment, but are far apart mentally.
 A network state makes the opposite tradeoff. It’s a group of people spread out in
@@ -10778,8 +10018,7 @@ which are roughly analogous to startups and tech companies respectively. Like a 
 big things. Like a tech company (and unlike a legacy entity), a parallel society is a
 small-to-large group of people with at least one proposed major innovation relative to
 how things were done before.
-As sequential terms, we’ll talk about network unions, network archipelagos, and net-
-work states.
+As sequential terms, we’ll talk about network unions, network archipelagos, and network states.
 These are roughly analogous to seed, Series B, and public companies
 respectively in terms of how much effort it takes to build them. A network union is
 fully digital but is a real organization with money and a purpose, like a seed startup
@@ -10792,8 +10031,6 @@ the NASDAQ.
 17Indeed, the purpose of this book is to show that network states are feasible and desirable, but not
 inevitable. We’ll have to work to create the future we want.
 
-
-244
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 Those are rough definitions. Let’s get a bit more precise.
 Startup Societies
@@ -10825,8 +10062,7 @@ DAO). That’s better than “I’m starting a social network,” because a DAO 
 has an implicit concept of national identity, in the form of common coin-holding. A
 social network does not have this, because most social networks, by dint of being social
 utilities, fly past 1-networks and become N-networks if they are successful. However,
-DAOs also are bedeviled by the downsides of markets and politics respectively: fly-by-
-night speculators and bureaucratic boondoggles abound.
+DAOs also are bedeviled by the downsides of markets and politics respectively: fly-bynight speculators and bureaucratic boondoggles abound.
 So, if you want to eventually build a network state, you should instead start by saying
 “I’m founding a startup society.”
 Parallel Societies
@@ -10835,7 +10071,7 @@ but can be much larger in scale. It’s an umbrella term for a network union, ne
 
 
 5.3. ON NETWORK STATES
-245
+
 archipelago, or network state. It emphasizes that you have a possibly huge society
 running in parallel to legacy society, with at least one big piece that is wildly different
 from the existing world.
@@ -10856,18 +10092,15 @@ state. Think about it: if people won’t even show up to vote online, they don�
 about the community. Conversely, if they’ve managed to do great things together as
 part of a network union, they’ll be able to do more.
 And that is in fact Renan’s definition of a nation:
-To have done great things together, to want to do more, such are the es-
-sential conditions to form a people. . . Man is not a slave to his race, or his
+To have done great things together, to want to do more, such are the essential conditions to form a people. . . Man is not a slave to his race, or his
 tongue, or his religion.
 See also this earlier piece on network unions, before we tightened up some of the
 definitions.
 Public Displays of Alignment
 A network union doesn’t just do private actions for the collective benefit of its members.
-It also does public actions which show the world at large how organized, aligned, self-
-sacrificing, and mutually cooperating the members of the network union are. Call these
+It also does public actions which show the world at large how organized, aligned, selfsacrificing, and mutually cooperating the members of the network union are. Call these
 public displays of alignment, a decorous riff on the American concept of PDA.
-As motivation, think about the many movies that center the tango in a campy-yet-
-serious way.
+As motivation, think about the many movies that center the tango in a campy-yetserious way.
 Dramatic music plays as man and woman lock eyes across the room
 before beginning a series of complicated pirouettes. The dance floor clears a circle as
 everyone pauses to watch. The whole room is now paying rapt attention to this couple,
@@ -10875,8 +10108,6 @@ even if they didn’t know them before.
 That’s an example of positive-sum attention: because these two paid attention to each
 other in a public and synchronized way, others paid respectful attention to them. That
 
-
-246
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 couple must love each other very much — or at least must practice very much — and
 their coordination demands admiration. Even the onlooker who doesn’t much care for
@@ -10921,7 +10152,7 @@ their differences behind them to build a united front. Countries do this too —
 
 
 5.3. ON NETWORK STATES
-247
+
 what peace treaties, mutual defense pacts, joint military exercises, and international
 organizations are all about. The visual of flags flying together shows others that they’re
 one unit.
@@ -10961,8 +10192,6 @@ for building organizational muscle.
 2. Network archipelago.
 A network union that begins acquiring and networking
 
-
-248
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 properties in the physical world.
 The physical interaction is key for building
@@ -10983,8 +10212,7 @@ The bootstrap recognizer is to a network state what El Salvador was to Bitcoin: 
 formal acceptance of the new system by the old to form something stronger than either
 of them individually.
 Each network archipelago that wants to become a network state should have a thesis
-on who its bootstrap recognizer is. It will likely be an existing state with many “bi-
-nationals” that have formal legal citizenship with their existing nation state but have
+on who its bootstrap recognizer is. It will likely be an existing state with many “binationals” that have formal legal citizenship with their existing nation state but have
 mentally migrated to become dual citizens of their new network state. The historical
 analog is those who identified as Israelis or Indians even before their states became
 formally independent.
@@ -11003,30 +10231,26 @@ food.
 
 
 5.3. ON NETWORK STATES
-249
+
 You can probably come up with other kinds of structures. The overall idea is to build
 digital civil society, all those community organizations that aren’t either the state above
 or the isolated individual below, the kind of non-political voluntary associations that
 once built America, according to Tocqueville:
 I do not wish to speak of those political associations. . . Here it is a question
-only of the associations that are formed in civil life and which have an ob-
-ject that is in no way political. . . Americans of all ages, all conditions, all
+only of the associations that are formed in civil life and which have an object that is in no way political. . . Americans of all ages, all conditions, all
 minds constantly unite. Not only do they have commercial and industrial
 associations in which all take part, but they also have a thousand other
-kinds: religious, moral, grave, futile, very general and very particular, im-
-mense and very small; Americans use associations to give fêtes, to found
+kinds: religious, moral, grave, futile, very general and very particular, immense and very small; Americans use associations to give fêtes, to found
 seminaries, to build inns, to raise churches, to distribute books, to send
 missionaries to the antipodes; in this manner they create hospitals, prisons,
 schools. Finally, if it is a question of bringing to light a truth or developing
-a sentiment with the support of a great example, they associate. Every-
-where that, at the head of a new undertaking, you see the government in
+a sentiment with the support of a great example, they associate. Everywhere that, at the head of a new undertaking, you see the government in
 France and a great lord in England, count on it that you will perceive an
 association in the United States.
 These had vanished by the year 2000, according to Putnam:
 Putnam draws on evidence including nearly 500,000 interviews over the
 last quarter century to show that we sign fewer petitions, belong to fewer
-organizations that meet, know our neighbors less, meet with friends less fre-
-quently, and even socialize with our families less often. We’re even bowling
+organizations that meet, know our neighbors less, meet with friends less frequently, and even socialize with our families less often. We’re even bowling
 alone.
 The network union and network archipelago are ends in themselves. They give us a
 roadmap for rebuilding digital civil society, to start doing things together with purpose
@@ -11038,14 +10262,10 @@ We just described why network states need more than community, and even more
 than economic alignment — they need a sense of national consciousness, of collective
 purpose, as provided by a network union. Now let’s discuss why we need recognition.
 A fun one liner is that crypto made progressives more libertarian and libertarians more
-progressive. Progressives discovered that you can build stateless money. Libertari-
-ans discovered that you then need to rebuild something much like a state: identity,
+progressive. Progressives discovered that you can build stateless money. Libertarians discovered that you then need to rebuild something much like a state: identity,
 reputation, anti-fraud, custody, trust, community, and the like.
-We think network states will have a similar dynamic. If they work, they’ll show pro-
-gressives a different path to political innovation — rather than grinding through a
+We think network states will have a similar dynamic. If they work, they’ll show progressives a different path to political innovation — rather than grinding through a
 
-
-250
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 thankless legacy system, they can use their organizing skills to help start a new one.
 But libertarian founders of network unions will similarly need to take a page from the
@@ -11060,12 +10280,10 @@ Similarly, while a network union can get started with one person, and even buy l
 become a network archipelago, to cross the chasm it needs a plan for gaining diplomatic
 recognition — to go from “unpopular but feasible” to “popular and important.”
 Lack of recognition limits sovereignty. In a sense, diplomatic recognition is a partial,
-non-binding, but still meaningful commitment from a legacy state to respect the inter-
-nal sovereignty of the new network state, to admit it to the family of nations, to open
+non-binding, but still meaningful commitment from a legacy state to respect the internal sovereignty of the new network state, to admit it to the family of nations, to open
 up a number of different avenues for trade and institutional innovation.
 Getting there means the founders of a network union that wants to become a network
-state can’t be misanthropic, or even isolationist in mentality. A live and let live men-
-tality won’t be enough; you’ll need to recruit people who win and help win. Because
+state can’t be misanthropic, or even isolationist in mentality. A live and let live mentality won’t be enough; you’ll need to recruit people who win and help win. Because
 unlike an empire, the end goal of a network state is not world domination; it’s world
 recognition.
 5.3.9
@@ -11078,8 +10296,7 @@ yours.
 Second, we want new countries for the same reason we want blank sheets of paper,
 fresh plots of land, or new startups: to begin anew without baggage from the old.
 And third, for certain kinds of technologies – particularly transformative biotech like
-life extension – we need new jurisdictions with fundamentally different levels of risk-
-tolerance, and clear-eyed consent by all who opt in.
+life extension – we need new jurisdictions with fundamentally different levels of risktolerance, and clear-eyed consent by all who opt in.
 There’s something in it for both engineers and activists, for both the technological
 innovator and the political progressive.
 Network States for the Technological Innovator
@@ -11087,16 +10304,13 @@ Why should technologists care about politics?
 
 
 5.3. ON NETWORK STATES
-251
-• The scientific innovation. Fred Ehrsam wrote that peaceful innovation in gover-
-nance is more important for innovation than we realize. After all, the Catholic
-Church burned proponents of heliocentrism at the stake; it wouldn’t have in-
-vented space shuttles. And the Soviet Union banned photocopiers; it wouldn’t
+
+• The scientific innovation. Fred Ehrsam wrote that peaceful innovation in governance is more important for innovation than we realize. After all, the Catholic
+Church burned proponents of heliocentrism at the stake; it wouldn’t have invented space shuttles. And the Soviet Union banned photocopiers; it wouldn’t
 have allowed the internet. Today, we see that San Francisco is banning everything
 from scooters to straws, but what we don’t see is what didn’t even make it out
 of the garage.
-• The physical world. The state controls the physical world. With sufficient con-
-sent, any law can be changed, and any regulation can be sunset, or reinvented.
+• The physical world. The state controls the physical world. With sufficient consent, any law can be changed, and any regulation can be sunset, or reinvented.
 This is how “bits” unlock innovation in “atoms”: we form opt-in communities
 online to unlock innovation offline.
 • The economics. Money isn’t everything, but it’s crucial to making something
@@ -11129,8 +10343,6 @@ Why should political progressives want to start new cities and countries?
 • If you’re a young politician, perhaps you don’t want to wait till you’re 70 years
 old to pay your dues and make your mark.
 
-
-252
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 • If you’re a community organizer, network unions give you a digital community to
 organize, sometimes against states and corporations, but also for the benefit of
@@ -11147,16 +10359,13 @@ mid-1800s America, where people could opt-in to build their own vision of utopia
 in the absence of traditional governance and without coercion.
 • If you’re an urban planner, network societies allow you to build support and
 amass funding to crowdfund your vision of the good.
-In short, whether you want to experiment with reforms or entirely new forms of gov-
-ernment, there’s likely something in the concept of network unions, network societies,
+In short, whether you want to experiment with reforms or entirely new forms of government, there’s likely something in the concept of network unions, network societies,
 and network states that will suit you.
-Moreover, these structures are far more democratic than the coercive governance struc-
-tures of the legacy system, because they’re all opt-in. 100% of members of a network
+Moreover, these structures are far more democratic than the coercive governance structures of the legacy system, because they’re all opt-in. 100% of members of a network
 union or network state have chosen to be there, rather than 51% imposing their will
 on a reluctant 49%. Network states are models for 100% democracy, not merely 51%
 democracy.
-With that said, the concept of a network state isn’t a panacea. Many political progres-
-sives will be attracted to existing governments for one very simple reason: they already
+With that said, the concept of a network state isn’t a panacea. Many political progressives will be attracted to existing governments for one very simple reason: they already
 exist, and already have socioeconomic power. You don’t need to build everything from
 scratch.
 But for the idealists and the ambitious who are excited about the possibility of doing
@@ -11173,12 +10382,11 @@ network union or network archipelago) can grow its userbase through recruitment
 
 
 5.3. ON NETWORK STATES
-253
+
 and reproduction.
 For the latter, the growing state will need some policy to
 recognize the new family members as netizens, such as jus sanguinis.
-2. Geographically. As the citizenry of a network state grows, it can start crowd-
-funding more territory in the physical world. This is a peaceful mechanism for
+2. Geographically. As the citizenry of a network state grows, it can start crowdfunding more territory in the physical world. This is a peaceful mechanism for
 territorial expansion. Note that these purchases need not be from sovereign states,
 though they may ultimately be.
 3. Digitally. A complement to geographical growth is digital growth: more domain
@@ -11199,8 +10407,7 @@ predecessor. A network state understands that in the absence of innovation, its
 at-will citizens will leave for more advanced jurisdictions in the same way people
 left Blockbuster for Netflix. But because technological innovation is non-zero
 sum, the relentless competitive pressure for mobile citizens means the network
-state system is positive-sum, which is very unlike the nation state system’s zero-
-sum struggle for territory.
+state system is positive-sum, which is very unlike the nation state system’s zerosum struggle for territory.
 The network state system is not about the battle for borders, but for backlinks (in a
 generalized sense). Many of the things that states traditionally fought over can now
 be abstracted and turned into an economic game. This is a step forward, for the same
@@ -11215,8 +10422,6 @@ path from a single person with a computer and no other resources to a million pe
 global network. Constant, nonviolent growth is now possible — not by conquest or
 coercion, but through volition and innovation.
 
-
-254
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
 5.3.11
 What is not a Network State?
@@ -11228,22 +10433,17 @@ First, let’s discuss some things that are actually quite far away from network
 but that are often discussed in the same breath. Each has some important similarities
 (a social network, a global physical footprint) but lacks a key dimension.
 1. Your startup. As discussed earlier, don’t go around saying that you’re starting a
-network state. Say that you’re starting a network union, and build up a commu-
-nity that’s capable of doing collective actions online. Then crowdfund territory
-and turn your online community into a network archipelago with physical pres-
-ence. Finally, if all the stars align, gain diplomatic recognition and then declare
-your society a network state. I know this might seem a bit like the Marxist insis-
-tence on the difference between socialism and communism, but the counterpoint
+network state. Say that you’re starting a network union, and build up a community that’s capable of doing collective actions online. Then crowdfund territory
+and turn your online community into a network archipelago with physical presence. Finally, if all the stars align, gain diplomatic recognition and then declare
+your society a network state. I know this might seem a bit like the Marxist insistence on the difference between socialism and communism, but the counterpoint
 is that nations have acquired land and gained diplomatic recognition before —
 and we note that it’s important when they do. They just haven’t done it in quite
 this way, with this progression. That’s why we want separate terms for network
 union, network archipelago, and network state.
 2. Twitter, the social network. Twitter is a babble of competing and hostile clans,
 many of whom don’t speak the same language or (even more importantly) share
-the same values. In our terminology, it is very much an N-network, not a 1-
-network. I’m not sure how many true national networks there are within Twitter
-(it’d depend on the parameters of our computational algorithm for national dis-
-tillation), but for the US alone it’s at least two — arguably much more.
+the same values. In our terminology, it is very much an N-network, not a 1network. I’m not sure how many true national networks there are within Twitter
+(it’d depend on the parameters of our computational algorithm for national distillation), but for the US alone it’s at least two — arguably much more.
 3. WeWork, the coworking space.
 WeWork’s woes notwithstanding, they built a
 useful product. But it was more like a utility than a true community, more like
@@ -11263,16 +10463,14 @@ building a new nation.
 
 
 5.3. ON NETWORK STATES
-255
-5. Bitcoin, the crypto protocol. There are hundreds of millions of holders of Bit-
-coin worldwide, and the ideas of Satoshi are core to modern thinking on digital
+
+5. Bitcoin, the crypto protocol. There are hundreds of millions of holders of Bitcoin worldwide, and the ideas of Satoshi are core to modern thinking on digital
 governance. Nevertheless, Bitcoin does only one thing: facilitate uncensorable
 transactions in Bitcoin. It can be thought of as a meta-government, because it
 constrains network and nation states alike, but it is silent on the 1000 other things
 that even a minarchist agrees a government should do. Moreover, while there is
 some commonality of feeling between Bitcoin holders, there also strong differences
-— Maximalists are only a subset of the community. Overall, the similarity be-
-tween Bitcoin holders is probably more at the level of English-language speakers
+— Maximalists are only a subset of the community. Overall, the similarity between Bitcoin holders is probably more at the level of English-language speakers
 than, say, Japanese-language speakers. They can understand each other, or at
 least understand each others’ premises, but they don’t all have the same vision
 of the good. In short, a digital currency is a prerequisite for a digital country,
@@ -11292,8 +10490,7 @@ for any minority party.
 enough to leave their laptop on a couch with the confidence that no one will steal
 it, then it’s a high-enough trust community to be a proto network archipelago.
 It may need to layer on governance.
-3. r/keto. A subreddit for diet, like r/keto, has a community, a governance struc-
-ture via moderators, and a shared purpose. Don’t laugh — strict dietary rules
+3. r/keto. A subreddit for diet, like r/keto, has a community, a governance structure via moderators, and a shared purpose. Don’t laugh — strict dietary rules
 have been important for religious practice for centuries, and they are an excellent
 shibboleth for group membership. To build a network union, the members of
 r/keto would need some kind of collective action that members do together (like
@@ -11307,11 +10504,8 @@ the US Fed pyramid schemes.
 candidate for pulling together a network union. There’s alignment, there’s an
 existing group, and there’s leadership. But they’d need to figure out a purpose
 
-
-256
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
-for their community (if an influencer) or a purpose beyond the merely commer-
-cial (if a CEO). That’ll be easier for activists and technologists, and harder for
+for their community (if an influencer) or a purpose beyond the merely commercial (if a CEO). That’ll be easier for activists and technologists, and harder for
 entertainers and pure salesmen.
 5. DAOs and NFT communities. As noted earlier, these are also quite close to being
 network unions, but they need to ensure they have members who are there for
@@ -11334,8 +10528,7 @@ a small opt-in community. It’s similar to how Bitcoin combines aspects of gold
 In short, you need a strong community to even have a chance of building a network
 state. Twitter at large is not it, Google Inc is not it, Bitcoin is not it — these lack
 either a single self-conscious nation, a functional state, or both.
-A political party is closer. A very tight-knit NFT community or influencer/CEO fol-
-lowing is even closer. To get on the path to network states, they would first build
+A political party is closer. A very tight-knit NFT community or influencer/CEO following is even closer. To get on the path to network states, they would first build
 digital strength via the network union, then add physical territory via the network
 archipelago, and then gain diplomatic recognition in a true network state.
 5.3.12
@@ -11354,7 +10547,7 @@ Menlo Park or Tokyo for business or pleasure, and then flying back down. While
 
 
 5.3. ON NETWORK STATES
-257
+
 there, they see new things, meet new people, and sometimes fight them. So far,
 what we’ve described is much like the settling of the Americas from 1492-1890,
 but there are at least two key differences. First, of course, the cloud had no
@@ -11363,31 +10556,25 @@ create new digital land ad infinitum in the cloud. As we discuss later on, that
 reopening of the frontier changes everything. It means that the Internet is to the
 USA as the Americas were to the UK: a wide open territory that ultimately gave
 birth to new states and ways of thinking.
-2. Bitcoin constrains legacy states. Bitcoin is the next most important prerequi-
-site for the network state. As a government of governments, it guarantees the
+2. Bitcoin constrains legacy states. Bitcoin is the next most important prerequisite for the network state. As a government of governments, it guarantees the
 sovereignty of both the individual citizen and the network state itself. Neither
 can have their funds stolen by each other, or by a hostile third party. Bitcoin has
 also created new fortunes outside the fiat system, demonstrated that institutions
 as powerful as the Fed can be replaced in a few decades, and pioneered an entirely
 new way of designing web services in a decentralized manner.
-3. Web3 enables new chains, decentralized identities, and censorship-resistant com-
-munities. With web3, we can set up a blockchain as the backbone of each network
+3. Web3 enables new chains, decentralized identities, and censorship-resistant communities. With web3, we can set up a blockchain as the backbone of each network
 state. This is the community chain that the state-appointed leadership has root
 over, as a complement to a public chain like Bitcoin or Ethereum that serves as
 an external check and balance. We can create decentralized identities similar to
-ENS and SNS to serve as digital passports for the network state, defining citizen-
-ship on the basis of single sign-on access to network state services. And we can
-allow not just censorship-resistant communication, but censorship-resistant com-
-munities, voluntary gatherings of people that can exist outside the interference
+ENS and SNS to serve as digital passports for the network state, defining citizenship on the basis of single sign-on access to network state services. And we can
+allow not just censorship-resistant communication, but censorship-resistant communities, voluntary gatherings of people that can exist outside the interference
 or surveillance of legacy states.
 4. Remote and Starlink open up the map. The moment something is put on the
 internet, it becomes remote friendly. And everything is going on the internet.
 Moreover, remote doesn’t just mean around the corner, it means around the
-world. Starlink, and satellite broadband more generally, powers up remote fur-
-ther, by making huge swaths of the map newly economically feasible. Nothing
+world. Starlink, and satellite broadband more generally, powers up remote further, by making huge swaths of the map newly economically feasible. Nothing
 now prevents a sufficiently motivated digital community from setting up their
-own Burning Man equivalent in the middle of nowhere, except this time for per-
-manent habitation, and with an eye towards incorporating formal towns and and
+own Burning Man equivalent in the middle of nowhere, except this time for permanent habitation, and with an eye towards incorporating formal towns and and
 cities. This complements our earlier point: through the internet, we’re reopening
 the frontier, and making previously godforsaken areas of the map much more
 attractive. Unlike past eras, you don’t no longer need to be near a port or mine
@@ -11396,15 +10583,11 @@ to build a city; you just need to be near an internet connection.
 Law is a function of latitude and longitude,
 so if you can easily change your latitude and longitude, you can change the
 law under which you live.
-That’s why the most important long-term conse-
-quence of the smartphone is Tiebout sorting. That is, all of the assumptions in
+That’s why the most important long-term consequence of the smartphone is Tiebout sorting. That is, all of the assumptions in
 Charles Tiebout’s famous paper from the 50s become feasible with sufficiently
 
-
-258
 CHAPTER 5. FROM NATION STATES TO NETWORK STATES
-advanced phones. With digital nomad search engines like ‘teleport.org‘ and ‘no-
-madlist.com‘, some people can choose who they want, while others move where
+advanced phones. With digital nomad search engines like ‘teleport.org‘ and ‘nomadlist.com‘, some people can choose who they want, while others move where
 they like.
 6. VR builds a capital in the cloud, AR mirrors it on the land. Virtual reality (and
 more generally the open metaverse) are yet another way in which the obligate
@@ -11412,8 +10595,7 @@ ties to the land are being cut. We can now build full castles in the sky, and th
 with augmented reality project them onto the earth. For a network archipelago
 or network state, that’s a powerful way to link distributed physical territories
 together into a coherent whole.
-7. Social disintermediated the media. Again, this one is almost too obvious, but so-
-cial media allowed anyone to build a massive following online, it disintermediated
+7. Social disintermediated the media. Again, this one is almost too obvious, but social media allowed anyone to build a massive following online, it disintermediated
 the legacy media, and (in combination with messaging apps and related tools) it
 made one’s contacts infinitely pportable.
 8. GAFAM showed us what’s possible, startup/VC showed us how. None of the web3
@@ -11450,7 +10632,7 @@ projecting in an AR avatar is to dial up a robot on the other side of the world 
 
 
 5.3. ON NETWORK STATES
-259
+
 start walking around. This should in theory be feasible by combining (a) Boston
 Dynamics’ legged robots, (b) DoubleRobotics’ telepresent iPads on wheels, (c) an
 Oculus Quest headset, and (d) an omnidirectional treadmill. That combination
@@ -11477,8 +10659,7 @@ Appendix
 Acknowledgments
 This book took a fair bit of work to put together, and I want to credit the people who
 worked closely with me to make it happen.
-@zane1729 helped with all aspects of the book, from research and fact-checking to proof-
-reading and transcribing to figures to code. @gfodor wrote the entire ebook reader and
+@zane1729 helped with all aspects of the book, from research and fact-checking to proofreading and transcribing to figures to code. @gfodor wrote the entire ebook reader and
 site. @jonst0kes coded the commemorative book NFT and managed our community.
 @aaraalto did the cover and NFT art. @elijahmadonia worked on figures and web
 design, while @0FJAKE and @xenbh helped with book logistics. Their contributions
@@ -11488,17 +10669,13 @@ Oh, and one more thing. . .
 About 1729
 The publisher of this work is 1729. It’s named after the Ramanujan number, which
 symbolizes for us the dark talent: all those people from the middle of nowhere, passed
-260
-
 
 6.2. ABOUT 1729
-261
+
 over by the establishment, with crazy-but-correct ideas, who could do great things if
 only given the opportunity. These are exactly the kinds of people who we expect will
 found startup societies and network states.
-It’s also a community for people interested in mathematics, cryptocurrencies, seast-
-eading, transhumanism, space travel, life extension, and initially-crazy-seeming-but-
-technologically-feasible ideas. . . like network states themselves.
+It’s also a community for people interested in mathematics, cryptocurrencies, seasteading, transhumanism, space travel, life extension, and initially-crazy-seeming-buttechnologically-feasible ideas. . . like network states themselves.
 If you want to join us, the first step is to subscribe to the newsletter via the widget
 at thenetworkstate.com. You’ll also get free bonus chapters for The Network State as
 they are released.

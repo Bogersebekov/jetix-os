@@ -9,12 +9,11 @@ chars: 628569
 approx_tokens: 157142
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 628571
+phase4_chars_after: 628381
+phase4_saved_pct: 0.0
 ---
-
-
-
-
-
 
 
 "/ have known Steve Andreas for 20 years, and I know that the
@@ -322,7 +321,7 @@ When she nodded, I went on: "Now imagine that you stand up and walk to the
 front of the room where you will speak. As you do this, notice what you
 experience that creates the tension."...
 1. Three dots (...) are used throughout this book to indicate a pause.
-1
+
 2 HEART OF THE MIND
 As she did this, I could see her shoulders rise as her chest became tense.
 When she spoke, her voice was indeed higher and shriller, so I knew that she
@@ -373,8 +372,7 @@ was talking directly to you, person-to-person, even though he or she was
 speaking from a higher platform?"
 Joan said thoughtfully, "Yes, I have."
 "Good, so you do know it's possible. I want you to close your eyes, and go back
-to that presentation. Notice what that speaker does to establish that person-to-
-person rapport, even though he's physically at a different level."
+to that presentation. Notice what that speaker does to establish that person-toperson rapport, even though he's physically at a different level."
 After a few moments, Joan opened her eyes, smiled, and said, "He looked out
 into the audience and smiled, and some people smiled back.
 
@@ -546,8 +544,6 @@ with is, "What are the words that trigger images for people?"
 Then people follow the feeling of the image.
 —Virginia Satir
 
-
-2
 Learning
 to Spell
 Ben was a college student who had trouble with spelling all through his school
@@ -571,8 +567,6 @@ to spell words the way they have been spelled before, no matter how illogical
 that collection of letters might be. To do this, we need to activate the part of our
 brain that visualizes remembered images, not created ones.
 
-
-8
 Learning to Spell 9
 If you ask someone to visualize a friend's face, or what her front door looks like,
 most people will look up to their left, because that gives them easy access to
@@ -789,7 +783,7 @@ know she loves me just by the way she looks and feels; I don't know why she has
 to hear it ten times a day.
 Anybody can say words; it's the actions that count." For Ann, on the other hand,
 Bob's words mattered almost more than his touch.
-14
+
 Becoming More Independent in Relationships 15
 Even though it felt unnatural to him, Bob had gotten into the habit of telling Ann
 that he loved her throughout the day, and this had helped a lot. However, when
@@ -928,8 +922,7 @@ way."
 "So are you a loving/lovable person?" By asking this I'm making a first test to
 see if the change is still there.
 Ann's eyes flicker to the left briefly. "Yes, I am. I can see that now."
-As always, her nonverbal behavior—her eyes looking to the left, and her matter-
-of-fact tone of voice—are more important indications than her verbal answer.
+As always, her nonverbal behavior—her eyes looking to the left, and her matterof-fact tone of voice—are more important indications than her verbal answer.
 "Now Bob, in a moment I want you to tell Ann that you love her.
 Ann, when he does that, I want you to notice if anything is different from before.
 Go ahead Bob."
@@ -1645,8 +1638,6 @@ a more powerful sense of themselves as a person—something that serves them
 well in future challenges.
 Eliminating
 
-
-5
 Allergic
 Responses
 When Maria was eleven years old, she was stung on the foot by a bee. For most
@@ -1663,13 +1654,10 @@ made every effort to do so.
 After ten years of this, Maria was tested to find out if she was still sensitive. The
 doctor who administered a skin test told her that she was still very sensitive, and
 advised her to take weekly shots of bee antigen, to gradually build her tolerance
-to bee stings. To be safe, she should do this for the rest of her life. Maria self-
-administered this treatment for the next twelve years. About four years before I
+to bee stings. To be safe, she should do this for the rest of her life. Maria selfadministered this treatment for the next twelve years. About four years before I
 worked with her, changes in the procedure made self-administration of the shots
 impossible, so Maria decided to stop taking them.
 
-
-37
 38 HEART OF THE MIND
 When Maria learned that NLP had a method that can eliminate allergic response,
 she was interested. "Maria, first I want to give you an idea of what we'll be doing
@@ -1878,14 +1866,14 @@ anecdotal and scientific—for the mind's ability to affect the immune system.
 For those who would like more direct access to a few of the sources on the
 influence of psychological factors on immune system activity, we refer you to
 several recent articles in Science, the journal of the AAAS. A 1985 report (4)
-summarizes 
-the 
-findings 
-of 
-the 
-"First 
-International 
-Workshop 
+summarizes
+the
+findings
+of
+the
+"First
+International
+Workshop
 on
 Neuroimmunomodulation" held at the National Institutes of Health. In part, this
 article states:
@@ -1965,8 +1953,7 @@ References
 3. The Healer Within, by Stephen Locke, 1986.
 4. "The Immune System 'Belongs in the Body.'" Pervasive anatomical and
 biochemical links between the immune and nervous systems help explain how
-moods might influence disease susceptibility. Science, 8 March 1985, pp. 1190-
-1192.
+moods might influence disease susceptibility. Science, 8 March 1985, pp. 11901192.
 5. "Learned Histamine Release." Science, 17 August 1984, pp. 733-734.
 6. "Pavlovian Conditioning of Rat Mucosal Mast Cells to Secrete Rat Mast Cell
 Protease II" Science, 6 January 1989, pp. 83-85.
@@ -2287,8 +2274,6 @@ it parts for the time with reality.
 —Winston Churchill
 Phobias,
 
-
-7
 Traumas,
 and Abuse
 When Lori was eleven years old, she fell into a wasp's nest and was stung
@@ -2312,8 +2297,6 @@ specific phobias, regardless of what the person is phobic of. I began with some
 "small talk" to gain rapport.
 "Lori, I haven't spoken to you at all."
 
-
-55
 56 HEART OF THE MIND
 Lori: "No."
 "You talked with Michael, I guess."
@@ -2559,8 +2542,7 @@ practice it will be much easier to deal with more severe experiences.
 Post-Traumatic Stress Disorder
 One man I worked with, John, had been struggling with PTSD for twelve years.
 He had tried every kind of therapy he could find, including Transactional
-Analysis, Gestalt Therapy, Reality Therapy and Rational-
-62 HEART OF THE MIND
+Analysis, Gestalt Therapy, Reality Therapy and Rational62 HEART OF THE MIND
 Fast Phobia Method: Outline
 First select an unpleasant memory, phobia, or traumatic experience you want to
 neutralize. You can review the example of Lori for a more complete description
@@ -2751,8 +2733,7 @@ to enjoy the powerful feelings of resourcefulness they provide."
 Leroy glowed as he did this. His face looked almost ecstatic as he reconnected
 with the pleasant parts of his past in a way that allowed him to enjoy and
 appreciate them more. As well as being enjoyable, this ability to thoroughly feel
-our pleasant past experiences helps provide a basis for knowing our own self-
-worth.
+our pleasant past experiences helps provide a basis for knowing our own selfworth.
 "Leroy, to enable you to connect even more fully with your past pleasant
 experiences, once again your unconscious mind can order all your past
 experiences from conception until now.... This time you'll be marking
@@ -2936,11 +2917,8 @@ can be transformed into resources for present and future well-being.
 References
 1. "The Fast Phobia/Trauma Cure" videotape, (see Appendix II) 2. Using Your
 Brain—for a CHANGE, by Richard Bandler, Chapter 3, pp. 37-48.
-3. Frogs into Princes, by Richard Bandler and John Grinder, Chapter 2, pp. 109-
-125.
+3. Frogs into Princes, by Richard Bandler and John Grinder, Chapter 2, pp. 109125.
 
-
-8
 Positive
 Intentions
 During World War II, at the height of Japanese expansion in the Pacific, there
@@ -2966,8 +2944,6 @@ years, he had carried on the battle in the best way he could, surviving against
 incredible odds. Despite the heat, the insects, and the jungle rains, he carried on,
 still loyal to the instructions given to him by his government so long ago.
 
-
-72
 Positive Intentions 73
 How should such a soldier be treated when he is found? It would be easy to
 laugh at him, and call him stupid for continuing to fight a war that had been over
@@ -3452,7 +3428,7 @@ the wisdom of your heart?
 —Lao Tze
 (Witter Bynner translation)
 Parenting
-9
+
 Positively
 Many of the methods in this book are useful in healing or changing difficulties
 after they have begun. It is also possible to utilize the same principles to help
@@ -3479,8 +3455,6 @@ Perhaps you will select something your child does, or it might be something
 about your child's feelings. You will get the most value from doing this if you
 pick something that happens repeatedly.
 
-
-85
 86 HEART OF THE MIND
 Step 2. Run your movie of this situation from your own point of view.
 Reexperience the episode. Imagine you are going through this situation with
@@ -3887,7 +3861,7 @@ ways to help people perceive problem situations differently. Although it appears
 that I am simply "talking" to the clients described in this chapter, what I say is
 always directed at shifting the presuppositions that create or maintain the
 problem they want help with.
-96
+
 Asserting Yourself Respectfully 97
 
 
@@ -3966,8 +3940,7 @@ owed me three months of overtime. But they just cut me off from that and said,
 'No, we're not giving you that; we're just going to take you off the time clock
 with no financial reimbursement'"
 Now I knew enough about the examples in Claire's mind that I could begin to
-help her think of them in a different way, so that she could feel more self-
-assured.
+help her think of them in a different way, so that she could feel more selfassured.
 "Claire, a lot of things like that have happened in the past. See, you don't have
 just one example, you've got lots of them." I said this enthusiastically, as if this
 was a wonderful thing, to pique her curiosity about how it was wonderful. "The
@@ -4215,8 +4188,7 @@ way of thinking, and her nonverbal feedback, to make this bright side more real
 to Claire than the way she had been looking at it. Once this happened, this new
 perspective became an automatic part of her thinking and actions.
 The Ex-husband and His Wife
-Roxanne came to see me, desperate to find a better way to deal with her ex-
-husband, Ron, and his new wife, Sara. Roxanne and Ron had joint custody of
+Roxanne came to see me, desperate to find a better way to deal with her exhusband, Ron, and his new wife, Sara. Roxanne and Ron had joint custody of
 their three children. While the agreement seemed clear on paper, it was anything
 but clear as it was actually carried out. The two years since Ron had remarried
 had been filled with anger, sharp words, feuding, and unhappiness on all sides.
@@ -4432,10 +4404,6 @@ feelings about our own lives. These shifts don't require pain or time.
 They only require having another way of perceiving events that really makes
 sense to us.
 
-
-
-
-11
 Resolving
 Grief
 Four years after Al and Sheri stopped dating, he was still preoccupied with her.
@@ -4462,8 +4430,6 @@ times you had with Sheri, when things were going well."...
 "It's less depressing now, but I feel pulled even more strongly. That's what I'd
 like to have back again—the good times."
 
-
-110
 Resolving Grief 111
 This is typical of the way people think of someone who is lost to them: small,
 distant, inaccessible. That's what causes the feeling of emptiness; you can see the
@@ -4521,8 +4487,7 @@ It might be tempting to stop at this point, since Al has learned how to replace 
 feelings of emptiness with warm feelings of love and caring when he thinks of
 Sheri.
 However, even if Al went on to develop new relationships on his own, he might
-try to exactly duplicate his experience with Sheri. In the novel Lolita, a 40-year-
-old man is still trying to find an exact replacement for the 13-year-old girl he
+try to exactly duplicate his experience with Sheri. In the novel Lolita, a 40-yearold man is still trying to find an exact replacement for the 13-year-old girl he
 loved over a quarter-century earlier. You can't replace the person you have lost,
 
 
@@ -4840,8 +4805,6 @@ I would remember him.
 —Rev. H.C. Beeching
 The Naturally
 
-
-12
 Slender Eating
 Strategy
 Perhaps you are or have been a dieter, or you have friends or relatives who are
@@ -4865,8 +4828,6 @@ because it's a simple way to have some dependable pleasure in life.
 Dealing with the unhappiness or reducing stress will often remove the need to
 overeat, and many of the methods described in this book can be utilized for this.
 
-
-121
 122 HEART OF THE MIND
 Other people eat reasonably well, but don't exercise enough to maintain their
 desired weight. Finding an enjoyable way to exercise that fits into your lifestyle
@@ -5565,7 +5526,7 @@ Ideally, shame alerts us that we have offended other people, and that if we want
 to continue being friends with them, we may need to change our behavior.
 However, for many people the agonizing feelings of shame just make them feel
 like an unworthy person.
-140
+
 Recovering from Shame and Guilt 141
 Fortunately, I didn't need to know what Rita's shame was about in order to work
 with her. "What do you need to think of in order to feel shame? You don't need
@@ -6052,8 +6013,7 @@ how to carry out the standard.
 
 
 5. The standard is appropriate, but the person didn't foresee that a particular
-behavior would violate it. We can never predict all the conse-
-Recovering from Shame and Guilt 153
+behavior would violate it. We can never predict all the conseRecovering from Shame and Guilt 153
 quences of our actions with certainty, so we all make this mistake sometimes.
 Solution: "You realize that it's impossible to always notice ahead of time that an
 action will violate standards." If the person simply made a stupid mistake, it can
@@ -6134,8 +6094,6 @@ amends for any harm we may have done. In this way we can lead an ethical and
 moral life without having to experience guilt or shame.
 Positive
 
-
-15
 Motivation
 Brian was attending one of our NIP Practitioner Certification Trainings. When
 we began teaching about motivation, he was particularly attentive, since
@@ -6160,8 +6118,6 @@ people who were close to him. However, this hadn't done any good. He always
 tried to do better. He wanted to make things smoother in his relationship with his
 wife. It just never seemed to work out that way.
 
-
-155
 156 HEART OF THE MIND
 Using specifically targeted questions, I found out how Brian motivated himself
 to do the dishes. Once I had this information, Brian's problem made sense. Brian
@@ -6546,8 +6502,6 @@ people have used to try to change it have been hit-or-miss at best NLP now
 provides a systematic approach that can be tailored to each individual's specific
 needs.
 
-
-16
 Making
 Decisions
 Decisions, decisions! We are constantly making them—some major, some minor,
@@ -6574,8 +6528,6 @@ continued their argument back and forth, saying things like,
 "You probably made the wrong decision." "Well, at least I picked for myself!"...
 and on and on.
 
-
-166
 Making Decisions 167
 When Holly saw her decision program outlined on paper, she said,
 "That's amazing! I've made all my decisions that way! I decided to get married
@@ -6883,8 +6835,7 @@ allow him to generate new ideas and be creative.
 There is no one "right" decision-making brain program for everyone.
 What's important is the question, "Are you making satisfying decisions
 reasonably quickly, usually without regret or undue complaints from others?" If
-you are making satisfying decisions now, then your brain program for decision-
-making is probably fine for you.
+you are making satisfying decisions now, then your brain program for decisionmaking is probably fine for you.
 Here are some elements that most people want in their decision-making
 program:
 1. Access to Creative Options: Ralph is an example of adding this.
@@ -6959,14 +6910,12 @@ decision process can result in a profound change in the way a person makes
 decisions, as we describe in Chapter 19.
 For an example of doing this, see the excellent videotaped client session,
 "Making Futures Real," with Leslie Cameron-Bandler (see Appendix II).
-Probably no other brain program has more impact on our lives than decision-
-making, because it's involved in almost everything we do. Whenever someone
+Probably no other brain program has more impact on our lives than decisionmaking, because it's involved in almost everything we do. Whenever someone
 
 
 has a difficulty, one of the first things we ask ourselves is,
 "What kind of decision-making could have created this situation?" Then we find
-out how this person makes decisions. If the problem results from poor decision-
-making, offering a better way to make decisions will solve the person's
+out how this person makes decisions. If the problem results from poor decisionmaking, offering a better way to make decisions will solve the person's
 complaint and also many other problems in his life. This is what we call a
 generative use of NLP, offering ways to get much more than people know how
 to ask for.
@@ -7155,8 +7104,7 @@ The Method
 The procedure I used with Kate is called the "Swish" pattern (also see Chapter
 18), because it's often helpful to make a "swishing" sound as the person
 exchanges the two images. The swish pattern was developed by Richard Bandler
-(1, 2). People have been talking for years about the importance of a good self-
-image in mental health and in the ability to cope
+(1, 2). People have been talking for years about the importance of a good selfimage in mental health and in the ability to cope
 182 HEART OF THE MIND
 and change. However, no one has previously been able to provide a specific and
 direct way to make the self-image more resourceful, and utilize its power to help
@@ -7248,8 +7196,6 @@ mixture of disgust and anger.)
 "So let's say that this person walked into this room right now and you see this
 person's face. How do you get to the 'Oh, shit!'?"
 
-
-184
 Intimacy, Safety, and Violence 185
 Mack gestures up and to his left again. "I just remember the last incident with the
 person. I didn't like what she did, and I didn't like what I did."
@@ -7287,8 +7233,7 @@ Mack looks thoughtful and contemplative. Again his body softens and relaxes.
 "It's different; it's real different," Mack said softly. "It's not like I want to run up
 and say 'Oh, it's OK,' and it's not like 'Here's your ass, go home!' either. It is a lot
 softer. It's not such a black-and-white response."
-"Right. When you make the picture 3-D, you also become more three-
-dimensional; you're softer and have more depth. Try this out in another
+"Right. When you make the picture 3-D, you also become more threedimensional; you're softer and have more depth. Try this out in another
 186 HEART OF THE MIND
 situation where you think it might be useful to have that three-dimensionality."
 "Hmmm." Mack remains still, thinking for about fifteen seconds, and then
@@ -7314,8 +7259,7 @@ Creating a New Resourceful Self
 "Now close your eyes, and take a little time to develop an image of the you that
 you want to be in dealing with that person from your past HI offer some
 suggestions from which you can pick whatever seems appropriate for you. You
-might want to see the Mack who has the ability to respond to others as three-
-dimensional people, and who at the same time can get much more of what he
+might want to see the Mack who has the ability to respond to others as threedimensional people, and who at the same time can get much more of what he
 wants for himself and for those other people.
 You might want to see him with the ability to respond to both positives and
 negatives at the same time. That Mack doesn't just see people as good or bad, but
@@ -7459,16 +7403,13 @@ impotent. When we, as a society, run out of choices in dealing with violence, we
 resort to more punishment, control and prisons. These all increase the offender's
 sense of impotence, which in turn leads to more violence. The solution to the
 problem of violence is not more violence, but to teach alternative positive ways
-of thinking and behaving. On an individual level, learning to see others as three-
-dimensional, gaining personal resources to feel emotionally safe, and knowing
+of thinking and behaving. On an individual level, learning to see others as threedimensional, gaining personal resources to feel emotionally safe, and knowing
 how to manage closeness and distance, can make an important difference, as
 they did for Mack.
 
 
 Personal
 
-
-19
 Timelines
 Every language has some way to express time—the awareness of past, present,
 or future. In some cultures, time is thought of as a series of cycles: birth, death,
@@ -7492,8 +7433,6 @@ something as a part of our personal past, present, or future. Even more intrigui
 was our discovery that the way we code time has a major impact on who we are
 and how we respond—what is often called our "personality."
 
-
-191
 192 HEART OF THE MIND
 For Cathy, whom you'll read about in this chapter, understanding and changing
 her internal time coding was the key to many other changes she had wanted for
@@ -7803,8 +7742,7 @@ If someone had made Cathy's timeline shift permanently before she had sorted
 out that she was now a healthy person, they might have caused her to become ill
 again by putting illness in her future. This is an example of why timeline change
 work needs to be done with care and sensitivity.
-Problems like this can be recognized and respectfully handled by people well-
-trained in NLP.
+Problems like this can be recognized and respectfully handled by people welltrained in NLP.
 
 
 Timeline Reversals
@@ -7910,8 +7848,7 @@ If you discover you don't like this new timeline as well as your old one, be sur
 to let it shift back to the way it was before you return to your reading or other
 activities.
 In all the foregoing, we have focused on building a future for someone who
-doesn't have much of one. However, it is also possible to be too future-
-202 HEART OF THE MIND
+doesn't have much of one. However, it is also possible to be too future202 HEART OF THE MIND
 
 
 oriented. Some people are so preoccupied with the future that it keeps them from
@@ -8385,8 +8322,7 @@ others regain their health more rapidly.
 First I asked myself, "How do I think about what will happen to me?"
 I knew I hoped to recover without drugs, but what did I actually imagine in my
 mind when I thought about recovering? I noticed that I saw myself lying in bed,
-looking ill. I saw this as if it were a still snapshot of myself that was in black-
-and-white, but the photograph had grayed quite a bit. I saw this image off to my
+looking ill. I saw this as if it were a still snapshot of myself that was in blackand-white, but the photograph had grayed quite a bit. I saw this image off to my
 left. "No wonder I haven't been getting well," I thought to myself. Even though
 I've been hoping to get well, unconsciously I've been seeing illness."
 Next I asked myself, "What do I know absolutely that I will recover from
@@ -8400,8 +8336,7 @@ that if I get the flu, all I need to do is rest, and my body will recover on its
 Tapping My Body's Ability to Heal
 When I noticed how I thought about getting over the flu, I saw myself in a short
 movie, off to my right. I saw myself first lying down in bed, and then gradually
-becoming more and more upright and healthy. The movie was a bit like time-
-lapse photography where time goes by very quickly, so that in a matter of a
+becoming more and more upright and healthy. The movie was a bit like timelapse photography where time goes by very quickly, so that in a matter of a
 single second in my mind, I saw myself moving from lying down ill to
 recuperating and standing up healthy.
 I was curious what would happen if I began to think of my breast infections as
@@ -8779,8 +8714,7 @@ You may want to write down the way you picture your automatic healing
 
 
 experience, to be sure you remember it.
-Step 6. Now make your "unhealed" experience like your automatic self-
-healing experience. Now you are going to recode your injury or illness in the
+Step 6. Now make your "unhealed" experience like your automatic selfhealing experience. Now you are going to recode your injury or illness in the
 same way your brain already codes things for automatic self-healing. This means
 you will make your "unhealed" experience like your automatic self-healing
 experience. You will be picturing your injury or illness using the codes your
@@ -8806,8 +8740,7 @@ other way. If your healing experience has a glow around it or is colorful, make
 your unhealed experience that way, too. By doing this your mind/body will now
 respond to your injury/illness as something that is specially marked out to heal
 automatically.
-Step 7: Test to be sure your injury or illness is coded for automatic self-
-healing. Take another look at your automatic self-healing experience and how
+Step 7: Test to be sure your injury or illness is coded for automatic selfhealing. Take another look at your automatic self-healing experience and how
 you now see your injury/illness. Are they the same? If not, notice what is still
 
 
@@ -9316,15 +9249,13 @@ linking the specific symptoms and sensations with a positive outcome, the
 person can relax and allow maximum opportunity for natural healing to occur.
 Any self-suggestion should also be adjusted to fit with the person's preferences.
 Each of us has certain words or phrases that we respond especially positively to,
-and other words or phrases that we respond to with annoyance or disbelief. Self-
-suggestions can be carefully edited to maximize their positive impact.
+and other words or phrases that we respond to with annoyance or disbelief. Selfsuggestions can be carefully edited to maximize their positive impact.
 Voice tone is even more important than the words that are said. Try saying to
 yourself something like, "I'm getting healthier" in a high-pitched, squeaky voice
 that rises at the end of the statement, and notice what kind of impact that has!
 The tone of voice and tempo needs to be congruent and convincing to you.
 Self-healing and Surgery
-When surgery seems like a wise choice, you can still use the self-
-238 HEART OF THE MIND
+When surgery seems like a wise choice, you can still use the self238 HEART OF THE MIND
 healing method to prepare for it and to recover from it Some people dread
 surgery because they think of it as a vicious "attack" upon their body. By
 transforming this imagery into something more positive—such as a helpful and
@@ -9463,8 +9394,6 @@ References
 5. "A Molecular Code Links Emotions, Mind and Health," Stephen S. Hall,
 Smithsonian, July, 1989, pp. 62-71.
 
-
-21
 Knowing
 What You
 Want
@@ -9489,7 +9418,7 @@ difference. You can think of the same goal in a way that makes it easy to
 achieve, or in a way that makes it almost impossible. The next questions are to
 make sure you are thinking of your goal in ways that will make its achievement
 easier.
-242
+
 Knowing What You Want 243
 Checkpoint A. Make sure your goal is stated in terms of what you DO
 want, not what you don't want For example, if my goal is "I want my child to
@@ -9784,8 +9713,7 @@ than just flash and charisma) can get results that satisfy people over time.
 3. Information vs. Demonstrations. In a good training, you will get live
 demonstrations of the methods being taught, not just words describing methods
 or results.
-4. Exercises. After demonstrating, does the trainer provide you with carefully-
-designed exercises that allow you to immediately practice new skills?
+4. Exercises. After demonstrating, does the trainer provide you with carefullydesigned exercises that allow you to immediately practice new skills?
 Observation and practice are what will make new skills a part of you 5.
 Evidence. Do you learn how to know whether what you've learned is working? A
 good trainer will teach you what nonverbal signs to watch and listen for.
@@ -9847,7 +9775,7 @@ components if those words are to create a compelling experience that leads to
 change. An artist may have a magnificent image in his mind and know exactly
 what colors are needed to create the desired effect, but he also needs the skills to
 be able to put the paints onto the canvas.
-251
+
 252 HEART OF THE MIND
 In the same way, a violin is a very simple instrument, yet it takes considerable
 practice and skill to get a clear, sweet sound out of it. If you are interested in
@@ -9947,7 +9875,7 @@ These movements are called eye accessing cues. The chart (below left) indicates
 the kind of processing most people do when moving their eyes in a particular
 direction. A small percentage of individuals (about 5%) are
 "reversed," that is, they move their eyes in a mirror image of this chart.
-254
+
 Eye Accessing Clues 255
 The chart is easiest to use if you simply superimpose it over someone's face, so
 that as you see her looking in a particular direction you can visualize the label
@@ -10017,7 +9945,7 @@ A powerful pattern for accessing and organizing a person's unconscious
 resources to change undesired habits, feelings and behaviors. Connirae Andreas
 demonstrates with a woman who wanted to stop smoking. (71 min,. $65) See
 chapter 8.
-256
+
 Audiotapes & Videotapes 257
 Eliminating Allergic Responses: retraining your immune system.
 Tim Hallbom and Suzi Smith demonstrate with clients who learn to eliminate
@@ -10048,8 +9976,7 @@ airmail; call for prices. All listed videotape prices are for U.S. (NTSC) format
 Videotapes in PAL and SECAM are $25 more than the listed price for each tape.
 All titles are also available in W U-matic format (NTSC, PAL, SECAM) by
 special order.
-Please specify format and system. Orders not specified will be shipped NTSC-
-VHS.
+Please specify format and system. Orders not specified will be shipped NTSCVHS.
 Please make payment in U.S. dollars drawn on a U.S. bank.
 
 
@@ -10059,8 +9986,7 @@ Boulder, CO 80301
 1-800-233-1-NLP
 A wider range of NLP resources is available from NLP Comprehensive. Call or
 write for your complete catalog of videotapes and audiotapes, including those
-featuring NLP co-developers Richard Bandler, John Grinder, Leslie Cameron-
-Bandler and David Gordon.
+featuring NLP co-developers Richard Bandler, John Grinder, Leslie CameronBandler and David Gordon.
 
 
 Appendix III
@@ -10135,8 +10061,6 @@ handbook of the fundamentals of NLP. Includes establishing rapport, quality
 information-gathering, getting well-formed outcomes, NLP change techniques,
 using metaphor therapeutically, falling in and out of love, and reevaluating
 relationships. ($11.95 paper)
-259
-
 
 260 HEART OF THE MIND
 Grinder, John; and Bandler, Richard. Trance-formations: Neuro-Linguistic
@@ -10226,7 +10150,7 @@ Evidence procedure 244
 Compulsion 132-137
 Confidence 6
 Future, see "Timelines"
-261
+
 262 HEART OF THE MIND
 Gaudette, Nancy 13
 Ineffective styles 161-164
@@ -10381,7 +10305,7 @@ Strategy"
 118,141,145,178,185,192—
 Workshop Selection Guidelines 248—
 193,200-205,224-225
-250
+
 Surgery 237
 Swish Pattern 61,177-183,184-188
 Zuverink, Mary Ellen 116

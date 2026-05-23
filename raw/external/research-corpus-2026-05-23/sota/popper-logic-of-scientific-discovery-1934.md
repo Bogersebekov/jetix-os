@@ -9,8 +9,11 @@ chars: 1165569
 approx_tokens: 291392
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 1165571
+phase4_chars_after: 1160718
+phase4_saved_pct: 0.4
 ---
-
 
 
 The Logic of Scientific
@@ -20,8 +23,6 @@ century.’
 Richard Wollheim, The Observer
 ‘Wonderfully exhilarating.’
 Naomi Bliven, New Yorker
-
-
 
 
 Karl
@@ -65,8 +66,6 @@ TO MY WIFE
 who is responsible for the revival of this book
 
 
-
-
 CONTENTS
 Translators’ Note
 xii
@@ -75,9 +74,9 @@ xv
 Preface to the First English Edition, 1959
 xviii
 PART I Introduction to the Logic of Science
-1
+
 A Survey of Some Fundamental Problems
-3
+
 1 The Problem of Induction
 2 Elimination of Psychologism
 3 Deductive Testing of Theories
@@ -86,18 +85,18 @@ A Survey of Some Fundamental Problems
 6 Falsiﬁability as a Criterion of Demarcation
 7 The Problem of the ‘Empirical Basis’
 8 Scientiﬁc Objectivity and Subjective Conviction
-2
+
 On the Problem of a Theory of Scientiﬁc Method
-27
+
 9 Why Methodological Decisions are Indispensable
 10 The Naturalistic Approach to the Theory of Method
 11 Methodological Rules as Conventions
 
 
 PART II Some Structural Components of a Theory of Experience
-3
+
 Theories
-37
+
 12 Causality, Explanation, and the Deduction of Predictions
 13 Strict and Numerical Universality
 14 Universal Concepts and Individual Concepts
@@ -105,18 +104,18 @@ Theories
 16 Theoretical Systems
 17 Some Possibilities of Interpreting a System of Axioms
 18 Levels of Universality. The Modus Tollens
-4
+
 Falsiﬁability
-57
+
 19 Some Conventionalist Objections
 20 Methodological Rules
 21 Logical Investigation of Falsiﬁability
 22 Falsiﬁability and Falsiﬁcation
 23 Occurrences and Events
 24 Falsiﬁability and Consistency
-5
+
 The Problem of the Empirical Basis
-74
+
 25 Perceptual Experiences as Empirical Basis:
 Psychologism
 26 Concerning the So-Called ‘Protocol Sentences’
@@ -125,9 +124,9 @@ Psychologism
 29 The Relativity of Basic Statements. Resolution of
 Fries’s Trilemma
 30 Theory and Experiment
-6
+
 Degrees of Testability
-95
+
 31 A Programme and an Illustration
 32 How are Classes of Potential Falsiﬁers to be Compared?
 33 Degrees of Falsiﬁability Compared by Means of the
@@ -147,9 +146,9 @@ to Dimensions
 39 The Dimension of a Set of Curves
 40 Two Ways of Reducing the Number of Dimensions
 of a Set of Curves
-7
+
 Simplicity
-121
+
 41 Elimination of the Aesthetic and the Pragmatic
 Concepts of Simplicity
 42 The Methodological Problem of Simplicity
@@ -157,9 +156,9 @@ Concepts of Simplicity
 44 Geometrical Shape and Functional Form
 45 The Simplicity of Euclidean Geometry
 46 Conventionalism and the Concept of Simplicity
-8
+
 Probability
-133
+
 47 The Problem of Interpreting Probability Statements
 48 Subjective and Objective Interpretations
 49 The Fundamental Problem of the Theory of Chance
@@ -195,9 +194,9 @@ of the ‘Fundamental Problem of the Theory of Chance’
 70 The Deducibility of Macro Laws from Micro Laws
 71 Formally Singular Probability Statements
 72 The Theory of Range
-9
+
 Some Observations on Quantum Theory
-209
+
 73 Heisenberg’s Programme and the
 Uncertainty Relations
 74 A Brief Outline of the Statistical Interpretation of
@@ -208,9 +207,9 @@ Uncertainty Formulae
 Inverting Heisenberg’s Programme; with Applications
 77 Decisive Experiments
 78 Indeterminist Metaphysics
-10
+
 Corroboration, or How a Theory Stands up to Tests
-248
+
 79 Concerning the So-Called Veriﬁcation of Hypotheses
 80 The Probability of a Hypothesis and the Probability
 of Events: Criticism of Probability Logic
@@ -223,64 +222,64 @@ and ‘Corroborated’
 85 The Path of Science
 APPENDICES
 i Deﬁnition of the Dimension of a Theory
-283
+
 ii The General Calculus of Frequency in Finite Classes
-286
+
 contents
 x
 
 
 iii Derivation of the First Form of the Binomial
 Formula
-290
+
 iv A Method of Constructing Models of Random
 Sequences
-293
+
 v Examination of an Objection. The Two-Slit
 Experiment
-297
+
 vi Concerning a Non-Predictive Procedure of
 Measuring
-301
+
 vii Remarks Concerning an Imaginary Experiment
-305
+
 NEW APPENDICES
 *i Two Notes on Induction and Demarcation,
 1933–1934
-312
+
 *ii A Note on Probability, 1938
-319
+
 *iii On the Heuristic Use of the Classical Deﬁnition
 of Probability
-325
+
 *iv The Formal Theory of Probability
-329
+
 *v Derivations in the Formal Theory of Probability
-356
+
 *vi On Objective Disorder or Randomness
-369
+
 *vii Zero Probability and the Fine-Structure of
 Probability and of Content
-374
+
 *viii Content, Simplicity, and Dimension
-392
+
 *ix Corroboration, the Weight of Evidence, and
 Statistical Tests
-402
+
 *x Universals, Dispositions, and Natural or
 Physical Necessity
-440
+
 *xi On the Use and Misuse of Imaginary
 Experiments, Especially in Quantum Theory
-464
+
 *xii The Experiment of Einstein, Podolsky and Rosen.
 A Letter from Albert Einstein, 1935
-481
+
 INDICES, compiled by Dr. J. Agassi
 Name Index
-489
+
 Subject Index
-494
+
 contents
 xi
 
@@ -291,11 +290,9 @@ in Vienna in the autumn of 1934 (with the imprint ‘1935’). The
 translation was prepared by the author, with the assistance of Dr. Julius
 Freed and Lan Freed.
 The original text of 1934 has been left unchanged for the purpose of
-the translation. As usual, the translation is a little longer than the ori-
-ginal. Words and phrases for which no equivalent exists had to be
+the translation. As usual, the translation is a little longer than the original. Words and phrases for which no equivalent exists had to be
 paraphrased. Sentences had to be broken up and rearranged—the more
-so as the text to be translated was highly condensed: it had been dras-
-tically cut several times to comply with the publisher’s requirements.
+so as the text to be translated was highly condensed: it had been drastically cut several times to comply with the publisher’s requirements.
 Yet the author decided against augmenting the text, and also against
 restoring cut passages [except for a few words indicated by square
 brackets or footnotes].
@@ -314,8 +311,7 @@ In these new starred additions, references will be found to a sequel
 to this volume, entitled Postscript to the Logic of Scientiﬁc Discovery (in three
 volumes). Though they complement each other, they are independent.
 It should also be mentioned that the numbering of the chapters of
-the present volume has been changed. In the original, they were num-
-bered i to ii (part i), and i to viii (part ii). They are now numbered
+the present volume has been changed. In the original, they were numbered i to ii (part i), and i to viii (part ii). They are now numbered
 through from 1 to 10.
 translators’ note
 xiii
@@ -332,8 +328,7 @@ for what he cannot help fearing is that philosophy will never
 get so far as to pose a genuine problem.
 M. Schlick (1930)
 I for my part hold the very opposite opinion, and I assert that
-whenever a dispute has raged for any length of time, espe-
-cially in philosophy, there was, at the bottom of it, never a
+whenever a dispute has raged for any length of time, especially in philosophy, there was, at the bottom of it, never a
 problem about mere words, but always a genuine problem
 about things.
  I. Kant (1786)
@@ -390,8 +385,7 @@ the world—including ourselves, and our knowledge, as part of the world. All sc
 cosmology, I believe, and for me the interest of philosophy, no less
 than of science, lies solely in the contributions which it has made to it.
 For me, at any rate, both philosophy and science would lose all their
-attraction if they were to give up that pursuit. Admittedly, understand-
-ing the functions of our language is an important part of it; but
+attraction if they were to give up that pursuit. Admittedly, understanding the functions of our language is an important part of it; but
 explaining away our problems as merely linguistic ‘puzzles’ is not.
 
 
@@ -409,8 +403,7 @@ replaced by the study of linguistic usages, or of language systems.
 And yet, I am quite ready to admit that there is a method which
 might be described as ‘the one method of philosophy’. But it is not
 characteristic of philosophy alone; it is, rather, the one method of all
-rational discussion, and therefore of the natural sciences as well as of phil-
-osophy. The method I have in mind is that of stating one’s problem
+rational discussion, and therefore of the natural sciences as well as of philosophy. The method I have in mind is that of stating one’s problem
 clearly and of examining its various proposed solutions critically.
 I have italicized the words ‘rational discussion’ and ‘critically’ in order to
 stress that I equate the rational attitude and the critical attitude. The
@@ -422,8 +415,7 @@ ourselves. Yet criticism will be fruitful only if we state our problem as
 clearly as we can and put our solution in a suﬃciently deﬁnite form—a
 form in which it can be critically discussed.
 I do not deny that something which may be called ‘logical analysis’
-can play a role in this process of clarifying and scrutinizing our prob-
-lems and our proposed solutions; and I do not assert that the methods
+can play a role in this process of clarifying and scrutinizing our problems and our proposed solutions; and I do not assert that the methods
 of ‘logical analysis’ or ‘language analysis’ are necessarily useless. My
 thesis is, rather, that these methods are far from being the only ones
 which a philosopher can use with advantage, and that they are in no
@@ -445,13 +437,11 @@ mentioning. It is a variant of the (at present unfashionable) historical
 method. It consists, simply, in trying to ﬁnd out what other people
 have thought and said about the problem in hand: why they had to face
 it: how they formulated it: how they tried to solve it. This seems to me
-important because it is part of the general method of rational discus-
-sion. If we ignore what other people are thinking, or have thought in
+important because it is part of the general method of rational discussion. If we ignore what other people are thinking, or have thought in
 the past, then rational discussion must come to an end, though each of
 us may go on happily talking to himself. Some philosophers have made
 a virtue of talking to themselves; perhaps because they felt that there
-was nobody else worth talking to. I fear that the practice of philo-
-sophizing on this somewhat exalted plane may be a symptom of the
+was nobody else worth talking to. I fear that the practice of philosophizing on this somewhat exalted plane may be a symptom of the
 decline of rational discussion. No doubt God talks mainly to Himself
 because He has no one worth talking to. But a philosopher should
 know that he is no more godlike than any other man.
@@ -462,12 +452,9 @@ One such reason is the correct belief that logical paradoxes, like that of
 the liar (‘I am now lying’) or those found by Russell, Richard, and
 others, need the method of linguistic analysis for their solution, with
 its famous distinction between meaningful (or ‘well-formed’) and
-meaningless linguistic expressions. This correct belief is then com-
-bined with the mistaken belief that the traditional problems of
+meaningless linguistic expressions. This correct belief is then combined with the mistaken belief that the traditional problems of
 philosophy arise from the attempt to solve philosophical paradoxes whose
-structure is analogous to that of logical paradoxes, so that the distinc-
-tion between meaningful and meaningless talk must be of central im-
-portance for philosophy also. That this belief is mistaken can be shown
+structure is analogous to that of logical paradoxes, so that the distinction between meaningful and meaningless talk must be of central importance for philosophy also. That this belief is mistaken can be shown
 very easily. It can be shown, in fact, by logical analysis. For this reveals
 that a certain characteristic kind of reﬂexivity or self-reference which
 is present in all logical paradoxes is absent from all the so-called
@@ -481,10 +468,8 @@ or ‘I perceive’, or ‘I know’, ‘I believe’, ‘I hold that it is prob
 perhaps by that of the word ‘perhaps’.
 Now to those who favour this approach to the theory of knowledge I
 should reply as follows. Although I agree that scientiﬁc knowledge is
-merely a development of ordinary knowledge or common-sense know-
-ledge, I contend that the most important and most exciting problems
-of epistemology must remain completely invisible to those who con-
-ﬁne themselves to analysing ordinary or common-sense knowledge or
+merely a development of ordinary knowledge or common-sense knowledge, I contend that the most important and most exciting problems
+of epistemology must remain completely invisible to those who conﬁne themselves to analysing ordinary or common-sense knowledge or
 its formulation in ordinary language.
 I wish to refer here only to one example of the kind of problem I
 have in mind: the problem of the growth of our knowledge. A little
@@ -495,8 +480,7 @@ the most important way in which common-sense knowledge grows is,
 precisely, by turning into scientiﬁc knowledge. Moreover, it seems
 clear that the growth of scientiﬁc knowledge is the most important and
 interesting case of the growth of knowledge.
-It should be remembered, in this context, that almost all the prob-
-lems of traditional epistemology are connected with the problem of
+It should be remembered, in this context, that almost all the problems of traditional epistemology are connected with the problem of
 the growth of knowledge. I am inclined to say even more: from Plato to
 Descartes, Leibniz, Kant, Duhem and Poincaré; and from Bacon,
 Hobbes, and Locke, to Hume, Mill, and Russell, the theory of
@@ -506,8 +490,7 @@ of knowledge—of scientiﬁc knowledge, that is. (The only possible
 exception to this rule among the great philosophers I can think of is
 Berkeley.) Most of the philosophers who believe that the characteristic
 method of philosophy is the analysis of ordinary language seem to have
-lost this admirable optimism which once inspired the rationalist trad-
-ition. Their attitude, it seems, has become one of resignation, if not
+lost this admirable optimism which once inspired the rationalist tradition. Their attitude, it seems, has become one of resignation, if not
 despair. They not only leave the advancement of knowledge to the
 scientists: they even deﬁne philosophy in such a way that it becomes,
 by deﬁnition, incapable of making any contribution to our knowledge
@@ -517,21 +500,17 @@ preface, 1959
 xxii
 
 
-The main reason for exalting the method of linguistic analysis, how-
-ever, seems to have been the following. It was felt that the so-called ‘new
-way of ideas’ of Locke, Berkeley, and Hume, that is to say the psycho-
-logical or rather pseudo-psychological method of analysing our ideas
+The main reason for exalting the method of linguistic analysis, however, seems to have been the following. It was felt that the so-called ‘new
+way of ideas’ of Locke, Berkeley, and Hume, that is to say the psychological or rather pseudo-psychological method of analysing our ideas
 and their origin in our senses, should be replaced by a more ‘objective’
 and a less genetic method. It was felt that we should analyse words and
 their meanings or usages rather than ‘ideas’ or ‘conceptions’ or
-‘notions’; that we should analyse propositions or statements or sen-
-tences rather than ‘thoughts’ or ‘beliefs’ or ‘judgments’. I readily admit
+‘notions’; that we should analyse propositions or statements or sentences rather than ‘thoughts’ or ‘beliefs’ or ‘judgments’. I readily admit
 that this replacement of Locke’s ‘new way of ideas’ by a ‘new way of
 words’ was an advance, and one that was urgently needed.
 It is understandable that those who once saw in the ‘new way of
 ideas’ the one true method of philosophy may thus have turned to the
-belief that the ‘new way of words’ is the one true method of philo-
-sophy. From this challenging belief I strongly dissent. But I will make
+belief that the ‘new way of words’ is the one true method of philosophy. From this challenging belief I strongly dissent. But I will make
 only two critical comments on it. First, the ‘new way of ideas’ should
 never have been taken for the main method of philosophy, let alone for
 its one true method. Even Locke introduced it merely as a method
@@ -548,8 +527,7 @@ epistemology—or perhaps even of philosophy—is this.
 The problem of epistemology may be approached from two sides:
 (1) as the problem of ordinary or common-sense knowledge, or (2) as the
 problem of scientiﬁc knowledge. Those philosophers who favour the ﬁrst
-approach think, rightly, that scientiﬁc knowledge can only be an exten-
-sion of common-sense knowledge, and they also think, wrongly, that
+approach think, rightly, that scientiﬁc knowledge can only be an extension of common-sense knowledge, and they also think, wrongly, that
 common-sense knowledge is the easier of the two to analyse. In this
 way these philosophers come to replace the ‘new way of ideas’ by an
 analysis of ordinary language—the language in which common-sense
@@ -567,8 +545,7 @@ philosopher, to the advancement of our knowledge of the world.
 Also, it seems to me paradoxical that philosophers who take pride in
 specializing in the study of ordinary language nevertheless believe that
 they know enough about cosmology to be sure that it is in essence so
-diﬀerent from philosophy that philosophy cannot make any contribu-
-tion to it. And indeed they are mistaken. For it is a fact that purely
+diﬀerent from philosophy that philosophy cannot make any contribution to it. And indeed they are mistaken. For it is a fact that purely
 metaphysical ideas—and therefore philosophical ideas—have been of
 the greatest importance for cosmology. From Thales to Einstein, from
 ancient atomism to Descartes’s speculation about matter, from the
@@ -587,12 +564,10 @@ disagree and where I agree, I am going to sub-divide the philosophers
 who adopt this second approach into two groups—the goats and the
 sheep, as it were.
 The ﬁrst group consists of those whose aim is to study ‘the language
-of science’, and whose chosen philosophical method is the construc-
-tion of artiﬁcial model languages; that is to say, the construction of
+of science’, and whose chosen philosophical method is the construction of artiﬁcial model languages; that is to say, the construction of
 what they believe to be models of ‘the language of science’.
 The second group does not conﬁne itself to the study of the language
-of science, or any other language, and it has no such chosen philo-
-sophical method. Its members philosophize in many diﬀerent ways,
+of science, or any other language, and it has no such chosen philosophical method. Its members philosophize in many diﬀerent ways,
 because they have many diﬀerent problems which they want to solve;
 and any method is welcome to them if they think that it may help them
 preface, 1959 xxiii
@@ -623,14 +598,11 @@ bears no relation to its eﬀectiveness, and practically no scientiﬁc theory
 of any interest can be expressed in these vast systems of minutiae.
 These model languages have no bearing on either science or common
 sense.
-Indeed, the models of ‘the language of science’ which these philo-
-sophers construct have nothing to do with the language of modern
+Indeed, the models of ‘the language of science’ which these philosophers construct have nothing to do with the language of modern
 science. This may be seen from the following remarks which apply to
 the three most widely known model languages. (They are referred to in
 notes 13 and 15 to appendix *vii, and in note *2 to section 38.) The
-ﬁrst of these model languages lacks even the means of expressing iden-
-tity. As a consequence, it cannot express an equation: it does not con-
-tain even the most primitive arithmetic. The second model language
+ﬁrst of these model languages lacks even the means of expressing identity. As a consequence, it cannot express an equation: it does not contain even the most primitive arithmetic. The second model language
 works only as long as we do not add to it the means of proving
 the usual theorems of arithmetic—for example, Euclid’s theorem
 that there is no greatest prime number, or even the principle that
@@ -650,22 +622,17 @@ simply because otherwise the solutions oﬀered by the authors to their
 problems would not have worked. This fact can be easily proved, and it
 has been partly proved by the authors themselves. Nevertheless, they all
 seem to claim two things: (a) that their methods are, in some sense or
-other, capable of solving problems of the theory of scientiﬁc know-
-ledge, or in other words, that they are applicable to science (while in
+other, capable of solving problems of the theory of scientiﬁc knowledge, or in other words, that they are applicable to science (while in
 fact they are applicable with any precision only to discourse of an
 extremely primitive kind), and (b) that their methods are ‘exact’ or
 ‘precise’. Clearly these two claims cannot both be upheld.
-Thus the method of constructing artiﬁcial model languages is incap-
-able of tackling the problems of the growth of our knowledge; and it
-is even less able to do so than the method of analysing ordinary lan-
-guages, simply because these model languages are poorer than ordin-
-ary languages. It is a result of their poverty that they yield only the most
+Thus the method of constructing artiﬁcial model languages is incapable of tackling the problems of the growth of our knowledge; and it
+is even less able to do so than the method of analysing ordinary languages, simply because these model languages are poorer than ordinary languages. It is a result of their poverty that they yield only the most
 crude and the most misleading model of the growth of knowledge—
 the model of an accumulating heap of observation statements.
 I now turn to the last group of epistemologists—those who do not
 pledge themselves in advance to any philosophical method, and who
-make use, in epistemology, of the analysis of scientiﬁc problems, theor-
-ies, and procedures, and, most important, of scientiﬁc discussions. This
+make use, in epistemology, of the analysis of scientiﬁc problems, theories, and procedures, and, most important, of scientiﬁc discussions. This
 group can claim, among its ancestors, almost all the great philosophers
 of the West. (It can claim even the ancestry of Berkeley despite the fact
 that he was, in an important sense, an enemy of the very idea of
@@ -680,11 +647,8 @@ preface, 1959 xxv
 
 
 knowledge. For it is common-sense knowledge writ large, as it were. Its very
-problems are enlargements of the problems of common-sense know-
-ledge. For example, it replaces the Humean problem of ‘reasonable
-belief’ by the problem of the reasons for accepting or rejecting scien-
-tiﬁc theories. And since we possess many detailed reports of the discus-
-sions pertaining to the problem whether a theory such as Newton’s or
+problems are enlargements of the problems of common-sense knowledge. For example, it replaces the Humean problem of ‘reasonable
+belief’ by the problem of the reasons for accepting or rejecting scientiﬁc theories. And since we possess many detailed reports of the discussions pertaining to the problem whether a theory such as Newton’s or
 Maxwell’s or Einstein’s should be accepted or rejected, we may look at
 these discussions as if through a microscope that allows us to study
 in detail, and objectively, some of the more important problems of
@@ -692,11 +656,9 @@ in detail, and objectively, some of the more important problems of
 This approach to the problems of epistemology gets rid (as do the
 other two mentioned) of the pseudo-psychological or ‘subjective’
 method of the new way of ideas (a method still used by Kant). It
-suggests that we analyse scientiﬁc discussions, and also scientiﬁc prob-
-lem situations. And so it can help us to understand the history of
+suggests that we analyse scientiﬁc discussions, and also scientiﬁc problem situations. And so it can help us to understand the history of
 scientiﬁc thought.
-I have tried to show that the most important of the traditional prob-
-lems of epistemology—those connected with the growth of knowledge—
+I have tried to show that the most important of the traditional problems of epistemology—those connected with the growth of knowledge—
 transcend the two standard methods of linguistic analysis and require
 the analysis of scientiﬁc knowledge. But the last thing I wish to do,
 however, is to advocate another dogma. Even the analysis of science—
@@ -730,8 +692,7 @@ brought to my notice by Imre Lakatos, David Miller, and Alan
 Musgrave. They also suggested many new entries in the Index of
 Subjects. I am very grateful to them.
 My greatest debt is to Paul Bernays who, shortly after this book had
-appeared in English, checked through my axiomatization of the prob-
-ability calculus, especially the new appendix *v. I value his approval
+appeared in English, checked through my axiomatization of the probability calculus, especially the new appendix *v. I value his approval
 more highly than I can express in words. It does not, of course, absolve
 me from bearing the sole responsibility for any mistake I may have
 made.
@@ -740,22 +701,15 @@ K. R. P.
 preface, 1959 xxvii
 
 
-
-
 Part I
 Introduction to the
 Logic of Science
 
-
-
-
-1
 A SURVEY OF SOME
 FUNDAMENTAL PROBLEMS
 A scientist, whether theorist or experimenter, puts forward statements,
 or systems of statements, and tests them step by step. In the ﬁeld of the
-empirical sciences, more particularly, he constructs hypotheses, or sys-
-tems of theories, and tests them against experience by observation and
+empirical sciences, more particularly, he constructs hypotheses, or systems of theories, and tests them against experience by observation and
 experiment.
 I suggest that it is the task of the logic of scientiﬁc discovery, or the
 logic of knowledge, to give a logical analysis of this procedure; that is,
@@ -775,8 +729,7 @@ statements (sometimes also called ‘particular’ statements), such as
 accounts of the results of observations or experiments, to universal
 statements, such as hypotheses or theories.
 Now it is far from obvious, from a logical point of view, that we are
-justiﬁed in inferring universal statements from singular ones, no mat-
-ter how numerous; for any conclusion drawn in this way may always
+justiﬁed in inferring universal statements from singular ones, no matter how numerous; for any conclusion drawn in this way may always
 turn out to be false: no matter how many instances of white swans we
 may have observed, this does not justify the conclusion that all swans
 are white.
@@ -808,9 +761,7 @@ Reichenbach, ‘determines the truth of scientiﬁc theories. To eliminate
 it from science would mean nothing less than to deprive science of
 the power to decide the truth or falsity of its theories. Without it,
 clearly, science would no longer have the right to distinguish its
-the logic of science 
-4
-
+the logic of science
 
 theories from the fanciful and arbitrary creations of the poet’s
 mind.’1
@@ -831,8 +782,7 @@ principle in everyday life either’.2 Yet even supposing this were the
 case—for after all, ‘the whole of science’ might err—I should still
 contend that a principle of induction is superﬂuous, and that it must
 lead to logical inconsistencies.
-That inconsistencies may easily arise in connection with the prin-
-ciple of induction should have been clear from the work of Hume;*1
+That inconsistencies may easily arise in connection with the principle of induction should have been clear from the work of Hume;*1
 also, that they can be avoided, if at all, only with diﬃculty. For the
 principle of induction must be a universal statement in its turn. Thus if
 we try to regard its truth as known from experience, then the very
@@ -850,8 +800,6 @@ p. 699.
 *1 The decisive passages from Hume are quoted in appendix *vii, text to footnotes 4, 5,
 and 6; see also note 2 to section 81, below.
 a survey of some fundamental problems
-5
-
 
 principle of induction (which he formulated as the ‘principle of
 universal causation’) to be ‘a priori valid’. But I do not think that his
@@ -861,9 +809,7 @@ My own view is that the various diﬃculties of inductive logic here
 sketched are insurmountable. So also, I fear, are those inherent in the
 doctrine, so widely current today, that inductive inference, although
 not ‘strictly valid’, can attain some degree of ‘reliability’ or of ‘probability’.
-According to this doctrine, inductive inferences are ‘probable infer-
-ences’.3 ‘We have described’, says Reichenbach, ‘the principle of induc-
-tion as the means whereby science decides upon truth. To be more
+According to this doctrine, inductive inferences are ‘probable inferences’.3 ‘We have described’, says Reichenbach, ‘the principle of induction as the means whereby science decides upon truth. To be more
 exact, we should say that it serves to decide upon probability. For it is
 not given to science to reach either truth or falsity . . . but scientiﬁc
 statements can only attain continuous degrees of probability whose
@@ -873,8 +819,7 @@ logic entertain an idea of probability that I shall later reject as highly
 unsuitable for their own purposes (see section 80, below). I can do so
 because the diﬃculties mentioned are not even touched by an appeal to
 probability. For if a certain degree of probability is to be assigned to
-statements based on inductive inference, then this will have to be justi-
-ﬁed by invoking a new principle of induction, appropriately modiﬁed.
+statements based on inductive inference, then this will have to be justiﬁed by invoking a new principle of induction, appropriately modiﬁed.
 And this new principle in its turn will have to be justiﬁed, and so on.
 Nothing is gained, moreover, if the principle of induction, in its turn, is
 taken not as ‘true’ but only as ‘probable’. In short, like every other form
@@ -889,19 +834,14 @@ Wahrscheinlichkeitsrechnung, Mathem. Zeitschr. 34, 1932; and elsewhere.
 4 Reichenbach, Erkenntnis 1, 1930, p. 186.
 *2 See also chapter 10, below, especially note 2 to section 81, and chapter *ii of the
 Postscript for a fuller statement of this criticism.
-the logic of science 
-6
-
+the logic of science
 
 might be described as the theory of the deductive method of testing, or as the
 view that a hypothesis can only be empirically tested—and only after it
 has been advanced.
-Before I can elaborate this view (which might be called ‘deductiv-
-ism’, in contrast to ‘inductivism’5) I must ﬁrst make clear the distinc-
-tion between the psychology of knowledge which deals with empirical facts,
+Before I can elaborate this view (which might be called ‘deductivism’, in contrast to ‘inductivism’5) I must ﬁrst make clear the distinction between the psychology of knowledge which deals with empirical facts,
 and the logic of knowledge which is concerned only with logical relations.
-For the belief in inductive logic is largely due to a confusion of psycho-
-logical problems with epistemological ones. It may be worth noticing,
+For the belief in inductive logic is largely due to a confusion of psychological problems with epistemological ones. It may be worth noticing,
 by the way, that this confusion spells trouble not only for the logic of
 knowledge but for its psychology as well.
 2 ELIMINATION OF PSYCHOLOGISM
@@ -929,17 +869,12 @@ generalization have produced Descartes’s law of refraction; cf. the English tr
 p. 34.) So does V. Kraft, Die Grundformen der Wissenschaftlichen Methoden, 1925; see also
 Carnap, Erkenntnis 2, 1932, p. 440.
 a survey of some fundamental problems
-7
-
 
 us. Someone must have formulated it, and submitted it to logical
 examination.
-Accordingly I shall distinguish sharply between the process of con-
-ceiving a new idea, and the methods and results of examining it logic-
-ally. As to the task of the logic of knowledge—in contradistinction to
+Accordingly I shall distinguish sharply between the process of conceiving a new idea, and the methods and results of examining it logically. As to the task of the logic of knowledge—in contradistinction to
 the psychology of knowledge—I shall proceed on the assumption that
-it consists solely in investigating the methods employed in those sys-
-tematic tests to which every new idea must be subjected if it is to be
+it consists solely in investigating the methods employed in those systematic tests to which every new idea must be subjected if it is to be
 seriously entertained.
 Some might object that it would be more to the purpose to regard it
 as the business of epistemology to produce what has been called a
@@ -954,8 +889,7 @@ rationally the subsequent tests whereby the inspiration may be discovered
 to be a discovery, or become known to be knowledge. In so far as the
 scientist critically judges, alters, or rejects his own inspiration we may,
 if we like, regard the methodological analysis undertaken here as a
-kind of ‘rational reconstruction’ of the corresponding thought-
-processes. But this reconstruction would not describe these processes
+kind of ‘rational reconstruction’ of the corresponding thoughtprocesses. But this reconstruction would not describe these processes
 as they actually happen: it can give only a logical skeleton of the
 procedure of testing. Still, this is perhaps all that is meant by those who
 speak of a ‘rational reconstruction’ of the ways in which we gain
@@ -964,14 +898,11 @@ It so happens that my arguments in this book are quite independent
 of this problem. However, my view of the matter, for what it is worth, is
 that there is no such thing as a logical method of having new ideas, or a
 logical reconstruction of this process. My view may be expressed by
-saying that every discovery contains ‘an irrational element’, or ‘a cre-
-ative intuition’, in Bergson’s sense. In a similar way Einstein speaks of
+saying that every discovery contains ‘an irrational element’, or ‘a creative intuition’, in Bergson’s sense. In a similar way Einstein speaks of
 the ‘search for those highly universal laws . . . from which a picture of
 the world can be obtained by pure deduction. There is no logical
 path’, he says, ‘leading to these . . . laws. They can only be reached by
-the logic of science 
-8
-
+the logic of science
 
 intuition, based upon something like an intellectual love (‘Einfühlung’)
 of the objects of experience.’6
@@ -979,28 +910,24 @@ of the objects of experience.’6
 According to the view that will be put forward here, the method of
 critically testing theories, and selecting them according to the results of
 tests, always proceeds on the following lines. From a new idea, put up
-tentatively, and not yet justiﬁed in any way—an anticipation, a hypoth-
-esis, a theoretical system, or what you will—conclusions are drawn by
+tentatively, and not yet justiﬁed in any way—an anticipation, a hypothesis, a theoretical system, or what you will—conclusions are drawn by
 means of logical deduction. These conclusions are then compared with
 one another and with other relevant statements, so as to ﬁnd what
 logical relations (such as equivalence, derivability, compatiblity, or
 incompatibility) exist between them.
 We may if we like distinguish four diﬀerent lines along which the
-testing of a theory could be carried out. First there is the logical com-
-parison of the conclusions among themselves, by which the internal
+testing of a theory could be carried out. First there is the logical comparison of the conclusions among themselves, by which the internal
 consistency of the system is tested. Secondly, there is the investigation
 of the logical form of the theory, with the object of determining
 whether it has the character of an empirical or scientiﬁc theory, or
-whether it is, for example, tautological. Thirdly, there is the com-
-parison with other theories, chieﬂy with the aim of determining
+whether it is, for example, tautological. Thirdly, there is the comparison with other theories, chieﬂy with the aim of determining
 whether the theory would constitute a scientiﬁc advance should it
 survive our various tests. And ﬁnally, there is the testing of the theory
 by way of empirical applications of the conclusions which can be
 derived from it.
 The purpose of this last kind of test is to ﬁnd out how far the new
 consequences of the theory—whatever may be new in what it asserts
-—stand up to the demands of practice, whether raised by purely scien-
-tiﬁc experiments, or by practical technological applications. Here too
+—stand up to the demands of practice, whether raised by purely scientiﬁc experiments, or by practical technological applications. Here too
 the procedure of testing turns out to be deductive. With the help of
 6 Address on Max Planck’s 60th birthday (1918). The passage quoted begins with the
 words, ‘The supreme task of the physicist is to search for those highly universal laws . . .,’
@@ -1009,26 +936,20 @@ The World as I see It, 1935, p. 125). Similar ideas are found earlier in Liebig,
 Mach, Principien der Wärmelehre, 1896, pp. 443 ﬀ. *The German word ‘Einfühlung’ is diﬃcult
 to translate. Harris translates: ‘sympathetic understanding of experience’.
 a survey of some fundamental problems
-9
-
 
 other statements, previously accepted, certain singular statements—
-which we may call ‘predictions’—are deduced from the theory; espe-
-cially predictions that are easily testable or applicable. From among
+which we may call ‘predictions’—are deduced from the theory; especially predictions that are easily testable or applicable. From among
 these statements, those are selected which are not derivable from the
 current theory, and more especially those which the current theory
 contradicts. Next we seek a decision as regards these (and other)
 derived statements by comparing them with the results of practical
 applications and experiments. If this decision is positive, that is, if the
-singular conclusions turn out to be acceptable, or veriﬁed, then the the-
-ory has, for the time being, passed its test: we have found no reason to
+singular conclusions turn out to be acceptable, or veriﬁed, then the theory has, for the time being, passed its test: we have found no reason to
 discard it. But if the decision is negative, or in other words, if the
 conclusions have been falsiﬁed, then their falsiﬁcation also falsiﬁes the
 theory from which they were logically deduced.
-It should be noticed that a positive decision can only temporarily sup-
-port the theory, for subsequent negative decisions may always overthrow
-it. So long as theory withstands detailed and severe tests and is not super-
-seded by another theory in the course of scientiﬁc progress, we may say
+It should be noticed that a positive decision can only temporarily support the theory, for subsequent negative decisions may always overthrow
+it. So long as theory withstands detailed and severe tests and is not superseded by another theory in the course of scientiﬁc progress, we may say
 that it has ‘proved its mettle’ or that it is ‘corroborated’*1 by past experience.
 Nothing resembling inductive logic appears in the procedure here
 outlined. I never assume that we can argue from the truth of singular
@@ -1045,25 +966,18 @@ new ones in their place.
 Of the many objections which are likely to be raised against the view
 here advanced, the most serious is perhaps the following. In rejecting
 *1 For this term, see note *1 before section 79, and section *29 of my Postscript.
-the logic of science 
-10
-
+the logic of science
 
 the method of induction, it may be said, I deprive empirical science of
 what appears to be its most important characteristic; and this means
 that I remove the barriers which separate science from metaphysical
 speculation. My reply to this objection is that my main reason for
-rejecting inductive logic is precisely that it does not provide a suitable dis-
-tinguishing mark of the empirical, non-metaphysical, character of a theor-
-etical system; or in other words, that it does not provide a suitable ‘criterion of
+rejecting inductive logic is precisely that it does not provide a suitable distinguishing mark of the empirical, non-metaphysical, character of a theoretical system; or in other words, that it does not provide a suitable ‘criterion of
 demarcation’.
-The problem of ﬁnding a criterion which would enable us to dis-
-tinguish between the empirical sciences on the one hand, and math-
-ematics and logic as well as ‘metaphysical’ systems on the other, I call
+The problem of ﬁnding a criterion which would enable us to distinguish between the empirical sciences on the one hand, and mathematics and logic as well as ‘metaphysical’ systems on the other, I call
 the problem of demarcation.1
 This problem was known to Hume who attempted to solve it.2
-With Kant it became the central problem of the theory of know-
-ledge. If, following Kant, we call the problem of induction ‘Hume’s
+With Kant it became the central problem of the theory of knowledge. If, following Kant, we call the problem of induction ‘Hume’s
 problem’, we might call the problem of demarcation ‘Kant’s
 problem’.
 Of these two problems—the source of nearly all the other problems
@@ -1082,16 +996,12 @@ or auditory memories, and so forth. Modern positivists are apt to see
 more clearly that science is not a system of concepts but rather a
 1 With this (and also with sections 1 to 6 and 13 to 24) compare my note in Erkenntnis 3,
 1933, p. 426; *It is now here reprinted, in translation, in appendix *i.
-2 Cf. the last sentence of his Enquiry Concerning Human Understanding. *With the next para-
-graph (and my allusion to epistemologists) compare for example the quotation from
+2 Cf. the last sentence of his Enquiry Concerning Human Understanding. *With the next paragraph (and my allusion to epistemologists) compare for example the quotation from
 Reichenbach in the text to note 1, section 1.
 a survey of some fundamental problems
-11
-
 
 system of statements.*1 Accordingly, they wish to admit, as scientiﬁc
-or legitimate, only those statements which are reducible to ele-
-mentary (or ‘atomic’) statements of experience—to ‘judgments of
+or legitimate, only those statements which are reducible to elementary (or ‘atomic’) statements of experience—to ‘judgments of
 perception’ or ‘atomic propositions’ or ‘protocol-sentences’ or
 what not.*2 It is clear that the implied criterion of demarcation is
 identical with the demand for an inductive logic.
@@ -1100,8 +1010,7 @@ solve the problem of demarcation. With this rejection, the problem of
 demarcation gains in importance for the present inquiry. Finding an
 acceptable criterion of demarcation must be a crucial task for any
 epistemology which does not accept inductive logic.
-Positivists usually interpret the problem of demarcation in a natural-
-istic way; they interpret it as if it were a problem of natural science.
+Positivists usually interpret the problem of demarcation in a naturalistic way; they interpret it as if it were a problem of natural science.
 Instead of taking it as their task to propose a suitable convention, they
 believe they have to discover a diﬀerence, existing in the nature of
 things, as it were, between empirical science on the one hand and
@@ -1119,28 +1028,23 @@ which denounced the man who ‘had given no meaning to certain signs in his
 propositions’. See also my Open Society and its Enemies, chapter 11, section ii, and chapter
 *i of my Postscript, especially sections *ii (note 5), *24 (the last ﬁve paragraphs),
 and *25.
-*2 Nothing depends on names, of course. When I invented the new name ‘basic state-
-ment’ (or ‘basic proposition’; see below, sections 7 and 28) I did so only because I
+*2 Nothing depends on names, of course. When I invented the new name ‘basic statement’ (or ‘basic proposition’; see below, sections 7 and 28) I did so only because I
 needed a term not burdened with the connotation of a perception statement. But
 unfortunately it was soon adopted by others, and used to convey precisely the kind of
 meaning which I wished to avoid. Cf. also my Postscript, *29.
 *3 Thus Hume, like Sextus, condemned his own Enquiry on its last page; just as later
 Wittgenstein condemned his own Tractatus on its last page. (See note 2 to section 10.)
-the logic of science 
-12
-
+the logic of science
 
 trivial; for metaphysics has usually been deﬁned as non-empirical. But
-of course, the positivists believe they can say much more about meta-
-physics than that some of its statements are non-empirical. The words
+of course, the positivists believe they can say much more about metaphysics than that some of its statements are non-empirical. The words
 ‘meaningless’ or ‘nonsensical’ convey, and are meant to convey, a
 derogatory evaluation; and there is no doubt that what the positivists
 really want to achieve is not so much a successful demarcation as the
 ﬁnal overthrow3 and the annihilation of metaphysics. However this
 may be, we ﬁnd that each time the positivists tried to say more clearly
 what ‘meaningful’ meant, the attempt led to the same result—to
-a deﬁnition of ‘meaningful sentence’ (in contradistinction to ‘mean-
-ingless pseudo-sentence’) which simply reiterated the criterion of
+a deﬁnition of ‘meaningful sentence’ (in contradistinction to ‘meaningless pseudo-sentence’) which simply reiterated the criterion of
 demarcation of their inductive logic.
 This ‘shows itself’ very clearly in the case of Wittgenstein, according
 to whom every meaningful proposition must be logically reducible4 to
@@ -1150,9 +1054,7 @@ which is to cover all meaningful propositions). We may see from this
 that Wittgenstein’s criterion of meaningfulness coincides with the
 inductivists’ criterion of demarcation, provided we replace their words
 ‘scientiﬁc’ or ‘legitimate’ by ‘meaningful’. And it is precisely over the
-problem of induction that this attempt to solve the problem of demar-
-cation comes to grief: positivists, in their anxiety to annihilate meta-
-physics, annihilate natural science along with it. For scientiﬁc laws, too,
+problem of induction that this attempt to solve the problem of demarcation comes to grief: positivists, in their anxiety to annihilate metaphysics, annihilate natural science along with it. For scientiﬁc laws, too,
 cannot be logically reduced to elementary statements of experience. If
 consistently applied, Wittgenstein’s criterion of meaningfulness rejects
 as meaningless those natural laws the search for which, as Einstein
@@ -1168,8 +1070,6 @@ written in 1934, I am dealing here of course only with the Tractatus.
 5 Wittgenstein, op. cit., Propositions 4.01; 4.03; 2.221.
 6 Cf. note 1 to section 2.
 a survey of some fundamental problems
-13
-
 
 by Schlick*4 in the following words: ‘The problem of induction consists
 in asking for a logical justiﬁcation of universal statements about reality . . .
@@ -1178,14 +1078,12 @@ there can be none, simply because they are not genuine statements.’7
 This shows how the inductivist criterion of demarcation fails to
 draw a dividing line between scientiﬁc and metaphysical systems, and
 why it must accord them equal status; for the verdict of the positivist
-dogma of meaning is that both are systems of meaningless pseudo-
-statements. Thus instead of eradicating metaphysics from the empirical
+dogma of meaning is that both are systems of meaningless pseudostatements. Thus instead of eradicating metaphysics from the empirical
 sciences, positivism leads to the invasion of metaphysics into the
 scientiﬁc realm.8
 In contrast to these anti-metaphysical stratagems—anti-metaphysical
 in intention, that is—my business, as I see it, is not to bring about the
-overthrow of metaphysics. It is, rather, to formulate a suitable charac-
-terization of empirical science, or to deﬁne the concepts ‘empirical
+overthrow of metaphysics. It is, rather, to formulate a suitable characterization of empirical science, or to deﬁne the concepts ‘empirical
 science’ and ‘metaphysics’ in such a way that we shall be able to say of a
 *4 The idea of treating scientiﬁc laws as pseudo-propositions—thus solving the problem
 of induction—was attributed by Schlick to Wittgenstein. (Cf. my Open Society, notes 46
@@ -1198,21 +1096,15 @@ before section 12 (p. 37). The problem is also treated in my Postscript, section
 and *19 to *26.)
 7 Schlick, Naturwissenschaften 19, 1931, p. 156. (The italics are mine). Regarding natural
 laws Schlick writes (p. 151), ‘It has often been remarked that, strictly, we can never speak
-of an absolute veriﬁcation of a law, since we always, so to speak, tacitly make the reserva-
-tion that it may be modiﬁed in the light of further experience. If I may add, by way of
-parenthesis’, Schlick continues, ‘a few words on the logical situation, the above-
-mentioned fact means that a natural law, in principle, does not have the logical character
-of a statement, but is, rather, a prescription for the formation of statements.’ *(‘Forma-
-tion’ no doubt was meant to include transformation or derivation.) Schlick attributed
+of an absolute veriﬁcation of a law, since we always, so to speak, tacitly make the reservation that it may be modiﬁed in the light of further experience. If I may add, by way of
+parenthesis’, Schlick continues, ‘a few words on the logical situation, the abovementioned fact means that a natural law, in principle, does not have the logical character
+of a statement, but is, rather, a prescription for the formation of statements.’ *(‘Formation’ no doubt was meant to include transformation or derivation.) Schlick attributed
 this theory to a personal communication of Wittgenstein’s. See also section *12 of my
 Postscript.
 8 Cf. Section 78 (for example note 1). *See also my Open Society, notes 46, 51, and 52 to
-chapter 11, and my paper. ‘The Demarcation between Science and Metaphysics’, contrib-
-uted in January 1955 to the Carnap volume of the Library of Living Philosophers, edited by
+chapter 11, and my paper. ‘The Demarcation between Science and Metaphysics’, contributed in January 1955 to the Carnap volume of the Library of Living Philosophers, edited by
 P. A. Schilpp and now in my Conjectures and Refutations, 1963 and 1965.
-the logic of science 
-14
-
+the logic of science
 
 given system of statements whether or not its closer study is the
 concern of empirical science.
@@ -1222,8 +1114,7 @@ convention opinions may diﬀer; and a reasonable discussion of these
 questions is only possible between parties having some purpose in
 common. The choice of that purpose must, of course, be ultimately a
 matter of decision, going beyond rational argument.*5
-Thus anyone who envisages a system of absolutely certain, irrevoc-
-ably true statements9 as the end and purpose of science will certainly
+Thus anyone who envisages a system of absolutely certain, irrevocably true statements9 as the end and purpose of science will certainly
 reject the proposals I shall make here. And so will those who see ‘the
 essence of science . . . in its dignity’, which they think resides in its
 ‘wholeness’ and its ‘real truth and essentiality’.10 They will hardly be
@@ -1231,8 +1122,7 @@ ready to grant this dignity to modern theoretical physics in which I
 and others see the most complete realization to date of what I call
 ‘empirical science’.
 The aims of science which I have in mind are diﬀerent. I do not try
-to justify them, however, by representing them as the true or the essen-
-tial aims of science. This would only distort the issue, and it would
+to justify them, however, by representing them as the true or the essential aims of science. This would only distort the issue, and it would
 mean a relapse into positivist dogmatism. There is only one way, as far
 as I can see, of arguing rationally in support of my proposals. This is to
 analyse their logical consequences: to point out their fertility—their
@@ -1251,8 +1141,6 @@ truth, and ready to pay attention to each other. (Cf. my Open Society, chapter 2
 9 This is Dingler’s view; cf. note 1 to section 19.
 10 This is the view of O. Spann (Kategorienlehre, 1924).
 a survey of some fundamental problems
-15
-
 
 that I am making the mistake of which I have accused the positivists—
 that of trying to kill metaphysics by calling it names. I do not even go
@@ -1262,8 +1150,7 @@ obstructed the advance of science there have been others—such as
 speculative atomism—which have aided it. And looking at the matter
 from the psychological angle, I am inclined to think that scientiﬁc
 discovery is impossible without faith in ideas which are of a purely
-speculative kind, and sometimes even quite hazy; a faith which is com-
-pletely unwarranted from the point of view of science, and which, to
+speculative kind, and sometimes even quite hazy; a faith which is completely unwarranted from the point of view of science, and which, to
 that extent, is ‘metaphysical’.11
 Yet having issued all these warnings, I still take it to be the ﬁrst task
 of the logic of knowledge to put forward a concept of empirical science, in
@@ -1288,13 +1175,9 @@ have to satisfy. First, it must be synthetic, so that it may represent a
 Forschung, in Mein Weltbild, 1934, p. 43; English translation by A. Harris: The World as I See It,
 1935, pp. 23 ﬀ. *See also section 85, and my Postscript.
 *1 Cf. appendix *x.
-the logic of science 
-16
+the logic of science
 
-
-non-contradictory, a possible world. Secondly, it must satisfy the cri-
-terion of demarcation (cf. sections 6 and 21), i.e. it must not be meta-
-physical, but must represent a world of possible experience. Thirdly, it
+non-contradictory, a possible world. Secondly, it must satisfy the criterion of demarcation (cf. sections 6 and 21), i.e. it must not be metaphysical, but must represent a world of possible experience. Thirdly, it
 must be a system distinguished in some way from other such systems
 as the one which represents our world of experience.
 But how is the system that represents our world of experience to be
@@ -1327,15 +1210,12 @@ is the method of its veriﬁcation.’2
 1 Schlick, Naturwissenschaften 19, 1931, p. 150.
 2 Waismann, Erkenntnis 1, 1903, p. 229.
 a survey of some fundamental problems
-17
-
 
 Now in my view there is no such thing as induction.*1 Thus
 inference to theories, from singular statements which are ‘veriﬁed
 by experience’ (whatever that may mean), is logically inadmissible.
 Theories are, therefore, never empirically veriﬁable. If we wish to
-avoid the positivist’s mistake of eliminating, by our criterion of demar-
-cation, the theoretical systems of natural science,*2 then we must
+avoid the positivist’s mistake of eliminating, by our criterion of demarcation, the theoretical systems of natural science,*2 then we must
 choose a criterion which allows us to admit to the domain of
 empirical science even statements which cannot be veriﬁed.
 But I shall certainly admit a system as empirical or scientiﬁc only if it
@@ -1362,29 +1242,24 @@ moreover, that I have already (section 4) sharply criticized the use of the idea
 as a criterion of demarcation, and that I attack the dogma of meaning again, even more
 sharply, in section 9. It is therefore a sheer myth (though any number of refutations of
 my theory have been based upon this myth) that I ever proposed falsiﬁability as a
-criterion of meaning. Falsiﬁability separates two kinds of perfectly meaningful state-
-ments: the falsiﬁable and the non-falsiﬁable. It draws a line inside meaningful language,
+criterion of meaning. Falsiﬁability separates two kinds of perfectly meaningful statements: the falsiﬁable and the non-falsiﬁable. It draws a line inside meaningful language,
 not around it. See also appendix *i, and chapter *i of my Postscript, especially sections *17
 and *19, and my Conjectures and Refutations, chs. 1 and 11.
 3 Related ideas are to be found, for example, in Frank, Die Kausalität und ihre Grenzen, 1931,
 ch. I, §10 (pp. 15f.); Dubislav, Die Deﬁnition (3rd edition 1931), pp. 100 f. (Cf. also note 1
 to section 4, above.)
-the logic of science 
-18
-
+the logic of science
 
 (Thus the statement, ‘It will rain or not rain here tomorrow’ will not
 be regarded as empirical, simply because it cannot be refuted; whereas
 the statement, ‘It will rain here tomorrow’ will be regarded as
 empirical.)
-Various objections might be raised against the criterion of demarca-
-tion here proposed. In the ﬁrst place, it may well seem somewhat
+Various objections might be raised against the criterion of demarcation here proposed. In the ﬁrst place, it may well seem somewhat
 wrong-headed to suggest that science, which is supposed to give us
 positive information, should be characterized as satisfying a negative
 requirement such as refutability. However, I shall show, in sections 31
 to 46, that this objection has little weight, since the amount of positive
-information about the world which is conveyed by a scientiﬁc state-
-ment is the greater the more likely it is to clash, because of its logical
+information about the world which is conveyed by a scientiﬁc statement is the greater the more likely it is to clash, because of its logical
 character, with possible singular statements. (Not for nothing do
 we call the laws of nature ‘laws’: the more they prohibit the more
 they say.)
@@ -1410,8 +1285,6 @@ that any theoretical system should ever be conclusively falsiﬁed. For it is
 always possible to ﬁnd some way of evading falsiﬁcation, for example
 *4 This asymmetry is now more fully discussed in section *22 of my Postscript.
 a survey of some fundamental problems
-19
-
 
 by introducing ad hoc an auxiliary hypothesis, or by changing ad hoc a
 deﬁnition. It is even possible without logical inconsistency to adopt the
@@ -1421,19 +1294,16 @@ way, but logically such procedure is possible; and this fact, it might
 be claimed, makes the logical value of my proposed criterion of
 demarcation dubious, to say the least.
 I must admit the justice of this criticism; but I need not therefore
-withdraw my proposal to adopt falsiﬁability as a criterion of demarca-
-tion. For I am going to propose (in sections 20 f.) that the empirical
+withdraw my proposal to adopt falsiﬁability as a criterion of demarcation. For I am going to propose (in sections 20 f.) that the empirical
 method shall be characterized as a method that excludes precisely those
 ways of evading falsiﬁcation which, as my imaginary critic rightly
-insists, are logically possible. According to my proposal, what charac-
-terizes the empirical method is its manner of exposing to falsiﬁcation,
+insists, are logically possible. According to my proposal, what characterizes the empirical method is its manner of exposing to falsiﬁcation,
 in every conceivable way, the system to be tested. Its aim is not to save
 the lives of untenable systems but, on the contrary, to select the one
 which is by comparison the ﬁttest, by exposing them all to the ﬁercest
 struggle for survival.
 The proposed criterion of demarcation also leads us to a solution of
-Hume’s problem of induction—of the problem of the validity of nat-
-ural laws. The root of this problem is the apparent contradiction
+Hume’s problem of induction—of the problem of the validity of natural laws. The root of this problem is the apparent contradiction
 between what may be called ‘the fundamental thesis of empiricism’—
 the thesis that experience alone can decide upon the truth or falsity of
 scientiﬁc statements—and Hume’s realization of the inadmissibility of
@@ -1441,17 +1311,14 @@ inductive arguments. This contradiction arises only if it is assumed that
 all empirical scientiﬁc statements must be ‘conclusively decidable’, i.e.
 that their veriﬁcation and their falsiﬁcation must both in principle be
 possible. If we renounce this requirement and admit as empirical also
-statements which are decidable in one sense only—unilaterally decid-
-able and, more especially, falsiﬁable—and which may be tested by
+statements which are decidable in one sense only—unilaterally decidable and, more especially, falsiﬁable—and which may be tested by
 systematic attempts to falsify them, the contradiction disappears: the
 method of falsiﬁcation presupposes no inductive inference, but only
 the tautological transformations of deductive logic whose validity is
 not in dispute.4
 4 For this see also my paper mentioned in note 1 to section 4, *now here reprinted in
 appendix *i; and my Postscript, esp. section *2.
-the logic of science 
-20
-
+the logic of science
 
 7 THE PROBLEM OF THE ‘EMPIRICAL BASIS’
 If falsiﬁability is to be at all applicable as a criterion of demarcation,
@@ -1460,24 +1327,19 @@ in falsifying inferences. Our criterion therefore appears only to shift the
 problem—to lead us back from the question of the empirical character
 of theories to the question of the empirical character of singular
 statements.
-Yet even so, something has been gained. For in the practice of scien-
-tiﬁc research, demarcation is sometimes of immediate urgency in con-
-nection with theoretical systems, whereas in connection with singular
+Yet even so, something has been gained. For in the practice of scientiﬁc research, demarcation is sometimes of immediate urgency in connection with theoretical systems, whereas in connection with singular
 statements, doubt as to their empirical character rarely arises. It is true
 that errors of observation occur and that they give rise to false singular
 statements, but the scientist scarcely ever has occasion to describe a
 singular statement as non-empirical or metaphysical.
-Problems of the empirical basis—that is, problems concerning the empir-
-ical character of singular statements, and how they are tested—thus
+Problems of the empirical basis—that is, problems concerning the empirical character of singular statements, and how they are tested—thus
 play a part within the logic of science that diﬀers somewhat from that
 played by most of the other problems which will concern us. For most
 of these stand in close relation to the practice of research, whilst the
 problem of the empirical basis belongs almost exclusively to the theory
 of knowledge. I shall have to deal with them, however, since they have
 given rise to many obscurities. This is especially true of the relation
-between perceptual experiences and basic statements. (What I call a ‘basic state-
-ment’ or a ‘basic proposition’ is a statement which can serve as a prem-
-ise in an empirical falsiﬁcation; in brief, a statement of a singular fact.)
+between perceptual experiences and basic statements. (What I call a ‘basic statement’ or a ‘basic proposition’ is a statement which can serve as a premise in an empirical falsiﬁcation; in brief, a statement of a singular fact.)
 Perceptual experiences have often been regarded as providing a kind of
 justiﬁcation for basic statements. It was held that these statements are
 ‘based upon’ these experiences; that their truth becomes ‘manifest by
@@ -1485,18 +1347,12 @@ inspection’ through these experiences; or that it is made ‘evident’ by
 these experiences, etc. All these expressions exhibit the perfectly sound
 tendency to emphasize the close connection between basic statements
 and our perceptual experiences. Yet it was also rightly felt that statements can
-be logically justiﬁed only by statements. Thus the connection between the percep-
-tions and the statements remained obscure, and was described by cor-
-respondingly obscure expressions which elucidated nothing, but slurred
+be logically justiﬁed only by statements. Thus the connection between the perceptions and the statements remained obscure, and was described by correspondingly obscure expressions which elucidated nothing, but slurred
 over the diﬃculties or, at best, adumbrated them through metaphors.
 a survey of some fundamental problems
-21
-
 
 Here too a solution can be found, I believe, if we clearly separate the
-psychological from the logical and methodological aspects of the prob-
-lem. We must distinguish between, on the one hand, our subjective experi-
-ences or our feelings of conviction, which can never justify any statement
+psychological from the logical and methodological aspects of the problem. We must distinguish between, on the one hand, our subjective experiences or our feelings of conviction, which can never justify any statement
 (though they can be made the subject of psychological investigation)
 and, on the other hand, the objective logical relations subsisting among the
 various systems of scientiﬁc statements, and within each of them.
@@ -1515,8 +1371,7 @@ should be justiﬁable, independently of anybody’s whim: a justiﬁcation is
 ‘objective’ if in principle it can be tested and understood by anybody.
 ‘If something is valid’, he writes, ‘for anybody in possession of his
 reason, then its grounds are objective and suﬃcient.’1
-Now I hold that scientiﬁc theories are never fully justiﬁable or veriﬁ-
-able, but that they are nevertheless testable. I shall therefore say that
+Now I hold that scientiﬁc theories are never fully justiﬁable or veriﬁable, but that they are nevertheless testable. I shall therefore say that
 the objectivity of scientiﬁc statements lies in the fact that they can be
 inter-subjectively tested.*1
 1 Kritik der reinen Vernunft, Methodenlehre, 2. Haupstück, 3. Abschnitt (2nd edition, p. 848;
@@ -1528,15 +1383,11 @@ of the idea of mutual rational control by critical discussion. This more general
 discussed at some length in my Open Society and Its Enemies, chapters 23 and 24, and in my
 Poverty of Historicism, section 32, is also discussed in my Postscript, especially in chapters *i,
 *ii, and *vi.
-the logic of science 
-22
-
+the logic of science
 
 The word ‘subjective’ is applied by Kant to our feelings of conviction
-(of varying degrees).2 To examine how these come about is the busi-
-ness of psychology. They may arise, for example, ‘in accordance with
-the laws of association’.3 Objective reasons too may serve as ‘subject-
-ive causes of judging’,4 in so far as we may reﬂect upon these reasons,
+(of varying degrees).2 To examine how these come about is the business of psychology. They may arise, for example, ‘in accordance with
+the laws of association’.3 Objective reasons too may serve as ‘subjective causes of judging’,4 in so far as we may reﬂect upon these reasons,
 and become convinced of their cogency.
 Kant was perhaps the ﬁrst to realize that the objectivity of scientiﬁc
 statements is closely connected with the construction of theories—
@@ -1549,13 +1400,11 @@ repeated and tested them. Only by such repetitions can we convince
 ourselves that we are not dealing with a mere isolated ‘coincidence’,
 but with events which, on account of their regularity and
 reproducibility, are in principle inter-subjectively testable.5
-Every experimental physicist knows those surprising and inexplic-
-able apparent ‘eﬀects’ which in his laboratory can perhaps even be
+Every experimental physicist knows those surprising and inexplicable apparent ‘eﬀects’ which in his laboratory can perhaps even be
 reproduced for some time, but which ﬁnally disappear without trace.
 Of course, no physicist would say in such a case that he had made a
 scientiﬁc discovery (though he might try to rearrange his experiments
-so as to make the eﬀect reproducible). Indeed the scientiﬁcally signiﬁ-
-cant physical eﬀect may be deﬁned as that which can be regularly
+so as to make the eﬀect reproducible). Indeed the scientiﬁcally signiﬁcant physical eﬀect may be deﬁned as that which can be regularly
 2 Ibid.
 3 Cf. Kritik der reinen Vernunft, Transcendentale Elementarlehre §19 (2nd edition, p. 142;
 English translation by N. Kemp Smith, 1933: Critique of Pure Reason, Transcendental
@@ -1571,14 +1420,11 @@ not postulate any such principle (cf. section 12); but I agree that scientiﬁc 
 since they must be inter-subjectively testable, must always have the character of universal
 hypotheses. *See also note *1 to section 22.
 a survey of some fundamental problems
-23
-
 
 reproduced by anyone who carries out the appropriate experiment in
 the way prescribed. No serious physicist would oﬀer for publication, as
 a scientiﬁc discovery, any such ‘occult eﬀect’, as I propose to call it—
-one for whose reproduction he could give no instructions. The ‘dis-
-covery’ would be only too soon rejected as chimerical, simply because
+one for whose reproduction he could give no instructions. The ‘discovery’ would be only too soon rejected as chimerical, simply because
 attempts to test it would lead to negative results.6 (It follows that any
 controversy over the question whether events which are in principle
 unrepeatable and unique ever do occur cannot be decided by science: it
@@ -1588,18 +1434,14 @@ thesis that a subjective experience, or a feeling of conviction, can never
 justify a scientiﬁc statement, and that within science it can play no part
 except that of an object of an empirical (a psychological) inquiry. No
 matter how intense a feeling of conviction it may be, it can never justify
-a statement. Thus I may be utterly convinced of the truth of a state-
-ment; certain of the evidence of my perceptions; overwhelmed by the
+a statement. Thus I may be utterly convinced of the truth of a statement; certain of the evidence of my perceptions; overwhelmed by the
 intensity of my experience: every doubt may seem to me absurd. But
 does this aﬀord the slightest reason for science to accept my statement?
-Can any statement be justiﬁed by the fact that K. R. P. is utterly con-
-vinced of its truth? The answer is, ‘No’; and any other answer would be
+Can any statement be justiﬁed by the fact that K. R. P. is utterly convinced of its truth? The answer is, ‘No’; and any other answer would be
 incompatible with the idea of scientiﬁc objectivity. Even the fact, for
 me to so ﬁrmly established, that I am experiencing this feeling of
 conviction, cannot appear within the ﬁeld of objective science except
-in the form of a psychological hypothesis which, of course, calls for inter-
-subjective testing: from the conjecture that I have this feeling of convic-
-tion the psychologist may deduce, with the help of psychological and
+in the form of a psychological hypothesis which, of course, calls for intersubjective testing: from the conjecture that I have this feeling of conviction the psychologist may deduce, with the help of psychological and
 other theories, certain predictions about my behaviour; and these may
 be conﬁrmed or refuted in the course of experimental tests. But from
 the epistemological point of view, it is quite irrelevant whether my
@@ -1611,33 +1453,26 @@ Wilson, after he himself (as well as Morley) had previously reproduced Michelson
 negative result. But since later tests again gave negative results it is now customary to
 regard these latter as decisive, and to explain Miller’s divergent result as ‘due to unknown
 sources of error’. *See also section 22, especially footnote *1.
-the logic of science 
-24
-
+the logic of science
 
 feeling of conviction was strong or weak; whether it came from a
-strong or even irresistible impression of indubitable certainty (or ‘self-
-evidence’), or merely from a doubtful surmise. None of this has any
+strong or even irresistible impression of indubitable certainty (or ‘selfevidence’), or merely from a doubtful surmise. None of this has any
 bearing on the question of how scientiﬁc statements can be justiﬁed.
 Considerations like these do not of course provide an answer to the
 problem of the empirical basis. But at least they help us to see its main
 diﬃculty. In demanding objectivity for basic statements as well as for
 other scientiﬁc statements, we deprive ourselves of any logical means
-by which we might have hoped to reduce the truth of scientiﬁc state-
-ments to our experiences. Moreover we debar ourselves from granting
+by which we might have hoped to reduce the truth of scientiﬁc statements to our experiences. Moreover we debar ourselves from granting
 any favoured status to statements which describe experiences, such as
-those statements which describe our perceptions (and which are some-
-times called ‘protocol sentences’). They can occur in science only as
+those statements which describe our perceptions (and which are sometimes called ‘protocol sentences’). They can occur in science only as
 psychological statements; and this means, as hypotheses of a kind
 whose standards of inter-subjective testing (considering the present
 state of psychology) are certainly not very high.
-Whatever may be our eventual answer to the question of the empir-
-ical basis, one thing must be clear: if we adhere to our demand that
+Whatever may be our eventual answer to the question of the empirical basis, one thing must be clear: if we adhere to our demand that
 scientiﬁc statements must be objective, then those statements which
 belong to the empirical basis of science must also be objective, i.e.
 inter-subjectively testable. Yet inter-subjective testability always implies
-that, from the statements which are to be tested, other testable state-
-ments can be deduced. Thus if the basic statements in their turn are to
+that, from the statements which are to be tested, other testable statements can be deduced. Thus if the basic statements in their turn are to
 be inter-subjectively testable, there can be no ultimate statements in science:
 there can be no statements in science which cannot be tested, and
 therefore none which cannot in principle be refuted, by falsifying
@@ -1650,11 +1485,8 @@ It might be thought that this view leads to an inﬁnite regress, and
 that it is therefore untenable. In section 1, when criticizing induction, I
 raised the objection that it may lead to an inﬁnite regress; and it might
 well appear to the reader now that the very same objection can be
-urged against that procedure of deductive testing which I myself advo-
-cate. However, this is not so. The deductive method of testing cannot
+urged against that procedure of deductive testing which I myself advocate. However, this is not so. The deductive method of testing cannot
 a survey of some fundamental problems
-25
-
 
 establish or justify the statements which are being tested; nor is it
 intended to do so. Thus there is no danger of an inﬁnite regress. But it
@@ -1671,11 +1503,8 @@ being tested; or in other words, I refuse to accept the view that there
 are statements in science which we have, resignedly, to accept as true
 merely because it does not seem possible, for logical reasons, to test
 them.
-the logic of science 
-26
+the logic of science
 
-
-2
 ON THE PROBLEM OF A
 THEORY OF SCIENTIFIC
 METHOD
@@ -1702,11 +1531,9 @@ upon one’s attitude to science. Those who, like the positivists, see
 empirical science as a system of statements which satisfy certain logical
 criteria, such as meaningfulness or veriﬁability, will give one answer. A
 very diﬀerent answer will be given by those who tend to see (as I do)
-the distinguishing characteristic of empirical statements in their sus-
-ceptibility to revision—in the fact that they can be criticized, and
+the distinguishing characteristic of empirical statements in their susceptibility to revision—in the fact that they can be criticized, and
 superseded by better ones; and who regard it as their task to analyse the
-characteristic ability of science to advance, and the characteristic man-
-ner in which a choice is made, in crucial cases, between conﬂicting
+characteristic ability of science to advance, and the characteristic manner in which a choice is made, in crucial cases, between conﬂicting
 systems of theories.
 I am quite ready to admit that there is a need for a purely logical
 analysis of theories, for an analysis which takes no account of how they
@@ -1734,8 +1561,6 @@ theory can ever be produced’), and (b) because I have been constantly misinter
 upholding a criterion (and moreover one of meaning rather than of demarcation) based upon
 a doctrine of ‘complete’ or ‘conclusive’ falsiﬁability.
 the logic of science
-28
-
 
 or logical structure of its statements, we shall not be able to exclude
 from it that prevalent form of metaphysics which results from elevating
@@ -1751,12 +1576,10 @@ THEORY OF METHOD
 The hint I gave in the previous section as to the deep-seated diﬀerence
 between my position and that of the positivists is in need of some
 ampliﬁcation.
-The positivist dislikes the idea that there should be meaningful prob-
-lems outside the ﬁeld of ‘positive’ empirical science—problems to be
+The positivist dislikes the idea that there should be meaningful problems outside the ﬁeld of ‘positive’ empirical science—problems to be
 dealt with by a genuine philosophical theory. He dislikes the idea that
 there should be a genuine theory of knowledge, an epistemology or a
-methodology.*1 He wishes to see in the alleged philosophical prob-
-lems mere ‘pseudo-problems’ or ‘puzzles’. Now this wish of his—
+methodology.*1 He wishes to see in the alleged philosophical problems mere ‘pseudo-problems’ or ‘puzzles’. Now this wish of his—
 which, by the way, he does not express as a wish or a proposal but
 rather as a statement of fact*2—can always be gratiﬁed. For nothing is
 easier than to unmask a problem as ‘meaningless’ or ‘pseudo’. All you
@@ -1767,26 +1590,21 @@ you are unable to detect any meaning in it. Moreover, if you admit as
 raised by members of the Vienna Circle against my ideas that a theory of method which
 was neither an empirical science nor pure logic was impossible: what was outside these
 two ﬁelds was sheer nonsense. (The same view was still maintained by Wittgenstein in
-1948; cf. my paper ‘The Nature of Philosophical Problems’, The British Journal for the Philo-
-sophy of Science 3, 1952, note on p. 128.) Later, the standing criticism became anchored in
+1948; cf. my paper ‘The Nature of Philosophical Problems’, The British Journal for the Philosophy of Science 3, 1952, note on p. 128.) Later, the standing criticism became anchored in
 the legend that I had proposed to replace the veriﬁability criterion by a falsiﬁability
 criterion of meaning. See my Postscript, especially sections *19 to *22.
 *2 Some positivists have since changed this attitude; see note 6, below.
 on the problem of a theory of scientific method
-29
-
 
 meaningful none except problems in natural science,1 any debate about
 the concept of ‘meaning’ will also turn out to be meaningless.2 The
-dogma of meaning, once enthroned, is elevated forever above the bat-
-tle. It can no longer be attacked. It has become (in Wittgenstein’s own
+dogma of meaning, once enthroned, is elevated forever above the battle. It can no longer be attacked. It has become (in Wittgenstein’s own
 words) ‘unassailable and deﬁnitive’.3
 The controversial question whether philosophy exists, or has any
 right to exist, is almost as old as philosophy itself. Time and again an
 entirely new philosophical movement arises which ﬁnally unmasks the
 old philosophical problems as pseudo-problems, and which confronts
-the wicked nonsense of philosophy with the good sense of meaning-
-ful, positive, empirical, science. And time and again do the despised
+the wicked nonsense of philosophy with the good sense of meaningful, positive, empirical, science. And time and again do the despised
 defenders of ‘traditional philosophy’ try to explain to the leaders of the
 latest positivistic assault that the main problem of philosophy is the
 critical analysis of the appeal to the authority of ‘experience’4—
@@ -1814,17 +1632,13 @@ problematic the concept of experience is . . . we may well be forced to believe 
 enthusiastic aﬃrmation is far less appropriate in regard to it . . . than the most careful and
 guarded criticism . . . .’
 the logic of science
-30
-
 
 procedure of ‘science’—may be described as ‘naturalistic’. A naturalistic
 methodology (sometimes called an ‘inductive theory of science’5) has
 its value, no doubt. A student of the logic of science may well take an
 interest in it, and learn from it. But what I call ‘methodology’ should
 not be taken for an empirical science. I do not believe that it is possible
-to decide, by using the methods of an empirical science, such contro-
-versial questions as whether science actually uses a principle of induc-
-tion or not. And my doubts increase when I remember that what is to
+to decide, by using the methods of an empirical science, such controversial questions as whether science actually uses a principle of induction or not. And my doubts increase when I remember that what is to
 be called a ‘science’ and who is to be called a ‘scientist’ must always
 remain a matter of convention or decision.
 I believe that questions of this kind should be treated in a diﬀerent
@@ -1848,16 +1662,13 @@ similarly V. Kraft, Die Grundformen der wissenschaftlichen Methoden, 1925.
 6 (Addition made in 1934 while this book was in proof.) The view, only brieﬂy set forth
 here, that it is a matter for decision what is to be called ‘a genuine statement’ and what ‘a
 meaningless pseudo-statement’ is one that I have held for years. (Also the view that the
-exclusion of metaphysics is likewise a matter for decision.) However, my present criti-
-cism of positivism (and of the naturalistic view) no longer applies, as far as I can see, to
+exclusion of metaphysics is likewise a matter for decision.) However, my present criticism of positivism (and of the naturalistic view) no longer applies, as far as I can see, to
 Carnap’s Logische Syntax der Sprache, 1934, in which he too adopts the standpoint that all
 such questions rest upon decisions (the ‘principle of tolerance’). According to Carnap’s
 preface, Wittgenstein has for years propounded a similar view in unpublished works.
 (*See however note *1 above.) Carnap’s Logische Syntax was published while the present
 book was in proof. I regret that I was unable to discuss it in my text.
 on the problem of a theory of scientific method
-31
-
 
 11 METHODOLOGICAL RULES AS CONVENTIONS
 Methodological rules are here regarded as conventions. They might be
@@ -1895,8 +1706,6 @@ empirical science may be deﬁned by means of its methodological rules.
 *1 Regarding the translation ‘to prove one’s mettle’ for ‘sich bewähren’, see the ﬁrst
 footnote to chapter 10 (Corroboration), below.
 the logic of science
-32
-
 
 In establishing these rules we may proceed systematically. First a
 supreme rule is laid down which serves as a kind of norm for deciding
@@ -1908,8 +1717,7 @@ Methodological rules are thus closely connected both with other
 methodological rules and with our criterion of demarcation. But the
 connection is not a strictly deductive or logical one.1 It results, rather,
 from the fact that the rules are constructed with the aim of ensuring
-the applicability of our criterion of demarcation; thus their formula-
-tion and acceptance proceeds according to a practical rule of a higher
+the applicability of our criterion of demarcation; thus their formulation and acceptance proceeds according to a practical rule of a higher
 type. An example of this has been given above (cf. rule 1): theories
 which we decide not to submit to any further test would no longer be
 falsiﬁable. It is this systematic connection between the rules which
@@ -1936,8 +1744,6 @@ Matter, and Method, edited by P. K. Feyerabend and G. Maxwell, 1966, pp. 343–3
 perhaps unexpected and not quite on the surface.
 2 K. Menger, Dimensionstheorie, 1928, p. 76.
 on the problem of a theory of scientific method
-33
-
 
 certainly true of the deﬁnition of the concept ‘science’. It is only from
 the consequences of my deﬁnition of empirical science, and from the
@@ -1954,16 +1760,12 @@ This method of detecting and resolving contradictions is applied
 also within science itself, but it is of particular importance in the theory
 of knowledge. It is by this method, if by any, that methodological
 conventions might be justiﬁed, and might prove their value.3
-Whether philosophers will regard these methodological investiga-
-tions as belonging to philosophy is, I fear, very doubtful, but this does
-not really matter much. Yet it may be worth mentioning in this connec-
-tion that not a few doctrines which are metaphysical, and thus certainly
+Whether philosophers will regard these methodological investigations as belonging to philosophy is, I fear, very doubtful, but this does
+not really matter much. Yet it may be worth mentioning in this connection that not a few doctrines which are metaphysical, and thus certainly
 philosophical, could be interpreted as typical hypostatizations of
 methodological rules. An example of this, in the shape of what is called
 ‘the principle of causality’, will be discussed in the next section. Another
-example which we have already encountered is the problem of object-
-ivity. For the requirement of scientiﬁc objectivity can also be inter-
-preted as a methodological rule: the rule that only such statements may
+example which we have already encountered is the problem of objectivity. For the requirement of scientiﬁc objectivity can also be interpreted as a methodological rule: the rule that only such statements may
 be introduced in science as are inter-subjectively testable (see sections
 8, 20, 27, and elsewhere). It might indeed be said that the majority of
 the problems of theoretical philosophy, and the most interesting ones,
@@ -1977,24 +1779,16 @@ problems of both the classical and the modern theory of knowledge (from Hume via
 Kant to Russell and Whitehead) can be traced back to the problem of demarcation, that
 is, to the problem of ﬁnding the criterion of the empirical character of science.
 the logic of science
-34
-
 
 Part II
 Some Structural Components
 of a Theory of Experience
 
-
-
-
-3
 THEORIES
 The empirical sciences are systems of theories. The logic of scientiﬁc
 knowledge can therefore be described as a theory of theories.
-Scientiﬁc theories are universal statements. Like all linguistic repre-
-sentations they are systems of signs or symbols. Thus I do not think it
-helpful to express the diﬀerence between universal theories and singu-
-lar statements by saying that the latter are ‘concrete’ whereas theories
+Scientiﬁc theories are universal statements. Like all linguistic representations they are systems of signs or symbols. Thus I do not think it
+helpful to express the diﬀerence between universal theories and singular statements by saying that the latter are ‘concrete’ whereas theories
 are merely symbolic formulae or symbolic schemata; for exactly the
 same may be said of even the most ‘concrete’ statements.*1
 Theories are nets cast to catch what we call ‘the world’: to
@@ -2007,8 +1801,7 @@ Concerning Human Knowledge’, in Contemporary British Philosophy iii, 1956, edi
 Lewis, pp. 355 ﬀ.; and more fully in my Postscript, sections *11 to *15 and *19 to *26. My
 point of view is, brieﬂy, that our ordinary language is full of theories: that observation is
 always observation in the light of theories; that it is only the inductivist prejudice which leads
-people to think that there could be a phenomenal language, free of theories, and dis-
-tinguishable from a ‘theoretical language’; and lastly, that the theorist is interested in
+people to think that there could be a phenomenal language, free of theories, and distinguishable from a ‘theoretical language’; and lastly, that the theorist is interested in
 explanation as such, that is to say, in testable explanatory theories: applications and
 predictions interest him only for theoretical reasons—because they may be used as tests of
 theories. See also the new appendix *x.
@@ -2036,8 +1829,7 @@ We have thus two diﬀerent kinds of statement, both of which are
 necessary ingredients of a complete causal explanation. They are (1)
 universal statements, i.e. hypotheses of the character of natural laws, and (2)
 singular statements, which apply to the speciﬁc event in question and which
-I shall call ‘initial conditions’. It is from universal statements in conjunc-
-tion with initial conditions that we deduce the singular statement, ‘This
+I shall call ‘initial conditions’. It is from universal statements in conjunction with initial conditions that we deduce the singular statement, ‘This
 thread will break’. We call this statement a speciﬁc or singular prediction.*2
 The initial conditions describe what is usually called the ‘cause’ of the
 *1 A clearer analysis of this example—and one which distinguishes two laws as well as
@@ -2047,12 +1839,9 @@ the thread will break if any weight exceeding w is suspended from it.’—‘Fo
 of the structure S1, the characteristic weight w1 equals 1 lb.’ These are the two universal
 laws. The two initial conditions are, ‘This is a thread of structure S1’ and, ‘The weight to
 be put on this thread is equal to 2 lbs.’
-*2 The term ‘prediction’, as used here, comprises statements about the past (‘retrodic-
-tions’), or even ‘given’ statements which we wish to explain (‘explicanda’); cf. my Poverty of
+*2 The term ‘prediction’, as used here, comprises statements about the past (‘retrodictions’), or even ‘given’ statements which we wish to explain (‘explicanda’); cf. my Poverty of
 Historicism, 1945, p. 133 of the edition of 1957, and the Postscript, section *15.
 some structural components of a theory of experience
-38
-
 
 event in question. (The fact that a load of 2 lbs. was put on a thread with
 a tensile strength of 1 lb. was the ‘cause’ of its breaking.) And the
@@ -2061,13 +1850,10 @@ shall avoid. In physics the use of the expression ‘causal explanation’ is
 restricted as a rule to the special case in which the universal laws have
 the form of laws of ‘action by contact’; or more precisely, of action at a
 vanishing distance, expressed by diﬀerential equations. This restriction will
-not be assumed here. Furthermore, I shall not make any general asser-
-tion as to the universal applicability of this deductive method of theor-
-etical explanation. Thus I shall not assert any ‘principle of causality’ (or
+not be assumed here. Furthermore, I shall not make any general assertion as to the universal applicability of this deductive method of theoretical explanation. Thus I shall not assert any ‘principle of causality’ (or
 ‘principle of universal causation’).
 The ‘principle of causality’ is the assertion that any event whatsoever
-can be causally explained—that it can be deductively predicted. Accord-
-ing to the way in which one interprets the word ‘can’ in this assertion,
+can be causally explained—that it can be deductively predicted. According to the way in which one interprets the word ‘can’ in this assertion,
 it will be either tautological (analytic), or else an assertion about reality
 (synthetic). For if ‘can’ means that it is always logically possible to
 construct a causal explanation, then the assertion is tautological, since
@@ -2076,8 +1862,7 @@ and initial conditions from which the prediction is derivable.
 (Whether these universal statements have been tested and corroborated
 in other cases is of course quite a diﬀerent question.) If, however, ‘can’
 is meant to signify that the world is governed by strict laws, that it is so
-constructed that every speciﬁc event is an instance of a universal regu-
-larity or law, then the assertion is admittedly synthetic. But in this case
+constructed that every speciﬁc event is an instance of a universal regularity or law, then the assertion is admittedly synthetic. But in this case
 it is not falsiﬁable, as will be seen later, in section 78. I shall, therefore,
 neither adopt nor reject the ‘principle of causality’; I shall be content
 simply to exclude it, as ‘metaphysical’, from the sphere of science.
@@ -2091,8 +1876,6 @@ event we can describe.1 This rule guides the scientiﬁc investigator in his
 decision is due to H. Gomperz, Das Problem der Willensfreiheit, 1907. Cf. Schlick, Die Kausalitat
 in der gegenwartigen Physik, Naturwissenschaften 19, 1931, p. 154.
 theories
-39
-
 
 work. The view that the latest developments in physics demand the
 renunciation of this rule, or that physics has now established that
@@ -2100,14 +1883,11 @@ within one ﬁeld at least it is pointless to seek any longer for laws, is not
 accepted here.2 This matter will be discussed in section 78.*3
 13 STRICT AND NUMERICAL UNIVERSALITY
 We can distinguish two kinds of universal synthetic statement: the
-‘strictly universal’ and the ‘numerically universal’. It is the strictly uni-
-versal statements which I have had in mind so far when speaking of
+‘strictly universal’ and the ‘numerically universal’. It is the strictly universal statements which I have had in mind so far when speaking of
 universal statements—of theories or natural laws. The other kind, the
-numerically universal statements, are in fact equivalent to certain sin-
-gular statements, or to conjunctions of singular statements, and they
+numerically universal statements, are in fact equivalent to certain singular statements, or to conjunctions of singular statements, and they
 will be classed as singular statements here.
-Compare, for example, the following two statements: (a) Of all har-
-monic oscillators it is true that their energy never falls below a certain
+Compare, for example, the following two statements: (a) Of all harmonic oscillators it is true that their energy never falls below a certain
 amount (viz. hv/2); and (b) Of all human beings now living on the
 earth it is true that their height never exceeds a certain amount (say
 * I feel that I should say here more explicitly that the decision to search for causal
@@ -2117,13 +1897,10 @@ to say, theories which describe certain structural properties of the world, and 
 permit us to deduce, with the help of initial conditions, the eﬀects to be explained. It was
 the purpose of the present section to explain, if only very brieﬂy, what we mean by
 causal explanation. A somewhat fuller statement will be found in appendix *x, and in my
-Postscript, section *15. My explanation of explanation has been adopted by certain positiv-
-ists or ‘instrumentalists’ who saw in it an attempt to explain it away—as the assertion that
+Postscript, section *15. My explanation of explanation has been adopted by certain positivists or ‘instrumentalists’ who saw in it an attempt to explain it away—as the assertion that
 explanatory theories are nothing but premises for deducing predictions. I therefore wish to
-make it quite clear that I consider the theorist’s interest in explanation—that is, in discover-
-ing explanatory theories—as irreducible to the practical technological interest in the
-deduction of predictions. The theorist’s interest in predictions, on the other hand, is explic-
-able as due to his interest in the problem whether his theories are true; or in other words,
+make it quite clear that I consider the theorist’s interest in explanation—that is, in discovering explanatory theories—as irreducible to the practical technological interest in the
+deduction of predictions. The theorist’s interest in predictions, on the other hand, is explicable as due to his interest in the problem whether his theories are true; or in other words,
 as due to his interest in testing his theories—in trying to ﬁnd out whether they cannot be
 shown to be false. See also appendix *x, note 4 and text.
 2 The view here opposed is held for example by Schlick; he writes, op. cit. p. 155: ‘. . . this
@@ -2132,22 +1909,17 @@ Heisenberg) ‘. . . means that it is impossible to search for that formula.’ 
 section 78.)
 *3 But see now also chapters *iv to *vi of my Postscript.
 some structural components of a theory of experience
-40
-
 
 8 ft.). Formal logic (including symbolic logic), which is concerned
 only with the theory of deduction, treats these two statements alike as
-universal statements (‘formal’ or ‘general’ implications).1 I think how-
-ever that it is necessary to emphasize the diﬀerence between them.
+universal statements (‘formal’ or ‘general’ implications).1 I think however that it is necessary to emphasize the diﬀerence between them.
 Statement (a) claims to be true for any place and any time. Statement
 (b) refers only to a ﬁnite class of speciﬁc elements within a ﬁnite
 individual (or particular) spatio-temporal region. Statements of this
 latter kind can, in principle, be replaced by a conjunction of singular
 statements; for given suﬃcient time, one can enumerate all the elements
 of the (ﬁnite) class concerned. This is why we speak in such cases of
-‘numerical universality’. By contrast, statement (a), about the oscil-
-lators, cannot be replaced by a conjunction of a ﬁnite number of singu-
-lar statements about a deﬁnite spatio-temporal region; or rather, it
+‘numerical universality’. By contrast, statement (a), about the oscillators, cannot be replaced by a conjunction of a ﬁnite number of singular statements about a deﬁnite spatio-temporal region; or rather, it
 could be so replaced only on the assumption that the world is bounded
 in time and that there exists only a ﬁnite number of oscillators in it. But
 we do not make any such assumption; in particular, we do not make
@@ -2156,17 +1928,13 @@ regard a statement of type (a) as an all-statement, i.e. a universal assertion
 about an unlimited number of individuals. So interpreted it clearly
 cannot be replaced by a conjunction of a ﬁnite number of singular
 statements.
-My use of the concept of a strictly universal statement (or ‘all-
-statement’) stands opposed to the view that every synthetic universal
+My use of the concept of a strictly universal statement (or ‘allstatement’) stands opposed to the view that every synthetic universal
 statement must in principle be translatable into a conjunction of a
 ﬁnite number of singular statements. Those who adhere to this view2
-insist that what I call ‘strictly universal statements’ can never be veri-
-ﬁed, and they therefore reject them, referring either to their criterion
-1 Classical logic (and similarly symbolic logic or ‘logistic’) distinguishes universal, par-
-ticular, and singular statements. A universal statement is one referring to all the elements
+insist that what I call ‘strictly universal statements’ can never be veriﬁed, and they therefore reject them, referring either to their criterion
+1 Classical logic (and similarly symbolic logic or ‘logistic’) distinguishes universal, particular, and singular statements. A universal statement is one referring to all the elements
 of some class; a particular statement is one referring to some among its elements; a
-singular statement is one referring to one given element—an individual. This classiﬁca-
-tion is not based on reasons connected with the logic of knowledge. It was developed
+singular statement is one referring to one given element—an individual. This classiﬁcation is not based on reasons connected with the logic of knowledge. It was developed
 with an eye to the technique of inference. We can therefore identify our ‘universal
 statements’ neither with the universal statements of classical logic nor with the ‘general’
 or ‘formal’ implications of logistic (cf. note 6 to section 14). *See now also appendix *x,
@@ -2174,17 +1942,13 @@ and my Postscript, especially section *15.
 2 Cf. for instance F. Kaufmann, Bemerkungen zum Grundlagenstreit in Logik und Mathematik,
 Erkenntnis 2, 1931, p. 274.
 theories
-41
-
 
 of meaning, which demands veriﬁability, or to some similar
 consideration.
 It is clear that on any such view of natural laws which obliterates the
 distinction between singular and universal statements, the problem of
 induction would seem to be solved; for obviously, inferences from
-singular statements to merely numerically universal ones may be per-
-fectly admissible. But it is equally clear that the methodological prob-
-lem of induction is not aﬀected by this solution. For the veriﬁcation of
+singular statements to merely numerically universal ones may be perfectly admissible. But it is equally clear that the methodological problem of induction is not aﬀected by this solution. For the veriﬁcation of
 a natural law could only be carried out by empirically ascertaining
 every single event to which the law might apply, and by ﬁnding that
 every such event actually conforms to the law—clearly an impossible
@@ -2194,8 +1958,7 @@ numerically universal cannot be settled by argument. It is one of those
 questions which can be settled only by an agreement or a convention.
 And in view of the methodological situation just referred to, I consider
 it both useful and fruitful to regard natural laws as synthetic and strictly
-universal statements (‘all-statements’). This is to regard them as non-
-veriﬁable statements which can be put in the form: ‘Of all points in
+universal statements (‘all-statements’). This is to regard them as nonveriﬁable statements which can be put in the form: ‘Of all points in
 space and time (or in all regions of space and time) it is true that . . .’.
 By contrast, statements which relate only to certain ﬁnite regions of
 space and time I call ‘speciﬁc’ or ‘singular’ statements.
@@ -2212,8 +1975,6 @@ It is usual to elucidate this distinction with the help of examples of
 3 Examples: (a) Every natural number has a successor. (b) With the exception of the
 numbers 11, 13, 17, and 19, all numbers between 10 and 20 are divisible.
 some structural components of a theory of experience
-42
-
 
 the following kind: ‘dictator’, ‘planet’, ‘H2O’ are universal concepts or
 universal names. ‘Napoleon’, ‘the earth’, ‘the Atlantic’ are singular
@@ -2222,15 +1983,12 @@ or names appear to be characterized either by being proper names, or
 by having to be deﬁned by means of proper names, whilst universal
 concepts or names can be deﬁned without the use of proper names.
 I consider the distinction between universal and individual concepts
-or names to be of fundamental importance. Every application of sci-
-ence is based upon an inference from scientiﬁc hypotheses (which are
-universal) to singular cases, i.e. upon a deduction of singular predic-
-tions. But in every singular statement individual concepts or names
+or names to be of fundamental importance. Every application of science is based upon an inference from scientiﬁc hypotheses (which are
+universal) to singular cases, i.e. upon a deduction of singular predictions. But in every singular statement individual concepts or names
 must occur.
 The individual names that occur in the singular statements of science
 often appear in the guise of spatio-temporal co-ordinates. This is easily
-understood if we consider that the application of a spatio-temporal sys-
-tem of co-ordinates always involves reference to individual names. For
+understood if we consider that the application of a spatio-temporal system of co-ordinates always involves reference to individual names. For
 we have to ﬁx its points of origin, and this we can do only by making
 use of proper names (or their equivalents). The use of the names
 ‘Greenwich’ and ‘The year of Christ’s birth’ illustrates what I mean. By
@@ -2247,14 +2005,10 @@ things (or events) and then express by a phrase like ‘and other similar
 things’ (or ‘and so on’) our intention to regard these individuals only
 as representatives of some class which should properly be given a
 universal name. There can be no doubt that we learn the use of universal
-1 But the units of measurements of the co-ordinate system which ﬁrst were also estab-
-lished by individual names (the rotation of the earth; the standard metre in Paris) can be
-deﬁned in principle by means of universal names, for example by means of the wave-
-length or frequency of the monochromatic light emitted by a certain kind of atoms
+1 But the units of measurements of the co-ordinate system which ﬁrst were also established by individual names (the rotation of the earth; the standard metre in Paris) can be
+deﬁned in principle by means of universal names, for example by means of the wavelength or frequency of the monochromatic light emitted by a certain kind of atoms
 treated in a certain way.
 theories
-43
-
 
 words, that is their application to individuals, by ostensive gestures and
 by similar means. The logical basis of applications of this kind is that
@@ -2294,14 +2048,10 @@ Pasteur’ (or something like this), or else as ‘heated to 80 degrees centigra
 this temperature for ten minutes’. The ﬁrst deﬁnition makes ‘pasteurized’ an individual
 concept; the second makes it a universal concept. But cp. also note 4, below.
 some structural components of a theory of experience
-44
-
 
 I believe that my usage corresponds fairly closely to the customary
 use of the expressions ‘universal’ and ‘individual’. But whether or not
-this is so I certainly consider the distinction here made to be indispens-
-able if we are not to blur the corresponding distinction between uni-
-versal and singular statements. (There is a complete analogy between
+this is so I certainly consider the distinction here made to be indispensable if we are not to blur the corresponding distinction between universal and singular statements. (There is a complete analogy between
 the problem of universals and the problem of induction.) The attempt
 to identify an individual thing merely by its universal properties and
 relations, which appear to belong to it alone and to nothing else, is
@@ -2315,16 +2065,12 @@ an open question.
 In the same way, any attempt to deﬁne universal names with the
 help of individual names is bound to fail. This fact has often been
 overlooked, and it is widely believed that it is possible to rise by a
-process called ‘abstraction’ from individual concepts to universal con-
-cepts. This view is a near relation of inductive logic, with its passage
-from singular statements to universal statements. Logically, these pro-
-cedures are equally impracticable.3 It is true that one can obtain classes
+process called ‘abstraction’ from individual concepts to universal concepts. This view is a near relation of inductive logic, with its passage
+from singular statements to universal statements. Logically, these procedures are equally impracticable.3 It is true that one can obtain classes
 of individuals in this way, but these classes will still be individual
 concepts—concepts deﬁned with the help of proper names. (Examples
 of such individual class-concepts are ‘Napoleon’s generals’, and ‘the
-inhabitants of Paris’.) Thus we see that my distinction between uni-
-versal names or concepts and individual names or concepts has noth-
-ing to do with the distinction between classes and elements. Both
+inhabitants of Paris’.) Thus we see that my distinction between universal names or concepts and individual names or concepts has nothing to do with the distinction between classes and elements. Both
 universal names and individual names may occur as names of some
 classes, and also as the names of elements of some classes.
 It is therefore not possible to abolish the distinction between
@@ -2335,13 +2081,10 @@ the ascent from individual names to universal names. If the class deﬁned by me
 abstraction is deﬁned extensionally with the help of individual names, then it is in its
 turn an individual concept.
 theories
-45
-
 
 individual concepts and universal concepts with arguments like the
 following of Carnap’s: ‘. . . this distinction is not justiﬁed’, he says,
-because ‘. . . every concept can be regarded as an individual or uni-
-versal concept according to the point of view adopted’. Carnap tries to
+because ‘. . . every concept can be regarded as an individual or universal concept according to the point of view adopted’. Carnap tries to
 support this by the assertion ‘. . . that (almost) all so-called individual
 concepts are (names of) classes, just like universal concepts’.4 This last
 assertion is quite correct, as I have shown, but has nothing to do with
@@ -2370,8 +2113,7 @@ thought of as proper names or individual co-ordinates, but as universals. (They 
 ‘individual’ only in a Pickwickian sense, cf. note 3 (b) to section 13.)
 5 The distinction drawn by Russell and Whitehead between individuals (or particulars)
 and universals has also nothing to do with the distinction here introduced between
-individual names and universal names. According to Russell’s terminology, in the sen-
-tence ‘Napoleon is a French general’, ‘Napoleon’ is, as in my scheme, an individual, but
+individual names and universal names. According to Russell’s terminology, in the sentence ‘Napoleon is a French general’, ‘Napoleon’ is, as in my scheme, an individual, but
 ‘French general’ is a universal; but conversely, in the sentence ‘Nitrogen is a non-metal’,
 ‘non-metal’ is, as in my scheme, a universal, but ‘nitrogen’ is an individual. Moreover,
 what Russell calls ‘descriptions’ does not correspond to my ‘individual names’ since e.g.
@@ -2379,8 +2121,6 @@ the class of ‘geometrical points falling within my body’, is for me an indiv
 but cannot be represented by means of a ‘description’. Cf. Whitehead and Russell Principia
 Mathematica (2nd edition 1925, vol. I), Introduction to the second edition, II 1, pp. xix, f.
 some structural components of a theory of experience
-46
-
 
 between universal and singular statements. The instruments of
 symbolic logic are no more adequate for handling the problem of
@@ -2419,14 +2159,10 @@ function x preceding ‘ →’ may be called the antecedent or the conditionin
 function, and fx the consequent propositional function or the prediction; and the general implication, (x)
 (x →fx), asserts that all values of x which satisfy  also satisfy f.
 theories
-47
-
 
 The theories of natural science, and especially what we call natural
 laws, have the logical form of strictly universal statements; thus they
-can be expressed in the form of negations of strictly existential state-
-ments or, as we may say, in the form of non-existence statements (or ‘there-
-is-not’ statements). For example, the law of the conservation of energy
+can be expressed in the form of negations of strictly existential statements or, as we may say, in the form of non-existence statements (or ‘thereis-not’ statements). For example, the law of the conservation of energy
 can be expressed in the form: ‘There is no perpetual motion machine’,
 or the hypothesis of the electrical elementary charge in the form:
 ‘There is no electrical charge other than a multiple of the electrical
@@ -2439,8 +2175,7 @@ these things or states of aﬀairs: they rule them out. And it is precisely
 because they do this that they are falsiﬁable. If we accept as true one
 singular statement which, as it were, infringes the prohibition by
 asserting the existence of a thing (or the occurrence of an event) ruled
-out by the law, then the law is refuted. (An instance would be, ‘In such-
-and-such a place, there is an apparatus which is a perpetual motion
+out by the law, then the law is refuted. (An instance would be, ‘In suchand-such a place, there is an apparatus which is a perpetual motion
 machine’.)
 Strictly existential statements, by contrast, cannot be falsiﬁed. No
 singular statement (that is to say, no ‘basic statement’, no statement of
@@ -2449,19 +2184,15 @@ white ravens’. Only a universal statement could do this. On the basis of
 the criterion of demarcation here adopted I shall therefore have to treat
 strictly existential statements as non-empirical or ‘metaphysical’. This
 characterization may perhaps seem dubious at ﬁrst sight and not quite
-in accordance with the practice of empirical science. By way of objec-
-tion, it might be asserted (with justice) that there are theories even in
+in accordance with the practice of empirical science. By way of objection, it might be asserted (with justice) that there are theories even in
 physics which have the form of strictly existential statements. An
 example would be a statement, deducible from the periodic system
-of chemical elements, which asserts the existence of elements of cer-
-tain atomic numbers. But if the hypothesis that an element of a certain
+of chemical elements, which asserts the existence of elements of certain atomic numbers. But if the hypothesis that an element of a certain
 atomic number exists is to be so formulated that it becomes testable,
 then much more is required than a purely existential statement.
 For example, the element with the atomic number 72 (Hafnium) was
 not discovered merely on the basis of an isolated purely existential
 some structural components of a theory of experience
-48
-
 
 statement. On the contrary, all attempts to ﬁnd it were in vain until
 Bohr succeeded in predicting several of its properties by deducing
@@ -2501,8 +2232,6 @@ and may add to its degree of falsiﬁability or testability. In this case, the t
 including the existential statement in question is to be described as scientiﬁc rather than
 metaphysical.
 theories
-49
-
 
 existential statements are constructed symmetrically. It is only*2 the
 line drawn by our criterion of demarcation which produces an
@@ -2512,11 +2241,8 @@ Scientiﬁc theories are perpetually changing. This is not due to mere
 chance but might well be expected, according to our characterization
 of empirical science.
 Perhaps this is why, as a rule, only branches of science—and these only
-temporarily—ever acquire the form of an elaborate and logically well-
-constructed system of theories. In spite of this, a tentative system can
-usually be quite well surveyed as a whole, with all its important con-
-sequences. This is very necessary; for a severe test of a system presup-
-poses that it is at the time suﬃciently deﬁnite and ﬁnal in form to make
+temporarily—ever acquire the form of an elaborate and logically wellconstructed system of theories. In spite of this, a tentative system can
+usually be quite well surveyed as a whole, with all its important consequences. This is very necessary; for a severe test of a system presupposes that it is at the time suﬃciently deﬁnite and ﬁnal in form to make
 it impossible for new assumptions to be smuggled in. In other words,
 the system must be formulated suﬃciently clearly and deﬁnitely to
 make every new assumption easily recognizable for what it is: a
@@ -2526,22 +2252,17 @@ aimed at. It is the form of a so-called ‘axiomatized system’—the form
 which Hilbert, for example, was able to give to certain branches of
 theoretical physics. The attempt is made to collect all the assumptions
 which are needed, but no more, to form the apex of the system. They
-are usually called the ‘axioms’ (or ‘postulates’, or ‘primitive proposi-
-tions’; no claim to truth is implied in the term ‘axiom’ as here used).
+are usually called the ‘axioms’ (or ‘postulates’, or ‘primitive propositions’; no claim to truth is implied in the term ‘axiom’ as here used).
 The axioms are chosen in such a way that all the other statements
 belonging to the theoretical system can be derived from the axioms by
 purely logical or mathematical transformations.
-A theoretical system may be said to be axiomatized if a set of state-
-ments, the axioms, has been formulated which satisﬁes the following
+A theoretical system may be said to be axiomatized if a set of statements, the axioms, has been formulated which satisﬁes the following
 four fundamental requirements. (a) The system of axioms must be free
 *2 The word ‘only’ here should not be taken too seriously. The situation is quite simple.
-If it is characteristic of empirical science to look upon singular statements as test-
-statements, then the asymmetry arises from the fact that, with respect to singular statements,
+If it is characteristic of empirical science to look upon singular statements as teststatements, then the asymmetry arises from the fact that, with respect to singular statements,
 universal statements are falsiﬁable only and existential statements veriﬁable only. See also
 section *22 of my Postscript.
 some structural components of a theory of experience
-50
-
 
 from contradiction (whether self-contradiction or mutual contradiction).
 This is equivalent to the demand that not every arbitrarily chosen
@@ -2561,10 +2282,8 @@ part of the axioms. Investigations of this kind (of which more will be
 said in sections 63 and 64, and 75 to 77) have an important bearing on
 the problem of falsiﬁability. They make it clear why the falsiﬁcation of
 a logically deduced statement may sometimes not aﬀect the whole
-system but only some part of it, which may then be regarded as falsi-
-ﬁed. This is possible because, although the theories of physics are in
-general not completely axiomatized, the connections between its vari-
-ous parts may yet be suﬃciently clear to enable us to decide which of
+system but only some part of it, which may then be regarded as falsiﬁed. This is possible because, although the theories of physics are in
+general not completely axiomatized, the connections between its various parts may yet be suﬃciently clear to enable us to decide which of
 its sub-systems are aﬀected by some particular falsifying observation.*1
 17 SOME POSSIBILITIES OF INTERPRETING
 A SYSTEM OF AXIOMS
@@ -2578,14 +2297,11 @@ interpretations of any system of axioms to be admissible. The axioms
 somewhat diﬀerent account in Carnap’s Abriss der Logistik, 1929, pp. 70 ﬀ.
 *1 The point is more fully discussed in my Postscript, especially section *22.
 theories
-51
-
 
 may be regarded either (i) as conventions, or they may be regarded (ii) as
 empirical or scientiﬁc hypotheses.
 (i) If the axioms are regarded as conventions then they tie down the
-use or meaning of the fundamental ideas (or primitive terms, or con-
-cepts) which the axioms introduce; they determine what can and what
+use or meaning of the fundamental ideas (or primitive terms, or concepts) which the axioms introduce; they determine what can and what
 cannot be said about these fundamental ideas. Sometimes the axioms
 are described as ‘implicit deﬁnitions’ of the ideas which they introduce.
 This view can perhaps be elucidated by means of an analogy between
@@ -2596,34 +2312,26 @@ appear in a system of equations are in some way or other determined
 by it. Even if the system of equations does not suﬃce for a unique
 solution, it does not allow every conceivable combination of values to
 be substituted for the ‘unknowns’ (variables). Rather, the system of
-equations characterizes certain combinations of values or value-
-systems as admissible, and others as inadmissible; it distinguishes the
+equations characterizes certain combinations of values or valuesystems as admissible, and others as inadmissible; it distinguishes the
 class of admissible value systems from the class of inadmissible value
 systems. In a similar way, systems of concepts can be distinguished as
 admissible or as inadmissible by means of what might be called a
-‘statement-equation’. A statement-equation is obtained from a prop-
-ositional function or statement-function (cf. note 6 to section 14); this
+‘statement-equation’. A statement-equation is obtained from a propositional function or statement-function (cf. note 6 to section 14); this
 is an incomplete statement, in which one or more ‘blanks’ occur. Two
 examples of such propositional functions or statement functions are:
 ‘An isotope of the element x has the atomic weight 65’; or ‘x + y = 12’.
 Every such statement-function is transformed into a statement by the
 substitution of certain values for the blanks, x and y. The resulting
-statement will be either true or false, according to the values (or com-
-bination of values) substituted. Thus, in the ﬁrst example, substitution
+statement will be either true or false, according to the values (or combination of values) substituted. Thus, in the ﬁrst example, substitution
 of the word ‘copper’ or ‘zinc’ for ‘x’ yields a true statement, while
-other substitutions yield false ones. Now what I call a ‘statement-
-equation’ is obtained if we decide, with respect to some statement-
-function, to admit only such values for substitution as turn this
+other substitutions yield false ones. Now what I call a ‘statementequation’ is obtained if we decide, with respect to some statementfunction, to admit only such values for substitution as turn this
 function into a true statement. By means of this statement-equation a
 deﬁnite class of admissible value-systems is deﬁned, namely the class of
 those which satisfy it. The analogy with a mathematical equation is
 clear. If our second example is interpreted, not as a statement-function
 some structural components of a theory of experience
-52
 
-
-but as a statement-equation, then it becomes an equation in the ordin-
-ary (mathematical) sense.
+but as a statement-equation, then it becomes an equation in the ordinary (mathematical) sense.
 Since its undeﬁned fundamental ideas or primitive terms can be
 regarded as blanks, an axiomatic system can, to begin with, be treated
 as a system of statement-functions. But if we decide that only such
@@ -2632,17 +2340,14 @@ then it becomes a system of statement-equations. As such it implicitly
 deﬁnes a class of (admissible) systems of concepts. Every system of
 concepts which satisﬁes a system of axioms can be called a model of that
 system of axioms.*1
-The interpretation of an axiomatic system as a system of (conven-
-tions or) implicit deﬁnitions can also be expressed by saying that it
-amounts to the decision: only models may be admitted as substi-
-tutes.*2 But if a model is substituted then the result will be a system of
+The interpretation of an axiomatic system as a system of (conventions or) implicit deﬁnitions can also be expressed by saying that it
+amounts to the decision: only models may be admitted as substitutes.*2 But if a model is substituted then the result will be a system of
 analytic statements (since it will be true by convention). An axiomatic
 system interpreted in this way cannot therefore be regarded as a system
 of empirical or scientiﬁc hypotheses (in our sense) since it cannot
 be refuted by the falsiﬁcation of its consequences; for these too must be
 analytic.
-(ii) How then, it may be asked, can an axiomatic system be inter-
-preted as a system of empirical or scientiﬁc hypotheses? The usual view is
+(ii) How then, it may be asked, can an axiomatic system be interpreted as a system of empirical or scientiﬁc hypotheses? The usual view is
 that the primitive terms occurring in the axiomatic system are not to
 be regarded as implicitly deﬁned, but as ‘extra-logical constants’. For
 example, such concepts as ‘straight line’ and ‘point’, which occur in
@@ -2650,8 +2355,7 @@ every axiom system of geometry, may be interpreted as ‘light ray’ and
 ‘intersection of light rays’. In this way, it is thought, the statements of
 the axiom system become statements about empirical objects, that is to
 say, synthetic statements.
-At ﬁrst sight, this view of the matter may appear perfectly satisfac-
-tory. It leads, however, to diﬃculties which are connected with the
+At ﬁrst sight, this view of the matter may appear perfectly satisfactory. It leads, however, to diﬃculties which are connected with the
 problem of the empirical basis. For it is by no means clear what would
 *1 See note *2.
 *2 Today I should clearly distinguish between the systems of objects which satisfy an axiom
@@ -2660,8 +2364,6 @@ system and the system of names of these objects which may be substituted in the 
 should now write: ‘only names of objects which constitute a model may be admitted for
 substitution’.
 theories
-53
-
 
 be an empirical way of deﬁning a concept. It is customary to speak of ‘ostensive
 deﬁnitions’. This means that a deﬁnite empirical meaning is assigned
@@ -2677,8 +2379,7 @@ with the help of other universal names; otherwise they can only be left
 undeﬁned. That some universal names should remain undeﬁned is
 therefore quite unavoidable; and herein lies the diﬃculty. For these
 undeﬁned concepts can always be used in the non-empirical sense (i),
-i.e. as if they were implicitly deﬁned concepts. Yet this use must inevit-
-ably destroy the empirical character of the system. This diﬃculty, I
+i.e. as if they were implicitly deﬁned concepts. Yet this use must inevitably destroy the empirical character of the system. This diﬃculty, I
 believe, can only be overcome by means of a methodological decision.
 I shall, accordingly, adopt a rule not to use undeﬁned concepts as if
 they were implicitly deﬁned. (This point will be dealt with below in
@@ -2688,8 +2389,7 @@ concepts of an axiomatic system such as geometry to be correlated
 with, or interpreted by, the concepts of another system, e.g. physics.
 This possibility is particularly important when, in the course of the
 evolution of a science, one system of statements is being explained by
-means of a new—a more general—system of hypotheses which per-
-mits the deduction not only of statements belonging to the ﬁrst system,
+means of a new—a more general—system of hypotheses which permits the deduction not only of statements belonging to the ﬁrst system,
 but also of statements belonging to other systems. In such cases it may
 be possible to deﬁne the fundamental concepts of the new system with
 the help of concepts which were originally used in some of the old
@@ -2699,26 +2399,20 @@ We may distinguish, within a theoretical system, statements belonging
 to various levels of universality. The statements on the highest level of
 universality are the axioms; statements on the lower levels can be
 some structural components of a theory of experience
-54
-
 
 deduced from them. Higher level empirical statements have always the
 character of hypotheses relative to the lower level statements deducible
-from them: they can be falsiﬁed by the falsiﬁcation of these less uni-
-versal statements. But in any hypothetical deductive system, these less
+from them: they can be falsiﬁed by the falsiﬁcation of these less universal statements. But in any hypothetical deductive system, these less
 universal statements are themselves still strictly universal statements, in
 the sense here understood. Thus they too must have the character of
-hypotheses—a fact which has often been overlooked in the case of lower-
-level universal statements. Mach, for example, calls1 Fourier’s theory
+hypotheses—a fact which has often been overlooked in the case of lowerlevel universal statements. Mach, for example, calls1 Fourier’s theory
 of heat conduction a ‘model theory of physics’ for the curious reason
 that ‘this theory is founded not on a hypothesis but on an observable fact’.
 However, the ‘observable fact’ to which Mach refers is described by
-him by the statement. ‘ . . . the velocity of the levelling out of tempera-
-ture diﬀerences, provided these diﬀerences of temperature are small, is
+him by the statement. ‘ . . . the velocity of the levelling out of temperature diﬀerences, provided these diﬀerences of temperature are small, is
 proportional to these diﬀerences themselves’—an all-statement whose
 hypothetical character should be suﬃciently conspicuous.
-I shall say even of some singular statements that they are hypo-
-thetical, seeing that conclusions may be derived from them (with
+I shall say even of some singular statements that they are hypothetical, seeing that conclusions may be derived from them (with
 the help of a theoretical system) such that the falsiﬁcation of these
 conclusions may falsify the singular statements in question.
 The falsifying mode of inference here referred to—the way in which
@@ -2741,8 +2435,6 @@ months after the publication of the book. The problem is not very relevant to th
 of the book; but the confusion should be pointed out nevertheless. (These problems are
 discussed more fully, for example, in my paper in Mind, 56, 1947, pp. 193 ﬀ.)
 theories
-55
-
 
 be read: ‘p follows from t’. Assume p to be false, which we may write
 ‘p¯’, to be read ‘not-p’. Given the relation of deducibility, t →p, and
@@ -2759,8 +2451,7 @@ cannot be asserted of any one statement of the system that it is, or is
 not, speciﬁcally upset by the falsiﬁcation. Only if p is independent of some
 part of the system can we say that this part is not involved in the
 falsiﬁcation.2 With this is connected the following possibility: we may,
-in some cases, perhaps in consideration of the levels of universality, attrib-
-ute the falsiﬁcation to some deﬁnite hypothesis—for instance to a
+in some cases, perhaps in consideration of the levels of universality, attribute the falsiﬁcation to some deﬁnite hypothesis—for instance to a
 newly introduced hypothesis. This may happen if a well-corroborated
 theory, and one which continues to be further corroborated, has been
 deductively explained by a new hypothesis of a higher level. The
@@ -2773,35 +2464,27 @@ of lesser generality, as having been falsiﬁed. (Cf. also the remarks on
 ‘quasi-induction’ in section 85.)
 2 Thus we cannot at ﬁrst know which among the various statements of the remaining
 sub-system t′ (of which p is not independent) we are to blame for the falsity of p; which
-of these statements we have to alter, and which we should retain. (I am not here discuss-
-ing interchangeable statements.) It is often only the scientiﬁc instinct of the investigator
+of these statements we have to alter, and which we should retain. (I am not here discussing interchangeable statements.) It is often only the scientiﬁc instinct of the investigator
 (inﬂuenced, of course, by the results of testing and re-testing) that makes him guess
 which statements of t′ he should regard as innocuous, and which he should regard as
-being in need of modiﬁcation. Yet it is worth remembering that it is often the modiﬁca-
-tion of what we are inclined to regard as obviously innocuous (because of its complete
+being in need of modiﬁcation. Yet it is worth remembering that it is often the modiﬁcation of what we are inclined to regard as obviously innocuous (because of its complete
 agreement with our normal habits of thought) which may produce a decisive advance. A
 notable example of this is Einstein’s modiﬁcation of the concept of simultaneity.
 some structural components of a theory of experience
-56
 
-
-4
 FALSIFIABILITY
 The question whether there is such a thing as a falsiﬁable singular
 statement (or a ‘basic statement’) will be examined later. Here I shall
 assume a positive answer to this question; and I shall examine how far
 my criterion of demarcation is applicable to theoretical systems—if it is
-applicable at all. A critical discussion of a position usually called ‘con-
-ventionalism’ will raise ﬁrst some problems of method, to be met by
+applicable at all. A critical discussion of a position usually called ‘conventionalism’ will raise ﬁrst some problems of method, to be met by
 taking certain methodological decisions. Next I shall try to characterize the
 logical properties of those systems of theories which are falsiﬁable—
 falsiﬁable, that is, if our methodological proposals are adopted.
 19 SOME CONVENTIONALIST OBJECTIONS
-Objections are bound to be raised against my proposal to adopt falsiﬁ-
-ability as our criterion for deciding whether or not a theoretical system
+Objections are bound to be raised against my proposal to adopt falsiﬁability as our criterion for deciding whether or not a theoretical system
 belongs to empirical science. They will be raised, for example, by those
-who are inﬂuenced by the school of thought known as ‘conventional-
-ism’.1 Some of these objections have already been touched upon in
+who are inﬂuenced by the school of thought known as ‘conventionalism’.1 Some of these objections have already been touched upon in
 1 The chief representatives of the school are Poincaré and Duhem (cf. La théorie physique, son
 objet et sa structure, 1906; English translation by P. P. Wiener: The Aim and Structure of Physical
 Theory, Princeton, 1954). A recent adherent is H. Dingler (among his numerous works
@@ -2818,10 +2501,8 @@ believe, with the realists, that the laws of nature reveal to us an inner, a
 structural, simplicity of our world beneath its outer appearance of
 lavish variety. Kant’s idealism sought to explain this simplicity by
 saying that it is our own intellect which imposes its laws upon nature.
-Similarly, but even more boldly, the conventionalist treats this sim-
-plicity as our own creation. For him, however, it is not the eﬀect of
-the laws of our intellect imposing themselves upon nature, thus mak-
-ing nature simple; for he does not believe that nature is simple. Only
+Similarly, but even more boldly, the conventionalist treats this simplicity as our own creation. For him, however, it is not the eﬀect of
+the laws of our intellect imposing themselves upon nature, thus making nature simple; for he does not believe that nature is simple. Only
 the ‘laws of nature’ are simple; and these, the conventionalist holds, are
 our own free creations; our inventions; our arbitrary decisions and
 conventions. For the conventionalist, theoretical natural science is not
@@ -2838,16 +2519,13 @@ these laws, laid down, by us, which form the indispensable basis for
 the regulation of our clocks and the correction of our so-called
 ‘rigid’ measuring-rods. A clock is called ‘accurate’ and a measuring
 rod ‘rigid’ only if the movements measured with the help of these
-Philosophie, 1926). *The German Hugo Dingler should not be confused with the English-
-man Herbert Dingle. The chief representative of conventionalism in the English-speaking
+Philosophie, 1926). *The German Hugo Dingler should not be confused with the Englishman Herbert Dingle. The chief representative of conventionalism in the English-speaking
 world is Eddington. It may be mentioned here that Duhem denies (Engl. transl. p. 188)
 the possibility of crucial experiments, because he thinks of them as veriﬁcations, while I
 assert the possibility of crucial falsifying experiments. Cf. also my paper ‘Three Views
 Concerning Human Knowledge’, in Contemporary British Philosophy, iii, 1956, and in my
 Conjectures and Refutations, 1959.
 some structural components of a theory of experience
-58
-
 
 instruments satisfy the axioms of mechanics which we have decided to
 adopt.2
@@ -2858,16 +2536,12 @@ played by our actions and operations, planned in accordance with
 conventions and deductive reasoning, in conducting and interpreting
 our scientiﬁc experiments. I regard conventionalism as a system which
 is self-contained and defensible. Attempts to detect inconsistencies in it
-are not likely to succeed. Yet in spite of all this I ﬁnd it quite unaccept-
-able. Underlying it is an idea of science, of its aims and purposes,
+are not likely to succeed. Yet in spite of all this I ﬁnd it quite unacceptable. Underlying it is an idea of science, of its aims and purposes,
 which is entirely diﬀerent from mine. Whilst I do not demand any ﬁnal
-certainty from science (and consequently do not get it), the con-
-ventionalist seeks in science ‘a system of knowledge based upon ultim-
-ate grounds’, to use a phrase of Dingler’s. This goal is attainable; for it is
+certainty from science (and consequently do not get it), the conventionalist seeks in science ‘a system of knowledge based upon ultimate grounds’, to use a phrase of Dingler’s. This goal is attainable; for it is
 possible to interpret any given scientiﬁc system as a system of implicit
 deﬁnitions. And periods when science develops slowly will give little
-occasion for conﬂict—unless purely academic—to arise between scien-
-tists inclined towards conventionalism and others who may favour a
+occasion for conﬂict—unless purely academic—to arise between scientists inclined towards conventionalism and others who may favour a
 view like the one I advocate. It will be quite otherwise in a time of
 crisis. Whenever the ‘classical’ system of the day is threatened by the
 results of new experiments which might be interpreted as falsiﬁcations
@@ -2888,8 +2562,6 @@ point, whatever name we may give to this element.
 Erkenntnis 4, 1934, pp. 100 f., as well as the work there announced, Das Weltbild und die
 Begriﬀsapparatur); he calls his standpoint ‘radical conventionalism’.
 falsifiability
-59
-
 
 Or he will eliminate them by suggesting ad hoc the adoption of
 certain auxiliary hypotheses, or perhaps of certain corrections to our
@@ -2901,20 +2573,17 @@ erected scientiﬁc system. Thus we shall take the greatest interest in the
 falsifying experiment. We shall hail it as a success, for it has opened up
 new vistas into a world of new experiences. And we shall hail it even if
 these new experiences should furnish us with new arguments against
-our own most recent theories. But the newly rising structure, the bold-
-ness of which we admire, is seen by the conventionalist as a monument
+our own most recent theories. But the newly rising structure, the boldness of which we admire, is seen by the conventionalist as a monument
 to the ‘total collapse of science’, as Dingler puts it. In the eyes of the
 conventionalist one principle only can help us to select a system as the
 chosen one from among all other possible systems: it is the principle of
-selecting the simplest system—the simplest system of implicit deﬁni-
-tions; which of course means in practice the ‘classical’ system of the
+selecting the simplest system—the simplest system of implicit deﬁnitions; which of course means in practice the ‘classical’ system of the
 day. (For the problem of simplicity see sections 41–45, and especially
 46.)
 Thus my conﬂict with the conventionalists is not one that can be
 ultimately settled merely by a detached theoretical discussion. And yet
 it is possible I think to extract from the conventionalist mode of
-thought certain interesting arguments against my criterion of demarca-
-tion; for instance the following. I admit, a conventionalist might say,
+thought certain interesting arguments against my criterion of demarcation; for instance the following. I admit, a conventionalist might say,
 that the theoretical systems of the natural sciences are not veriﬁable,
 but I assert that they are not falsiﬁable either. For there is always the
 possibility of ‘. . . attaining, for any chosen axiomatic system, what is
@@ -2928,8 +2597,6 @@ threaten our system, we may exclude from science on the ground that
 they are insuﬃciently supported, unscientiﬁc, or not objective, or even
 3 Carnap, Über die Aufgabe der Physik, Kantstudien, 28, 1923, p. 100.
 some structural components of a theory of experience
-60
-
 
 on the ground that the experimenter was a liar. (This is the sort of
 attitude which the physicist may sometimes quite rightly adopt
@@ -2947,8 +2614,7 @@ These objections of an imaginary conventionalist seem to me
 incontestable, just like the conventionalist philosophy itself. I admit
 that my criterion of falsiﬁability does not lead to an unambiguous
 classiﬁcation. Indeed, it is impossible to decide, by analysing its
-logical form, whether a system of statements is a conventional sys-
-tem of irrefutable implicit deﬁnitions, or whether it is a system
+logical form, whether a system of statements is a conventional system of irrefutable implicit deﬁnitions, or whether it is a system
 which is empirical in my sense; that is, a refutable system. Yet this
 only shows that my criterion of demarcation cannot be applied
 immediately to a system of statements—a fact I have already pointed out
@@ -2956,80 +2622,59 @@ in sections 9 and 11. The question whether a given system should as
 such be regarded as a conventionalist or an empirical one is therefore
 misconceived. Only with reference to the methods applied to a theoretical
 system is it at all possible to ask whether we are dealing with a
-conventionalist or an empirical theory. The only way to avoid con-
-ventionalism is by taking a decision: the decision not to apply its
+conventionalist or an empirical theory. The only way to avoid conventionalism is by taking a decision: the decision not to apply its
 methods. We decide that if our system is threatened we will never
 save it by any kind of conventionalist stratagem. Thus we shall guard against
 exploiting the ever open possibility just mentioned of ‘. . . attaining
 for any chosen . . . system what is called its “correspondence with
 reality”’.
-A clear appreciation of what may be gained (and lost) by con-
-ventionalist methods was expressed, a hundred years before Poincaré,
+A clear appreciation of what may be gained (and lost) by conventionalist methods was expressed, a hundred years before Poincaré,
 by Black who wrote: ‘A nice adaptation of conditions will make almost
 falsifiability
-61
-
 
 any hypothesis agree with the phenomena. This will please the
 imagination but does not advance our knowledge.’1
-In order to formulate methodological rules which prevent the adop-
-tion of conventionalist stratagems, we should have to acquaint our-
-selves with the various forms these stratagems may take, so as to meet
-each with the appropriate anti-conventionalist counter-move. More-
-over we should agree that, whenever we ﬁnd that a system has been
+In order to formulate methodological rules which prevent the adoption of conventionalist stratagems, we should have to acquaint ourselves with the various forms these stratagems may take, so as to meet
+each with the appropriate anti-conventionalist counter-move. Moreover we should agree that, whenever we ﬁnd that a system has been
 rescued by a conventionalist stratagem, we shall test it afresh, and reject
 it, as circumstances may require.
 The four main conventionalist stratagems have already been listed at
-the end of the previous section. The list makes no claim to complete-
-ness: it must be left to the investigator, especially in the ﬁelds of soci-
-ology and psychology (the physicist may hardly need the warning) to
+the end of the previous section. The list makes no claim to completeness: it must be left to the investigator, especially in the ﬁelds of sociology and psychology (the physicist may hardly need the warning) to
 guard constantly against the temptation to employ new conventionalist
 stratagems—a temptation to which psycho-analysts, for example, often
 succumb.
 As regards auxiliary hypotheses we propose to lay down the rule that
 only those are acceptable whose introduction does not diminish the
 degree of falsiﬁability or testability of the system in question, but, on
-the contrary, increases it. (How degrees of falsiﬁability are to be esti-
-mated will be explained in sections 31 to 40.) If the degree of falsiﬁ-
-ability is increased, then introducing the hypothesis has actually
+the contrary, increases it. (How degrees of falsiﬁability are to be estimated will be explained in sections 31 to 40.) If the degree of falsiﬁability is increased, then introducing the hypothesis has actually
 strengthened the theory: the system now rules out more than it did
-previously: it prohibits more. We can also put it like this. The introduc-
-tion of an auxiliary hypothesis should always be regarded as an attempt
+previously: it prohibits more. We can also put it like this. The introduction of an auxiliary hypothesis should always be regarded as an attempt
 to construct a new system; and this new system should then always be
 judged on the issue of whether it would, if adopted, constitute a real
 advance in our knowledge of the world. An example of an auxiliary
-hypothesis which is eminently acceptable in this sense is Pauli’s exclu-
-sion principle (cf. section 38). An example of an unsatisfactory aux-
-iliary hypothesis would be the contraction hypothesis of Fitzgerald and
+hypothesis which is eminently acceptable in this sense is Pauli’s exclusion principle (cf. section 38). An example of an unsatisfactory auxiliary hypothesis would be the contraction hypothesis of Fitzgerald and
 Lorentz which had no falsiﬁable consequences but merely*1 served to
 restore the agreement between theory and experiment—mainly the
 1 J. Black, Lectures on the Elements of Chemistry, Vol. I, Edinburgh, 1803, p. 193.
 *1 This is a mistake, as pointed out by A. Grünbaum, B.J.P.S. 10, 1959, pp. 48 ﬀ. Yet as this
 hypothesis is less testable than special relativity, it may illustrate degrees of adhocness.
 some structural components of a theory of experience
-62
-
 
 ﬁndings of Michelson and Morley. An advance was here achieved only
 by the theory of relativity which predicted new consequences, new
 physical eﬀects, and thereby opened up new possibilities for testing,
-and for falsifying, the theory. Our methodological rule may be quali-
-ﬁed by the remark that we need not reject, as conventionalistic, every
+and for falsifying, the theory. Our methodological rule may be qualiﬁed by the remark that we need not reject, as conventionalistic, every
 auxiliary hypothesis that fails to satisfy these standards. In particular,
-there are singular statements which do not really belong to the theor-
-etical system at all. They are sometimes called ‘auxiliary hypotheses’,
+there are singular statements which do not really belong to the theoretical system at all. They are sometimes called ‘auxiliary hypotheses’,
 and although they are introduced to assist the theory, they are quite
-harmless. (An example would be the assumption that a certain observa-
-tion or measurement which cannot be repeated may have been due to
+harmless. (An example would be the assumption that a certain observation or measurement which cannot be repeated may have been due to
 error. Cf. note 6 to section 8, and sections 27 and 68.)
 In section 17 I mentioned explicit deﬁnitions whereby the concepts of
 an axiom system are given a meaning in terms of a system of lower
 level universality. Changes in these deﬁnitions are permissible if useful;
-but they must be regarded as modiﬁcations of the system, which there-
-after has to be re-examined as if it were new. As regards undeﬁned
+but they must be regarded as modiﬁcations of the system, which thereafter has to be re-examined as if it were new. As regards undeﬁned
 universal names, two possibilities must be distinguished: (1) There are
-some undeﬁned concepts which only appear in statements of the high-
-est level of universality, and whose use is established by the fact that we
+some undeﬁned concepts which only appear in statements of the highest level of universality, and whose use is established by the fact that we
 know in what logical relation other concepts stand to them. They can
 be eliminated in the course of deduction (an example is ‘energy’).2 (2)
 There are other undeﬁned concepts which occur in statements of lower
@@ -3038,18 +2683,14 @@ levels of universality also, and whose meaning is established by usage
 we shall forbid surreptitious alterations of usage, and otherwise
 proceed in conformity with our methodological decisions, as before.
 As to the two remaining points (which concern the competence of
-the experimenter or theoretician) we shall adopt similar rules, Inter-
-subjectively testable experiments are either to be accepted, or to be
+the experimenter or theoretician) we shall adopt similar rules, Intersubjectively testable experiments are either to be accepted, or to be
 rejected in the light of counter-experiments. The bare appeal to logical
 derivations to be discovered in the future can be disregarded.
 2 Compare, for instance, Hahn, Logik, Mathematik, und Naturerkennen, in Einheitswissenschaft 2,
 1933, pp. 22 ﬀ. In this connection, I only wish to say that in my view ‘constituable’ (i.e.
-empirically deﬁnable) terms do not exist at all. I am using in their place undeﬁn-
-able universal names which are established only by linguistic usage. See also end of
+empirically deﬁnable) terms do not exist at all. I am using in their place undeﬁnable universal names which are established only by linguistic usage. See also end of
 section 25.
 falsifiability
-63
-
 
 21 LOGICAL INVESTIGATION OF FALSIFIABILITY
 Only in the case of systems which would be falsiﬁable if treated in
@@ -3059,8 +2700,7 @@ successfully banned these stratagems by our rules: we may now ask for
 a logical characterization of such falsiﬁable systems. We shall attempt to
 characterize the falsiﬁability of a theory by the logical relations holding
 between the theory and the class of basic statements.
-The character of the singular statements which I call ‘basic state-
-ments’ will be discussed more fully in the next chapter, and also the
+The character of the singular statements which I call ‘basic statements’ will be discussed more fully in the next chapter, and also the
 question whether they, in their turn, are falsiﬁable. Here we shall
 assume that falsiﬁable basic statements exist. It should be borne in
 mind that when I speak of ‘basic statements’, I am not referring to a
@@ -3072,12 +2712,10 @@ which are mutually incompatible.
 As a ﬁrst attempt one might perhaps try calling a theory ‘empirical’
 whenever singular statements can be deduced from it. This attempt
 fails, however, because in order to deduce singular statements from a
-theory, we always need other singular statements—the initial condi-
-tions that tell us what to substitute for the variables in the theory. As a
+theory, we always need other singular statements—the initial conditions that tell us what to substitute for the variables in the theory. As a
 second attempt, one might try calling a theory ‘empirical’ if singular
 statements are derivable with the help of other singular statements
-serving as initial conditions. But this will not do either; for even a non-
-empirical theory, for example a tautological one, would allow us to
+serving as initial conditions. But this will not do either; for even a nonempirical theory, for example a tautological one, would allow us to
 derive some singular statements from other singular statements.
 (According to the rules of logic we can for example say: From the
 conjunction of ‘Twice two is four’ and ‘Here is a black raven’ there
@@ -3085,11 +2723,8 @@ follows, among other things, ‘Here is a raven’.) It would not even be
 enough to demand that from the theory together with some initial
 conditions we should be able to deduce more than we could deduce
 from those initial conditions alone. This demand would indeed
-exclude tautological theories, but it would not exclude synthetic meta-
-physical statements. (For example from ‘Every occurrence has a cause’
+exclude tautological theories, but it would not exclude synthetic metaphysical statements. (For example from ‘Every occurrence has a cause’
 some structural components of a theory of experience
-64
-
 
 and ‘A catastrophe is occurring here’, we can deduce ‘This catastrophe
 has a cause’.)
@@ -3099,15 +2734,12 @@ can deduce from the initial conditions alone.*1 This means that we
 must base our deﬁnition upon a particular class of singular statements;
 and this is the purpose for which we need the basic statements. Seeing
 that it would not be very easy to say in detail how a complicated
-theoretical system helps in the deduction of singular or basic state-
-ments, I propose the following deﬁnition. A theory is to be called
+theoretical system helps in the deduction of singular or basic statements, I propose the following deﬁnition. A theory is to be called
 ‘empirical’ or ‘falsiﬁable’ if it divides the class of all possible basic
-statements unambiguously into the following two non-empty sub-
-classes. First, the class of all those basic statements with which it is
+statements unambiguously into the following two non-empty subclasses. First, the class of all those basic statements with which it is
 *1 Foundations equivalent to the one given here have been put forward as criteria of the
 meaningfulness of sentences (rather than as criteria of demarcation applicable to theoretical
-systems) again and again after the publication of my book, even by critics who pooh-
-poohed my criterion of falsiﬁability. But it is easily seen that, if used as a criterion of
+systems) again and again after the publication of my book, even by critics who poohpoohed my criterion of falsiﬁability. But it is easily seen that, if used as a criterion of
 demarcation, our present formulation is equivalent to falsiﬁability. For if the basic statement
 b2 does not follow from b1, but follows from b1 in conjunction with the theory t (this is
 the present formulation) then this amounts to saying that the conjunction of b1 with the
@@ -3132,25 +2764,20 @@ The preceding paragraph of this note may be taken as illustrating another rule o
 theory, we should always make a serious attempt to apply this or a similar criticism to
 our own theory.
 falsifiability
-65
-
 
 inconsistent (or which it rules out, or prohibits): we call this the class
 of the potential falsiﬁers of the theory; and secondly, the class of those
 basic statements which it does not contradict (or which it ‘permits’).
 We can put this more brieﬂy by saying: a theory is falsiﬁable if the class
 of its potential falsiﬁers is not empty.
-It may be added that a theory makes assertions only about its poten-
-tial falsiﬁers. (It asserts their falsity.) About the ‘permitted’ basic state-
-ments it says nothing. In particular, it does not say that they are true.*2
+It may be added that a theory makes assertions only about its potential falsiﬁers. (It asserts their falsity.) About the ‘permitted’ basic statements it says nothing. In particular, it does not say that they are true.*2
 22 FALSIFIABILITY AND FALSIFICATION
 We must clearly distinguish between falsiﬁability and falsiﬁcation. We
 have introduced falsiﬁability solely as a criterion for the empirical
 character of a system of statements. As to falsiﬁcation, special rules
 must be introduced which will determine under what conditions a
 system is to be regarded as falsiﬁed.
-We say that a theory is falsiﬁed only if we have accepted basic state-
-ments which contradict it (cf. section 11, rule 2). This condition is
+We say that a theory is falsiﬁed only if we have accepted basic statements which contradict it (cf. section 11, rule 2). This condition is
 necessary, but not suﬃcient; for we have seen that non-reproducible
 single occurrences are of no signiﬁcance to science. Thus a few stray
 basic statements contradicting a theory will hardly induce us to reject it
@@ -3161,19 +2788,15 @@ an eﬀect is proposed and corroborated. This kind of hypothesis may
 be called a falsifying hypothesis.1 The requirement that the falsifying
 *2 In fact, many of the ‘permitted’ basic statements will, in the presence of the theory,
 contradict each other. (Cf. section 38.) For example, the universal law ‘All planets move
-in circles’ (i.e. ‘Any set of positions of any one planet is co-circular’) is trivially ‘instanti-
-ated’ by any set of no more than three positions of one planet; but two such ‘instances’
+in circles’ (i.e. ‘Any set of positions of any one planet is co-circular’) is trivially ‘instantiated’ by any set of no more than three positions of one planet; but two such ‘instances’
 together will in most cases contradict the law.
 1 The falsifying hypothesis can be of a very low level of universality (obtained, as it were,
 by generalising the individual co-ordinates of a result of observation; as an instance I
-might cite Mach’s so-called ‘fact’ referred to in section 18). Even though it is to be inter-
-subjectively testable, it need not in fact be a strictly universal statement. Thus to falsify the
+might cite Mach’s so-called ‘fact’ referred to in section 18). Even though it is to be intersubjectively testable, it need not in fact be a strictly universal statement. Thus to falsify the
 statement ‘All ravens are black’ the inter-subjectively testable statement that there is a
 family of white ravens in the zoo at New York would suﬃce. *All this shows the urgency
 of replacing a falsiﬁed hypothesis by a better one. In most cases we have, before falsifying
 some structural components of a theory of experience
-66
-
 
 hypothesis must be empirical, and so falsiﬁable, only means that it
 must stand in a certain logical relationship to possible basic statements;
@@ -3185,8 +2808,7 @@ Thus the basic statements play two diﬀerent rôles. On the one
 hand, we have used the system of all logically possible basic statements
 in order to obtain with its help the logical characterization for which
 we were looking—that of the form of empirical statements. On the
-other hand, the accepted basic statements are the basis for the cor-
-roboration of hypotheses. If accepted basic statements contradict a
+other hand, the accepted basic statements are the basis for the corroboration of hypotheses. If accepted basic statements contradict a
 theory, then we take them as providing suﬃcient grounds for its
 falsiﬁcation only if they corroborate a falsifying hypothesis at the
 same time.
@@ -3214,19 +2836,15 @@ statement. As a rule, he will have means for forming an opinion by examining wit
 documents, etc.; that is to say, by appealing to other intersubjectively testable and
 reproducible facts. (Cf. sections 27 to 30.)
 falsifiability
-67
-
 
 23 OCCURRENCES AND EVENTS
 The requirement of falsiﬁability which was a little vague to start with
-has now been split into two parts. The ﬁrst, the methodological postu-
-late (cf. section 20), can hardly be made quite precise. The second, the
+has now been split into two parts. The ﬁrst, the methodological postulate (cf. section 20), can hardly be made quite precise. The second, the
 logical criterion, is quite deﬁnite as soon as it is clear which statements
 are to be called ‘basic’ (cf. section 28). This logical criterion has so far
 been presented, in a somewhat formal manner, as a logical relation
 between statements—the theory and the basic statements. Perhaps it
-will make matters clearer and more intuitive if I now express my cri-
-terion in a more ‘realistic’ language. Although it is equivalent to the
+will make matters clearer and more intuitive if I now express my criterion in a more ‘realistic’ language. Although it is equivalent to the
 formal mode of speech, it may be a little nearer to ordinary usage.
 In this ‘realistic’ mode of speech we can say that a singular statement
 (a basic statement) describes an occurrence. Instead of speaking of basic
@@ -3234,10 +2852,8 @@ statements which are ruled out or prohibited by a theory, we can then
 say that the theory rules out certain possible occurrences, and that it
 will be falsiﬁed if these possible occurrences do in fact occur.
 The use of this vague expression ‘occurrence’ is perhaps open to
-criticism. It has sometimes been said1 that expressions such as ‘occur-
-rence’ or ‘event’ should be banished altogether from epistemological
-discussion, and that we should not speak of ‘occurrences’ or ‘non-
-occurrences’, or of the ‘happening’ of ‘events’, but instead of the truth
+criticism. It has sometimes been said1 that expressions such as ‘occurrence’ or ‘event’ should be banished altogether from epistemological
+discussion, and that we should not speak of ‘occurrences’ or ‘nonoccurrences’, or of the ‘happening’ of ‘events’, but instead of the truth
 or falsity of statements. I prefer, however, to retain the expression
 ‘occurrence’. It is easy enough to deﬁne its use so that it is
 unobjectionable. For we may use it in such a way that whenever we
@@ -3254,16 +2870,12 @@ they are intuitively adequate; that is, I do not believe that they adequately re
 usage, or our intentions. It was Alfred Tarski who pointed out to me (in Paris, in 1935)
 that a ‘semantic’ deﬁnition would be required instead of a ‘syntactical’ one.
 some structural components of a theory of experience
-68
-
 
 This suggests the following deﬁnition. Let pk be a singular statement.
 (The subscript ‘k’ refers to the individual names or coordinates which
-occur in pk.) Then we call the class of all statements which are equiva-
-lent to pk the occurrence pk. Thus we shall say that it is an occurrence, for
+occur in pk.) Then we call the class of all statements which are equivalent to pk the occurrence pk. Thus we shall say that it is an occurrence, for
 example, that it is now thundering here. And we may regard this occurrence
-as the class of the statements ‘It is now thundering here’; ‘It is thunder-
-ing in the 13th District of Vienna on the 10th of June 1933 at 5.15
+as the class of the statements ‘It is now thundering here’; ‘It is thundering in the 13th District of Vienna on the 10th of June 1933 at 5.15
 p.m.’, and of all other statements equivalent to these. The realistic
 formulation ‘The statement pk represents the occurrence Pk’ can then be
 regarded as meaning the same as the somewhat trivial statement ‘The
@@ -3273,15 +2885,13 @@ has occurred’ (or ‘is occurring’) as meaning the same as ‘pk and all
 statements equivalent to it are true’.
 The purpose of these rules of translation is not to assert that whoever
 uses, in the realistic mode of speech, the word ‘occurrence’ is thinking
-of a class of statements; their purpose is merely to give an interpret-
-ation of the realistic mode of speech which makes intelligible what is
+of a class of statements; their purpose is merely to give an interpretation of the realistic mode of speech which makes intelligible what is
 meant by saying, for example, that an occurrence Pk contradicts a theory
 t. This statement will now simply mean that every statement equivalent
 to pk contradicts the theory t, and is thus a potential falsiﬁer of it.
 Another term, ‘event’, will now be introduced, to denote what may
 be typical or universal about an occurrence, or what, in an occurrence, can
-be described with the help of universal names. (Thus we do not under-
-stand by an event a complex, or perhaps a protracted, occurrence,
+be described with the help of universal names. (Thus we do not understand by an event a complex, or perhaps a protracted, occurrence,
 whatever ordinary usage may suggest.) We deﬁne: Let Pk, Pl, . . . be
 elements of a class of occurrences which diﬀer only in respect of the
 individuals (the spatio-temporal positions or regions) involved; then
@@ -3289,14 +2899,10 @@ we call this class ‘the event (P)’. In accordance with this deﬁnition, we
 shall say, for example, of the statement ‘A glass of water has just been
 upset here’ that the class of statements which are equivalent to it is an
 element of the event, ‘upsetting of a glass of water’.
-Speaking of the singular statement pk, which represents an occur-
-rence Pk, one may say, in the realistic mode of speech, that this state-
-ment asserts the occurrence of the event (P) at the spatio-temporal
+Speaking of the singular statement pk, which represents an occurrence Pk, one may say, in the realistic mode of speech, that this statement asserts the occurrence of the event (P) at the spatio-temporal
 position k. And we take this to mean the same as ‘the class Pk, of the
 singular statements equivalent to pk, is an element of the event (P)’.
 falsifiability
-69
-
 
 We will now apply this terminology2 to our problem. We can say of a
 theory, provided it is falsiﬁable, that it rules out, or prohibits, not
@@ -3304,8 +2910,7 @@ merely one occurrence, but always at least one event. Thus the class of the
 prohibited basic statements, i.e. of the potential falsiﬁers of the theory,
 will always contain, if it is not empty, an unlimited number of basic
 statements; for a theory does not refer to individuals as such. We may
-call the singular basic statements which belong to one event ‘homo-
-typic’, so as to point to the analogy between equivalent statements
+call the singular basic statements which belong to one event ‘homotypic’, so as to point to the analogy between equivalent statements
 describing one occurrence, and homotypic statements describing one
 (typical) event. We can then say that every non-empty class of potential
 falsiﬁers of a theory contains at least one non-empty class of
@@ -3323,25 +2928,18 @@ the requirement that for every empirical theory there must be at least
 one radius (or very narrow sector) in our diagram which the theory
 forbids.
 This illustration may prove helpful in the discussion of our various
-problems,*1 such as that of the metaphysical character of purely exist-
-ential statements (brieﬂy referred to in section 15). Clearly, to each of
+problems,*1 such as that of the metaphysical character of purely existential statements (brieﬂy referred to in section 15). Clearly, to each of
 these statements there will belong one event (one radius) such that the
-2 It is to be noted that although singular statements represent occurrences, universal state-
-ments do not represent events: they exclude them. Similarly to the concept of ‘occurrence’,
+2 It is to be noted that although singular statements represent occurrences, universal statements do not represent events: they exclude them. Similarly to the concept of ‘occurrence’,
 a ‘uniformity’ or ‘regularity’ can be deﬁned by saying that universal statements represent
-uniformities. But here we do not need any such concept, seeing that we are only inter-
-ested in what universal statements exclude. For this reason such questions as whether
-uniformities (universal ‘states of aﬀairs’ etc.) exist, do not concern us. *But such ques-
-tions are discussed in section 79, and now also in appendix *x, and in section *15 of the
+uniformities. But here we do not need any such concept, seeing that we are only interested in what universal statements exclude. For this reason such questions as whether
+uniformities (universal ‘states of aﬀairs’ etc.) exist, do not concern us. *But such questions are discussed in section 79, and now also in appendix *x, and in section *15 of the
 Postscript.
 *1 The illustration will be used, more especially, in sections 31 ﬀ., below.
 some structural components of a theory of experience
-70
-
 
 various basic statements belonging to this event will each verify the
-purely existential statement. Nevertheless, the class of its potential fal-
-siﬁers is empty; so from the existential statement nothing follows about the
+purely existential statement. Nevertheless, the class of its potential falsiﬁers is empty; so from the existential statement nothing follows about the
 possible worlds of experience. (It excludes or forbids none of the
 radii.) The fact that, conversely, from every basic statement a purely
 existential statement follows, cannot be used as an argument in support
@@ -3349,13 +2947,11 @@ of the latter’s empirical character. For every tautology also follows from
 every basic statement, since it follows from any statement whatsoever.
 At this point I may perhaps say a word about self-contradictory
 statements.
-Whilst tautologies, purely existential statements and other nonfalsi-
-ﬁable statements assert, as it were, too little about the class of possible
+Whilst tautologies, purely existential statements and other nonfalsiﬁable statements assert, as it were, too little about the class of possible
 basic statements, self-contradictory statements assert too much. From a
 self-contradictory statement, any statement whatsoever can be validly
 deduced.*2 Consequently, the class of its potential falsiﬁers is identical
-*2 This fact was even ten years after publication of this book not yet generally under-
-stood. The situation can be summed up as follows: a factually false statement ‘materially
+*2 This fact was even ten years after publication of this book not yet generally understood. The situation can be summed up as follows: a factually false statement ‘materially
 implies’ every statement (but it does not logically entail every statement). A logically
 false statement logically implies—or entails—every statement. It is therefore of course
 essential to distinguish clearly between a merely factually false (synthetic) statement and a
@@ -3379,12 +2975,9 @@ p. 264); but surprisingly enough, Russell challenged this fact in his reply to W
 (op. cit., pp. 695 f.), speaking however of ‘false propositions’ where Wiener spoke of
 ‘inconsistent premises’. Cf. my Conjectures and Refutations, 1963, 1965, pp. 317 ﬀ.
 falsifiability
-71
-
 
 with that of all possible basic statements: it is falsiﬁed by any statement
-whatsoever. (One could perhaps say that this fact illustrates an advan-
-tage of our method, i.e. of our way of considering possible falsiﬁers
+whatsoever. (One could perhaps say that this fact illustrates an advantage of our method, i.e. of our way of considering possible falsiﬁers
 rather than possible veriﬁers. For if one could verify a statement by the
 veriﬁcation of its logical consequences, or merely make it probable in
 this way, then one would expect that, by the acceptance of any basic
@@ -3400,36 +2993,27 @@ is not enough to mention the obvious fact that a self-contradictory
 system must be rejected because it is ‘false’. We frequently work with
 statements which, although actually false, nevertheless yield results
 which are adequate for certain purposes.*1 (An example is Nernst’s
-approximation for the equilibrium equation of gases.) But the import-
-ance of the requirement of consistency will be appreciated if one real-
-izes that a self-contradictory system is uninformative. It is so because
+approximation for the equilibrium equation of gases.) But the importance of the requirement of consistency will be appreciated if one realizes that a self-contradictory system is uninformative. It is so because
 any conclusion we please can be derived from it. Thus no statement is
-singled out, either as incompatible or as derivable, since all are deriv-
-able. A consistent system, on the other hand, divides the set of all
+singled out, either as incompatible or as derivable, since all are derivable. A consistent system, on the other hand, divides the set of all
 possible statements into two: those which it contradicts and those with
 which it is compatible. (Among the latter are the conclusions which
 can be derived from it.) This is why consistency is the most general
 requirement for a system, whether empirical or non-empirical, if it is
 to be of any use at all.
-Besides being consistent, an empirical system should satisfy a fur-
-ther condition: it must be falsiﬁable. The two conditions are to a large
+Besides being consistent, an empirical system should satisfy a further condition: it must be falsiﬁable. The two conditions are to a large
 extent analogous.1 Statements which do not satisfy the condition of
 *1 Cf. my Postscript, section *3 (my reply to the ‘second proposal’); and section *12,
 point (2).
 1 Cf. my note in Erkenntnis 3, 1933, p. 426. *This is now printed in appendix *i, below.
 some structural components of a theory of experience
-72
-
 
 consistency fail to diﬀerentiate between any two statements within the
 totality of all possible statements. Statements which do not satisfy
 the condition of falsiﬁability fail to diﬀerentiate between any two
 statements within the totality of all possible empirical basic statements.
 falsifiability
-73
 
-
-5
 THE PROBLEM OF THE
 EMPIRICAL BASIS
 We have now reduced the question of the falsiﬁability of theories to
@@ -3441,8 +3025,7 @@ misunderstandings which surround the problem make it advisable to
 discuss it here in some detail.
 25 PERCEPTUAL EXPERIENCES AS EMPIRICAL
 BASIS: PSYCHOLOGISM
-The doctrine that the empirical sciences are reducible to sense-
-perceptions, and thus to our experiences, is one which many accept as
+The doctrine that the empirical sciences are reducible to senseperceptions, and thus to our experiences, is one which many accept as
 obvious beyond all question. However, this doctrine stands or falls with
 inductive logic, and is here rejected along with it. I do not wish to deny
 that there is a grain of truth in the view that mathematics and logic are
@@ -3471,11 +3054,9 @@ we have ‘immediate knowledge’:2 by this immediate knowledge, we
 may justify our ‘mediate knowledge’—knowledge expressed in the
 symbolism of some language. And this mediate knowledge includes, of
 course, the statements of science.
-Usually the problem is not explored as far as this. In the epistemol-
-ogies of sensationalism and positivism it is taken for granted that
+Usually the problem is not explored as far as this. In the epistemologies of sensationalism and positivism it is taken for granted that
 empirical scientiﬁc statements ‘speak of our experiences’.3 For how
-could we ever reach any knowledge of facts if not through sense-
-perception? Merely by taking thought a man cannot add an iota to his
+could we ever reach any knowledge of facts if not through senseperception? Merely by taking thought a man cannot add an iota to his
 knowledge of the world of facts. Thus perceptual experience must be
 the sole ‘source of knowledge’ of all the empirical sciences. All we
 know about the world of facts must therefore be expressible in the
@@ -3489,8 +3070,6 @@ pp. 108 f.)
 3 I am following here almost word for word the expositions of P. Frank (cf. section 27,
 note 4) and H. Hahn (cf. section 27, note 1).
 the problem of the empirical basis
-75
-
 
 the false statement, whose terms do not agree with it. Science is merely
 an attempt to classify and describe this perceptual knowledge, these
@@ -3499,8 +3078,7 @@ presentation of our immediate convictions.
 This doctrine founders in my opinion on the problems of induction
 and of universals. For we can utter no scientiﬁc statement that does not
 go far beyond what can be known with certainty ‘on the basis of
-immediate experience’. (This fact may be referred to as the ‘transcend-
-ence inherent in any description’.) Every description uses universal
+immediate experience’. (This fact may be referred to as the ‘transcendence inherent in any description’.) Every description uses universal
 names (or symbols, or ideas); every statement has the character of a
 theory, of a hypothesis. The statement, ‘Here is a glass of water’ cannot
 be veriﬁed by any observational experience. The reason is that the
@@ -3513,8 +3091,7 @@ experiences; they cannot be ‘constituted’.4
 26 CONCERNING THE SO-CALLED
 ‘PROTOCOL SENTENCES’
 The view which I call ‘psychologism’, discussed in the previous
-section, still underlies, it seems to me, a modern theory of the em-
-pirical basis, even though its advocates do not speak of experiences
+section, still underlies, it seems to me, a modern theory of the empirical basis, even though its advocates do not speak of experiences
 or perceptions but, instead, of ‘sentences’—sentences which represent
 experiences. These are called protocol sentences by Neurath1 and by
 Carnap.2
@@ -3527,8 +3104,6 @@ only with statements. According to his view, the correspondence of a
 1 The term is due to Neurath; cf., for example, Soziologie, in Erkenntnis 2, 1932, p. 393.
 2 Carnap, Erkenntnis 2, 1932, pp. 432 ﬀ.; 3, 1932, pp. 107 ﬀ.
 some structural components of a theory of experience
-76
-
 
 statement with a fact is nothing else than a logical correspondence
 between statements belonging to diﬀerent levels of universality: it is3
@@ -3540,23 +3115,17 @@ Carnap starts with a somewhat diﬀerent question. His thesis is that
 all philosophical investigations speak ‘of the forms of speech’.5 The
 logic of science has to investigate ‘the forms of scientiﬁc language’.6 It
 does not speak of (physical) ‘objects’ but of words; not of facts, but of
-sentences. With this, the correct, the ‘formal mode of speech’, Carnap con-
-trasts the ordinary or, as he calls it, the ‘material mode of speech’. If
+sentences. With this, the correct, the ‘formal mode of speech’, Carnap contrasts the ordinary or, as he calls it, the ‘material mode of speech’. If
 confusion is to be avoided, then the material mode of speech should
 only be used where it is possible to translate it into the correct formal
 mode of speech.
-Now this view—with which I can agree—leads Carnap (like Reinin-
-ger) to assert that we must not say, in the logic of science, that sen-
-tences are tested by comparing them with states of aﬀairs or with
+Now this view—with which I can agree—leads Carnap (like Reininger) to assert that we must not say, in the logic of science, that sentences are tested by comparing them with states of aﬀairs or with
 experiences: we may only say that they can be tested by comparing
 them with other sentences. Yet Carnap is nevertheless really retaining the
 fundamental ideas of the psychologistic approach to the problem; all
 that he is doing is to translate them into the ‘formal mode of speech’.
-He says that the sentences of science are tested ‘with the help of proto-
-col sentences’;7 but since these are explained as statements or sen-
-tences ‘which are not in need of conﬁrmation but serve as a basis for all
-the other sentences of science’, this amounts to saying—in the ordin-
-ary ‘material’ mode of speech—that the protocol sentences refer to the
+He says that the sentences of science are tested ‘with the help of protocol sentences’;7 but since these are explained as statements or sentences ‘which are not in need of conﬁrmation but serve as a basis for all
+the other sentences of science’, this amounts to saying—in the ordinary ‘material’ mode of speech—that the protocol sentences refer to the
 ‘given’: to the ‘sense-data’. They describe (as Carnap himself puts it)
 ‘the contents of immediate experience, or the phenomena; and thus
 the simplest knowable facts’.8 Which shows clearly enough that the
@@ -3568,8 +3137,6 @@ theory of protocol sentences is nothing but psychologism translated
 7 Carnap, Erkenntnis 2, 1932, p. 437.
 8 Carnap, Erkenntnis, p. 438.
 the problem of the empirical basis
-77
-
 
 into the formal mode of speech. Much the same can be said of
 Neurath’s view:9 he demands that in protocol sentences such words as
@@ -3595,11 +3162,8 @@ revised is his only advance upon the theory (due to Fries) of the
 immediacy of perceptual knowledge. It is a step in the right direction;
 but it leads nowhere if it is not followed up by another step: we need a
 set of rules to limit the arbitrariness of ‘deleting’ (or else ‘accepting’) a
-protocol sentence. Neurath fails to give any such rules and thus unwit-
-tingly throws empiricism overboard. For without such rules, empirical
-statements are no longer distinguished from any other sort of state-
-ments. Every system becomes defensible if one is allowed (as every-
-body is, in Neurath’s view) simply to ‘delete’ a protocol sentence if it is
+protocol sentence. Neurath fails to give any such rules and thus unwittingly throws empiricism overboard. For without such rules, empirical
+statements are no longer distinguished from any other sort of statements. Every system becomes defensible if one is allowed (as everybody is, in Neurath’s view) simply to ‘delete’ a protocol sentence if it is
 inconvenient. In this way one could not only rescue any system, in the
 9 Otto Neurath, Erkenntnis 3, 1933, pp. 205 ﬀ. Neurath gives the following example, ‘A
 complete protocol statement might run: {Otto’s protocol at 3 hrs. 17mins. [Otto’s
@@ -3609,23 +3173,18 @@ which was observed by Otto)]}.’
 11 Neurath, op. cit., pp. 209 f.
 12 Carnap, Erkenntnis 3, 1933, pp. 215 ﬀ.; cf. note 1 to section 29.
 some structural components of a theory of experience
-78
 
-
-manner of conventionalism; but given a good supply of protocol sen-
-tences, one could even conﬁrm it, by the testimony of witnesses who
+manner of conventionalism; but given a good supply of protocol sentences, one could even conﬁrm it, by the testimony of witnesses who
 have testiﬁed, or protocolled, what they have seen and heard. Neurath
 avoids one form of dogmatism, yet he paves the way for any arbitrary
 system to set itself up as ‘empirical science’.
 Thus it is not quite easy to see what part the protocol sentences are
 supposed to play in Neurath’s scheme. In Carnap’s earlier view, the
-system of protocol sentences was the touchstone by which every asser-
-tion of an empirical science had to be judged. This is why they had to
+system of protocol sentences was the touchstone by which every assertion of an empirical science had to be judged. This is why they had to
 be ‘irrefutable’. For they alone could overthrow sentences—sentences
 other than protocol sentences, of course. But if they are deprived of this
 function, and if they themselves can be overthrown by theories, what
-are they for? Since Neurath does not try to solve the problem of demar-
-cation, it seems that his idea of protocol sentences is merely a relic—a
+are they for? Since Neurath does not try to solve the problem of demarcation, it seems that his idea of protocol sentences is merely a relic—a
 surviving memorial of the traditional view that empirical science starts
 from perception.
 27 THE OBJECTIVITY OF THE EMPIRICAL BASIS
@@ -3633,8 +3192,7 @@ I propose to look at science in a way which is slightly diﬀerent
 from that favoured by the various psychologistic schools: I wish to
 distinguish sharply between objective science on the one hand, and ‘our knowledge’ on the
 other.
-I readily admit that only observation can give us ‘knowledge con-
-cerning facts’, and that we can (as Hahn says) ‘become aware of facts
+I readily admit that only observation can give us ‘knowledge concerning facts’, and that we can (as Hahn says) ‘become aware of facts
 only by observation’.1 But this awareness, this knowledge of ours,
 does not justify or establish the truth of any statement. I do not believe,
 therefore, that the question which epistemology must ask is, ‘. . . on
@@ -3647,8 +3205,6 @@ rather: how do we test scientiﬁc statements by their deductive
 2 Cf. Carnap, for instance, Scheinprobleme in der Philosophie, 1928, p. 15 (no italics in the
 original).
 the problem of the empirical basis
-79
-
 
 consequences?*1 And what kind of consequences can we select for this
 purpose if they in their turn are to be inter-subjectively testable?
@@ -3658,8 +3214,7 @@ concerned. Yet not so long ago it was held that logic was a science
 dealing with mental processes and their laws—the laws of our thought.
 On this view there was no other justiﬁcation to be found for logic than
 the alleged fact that we just could not think in any other way. A logical
-inference seemed to be justiﬁed because it was experienced as a neces-
-sity of thought, as a feeling of being compelled to think along certain
+inference seemed to be justiﬁed because it was experienced as a necessity of thought, as a feeling of being compelled to think along certain
 lines. In the ﬁeld of logic, this kind of psychologism is now perhaps a
 thing of the past. Nobody would dream of justifying the validity of a
 logical inference, or of defending it against doubts, by writing beside it
@@ -3670,8 +3225,7 @@ The position is very diﬀerent when we come to empirical statements of
 science. Here everybody believes that these are grounded on experiences
 such as perceptions; or in the formal mode of speech, on protocol
 sentences. Most people would see that any attempt to base logical
-statements on protocol sentences is a case of psychologism. But curi-
-ously enough, when it comes to empirical statements, the same kind of
+statements on protocol sentences is a case of psychologism. But curiously enough, when it comes to empirical statements, the same kind of
 thing goes today by the name of ‘physicalism’. Yet whether statements
 of logic are in question or statements of empirical science, I think the
 answer is the same: our knowledge, which may be described vaguely as a
@@ -3687,8 +3241,6 @@ which alone interest the epistemologist.
 was always, in my view, part of criticizing. (Cf. my Postscript, sections *7, text between notes
 5 and 6, and end of *52.)
 some structural components of a theory of experience
-80
-
 
 (There is a widespread belief that the statement ‘I see that this table
 here is white’, possesses some profound advantage over the statement
@@ -3699,8 +3251,7 @@ second statement, which speaks about the table here.)
 There is only one way to make sure of the validity of a chain of
 logical reasoning. This is to put it in the form in which it is most easily
 testable: we break it up into many small steps, each easy to check by
-anybody who has learnt the mathematical or logical technique of trans-
-forming sentences. If after this anybody still raises doubts then we can
+anybody who has learnt the mathematical or logical technique of transforming sentences. If after this anybody still raises doubts then we can
 only beg him to point out an error in the steps of the proof, or to think
 the matter over again. In the case of the empirical sciences, the situation
 is much the same. Any empirical scientiﬁc statement can be presented
@@ -3708,15 +3259,13 @@ is much the same. Any empirical scientiﬁc statement can be presented
 anyone who has learned the relevant technique can test it. If, as a result,
 he rejects the statement, then it will not satisfy us if he tells us all about
 his feelings of doubt or about his feelings of conviction as to his
-perceptions. What he must do is to formulate an assertion which con-
-tradicts our own, and give us his instructions for testing it. If he fails to
+perceptions. What he must do is to formulate an assertion which contradicts our own, and give us his instructions for testing it. If he fails to
 do this we can only ask him to take another and perhaps a more careful
 look at our experiment, and think again.
 An assertion which owing to its logical form is not testable can at
 best operate, within science, as stimulus: it can suggest a problem. In
 the ﬁeld of logic and mathematics, this may be exempliﬁed by Fermat’s
-problem, and in the ﬁeld of natural history, say, by reports about sea-
-serpents. In such cases science does not say that the reports are
+problem, and in the ﬁeld of natural history, say, by reports about seaserpents. In such cases science does not say that the reports are
 unfounded; that Fermat was in error or that all the records of observed
 sea-serpents are lies. Instead, it suspends judgment.3
 Science can be viewed from various standpoints, not only from that
@@ -3726,8 +3275,6 @@ an instrument, comparable perhaps to some of our industrial
 machinery. Science may be regarded as a means of production—as the
 3 Cf. the remark on ‘occult eﬀects’ in section 8.
 the problem of the empirical basis
-81
-
 
 last word in ‘roundabout production’.4 Even from this point of view
 science is no more closely connected with ‘our experience’ than other
@@ -3739,8 +3286,7 @@ whose purpose is ‘. . . to predict from immediate or given experiences
 later experiences, and even as far as possible to control them’.5 But I do
 not think that this talk about experiences contributes to clarity. It has
 hardly more point than, say, the not incorrect characterization of an oil
-derrick by the assertion that its purpose is to give us certain experi-
-ences: not oil, but rather the sight and smell of oil; not money, but
+derrick by the assertion that its purpose is to give us certain experiences: not oil, but rather the sight and smell of oil; not money, but
 rather the feeling of having money.
 28 BASIC STATEMENTS
 It has already been brieﬂy indicated what rôle the basic statements play
@@ -3749,8 +3295,7 @@ decide whether a theory is to be called falsiﬁable, i.e. empirical. (Cf.
 section 21.) And we also need them for the corroboration of falsifying
 hypotheses, and thus for the falsiﬁcation of theories. (Cf. section 22.)
 Basic statements must therefore satisfy the following conditions. (a)
-From a universal statement without initial conditions, no basic state-
-ment can be deduced.*1 On the other hand, (b) a universal statement
+From a universal statement without initial conditions, no basic statement can be deduced.*1 On the other hand, (b) a universal statement
 4 The expression is Böhm-Bawerk’s (‘Produktionsumweg’).
 5 Frank, Das Kausalgesetz und seine Grenzen, 1932, p. 1. *Concerning instrumentalism, see note
 *1 before section 12, and my Postscript, especially sections *12 to *15.
@@ -3766,8 +3311,6 @@ are black’ do not, of course, contradict each other, but together merely imply
 are no swans—clearly not an observation statement, and not even one that can be
 ‘veriﬁed’. (A unilaterally falsiﬁable statement like ‘All swans are white’, by the way, has
 some structural components of a theory of experience
-82
-
 
 and a basic statement can contradict each other. Condition (b) can only
 be satisﬁed if it is possible to derive the negation of a basic statement
@@ -3775,10 +3318,8 @@ from the theory which it contradicts. From this and condition (a) it
 follows that a basic statement must have a logical form such that its
 negation cannot be a basic statement in its turn.
 We have already encountered statements whose logical form is
-diﬀerent from that of their negations. These were universal state-
-ments and existential statements: they are negations of one another,
-and they diﬀer in their logical form. Singular statements can be con-
-structed in an analogous way. The statement: ‘There is a raven in the
+diﬀerent from that of their negations. These were universal statements and existential statements: they are negations of one another,
+and they diﬀer in their logical form. Singular statements can be constructed in an analogous way. The statement: ‘There is a raven in the
 space-time region k’ may be said to be diﬀerent in its logical form—
 and not only in its linguistic form—from the statement ‘There is no
 raven in the space-time region k’. A statement of the form ‘There is a
@@ -3810,13 +3351,10 @@ content of basic statements exceeds their logical probability (since it must exc
 These were some of the considerations underlying my theory of the logical form of
 basic statements. (See my Conjectures and Refutations, 1963, pp. 386 f.)
 the problem of the empirical basis
-83
-
 
 be called a ‘singular non-existence statement’, or a ‘singular there-is-not
 statement’.
-We may now lay down the following rule concerning basic state-
-ments: basic statements have the form of singular existential statements. This rule
+We may now lay down the following rule concerning basic statements: basic statements have the form of singular existential statements. This rule
 means that basic statements will satisfy condition (a), since a singular
 existential statement can never be deduced from a strictly universal
 statement, i.e. from a strict non-existence statement. They will also
@@ -3831,10 +3369,8 @@ Sometimes we may even obtain a basic statement by joining one basic
 statement to another statement which is not basic. For example, we
 may form the conjunction of the basic statement, r ‘There is a pointer at
 the place k’ with the singular non-existence statement p¯, ‘There is no
-pointer in motion at the place k’. For clearly, the conjunction r·p¯ (‘r-and-
-non-p’) of the two statements is equivalent to the singular existential
-statement ‘There is a pointer at rest at the place k’. This has the con-
-sequence that, if we are given a theory t and the initial conditions r,
+pointer in motion at the place k’. For clearly, the conjunction r·p¯ (‘r-andnon-p’) of the two statements is equivalent to the singular existential
+statement ‘There is a pointer at rest at the place k’. This has the consequence that, if we are given a theory t and the initial conditions r,
 from which we deduce the prediction p, then the statement r·p¯ will be a
 falsiﬁer of the theory, and so a basic statement. (On the other hand, the
 conditional statement ‘r →p’ i.e. ‘If r then p’, is no more basic than the
@@ -3842,17 +3378,13 @@ negation p¯, since it is equivalent to the negation of a basic statement, viz.
 to the negation of r·p¯.)
 These are the formal requirements for basic statements; they are
 satisﬁed by all singular existential statements. In addition to these, a
-basic statement must also satisfy a material requirement—a require-
-ment concerning the event which, as the basic statement tells us, is
+basic statement must also satisfy a material requirement—a requirement concerning the event which, as the basic statement tells us, is
 occurring at the place k. This event must be an ‘observable’ event; that is to
-say, basic statements must be testable, inter-subjectively, by ‘observa-
-tion’. Since they are singular statements, this requirement can of course
+say, basic statements must be testable, inter-subjectively, by ‘observation’. Since they are singular statements, this requirement can of course
 only refer to observers who are suitably placed in space and time (a
 point which I shall not elaborate).
 No doubt it will now seem as though in demanding observability, I
 some structural components of a theory of experience
-84
-
 
 have, after all, allowed psychologism to slip back quietly into my
 theory. But this is not so. Admittedly, it is possible to interpret the
@@ -3861,21 +3393,17 @@ in such a sense that it might just as well be replaced by ‘an event
 involving position and movement of macroscopic physical bodies’. Or
 we might lay it down, more precisely, that every basic statement must
 either be itself a statement about relative positions of physical bodies,
-or that it must be equivalent to some basic statement of this ‘mech-
-anistic’ or ‘materialistic’ kind. (That this stipulation is practicable is
-connected with the fact that a theory which is inter-subjectively test-
-able will also be inter-sensually1 testable. This is to say that tests
+or that it must be equivalent to some basic statement of this ‘mechanistic’ or ‘materialistic’ kind. (That this stipulation is practicable is
+connected with the fact that a theory which is inter-subjectively testable will also be inter-sensually1 testable. This is to say that tests
 involving the perception of one of our senses can, in principle, be
 replaced by tests involving other senses.) Thus the charge that, in
 appealing to observability, I have stealthily readmitted psychologism
-would have no more force than the charge that I have admitted mech-
-anism or materialism. This shows that my theory is really quite neutral
+would have no more force than the charge that I have admitted mechanism or materialism. This shows that my theory is really quite neutral
 and that neither of these labels should be pinned to it. I say all this only
 so as to save the term ‘observable’, as I use it, from the stigma of
 psychologism. (Observations and perceptions may be psychological,
 but observability is not.) I have no intention of deﬁning the term
-‘observable’ or ‘observable event’, though I am quite ready to eluci-
-date it by means of either psychologistic or mechanistic examples. I
+‘observable’ or ‘observable event’, though I am quite ready to elucidate it by means of either psychologistic or mechanistic examples. I
 think that it should be introduced as an undeﬁned term which
 becomes suﬃciently precise in use: as a primitive concept whose use
 the epistemologist has to learn, much as he has to learn the use of the
@@ -3890,13 +3418,10 @@ undeﬁned, but can also be explained fairly precisely, as we have seen
 here.
 1 Carnap, Erkenntnis 2, 1932, p. 445.
 the problem of the empirical basis
-85
-
 
 29 THE RELATIVITY OF BASIC STATEMENTS.
 RESOLUTION OF FRIES’S TRILEMMA
-Every test of a theory, whether resulting in its corroboration or falsiﬁ-
-cation, must stop at some basic statement or other which we decide to
+Every test of a theory, whether resulting in its corroboration or falsiﬁcation, must stop at some basic statement or other which we decide to
 accept. If we do not come to any decision, and do not accept some basic
 statement or other, then the test will have led nowhere. But considered
 from a logical point of view, the situation is never such that it compels
@@ -3917,8 +3442,7 @@ result, then we might say that the statements in question were not
 inter-subjectively testable, or that we were not, after all, dealing with
 observable events. If some day it should no longer be possible for
 scientiﬁc observers to reach agreement about basic statements this
-would amount to a failure of language as a means of universal com-
-munication. It would amount to a new ‘Babel of Tongues’: scientiﬁc
+would amount to a failure of language as a means of universal communication. It would amount to a new ‘Babel of Tongues’: scientiﬁc
 discovery would be reduced to absurdity. In this new Babel, the soaring
 ediﬁce of science would soon lie in ruins.
 1 Cf. Carnap, Erkenntnis 3, 1932, p. 224. I can accept this report by Carnap of my theory,
@@ -3931,8 +3455,6 @@ about perception to which we ‘appeal in critical cases’. Cf. the quotation i
 next note. I wish to take this opportunity of thanking Professor Carnap for his friendly
 words about my unpublished work, at the place mentioned.
 some structural components of a theory of experience
-86
-
 
 Just as a logical proof has reached a satisfactory shape when the
 diﬃcult work is over, and everything can be easily checked, so, after
@@ -3956,22 +3478,18 @@ between dogmatism, inﬁnite regress, and psychologism? (Cf. section
 accept as satisfactory, and as suﬃciently tested, have admittedly the
 character of dogmas, but only in so far as we may desist from justifying
 them by further arguments (or by further tests). But this kind of
-dogmatism is innocuous since, should the need arise, these state-
-ments can easily be tested further. I admit that this too makes the
+dogmatism is innocuous since, should the need arise, these statements can easily be tested further. I admit that this too makes the
 chain of deduction in principle inﬁnite. But this kind of ‘inﬁnite regress’
 is also innocuous since in our theory there is no question of trying to
 prove any statements by means of it. And ﬁnally, as to psychologism: I
 admit, again, that the decision to accept a basic statement, and to be
 satisﬁed with it, is causally connected with our experiences—
 especially with our perceptual experiences. But we do not attempt to justify
-basic statements by these experiences. Experiences can motivate a deci-
-sion, and hence an acceptance or a rejection of a statement, but a basic
+basic statements by these experiences. Experiences can motivate a decision, and hence an acceptance or a rejection of a statement, but a basic
 2 Cf. the previous note. *This paper of Carnap’s contained the ﬁrst published report of
 my theory of testing hypotheses; and the view here quoted from it was there erroneously
 attributed to me.
 the problem of the empirical basis
-87
-
 
 statement cannot be justiﬁed by them—no more than by thumping the
 table.3
@@ -3988,8 +3506,7 @@ Thus the real situation is quite diﬀerent from the one visualized by
 the naïve empiricist, or the believer in inductive logic. He thinks that
 we begin by collecting and arranging our experiences, and so ascend
 the ladder of science. Or, to use the more formal mode of speech, that if
-we wish to build up a science, we have ﬁrst to collect protocol sen-
-tences. But if I am ordered: ‘Record what you are now experiencing’ I
+we wish to build up a science, we have ﬁrst to collect protocol sentences. But if I am ordered: ‘Record what you are now experiencing’ I
 shall hardly know how to obey this ambiguous order. Am I to report
 that I am writing; that I hear a bell ringing; a newsboy shouting; a
 loudspeaker droning; or am I to report, perhaps, that these noises
@@ -4009,18 +3526,14 @@ either all science is made part of my knowing, ‘my’ sense experience (monism
 data); or sense experiences are made part of the objective scientiﬁc network of arguments
 in the form of protocol statements (monism of statements).
 some structural components of a theory of experience
-88
 
-
-to an agreement upon basic statements is, like other kinds of applica-
-tions, to perform a purposeful action, guided by various theoretical
+to an agreement upon basic statements is, like other kinds of applications, to perform a purposeful action, guided by various theoretical
 considerations.
 We are now, I think, in a position to solve such problems as, for
 instance, Whitehead’s problem of how it is that the tactile breakfast
 should always be served along with the visual breakfast, and the tactile
 Times with the visible and the audibly rustling Times.*1 The inductive
-logician who believes that all science starts from stray elementary per-
-ceptions must be puzzled by such regular coincidences; they must
+logician who believes that all science starts from stray elementary perceptions must be puzzled by such regular coincidences; they must
 seem to him entirely ‘accidental’. He is prevented from explaining
 regularity by theories, because he is committed to the view that
 theories are nothing but statements of regular coincidences.
@@ -4050,8 +3563,6 @@ especially sections *15 and *16.
 1 H. Weyl, Philosophie der Mathematik und Naturwissenschaft, 1927, p. 113; English Edition:
 Philosophy of Mathematics and Natural Science, Princeton, 1949, p. 116.
 the problem of the empirical basis
-89
-
 
 order to lighten the task of the theoretician’,2 or perhaps in order to
 furnish the theoretician with a basis for inductive generalizations. On
@@ -4064,8 +3575,7 @@ largely of a theoretical kind. Theory dominates the experimental work
 from its initial planning up to the ﬁnishing touches in the
 laboratory.*3
 This is well illustrated by cases in which the theoretician succeeded
-in predicting an observable eﬀect which was later experimentally pro-
-duced; perhaps the most beautiful instance is de Broglie’s prediction
+in predicting an observable eﬀect which was later experimentally produced; perhaps the most beautiful instance is de Broglie’s prediction
 of the wave-character of matter, ﬁrst conﬁrmed experimentally by
 Davisson and Germer.*4 It is illustrated perhaps even better by cases in
 which experiments had a conspicuous inﬂuence upon the progress of
@@ -4081,10 +3591,8 @@ speaks in such cases of a ‘correction of scientiﬁc opinions by accidental
 2 Weyl, ibid.
 *3 I now feel that I should have emphasized in this place a view which can be found
 elsewhere in the book (for example in the fourth and the last paragraphs of section 19). I
-mean the view that observations, and even more so observation statements and state-
-ments of experimental results, are always interpretations of the facts observed; that they are
-interpretations in the light of theories. This is one of the main reasons why it is always decep-
-tively easy to ﬁnd veriﬁcations of a theory, and why we have to adopt a highly critical attitude
+mean the view that observations, and even more so observation statements and statements of experimental results, are always interpretations of the facts observed; that they are
+interpretations in the light of theories. This is one of the main reasons why it is always deceptively easy to ﬁnd veriﬁcations of a theory, and why we have to adopt a highly critical attitude
 towards our theories if we do not wish to argue in circles: the attitude of trying to refute
 them.
 *4 The story is brieﬂy and excellently told by Max Born in Albert Einstein, Philosopher-Scientist,
@@ -4092,8 +3600,6 @@ edited by P. A. Schilpp, 1949, p. 174. There are better illustrations, such as A
 Leverrier’s discovery of Neptune, or that of Hertzean waves.
 3 Mach, Die Prinzipien der Wärmelehre 1896, p. 438.
 some structural components of a theory of experience
-90
-
 
 circumstances’ (thus acknowledging the signiﬁcance of theories in
 spite of himself).
@@ -4111,8 +3617,7 @@ by the results of its applications.*5
 From a logical point of view, the testing of a theory depends upon
 basic statements whose acceptance or rejection, in its turn, depends
 upon our decisions. Thus it is decisions which settle the fate of theories.
-To this extent my answer to the question, ‘how do we select a the-
-ory?’ resembles that given by the conventionalist; and like him I say
+To this extent my answer to the question, ‘how do we select a theory?’ resembles that given by the conventionalist; and like him I say
 that this choice is in part determined by considerations of utility. But
 in spite of this, there is a vast diﬀerence between my views and his.
 For I hold that what characterizes the empirical method is just this:
@@ -4131,16 +3636,13 @@ result of a test, i.e. an agreement about basic statements. With the
 *5 For a criticism of the ‘instrumentalist’ view see however the references in note *1
 before section 12 (p. 37), and in the starred addition to note 1, section 12.
 the problem of the empirical basis
-91
-
 
 conventionalist I hold that the choice of any particular theory is an act,
 a practical matter. But for me the choice is decisively inﬂuenced by the
 application of the theory and the acceptance of the basic statements in
 connection with this application; whereas for the conventionalist,
 aesthetic motives are decisive.
-Thus I diﬀer from the conventionalist in holding that the state-
-ments decided by agreement are not universal but singular. And I diﬀer
+Thus I diﬀer from the conventionalist in holding that the statements decided by agreement are not universal but singular. And I diﬀer
 from the positivist in holding that basic statements are not justiﬁable
 by our immediate experiences, but are, from the logical point of
 view, accepted by an act, by a free decision. (From the psychological
@@ -4154,12 +3656,9 @@ The verdict of the jury (vere dictum = spoken truly), like that of the
 experimenter, is an answer to a question of fact (quid facti?) which
 must be put to the jury in the sharpest, the most deﬁnite form. But
 what question is asked, and how it is put, will depend very largely on
-the legal situation, i.e. on the prevailing system of criminal law (corre-
-sponding to a system of theories). By its decision, the jury accepts,
-by agreement, a statement about a factual occurrence—a basic state-
-ment, as it were. The signiﬁcance of this decision lies in the fact that
-from it, together with the universal statements of the system (of crim-
-inal law) certain consequences can be deduced. In other words, the
+the legal situation, i.e. on the prevailing system of criminal law (corresponding to a system of theories). By its decision, the jury accepts,
+by agreement, a statement about a factual occurrence—a basic statement, as it were. The signiﬁcance of this decision lies in the fact that
+from it, together with the universal statements of the system (of criminal law) certain consequences can be deduced. In other words, the
 decision forms the basis for the application of the system; the verdict
 plays the part of a ‘true statement of fact’. But it is clear that the
 statement need not be true merely because the jury has accepted it.
@@ -4171,8 +3670,6 @@ principles which are chieﬂy, if not solely, designed to result in the
 discovery of objective truth. They sometimes leave room not only
 for subjective convictions but even for subjective bias. Yet even if we
 some structural components of a theory of experience
-92
-
 
 disregard these special aspects of the older procedure and imagine
 a procedure based solely on the aim of promoting the discovery
@@ -4180,39 +3677,31 @@ of objective truth, it would still be the case that the verdict of
 the jury never justiﬁes, or gives grounds for, the truth of what it
 asserts.
 Neither can the subjective convictions of the jurors be held to justify
-the decision reached; although there is, of course, a close causal con-
-nection between them and the decision reached—a connection which
+the decision reached; although there is, of course, a close causal connection between them and the decision reached—a connection which
 might be stated by psychological laws; thus these convictions may be
 called the ‘motives’ of the decision. The fact that the convictions are
 not justiﬁcations is connected with the fact that diﬀerent rules may
-regulate the jury’s procedure (for example, simple or qualiﬁed major-
-ity). This shows that the relationship between the convictions of the
+regulate the jury’s procedure (for example, simple or qualiﬁed majority). This shows that the relationship between the convictions of the
 jurors and their verdict may vary greatly.
 In contrast to the verdict of the jury, the judgment of the judge is
 ‘reasoned’; it needs, and contains, a justiﬁcation. The judge tries to
-justify it by, or deduce it logically from, other statements: the state-
-ments of the legal system, combined with the verdict that plays the
-rôle of initial conditions. This is why the judgment may be chal-
-lenged on logical grounds. The jury’s decision, on the other hand,
+justify it by, or deduce it logically from, other statements: the statements of the legal system, combined with the verdict that plays the
+rôle of initial conditions. This is why the judgment may be challenged on logical grounds. The jury’s decision, on the other hand,
 can only be challenged by questioning whether it has been reached
 in accordance with the accepted rules of procedure; i.e. formally, but
 not as to its content. (A justiﬁcation of the content of a decision is
 signiﬁcantly called a ‘motivated report’, rather than a ‘logically
 justiﬁed report’.)
 The analogy between this procedure and that by which we decide
-basic statements is clear. It throws light, for example, upon their relativ-
-ity, and the way in which they depend upon questions raised by the
+basic statements is clear. It throws light, for example, upon their relativity, and the way in which they depend upon questions raised by the
 theory. In the case of the trial by jury, it would be clearly impossible to
 apply the ‘theory’ unless there is ﬁrst a verdict arrived at by decision; yet
 the verdict has to be found in a procedure that conforms to, and thus
 applies, part of the general legal code. The case is analogous to that of
-basic statements. Their acceptance is part of the application of a theor-
-etical system; and it is only this application which makes any further
+basic statements. Their acceptance is part of the application of a theoretical system; and it is only this application which makes any further
 applications of the theoretical system possible.
 The empirical basis of objective science has thus nothing ‘absolute’
 the problem of the empirical basis
-93
-
 
 about it.4 Science does not rest upon solid bedrock. The bold structure
 of its theories rises, as it were, above a swamp. It is like a building
@@ -4230,9 +3719,7 @@ never beyond being tested; and they are impregnated with theories. (4)
 impregnated with theories. (Even a ‘phenomenal’ language permitting
 statements like ‘now here red’ would be impregnated with theories
 about time, space, and colour.)
-4 Weyl (op. cit., p. 83, English edition p. 116) writes: ‘. . . this pair of opposites, subjective-
-absolute and objective-relative seems to me to contain one of the most profound epistemo-
-logical truths which can be gathered from the study of nature. Whoever wants the
+4 Weyl (op. cit., p. 83, English edition p. 116) writes: ‘. . . this pair of opposites, subjectiveabsolute and objective-relative seems to me to contain one of the most profound epistemological truths which can be gathered from the study of nature. Whoever wants the
 absolute must get subjectivity—ego-centricity—into the bargain, and whoever longs for
 objectivity cannot avoid the problem of relativism.’ And before this we ﬁnd, ‘What is
 immediately experienced is subjective and absolute . . . ; the objective world, on the other
@@ -4246,17 +3733,13 @@ that reason can be intuitively felt, it yet refuses to be expressed in words. Fo
 Seele, so spricht, ach! schon die Seele nicht mehr”. (If the soul speaks then alas it is no
 longer the soul that speaks.)’
 some structural components of a theory of experience
-94
 
-
-6
 DEGREES OF TESTABILITY
 Theories may be more, or less, severely testable; that is to say, more, or
 less, easily falsiﬁable. The degree of their testability is of signiﬁcance for
 the selection of theories.
 In this chapter, I shall compare the various degrees of testability or
-falsiﬁability of theories through comparing the classes of their poten-
-tial falsiﬁers. This investigation is quite independent of the question
+falsiﬁability of theories through comparing the classes of their potential falsiﬁers. This investigation is quite independent of the question
 whether or not it is possible to distinguish in an absolute sense
 between falsiﬁable and non-falsiﬁable theories. Indeed one might
 say of the present chapter that it ‘relativizes’ the requirement of
@@ -4272,8 +3755,7 @@ width may represent the fact that the event is to be ‘observable’—must
 be incompatible with the theory and ruled out by it. One might then
 
 
-represent the potential falsiﬁers of various theories by sectors of vari-
-ous widths. And according to the greater and lesser width of the
+represent the potential falsiﬁers of various theories by sectors of various widths. And according to the greater and lesser width of the
 sectors ruled out by them, theories might then be said to have more,
 or fewer, potential falsiﬁers. (The question whether this ‘more’ or
 ‘fewer’ could be made at all precise will be left open for the moment.)
@@ -4284,8 +3766,7 @@ compared with the second theory, the ﬁrst theory may be said to be
 ‘falsiﬁable in a higher degree’. This also means that the ﬁrst theory says
 more about the world of experience than the second theory, for it rules
 out a larger class of basic statements. Although the class of permitted
-statements will thereby become smaller, this does not aﬀect our argu-
-ment; for we have seen that the theory does not assert anything about
+statements will thereby become smaller, this does not aﬀect our argument; for we have seen that the theory does not assert anything about
 this class. Thus it can be said that the amount of empirical information
 conveyed by a theory, or its empirical content, increases with its degree of
 falsiﬁability.
@@ -4310,8 +3791,6 @@ the world of ‘our experience’ from the class of all logically possible
 worlds of experience with the greatest precision attainable by
 theoretical science. All the events or classes of occurrences which we
 some structural components of a theory of experience
-96
-
 
 actually encounter and observe, and only these, would be characterized
 as ‘permitted’.*1
@@ -4323,8 +3802,7 @@ The classes of potential falsiﬁers are inﬁnite classes. The intuitive
 We cannot easily get round this diﬃculty; not even if, instead of the
 forbidden basic statements or occurrences, we consider, for the purpose of
 comparison, classes of forbidden events, in order to ascertain which of
-them contains ‘more’ forbidden events. For the number of events for-
-bidden by an empirical theory is also inﬁnite, as may be seen from the
+them contains ‘more’ forbidden events. For the number of events forbidden by an empirical theory is also inﬁnite, as may be seen from the
 fact that the conjunction of a forbidden event with any other event
 (whether forbidden or not) is again a forbidden event.
 I shall consider three ways of giving a precise meaning, even in
@@ -4340,28 +3818,21 @@ some way contains more points than, say, a straight line can be clearly
 formulated in logically unexceptionable terms by the set-theoretical
 concept of dimension. This distinguishes classes or sets of points
 according to the wealth of the ‘neighbourhood relations’ between their
-elements: sets of higher dimension have more abundant neighbour-
-hood relations. The concept of dimension which allows us to compare
+elements: sets of higher dimension have more abundant neighbourhood relations. The concept of dimension which allows us to compare
 *1 For further remarks concerning the aims of science, see appendix *x, and section *15 of
 the Postscript, and my paper ‘The Aim of Science’, Ratio 1, 1957, pp. 24–35.
-1 Tarski has proved that under certain assumptions every class of statements is denumer-
-able (cf. Monatshefte f. Mathem. u. Physik 40, 1933, p. 100, note 10). *The concept of measure
+1 Tarski has proved that under certain assumptions every class of statements is denumerable (cf. Monatshefte f. Mathem. u. Physik 40, 1933, p. 100, note 10). *The concept of measure
 is inapplicable for similar reasons (i.e. because the set of all statements of a language is
 denumerable).
 degrees of testability
-97
-
 
 classes of ‘higher’ and ‘lower’ dimension, will be used here to tackle
 the problem of comparing degrees of testability. This is possible
 because basic statements, combined by conjunction with other basic
 statements, again yield basic statements which, however, are ‘more
-highly composite’ than their components; and this degree of com-
-position of basic statements may be linked with the concept of dimen-
-sion. However, it is not the compositions of the forbidden events but
+highly composite’ than their components; and this degree of composition of basic statements may be linked with the concept of dimension. However, it is not the compositions of the forbidden events but
 that of the permitted ones which will have to be used. The reason is
-that the events forbidden by a theory can be of any degree of com-
-position; on the other hand, some of the permitted statements are
+that the events forbidden by a theory can be of any degree of composition; on the other hand, some of the permitted statements are
 permitted merely because of their form or, more precisely, because
 their degree of composition is too low to enable them to contradict the
 theory in question; and this fact can be used for comparing
@@ -4375,23 +3846,17 @@ elements of β which do not belong to α form ‘the diﬀerence class’ or
 the complement of α with respect to β, and α is a proper subclass of β. The
 subclass relation corresponds very well to the intuitive ‘more’ and
 ‘fewer’, but it suﬀers from the disadvantage that this relation can only
-be used to compare the two classes if one includes the other. If there-
-fore two classes of potential falsiﬁers intersect, without one being
+be used to compare the two classes if one includes the other. If therefore two classes of potential falsiﬁers intersect, without one being
 included in the other, or if they have no common elements, then the
-degree of falsiﬁability of the corresponding theories cannot be com-
-pared with the help of the subclass relation: they are non-comparable
+degree of falsiﬁability of the corresponding theories cannot be compared with the help of the subclass relation: they are non-comparable
 with respect to this relation.
 *1 The German term ‘komplex’ has been translated here and in similar passages by ‘composite’
-rather than by ‘complex’. The reason is that it does not denote, as does the English ‘com-
-plex’, the opposite of ‘simple’. The opposite of ‘simple’ (‘einfach’) is denoted, rather, by
-the German ‘kompliziert’. (Cf. the ﬁrst paragraph of section 41 where ‘kompliziert’ is trans-
-lated by ‘complex’.) In view of the fact that degree of simplicity is one of the major topics of
+rather than by ‘complex’. The reason is that it does not denote, as does the English ‘complex’, the opposite of ‘simple’. The opposite of ‘simple’ (‘einfach’) is denoted, rather, by
+the German ‘kompliziert’. (Cf. the ﬁrst paragraph of section 41 where ‘kompliziert’ is translated by ‘complex’.) In view of the fact that degree of simplicity is one of the major topics of
 this book, it would have been misleading to speak here (and in section 38) of degree of
 complexity. I therefore decided to use the term ‘degree of composition’ which seems to ﬁt the
 context very well.
 some structural components of a theory of experience
-98
-
 
 33 DEGREES OF FALSIFIABILITY COMPARED BY
 MEANS OF THE SUBCLASS RELATION
@@ -4405,8 +3870,7 @@ potential falsiﬁers of y as a proper subclass.
 (2) If the classes of potential falsiﬁers of the two statements x and y
 are identical, then they have the same degree of falsiﬁability, i.e.
 Fsb(x) = Fsb(y).
-(3) If neither of the classes of potential falsiﬁers of the two state-
-ments includes the other as a proper subclass, then the two statements
+(3) If neither of the classes of potential falsiﬁers of the two statements includes the other as a proper subclass, then the two statements
 have non-comparable degrees of falsiﬁability (Fsb(x) || Fsb(y)).
 If (1) applies, there will always be a non-empty complement class.
 In the case of universal statements, this complement class must be
@@ -4414,12 +3878,10 @@ inﬁnite. It is not possible, therefore, for the two (strictly universal)
 theories to diﬀer in that one of them forbids a ﬁnite number of single
 occurrences permitted by the other.
 The classes of potential falsiﬁers of all tautological and metaphysical
-statements are empty. In accordance with (2) they are, therefore, iden-
-tical. (For empty classes are subclasses of all classes, and hence also of
+statements are empty. In accordance with (2) they are, therefore, identical. (For empty classes are subclasses of all classes, and hence also of
 empty classes, so that all empty classes are identical; which may be
 expressed by saying that there exists only one empty class.) If we denote
-an empirical statement by ‘e’, and a tautology or a metaphysical state-
-ment (e.g. a purely existential statement) by ‘t’ or ‘m’ respectively, then
+an empirical statement by ‘e’, and a tautology or a metaphysical statement (e.g. a purely existential statement) by ‘t’ or ‘m’ respectively, then
 we may ascribe to tautological and metaphysical statements a zero
 degree of falsiﬁability and we can write: Fsb(t) = Fsb(m) = 0, and
 Fsb(e) > 0.
@@ -4429,12 +3891,9 @@ of potential falsiﬁers. This means that any statements whatsoever is
 comparable with a self-contradictory statement as to its degree of
 *1 See section 38, and the appendices i, *vii, and *viii.
 degrees of testability
-99
-
 
 falsiﬁability. We have Fsb(c) > Fsb(e) > 0.*2 If we arbitrarily put
-Fsb(c) = 1, i.e. arbitrarily assign the number 1 to the degree of falsiﬁ-
-ability of a self-contradictory statement, then we may even deﬁne an
+Fsb(c) = 1, i.e. arbitrarily assign the number 1 to the degree of falsiﬁability of a self-contradictory statement, then we may even deﬁne an
 empirical statement e by the condition 1 > Fsb(e) > 0. In accordance
 with this formula, Fsb(e) always falls within the interval between 0 and
 1, excluding these limits, i.e. within the ‘open interval’ bounded by
@@ -4451,8 +3910,6 @@ subclass relations are depicted on the left, and the corresponding
 Figure 1
 *2 See however now appendix *vii.
 some structural components of a theory of experience
-100
-
 
 testability relations on the right. The Arabic numerals on the right
 correspond to the Roman numerals on the left in such a way that a
@@ -4481,9 +3938,7 @@ nodal points (e.g. statements 4 and 5) in which the lattice is partially
 connected. The relation is totally connected only in the universal
 class and in the empty class, corresponding to the contradiction c and
 tautology t.
-Is it possible to arrange the degrees of falsiﬁability of various state-
-ments on one scale, i.e. to correlate, with the various statements, num-
-bers which order them according to their falsiﬁability? Clearly, we
+Is it possible to arrange the degrees of falsiﬁability of various statements on one scale, i.e. to correlate, with the various statements, numbers which order them according to their falsiﬁability? Clearly, we
 cannot possibly order all statements in this way;*1 for if we did, we
 *1 I still believe that the attempt to make all statements comparable by introducing a metric
 must contain an arbitrary, extra-logical element. This is quite obvious in the case of
@@ -4494,10 +3949,8 @@ a function of the metric of the predicate; and the latter must always contain an
 degrees of testability 101
 
 
-should be arbitrarily making the non-comparable statements compar-
-able. There is, however, nothing to prevent us from picking out one of
-the sequences from the lattice, and indicating the order of its state-
-ments by numbers. In so doing we should have to proceed in such a
+should be arbitrarily making the non-comparable statements comparable. There is, however, nothing to prevent us from picking out one of
+the sequences from the lattice, and indicating the order of its statements by numbers. In so doing we should have to proceed in such a
 way that a statement which lies nearer to the contradiction c is always
 given a higher number than one which lies nearer to the tautology t.
 Since we have already assigned the numbers 0 and 1 to tautology and
@@ -4534,8 +3987,6 @@ there given show that my comparison of logical probabilities is identical with K
 ‘comparison of the probability which we ascribe a priori to a generalization’. See also
 notes 1 to section 36 and 1 to section 83.
 some structural components of a theory of experience
-102
-
 
 versa. The better testable statement, i.e. the one with the higher degree
 of falsiﬁability, is the one which is logically less probable; and the
@@ -4543,8 +3994,7 @@ statement which is less well testable is the one which is logically more
 probable.
 As will be shown in section 72, numerical probability can be linked
 with logical probability, and thus with degree of falsiﬁability. It is
-possible to interpret numerical probability as applying to a sub-
-sequence (picked out from the logical probability relation) for which a
+possible to interpret numerical probability as applying to a subsequence (picked out from the logical probability relation) for which a
 system of measurement can be deﬁned, on the basis of frequency estimates.
 These observations on the comparison of degrees of falsiﬁability do
 not hold only for universal statements, or for systems of theories; they
@@ -4557,8 +4007,7 @@ between logical and numerical probability which will be analysed in
 section 72.)
 35 EMPIRICAL CONTENT, ENTAILMENT, AND
 DEGREES OF FALSIFIABILITY
-It was said in section 31 that what I call the empirical content of a state-
-ment increases with its degree of falsiﬁability: the more a statement
+It was said in section 31 that what I call the empirical content of a statement increases with its degree of falsiﬁability: the more a statement
 forbids, the more it says about the world of experience. (Cf. section 6.)
 What I call ‘empirical content’ is closely related to, but not identical
 with, the concept ‘content’ as deﬁned, for instance, by Carnap.1 For the
@@ -4566,8 +4015,7 @@ latter I will use the term ‘logical content’, to distinguish it from that of
 empirical content.
 I deﬁne the empirical content of a statement p as the class of its potential
 falsiﬁers (cf. section 31). The logical content is deﬁned, with the help of
-the concept of derivability, as the class of all non-tautological state-
-ments which are derivable from the statement in question. (It may be
+the concept of derivability, as the class of all non-tautological statements which are derivable from the statement in question. (It may be
 called its ‘consequence class’.) So the logical content of p is at least equal
 to (i.e. greater than or equal to) that of a statement q, if q is derivable
 1 Carnap, Erkenntnis 2, 1932, p. 458.
@@ -4580,22 +4028,19 @@ derivable from p, but not p from q, then the consequence class of q must
 be a proper sub-set of the consequence class of p; and p then possesses
 the larger consequence class, and thereby the greater logical content
 (or logical force*2).
-It is a consequence of my deﬁnition of empirical content that the com-
-parison of the logical and of the empirical contents of two statements p
+It is a consequence of my deﬁnition of empirical content that the comparison of the logical and of the empirical contents of two statements p
 and q leads to the same result if the statements compared contain no
 metaphysical elements. We shall therefore require the following: (a)
 two statements of equal logical content must also have equal empirical
 content; (b) a statement p whose logical content is greater than that of a
 statement q must also have greater empirical content, or at least equal
-empirical content; and ﬁnally, (c) if the empirical content of a state-
-ment p is greater than that of a statement q, then the logical content
+empirical content; and ﬁnally, (c) if the empirical content of a statement p is greater than that of a statement q, then the logical content
 must be greater or else non-comparable. The qualiﬁcation in (b) ‘or at
 least equal empirical content’ had to be added because p might be, for
 example, a conjunction of q with some purely existential statement,
 or with some other kind of metaphysical statement to which we
 must ascribe a certain logical content; for in this case the empirical
-content of p will not be greater than that of q. Corresponding consider-
-ations make it necessary to add to (c) the qualiﬁcation ‘or else
+content of p will not be greater than that of q. Corresponding considerations make it necessary to add to (c) the qualiﬁcation ‘or else
 non-comparable’.*3
 In comparing degrees of testability or of empirical content we shall
 therefore as a rule—i.e. in the case of purely empirical statements—
@@ -4613,8 +4058,6 @@ derivable”.’ Carnap’s Logische Syntax der Sprache, 1934, and his Die Aufga
 q, or that its logical force exceeds that of q.
 *3 See, again, appendix *vii.
 some structural components of a theory of experience
-104
-
 
 of degrees of falsiﬁability to a large extent upon derivability relations.
 Both relations show the form of lattices which are totally connected in
@@ -4625,8 +4068,7 @@ statements, as we have seen, can be characterized as those whose
 degree of falsiﬁability falls into the open interval which is bounded by
 the degrees of falsiﬁability of self-contradictions on the one side, and
 of tautologies on the other. Similarly, synthetic statements in general
-(including those which are non-empirical) are placed, by the entail-
-ment relation, in the open interval between self-contradiction and
+(including those which are non-empirical) are placed, by the entailment relation, in the open interval between self-contradiction and
 tautology.
 To the positivist thesis that all non-empirical (metaphysical)
 statements are ‘meaningless’ there would thus correspond the thesis
@@ -4636,11 +4078,9 @@ statements would have to be empirical—all that are genuine, that is,
 and not mere pseudo-statements. But this way of using words,
 though feasible, seems to me more likely to confuse the issue than
 to clarify it.
-Thus I regard the comparison of the empirical content of two state-
-ments as equivalent to the comparison of their degrees of falsiﬁability.
+Thus I regard the comparison of the empirical content of two statements as equivalent to the comparison of their degrees of falsiﬁability.
 This makes our methodological rule that those theories should be
-given preference which can be most severely tested (cf. the anti-
-conventionalist rules in section 20) equivalent to a rule favouring
+given preference which can be most severely tested (cf. the anticonventionalist rules in section 20) equivalent to a rule favouring
 theories with the highest possible empirical content.
 36 LEVELS OF UNIVERSALITY AND
 DEGREES OF PRECISION
@@ -4691,20 +4131,16 @@ greater universality than q if the antecedent statement function of
 p (which may be denoted by ‘φpx’) is tautologically implied by (or
 logically deducible from), but not equivalent to, the corresponding
 some structural components of a theory of experience
-106
-
 
 statement function of q (which may be denoted by ‘φqx’); or in other
 words, if ‘(x) (φqx →φpx)’ is tautological (or logically true). Similarly we
-shall say that p has greater precision than q if ‘(x) (fpx →fqx)’ is tauto-
-logical, that is if the predicate (or the consequent statement function)
+shall say that p has greater precision than q if ‘(x) (fpx →fqx)’ is tautological, that is if the predicate (or the consequent statement function)
 of p is narrower than that of q, which means that the predicate of
 p entails that of q.*1
 This deﬁnition may be extended to statement functions with more
 than one variable. Elementary logical transformations lead from it to
 the derivability relations which we have asserted, and which may be
-expressed by the following rule:1 If of two statements both their uni-
-versality and their precision are comparable, then the less universal or
+expressed by the following rule:1 If of two statements both their universality and their precision are comparable, then the less universal or
 less precise is derivable from the more universal or more precise;
 unless, of course, the one is more universal and the other more precise
 (as in the case of q and r in my diagram).2
@@ -4743,8 +4179,7 @@ basic statements permitted by p is a proper subclass of the class of
 the basic statements permitted by q. The subclass-relationship holding
 between classes of permitted statements is the opposite of that
 holding between classes of forbidden statements (potential falsiﬁers):
-the two relationships may be said to be inverse (or perhaps comple-
-mentary). The class of basic statements permitted by a statement may
+the two relationships may be said to be inverse (or perhaps complementary). The class of basic statements permitted by a statement may
 be called its ‘range’.1 The ‘range’ which a statement allows to reality is,
 as it were, the amount of ‘free play’ (or the degree of freedom) which
 it allows to reality. Range and empirical content (cf. section 35) are
@@ -4772,8 +4207,6 @@ for what in my view amounts to precisely the same thing.
 *1 This is a point which, I believe, was wrongly interpreted by Duhem. See his Aim and
 Structure of Physical Theory, pp. 137 ﬀ.
 some structural components of a theory of experience
-108
-
 
 demand that the degree of precision in measurement should be raised
 as much as possible.
@@ -4781,10 +4214,8 @@ It is often said that all measurement consists in the determination of
 coincidences of points. But any such determination can only be correct
 within limits. There are no coincidences of points in a strict sense.*2
 Two physical ‘points’—a mark, say, on the measuring-rod, and another
-on a body to be measured—can at best be brought into close proxim-
-ity; they cannot coincide, that is, coalesce into one point. However trite
-this remark might be in another context, it is important for the ques-
-tion of precision in measurement. For it reminds us that measurement
+on a body to be measured—can at best be brought into close proximity; they cannot coincide, that is, coalesce into one point. However trite
+this remark might be in another context, it is important for the question of precision in measurement. For it reminds us that measurement
 should be described in the following terms. We ﬁnd that the point of
 the body to be measured lies between two gradations or marks on the
 measuring-rod or, say, that the pointer of our measuring apparatus lies
@@ -4805,8 +4236,7 @@ bounds of the interval—when for each of these two bounds there must
 again arise the same question: what are the limits of accuracy for the
 bounds of the interval?
 Giving the bounds of the interval is clearly useless unless these two
-bounds in turn can be ﬁxed with a degree of precision greatly exceed-
-ing what we can hope to attain for the original measurement; ﬁxed,
+bounds in turn can be ﬁxed with a degree of precision greatly exceeding what we can hope to attain for the original measurement; ﬁxed,
 that is, within their own intervals of imprecision which should thus
 be smaller, by several orders of magnitude, than the interval they
 determine for the value of the original measurement. In other words,
@@ -4822,8 +4252,7 @@ may be called the ‘unsharp bounds’ or ‘condensation bounds’ of the
 interval.
 These considerations do not presuppose the mathematical theory of
 errors, nor the theory of probability. It is rather the other way round;
-by analysing the idea of a measuring interval they furnish a back-
-ground without which the statistical theory of errors makes very little
+by analysing the idea of a measuring interval they furnish a background without which the statistical theory of errors makes very little
 sense. If we measure a magnitude many times, we obtain values which
 are distributed with diﬀerent densities over an interval—the interval of
 precision depending upon the prevailing measuring technique. Only if
@@ -4851,39 +4280,31 @@ discussed under points 8 ﬀ. of my ‘Third Note’, reprinted in appendix *ix.
 section *15 of the Postscript for the signiﬁcance of measurement for the ‘depth’ of
 theories.
 some structural components of a theory of experience
-110
-
 
 successful in guiding our choice between theories. Thus we may now
 say that Pauli’s exclusion principle, mentioned by way of example in
 section 20, indeed turns out to be highly satisfactory as an auxiliary
 hypothesis. For it greatly increases the degree of precision and, with it,
-the degree of testability, of the older quantum theory (like the corres-
-ponding statement of the new quantum theory which asserts that anti-
-symmetrical states are realized by electrons, and symmetrical ones by
+the degree of testability, of the older quantum theory (like the corresponding statement of the new quantum theory which asserts that antisymmetrical states are realized by electrons, and symmetrical ones by
 uncharged, and by certain multiply charged, particles).
 For many purposes, however, comparison by means of the subclass
 relation does not suﬃce. Thus Frank, for example, has pointed out that
 statements of a high level of universality—such as the principle of the
 conservation of energy in Planck’s formulation—are apt to become
-tautological, and to lose their empirical content, unless the initial con-
-ditions can be determined ‘. . . by few measurements, . . . i.e. by means
+tautological, and to lose their empirical content, unless the initial conditions can be determined ‘. . . by few measurements, . . . i.e. by means
 of a small number of magnitudes characteristic of the state of the
 system’.1 The question of the number of parameters which have to be
 ascertained, and to be substituted in the formulae, cannot be elucidated
 with the help of the sub-class relation, in spite of the fact that it is
-evidently closely connected with the problem of testability and falsiﬁ-
-ability, and their degrees. The fewer the magnitudes which are needed
+evidently closely connected with the problem of testability and falsiﬁability, and their degrees. The fewer the magnitudes which are needed
 for determining the initial conditions, the less composite*1 will be the
 basic statements which suﬃce for the falsiﬁcation of the theory; for a
-falsifying basic statement consists of the conjunction of the initial con-
-ditions with the negation of the derived prediction (cf. section 28).
+falsifying basic statement consists of the conjunction of the initial conditions with the negation of the derived prediction (cf. section 28).
 Thus it may be possible to compare theories as to their degree of
 testability by ascertaining the minimum degree of composition which
 a basic statement must have if it is to be able to contradict the theory;
 provided always that we can ﬁnd a way to compare basic statements in
-order to ascertain whether they are more (or less) composite, i.e. com-
-pounds of a greater (or a smaller) number of basic statements of a
+order to ascertain whether they are more (or less) composite, i.e. compounds of a greater (or a smaller) number of basic statements of a
 simpler kind. All basic statements, whatever their content, whose
 degree of composition does not reach the requisite minimum, would
 be permitted by the theory simply because of their low degree of
@@ -4894,9 +4315,7 @@ degrees of testability 111
 
 
 But any such programme is faced with diﬃculties. For generally it is
-not easy to tell, merely by inspecting it, whether a statement is compos-
-ite, i.e. equivalent to a conjunction of simpler statements. In all state-
-ments there occur universal names, and by analysing these one can
+not easy to tell, merely by inspecting it, whether a statement is composite, i.e. equivalent to a conjunction of simpler statements. In all statements there occur universal names, and by analysing these one can
 often break down the statement into conjunctive components. (For
 example, the statement ‘There is a glass of water at the place k’ might
 perhaps be analysed, and broken down into the two statements ‘There
@@ -4923,16 +4342,13 @@ Bertrand Russell in his Preface to the Tractatus, 1922, p. 13, translated it as 
 proposition’. The latter term has become more popular.
 *2 Absolute degrees of composition would determine, of course, absolute degrees of
 content, and thus of absolute logical improbability. The programme here indicated of
-introducing improbability, and thus probability, by singling out a certain class of abso-
-lutely atomic statements (earlier sketched, for example, by Wittgenstein) has more
+introducing improbability, and thus probability, by singling out a certain class of absolutely atomic statements (earlier sketched, for example, by Wittgenstein) has more
 recently been elaborated by Carnap in his Logical Foundations of Probability, 1950, in order to
 construct a theory of induction. See also the remarks on model languages in my Preface to
 the English Edition, 1958, above, where I allude to the fact that the third model language
 (Carnap’s language system) does not admit measurable properties. (Nor does it in its
 present form allow the introduction of a temporal or spatial order.)
 some structural components of a theory of experience
-112
-
 
 would impose serious restrictions upon the free use of scientiﬁc
 language.*3
@@ -4957,13 +4373,11 @@ certain d + 1-tuples, then we call d the characteristic number of the theory
 with respect to that ﬁeld. All statements of the ﬁeld whose degree of
 composition is less than d, or equal to d, are then compatible with the
 theory, and permitted by it, irrespective of their content.
-Now it is possible to base the comparison of the degree of test-
-ability of theories upon this characteristic number d. But in order to
+Now it is possible to base the comparison of the degree of testability of theories upon this characteristic number d. But in order to
 avoid inconsistencies which might arise through the use of diﬀerent
 ﬁelds, it is necessary to use a somewhat narrower concept than that of
 a ﬁeld, namely that of a ﬁeld of application. If a theory t is given, we say
-that a ﬁeld is a ﬁeld of application of the theory t if there exists a character-
-istic number d of the theory t with respect to this ﬁeld, and if, in
+that a ﬁeld is a ﬁeld of application of the theory t if there exists a characteristic number d of the theory t with respect to this ﬁeld, and if, in
 *3 The words ‘scientiﬁc language’ were here used quite naïvely, and should not be
 interpreted in the technical sense of what is today called a ‘language system’. On the
 contrary, my main point was that we should remember the fact that scientists cannot use
@@ -4977,17 +4391,14 @@ degrees of testability 113
 addition, it satisﬁes certain further conditions (which are explained in
 appendix i).
 The characteristic number d of a theory t, with respect to a ﬁeld of
-application, I call the dimension of t with respect to this ﬁeld of applica-
-tion. The expression ‘dimension’ suggests itself because we can think
-of all possible n-tuples of the ﬁeld as spatially arranged (in a conﬁgur-
-ation space of inﬁnite dimensions). If, for example, d = 3, then those
+application, I call the dimension of t with respect to this ﬁeld of application. The expression ‘dimension’ suggests itself because we can think
+of all possible n-tuples of the ﬁeld as spatially arranged (in a conﬁguration space of inﬁnite dimensions). If, for example, d = 3, then those
 statements which are admissible because their composition is too low
 form a three-dimensional sub-space of this conﬁguration. Transition
 from d = 3 to d = 2 corresponds to the transition from a solid to a
 surface. The smaller the dimension d, the more severely restricted is the
 class of those permitted statements which, regardless of their content,
-cannot contradict the theory owing to their low degree of com-
-position; and the higher will be the degree of falsiﬁability of the
+cannot contradict the theory owing to their low degree of composition; and the higher will be the degree of falsiﬁability of the
 theory.
 The concept of the ﬁeld of application has not been restricted to
 basic statements, but singular statements of all kinds have been allowed
@@ -5002,18 +4413,14 @@ theory, irrespective of what they assert.
 This answers the question of how the two methods of comparing
 degrees of testability are related—the one by means of the dimension
 of a theory, and the other by means of the subclass relation. There will
-be cases in which neither, or only one, of the two methods is applic-
-able. In such cases there is of course no room for conﬂict between the
+be cases in which neither, or only one, of the two methods is applicable. In such cases there is of course no room for conﬂict between the
 two methods. But if in a particular case both methods are applicable,
 then it may conceivably happen that two theories of equal dimensions
 may yet have diﬀerent degrees of falsiﬁability if assessed by the method
 based upon the subclass relation. In such cases, the verdict of the latter
-method should be accepted, since it would prove to be the more sensi-
-tive method. In all other cases in which both methods are applicable,
+method should be accepted, since it would prove to be the more sensitive method. In all other cases in which both methods are applicable,
 they must lead to the same result; for it can be shown, with the help of
 some structural components of a theory of experience
-114
-
 
 a simple theorem of the theory of dimension, that the dimension of a
 class must be greater than, or equal to, that of its subclasses.3
@@ -5024,28 +4431,21 @@ graph-paper on which we represent the theory by graphs: each point of
 this ﬁeld of graphic representation can be taken to correspond to one
 relatively atomic statement. The dimension of the theory with respect to
 this ﬁeld (deﬁned in appendix 1) is then identical with the dimension of
-the set of curves corresponding to the theory. I shall discuss these rela-
-tions with the help of the two statements q and s of section 36. (Our
-comparison of dimensions applies to statements with diﬀerent predi-
-cates.) The hypothesis q—that all planetary orbits are circles—is three-
-dimensional: for its falsiﬁcation at least four singular statements of the
-ﬁeld are necessary, corresponding to four points of its graphic represen-
-tation. The hypothesis s, that all planetary orbits are ellipses, is ﬁve-
-dimensional, since for its falsiﬁcation at least six singular statements are
+the set of curves corresponding to the theory. I shall discuss these relations with the help of the two statements q and s of section 36. (Our
+comparison of dimensions applies to statements with diﬀerent predicates.) The hypothesis q—that all planetary orbits are circles—is threedimensional: for its falsiﬁcation at least four singular statements of the
+ﬁeld are necessary, corresponding to four points of its graphic representation. The hypothesis s, that all planetary orbits are ellipses, is ﬁvedimensional, since for its falsiﬁcation at least six singular statements are
 necessary, corresponding to six points of the graph. We saw in section
 36 that q is more easily falsiﬁable than s: since all circles are ellipses, it
 was possible to base the comparison on the subclass relation. But the use
 of dimensions enables us to compare theories which previously we were
-unable to compare. For example, we can now compare a circle-
-hypothesis with a parabola-hypothesis (which is four dimensional).
+unable to compare. For example, we can now compare a circlehypothesis with a parabola-hypothesis (which is four dimensional).
 Each of the words ‘circle’, ‘ellipse’, ‘parabola’ denotes a class or set of
 curves; and each of these sets has the dimension d if d points are necessary
 and suﬃcient to single out, or characterize, one particular curve of the
 set. In algebraic representation, the dimension of the set of curves
 depends upon the number of parameters whose values we may freely
 choose. We can therefore say that the number of freely determinable
-parameters of a set of curves by which a theory is represented is charac-
-teristic for the degree of falsiﬁability (or testability) of that theory.
+parameters of a set of curves by which a theory is represented is characteristic for the degree of falsiﬁability (or testability) of that theory.
 In connection with the statements q and s in my example I should
 3 Cf. Menger, Dimensionstheorie, 1928, p. 81. *The conditions under which this theorem
 holds can be assumed to be always satisﬁed by the ‘spaces’ with which we are concerned
@@ -5056,13 +4456,11 @@ degrees of testability 115
 like to make some methodological comments on Kepler’s discovery of
 his laws.*1
 I do not wish to suggest that the belief in perfection—the heuristic
-principle that guided Kepler to his discovery—was inspired, con-
-sciously or unconsciously, by methodological considerations regarding
+principle that guided Kepler to his discovery—was inspired, consciously or unconsciously, by methodological considerations regarding
 degrees of falsiﬁability. But I do believe that Kepler owed his success in
 part to the fact that the circle-hypothesis with which he started was
 relatively easy to falsify. Had Kepler started with a hypothesis which
-owing to its logical form was not so easily testable as the circle hypoth-
-esis, he might well have got no result at all, considering the diﬃculties
+owing to its logical form was not so easily testable as the circle hypothesis, he might well have got no result at all, considering the diﬃculties
 of calculations whose very basis was ‘in the air’—adrift in the skies, as
 it were, and moving in a way unknown. The unequivocal negative result
 which Kepler reached by the falsiﬁcation of his circle hypothesis was in
@@ -5089,13 +4487,9 @@ than that of increasing the number of given points. For example the set
 Probability and Induction, 1949, p. 230, and J. G. Kemeny, ‘The Use of Simplicity in
 Induction’, Philos. Review 57, 1953; see his footnote on p. 404.
 some structural components of a theory of experience
-116
-
 
 of ellipses with given ratio of the axes is four-dimensional (as is that of
-parabolas), and so is the set of ellipses with given numerical eccen-
-tricity. The transition from the ellipse to the circle, of course, is equiva-
-lent to specifying an eccentricity (the eccentricity 0) or a particular
+parabolas), and so is the set of ellipses with given numerical eccentricity. The transition from the ellipse to the circle, of course, is equivalent to specifying an eccentricity (the eccentricity 0) or a particular
 ratio of the axes (unity).
 As we are interested in assessing degrees of falsiﬁability of theories
 we will now ask whether the various methods of reducing the number
@@ -5166,8 +4560,7 @@ three given
 points
 —
 —
-1 We could also, of course, begin with the empty (over-determined) minus-one-
-dimensional class.
+1 We could also, of course, begin with the empty (over-determined) minus-onedimensional class.
 degrees of testability 117
 
 
@@ -5181,8 +4574,7 @@ more narrowly speciﬁed as, for example, when we pass from ellipse to
 circle, or from circle to straight line, etc., I will call the method of ‘formal
 reduction’ of the number of dimensions.
 It is not very easy, however, to get this distinction sharp. This may be
-seen as follows. Reducing the dimensions of a theory means, in alge-
-braic terms, replacing a parameter by a constant. Now it is not quite
+seen as follows. Reducing the dimensions of a theory means, in algebraic terms, replacing a parameter by a constant. Now it is not quite
 clear how we can distinguish between diﬀerent methods of replacing a
 parameter by a constant. The formal reduction, by passing from the general
 equation of an ellipse to the equation of a circle, can be described as
@@ -5199,9 +4591,7 @@ deﬁned by means of the general equation of the ellipse; the set of
 circles, by the general equation of the circle. These deﬁnitions are
 independent of where, in the plane, we draw the (Cartesian) co-ordinates to which
 they relate; consequently they are independent of the choice of the
-origin, and the orientation, of the co-ordinates. A speciﬁc system of co-
-ordinates can be determined only by individual names; say, by osten-
-sively specifying its origin and orientation. Since the deﬁnition of the
+origin, and the orientation, of the co-ordinates. A speciﬁc system of coordinates can be determined only by individual names; say, by ostensively specifying its origin and orientation. Since the deﬁnition of the
 set of ellipses (or circles) is the same for all Cartesian co-ordinates, it is
 independent of the speciﬁcation of these individual names: it is invariant
 with respect to all co-ordinate transformations of the Euclidean group
@@ -5209,16 +4599,13 @@ with respect to all co-ordinate transformations of the Euclidean group
 If, on the other hand, one wishes to deﬁne a set of ellipses (or
 circles) which have a speciﬁc, an individual point of the plane in
 some structural components of a theory of experience
-118
-
 
 common, then we must operate with an equation which is not
 invariant with respect to the transformations of the Euclidean group,
 but relates to a singular, i.e. an individually or ostensively speciﬁed,
 co-ordinate system. Thus it is connected with individual names.2
 The transformations can be arranged in a hierarchy. A deﬁnition
-which is invariant with respect to a more general group of transform-
-ations is also invariant with respect to more special ones. For each
+which is invariant with respect to a more general group of transformations is also invariant with respect to more special ones. For each
 deﬁnition of a set of curves, there is one—the most general—
 transformation group which is characteristic of it. Now we can say: The
 deﬁnition D1 of a set of curves is called ‘equally general’ to (or more
@@ -5227,8 +4614,7 @@ respect to the same transformation group as is D2 (or a more general
 one). A reduction of the dimension of a set of curves may now be
 called formal if the reduction does not diminish the generality of the
 deﬁnition; otherwise it may be called material.
-If we compare the degree of falsiﬁability of two theories by con-
-sidering their dimensions, we shall clearly have to take into account
+If we compare the degree of falsiﬁability of two theories by considering their dimensions, we shall clearly have to take into account
 their generality, i.e. their invariance with respect to co-ordinate
 transformations, along with their dimensions.
 The procedure will, of course, have to be diﬀerent according to
@@ -5236,8 +4622,7 @@ whether the theory, like Kepler’s theory, in fact makes geometrical
 statements about the world or whether it is ‘geometrical’ only in that it
 may be represented by a graph—such as, for example, the graph which
 represents the dependence of pressure upon temperature. It would be
-inappropriate to require of this latter kind of theory, or of the corres-
-ponding set of curves, that its deﬁnition should be invariant with
+inappropriate to require of this latter kind of theory, or of the corresponding set of curves, that its deﬁnition should be invariant with
 respect to, say, rotations of the co-ordinate system; for in these cases,
 the diﬀerent co-ordinates may represent entirely diﬀerent things (the
 one pressure and the other temperature).
@@ -5278,10 +4663,7 @@ respect to a ﬁeld of application; see my old Appendix i.) (4) The
 introduction of the idea of the truth content of a theory and of its
 approximation or nearness to truth (‘verisimilitude’).
 some structural components of a theory of experience
-120
 
-
-7
 SIMPLICITY
 There seems to be little agreement as to the importance of the so-called
 ‘problem of simplicity’. Weyl said, not long ago, that ‘the problem of
@@ -5295,11 +4677,9 @@ be valuable. Not a few philosophers of science have given the concept
 of simplicity a place of crucial importance in their theories, without
 even noticing the diﬃculties to which it gives rise. For example, the
 followers of Mach, Kirchhoﬀ, and Avenarius have tried to replace the
-idea of a causal explanation by that of the ‘simplest description’. With-
-out the adjective ‘simplest’ or a similar word this doctrine would say
+idea of a causal explanation by that of the ‘simplest description’. Without the adjective ‘simplest’ or a similar word this doctrine would say
 nothing. As it is supposed to explain why we prefer a description of the
-world with the help of theories to one with the help of singular state-
-ments, it seems to presuppose that theories are simpler than singular
+world with the help of theories to one with the help of singular statements, it seems to presuppose that theories are simpler than singular
 statements. Yet few have ever attempted to explain why they should be
 simpler, or what is meant, more precisely, by simplicity.
 1 Cf. Weyl, op. cit., pp. 115 f.; English edition p. 155. See also section 42 below.
@@ -5307,15 +4687,13 @@ simpler, or what is meant, more precisely, by simplicity.
 
 If, moreover, we assume that theories are to be used for the sake of
 simplicity then, clearly, we should use the simplest theories. This is
-how Poincaré, for whom the choice of theories is a matter of conven-
-tion, comes to formulate his principle for the selection of theories: he
+how Poincaré, for whom the choice of theories is a matter of convention, comes to formulate his principle for the selection of theories: he
 chooses the simplest of the possible conventions. But which are the
 simplest?
 41 ELIMINATION OF THE AESTHETIC AND THE
 PRAGMATIC CONCEPTS OF SIMPLICITY
 The word ‘simplicity’ is used in very many diﬀerent senses.
-Schrödinger’s theory, for instance, is of great simplicity in a method-
-ological sense, but in another sense it might well be called ‘complex’.
+Schrödinger’s theory, for instance, is of great simplicity in a methodological sense, but in another sense it might well be called ‘complex’.
 We can say of a problem that its solution is not simple but diﬃcult, or
 of a presentation or an exposition that it is not simple but intricate.
 To begin with, I shall exclude from our discussion the application of
@@ -5339,16 +4717,12 @@ simplicity?
 The answer to this question may well seem doubtful, seeing how
 little successful have been most attempts to deﬁne this concept. Schlick,
 some structural components of a theory of experience
-122
-
 
 for one, gives a negative answer. He says: ‘Simplicity is . . . a concept
 indicative of preferences which are partly practical, partly aesthetic in
 character.’1 And it is notable that he gives this answer when writing of
-the concept which interests us here, and which I shall call the epistemo-
-logical concept of simplicity; for he continues: ‘Even if we are unable to
-explain what is really meant by “simplicity” here, we must yet recog-
-nize the fact that any scientist who has succeeded in representing a
+the concept which interests us here, and which I shall call the epistemological concept of simplicity; for he continues: ‘Even if we are unable to
+explain what is really meant by “simplicity” here, we must yet recognize the fact that any scientist who has succeeded in representing a
 series of observations by means of a very simple formula (e.g. by a
 linear, quadratic, or exponential function) is immediately convinced
 that he has discovered a law.’
@@ -5388,8 +4762,7 @@ choosing the simplest law, it is usually tacitly assumed that a linear
 function, say, is simpler than a quadratic one, a circle simpler than an
 ellipse, etc. But no reasons are given either for choosing this particular
 hierarchy of simplicities in preference to any other, or for believing that
-‘simple’ laws have advantages over the less simple—apart from aes-
-thetic and practical ones.5 Schlick and Feigl mention6 an unpublished
+‘simple’ laws have advantages over the less simple—apart from aesthetic and practical ones.5 Schlick and Feigl mention6 an unpublished
 paper of Natkin who, according to Schlick’s account, proposes to call
 one curve simpler than another if its average curvature is smaller; or,
 according to Feigl’s account, if it deviates less from a straight line. (The
@@ -5400,8 +4773,7 @@ hyperbola much simpler than a circle, etc. And really, I do not think
 that the question can be settled by such ‘artiﬁces’ (as Schlick
 calls them). Moreover, it would remain a mystery why we should give
 preference to simplicity if deﬁned in this particular way.
-Weyl discusses and rejects a very interesting attempt to base sim-
-plicity on probability. ‘Assume, for example, that twenty co-ordinated
+Weyl discusses and rejects a very interesting attempt to base simplicity on probability. ‘Assume, for example, that twenty co-ordinated
 pairs of values (x, y) of the same function, y = f(x) lie (within the
 expected accuracy) on a straight line, when plotted on square graph
 paper. We shall then conjecture that we are faced here with a rigorous
@@ -5419,8 +4791,6 @@ beyond what the observations tell us. However, this analysis is open to
 to be untenable), and also aﬀords no help.
 6 In the places referred to.
 some structural components of a theory of experience
-124
-
 
 criticism. It will always be possible to deﬁne all kinds of mathematical
 functions which . . . will be satisﬁed by the twenty observations; and
@@ -5440,13 +4810,11 @@ and above all, he does not say what logical or epistemological advantages the
 simpler law is supposed to possess, compared with one that is more
 complex.8
 The various passages so far quoted are very important, because of
-their bearing upon our present aim—the analysis of the epistemo-
-logical concept of simplicity. For this concept is not yet precisely
+their bearing upon our present aim—the analysis of the epistemological concept of simplicity. For this concept is not yet precisely
 determined. It is therefore possible to reject any attempt (such as mine)
 to make this concept precise by saying that the concept of simplicity in
 which epistemologists are interested is really quite a diﬀerent one. To
-such objections I could answer that I do not attach the slightest import-
-ance to the word ‘simplicity’. The term was not introduced by me, and I
+such objections I could answer that I do not attach the slightest importance to the word ‘simplicity’. The term was not introduced by me, and I
 am aware of its disadvantages. All I do assert is that the concept of
 simplicity which I am going to clarify helps to answer those very
 7 Weyl, op. cit., p. 116; English edition, p. 156. *When writing my book I did not know
@@ -5467,8 +4835,7 @@ questions which, as my quotations show, have so often been raised by
 philosophers of science in connection with their ‘problem of
 simplicity’.
 43 SIMPLICITY AND DEGREE OF FALSIFIABILITY
-The epistemological questions which arise in connection with the con-
-cept of simplicity can all be answered if we equate this concept with
+The epistemological questions which arise in connection with the concept of simplicity can all be answered if we equate this concept with
 degree of falsiﬁability. This assertion is likely to meet with opposition;*1
 and so I shall try, ﬁrst, to make it intuitively more acceptable.
 *1 It was gratifying to ﬁnd that this theory of simplicity (including the ideas of section
@@ -5494,8 +4861,7 @@ out that the same could be said of any given curve, however complex. (This argum
 correct, but it does no longer hold if we consider the potential falsiﬁers—and their degree of
 composition—rather than the verifying instances.) Weyl then proceeds to discuss the
 paucity of the parameters as a criterion of simplicity, without connecting this in any way
-either with the intuitive view just rejected by him, or with anything which, like test-
-ability, or content, might explain our epistemological preference for the simpler theory.
+either with the intuitive view just rejected by him, or with anything which, like testability, or content, might explain our epistemological preference for the simpler theory.
 Weyl’s characterization of the simplicity of a curve by the paucity of its parameters
 was anticipated in 1921 by Harold Jeﬀreys and Dorothy Wrinch (Phil. Mag. 42, 369 ﬀ.).
 But if Weyl merely failed to see what is now ‘easy to see’ (according to Kneale), Jeﬀreys
@@ -5503,8 +4869,6 @@ actually saw—and still sees—the very opposite: he attributes to the simpler 
 greater prior probability instead of the greater prior improbability. (Thus Jeﬀreys’s and
 Kneale’s views together may illustrate Schopenhauer’s remark that the solution of a
 some structural components of a theory of experience
-126
-
 
 I have already shown that theories of a lower dimension are more
 easily falsiﬁable than those of a higher dimension. A law having the
@@ -5517,16 +4881,14 @@ certainly be inclined to regard a function of the ﬁrst degree as simpler
 than one of the second degree, though the latter also doubtless
 represents a perfectly good law . . .’1
 The degree of universality and of precision of a theory increases
-with its degree of falsiﬁability, as we have seen. Thus we may per-
-haps identify the degree of strictness of a theory—the degree, as it were,
+with its degree of falsiﬁability, as we have seen. Thus we may perhaps identify the degree of strictness of a theory—the degree, as it were,
 to which a theory imposes the rigour of law upon nature—with
 its degree of falsiﬁability; which shows that the latter does just
 what Schlick and Feigl expected the concept of simplicity to do. I
 may add that the distinction which Schlick hoped to make between
 law and chance can also be clariﬁed with the help of the idea
 of degrees of falsiﬁability: probability statements about sequences
-having chance-like characteristics turn out to be of inﬁnite dimen-
-sion (cf. section 65); not simple but complex (cf. section 58 and
+having chance-like characteristics turn out to be of inﬁnite dimension (cf. section 65); not simple but complex (cf. section 58 and
 latter part of 59); and falsiﬁable only under special safeguards
 (section 68).
 The comparison of degrees of testability has been discussed at length
@@ -5546,15 +4908,12 @@ simplicity 127
 
 number of parameters to determine the concept of simplicity.*2 And
 by means of our distinction between a formal and a material reduction
-of the dimension of a theory (cf. section 40), certain possible objec-
-tions to Weyl’s theory can be met. One of these is the objection that the
+of the dimension of a theory (cf. section 40), certain possible objections to Weyl’s theory can be met. One of these is the objection that the
 set of ellipses whose axes stand in a given ratio, and whose numerical
 eccentricity is given, has exactly as many parameters as the set of
 circles, although it is obviously less ‘simple’.
 Above all, our theory explains why simplicity is so highly desirable. To
-understand this there is no need for us to assume a ‘principle of econ-
-omy of thought’ or anything of the kind. Simple statements, if know-
-ledge is our object, are to be prized more highly than less simple ones
+understand this there is no need for us to assume a ‘principle of economy of thought’ or anything of the kind. Simple statements, if knowledge is our object, are to be prized more highly than less simple ones
 because they tell us more; because their empirical content is greater; and because they are
 better testable.
 44 GEOMETRICAL SHAPE AND FUNCTIONAL FORM
@@ -5578,28 +4937,22 @@ high prior improbability = paucity of parameters = simplicity.
 It will be seen that these two schemata coincide in part; but on the decisive point—
 probability vs. improbability—they stand in direct opposition. See also appendix *viii.
 some structural components of a theory of experience
-128
 
-
-particularly simple; but a law which can be represented by a loga-
-rithmic function is usually regarded as a simple one. Similarly a sine
+particularly simple; but a law which can be represented by a logarithmic function is usually regarded as a simple one. Similarly a sine
 function is commonly said to be simple, even though the geometrical
 shape of the sine curve is perhaps not so very simple.
-Diﬃculties like this can be cleared up if we remember the connec-
-tion between the number of parameters and the degree of falsiﬁability,
+Diﬃculties like this can be cleared up if we remember the connection between the number of parameters and the degree of falsiﬁability,
 and if we distinguish between the formal and the material reduction of
 dimensions. (We must also remember the rôle of invariance with
 respect to transformations of the co-ordinate systems.) If we speak of
 the geometrical form or shape of a curve, then what we demand is invariance
-with respect to all transformations belonging to the group of dis-
-placements, and we may demand invariance with respect to similarity
+with respect to all transformations belonging to the group of displacements, and we may demand invariance with respect to similarity
 transformations; for we do not think of a geometrical ﬁgure or shape as
 being tied to a deﬁnite position. Consequently, if we think of the shape of
 a one-parametric logarithmic curve (y = logax) as lying anywhere in a
 plane, then it would have ﬁve parameters (if we allow for similarity
 transformations). It would thus be by no means a particularly simple
-curve. If, on the other hand, a theory or law is represented by a loga-
-rithmic curve, then co-ordinate transformations of the kind described
+curve. If, on the other hand, a theory or law is represented by a logarithmic curve, then co-ordinate transformations of the kind described
 are irrelevant. In such cases, there is no point in either rotations or
 parallel displacements or similarity transformations. For a logarithmic
 curve as a rule is a graphic representation in which the co-ordinates
@@ -5632,18 +4985,15 @@ ostensive deﬁnition; cf. section 17) is adopted, then it can be shown
 that the hypothesis of the validity of an Euclidean light-ray-geometry is
 falsiﬁable to a higher degree than any of the competing hypotheses
 which assert the validity of some non-Euclidean geometry. For if we
-measure the sum of the angles of a light-ray triangle, then any signiﬁ-
-cant deviation from 180 degrees will falsify the Euclidean hypothesis.
-The hypothesis of a Bolyai-Lobatschewski geometry with given curva-
-ture, on the other hand, would be compatible with any particular
+measure the sum of the angles of a light-ray triangle, then any signiﬁcant deviation from 180 degrees will falsify the Euclidean hypothesis.
+The hypothesis of a Bolyai-Lobatschewski geometry with given curvature, on the other hand, would be compatible with any particular
 measurement not exceeding 180 degrees. Moreover, to falsify this
 hypothesis it would be necessary to measure not only the sum of the
 angles, but also the (absolute) size of the triangle; and this means that
 in addition to angles, a further unit of measurement, such as a unit of
 area, would have to be deﬁned. Thus we see that more measurements
 are needed for a falsiﬁcation; that the hypothesis is compatible with
-greater variations in the results of measurements; and that it is there-
-fore more diﬃcult to falsify: it is falsiﬁable to a lesser degree. To put it
+greater variations in the results of measurements; and that it is therefore more diﬃcult to falsify: it is falsiﬁable to a lesser degree. To put it
 in another way, Euclidean geometry is the only metric geometry with a
 deﬁnite curvature in which similarity transformations are possible. In
 consequence, Euclidean geometrical ﬁgures can be invariant with
@@ -5655,20 +5005,15 @@ What the conventionalist calls ‘simplicity’ does not correspond to what
 I call ‘simplicity’. It is the central idea of the conventionalist, and also
 his starting point, that no theory is unambiguously determined by
 some structural components of a theory of experience
-130
 
-
-experience; a point with which I agree. He believes that he must there-
-fore choose the ‘simplest’ theory. But since the conventionalist does
+experience; a point with which I agree. He believes that he must therefore choose the ‘simplest’ theory. But since the conventionalist does
 not treat his theories as falsiﬁable systems but rather as conventional
 stipulations, he obviously means by ‘simplicity’ something diﬀerent
 from degree of falsiﬁability.
 The conventionalist concept of simplicity turns out to be indeed
 partly aesthetic and partly practical. Thus the following comment by
-Schlick (cf. section 42) applies to the conventionalist concept of sim-
-plicity, but not to mine: ‘It is certain that one can only deﬁne the
-concept of simplicity by a convention which must always be arbi-
-trary.’1 It is curious that conventionalists themselves have overlooked
+Schlick (cf. section 42) applies to the conventionalist concept of simplicity, but not to mine: ‘It is certain that one can only deﬁne the
+concept of simplicity by a convention which must always be arbitrary.’1 It is curious that conventionalists themselves have overlooked
 the conventional character of their own fundamental concept—that of
 simplicity. That they must have overlooked it is clear, for otherwise they
 would have noticed that their appeal to simplicity could never save
@@ -5696,49 +5041,37 @@ simplicity 131
 
 
 assertions can be better understood if we assume that when speaking
-about simplicity they sometimes had testability in mind. This eluci-
-dates even some of Poincaré’s examples, though it clashes with his views.
-Today I should stress two further points: (1) We can compare theor-
-ies with respect to testability only if at least some of the problems they are
+about simplicity they sometimes had testability in mind. This elucidates even some of Poincaré’s examples, though it clashes with his views.
+Today I should stress two further points: (1) We can compare theories with respect to testability only if at least some of the problems they are
 supposed to solve coincide. (2) Ad hoc hypotheses cannot be compared
 in this way.
 some structural components of a theory of experience
-132
 
-
-8
 PROBABILITY
 In this chapter I shall only deal with the probability of events and the
 problems it raises. They arise in connection with the theory of games
 of chance, and with the probabilistic laws of physics. I shall leave the
-problems of what may be called the probability of hypotheses—such ques-
-tions as whether a frequently tested hypothesis is more probable than
+problems of what may be called the probability of hypotheses—such questions as whether a frequently tested hypothesis is more probable than
 one which has been little tested—to be discussed in sections 79 to 85
 under the title of ‘Corroboration’.
-Ideas involving the theory of probability play a decisive part in mod-
-ern physics. Yet we still lack a satisfactory, consistent deﬁnition of
-probability; or, what amounts to much the same, we still lack a satisfac-
-tory axiomatic system for the calculus of probability. The relations
-between probability and experience are also still in need of clariﬁca-
-tion. In investigating this problem we shall discover what will at ﬁrst
+Ideas involving the theory of probability play a decisive part in modern physics. Yet we still lack a satisfactory, consistent deﬁnition of
+probability; or, what amounts to much the same, we still lack a satisfactory axiomatic system for the calculus of probability. The relations
+between probability and experience are also still in need of clariﬁcation. In investigating this problem we shall discover what will at ﬁrst
 seem an almost insuperable objection to my methodological views. For
 although probability statements play such a vitally important rôle in
 empirical science, they turn out to be in principle impervious to strict
 falsiﬁcation. Yet this very stumbling block will become a touchstone
 upon which to test my theory, in order to ﬁnd out what it is worth.
-Thus we are confronted with two tasks. The ﬁrst is to provide new founda-
-tions for the calculus of probability. This I shall try to do by developing the
+Thus we are confronted with two tasks. The ﬁrst is to provide new foundations for the calculus of probability. This I shall try to do by developing the
 theory of probability as a frequency theory, along the lines followed by
 
 
 Richard von Mises, but without the use of what he calls the ‘axiom of
 convergence’ (or ‘limit axiom’), and with a somewhat weakened
 ‘axiom of randomness’. The second task is to elucidate the relations between
-probability and experience. This means solving what I call the problem of decid-
-ability of probability statements.
+probability and experience. This means solving what I call the problem of decidability of probability statements.
 My hope is that these investigations will help to relieve the present
-unsatisfactory situation in which physicists make much use of prob-
-abilities without being able to say, consistently, what they mean by
+unsatisfactory situation in which physicists make much use of probabilities without being able to say, consistently, what they mean by
 ‘probability’.*1
 47 THE PROBLEM OF INTERPRETING
 PROBABILITY STATEMENTS
@@ -5757,9 +5090,7 @@ in my Postscript.
 (2) A simpliﬁcation of the frequency theory of probability through carrying out,
 more fully and more directly than in 1934, that programme for reconstructing the
 frequency theory which underlies the present chapter.
-(3) The replacement of the objective interpretation of probability in terms of fre-
-quency by another objective interpretation—the propensity interpretation—and the replace-
-ment of the calculus of frequencies by the neo-classical (or measure-theoretical)
+(3) The replacement of the objective interpretation of probability in terms of frequency by another objective interpretation—the propensity interpretation—and the replacement of the calculus of frequencies by the neo-classical (or measure-theoretical)
 formalism.
 The ﬁrst two of these changes date back to 1938 and are indicated in the book itself
 (i.e. in this volume): the ﬁrst by some new appendices, *ii to *v, and the second—the one
@@ -5769,22 +5100,16 @@ chapter, and by the new appendix *vi. The main change is described here in footn
 The third change (which I ﬁrst introduced, tentatively, in 1953) is explained and
 developed in the Postscript, where it is also applied to the problems of quantum theory.
 some structural components of a theory of experience
-134
-
 
 by mixing water and alcohol’, illustrates one kind of statement which,
 suitably interpreted, might perhaps be transformed into a numerical
 probability statement. (For example, ‘The probability of obtaining . . .
 is very near to 1’.) A very diﬀerent kind of non-numerical probability
 statement would be, for instance, ‘The discovery of a physical eﬀect
-which contradicts the quantum theory is highly improbable’; a state-
-ment which, I believe, cannot be transformed into a numerical prob-
-ability statement, or put on a par with one, without distorting its
-meaning. I shall deal ﬁrst with numerical probability statements; non-
-numerical ones, which I think less important, will be considered
+which contradicts the quantum theory is highly improbable’; a statement which, I believe, cannot be transformed into a numerical probability statement, or put on a par with one, without distorting its
+meaning. I shall deal ﬁrst with numerical probability statements; nonnumerical ones, which I think less important, will be considered
 afterwards.
-In connection with every numerical probability statement, the ques-
-tion arises: ‘How are we to interpret a statement of this kind and, in
+In connection with every numerical probability statement, the question arises: ‘How are we to interpret a statement of this kind and, in
 particular, the numerical assertion it makes?’
 48 SUBJECTIVE AND OBJECTIVE INTERPRETATIONS
 The classical (Laplacean) theory of probability deﬁnes the numerical
@@ -5792,15 +5117,11 @@ value of a probability as the quotient obtained by dividing the number
 of favourable cases by the number of equally possible cases. We might
 disregard the logical objections which have been raised against this
 deﬁnition,1 such as that ‘equally possible’ is only another expression
-for ‘equally probable’. But even then we could hardly accept this deﬁn-
-ition as providing an unambiguously applicable interpretation. For
+for ‘equally probable’. But even then we could hardly accept this deﬁnition as providing an unambiguously applicable interpretation. For
 there are latent in it several diﬀerent interpretations which I will
 classify as subjective and objective.
-A subjective interpretation of probability theory is suggested by the fre-
-quent use of expressions with a psychological ﬂavour, like ‘mathemat-
-ical expectation’ or, say, ‘normal law of error’, etc.; in its original form it is
-psychologistic. It treats the degree of probability as a measure of the feel-
-ings of certainty or uncertainty, of belief or doubt, which may be
+A subjective interpretation of probability theory is suggested by the frequent use of expressions with a psychological ﬂavour, like ‘mathematical expectation’ or, say, ‘normal law of error’, etc.; in its original form it is
+psychologistic. It treats the degree of probability as a measure of the feelings of certainty or uncertainty, of belief or doubt, which may be
 1 Cf. for example von Mises, Wahrscheinlichkeit, Statistik und Wahrheit, 1928, pp. 62 ﬀ.; 2nd
 edition, 1936, pp. 84 ﬀ.; English translation by J. Neyman, D. Sholl, and E. Rabinowitsch,
 Probability, Statistics and Truth, 1939, pp. 98 ﬀ. *Although the classical deﬁnition is often
@@ -5827,8 +5148,7 @@ The two extreme cases of this probability relation are derivability and
 contradiction: a statement q ‘gives’,4 it is said, to another statement p
 the probability 1 if p follows from q. In case p and q contradict each
 other the probability given by q to p is zero. Between these extremes lie
-other probability relations which, roughly speaking, may be inter-
-preted in the following way: The numerical probability of a statement p
+other probability relations which, roughly speaking, may be interpreted in the following way: The numerical probability of a statement p
 (given q) is the greater the less its content goes beyond what is already
 contained in that statement q upon which the probability of p depends
 (and which ‘gives’ to p a probability).
@@ -5838,31 +5158,25 @@ belief’. By this he means the amount of trust it is proper to accord to a
 statement p in the light of the information or knowledge which we get
 from that statement q which ‘gives’ probability to p.
 A third interpretation, the objective interpretation, treats every numerical
-*1 The reasons why I count the logical interpretation as a variant of the subjective inter-
-pretation are more fully discussed in chapter *ii of the Postscript, where the subjective
+*1 The reasons why I count the logical interpretation as a variant of the subjective interpretation are more fully discussed in chapter *ii of the Postscript, where the subjective
 interpretation is criticized in detail. Cf. also appendix *ix.
-2 Waismann, Logische Analyse des Wahrscheinlichkeitsbegriﬀs, Erkenntnis 1, 1930, p. 237: ‘Prob-
-ability so deﬁned is then, as it were, a measure of the logical proximity, the deductive
+2 Waismann, Logische Analyse des Wahrscheinlichkeitsbegriﬀs, Erkenntnis 1, 1930, p. 237: ‘Probability so deﬁned is then, as it were, a measure of the logical proximity, the deductive
 connection between the two statements’. Cf. also Wittgenstein, op. cit., proposition 5.15 ﬀ.
 3 J. M. Keynes, A Treatise on Probability, 1921, pp. 95 ﬀ.
 4 Wittgenstein, op. cit., proposition 5.152: ‘If p follows from q, the proposition q gives to
 the proposition p the probability 1. The certainty of logical conclusion is a limiting case
 of probability.’
 some structural components of a theory of experience
-136
-
 
 probability statement as a statement about the relative frequency with
 which an event of a certain kind occurs within a sequence of occurrences.5
 According to this interpretation, the statement ‘The probability of
 the next throw with this die being a ﬁve equals 1/6’ is not really an
 assertion about the next throw; rather, it is an assertion about a whole
-class of throws of which the next throw is merely an element. The state-
-ment in question says no more than that the relative frequency of ﬁves,
+class of throws of which the next throw is merely an element. The statement in question says no more than that the relative frequency of ﬁves,
 within this class of throws, equals 1/6.
 According to this view, numerical probability statements are only
-admissible if we can give a frequency interpretation of them. Those prob-
-ability statements for which a frequency interpretation cannot be
+admissible if we can give a frequency interpretation of them. Those probability statements for which a frequency interpretation cannot be
 given, and especially the non-numerical probability statements, are
 usually shunned by the frequency theorists.
 In the following pages I shall attempt to construct anew the theory
@@ -5870,22 +5184,18 @@ of probability as a (modiﬁed) frequency theory. Thus I declare my faith in
 an objective interpretation; chieﬂy because I believe that only an objective
 theory can explain the application of the probability calculus within
 empirical science. Admittedly, the subjective theory is able to give a
-consistent solution to the problem of how to decide probability state-
-ments; and it is, in general, faced by fewer logical diﬃculties than is the
-objective theory. But its solution is that probability statements are non-
-empirical; that they are tautologies. And this solution turns out to be
+consistent solution to the problem of how to decide probability statements; and it is, in general, faced by fewer logical diﬃculties than is the
+objective theory. But its solution is that probability statements are nonempirical; that they are tautologies. And this solution turns out to be
 utterly unacceptable when we remember the use which physics makes
 of the theory of probability. (I reject that variant of the subjective
 theory which holds that objective frequency statements should be
-derived from subjective assumptions—perhaps using Bernoulli’s the-
-orem as a ‘bridge’:6 I regard this programme for logical reasons as
+derived from subjective assumptions—perhaps using Bernoulli’s theorem as a ‘bridge’:6 I regard this programme for logical reasons as
 unrealizable.)
 5 For the older frequency theory cf. the critique of Keynes, op. cit., pp. 95 ﬀ., where special
 reference is made to Venn’s The Logic of Chance. For Whitehead’s view cf. section 80 (note
 2). Chief representatives of the new frequency theory are: R. von Mises (cf. note 1 to
 section 50), Dörge, Kamke, Reichenbach and Tornier. *A new objective interpretation,
-very closely related to the frequency theory, but diﬀering from it even in its mathemat-
-ical formalism, is the propensity interpretation, introduced in sections *53 ﬀ. of my Postscript.
+very closely related to the frequency theory, but diﬀering from it even in its mathematical formalism, is the propensity interpretation, introduced in sections *53 ﬀ. of my Postscript.
 6 Keynes’s greatest error; cf. section 62, below, especially note 3. *I have not changed my
 view on this point even though I now believe that Bernoulli’s theorem may serve as a
 ‘bridge’ within an objective theory—as a bridge from propensities to statistics. See also
@@ -5904,8 +5214,7 @@ We have, as it were, the feeling that not a scientist but only a prophet
 could predict them. And yet, it is just this incalculability that makes us
 conclude that the calculus of probability can be applied to these
 events.
-This somewhat paradoxical conclusion from incalculability to cal-
-culability (i.e. to the applicability of a certain calculus) ceases, it is true,
+This somewhat paradoxical conclusion from incalculability to calculability (i.e. to the applicability of a certain calculus) ceases, it is true,
 to be paradoxical if we accept the subjective theory. But this way of
 avoiding the paradox is extremely unsatisfactory. For it entails the view
 that the probability calculus is not a method of calculating predictions,
@@ -5930,13 +5239,10 @@ by C. Stumpf (Sitzungsberichte der Bayerischen Akademie der Wissenschaften, phil
 p. 41). *I believe that this widely held view is responsible for the worst confusions. This
 will be shown in detail in my Postscript, chapters *ii and *v.
 some structural components of a theory of experience
-138
-
 
 of the theory in its present form. But it is possible to ﬁnd a satisfactory
 solution within the framework of the frequency theory, after this
-axiom has been eliminated. It will be found by analysing the assump-
-tions which allow us to argue from the irregular succession of single
+axiom has been eliminated. It will be found by analysing the assumptions which allow us to argue from the irregular succession of single
 occurrences to the regularity or stability of their frequencies.
 50 THE FREQUENCY THEORY OF VON MISES
 A frequency theory which provides a foundation for all the principal
@@ -5949,10 +5255,8 @@ such as a series of throws with a die. These sequences are deﬁned as
 axiom of convergence (or the limit-axiom) and the axiom of randomness. If a
 sequence of events satisﬁes both of these conditions it is called by von
 Mises a ‘collective’.
-A collective is, roughly speaking, a sequence of events or occur-
-rences which is capable in principle of being continued indeﬁnitely;
-for example a sequence of throws made with a supposedly indestruct-
-ible die. Each of these events has a certain character or property; for
+A collective is, roughly speaking, a sequence of events or occurrences which is capable in principle of being continued indeﬁnitely;
+for example a sequence of throws made with a supposedly indestructible die. Each of these events has a certain character or property; for
 example, the throw may show a ﬁve and so have the property ﬁve. If we
 take all those throws having the property ﬁve which have appeared up
 to a certain element of the sequence, and divide their number by the
@@ -5963,65 +5267,30 @@ element of the sequence, then we obtain in this way a new sequence—
 the sequence of the relative frequencies of ﬁves. This sequence of frequencies is
 distinct from the original sequence of events to which it corresponds,
 1 R. von Mises, Fundamentalsätze der Wahrscheinlichkeitsrechnung, Mathematische Zeitschrift 4, 1919,
-p. 1; Grundlagen der Wahrscheinlichkeitsrechnung, Mathematische Zeitschrift 5, 1919, p. 52; Wahrschein-
-lichkeit, Statistik, und Wahrheit (1928), 2nd edition 1936, English translation by J. Neyman,
+p. 1; Grundlagen der Wahrscheinlichkeitsrechnung, Mathematische Zeitschrift 5, 1919, p. 52; Wahrscheinlichkeit, Statistik, und Wahrheit (1928), 2nd edition 1936, English translation by J. Neyman,
 D. Sholl, and E. Rabinowitsch: Probability, Statistics and Truth, 1939; Wahrscheinlichkeitsrechnung
 und ihre Anwendung in der Statistik und theoretischen Physik (Vorlesungen über angewandte Mathematik
 1), 1931.
 probability 139
 
 
-and which may be called the ‘event-sequence’ or the ‘property-
-sequence’.
+and which may be called the ‘event-sequence’ or the ‘propertysequence’.
 As a simple example of a collective I choose what we may call an
 ‘alternative’. By this term we denote a sequence of events supposed to
 have two properties only—such as a sequence of tosses of a coin. The one
 property (heads) will be denoted by ‘1’, and the other (tails) by ‘0’.
 A sequence of events (or sequence of properties) may then be
 represented as follows:
-0
-1
-1
-0
-0
-0
-1
-1
-1
-0
-1
-0
-1
+
+
 0 . . . .
 (A)
 Corresponding to this ‘alternative’—or, more precisely, correlated
 with the property ‘1’ of this alternative—is the following sequence of
 relative frequencies, or ‘frequency-sequence’:2
 O 1
-2
-2
-3
-2
-4
-2
-5
-2
-6
-3
-7
-4
-8
-5
-9
-5
-10
-6
-11
-6
-12
-7
-13
-7
+
+
 14 . . . .
 (A′)
 Now the axiom of convergence (or ‘limit-axiom’) postulates that, as the
@@ -6033,34 +5302,28 @@ In any collective there are at least two properties; and if we are given
 the limits of the frequencies corresponding to all the properties of a
 collective, then we are given what is called its ‘distribution’.
 The axiom of randomness or, as it is sometimes called, ‘the principle of the
-excluded gambling system’, is designed to give mathematical expres-
-sion to the chance-like character of the sequence. Clearly, a gambler
+excluded gambling system’, is designed to give mathematical expression to the chance-like character of the sequence. Clearly, a gambler
 would be able to improve his chances by the use of a gambling system
 2 We can correlate with every sequence of properties as many distinct sequences of
 relative frequencies as there are properties deﬁned in the sequence. Thus in the case of an
 alternative there will be two distinct sequences. Yet these two sequences are derivable
 from one another, since they are complementary (corresponding terms add up to 1). For
-this reason I shall, for brevity, refer to ‘the (one) sequence of relative frequencies correl-
-ated with the alternative (α)’, by which I shall always mean the sequence of frequencies
+this reason I shall, for brevity, refer to ‘the (one) sequence of relative frequencies correlated with the alternative (α)’, by which I shall always mean the sequence of frequencies
 correlated with the property ‘1’ of this alternative (α).
 some structural components of a theory of experience
-140
-
 
 if sequences of penny tosses showed regularities such as, say, a fairly
 regular appearance of tails after every run of three heads. Now the
 axiom of randomness postulates of all collectives that there does not
 exist a gambling system that can be successfully applied to them. It
 postulates that, whatever gambling system we may choose for selecting
-supposedly favourable tosses, we shall ﬁnd that, if gambling is con-
-tinued long enough, the relative frequencies in the sequence of tosses
+supposedly favourable tosses, we shall ﬁnd that, if gambling is continued long enough, the relative frequencies in the sequence of tosses
 supposed to be favourable will approach the same limit as those in the
 sequence of all tosses. Thus a sequence for which there exists a gambling
 system by means of which the gambler can improve his chances is not
 a collective in the sense of von Mises.
 Probability, for von Mises, is thus another term for ‘limit of relative
-frequency in a collective’. The idea of probability is therefore applic-
-able only to sequences of events; a restriction likely to be quite unacceptable
+frequency in a collective’. The idea of probability is therefore applicable only to sequences of events; a restriction likely to be quite unacceptable
 from a point of view such as Keynes’s. To critics objecting to the
 narrowness of his interpretation, von Mises replied by stressing the
 diﬀerence between the scientiﬁc use of probability, for example in
@@ -6069,12 +5332,10 @@ a mistake to demand that a properly deﬁned scientiﬁc term has to
 correspond in all respects to inexact, pre-scientiﬁc usage.
 The task of the calculus of probability consists, according to von Mises,
 simply and solely in this: to infer certain ‘derived collectives’ with
-‘derived distributions’ from certain given ‘initial collectives’ with cer-
-tain given ‘initial distributions’; in short, to calculate probabilities
+‘derived distributions’ from certain given ‘initial collectives’ with certain given ‘initial distributions’; in short, to calculate probabilities
 which are not given from probabilities which are given.
 The distinctive features of his theory are summarized by von Mises
-in four points:3 the concept of the collective precedes that of prob-
-ability; the latter is deﬁned as the limit of the relative frequencies; an
+in four points:3 the concept of the collective precedes that of probability; the latter is deﬁned as the limit of the relative frequencies; an
 axiom of randomness is formulated; and the task of the calculus of
 probability is deﬁned.
 51 PLAN FOR A NEW THEORY OF PROBABILITY
@@ -6085,19 +5346,14 @@ probability 141
 
 
 criticism which is not, I think, without some justiﬁcation. In particular,
-objections have been raised against combining the axiom of con-
-vergence with the axiom of randomness1 on the ground that it is
-inadmissible to apply the mathematical concept of a limit, or of con-
-vergence, to a sequence which by deﬁnition (that is, because of the
+objections have been raised against combining the axiom of convergence with the axiom of randomness1 on the ground that it is
+inadmissible to apply the mathematical concept of a limit, or of convergence, to a sequence which by deﬁnition (that is, because of the
 axiom of randomness) must not be subject to any mathematical rule or
 law. For the mathematical limit is nothing but a characteristic property of the
-mathematical rule or law by which the sequence is determined. It is merely a prop-
-erty of this rule or law if, for any chosen fraction arbitrarily close to
-zero, there is an element in the sequence such that all elements follow-
-ing it deviate by less than that fraction from some deﬁnite value—
+mathematical rule or law by which the sequence is determined. It is merely a property of this rule or law if, for any chosen fraction arbitrarily close to
+zero, there is an element in the sequence such that all elements following it deviate by less than that fraction from some deﬁnite value—
 which is then called their limit.
-To meet such objections it has been proposed to refrain from com-
-bining the axiom of convergence with that of randomness, and to
+To meet such objections it has been proposed to refrain from combining the axiom of convergence with that of randomness, and to
 postulate only convergence, i.e. the existence of a limit. As to the axiom
 of randomness, the proposal was either to abandon it altogether
 (Kamke) or to replace it by a weaker requirement (Reichenbach).
@@ -6106,8 +5362,7 @@ which is the cause of the trouble.
 In contrast to these views, I am inclined to blame the axiom of
 convergence no less than the axiom of randomness. Thus I think that
 there are two tasks to be performed: the improvement of the axiom of
-randomness—mainly a mathematical problem; and the complete elim-
-ination of the axiom of convergence—a matter of particular concern
+randomness—mainly a mathematical problem; and the complete elimination of the axiom of convergence—a matter of particular concern
 for the epistemologist.2 (Cf. section 66.)
 In what follows I propose to deal ﬁrst with the mathematical, and
 afterwards with the epistemological question.
@@ -6122,8 +5377,6 @@ appendix *vi.
 3 A full account of the mathematical construction will be published separately. *Cf. the
 new appendix *vi.
 some structural components of a theory of experience
-142
-
 
 modiﬁed, namely, so as to demand no more than is needed to achieve
 this aim. Or to be more precise, my aim is the derivation of the
@@ -6140,8 +5393,7 @@ discussing the axiom of randomness.
 Next I shall proceed to inﬁnite sequences, i.e. to sequences of events
 which can be continued indeﬁnitely, by the old method of introducing
 an axiom of convergence, since we need something like it for our
-discussion of the axiom of randomness. And after deriving and exam-
-ining Bernoulli’s theorem, I shall consider how the axiom of convergence might
+discussion of the axiom of randomness. And after deriving and examining Bernoulli’s theorem, I shall consider how the axiom of convergence might
 be eliminated, and what sort of axiomatic system we should be left with as
 the result.
 In the course of the mathematical derivation I shall use three diﬀerent
@@ -6179,17 +5431,14 @@ N(α)
 (Deﬁnition 1)
 In terms of our example this would mean: ‘The relative frequency of
 ﬁves among yesterday’s throws with this die is, by deﬁnition, equal to
-the quotient obtained by dividing the number of ﬁves, thrown yester-
-day with this die, by the total number of yesterday’s throws with this
+the quotient obtained by dividing the number of ﬁves, thrown yesterday with this die, by the total number of yesterday’s throws with this
 die.’*1
 From this rather trivial deﬁnition, the theorems of the calculus of
 frequency in ﬁnite classes can very easily be derived (more especially, the
-general multiplication theorem; the theorem of addition; and the the-
-orems of division, i.e. Bayes’s rules. Cf. appendix ii). Of the theorems of
+general multiplication theorem; the theorem of addition; and the theorems of division, i.e. Bayes’s rules. Cf. appendix ii). Of the theorems of
 this calculus of frequency, and of the calculus of probability in general,
 it is characteristic that cardinal numbers (N-numbers) never appear in
-them, but only relative frequencies, i.e. ratios, or F-numbers. The N-
-numbers only occur in the proofs of a few fundamental theorems
+them, but only relative frequencies, i.e. ratios, or F-numbers. The Nnumbers only occur in the proofs of a few fundamental theorems
 which are directly deduced from the deﬁnition; but they do not occur
 in the theorems themselves.*2
 *1 Deﬁnition 1 is of course related to the classical deﬁnition of probability as the ratio of
@@ -6199,8 +5448,6 @@ from the latter deﬁnition: there is no assumption involved here that the eleme
 *2 By selecting a set of F-formulae from which the other F-formulae can be derived, we
 obtain a formal axiom system for probability; compare the appendices ii, *ii, *iv, and *v.
 some structural components of a theory of experience
-144
-
 
 How this is to be understood will be shown here with the help of
 one very simple example. (Further examples will be found in appendix
@@ -6208,21 +5455,17 @@ ii.) Let us denote the class of all elements which do not belong to β by
 ‘β-’ (read: ‘the complement of β’ or simply: ‘non-β’). Then we may
 write
 αF″(β) + αF″(β-) = 1
-While this theorem only contains F-numbers, its proof makes use of N-
-numbers. For the theorem follows from the deﬁnition (1) with the
+While this theorem only contains F-numbers, its proof makes use of Nnumbers. For the theorem follows from the deﬁnition (1) with the
 help of a simple theorem from the calculus of classes which asserts that
 N(α.β) + N(α.β-) = N(α).
 53 SELECTION, INDEPENDENCE,
 INSENSITIVENESS, IRRELEVANCE
-Among the operations which can be performed with relative frequen-
-cies in ﬁnite classes, the operation of selection1 is of special importance
+Among the operations which can be performed with relative frequencies in ﬁnite classes, the operation of selection1 is of special importance
 for what follows.
-Let a ﬁnite reference-class α be given, for example the class of but-
-tons in a box, and two property-classes, β (say, the red buttons) and γ
+Let a ﬁnite reference-class α be given, for example the class of buttons in a box, and two property-classes, β (say, the red buttons) and γ
 (say, the large buttons). We may now take the product-class α.β as a new
 reference-class, and raise the question of the value of α.βF″ (γ), i.e. of the
-frequency of γ within the new reference-class.2 The new reference-
-class α.β may be called ‘the result of selecting β-elements from α’, or
+frequency of γ within the new reference-class.2 The new referenceclass α.β may be called ‘the result of selecting β-elements from α’, or
 the ‘selection from α according to the property β’; for we may think of
 it as being obtained by selecting from α all those elements (buttons)
 which have the property β (red).
@@ -6239,19 +5482,16 @@ In this case we say (following Hausdorﬀ3) that the properties β and γ
 are ‘mutually independent, within the reference-class α’. The relation of
 independence is a three-termed relation and is symmetrical in the
 properties β and γ.4 If two properties β and γ are (mutually)
-independent within a reference-class α we can also say that the prop-
-erty γ is, within α, insensitive to the selection of β-elements; or perhaps
+independent within a reference-class α we can also say that the property γ is, within α, insensitive to the selection of β-elements; or perhaps
 that the reference-class α is, with respect to this property γ, insensitive
 to a selection according to the property β.
 The mutual independence, or insensitiveness, of β and γ within α
-could also—from the point of view of the subjective theory—be inter-
-preted as follows: If we are informed that a particular element of the
+could also—from the point of view of the subjective theory—be interpreted as follows: If we are informed that a particular element of the
 class α has the property β, then this information is irrelevant if β and γ
 are mutually independent within α; irrelevant namely, to the question
 whether this element also has the property γ, or not.*1 If, on the other
 hand, we know that γ occurs more often (or less often) in the subclass
-α.β (which has been selected from α according to β), then the infor-
-mation that an element has the property β is relevant to the question
+α.β (which has been selected from α according to β), then the information that an element has the property β is relevant to the question
 whether this element also has the property γ or not.5
 3 Hausdorﬀ, Berichte über die Verhandlungen der sächsischen Ges. d. Wissenschaften, Leipzig, mathem.-
 physik. Klasse 53, 1901, p. 158.
@@ -6265,16 +5505,13 @@ counter-example. Take a universe of 5 buttons; 4 are round (α); 2 are round and
 (αβ); 2 are round and large (αγ); 1 is round, black, and large (αβγ); and 1 is square,
 black, and large (βγ). Then we do not have triple symmetry since αF″ (γ) ≠βF″ (γ).
 *1 Thus any information about the possession of properties is relevant, or irrelevant, if
-and only if the properties in question are, respectively, dependent or independent. Rele-
-vance can thus be deﬁned in terms of dependence, but the reverse is not the case. (Cf. the
+and only if the properties in question are, respectively, dependent or independent. Relevance can thus be deﬁned in terms of dependence, but the reverse is not the case. (Cf. the
 next footnote, and note *1 to section 55.)
 5 Keynes objected to the frequency theory because he believed that it was impossible to
 deﬁne relevance in its terms; cf. op. cit., pp. 103 ﬀ. *In fact, the subjective theory cannot deﬁne
 (objective) independence, which is a serious objection as 1 show in my Postscript, chapter *ii,
 especially sections *40 to *43.
 some structural components of a theory of experience
-146
-
 
 54 FINITE SEQUENCES. ORDINAL SELECTION AND
 NEIGHBOURHOOD SELECTION
@@ -6306,11 +5543,8 @@ to distinguish two kinds of properties: its primary properties such as
 position in the sequence; and its secondary properties such as ‘even’ or
 ‘successor of tails’, etc., which an element acquires by virtue of its
 position in the sequence.
-A sequence with two primary properties has been called ‘alterna-
-tive’. As von Mises has shown, it is possible to develop (if we are
-careful) the essentials of the theory of probability as a theory of alterna-
-tives, without sacriﬁcing generality. Denoting the two primary proper-
-ties of an alternative by the ﬁgures ‘1’ and ‘0’, every alternative can be
+A sequence with two primary properties has been called ‘alternative’. As von Mises has shown, it is possible to develop (if we are
+careful) the essentials of the theory of probability as a theory of alternatives, without sacriﬁcing generality. Denoting the two primary properties of an alternative by the ﬁgures ‘1’ and ‘0’, every alternative can be
 represented as a sequence of ones and zeros.
 probability 147
 
@@ -6321,43 +5555,22 @@ of certain ﬁnite alternatives more closely.*1
 55 N-FREEDOM IN FINITE SEQUENCES
 Let us take a ﬁnite alternative α, for example one consisting of a
 thousand ones and zeros regularly arranged as follows:
-1
-1
-0
-0
-1
-1
-0
-0
-1
-1
-0
-0
-1
-1
-0
+
+
 0 . . .
 (α)
-In this alternative we have equal distribution, i.e. the relative frequen-
-cies of the ones and the zeros are equal. If we denote the relative
+In this alternative we have equal distribution, i.e. the relative frequencies of the ones and the zeros are equal. If we denote the relative
 frequency of the property 1 by ‘F″ (1)’ and that of 0 by ‘F″ (0)’, we can
 write:
 αF″ (1) = αF″ (0) = 1
-2
+
 (1)
 We now select from α all terms with the neighbourhood-property of
 immediately succeeding a one (within the sequence α). If we denote this
 property by ‘β’, we may call the selected sub-sequence ‘α.β’. It will
 have the structure:
-1
-0
-1
-0
-1
-0
-1
-0
-1
+
+
 0 . . .
 (α.β)
 This sequence is again an alternative with equal distribution. Moreover,
@@ -6366,29 +5579,20 @@ changed; i.e. we have
 α.βF″ (1) = αF″ (1);
 α.βF″ (0) = αF″ (0).
 (2)
-In the terminology introduced in section 53, we can say that the pri-
-mary properties of the alternative α are insensitive to selection according
+In the terminology introduced in section 53, we can say that the primary properties of the alternative α are insensitive to selection according
 to the property β; or, more brieﬂy, that α is insensitive to selection
 according to β.
 *1 I suggest that sections 55 to 64, or perhaps only 56 to 64, be skipped at ﬁrst reading.
 It may even be advisable to turn from here, or from the end of section 55, direct to
 chapter 10.
 some structural components of a theory of experience
-148
-
 
 Since every element of α has either the property β (that of being the
 successor of a one) or that of being the successor of a zero, we can
 denote the latter property by ‘β-’. If we now select the members having
 the property β- we obtain the alternative:
-0
-1
-0
-1
-0
-1
-0
-1
+
+
 0 . . .
 (α.β-)
 This sequence shows a very slight deviation from equal distribution in
@@ -6399,16 +5603,14 @@ equal distribution (or from other distributions) arise only on account
 of the ﬁrst or last elements: they can be made as small as we please by
 making the sequence suﬃciently long. For this reason they will be
 neglected in what follows; especially since our investigations are to be
-extended to inﬁnite sequences, where these deviations vanish. Accord-
-ingly, we shall say that the alternative α.β- has equal distribution, and
+extended to inﬁnite sequences, where these deviations vanish. Accordingly, we shall say that the alternative α.β- has equal distribution, and
 that the alternative α is insensitive to the selection of elements having the
 property β-. As a consequence, α, or rather the relative frequency of the
 primary properties of α, is insensitive to both, a selection according to
 β and according to β-; and we may therefore say that α is insensitive to
 every selection according to the property of the immediate predecessor.
 Clearly, this insensitivity is due to certain aspects of the structure of
-the alternative α; aspects which may distinguish it from other alterna-
-tives. For example, the alternatives α.β and α.β- are not insensitive to
+the alternative α; aspects which may distinguish it from other alternatives. For example, the alternatives α.β and α.β- are not insensitive to
 selection according to the property of a predecessor.
 We can now investigate the alternative α in order to see whether it is
 insensitive to other selections, especially to selection according to the
@@ -6419,33 +5621,26 @@ four possible pairs 1,1; 1,0; 0,1; 0,0. In none of these cases have the
 resulting sub-sequences equal distribution; on the contrary, they all
 consist of uninterrupted blocks (or ‘iterations’), i.e. of nothing but ones, or
 of nothing but zeros.
-The fact that α is insensitive to selection according to single pre-
-decessors, but not insensitive to selection according to pairs of
+The fact that α is insensitive to selection according to single predecessors, but not insensitive to selection according to pairs of
 probability 149
 
 
-predecessors, might be expressed, from the point of view of the sub-
-jective theory, as follows. Information about the property of one pre-
-decessor of any element in α is irrelevant to the question of the
+predecessors, might be expressed, from the point of view of the subjective theory, as follows. Information about the property of one predecessor of any element in α is irrelevant to the question of the
 property of this element. On the other hand, information about the
 properties of its pair of predecessors is of the highest relevance; for given
 the law according to which α is constructed, it enables us to predict the
-property of the element in question: the information about the proper-
-ties of its pair of predecessors furnishes us, so to speak, with the initial
+property of the element in question: the information about the properties of its pair of predecessors furnishes us, so to speak, with the initial
 conditions needed for deducing the prediction. (The law according to
 which α is constructed requires a pair of properties as initial conditions;
-thus it is ‘two-dimensional’ with respect to these properties. The speci-
-ﬁcation of one property is ‘irrelevant’ only in being composite in an
+thus it is ‘two-dimensional’ with respect to these properties. The speciﬁcation of one property is ‘irrelevant’ only in being composite in an
 insuﬃcient degree to serve as an initial condition. Cf. section 38.*1)
 Remembering how closely the idea of causality—of cause and eﬀect—is
 related to the deduction of predictions, I shall now make use of the
 following terms. The assertion previously made about the alternative α,
 ‘α is insensitive to selection according to a single predecessor’, I shall
-now express by saying, ‘α is free from any after-eﬀect of single predeces-
-sors’ or brieﬂy, ‘α is 1-free’. And instead of saying as before, that α is
+now express by saying, ‘α is free from any after-eﬀect of single predecessors’ or brieﬂy, ‘α is 1-free’. And instead of saying as before, that α is
 (or is not) ‘insensitive to selection according to pairs of predecessors’, I
-shall now say: ‘α is (not) free from the after-eﬀects of pairs of predeces-
-sors’, or brieﬂy, ‘α is (not) 2-free.’*2
+shall now say: ‘α is (not) free from the after-eﬀects of pairs of predecessors’, or brieﬂy, ‘α is (not) 2-free.’*2
 Using the 1-free alternative α as our prototype we can now easily
 *1 This is another indication of the fact that the terms ‘relevant’ and ‘irrelevant’, ﬁguring
 so largely in the subjective theory, are grossly misleading. For if p is irrelevant, and
@@ -6453,8 +5648,7 @@ likewise q, it is a little surprising to learn that p.q may be of the highest re
 appendix *ix, especially points 5 and 6 of the ﬁrst note.
 *2 The general idea of distinguishing neighbourhoods according to their size, and of
 operating with well-deﬁned neighbourhood-selections was introduced by me. But the
-term ‘free from after-eﬀect’ (‘nachwirkungsfrei’) is due to Reichenbach. Reichenbach, how-
-ever, used it at the time only in the absolute sense of ‘insensitive to selection according to
+term ‘free from after-eﬀect’ (‘nachwirkungsfrei’) is due to Reichenbach. Reichenbach, however, used it at the time only in the absolute sense of ‘insensitive to selection according to
 any preceding group of elements’. The idea of introducing a recursively deﬁnable concept of
 1-freedom, 2-freedom, . . . and n-freedom, and of thus utilizing the recursive method for
 analysing neighbourhood selections and especially for constructing random sequences is mine.
@@ -6463,56 +5657,33 @@ events.) This method is quite diﬀerent from Reichenbach’s, See also footnote
 58, and especially footnote 2 to section 60, below. Added 1968: I have now found that
 the term was used long before Reichenbach by Smoluchowski.
 some structural components of a theory of experience
-150
-
 
 construct other sequences, again with equal distribution, which are not
 only free from the after eﬀects of one predecessor, i.e. 1-free (like α),
 but which are, in addition, free from the after eﬀects of a pair of
 predecessors, i.e., 2-free; and after this, we can go on to sequences
 which are 3-free, etc. In this way we are led to a general idea which is
-fundamental for what follows. It is the idea of freedom from the after-
-eﬀects of all the predecessors up to some number n; or, as we shall say,
+fundamental for what follows. It is the idea of freedom from the aftereﬀects of all the predecessors up to some number n; or, as we shall say,
 of n-freedom. More precisely, we shall call a sequence ‘n-free’ if, and
-only if, the relative frequencies of its primary properties are ‘n-
-insensitive’, i.e. insensitive to selection according to single predecessors
+only if, the relative frequencies of its primary properties are ‘ninsensitive’, i.e. insensitive to selection according to single predecessors
 and according to pairs of predecessors and according to triplets of
 predecessors . . . and according to n-tuples of predecessors.1
 An alternative α which is 1-free can be constructed by repeating the
 generating period
-1
-1
-0
+
+
 0 . . .
 (A)
 any number of times. Similarly we obtain a 2-free alternative with
 equal distribution if we take
-1
-0
-1
-1
-1
-0
-0
+
+
 0 . . .
 (B)
 as its generating period. A 3-free alternative is obtained from the
 generating period
-1
-0
-1
-1
-0
-0
-0
-0
-1
-1
-1
-1
-0
-1
-0
+
+
 0 . . .
 (C)
 and a 4-free alternative is obtained from the generating period
@@ -6527,8 +5698,7 @@ Insensitivity to selection of n−1-tuples (etc.) can then be proved easily.
 probability 151
 
 
-The generating period of an n-free alternative with equal distribu-
-tion must contain at least 2n + 1 elements. The periods given as examples
+The generating period of an n-free alternative with equal distribution must contain at least 2n + 1 elements. The periods given as examples
 can, of course, begin at diﬀerent places; (C) for example can begin
 with its fourth element, so that we obtain, in place of (C)
 1 0 0 0 0 1 1 1 1 0 1 0 0 1 0 1 . . .
@@ -6564,8 +5734,6 @@ approximately random; and it even allows us to deﬁne a degree of approximation
 more elaborate deﬁnition may be based upon the method (of maximizing my
 E-function) described under points 8 ﬀ. of my Third Note reprinted in appendix *ix.
 some structural components of a theory of experience
-152
-
 
 begin with the segment of the ﬁrst n elements of α. Next comes the
 segment of the elements 2 to n + 1 of α. In general, we take as the xth
@@ -6633,16 +5801,13 @@ It is quite easy to extend the results obtained for n-free ﬁnite sequences
 to inﬁnite n-free sequences which are deﬁned by a generating period (cf.
 section 55). An inﬁnite sequence of elements playing the rôle of the
 reference-class to which our relative frequencies are related may be
-1 The corresponding problem in connection with inﬁnite sequences of adjoining seg-
-ments I call ‘Bernoulli’s problem’ (following von Mises, Wahrscheinlichkeitsrechnung, 1931,
+1 The corresponding problem in connection with inﬁnite sequences of adjoining segments I call ‘Bernoulli’s problem’ (following von Mises, Wahrscheinlichkeitsrechnung, 1931,
 p. 128); and in connection with inﬁnite sequences of overlapping segments I call it ‘the
 quasi-Bernoulli problem’ (cf. note 1 to section 60). Thus the problem here discussed
 would be the quasi-Bernoulli problem for ﬁnite sequences.
 *1 In the original text, I used the term ‘Newton’s formula’; but since this seems to be
 rarely used in English, I decided to translate it by ‘binomial formula’.
 some structural components of a theory of experience
-154
-
 
 called a ‘reference-sequence’. It more or less corresponds to a
 ‘collective’ in von Mises’s sense.*1
@@ -6667,8 +5832,7 @@ that of analysing randomness as far as it is possible within the region of ﬁni
 and of proceeding to inﬁnite reference sequences (in which we need limits of relative
 frequencies) only afterwards, with the aim of obtaining a theory in which the existence
 of frequency limits follows from the random character of the sequence. I could have
-carried out this programme very easily by constructing, as my next step (ﬁnite) shortest n-
-free sequences for a growing n, as I did in my old appendix iv. It can then be easily shown
+carried out this programme very easily by constructing, as my next step (ﬁnite) shortest nfree sequences for a growing n, as I did in my old appendix iv. It can then be easily shown
 that if, in these shortest sequences, n is allowed to grow without bounds, the sequences
 become inﬁnite, and the frequencies turn without further assumption into frequency
 limits. (See note *2 to appendix iv, and my new appendix *vi.) All this would have
@@ -6688,13 +5852,8 @@ probability 155
 
 the following: ‘The nth element of the sequence α shall be 0 if, and
 only if, n is divisible by four’. This deﬁnes the inﬁnite alternative
-1
-1
-1
-0
-1
-1
-1
+
+
 0 . . .
 (α)
 with the limits of the relative frequencies: αF′ (1) = 3/4; and αF′
@@ -6723,19 +5882,14 @@ listing its elements singly, one after the other—so that we can only
 know a ﬁnite piece of it, a ﬁnite segment, however long—then it is
 impossible to determine, from the properties of this segment, whether
 the sequence of which it is a part is a mathematical or an empirical
-sequence. Only when a rule of construction is given—that is, an ‘inten-
-sional’ rule—can we decide whether a sequence is mathematical or
+sequence. Only when a rule of construction is given—that is, an ‘intensional’ rule—can we decide whether a sequence is mathematical or
 empirical.
 Since we wish to tackle our inﬁnite sequences with the help of the
 concept of a limit (of relative frequencies), we must restrict our
 investigation to mathematical sequences, and indeed to those for
 some structural components of a theory of experience
-156
 
-
-which the corresponding sequence of relative frequencies is con-
-vergent. This restriction amounts to introducing an axiom of con-
-vergence. (The problems connected with this axiom will not be dealt
+which the corresponding sequence of relative frequencies is convergent. This restriction amounts to introducing an axiom of convergence. (The problems connected with this axiom will not be dealt
 with until sections 63 to 66, since it turns out to be convenient to
 discuss them along with the ‘law of great numbers’.)
 Thus we shall be concerned only with mathematical sequences. Yet we
@@ -6752,8 +5906,7 @@ calculate these frequencies. Clearly, in connection with ﬁnite classes, it
 does not matter in the least how we obtain the frequencies from which
 we start our calculations. These frequencies may be obtained by actual
 counting, or from a mathematical rule, or from a hypothesis of some
-kind or other. Or we may simply invent them. In calculating frequen-
-cies we accept some frequencies as given, and derive other frequencies
+kind or other. Or we may simply invent them. In calculating frequencies we accept some frequencies as given, and derive other frequencies
 from them.
 The same is true of estimates of frequencies in inﬁnite sequences.
 Thus the question as to the ‘sources’ of our frequency estimates is
@@ -6766,18 +5919,15 @@ say, two ways in which they may suggest themselves to us. One is an
 estimate based upon an ‘equal-chance hypothesis’ (or equi-probability
 hypothesis), the other is an estimate based upon an extrapolation of
 statistical ﬁndings.
-1 Later, in sections 65 to 68, I will discuss the problem of decidability of frequency hypoth-
-eses, that is to say, the problem whether a conjecture or hypothesis of this kind can be
+1 Later, in sections 65 to 68, I will discuss the problem of decidability of frequency hypotheses, that is to say, the problem whether a conjecture or hypothesis of this kind can be
 tested; and if so, how; whether it can be corroborated in any way; and whether it is
 falsiﬁable. *Cf. also appendix *ix.
 probability 157
 
 
 By an ‘equal-chance hypothesis’ I mean a hypothesis asserting that the
-probabilities of the various primary properties are equal: it is a hypoth-
-esis asserting equal distribution. Equal-chance hypotheses are usually based
-upon considerations of symmetry.2 A highly typical example is the con-
-jecture of equal frequencies in dicing, based upon the symmetry and
+probabilities of the various primary properties are equal: it is a hypothesis asserting equal distribution. Equal-chance hypotheses are usually based
+upon considerations of symmetry.2 A highly typical example is the conjecture of equal frequencies in dicing, based upon the symmetry and
 geometrical equivalence of the six faces of the cube.
 For frequency hypotheses based on statistical extrapolation, estimates of
 rates of mortality provide a good example. Here statistical data about
@@ -6786,32 +5936,25 @@ will continue to be very nearly stable, or that they will not change much—at
 least during the period immediately ahead—an extrapolation to
 unknown cases is made from known cases, i.e. from occurrences which
 have been empirically classiﬁed, and counted.
-People with inductivist leanings may tend to overlook the hypo-
-thetical character of these estimates: they may confuse a hypothetical
+People with inductivist leanings may tend to overlook the hypothetical character of these estimates: they may confuse a hypothetical
 estimate, i.e. a frequency-prediction based on statistical extrapolation,
 with one of its empirical ‘sources’—the classifying and actual counting
 of past occurrences and sequences of occurrences. The claim is often
 made that we ‘derive’ estimates of probabilities—that is, predictions of
 frequencies—from past occurrences which have been classiﬁed and
 counted (such as mortality statistics). But from a logical point of view
-there is no justiﬁcation for this claim. We have made no logical deriv-
-ation at all. What we may have done is to advance a non-veriﬁable
+there is no justiﬁcation for this claim. We have made no logical derivation at all. What we may have done is to advance a non-veriﬁable
 hypothesis which nothing can ever justify logically: the conjecture that
 frequencies will remain constant, and so permit of extrapolation. Even
-equal-chance hypotheses are held to be ‘empirically derivable’ or ‘empiric-
-ally explicable’ by some believers in inductive logic who suppose them
+equal-chance hypotheses are held to be ‘empirically derivable’ or ‘empirically explicable’ by some believers in inductive logic who suppose them
 to be based upon statistical experience, that is, upon empirically
-observed frequencies. For my own part I believe, however, that in mak-
-ing this kind of hypothetical estimate of frequency we are often guided
+observed frequencies. For my own part I believe, however, that in making this kind of hypothetical estimate of frequency we are often guided
 solely by our reﬂections about the signiﬁcance of symmetry, and by
 similar considerations. I do not see any reason why such conjectures
-should be inspired only by the accumulation of a large mass of induct-
-ive observations. However, I do not attach much importance to these
+should be inspired only by the accumulation of a large mass of inductive observations. However, I do not attach much importance to these
 2 Keynes deals with such questions in his analysis of the principle of indiﬀerence. Cf. op. cit.,
 Chapter IV, pp. 41–64.
 some structural components of a theory of experience
-158
-
 
 questions about the origins or ‘sources’ of our estimates. (Cf. section
 2.) It is more important, in my opinion, to be quite clear about the fact
@@ -6863,9 +6006,7 @@ why von Mises in his formulation of the axiom of randomness speaks
 of what he calls ‘selections’ or ‘choices’ which are ‘independent of the
 result’ of the throw in question, and are thus deﬁned without making
 use of the property of the element to be selected.1 But the many attacks
-levelled against this formulation2 can all be answered merely by point-
-ing out that we can formulate von Mises’s axiom of randomness with-
-out using the questionable expressions at all.3 For we may put it, for
+levelled against this formulation2 can all be answered merely by pointing out that we can formulate von Mises’s axiom of randomness without using the questionable expressions at all.3 For we may put it, for
 example, as follows: The limits of the frequencies in a collective shall
 be insensitive both to ordinal and to neighbourhood selection, and also
 to all combinations of these two methods of selection that can be used
@@ -6883,42 +6024,33 @@ translation, 1939, p. 33.
 1932, p. 594 f., is very similar.
 3 Dörge has made a similar remark, but he did not explain it.
 *1 The last seven words (which are essential) were not in the German text.
-4 Cf. for instance, Kamke, Einführung in die Wahrscheinlichkeitstheorie, 1932, p. 147, and Jahres-
-bericht der Deutschen mathem. Vereinigung 42, 1932. Kamke’s objection must also be raised
+4 Cf. for instance, Kamke, Einführung in die Wahrscheinlichkeitstheorie, 1932, p. 147, and Jahresbericht der Deutschen mathem. Vereinigung 42, 1932. Kamke’s objection must also be raised
 against Reichenbach’s attempt to improve the axiom of randomness by introducing
 normal sequences, since he did not succeed in proving that this concept is non-empty. Cf.
 Reichenbach, Axiomatik der Wahrscheinlichkeitsrechnung, Mathematische Zeitschrift 34, 1932,
 p. 606.
 some structural components of a theory of experience
-160
-
 
 example of a collective and in that way to show that collectives exist. This
 is because an example of an inﬁnite sequence which is to satisfy certain
-conditions can only be given by a mathematical rule. But for a collect-
-ive in von Mises’s sense there can be, by deﬁnition, no such rule, since
+conditions can only be given by a mathematical rule. But for a collective in von Mises’s sense there can be, by deﬁnition, no such rule, since
 any rule could be used as a gambling system or as a system of selection.
 This criticism seems indeed unanswerable if all possible gambling
 systems are ruled out.*2
 Against the idea of excluding all gambling systems, another objection
 may be raised, however: that it really demands too much. If we are going to
 axiomatize a system of statements—in this case the theorems of the
-calculus of probability, particularly the special theorem of multiplica-
-tion or Bernoulli’s theorem—then the axioms chosen should not only
+calculus of probability, particularly the special theorem of multiplication or Bernoulli’s theorem—then the axioms chosen should not only
 be suﬃcient for the derivation of the theorems of the system, but also (if
-we can make them so) necessary. Yet the exclusion of all systems of selec-
-tion can be shown to be unnecessary for the deduction of Bernoulli’s
+we can make them so) necessary. Yet the exclusion of all systems of selection can be shown to be unnecessary for the deduction of Bernoulli’s
 theorem and its corollaries. It is quite suﬃcient to demand the exclusion
 of a special class of neighbourhood-selection: it suﬃces to demand that
 the sequence should be insensitive to selections according to arbitrarily
 chosen n-tuples of predecessors; that is to say, that it should be n-free from
 after-eﬀects for every n, or more brieﬂy, that it should be ‘absolutely free’.
 I therefore propose to replace von Mises’s principle of the excluded
-gambling system by the less exacting requirement of ‘absolute free-
-dom’, in the sense of n-freedom for every n, and accordingly to deﬁne
-chance-like mathematical sequences as those which fulﬁl this require-
-ment. The chief advantage of this is that it does not exclude all gam-
-bling systems, so that it is possible to give mathematical rules for
+gambling system by the less exacting requirement of ‘absolute freedom’, in the sense of n-freedom for every n, and accordingly to deﬁne
+chance-like mathematical sequences as those which fulﬁl this requirement. The chief advantage of this is that it does not exclude all gambling systems, so that it is possible to give mathematical rules for
 constructing sequences which are ‘absolutely free’ in our sense, and
 hence to construct examples. (Cf. section (a) of appendix iv.) Thus
 Kamke’s objection, discussed above, is met. For we can now prove that
@@ -6947,8 +6079,7 @@ sequences of one particular type. And our requirement of ‘absolute
 freedom’ does no more than exclude one particular type of regular
 sequence, though an important one.
 That it is an important type may be seen from the fact that by our
-requirement we implicitly exclude the following three types of gam-
-bling systems (cf. the next section). First we exclude ‘normal’ or
+requirement we implicitly exclude the following three types of gambling systems (cf. the next section). First we exclude ‘normal’ or
 ‘pure’*4 neighbourhood selections, i.e. those in which we select
 according to some constant characteristic of the neighbourhood. Secondly we
 exclude ‘normal’ ordinal selection which picks out elements whose
@@ -6969,8 +6100,6 @@ section 43). Only*5 gambling systems which refer to the absolute
 *5 The word ‘only’ is only correct if we speak of (predictive) gambling systems; cf. note *3
 to section 60, below, and note 6 to section *54 of my Postscript.
 some structural components of a theory of experience
-162
-
 
 distances of the elements from an absolute (initial) element5 are not
 excluded by my requirement.
@@ -6984,8 +6113,7 @@ is intended to ensure this ‘independence’.)
 In view of what has been said I now propose the following deﬁnition.
 An event-sequence or property-sequence, especially an alternative, is
 said to be ‘chance-like’ or ‘random’ if and only if the limits of the
-frequencies of its primary properties are ‘absolutely free’, i.e. insensi-
-tive to every selection based upon the properties of any n-tuple of
+frequencies of its primary properties are ‘absolutely free’, i.e. insensitive to every selection based upon the properties of any n-tuple of
 predecessors. A frequency-limit corresponding to a sequence which is
 random is called the objective probability of the property in question,
 within the sequence concerned; it is symbolized by F. This may also be
@@ -6993,16 +6121,13 @@ put as follows. Let the sequence α be a chance-like or random-like
 sequence with the primary property β; in this case, the following
 holds:
 αF(β) = αF′ (β)
-We shall have to show now that our deﬁnition suﬃces for the deriv-
-ation of the main theorems of the mathematical theory of probability,
-especially Bernoulli’s theorem. Subsequently—in section 64—the def-
-inition here given will be modiﬁed so as to make it independent of the
+We shall have to show now that our deﬁnition suﬃces for the derivation of the main theorems of the mathematical theory of probability,
+especially Bernoulli’s theorem. Subsequently—in section 64—the definition here given will be modiﬁed so as to make it independent of the
 concept of a limit of frequencies.*1
 5 Example: the selection of all terms whose number is a prime.
 *1 At present I should be inclined to use the concept of ‘objective probability’
 diﬀerently—that is, in a wider sense, so as to cover all ‘objective’ interpretations of the formal
-calculus of probabilities, such as the frequency interpretation and, more especially, the pro-
-pensity interpretation which is discussed in the Postscript. Here, in section 59, the concept
+calculus of probabilities, such as the frequency interpretation and, more especially, the propensity interpretation which is discussed in the Postscript. Here, in section 59, the concept
 is used merely as an auxiliary concept in the construction of a certain form of the
 frequency theory.
 probability 163
@@ -7036,14 +6161,11 @@ sequences of adjoining segments are in their turn chance-like, or random; for F,
 i.e. objective probability, is deﬁned only for chance-like sequences.
 The question, answered by (3), of the objective probability of the
 property m in a sequence of adjoining segments—i.e. the question of
-the value of αnF(m)—I call, following von Mises, ‘Bernoulli’s prob-
-lem’.1 For its solution, and hence for the derivation of the third
+the value of αnF(m)—I call, following von Mises, ‘Bernoulli’s problem’.1 For its solution, and hence for the derivation of the third
 1 The corresponding question for sequences of overlapping segments, i.e. the problem of
 α(n)F′(m), answered by (2), can be called the ‘quasi-Bernoulli problem’; cf. note 1 to
 section 56 as well as section 61.
 some structural components of a theory of experience
-164
-
 
 binomial formula (3), it is suﬃcient to assume that α is chance-like or
 random.2 (Our task is equivalent to that of showing that the special
@@ -7051,8 +6173,7 @@ theorem of multiplication holds for the sequence of adjoining
 segments of a random sequence α.)
 The proof*1 of formula (3) may be carried out in two steps. First we
 show that formula (2) holds not only for sequences of overlapping
-segments α(n), but also for sequences of adjoining sequences αn. Sec-
-ondly, we show that the latter are ‘absolutely free’. (The order of these
+segments α(n), but also for sequences of adjoining sequences αn. Secondly, we show that the latter are ‘absolutely free’. (The order of these
 steps cannot be reversed, because a sequence of overlapping segments
 α(n) is deﬁnitely not ‘absolutely free’; in fact, a sequence of this kind
 provides a typical example of what may be called ‘sequences with
@@ -7076,8 +6197,7 @@ From the sequence of overlapping segments α(2) we can select two
 p. 603) implicitly contests this when he writes, ‘ . . . normal sequences are also free
 from after-eﬀect, whilst the converse does not necessarily hold’. But Reichenbach’s normal
 sequences are those for which (3) holds. (My proof is made possible by the fact that I
-have departed from previous procedure, by deﬁning the concept ‘freedom from after-
-eﬀect’ not directly, but with the help of ‘n-freedom from after-eﬀect’, thus making it
+have departed from previous procedure, by deﬁning the concept ‘freedom from aftereﬀect’ not directly, but with the help of ‘n-freedom from after-eﬀect’, thus making it
 accessible to the procedure of mathematical induction.)
 *1 Only a sketch of the proof is here given. Readers not interested in the proof may turn
 to the last paragraph of the present section.
@@ -7095,8 +6215,7 @@ numbers 2,3; 4,5; 6,7; . . . , etc. Now assume that formula (4a) does not
 hold for one of the two sequences, (A) or (B), so that the segment (i.e.
 the pair) 0,0 occurs too often in, say, the sequence (A); then in sequence
 (B) a complementary deviation must occur; that is, the segment 0,0
-will occur not often enough (‘too often’, or ‘not often enough’, as com-
-pared with the binomial formula). But this contradicts the assumed
+will occur not often enough (‘too often’, or ‘not often enough’, as compared with the binomial formula). But this contradicts the assumed
 ‘absolute freedom’ of α. For if the pair 0,0 occurs in (A) more often
 than in (B), then in suﬃciently long segments of α the pair 0,0 must
 appear more often at certain characteristic distances apart than at other
@@ -7113,8 +6232,7 @@ This proves (4a); and since this proof can easily be generalized for
 any n, the validity of (4) follows; which completes the ﬁrst step of the
 proof.
 Second step. The fact that the αn-sequences are ‘absolutely free’ can be
-shown by a very similar argument. Again, we ﬁrst consider α2-
-sequences only; and with respect to these it will only be shown, to start
+shown by a very similar argument. Again, we ﬁrst consider α2sequences only; and with respect to these it will only be shown, to start
 with, that they are 1-free. Assume that one of the two α2-sequences, e.g.
 the sequence (A), is not 1-free. Then in (A) after at least one of the
 segments consisting of two elements (a particular α-pair), say after the
@@ -7124,8 +6242,6 @@ used as the basis of a simple system which would somewhat improve the chances of
 gambler. But gambling systems of this type are incompatible with the ‘absolute freedom’
 of the sequence. The same consideration underlies the ‘second step’ of the proof.
 some structural components of a theory of experience
-166
-
 
 segment 0,0, another segment, say 1,1, must follow more often than
 would be the case if (A) were ‘absolutely free’; this means that the
@@ -7142,26 +6258,21 @@ question belonged to one and the same α2-sequence. Moreover, at
 other characteristic distances the quadruple would occur not often
 enough—at those distances, namely, which would obtain if they
 belonged to both α2-sequences. Thus we are confronted with precisely
-the same situation as before; and we can show, by analogous consider-
-ations, that the assumption of a preferential occurrence at characteristic
+the same situation as before; and we can show, by analogous considerations, that the assumption of a preferential occurrence at characteristic
 distances is incompatible with the assumed ‘absolute freedom’ of α.
-This proof can again be generalized, so that we may say of α-
-sequences that they are not only 1-free but n-free for every n; and hence
+This proof can again be generalized, so that we may say of αsequences that they are not only 1-free but n-free for every n; and hence
 that they are chance-like, or random.
 This completes our sketch of the two steps. Thus we are now entitled
 to replace, in (4), F′ by F; and this means that we may accept the claim
 that the third binomial formula solves Bernoulli’s problem.
-Incidentally we have shown that sequences α(n) of overlapping seg-
-ments are insensitive to normal ordinal selection whenever α is ‘absolutely
+Incidentally we have shown that sequences α(n) of overlapping segments are insensitive to normal ordinal selection whenever α is ‘absolutely
 free’.
 The same is also true for sequences αn of adjoining segments,
 because every normal ordinal selection from αn can be regarded as a
 normal ordinal selection from α(n); and it must therefore apply to the
 sequence α itself, since α is identical with both α(1) and α1
 We have thus shown, among other things, that from ‘absolute
-freedom’—which means insensitiveness to a special type of neigh-
-bourhood selection—insensitiveness to normal ordinal selection fol-
-lows. A further consequence, as can easily be seen, is insensitiveness to
+freedom’—which means insensitiveness to a special type of neighbourhood selection—insensitiveness to normal ordinal selection follows. A further consequence, as can easily be seen, is insensitiveness to
 any ‘pure’ neighbourhood selection (that is, selection according to a
 constant characterization of its neighbourhood—a characterization
 probability 167
@@ -7173,8 +6284,7 @@ combinations of these two types of selection.
 61 THE LAW OF GREAT NUMBERS
 (BERNOULLI’S THEOREM)
 Bernoulli’s theorem, or the (ﬁrst1) ‘law of great numbers’ can be
-derived from the third binomial formula by purely arithmetical reason-
-ing, under the assumption that we can take n to the limit, n →∞. It can
+derived from the third binomial formula by purely arithmetical reasoning, under the assumption that we can take n to the limit, n →∞. It can
 therefore be asserted only of inﬁnite sequences α; for it is only in these
 that the n-segments of αn-sequences can increase in length indeﬁnitely.
 And it can be asserted only of such sequences α as are ‘absolutely free’,
@@ -7202,14 +6312,11 @@ above (and footnote 6, referring to A. Wald, in section *54 of my Postscript).
 1 Von Mises distinguishes Bernoulli’s—or Poisson’s—theorem from its inverse which
 he calls ‘Bayes’s theorem’ or ‘the second law of great numbers’.
 some structural components of a theory of experience
-168
-
 
 segments possessing the property ‘∆p’—within the αn-sequences; it
 thus answers the question of the value of αnF(∆p).
 Intuitively one might guess that if the value δ (with δ > 0) is ﬁxed,
-and if n increases, then the frequency of these segments with the prop-
-erty ∆p, and therefore the value of αnF(∆p), will also increase (and
+and if n increases, then the frequency of these segments with the property ∆p, and therefore the value of αnF(∆p), will also increase (and
 that its increase will be monotonic). Bernoulli’s proof (which can be
 found in any textbook on the calculus of probability) proceeds by
 evaluating this increase with the help of the binomial formula. He ﬁnds
@@ -7221,8 +6328,7 @@ n →∞
 αnF(∆p) = 1
 (for any value of ∆p) (1)
 This formula results from transforming the third binomial formula
-for sequences of adjoining segments. The analogous second binomial for-
-mula for sequences of overlapping segments would immediately lead, by
+for sequences of adjoining segments. The analogous second binomial formula for sequences of overlapping segments would immediately lead, by
 the same method, to the corresponding formula
 lim
 n →∞
@@ -7238,8 +6344,7 @@ theorem applies mutatis mutandis to this variant.
 Bernoulli’s theorem, i.e. formula (1), may be expressed in words as
 follows. Let us call a long ﬁnite segment of some ﬁxed length, selected
 from a random sequence α, a ‘fair sample’ if, and only if, the frequency
-of the ones within this segment deviates from p, i.e. the value of the prob-
-ability of the ones within the random sequence α, by no more than some
+of the ones within this segment deviates from p, i.e. the value of the probability of the ones within the random sequence α, by no more than some
 2 Cf. note 3 to section 60, and note 5 to section 64.
 probability 169
 
@@ -7251,11 +6356,9 @@ long.*1
 In this formulation the word ‘probability’ (or ‘value of the probability’)
 occurs twice. How is it to be interpreted or translated here? In the sense
 of my frequency deﬁnition it would have to be translated as follows (I
-italicize the two translations of the word ‘probability’ into the fre-
-quency language): The overwhelming majority of all suﬃciently long ﬁnite
+italicize the two translations of the word ‘probability’ into the frequency language): The overwhelming majority of all suﬃciently long ﬁnite
 segments will be ‘fair samples’; that is to say, their relative frequency
-will deviate from the frequency value p of the random sequence in ques-
-tion by an arbitrarily ﬁxed small amount; or, more brieﬂy: The frequency
+will deviate from the frequency value p of the random sequence in question by an arbitrarily ﬁxed small amount; or, more brieﬂy: The frequency
 p is realized, approximately, in almost all suﬃciently long segments.
 (How we arrive at the value p is irrelevant to our present discussion; it
 may be, say, the result of a hypothetical estimate.)
@@ -7281,8 +6384,6 @@ the whole segment, and in almost all long sub-segments, will deviate
 by introducing the concept of a ‘fair sample’: the original operates only with the
 deﬁniens of this concept.
 some structural components of a theory of experience
-170
-
 
 only slightly from this average, whilst the relative frequencies of
 smaller sub-segments will deviate further from this average, and the
@@ -7292,8 +6393,7 @@ ascertainable behaviour of ﬁnite segments, may be referred to as their
 stable.*2
 Thus Bernoulli’s theorem asserts that the smaller segments of
 chance-like sequences often show large ﬂuctuations, whilst the large
-segments always behave in a manner suggestive of constancy or con-
-vergence; in short, that we ﬁnd disorder and randomness in the small,
+segments always behave in a manner suggestive of constancy or convergence; in short, that we ﬁnd disorder and randomness in the small,
 order and constancy in the great. It is this behaviour to which the
 expression ‘the law of great numbers’ refers.
 62 BERNOULLI’S THEOREM AND THE INTERPRETATION
@@ -7301,15 +6401,13 @@ OF PROBABILITY STATEMENTS
 We have just seen that in the verbal formulation of Bernoulli’s theorem
 the word ‘probability’ occurs twice.
 The frequency theorist has no diﬃculty in translating this word, in
-both cases, in accordance with its deﬁnition: he can give a clear inter-
-pretation of Bernoulli’s formula and the law of great numbers. Can the
+both cases, in accordance with its deﬁnition: he can give a clear interpretation of Bernoulli’s formula and the law of great numbers. Can the
 adherent of the subjective theory in its logical form do the same?
 The subjective theorist who wants to deﬁne ‘probability’ as ‘degree
 of rational belief’ is perfectly consistent, and within his rights, when he
 interprets the words ‘The probability of . . . approaches to I as closely as
 we like’ as meaning, ‘It is almost certain1 that . . .’ But he merely
-obscures his diﬃculties when he continues ‘. . . that the relative fre-
-quency will deviate from its most probable value p by less than a given
+obscures his diﬃculties when he continues ‘. . . that the relative frequency will deviate from its most probable value p by less than a given
 amount . . .’, or in the words of Keynes,2 ‘that the proportion of the
 event’s occurrences will diverge from the most probable proportion p by less
 *2 Keynes says of the ‘Law of Great Numbers’ that ‘the “Stability of Statistical
@@ -7329,8 +6427,7 @@ runs: ‘It is almost certain that the relative frequencies deviate from the
 value p of the degree of rational belief by less than a given amount . . . ’,
 which seems to me complete nonsense.*1 For relative frequencies can
 be compared only with relative frequencies, and can deviate or not
-deviate only from relative frequencies. And clearly, it must be inadmis-
-sible to give after the deduction of Bernoulli’s theorem a meaning to p
+deviate only from relative frequencies. And clearly, it must be inadmissible to give after the deduction of Bernoulli’s theorem a meaning to p
 diﬀerent from the one which was given to it before the deduction.3
 Thus we see that the subjective theory is incapable of interpreting
 Bernouilli’s formula in terms of the statistical law of great numbers.
@@ -7343,8 +6440,7 @@ preceding the one quoted above): ‘If the probability of an event’s occurrenc
 certain conditions is p, then . . . the most probable proportion of its occurrences to the
 total number of occasions is p . . .’ This ought to be translatable, according to his own
 theory, into: ‘If the degree of rational belief in the occurrence of an event is p, then p is
-also a proportion of occurrences, i.e. a relative frequency—that, namely, in whose emer-
-gence the degree of our rational belief is greatest.’ I am not objecting to the latter use of
+also a proportion of occurrences, i.e. a relative frequency—that, namely, in whose emergence the degree of our rational belief is greatest.’ I am not objecting to the latter use of
 the expression ‘rational belief’. (It is the use which might also be rendered by ‘It is
 almost certain that . . .’.) What I do object to is the fact that p is at one time a degree of
 rational belief and at another a frequency; in other words, I do not see why an empirical
@@ -7362,8 +6458,6 @@ subjective theory (cf. section 73).
 *2 But it is possible to use Bernoulli’s theorem as a bridge from the objective interpretation
 in terms of ‘propensities’ to statistics. Cf. sections *49 to *57 of my Postscript.
 some structural components of a theory of experience
-172
-
 
 63 BERNOULLI’S THEOREM AND THE
 PROBLEM OF CONVERGENCE
@@ -7384,29 +6478,23 @@ close to 1, segments of any length occur in them which may deviate
 from p to any extent. (The existence of the limit p is in these cases due
 to the fact that the deviations, although they may increase without
 limit, cancel each other.) Such sequences look as if they were divergent
-in arbitrarily large segments, even though the corresponding fre-
-quency sequences are in fact convergent. Thus the law of great numbers
+in arbitrarily large segments, even though the corresponding frequency sequences are in fact convergent. Thus the law of great numbers
 is anything but a trivial consequence of the axiom of convergence, and
-this axiom is quite insuﬃcient for its deduction. This is why my modi-
-ﬁed axiom of randomness, the requirement of ‘absolute freedom’,
+this axiom is quite insuﬃcient for its deduction. This is why my modiﬁed axiom of randomness, the requirement of ‘absolute freedom’,
 cannot be dispensed with.
 Our reconstruction of the theory, however, suggests the possibility
-that the law of great numbers may be independent of the axiom of con-
-vergence. For we have seen that Bernoulli’s theorem follows immedi-
-ately from the binomial formula; moreover, I have shown that the ﬁrst
+that the law of great numbers may be independent of the axiom of convergence. For we have seen that Bernoulli’s theorem follows immediately from the binomial formula; moreover, I have shown that the ﬁrst
 binomial formula can be derived for ﬁnite sequences and so, of course,
 without any axiom of convergence. All that had to be assumed was that
 the reference-sequence α was at least n−1-free; an assumption from
 1 As an example von Mises cites the sequence of ﬁgures occupying the last place of a
 six-ﬁgure table of square roots. Cf. for example, Wahrscheinlichkeit, Statistik und Wahrheit,
-1928, p. 86 f.; (2nd edition 1936, p. 137; English translation, p. 165), and Wahrschein-
-lichkeitsrechnung, 1931, p. 181 f.
+1928, p. 86 f.; (2nd edition 1936, p. 137; English translation, p. 165), and Wahrscheinlichkeitsrechnung, 1931, p. 181 f.
 probability 173
 
 
 which the validity of the special multiplication theorem followed, and
-with it that of the ﬁrst binomial formula. In order to make the transi-
-tion to the limit, and to obtain Bernoulli’s theorem, it is only necessary
+with it that of the ﬁrst binomial formula. In order to make the transition to the limit, and to obtain Bernoulli’s theorem, it is only necessary
 to assume that we may make n as large as we like. From this it can be
 seen that Bernoulli’s theorem is true, approximately, even for ﬁnite
 sequences, if they are n-free for an n which is suﬃciently large.
@@ -7415,26 +6503,21 @@ not depend upon an axiom postulating the existence of a frequency
 limit, but only on ‘absolute freedom’ or randomness. The limit concept
 plays only a subordinate rôle: it is used for the purpose of applying
 some conception of relative frequency (which, in the ﬁrst instance, is
-only deﬁned for ﬁnite classes, and without which the concept of n-
-freedom cannot be formulated) to sequences that can be continued
+only deﬁned for ﬁnite classes, and without which the concept of nfreedom cannot be formulated) to sequences that can be continued
 indeﬁnitely.
 Moreover, it should not be forgotten that Bernoulli himself deduced
-his theorem within the framework of the classical theory, which con-
-tains no axiom of convergence; also, that the deﬁnition of probability
+his theorem within the framework of the classical theory, which contains no axiom of convergence; also, that the deﬁnition of probability
 as a limit of frequencies is only an interpretation—and not the only
 possible one—of the classical formalism.
 I shall try to justify my conjecture—the independence of Bernoulli’s
 theorem of the axiom of convergence—by deducing this theorem
 without assuming anything except n-freedom (to be appropriately
-deﬁned).*1 And I shall try to show that it holds even for those math-
-ematical sequences whose primary properties possess no frequency limits.
+deﬁned).*1 And I shall try to show that it holds even for those mathematical sequences whose primary properties possess no frequency limits.
 Only if this can be shown shall I regard my deduction of the law of
-great numbers as satisfactory from the point of view of the epistemolo-
-gist. For it is a ‘fact of experience’—or so at least we are sometimes
+great numbers as satisfactory from the point of view of the epistemologist. For it is a ‘fact of experience’—or so at least we are sometimes
 told—that chance-like empirical sequences show that peculiar
 *1 I still consider my old doubt concerning the assumption of an axiom of convergence,
-and the possibility of doing without it, perfectly justiﬁed: it is justiﬁed by the develop-
-ments indicated in appendix iv, note *2, and in appendix *vi, where it is shown that
+and the possibility of doing without it, perfectly justiﬁed: it is justiﬁed by the developments indicated in appendix iv, note *2, and in appendix *vi, where it is shown that
 randomness (if deﬁned by ‘shortest random-like sequences’) entails convergence which
 therefore need not be separately postulated. Moreover, my reference to the classical
 formalism is justiﬁed by the development of the neo-classical (or measure-theoretical)
@@ -7442,8 +6525,6 @@ theory of probability, discussed in chapter *iii of the Postscript; in fact, it 
 Borel’s ‘normal numbers’. But I do not agree any longer with the view implicit in the
 next sentence of my text, although I agree with the remaining paragraphs of this section.
 some structural components of a theory of experience
-174
-
 
 behaviour which I have described as ‘quasi-convergent’ or ‘statistically
 stable’. (Cf. section 61.) By recording statistically the behaviour of long
@@ -7457,8 +6538,7 @@ inductivist leanings mostly regard it as a fundamental law of nature,
 not reducible to any simpler statement; as a peculiarity of our world
 which has simply to be accepted. They believe that expressed in a
 suitable form—for example in the form of the axiom of
-convergence—this law of nature should be made the basis of the the-
-ory of probability which would thereby assume the character of a
+convergence—this law of nature should be made the basis of the theory of probability which would thereby assume the character of a
 natural science.
 My own attitude to this so-called ‘empirical fact’ is diﬀerent. I am
 inclined to believe that it is reducible to the chance-like character of the
@@ -7466,19 +6546,16 @@ sequences; that it may be derived from the fact that these sequences are
 n-free. I see the great achievement of Bernoulli and Poisson in the ﬁeld
 of probability theory precisely in their discovery of a way to show that
 this alleged ‘fact of experience’ is a tautology, and that from disorder in
-the small (provided it satisﬁes a suitably formulated condition of n-
-freedom), there follows logically a kind of order of stability in the
+the small (provided it satisﬁes a suitably formulated condition of nfreedom), there follows logically a kind of order of stability in the
 large.
 If we succeed in deducing Bernoulli’s theorem without assuming an
 axiom of convergence, then we shall have reduced the epistemological
-problem of the law of great numbers to one of axiomatic independ-
-ence, and thus to a purely logical question. This deduction would also
+problem of the law of great numbers to one of axiomatic independence, and thus to a purely logical question. This deduction would also
 explain why the axiom of convergence works quite well in all practical
 applications (in attempts to calculate the approximate behaviour of
 empirical sequences). For even if the restriction to convergent
 sequences should turn out to be unnecessary, it can certainly not be
-inappropriate to use convergent mathematical sequences for calculat-
-ing the approximate behaviour of empirical sequences which, on
+inappropriate to use convergent mathematical sequences for calculating the approximate behaviour of empirical sequences which, on
 logical grounds, are statistically stable.
 probability 175
 
@@ -7486,9 +6563,7 @@ probability 175
 64 ELIMINATION OF THE AXIOM OF CONVERGENCE.
 SOLUTION OF THE ‘FUNDAMENTAL PROBLEM
 OF THE THEORY OF CHANCE’
-So far frequency limits have had no other function in our reconstruc-
-tion of the theory of probability than that of providing an unambigu-
-ous concept of relative frequency applicable to inﬁnite sequences, so
+So far frequency limits have had no other function in our reconstruction of the theory of probability than that of providing an unambiguous concept of relative frequency applicable to inﬁnite sequences, so
 that with its help we may deﬁne the concept of ‘absolute freedom’
 (from after-eﬀects). For it is a relative frequency which is required to be
 insensitive to selection according to predecessors.
@@ -7516,12 +6591,9 @@ frequencies corresponding to an alternative α will be called ‘a middle
 frequency of α’. We can then say: If a sequence α has one and only one
 middle frequency, then this is at the same time its frequency limit; and
 *1 In order not to postulate convergence, I appealed in the following paragraph to what
-can be demonstrated—the existence of points of accumulation. All this becomes unneces-
-sary if we adopt the method described in note *1 to section 57, and in appendix *vi.
+can be demonstrated—the existence of points of accumulation. All this becomes unnecessary if we adopt the method described in note *1 to section 57, and in appendix *vi.
 1 A fact which, surprisingly enough, has not hitherto been utilized in probability theory.
 some structural components of a theory of experience
-176
-
 
 conversely: if it has no frequency limit, then it has more than one2
 middle frequency.
@@ -7550,8 +6622,7 @@ may possess at the same time several middle frequencies which are
 acceptable, since we are accustomed to work with unambiguous or unique
 2 It can easily be shown that if more than one middle frequency exists in a reference
 sequence then the values of these middle frequencies form a continuum.
-3 The concept of ‘independent selection’ must be interpreted more strictly than hith-
-erto, since otherwise the validity of the special multiplication theorem cannot be proved.
+3 The concept of ‘independent selection’ must be interpreted more strictly than hitherto, since otherwise the validity of the special multiplication theorem cannot be proved.
 For details see my work mentioned in note 3 to section 51. (*This is now superseded by
 appendix *vi.)
 4 We can do this because it must be possible to apply the theory for ﬁnite classes (with
@@ -7564,24 +6635,20 @@ frequency of any predecessor selection of α.
 probability 177
 
 
-probabilities; to assume, that is to say, that for one and the same prop-
-erty there can be one and only one probability p, within one and the
+probabilities; to assume, that is to say, that for one and the same property there can be one and only one probability p, within one and the
 same reference sequence.
 However, the diﬃculty of deﬁning a unique probability concept
 without the limit axiom can easily be overcome. We may introduce the
 requirement of uniqueness (as is, after all, the most natural procedure)
-as the last step, after having postulated that the sequence shall be ‘abso-
-lutely free’. This leads us to propose, as a solution of our problem, the
+as the last step, after having postulated that the sequence shall be ‘absolutely free’. This leads us to propose, as a solution of our problem, the
 following modiﬁcation of our deﬁnition of chance-like sequences, and
 of objective probability.
 Let α be an alternative (with one or several middle frequencies). Let
-the ones of α have one and only one middle frequency p that is ‘abso-
-lutely free’; then we say that α is chance-like or random, and that p is
+the ones of α have one and only one middle frequency p that is ‘absolutely free’; then we say that α is chance-like or random, and that p is
 the objective probability of the ones, within α.
 It will be helpful to divide this deﬁnition into two axiomatic
 requirements.*2
-(1) Requirement of randomness: for an alternative to be chance-
-like, there must be at least one ‘absolutely free’ middle frequency, i.e.
+(1) Requirement of randomness: for an alternative to be chancelike, there must be at least one ‘absolutely free’ middle frequency, i.e.
 its objective probability p.
 (2) Requirement of uniqueness: for one and the same property of
 one and the same chance-like alternative, there must be one and only one
@@ -7601,16 +6668,13 @@ replacing requirement (2) by the following:
 as quickly n-free as possible, and for the largest possible n; or in other words, it must be
 (approximately) a shortest random-like sequence.
 some structural components of a theory of experience
-178
-
 
 (2) Requirement of uniqueness: as above.
 (2′) Axiom of convergence: for one and the same property of one and
 the same chance-like alternative there exists no further middle
 frequency apart from its probability p.
 From the proposed system of requirements we can deduce
-Bernoulli’s theorem, and with it all the theorems of the classical calcu-
-lus of probability. This solves our problem: it is now possible to deduce
+Bernoulli’s theorem, and with it all the theorems of the classical calculus of probability. This solves our problem: it is now possible to deduce
 the law of great numbers within the framework of the frequency theory
 without using the axiom of convergence. Moreover, not only does the
 formula (1) of section 61 and the verbal formulation of Bernoulli’s
@@ -7620,22 +6684,19 @@ a frequency limit it will still be true that almost all suﬃciently long
 sequences show only small deviations from p. In such sequences (as in
 chance-like sequences with frequency limits) segments of any length
 behaving quasi-divergently will of course occur at times, i.e. segments
-which deviate from p by any amount. But such segments will be com-
-paratively rare, since they must be compensated for by extremely long
+which deviate from p by any amount. But such segments will be comparatively rare, since they must be compensated for by extremely long
 parts of the sequence in which all (or almost all) segments behave
 quasi-convergently. As calculation shows, these stretches will have to
 be longer by several orders of magnitude, as it were, than the
 divergently-behaving segments for which they compensate.*3
 This is also the place to solve the ‘fundamental problem of the theory of
-chance’ (as it was called in section 49). The seemingly paradoxical infer-
-ence from the unpredictability and irregularity of singular events to the
+chance’ (as it was called in section 49). The seemingly paradoxical inference from the unpredictability and irregularity of singular events to the
 applicability of the rules of the probability calculus to them is indeed
 valid. It is valid provided we can express the irregularity, with a fair
 degree of approximation, in terms of the hypothetical assumption that
 one only of the recurring frequencies—of the ‘middle frequencies’—
 so occurs in any selection according to predecessors that no after-eﬀects
-5 The quasi-Bernoulli formulae (symbol: F′) also remain unambiguous for chance-
-like sequences (according to the new deﬁnition), although ‘F′’ now symbolizes only a
+5 The quasi-Bernoulli formulae (symbol: F′) also remain unambiguous for chancelike sequences (according to the new deﬁnition), although ‘F′’ now symbolizes only a
 middle frequency.
 *3 I am in full agreement with what follows here, even though any reference to ‘middle
 frequencies’ becomes redundant if we adopt the method described in section 57, note
@@ -7644,9 +6705,7 @@ probability 179
 
 
 result. For upon these assumptions it is possible to prove that the law of
-great numbers is tautological. It is admissible and not self-
-contradictory (as has sometimes been asserted6) to uphold the conclu-
-sion that in an irregular sequence in which, as it were, anything may
+great numbers is tautological. It is admissible and not selfcontradictory (as has sometimes been asserted6) to uphold the conclusion that in an irregular sequence in which, as it were, anything may
 happen at one time or another—though some things only rarely—a
 certain regularity or stability will appear in very large sub-sequences.
 Nor is this conclusion trivial, since we need for it speciﬁc mathematical
@@ -7654,8 +6713,7 @@ tools (the Bolzano and Weierstrass theorem, the concept of n-freedom,
 and Bernoulli’s theorem). The apparent paradox of an argument from
 unpredictability to predictability, or from ignorance to knowledge,
 disappears when we realize that the assumption of irregularity can be
-put in the form of a frequency hypothesis (that of freedom from after-
-eﬀects), and that it must be put in this form if we want to show the
+put in the form of a frequency hypothesis (that of freedom from aftereﬀects), and that it must be put in this form if we want to show the
 validity of that argument.
 It now also becomes clear why the older theories have been unable
 to do justice to what I call the ‘fundamental problem’. The subjective
@@ -7663,8 +6721,7 @@ theory, admittedly, can deduce Bernoulli’s theorem; but it can never
 consistently interpret it in terms of frequencies, after the fashion of
 the law of great numbers (cf. section 62). Thus it can never explain the
 statistical success of probability predictions. On the other hand, the
-older frequency theory, by its axiom of convergence, explicitly postu-
-lates regularity in the large. Thus within this theory the problem of
+older frequency theory, by its axiom of convergence, explicitly postulates regularity in the large. Thus within this theory the problem of
 inference from irregularity in the small to stability in the large does not
 arise, since it merely involves inference from stability in the large
 (axiom of convergence), coupled with irregularity in the small (axiom
@@ -7681,19 +6738,15 @@ construction of model sequences; cf. appendix iv.)
 the ‘fundamental problem’, of an objectively interpreted neo-classical theory. A theory of
 this kind is described in chapter *iii of my Postscript.
 some structural components of a theory of experience
-180
-
 
 of the calculus of probability. With this result I conclude my analysis of
 the mathematical calculus.7
-We now return to the consideration of more distinctively method-
-ological problems, especially the problem of how to decide probability
+We now return to the consideration of more distinctively methodological problems, especially the problem of how to decide probability
 statements.
 65 THE PROBLEM OF DECIDABILITY
 In whatever way we may deﬁne the concept of probability, or whatever
 axiomatic formulations we choose: so long as the binomial formula is
-derivable within the system, probability statements will not be falsiﬁable. Prob-
-ability hypotheses do not rule out anything observable; probability estimates
+derivable within the system, probability statements will not be falsiﬁable. Probability hypotheses do not rule out anything observable; probability estimates
 cannot contradict, or be contradicted by, a basic statement; nor can
 they be contradicted by a conjunction of any ﬁnite number of basic
 statements; and accordingly not by any ﬁnite number of observations
@@ -7706,8 +6759,7 @@ a certain coin will come up ‘1’ and ‘0’ with equal frequency, so that
 comes up over and over again without exception: then we shall, no
 doubt, abandon our estimate in practice, and regard it as falsiﬁed. But
 there can be no question of falsiﬁcation in a logical sense. For we can
-surely observe only a ﬁnite sequence of tosses. And although, accord-
-ing to the binomial formula, the probability of chancing upon a very
+surely observe only a ﬁnite sequence of tosses. And although, according to the binomial formula, the probability of chancing upon a very
 long ﬁnite segment with great deviations from 1
 2 is exceedingly small, it
 must yet always remain greater than zero. A suﬃciently rare occurrence
@@ -7728,15 +6780,13 @@ contradict the estimate. In fact, we must expect it to occur: this is a
 consequence of our estimate. The hope that the calculable rarity of any
 such segment will be a means of falsifying the probability estimate
 proves illusory, since even a frequent occurrence of a long and greatly
-deviating segment may always be said to be nothing but one occur-
-rence of an even longer and more greatly deviating segment. Thus there
+deviating segment may always be said to be nothing but one occurrence of an even longer and more greatly deviating segment. Thus there
 are no sequences of events, given to us extensionally, and therefore no
 ﬁnite n-tuple of basic statements, which could falsify a probability
 statement.
 Only an inﬁnite sequence of events—deﬁned intensionally by a
 rule—could contradict a probability estimate. But this means, in view
-of the considerations set forth in section 38 (cf. section 43), that prob-
-ability hypotheses are unfalsiﬁable because their dimension is inﬁnite.
+of the considerations set forth in section 38 (cf. section 43), that probability hypotheses are unfalsiﬁable because their dimension is inﬁnite.
 We should therefore really describe them as empirically uninformative,
 as void of empirical content.1
 Yet any such view is clearly unacceptable in face of the successes which
@@ -7761,36 +6811,29 @@ as a fatal blow to my basic ideas on method which depend crucially
 1 But not as void of ‘logical content’ (cf. section 35); for clearly, not every frequency
 hypothesis holds tautologically for every sequence.
 some structural components of a theory of experience
-182
-
 
 upon my criterion of demarcation. Nevertheless I shall try to answer
 the questions I have raised—which constitute the problem of
 decidability—by a resolute application of these very ideas. But to do
-this, I shall ﬁrst have to analyse the logical form of probability state-
-ments, taking account both of the logical inter-relations between them
+this, I shall ﬁrst have to analyse the logical form of probability statements, taking account both of the logical inter-relations between them
 and of the logical relations in which they stand to basic statements.*1
 66 THE LOGICAL FORM OF PROBABILITY STATEMENTS
-Probability estimates are not falsiﬁable. Neither, of course, are they veri-
-ﬁable, and this for the same reasons as hold for other hypotheses,
+Probability estimates are not falsiﬁable. Neither, of course, are they veriﬁable, and this for the same reasons as hold for other hypotheses,
 seeing that no experimental results, however numerous and favourable,
 can ever ﬁnally establish that the relative frequency of ‘heads’ is 1
 2, and
 will always be 1
 2.
-Probability statements and basic statements can thus neither contra-
-dict one anther nor entail one another. And yet, it would be a mistake
+Probability statements and basic statements can thus neither contradict one anther nor entail one another. And yet, it would be a mistake
 to conclude from this that no kind of logical relations hold between
 probability statements and basic statements. And it would be equally
 wide of the mark to believe that while logical relations do obtain
-between statements of these two kinds (since sequences of observa-
-tions may obviously agree more or less closely with a frequency
+between statements of these two kinds (since sequences of observations may obviously agree more or less closely with a frequency
 statement), the analysis of these relations compels us to introduce a
 special probabilistic logic1 which breaks the fetters of classical logic. In
 *1 I believe that my emphasis upon the irrefutability of probabilistic hypotheses—which
 culminates in section 67—was healthy: it laid bare a problem which had not been
-discussed previously (owing to the general emphasis on veriﬁability rather than falsiﬁ-
-ability, and the fact that probability statements are, as explained in the next section, in
+discussed previously (owing to the general emphasis on veriﬁability rather than falsiﬁability, and the fact that probability statements are, as explained in the next section, in
 some sense veriﬁable or ‘conﬁrmable’). Yet my reform, proposed in note *1 to section 57
 (see also note *2 to section 64), changes the situation entirely. For this reform, apart
 from achieving other things, amounts to the adoption of a methodological rule, like the
@@ -7810,12 +6853,9 @@ fully analysed in terms of the ‘classical’ logical relations of deducibility
 and contradiction.*1
 From the non-falsiﬁability and non-veriﬁability of probability
 statements it can be inferred that they have no falsiﬁable consequences,
-and that they cannot themselves be consequences of veriﬁable state-
-ments. But the converse possibilities are not excluded. For it may be (a)
+and that they cannot themselves be consequences of veriﬁable statements. But the converse possibilities are not excluded. For it may be (a)
 that they have unilaterally veriﬁable consequences (purely existential
-consequences, or there-is-consequences) or (b) that they are them-
-selves consequences of unilaterally falsiﬁable universal statements (all-
-statements).
+consequences, or there-is-consequences) or (b) that they are themselves consequences of unilaterally falsiﬁable universal statements (allstatements).
 Possibility (b) will scarcely help to clarify the logical relation
 between probability statements and basic statements: it is only too
 obvious that a non-falsiﬁable statement, i.e. one which says very little,
@@ -7823,14 +6863,11 @@ can belong to the consequence class of one which is falsiﬁable, and
 which thus says more.
 What is of greater interest for us is possibility (a) which is by no
 means trivial, and which in fact turns out to be fundamental for our
-analysis of the relation between probability statements and basic state-
-ments. For we ﬁnd that from every probability statement, an inﬁnite
+analysis of the relation between probability statements and basic statements. For we ﬁnd that from every probability statement, an inﬁnite
 class of existential statements can be deduced, but not vice versa. (Thus
 the probability statement asserts more than does any of these existential
-statements.) For example, let p be a probability which has been esti-
-mated, hypothetically, for a certain alternative (and let 0 ≠p ≠ 1); then
-we can deduce from this estimate, for instance, the existential con-
-sequence that both ones and zeros will occur in the sequence. (Of
+statements.) For example, let p be a probability which has been estimated, hypothetically, for a certain alternative (and let 0 ≠p ≠ 1); then
+we can deduce from this estimate, for instance, the existential consequence that both ones and zeros will occur in the sequence. (Of
 course many far less simple consequences also follow—for example,
 that segments will occur which deviate from p only by a very small
 amount.)
@@ -7842,13 +6879,10 @@ element x there will occur in the sequence an element y with the
 ‘almost deducible’ and ‘almost contradictory’ are extremely useful in connection with
 our problem; see appendix *ix, and chapter *iii of the Postscript.
 some structural components of a theory of experience
-184
-
 
 property ‘1’, and also an element z with the property ‘o’. A statement of
 this form (‘for every x there is a y with the observable, or extensionally
-testable, property β’) is both non-falsiﬁable—because it has no falsiﬁ-
-able consequences—and non-veriﬁable—because of the ‘all’ or ‘for
+testable, property β’) is both non-falsiﬁable—because it has no falsiﬁable consequences—and non-veriﬁable—because of the ‘all’ or ‘for
 every’ which made it hypothetical.*2 Nevertheless, it can be better, or
 less well ‘conﬁrmed’—in the sense that we may succeed in verifying
 many, few, or none of its existential consequences; thus it stands to the
@@ -7869,8 +6903,7 @@ the truth, of the axioms of the calculus of probability. Our question is,
 *2 Of course, I never intended to suggest that every statement of the form ‘for every x,
 there is a y with the observable property β’ is non-falsiﬁable and thus non-testable:
 obviously, the statement ‘for every toss with a penny resulting in 1, there is an immediate
-successor resulting in 0’ is both falsiﬁable and in fact falsiﬁed. What creates non-
-falsiﬁability is not just the form ‘for every x there is a y such that . . . ’ but the fact that the
+successor resulting in 0’ is both falsiﬁable and in fact falsiﬁed. What creates nonfalsiﬁability is not just the form ‘for every x there is a y such that . . . ’ but the fact that the
 ‘there is’ is unbounded—that the occurrence of the y may be delayed beyond all bounds: in
 the probabilistic case, y may, as it were, occur as late as it pleases. An element ‘0’ may occur at
 once, or after a thousand tosses, or after any number of tosses: it is this fact that is
@@ -7880,8 +6913,7 @@ x there is a y such that . . .’ may be falsiﬁable.
 My somewhat unguarded statement in the text (which tacitly presupposed section 15)
 has led, to my surprise, in some quarters to the belief that all statements—or ‘most’
 statements, whatever this may mean—of the form ‘for every x there is a y such that . . .’
-are non-falsiﬁable; and this has then been repeatedly used as a criticism of the falsiﬁ-
-ability criterion. See, for example, Mind 54, 1945, pp. 119 f. The whole problem of these
+are non-falsiﬁable; and this has then been repeatedly used as a criticism of the falsiﬁability criterion. See, for example, Mind 54, 1945, pp. 119 f. The whole problem of these
 ‘all-and-some statements’ (this term is due to J. W. N. Watkins) is discussed more fully in
 my Postscript; see especially sections *24 f.
 probability 185
@@ -7897,29 +6929,24 @@ hand, has not this form; it cannot have it, since a statement of the form
 can be translated as ‘There are not more than one . . .’ or ‘All . . . are
 identical’.)
 Now it is my thesis here that it is only the ‘existential constituent’, as
-it might be called, of probability estimates, and therefore the require-
-ment of randomness, which establishes a logical relation between them
+it might be called, of probability estimates, and therefore the requirement of randomness, which establishes a logical relation between them
 and basic statements. Accordingly, the requirement of uniqueness, as a
-universal statement, would have no extensional consequences what-
-ever. That a value p with the required properties exists, can indeed be
+universal statement, would have no extensional consequences whatever. That a value p with the required properties exists, can indeed be
 extensionally ‘conﬁrmed’—though of course only provisionally; but
-not that only one such value exists. This latter statement, which is uni-
-versal, could be extensionally signiﬁcant only if basic statements could
+not that only one such value exists. This latter statement, which is universal, could be extensionally signiﬁcant only if basic statements could
 contradict it; that is to say, if basic statements could establish the existence
 of more than one such value. Since they cannot (for we remember that
 non-falsiﬁability is bound up with the binomial formula), the
-requirement 
-of 
-uniqueness 
-must 
-be 
-extensionally 
+requirement
+of
+uniqueness
+must
+be
+extensionally
 without
 signiﬁcance.*3
-This is the reason why the logical relations holding between a prob-
-ability estimate and basic statements, and the graded ‘conﬁrmability’ of
-the former, are unaﬀected if we eliminate the requirement of unique-
-ness from the system. By doing this we could give the system the form
+This is the reason why the logical relations holding between a probability estimate and basic statements, and the graded ‘conﬁrmability’ of
+the former, are unaﬀected if we eliminate the requirement of uniqueness from the system. By doing this we could give the system the form
 of a pure existential hypothesis.3 But we should then have to give up
 2 It can be put in the following form: For every positive ε, for every predecessor n-tuple,
 and every element with the ordinal number x there is an element, selected according to
@@ -7931,8 +6958,6 @@ adopted: this is empirically signiﬁcant, and renders the probability hypothese
 3 The formulae of the probability calculus are also derivable in this axiomatization, only
 the formulae must be interpreted as existential formulae. The theorem of Bernoulli, for
 some structural components of a theory of experience
-186
-
 
 the uniqueness of probability estimates,*4 and thereby (so far as
 uniqueness is concerned) obtain something diﬀerent from the usual
@@ -7949,8 +6974,7 @@ uniqueness ensures that probability statements can contradict one
 another; for by this requirement they acquire the form of a conjunction
 whose components are a universal statement and an existential
 hypothesis; and statements of this form can stand to one another in
-exactly the same fundamental logical relations (equivalence, deriv-
-ability, compatibility, and incompatibility) as can ‘normal’ universal
+exactly the same fundamental logical relations (equivalence, derivability, compatibility, and incompatibility) as can ‘normal’ universal
 statements of any theory—for example, a falsiﬁable theory.
 If we now consider the axiom of convergence, then we ﬁnd that
 it is like the requirement of uniqueness in that it has the form of a
@@ -7960,8 +6984,7 @@ extensional signiﬁcance either; moreover, it has no logical or formal
 but only an intensional signiﬁcance: it is a demand for the exclusion of all
 intensionally deﬁned (i.e. mathematical) sequences without frequency
 limits. But from the point of view of applications, this exclusion proves
-to be without signiﬁcance even intensionally, since in applied prob-
-ability theory we do not of course deal with the mathematical
+to be without signiﬁcance even intensionally, since in applied probability theory we do not of course deal with the mathematical
 sequences themselves but only with hypothetical estimates about
 empirical sequences. The exclusion of sequences without frequency
 limits could therefore only serve to warn us against treating those
@@ -7973,10 +6996,8 @@ uniqueness can be eliminated, without sacriﬁcing uniqueness.
 probability 187
 
 
-empirical sequences as chance-like or random of which we hypo-
-thetically assume that they have no frequency limit. But what possible
-action could we take in response to this warning?4 What sort of con-
-siderations or conjectures about the possible convergence or
+empirical sequences as chance-like or random of which we hypothetically assume that they have no frequency limit. But what possible
+action could we take in response to this warning?4 What sort of considerations or conjectures about the possible convergence or
 divergence of empirical sequences should we indulge in or abstain
 from, in view of this warning, seeing that criteria of convergence are
 no more applicable to them than are criteria of divergence? All these
@@ -8011,16 +7032,12 @@ signiﬁcant, would be more meaningless than the meaningless axiom of irregulari
 which at least has extensional consequences. Still more meaningless would be the limit
 axiom, since it is not even intensionally signiﬁcant.
 some structural components of a theory of experience
-188
-
 
 interpreted as ‘macro laws’; that is to say, they are interpreted, or
-explained, as mass phenomena, or as the observable results of hypo-
-thetical and not directly observable ‘micro events’. The macro laws are
+explained, as mass phenomena, or as the observable results of hypothetical and not directly observable ‘micro events’. The macro laws are
 deduced from probability estimates by the following method: we show
 that observations which agree with the observed regularity in question
-are to be expected with a probability very close to 1, i.e. with a prob-
-ability which deviates from 1 by an amount which can be made
+are to be expected with a probability very close to 1, i.e. with a probability which deviates from 1 by an amount which can be made
 as small as we choose. When we have shown this, then we say that by
 our probability estimate we have ‘explained’ the observable eﬀect in
 question as a macro eﬀect.
@@ -8031,14 +7048,12 @@ with general usage can well be described as typical of Speculative
 metaphysics.
 For since probability statements are not falsiﬁable, it must always be
 possible in this way to ‘explain’, by probability estimates, any regularity
-we please. Take, for example, the law of gravity. We may contrive hypo-
-thetical probability estimates to ‘explain’ this law in the following way.
+we please. Take, for example, the law of gravity. We may contrive hypothetical probability estimates to ‘explain’ this law in the following way.
 We select events of some kind to serve as elementary or atomic events;
 for instance the movement of a small particle. We select also what is to
 be a primary property of these events; for instance the direction and
 velocity of the movement of a particle. We then assume that these
-events show a chance-like distribution. Finally we calculate the prob-
-ability that all the particles within a certain ﬁnite spatial region, and
+events show a chance-like distribution. Finally we calculate the probability that all the particles within a certain ﬁnite spatial region, and
 during a certain ﬁnite period of time—a certain ‘cosmic period’—will
 with a speciﬁed accuracy move, accidentally, in the way required by the
 law of gravity. The probability calculated will, of course, be very small;
@@ -8085,22 +7100,18 @@ world will wind itself up again accidentally if only we wait long enough. This a
 has of course been frequently repeated since by others. Yet it is, I think, a perfect example
 of the kind of argument here criticized, and one which would allow us to expect, with
 near certainty, anything we liked. Which all goes to show the dangers inherent in the
-existential form shared by probability statements with most of the statements of meta-
-physics. (Cf. section 15.)
+existential form shared by probability statements with most of the statements of metaphysics. (Cf. section 15.)
 *1 The problem here discussed has been treated in a clear and thorough way long ago by
 the physicists P. and T. Ehrenfest, Encycl. d. Math, Wiss. 4th Teilband, Heft 6 (12.12.1911)
 section 30. They treated it as a conceptual and epistemological problem. They introduced the
 some structural components of a theory of experience
-190
-
 
 probability, the physicist might perhaps oﬀer something like a physical
 deﬁnition of probability, on lines such as the following: There are certain
 experiments which, even if carried out under controlled conditions,
 lead to varying results. In the case of some of these experiments—those
 which are ‘chance-like’, such as tosses of a coin—frequent repetition
-leads to results with relative frequencies which, upon further repeti-
-tion, approximate more and more to some ﬁxed value which we may
+leads to results with relative frequencies which, upon further repetition, approximate more and more to some ﬁxed value which we may
 call the probability of the event in question. This value is ‘ . . . empirically
 determinable through long series of experiments to any degree of
 approximation’;1 which explains, incidentally, why it is possible to
@@ -8108,8 +7119,7 @@ falsify a hypothetical estimate of probability.
 Against deﬁnitions on these lines both mathematicians and logicians
 will raise objections; in particular the following:
 (1) The deﬁnition does not agree with the calculus of probability
-since, according to Bernoulli’s theorem, only almost all very long seg-
-ments are statistically stable, i.e. behave as if convergent. For that reason,
+since, according to Bernoulli’s theorem, only almost all very long segments are statistically stable, i.e. behave as if convergent. For that reason,
 probability cannot be deﬁned by this stability, i.e. by quasi-convergent
 behaviour. For the expression ‘almost all’—which ought to occur in the
 deﬁniens—is itself only a synonym for ‘very probable’. The deﬁnition is
@@ -8118,8 +7128,7 @@ by dropping the word ‘almost’. This is what the physicist’s deﬁnition
 did; and it is therefore unacceptable.
 (2) When is a series of experiments to be called ‘long’? Without
 idea of ‘probability hypotheses of ﬁrst, second, . . . k th order’: a probability hypothesis
-of second order, for example, is an estimate of the frequency with which certain fre-
-quencies occur in an aggregate of aggregates. However, P. and T. Ehrenfest do not operate
+of second order, for example, is an estimate of the frequency with which certain frequencies occur in an aggregate of aggregates. However, P. and T. Ehrenfest do not operate
 with anything corresponding to the idea of a reproducible eﬀect which is here used in a
 crucial way in order to solve the problem which they expounded so well. See especially
 the opposition between Boltzmann and Planck to which they refer in notes 247 f., and
@@ -8145,8 +7154,7 @@ believe that we can retain the physicist’s deﬁnition. I shall support this
 belief by the arguments outlined in the previous section. These showed
 that probability hypotheses lose all informative content when they are
 allowed unlimited application. The physicist would never use them in
-this way. Following his example I shall disallow the unlimited applica-
-tion of probability hypotheses: I propose that we take the methodological
+this way. Following his example I shall disallow the unlimited application of probability hypotheses: I propose that we take the methodological
 decision never to explain physical eﬀects, i.e. reproducible regularities, as accumulations of
 accidents. This decision naturally modiﬁes the concept of probability: it
 narrows it.*2 Thus objection (1) does not aﬀect my position, for I do
@@ -8156,15 +7164,11 @@ objection arises.
 (1′) When can we speak of ‘accumulated accidents’? Presumably in
 the case of a small probability. But when is a probability ‘small’? We
 may take it that the proposal which I have just submitted rules out the
-use of the method (discussed in the preceding section) of manufactur-
-ing an arbitrarily large probability out of a small one by changing the
+use of the method (discussed in the preceding section) of manufacturing an arbitrarily large probability out of a small one by changing the
 formulation of the mathematical problem. But in order to carry out the
 proposed decision, we have to know what we are to regard as small.
-In the following pages it will be shown that the proposed method-
-ological rule agrees with the physicist’s deﬁnition, and that the objec-
-tions raised by questions (1′), (2), and (3) can be answered with its
-help. To begin with, I have in mind only one typical case of the applica-
-tion of the calculus of probability: I have in mind the case of certain
+In the following pages it will be shown that the proposed methodological rule agrees with the physicist’s deﬁnition, and that the objections raised by questions (1′), (2), and (3) can be answered with its
+help. To begin with, I have in mind only one typical case of the application of the calculus of probability: I have in mind the case of certain
 reproducible macro eﬀects which can be described with the help of
 precise (macro) laws—such as gas pressure—and which we interpret,
 or explain, as due to a very large accumulation of micro processes, such
@@ -8172,14 +7176,10 @@ or explain, as due to a very large accumulation of micro processes, such
 probability—just as it is narrowed by the decision to adopt shortest random-like sequences
 as mathematical models of empirical sequences, cf. note *1 to section 65.
 some structural components of a theory of experience
-192
 
-
-as molecular collisions. Other typical cases (such as statistical ﬂuctu-
-ations or the statistics of chance-like individual processes) can be
+as molecular collisions. Other typical cases (such as statistical ﬂuctuations or the statistics of chance-like individual processes) can be
 reduced without much diﬃculty to this case.*3
-Let us take a macro eﬀect of this type, described by a well-
-corroborated law, which is to be reduced to random sequences of
+Let us take a macro eﬀect of this type, described by a wellcorroborated law, which is to be reduced to random sequences of
 micro events. Let the law assert that under certain conditions a physical
 magnitude has the value p. We assume the eﬀect to be ‘precise’, so that
 no measurable ﬂuctuations occur, i.e. no deviations from p beyond that
@@ -8222,15 +7222,12 @@ small’. Now our methodological rule amounts to the decision to
 neglect small values of ε; but we shall hardly be prepared to commit
 ourselves for ever to a deﬁnite value of ε.
 If we put our question to a physicist, that is, if we ask him what ε he
-is prepared to neglect—0.001, or 0.000001, or . . . ? he will presum-
-ably answer that ε does not interest him at all; that he has chosen not ε
+is prepared to neglect—0.001, or 0.000001, or . . . ? he will presumably answer that ε does not interest him at all; that he has chosen not ε
 but n; and that he has chosen n in such a way as to make the correlation
 between n and ∆p largely independent of any changes of the value ε which we
 might choose to make.
-The physicist’s answer is justiﬁed, because of the mathematical pecu-
-liarities of the Bernoullian distribution: it is possible to determine for
-every n the functional dependence between ε and ∆p.*4 An examin-
-ation of this function shows that for every (‘large’) n there exists a
+The physicist’s answer is justiﬁed, because of the mathematical peculiarities of the Bernoullian distribution: it is possible to determine for
+every n the functional dependence between ε and ∆p.*4 An examination of this function shows that for every (‘large’) n there exists a
 characteristic value of ∆p such that in the neighbourhood of this value
 ∆p is highly insensitive to changes of ε. This insensitiveness increases
 with increasing n. If we take an n of an order of magnitude which we
@@ -8244,8 +7241,7 @@ it can be shown that almost all possible statistical samples of large size n wil
 undermine a given probabilistic hypothesis, that is to say give it a high negative degree of
 corroboration; and we may decide to interpret this as refutation or falsiﬁcation. Of the
 remaining samples, most will support the hypothesis, that is to say, give it a high positive
-degree of corroboration. Comparatively few samples of large size n will give a probabil-
-istic hypothesis an undecisive degree of corroboration (whether positive or negative).
+degree of corroboration. Comparatively few samples of large size n will give a probabilistic hypothesis an undecisive degree of corroboration (whether positive or negative).
 Thus we can expect to be able to refute a probabilistic hypothesis, in the sense here
 indicated; and we can expect this perhaps even more conﬁdently than in the case of a
 non-probabilistic hypothesis. The methodological rule or decision to regard (for a large
@@ -8253,8 +7249,6 @@ n) a negative degree of corroboration as a falsiﬁcation is, of course, a speci
 methodological rule or decision discussed in the present section—that of neglecting
 certain extreme improbabilities.
 some structural components of a theory of experience
-194
-
 
 magnitude of ε changes. Now the physicist will attach little value to
 more sharply deﬁned boundaries of ∆p. And in the case of typical mass
@@ -8264,11 +7258,8 @@ which depends upon our technique of measurement; and this has
 no sharp bounds but only what I called in section 37 ‘condensation
 bounds’. We shall therefore call n large when the insensitivity of ∆p
 in the neighbourhood of its characteristic value, which we can
-determine, is at least so great that even changes in order of magni-
-tude of ε cause the value of ∆p to ﬂuctuate only within the conden-
-sation bounds of ± φ. (If n →∞, then ∆p becomes completely
-insensitive.) But if this is so, then we need no longer concern our-
-selves with the exact determination of ε: the decision to neglect a small ε
+determine, is at least so great that even changes in order of magnitude of ε cause the value of ∆p to ﬂuctuate only within the condensation bounds of ± φ. (If n →∞, then ∆p becomes completely
+insensitive.) But if this is so, then we need no longer concern ourselves with the exact determination of ε: the decision to neglect a small ε
 suﬃces, even if we have not exactly stated what has to be regarded
 as ‘small’. It amounts to the decision to work with the characteristic
 values of ∆p above mentioned, which are insensitive to changes
@@ -8332,31 +7323,24 @@ and in so far as they are used as empirical statements they are used as
 falsiﬁable statements.
 2 Eddington, The Nature of the Physical World, 1928, p. 75.
 some structural components of a theory of experience
-196
 
-
-But this answer raises another question: How is it possible that prob-
-ability statements—which are not falsiﬁable—can be used as falsiﬁable
+But this answer raises another question: How is it possible that probability statements—which are not falsiﬁable—can be used as falsiﬁable
 statements? (The fact that they can be so used is not in doubt: the
 physicist knows well enough when to regard a probability assumption
 as falsiﬁed.) This question, we ﬁnd, has two aspects. On the one hand,
-we must make the possibility of using probability statements under-
-standable in terms of their logical form. On the other hand, we must
+we must make the possibility of using probability statements understandable in terms of their logical form. On the other hand, we must
 analyse the rules governing their use as falsiﬁable statements.
 According to section 66, accepted basic statements may agree more
-or less well with some proposed probability estimate; they may repre-
-sent better, or less well, a typical segment of a probability sequence.
+or less well with some proposed probability estimate; they may represent better, or less well, a typical segment of a probability sequence.
 This provides the opportunity for the application of some kind of
 methodological rule; a rule, for instance, which might demand that the
 agreement between basic statements and the probability estimate
 should conform to some minimum standard. Thus the rule might draw
-some arbitrary line and decree that only reasonably representative seg-
-ments (or reasonably ‘fair samples’) are ‘permitted’, while atypical or
+some arbitrary line and decree that only reasonably representative segments (or reasonably ‘fair samples’) are ‘permitted’, while atypical or
 non-representative segments are ‘forbidden’.
 A closer analysis of this suggestion showed us that the dividing line
 between what is permitted and what is forbidden need not be drawn
-quite as arbitrarily as might have been thought at ﬁrst. And in particu-
-lar, that there is no need to draw it ‘tolerantly’. For it is possible to
+quite as arbitrarily as might have been thought at ﬁrst. And in particular, that there is no need to draw it ‘tolerantly’. For it is possible to
 frame the rule in such a way that the dividing line between what is
 permitted and what is forbidden is determined, just as in the case of
 other laws, by the attainable precision of our measurements.
@@ -8365,8 +7349,7 @@ of demarcation, does not forbid the occurrence of atypical segments;
 neither does it forbid the repeated occurrence of deviations (which, of
 course, are typical for probability sequences). What this rule forbids is
 the predictable and reproducible occurrence of systematic deviations;
-such as deviations in a particular direction, or the occurrence of seg-
-ments which are atypical in a deﬁnite way. Thus it requires not a mere
+such as deviations in a particular direction, or the occurrence of segments which are atypical in a deﬁnite way. Thus it requires not a mere
 rough agreement, but the best possible one for everything that is reproducible
 and testable; in short, for all reproducible eﬀects.
 probability 197
@@ -8386,12 +7369,10 @@ With suﬃciently precise measurements of initial conditions it would
 be possible to make predictions in this case also; but the rules for
 correct dicing (shaking the dice-box) are so chosen as to prevent us
 from measuring initial conditions. The rules of play and other rules
-determining the conditions under which the various events of a ran-
-dom sequence are to take place I shall call the ‘frame conditions’. They
+determining the conditions under which the various events of a random sequence are to take place I shall call the ‘frame conditions’. They
 consist of such requirements as that the dice shall be ‘true’ (made from
 homogeneous material), that they shall be well shaken, etc.
-There are other cases in which prediction may be unsuccessful. Per-
-haps it has not so far been possible to formulate suitable laws; perhaps
+There are other cases in which prediction may be unsuccessful. Perhaps it has not so far been possible to formulate suitable laws; perhaps
 all attempts to ﬁnd a law have failed, and all predictions have been
 falsiﬁed. In such cases we may despair of ever ﬁnding a satisfactory law.
 (But it is not likely that we shall give up trying unless the problem does
@@ -8404,13 +7385,10 @@ our knowledge does not suﬃce for prediction; as in the case of dicing,
 where we speak of ‘chance’ because we have no knowledge of the initial
 conditions. (Conceivably a physicist equipped with good instruments
 could predict a throw which other people could not predict.)
-In opposition to this subjective view, an objective view has some-
-times been advocated. In so far as this uses the metaphysical idea that
+In opposition to this subjective view, an objective view has sometimes been advocated. In so far as this uses the metaphysical idea that
 *1 This does not mean that I made any concession here to a subjective interpretation of
 probability, or of disorder or randomness.
 some structural components of a theory of experience
-198
-
 
 events are, or are not, determined in themselves, I shall not examine it
 further here. (Cf. section 71 and 78.) If we are successful with our
@@ -8426,8 +7404,7 @@ useless, but it should be strongly emphasized that the concept so
 deﬁned is not opposed to the concept of law: it was for this reason that
 I called probability sequences chance-like. In general, a sequence of
 experimental results will be chance-like if the frame conditions which
-deﬁne the sequence diﬀer from the initial conditions; when the indi-
-vidual experiments, carried out under identical frame conditions, will
+deﬁne the sequence diﬀer from the initial conditions; when the individual experiments, carried out under identical frame conditions, will
 proceed under diﬀerent initial conditions, and so yield diﬀerent
 results. Whether there are chance-like sequences whose elements are in
 no way predictable, I do not know. From the fact that a sequence is
@@ -8464,38 +7441,28 @@ sequence has a Bernoullian distribution is not a symptom of the
 absence of law, and much less identical with the absence of law ‘by
 deﬁnition’.1 In the success of probability predictions we must see no
 more than a symptom of the absence of simple laws in the structure of
-the sequence (cf. sections 43 and 58)—as opposed to the events constitut-
-ing it. The assumption of freedom from after-eﬀect, which is equiva-
-lent to the hypothesis that such simple laws are not discoverable, is
+the sequence (cf. sections 43 and 58)—as opposed to the events constituting it. The assumption of freedom from after-eﬀect, which is equivalent to the hypothesis that such simple laws are not discoverable, is
 corroborated, but that is all.
 70 THE DEDUCIBILITY OF MACRO LAWS
 FROM MICRO LAWS
 There is a doctrine which has almost become a prejudice, although it
 has recently been criticized severely—the doctrine that all observable
 events must be explained as macro events; that is to say, as averages
-or accumulations or summations of certain micro events. (The doc-
-trine is somewhat similar to certain forms of materialism.) Like other
+or accumulations or summations of certain micro events. (The doctrine is somewhat similar to certain forms of materialism.) Like other
 doctrines of its kind, this seems to be a metaphysical hypostatization
 of a methodological rule which in itself is quite unobjectionable. I
-mean the rule that we should see whether we can simplify or gener-
-alize or unify our theories by employing explanatory hypotheses of
+mean the rule that we should see whether we can simplify or generalize or unify our theories by employing explanatory hypotheses of
 the type mentioned (that is to say, hypotheses explaining observable
 eﬀects as summations or integrations of micro events). In evaluating
-the success of such attempts, it would be a mistake to think that non-
-statistical hypotheses about the micro events and their laws of inter-
-action could ever be suﬃcient to explain macro events. For we
-should need, in addition, hypothetical frequency estimates, since stat-
-istical conclusions can only be derived from statistical premises.
+the success of such attempts, it would be a mistake to think that nonstatistical hypotheses about the micro events and their laws of interaction could ever be suﬃcient to explain macro events. For we
+should need, in addition, hypothetical frequency estimates, since statistical conclusions can only be derived from statistical premises.
 These frequency estimates are always independent hypotheses which
 1 As Schlick says in Die Kausalität in der gegenwärtigen Physik, Naturwissenschaften 19, 1931, p. 157.
 some structural components of a theory of experience
-200
-
 
 at times may indeed occur to us whilst we are engaged in studying
 the laws pertaining to micro events, but which can never be derived
-from these laws. Frequency estimates form a special class of hypoth-
-eses: they are prohibitions which, as it were, concern regularities in
+from these laws. Frequency estimates form a special class of hypotheses: they are prohibitions which, as it were, concern regularities in
 the large.1 Von Mises has stated this very clearly: ‘Not even the
 tiniest little theorem in the kinetic theory of gases follows from
 classical physics alone, without additional assumptions of a statistical
@@ -8518,16 +7485,14 @@ behaviour of the others. It can be regarded as one of the most fundamental princ
 quantum theory that the whole is more than the mere sum of the parts’.
 2 Von Mises, Über kausale und statistische Gesetzmässigkeiten in der Physik, Erkenntnis 1, 1930, p. 207
 (cf. Naturwissenschaften 18, 1930).
-*1 The thesis here advanced by von Mises and taken over by myself has been con-
-tested by various physicists, among them P. Jordan (see Anschauliche Quantentheorie, 1936,
+*1 The thesis here advanced by von Mises and taken over by myself has been contested by various physicists, among them P. Jordan (see Anschauliche Quantentheorie, 1936,
 p. 282, where Jordan uses as argument against my thesis the fact that certain forms of
 the ergodic hypothesis have recently been proved). But in the form that probabilistic
 conclusions need probabilistic premises—for example, measure-theoretical premises into
 which certain equiprobabilistic assumptions enter—my thesis seems to me supported
 rather than invalidated by Jordan’s examples. Another critic of this thesis was Albert
 Einstein who attacked it in the last paragraph of an interesting letter which is here
-reprinted in appendix *xii. I believe that, at that time, Einstein had in mind a subject-
-ive interpretation of probability, and a principle of indiﬀerence (which looks in the
+reprinted in appendix *xii. I believe that, at that time, Einstein had in mind a subjective interpretation of probability, and a principle of indiﬀerence (which looks in the
 subjective theory as if it were not an assumption about equiprobabilities). Much later
 Einstein adopted, at least tentatively, a frequency interpretation (of the quantum
 theory).
@@ -8544,33 +7509,27 @@ without them.
 Imagine a waterfall. We may discern some odd kind of regularity:
 the size of the currents composing the fall varies; and from time to
 time a splash is thrown oﬀ from the main stream; yet throughout all
-such variations a certain regularity is apparent which strongly sug-
-gests a statistical eﬀect. Disregarding some unsolved problems of
+such variations a certain regularity is apparent which strongly suggests a statistical eﬀect. Disregarding some unsolved problems of
 hydrodynamics (concerning the formation of vortices, etc.) we can,
 in principle, predict the path of any volume of water—say a group
 of molecules—with any desired degree of precision, if suﬃciently
 precise initial conditions are given. Thus we may assume that it
-would be possible to foretell of any molecule, far above the water-
-fall, at which point it will pass over the edge, where it will reach
+would be possible to foretell of any molecule, far above the waterfall, at which point it will pass over the edge, where it will reach
 bottom, etc. In this way the path of any number of particles may, in
 principle, be calculated; and given suﬃcient initial conditions we
 should be able, in principle, to deduce any one of the individual
 statistical ﬂuctuations of the waterfall. But only this or that individual
-ﬂuctuation could be so obtained, not the recurring statistical regular-
-ities we have described, still less the general statistical distribution as
+ﬂuctuation could be so obtained, not the recurring statistical regularities we have described, still less the general statistical distribution as
 such. In order to explain these we need statistical estimates—at
 least the assumption that certain initial conditions will again and
 again recur for many diﬀerent groups of particles (which amounts
 to a universal statement). We obtain a statistical result if, and only if,
-we make such speciﬁc statistical assumptions—for example, assump-
-tions concerning the frequency distribution of recurring initial
+we make such speciﬁc statistical assumptions—for example, assumptions concerning the frequency distribution of recurring initial
 conditions.
 71 FORMALLY SINGULAR PROBABILITY STATEMENTS
 I call a probability statement ‘formally singular’ when it ascribes a
 probability to a single occurrence, or to a single element of a certain
 some structural components of a theory of experience
-202
-
 
 class of occurrences;*1 for example, ‘the probability of throwing ﬁve
 with the next throw of this die is 1/6′ or ‘the probability of throwing
@@ -8614,8 +7573,7 @@ probability 203
 
 event. Thus the probability that an individual man k will die within a
 given period of time may assume very diﬀerent values according to
-whether we regard him as a member of his age-group, or of his occu-
-pational group, etc. It is not possible to lay down a general rule as to
+whether we regard him as a member of his age-group, or of his occupational group, etc. It is not possible to lay down a general rule as to
 which out of several possible reference-classes should be chosen. (The
 narrowest reference-class may often be the most suitable, provided that
 it is numerous enough to allow the probability estimate to be based
@@ -8635,8 +7593,7 @@ occurrence—we may choose a new reference-class, namely β (or β-),
 and then ask what is the value of βPk(β). The value of this probability is
 of course 1; just as β-Pk(β) = 0. Statements informing us about the actual
 outcome of single occurrences—statements which are not about some
-frequency but rather of the form ‘k ε φ’—cannot change the prob-
-ability of these occurrences; they may, however, suggest to us the
+frequency but rather of the form ‘k ε φ’—cannot change the probability of these occurrences; they may, however, suggest to us the
 choice of another reference-class.
 The concept of a formally singular probability statement provides a
 kind of bridge to the subjective theory, and thereby also, as will be shown
@@ -8650,11 +7607,8 @@ certain reference-class in which some probability estimate has been
 successfully tested. This information does not enable us to predict what
 the property of the event in question will be; but it enables us to
 some structural components of a theory of experience
-204
 
-
-express all we know about it by means of a formally singular prob-
-ability statement which looks like an indeﬁnite prediction about the particular
+express all we know about it by means of a formally singular probability statement which looks like an indeﬁnite prediction about the particular
 event in question.*2
 Thus I do not object to the subjective interpretation of probability
 statements about single events, i.e. to their interpretation as indeﬁnite
@@ -8662,8 +7616,7 @@ predictions—as confessions, so to speak, of our deﬁcient knowledge
 about the particular event in question (concerning which, indeed,
 nothing follows from a frequency statement). I do not object, that is to
 say, so long as we clearly recognize that the objective frequency statements are
-fundamental, since they alone are empirically testable. I reject, however, any inter-
-pretation of these formally singular probability statements—these
+fundamental, since they alone are empirically testable. I reject, however, any interpretation of these formally singular probability statements—these
 indeﬁnite predictions—as statements about an objective state of aﬀairs,
 other than the objective statistical state of aﬀairs. What I have in mind is
 the view that a statement about the probability 1/6 in dicing is not a
@@ -8672,8 +7625,7 @@ but rather an assertion about the next throw—an assertion that its
 result is objectively both indeterminate and undetermined—
 something which as yet hangs in the balance.*3 I regard all attempts at
 this kind of objective interpretation (discussed at length by Jeans,
-among others) as mistaken. Whatever indeterministic airs these inter-
-pretations may give themselves, they all involve the metaphysical idea
+among others) as mistaken. Whatever indeterministic airs these interpretations may give themselves, they all involve the metaphysical idea
 that not only can we deduce and test predictions, but that, in addition,
 nature is more or less ‘determined’ (or ‘undetermined’); so that the
 success (or failure) of predictions is to be explained not by the laws
@@ -8689,8 +7641,7 @@ considered as the result of propensities.
 *3 I do not now object to the view that an event may hang in the balance, and I even
 believe that probability theory can best be interpreted as a theory of the propensities of events to
 turn out one way or another. (See my Postscript.) But I should still object to the view that
-probability theory must be so interpreted. That is to say, I regard the propensity interpret-
-ation as a conjecture about the structure of the world.
+probability theory must be so interpreted. That is to say, I regard the propensity interpretation as a conjecture about the structure of the world.
 probability 205
 
 
@@ -8715,8 +7666,7 @@ were) by means of the relative frequencies corresponding to them, and
 thus to treat the frequencies as determining a system of measurement for
 ranges. I think it is feasible to erect a theory of probability on this
 foundation. Indeed we may say that this plan amounts to the same
-thing as correlating relative frequencies with certain ‘indeﬁnite predic-
-tions’ —as we did in the foregoing section, when deﬁning formally
+thing as correlating relative frequencies with certain ‘indeﬁnite predictions’ —as we did in the foregoing section, when deﬁning formally
 singular probability statements.
 It must be said, however, that this method of deﬁning probability is
 only practicable when a frequency theory has already been constructed.
@@ -8730,24 +7680,19 @@ submit to discussion in the ‘Metaphysical Epilogue’ of my Postscript, under 
 1 Usually (cf. section 35).
 2 Waismann, Logische Analyse des Wahrscheinlichkeitsbegriﬀes, Erkenntnis 1, 1930, p. 128 f.
 some structural components of a theory of experience
-206
-
 
 tion I regard the practicability of Waismann’s proposal as signiﬁcant.
 It is satisfactory to ﬁnd that a more comprehensive theory can bridge
-the gaps—which at ﬁrst appeared unbridgeable—between the vari-
-ous attempts to tackle the problem, especially between the subjective
+the gaps—which at ﬁrst appeared unbridgeable—between the various attempts to tackle the problem, especially between the subjective
 and the objective interpretations. Yet Waismann’s proposal calls for
 some slight modiﬁcation. His concept of a ratio of ranges (cf. note 2
 to section 48) not only presupposes that ranges can be compared
-with the help of their subclass relations (or their entailment rela-
-tions); but it also presupposes, more generally, that even ranges
+with the help of their subclass relations (or their entailment relations); but it also presupposes, more generally, that even ranges
 which only partially overlap (ranges of non-comparable statements)
 can be made comparable. This latter assumption, however, which
 involves considerable diﬃculties, is superﬂuous. It is possible to
 show that in the cases concerned (such as cases of randomness) the
-comparison of subclasses and that of frequencies must lead to analo-
-gous results. This justiﬁes the procedure of correlating frequencies to
+comparison of subclasses and that of frequencies must lead to analogous results. This justiﬁes the procedure of correlating frequencies to
 ranges in order to measure the latter. In doing so, we make the
 statements in question (non-comparable by the subclass method)
 comparable. I will indicate roughly how the procedure described
@@ -8763,8 +7708,7 @@ is a reference class α (which may be the universal class) with respect to
 which the following rule holds which may be said to have the form of
 a ‘law of nature’:
 (x) {[x ε (α.β)] →(x ε γ)}.
-If this ‘law of nature’ does not hold, so that we may assume random-
-ness in this respect, then the inequality holds. But in this case we
+If this ‘law of nature’ does not hold, so that we may assume randomness in this respect, then the inequality holds. But in this case we
 probability 207
 
 
@@ -8772,8 +7716,7 @@ obtain, provided α is denumerable, and acceptable as a reference
 sequence:
 αF(γ) < αF(β).
 This means that, in the case of randomness, a comparison of ranges
-must lead to the same inequality as a comparison of relative frequen-
-cies. Accordingly, if we have randomness, we may correlate relative
+must lead to the same inequality as a comparison of relative frequencies. Accordingly, if we have randomness, we may correlate relative
 frequencies with the ranges in order to make the ranges measurable.
 But this is just what we did, although indirectly, in section 71, when
 we deﬁned the formally singular probability statement. Indeed, from
@@ -8785,10 +7728,7 @@ between objective and subjective theories, which at ﬁrst seemed so
 obdurate, may be eliminated altogether by the somewhat obvious
 deﬁnition of formally singular probability.
 some structural components of a theory of experience
-208
 
-
-9
 SOME OBSERVATIONS ON
 QUANTUM THEORY
 Our analysis of the problem of probability has placed instruments at
@@ -8815,8 +7755,7 @@ which have been interpreted by Heisenberg in terms of his uncertainty
 
 principle; that is, as statements about ranges of uncertainty due to the
 limits of precision which we may attain in our measurements. These
-formulae, as I shall try to show, are to be interpreted as formally singu-
-lar probability statements (cf. section 71); which means that they in
+formulae, as I shall try to show, are to be interpreted as formally singular probability statements (cf. section 71); which means that they in
 their turn must be interpreted statistically. So interpreted the formulae
 in question assert that certain relations hold between certain ranges of statistical
 ‘dispersion’ or ‘variance’ or ‘scatter’. (They will be here called ‘statistical
@@ -8833,17 +7772,14 @@ deducible from the formulae of the theory. It would be, rather, a
 separate or an additional assumption.
 (4) Moreover this additional assumption of Heisenberg’s actually
 contradicts, as I shall try to show, the formulae of quantum theory if they
-are statistically interpreted. For not only are more precise measure-
-ments compatible with the quantum theory, but it is even possible to
+are statistically interpreted. For not only are more precise measurements compatible with the quantum theory, but it is even possible to
 describe imaginary experiments which show the possibility of more
 exact measurements. In my view it is this contradiction which creates
-all those diﬃculties by which the admirable structure of modern quan-
-tum physics is beset; so much so that Thirring could say of quantum
+all those diﬃculties by which the admirable structure of modern quantum physics is beset; so much so that Thirring could say of quantum
 theory that it ‘has remained an impenetrable mystery to its creators, on
 their own admission’.1
 What follows here might be described, perhaps, as an inquiry into
-the foundations of quantum theory.2 In this, I shall avoid all mathe-
-matical arguments and, with one single exception, all mathematical
+the foundations of quantum theory.2 In this, I shall avoid all mathematical arguments and, with one single exception, all mathematical
 1 H. Thirring, Die Wandlung des Begriﬀssystems der Physik (essay in Krise und Neuaufbau in den exakten
 Wissenschaften, Fünf Wiener Vorträge, by Mark, Thirring, Hahn, Nobeling, Menger; Verlag
 Deuticke, Wien und Leipzig, 1933, p. 30).
@@ -8851,32 +7787,26 @@ Deuticke, Wien und Leipzig, 1933, p. 30).
 but I omit problems concerning wave-ﬁelds (Dirac’s theory of emission and absorption;
 ‘second quantization’ of the Maxwell-Dirac ﬁeld-equations). I mention this restriction
 some structural components of a theory of experience
-210
-
 
 formulae. This is possible because I shall not question the correctness
 of the system of the mathematical formulae of quantum theory. I
 shall only be concerned with the logical consequences of its physical
 interpretation which is due to Born.
 As to the controversy over ‘causality’, I propose to dissent from
-the indeterminist metaphysic so popular at present. What distin-
-guishes it from the determinist metaphysic until recently in vogue
+the indeterminist metaphysic so popular at present. What distinguishes it from the determinist metaphysic until recently in vogue
 among physicists is not so much its greater lucidity as its greater
 sterility.
-In the interests of clarity, my criticism is often severe. It may there-
-fore be just as well to say here that I regard the achievement of the
+In the interests of clarity, my criticism is often severe. It may therefore be just as well to say here that I regard the achievement of the
 creators of modern quantum theory as one of the greatest in the whole
 history of science.*1
 73 HEISENBERG’S PROGRAMME AND THE
 UNCERTAINTY RELATIONS
-When he attempted to establish atomic theory on a new basis, Heisen-
-berg started with an epistemological programme:1 to rid the theory of
+When he attempted to establish atomic theory on a new basis, Heisenberg started with an epistemological programme:1 to rid the theory of
 ‘unobservables’, that is, of magnitudes inaccessible to experimental
 observation; to rid it, one might say, of metaphysical elements. Such
 unobservable magnitudes did occur in Bohr’s theory, which preceded
 Heisenberg’s own: nothing observable by experiment corresponded to
-the orbits of the electrons or even to the frequencies of their revolu-
-tions (for the emitted frequencies which could be observed as spectral
+the orbits of the electrons or even to the frequencies of their revolutions (for the emitted frequencies which could be observed as spectral
 because there are problems here, such as the interpretation of the equivalence between a
 quantized wave-ﬁeld and a corpuscular gas, to which my arguments apply (if at all) only
 if they are adapted to these problems with great care.
@@ -8903,8 +7833,7 @@ explain the negative result of the experiments of Michelson and Morley
 by making use of unobservable magnitudes such as the movements
 relative to Lorentz’s immobile ether; i.e. of magnitudes inaccessible to
 experimental testing. Both in this case and in that of Bohr’s theory, the
-theories needing reform explained certain observable natural pro-
-cesses; but both made use of the unsatisfactory assumption that
+theories needing reform explained certain observable natural processes; but both made use of the unsatisfactory assumption that
 physical events and physically deﬁned magnitudes exist which nature
 succeeds in hiding from us by making them for ever inaccessible to
 observational tests.
@@ -8930,24 +7859,19 @@ process itself. This interference by the measuring process with the
 object measured can be neglected in the case of macroscopic objects,
 but not in the case of atomic objects; for these may be very strongly
 some structural components of a theory of experience
-212
-
 
 aﬀected, for example by irradiation with light. It is thus impossible to
 infer from the result of the measurement the precise state of an atomic
 object immediately after it has been measured. Therefore the measurement
-cannot serve as basis for predictions. Admittedly, it is always possible to ascer-
-tain, by means of new measurements, the state of the object after the
+cannot serve as basis for predictions. Admittedly, it is always possible to ascertain, by means of new measurements, the state of the object after the
 previous measurement, but the system is thereby again interfered with
 in an incalculable way. And admittedly, it is always possible to arrange
 our measurements in such a way that certain of the characteristics of
 the state to be measured—for example the momentum of the
 particle—are not disturbed. But this can only be done at the price of
-interfering the more severely with certain other characteristic magni-
-tudes of the state to be measured (in this case the position of the
+interfering the more severely with certain other characteristic magnitudes of the state to be measured (in this case the position of the
 particle). If two magnitudes are mutually correlated in this way then
-the theorem holds for them that they cannot simultaneously be meas-
-ured with precision, although each may be separately so measured.
+the theorem holds for them that they cannot simultaneously be measured with precision, although each may be separately so measured.
 Thus if we increase the precision of one of the two measurements—say
 the momentum px, thereby reducing the range or interval of error
 ∆px—then we are bound to decrease the precision of the measurement
@@ -8977,12 +7901,9 @@ to the particle after the measurement has been made. The position and
 momentum of an electron up to the instant of measuring can be ascertained
 in principle with unlimited precision. This follows from the very fact
 that it is after all possible to carry out several measuring operations in
-succession. Accordingly, by combining the results of (a) two meas-
-urements of position, (b) measurement of position preceded by meas-
-urement of momentum, and (c) measurement of position followed by
+succession. Accordingly, by combining the results of (a) two measurements of position, (b) measurement of position preceded by measurement of momentum, and (c) measurement of position followed by
 measurement of momentum, it would be possible to calculate, with
-the help of the data obtained, the precise position and momentum co-
-ordinates for the whole period of time between the two measurements.
+the help of the data obtained, the precise position and momentum coordinates for the whole period of time between the two measurements.
 (To start with, we may conﬁne our considerations only to this period.4)
 But these precise calculations are, according to Heisenberg, useless for
 prediction: it is therefore impossible to test them. This is so because the
@@ -8991,8 +7912,7 @@ the second is the immediate successor of the ﬁrst in the sense that no
 interference has occurred between them. Any test that might be
 arranged for the purpose of checking the path between the two
 experiments is bound to disturb it so much that our calculations of the
-exact path become invalid. Heisenberg says about these exact calcula-
-tions: ‘ . . . whether one should attribute any physical reality to the
+exact path become invalid. Heisenberg says about these exact calculations: ‘ . . . whether one should attribute any physical reality to the
 calculated past history of the electron is a pure matter of taste’.5 By this
 he clearly wishes to say that such untestable calculations of paths are
 from the physicist’s point of view without any signiﬁcance. Schlick
@@ -9001,14 +7921,10 @@ expressed myself even more strongly, in complete agreement with the
 fundamental views of both Bohr and Heisenberg themselves, which I
 3 March, Die Grundlagen der Quantenmechanik, 1931, p. 55.
 4 I shall show in detail in section 77 and in appendix vi that the case (b) will in certain
-circumstances also enable us to calculate the past of the electron before the ﬁrst measure-
-ment was taken. (The next quotation from Heisenberg seems to allude to this fact.) *I
+circumstances also enable us to calculate the past of the electron before the ﬁrst measurement was taken. (The next quotation from Heisenberg seems to allude to this fact.) *I
 now regard this footnote, like section 77, as mistaken.
-5 Heisenberg, Die Physikalischen Prinzipien der Quantentheorie (1930), p. 15. (The English transla-
-tion, p. 20, puts it very well: ‘is a matter of personal belief’.)
+5 Heisenberg, Die Physikalischen Prinzipien der Quantentheorie (1930), p. 15. (The English translation, p. 20, puts it very well: ‘is a matter of personal belief’.)
 some structural components of a theory of experience
-214
-
 
 believe to be incontestable. If a statement concerning the position of an
 electron in atomic dimensions is not veriﬁable then we cannot attribute
@@ -9024,21 +7940,16 @@ also an exact path) but that it is impossible for us to measure them both
 simultaneously. If this is so then nature is still bent on hiding certain
 physical magnitudes from our eyes; not indeed the position, nor yet
 the momentum, of the particle, but the combination of these two
-magnitudes, the ‘position-cum-momentum’, or the ‘path’. This interpret-
-ation regards the uncertainty principle as a limitation of our know-
-ledge; thus it is subjective. The other possible interpretation, which is an
+magnitudes, the ‘position-cum-momentum’, or the ‘path’. This interpretation regards the uncertainty principle as a limitation of our knowledge; thus it is subjective. The other possible interpretation, which is an
 objective one, asserts that it is inadmissible or incorrect or metaphysical
-to attribute to the particle anything like a sharply deﬁned ‘position-
-cum-momentum’ or ‘path’: it simply has no ‘path’, but only either an
+to attribute to the particle anything like a sharply deﬁned ‘positioncum-momentum’ or ‘path’: it simply has no ‘path’, but only either an
 exact position combined with an inexact momentum, or an exact
 momentum combined with an inexact position. But if we accept this
-interpretation then, again, the formalism of the theory contains meta-
-physical elements; for a ‘path’ or ‘position-cum-momentum’ of the
+interpretation then, again, the formalism of the theory contains metaphysical elements; for a ‘path’ or ‘position-cum-momentum’ of the
 particle, as we have seen, is exactly calculable—for those periods of
 time during which it is in principle impossible to test it by
 observation.
-It is illuminating to see how the champions of the uncertainty rela-
-tion vacillate between a subjective and an objective approach. Schlick
+It is illuminating to see how the champions of the uncertainty relation vacillate between a subjective and an objective approach. Schlick
 for instance writes, immediately after upholding the objective view, as
 we have seen: ‘Of natural events themselves it is impossible to assert
 6 Schlick, Die Kausalität in der gegenwärtigen Physik, Die Naturwissenschaften 19, 1931, p. 159.
@@ -9054,9 +7965,7 @@ meaningfully any such thing as “haziness” or “inaccuracy”. It is only to
 our own thoughts that anything of this sort can apply (more especially,
 if we do not know which statements . . . are true)’: a remark which is
 obviously directed against that very same objective interpretation which
-assumes that it is not our knowledge, but the momentum of the par-
-ticle, which gets ‘blurred’ or ‘smeared’, as it were, by having its pos-
-ition precisely measured.*1 Similar vacillations are shown by many
+assumes that it is not our knowledge, but the momentum of the particle, which gets ‘blurred’ or ‘smeared’, as it were, by having its position precisely measured.*1 Similar vacillations are shown by many
 other authors. But whether one decides in favour of the objective or the
 subjective view, the fact remains that Heisenberg’s programme has not
 been carried out and that he has not succeeded in his self-imposed task
@@ -9075,19 +7984,14 @@ represented by the ‘quantum-theoretical image of a particle’ as by the
 ‘quantum-theoretical image of a wave’.
 This idea is connected with the fact that modern quantum theory
 has advanced along two diﬀerent roads. Heisenberg started from the
-classical particle theory of the electron which he re-interpreted accord-
-ing to quantum theory; whilst Schrödinger started from the (likewise
-‘classical’) wave-theory of de Broglie: he co-ordinated with each elec-
-tron a ‘wave-packet’, i.e. a group of oscillations which by interference
+classical particle theory of the electron which he re-interpreted according to quantum theory; whilst Schrödinger started from the (likewise
+‘classical’) wave-theory of de Broglie: he co-ordinated with each electron a ‘wave-packet’, i.e. a group of oscillations which by interference
 strengthen each other within a small region and extinguish each other
-*1 The expression ‘smeared’ is due to Schrödinger. The problem of the objective exist-
-ence or non-existence of a ‘path’—whether the path is ‘smeared’, or whether it is merely
+*1 The expression ‘smeared’ is due to Schrödinger. The problem of the objective existence or non-existence of a ‘path’—whether the path is ‘smeared’, or whether it is merely
 not fully known—is, I believe, fundamental. Its importance has been enhanced by the
 experiment of Einstein, Podolsky and Rosen, discussed in appendices *xi and *xii.
 9 Heisenberg, Physikalische Prinzipien, p. 49.
 some structural components of a theory of experience
-216
-
 
 outside it. Schrödinger later showed that his wave-mechanics led to
 results mathematically equivalent to those of Heisenberg’s particle
@@ -9098,25 +8002,18 @@ interpretation of the two theories. He showed that the wave theory too
 can be taken as a particle theory; for Schrödinger’s wave equation can
 be interpreted in such a way that it gives us the probability of ﬁnding the
 particle within any given region of space. (The probability is determined
-by the square of the amplitude of the wave; it is great within the wave-
-packet where the waves reinforce each other, and vanishes outside it.)
-That the quantum theory should be interpreted statistically was sug-
-gested by various aspects of the problem situation. Its most important
+by the square of the amplitude of the wave; it is great within the wavepacket where the waves reinforce each other, and vanishes outside it.)
+That the quantum theory should be interpreted statistically was suggested by various aspects of the problem situation. Its most important
 task—the deduction of the atomic spectra—had to be regarded as a
-statistical task ever since Einstein’s hypothesis of photons (or light-
-quanta). For this hypothesis interpreted the observed light-eﬀects as
+statistical task ever since Einstein’s hypothesis of photons (or lightquanta). For this hypothesis interpreted the observed light-eﬀects as
 mass-phenomena, as due to the incidence of many photons. ‘The
 experimental methods of atomic physics have, . . . under the guidance
-of experience, become concerned, exclusively, with statistical ques-
-tions. Quantum mechanics, which furnishes the systematic theory of
+of experience, become concerned, exclusively, with statistical questions. Quantum mechanics, which furnishes the systematic theory of
 the observed regularities, corresponds in every way to the present state
 of experimental physics; for it conﬁnes itself, from the outset, to
 statistical questions and to statistical answers.’1
-It is only in its application to problems of atomic physics that quan-
-tum theory obtains results which diﬀer from those of classical mechan-
-ics. In its application to macroscopic processes its formulae yield with
-close approximation those of classical mechanics. ‘According to quan-
-tum theory, the laws of classical mechanics are valid if they are
+It is only in its application to problems of atomic physics that quantum theory obtains results which diﬀer from those of classical mechanics. In its application to macroscopic processes its formulae yield with
+close approximation those of classical mechanics. ‘According to quantum theory, the laws of classical mechanics are valid if they are
 regarded as statements about the relations between statistical averages’,
 says March.2 In other words, the classical formulae can be deduced as
 macro-laws.
@@ -9128,8 +8025,7 @@ attainable in measuring physical magnitudes is limited by Heisenberg’s
 some observations on quantum theory 217
 
 
-uncertainty relations. It is argued that, owing to this uncertainty of meas-
-urements in any atomic experiments, ‘. . . the result will not in general
+uncertainty relations. It is argued that, owing to this uncertainty of measurements in any atomic experiments, ‘. . . the result will not in general
 be determinate, i.e. if the experiment is repeated several times under
 identical conditions several diﬀerent results may be obtained. If the
 experiment is repeated a large number of times it will be found that
@@ -9150,8 +8046,7 @@ account of these relations of derivability, then the interpretation of the
 uncertainty formulae will have to be revised.
 75 A STATISTICAL RE-INTERPRETATION OF
 THE UNCERTAINTY FORMULAE
-Since Heisenberg it is accepted as an established fact that any simul-
-taneous measurements of position and momentum with a precision
+Since Heisenberg it is accepted as an established fact that any simultaneous measurements of position and momentum with a precision
 exceeding that permitted by his uncertainty relations would contradict
 quantum theory. The ‘prohibition’ of exact measurements, it is
 believed, can be logically derived from quantum theory, or from wave
@@ -9164,20 +8059,16 @@ obtained in a deﬁnite fraction of the total number of times, so that there is 
 probability of its being obtained.’
 4 March, Die Grundlagen der Quantenmechanik, p. 3.
 some structural components of a theory of experience
-218
-
 
 mechanics. On this view, the theory would have to be regarded as
 falsiﬁed if experiments resulting in measurements of ‘forbidden
 accuracy’ could be carried out.1
 I believe this view to be false. Admittedly, it is true that Heisenberg’s
 formulae (∆x∆px h
-4π etc.) result as logical conclusions from the the-
-ory;2 but the interpretation of these formulae as rules limiting attainable
+4π etc.) result as logical conclusions from the theory;2 but the interpretation of these formulae as rules limiting attainable
 precision of measurement, in Heisenberg’s sense, does not follow from
 the theory. Therefore measurements more exact than those permissible
-according to Heisenberg cannot logically contradict the quantum the-
-ory, or wave mechanics. I shall accordingly draw a sharp distinction
+according to Heisenberg cannot logically contradict the quantum theory, or wave mechanics. I shall accordingly draw a sharp distinction
 between the formulae, which I shall call the ‘Heisenberg formulae’ for
 short, and their interpretation—also due to Heisenberg—as uncertainty
 relations; that is, as statements imposing limitations upon the attainable
@@ -9188,14 +8079,11 @@ assumption, i.e. an assumption which can be statistically interpreted (as we
 saw in the preceding section). But if this interpretation is adopted, then
 the description of a single particle by a wave-packet is undoubtedly
 nothing else but a formally singular probability statement (cf. section 71). The
-wave-amplitude determines, as we have seen, the probability of detect-
-ing the particle at a certain place; and it is just this kind of probability
+wave-amplitude determines, as we have seen, the probability of detecting the particle at a certain place; and it is just this kind of probability
 statement—the kind that refers to a single particle (or event)—which
-we have called ‘formally singular’. If one accepts the statistical inter-
-pretation of quantum theory, then one is bound to interpret those
+we have called ‘formally singular’. If one accepts the statistical interpretation of quantum theory, then one is bound to interpret those
 statements—such as the Heisenberg formulae—which can be derived
-1 I refrain from criticizing here the very widespread and rather naïve view that Heisen-
-berg’s arguments furnish conclusive proof of the impossibility of all such measurements;
+1 I refrain from criticizing here the very widespread and rather naïve view that Heisenberg’s arguments furnish conclusive proof of the impossibility of all such measurements;
 cf. for instance, Jeans, The New Background of Science, 1933, p. 233; 2nd edition, 1934, p. 237:
 ‘Science has found no way out of this dilemma. On the contrary, it has proved that there
 is no way out.’ It is clear, of course, that no such proof can ever be furnished, and that the
@@ -9223,8 +8111,7 @@ random scattering; and the range of scatter, ∆px, will thereby the
 greater, the smaller we have made ∆x, i.e. the range of scatter or
 imprecision allowed to the positions. And vice versa: if we select, or
 separate, those particles whose momenta px all fall within a prescribed
-range ∆px, then we shall ﬁnd that their positions will scatter in a ran-
-dom manner, within a range ∆x which will be the greater, the smaller
+range ∆px, then we shall ﬁnd that their positions will scatter in a random manner, within a range ∆x which will be the greater, the smaller
 we have made ∆px, i.e. the range of scatter or imprecision allowed to the
 momenta. And ﬁnally: if we try to select those particles which have
 both the properties ∆x and ∆px, then we can physically carry out such a
@@ -9240,12 +8127,9 @@ In my statistical interpretation I have so far made no mention of
 however. Where, in this paragraph, I speak of ‘an aggregate of particles’ I should now
 speak of ‘an aggregate—or of a sequence—of repetitions of an experiment undertaken
 with one particle (or one system of particles)’. Similarly, in the following paragraphs; for
-example, the ‘ray’ of particles should be re-interpreted as consisting of repeated experi-
-ments with (one or a few) particles—selected by screening oﬀ, or by shutting out,
+example, the ‘ray’ of particles should be re-interpreted as consisting of repeated experiments with (one or a few) particles—selected by screening oﬀ, or by shutting out,
 particles which are not wanted.
 some structural components of a theory of experience
-220
-
 
 measurement; I have referred only to physical selection.3 It is now necessary
 to clarify the relation between these two concepts.
@@ -9261,8 +8145,7 @@ a ‘physical selection’—in contradistinction to a merely ‘mental’ or
 all those particles which have passed, or will pass, through the range
 ∆p; that is, of a class within a wider class of particles from which it
 has not been physically screened oﬀ.
-Now every physical selection can of course be regarded as a measure-
-ment, and can actually be used as such.4 If, say, a ray of particles is
+Now every physical selection can of course be regarded as a measurement, and can actually be used as such.4 If, say, a ray of particles is
 selected by screening oﬀ or shutting out all those which do not pass
 through a certain positional range (‘place-selection’) and if later the
 momentum of one of these particles is measured, then we can regard
@@ -9270,14 +8153,12 @@ the place-selection as a measurement of position, because we learn
 from it that the particle has passed through a certain position (though
 when it was there we may sometimes not know, or may only learn from
 another measurement). On the other hand, we must not regard every
-measurement as a physical selection. Imagine, for example, a mono-
-chromatic ray of electrons ﬂying in the direction x. By using a Geiger
+measurement as a physical selection. Imagine, for example, a monochromatic ray of electrons ﬂying in the direction x. By using a Geiger
 counter, we can then record those electrons that arrive at a certain
 position. By the time-intervals between the impacts upon the counter,
 we may also measure spatial intervals; that is to say, we measure their
 positions in the x direction up to the moment of impact. But in taking
-these measurements we do not make a physical selection of the par-
-ticles according to their positions in the x direction. (And indeed, these
+these measurements we do not make a physical selection of the particles according to their positions in the x direction. (And indeed, these
 3 Weyl too, among others, writes of ‘selections’; see Gruppentheorie und Quantenmechanik,
 p. 67 ﬀ., English translation p. 76 ﬀ.; but unlike me he does not contrast measurement
 and selection.
@@ -9301,8 +8182,7 @@ the same momentum but have also passed through some narrow slit
 determining a positional range ∆x, then we are bound to fail. We fail
 because any selection according to the position of the particles
 amounts to an interference with the system which will result in
-increased scattering of the momentum components px, so that the scat-
-tering will increase (in accordance with the law expressed by the
+increased scattering of the momentum components px, so that the scattering will increase (in accordance with the law expressed by the
 Heisenberg formula) with the narrowing of the slit. And conversely: if
 we are given a ray selected according to position by being passed
 through a slit, and if we try to make it ‘parallel’ (or ‘plane’) and
@@ -9316,28 +8196,23 @@ these formulae becomes valid) then this selection may be called a pure
 case.5
 Using this terminology, we can formulate the statistical scatter
 5 The term is due to Weyl (Zeitschrift fur Physik 46, 1927, p. 1) and J. von Neumann
-(Göttinger Nachrichten, 1927, p. 245). If, following Weyl (Gruppentheorie und Quanten-
-mechanik, p. 70; English translation p. 79; cf. also Born-Jordan, Elementare Quanten-mechanik,
+(Göttinger Nachrichten, 1927, p. 245). If, following Weyl (Gruppentheorie und Quantenmechanik, p. 70; English translation p. 79; cf. also Born-Jordan, Elementare Quanten-mechanik,
 p. 315), we characterize the pure case as one ‘. . . which it is impossible to produce
 by a combination of two statistical collections diﬀerent from it’, then pure cases
 satisfying this description need not be pure momentum or place selections. They could
 be produced, for example, if a place-selection were eﬀected with some chosen degree
 of precision, and the momentum with the greatest precision still attainable.
 some structural components of a theory of experience
-222
-
 
 relations thus: There is no aggregate of particles more homogeneous
 than a pure case.*2
 It has not till now been taken suﬃciently into account that to the
-mathematical derivation of the Heisenberg formulae from the funda-
-mental equations of quantum theory there must correspond, precisely,
+mathematical derivation of the Heisenberg formulae from the fundamental equations of quantum theory there must correspond, precisely,
 a derivation of the interpretation of the Heisenberg formulae from the
 interpretation of these fundamental equations. March for instance has
 described the situation just the other way round (as indicated in the
 previous section): the statistical interpretation of quantum theory
-appears in his presentation as a consequence of the Heisenberg limita-
-tion upon attainable precision. Weyl on the other hand gives a strict
+appears in his presentation as a consequence of the Heisenberg limitation upon attainable precision. Weyl on the other hand gives a strict
 derivation of the Heisenberg formulae from the wave equation—an
 equation which he interprets in statistical terms. Yet he interprets the
 Heisenberg formulae—which he has just derived from a statistically
@@ -9351,15 +8226,13 @@ laws, while being precisely determined in every single case. Rather, the
 very meaning of these concepts depends on the measurements needed
 to ascertain them; and an exact measurement of the position robs us of
 the possibility of ascertaining the velocity.’6
-The conﬂict perceived by Weyl between Born’s statistical interpret-
-ation of quantum theory and Heisenberg’s limitations upon attainable
+The conﬂict perceived by Weyl between Born’s statistical interpretation of quantum theory and Heisenberg’s limitations upon attainable
 precision does indeed exist; but it is sharper than Weyl thinks. Not only
 is it impossible to derive the limitations of attainable precision from
 the statistically interpreted wave-equation, but the fact (which I have
 still to demonstrate) that neither the possible experiments nor the
 actual experimental results agree with Heisenberg’s interpretation can
-*2 In the sense of note *1, this should, of course, be re-formulated: ‘There is no experi-
-mental arrangement capable of producing an aggregate or sequence of experiments with
+*2 In the sense of note *1, this should, of course, be re-formulated: ‘There is no experimental arrangement capable of producing an aggregate or sequence of experiments with
 results more homogeneous than a pure case.’
 6 Weyl, Gruppentheorie und Quantenmechanik, p. 68. *The paragraph here cited seems to be
 omitted in the English translation.
@@ -9372,8 +8245,7 @@ favour of the statistical interpretation of the quantum theory.
 ELEMENTS BY INVERTING HEISENBERG’S
 PROGRAMME; WITH APPLICATIONS
 If we start from the assumption that the formulae which are peculiar to
-quantum theory are probability hypotheses, and thus statistical state-
-ments, then it is diﬃcult to see how prohibitions of single events could
+quantum theory are probability hypotheses, and thus statistical statements, then it is diﬃcult to see how prohibitions of single events could
 be deduced from a statistical theory of this character (except perhaps in
 the cases of probabilities equal to one or to zero). The belief that single
 measurements can contradict the formulae of quantum physics seems
@@ -9384,55 +8256,42 @@ equals 1/6’) and one of the following two statements: k ε β (‘the throw
 is in fact a ﬁve’) or k ε β- (‘the throw is in fact not a ﬁve’).
 These simple considerations provide us with the means of refute any
 of the alleged proofs which have been designed to show that exact
-measurements of position and momentum would contradict the quan-
-tum theory; or which have been designed, perhaps, to show that the
+measurements of position and momentum would contradict the quantum theory; or which have been designed, perhaps, to show that the
 mere assumption that any such measurements are physically possible
 must lead to contradictions within the theory. For any such proof must
-make use of quantum-theoretical considerations applied to single par-
-ticles; which means that it has to make use of formally singular prob-
-ability statements, and further, that it must be possible to translate the
+make use of quantum-theoretical considerations applied to single particles; which means that it has to make use of formally singular probability statements, and further, that it must be possible to translate the
 proof—word for word, as it were—into the statistical language. If we
 do this then we ﬁnd that there is no contradiction between the single
 measurements which are assumed to be precise, and the quantum
-theory in its statistical interpretation. There is only an apparent contra-
-diction between these precise measurements and certain formally sin-
-gular probability statements of the theory. (In appendix v an example
+theory in its statistical interpretation. There is only an apparent contradiction between these precise measurements and certain formally singular probability statements of the theory. (In appendix v an example
 of this type of proof will be examined.)
 But whilst it is wrong to say that the quantum theory rules out exact
 measurements, it is yet correct to say that from formulae which are
 peculiar to the quantum theory—provided they are interpreted
 some structural components of a theory of experience
-224
-
 
 statistically—no precise singular predictions can be derived. (I do not count either
 the law of conservation of energy nor the law of conservation of
 momentum among the formulae peculiar to quantum theory.)
 This is so because in view of the scatter relations, we must fail, more
 especially, to produce precise initial conditions, by experimentally
-manipulating the system (i.e. by what we have called physical selec-
-tion). Now it is indeed true that the normal technique of the experi-
-menter is to produce or to construct initial conditions; and this allows us to
-derive from our statistical scatter relations the theorem—which, how-
-ever, only holds for this ‘constructive’ experimental technique—that from
+manipulating the system (i.e. by what we have called physical selection). Now it is indeed true that the normal technique of the experimenter is to produce or to construct initial conditions; and this allows us to
+derive from our statistical scatter relations the theorem—which, however, only holds for this ‘constructive’ experimental technique—that from
 quantum theory we cannot obtain any singular predictions, but only
 frequency predictions.1
-This theorem sums up my attitude to all those imaginary experi-
-ments discussed by Heisenberg (who here largely follows Bohr) with
+This theorem sums up my attitude to all those imaginary experiments discussed by Heisenberg (who here largely follows Bohr) with
 the object of proving that it is impossible to make measurements of a
 precision forbidden by his uncertainty principle. The point is in every
 case the same: the statistical scatter makes it impossible to predict what
 the path of the particle will be after the measuring operation.
-It might well seem that not much has been gained by our reinterpre-
-tation of the uncertainty principle. For even Heisenberg asserts in the
+It might well seem that not much has been gained by our reinterpretation of the uncertainty principle. For even Heisenberg asserts in the
 main (as I have tried to show) no more than that our predictions are
 subject to this principle; and as in this matter I agree with him up to a
 point, it might be thought that I am only quarrelling about words
 rather than debating any substantial issue. But this would hardly do
 justice to my argument. Indeed I think that Heisenberg’s view and
 mine are diametrically opposed. This will be shown at length in my
-next section. Meanwhile I shall attempt to resolve the typical diﬃcul-
-ties inherent in Heisenberg’s interpretation; and I shall try to make
+next section. Meanwhile I shall attempt to resolve the typical diﬃculties inherent in Heisenberg’s interpretation; and I shall try to make
 clear how, and why, these diﬃculties arise.
 First we must examine the diﬃculty over which, as we have seen,
 Heisenberg’s programme comes to grief. It is the occurrence, in the
@@ -9457,17 +8316,13 @@ together will then determine precisely the path of all those particles
 which belong to the second selection, in so far as this path lies between
 the two measurements: both position and momentum between the
 two measurements can be precisely calculated.
-Now these measurements and calculations, which correspond pre-
-cisely to the elements regarded as superﬂuous in Heisenberg’s inter-
-pretation, are on my interpretation of the theory anything but
+Now these measurements and calculations, which correspond precisely to the elements regarded as superﬂuous in Heisenberg’s interpretation, are on my interpretation of the theory anything but
 superﬂuous. Admittedly, they do not serve as initial conditions or as a
-basis for the derivation of predictions; but they are indispensable never-
-theless: they are needed for testing our predictions, which are statistical predictions.
+basis for the derivation of predictions; but they are indispensable nevertheless: they are needed for testing our predictions, which are statistical predictions.
 For what our statistical scatter relations assert is that the momenta must
 scatter when positions are more exactly determined, and vice versa. This
 is a prediction which would not be testable, or falsiﬁable, if we were
-not in a position to measure and calculate, with the help of experi-
-ments of the kind described, the various scattered momenta which
+not in a position to measure and calculate, with the help of experiments of the kind described, the various scattered momenta which
 occur immediately after any selection according to position has been
 made.*1
 *1 I consider this paragraph (and also the ﬁrst sentence of the next paragraph) as one of
@@ -9482,27 +8337,21 @@ determine their statistical distribution. These measurements of the single momen
 case results as precise as we like, and at any rate very much more precise than ∆p, i.e. the
 mean width of the region of the scatter. Now these measurements of the various single
 some structural components of a theory of experience
-226
-
 
 The statistically interpreted theory, therefore, not only does not rule
-out the possibility of exact single measurements, but would be untest-
-able, and thus ‘metaphysical’, if these were impossible. So the fulﬁl-
-ment of Heisenberg’s programme, the elimination of metaphysical
+out the possibility of exact single measurements, but would be untestable, and thus ‘metaphysical’, if these were impossible. So the fulﬁlment of Heisenberg’s programme, the elimination of metaphysical
 elements, is here achieved, but by a method the very opposite of his.
 For while he tried to exclude magnitudes which he regarded as
 inadmissible (though without entirely succeeding), I invert the
 attempt, so to speak, by showing that the formalism which contains
 these magnitudes is correct just because the magnitudes are not metaphysical.
-Once we have given up the dogma embodied in Heisenberg’s limita-
-tion upon attainable precision, there is no longer any reason why we
+Once we have given up the dogma embodied in Heisenberg’s limitation upon attainable precision, there is no longer any reason why we
 should doubt the physical signiﬁcance of these magnitudes. The scatter
 relations are frequency predictions about paths; and therefore these
 paths must be measurable—in precisely the same way as, say, throws of
 ﬁve must be empirically ascertainable—if we are to be able to test our
 frequency predictions about these paths, or about these throws.
-Heisenberg’s rejection of the concept of path, and his talk of ‘non-
-observable magnitudes’, clearly show the inﬂuence of philosophical
+Heisenberg’s rejection of the concept of path, and his talk of ‘nonobservable magnitudes’, clearly show the inﬂuence of philosophical
 and especially of positivistic ideas. Under the same inﬂuence, March
 writes: ‘One may say perhaps without fear of being misunderstood . . .
 that for the physicist a body has reality only in the instant in which he
@@ -9546,9 +8395,7 @@ general problem of quantum theory is concerned, it is not a mere
 question of a change of mechanical and electro-dynamic theories,
 a change which may be described in terms of ordinary physical
 concepts, but the deep-seated failure of our spatio-temporal images
-which till now have been used in the description of natural phenom-
-ena.’4 Heisenberg adopted this idea of Bohr’s, namely the renunci-
-ation of spatio-temporal descriptions, as the basis of his programme
+which till now have been used in the description of natural phenomena.’4 Heisenberg adopted this idea of Bohr’s, namely the renunciation of spatio-temporal descriptions, as the basis of his programme
 of research. His success seemed to show that this was a fruitful
 renunciation. But in fact, the programme was never carried through.
 The frequent and unavoidable, if surreptitious, use of spatio-temporal
@@ -9563,16 +8410,13 @@ statistical predictions of the theory, so that these calculations are far from �
 3 Schlick, Die Kausalität in der gegenwärtigen Physik, Die Naturwissenschaften 19, 1931, p. 159.
 4 Bohr, Die Naturwissenschaften 14, 1926, p. 1.
 some structural components of a theory of experience
-228
-
 
 scatter of position-cum-momentum, and therefore statements about
 paths.
 Now that we have shown that the uncertainty relations are formally
 singular probability statements, we can also unravel the tangled web of
 their objective and subjective interpretations. We learned in section 71
-that every formally singular probability statement can also be inter-
-preted subjectively, as an indeﬁnite prediction, a statement concerning
+that every formally singular probability statement can also be interpreted subjectively, as an indeﬁnite prediction, a statement concerning
 the uncertainty of our knowledge. We have also seen under what
 assumptions the justiﬁed and necessary attempt to interpret a statement
 of this kind objectively is bound to fail. It is bound to fail if one tries to
@@ -9587,8 +8431,7 @@ knowledge of an electron is indeterminate; the wave picture that the
 electron itself is indeterminate, regardless of whether experiments are
 performed upon it or not. Yet the content of the uncertainty principle
 must be exactly the same in the two cases. There is only one way of
-making it so: we must suppose that the wave picture provides a repre-
-sentation not of objective nature, but only of our knowledge of
+making it so: we must suppose that the wave picture provides a representation not of objective nature, but only of our knowledge of
 nature. . . .’ Schrödinger’s waves are thus for Jeans subjective probability
 waves, waves of our knowledge. And with this, the whole subjectivist
 probability theory invades the realm of physics. The arguments I have
@@ -9613,8 +8456,7 @@ puzzle of co-ordinating our observations of the universe. Thus it
 is not surprising that the wave picture which ﬁnally emerged should
 prove to be concerned solely with our knowledge of the universe as
 obtained through our observations.’
-Such conclusions will no doubt appear highly acceptable to the posi-
-tivists. Yet my own views concerning objectivity remain untouched.
+Such conclusions will no doubt appear highly acceptable to the positivists. Yet my own views concerning objectivity remain untouched.
 The statistical statements of quantum theory must be inter-subjectively
 testable in the same way as any other statements of physics. And my
 simple analysis preserves not only the possibility of spatio-temporal
@@ -9623,11 +8465,9 @@ It is interesting that there exists a counterpart to this subjective
 interpretation of the Schrödinger waves: a non-statistical and thus a
 directly (i.e. singular) objective interpretation. Schrödinger himself in
 his famous Collected Papers on Wave-Mechanics has proposed some such
-interpretation of his wave equation (which as we have seen is a for-
-mally singular probability statement). He tried to identify the particle
+interpretation of his wave equation (which as we have seen is a formally singular probability statement). He tried to identify the particle
 immediately with the wave-packet itself. But his attempt led straight to
-those diﬃculties which are so characteristic of this kind of interpret-
-ation: I mean the ascription of uncertainty to the physical objects
+those diﬃculties which are so characteristic of this kind of interpretation: I mean the ascription of uncertainty to the physical objects
 themselves (objectivized uncertainties). Schrödinger was forced to
 assume that the charge of the electron was ‘blurred’ or ‘smeared’ in
 space (with a charge density determined by the wave amplitude); an
@@ -9636,10 +8476,10 @@ structure of electricity.6 Born’s statistical interpretation solved the
 problem; but the logical connection between the statistical and the
 non-statistical interpretations remained obscure. Thus it happened that
 the peculiar character of other formally singular probability
-statements—such 
-as 
-the 
-uncertainty 
+statements—such
+as
+the
+uncertainty
 relations—remained
 unrecognized and that they could continue to undermine the physical
 basis of the theory.
@@ -9647,8 +8487,6 @@ I may conclude perhaps with an application of what has been said in
 6 Cf. for instance Weyl, Gruppentheorie und Quantenmechanik, p. 193; English translation
 pp. 216 f.
 some structural components of a theory of experience
-230
-
 
 this section to an imaginary experiment proposed by Einstein7 and
 called by Jeans8 ‘one of the most diﬃcult parts of the new quantum
@@ -9687,8 +8525,7 @@ discussed it again at length in sections *100 and *115 of the Postscript.
 remains unchanged 1
 2; but β-P(β), of course, equals 0, just as β-P(β-) equals 1.
 9 Heisenberg, Physikalische Prinzipien, p. 29 (English translation: The Physical Principles of
-the Quantum Theory, Chicago, 1930, p. 39). Von Laue, on the other hand, in Korpuskular-
-und Wellentheorie, Handbuch d. Radiologie 6 (2nd edition, p. 79 of the oﬀprint) says quite
+the Quantum Theory, Chicago, 1930, p. 39). Von Laue, on the other hand, in Korpuskularund Wellentheorie, Handbuch d. Radiologie 6 (2nd edition, p. 79 of the oﬀprint) says quite
 rightly: ‘But perhaps it is altogether quite mistaken to correlate a wave with one single
 some observations on quantum theory 231
 
@@ -9700,18 +8537,14 @@ half of the packet just happens to be’; a description to which he adds:
 ‘this physical action is one which spreads with super-luminal velocity.’
 This is unhelpful since our original probabilities, αPk(β) and αPk(β-),
 remain equal to 1
-2. All that has happened is the choice of a new refer-
-ence class—β or β-, instead of α—a choice strongly suggested to us by
+2. All that has happened is the choice of a new reference class—β or β-, instead of α—a choice strongly suggested to us by
 the result of the experiment, i.e. by the information k ε β or k ε β-,
-respectively. Saying of the logical consequences of this choice (or, per-
-haps, of the logical consequences of this information) that they ‘spread
+respectively. Saying of the logical consequences of this choice (or, perhaps, of the logical consequences of this information) that they ‘spread
 with super-luminal velocity’ is about as helpful as saying that twice two
-turns with super-luminal velocity into four. A further remark of Heisen-
-berg’s, to the eﬀect that this kind of propagation of a physical action
+turns with super-luminal velocity into four. A further remark of Heisenberg’s, to the eﬀect that this kind of propagation of a physical action
 cannot be used to transmit signals, though true, hardly improves matters.
 The fate of this imaginary experiment is a reminder of the urgent
-need to distinguish and to deﬁne the statistical and the formally singu-
-lar probability concepts. It also shows that the problem of interpretation
+need to distinguish and to deﬁne the statistical and the formally singular probability concepts. It also shows that the problem of interpretation
 to which quantum theory has given rise can only be approached by way
 of a logical analysis of the interpretation of probability statements.
 77 DECISIVE EXPERIMENTS**
@@ -9731,8 +8564,6 @@ imaginary experiment described by A. Einstein, B. Podolsky, and N. Rosen, Physic
 see appendix *ix below, and also my paper ‘Quantum Mechanics Without “The
 Observer”’, in Quantum Theory and Reality, edited by Mario Bunge, 1967, pp. 7–44.
 some structural components of a theory of experience
-232
-
 
 Heisenberg formulae can be statistically interpreted, and therefore (2)
 that their interpretation as limitations upon attainable precision does
@@ -9746,8 +8577,7 @@ impossibility of making exact singular predictions, has even been touched
 by your arguments’.
 If asked to elaborate his thesis by means of a physical example, my
 opponent might proceed as follows: ‘Imagine a beam of electrons, like
-one in a cathode tube. Assume the direction of this beam to be the x-
-direction. We can obtain various physical selections from this beam.
+one in a cathode tube. Assume the direction of this beam to be the xdirection. We can obtain various physical selections from this beam.
 For example, we may select or separate a group of electrons according to
 their position in the x-direction (i.e. according to their x-co-ordinates
 at a certain instant); this could be done, perhaps, by means of a shutter
@@ -9786,10 +8616,8 @@ that although the theory does not supply any such predictions, it does not
 rule them out either. One could speak of the impossibility of singular
 predictions only if it could be asserted that disturbing the system or
 interfering with it must prevent every kind of predictive measurement.
-‘But that is just what I assert’, my opponent will say. ‘I assert, pre-
-cisely, the impossibility of any such measurement. You assume that it is
-possible to measure the energy of one of these moving electrons with-
-out forcing it out of its path and out of the electron group. This is the
+‘But that is just what I assert’, my opponent will say. ‘I assert, precisely, the impossibility of any such measurement. You assume that it is
+possible to measure the energy of one of these moving electrons without forcing it out of its path and out of the electron group. This is the
 assumption which I regard as untenable. For assuming that I possessed
 any apparatus with which I could make such measurements, then I
 should with this or some similar apparatus be able to produce aggregates
@@ -9811,30 +8639,24 @@ be possible, has not been given (and it cannot be given, as will be seen
 soon). None of these arguments prove that the precise predictions
 would contradict the quantum theory. They all introduce an additional
 some structural components of a theory of experience
-234
-
 
 hypothesis. For the statement (which corresponds to Heisenberg’s view)
 that exact single predictions are impossible, turns out to be equivalent
-to the hypothesis that predictive measurements and physical selections are insepar-
-ably linked. With this new theoretical system—the conjunction of the
+to the hypothesis that predictive measurements and physical selections are inseparably linked. With this new theoretical system—the conjunction of the
 quantum theory with this auxiliary ‘hypothesis of linkage’—my conception
 must indeed clash.1
 With this, point (3) of my programme has been carried out. But
 point (4) has still to be established; that is, we have still to show that
-the system which combines the statistically interpreted quantum the-
-ory (including, we assume, the conservation laws for momentum and
+the system which combines the statistically interpreted quantum theory (including, we assume, the conservation laws for momentum and
 energy) with the ‘hypothesis of linkage’, is self-contradictory. There is,
 I suppose, a deep-seated presumption that predictive measurement and
-physical selection are always linked. The prevalence of this presump-
-tion may explain why the simple arguments which would establish the
+physical selection are always linked. The prevalence of this presumption may explain why the simple arguments which would establish the
 opposite have never been worked out.
 I wish to stress that the mainly physical considerations now to be
 presented do not form part of the assumptions or premises of my
 logical analysis of the uncertainty relations although they might be
 described as its fruit. In fact, the analysis so far carried out is quite
-independent of what follows; especially of the imaginary physical experi-
-ment described below,*2 which is intended to establish the possibility
+independent of what follows; especially of the imaginary physical experiment described below,*2 which is intended to establish the possibility
 of arbitrarily precise predictions of the path of single particles.
 By way of introduction to this imaginary experiment I will ﬁrst
 discuss a few simpler experiments. These are intended to show that we
@@ -9854,8 +8676,7 @@ warning here given.
 some observations on quantum theory 235
 
 
-travelling in the x-direction. But this time we assume it to be mono-
-chromatic, so that all the particles are travelling along parallel paths in
+travelling in the x-direction. But this time we assume it to be monochromatic, so that all the particles are travelling along parallel paths in
 the x-direction with the same known momentum. The components in
 the other directions of the momentum will then also be known, that is,
 known to be equal to zero. Now instead of determining the position in
@@ -9863,8 +8684,7 @@ the x-direction of a group of particles by means of a physical selection—
 instead, that is, of isolating the group of particles from the rest of the
 beam by technical means (as we did above)—we shall be content to
 diﬀerentiate this group from the rest merely by focusing our attention
-upon it. For example, we may focus our attention upon all those par-
-ticles which have (with a given precision) in a given instant the place
+upon it. For example, we may focus our attention upon all those particles which have (with a given precision) in a given instant the place
 co-ordinate x, and which therefore do not spread beyond an arbitrarily
 small range ∆x. Of each of these particles we know the momentum
 precisely. We therefore know for each future instant precisely where
@@ -9887,28 +8707,21 @@ impinge upon a photographic plate set in its path, and of course we can
 test this prediction empirically (as with the former experiment).
 Imaginary selections, analogous to the one just made from a ‘pure
 case’ of a particular type, can be made from other types of aggregates.
-For example, we may take a monochromatic beam from which a phys-
-ical selection has been made by means of a very small slit ∆y (thus
+For example, we may take a monochromatic beam from which a physical selection has been made by means of a very small slit ∆y (thus
 taking as our physical starting point a physical selection corresponding
 to the merely imagined selection of the preceding example). We do not
 some structural components of a theory of experience
-236
-
 
 know of any of the particles in which direction it will turn after passing
-through the slit; but if we consider one deﬁnite direction we can calcu-
-late precisely the momentum component of all particles that did turn
+through the slit; but if we consider one deﬁnite direction we can calculate precisely the momentum component of all particles that did turn
 in this particular direction. Thus the particles which after having passed
 through the slit travel in one deﬁnite direction again form an imagined
 selection. We are able to predict their position and their momentum, or
 in short, their paths; and again, by putting a photographic plate in their
 path, we can test our predictions.
 The situation is in principle the same (even though empirical tests
-are somewhat more diﬃcult) in the case of the ﬁrst example we con-
-sidered, namely the selection of particles according to their position in
-the direction of travel. If we produce a physical selection correspond-
-ing to this case, then diﬀerent particles will travel with diﬀerent veloci-
-ties, because of the spread of the momenta. The group of particles will
+are somewhat more diﬃcult) in the case of the ﬁrst example we considered, namely the selection of particles according to their position in
+the direction of travel. If we produce a physical selection corresponding to this case, then diﬀerent particles will travel with diﬀerent velocities, because of the spread of the momenta. The group of particles will
 thus spread over an increasing range in the x-direction as it proceeds.
 (The packet will get wider.) We can then work out the momentum of a
 partial group of these particles (selected in imagination) which, in a
@@ -9935,37 +8748,30 @@ measurements’. In sections 73 and 76 I examined three cases of such
 some observations on quantum theory 237
 
 
-‘non-predictive’ measurements, namely (a) measurement of two posi-
-tions, (b) measurement of position preceded or (c) succeeded by a
+‘non-predictive’ measurements, namely (a) measurement of two positions, (b) measurement of position preceded or (c) succeeded by a
 measurement of momentum. The above discussed measurement by
 means of a ﬁlter in front of a ﬁlm strip of a Geiger-counter exempliﬁes
-(b), i.e. a selection according to momentum followed by a measure-
-ment of position. This is presumably just that case which, according to
+(b), i.e. a selection according to momentum followed by a measurement of position. This is presumably just that case which, according to
 Heisenberg (cf. section 73), permits ‘a calculation about the past of the
 electron’. For while in cases (a) and (c) only calculations for the time
 between the two measurements are possible, it is possible in case (b) to
-calculate the path prior to the ﬁrst measurement, provided this meas-
-urements was a selection according to a given momentum; for such a
+calculate the path prior to the ﬁrst measurement, provided this measurements was a selection according to a given momentum; for such a
 selection does not disturb the position of the particle.*3 Heisenberg, as
 we know, questions the ‘physical reality’ of this measurement, because
 it permits us to calculate the momentum of the particle only upon its
 arrival at a precisely measured position and at a precisely measured
 time: the measurement seems to lack predictive content because no
-testable conclusion can be derived from it. Yet I shall base my imagin-
-ary experiment, intended to establish the possibility of precisely pre-
-dicting the position and momentum of a deﬁnite particle, upon this
+testable conclusion can be derived from it. Yet I shall base my imaginary experiment, intended to establish the possibility of precisely predicting the position and momentum of a deﬁnite particle, upon this
 particular measuring arrangement which at ﬁrst sight is apparently
 non-predictive.
 As I am about to derive such far-reaching consequences from the
 assumption that precise ‘non-predictive’ measurements of this type
 are possible, it seems proper to discuss the admissibility of this
 assumption. This is done in appendix vi.
-With the imaginary experiment that follows here, I directly chal-
-lenge the method of arguing which Bohr and Heisenberg have used
+With the imaginary experiment that follows here, I directly challenge the method of arguing which Bohr and Heisenberg have used
 in order to justify the interpretation of the Heisenberg formulae as
 *3 This statement (which I tried to base upon my discussion in appendix vi) was
-eﬀectively criticized by Einstein (cf. appendix *xii), is false and so my imaginary experi-
-ment collapses. The main point is that non-predictive measurements determine the path
+eﬀectively criticized by Einstein (cf. appendix *xii), is false and so my imaginary experiment collapses. The main point is that non-predictive measurements determine the path
 of a particle only between two measurements, such as a measurement of momentum
 followed by one of position (or vice versa); it is not possible, according to quantum theory,
 to project the path further back, i.e. to the region of time before the ﬁrst of these
@@ -9973,16 +8779,13 @@ measurements. Thus the last paragraph of appendix vi is mistaken; and we cannot 
 of the particle arriving at x (see below) whether it did come from P, or from somewhere
 else. See also note **on p. 232.
 some structural components of a theory of experience
-238
-
 
 limitations upon attainable precision. For they tried to justify this
 interpretation by showing that no imaginary experiment can be
 devised which will produce more exact predictive measurements. But
 this method of arguing can clearly not exclude the possibility that an
 imaginary experiment might some day be devised which (using
-known physical eﬀects and laws) would show that such measure-
-ments are possible after all. It was taken for granted that any such
+known physical eﬀects and laws) would show that such measurements are possible after all. It was taken for granted that any such
 experiment would contradict the formalism of the quantum theory
 and it appears that this idea determined the direction of the search
 for such experiments. My analysis—the carrying out of the points of
@@ -9990,21 +8793,18 @@ my programme (I) and (2)—has however cleared the way for an
 imaginary experiment to be devised which shows, in full agreement
 with quantum theory, that the precise measurements in question are
 possible.
-To carry out this experiment, I shall make use of ‘imaginary selec-
-tion’, as before; but shall choose an arrangement such that, if a particle
+To carry out this experiment, I shall make use of ‘imaginary selection’, as before; but shall choose an arrangement such that, if a particle
 which is characterized by the selection really exists, we shall be able to
 ascertain the fact.
 My experiment, in a way, forms a kind of idealization of the
 experiments of Compton-Simon and Bothe-Geiger.2 Since we wish to
-obtain singular predictions, we cannot operate with statistical assump-
-tions only. The non-statistical laws of the conservation of energy and
+obtain singular predictions, we cannot operate with statistical assumptions only. The non-statistical laws of the conservation of energy and
 momentum will have to be used. We can exploit the fact that these
 laws permit us to calculate what occurs when the particles collide,
 provided we are given two of the four magnitudes which described
 the collision (i.e. of the momenta a1 and b1 before, and a2 and b2 after
 the collision) and one component3 of a third one. (The method of
-calculation is well known as part of the theory of the Compton-
-eﬀect.4)
+calculation is well known as part of the theory of the Comptoneﬀect.4)
 Let us now imagine the following experimental arrangement. (See
 ﬁgure 2.) We cross two particle beams (of which one at most may be a
 2 Compton and Simon, Physical Review 25, 1924, p. 439; Bothe und Geiger, Zeitschrift für
@@ -10038,8 +8838,6 @@ is a neutron ray. (Incidentally, the words ‘negatron’ and ‘position’, no
 current usage, seem to me linguistic monstrosities—after all, we neither say ‘positrive’
 nor ‘protron’.)
 some structural components of a theory of experience
-240
-
 
 there must correspond a second particle, of [B], which was deﬂected at
 P with the momentum b2, in the calculable direction PY. We now place
@@ -10053,27 +8851,22 @@ given moment; for we can calculate from the time of the impact of the
 ﬁrst particle at X, and from its known velocity, the moment of its
 collision at P. By using another Geiger-counter at Y (or the moving ﬁlm
 band), we can test our predictions for the second particle.*4
-The precision of these predictions as well as that of the measure-
-ments undertaken to test them is in principle not subject to any of the limitations
+The precision of these predictions as well as that of the measurements undertaken to test them is in principle not subject to any of the limitations
 due to the uncertainty principle, as regards both the position co-ordinate and
-the component of the momentum in the direction PY. For my imagin-
-ary experiment reduces the question of the precision with which pre-
-dictions can be made about a B-particle deﬂected in P to the question of
+the component of the momentum in the direction PY. For my imaginary experiment reduces the question of the precision with which predictions can be made about a B-particle deﬂected in P to the question of
 the precision attainable in taking measurements at X. These, at ﬁrst,
 seemed to be non-predictive measurements of the time, position and
 momentum of the corresponding ﬁrst particle [A]. The momentum of
 this particle in the PX direction as well as the time of its impact at X, i.e.
 of its position in the PS direction, can be measured with any desirable
 degree of precision (cf. appendix vi) if we make a momentum selection
-*4 Einstein, Podolsky, and Rosen use a weaker but valid argument: let Heisenberg’s inter-
-pretation be correct, so that we can only measure at will either the position or the
+*4 Einstein, Podolsky, and Rosen use a weaker but valid argument: let Heisenberg’s interpretation be correct, so that we can only measure at will either the position or the
 momentum of the ﬁrst particle at X. Then if we measure the position of the ﬁrst particle, we
 can calculate the position of the second particle; and if we measure the momentum of the
 ﬁrst particle, we can calculate the momentum of the second particle. But since we can make
 our choice—as to whether we measure position or momentum—at any time, even after
 the collision of the two particles has taken place, it is unreasonable to assume that the
-second particle was in any way aﬀected, or interfered with, by the change in the experi-
-mental arrangements resulting from our choice. Accordingly, we can calculate, with any
+second particle was in any way aﬀected, or interfered with, by the change in the experimental arrangements resulting from our choice. Accordingly, we can calculate, with any
 precision we like, either the position or the momentum of the second particle without
 interfering with it; a fact which may be expressed by saying that the second particle ‘has’ both
 a precise position and a precise momentum. (Einstein said that both position and
@@ -10084,8 +8877,7 @@ some observations on quantum theory 241
 
 by interposing, for instance, an electrical ﬁeld or a ﬁlter in front of the
 Geiger-counter, before we measure the position. But in consequence of
-this (as will be shown more fully in appendix vii) we can make predic-
-tions with any degree of precision about the B-particle travelling in the
+this (as will be shown more fully in appendix vii) we can make predictions with any degree of precision about the B-particle travelling in the
 PY direction.
 This imaginary experiment allows us to see not only that precise
 single predictions can be made, but also under what conditions they
@@ -10113,15 +8905,12 @@ It is clear that our experiment and Heisenberg’s interpretation are
 incompatible. But since the possibility of carrying out this experiment
 can be deduced from the statistical interpretation of quantum physics
 (with the addition of the laws of energy and momentum), it appears
-that Heisenberg’s interpretation, in contradicting it, must also contra-
-dict the statistical interpretation of quantum theory. In view of the
+that Heisenberg’s interpretation, in contradicting it, must also contradict the statistical interpretation of quantum theory. In view of the
 experiments of Compton-Simon and Bothe-Geiger, it would seem that
 it is possible to carry out our experiment. It can be regarded as a kind
 of experiment crucis to decide between Heisenberg’s conception and a
 consistently statistical interpretation of quantum theory.
 some structural components of a theory of experience
-242
-
 
 78 INDETERMINIST METAPHYSICS
 It is the task of the natural scientist to search for laws which will enable
@@ -10134,18 +8923,15 @@ frequency predictions. There is nothing in these two tasks to make them
 in any way mutually incompatible. It is clearly not the case that whenever
 we make precision statements we shall make no frequency hypotheses;
 for some precision statements are, as we have seen, macro laws which
-are derivable from frequency assumptions. Nor is it the case that when-
-ever in a particular ﬁeld frequency statements are well conﬁrmed, we
+are derivable from frequency assumptions. Nor is it the case that whenever in a particular ﬁeld frequency statements are well conﬁrmed, we
 are entitled to conclude that in this ﬁeld no precision statements can be
 made. This situation seems plain enough. Yet the second of the two
 conclusions we have just rejected has been drawn again and again. Again
 and again we meet with the belief that where fortuity rules, regularity
 is ruled out. I have critically examined this belief in section 69.
 The dualism of macro and micro laws—I mean the fact that we
-operate with both—will not be easily overcome, to judge by the pres-
-ent state of scientiﬁc development. What might be logically possible,
-however, is a reduction of all known precision statements—by inter-
-preting them as macro laws—to frequency statements. The converse
+operate with both—will not be easily overcome, to judge by the present state of scientiﬁc development. What might be logically possible,
+however, is a reduction of all known precision statements—by interpreting them as macro laws—to frequency statements. The converse
 reduction is not possible. Frequency statements can never be deduced
 from precision statements, as we have seen in section 70. They need
 their own assumptions which must be speciﬁcally statistical. Only from
@@ -10202,15 +8988,11 @@ principle should be placed on a par with natural laws. But as at that time he re
 natural laws as genuine statements he also regarded ‘the causal principle . . . as an
 empirically testable hypothesis’. Cf. Allgemeine Erkenntnislehre, 2nd edition, 1925, p. 374.
 some structural components of a theory of experience
-244
-
 
 The belief in causality is metaphysical.*3 It is nothing but a typical
 metaphysical hypostatization of a well justiﬁed methodological rule—
-the scientist’s decision never to abandon his search for laws. The meta-
-physical belief in causality seems thus more fertile in its various
-manifestations than any indeterminist metaphysics of the kind advo-
-cated by Heisenberg. Indeed we can see that Heisenberg’s comments
+the scientist’s decision never to abandon his search for laws. The metaphysical belief in causality seems thus more fertile in its various
+manifestations than any indeterminist metaphysics of the kind advocated by Heisenberg. Indeed we can see that Heisenberg’s comments
 have had a crippling eﬀect on research. Connections which are not far
 to seek may easily be overlooked if it is continually repeated that the
 search for any such connections is ‘meaningless’.
@@ -10221,17 +9003,14 @@ can be no other empirical statement which justiﬁes these or similar
 conclusions: for example the conclusion that the methodological rule
 mentioned—the decision never to abandon the search for laws—
 cannot fulﬁll its purpose, perhaps because it is futile or meaningless or
-‘impossible’ (cf. note 2 to section 12) to search for laws and for singu-
-lar predictions. But there could not be an empirical statement having
+‘impossible’ (cf. note 2 to section 12) to search for laws and for singular predictions. But there could not be an empirical statement having
 methodological consequences which could compel us to abandon the
 search for laws. For a statement supposed to be free from metaphysical
 elements can have indeterminist conclusions only if these are
 falsiﬁable.*4 But they can be shown to be false only if we succeed in
 formulating laws, and in deducing predictions from them which are
-corroborated. Accordingly, if we assume that these indeterminist con-
-clusions are empirical hypotheses, we ought to try hard to test them, i.e. to
-falsify them. And this means that we ought to search for laws and predic-
-tions. Thus we cannot obey an exhortation to abandon this search
+corroborated. Accordingly, if we assume that these indeterminist conclusions are empirical hypotheses, we ought to try hard to test them, i.e. to
+falsify them. And this means that we ought to search for laws and predictions. Thus we cannot obey an exhortation to abandon this search
 without repudiating the empirical character of these hypotheses. This
 shows that it would be self-contradictory to think that any empirical
 hypothesis could exist which might compel us to abandon the search
@@ -10248,14 +9027,12 @@ some observations on quantum theory 245
 establish indeterminism reveal a mode of thought which can only be
 described as determinist, in the metaphysical sense. (Heisenberg for
 instance tries to give a causal explanation why causal explanations are
-impossible.*5) I may just remind the reader of the attempts to demon-
-strate that the uncertainty relations close some avenues of possible
+impossible.*5) I may just remind the reader of the attempts to demonstrate that the uncertainty relations close some avenues of possible
 research, as does the principle of the constancy of light velocity: the
 analogy between the two constants c and h, the velocity of light and
 Planck’s constant, was interpreted by saying that both set a limit, in
 principle, to the possibilities of research. Questions raised in the
-attempt to grope beyond these barriers were dismissed by the well-
-known method of dismissing unpalatable problems as ‘pseudo’. In my
+attempt to grope beyond these barriers were dismissed by the wellknown method of dismissing unpalatable problems as ‘pseudo’. In my
 view there is indeed an analogy between the two constants c and h; one
 which, incidentally, ensures that the constant h is no more a barrier to
 research than the constant c. The principle of the constancy of light
@@ -10265,9 +9042,7 @@ it only asserts that we shall not ﬁnd any; that is to say, that we shall be
 unable to produce signals that travel faster than light. And similarly, the
 Heisenberg formulae ought not to be interpreted as forbidding the
 search for ‘super-pure’ cases; for they only assert that we shall not ﬁnd
-any; and, in particular, that we cannot produce any. The laws forbid-
-ding velocities greater than that of light and ‘super-pure’ cases chal-
-lenge the investigator, as do other empirical statements, to search for
+any; and, in particular, that we cannot produce any. The laws forbidding velocities greater than that of light and ‘super-pure’ cases challenge the investigator, as do other empirical statements, to search for
 the forbidden. For he can test empirical statements only by trying to
 falsify them.
 From an historical point of view, the emergence of indeterminist
@@ -10276,21 +9051,15 @@ believed in determinist metaphysics. And because the logical situation
 was not fully understood, the failure of the various attempts to deduce
 the light spectra—which are statistical eﬀects—from a mechanical
 model of the atom was bound to produce a crisis for determinism.
-Today we see clearly that this failure was inevitable, since it is impos-
-sible to deduce statistical laws from a non-statistical (mechanical)
+Today we see clearly that this failure was inevitable, since it is impossible to deduce statistical laws from a non-statistical (mechanical)
 model of the atom. But at that time (about 1924, the time of the theory
 *5 His argument is, in brief, that causality breaks down owing to our interference with
 the observed object, i.e. owing to a certain causal interaction.
 some structural components of a theory of experience
-246
 
-
-of Bohr, Kramers, and Slater) it could not but seem as if in the mechan-
-ism of each single atom, probabilities were taking the place of strict
-laws. The determinist ediﬁce was wrecked—mainly because prob-
-ability statements were expressed as formally singular statements. On
-the ruins of determinism, indeterminism rose, supported by Heisen-
-berg’s uncertainty principle. But it sprang, as we now see, from
+of Bohr, Kramers, and Slater) it could not but seem as if in the mechanism of each single atom, probabilities were taking the place of strict
+laws. The determinist ediﬁce was wrecked—mainly because probability statements were expressed as formally singular statements. On
+the ruins of determinism, indeterminism rose, supported by Heisenberg’s uncertainty principle. But it sprang, as we now see, from
 that same misunderstanding of the meaning of formally-singular
 probability statements.
 The lesson of all this is that we should try to ﬁnd strict laws—
@@ -10302,20 +9071,16 @@ research.*6
 Mario Bunge, 1967, pp. 7–44.
 some observations on quantum theory 247
 
-
-10
 CORROBORATION, OR HOW A
 THEORY STANDS UP TO TESTS
 Theories are not veriﬁable, but they can be ‘corroborated’.
-The attempt has often been made to describe theories as being nei-
-ther true nor false, but instead more or less probable. Inductive logic, more
+The attempt has often been made to describe theories as being neither true nor false, but instead more or less probable. Inductive logic, more
 especially, has been developed as a logic which may ascribe not only
 the two values ‘true’ and ‘false’ to statements, but also degrees of
 probability; a type of logic which will here be called ‘probability logic’.
 According to those who believe in probability logic, induction should
 determine the degree of probability of a statement. And a principle of
-induction should either make it sure that the induced statement is ‘prob-
-ably valid’ or else it should make it probable, in its turn—for the principle
+induction should either make it sure that the induced statement is ‘probably valid’ or else it should make it probable, in its turn—for the principle
 of induction might itself be only ‘probably valid’. Yet in my view, the
 whole problem of the probability of hypotheses is misconceived.
 Instead of discussing the ‘probability’ of a hypothesis we should try to
@@ -10324,31 +9089,27 @@ assess how far it has been able to prove its ﬁtness to survive by standing
 up to tests. In brief, we should try to assess how far it has been
 ‘corroborated’.*1
 *1 I introduced the terms ‘corroboration’ (‘Bewährung’) and especially ‘degree of corroboration’
-(‘Grad der Bewährung’, ‘Bewährungsgrad’) in my book because I wanted a neutral term to 
+(‘Grad der Bewährung’, ‘Bewährungsgrad’) in my book because I wanted a neutral term to
 
 
 79 CONCERNING THE SO-CALLED
 VERIFICATION OF HYPOTHESES
 The fact that theories are not veriﬁable has often been overlooked.
-People often say of a theory that it is veriﬁed when some of the predic-
-tions derived from it have been veriﬁed. They may perhaps admit that
+People often say of a theory that it is veriﬁed when some of the predictions derived from it have been veriﬁed. They may perhaps admit that
 the veriﬁcation is not completely impeccable from a logical point of
 view, or that a statement can never be ﬁnally established by establishing
-some of its consequences. But they are apt to look upon such objec-
-tions as due to somewhat unnecessary scruples. It is quite true, they
+some of its consequences. But they are apt to look upon such objections as due to somewhat unnecessary scruples. It is quite true, they
 say, and even trivial, that we cannot know for certain whether the sun
 will rise tomorrow; but this uncertainty may be neglected: the fact that
 theories may not only be improved but that they can also be falsiﬁed by
 new experiments presents to the scientist a serious possibility which may at
 any moment become actual; but never yet has a theory had to be
-regarded as falsiﬁed owing to the sudden breakdown of a well-
-conﬁrmed law. It never happens that old experiments one day yield
+regarded as falsiﬁed owing to the sudden breakdown of a wellconﬁrmed law. It never happens that old experiments one day yield
 describe the degree to which a hypothesis has stood up to severe tests, and thus ‘proved
 its mettle’. By ‘neutral’ I mean a term not prejudging the issue whether, by standing up
 to tests, the hypothesis becomes ‘more probable’, in the sense of the probability calculus.
 In other words, I introduced the term ‘degree of corroboration’ mainly in order to be
-able to discuss the problem whether or not ‘degree of corroboration’ could be indenti-
-ﬁed with ‘probability’ (either in a frequency sense or in the sense of Keynes, for
+able to discuss the problem whether or not ‘degree of corroboration’ could be indentiﬁed with ‘probability’ (either in a frequency sense or in the sense of Keynes, for
 example).
 Carnap translated my term ‘degree of corroboration’ (‘Grad der Bewährung’), which I had
 ﬁrst introduced into the discussions of the Vienna Circle, as ‘degree of conﬁrmation’.
@@ -10363,8 +9124,7 @@ do not matter. This is why I myself used the term ‘conﬁrmation’ for a time
 of my publications.
 Yet it turned out that I was mistaken: the associations of the word ‘conﬁrmation’ did
 matter, unfortunately, and made themselves felt: ‘degree of conﬁrmation’ was soon
-used—by Carnap himself—as a synonym (or ‘explicans’) of ‘probability’. I have there-
-fore now abandoned it in favour of ‘degree of corroboration’. See also appendix *ix, and
+used—by Carnap himself—as a synonym (or ‘explicans’) of ‘probability’. I have therefore now abandoned it in favour of ‘degree of corroboration’. See also appendix *ix, and
 section *29 of my Postscript.
 corroboration, or how a theory stands up to tests 249
 
@@ -10396,8 +9156,7 @@ way an important methodological rule, and one which might be
 derived, with advantage, precisely from a consideration of the
 non-veriﬁability of theories.*2
 Let us suppose that the sun will not rise tomorrow (and that we shall
-nevertheless continue to live, and also to pursue our scientiﬁc inter-
-ests). Should such a thing occur, science would have to try to explain it,
+nevertheless continue to live, and also to pursue our scientiﬁc interests). Should such a thing occur, science would have to try to explain it,
 i.e. to derive it from laws. Existing theories would presumably require
 to be drastically revised. But the revised theories would not merely have
 to account for the new state of aﬀairs: our older experiences would also have to be
@@ -10406,25 +9165,18 @@ derivable from them. From the methodological point of view one sees that
 *2 I mean the rule that any new system of hypotheses should yield, or explain, the old,
 corroborated, regularities. See also section *3 (third paragraph) of my Postscript.
 some structural components of a theory of experience
-250
 
-
-the principle of the uniformity of nature is here replaced by the postu-
-late of the invariance of natural laws, with respect to both space and time. I
-think, therefore, that it would be a mistake to assert that natural regu-
-larities do not change. (This would be a kind of statement that can
+the principle of the uniformity of nature is here replaced by the postulate of the invariance of natural laws, with respect to both space and time. I
+think, therefore, that it would be a mistake to assert that natural regularities do not change. (This would be a kind of statement that can
 neither be argued against nor argued for.) What we should say is,
 rather, that it is part of our deﬁnition of natural laws if we postulate that
 they are to be invariant with respect to space and time; and also if we
-postulate that they are to have no exceptions. Thus from a method-
-ological point of view, the possibility of falsifying a corroborated law
+postulate that they are to have no exceptions. Thus from a methodological point of view, the possibility of falsifying a corroborated law
 is by no means without signiﬁcance. It helps us to ﬁnd out what
 we demand and expect from natural laws. And the ‘principle of the
-uniformity of nature’ can again be regarded as a metaphysical inter-
-pretation of a methodological rule—like its near relative, the ‘law
+uniformity of nature’ can again be regarded as a metaphysical interpretation of a methodological rule—like its near relative, the ‘law
 of causality’.
-One attempt to replace metaphysical statements of this kind by prin-
-ciples of method leads to the ‘principle of induction’, supposed to
+One attempt to replace metaphysical statements of this kind by principles of method leads to the ‘principle of induction’, supposed to
 govern the method of induction, and hence that of the veriﬁcation of
 theories. But this attempt fails, for the principle of induction is itself
 metaphysical in character. As I have pointed out in section 1, the
@@ -10466,10 +9218,8 @@ events, and thus be made susceptible to mathematical and logical
 handling.*1
 Like inductive logic in general, the theory of the probability of
 hypotheses seems to have arisen through a confusion of psychological
-with logical questions. Admittedly, our subjective feelings of convic-
-tion are of diﬀerent intensities, and the degree of conﬁdence with
-which we await the fulﬁlment of a prediction and the further corro-
-boration of a hypothesis is likely to depend, among other things, upon
+with logical questions. Admittedly, our subjective feelings of conviction are of diﬀerent intensities, and the degree of conﬁdence with
+which we await the fulﬁlment of a prediction and the further corroboration of a hypothesis is likely to depend, among other things, upon
 the way in which this hypothesis has stood up to tests so far—upon its
 past corroboration. But that these psychological questions do not
 belong to epistemology or methodology is pretty well acknowledged
@@ -10477,16 +9227,13 @@ even by the believers in probability logic. They argue, however, that it
 is possible, on the basis of inductivist decisions, to ascribe degrees of
 probability to the hypotheses themselves; and further, that it is possible to
 reduce this concept to that of the probability of events.
-The probability of a hypothesis is mostly regarded as merely a spe-
-cial case of the general problem of the probability of a statement; and this in
+The probability of a hypothesis is mostly regarded as merely a special case of the general problem of the probability of a statement; and this in
 *1 The present section (80) contains mainly a criticism of Reichenbach’s attempt to
 interpret the probability of hypotheses in terms of a frequency theory of the probability of events. A
 criticism of Keynes’s approach is contained in section 83. *Note that Reichenbach is
 anxious to reduce the probability of a statement or hypothesis (what Carnap many years later
 called ‘probability1’) to a frequency (‘probability2’).
 some structural components of a theory of experience
-252
-
 
 turn is regarded as nothing but the problem of the probability of an event,
 expressed in a particular terminology. Thus we read in Reichenbach,
@@ -10499,11 +9246,9 @@ been assigned the probability of 1/6.’1
 This identiﬁcation of the probability of events with the probability
 of statements may be better understood if we recall what was said in
 section 23. There the concept ‘event’ was deﬁned as a class of singular
-statements. It must therefore also be permissible to speak of the prob-
-ability of statements in place of the probability of events. So we can regard
+statements. It must therefore also be permissible to speak of the probability of statements in place of the probability of events. So we can regard
 this as being merely a change of terminology: the reference-sequences
-are interpreted as sequences of statements. If we think of an ‘alterna-
-tive’, or rather of its elements, as represented by statements, then we
+are interpreted as sequences of statements. If we think of an ‘alternative’, or rather of its elements, as represented by statements, then we
 can describe the turning up of heads by the statement ‘k is heads’, and
 its failure to turn up by the negation of this statement. In this way we
 obtain a sequence of statements of the form pj, pk, p¯l, pm, p¯n, . . . , in which
@@ -10513,17 +9258,14 @@ can thus be interpreted as the relative ‘truth-frequency’2of statements with
 sequence of statements (rather than as the relative frequency of a property).
 If we like, we can call the concept of probability, so transformed, the
 ‘probability of statements’ or the ‘probability of propositions’. And we
-can show a very close connection between this concept and the con-
-cept of ‘truth’. For if the sequence of statements becomes shorter and
+can show a very close connection between this concept and the concept of ‘truth’. For if the sequence of statements becomes shorter and
 shorter and in the end contains only one element, i.e. only one single
 statement, then the probability, or truth-frequency, of the sequence
 can assume only one of the two values 1 and 0, according to whether
 the single statement is true or false. The truth or falsity of a statement
-can thus be looked upon as a limiting case of probability; and con-
-versely, probability can be regarded as a generalization of the concept
+can thus be looked upon as a limiting case of probability; and conversely, probability can be regarded as a generalization of the concept
 1 Reichenbach, Erkenntnis 1, 1930, pp. 171 f.
-2 According to Keynes, A Treatise on Probability, 1921, p. 101 ﬀ., the expression ‘truth-
-frequency’ is due to Whitehead; cf. the next note.
+2 According to Keynes, A Treatise on Probability, 1921, p. 101 ﬀ., the expression ‘truthfrequency’ is due to Whitehead; cf. the next note.
 corroboration, or how a theory stands up to tests 253
 
 
@@ -10532,15 +9274,12 @@ possible to deﬁne operations with truth-frequencies in such a way that
 the usual truth-operations of classical logic become limiting cases of
 these operations. And the calculus of these operations can be called
 ‘probability logic’.3
-But can we really identify the probability of hypotheses with the prob-
-ability of statements, deﬁned in this manner, and thus indirectly with
+But can we really identify the probability of hypotheses with the probability of statements, deﬁned in this manner, and thus indirectly with
 the probability of events? I believe that this identiﬁcation is the result of
 a confusion. The idea is that the probability of a hypothesis, since it is
 obviously a kind of probability of a statement, must come under the
-head of ‘probability of statements’ in the sense just deﬁned. But this conclu-
-sion turns out to be unwarranted; and the terminology is thus highly
-unsuitable. Perhaps after all it would be better never to use the expres-
-sion ‘probability of statements’ if we have the probability of events in
+head of ‘probability of statements’ in the sense just deﬁned. But this conclusion turns out to be unwarranted; and the terminology is thus highly
+unsuitable. Perhaps after all it would be better never to use the expression ‘probability of statements’ if we have the probability of events in
 mind.*2
 However this may be, I assert that the issues arising from the concept
 of a probability of hypotheses are not even touched by considerations based
@@ -10566,22 +9305,17 @@ of statements’ as one interpretation (the logical interpretation) among severa
 interpretations of the formal calculus of probability, rather than as a truth-frequency. (Cf.
 appendices *ii, *iv, and *ix, and my Postscript.)
 some structural components of a theory of experience
-254
-
 
 to a hypothesis? Reichenbach identiﬁes an ‘assertion of natural
 science’—by which he means a scientiﬁc hypothesis—itself with a
-reference-sequence of statements. He says, ‘. . . the assertions of nat-
-ural science, which are never singular statements, are in fact sequences
+reference-sequence of statements. He says, ‘. . . the assertions of natural science, which are never singular statements, are in fact sequences
 of statements to which, strictly speaking, we must assign not the
 degree of probability I but a smaller probability value. It is therefore
 only probability logic which provides the logical form capable of
-strictly representing the concept of knowledge proper to natural sci-
-ence.’4 Let us now try to follow up the suggestion that the hypotheses
+strictly representing the concept of knowledge proper to natural science.’4 Let us now try to follow up the suggestion that the hypotheses
 themselves are sequences of statements. One way of interpreting it
 would be to take, as the elements of such a sequence, the various
-singular statements which can contradict, or agree with, the hypoth-
-esis. The probability of this hypothesis would then be determined by
+singular statements which can contradict, or agree with, the hypothesis. The probability of this hypothesis would then be determined by
 the truth-frequency of those among these statements which agree with
 it. But this would give the hypothesis a probability of 1
 2 if, on the
@@ -10591,8 +9325,7 @@ might try two more expedients.*3 One would be to ascribe to the
 hypothesis a certain probability—perhaps not a very precise one—on
 the basis of an estimate of the ratio of all the tests passed by it to all the
 tests which have not yet been attempted. But this way too leads
-nowhere. For this estimate can, as it happens, be computed with preci-
-sion, and the result is always that the probability is zero. And ﬁnally, we
+nowhere. For this estimate can, as it happens, be computed with precision, and the result is always that the probability is zero. And ﬁnally, we
 could try to base our estimate upon the ratio of those tests which led to
 a favourable result to those which led to an indiﬀerent result—i.e. one
 which did not produce a clear decision. (In this way one might indeed
@@ -10612,8 +9345,7 @@ corroboration, or how a theory stands up to tests 255
 
 and we must not, of course, equate an indiﬀerent statement with one
 that is objectively false.) The reason why this last attempt fails too is
-that the suggested deﬁnition would make the probability of a hypoth-
-esis hopelessly subjective: the probability of a hypothesis would
+that the suggested deﬁnition would make the probability of a hypothesis hopelessly subjective: the probability of a hypothesis would
 depend upon the training and skill of the experimenter rather than
 upon objectively reproducible and testable results.
 But I think it is altogether impossible to accept the suggestion that a
@@ -10626,10 +9358,8 @@ statements—the sequence to be taken for the universal statement. But
 as we have seen (cf. sections 15 and 28), universal statements do not
 have this form. Basic statements are never derivable from universal
 statements alone.*4 The latter cannot therefore be regarded as
-sequences of basic statements. If, however, we try to take into consider-
-ation the sequence of those negations of basic statements which are
-derivable from universal statements, then the estimate for every self-
-consistent hypothesis will lead to the same probability, namely I. For
+sequences of basic statements. If, however, we try to take into consideration the sequence of those negations of basic statements which are
+derivable from universal statements, then the estimate for every selfconsistent hypothesis will lead to the same probability, namely I. For
 we should then have to consider the ratio of the non-falsiﬁed negated
 basic statements which can be derived (or other derivable statements)
 to the falsiﬁed ones. This means that instead of considering a truth
@@ -10641,16 +9371,13 @@ more than at most a ﬁnite number of accepted falsifying basic
 *4 As explained in section 28 above, the singular statements which can be deduced from a
 theory—the ‘instantial statements’—are not of the character of basic statements or of
 observation statements. If we nevertheless decide to take the sequence of these statements
-and base our probability upon the truth frequency within this sequence, then the prob-
-ability will be always equal to 1, however often the theory may be falsiﬁed; for as has been
+and base our probability upon the truth frequency within this sequence, then the probability will be always equal to 1, however often the theory may be falsiﬁed; for as has been
 shown in section 28, note *1, almost any theory is ‘veriﬁed’ by almost all instances (i.e.
 by almost all places k). The discussion following here in the text contains a very similar
 argument—also based upon ‘instantial statements’ (i.e. negated basic statements)—
 designed to show that the probability of a hypothesis, if based upon these negated basic
 statements, would always be equal to one.
 some structural components of a theory of experience
-256
-
 
 statements. Thus even if we disregard the fact that universal statements
 are never sequences of statements, and even if we try to interpret them
@@ -10666,8 +9393,7 @@ probability. Similarly one might try to call a hypothesis ‘probable’ if it
 is an element of a sequence of hypotheses with a deﬁnite truth-frequency. But
 this attempt again fails—quite apart from the diﬃculty of determining
 the reference sequence (it can be chosen in many ways; cf. section 71).
-For we cannot speak of a truth-frequency within a sequence of hypoth-
-eses, simply because we can never know of a hypothesis whether it is
+For we cannot speak of a truth-frequency within a sequence of hypotheses, simply because we can never know of a hypothesis whether it is
 true. If we could know this, then we should hardly need the concept of
 the probability of a hypothesis at all. Now we might try, as above, to
 take the complement of the falsity-frequency within a sequence of
@@ -10684,21 +9410,17 @@ belonging to the sequence has been falsiﬁed.) In so far as these falsiﬁed
 hypotheses are elements of the sequence, we thus would have to
 ascribe to them, just because of this information, not the value o, but 3/4.
 And in general, the probability of a hypothesis would decrease by 1/n
-in consequence of the information that it is false, where n is the num-
-ber of hypothesis in the reference sequence. All this glaringly contra-
-dicts the programme of expressing, in terms of a ‘probability of hypotheses’,
+in consequence of the information that it is false, where n is the number of hypothesis in the reference sequence. All this glaringly contradicts the programme of expressing, in terms of a ‘probability of hypotheses’,
 the degree of reliability which we have to ascribe to a hypothesis in
 view of supporting or undermining evidence.
 corroboration, or how a theory stands up to tests 257
 
 
 This seems to me to exhaust the possibilities of basing the concept of
-the probability of a hypothesis on that of the frequency of true state-
-ments (or the frequency of false ones), and thereby on the frequency
+the probability of a hypothesis on that of the frequency of true statements (or the frequency of false ones), and thereby on the frequency
 theory of the probability of events.*5
 I think we have to regard the attempt to identify the probability of a
-*5 One might summarize my foregoing attempts to make sense of Reichenbach’s some-
-what cryptic assertion that the probability of a hypothesis is to be measured by a truth
+*5 One might summarize my foregoing attempts to make sense of Reichenbach’s somewhat cryptic assertion that the probability of a hypothesis is to be measured by a truth
 frequency, as follows. (For a similar summary, with criticism, see the penultimate
 paragraph of appendix *i.)
 Roughly, we can try two possible ways of deﬁning the probability of a theory. One is
@@ -10717,8 +9439,7 @@ attacking mine. In his paper on my book (Erkenntnis 5, 1935, pp. 267–284), he 
 ‘the results of this book are completely untenable’, and explained this by a failure of my
 ‘method’—by my failure ‘to think out all the consequences’ of my conceptual system.
 Section iv of his paper (pp. 274 f.) is devoted to our problem—the probability of
-hypotheses. It begins: ‘In this connection, some remarks may be added about the prob-
-ability of theories—remarks which should render more complete my so far all too brief
+hypotheses. It begins: ‘In this connection, some remarks may be added about the probability of theories—remarks which should render more complete my so far all too brief
 communications of the subject, and which may remove a certain obscurity which still
 surrounds the issue.’ After this follows a passage which forms the second paragraph of
 the present note, headed by the word ‘Roughly’ (the only word which I have added to
@@ -10734,8 +9455,6 @@ endeavours was due, I believe, to a rule of ‘method’: that we should always 
 and to strengthen our opponent’s position as much as possible before criticizing him, if
 we wish our criticism to be worth while.
 some structural components of a theory of experience
-258
-
 
 hypothesis with the probability of events as a complete failure. This
 conclusion is quite independent of whether we accept the claim (it is
@@ -10759,8 +9478,7 @@ new quantum theory agree so well [with the observations] that
 the odds in favour of the scheme having some correspondence with
 reality are enormous. Indeed, we may say the scheme is almost certain to be
 quantitatively true . . .’?5
-Undoubtedly the commonest error consists in believing that hypo-
-thetical estimates of frequencies, that is to say, hypotheses regarding
+Undoubtedly the commonest error consists in believing that hypothetical estimates of frequencies, that is to say, hypotheses regarding
 probabilities, can in their turn be only probable; or in other words, in
 ascribing to hypotheses of probability some degree of an alleged probability of
 hypotheses. We may be able to produce a persuasive argument in favour of
@@ -10778,18 +9496,14 @@ corroboration, or how a theory stands up to tests 259
 
 undecidable.6 Now they can, as I have tried to show, be better, or less well,
 ‘conﬁrmed’, which is to say that they may agree more, or less, with
-accepted basic statements. This is the point where, it may appear, prob-
-ability logic comes in. The symmetry between veriﬁability and falsiﬁ-
-ability accepted by classical inductivist logic suggests the belief that it
+accepted basic statements. This is the point where, it may appear, probability logic comes in. The symmetry between veriﬁability and falsiﬁability accepted by classical inductivist logic suggests the belief that it
 must be possible to correlate with these ‘undecidable’ probability
-statements some scale of degrees of validity, something like ‘continu-
-ous degrees of probability whose unattainable upper and lower limits
+statements some scale of degrees of validity, something like ‘continuous degrees of probability whose unattainable upper and lower limits
 are truth and falsity’,7 to quote Reichenbach again. According to my
 view, however, probability statements, just because they are completely
 undecidable, are metaphysical unless we decide to make them falsiﬁable
 by accepting a methodological rule. Thus the simple result of their
-non-falsiﬁability is not that they can be better, or less well corrobor-
-ated, but that they cannot be empirically corroborated at all. For otherwise—
+non-falsiﬁability is not that they can be better, or less well corroborated, but that they cannot be empirically corroborated at all. For otherwise—
 seeing that they rule out nothing, and are therefore compatible with
 every basic statement—they could be said to be ‘corroborated’ by every
 arbitrarily chosen basic statement (of any degree of composition) provided it
@@ -10813,8 +9527,6 @@ of inductive knowledge occur very frequently (cf. for instance Russell, Our Know
 External World, 1914, pp. 225 f., and The Analysis of Matter, 1927, pp. 141 and 398).
 7 Reichenbach, Erkenntnis 1, 1930, p. 186 (cf. note 4 to section 1).
 some structural components of a theory of experience
-260
-
 
 problem is a consequence of the conception of science for which I have
 been arguing.*6
@@ -10833,8 +9545,7 @@ argument, adopt the supposition that such a concept has in fact been
 successfully constructed, in order to raise the question: how would this
 aﬀect the problem of induction?
 Let us suppose that a certain hypothesis—say Schrödinger’s theory
-—is recognized as ‘probable’ in some deﬁnite sense; either as ‘prob-
-able to this or that numerical degree’, or merely as ‘probable’, without
+—is recognized as ‘probable’ in some deﬁnite sense; either as ‘probable to this or that numerical degree’, or merely as ‘probable’, without
 speciﬁcation of a degree. The statement that describes Schrödinger’s
 theory as ‘probable’ we may call its appraisal.
 *6 The last two paragraphs were provoked by the ‘naturalistic’ approach sometimes
@@ -10860,27 +9571,22 @@ about ‘reality’—in the same way as would be the statement
 ‘Schrödinger’s theory is true’ or ‘Schrödinger’s theory is false’. All
 such statements obviously say something about the adequacy of the
 theory, and are thus certainly not tautological.*1 They say that a theory
-is adequate or inadequate, or that it is adequate in some degree. Fur-
-ther, an appraisal of Schrödinger’s theory must be a non-veriﬁable syn-
-thetic statement, just like the theory itself. For the ‘probability’ of a
+is adequate or inadequate, or that it is adequate in some degree. Further, an appraisal of Schrödinger’s theory must be a non-veriﬁable synthetic statement, just like the theory itself. For the ‘probability’ of a
 theory—that is, the probability that the theory will remain
 acceptable—cannot, it appears, be deduced from basic statements with
-ﬁnality. Therefore we are forced to ask: How can the appraisal be justi-
-ﬁed? How can it be tested? (Thus the problem of induction arises
+ﬁnality. Therefore we are forced to ask: How can the appraisal be justiﬁed? How can it be tested? (Thus the problem of induction arises
 again; see section 1.)
 As to the appraisal itself, this may either be asserted to be ‘true’, or it
 may, in its turn, be said to be ‘probable’. If it is regarded as ‘true’ then
 it must be a true synthetic statement which has not been empirically
 veriﬁed—a synthetic statement which is a priori true. If it is regarded as
-*1 The probability statement ‘p(S,e) = r’, in words, ‘Schrödinger’s theory, given the evi-
-dence e, has the probability r’—a statement of relative or conditional logical
+*1 The probability statement ‘p(S,e) = r’, in words, ‘Schrödinger’s theory, given the evidence e, has the probability r’—a statement of relative or conditional logical
 probability—may certainly be tautological (provided the values of e and r are chosen so
 as to ﬁt each other: if e consists only of observational reports, r will have to equal zero in a
 suﬃciently large universe). But the ‘appraisal’, in our sense, would have a diﬀerent form
 (see section 84, below, especially the text to note *2)—for example, the following:
 Pk(S) = r, where k is today’s date; or in words: ‘Schrödinger’s theory has today (in view of
-the actual total evidence now available) a probability of r.’ In order to obtain this assess-
-ment, pk(S) = r, from (i) the tautological statement of relative probability p(S,e) = r, and
+the actual total evidence now available) a probability of r.’ In order to obtain this assessment, pk(S) = r, from (i) the tautological statement of relative probability p(S,e) = r, and
 (ii) the statement ‘e is the total evidence available today’, we must apply a principle of
 inference (called the ‘rule of absolution’ in my Postscript, sections *43 and *51). This
 principle of inference looks very much like the modus ponens, and it may therefore seem
@@ -10896,13 +9602,10 @@ of inference mentioned—the ‘rule of absolution’ (which, on this interpreta
 becomes a typical example of a ‘principle of induction’)—is simply false, and therefore
 clearly non-analytic.
 some structural components of a theory of experience
-262
-
 
 ‘probable’, then we need a new appraisal: an appraisal of the appraisal,
 as it were, and therefore an appraisal on a higher level. But this means
-that we are caught up in an inﬁnite regress. The appeal to the prob-
-ability of the hypothesis is unable to improve the precarious logical
+that we are caught up in an inﬁnite regress. The appeal to the probability of the hypothesis is unable to improve the precarious logical
 situation of inductive logic.
 Most of those who believe in probability logic uphold the view that
 the appraisal is arrived at by means of a ‘principle of induction’ which
@@ -10912,16 +9615,14 @@ regress continues. If on the other hand they ascribe ‘truth’ to it then
 they are left with the choice between inﬁnite regress and a priorism.
 ‘Once and for all’, says Heymans, ‘the theory of probability is incapable
 of explaining inductive arguments; for precisely the same problem
-which lurks in the one also lurks in the other (in the empirical applica-
-tion of probability theory). In both cases the conclusion goes beyond
+which lurks in the one also lurks in the other (in the empirical application of probability theory). In both cases the conclusion goes beyond
 what is given in the premises.’2 Thus nothing is gained by replacing the
 word ‘true’ by the word ‘probable’, and the word ‘false’ by the word
 ‘improbable’. Only if the asymmetry between veriﬁcation and falsiﬁcation is taken
 into account—that asymmetry which results from the logical relation
 between theories and basic statements—is it possible to avoid the
 pitfalls of the problem of induction.
-Believers in probability logic may try to meet my criticism by assert-
-ing that it springs from a mentality which is ‘tied to the frame-work of
+Believers in probability logic may try to meet my criticism by asserting that it springs from a mentality which is ‘tied to the frame-work of
 classical logic’, and which is therefore incapable of following the
 methods of reasoning employed by probability logic. I freely admit
 that I am incapable of following these methods of reasoning.
@@ -10941,15 +9642,13 @@ corroboration, or how a theory stands up to tests 263
 
 82 THE POSITIVE THEORY OF CORROBORATION: HOW
 A HYPOTHESIS MAY ‘PROVE ITS METTLE’
-Cannot the objections I have just been advancing against the prob-
-ability theory of induction be turned, perhaps, against my own view? It
+Cannot the objections I have just been advancing against the probability theory of induction be turned, perhaps, against my own view? It
 might well seem that they can; for these objections are based on the
 idea of an appraisal. And clearly, I have to use this idea too. I speak of the
 ‘corroboration’ of a theory; and corroboration can only be expressed as an
 appraisal. (In this respect there is no diﬀerence between corroboration
 and probability.) Moreover, I too hold that hypotheses cannot be
-asserted to be ‘true’ statements, but that they are ‘provisional con-
-jectures’ (or something of the sort); and this view, too, can only be
+asserted to be ‘true’ statements, but that they are ‘provisional conjectures’ (or something of the sort); and this view, too, can only be
 expressed by way of an appraisal of these hypotheses.
 The second part of this objection can easily be answered. The
 appraisal of hypotheses which indeed I am compelled to make use of,
@@ -10971,36 +9670,29 @@ We say that a theory is ‘corroborated’ so long as it stands up to these
 tests. The appraisal which asserts corroboration (the corroborative
 appraisal) establishes certain fundamental relations, viz. compatibility
 and incompatibility. We regard incompatibility as falsiﬁcation of the
-theory. But compatibility alone must not make us attribute to the the-
-ory a positive degree of corroboration: the mere fact that a theory has
+theory. But compatibility alone must not make us attribute to the theory a positive degree of corroboration: the mere fact that a theory has
 not yet been falsiﬁed can obviously not be regarded as suﬃcient. For
 nothing is easier than to construct any number of theoretical systems
 some structural components of a theory of experience
-264
 
-
-which are compatible with any given system of accepted basic state-
-ments. (This remark applies also to all ‘metaphysical’ systems.)
+which are compatible with any given system of accepted basic statements. (This remark applies also to all ‘metaphysical’ systems.)
 It might perhaps be suggested that a theory should be accorded
 some positive degree of corroboration if it is compatible with the
 system of accepted basic statements, and if, in addition, part of this
 system can be derived from the theory. Or, considering that basic
 statements are not derivable from a purely theoretical system (though
-their negations may be so derivable), one might suggest that the fol-
-lowing rule should be adopted: a theory is to be accorded a positive
+their negations may be so derivable), one might suggest that the following rule should be adopted: a theory is to be accorded a positive
 degree of corroboration if it is compatible with the accepted basic
 statements and if, in addition, a non-empty sub-class of these basic
 statements is derivable from the theory in conjunction with the other
 accepted basic statements.*1
 I have no serious objections to this last formulation, except that it
-seems to me insuﬃcient for an adequate characterization of the posi-
-tive degree of corroboration of a theory. For we wish to speak of
+seems to me insuﬃcient for an adequate characterization of the positive degree of corroboration of a theory. For we wish to speak of
 theories as being better, or less well, corroborated. But the degree of
 corroboration of a theory can surely not be established simply by counting
 the number of the corroborating instances, i.e. the accepted basic
 statements which are derivable in the way indicated. For it may happen
-*1 The tentative deﬁnition of ‘positively corroborated’ here given (but rejected as insuf-
-ﬁcient in the next paragraph of the text because it does not explicitly refer to the results
+*1 The tentative deﬁnition of ‘positively corroborated’ here given (but rejected as insufﬁcient in the next paragraph of the text because it does not explicitly refer to the results
 of severe tests, i.e. of attempted refutations) is of interest in at least two ways. First, it is
 closely related to my criterion of demarcation, especially to that formulation of it to
 which I have attached note *1 to section 21. In fact, the two agree except for the
@@ -11009,9 +9701,7 @@ we omit this restriction, the present deﬁnition turns into my criterion of dem
 Secondly, if instead of omitting this restriction we restrict the class of the derived
 accepted basic statements further, by demanding that they should be accepted as the
 results of sincere attempts to refute the theory, then our deﬁnition becomes an adequate
-deﬁnition of ‘positively corroborated’, though not, of course, of ‘degree of corrobora-
-tion’. The argument supporting this claim is implicit in the text here following. More-
-over, the basic statements so accepted may be described as ‘corroborating statements’ of
+deﬁnition of ‘positively corroborated’, though not, of course, of ‘degree of corroboration’. The argument supporting this claim is implicit in the text here following. Moreover, the basic statements so accepted may be described as ‘corroborating statements’ of
 the theory.
 It should be noted that ‘instantial statements’ (i.e. negated basic statements; see section
 28) cannot be adequately described as corroborating or conﬁrming statements of the
@@ -11024,11 +9714,9 @@ corroboration, or how a theory stands up to tests 265
 that one theory appears to be far less well corroborated than another
 one, even though we have derived very many basic statements with its
 help, and only a few with the help of the second. As an example we
-might compare the hypothesis ‘All crows are black’ with the hypoth-
-esis (mentioned in section 37) ‘the electronic charge has the value
+might compare the hypothesis ‘All crows are black’ with the hypothesis (mentioned in section 37) ‘the electronic charge has the value
 determined by Millikan’. Although in the case of a hypothesis of the
-former kind, we have presumably encountered many more corrobora-
-tive basic statements, we shall nevertheless judge Millikan’s hypothesis
+former kind, we have presumably encountered many more corroborative basic statements, we shall nevertheless judge Millikan’s hypothesis
 to be the better corroborated of the two.
 This shows that it is not so much the number of corroborating
 instances which determines the degree of corroboration as the severity of
@@ -11040,12 +9728,10 @@ hypothesis, is also the one which is corroborable in a higher degree.1
 Of course, the degree of corroboration actually attained does not
 depend only on the degree of falsiﬁability: a statement may be falsiﬁable
 to a high degree yet it may be only slightly corroborated, or it may in
-fact be falsiﬁed. And it may perhaps, without being falsiﬁed, be super-
-seded by a better testable theory from which it—or a suﬃciently close
+fact be falsiﬁed. And it may perhaps, without being falsiﬁed, be superseded by a better testable theory from which it—or a suﬃciently close
 approximation to it—can be deduced. (In this case too its degree of
 corroboration is lowered.)
-The degree of corroboration of two statements may not be compar-
-able in all cases, any more than the degree of falsiﬁability: we cannot
+The degree of corroboration of two statements may not be comparable in all cases, any more than the degree of falsiﬁability: we cannot
 deﬁne a numerically calculable degree of corroboration, but can speak
 only roughly in terms of positive degree of corroboration, negative
 degrees of corroboration, and so forth.*2 Yet we can lay down various
@@ -11059,8 +9745,6 @@ to sections 43.)
 *2 As far as practical application to existing theories goes, this seems to me still correct;
 but I think now that it is possible to deﬁne ‘degree of corroboration’ in such a way that
 some structural components of a theory of experience
-266
-
 
 rules; for instance the rule that we shall not continue to accord a
 positive degree of corroboration to a theory which has been falsiﬁed
@@ -11071,13 +9755,10 @@ theory, even though it follows a kindred line of thought. An example
 is Einstein’s photon theory, with its kinship to Newton’s corpuscular
 theory of light.) In general we regard an inter-subjectively testable
 falsiﬁcation as ﬁnal (provided it is well tested): this is the way in
-which the asymmetry between veriﬁcation and falsiﬁcation of theor-
-ies makes itself felt. Each of these methodological points contributes
+which the asymmetry between veriﬁcation and falsiﬁcation of theories makes itself felt. Each of these methodological points contributes
 in its own peculiar way to the historical development of science as a
 process of step by step approximations. A corroborative appraisal
-made at a later date—that is, an appraisal made after new basic state-
-ments have been added to those already accepted—can replace a posi-
-tive degree of corroboration by a negative one, but not vice versa. And
+made at a later date—that is, an appraisal made after new basic statements have been added to those already accepted—can replace a positive degree of corroboration by a negative one, but not vice versa. And
 although I believe that in the history of science it is always the theory
 and not the experiment, always the idea and not the observation,
 which opens up the way to new knowledge, I also believe that it is
@@ -11087,11 +9768,9 @@ us to ﬁnd a new way.
 Thus the degree of falsiﬁability or of simplicity of a theory enters
 into the appraisal of its corroboration. And this appraisal may be
 regarded as one of the logical relations between the theory and the
-accepted basic statements: as an appraisal that takes into consider-
-ation the severity of the tests to which the theory has been
+accepted basic statements: as an appraisal that takes into consideration the severity of the tests to which the theory has been
 subjected.
-we can compare degrees of corroboration (for example, those of Newton’s and of Ein-
-stein’s theory of gravity). Moreover, this deﬁnition makes it even possible to attribute
+we can compare degrees of corroboration (for example, those of Newton’s and of Einstein’s theory of gravity). Moreover, this deﬁnition makes it even possible to attribute
 numerical degrees of corroboration to statistical hypotheses, and perhaps even to other
 statements provided we can attribute degrees of (absolute and relative) logical probability
 to them and to the evidence statements. See also appendix *ix.
@@ -11101,11 +9780,9 @@ corroboration, or how a theory stands up to tests 267
 83 CORROBORABILITY, TESTABILITY,
 AND LOGICAL PROBABILITY*1
 In appraising the degree of corroboration of a theory we take into
-account its degree of falsiﬁability. A theory can be the better corrobor-
-ated the better testable it is. Testability, however, is converse to the
+account its degree of falsiﬁability. A theory can be the better corroborated the better testable it is. Testability, however, is converse to the
 concept of logical probability, so that we can also say that an appraisal of
-corroboration takes into account the logical probability of the state-
-ment in question. And this, in turn, as was shown in section 72, is
+corroboration takes into account the logical probability of the statement in question. And this, in turn, as was shown in section 72, is
 related to the concept of objective probability—the probability of
 events. Thus by taking logical probability into account the concept of
 corroboration is linked, even if perhaps only indirectly and loosely,
@@ -11114,39 +9791,31 @@ there is perhaps a connection here with the doctrine of the probability
 of hypotheses criticized above.
 When trying to appraise the degree of corroboration of a theory we
 may reason somewhat as follows. Its degree of corroboration will
-increase with the number of its corroborating instances. Here we usu-
-ally accord to the ﬁrst corroborating instances far greater importance
+increase with the number of its corroborating instances. Here we usually accord to the ﬁrst corroborating instances far greater importance
 than to later ones: once a theory is well corroborated, further instances
 raise its degree of corroboration only very little. This rule however does
 not hold good if these new instances are very diﬀerent from the earlier
 ones, that is if they corroborate the theory in a new ﬁeld of application. In
-this case, they may increase the degree of corroboration very consider-
-ably. The degree of corroboration of a theory which has a higher degree
+this case, they may increase the degree of corroboration very considerably. The degree of corroboration of a theory which has a higher degree
 of universality can thus be greater than that of a theory which has a
-lower degree of universality (and therefore a lower degree of falsiﬁ-
-ability). In a similar way, theories of a higher degree of precision can be
+lower degree of universality (and therefore a lower degree of falsiﬁability). In a similar way, theories of a higher degree of precision can be
 better corroborated than less precise ones. One of the reasons why we
 do not accord a positive degree of corroboration to the typical
 prophecies of palmists and soothsayers is that their predictions are so
-cautious and imprecise that the logical probability of their being cor-
-rect is extremely high. And if we are told that more precise and thus
+cautious and imprecise that the logical probability of their being correct is extremely high. And if we are told that more precise and thus
 *1 If the terminology is accepted which I ﬁrst explained in my note in Mind, 1938, then
 the word ‘absolute’ should be inserted here throughout (as in section 34, etc.) before
 ‘logical probability’ (in contradistinction to ‘relative’ or ‘conditional’ logical
 probability); cf. appendices *ii, *iv, and *ix.
 some structural components of a theory of experience
-268
-
 
 logically less probable predictions of this kind have been successful, then
 it is not, as a rule, their success that we are inclined to doubt so much as
 their alleged logical improbability: since we tend to believe that such
 prophecies are non-corroborable, we also tend to argue in such cases
 from their low degree of corroborability to their low degree of testability.
-If we compare these views of mine with what is implicit in (induct-
-ive) probability logic, we get a truly remarkable result. According to
-my view, the corroborability of a theory—and also the degree of cor-
-roboration of a theory which has in fact passed severe tests, stand both,
+If we compare these views of mine with what is implicit in (inductive) probability logic, we get a truly remarkable result. According to
+my view, the corroborability of a theory—and also the degree of corroboration of a theory which has in fact passed severe tests, stand both,
 as it were,*2 in inverse ratio to its logical probability; for they both
 increase with its degree of testability and simplicity. But the view implied by
 probability logic is the precise opposite of this. Its upholders let the probability of
@@ -11160,8 +9829,7 @@ between the view that the degree of corroborability is complementary to (absolut
 probability and the view that it is inversely proportional; or in other words, between
 a deﬁnition of C(g), i.e. the degree of corroborability, by C(g) = 1 −P(g) which would
 make corroborability equal to content, and by C(g) = 1/P(g), where P(g) is the absolute logical
-probability of g. In fact, deﬁnitions may be adopted which lead to either of these con-
-sequences, and both ways seem fairly satisfactory on intuitive grounds; this explains,
+probability of g. In fact, deﬁnitions may be adopted which lead to either of these consequences, and both ways seem fairly satisfactory on intuitive grounds; this explains,
 perhaps, my wavering. There are strong reasons in favour of the ﬁrst method, or else of a
 logarithmic scale applied to the second method. See appendix *ix.
 *3 The last lines of this paragraph, especially from the italicized sentence on (it was not
@@ -11181,22 +9849,19 @@ than the less testable one. But this entails that degree of corroboration cannot
 corroboration, or how a theory stands up to tests 269
 
 
-Among those who argue in this way is Keynes who uses the expres-
-sion ‘a priori probability’ for what I call ‘logical probability’. (See note 1
+Among those who argue in this way is Keynes who uses the expression ‘a priori probability’ for what I call ‘logical probability’. (See note 1
 to section 34.) He makes the following perfectly accurate remark1
 regarding a ‘generalization’ g (i.e. a hypothesis) with the ‘condition’ or
 antecedent or protasis φ and the ‘conclusion’ or consequent or
 apodosis f: ‘The more comprehensive the condition φ and the less
 comprehensive the conclusion f, the greater à priori*4 probability do we
-attribute to the generalization g. With every increase in φ this prob-
-ability increases, and with every increase in f it will diminish.’ This, as I
+attribute to the generalization g. With every increase in φ this probability increases, and with every increase in f it will diminish.’ This, as I
 said, is perfectly accurate, even though Keynes does not draw a sharp
 distinction*5 between what he calls the ‘probability of a
 generalization’—corresponding to what is here called the ‘probability
 of a hypothesis’—and its ‘a priori probability’. Thus in contrast to my
 degree of corroboration, Keynes’s probability of a hypothesis increases with its a
-priori logical probability. That Keynes nevertheless intends by his ‘prob-
-ability’ the same as I do by my ‘corroboration’ may be seen from the
+priori logical probability. That Keynes nevertheless intends by his ‘probability’ the same as I do by my ‘corroboration’ may be seen from the
 fact that his ‘probability’ rises with the number of corroborating
 instances, and also (most important) with the increase of diversity
 This is the crucial result. My later remarks in the text merely draw the conclusion from
@@ -11214,24 +9879,19 @@ one can only say, à propos de rien—unless, perhaps, apropos of ‘à propos�
 logical’, as I now call it) probability of the ‘generalization’ g and its probability with
 respect to a given piece of evidence h, and to this extent, my statement in the text needs
 correction. (He makes the distinction by assuming, correctly though perhaps only
-implicitly—see p. 225 of the Treatise—that if φ = φ1φ2, and f = f1f2, then the a priori prob-
-abilities of the various g are: g(φ, f1)  g(φ, f)  g(φ1, f).) And he correctly proves that the
+implicitly—see p. 225 of the Treatise—that if φ = φ1φ2, and f = f1f2, then the a priori probabilities of the various g are: g(φ, f1)  g(φ, f)  g(φ1, f).) And he correctly proves that the
 a posteriori probabilities of these hypotheses g (relative to any given piece of evidence h)
 change in the same way as their a priori probabilities. Thus while his probabilities change
 like (absolute) logical probabilities, it is my cardinal point that degrees of corroborability
 (and of corroboration) change in the opposite way.
 some structural components of a theory of experience
-270
-
 
 among them. But Keynes overlooks the fact that theories whose
 corroborating instances belong to widely diﬀerent ﬁelds of application
 will usually have a correspondingly high degree of universality. Hence
-his two requirements for obtaining a high probability—the least pos-
-sible universality and the greatest possible diversity of instances—will
+his two requirements for obtaining a high probability—the least possible universality and the greatest possible diversity of instances—will
 as a rule be incompatible.
-Expressed in my terminology, Keynes’s theory implies that corro-
-boration (or the probability of hypotheses) decreases with testability.
+Expressed in my terminology, Keynes’s theory implies that corroboration (or the probability of hypotheses) decreases with testability.
 He is led to this view by his belief in inductive logic.*6 For it is the
 tendency of inductive logic to make scientiﬁc hypotheses as certain as
 possible. Scientiﬁc signiﬁcance is assigned to the various hypotheses
@@ -11242,15 +9902,13 @@ and empirical statements. But this means nothing else than that the
 content of the theory must go as little as possible beyond what is empirically
 established.*7 This view is closely connected with a tendency to deny
 the value of prediction. ‘The peculiar virtue of prediction’ Keynes
-writes2 ‘. . . is altogether imaginary. The number of instances exam-
-ined and the analogy between them are the essential points, and the
+writes2 ‘. . . is altogether imaginary. The number of instances examined and the analogy between them are the essential points, and the
 question as to whether a particular hypothesis happens to be
 propounded before or after their examination is quite irrelevant.’ In
 reference to hypotheses which have been ‘a priori proposed’—that is,
 proposed before we had suﬃcient support for them on inductive
 grounds—Keynes writes: ‘. . . if it is a mere guess, the lucky fact of its
-preceding some or all of the cases which verify it adds nothing what-
-ever to its value.’ This view of prediction is certainly consistent. But it
+preceding some or all of the cases which verify it adds nothing whatever to its value.’ This view of prediction is certainly consistent. But it
 makes one wonder why we should ever have to generalize at all. What
 possible reason can there be for constructing all these theories and
 hypotheses? The standpoint of inductive logic makes these activities
@@ -11271,13 +9929,10 @@ Another view which gives rise to very similar questions is that of
 Kaila.3 Whilst I believe that it is the simple theories, and those which
 make little use of auxiliary hypotheses (cf. section 46) which can be
 well corroborated, just because of their logical improbability, Kaila
-interprets the situation in precisely the opposite way, on grounds simi-
-lar to Keynes’s. He too sees that we usually ascribe a high probability
-(in our terminology, a high ‘probability of hypotheses’) to simple theor-
-ies, and especially to those needing few auxiliary hypotheses. But his
+interprets the situation in precisely the opposite way, on grounds similar to Keynes’s. He too sees that we usually ascribe a high probability
+(in our terminology, a high ‘probability of hypotheses’) to simple theories, and especially to those needing few auxiliary hypotheses. But his
 reasons are the opposite of mine. He does not, as I do, ascribe a high
-probability to such theories because they are severely testable, or logic-
-ally improbable; that is to say because they have, a priori as it were, many
+probability to such theories because they are severely testable, or logically improbable; that is to say because they have, a priori as it were, many
 opportunities of clashing with basic statements. On the contrary he ascribes this
 high probability to simple theories with few auxiliary hypotheses
 because he believes that a system consisting of few hypotheses will, a
@@ -11303,8 +9958,6 @@ Postscript.)
 3 Kaila, Die Principien der Wahrscheinlichkeitslogik (Annales Universitatis Aboensis, Turku 1926),
 p. 140.
 some structural components of a theory of experience
-272
-
 
 such as Kaila’s. I am not interested in merely keeping down the number
 of our statements: I am interested in their simplicity in the sense of high
@@ -11312,8 +9965,7 @@ testability. It is this interest which leads, on the one hand, to my rule that
 auxiliary hypotheses should be used as sparingly as possible, and on
 the other hand, to my demand that the number of our axioms—of our
 most fundamental hypotheses—should be kept down. For this latter
-point arises out of the demand that statements of a high level of univer-
-sality should be chosen, and that a system consisting of many ‘axioms’
+point arises out of the demand that statements of a high level of universality should be chosen, and that a system consisting of many ‘axioms’
 should, if possible, be deduced from (and thus explained by) one with
 fewer ‘axioms’, and with axioms of a higher level of universality.
 84 REMARKS CONCERNING THE USE OF THE
@@ -11349,16 +10001,14 @@ corroboration, or how a theory stands up to tests 273
 
 considerations about derivability relations. Thus we need not say: ‘The
 prediction p is true provided the theory t and the basic statement b are
-true.’ We may say, instead, that the statement p follows from the (non-
-contradictory) conjunction of t and b. The falsiﬁcation of a theory may
+true.’ We may say, instead, that the statement p follows from the (noncontradictory) conjunction of t and b. The falsiﬁcation of a theory may
 be described in a similar way. We need not say that the theory is ‘false’,
 but we may say instead that it is contradicted by a certain set of
 accepted basic statements. Nor need we say of basic statements that
 they are ‘true’ or ‘false’, for we may interpret their acceptance as the
 result of a conventional decision, and the accepted statements as results
 of this decision.
-This certainly does not mean that we are forbidden to use the con-
-cepts ‘true’ and ‘false’, or that their use creates any particular diﬃculty.
+This certainly does not mean that we are forbidden to use the concepts ‘true’ and ‘false’, or that their use creates any particular diﬃculty.
 The very fact that we can avoid them shows that they cannot give rise to
 any new fundamental problem. The use of the concepts ‘true’ and
 ‘false’ is quite analogous to the use of such concepts as ‘tautology’,
@@ -11374,19 +10024,14 @@ concepts ‘true’ and ‘false’, in agreement with common usage. It is not
 common usage to say of a statement that it was perfectly true yesterday
 but has become false today. If yesterday we appraised a statement as
 true which today we appraise as false, then we implicitly assert today
-not sentences. Perhaps ‘sentence’ was not a good translation of Tarski’s original ter-
-minology. (I personally prefer to speak of ‘statement’ rather than of ‘sentence’; see for
+not sentences. Perhaps ‘sentence’ was not a good translation of Tarski’s original terminology. (I personally prefer to speak of ‘statement’ rather than of ‘sentence’; see for
 example my ‘Note on Tarski’s Deﬁnition of Truth’, Mind 64, 1955, p. 388, footnote 1.)
 But Tarski himself made it perfectly clear that an uninterpreted formula (or a string of
 symbols) cannot be said to be true or false, and that these terms only apply to interpreted
-formulae—to ‘meaningful sentences’ (as the translation has it). Improvements in termin-
-ology are always welcome; but it is sheer obscurantism to criticize a theory on termino-
-logical grounds.
+formulae—to ‘meaningful sentences’ (as the translation has it). Improvements in terminology are always welcome; but it is sheer obscurantism to criticize a theory on terminological grounds.
 1 (Added in 1934 in proof.) Carnap would probably say ‘syntactical concepts’ (cf. his
 Logical Syntax of Language).
 some structural components of a theory of experience
-274
-
 
 that we were mistaken yesterday; that the statement was false even
 yesterday—timelessly false—but that we erroneously ‘took it for true’.
@@ -11400,9 +10045,7 @@ way in which we may say that it is ‘true’). We can only say that it is
 corroborated with respect to some system of basic statements—a system accepted up
 to a particular point in time. ‘The corroboration which a theory has
 received up to yesterday’ is logically not identical with ‘the corroboration
-which a theory has received up to today’. Thus we must attach a sub-
-script, as it were, to every appraisal of corroboration—a subscript char-
-acterizing the system of basic statements to which the corroboration
+which a theory has received up to today’. Thus we must attach a subscript, as it were, to every appraisal of corroboration—a subscript characterizing the system of basic statements to which the corroboration
 relates (for example, by the date of its acceptance).*2
 Corroboration is therefore not a ‘truth value’; that is, it cannot be
 placed on a par with the concepts ‘true’ and ‘false’ (which are free
@@ -11432,41 +10075,31 @@ hardly true at all so far, or that it is still false.
 85 THE PATH OF SCIENCE
 One may discern something like a general direction in the evolution of
 physics—a direction from theories of a lower level of universality to
-theories of a higher level. This is usually called the ‘inductive’ direc-
-tion; and it might be thought that the fact that physics advances in this
+theories of a higher level. This is usually called the ‘inductive’ direction; and it might be thought that the fact that physics advances in this
 ‘inductive’ direction could be used as an argument in favour of the
 inductive method.
 Yet an advance in the inductive direction does not necessarily consist
 of a sequence of inductive inferences. Indeed we have shown that it
-may be explained in quite diﬀerent terms—in terms of degree of test-
-ability and corroborability. For a theory which has been well corrobor-
-ated can only be superseded by one of a higher level of universality;
+may be explained in quite diﬀerent terms—in terms of degree of testability and corroborability. For a theory which has been well corroborated can only be superseded by one of a higher level of universality;
 that is, by a theory which is better testable and which, in addition,
-contains the old, well corroborated theory—or at least a good approxi-
-mation to it. It may be better, therefore, to describe that trend—the
+contains the old, well corroborated theory—or at least a good approximation to it. It may be better, therefore, to describe that trend—the
 advance towards theories of an ever higher level of universality—as
 ‘quasi-inductive’.
-The quasi-inductive process should be envisaged as follows. Theor-
-ies of some level of universality are proposed, and deductively tested;
+The quasi-inductive process should be envisaged as follows. Theories of some level of universality are proposed, and deductively tested;
 after that, theories of a higher level of universality are proposed, and in
-their turn tested with the help of those of the previous levels of univer-
-sality, and so on. The methods of testing are invariably based on
+their turn tested with the help of those of the previous levels of universality, and so on. The methods of testing are invariably based on
 deductive inferences from the higher to the lower level;*1 on the other
 hand, the levels of universality are reached, in the order of time, by
 proceeding from lower to higher levels.
 The question may be raised: ‘Why not invent theories of the highest
 level of universality straight away? Why wait for this quasi-inductive
-evolution? Is it not perhaps because there is after all an inductive elem-
-ent contained in it?’ I do not think so. Again and again suggestions are
+evolution? Is it not perhaps because there is after all an inductive element contained in it?’ I do not think so. Again and again suggestions are
 *1 The ‘deductive inferences from the higher to the lower level’ are, of course, explanations
 (in the sense of section 12); thus the hypotheses on the higher level are explanatory with
 respect to those on the lower level.
 some structural components of a theory of experience
-276
 
-
-put forward—conjectures, or theories—of all possible levels of univer-
-sality. Those theories which are on too high a level of universality, as it
+put forward—conjectures, or theories—of all possible levels of universality. Those theories which are on too high a level of universality, as it
 were (that is, too far removed from the level reached by the testable
 science of the day) give rise, perhaps, to a ‘metaphysical system’. In this
 case, even if from this system statements should be deducible (or only
@@ -11478,16 +10111,13 @@ crucial experiment can be designed for it, then the system will contain,
 as a ﬁrst approximation, some well corroborated theory, and at the
 same time also something new—and something that can be tested.
 Thus the system will not, of course, be ‘metaphysical’. In this case, the
-system in question may be looked upon as a new advance in the quasi-
-inductive evolution of science. This explains why a link with the sci-
-ence of the day is as a rule established only by those theories which are
+system in question may be looked upon as a new advance in the quasiinductive evolution of science. This explains why a link with the science of the day is as a rule established only by those theories which are
 proposed in an attempt to meet the current problem situation; that is,
 the current diﬃculties, contradictions, and falsiﬁcations. In proposing a
 solution to these diﬃculties, these theories may point the way to a
 crucial experiment.
 To obtain a picture or model of this quasi-inductive evolution of
-science, the various ideas and hypotheses might be visualized as par-
-ticles suspended in a ﬂuid. Testable science is the precipitation of these
+science, the various ideas and hypotheses might be visualized as particles suspended in a ﬂuid. Testable science is the precipitation of these
 particles at the bottom of the vessel: they settle down in layers (of
 universality). The thickness of the deposit grows with the number of
 these layers, every new layer corresponding to a theory more universal
@@ -11509,8 +10139,7 @@ age-old corpuscular theory of light; the ﬂuid-theory of electricity
 these metaphysical concepts and ideas may have helped, even in their
 early forms, to bring order into man’s picture of the world, and in
 some cases they may even have led to successful predictions. Yet an idea
-of this kind acquires scientiﬁc status only when it is presented in falsiﬁ-
-able form; that is to say, only when it has become possible to decide
+of this kind acquires scientiﬁc status only when it is presented in falsiﬁable form; that is to say, only when it has become possible to decide
 empirically between it and some rival theory.
 My investigation has traced the various consequences of the
 decisions and conventions—in particular of the criterion of
@@ -11525,23 +10154,18 @@ nor is it a system which steadily advances towards a state of ﬁnality.
 Our science is not knowledge (episte¯me¯): it can never claim to have
 attained truth, or even a substitute for it, such as probability.
 Yet science has more than mere biological survival value. It is not
-only a useful instrument. Although it can attain neither truth nor prob-
-ability, the striving for knowledge and the search for truth are still the
+only a useful instrument. Although it can attain neither truth nor probability, the striving for knowledge and the search for truth are still the
 strongest motives of scientiﬁc discovery.
 We do not know: we can only guess. And our guesses are guided by the
 unscientiﬁc, the metaphysical (though biologically explicable) faith in
 laws, in regularities which we can uncover—discover. Like Bacon, we
-might describe our own contemporary science—‘the method of rea-
-soning which men now ordinarily apply to nature’—as consisting of
+might describe our own contemporary science—‘the method of reasoning which men now ordinarily apply to nature’—as consisting of
 ‘anticipations, rash and premature’ and of ‘prejudices’.1
-But these marvellously imaginative and bold conjectures or ‘antici-
-pations’ of ours are carefully and soberly controlled by systematic tests.
+But these marvellously imaginative and bold conjectures or ‘anticipations’ of ours are carefully and soberly controlled by systematic tests.
 Once put forward, none of our ‘anticipations’ are dogmatically upheld.
 Our method of research is not to defend them, in order to prove how
 1 Bacon, Novum Organum I, 26.
 some structural components of a theory of experience
-278
-
 
 right we were. On the contrary, we try to overthrow them. Using all
 the weapons of our logical, mathematical, and technical armoury, we
@@ -11551,8 +10175,7 @@ and premature prejudices’, as Bacon derisively called them.*3
 It is possible to interpret the ways of science more prosaically. One
 might say that progress can ‘. . . come about only in two ways: by
 gathering new perceptual experiences, and by better organizing those
-which are available already’.2 But this description of scientiﬁc pro-
-gress, although not actually wrong, seems to miss the point. It is too
+which are available already’.2 But this description of scientiﬁc progress, although not actually wrong, seems to miss the point. It is too
 reminiscent of Bacon’s induction: too suggestive of his industrious
 gathering of the ‘countless grapes, ripe and in season’,3 from which
 he expected the wine of science to ﬂow: of his myth of a scientiﬁc
@@ -11566,8 +10189,7 @@ it has to be meticulously cleansed of all anticipations, prejudices, and idols. 
 source of all error is the impurity of our own minds: Nature itself does not lie. The main
 function of eliminative induction is (as with Aristotle) to assist the puriﬁcation of the
 mind. (See also my Open Society, chapter 24; note 59 to chapter 10; note 33 to chapter 11,
-where Aristotle’s theory of induction is brieﬂy described). Purging the mind of preju-
-dices is conceived as a kind of ritual, prescribed for the scientist who wishes to prepare
+where Aristotle’s theory of induction is brieﬂy described). Purging the mind of prejudices is conceived as a kind of ritual, prescribed for the scientist who wishes to prepare
 his mind for the interpretation (the unbiassed reading) of the Book of Nature: just as the
 mystic puriﬁes his soul to prepare it for the vision of God. (Cf. the Introduction to my
 Conjectures and Refutations (1963) 1965.)
@@ -11577,8 +10199,7 @@ Preface, 1958). My denial of this view is closely connected with the rejection o
 doctrine that science or knowledge is bound to advance since our experiences are bound to
 accumulate. As against this, I believe that the advance of science depends upon the free
 competition of thought, and thus upon freedom, and that it must come to an end if
-freedom is destroyed (though it may well continue for some time in some ﬁelds, espe-
-cially in technology). This view is more fully expounded in my Poverty of Historicism
+freedom is destroyed (though it may well continue for some time in some ﬁelds, especially in technology). This view is more fully expounded in my Poverty of Historicism
 (section 32). I also argue there (in the Preface) that the growth of our knowledge is
 unpredictable by scientiﬁc means, and that, as a consequence, the future course of our
 history is also unpredictable.
@@ -11591,8 +10212,7 @@ perceptual experiences accumulate in the course of time. Nor is it due
 to the fact that we are making ever better use of our senses. Out of
 uninterpreted sense-experiences science cannot be distilled, no matter
 how industriously we gather and sort them. Bold ideas, unjustiﬁed
-anticipations, and speculative thought, are our only means for inter-
-preting nature: our only organon, our only instrument, for grasping
+anticipations, and speculative thought, are our only means for interpreting nature: our only organon, our only instrument, for grasping
 her. And we must hazard them to win our prize. Those among us who
 are unwilling to expose their ideas to the hazard of refutation do not
 take part in the scientiﬁc game.
@@ -11612,20 +10232,15 @@ record my unbounded admiration for the work of the experimenter in
 his struggle to wrest interpretable facts from an unyielding Nature who
 knows so well how to meet our theories with a decisive No—or with an
 inaudible Yes.’
-The old scientiﬁc ideal of episte¯me¯—of absolutely certain, demon-
-strable knowledge—has proved to be an idol. The demand for scientiﬁc
+The old scientiﬁc ideal of episte¯me¯—of absolutely certain, demonstrable knowledge—has proved to be an idol. The demand for scientiﬁc
 objectivity makes it inevitable that every scientiﬁc statement must
-remain tentative for ever. It may indeed be corroborated, but every cor-
-roboration is relative to other statements which, again, are tentative.
+remain tentative for ever. It may indeed be corroborated, but every corroboration is relative to other statements which, again, are tentative.
 Only in our subjective experiences of conviction, in our subjective
 faith, can we be ‘absolutely certain’.5
-4 Weyl, Gruppentheorie und Quantenmechanik, 1931, p. 2. English translation by H. P. Robert-
-son: The Theory of Groups and Quantum Mechanics, 1931, p. xx.
+4 Weyl, Gruppentheorie und Quantenmechanik, 1931, p. 2. English translation by H. P. Robertson: The Theory of Groups and Quantum Mechanics, 1931, p. xx.
 5 Cf. for example note 3 to section 30. This last remark is of course a psychological
 remark rather than an epistemological one; cf. sections 7 and 8.
 some structural components of a theory of experience
-280
-
 
 With the idol of certainty (including that of degrees of imperfect
 certainty or probability) there falls one of the defences of obscurantism
@@ -11672,8 +10287,7 @@ of this discussion may, in principle, be reported in the form of their
 degrees of corroboration. The degree of corroboration is not, however,
 a measure of verisimilitude (such a measure would have to be timeless)
 but only a report of what we have been able to ascertain up to a certain
-moment of time, about the comparative claims of the competing theor-
-ies by judging the available reasons which have been proposed for and
+moment of time, about the comparative claims of the competing theories by judging the available reasons which have been proposed for and
 against their verisimilitude.
 (2) A metaphysical problem raised by the idea of verisimilitude is:
 are there genuine regularities in nature? My reply is ‘yes’. One of the
@@ -11693,14 +10307,11 @@ belief or trust is always irrational, but it may be important for action.
 (See also my forthcoming book: Objective Knowledge: An Evolutionary
 Approach.)
 some structural components of a theory of experience
-282
-
 
 APPENDIX i
 Definition of the Dimension of a
 Theory (cf. sections 38 and 39)
-The deﬁnition which follows here should be regarded as only pro-
-visional.*1 It is an attempt to deﬁne the dimension of a theory so as to
+The deﬁnition which follows here should be regarded as only provisional.*1 It is an attempt to deﬁne the dimension of a theory so as to
 make it agree with the dimension of the set of curves which results if
 the ﬁeld of application of the theory is represented by a graph paper. A
 diﬃculty arises from the fact that we should not assume that either a
@@ -11721,8 +10332,7 @@ X = FA; and 1/d(a) or, say, 1/(d(a) + 1), may be taken as a measure of the simpl
 The problem is further developed in appendix *viii.
 
 
-it is connected with the fact that a theory always prohibits some ‘homo-
-typic’ events, as we have called them (i.e. a class of occurrences which
+it is connected with the fact that a theory always prohibits some ‘homotypic’ events, as we have called them (i.e. a class of occurrences which
 diﬀer only in their spatio-temporal co-ordinates; cf. sections 23 and
 31). For this reason, spatio-temporal co-ordinates will, in general,
 appear in the schema which generates the ﬁeld of application, and
@@ -11735,19 +10345,15 @@ theory does not clash with any d-tuple of the ﬁeld and (b) any given
 d-tuple in conjunction with the theory divides all the remaining
 relatively atomic statements uniquely into two inﬁnite sub-classes A
 and B, such that the following conditions are satisﬁed: (α) every
-statement of the class A forms, when conjoined with the given d-
-tuple, a ‘falsifying d + 1-tuple’ i.e. a potential falsiﬁer of the theory;
+statement of the class A forms, when conjoined with the given dtuple, a ‘falsifying d + 1-tuple’ i.e. a potential falsiﬁer of the theory;
 (β) the class B on the other hand is the sum of one or more, but
-always a ﬁnite number, of inﬁnite sub-classes [Bi] such that the con-
-junction of any number of statements belonging to any one of these
+always a ﬁnite number, of inﬁnite sub-classes [Bi] such that the conjunction of any number of statements belonging to any one of these
 subclasses [Bi] is compatible with the conjunction of the given
 d-tuple and the theory.
 This deﬁnition is intended to exclude the possibility of a theory’s
-having two ﬁelds of application such that the relatively atomic state-
-ments of one ﬁeld result from the conjunction of the relatively
+having two ﬁelds of application such that the relatively atomic statements of one ﬁeld result from the conjunction of the relatively
 atomic statements of the other (this must be prevented if the ﬁeld of
-application is to be identiﬁable with that of its graphic representa-
-tion; cf. section 39). I may add that by means of this deﬁnition the
+application is to be identiﬁable with that of its graphic representation; cf. section 39). I may add that by means of this deﬁnition the
 problem of atomic statements (cf. note 2 to section 38) is solved in a
 manner which might be described as ‘deductivist’, since the theory
 itself determines which singular statements are relatively atomic (with
@@ -11759,8 +10365,6 @@ the discovery of statements of some elementary form out of which
 the other, more composite, statements are built up inductively, or
 composed by the method of truth-functions. On the contrary, the
 appendices
-284
-
 
 relatively atomic statements—and along with them the singular
 statements—appear as a sort of precipitation, as it were, or as a
@@ -11862,8 +10466,6 @@ theorem as follows:
 α.βiF″(βi) = αF″(βi)/αF″(βi).
 (3b)
 appendices
-288
-
 
 To the numerator of this formula we can apply the special addition
 theorem (2s) if we assume that the βi have no members in common in
@@ -11910,8 +10512,7 @@ last term; cf. section 56), if we can show that
 α(n)F″(σm) = pmqn −m
 (2)
 where ‘σm’ denotes one particular n-tuple (although an arbitrarily
-chosen one) which contains m ones. (The symbol is intended to indi-
-cate that what is given is the complete arrangement of this n-tuple, i.e.
+chosen one) which contains m ones. (The symbol is intended to indicate that what is given is the complete arrangement of this n-tuple, i.e.
 not only the number of ones but also their positions in the n-tuple.) For
 *1 Note that (n
 m) is an alternative way of writing the binomial coeﬃcient nCm, i.e. the
@@ -11919,8 +10520,7 @@ number of ways in which m things may be arranged in n places, provided m  n.
 
 
 assume that (2) holds for all n, m and σ (i.e. the various arrangements
-of the ones). Then there will be, according to a well-known combina-
-torial theorem, nCm distinct ways of distributing m ones in n places; and
+of the ones). Then there will be, according to a well-known combinatorial theorem, nCm distinct ways of distributing m ones in n places; and
 in view of the special addition theorem, we could then assert (1).
 Now suppose (2) to be proved for any one n, i.e. for one particular n
 and for every m and every σ which are compatible with this n. We now
@@ -11935,8 +10535,7 @@ where ‘σm + 0’ or ‘σm + 1’ respectively signify those sequences of the
 length which result from σm by adding to its end a zero or a one.
 Let it be assumed, for every length n of the n-tuples (or segments)
 considered, that α is (at least) n −1-free (from after-eﬀect); thus for a
-segment of the length n + 1, α has to be regarded as being at least n-
-free. Let ‘σ´ m’ denote the property of being a successor of an n-tuple σm.
+segment of the length n + 1, α has to be regarded as being at least nfree. Let ‘σ´ m’ denote the property of being a successor of an n-tuple σm.
 Then we can assert
 αF″(σ´ m.0) = αF″(σ´ m).αF″(0) = αF″(σ´ m)·q
 (4,0)
@@ -11968,8 +10567,6 @@ induction. That (2) is in fact valid for n = 2 and for all σm (where m 
 2) is seen by assuming ﬁrst m = 1 and then m = 0. Thus we can assert
 (3) and consequently (2) and (1).
 appendices
-292
-
 
 APPENDIX iv
 A Method of Constructing Models of
@@ -11981,9 +10578,7 @@ eﬀect) and which shows equal distribution. In every such period, every
 combinatorially possible x-tuple (for x  n + 1) of ones and zeros will
 appear at least once.*1
 (a) We construct a model sequence which is ‘absolutely free’ (from
-*1 There are various construction methods applicable to the task of constructing a gener-
-ating period for an n-free sequence with equidistribution. A simple method is the follow-
-ing. Putting x = n + 1, we ﬁrst construct the table of all the 2x possible x-tuples of ones and
+*1 There are various construction methods applicable to the task of constructing a generating period for an n-free sequence with equidistribution. A simple method is the following. Putting x = n + 1, we ﬁrst construct the table of all the 2x possible x-tuples of ones and
 zeros (ordered by some lexicographic rule—say, according to magnitude). Then we
 commence our period by writing down the last of these x-tuples, consisting of x ones,
 checking it oﬀ our table. We then proceed according to the following rule: always add a
@@ -12003,18 +10598,15 @@ terms—say n1. We now write down a new period which is at least
 n1 −1-free. Let the new period have the length n2. In this new period, at
 least one sequence must occur which is identical with the previously
 given period of length n1; and we rearrange the new period in such a
-way that it begins with this sequence (this is always possible, in accord-
-ance with the analysis of section 55). This we call the second period.
+way that it begins with this sequence (this is always possible, in accordance with the analysis of section 55). This we call the second period.
 We now write down another new period which is at least n2 −1-free
 and seek in this third period that sequence which is identical with the
 second period (after rearrangement), and then so rearrange the third
 period that it begins with the second, and so on. In this way we obtain
-a sequence whose length increases very quickly and whose com-
-mencing period is the period which was written down ﬁrst. This
+a sequence whose length increases very quickly and whose commencing period is the period which was written down ﬁrst. This
 period, in turn, becomes the commencing sequence of the second
 period, and so on. By prescribing a particular commencing sequence
-together with some further conditions, e.g. that the periods to be writ-
-ten down must never be longer than necessary (so that they must be
+together with some further conditions, e.g. that the periods to be written down must never be longer than necessary (so that they must be
 exactly ni −1-free, and not merely at least ni −1-free), this method of
 construction may be so improved as to become unambiguous and to
 deﬁne a deﬁnite sequence, so that we can calculate for every term of
@@ -12025,9 +10617,8 @@ seen that there can be no shorter generating period of a periodic n-free sequenc
 one of the length 2n + 1.
 Proofs of the validity of the rule of construction here given were found by Dr. L.R.B.
 Elton and myself. We intend to publish jointly a paper on the subject.
-*2 To take a concrete example of this construction—the construction of a shortest random-
-like sequence, as I now propose to call it—we may start with the period
-01
+*2 To take a concrete example of this construction—the construction of a shortest randomlike sequence, as I now propose to call it—we may start with the period
+
 (0)
 of the length n0 = 2. (We could say that this period generates a 0-free alternative). Next
 we have to construct a period which is n0 −1-free, that is to say, 1-free. The method of
@@ -12037,8 +10628,6 @@ The result of the arrangement is
 0 1 1 0
 (1)
 appendices
-294
-
 
 αF′(1) = αF′(0) = 1
 2.
@@ -12047,8 +10636,7 @@ the binomial formula (section 60) or of the theorem of Bernoulli
 (section 61), it can be shown (with any degree of approximation) for
 whatever frequency value we may choose that there exist sequences which are
 ‘absolutely free’—provided only that we make the assumption (which
-we have just proved) that at least one sequence exists which is abso-
-lutely free.
+we have just proved) that at least one sequence exists which is absolutely free.
 with n1 = 4. We next construct the n1 −1-free (i.e. 3-free) period determined by the
 method of note *1. It is
 1 1 1 1 0 0 0 0 1 0 0 1 1 0 1 0
@@ -12092,8 +10680,7 @@ this frequency the whole sequence now written down (it may now have
 the length mi) is regarded as the commencing sequence of a period
 which is mi −1-free (with equal distribution), and so on.
 (c) Finally, it is possible to construct in an analogous way a model
-of a sequence which has more than one ‘absolutely free’ middle fre-
-quency. According to (a), there are sequences which do not have equal
+of a sequence which has more than one ‘absolutely free’ middle frequency. According to (a), there are sequences which do not have equal
 distribution and are ‘absolutely free’. Thus all we have to do is to
 combine two such sequences, (A) and (B) (with the frequencies p and
 q), in the following way. We write down some commencing sequence
@@ -12105,8 +10692,7 @@ new written-down sequence, rearrange (A), and so on. In this way we
 obtain a sequence in which again and again terms occur up to which it
 is ni-free for the relative frequency p of the sequence (A), but in which
 also again and again terms occur up to which the sequence is ni-free for
-the frequency q of (B). Since in this case the numbers ni increase with-
-out limit, we obtain a mode of construction for a sequence which has
+the frequency q of (B). Since in this case the numbers ni increase without limit, we obtain a mode of construction for a sequence which has
 two distinct ‘middle frequencies’ both of which are ‘absolutely free’.
 (For we did determine (A) and (B) in such a way that their frequency
 limits are distinct.)
@@ -12117,8 +10703,6 @@ that the ‘combination sequence’ (as we may call it)—i.e. the sequence
 α that has the throws with X as its odd terms and the throws with Y as
 its even terms—is random.
 appendices
-296
-
 
 APPENDIX v
 Examination of an Objection. The
@@ -12126,8 +10710,7 @@ Two-Slit Experiment (cf.
 section 76)*1
 The imaginary experiment described below under (a) is intended to
 refute my assertion that arbitrarily exact simultaneous (non-predictive)
-measurements of the position and momentum of a particle are compat-
-ible with the quantum theory.
+measurements of the position and momentum of a particle are compatible with the quantum theory.
 (a) Let A be a radiating atom, and let light from it fall on a screen S
 after passing through two slits, Sl1 and Sl2. According to Heisenberg we
 can in this case measure exactly either the position of A or the
@@ -12137,8 +10720,7 @@ can assume that light is emitted from A in spherical waves. But if we
 measure the momentum exactly, for example by measuring the recoils
 due to the emission of photons (thereby ‘blurring’ or ‘smearing’ the
 *1 See also appendix *xi and my Postscript, chapter *v, section *110. My present view is
-that the two-slit experiment is to be treated diﬀerently, but that the interpretation pro-
-posed in this appendix is still of some interest. The remarks under (e) seem to me still to
+that the two-slit experiment is to be treated diﬀerently, but that the interpretation proposed in this appendix is still of some interest. The remarks under (e) seem to me still to
 contain a valid criticism of the attempt to explain the dualism of particle and wave in
 terms of ‘complementarity’—an attempt which, it seems, has been abandoned by some
 physicists more recently.
@@ -12147,13 +10729,11 @@ physicists more recently.
 position), then we are able to calculate the exact direction and the
 momentum of the emitted photons. In this case we shall have to regard
 the radiation as corpuscular (‘needle-radiation’). Thus to the two
-measuring operations there correspond two diﬀerent kinds of radi-
-ation, so that we obtain two diﬀerent experimental results. For if we
+measuring operations there correspond two diﬀerent kinds of radiation, so that we obtain two diﬀerent experimental results. For if we
 measure the position exactly we obtain an interference-pattern on the
 screen: a point-like source of light—and one whose position can be
 exactly measured is point-like—emits coherent light. If on the other
-hand we measure the momentum exactly, we get no interference pat-
-tern. (Flashes of light, or scintillations, without interference pattern,
+hand we measure the momentum exactly, we get no interference pattern. (Flashes of light, or scintillations, without interference pattern,
 appear on the screen after the photons have passed through the slits,
 consonantly with the fact that the position is ‘blurred’ or ‘smeared’ and
 that a non-point-like source of light does not emit coherent light.) If
@@ -12164,15 +10744,13 @@ would produce interference patterns; and it would have to emit, on the
 other hand, an incoherent corpuscular beam of photons. (If we were
 able to calculate the path of each photon we should never get anything
 like ‘interference’, in view of the fact that photons neither destroy one
-another nor otherwise interact.) The assumption of exact measure-
-ments of position and momentum taken simultaneously leads thus to
+another nor otherwise interact.) The assumption of exact measurements of position and momentum taken simultaneously leads thus to
 two mutually contradictory predictions. For on the one hand it leads to
 the prediction that interference patterns will appear, and on the other
 hand to the prediction that no interference patterns will appear.
 (b) I shall now re-interpret this imaginary experiment statistically. I
 shall deal ﬁrst with the attempt to measure position exactly. I replace
-the single radiating atom by a cluster of atoms in such a way that coher-
-ent light is emitted by them, and propagated in the form of spherical
+the single radiating atom by a cluster of atoms in such a way that coherent light is emitted by them, and propagated in the form of spherical
 waves. This result is obtained by the use of a second screen pierced by a
 very small aperture A so placed between the atomcluster and the ﬁrst
 screen that the aperture A is in exactly the place previously occupied by
@@ -12182,13 +10760,10 @@ the aperture A, spreads in the form of continuous spherical waves. Thus
 we replace the single atom, whose position is exactly determined, by a
 statistical case of pure positional selection.
 appendices
-298
-
 
 (c) In a similar way, the atom with exactly measured momentum
 but blurred or smeared position will be replaced by a pure selection
-according to a given momentum; or, in other words, by a mono-
-chromatic beam of photons travelling along parallel lines from some
+according to a given momentum; or, in other words, by a monochromatic beam of photons travelling along parallel lines from some
 (non-point-like) source of light.
 In each of the two cases we obtain the correct experimental result:
 interference patterns in case (b), and no interference patterns in
@@ -12205,19 +10780,15 @@ during this period), it will take up a number of diﬀerent positions
 during this period, ranging over a considerable volume of space. For
 this reason we are not allowed to replace the atom by a point-like
 cluster of atoms: we can only replace it by a cluster of atoms distributed
-over a considerable volume of space. Furthermore, since the atom radi-
-ates in all directions, we have to replace it by a cluster of atoms radiat-
-ing in all directions. Thus we do not obtain a pure case; nor do we get
+over a considerable volume of space. Furthermore, since the atom radiates in all directions, we have to replace it by a cluster of atoms radiating in all directions. Thus we do not obtain a pure case; nor do we get
 coherent radiation. And we do not get interference patterns.
 Objections similar to the one here examined may be re-interpreted
 statistically along the lines of this example.
 (e) In connection with our analysis of this imaginary experiment I
-should like to say that argument (a), contrary to what might be sup-
-posed at ﬁrst, would be in any case quite insuﬃcient to elucidate the
+should like to say that argument (a), contrary to what might be supposed at ﬁrst, would be in any case quite insuﬃcient to elucidate the
 so-called problem of complementarity (or the dualism of wave and
 particle). It tries to do so by showing that the atom is able to emit only
-either coherent waves or incoherent photons, and that therefore no contra-
-diction arises, because the two experiments are mutually exclusive. But
+either coherent waves or incoherent photons, and that therefore no contradiction arises, because the two experiments are mutually exclusive. But
 it is simply not true that the two experiments are mutually exclusive,
 for we can of course combine a not too exact measurement of position
 with a not too exact measurement of momentum; and in this case the
@@ -12233,12 +10804,9 @@ will hardly be possible within the framework of statistical quantum
 physics (Heisenberg’s and Schrödinger’s particle theory as interpreted
 by Born in 1925–1926), but I think it might perhaps be solved within
 the framework of the quantum physics of wave-ﬁelds or the ‘second
-quantization’ (Dirac’s emission and absorption theory and the wave-
-ﬁeld theory of matter by Dirac, Jordan, Pauli, Klein, Mie, Wigner,
+quantization’ (Dirac’s emission and absorption theory and the waveﬁeld theory of matter by Dirac, Jordan, Pauli, Klein, Mie, Wigner,
 1927–1928. Cf. note 2 to my introduction to section 73).
 appendices
-300
-
 
 APPENDIX vi
 Concerning a Non-Predictive
@@ -12268,25 +10836,20 @@ I do not see how Heisenberg can avoid this conclusion without essentially modify
 
 interposition of a ﬁlter. (If the beam consists of electrons we shall have
 to use instead of a ﬁlter an electric ﬁeld perpendicular to the direction
-of the beam in order to analyse its spectrum.) We assume with Heisen-
-berg that this procedure leaves unaltered the momenta (or, more pre-
-cisely, their components in the x-direction) and consequently also the
+of the beam in order to analyse its spectrum.) We assume with Heisenberg that this procedure leaves unaltered the momenta (or, more precisely, their components in the x-direction) and consequently also the
 velocities (or their x-components) of the selected particles.
 Behind the ﬁlter we put a Geiger-counter (or a moving strip of
 photographic ﬁlm) in order to measure the time of arrival of the
 particles; and this allows us—since the velocities of the particles are
 known—to calculate their x-co-ordinates for any instant preceding
 their time of arrival. Now we may consider two possible assumptions.
-If, on the one hand, it is assumed that the x-co-ordinates of the posi-
-tions of the particles were not interfered with by the measuring of their
+If, on the one hand, it is assumed that the x-co-ordinates of the positions of the particles were not interfered with by the measuring of their
 momenta, then the measurement of position and momentum can be
 validly extended to the time before the momentum was selected (by
 the ﬁlter). If, on the other hand, it is assumed that a selection according
-to the momentum does interfere with the x-co-ordinates of the posi-
-tions of the particles, then we can calculate their paths exactly only for
+to the momentum does interfere with the x-co-ordinates of the positions of the particles, then we can calculate their paths exactly only for
 the time-interval between the two measurements.
-Now the assumption that the position of the particles in the direc-
-tion of their ﬂight might be disturbed in some unpredictable way by a
+Now the assumption that the position of the particles in the direction of their ﬂight might be disturbed in some unpredictable way by a
 selection according to a given momentum means the same as that the
 position co-ordinate of a particle would be altered in some incalculable
 way by this selection. But since the velocity of the particle has remained
@@ -12299,24 +10862,18 @@ observation of an electron.) But I now believe that I was wrong in assuming that
 holds for Heisenberg’s imaginary ‘observations’ or ‘measurements’ would also hold for
 my ‘selections’. As Einstein shows (in appendix *xii), it does not hold for a ﬁlter acting
 upon a photon. Nor does it hold for the electric ﬁeld perpendicular to the direction of a
-beam of electrons, mentioned (like the ﬁlter) in the ﬁrst paragraph of the present appen-
-dix. For the width of the beam must be considerable if the electrons are to move parallel
+beam of electrons, mentioned (like the ﬁlter) in the ﬁrst paragraph of the present appendix. For the width of the beam must be considerable if the electrons are to move parallel
 to the x-axis, and as a consequence, their position before their entry into the ﬁeld cannot
 be calculated with precision after they have been deﬂected by the ﬁeld. This invalidates
 the argument of this appendix and the next, and of section 77.
 appendices
-302
-
 
 This assumption, however, is incompatible with the quantum theory as at present
-accepted. For although the theory permits discontinuous jumps, it per-
-mits them only in the case of particles within an atom (within the
+accepted. For although the theory permits discontinuous jumps, it permits them only in the case of particles within an atom (within the
 range of discontinuous Eigen-values, but not in the case of free particles
 within the range of continuous Eigen-values).
 It is possible, presumably, to design a theory (in order to escape the
-conclusions reached above, or to preserve the principle of indetermin-
-acy) which alters the quantum theory in such a way that the assump-
-tion of a disturbance of the position by selecting the momentum is
+conclusions reached above, or to preserve the principle of indeterminacy) which alters the quantum theory in such a way that the assumption of a disturbance of the position by selecting the momentum is
 compatible with it; but even this theory—which I might call a ‘theory
 of indeterminacy’—could derive only statistical consequences from
 the principle of indeterminacy, and could therefore be corroborated
@@ -12329,9 +10886,7 @@ momentum does not disturb the position. Thus this latter assumption does not
 allow us to infer the existence of a ‘super-pure case’ such as is forbidden by the scatter
 relations. This statement shows that the method of measuring I have
 examined does not aﬀect the statistically interpreted formulae of
-Heisenberg. It may thus be said to occupy, within my statistical inter-
-pretation, the same ‘logical place’, as it were, as (within his interpret-
-ation) Heisenberg’s statement denying the ‘physical reality’ of exact
+Heisenberg. It may thus be said to occupy, within my statistical interpretation, the same ‘logical place’, as it were, as (within his interpretation) Heisenberg’s statement denying the ‘physical reality’ of exact
 measurements; in fact one might regard my statement as the translation
 of Heisenberg’s statement into the statistical language.
 That the statement in question is correct may be seen from the
@@ -12342,14 +10897,12 @@ a fast shutter, and only afterwards selecting the momentum with the
 help of a ﬁlter. This might be thought feasible; for as a result of the
 position-measurement, all sorts of momenta would appear, out of
 which the ﬁlter—without disturbing the position—will select only
-those which happened to fall within some small range. But these con-
-siderations would be mistaken. For if a group of particles is selected by
+those which happened to fall within some small range. But these considerations would be mistaken. For if a group of particles is selected by
 an ‘instantaneous shutter’, in the way indicated, then Schrödinger’s
 appendix vi 303
 
 
-wave-packets (obtained by superimposition of waves of various fre-
-quencies) give us only probabilities, to be interpreted statistically, of the
+wave-packets (obtained by superimposition of waves of various frequencies) give us only probabilities, to be interpreted statistically, of the
 occurrence of particles in this group which have the given momentum.
 For any given ﬁnite range of momenta ∆px, this probability tends
 towards to provided we make the length of the wavetrain inﬁnitely
@@ -12363,9 +10916,7 @@ shall ﬁnd any particles at all behind the ﬁlter. But this means that only
 among a very great number of experiments will there be some in
 which any particles are found behind the ﬁlter—and this without our
 being able to predict in advance in which of the experiments particles
-will be found there. Thus we cannot by any means prevent these par-
-ticles from appearing only at intervals scattered at random; and con-
-sequently we shall not be able to produce in this way an aggregate of
+will be found there. Thus we cannot by any means prevent these particles from appearing only at intervals scattered at random; and consequently we shall not be able to produce in this way an aggregate of
 particles which is more homogeneous than a pure case.
 There appears to be a comparatively simple crucial experiment for
 deciding between the ‘theory of indeterminacy’ (described above) and
@@ -12378,8 +10929,6 @@ the more highly selective the ﬁlter was.*2
 appendix *xii. See also C. F. von Weizsäcker’s criticism of my imaginary experiment in Die
 Naturwissenschaften 22, 1934, p. 807.
 appendices
-304
-
 
 APPENDIX vii
 Remarks Concerning an Imaginary
@@ -12387,14 +10936,12 @@ Experiment (cf. section 77)*1
 We may start from the assumption that a1 and |b1| are measured, or
 selected, with an arbitrary degree of precision. In view of the result
 obtained in appendix vi, we may assume that the absolute momentum
-|a2| of the particle arriving at X from the direction PX can be meas-
-ured with an arbitrary degree of precision. Accordingly, |b2| may
+|a2| of the particle arriving at X from the direction PX can be measured with an arbitrary degree of precision. Accordingly, |b2| may
 also be determined as precisely as we choose (by using the principle of
 conservation of energy). Moreover, the position of Sl and X, and the
 instants of the arrival of the [A]-particles at X, can be measured with
 arbitrary precision. Thus we need only investigate the situation with
-respect to the indeterminacies ∆a2 and ∆b2, which arise in con-
-sequences of indeterminacies of the corresponding directions, and the
+respect to the indeterminacies ∆a2 and ∆b2, which arise in consequences of indeterminacies of the corresponding directions, and the
 vector ∆P connected with the indeterminacy of the position of P which
 also arises in consequence of the indeterminacy of a direction, viz. the
 direction PX.
@@ -12438,8 +10985,6 @@ which means that we can have an arrangement such that
 r
 (5)
 appendices
-306
-
 
 holds, and therefore also
 |∆b1| −|∆a2| ≅h
@@ -12448,8 +10993,7 @@ r
 Moreover, we obtain, in analogy to (2),
 |∆b2| ≅ψ.|b2|,
 (7)
-where ‘ψ’ denotes the indeterminacy of the direction of b2. Accord-
-ingly we obtain in view of (4) and (5)
+where ‘ψ’ denotes the indeterminacy of the direction of b2. Accordingly we obtain in view of (4) and (5)
 ψ ≅|∆b1 −∆a2|
 b2
 ≅
@@ -12466,8 +11010,7 @@ But for the refutation of Heisenberg’s assertion as to the limits of
 attainable precision, it would have been suﬃcient to show that one of
 these two factors can be made as small as we like without making the
 other grow beyond all bounds.
-In addition it may be noted that by an appropriate choice of the PX-
-direction it is possible to determine the distance PX in such a way that ∆P
+In addition it may be noted that by an appropriate choice of the PXdirection it is possible to determine the distance PX in such a way that ∆P
 and ∆b2 are parallel, and thus (for suﬃciently small φ) normal to PY.1
 In consequence, the precision of the momentum in this direction, and
 moreover the precision of the position (in the same direction), both
@@ -12480,8 +11023,7 @@ throughout the better part of a year.
 appendix vii 307
 
 
-latter, if we use high values of |a2|, depends mainly upon the small-
-ness of r.) They are both dependent only upon the precision of the measurements of
+latter, if we use high values of |a2|, depends mainly upon the smallness of r.) They are both dependent only upon the precision of the measurements of
 position and momentum of the particle arriving at X from the direction PX, and upon
 the smallness of ψ. (This corresponds to the fact that the precision
 (∆a2)x, of the particle arriving at X depends upon the smallness of φ.)
@@ -12490,8 +11032,6 @@ the situation of the apparently non-predictive measurement of the [A]-
 particle arriving at X and of the prediction of the path of the
 [B]-particle leaving P are completely symmetrical.
 appendices
-308
-
 
 NOTE TO NEW APPENDICES,
 1959 EDITION
@@ -12518,29 +11058,25 @@ Personal Report’.1
 Both are now in my Conjectures and Refutations, 1963, 1965 (chs. 1 and 3).
 
 
-The ﬁrst two of my new appendices contain three short notes, pub-
-lished between 1933 and 1938, and closely connected with the book.
+The ﬁrst two of my new appendices contain three short notes, published between 1933 and 1938, and closely connected with the book.
 They do not read well, I am afraid: they are unduly compressed, and I
 was unable to make them more readable without changes that would
 have diminished their value as documents.
 Appendices *ii to *v are somewhat technical—too much so for my
 taste, at least. But these technicalities are necessary, it seems to me, in
-order to solve the following philosophical problem. Is the degree of corrobor-
-ation or acceptability of a theory a probability, as so many philosophers have
+order to solve the following philosophical problem. Is the degree of corroboration or acceptability of a theory a probability, as so many philosophers have
 thought? Or in other words, Does it obey the rules of the probability calculus?
 I had answered this question in my book and my answer was, ‘No’.
 To this some philosophers replied, ‘But I mean by probability (or by
 corroboration, or by conﬁrmation) something diﬀerent from what
 you mean’. To justify my rejection of this evasive reply (which
 threatens to reduce the theory of knowledge to mere verbalism), it was
-necessary to go into technicalities: the rules (‘axioms’) of the prob-
-ability calculus had to be formulated, and the part played by each of
+necessary to go into technicalities: the rules (‘axioms’) of the probability calculus had to be formulated, and the part played by each of
 them had to be found. For in order not to prejudge the issue whether
 or not degree of corroboration is one of the possible interpretations of
 the calculus of probability, this calculus had to be taken in its widest
 sense, and only such rules admitted as were essential to it. I began these
-investigations in 1935, and a brief report of some of my earlier investi-
-gations is contained in appendix *ii. An outline of my more recent
+investigations in 1935, and a brief report of some of my earlier investigations is contained in appendix *ii. An outline of my more recent
 results is given in appendices *iv and *v. In all these appendices it is
 asserted that, apart from the classical, the logical, and the frequency
 interpretations of probability, which were all dealt with in the book,
@@ -12557,16 +11093,13 @@ Science 10, 1959, pp. 25–42.
 ‘Quantum Mechanics without “The Observer”’, in Quantum Theory and Reality, edited by
 Mario Bunge, 1967, pp. 7–44. (See especially pp. 28–44.)
 new appendices
-310
-
 
 Yet I had not only to examine the rules of the probability calculus: I
 had also to formulate rules for the evaluation of tests—that is, for degree of
 corroboration. This was done in a series of three papers, here reprinted
 in appendix *ix. Appendices *vii and *viii form a kind of link between
 my treatment of probability and of corroboration.
-The remaining appendices will be, I hope, of interest to both philo-
-sophers and scientists; especially those on objective disorder, and on
+The remaining appendices will be, I hope, of interest to both philosophers and scientists; especially those on objective disorder, and on
 imaginary experiments. Appendix *xii consists of a letter from Albert
 Einstein, here published for the ﬁrst time, with the kind permission of
 his literary executors.
@@ -12580,7 +11113,7 @@ The ﬁrst of the two notes here republished is a Letter to the Editor of
 Erkenntnis. The second is a contribution to a discussion at a philosophical
 conference in Prague, 1934. It was published in Erkenntnis in 1935, as
 part of the report on the conference.
-1
+
 The letter to the Editor was ﬁrst published in 1933, in Erkenntnis, 3 (i.e.
 Annalen der Philosophie, 11) no. 4–6, pp. 426 f. I have broken up some of the
 paragraphs, for easier reading.
@@ -12597,24 +11130,19 @@ Wittgenstein) was provoked by the fact that even in those days my
 
 
 views were discussed, by the Circle, under the misappre-hension that I
-was advocating the replacement of the veriﬁability criterion of mean-
-ing by a falsiﬁability criterion of meaning, whereas in fact I was not
-concerned with the problem of meaning, but with the problem of demar-
-cation. As my letter shows, I tried to correct this misinterpretation of my
+was advocating the replacement of the veriﬁability criterion of meaning by a falsiﬁability criterion of meaning, whereas in fact I was not
+concerned with the problem of meaning, but with the problem of demarcation. As my letter shows, I tried to correct this misinterpretation of my
 views as early as 1933. I have tried to do the same in my Logik der
 Forschung, and I have been trying ever since. But it appears that my
-positivist friends still cannot quite see the diﬀerence. These misunder-
-standings led me, in my letter, to point out, and to dwell upon, the
+positivist friends still cannot quite see the diﬀerence. These misunderstandings led me, in my letter, to point out, and to dwell upon, the
 contrast between my views and those of the Vienna Circle; and as a
 consequence, some people were led to assume, wrongly, that I had
 developed my views originally as a criticism of Wittgenstein. In fact,
 I had formulated the problem of demarcation and the falsiﬁability
-or testability criterion in the autumn of 1919, years before Wittgen-
-stein’s views became a topic of discussion in Vienna. (Cf. my paper
+or testability criterion in the autumn of 1919, years before Wittgenstein’s views became a topic of discussion in Vienna. (Cf. my paper
 ‘Philosophy of Science: A Personal Report’, now in my Conjectures and
 Refutations.) This explains why, as soon as I heard of the Circle’s new
-veriﬁability criterion of meaning, I contrasted this with my falsi-
-ﬁability criterion—a criterion of demarcation, designed to demarcate
+veriﬁability criterion of meaning, I contrasted this with my falsiﬁability criterion—a criterion of demarcation, designed to demarcate
 systems of scientiﬁc statements from perfectly meaningful systems of
 metaphysical statements. (As to meaningless nonsense, I do not
 pretend that my criterion is applicable to it.)
@@ -12622,8 +11150,7 @@ Here is the letter of 1933:
 A criterion of the empirical character of theoretical systems
 (1) Preliminary Question. Hume’s Problem of Induction—the question of the
 validity of natural laws—arises out of an apparent contradiction
-between the principle of empiricism (the principle that only ‘experi-
-ence’ can decide about the truth or falsity of a factual statement), and
+between the principle of empiricism (the principle that only ‘experience’ can decide about the truth or falsity of a factual statement), and
 Hume’s realization that inductive (or generalizing) arguments are
 invalid.
 Schlick,1 inﬂuenced by Wittgenstein, believes that this contradiction
@@ -12633,14 +11160,11 @@ not genuine statements’ but, rather, ‘rules for the transformation of
 appendix *i 313
 
 
-statements’;*1 that is to say, that they are a particular kind of ‘pseudo-
-statement’.
+statements’;*1 that is to say, that they are a particular kind of ‘pseudostatement’.
 This attempt to solve the problem (the solution seems to me to be
 verbal anyway) shares with all the older attempts, such as apriorism,
-conventionalism, etc. a certain unfounded assumption; it is the assump-
-tion that all genuine statements must be, in principle, completely
-decidable, i.e. veriﬁable and falsiﬁable; more precisely, that for all genu-
-ine statements, an (ultimate) empirical veriﬁcation, and an (ultimate)
+conventionalism, etc. a certain unfounded assumption; it is the assumption that all genuine statements must be, in principle, completely
+decidable, i.e. veriﬁable and falsiﬁable; more precisely, that for all genuine statements, an (ultimate) empirical veriﬁcation, and an (ultimate)
 empirical falsiﬁcation must both be logically possible.
 If this assumption is dropped, then it becomes possible to resolve in
 a simple way the contradiction which constitutes the problem of
@@ -12650,16 +11174,12 @@ logical reasons, not veriﬁable but, in an asymmetrical way, falsiﬁable only:
 are statements which are tested by being submitted to systematic
 attempts to falsify them.
 The solution suggested here has the advantage of preparing the way
-also for a solution of the second and more fundamental of two prob-
-lems of the theory of knowledge (or of the theory of the empirical
+also for a solution of the second and more fundamental of two problems of the theory of knowledge (or of the theory of the empirical
 method); I have in mind the following:
 (2) Main Problem. This, the problem of demarcation (Kant’s problem of the
-limits of scientiﬁc knowledge) may be deﬁned as the problem of ﬁnd-
-ing a criterion by which we can distinguish between assertions (state-
-ments, systems of statements) which belong to the empirical sciences,
+limits of scientiﬁc knowledge) may be deﬁned as the problem of ﬁnding a criterion by which we can distinguish between assertions (statements, systems of statements) which belong to the empirical sciences,
 and assertions which may be described as ‘metaphysical’.
-According to a solution proposed by Wittgenstein,2 this demarca-
-tion is to be achieved with the help of the idea of ‘meaning’ or ‘sense’:
+According to a solution proposed by Wittgenstein,2 this demarcation is to be achieved with the help of the idea of ‘meaning’ or ‘sense’:
 every meaningful or senseful proposition must be a truth function of
 ‘atomic’ propositions, i.e., it must be logically completely reducible to
 (or deducible from) singular observation statements. If some alleged
@@ -12670,21 +11190,17 @@ time, hardly yet any of the technical connotations which have since led to the c
 diﬀerentiation between the ‘formation’ and the ‘transformation’ of statements.
 2 Wittgenstein, Tractatus Logico-Philosophicus (1922).
 new appendices
-314
-
 
 statement turns out not to be so reducible, then it is ‘meaningless’
 or ‘nonsensical’ or ‘metaphysical’ or a ‘pseudo-proposition’. Thus
 metaphysics is meaningless nonsense.
-It may appear as if the positivists, by drawing this line of demarca-
-tion, had succeeded in annihilating metaphysics more completely than
+It may appear as if the positivists, by drawing this line of demarcation, had succeeded in annihilating metaphysics more completely than
 the older anti-metaphysicists. However, it is not only metaphysics
 which is annihilated by these methods, but natural science as well. For
 the laws of nature are no more reducible to observation statements
 than metaphysical utterances. (Remember the problem of induction!)
 They would seem, if Wittgenstein’s criterion of meaning is applied
-consistently, to be ‘meaningless pseudo-propositions’, and con-
-sequently to be ‘metaphysical’. Thus this attempt to draw a line of
+consistently, to be ‘meaningless pseudo-propositions’, and consequently to be ‘metaphysical’. Thus this attempt to draw a line of
 demarcation collapses.
 The dogma of meaning or sense, and the pseudo-problems to which
 it has given rise, can be eliminated if we adopt, as our criterion of
@@ -12700,10 +11216,8 @@ allows us to solve not only the problem of induction (note that there is
 only one type of argument which proceeds in an inductive direction:
 the deductive modus tollens), but also the more fundamental problem of
 demarcation, a problem which has given rise to almost all the other
-problems of epistemology. For our criterion of falsiﬁability dis-
-tinguishes with suﬃcient precision the theoretical systems of the
-empirical sciences from those of metaphysics (and from conventional-
-ist and tautological systems), without asserting the meaninglessness of
+problems of epistemology. For our criterion of falsiﬁability distinguishes with suﬃcient precision the theoretical systems of the
+empirical sciences from those of metaphysics (and from conventionalist and tautological systems), without asserting the meaninglessness of
 metaphysics (which from a historical point of view can be seen to
 3 This testing procedure is reported by Carnap in Erkenntnis 3, pp. 223 ﬀ., ‘procedure B’.—
 See also Dubislav, Die Deﬁnition, 3rd edition, pp. 100 ﬀ.*Added 1957: This reference will be
@@ -12720,24 +11234,20 @@ might therefore characterize the empirical sciences as follows: In so far as
 a scientiﬁc statement speaks about reality, it must be falsiﬁable: and in so far as it is not
 falsiﬁable, it does not speak about reality.
 A logical analysis would show that the rôle of (one-sided) falsiﬁability
-as a criterion for empirical science is formally analogous to that of non-
-contradictoriness for science in general. A contradictory system fails to single
+as a criterion for empirical science is formally analogous to that of noncontradictoriness for science in general. A contradictory system fails to single
 out, from the set of all possible statements, a proper sub-set; similarly, a
 non-falsiﬁable system fails to single out, from the set of all possible
 ‘empirical’ statements (of all singular synthetic statements), a proper
 sub-set.5
-2
-The second note consists of some remarks which I made in a discus-
-sion of a paper read by Reichenbach at a philosophical conference in
+
+The second note consists of some remarks which I made in a discussion of a paper read by Reichenbach at a philosophical conference in
 Prague, in the summer of 1934 (when my book was in page proofs). A
-report on the conference was later published in Erkenntnis, and my con-
-tribution, here published in translation, was printed in Erkenntnis 5,
+report on the conference was later published in Erkenntnis, and my contribution, here published in translation, was printed in Erkenntnis 5,
 1935, p. 170 ﬀ.
 On the so-called ‘Logic of Induction’ and the
 ‘Probability of Hypotheses’
 I do not think that it is possible to produce a satisfactory theory of what
-is traditionally—and also by Reichenbach, for example—called ‘induc-
-tion’. On the contrary, I believe that any such theory—whether it uses
+is traditionally—and also by Reichenbach, for example—called ‘induction’. On the contrary, I believe that any such theory—whether it uses
 classical logic or a probability logic—must for purely logical reasons
 4 Einstein, Geometrie und Erfahrung, 1921, pp. 3f. *Added 1957: Einstein said: ‘In so far as the
 statements of mathematics speak about reality, they are not certain, and in so far as they
@@ -12748,13 +11258,10 @@ Weltauﬀassung, ed. by Frank and Schlick, and published by Springer in Vienna).
 (It was published in 1934, but—in accordance with a continental custom—with the
 imprint ‘1935’; and I myself have, therefore, often quoted it with this imprint.)
 new appendices
-316
-
 
 either lead to an inﬁnite regress, or operate with an aprioristic principle
 of induction, a synthetic principle which cannot be empirically tested.
-If we distinguish, with Reichenbach, between a ‘procedure of ﬁnd-
-ing’ and a ‘procedure of justifying’ a hypothesis, then we have to say
+If we distinguish, with Reichenbach, between a ‘procedure of ﬁnding’ and a ‘procedure of justifying’ a hypothesis, then we have to say
 that the former—the procedure of ﬁnding a hypothesis—cannot be
 rationally reconstructed. Yet the analysis of the procedure of justifying
 hypotheses does not, in my opinion, lead us to anything which may be
@@ -12763,14 +11270,11 @@ superﬂuous. It has no function in a logic of science.
 Scientiﬁc theories can never be ‘justiﬁed’, or veriﬁed. But in spite of
 this, a hypothesis A can under certain circumstances achieve more than
 a hypothesis B—perhaps because B is contradicted by certain results of
-observations, and therefore ‘falsiﬁed’ by them, whereas A is not falsi-
-ﬁed; or perhaps because a greater number of predictions can be derived
+observations, and therefore ‘falsiﬁed’ by them, whereas A is not falsiﬁed; or perhaps because a greater number of predictions can be derived
 with the help of A than with the help of B. The best we can say of a
 hypothesis is that up to now it has been able to show its worth, and that
-it has been more successful than other hypotheses although, in prin-
-ciple, it can never be justiﬁed, veriﬁed, or even shown to be probable.
-This appraisal of the hypothesis relies solely upon deductive con-
-sequences (predictions) which may be drawn from the hypothesis.
+it has been more successful than other hypotheses although, in principle, it can never be justiﬁed, veriﬁed, or even shown to be probable.
+This appraisal of the hypothesis relies solely upon deductive consequences (predictions) which may be drawn from the hypothesis.
 There is no need even to mention induction.
 The mistake usually made in this ﬁeld can be explained historically:
 science was considered to be a system of knowledge—of knowledge as
@@ -12795,8 +11299,7 @@ Mises).2 Reichenbach’s attempts to extend this concept so as to include
 the so-called ‘inductive probability’ or the ‘probability of hypotheses’
 are doomed to failure, in my opinion, although I have no objection
 whatever against the idea of a ‘truth-frequency’ within a sequence of
-statements3 which he tries to invoke. For hypotheses cannot be satis-
-factorily interpreted as sequences of statements;4 and even if one
+statements3 which he tries to invoke. For hypotheses cannot be satisfactorily interpreted as sequences of statements;4 and even if one
 accepts this interpretation, nothing is gained: one is only led to various
 utterly unsatisfactory deﬁnitions of the probability of a hypothesis. For
 example, one is led to a deﬁnition which attributes the probability 1/2
@@ -12810,8 +11313,7 @@ sequence (though not on the basis of a ‘truth-frequency’, but rather on
 the basis of a ‘falsity-frequency’ within that sequence). But this attempt
 is also quite unsatisfactory. Simple considerations lead to the result that
 it is impossible in this way to arrive at a probability concept which
-would satisfy even the very modest demand that a falsifying observa-
-tion should produce a marked decrease in the probability of the
+would satisfy even the very modest demand that a falsifying observation should produce a marked decrease in the probability of the
 hypothesis.
 I think that we shall have to get accustomed to the idea that we must
 not look upon science as a ‘body of knowledge’, but rather as a system
@@ -12822,14 +11324,11 @@ that we know that they are ‘true’ or ‘more or less certain’ or even
 ‘probable’.
 2 Op. cit., pp. 94 ﬀ. *(that is, sections 47 to 51).
 3 This concept is due to Whitehead.
-4 Reichenbach interprets ‘the assertions of the natural sciences’ as sequences of state-
-ments in his Wahrscheinlichkeitslogik, p. 15. (Ber. d. Preuss. Akad., phys.-math. Klasse, 29, 1932,
+4 Reichenbach interprets ‘the assertions of the natural sciences’ as sequences of statements in his Wahrscheinlichkeitslogik, p. 15. (Ber. d. Preuss. Akad., phys.-math. Klasse, 29, 1932,
 p. 488.)
 5 This would correspond to the view upheld by Grelling in our present discussion; cf.
 Erkenntnis 5, pp. 168 f.
 new appendices
-318
-
 
 APPENDIX *ii
 A Note on Probability, 1938
@@ -12841,8 +11340,7 @@ in New Zealand.)
 The introductory text of the note, which alone is here reprinted,
 clearly states—and I believe for the ﬁrst time—that the mathematical
 theory of probability should be constructed as a ‘formal’ system; that is to
-say, a system which should be susceptible of many diﬀerent interpret-
-ations, among them, for example, (1) the classical interpretation, (2)
+say, a system which should be susceptible of many diﬀerent interpretations, among them, for example, (1) the classical interpretation, (2)
 the frequency interpretation, and (3) the logical interpretation (now
 sometimes called the ‘semantic’ interpretation).
 One of the reasons why I wanted to develop a formal theory which
@@ -12863,10 +11361,8 @@ the absolute probability of x (for which we may write ‘p(x)’ or ‘pa(x)’)
 in terms of relative probability as follows:
 p(x) = p(x, xx¯), or pa(x) = p(x, xx¯) = p(x, yy¯)
 A similar deﬁnition is given in my note.
-When I wrote this note I did not know Kolmogorov’s book Founda-
-tions of Probability, although it had been ﬁrst published in German in
-1933. Kolmogorov had very similar aims; but his system is less ‘for-
-mal’ than mine, and therefore susceptible to fewer interpretations. The
+When I wrote this note I did not know Kolmogorov’s book Foundations of Probability, although it had been ﬁrst published in German in
+1933. Kolmogorov had very similar aims; but his system is less ‘formal’ than mine, and therefore susceptible to fewer interpretations. The
 main point of diﬀerence is this. He interprets the arguments of the
 probability functor as sets; accordingly, he assumes that they have
 members (or ‘elements’). No corresponding assumption was made in
@@ -12896,8 +11392,6 @@ p((xy)z)  p(x(yz))
 (Association)
 A2
 new appendices
-320
-
 
 p(xx)  p(x).
 (Tautology)
@@ -12942,8 +11436,7 @@ appendix *ii 321
 
 It is desirable to construct a system of axioms, s1, in which ‘p(x1, x2)’
 appears as (undeﬁned) primitive functors and which is constructed in
-such a way that it can be equally well interpreted by any of the pro-
-posed interpretations. The three interpretations which have been most
+such a way that it can be equally well interpreted by any of the proposed interpretations. The three interpretations which have been most
 widely discussed are: (1) the classical deﬁnition2 of probability as the
 ratio of the favourable to the equally possible cases, (2) the frequency
 theory3 which deﬁnes probability as the relative frequency of a certain
@@ -12952,14 +11445,12 @@ theory4 which deﬁnes probability as the degree of a logical relation
 between statements (which equals 1 if x1 is a logical consequence of x2,
 and which equals 0 if the negation of x1 is a logical consequence of x2).
 In constructing such a system s1, capable of being interpreted by any
-of the interpretations mentioned (and by some others too), it is advis-
-able to introduce, with the help of a special group of axioms (see
+of the interpretations mentioned (and by some others too), it is advisable to introduce, with the help of a special group of axioms (see
 below, Group A), certain undeﬁned functions of the arguments, e.g., the
 conjunction (‘x1 and x2’, symbolized here by ‘x1x2’) and the negation
 (‘non-x1’, symbolized by ‘x¯1’). Thus we can express symbolically an
 idea like ‘x1 and not x1’ with the help of ‘x1x¯1’, and its negation by ‘x1x1’.
-(If (3), i.e., the logical interpretation, is adopted, ‘x1x¯1’ is to be inter-
-preted as the name of the statement which is the conjunction of the
+(If (3), i.e., the logical interpretation, is adopted, ‘x1x¯1’ is to be interpreted as the name of the statement which is the conjunction of the
 statement named ‘x1’ and its negation.)
 Supposing the rules of substitution are suitably formulated it can be
 proved for any x1, x2, and x3:
@@ -12976,8 +11467,6 @@ recently by Mazurkiewicz, C.R. Soc. d. Sc. et de L., Varsovie, 25, Cl. III (1932
 5 See Carnap, l.c., 24. *It would have been simpler to write Df1 (without ‘justiﬁcation’) as
 follows: pa(x1) = p(x1, x1x¯1).
 new appendices
-322
-
 
 (An example of an interpretation of ‘pa(x1)’ in the sense of (3), i.e. of
 the logical interpretation, is the concept ‘logical probability’ as used by
@@ -13018,9 +11507,7 @@ axiom A2 of the system of appendix *iv.)
 appendix *ii 323
 
 
-operations—conjunction and negation—of the argument, and is prac-
-tically an adaptation of the system of postulates for the so-called ‘Alge-
-bra of Logic’.7 Group B gives the axioms peculiar to the measurement
+operations—conjunction and negation—of the argument, and is practically an adaptation of the system of postulates for the so-called ‘Algebra of Logic’.7 Group B gives the axioms peculiar to the measurement
 of probability. The axioms are:
 [Here followed—with several misprints—the complicated axiom
 system which I have since replaced by the simpler one given above.]
@@ -13029,8 +11516,6 @@ Christchurch, N.Z., November 20th, 1937.
 Mathematica, I, where the ﬁve propositions 22.51, 22.52, 22.68, 24.26, 24.1 correspond
 to the ﬁve axioms of Group A, as given here.
 new appendices
-324
-
 
 APPENDIX *iii
 On the Heuristic Use of the Classical
@@ -13038,15 +11523,13 @@ Definition of Probability, Especially
 for Deriving the General
 Multiplication Theorem
 The classical deﬁnition of probability as the number of favourable cases
-divided by the number of equally possible cases has considerable heur-
-istic value. Its main drawback is that it is applicable to homogeneous or
+divided by the number of equally possible cases has considerable heuristic value. Its main drawback is that it is applicable to homogeneous or
 symmetrical dice, say, but not to biased dice; or in other words, that it
 does not make room for unequal weights of the possible cases. But in some
 special cases there are ways and means of getting over this diﬃculty;
 and it is in these cases that the old deﬁnition has its heuristic value:
 every satisfactory deﬁnition will have to agree with the old deﬁnition
-where the diﬃculty of assigning weights can be overcome, and there-
-fore, a fortiori, in those cases in which the old deﬁnition turns out to be
+where the diﬃculty of assigning weights can be overcome, and therefore, a fortiori, in those cases in which the old deﬁnition turns out to be
 applicable.
 (1) The classical deﬁnition will be applicable in all cases in
 which we conjecture that we are faced with equal weights, or equal
@@ -13059,11 +11542,9 @@ probabilities.
 (3) It will be applicable, with slight modiﬁcations, whenever we
 can assign a weight function to the various possibilities.
 (4) It will be applicable, or it will be of heuristic value, in most
-cases where an over-simpliﬁed estimate that works with equal possi-
-bilities leads to a solution approaching to the probabilities zero or one.
+cases where an over-simpliﬁed estimate that works with equal possibilities leads to a solution approaching to the probabilities zero or one.
 (5) It will be of great heuristic value in cases in which weights can
-be introduced in the form of probabilities. Take, for example, the fol-
-lowing simple problem: we are to calculate the probability of throwing
+be introduced in the form of probabilities. Take, for example, the following simple problem: we are to calculate the probability of throwing
 with a die an even number when the throws of the number six are not
 counted, but considered as ‘no throw’. The classical deﬁnition leads, of course,
 to 2/5. We may now assume that the die is biased, and that the
@@ -13084,8 +11565,7 @@ The required probability is always equal to the probability of the
 disjunction of all the (exclusive or non-exclusive) favourable cases,
 divided by the probability of the disjunction of all the (exclusive or
 non-exclusive) possible cases.
-(6) These rules can be used for a heuristic derivation of the deﬁni-
-tion of relative probability, and of the general multiplication theorem.
+(6) These rules can be used for a heuristic derivation of the deﬁnition of relative probability, and of the general multiplication theorem.
 For let us symbolize, in the last example, ‘even’ by ‘a’ and ‘other than
 a six’ by ‘b’. Then our problem of determining the probability of an
 even throw if we disregard throws of a six is clearly the same as the
@@ -13093,8 +11573,6 @@ problem of determining p(a, b), that is to say, the probability of a, given
 b, or the probability of ﬁnding an a among the b’s.
 The calculation can then proceed as follows. Instead of writing
 new appendices
-326
-
 
 ‘p(2) + p(4)’ we can write, more generally, ‘p(ab)’, that is to say, the
 probability of an even throw other than a six. And instead of writing
@@ -13108,8 +11586,7 @@ or to the formula (more general because it remains meaningful even if
 p(b) = 0),
 p(ab) = p(a, b) p(b).
 (2)
-This is the general multiplication theorem for the absolute prob-
-ability of a product ab.
+This is the general multiplication theorem for the absolute probability of a product ab.
 By substituting ‘bc’ for ‘b’, we obtain from (2):1
 p(abc) = p(a, bc) p(bc)
 and therefore, by applying (2) to p(bc):
@@ -13127,14 +11604,12 @@ appendices.
 appendix *iii 327
 
 
-(7) The derivation here sketched can be easily formalized. The for-
-malized proof will have to proceed from an axiom system rather than
+(7) The derivation here sketched can be easily formalized. The formalized proof will have to proceed from an axiom system rather than
 from a deﬁnition. This is a consequence of the fact that our heuristic
 use of the classical deﬁnition consisted in introducing weighted
 possibilities—which is practically the same as probabilities—into what
 was the classical deﬁniens. The result of this modiﬁcation cannot any
-longer be regarded as a proper deﬁnition; rather it must establish rela-
-tions between various probabilities, and it therefore amounts to the
+longer be regarded as a proper deﬁnition; rather it must establish relations between various probabilities, and it therefore amounts to the
 construction of an axiom system. If we wish to formalize our
 derivation—which makes implicit use of the laws of association and of
 the addition of probabilities—then we must introduce rules for these
@@ -13152,8 +11627,6 @@ my old appendix ii) as a heuristic justiﬁcation for introducing this
 axiom. This has been done in the system described in the next
 appendix (appendix *iv).
 new appendices
-328
-
 
 APPENDIX *iv
 The Formal Theory of Probability
@@ -13161,8 +11634,7 @@ In view of the fact that a probability statement such as ‘p(a, b) = r’ can
 be interpreted in many ways, it appeared to me desirable to construct a
 purely ‘formal’ or ‘abstract’ or ‘autonomous’ system, in the sense that
 its ‘elements’ (represented by ‘a’, ‘b’, . . . ) can be interpreted in many
-ways, so that we are not bound to any particular one of these interpret-
-ations. I proposed ﬁrst a formal axiom system of this kind in a Note in
+ways, so that we are not bound to any particular one of these interpretations. I proposed ﬁrst a formal axiom system of this kind in a Note in
 Mind in 1938 (here re-printed in appendix *ii). Since then, I have
 constructed many simpliﬁed systems.1
 1 In Brit. Journ. Phil. of Science 6, 1955, pp. 53 and 57 f., and in the ﬁrst footnote to the
@@ -13186,10 +11658,8 @@ There are three main characteristics which distinguish a theory of
 this kind from others. (i) It is formal; that is to say, it does not assume
 any particular interpretation, although allowing for at least all known
 interpretations. (ii) It is autonomous; that is to say, it adheres to the
-principle that probability conclusions can be derived only from prob-
-ability premises; in other words, to the principle that the calculus of
-probabilities is a method of transforming probabilities into other prob-
-abilities. (iii) It is symmetrical; that is to say, it is so constructed that
+principle that probability conclusions can be derived only from probability premises; in other words, to the principle that the calculus of
+probabilities is a method of transforming probabilities into other probabilities. (iii) It is symmetrical; that is to say, it is so constructed that
 whenever there is a probability p(b, a)—i.e. a probability of b given a—
 then there is always a probability p(a, b) also—even when the absolute
 probability of b, p(b), equals zero; that is, even when p(b) = p(b, aa¯) = 0.
@@ -13218,19 +11688,15 @@ the negations of these formulae be derived. Thus our system is incomplete.
 2 The quotations here are all from p. 1 of A. Kolmogorov, Foundation of the Theory of Probability,
 1950. (First German edition 1933.)
 new appendices
-330
 
-
-interpretation according to which a and b are statements (or ‘proposi-
-tions’, if you like). He says, rightly, ‘what the members of this set
+interpretation according to which a and b are statements (or ‘propositions’, if you like). He says, rightly, ‘what the members of this set
 represent is of no importance’; but this remark is not suﬃcient to
 establish the formal character of the theory at which he aims; for in
 some interpretations, a and b have no members, nor anything that might
 correspond to members.
 All this has grave consequences in connection with the actual
 construction of the axiom system itself.
-Those who interpret the elements a and b as statements or proposi-
-tions very naturally assume that the calculus of statement-composition
+Those who interpret the elements a and b as statements or propositions very naturally assume that the calculus of statement-composition
 (the propositional calculus) holds for these elements. Similarly,
 Kolmogorov assumes that the operations of addition, multiplication,
 and complementation of sets hold for his elements, since they are
@@ -13259,8 +11725,7 @@ appendix *iv 331
 that is to say, for the probability of a (given no information, or only
 tautological information).
 But this procedure is apt to veil the surprising and highly important
-fact that some of the adopted axioms or postulates for relative prob-
-ability, p(a, b), alone guarantee that all the laws of Boolean algebra hold for the
+fact that some of the adopted axioms or postulates for relative probability, p(a, b), alone guarantee that all the laws of Boolean algebra hold for the
 elements. For example, a form of the law of association is entailed by the
 following two formulae (cf. the preceding appendix *iii),
 p(ab) = p(a, b)p(b)
@@ -13296,8 +11761,6 @@ d
 (5) p((ab)c) = p(a(bc))
 2, 4
 new appendices
-332
-
 
 p(x) = p(x).
 Thus the derivability of (f) from (d) and (e) remains unnoticed. Or
@@ -13331,8 +11794,7 @@ If p(b) ≠0 then p(a, b) = p(ab)/p(b).
 (d′)
 Now the antecedent ‘If p(b) ≠0’ is unavoidable here since division
 by 0 is not a deﬁned operation. As a consequence, most formulae of relative
-probability can be asserted, in the customary systems, only in con-
-ditional form, analogous to (d′). For example, in most systems, (g) is
+probability can be asserted, in the customary systems, only in conditional form, analogous to (d′). For example, in most systems, (g) is
 appendix *iv 333
 
 
@@ -13367,8 +11829,6 @@ But if p(t) = 0, we are prevented from doing so, in the customary
 systems of probability. For similar reasons, the expression
 p(e, t)
 new appendices
-334
-
 
 where e is evidence in favour of the theory t, may be undeﬁned; but this
 expression is very important. (It is Fisher’s ‘likelihood’ of t on the
@@ -13386,8 +11846,7 @@ is also a well formed formula, even if p(a) = 0. A system of this kind
 may be labelled ‘symmetrical’. I published the ﬁrst system of this kind
 only in 1955.4 This symmetrical system turned out to be much simpler
 than I expected. But at that time, I was still pre-occupied with the
-peculiarities which every system of this kind must exhibit. I am allud-
-ing to such facts as these: in every satisfactory symmetrical system,
+peculiarities which every system of this kind must exhibit. I am alluding to such facts as these: in every satisfactory symmetrical system,
 rules such as the following are valid:
 p(a, bb¯) = 1
 If p(b¯, b) ≠0
@@ -13398,8 +11857,7 @@ These formulae are either invalid in the customary systems, or else
 (the second and third) vacuously satisﬁed, since they involve second
 arguments with zero absolute probabilities. I therefore believed, at that
 time, that some of them would have to appear in my axioms. But I
-found later that my axiom system could be simpliﬁed; and in simplify-
-ing it, I found that all these unusual formulae could be derived from
+found later that my axiom system could be simpliﬁed; and in simplifying it, I found that all these unusual formulae could be derived from
 formulae having a completely ‘normal’ look. I published the resulting
 4 In the British Journal for the Philosophy of Science, 6, 1955, pp. 56 f.
 appendix *iv 335
@@ -13410,9 +11868,7 @@ Report’.5 It is the same system of six axioms which is more fully
 presented in the present appendix.
 The system is surprisingly simple and intuitive, and its power, which
 far surpasses that of any of the customary systems, is merely due to the
-fact that I omit from all the formulae except one (axiom C), any condi-
-tion like ‘If p(b) ≠0 then . . . ’. (In the customary systems, these condi-
-tions either are present, or they ought to be present, in order to avoid
+fact that I omit from all the formulae except one (axiom C), any condition like ‘If p(b) ≠0 then . . . ’. (In the customary systems, these conditions either are present, or they ought to be present, in order to avoid
 inconsistencies.)
 I intend to explain, in the present appendix, ﬁrst the axiom system,
 with proofs of consistency and independence, and afterwards a few
@@ -13442,8 +11898,6 @@ my Conjectures and Refutations. The six axioms given there are B1, C, B2, A3, A2
 of the present appendix; they are there numbered B1, B2, B3, C1, D1, and E1,
 respectively.
 new appendices
-336
-
 
 There are elements c and d in S such that p(a, b) ≠p(c, d)
 A1
@@ -13510,8 +11964,7 @@ p(ab, c) ≠p(d, c)
 If p(a, b) + p(a¯, b) ≠p(c, c) then p(c, c) = p(d, b)
 C+
 In this system, B +  is equivalent to the conjunction of B1 and B2, and
-This system looks very much like some of the customary systems (except for the omis-
-sion of antecedents in the axioms other than C′, and the form of the antecedent of C′);
+This system looks very much like some of the customary systems (except for the omission of antecedents in the axioms other than C′, and the form of the antecedent of C′);
 and it is remarkable that it yields for the elements a, b, . . . , as does the system in the text,
 the theorems of Boolean algebra which ordinarily are separately assumed. Nevertheless it
 is unnecessarily strong; not only because it introduces the numbers 1 and 0 (thus hiding
@@ -13538,21 +11991,17 @@ Now we apply B1′
 4. B1′
 For the derivation of A4′ and B1′ from B1, see appendix *v.
 new appendices
-338
-
 
 C + , similarly, to that of A3 and C.8 The resulting system of four axioms
 is very brief, and shares many of the advantages of the longer
 system: product and complement occur separately, so that all the
-axioms except those lettered ‘B’ are free of the product, and the com-
-plement occurs once only. But personally I prefer the longer system of
+axioms except those lettered ‘B’ are free of the product, and the complement occurs once only. But personally I prefer the longer system of
 six axioms.9
 The following comments may be made upon the various postulates
 and axioms of the system.
 Postulate 1 (which only belongs to the elementary theory) may be
 dispensed with. This is shown by the fact that, in order to prove its
-independence, we may construct a system S which is non-
-denumerable. (All other postulates are satisﬁed if we interpret S as the
+independence, we may construct a system S which is nondenumerable. (All other postulates are satisﬁed if we interpret S as the
 set of all ﬁnite sums of half-open sub-intervals [x, y) of the unit interval
 [0, 1), where x and y are real numbers rather than rational numbers; we
 may then interpret p(a) as the length of these intervals, and p(a, b) as
@@ -13568,11 +12017,11 @@ C +
 (2) p(a, a) ≠p(b, b) →p(a, a) = p(c, b) + p(c¯, b) ≠p(b, b) = p(c, b) = p(c¯, b)
 C +, 1
 (3) p(a, a) ≠p(b, b) →p(a, a) = 2p(b, b)
-2
+
 (4) p(b, b) ≠p(a, a) →p(b, b) = 2p(a, a) = 4p(b, b) = 0 = p(a, a)
-3
+
 (5) p(a, a) = p(b, b).
-4
+
 C +  may also be replaced, for example, by the slightly stronger formula
 CS
 p(a, a) ≠p(b, c) →p(a, c) + p(a¯, c) = p(d, d)
@@ -13625,15 +12074,12 @@ Apart from being stronger than one might wish it to be, this system
 of only three axioms has all the advantages of the system of four
 axioms A1, A2, B + , and C +.
 new appendices
-340
-
 
 A3 is needed to prove that p(a, a) = 1, for every element a of S, as has
 been indicated. But it may be omitted if we strengthen C: as may be
 seen from axiom C + , A3 becomes redundant if we replace in C the two
 occurrences of ‘p(b, b)’ by ‘p(d, d)’ (or only the second occurrence).
-Postulate 3 demands the existence of a product (or meet, or intersec-
-tion) of any elements a and b in S. It characterizes exhaustively all the
+Postulate 3 demands the existence of a product (or meet, or intersection) of any elements a and b in S. It characterizes exhaustively all the
 properties of the product (such as idempotence, commutation, and
 association) by two simple axioms of which the ﬁrst is intuitively
 obvious; the second has been discussed in appendix *iii.
@@ -13646,11 +12092,9 @@ As shown by formula B above, axiom B2 can be combined with B1
 and A2 + ; there are other possible combinations, among them some in
 which the product appears only once. They are very complicated, but
 have the advantage that they may be given a form analogous to that of a
-deﬁnition. One such deﬁnitional form may be obtained from the fol-
-lowing axiom BD (which, like B, may replace A2, B1, and B2) by
+deﬁnition. One such deﬁnitional form may be obtained from the following axiom BD (which, like B, may replace A2, B1, and B2) by
 inserting the symbol ‘(a)’ twice, once at the beginning and a
-second time before ‘(Eb)’, and by replacing the ﬁrst arrow (con-
-ditional) by a double arrow (for the bi-conditional). I am using here
+second time before ‘(Eb)’, and by replacing the ﬁrst arrow (conditional) by a double arrow (for the bi-conditional). I am using here
 the abbreviations explained in the beginning of appendix *v.*1
 p(xy, a) = p(z, a) →(Eb) (c) (d) (Ee) (Ef) (Eg) (p(x, a)  p(z, a) =
 BD
@@ -13683,8 +12127,7 @@ preferable to A1, B, and C + , in spite of the complexity of BD.
 Postulate AP, ultimately, can be replaced by the simple deﬁnition
 p(a) = p(a, a¯a)
 (.)
-which, however, uses complementation and the product, and accord-
-ingly presupposes both Postulates 3 and 4. Formula (.) will be derived
+which, however, uses complementation and the product, and accordingly presupposes both Postulates 3 and 4. Formula (.) will be derived
 below in appendix *v as formula 75.
 Our axiom system can be proved to be consistent: we may construct
 systems of elements S (with an inﬁnite number of diﬀerent elements:
@@ -13698,13 +12141,10 @@ S = {1, 0}; that is to say, that S consists of the two elements, 1 and
 arithmetical product and complement (with respect to 1). We deﬁne
 p(0, 1) = 0, and in all other cases put p(a, b) = 1. Then all the axioms
 are satisﬁed.
-Two further ﬁnite interpretations of S will be given before proceed-
-ing to a denumerably inﬁnite interpretation. Both of these satisfy not
+Two further ﬁnite interpretations of S will be given before proceeding to a denumerably inﬁnite interpretation. Both of these satisfy not
 only our axiom system but also, for example, the following existential
 assertion (E).
 new appendices
-342
-
 
 There are elements a, b, and c in S such that
 (E)
@@ -13716,8 +12156,7 @@ p(a) = p(a, a¯) = p(a¯, a) = 0 ≠p(a, a) = 1.
 This assertion (E) is not satisﬁed by our ﬁrst example, nor can it be
 satisﬁed in any system of probability known to me (except, of course,
 some of my own systems).
-The ﬁrst example satisfying our system and (E) consists of four elem-
-ents. S = {0, 1, 2, 3}. Here ab is deﬁned as the smaller of the two
+The ﬁrst example satisfying our system and (E) consists of four elements. S = {0, 1, 2, 3}. Here ab is deﬁned as the smaller of the two
 numbers a and b, except that 1.2 = 2.1 = 0. We deﬁne: a¯ = 3 −a, and
 p(a) = p(a, 3) = 0 whenever a = 0 or 1, and p(a) = p(a, 3) = 1 whenever
 a = 2 or 3; p(a, 0) = 1; p(a, 1) = 0 unless a = 1 or a = 3, in which case
@@ -13729,60 +12168,12 @@ The example just described may be represented by way of the
 following two ‘matrices’. (This method, I believe, was ﬁrst introduced
 by Huntington in 1904.)
 ab
-0
-1
-2
-3
+
+
 a¯
 p(a, b)
-0
-1
-2
-3
-0
-0
-0
-0
-0
-3
-0
-1
-0
-0
-0
-1
-0
-1
-0
-1
-2
-1
-1
-1
-0
-0
-2
-0
-0
-2
-2
-1
-2
-1
-0
-1
-1
-3
-0
-1
-2
-3
-0
-3
-1
-1
-1
-1
+
+
 appendix *iv 343
 
 
@@ -13792,11 +12183,9 @@ exceeding any chosen number, provided these elements form a
 Boolean Algebra, which means that the number of elements has to be
 equal to 2n. Here n may be taken to be the number of the smallest
 exclusive areas or classes into which some universe of discourse is
-divided. We can freely correlate with each of these classes some posi-
-tive fraction, 0  r  1, as its absolute probability, taking care that
+divided. We can freely correlate with each of these classes some positive fraction, 0  r  1, as its absolute probability, taking care that
 their sum equals 1. With any of the Boolean sums, we correlate the
-arithmetical sum of their probabilities, and with any Boolean comple-
-ment, the arithmetical complement with respect to 1. We may assign to
+arithmetical sum of their probabilities, and with any Boolean complement, the arithmetical complement with respect to 1. We may assign to
 one or several of the smallest (non-zero) exclusive areas or classes the
 probability 0. If b is such an area or class, we put p(a, b) = 0 in case
 ab = 0; otherwise p(a, b) = 1. We also put p(a, 0) = 1; and in all other
@@ -13821,8 +12210,6 @@ moreover, we deﬁne an auxiliary function, q:
 q(an, bn) = 1 whenever Bn = 0
 q(an, bn) = (AB)n/Bn, whenever Bn ≠0.
 new appendices
-344
-
 
 Now we can deﬁne,
 p(a, b) = lim q(an, bn).
@@ -13844,31 +12231,20 @@ We can illustrate this interpretation by writing the non-commutative
 matrix as follows:
 In order to show that A3 is independent, we take, as in our trivial
 ab
-0
-1
-2
+
+
 a¯
-0
-0
-0
-0
-1
+
+
 p(0, 2) = 0;
-in all other cases 
-1
-0
-1
-2
-0
+in all other cases
+
+
 p(a, b) = 1
-2
-0
-1
-2
-0
+
+
 10 In view of what has been said above about A2 it is clear that the problem of proving its
-independence amounts to that of constructing an example (a matrix) which is non-
-commutative, combined with a numerical rule about the p-values which ensures that the
+independence amounts to that of constructing an example (a matrix) which is noncommutative, combined with a numerical rule about the p-values which ensures that the
 law of commutation is violated only for the second argument. The independence proof
 for A2 here described, designed to satisfy these conditions, was found at the same time
 by Dr. J. Agassi and by myself. (The example satisﬁes Postulate AP only if in AP a bar is
@@ -13876,8 +12252,7 @@ placed over the letters ‘b’; but it satisﬁes (.) on p. 342). *Cf. Addendum
 appendix *iv 345
 
 
-ﬁrst consistency proof, S = {0, 1}, with logical products and comple-
-ments equal to the arithmetical ones. We deﬁne p(1, 1) = 1, and in all
+ﬁrst consistency proof, S = {0, 1}, with logical products and complements equal to the arithmetical ones. We deﬁne p(1, 1) = 1, and in all
 other cases p(a, b) = 0. Then p(1, 1) ≠p(0, 0), so that A3 fails. The other
 axioms are satisﬁed.
 In order to show that B1 is independent, we take S = { −1, 0, + 1};
@@ -13895,66 +12270,46 @@ satisﬁed.
 (Another example showing the independence of B2 can be obtained
 ab
 −1
-0
+
 +1
 a¯
 p(a, b)
 −1
-0
-+1
-−1
-+1
-0
-−1
-+1
-−1
-0
-−1
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-+1
-−1
-0
-+1
-−1
-+1
-0
-+1
-0
-ab
-0
-1
-2
-a¯
-0
-0
-1
-0
-2
-p(0, 2) = 0;
-in all other cases 
-1
-0
-1
-1
-0
-p(a, b) = 1
-2
-0
-1
-2
-0
-new appendices
-346
 
++1
+−1
++1
+
+−1
++1
+−1
+
+−1
+
+
++1
+−1
+
++1
+−1
++1
+
++1
+
+ab
+
+
+a¯
+
+
+p(0, 2) = 0;
+in all other cases
+
+
+p(a, b) = 1
+
+
+new appendices
 
 if we consider that B2 is needed to prove ‘p(ba, c)  p(a, c)’, that is to
 say, the dual of B1. This suggests that we may use the second example
@@ -13971,16 +12326,13 @@ As to the non-operational parts of the postulates, a proof of the
 independence of postulate 1 has been given above (when I commented
 upon this postulate).
 Postulate 2 requires (in its non-operational part) that whenever a
-and b are in S, p(a, b) is a real number. In order to show the independ-
-ence of this requirement—which we may brieﬂy refer to as ‘postulate
+and b are in S, p(a, b) is a real number. In order to show the independence of this requirement—which we may brieﬂy refer to as ‘postulate
 2’—we ﬁrst consider a non-numerical Boolean interpretation of S. To this end,
 we interpret S as an at most denumerable and non-numerical Boolean
 algebra (such as a set of statements, so that ‘a’, ‘b’, etc. are variable names
 of statements). And we stipulate that ‘x¯’ is to denote, if x is a number, the
 same as ‘ −x’; and if x is a Boolean element (say, a statement) then ‘x¯’ is
-to denote the Boolean complement (negation) of x. Similarly, we stipu-
-late that ‘xy’; ‘x + y’; ‘x = y’; ‘x ≠y’; and ‘x  y’, have their usual arith-
-metical meaning if x and y are numbers, and their well-known Boolean
+to denote the Boolean complement (negation) of x. Similarly, we stipulate that ‘xy’; ‘x + y’; ‘x = y’; ‘x ≠y’; and ‘x  y’, have their usual arithmetical meaning if x and y are numbers, and their well-known Boolean
 meanings whenever x and y are Boolean elements. (If x and y are
 statements, ‘x  y’ should be interpreted as ‘x entails y’.) In order to
 prove the independence of postulate 2, we now merely add one more
@@ -14005,13 +12357,11 @@ show the independence of the existential part of postulate 3, we now
 take S to be conﬁned to the elements 1 and 2 of S′, leaving everything
 else unchanged. Obviously, postulate 3 fails, because the product of the
 elements 1 and 2 is not in S; everything else remains valid. Similarly, we
-can show the independence of postulate 4 by conﬁning S to the elem-
-ents 0 and 1 of S′. (We may also choose 2 and 3, or any combination
+can show the independence of postulate 4 by conﬁning S to the elements 0 and 1 of S′. (We may also choose 2 and 3, or any combination
 consisting of three of the four elements of S′ except the combination
 consisting of 1, 2, and 3.)
 The proof of the independence of postulate AP is even more trivial:
-we only need to interpret S and p(a, b) in the sense of our ﬁrst consist-
-ency proof and take p(a) = constant (a constant such as 0, or 1/2, or 1, or
+we only need to interpret S and p(a, b) in the sense of our ﬁrst consistency proof and take p(a) = constant (a constant such as 0, or 1/2, or 1, or
 2) in order to obtain an interpretation in which postulate AP fails.
 Thus we have shown that every single assertion made in our axiom
 system is independent. (To my knowledge, no proofs of
@@ -14019,43 +12369,13 @@ independence for axiom systems of probability have been published
 before. The reason, I suppose, is that the known systems—provided
 they are otherwise satisfactory—are not independent.)
 ab
-0
-1
-2
-3
+
+
 a¯
 p(a)
-0
-0
-0
-0
-0
-3
-0
-1
-0
-1
-0
-1
-2
-0
-2
-0
-0
-2
-2
-1
-1
-3
-0
-1
-2
-3
-0
-1
-new appendices
-348
 
+
+new appendices
 
 The redundancy of the usual systems is due to the fact that they all
 postulate, implicitly or explicitly, the validity of some or all of the rules
@@ -14066,13 +12386,11 @@ deﬁne Boolean equivalence, ‘a = b’, by the formula
 a = b if, and only if, p(a, c) = p(b, c) for every c in S.
 The question may be asked whether any axioms of our system
 become redundant if we postulate that ab is a Boolean product and a¯ a
-Boolean complement; that they both obey all the laws of Boolean alge-
-bra; and that (*) is valid. The answer is: none of the axioms (except
+Boolean complement; that they both obey all the laws of Boolean algebra; and that (*) is valid. The answer is: none of the axioms (except
 B1′) becomes redundant. (Only if we were to postulate, in addition, that
 any two elements for which Boolean equivalence can be proved may be
 substituted for each other in the second argument of the p-function, then one
-of our axioms would become redundant, i.e. our axiom of substitutiv-
-ity, A2, which serves precisely the same purpose as this additional
+of our axioms would become redundant, i.e. our axiom of substitutivity, A2, which serves precisely the same purpose as this additional
 postulate.) That our axioms remain non-redundant can be seen from
 the fact that their independence (except that of A2, of course, and B1′)
 can be proved with the help of examples that satisfy Boolean algebra. I
@@ -14084,39 +12402,29 @@ essentially, the same as the last one, but with the probabilities −1 and 2
 attached to the elements other than 0 or 1.)
 ab
 −1
-0
-1
-2
+
+
 a¯
 B1 (and A4′):
 −1
 −1
-0
+
 −1
-0
-2
+
+
 p(a) = a; p(a, 0) = 1;
 in all other cases,
-0
-0
-0
-0
-0
-1
+
+
 p(a, b) = p(ab)/p(b) = ab/b
 C: p(a, b) = 0 if ab = 0 ≠b;
-1
+
 −1
-0
-1
-2
-0
+
+
 in all other cases,
-2
-0
-0
-2
-2
+
+
 −1
 p(a, b) = 1.
 appendix *iv 349
@@ -14138,8 +12446,7 @@ using it in a sense slightly wider than his. I will discuss the diﬀerence
 between Kolmogorov’s treatment of the subject and mine in some
 detail because it seems to me illuminating.
 I ﬁrst deﬁne, in probabilistic terms, what I mean by saying that a is a
-super-element of b (and wider than, or equal to, b) or that b is a sub-
-element of a (and logically stronger than, or equal to, a). The deﬁnition
+super-element of b (and wider than, or equal to, b) or that b is a subelement of a (and logically stronger than, or equal to, a). The deﬁnition
 is as follows. (See also the end of appendix *v.)
 a is a super-element of b, or b is a sub-element of a—in symbols,
 a  b—if, and only if, p(a, x)  p(b, x) for every x in S.
@@ -14159,8 +12466,6 @@ an  an + 1 for every consecutive pair of members of A.
 We can now deﬁne the (Boolean, as opposed to set-theoretical)
 product element a of the inﬁnite sequence A = a1, a2, . . . , as the widest
 new appendices
-350
-
 
 among those elements of S which are sub-elements of every element an
 belonging to the sequence A; or in symbols:
@@ -14174,16 +12479,14 @@ that satisﬁes the condition p(an, y)  p(b, y) for all elements an and
 for every element y of S.
 In order to show the diﬀerence between our (Boolean) product
 element a of A and the set-theoretical (inner) product or meet of A, we
-will now conﬁne our discussion to examples S, satisfying our postu-
-lates 2 to 5, whose elements x, y, z, . . . are sets, such that xy is their
+will now conﬁne our discussion to examples S, satisfying our postulates 2 to 5, whose elements x, y, z, . . . are sets, such that xy is their
 set-theoretic product.
 Our main example S1 to which I shall refer as ‘the example of the
 missing half-interval’ is the following.
 S1 is a system of certain half-open sub-intervals of the universal
 interval u = (0, 1]. S1 contains, precisely, (a) the decreasing sequence A
 such that an = (0, 1
-2 + 2 −n], and in addition (b) the set-theoretic prod-
-ucts of any two of its elements and the set-theoretic complements of
+2 + 2 −n], and in addition (b) the set-theoretic products of any two of its elements and the set-theoretic complements of
 any one of its elements.
 Thus S1 does not contain the ‘half-interval’ h = (0, 1
 2], nor any
@@ -14201,29 +12504,23 @@ b1 = (0, 1
 product element of A in the (Boolean) sense of our deﬁnition,
 although none of them will be the set-theoretic product of A.
 One might think, for a moment, that owing to the presence of an
-empty element in every S, every S will contain, like S1, a product elem-
-ent (in the sense of our deﬁnition) of any A in S; for if it does not
+empty element in every S, every S will contain, like S1, a product element (in the sense of our deﬁnition) of any A in S; for if it does not
 contain any wider element satisfying (i), the empty element will
 appendix *iv 351
 
 
 always ﬁll the bill. That this is not so is shown by an example S2
-containing, in addition to the elements of S1, the elements (plus the set-
-theoretic products of any two elements and the set-theoretic comple-
-ment of any one element) of the sequence B = b1, b2, where bn =
+containing, in addition to the elements of S1, the elements (plus the settheoretic products of any two elements and the set-theoretic complement of any one element) of the sequence B = b1, b2, where bn =
 (0, (2n −1)/2n + 2]. It will be easily seen that, although each bn satisﬁes
-condition (i) for the product-element of A, none of them satisﬁes condi-
-tion (ii); so that in fact, there is no widest element in S2 that satisﬁes the
+condition (i) for the product-element of A, none of them satisﬁes condition (ii); so that in fact, there is no widest element in S2 that satisﬁes the
 condition (i) for the product-element of A.
 Thus S2 contains neither the set-theoretic product of A, nor a
 product-element in our (Boolean) sense. But S1, and all the systems
-obtained by adding to S1 a ﬁnite number of new intervals (plus prod-
-ucts and complements) will contain a product-element of A in our
+obtained by adding to S1 a ﬁnite number of new intervals (plus products and complements) will contain a product-element of A in our
 sense but not in the set-theoretic sense, unless, indeed, we add to S1 the
 missing half-interval h = (0, 1
 2].
-Remembering that the emptiness of an element a may be character-
-ized in our system by p(a¯, a) ≠0, we can now deﬁne an ‘admissible
+Remembering that the emptiness of an element a may be characterized in our system by p(a¯, a) ≠0, we can now deﬁne an ‘admissible
 system S’ and a ‘Borel ﬁeld of probabilities S’, as follows.
 (i)
 A system S that satisﬁes our postulates 2 to 4 is called an admissible
@@ -14236,8 +12533,7 @@ lim p(an, b) = p(a, b)
 12 I might have added here ‘and if p(ab, ab) ≠0, so that ab is empty’: this would have
 approximated my formulation still more closely to Kolmogorov’s. But this condition is
 not necessary. I wish to point out here that I have received considerable encouragement
-from reading A. Rényi’s most interesting paper ‘On a New Axiomatic Theory of Prob-
-ability’, Acta Mathematica Acad. Scient. Hungaricae 6, 1955, pp. 286–335. Although I had
+from reading A. Rényi’s most interesting paper ‘On a New Axiomatic Theory of Probability’, Acta Mathematica Acad. Scient. Hungaricae 6, 1955, pp. 286–335. Although I had
 realized for years that Kolmogorov’s system ought to be relativized, and although I had
 on several occasions pointed out some of the mathematical advantages of a relativized
 system, I only learned from Rényi’s paper how fertile this relativization could be. The
@@ -14246,8 +12542,6 @@ which, like Kolmogorov’s, is set-theoretical, and non-symmetrical; and it can 
 seen that these further generalizations may lead to considerable simpliﬁcations in the
 mathematical treatment.
 new appendices
-352
-
 
 (ii)
 An admissible system S is called a Borel ﬁeld of probabilities if, and only
@@ -14260,8 +12554,7 @@ probability.
 It can now be shown that whenever S is a Borel ﬁeld of probabilities in
 Kolmogorov’s sense, it is also one in the sense here deﬁned, with probability as a countably
 additive measure function of the sets which are the elements of S.
-The deﬁnitions of admissible systems and Borel ﬁelds of prob-
-abilities are framed in such a way that all systems S satisfying our
+The deﬁnitions of admissible systems and Borel ﬁelds of probabilities are framed in such a way that all systems S satisfying our
 postulates and containing only a ﬁnite number of diﬀerent elements
 are admissible systems and Borel ﬁelds; accordingly, our deﬁnitions are
 interesting only in connection with systems S containing an inﬁnite number
@@ -14274,32 +12567,28 @@ of it which is mentioned in footnote 12, with the help of the example
 of the missing half-interval, S1, given above. All we have to do is to
 deﬁne probability p(x) as equal to l(x), that is to say, the length of the
 interval x. Our ﬁrst deﬁnition, (i), is then violated since lim p(an) = 1
-2
+
 while for the product-element (in S) of A, p(a) = 0. Deﬁnition (ii) is
 violated by our example S2 (which vacuously satisﬁes the ﬁrst
 deﬁnition).
 While the ﬁrst of these examples establishes the independence or
-more precisely the non-redundancy of our ﬁrst deﬁnition—by violat-
-ing it—it does not, as it stands, establish the independence of
+more precisely the non-redundancy of our ﬁrst deﬁnition—by violating it—it does not, as it stands, establish the independence of
 Kolmogorov’s ‘axiom of continuity’ which is clearly satisﬁed by our
 example. For the missing half-interval, h = (0, 1
 2], whether in S or not, is
-the only set-theoretic product of A, so that a = h is true for the set-
-theorist, whether or not a is in S. And with a = h, we have
+the only set-theoretic product of A, so that a = h is true for the settheorist, whether or not a is in S. And with a = h, we have
 lim p(an) = p(a). Thus Kolmogorov’s axiom is satisﬁed (even if we omit
 the condition p(a¯, a) ≠0; cf. footnote 12).
 appendix *iv 353
 
 
 It should be mentioned, in this connection, that Kolmogorov fails,
-in his book, to oﬀer an independence proof for his ‘axiom of continu-
-ity’ although he claims independence for it. But it is possible to re-
-frame our proof of independence so that it becomes applicable to
+in his book, to oﬀer an independence proof for his ‘axiom of continuity’ although he claims independence for it. But it is possible to reframe our proof of independence so that it becomes applicable to
 Kolmogorov’s axiom and his set-theoretic approach. This may be
 done by choosing, instead of our S1 a system of intervals S3, exactly
 like S1 but based upon a sequence C = c1, c2, . . . , deﬁned by cn = (0,
 2 −n] rather than upon the sequence A = a1, a2, . . . , with an = (0,
-1
+
 2 + 2 −n]. We can now show the independence of Kolmogorov’s axiom
 by deﬁning the probabilities of the elements of the sequence A as
 follows:
@@ -14307,33 +12596,27 @@ p(cn) = l(cn) + 1
 2 = p(an)
 Here l(cn) is the length of the interval cn. This deﬁnition is highly
 counter-intuitive, since, for example, it assigns to both the intervals (0,
-1
+
 2] and (0, 1] the probability one, and therefore to the interval (1
 2, 1] the
 probability zero; and the fact that it violates Kolmogorov’s axiom
 (thereby establishing its independence) is closely connected with its
 counter-intuitive character. For it violates the axiom because lim
 p(cn) = 1
-2, even though p(c) = 0. Because of its counter-intuitive char-
-acter, the consistency of this example is far from self-evident; and so the
+2, even though p(c) = 0. Because of its counter-intuitive character, the consistency of this example is far from self-evident; and so the
 need arises to prove its consistency in order to establish the validity of
 this independence proof of Kolmogorov’s axiom.
-But this consistency proof is easy in view of our previous independ-
-ence proof—the proof of the independence of our own ﬁrst deﬁnition
+But this consistency proof is easy in view of our previous independence proof—the proof of the independence of our own ﬁrst deﬁnition
 with the help of the example S1. For the probabilities p(an) and p(cn) of
 the two examples S1 and S3 coincide. And since by correlating the two
 sequences, A and C, we may establish a one-one correspondence
 between the elements of S1 and S3, the consistency of S1 proves that of S3.
-It is clear that any example proving the independence of Kol-
-mogorov’s axiom must be equally counter-intuitive, so that its consist-
-ency will be in need of proof by some method similar to ours. In other
+It is clear that any example proving the independence of Kolmogorov’s axiom must be equally counter-intuitive, so that its consistency will be in need of proof by some method similar to ours. In other
 words, the proof of the independence of Kolmogorov’s axiom will
 have to utilize an example which is, essentially, based upon a
 (Boolean) deﬁnition of product such as ours, rather than upon the
 set-theoretic deﬁnition.
 new appendices
-354
-
 
 Although every Borel ﬁeld of probabilities in Kolmogorov’s sense is
 also one in our sense, the opposite is not the case. For we can construct
@@ -14370,8 +12653,7 @@ In this appendix I propose to give the most important derivations from
 the system of postulates which has been explained in appendix *iv. I
 am going to show how the laws of the upper and lower bounds, of
 idempotence, commutation, association, and distribution are obtained,
-as well as a simpler deﬁnition of absolute probability. I will also indi-
-cate how Boolean algebra is derivable in the system. A fuller treatment
+as well as a simpler deﬁnition of absolute probability. I will also indicate how Boolean algebra is derivable in the system. A fuller treatment
 will be given elsewhere.
 As an abbreviation for ‘if . . . then . . .’, I am going to use an arrow
 ‘. . . →. . .’; a double arrow ‘. . . ↔. . .’, for ‘ . . . if and only
@@ -14411,23 +12693,23 @@ B2, 1
 (6) k ≠p(a, b) →k = k + p(b¯, b)
 C, 1
 (7) k ≠p(a, b) →p(b¯, b) = 0
-6
+
 (8) p(ab¯, b) = p(a, b¯b)p(b¯, b)
 B2
 (9) k ≠p(a, b) →0 = p(ab¯, b)  p(a, b)
 7, 8, B1
 (10) k ≠p(a, b) →0  p(a, b)
-9
+
 (11) 0 > p(a, b) →k = p(a, b)
-10
+
 (12) k = p(a, b) →0  p(a, b)
-5
+
 (13) 0 > p(a, b) →0  p(a, b)
 11, 12
 (14) 0  p(a, b)
 13 (or 10, 12)
 (15) 0  p(a¯, b)
-14
+
 (16) k ≠p(a, b) →k  p(a, b)
 C, 1, 15
 (17) p(a, b)  k  1
@@ -14441,7 +12723,7 @@ C, 1, 15
 (21) k = p(aa, aa) = p(a, a(aa))p(a, aa) = k2
 1, B2, 19, 20
 (22) k = k2
-21
+
 (23) (Ea) (Eb) p(a, b) ≠0 →k = 1
 18, 22
 (24) (Ea) (Eb) p(a, b) ≠0
@@ -14470,12 +12752,12 @@ B2
 This is the law of idempotence, sometimes also called the ‘law of
 tautology’. We now turn to the derivation of the law of commutation.
 (31) p(a, bc)  1
-17
+
 (32) p(ab, c)  p(b, c)
 B2, 31, 14
 This is the second law of monotony, analogous to B1.
 (33) p(a(bc), a(bc)) = 1
-25
+
 (34) p(bc, a(bc)) = 1
 33, 32, 17
 (35) p(b, a(bc)) = 1
@@ -14500,8 +12782,6 @@ association.
 (42) p(a, d((ab)c)) = 1 = p(b, d((ab)c))
 41, B1, 17, 32
 new appendices
-358
-
 
 (43) p(a, (bc)((ab)c)) = 1
 42 (subst.)
@@ -14567,15 +12847,15 @@ C, which I am now going to generalize.
 In view of the fact that (64) is unconditional, and that ‘a’ does not
 occur on the right-hand side, we can substitute ‘c’ for ‘a’ and assert
 (65) p(a, b) + p(a¯, b) = p(c, b) + p(c¯, b)
-64
+
 (66) p(a, bd) + p(a¯, bd) = p(c, bd) + p(c¯, bd)
-65
+
 By multiplying with p(b, d) we get:
 (67) p(ab, d) + p(a¯b, d) = p(cb, d) + p(c¯b, d)
 B2, 66
 This is a generalization of (65). By substitution, we get:
 (68) p(ab, c) + p(a¯b, c) = p(cb, c) + p(c¯b, c).
-67
+
 In view of
 (69) p(c¯b, c) = p(c¯, c),
 7, B1, 25, 63
@@ -14587,17 +12867,15 @@ p(cb, c) = p(b, c),
 which may be called ‘(29′)’. Its derivation, in the presence of (40) and (32) is analogous
 to the steps (28) and (29):
 new appendices
-360
-
 
 This is the generalization of the unconditional form of C and of
 formula (64).
 (71) p(aa, b) + p(a¯a, b) = p(a, b) + p(b¯, b)
-70
+
 (72) p(a¯a, b) = p(aa¯, b) = p(b¯, b)
 40, 71, 30
 (73) p(a¯a, b) + p(a¯a, b) = p(aa¯, b) + p(aa¯, b) = 1 + p(b¯, b)
-64
+
 (74) p(a¯a, b) = 1 = p(aa¯, b)
 72, 73
 This establishes the fact that the elements aa¯ satisfy the condition of
@@ -14609,7 +12887,7 @@ We next derive the general law of addition.
 (76) p(ab¯, c) = p(a, c) −p(ab, c) + p(c¯, c)
 70, 40
 (77) p(a¯b¯, c) = p(a¯, c) −p(a¯b, c) + p(c¯, c)
-76
+
 (78) p(a¯b¯, c) = 1 −p(a, c) −p(b, c) + p(ab, c) + p(c¯, c)
 77, 76, 64, 40
 (79) p(a¯b¯, c) = p(a, c) + p(b, c) −p(ab, c)
@@ -14630,7 +12908,7 @@ B2, 25, 29′, 40
 Moreover, from (28) we obtain by substitution
 (31′)
 p(a, aa¯) = 1
-28
+
 and likewise from (28′)
 (32′)
 p(a¯, aa¯) = 1
@@ -14653,13 +12931,12 @@ appendix *v 361
 form: it is unconditional and free of the unusual ‘ + p(c¯, c)’. (79) can be
 further generalized:
 (80) p(b¯c¯, ad) = p(b, ad) + p(c, ad) −p(bc, ad)
-79
+
 (81) p(a b¯c¯, d) = p(ab, d) + p(ac, d) −p(a(bc), d)
 80, B2, 40
 This is a generalization of (79).
 We now proceed to the derivation of the law of distribution. It may
-be obtained from (79), (81), and a simple lemma (84) which I pro-
-pose to call the ‘distribution lemma’, and which is a generalization of
+be obtained from (79), (81), and a simple lemma (84) which I propose to call the ‘distribution lemma’, and which is a generalization of
 (30):
 (82) p(a(bc), d) = p(a, (bc)d)p(bc, d) = p((aa)(bc),d)
 B2, 30
@@ -14685,11 +12962,9 @@ It may be noted that
 (89) p(a¯¯b, c) = p(ab, c),
 68 (subst.)
 new appendices
-362
-
 
 (90) p(a, c) = p(b, c) →p(a¯, c) = p(b¯, c)
-64
+
 Consequently, we have
 (91) p(a¯ b¯ c¯, d) = p(a¯ b¯ c¯, d)
 62, 89, 40
@@ -14711,12 +12986,10 @@ obtain
 95, B2, 75
 This may also be written
 (97) p(b) ≠0 →p(a, b) = p(ab)/p(b)
-96
+
 This formula shows that our generalized concept of relative probability
 coincides, for p(b) ≠0, with the usual concept, and that our calculus is
-a generalization of the usual calculus. That the generalization is a genu-
-ine one can be seen from the examples, given in the preceding appen-
-dix *iv, showing the consistency of our system with the following
+a generalization of the usual calculus. That the generalization is a genuine one can be seen from the examples, given in the preceding appendix *iv, showing the consistency of our system with the following
 formula (E):
 (Ea)(Eb)(Ec) p(a, b) = 1 & p(a, bc) = 0
 (E)
@@ -14757,8 +13030,6 @@ A2, 90, 100
 We may also introduce a second deﬁnition
 (D2) a = b + c ↔a = b c¯
 new appendices
-364
-
 
 Then we obtain:
 (i)
@@ -14813,8 +13084,7 @@ p(a, aa¯) + p(a¯, aa¯) = 2,
 even though we have
 p(a + a¯, aa¯) = 1.
 That is to say, such formulae as p(a + a¯, b) = p(a, b) + p(a¯, b) must not be
-unconditionally asserted in the system. (Cf. our axiom C; see also foot-
-note 1, above.)
+unconditionally asserted in the system. (Cf. our axiom C; see also footnote 1, above.)
 The converse of (+), that is to say,
 p(a, b) = 1 →a  b
 must not be demonstrable, of course, as our second and third examples
@@ -14826,8 +13096,7 @@ a  b ↔p(a, a¯b) ≠0
 a  b ↔p(a, a¯b) = 1
 None of these can hold in the usual systems in which p(a, b) is
 undeﬁned unless p(b) ≠0. It seems to be quite clear, therefore, that the
-usual systems of probability theory are wrongly described as general-
-izations of logic: they are formally inadequate for this purpose, since
+usual systems of probability theory are wrongly described as generalizations of logic: they are formally inadequate for this purpose, since
 they do not even entail Boolean algebra.
 The formal character of our system makes it possible to interpret it,
 for example, as a many-valued propositional logic (with as many
@@ -14837,8 +13106,6 @@ example, we may deﬁne ‘a necessarily implies b’ by ‘p(b, ab¯) ≠0’, 
 indicated, or ‘a is logically necessary’ by ‘p(a, a¯) = 1’. Even the problem
 4 See formulae 31′ ﬀ. in footnote 1, above
 new appendices
-366
-
 
 whether a necessary statement is necessarily necessary ﬁnds a natural
 place in probability theory: it is closely connected with the relation
@@ -14875,15 +13142,12 @@ appendix *v 367
 
 the other axioms and Postulate AP (see note 10 on p. 345).—The
 example on p. 348 can be modiﬁed (putting p(2) = 1
-2, p(a, b) = 1 when-
-ever p(b) = 0, p(a, b) = p(ab)/p(b) whenever p(b) ≠0) so as to obtain a
+2, p(a, b) = 1 whenever p(b) = 0, p(a, b) = p(ab)/p(b) whenever p(b) ≠0) so as to obtain a
 Boolean Algebra proving the independence of C.
 See also my Conjectures and Refutations, 1963, pp. 388ﬀ.; the third and
 later German editions of my Logik der Forschung; and Synthese 15, 1963, pp.
 107–186, and 21, 1970, p. 107.
 new appendices
-368
-
 
 APPENDIX *vi
 On Objective Disorder
@@ -14894,9 +13158,7 @@ objective characterization of disorder or randomness, as a type of order.
 In this appendix, I intend to indicate brieﬂy some of the general
 problems this characterization may help to solve, and the way in which
 they may be approached.
-(1) The distribution of velocities of the molecules of a gas in equi-
-librium is supposed to be (very nearly) random. Similarly, the distribu-
-tion of nebulae in the universe appears to be random, with a constant
+(1) The distribution of velocities of the molecules of a gas in equilibrium is supposed to be (very nearly) random. Similarly, the distribution of nebulae in the universe appears to be random, with a constant
 over-all density of occurrence. The occurrence of rain on Sundays is
 random: in the long run, each day of the week gets equal amounts of
 rain, and the fact that there was rain on Wednesday (or any other day)
@@ -14906,8 +13168,7 @@ may not help us to predict whether or not there will be rain on Sunday.
 is not, as we shall see, a helpful description. For there are no tests for
 presence or absence of regularity in general, only tests for presence or
 absence of some given or proposed speciﬁc regularity. Thus our tests
-of randomness are never tests which exclude the presence of all regu-
-larity: we may test whether or not there is a signiﬁcant correlation
+of randomness are never tests which exclude the presence of all regularity: we may test whether or not there is a signiﬁcant correlation
 
 
 between rain and Sundays, or whether a certain given formula for
@@ -14915,29 +13176,24 @@ predicting rain on Sundays works, such as ‘at least once in three weeks’;
 but though we may reject this formula in view of our tests, we cannot
 determine, by our tests, whether or not there exists some better
 formula.
-(4) Under these circumstances, it seems tempting to say that ran-
-domness or disorder is not a type of order which can be described
+(4) Under these circumstances, it seems tempting to say that randomness or disorder is not a type of order which can be described
 objectively and that it must be interpreted as our lack of knowledge as to
-the order prevailing, if any order prevails. I think that this tempta-
-tion should be resisted, and that we can develop a theory which
+the order prevailing, if any order prevails. I think that this temptation should be resisted, and that we can develop a theory which
 allows us actually to construct ideal types of disorder (and of course
 also ideal types of order, and of all degrees in between these
 extremes).
 (5) The simplest problem in this ﬁeld, and the one which, I believe,
 I have solved, is the construction of a one-dimensional ideal type of disorder—
 an ideally disordered sequence.
-The problem of constructing a sequence of this kind arises immedi-
-ately from any frequency theory of probability which operates with
+The problem of constructing a sequence of this kind arises immediately from any frequency theory of probability which operates with
 inﬁnite sequences. This may be shown as follows.
-(6) According to von Mises, a sequence of 0’s and 1’s with equi-
-distribution is random if it admits of no gambling system, that is to say, of
+(6) According to von Mises, a sequence of 0’s and 1’s with equidistribution is random if it admits of no gambling system, that is to say, of
 no system which would allow us to select in advance a sub-sequence in
 which the distribution is unequal. But of course, von Mises admits that
 any gambling system may, ‘accidentally’, work for some time; it is only
 postulated that it will break down in the long run—or more precisely, in
 an inﬁnite number of trials.
-Accordingly, a Mises collective may be extremely regular in its com-
-mencing segment: provided they become irregular in the end, von Mises’s
+Accordingly, a Mises collective may be extremely regular in its commencing segment: provided they become irregular in the end, von Mises’s
 rule is incapable of excluding collectives which start oﬀ very regularly,
 say with
 00 11 00 11 00 11 . . .
@@ -14946,8 +13202,6 @@ and so on, for the ﬁrst ﬁve hundred million places.
 randomness; and it is clear that whenever we do test randomness in a
 sequence, we have a diﬀerent type of randomness in mind: a sequence
 new appendices
-370
-
 
 which from the very beginning behaves in a ‘reasonably random-like’
 fashion.
@@ -14959,11 +13213,9 @@ before: it seems that we retract the phrase ‘from the very beginning’.
 (8) The solution of this diﬃculty is the construction of an ideally
 random sequence—one which for each beginning segment, whether short
 or long, is as random as the length of the segment permits; or in other
-words, a sequence whose degree n of randomness (that is, its n-
-freedom from after-eﬀects) grows with the length of the sequence as
+words, a sequence whose degree n of randomness (that is, its nfreedom from after-eﬀects) grows with the length of the sequence as
 quickly as is mathematically possible.
-How to construct a sequence of this kind has been shown in appen-
-dix iv of the book. (See especially note *1 to appendix iv, with a
+How to construct a sequence of this kind has been shown in appendix iv of the book. (See especially note *1 to appendix iv, with a
 reference to an as yet unpublished paper by Dr. L. R. B. Elton and
 myself.)
 (9) The inﬁnite set of all sequences answering this description may
@@ -14976,15 +13228,13 @@ theories. This solves in a simple manner one of the central problems of
 my chapter on probability—elimination of the limit axiom, by way of
 a reduction of the limit-like behaviour of the sequences to their
 random-like behaviour in ﬁnite segments.
-(11) The construction may quite easily be extended into both direc-
-tions of the one-dimensional case, by correlating the ﬁrst, second, . . .
+(11) The construction may quite easily be extended into both directions of the one-dimensional case, by correlating the ﬁrst, second, . . .
 of the odd numbered elements with the ﬁrst, second, . . . place of the
 positive direction, and the ﬁrst, second, . . . of the even numbered
 elements with the ﬁrst, second, . . . place of the negative direction; and
 by similar well-known methods, we can extend our construction to the
 cells of an n-dimensional space.
-(12) While other frequency theorists—especially von Mises, Cope-
-land, Wald, and Church—were mainly interested in deﬁning random
+(12) While other frequency theorists—especially von Mises, Copeland, Wald, and Church—were mainly interested in deﬁning random
 sequences in the most severe way by excluding ‘all’ gambling systems
 appendix *vi 371
 
@@ -14992,16 +13242,14 @@ appendix *vi 371
 in the widest possible sense of the word ‘all’ (that is, in the widest
 sense compatible with a proof that random sequences so deﬁned exist),
 my aim has been quite diﬀerent. I wished from the beginning to
-answer the objection that randomness is compatible with any ﬁnite com-
-mencing segment; and I wished to describe sequences that arise from
+answer the objection that randomness is compatible with any ﬁnite commencing segment; and I wished to describe sequences that arise from
 random-like ﬁnite sequences, by a transition to inﬁnity. I hoped by this
 method to achieve two things: to keep close to that type of sequence
 which would pass statistical tests of randomness, and to prove the limit
 theorem. Both have been done now, as here indicated under point (8),
 with the help of the construction given in my old appendix iv. But I
 have meanwhile found that the ‘measure-theoretical approach’ to
-probability is preferable to the frequency interpretation (see my Post-
-script, chapter *iii), both for mathematical and philosophical reasons.
+probability is preferable to the frequency interpretation (see my Postscript, chapter *iii), both for mathematical and philosophical reasons.
 (The decisive point is connected with the propensity interpretation of
 probability, fully discussed in my Postscript.) I therefore do not think any
 longer that the elimination of the limit axiom from the frequency
@@ -15025,8 +13273,6 @@ we can construct models of random sequences.
 (14) It is signiﬁcant that ideally random sequences, as described here
 under (8) to (10), satisfy the formal system of appendices *iv and *v,
 new appendices
-372
-
 
 and also of the older appendix *ii. For let S be any set of random
 sequences of 0’s and 1’s, such that a = a1, a2, . . . ; b = b1, b2, . . . , and
@@ -15045,8 +13291,7 @@ APPENDIX *vii
 Zero Probability and the
 Fine-Structure of Probability
 and of Content
-In the book, a sharp distinction is made between the idea of the prob-
-ability of a hypothesis, and its degree of corroboration. It is asserted that if we
+In the book, a sharp distinction is made between the idea of the probability of a hypothesis, and its degree of corroboration. It is asserted that if we
 say of a hypothesis that it is well corroborated, we do not say more than
 that it has been severely tested (it must be thus a hypothesis with a high
 degree of testability) and that it has stood up well to the severest tests
@@ -15070,8 +13315,7 @@ Reichenbach’s, Keynes’s and Kaila’s. One result of this discussion is
 that in an inﬁnite universe (it may be inﬁnite with respect to the number of
 distinguishable things, or of spatio-temporal regions), the probability of
 any (non-tautological) universal law will be zero.
-(Another result was that we must not uncritically assume that scien-
-tists ever aim at a high degree of probability for their theories. They
+(Another result was that we must not uncritically assume that scientists ever aim at a high degree of probability for their theories. They
 have to choose between high probability and high informative content,
 since for logical reasons they cannot have both; and faced with this choice, they
 have so far always chosen high informative content in preference to
@@ -15089,8 +13333,7 @@ p(a, b) = 0
 (2)
 These formulae will be discussed in the present appendix.
 The two formulae, (1) and (2), are equivalent. For as Jeﬀreys and
-Keynes observed, if the ‘prior’ probability (the absolute logical prob-
-ability) of a statement a is zero, then so must be its probability relative
+Keynes observed, if the ‘prior’ probability (the absolute logical probability) of a statement a is zero, then so must be its probability relative
 to any ﬁnite evidence b, since we may assume that for any ﬁnite
 evidence b, we have p(b) ≠0. For p(a) = 0 entails p(ab) = 0, and since
 p(a, b) = p(ab)/p(b), we obtain (2) from (1). On the other hand, we
@@ -15128,8 +13371,7 @@ singular statements, a1a2 . . . an, so that a may be written
 1 ‘x’ is here an individual variable ranging over the (inﬁnite) universe of discourse. We
 may choose; for example, a = ‘All swans are white’ = ‘for whatever value of x we may
 choose, x has the property A’ where ‘A’ is deﬁned as ‘being white or not being a swan’.
-We may also express this slightly diﬀerently, by assuming that x ranges over the spatio-
-temporal regions of the universe, and that ‘A’ is deﬁned by ‘not inhabited by a non-white
+We may also express this slightly diﬀerently, by assuming that x ranges over the spatiotemporal regions of the universe, and that ‘A’ is deﬁned by ‘not inhabited by a non-white
 swan’. Even laws of more complex form—say of a form like ‘(x)(y)(xRy →xSy)’ may be
 written ‘(x)Ax’, since we may deﬁne ‘A’ by
 Ax ↔(y)(xRy →xSy).
@@ -15140,8 +13382,6 @@ non-observational (cf. notes *1 and *2 to the ‘Third Note’, reprinted in app
 although, of course, deductively testable. But in this case, our considerations remain valid
 a fortiori.
 new appendices
-376
-
 
 a = lim
 n →∞
@@ -15199,8 +13439,7 @@ universe.
 Thus (4) establishes (1).
 Although I believe that this argument (including the assumption of
 independence to be discussed below) is incontestable, there are a
-number of much weaker arguments which do not assume independ-
-ence and which still lead to (1). For example we might argue as
+number of much weaker arguments which do not assume independence and which still lead to (1). For example we might argue as
 follows.
 It was assumed in our derivation that for every ki, it is logically
 possible that it has the property A, and alternatively, that it has the
@@ -15208,8 +13447,7 @@ property non-A: this leads essentially to (4). But one might also
 assume, perhaps, that what we have to consider as our fundamental
 possibilities are not the possible properties of every individual in the
 universe of n individuals, but rather the possible proportions with
-which the properties A and non-A may occur within a sample of indi-
-viduals. In a sample of n individuals, the possible proportions with
+which the properties A and non-A may occur within a sample of individuals. In a sample of n individuals, the possible proportions with
 which A may occur are: 0, 1/n, . . . , n/n. If we consider the occurrences
 of any of these proportions as our fundamental possibilities, and thus
 treat them as equi-probable (‘Laplace’s distribution’2), then (4) would
@@ -15222,8 +13460,6 @@ one of mere sampling; it seems inadequate if we are concerned (as was Laplace) w
 succession of individual events. See also appendix *ix, points 7 ﬀ. of my ‘Third Note’; and
 note 10 to appendix *viii.
 new appendices
-378
-
 
 Although from the point of view of a derivation of (1), formula
 (5) is much weaker than (4c), it still allows us to derive (1)—and it
@@ -15247,16 +13483,13 @@ this case, the problem becomes one of dependence or independence of
 statements.
 If we again regard a as the logical product of the singular statements
 a1a2, . . . , then the only reasonable assumption seems to be that, in the
-absence of any (other than tautological) information, we must con-
-sider all these singular statements as mutually independent of one another,
+absence of any (other than tautological) information, we must consider all these singular statements as mutually independent of one another,
 so that ai may be followed by aj or by its negation, a¯j, with the
 probabilities
 p(aj, ai) = p(aj)
 p(a¯j, ai) = p(a¯j) = 1 −p(aj).
 Every other assumption would amount to postulating ad hoc a kind
-of after-eﬀect; or in other words, to postulating that there is some-
-thing like a causal connection between ai and aj. But this would obvi-
-ously be a non-logical, a synthetic assumption, to be formulated as a
+of after-eﬀect; or in other words, to postulating that there is something like a causal connection between ai and aj. But this would obviously be a non-logical, a synthetic assumption, to be formulated as a
 hypothesis. It thus cannot form part of purely logical theory of
 probability.
 appendix *vii 379
@@ -15270,8 +13503,7 @@ For h may inform us of the existence of a kind of after-eﬀect.
 Consequently, we should then have
 p(aiaj, h) > p(ai, h)p(aj, h),
 (7)
-since (7) is equivalent to (6). But in the absence of h, or if h is tau-
-tologous or, in other words, if we are concerned with absolute logical
+since (7) is equivalent to (6). But in the absence of h, or if h is tautologous or, in other words, if we are concerned with absolute logical
 probabilities, (7) must be replaced by
 p(aiaj) = p(ai)p(aj)
 (8)
@@ -15286,18 +13518,13 @@ authors have, directly or indirectly, rejected (8). The argument has
 been, invariably, that (8) must be false because if it were true, we could
 not learn from experience: empirical knowledge would be impossible. But
 this is incorrect: we may learn from experience even though p(a) =
-p(a, b) = 0; for example, C(a, b)—that is to say, the degree of corrobora-
-tion of a by the tests b—may none the less increase with new tests. (Cf.
+p(a, b) = 0; for example, C(a, b)—that is to say, the degree of corroboration of a by the tests b—may none the less increase with new tests. (Cf.
 appendix *ix). Thus this ‘transcendental’ argument fails to hit its target;
 at any rate, it does not hit my theory.3
 3 An argument which appeals to the fact that we possess knowledge or that we can learn
 from experience, and which concludes from this fact that knowledge or learning from
-experience must be possible, and further, that every theory which entails the impossibil-
-ity of knowledge, or of learning from experience, must be false, may be called a ‘tran-
-scendental argument’. (This is an allusion to Kant.) I believe that a transcendental
+experience must be possible, and further, that every theory which entails the impossibility of knowledge, or of learning from experience, must be false, may be called a ‘transcendental argument’. (This is an allusion to Kant.) I believe that a transcendental
 new appendices
-380
-
 
 But let us now consider the view that (8) is false, or in other words,
 that
@@ -15342,11 +13569,9 @@ Hume points out that we get involved in an inﬁnite regress if we appeal
 to experience in order to justify any conclusion concerning unobserved
 instances—even mere probable conclusions, as he adds in his Abstract. For there
 we read: ‘It is evident that Adam, with all his science, would never have
-been able to demonstrate that the course of nature must continue uni-
-formly the same. . . . Nay, I will go farther, and assert that he could not
+been able to demonstrate that the course of nature must continue uniformly the same. . . . Nay, I will go farther, and assert that he could not
 so much as prove by any probable arguments that the future must be
-conformable to the past. All probable arguments are built on the sup-
-position that there is conformity betwixt the future and the past, and
+conformable to the past. All probable arguments are built on the supposition that there is conformity betwixt the future and the past, and
 therefore can never prove it.’6 Thus ( + ) is not justiﬁable by experience;
 yet in order to be logically valid, it would have to be of the character of
 a tautology, valid in every logically possible universe. But this is clearly
@@ -15369,13 +13594,10 @@ dependence measure) must be ﬁnite entails our ( +); cf. his Continuum of Induc
 1952. Nevertheless, Carnap accepts p(a) = 0, which according to Jeﬀreys would entail the
 impossibility of learning from experience. And yet, Carnap bases his demand that his
 ‘lambda’ must be ﬁnite, and thus that ( +) is valid, on precisely the same transcendental
-argument to which Jeﬀreys appeals—that without it, we could not learn from experi-
-ence. See his Logical Foundations of Probability, 1950, p. 565, and my contribution to the
+argument to which Jeﬀreys appeals—that without it, we could not learn from experience. See his Logical Foundations of Probability, 1950, p. 565, and my contribution to the
 Carnap volume of the Library of Living Philosophers, ed. by P. A. Schilpp, especially note 87.
 This is now also in my Conjectures and Refutations, 1963.
 new appendices
-382
-
 
 favour, more probable than its negation. But this is only possible if (1)
 is false, that is to say, if we have p(a) > 0.
@@ -15408,8 +13630,7 @@ argument can easily be restated without omitting Jeﬀreys’s H.
 demand the bi to be of the form ‘B(ki)’, with a common predicate ‘B’, and therefore
 nothing to prevent our assuming that bi = ‘ki is heads’ and bj = ‘kj is tails’. Nevertheless, we
 can construct a predicate ‘B’ so that every bi has the form ‘B(ki)’: we may deﬁne B as
-‘having the property heads, or tails, respectively, if and only if the corresponding elem-
-ent of the sequence determined by the mathematical law a is 0, or is 1, respectively’. (It
+‘having the property heads, or tails, respectively, if and only if the corresponding element of the sequence determined by the mathematical law a is 0, or is 1, respectively’. (It
 may be noted that a predicate like this can be deﬁned only with respect to a universe of
 individuals which are ordered, or which may be ordered; but this is of course the only case
 that is of interest if we have in mind applications to problems of science. Cf. my Preface,
@@ -15435,8 +13656,7 @@ but lead to incompatible probabilistic predictions with respect to the
 next thing. These predicates may not occur in ordinary languages, but
 they can always be constructed. (Strangely enough, the magical belief
 here criticized is to be found among those who construct artiﬁcial
-model languages, rather than among the analysts of ordinary lan-
-guage.) By thus criticizing ( + ) I am defending, of course, the principle
+model languages, rather than among the analysts of ordinary language.) By thus criticizing ( + ) I am defending, of course, the principle
 of the (absolute logical) independence of the various an from any combination
 aiaj . . . ; that is to say, my criticism amounts to a defence of (4) and (1).
 There are further proofs of (1). One of them which is fundamentally
@@ -15454,8 +13674,6 @@ zero—unless, indeed, we can order the possible laws in an inﬁnite
 in case (3).
 11 Philos. Magazine 42, 1921, pp. 369 ﬀ.
 new appendices
-384
-
 
 sequence, so that we can attribute to each a positive probability in such
 a way that their sum converges and does not exceed unity. And it
@@ -15484,8 +13702,7 @@ universe.12 On a much extended chessboard, little discs or draught
 pieces are placed by somebody according to the following rule: there is
 a mathematically deﬁned function, or curve, known to him but not to
 us, and the discs may be placed only in squares which lie on the curve;
-within the limits determined by this rule, they may be placed at ran-
-dom. Our task is to observe the placing of the discs, and to ﬁnd an
+within the limits determined by this rule, they may be placed at random. Our task is to observe the placing of the discs, and to ﬁnd an
 ‘explanatory theory’, that is to say, the unknown mathematical curve, if
 possible, or one very close to it. Clearly, there will be an inﬁnity of
 possible solutions any two of which are incompatible, although some
@@ -15498,8 +13715,7 @@ appendix *vii 385
 
 ‘universe’—that of possible positions—may here be chosen to be a
 ﬁnite one, there will be nevertheless an inﬁnity of mathematically
-incompatible explanatory theories. I am aware, of course, that instru-
-mentalists or operationalists might say that the diﬀerences between any
+incompatible explanatory theories. I am aware, of course, that instrumentalists or operationalists might say that the diﬀerences between any
 two theories determining the same squares would be ‘meaningless’.
 But apart from the fact that this example does not form part of my argument—so
 that I need really not reply to this objection—the following should be
@@ -15533,8 +13749,6 @@ is a very good approximation. (Thus a1 may be Newton’s dynamics and
 a2 may be Kepler’s laws which do not follow from Newton’s theory,
 but merely ‘follow with good approximation’; see also section *15 of
 new appendices
-386
-
 
 my Postscript.) Here too, Newton’s theory is better testable, because its
 content is greater.13
@@ -15543,8 +13757,7 @@ testability cannot be expressed immediately in terms of the absolute
 logical probability of the theories a1 and a2, since p(a1) = p(a2) = 0. And
 if we deﬁne a measure of content, C(a), by C(a) = 1 −p(a), as suggested
 in the book, then we obtain, again, C(a1) = C(a2), so that the diﬀerences
-in content which interest us here remain unexpressed by these meas-
-ures. (Similarly, the diﬀerence between a self-contradictory statement
+in content which interest us here remain unexpressed by these measures. (Similarly, the diﬀerence between a self-contradictory statement
 aa¯ and a universal theory a remains unexpressed since p(aa¯) = p(a) = 0,
 and C(aa¯) = C(a) = 1.14)
 13 Whatever C. G. Hempel may mean by ‘conﬁrming evidence’ of a theory, he clearly
@@ -15554,13 +13767,11 @@ and 97 ﬀ.; 55, 1946, pp. 79 ﬀ.), he states (Mind 54, pp. 102 ﬀ.) among his
 for adequacy the following condition (8.3): if e is conﬁrming evidence of several
 hypotheses, say h1 and h2, then h1 and h2 and e must form a consistent set of statements.
 But the most typical and interesting cases tell against this. Let h1 and h2 be Einstein’s
-and Newton’s theories of gravitation. They lead to incompatible results for strong gravi-
-tational ﬁelds and fast moving bodies, and therefore contradict each other. And yet, all
+and Newton’s theories of gravitation. They lead to incompatible results for strong gravitational ﬁelds and fast moving bodies, and therefore contradict each other. And yet, all
 the known evidence supporting Newton’s theory is also evidence supporting Einstein’s,
 and corroborates both. The situation is very similar for Newton’s and Kepler’s theories,
 or Newton’s and Galileo’s. (Also, any unsuccessful attempt to ﬁnd a red or yellow swan
-corroborates both the following two theories which contradict each other in the pres-
-ence of the statement ‘there exists at least one swan’: (i) ‘All swans are white’ and (ii) ‘All
+corroborates both the following two theories which contradict each other in the presence of the statement ‘there exists at least one swan’: (i) ‘All swans are white’ and (ii) ‘All
 swans are black’.)
 Quite generally, let there be a hypothesis h, corroborated by the result e of severe tests,
 and let h1, and h2 be two incompatible theories each of which entails h. (h1 may be ah, and
@@ -15590,11 +13801,9 @@ Thus we should have
 p(a1, a2) < p(a2, a1)
 which would be an indication of the greater content of a1.
 The fact that there are these diﬀerences in content and in absolute
-logical probability which cannot be expressed immediately by the cor-
-responding measures may be expressed by saying that there is a ‘ﬁne
+logical probability which cannot be expressed immediately by the corresponding measures may be expressed by saying that there is a ‘ﬁne
 structure’ of content, and of logical probability, which may allow us to
-diﬀerentiate between greater and smaller contents and absolute prob-
-abilities even in cases where the measures C(a) and p(a) are too coarse,
+diﬀerentiate between greater and smaller contents and absolute probabilities even in cases where the measures C(a) and p(a) are too coarse,
 and insensitive to the diﬀerences; that is, in cases where they yield
 equality. In order to express this ﬁne structure, we may use the symbols
 ‘
@@ -15612,36 +13821,32 @@ tends to zero when n tends to inﬁnity; which means that the probability of dra
 marked with a divisible number becomes 1, for n →∞, even though there is an inﬁnite
 number of balls with non-divisible numbers in the urn. This result must be the same in
 any adequate theory of probability. One must not, therefore, single out a particular theory
-of probability, such as the frequency theory, and criticize it as ‘at least mildly para-
-doxical’ because it yields this perfectly correct result. (A criticism of this kind will be
+of probability, such as the frequency theory, and criticize it as ‘at least mildly paradoxical’ because it yields this perfectly correct result. (A criticism of this kind will be
 found in W. Kneale’s Probability and Induction, 1949, p. 156). In view of our last ‘problem of
 probability theory’—that of drawing numbered balls—Jeﬀrey’s attack on those who
-speak of the ‘probability distribution of prime numbers’ seems to me equally unwar-
-ranted. (Cf. Theory of Probability, 2nd edition, p. 38, footnote.)
+speak of the ‘probability distribution of prime numbers’ seems to me equally unwarranted. (Cf. Theory of Probability, 2nd edition, p. 38, footnote.)
 new appendices
-388
-
 
 and ‘
 ’.) The use of these symbols can be explained by the following
 rules:
-(1) ‘C(a) 
- C(b)’ and thus its equivalent ‘p(b) 
+(1) ‘C(a)
+ C(b)’ and thus its equivalent ‘p(b)
  p(a)’ may be used
 to state that the content of a is greater than that of b—at least in the sense
-of the ﬁne structure of content. We shall thus assume that C(a) 
+of the ﬁne structure of content. We shall thus assume that C(a)
  C(b)
-entails C(a) 
+entails C(a)
  C(b), and that this in turn entails C(a)  C(b), that is to
 say, the falsity of C(a) < C(b). None of the opposite entailments hold.
-(2) C(a) 
- C(b) and C(a) 
+(2) C(a)
+ C(b) and C(a)
  C(b) together entail C(a) = C(b), but
-C(a) = C(b) is compatible with C(a) 
- C(b), or with C(a) 
+C(a) = C(b) is compatible with C(a)
+ C(b), or with C(a)
  C(b) and,
-of course, also with C(a) 
- C(b) and with C(a) 
+of course, also with C(a)
+ C(b) and with C(a)
  C(b).
 (3) C(a) > C(b) always entails C(a)  C(b).
 (4) Corresponding rules will hold for p(a)  p(b), etc.
@@ -15651,22 +13856,20 @@ of cases are fairly clear; for example, unilateral entailment of b by a.
 More generally, I suggest the following rule:
 If for all suﬃciently large ﬁnite universes (that is, for all universes
 with more than N members, for some suﬃciently large N), we have
-C(a) > C(b), and thus, in accordance with rule (3), C(a) 
+C(a) > C(b), and thus, in accordance with rule (3), C(a)
  C(b), we
-retain C(a) 
+retain C(a)
  C(b) for an inﬁnite universe even if, for an inﬁnite
 universe, we obtain C(a) = C(b).
 This rule seems to cover most cases of interest, although perhaps not
 all.15
 The problem of a1 = ‘All planets move in circles’ and a2 = ‘All planets
 move in ellipses’ is clearly covered by our rule, and so is even the case
-of comparing a1 and a3 = ‘All planets move in ellipses with an eccen-
-tricity other than zero’; for p(a3) > p(a1) will hold in all suﬃciently
+of comparing a1 and a3 = ‘All planets move in ellipses with an eccentricity other than zero’; for p(a3) > p(a1) will hold in all suﬃciently
 large ﬁnite universes (of possible observations, say) in the simple sense
 that there are more possibilities compatible with a3 than with a1.
 *
-15 Related problems are discussed in considerable detail in John Kemeny’s very stimulat-
-ing paper ‘A Logical Measure Function’, Journal of Symb. Logic 18, 1953, pp. 289 ﬀ.
+15 Related problems are discussed in considerable detail in John Kemeny’s very stimulating paper ‘A Logical Measure Function’, Journal of Symb. Logic 18, 1953, pp. 289 ﬀ.
 Kemeny’s model language is the second of three to which I allude on p. xxiv of my
 Preface, 1958. It is, in my opinion, by far the most interesting of the three. Yet as he
 shows on p. 294, his language is such that inﬁnitistic theorems—such as the principle
@@ -15678,7 +13881,7 @@ appendix *vii 389
 The ﬁne-structure of content and of probability here discussed not
 only aﬀects the limits, 0 and 1, of the probability interval, but it aﬀects
 in principle all probabilities between 0 and 1. For let a1 and a2 be
-universal laws with p(a2) = 0 and p(a1) 
+universal laws with p(a2) = 0 and p(a1)
  p(a2), as before; let b be not
 entailed by either a1 or a2 or their negations; and let 0 < p(b) = r < 1.
 Then we have
@@ -15698,15 +13901,12 @@ simplicity or the dimension of a theory. This problem will be further discussed
 in the next appendix.
 Addendum, 1972
 In the last paragraph of the preceding Appendix, I hinted that the idea
-of a ﬁne-structure of probability may be of signiﬁcance for the com-
-parison of the simplicity and dimension of theories. But the opposite
+of a ﬁne-structure of probability may be of signiﬁcance for the comparison of the simplicity and dimension of theories. But the opposite
 also holds. The simplicity and especially the dimension of a theory are
 signiﬁcant for the theory of its ﬁne-structure, as emerges from the ﬁrst
 pages of the following Appendix.
 The dimension of a theory is relative to a ﬁeld of application and
 new appendices
-390
-
 
 thus to a set of problems for which the theory oﬀers some solution. (The
 same relativization will be relevant to the ﬁne-structure of theories, and
@@ -15717,8 +13917,7 @@ appendix *vii 391
 APPENDIX *viii
 Content, Simplicity, and Dimension
 As indicated earlier,1 I do not believe in hampering scientiﬁc language
-by preventing the scientist from using freely, whenever it is conveni-
-ent, new ideas, predicates, ‘occult’ concepts, or anything else. For this
+by preventing the scientist from using freely, whenever it is convenient, new ideas, predicates, ‘occult’ concepts, or anything else. For this
 reason, I cannot support the various recent attempts to introduce into
 the philosophy of science the method of artiﬁcial calculi or ‘language
 systems’—systems supposed to be models of a simpliﬁed ‘language of
@@ -15738,11 +13937,8 @@ testable, and thus the one with the greater content. (In brief, the
 Preface, 1958.
 
 
-smaller the number of atomic statements needed to compose a poten-
-tial falsiﬁer, the greater the content of the theory.)
-But I do not want to operate either with the ﬁction of atomic state-
-ments, or with an artiﬁcial language system in which atomic state-
-ments are available to us. For it seems to me quite clear that there are no
+smaller the number of atomic statements needed to compose a potential falsiﬁer, the greater the content of the theory.)
+But I do not want to operate either with the ﬁction of atomic statements, or with an artiﬁcial language system in which atomic statements are available to us. For it seems to me quite clear that there are no
 ‘natural’ atomic predicates available in science. To some older logicians,
 the predicates ‘man’ and ‘mortal’ seem to have presented themselves as
 examples of something like atomic predicates. Carnap uses ‘blue’ or
@@ -15755,8 +13951,7 @@ consideration, not only ‘man’ and ‘mortal’ but also ‘blue’ or ‘war
 may be treated as highly complex; ‘blue’, say, as the colour of the sky,
 explicable in terms of atomic theory. Even the phenomenal term ‘blue’
 may be treated, in certain contexts, as deﬁnable—as a character of
-visual images correlated with certain physiological stimuli. It is charac-
-teristic of scientiﬁc discussion that it proceeds freely; and the attempt
+visual images correlated with certain physiological stimuli. It is characteristic of scientiﬁc discussion that it proceeds freely; and the attempt
 to take away its freedom, by tying it down upon the Procrustean bed of
 a pre-established language system would, if successful, be the end of
 science.
@@ -15784,8 +13979,7 @@ position with a pin whose length represents the time, measured from
 some assumed zero instant; and variations in the colour of the pinhead
 may be used to indicate the names of the various planets.)
 It has been explained, mainly in sections 40 to 46, and in my old
-appendix i, how the minimum number of the relative-atomic state-
-ments needed to refute a certain theory could be used as a measure of
+appendix i, how the minimum number of the relative-atomic statements needed to refute a certain theory could be used as a measure of
 the complexity of the theory. And it was shown that the formal simplicity
 of a theory might be measured by the paucity of its parameters, in so far as
 this paucity was not the result of a ‘formal’ rather than a ‘material’
@@ -15801,22 +13995,16 @@ as measuring the ﬁne-structure of its content.
 What I have to show, to this end, is that for a suﬃciently large ﬁnite universe,
 the theory with the greater number of parameters will always be more probable (in the
 classical sense) than the theory with the smaller number of parameters.
-This can be shown as follows. In the case of a continuous geo-
-metrical ﬁeld of applications, our universe of possible events, each
+This can be shown as follows. In the case of a continuous geometrical ﬁeld of applications, our universe of possible events, each
 described by a possible relative-atomic statement, is of course inﬁnite.
 As shown in sections 38 f., we can in this case compare two theories
 with respect to the dimension, rather than the number, of the possibilities
 which they leave open; that is, the possibilities which are favourable to
 them. The dimension of these possibilities turns out to be equal to the
-number of parameters. We now replace the inﬁnite universe of relative-
-atomic statements by a ﬁnite (although very large) universe of relative-
-atomic statements, corresponding to the chessboard example in the
-preceding appendix.2 That is to say, we assume that every relative-
-atomic statement refers to a little square with the side ε as the position of
+number of parameters. We now replace the inﬁnite universe of relativeatomic statements by a ﬁnite (although very large) universe of relativeatomic statements, corresponding to the chessboard example in the
+preceding appendix.2 That is to say, we assume that every relativeatomic statement refers to a little square with the side ε as the position of
 2 Cf. appendix *vii, text to note 12.
 new appendices
-394
-
 
 a planet rather than to a point of the plane, and that the possible
 positions do not overlap.3 Somewhat diﬀerently from the example of
@@ -15826,14 +14014,11 @@ the usual geometrical representations of our theories by ‘quasi curves’
 of squares. As a result of all this, the number of the possible theories
 becomes ﬁnite.
 We now consider the representation of a theory with d parameters
-which in the continuous case was represented by a d-dimensional con-
-tinuum whose points (d-tuples) each represented a curve. We ﬁnd that
+which in the continuous case was represented by a d-dimensional continuum whose points (d-tuples) each represented a curve. We ﬁnd that
 we can still use a similar representation, except that our d-dimensional
-continuum will be replaced by a d-dimensional arrangement of d-
-dimensional ‘cubes’ (with the side ε). Each chain of these cubes will
+continuum will be replaced by a d-dimensional arrangement of ddimensional ‘cubes’ (with the side ε). Each chain of these cubes will
 now represent one ‘quasi curve’, and thus one of the possibilities
-favourable to the theory; and the d-dimensional arrangement will rep-
-resent the set of all ‘quasi-curves’ compatible with, or favourable to, the
+favourable to the theory; and the d-dimensional arrangement will represent the set of all ‘quasi-curves’ compatible with, or favourable to, the
 theory.
 But we can now say that the theory with fewer parameters—that is
 to say, the set of quasi curves which is represented by an arrangement
@@ -15873,8 +14058,7 @@ p(a2);
 consequently, ‘p(a1) > p(a2)’ is incompatible with ‘d(a1) < d(a2)’.
 This theorem (which is implied in what has been said in the body of
 the book) is in keeping with the following considerations. A theory a
-requires a minimum of d(a) + 1 relative-atomic statements for its refu-
-tation. Its ‘weakest falsiﬁers’, as we may call them, consist of a conjunction
+requires a minimum of d(a) + 1 relative-atomic statements for its refutation. Its ‘weakest falsiﬁers’, as we may call them, consist of a conjunction
 of d(a) + 1 relative-atomic statements. This means that if n  d(a), then
 no conjunction of n relative-atomic statements is logically strong
 enough for deriving from them a¯, that is, the negation of a. The
@@ -15892,8 +14076,6 @@ p(a2), and is thus incompatible with
 p(a1) > p(a2). But this result is nothing but the theorem (1) derived
 above.
 new appendices
-396
-
 
 Our theorem has been derived by considering ﬁnite universes, and it
 is indeed quite independent of the transition to inﬁnite universes. It is
@@ -15925,8 +14107,7 @@ number, and n.P < 1). Each of these n theories to which the maximum
 probability P has been assigned, has a dimension. Let D be the largest
 dimension present among these n theories, and let a1 be one of them,
 with d(a1) = D. Then, clearly, none of the theories with dimensions
-greater than D will be among our n theories with maximum prob-
-ability. Let a2 be a theory with a dimension greater than D, so that
+greater than D will be among our n theories with maximum probability. Let a2 be a theory with a dimension greater than D, so that
 d(a2) > D = d(a1). Then the assignment leads to:
 4 Cf. appendix *vii, text to footnote 11.
 appendix *viii 397
@@ -15952,8 +14133,7 @@ in knowledge (so that obtaining a high probability becomes an aim of
 science), they did not consider the possibility that we may learn from
 experience more and more about universal laws without ever increasing their probability;
 that we may test and corroborate some of them better and better,
-thereby increasing their degree of corroboration without altering their prob-
-ability whose value remains zero.
+thereby increasing their degree of corroboration without altering their probability whose value remains zero.
 Jeﬀreys and Wrinch never described the sequence of theories, and
 the assignment of probability values, in a suﬃciently clear way. Their
 main idea, called the ‘simplicity postulate’,6 was that the theories
@@ -15968,16 +14148,12 @@ a separate postulate but an immediate application of rule 5’. But all that rul
 by way of reference to rule 4 (both rules are formulated in § 1.1) is a very vague form of
 the ‘transcendental’ principle. Thus it does not aﬀect our argument.
 new appendices
-398
-
 
 with the same number of parameters. Jeﬀreys himself gives as examples
-y = ax and y = ax2; and he says of them: ‘laws involving the same num-
-ber of parameters can be taken as having the same prior probability.’7
+y = ax and y = ax2; and he says of them: ‘laws involving the same number of parameters can be taken as having the same prior probability.’7
 But the number of laws having the same prior probability is inﬁnite, for
 Jeﬀreys’s own examples can be continued to inﬁnity: y = ax3, y = ax4,
-. . . y = axn, and so on, with n →∞. Thus for each number of parament-
-ers, the same problem would recur as for the whole sequence.
+. . . y = axn, and so on, with n →∞. Thus for each number of paramenters, the same problem would recur as for the whole sequence.
 Moreover, Jeﬀreys himself recognizes, in the same § 3.0,8 that a law,
 a1, say, may be obtained from a law a2 with one additional parameter,
 by assuming that parameter to be equal to zero; and that in this case,
@@ -15998,8 +14174,7 @@ theorem (1).
 In concluding this appendix, I wish to attempt something like an
 explanation why Wrinch and Jeﬀreys may have regarded their
 ‘simplicity postulate’ as harmless—as unable to create trouble.
-It should be kept in mind that they were the ﬁrst to identify sim-
-plicity and paucity of parameters. (I do not simply identify these two: I
+It should be kept in mind that they were the ﬁrst to identify simplicity and paucity of parameters. (I do not simply identify these two: I
 distinguish between a formal and a material reduction in the number
 of the parameters—cf. sections 40, 44, 45—and intuitive simplicity
 7 Theory of Probability, § 3.0 (1st edition, p. 95; 2nd edition, p. 100).
@@ -16013,22 +14188,19 @@ appendix *viii 399
 thus becomes something like formal simplicity; but otherwise my
 theory of simplicity agrees with that of Wrinch and Jeﬀreys in this
 point.) They also saw clearly that simplicity is one of the things aimed
-at by scientists—that these prefer a simpler theory to a more com-
-plicated one, and that they therefore try the simplest theories ﬁrst. On
+at by scientists—that these prefer a simpler theory to a more complicated one, and that they therefore try the simplest theories ﬁrst. On
 all these points, Wrinch and Jeﬀreys were right. They were also right in
 believing that there are comparatively few simple theories, and many
 complex ones whose numbers increase with the number of their
 parameters.
 This last fact may have led them to believe that the complex theories
-were the less probable ones (since the available probability was some-
-how to be divided among the various theories). And since they also
+were the less probable ones (since the available probability was somehow to be divided among the various theories). And since they also
 assumed that a high degree of probability was indicative of a high
 degree of knowledge and therefore was one of the scientist’s aims, they
 may have thought that it was intuitively evident that the simpler (and
 therefore more desirable) theory was to be identiﬁed with the more
 probable (and therefore more desirable) theory; for otherwise the aims
-of the scientist would become inconsistent. Thus the simplicity postu-
-late appeared to be necessary on intuitive grounds and therefore a
+of the scientist would become inconsistent. Thus the simplicity postulate appeared to be necessary on intuitive grounds and therefore a
 fortiori consistent.
 But once we realize that the scientist does not and cannot aim at a
 high degree of probability, and that the opposite impression is due to
@@ -16037,24 +14209,18 @@ mistaking the intuitive idea of probability for another intuitive idea
 us that simplicity, or paucity of parameters, is linked with, and tends to
 increase with, improbability rather than probability. And so it will also
 10 It is shown in point 8 of my ‘Third Note’, reprinted in appendix *ix, that if h is a
-statistical hypothesis asserting ‘p(a,b) = 1’, then after n severe tests passed by the hypoth-
-esis h, its degree of corroboration will be n/(n + 2) = 1 −(2/(n + 2)). There is a striking
+statistical hypothesis asserting ‘p(a,b) = 1’, then after n severe tests passed by the hypothesis h, its degree of corroboration will be n/(n + 2) = 1 −(2/(n + 2)). There is a striking
 similarity between this formula and Laplace’s ‘rule of succession’ according to which the
-probability that h will pass its next test is (n + 1)/(n + 2) = 1 −(1/(n + 2)). The numer-
-ical similarity of these results, together with the failure to distinguish between prob-
-ability and corroboration, may explain why Laplace’s and similar results were intuitively
+probability that h will pass its next test is (n + 1)/(n + 2) = 1 −(1/(n + 2)). The numerical similarity of these results, together with the failure to distinguish between probability and corroboration, may explain why Laplace’s and similar results were intuitively
 felt to be satisfactory. I believe Laplace’s result to be mistaken because I believe that his
 assumptions (I have in mind what I call the ‘Laplacean distribution’) do not apply to the
 cases he has in mind; but these assumptions apply to other cases; they allow us to
 estimate the absolute probability of a report on a statistical sample. Cf. my ‘Third Note’
 (appendix *ix).
 new appendices
-400
-
 
 become clear to us that a high degree of simplicity is nevertheless
-linked with a high degree of corroboration. For a high degree of test-
-ability or corroborability is the same as a high prior improbability or
+linked with a high degree of corroboration. For a high degree of testability or corroborability is the same as a high prior improbability or
 simplicity.
 The problem of corroboration will be discussed in the next
 appendix.
@@ -16066,8 +14232,7 @@ we can introduce a measure of the simplicity or the content of a relative to F,
 CtF (a), as follows:
 CtF(a) = 1/(dF(a) + 1)
 This is a measure of the ﬁne structure of the content of a theory (relative to
-F); for it may be applicable where the probabilities become indis-
-tinguishable, because p(a) = 0.
+F); for it may be applicable where the probabilities become indistinguishable, because p(a) = 0.
 Incidentally, simplicity should always be regarded as relative to a given
 problem of explanation. (See note 24 to chapter 10, p. 241, of my Conjectures
 and Refutations, in the (revised) second edition, 1965 (and later).)
@@ -16075,8 +14240,7 @@ Addendum, 1972
 We sometimes discover a new connection between scientiﬁc problems.
 Thus if the simplicity of a theory is relative to the problems which the
 theory tries to solve, then it is, to some degree, also relative to the
-historical problem-situation. With this it becomes clear that the prob-
-lems of the content and simplicity of a theory may change in the
+historical problem-situation. With this it becomes clear that the problems of the content and simplicity of a theory may change in the
 course of the historical development of a science.
 appendix *viii 401
 
@@ -16084,8 +14248,7 @@ appendix *viii 401
 APPENDIX *ix
 Corroboration, the Weight of
 Evidence, and Statistical Tests
-The three notes reprinted below in the present appendix were origin-
-ally published in The British Journal for the Philosophy of Science.1
+The three notes reprinted below in the present appendix were originally published in The British Journal for the Philosophy of Science.1
 Even before my book was published, I felt that the problem of
 degree of corroboration was one of those problems which should be
 further investigated. By ‘the problem of degree of corroboration’ I
@@ -16107,12 +14270,10 @@ pp. 350 ﬀ., and 8, 1958, pp. 294 ﬀ.
 
 probability > 1/2. (They even failed to establish that a universal law, or
 a theory, could ever have a probability other than zero.) What was
-needed was a perfectly general treatment. I therefore aimed at con-
-structing a formal probability calculus which could be interpreted in
+needed was a perfectly general treatment. I therefore aimed at constructing a formal probability calculus which could be interpreted in
 various senses. I had in mind (i) the logical sense, outlined in my book
 as (absolute) logical probability of statements; (ii) the sense of relative
-logical probability of statements or propositions, as envisaged by Key-
-nes; (iii) the sense of a calculus of relative frequencies in sequences;
+logical probability of statements or propositions, as envisaged by Keynes; (iii) the sense of a calculus of relative frequencies in sequences;
 (iv) the sense of a calculus of a measure of ranges, or of predicates,
 classes, or sets.
 The ultimate aim was, of course, to show that degree of corroboration was
@@ -16143,8 +14304,7 @@ theory with p(x) = 0.
 appendix *ix 403
 
 
-I will now brieﬂy explain how the problem of p(y, x)—of the likeli-
-hood of x—arises.
+I will now brieﬂy explain how the problem of p(y, x)—of the likelihood of x—arises.
 If we are asked to give a criterion of the fact that the evidence y
 supports or corroborates or conﬁrms a statement x, the most obvious
 reply is: ‘that y increases the probability of x’. We can put this in symbols
@@ -16176,8 +14336,6 @@ x, we shall say, intuitively, that p(y, x) = 1. And since y is empirical, so
 that p(y) will certainly be less than 1, we ﬁnd that (4) can be applied,
 2 See, especially, appendix *vii, formulae (1) and (2), and appendix *viii, formula (2).
 new appendices
-404
-
 
 and that the assertion Co(x, y) will be true. That is to say, x may be
 corroborated by y if y follows from x, provided only that p(y) < 1. Thus
@@ -16191,15 +14349,13 @@ Although I had realized this by the time my note in Mind appeared
 urgent prevented me from completing my researches in this ﬁeld. It
 was only in 1954 that I published my results concerning degree of
 corroboration, in the ﬁrst of the notes here reprinted; and another six
-months elapsed before I published an axiom system of relative prob-
-ability3 (equivalent to, though less simple than, the one which will be
+months elapsed before I published an axiom system of relative probability3 (equivalent to, though less simple than, the one which will be
 found in appendix *iv) which satisﬁed the demand that p(x, y) should
 be a deﬁnite number even if p(y) was equal to zero. This paper provided
 the technical prerequisites for a satisfactory deﬁnition of likelihood and
 of degree of corroboration or conﬁrmation.
 My ﬁrst note ‘Degree of Conﬁrmation’, published in 1954 in the
-B.J.P.S., contains a mathematical refutation of all those theories of induc-
-tion which identify the degree to which a statement is supported or
+B.J.P.S., contains a mathematical refutation of all those theories of induction which identify the degree to which a statement is supported or
 conﬁrmed or corroborated by empirical tests with its degree of
 probability in the sense of the calculus of probability. The refutation
 consists in showing that if we identify degree of corroboration or
@@ -16233,8 +14389,7 @@ Moreover, we have the following relative probabilities:
 p(x, z) = 1/3;
 p(y, z) = 2/3.
 We see that x is supported by the information z, for z raises the
-probability of x from 1/6 to 2/6 = 1/3. We also see that y is under-
-mined by z, for z lowers the probability of y by the same amount from
+probability of x from 1/6 to 2/6 = 1/3. We also see that y is undermined by z, for z lowers the probability of y by the same amount from
 5/6 to 4/6 = 2/3. Nevertheless, we have p(x, z) < p(y, z). This example
 proves the following theorem:
 (5)
@@ -16255,8 +14410,6 @@ be an equivalent, though more complicated, example in Carnap’s Logical Foundat
 Probability, 1950, § 71; I have been unable to follow it, because of its complexity. As to my
 point 6, I have found neither there, not anywhere else an example corresponding to it.)
 new appendices
-406
-
 
 Like (5), theorem (6) expresses a fact we have established by our
 example: that x may be supported by z, and y undermined by z, and that
@@ -16268,10 +14421,8 @@ Co(x, z) & ∼Co(y, z) & C(x, z) < C(y, z)
 (**)
 (that is, ‘z conﬁrms x but not y, yet z also conﬁrms x to a lesser degree
 than y’) is clearly self-contradictory.
-Thus we have proved that the identiﬁcation of degree of corrobora-
-tion or conﬁrmation with probability (and even with likelihood) is
-absurd on both formal and intuitive grounds: it leads to self-
-contradiction.
+Thus we have proved that the identiﬁcation of degree of corroboration or conﬁrmation with probability (and even with likelihood) is
+absurd on both formal and intuitive grounds: it leads to selfcontradiction.
 Here ‘degree of corroboration or conﬁrmation’ may be taken in a
 sense wider than the one I usually have in mind. While I usually take it
 to be a synonym for ‘degree of severity of the tests which a theory has
@@ -16280,8 +14431,7 @@ supported by a statement y’.
 If we look at this proof, then we see that it depends upon two
 assumptions only:
 (a) Formula (1);
-(b) The assumption that any assertion of the following form is self-
-contradictory:
+(b) The assumption that any assertion of the following form is selfcontradictory:
 (***) x has the property P (for example, the property ‘warm’) and y
 has not the property P and y has the property P in a higher degree than
 x (for example, y is warmer than x).
@@ -16301,19 +14451,14 @@ had in mind were especially Keynes, Jeﬀreys, Reichenbach, Kaila,
 Hosiasson and, more recently, Carnap.
 As to Carnap, I wrote a critical footnote which, I believe, speaks for
 itself. It was motivated by the fact that Carnap, in stating adequacy
-criteria for degree of conﬁrmation, speaks of the consensus of ‘practic-
-ally all modern theories of degree of conﬁrmation’, but does not men-
-tion my dissent, in spite of the fact that he introduced the English term
+criteria for degree of conﬁrmation, speaks of the consensus of ‘practically all modern theories of degree of conﬁrmation’, but does not mention my dissent, in spite of the fact that he introduced the English term
 ‘degree of conﬁrmation’ as a translation of my term ‘Grad der Bewährung’.
 (Cf. the footnote before section 79, above.) Moreover, I wished to point
 out that his division of probability into probability1 (= his degree of
-conﬁrmation) and probability2 (= statistical frequency) was insuﬃ-
-cient: that there were at the very least two interpretations of the calcu-
-lus of probability (the logical and the statistical) and that, in addition,
+conﬁrmation) and probability2 (= statistical frequency) was insuﬃcient: that there were at the very least two interpretations of the calculus of probability (the logical and the statistical) and that, in addition,
 there was my degree of corroboration which was not a probability (as has
 now been shown here, and as was shown in my note).
-It seems that this ten-line footnote of mine has drawn more atten-
-tion to itself than the rest of my note. It led to a discussion in the B.J.P.S.5
+It seems that this ten-line footnote of mine has drawn more attention to itself than the rest of my note. It led to a discussion in the B.J.P.S.5
 in which Bar-Hillel asserted that my criticism of what he termed ‘the
 current theory of conﬁrmation’ (i.e. Carnap’s theory) was purely verbal
 and that all I had to say was anticipated by Carnap; and it led to a review
@@ -16322,19 +14467,15 @@ my note by the words: ‘The principal thesis of this paper is that
 Carnap’s proposed measurers of degree of conﬁrmation, or any other
 assignment of logical probability, are not suited to measure degrees of
 conﬁrmation.’
-This was certainly not my principal thesis. My note was a continu-
-ation of some work of mine published ﬁfteen years before Carnap’s
+This was certainly not my principal thesis. My note was a continuation of some work of mine published ﬁfteen years before Carnap’s
 book was written; and as far as criticism is concerned, the point at
-issue—the identiﬁcation of corroboration or conﬁrmation or accept-
-ability with probability—though it is of course the main thesis of
+issue—the identiﬁcation of corroboration or conﬁrmation or acceptability with probability—though it is of course the main thesis of
 Carnap’s book, is far from being an original thesis of Carnap’s; for he is
 5 See B.J.P.S. 6, 1955, pp. 155 to 163; and 7, 1956, pp. 243 to 256.
 6 See J.S.L. 20, 1955, p. 304. The following is an error of fact in Kemeny’s review: in line
 16 from the bottom of the page, ‘measure of support given by y to x’ should read
 ‘measure of the explanatory power of x with respect to y’.
 new appendices
-408
-
 
 here merely following the tradition of Keynes, Jeﬀreys, Reichenbach,
 Kaila, Hosiasson, and others. Moreover, both Bar-Hillel and Kemeny
@@ -16357,16 +14498,14 @@ argument that shows the absurdity of the identiﬁcation of C and p
 whether or not (a) and (b) are explicitly admitted in a book; but it so
 happens that in Carnap’s book, they are.
 Moreover, the contradiction here explained is crucial for Carnap: by
-accepting (1), or more precisely, by deﬁning on pp. 463 f. ‘x is con-
-ﬁrmed by y’ with the help of ‘p(x, y) > p(x)’ (in our symbolism),
+accepting (1), or more precisely, by deﬁning on pp. 463 f. ‘x is conﬁrmed by y’ with the help of ‘p(x, y) > p(x)’ (in our symbolism),
 Carnap shows that the intended meaning of ‘degree of conﬁrmation’
 (his ‘explicandum’) is, roughly, the same as the one intended by myself. It is
 the intuitive idea of degree of support by empirical evidence. (Kemeny
 loc. cit. is mistaken when he suggests the opposite. In fact, ‘a careful
 reading’ of my paper—and, I should add, of Carnap’s book—will not
 ‘show that Popper and Carnap have two diﬀerent explicanda in mind’, but
-it will show that Carnap had inadvertently two diﬀerent and incompat-
-ible ‘explicanda’ in mind with his probability1, one of them my C, the
+it will show that Carnap had inadvertently two diﬀerent and incompatible ‘explicanda’ in mind with his probability1, one of them my C, the
 other my p; and it will show that I have repeatedly pointed out the
 dangers of this confusion—for example in the paper reviewed by
 7 See also formula (6) on p. 464. Carnap’s formula (4) on p. 464 is written as an
@@ -16381,8 +14520,7 @@ is not my criticism that is ‘purely verbal’, but the attempts to rescue the
 For further details, I must refer to the discussion in the pages of the
 B.J.P.S. I may say that I was a little disappointed both by this discussion
 and by Kemeny’s review in the Journal of Symbolic Logic. From a rational
-point of view, the situation appears to me quite serious. In this post-
-rationalist age of ours, more and more books are written in symbolic
+point of view, the situation appears to me quite serious. In this postrationalist age of ours, more and more books are written in symbolic
 languages, and it becomes more and more diﬃcult to see why: what it
 is all about, and why it should be necessary, or advantageous, to allow
 oneself to be bored by volumes of symbolic trivialities. It almost seems
@@ -16390,30 +14528,24 @@ as if the symbolism were becoming a value in itself, to be revered for its
 sublime ‘exactness’: a new expression of the old quest for certainty, a
 new symbolic ritual, a new substitute for religion. Yet the only possible
 value of this kind of thing—the only possible excuse for its dubious
-claim to exactness—seems to be this. Once a mistake, or a contradic-
-tion, is pin-pointed, there can be no verbal evasion: it can be proved,
+claim to exactness—seems to be this. Once a mistake, or a contradiction, is pin-pointed, there can be no verbal evasion: it can be proved,
 and that is that. (Frege did not try evasive manœuvres when he
 received Russell’s criticism.) So if one has to put up with a lot of
-tiresome technicalities, and with a formalism of unnecessary complex-
-ity, one might at least hope to be compensated by the ready acceptance
+tiresome technicalities, and with a formalism of unnecessary complexity, one might at least hope to be compensated by the ready acceptance
 of a straight-forward proof of contradictoriness—a proof consisting of
 the simplest of counter-examples. It was disappointing to be met,
 instead, by merely verbal evasions, combined with the assertion that
 the criticism oﬀered was ‘merely verbal’.
-Still, one must not be impatient. Since Aristotle, the riddle of induc-
-tion has turned many philosophers to irrationalism—to scepticism or
+Still, one must not be impatient. Since Aristotle, the riddle of induction has turned many philosophers to irrationalism—to scepticism or
 to mysticism. And although the philosophy of the identity of C and p
 seems to have weathered many a storm since Laplace, I still think that it
 will be abandoned one day. I really cannot bring myself to believe that
 the defenders of the faith will be satisﬁed for ever with mysticism and
-Hegelianism, upholding ‘C = p’ as a self-evident axiom, or as the daz-
-zling object of an inductive intuition. (I say ‘dazzling’ because it seems
+Hegelianism, upholding ‘C = p’ as a self-evident axiom, or as the dazzling object of an inductive intuition. (I say ‘dazzling’ because it seems
 to be an object whose beholders are smitten with blindness when
 running into its logical contradictions.)
 I may perhaps say here that I regard the doctrine that degree of
 new appendices
-410
-
 
 corroboration or acceptability cannot be a probability as one of the more
 interesting ﬁndings of the philosophy of knowledge. It can be put very
@@ -16434,10 +14566,8 @@ write ‘corroboration’. I have also left ‘P(x)’ where I now usually write
 footnotes, preceded by stars, and also two new points, *13 and *14, to
 the end of the Third Note.
 8 As far as I am aware, the recognition of the signiﬁcance of the empirical content or assertive
-power of a theory; the suggestion that this content increases with the class of the poten-
-tial falsiﬁers of the theory—that is to say, the states of aﬀairs which it forbids, or excludes
-(see sections 23, and 31); and the idea that content may be measured by the improbabil-
-ity of the theory, were not taken by me from any other source but were ‘all my own
+power of a theory; the suggestion that this content increases with the class of the potential falsiﬁers of the theory—that is to say, the states of aﬀairs which it forbids, or excludes
+(see sections 23, and 31); and the idea that content may be measured by the improbability of the theory, were not taken by me from any other source but were ‘all my own
 work’. I was therefore surprised when I read in Carnap’s Introduction to Semantics, 1942, p.
 151, in connection with his deﬁnition of ‘content’: ‘. . . the assertive power of a sentence
 consists in its excluding certain states of aﬀairs (Wittgenstein); the more it excludes, the
@@ -16448,8 +14578,7 @@ and he repeated this correction in his Logical Foundations of Probability, 1950,
 mention this here because in a number of papers published since 1942, the idea of
 content—in the sense of empirical or informative content—has been attributed, without
 deﬁnite reference, to Wittgenstein, or to Carnap, and sometimes to Wittgenstein and
-myself. But I should not like anybody to think that I have taken it without acknowledge-
-ment from Wittgenstein or anybody else: as a student of the history of ideas, I think that
+myself. But I should not like anybody to think that I have taken it without acknowledgement from Wittgenstein or anybody else: as a student of the history of ideas, I think that
 it is quite important to refer to one’s sources. (See also my discussion in section 35 of
 the distinction between logical content and empirical content, with references to Carnap in
 footnotes 1 and 2.)
@@ -16496,19 +14625,14 @@ my Logik der Forschung, Vienna, 1935, esp. sects. 34 f. and 83, since the term �
 probability’ is better used for the ‘logical interpretation’ of both P(x) and P(x, y), as
 opposed to their ‘statistical interpretation’ which may be ignored here.)
 new appendices
-412
 
-
-and thus entails part of the content of x, supporting x; and partial under-
-mining of x by y (when y partially supports x¯); for example, if y follows
+and thus entails part of the content of x, supporting x; and partial undermining of x by y (when y partially supports x¯); for example, if y follows
 from x¯. We shall say, then, that y supports x, or that it undermines x,
 whenever P(xy), or P(x¯y), respectively, exceed their values for
-independence. (The three cases—support, undermining, inde-
-pendence—are easily seen to be exhaustive and exclusive in view of
+independence. (The three cases—support, undermining, independence—are easily seen to be exhaustive and exclusive in view of
 this deﬁnition.)
 4. Consider now the conjecture that there are three statements, x1,
-x2, and y, such that (i) x1 and x2 are each independent of y (or under-
-mined by y) while (ii) y supports their conjunction x1x2. Obviously, we
+x2, and y, such that (i) x1 and x2 are each independent of y (or undermined by y) while (ii) y supports their conjunction x1x2. Obviously, we
 should have to say in such a case that y conﬁrms x1x2 to a higher degree
 than it conﬁrms either x1 or x2; in symbols,
 C(x1, y) < C(x1x2, y) > C(x2, y)
@@ -16539,8 +14663,7 @@ C(x1x2 or x1x¯2, y) < C(x1x2, y)
 (4.5)
 In the presence of (4.4), (4.5) contradicts (4.2).2
 5. These results depend upon the conjecture that statements x1, x2,
-and y exist such that (i) x1 and x2 are each independent of y (or under-
-mined by y) while (ii) y supports x1x2. I shall prove this conjecture by
+and y exist such that (i) x1 and x2 are each independent of y (or undermined by y) while (ii) y supports x1x2. I shall prove this conjecture by
 an example.3
 Take coloured counters, called ‘a’, ‘b’, . . . , with four exclusive and
 equally probable properties, blue, green, red, and yellow. Let x1 be the
@@ -16557,16 +14680,13 @@ blue’; x2 = ‘a is not red’; and y = ‘a is not yellow’. Then P(x1) = 1/
 P(x2) = 3/4; and 1/3 = P(x1, y) < P(x2, y) = 2/3. That y supports x1 and
 undermines x2 is clear from these ﬁgures, and also from the fact that y
 follows from x1 and also from x¯2.*1
-2 In his Logical Foundations of Probability, Chicago, 1950, p. 285, Carnap uses the multiplica-
-tion and addition principles as ‘conventions on adequacy’ for degree of conﬁrmation. The only
+2 In his Logical Foundations of Probability, Chicago, 1950, p. 285, Carnap uses the multiplication and addition principles as ‘conventions on adequacy’ for degree of conﬁrmation. The only
 argument he oﬀers in favour of the adequacy of these principles is that ‘they are generally
 accepted in practically all modern theories of probability1’, i.e. our P(x, y) which Carnap
 identiﬁes with ‘degree of conﬁrmation’. But the very term ‘degree of conﬁrmation’
 (‘Grad der Bewährung’) was introduced by me in sections 82 f. of my Logik der Forschung (a
-book to which Carnap sometimes refers), in order to show that both logical and stat-
-istical probability are inadequate to serve for a degree of conﬁrmation, since conﬁrmability
-must increase with testability, and thus with (absolute) logical improbability and con-
-tent. (See below.)
+book to which Carnap sometimes refers), in order to show that both logical and statistical probability are inadequate to serve for a degree of conﬁrmation, since conﬁrmability
+must increase with testability, and thus with (absolute) logical improbability and content. (See below.)
 3 The example satisﬁes (i) for independence rather than undermining. (To obtain one
 for undermining, add amber as a ﬁfth colour, and put y = ‘a is amber or blue or
 yellow’.)
@@ -16574,8 +14694,6 @@ yellow’.)
 and thus of x¯2, in the light of y, is maximal. See the introduction to the present appendix
 in which the argument here outlined in the text is elaborated.
 new appendices
-414
-
 
 7. Why have C(x, y) and P(x, y) been confounded so persistently?
 Why has it not been seen that it is absurd to say that some evidence y of
@@ -16587,20 +14705,16 @@ tendency to think that whatever may be called the ‘likelihood’ or
 ‘probability’ of a hypothesis must be a probability in the sense of the
 calculus of probabilities. In order to disentangle the various issues here
 involved, I distinguished twenty years ago what I then called the
-‘degree of conﬁrmation’ from both, the logical and the statistical prob-
-ability. But unfortunately, the term ‘degree of conﬁrmation’ was soon
+‘degree of conﬁrmation’ from both, the logical and the statistical probability. But unfortunately, the term ‘degree of conﬁrmation’ was soon
 used by others as a new name for (logical) probability; perhaps under
-the inﬂuence of the mistaken view that science, unable to attain cer-
-tainty, must aim at a kind of ‘Ersatz’—at the highest attainable
+the inﬂuence of the mistaken view that science, unable to attain certainty, must aim at a kind of ‘Ersatz’—at the highest attainable
 probability.
 Another suggestion is this. It seems that the phrase ‘the degree of
 conﬁrmation of x by y’ was turned round into ‘the degree to which y
 conﬁrms x’, or ‘the power of y to support x’. Yet in this form it would have
-been quite obvious that, in a case in which y supports x1 and under-
-mines x2, C(x1, y) < C(x2, y) is absurd—although P(x1, y) < P(x2, y) may
+been quite obvious that, in a case in which y supports x1 and undermines x2, C(x1, y) < C(x2, y) is absurd—although P(x1, y) < P(x2, y) may
 be quite in order, indicating, in such a case, that we had P(x1) < P(x2) to
-start with. Furthermore, there seems to be a tendency to confuse meas-
-ures of increase or decrease with the measures that increase and decrease
+start with. Furthermore, there seems to be a tendency to confuse measures of increase or decrease with the measures that increase and decrease
 (as shown by the history of the concepts of velocity, acceleration, and
 force). But the power of y to support x, it will be seen, is essentially a
 measure of the increase or decrease due to y, in the probability of x. (See also 9
@@ -16612,8 +14726,7 @@ one.
 The degree of conﬁrmation of a hypothesis x by empirical evidence y
 is supposed to be used for estimating the degree to which x is backed by
 experience. But P(x, y) cannot serve this purpose, since P(x1, y) may be
-higher than P(x2, y) even though x1 is undermined by y and x2 sup-
-ported by y, and since this is due to the fact that P(x, y) depends very
+higher than P(x2, y) even though x1 is undermined by y and x2 supported by y, and since this is due to the fact that P(x, y) depends very
 appendix *ix 415
 
 
@@ -16621,9 +14734,7 @@ strongly upon P(x), i.e. the absolute probability of x, which has nothing
 whatever to do with the empirical evidence.
 Furthermore, the degree of conﬁrmation is supposed to have an
 inﬂuence upon the question whether we should accept, or choose, a
-certain hypothesis x, if only tentatively; a high degree of conﬁrm-
-ation is supposed to characterise a hypothesis as ‘good’ (or ‘accept-
-able’), while a disconﬁrmed hypothesis is supposed to be ‘bad’. But
+certain hypothesis x, if only tentatively; a high degree of conﬁrmation is supposed to characterise a hypothesis as ‘good’ (or ‘acceptable’), while a disconﬁrmed hypothesis is supposed to be ‘bad’. But
 P(x, y) cannot help here. Science does not aim, primarily, at high probabilities.
 It aims at a high informative content, well backed by experience. But a hypothesis
 may be very probable simply because it tells us nothing, or very little. A high
@@ -16652,8 +14763,6 @@ violates (viii, c) below, and satisﬁes (iii) and (iv) only approximately in
 4 This condition may be dropped if we accept the general convention that P(x, y) = 1
 whenever y is inconsistent.
 new appendices
-416
-
 
 special cases. To remedy these defects, I propose to deﬁne C(x, y) as
 follows.*2
@@ -16723,8 +14832,7 @@ E(x, y, z) is the explanatory power of x with respect to y, in the presence
 of z.7
 11. There are, I believe, some intuitive desiderata which cannot be
 satisﬁed by any formal deﬁnition. For example, a theory is the better
-conﬁrmed the more ingenious our unsuccessful attempts at its refuta-
-tion have been. My deﬁnition incorporates something of this idea—if
+conﬁrmed the more ingenious our unsuccessful attempts at its refutation have been. My deﬁnition incorporates something of this idea—if
 *3 The condition ‘≠ 1’ was printed neither in the original text, nor in the published
 corrections.
 6 (vii) and (viii) contain the only important desiderata which are satisﬁed by P(x, y).
@@ -16737,8 +14845,6 @@ every z, and C(x1, y, z) > C(x2, y, z) for any suitable z containing some of the
 conditions. This follows from (vi)—even if we have to assume that P(x1, yz) = P(x2,
 yz) = P(x1) = P(x2) = 0.
 new appendices
-418
-
 
 not as much as can be formalized. But one cannot completely formalize
 the idea of a sincere and ingenious attempt.8
@@ -16760,8 +14866,7 @@ i=1
 C(h, ci, ea))1/(n + 1)
 where c1, c2, . . . , is the sequence of experiments made between the moments of time, ta
 and tb. We have ta < t1  ti  tn = tb. ea and eb are the total evidence (which may include
-laws) accepted at ta and tb. We postulate P(ci, eb) = 1 and (to ensure that only new experi-
-ments are counted) P(ci, ea) ≠ 1 and P(ci, Ucj) ≠ 1, whenever j < i. (‘Ucj’ is the spatio-temporal
+laws) accepted at ta and tb. We postulate P(ci, eb) = 1 and (to ensure that only new experiments are counted) P(ci, ea) ≠ 1 and P(ci, Ucj) ≠ 1, whenever j < i. (‘Ucj’ is the spatio-temporal
 universalization of cj.)
 * Today, I should be inclined to treat this question in a diﬀerent way. We may, very
 simply, distinguish between the formula ‘C(x, y)’ (or ‘C(x, y, z)’) and the applications of this
@@ -16816,8 +14921,6 @@ be dropped.
 basis of the logarithm) is made in Dr. I. J. Good’s review of my ‘Degree of Conﬁrmation’;
 cf. Mathematical Review, 16, 1955, 376.
 new appendices
-420
-
 
 Thus I prefer to look upon (2) and (3) as highly adequate deﬁnitions
 of explanatory power—of E(x, y) and E(x, y, z)—rather than of degree of
@@ -16830,20 +14933,17 @@ C(x, y, z) = E(x, y, z)/((1 + nP(x, z)) P(x¯, yz))
 (5)
 Here we may choose n  1. And if we wish viii(c) to have a marked
 eﬀect, we can make n a large number.
-In case x is a universal theory with P(x) = 0 and y is empirical evi-
-dence, the diﬀerence between E and C disappears, as in my original
+In case x is a universal theory with P(x) = 0 and y is empirical evidence, the diﬀerence between E and C disappears, as in my original
 deﬁnitions, and as demanded by desideratum (vi). It also disappears if
 x follows from y. Thus at least some of the advantages of operating with
 a logarithmic measure remain: as explained by Hamblin, the concept
 deﬁned by (1) becomes closely related to the fundamental idea
 of information theory. Good also comments on this point (see
 footnote 4).
-The transition from the old to the new deﬁnitions is order-
-preserving. (This holds also for explanatory power, as Hamblin’s
+The transition from the old to the new deﬁnitions is orderpreserving. (This holds also for explanatory power, as Hamblin’s
 observations imply.) Thus the diﬀerence is metrical only.
 2. The deﬁnitions of explanatory power, and even more of degree of
-conﬁrmation (or corroboration or acceptability or attestation, or what-
-ever name may be chosen for it) give of course full weight to the ‘weight
+conﬁrmation (or corroboration or acceptability or attestation, or whatever name may be chosen for it) give of course full weight to the ‘weight
 of evidence’ (or the ‘weight of an argument’ as Keynes called it in his
 chapter vi).*1 This becomes obvious with the new deﬁnitions, based
 upon Hamblin’s suggestions, which seem to have considerable
@@ -16857,28 +14957,23 @@ measurable physical property (non-discrete random variable) such as
 appendix *ix 421
 
 
-length, to take the simplest example. We make the assumption (favour-
-able to our opponents) that we are given some logically necessary ﬁnite
+length, to take the simplest example. We make the assumption (favourable to our opponents) that we are given some logically necessary ﬁnite
 lower and upper limits, I and u, to its values. Assume that we are given a
 distribution function for the logical probability of this property; for
 example, a generalized equidistribution function between l and u. We
 may discover that an empirically desirable change of our theories leads
 to a non-linear correction of the measure of our physical property
 (based, say, on the Paris metre). Then ‘logical probability’ has to be
-corrected also; which shows that its metric depends upon our empiri-
-cal knowledge, and that it cannot be deﬁned a priori, in purely logical
-terms. In other words, the metric of the ‘logical probability’ of a meas-
-urable property would depend upon the metric of the measurable
+corrected also; which shows that its metric depends upon our empirical knowledge, and that it cannot be deﬁned a priori, in purely logical
+terms. In other words, the metric of the ‘logical probability’ of a measurable property would depend upon the metric of the measurable
 property itself; and since this latter is liable to correction on the basis
 of empirical theories, there can be no purely ‘logical’ measure of
 probability.
-These diﬃculties can be largely, but not entirely, overcome by mak-
-ing use of our ‘background knowledge’ z. But they establish, I think,
+These diﬃculties can be largely, but not entirely, overcome by making use of our ‘background knowledge’ z. But they establish, I think,
 the signiﬁcance of the topological approach to the problem of both
 degree of conﬁrmation and logical probability.*2
 But, even if we were to discard all metric considerations, we should
-still adhere, I believe, to the concept of probability, as deﬁned, impli-
-citly, by the usual axiom systems for probability. These retain their full
+still adhere, I believe, to the concept of probability, as deﬁned, implicitly, by the usual axiom systems for probability. These retain their full
 signiﬁcance, exactly as pure metrical geometry retains its signiﬁcance
 even though we may not be able to deﬁne a yardstick in terms of pure
 (metrical) geometry. This is especially important in view of the need to
@@ -16895,14 +14990,11 @@ in the text are in no way exaggerated. (Of course, z may help, by pointing out, 
 assuming, that we are confronted, in a certain case, with a ﬁnite set of symmetrical
 or equal possibilities.)
 new appendices
-422
-
 
 atomic statements (as indicated in appendix in of my Logic of Scientiﬁc
 Discovery), then we shall have to postulate independence for the atomic,
 or relative-atomic, sentences (of course, as far as they are not ‘logically
-dependent’, in Kemeny’s sense). On the basis of a probabilistic theory of induc-
-tion, it then turns out that we cannot learn if we identify logical and
+dependent’, in Kemeny’s sense). On the basis of a probabilistic theory of induction, it then turns out that we cannot learn if we identify logical and
 probabilistic independence in the way here described; but we can
 learn very well in the sense of my C-functions; that is to say, we can
 corroborate our theories.
@@ -16914,15 +15006,13 @@ the logical interpretation of the system, whenever x follows from y,
 P(x, y) = 1, even if P(y) = 0. There is thus no reason to doubt that our
 deﬁnition works for languages containing both singular statements and
 universal laws, even if all the latter have zero probability, as is the case,
-for example, if we employ Kemeny’s measure function m, by postulat-
-ing P(x) = m(x). (In the case of our deﬁnitions of E and C, there is no
+for example, if we employ Kemeny’s measure function m, by postulating P(x) = m(x). (In the case of our deﬁnitions of E and C, there is no
 need whatever to depart from the assignment of equal weight to the
 ‘models’; cf. Kemeny, op. cit p. 307. On the contrary, any such departure
 must be considered as a deviation from a logical interpretation, since it
 would violate the equality of logical and probabilistic independence
 demanded in 3, above.)
-5. The second point is this. Among the derived desiderata, the fol-
-lowing is not satisﬁed by all deﬁnitions of ‘x is conﬁrmed by y’ which
+5. The second point is this. Among the derived desiderata, the following is not satisﬁed by all deﬁnitions of ‘x is conﬁrmed by y’ which
 have been proposed by other authors. It might therefore be mentioned
 separately as a tenth desideratum:6
 (x) If x is conﬁrmed or corroborated or supported by y so that
@@ -16949,18 +15039,15 @@ This problem was ﬁrst raised by Peirce, and discussed in some detail
 by Keynes who usually spoke of the ‘weight of an argument’ or of the
 ‘amount of evidence’. The term ‘the weight of evidence’ is taken from
 J. M. Keynes and from I. J. Good.2 Considerations of the ‘weight of
-evidence’ lead, within the subjective theory of probability, to para-
-doxes which, in my opinion, are insoluble within the framework of
+evidence’ lead, within the subjective theory of probability, to paradoxes which, in my opinion, are insoluble within the framework of
 this theory.
-2. By the subjective theory of probability, or the subjective inter-
-pretation of the calculus of probability, I mean a theory that interprets
+2. By the subjective theory of probability, or the subjective interpretation of the calculus of probability, I mean a theory that interprets
 probability as a measure of our ignorance, or of our partial knowledge,
 or, say, of the degree of the rationality of our beliefs, in the light of the
 evidence available to us.
 (I may mention, in parentheses, that the more customary term,
 ‘degree of rational belief’, may be a symptom of a slight confusion,
-since what is intended is ‘degree of rationality of a belief’. The confu-
-sion arises as follows. Probability is ﬁrst explained as a measure of the
+since what is intended is ‘degree of rationality of a belief’. The confusion arises as follows. Probability is ﬁrst explained as a measure of the
 strength or intensity of a belief or conviction—measurable, say, by our
 readiness to accept odds in betting. Next it is realized that the intensity
 of our belief often depends, in fact, upon our wishes or fears rather
@@ -16976,8 +15063,6 @@ Index); I. J. Good, Probability and the Weight of Evidence, 1950, pp. 62f. See a
 Analysis of Knowledge and Valuation, 1946, pp. 292 sq.; and R. Carnap, Logical Foundations of
 Probability, 1950, pp. 554 sq.
 new appendices
-424
-
 
 than upon rational arguments; thus, by a slight change, probability is
 then interpreted as the intensity, or the degree, of a belief in so far as it is
@@ -16999,8 +15084,7 @@ P(a) = 1/2
 Now let e be some statistical evidence; that is to say, a statistical report,
 based upon the observation of thousands or perhaps millions of
 tosses of z; and let this evidence e be ideally favourable to the hypothesis
-that z is strictly symmetrical—that it is a ‘good’ penny, with equidis-
-tribution. (Note that here e is not the full, detailed report about the
+that z is strictly symmetrical—that it is a ‘good’ penny, with equidistribution. (Note that here e is not the full, detailed report about the
 results of each of these tosses—this report we might assume to have
 been lost—but only a statistical abstract from the full report; for
 example, e may be the statement, ‘among a million of observed tosses
@@ -17027,14 +15111,11 @@ unaﬀected by the accumulated evidential knowledge, e; that the absence of any
 statistical evidence concerning z justiﬁes precisely the same ‘degree of
 rational belief’ as the weighty evidence of millions of observations
 which, prima facie, support or conﬁrm or strengthen our belief.
-4. I do not think that this paradox can be solved within the frame-
-work of the subjective theory, for the following reason.
+4. I do not think that this paradox can be solved within the framework of the subjective theory, for the following reason.
 The fundamental postulate of the subjective theory is the postulate that degrees
 of the rationality of beliefs in the light of evidence exhibit a linear order:
-that they can be measured, like degrees of temperature, on a one-
-dimensional scale. But from Peirce to Good, all attempts to solve the
-problem of the weight of evidence within the framework of the sub-
-jective theory proceed by introducing, in addition to probability, another
+that they can be measured, like degrees of temperature, on a onedimensional scale. But from Peirce to Good, all attempts to solve the
+problem of the weight of evidence within the framework of the subjective theory proceed by introducing, in addition to probability, another
 measure of the rationality of belief in the light of evidence. Whether this new
 measure is called ‘another dimension of probability’, or ‘degree of
 reliability in the light of the evidence’, or ‘weight of evidence’ is quite
@@ -17055,8 +15136,6 @@ with what I have called the ‘fundamental postulate’.
 5. All these diﬃculties disappear as soon as we interpret our
 probabilities objectively. (It does not matter, in the context of the
 new appendices
-426
-
 
 present paper, whether the objective interpretation is a purely statistical
 interpretation or a propensity interpretation.3) According to the
@@ -17102,13 +15181,11 @@ by either E(h, e), or C(h, e), or else—keeping more closely to Keynes’
 idea—by the absolute values of either of these functions.
 7. If, as in our case, h is a statistical hypothesis, and e the report of
 the results of statistical tests of h, then C(h, e) is a measure of the degree
-to which these tests corroborate h, exactly as in the case of a non-
-statistical hypothesis.
+to which these tests corroborate h, exactly as in the case of a nonstatistical hypothesis.
 It should be mentioned, however, that as opposed to the case of a
 non-statistical hypothesis, it might sometimes be quite easy to estimate
 the numerical values of E(h, e) and even of C(h, e), if h is a statistical
-hypothesis.6 (In 8 I will brieﬂy indicate how such numerical calcula-
-tions might proceed in simple cases, including, of course, the case of
+hypothesis.6 (In 8 I will brieﬂy indicate how such numerical calculations might proceed in simple cases, including, of course, the case of
 h = ‘p(a, b) = 1’.)
 The expression
 P(e, h) −P(e)
@@ -17124,24 +15201,19 @@ constructed a test statement e of this kind, we must submit e itself to
 empirical tests. (That is to say, we must try to ﬁnd evidence refuting e.)
 importance. In this Journal, 1954, 5, 324, I suggested that we deﬁne
 C(x, y, z) = (P(y, xz) −P(y, z))/(P(y, xz) −P(xy, z) + P(y, z)).
-From this we obtain C(x, y) by assuming z (the ‘background knowledge’) to be tauto-
-logical, or non-existent (if this manner of expression is preferred).
-6 It is quite likely that in numerically calculable cases, the logarithmic functions sug-
-gested by Hamblin and Good (see my ‘Second Note’) will turn out to be improvements
+From this we obtain C(x, y) by assuming z (the ‘background knowledge’) to be tautological, or non-existent (if this manner of expression is preferred).
+6 It is quite likely that in numerically calculable cases, the logarithmic functions suggested by Hamblin and Good (see my ‘Second Note’) will turn out to be improvements
 upon the functions which I originally suggested. Moreover, it should be noted that from
 a numerical point of view (but not from the theoretical point of view underlying our
 desiderata) my functions and the ‘degree of factual support’ of Kemeny and Oppenheim
 will in most cases lead to similar results.
 new appendices
-428
-
 
 Now let h be the statement
 P(a, b) = r
 (5)
 and let e be the statement ‘In a sample which has the size n and which
-satisﬁes the condition b (or which is taken at random from the popula-
-tion b), a is satisﬁed in n(r ± δ) of the instances’.*1 Then we may put,
+satisﬁes the condition b (or which is taken at random from the population b), a is satisﬁed in n(r ± δ) of the instances’.*1 Then we may put,
 especially for small values of δ,
 P(e) ≈ 2 δ*2
 (6)
@@ -17180,8 +15252,7 @@ P(e, h) −P(e), and thus our functions E and C, can only be large if δ is
 small and n large; or in other words, if e is a statistical report asserting a good ﬁt
 in a large sample.
 Thus the test-statement e will be the better the greater its precision
-(which will be inverse to 2δ) and consequently its refutability or con-
-tent, and the larger the sample size n, that is to say, the statistical
+(which will be inverse to 2δ) and consequently its refutability or content, and the larger the sample size n, that is to say, the statistical
 material required for testing e. And the test-statement e so constructed
 may then be confronted with the results of actual observations.
 We see that accumulating statistical evidence will, if favourable,
@@ -17212,8 +15283,6 @@ of calculation here described. But since this method ignores the ﬁne-structure
 and probability, it is very crude, as far as non-statistical theories are concerned. Thus in
 these cases, we may rely upon the comparative method explained in footnote 7 to the
 new appendices
-430
-
 
 9. One may see from all this that the testing of a statistical
 hypothesis is deductive—as is that of all other hypotheses: ﬁrst a
@@ -17228,16 +15297,12 @@ sequence of the length n has the same probability as any other
 sequence (given h). Thus we should arrive at the same value for P(e, h),
 and thus for E and C—viz. E = C = 0—whether e contains, say only
 heads, or whether it contains exactly half heads and half tails. This
-shows that we cannot use, as evidence for or against h, our total obser-
-vational knowledge, but that we must extract, from our observational
-knowledge, such statistical statements as can be compared with state-
-ments which either follow from h, or which have at least a high
+shows that we cannot use, as evidence for or against h, our total observational knowledge, but that we must extract, from our observational
+knowledge, such statistical statements as can be compared with statements which either follow from h, or which have at least a high
 probability, given h. Thus if e consists of the complete results of a long
-sequence of tosses, then e is, in this form, completely useless as a test-
-statement of a statistical hypothesis. But a logically weaker statement of
+sequence of tosses, then e is, in this form, completely useless as a teststatement of a statistical hypothesis. But a logically weaker statement of
 the average frequency of heads, extracted from the same e, could be used.
-For a probabilistic hypothesis can explain only statistically interpreted ﬁnd-
-ings, and it can therefore be tested and corroborated only by statistical
+For a probabilistic hypothesis can explain only statistically interpreted ﬁndings, and it can therefore be tested and corroborated only by statistical
 abstracts—and not, for example, by the ‘total available evidence’, if
 this consists of a full observation report; not even if its various
 ‘First Note’ above. It should be stressed that by formulating a theory in the form ‘(x)Ax’,
@@ -17245,8 +15310,7 @@ we are in general forced to make ‘A’ a highly complex and non-observational 
 (See also appendix *vii, especially footnote 1.)
 I believe that it is of some interest to mention here that the method developed in the
 text allows us to obtain numerical results—that is, numerical degrees of corroboration—in
-all cases envisaged either by Laplace or by those modern logicians who introduce arti-
-ﬁcial language systems, in the vain hope of obtaining in this way an a priori metric for the
+all cases envisaged either by Laplace or by those modern logicians who introduce artiﬁcial language systems, in the vain hope of obtaining in this way an a priori metric for the
 probability of their predicates, believing as they do that this is needed in order to get
 numerical results. Yet I get numerical degrees of corroboration in many cases far beyond
 those language systems, since measurable predicates do not create any new problem for
@@ -17270,8 +15334,7 @@ accept Fisher’s likelihood function as an adequate measure of degree
 of corroboration. We can interpret, vice versa, our measure of degree of
 corroboration as a generalization of Fisher’s likelihood function; a generalization
 which covers cases, such as a comparatively large δ, in which Fisher’s
-likelihood function would become clearly inadequate. For the likeli-
-hood of h in the light of the statistical evidence e should certainly not
+likelihood function would become clearly inadequate. For the likelihood of h in the light of the statistical evidence e should certainly not
 reach a value close to its maximum merely because (or partly because)
 the available statistical evidence e was lacking in precision.
 It is unsatisfactory, not to say paradoxical, that statistical evidence e,
@@ -17282,8 +15345,7 @@ problem discussed under point 3 of the ‘Second Note’, and also in the presen
 especially footnote *1). Had we to determine the absolute probability of the ‘total
 available evidence’ consisting of the conjunction of a large number of observational
 reports, then we should have to know the absolute probability (or ‘width’) of each of
-these reports, in order to form their product, under the assumption (discussed in appen-
-dix *vii above) of the absolute independence of these reports. But in order to determine
+these reports, in order to form their product, under the assumption (discussed in appendix *vii above) of the absolute independence of these reports. But in order to determine
 the absolute probability of a statistical abstract, we do not have to make any assumptions
 concerning either the absolute probability of the observational reports or their
 independence. For it is clear, even without assuming a Laplacean distribution, that (6)
@@ -17296,8 +15358,6 @@ universe of things or events. The universe of samples chosen depends, of course,
 the hypothesis to be tested. It is within each universe of samples that an assumption of
 equiprobability leads to a Laplacean (or ‘rectangular’) distribution.
 new appendices
-432
-
 
 the same likelihood—i.e.P(e, h) = 0.9930—as would statistical evidence e′,
 based on only a hundred tosses and δ = 0.135.*5 (But it is quite
@@ -17305,8 +15365,7 @@ satisfactory to ﬁnd that E(h, e) = 0.9946 while E(h, e′) = 0.7606.)
 11. It should be noticed that the absolute logical probability of a
 universal law h—that is, P(h)—will be in general zero, in an inﬁnite
 universe. For this reason, P(e, h)—that is, the likelihood of h—will
-become indeﬁnite, in most systems of probability, since in most sys-
-tems P(e, h) is deﬁned as P(eh)/P(h) = 0/0. We therefore need a formal
+become indeﬁnite, in most systems of probability, since in most systems P(e, h) is deﬁned as P(eh)/P(h) = 0/0. We therefore need a formal
 calculus of probability which yields deﬁnite values for P(e, h) even if
 P(h) = 0, and which will always and unambiguously yield P(e, h) = 1
 whenever e follows (or ‘almost follows’) from h. A system answering
@@ -17331,8 +15390,7 @@ throw is even’, or ‘the next throw is a number > 4’ or even ‘the next th
 other than 2’. (The values of C(x, y) are satisfactory, it seems: they are, respectively, 3/8;
 4/7; and 1/10.)
 7 This Journal, 1955, 6; see esp. 56 sq. A simpliﬁed form of this axiom system may be
-found in my papers ‘Philosophy of Science: A Personal Report’ (p. 191) and ‘The Pro-
-pensity Interpretation’, etc., referred to in note 3 above. (In the latter paper, p. 67, note 3,
+found in my papers ‘Philosophy of Science: A Personal Report’ (p. 191) and ‘The Propensity Interpretation’, etc., referred to in note 3 above. (In the latter paper, p. 67, note 3,
 the last occurrence of ‘ < ’ should be replaced by ‘≠’, and in (B) and (C) a new line
 should commence after the second arrows.) *See the new appendices *iv and *v.
 8 Cf. this Journal, 1955, 6, 55 (the title of the section).
@@ -17340,17 +15398,14 @@ should commence after the second arrows.) *See the new appendices *iv and *v.
 appendix *ix 433
 
 
-them, there is a logical interpretation which takes probability as a general-
-ization of deducibility. But this probability logic has little to do with
+them, there is a logical interpretation which takes probability as a generalization of deducibility. But this probability logic has little to do with
 our hypothetical estimates of chances or of odds; for the probability
 statements in which we express these estimates are always hypothetical
 appraisals of the objective possibilities inherent in the particular situation—
-in the objective conditions of the situation, for example in the experi-
-mental set-up. These hypothetical estimates (which are not derivable from
+in the objective conditions of the situation, for example in the experimental set-up. These hypothetical estimates (which are not derivable from
 anything else, but freely conjectured, although they may be suggested
 by symmetry considerations, or by statistical material) can in many
-important cases be submitted to statistical tests. They are never esti-
-mates of our own nescience: the opposite view, as Poincaré saw so
+important cases be submitted to statistical tests. They are never estimates of our own nescience: the opposite view, as Poincaré saw so
 clearly, is the consequence of a (possibly unconscious) determinist
 view of the world.10
 From this point of view, a ‘rational gambler’ always tries to estimate
@@ -17359,8 +15414,7 @@ measure of his ‘degree of belief’ (as is usually assumed), but they are,
 rather, the object of his belief. He believes that there are, objectively,
 such odds: he believes in a probabilistic hypothesis h. If we wish to
 measure, behaviouristically, the degree of his belief (in these odds or in
-anything else) then we might have to ﬁnd out, perhaps, what propor-
-tion of his fortune he is ready to risk on a one-to-one bet that his
+anything else) then we might have to ﬁnd out, perhaps, what proportion of his fortune he is ready to risk on a one-to-one bet that his
 belief—his estimate of the odds—was correct, provided that this can
 be ascertained.
 As to degree of corroboration, it is nothing but a measure of the
@@ -17377,25 +15431,17 @@ implicit in this note.
 10 Cf. H. Poincaré, Science and Method, 1914, IV, 1. (This chapter was ﬁrst published in La
 Revue du mois, 1907, 3, pp. 257–276, and in The Monist, 1912, 22, pp. 31–52.)
 new appendices
-434
-
 
 The ﬁrst problem I have in mind is, again, that of the metric of logical
-probability (cf. the second note, point 3), and its relation to the distinc-
-tion between what I am going to call primary and secondary prob-
-ability statements. My thesis is that on the secondary level, Laplace’s
+probability (cf. the second note, point 3), and its relation to the distinction between what I am going to call primary and secondary probability statements. My thesis is that on the secondary level, Laplace’s
 and Bernoulli’s distribution provide us with a metric.
 We may operate with a system S1 = {a, b, c, a1, b1, c1, . . . } of elements
-(in the sense of our system of postulates in appendix *iv). These elem-
-ents will give rise to probability statements of the form ‘p(a, b) = r’. We
-may call them ‘primary probability statements’. These primary prob-
-ability statements may now be considered as the elements of a second-
-ary system of elements, S2 = {e, f, g, h, . . . }; so that ‘e’, ‘f’, etc., are now
+(in the sense of our system of postulates in appendix *iv). These elements will give rise to probability statements of the form ‘p(a, b) = r’. We
+may call them ‘primary probability statements’. These primary probability statements may now be considered as the elements of a secondary system of elements, S2 = {e, f, g, h, . . . }; so that ‘e’, ‘f’, etc., are now
 names of statements of the form ‘p(a, b) = r’.
 Now Bernoulli’s theorem tells us, roughly, the following: let h be
 ‘p(a, b) = r’; then if h is true, it is extremely probable that in a long
-sequence of repetitions of the conditions b, the frequency of the occur-
-rence of a will be equal to r, or very nearly so. Let ‘δr(a)n’ denote the
+sequence of repetitions of the conditions b, the frequency of the occurrence of a will be equal to r, or very nearly so. Let ‘δr(a)n’ denote the
 statement that a will occur in a long sequence of n repetitions with a
 frequency r ± δ. Then Bernoulli’s theorem says that the probability of
 δr(a)n will approach 1, with growing n, given h, i.e. given that p(a, b) = r.
@@ -17413,8 +15459,7 @@ say, h is a primary probability statement and g is a primary statement of
 relative frequency.
 These considerations show that we have to admit, in S2, frequency
 statements such as g, that is to say, δr(a)n, and probabilistic assumptions,
-or hypothetical probabilistic estimates, such as h. It seems for this rea-
-son proper, in the interest of a homogeneous S2, to identify all the
+or hypothetical probabilistic estimates, such as h. It seems for this reason proper, in the interest of a homogeneous S2, to identify all the
 probability statements which form the elements of S2, with frequency
 statements, or in other words, to assume, for the primary probability
 appendix *ix 435
@@ -17431,19 +15476,16 @@ Although we may not have a logical (or absolute) metric of the
 primary probability statements, that is to say, although we may have no
 idea of the value of p(a) or of p(b), we may have a logical or absolute
 metric of the secondary probability statements: this is provided by the
-Laplacean distribution, according to which P(g), the absolute prob-
-ability of g, that is to say of δr (a)n, equals 2δ, whether g is empirically
+Laplacean distribution, according to which P(g), the absolute probability of g, that is to say of δr (a)n, equals 2δ, whether g is empirically
 observed, or a hypothesis; so that the typical probabilistic hypothesis, h,
 gets P(h) = 0, because h has the form ‘p(a, b) = r’, with δ = 0. Since
-Bernoulli’s methods allow us to calculate the value of the relative prob-
-ability P(g, h), by pure mathematical analysis, we may consider the
+Bernoulli’s methods allow us to calculate the value of the relative probability P(g, h), by pure mathematical analysis, we may consider the
 relative probabilities P(g, h) as likewise determined on purely logical
 grounds. It therefore seems entirely adequate to adopt, on the
 secondary level, the logical interpretation of the formal calculus of
 probability.
 To sum up, we may consider the methods of Bernoulli and Laplace as
-directed towards the establishment of a purely logical metric of prob-
-abilities on the secondary level, independently of whether or not there
+directed towards the establishment of a purely logical metric of probabilities on the secondary level, independently of whether or not there
 exists a logical metric of probabilities on the primary level. Bernoulli’s
 methods determine thereby the logical metric of relative probabilities
 (secondary likelihood of primary hypotheses, in the main), and
@@ -17452,12 +15494,9 @@ reports upon samples, in the main).
 Their eﬀorts were, no doubt, directed to a large extent towards
 establishing a probabilistic theory of induction; they certainly tended
 to identify C with p. I need not say that I believe they were mistaken in
-this: statistical theories are, like all other theories, hypotheticodeduc-
-tive. And statistical hypotheses are tested, like all other hypotheses,
+this: statistical theories are, like all other theories, hypotheticodeductive. And statistical hypotheses are tested, like all other hypotheses,
 by attempts to falsify them—by attempts to reduce their secondary
 new appendices
-436
-
 
 likelihood to zero, or to almost zero. Their ‘degree of corroboration’, C,
 is of interest only if it is the result of such tests; for nothing is easier
@@ -17473,8 +15512,7 @@ congratulate me on having solved, with my C function, the age-old
 problem of induction in a positive sense—on having ﬁnally established,
 with my C function, the validity of inductive reasoning.
 My reply would be as follows. I do not object to calling C(h, e) by any
-name whatsoever, suitable or unsuitable: I am quite indiﬀerent to ter-
-minology, so long as it does not mislead us. Nor do I object—so long
+name whatsoever, suitable or unsuitable: I am quite indiﬀerent to terminology, so long as it does not mislead us. Nor do I object—so long
 as it does not mislead us—to an extension (inadvertent or otherwise)
 of the meaning of ‘induction’. But I must insist that C(h, e) can be
 interpreted as degree of corroboration only if e is a report on the severest tests
@@ -17486,8 +15524,7 @@ for ‘conﬁrmation’. At best, he may realize that we must not be based in
 our selection of e: that we must not ignore unfavourable cases; and that
 e must comprise reports on our total observational knowledge,whether
 favourable or unfavourable. (Note that the inductivist’s requirement
-that e must comprise our total observational knowledge cannot be rep-
-resented in any formalism. It is a non-formal requirement, a condition
+that e must comprise our total observational knowledge cannot be represented in any formalism. It is a non-formal requirement, a condition
 of adequacy which must be satisﬁed if we wish to interpretp(h, e) as degree
 of our imperfect knowledge of h.)
 In opposition to this inductivist attitude, I assert that C(h, e) must not
@@ -17535,11 +15572,8 @@ is least ad hoc. It will also be the best testable theory; but the best theory
 in this sense need not always be the best tested theory.
 (2) A most important contribution to the problem of the
 new appendices
-438
 
-
-falsiﬁability of probabilistic or statistical theories and of falsifying stat-
-istical tests has just been published as this new edition goes to the press.
+falsiﬁability of probabilistic or statistical theories and of falsifying statistical tests has just been published as this new edition goes to the press.
 It is Donald A. Gillies, ‘A Falsifying Rule for Probability Statements’,
 B.J.P.S. 22, 1971, pp. 231–261.
 appendix *ix 439
@@ -17548,19 +15582,16 @@ appendix *ix 439
 APPENDIX *x
 Universals, Dispositions, and
 Natural or Physical Necessity
-(1) The fundamental doctrine which underlies all theories of induc-
-tion is the doctrine of the primacy of repetitions. Keeping Hume’s attitude in
+(1) The fundamental doctrine which underlies all theories of induction is the doctrine of the primacy of repetitions. Keeping Hume’s attitude in
 mind, we may distinguish two variants of this doctrine. The ﬁrst
 (which Hume criticized) may be called the doctrine of the logical
 primacy of repetitions. According to this doctrine, repeated instances
 furnish a kind of justiﬁcation for the acceptance of a universal law. (The
 idea of repetition is linked, as a rule, with that of probability.) The
-second (which Hume upheld) may be called the doctrine of the tem-
-poral (and psychological) primacy of repetitions. According to this
+second (which Hume upheld) may be called the doctrine of the temporal (and psychological) primacy of repetitions. According to this
 second doctrine, repetitions, even though they should fail to furnish
 and kind of justiﬁcation for a universal law and for the expectations and
-beliefs which it entails, nevertheless induce and arouse these expect-
-ations and beliefs in us, as a matter of fact—however little ‘justiﬁed’ or
+beliefs which it entails, nevertheless induce and arouse these expectations and beliefs in us, as a matter of fact—however little ‘justiﬁed’ or
 ‘rational’ this fact (or these beliefs) may be.
 Both variants of this doctrine of the primacy of repetitions, the
 stronger doctrine of their logical primacy and the weaker doctrine of
@@ -17572,8 +15603,7 @@ All the repetitions which we experience are approximate repetitions; and by
 
 saying that a repetition is approximate I mean that the repetition B of an
 event A is not identical with A, or indistinguishable from A, but only
-more or less similar to A. But if repetition is thus based upon mere similar-
-ity, it must share one of the main characteristics of similarity; that is, its
+more or less similar to A. But if repetition is thus based upon mere similarity, it must share one of the main characteristics of similarity; that is, its
 relativity. Two things which are similar are always similar in certain
 respects. The point may be illustrated by a simple diagram.
 If we look at this diagram, we ﬁnd that some of the ﬁgures are
@@ -17588,8 +15618,7 @@ similarity.
 These diagrams show that things may be similar in diﬀerent respects, and
 that any two things which are from one point of view similar may be
 dissimilar from another point of view. Generally, similarity, and with it
-repetition, always presuppose the adoption of a point of view: some simi-
-larities or repetitions will strike us if we are interested in one problem,
+repetition, always presuppose the adoption of a point of view: some similarities or repetitions will strike us if we are interested in one problem,
 and others if we are interested in another problem. But if similarity and
 repetition presuppose the adoption of a point of view, or an interest, or
 an expectation, it is logically necessary that points of view, or interests,
@@ -17602,16 +15631,12 @@ ingenuity, ﬁnd always points of view such that all the things belonging
 to that set are similar (or partially equal) if considered from one of
 these points of view; which means that anything can be said to be a
 ‘repetition’ of anything, if only we adopt the appropriate point of view.
-This shows how naïve it is to look upon repetition as something ultim-
-ate, or given. The point here made is closely related to the fact (men-
-tioned in appendix *vii, footnote 9; cf. the property B) that we can ﬁnd,
+This shows how naïve it is to look upon repetition as something ultimate, or given. The point here made is closely related to the fact (mentioned in appendix *vii, footnote 9; cf. the property B) that we can ﬁnd,
 for any given ﬁnite sequence of noughts and ones, a mathematical rule
 or ‘law’ for constructing an inﬁnite sequence such that it commences
 with the given ﬁnite sequence.
-I now come to my second argument against the primacy of repeti-
-tions. It is this. There are laws and theories of a character altogether
-diﬀerent from ‘All swans are white’, even though they may be formu-
-lated in a similar way. Take ancient atomic theory. Admittedly, it may
+I now come to my second argument against the primacy of repetitions. It is this. There are laws and theories of a character altogether
+diﬀerent from ‘All swans are white’, even though they may be formulated in a similar way. Take ancient atomic theory. Admittedly, it may
 be expressed (in one of its simplest forms) as ‘All material bodies are
 composed of corpuscles’. Yet clearly, the ‘all’-form is comparatively
 unimportant in the case of this law. What I mean is this. The problem of
@@ -17620,29 +15645,21 @@ temporal primacy of repetitions (that is, against Hume) may be found in sections
 v of my paper ‘Philosophy of Science: A Personal Report’, now included under a diﬀerent
 title as chapter 1 in my Conjectures and Refutations, 1963, 1965.
 new appendices
-442
 
-
-showing that one single physical body—say, a piece of iron—is com-
-posed of atoms or ‘corpuscles’ is at least as diﬃcult as that of showing
+showing that one single physical body—say, a piece of iron—is composed of atoms or ‘corpuscles’ is at least as diﬃcult as that of showing
 that all swans are white. Our assertions transcend, in both cases, all
-observational experience. It is the same with almost all scientiﬁc theor-
-ies. We cannot show, directly, even of one physical body that, in the
+observational experience. It is the same with almost all scientiﬁc theories. We cannot show, directly, even of one physical body that, in the
 absence of forces, it moves along a straight line; or that it attracts, and is
 attracted by, one other physical body in accordance with the inverse
-square law. All these theories describe what we may call structural proper-
-ties of the world; and they all transcend all possible experience. The dif-
-ﬁculty with these structural theories is not so much to establish the
+square law. All these theories describe what we may call structural properties of the world; and they all transcend all possible experience. The difﬁculty with these structural theories is not so much to establish the
 universality of the law from repeated instances as to establish that it
 holds even for one single instance.
 This diﬃculty has been seen by many inductivists. Most of those
 who saw it tried, like Berkeley, to make a sharp distinction between
-pure observational generalizations and more ‘abstract’ or ‘occult’ the-
-ories, such as the corpuscular theory, or Newton’s theory; and they
+pure observational generalizations and more ‘abstract’ or ‘occult’ theories, such as the corpuscular theory, or Newton’s theory; and they
 tried, as a rule, to resolve the problem by saying, as did Berkeley, that
 abstract theories are not genuine assertions about the world, but that
-they are nothing but instruments—instruments for the prediction of observ-
-able phenomena. I have called this view ‘instrumentalism’, and I have
+they are nothing but instruments—instruments for the prediction of observable phenomena. I have called this view ‘instrumentalism’, and I have
 criticized it in some detail elsewhere.2 Here I will only say that I reject
 instrumentalism, and I will give only one reason for rejecting it: that it
 does not solve the problem of the ‘abstract’ or ‘occult’ or ‘structural’
@@ -17677,12 +15694,10 @@ I explained brieﬂy at the end of section 25 how it is that the use of
 universals such as ‘glass’ or ‘water’, in a statement like ‘here is a glass of
 water’, necessarily transcends experience. It is due to the fact that
 words like ‘glass’ or ‘water’ are used to characterize the law-like behaviour
-of certain things; which may be expressed by calling them ‘disposi-
-tional words’. Now since every law transcends experience—which is
+of certain things; which may be expressed by calling them ‘dispositional words’. Now since every law transcends experience—which is
 merely another way of saying that it is not veriﬁable—every predicate
 expressing law-like behaviour transcends experience also: this is why
-the statement ‘this container contains water’ is a testable but non-
-veriﬁable hypothesis, transcending experience.3 It is for this reason
+the statement ‘this container contains water’ is a testable but nonveriﬁable hypothesis, transcending experience.3 It is for this reason
 impossible to ‘constitute’ any true universal term (as Carnap tried to
 do) that is to say, to deﬁne it in purely experimental or observational
 terms—or to ‘reduce’ it to purely experiential or observational terms:
@@ -17700,29 +15715,23 @@ the falsity, of some test-statement, we can only establish the falsity of the st
 test, but not its truth. The reason is that the latter entails an inﬁnite number of test
 statements. See also section 29 of the book, and section *22 of my Postscript.
 new appendices
-444
-
 
 to the fact that universals can be dispositional in varying degrees. Thus
 ‘soluble’ or ‘breakable’ are clearly dispositional in a higher degree than
-‘dissolved’ or ‘broken’. But it is sometimes not realized that even ‘dis-
-solved’ and ‘broken’ are dispositional. A chemist would not say that
+‘dissolved’ or ‘broken’. But it is sometimes not realized that even ‘dissolved’ and ‘broken’ are dispositional. A chemist would not say that
 sugar or salt has dissolved in water if he did not expect that he could get
 the sugar or the salt back, by evaporating the water. Thus ‘dissolved’
 denotes a dispositional state. And as to ‘broken’, we need only consider
 how we proceed if we are in doubt whether or not a thing is broken—
 something we have dropped, perhaps, or say, a bone in our body: we
 test the behaviour of the thing in question, trying to ﬁnd out whether it
-does not show a certain undue mobility. Thus ‘broken’, like ‘dis-
-solved’, describes dispositions to behave in a certain regular or law-like
+does not show a certain undue mobility. Thus ‘broken’, like ‘dissolved’, describes dispositions to behave in a certain regular or law-like
 manner. Similarly, we say of a surface that it is red, or white, if it has the
-disposition to reﬂect red, or white, light, and consequently the dis-
-position to look in daylight red, or white. In general, the dispositional
+disposition to reﬂect red, or white, light, and consequently the disposition to look in daylight red, or white. In general, the dispositional
 character of any universal property will become clear if we consider
 what tests we should undertake if we are in doubt whether or not the
 property is present in some particular case.
-Thus the attempt to distinguish between dispositional and non-
-dispositional predicates is mistaken, just as is the attempt to distinguish
+Thus the attempt to distinguish between dispositional and nondispositional predicates is mistaken, just as is the attempt to distinguish
 between theoretical terms (or languages) and non-theoretical or
 empirical or observational or factual or ordinary terms (or languages).
 It is, perhaps, somewhat like this. What people have learnt before
@@ -17735,16 +15744,14 @@ universal and thus transcend any ﬁnite number of their observable
 instances; and singular statements transcend experience because the
 universal terms which normally occur in them entail dispositions to
 behave in a law-like manner, so that they entail universal laws (of some
-lower order of universality, as a rule). Accordingly, universal laws tran-
-scend experience in at least two ways: because of their universality, and
+lower order of universality, as a rule). Accordingly, universal laws transcend experience in at least two ways: because of their universality, and
 because of the occurrence of universal or dispositional terms in them.
 And they transcend experience in a higher degree if the dispositional
 terms which occur in them are dispositional in a higher degree or
 appendix *x 445
 
 
-more abstract. There are layers of higher and higher degrees of univer-
-sality, and thus of transcendence. (In section *15 of the Postscript, an
+more abstract. There are layers of higher and higher degrees of universality, and thus of transcendence. (In section *15 of the Postscript, an
 attempt is made to explain the sense in which these are also layers of
 what may be called ‘depth’.)
 It is of course because of this transcendence that scientiﬁc laws or
@@ -17762,8 +15769,7 @@ because explanation involves the use of explanatory hypotheses which
 must transcend what we hope to explain.
 The reason given under (a) is a pragmatic or instrumentalist one,
 and although I believe that it is true, I do not think that it is comparable
-in importance with the reason given under (b); for even if a pro-
-gramme of eliminating explanatory theories for practical purposes
+in importance with the reason given under (b); for even if a programme of eliminating explanatory theories for practical purposes
 (say, for prediction) were to succeed, the aim of the theorist would be
 unaﬀected.4
 4 That it is possible to do without theories is asserted by Carnap, Logical Foundations of
@@ -17771,18 +15777,14 @@ Probability, pp. 574 f. Yet there is no reason whatever for the belief that Carn
 even if it were otherwise defensible, could be legitimately transferred from his model
 language to ‘the language of science’; see my Preface, 1958. In two very interesting articles
 W. Craig has discussed certain reduction programmes. (See Journal of Symb. Logic 18, 1953,
-pp. 30 f., and Philosophical Review 65, 1956, pp. 38 ﬀ.) To his own excellent critical com-
-ments on his method of eliminating ‘auxiliary’ (or ‘transcendent’) ideas, the following
+pp. 30 f., and Philosophical Review 65, 1956, pp. 38 ﬀ.) To his own excellent critical comments on his method of eliminating ‘auxiliary’ (or ‘transcendent’) ideas, the following
 might be added. (i) He achieves the elimination of explanatory theories, essentially, by
-promoting inﬁnitely many theorems to the rank of axioms (or by replacing the deﬁn-
-ition of ‘theorem’ by a new deﬁnition of ‘axiom’ which is co-extensive with it as far as
+promoting inﬁnitely many theorems to the rank of axioms (or by replacing the deﬁnition of ‘theorem’ by a new deﬁnition of ‘axiom’ which is co-extensive with it as far as
 the ‘puriﬁed’ sub-language goes). (ii) In the actual construction of the puriﬁed system,
 he is of course guided by our knowledge of the theories to be eliminated. (iii) The puriﬁed system
 is no longer an explanatory system, and no longer testable in the sense in which
 explanatory systems may be testable whose testability is, essentially, related to their
 new appendices
-446
-
 
 (5) That theories transcend experience in the sense here indicated
 was asserted in many places in the book. At the same time, theories
@@ -17793,26 +15795,21 @@ as ‘All planets move in ellipses’, has been advanced by William
 Kneale. I have found Kneale’s criticism diﬃcult to understand. Even
 now I am not entirely sure whether I understand him properly; but
 I hope I do.5
-I believe that Kneale’s point can be put as follows. Although uni-
-versal statements are entailed by statements of natural law, the latter are
+I believe that Kneale’s point can be put as follows. Although universal statements are entailed by statements of natural law, the latter are
 logically stronger than the former. They do not only assert ‘All planets
 move in ellipses’, but rather something like ‘All planets move necessarily
-in ellipses.’ Kneale calls a statement of this kind a ‘principle of neces-
-sitation’. I do not think that he succeeds in making quite clear what the
-diﬀerence is between a universal statement and a ‘principle of neces-
-sitation’. He speaks of ‘the need for a more precise formulation of the
+in ellipses.’ Kneale calls a statement of this kind a ‘principle of necessitation’. I do not think that he succeeds in making quite clear what the
+diﬀerence is between a universal statement and a ‘principle of necessitation’. He speaks of ‘the need for a more precise formulation of the
 notions of contingency and necessity’.6 But a little later, one reads to
 one’s surprise: ‘In fact, the word “necessity” is the least troublesome of
-those with which we have to deal in this part of philosophy.’7 Admit-
-tedly, between these two passages, Kneale tries to persuade us that ‘the
+those with which we have to deal in this part of philosophy.’7 Admittedly, between these two passages, Kneale tries to persuade us that ‘the
 sense of this distinction’—the distinction between contingency and
 necessity—‘can be easily understood from examples’.8 But I found his
 examples perplexing. Always assuming that I have succeeded in my
 endeavours to understand Kneale, I must say that his positive theory of
 informative content and depth. (One might well say that the axioms of the puriﬁed system
 have zero depth in the sense of section *15 of my Postscript.)
-5 Cf. William Kneale, Probability and Induction, 1949. One of my minor diﬃculties in under-
-standing Kneale’s criticism was connected with the fact that he gives in some places very
+5 Cf. William Kneale, Probability and Induction, 1949. One of my minor diﬃculties in understanding Kneale’s criticism was connected with the fact that he gives in some places very
 good outlines of some of my views, while in others he seems to miss my point
 completely. (See for example note 17, below.)
 6 Op. cit., p. 32.
@@ -17827,21 +15824,18 @@ appendix *x 447
 natural laws seems to me utterly unacceptable. Yet his criticism seems
 to me most valuable.
 (6) I am now going to explain, with the help of an example, what I
-believe to be essentially Kneale’s criticism of the view that a character-
-ization of laws of nature as universal statements is logically suﬃcient and
+believe to be essentially Kneale’s criticism of the view that a characterization of laws of nature as universal statements is logically suﬃcient and
 also intuitively adequate.
 Consider some extinct animal, say the moa, a huge bird whose
 bones abound in some New Zealand swamps. (I have there dug for
 them myself.) We decide to use the name ‘moa’ as a universal name
 (rather than as a proper name; cf. section 14) of a certain biological
 structure; but we ought to admit that it is of course quite possible—
-and even quite credible—that no moas have ever existed in the uni-
-verse, or will ever exist, apart from those which once lived in New
+and even quite credible—that no moas have ever existed in the universe, or will ever exist, apart from those which once lived in New
 Zealand; and we will assume that this credible view is correct.
 Now let us assume that the biological structure of the moa organism
 is of such a kind that under very favourable conditions, a moa might
-easily live sixty years or longer. Let us further assume that the condi-
-tions met by the moa in New Zealand were far from ideal (owing,
+easily live sixty years or longer. Let us further assume that the conditions met by the moa in New Zealand were far from ideal (owing,
 perhaps, to the presence of some virus), and that no moa ever reached
 the age of ﬁfty. In this case, the strictly universal statement ‘All moas
 die before reaching the age of ﬁfty’ will be true; for according to our
@@ -17862,8 +15856,6 @@ as Kneale suggests. For according to our assumptions—assumptions
 which are perfectly reasonable—it would be possible, under favourable
 conditions, for a moa to reach a greater age than any moa has actually
 new appendices
-448
-
 
 reached. But were there a natural law limiting the age of any moa-like
 organism to ﬁfty years, then it would not be possible for any moa to live
@@ -17872,8 +15864,7 @@ I think that all this is intuitively acceptable; in fact, when I said, in
 several places in my book, that natural laws forbid certain events to
 happen, or that they have the character of prohibitions, I gave expression
 to the same intuitive idea. And I think that it is quite possible and
-perhaps even useful to speak of ‘natural necessity’ or of ‘physical neces-
-sity’, in order to describe this character of natural laws, and of their
+perhaps even useful to speak of ‘natural necessity’ or of ‘physical necessity’, in order to describe this character of natural laws, and of their
 logical consequences.
 (8) But I think it is a mistake to underrate the diﬀerences between
 this natural or physical necessity, and other kinds of necessity, for
@@ -17884,15 +15875,12 @@ some world, and to that extent naturally necessary in that world, a
 world in which it is not valid is perfectly conceivable.
 Kneale has criticized this kind of argument by pointing out that
 Goldbach’s conjecture (according to which any even number greater
-than two is the sum of two primes) may conceivably be true, or conceiv-
-ably be false, even though it may well be demonstrable (or refutable),
+than two is the sum of two primes) may conceivably be true, or conceivably be false, even though it may well be demonstrable (or refutable),
 and in this sense mathematically or logically necessary (or impossible);
 and he argues that ‘the conceivability of the contradictory is not to be
 taken as a disproof of necessity in mathematics’.9 But if so, why, he
-asks, ‘should it be supposed to furnish . . . a disproof in natural sci-
-ence?’10 Now I think that this argument lays too much stress on the word
-‘conceivable’; moreover, it operates with a sense of ‘conceivable’ dif-
-ferent from the one intended: once we have a proof of Goldbach’s
+asks, ‘should it be supposed to furnish . . . a disproof in natural science?’10 Now I think that this argument lays too much stress on the word
+‘conceivable’; moreover, it operates with a sense of ‘conceivable’ different from the one intended: once we have a proof of Goldbach’s
 theorem, we may say that this proof establishes precisely that an even
 number (greater than two) which is not the sum of two primes is
 inconceivable—in the sense that it leads to inconsistent results: to the
@@ -17913,13 +15901,11 @@ arguing must be invalid since the truth of a cannot be inconceivable,
 considering that we did start by conceiving, precisely, the truth of a.
 Thus ‘inconceivable’ in logic and mathematics is simply another
 word for ‘leading to an obvious contradiction’. Logically possible or
-‘conceivable’ is everything that does not lead to an obvious contradic-
-tion, and logically impossible or ‘inconceivable’ is everything that
+‘conceivable’ is everything that does not lead to an obvious contradiction, and logically impossible or ‘inconceivable’ is everything that
 does. When Kneale says that the contradictory of a theorem may be
 ‘conceivable’, he uses the word in another sense—and in a very good
 sense too.
-(9) Thus an assumption is logically possible if it is not self-
-contradictory; it is physically possible if it does not contradict the laws
+(9) Thus an assumption is logically possible if it is not selfcontradictory; it is physically possible if it does not contradict the laws
 of nature. The two meanings of ‘possible’ have enough in common to
 explain why we use the same word; but to gloss over their diﬀerence
 can only lead to confusion.
@@ -17929,21 +15915,17 @@ teaches (cf. Philos. Schriften, Gerhardt, 7, p. 390) that the world is the work
 of God, in a sense somewhat similar to that in which a sonnet, or a
 rondeau, or a sonata, or a fugue, is the work of an artist. The artist may
 freely choose a certain form, voluntarily restricting his freedom by this
-choice: he imposes certain principles of impossibility upon his cre-
-ation, for example upon his rhythm, and, to a lesser extent, his words
+choice: he imposes certain principles of impossibility upon his creation, for example upon his rhythm, and, to a lesser extent, his words
 which, as compared to the rhythm, may appear contingent, accidental.
 But this does not mean that his choice of form, or of rhythm, was not
 contingent also. For another form or rhythm could have been chosen.
 Similarly with natural laws. They restrict the (logically) possible
 choice of singular facts. They are thus principles of impossibility with
-respect to these singular facts; and the singular facts seem highly con-
-tingent as compared with the natural laws. But the natural laws, though
+respect to these singular facts; and the singular facts seem highly contingent as compared with the natural laws. But the natural laws, though
 necessary as compared with singular facts, are contingent as compared
 with logical tautologies. For there may be structurally diﬀerent worlds—
 worlds with diﬀerent natural laws.
 new appendices
-450
-
 
 Thus natural necessity or impossibility is like musical necessity or
 impossibility. It is like the impossibility of a four-beat rhythm in a
@@ -17970,12 +15952,10 @@ was made, He was no longer free to choose the form, or the structure
 of the world; for since this structure—the regularities of nature,
 described by the laws of nature—is necessarily what it is, all He could
 freely choose were the initial conditions.
-It seems to me that Descartes held a view very similar to this. Accord-
-ing to him, all the laws of nature follow with necessity from the one
+It seems to me that Descartes held a view very similar to this. According to him, all the laws of nature follow with necessity from the one
 analytic principle (the essential deﬁnition of ‘body’) according to
 which ‘to be a body’ means the same as ‘to be extended’; which is
-taken to imply that two diﬀerent bodies cannot take up the same exten-
-sion, or space. (Indeed, this principle is similar to Kneale’s standard
+taken to imply that two diﬀerent bodies cannot take up the same extension, or space. (Indeed, this principle is similar to Kneale’s standard
 example—‘that nothing which is red is also green’.11) But it is by
 going beyond these ‘truisms’ (as Kneale calls them, stressing their
 similarity to logical tautologies12) that, beginning with Newton,
@@ -17997,11 +15977,9 @@ we succeed in the task of reducing all the laws of nature to the true
 extended things cannot take up the same extension, or that nothing
 which is red is also green—further explanation would become both
 unnecessary and impossible.
-I see no reason to believe that the doctrine of the existence of ultim-
-ate explanations is true, and many reasons to believe that it is false. The
+I see no reason to believe that the doctrine of the existence of ultimate explanations is true, and many reasons to believe that it is false. The
 more we learn about theories, or laws of nature, the less do they
-remind us of Cartesian self-explanatory truisms or of essentialist def-
-initions. It is not truisms which science unveils. Rather, it is part of the
+remind us of Cartesian self-explanatory truisms or of essentialist definitions. It is not truisms which science unveils. Rather, it is part of the
 greatness and the beauty of science that we can learn, through our own
 critical investigations, that the world is utterly diﬀerent from what we
 ever imagined—until our imagination was ﬁred by the refutation of
@@ -18021,12 +15999,9 @@ appendix and appendices *vii and *viii):
 chapter 3) and my Postscript, for example section *15 and *31.
 14 Cf. my Postscript, especially section *15.
 new appendices
-452
-
 
 p(a) = p(a, a¯) = 0;
-and the same must hold for any logically stronger statement. Accord-
-ingly, a law of nature is, by its great content, as far removed from a
+and the same must hold for any logically stronger statement. Accordingly, a law of nature is, by its great content, as far removed from a
 logically necessary statement as a consistent statement can be; and it is
 much nearer, in its logical import, to a ‘merely accidentally’ universal
 statement than to a logical truism.
@@ -18067,15 +16042,13 @@ world, if at all, only with respect to initial conditions. (*See the Addendum to
 present appendix.)
 We can never know, of course, whether a supposed law is a genuine
 law or whether it only looks like a law but depends, in fact, upon
-certain special initial conditions prevailing in our region of the uni-
-verse. (Cf. section 79.) We cannot, therefore ever ﬁnd out of any
+certain special initial conditions prevailing in our region of the universe. (Cf. section 79.) We cannot, therefore ever ﬁnd out of any
 given non-logical statement that it is in fact naturally necessary: the
 conjecture that it is remains a conjecture for ever (not merely
 because we cannot search our whole world in order to ensure that
 no counter instance exists, but for the even stronger reason that we
 cannot search all worlds that diﬀer from ours with respect to initial
-conditions.) But although our proposed deﬁnition excludes the pos-
-sibility of obtaining a positive criterion of natural necessity, we can in
+conditions.) But although our proposed deﬁnition excludes the possibility of obtaining a positive criterion of natural necessity, we can in
 practice apply our deﬁnition of natural necessity in a negative way: by
 ﬁnding initial conditions under which the supposed law turns out to
 be invalid, we can show that it was not necessary; that is to say, not a
@@ -18091,16 +16064,13 @@ that moas would live longer under diﬀerent conditions—under more
 favourable ones—that we felt that a true universal statement about their
 actual maximal age was of an accidental character.
 (13) We now introduce the symbol ‘N’ as a name of the class of
-statements which are necessarily true, in the sense of natural or physi-
-cal necessity; that is to say, true whatever the initial conditions may be.
+statements which are necessarily true, in the sense of natural or physical necessity; that is to say, true whatever the initial conditions may be.
 With the help of ‘N’, we can deﬁne ‘a→
 N b’ (or in words, ‘If a then
 necessarily b’) by the following somewhat obvious deﬁnition:
 16 Incidentally, logically necessary statements would (simply because they follow from
 any statement) become physically necessary also; but this does not matter, of course.
 new appendices
-454
-
 
 a→
 N b is true if, and only if, (a →b) ε N.
@@ -18128,8 +16098,7 @@ N b is always true if b is necessarily true (whether by logical or
 physical necessity).
 Here a and b may be either statements or statement functions.
 a→
-N b may be called a ‘necessary conditional’ or a ‘nomic con-
-ditional’. It expresses, I believe, what some authors have called
+N b may be called a ‘necessary conditional’ or a ‘nomic conditional’. It expresses, I believe, what some authors have called
 ‘subjunctive conditionals’, or ‘counterfactual conditionals’. (It seems,
 however, that other authors—for example Kneale—meant something
 else by a ‘counterfactual conditional’: they took this name to imply
@@ -18150,25 +16119,21 @@ which, like true universal laws of nature, can be intuitively described
 as being unaﬀected by changes of initial conditions, but also all
 those statements which follow from true universal laws of nature, or
 from the true structural theories about the world. There will be
-statements among these that describe a deﬁnite set of initial condi-
-tions; for example, statements of the form ‘if in this phial under
+statements among these that describe a deﬁnite set of initial conditions; for example, statements of the form ‘if in this phial under
 ordinary room temperature and a pressure of 1000 g per cm2,
-hydrogen and oxygen are mixed . . . then . . .’. If conditional state-
-ments of this kind are deducible from true laws of nature, then their
+hydrogen and oxygen are mixed . . . then . . .’. If conditional statements of this kind are deducible from true laws of nature, then their
 truth will be also invariant with respect to all changes of initial
 conditions: either the initial conditions described in the antecedent
 will be satisﬁed, in which case the consequent will be true (and
 therefore the whole conditional); or the initial conditions described
 in the antecedent will not be satisﬁed and therefore factually untrue
-(‘counter-factual’). In this case the conditional will be true as vacu-
-ously satisﬁed. Thus the much discussed vacuous satisfaction plays its
+(‘counter-factual’). In this case the conditional will be true as vacuously satisﬁed. Thus the much discussed vacuous satisfaction plays its
 proper part to ensure that the statements deducible from naturally
 necessary laws are also ‘naturally necessary’ in the sense of our
 deﬁnition.
 Indeed, we could have deﬁned N simply as the class of natural
 laws and their logical consequences. But there is perhaps a slight
-advantage in deﬁning N with the help of the idea of initial condi-
-tions (of a simultaneity class of singular statements). If we deﬁne N
+advantage in deﬁning N with the help of the idea of initial conditions (of a simultaneity class of singular statements). If we deﬁne N
 as, for example, the class of statements which are true in all worlds
 that diﬀer from our world (if at all) only with respect to initial
 conditions, then we avoid the use of subjunctive (or counter-factual)
@@ -18181,8 +16146,6 @@ from our world only with respect to the initial conditions’ undoubt-
 only a complicated way of saying ‘∼ (a)’; for who would ever think of asserting that
 ‘∼ (a)’ was deducible from the law ‘(x) ((x) ⊃ψ (x))’?
 new appendices
-456
-
 
 edly contains implicitly the idea of laws of nature. What we mean is ‘all
 worlds which have the same structure—or the same natural laws—as
@@ -18191,8 +16154,7 @@ laws of nature, (N°) may be said to be circular. But all deﬁnitions must
 be circular in this sense—precisely as all derivations (as opposed to
 proofs18), for example, all syllogisms, are circular: the conclusion must
 be contained in the premises. Our deﬁnition is not, however, circular in
-a more technical sense. Its deﬁniens operates with a perfectly clear intui-
-tive idea—that of varying the initial conditions of our world; for
+a more technical sense. Its deﬁniens operates with a perfectly clear intuitive idea—that of varying the initial conditions of our world; for
 example, the distances of the planets, their masses, and the mass of the
 sun. It interprets the result of such changes as the construction of a
 kind of ‘model’ of our world (a model or ‘copy’ which does not need
@@ -18209,8 +16171,7 @@ slight. For in that paper, I operate (a) with the idea of natural laws, (b)
 with the idea of conditionals which follow from natural laws; but (a)
 and (b) together have the same extension as N, as we have seen. (c) I
 suggest that ‘subjunctive conditionals’ are those that follow from (a),
-i.e. are just those of the class (b). And (d) I suggest (in the last para-
-graph) that we may have to introduce the supposition that all logically
+i.e. are just those of the class (b). And (d) I suggest (in the last paragraph) that we may have to introduce the supposition that all logically
 possible initial conditions (and therefore all events and processes
 which are compatible with the laws) are somewhere, at some time,
 realized in the world; which is a somewhat clumsy way of saying more
@@ -18227,9 +16188,7 @@ diﬀer (if at all) from our world only with respect to the initial
 conditions.20
 My position of 1949 might indeed be formulated with the help of
 the following statement. Although our world may not comprise all
-logically possible worlds, since worlds of another structure—with dif-
-ferent laws—may be logically possible, it comprises all physically pos-
-sible worlds, in the sense that all physically possible initial conditions
+logically possible worlds, since worlds of another structure—with different laws—may be logically possible, it comprises all physically possible worlds, in the sense that all physically possible initial conditions
 are realized in it—somewhere, at some time. My present view is that it
 is only too obvious that this metaphysical assumption may possibly be
 true—in both senses of ‘possible’—but that we are much better oﬀ
@@ -18261,8 +16220,6 @@ conditions. And this, indeed, seems to me not only admissible, but obvious. Apar
 terminological changes, this seems to be the only change in my position, as compared
 with my note in Mind of 1949. But I think that it is an important change.
 new appendices
-458
-
 
 induction—perhaps somewhat on the lines of a ‘principle of the
 uniformity of nature’.
@@ -18273,20 +16230,16 @@ It is quite true, of course, that a statement like ‘there exist laws of
 nature’ might be appealed to if we wished to justify our search for laws
 of nature.21 But in the context of this remark of mine, ‘justify’ has a
 sense very diﬀerent from the one it has in the context of the question
-whether we can justify induction. In the latter case, we wish to estab-
-lish certain statements—the induced generalizations. In the former
-case, we merely wish to justify an activity, the search for laws. More-
-over, even though this activity may, in some sense, be justiﬁed by the
+whether we can justify induction. In the latter case, we wish to establish certain statements—the induced generalizations. In the former
+case, we merely wish to justify an activity, the search for laws. Moreover, even though this activity may, in some sense, be justiﬁed by the
 knowledge that true laws exist—that there are structural regularities in
 the world—it could be so justiﬁed even without that knowledge: the
 hope that there may be some food somewhere certainly ‘justiﬁes’ the
 search for it—especially if we are starving—even if this hope is far
-removed from knowledge. Thus we can say that, although the know-
-ledge that true laws exist would add something to the justiﬁcation of
+removed from knowledge. Thus we can say that, although the knowledge that true laws exist would add something to the justiﬁcation of
 our search for laws, this search is justiﬁed, even if we lack knowledge,
 by our curiosity, and by the mere hope that we may succeed.
-Moreover, the distinction between ‘necessary’ laws and strictly uni-
-versal statements does not seem to be relevant to this problem: whether
+Moreover, the distinction between ‘necessary’ laws and strictly universal statements does not seem to be relevant to this problem: whether
 necessary or not, the knowledge that laws exist would add something
 to the ‘justiﬁcation’ of our search, without being needed for this kind
 of ‘justiﬁcation’.
@@ -18309,9 +16262,7 @@ idea either on empirical grounds (because it is not falsiﬁable) or on
 other grounds, I believe that it is true, as I indicated in section 79, and
 83 to 85. Yet I am now trying to go beyond what I said in these sections
 by emphasizing the peculiar ontological status of universal laws (for
-example, by speaking of their ‘necessity’, or their ‘structural char-
-acter’), and also by emphasizing the fact that the metaphysical char-
-acter or the irrefutability of the assertion that laws of nature exist need
+example, by speaking of their ‘necessity’, or their ‘structural character’), and also by emphasizing the fact that the metaphysical character or the irrefutability of the assertion that laws of nature exist need
 not prevent us from discussing this assertion rationally—that is to say,
 critically. (See my Postscript, especially sections *6, *7, *15, and *120.)
 Nevertheless, I regard, unlike Kneale, ‘necessary’ as a mere word—as
@@ -18328,22 +16279,17 @@ conditional (or ‘material implication’, a →b without ‘N’) follows with
 logical necessity from a law of nature—that it is necessary, relative to a law
 of nature.23 And it may be said that a law of nature is necessary in its
 turn because it is logically derivable from, or explicable by, a law of a
-still higher degree of universality, or of greater ‘depth’. (See my Post-
-script, section *15.) One might suppose that it is this logically necessary
+still higher degree of universality, or of greater ‘depth’. (See my Postscript, section *15.) One might suppose that it is this logically necessary
 dependence upon true statements of higher universality, conjectured
 to exist, which suggested in the ﬁrst instance the idea of ‘necessary
 connection’ between cause and eﬀect.24
-(17) So far as I can understand the modern discussions of ‘sub-
-junctive conditionals’ or ‘contrary-to-fact conditionals’ or ‘counterfac-
-tual conditionals’, they seems to have arisen mainly out of the problem
+(17) So far as I can understand the modern discussions of ‘subjunctive conditionals’ or ‘contrary-to-fact conditionals’ or ‘counterfactual conditionals’, they seems to have arisen mainly out of the problem
 22 Cf. Tractatus, 6.3637.
 23 I pointed this out in Aristotelian Society Supplementary Volume 22, 1948, pp. 141 to 154,
 section 3; see especially p. 148. In this paper I brieﬂy sketched a programme which I have
 largely carried out since.
 24 Cf. my paper quoted in the foregoing footnote.
 new appendices
-460
-
 
 situation created by the inherent diﬃculties of inductivism or
 positivism or operationalism or phenomenalism.
@@ -18351,8 +16297,7 @@ The phenomenalist, for instance, wishes to translate statements
 about physical objects into statements about observations. For example,
 ‘There is a ﬂower-pot on the window sill’ should be translatable into
 something like ‘If anybody in an appropriate place looks in the
-appropriate direction, he will see what he has learned to call a ﬂower-
-pot’. The simplest objection (but by no means the most important
+appropriate direction, he will see what he has learned to call a ﬂowerpot’. The simplest objection (but by no means the most important
 one) to regarding the second statement as a translation of the ﬁrst is to
 point out that while the second will be (vacuously) true when nobody
 is looking at the window sill, it would be absurd to say that whenever
@@ -18411,21 +16356,15 @@ substance is (necessarily) recovered which, again, is soluble in water.’
 The fundamental reason for the circularity of this kind of deﬁnition
 is very simple: experiments are never conclusive; and they must, in
 their turn, be testable by further experiments.
-Operationalists seem to have believed that once the problem of sub-
-junctive conditionals was solved (so that the vacuous satisfaction of the
-deﬁning conditional could be avoided) there would be no further ob-
-stacle in the way of operational deﬁnitions of dispositional terms. It
-seems that the great interest shown in the so-called problem of sub-
-junctive (or counter-factual) conditionals was mainly due to this belief.
+Operationalists seem to have believed that once the problem of subjunctive conditionals was solved (so that the vacuous satisfaction of the
+deﬁning conditional could be avoided) there would be no further obstacle in the way of operational deﬁnitions of dispositional terms. It
+seems that the great interest shown in the so-called problem of subjunctive (or counter-factual) conditionals was mainly due to this belief.
 27 The argument is contained in a paper which I contributed in January 1955 to the
 Carnap volume of the Library of Living Philosophers, ed. by P. A. Schilpp. It is now in my
 Conjectures and Refutations, 1965, ch. II, p. 278. As to the circularity of the operational
 deﬁnition of length, this may be seen from the following two facts: (a) the operational
-deﬁnition of length involves temperature corrections, and (b) the (usual) operational deﬁn-
-ition of temperature involves measurements of length.
+deﬁnition of length involves temperature corrections, and (b) the (usual) operational deﬁnition of temperature involves measurements of length.
 new appendices
-462
-
 
 But I think I have shown that even if we have solved the problem of
 logically analysing subjunctive (or ‘nomic’) conditionals, we cannot
@@ -18506,20 +16445,17 @@ use of imaginary experiments. It is the critical use. I do not wish to
 suggest, however, that there is no other way of using them. There
 is, especially, a heuristic use which is very valuable. But there are less
 valuable uses also.
-An old example of what I call the heuristic use of imaginary experi-
-ments is one that forms the heuristic basis of atomism. We imagine that
+An old example of what I call the heuristic use of imaginary experiments is one that forms the heuristic basis of atomism. We imagine that
 we take a piece of gold, or some other substance, and cut it into smaller
 and smaller parts ‘until we arrive at parts so small that they cannot be
 any longer subdivided’: a thought experiment used in order to explain
-‘indivisible atoms’. Heuristic imaginary experiments have become par-
-ticularly important in thermodynamics (Carnot’s cycle); and they have
+‘indivisible atoms’. Heuristic imaginary experiments have become particularly important in thermodynamics (Carnot’s cycle); and they have
 lately become somewhat fashionable owing to their use in relativity
 and in quantum theory. One of the best examples of this kind is
 Einstein’s experiment of the accelerated lift: it illustrates the local
 equivalence of acceleration and gravity, and it suggests that light rays in
 2 Galileo himself proudly says of his argument (he puts the words into the mouth of
-Simplicio): ‘In truth, your argument has proceeded exceedingly well.’ Cf. Dialogues Concern-
-ing Two New Sciences, 1638, First Day, p. 109 (p. 66 of vol. xiii, 1855, of the Opere Complete;
+Simplicio): ‘In truth, your argument has proceeded exceedingly well.’ Cf. Dialogues Concerning Two New Sciences, 1638, First Day, p. 109 (p. 66 of vol. xiii, 1855, of the Opere Complete;
 pp. 64 and 62 of the English edition of Crew and Salvio, 1914).
 3 Op. cit., p. 107 (1638); p. 65 (1855); p. 63 (1914).
 appendix *xi 465
@@ -18546,13 +16482,11 @@ impossible, and that here, at least no possibility was overlooked.4 An
 imaginary experiment designed in a critical spirit—designed in order
 to criticize a theory by showing that certain possibilities have been
 overlooked—is usually permissible, but great care must be taken with
-the reply: in a reconstruction of the controversial experiment, under-
-taken in defence of the theory, it is, more particularly, important not to
+the reply: in a reconstruction of the controversial experiment, undertaken in defence of the theory, it is, more particularly, important not to
 introduce any idealizations or other special assumptions unless they are
 favourable to an opponent, or unless any opponent who uses the
 imaginary experiment in question would have to accept them.
-(2) More generally, I think that the argumentative use of imagin-
-ary experiments is legitimate only if the views of the opponent in the
+(2) More generally, I think that the argumentative use of imaginary experiments is legitimate only if the views of the opponent in the
 argument are stated with clarity, and if the rule is adhered to that the
 idealizations made must be concessions to the opponent, or at least acceptable to
 the opponent. For example, in the case of Carnot’s cycle all idealizations
@@ -18562,20 +16496,16 @@ to the theory—who asserts that a heat machine can produce
 impossible (from the quantum-theoretical point of view) by Einstein in his letter printed
 in appendix *xii; see the note on p. 232 and notes *3 and *4 to section 77.
 new appendices
-466
-
 
 mechanical work without transferring heat from a higher temperature
-to a lower temperature—must agree that they are concessions. Idealiza-
-tions, clearly, become impermissible for the purpose of critical
+to a lower temperature—must agree that they are concessions. Idealizations, clearly, become impermissible for the purpose of critical
 argumentation whenever this rule is violated.
 (3) This rule may be applied, for example, to the discussion
 initiated by the imaginary experiment of Einstein, Podolsky, and
 Rosen. (Their argument is brieﬂy re-stated by Einstein in a letter here
 reproduced in appendix *xii; and this discussion is further commented
 upon in my Postscript, section *109.) Einstein, Podolsky, and Rosen
-attempt, in their critical argument, to make use of idealizations accept-
-able to Bohr; and in his reply, Bohr does not challenge the legitimacy of
+attempt, in their critical argument, to make use of idealizations acceptable to Bohr; and in his reply, Bohr does not challenge the legitimacy of
 their idealizations. They introduce (cf. section *109 and appendix *xii)
 two particles, A and B, which interact in such a way that by measuring
 the position (or momentum) of B, the theory allows us to calculate the
@@ -18590,8 +16520,7 @@ done by a movable ‘diaphragm’ whose ‘momentum . . . is measured
 before as well as after the passing of the particle’.6 Bohr operates with
 the argument that in choosing one of these two systems of reference
 ‘we . . . cut ourselves oﬀ from any . . . possibility’ of using the other, in
-connection with the same physical system under investigation. He sug-
-gests, if I understand him properly, that though A is not interfered
+connection with the same physical system under investigation. He suggests, if I understand him properly, that though A is not interfered
 5 Heisenberg thought, of course, of the smearing of one particle only, the one which is
 being measured. Einstein, Podolsky, and Rosen show that it must be extended to another
 particle—one with which the measured particle had interacted at some time, perhaps
@@ -18621,21 +16550,16 @@ big a change to be allowed to pass unnoticed. It would have to be
 explicitly acknowledged that the older position was refuted by the
 imaginary experiment; and it would have to be shown why this does
 not destroy the principle on which it was built.
-We must not forget, in this connection, what the imaginary experi-
-ment of Einstein, Podolsky, and Rosen, was intended to show. It was
-intended merely to refute certain interpretations of the indeterminacy formu-
-lae; it was certainly not intended to refute these formulae. In a sense,
+We must not forget, in this connection, what the imaginary experiment of Einstein, Podolsky, and Rosen, was intended to show. It was
+intended merely to refute certain interpretations of the indeterminacy formulae; it was certainly not intended to refute these formulae. In a sense,
 Bohr’s reply, though not explicitly, acknowledged that the imaginary
 experiment succeeded in its purpose, for Bohr merely tried to defend
-the indeterminacy relations as such: he gave up the view that the meas-
-urement would interfere with the system A which it was supposed to
+the indeterminacy relations as such: he gave up the view that the measurement would interfere with the system A which it was supposed to
 smear. Moreover, the argument of Einstein, Podolsky, and Rosen could
-be carried a little further by the assumption that we measure the pos-
-ition A (accidentally) at the same instant of time at which we measure
+be carried a little further by the assumption that we measure the position A (accidentally) at the same instant of time at which we measure
 the momentum of B. We then obtain, for that instant of time, positions and
 momenta of both A and B. (Admittedly, the momentum of A and the
-position of B will have been destroyed or smeared by these measure-
-ments.) But this is suﬃcient to establish the point which Einstein,
+position of B will have been destroyed or smeared by these measurements.) But this is suﬃcient to establish the point which Einstein,
 Podolsky, and Rosen wanted to make: that it is incorrect to interpret
 the indeterminacy formulae as asserting that the system cannot have
 both a sharp position and a sharp momentum at the same time—even
@@ -18644,8 +16568,6 @@ though it must be admitted that we cannot predict both at the same time.
 Secondly, Bohr’s argument that we have ‘cut ourselves oﬀ’ from the
 other frame of reference seems to be ad hoc. For it is clearly possible to
 new appendices
-468
-
 
 measure the momentum spectroscopically (either in a direct manner,
 or by using the Doppler eﬀect), and the spectroscope will be rigidly
@@ -18656,14 +16578,12 @@ reference cannot be accepted as an essential part of the experiment.
 Thirdly, Bohr does not explain here how to measure the momentum
 of B with the help of his movable diaphragm. In a later paper of his, a
 method of doing this is described; but this method seems to me again
-impermissible.7 For the method described by Bohr consists in measur-
-ing (twice) the position of a ‘diaphragm with a slit . . . suspended by
+impermissible.7 For the method described by Bohr consists in measuring (twice) the position of a ‘diaphragm with a slit . . . suspended by
 weak springs from a solid yoke’;8 and since the measurement of the
 momentum with an arrangement of this kind depends on position
 measurements, it does not support Bohr’s argument against Einstein,
 Podolsky, and Rosen; nor does it succeed otherwise. For in this way we
-cannot get the momentum ‘accurately before as well as after the pass-
-ing’ of B:9 the ﬁrst of these measurements of momentum (since it
+cannot get the momentum ‘accurately before as well as after the passing’ of B:9 the ﬁrst of these measurements of momentum (since it
 utilizes a position measurement) will interfere with the momentum of
 the diaphragm; it thus will be retrospective only, and will not be of any
 use for calculating the momentum of the diaphragm at the time
@@ -18686,16 +16606,13 @@ diagram on p. 220.
 appendix *xi 469
 
 
-based upon his famous formula E = mc2, Bohr had recourse to argu-
-ments from Einstein’s gravitational theory (that is to say, from general
+based upon his famous formula E = mc2, Bohr had recourse to arguments from Einstein’s gravitational theory (that is to say, from general
 relativity).10 But E = mc2 can be derived from special relativity, and even
 from non-relativistic arguments. In any case, in assuming E = mc2, we
 certainly do not assume the validity of Einstein’s theory of gravitation.
 If, therefore, as Bohr suggests, we must assume certain characteristic
-formulae of Einstein’s gravitational theory in order to rescue the con-
-sistency of quantum theory (in the presence of E = mc2), then this
-amounts, I hold, to the strange assertion that quantum theory contra-
-dicts Newton’s gravitational theory, and further to the still stranger
+formulae of Einstein’s gravitational theory in order to rescue the consistency of quantum theory (in the presence of E = mc2), then this
+amounts, I hold, to the strange assertion that quantum theory contradicts Newton’s gravitational theory, and further to the still stranger
 assertion that the validity of Einstein’s gravitational theory (or at least
 the characteristic formulae used, which are part of the theory of the
 gravitational ﬁeld) can be derived from quantum theory. I do not think
@@ -18713,19 +16630,15 @@ having run away, is still interfered with in an unpredictable way. In this
 way he tries to show that his own theory agrees with Heisenberg’s
 interpretation of the indeterminacy relations. But he does not succeed.
 This becomes manifest if we consider that the ideas of Einstein,
-Podolsky, and Rosen allow us, by a slight extension of their experi-
-ment, to determine simultaneously positions and momenta of both A
+Podolsky, and Rosen allow us, by a slight extension of their experiment, to determine simultaneously positions and momenta of both A
 and B—although the result of this determination will have predictive
 10 Bohr, in Albert Einstein: Philosopher-Scientist, ed. by P. A. Schilpp; the case is discussed on
 pp. 225–228. Dr. J. Agassi has drawn my attention to the invalidity of the argument.
 *We must remember that the ‘equivalence’ mi = mg is part of Newton’s theory.
-11 See D. Bohm, Phys. Rev. 85, 1952, pp. 166 ﬀ., 180 ﬀ; see especially pp. 186 f. (I under-
-stand that Bohm does not any longer uphold some of the views expressed in the papers
+11 See D. Bohm, Phys. Rev. 85, 1952, pp. 166 ﬀ., 180 ﬀ; see especially pp. 186 f. (I understand that Bohm does not any longer uphold some of the views expressed in the papers
 here criticized. But it seems to me that at least part of my argument may still be applicable
 to his later theories.)
 new appendices
-470
-
 
 signiﬁcance only for the position of the one particle and the
 momentum of the other. For as explained under point (4) above, we
@@ -18753,8 +16666,7 @@ quite a big thing, say a billiard ball) moving with a certain constant
 velocity to and fro between two parallel walls by which it is elastically
 reﬂected. Einstein shows that this system can be represented in
 Schrödinger’s theory by a standing wave; and he shows further that the
-pilot wave theory of de Broglie, or Bohm’s so-called ‘causal interpre-
-tation of quantum theory’ leads to the paradoxial result (ﬁrst pointed
+pilot wave theory of de Broglie, or Bohm’s so-called ‘causal interpretation of quantum theory’ leads to the paradoxial result (ﬁrst pointed
 out by Pauli) that the velocity of the particle (or billiard ball) vanishes;
 or in other words, our original assumption that the particle moves with
 some arbitrarily chosen velocity leads in this theory, for every chosen
@@ -18771,8 +16683,7 @@ not go into the ﬁner peculiarities of the arrangement.) ‘Now, in the
 causal interpretation of the quantum theory’—that is, in Bohm’s
 interpretation—‘. . . the particle is at rest’, Bohm writes; and he goes on
 to say that, if we wish to observe the particle, we shall ‘trigger’ a process
-which will make the particle move.14 But this argument about observa-
-tion, whatever its merits, is no longer interesting. What is interesting is
+which will make the particle move.14 But this argument about observation, whatever its merits, is no longer interesting. What is interesting is
 that Bohm’s interpretation paralyses the freely moving particle: his
 argument amounts to the assertion that it cannot move between these
 two walls, as long as it is unobserved. For the assumption that it so moves
@@ -18784,8 +16695,7 @@ not the point at issue); and further, to the construction of an entirely
 new imaginary experiment describing how our observation—the
 radar signal or photon used to observe the velocity of the particle—
 could trigger oﬀ the desired movement. But ﬁrst, this again was not the
-problem. And secondly, Bohm fails to explain how the triggering pho-
-ton could reveal to us the particle in its full, proper speed, rather than
+problem. And secondly, Bohm fails to explain how the triggering photon could reveal to us the particle in its full, proper speed, rather than
 in a state of acceleration towards its proper speed. For this seems to
 demand that the particle (which may be as fast and as heavy as we
 like) acquires and reveals its full speed during the exceedingly short
@@ -18794,17 +16704,12 @@ assumptions which few of his opponents will accept.
 But we may elaborate Einstein’s imaginary experiment by operating
 with two particles (or billiard balls) of which the one moves to and fro
 between the left wall and the centre of the box while the other moves
-between the right wall and the centre; in the centre, the particles col-
-lide elastically with one another. This example leads again to standing
-waves, and thus to the disappearance of the velocity; and the Pauli-
-Einstein criticism of the theory remains unchanged. But Bohm’s trig-
-gering eﬀect now becomes even more precarious. For let us assume we
+between the right wall and the centre; in the centre, the particles collide elastically with one another. This example leads again to standing
+waves, and thus to the disappearance of the velocity; and the PauliEinstein criticism of the theory remains unchanged. But Bohm’s triggering eﬀect now becomes even more precarious. For let us assume we
 observe the left particle by shooting at it a triggering photon from the
 13 D. Bohm, in the same volume, p. 13; the italics are mine.
 14 Op. cit., p. 14; see also the second footnote on that page.
 new appendices
-472
-
 
 left. This will (according to Bohm) overthrow the balance of forces
 which keep the particle at rest; and the particle will start moving—
@@ -18818,19 +16723,16 @@ In the case considered, our physical system was a big macroscopic
 ball. No reason has been given why in such a case the usual classical
 view of measurement should be inapplicable. And this is a view that
 conforms, after all, as well with experience as one can desire.
-But leaving measurement aside, is it seriously asserted that an oscil-
-lating ball (or two oscillating balls in a symmetric arrangement here
+But leaving measurement aside, is it seriously asserted that an oscillating ball (or two oscillating balls in a symmetric arrangement here
 described) simply cannot exist while unobserved? Or, what amounts to
 the same, is it seriously asserted that the assumption that it does move,
 or oscillate, while unobserved, must lead to the conclusion that it does
 not? And what happens if, once our observation has set the ball in
 motion, it is then no longer asymmetrically interfered with so that the
-system again becomes stationary? Does the particle then stop as sud-
-denly as it started? And is its energy transformed into ﬁeld energy? Or
+system again becomes stationary? Does the particle then stop as suddenly as it started? And is its energy transformed into ﬁeld energy? Or
 is the process irreversible?
 Even assuming that all these questions may be answered somehow,
-they illustrate, I think, the signiﬁcance of Pauli’s and of Einstein’s criti-
-cism, and of the critical use of imaginary experiments, especially the
+they illustrate, I think, the signiﬁcance of Pauli’s and of Einstein’s criticism, and of the critical use of imaginary experiments, especially the
 experiment of Einstein, Podolsky, and Rosen. And I think that they also
 illustrate the danger of an apologetic use of imaginary experiments.
 (9) So far I have discussed the problem of pairs of particles, introduced
@@ -18841,8 +16743,7 @@ Heisenberg’s famous imaginary microscope through which one could
 momenta. Few imaginary experiments have exerted a greater inﬂuence
 on thought about physics than this one.
 With the help of his imaginary experiment, Heisenberg tried to
-establish various points of which I may mention three: (a) the interpreta-
-tion of the Heisenberg indeterminacy formulae as stating the existence
+establish various points of which I may mention three: (a) the interpretation of the Heisenberg indeterminacy formulae as stating the existence
 appendix *xi 473
 
 
@@ -18852,8 +16753,7 @@ momentum; and (c) the impossibility of testing the spatio-temporal ‘path’ of
 particle. I believe that Heisenberg’s arguments tending to establish these
 points are all clearly invalid, whatever the merits of the three points in
 themselves may be. The reason is that Heisenberg’s discussion fails to
-establish that measurements of position and of momentum are symmetrical; sym-
-metrical, that is, with respect to the disturbance of the measured object
+establish that measurements of position and of momentum are symmetrical; symmetrical, that is, with respect to the disturbance of the measured object
 by the process of measurement. For Heisenberg does show with the help
 of his experiment that in order to measure the position of the electron we
 should have to use light of a high frequency, that is to say, high energy
@@ -18878,23 +16778,17 @@ argument. This fact is veiled, however, by the customary talk (positivist
 or operationalist or instrumentalist talk) about the ‘results of measurement’
 whose uncertainty is admittedly symmetrical with respect to position
 and momentum. Yet in countless discussions of the experiment,
-beginning with Heisenberg’s own, it is always assumed that his argu-
-ment establishes the symmetry of the disturbances. (In the formalism, the
+beginning with Heisenberg’s own, it is always assumed that his argument establishes the symmetry of the disturbances. (In the formalism, the
 symmetry between position and momentum is complete, of course,
-but this does not mean that it is accounted for by Heisenberg’s imagin-
-ary experiment.) Thus it is assumed—quite wrongly—that we disturb the
+but this does not mean that it is accounted for by Heisenberg’s imaginary experiment.) Thus it is assumed—quite wrongly—that we disturb the
 new appendices
-474
-
 
 electron’s position if we measure its momentum with Heisenberg’s
 microscope, and that this ‘smearing’ eﬀect has been established by
 Heisenberg’s discussion of his imaginary experiment.
 My own imaginary experiment of section 77 was largely based on
 this asymmetry in Heisenberg’s experiment. (Cf. note *1 to appendix
-vi.) Yet my experiment is invalid just because the asymmetry invali-
-dates Heisenberg’s whole discussion of measurement: only measure-
-ments resulting from physical selection (as I call it) can be used to illustrate
+vi.) Yet my experiment is invalid just because the asymmetry invalidates Heisenberg’s whole discussion of measurement: only measurements resulting from physical selection (as I call it) can be used to illustrate
 Heisenberg’s formulae, and a physical selection, as I quite correctly
 pointed out in the book, must always satisfy the ‘scatter relations’.
 (Physical selection does disturb the system.)
@@ -18916,12 +16810,9 @@ because it fails to account for the symmetry between position and
 momentum. And being a bad illustration, it is quite inadequate as a
 basis for interpreting these formulae—let alone the whole quantum
 theory.
-(10) The immense inﬂuence of Heisenberg’s imaginary experi-
-ment is, I am convinced, due to the fact that he managed to convey
+(10) The immense inﬂuence of Heisenberg’s imaginary experiment is, I am convinced, due to the fact that he managed to convey
 through it a new metaphysical picture of the physical world, whilst at
-the same time disclaiming metaphysics. (He thus ministered to a curi-
-ously ambivalent obsession of our post-rationalist age: its preoccupa-
-tion with killing the Father—that is, Metaphysics—while keeping Him
+the same time disclaiming metaphysics. (He thus ministered to a curiously ambivalent obsession of our post-rationalist age: its preoccupation with killing the Father—that is, Metaphysics—while keeping Him
 inviolate, in some other form, and beyond all criticism. With some
 quantum physicists it sometimes looks almost as if the father was
 appendix *xi 475
@@ -18931,8 +16822,7 @@ Einstein.) The metaphysical picture of the world, somehow conveyed
 through Heisenberg’s discussion of his experiment although never
 really implied in it, is this. The thing in itself is unknowable: we can only
 know its appearances which are to be understood (as pointed out by
-Kant) as resulting from the thing in itself, and from our own perceiv-
-ing apparatus. Thus the appearances result from a kind of interaction
+Kant) as resulting from the thing in itself, and from our own perceiving apparatus. Thus the appearances result from a kind of interaction
 between the things in themselves and ourselves. This is why one thing
 may appear to us in diﬀerent forms, according to our diﬀerent ways of
 perceiving it—of observing it, and of interacting with it. We try to
@@ -18940,23 +16830,18 @@ catch, as it were, the thing in itself, but we never succeed: we only ﬁnd
 appearances in our traps. We can set either a classical particle trap or a
 classical wave trap (‘classical’ because we can build them and set them
 like a classical mouse trap); and in the process of triggering oﬀ the trap,
-and thus interacting with it, the thing is induced to assume the appear-
-ance of a particle or a wave. There is a symmetry between these two
+and thus interacting with it, the thing is induced to assume the appearance of a particle or a wave. There is a symmetry between these two
 appearances, or between the two ways of trapping the thing. Moreover,
 we not only, by setting the trap, have to supply a stimulus for the thing
-in order to induce it to assume one of its two classical physical appear-
-ances, but we also have to bait the trap with energy—the energy
+in order to induce it to assume one of its two classical physical appearances, but we also have to bait the trap with energy—the energy
 needed for a classical physical realization or materialization of the
 unknowable thing in itself. In this way, we preserve the conservation
 laws.
 This is the metaphysical picture conveyed by Heisenberg, and
 perhaps also by Bohr.
 Now I am far from objecting to metaphysics of this kind (though I
-am not much attracted by this particular blend of positivism and tran-
-scendentalism). Nor do I object to its being conveyed to us through
-metaphors. What I do object to is the almost unconscious dissemina-
-tion of this metaphysical picture, often combined with antimetaphysi-
-cal disclaimers. For I think that it should not be allowed to sink in
+am not much attracted by this particular blend of positivism and transcendentalism). Nor do I object to its being conveyed to us through
+metaphors. What I do object to is the almost unconscious dissemination of this metaphysical picture, often combined with antimetaphysical disclaimers. For I think that it should not be allowed to sink in
 unnoticed, and thus uncriticized.
 It is interesting, I think, that much of David Bohm’s work seems to
 be inspired by the same metaphysics. One might even describe his
@@ -18965,8 +16850,6 @@ this metaphysics clear and explicit. This is admirable. But I wonder
 whether this particular metaphysical idea is good enough, and really
 worth the trouble, considering that it cannot be supported (as we have
 new appendices
-476
-
 
 seen) by Heisenberg’s imaginary experiment which is the intuitive
 source of it all.
@@ -18974,14 +16857,11 @@ There seems to me a fairly obvious connection between Bohr’s
 ‘principle of complementarity’ and this metaphysical view of an
 unknowable reality—a view that suggests the ‘renunciation’ (to use a
 favourite term of Bohr’s) of our aspirations to knowledge, and the
-restriction of our physical studies to appearances and their interrela-
-tions. But I will not discuss this obvious connection here. Instead, I will
+restriction of our physical studies to appearances and their interrelations. But I will not discuss this obvious connection here. Instead, I will
 conﬁne myself to the discussion of certain arguments in favour of
 complementarity which have been based upon further imaginary
 experiments.
-(11) In connection with this ‘principle of complementarity’ (dis-
-cussed more fully in my Postscript; cf. also my paper ‘Three Views Con-
-cerning Human Knowledge’, now in my Conjectures and Refutations, 1963,
+(11) In connection with this ‘principle of complementarity’ (discussed more fully in my Postscript; cf. also my paper ‘Three Views Concerning Human Knowledge’, now in my Conjectures and Refutations, 1963,
 chapter 3) Bohr has analysed a large number of subtle imaginary
 experiments in a similarly apologetic vein. Since Bohr’s formulations
 of the principle of complementarity are vague and diﬃcult to discuss, I
@@ -18989,17 +16869,14 @@ shall have recourse to a well known and in many respects excellent
 book, Anschauliche Quantentheorie, by P. Jordan (and a book in which,
 incidentally, my Logik der Forschung was brieﬂy discussed).15
 Jordan gives a formulation of (part of) the contents of the principle
-of complementarity that brings it into the closest relation to the prob-
-lem of the dualism between particles and waves. He puts it as follows. ‘Any one
+of complementarity that brings it into the closest relation to the problem of the dualism between particles and waves. He puts it as follows. ‘Any one
 experiment which would bring forth, at the same time, both the wave
-properties and the particle properties of light would not only contra-
-dict the classical theories (we have got used to contradictions of this
+properties and the particle properties of light would not only contradict the classical theories (we have got used to contradictions of this
 kind), but would, over and above this, be absurd in a logical and
 mathematical sense.’16
 Jordan illustrates this principle by the famous two-slit experiment.
 (See my old appendix v.) ‘Assume that there is a source of light from
-which monochromatic light falls upon a black screen with two [paral-
-lel] slits which are close to each other. Now assume, on the one hand, that
+which monochromatic light falls upon a black screen with two [parallel] slits which are close to each other. Now assume, on the one hand, that
 the slits and their distance are suﬃciently small (as compared with
 the wave length of the light) to obtain interference fringes on a
 15 Jordan, Anschauliche Quantentheorie, 1936, p. 282.
@@ -19020,21 +16897,17 @@ contest a diﬀerent point. Jordan uses this experiment to illustrate his
 formulation of the contents of the principle of complementarity. But
 the very experiment by which he illustrates this principle may be
 shown to refute it.
-For consider Jordan’s description of the two-slit experiment, omit-
-ting at ﬁrst his last assumption (the one introduced by the words ‘on the
+For consider Jordan’s description of the two-slit experiment, omitting at ﬁrst his last assumption (the one introduced by the words ‘on the
 other hand’). Here we obtain interference fringes on the photographic
-plate. Thus this is an experiment which ‘brings forth the wave proper-
-ties of the light’. Now let us assume that the intensity of the light is
+plate. Thus this is an experiment which ‘brings forth the wave properties of the light’. Now let us assume that the intensity of the light is
 suﬃciently low to obtain on the plate distinct hits of the photons; or in
 other words, so low that the fringes are analysable as due to the density
-distribution of the single photon hits. Then we have here ‘one experi-
-ment’ that ‘brings forth, at the same time, both the wave properties and
+distribution of the single photon hits. Then we have here ‘one experiment’ that ‘brings forth, at the same time, both the wave properties and
 the particle properties of light’—at least some of them. That is to say, it
 does precisely what according to Jordan must be ‘absurd in a logical
 and mathematical sense’.
 Admittedly, were we able, in addition, to ﬁnd out through which of
-the slits a certain photon has passed, then we should be able to deter-
-mine its path; and we might then say that this (presumably impossible)
+the slits a certain photon has passed, then we should be able to determine its path; and we might then say that this (presumably impossible)
 experiment would bring forth the particle properties of the photon
 even more strongly. I grant all this; but it is quite irrelevant. For what
 Jordan’s principle asserted was not that some experiments which might
@@ -19044,8 +16917,6 @@ at the same time, both the wave properties and the corpuscle properties of
 17 Op. cit., pp. 115 f. (The italics are Jordan’s.)
 18 Op. cit., p. 116.
 new appendices
-478
-
 
 light’. And this assertion, we have shown, is simply false: it is refuted by
 almost all typical quantum mechanical experiments.
@@ -19056,19 +16927,15 @@ since even an experiment is impossible which would bring forth, at the
 same time, all the wave properties—even if we drop the demand that it
 should bring forth any of the particle properties. (And the same holds
 the other way round.)
-What is so disturbing in this argumentation of Jordan’s is its arbi-
-trariness. From what has been said it is obvious that there must be
-some wave properties and some particle properties which no experi-
-ment can combine. This fact is ﬁrst generalized by Jordan, and formu-
-lated as a principle (whose formulation by Jordan, at any rate, we have
+What is so disturbing in this argumentation of Jordan’s is its arbitrariness. From what has been said it is obvious that there must be
+some wave properties and some particle properties which no experiment can combine. This fact is ﬁrst generalized by Jordan, and formulated as a principle (whose formulation by Jordan, at any rate, we have
 refuted). And then it is illustrated by an imaginary experiment which
 Jordan shows to be impossible. Yet as we have seen, that part of the
 experiment which everybody admits to be possible actually refutes the
 principle, at least in Jordan’s formulation.
 But let us look a little more closely at the other half of the imaginary
 experiment—the one introduced by the words ‘on the other hand’. If
-we make arrangements to determine the slit through which the par-
-ticle has passed, then, it is said, we destroy the fringes. Good. But do we
+we make arrangements to determine the slit through which the particle has passed, then, it is said, we destroy the fringes. Good. But do we
 destroy the wave properties? Take the simplest arrangement: we close
 one of the slits. If we do so, there still remain many signs of the wave
 character of light. (Even with one single slit we obtain a wave-like
@@ -19092,8 +16959,6 @@ Bohr owes us a better explanation.20
 paper ‘Quantum Mechanics Without “The Observer”’, in Quantum Theory and Reality, edited
 by Mario Bunge, 1967, pp. 7–44.
 new appendices
-480
-
 
 APPENDIX *xii
 The Experiment of Einstein,
@@ -19106,14 +16971,11 @@ unpublished paper), and it goes on to describe with admirable clarity
 the imaginary experiment of Einstein, Podolsky, and Rosen (Physical
 Review 47, 1935, pp. 777–780; cf. my note on p. 232 and section 3 of
 my appendix *xi).
-Between these two points, a few remarks will be found on the rela-
-tion of theory and experiment in general, and upon the inﬂuence of
+Between these two points, a few remarks will be found on the relation of theory and experiment in general, and upon the inﬂuence of
 positivistic ideas upon the interpretation of quantum theory.
-The two last paragraphs of the letter also deal with a problem dis-
-cussed in my book (and in my Postscript)—the problem of subjective
+The two last paragraphs of the letter also deal with a problem discussed in my book (and in my Postscript)—the problem of subjective
 probabilities, and of drawing statistical conclusions from nescience. In
-this I still disagree with Einstein: I believe that we draw these probabil-
-istic conclusions from conjectures about equidistribution (often very
+this I still disagree with Einstein: I believe that we draw these probabilistic conclusions from conjectures about equidistribution (often very
 natural conjectures, and for this reason perhaps not always consciously
 made), and therefore from probabilistic premises.
 Einstein’s literary executors requested that, if a translation of the
@@ -19126,16 +16988,14 @@ Old Lyme, 11. IX. 35.
 Dear Mr. Popper,
 I have looked at your paper, and I largely [weitgehend] agree.x Only I do
 not believe in the possibility of producing a ‘super-pure case’ which
-would allow us to predict position and momentum (colour) of a pho-
-ton with ‘inadmissible’ precision. The means proposed by you (a
+would allow us to predict position and momentum (colour) of a photon with ‘inadmissible’ precision. The means proposed by you (a
 screen with a fast shutter in conjunction with a selective set of glass
 ﬁlters) I hold to be ineﬀective in principle, for the reason that I ﬁrmly
 believe that a ﬁlter of this kind would act in such a way as to ‘smear’ the
 position, just like a spectroscopic grid.
 My argument is as follows. Consider a short light signal (precise
 position). In order to see more easily the eﬀects of an absorbing ﬁlter, I
-assume that the signal is analysed into a larger number of quasi-
-monochromatic wave-trains Wn. Let the absorbing set of ﬁlters cut out
+assume that the signal is analysed into a larger number of quasimonochromatic wave-trains Wn. Let the absorbing set of ﬁlters cut out
 all the colours Wn except one, W1. Now this wave-group will have a
 considerable spatial extension (‘smearing’ of its position) because it is
 quasi-monochromatic; and this means that the ﬁlter will necessarily
@@ -19155,16 +17015,10 @@ one single system. This is also the result of the considerations expounded below
 This view makes it unnecessary to distinguish, more particularly, between “pure” and
 “non-pure” cases.
 new appendices
-482
 
-
-ﬁndings is merely the result of interfering with a system from without, which com-
-prises measuring it, while the systems in themselves—described by a ψ-
-function—behave in a deterministic fashion. Heisenberg ﬂirts [lie-
-bäugelt] with this interpretation, without adopting it consistently. But
+ﬁndings is merely the result of interfering with a system from without, which comprises measuring it, while the systems in themselves—described by a ψfunction—behave in a deterministic fashion. Heisenberg ﬂirts [liebäugelt] with this interpretation, without adopting it consistently. But
 one can also put the question thus: should we regard the ψ-function
-whose time-dependent changes are, according to Schrödinger’s equa-
-tion, deterministic, as a complete description of physical reality, and
+whose time-dependent changes are, according to Schrödinger’s equation, deterministic, as a complete description of physical reality, and
 should we therefore regard the (insuﬃciently known) interference
 with the system from without as alone responsible for the fact that our
 predictions have a merely statistical character?
@@ -19180,8 +17034,7 @@ Assume that now (after the interaction) an optimal [vollständige]
 measurement is carried out upon the partial system A, which may be
 done in various ways, however, depending upon the variables which
 one wants to measure precisely—for example, the momentum or the
-position co-ordinate. Quantum mechanics will then give us the ψ-
-function for the partial system B, and it will give us various ψ-functions
+position co-ordinate. Quantum mechanics will then give us the ψfunction for the partial system B, and it will give us various ψ-functions
 that diﬀer, according to the kind of measurement which we have
 chosen to carry out upon A.
 Now it is unreasonable to assume that the physical state of B may
@@ -19190,8 +17043,7 @@ by now is separated from B [so that it no longer interacts with B]; and
 this means that two diﬀerent ψ-functions belong to one and the same
 physical state of B. Since a complete description of a physical state must
 necessarily be an unambiguous description (apart from superﬁcialities
-such as units, choice of the co-ordinates etc.), it is therefore not pos-
-sible to regard the ψ-function as the complete description of the state of
+such as units, choice of the co-ordinates etc.), it is therefore not possible to regard the ψ-function as the complete description of the state of
 the system.
 An orthodox quantum theorist will say, of course, that there is no
 such thing as a complete description and that there can be only a
@@ -19203,8 +17055,7 @@ of one single system. But ﬁrst of all, he ought to say so clearly; and
 secondly, I do not believe that we shall have to be satisﬁed for ever with
 so loose and ﬂimsy a description of nature.
 It should be noticed that some of the precise predictions which I can
-obtain for the system B (according to the freely chosen way of measur-
-ing A) may well be related to each other in the same way as are
+obtain for the system B (according to the freely chosen way of measuring A) may well be related to each other in the same way as are
 measurements of momentum and of position. One can therefore
 hardly avoid the conclusion that the system B has indeed a deﬁnite
 momentum and a deﬁnite position co-ordinate. For if, upon freely
@@ -19225,22 +17076,16 @@ Yours,
 A. Einstein.
 * This is an allusion to a previous letter. K. R. P.
 new appendices
-484
-
 
 appendix *xii 485
 
 
 new appendices
-486
-
 
 appendix *xii 487
 
 
 new appendices
-488
-
 
 NAME INDEX
 The letter ‘q’ stands for ‘quoted’; ‘n’ stands for ‘note’.
@@ -19252,7 +17097,7 @@ Ancillion, J.P.F. 68n
 Aristotle 279n, 410, 464, 465
 Avenarius, R. 121
 Bacon, F. xxii, 7n, 277, 279q&n,
-438
+
 Bar-hillel, Y. 409q, 424n
 Bayes, Th 144, 168n, 288–9
 Bergson, H. 8
@@ -19268,7 +17113,7 @@ Böhm-Bawerk, E. 82n
 Bohr, N. 48, 211–12, 214, 216, 225,
 227q, 228q&n, 238, 247, 466,
 467q&n, 469q&n, 470, 476, 477,
-479
+
 Boltzmann, L. 190n
 Bolyai, J. 130
 Bolzano, B. 102, 107n, 108n, 176,
@@ -19276,7 +17121,7 @@ Bolzano, B. 102, 107n, 108n, 176,
 Boole, G. 68n, 323, 332, 339, 349–51,
 355, 362, 365
 Borel, E. 174n, 335, 336, 350, 352,
-355
+
 Born, M. 90n, 94n, 159n, 191q&n,
 217q&n, 222n, 223, 230
 Boscovic, R.G. xxii
@@ -19364,8 +17209,6 @@ Hempel, C.G. 387n
 Heymans, G. 263q
 Hilbert, D. 50, 330
 name index
-490
-
 
 Hobbes, Th. xxiii
 Hossiasson, J. 261n, 409
@@ -19383,7 +17226,7 @@ Jeffreys, H. 126n, 128n, 265n, 271n,
 Jordan, P. 159n, 191q&n, 201n,
 217q&n, 222n, 300, 477q&n, 479
 Kaila, E. 272&n–273, 375, 402,
-409
+
 Kamke, E. 137n, 142, 160&n, 161,
 180n
 Kant, I. xiiiq, xx, xxv, 5, 7, 11, 22q,
@@ -19468,13 +17311,13 @@ Pasteur, L. 44n
 Pauli, W. 62, 111, 300, 470–3
 Peano, G. 46n
 Peirce, C.S. xxv, 135n, 424&n,
-426
+
 Planck, M. 9n, 16n, 111, 191n, 214,
-246
+
 Plato xxii
 Podolsky, B. 216n, 232n, 241n,
 467, 467&n–470, 473, 481,
-482
+
 Poincaré, H. xxii, xxv, 57n, 131,
 434&n
 Poisson, S.D. 168n, 175
@@ -19521,8 +17364,6 @@ Tarski, A. 55n, 97n, 273nq, 322n,
 329n, 453&n
 Thales xxiii
 name index
-492
-
 
 Thirring, H. 210q&n
 Tornier, E. 137n
@@ -19630,8 +17471,7 @@ Atomic statements 12, 13, 113t&nt,
 also Field of application
 Atomism (metaphysical) xxii, 15–16,
 278, 465
-Authority of experience, non-
-existence of 29&n, 88–91, see
+Authority of experience, nonexistence of 29&n, 88–91, see
 also Basic statements,
 uncertainty of
 Auxiliary hypothesis see Hypothesis
@@ -19702,8 +17542,7 @@ Bookean algebra 331–2, 333, 339,
 347, 349, 356, 362, 363–4;
 derivation of 363–8
 Brownian movement 165n, 484, see
-also Fluctuations; Laws, micro-
-and macro-; Thermodynamics
+also Fluctuations; Laws, microand macro-; Thermodynamics
 Causality, causal explanation 23,
 37t–40, 37n section 12, 64, 86, 88,
 121, 149–50, 196–7, 200–1, 205,
@@ -19763,8 +17602,6 @@ weak veriﬁcation or of rendering
 ﬁrm by experience see
 Veriﬁcation; for terminological
 subject index
-496
-
 
 confusion 249n, 408, 414n, 415,
 437–8
@@ -19929,8 +17766,6 @@ Deductivism see Method,
 deductivist view of
 Deﬁnition xxiii, 34, 53–4, 63, 119,
 subject index
-498
-
 
 456; essential 452; implicit 51–4;
 intentional and estensional 157,
@@ -20026,7 +17861,7 @@ Demarcation; Falsiﬁability
 Empiricism 20, 50, 64&n, 80, 269n,
 380, 397–8
 Energy, law of conservation of 64,
-111
+
 Entailment see Deducibility
 Epistemology see Knowledge,
 theory of
@@ -20037,7 +17872,7 @@ Equivalence, logical 68t, 364–5
 Errors in measurements see
 Measurement, technique of
 Essence, Essentialism 15, 279n, 451,
-452
+
 Estimate statistical see Hypothesis,
 statistical
 Event section 23, 68t–72, 82, 84, 95,
@@ -20055,7 +17890,7 @@ Evolution of science 59, 63, 267,
 section 85, 276–9&n, see also
 Fruitfulness
 Exactness 109, 428–33; religion of
-410
+
 Existential statements 48, 49&n,
 84, 184–5, 186n; purely 49t&n,
 70&n, 84, 186; singular 84t
@@ -20094,8 +17929,6 @@ Fair sample 169t&n, 194n, 196–7,
 198, 400n, 430, 432n, see also
 Segments, representative
 subject index
-500
-
 
 Falsiﬁability, degree of see
 Testability, degree of; never ﬁnal
@@ -20201,7 +18034,7 @@ character; Positivism; Statistical
 scatter relations
 Heisenberg’s programme section
 73, 211–16, 223, 226–7, 245–6&n,
-476
+
 Heuristics 116, 325–8, 465–6
 History 279n; of philosophy 317; of
 science 267, 316, see also
@@ -20258,8 +18091,6 @@ counterfactual, so-called
 nomic 455t&n–6n, 456–7, 461,
 462, 463, see also Necessity
 subject index
-502
-
 
 Independence, logical of an axiom
 or of a part of a system 56&n, 71t,
@@ -20421,8 +18252,6 @@ Laws, micro- and macro-;
 Thermodynamics
 Materialism 85, see also Mechanism
 subject index
-504
-
 
 Mathematical rules for generating
 sequences 154, 161
@@ -20570,7 +18399,7 @@ Parameters 116–20, 123&n, 125n,
 Path of an elementary particle
 213–15&n, 226&n, 228–30,
 233–6, 238&n, 297–300, 302–3,
-475
+
 Personal equation 87
 Phenomenalism 461&n, 462
 Philosophy xix, xv–xvi, xxiii,
@@ -20581,12 +18410,9 @@ Problems
 Physicalism 81t, 85, 87&n
 Physics 50, 56n, 58, 62, 63, 72,
 82–3n, 87, 90, 111, 138, 280;
-probability in see Laws, micro-
-and macro-; Probability and
+probability in see Laws, microand macro-; Probability and
 experience; Probability in
 subject index
-506
-
 
 physics, see also Quantum
 theory; Relativity;
@@ -20722,7 +18548,7 @@ Probability, theory of, objective
 versus subjective views of 483–4
 Problem situation xv, xxvi, 277, 461
 Problems xix, xxi–xxii, 16, 88, 198,
-281
+
 Progress, scientiﬁc see Evolution;
 Fruitfulness; Universality, levels
 of
@@ -20735,11 +18561,11 @@ Propositional calculus 331, 333,
 Propositions see statements
 Protocol sentences 12, 25t, section
 26, 76t, 77&nt, 78, 86&n, 87&n,
-88
+
 Proximity, logical 135&n, 272
 Psychologism section 2, 7–9, xxi,
 xxvi, 7, section 25, 74t–9, 87, 95,
-253
+
 Psychology 62; of knowledge 7, 8,
 16, 23–5, 31, 81, 92, 440, 442&n
 Pure case 222t&nt, 236, 246,
@@ -20751,8 +18577,6 @@ author’s statistical 210&n,
 section 74, 216–24, 225–8, 475,
 482&n; Bohm’s causal 471–2;
 subject index
-508
-
 
 discontinuity in 302–3;
 interpretations of 210–11, 231,
@@ -20857,7 +18681,7 @@ Relativism 94n
 Relativity, Einstein’s 56n, 63, 90,
 129–30, 465–6, 470; and
 quantum theory 211–12, 246,
-466
+
 Relevance see Irrelevance
 Repeatability see Effect, repeatable;
 Fluctuations; Observability;
@@ -20916,8 +18740,6 @@ Sequences 137; alternative 139–40t,
 442–3; n-free see After effect;
 random or chance-like 139–40t,
 subject index
-510
-
 
 143, 151n, 157, 160, 162, section
 59, 163t, 164, 169, 170, 174–5,
@@ -20951,7 +18773,7 @@ Singular statements 3–4, 10, 19, 21,
 37, 38, 41n, 42, 49n, 63, 64, 70n,
 82–3n, 84, 92, 114, 118, 121, 314,
 331, 443–4n; lawlike character of
-76
+
 Sociology 15; knowledge 26, 279n
 Space see Coordinates
 Stability see Statistical stability
@@ -21063,7 +18885,7 @@ Interpretation; Laws; Universal
 statements
 Thermodynamics 188–90, 190n,
 192–3, 196, 200–1&n, 202, 466,
-484
+
 ’Tolerance’, Carnap’s principle of
 32n
 Transcendence 76, 443–4
@@ -21082,8 +18904,6 @@ section 84, 274&n–7&n, 278, 317,
 434, 438, 444n, 448–9, 459, 460
 Truth-frequency 253t&nt–9, 317
 subject index
-512
-
 
 Truth-function 113n, 284, 315
 Truth-value 275
@@ -21147,14 +18967,10 @@ Wave-packet 216–17t, 219, 230,
 Zero probability, of a universal
 statement 18n, 255, appendix vii,
 374–86, 396–7, 398, 404, 423,
-432
+
 Zero probability of the second
 argument 334–6, 340, 366n, 404,
-405
+
 subject index 513
-
-
-
-
 
 

@@ -9,8 +9,11 @@ chars: 808588
 approx_tokens: 202147
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 808590
+phase4_chars_after: 806074
+phase4_saved_pct: 0.3
 ---
-
 
 
 flow
@@ -24,145 +27,139 @@ For Isabella, and Mark and Christopher
 Contents
 vii
 Preface
-1
+
 1 Happiness Revisited
-1
+
 Introduction
-5
+
 Overview
-8
+
 The Roots of Discontent
-10
+
 The Shields of Culture
-16
+
 Reclaiming Experience
-20
+
 Paths of Liberation
-23
+
 2 The Anatomy of Consciousness
-28
+
 The Limits of Consciousness
-30
+
 Attention as Psychic Energy
-33
+
 Enter the Self
-36
+
 Disorder in Consciousness: Psychic Entropy
-39
+
 Order in Consciousness: Flow
-41
+
 Complexity and the Growth of the Self
-43
+
 3 Enjoyment and the Quality of Life
-45
+
 Pleasure and Enjoyment
-48
+
 The Elements of Enjoyment
-67
+
 The Autotelic Experience
-71
+
 4 The Conditions of Flow
-72
+
 Flow Activities
-77
+
 Flow and Culture
 
-
-83
 The Autotelic Personality
-90
+
 The People of Flow
-94
+
 5 The Body in Flow
-96
+
 Higher, Faster, Stronger
-99
+
 The Joys of Movement
-100
+
 Sex as Flow
-103
+
 The Ultimate Control: Yoga and the Martial Arts
-106
+
 Flow through the Senses: The Joys of Seeing
-108
+
 The Flow of Music
-113
+
 The Joys of Tasting
-117
+
 6 The Flow of Thought
-120
+
 The Mother of Science
-124
+
 The Rules of the Games of the Mind
-128
+
 The Play of Words
-132
+
 Befriending Clio
-134
+
 The Delights of Science
-138
+
 Loving Wisdom
-139
+
 Amateurs and Professionals
-141
+
 The Challenge of Lifelong Learning
-143
+
 7 Work as Flow
-144
+
 Autotelic Workers
-152
+
 Autotelic Jobs
-157
+
 The Paradox of Work
-162
+
 The Waste of Free Time
-164
+
 8 Enjoying Solitude and Other People
-165
+
 The Conflict between Being Alone and Being with Others
 
-
-168
 The Pain of Loneliness
-173
+
 Taming Solitude
-175
+
 Flow and the Family
-185
+
 Enjoying Friends
-190
+
 The Wider Community
-192
+
 9 Cheating Chaos
-193
+
 Tragedies Transformed
-198
+
 Coping with Stress
-201
+
 The Power of Dissipative Structures
-208
+
 The Autotelic Self: A Summary
-214
+
 10 The Making of Meaning
-215
+
 What Meaning Means
-218
+
 Cultivating Purpose
-223
+
 Forging Resolve
-227
+
 Recovering Harmony
-230
+
 The Unification of Meaning in Life Themes
-241
+
 Notes
-281
+
 References
 Cover
 Copyright
 About the Publisher
-
-
 
 
 PREFACE
@@ -192,8 +189,7 @@ vii
 
 
 extensive notes at the end of the volume. They are not keyed to specific
-references, but to the page number in the text where a given issue is dis-
-cussed. For example, happiness is mentioned on the very first page. The
+references, but to the page number in the text where a given issue is discussed. For example, happiness is mentioned on the very first page. The
 reader interested in knowing what works I base my assertions on can turn
 to the notes section beginning and, by looking under the reference, find a
 lead to Aristotle’s view of happiness as well as to contemporary research
@@ -204,11 +200,9 @@ At the beginning of any book, it is appropriate to acknowledge those
 who have influenced its development. In the present case this is impossible,
 since the list of names would have to be almost as long as the book itself.
 However, I owe special gratitude to a few people, whom I wish to take this
-opportunity to thank. First of all, Isabella, who as wife and friend has en-
-riched my life for over twenty-five years, and whose editorial judgment
+opportunity to thank. First of all, Isabella, who as wife and friend has enriched my life for over twenty-five years, and whose editorial judgment
 has helped shape this work. Mark and Christopher, our sons, from whom
-I have learned perhaps as much as they have learned from me. Jacob Get-
-zels, my once and future mentor. Among friends and colleagues I should
+I have learned perhaps as much as they have learned from me. Jacob Getzels, my once and future mentor. Among friends and colleagues I should
 like to single out Donald Campbell, Howard Gardner, Jean Hamilton, Philip
 Hefner, Hiroaki Imamura, David Kipper, Doug Kleiber, George Klein,
 Fausto Massimini, Elisabeth Noelle-Neumann, Jerome Singer, James Stigler,
@@ -219,8 +213,7 @@ Reed Larson, Jean Nakamura, Kevin Rathunde, Rick Robinson, Ikuya Sato,
 Sam Whalen, and Maria Wong have made the greatest contributions to the
 research underlying the ideas developed in these pages. John Brockman
 and Richard P. Kot have given their skillful professional support to this
-project and have helped it along from start to finish. Last but not least, in-
-dispensable over the past decade has been the funding generously provided
+project and have helped it along from start to finish. Last but not least, indispensable over the past decade has been the funding generously provided
 by the Spencer Foundation to collect and analyze the data. I am especially
 grateful to its former president, H. Thomas James, to its present one,
 Lawrence A. Cremin, and to Marion Faldet, vice-president of the foundation.
@@ -229,8 +222,6 @@ be unsound in the book—that is exclusively my own doing.
 Chicago, March 1990
 viii / Flow
 
-
-1
 HAPPINESS
 REVISITED
 INTRODUCTION
@@ -254,15 +245,12 @@ and regardless of all the stupendous scientific knowledge we can summon
 at will, people often end up feeling that their lives have been wasted, that
 instead of being filled with happiness their years were spent in anxiety and
 boredom.
-1
-
 
 Is this because it is the destiny of mankind to remain unfulfilled, each
 person always wanting more than he or she can have? Or is the pervasive
 malaise that often sours even our most precious moments the result of our
 seeking happiness in the wrong places? The intent of this book is to use
-some of the tools of modern psychology to explore this very ancient ques-
-tion: When do people feel most happy? If we can begin to find an answer
+some of the tools of modern psychology to explore this very ancient question: When do people feel most happy? If we can begin to find an answer
 to it, perhaps we shall eventually be able to order life so that happiness
 will play a larger part in it.
 Twenty-five years before I began to write these lines, I made a discovery
@@ -276,8 +264,7 @@ elusive phenomenon.
 What I “discovered” was that happiness is not something that happens.
 It is not the result of good fortune or random chance. It is not something
 that money can buy or power command. It does not depend on outside
-events, but, rather, on how we interpret them. Happiness, in fact, is a con-
-dition that must be prepared for, cultivated, and defended privately by
+events, but, rather, on how we interpret them. Happiness, in fact, is a condition that must be prepared for, cultivated, and defended privately by
 each person. People who learn to control inner experience will be able to
 determine the quality of their lives, which is as close as any of us can come
 to being happy.
@@ -288,8 +275,7 @@ or bad, that we find happiness, not by trying to look for it directly. Viktor
 Frankl, the Austrian psychologist, summarized it beautifully in the preface
 to his book Man’s Search for Meaning: “Don’t aim at success—the more you
 aim at it and make it a target, the more you are going to miss it. For success,
-like happiness, cannot be pursued; it must ensue…as the unintended side-
-effect of one’s personal dedication to a course greater than oneself.”
+like happiness, cannot be pursued; it must ensue…as the unintended sideeffect of one’s personal dedication to a course greater than oneself.”
 So how can we reach this elusive goal that cannot be attained by a direct
 route? My studies of the past quarter-century have convinced me that there
 is a way. It is a circuitous path that begins with achieving control over the
@@ -312,8 +298,7 @@ outside agencies.
 Yet we have all experienced times when, instead of being buffeted by
 anonymous forces, we do feel in control of our actions, masters of our own
 fate. On the rare occasions that it happens, we feel a sense of exhilaration,
-a deep sense of enjoyment that is long cherished and that becomes a land-
-mark in memory for what life should be like.
+a deep sense of enjoyment that is long cherished and that becomes a landmark in memory for what life should be like.
 This is what we mean by optimal experience. It is what the sailor holding
 a tight course feels when the wind whips through her hair, when the boat
 lunges through the waves like a colt—sails, hull, wind, and sea humming
@@ -327,16 +312,13 @@ or who have lived through near-fatal physical dangers often recall that in
 the midst of their ordeal they experienced extraordinarily rich epiphanies
 in response to such simple events as hearing the song of a bird in the forest,
 completing a hard task, or sharing a crust of bread with a friend.
-Contrary to what we usually believe, moments like these, the best mo-
-ments in our lives, are not the passive, receptive, relaxing times—although
+Contrary to what we usually believe, moments like these, the best moments in our lives, are not the passive, receptive, relaxing times—although
 such experiences can also be enjoyable, if we have worked hard to attain
 them. The best moments usually occur when a person’s body or mind is
 stretched to its limits in a voluntary effort to accomplish something difficult
-and worthwhile. Optimal experience is thus something that we make hap-
-pen. For a child, it could be placing with trembling fingers the last block
+and worthwhile. Optimal experience is thus something that we make happen. For a child, it could be placing with trembling fingers the last block
 on a tower she has built, higher than any she has built so far; for a swimmer,
-it could be trying to beat his own record; for a violinist, mastering an intric-
-ate musical passage. For each person there are thousands of opportunities,
+it could be trying to beat his own record; for a violinist, mastering an intricate musical passage. For each person there are thousands of opportunities,
 challenges to expand ourselves.
 Such experiences are not necessarily pleasant at the time they occur. The
 swimmer’s muscles might have ached during his most memorable race,
@@ -357,16 +339,13 @@ chess masters, and surgeons—in other words, people who seemed to spend
 their time in precisely those activities they preferred. From their accounts
 of what it felt like to do what they were doing, I developed a theory of
 optimal experience based on the concept of flow—the state in which people
-are so involved in an activity that nothing else seems to matter; the experi-
-ence itself is so enjoyable that people will do it even at great cost, for the
+are so involved in an activity that nothing else seems to matter; the experience itself is so enjoyable that people will do it even at great cost, for the
 sheer sake of doing it.
 With the help of this theoretical model my research team at the University
 of Chicago and, afterward, colleagues around the world interviewed
 thousands of individuals from many different walks of life. These studies
 suggested that optimal experiences were described in the same way by
-men and women, by young people and old, regardless of cultural differ-
-ences. The flow experience was not just a peculiarity of affluent, industri-
-alized elites. It was reported in essentially the same words by old women
+men and women, by young people and old, regardless of cultural differences. The flow experience was not just a peculiarity of affluent, industrialized elites. It was reported in essentially the same words by old women
 from Korea, by adults in Thailand and India, by teenagers in Tokyo, by
 Navajo shepherds, by farmers in the Italian Alps, and by workers on the
 assembly line in Chicago.
@@ -394,23 +373,18 @@ been found useful by psychologists who study happiness, life satisfaction,
 and intrinsic motivation; by sociologists who see in it the opposite of anomie
 and alienation; by anthropologists who are interested in the phenomena
 of collective effervescence and rituals. Some have extended the implications
-of flow to attempts to understand the evolution of mankind, others to illu-
-minate religious experience.
+of flow to attempts to understand the evolution of mankind, others to illuminate religious experience.
 But flow is not just an academic subject. Only a few years after it was
 first published, the theory began to be applied to a variety of practical issues.
 Whenever the goal is to improve the quality of life, the flow theory can
 point the way. It has inspired the creation of experimental school curricula,
-the training of business executives, the design of leisure products and ser-
-vices. Flow is being used to generate ideas and practices in clinical psycho-
-therapy, the rehabilitation of juvenile delinquents, the organization of
-activities in old people’s homes, the design of museum exhibits, and occu-
-pational therapy with the handicapped. All this has happened within a
+the training of business executives, the design of leisure products and services. Flow is being used to generate ideas and practices in clinical psychotherapy, the rehabilitation of juvenile delinquents, the organization of
+activities in old people’s homes, the design of museum exhibits, and occupational therapy with the handicapped. All this has happened within a
 dozen years after the first articles on flow appeared in scholarly journals,
 and the indications are that the impact of the theory is going to be even
 stronger in the years to come.
 OVERVIEW
-Although many articles and books on flow have been written for the spe-
-cialist, this is the first time that the research on optimal experience is being
+Although many articles and books on flow have been written for the specialist, this is the first time that the research on optimal experience is being
 presented to the general reader and its implications for individual lives
 discussed. But what follows is not going to be a “how-to” book. There are
 literally thousands of such volumes in print or on the remainder shelves
@@ -418,8 +392,7 @@ of book-stores, explaining how to get rich, powerful, loved, or slim. Like
 cookbooks, they tell you how to accomplish a specific, limited goal on
 which few people actually follow through. Yet even if their advice were to
 work, what would be the result afterward in the unlikely event that one
-did turn into a slim, well-loved, powerful millionaire? Usually what hap-
-pens is that the person finds himself back at square one, with a new list of
+did turn into a slim, well-loved, powerful millionaire? Usually what happens is that the person finds himself back at square one, with a new list of
 wishes, just as dissatisfied as before. What would really satisfy people is
 not getting slim or rich, but feeling good about their lives. In the quest for
 happiness, partial solutions don’t work.
@@ -442,15 +415,12 @@ experience, you will not gain much from what follows.
 Flow will examine the process of achieving happiness through control
 over one’s inner life. We shall begin by considering how consciousness works,
 and how it is controlled (chapter 2), because only if we understand the way
-subjective states are shaped can we master them. Everything we experi-
-ence—joy or pain, interest or boredom—is represented in the mind as in-
-formation. If we are able to control this information, we can decide what
+subjective states are shaped can we master them. Everything we experience—joy or pain, interest or boredom—is represented in the mind as information. If we are able to control this information, we can decide what
 our lives will be like.
 The optimal state of inner experience is one in which there is order in
 consciousness. This happens when psychic energy—or attention—is invested
 in realistic goals, and when skills match the opportunities for action. The
-pursuit of a goal brings order in awareness because a person must concen-
-trate attention on the task at hand and momentarily forget everything else.
+pursuit of a goal brings order in awareness because a person must concentrate attention on the task at hand and momentarily forget everything else.
 These periods of struggling to overcome challenges are what people find
 to be the most enjoyable times of their lives (chapter 3). A person who has
 achieved control over psychic energy and has invested it in consciously
@@ -459,11 +429,9 @@ skills, by reaching toward higher challenges, such a person becomes an
 increasingly extraordinary individual.
 To understand why some things we do are more enjoyable than others,
 we shall review the conditions of the flow experience (chapter 4). “Flow” is
-the way people describe their state of mind when consciousness is harmo-
-niously ordered, and they want to pursue whatever they are doing for its
+the way people describe their state of mind when consciousness is harmoniously ordered, and they want to pursue whatever they are doing for its
 own sake. In reviewing some of the activities that consistently produce
-flow—such as sports, games, art, and hobbies—it becomes easier to under-
-stand what makes people happy.
+flow—such as sports, games, art, and hobbies—it becomes easier to understand what makes people happy.
 But one cannot rely solely on games and art to improve the quality of
 life. To achieve control over what happens in the mind, one can draw upon
 an almost infinite range of opportunities for enjoyment—for instance,
@@ -471,8 +439,7 @@ through the use of physical and sensory skills ranging from athletics to music
 to Yoga (chapter 5), or through the development of symbolic skills such as
 poetry, philosophy, or mathematics (chapter 6).
 Most people spend the largest part of their lives working and interacting
-with others, especially with members of their families. There-
-6 / Flow
+with others, especially with members of their families. There6 / Flow
 
 
 fore it is crucial that one learn to transform jobs into flow-producing activities
@@ -481,22 +448,17 @@ children, and friends more enjoyable (chapter 8).
 Many lives are disrupted by tragic accidents, and even the most fortunate
 are subjected to stresses of various kinds. Yet such blows do not necessarily
 diminish happiness. It is how people respond to stress that determines
-whether they will profit from misfortune or be miserable. Chapter 9 de-
-scribes ways in which people manage to enjoy life despite adversity.
+whether they will profit from misfortune or be miserable. Chapter 9 describes ways in which people manage to enjoy life despite adversity.
 And, finally, the last step will be to describe how people manage to join
-all experience into a meaningful pattern (chapter 10). When that is accom-
-plished, and a person feels in control of life and feels that it makes sense,
+all experience into a meaningful pattern (chapter 10). When that is accomplished, and a person feels in control of life and feels that it makes sense,
 there is nothing left to desire. The fact that one is not slim, rich, or powerful
 no longer matters. The tide of rising expectations is stilled; unfulfilled needs
 no longer trouble the mind. Even the most humdrum experiences become
 enjoyable.
 Thus Flow will explore what is involved in reaching these aims. How is
-consciousness controlled? How is it ordered so as to make experience en-
-joyable? How is complexity achieved? And, last, how can meaning be cre-
-ated? The way to achieve these goals is relatively easy in theory, yet quite
+consciousness controlled? How is it ordered so as to make experience enjoyable? How is complexity achieved? And, last, how can meaning be created? The way to achieve these goals is relatively easy in theory, yet quite
 difficult in practice. The rules themselves are clear enough, and within
-everyone’s reach. But many forces, both within ourselves and in the envir-
-onment, stand in the way. It is a little like trying to lose weight: everyone
+everyone’s reach. But many forces, both within ourselves and in the environment, stand in the way. It is a little like trying to lose weight: everyone
 knows what it takes, everyone wants to do it, yet it is next to impossible
 for so many. The stakes here are higher, however. It is not just a matter of
 losing a few extra pounds. It is a matter of losing the chance to have a life
@@ -523,12 +485,10 @@ these shields are effective only for a while; after a few centuries, sometimes
 after only a few decades, a religion or belief wears out and no longer
 provides the spiritual sustenance it once did.
 When people try to achieve happiness on their own, without the support
-of a faith, they usually seek to maximize pleasures that are either biologic-
-ally programmed in their genes or are out as attractive by the society in
+of a faith, they usually seek to maximize pleasures that are either biologically programmed in their genes or are out as attractive by the society in
 which they live. Wealth, power, and sex become the chief goals that give
 direction to their strivings. But the quality of life cannot be improved this
-way. Only direct control of experience, the ability to derive moment-by-
-moment enjoyment from everything we do, can overcome the obstacles to
+way. Only direct control of experience, the ability to derive moment-bymoment enjoyment from everything we do, can overcome the obstacles to
 fulfillment.
 THE ROOTS OF DISCONTENT
 The foremost reason that happiness is so hard to achieve is that the universe
@@ -557,12 +517,10 @@ not take human desires into account. They are deaf and blind
 8 / Flow
 
 
-to our needs, and thus they are random in contrast with the order we at-
-tempt to establish through our goals. A meteorite on a collision course with
+to our needs, and thus they are random in contrast with the order we attempt to establish through our goals. A meteorite on a collision course with
 New York City might be obeying all the laws of the universe, but it would
 still be a damn nuisance. The virus that attacks the cells of a Mozart is only
-doing what comes naturally, even though it inflicts a grave loss on human-
-kind. “The universe is not hostile, nor yet is it friendly,” in the words of J.
+doing what comes naturally, even though it inflicts a grave loss on humankind. “The universe is not hostile, nor yet is it friendly,” in the words of J.
 H. Holmes. “It is simply indifferent.”
 Chaos is one of the oldest concepts in myth and religion. It is rather foreign
 to the physical and biological sciences, because in terms of their laws the
@@ -575,13 +533,11 @@ There is not much that we as individuals can do to change the way the
 universe runs. In our lifetime we exert little influence over the forces that
 interfere with our well-being. It is important to do as much as we can to
 prevent nuclear war, to abolish social injustice, to eradicate hunger and
-disease. But it is prudent not to expect that efforts to change external con-
-ditions will immediately improve the quality of our lives. As J. S. Mill
+disease. But it is prudent not to expect that efforts to change external conditions will immediately improve the quality of our lives. As J. S. Mill
 wrote, “No great improvements in the lot of mankind are possible, until a
 great change takes place in the fundamental constitution of their modes of
 thought.”
-How we feel about ourselves, the joy we get from living, ultimately de-
-pend directly on how the mind filters and interprets everyday experiences.
+How we feel about ourselves, the joy we get from living, ultimately depend directly on how the mind filters and interprets everyday experiences.
 Whether we are happy depends on inner harmony, not on the controls we
 are able to exert over the great forces of the universe. Certainly we should
 keep on learning how to master the external environment, because our
@@ -589,8 +545,7 @@ physical survival may depend on it. But such mastery is not going to add
 one jot to how good we as individuals feel, or reduce the chaos of the world
 as we experience it. To do that we must learn to achieve mastery over
 consciousness itself.
-Each of us has a picture, however vague, of what we would like to ac-
-complish before we die. How close we get to attaining this goal becomes
+Each of us has a picture, however vague, of what we would like to accomplish before we die. How close we get to attaining this goal becomes
 the measure for the quality of our lives. If it remains beyond reach, we
 grow resentful or resigned; if it is at least in part achieved, we experience
 a sense of happiness and satisfaction.
@@ -607,8 +562,7 @@ But as soon as these basic problems of survival are solved, merely having
 enough food and a comfortable shelter is no longer sufficient to make
 people content. New needs are felt, new desires arise. With affluence and
 power come escalating expectations, and as our level of wealth and comforts
-keeps increasing, the sense of well-being we hoped to achieve keeps reced-
-ing into the distance. When Cyrus the Great had ten thousand cooks prepare
+keeps increasing, the sense of well-being we hoped to achieve keeps receding into the distance. When Cyrus the Great had ten thousand cooks prepare
 new dishes for his table, the rest of Persia had barely enough to eat. These
 days every household in the “first world” has access to the recipes of the
 most diverse lands and can duplicate the feasts of past emperors. But does
@@ -621,12 +575,10 @@ to achieve that they cease to derive pleasure from the present. When that
 happens, they forfeit their chance of contentment.
 Though the evidence suggests that most people are caught up on this
 frustrating treadmill of rising expectations, many individuals have found
-ways to escape it. These are people who, regardless of their material condi-
-tions, have been able to improve the quality of their lives, who are satisfied,
+ways to escape it. These are people who, regardless of their material conditions, have been able to improve the quality of their lives, who are satisfied,
 and who have a way of making those around them also a bit more happy.
 Such individuals lead vigorous lives, are open to a variety of experiences,
-keep on learning until the day they die, and have strong ties and commit-
-ments to other people and to the environment in which they live. They
+keep on learning until the day they die, and have strong ties and commitments to other people and to the environment in which they live. They
 enjoy whatever they do, even if tedious or difficult; they are hardly ever
 bored, and they can take in stride anything that comes their way. Perhaps
 their greatest strength is that they are in control of their lives. We shall see
@@ -645,8 +597,7 @@ transform the random, crushing forces of the universe into manageable,
 or at least understandable, patterns. One of the major functions of every
 culture has been to shield its members from chaos, to reassure them of their
 importance and ultimate success. The Eskimo, the hunter of the Amazon
-basin, the Chinese, the Navajo, the Australian Aborigine, the New York-
-er—all have taken for granted that they live at the center of the universe,
+basin, the Chinese, the Navajo, the Australian Aborigine, the New Yorker—all have taken for granted that they live at the center of the universe,
 and that they have a special dispensation that puts them on the fast track
 to the future. Without such trust in exclusive privileges, it would be difficult
 to face the odds of existence.
@@ -673,8 +624,7 @@ given them, they flounder in a morass of anxiety and apathy.
 Such symptoms of disillusion are not hard to observe around us now.
 The most obvious ones relate to the pervasive listlessness that affects so
 many lives. Genuinely happy individuals are few and far between. How
-many people do you know who enjoy what they are doing, who are reas-
-onably satisfied with their lot, who do not regret the past and look to the
+many people do you know who enjoy what they are doing, who are reasonably satisfied with their lot, who do not regret the past and look to the
 future with genuine confidence? If Diogenes with his lantern twenty-three
 centuries ago had difficulty finding an honest man, today he would have
 perhaps an even more troublesome time finding a happy one.
@@ -683,26 +633,21 @@ Mihaly Csikszentmihalyi / 11
 
 
 so many other nations in the contemporary world, we can’t blame our
-problems on a harsh environment, on widespread poverty, or on the op-
-pression of a foreign occupying army. The roots of the discontent are in-
-ternal, and each person must untangle them personally, with his or her
-own power. The shields that have worked in the past—the order that reli-
-gion, patriotism, ethnic traditions, and habits instilled by social classes
+problems on a harsh environment, on widespread poverty, or on the oppression of a foreign occupying army. The roots of the discontent are internal, and each person must untangle them personally, with his or her
+own power. The shields that have worked in the past—the order that religion, patriotism, ethnic traditions, and habits instilled by social classes
 used to provide—are no longer effective for increasing numbers of people
 who feel exposed to the harsh winds of chaos.
 The lack of inner order manifests itself in the subjective condition that
 some call ontological anxiety, or existential dread. Basically, it is a fear of
 being, a feeling that there is no meaning to life and that existence is not
-worth going on with. Nothing seems to make sense. In the last few gener-
-ations, the specter of nuclear war has added an unprecedented threat to
+worth going on with. Nothing seems to make sense. In the last few generations, the specter of nuclear war has added an unprecedented threat to
 our hopes. There no longer seems to be any point to the historical strivings
 of humankind. We are just forgotten specks drifting in the void. With each
 passing year, the chaos of the physical universe becomes magnified in the
 minds of the multitude.
 As people move through life, passing from the hopeful ignorance of
 youth into sobering adulthood, they sooner or later face an increasingly
-nagging question: “Is this all there is?” Childhood can be painful, adoles-
-cence confusing, but for most people, behind it all there is the expectation
+nagging question: “Is this all there is?” Childhood can be painful, adolescence confusing, but for most people, behind it all there is the expectation
 that after one grows up, things will get better. During the years of early
 adulthood the future still looks promising, the hope remains that one’s
 goals will be realized. But inevitably the bathroom mirror shows the first
@@ -716,8 +661,7 @@ a minute, this can’t be happening to me. I haven’t even begun to live.
 Where’s all that money I was supposed to have made? Where are all the
 good times I was going to have?”
 A feeling of having been led on, of being cheated, is an understandable
-consequence of this realization. From the earliest years we have been con-
-ditioned to believe that a benign fate would provide for us. After all,
+consequence of this realization. From the earliest years we have been conditioned to believe that a benign fate would provide for us. After all,
 everybody seemed to agree that we had the great fortune of living in the
 richest country that ever was, in the most scientifically advanced period
 of human history, surrounded by the most efficient technology, protected
@@ -729,17 +673,14 @@ have a richer, more meaningful life than
 any earlier members of the human race. If our grandparents, living in that
 ridiculously primitive past, could be content, just imagine how happy we
 would be! Scientists told us this was so, it was preached from the pulpits
-of churches, and it was confirmed by thousands of TV commercials celeb-
-rating the good life. Yet despite all these assurances, sooner or later we
+of churches, and it was confirmed by thousands of TV commercials celebrating the good life. Yet despite all these assurances, sooner or later we
 wake up alone, sensing that there is no way this affluent, scientific, and
 sophisticated world is going to provide us with happiness.
 As this realization slowly sets in, different people react to it differently.
 Some try to ignore it, and renew their efforts to acquire more of the things
 that were supposed to make life good—bigger cars and homes, more power
 on the job, a more glamorous life-style. They renew their efforts, determined
-still to achieve the satisfaction that up until then has eluded them. Some-
-times this solution works, simply because one is so drawn into the compet-
-itive struggle that there is no time to realize that the goal has not come any
+still to achieve the satisfaction that up until then has eluded them. Sometimes this solution works, simply because one is so drawn into the competitive struggle that there is no time to realize that the goal has not come any
 nearer. But if a person does take the time out to reflect, the disillusionment
 returns: after each success it becomes clearer that money, power, status,
 and possessions do not, by themselves, necessarily add one iota to the
@@ -789,9 +730,7 @@ is known about the way the world works.
 The evidence that none of these solutions is any longer very effective is
 irrefutable. In the heyday of its material splendor, our society is suffering
 from an astonishing variety of strange ills. The profits made from the
-widespread dependence on illicit drugs are enriching murderers and ter-
-rorists. It seems possible that in the near future we shall be ruled by an ol-
-igarchy of former drug dealers, who are rapidly gaining wealth and power
+widespread dependence on illicit drugs are enriching murderers and terrorists. It seems possible that in the near future we shall be ruled by an oligarchy of former drug dealers, who are rapidly gaining wealth and power
 at the expense of law-abiding citizens. And in our sexual lives, by shedding
 the shackles of “hypocritical” morality, we have unleashed destructive
 viruses upon one another.
@@ -801,8 +740,7 @@ for avoiding bad news is hardly productive; better to face facts and take
 care to avoid becoming one of the statistics. There are figures that may be
 reassuring to some: for instance, in the past thirty years, we have doubled
 our per-capita use of energy—most of it thanks to a fivefold increase in the
-use of electric utilities and appliances. Other trends, however, would reas-
-sure no one. In 1984, there were still thirty-four million people in the United
+use of electric utilities and appliances. Other trends, however, would reassure no one. In 1984, there were still thirty-four million people in the United
 States who lived below the poverty line (defined as a yearly income of
 $10,609 or less for a family of four), a number that has changed little in
 generations.
@@ -826,9 +764,7 @@ were 1,700,000 instances of clinical intervention involving mental patients
 across the country; by 1975 the number had climbed to 6,400,000. Perhaps
 not coincidentally, similar figures illustrate the increase in our national
 paranoia: during the decade from 1975 to 1985 the budget authorized to
-the Department of Defense climbed from $87.9 billion a year to $284.7 bil-
-lion—more than a threefold increase. It is true that the budget of the De-
-partment of Education also tripled in the same period, but in 1985 this
+the Department of Defense climbed from $87.9 billion a year to $284.7 billion—more than a threefold increase. It is true that the budget of the Department of Education also tripled in the same period, but in 1985 this
 amounted to “only” $17.4 billion. At least as far as the allocation of resources
 is concerned, the sword is about sixteen times mightier than the pen.
 The future does not look much rosier. Today’s teenagers show the
@@ -865,20 +801,15 @@ supportive a framework as they once did, each person must use whatever
 tools are available to carve out a meaningful, enjoyable life. One of the most
 important tools in this quest is provided by psychology. Up to now the
 main contribution of this fledgling science has been to discover how past
-events shed light on present behavior. It has made us aware that adult irra-
-tionality is often the result of childhood frustrations. But there is another
+events shed light on present behavior. It has made us aware that adult irrationality is often the result of childhood frustrations. But there is another
 way that the discipline of psychology can be put to use. It is in helping
-answer the question: Given that we are who we are, with whatever hang-
-ups and repressions, what can we do to improve our future?
-To overcome the anxieties and depressions of contemporary life, indi-
-viduals must become independent of the social environment to the degree
-that they no longer respond exclusively in terms of its rewards and punish-
-ments. To achieve such autonomy, a person has to learn to provide rewards
+answer the question: Given that we are who we are, with whatever hangups and repressions, what can we do to improve our future?
+To overcome the anxieties and depressions of contemporary life, individuals must become independent of the social environment to the degree
+that they no longer respond exclusively in terms of its rewards and punishments. To achieve such autonomy, a person has to learn to provide rewards
 to herself. She has to develop the ability to find enjoyment and purpose
 regardless of external circumstances. This challenge is both easier and more
 difficult than it sounds: easier because the ability to do so is entirely within
-each person’s hands; difficult because it requires a discipline and persever-
-ance that are relatively rare in any era, and perhaps especially in the present.
+each person’s hands; difficult because it requires a discipline and perseverance that are relatively rare in any era, and perhaps especially in the present.
 And before all else, achieving control over experience requires a drastic
 change in attitude about what is important and what is not.
 We grow up believing that what counts most in our lives is that which
@@ -895,32 +826,25 @@ jam today.
 16 / Flow
 
 
-Of course this emphasis on the postponement of gratification is to a cer-
-tain extent inevitable. As Freud and many others before and after him have
+Of course this emphasis on the postponement of gratification is to a certain extent inevitable. As Freud and many others before and after him have
 noted, civilization is built on the repression of individual desires. It would
 be impossible to maintain any kind of social order, any complex division
 of labor, unless society’s members were forced to take on the habits and
-skills that the culture required, whether the individuals liked it or not. So-
-cialization, or the transformation of a human organism into a person who
+skills that the culture required, whether the individuals liked it or not. Socialization, or the transformation of a human organism into a person who
 functions successfully within a particular social system, cannot be avoided.
 The essence of socialization is to make people dependent on social controls,
 to have them respond predictably to rewards and punishments. And the
 most effective form of socialization is achieved when people identify so
 thoroughly with the social order that they no longer can imagine themselves
 breaking any of its rules.
-In making us work for its goals, society is assisted by some powerful al-
-lies: our biological needs and our genetic conditioning. All social controls,
+In making us work for its goals, society is assisted by some powerful allies: our biological needs and our genetic conditioning. All social controls,
 for instance, are ultimately based on a threat to the survival instinct. The
 people of an oppressed country obey their conquerors because they want
-to go on living. Until very recently, the laws of even the most civilized na-
-tions (such as Great Britain) were enforced by the threats of caning, whip-
-ping, mutilation, or death.
-When they do not rely on pain, social systems use pleasure as the induce-
-ment to accept norms. The “good life” promised as a reward for a lifetime
+to go on living. Until very recently, the laws of even the most civilized nations (such as Great Britain) were enforced by the threats of caning, whipping, mutilation, or death.
+When they do not rely on pain, social systems use pleasure as the inducement to accept norms. The “good life” promised as a reward for a lifetime
 of work and adherence to laws is built on the cravings contained in our
 genetic programs. Practically every desire that has become part of human
-nature, from sexuality to aggression, from a longing for security to a re-
-ceptivity to change, has been exploited as a source of social control by
+nature, from sexuality to aggression, from a longing for security to a receptivity to change, has been exploited as a source of social control by
 politicians, churches, corporations, and advertisers. To lure recruits into
 the Turkish armed forces, the sultans of the sixteenth century promised
 conscripts the rewards of raping women in the conquered territories;
@@ -942,9 +866,7 @@ Mihaly Csikszentmihalyi / 17
 
 following its own plans. As long as the attraction is a reflex based on purely
 physical reactions, the person’s own conscious plans probably play only a
-minimal role. There is nothing wrong with following this genetic program-
-ming and relishing the resulting pleasures it provides, as long as we recog-
-nize them for what they are, and as long as we retain some control over
+minimal role. There is nothing wrong with following this genetic programming and relishing the resulting pleasures it provides, as long as we recognize them for what they are, and as long as we retain some control over
 them when it is necessary to pursue other goals, to which we might decide
 to assign priority.
 The problem is that it has recently become fashionable to regard whatever
@@ -953,8 +875,7 @@ people trust today is instinct. If something feels good, if it is natural and
 spontaneous, then it must be right. But when we follow the suggestions of
 genetic and social instructions without question we relinquish the control
 of consciousness and become helpless playthings of impersonal forces. The
-person who cannot resist food or alcohol, or whose mind is constantly fo-
-cused on sex, is not free to direct his or her psychic energy.
+person who cannot resist food or alcohol, or whose mind is constantly focused on sex, is not free to direct his or her psychic energy.
 The “liberated” view of human nature, which accepts and endorses every
 instinct or drive we happen to have simply because it’s there, results in
 consequences that are quite reactionary. Much of contemporary “realism”
@@ -996,14 +917,11 @@ is dialectically linked to the official institutions, promises its own rewards
 of easy dissipation—provided we pay. The messages are very different,
 but their outcome is essentially the same: they make us dependent on a
 social system that exploits our energies for its own purposes.
-There is no question that to survive, and especially to survive in a com-
-plex society, it is necessary to work for external goals and to postpone im-
-mediate gratifications. But a person does not have to be turned into a
+There is no question that to survive, and especially to survive in a complex society, it is necessary to work for external goals and to postpone immediate gratifications. But a person does not have to be turned into a
 puppet jerked about by social controls. The solution is to gradually become
 free of societal rewards and learn how to substitute for them rewards that
 are under one’s own powers. This is not to say that we should abandon
-every goal endorsed by society; rather, it means that, in addition to or in-
-stead of the goals others use to bribe us with, we develop a set of our own.
+every goal endorsed by society; rather, it means that, in addition to or instead of the goals others use to bribe us with, we develop a set of our own.
 The most important step in emancipating oneself from social controls is
 the ability to find rewards in the events of each moment. If a person learns
 to enjoy and find meaning in the ongoing stream of experience, in the
@@ -1016,16 +934,14 @@ of forever straining for the tantalizing prize dangled just out of reach, one
 begins to harvest the genuine rewards of living. But it is not by abandoning
 ourselves to instinctual desires that we become free of social controls. We
 must also become independent from the dictates of the body, and learn to
-take charge of what happens in the mind. Pain and pleasure occur in con-
-sciousness and exist only there. As long as we obey the socially conditioned
+take charge of what happens in the mind. Pain and pleasure occur in consciousness and exist only there. As long as we obey the socially conditioned
 stimulus-response patterns that exploit our biological inclinations, we are
 controlled from the outside. To the extent that a glamorous ad makes us
 salivate for the product sold or that a frown from the boss spoils the day,
 Mihaly Csikszentmihalyi / 19
 
 
-we are not free to determine the content of experience. Since what we ex-
-perience is reality, as far as we are concerned, we can transform reality to
+we are not free to determine the content of experience. Since what we experience is reality, as far as we are concerned, we can transform reality to
 the extent that we influence what happens in consciousness and thus free
 ourselves from the threats and blandishments of the outside world. “Men
 are not afraid of things, but of how they view them,” said Epictetus a long
@@ -1046,11 +962,8 @@ domination of impulses and social controls was psychoanalysis; as Freud
 pointed out, the two tyrants that fought for control over the mind were the
 id and the superego, the first a servant of the genes, the second a lackey of
 society—both representing the “Other.” Opposed to them was the ego,
-which stood for the genuine needs of the self connected to its concrete en-
-vironment.
-In the East techniques for achieving control over consciousness prolifer-
-ated and achieved levels of enormous sophistication. Although quite dif-
-ferent from one another in many respects, the yogi disciplines in India, the
+which stood for the genuine needs of the self connected to its concrete environment.
+In the East techniques for achieving control over consciousness proliferated and achieved levels of enormous sophistication. Although quite different from one another in many respects, the yogi disciplines in India, the
 Taoist approach to life developed in China, and the Zen varieties of
 Buddhism all seek to free consciousness from the deterministic influences
 of outside forces—be they biological or social in nature. Thus, for instance,
@@ -1074,25 +987,20 @@ our ancestors were in facing the chaos that interferes with happiness? There
 are at least two good explanations for this failure. In the first place, the
 kind of knowledge—or wisdom—one needs for emancipating consciousness
 is not cumulative. It cannot be condensed into a formula; it cannot be
-memorized and then routinely applied. Like other complex forms of expert-
-ise, such as a mature political judgment or a refined aesthetic sense, it must
+memorized and then routinely applied. Like other complex forms of expertise, such as a mature political judgment or a refined aesthetic sense, it must
 be earned through trial-and-error experience by each individual, generation
 after generation. Control over consciousness is not simply a cognitive skill.
 At least as much as intelligence, it requires the commitment of emotions
 and will. It is not enough to know how to do it; one must do it, consistently,
 in the same way as athletes or musicians who must keep practicing what
 they know in theory. And this is never easy. Progress is relatively fast in
-fields that apply knowledge to the material world, such as physics or ge-
-netics. But it is painfully slow when knowledge is to be applied to modify
+fields that apply knowledge to the material world, such as physics or genetics. But it is painfully slow when knowledge is to be applied to modify
 our own habits and desires.
-Second, the knowledge of how to control consciousness must be refor-
-mulated every time the cultural context changes. The wisdom of the mystics,
-of the Sufi, of the great yogis, or of the Zen masters might have been excel-
-lent in their own time—and might still be the best, if we lived in those times
+Second, the knowledge of how to control consciousness must be reformulated every time the cultural context changes. The wisdom of the mystics,
+of the Sufi, of the great yogis, or of the Zen masters might have been excellent in their own time—and might still be the best, if we lived in those times
 and in those cultures. But when transplanted to contemporary California
 those systems lose quite a bit of their original power. They contain elements
-that are specific to their original contexts, and when these accidental com-
-ponents are not distinguished from what is essential, the path to freedom
+that are specific to their original contexts, and when these accidental components are not distinguished from what is essential, the path to freedom
 gets overgrown by brambles of meaningless mumbo jumbo. Ritual form
 wins over substance, and the seeker is back where he started.
 Control over consciousness cannot be institutionalized. As soon as it
@@ -1113,12 +1021,10 @@ again by the leaders of that very church whose worldly power was built
 on his name.
 In each new epoch—perhaps every generation, or even every few years,
 if the conditions in which we live change that rapidly—it becomes necessary
-to rethink and reformulate what it takes to establish autonomy in conscious-
-ness. Early Christianity helped the masses free themselves from the power
+to rethink and reformulate what it takes to establish autonomy in consciousness. Early Christianity helped the masses free themselves from the power
 of the ossified imperial regime and from an ideology that could give
 meaning only to the lives of the rich and the powerful. The Reformation
-liberated great numbers of people from their political and ideological ex-
-ploitation by the Roman Church. The philosophes and later the statesmen
+liberated great numbers of people from their political and ideological exploitation by the Roman Church. The philosophes and later the statesmen
 who drafted the American Constitution resisted the controls established
 by kings, popes, and aristocracy. When the inhuman conditions of factory
 labor became the most obvious obstacles to the workers’ freedom to order
@@ -1128,8 +1034,7 @@ but equally coercive social controls of bourgeois Vienna made Freud’s road
 to liberation pertinent to those whose minds had been warped by such
 conditions. The insights of the Gospels, of Martin Luther, of the framers of
 the Constitution, of Marx and Freud—just to mention a very few of those
-attempts that have been made in the West to increase happiness by enhan-
-cing freedom—will always be valid and useful, even though some of them
+attempts that have been made in the West to increase happiness by enhancing freedom—will always be valid and useful, even though some of them
 have been perverted in their application. But they certainly do not exhaust
 either the problems or the solutions.
 Given the recurring need to return to this central question of how to
@@ -1137,16 +1042,11 @@ achieve mastery over one’s life, what does the present state of knowledge
 say about it? How can it help a person learn to rid himself of anxieties and
 fears and thus become free of the controls of society, whose rewards he
 can now take or leave? As suggested before, the way is through control
-over consciousness, which in turn leads to control over the quality of exper-
-ience. Any small gain in that direction will make life more rich, more enjoy-
-able, more meaningful. Before starting to explore ways in which to improve
-the quality of experience, it will be useful to review briefly how conscious-
-ness works and what it actually means to have “experiences.” Armed with
+over consciousness, which in turn leads to control over the quality of experience. Any small gain in that direction will make life more rich, more enjoyable, more meaningful. Before starting to explore ways in which to improve
+the quality of experience, it will be useful to review briefly how consciousness works and what it actually means to have “experiences.” Armed with
 this knowledge, one can more easily achieve personal liberation.
 22 / Flow
 
-
-2
 THE ANATOMY OF
 CONSCIOUSNESS
 AT CERTAIN TIMES in history cultures have taken it for granted that a person
@@ -1168,10 +1068,7 @@ direction. To begin with, and just to clear the air of any suspicion that in
 talking about consciousness we are referring to some mysterious process,
 we should recognize that, like every other dimension of human behavior,
 it is the result of biological processes. It exists only because of the incredibly
-complex architecture of our nervous system, which in turn is built up ac-
-cording to instructions contained in the protein
-23
-
+complex architecture of our nervous system, which in turn is built up according to instructions contained in the protein
 
 molecules of our chromosomes. At the same time, we should also recognize
 that the way in which consciousness works is not entirely controlled by its
@@ -1188,8 +1085,7 @@ would still “know” what is going on, but we would have to react to it in a
 reflexive, instinctive way. With consciousness, we can deliberately weigh
 what the senses tell us, and respond accordingly. And we can also invent
 information that did not exist before: it is because we have consciousness
-that we can daydream, make up lies, and write beautiful poems and sci-
-entific theories.
+that we can daydream, make up lies, and write beautiful poems and scientific theories.
 Over the endless dark centuries of its evolution, the human nervous
 system has become so complex that it is now able to affect its own states,
 making it to a certain extent functionally independent of its genetic blueprint
@@ -1208,8 +1104,7 @@ when talking about consciousness and expect it to accomplish miracles
 that at present it is not designed to perform. They would like to believe
 that anything is possible in what they think of as the spiritual realm. Other
 individuals claim the power to channel into past existences, to communicate
-with spiritual entities, and to perform uncanny feats of extrasensory per-
-ception. When not outright frauds, these accounts usually turn out to be
+with spiritual entities, and to perform uncanny feats of extrasensory perception. When not outright frauds, these accounts usually turn out to be
 self-delusions—lies that an overly receptive mind tells itself.
 The remarkable accomplishments of Hindu fakirs and other practitioners
 of mental disciplines are often presented as examples of the
@@ -1235,8 +1130,7 @@ about. There is no reason to rule out the possibility that eventually we shall
 be able to bend spoons with brain waves. But at this point, when there are
 so many more mundane but no less urgent tasks to accomplish, it seems a
 waste of time to lust for powers beyond our reach when consciousness,
-with all its limitations, could be employed so much more effectively. Al-
-though in its present state it cannot do what some people would wish it to
+with all its limitations, could be employed so much more effectively. Although in its present state it cannot do what some people would wish it to
 do, the mind has enormous untapped potential that we desperately need
 to learn how to use.
 Because no branch of science deals with consciousness directly, there is
@@ -1244,27 +1138,21 @@ no single accepted description of how it works. Many disciplines touch on
 it and thus provide peripheral accounts. Neuroscience, neuroanatomy,
 cognitive science, artificial intelligence, psychoanalysis, and phenomenology
 are some of the most directly relevant fields to choose from; however, trying
-to summarize their findings would result in an account similar to the de-
-scriptions the blind men gave of the elephant: each different, and each
+to summarize their findings would result in an account similar to the descriptions the blind men gave of the elephant: each different, and each
 unrelated to the others. No doubt we shall continue to learn important
 things about consciousness from these disciplines, but in the meantime we
-are left with the task of providing a model that is grounded in fact, yet ex-
-pressed simply enough so that anyone can make use of it.
+are left with the task of providing a model that is grounded in fact, yet expressed simply enough so that anyone can make use of it.
 Although it sounds like indecipherable academic jargon, the most concise
 description of the approach I believe to be the clearest way to examine the
 main facets of what happens in the mind, in a way that can be useful in the
-actual practice of everyday life, is “a phenomenological model of conscious-
-ness based on information theory.” This representa-
-Mihaly Csikszentmihalyi / 25
+actual practice of everyday life, is “a phenomenological model of consciousness based on information theory.” This representaMihaly Csikszentmihalyi / 25
 
 
 tion of consciousness is phenomenological in that it deals directly with
 events—phenomena—as we experience and interpret them, rather than
-focusing on the anatomical structures, neurochemical processes, or uncon-
-scious purposes that make these events possible. Of course, it is understood
+focusing on the anatomical structures, neurochemical processes, or unconscious purposes that make these events possible. Of course, it is understood
 that whatever happens in the mind is the result of electrochemical changes
-in the central nervous system, as laid down over millions of years by biolo-
-gical evolution. But phenomenology assumes that a mental event can be
+in the central nervous system, as laid down over millions of years by biological evolution. But phenomenology assumes that a mental event can be
 best understood if we look at it directly as it was experienced, rather than
 through the specialized optics of a particular discipline. Yet in contrast to
 pure phenomenology, which intentionally excludes any other theory or
@@ -1277,8 +1165,7 @@ With this framework in mind, what, then, does it mean to be conscious?
 It simply means that certain specific conscious events (sensations, feelings,
 thoughts, intentions) are occurring, and that we are able to direct their
 course. In contrast, when we are dreaming, some of the same events are
-present, yet we are not conscious because we cannot control them. For in-
-stance, I may dream of having received news of a relative’s being involved
+present, yet we are not conscious because we cannot control them. For instance, I may dream of having received news of a relative’s being involved
 in an accident, and I may feel very upset. I might think, “I wish I could be
 of help.” Despite the fact that I perceive, feel, think, and form intentions in
 the dream, I cannot act on these processes (by making provisions for
@@ -1286,15 +1173,13 @@ checking out the truthfulness of the news, for example) and hence, I am
 not conscious. In dreams we are locked into a single scenario we cannot
 change at will. The events that constitute consciousness—the “things” we
 see, feel, think, and desire—are information that we can manipulate and
-use. Thus we might think of consciousness as intentionally ordered informa-
-tion.
+use. Thus we might think of consciousness as intentionally ordered information.
 This dry definition, accurate as it is, does not fully suggest the importance
 of what it conveys. Since for us outside events do not exist unless we are
 aware of them, consciousness corresponds to subjectively experienced
 reality. While everything we feel, smell, hear, or remember is potentially
 a candidate for entering consciousness, the experiences that actually do
-become part of it are much fewer than those left out. Thus, while conscious-
-ness is a mirror that reflects what our senses tell us about what happens
+become part of it are much fewer than those left out. Thus, while consciousness is a mirror that reflects what our senses tell us about what happens
 both outside our bodies and within the nervous system, it reflects those
 changes selectively, actively shaping events, imposing on them a reality of
 its own. The reflection consciousness provides is what we call our life: the
@@ -1317,8 +1202,7 @@ also bits of information, shaped either by biological needs or by internalized
 social goals. They act as magnetic fields, moving attention toward some
 objects and away from others, keeping our mind focused on some stimuli
 in preference to others. We often call the manifestation of intentionality by
-other names, such as instinct, need, drive, or desire. But these are all explan-
-atory terms, telling us why people behave in certain ways. Intention is a
+other names, such as instinct, need, drive, or desire. But these are all explanatory terms, telling us why people behave in certain ways. Intention is a
 more neutral and descriptive term; it doesn’t say why a person wants to do
 a certain thing, but simply states that he does.
 For instance, whenever blood sugar level drops below a critical point,
@@ -1328,49 +1212,40 @@ of sugar in the blood, we might start thinking about food. We will look for
 food until we eat and are no longer hungry. In this instance we could say
 that it was the hunger drive that organized the content of consciousness,
 forcing us to focus attention on food. But this is already an interpretation
-of the facts—no doubt chemically accurate, but phenomenologically irrel-
-evant. The hungry person is not aware of the level of sugar in his blood-
-stream; he knows only that there is a bit of information in his consciousness
+of the facts—no doubt chemically accurate, but phenomenologically irrelevant. The hungry person is not aware of the level of sugar in his bloodstream; he knows only that there is a bit of information in his consciousness
 that he has learned to identify as “hunger.”
 Once the person is aware that he is hungry, he might very well form the
 intention of obtaining some food. If he does so, his behavior will be the
 same as if he were simply obeying a need or drive. But alternatively, he
 could disregard the pangs of hunger entirely. He might have some stronger
 and opposite intentions, such as losing weight, or wanting to save money,
-or fasting for religious reasons. Sometimes, as in the case of political pro-
-testers who wish to starve themselves to death, the intention of making an
+or fasting for religious reasons. Sometimes, as in the case of political protesters who wish to starve themselves to death, the intention of making an
 ideological statement might override genetic instructions, resulting in
 voluntary death.
 Mihaly Csikszentmihalyi / 27
 
 
 The intentions we either inherit or acquire are organized in hierarchies
-of goals, which specify the order of precedence among them. For the pro-
-tester, achieving a given political reform may be more important than
+of goals, which specify the order of precedence among them. For the protester, achieving a given political reform may be more important than
 anything else, life included. That one goal takes precedence over all others.
 Most people, however, adopt “sensible” goals based on the needs of their
-body—to live a long and healthy life, to have sex, to be well fed and com-
-fortable—or on the desires implanted by the social system—to be good, to
+body—to live a long and healthy life, to have sex, to be well fed and comfortable—or on the desires implanted by the social system—to be good, to
 work hard, to spend as much as possible, to live up to others’ expectations.
 But there are enough exceptions in every culture to show that goals are
 quite flexible. Individuals who depart from the norms—heroes, saints,
-sages, artists, and poets, as well as madmen and criminals—look for differ-
-ent things in life than most others do. The existence of people like these
+sages, artists, and poets, as well as madmen and criminals—look for different things in life than most others do. The existence of people like these
 shows that consciousness can be ordered in terms of different goals and
 intentions. Each of us has this freedom to control our subjective reality.
 THE LIMITS OF CONSCIOUSNESS
-If it were possible to expand indefinitely what consciousness is able to en-
-compass, one of the most fundamental dreams of humankind would come
+If it were possible to expand indefinitely what consciousness is able to encompass, one of the most fundamental dreams of humankind would come
 true. It would be almost as good as being immortal or omnipotent—in
 short, godlike. We could think everything, feel everything, do everything,
 scan through so much information that we could fill up every fraction of
 a second with a rich tapestry of experiences. In the space of a lifetime we
 could go through a million, or—why not?—through an infinite number of
 lives.
-Unfortunately, the nervous system has definite limits on how much in-
-formation it can process at any given time. There are just so many “events”
-that can appear in consciousness and be recognized and handled appropri-
-ately before they begin to crowd each other out. Walking across a room
+Unfortunately, the nervous system has definite limits on how much information it can process at any given time. There are just so many “events”
+that can appear in consciousness and be recognized and handled appropriately before they begin to crowd each other out. Walking across a room
 while chewing gum at the same time is not too difficult, even though some
 statesmen have been alleged to be unable to do it; but, in fact, there is not
 that much more that can be done concurrently. Thoughts have to follow
@@ -1379,13 +1254,11 @@ we cannot truly experience either happiness or sadness. We cannot run,
 sing, and balance the checkbook simultaneously, because each one of these
 activities exhausts most of our capacity for attention.
 At this point in our scientific knowledge we are on the verge of being
-able to estimate how much information the central nervous system is cap-
-able of processing. It seems we can manage at most seven bits of
+able to estimate how much information the central nervous system is capable of processing. It seems we can manage at most seven bits of
 28 / Flow
 
 
-information—such as differentiated sounds, or visual stimuli, or recogniz-
-able nuances of emotion or thought—at any one time, and that the shortest
+information—such as differentiated sounds, or visual stimuli, or recognizable nuances of emotion or thought—at any one time, and that the shortest
 time it takes to discriminate between one set of bits and another is about
 1/18 of a second. By using these figures one concludes that it is possible to
 process at most 126 bits of information per second, or 7,560 per minute, or
@@ -1394,20 +1267,16 @@ counting sixteen hours of waking time each day, this amounts to about 185
 billion bits of information. It is out of this total that everything in our life
 must come—every thought, memory, feeling, or action. It seems like a huge
 amount, but in reality it does not go that far.
-The limitation of consciousness is demonstrated by the fact that to under-
-stand what another person is saying we must process 40 bits of information
+The limitation of consciousness is demonstrated by the fact that to understand what another person is saying we must process 40 bits of information
 each second. If we assume the upper limit of our capacity to be 126 bits per
-second, it follows that to understand what three people are saying simul-
-taneously is theoretically possible, but only by managing to keep out of
+second, it follows that to understand what three people are saying simultaneously is theoretically possible, but only by managing to keep out of
 consciousness every other thought or sensation. We couldn’t, for instance,
 be aware of the speakers’ expressions, nor could we wonder about why
 they are saying what they are saying, or notice what they are wearing.
 Of course, these figures are only suggestive at this point in our knowledge
 of the way the mind works. It could be argued justifiably that they either
-underestimate or overestimate the capacity of the mind to process inform-
-ation. The optimists claim that through the course of evolution the nervous
-system has become adept at “chunking” bits of information so that pro-
-cessing capacity is constantly expanded. Simple functions like adding a
+underestimate or overestimate the capacity of the mind to process information. The optimists claim that through the course of evolution the nervous
+system has become adept at “chunking” bits of information so that processing capacity is constantly expanded. Simple functions like adding a
 column of numbers or driving a car grow to be automated, leaving the
 mind free to deal with more data. We also learn how to compress and
 streamline information through symbolic means—language, math, abstract
@@ -1436,10 +1305,8 @@ watching TV requires the processing of visual images, very little else in the
 way of memory, thinking, or volition is required. Not surprisingly, people
 report some of the lowest levels of concentration, use of skills, clarity of
 thought, and feelings of potency when watching television. The other
-leisure activities people usually do at home are only a little more demand-
-ing. Reading most newspapers and magazines, talking to other people,
-and gazing out the window also involve processing very little new inform-
-ation, and thus require little concentration.
+leisure activities people usually do at home are only a little more demanding. Reading most newspapers and magazines, talking to other people,
+and gazing out the window also involve processing very little new information, and thus require little concentration.
 So the 185 billion events to be enjoyed over our mortal days might be
 either an overestimate or an underestimate. If we consider the amount of
 data the brain could theoretically process, the number might be too low;
@@ -1449,15 +1316,13 @@ the information we allow into consciousness becomes extremely important;
 it is, in fact, what determines the content and the quality of life.
 ATTENTION AS PSYCHIC ENERGY
 Information enters consciousness either because we intend to focus attention
-on it or as a result of attentional habits based on biological or social instruc-
-tions. For instance, driving down the highway, we pass hundreds of cars
+on it or as a result of attentional habits based on biological or social instructions. For instance, driving down the highway, we pass hundreds of cars
 without actually being aware of them. Their shape and color might register
 for a fraction of a second, and then they are immediately forgotten. But
 occasionally we notice a particular vehicle, perhaps because it is swerving
 unsteadily between lanes, or because it is moving very slowly, or because
 of its unusual appearance. The image of the unusual car enters the focus
-of consciousness, and we become aware of it. In the mind the visual inform-
-ation about the car (e.g., “it is swerving”) gets related to information about
+of consciousness, and we become aware of it. In the mind the visual information about the car (e.g., “it is swerving”) gets related to information about
 other errant cars stored in memory, to determine into which category the
 present instance fits. Is this an inexperienced driver, a drunken driver, a
 momentarily distracted but competent driver? As soon as the event is
@@ -1472,27 +1337,21 @@ lanes, stop and alert the highway patrol?
 All these complex mental operations must be completed in a few seconds,
 sometimes in a fraction of a second. While forming such a judgment seems
 to be a lightning-fast reaction, it does take place in real time. And it does
-not happen automatically: there is a distinct process that makes such reac-
-tions possible, a process called attention. It is attention that selects the relev-
-ant bits of information from the potential millions of bits available. It takes
+not happen automatically: there is a distinct process that makes such reactions possible, a process called attention. It is attention that selects the relevant bits of information from the potential millions of bits available. It takes
 attention to retrieve the appropriate references from memory, to evaluate
 the event, and then to choose the right thing to do.
 Despite its great powers, attention cannot step beyond the limits already
 described. It cannot notice or hold in focus more information than can be
 processed simultaneously. Retrieving information from memory storage
-and bringing it into the focus of awareness, comparing information, evalu-
-ating, deciding—all make demands on the mind’s limited processing capa-
-city. For example, the driver who notices the swerving car will have to stop
+and bringing it into the focus of awareness, comparing information, evaluating, deciding—all make demands on the mind’s limited processing capacity. For example, the driver who notices the swerving car will have to stop
 talking on his cellular phone if he wants to avoid an accident.
 Some people learn to use this priceless resource efficiently, while others
 waste it. The mark of a person who is in control of consciousness is the
-ability to focus attention at will, to be oblivious to distractions, to concen-
-trate for as long as it takes to achieve a goal, and not longer. And the person
+ability to focus attention at will, to be oblivious to distractions, to concentrate for as long as it takes to achieve a goal, and not longer. And the person
 who can do this usually enjoys the normal course of everyday life.
 Two very different individuals come to mind to illustrate how attention
 can be used to order consciousness in the service of one’s goals. The first
-is E., a European woman who is one of the best-known and powerful wo-
-men in her country. A scholar of international reputation, she has at the
+is E., a European woman who is one of the best-known and powerful women in her country. A scholar of international reputation, she has at the
 same time built up a thriving business that employs hundreds of people
 and has been on the cutting edge of its field for a generation. E. travels
 constantly to political, business, and professional meetings, moving among
@@ -1520,8 +1379,7 @@ nap whenever she has a moment free.
 E.’s life has not been easy. Her family became impoverished after World
 War I, and she herself lost everything, including her freedom, during World
 War II. Several decades ago she had a chronic disease her doctors were
-sure was fatal. But she recovered everything, including her health, by dis-
-ciplining her attention and refusing to diffuse it on unproductive thoughts
+sure was fatal. But she recovered everything, including her health, by disciplining her attention and refusing to diffuse it on unproductive thoughts
 or activities. At this point she radiates a pure glow of energy. And despite
 past hardships and the intensity of her present life, she seems to relish
 thoroughly every minute of it.
@@ -1538,9 +1396,7 @@ is analyzed three or four different ways even before the speaker has finished
 saying it. Things that most people take for granted puzzle him; and until
 he figures them out in an original yet perfectly appropriate way, he will
 not let them be.
-Yet despite this constant effort of focused intelligence, R. gives the im-
-pression of restfulness, of calm serenity. He always seems aware of the ti-
-niest ripples of activity in his surroundings. But R. does not notice things
+Yet despite this constant effort of focused intelligence, R. gives the impression of restfulness, of calm serenity. He always seems aware of the tiniest ripples of activity in his surroundings. But R. does not notice things
 in order to change them or judge them. He is content to register reality, to
 understand, and then, perhaps, to express his understanding. R. is not going
 to make the immediate impact on society that E. has. But his consciousness
@@ -1551,13 +1407,10 @@ life intensely.
 
 
 Each person allocates his or her limited attention either by focusing it
-intentionally like a beam of energy—as do E. and R. in the previous ex-
-amples—or by diffusing it in desultory, random movements. The shape
+intentionally like a beam of energy—as do E. and R. in the previous examples—or by diffusing it in desultory, random movements. The shape
 and content of life depend on how attention has been used. Entirely different
 realities will emerge depending on how it is invested. The names we use
-to describe personality traits—such as extrovert, high achiever, or para-
-noid—refer to the specific patterns people have used to structure their at-
-tention. At the same party, the extrovert will seek out and enjoy interactions
+to describe personality traits—such as extrovert, high achiever, or paranoid—refer to the specific patterns people have used to structure their attention. At the same party, the extrovert will seek out and enjoy interactions
 with others, the high achiever will look for useful business contacts, and
 the paranoid will be on guard for signs of danger he must avoid. Attention
 can be invested in innumerable ways, ways that can make life either rich
@@ -1569,13 +1422,11 @@ aware of the direction and speed of the wind. Traditional Melanesian sailors
 can be taken blindfolded to any point of the ocean within a radius of several
 hundred miles from their island home and, if allowed to float for a few
 minutes in the sea, are able to recognize the spot by the feel of the currents
-on their bodies. A musician structures her attention so as to focus on nu-
-ances of sound that ordinary people are not aware of, a stockbroker focuses
+on their bodies. A musician structures her attention so as to focus on nuances of sound that ordinary people are not aware of, a stockbroker focuses
 on tiny changes in the market that others do not register, a good clinical
 diagnostician has an uncanny eye for symptoms—because they have trained
 their attention to process signals that otherwise would pass unnoticed.
-Because attention determines what will or will not appear in conscious-
-ness, and because it is also required to make any other mental events—such
+Because attention determines what will or will not appear in consciousness, and because it is also required to make any other mental events—such
 as remembering, thinking, feeling, and making decisions—happen there,
 it is useful to think of it as psychic energy. Attention is like energy in that
 without it no work can be done, and in doing work it is dissipated. We
@@ -1619,10 +1470,7 @@ directed by the self, and if the self is the sum of the contents of consciousnes
 and the structure of its goals, and if the contents of consciousness and the
 goals are the result of different ways of investing attention, then we have
 a system that is going round and round, with no clear causes or effects. At
-one point we are saying that the self directs attention, at another, that atten-
-tion determines the self. In fact, both these statements are true: conscious-
-ness is not a strictly linear system, but one in which circular causality ob-
-tains. Attention shapes the self, and is in turn shaped by it.
+one point we are saying that the self directs attention, at another, that attention determines the self. In fact, both these statements are true: consciousness is not a strictly linear system, but one in which circular causality obtains. Attention shapes the self, and is in turn shaped by it.
 An example of this type of causality is the experience of Sam Browning,
 one of the adolescents we have followed in our longitudinal research
 studies. Sam went to Bermuda for a Christmas holiday with his father when
@@ -1631,12 +1479,10 @@ his life; his self was relatively unformed, without an
 34 / Flow
 
 
-identity of its own. Sam had no clearly differentiated goals; he wanted ex-
-actly what other boys his age are supposed to want, either because of their
+identity of its own. Sam had no clearly differentiated goals; he wanted exactly what other boys his age are supposed to want, either because of their
 genetic programs or because of what the social environment told them to
 want—in other words, he thought vaguely of going to college, then later
-finding some kind of well-paying job, getting married, and living some-
-where in the suburbs. In Bermuda, Sam’s father took him on an excursion
+finding some kind of well-paying job, getting married, and living somewhere in the suburbs. In Bermuda, Sam’s father took him on an excursion
 to a coral barrier, and they dove underwater to explore the reef. Sam
 couldn’t believe his eyes. He found the mysterious, beautifully dangerous
 environment so enchanting that he decided to become more familiar with
@@ -1644,33 +1490,26 @@ it. He ended up taking a number of biology courses in high school, and is
 now in the process of becoming a marine scientist.
 In Sam’s case an accidental event imposed itself on his consciousness:
 the challenging beauty of life in the ocean. He had not planned to have this
-experience; it was not the result of his self or his goals having directed at-
-tention to it. But once he became aware of what went on undersea, Sam
+experience; it was not the result of his self or his goals having directed attention to it. But once he became aware of what went on undersea, Sam
 liked it—the experience resonated with previous things he had enjoyed
 doing, with feelings he had about nature and beauty, with priorities about
-what was important that he had established over the years. He felt the ex-
-perience was something good, something worth seeking out again. Thus
+what was important that he had established over the years. He felt the experience was something good, something worth seeking out again. Thus
 he built this accidental event into a structure of goals—to learn more about
 the ocean, to take courses, to go on to college and graduate school, to find
 a job as a marine biologist—which became a central element of his self.
 From then on, his goals directed Sam’s attention to focus more and more
 closely on the ocean and on its life, thereby closing the circle of causality.
 At first attention helped to shape his self, when he noticed the beauties of
-the underwater world he had been exposed to by accident; later, as he in-
-tentionally sought knowledge in marine biology, his self began to shape
+the underwater world he had been exposed to by accident; later, as he intentionally sought knowledge in marine biology, his self began to shape
 his attention. There is nothing very unusual about Sam’s case, of course;
 most people develop their attentional structures in similar ways.
 At this point, almost all the components needed to understand how
 consciousness can be controlled are in place. We have seen that experience
 depends on the way we invest psychic energy—on the structure of attention.
-This, in turn, is related to goals and intentions. These processes are connec-
-ted to each other by the self, or the dynamic mental representation we have
-of the entire system of our goals. These are the pieces that must be man-
-euvered if we wish to improve things. Of course, existence can also be im-
-proved by outside events, like winning a million dollars in the lottery,
+This, in turn, is related to goals and intentions. These processes are connected to each other by the self, or the dynamic mental representation we have
+of the entire system of our goals. These are the pieces that must be maneuvered if we wish to improve things. Of course, existence can also be improved by outside events, like winning a million dollars in the lottery,
 marrying the right man or woman, or helping to change an unjust social
-system. But even these marvelous events must take their place in conscious-
-ness, and be connected in positive ways to
+system. But even these marvelous events must take their place in consciousness, and be connected in positive ways to
 Mihaly Csikszentmihalyi / 35
 
 
@@ -1683,8 +1522,7 @@ Only then will we be ready to get a thorough sense of how experience can
 be controlled, and hence changed for the better.
 DISORDER IN CONSCIOUSNESS:
 PSYCHIC ENTROPY
-One of the main forces that affects consciousness adversely is psychic dis-
-order—that is, information that conflicts with existing intentions, or distracts
+One of the main forces that affects consciousness adversely is psychic disorder—that is, information that conflicts with existing intentions, or distracts
 us from carrying them out. We give this condition many names, depending
 on how we experience it: pain, fear, rage, anxiety, or jealousy. All these
 varieties of disorder force attention to be diverted to undesirable objects,
@@ -1697,8 +1535,7 @@ on his job. As the movie projectors pass in front of him on the assembly
 line, he is distracted and can hardly keep up the rhythm of moves necessary
 for soldering the connections that are his responsibility. Usually he can do
 his part of the job with time to spare and then relax for a while to exchange
-a few jokes before the next unit stops at his station. But today he is strug-
-gling, and occasionally he slows down the entire line. When the man at the
+a few jokes before the next unit stops at his station. But today he is struggling, and occasionally he slows down the entire line. When the man at the
 next station kids him about it, Julio snaps back irritably. From morning to
 quitting time tension keeps building, and it spills over to his relationship
 with his co-workers.
@@ -1727,8 +1564,7 @@ questions kept intruding in his mind, disrupting concentration on his work
 and throwing a pall on his moods.
 Julio is a good example of what happens when the internal order of the
 self is disrupted. The basic pattern is always the same: some information
-that conflicts with an individual’s goals appears in consciousness. Depend-
-ing on how central that goal is to the self and on how severe the threat to
+that conflicts with an individual’s goals appears in consciousness. Depending on how central that goal is to the self and on how severe the threat to
 it is, some amount of attention will have to be mobilized to eliminate the
 danger, leaving less attention free to deal with other matters. For Julio,
 holding a job was a goal of very high priority. If he were to lose it, all his
@@ -1740,8 +1576,7 @@ we have a condition of inner disorder, or psychic entropy, a disorganization
 of the self that impairs its effectiveness. Prolonged experiences of this kind
 can weaken the self to the point that it is no longer able to invest attention
 and pursue its goals.
-Julio’s problem was relatively mild and transient. A more chronic ex-
-ample of psychic entropy is the case of Jim Harris, a greatly talented high
+Julio’s problem was relatively mild and transient. A more chronic example of psychic entropy is the case of Jim Harris, a greatly talented high
 school sophomore who was in one of our surveys. Alone at home on a
 Wednesday afternoon, he was standing in front of the mirror in the bedroom
 his parents used to share. On the box at his feet, a tape of the Grateful Dead
@@ -1808,14 +1643,12 @@ relationship with Jim to allow him to go on with the task of building a
 sturdy self.
 Every piece of information we process gets evaluated for its bearing on
 the self. Does it threaten our goals, does it support them, or is it neutral?
-News of the fall of the stock market will upset the banker, but it might re-
-inforce the sense of self of the political activist. A new piece of information
+News of the fall of the stock market will upset the banker, but it might reinforce the sense of self of the political activist. A new piece of information
 will either create disorder in consciousness, by getting us all worked up to
 face the threat, or it will reinforce our goals, thereby freeing up psychic
 energy.
 ORDER IN CONSCIOUSNESS: FLOW
-The opposite state from the condition of psychic entropy is optimal exper-
-ience. When the information that keeps coming into awareness is congruent
+The opposite state from the condition of psychic entropy is optimal experience. When the information that keeps coming into awareness is congruent
 with goals, psychic energy flows effortlessly. There is no need to worry,
 no reason to question one’s adequacy. But whenever one does stop to think
 about oneself, the evidence is encouraging: “You are doing all right.” The
@@ -1844,8 +1677,7 @@ lot better
 Mihaly Csikszentmihalyi / 39
 
 
-than watching TV.” Rico knows that very soon he will reach the limit bey-
-ond which he will no longer be able to improve his performance at his job.
+than watching TV.” Rico knows that very soon he will reach the limit beyond which he will no longer be able to improve his performance at his job.
 So twice a week he takes evening courses in electronics. When he has his
 diploma he will seek a more complex job, one that presumably he will
 confront with the same enthusiasm he has shown so far.
@@ -1863,15 +1695,11 @@ These examples illustrate what we mean by optimal experience. They
 are situations in which attention can be freely invested to achieve a person’s
 goals, because there is no disorder to straighten out, no threat for the self
 to defend against. We have called this state the flow experience, because this
-is the term many of the people we interviewed had used in their descrip-
-tions of how it felt to be in top form: “It was like floating,” “I was carried
+is the term many of the people we interviewed had used in their descriptions of how it felt to be in top form: “It was like floating,” “I was carried
 on by the flow.” It is the opposite of psychic entropy—in fact, it is sometimes
-called negentropy—and those who attain it develop a stronger, more confid-
-ent self, because more of their psychic energy has been invested successfully
+called negentropy—and those who attain it develop a stronger, more confident self, because more of their psychic energy has been invested successfully
 in goals they themselves had chosen to pursue.
-When a person is able to organize his or her consciousness so as to exper-
-ience flow as often as possible, the quality of life is inevitably going to im-
-prove, because, as in the case of Rico and Pam, even the usually boring
+When a person is able to organize his or her consciousness so as to experience flow as often as possible, the quality of life is inevitably going to improve, because, as in the case of Rico and Pam, even the usually boring
 routines of work become purposeful and enjoyable. In flow we are in control
 of our psychic energy, and everything we do adds order to consciousness.
 One of our respondents, a well-known West Coast rock climber, explains
@@ -1889,59 +1717,48 @@ brings disorder to consciousness. It is really a battle for the self; it
 
 is a struggle for establishing control over attention. The struggle does not
 necessarily have to be physical, as in the case of the climber. But anyone
-who has experienced flow knows that the deep enjoyment it provides re-
-quires an equal degree of disciplined concentration.
+who has experienced flow knows that the deep enjoyment it provides requires an equal degree of disciplined concentration.
 COMPLEXITY AND THE GROWTH OF
 THE SELF
 Following a flow experience, the organization of the self is more complex
 than it had been before. It is by becoming increasingly complex that the
-self might be said to grow. Complexity is the result of two broad psycholo-
-gical processes: differentiation and integration. Differentiation implies a
-movement toward uniqueness, toward separating oneself from others. In-
-tegration refers to its opposite: a union with other people, with ideas and
+self might be said to grow. Complexity is the result of two broad psychological processes: differentiation and integration. Differentiation implies a
+movement toward uniqueness, toward separating oneself from others. Integration refers to its opposite: a union with other people, with ideas and
 entities beyond the self. A complex self is one that succeeds in combining
 these opposite tendencies.
-The self becomes more differentiated as a result of flow because overcom-
-ing a challenge inevitably leaves a person feeling more capable, more
+The self becomes more differentiated as a result of flow because overcoming a challenge inevitably leaves a person feeling more capable, more
 skilled. As the rock climber said, “You look back in awe at the self, at what
 you’ve done, it just blows your mind.” After each episode of flow a person
 becomes more of a unique individual, less predictable, possessed of rarer
 skills.
 Complexity is often thought to have a negative meaning, synonymous
 with difficulty and confusion. That may be true, but only if we equate it
-with differentiation alone. Yet complexity also involves a second dimen-
-sion—the integration of autonomous parts. A complex engine, for instance,
+with differentiation alone. Yet complexity also involves a second dimension—the integration of autonomous parts. A complex engine, for instance,
 not only has many separate components, each performing a different
 function, but also demonstrates a high sensitivity because each of the
-components is in touch with all the others. Without integration, a differen-
-tiated system would be a confusing mess.
+components is in touch with all the others. Without integration, a differentiated system would be a confusing mess.
 Flow helps to integrate the self because in that state of deep concentration
 consciousness is unusually well ordered. Thoughts, intentions, feelings,
 and all the senses are focused on the same goal. Experience is in harmony.
 And when the flow episode is over, one feels more “together” than before,
 not only internally but also with respect to other people and to the world
 in general. In the words of the climber whom we quoted earlier: “[There’s]
-no place that more draws the best from human beings…[than] a mountain-
-eering situation. Nobody hassles you to put your mind and body under
+no place that more draws the best from human beings…[than] a mountaineering situation. Nobody hassles you to put your mind and body under
 tremendous stress to get to the top…. Your comrades are there, but you all
 feel the same way anyway, you’re all in it together. Who can you trust more
-in the twen-
-Mihaly Csikszentmihalyi / 41
+in the twenMihaly Csikszentmihalyi / 41
 
 
 tieth century than these people? People after the same self-discipline as
 yourself, following the deeper commitment…. A bond like that with other
 people is in itself an ecstasy.”
-A self that is only differentiated—not integrated—may attain great indi-
-vidual accomplishments, but risks being mired in self-centered egotism.
+A self that is only differentiated—not integrated—may attain great individual accomplishments, but risks being mired in self-centered egotism.
 By the same token, a person whose self is based exclusively on integration
 will be connected and secure, but lack autonomous individuality. Only
-when a person invests equal amounts of psychic energy in these two pro-
-cesses and avoids both selfishness and conformity is the self likely to reflect
+when a person invests equal amounts of psychic energy in these two processes and avoids both selfishness and conformity is the self likely to reflect
 complexity.
 The self becomes complex as a result of experiencing flow. Paradoxically,
-it is when we act freely, for the sake of the action itself rather than for ul-
-terior motives, that we learn to become more than what we were. When
+it is when we act freely, for the sake of the action itself rather than for ulterior motives, that we learn to become more than what we were. When
 we choose a goal and invest ourselves in it to the limits of our concentration,
 whatever we do will be enjoyable. And once we have tasted this joy, we
 will redouble our efforts to taste it again. This is the way the self grows. It
@@ -1959,20 +1776,16 @@ it and to liberate the psychic energy that otherwise would be wasted in
 boredom or worry.
 42 / Flow
 
-
-3
 ENJOYMENT AND
 THE QUALITY OF LIFE
 THERE ARE TWO MAIN STRATEGIES we can adopt to improve the quality of
 life. The first is to try making external conditions match our goals. The
 second is to change how we experience external conditions to make them
 fit our goals better. For instance, feeling secure is an important component
-of happiness. The sense of security can be improved by buying a gun, in-
-stalling strong locks on the front door, moving to a safer neighborhood,
+of happiness. The sense of security can be improved by buying a gun, installing strong locks on the front door, moving to a safer neighborhood,
 exerting political pressure on city hall for more police protection, or helping
 the community to become more conscious of the importance of civil order.
-All these different responses are aimed at bringing conditions in the envir-
-onment more in line with our goals. The other method by which we can
+All these different responses are aimed at bringing conditions in the environment more in line with our goals. The other method by which we can
 feel more secure involves modifying what we mean by security. If one does
 not expect perfect safety, recognizes that risks are inevitable, and succeeds
 in enjoying a less than ideally predictable world, the threat of insecurity
@@ -1981,11 +1794,8 @@ Neither of these strategies is effective when used alone. Changing external
 conditions might seem to work at first, but if a person is not in control of
 his consciousness, the old fears or desires will soon return, reviving previous
 anxieties. One cannot create a complete sense of inner security even by
-buying one’s own Caribbean island and surrounding it with armed body-
-guards and attack dogs.
+buying one’s own Caribbean island and surrounding it with armed bodyguards and attack dogs.
 The myth of King Midas well illustrates the point that controlling
-43
-
 
 external conditions does not necessarily improve existence. Like most
 people, King Midas supposed that if he were to become immensely rich,
@@ -2008,13 +1818,11 @@ would really have it made. Even though we recognize that material success
 may not bring happiness, we engage in an endless struggle to reach external
 goals, expecting that they will improve life.
 Wealth, status, and power have become in our culture all too powerful
-symbols of happiness. When we see people who are rich, famous, or good-
-looking, we tend to assume that their lives are rewarding, even though all
+symbols of happiness. When we see people who are rich, famous, or goodlooking, we tend to assume that their lives are rewarding, even though all
 the evidence might point to their being miserable. And we assume that if
 only we could acquire some of those same symbols, we would be much
 happier.
-If we do actually succeed in becoming richer, or more powerful, we be-
-lieve, at least for a time, that life as a whole has improved. But symbols can
+If we do actually succeed in becoming richer, or more powerful, we believe, at least for a time, that life as a whole has improved. But symbols can
 be deceptive: they have a tendency to distract from the reality they are
 supposed to represent. And the reality is that the quality of life does not
 depend directly on what others think of us or on what we own. The bottom
@@ -2022,10 +1830,8 @@ line is, rather, how we feel about ourselves and about what happens to us.
 To improve life one must improve the quality of experience.
 This is not to say that money, physical fitness, or fame are irrelevant to
 happiness. They can be genuine blessings, but only if they help to make us
-feel better. Otherwise they are at best neutral, at worst obstacles to a reward-
-ing life. Research on happiness and life satisfaction suggests that in general
-there is a mild correlation between wealth and well-being. People in eco-
-nomically more affluent countries (including the
+feel better. Otherwise they are at best neutral, at worst obstacles to a rewarding life. Research on happiness and life satisfaction suggests that in general
+there is a mild correlation between wealth and well-being. People in economically more affluent countries (including the
 44 / Flow
 
 
@@ -2039,8 +1845,7 @@ group was selected from a list of the four hundred richest Americans. It is
 also interesting to note that not one respondent in Diener’s study believed
 that money by itself guaranteed happiness. The majority agreed with the
 statement, “Money can increase or decrease happiness, depending on how
-it is used.” In an earlier study, Norman Bradburn found that the highest-
-income group reported being happy about 25 percent more often than the
+it is used.” In an earlier study, Norman Bradburn found that the highestincome group reported being happy about 25 percent more often than the
 lowest. Again, the difference was present, but it was not very large. In a
 comprehensive survey entitled The Quality of American Life published a
 decade ago, the authors report that a person’s financial situation is one of
@@ -2055,18 +1860,15 @@ When considering the kind of experience that makes life better, most people
 first think that happiness consists in experiencing pleasure: good food,
 good sex, all the comforts that money can buy. We imagine the satisfaction
 of traveling to exotic places or being surrounded by interesting company
-and expensive gadgets. If we cannot afford those goals that slick commer-
-cials and colorful ads keep reminding us to pursue, then we are happy to
+and expensive gadgets. If we cannot afford those goals that slick commercials and colorful ads keep reminding us to pursue, then we are happy to
 settle for a quiet evening in front of the television set with a glass of liquor
 close by.
-Pleasure is a feeling of contentment that one achieves whenever inform-
-ation in consciousness says that expectations set by biological programs
+Pleasure is a feeling of contentment that one achieves whenever information in consciousness says that expectations set by biological programs
 or by social conditioning have been met. The taste of food when we are
 hungry is pleasant because it reduces a physiological imbalance. Resting
 in the evening while passively absorbing information from the media, with
 alcohol or drugs to dull the mind overexcited by the demands of work, is
-pleasantly relaxing. Traveling to Acapulco is pleasant because the stimulat-
-ing novelty restores our palate jaded by the
+pleasantly relaxing. Traveling to Acapulco is pleasant because the stimulating novelty restores our palate jaded by the
 Mihaly Csikszentmihalyi / 45
 
 
@@ -2084,16 +1886,14 @@ they tend to move beyond pleasant memories and begin to remember
 other events, other experiences that overlap with pleasurable ones but fall
 into a category that deserves a separate name: enjoyment. Enjoyable events
 occur when a person has not only met some prior expectation or satisfied
-a need or a desire but also gone beyond what he or she has been pro-
-grammed to do and achieved something unexpected, perhaps something
+a need or a desire but also gone beyond what he or she has been programmed to do and achieved something unexpected, perhaps something
 even unimagined before.
 Enjoyment is characterized by this forward movement: by a sense of
 novelty, of accomplishment. Playing a close game of tennis that stretches
 one’s ability is enjoyable, as is reading a book that reveals things in a new
 light, as is having a conversation that leads us to express ideas we didn’t
 know we had. Closing a contested business deal, or any piece of work well
-done, is enjoyable. None of these experiences may be particularly pleasur-
-able at the time they are taking place, but afterward we think back on them
+done, is enjoyable. None of these experiences may be particularly pleasurable at the time they are taking place, but afterward we think back on them
 and say, “That really was fun” and wish they would happen again. After
 an enjoyable event we know that we have changed, that our self has grown:
 in some respect, we have become more complex as a result of it.
@@ -2106,8 +1906,7 @@ experience pleasure without any investment of psychic energy, whereas
 enjoyment happens only as a result of unusual investments of attention.
 A person can feel pleasure without any effort, if the appropriate centers in
 his brain are electrically stimulated, or as a result of the chemical stimulation
-of drugs. But it is impossible to enjoy a tennis game, a book, or a conversa-
-tion unless attention is fully concentrated on the activity.
+of drugs. But it is impossible to enjoy a tennis game, a book, or a conversation unless attention is fully concentrated on the activity.
 It is for this reason that pleasure is so evanescent, and that the self
 46 / Flow
 
@@ -2121,8 +1920,7 @@ as she learns each new skill is a good indication of what enjoyment is about.
 And each instance of enjoyable learning adds to the complexity of the
 child’s developing self.
 Unfortunately, this natural connection between growth and enjoyment
-tends to disappear with time. Perhaps because “learning” becomes an ex-
-ternal imposition when schooling starts, the excitement of mastering new
+tends to disappear with time. Perhaps because “learning” becomes an external imposition when schooling starts, the excitement of mastering new
 skills gradually wears out. It becomes all too easy to settle down within
 the narrow boundaries of the self developed in adolescence. But if one gets
 to be too complacent, feeling that psychic energy invested in new directions
@@ -2140,15 +1938,12 @@ of a few centuries ago, and to their contemporary imitators. Signor Orsini,
 the owner, quoted an exorbitant price. The woman took out her folder of
 traveler’s checks, ready to pay for the dubious artifacts. I held my breath,
 glad for the unexpected windfall about to reach my friend. But I didn’t
-know Signor Orsini well enough. He turned purple and with barely con-
-tained agitation escorted the customer out of the store: “No, no, signora, I
+know Signor Orsini well enough. He turned purple and with barely contained agitation escorted the customer out of the store: “No, no, signora, I
 am sorry but I cannot sell you those angels.” To the flabbergasted woman
 he kept repeating, “I cannot make business with you. You understand?”
 After the tourist finally left, he calmed down and explained: “If I were
 starving, I would have taken her money. But since I am not, why should I
-make a deal that isn’t any fun? I enjoy the clash of wits involved in bargain-
-ing, when two persons try to outdo each other with ruses and with elo-
-quence. She didn’t even flinch. She didn’t know any better. She didn’t pay
+make a deal that isn’t any fun? I enjoy the clash of wits involved in bargaining, when two persons try to outdo each other with ruses and with eloquence. She didn’t even flinch. She didn’t know any better. She didn’t pay
 me the respect of assuming that I was going to try to take advantage of her.
 If I had sold those pieces to that woman at that ridiculous price, I would
 have felt cheated.” Few people, in southern Italy or elsewhere, have this
@@ -2160,20 +1955,17 @@ attitude toward business transactions. But then I suspect that they don’t
 enjoy their work as much as Signor Orsini did, either.
 Without enjoyment life can be endured, and it can even be pleasant. But
 it can be so only precariously, depending on luck and the cooperation of
-the external environment. To gain personal control over the quality of ex-
-perience, however, one needs to learn how to build enjoyment into what
+the external environment. To gain personal control over the quality of experience, however, one needs to learn how to build enjoyment into what
 happens day in, day out.
 The rest of this chapter provides an overview of what makes experience
 enjoyable. This description is based on long interviews, questionnaires,
-and other data collected over a dozen years from several thousand respond-
-ents. Initially we interviewed only people who spent a great amount of
+and other data collected over a dozen years from several thousand respondents. Initially we interviewed only people who spent a great amount of
 time and effort in activities that were difficult, yet provided no obvious
 rewards, such as money or prestige: rock climbers, composers of music,
 chess players, amateur athletes. Our later studies included interviews with
 ordinary people, leading ordinary existences; we asked them to describe
 how it felt when their lives were at their fullest, when what they did was
-most enjoyable. These people included urban Americans—surgeons, pro-
-fessors, clerical and assembly-line workers, young mothers, retired people,
+most enjoyable. These people included urban Americans—surgeons, professors, clerical and assembly-line workers, young mothers, retired people,
 and teenagers. They also included respondents from Korea, Japan, Thailand,
 Australia, various European cultures, and a Navajo reservation. On the
 basis of these interviews we can now describe what makes an experience
@@ -2183,13 +1975,11 @@ THE ELEMENTS OF ENJOYMENT
 The first surprise we encountered in our study was how similarly very
 different activities were described when they were going especially well.
 Apparently the way a long-distance swimmer felt when crossing the English
-Channel was almost identical to the way a chess player felt during a tour-
-nament or a climber progressing up a difficult rock face. All these feelings
+Channel was almost identical to the way a chess player felt during a tournament or a climber progressing up a difficult rock face. All these feelings
 were shared, in important respects, by subjects ranging from musicians
 composing a new quartet to teenagers from the ghetto involved in a
 championship basketball game.
-The second surprise was that, regardless of culture, stage of moderniza-
-tion, social class, age, or gender, the respondents described enjoyment in
+The second surprise was that, regardless of culture, stage of modernization, social class, age, or gender, the respondents described enjoyment in
 very much the same way. What they did to experience enjoyment varied
 enormously—the elderly Koreans liked to meditate, the teenage Japanese
 liked to swarm around in motorcycle gangs—but they described how it felt
@@ -2198,8 +1988,7 @@ when they enjoyed themselves in almost identical
 
 
 terms. Moreover, the reasons the activity was enjoyed shared many more
-similarities than differences. In sum, optimal experience, and the psycholo-
-gical conditions that make it possible, seem to be the same the world over.
+similarities than differences. In sum, optimal experience, and the psychological conditions that make it possible, seem to be the same the world over.
 As our studies have suggested, the phenomenology of enjoyment has
 eight major components. When people reflect on how it feels when their
 experience is most positive, they mention at least one, and often all, of the
@@ -2208,14 +1997,11 @@ have a chance of completing. Second, we must be able to concentrate on
 what we are doing. Third and fourth, the concentration is usually possible
 because the task undertaken has clear goals and provides immediate
 feedback. Fifth, one acts with a deep but effortless involvement that removes
-from awareness the worries and frustrations of everyday life. Sixth, enjoy-
-able experiences allow people to exercise a sense of control over their ac-
-tions. Seventh, concern for the self disappears, yet paradoxically the sense
+from awareness the worries and frustrations of everyday life. Sixth, enjoyable experiences allow people to exercise a sense of control over their actions. Seventh, concern for the self disappears, yet paradoxically the sense
 of self emerges stronger after the flow experience is over. Finally, the sense
 of the duration of time is altered; hours pass by in minutes, and minutes
 can stretch out to seem like hours. The combination of all these elements
-causes a sense of deep enjoyment that is so rewarding people feel that ex-
-pending a great deal of energy is worthwhile simply to be able to feel it.
+causes a sense of deep enjoyment that is so rewarding people feel that expending a great deal of energy is worthwhile simply to be able to feel it.
 We shall take a closer look at each of these elements so that we may
 better understand what makes enjoyable activities so gratifying. With this
 knowledge, it is possible to achieve control of consciousness and turn even
@@ -2233,26 +2019,20 @@ will become clear as we go along; at this point it is sufficient to note that
 this seems to be universally the case.
 It is important to clarify at the outset that an “activity” need not be active
 in the physical sense, and the “skill” necessary to engage in it need not be
-a physical skill. For instance, one of the most frequently mentioned enjoy-
-able activities the world over is reading. Reading is an
+a physical skill. For instance, one of the most frequently mentioned enjoyable activities the world over is reading. Reading is an
 Mihaly Csikszentmihalyi / 49
 
 
 activity because it requires the concentration of attention and has a goal,
-and to do it one must know the rules of written language. The skills in-
-volved in reading include not only literacy but also the ability to translate
+and to do it one must know the rules of written language. The skills involved in reading include not only literacy but also the ability to translate
 words into images, to empathize with fictional characters, to recognize
 historical and cultural contexts, to anticipate turns of the plot, to criticize
-and evaluate the author’s style, and so on. In this broader sense, any capa-
-city to manipulate symbolic information is a “skill,” such as the skill of the
+and evaluate the author’s style, and so on. In this broader sense, any capacity to manipulate symbolic information is a “skill,” such as the skill of the
 mathematician to shape quantitative relationships in his head, or the skill
 of the musician in combining musical notes.
-Another universally enjoyable activity is being with other people. Social-
-izing might at first sight appear to be an exception to the statement that
-one needs to use skills to enjoy an activity, for it does not seem that gossip-
-ing or joking around with another person requires particular abilities. But
-of course, it does; as so many shy people know, if a person feels self-con-
-scious, he or she will dread establishing informal contacts, and avoid
+Another universally enjoyable activity is being with other people. Socializing might at first sight appear to be an exception to the statement that
+one needs to use skills to enjoy an activity, for it does not seem that gossiping or joking around with another person requires particular abilities. But
+of course, it does; as so many shy people know, if a person feels self-conscious, he or she will dread establishing informal contacts, and avoid
 company whenever possible.
 Any activity contains a bundle of opportunities for action, or “challenges,”
 that require appropriate skills to realize. For those who don’t have the right
@@ -2284,8 +2064,7 @@ would regard as an immediate, intuitive process:
 “A lot of pieces that you deal with are very straightforward…and you don’t
 find anything exciting about them, you know, but there are other pieces
 that have some sort of challenge…. those are the pieces that stay in your
-mind, that are the most interesting.” In other words, even the passive en-
-joyment one gets from looking at a painting or sculpture depends on the
+mind, that are the most interesting.” In other words, even the passive enjoyment one gets from looking at a painting or sculpture depends on the
 challenges that the work of art contains.
 Activities that provide enjoyment are often those that have been designed
 for this very purpose. Games, sports, and artistic and literary forms were
@@ -2313,12 +2092,9 @@ to tap his right thumb once, then the third finger of the right hand, then
 the index, then the fourth finger, then the third finger again, then the little
 finger of the right hand. Then he moves to the left hand and taps the little
 finger, the middle finger, the fourth finger, the index, and the middle finger
-again, and ends with the thumb of the left hand. Then the right hand re-
-verses the sequence of fingering, followed by the reverse of the left hand’s
-sequence. It turns out that by introducing full and half stops at regular in-
-tervals, there are 888 combinations one can move through without repeating
-the same pattern. By interspersing pauses among the taps at regular inter-
-vals, the pattern acquires an almost musical harmony, and in fact it is easily
+again, and ends with the thumb of the left hand. Then the right hand reverses the sequence of fingering, followed by the reverse of the left hand’s
+sequence. It turns out that by introducing full and half stops at regular intervals, there are 888 combinations one can move through without repeating
+the same pattern. By interspersing pauses among the taps at regular intervals, the pattern acquires an almost musical harmony, and in fact it is easily
 represented on a musical staff.
 Mihaly Csikszentmihalyi / 51
 
@@ -2328,18 +2104,15 @@ interesting use for it: as a way of measuring the length of trains of thought.
 The pattern of 888 taps, repeated three times, provides a set of 2,664 taps
 that, with practice, takes almost exactly twelve minutes to perform. As
 soon as he starts tapping, by shifting attention to his fingers, Professor
-Maier-Leibnitz can tell exactly at what point he is in the sequence. So sup-
-pose that a thought concerning one of his physics experiments appears in
-his consciousness while he is tapping during a boring lecture. He immedi-
-ately shifts attention to his fingers, and registers the fact that he is at the
+Maier-Leibnitz can tell exactly at what point he is in the sequence. So suppose that a thought concerning one of his physics experiments appears in
+his consciousness while he is tapping during a boring lecture. He immediately shifts attention to his fingers, and registers the fact that he is at the
 300th tap of the second series; then in the same split second he returns to
 the train of thought about the experiment. At a certain point the thought
 is completed, and he has figured out the problem. How long did it take
 him to solve the problem? By shifting attention back to his fingers, he notices
 that he is about to finish the second series—the thought process has taken
 approximately two and a quarter minutes to play itself out.
-Few people bother inventing quite such ingenious and complex diver-
-sions to improve the quality of their experiences. But all of us have more
+Few people bother inventing quite such ingenious and complex diversions to improve the quality of their experiences. But all of us have more
 modest versions of the same. Everybody develops routines to fill in the
 boring gaps of the day, or to bring experience back on an even keel when
 anxiety threatens. Some people are compulsive doodlers, others chew on
@@ -2352,15 +2125,13 @@ games woven into the fabric of everyday life help reduce boredom, but
 add little to the positive quality of experience. For that one needs to face
 more demanding challenges, and use higher-level skills.
 In all the activities people in our study reported engaging in, enjoyment
-comes at a very specific point: whenever the opportunities for action per-
-ceived by the individual are equal to his or her capabilities. Playing tennis,
+comes at a very specific point: whenever the opportunities for action perceived by the individual are equal to his or her capabilities. Playing tennis,
 for instance, is not enjoyable if the two opponents are mismatched. The
 less skilled player will feel anxious, and the better player will feel bored.
 The same is true of every other activity: a piece of music that is too simple
 relative to one’s listening skills will be boring, while music that is too
 complex will be frustrating. Enjoyment appears at the boundary between
-boredom and anxiety, when the challenges are just balanced with the per-
-son’s capacity to act.
+boredom and anxiety, when the challenges are just balanced with the person’s capacity to act.
 The golden ratio between challenges and skills does not only hold
 52 / Flow
 
@@ -2391,8 +2162,7 @@ that the activity becomes spontaneous, almost automatic; they stop being
 aware of themselves as separate from the actions they are performing.
 A dancer describes how it feels when a performance is going well: “Your
 concentration is very complete. Your mind isn’t wandering, you are not
-thinking of something else; you are totally involved in what you are do-
-ing…. Your energy is flowing very smoothly. You feel relaxed, comfortable,
+thinking of something else; you are totally involved in what you are doing…. Your energy is flowing very smoothly. You feel relaxed, comfortable,
 and energetic.”
 A rock climber explains how it feels when he is scaling a mountain: “You
 are so involved in what you are doing [that] you aren’t thinking of yourself
@@ -2402,8 +2172,7 @@ A mother who enjoys the time spent with her small daughter: “Her
 reading is the one thing that she’s really into, and we read together. She
 reads to me, and I read to her, and that’s a time when I sort of lose touch
 with the rest of the world, I’m totally absorbed in what I’m doing.”
-A chess player tells of playing in a tournament: “…the concentra-
-Mihaly Csikszentmihalyi / 53
+A chess player tells of playing in a tournament: “…the concentraMihaly Csikszentmihalyi / 53
 
 
 tion is like breathing—you never think of it. The roof could fall in and, if
@@ -2423,8 +2192,7 @@ move up to keep the flow going. There is no possible reason for climbing
 except the climbing itself; it is a self-communication.”
 Although the flow experience appears to be effortless, it is far from being
 so. It often requires strenuous physical exertion, or highly disciplined
-mental activity. It does not happen without the application of skilled per-
-formance. Any lapse in concentration will erase it. And yet while it lasts
+mental activity. It does not happen without the application of skilled performance. Any lapse in concentration will erase it. And yet while it lasts
 consciousness works smoothly, action follows action seamlessly. In normal
 life, we keep interrupting what we do with doubts and questions. “Why
 am I doing this? Should I perhaps be doing something else?” Repeatedly
@@ -2436,24 +2204,19 @@ The reason it is possible to achieve such complete involvement in a flow
 experience is that goals are usually clear, and feedback immediate. A tennis
 player always knows what she has to do: return the ball into the opponent’s
 court. And each time she hits the ball she knows whether she has done
-well or not. The chess player’s goals are equally obvious: to mate the op-
-ponent’s king before his own is mated. With each move, he can calculate
+well or not. The chess player’s goals are equally obvious: to mate the opponent’s king before his own is mated. With each move, he can calculate
 whether he has come closer to this objective. The climber inching up a
 vertical wall of rock has a very simple goal in mind: to complete the climb
 without falling. Every second, hour after hour, he receives information that
 he is meeting that basic goal.
 Of course, if one chooses a trivial goal, success in it does not provide
-enjoyment. If I set as my goal to remain alive while sitting on the living-
-room sofa, I also could spend days knowing that I was achiev-
-54 / Flow
+enjoyment. If I set as my goal to remain alive while sitting on the livingroom sofa, I also could spend days knowing that I was achiev54 / Flow
 
 
 ing it, just as the rock climber does. But this realization would not make
 me particularly happy, whereas the climber’s knowledge brings exhilaration
 to his dangerous ascent.
-Certain activities require a very long time to accomplish, yet the compon-
-ents of goals and feedback are still extremely important to them. One ex-
-ample was given by a sixty-two-year-old woman living in the Italian Alps,
+Certain activities require a very long time to accomplish, yet the components of goals and feedback are still extremely important to them. One example was given by a sixty-two-year-old woman living in the Italian Alps,
 who said her most enjoyable experiences were taking care of the cows and
 tending the orchard: “I find special satisfaction in caring for the plants: I
 like to see them grow day by day. It is very beautiful.” Although it involves
@@ -2466,8 +2229,7 @@ a study of flow in ocean cruising, comments on the excitement a sailor feels
 when, after days of anxiously scanning the empty reaches of water, he
 discerns the outline of the island he had been aiming for as it starts to rise
 over the horizon. One of the legendary cruisers describes this sensation as
-follows: “I…experienced a sense of satisfaction coupled with some aston-
-ishment that my observations of the very distant sun from an unsteady
+follows: “I…experienced a sense of satisfaction coupled with some astonishment that my observations of the very distant sun from an unsteady
 platform and the use of some simple tables…enable[d] a small island to be
 found with certainty after an ocean crossing.” And another: “Each time, I
 feel the same mixture of astonishment, love, and pride as this new land is
@@ -2495,15 +2257,13 @@ criteria for “good” or “bad” so that after each brush stroke she can say
 “Yes, this works; no, this doesn’t.” Without such internal guidelines, it is
 impossible to experience flow.
 Sometimes the goals and the rules governing an activity are invented,
-or negotiated on the spot. For example, teenagers enjoy impromptu inter-
-actions in which they try to “gross each other out,” or tell tall stories, or
+or negotiated on the spot. For example, teenagers enjoy impromptu interactions in which they try to “gross each other out,” or tell tall stories, or
 make fun of their teachers. The goal of such sessions emerges by trial and
 error, and is rarely made explicit; often it remains below the participants’
 level of awareness. Yet it is clear that these activities develop their own
 rules and that those who take part have a clear idea of what constitutes a
 successful “move,” and of who is doing well. In many ways this is the
-pattern of a good jazz band, or any improvisational group. Scholars or de-
-baters obtain similar satisfaction when the “moves” in their arguments
+pattern of a good jazz band, or any improvisational group. Scholars or debaters obtain similar satisfaction when the “moves” in their arguments
 mesh smoothly, and produce the desired result.
 What constitutes feedback varies considerably in different activities.
 Some people are indifferent to things that others cannot get enough of. For
@@ -2511,22 +2271,18 @@ instance, surgeons who love doing operations claim that they wouldn’t
 switch to internal medicine even if they were paid ten times as much as
 they are for doing surgery, because an internist never knows exactly how
 well he is doing. In an operation, on the other hand, the status of the patient
-is almost always clear: as long as there is no blood in the incision, for ex-
-ample, a specific procedure has been successful. When the diseased organ
+is almost always clear: as long as there is no blood in the incision, for example, a specific procedure has been successful. When the diseased organ
 is cut out, the surgeon’s task is accomplished; after that there is the suture
 that gives a gratifying sense of closure to the activity. And the surgeon’s
 disdain for psychiatry is even greater than that for internal medicine: to
 hear surgeons talk, the psychiatrist might spend ten years with a patient
 without knowing whether the cure is helping him.
-Yet the psychiatrist who enjoys his trade is also receiving constant feed-
-back: the way the patient holds himself, the expression on his face, the
+Yet the psychiatrist who enjoys his trade is also receiving constant feedback: the way the patient holds himself, the expression on his face, the
 hesitation in his voice, the content of the material he brings up in the
 therapeutic hour—all these bits of information are important clues the
 psychiatrist uses to monitor the progress of the therapy. The difference
 between a surgeon and a psychiatrist is that the former considers blood
-and excision the only feedback worth attending to, whereas the latter con-
-siders the signals reflecting a patient’s state of mind to be significant inform-
-ation. The surgeon judges the psychiatrist to be soft because he is interested
+and excision the only feedback worth attending to, whereas the latter considers the signals reflecting a patient’s state of mind to be significant information. The surgeon judges the psychiatrist to be soft because he is interested
 in such ephemeral goals; the psychiatrist thinks the surgeon crude for his
 concentration on mechanics.
 56 / Flow
@@ -2537,8 +2293,7 @@ What difference does it make if I hit the tennis ball between the white lines,
 if I immobilize the enemy king on the chessboard, or if I notice a glimmer
 of understanding in my patient’s eyes at the end of the therapeutic hour?
 What makes this information valuable is the symbolic message it contains:
-that I have succeeded in my goal. Such knowledge creates order in con-
-sciousness, and strengthens the structure of the self.
+that I have succeeded in my goal. Such knowledge creates order in consciousness, and strengthens the structure of the self.
 Almost any kind of feedback can be enjoyable, provided it is logically
 related to a goal in which one has invested psychic energy. If I were to set
 myself up to balance a walking stick on my nose, then the sight of the stick
@@ -2553,25 +2308,21 @@ and remember combinations of sounds better than the general population.
 It is likely that such individuals will be attracted to playing with sounds;
 they will learn to control and shape auditory information. For them the
 most important feedback will consist in being able to combine sounds, to
-produce or reproduce rhythms and melodies. Composers, singers, per-
-formers, conductors, and music critics will develop from among them. In
+produce or reproduce rhythms and melodies. Composers, singers, performers, conductors, and music critics will develop from among them. In
 contrast, some are genetically predisposed to be unusually sensitive to
 other people, and they will learn to pay attention to the signals they send
 out. The feedback they will be looking for is the expression of human
 emotion. Some people have fragile selves that need constant reassurance,
 and for them the only information that counts is winning in a competitive
-situation. Others have invested so much in being liked that the only feed-
-back they take into account is approval and admiration.
-A good illustration of the importance of feedback is contained in the re-
-sponses of a group of blind religious women interviewed by Professor
+situation. Others have invested so much in being liked that the only feedback they take into account is approval and admiration.
+A good illustration of the importance of feedback is contained in the responses of a group of blind religious women interviewed by Professor
 Fausto Massimini’s team of psychologists in Milan, Italy. Like the other
 respondents in our studies, they were asked to describe the most enjoyable
 experiences in their lives. For these women, many of whom had been
 sightless since birth, the most frequently mentioned flow experiences were
 the result of reading books in Braille, praying, doing handicrafts like knitting
 and binding books, and helping each other in case of sickness or other need.
-Of the over six hundred people inter-
-Mihaly Csikszentmihalyi / 57
+Of the over six hundred people interMihaly Csikszentmihalyi / 57
 
 
 viewed by the Italian team, these blind women stressed more than anyone
@@ -2591,16 +2342,13 @@ general, lack the pressing demands of flow experiences, concentration is
 rarely so intense that preoccupations and anxieties can be automatically
 ruled out. Consequently the ordinary state of mind involves unexpected
 and frequent episodes of entropy interfering with the smooth run of
-psychic energy. This is one reason why flow improves the quality of exper-
-ience: the clearly structured demands of the activity impose order, and
+psychic energy. This is one reason why flow improves the quality of experience: the clearly structured demands of the activity impose order, and
 exclude the interference of disorder in consciousness.
 A professor of physics who was an avid rock climber described his state
 of mind while climbing as follows: “It is as if my memory input has been
 cut off. All I can remember is the last thirty seconds, and all I can think
-ahead is the next five minutes.” In fact, any activity that requires concen-
-tration has a similarly narrow window of time.
-But it is not only the temporal focus that counts. What is even more sig-
-nificant is that only a very select range of information can be allowed into
+ahead is the next five minutes.” In fact, any activity that requires concentration has a similarly narrow window of time.
+But it is not only the temporal focus that counts. What is even more significant is that only a very select range of information can be allowed into
 awareness. Therefore all the troubling thoughts that ordinarily keep passing
 through the mind are temporarily kept in abeyance. As a young basketball
 player explains: “The court—that’s all that matters…. Sometimes out on
@@ -2625,22 +2373,18 @@ troubled about something, I leave it out of the door as I go in [the dance
 studio].”
 On a larger time scale, ocean cruising provides an equivalent merciful
 oblivion: “But no matter how many little discomforts there may be at sea,
-one’s real cares and worries seem to drop out of sight as the land slips be-
-hind the horizon. Once we were at sea there was no point in worrying,
+one’s real cares and worries seem to drop out of sight as the land slips behind the horizon. Once we were at sea there was no point in worrying,
 there was nothing we could do about our problems till we reached the next
 port…. Life was, for a while, stripped of its artificialities; [other problems]
 seemed quite unimportant compared with the state of the wind and the
 sea and the length of the day’s run.”
-Edwin Moses, the great hurdler, has this to say in describing the concen-
-tration necessary for a race: “Your mind has to be absolutely clear. The fact
+Edwin Moses, the great hurdler, has this to say in describing the concentration necessary for a race: “Your mind has to be absolutely clear. The fact
 that you have to cope with your opponent, jet lag, different foods, sleeping
 in hotels, and personal problems has to be erased from consciousness—as
 if they didn’t exist.”
 Although Moses was talking about what it takes to win world-class sports
 events, he could have been describing the kind of concentration we achieve
-when we enjoy any activity. The concentration of the flow experience—to-
-gether with clear goals and immediate feedback—provides order to con-
-sciousness, inducing the enjoyable condition of psychic negentropy.
+when we enjoy any activity. The concentration of the flow experience—together with clear goals and immediate feedback—provides order to consciousness, inducing the enjoyable condition of psychic negentropy.
 The Paradox of Control
 Enjoyment often occurs in games, sports, and other leisure activities that
 are distinct from ordinary life, where any number of bad things can happen.
@@ -2657,8 +2401,7 @@ the world. I feel enormous power to effect something of
 Mihaly Csikszentmihalyi / 59
 
 
-grace and beauty.” And a chess player: “…I have a general feeling of well-
-being, and that I am in complete control of my world.”
+grace and beauty.” And a chess player: “…I have a general feeling of wellbeing, and that I am in complete control of my world.”
 What these respondents are actually describing is the possibility, rather
 than the actuality, of control. The ballet dancer may fall, break her leg, and
 never make the perfect turn, and the chess player may be defeated and
@@ -2696,8 +2439,7 @@ difficulty of a climb in relation to one’s ability.
 The whole point of climbing is to avoid objective dangers as much as
 possible, and to eliminate subjective dangers entirely by rigorous discipline
 and sound preparation. As a result, climbers genuinely believe that
-climbing the Matterhorn is safer than crossing a street in Manhat-
-60 / Flow
+climbing the Matterhorn is safer than crossing a street in Manhat60 / Flow
 
 
 tan, where the objective dangers—taxi drivers, bicycle messengers, buses,
@@ -2710,11 +2452,9 @@ the safety of protective routines. Only when a doubtful outcome is at stake,
 and one is able to influence that outcome, can a person really know
 whether she is in control.
 One type of activity seems to constitute an exception. Games of chance
-are enjoyable, yet by definition they are based on random outcomes pre-
-sumably not affected by personal skills. The spin of a roulette wheel or the
+are enjoyable, yet by definition they are based on random outcomes presumably not affected by personal skills. The spin of a roulette wheel or the
 turn of a card in blackjack cannot be controlled by the player. In this case,
-at least, the sense of control must be irrelevant to the experience of enjoy-
-ment.
+at least, the sense of control must be irrelevant to the experience of enjoyment.
 The “objective” conditions, however, happen to be deceptive, for it is
 actually the case that gamblers who enjoy games of hazard are subjectively
 convinced that their skills do play a major role in the outcome. In fact, they
@@ -2724,8 +2464,7 @@ it is their ability, and not chance, that makes them win; if they lose they are
 much more inclined to credit bad luck, but even in defeat they are willing
 to look for a personal lapse to explain the outcome. Roulette players develop
 elaborate systems to predict the turn of the wheel. In general, players of
-games of chance often believe that they have the gift of seeing into the fu-
-ture, at least within the restricted set of goals and rules that defines their
+games of chance often believe that they have the gift of seeing into the future, at least within the restricted set of goals and rules that defines their
 game. And this most ancient feeling of control—whose precursors include
 the rituals of divination so prevalent in every culture—is one of the greatest
 attractions the experience of gambling offers.
@@ -2748,8 +2487,7 @@ outside attacks. As his relationships in real life disintegrate, Luchin has a
 series of hallucinations in which the important people around him become
 pieces on a huge chessboard, trying to immobilize him. Finally he has a
 vision of the perfect defense against his problems—and jumps out of the
-hotel window. Such stories about chess are not so farfetched; many cham-
-pions, including the first and the last great American chess masters, Paul
+hotel window. Such stories about chess are not so farfetched; many champions, including the first and the last great American chess masters, Paul
 Morphy and Bobby Fischer, became so comfortable with the beautifully
 clear-cut and logically ordered world of chess that they turned their backs
 on the messy confusion of the “real” world.
@@ -2762,8 +2500,7 @@ any enjoyable activity can become addictive, in the sense that instead of
 being a conscious choice, it becomes a necessity that interferes with other
 activities. Surgeons, for instance, describe operations as being addictive,
 “like taking heroin.”
-When a person becomes so dependent on the ability to control an enjoy-
-able activity that he cannot pay attention to anything else, then he loses
+When a person becomes so dependent on the ability to control an enjoyable activity that he cannot pay attention to anything else, then he loses
 the ultimate control: the freedom to determine the content of consciousness.
 Thus enjoyable activities that produce flow have a potentially negative
 aspect: while they are capable of improving the quality of existence by
@@ -2788,33 +2525,27 @@ Somehow the right thing is done without you ever thinking about it or
 doing anything at all…. It just happens. And yet you’re more concentrated.”
 Or, in the words of a famous long-distance ocean cruiser: “So one forgets
 oneself, one forgets everything, seeing only the play of the boat with the
-sea, the play of the sea around the boat, leaving aside everything not essen-
-tial to that game….”
+sea, the play of the sea around the boat, leaving aside everything not essential to that game….”
 The loss of the sense of a self separate from the world around it is
 sometimes accompanied by a feeling of union with the environment,
-whether it is the mountain, a team, or, in the case of this member of a Jap-
-anese motorcycle gang, the “run” of hundreds of cycles roaring down the
+whether it is the mountain, a team, or, in the case of this member of a Japanese motorcycle gang, the “run” of hundreds of cycles roaring down the
 streets of Kyoto: “I understand something, when all of our feelings get
 tuned up. When running, we are not in complete harmony at the start. But
 if the Run begins to go well, all of us, all of us feel for the others. How can
-I say this?…When our minds become one. At such a time, it’s a real pleas-
-ure…. When all of us become one, I understand something…. All of a
+I say this?…When our minds become one. At such a time, it’s a real pleasure…. When all of us become one, I understand something…. All of a
 sudden I realize, ‘Oh, we’re one’ and think, ‘If we speed as fast as we can,
 it will become a real Run.’…When we realize that we become one flesh,
 it’s supreme. When we get high on speed. At such a moment, it’s really
 super.”
 This “becoming one flesh” so vividly described by the Japanese teenager
 is a very real feature of the flow experience. Persons report feeling it as
-concretely as they feel relief from hunger or from pain. It is a greatly re-
-warding experience, but as we shall see later on, one that presents its own
+concretely as they feel relief from hunger or from pain. It is a greatly rewarding experience, but as we shall see later on, one that presents its own
 dangers.
 Preoccupation with the self consumes psychic energy because in everyday
 life we often feel threatened. Whenever we are threatened we need to bring
 the image we have of ourselves back into awareness, so we can find out
-whether or not the threat is serious, and how we should meet it. For in-
-stance, if walking down the street I notice some people turning back and
-looking at me with grins on their faces, the normal thing to do is immedi-
-ately to start worrying: “Is there something wrong? Do I look funny? Is it
+whether or not the threat is serious, and how we should meet it. For instance, if walking down the street I notice some people turning back and
+looking at me with grins on their faces, the normal thing to do is immediately to start worrying: “Is there something wrong? Do I look funny? Is it
 the way I walk, or is my face smudged?” Hundreds of times every day we
 are reminded of the vulnerability of our self. And every time this happens
 psychic energy is lost trying to restore order to consciousness.
@@ -2828,8 +2559,7 @@ Mihaly Csikszentmihalyi / 63
 
 
 other aspect of his self. Whether his face is smudged makes absolutely no
-difference. The only possible threat is the one that comes from the moun-
-tain—but a good climber is well trained to face that threat, and does not
+difference. The only possible threat is the one that comes from the mountain—but a good climber is well trained to face that threat, and does not
 need to bring the self into play in the process.
 The absence of the self from consciousness does not mean that a person
 in flow has given up the control of his psychic energy, or that she is unaware
@@ -2852,11 +2582,8 @@ self. What slips below the threshold of awareness is the concept of self, the
 information we use to represent to ourselves who we are. And being able
 to forget temporarily who we are seems to be very enjoyable. When not
 preoccupied with our selves, we actually have a chance to expand the
-concept of who we are. Loss of self-consciousness can lead to self-transcend-
-ence, to a feeling that the boundaries of our being have been pushed for-
-ward.
-This feeling is not just a fancy of the imagination, but is based on a con-
-crete experience of close interaction with some Other, an interaction that
+concept of who we are. Loss of self-consciousness can lead to self-transcendence, to a feeling that the boundaries of our being have been pushed forward.
+This feeling is not just a fancy of the imagination, but is based on a concrete experience of close interaction with some Other, an interaction that
 produces a rare sense of unity with these usually foreign entities. During
 the long watches of the night the solitary sailor begins to feel that the boat
 is an extension of himself, moving to the same rhythms toward a common
@@ -2886,16 +2613,14 @@ a boat, a mountain, or a piece of music—she in effect becomes part of a
 system of action greater than what the individual self had been before. This
 system takes its form from the rules of the activity; its energy comes from
 the person’s attention. But it is a real system—subjectively as real as being
-part of a family, a corporation, or a team—and the self that is part of it ex-
-pands its boundaries and becomes more complex than what it had been.
+part of a family, a corporation, or a team—and the self that is part of it expands its boundaries and becomes more complex than what it had been.
 This growth of the self occurs only if the interaction is an enjoyable one,
 that is, if it offers nontrivial opportunities for action and requires a constant
 perfection of skills. It is also possible to lose oneself in systems of action
 that demand nothing but faith and allegiance. Fundamentalist religions,
 mass movements, and extremist political parties also offer opportunities
 for self-transcendence that millions are eager to accept. They also provide
-a welcome extension of the boundaries of the self, a feeling that one is in-
-volved in something great and powerful. The true believer also becomes
+a welcome extension of the boundaries of the self, a feeling that one is involved in something great and powerful. The true believer also becomes
 part of the system in concrete terms, because his psychic energy will be
 focused and shaped by the goals and rules of his belief. But the true believer
 is not really interacting with the belief system; he usually lets his psychic
@@ -2903,8 +2628,7 @@ energy be absorbed by it. From this submission nothing new can come;
 consciousness may attain a welcome order, but it will be an order imposed
 rather than achieved. At best the self of the true believer resembles a crystal:
 strong and beautifully symmetrical, but very slow to grow.
-There is one very important and at first apparently paradoxical relation-
-ship between losing the sense of self in a flow experience, and having it
+There is one very important and at first apparently paradoxical relationship between losing the sense of self in a flow experience, and having it
 emerge stronger afterward. It almost seems that occasionally giving up
 self-consciousness is necessary for building a strong self-concept. Why this
 should be so is fairly clear. In flow a person is challenged to do her best,
@@ -2914,10 +2638,8 @@ Mihaly Csikszentmihalyi / 65
 
 doesn’t have the opportunity to reflect on what this means in terms of the
 self—if she did allow herself to become self-conscious, the experience could
-not have been very deep. But afterward, when the activity is over and self-
-consciousness has a chance to resume, the self that the person reflects upon
-is not the same self that existed before the flow experience: it is now en-
-riched by new skills and fresh achievements.
+not have been very deep. But afterward, when the activity is over and selfconsciousness has a chance to resume, the self that the person reflects upon
+is not the same self that existed before the flow experience: it is now enriched by new skills and fresh achievements.
 The Transformation of Time
 One of the most common descriptions of optimal experience is that time
 no longer seems to pass the way it ordinarily does. The objective, external
@@ -2941,13 +2663,11 @@ half a minute margin of error, without consulting a watch. But in his case
 timing is one of the essential challenges of the job: since he is called only
 to do a very small but extremely difficult part of the operation, he is usually
 involved in several operations simultaneously, and has to walk from one
-case to the next, making sure that he is not holding up his colleagues re-
-sponsible for the preliminary phases. A similar skill is often found among
+case to the next, making sure that he is not holding up his colleagues responsible for the preliminary phases. A similar skill is often found among
 practitioners of other activities where time is of the essence, for instance,
 runners and racers. In order to pace themselves precisely in a competition,
 they have to be very sensitive to the passage of seconds and minutes. In
-such cases the ability to keep track of time becomes one of the skills neces-
-sary to do well in the activity, and thus it contributes to, rather than detracts
+such cases the ability to keep track of time becomes one of the skills necessary to do well in the activity, and thus it contributes to, rather than detracts
 from, the enjoyment of the experience.
 But most flow activities do not depend on clock time; like baseball,
 66 / Flow
@@ -2964,9 +2684,7 @@ tyranny of time does add to the exhilaration we feel during a state of
 complete involvement.
 THE AUTOTELIC EXPERIENCE
 The key element of an optimal experience is that it is an end in itself. Even
-if initially undertaken for other reasons, the activity that consumes us be-
-comes intrinsically rewarding. Surgeons speak of their work: “It is so en-
-joyable that I would do it even if I didn’t have to.” Sailors say: “I am
+if initially undertaken for other reasons, the activity that consumes us becomes intrinsically rewarding. Surgeons speak of their work: “It is so enjoyable that I would do it even if I didn’t have to.” Sailors say: “I am
 spending a lot of money and time on this boat, but it is worth it—nothing
 quite compares with the feeling I get when I am out sailing.”
 The term “autotelic” derives from two Greek words, auto meaning self,
@@ -2977,8 +2695,7 @@ is not an autotelic experience; but playing it in order to prove one’s skill a
 foretelling future trends is—even though the outcome in terms of dollars
 and cents is exactly the same. Teaching children in order to turn them into
 good citizens is not autotelic, whereas teaching them because one enjoys
-interacting with children is. What transpires in the two situations is ostens-
-ibly identical; what differs is that when the experience is autotelic, the
+interacting with children is. What transpires in the two situations is ostensibly identical; what differs is that when the experience is autotelic, the
 person is paying attention to the activity for its own sake; when it is not,
 the attention is focused on its consequences.
 Most things we do are neither purely autotelic nor purely exotelic (as
@@ -3007,18 +2724,15 @@ unspeakably bored, and occasionally falling asleep in the seat, to be
 awakened by a sharp slap. He grew to hate concerts, classical music, and
 presumably his father—but year after year he was forced to repeat this
 painful experience. Then one evening, when he was about seven years old,
-during the overture to a Mozart opera, he had what he described as an ec-
-static insight: he suddenly discerned the melodic structure of the piece,
+during the overture to a Mozart opera, he had what he described as an ecstatic insight: he suddenly discerned the melodic structure of the piece,
 and had an overwhelming sense of a new world opening up before him.
 It was the three years of painful listening that had prepared him for this
 epiphany, years during which his musical skills had developed, however
 unconsciously, and made it possible for him to understand the challenge
 Mozart had built into the music.
-Of course he was lucky; many children never reach the point of recogniz-
-ing the possibilities of the activity into which they are forced, and end up
+Of course he was lucky; many children never reach the point of recognizing the possibilities of the activity into which they are forced, and end up
 disliking it forever. How many children have come to hate classical music
-because their parents forced them to practice an instrument? Often chil-
-dren—and adults—need external incentives to take the first steps in an
+because their parents forced them to practice an instrument? Often children—and adults—need external incentives to take the first steps in an
 activity that requires a difficult restructuring of attention. Most enjoyable
 activities are not natural; they demand an effort that initially one is reluctant
 to make. But once the interaction starts to provide feedback to the person’s
@@ -3035,8 +2749,7 @@ without using any skills or exploring new opportunities
 68 / Flow
 
 
-for action. As a result life passes in a sequence of boring and anxious exper-
-iences over which a person has little control.
+for action. As a result life passes in a sequence of boring and anxious experiences over which a person has little control.
 The autotelic experience, or flow, lifts the course of life to a different
 level. Alienation gives way to involvement, enjoyment replaces boredom,
 helplessness turns into a feeling of control, and psychic energy works to
@@ -3055,24 +2768,20 @@ goals to which it is applied can make life either richer or more painful.
 The Marquis de Sade perfected the infliction of pain into a form of
 pleasure, and in fact, cruelty is a universal source of enjoyment for people
 who have not developed more sophisticated skills. Even in societies that
-are called “civilized” because they try to make life enjoyable without inter-
-fering with anyone’s well-being, people are attracted to violence. Gladiat-
-orial combat amused the Romans, Victorians paid money to see rats being
+are called “civilized” because they try to make life enjoyable without interfering with anyone’s well-being, people are attracted to violence. Gladiatorial combat amused the Romans, Victorians paid money to see rats being
 torn up by terriers, Spaniards approach the killing of bulls with reverence,
 and boxing is a staple of our own culture.
 Veterans from Vietnam or other wars sometimes speak with nostalgia
 about front-line action, describing it as a flow experience. When you sit in
 a trench next to a rocket launcher, life is focused very clearly: the goal is to
-destroy the enemy before he destroys you; good and bad become self-
-evident; the means of control are at hand; distractions are eliminated. Even
+destroy the enemy before he destroys you; good and bad become selfevident; the means of control are at hand; distractions are eliminated. Even
 if one hates war, the experience can be more exhilarating than anything
 encountered in civilian life.
 Criminals often say things such as, “If you showed me something I can
 do that’s as much fun as breaking into a house at night, and lifting the
 jewelry without waking anyone up, I would do it.” Much of what we label
 juvenile delinquency—car theft, vandalism, rowdy behavior in general—is
-motivated by the same need to have flow experiences not available in or-
-dinary life. As long as a significant segment of society has few opportunities
+motivated by the same need to have flow experiences not available in ordinary life. As long as a significant segment of society has few opportunities
 to encounter meaningful challenges, and few chances
 Mihaly Csikszentmihalyi / 69
 
@@ -3081,16 +2790,12 @@ to develop the skills necessary to benefit from them, we must expect that
 violence and crime will attract those who cannot find their way to more
 complex autotelic experiences.
 This issue becomes even more complicated when we reflect that respected
-scientific and technological activities, which later assume a highly ambigu-
-ous and perhaps even horrifying aspect, are originally very enjoyable.
-Robert Oppenheimer called his work on the atomic bomb a “sweet prob-
-lem,” and there is no question that the manufacture of nerve gas or the
+scientific and technological activities, which later assume a highly ambiguous and perhaps even horrifying aspect, are originally very enjoyable.
+Robert Oppenheimer called his work on the atomic bomb a “sweet problem,” and there is no question that the manufacture of nerve gas or the
 planning of Star Wars can be deeply engrossing to those involved in them.
 The flow experience, like everything else, is not “good” in an absolute
-sense. It is good only in that it has the potential to make life more rich, in-
-tense, and meaningful; it is good because it increases the strength and
-complexity of the self. But whether the consequence of any particular in-
-stance of flow is good in a larger sense needs to be discussed and evaluated
+sense. It is good only in that it has the potential to make life more rich, intense, and meaningful; it is good because it increases the strength and
+complexity of the self. But whether the consequence of any particular instance of flow is good in a larger sense needs to be discussed and evaluated
 in terms of more inclusive social criteria. The same is true, however, of all
 human activities, whether science, religion, or politics. A particular religious
 belief may benefit a person or a group, but repress many others. Christianity
@@ -3115,8 +2820,6 @@ is to learn how to enjoy everyday life without diminishing other people’s
 chances to enjoy theirs.
 70 / Flow
 
-
-4
 THE CONDITIONS
 OF FLOW
 WE HAVE SEEN HOW PEOPLE DESCRIBE the common characteristics of optimal
@@ -3124,13 +2827,11 @@ experience: a sense that one’s skills are adequate to cope with the challenges
 at hand, in a goal-directed, rule-bound action system that provides clear
 clues as to how well one is performing. Concentration is so intense that
 there is no attention left over to think about anything irrelevant, or to worry
-about problems. Self-consciousness disappears, and the sense of time be-
-comes distorted. An activity that produces such experiences is so gratifying
+about problems. Self-consciousness disappears, and the sense of time becomes distorted. An activity that produces such experiences is so gratifying
 that people are willing to do it for its own sake, with little concern for what
 they will get out of it, even when it is difficult, or dangerous.
 But how do such experiences happen? Occasionally flow may occur by
-chance, because of a fortunate coincidence of external and internal condi-
-tions. For instance, friends may be having dinner together, and someone
+chance, because of a fortunate coincidence of external and internal conditions. For instance, friends may be having dinner together, and someone
 brings up a topic that involves everyone in the conversation. One by one
 they begin to make jokes and tell stories, and pretty soon all are having
 fun and feeling good about one another. While such events may happen
@@ -3140,8 +2841,6 @@ both.
 Why is playing a game enjoyable, while the things we have to do every
 day—like working or sitting at home—are often so boring? And why is it
 that one person will experience joy even in a concentration
-71
-
 
 camp, while another gets the blahs while vacationing at a fancy resort?
 Answering these questions will make it easier to understand how experience
@@ -3149,30 +2848,23 @@ can be shaped to improve the quality of life. This chapter will explore those
 particular activities that are likely to produce optimal experiences, and the
 personal traits that help people achieve flow easily.
 FLOW ACTIVITIES
-When describing optimal experience in this book, we have given as ex-
-amples such activities as making music, rock climbing, dancing, sailing,
+When describing optimal experience in this book, we have given as examples such activities as making music, rock climbing, dancing, sailing,
 chess, and so forth. What makes these activities conducive to flow is that
 they were designed to make optimal experience easier to achieve. They have
 rules that require the learning of skills, they set up goals, they provide
 feedback, they make control possible. They facilitate concentration and
-involvement by making the activity as distinct as possible from the so-
-called “paramount reality” of everyday existence. For example, in each
-sport participants dress up in eye-catching uniforms and enter special en-
-claves that set them apart temporarily from ordinary mortals. For the
-duration of the event, players and spectators cease to act in terms of com-
-mon sense, and concentrate instead on the peculiar reality of the game.
-Such flow activities have as their primary function the provision of enjoy-
-able experiences. Play, art, pageantry, ritual, and sports are some examples.
-Because of the way they are constructed, they help participants and spec-
-tators achieve an ordered state of mind that is highly enjoyable.
+involvement by making the activity as distinct as possible from the socalled “paramount reality” of everyday existence. For example, in each
+sport participants dress up in eye-catching uniforms and enter special enclaves that set them apart temporarily from ordinary mortals. For the
+duration of the event, players and spectators cease to act in terms of common sense, and concentrate instead on the peculiar reality of the game.
+Such flow activities have as their primary function the provision of enjoyable experiences. Play, art, pageantry, ritual, and sports are some examples.
+Because of the way they are constructed, they help participants and spectators achieve an ordered state of mind that is highly enjoyable.
 Roger Caillois, the French psychological anthropologist, has divided the
 world’s games (using that word in its broadest sense to include every form
 of pleasurable activity) into four broad classes, depending on the kind of
 experiences they provide. Agon includes games that have competition as
 their main feature, such as most sports and athletic events; alea is the class
 that includes all games of chance, from dice to bingo; ilinx, or vertigo, is
-the name he gives to activities that alter consciousness by scrambling or-
-dinary perception, such as riding a merry-go-round or skydiving; and
+the name he gives to activities that alter consciousness by scrambling ordinary perception, such as riding a merry-go-round or skydiving; and
 mimicry is the group of activities in which alternative realities are created,
 such as dance, theater, and the arts in general.
 Using this scheme, it can be said that games offer opportunities to go
@@ -3185,8 +2877,7 @@ provided by the skills of the opponents. The roots of the
 word “compete” are the Latin con petire, which meant “to seek together.”
 What each person seeks is to actualize her potential, and this task is made
 easier when others force us to do our best. Of course, competition improves
-experience only as long as attention is focused primarily on the activity it-
-self. If extrinsic goals—such as beating the opponent, wanting to impress
+experience only as long as attention is focused primarily on the activity itself. If extrinsic goals—such as beating the opponent, wanting to impress
 an audience, or obtaining a big professional contract—are what one is
 concerned about, then competition is likely to become a distraction, rather
 than an incentive to focus consciousness on what is happening.
@@ -3219,8 +2910,7 @@ who blends her voice in the harmony of a choir finds chills running down
 her spine as she feels at one with the beautiful sound she helps create. The
 little girl playing with her doll and her brother pretending to be a cowboy
 also stretch the limits of their ordinary experience, so that they become,
-temporarily, someone differ-
-Mihaly Csikszentmihalyi / 73
+temporarily, someone differMihaly Csikszentmihalyi / 73
 
 
 ent and more powerful—as well as learn the gender-typed adult roles of
@@ -3228,8 +2918,7 @@ their society.
 In our studies, we found that every flow activity, whether it involved
 competition, chance, or any other dimension of experience, had this in
 common: It provided a sense of discovery, a creative feeling of transporting
-the person into a new reality. It pushed the person to higher levels of per-
-formance, and led to previously undreamed-of states of consciousness. In
+the person into a new reality. It pushed the person to higher levels of performance, and led to previously undreamed-of states of consciousness. In
 short, it transformed the self by making it more complex. In this growth
 of the self lies the key to flow activities.
 A simple diagram might help explain why this should be the case. Let
@@ -3240,10 +2929,8 @@ the diagram. The letter A represents Alex, a boy who is learning to play
 tennis. The diagram shows Alex at four different points in time. When he
 first starts playing (A1), Alex has practically no skills, and the only challenge
 he faces is hitting the ball over the net. This is not a very difficult feat, but
-Alex is likely to enjoy it because the difficulty is just right for his rudiment-
-ary skills. So at this point he will probably be in flow. But he cannot stay
-there long. After a while, if he keeps practicing, his skills are bound to im-
-prove, and then he will grow
+Alex is likely to enjoy it because the difficulty is just right for his rudimentary skills. So at this point he will probably be in flow. But he cannot stay
+there long. After a while, if he keeps practicing, his skills are bound to improve, and then he will grow
 Why the complexity of consciousness increases as a result of
 flow experiences
 74 / Flow
@@ -3257,8 +2944,7 @@ Neither boredom nor anxiety are positive experiences, so Alex will be
 motivated to return to the flow state. How is he to do it? Glancing again
 at the diagram, we see that if he is bored (A2) and wishes to be in flow
 again, Alex has essentially only one choice: to increase the challenges he
-is facing. (He also has a second choice, which is to give up tennis altogeth-
-er—in which case A would simply disappear from the diagram.) By setting
+is facing. (He also has a second choice, which is to give up tennis altogether—in which case A would simply disappear from the diagram.) By setting
 himself a new and more difficult goal that matches his skills—for instance,
 to beat an opponent just a little more advanced than he is—Alex would be
 back in flow (A4).
@@ -3280,8 +2966,7 @@ of complexity even higher than A4.
 It is this dynamic feature that explains why flow activities lead to growth
 and discovery. One cannot enjoy doing the same thing at the same level
 for long. We grow either bored or frustrated; and then the desire to enjoy
-ourselves again pushes us to stretch our skills, or to discover new oppor-
-tunities for using them.
+ourselves again pushes us to stretch our skills, or to discover new opportunities for using them.
 It is important, however, not to fall into the mechanistic fallacy and expect
 that, just because a person is objectively involved in a flow activity, she
 will necessarily have the appropriate experience. It is not only the “real”
@@ -3326,8 +3011,7 @@ times. Many of the optimal experiences of mankind have taken place in
 the context of religious rituals. Not only art but drama, music, and dance
 had their origins in what we now would call “religious” settings; that is,
 activities aimed at connecting people with supernatural powers and entities.
-The same is true of games. One of the earliest ball games, a form of basket-
-ball played by the Maya, was part of their religious celebrations, and so
+The same is true of games. One of the earliest ball games, a form of basketball played by the Maya, was part of their religious celebrations, and so
 were the original Olympic games. This connection is not surprising, because
 what we call religion is actually the oldest and most ambitious attempt to
 create order in consciousness. It therefore makes sense that religious rituals
@@ -3342,19 +3026,16 @@ Many ideologies are now competing to provide the best explanation for
 the way we behave: the law of supply and demand and the “invisible hand”
 regulating the free market seek to account for our rational economic choices;
 the law of class conflict that underlies historical materialism tries to explain
-our irrational political actions; the genetic competition on which sociobio-
-logy is based would explain why we help some people and exterminate
+our irrational political actions; the genetic competition on which sociobiology is based would explain why we help some people and exterminate
 others; behaviorism’s law of effect offers to explain how we learn to repeat
 pleasurable acts, even when we are not aware of them. These are some of
 the modern “religions” rooted in the social sciences. None of them—with
 the partial exception of historical materialism, itself a dwindling
-creed—commands great popular support, and none has inspired the aes-
-thetic visions or enjoyable rituals that previous models of cosmic order had
+creed—commands great popular support, and none has inspired the aesthetic visions or enjoyable rituals that previous models of cosmic order had
 spawned.
 As contemporary flow activities are secularized, they are unlikely to link
 the actor with powerful meaning systems such as those the Olympic games
-or the Mayan ball games provided. Generally their content is purely hedon-
-ic: we expect them to improve how we feel, physically or mentally, but we
+or the Mayan ball games provided. Generally their content is purely hedonic: we expect them to improve how we feel, physically or mentally, but we
 do not expect them to connect us with the gods. Nevertheless, the steps we
 take to improve the quality of experience are very important for the culture
 as a whole. It has long been recognized that the productive activities of a
@@ -3365,8 +3046,7 @@ sources of what is ultimately meaningful, they are perhaps more precise
 indicators of who we are.
 FLOW AND CULTURE
 A major element of the American experiment in democracy has been to
-make the pursuit of happiness a conscious political goal—indeed, a respons-
-ibility of the government. Although the Declaration of Independence may
+make the pursuit of happiness a conscious political goal—indeed, a responsibility of the government. Although the Declaration of Independence may
 have been the first official political document to spell out this goal explicitly,
 it is probably true that no social system has ever survived long unless its
 people had some hope that their government would help them achieve
@@ -3382,14 +3062,10 @@ Over the past few generations social scientists have grown extremely
 unwilling to make value judgments about cultures. Any comparison that
 is not strictly factual runs the risk of being interpreted as invidious. It is
 bad form to say that one culture’s practice, or belief, or institution is in any
-sense better than another’s. This is “cultural relativism,” a stance anthropo-
-logists adopted in the early part of this century as a reaction against the
+sense better than another’s. This is “cultural relativism,” a stance anthropologists adopted in the early part of this century as a reaction against the
 overly smug and ethnocentric assumptions of the colonial Victorian era,
-when the Western industrial nations considered themselves to be the pin-
-nacle of evolution, better in every respect than technologically less de-
-veloped cultures. This naive confidence of our supremacy is long past. We
-might still object if a young Arab drives a truck of explosives into an em-
-bassy, blowing himself up in the process; but we can no longer feel morally
+when the Western industrial nations considered themselves to be the pinnacle of evolution, better in every respect than technologically less developed cultures. This naive confidence of our supremacy is long past. We
+might still object if a young Arab drives a truck of explosives into an embassy, blowing himself up in the process; but we can no longer feel morally
 superior in condemning his belief that Paradise has special sections reserved
 for self-immolating warriors. We have come to accept that our morality
 simply no longer has currency outside our own culture. According to this
@@ -3400,13 +3076,11 @@ very possibility of comparison is ruled out.
 If we assume, however, that the desire to achieve optimal experience is
 the foremost goal of every human being, the difficulties of interpretation
 raised by cultural relativism become less severe. Each social system can
-then be evaluated in terms of how much psychic entropy it causes, meas-
-uring that disorder not with reference to the ideal order of one or another
+then be evaluated in terms of how much psychic entropy it causes, measuring that disorder not with reference to the ideal order of one or another
 belief system, but with reference to the goals of the members of that society.
 A starting point would be to say that one society is “better” than another
 if a greater number of its people have access to experiences that are in line
-with their goals. A second essential criterion would specify that these ex-
-periences should lead to the growth of the self on an individual level, by
+with their goals. A second essential criterion would specify that these experiences should lead to the growth of the self on an individual level, by
 allowing as many people as possible to develop increasingly complex skills.
 It seems clear that cultures differ from one another in terms of the degree
 of the “pursuit of happiness” they make possible. The quality of life in
@@ -3438,9 +3112,7 @@ the myth of the “noble savage” would suggest. The Ik of Uganda, unable
 to cope with a deteriorating environment that no longer provides enough
 food for them to survive, have institutionalized selfishness beyond the
 wildest dreams of capitalism. The Yonomamo of Venezuela, like many
-other warrior tribes, worship violence more than our militaristic super-
-powers, and find nothing as enjoyable as a good bloody raid on a neighbor-
-ing village. Laughing and smiling were almost unknown in the Nigerian
+other warrior tribes, worship violence more than our militaristic superpowers, and find nothing as enjoyable as a good bloody raid on a neighboring village. Laughing and smiling were almost unknown in the Nigerian
 tribe beset by sorcery and intrigue that Laura Bohannaw studied.
 There is no evidence that any of these cultures chose to be selfish, violent,
 or fearful. Their behavior does not make them happier; on the contrary, it
@@ -3450,13 +3122,10 @@ random responses to accidental conditions. But once they become part of
 the norms and habits of a culture, people assume that this is how things
 must be; they come to believe they have no other options.
 Fortunately there are also many instances of cultures that, either by luck
-or by foresight, have succeeded in creating a context in which flow is relat-
-ively easy to achieve. For instance, the pygmies of the Ituri forest described
+or by foresight, have succeeded in creating a context in which flow is relatively easy to achieve. For instance, the pygmies of the Ituri forest described
 by Colin Turnbull live in harmony with one another and their environment,
 filling their lives with useful and challenging activities. When they are not
-hunting or improving their villages they sing, dance, play musical instru-
-ments, or tell stories to each other. As in many so-called “primitive” cul-
-tures, every adult in this pygmy society
+hunting or improving their villages they sing, dance, play musical instruments, or tell stories to each other. As in many so-called “primitive” cultures, every adult in this pygmy society
 Mihaly Csikszentmihalyi / 79
 
 
@@ -3470,8 +3139,7 @@ Indian tribes of British Columbia:
 The Shushwap region was and is considered by the Indian people to
 be a rich place: rich in salmon and game, rich in below-ground food
 resources such as tubers and roots—a plentiful land. In this region,
-the people would live in permanent village sites and exploit the en-
-virons for needed resources. They had elaborate technologies for very
+the people would live in permanent village sites and exploit the environs for needed resources. They had elaborate technologies for very
 effectively using the resources of the environment, and perceived
 their lives as being good and rich. Yet, the elders said, at times the
 world became too predictable and the challenge began to go out of
@@ -3483,8 +3151,7 @@ there, they found challenge. There were new streams to figure out,
 new game trails to learn, new areas where the balsamroot would be
 plentiful. Now life would regain its meaning and be worth living.
 Everyone would feel rejuvenated and healthy. Incidentally, it also
-allowed exploited resources in one area to recover after years of har-
-vesting….
+allowed exploited resources in one area to recover after years of harvesting….
 An interesting parallel is the Great Shrine at Isé, south of Kyoto, in Japan.
 The Isé Shrine was built about fifteen hundred years ago on one of a pair
 of adjacent fields. Every twenty years or so it has been taken down from
@@ -3514,8 +3181,7 @@ of goals and means is what allows effortless action within self-created
 boundaries.
 It is in this respect that games provide a compelling analogy to cultures.
 Both consist of more or less arbitrary goals and rules that allow people to
-become involved in a process and act with a minimum of doubts and dis-
-tractions. The difference is mainly one of scale. Cultures are all-embracing:
+become involved in a process and act with a minimum of doubts and distractions. The difference is mainly one of scale. Cultures are all-embracing:
 they specify how a person should be born, how she should grow up, marry,
 have children, and die. Games fill out the interludes of the cultural script.
 They enhance action and concentration during “free time,” when cultural
@@ -3525,14 +3191,11 @@ When a culture succeeds in evolving a set of goals and rules so compelling
 and so well matched to the skills of the population that its members are
 able to experience flow with unusual frequency and intensity, the analogy
 between games and cultures is even closer. In such a case we can say that
-the culture as a whole becomes a “great game.” Some of the classical civil-
-izations may have succeeded in reaching this state. Athenian citizens, Ro-
-mans who shaped their actions by virtus, Chinese intellectuals, or Indian
+the culture as a whole becomes a “great game.” Some of the classical civilizations may have succeeded in reaching this state. Athenian citizens, Romans who shaped their actions by virtus, Chinese intellectuals, or Indian
 Brahmins moved through life with intricate grace, and derived perhaps
 the same enjoyment from the challenging harmony of their actions as they
 would have from an extended dance. The Athenian polis, Roman law, the
-divinely grounded bureaucracy of China, and the all-encompassing spir-
-itual order of India were successful and lasting examples of how culture
+divinely grounded bureaucracy of China, and the all-encompassing spiritual order of India were successful and lasting examples of how culture
 can enhance flow—at least for those who were lucky enough to be among
 the principal players.
 A culture that enhances flow is not necessarily “good” in any moral
@@ -3566,8 +3229,7 @@ the other hand, another survey conducted only two years earlier indicated
 that the personal happiness rating of U.S. citizens was about the same as
 that of Cubans and Egyptians, whose per-capita GNPs were respectively
 five and over ten times less than that of the Americans. West Germans and
-Nigerians came out with identical happiness ratings, despite an over fif-
-teenfold difference in per-capita GNP. So far, these discrepancies only
+Nigerians came out with identical happiness ratings, despite an over fifteenfold difference in per-capita GNP. So far, these discrepancies only
 demonstrate that our instruments for measuring optimal experience are
 still very primitive. Yet the fact that differences do exist seems incontestable.
 Despite ambiguous findings, all large-scale surveys agree that citizens
@@ -3576,8 +3238,7 @@ governments report higher levels of happiness and satisfaction with life.
 Great Britain, Australia, New Zealand, and the Netherlands appear to be
 the happiest countries, and the United States, despite high rates of divorce,
 alcoholism, crime, and addictions, is not very far behind. This should not
-be surprising, given the amount of time and resources we spend on activ-
-ities whose main purpose is to provide enjoyment. Average American
+be surprising, given the amount of time and resources we spend on activities whose main purpose is to provide enjoyment. Average American
 adults work only about thirty hours a week (and spend an additional ten
 hours doing things irrelevant to their jobs while at the workplace, such as
 daydreaming or chatting with fellow workers). They spend a slightly
@@ -3591,16 +3252,13 @@ pursuits like jogging, making music, or bowling, and seven hours in social
 activities such as going to parties, seeing movies, or entertaining family
 and friends. The remaining fifty to sixty hours that an American is awake
 each week are spent in maintenance activities like eating, traveling to and
-from work, shopping, cooking, washing up, and fixing things; or in unstruc-
-tured free time, like sitting alone and staring into space.
+from work, shopping, cooking, washing up, and fixing things; or in unstructured free time, like sitting alone and staring into space.
 Although average Americans have plenty of free time, and ample access
-to leisure activities, they do not, as a result, experience flow often. Potenti-
-ality does not imply actuality, and quantity does not translate into quality.
+to leisure activities, they do not, as a result, experience flow often. Potentiality does not imply actuality, and quantity does not translate into quality.
 For example, TV watching, the single most often pursued leisure activity
 in the United States today, leads to the flow condition very rarely. In fact,
 working people achieve the flow experience—deep concentration, high
-and balanced challenges and skills, a sense of control and satisfac-
-tion—about four times as often on their jobs, proportionately, as they do
+and balanced challenges and skills, a sense of control and satisfaction—about four times as often on their jobs, proportionately, as they do
 when they are watching television.
 One of the most ironic paradoxes of our time is this great availability of
 leisure that somehow fails to be translated into enjoyment. Compared to
@@ -3613,12 +3271,10 @@ learned to cultivate. Surrounded by an astounding panoply of recreational
 gadgets and leisure choices, most of us go on being bored and vaguely
 frustrated.
 This fact brings us to the second condition that affects whether an optimal
-experience will occur or not: an individual’s ability to restructure conscious-
-ness so as to make flow possible. Some people enjoy themselves wherever
+experience will occur or not: an individual’s ability to restructure consciousness so as to make flow possible. Some people enjoy themselves wherever
 they are, while others stay bored even when confronted with the most
 dazzling prospects. So in addition to considering the external conditions,
-or the structure of flow activities, we need also to take into account the in-
-ternal conditions that make flow possible.
+or the structure of flow activities, we need also to take into account the internal conditions that make flow possible.
 THE AUTOTELIC PERSONALITY
 It is not easy to transform ordinary experience into flow, but almost
 everyone can improve his or her ability to do so. While the remainder of
@@ -3632,9 +3288,7 @@ potential to control consciousness; and if not, what distinguishes those who
 do it easily from those who don’t.
 Some individuals might be constitutionally incapable of experiencing
 flow. Psychiatrists describe schizophrenics as suffering from anhedonia,
-which literally means “lack of pleasure.” This symptom appears to be re-
-lated to “stimulus overinclusion,” which refers to the fact that schizophren-
-ics are condemned to notice irrelevant stimuli, to process information
+which literally means “lack of pleasure.” This symptom appears to be related to “stimulus overinclusion,” which refers to the fact that schizophrenics are condemned to notice irrelevant stimuli, to process information
 whether they like it or not. The schizophrenic’s tragic inability to keep
 things in or out of consciousness is vividly described by some patients:
 “Things just happen to me now, and I have no control over them. I don’t
@@ -3649,8 +3303,7 @@ Part of the answer probably has to do with innate genetic causes. Some
 people are just temperamentally less able to concentrate their psychic energy
 than others. Among schoolchildren, a great variety of learning disabilities
 have been reclassified under the heading of “attentional disorders,” because
-what they have in common is lack of control over attention. Although at-
-tentional disorders are likely to depend on chemical imbalances, it is also
+what they have in common is lack of control over attention. Although attentional disorders are likely to depend on chemical imbalances, it is also
 very likely that the quality of childhood experience will either exacerbate
 or alleviate their course. From our point of view, what is important to
 realize is that attentional disorders not only interfere with learning, but
@@ -3659,15 +3312,12 @@ person cannot control psychic energy, neither learning nor true enjoyment
 is possible.
 A less drastic obstacle to experiencing flow is excessive self-consciousness.
 A person who is constantly worried about how others will perceive her,
-who is afraid of creating the wrong impression, or of doing something in-
-appropriate, is also condemned to permanent exclusion from enjoyment.
+who is afraid of creating the wrong impression, or of doing something inappropriate, is also condemned to permanent exclusion from enjoyment.
 So are people who are excessively self-centered. A self-centered individual
 is usually not self-conscious, but instead evaluates every bit of information
 only in terms of how it relates to her desires. For such a person everything
 is valueless in itself. A flower is not worth a second look unless it can be
-used; a man or a woman who cannot advance one’s interests does not de-
-serve further attention. Con-
-84 / Flow
+used; a man or a woman who cannot advance one’s interests does not deserve further attention. Con84 / Flow
 
 
 sciousness is structured entirely in terms of its own ends, and nothing is
@@ -3688,8 +3338,7 @@ learning, and forfeit opportunities for the growth of the self. Paradoxically,
 a self-centered self cannot become more complex, because all the psychic
 energy at its disposal is invested in fulfilling its current goals, instead of
 learning about new ones.
-The impediments to flow considered thus far are located within the indi-
-vidual himself. But there are also many powerful environmental obstacles
+The impediments to flow considered thus far are located within the individual himself. But there are also many powerful environmental obstacles
 to enjoyment. Some of these are natural, some social in origin. For instance,
 one would expect that people living in the incredibly harsh conditions of
 the arctic regions, or in the Kalahari desert, would have little opportunity
@@ -3700,20 +3349,17 @@ mythology to give order and sense to their experiences. Possibly the snow
 dwellers and the sand dwellers who couldn’t build enjoyment into their
 lives eventually gave up and died out. But the fact that some survived
 shows that nature alone cannot prevent flow from happening.
-The social conditions that inhibit flow might be more difficult to over-
-come. One of the consequences of slavery, oppression, exploitation, and
+The social conditions that inhibit flow might be more difficult to overcome. One of the consequences of slavery, oppression, exploitation, and
 the destruction of cultural values is the elimination of enjoyment. When
 the now extinct natives of the Caribbean islands were put to work in the
 plantations of the conquering Spaniards, their lives became so painful and
-meaningless that they lost interest in survival, and eventually ceased repro-
-ducing. It is probable that many cultures disappeared in a similar fashion,
+meaningless that they lost interest in survival, and eventually ceased reproducing. It is probable that many cultures disappeared in a similar fashion,
 because they were no longer able to provide the experience of enjoyment.
 Mihaly Csikszentmihalyi / 85
 
 
 Two terms describing states of social pathology apply also to conditions
-that make flow difficult to experience: anomie and alienation. Anomie—lit-
-erally, “lack of rules”—is the name the French sociologist Emile Durkheim
+that make flow difficult to experience: anomie and alienation. Anomie—literally, “lack of rules”—is the name the French sociologist Emile Durkheim
 gave to a condition in society in which the norms of behavior had become
 muddled. When it is no longer clear what is permitted and what is not,
 when it is uncertain what public opinion values, behavior becomes erratic
@@ -3728,18 +3374,15 @@ goals. A worker who in order to feed himself and his family must perform
 the same meaningless task hundreds of times on an assembly line is likely
 to be alienated. In socialist countries one of the most irritating sources of
 alienation is the necessity to spend much of one’s free time waiting in line
-for food, for clothing, for entertainment, or for endless bureaucratic clear-
-ances. When a society suffers from anomie, flow is made difficult because
+for food, for clothing, for entertainment, or for endless bureaucratic clearances. When a society suffers from anomie, flow is made difficult because
 it is not clear what is worth investing psychic energy in; when it suffers
 from alienation the problem is that one cannot invest psychic energy in
 what is clearly desirable.
 It is interesting to note that these two societal obstacles to flow, anomie
 and alienation, are functionally equivalent to the two personal pathologies,
 attentional disorders and self-centeredness. At both levels, the individual
-and the collective, what prevents flow from occurring is either the fragment-
-ation of attentional processes (as in anomie and attentional disorders), or
-their excessive rigidity (as in alienation and self-centeredness). At the indi-
-vidual level anomie corresponds to anxiety, while alienation corresponds
+and the collective, what prevents flow from occurring is either the fragmentation of attentional processes (as in anomie and attentional disorders), or
+their excessive rigidity (as in alienation and self-centeredness). At the individual level anomie corresponds to anxiety, while alienation corresponds
 to boredom.
 Neurophysiology and Flow
 Just as some people are born with better muscular coordination, it is
@@ -3756,8 +3399,7 @@ or an Escher-type illustration that at one point
 seems to be coming out of the plane of the paper toward the viewer and
 the next moment seems to recede behind the plane), and then perceptually
 “reverse” it—that is, see the figure that juts out of the surface as if it were
-sinking back, and vice versa. Dr. Hamilton found that students who repor-
-ted less intrinsic motivation in daily life needed on the average to fix their
+sinking back, and vice versa. Dr. Hamilton found that students who reported less intrinsic motivation in daily life needed on the average to fix their
 eyes on more points before they could reverse the ambiguous figure,
 whereas students who on the whole found their lives more intrinsically
 rewarding needed to look at fewer points, or even only a single point, to
@@ -3774,36 +3416,28 @@ a more flexible attention that allows them to restructure experience more
 easily, and therefore to achieve optimal experiences more frequently.
 In another set of experiments, students who did and who did not report
 frequent flow experiences were asked to pay attention to flashes of lights
-or to tones in a laboratory. While the subjects were involved in this atten-
-tional task, their cortical activation in response to the stimuli was measured,
+or to tones in a laboratory. While the subjects were involved in this attentional task, their cortical activation in response to the stimuli was measured,
 and averaged separately for the visual and auditory conditions. (These are
 called “evoked potentials.”) Dr. Hamilton’s findings showed that subjects
 who reported only rarely experiencing flow behaved as expected: when
 responding to the flashing stimuli their activation went up significantly
 above their baseline level. But the results from subjects who reported flow
-frequently were very surprising: activation decreased when they were con-
-centrating. Instead of requiring more effort, investment of attention actually
-seemed to decrease mental effort. A separate behavioral measure of atten-
-tion confirmed that this group was also more accurate in a sustained atten-
-tional task.
+frequently were very surprising: activation decreased when they were concentrating. Instead of requiring more effort, investment of attention actually
+seemed to decrease mental effort. A separate behavioral measure of attention confirmed that this group was also more accurate in a sustained attentional task.
 The most likely explanation for this unusual finding seems to be that the
-group reporting more flow was able to reduce mental activity in every in-
-formation channel but the one involved in concentrating on the flashing
+group reporting more flow was able to reduce mental activity in every information channel but the one involved in concentrating on the flashing
 stimuli. This in turn suggests that people who can enjoy themselves in a
 variety of situations have the ability to screen out stimulation and to focus
 only on what they decide is relevant for the moment. While paying attention
-ordinarily involves an additional bur-
-Mihaly Csikszentmihalyi / 87
+ordinarily involves an additional burMihaly Csikszentmihalyi / 87
 
 
 den of information processing above the usual baseline effort, for people
 who have learned to control consciousness focusing attention is relatively
 effortless, because they can shut off all mental processes but the relevant
 ones. It is this flexibility of attention, which contrasts so sharply with the
-helpless overinclusion of the schizophrenic, that may provide the neurolo-
-gical basis for the autotelic personality.
-The neurological evidence does not, however, prove that some individu-
-als have inherited a genetic advantage in controlling attention and therefore
+helpless overinclusion of the schizophrenic, that may provide the neurological basis for the autotelic personality.
+The neurological evidence does not, however, prove that some individuals have inherited a genetic advantage in controlling attention and therefore
 experiencing flow. The findings could be explained in terms of learning
 rather than inheritance. The association between the ability to concentrate
 and flow is clear; it will take further research to ascertain which one causes
@@ -3811,15 +3445,13 @@ the other.
 The Effects of the Family on the Autotelic
 Personality
 A neurological advantage in processing information may not be the only
-key to explaining why some people have a good time waiting at a bus sta-
-tion while others are bored no matter how entertaining their environment
+key to explaining why some people have a good time waiting at a bus station while others are bored no matter how entertaining their environment
 is. Early childhood influences are also very likely factors in determining
 whether a person will or will not easily experience flow.
 There is ample evidence to suggest that how parents interact with a child
 will have a lasting effect on the kind of person that child grows up to be.
 In one of our studies conducted at the University of Chicago, for example,
-Kevin Rathunde observed that teenagers who had certain types of relation-
-ship with their parents were significantly more happy, satisfied, and strong
+Kevin Rathunde observed that teenagers who had certain types of relationship with their parents were significantly more happy, satisfied, and strong
 in most life situations than their peers who did not have such a relationship.
 The family context promoting optimal experience could be described as
 having five characteristics. The first one is clarity: the teenagers feel that
@@ -3827,22 +3459,18 @@ they know what their parents expect from them—goals and feedback in
 the family interaction are unambiguous. The second is centering, or the
 children’s perception that their parents are interested in what they are doing
 in the present, in their concrete feelings and experiences, rather than being
-preoccupied with whether they will be getting into a good college or ob-
-taining a well-paying job. Next is the issue of choice: children feel that they
+preoccupied with whether they will be getting into a good college or obtaining a well-paying job. Next is the issue of choice: children feel that they
 have a variety of possibilities from which to choose, including that of
-breaking parental rules—as long as they are prepared to face the con-
-sequences. The fourth differentiating characteristic is commitment, or the
+breaking parental rules—as long as they are prepared to face the consequences. The fourth differentiating characteristic is commitment, or the
 trust that allows the child to feel comfortable enough to set aside the shield
 of his defenses, and become unselfconsciously involved in whatever he is
 interested in.
 88 / Flow
 
 
-And finally there is challenge, or the parents’ dedication to provide increas-
-ingly complex opportunities for action to their children.
+And finally there is challenge, or the parents’ dedication to provide increasingly complex opportunities for action to their children.
 The presence of these five conditions made possible what was called the
-“autotelic family context,” because they provide an ideal training for enjoy-
-ing life. The five characteristics clearly parallel the dimensions of the flow
+“autotelic family context,” because they provide an ideal training for enjoying life. The five characteristics clearly parallel the dimensions of the flow
 experience. Children who grow up in family situations that facilitate clarity
 of goals, feedback, feeling of control, concentration on the task at hand,
 intrinsic motivation, and challenge will generally have a better chance to
@@ -3863,8 +3491,7 @@ provided an autotelic context and those whose families did not were
 strongest when the children were at home with the family: here those from
 an autotelic context were much more happy, strong, cheerful, and satisfied
 than their less fortunate peers. But the differences were also present when
-the teenagers were alone studying, or in school: here, too, optimal experi-
-ence was more accessible to children from autotelic families. Only when
+the teenagers were alone studying, or in school: here, too, optimal experience was more accessible to children from autotelic families. Only when
 teenagers were with their friends did the differences disappear: with friends
 both groups felt equally positive, regardless of whether the families were
 autotelic or not.
@@ -3909,11 +3536,9 @@ questions about them. Does it work? How? Who made it and of what?
 And, in parallel, when and where did I last see something like it and
 what else does it remind me of?…So we set in train a wonderful flow of
 combinations and associations in our minds, the length and complexity
-of which soon obscures its humble starting-point…. My bed, for ex-
-ample, could be measured and roughly classified with school beds
+of which soon obscures its humble starting-point…. My bed, for example, could be measured and roughly classified with school beds
 or army beds…. When I had done with the bed, which was too simple
-to intrigue me long, I felt the blankets, estimated their warmth, ex-
-amined the precise mechanics of the window, the discomfort of the
+to intrigue me long, I felt the blankets, estimated their warmth, examined the precise mechanics of the window, the discomfort of the
 toilet…computed the length and breadth, the orientation and elevation
 of the cell [italics added].
 90 / Flow
@@ -3926,11 +3551,8 @@ communists. Eva Zeisel, the ceramic designer who was imprisoned in
 Moscow’s Lubyanka prison for over a year by Stalin’s police, kept her
 sanity by figuring out how she would make a bra out of materials at hand,
 playing chess against herself in her head, holding imaginary conversations
-in French, doing gymnastics, and memorizing poems she composed. Alex-
-ander Solzhenitsyn describes how one of his fellow prisoners in the Le-
-fortovo jail mapped the world on the floor of the cell, and then imagined
-himself traveling across Asia and Europe to America, covering a few kilo-
-meters each day. The same “game” was independently discovered by many
+in French, doing gymnastics, and memorizing poems she composed. Alexander Solzhenitsyn describes how one of his fellow prisoners in the Lefortovo jail mapped the world on the floor of the cell, and then imagined
+himself traveling across Asia and Europe to America, covering a few kilometers each day. The same “game” was independently discovered by many
 prisoners; for instance Albert Speer, Hitler’s favorite architect, sustained
 himself in Spandau prison for months by pretending he was taking a
 walking trip from Berlin to Jerusalem, in which his imagination provided
@@ -3943,12 +3565,10 @@ game of golf. To the great astonishment of his fellow officers he played a
 superb game, despite his emaciated condition. To their inquiries he replied
 that every day of his imprisonment he imagined himself playing eighteen
 holes, carefully choosing his clubs and approach and systematically varying
-the course. This discipline not only helped preserve his sanity, but appar-
-ently also kept his physical skills well honed.
+the course. This discipline not only helped preserve his sanity, but apparently also kept his physical skills well honed.
 Tollas Tibor, a poet who spent several years in solitary confinement
 during the most repressive phases of the Hungarian communist regime,
-says that in the Visegrád jail, where hundreds of intellectuals were im-
-prisoned, the inmates kept themselves occupied for more than a year by
+says that in the Visegrád jail, where hundreds of intellectuals were imprisoned, the inmates kept themselves occupied for more than a year by
 devising a poetry translation contest. First, they had to decide on the poem
 to translate. It took months to pass the nominations around from cell to
 cell, and several more months of ingenious secret messages before the votes
@@ -3979,8 +3599,7 @@ standing in a column of dejected prisoners, amidst the shouts of guards
 with machine guns, I felt such a rush of rhymes and images that I seemed
 to be wafted overhead…. At such moments I was both free and happy….
 Some prisoners tried to escape by smashing through the barbed wire. For
-me there was no barbed wire. The head count of prisoners remained un-
-changed but I was actually away on a distant flight.”
+me there was no barbed wire. The head count of prisoners remained unchanged but I was actually away on a distant flight.”
 Not only prisoners report these strategies for wresting control back to
 their own consciousness. Explorers like Admiral Byrd, who once spent
 four cold and dark months by himself in a tiny hut near the South Pole, or
@@ -3988,11 +3607,9 @@ Charles Lindbergh, facing hostile elements alone on his transatlantic flight,
 resorted to the same steps to keep the integrity of their selves. But what
 makes some people able to achieve this internal control, while most others
 are swept away by external hardships?
-Richard Logan proposes an answer based on the writings of many sur-
-vivors, including those of Viktor Frankl and Bruno Bettelheim, who have
+Richard Logan proposes an answer based on the writings of many survivors, including those of Viktor Frankl and Bruno Bettelheim, who have
 reflected on the sources of strength under extreme adversity. He concludes
-that the most important trait of survivors is a “nonself-conscious individu-
-alism,” or a strongly directed purpose that is not self-seeking. People who
+that the most important trait of survivors is a “nonself-conscious individualism,” or a strongly directed purpose that is not self-seeking. People who
 have that quality are bent on doing their best in all circumstances, yet they
 are not concerned primarily with advancing their own interests. Because
 they are intrinsically motivated in their actions, they are not easily disturbed
@@ -4009,28 +3626,22 @@ conditions turn threatening. The ensuing panic prevents them from doing
 what they must do; their attention turns inward in an effort to restore order
 in consciousness, and not enough remains to negotiate outside reality.
 Without interest in the world, a desire to be actively related to it, a person
-becomes isolated into himself. Bertrand Russell, one of the greatest philo-
-sophers of our century, described how he achieved personal happiness:
+becomes isolated into himself. Bertrand Russell, one of the greatest philosophers of our century, described how he achieved personal happiness:
 “Gradually I learned to be indifferent to myself and my deficiencies; I came
 to center my attention increasingly upon external objects: the state of the
-world, various branches of knowledge, individuals for whom I felt affec-
-tion.” There could be no better short description of how to build for oneself
+world, various branches of knowledge, individuals for whom I felt affection.” There could be no better short description of how to build for oneself
 an autotelic personality.
 In part such a personality is a gift of biological inheritance and early
-upbringing. Some people are born with a more focused and flexible neur-
-ological endowment, or are fortunate to have had parents who promoted
+upbringing. Some people are born with a more focused and flexible neurological endowment, or are fortunate to have had parents who promoted
 unselfconscious individuality. But it is an ability open to cultivation, a skill
 one can perfect through training and discipline. It is now time to explore
 further the ways this can be done.
 Mihaly Csikszentmihalyi / 93
 
-
-5
 THE BODY
 IN FLOW
 “A MAN POSSESSES NOTHING certainly save a brief loan of his own body,”
-wrote J. B. Cabell, “yet the body of man is capable of much curious pleas-
-ure.” When we are unhappy, depressed, or bored we have an easy remedy
+wrote J. B. Cabell, “yet the body of man is capable of much curious pleasure.” When we are unhappy, depressed, or bored we have an easy remedy
 at hand: to use the body for all it is worth. Most people nowadays are aware
 of the importance of health and physical fitness. But the almost unlimited
 potential for enjoyment that the body offers often remains unexploited.
@@ -4044,19 +3655,14 @@ Scientists occasionally amuse themselves by trying to figure out how
 much a human body might be worth. Chemists have painstakingly added
 up the market value of skin, flesh, bone, hair, and the various minerals and
 trace elements contained in it, and have come up with the paltry sum of a
-few dollars. Other scientists have taken into account the sophisticated in-
-formation processing and learning capacity of the mind-body system and
+few dollars. Other scientists have taken into account the sophisticated information processing and learning capacity of the mind-body system and
 have come to a very different conclusion: they calculate that to build such
 a sensitive machine would require an enormous sum, on the order of
 hundreds of millions of dollars.
 Neither of these methods of assessing the body makes much sense.
-94
-
 
 Its worth does not derive from chemical ingredients, or from the neural
-wiring that makes information processing possible. What gives it a precious-
-ness beyond reckoning is the fact that without it there would be no exper-
-iences, and therefore no record of life as we know it. Trying to attach a
+wiring that makes information processing possible. What gives it a preciousness beyond reckoning is the fact that without it there would be no experiences, and therefore no record of life as we know it. Trying to attach a
 market value to the body and its processes is the same as attempting to put
 a price tag on life: By what scale can we establish its worth?
 Everything the body can do is potentially enjoyable. Yet many people
@@ -4072,25 +3678,20 @@ sensations, entropy yields to a sense of enjoyable harmony in consciousness.
 The human body is capable of hundreds of separate functions—seeing,
 hearing, touching, running, swimming, throwing, catching, climbing up
 mountains and climbing down caves, to name only a few—and to each of
-these there correspond flow experiences. In every culture, enjoyable activ-
-ities have been invented to suit the potentialities of the body. When a normal
-physical function, like running, is performed in a socially designed, goal-
-directed setting with rules that offer challenges and require skills, it turns
+these there correspond flow experiences. In every culture, enjoyable activities have been invented to suit the potentialities of the body. When a normal
+physical function, like running, is performed in a socially designed, goaldirected setting with rules that offer challenges and require skills, it turns
 into a flow activity. Whether jogging alone, racing the clock, running against
 competition, or—like the Tarahumara Indians of Mexico, who race hundreds
 of miles in the mountains during certain festivals—adding an elaborate
 ritual dimension to the activity, the simple act of moving the body across
-space becomes a source of complex feedback that provides optimal exper-
-ience and adds strength to the self. Each sensory organ, each motor function
+space becomes a source of complex feedback that provides optimal experience and adds strength to the self. Each sensory organ, each motor function
 can be harnessed to the production of flow.
 Before exploring further how physical activity contributes to optimal
 experience, it should be stressed that the body does not produce flow merely
 by its movements. The mind is always involved as well. To get enjoyment
 from swimming, for instance, one needs to cultivate a set of appropriate
 skills, which requires the concentration of attention. Without the relevant
-thoughts, motives, and feelings it would be impossible to achieve the dis-
-cipline necessary to learn to swim well enough to enjoy it. Moreover, be-
-cause enjoyment takes place in the mind of the
+thoughts, motives, and feelings it would be impossible to achieve the discipline necessary to learn to swim well enough to enjoy it. Moreover, because enjoyment takes place in the mind of the
 Mihaly Csikszentmihalyi / 95
 
 
@@ -4103,15 +3704,13 @@ sexuality, and the various Eastern disciplines for controlling the mind
 through the training of the body. They also feature the discriminating use
 of the senses of sight, hearing, and taste. Each of these modalities offers an
 almost unlimited amount of enjoyment, but only to persons who work to
-develop the skills they require. To those who do not, the body remains in-
-deed a lump of rather inexpensive flesh.
+develop the skills they require. To those who do not, the body remains indeed a lump of rather inexpensive flesh.
 HIGHER, FASTER, STRONGER
 The Latin motto of the modern Olympic games—Altius, citius, fortius—is
 a good, if incomplete summary of how the body can experience flow. It
 encompasses the rationale of all sports, which is to do something better
 than it has ever been done before. The purest form of athletics, and sports
-in general, is to break through the limitations of what the body can accom-
-plish.
+in general, is to break through the limitations of what the body can accomplish.
 However unimportant an athletic goal may appear to the outsider, it
 becomes a serious affair when performed with the intent of demonstrating
 a perfection of skill. Throwing things, for instance, is a rather trivial ability;
@@ -4145,17 +3744,13 @@ Of course, in some sense all purposeful action can be regarded as a defense
 against the threats of chaos. But in that respect it is more worthwhile to
 consider acts that bring enjoyment as signs of health, not of disease.
 Flow experiences based on the use of physical skills do not occur only
-in the context of outstanding athletic feats. Olympians do not have an ex-
-clusive gift in finding enjoyment in pushing performance beyond existing
+in the context of outstanding athletic feats. Olympians do not have an exclusive gift in finding enjoyment in pushing performance beyond existing
 boundaries. Every person, no matter how unfit he or she is, can rise a little
-higher, go a little faster, and grow to be a little stronger. The joy of surpass-
-ing the limits of the body is open to all.
+higher, go a little faster, and grow to be a little stronger. The joy of surpassing the limits of the body is open to all.
 Even the simplest physical act becomes enjoyable when it is transformed
 so as to produce flow. The essential steps in this process are: (a) to set an
 overall goal, and as many subgoals as are realistically feasible; (b) to find
-ways of measuring progress in terms of the goals chosen; (c) to keep con-
-centrating on what one is doing, and to keep making finer and finer distinc-
-tions in the challenges involved in the activity; (d) to develop the skills
+ways of measuring progress in terms of the goals chosen; (c) to keep concentrating on what one is doing, and to keep making finer and finer distinctions in the challenges involved in the activity; (d) to develop the skills
 necessary to interact with the opportunities available; and (e) to keep raising
 the stakes if the activity becomes boring.
 A good example of this method is the act of walking, which is as simple
@@ -4179,39 +3774,32 @@ Mihaly Csikszentmihalyi / 97
 
 a different challenge to be resolved with a choice of the most efficient
 foothold that will give the best leverage, simultaneously taking into account
-the momentum and the center of gravity of the body and the various sur-
-faces—dirt, rocks, roots, grass, branches—on which the foot can land. On
+the momentum and the center of gravity of the body and the various surfaces—dirt, rocks, roots, grass, branches—on which the foot can land. On
 a difficult trail an experienced hiker walks with economy of motion and
 lightness, and the constant adjustment of her steps to the terrain reveals a
 highly sophisticated process of selecting the best solution to a changing
 series of complex equations involving mass, velocity, and friction. Of course
 these calculations are usually automatic, and give the impression of being
 entirely intuitive, almost instinctive; but if the walker does not process the
-right information about the terrain, and fails to make the appropriate ad-
-justments in her gait, she will stumble or will soon grow tired. So while
+right information about the terrain, and fails to make the appropriate adjustments in her gait, she will stumble or will soon grow tired. So while
 this kind of walking might be entirely unselfconscious, it is in fact a highly
 intense activity that requires concentrated attention.
-In the city the terrain itself is not challenging, but there are other oppor-
-tunities for developing skills. The social stimulation of the crowds, the
+In the city the terrain itself is not challenging, but there are other opportunities for developing skills. The social stimulation of the crowds, the
 historical and architectural references of the urban milieu can add enormous
-variety to a walk. There are store windows to see, people to observe, pat-
-terns of human interaction to reflect on. Some walkers specialize in choosing
+variety to a walk. There are store windows to see, people to observe, patterns of human interaction to reflect on. Some walkers specialize in choosing
 the shortest routes, others the most interesting ones; some pride themselves
 in walking the same route with chronometric precision, others like to mix
 and match their itinerary. In winter some aim to walk as long as possible
 on the sunny stretches of the sidewalk, and to walk as much in the shade
 as possible in the summer. There are those who time their crossings exactly
-for when the traffic lights change to green. Of course these chances for en-
-joyment must be cultivated; they don’t just happen automatically to those
+for when the traffic lights change to green. Of course these chances for enjoyment must be cultivated; they don’t just happen automatically to those
 who do not control their itinerary. Unless one sets goals and develops skills,
 walking is just featureless drudgery.
 Walking is the most trivial physical activity imaginable, yet it can be
 profoundly enjoyable if a person sets goals and takes control of the process.
 On the other hand, the hundreds of sophisticated forms of sport and body
-culture currently available—ranging from racquetball to Yoga, from bicyc-
-ling to martial arts—may not be enjoyable at all if one approaches them
-with the attitude that one must take part in them because they are fashion-
-able, or simply because they are good for one’s health. Many people get
+culture currently available—ranging from racquetball to Yoga, from bicycling to martial arts—may not be enjoyable at all if one approaches them
+with the attitude that one must take part in them because they are fashionable, or simply because they are good for one’s health. Many people get
 caught up in a treadmill of physical activity over which they end up having
 little control, feeling duty bound to exercise but not having any fun doing
 it. They have made the usual mistake of confounding form and substance,
@@ -4225,8 +3813,7 @@ that they will enjoy themselves. However, enjoyment, as we have seen,
 does not depend on what you do, but rather on how you do it.
 In one of our studies we addressed the following question: Are people
 happier when they use more material resources in their leisure activities?
-Or are they happier when they invest more of themselves? We tried to an-
-swer these questions with the Experience Sampling Method (ESM), the
+Or are they happier when they invest more of themselves? We tried to answer these questions with the Experience Sampling Method (ESM), the
 procedure I developed at the University of Chicago to study the quality of
 experience. As described earlier, this method consists in giving people
 electronic pagers, or beepers, and a booklet of response sheets. A radio
@@ -4238,8 +3825,7 @@ such as a seven-point scale ranging from “very happy” to “very sad.”
 What we found was that when people were pursuing leisure activities
 that were expensive in terms of the outside resources required—activities
 that demanded expensive equipment, or electricity, or other forms of energy
-measured in BTUs, such as power boating, driving, or watching televi-
-sion—they were significantly less happy than when involved in inexpensive
+measured in BTUs, such as power boating, driving, or watching television—they were significantly less happy than when involved in inexpensive
 leisure. People were happiest when they were just talking to one another,
 when they gardened, knitted, or were involved in a hobby; all of these
 activities require few material resources, but they demand a relatively high
@@ -4264,8 +3850,7 @@ Here is how some of the dancers describe the sensation of moving on the
 floor: “Once I get into it, then I just float along, having fun, just feeling
 myself move around.” “I get sort of a physical high from it…. I get very
 sweaty, very feverish or sort of ecstatic when everything is going really
-well.” “You move about and try to express yourself in terms of those mo-
-tions. That’s where it’s at. It’s a body language kind of communicative
+well.” “You move about and try to express yourself in terms of those motions. That’s where it’s at. It’s a body language kind of communicative
 medium, in a way…. When it’s going good, I’m really expressing myself
 well in terms of the music and in terms of the people that are out there.”
 The enjoyment of dancing is often so intense that people will give up
@@ -4274,16 +3859,14 @@ dancers interviewed by Professor Massimini’s group in Milan, Italy: “From
 the very first I wanted to become a professional ballerina. It has been hard:
 little money, lots of traveling, and my mother always complains about my
 work. But love of the dance has always sustained me. It is now part of my
-life, a part of me that I could not live without.” In this group of sixty pro-
-fessional dancers of marriageable age, only three were married, and only
+life, a part of me that I could not live without.” In this group of sixty professional dancers of marriageable age, only three were married, and only
 one had a child; pregnancy was seen as too great an interference with a
 career.
 But just as with athletics, one certainly need not become a professional
 to enjoy controlling the expressive potentials of the body. Dilettante dancers
 can have just as much fun, without sacrificing every other goal for the sake
 of feeling themselves moving harmoniously.
-And there are other forms of expression that use the body as an instru-
-ment: miming and acting, for instance. The popularity of charades as a
+And there are other forms of expression that use the body as an instrument: miming and acting, for instance. The popularity of charades as a
 parlor game is due to the fact that it allows people to shed for a time their
 customary identity, and act out different roles. Even the most silly and
 clumsy impersonation can provide an enjoyable relief from the limitations
@@ -4312,34 +3895,27 @@ frightening, neutral, pleasant, pleasurable, enjoyable, or ecstatic—depending
 on how it is linked to a person’s goals. A rape may not be distinguishable
 physically from a loving encounter, but their psychological effects are
 worlds apart.
-It is safe to say that sexual stimulation in and of itself is generally pleas-
-urable. That we are genetically programmed to derive pleasure from
+It is safe to say that sexual stimulation in and of itself is generally pleasurable. That we are genetically programmed to derive pleasure from
 sexuality is evolution’s rather clever way of guaranteeing that individuals
 will engage in activities likely to lead to procreation, thus ensuring the
 survival of the species. To take pleasure in sex one needs only to be healthy
-and willing; no special skills are required, and soon after the first experi-
-ences, few new physical challenges arise again. But like other pleasures,
+and willing; no special skills are required, and soon after the first experiences, few new physical challenges arise again. But like other pleasures,
 unless it is transformed into an enjoyable activity, sex easily becomes boring
 with time. It turns from a genuinely positive experience into either a
 meaningless ritual or an addictive dependence. Fortunately there are many
 ways to make sex enjoyable.
-Eroticism is one form of cultivating sexuality that focuses on the devel-
-opment of physical skills. In a sense, eroticism is to sex as sport is to phys-
-ical activity. The Kama Sutra and The Joy of Sex are two examples of manuals
+Eroticism is one form of cultivating sexuality that focuses on the development of physical skills. In a sense, eroticism is to sex as sport is to physical activity. The Kama Sutra and The Joy of Sex are two examples of manuals
 that aim to foster eroticism by providing suggestions and goals to help
 make sexual activity more varied, more interesting and challenging. Most
 cultures have elaborate systems of erotic training and performance, often
-overlaid with religious meanings. Early fertility rites, the Dionysian mys-
-teries of Greece, and the recurring connection between prostitution and
+overlaid with religious meanings. Early fertility rites, the Dionysian mysteries of Greece, and the recurring connection between prostitution and
 female priesthood are just a few forms of this phenomenon. It is as if in the
 early stages of religion, cultures coopted the obvious attraction of sexuality
 and used it as a basis on which to build more complex ideas and patterns
 of behavior.
-But the real cultivation of sexuality begins only when psychological di-
-mensions are added to the purely physical. According to historians, the art
+But the real cultivation of sexuality begins only when psychological dimensions are added to the purely physical. According to historians, the art
 of love was a recent development in the West. With rare exceptions, there
-was very little romance in the sexual practices of the Greeks and the Ro-
-mans. The wooing, the sharing of feelings between lovers, the
+was very little romance in the sexual practices of the Greeks and the Romans. The wooing, the sharing of feelings between lovers, the
 Mihaly Csikszentmihalyi / 101
 
 
@@ -4353,8 +3929,7 @@ lovers. For those who learn the skills necessary to meet them, it becomes
 not only pleasurable, but enjoyable as well.
 A similar refinement of sexuality took place in other civilizations, and
 roughly in the same not-too-distant past. The Japanese created extremely
-sophisticated professionals of love, expecting their geishas to be accom-
-plished musicians, dancers, actresses, as well as appreciative of poetry and
+sophisticated professionals of love, expecting their geishas to be accomplished musicians, dancers, actresses, as well as appreciative of poetry and
 art. Chinese and Indian courtesans and Turkish odalisques were equally
 skillful. Regrettably this professionalism, while developing the potential
 complexity of sex to great heights, did little to improve directly the quality
@@ -4368,8 +3943,7 @@ personally, most people are content to hear about it or watch a few experts
 perform it.
 A third dimension of sexuality begins to emerge when in addition to
 physical pleasure and the enjoyment of a romantic relationship the lover
-feels genuine care for his partner. There are then new challenges one dis-
-covers: to enjoy the partner as a unique person, to understand her, and to
+feels genuine care for his partner. There are then new challenges one discovers: to enjoy the partner as a unique person, to understand her, and to
 help her fulfill her goals. With the emergence of this third dimension
 sexuality becomes a very complex process, one that can go on providing
 flow experiences all through life.
@@ -4387,8 +3961,7 @@ company, and learn appropriate skills for
 
 
 enriching the relationship. Initially physical challenges alone are enough
-to sustain flow, but unless romance and genuine care also develop, the re-
-lationship will grow stale.
+to sustain flow, but unless romance and genuine care also develop, the relationship will grow stale.
 How to keep love fresh? The answer is the same as it is for any other
 activity. To be enjoyable, a relationship must become more complex. To
 become more complex, the partners must discover new potentialities in
@@ -4399,8 +3972,7 @@ process, a lifetime’s task. After one begins to really know another person,
 then many joint adventures become possible: traveling together, reading
 the same books, raising children, making and realizing plans all become
 more enjoyable and more meaningful. The specific details are unimportant.
-Each person must find out which ones are relevant to his or her own situ-
-ation. What is important is the general principle: that sexuality, like any
+Each person must find out which ones are relevant to his or her own situation. What is important is the general principle: that sexuality, like any
 other aspect of life, can be made enjoyable if we are willing to take control
 of it, and cultivate it in the direction of greater complexity.
 THE ULTIMATE CONTROL: YOGA AND
@@ -4419,8 +3991,7 @@ The Western mastery over material energy, on the other hand, runs the
 risk of turning everything it touches into a resource to be consumed as
 rapidly as possible, thus exhausting the environment. The perfect society
 would be able to strike a healthy balance between the spiritual and material
-worlds, but short of aiming for perfection, we can look toward Eastern re-
-ligions for guidance in how to achieve control over consciousness.
+worlds, but short of aiming for perfection, we can look toward Eastern religions for guidance in how to achieve control over consciousness.
 Of the great Eastern methods for training the body, one of the oldest and
 most diffuse is the set of practices known as Hatha Yoga. It
 Mihaly Csikszentmihalyi / 103
@@ -4432,8 +4003,7 @@ a useful model for anyone who wishes to be in better charge of psychic
 energy. Nothing quite like Hatha Yoga has ever been created in the West.
 The early monastic routines instituted by Saint Benedict and Saint
 Dominick and especially the “spiritual exercises” of Saint Ignatius of Loyola
-probably come the closest in offering a way to control attention by devel-
-oping mental and physical routines; but even these fall far short of the
+probably come the closest in offering a way to control attention by developing mental and physical routines; but even these fall far short of the
 rigorous discipline of Yoga.
 In Sanskrit Yoga means “yoking,” which refers to the method’s goal of
 joining the individual with God, first by uniting the various parts of the
@@ -4445,8 +4015,7 @@ preparation” are intended to change a person’s attitudes. We might say
 that they involve the “straightening out of consciousness”; they attempt
 to reduce psychic entropy as much as possible before the actual attempts
 at mental control begin. In practice, the first step, yama, requires that one
-achieve “restraint” from acts and thoughts that might harm others—false-
-hood, theft, lust, and avarice. The second step, niyama, involves “obedience,”
+achieve “restraint” from acts and thoughts that might harm others—falsehood, theft, lust, and avarice. The second step, niyama, involves “obedience,”
 or the following of ordered routines in cleanliness, study, and obedience
 to God, all of which help to channel attention into predictable patterns,
 and hence make attention easier to control.
@@ -4458,8 +4027,7 @@ of “sitting” or holding postures for long periods without succumbing to
 strain or fatigue. This is the stage of Yoga that we all know in the West,
 exemplified by a fellow in what looks like diapers standing on his head
 with his shanks behind his neck. The fourth stage is pranayama, or breath
-control, which aims to relax the body, and stabilizes the rhythm of breath-
-ing.
+control, which aims to relax the body, and stabilizes the rhythm of breathing.
 The fifth stage, the hinge between the preparatory exercises and the
 practice of Yoga proper, is called pratyahara (“withdrawal”). It involves
 learning to withdraw attention from outward objects by directing the input
@@ -4480,25 +4048,21 @@ the mirror image of the earlier stage of pratyahara; first one learns to keep
 things out of the mind, then one learns to keep them in. Intense meditation,
 or dhyana, is the next step. Here one learns to forget the self in uninterrupted
 concentration that no longer needs the external stimuli of the preceding
-phase. Finally the yogin may achieve samadhi, the last stage of “self-collec-
-tedness,” when the meditator and the object of meditation become as one.
+phase. Finally the yogin may achieve samadhi, the last stage of “self-collectedness,” when the meditator and the object of meditation become as one.
 Those who have achieved it describe samadhi as the most joyful experience
 in their lives.
 The similarities between Yoga and flow are extremely strong; in fact it
 makes sense to think of Yoga as a very thoroughly planned flow activity.
-Both try to achieve a joyous, self-forgetful involvement through concentra-
-tion, which in turn is made possible by a discipline of the body. Some critics,
+Both try to achieve a joyous, self-forgetful involvement through concentration, which in turn is made possible by a discipline of the body. Some critics,
 however, prefer to stress the differences between flow and Yoga. Their
 main divergence is that, whereas flow attempts to fortify the self, the goal
 of Yoga and many other Eastern techniques is to abolish it. Samadhi, the
 last stage of Yoga, is only the threshold for entering Nirvana, where the
 individual self merges with the universal force like a river blending into
-the ocean. Therefore, it can be argued, Yoga and flow tend toward diamet-
-rically opposite outcomes.
+the ocean. Therefore, it can be argued, Yoga and flow tend toward diametrically opposite outcomes.
 But this opposition may be more superficial than real. After all, seven of
 the eight stages of Yoga involve building up increasingly higher levels of
-skill in controlling consciousness. Samadhi and the liberation that is sup-
-posed to follow it may not, in the end, be that significant—they may in one
+skill in controlling consciousness. Samadhi and the liberation that is supposed to follow it may not, in the end, be that significant—they may in one
 sense be regarded as the justification of the activity that takes place in the
 previous seven stages, just as the peak of the mountain is important only
 because it justifies climbing, which is the real goal of the enterprise. Another
@@ -4518,8 +4082,7 @@ every other flow activity, from fly-fishing to racing a Formula One car. As
 the product of cultural forces that occurred only once in history, the way
 of Yoga bears the stamp of the time and place in which it was created.
 Whether Yoga is a “better” way to foster optimal experience than others
-cannot be decided on its own merits alone—one must consider the oppor-
-tunity costs involved in the practice, and compare them with alternative
+cannot be decided on its own merits alone—one must consider the opportunity costs involved in the practice, and compare them with alternative
 options. Is the control that Yoga makes possible worth the investment of
 psychic energy that learning its discipline requires?
 Another set of Eastern disciplines that have become popular recently in
@@ -4535,8 +4098,7 @@ the Eastern variety is directed toward improving the mental and spiritual
 state of the practitioner. The warrior strives to reach the point where he
 can act with lightning speed against opponents, without having to think
 or reason about the best defensive or offensive moves to make. Those who
-can perform it well claim that fighting becomes a joyous artistic perform-
-ance, during which the everyday experience of duality between mind and
+can perform it well claim that fighting becomes a joyous artistic performance, during which the everyday experience of duality between mind and
 body is transformed into a harmonious one-pointedness of mind. Here
 again, it seems appropriate to think of the martial arts as a specific form of
 flow.
@@ -4544,15 +4106,13 @@ FLOW THROUGH THE SENSES: THE JOYS
 OF SEEING
 It is easy to accept the fact that sports, sex, and even Yoga can be enjoyable.
 But few people step beyond these physical activities to explore the almost
-unlimited capacities of the other organs of the body, even though any in-
-formation that the nervous system can recognize lends itself to rich and
+unlimited capacities of the other organs of the body, even though any information that the nervous system can recognize lends itself to rich and
 varied flow experiences.
 Seeing, for instance, is most often used simply as a distant sensing
 106 / Flow
 
 
-system, to keep from stepping on the cat, or to find the car keys. Occasion-
-ally people stop to “feast their eyes” when a particularly gorgeous sight
+system, to keep from stepping on the cat, or to find the car keys. Occasionally people stop to “feast their eyes” when a particularly gorgeous sight
 happens to appear in front of them, but they do not cultivate systematically
 the potential of their vision. Visual skills, however, can provide constant
 access to enjoyable experiences. Menander, the classical poet, well expressed
@@ -4563,17 +4123,14 @@ The visual arts are one of the best training grounds for developing these
 skills. Here are some descriptions by people versed in the arts about the
 sensation of really being able to see. The first recalls an almost Zen-like
 encounter with a favorite painting, and emphasizes the sudden epiphany
-of order that seems to arise from seeing a work that embodies visual har-
-mony: “There is that wonderful Cézanne ‘Bathers’ in the Philadelphia
+of order that seems to arise from seeing a work that embodies visual harmony: “There is that wonderful Cézanne ‘Bathers’ in the Philadelphia
 Museum…which…gives you in one glance that great sense of a scheme,
 not necessarily rational, but that things come together…. [That] is the way
 in which the work of art allows you to have a sudden appreciation of, an
 understanding of the world. That may mean your place in it, that may
 mean what bathers on the side of a river on a summer day are all
-about…that may mean the ability to suddenly let go of ourselves and un-
-derstand our connection to the world….”
-Another viewer describes the unsettling physical dimension of the aes-
-thetic flow experience, which resembles the shock a body feels when diving
+about…that may mean the ability to suddenly let go of ourselves and understand our connection to the world….”
+Another viewer describes the unsettling physical dimension of the aesthetic flow experience, which resembles the shock a body feels when diving
 into a pool of cold water:
 When I see works that come close to my heart, that I think are really
 fine, I have the strangest reaction: which is not always exhilarating,
@@ -4607,18 +4164,14 @@ You’re almost as good as Kodak.”
 Clearly, it takes training to be able to derive this degree of sensory delight
 from seeing. One must invest quite a bit of psychic energy in looking at
 beautiful sights and at good art before one can recognize the Sheeler-like
-quality of a roofscape. But this is true of all flow activities: without cultiv-
-ating the necessary skills, one cannot expect to take true enjoyment in a
-pursuit. Compared to several other activities, however, seeing is immedi-
-ately accessible (although some artists contend that many people have “tin
+quality of a roofscape. But this is true of all flow activities: without cultivating the necessary skills, one cannot expect to take true enjoyment in a
+pursuit. Compared to several other activities, however, seeing is immediately accessible (although some artists contend that many people have “tin
 eyes”), so it is a particular pity to let it rest undeveloped.
 It might seem like a contradiction that, in the previous section, we have
 shown how Yoga can induce flow by training the eyes not to see, whereas
 we are now advocating the use of the eyes to make flow happen. This is a
-contradiction only for those who believe that what is significant is the be-
-havior, rather than the experience to which it leads. It does not matter
-whether we see or we not-see, as long as we are in control of what is hap-
-pening to us. The same person can meditate in the morning and shut out
+contradiction only for those who believe that what is significant is the behavior, rather than the experience to which it leads. It does not matter
+whether we see or we not-see, as long as we are in control of what is happening to us. The same person can meditate in the morning and shut out
 all sensory experience, and then look at a great work of art in the afternoon;
 either way he may be transformed by the same sense of exhilaration.
 THE FLOW OF MUSIC
@@ -4678,22 +4231,18 @@ let alone a symphonic orchestra, was a visible reminder of the mysterious
 skill involved in producing harmonious sounds. One approached the event
 with heightened expectations, with the awareness that one had to pay close
 attention because the performance was unique and not to be repeated again.
-The audiences at today’s live performances, such as rock concerts, con-
-tinue to partake in some degree in these ritual elements; there are few
+The audiences at today’s live performances, such as rock concerts, continue to partake in some degree in these ritual elements; there are few
 other occasions at which large numbers of people witness the same event
 together, think and feel the same things, and process the same information.
 Such joint participation produces in an audience the condition Emile
 Durkheim called “collective effervescence,” or the sense that one belongs
 to a group with a concrete, real existence. This feeling, Durkheim believed,
-was at the roots of religious experience. The very conditions of live perform-
-ance help focus attention on the music, and therefore make it more likely
+was at the roots of religious experience. The very conditions of live performance help focus attention on the music, and therefore make it more likely
 that flow will result at a concert than when one is listening to reproduced
 sound.
 But to argue that live music is innately more enjoyable than recorded
 music would be just as invalid as arguing the opposite. Any sound can be
-be a source of enjoyment if attended to properly. In fact, as the Yaqui sor-
-cerer taught the anthropologist Carlos Castaneda, even the intervals of si-
-lence between sounds, if listened to closely, can be exhilarating.
+be a source of enjoyment if attended to properly. In fact, as the Yaqui sorcerer taught the anthropologist Carlos Castaneda, even the intervals of silence between sounds, if listened to closely, can be exhilarating.
 Many people have impressive record libraries, full of the most exquisite
 music ever produced, yet they fail to enjoy it. They listen a few times to
 their recording equipment, marveling at the clarity of the sound it produces,
@@ -4716,12 +4265,10 @@ and which some contend is supposed to
 
 
 remind the listener of the mother’s throbbing heart first heard in the womb.
-The next level of challenge music presents is the analogic mode of listen-
-ing. In this stage, one develops the skill to evoke feelings and images based
+The next level of challenge music presents is the analogic mode of listening. In this stage, one develops the skill to evoke feelings and images based
 on the patterns of sound. The mournful saxophone passage recalls the sense
 of awe one has when watching storm clouds build up over the prairie; the
-Tchaikovsky piece makes one visualize a sleigh driving through a snow-
-bound forest, with its bells tinkling. Popular songs of course exploit the
+Tchaikovsky piece makes one visualize a sleigh driving through a snowbound forest, with its bells tinkling. Popular songs of course exploit the
 analogic mode to its fullest by cuing in the listener with lyrics that spell
 out what mood or what story the music is supposed to represent.
 The most complex stage of music listening is the analytic one. In this
@@ -4735,8 +4282,7 @@ at the same time; and to compare the orchestra, conductor, or band with
 their own earlier and later performances, or with the interpretations of
 others. Analytic listeners often compare various versions of the same blues
 song, or sit down to listen with an agenda that might typically be: “Let’s
-see how von Karajan’s 1975 recording of the second movement of the Sev-
-enth Symphony differs from his 1963 recording,” or “I wonder if the brass
+see how von Karajan’s 1975 recording of the second movement of the Seventh Symphony differs from his 1963 recording,” or “I wonder if the brass
 section of the Chicago Symphony is really better than the Berlin brasses?”
 Having set such goals, a listener becomes an active experience that provides
 constant feedback (e.g., “von Karajan has slowed down,” “the Berlin brasses
@@ -4747,21 +4293,18 @@ greater rewards are open to those who learn to make music. The civilizing
 power of Apollo depended on his ability to play the lyre, Pan drove his
 audiences to frenzy with his pipes, and Orpheus with his music was able
 to restrain even death. These legends point to the connection between the
-ability to create harmony in sound and the more general and abstract har-
-mony that underlies the kind of social order we call a civilization. Mindful
+ability to create harmony in sound and the more general and abstract harmony that underlies the kind of social order we call a civilization. Mindful
 of that connection, Plato believed that children should be taught music
 before anything else; in learning to pay attention to graceful rhythms and
 harmonies their whole consciousness would become ordered.
 Mihaly Csikszentmihalyi / 111
 
 
-Our culture seems to have been placing a decreasing emphasis on expos-
-ing young children to musical skills. Whenever cuts are to be made in a
+Our culture seems to have been placing a decreasing emphasis on exposing young children to musical skills. Whenever cuts are to be made in a
 school’s budget, courses in music (as well as art and physical education)
 are the first to be eliminated. It is discouraging how these three basic skills,
 so important for improving the quality of life, are generally considered to
-be superfluous in the current educational climate. Deprived of serious ex-
-posure to music, children grow into teenagers who make up for their early
+be superfluous in the current educational climate. Deprived of serious exposure to music, children grow into teenagers who make up for their early
 deprivation by investing inordinate amounts of psychic energy into their
 own music. They form rock groups, buy tapes and records, and generally
 become captives of a subculture that does not offer many opportunities for
@@ -4776,8 +4319,7 @@ they succeed in perverting music into the opposite of what it was designed
 to be: they turn it into a source of psychic disorder. Parental expectations
 for musical behavior often create great stress, and sometimes a complete
 breakdown.
-Lorin Hollander, who was a child prodigy at the piano and whose per-
-fectionist father played first violin in Toscanini’s orchestra, tells how he
+Lorin Hollander, who was a child prodigy at the piano and whose perfectionist father played first violin in Toscanini’s orchestra, tells how he
 used to get lost in ecstasy when playing the piano alone, but how he used
 to quake in sheer terror when his demanding adult mentors were present.
 When he was a teenager the fingers of his hands froze during a concert
@@ -4794,8 +4336,7 @@ after age fifty. Singing in a choir and playing in an amateur string ensemble
 are two of the most exhilarating ways to experience the blending of one’s
 skills with those of others. Personal computers now come with sophisticated
 software that makes composition easy, and allows one to listen immediately
-to the orchestration. Learning to produce harmo-
-112 / Flow
+to the orchestration. Learning to produce harmo112 / Flow
 
 
 nious sounds is not only enjoyable, but like the mastery of any complex
@@ -4806,14 +4347,11 @@ had a good grasp of the relationship between music and food: “What love
 is to the heart, appetite is to the stomach. The stomach is the conductor that
 leads and livens up the great orchestra of our emotions.” If music modulates
 our feelings, so does food; and all the fine cuisines of the world are based
-on that knowledge. The musical metaphor is echoed by Heinz Maier-
-Leibnitz, the German physicist who has recently written several cookbooks:
+on that knowledge. The musical metaphor is echoed by Heinz MaierLeibnitz, the German physicist who has recently written several cookbooks:
 “The joy of cooking at home,” he says, “compared to eating in one of the
-best restaurants, is like playing a string quartet in the living room as com-
-pared to a great concert.”
+best restaurants, is like playing a string quartet in the living room as compared to a great concert.”
 For the first few hundred years of American history, food preparation
-was generally approached in a no-nonsense manner. Even as late as twenty-
-five years ago, the general attitude was that “feeding your face” was all
+was generally approached in a no-nonsense manner. Even as late as twentyfive years ago, the general attitude was that “feeding your face” was all
 right, but to make too much fuss about it was somehow decadent. In the
 past two decades, of course, the trend has reversed itself so sharply that
 earlier misgivings about gastronomic excesses seem almost to have been
@@ -4831,10 +4369,8 @@ turnabout concerning food.
 Eating, like sex, is one of the basic pleasures built into our nervous system.
 The ESM studies done with electronic pagers have shown that even in our
 highly technological urban society, people still feel most happy and relaxed
-at mealtimes—although while at table they lack some of the other dimen-
-sions of the flow experience, such as high concentration, a sense of strength,
-and a feeling of self-esteem. But in every culture, the simple process of in-
-gesting calories has been transformed with time into an art form that
+at mealtimes—although while at table they lack some of the other dimensions of the flow experience, such as high concentration, a sense of strength,
+and a feeling of self-esteem. But in every culture, the simple process of ingesting calories has been transformed with time into an art form that
 provides enjoyment as well as pleasure.
 Mihaly Csikszentmihalyi / 113
 
@@ -4843,8 +4379,7 @@ The preparation of food has developed in history according to the same
 principles as all other flow activities. First, people took advantage of the
 opportunities for action (in this case, the various edible substances in their
 environment), and as a result of attending carefully they were able to make
-finer and finer distinctions between the properties of foodstuffs. They dis-
-covered that salt preserves meats, that eggs are good for coating and
+finer and finer distinctions between the properties of foodstuffs. They discovered that salt preserves meats, that eggs are good for coating and
 binding, and that garlic, although harsh-tasting by itself, has medicinal
 properties and if used judiciously imparts subtle flavors to a variety of
 dishes. Once aware of these properties, people could experiment with them
@@ -4858,8 +4393,7 @@ princes. Referring to Cyrus the Great, who ruled Persia about twenty-five
 centuries ago, Xenophon writes with perhaps a touch of exaggeration:
 “…men travel over the whole earth in the service of the King of Persia,
 looking to find out what may be pleasant for him to drink; and ten thousand
-men are always contriving something nice for him to eat.” But experiment-
-ation with food was by no means confined to the ruling classes. Peasant
+men are always contriving something nice for him to eat.” But experimentation with food was by no means confined to the ruling classes. Peasant
 women in Eastern Europe, for instance, were not judged to be ready for
 marriage unless they had learned to cook a different soup for each day of
 the year.
@@ -4870,8 +4404,7 @@ of feeding into a flow experience, one must begin by paying attention to
 what one eats. It is astonishing—as well as discouraging—when guests
 swallow lovingly prepared food without any sign of having noticed its
 virtues. What a waste of rare experience is reflected in that insensitivity!
-Developing a discriminating palate, like any other skill, requires the invest-
-ment of psychic energy. But the energy invested is returned many times
+Developing a discriminating palate, like any other skill, requires the investment of psychic energy. But the energy invested is returned many times
 over in a more complex experience. The individuals who really enjoy eating
 develop with time an interest in a particular cuisine, and get to know its
 history and its peculiarities. They learn to cook in that idiom, not just single
@@ -4889,23 +4422,17 @@ aesthetic visual experiences—the cultivation of taste only leads to enjoyment
 if one takes control of the activity. As long as one strives to become a
 gourmet or a connoisseur of wines because it is the “in” thing to do, striving
 to master an externally imposed challenge, then taste may easily turn sour.
-But a cultivated palate provides many opportunities for flow if one ap-
-proaches eating—and cooking—in a spirit of adventure and curiosity, ex-
-ploring the potentials of food for the sake of the experience rather than as
+But a cultivated palate provides many opportunities for flow if one approaches eating—and cooking—in a spirit of adventure and curiosity, exploring the potentials of food for the sake of the experience rather than as
 a showcase for one’s expertise.
 The other danger in becoming involved with culinary delights—and
-here again the parallels with sex are obvious—is that they can become ad-
-dictive. It is not by chance that gluttony and lechery were included among
-the seven deadly sins. The fathers of the Church well understood that in-
-fatuation with the pleasures of the flesh could easily drain psychic energy
+here again the parallels with sex are obvious—is that they can become addictive. It is not by chance that gluttony and lechery were included among
+the seven deadly sins. The fathers of the Church well understood that infatuation with the pleasures of the flesh could easily drain psychic energy
 away from other goals. The Puritans’ mistrust of enjoyment is grounded
-in the reasonable fear that given a taste of what they are genetically pro-
-grammed to desire, people will want more of it, and will take time away
+in the reasonable fear that given a taste of what they are genetically programmed to desire, people will want more of it, and will take time away
 from the necessary routines of everyday life in order to satisfy their craving.
 But repression is not the way to virtue. When people restrain themselves
 out of fear, their lives are by necessity diminished. They become rigid and
-defensive, and their self stops growing. Only through freely chosen discip-
-line can life be enjoyed, and still kept within the bounds of reason. If a
+defensive, and their self stops growing. Only through freely chosen discipline can life be enjoyed, and still kept within the bounds of reason. If a
 person learns to control his instinctual desires, not because he has to, but
 because he wants to, he can enjoy himself without becoming addicted. A
 fanatical devotee of food is just as boring to himself and to others as the
@@ -4926,8 +4453,7 @@ Mihaly Csikszentmihalyi / 115
 be. Our physical apparatus has evolved so that whenever we use its sensing
 devices they produce a positive sensation, and the whole organism resonates
 in harmony.
-To realize the body’s potential for flow is relatively easy. It does not re-
-quire special talents or great expenditures of money. Everyone can greatly
+To realize the body’s potential for flow is relatively easy. It does not require special talents or great expenditures of money. Everyone can greatly
 improve the quality of life by exploring one or more previously ignored
 dimensions of physical abilities. Of course, it is difficult for any one person
 to reach high levels of complexity in more than one physical domain. The
@@ -4939,17 +4465,13 @@ word—in all these areas, in other words, to develop sufficient skills so as
 to find delight in what the body can do.
 116 / Flow
 
-
-6
 THE FLOW
 OF THOUGHT
 THE GOOD THINGS IN LIFE do not come only through the senses. Some of
 the most exhilarating experiences we undergo are generated inside the
 mind, triggered by information that challenges our ability to think, rather
 than from the use of sensory skills. As Sir Francis Bacon noted almost four
-hundred years ago, wonder—which is the seed of knowledge—is the re-
-flection of the purest form of pleasure. Just as there are flow activities cor-
-responding to every physical potential of the body, every mental operation
+hundred years ago, wonder—which is the seed of knowledge—is the reflection of the purest form of pleasure. Just as there are flow activities corresponding to every physical potential of the body, every mental operation
 is able to provide its own particular form of enjoyment.
 Among the many intellectual pursuits available, reading is currently
 perhaps the most often mentioned flow activity around the world. Solving
@@ -4964,12 +4486,8 @@ historical, and cultural aspects of the work they are viewing, occasionally
 more than they enjoy its purely visual aspects. As one professional involved
 in the arts expressed it: “[Works of] art that I personally respond to…have
 behind them a
-117
 
-
-lot of conceptual, political, and intellectual activity…. The visual represent-
-ations are really signposts to this beautiful machine that has been construc-
-ted, unique on the earth, and is not just a rehashing of visual elements, but
+lot of conceptual, political, and intellectual activity…. The visual representations are really signposts to this beautiful machine that has been constructed, unique on the earth, and is not just a rehashing of visual elements, but
 is really a new thought machine that an artist, through visual means and
 combining his eyes with his perceptions, has created.”
 What this person sees in a painting is not just a picture, but a “thought
@@ -4983,8 +4501,7 @@ activities must involve a mental component if they are to be enjoyable.
 Athletes know well that to improve performance beyond a certain point
 they must learn to discipline their minds. And the intrinsic rewards they
 get include a lot more than just physical well-being: they experience a sense
-of personal accomplishment, and increased feelings of self-esteem. Con-
-versely, most mental activities also rely on the physical dimension. Chess,
+of personal accomplishment, and increased feelings of self-esteem. Conversely, most mental activities also rely on the physical dimension. Chess,
 for instance, is one of the most cerebral games there is; yet advanced chess
 players train by running and swimming because they are aware that if they
 are physically unfit they will not be able to sustain the long periods of
@@ -4994,8 +4511,7 @@ and the former blends seamlessly into the latter.
 Thus, although flow always involves the use of muscle and nerve, on
 the one hand, and will, thought, and feelings on the other, it does make
 sense to differentiate a class of activities that are enjoyable because they
-order the mind directly, rather than through the mediation of bodily feel-
-ings. These activities are primarily symbolic in nature, in that they depend
+order the mind directly, rather than through the mediation of bodily feelings. These activities are primarily symbolic in nature, in that they depend
 on natural languages, mathematics, or some other abstract notation system
 like a computer language to achieve their ordering effects in the mind. A
 symbolic system is like a game in that it provides a separate reality, a world
@@ -5015,8 +4531,7 @@ In reality, to achieve such an ordered mental condition is not as easy as
 it sounds. Contrary to what we tend to assume, the normal state of the
 mind is chaos. Without training, and without an object in the external world
 that demands attention, people are unable to focus their thoughts for more
-than a few minutes at a time. It is relatively easy to concentrate when atten-
-tion is structured by outside stimuli, such as when a movie is playing on
+than a few minutes at a time. It is relatively easy to concentrate when attention is structured by outside stimuli, such as when a movie is playing on
 the screen, or when while driving heavy traffic is encountered on the road.
 If one is reading an exciting book, the same thing occurs, but most readers
 still begin to lose concentration after a few pages, and their minds wander
@@ -5038,8 +4553,7 @@ focus on some real or imaginary pain, on recent grudges or long-term
 frustrations. Entropy is the normal state of consciousness—a condition that
 is neither useful nor enjoyable.
 To avoid this condition, people are naturally eager to fill their minds
-with whatever information is readily available, as long as it distracts atten-
-tion from turning inward and dwelling on negative feelings. This explains
+with whatever information is readily available, as long as it distracts attention from turning inward and dwelling on negative feelings. This explains
 why such a huge proportion of time is invested in watching television,
 despite the fact that it is very rarely enjoyed. Compared to other sources
 of stimulation—like reading, talking to other people, or working on a
@@ -5092,13 +4606,11 @@ of the history of the species. Before written
 120 / Flow
 
 
-notation systems were developed, all learned information had to be trans-
-mitted from the memory of one person to that of another. And it is true
+notation systems were developed, all learned information had to be transmitted from the memory of one person to that of another. And it is true
 also in terms of the history of each individual human being. A person who
 cannot remember is cut off from the knowledge of prior experiences, unable
 to build patterns of consciousness that bring order to the mind. As Buñuel
-has said, “Life without memory is no life at all…. our memory is our coher-
-ence, our reason, our feeling, even our action. Without it, we are nothing.”
+has said, “Life without memory is no life at all…. our memory is our coherence, our reason, our feeling, even our action. Without it, we are nothing.”
 All forms of mental flow depend on memory, either directly or indirectly.
 History suggests that the oldest way of organizing information involved
 recalling one’s ancestors, the line of descent that gave each person his or
@@ -5116,15 +4628,12 @@ order to consciousness. We all know the little spark of satisfaction that
 comes when we remember where we put the car keys, or any other object
 that has been temporarily misplaced. To remember a long list of elders,
 going back a dozen generations, is particularly enjoyable in that it satisfies
-the need to find a place in the ongoing stream of life. To recall one’s ancest-
-ors places the recaller as a link in a chain that starts in the mythical past
-and extends into the unfathomable future. Even though in our culture lin-
-eage histories have lost all practical significance, people still enjoy thinking
+the need to find a place in the ongoing stream of life. To recall one’s ancestors places the recaller as a link in a chain that starts in the mythical past
+and extends into the unfathomable future. Even though in our culture lineage histories have lost all practical significance, people still enjoy thinking
 and talking about their roots.
 It was not only their origins that our ancestors had to commit to memory,
 but all other facts bearing on their ability to control the environment. Lists
-of edible herbs and fruits, health tips, rules of behavior, patterns of inherit-
-ance, laws, geographical knowledge, rudiments of technology, and pearls
+of edible herbs and fruits, health tips, rules of behavior, patterns of inheritance, laws, geographical knowledge, rudiments of technology, and pearls
 of wisdom were all bundled into easily remembered sayings or verse. Before
 printing became readily available in the last few hundred years, much of
 human knowledge was condensed in forms similar to the “Alphabet Song”
@@ -5134,11 +4643,9 @@ According to Johann Huizinga, the great Dutch cultural historian,
 Mihaly Csikszentmihalyi / 121
 
 
-among the most important precursors of systematic knowledge were rid-
-dling games. In the most ancient cultures, the elders of the tribe would
+among the most important precursors of systematic knowledge were riddling games. In the most ancient cultures, the elders of the tribe would
 challenge each other to contests in which one person sang a text filled with
-hidden references, and the other person had to interpret the meaning en-
-coded in the song. A competition between expert riddlers was often the
+hidden references, and the other person had to interpret the meaning encoded in the song. A competition between expert riddlers was often the
 most stimulating intellectual event the local community could witness. The
 forms of the riddle anticipated the rules of logic, and its content was used
 to transmit factual knowledge our ancestors needed to preserve. Some of
@@ -5173,8 +4680,7 @@ by the alder tree), S (willow), and L (rowan). In this fashion, the
 122 / Flow
 
 
-few druids who knew how to use letters could sing a song ostensibly refer-
-ring to a battle among the trees of the forest, which actually spelled out a
+few druids who knew how to use letters could sing a song ostensibly referring to a battle among the trees of the forest, which actually spelled out a
 message only initiates could interpret. Of course, the solution of riddles
 does not depend exclusively on memory; specialized knowledge and a
 great deal of imagination and problem-solving ability are also required.
@@ -5190,28 +4696,23 @@ years of his youth. The words evoked experiences he had had when he
 first learned them; remembering poetry was for him a form of time travel.
 For people in his generation, knowledge was still synonymous with
 memorization. Only in the past century, as written records have become
-less expensive and more easily available, has the importance of remember-
-ing dramatically declined. Nowadays a good memory is considered useless
+less expensive and more easily available, has the importance of remembering dramatically declined. Nowadays a good memory is considered useless
 except for performing on some game shows or for playing Trivial Pursuit.
 But for a person who has nothing to remember, life can become severely
 impoverished. This possibility was completely overlooked by educational
 reformers early in this century, who, armed with research results, proved
-that “rote learning” was not an efficient way to store and acquire informa-
-tion. As a result of their efforts, rote learning was phased out of the schools.
+that “rote learning” was not an efficient way to store and acquire information. As a result of their efforts, rote learning was phased out of the schools.
 The reformers would have had justification, if the point of remembering
 was simply to solve practical problems. But if control of consciousness is
 judged to be at least as important as the ability to get things done, then
 learning complex patterns of information by heart is by no means a waste
 of effort. A mind with some stable content to it is much richer than one
-without. It is a mistake to assume that creativity and rote learning are in-
-compatible. Some of the most original scientists, for instance, have been
-known to have memorized music, poetry, or historical information extens-
-ively.
+without. It is a mistake to assume that creativity and rote learning are incompatible. Some of the most original scientists, for instance, have been
+known to have memorized music, poetry, or historical information extensively.
 A person who can remember stories, poems, lyrics of songs, baseball
 statistics, chemical formulas, mathematical operations, historical dates,
 biblical passages, and wise quotations has many advantages over one who
-has not cultivated such a skill. The consciousness of such a person is inde-
-pendent of the order that may or may not be provided by the environment.
+has not cultivated such a skill. The consciousness of such a person is independent of the order that may or may not be provided by the environment.
 She can always amuse herself, and find meaning in the
 Mihaly Csikszentmihalyi / 123
 
@@ -5231,8 +4732,7 @@ will come the knowledge of what is worth remembering and what is not.
 The important thing to recognize here is that you should not feel that you
 have to absorb a string of facts, that there is a right list you must memorize.
 If you decide what you would like to have in memory, the information will
-be under your control, and the whole process of learning by heart will be-
-come a pleasant task, instead of a chore imposed from outside. A Civil War
+be under your control, and the whole process of learning by heart will become a pleasant task, instead of a chore imposed from outside. A Civil War
 buff need not feel compelled to know the sequence of dates of all major
 engagements; if, for instance, he is interested in the role of the artillery,
 then only those battles where cannons played an important part need
@@ -5253,8 +4753,7 @@ THE RULES OF THE GAMES OF THE MIND
 Memory is not the only tool needed to give shape to what takes place in
 the mind. It is useless to remember facts unless they fit into patterns, unless
 one finds likenesses and regularities among them. The simplest ordering
-system is to give names to things; the words we invent trans-
-124 / Flow
+system is to give names to things; the words we invent trans124 / Flow
 
 
 form discrete events into universal categories. The power of the word is
@@ -5271,27 +4770,22 @@ to. Without systems for ordering information, even the clearest memory
 will find consciousness in a state of chaos.
 After names came numbers and concepts, and then the primary rules
 for combining them in predictable ways. By the sixth century B.C. Pythagoras
-and his students had embarked on the immense ordering task that attemp-
-ted to find common numerical laws binding together astronomy, geometry,
-music, and arithmetic. Not surprisingly, their work was difficult to distin-
-guish from religion, since it tried to accomplish similar goals: to find a way
+and his students had embarked on the immense ordering task that attempted to find common numerical laws binding together astronomy, geometry,
+music, and arithmetic. Not surprisingly, their work was difficult to distinguish from religion, since it tried to accomplish similar goals: to find a way
 of expressing the structure of the universe. Two thousand years later, Kepler
 and then Newton were still on the same quest.
 Theoretical thinking has never completely lost the imagistic, puzzlelike
-qualities of the earliest riddles. For example Archytas, the fourth-cen-
-tury-B.C. philosopher and commander-in-chief of the city-state of Tarentum
+qualities of the earliest riddles. For example Archytas, the fourth-century-B.C. philosopher and commander-in-chief of the city-state of Tarentum
 (now in southern Italy), proved that the universe had no limits by asking
 himself: “Supposing that I came to the outer limits of the universe. If I now
 thrust out a stick, what would I find?” Archytas thought that the stick must
 have projected out into space. But in that case there was space beyond the
 limits of the universe, which meant that the universe had no bounds. If
-Archytas’s reasoning appears primitive, it is useful to recall that the intel-
-lectual experiments Einstein used to clarify to himself how relativity
+Archytas’s reasoning appears primitive, it is useful to recall that the intellectual experiments Einstein used to clarify to himself how relativity
 worked, concerning clocks seen from trains moving at different speeds,
 were not that different.
 Besides stories and riddles all civilizations gradually developed more
-systematic rules for combining information, in the form of geometric rep-
-resentations and formal proofs. With the help of such formulas it became
+systematic rules for combining information, in the form of geometric representations and formal proofs. With the help of such formulas it became
 possible to describe the movement of the stars, predict precisely seasonal
 cycles, and accurately map the earth. Abstract knowledge, and finally what
 we know as experimental science, grew out of these rules.
@@ -5300,8 +4794,7 @@ Mihaly Csikszentmihalyi / 125
 
 It is important to stress here a fact that is all too often lost sight of:
 philosophy and science were invented and flourished because thinking is
-pleasurable. If thinkers did not enjoy the sense of order that the use of syl-
-logisms and numbers creates in consciousness, it is very unlikely that now
+pleasurable. If thinkers did not enjoy the sense of order that the use of syllogisms and numbers creates in consciousness, it is very unlikely that now
 we would have the disciplines of mathematics and physics.
 This claim, however, flies in the face of most current theories of cultural
 development. Historians imbued with variants of the precepts of material
@@ -5317,8 +4810,7 @@ territorial ambitions, market conditions, technological necessity, or the
 struggle for class supremacy.
 External forces are very important in determining which new ideas will
 be selected from among the many available; but they cannot explain their
-production. It is perfectly true, for instance, that the development and ap-
-plication of the knowledge of atomic energy were expedited enormously
+production. It is perfectly true, for instance, that the development and application of the knowledge of atomic energy were expedited enormously
 by the life-and-death struggle over the bomb between Germany on the one
 hand, and England and the United States on the other. But the science that
 formed the basis of nuclear fission owed very little to the war; it was made
@@ -5351,17 +4843,14 @@ Cheerfulness, and often Confidence, that is a mind devoid of fear, the
 highest good.” In other words, he enjoyed life because he had learned to
 control his consciousness.
 Democritus was neither the first nor the last thinker to be lost in the flow
-of the mind. Philosophers have frequently been regarded as being “absent-
-minded,” which of course means not that their minds were lost, but that
+of the mind. Philosophers have frequently been regarded as being “absentminded,” which of course means not that their minds were lost, but that
 they had temporarily tuned out of everyday reality to dwell among the
-symbolic forms of their favorite domain of knowledge. When Kant sup-
-posedly placed his watch in a pot of boiling water while holding an egg in
+symbolic forms of their favorite domain of knowledge. When Kant supposedly placed his watch in a pot of boiling water while holding an egg in
 his hand to time its cooking, all his psychic energy was probably invested
 in bringing abstract thoughts into harmony, leaving no attention free to
 meet the incidental demands of the concrete world.
 The point is that playing with ideas is extremely exhilarating. Not only
-philosophy but the emergence of new scientific ideas is fueled by the enjoy-
-ment one obtains from creating a new way to describe reality. The tools
+philosophy but the emergence of new scientific ideas is fueled by the enjoyment one obtains from creating a new way to describe reality. The tools
 that make the flow of thought possible are common property, and consist
 of the knowledge recorded in books available in schools and libraries. A
 person who becomes familiar with the conventions of poetry, or the rules
@@ -5373,9 +4862,7 @@ within the mind.
 Sometimes having control over such an internalized symbol system can
 save one’s life. It has been claimed, for instance, that the reason there are
 more poets per capita in Iceland than in any other country of the world is
-that reciting the sagas became a way for the Icelanders to keep their con-
-sciousness ordered in an environment exceedingly hostile to human exist-
-ence. For centuries the Icelanders have not only preserved in memory but
+that reciting the sagas became a way for the Icelanders to keep their consciousness ordered in an environment exceedingly hostile to human existence. For centuries the Icelanders have not only preserved in memory but
 also added new verses to the epics chronicling the deeds of their ancestors.
 Isolated in the freezing night, they used to chant their poems huddled
 around fires in precarious huts, while outside the winds of the interminable
@@ -5392,8 +4879,7 @@ form and meaning. To what extent did the sagas help the Icelanders endure?
 Would they have survived without them? There is no way to answer these
 questions with certainty. But who would dare to try the experiment?
 Similar conditions hold true when individuals are suddenly wrenched
-from civilization, and find themselves in those extreme situations we de-
-scribed earlier, such as concentration camps or polar expeditions.
+from civilization, and find themselves in those extreme situations we described earlier, such as concentration camps or polar expeditions.
 Whenever the outside world offers no mercy, an internal symbolic system
 can become a salvation. Anyone in possession of portable rules for the
 mind has a great advantage. In conditions of extreme deprivation poets,
@@ -5401,10 +4887,8 @@ mathematicians, musicians, historians, and biblical experts have stood out
 as islands of sanity surrounded by the waves of chaos. To a certain extent,
 farmers who know the life of the fields or lumbermen who understand the
 forest have a similar support system, but because their knowledge is less
-abstractly coded, they have more need to interact with the actual environ-
-ment to be in control.
-Let us hope none of us will be forced to call upon symbolic skills to sur-
-vive concentration camps or arctic ordeals. But having a portable set of
+abstractly coded, they have more need to interact with the actual environment to be in control.
+Let us hope none of us will be forced to call upon symbolic skills to survive concentration camps or arctic ordeals. But having a portable set of
 rules that the mind can work with is of great benefit even in normal life.
 People without an internalized symbolic system can all too easily become
 captives of the media. They are easily manipulated by demagogues, pacified
@@ -5425,8 +4909,7 @@ that the most ancient and perhaps basic set of rules governs the usage
 
 
 of words. And today words still offer many opportunities to enter flow, at
-various levels of complexity. A somewhat trivial but nevertheless illumin-
-ating example concerns working crossword puzzles. There is much to be
+various levels of complexity. A somewhat trivial but nevertheless illuminating example concerns working crossword puzzles. There is much to be
 said in favor of this popular pastime, which in its best form resembles the
 ancient riddle contests. It is inexpensive and portable, its challenges can
 be finely graduated so that both novices and experts can enjoy it, and its
@@ -5448,8 +4931,7 @@ it at the beginning.
 A more substantive potential use of words to enhance our lives is the
 lost art of conversation. Utilitarian ideologies in the past two centuries or
 so have convinced us that the main purpose of talking is to convey useful
-information. Thus we now value terse communication that conveys prac-
-tical knowledge, and consider anything else a frivolous waste of time. As
+information. Thus we now value terse communication that conveys practical knowledge, and consider anything else a frivolous waste of time. As
 a result, people have become almost unable to talk to each other outside
 of narrow topics of immediate interest and specialization. Few of us can
 understand any longer the enthusiasm of Caliph Ali Ben Ali, who wrote:
@@ -5461,9 +4943,7 @@ sociologists, have written that our sense of the universe in which we live
 is held together by conversation. When I say to an acquaintance whom I
 meet in the morning, “Nice day,” I do not convey primarily meteorological
 information—which would be redundant anyway, since he has the same
-data as I do—but achieve a great variety of other unvoiced goals. For in-
-stance, by addressing him I recognize his existence, and express my will-
-ingness to be friendly. Second, I reaffirm one
+data as I do—but achieve a great variety of other unvoiced goals. For instance, by addressing him I recognize his existence, and express my willingness to be friendly. Second, I reaffirm one
 Mihaly Csikszentmihalyi / 129
 
 
@@ -5488,8 +4968,7 @@ One way to teach children the potential of words is by starting to expose
 them to wordplay quite early. Puns and double meanings may be the
 lowest form of humor for sophisticated adults, but they provide children
 with a good training ground in the control of language. All one has to do
-is pay attention during a conversation with a child, and as soon as the op-
-portunity presents itself—that is, whenever an innocent word or expression
+is pay attention during a conversation with a child, and as soon as the opportunity presents itself—that is, whenever an innocent word or expression
 can be interpreted in an alternative way—one switches frames, and pretends
 to understand the word in that different sense.
 The first time children realize that the expression “having Grandma for
@@ -5501,12 +4980,10 @@ getting, learning to twist conversation into pretzels. By doing so they learn
 how to enjoy controlling words; as adults, they might help revive the lost
 art of conversation.
 The major creative use of language, already mentioned several times in
-earlier contexts, is poetry. Because verse enables the mind to preserve ex-
-periences in condensed and transformed form, it is ideal for giving shape
+earlier contexts, is poetry. Because verse enables the mind to preserve experiences in condensed and transformed form, it is ideal for giving shape
 to consciousness. Reading from a book of poems each night is to the mind
 as working out on a Nautilus is to the body—a way for staying in shape.
-It doesn’t have to be “great” poetry, at least not at first. And it is not neces-
-sary to read an entire poem. What’s important is to
+It doesn’t have to be “great” poetry, at least not at first. And it is not necessary to read an entire poem. What’s important is to
 130 / Flow
 
 
@@ -5514,8 +4991,7 @@ find at least a line, or a verse, that starts to sing. Sometimes even one word
 is enough to open a window on a new view of the world, to start the mind
 on an inner journey.
 And again, there is no reason to stop at being a passive consumer.
-Everyone can learn, with a little discipline and perseverance, to order per-
-sonal experience in verse. As Kenneth Koch, the New York poet and social
+Everyone can learn, with a little discipline and perseverance, to order personal experience in verse. As Kenneth Koch, the New York poet and social
 reformer, has shown, even ghetto children and semiliterate elderly women
 in retirement homes are able to write beautifully moving poetry if they are
 given a minimum of training. There is no question that mastering this skill
@@ -5527,8 +5003,7 @@ write great prose, however, is probably just as difficult as writing great
 poetry.)
 In today’s world we have come to neglect the habit of writing because
 so many other media of communication have taken its place. Telephones
-and tape recorders, computers and fax machines are more efficient in con-
-veying news. If the only point to writing were to transmit information, then
+and tape recorders, computers and fax machines are more efficient in conveying news. If the only point to writing were to transmit information, then
 it would deserve to become obsolete. But the point of writing is to create
 information, not simply to pass it along. In the past, educated persons used
 journals and personal correspondence to put their experiences into words,
@@ -5554,10 +5029,8 @@ Mihaly Csikszentmihalyi / 131
 
 
 Many have commented lately about the fact that poets and playwrights
-as a group show unusually severe symptoms of depression and other af-
-fective disorders. Perhaps one reason they become full-time writers is that
-their consciousness is beset by entropy to an unusual degree; writing be-
-comes a therapy for shaping some order among the confusion of feelings.
+as a group show unusually severe symptoms of depression and other affective disorders. Perhaps one reason they become full-time writers is that
+their consciousness is beset by entropy to an unusual degree; writing becomes a therapy for shaping some order among the confusion of feelings.
 It is possible that the only way writers can experience flow is by creating
 worlds of words in which they can act with abandon, erasing from the
 mind the existence of a troubling reality. Like any other flow activity,
@@ -5568,23 +5041,20 @@ experience, without letting it control the mind, it is a tool of infinite subtle
 and rich rewards.
 BEFRIENDING CLIO
 As Memory was the mother of culture, Clio, “The Proclaimer,” was her
-eldest daughter. In Greek mythology she was the patroness of history, re-
-sponsible for keeping orderly accounts of past events. Although history
+eldest daughter. In Greek mythology she was the patroness of history, responsible for keeping orderly accounts of past events. Although history
 lacks the clear rules that make other mental activities like logic, poetry, or
 mathematics so enjoyable, it has its own unambiguous structure established
 by the irreversible sequence of events in time. Observing, recording, and
 preserving the memory of both the large and small events of life is one of
 the oldest and most satisfying ways to bring order to consciousness.
-In a sense, every individual is a historian of his or her own personal ex-
-istence. Because of their emotional power, memories of childhood become
+In a sense, every individual is a historian of his or her own personal existence. Because of their emotional power, memories of childhood become
 crucial elements in determining the kind of adults we grow up to be, and
 how our minds will function. Psychoanalysis is to a large extent an attempt
 to bring order to people’s garbled histories of their childhood. This task of
 making sense of the past again becomes important in old age. Erik Erikson
 has held that the last stage of the human life cycle involves the task of
 achieving “integrity,” or bringing together what one has accomplished and
-what one has failed to accomplish in the course of one’s life into a meaning-
-ful story that can be claimed as one’s own. “History,” wrote Thomas Carlyle,
+what one has failed to accomplish in the course of one’s life into a meaningful story that can be claimed as one’s own. “History,” wrote Thomas Carlyle,
 “is the essence of innumerable biographies.”
 Remembering the past is not only instrumental in the creation and
 preservation of a personal identity, but it can also be a very enjoyable
@@ -5595,10 +5065,8 @@ and collect souvenirs and mementos to store in their houses to
 
 build what is in effect a museum of the life of the family, even though a
 chance visitor might be unaware of most of the historical references. He
-might not know that the painting on the living-room wall is important be-
-cause it was bought by the owners during their honeymoon in Mexico, that
-the rug in the hall is valuable because it was the gift of a favorite grand-
-mother, and that the scruffy sofa in the den is kept because it was where
+might not know that the painting on the living-room wall is important because it was bought by the owners during their honeymoon in Mexico, that
+the rug in the hall is valuable because it was the gift of a favorite grandmother, and that the scruffy sofa in the den is kept because it was where
 the children were fed when they were babies.
 Having a record of the past can make a great contribution to the quality
 of life. It frees us from the tyranny of the present, and makes it possible for
@@ -5609,8 +5077,7 @@ such a past might not be literally true. But then the past can never be literall
 true in memory: it must be continuously edited, and the question is only
 whether we take creative control of the editing or not.
 Most of us don’t think of ourselves as having been amateur historians
-all along. But once we become aware that ordering events in time is a ne-
-cessary part of being a conscious being, and moreover, that it is an enjoyable
+all along. But once we become aware that ordering events in time is a necessary part of being a conscious being, and moreover, that it is an enjoyable
 task, then we can do a much better job of it. There are several levels at
 which history as a flow activity can be practiced. The most personal involves
 simply keeping a journal. The next is to write a family chronicle, going as
@@ -5621,10 +5088,8 @@ can begin to record their own impressions of the past, thus becoming “real”
 amateur historians.
 Others develop an interest in the history of the community in which they
 live, whether it is the neighborhood or the state, by reading books, visiting
-museums, and joining historical associations. Or they may focus on a par-
-ticular aspect of that past: for instance, a friend who lives in the wilder
-reaches of western Canada has been fascinated by “early industrial archi-
-tecture” in that part of the world, and has gradually learned enough about
+museums, and joining historical associations. Or they may focus on a particular aspect of that past: for instance, a friend who lives in the wilder
+reaches of western Canada has been fascinated by “early industrial architecture” in that part of the world, and has gradually learned enough about
 it to enjoy trips to out-of-the-way sawmills, foundries, and decaying railway
 depots, where his knowledge enables him to evaluate and appreciate the
 fine points of what anyone else would dismiss as piles of weedy junk.
@@ -5645,16 +5110,14 @@ flow experience.
 THE DELIGHTS OF SCIENCE
 After reading the preceding section, you may find it just barely plausible
 that anyone could become an amateur historian. But if we take the argument
-to another field, can we really conceive of a layperson’s becoming an ama-
-teur scientist? After all, we have been told many times that in this century
+to another field, can we really conceive of a layperson’s becoming an amateur scientist? After all, we have been told many times that in this century
 science has become a highly institutionalized activity, with the main action
 confined to the big leagues. It takes extravagantly equipped laboratories,
 huge budgets, and large teams of investigators to survive on the frontiers
 of biology, chemistry, or physics. It is true that, if the goal of science is to
 win Nobel prizes, or to attract the recognition of professional colleagues
 in the highly competitive arena of a given discipline, then the extremely
-specialized and expensive ways of doing science may be the only alternat-
-ives.
+specialized and expensive ways of doing science may be the only alternatives.
 In fact, this highly capital-intensive scenario, based on the model of the
 assembly line, happens to be an inaccurate description of what leads to
 success in “professional” science. It is not true, despite what the advocates
@@ -5666,8 +5129,7 @@ made only by centers with the highest levels of funding. These conditions
 may help in testing novel theories, but they are largely irrelevant to
 whether creative ideas will flourish. New discoveries still come to people
 as they did to Democritus, sitting lost in thought in the market square of
-his city. They come to people who so enjoy playing with ideas that eventu-
-ally they stray beyond the limits of what is known, and find themselves
+his city. They come to people who so enjoy playing with ideas that eventually they stray beyond the limits of what is known, and find themselves
 exploring an uncharted territory.
 Even the pursuit of “normal” (as opposed to “revolutionary” or creative)
 science would be next to impossible if it did not provide enjoyment to the
@@ -5693,12 +5155,9 @@ puzzle-solver, and the challenge of the puzzle is an important part of what
 usually drives him on.” It is no wonder that scientists often feel like P. A.
 M. Dirac, the physicist who described the development of quantum
 mechanics in the 1920s by saying, “It was a game, a very interesting game
-one could play.” Kuhn’s description of the appeal of science clearly re-
-sembles reports describing why riddling, or rock climbing, or sailing, or
+one could play.” Kuhn’s description of the appeal of science clearly resembles reports describing why riddling, or rock climbing, or sailing, or
 chess, or any other flow activity is rewarding.
-If “normal” scientists are motivated in their work by the challenging in-
-tellectual puzzles they confront in their work, “revolutionary” scient-
-ists—the ones who break away from existing theoretical paradigms to forge
+If “normal” scientists are motivated in their work by the challenging intellectual puzzles they confront in their work, “revolutionary” scientists—the ones who break away from existing theoretical paradigms to forge
 new ones—are even more driven by enjoyment. A lovely example concerns
 Subrahhmanyan Chandrasekhar, the astrophysicist whose life has already
 acquired mythical dimensions. When he left India as a young man in 1933,
@@ -5720,9 +5179,7 @@ Mihaly Csikszentmihalyi / 135
 
 
 won the Nobel prize for physics. Whenever this story used to be told, the
-narrator concluded with sympathetic regrets that it was a shame the pro-
-fessor himself never won the prize. That regret is no longer necessary, be-
-cause in 1983 Chandrasekhar himself was awarded the Nobel for physics.
+narrator concluded with sympathetic regrets that it was a shame the professor himself never won the prize. That regret is no longer necessary, because in 1983 Chandrasekhar himself was awarded the Nobel for physics.
 It is often under such unassuming circumstances, with people dedicated
 to playing with ideas, that breakthroughs in the way we think occur. One
 of the most glamorous discoveries of the last few years involves the theory
@@ -5747,17 +5204,14 @@ with splitting the atomic nucleus turned out to be such a hit. What concerns
 us here is amateur science, the delight that ordinary people can take in
 observing and recording laws of natural phenomena. It is important to
 realize that for centuries great scientists did their work as a hobby, because
-they were fascinated with the methods they had invented, rather than be-
-cause they had jobs to do and fat government grants to spend.
+they were fascinated with the methods they had invented, rather than because they had jobs to do and fat government grants to spend.
 Nicolaus Copernicus perfected his epochal description of planetary
 motions while he was a canon at the cathedral of Frauenburg, in Poland.
 Astronomical work certainly didn’t help his career in the Church, and for
 much of his life the main rewards he had were aesthetic, derived from the
 simple beauty of his system compared to the more cumbersome Ptolemaic
-model. Galileo had been trained in medicine, and what drove him into in-
-creasingly dangerous experimentation was the delight he took in figuring
-out such things as the location of the center of gravity of various solid ob-
-jects. Isaac Newton formulated his
+model. Galileo had been trained in medicine, and what drove him into increasingly dangerous experimentation was the delight he took in figuring
+out such things as the location of the center of gravity of various solid objects. Isaac Newton formulated his
 136 / Flow
 
 
@@ -5780,14 +5234,12 @@ his time to measuring the velocity of light, he is said to have replied, “It
 was so much fun.” And, lest we forget, Einstein wrote his most influential
 papers while working as a clerk in the Swiss Patent Office. These and the
 many other great scientists one could easily mention were not handicapped
-in their thinking because they were not “professionals” in their field, recog-
-nized figures with sources of legitimate support. They simply did what
+in their thinking because they were not “professionals” in their field, recognized figures with sources of legitimate support. They simply did what
 they enjoyed doing.
 Is the situation really that different these days? Is it really true that a
 person without a Ph.D., who is not working at one of the major research
 centers, no longer has any chance of contributing to the advancement of
-science? Or is this just one of those largely unconscious efforts at mystific-
-ation to which all successful institutions inevitably succumb? It is difficult
+science? Or is this just one of those largely unconscious efforts at mystification to which all successful institutions inevitably succumb? It is difficult
 to answer these questions, partly because what constitutes “science” is of
 course defined by those very institutions that are in line to benefit from
 their monopoly.
@@ -5799,8 +5251,7 @@ enjoyable is accessible to everyone. It involves curiosity, careful observation,
 a disciplined way of recording events, and finding ways to tease out the
 underlying regularities in what one learns. It also requires the humility to
 be willing to learn from the results of past investigators, coupled with
-enough skepticism and openness of mind to reject beliefs that are not sup-
-ported by facts.
+enough skepticism and openness of mind to reject beliefs that are not supported by facts.
 Defined in this broad sense, there are more practicing amateur
 Mihaly Csikszentmihalyi / 137
 
@@ -5836,8 +5287,7 @@ create armed forces as a defense against enemies. Soon, however, an army
 develops its own needs, its own politics, to the point that the most successful
 soldier is not necessarily the one who defends the country best, but the one
 who obtains the most money for the army.
-Amateur philosophers, unlike their professional counterparts at univer-
-sities, need not worry about historical struggles for prominence among
+Amateur philosophers, unlike their professional counterparts at universities, need not worry about historical struggles for prominence among
 competing schools, the politics of journals, and the personal jealousies of
 scholars. They can keep their minds on the basic questions. What these are
 is the first task for the amateur philosopher to decide. Is he interested in
@@ -5850,29 +5300,24 @@ what the best thinkers of the past have believed about what it means to
 As in all other branches of learning, the first step after deciding what
 area one wants to pursue is to learn what others have thought about the
 matter. By reading, talking, and listening selectively one can form an idea
-of what the “state of the art” in the field is. Again, the importance of per-
-sonally taking control of the direction of learning from the very first steps
+of what the “state of the art” in the field is. Again, the importance of personally taking control of the direction of learning from the very first steps
 cannot be stressed enough. If a person feels coerced to read a certain book,
 to follow a given course because that is supposed to be the way to do it,
 learning will go against the grain. But if the decision is to take that same
 route because of an inner feeling of rightness, the learning will be relatively
 effortless and enjoyable.
 When his predilections in philosophy become clear, even the amateur
-may feel compelled to specialize. Someone interested in the basic charac-
-teristics of reality may drift toward ontology and read Wolff, Kant, Husserl,
+may feel compelled to specialize. Someone interested in the basic characteristics of reality may drift toward ontology and read Wolff, Kant, Husserl,
 and Heidegger. Another person more puzzled by questions of right and
-wrong would take up ethics and learn about the moral philosophy of Aris-
-totle, Aquinas, Spinoza, and Nietzsche. An interest in what is beautiful
+wrong would take up ethics and learn about the moral philosophy of Aristotle, Aquinas, Spinoza, and Nietzsche. An interest in what is beautiful
 may lead to reviewing the ideas of aesthetic philosophers like Baumgarten,
 Croce, Santayana, and Collingwood. While specialization is necessary to
-develop the complexity of any pattern of thought, the goals-ends relation-
-ship must always be kept clear: specialization is for the sake of thinking
+develop the complexity of any pattern of thought, the goals-ends relationship must always be kept clear: specialization is for the sake of thinking
 better, and not an end in itself. Unfortunately many serious thinkers devote
 all their mental effort to becoming well-known scholars, but in the meantime
 they forget their initial purpose in scholarship.
 In philosophy as in other disciplines there comes a point where a person
-is ready to pass from the status of passive consumer to that of active pro-
-ducer. To write down one’s insights expecting that someday they will be
+is ready to pass from the status of passive consumer to that of active producer. To write down one’s insights expecting that someday they will be
 read with awe by posterity would be in most cases an act of hubris, that
 “overweening presumption” that has caused so much mischief in human
 affairs. But if one records ideas in response to an inner challenge to express
@@ -5890,14 +5335,12 @@ Mihaly Csikszentmihalyi / 139
 
 variety of activities, taking as much enjoyment as possible from each
 without necessarily becoming an expert in any one.
-There are two words whose meanings reflect our somewhat warped at-
-titudes toward levels of commitment to physical or mental activities. These
+There are two words whose meanings reflect our somewhat warped attitudes toward levels of commitment to physical or mental activities. These
 are the terms amateur and dilettante. Nowadays these labels are slightly
 derogatory. An amateur or a dilettante is someone not quite up to par, a
 person not to be taken very seriously, one whose performance falls short
 of professional standards. But originally, “amateur,” from the Latin verb
-amare, “to love,” referred to a person who loved what he was doing. Simil-
-arly a “dilettante,” from the Latin delectare, “to find delight in,” was someone
+amare, “to love,” referred to a person who loved what he was doing. Similarly a “dilettante,” from the Latin delectare, “to find delight in,” was someone
 who enjoyed a given activity. The earliest meanings of these words therefore
 drew attention to experiences rather than accomplishments; they described
 the subjective rewards individuals gained from doing things, instead of
@@ -5907,10 +5350,8 @@ two words. There was a time when it was admirable to be an amateur poet
 or a dilettante scientist, because it meant that the quality of life could be
 improved by engaging in such activities. But increasingly the emphasis
 has been to value behavior over subjective states; what is admired is success,
-achievement, the quality of performance rather than the quality of experi-
-ence. Consequently it has become embarrassing to be called a dilettante,
-even though to be a dilettante is to achieve what counts most—the enjoy-
-ment one’s actions provide.
+achievement, the quality of performance rather than the quality of experience. Consequently it has become embarrassing to be called a dilettante,
+even though to be a dilettante is to achieve what counts most—the enjoyment one’s actions provide.
 It is true that the sort of dilettantish learning encouraged here can be
 undermined even more readily than professional scholarship, if the learners
 lose sight of the goal that motivates them. Laypersons with an ax to grind
@@ -5919,15 +5360,13 @@ efforts are almost indistinguishable from those of intrinsically motivated
 amateurs.
 An interest in the history of ethnic origins, for instance, can become
 easily perverted into a search for proofs of one’s own superiority over
-members of other groups. The Nazi movement in Germany turned to an-
-thropology, history, anatomy, language, biology, and philosophy and
+members of other groups. The Nazi movement in Germany turned to anthropology, history, anatomy, language, biology, and philosophy and
 concocted from them its theory of Aryan racial supremacy. Professional
 scholars were also caught up in this dubious enterprise, but it was inspired
 by amateurs, and the rules by which it was played belonged to politics,
 not science.
 Soviet biology was set back a generation when the authorities decided
-to apply the rules of communist ideology to growing corn, instead of fol-
-lowing experimental evidence. Lysenko’s ideas about how
+to apply the rules of communist ideology to growing corn, instead of following experimental evidence. Lysenko’s ideas about how
 140 / Flow
 
 
@@ -5937,39 +5376,31 @@ the context of Leninist dogma. Unfortunately the ways of politics and the
 ways of corn are not always the same, and Lysenko’s efforts culminated
 in decades of hunger.
 The bad connotations that the terms amateur and dilettante have earned
-for themselves over the years are due largely to the blurring of the distinc-
-tion between intrinsic and extrinsic goals. An amateur who pretends to
+for themselves over the years are due largely to the blurring of the distinction between intrinsic and extrinsic goals. An amateur who pretends to
 know as much as a professional is probably wrong, and up to some mischief.
-The point of becoming an amateur scientist is not to compete with profes-
-sionals on their own turf, but to use a symbolic discipline to extend mental
-skills, and to create order in consciousness. On that level, amateur scholar-
-ship can hold its own, and can be even more effective than its professional
+The point of becoming an amateur scientist is not to compete with professionals on their own turf, but to use a symbolic discipline to extend mental
+skills, and to create order in consciousness. On that level, amateur scholarship can hold its own, and can be even more effective than its professional
 counterpart. But the moment that amateurs lose sight of this goal, and use
 knowledge mainly to bolster their egos or to achieve a material advantage,
-then they become caricatures of the scholar. Without training in the discip-
-line of skepticism and reciprocal criticism that underlies the scientific
-method, laypersons who venture into the fields of knowledge with preju-
-diced goals can become more ruthless, more egregiously unconcerned with
+then they become caricatures of the scholar. Without training in the discipline of skepticism and reciprocal criticism that underlies the scientific
+method, laypersons who venture into the fields of knowledge with prejudiced goals can become more ruthless, more egregiously unconcerned with
 truth, than even the most corrupt scholar.
 THE CHALLENGE OF LIFELONG LEARNING
 The aim of this chapter has been to review the ways in which mental
 activity can produce enjoyment. We have seen that the mind offers at least
 as many and as intense opportunities for action as does the body. Just as
 the use of the limbs and of the senses is available to everyone without regard
-to sex, race, education, or social class, so too the uses of memory, of lan-
-guage, of logic, of the rules of causation are also accessible to anyone who
+to sex, race, education, or social class, so too the uses of memory, of language, of logic, of the rules of causation are also accessible to anyone who
 desires to take control of the mind.
 Many people give up on learning after they leave school because thirteen
-or twenty years of extrinsically motivated education is still a source of un-
-pleasant memories. Their attention has been manipulated long enough
+or twenty years of extrinsically motivated education is still a source of unpleasant memories. Their attention has been manipulated long enough
 from the outside by textbooks and teachers, and they have counted
 graduation as the first day of freedom.
 But a person who forgoes the use of his symbolic skills is never really
 free. His thinking will be directed by the opinions of his neighbors, by the
 editorials in the papers, and by the appeals of television. He will be at the
 mercy of “experts.” Ideally, the end of extrinsically applied education
-should be the start of an education that is motivated intrinsi-
-Mihaly Csikszentmihalyi / 141
+should be the start of an education that is motivated intrinsiMihaly Csikszentmihalyi / 141
 
 
 cally. At that point the goal of studying is no longer to make the grade,
@@ -5989,8 +5420,6 @@ observer could not describe more vividly what happens when a person
 first discovers the flow of the mind.
 142 / Flow
 
-
-7
 WORK AS FLOW
 LIKE OTHER ANIMALS, we must spend a large part of our existence making
 a living: calories needed to fuel the body don’t appear magically on the
@@ -6014,15 +5443,12 @@ things as entropic as unskilled work done under compulsion. The brain
 surgeon operating in a shining hospital and the slave laborer who staggers
 under a heavy load as he wades through the mud are both working. But
 the surgeon has a chance to
-143
-
 
 learn new things every day, and every day he learns that he is in control
 and that he can perform difficult tasks. The laborer is forced to repeat the
 same exhausting motions, and what he learns is mostly about his own
 helplessness.
-Because work is so universal, yet so varied, it makes a tremendous dif-
-ference to one’s overall contentment whether what one does for a living is
+Because work is so universal, yet so varied, it makes a tremendous difference to one’s overall contentment whether what one does for a living is
 enjoyable or not. Thomas Carlyle was not far wrong when he wrote,
 “Blessed is he who has found his work; let him ask no other blessedness.”
 Sigmund Freud amplified somewhat on this simple advice. When asked
@@ -6030,8 +5456,7 @@ for his recipe for happiness, he gave a very short but sensible answer:
 “Work and love.” It is true that if one finds flow in work, and in relations
 with other people, one is well on the way toward improving the quality of
 life as a whole. In this chapter we shall explore how jobs can provide flow,
-and in the following one we shall take up Freud’s other main theme—en-
-joying the company of others.
+and in the following one we shall take up Freud’s other main theme—enjoying the company of others.
 AUTOTELIC WORKERS
 As punishment for his ambition, Adam was sentenced by the Lord to work
 the earth with the sweat of his brow. The passage of Genesis (3:17) that
@@ -6053,8 +5478,7 @@ make the dreams of the few who had found a way of exploiting them come
 true. The achievements that set civilized nations apart from the more
 primitive—such as the Pyramids, the Great Wall of China, the Taj Mahal,
 and the temples, palaces, and dams of antiquity—were usually built with
-the energy of slaves forced to realize their rulers’ ambitions. Not surpris-
-ingly, work acquired a rather poor reputation.
+the energy of slaves forced to realize their rulers’ ambitions. Not surprisingly, work acquired a rather poor reputation.
 144 / Flow
 
 
@@ -6063,11 +5487,9 @@ that work necessarily needs to be unpleasant. It may always have to be
 hard, or at least harder than doing nothing at all. But there is ample evidence
 that work can be enjoyable, and that indeed, it is often the most enjoyable
 part of life.
-Occasionally cultures evolve in such a way as to make everyday product-
-ive chores as close to flow activities as possible. There are groups in which
+Occasionally cultures evolve in such a way as to make everyday productive chores as close to flow activities as possible. There are groups in which
 both work and family life are challenging yet harmoniously integrated. In
-the high mountain valleys of Europe, in Alpine villages spared by the In-
-dustrial Revolution, communities of this type still exist. Curious to see how
+the high mountain valleys of Europe, in Alpine villages spared by the Industrial Revolution, communities of this type still exist. Curious to see how
 work is experienced in a “traditional” setting representative of farming
 life-styles that were prevalent everywhere up to a few generations ago, a
 team of Italian psychologists led by Professor Fausto Massimini and Dr.
@@ -6078,8 +5500,7 @@ seldom distinguish work from free time. It could be said that they work
 sixteen hours a day each day, but then it could also be argued that they
 never work. One of the inhabitants, Serafina Vinon, a seventy-six-year-old
 woman from the tiny hamlet of Pont Trentaz, in the Val d’Aosta region of
-the Italian Alps, still gets up at five in the morning to milk her cows. After-
-ward she cooks a huge breakfast, cleans the house, and, depending on the
+the Italian Alps, still gets up at five in the morning to milk her cows. Afterward she cooks a huge breakfast, cleans the house, and, depending on the
 weather and time of year, either takes the herd to the meadows just below
 the glaciers, tends the orchard, or cards some wool. In summer she spends
 weeks on the high pastures cutting hay, and then carries huge bales of it
@@ -6092,8 +5513,7 @@ a week.
 Serafina knows every tree, every boulder, every feature of the mountains
 as if they were old friends. Family legends going back many centuries are
 linked to the landscape: On this old stone bridge, when the plague of 1473
-had exhausted itself, one night the last surviving woman of Serafina’s vil-
-lage, with a torch in her hand, met the last surviving man of the village
+had exhausted itself, one night the last surviving woman of Serafina’s village, with a torch in her hand, met the last surviving man of the village
 further down the valley. They helped each other, got married, and became
 the ancestors of her family. It was in that field of raspberries that her
 grandmother was lost when she was a little girl. On this rock, standing
@@ -6123,18 +5543,15 @@ content and serene with the role she plays in the universe.
 Ten of the oldest residents of Pont Trentaz, ranging from sixty-six to
 eighty-two years of age, were interviewed; all of them gave responses
 similar to Serafina’s. None of them drew a sharp distinction between work
-and free time, all mentioned work as the major source of optimal experi-
-ences, and none would want to work less if given a chance.
+and free time, all mentioned work as the major source of optimal experiences, and none would want to work less if given a chance.
 Most of their children, who were also interviewed, expressed the same
 attitude toward life. However, among the grandchildren (aged between
-twenty and thirty-three years), more typical attitudes toward work pre-
-vailed: given a chance they would have worked less, and spent more time
+twenty and thirty-three years), more typical attitudes toward work prevailed: given a chance they would have worked less, and spent more time
 instead in leisure—reading, sports, traveling, seeing the latest shows. Partly
 this difference between the generations is a matter of age; young people
 are usually less contented with their lot, more eager for change, and more
 intolerant of the constraints of routine. But in this case the divergence also
-reflects the erosion of a traditional way of life, in which work was meaning-
-fully related to people’s identities and to their ultimate goals. Some of the
+reflects the erosion of a traditional way of life, in which work was meaningfully related to people’s identities and to their ultimate goals. Some of the
 young people of Pont Trentaz might in their old age come to feel about
 their work as Serafina does; probably the majority will not. Instead, they
 will keep widening the gap between jobs that are necessary but unpleasant,
@@ -6174,12 +5591,10 @@ with Joe in three huge, dark, hangarlike structures where steel plates
 weighing several tons move around suspended from overhead tracks, and
 are welded amid showers of sparks to the wheelbases of freight cars. In
 summer it is an oven, in winter the icy winds of the prairie howl through.
-The clanging of metal is always so intense that one must shout into a per-
-son’s ear to make oneself understood.
+The clanging of metal is always so intense that one must shout into a person’s ear to make oneself understood.
 Joe came to the United States when he was five years old, and he left
 school after fourth grade. He had been working at this plant for over thirty
-years, but never wanted to become a foreman. He declined several promo-
-tions, claiming that he liked being a simple welder, and felt uncomfortable
+years, but never wanted to become a foreman. He declined several promotions, claiming that he liked being a simple welder, and felt uncomfortable
 being anyone’s boss. Although he stood on the lowest rung
 Mihaly Csikszentmihalyi / 147
 
@@ -6200,18 +5615,15 @@ without having had any formal training, Joe gave a very disarming answer.
 Since childhood he had been fascinated with machinery of every kind. He
 was especially drawn to anything that wasn’t working properly: “Like
 when my mother’s toaster went on the fritz, I asked myself: ‘If I were that
-toaster and I didn’t work, what would be wrong with me?’” Then he disas-
-sembled the toaster, found the defect, and fixed it. Ever since, he has used
-this method of empathic identification to learn about and restore increas-
-ingly complex mechanical systems. And the fascination of discovery has
+toaster and I didn’t work, what would be wrong with me?’” Then he disassembled the toaster, found the defect, and fixed it. Ever since, he has used
+this method of empathic identification to learn about and restore increasingly complex mechanical systems. And the fascination of discovery has
 never left him; now close to retirement, Joe still enjoys work every day.
 Joe has never been a workaholic, completely dependent on the challenges
 of the factory to feel good about himself. What he did at home was perhaps
 even more remarkable than his transformation of a mindless, routine job
 into a complex, flow-producing activity. Joe and his wife live in a modest
 bungalow on the outskirts of the city. Over the years they bought up the
-two vacant lots on either side of their house. On these lots Joe built an in-
-tricate rock garden, with terraces, paths, and several hundred flowers and
+two vacant lots on either side of their house. On these lots Joe built an intricate rock garden, with terraces, paths, and several hundred flowers and
 shrubs. While he was installing underground sprinklers, Joe had an idea:
 What if he had them make rainbows? He looked for sprinkler heads that
 would produce a fine enough mist for this purpose, but none satisfied him;
@@ -6222,8 +5634,7 @@ But there was one problem with Joe’s little Garden of Eden. Since he
 worked most days, by the time he got home the sun was usually too far
 down the horizon to help paint the water with strong colors. So Joe went
 back to the drawing board, and came back with an admirable solution. He
-found floodlights that contained enough of the sun’s spec-
-148 / Flow
+found floodlights that contained enough of the sun’s spec148 / Flow
 
 
 trum to form rainbows, and installed them inconspicuously around the
@@ -6231,9 +5642,7 @@ sprinklers. Now he was really ready. Even in the middle of the night, just
 by touching two switches, he could surround his house with fans of water,
 light, and color.
 Joe is a rare example of what it means to have an “autotelic personality,”
-or the ability to create flow experiences even in the most barren environ-
-ment—an almost inhumane workplace, a weed-infested urban neighbor-
-hood. In the entire railroad plant, Joe appeared to be the only man who
+or the ability to create flow experiences even in the most barren environment—an almost inhumane workplace, a weed-infested urban neighborhood. In the entire railroad plant, Joe appeared to be the only man who
 had the vision to perceive challenging opportunities for action. The rest of
 the welders we interviewed regarded their jobs as burdens to be escaped
 as promptly as possible, and each evening as soon as work stopped they
@@ -6245,36 +5654,28 @@ similar to each previous one—was over.
 One might argue here that endorsing Joe’s life-style over that of his fellow
 workers is reprehensibly “elitist.” After all, the guys in the saloon are
 having a good time, and who is to say that grubbing away in the backyard
-making rainbows is a better way to spend one’s time? By the tenets of cul-
-tural relativism the criticism would be justifiable, of course. But when one
+making rainbows is a better way to spend one’s time? By the tenets of cultural relativism the criticism would be justifiable, of course. But when one
 understands that enjoyment depends on increasing complexity, it is no
-longer possible to take such radical relativism seriously. The quality of ex-
-perience of people who play with and transform the opportunities in their
-surroundings, as Joe did, is clearly more developed as well as more enjoy-
-able than that of people who resign themselves to live within the constraints
+longer possible to take such radical relativism seriously. The quality of experience of people who play with and transform the opportunities in their
+surroundings, as Joe did, is clearly more developed as well as more enjoyable than that of people who resign themselves to live within the constraints
 of the barren reality they feel they cannot alter.
 The view that work undertaken as a flow activity is the best way to fulfill
 human potentialities has been proposed often enough in the past, by various
 religious and philosophical systems. To people imbued with the Christian
 worldview of the Middle Ages it made sense to say that peeling potatoes
 was just as important as building a cathedral, provided they were both
-done for the greater glory of God. For Karl Marx, men and women construc-
-ted their being through productive activities; there is no “human nature,”
-he held, except that which we create through work. Work not only trans-
-forms the environment by building bridges across rivers and cultivating
-barren plains; it also transforms the worker from an animal guided by in-
-stincts into a conscious, goal-directed, skillful person.
+done for the greater glory of God. For Karl Marx, men and women constructed their being through productive activities; there is no “human nature,”
+he held, except that which we create through work. Work not only transforms the environment by building bridges across rivers and cultivating
+barren plains; it also transforms the worker from an animal guided by instincts into a conscious, goal-directed, skillful person.
 Mihaly Csikszentmihalyi / 149
 
 
 One of the most interesting examples of how the phenomenon of flow
 appeared to thinkers of earlier times is the concept of Yu referred to about
 2,300 years ago in the writings of the Taoist scholar Chuang Tzu. Yu is a
-synonym for the right way of following the path, or Tao: it has been trans-
-lated into English as “wandering”; as “walking without touching the
+synonym for the right way of following the path, or Tao: it has been translated into English as “wandering”; as “walking without touching the
 ground”; or as “swimming,” “flying,” and “flowing.” Chuang Tzu believed
-that to Yu was the proper way to live—without concern for external re-
-wards, spontaneously, with total commitment—in short, as a total
+that to Yu was the proper way to live—without concern for external rewards, spontaneously, with total commitment—in short, as a total
 autotelic experience.
 As an example of how to live by Yu—or how to flow—Chuang Tzu
 presents, in the Inner Chapters of the work which has come down to us
@@ -6289,22 +5690,19 @@ Mulberry Grove or keeping time to the Ching-shou music.”
 Lord Wen-hui was fascinated by how much flow (or Yu) his cook found
 in his work, and so he complimented Ting on his great skill. But Ting denied
 that it was a matter of skill: “What I care about is the Way, which goes
-beyond skill.” Then he described how he had achieved his superb perform-
-ance: a sort of mystical, intuitive understanding of the anatomy of the ox,
+beyond skill.” Then he described how he had achieved his superb performance: a sort of mystical, intuitive understanding of the anatomy of the ox,
 which allowed him to slice it to pieces with what appeared to be automatic
 ease: “Perception and understanding have come to a stop and spirit moves
 where it wants.”
 Ting’s explanation may seem to imply that Yu and flow are the result of
-different kinds of processes. In fact, some critics have emphasized the dif-
-ferences: while flow is the result of a conscious attempt to master challenges,
+different kinds of processes. In fact, some critics have emphasized the differences: while flow is the result of a conscious attempt to master challenges,
 Yu occurs when the individual gives up conscious mastery. In this sense
 they see flow as an example of the “Western” search for optimal experience,
 which according to them is based on changing objective conditions (e.g.,
 by confronting challenges with skills), whereas Yu is an example of the
 “Eastern” approach, which disregards objective conditions entirely in favor
 of spiritual playfulness and the transcendence of actuality.
-But how is a person to achieve this transcendental experience and spir-
-itual playfulness? In the same parable, Chuang Tzu offers a valuable
+But how is a person to achieve this transcendental experience and spiritual playfulness? In the same parable, Chuang Tzu offers a valuable
 150 / Flow
 
 
@@ -6312,8 +5710,7 @@ insight to answer this question, an insight that has given rise to diametrically
 opposite interpretations. In Watson’s translation, it reads as follows:
 “However, whenever I come to a complicated place, I size up the difficulties,
 tell myself to watch out and be careful, keep my eyes on what I’m doing,
-work very slowly, and move my knife with the greatest of subtlety, un-
-til—flop! the whole thing comes apart like a clod of earth crumbling to the
+work very slowly, and move my knife with the greatest of subtlety, until—flop! the whole thing comes apart like a clod of earth crumbling to the
 ground. I stand there holding the knife and look all around me, completely
 satisfied and reluctant to move on, and then I wipe off the knife and put it
 away.”
@@ -6333,8 +5730,7 @@ on the opportunities for action in one’s environment, which results in a
 perfection of skills that with time becomes so thoroughly automatic as to
 seem spontaneous and otherworldly. The performances of a great violinist
 or a great mathematician seem equally uncanny, even though they can be
-explained by the incremental honing of challenges and skills. If my inter-
-pretation is true, in the flow experience (or Yu) East and West meet: in both
+explained by the incremental honing of challenges and skills. If my interpretation is true, in the flow experience (or Yu) East and West meet: in both
 cultures ecstasy arises from the same sources. Lord Wen-hui’s cook is an
 excellent example of how one can find flow in the most unlikely places, in
 the most humble jobs of daily life. And it is also remarkable that over
@@ -6362,17 +5758,14 @@ freedom and creativity. Their method represents one way to enjoy one’s
 job while making it richer. The other is to change the job itself, until its
 conditions are more conducive to flow, even for people who lack autotelic
 personalities. The more a job inherently resembles a game—with variety,
-appropriate and flexible challenges, clear goals, and immediate feed-
-back—the more enjoyable it will be regardless of the worker’s level of de-
-velopment.
+appropriate and flexible challenges, clear goals, and immediate feedback—the more enjoyable it will be regardless of the worker’s level of development.
 Hunting, for instance, is a good example of “work” that by its very nature
 had all the characteristics of flow. For hundreds of thousands of years
 chasing down game was the main productive activity in which humans
 were involved. Yet hunting has proven to be so enjoyable that many people
 are still doing it as a hobby, after all practical need for it has disappeared.
 The same is true of fishing. The pastoral mode of existence also has some
-of the freedom and flowlike structure of earliest “work.” Many contempor-
-ary young Navajos in Arizona claim that following their sheep on horseback
+of the freedom and flowlike structure of earliest “work.” Many contemporary young Navajos in Arizona claim that following their sheep on horseback
 over the mesas is the most enjoyable thing they ever do. Compared to
 hunting or herding, farming is more difficult to enjoy. It is a more settled,
 more repetitive activity, and the results take much longer to appear. The
@@ -6387,8 +5780,7 @@ or hunters, when forced to become farmers, appear to have died out rather
 than submitting themselves to that ostensibly boring existence. Yet many
 farmers also eventually learned to enjoy the more subtle opportunities of
 their occupation.
-The crafts and cottage industries that before the eighteenth century occu-
-pied most of the time left free from farming were reasonably
+The crafts and cottage industries that before the eighteenth century occupied most of the time left free from farming were reasonably
 152 / Flow
 
 
@@ -6418,8 +5810,7 @@ Family members designed their own patterns, and when they had had
 enough of one kind they would switch to another. Each family decided
 what type of cloth to weave, where to buy the materials, how much to
 produce, and where to sell it. Some families had customers as far away as
-Japan and Australia. Family members were always traveling to manufac-
-turing centers to keep abreast of new technical developments, or to buy
+Japan and Australia. Family members were always traveling to manufacturing centers to keep abreast of new technical developments, or to buy
 necessary equipment as cheaply as possible.
 But throughout most of the Western world such cozy arrangements
 conducive to flow were brutally disrupted by the invention of the first
@@ -6429,9 +5820,7 @@ unable to compete with mass production. Families were broken up, workers
 had to leave their cottages and move en masse into ugly and unwholesome
 plants, rigid schedules lasting from dawn to dusk were enforced. Children
 as young as seven years of age had to work themselves to exhaustion among
-indifferent or exploitive strangers. If the enjoyment of work had any cred-
-ibility before, it was effectively destroyed in that first frenzy of industrial-
-ization.
+indifferent or exploitive strangers. If the enjoyment of work had any credibility before, it was effectively destroyed in that first frenzy of industrialization.
 Mihaly Csikszentmihalyi / 153
 
 
@@ -6441,16 +5830,12 @@ dials, supervising a computer screen in a pleasant control room, while a
 band of savvy robots down the line do whatever “real” work needs to be
 done. In fact, most people are not engaged in production any longer; they
 work in the so-called “service sector,” at jobs that would surely appear like
-pampered leisure to the farmers and factory workers of only a few genera-
-tions ago. Above them are the managers and professionals, who have great
+pampered leisure to the farmers and factory workers of only a few generations ago. Above them are the managers and professionals, who have great
 leeway in making whatever they want to of their jobs.
 So work can be either brutal and boring, or enjoyable and exciting. In
 just a few decades, as happened in England in the 1740s, the average
-working conditions can change from being relatively pleasant to a night-
-mare. Technological innovations such as the waterwheel, the plow, the
-steam engine, electricity, or the silicon chip can make a tremendous differ-
-ence in whether work will be enjoyable or not. Laws regulating the enclos-
-ure of the commons, the abolition of slavery, the abolition of apprentices,
+working conditions can change from being relatively pleasant to a nightmare. Technological innovations such as the waterwheel, the plow, the
+steam engine, electricity, or the silicon chip can make a tremendous difference in whether work will be enjoyable or not. Laws regulating the enclosure of the commons, the abolition of slavery, the abolition of apprentices,
 or the institution of the forty-hour week and of minimum wages can also
 have a great impact. The sooner we realize that the quality of the work
 experience can be transformed at will, the sooner we can improve this
@@ -6459,17 +5844,14 @@ work is forever destined to remain “the curse of Adam.”
 In theory, any job could be changed so as to make it more enjoyable by
 following the prescriptions of the flow model. At present, however,
 whether work is enjoyable or not ranks quite low among the concerns of
-those who have the power to influence the nature of a given job. Manage-
-ment has to care for productivity first and foremost, and union bosses have
+those who have the power to influence the nature of a given job. Management has to care for productivity first and foremost, and union bosses have
 to keep safety, security, and compensations uppermost in their minds. In
 the short run these priorities might well conflict with flow-producing
 conditions. This is regrettable, because if workers really enjoyed their jobs
-they would not only benefit personally, but sooner or later they would al-
-most certainly produce more efficiently and reach all the other goals that
+they would not only benefit personally, but sooner or later they would almost certainly produce more efficiently and reach all the other goals that
 now take precedence.
 At the same time, it would be erroneous to expect that if all jobs were
-constructed like games, everyone would enjoy them. Even the most favor-
-able external conditions do not guarantee that a person will be in flow.
+constructed like games, everyone would enjoy them. Even the most favorable external conditions do not guarantee that a person will be in flow.
 Because optimal experience depends on a subjective evaluation of what
 the possibilities for action are, and of one’s own capacities, it happens quite
 often that an individual will be discontented even with a potentially great
@@ -6481,8 +5863,7 @@ Let us take as an example the profession of surgery. Few jobs involve so
 much responsibility, or bestow so much status on its practitioners. Certainly
 if challenges and skills are significant factors, then surgeons must find their
 job exhilarating. And in fact many surgeons say that they are addicted to
-their work, that nothing else in their lives compares with it in terms of en-
-joyment, that anything that takes them away from the hospital—a Caribbean
+their work, that nothing else in their lives compares with it in terms of enjoyment, that anything that takes them away from the hospital—a Caribbean
 vacation, a night at the opera—feels like a waste of time.
 But not every surgeon is as enthusiastic about his job. Some grow so
 bored by it that they take up drinking, gambling, or a fast life-style to forget
@@ -6494,26 +5875,20 @@ earlobes. Such specialization can be lucrative, but it makes enjoying the
 job more difficult. At the other extreme, there are competitive supersurgeons
 who go off the deep end in the other direction, constantly needing new
 challenges, wanting to perform spectacular new surgical procedures until
-they finally can’t meet the expectations they have set for themselves. Sur-
-gical pioneers burn out for the opposite reason of the routine specialist:
+they finally can’t meet the expectations they have set for themselves. Surgical pioneers burn out for the opposite reason of the routine specialist:
 they have accomplished the impossible once, but they haven’t found a way
 to do it again.
 Those surgeons who enjoy their work usually practice in hospitals that
 allow variety and a certain amount of experimentation with the latest
-techniques, and that make research and teaching part of the job. The sur-
-geons who like what they do mention money, prestige, and saving lives
+techniques, and that make research and teaching part of the job. The surgeons who like what they do mention money, prestige, and saving lives
 as being important to them, but they state that their greatest enthusiasm
 is for the intrinsic aspects of the job. What makes surgery so special for
-them is the feeling one gets from the activity itself. And the way they de-
-scribe that feeling is in almost every detail similar to the flow experiences
+them is the feeling one gets from the activity itself. And the way they describe that feeling is in almost every detail similar to the flow experiences
 reported by athletes, artists, or the cook who butchered the meat for the
 Lord of Wei.
-The explanation for this is that surgical operations have all the character-
-istics that a flow activity should have. Surgeons mention, for instance, how
+The explanation for this is that surgical operations have all the characteristics that a flow activity should have. Surgeons mention, for instance, how
 well defined their goals are. An internist deals with problems that are less
-specific and localized, and a psychiatrist with even more vague and eph-
-emeral symptoms and solutions. By contrast the surgeon’s task is crystal-
-clear: to cut out the tumor, or set the bone, or get some organ pumping
+specific and localized, and a psychiatrist with even more vague and ephemeral symptoms and solutions. By contrast the surgeon’s task is crystalclear: to cut out the tumor, or set the bone, or get some organ pumping
 away again. Once that task is accomplished he can sew up the incision,
 and turn to the next patient with the sense of a job well done.
 Mihaly Csikszentmihalyi / 155
@@ -6540,8 +5915,7 @@ This second quote indicates that the challenges of an operation are not
 limited to what the surgeon must do personally, but include coordinating
 an event that involves a number of additional players. Many surgeons
 comment on how exhilarating it is to be part of a well-trained team that
-functions smoothly and efficiently. And of course there is always the pos-
-sibility of doing things better, of improving one’s skills. An eye surgeon
+functions smoothly and efficiently. And of course there is always the possibility of doing things better, of improving one’s skills. An eye surgeon
 commented, “You use fine and precise instruments. It is an exercise in
 art…. It all rests on how precisely and artistically you do the operation.”
 Remarked another surgeon, “It is important to watch for details, to be neat
@@ -6549,8 +5923,7 @@ and technically efficient. I don’t like to waste motion and so try to make
 the operation as well planned and thought out as possible. I’m particular
 about how the needle is held, where the stitches are placed, the type of
 suture, and so on—things should look the best and seem easy.”
-The way surgery is practiced helps block out distractions, and concen-
-trates all one’s attention on the procedure. The operating theater is indeed
+The way surgery is practiced helps block out distractions, and concentrates all one’s attention on the procedure. The operating theater is indeed
 like a stage, with spotlights illuminating the action and the actors. Before
 an operation surgeons go through steps of preparation, purification, and
 dressing up in special garments—like athletes before a contest, or priests
@@ -6558,22 +5931,19 @@ before a ceremony. These rituals have a practical purpose, but they also
 serve to separate celebrants from the concerns of everyday life, and focus
 their minds on the event to be enacted. Some surgeons say that on the
 mornings before an important operation they put themselves on “automatic
-pilot” by eating the same breakfast, wear-
-156 / Flow
+pilot” by eating the same breakfast, wear156 / Flow
 
 
 ing the same clothes, and driving to the hospital by the same route. They
 do so not because they are superstitious, but because they sense that this
-habitual behavior makes it easier for them to devote their undivided atten-
-tion to the challenge ahead.
+habitual behavior makes it easier for them to devote their undivided attention to the challenge ahead.
 Surgeons are lucky. Not only are they paid well, not only do they bask
 in respect and admiration, but they also have a job built according to the
 blueprint of flow activities. Notwithstanding all these advantages, there
 are surgeons who go out of their minds because of boredom, or because
 they are reaching after unattainable power and fame. What this indicates
 is that important as the structure of a job is, by itself it won’t determine
-whether or not a person performing that job will find enjoyment in it. Sat-
-isfaction in a job will also depend on whether or not a worker has an
+whether or not a person performing that job will find enjoyment in it. Satisfaction in a job will also depend on whether or not a worker has an
 autotelic personality. Joe the welder enjoyed tasks that few would regard
 as providing opportunities for flow. At the same time some surgeons
 manage to hate a job that seems to have been intentionally created to
@@ -6590,28 +5960,24 @@ optimal experience.
 THE PARADOX OF WORK
 It is easier to understand the way work affects the quality of life when we
 take the long view, and compare ourselves with people from different times
-and cultures. But eventually we have to look more closely at what is hap-
-pening here and now. Ancient Chinese cooks, Alpine farmers, surgeons,
+and cultures. But eventually we have to look more closely at what is happening here and now. Ancient Chinese cooks, Alpine farmers, surgeons,
 and welders help illuminate the potential inherent in work, but they are
 not, after all, very typical of the kind of job most people do nowadays.
 What is work like for average American adults today?
 In our studies we have often encountered a strange inner conflict in the
 way people relate to the way they make their living. On the one hand, our
-subjects usually report that they have had some of their most positive ex-
-periences while on the job. From this response it would follow that they
+subjects usually report that they have had some of their most positive experiences while on the job. From this response it would follow that they
 would wish to be working, that their motivation on the job would be high.
 Instead, even when they feel good, people generally say
 Mihaly Csikszentmihalyi / 157
 
 
 that they would prefer not to be working, that their motivation on the job
-is low. The converse is also true: when supposedly enjoying their hard-
-earned leisure, people generally report surprisingly low moods; yet they
+is low. The converse is also true: when supposedly enjoying their hardearned leisure, people generally report surprisingly low moods; yet they
 keep on wishing for more leisure.
 For example, in one study we used the Experience Sampling Method to
 answer the question: Do people report more instances of flow at work or
-in leisure? The respondents, over a hundred men and women working full-
-time at a variety of occupations, wore an electronic pager for one week,
+in leisure? The respondents, over a hundred men and women working fulltime at a variety of occupations, wore an electronic pager for one week,
 and whenever the pager beeped in response to signals sent at eight random
 times each day for a week, they filled out two pages of a booklet to record
 what they were doing and how they felt at the moment they were signaled.
@@ -6628,8 +5994,7 @@ of defining flow is rather liberal. If one only wished to include extremely
 complex flow experiences—say, those with the highest levels of challenges
 and skills—perhaps fewer than 1 percent of the responses would qualify
 as flow. The methodological convention adopted here to define flow
-functions somewhat like a microscope: depending on the level of magnific-
-ation used, very different detail will be visible.
+functions somewhat like a microscope: depending on the level of magnification used, very different detail will be visible.
 As expected, the more time a person spent in flow during the week, the
 better was the overall quality of his or her reported experience. People who
 were more often in flow were especially likely to feel “strong,” “active,”
@@ -6649,8 +6014,7 @@ when engaged in leisure activities such
 
 as reading, watching TV, having friends over, or going to a restaurant, only
 18 percent of the responses ended up in flow. The leisure responses were
-typically in the range we have come to call apathy, characterized by below-
-average levels of both challenges and skills. In this condition, people tend
+typically in the range we have come to call apathy, characterized by belowaverage levels of both challenges and skills. In this condition, people tend
 to say that they feel passive, weak, dull, and dissatisfied. When people
 were working, 16 percent of the responses were in the apathy region; in
 leisure, over half (52 percent).
@@ -6668,8 +6032,7 @@ Whenever people were in flow, either at work or in leisure, they reported
 it as a much more positive experience than the times they were not in flow.
 When challenges and skills were both high they felt happier, more cheerful,
 stronger, more active; they concentrated more; they felt more creative and
-satisfied. All these differences in the quality of experience were very signi-
-ficant statistically, and they were more or less the same for every kind of
+satisfied. All these differences in the quality of experience were very significant statistically, and they were more or less the same for every kind of
 worker.
 There was only a single exception to this general trend. One of the
 questions in the response booklet asked respondents to indicate, again on
@@ -6683,8 +6046,7 @@ flow. In other words, motivation was low at work even when it provided
 flow, and it was high in leisure even when the quality of experience was
 low.
 Thus we have the paradoxical situation: On the job people feel skillful
-and challenged, and therefore feel more happy, strong, creative, and satis-
-fied. In their free time people feel that there is generally not much to do
+and challenged, and therefore feel more happy, strong, creative, and satisfied. In their free time people feel that there is generally not much to do
 and their skills are not being used, and therefore they tend to feel more
 sad, weak, dull, and dissatisfied. Yet they would like to work less and
 spend more time in leisure.
@@ -6705,8 +6067,7 @@ don’t enjoy it. But comparative examples seem to contradict this argument.
 For instance the farmers of Pont Trentaz work much harder, and for longer
 hours, than the average American, and the challenges they face in their
 daily round require at least as high levels of concentration and involvement.
-Yet they don’t wish to be doing something else while working, and after-
-ward, instead of relaxing, they fill their free time with demanding leisure
+Yet they don’t wish to be doing something else while working, and afterward, instead of relaxing, they fill their free time with demanding leisure
 activities.
 As these findings suggest, the apathy of many of the people around us
 is not due to their being physically or mentally exhausted. The problem
@@ -6760,8 +6121,7 @@ fulfill those expectations. This rarely happens as planned, however, because
 others also have an agenda for their own rigid goals to be achieved. Perhaps
 the best way to avoid this impasse is to set the challenge of reaching one’s
 goals while helping the boss and colleagues reach theirs; it is less direct
-and more time-consuming than forging ahead to satisfy one’s interests re-
-gardless of what happens to others, but in the long run it seldom fails.
+and more time-consuming than forging ahead to satisfy one’s interests regardless of what happens to others, but in the long run it seldom fails.
 Finally, stresses and pressures are clearly the most subjective aspects of
 a job, and therefore the ones that should be most amenable to the control
 of consciousness. Stress exists only if we experience it; it takes the most
@@ -6770,8 +6130,7 @@ pressure will wilt one person and be a welcome challenge to another. There
 are hundreds of ways to relieve stress, some based on better organization,
 delegation of responsibility, better communication with co-workers and
 supervisors; others are based on factors external to the job, such as improved
-home life, leisure patterns, or inner disciplines like transcendental medita-
-tion.
+home life, leisure patterns, or inner disciplines like transcendental meditation.
 Mihaly Csikszentmihalyi / 161
 
 
@@ -6781,65 +6140,49 @@ overall quality of experience. Of course this is easier said than done. To do
 so involves mobilizing psychic energy and keeping it focused on personally
 forged goals, despite inevitable distractions. Various ways of coping with
 external stress will be discussed later, in chapter 9. Now it may be useful
-to consider how the use of leisure time contributes—or fails to contrib-
-ute—to the overall quality of life.
+to consider how the use of leisure time contributes—or fails to contribute—to the overall quality of life.
 THE WASTE OF FREE TIME
 Although, as we have seen, people generally long to leave their places of
 work and get home, ready to put their hard-earned free time to good use,
 all too often they have no idea what to do there. Ironically, jobs are actually
-easier to enjoy than free time, because like flow activities they have built-
-in goals, feedback, rules, and challenges, all of which encourage one to
+easier to enjoy than free time, because like flow activities they have builtin goals, feedback, rules, and challenges, all of which encourage one to
 become involved in one’s work, to concentrate and lose oneself in it. Free
 time, on the other hand, is unstructured, and requires much greater effort
 to be shaped into something that can be enjoyed. Hobbies that demand
 skill, habits that set goals and limits, personal interests, and especially inner
-discipline help to make leisure what it is supposed to be—a chance for re-
-creation. But on the whole people miss the opportunity to enjoy leisure even
+discipline help to make leisure what it is supposed to be—a chance for recreation. But on the whole people miss the opportunity to enjoy leisure even
 more thoroughly than they do with working time. Over sixty years ago,
-the great American sociologist Robert Park already noted: “It is in the im-
-provident use of our leisure, I suspect, that the greatest wastes of American
+the great American sociologist Robert Park already noted: “It is in the improvident use of our leisure, I suspect, that the greatest wastes of American
 life occur.”
-The tremendous leisure industry that has arisen in the last few genera-
-tions has been designed to help fill free time with enjoyable experiences.
-Nevertheless, instead of using our physical and mental resources to exper-
-ience flow, most of us spend many hours each week watching celebrated
+The tremendous leisure industry that has arisen in the last few generations has been designed to help fill free time with enjoyable experiences.
+Nevertheless, instead of using our physical and mental resources to experience flow, most of us spend many hours each week watching celebrated
 athletes playing in enormous stadiums. Instead of making music, we listen
 to platinum records cut by millionaire musicians. Instead of making art,
 we go to admire paintings that brought in the highest bids at the latest
 auction. We do not run risks acting on our beliefs, but occupy hours each
-day watching actors who pretend to have adventures, engaged in mock-
-meaningful action.
-This vicarious participation is able to mask, at least temporarily, the un-
-derlying emptiness of wasted time. But it is a very pale substitute for atten-
-tion invested in real challenges. The flow experience that results from the
-use of skills leads to growth; passive entertainment leads nowhere. Collect-
-ively we are wasting each year the equivalent of millions
+day watching actors who pretend to have adventures, engaged in mockmeaningful action.
+This vicarious participation is able to mask, at least temporarily, the underlying emptiness of wasted time. But it is a very pale substitute for attention invested in real challenges. The flow experience that results from the
+use of skills leads to growth; passive entertainment leads nowhere. Collectively we are wasting each year the equivalent of millions
 162 / Flow
 
 
 of years of human consciousness. The energy that could be used to focus
-on complex goals, to provide for enjoyable growth, is squandered on pat-
-terns of stimulation that only mimic reality. Mass leisure, mass culture,
+on complex goals, to provide for enjoyable growth, is squandered on patterns of stimulation that only mimic reality. Mass leisure, mass culture,
 and even high culture when only attended to passively and for extrinsic
 reasons—such as the wish to flaunt one’s status—are parasites of the mind.
-They absorb psychic energy without providing substantive strength in re-
-turn. They leave us more exhausted, more disheartened than we were be-
-fore.
+They absorb psychic energy without providing substantive strength in return. They leave us more exhausted, more disheartened than we were before.
 Unless a person takes charge of them, both work and free time are likely
 to be disappointing. Most jobs and many leisure activities—especially those
 involving the passive consumption of mass media—are not designed to
 make us happy and strong. Their purpose is to make money for someone
 else. If we allow them to, they can suck out the marrow of our lives, leaving
-only feeble husks. But like everything else, work and leisure can be appro-
-priated for our needs. People who learn to enjoy their work, who do not
+only feeble husks. But like everything else, work and leisure can be appropriated for our needs. People who learn to enjoy their work, who do not
 waste their free time, end up feeling that their lives as a whole have become
 much more worthwhile. “The future,” wrote C. K. Brightbill, “will belong
 not only to the educated man, but to the man who is educated to use his
 leisure wisely.”
 Mihaly Csikszentmihalyi / 163
 
-
-8
 ENJOYING SOLITUDE
 AND OTHER PEOPLE
 STUDIES ON FLOW have demonstrated repeatedly that more than anything
@@ -6850,27 +6193,21 @@ from the way we accomplish our jobs. Our self is largely defined by what
 happens in those two contexts, as Freud recognized in his prescription of
 “love and work” for happiness. The last chapter reviewed some of the flow
 potentials of work; here we will explore relationships with family and
-friends, to determine how they can become the source of enjoyable experi-
-ences.
+friends, to determine how they can become the source of enjoyable experiences.
 Whether we are in the company of other people or not makes a great
 difference to the quality of experience. We are biologically programmed
 to find other human beings the most important objects in the world. Because
 they can make life either very interesting and fulfilling or utterly miserable,
 how we manage relationships with them makes an enormous difference
 to our happiness. If we learn to make our relations with others more like
-flow experiences, our quality of life as a whole is going to be much im-
-proved.
+flow experiences, our quality of life as a whole is going to be much improved.
 On the other hand, we also value privacy and often wish to be left alone.
-Yet it frequently turns out that as soon as we are, we begin to grow de-
-pressed. It is typical for people in this situation to feel lonely, to feel that
+Yet it frequently turns out that as soon as we are, we begin to grow depressed. It is typical for people in this situation to feel lonely, to feel that
 there is no challenge, there is nothing to do. For some,
-164
-
 
 solitude brings about in milder form the disorienting symptoms of sensory
 deprivation. Yet unless one learns to tolerate and even enjoy being alone,
-it is very difficult to accomplish any task that requires undivided concen-
-tration. For this reason, it is essential to find ways to control consciousness
+it is very difficult to accomplish any task that requires undivided concentration. For this reason, it is essential to find ways to control consciousness
 even when we are left to our own devices.
 THE CONFLICT BETWEEN BEING ALONE AND
 BEING WITH OTHERS
@@ -6882,8 +6219,7 @@ person makes a great effort never to be alone; only witches and shamans
 feel comfortable spending time by themselves. In many different human
 societies—Australian Aborigines, Amish farmers, West Point cadets—the
 worst sanction the community can issue is shunning. The person ignored
-grows gradually depressed, and soon begins to doubt his or her very exist-
-ence. In some societies the final outcome of being ostracized is death: the
+grows gradually depressed, and soon begins to doubt his or her very existence. In some societies the final outcome of being ostracized is death: the
 person who is left alone comes to accept the fact that he must be already
 dead, since no one pays attention to him any longer; little by little he stops
 taking care of his body, and eventually passes away. The Latin locution
@@ -6892,8 +6228,7 @@ men”; whereas “to be dead” was inter hominem esse desinere, or “to cease
 be among men.” Exile from the city was, next to being killed outright, the
 most severe punishment for a Roman citizen; no matter how luxurious his
 country estate, if banished from the company of his peers the urban Roman
-became an invisible man. The same bitter fate is well known to contempor-
-ary New Yorkers whenever for some reason they have to leave their city.
+became an invisible man. The same bitter fate is well known to contemporary New Yorkers whenever for some reason they have to leave their city.
 The density of human contacts that great cities afford is like a soothing
 balm; people in such centers relish it even when the interactions it provides
 may be unpleasant or dangerous. The crowds streaming along Fifth Avenue
@@ -6916,8 +6251,7 @@ to break a person down if he or she can rely on the emotional support of
 others.
 There is no question that we are programmed to seek out the company
 of peers. It is likely that sooner or later behavioral geneticists will find in
-our chromosomes the chemical instructions that make us feel so uncomfort-
-able whenever we happen to be alone. There are good reasons why, during
+our chromosomes the chemical instructions that make us feel so uncomfortable whenever we happen to be alone. There are good reasons why, during
 the course of evolution, such instructions should have been added to our
 genes. Animals that develop a competitive edge against other species
 through cooperation survive much better if they are constantly within sight
@@ -6978,8 +6312,7 @@ So Mark started walking again toward home, and the three went in the
 other direction. After a few steps, however, Mark turned around and tried
 to catch up with them. “Listen,” he called, “I want to talk to you.” “Keep
 going,” they shouted back. But he caught up with the trio, and asked if
-they would reconsider giving him back the watch they had taken. He ex-
-plained that it was very cheap, and of no possible value to anyone except
+they would reconsider giving him back the watch they had taken. He explained that it was very cheap, and of no possible value to anyone except
 him: “You see, it was given to me on my birthday by my parents.” The
 three were furious, but finally decided to take a vote on whether to give
 back the watch. The vote went two to one in favor of returning it, so Mark
@@ -7004,8 +6337,7 @@ has the appropriate skills their rules can be transformed.
 But before considering in more depth how relationships can be reshaped
 to provide optimal experiences, it is necessary to take a detour through the
 realms of solitude. Only after understanding a bit better how being alone
-affects the mind can we see more clearly why companionship is so indis-
-pensable to well-being. The average adult spends about one-third of his or
+affects the mind can we see more clearly why companionship is so indispensable to well-being. The average adult spends about one-third of his or
 her waking time alone, yet we know very little about this huge slice of our
 lives, except that we heartily dislike it.
 THE PAIN OF LONELINESS
@@ -7015,8 +6347,7 @@ people all report that their worst experiences have taken place in solitude.
 Almost every activity is more enjoyable with another person around, and
 less so when one does it alone. People are more happy, alert, and cheerful
 if there are others present, compared to how they feel alone, whether they
-are working on an assembly line or watching television. But the most de-
-pressing condition is not that of working or watching TV alone; the worst
+are working on an assembly line or watching television. But the most depressing condition is not that of working or watching TV alone; the worst
 moods are reported when one is alone and there is nothing that needs to be
 done. For people in our studies who live by themselves and do not attend
 church, Sunday mornings are the lowest part of the week, because with no
@@ -7027,8 +6358,7 @@ breakfast, after having browsed through the papers? For many, the lack of
 structure of those hours is devastating. Generally by noon a decision is
 made: I’ll mow the lawn, visit relatives, or watch the football game. A sense
 of purpose then returns, and attention is focused on the next goal.
-Why is solitude such a negative experience? The bottom-line an-
-168 / Flow
+Why is solitude such a negative experience? The bottom-line an168 / Flow
 
 
 swer is that keeping order in the mind from within is very difficult. We
@@ -7037,8 +6367,7 @@ directed. And when external input is lacking, attention begins to wander,
 and thoughts become chaotic—resulting in the state we have called
 “psychic entropy” in chapter 2.
 When left alone, the typical teenager begins to wonder: “What is my
-girlfriend doing now? Am I getting zits? Will I get to finish the math assign-
-ment on time? Are those dudes I had a fight with yesterday going to beat
+girlfriend doing now? Am I getting zits? Will I get to finish the math assignment on time? Are those dudes I had a fight with yesterday going to beat
 me up?” In other words, with nothing to do, the mind is unable to prevent
 negative thoughts from elbowing their way to center stage. And unless
 one learns to control consciousness, the same situation confronts adults.
@@ -7049,28 +6378,21 @@ zap! the potential problems that were waiting in the wings take over.
 It is for this reason that television proves such a boon to so many people.
 Although watching TV is far from being a positive experience—generally
 people report feeling passive, weak, rather irritable, and sad when doing
-it—at least the flickering screen brings a certain amount of order to con-
-sciousness. The predictable plots, familiar characters, and even the redund-
-ant commercials provide a reassuring pattern of stimulation. The screen
-invites attention to itself as a manageable, restricted aspect of the environ-
-ment. While interacting with television, the mind is protected from personal
-worries. The information passing across the screen keeps unpleasant con-
-cerns out of the mind. Of course, avoiding depression this way is rather
+it—at least the flickering screen brings a certain amount of order to consciousness. The predictable plots, familiar characters, and even the redundant commercials provide a reassuring pattern of stimulation. The screen
+invites attention to itself as a manageable, restricted aspect of the environment. While interacting with television, the mind is protected from personal
+worries. The information passing across the screen keeps unpleasant concerns out of the mind. Of course, avoiding depression this way is rather
 spendthrift, because one expends a great deal of attention without having
 much to show for it afterward.
-More drastic ways of coping with the dread of solitude include the reg-
-ular use of drugs, or the recourse to obsessive practices, which may range
+More drastic ways of coping with the dread of solitude include the regular use of drugs, or the recourse to obsessive practices, which may range
 from cleaning the house incessantly to compulsive sexual behavior. While
 under the influence of chemicals, the self is relieved from the responsibility
 of directing its psychic energy; we can sit back and watch the patterns of
 thought that the drug is providing for—whatever happens, it’s out of our
 hands. And like television, the drug keeps the mind from having to face
-depressing thoughts. While alcohol and other drugs are capable of produ-
-cing optimal experiences, they are usually at a very low level of complexity.
+depressing thoughts. While alcohol and other drugs are capable of producing optimal experiences, they are usually at a very low level of complexity.
 Unless consumed in highly skilled ritual contexts, as is practiced in many
 traditional societies, what drugs in fact do is reduce our perception of both
-what can be accomplished and what we as individuals are able to accom-
-plish, until the two are in balance. This
+what can be accomplished and what we as individuals are able to accomplish, until the two are in balance. This
 Mihaly Csikszentmihalyi / 169
 
 
@@ -7082,27 +6404,22 @@ affect the mind. After all, for the past quarter-century we have been told
 with increasing confidence that drugs are “consciousness-expanding,” and
 that using them enhances creativity. But the evidence suggests that while
 chemicals do alter the content and the organization of consciousness, they
-do not expand or increase the self’s control over its function. Yet to accom-
-plish anything creative, one must achieve just such control. Therefore, while
+do not expand or increase the self’s control over its function. Yet to accomplish anything creative, one must achieve just such control. Therefore, while
 psychotropic drugs do provide a wider variety of mental experiences than
 one would encounter under normal sensory conditions, they do so without
 adding to our ability to order them effectively.
 Many contemporary artists experiment with hallucinogens in the hope
 of creating work as mysteriously haunting as those verses of the Kubla Khan
-that Samuel Coleridge allegedly composed under the influence of laudan-
-um. Sooner or later, however, they realize that the composition of any work
+that Samuel Coleridge allegedly composed under the influence of laudanum. Sooner or later, however, they realize that the composition of any work
 of art requires a sober mind. Work that is carried out under the influence
-of drugs lacks the complexity we expect from good art—it tends to be ob-
-vious and self-indulgent. A chemically altered consciousness may bring
+of drugs lacks the complexity we expect from good art—it tends to be obvious and self-indulgent. A chemically altered consciousness may bring
 forth unusual images, thoughts, and feelings that later, when clarity returns,
 the artist can use. The danger is that in becoming dependent on chemicals
 for patterning the mind, he risks losing the ability to control it by himself.
-Much of what passes for sexuality is also just a way of imposing an ex-
-ternal order on our thoughts, of “killing time” without having to confront
+Much of what passes for sexuality is also just a way of imposing an external order on our thoughts, of “killing time” without having to confront
 the perils of solitude. Not surprisingly, watching TV and having sex can
 become roughly interchangeable activities. The habits of pornography and
-depersonalized sex build on the genetically programmed attraction of im-
-ages and activities related to reproduction. They focus attention naturally
+depersonalized sex build on the genetically programmed attraction of images and activities related to reproduction. They focus attention naturally
 and pleasurably, and in so doing help to exclude unwanted contents from
 the mind. What they fail to do is develop any of the attentional habits that
 might lead to a greater complexity of consciousness.
@@ -7111,8 +6428,7 @@ of pleasure: masochistic behavior, risk taking, gambling. These ways that
 people find to hurt or frighten themselves do not require a great deal of
 skill, but they do help one to achieve the sensation of direct experience.
 Even pain is better than the chaos that seeps into an unfocused mind.
-Hurting oneself, whether physically or emotionally, en-
-170 / Flow
+Hurting oneself, whether physically or emotionally, en170 / Flow
 
 
 sures that attention can be focused on something that, although painful, is
@@ -7134,8 +6450,7 @@ while the latter merely serves to keep the mind from unraveling. A person
 who rarely gets bored, who does not constantly need a favorable external
 environment to enjoy the moment, has passed the test for having achieved
 a creative life.
-Learning to use time alone, instead of escaping from it, is especially im-
-portant in our early years. Teenagers who can’t bear solitude disqualify
+Learning to use time alone, instead of escaping from it, is especially important in our early years. Teenagers who can’t bear solitude disqualify
 themselves from later carrying out adult tasks that require serious mental
 preparation. A typical scenario familiar to many parents involves a teenager
 who comes back from school, drops the books in his bedroom, and after
@@ -7152,13 +6467,11 @@ begins to worry about his looks, his popularity, his chances in life. To repel
 these intrusions he must find something else to occupy his consciousness.
 Studying won’t do, because it is too difficult. The adolescent is ready to do
 almost anything to take his mind off this situation—provided it does not
-take too much psychic energy. The usual solution is to turn back to the fa-
-miliar routine of music, TV, or a friend with whom to while the time away.
+take too much psychic energy. The usual solution is to turn back to the familiar routine of music, TV, or a friend with whom to while the time away.
 Mihaly Csikszentmihalyi / 171
 
 
-With every passing decade our culture becomes more dependent on in-
-formation technology. To survive in such an environment, a person must
+With every passing decade our culture becomes more dependent on information technology. To survive in such an environment, a person must
 become familiar with abstract symbolic languages. A few generations ago
 someone who did not know how to read and write could still have found
 a job that provided a good income and reasonable dignity. A farmer, a
@@ -7171,8 +6484,7 @@ Adolescents who never learn to control their consciousness grow up to
 be adults without a “discipline.” They lack the complex skills that will help
 them survive in a competitive, information-intensive environment. And
 what is even more important, they never learn how to enjoy living. They
-do not acquire the habit of finding challenges that bring out hidden poten-
-tials for growth.
+do not acquire the habit of finding challenges that bring out hidden potentials for growth.
 But the teenage years are not the only time when it is crucial to learn
 how to exploit the opportunities of solitude. Unfortunately, too many adults
 feel that once they have hit twenty or thirty—or certainly forty—they are
@@ -7181,16 +6493,13 @@ have paid their dues, they have learned the tricks it takes to survive, and
 from now on they can proceed on cruise control. Equipped with the bare
 minimum of inner discipline, such people inevitably accumulate entropy
 with each passing year. Career disappointments, the failure of physical
-health, the usual slings and arrows of fate build up a mass of negative in-
-formation that increasingly threatens their peace of mind. How does one
-keep these problems away? If a person does not know how to control atten-
-tion in solitude, he will inevitably turn to the easy external solutions: drugs,
+health, the usual slings and arrows of fate build up a mass of negative information that increasingly threatens their peace of mind. How does one
+keep these problems away? If a person does not know how to control attention in solitude, he will inevitably turn to the easy external solutions: drugs,
 entertainment, excitement—whatever dulls or distracts the mind.
 But such responses are regressive—they do not lead forward. The way
 to grow while enjoying life is to create a higher form of order out of the
 entropy that is an inevitable condition of living. This means taking each
-new challenge not as something to be repressed or avoided, but as an op-
-portunity for learning and for improving skills. When physical vigor fails
+new challenge not as something to be repressed or avoided, but as an opportunity for learning and for improving skills. When physical vigor fails
 with age, for example, it means that one will be ready to turn one’s energies
 from the mastery of the external world to a deeper exploration of inner
 reality. It means that one can finally read Proust, take up chess, grow
@@ -7208,21 +6517,18 @@ activities at will, regardless of what is happening externally, then one has
 learned how to shape the quality of life.
 TAMING SOLITUDE
 Every rule has its exceptions, and even though most people dread solitude,
-there are some individuals who live alone by choice. “Whosoever is de-
-lighted in solitude,” goes the old saying that Francis Bacon repeated, “is
+there are some individuals who live alone by choice. “Whosoever is delighted in solitude,” goes the old saying that Francis Bacon repeated, “is
 either a wild beast or a god.” One does not actually have to be a god, but
 it is true that to enjoy being alone a person must build his own mental
 routines, so that he can achieve flow without the supports of civilized
-life—without other people, without jobs, TV, theaters, restaurants, or lib-
-raries to help channel his attention. One interesting example of this type
+life—without other people, without jobs, TV, theaters, restaurants, or libraries to help channel his attention. One interesting example of this type
 of person is a woman named Dorothy, who lives on a tiny island in the
 lonely region of lakes and forests of northern Minnesota, along the Canadian
 border. Originally a nurse in a large city, Dorothy moved to the wilderness
 after her husband died and their children grew up. During the three summer
 months fishermen canoeing across her lake stop at the island to have a chat,
 but during the long winters she is completely alone for months on end.
-Dorothy has had to hang heavy drapes on the windows of her cabin, be-
-cause it used to unnerve her to see packs of wolves, their noses flattened
+Dorothy has had to hang heavy drapes on the windows of her cabin, because it used to unnerve her to see packs of wolves, their noses flattened
 against the windowpanes, looking at her longingly when she woke up in
 the mornings.
 Like other people who live alone in the wilderness, Dorothy has tried to
@@ -7255,22 +6561,18 @@ that will prevent entropy from destructuring the mind. Susan Butcher, the
 dog breeder and trainer who races sleds in the Arctic for up to eleven days
 on end while trying to elude the attacks of rogue moose and wolves, moved
 years ago from Massachusetts to live in a cabin twenty-five miles from the
-nearest village of Manley, Alaska (population sixty-two). Before her mar-
-riage, she lived alone with her hundred and fifty huskies. She doesn’t have
+nearest village of Manley, Alaska (population sixty-two). Before her marriage, she lived alone with her hundred and fifty huskies. She doesn’t have
 the time to feel lonely: hunting for food and caring for her dogs, who require
 her attention sixteen hours a day, seven days a week, prevent that. She
-knows each dog by name, and the name of each dog’s parents and grand-
-parents. She knows their temperaments, preferences, eating habits, and
+knows each dog by name, and the name of each dog’s parents and grandparents. She knows their temperaments, preferences, eating habits, and
 current health. Susan claims she would rather live this way than do anything
 else. The routines she has built demand that her consciousness be focused
 on manageable tasks all of the time—thereby making life a continuous flow
 experience.
-A friend who likes to cross oceans alone on a sailboat once told an anec-
-dote that illustrates the lengths to which solitary cruisers sometimes have
+A friend who likes to cross oceans alone on a sailboat once told an anecdote that illustrates the lengths to which solitary cruisers sometimes have
 to go in order to keep their minds focused. Approaching the Azores on an
 eastward crossing of the Atlantic, about eight hundred miles short of the
-Portuguese coast, and after many days without sighting a sail, he saw an-
-other small craft heading the opposite way. It was a welcome opportunity
+Portuguese coast, and after many days without sighting a sail, he saw another small craft heading the opposite way. It was a welcome opportunity
 to visit with a fellow cruiser, and the two boats set course to meet in the
 open sea, side by side. The man in the other boat had been scrubbing his
 deck, which was partly covered by a foul-smelling, sticky yellow substance.
@@ -7287,15 +6589,13 @@ In
 174 / Flow
 
 
-ordinary circumstances, solo sailors have plenty to keep their minds occu-
-pied. Their survival depends on being ever alert to the conditions of the
+ordinary circumstances, solo sailors have plenty to keep their minds occupied. Their survival depends on being ever alert to the conditions of the
 boat and of the sea. It is this constant concentration on a workable goal that
 makes sailing so enjoyable. But when the doldrums set in, they might have
 to go to heroic lengths to find any challenge at all.
 Is coping with loneliness by letting unnecessary yet demanding rituals
 give shape to the mind any different from taking drugs or watching TV
-constantly? It could be argued that Dorothy and the other hermits are es-
-caping from “reality” just as effectively as addicts are. In both cases,
+constantly? It could be argued that Dorothy and the other hermits are escaping from “reality” just as effectively as addicts are. In both cases,
 psychic entropy is avoided by taking the mind off unpleasant thoughts
 and feelings. Yet how one copes with solitude makes all the difference. If
 being alone is seen as a chance to accomplish goals that cannot be reached
@@ -7304,18 +6604,15 @@ solitude and might be able to learn new skills in the process. On the other
 hand, if solitude is seen as a condition to be avoided at all costs instead of
 as a challenge, the person will panic and resort to distractions that cannot
 lead to higher levels of complexity. Breeding furry dogs and racing sleds
-through arctic forests might seem like a rather primitive endeavor, com-
-pared to the glamorous antics of playboys or cocaine users. Yet in terms
+through arctic forests might seem like a rather primitive endeavor, compared to the glamorous antics of playboys or cocaine users. Yet in terms
 of psychic organization the former is infinitely more complex than the latter.
 Life-styles built on pleasure survive only in symbiosis with complex cultures
 based on hard work and enjoyment. But when the culture is no longer able
 or willing to support unproductive hedonists, those addicted to pleasure,
 lacking skills and discipline and therefore unable to fend for themselves,
 find themselves lost and helpless.
-This is not to imply that the only way to achieve control over conscious-
-ness is to move to Alaska and hunt moose. A person can master flow
-activities in almost any environment. A few will need to live in the wilder-
-ness, or to spend long periods of time alone at sea. Most people will prefer
+This is not to imply that the only way to achieve control over consciousness is to move to Alaska and hunt moose. A person can master flow
+activities in almost any environment. A few will need to live in the wilderness, or to spend long periods of time alone at sea. Most people will prefer
 to be surrounded by the reassuring hustle and bustle of human interaction.
 However, solitude is a problem that must be confronted whether one lives
 in southern Manhattan or the northern reaches of Alaska. Unless a person
@@ -7357,13 +6654,11 @@ had been divided until about a century ago each had laws of inheritance
 that were based either on primogeniture, where the oldest son was left the
 entire family estate, or on an equal division of the estate among all sons.
 Which of these methods for transmitting property was adopted seems to
-have been due almost entirely to chance, yet the choice had profound eco-
-nomic implications. (Primogeniture led to concentration of capital in the
+have been due almost entirely to chance, yet the choice had profound economic implications. (Primogeniture led to concentration of capital in the
 lands that used this method, which in turn led to industrialization;
 whereas equal sharing led to the fragmentation of property and industrial
 underdevelopment.) More pertinent to our story, the relationship between
-siblings in a culture that had adopted primogeniture must have been sub-
-stantially different from one in which equal economic benefits accrued to
+siblings in a culture that had adopted primogeniture must have been substantially different from one in which equal economic benefits accrued to
 all children. The feelings brothers and sisters had for one another, what
 they expected from one another, their reciprocal rights and responsibilities,
 were to a large extent “built into” the peculiar form of the family system.
@@ -7376,13 +6671,11 @@ attachment to family members, the cultural context will have a great deal
 to do with the strength and direction of that attachment.
 Because the family is our first and in many ways our most important
 social environment, quality of life depends to a large extent on how well
-a person succeeds in making the interaction with his or her relatives enjoy-
-able. For no matter how strong the ties biology and culture have forged
+a person succeeds in making the interaction with his or her relatives enjoyable. For no matter how strong the ties biology and culture have forged
 between family members, it is no secret that there is great variety in how
 people feel about their relatives. Some families are warm and supportive,
 some are challenging and demanding, others threaten the self of their
-members at every turn, still others are just insufferably boring. The fre-
-quency of murder is much higher among family members than among
+members at every turn, still others are just insufferably boring. The frequency of murder is much higher among family members than among
 unrelated people. Child abuse and incestuous sexual molestation, once
 thought to be rare deviations from the norm, apparently occur much more
 often than anyone had previously suspected. In John Fletcher’s words,
@@ -7392,16 +6685,12 @@ be depends, to a great extent, on how much psychic energy family members
 invest in the mutual relationship, and especially in each other’s goals.
 Every relationship requires a reorienting of attention, a repositioning of
 goals. When two people begin to go out together, they must accept certain
-constraints that each person alone did not have: schedules have to be co-
-ordinated, plans modified. Even something as simple as a dinner date im-
-poses compromises as to time, place, type of food, and so on. To some de-
-gree the couple will have to respond with similar emotions to the stimuli
+constraints that each person alone did not have: schedules have to be coordinated, plans modified. Even something as simple as a dinner date imposes compromises as to time, place, type of food, and so on. To some degree the couple will have to respond with similar emotions to the stimuli
 they encounter—the relationship will probably not last long if the man
 loves a movie that the woman hates, and vice versa. When two people
 choose to focus their attention on each other, both will have to change their
 habits; as a result, the pattern of their consciousness will also have to change.
-Getting married requires a radical and permanent reorientation of atten-
-tional habits. When a child is added to the pair, both parents have to
+Getting married requires a radical and permanent reorientation of attentional habits. When a child is added to the pair, both parents have to
 readapt again to accommodate the needs of the infant: their sleep cycle
 must change, they will go out less often, the wife may give up her job, they
 may have to start saving for the child’s education.
@@ -7419,8 +6708,7 @@ have a child. As he realizes these latter goals, however, he discovers that
 they are incompatible with the prior ones. He can’t afford a Maserati any
 longer, and the Bahamas are out of reach. Unless he revises the old goals,
 they will be frustrated, producing that sense of inner conflict known as
-psychic entropy. And if he changes goals, his self will change as a con-
-sequence—the self being the sum and organization of goals. In this manner
+psychic entropy. And if he changes goals, his self will change as a consequence—the self being the sum and organization of goals. In this manner
 entering any relationship entails a transformation of the self.
 Until a few decades ago, families tended to stay together because parents
 and children were forced to continue the relationship for extrinsic reasons.
@@ -7444,13 +6732,11 @@ and by the diffusion of labor-saving home appliances, than it is by a
 lessening of love or of moral fiber.
 But extrinsic reasons are not the only ones for staying married and for
 living together in families. There are great opportunities for joy and for
-growth that can only be experienced in family life, and these intrinsic re-
-wards are no less present now than they were in the past; in fact, they are
+growth that can only be experienced in family life, and these intrinsic rewards are no less present now than they were in the past; in fact, they are
 probably much more readily available today than they have been at any
 previous time. If the trend of traditional families keeping together mainly
 as a convenience is on the wane, the number of families that endure because
-their members enjoy each other may be increasing. Of course, because ex-
-ternal forces are still much more powerful than internal ones, the net effect
+their members enjoy each other may be increasing. Of course, because external forces are still much more powerful than internal ones, the net effect
 is likely to be a further fragmentation of family life for some time to come.
 But the families that do persevere will be in
 178 / Flow
@@ -7459,10 +6745,8 @@ But the families that do persevere will be in
 a better position to help their members develop a rich self than families
 held together against their will are able to do.
 There have been endless discussions about whether humans are naturally
-promiscuous, polygamous, or monogamous; and whether in terms of cul-
-tural evolution monogamy is the highest form of family organization. It is
-important to realize that these questions deal only with the extrinsic condi-
-tions shaping marriage relationships. And on that count, the bottom line
+promiscuous, polygamous, or monogamous; and whether in terms of cultural evolution monogamy is the highest form of family organization. It is
+important to realize that these questions deal only with the extrinsic conditions shaping marriage relationships. And on that count, the bottom line
 seems to be that marriages will take the form that most efficiently ensures
 survival. Even members of the same animal species will vary their patterns
 of relationship so as to adapt best in a given environment. For instance the
@@ -7473,26 +6757,22 @@ life of enforced bachelorhood. The same wrens are monogamous in Georgia,
 not so much because that state is part of the Bible Belt, but because the
 marshes all have roughly the same amount of food and cover, and so each
 male can attract a doting spouse to an equally comfortable nesting site.
-The form the human family takes is a response to similar kinds of envir-
-onmental pressures. In terms of extrinsic reasons, we are monogamous
+The form the human family takes is a response to similar kinds of environmental pressures. In terms of extrinsic reasons, we are monogamous
 because in technological societies based on a money economy, time has
 proven this to be a more convenient arrangement. But the issue we have
-to confront as individuals is not whether humans are “naturally” mono-
-gamous or not, but whether we want to be monogamous or not. And in
+to confront as individuals is not whether humans are “naturally” monogamous or not, but whether we want to be monogamous or not. And in
 answering that question, we need to weigh all the consequences of our
 choice.
 It is customary to think of marriage as the end of freedom, and some
 refer to their spouses as “old ball-and-chain.” The notion of family life
 typically implies constraints, responsibilities that interfere with one’s goals
 and freedom of action. While this is true, especially when the marriage is
-one of convenience, what we tend to forget is that these rules and obliga-
-tions are no different, in principle, than those rules that constrain behavior
+one of convenience, what we tend to forget is that these rules and obligations are no different, in principle, than those rules that constrain behavior
 in a game. Like all rules, they exclude a wide range of possibilities so that
 we might concentrate fully on a selected set of options.
 Cicero once wrote that to be completely free one must become a slave to
 a set of laws. In other words, accepting limitations is liberating. For example,
-by making up one’s mind to invest psychic energy exclusively in a mono-
-gamous marriage, regardless of any problems, obstacles, or more attractive
+by making up one’s mind to invest psychic energy exclusively in a monogamous marriage, regardless of any problems, obstacles, or more attractive
 options that may come along later, one is freed of the constant pressure of
 trying to maximize emotional returns. Having made
 Mihaly Csikszentmihalyi / 179
@@ -7501,8 +6781,7 @@ Mihaly Csikszentmihalyi / 179
 the commitment that an old-fashioned marriage demands, and having
 made it willingly instead of being compelled by tradition, a person no
 longer needs to worry whether she has made the right choice, or whether
-the grass might be greener somewhere else. As a result a great deal of en-
-ergy gets freed up for living, instead of being spent on wondering about
+the grass might be greener somewhere else. As a result a great deal of energy gets freed up for living, instead of being spent on wondering about
 how to live.
 If one decides to accept the traditional form of the family, complete with
 a monogamous marriage, and with a close involvement with children, with
@@ -7514,19 +6793,15 @@ To provide flow, a family has to have a goal for its existence. Extrinsic
 reasons are not sufficient: it is not enough to feel that, well, “Everybody
 else is married,” “It is natural to have children,” or “Two can live as cheaply
 as one.” These attitudes may encourage one to start a family, and may even
-be strong enough to keep it going, but they cannot make family life enjoy-
-able. Positive goals are necessary to focus the psychic energies of parents
+be strong enough to keep it going, but they cannot make family life enjoyable. Positive goals are necessary to focus the psychic energies of parents
 and children on common tasks.
-Some of these goals might be very general and long-term, such as plan-
-ning a particular life-style—to build an ideal home, to provide the best
+Some of these goals might be very general and long-term, such as planning a particular life-style—to build an ideal home, to provide the best
 possible education for the children, or to implement a religious way of
-living in a modern secularized society. For such goals to result in interac-
-tions that will help increase the complexity of its members, the family must
+living in a modern secularized society. For such goals to result in interactions that will help increase the complexity of its members, the family must
 be both differentiated and integrated. Differentiation means that each person
 is encouraged to develop his or her unique traits, maximize personal skills,
 set individual goals. Integration, in contrast, guarantees that what happens
-to one person will affect all others. If a child is proud of what she accom-
-plished in school, the rest of the family will pay attention and will be proud
+to one person will affect all others. If a child is proud of what she accomplished in school, the rest of the family will pay attention and will be proud
 of her, too. If the mother is tired and depressed, the family will try to help
 and cheer her up. In an integrated family, each person’s goals matter to all
 others.
@@ -7555,8 +6830,7 @@ vice versa, neither has the opportunity to reduce the inevitable tensions
 that will arise. In this context it is worth stressing that entropy is the basic
 condition of group life, just as it is of personal experience. Unless the
 partners invest psychic energy in the relationship, conflicts are inevitable,
-simply because each individual has goals that are to a certain extent diver-
-gent from those of all other members of the family. Without good lines of
+simply because each individual has goals that are to a certain extent divergent from those of all other members of the family. Without good lines of
 communication the distortions will become amplified, until the relationship
 falls apart.
 Feedback is also crucial to determine whether family goals are being
@@ -7567,20 +6841,16 @@ stopped going because he had become seriously distressed with the idea
 of animals being confined in restricted spaces. It is a fact of life that sooner
 or later all children will express the opinion that common family activities
 are “dumb.” At this point, forcing them to do things together tends to be
-counterproductive. So most parents just give up, and abandon their teen-
-agers to the peer culture. The more fruitful, if more difficult, strategy is to
-find a new set of activities that will continue to keep the family group in-
-volved.
+counterproductive. So most parents just give up, and abandon their teenagers to the peer culture. The more fruitful, if more difficult, strategy is to
+find a new set of activities that will continue to keep the family group involved.
 The balancing of challenges and skills is another factor as necessary in
 enjoying social relationships in general, and family life in particular, as it
 is for any other flow activity. When a man and a woman are first attracted
 to each other, the opportunities for action are usually clear enough. Ever
 since the dawn of time, the most basic challenge for the swain has been
-“Can I make her?” and for the maid, “Can I catch him?” Usually, and de-
-pending on the partners’ level of skill, a host of more complex challenges
+“Can I make her?” and for the maid, “Can I catch him?” Usually, and depending on the partners’ level of skill, a host of more complex challenges
 are also perceived: to find out what sort of a person the other really is, what
-movies she likes, what he thinks about South Africa, and whether the en-
-counter is likely to develop into a “meaningful relationship.” Then there
+movies she likes, what he thinks about South Africa, and whether the encounter is likely to develop into a “meaningful relationship.” Then there
 are fun things to do together, places to
 Mihaly Csikszentmihalyi / 181
 
@@ -7590,8 +6860,7 @@ With time one gets to know the other person well, and the obvious
 challenges have been exhausted. All the usual gambits have been tried; the
 other person’s reactions have become predictable. Sexual play has lost its
 first excitement. At this point, the relationship is in danger of becoming a
-boring routine that might be kept alive by mutual convenience, but is un-
-likely to provide further enjoyment, or spark a new growth in complexity.
+boring routine that might be kept alive by mutual convenience, but is unlikely to provide further enjoyment, or spark a new growth in complexity.
 The only way to restore flow to the relationship is by finding new challenges
 in it.
 These might involve steps as simple as varying the routines of eating,
@@ -7605,8 +6874,7 @@ relationship sooner or later faces the big question: whether the two partners
 are ready to make a lifelong commitment. At that point, a whole new set
 of challenges presents itself: raising a family together, getting involved in
 broader community affairs when the children have grown up, working
-alongside one another. Of course, these things cannot happen without ex-
-tensive inputs of energy and time; but the payoff in terms of the quality of
+alongside one another. Of course, these things cannot happen without extensive inputs of energy and time; but the payoff in terms of the quality of
 experience is usually more than worth it.
 The same need to constantly increase challenges and skills applies to
 one’s relationship with children. During the course of infancy and early
@@ -7624,8 +6892,7 @@ Teenagers are physiologically mature beings, ripe for sexual reproduction;
 in most societies (and in ours too, a century or so ago) they are considered
 ready for adult responsibilities and appropriate recognition. Because our
 present social arrangements, however, do not provide adequate challenges
-for the skills teenagers have, they must discover oppor-
-182 / Flow
+for the skills teenagers have, they must discover oppor182 / Flow
 
 
 tunities for action outside those sanctioned by adults. The only outlets they
@@ -7633,19 +6900,15 @@ find, all too often, are vandalism, delinquency, drugs, and recreational sex.
 Under existing conditions, it is very difficult for parents to compensate for
 the poverty of opportunities in the culture at large. In this respect, families
 living in the richest suburbs are barely better off than families living in the
-slums. What can a strong, vital, intelligent fifteen-year-old do in your typ-
-ical suburb? If you consider that question you will probably conclude that
+slums. What can a strong, vital, intelligent fifteen-year-old do in your typical suburb? If you consider that question you will probably conclude that
 what is available is either too artificial, or too simple, or not exciting enough
 to catch a teenager’s imagination. It is not surprising that athletics are so
 important in suburban schools; compared to the alternatives, they provide
 some of the most concrete chances to exercise and display one’s skills.
 But there are some steps that families can take to partially alleviate this
 wasteland of opportunities. In older times, young men left home for a while
-as apprentices and traveled to distant towns to be exposed to new chal-
-lenges. Today something similar exists in America for late teens: the custom
-of leaving home for college. The problem remains with the period of pu-
-berty, roughly the five years between twelve and seventeen: What mean-
-ingful challenges can be found for young people that age? The situation is
+as apprentices and traveled to distant towns to be exposed to new challenges. Today something similar exists in America for late teens: the custom
+of leaving home for college. The problem remains with the period of puberty, roughly the five years between twelve and seventeen: What meaningful challenges can be found for young people that age? The situation is
 much easier when the parents themselves are involved in understandable
 and complex activities at home. If the parents enjoy playing music, cooking,
 reading, gardening, carpentry, or fixing engines in the garage, then it is
@@ -7662,11 +6925,9 @@ children will naturally assume that adults are boring people who don’t
 know how to have fun, and will turn to the peer group for enjoyment.
 In poorer communities youth gangs provide plenty of real challenges
 for boys. Fights, acts of bravado, and ritual displays such as motorcycle
-gang parades match the youths’ skills with concrete opportunities. In afflu-
-ent suburbs not even this arena for action is available to teenagers. Most
+gang parades match the youths’ skills with concrete opportunities. In affluent suburbs not even this arena for action is available to teenagers. Most
 activities, including school, recreation, and employment, are under adult
-control and leave little room for the youths’ initiative. Lacking any mean-
-ingful outlet for their skills and creativity,
+control and leave little room for the youths’ initiative. Lacking any meaningful outlet for their skills and creativity,
 Mihaly Csikszentmihalyi / 183
 
 
@@ -7676,14 +6937,11 @@ alive. Consciously or not, many young girls feel that becoming pregnant
 is the only really adult thing they can do, despite its dangers and unpleasant
 consequences. How to restructure such an environment so as to make it
 sufficiently challenging is certainly one of the most pressing tasks parents
-of teenagers face. And it is of no value simply to tell one’s strapping adoles-
-cent children to shape up and do something useful. What does help are
+of teenagers face. And it is of no value simply to tell one’s strapping adolescent children to shape up and do something useful. What does help are
 living examples and concrete opportunities. If these are not available, one
 cannot blame the young for taking their own counsel.
 Some of the tensions of teenage life can be eased if the family provides
-a sense of acceptance, control, and self-confidence to the adolescent. A re-
-lationship that has these dimensions is one in which people trust one an-
-other, and feel totally accepted. One does not have to worry constantly
+a sense of acceptance, control, and self-confidence to the adolescent. A relationship that has these dimensions is one in which people trust one another, and feel totally accepted. One does not have to worry constantly
 about being liked, being popular, or living up to others’ expectations. As
 the popular sayings go, “Love means never having to say ‘I’m sorry,’”
 “Home is where you’re always welcome.” Being assured of one’s worth
@@ -7695,9 +6953,7 @@ Unconditional acceptance is especially important to children. If parents
 threaten to withdraw their love from a child when he fails to measure up,
 the child’s natural playfulness will be gradually replaced by chronic anxiety.
 However, if the child feels that his parents are unconditionally committed
-to his welfare, he can then relax and explore the world without fear; other-
-wise he has to allocate psychic energy to his own protection, thereby redu-
-cing the amount he can freely dispose of. Early emotional security may
+to his welfare, he can then relax and explore the world without fear; otherwise he has to allocate psychic energy to his own protection, thereby reducing the amount he can freely dispose of. Early emotional security may
 well be one of the conditions that helps develop an autotelic personality
 in children. Without this, it is difficult to let go of the self long enough to
 experience flow.
@@ -7707,15 +6963,12 @@ there is no risk attached to transgressing rules they become meaningless,
 and without meaningful rules an activity cannot be enjoyable. Children
 must know that parents expect certain things from them, and that specific
 consequences will follow if they don’t obey. But they must also recognize
-that no matter what happens, the parents’ concern for them is not in ques-
-tion.
+that no matter what happens, the parents’ concern for them is not in question.
 184 / Flow
 
 
-When a family has a common purpose and open channels of communic-
-ation, when it provides gradually expanding opportunities for action in a
-setting of trust, then life in it becomes an enjoyable flow activity. Its mem-
-bers will spontaneously focus their attention on the group relationship,
+When a family has a common purpose and open channels of communication, when it provides gradually expanding opportunities for action in a
+setting of trust, then life in it becomes an enjoyable flow activity. Its members will spontaneously focus their attention on the group relationship,
 and to a certain extent forget their individual selves, their divergent goals,
 for the sake of experiencing the joy of belonging to a more complex system
 that joins separate consciousnesses in a unified goal.
@@ -7728,8 +6981,7 @@ and feel that any serious demand from the family is unwarranted. They
 often have an almost superstitious faith in the integrity of the home. Only
 when it is too late—when the wife has become dependent on alcohol, when
 the children have turned into cold strangers—do many men wake up to
-the fact that the family, like any other joint enterprise, needs constant in-
-vestments of psychic energy to assure its existence.
+the fact that the family, like any other joint enterprise, needs constant investments of psychic energy to assure its existence.
 To play the trumpet well, a musician cannot let more than a few days
 pass without practicing. An athlete who does not run regularly will soon
 be out of shape, and will no longer enjoy running. Any manager knows
@@ -7759,8 +7011,7 @@ teenagers: young adults also are happier with friends than with anyone
 else, including their spouses. Even retirees are happier when they are with
 friends than when they are with their spouses or families.
 Because a friendship usually involves common goals and common
-activities, it is “naturally” enjoyable. But like any other activity, this rela-
-tionship can take a variety of forms, ranging from the destructive to the
+activities, it is “naturally” enjoyable. But like any other activity, this relationship can take a variety of forms, ranging from the destructive to the
 highly complex. When a friendship is primarily a way of validating one’s
 own insecure sense of self, it will give pleasure, but it will not be enjoyable
 in our sense—that of fostering growth. For instance, the institution of
@@ -7770,15 +7021,13 @@ all their lives. In the congenial atmosphere of tavern, pub, osteria, beer hall,
 tearoom, or coffee shop, they grind the day away playing cards, darts, or
 checkers while arguing and teasing one another. Meanwhile everyone feels
 his existence validated by the reciprocal attention paid to one another’s
-ideas and idiosyncrasies. This type of interaction keeps at bay the disorgan-
-ization that solitude brings to the passive mind, but without stimulating
+ideas and idiosyncrasies. This type of interaction keeps at bay the disorganization that solitude brings to the passive mind, but without stimulating
 much growth. It is rather like a collective form of television watching, and
 although it is more complex in that it requires participation, its actions and
 phrases tend to be rigidly scripted and highly predictable.
 Socializing of this kind mimics friendship relations, but it provides few
 of the benefits of the real thing. Everyone takes pleasure in occasionally
-passing the time of day chatting, but many people become extremely de-
-pendent on a daily “fix” of superficial contacts. This is especially true for
+passing the time of day chatting, but many people become extremely dependent on a daily “fix” of superficial contacts. This is especially true for
 individuals who cannot tolerate solitude, and who have little emotional
 support at home.
 Teenagers without strong family ties can become so dependent on their
@@ -7786,8 +7035,7 @@ peer group that they will do anything to be accepted by it. About twenty
 years ago in Tucson, Arizona, the entire senior class of a large high school
 knew for several months that an older dropout from the school, who had
 kept up a “friendship” with the younger students, had been killing their
-classmates, and burying their corpses in the desert. Yet none of them repor-
-ted the crimes to the authorities, who discovered them by chance. The
+classmates, and burying their corpses in the desert. Yet none of them reported the crimes to the authorities, who discovered them by chance. The
 students, all nice middle-class suburban kids, claimed that they could not
 divulge the murders for fear of being cut by their friends. If those Tucson
 teenagers had had warm family ties, or
@@ -7798,16 +7046,13 @@ strong links to other adults in the community, ostracization by their peers
 would not have been so intolerable. But apparently only the peer group
 stood between them and solitude. Unfortunately, this is not an unusual
 story; now and then one very much like it appears in the media.
-If the young person feels accepted and cared for at home, however, de-
-pendence on the group is lessened, and the teenager can learn to be in
+If the young person feels accepted and cared for at home, however, dependence on the group is lessened, and the teenager can learn to be in
 control of his relationships with peers. Christopher, who at fifteen was a
 rather shy, quiet boy with glasses and few friends, felt close enough to his
 parents to explain that he was tired of being left out of the cliques in school,
 and had decided to become more popular. To do so, Chris outlined a
-carefully planned strategy: he was to buy contact lenses, wear only fashion-
-able (i.e., funky) clothes, learn about the latest music and teenage fads, and
-highlight his hair with a blond dye. “I want to see if I can change my per-
-sonality,” he said, and spent many days in front of the mirror practicing a
+carefully planned strategy: he was to buy contact lenses, wear only fashionable (i.e., funky) clothes, learn about the latest music and teenage fads, and
+highlight his hair with a blond dye. “I want to see if I can change my personality,” he said, and spent many days in front of the mirror practicing a
 laid-back demeanor and a goofy smile.
 This methodical approach, supported by his parents’ collusion, worked
 well. By the end of the year he was being invited into the best cliques, and
@@ -7815,8 +7060,7 @@ the following year he won the part of Conrad Birdie in the school musical.
 Because he identified with the part of the rock star so well, he became the
 heartthrob of middle-school girls, who taped his picture inside their lockers.
 The senior yearbook showed him involved in all sorts of successful ventures,
-such as winning a prize in the “Sexy Legs” contest. He had indeed suc-
-ceeded in changing his outward personality, and achieved control of the
+such as winning a prize in the “Sexy Legs” contest. He had indeed succeeded in changing his outward personality, and achieved control of the
 way his peers saw him. At the same time, the inner organization of his self
 remained the same: he continued to be a sensitive, generous young man
 who did not think less of his peers because he learned to manage their
@@ -7825,11 +7069,9 @@ One of the reasons Chris was able to become popular while many others
 do not is that he approached his goal with the same detached discipline
 that an athlete would use to make the football team, or a scientist would
 apply to an experiment. He was not overwhelmed by the task, but chose
-realistic challenges he could master on his own. In other words, he trans-
-formed the daunting, vague monster of popularity into a feasible flow
+realistic challenges he could master on his own. In other words, he transformed the daunting, vague monster of popularity into a feasible flow
 activity that he ended up enjoying while it gave him a sense of pride and
-self-esteem. The company of peers, like every other activity, can be experi-
-enced at various levels: at the lowest level of complexity it is a pleasurable
+self-esteem. The company of peers, like every other activity, can be experienced at various levels: at the lowest level of complexity it is a pleasurable
 way to ward off chaos temporarily; at the highest it provides a strong sense
 of enjoyment and growth.
 It is in the context of intimate friendships, however, that the most intense
@@ -7860,20 +7102,15 @@ the cunning of the hunter or the craft of the workman, or intellectual tools,
 like reading and writing and the specialized knowledge of the professional
 in our technological society. People who have not learned to find flow in
 most of the things they undertake generally experience instrumental tasks
-as extrinsic—because they do not reflect their own choices, but are require-
-ments imposed from the outside. Expressive skills, on the other hand, refer
+as extrinsic—because they do not reflect their own choices, but are requirements imposed from the outside. Expressive skills, on the other hand, refer
 to actions that attempt to externalize our subjective experiences. Singing a
 song that reflects how we feel, translating our moods into a dance, painting
 a picture that represents our feelings, telling a joke we like, and going
 bowling if that is what makes us feel good are forms of expression in this
 sense. When involved in an expressive activity we feel in touch with our
-real self. A person who lives only by instrumental actions without experi-
-encing the spontaneous flow of expressivity eventually becomes indistin-
-guishable from a robot who has been programmed by aliens to mimic hu-
-man behavior.
+real self. A person who lives only by instrumental actions without experiencing the spontaneous flow of expressivity eventually becomes indistinguishable from a robot who has been programmed by aliens to mimic human behavior.
 In the course of normal life there are few opportunities to experience the
-feeling of wholeness expressivity provides. At work one must behave ac-
-cording to the expectations for one’s role, and be a competent mechanic, a
+feeling of wholeness expressivity provides. At work one must behave according to the expectations for one’s role, and be a competent mechanic, a
 sober judge, a deferent waiter. At home one has to be a caring mother or
 a respectful son. And in between, on the bus or the subway, one has to turn
 an impassive face to the world. It is only with
@@ -7887,8 +7124,7 @@ the company of friends that we can most clearly experience the freedom
 of the self and learn who we really are. The ideal of a modern marriage is
 to have one’s spouse as a friend. In previous times, when marriages were
 arranged for the mutual convenience of families, this was considered an
-impossibility. But now that there are fewer extrinsic pressures to get mar-
-ried, many people claim that their best friend is their spouse.
+impossibility. But now that there are fewer extrinsic pressures to get married, many people claim that their best friend is their spouse.
 Friendship is not enjoyable unless we take up its expressive challenges.
 If a person surrounds himself with “friends” who simply reaffirm his
 public persona, who never question his dreams and desires, who never
@@ -7926,8 +7162,7 @@ as one must cultivate a job or a family.
 THE WIDER COMMUNITY
 A person is part of a family or a friendship to the extent he invests psychic
 energy in goals shared with other people. In the same way, one can belong
-to larger interpersonal systems by subscribing to the aspirations of a com-
-munity, an ethnic group, a political party, or a nation. Some individuals,
+to larger interpersonal systems by subscribing to the aspirations of a community, an ethnic group, a political party, or a nation. Some individuals,
 like the Mahatma Gandhi or Mother Teresa, invest all their psychic energy
 in what they construe to be the goals of humanity as a whole.
 In the ancient Greek usage, “politics” referred to whatever involved
@@ -7939,8 +7174,7 @@ very intricate problems in solitude, and family and friends can take up a
 lot of attention. But trying to optimize the goals of unrelated individuals
 involves complexities an order of magnitude higher.
 Unfortunately, many people who move in the public arena do not act at
-very high levels of complexity. Politicians tend to seek power, philanthrop-
-ists fame, and would-be saints often seek to prove how righteous they are.
+very high levels of complexity. Politicians tend to seek power, philanthropists fame, and would-be saints often seek to prove how righteous they are.
 These goals are not so hard to achieve, provided one invests enough energy
 in them. The greater challenge is not only to benefit oneself, but to help
 others in the process. It is more difficult, but much more fulfilling, for the
@@ -7952,8 +7186,7 @@ politicians as canny because they try to achieve wealth and power for
 themselves. But if we accept the fact that optimal experience is what gives
 real value to life, then we must conclude that politicians who strive to
 realize the common good are actually smarter, because they are taking on
-the higher challenges, and thus have a better chance to experience real en-
-joyment.
+the higher challenges, and thus have a better chance to experience real enjoyment.
 Any involvement in the public realm can be enjoyable, provided one
 structures it according to the flow parameters. It does not matter whether
 one starts to work with the Cub Scouts or with a group exploring the Great
@@ -7991,20 +7224,16 @@ Similarly the value of a school does not depend on its prestige, or its ability
 to train students to face up to the necessities of life, but rather on the degree
 of the enjoyment of lifelong learning it can transmit. A good factory is not
 necessarily the one that makes the most money, but the one that is most
-responsible for improving the quality of life for its workers and its custom-
-ers. And the true function of politics is not to make people more affluent,
+responsible for improving the quality of life for its workers and its customers. And the true function of politics is not to make people more affluent,
 safe, or powerful, but to let as many as possible enjoy an increasingly
 complex existence.
-But no social change can come about until the consciousness of individu-
-als is changed first. When a young man asked Carlyle how he should go
+But no social change can come about until the consciousness of individuals is changed first. When a young man asked Carlyle how he should go
 about reforming the world, Carlyle answered, “Reform yourself. That way
 there will be one less rascal in the world.” The advice is still valid. Those
 who try to make life better for everyone without having learned to control
 their own lives first usually end up making things worse all around.
 Mihaly Csikszentmihalyi / 191
 
-
-9
 CHEATING
 CHAOS
 DESPITE EVERYTHING that has been said so far, some people may still think
@@ -8026,10 +7255,7 @@ decoration. Only with a solid base of these more real advantages does it
 help make the subjective aspects of life satisfying.
 Needless to say, the whole thesis of this book argues against such a
 conclusion. Subjective experience is not just one of the dimensions of life,
-it is life itself. Material conditions are secondary: they only affect us indir-
-ectly, by way of experience. Flow, and even pleasure, on the other
-192
-
+it is life itself. Material conditions are secondary: they only affect us indirectly, by way of experience. Flow, and even pleasure, on the other
 
 hand, benefit the quality of life directly. Health, money, and other material
 advantages may or may not improve life. Unless a person has learned to
@@ -8049,14 +7275,12 @@ it is also true, as Dr. Franz Alexander has so well stated: “The fact that the
 mind rules the body is, in spite of its neglect by biology and medicine, the
 most fundamental fact which we know about the process of life.” Holistic
 medicine and such books as Norman Cousins’s account of his successful
-fight against terminal illness and Dr. Bernie Siegel’s descriptions of self-
-healing are beginning to redress the abstractly materialist view of health
+fight against terminal illness and Dr. Bernie Siegel’s descriptions of selfhealing are beginning to redress the abstractly materialist view of health
 that has become so prevalent in this century. The relevant point to be made
 here is that a person who knows how to find flow from life is able to enjoy
 even situations that seem to allow only despair.
 Rather incredible examples of how people achieve flow despite extreme
-handicaps have been collected by Professor Fausto Massimini of the psy-
-chology department of the University of Milan. One group he and his team
+handicaps have been collected by Professor Fausto Massimini of the psychology department of the University of Milan. One group he and his team
 studied was composed of paraplegics, generally young people who at some
 point in the past, usually as a result of an accident, have lost the use of their
 limbs. The unexpected finding of this study was that a large proportion of
@@ -8070,18 +7294,15 @@ again was in
 Mihaly Csikszentmihalyi / 193
 
 
-itself a matter of enjoyment and pride, and they were able to turn the acci-
-dent from a source of entropy into an occasion of inner order.
-Lucio, one of the members of this group, was a twenty-year-old happy-
-go-lucky gas station attendant when a motorcycle accident paralyzed him
+itself a matter of enjoyment and pride, and they were able to turn the accident from a source of entropy into an occasion of inner order.
+Lucio, one of the members of this group, was a twenty-year-old happygo-lucky gas station attendant when a motorcycle accident paralyzed him
 below the waist. He had previously liked playing rugby and listening to
 music, but basically he remembers his life as purposeless and uneventful.
 After the accident his enjoyable experiences have increased both in number
 and complexity. Upon recovery from the tragedy he enrolled in college,
 graduated in languages, and now works as a freelance tax consultant. Both
 study and work are intense sources of flow; so are fishing and shooting
-with a bow and arrow. He is currently a regional archery champion—com-
-peting from a wheelchair.
+with a bow and arrow. He is currently a regional archery champion—competing from a wheelchair.
 These are some of the comments Lucio made in his interview: “When I
 became paraplegic, it was like being born again. I had to learn from scratch
 everything I used to know, but in a different way. I had to learn to dress
@@ -8117,8 +7338,7 @@ Another sample studied by the Milan group was made up of several
 dozen individuals who were either congenitally blind or had lost their sight
 sometime after birth. Again, what is so remarkable about these interviews
 is the number of people who describe the loss of their sight as a positive
-event that has enriched their lives. Pilar, for instance, is a thirty-three-year-
-old woman whose retinas became detached from both eyes when she was
+event that has enriched their lives. Pilar, for instance, is a thirty-three-yearold woman whose retinas became detached from both eyes when she was
 twelve, and who has been unable to see ever since. Blindness freed her
 from a painfully violent and poor family situation, and made her life more
 purposeful and rewarding than it probably would have been had she stayed
@@ -8139,8 +7359,7 @@ He does not list blindness among the positive influences, but he mentions
 four positive outcomes of this tragic event: “First, although I realize and
 accept my limitations, I am going to keep attempting to overcome them.
 Second, I have decided to always try changing those situations I don’t like.
-Third, I am very careful not to repeat any of the mistakes I make. And fi-
-nally, now I have no illusions, but I try to be tolerant with myself so I can
+Third, I am very careful not to repeat any of the mistakes I make. And finally, now I have no illusions, but I try to be tolerant with myself so I can
 be tolerant with others also.” It is astonishing how for Paolo, as for most
 of the people with handicaps, the control of consciousness has emerged in
 its stark simplicity as the foremost goal. But this does not mean that the
@@ -8151,9 +7370,7 @@ sports, and listening to music among his current flow experiences. Recently
 he finished seventh in a swim meet for the handicapped in Sweden, and
 he won a chess championship in Spain. His wife is also blind, and coaches
 a blind women’s athletic team. He is presently planning to write a Braille
-text for learning how to play the classical guitar. Yet none of these aston-
-ishing achieve-
-Mihaly Csikszentmihalyi / 195
+text for learning how to play the classical guitar. Yet none of these astonishing achieveMihaly Csikszentmihalyi / 195
 
 
 ments would matter much if Paolo did not feel in control of his inner life.
@@ -8177,8 +7394,7 @@ to “normal” life, would have been diagnosed as psychopaths or worse. In
 fact, many of them have proven to be unfortunate, helpless individuals
 whose strength has been exhausted by catastrophes of various kinds.
 Nevertheless, it is again astonishing to learn how many of them have been
-able to transform bleak conditions into an existence that has the character-
-istics of a satisfying flow experience. Of the many examples, we shall quote
+able to transform bleak conditions into an existence that has the characteristics of a satisfying flow experience. Of the many examples, we shall quote
 extensively from one interview that can stand for many others.
 Reyad is a thirty-three-year-old Egyptian who currently sleeps in the
 parks of Milan, eats in charity kitchens, and occasionally washes dishes for
@@ -8194,20 +7410,17 @@ my town were sure I was crazy when I decided to start walking to
 Europe. But the best thing in life is to know oneself…. My idea from
 1967 on has remained the same: to find myself. I had to struggle
 against many things. I passed through Lebanon and its war, through
-Syria, Jordan, Turkey, Yugo-
-196 / Flow
+Syria, Jordan, Turkey, Yugo196 / Flow
 
 
-slavia, before getting here. I had to confront all sorts of natural dis-
-asters; I slept in ditches near the road in thunderstorms, I was involved
+slavia, before getting here. I had to confront all sorts of natural disasters; I slept in ditches near the road in thunderstorms, I was involved
 in accidents, I have seen friends die next to me, but my concentration
 has never flagged…. It has been an adventure that so far has lasted
 twenty years, but it will keep going on for the rest of my life….
 Through these experiences I have come to see that the world is not
 worth much. The only thing that counts for me now, first and last, is
 God. I am most concentrated when I pray with my prayer beads. Then
-I am able to put my feelings to sleep, to calm myself and avoid becom-
-ing crazy. I believe that destiny rules life, and it makes no sense to
+I am able to put my feelings to sleep, to calm myself and avoid becoming crazy. I believe that destiny rules life, and it makes no sense to
 struggle too hard…. During my journey I have seen hunger, war,
 death, and poverty. Now through prayer I have begun to hear myself,
 I have returned toward my center, I have achieved concentration and
@@ -8218,11 +7431,9 @@ own fate, and we should be like the lion in the proverb. The lion,
 when he runs after a pack of gazelles, can only catch them one at a
 time. I try to be like that, and not like Westerners who go crazy
 working even though they cannot eat more than their daily bread….
-If I am to live twenty more years, I will try to live enjoying each mo-
-ment, instead of killing myself to get more…. If I am to live like a free
+If I am to live twenty more years, I will try to live enjoying each moment, instead of killing myself to get more…. If I am to live like a free
 man who does not depend on anyone, I can afford to go slowly; if I
-don’t earn anything today, it does not matter. It means that this hap-
-pens to be my fate. Next day I may earn 100 million—or get a terminal
+don’t earn anything today, it does not matter. It means that this happens to be my fate. Next day I may earn 100 million—or get a terminal
 illness. Like Jesus Christ said, What does it benefit to man if he gains
 the entire world, but loses himself? I have tried first to conquer myself;
 I don’t care if I lose the world.
@@ -8245,10 +7456,7 @@ the “good things in life” and pursue such a
 Mihaly Csikszentmihalyi / 197
 
 
-chimera? Was he born with a hormonal imbalance? Did his parents trau-
-matize him? These questions, which are the ones that usually interest psy-
-chologists, shall not concern us here. The point is not to explain what ac-
-counts for Reyad’s strangeness, but to recognize that, given the fact he is
+chimera? Was he born with a hormonal imbalance? Did his parents traumatize him? These questions, which are the ones that usually interest psychologists, shall not concern us here. The point is not to explain what accounts for Reyad’s strangeness, but to recognize that, given the fact he is
 who he is, Reyad has transformed living conditions most people would
 find unbearable into a meaningful, enjoyable existence. And that is more
 than many people living in comfort and luxury can claim.
@@ -8271,17 +7479,14 @@ that the same blow will destroy one person, while another will transform
 it into inner order?
 Psychologists usually study the answers to such questions under the
 heading of coping with stress. It is obvious that certain events cause more
-psychological strain than others: for example, the death of a spouse is sev-
-eral orders of magnitude more stressful than taking out a mortgage on a
+psychological strain than others: for example, the death of a spouse is several orders of magnitude more stressful than taking out a mortgage on a
 house, which in turn causes more strain than being given a traffic ticket.
-But it is also clear that the same stressful event might make one person ut-
-terly miserable, while another will bite the bullet and make the best of it.
+But it is also clear that the same stressful event might make one person utterly miserable, while another will bite the bullet and make the best of it.
 This difference in how a person responds to stressful events has been called
 “coping ability” or “coping style.”
 In trying to sort out what accounts for a person’s ability to cope with
 stress, it is useful to distinguish three different kinds of resources. The first
-is the external support available, and especially the network of social sup-
-ports. A major illness, for instance, will be mitigated to a certain extent if
+is the external support available, and especially the network of social supports. A major illness, for instance, will be mitigated to a certain extent if
 one has good insurance and a loving family. The second
 198 / Flow
 
@@ -8301,8 +7506,7 @@ have and the most flexible resource, the one most under our personal
 control.
 There are two main ways people respond to stress. The positive response
 is called a “mature defense” by George Vaillant, a psychiatrist who has
-studied the lives of successful and relatively unsuccessful Harvard gradu-
-ates over a period of about thirty years; others call it “transformational
+studied the lives of successful and relatively unsuccessful Harvard graduates over a period of about thirty years; others call it “transformational
 coping.” The negative response to stress would be a “neurotic defense” or
 “regressive coping,” according to these models.
 To illustrate the difference between them, let us take the example of Jim,
@@ -8334,17 +7538,13 @@ start figuring out what to do next. But people do differ in their abilities to
 use one or the other strategy. The paraplegic who became a champion
 archer, or the blind chess master, visited by misfortunes so intense that
 they are off the scale of stressful life events, are examples of individuals
-who have mastered transformational coping. Others, however, when con-
-fronted by much less intense levels of stress, might give up and respond
+who have mastered transformational coping. Others, however, when confronted by much less intense levels of stress, might give up and respond
 by scaling down the complexity of their lives forever.
 The ability to take misfortune and make something good come of it is a
 very rare gift. Those who possess it are called “survivors,” and are said to
-have “resilience,” or “courage.” Whatever we call them, it is generally un-
-derstood that they are exceptional people who have overcome great hard-
-ships, and have surmounted obstacles that would daunt most men and
+have “resilience,” or “courage.” Whatever we call them, it is generally understood that they are exceptional people who have overcome great hardships, and have surmounted obstacles that would daunt most men and
 women. In fact, when average people are asked to name the individuals
-they admire the most, and to explain why these men and women are ad-
-mired, courage and the ability to overcome hardship are the qualities most
+they admire the most, and to explain why these men and women are admired, courage and the ability to overcome hardship are the qualities most
 often mentioned as a reason for admiration. As Francis Bacon remarked,
 quoting from a speech by the Stoic philosopher Seneca, “The good things
 which belong to prosperity are to be wished, but the good things that belong
@@ -8352,14 +7552,11 @@ to adversity are to be admired.”
 In one of our studies the list of admired persons included an old lady
 who, despite her paralysis, was always cheerful and ready to listen to other
 people’s troubles; a teenage camp counselor who, when a swimmer was
-missing and everybody else panicked, kept his head and organized a suc-
-cessful rescue effort; a female executive who, despite ridicule and sexist
-pressures, prevailed in a difficult working environment; and Ignaz Sem-
-melweis, the Hungarian physician who in the last century insisted that the
+missing and everybody else panicked, kept his head and organized a successful rescue effort; a female executive who, despite ridicule and sexist
+pressures, prevailed in a difficult working environment; and Ignaz Semmelweis, the Hungarian physician who in the last century insisted that the
 lives of many mothers could be saved at childbirth if obstetricians would
 only wash their hands, even though the rest of the doctors ignored and
-mocked him. These and the many hundreds of others mentioned were re-
-spected for the same reasons: They stood firm for what they believed in,
+mocked him. These and the many hundreds of others mentioned were respected for the same reasons: They stood firm for what they believed in,
 and didn’t let opposition daunt them. They had courage, or what in earlier
 time was known simply as “virtue”—a term derived from the Latin word
 vir, or man.
@@ -8387,40 +7584,32 @@ One fact that does seem clear, however, is that the ability to make order
 out of chaos is not unique to psychological processes. In fact, according to
 some views of evolution, complex life forms depend for their existence on
 a capacity to extract energy out of entropy—to recycle waste into structured
-order. The Nobel prize-winning chemist Ilya Prigogine calls physical sys-
-tems that harness energy which otherwise would be dispersed and lost in
+order. The Nobel prize-winning chemist Ilya Prigogine calls physical systems that harness energy which otherwise would be dispersed and lost in
 random motion “dissipative structures.” For example, the entire vegetable
 kingdom on our planet is a huge dissipative structure because it feeds on
-light, which normally would be a useless by-product of the sun’s combus-
-tion. Plants have found a way to transform this wasted energy into the
+light, which normally would be a useless by-product of the sun’s combustion. Plants have found a way to transform this wasted energy into the
 building blocks out of which leaves, flowers, fruit, bark, and timber are
 fashioned. And because without plants there would be no animals, all life
 on earth is ultimately made possible by dissipative structures that capture
 chaos and shape it into a more complex order.
 Human beings have also managed to utilize waste energy to serve their
 goals. The first major technological invention, that of fire, is a good example.
-In the beginning, fires started at random: volcanoes, lightning, and spon-
-taneous combustion ignited fuel here and there, and the energy of the de-
-composing timber was dispersed without purpose. As they learned to take
+In the beginning, fires started at random: volcanoes, lightning, and spontaneous combustion ignited fuel here and there, and the energy of the decomposing timber was dispersed without purpose. As they learned to take
 control over fire people used the dissipating energy to warm their caves,
-cook their food, and finally to smelt and forge objects made of metal. En-
-gines run by steam, electricity, gasoline, and nuclear fusion are also based
+cook their food, and finally to smelt and forge objects made of metal. Engines run by steam, electricity, gasoline, and nuclear fusion are also based
 on the same principle: to take advantage of energy that otherwise would
 be lost, or opposed to our goals. Unless men learned various tricks for
 transforming the forces of disorder into something they could use, we
 would not have survived as successfully as we have.
-The psyche, as we have seen, operates according to similar princi-
-Mihaly Csikszentmihalyi / 201
+The psyche, as we have seen, operates according to similar princiMihaly Csikszentmihalyi / 201
 
 
-ples. The integrity of the self depends on the ability to take neutral or de-
-structive events and turn them into positive ones. Getting fired could be a
+ples. The integrity of the self depends on the ability to take neutral or destructive events and turn them into positive ones. Getting fired could be a
 godsend, if one took the opportunity to find something else to do that was
 more in tune with one’s desires. In each person’s life, the chances of only
 good things happening are extremely slim. The likelihood that our desires
 will be always fulfilled is so minute as to be negligible. Sooner or later
-everyone will have to confront events that contradict his goals: disappoint-
-ments, severe illness, financial reversal, and eventually the inevitability of
+everyone will have to confront events that contradict his goals: disappointments, severe illness, financial reversal, and eventually the inevitability of
 one’s death. Each event of this kind is negative feedback that produces
 disorder in the mind. Each threatens the self and impairs its functioning.
 If the trauma is severe enough, a person may lose the capacity to concentrate
@@ -8444,19 +7633,16 @@ on a young teenager—even something as trivial as a bad grade, a pimple
 erupting on the chin, or a friend ignoring him at school—it seems to him
 as if the world is about to end, and there is no longer any purpose in life.
 Positive feedback from other people usually picks his mood up in a matter
-of minutes; a smile, a phone call, a good song captures his attention, dis-
-tracting him from worries and restoring order in the mind. We have learned
+of minutes; a smile, a phone call, a good song captures his attention, distracting him from worries and restoring order in the mind. We have learned
 from the Experience Sampling Method studies that a healthy adolescent
 stays depressed on the average for only half an hour. (An adult takes, on
 the average, twice as long to recover from bad moods.)
-In a few years, however—by the time they are seventeen or eight-
-een—teenagers are generally able to place negative events in perspective,
+In a few years, however—by the time they are seventeen or eighteen—teenagers are generally able to place negative events in perspective,
 and they are no longer destroyed by things that don’t work out as
 202 / Flow
 
 
-desired. It is at this age that for most people the ability to control conscious-
-ness begins. Partly this ability is a product of the mere passage of time:
+desired. It is at this age that for most people the ability to control consciousness begins. Partly this ability is a product of the mere passage of time:
 having been disappointed before, and having survived the disappointment,
 the older teen knows that a situation is not as bad as it may seem at the
 moment. Partly it is knowing that other people also have been going
@@ -8464,11 +7650,8 @@ through the same problems, and have been able to resolve them. The
 knowledge that one’s sufferings are shared adds an important perspective
 to the egocentrism of youth.
 The peak in the development of coping skills is reached when a young
-man or woman has achieved a strong enough sense of self, based on per-
-sonally selected goals, that no external disappointment can entirely under-
-mine who he or she is. For some people the strength derives from a goal
-that involves identification with the family, with the country, or with a re-
-ligion or an ideology. For others, it depends on mastery of a harmonious
+man or woman has achieved a strong enough sense of self, based on personally selected goals, that no external disappointment can entirely undermine who he or she is. For some people the strength derives from a goal
+that involves identification with the family, with the country, or with a religion or an ideology. For others, it depends on mastery of a harmonious
 system of symbols, such as art, music, or physics. Srinivasa Ramanujan,
 the young mathematical genius from India, had so much of his psychic
 energy invested in number theory that poverty, sickness, pain, and even
@@ -8483,15 +7666,12 @@ a hopeless situation into a new flow activity that can be controlled will be
 able to enjoy themselves, and emerge stronger from the ordeal. There are
 three main steps that seem to be involved in such transformations:
 1. Unselfconscious self-assurance. As Richard Logan found in his study of
-individuals who survived severe physical ordeals—polar explorers wan-
-dering alone in the Arctic, concentration camp inmates—one common atti-
-tude shared by such people was the implicit belief that their destiny was
+individuals who survived severe physical ordeals—polar explorers wandering alone in the Arctic, concentration camp inmates—one common attitude shared by such people was the implicit belief that their destiny was
 in their hands. They did not doubt their own resources would be sufficient
 to allow them to determine their fate. In that sense one would call them
 self-assured, yet at the same time, their egos seem curiously absent: they
 are not self-centered; their energy is typically not bent on dominating their
-environment as much as on finding a way to function within it harmoni-
-ously.
+environment as much as on finding a way to function within it harmoniously.
 This attitude occurs when a person no longer sees himself in opposition
 to the environment, as an individual who insists that his
 Mihaly Csikszentmihalyi / 203
@@ -8505,17 +7685,13 @@ and that to succeed one may have to play by a different set of rules from
 what one would prefer—is a hallmark of strong people.
 To take a trivial but common example, suppose that one cold morning,
 when you are in a hurry to get to the office, the car engine won’t start when
-you try the ignition. In such circumstances many people become so increas-
-ingly obsessed with their goal—getting to the office—that they cannot
+you try the ignition. In such circumstances many people become so increasingly obsessed with their goal—getting to the office—that they cannot
 formulate any other plans. They may curse the car, turn the ignition key
 more frantically, slam the dashboard in exasperation—usually to no avail.
-Their ego involvement prevents them from coping effectively with frustra-
-tion and from realizing their goal. A more sensible approach would be to
-recognize that it makes no difference to the car that you have to be down-
-town in a hurry. The car follows its own laws, and the only way to get it
+Their ego involvement prevents them from coping effectively with frustration and from realizing their goal. A more sensible approach would be to
+recognize that it makes no difference to the car that you have to be downtown in a hurry. The car follows its own laws, and the only way to get it
 moving is by taking them into account. If you have no idea what may be
-wrong with the starter, it makes more sense to call a cab or form an altern-
-ative goal: cancel the appointment and find something useful to do at home
+wrong with the starter, it makes more sense to call a cab or form an alternative goal: cancel the appointment and find something useful to do at home
 instead.
 Basically, to arrive at this level of self-assurance one must trust oneself,
 one’s environment, and one’s place in it. A good pilot knows her skills, has
@@ -8525,15 +7701,13 @@ is confident in her ability to cope with whatever weather conditions may
 arise—not because she will force the plane to obey her will, but because
 she will be the instrument for matching the properties of the plane to the
 conditions of the air. As such she is an indispensable link for the safety of
-the plane, but it is only as a link—as a catalyst, as a component of the air-
-plane-person system, obeying the rules of that system—that she can achieve
+the plane, but it is only as a link—as a catalyst, as a component of the airplane-person system, obeying the rules of that system—that she can achieve
 her goal.
 2. Focusing attention on the world. It is difficult to notice the environment
 as long as attention is mainly focused inward, as long as most of one’s
 psychic energy is absorbed by the concerns and desires of the ego. People
 who know how to transform stress into enjoyable challenge spend very
-little time thinking about themselves. They are not expending all their en-
-ergy trying to satisfy what they believe to be their needs, or worrying about
+little time thinking about themselves. They are not expending all their energy trying to satisfy what they believe to be their needs, or worrying about
 socially conditioned desires. Instead their attention is alert, constantly
 processing information from their surroundings. The focus is still set by
 the person’s goal, but it is open enough to notice and
@@ -8547,8 +7721,7 @@ of alternative possibilities, to feel a part of the surrounding world. This
 total involvement with the environment is well expressed by the rock
 climber Yvon Chouinard, describing one of his ascents on the fearsome El
 Capitan in Yosemite: “Each individual crystal in the granite stood out in
-bold relief. The varied shapes of the clouds never ceased to attract our at-
-tention. For the first time, we noticed tiny bugs that were all over the walls,
+bold relief. The varied shapes of the clouds never ceased to attract our attention. For the first time, we noticed tiny bugs that were all over the walls,
 so tiny that they were barely noticeable. I stared at one for fifteen minutes,
 watching him move and admiring his brilliant red color.
 “How could one ever be bored with so many good things to see and feel!
@@ -8566,14 +7739,12 @@ of it—she participates in the system by linking herself to it through
 psychic energy. This, in turn, makes it possible for her to understand the
 properties of the system, so that she can find a better way to adapt to a
 problematic situation.
-Returning again to the example of the car that wouldn’t start: if your at-
-tention is completely absorbed by the goal of making it to the office in time,
+Returning again to the example of the car that wouldn’t start: if your attention is completely absorbed by the goal of making it to the office in time,
 your mind might be full of images about what will happen if you are late,
 and of hostile thoughts about your uncooperative vehicle. Then you are
 less likely to notice what the car is trying to tell you: that the engine is
 flooded or that the battery is dead. Similarly the pilot who spends too much
-energy contemplating what she wants the plane to do might miss the in-
-formation that will enable her to navigate safely. A sense of complete
+energy contemplating what she wants the plane to do might miss the information that will enable her to navigate safely. A sense of complete
 openness to the environment is well described by Charles Lindbergh, who
 experienced it during his epoch-making solo crossing of the Atlantic:
 My cockpit is small, and its walls are thin: but inside this cocoon I
@@ -8583,9 +7754,7 @@ Mihaly Csikszentmihalyi / 205
 
 
 angles of construction. Each item takes on a new value. I study weld
-marks on the tubing (frozen ripples of steel through which pass invis-
-ible hundredweights of strain), a dot of radiolite paint on the alti-
-meter’s face…the battery of fuel valves…—all such things, which I
+marks on the tubing (frozen ripples of steel through which pass invisible hundredweights of strain), a dot of radiolite paint on the altimeter’s face…the battery of fuel valves…—all such things, which I
 never considered much before, are now obvious and important…. I
 may be flying a complicated airplane, rushing through space, but in
 this cabin I’m surrounded by simplicity and thoughts set free of time.
@@ -8604,12 +7773,10 @@ the other they jumped out. Everything went well, except for one of the
 men: his parachute never opened, and he fell straight to his death on the
 desert below.
 G. was part of the investigating team sent to determine why the chute
-didn’t open. The dead soldier was the one who had been given the left-
-handed release latch. The uniform on the right side of his chest, where the
+didn’t open. The dead soldier was the one who had been given the lefthanded release latch. The uniform on the right side of his chest, where the
 rip cord for a regular parachute would have been, had been completely
 torn off; even the flesh of his chest had been gouged out in long gashes by
-his bloody right hand. A few inches to the left was the actual rip cord, ap-
-parently untouched. There had been nothing wrong with the parachute.
+his bloody right hand. A few inches to the left was the actual rip cord, apparently untouched. There had been nothing wrong with the parachute.
 The problem had been that, while falling through that awful eternity, the
 man had become fixated on the idea that to open the chute he had to find
 the release in the accustomed place. His fear was so intense that it blinded
@@ -8637,8 +7804,7 @@ Let us suppose, for instance, that Phil, who is due to be promoted to a
 vice presidency within his company, sees that the appointment might go
 instead to a colleague who gets along better with the CEO. At this point
 he has two basic options: to find ways to change the CEO’s mind about
-who is the better person for the job (the first approach), or to consider an-
-other set of goals, like moving to another division of the company, changing
+who is the better person for the job (the first approach), or to consider another set of goals, like moving to another division of the company, changing
 careers altogether, or scaling down his career objectives and investing his
 energies in the family, the community, or his own self-development (the
 second approach). Neither solution is “better” in an absolute sense; what
@@ -8650,10 +7816,8 @@ go his way. He will not have enough disposable attention available to seek
 out realistic options, and instead of finding enjoyable new challenges, he
 will be surrounded instead by stressful threats.
 Almost every situation we encounter in life presents possibilities for
-growth. As we have seen, even terrible disasters like blindness and para-
-plegia can be turned into conditions for enjoyment and greater complexity.
-Even the approach of death itself can serve to create harmony in conscious-
-ness, rather than despair.
+growth. As we have seen, even terrible disasters like blindness and paraplegia can be turned into conditions for enjoyment and greater complexity.
+Even the approach of death itself can serve to create harmony in consciousness, rather than despair.
 But these transformations require that a person be prepared to perceive
 unexpected opportunities. Most of us become so rigidly fixed in the ruts
 carved out by genetic programming and social conditioning that we ignore
@@ -8699,19 +7863,16 @@ another person than to beat him down, or that it is more enjoyable to talk
 with one’s two-year-old than to play golf with the company president.
 THE AUTOTELIC SELF: A SUMMARY
 In this chapter we have seen it demonstrated repeatedly that outside forces
-do not determine whether adversity will be able to be turned into enjoy-
-ment. A person who is healthy, rich, strong, and powerful has no greater
+do not determine whether adversity will be able to be turned into enjoyment. A person who is healthy, rich, strong, and powerful has no greater
 odds of being in control of his consciousness than one who is
 208 / Flow
 
 
 sickly, poor, weak, and oppressed. The difference between someone who
-enjoys life and someone who is overwhelmed by it is a product of a com-
-bination of such external factors and the way a person has come to interpret
+enjoys life and someone who is overwhelmed by it is a product of a combination of such external factors and the way a person has come to interpret
 them—that is, whether he sees challenges as threats or as opportunities for
 action.
-The “autotelic self” is one that easily translates potential threats into en-
-joyable challenges, and therefore maintains its inner harmony. A person
+The “autotelic self” is one that easily translates potential threats into enjoyable challenges, and therefore maintains its inner harmony. A person
 who is never bored, seldom anxious, involved with what goes on, and in
 flow most of the time may be said to have an autotelic self. The term literally
 means “a self that has self-contained goals,” and it reflects the idea that
@@ -8725,10 +7886,8 @@ Therefore the rules for developing such a self are simple, and they derive
 directly from the flow model. Briefly, they can be summarized as follows:
 1. Setting goals. To be able to experience flow, one must have clear goals
 to strive for. A person with an autotelic self learns to make choices—ranging
-from lifelong commitments, such as getting married and settling on a vo-
-cation, to trivial decisions like what to do on the weekend or how to spend
-the time waiting in the dentist’s office—without much fuss and the minim-
-um of panic.
+from lifelong commitments, such as getting married and settling on a vocation, to trivial decisions like what to do on the weekend or how to spend
+the time waiting in the dentist’s office—without much fuss and the minimum of panic.
 Selecting a goal is related to the recognition of challenges. If I decide to
 learn tennis, it follows that I will have to learn to serve, to use my backhand
 and forehand, to develop my endurance and my reflexes. Or the causal
@@ -8770,19 +7929,16 @@ dishes after dinner, he invests attention in the task at hand.
 To do so successfully one must learn to balance the opportunities for
 action with the skills one possesses. Some people begin with unrealistic
 expectations, such as trying to save the world or to become millionaires
-before the age of twenty. When their hopes are dashed, most become des-
-pondent, and their selves wither from the loss of psychic energy expended
+before the age of twenty. When their hopes are dashed, most become despondent, and their selves wither from the loss of psychic energy expended
 in fruitless attempts. At the other extreme, many people stagnate because
 they do not trust their own potential. They choose the safety of trivial goals,
 and arrest the growth of complexity at the lowest level available. To achieve
 involvement with an action system, one must find a relatively close mesh
 between the demands of the environment and one’s capacity to act.
-For instance, suppose a person walks into a room full of people and de-
-cides to “join the party,” that is, to get acquainted with as many people as
+For instance, suppose a person walks into a room full of people and decides to “join the party,” that is, to get acquainted with as many people as
 possible while having a good time. If the person lacks an autotelic self he
 might be incapable of starting an interaction by himself, and withdraw into
-a corner, hoping that someone will notice him. Or he may try to be boister-
-ous and overly slick, turning people off with
+a corner, hoping that someone will notice him. Or he may try to be boisterous and overly slick, turning people off with
 210 / Flow
 
 
@@ -8807,45 +7963,36 @@ book seems too difficult, instead of sharpening concentration we tend to
 set it aside and instead turn on the television, which not only requires
 minimal attention, but in fact tends to diffuse what little it commands with
 choppy editing, commercial interruptions, and generally inane content.
-3. Paying attention to what is happening. Concentration leads to involve-
-ment, which can only be maintained by constant inputs of attention. Athletes
+3. Paying attention to what is happening. Concentration leads to involvement, which can only be maintained by constant inputs of attention. Athletes
 are aware that in a race even a momentary lapse can spell complete defeat.
-A heavyweight champion may be knocked out if he does not see his oppon-
-ent’s uppercut coming. The basketball player will miss the net if he allows
+A heavyweight champion may be knocked out if he does not see his opponent’s uppercut coming. The basketball player will miss the net if he allows
 himself to be distracted by the roaring of the crowd. The same pitfalls
 threaten anyone who participates in a complex system: to stay in it, he must
 keep investing psychic energy. The parent who does not listen closely to
 his child undermines the interaction, the lawyer whose attention lapses
 may forfeit the case, and the surgeon whose mind wanders may lose the
 patient.
-Having an autotelic self implies the ability to sustain involvement. Self-
-consciousness, which is the most common source of distraction, is not a
+Having an autotelic self implies the ability to sustain involvement. Selfconsciousness, which is the most common source of distraction, is not a
 problem for such a person. Instead of worrying about how he is doing,
 how he looks from the outside, he is wholeheartedly committed to his
-goals. In some cases it is the depth of involvement that pushes self-con-
-sciousness out of awareness, while sometimes it is the other way around:
-it is the very lack of self-consciousness that makes deep involve-
-Mihaly Csikszentmihalyi / 211
+goals. In some cases it is the depth of involvement that pushes self-consciousness out of awareness, while sometimes it is the other way around:
+it is the very lack of self-consciousness that makes deep involveMihaly Csikszentmihalyi / 211
 
 
 ment possible. The elements of the autotelic personality are related to one
 another by links of mutual causation. It does not matter where one
 starts—whether one chooses goals first, develops skills, cultivates the
-ability to concentrate, or gets rid of self-consciousness. One can start any-
-where, because once the flow experience is in motion the other elements
+ability to concentrate, or gets rid of self-consciousness. One can start anywhere, because once the flow experience is in motion the other elements
 will be much easier to attain.
 A person who pays attention to an interaction instead of worrying about
-the self obtains a paradoxical result. She no longer feels like a separate in-
-dividual, yet her self becomes stronger. The autotelic individual grows
+the self obtains a paradoxical result. She no longer feels like a separate individual, yet her self becomes stronger. The autotelic individual grows
 beyond the limits of individuality by investing psychic energy in a system
 in which she is included. Because of this union of the person and the system,
 the self emerges at a higher level of complexity. This is why ’tis better to
 have loved and lost than never to have loved at all.
-The self of a person who regards everything from an egocentric perspect-
-ive may be more secure, but it is certain to be an impoverished one relative
+The self of a person who regards everything from an egocentric perspective may be more secure, but it is certain to be an impoverished one relative
 to that of a person who is willing to be committed, to be involved, and who
-is willing to pay attention to what is happening for the sake of the interac-
-tion rather than purely out of self-interest.
+is willing to pay attention to what is happening for the sake of the interaction rather than purely out of self-interest.
 During the ceremony celebrating the unveiling of Chicago’s huge outdoor
 Picasso sculpture in the plaza across from City Hall, I happened to be
 standing next to a personal-injury lawyer with whom I was acquainted.
@@ -8857,9 +8004,7 @@ climbing the sculpture.
 Was this lawyer lucky, because he could transform everything he saw
 into a professional problem his skills could master, and thus live in constant
 flow? Or was he depriving himself of an opportunity to grow by paying
-attention only to what he was already familiar with, and ignoring the aes-
-thetic, civic, and social dimensions of the event? Perhaps both interpreta-
-tions are accurate. In the long run, however, looking at the world exclusively
+attention only to what he was already familiar with, and ignoring the aesthetic, civic, and social dimensions of the event? Perhaps both interpretations are accurate. In the long run, however, looking at the world exclusively
 from the little window that one’s self affords is always limiting. Even the
 most highly respected physicist, artist, or politician becomes a hollow bore
 and ceases to enjoy life if all he can interest himself in is his limited role in
@@ -8871,8 +8016,7 @@ enjoy life even when objective circumstances are brutish and
 212 / Flow
 
 
-nasty. Being in control of the mind means that literally anything that hap-
-pens can be a source of joy. Feeling a breeze on a hot day, seeing a cloud
+nasty. Being in control of the mind means that literally anything that happens can be a source of joy. Feeling a breeze on a hot day, seeing a cloud
 reflected on the glass facade of a high-rise, working on a business deal,
 watching a child play with a puppy, drinking a glass of water can all be
 felt as deeply satisfying experiences that enrich one’s life.
@@ -8881,8 +8025,7 @@ Optimal experience is not the result of a hedonistic, lotus-eating approach
 to life. A relaxed, laissez-faire attitude is not a sufficient defense against
 chaos. As we have seen from the very beginning of this book, to be able to
 transform random events into flow, one must develop skills that stretch
-capacities, that make one become more than what one is. Flow drives indi-
-viduals to creativity and outstanding achievement. The necessity to develop
+capacities, that make one become more than what one is. Flow drives individuals to creativity and outstanding achievement. The necessity to develop
 increasingly refined skills to sustain enjoyment is what lies behind the
 evolution of culture. It motivates both individuals and cultures to change
 into more complex entities. The rewards of creating order in experience
@@ -8901,8 +8044,6 @@ involves transforming the entirety of life into a single flow activity, with
 unified goals that provide constant purpose.
 Mihaly Csikszentmihalyi / 213
 
-
-10
 THE MAKING
 OF MEANING
 IT IS NOT UNUSUAL for famous tennis players to be deeply committed to
@@ -8921,22 +8062,18 @@ piecemeal from activities not linked to one another in a meaningful way,
 one is still vulnerable to the vagaries of chaos. Even the most successful
 career, the most rewarding family relationship eventually runs dry. Sooner
 or later involvement in work must be reduced. Spouses die, children grow
-up and move away. To approach optimal experience as closely as is hu-
-manly possible, a last step in the control of consciousness is necessary.
+up and move away. To approach optimal experience as closely as is humanly possible, a last step in the control of consciousness is necessary.
 What this involves is turning all life into a unified flow experience. If a
 person sets out to achieve a difficult enough goal, from which all other
 goals logically follow, and if he or she invests all energy in developing
 skills to reach that goal, then actions and feelings will be in harmony,
-214
-
 
 and the separate parts of life will fit together—and each activity will “make
 sense” in the present, as well as in view of the past and of the future. In
 such a way, it is possible to give meaning to one’s entire life.
 But isn’t it incredibly naive to expect life to have a coherent overall
 meaning? After all, at least since Nietzsche concluded that God was dead,
-philosophers and social scientists have been busy demonstrating that exist-
-ence has no purpose, that chance and impersonal forces rule our fate, and
+philosophers and social scientists have been busy demonstrating that existence has no purpose, that chance and impersonal forces rule our fate, and
 that all values are relative and hence arbitrary. It is true that life has no
 meaning, if by that we mean a supreme goal built into the fabric of nature
 and human experience, a goal that is valid for every individual. But it does
@@ -8947,8 +8084,7 @@ descendants. It is one thing to recognize that life is, by itself, meaningless.
 It is another thing entirely to accept this with resignation. The first fact does
 not entail the second any more than the fact that we lack wings prevents
 us from flying.
-From the point of view of an individual, it does not matter what the ulti-
-mate goal is—provided it is compelling enough to order a lifetime’s worth
+From the point of view of an individual, it does not matter what the ultimate goal is—provided it is compelling enough to order a lifetime’s worth
 of psychic energy. The challenge might involve the desire to have the best
 beer-bottle collection in the neighborhood, the resolution to find a cure for
 cancer, or simply the biological imperative to have children who will survive
@@ -8991,10 +8127,8 @@ order among unrelated or conflicting information.
 Creating meaning involves bringing order to the contents of the mind
 by integrating one’s actions into a unified flow experience. The three senses
 of the word meaning noted above make it clearer how this is accomplished.
-People who find their lives meaningful usually have a goal that is challen-
-ging enough to take up all their energies, a goal that can give significance
-to their lives. We may refer to this process as achieving purpose. To experi-
-ence flow one must set goals for one’s actions: to win a game, to make
+People who find their lives meaningful usually have a goal that is challenging enough to take up all their energies, a goal that can give significance
+to their lives. We may refer to this process as achieving purpose. To experience flow one must set goals for one’s actions: to win a game, to make
 friends with a person, to accomplish something in a certain way. The goal
 in itself is usually not important; what matters is that it focuses a person’s
 attention and involves it in an achievable, enjoyable activity. In a similar
@@ -9016,16 +8150,12 @@ broader ethical question: What have the consequences of
 
 
 these two ways of giving meaning to life been? We might conclude that
-Napoleon brought chaos to thousands of lives, whereas Mother Teresa re-
-duced the entropy in the consciousness of many. But here we will not try
+Napoleon brought chaos to thousands of lives, whereas Mother Teresa reduced the entropy in the consciousness of many. But here we will not try
 to pass judgment on the objective value of actions; we will be concerned
 instead with the more modest task of describing the subjective order that
-a unified purpose brings to individual consciousness. In this sense the an-
-swer to the old riddle “What is the meaning of life?” turns out to be aston-
-ishingly simple. The meaning of life is meaning: whatever it is, wherever
+a unified purpose brings to individual consciousness. In this sense the answer to the old riddle “What is the meaning of life?” turns out to be astonishingly simple. The meaning of life is meaning: whatever it is, wherever
 it comes from, a unified purpose is what gives meaning to life.
-The second sense of the word meaning refers to the expression of inten-
-tionality. And this sense also is appropriate to the issue of how to create
+The second sense of the word meaning refers to the expression of intentionality. And this sense also is appropriate to the issue of how to create
 meaning by transforming all life into a flow activity. It is not enough to
 find a purpose that unifies one’s goals; one must also carry through and
 meet its challenges. The purpose must result in strivings; intent has to be
@@ -9034,11 +8164,9 @@ goals. What counts is not so much whether a person actually achieves what
 she has set out to do; rather, it matters whether effort has been expended
 to reach the goal, instead of being diffused or wasted. When “the native
 hue of resolution is sicklied o’er with the pale cast of thought,” Hamlet
-observed, “…enterprises of great pith and moment…lose the name of ac-
-tion.” Few things are sadder than encountering a person who knows exactly
+observed, “…enterprises of great pith and moment…lose the name of action.” Few things are sadder than encountering a person who knows exactly
 what he should do, yet cannot muster enough energy to do it. “He who
-desires but acts not,” wrote Blake with his accustomed vigor, “breeds pes-
-tilence.”
+desires but acts not,” wrote Blake with his accustomed vigor, “breeds pestilence.”
 The third and final way in which life acquires meaning is the result of
 the previous two steps. When an important goal is pursued with resolution,
 and all one’s varied activities fit together into a unified flow experience,
@@ -9047,8 +8175,7 @@ his desires and works with purpose to achieve them is a person whose
 feelings, thoughts, and actions are congruent with one another, and is
 therefore a person who has achieved inner harmony. In the 1960s this
 process was called “getting your head together,” but in practically every
-other historical period a similar concept has been used to describe this ne-
-cessary step toward living a good life. Someone who is in harmony no
+other historical period a similar concept has been used to describe this necessary step toward living a good life. Someone who is in harmony no
 matter what he does, no matter what is happening to him, knows that his
 psychic energy is not being wasted on doubt, regret, guilt, and fear, but is
 always usefully employed. Inner congruence ultimately leads to that inner
@@ -9071,8 +8198,7 @@ This goal will define the challenges that a person needs to face in order to
 transform his or her life into a flow activity. Without such a purpose, even
 the best-ordered consciousness lacks meaning.
 Throughout human history innumerable attempts have been made to
-discover ultimate goals that would give meaning to experience. These at-
-tempts have often been very different from one another. For instance, in
+discover ultimate goals that would give meaning to experience. These attempts have often been very different from one another. For instance, in
 the ancient Greek civilization, according to the social philosopher Hannah
 Arendt, men sought to achieve immortality through heroic deeds, whereas
 in the Christian world men and women hoped to reach eternal life through
@@ -9081,8 +8207,7 @@ issue of mortality: they must give men and women a purpose that extends
 beyond the grave. Both immortality and eternity accomplish this, but in
 very different ways. The Greek heroes performed noble deeds so as to attract
 the admiration of their peers, expecting that their highly personal acts of
-bravery would be passed on in songs and stories from generation to gener-
-ation. Their identity, therefore, would continue to exist in the memory of
+bravery would be passed on in songs and stories from generation to generation. Their identity, therefore, would continue to exist in the memory of
 their descendants. Saints, on the contrary, surrendered individuality so as
 to merge their thoughts and actions with the will of God, expecting to live
 forever after in union with Him. The hero and the saint, to the extent that
@@ -9101,8 +8226,7 @@ civilization into three types, which he believed have
 
 alternated with one another for over twenty-five centuries, sometimes
 lasting hundreds of years, sometimes just a few decades. He called these
-the sensate, the ideational, and the idealistic phases of culture, and he attemp-
-ted to demonstrate that in each one a different set of priorities justified the
+the sensate, the ideational, and the idealistic phases of culture, and he attempted to demonstrate that in each one a different set of priorities justified the
 goals of existence.
 Sensate cultures are integrated around views of reality designed to satisfy
 the senses. They tend to be epicurean, utilitarian, concerned primarily with
@@ -9111,8 +8235,7 @@ behavior glorify and justify goals in terms of tangible experience. According
 to Sorokin, sensate culture predominated in Europe from about 440 to
 about 200 B.C., with a peak between 420 and 400 B.C.; it has become dominant
 once again in the past century or so, at least in the advanced capitalist
-democracies. People in a sensate culture are not necessarily more material-
-istic, but they organize their goals and justify their behavior with reference
+democracies. People in a sensate culture are not necessarily more materialistic, but they organize their goals and justify their behavior with reference
 primarily to pleasure and practicality rather than to more abstract principles.
 The challenges they see are almost exclusively concerned with making life
 more easy, more comfortable, more pleasant. They tend to identify the
@@ -9121,16 +8244,14 @@ Ideational cultures are organized on a principle opposite from the sensate:
 they look down on the tangible and strive for nonmaterial, supernatural
 ends. They emphasize abstract principles, asceticism, and transcendence
 of material concerns. Art, religion, philosophy, and the justification of
-everyday behavior tend to be subordinated to the realization of this spir-
-itual order. People turn their attention to religion or ideology, and view
+everyday behavior tend to be subordinated to the realization of this spiritual order. People turn their attention to religion or ideology, and view
 their challenges not in terms of making life easier, but of reaching inner
 clarity and conviction. Greece from 600 to 500 B.C., and Western Europe
 from 200 B.C. to A.D. 400 are the high points of this worldview, according
 to Sorokin. More recent and disturbing examples might include the Nazi
 interlude in Germany, the communist regimes in Russia and China, and
 the Islamic revival in Iran.
-A simple example may illustrate the difference between cultures organ-
-ized around sensate and ideational principles. In our own as well as in
+A simple example may illustrate the difference between cultures organized around sensate and ideational principles. In our own as well as in
 fascist societies physical fitness is cherished and the beauty of the human
 body worshiped. But the reasons for doing so are very different. In our
 sensate culture, the body is cultivated in order to achieve health and
@@ -9148,8 +8269,7 @@ Of course, at no time does any group of people shape its purpose through
 only one of these two ways of ordering experience to the exclusion of the
 other. At any given moment, various subtypes and combinations of the
 sensate and the ideational worldview may coexist in the same culture, and
-even in the consciousness of the same individual. The so-called yuppie life-
-style, for instance, is based primarily on sensate principles, while Bible Belt
+even in the consciousness of the same individual. The so-called yuppie lifestyle, for instance, is based primarily on sensate principles, while Bible Belt
 fundamentalism rests on ideational premises. These two forms, in their
 many variants, coexist somewhat uneasily in our current social system.
 And either one, functioning as a system of goals, can help to organize life
@@ -9169,24 +8289,19 @@ in private indulging in luxury and sensuality.
 Occasionally a culture succeeds in integrating these two dialectically
 opposed principles into a convincing whole that preserves the advantages
 of both, while neutralizing the disadvantages of each. Sorokin calls these
-cultures “idealistic.” They combine an acceptance of concrete sensory ex-
-perience with a reverence for spiritual ends. In Western Europe the late
-Middle Ages and the Renaissance were classified by Sorokin as being rel-
-atively most idealistic, with the highest points reached in the first two
+cultures “idealistic.” They combine an acceptance of concrete sensory experience with a reverence for spiritual ends. In Western Europe the late
+Middle Ages and the Renaissance were classified by Sorokin as being relatively most idealistic, with the highest points reached in the first two
 decades of the fourteenth century. Needless to say, the idealistic solution
 seems to be the preferable one, as it avoids the listlessness that is often the
 keynote of purely materialistic worldviews and the fanatical asceticism
 that bedevils many ideational systems.
-Sorokin’s simple trichotomy is a debatable method of categorizing cul-
-tures, but it is useful in illustrating some of the principles by which men
-and women end up ordering their ultimate goals. The sensate option is al-
-ways quite popular. It involves responding to concrete challenges, and
+Sorokin’s simple trichotomy is a debatable method of categorizing cultures, but it is useful in illustrating some of the principles by which men
+and women end up ordering their ultimate goals. The sensate option is always quite popular. It involves responding to concrete challenges, and
 shaping one’s life in terms of a flow activity that tends toward
 220 / Flow
 
 
-material ends. Among its advantages is the fact that the rules are compre-
-hended by everyone and that feedback tends to be clear—the desirability
+material ends. Among its advantages is the fact that the rules are comprehended by everyone and that feedback tends to be clear—the desirability
 of health, money, power, and sexual satisfaction is seldom controversial.
 But the ideational option also has its advantages: metaphysical goals may
 never be achieved, but then failure is almost impossible to prove: the true
@@ -9198,8 +8313,7 @@ while at the same time pursuing spiritual ends is not easy, especially when
 the culture as a whole is predominantly sensate in character.
 Another way to describe how individuals order their actions is to focus
 on the complexity of the challenges they set for themselves rather than on
-their content. Perhaps what matters most is not whether a person is mater-
-ialist or ideational, but how differentiated and integrated are the goals he
+their content. Perhaps what matters most is not whether a person is materialist or ideational, but how differentiated and integrated are the goals he
 or she pursues in those areas. As was discussed in the final section of
 chapter 2, complexity depends on how well a system develops its unique
 traits and potentialities and on how well related these traits are to each
@@ -9216,11 +8330,8 @@ to survival, comfort, and pleasure. When the safety of the physical self is
 no longer in doubt, the person may expand the horizon of his or her
 meaning system to embrace the values of a community—the family, the
 neighborhood, a religious or ethnic group. This step leads to a greater
-complexity of the self, even though it usually implies conformity to conven-
-tional norms and standards. The next step in development involves reflect-
-ive individualism. The person again turns inward, finding new grounds
-for authority and value within the self. He or she is no longer blindly con-
-forming, but develops an autonomous conscience. At this point the main
+complexity of the self, even though it usually implies conformity to conventional norms and standards. The next step in development involves reflective individualism. The person again turns inward, finding new grounds
+for authority and value within the self. He or she is no longer blindly conforming, but develops an autonomous conscience. At this point the main
 goal in life becomes the desire for growth, improvement, the actualization
 of potential. The fourth step, which builds on all the previous ones, is a final
 turning away from the self, back toward an integration with other people
@@ -9243,28 +8354,22 @@ having achieved a sense of belonging to a larger human system, the person
 now feels the challenge of discerning the limits of personal potential. This
 leads to attempts at self-actualization, to experimentation with different
 skills, different ideas and disciplines. At this stage enjoyment, rather than
-pleasure, becomes the main source of rewards. But because this phase in-
-volves becoming a seeker, the person may also encounter a midlife crisis,
-a career change, and an increasingly desperate straining against the limita-
-tions of individual capability. From this point on the person is ready for
+pleasure, becomes the main source of rewards. But because this phase involves becoming a seeker, the person may also encounter a midlife crisis,
+a career change, and an increasingly desperate straining against the limitations of individual capability. From this point on the person is ready for
 the last shift in the redirection of energy: having discovered what one can
 and, more important, cannot do alone, the ultimate goal merges with a
 system larger than the person—a cause, an idea, a transcendental entity.
-Not everyone moves through the stages of this spiral of ascending com-
-plexity. A few never have the opportunity to go beyond the first step. When
-survival demands are so insistent that a person cannot devote much atten-
-tion to anything else, he or she will not have enough psychic energy left to
+Not everyone moves through the stages of this spiral of ascending complexity. A few never have the opportunity to go beyond the first step. When
+survival demands are so insistent that a person cannot devote much attention to anything else, he or she will not have enough psychic energy left to
 invest in the goals of the family or of the wider community. Self-interest
-alone will give meaning to life. The majority of people are probably en-
-sconced comfortably in the second stage of development, where the welfare
+alone will give meaning to life. The majority of people are probably ensconced comfortably in the second stage of development, where the welfare
 of the family, or the company, the community, or the nation are the sources
 of meaning. Many fewer reach the third level of reflective individualism,
 and only a precious few emerge once again to forge a unity with universal
 values. So these stages do not necessarily reflect what does happen, or what
 will happen; they characterize what can happen if a person is lucky and
 succeeds in controlling consciousness.
-The four stages outlined above are the simplest of the models for describ-
-ing the emergence of meaning along a gradient of complexity; other models
+The four stages outlined above are the simplest of the models for describing the emergence of meaning along a gradient of complexity; other models
 detail six, or even eight, stages. The number of steps is irrelevant; what
 counts is that most theories recognize the importance
 222 / Flow
@@ -9276,8 +8381,7 @@ appears to consist of a series of different “games,” with different goals an
 challenges, that change with time as a person matures. Complexity requires
 that we invest energy in developing whatever skills we were born with, in
 becoming autonomous, self-reliant, conscious of our uniqueness and of its
-limitations. At the same time we must invest energy in recognizing, under-
-standing, and finding ways to adapt to the forces beyond the boundaries
+limitations. At the same time we must invest energy in recognizing, understanding, and finding ways to adapt to the forces beyond the boundaries
 of our own individuality. Of course we don’t have to undertake any of these
 plans. But if we don’t, chances are, sooner or later, we will regret it.
 FORGING RESOLVE
@@ -9288,9 +8392,7 @@ to order one’s actions. The price one pays for changing goals whenever
 opposition threatens is that while one may achieve a more pleasant and
 comfortable life, it is likely that it will end up empty and void of meaning.
 The Pilgrims who first settled this country decided that the freedom to
-worship according to their conscience was necessary to maintain the integ-
-rity of their selves. They believed that nothing mattered more than main-
-taining control over their relationship with the supreme being. Theirs was
+worship according to their conscience was necessary to maintain the integrity of their selves. They believed that nothing mattered more than maintaining control over their relationship with the supreme being. Theirs was
 not a novel choice for an ultimate goal by which to order one’s life—many
 other people had done so previously. What distinguished the Pilgrims was
 that—like the Jews of Masada, the Christian martyrs, the Cathars of
@@ -9322,12 +8424,10 @@ life more meaningful for themselves. Probably as many have devoted all
 their energies to preserving their fields and their flocks. Millions more have
 surrendered everything for the sake of their religion, their country, or their
 art. For those who have done so consistently, despite pain and failure, life
-as a whole had a chance to become like an extended episode of flow: a fo-
-cused, concentrated, internally coherent, logically ordered set of experiences,
+as a whole had a chance to become like an extended episode of flow: a focused, concentrated, internally coherent, logically ordered set of experiences,
 which, because of its inner order, was felt to be meaningful and enjoyable.
 But as the complexity of culture evolves, it becomes more difficult to
-achieve this degree of total resolve. There are simply too many goals com-
-peting for prominence, and who is to say which one is worth the dedication
+achieve this degree of total resolve. There are simply too many goals competing for prominence, and who is to say which one is worth the dedication
 of an entire life? Just a few decades ago a woman felt perfectly justified in
 placing the welfare of her family as her ultimate goal. Partly this was due
 to the fact that she did not have many other options. Today, now that she
@@ -9368,24 +8468,20 @@ on.” Because there is no absolute certainty to which to turn, each person
 must discover ultimate purpose on his or her own. Through trial and error,
 through intense cultivation, we can straighten out the tangled skein of
 conflicting goals, and choose the one that will give purpose to action.
-Self-knowledge—an ancient remedy so old that its value is easily forgot-
-ten—is the process through which one may organize conflicting options.
+Self-knowledge—an ancient remedy so old that its value is easily forgotten—is the process through which one may organize conflicting options.
 “Know thyself” was carved over the entrance to the Delphic oracle, and
 ever since untold pious epigrams have extolled its virtue. The reason the
 advice is so often repeated is that it works. We need, however, to rediscover
 afresh every generation what these words mean, what the advice actually
 implies for each individual. And to do that it is useful to express it in terms
-of current knowledge, and envision a contemporary method for its applic-
-ation.
+of current knowledge, and envision a contemporary method for its application.
 Inner conflict is the result of competing claims on attention. Too many
 desires, too many incompatible goals struggle to marshal psychic energy
 toward their own ends. It follows that the only way to reduce conflict is
 by sorting out the essential claims from those that are not, and by arbitrating
-priorities among those that remain. There are basically two ways to accom-
-plish this: what the ancients called the vita activa, a life of action, and the
+priorities among those that remain. There are basically two ways to accomplish this: what the ancients called the vita activa, a life of action, and the
 vita contemplativa, or the path of reflection.
-Immersed in the vita activa, a person achieves flow through total involve-
-ment in concrete external challenges. Many great leaders like Winston
+Immersed in the vita activa, a person achieves flow through total involvement in concrete external challenges. Many great leaders like Winston
 Churchill or Andrew Carnegie set for themselves lifelong goals that they
 pursued with great resolve, without any apparent internal struggle or
 questioning of priorities. Successful executives, experienced professionals,
@@ -9397,9 +8493,7 @@ Mihaly Csikszentmihalyi / 225
 spontaneity of children. If the arena for action is challenging enough, a
 person may experience flow continuously in his or her calling, thus leaving
 as little room as possible for noticing the entropy of normal life. In this way
-harmony is restored to consciousness indirectly—not by facing up to con-
-tradictions and trying to resolve conflicting goals and desires, but by pur-
-suing chosen goals with such intensity that all potential competition is
+harmony is restored to consciousness indirectly—not by facing up to contradictions and trying to resolve conflicting goals and desires, but by pursuing chosen goals with such intensity that all potential competition is
 preempted.
 Action helps create inner order, but it has its drawbacks. A person
 strongly dedicated to achieving pragmatic ends might eliminate internal
@@ -9421,15 +8515,12 @@ desires are laboriously reintegrated with the rest of consciousness, or
 whether it is performed as methodically as the Jesuits’ test of conscience,
 which involves reviewing one’s actions one or more times each day to
 check whether what one has been doing in the past few hours has been
-consistent with long-term goals, self-knowledge can be pursued in innu-
-merable ways, each leading potentially to greater inner harmony.
+consistent with long-term goals, self-knowledge can be pursued in innumerable ways, each leading potentially to greater inner harmony.
 Activity and reflection should ideally complement and support each
 other. Action by itself is blind, reflection impotent. Before investing great
 amounts of energy in a goal, it pays to raise the fundamental questions: Is
 this something I really want to do? Is it something I enjoy doing? Am I
-likely to enjoy it in the foreseeable future? Is the price that I—and oth-
-ers—will have to pay worth it? Will I be able to live with myself if I accom-
-plish it?
+likely to enjoy it in the foreseeable future? Is the price that I—and others—will have to pay worth it? Will I be able to live with myself if I accomplish it?
 These seemingly easy questions are almost impossible to answer for
 someone who has lost touch with his own experience. If a man has not
 bothered to find out what he wants, if his attention is so wrapped up in
@@ -9441,8 +8532,7 @@ cannot plan action meaningfully. On the other hand, if the habit of reflection
 is well developed, a person need not go through a lot of soul-searching to
 decide whether a course of action is entropic or not. He will know, almost
 intuitively, that this promotion will produce more stress than it is worth,
-or that this particular friendship, attractive as it is, would lead to unaccept-
-able tensions in the context of marriage.
+or that this particular friendship, attractive as it is, would lead to unacceptable tensions in the context of marriage.
 It is relatively easy to bring order to the mind for short stretches of time;
 any realistic goal can accomplish this. A good game, an emergency at work,
 a happy interlude at home will focus attention and produce the harmonious
@@ -9462,11 +8552,9 @@ argued, why should it be so difficult to achieve this inner order? Why
 should one strive so hard to make life into a coherent flow experience?
 Aren’t people born at peace with themselves—isn’t human nature naturally
 ordered?
-The original condition of human beings, prior to the development of self-
-reflective consciousness, must have been a state of inner peace disturbed
+The original condition of human beings, prior to the development of selfreflective consciousness, must have been a state of inner peace disturbed
 only now and again by tides of hunger, sexuality, pain, and danger. The
-forms of psychic entropy that currently cause us so much anguish—unful-
-filled wants, dashed expectations, loneliness, frustration, anxiety, guilt—are
+forms of psychic entropy that currently cause us so much anguish—unfulfilled wants, dashed expectations, loneliness, frustration, anxiety, guilt—are
 all likely to have been recent invaders of the mind. They are by-products
 of the tremendous increase in complexity of the cerebral cortex and of the
 symbolic enrichment of culture. They are the dark side of the emergence
@@ -9495,8 +8583,7 @@ urges. Dogs bred to be friends to man grow distraught when left alone by
 their masters. But animals other than man are not in a position to be the
 cause of their own suffering; they are not evolved enough to be able to feel
 confusion and despair even after all their needs are satisfied. When free of
-externally induced conflicts, they are in harmony with themselves and ex-
-perience the seamless concentration that in people we call flow.
+externally induced conflicts, they are in harmony with themselves and experience the seamless concentration that in people we call flow.
 The psychic entropy peculiar to the human condition involves seeing
 more to do than one can actually accomplish and feeling able to accomplish
 more than what conditions allow. But this becomes possible only if one
@@ -9506,15 +8593,13 @@ what is but also what could be. The more complex any system, the more
 room it leaves open for alternatives, and the more things can go wrong
 with it. This is certainly applicable to the evolution of the mind: as it has
 increased its power to handle information, the potential for inner conflict
-has increased as well. When there are too many demands, options, chal-
-lenges, we become anxious; when too few, we get bored.
+has increased as well. When there are too many demands, options, challenges, we become anxious; when too few, we get bored.
 To pursue the evolutionary analogy, and to extend it from biological to
 social evolution, it is probably true that in less developed cultures, where
 the number and complexity of social roles, of alternative goals and courses
 of action, are negligible, the chances for experiencing flow are greater. The
 myth of the “happy savage” is based on the observation that when free of
-external threats, preliterate people often display a serenity that seems envi-
-able to the visitor from more differentiated cultures. But the myth tells only
+external threats, preliterate people often display a serenity that seems enviable to the visitor from more differentiated cultures. But the myth tells only
 half the story: when hungry or hurting, the “savage” is no more happy
 than we would be; and he may be in that
 228 / Flow
@@ -9522,10 +8607,8 @@ than we would be; and he may be in that
 
 condition more often than we are. The inner harmony of technologically
 less advanced people is the positive side of their limited choices and of
-their stable repertory of skills, just as the confusion in our soul is the neces-
-sary consequence of unlimited opportunities and constant perfectibility.
-Goethe represented this dilemma in the bargain Doctor Faustus, the arche-
-type of modern man, made with Mephistopheles: the good doctor gained
+their stable repertory of skills, just as the confusion in our soul is the necessary consequence of unlimited opportunities and constant perfectibility.
+Goethe represented this dilemma in the bargain Doctor Faustus, the archetype of modern man, made with Mephistopheles: the good doctor gained
 knowledge and power, but at the price of introducing disharmony in his
 soul.
 There is no need to visit far-off lands to see how flow can be a natural
@@ -9560,34 +8643,29 @@ The farmer and the miller, the priest and the soldier now see the world
 differently from one another. There is no one right way to behave, and each
 role requires different skills. Within the individual life span as well, each
 person becomes exposed with age to increasingly contradictory goals, to
-incompatible opportunities for ac-
-Mihaly Csikszentmihalyi / 229
+incompatible opportunities for acMihaly Csikszentmihalyi / 229
 
 
 tion. A child’s options are usually few and coherent; with each year, they
 become less so. The earlier clarity that made spontaneous flow possible is
 obscured by a cacophony of disparate values, beliefs, choices, and behaviors.
-Few would argue that a simpler consciousness, no matter how harmoni-
-ous, is preferable to a more complex one. While we might admire the
+Few would argue that a simpler consciousness, no matter how harmonious, is preferable to a more complex one. While we might admire the
 serenity of the lion in repose, the tribesman’s untroubled acceptance of his
 fate, or the child’s wholehearted involvement in the present, they cannot
 offer a model for resolving our predicament. The order based on innocence
-is now beyond our grasp. Once the fruit is plucked from the tree of know-
-ledge, the way back to Eden is barred forever.
+is now beyond our grasp. Once the fruit is plucked from the tree of knowledge, the way back to Eden is barred forever.
 THE UNIFICATION OF MEANING IN
 LIFE THEMES
 Instead of accepting the unity of purpose provided by genetic instructions
 or by the rules of society, the challenge for us is to create harmony based
-on reason and choice. Philosophers like Heidegger, Sartre, and Merleau-
-Ponty have recognized this task of modern man by calling it the project,
+on reason and choice. Philosophers like Heidegger, Sartre, and MerleauPonty have recognized this task of modern man by calling it the project,
 which is their term for the goal-directed actions that provide shape and
 meaning to an individual’s life. Psychologists have used terms like propriate
 strivings or life themes. In each case, these concepts identify a set of goals
 linked to an ultimate goal that gives significance to whatever a person does.
 The life theme, like a game that prescribes the rules and actions one must
 follow to experience flow, identifies what will make existence enjoyable.
-With a life theme, everything that happens will have a meaning—not ne-
-cessarily a positive one, but a meaning nevertheless. If a person bends all
+With a life theme, everything that happens will have a meaning—not necessarily a positive one, but a meaning nevertheless. If a person bends all
 her energies to making a million dollars before age thirty, whatever happens
 is a step either toward or away from that goal. The clear feedback will keep
 her involved with her actions. Even if she loses all her money, her thoughts
@@ -9598,27 +8676,21 @@ she is getting closer to her goal or not—in either case, what must be done
 is clear, and whatever she does will make sense.
 When a person’s psychic energy coalesces into a life theme, consciousness
 achieves harmony. But not all life themes are equally productive. Existential
-philosophers distinguish between authentic and inau-
-230 / Flow
+philosophers distinguish between authentic and inau230 / Flow
 
 
 thentic projects. The first describes the theme of a person who realizes that
-choices are free, and makes a personal decision based on a rational evalu-
-ation of his experience. It does not matter what the choice is, as long as it
+choices are free, and makes a personal decision based on a rational evaluation of his experience. It does not matter what the choice is, as long as it
 is an expression of what the person genuinely feels and believes. Inauthentic
 projects are those a person chooses because they are what she feels ought
 to be done, because they are what everybody else is doing, and therefore
 there is no alternative. Authentic projects tend to be intrinsically motivated,
-chosen for what they are worth in themselves; inauthentic ones are motiv-
-ated by external forces. A similar distinction is that between discovered life
-themes, when a person writes the script for her actions out of personal ex-
-perience and awareness of choice; and accepted life themes, when a person
+chosen for what they are worth in themselves; inauthentic ones are motivated by external forces. A similar distinction is that between discovered life
+themes, when a person writes the script for her actions out of personal experience and awareness of choice; and accepted life themes, when a person
 simply takes on a predetermined role from a script written long ago by
 others.
-Both types of life themes help give meaning to life, but each has draw-
-backs. The accepted life theme works well as long as the social system is
-sound; if it is not, it can trap the person into perverted goals. Adolf Eich-
-mann, the Nazi who calmly shipped tens of thousands to the gas chambers,
+Both types of life themes help give meaning to life, but each has drawbacks. The accepted life theme works well as long as the social system is
+sound; if it is not, it can trap the person into perverted goals. Adolf Eichmann, the Nazi who calmly shipped tens of thousands to the gas chambers,
 was a man for whom the rules of bureaucracy were sacred. He probably
 experienced flow as he shuffled the intricate schedules of trains, making
 certain that the scarce rolling stock was available where needed, and that
@@ -9636,8 +8708,7 @@ Discovered life themes are fragile for a different reason: because they
 are products of a personal struggle to define the purpose of life, they have
 less social legitimacy; because they are often novel and idiosyncratic, they
 may be regarded by others as crazy or destructive. Some of the most
-powerful life themes are based on ancient human goals, but freshly dis-
-covered and freely chosen by the individual. Malcolm X, who in his early
+powerful life themes are based on ancient human goals, but freshly discovered and freely chosen by the individual. Malcolm X, who in his early
 life followed the behavioral script for young men in the slum, fighting and
 dealing drugs, discovered in jail, through reading and reflection, a different
 set of goals through which to achieve dignity and self-respect. In essence
@@ -9667,15 +8738,12 @@ along with the deal. Unfortunately the doctor never showed up again, and
 E.’s father had to borrow money to pay the expensive hospital bill; the bike
 was never replaced.
 This event could have been a trauma that left its scar on E. forever,
-turning him into a cynic who would from now on look out for his own self-
-interest no matter what. Instead E. drew a curious lesson from his experi-
-ence. He used it to create a life theme that not only gave meaning to his
+turning him into a cynic who would from now on look out for his own selfinterest no matter what. Instead E. drew a curious lesson from his experience. He used it to create a life theme that not only gave meaning to his
 own life but helped reduce entropy in the experience of many other people.
 For many years after the accident, E. and his parents were bitter, suspicious,
 and confused about the intentions of strangers. E.’s father, feeling that he
 was a failure, took to drinking and became morose and withdrawn. It
-looked as though poverty and helplessness were having their expected ef-
-fects. But when he was fourteen or fifteen years old, E. had to read in school
+looked as though poverty and helplessness were having their expected effects. But when he was fourteen or fifteen years old, E. had to read in school
 the U.S. Constitution and the Bill of Rights. He connected the principles in
 those documents with his own experience. Gradually he became convinced
 that his family’s poverty and alienation were not their fault, but were the
@@ -9710,8 +8778,7 @@ rich; that a large part of his behavior is due to helplessness and lack of
 education. Only the last of these equally likely explanations leads in the
 direction of a life theme such as E. was able to develop.
 So the next question is, What kinds of explanations for one’s suffering
-lead to negentropic life themes? If a child abused by a violent father con-
-cluded that the problem was inherent in human nature, that all men were
+lead to negentropic life themes? If a child abused by a violent father concluded that the problem was inherent in human nature, that all men were
 weak and violent, there would not be much he or she could do about it.
 How could a child change human nature? To find purpose in suffering one
 must interpret it as a possible challenge. In this case, by formulating his
@@ -9739,10 +8806,8 @@ Chicago team, provides a similar example. As a child Gottfried was very
 close to his mother, and his memories of those early years are sunny and
 warm. But before he turned ten, his mother developed cancer, and died in
 great pain. The young boy could have felt sorry for himself and become
-depressed, or he could have adopted hardened cynicism as a defense. In-
-stead he began to think of the disease as his personal enemy, and swore to
-defeat it. In time he earned a medical degree and became a research onco-
-logist, and the results of his work have become part of the pattern of
+depressed, or he could have adopted hardened cynicism as a defense. Instead he began to think of the disease as his personal enemy, and swore to
+defeat it. In time he earned a medical degree and became a research oncologist, and the results of his work have become part of the pattern of
 knowledge that eventually will free mankind of this scourge. In this case,
 again, a personal tragedy became transformed into a challenge that can be
 met. In developing skills to meet that challenge, the individual improves
@@ -9787,19 +8852,15 @@ very end, before he finally died in one of Mussolini’s prisons, he wrote
 beautiful essays about the wonderful world that could be ours if we stopped
 being fearful and greedy.
 There are so many examples of this type of personality that one certainly
-cannot assume a direct causal relation between external disorder in child-
-hood and internal lack of meaning later in life: Thomas Edison as a child
+cannot assume a direct causal relation between external disorder in childhood and internal lack of meaning later in life: Thomas Edison as a child
 was sickly, poor, and believed to be retarded by his teacher; Eleanor
 Roosevelt was a lonely, neurotic young girl; Albert Einstein’s early years
-were filled with anxieties and disappointments—yet they all ended up in-
-venting powerful and useful lives for themselves.
+were filled with anxieties and disappointments—yet they all ended up inventing powerful and useful lives for themselves.
 If there is a strategy shared by these and by other people who succeed
 in building meaning into their experience, it is one so simple and obvious
-that it is almost embarrassing to mention. Yet because it is so often over-
-looked, especially nowadays, it will be valuable to review it. The strategy
+that it is almost embarrassing to mention. Yet because it is so often overlooked, especially nowadays, it will be valuable to review it. The strategy
 consists in extracting from the order achieved by past generations patterns
-that will help avoid disorder in one’s own mind. There is much know-
-ledge—or well-ordered information—accumulated in culture, ready for
+that will help avoid disorder in one’s own mind. There is much knowledge—or well-ordered information—accumulated in culture, ready for
 this use. Great music, architecture, art, poetry, drama, dance, philosophy,
 and religion are there for anyone to see as examples of how harmony can
 be imposed on chaos. Yet so many people ignore them, expecting to create
@@ -9843,15 +8904,12 @@ in a harsh orphanage, thought to himself, after reading by chance a Horatio
 Alger story in which a similarly poor and lonely youth makes his way in
 life by dint of hard work and good luck, “If he could do it, why not me?”
 Today this person is a retired banker well known for his philanthropy.
-Others remember being changed forever by the rational order of the Pla-
-tonic Dialogues or by the courageous acts of characters in a science fiction
+Others remember being changed forever by the rational order of the Platonic Dialogues or by the courageous acts of characters in a science fiction
 story.
 At its best, literature contains ordered information about behavior,
 models of purpose, and examples of lives successfully patterned around
-meaningful goals. Many people confronted with the randomness of exist-
-ence have drawn hope from the knowledge that others before them had
-faced similar problems, and had been able to prevail. And this is just liter-
-ature; what about music, art, philosophy, and religion?
+meaningful goals. Many people confronted with the randomness of existence have drawn hope from the knowledge that others before them had
+faced similar problems, and had been able to prevail. And this is just literature; what about music, art, philosophy, and religion?
 Occasionally I run a seminar for business managers on the topic of how
 to handle the midlife crisis. Many of these successful executives, having
 risen as far as they are likely to advance in their organizations, and often
@@ -9861,8 +8919,7 @@ have relied on the best theories and research results
 236 / Flow
 
 
-in developmental psychology for the lectures and discussions. I was reas-
-onably content with how these seminars worked out, and the participants
+in developmental psychology for the lectures and discussions. I was reasonably content with how these seminars worked out, and the participants
 usually felt that they had learned something useful. But I was never quite
 satisfied that the material made enough sense.
 Finally it occurred to me to try something more unusual. I would begin
@@ -9917,15 +8974,12 @@ of beliefs a person must first compare the information contained in it with
 his or her concrete experience, retain what makes sense, and then reject the
 rest.
 These days we occasionally still meet people whose lives reveal an inner
-order based on the spiritual insights of the great religions of the past. Des-
-pite what we read every day about the amorality of the stock market, the
+order based on the spiritual insights of the great religions of the past. Despite what we read every day about the amorality of the stock market, the
 corruption of defense contractors, and the lack of principles in politicians,
-examples to the contrary do exist. Thus there are also successful business-
-men who spend some of their free time in hospitals keeping company with
+examples to the contrary do exist. Thus there are also successful businessmen who spend some of their free time in hospitals keeping company with
 dying patients because they believe that reaching out to people who suffer
 is a necessary part of a meaningful life. And many people continue to derive
-strength and serenity from prayer, people for whom a personally meaning-
-ful belief system provides goals and rules for intense flow experiences.
+strength and serenity from prayer, people for whom a personally meaningful belief system provides goals and rules for intense flow experiences.
 But it seems clear that an increasing majority are not being helped by
 traditional religions and belief systems. Many are unable to separate the
 truth in the old doctrines from the distortions and degradations that time
@@ -9935,12 +8989,10 @@ belief happens to be at hand—warts and all—and become fundamentalist
 Christians, or Muslims, or communists.
 Is there any possibility that a new system of goals and means will arise
 to help give meaning to the lives of our children in the next century? Some
-people are confident that Christianity restored to its former glory will an-
-swer that need. Some still believe that communism will solve the problem
+people are confident that Christianity restored to its former glory will answer that need. Some still believe that communism will solve the problem
 of chaos in human experience and that its order will spread across the
 world. At present, neither of these outcomes seems likely.
-If a new faith is to capture our imagination, it must be one that will ac-
-count rationally for the things we know, the things we feel, the things we
+If a new faith is to capture our imagination, it must be one that will account rationally for the things we know, the things we feel, the things we
 hope for, and the ones we dread. It must be a system of beliefs
 238 / Flow
 
@@ -9951,16 +9003,14 @@ It is difficult to imagine that a system of beliefs such as this will not be
 based, at least to some degree, on what science has revealed about humanity
 and about the universe. Without such a foundation, our consciousness
 would remain split between faith and knowledge. But if science is to be of
-real help, it will have to transform itself. In addition to the various special-
-ized disciplines aimed at describing and controlling isolated aspects of
+real help, it will have to transform itself. In addition to the various specialized disciplines aimed at describing and controlling isolated aspects of
 reality, it will have to develop an integrated interpretation of all that is
 known, and relate it to humankind and its destiny.
 One way to accomplish this is through the concept of evolution.
 Everything that matters most to us—such questions as: Where did we come
 from? Where are we going? What powers shape our lives? What is good
 and bad? How are we related to one another, and to the rest of the universe?
-What are the consequences of our actions?—could be discussed in a sys-
-tematic way in terms of what we now know about evolution and even more
+What are the consequences of our actions?—could be discussed in a systematic way in terms of what we now know about evolution and even more
 in terms of what we are going to know about it in the future.
 The obvious critique of this scenario is that science in general, and the
 science of evolution in particular, deals with what is, not with what ought
@@ -9993,14 +9043,11 @@ beings as separate from one another. We have invented abstraction and
 analysis—the ability to separate dimensions of objects and processes from
 each other, such as the velocity of a falling object from its weight and its
 mass. It is this differentiation that has produced science, technology, and
-the unprecedented power of mankind to build up and to destroy its envir-
-onment.
+the unprecedented power of mankind to build up and to destroy its environment.
 But complexity consists of integration as well as differentiation. The task
-of the next decades and centuries is to realize this under-developed com-
-ponent of the mind. Just as we have learned to separate ourselves from
+of the next decades and centuries is to realize this under-developed component of the mind. Just as we have learned to separate ourselves from
 each other and from the environment, we now need to learn how to reunite
-ourselves with other entities around us without losing our hard-won indi-
-viduality. The most promising faith for the future might be based on the
+ourselves with other entities around us without losing our hard-won individuality. The most promising faith for the future might be based on the
 realization that the entire universe is a system related by common laws
 and that it makes no sense to impose our dreams and desires on nature
 without taking them into account. Recognizing the limitations of human
@@ -10022,13 +9069,11 @@ been Norman Bradburn’s The Structure of Psychological Well-Being (Bradburn
 1969), which pointed out that happiness and unhappiness were independent
 of each other; in other words, just because a person is happy it does not
 mean he can’t also be unhappy at the same time. Dr. Ruut Veenhoven at
-the Erasmus University in Rotterdam, the Netherlands, has recently pub-
-lished a Databook of Happiness which summarizes 245 surveys conducted
+the Erasmus University in Rotterdam, the Netherlands, has recently published a Databook of Happiness which summarizes 245 surveys conducted
 in 32 countries between 1911 and 1975 (Veenhoven 1984); a second volume
 is in preparation. The Archimedes Foundation of Toronto, Canada, has
 also set as its task the keeping track of investigations of human happiness
-and well-being; its first directory appeared in 1988. The Psychology of Hap-
-piness, by the Oxford social psychologist Michael Argyle, was published
+and well-being; its first directory appeared in 1988. The Psychology of Happiness, by the Oxford social psychologist Michael Argyle, was published
 in 1987. Another comprehensive collection of ideas and research in this
 area is the volume by Strack, Argyle, & Schwartz (1990).
 Undreamed-of material luxuries. Good recent accounts of the conditions
@@ -10039,8 +9084,6 @@ was published here in 1987. Another magisterial series on the same topic
 is Fernand Braudel’s The Structures of Everyday Life, whose first volume
 appeared in English in 1981. For the changes in home furnishings, see also
 Le Roy Ladurie (1979) and Csikszentmihalyi & Rochberg-Halton (1981).
-241
-
 
 Flow. My work on optimal experience began with my doctoral dissertation,
 which involved a study of how young artists went about creating a painting.
@@ -10058,10 +9101,8 @@ method are available in Csikszentmihalyi & Larson (1984, 1987).
 Applications of the flow concept. These are described in the first chapter
 of Optimal Experience (Csikszentmihalyi & Csikszentmihalyi 1988).
 Goals. The earliest explanations of human behavior, starting with Aristotle,
-assumed that actions were motivated by goals. Modern psychology, how-
-ever, has shown that much of what people do can be explained more
-parsimoniously by simpler, often unconscious, causes. As a result, the im-
-portance of goals in directing behavior has been greatly discredited. Some
+assumed that actions were motivated by goals. Modern psychology, however, has shown that much of what people do can be explained more
+parsimoniously by simpler, often unconscious, causes. As a result, the importance of goals in directing behavior has been greatly discredited. Some
 exceptions include Alfred Adler (1956), who believed that people develop
 goal hierarchies that inform their decisions throughout life; and the
 American psychologists Gordon Allport (1955) and Abraham Maslow
@@ -10075,10 +9116,8 @@ act the way they do because they are trying to achieve goals; but only that
 when they do so, they experience a sense of control which is absent when
 behavior is not motivated by consciously chosen goals (see Csikszentmihalyi
 1989).
-Chaos. It might seem strange that a book which deals with optimal exper-
-ience should be concerned with the chaos of the universe. The reason for
-this is that the value of life cannot be understood except against the back-
-ground of its problems and dangers. Ever since the first known work of
+Chaos. It might seem strange that a book which deals with optimal experience should be concerned with the chaos of the universe. The reason for
+this is that the value of life cannot be understood except against the background of its problems and dangers. Ever since the first known work of
 literature, the Gilgamesh, was written 35 centuries ago (Mason 1971), it has
 been customary to start with a review of the Fall
 242 / Flow
@@ -10120,23 +9159,18 @@ a person’s actions.
 Controlling one’s life. The effort to achieve self-control is one of the oldest
 goals of human psychology. In a lucid summary of several hundred writings
 of different intellectual traditions aimed at increasing self-control (e.g.,
-Yoga, various philosophies, psychoanalysis, personality psychology, self-
-help), Klausner (1965) found that the objects to which control was directed
-could be summarized in four categories: (1) control of performance or be-
-havior; (2) control of underlying physiological drives; (3) control of intel-
-lectual functions, i.e., thinking; (4) control of emotions, i.e., feeling.
+Yoga, various philosophies, psychoanalysis, personality psychology, selfhelp), Klausner (1965) found that the objects to which control was directed
+could be summarized in four categories: (1) control of performance or behavior; (2) control of underlying physiological drives; (3) control of intellectual functions, i.e., thinking; (4) control of emotions, i.e., feeling.
 Mihaly Csikszentmihalyi / 243
 
 
-Culture as defense against chaos. See, for instance, Nelson’s (1965) sum-
-mary on this point. Interesting treatments of the positive integrative effects
+Culture as defense against chaos. See, for instance, Nelson’s (1965) summary on this point. Interesting treatments of the positive integrative effects
 of culture are Ruth Benedict’s concept of “synergy” (Maslow & Honigmann
 1970), and Laszlo’s (1970) general systems perspective. (See also Redfield
 1942; von Bertalanffy 1960, 1968; and Polanyi 1968, 1969.) For an example
 of how meaning is created by individuals in a cultural context, see
 Csikszentmihalyi & Rochberg-Halton (1981).
-Cultures believe themselves to be at the center of the universe. Ethnocen-
-trism tends to be one of the basic tenets of every culture; see for instance
+Cultures believe themselves to be at the center of the universe. Ethnocentrism tends to be one of the basic tenets of every culture; see for instance
 LeVine & Campbell (1972), Csikszentmihalyi (1973).
 Ontological anxiety. The experts on ontological (or existential) anxiety
 have been, at least in the past few centuries, the poets, the painters, the
@@ -10146,8 +9180,7 @@ Jaspers (1923, 1955); among psychiatrists, Sullivan (1953) and Laing (1960,
 1961).
 Meaning. An experience is meaningful when it is related positively to a
 person’s goals. Life has meaning when we have a purpose that justifies our
-strivings, and when experience is ordered. To achieve this order in experi-
-ence it is often necessary to posit some supernatural force, or providential
+strivings, and when experience is ordered. To achieve this order in experience it is often necessary to posit some supernatural force, or providential
 plan, without which life might make no sense. See also Csikszentmihalyi
 & Rochberg-Halton (1981). The problem of meaning will be discussed in
 more depth in chapter 10.
@@ -10166,8 +9199,7 @@ Trends in social pathology. For the statistics on energy use, see Statistical
 Abstracts of the U.S. (U.S. Dept. of Commerce 1985, p. 199); for those on
 poverty, see ibid., p. 457. Violent crime trends are drawn from the U.S.
 Dept. of Justice’s Uniform Crime Reports (July 25, 1987, p. 41), the Statistical
-Abstracts (1985, p. 166), and the Commerce Department’s U.S. Social Indic-
-ators (1980, pp. 235, 241). Venereal disease statistics are from the Statistical
+Abstracts (1985, p. 166), and the Commerce Department’s U.S. Social Indicators (1980, pp. 235, 241). Venereal disease statistics are from the Statistical
 Abstracts of the U.S. (1985, p. 115); for divorce see ibid., p. 88.
 244 / Flow
 
@@ -10189,12 +9221,10 @@ complaints (Wynne 1978, Yankelovich 1981). By 1980 one out of ten high
 school seniors was using psychotropic drugs daily (Johnston, Bachman, &
 O’Malley 1981). To qualify this picture of gloom, it should be mentioned
 that in most cultures, as far as it is possible to ascertain, adolescents have
-been seen as troublesome (Fox 1977). “The great internal turmoil and ex-
-ternal disorder of adolescence are universal and only moderately affected
+been seen as troublesome (Fox 1977). “The great internal turmoil and external disorder of adolescence are universal and only moderately affected
 by cultural determinants” (Kiell 1969, p. 9). According to Offer, Ostrov, &
 Howard (1981), only about 20 percent of contemporary U.S. adolescents
-are to be considered “troubled,” but even this conservative estimate repres-
-ents, of course, quite a huge number of young people.
+are to be considered “troubled,” but even this conservative estimate represents, of course, quite a huge number of young people.
 Socialization. The necessity to postpone gratification in order to function
 in society was discussed by Freud in Civilization and Its Discontents (1930).
 Brown (1959) provided a spirited rebuttal of Freud’s arguments. For
@@ -10202,11 +9232,9 @@ standard works on socialization see Clausen (1968) and Zigler & Child
 (1973). A recent extended study of socialization in adolescence can be found
 in Csikszentmihalyi & Larson (1984).
 Social controls. Some good examples of how social controls are enforced
-by creating chemical dependencies are the case of the Spaniards’ introduc-
-tion of rum and brandy into Central America (Braudel 1981, pp. 248–49);
+by creating chemical dependencies are the case of the Spaniards’ introduction of rum and brandy into Central America (Braudel 1981, pp. 248–49);
 the use of whiskey in the expropriation of American Indian territories; and
-the Chinese Opium Wars. Herbert Marcuse (1955, 1964) has discussed ex-
-tensively how dominant social groups coopt sexuality and pornography
+the Chinese Opium Wars. Herbert Marcuse (1955, 1964) has discussed extensively how dominant social groups coopt sexuality and pornography
 to enforce social controls. As Aristotle said long ago, “The study of pleasure
 and pain belongs to the province of the political philosopher” (Nicomachean
 Ethics, book 7, chapter 11).
@@ -10223,8 +9251,7 @@ Csikszentmihalyi (1988).
 Paths of liberation. The history of this quest is so rich and long that it is
 impossible to do it justice in a short space. For the mystical traditions see
 Behanan (1937) and Wood (1954) on Yoga, and Scholem (1969) on Jewish
-mysticism. In philosophy one might single out Hadas (1960) on Greek hu-
-manism; Arnold (1911) and Murray (1940) on the Stoics; and MacVannel
+mysticism. In philosophy one might single out Hadas (1960) on Greek humanism; Arnold (1911) and Murray (1940) on the Stoics; and MacVannel
 (1896) on Hegel. For more contemporary philosophers see Tillich (1952)
 and Sartre (1956). A recent reinterpretation of Aristotle’s notion of virtue
 that is very similar in some ways to the concept of autotelic activity, or
@@ -10243,8 +9270,7 @@ India roughly fifteen hundred years ago; these will be discussed more
 amply in chapter 5. Followers of holistic medicine believe that the mental
 state of the patient is extremely important in determining the course of
 physical health; see also Cousins (1979) and Siegel (1986). Eugene Gendlin
-(1981), a colleague at the University of Chicago, has developed a contem-
-porary technique for controlling attention called “focusing.” In this volume
+(1981), a colleague at the University of Chicago, has developed a contemporary technique for controlling attention called “focusing.” In this volume
 I am not proposing any one technique, but instead will present a conceptual
 analysis of what control and enjoyment involve as well as give practical
 examples, so that the reader can develop a method best suited to his or her
@@ -10282,16 +9308,12 @@ only means that the approach to the problem of studying experience is
 heavily influenced by the insights of Husserl (1962), Heidegger (1962, 1967),
 Sartre (1956), Merleau-Ponty (1962, 1964), and some of their translators into
 the social sciences, e.g., Natanson (1963), Gendlin (1962), Fisher (1969),
-Wann (1964), and Schutz (1962). Clear, short introductions to the phenomen-
-ology of Husserl are the books by Kohak (1978) and Kolakowski (1987). To
-follow this volume, however, there is no need to keep in mind any phe-
-nomenological assumption. The argument must stand on its own merits
+Wann (1964), and Schutz (1962). Clear, short introductions to the phenomenology of Husserl are the books by Kohak (1978) and Kolakowski (1987). To
+follow this volume, however, there is no need to keep in mind any phenomenological assumption. The argument must stand on its own merits
 and be understood on its own terms. The same is true for information
 theory (see Wiener 1948 [1961]).
 Dreaming. Stewart (1972) reports that the Sinoi of Malaysia learn to control
-their dreams, and thereby achieve unusual mastery over waking conscious-
-ness as well. If this is true (which seems doubtful), it is an interesting excep-
-tion that goes toward proving the general rule—in other words, it means
+their dreams, and thereby achieve unusual mastery over waking consciousness as well. If this is true (which seems doubtful), it is an interesting exception that goes toward proving the general rule—in other words, it means
 that by training attention one can control consciousness even in sleep
 (Csikszentmihalyi 1982a). One recent consciousness-expansion method
 has been trying to do just this. “Lucid dreaming” is an attempt to control
@@ -10306,16 +9328,13 @@ Mihaly Csikszentmihalyi / 247
 who have treated the limitations of attention include Simon (1969, 1978),
 Kahneman (1973), Hasher & Zacks (1979), Eysenck (1982), and Hoffman,
 Nelson, & Houck (1983). Attentional demands made by cognitive processes
-are discussed by Neisser (1967, 1976), Treisman & Gelade (1980), and Tre-
-isman & Schmidt (1982). The attentional requirements of storing and recall-
-ing information from memory have been dealt with by Atkinson & Shiffrin
+are discussed by Neisser (1967, 1976), Treisman & Gelade (1980), and Treisman & Schmidt (1982). The attentional requirements of storing and recalling information from memory have been dealt with by Atkinson & Shiffrin
 (1968) and Hasher & Zacks (1979). But the importance of attention and its
 limitations was already well known to William James (1890).
 Limits for processing speech. For the 40-bit-per-second requirement see
 Liberman, Mattingly, & Turvey (1972) and Nusbaum & Schwab (1986).
 The uses of time. The first comprehensive tabulation of how people spend
-their time was the cross-national project reported in Szalai (1965). The fig-
-ures reported here are based on my studies with the Experience Sampling
+their time was the cross-national project reported in Szalai (1965). The figures reported here are based on my studies with the Experience Sampling
 Method (ESM), e.g., Csikszentmihalyi, Larson, & Prescott (1977),
 Csikszentmihalyi & Graef (1980), Csikszentmihalyi & Larson (1984),
 Csikszentmihalyi & Csikszentmihalyi (1988).
@@ -10331,21 +9350,18 @@ include Wundt (1902), Lipps (1899), Ribot (1890), Binet (1890), and Jung
 (1928 [1960]). Some contemporary approaches are represented by Kahneman
 (1973), Csikszentmihalyi (1978, 1987), and Hoffman, Nelson, & Houck
 (1983).
-Attention and culture. The Melanesians’ ability to remember precise loca-
-tions by floating on the surface of the sea is described by Gladwin (1970).
+Attention and culture. The Melanesians’ ability to remember precise locations by floating on the surface of the sea is described by Gladwin (1970).
 Reference to the many names for snow used by Eskimos can be found in
 Bourguignon (1979).
 The self. Psychologists have thought of innumerable ways of describing
 the self, from the social-psychological approaches of George Herbert Mead
 (1934 [1970]) and Sullivan (1953) to the analytic psychology of Carl Gustav
 Jung (1933 [1961]). Currently, however, psychologists try to avoid speaking
-of the “self”; instead they limit themselves to describ-
-248 / Flow
+of the “self”; instead they limit themselves to describ248 / Flow
 
 
 ing the “self concept.” A good account of how this concept develops is
-given by Damon & Hart (1982). Another approach uses the term “self-effic-
-acy” (see Bandura 1982). The model of the self developed in these pages
+given by Damon & Hart (1982). Another approach uses the term “self-efficacy” (see Bandura 1982). The model of the self developed in these pages
 has been influenced by many sources, and is described in Csikszentmihalyi
 (1985a) and Csikszentmihalyi & Csikszentmihalyi (1988).
 Disorder in consciousness. Psychologists have studied negative emotions,
@@ -10363,8 +9379,7 @@ the pages below; see also Csikszentmihalyi (1982a) and Csikszentmihalyi
 & Larson (1984). Basically, it refers to the lack of conflict among the bits of
 information present in an individual’s consciousness. When the information
 is in harmony with a person’s goals, the consciousness of that person is
-“ordered.” The same concept applies also to lack of conflict between indi-
-viduals, when their goals are in harmony with each other.
+“ordered.” The same concept applies also to lack of conflict between individuals, when their goals are in harmony with each other.
 Flow. The original research and the theoretical model of the flow experience
 were first fully reported in Beyond Boredom and Anxiety (Csikszentmihalyi
 1975). Since then a great number of works have used the flow concept, and
@@ -10380,8 +9395,7 @@ person’s consciousness is differentiated and integrated. A complex person
 is one who is able to access precise, discrete information, and yet is able to
 relate the various pieces to each other; for example, a person whose desires,
 emotions, thoughts, values, and actions are strongly individuated yet do
-not contradict each other. See, for instance, Csikszent-
-Mihaly Csikszentmihalyi / 249
+not contradict each other. See, for instance, CsikszentMihaly Csikszentmihalyi / 249
 
 
 mihalyi (1970), Csikszentmihalyi & Csikszentmihalyi (1988), and
@@ -10390,22 +9404,18 @@ related to the same concept as used by some evolutionary biologists (e.g.,
 Dobzhansky 1962, 1967), and it has been influenced by the poetic insights
 of Teilhard de Chardin (1965). A very promising definition of complexity
 in physical systems, defined as “thermodynamic depth,” was being worked
-on by Heinz Pagels (1988) before his recent untimely death. By his defini-
-tion, the complexity of a system is the difference between the amount of
+on by Heinz Pagels (1988) before his recent untimely death. By his definition, the complexity of a system is the difference between the amount of
 information needed to describe the system in its present state and the
 amount needed to describe all the states it might have been in at the point
-at which it changed from the last previous state. Applying this to the psy-
-chology of the self, one might say that a complex person was one whose
+at which it changed from the last previous state. Applying this to the psychology of the self, one might say that a complex person was one whose
 behavior and ideas could not be easily explained, and whose development
 was not obviously predictable.
 “[There’s] no place…” The quote is from Csikszentmihalyi 1975, p. 94.
 CHAPTER 3
 For research on the relationship between happiness and wealth, see
-Diener, Horwitz, & Emmons (1985), Bradburn (1969), and Campbell, Con-
-verse, & Rodgers (1976).
+Diener, Horwitz, & Emmons (1985), Bradburn (1969), and Campbell, Converse, & Rodgers (1976).
 Pleasure and enjoyment. Aristotle’s entire Nicomachean Ethics deals with
-this issue, especially book 3, chapter 11, and book 7. See also Csikszentmi-
-halyi & Csikszentmihalyi (1988, pp. 24–25).
+this issue, especially book 3, chapter 11, and book 7. See also Csikszentmihalyi & Csikszentmihalyi (1988, pp. 24–25).
 Children’s pleasure in activity. Early German psychologists posited the
 existence of Funktionlust, or the pleasure derived from using one’s body in
 such activities as running, hitting, swinging, and so on (Groos 1901, Buhler
@@ -10415,8 +9425,7 @@ being the cause.” In the U.S., Murphy (1947) posited the existence of sensory
 and activity drives to account for the feeling of pleasure that sight, sound,
 or muscle sense occasionally gives. These insights were incorporated into
 a theory of optimal stimulation or optimal arousal mainly through the work
-of Hebb (1955) and Berlyne (1960), who assumed pleasure was the con-
-sequence of an optimal balance between the incoming stimulation and the
+of Hebb (1955) and Berlyne (1960), who assumed pleasure was the consequence of an optimal balance between the incoming stimulation and the
 nervous system’s ability to assimilate it. The extension of these basically
 neurological explanations for why one finds pleasure in action was provided
 by White (1959), deCharms (1968), and Deci & Ryan (1985), who looked at
@@ -10435,8 +9444,7 @@ course of studies reported in Csikszentmihalyi (1975) and Csikszentmihalyi
 & Csikszentmihalyi (1988). Over 600 additional interviews were collected
 by Professor Fausto Massimini and his collaborators in Europe, Asia, and
 the southwestern United States.
-Ecstasy. Extensive case studies of ecstatic religious experiences were collec-
-ted by Marghanita Laski (1962). Abraham Maslow (1971), who coined the
+Ecstasy. Extensive case studies of ecstatic religious experiences were collected by Marghanita Laski (1962). Abraham Maslow (1971), who coined the
 term “peak experience” to describe such events, played a very important
 role in helping give legitimacy to the consideration of such phenomena by
 psychologists. It is fair to say, however, that Laski and Maslow looked at
@@ -10447,8 +9455,7 @@ Privette (1983). Ecstatic experiences are apparently more common than one
 might think. As of March 1989, over 30 percent of a national representative
 sample of 1,000 U.S. respondents answered affirmatively to the item: “You
 felt as though you were very close to a powerful spiritual force that seemed
-to lift you out of your self.” A full 12 percent claimed that they had experi-
-enced this feeling often or on several occasions (General Social Survey 1989).
+to lift you out of your self.” A full 12 percent claimed that they had experienced this feeling often or on several occasions (General Social Survey 1989).
 Reading as a favorite flow activity. This finding is reported in Massimini,
 Csikszentmihalyi, & Delle Fave (1988). A recent book that describes in detail
 how reading provides enjoyment is by Nell (1988).
@@ -10485,16 +9492,13 @@ did not enjoy situations in which their skills and the outside challenges
 were both lower than their accustomed levels. The new model predicts
 flow only when challenges and skills are relatively in balance, and above
 the individual’s mean level—and this prediction is confirmed by the studies
-conducted with the Experience Sampling Method (Carli 1986, Csikszentmi-
-halyi & Nakamura 1989, Massimini, Csikszentmihalyi, & Carli 1987). In
+conducted with the Experience Sampling Method (Carli 1986, Csikszentmihalyi & Nakamura 1989, Massimini, Csikszentmihalyi, & Carli 1987). In
 addition, these studies have shown that the condition of anxiety (high
 challenge, low skills) is relatively rare in everyday life, and it is experienced
 as much more negative than the condition of boredom (low challenge, high
 skills).
-“Your concentration…,” “You are so involved…,” and “…the concentra-
-tion…” are from Csikszentmihalyi (1975, p. 39). “Her reading…” is from
-Allison and Duncan (1988, p. 129). The relationship between focused atten-
-tion and enjoyment was clearly perceived four centuries ago by Montaigne
+“Your concentration…,” “You are so involved…,” and “…the concentration…” are from Csikszentmihalyi (1975, p. 39). “Her reading…” is from
+Allison and Duncan (1988, p. 129). The relationship between focused attention and enjoyment was clearly perceived four centuries ago by Montaigne
 (1580 [1958], p. 853): “I enjoy…[life] twice as much as others, for the
 measure of enjoyment depends on the greater or lesser attention that we
 lend it.”
@@ -10523,16 +9527,13 @@ Exceptional sensitivities. The commonsense impression that different
 children have a facility for developing different talents, some having an
 affinity for physical movement, others for music, or languages, or for getting
 along with other people, has recently been formalized in a theory of
-“multiple intelligences” by Howard Gardner (1983). Gardner and his col-
-laborators at Harvard are now at work developing a comprehensive testing
-battery for each of the seven major dimensions of intelligence he has iden-
-tified.
+“multiple intelligences” by Howard Gardner (1983). Gardner and his collaborators at Harvard are now at work developing a comprehensive testing
+battery for each of the seven major dimensions of intelligence he has identified.
 The importance of feedback for the blind is reported in Massimini,
 Csikszentmihalyi, & Delle Fave (1988, pp. 79–80).
 “It is as if…” is from Csikszentmihalyi (1975, p. 40).
 “The court…” and “Kids my age…” are from Csikszentmihalyi (1975, pp.
-40–41); “When you’re [climbing]…” is from ibid., p. 81, and “I get a feel-
-ing…” from ibid., p. 41. “But no matter how many…” is from Crealock
+40–41); “When you’re [climbing]…” is from ibid., p. 81, and “I get a feeling…” from ibid., p. 41. “But no matter how many…” is from Crealock
 (1951, pp. 99–100), quoted in Macbeth (1988, pp. 221–22). The quotation
 from Edwin Moses is in Johnson (1988, p. 6).
 “A strong relaxation…” and “…I have a general feeling…” are from
@@ -10556,11 +9557,8 @@ Mihaly Csikszentmihalyi / 253
 
 
 a recluse displaying eccentric and paranoid behavior. For parallels with
-Bobby Fischer’s career, see Waitzkin (1988). There are two lines of explan-
-ation for such coincidences. One is that people with fragile psychic organ-
-ization are disproportionately attracted to chess. The other is that chess, at
-highly competitive levels, requires a complete commitment of psychic en-
-ergy and can become addictive. When a player becomes a champion, and
+Bobby Fischer’s career, see Waitzkin (1988). There are two lines of explanation for such coincidences. One is that people with fragile psychic organization are disproportionately attracted to chess. The other is that chess, at
+highly competitive levels, requires a complete commitment of psychic energy and can become addictive. When a player becomes a champion, and
 exhausts all the challenges of the activity into which so much of his attention
 has been invested, he runs a serious risk of becoming disoriented because
 the goal that has given order to his consciousness is no longer meaningful.
@@ -10568,8 +9566,7 @@ Gambling among American Indians is described by Culin (1906), Cushing
 (1896), and Kohl (1860). Carver (1796, p. 238) describes Iroquois playing
 until they have lost everything they owned, including their moccasins, and
 then walking back to their home camp in snow three feet deep. An observer
-of the Tarahumara in Mexico reported that “he…may go on playing [stick-
-dice] for a fortnight to a month, until he has lost everything he has in the
+of the Tarahumara in Mexico reported that “he…may go on playing [stickdice] for a fortnight to a month, until he has lost everything he has in the
 world except his wife and children; he draws the line at that” (Lumholtz
 1902 [1987], p. 278).
 Surgeons who claim that performing operations can be “addictive” are
@@ -10582,13 +9579,9 @@ Robinson (1969); while involved in chess, see Steiner (1974).
 The danger of losing self as a result of “transcendent” experience has been
 extensively written about. One of the earliest treatments of this possibility
 is by Le Bon (1895 [1960]), whose work influenced that of McDougall (1920)
-and Freud (1921). Some recent studies dealing with the relationship of self-
-awareness and behavior are by Diener (1979), Wicklund (1979), and
-Scheier & Carver (1980). In terms of our model of complexity a deindividu-
-ated person who loses his or her self in a group is integrated, but not differ-
-entiated. Such a person yields the control of consciousness to the group,
-and may easily engage in dangerous behavior. To benefit from transcend-
-ence one must also have a strongly differentiated, or individuated self.
+and Freud (1921). Some recent studies dealing with the relationship of selfawareness and behavior are by Diener (1979), Wicklund (1979), and
+Scheier & Carver (1980). In terms of our model of complexity a deindividuated person who loses his or her self in a group is integrated, but not differentiated. Such a person yields the control of consciousness to the group,
+and may easily engage in dangerous behavior. To benefit from transcendence one must also have a strongly differentiated, or individuated self.
 Describing the dialectical relationship between the I, or the active part of
 the self, and the me, or the reflected self-concept, was the very influential
 contribution of George Herbert Mead (1934 [1970]).
@@ -10600,9 +9593,7 @@ The essential connection between something like happiness, enjoyment,
 and even virtue, on the one hand, and intrinsic or autotelic rewards on
 the other has been generally recognized by thinkers in a variety of cultural
 traditions. It is essential to the Taoist concept of Yu, or right living (e.g.,
-the basic writings of Chuang Tzu, translated by Watson 1964); to the Aris-
-totelian concept of virtue (MacIntyre 1984); and to the Hindu attitude to-
-ward life that infuses the Bhagavad Gita.
+the basic writings of Chuang Tzu, translated by Watson 1964); to the Aristotelian concept of virtue (MacIntyre 1984); and to the Hindu attitude toward life that infuses the Bhagavad Gita.
 The generalizations about people being dissatisfied with work and with
 leisure time are based on our studies with the Experience Sampling
 Method (e.g., Csikszentmihalyi & Graef 1979, 1980; Graef, Csikszentmihalyi,
@@ -10626,13 +9617,11 @@ because satisfaction is such a relative concept, it is very difficult to give an
 objective answer to this simple question. It is rather like whether one should
 say “half full” or “half empty” when asked to describe a glass with water
 halfway up (or down) the container. In a recent book by two outstanding
-German social scientists, the authors came to diametrically opposed con-
-clusions about German workers’ attitudes toward work, one claiming they
+German social scientists, the authors came to diametrically opposed conclusions about German workers’ attitudes toward work, one claiming they
 loved it, the other that they hated it, even though they were both arguing
 from the same exhaustive and detailed survey data base (Noelle-Neumann
 & Strumpel 1984). The counterintuitive finding that people tend to rate
-work as more satisfying than leisure has been noticed by several investig-
-ators (e.g., Andrews & Withey 1976, Robinson 1977). For example, Veroff,
+work as more satisfying than leisure has been noticed by several investigators (e.g., Andrews & Withey 1976, Robinson 1977). For example, Veroff,
 Douvan, & Kulka (1981) report that 49 percent of employed men claim
 work is more satisfying for them than leisure, whereas only 19 percent say
 that leisure is more satisfying than work.
@@ -10653,8 +9642,7 @@ Les Jeux et les Hommes (1958).
 Mimicry. An excellent example of how a ritual disguise can help one to
 step out of ordinary experience is given by Monti (1969, pp. 9–15), in his
 discussion of the use of West African ceremonial masks:
-“From a psychological point of view the origin of the mask can also be ex-
-plained by the more atavistic aspiration of the human being to escape from
+“From a psychological point of view the origin of the mask can also be explained by the more atavistic aspiration of the human being to escape from
 himself in order to be enriched by the experience of different existences—a desire
 which obviously cannot be fulfilled on the physical level—and in order to
 increase its own power by identifying with universal, divine, or demonic
@@ -10677,8 +9665,7 @@ socially sanctioned opportunities to experience flow. Religious rituals in
 general are usually conducive to the flow experience (see Carrington 1977;
 Csikszentmihalyi 1987; I. Csikszentmihalyi 1988; and Wilson 1985 and in
 press). A good introduction to the historical relationship between the sacred
-and the secular dimensions of leisure can be found in John R. Kelly’s text-
-book Leisure (1982, pp. 53–68).
+and the secular dimensions of leisure can be found in John R. Kelly’s textbook Leisure (1982, pp. 53–68).
 Flow and art. A description of how passive visual aesthetic experiences
 can produce flow is given in Csikszentmihalyi & Robinson (in press).
 256 / Flow
@@ -10703,24 +9690,18 @@ itself was first suggested in Csikszentmihalyi (1981a, 1981b). See also Argyle
 (1987, p. 65).
 The issue of cultural relativism is too complex to be given an unbiased
 evaluation here. An excellent (but not impartial) review of the concept is
-given by the anthropologist Melford Spiro (1987), who in a recent autobio-
-graphical account describes why he changed his mind from an uncritical
+given by the anthropologist Melford Spiro (1987), who in a recent autobiographical account describes why he changed his mind from an uncritical
 acceptance of the equal value of cultural practices to a much more qualified
 recognition of the pathological forms that cultures can occasionally assume.
 Philosophers and other humanists have often accused social scientists,
-sometimes with justification, of “debunking” absolute values that are im-
-portant for the survival of culture (e.g., Arendt 1958, Bloom 1987). The early
+sometimes with justification, of “debunking” absolute values that are important for the survival of culture (e.g., Arendt 1958, Bloom 1987). The early
 Italian-Swiss sociologist Vilfredo Pareto (1917, 1919) has been one of the
-scholars most keenly aware of the dangers of relativity inherent in his dis-
-cipline.
+scholars most keenly aware of the dangers of relativity inherent in his discipline.
 English workers. The classic story of how the free English workers were
-transformed into highly regimented industrial laborers is told by the his-
-torian E. P. Thompson (1963).
+transformed into highly regimented industrial laborers is told by the historian E. P. Thompson (1963).
 The suspicious Dobuans were studied by the anthropologist Reo Fortune
 (1932 [1963]). For the tragic plight of the Ik of Uganda see Turnbull (1972).
-Yonomamo. This fierce tribe was immortalized by the writings of the an-
-thropologist Napoleon Chagnon (1979). The sad Nigerian tribe was de-
-scribed by Laura Bohannan, under the pseudonym E. S. Bowen (1954).
+Yonomamo. This fierce tribe was immortalized by the writings of the anthropologist Napoleon Chagnon (1979). The sad Nigerian tribe was described by Laura Bohannan, under the pseudonym E. S. Bowen (1954).
 Colin Turnbull (1961) gave a loving description of the pygmies of the Ituri
 forest. The quote concerning the Shushwap was contained in a 1986 letter
 from Richard Kool to the author.
@@ -10735,10 +9716,8 @@ as Cubans and Egyptians was conducted by Easterlin (1974). For a general
 discussion of happiness and cross-cultural differences, see Argyle (1987,
 pp. 102–11).
 Affluence and happiness. Both Argyle (1987) and Veenhoven (1984) agree,
-on the basis of their evaluation of practically every study in the field con-
-ducted so far, that there is conclusive evidence for a positive but very
-modest correlation between material well-being and happiness or satisfac-
-tion with life.
+on the basis of their evaluation of practically every study in the field conducted so far, that there is conclusive evidence for a positive but very
+modest correlation between material well-being and happiness or satisfaction with life.
 The time budgets for U.S. workers are based on our ESM studies (e.g.,
 Csikszentmihalyi & Graef 1980; Graef, Csikszentmihalyi, & Gianinno 1983;
 Csikszentmihalyi & LeFevre 1987, 1989). These estimates are very similar
@@ -10748,24 +9727,20 @@ originally developed by the psychiatrist Roy Grinker. Overinclusion and
 the symptomatology of attentional disorders have been studied by, among
 others, Harrow, Grinker, Holzman, & Kayton (1977) and Harrow, Tucker,
 Hanover, & Shield (1972). The quotations are from McGhie & Chapman
-(1961, pp. 109, 114). I have argued the continuity between lack of flow ex-
-periences due to severe psychopathologies and milder attentional disorders
+(1961, pp. 109, 114). I have argued the continuity between lack of flow experiences due to severe psychopathologies and milder attentional disorders
 often caused by social deprivation in Csikszentmihalyi (1978, 1982a).
-Among the studies of the Eskimo that are worth reading are those of Car-
-penter (1970, 1973). The destruction of Caribbean cultures is described by
+Among the studies of the Eskimo that are worth reading are those of Carpenter (1970, 1973). The destruction of Caribbean cultures is described by
 Mintz (1985). The concept of anomie was originally developed by Emile
 Durkheim in his work Suicide (1897 [1951]). The best introduction to the
 concept of alienation is in the early manuscripts of Karl Marx, especially
-his Economic and Philosophic Manuscripts of 1844 (see Tucker 1972). The so-
-ciologist Richard Mitchell (1983, 1988) has argued that anomie and alienation
+his Economic and Philosophic Manuscripts of 1844 (see Tucker 1972). The sociologist Richard Mitchell (1983, 1988) has argued that anomie and alienation
 are the societal counterparts of anxiety and boredom, respectively, and
 that they occur when people cannot find flow because the conditions of
 everyday life are either too chaotic or too predictable.
 The neurophysiological hypothesis concerning attention and flow is based
 on the following research: Hamilton (1976, 1981), Hamilton, Holcomb, &
 De la Pena (1977), and Hamilton, Haier, & Buchsbaum (1984). This line of
-research is now continuing with the use of more sophisticated brain-scan-
-ning equipment.
+research is now continuing with the use of more sophisticated brain-scanning equipment.
 258 / Flow
 
 
@@ -10778,8 +9753,7 @@ The study of autotelic families is reported in Rathunde (1988). His findings
 are in line with many previous investigations, for instance that securely
 attached infants engage more in exploratory behavior (Ainsworth, Bell, &
 Stayton 1971, Matas, Arend, & Sroufe 1978), or that an optimal balance
-between love and discipline is the best child-rearing context (Bronfenbren-
-ner 1970, Devereux 1970, Baumrind 1977). The systems approach to family
+between love and discipline is the best child-rearing context (Bronfenbrenner 1970, Devereux 1970, Baumrind 1977). The systems approach to family
 studies, which is very congenial with the one developed here, was pioneered
 in clinical settings by Bowen (1978).
 The people of flow. This is the term Richard Logan (1985, 1988) used to
@@ -10787,24 +9761,21 @@ describe individuals who are able to transform trying ordeals into flow
 experiences. The quote “If the reach of experience…” is from Burney (1952,
 pp. 16–18).
 Eva Zeisel’s imprisonment is described in a New Yorker profile (Lessard
-1987). How a Chinese lady survived the brutalities of the Cultural Revolu-
-tion is the subject of Life and Death in Shanghai (Cheng 1987). Solzhenitsyn’s
+1987). How a Chinese lady survived the brutalities of the Cultural Revolution is the subject of Life and Death in Shanghai (Cheng 1987). Solzhenitsyn’s
 accounts of prison are from The Gulag Archipelago (1976).
 The account by Tollas Tibor is reconstructed from personal conversations
 we had in the summer of 1957, when he was released from jail after the
 Hungarian revolution.
 The quote from Solzhenitsyn is cited in Logan (1985). Bettelheim presents
 his generalizations about imprisonment based on his concentration camp
-experiences in the article “Individual and Mass Behavior in Extreme Situ-
-ations” (1943); for Frankl see Man’s Search for Meaning and The Unheard Cry
+experiences in the article “Individual and Mass Behavior in Extreme Situations” (1943); for Frankl see Man’s Search for Meaning and The Unheard Cry
 for Meaning (1963, 1978).
 The quotation from Russell was cited in an article in Self magazine (Merser
 1987, p. 147).
 CHAPTER 5
 The Tarahumara festivals that include ritual footraces up and down the
 mountains of northern Mexico for hundreds of miles are described in
-Lumholtz (1902 [1987]) and Nabokov (1981). An account of the ritual ele-
-ments involved in modern sports is given by MacAloon’s (1981) study of
+Lumholtz (1902 [1987]) and Nabokov (1981). An account of the ritual elements involved in modern sports is given by MacAloon’s (1981) study of
 the modern Olympics.
 The Icarus complex was explored by Henry A. Murray (1955).
 At this point it might be appropriate to confront squarely the
@@ -10815,10 +9786,8 @@ Freudian concept of sublimation, a topic that, if bypassed, might leave us
 with the nagging feeling of an unresolved problem. Superficial applications
 of Freud’s thought have led many people to interpret any action that is not
 directed to the satisfaction of basic sexual desires either as a defense, when
-it aims to hold back an unacceptable wish that otherwise might be ex-
-pressed, or as a sublimation, when an acceptable goal is substituted for a
-desire that could not be safely expressed in its original form. At best, sub-
-limation is a poor substitute for the unsatisfied pleasure it helps to disguise.
+it aims to hold back an unacceptable wish that otherwise might be expressed, or as a sublimation, when an acceptable goal is substituted for a
+desire that could not be safely expressed in its original form. At best, sublimation is a poor substitute for the unsatisfied pleasure it helps to disguise.
 For example, Bergler (1970) has argued that games involving risk provide
 a release from guilt about sexuality and aggression. According to the “Icarus
 complex” a high jumper is trying to escape from the ties of an Oedipal
@@ -10841,8 +9810,7 @@ unused potentials in their makeup to take advantage of the opportunities
 of an entirely new environment. The monkeys who use sticks to fish for
 ants at the mouth of anthills are not following a destiny carved in their
 genes, but are experimenting with possibilities that in the future may lead
-to the conscious use of tools, and hence to what we call progress. And cer-
-tainly human history can only be understood as the action of people striving
+to the conscious use of tools, and hence to what we call progress. And certainly human history can only be understood as the action of people striving
 to realize indistinct dreams. It is not a question of teleology—the belief that
 our actions are the unfolding of a preordained destiny—because teleology
 is also a mechanistic concept. The goals we pursue are not determined in
@@ -10850,8 +9818,7 @@ advance or built into our makeup. They are discovered in the process of
 enjoying the extension of our skills in novel settings, in new environments.
 Enjoyment seems to be the mechanism that natural selection has provided
 to ensure that we will evolve and become more complex. (This argument
-has been made in Csikszentmihalyi and Massimini [1985]; I. Csikszentmi-
-halyi [1988]; and M. Csikszentmihalyi [1988]. The evolutionary implications
+has been made in Csikszentmihalyi and Massimini [1985]; I. Csikszentmihalyi [1988]; and M. Csikszentmihalyi [1988]. The evolutionary implications
 of flow were also perceived by Crook [1980].) Just as pleasure from eating
 makes us want to eat more, and pleasure from
 260 / Flow
@@ -10892,8 +9859,7 @@ more psychoanalytically oriented approaches, see the three volumes edited
 by Mary Gedo, Psychoanalytic Perspectives on Art (1986, 1987, 1988).
 “There is that wonderful…” is from Csikszentmihalyi & Robinson (in
 press).
-“When I see works…” and “On a day like this…” are from Csikszentmi-
-halyi & Robinson (in press).
+“When I see works…” and “On a day like this…” are from Csikszentmihalyi & Robinson (in press).
 The use of music by the pygmies is described in Turnbull (1961).
 Mihaly Csikszentmihalyi / 261
 
@@ -10909,10 +9875,8 @@ Recorded music makes life richer. I heard this argument propounded
 most forcefully (but, I think, quite erroneously) by the aesthetic philosopher
 Eliseo Vivas at a public lecture in Lake Forest College, Illinois, sometime
 in the late 1960s.
-Durkheim developed his concept of “collective effervescence” as a precurs-
-or of religiosity in his Elementary Forms of Religious Life (1912 [1967]). Victor
-Turner’s “communitas” provides a contemporary perspective on the im-
-portance of spontaneous social interaction (1969, 1974).
+Durkheim developed his concept of “collective effervescence” as a precursor of religiosity in his Elementary Forms of Religious Life (1912 [1967]). Victor
+Turner’s “communitas” provides a contemporary perspective on the importance of spontaneous social interaction (1969, 1974).
 The writings of Carlos Castaneda (e.g., 1971, 1974), so influential even a
 decade ago, now barely produce a ripple on the collective consciousness.
 Much has been said to discredit the authenticity of his accounts. The last
@@ -10921,16 +9885,12 @@ indeed confused and pointless. But the first four volumes contained many
 important ideas, intriguingly presented; for these the old Italian saying
 applies: Se non è vero, è ben trovato—or, “It may not be true, but it is well
 conceived.”
-The stages of musical listening were described in an unpublished empir-
-ical study by Michael Heifetz at the University of Chicago. A similar devel-
-opmental trajectory was postulated earlier by the musicologist Leonard
+The stages of musical listening were described in an unpublished empirical study by Michael Heifetz at the University of Chicago. A similar developmental trajectory was postulated earlier by the musicologist Leonard
 Meyer (1956).
 Plato expresses his views on music in the Republic, book 3, in the dialogue
 between Glaucon and Socrates about the aims of education. The idea is
 that children should not be exposed to either “plaintive” or “relaxed”
-music, because both will undermine their character—thus Ionian and Ly-
-dian harmonies should be eliminated from the curriculum. The only accept-
-able harmonies are the Dorian and the Phrygian, because these are the
+music, because both will undermine their character—thus Ionian and Lydian harmonies should be eliminated from the curriculum. The only acceptable harmonies are the Dorian and the Phrygian, because these are the
 “strains of necessity and the strains of freedom,” inculcating courage and
 temperance in the young. Whatever one may think of Plato’s taste, it is
 clear that he took music very seriously. Here is what Socrates says (book
@@ -10946,11 +9906,9 @@ and an indictment of modern music, presumably because it has an affinity
 for Ionian and Lydian harmonies.
 Lorin Hollander’s story is based on conversations we had in 1985.
 Eating. For instance, ESM studies show that of the main things adult
-Americans do during an average day, eating is the most intrinsically mo-
-tivated (Graef, Csikszentmihalyi, & Giannino 1983). Teenagers report the
+Americans do during an average day, eating is the most intrinsically motivated (Graef, Csikszentmihalyi, & Giannino 1983). Teenagers report the
 second highest levels of positive affect when eating (after socializing with
-peers, which is the most positive), and very high levels of intrinsic motiva-
-tion—lower only than listening to music, being involved in sports and
+peers, which is the most positive), and very high levels of intrinsic motivation—lower only than listening to music, being involved in sports and
 games, and resting (Csikszentmihalyi & Larson 1984, p. 300).
 Cyrus the Great. The information comes from Xenophon’s (431 B.C.–350
 B.C.) Cyropaedia, a fictional account of Cyrus’s life. But Xenophon is the only
@@ -10963,8 +9921,7 @@ Rhea Dulles (1965), Jane Carson’s account of recreation in colonial Virginia
 CHAPTER 6
 Reading. In the interviews conducted by Professor Massimini around the
 world, reading books was the most often mentioned flow activity, especially
-in traditional groups undergoing modernization (Massimini, Csikszentmi-
-halyi, & Delle Fave 1988, pp. 74–75). See also the study by Nell of how
+in traditional groups undergoing modernization (Massimini, Csikszentmihalyi, & Delle Fave 1988, pp. 74–75). See also the study by Nell of how
 reading provides enjoyment (1988).
 Mental puzzles. The Dutch historian Johann Huizinga (1939 [1970]) argued
 that science and scholarship in general originated in riddling games.
@@ -10981,18 +9938,15 @@ activity (Kubey & Csikszentmihalyi in press).
 Mihaly Csikszentmihalyi / 263
 
 
-The various sensory deprivation experiments also show that without pat-
-terned input of information, the organization of consciousness tends to
+The various sensory deprivation experiments also show that without patterned input of information, the organization of consciousness tends to
 break down. For instance, George Miller writes: “The mind survives by
 ingesting information” (Miller 1983, p. 111). A more general claim is that
 organisms survive by ingesting negentropy (Schrödinger 1947).
-The negative quality of the television viewing experience has been docu-
-mented by several ESM studies, e.g., Csikszentmihalyi & Kubey (1981),
+The negative quality of the television viewing experience has been documented by several ESM studies, e.g., Csikszentmihalyi & Kubey (1981),
 Csikszentmihalyi & Larson (1984), Csikszentmihalyi, Larson, & Prescott
 (1977), Kubey & Csikszentmihalyi (in press), and Larson & Kubey (1983).
 Mental imagery. For some of Singer’s work on daydreaming, see Singer
-(1966, 1973, 1981) and Singer & Switzer (1980). In the last decade, a wide-
-spread “mental imagery” movement has developed in the U.S.
+(1966, 1973, 1981) and Singer & Switzer (1980). In the last decade, a widespread “mental imagery” movement has developed in the U.S.
 The Buñuel reference is from Sacks (1970 [1987], p. 23).
 Reciting names of ancestors. Generally, the task of remembering belongs
 to the elder members of the tribe, and sometimes it is assigned to the chief.
@@ -11005,12 +9959,10 @@ quality which is his alone: he himself is the Word of the clan” (Leenhardt
 1947 [1979], pp. 117–18). One example of how complex kinship reckoning
 can be is illustrated by Evans-Pritchard’s work on the Nuer of the Sudan,
 who divide their ancestors in maximal, major, minor, and minimal lineages,
-all connecting to each other for five or six ascending generations (Evans-
-Pritchard 1940 [1978]).
+all connecting to each other for five or six ascending generations (EvansPritchard 1940 [1978]).
 Riddles. The rhyme translated by Charlotte Guest, as well as the material
 on the following page, come from the famous account Robert Graves (1960)
-gives of the origins of poetry and literacy in The White Goddess. Graves be-
-longed to that wonderful period of British academic life when serious
+gives of the origins of poetry and literacy in The White Goddess. Graves belonged to that wonderful period of British academic life when serious
 scholarship coexisted with unfettered flights of the imagination—the
 period when C. S. Lewis and R. R. Tolkien taught classics and wrote science
 fiction at Oxford. Graves’s mythopoetic reconstructions are controversial,
@@ -11027,9 +9979,7 @@ did not improve a generalized aptitude for remembering. It is difficult to
 understand why educators would have thought such results relevant to
 making students stop memorizing meaningful texts.
 The control of memory. Remembering, like dreaming, seems not to be a
-process under volitional control of the self—we cannot bring into conscious-
-ness information that refuses to be called up. But just as with dreaming—ex-
-cept even more so—if one is willing to invest energy in it, memory can be
+process under volitional control of the self—we cannot bring into consciousness information that refuses to be called up. But just as with dreaming—except even more so—if one is willing to invest energy in it, memory can be
 greatly improved. With a little method and discipline, it is possible to build
 a whole set of mnemonic devices to help remember material that otherwise
 would be forgotten. For a recent review of how some of these methods
@@ -11042,8 +9992,7 @@ forms) on the basis of the prior development of irrigational techniques.
 That new cultural products are developed more for the sake of enjoyment
 than out of necessity is argued in Csikszentmihalyi (1988). This seems to
 be true even in the introduction of such basic techniques as the use of
-metals: “In several areas of the world it has been noted, in the case of me-
-tallurgical innovation in particular, that the development of bronze and
+metals: “In several areas of the world it has been noted, in the case of metallurgical innovation in particular, that the development of bronze and
 other metals as useful commodities was a much later phenomenon than
 their first utilization as new and attractive materials, employed in contexts
 of display…. In most cases early metallurgy appears to have been practiced
@@ -11054,32 +10003,26 @@ that, by focusing attention, could attract or enhance prestige” (Renfrew
 Huizinga (1939 [1970]) argued that institutions such as religion, law,
 government, and the armed forces originally started as play-forms, or
 games, and only gradually did they become rigid and serious. Similarly
-Max Weber (1930 [1958]) pointed out that capitalism started as an adven-
-turous game of entrepreneurs, and only later, when its practices became
+Max Weber (1930 [1958]) pointed out that capitalism started as an adventurous game of entrepreneurs, and only later, when its practices became
 rigidified in laws and conventions, did it become an “iron cage.”
 For the anecdotes concerning Democritus, see de Santillana (1961 [1970],
 pp. 142ff.)
-For an introduction to the sagas of Iceland, see Skuli Johnson’s (1930) col-
-lection.
+For an introduction to the sagas of Iceland, see Skuli Johnson’s (1930) collection.
 Mihaly Csikszentmihalyi / 265
 
 
-The argument about how conversation helps maintain the symbolic uni-
-verse is in Berger & Luckmann (1967).
+The argument about how conversation helps maintain the symbolic universe is in Berger & Luckmann (1967).
 How poetry can be taught to ghetto children and to old people in retirement
 homes without formal education is beautifully told by Koch (1970, 1977).
 Writing and depression. At least since the Romantic era, artists of all types
-have been held to be “tortured” or “demonically impelled.” There is reas-
-onably good evidence that many modern artists and writers in fact show
+have been held to be “tortured” or “demonically impelled.” There is reasonably good evidence that many modern artists and writers in fact show
 a variety of depressive and obsessive symptoms (see, e.g., Alvarez 1973,
 Berman 1988, Csikszentmihalyi 1988, and Matson 1980). Recently much
 has been written also about the relationship of manic depression and literary
 creativity (Andreasen 1987, Richards et al. 1988). It is very likely, however,
 that this relationship between psychic entropy and artistic creativity is the
 result of specific cultural expectations, and of the awkward structure of
-the artistic role, rather than anything necessarily inherent in art or in cre-
-ativity. In other words, if to survive as an artist in a given social environ-
-ment a person has to put up with insecurity, neglect, ridicule, and a lack
+the artistic role, rather than anything necessarily inherent in art or in creativity. In other words, if to survive as an artist in a given social environment a person has to put up with insecurity, neglect, ridicule, and a lack
 of commonly shared expressive symbols, he or she is likely to show the
 psychic effects of these adverse conditions. Vasari in 1550 was one of the
 first to express concern that the personality of the young Italian artists of
@@ -11107,17 +10050,13 @@ and to explain the reasons for cherishing them.
 266 / Flow
 
 
-The four quotations from Thomas Kuhn’s The Structure of Scientific Revolu-
-tions (1962) are from pages 24, 38, 38, and 36, respectively. One of the most
+The four quotations from Thomas Kuhn’s The Structure of Scientific Revolutions (1962) are from pages 24, 38, 38, and 36, respectively. One of the most
 exciting promises of flow theory is that it may help explain why certain
 ideas, practices, and products are adopted, while others are ignored or
 forgotten—since at this point the histories of ideas, institutions, and cultures
-work almost exclusively within a paradigm informed by economic determ-
-inism. In addition, it might be revealing to consider how history is directed
-by the enjoyment people derive or anticipate from different courses of ac-
-tion. A beginning in that direction is Isabella Csikszentmihalyi’s analysis
-of the reasons for the success of the Jesuit order in the 16th and 17th centur-
-ies (1988).
+work almost exclusively within a paradigm informed by economic determinism. In addition, it might be revealing to consider how history is directed
+by the enjoyment people derive or anticipate from different courses of action. A beginning in that direction is Isabella Csikszentmihalyi’s analysis
+of the reasons for the success of the Jesuit order in the 16th and 17th centuries (1988).
 Breakthroughs. It would go against the central message of this book to
 claim that the flow experience is “good for you” in the sense that it helps
 people achieve scientific or any other kind of success. It needs to be stressed
@@ -11159,17 +10098,12 @@ notice some peculiarities in the health patterns of members of their family,
 which when communicated to health experts turn out to have beneficial
 consequences. For example Berton Roueché (1988) reports how a woman
 in New England, struck by the fact that her son and many of his friends
-were suffering from arthritic pains in the knee, alerted doctors of this sus-
-picious coincidence, and as a result of her information researchers “dis-
-covered” Lyme disease, a potentially serious affliction transmitted by ticks.
-It may be presumptuous to present a “reading list” of the great philosoph-
-ers, but to simply name them without a reference would also offend pro-
-fessional scruples. So here goes. A few of the most seminal works in each
+were suffering from arthritic pains in the knee, alerted doctors of this suspicious coincidence, and as a result of her information researchers “discovered” Lyme disease, a potentially serious affliction transmitted by ticks.
+It may be presumptuous to present a “reading list” of the great philosophers, but to simply name them without a reference would also offend professional scruples. So here goes. A few of the most seminal works in each
 area might include the following. As to ontology, there are Christian von
 Wolff’s Vernunftige Gedanken, Kant’s Critique of Pure Reason, Husserl’s Ideas:
 General Introduction to Pure Phenomenology, and Heidegger’s Being and Time
-(1962); for these last two, it might be a good idea to start with the introduc-
-tions to Husserl by Kohak (1978) and by Kolakowski (1987), and to
+(1962); for these last two, it might be a good idea to start with the introductions to Husserl by Kohak (1978) and by Kolakowski (1987), and to
 Heidegger by George Steiner (1978 [1987]). In terms of ethics, one would
 certainly wish to tackle Aristotle’s Nicomachean Ethics; Aquinas’s treatises
 on Human Acts, on Habits, and on the Active and Contemplative Life in
@@ -11186,8 +10120,7 @@ Medvedev (1971) provides an informed account of how the agricultural
 policies of Lysenko, based on Leninist dogma, resulted in food shortages
 in Soviet Russia. See also Lecourt (1977).
 CHAPTER 7
-For the time budget allocated to work by preliterate people, see the excel-
-lent volume by Marshall Sahlins (1972) and the estimates of Lee (1975).
+For the time budget allocated to work by preliterate people, see the excellent volume by Marshall Sahlins (1972) and the estimates of Lee (1975).
 Some glimpses of the working patterns of medieval Europe are to be found
 in Le Goff (1980) and Le Roy Ladurie (1979). The pattern
 268 / Flow
@@ -11202,8 +10135,7 @@ Fave and Massimini (1988). Her quote “It gives me great satisfaction…”
 is from p. 203.
 The quote “I am free…” is from ibid.
 Development and complexity. While most developmental psychology has
-remained determinedly value-free (at least in its rhetoric, if not in its sub-
-stance), the psychology department at Clark University has maintained a
+remained determinedly value-free (at least in its rhetoric, if not in its substance), the psychology department at Clark University has maintained a
 relatively strong value orientation in its approach to human development,
 based on the notion that complexity is the goal of human growth (e.g.,
 Kaplan 1983, Werner 1957, Werner & Kaplan 1956). For recent attempts in
@@ -11219,8 +10151,7 @@ is reported in almost exactly the same terms in vastly different non-Western
 cultures.
 “However…” is from Watson (1964, p. 97). Waley (1939, p. 39) is the
 scholar who thinks the quotation does not describe Yu, but its opposite;
-whereas Graham (cited in Crandall 1983) and Watson (1964) believe it de-
-scribes Ting’s own way of butchering, and therefore that it refers to Yu.
+whereas Graham (cited in Crandall 1983) and Watson (1964) believe it describes Ting’s own way of butchering, and therefore that it refers to Yu.
 Navajos. Interviews with Navajo shepherds were conducted by Professor
 Massimini’s group in the summers of 1984 and 1985.
 The life of 17th- and 18th-century English weavers is described by E. P.
@@ -11248,8 +10179,7 @@ Jobs are easier to enjoy. That leisure can be a problem for many people
 has been recognized for a long time by psychologists and psychiatrists. For
 example, the Group for the Advancement of Psychiatry ended one of its
 reports in 1958 with the bald statement “For many Americans, leisure is
-dangerous.” The same conclusion was reached by Gussen (1967), who re-
-viewed some of the psychological ills that people who cannot adapt to
+dangerous.” The same conclusion was reached by Gussen (1967), who reviewed some of the psychological ills that people who cannot adapt to
 leisure manifest. The role of television as a way of masking the perils of
 free time has also been often remarked upon. For instance, Conrad (1982,
 p. 108) writes: “The original technological revolution was about saving
@@ -11258,10 +10188,8 @@ of that revolution is about wasting the time we’ve saved, and the institution
 it deputes to serve that purpose is television….”
 The leisure industry. It is difficult to estimate the economic value of leisure,
 because the worth of federal land used for recreation and the cost of the
-space devoted to leisure at home and in public buildings are truly incalcul-
-able. Direct spending on leisure in the United States has been estimated at
-$160 billion for 1980, double the amount for 1970 when adjusted for infla-
-tion. The average household spends about 5 percent of its income directly
+space devoted to leisure at home and in public buildings are truly incalculable. Direct spending on leisure in the United States has been estimated at
+$160 billion for 1980, double the amount for 1970 when adjusted for inflation. The average household spends about 5 percent of its income directly
 on leisure (Kelly 1982, p. 9).
 CHAPTER 8
 The importance of human interaction. All the ESM studies show that the
@@ -11290,20 +10218,17 @@ activities and interactions. If one were to develop a therapy based on
 flow—and steps in that direction have already been taken at the Medical
 School of the University of Milan, Italy—this would also be the route to
 follow. That is, one would endeavor to increase the frequency and intensity
-of optimal experiences, rather than (or in addition to) decreasing the incid-
-ence of negative ones.
+of optimal experiences, rather than (or in addition to) decreasing the incidence of negative ones.
 Baboons. Stuart Altmann (1970) and Jeanne Altmann (1970, 1980) know
 more about social relations among these primates than possibly anyone
 else. Their work indicates that the role of sociability for ensuring survival
-in such primates gives a good clue as to how and why human social “in-
-stincts” evolved.
+in such primates gives a good clue as to how and why human social “instincts” evolved.
 People are flexible. It was Patrick Mayers’s doctoral dissertation (1978),
 which utilized the Experience Sampling Method for gathering data, that
 first alerted us to the fact that teenagers listed interactions with their friends
 as both the most enjoyable and also the most anxiety-producing and boring
 experiences in their day. This usually did not happen with other categories
-of activities, which were, in general, either always boring or always enjoy-
-able. Since then the finding has been replicated with adults also.
+of activities, which were, in general, either always boring or always enjoyable. Since then the finding has been replicated with adults also.
 The realization of how important communication skills are for effective
 management was suggested by the data collected in the Vail program (see
 note to p. 160). For middle managers especially, better communication is
@@ -11326,14 +10251,11 @@ symbolic interactionism in sociology and anthropology (see Goffman 1969,
 e.g., Jackson (1957), Bateson (1978), Bowen (1978), and Hoffman (1981).
 Intolerable solitude. See notes to p. 165.
 Sunday mornings. That people tended to have an unusual number of
-nervous breakdowns on Sunday mornings was already noted by psycho-
-analysts in turn-of-the-century Vienna (see Ferenczi 1950). They, however,
-attributed the fact to more complicated causes than the ones we are postu-
-lating here.
+nervous breakdowns on Sunday mornings was already noted by psychoanalysts in turn-of-the-century Vienna (see Ferenczi 1950). They, however,
+attributed the fact to more complicated causes than the ones we are postulating here.
 The literature on television viewing is so enormous that even a short
 summary would probably be too long. A reasonably complete review is
-given in Kubey & Csikszentmihalyi in press. Given the scale of the phenom-
-enon, and its social and economic implications, it is very difficult to maintain
+given in Kubey & Csikszentmihalyi in press. Given the scale of the phenomenon, and its social and economic implications, it is very difficult to maintain
 scientific objectivity when dealing with television. Some researchers stoutly
 defend it, claiming that viewers are perfectly able to use television for their
 own purposes and turn viewing to their advantage, while others interpret
@@ -11341,20 +10263,17 @@ the data to show that it makes the viewers passive and discontented.
 Needless to say, this writer belongs to the second faction.
 The conclusion that drugs are not consciousness-expanding is based on
 interviews with about 200 artists whom our team has been studying for
-the past 25 years (see Getzels & Csikszentmihalyi 1965, 1976; Csikszentmi-
-halyi, Getzels, & Kahn 1984). Although artists have a tendency to glorify
+the past 25 years (see Getzels & Csikszentmihalyi 1965, 1976; Csikszentmihalyi, Getzels, & Kahn 1984). Although artists have a tendency to glorify
 drug-induced experiences, I have yet to hear of a creative work (or at least
 one that the artists themselves thought was a good one) produced entirely
 under the influence of drugs.
 Coleridge and Kubla Khan. One of the most often-quoted examples of how
 drugs help creativity is Coleridge’s claim that he wrote Kubla Khan in a
 flash of inspiration caused by the ingestion of laudanum—or opium. But
-Schneider (1953) has cast serious doubts on this story, presenting document-
-ary evidence that Coleridge wrote several drafts of the poem, and made
+Schneider (1953) has cast serious doubts on this story, presenting documentary evidence that Coleridge wrote several drafts of the poem, and made
 up the opium story to appeal to the romantic tastes of early-19th-century
 readers. Presumably if he had lived now, he would have done the same.
-Our current research with talented teenagers shows that many fail to de-
-velop their skills not because they have cognitive deficits, but because they
+Our current research with talented teenagers shows that many fail to develop their skills not because they have cognitive deficits, but because they
 cannot stand being alone, and are left behind by their peers who
 272 / Flow
 
@@ -11362,8 +10281,7 @@ cannot stand being alone, and are left behind by their peers who
 can tolerate the difficult learning and practicing required to perfect a talent
 (for a first report on this topic, see Nakamura 1988 and Robinson 1986). In
 the latter study, equally talented high school mathematics students were
-divided into those who by objective and subjective criteria were still in-
-volved in math by senior year, and those who were not. It was found that
+divided into those who by objective and subjective criteria were still involved in math by senior year, and those who were not. It was found that
 the involved students spent 15 percent of their waking time outside of
 school studying, 6 percent in structured leisure activities (e.g., playing a
 musical instrument, doing sports), and 14 percent in unstructured activities,
@@ -11395,8 +10313,7 @@ then children of monogamous marriages will help each other more because
 they share more genes than children whose parents are not the same. Thus
 under selective pressures, children of monogamous couples will get more
 help, and thus might survive more easily, and reproduce proportionately
-more, than children of polygamous couples growing up in a similar envir-
-onment. Moving from the biological to the cultural level of explanation, it
+more, than children of polygamous couples growing up in a similar environment. Moving from the biological to the cultural level of explanation, it
 seems clear that, other things being
 Mihaly Csikszentmihalyi / 273
 
@@ -11409,8 +10326,7 @@ one-parent families, economic and otherwise, see, for instance, Hetherington
 (1979), McLanahan (1988), and Tessman (1978).
 Cistothorus palustris. The marital practices of the marsh wren are described
 in the Encyclopaedia Britannica (1985, vol. 14, p. 701).
-Cicero’s quote about freedom was printed in my seventh-grade school as-
-signment diary, but despite several attempts I have been unable to find its
+Cicero’s quote about freedom was printed in my seventh-grade school assignment diary, but despite several attempts I have been unable to find its
 source. I sincerely hope it is not apocryphal.
 Family complexity. Following the lead of Pagels’s (1988) definition of
 complexity, we could also say that a family whose interactions are more
@@ -11419,12 +10335,9 @@ predict on the basis of present knowledge, is more complex than a family
 that is easier to describe and to predict. Such a measure would presumably
 give very similar results to a measure of complexity based on differentiation
 and integration.
-Suburban teenagers. The anthropologist Jules Henry (1965) gave a pro-
-foundly insightful description of what growing up in suburban communities
+Suburban teenagers. The anthropologist Jules Henry (1965) gave a profoundly insightful description of what growing up in suburban communities
 entailed a generation ago. More recently Schwartz (1987) compared six
-Midwestern communities in terms of what opportunities they gave adoles-
-cents for experiencing freedom and self-respect, and found striking differ-
-ences from one community to the next, which suggests that sweeping
+Midwestern communities in terms of what opportunities they gave adolescents for experiencing freedom and self-respect, and found striking differences from one community to the next, which suggests that sweeping
 generalizations about what is involved in being a teenager in our society
 might not be very accurate.
 If parents talked more. In one study of adolescents at a very good suburban
@@ -11452,26 +10365,21 @@ the development of autotelic personalities in children are being studied by
 Rathunde (1988).
 Positive moods with friends. When teenagers are with friends, they report
 very significantly higher levels of happiness, self-esteem, strength, and
-motivation—but lower levels of concentration and cognitive effi-
-ciency—than they report in any other social context (Csikszentmihalyi &
+motivation—but lower levels of concentration and cognitive efficiency—than they report in any other social context (Csikszentmihalyi &
 Larson 1984). The same pattern is true for older people studied with the
 ESM. For example, married adults and retired couples report more intense
 positive moods when they are with friends than when they are with their
 spouses or children—or anyone else.
-Drinking patterns. The different patterns of public drinking, and the res-
-ultant patterns of social interaction that they make possible, have been
+Drinking patterns. The different patterns of public drinking, and the resultant patterns of social interaction that they make possible, have been
 described in Csikszentmihalyi (1968).
-Instrumental versus expressive. The distinction between these two func-
-tions was introduced into the sociological literature by Talcott Parsons
+Instrumental versus expressive. The distinction between these two functions was introduced into the sociological literature by Talcott Parsons
 (1942). For a contemporary application, see Schwartz (1987), who argues
-that one of the main problems with teenagers is that there are too few op-
-portunities for expressive behavior within the boundaries of society, and
+that one of the main problems with teenagers is that there are too few opportunities for expressive behavior within the boundaries of society, and
 thus they have to resort to deviance.
 Politics. Hannah Arendt (1958) defines politics as the mode of interaction
 that allows individuals to get objective feedback about their strengths and
 weaknesses. In a political situation, where a person is given a chance to
-argue a point of view and to convince peers of its worth, the hidden capab-
-ilities of an individual are allowed to surface. But this kind of impartial
+argue a point of view and to convince peers of its worth, the hidden capabilities of an individual are allowed to surface. But this kind of impartial
 feedback can only occur in a “public realm” where each person is willing
 to listen and evaluate others on their merit. According to Arendt the public
 realm is the best medium for personal growth, creativity, and self-revelation.
@@ -11490,10 +10398,7 @@ Mihaly Csikszentmihalyi / 275
 
 goals and rules become autonomous from their original purposes, and begin
 to be pursued for intrinsic reasons—because they are fun to do. This was
-recognized by Weber himself, who complained that capitalism, which ori-
-ginated as a religious vocation, had in time become a mere “sport” for en-
-trepreneurs—and an “iron cage” for everyone else. See also Csikszentmi-
-halyi & Rochberg-Halton (1981, chapter 9).
+recognized by Weber himself, who complained that capitalism, which originated as a religious vocation, had in time become a mere “sport” for entrepreneurs—and an “iron cage” for everyone else. See also Csikszentmihalyi & Rochberg-Halton (1981, chapter 9).
 CHAPTER 9
 This entire section to p. 198 draws heavily on interview transcripts made
 available to me by Professor Massimini. I translated the Italian answers
@@ -11504,8 +10409,7 @@ an Illness (1979).
 “When a man knows…” is from Johnson’s Letters to Boswell, Sept. 19, 1777.
 Stress. Hans Selye, who began studying the physiology of stress in 1934,
 defined it as the generalized result, whether mental or physical, of any
-demand on the body (1956 [1978]). An important breakthrough in the in-
-vestigation of psychological effects of such demands was the development
+demand on the body (1956 [1978]). An important breakthrough in the investigation of psychological effects of such demands was the development
 of a scale that attempts to measure their severity (Holmes & Rahe 1967).
 On this scale the highest stress is caused by “Death of spouse” with a value
 of 100; “Marriage” has a value of 50, and “Christmas” a value of 12. In
@@ -11514,19 +10418,15 @@ of getting married. It is to be noted that both negative and positive events
 can cause stress, since they both present “demands” one must adapt to.
 Supports. Of the various resources that mitigate the effects of stressful
 events, social supports, or social networks, have been studied the most
-extensively (Lieberman et al. 1979). Family and friends often provide ma-
-terial help, emotional support, and needed information (Schaefer, Coyne,
+extensively (Lieberman et al. 1979). Family and friends often provide material help, emotional support, and needed information (Schaefer, Coyne,
 & Lazarus 1981). But even interest in other people seems to alleviate stress:
 “Those who have a concern for other people and concerns beyond the self
-have fewer stressful experiences, and stress has less effect on anxiety, de-
-pression, and hostility; they make more active attempts to cope with their
+have fewer stressful experiences, and stress has less effect on anxiety, depression, and hostility; they make more active attempts to cope with their
 problems” (Crandall 1984, p. 172).
 Coping styles. The experience of stress is mediated by a person’s coping
-style. The same event might have positive or negative psychological out-
-comes, depending on the person’s inner resources. Hardiness is a term
+style. The same event might have positive or negative psychological outcomes, depending on the person’s inner resources. Hardiness is a term
 coined by Salvatore Maddi and Suzanne Kobasa to describe the tendency
-of certain people to respond to threats by transforming them into manage-
-able challenges. The three main components of hardiness
+of certain people to respond to threats by transforming them into manageable challenges. The three main components of hardiness
 276 / Flow
 
 
@@ -11535,8 +10435,7 @@ of challenges (Kobasa, Maddi, & Kahn 1982). A similar term is Vaillant’s
 (1977) concept of “mature defense,” Lazarus’s concept of “coping” (Lazarus
 & Folkman 1984), and the concept of “personality strength” measured in
 German surveys by Elisabeth Noelle-Neumann (1983, 1985). All of these
-coping styles—hardiness, mature defenses, and transformational cop-
-ing—share many characteristics with the autotelic personality trait described
+coping styles—hardiness, mature defenses, and transformational coping—share many characteristics with the autotelic personality trait described
 in this volume.
 Courage. That people consider courage the foremost reason for admiring
 others emerged from the data of my three-generation family study when
@@ -11554,8 +10453,7 @@ Logan (1985, 1988).
 “Each individual crystal…” This quote from Chouinard was reported in
 Robinson (1969, p. 6).
 “My cockpit is small…” is from Lindbergh (1953, pp. 227–28).
-Discovering new goals. That a complex self emerges out of various exper-
-iences in the world, just as a creative painting emerges out of the interaction
+Discovering new goals. That a complex self emerges out of various experiences in the world, just as a creative painting emerges out of the interaction
 between the artist and his materials, has been argued in Csikszentmihalyi
 (1985a) and Csikszentmihalyi & Beattie (1979).
 Artists’ discovery. The process of problem finding, or discovery, in art is
@@ -11566,8 +10464,7 @@ who in 1964 painted in the manner described here (i.e., who approached
 the canvas without a clearly worked out image of the finished painting)
 were 18 years later significantly more successful—by the standards of the
 artistic community—than their peers who worked out the finished product
-in their minds beforehand. Other characteristics, such as technical compet-
-ence, did not differentiate the two groups.
+in their minds beforehand. Other characteristics, such as technical competence, did not differentiate the two groups.
 Setting realistic goals. It has been reported that adults who commit
 themselves to very long-term goals, with few short-term rewards, are less
 satisfied with their lives than people who have easier, short-term goals
@@ -11599,19 +10496,16 @@ needs to self-actualization through love and belongingness; by Kohlberg
 (1984), who claimed that moral development started from a sense of right
 and wrong based on self-interest and ended with ethics based on universal
 principles; and by Loevinger (1976), who saw ego development proceed
-from impulsive self-protective action to a sense of integration with the en-
-vironment. Helen Bee (1987, especially chapters 10 and 13) gives a good
+from impulsive self-protective action to a sense of integration with the environment. Helen Bee (1987, especially chapters 10 and 13) gives a good
 summary of these and other “spiraling” models of development.
 Vita activa and vita contemplative. These Aristotelian terms are extensively
 used by Thomas Aquinas in his analysis of the good life, and by Hannah
 Arendt (1958).
-A description of how the Jesuit rules helped create order in the conscious-
-ness of those who followed them is given in Isabella Csikszentmihalyi
+A description of how the Jesuit rules helped create order in the consciousness of those who followed them is given in Isabella Csikszentmihalyi
 (1986, 1988) and Marco Toscano (1986).
 Emergence of consciousness. A stab in the direction of speculating about
 how consciousness emerged in human beings was made by Jaynes (1977),
-who ascribes it to the connection between the left and right cerebral hemi-
-spheres, which he speculates occurred only about 3,000 years ago. See also
+who ascribes it to the connection between the left and right cerebral hemispheres, which he speculates occurred only about 3,000 years ago. See also
 Alexander (1987) and Calvin (1986). Of course this
 278 / Flow
 
@@ -11623,8 +10517,7 @@ feelings that approach ours has been extensively debated; see von Uexkull
 suggest that some of them do have emotions even in the absence of concrete
 stimuli (e.g., that they can feel sad at the memory of a departed companion),
 but the evidence on this issue does not yet appear conclusive.
-The consciousness of preliterate people. Among many others, the anthro-
-pologist Robert Redfield (1955) argued that tribal societies were too simple
+The consciousness of preliterate people. Among many others, the anthropologist Robert Redfield (1955) argued that tribal societies were too simple
 and homogeneous for their members to be able to take a self-reflective
 stance toward their beliefs and actions. Before the first urban revolution
 made cities possible about 5,000 years ago, people tended to accept the
@@ -11634,8 +10527,7 @@ alternatives to conformity. Others, such as the anthropologist Paul Radin
 of conscience among “primitive” people. It is doubtful that this ancient
 debate will be resolved soon.
 Leo Tolstoy’s novella has been often reprinted; see Tolstoy (1886 [1985]).
-That the complexification of social roles has resulted in the complexifica-
-tion of consciousness has been argued by De Roberty (1878) and by
+That the complexification of social roles has resulted in the complexification of consciousness has been argued by De Roberty (1878) and by
 Draghicesco (1906), who developed elaborate theoretical models of social
 evolution based on the assumption that intelligence is a function of the
 frequency and intensity of human interactions; and by many others ever
@@ -11647,8 +10539,7 @@ wishes to solve above everything else and the means the person finds to
 achieve solution,” see Csikszentmihalyi & Beattie (1979).
 Hannah Arendt (1963) wrote an authoritative analysis of the life of Adolf
 Eichmann.
-The autobiography of Malcolm X (1977) is a classic description of the de-
-velopment of a life theme.
+The autobiography of Malcolm X (1977) is a classic description of the development of a life theme.
 Blueprint of negentropic life themes. The counterintuitive notion that
 transference of attention from personal problems to the problems of others
 helps personal growth underlies the work of the developmental
@@ -11660,8 +10551,7 @@ and note to p. 198.
 The best English-language biography of Antonio Gramsci is by Giuseppe
 Fiore (1973).
 Edison, Roosevelt, and Einstein. Goertzel & Goertzel (1962) detail the
-early lives of 300 eminent men and women, and show how little predictab-
-ility there is between the conditions in which children grow up and their
+early lives of 300 eminent men and women, and show how little predictability there is between the conditions in which children grow up and their
 later achievements.
 Cultural evolution is another concept prematurely discarded by social
 scientists in the last few decades. Among the attempts to show that the
@@ -11697,8 +10587,7 @@ Ruprecht.
 Adler, A. 1956. The individual psychology of Alfred Adler. New York: Basic Books.
 Adler, M. J. 1956. Why only adults can be educated. In Great issues in education. Chicago:
 Great Books Foundation.
-Ainsworth, M. D. S., Bell, S. M., & Stayton, D. J. 1971. Individual differences in strange-
-situation behavior of one-year-olds. In H. R. Schaffer, ed., The origins of human social
+Ainsworth, M. D. S., Bell, S. M., & Stayton, D. J. 1971. Individual differences in strangesituation behavior of one-year-olds. In H. R. Schaffer, ed., The origins of human social
 relations. London: Academic Press.
 Ainsworth, M., Blehar, M., Waters, E., & Wall, S. 1978. Patterns of attachment. Hillsdale,
 N.J.: Erlbaum.
@@ -11714,12 +10603,9 @@ Allison, M. T., & Duncan, M. C. 1988. Women, work, and flow. In M. Csikszentmiha
 Allport, G. W. 1955. Becoming: Basic considerations for a psychology of personality. New
 Haven: Yale University Press.
 Altmann, J. 1980. Baboon mothers and infants. Cambridge: Harvard University Press.
-Altmann, S. A., & Altmann, J. 1970. Baboon ecology: African field research. Chicago: Univer-
-sity of Chicago Press.
+Altmann, S. A., & Altmann, J. 1970. Baboon ecology: African field research. Chicago: University of Chicago Press.
 Alvarez, A. 1973. The savage god. New York: Bantam.
 Amabile, T. M. 1983. The social psychology of creativity. New York: Springer Verlag.
-281
-
 
 Andreasen, N. C. 1987. Creativity and mental illness: Prevalence rates in writers and
 their first-degree relatives. American Journal of Psychiatry 144(10): 1288–92.
@@ -11744,8 +10630,7 @@ University of California Press.
 ——. 1982. The power of the center. Berkeley: University of California Press.
 Arnold, E. V. 1911 (1971). Roman Stoicism. New York: Books for Libraries Press.
 Atkinson, R. C., & Shiffrin, R. M. 1968. Human memory: A proposed system and its
-control processes. In K. Spence & J. Spence, eds., The psychology of learning and motiva-
-tion, vol. 2. New York: Academic Press.
+control processes. In K. Spence & J. Spence, eds., The psychology of learning and motivation, vol. 2. New York: Academic Press.
 Baldridge, L. 1987. Letitia Baldridge’s complete guide to a great social life. New York: Rawson
 Assocs.
 Bandura, A. 1982. Self-efficacy mechanisms in human agency. American Psychologist
@@ -11758,8 +10643,7 @@ Baumrind, D. 1977. Socialization determinants of personal agency. Paper presente
 biennial meeting of the Society for Research in Child Development, New Orleans.
 Beattie, O., & Csikszentmihalyi, M. 1981. On the socialization influence of books. Child
 Psychology and Human Development 11(1):3–18.
-Beck, A. T. 1976. Cognitive therapy and emotional disorders. New York: International Uni-
-versities Press.
+Beck, A. T. 1976. Cognitive therapy and emotional disorders. New York: International Universities Press.
 282 / Flow
 
 
@@ -11778,8 +10662,7 @@ Berman, Marshall Howard. 1982. All that is solid melts into air. New York: Simon
 Schuster.
 Berman, Morris. 1988. The two faces of creativity. In J. Brockman, ed., The reality club
 (pp. 9–38). New York: Lynx Books.
-Bettelheim, B. 1943. Individual and mass behavior in extreme situations. Journal of Ab-
-normal and Social Psychology 38:417–52.
+Bettelheim, B. 1943. Individual and mass behavior in extreme situations. Journal of Abnormal and Social Psychology 38:417–52.
 Binet, A. 1890. La concurrence des états psychologiques. Revue Philosophique de la France
 et de l’Étranger 24:138–55.
 Blom, F. 1932. The Maya ball-game. In M. Ries, ed., Middle American Research Series, 1.
@@ -11807,8 +10690,7 @@ Mihaly Csikszentmihalyi / 283
 
 Brown, N. O. 1959. Life against death. Middletown, Conn.: Wesleyan University Press.
 Buhler, C. 1930. Die geistige Entwicklung des Kindes. Jena: G. Fischer.
-Burhoe, R. W. 1976. The source of civilization in the natural selection of coadapted in-
-formation in genes and cultures. Zygon 11(3):263–303.
+Burhoe, R. W. 1976. The source of civilization in the natural selection of coadapted information in genes and cultures. Zygon 11(3):263–303.
 ——. 1982. Pleasure and reason as adaptations to nature’s requirements. Zygon
 17(2):113–31.
 Burney, C. 1952. Solitary confinement. London: Macmillan.
@@ -11823,10 +10705,8 @@ York: Russell Sage.
 Campbell, D. T. 1965. Variation and selective retention in socio-cultural evolution. In
 H. R. Barringer, G. I. Blankston, & R. W. Monk, eds., Social change in developing areas
 (pp. 19–42). Cambridge: Schenkman.
-——. 1975. On the conflicts between biological and social evolution and between psy-
-chology and moral tradition. American Psychologist 30:1103–25.
-——. 1976. Evolutionary epistemology. In D. A. Schlipp, ed., The library of living philo-
-sophers (pp. 413–63). LaSalle, Ill.: Open Court.
+——. 1975. On the conflicts between biological and social evolution and between psychology and moral tradition. American Psychologist 30:1103–25.
+——. 1976. Evolutionary epistemology. In D. A. Schlipp, ed., The library of living philosophers (pp. 413–63). LaSalle, Ill.: Open Court.
 Carli, M. 1986. Selezione psicologica e qualita dell’esperienza. In F. Massimini & P.
 Inghilleri, eds., L’esperienza quotidiana (pp. 285–304). Milan: Franco Angeli.
 Carpenter, E. 1970. They became what they beheld. New York: Ballantine.
@@ -11869,10 +10749,8 @@ Csikszentmihalyi, I. 1986. II flusso di coscienza in un contesto storico: II cas
 In F. Massimini & P. Inghilleri, eds., L’esperienza quotidiana (pp. 181–96). Milan: Franco
 Angeli.
 ——. 1988. Flow in a historical context: The case of the Jesuits. In M. Csikszentmihalyi
-& I. S. Csikszentmihalyi, eds., Optimal experience: Psychological studies of flow in con-
-sciousness (pp. 232–48). New York: Cambridge University Press.
-Csikszentmihalyi, M. 1965. Artistic problems and their solution: An exploration of cre-
-ativity in the arts. Unpublished doctoral dissertation, University of Chicago.
+& I. S. Csikszentmihalyi, eds., Optimal experience: Psychological studies of flow in consciousness (pp. 232–48). New York: Cambridge University Press.
+Csikszentmihalyi, M. 1965. Artistic problems and their solution: An exploration of creativity in the arts. Unpublished doctoral dissertation, University of Chicago.
 ——. 1968. A cross-cultural comparison of some structural characteristics of group
 drinking. Human Development 11:201–16.
 ——. 1969. The Americanization of rock climbing. University of Chicago Magazine
@@ -11901,20 +10779,15 @@ Maehr, eds., Motivation in adulthood (pp. 93–113). Greenwich, Conn.: JAI Press
 ——. 1988. The ways of genes and memes. Reality Club Review 1(1):107–28.
 ——. 1989. Consciousness for the 21st century. Paper presented at the ELCA Meeting,
 Year 2000 and Beyond, March 30–April 2, St. Charles, Illinois.
-Csikszentmihalyi, M., & Beattie, O. 1979. Life themes: A theoretical and empirical explor-
-ation of their origins and effects. Journal of Humanistic Psychology 19:45–63.
-Csikszentmihalyi, M., & Csikszentmihalyi, I. S., eds. 1988. Optimal experience: Psycholo-
-gical studies of flow in consciousness. New York: Cambridge University Press.
+Csikszentmihalyi, M., & Beattie, O. 1979. Life themes: A theoretical and empirical exploration of their origins and effects. Journal of Humanistic Psychology 19:45–63.
+Csikszentmihalyi, M., & Csikszentmihalyi, I. S., eds. 1988. Optimal experience: Psychological studies of flow in consciousness. New York: Cambridge University Press.
 Csikszentmihalyi, M., & Getzels, J. W. 1989. Creativity and problem finding. In F. H.
 Farley & R. W. Neperud, eds., The foundations of aesthetics (pp. 91–116). New York:
 Praeger.
-Csikszentmihalyi, M., Getzels, J. W., & Kahn, S. 1984. Talent and achievement: A longitud-
-inal study of artists. A report to the Spencer Foundation and to the MacArthur Found-
-ation. Chicago: University of Chicago.
+Csikszentmihalyi, M., Getzels, J. W., & Kahn, S. 1984. Talent and achievement: A longitudinal study of artists. A report to the Spencer Foundation and to the MacArthur Foundation. Chicago: University of Chicago.
 Csikszentmihalyi, M., & Graef, R. 1979. Flow and the quality of experience in everyday life.
 Unpublished manuscript, University of Chicago.
-——. 1980. The experience of freedom in daily life. American Journal of Community Psy-
-chology 8:401–14.
+——. 1980. The experience of freedom in daily life. American Journal of Community Psychology 8:401–14.
 Csikszentmihalyi, M., & Kubey, R. 1981. Television and the rest of life. Public Opinion
 Quarterly 45:317–28.
 Csikszentmihalyi, M., & Larson, R. 1978. Intrinsic rewards in school crime. Crime and
@@ -11927,12 +10800,9 @@ and experience. Journal of Youth and Adolescence 6:281–94.
 286 / Flow
 
 
-Csikszentmihalyi, M., & LeFevre, J. 1987. The experience of work and leisure. Third Ca-
-nadian Leisure Research Conference, Halifax, N.S., May 22–25.
-——. 1989. Optimal experience in work and leisure. Journal of Personality and Social Psy-
-chology 56(5):815–22.
-Csikszentmihalyi, M., & Massimini, F. 1985. On the psychological selection of bio-cul-
-tural information. New Ideas in Psychology 3(2):115–38.
+Csikszentmihalyi, M., & LeFevre, J. 1987. The experience of work and leisure. Third Canadian Leisure Research Conference, Halifax, N.S., May 22–25.
+——. 1989. Optimal experience in work and leisure. Journal of Personality and Social Psychology 56(5):815–22.
+Csikszentmihalyi, M., & Massimini, F. 1985. On the psychological selection of bio-cultural information. New Ideas in Psychology 3(2):115–38.
 Csikszentmihalyi, M., & Nakamura, J. 1989. The dynamics of intrinsic motivation. In R.
 Ames & C. Ames, eds., Handbook of motivation theory and research, vol. 3 (pp. 45–71).
 New York: Academic Press.
@@ -11950,8 +10820,7 @@ D.C.: Bureau of American Ethnology.
 Dalby, L. C. 1983. Geisha. Berkeley: University of California Press.
 Damon, W., & Hart, D. 1982. The development of self-understanding from infancy
 through adolescence. Child Development 53:831–57.
-Dante, A. (1965). The divine comedy. Trans. G. L. Bickerstein. Cambridge: Harvard Uni-
-versity Press.
+Dante, A. (1965). The divine comedy. Trans. G. L. Bickerstein. Cambridge: Harvard University Press.
 David, F. N. 1962. Games, gods, and gambling. New York: Hafner.
 Davis, J. A. 1959. A formal interpretation of the theory of relative deprivation. Sociometry
 22:280–96.
@@ -11962,8 +10831,7 @@ Deci, E. L., & Ryan, R. M. 1985. Intrinsic motivation and self-determination in 
 New York: Plenum Press.
 Delle Fave, A., & Massimini, F. 1988. Modernization and the changing contexts of flow
 in work and leisure. In M. Csikszentmihalyi & I. S. Csikszentmihalyi, eds., Optimal
-experience: Studies of flow in consciousness (pp. 193–213). New York: Cambridge Univer-
-sity Press.
+experience: Studies of flow in consciousness (pp. 193–213). New York: Cambridge University Press.
 De Roberty, E. 1878. La sociologie. Paris.
 de Santillana, G. 1961 (1970). The origins of scientific thought. Chicago: University of
 Chicago Press.
@@ -12022,8 +10890,7 @@ Freeman, M. 1989. Paul Ricoeur on interpretation: The model of the text and the 
 development. Human Development 28:295–312.
 Freeman, M., Larson, R., & Csikszentmihalyi, M. 1986. Immediate experience and its
 recollection. Merrill Palmer Quarterly 32(2):167–85.
-Freeman, M., & Robinson, R. E. In press. The development within: An alternative ap-
-proach to the study of lives. New Ideas in Psychology.
+Freeman, M., & Robinson, R. E. In press. The development within: An alternative approach to the study of lives. New Ideas in Psychology.
 Freud, S. 1921. Massenpsychologie und Ich-Analyse. Vienna Gesammelte Schriften 6:261.
 ——. 1930 (1961). Civilization and its discontents. New York: Norton.
 Frijda, N. H. 1986. The emotions. New York: Cambridge University Press.
@@ -12057,8 +10924,7 @@ Mihaly Csikszentmihalyi / 289
 Goffman, E. 1969. Strategic interaction. Philadelphia: University of Pennsylvania Press.
 ——. 1974. Frame analysis: An essay on the organization of experience. New York: Harper &
 Row.
-Gombrich, E. H. 1954. Psychoanalysis and the history of art. International Journal of Psy-
-choanalysis 35:1–11.
+Gombrich, E. H. 1954. Psychoanalysis and the history of art. International Journal of Psychoanalysis 35:1–11.
 ——. 1979. The sense of order. Ithaca, N.Y.: Cornell University Press.
 Gouldner, A. W. 1968. The sociologist as partisan: Sociology and the welfare state.
 American Sociologist 3:103–16.
@@ -12083,8 +10949,7 @@ Habakuk, H. J. 1955. Family structure and economic change in nineteenth century 
 Journal of Economic History 15 (January):1–12.
 Hadas, N. 1960 (1972). Humanism: The Greek ideal and its survival. Gloucester, Mass.: C.
 P. Smith.
-Hamilton, J. A. 1976. Attention and intrinsic rewards in the control of psycho-
-physiological states. Psychotherapy and Psychosomatics 27:54–61.
+Hamilton, J. A. 1976. Attention and intrinsic rewards in the control of psychophysiological states. Psychotherapy and Psychosomatics 27:54–61.
 ——. 1981. Attention, personality, and self-regulation of mood: Absorbing interest and
 boredom. In B. A. Maher, ed., Progress in Experimental Personality Research 10:282–315.
 Hamilton, J. A., Haier, R. J., & Buchsbaum, M. S. 1984. Intrinsic enjoyment and boredom
@@ -12099,8 +10964,7 @@ Handbook of affective disorders. New York: Guilford Press.
 
 Hamilton, W. D. 1964. The genetical evolution of social behavior: Parts 1 and 2. Journal
 of Theoretical Biology 7:1–52.
-Harrow, M., Grinker, R. R., Holzman, P. S., & Kayton, L. 1977. Anhedonia and schizo-
-phrenia. American Journal of Psychiatry 134:794–97.
+Harrow, M., Grinker, R. R., Holzman, P. S., & Kayton, L. 1977. Anhedonia and schizophrenia. American Journal of Psychiatry 134:794–97.
 Harrow, M., Tucker, G. J., Hanover, N. H., & Shield, P. 1972. Stimulus overinclusion in
 schizophrenic disorders. Archives of General Psychiatry 27:40–45.
 Hasher, L., & Zacks, R. T. 1979. Automatic and effortful processes in memory. Journal
@@ -12120,8 +10984,7 @@ Hoffman, J. E., Nelson, B., & Houck, M. R. 1983. The role of attentional resourc
 automatic detection. Cognitive Psychology 51:379–410.
 Hoffman, L. 1981. Foundations of family therapy: A conceptual framework for systems change.
 New York: Basic Books.
-Holmes, T. H., & Rahe, R. H. 1967. The social readjustment rating scale. Journal of Psycho-
-metric Research 11:213–18.
+Holmes, T. H., & Rahe, R. H. 1967. The social readjustment rating scale. Journal of Psychometric Research 11:213–18.
 Howell, M. C. 1986. Women, production, and patriarchy in late medieval cities. Chicago:
 University of Chicago Press.
 Huizinga, J. 1939 (1970). Homo ludens: A study of the play element in culture. New York:
@@ -12182,8 +11045,7 @@ N.J.: Erlbaum.
 
 Kuhn, T. S. 1962. The structure of scientific revolutions. Chicago: University of Chicago
 Press.
-Kusyszyn, I. 1977. How gambling saved me from a misspent sabbatical. Journal of Hu-
-manistic Psychology 17:19–25.
+Kusyszyn, I. 1977. How gambling saved me from a misspent sabbatical. Journal of Humanistic Psychology 17:19–25.
 La Berge, S. 1985. Lucid dreaming: The power of being awake and aware of your dreams. Los
 Angeles: Jeremy Tarcher.
 Laing, R. D. 1960. The divided self. London: Tavistock.
@@ -12196,19 +11058,16 @@ Optimal experience: Psychological studies of flow in consciousness (pp. 150–71
 Cambridge University Press.
 Larson, R., & Csikszentmihalyi, M. 1978. Experiential correlates of solitude in adolescence.
 Journal of Personality 46(4):677–93.
-——. 1980. The significance of time alone in adolescents’ development. Journal of Adoles-
-cent Medicine 2 (6):33–40.
+——. 1980. The significance of time alone in adolescents’ development. Journal of Adolescent Medicine 2 (6):33–40.
 ——. 1983. The Experience Sampling Method. In H. T. Reis, ed., Naturalistic approaches
-to studying social interaction (New Directions for Methodology of Social and Behavioral Sci-
-ence, No. 15). San Francisco: Jossey-Bass.
+to studying social interaction (New Directions for Methodology of Social and Behavioral Science, No. 15). San Francisco: Jossey-Bass.
 Larson, R., Csikszentmihalyi, M., & Graef, R. 1980. Mood variability and the psychosocial
 adjustment of adolescents. Journal of Youth and Adolescence 9:469–90.
 Larson, R., & Kubey, R. 1983. Television and music: Contrasting media in adolescent
 life. Youth and Society 15:13–31.
 Larson, R., Mannell, R., & Zuzanek, J. 1986. Daily well-being of older adults with family
 and friends. Psychology and Aging 1(2):117–26.
-Laski, M. 1962. Ecstasy: A study of some secular and religious experiences. Bloomington: In-
-diana University Press.
+Laski, M. 1962. Ecstasy: A study of some secular and religious experiences. Bloomington: Indiana University Press.
 Laszlo, E. 1970. System, structure and experience. New York: Gordon & Breach.
 Lazarus, R. S., & Folkman, S. 1984. Stress, appraisal, and coping. New York: Springer.
 Le Bon, G. 1895 (1960). The crowd. New York: Viking.
@@ -12229,8 +11088,7 @@ Lessard, S. 1987. Profiles: Eva Zeisel. New Yorker April 13, 60–82.
 Le Vine, R. A., & Campbell, D. T. 1972. Ethnocentrism: Theories of conflict, ethnic attitudes,
 and group behavior. New York: Wiley.
 Lévi-Strauss, C. 1947 (1969). Les structures élementaires de la parenté. Paris: PUF.
-Lewin, K., et al. 1944 (1962). Level of aspiration. In J. McV. Hunt, ed., Personality and be-
-havioral disorders (pp. 333–78). New York: Ronald Press.
+Lewin, K., et al. 1944 (1962). Level of aspiration. In J. McV. Hunt, ed., Personality and behavioral disorders (pp. 333–78). New York: Ronald Press.
 Lewinsohn, P. M., & Graf, M. 1973. Pleasant activities and depression. Journal of Consulting
 and Clinical Psychology 41:261–68.
 Lewinsohn, P. M., & Libet, J. 1972. Pleasant events, activity schedules, and depression.
@@ -12240,8 +11098,7 @@ ed., Short-term therapies for depression. New York: Guilford.
 Liberman, A. M., Mattingly, I. G., & Turvey, M. T. 1972. Language codes and memory
 codes. In A. W. Melton & E. Martin, eds., Coding processes in human memory. New York:
 Wiley.
-Lieberman, M. A., et al. 1979. Self-help groups for coping with crisis: Origins, members, pro-
-cesses, and impact. San Francisco: Jossey-Bass.
+Lieberman, M. A., et al. 1979. Self-help groups for coping with crisis: Origins, members, processes, and impact. San Francisco: Jossey-Bass.
 Lindbergh, C. 1953. The Spirit of St. Louis. New York: Scribner.
 Lipps, G. F. 1899. Grundriss der psychophysik. Leipzig: G. J. Goschen.
 Loevinger, J. 1976. Ego development. San Francisco: Jossey-Bass.
@@ -12265,8 +11122,7 @@ Macbeth, J. 1988. Ocean cruising. In M. Csikszentmihalyi & I. S. Csikszentmihaly
 Optimal experience: Psychological studies of flow in consciousness (pp. 214–31). New York:
 Cambridge University Press.
 McDougall, W. 1920. The group mind. Cambridge: Cambridge University Press.
-McGhie, A., & Chapman, J. 1961. Disorders of attention and perception in early schizo-
-phrenia. British Journal of Medical Psychology 34:103–16.
+McGhie, A., & Chapman, J. 1961. Disorders of attention and perception in early schizophrenia. British Journal of Medical Psychology 34:103–16.
 294 / Flow
 
 
@@ -12294,13 +11150,10 @@ Maslow, A. 1954. Motivation and personality. New York: Harper.
 Maslow, A., & Honigmann, J. J. 1970. Synergy: Some notes of Ruth Benedict. American
 Anthropologist 72:320–33.
 Mason, H., trans. 1971. Gilgamesh. Boston: Houghton Mifflin.
-Massimini, F. 1982. Individuo e ambiente: I papua Kapauku della Nuova Guinea occi-
-dentale. In F. Perussia, ed., Psicologia ed ecologia (pp. 27–154). Milan: Franco Angeli.
-Massimini, F., Csikszentmihalyi, M., & Carli, M. 1987. The monitoring of optimal exper-
-ience: A tool for psychiatric rehabilitation. Journal of Nervous and Mental Disease
+Massimini, F. 1982. Individuo e ambiente: I papua Kapauku della Nuova Guinea occidentale. In F. Perussia, ed., Psicologia ed ecologia (pp. 27–154). Milan: Franco Angeli.
+Massimini, F., Csikszentmihalyi, M., & Carli, M. 1987. The monitoring of optimal experience: A tool for psychiatric rehabilitation. Journal of Nervous and Mental Disease
 175(9):545–49.
-Massimini, F., Csikszentmihalyi, M., & Delle Fave, A. 1988. Flow and biocultural evolu-
-tion. In M. Csikszentmihalyi & I. S. Csikszentmihalyi, eds., Optimal experience: Studies
+Massimini, F., Csikszentmihalyi, M., & Delle Fave, A. 1988. Flow and biocultural evolution. In M. Csikszentmihalyi & I. S. Csikszentmihalyi, eds., Optimal experience: Studies
 of flow in consciousness (pp. 60–81). New York: Cambridge University Press.
 Massimini, F., & Inghilleri, P., eds., 1986. L’Esperienza quotidiana: Teoria e metodo d’analisi.
 Milan: Franco Angeli.
@@ -12319,8 +11172,7 @@ Mead, M. 1964. Continuities in cultural evolution. New Haven: Yale University Pr
 Medawar, P. 1960. The future of man. New York: Basic Books.
 Medvedev, Z. 1971. The rise and fall of Dr. Lysenko. Garden City, N.Y.: Doubleday.
 Merleau-Ponty, M. 1962. Phenomenology of perception. New York: Humanities.
-——. 1964. The primacy of perception. Ed. J. M. Edie. Evanston, Ill.: North-western Univer-
-sity Press.
+——. 1964. The primacy of perception. Ed. J. M. Edie. Evanston, Ill.: North-western University Press.
 Merser, C. 1987. A throughly modern identity crisis. Self October, 147.
 Meyer, L. B. 1956. Emotion and meaning in music. Chicago: University of Chicago Press.
 Michalos, A. C. 1985. Multiple discrepancy theory (MDT). Social Indicators Research
@@ -12335,8 +11187,7 @@ Mintz, S. 1985. Sweetness and power: The place of sugar in modern history. New Y
 Mitchell, R. G., Jr. 1983. Mountain experience: The psychology and sociology of adventure.
 Chicago: University of Chicago Press.
 ——. 1988. Sociological implications of the flow experience. In M. Csikszentmihalyi &
-I. S. Csikszentmihalyi, eds., Optimal experience: Psychological studies of flow in conscious-
-ness (pp. 36–59). New York: Cambridge University Press.
+I. S. Csikszentmihalyi, eds., Optimal experience: Psychological studies of flow in consciousness (pp. 36–59). New York: Cambridge University Press.
 Mitterauer, M., & Sieder, R. 1983. The European family: Patriarchy to partnership from the
 Middle Ages to the present. Chicago: University of Chicago Press.
 Moitessier, B. 1971. The long way. Trans. W. Rodarmor. London: Granada.
@@ -12358,8 +11209,7 @@ studies of flow in consciousness (pp. 319–26). New York: Cambridge University 
 Natanson, M. A., ed. 1963. Philosophy of the social sciences. New York: Random House.
 Neisser, U. 1967. Cognitive psychology. New York: Appleton-Century-Crofts.
 ——. 1976. Cognition and reality. San Francisco: Freeman.
-Nell, V. 1988. Lost in a book: The psychology of reading for pleasure. New Haven: Yale Uni-
-versity Press.
+Nell, V. 1988. Lost in a book: The psychology of reading for pleasure. New Haven: Yale University Press.
 Nelson, A. 1965. Self-images and systems of spiritual direction in the history of European
 civilization. In S. Z. Klausner, ed., The quest for self-control (pp. 49–103). New York:
 Free Press.
@@ -12408,18 +11258,14 @@ Privette, G. 1983. Peak experience, peak performance, and flow: A comparative an
 of positive human experiences. Journal of Personality and Social Psychology 83(45):1361–68.
 Radin, P. 1927. Primitive man as philosopher. New York: D. Appleton & Co.
 Rathunde, K. 1988. Optimal experience and the family context. In M. Csikszentmihalyi
-& I. S. Csikszentmihalyi, eds., Optimal experience: Psychological studies of flow in con-
-sciousness (pp. 342–63). New York: Cambridge University Press.
+& I. S. Csikszentmihalyi, eds., Optimal experience: Psychological studies of flow in consciousness (pp. 342–63). New York: Cambridge University Press.
 Redfield, R., ed. 1942. Levels of integration in biological and social systems. Lancaster, Pa.:
 J. Catell Press.
-——. 1955. The little community: Viewpoints for the study of a human whole. Chicago: Uni-
-versity of Chicago Press.
-Renfrew, C. 1986. Varna and the emergence of wealth in prehistoric Europe. In A. Ap-
-padurai, ed., The social life of things (pp. 141–68). New York: Cambridge University
+——. 1955. The little community: Viewpoints for the study of a human whole. Chicago: University of Chicago Press.
+Renfrew, C. 1986. Varna and the emergence of wealth in prehistoric Europe. In A. Appadurai, ed., The social life of things (pp. 141–68). New York: Cambridge University
 Press.
 Ribot, T. A. 1890. The psychology of attention. Chicago: Open Court Publishing.
-Richards, R., Kinney, D. K., Lunde, I., Benet, M., et al. 1988. Creativity in manic depress-
-ives, cyclothymes, their normal relatives, and control subjects. Journal of Abnormal
+Richards, R., Kinney, D. K., Lunde, I., Benet, M., et al. 1988. Creativity in manic depressives, cyclothymes, their normal relatives, and control subjects. Journal of Abnormal
 Psychology 97(3):281–88.
 Robinson, D. 1969. The climber as visionary. Ascent 9:4–10.
 Robinson, J. P. 1977. How Americans use time. New York: Praeger.
@@ -12442,8 +11288,7 @@ Praeger.
 
 Sartre, J. P. 1956. Being and nothingness. New York: Philosophical Library.
 Sato, I. 1988. Bosozoku: Flow in Japanese motorcycle gangs. In M. Csikszentmihalyi &
-I. S. Csikszentmihalyi, eds., Optimal experience: Psychological studies of flow in conscious-
-ness (pp. 92–117). New York: Cambridge University Press.
+I. S. Csikszentmihalyi, eds., Optimal experience: Psychological studies of flow in consciousness (pp. 92–117). New York: Cambridge University Press.
 Schaefer, C., Coyne, J. C., & Lazarus, R. S. 1981. The health-related functions of social
 support. Journal of Behavioral Medicine 4(4):381–406.
 Schafer, R. 1980. Narration in the psychoanalytic dialogue. Critical Inquiry 7:29–54.
@@ -12463,16 +11308,14 @@ Informative and directive functions of affective states. Journal of Personality 
 Psychology 45:513–23.
 Seligman, M. E. P. 1975. Helplessness: On depression, development, and death. San Francisco:
 Freeman.
-Seligman, M. E. P., Peterson, C., Kaslow, N. J., Tannenbaum, R. L., Alloy, L. B., & Ab-
-ramson, L. Y. 1984. Attributional style and depressive symptoms among children.
+Seligman, M. E. P., Peterson, C., Kaslow, N. J., Tannenbaum, R. L., Alloy, L. B., & Abramson, L. Y. 1984. Attributional style and depressive symptoms among children.
 Journal of Abnormal Psychology 93:235–38.
 Selye, H. 1956 (1978). The stress of life. Rev. ed. New York: McGraw-Hill.
 Siegel, B. S. 1986. Love, medicine, and miracles. New York: Harper & Row.
 Simon, H. A. 1969. Sciences of the artificial. Boston: MIT Press.
 ——. 1978. Rationality as process and as product of thought. American Economic Review
 68:1–16.
-Singer, I. 1981. The nature of love (2d ed.). Vol. 1: Plato to Luther; vol. 2: Courtly and ro-
-mantic; vol. 3: The modern world. Chicago: University of Chicago Press.
+Singer, I. 1981. The nature of love (2d ed.). Vol. 1: Plato to Luther; vol. 2: Courtly and romantic; vol. 3: The modern world. Chicago: University of Chicago Press.
 Singer, J. L. 1966. Daydreaming: An introduction to the experimental study of inner experiences.
 New York: Random House.
 ——. 1973. The child’s world of make-believe. New York: Academic Press.
@@ -12501,11 +11344,9 @@ Sternberg, R. J. 1988. The triangle of love: Intimacy, passion, commitment. New 
 Books.
 Stewart, K. 1972. Dream exploration among the Sinoi. In T. Roszak, ed., Sources. New
 York: Harper & Row.
-Strack, F., Argyle, M., & Schwarz, N., eds. 1990. The social psychology of subjective well-
-being. New York: Pergamon.
+Strack, F., Argyle, M., & Schwarz, N., eds. 1990. The social psychology of subjective wellbeing. New York: Pergamon.
 Sullivan, H. S. 1953. The interpersonal theory of psychiatry. New York: Norton.
-Sun, W. 1987. Flow and Yu: Comparison of Csikszentmihalyi’s theory and Chuangtzu’s philo-
-sophy. Paper presented at the meetings of the Anthropological Association for the
+Sun, W. 1987. Flow and Yu: Comparison of Csikszentmihalyi’s theory and Chuangtzu’s philosophy. Paper presented at the meetings of the Anthropological Association for the
 Study of Play, Montreal, March.
 Suppies, P. 1978. The impact of research on education. Washington, D.C.: National Academy
 of Education.
@@ -12540,8 +11381,7 @@ University Press.
 Turnbull, C. M. 1961. The forest people. Garden City, N.Y.: Doubleday.
 ——. 1972. The mountain people. New York: Simon & Shuster.
 Turner, V. 1969. The ritual process. New York: Aldine.
-——. 1974. Liminal to liminoid in play, flow, and ritual: An essay in comparative sym-
-bology. Rice University Studies 60(3):53–92.
+——. 1974. Liminal to liminoid in play, flow, and ritual: An essay in comparative symbology. Rice University Studies 60(3):53–92.
 USA Today. 1987. An interview with Susumu Tonegawa. Oct. 13, p. 2A.
 U.S. Dept. of Commerce. 1980. Social indicators, III. Washington, D.C.: Bureau of the
 Census.
@@ -12563,8 +11403,7 @@ Braziller.
 von Uexkull, J. 1921. Umwelt und Innenwelt der Tiere. 2d ed. Berlin.
 ——. 1957. Instinctive behaviour. London: Methuen.
 von Wolff, C. 1724. Vernunftige Gedanken von dem Krafften des menschlichen Verstandes.
-Halle im Magdeburg: Rengerische Buchhandl. English trans-
-Mihaly Csikszentmihalyi / 301
+Halle im Magdeburg: Rengerische Buchhandl. English transMihaly Csikszentmihalyi / 301
 
 
 lation (1963) by R. Blackwell, Preliminary discourse on philosophy in general. Indianapolis:
@@ -12593,8 +11432,7 @@ Weitzman, M. S. 1978. Finally the family. Annals of the AAPSS 435:60–82.
 Wells, A. 1988. Self-esteem and optimal experience. In M. Csikszentmihalyi & I. S.
 Csikszentmihalyi, eds., Optimal experience: Psychological studies of flow in consciousness
 (pp. 327–41). New York: Cambridge University Press.
-Werner, H. 1957. Comparative psychology of mental development. Rev. ed. New York: Inter-
-national Universities Press.
+Werner, H. 1957. Comparative psychology of mental development. Rev. ed. New York: International Universities Press.
 Werner, H., & Kaplan, B. 1956. The developmental approach to cognition: Its relevance
 to the psychological interpretation of anthropological and ethnolinguistic data.
 American Anthropologist 58:866–80.
@@ -12613,16 +11451,14 @@ Jovanovich.
 
 
 Wilson, E. O. 1975. Sociobiology: The new synthesis. Boston: Belknap Press.
-Wilson, S. R. 1985. Therapeutic processes in a yoga ashram. American Journal of Psycho-
-therapy 39:253–62.
+Wilson, S. R. 1985. Therapeutic processes in a yoga ashram. American Journal of Psychotherapy 39:253–62.
 ——. In press. Personal growth in a yoga ashram: A social psychological analysis. The
 social scientific study of religion, vol. 2.
 Wittfogel, K. 1957. Oriental despotism. New Haven: Yale University Press.
 Wolfe, T. 1987. The bonfire of the vanities. New York: Farrar, Straus.
 Wood, E. 1954. Great system of yoga. New York: Philosophical Library.
 Wundt, W. 1902. Grundzuge der physiologischen Psychologie, vol. 3. Leipzig.
-Wynne, E. A. 1978. Behind the discipline problem: Youth suicide as a measure of alien-
-ation. Phi Delta Kappan 59:307–15.
+Wynne, E. A. 1978. Behind the discipline problem: Youth suicide as a measure of alienation. Phi Delta Kappan 59:307–15.
 Yankelovich, D. 1981. New rules: Searching for self-fulfillment in a world turned upside down.
 New York: Random House.
 Zigler, E. F., & Child, I. L. 1973. Socialization and personality development. Reading, Mass.:
@@ -12646,30 +11482,30 @@ ISBN 978-0-06-154812-3
 10 9 8 7 6 5 4 3 2 1
 
 
-Australia 
-Pymble, NSW 2073, Australia 
-Canada 
-HarperCollins Publishers Ltd. 
-New Zealand 
-HarperCollinsPublishers (New Zealand) Limited 
-Auckland, New Zealand 
-United Kingdom 
-HarperCollins Publishers Ltd. 
-77-85 Fulham Palace Road 
-London, W6 8JB, UK 
-United States 
-HarperCollins Publishers Inc. 
-10 East 53rd Street 
-About the Publisher 
-HarperCollins Publishers (Australia) Pty. Ltd. 
-25 Ryde Road (PO Box 321) 
-http://www.harpercollinsebooks.com.au 
-55 Avenue Road, Suite 2900 
-Toronto, ON, M5R, 3L2, Canada 
-http://www.harpercollinsebooks.ca 
-P.O. Box 1 
-http://www.harpercollins.co.nz 
+Australia
+Pymble, NSW 2073, Australia
+Canada
+HarperCollins Publishers Ltd.
+New Zealand
+HarperCollinsPublishers (New Zealand) Limited
+Auckland, New Zealand
+United Kingdom
+HarperCollins Publishers Ltd.
+77-85 Fulham Palace Road
+London, W6 8JB, UK
+United States
+HarperCollins Publishers Inc.
+10 East 53rd Street
+About the Publisher
+HarperCollins Publishers (Australia) Pty. Ltd.
+25 Ryde Road (PO Box 321)
+http://www.harpercollinsebooks.com.au
+55 Avenue Road, Suite 2900
+Toronto, ON, M5R, 3L2, Canada
+http://www.harpercollinsebooks.ca
+P.O. Box 1
+http://www.harpercollins.co.nz
 http://www.harpercollinsebooks.co
-New York, NY 10022 
-http://www.harpercollinsebooks.com 
+New York, NY 10022
+http://www.harpercollinsebooks.com
 .uk

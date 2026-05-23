@@ -9,8 +9,11 @@ chars: 832040
 approx_tokens: 208010
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 832042
+phase4_chars_after: 829722
+phase4_saved_pct: 0.3
 ---
-
 
 
 Praise for Designing Machine Learning Systems
@@ -323,8 +326,7 @@ WARNING
 This element indicates a warning or caution.
 Using Code Examples
 As mentioned, supplemental material (code examples, exercises, etc.) is
-available for download at https://oreil.ly/designing-machine-learning-
-systems-code.
+available for download at https://oreil.ly/designing-machine-learningsystems-code.
 If you have a technical question or a problem using the code examples,
 please send email to bookquestions@oreilly.com.
 This book is here to help you get your job done. In general, if example code
@@ -445,8 +447,6 @@ developing, monitoring, and updating your models, as well as the
 infrastructure that enables the delivery of that logic. Figure 1-1 shows you
 the different components of an ML system and in which chapters of this
 book they will be covered.
-1
-2
 
 
 THE RELATIONSHIP BETWEEN MLOPS AND ML
@@ -497,8 +497,6 @@ Machine learning is an approach to (1) learn (2) complex patterns from
 unseen data.
 We’ll look at each of the italicized keyphrases in the above framing to
 understand its implications to the problems ML can solve:
-3
-
 
 1. Learn: the system has the capacity to learn
 A relational database isn’t an ML system because it doesn’t have the
@@ -531,8 +529,6 @@ all your models fail to make reasonable predictions of cryptocurrency
 prices, it doesn’t mean there’s no pattern.
 Consider a website like Airbnb with a lot of house listings; each listing
 comes with a zip code. If you want to sort listings into the states they
-4
-
 
 are located in, you wouldn’t need an ML system. Since the pattern is
 simple—each zip code corresponds to a known state—you can just use
@@ -552,8 +548,6 @@ for humans to do are easy for machines—for example, raising a number
 of the power of 10. On the other hand, many tasks that are easy for
 humans can be hard for machines—for example, deciding whether
 there’s a cat in a picture.
-5
-
 
 Figure 1-2. Instead of requiring hand-specified patterns to calculate outputs, ML solutions learn
 patterns from inputs and outputs
@@ -603,8 +597,6 @@ such as image denoising and screen-space shading.
 The patterns your model learns from existing data are only useful if
 unseen data also share these patterns. A model to predict whether an app
 will get downloaded on Christmas 2020 won’t perform very well if it’s
-6
-7
 
 
 trained on data from 2008, when the most popular app on the App Store
@@ -639,8 +631,7 @@ If one prediction mistake can have catastrophic consequences, ML
 might still be a suitable solution if, on average, the benefits of correct
 
 
-predictions outweigh the cost of wrong predictions. Developing self-
-driving cars is challenging because an algorithmic mistake can lead to
+predictions outweigh the cost of wrong predictions. Developing selfdriving cars is challenging because an algorithmic mistake can lead to
 death. However, many companies still want to develop self-driving cars
 because they have the potential to save many lives once self-driving
 cars are statistically safer than human drivers.
@@ -685,8 +676,7 @@ It’s unethical. We’ll go over one case study where the use of ML
 algorithms can be argued as unethical in the section “Case study I:
 Automated grader’s biases”.
 Simpler solutions do the trick. In Chapter 6, we’ll cover the four
-phases of ML model development where the first phase should be non-
-ML solutions.
+phases of ML model development where the first phase should be nonML solutions.
 It’s not cost-effective.
 However, even if ML can’t solve your problem, it might be possible to
 break your problem into smaller components, and use ML to solve some of
@@ -811,11 +801,6 @@ Another popular use case of ML in enterprise is brand monitoring. The
 brand is a valuable asset of a business.
  It’s important to monitor how the
 public and your customers perceive your brand. You might want to know
-9
-10
-11
-12
-13
 
 
 when/where/how it’s mentioned, both explicitly (e.g., when someone
@@ -847,41 +832,40 @@ Table 1-1 shows five of the major differences.
 T
 a
 bl
-e 
-1-
-1. 
+e
+11.
 K
 e
-y 
+y
 di
 ff
 er
 e
 n
 c
-es 
+es
 b
 et
 w
 e
 e
-n 
+n
 M
-L 
-in 
+L
+in
 re
 se
 a
 rc
-h 
+h
 a
 n
-d 
+d
 
 
 M
-L 
-in 
+L
+in
 p
 r
 o
@@ -894,11 +878,11 @@ n
 Research
 Production
 Requirements
-State-of-the-art model performance on 
+State-of-the-art model performance on
 benchmark datasets
-Different stakeholders have 
+Different stakeholders have
 different requirements
-Computational 
+Computational
 priority
 Fast training, high throughput
 Fast inference, low latency
@@ -911,7 +895,7 @@ Must be considered
 Interpretability
 Often not a focus
 Must be considered
-a  A subfield of research focuses on continual learning: developing models to work with 
+a  A subfield of research focuses on continual learning: developing models to work with
 changing data distributions. We’ll cover continual learning in Chapter 9.
 Different stakeholders and requirements
 People involved in a research and leaderboard project often align on one
@@ -985,8 +969,6 @@ While it can give your ML system a small performance improvement,
 ensembling tends to make a system too complex to be useful in production,
 e.g., slower to make predictions or harder to interpret the results. We’ll
 discuss ensembling further in the section “Ensembles”.
-15
-
 
 For many tasks, a small improvement in performance can result in a huge
 boost in revenue or cost savings. For example, a 0.2% improvement in the
@@ -1016,9 +998,6 @@ When designing an ML system, people who haven’t deployed an ML
 system often make the mistake of focusing too much on the model
 development part and not enough on the model deployment and
 maintenance part.
-16
-17
-18
 
 
 During the model development process, you might train many different
@@ -1051,8 +1030,6 @@ If your system always processes one query at a time, higher latency means
 lower throughput. If the average latency is 10 ms, which means it takes 10
 ms to process a query, the throughput is 100 queries/second. If the average
 latency is 100 ms, the throughput is 10 queries/second.
-19
-
 
 However, because most modern distributed systems batch queries to
 process them together, often concurrently, higher latency might also mean
@@ -1109,9 +1086,6 @@ Higher percentiles also help you discover outliers, which might be
 symptoms of something wrong. Typically, the percentiles you’ll want to
 look at are p90, p95, and p99. The 90th percentile (p90) for the 10 requests
 above is 3,000 ms, which is an outlier.
-20
-21
-22
 
 
 Higher percentiles are important to look at because even though they
@@ -1144,8 +1118,6 @@ In research, you mostly work with historical data, e.g., data that already
 exists and is stored somewhere. In production, most likely you’ll also have
 to work with data that is being constantly generated by users, systems, and
 third-party data.
-23
-
 
 Figure 1-5 has been adapted from a great graphic by Andrej Karpathy,
 director of AI at Tesla, that illustrates the data problems he encountered
@@ -1165,8 +1137,6 @@ mathematical algorithms without knowing it. Your loan application might
 be rejected because the ML algorithm picks on your zip code, which
 embodies biases about one’s socioeconomic background. Your resume
 might be ranked lower because the ranking system employers use picks on
-24
-
 
 the spelling of your name. Your mortgage might get a higher interest rate
 because it relies partially on credit scores, which favor the rich and punish
@@ -1201,9 +1171,6 @@ Interpretability
 In early 2020, the Turing Award winner Professor Geoffrey Hinton
 proposed a heatedly debated question about the importance of
 interpretability in ML systems. “Suppose you have cancer and you have to
-25
-26
-27
 
 
 choose between a black box AI surgeon that cannot explain how it works
@@ -1237,9 +1204,6 @@ unless it leads to short-term business applications. This is especially true
 now that the research community took the “bigger, better” approach.
 Oftentimes, new models require a massive amount of data and tens of
 millions of dollars in compute alone.
-28
-29
-30
 
 
 As ML research and off-the-shelf models become more accessible, more
@@ -1306,10 +1270,6 @@ Summary
 This opening chapter aimed to give readers an understanding of what it
 takes to bring ML into the real world. We started with a tour of the wide
 range of use cases of ML in production today. While most people are
-31
-32
-33
-34
 
 
 familiar with ML in consumer-facing applications, the majority of ML use
@@ -1462,8 +1422,6 @@ The ultimate goal of any project within a business is, therefore, to increase
 profits, either directly or indirectly: directly such as increasing sales
 (conversion rates) and cutting costs; indirectly such as higher customer
 satisfaction and increasing time spent on a website.
-1
-2
 
 
 For an ML project to succeed within a business organization, it’s crucial to
@@ -1471,8 +1429,7 @@ tie the performance of an ML system to the overall business performance.
 What business performance metrics is the new ML system supposed to
 influence, e.g., the amount of ads revenue, the number of monthly active
 users?
-Imagine that you work for an ecommerce site that cares about purchase-
-through rate and you want to move your recommender system from batch
+Imagine that you work for an ecommerce site that cares about purchasethrough rate and you want to move your recommender system from batch
 prediction to online prediction.  You might reason that online prediction
 will enable recommendations more relevant to users right now, which can
 lead to a higher purchase-through rate. You can even do an experiment to
@@ -1497,9 +1454,6 @@ cancellation rates.
 The effect of an ML project on business objectives can be hard to reason
 about. For example, an ML model that gives customers more personalized
 solutions can make them happier, which makes them spend more money on
-3
-4
-5
 
 
 your services. The same ML model can also solve their problems faster,
@@ -1533,8 +1487,6 @@ There are many companies that have seen payoffs from ML. For example,
 ML has helped Google search better, sell more ads at higher prices, improve
 translation quality, and build better Android applications. But this gain
 hardly happened overnight. Google has been investing in ML for decades.
-6
-
 
 Returns on investment in ML depend a lot on the maturity stage of
 adoption. The longer you’ve adopted ML, the more efficient your pipeline
@@ -1554,8 +1506,6 @@ an ML system vary from use case to use case. However, most systems
 should have these four characteristics: reliability, scalability,
 maintainability, and adaptability. We’ll walk through each of these concepts
 in detail. Let’s take a closer look at reliability first.
-7
-
 
 Reliability
 The system should continue to perform the correct function at the desired
@@ -1621,8 +1571,6 @@ automated. You’ll need a way to manage the code generation so that you
 can adequately reproduce a model when you need to.
 Because scalability is such an important topic throughout the ML project
 workflow, we’ll discuss it in different parts of the book. Specifically, we’ll
-8
-9
 
 
 touch on the resource scaling aspect in the section “Distributed Training”,
@@ -1684,8 +1632,6 @@ So you have to collect more data of ads that should be shown.
 8. Train the model again.
 9. The model performs well on your existing test data, which is by now
 two months old. However, it performs poorly on the data from
-10
-11
 
 
 yesterday. Your model is now stale, so you need to update it on more
@@ -1920,8 +1866,6 @@ articles into four topics [tech, entertainment, finance, politics]. Consider an
 article that belongs to the politics class, e.g., its ground truth label is [0, 0,
 0, 1]. Imagine that, given this article, your model outputs this raw
 probability distribution: [0.45, 0.2, 0.02, 0.33]. The cross entropy loss of
-12
-
 
 this model, given this example, is the cross entropy of [0.45, 0.2, 0.02, 0.33]
 relative to [0, 0, 0, 1]. In Python, you can calculate cross entropy with the
@@ -1951,8 +1895,6 @@ can lead to questionable ethical concerns. Because extreme posts tend to get
 more engagements, your algorithm learned to prioritize extreme content.
 You want to create a more wholesome newsfeed. So you have a new goal:
 maximize users’ engagement while minimizing the spread of extreme views
-13
-
 
 and misinformation. To obtain this goal, you add two new objectives to
 your original plan:
@@ -1981,8 +1923,6 @@ can check out Pareto optimization, “an area of multiple criteria decision
 making that is concerned with mathematical optimization problems
 involving more than one objective function to be optimized
 simultaneously.”
-14
-15
 
 
 A problem with this approach is that each time you tune α and β—for
@@ -2029,8 +1969,7 @@ best known for his work on causal inference and Bayesian networks. The
 introduction to his book The Book of Why is entitled “Mind over Data,” in
 which he emphasizes: “Data is profoundly dumb.” In one of his more
 controversial posts on Twitter in 2020, he expressed his strong opinion
-against ML approaches that rely heavily on data and warned that data-
-centric ML people might be out of a job in three to five years: “ML will not
+against ML approaches that rely heavily on data and warned that datacentric ML people might be out of a job in three to five years: “ML will not
 be the same in 3–5 years, and ML folks who continue to follow the current
 data-centric paradigm will find themselves outdated, if not jobless. Take
 note.”
@@ -2046,9 +1985,6 @@ blog post in which he claimed that researchers who chose to pursue
 intelligent designs over methods that leverage computation will eventually
 learn a bitter lesson: “The biggest lesson that can be read from 70 years of
 AI research is that general methods that leverage computation are
-17
-18
-19
 
 
 ultimately the most effective, and by a large margin.… Seeking an
@@ -2068,8 +2004,6 @@ The debate isn’t about whether finite data is necessary, but whether it’s
 sufficient. The term finite here is important, because if we had infinite data,
 it might be possible for us to look up the answer. Having a lot of data is
 different from having infinite data.
-20
-21
 
 
 Figure 2-7. The data science hierarchy of needs. Source: Adapted from an image by Monica Rogati
@@ -2083,8 +2017,6 @@ billion tokens.
  Six years later, OpenAI’s GPT-2 used a dataset of 10
 billion tokens. And another year later, GPT-3 used 500 billion tokens. The
 growth rate of the sizes of datasets is shown in Figure 2-8.
-22
-23
 
 
 Figure 2-8. The size of the datasets (log scale) used for language models over time
@@ -2137,8 +2069,6 @@ Increase Its Profits,” New York Times Magazine, September 13, 1970, https://or
 4  Ashok Chandrashekar, Fernando Amat, Justin Basilico, and Tony Jebara, “Artwork
 Personalization at Netflix,” Netflix Technology Blog, December 7, 2017,
 https://oreil.ly/UEDmw.
-24
-
 
 5  Carlos A. Gomez-Uribe and Neil Hunt, “The Netflix Recommender System: Algorithms,
 Business Value, and Innovation,” ACM Transactions on Management Information Systems 6,
@@ -2268,11 +2198,8 @@ of logs.
 The second problem is how to store a rapidly growing number of logs. Luckily, in most cases,
 you only have to store logs for as long as they are useful and can discard them when they are no
 longer relevant for you to debug your current system. If you don’t have to access your logs
-1
 
-
-frequently, they can also be stored in low-access storage that costs much less than higher-
-frequency-access storage.
+frequently, they can also be stored in low-access storage that costs much less than higherfrequency-access storage.
 The system also generates data to record users’ behaviors, such as clicking, choosing a
 suggestion, scrolling, zooming, ignoring a pop-up, or spending an unusual amount of time on
 certain pages. Even though this is system-generated data, it’s still considered part of user data
@@ -2308,10 +2235,6 @@ focus more on first-party data.  To fight back this change, advertisers have bee
 workarounds. For example, the China Advertising Association, a state-supported trade
 association for China’s advertising industry, invested in a device fingerprinting system called
 CAID that allowed apps like TikTok and Tencent to keep tracking iPhone users.
-2
-3
-4
-5
 
 
 Data Formats
@@ -2331,48 +2254,46 @@ different characteristics such as human readability, access patterns, and whethe
 text or binary, which influences the size of its files. Table 3-1 consists of just a few of the
 common formats that you might encounter in your work. For a more comprehensive list, check
 out the wonderful Wikipedia page “Comparison of Data-Serialization Formats”.
-6
-
 
 T
 a
 b
-le 
-3
+le
+
 -
-1
-. 
+
+.
 C
 o
 m
 m
 o
-n 
+n
 d
 a
 t
-a 
+a
 f
 o
 r
 m
 a
-ts 
+ts
 a
 n
-d 
+d
 w
 h
 e
 r
-e 
+e
 t
 h
 e
-y 
+y
 a
 r
-e 
+e
 u
 s
 
@@ -2427,7 +2348,7 @@ structured format like the following:
 }
 The same data can also be stored in an unstructured blob of text like the following:
 {
-  "text": "Boatie McBoatFace, aged 12, is vibing, at 12 Ocean Drive, Port Royal, 
+  "text": "Boatie McBoatFace, aged 12, is vibing, at 12 Ocean Drive, Port Royal,
            10021-3100"
 }
 Because JSON is ubiquitous, the pain it causes can also be felt everywhere. Once you’ve
@@ -2446,8 +2367,7 @@ a table is row-major, accessing its rows will be faster than accessing its colum
 This means that for row-major formats, accessing data by rows is expected to be faster than
 accessing data by columns.
 Imagine we have a dataset of 1,000 examples, and each example has 10 features. If we consider
-each example as a row and each feature as a column, as is often the case in ML, then the row-
-major formats like CSV are better for accessing examples, e.g., accessing all the examples
+each example as a row and each feature as a column, as is often the case in ML, then the rowmajor formats like CSV are better for accessing examples, e.g., accessing all the examples
 collected today. Column-major formats like Parquet are better for accessing features, e.g.,
 accessing the timestamps of all your examples. See Figure 3-1.
 Figure 3-1. Row-major versus column-major formats
@@ -2462,15 +2382,13 @@ advantage of caching.
 Row-major formats allow faster data writes. Consider the situation when you have to keep
 adding new individual examples to your data. For each individual example, it’d be much faster
 to write it to a file where your data is already in a row-major format.
-Overall, row-major formats are better when you have to do a lot of writes, whereas column-
-major ones are better when you have to do a lot of column-based reads.
+Overall, row-major formats are better when you have to do a lot of writes, whereas columnmajor ones are better when you have to do a lot of column-based reads.
 
 
 NUMPY VERSUS PANDAS
 One subtle point that a lot of people don’t pay attention to, which leads to misuses of
 pandas, is that this library is built around the columnar format.
-pandas is built around DataFrame, a concept inspired by R’s Data Frame, which is column-
-major. A DataFrame is a two-dimensional table with rows and columns.
+pandas is built around DataFrame, a concept inspired by R’s Data Frame, which is columnmajor. A DataFrame is a two-dimensional table with rows and columns.
 In NumPy, the major order can be specified. When an ndarray is created, it’s row-major
 by default if you don’t specify the order. People coming to pandas from NumPy tend to
 treat DataFrame the way they would ndarray, e.g., trying to access data by rows, and
@@ -2489,8 +2407,6 @@ horrible data format. It serializes nontext characters poorly. For example, when
 file, some precision might be lost—0.12345678901232323 could be arbitrarily rounded up as “0.12345678901”—
 as complained about in a Stack Overflow thread and Microsoft Community thread. People on Hacker News have
 passionately argued against using CSV.
-7
-
 
 Text Versus Binary Format
 CSV and JSON are text files, whereas Parquet files are binary files. Text files are files that are
@@ -2551,30 +2467,27 @@ changes, we only have to update the Publisher relation.
 spelling of the same value across different columns. It also makes it easier to make changes to
 these values, either because these values change or when you want to translate them into
 different languages.
-9
-10
-11
 
 
 T
 a
 b
 l
-e 
-3
+e
+
 -
-2
-. 
+
+.
 I
 n
 it
 i
 a
-l 
+l
 B
 o
 o
-k 
+k
 r
 e
 l
@@ -2623,21 +2536,21 @@ $15
 T
 a
 b
-le 
-3
+le
+
 -
-3
-. 
+
+.
 U
 p
 d
 a
 te
-d 
+d
 B
 o
 o
-k 
+k
 r
 el
 a
@@ -2652,27 +2565,27 @@ Price
 Harry Potter
 J.K. Rowling
 Paperback
-1
+
 $20
 Harry Potter
 J.K. Rowling
 E-book
-1
+
 $10
 Sherlock Holmes
 Conan Doyle
 Paperback
-2
+
 $30
 The Hobbit
 J.R.R. Tolkien
 Paperback
-1
+
 $30
 Sherlock Holmes
 Conan Doyle
 Paperback
-2
+
 $15
 
 
@@ -2680,11 +2593,11 @@ T
 a
 b
 l
-e 
-3
+e
+
 -
-4
-. 
+
+.
 P
 u
 b
@@ -2692,7 +2605,7 @@ li
 s
 h
 e
-r 
+r
 r
 e
 l
@@ -2703,10 +2616,10 @@ n
 Publisher ID
 Publisher
 Country
-1
+
 Banana Press
 UK
-2
+
 Guava Press
 US
 One major downside of normalization is that your data is now spread across multiple relations.
@@ -2747,9 +2660,6 @@ database systems, and normalization means that data is spread out on multiple re
 makes joining it together even harder. Even though developing a query optimizer is hard, the
 good news is that you generally only need one query optimizer and all your applications can
 leverage it.
-12
-13
-14
 
 
 FROM DECLARATIVE DATA SYSTEMS TO DECLARATIVE ML SYSTEMS
@@ -2791,8 +2701,6 @@ NoSQL
 The relational data model has been able to generalize to a lot of use cases, from ecommerce to
 finance to social networks. However, for certain use cases, this model can be restrictive. For
 example, it demands that your data follows a strict schema, and schema management is painful.
-15
-
 
 In a survey by Couchbase in 2014, frustration with schema management was the #1 reason for
 the adoption of their nonrelational database.
@@ -2829,7 +2737,7 @@ Example 3-1. Document 1: harry_potter.json
     {"Format": "Paperback", "Price": "$20"},
     {"Format": "E-book", "Price": "$10"}
   ]
-} 
+}
 Example 3-2. Document 2: sherlock_holmes.json
 {
   "Title": "Sherlock Holmes",
@@ -2839,12 +2747,10 @@ Example 3-2. Document 2: sherlock_holmes.json
   "Sold as": [
     {"Format": "Paperback", "Price": "$30"},
     {"Format": "E-book", "Price": "$15"}
-16
-17
 
 
   ]
-} 
+}
 Example 3-3. Document 3: the_hobbit.json
 {
   "Title": "The Hobbit",
@@ -2854,7 +2760,7 @@ Example 3-3. Document 3: the_hobbit.json
   "Sold as": [
     {"Format": "Paperback", "Price": "$30"},
   ]
-} 
+}
 Because the document model doesn’t enforce a schema, it’s often referred to as schemaless.
 This is misleading because, as discussed previously, data stored in documents will be read later.
 The application that reads the documents usually assumes some kind of structure of the
@@ -2912,8 +2818,6 @@ null ages with 0, and their ML model thought the transactions were made by peopl
 old.
 Because business requirements change over time, committing to a predefined data schema can
 become too restricting. Or you might have data from multiple data sources that are beyond your
-18
-
 
 control, and it’s impossible to make them follow the same schema. This is where unstructured
 data becomes appealing. Unstructured data doesn’t adhere to a predefined data schema. It’s
@@ -2943,17 +2847,17 @@ T
 a
 b
 l
-e 
-3
+e
+
 -
-5
-. 
+
+.
 T
 h
-e 
+e
 k
 e
-y 
+y
 d
 if
 f
@@ -2963,14 +2867,14 @@ e
 n
 c
 e
-s 
+s
 b
 e
 t
 w
 e
 e
-n 
+n
 st
 r
 u
@@ -2979,12 +2883,12 @@ t
 u
 r
 e
-d 
+d
 a
 n
 
 
-d 
+d
 u
 n
 st
@@ -2995,7 +2899,7 @@ t
 u
 r
 e
-d 
+d
 d
 a
 t
@@ -3006,12 +2910,12 @@ Schema clearly defined
 Data doesn’t have to follow a schema
 Easy to search and analyze
 Fast arrival
-Can only handle data with a specific 
+Can only handle data with a specific
 schema
 Can handle data from any source
-Schema changes will cause a lot of 
+Schema changes will cause a lot of
 troubles
-No need to worry about schema changes (yet), as the worry is shifted to the 
+No need to worry about schema changes (yet), as the worry is shifted to the
 downstream applications that use this data
 Stored in data warehouses
 Stored in data lakes
@@ -3028,8 +2932,7 @@ that you will inevitably encounter when building an ML system in production.
 
 Transactional and Analytical Processing
 Traditionally, a transaction refers to the action of buying or selling something. In the digital
-world, a transaction refers to any kind of action: tweeting, ordering a ride through a ride-
-sharing service, uploading a new model, watching a YouTube video, and so on. Even though
+world, a transaction refers to any kind of action: tweeting, ordering a ride through a ridesharing service, uploading a new model, watching a YouTube video, and so on. Even though
 these different transactions involve different types of data, the way they’re processed is similar
 across applications. The transactions are inserted as they are generated, and occasionally
 updated when something changes, or deleted when they are no longer needed.
@@ -3062,8 +2965,6 @@ However, transactional databases don’t necessarily need to be ACID, and some d
 ACID to be too restrictive. According to Martin Kleppmann, “systems that do not meet the
 ACID criteria are sometimes called BASE, which stands for Basically Available, Soft state, and
 Eventual consistency. This is even more vague than the definition of ACID.”
-19
-20
 
 
 Because each transaction is often processed as a unit separately from other transactions,
@@ -3096,8 +2997,6 @@ In the data world today, online might refer to the speed at which your data is p
 made available: online, nearline, or offline. According to Wikipedia, online processing means
 data is immediately available for input/output. Nearline, which is short for near-online, means
 data is not immediately available but can be made online quickly without human intervention.
-21
-
 
 Offline means data is not immediately available and requires some human intervention to
 become online.
@@ -3124,8 +3023,6 @@ which can be a file, a database, or a data warehouse.
 The idea of ETL sounds simple but powerful, and it’s the underlying structure of the data layer
 at many organizations. An overview of the ETL process is shown in Figure 3-7.
 Figure 3-7. An overview of the ETL process
-22
-
 
 When the internet first became ubiquitous and hardware had just become so much more
 powerful, collecting data suddenly became so much easier. The amount of data grew rapidly.
@@ -3162,8 +3059,6 @@ We’ll go over each of them in this section.
 Data Passing Through Databases
 The easiest way to pass data between two processes is through databases, which we’ve
 discussed in the section “Data Storage Engines and Processing”. For example, to pass data from
-23
-
 
 process A to process B, process A can write that data into a database, and process B simply
 reads from that database.
@@ -3233,9 +3128,6 @@ drivers (e.g., if you get on the road now you can get a 2x surge charge). Simila
 management service might also want data from the driver management and price optimization
 services. If we pass data through services as discussed in the previous section, each of these
 services needs to send requests to the other two services, as shown in Figure 3-8.
-24
-25
-26
 
 
 Figure 3-8. In the request-driven architecture, each service needs to send requests to two other services
@@ -3268,10 +3160,8 @@ in-memory storage to broker data. Real-time transports can be thought of as in-m
 for data passing among services.
 A piece of data broadcast to a real-time transport is called an event. This architecture is,
 therefore, also called event-driven. A real-time transport is sometimes called an event bus.
-Request-driven architecture works well for systems that rely more on logic than on data. Event-
-driven architecture works better for systems that are data-heavy.
-The two most common types of real-time transports are pubsub, which is short for publish-
-subscribe, and message queue. In the pubsub model, any service can publish to different topics
+Request-driven architecture works well for systems that rely more on logic than on data. Eventdriven architecture works better for systems that are data-heavy.
+The two most common types of real-time transports are pubsub, which is short for publishsubscribe, and message queue. In the pubsub model, any service can publish to different topics
 in a real-time transport, and any service that subscribes to a topic can read all the events in that
 topic. The services that produce data don’t care about what services consume their data. Pubsub
 solutions often have a retention policy—data will be retained in the real-time transport for a
@@ -3286,8 +3176,6 @@ Examples of pubsub solutions are Apache Kafka and Amazon Kinesis.
 queues are Apache RocketMQ and RabbitMQ. Both paradigms have gained a lot of traction in
 the last few years. Figure 3-11 shows some of the companies that use Apache Kafka and
 RabbitMQ.
-27
-
 
 Figure 3-11. Companies that use Apache Kafka and RabbitMQ. Source: Screenshot from Stackshare
 Batch Processing Versus Stream Processing
@@ -3360,8 +3248,6 @@ binary formats.
 We continued to cover three major data models: relational, document, and graph. Even though
 the relational model is the most well known given the popularity of SQL, all three models are
 widely used today, and each is good for a certain set of tasks.
-28
-
 
 When talking about the relational model compared to the document model, many people think
 of the former as structured and the latter as unstructured. The division between structured and
@@ -3497,8 +3383,6 @@ data to see if the new model is promising first before training this new model o
 Understanding different sampling methods and how they are being used in our workflow can, first, help us
 avoid potential sampling biases, and second, help us choose the methods that improve the efficiency of the data
 we sample.
-1
-
 
 There are two families of sampling: nonprobability sampling and random sampling. We’ll start with
 nonprobability sampling methods, followed by several common random sampling methods.
@@ -3538,8 +3422,6 @@ there’s still a lot more self-driving car data for sunny weather than for rain
 Nonprobability sampling can be a quick and easy way to gather your initial data to get your project off the
 ground. However, for reliable models, you might want to use probability-based sampling, which we will cover
 next.
-2
-3
 
 
 Simple Random Sampling
@@ -3584,8 +3466,6 @@ A common concept in ML that is closely related to weighted sampling is sample we
 used to select samples to train your model with, whereas sample weights are used to assign “weights” or
 “importance” to training samples. Samples with higher weights affect the loss function more. Changing sample
 weights can change your model’s decision boundaries significantly, as shown in Figure 4-1.
-4
-5
 
 
 Figure 4-1. Sample weights can affect the decision boundary. On the left is when all samples are given equal weights. On the right is when samples
@@ -3614,7 +3494,7 @@ Figure 4-2. A visualization of how reservoir sampling works
 Importance Sampling
 Importance sampling is one of the most important sampling methods, not just in ML. It allows us to sample
 from a distribution when we only have access to another distribution.
-6
+
 th
 th
 th
@@ -3669,8 +3549,6 @@ Third, hand labeling is slow. For example, accurate transcription of speech utte
 take 400 times longer than the utterance duration.  So if you want to annotate 1 hour of speech, it’ll take 400
 hours or almost 3 months for a person to do so. In a study to use ML to help classify lung cancers from X-rays,
 my colleagues had to wait almost a year to obtain sufficient labels.
-7
-
 
 Slow labeling leads to slow iteration speed and makes your model less adaptive to changing environments and
 requirements. If the task changes or data changes, you’ll have to wait for your data to be relabeled before
@@ -3698,17 +3576,17 @@ very differently from a model trained on data labeled by annotator 2.
 T
 a
 b
-le 
-4
+le
+
 -
-1
-. 
+
+.
 E
 n
 ti
 ti
 e
-s 
+s
 i
 d
 e
@@ -3716,16 +3594,16 @@ n
 ti
 fi
 e
-d 
+d
 b
-y 
+y
 d
 if
 fe
 r
 e
 n
-t 
+t
 a
 n
 n
@@ -3735,20 +3613,20 @@ a
 t
 o
 r
-s 
+s
 m
 i
 g
 h
-t 
+t
 b
-e 
+e
 v
 e
 r
 
 
-y 
+y
 d
 if
 fe
@@ -3759,17 +3637,17 @@ t
 Annotator
 # entities
 Annotation
-1
-3
-[Darth Sidious], known simply as the Emperor, was a [Dark Lord of the Sith] who reigned over the 
+
+
+[Darth Sidious], known simply as the Emperor, was a [Dark Lord of the Sith] who reigned over the
 galaxy as [Galactic Emperor of the First Galactic Empire].
-2
-6
-[Darth Sidious], known simply as the [Emperor], was a [Dark Lord] of the [Sith] who reigned over the 
+
+
+[Darth Sidious], known simply as the [Emperor], was a [Dark Lord] of the [Sith] who reigned over the
 galaxy as [Galactic Emperor] of the [First Galactic Empire].
-3
-4
-[Darth Sidious], known simply as the [Emperor], was a [Dark Lord of the Sith] who reigned over the 
+
+
+[Darth Sidious], known simply as the [Emperor], was a [Dark Lord of the Sith] who reigned over the
 galaxy as [Galactic Emperor of the First Galactic Empire].
 Disagreements among annotators are extremely common. The higher the level of domain expertise required, the
 higher the potential for annotating disagreement.  If one human expert thinks the label should be A while
@@ -3798,8 +3676,6 @@ model, but because of the unusually high number of wrong labels in the data that
 Natural Labels
 Hand-labeling isn’t the only source for labels. You might be lucky enough to work on tasks with natural ground
 truth labels. Tasks with natural labels are tasks where the model’s predictions can be automatically evaluated or
-8
-
 
 partially evaluated by the system. An example is the model that estimates time of arrival for a certain route on
 Google Maps. If you take that route, by the end of your trip, Google Maps knows how long the trip actually
@@ -3830,8 +3706,6 @@ Figure 4-3. Sixty-three percent of companies in my network work on tasks with na
 can work with tasks with different label sources.
 In the previous example, a recommendation that doesn’t get clicked on after a period of time can be presumed
 to be bad. This is called an implicit label, as this negative label is presumed from the lack of a positive label.
-9
-
 
 It’s different from explicit labels where users explicitly demonstrate their feedback on a recommendation by
 giving it a low rating or downvoting it.
@@ -3860,8 +3734,7 @@ them a higher volume of feedback to evaluate their models. However, some compani
 which gives them a stronger signal that is also more correlated to their business metrics (e.g., revenue from
 product sales). Both approaches are valid. There’s no definite answer to what type of feedback you should
 optimize for your use case, and it merits serious discussions between all stakeholders involved.
-Choosing the right window length requires thorough consideration, as it involves the speed and accuracy trade-
-off. A short window length means that you can capture labels faster, which allows you to use these labels to
+Choosing the right window length requires thorough consideration, as it involves the speed and accuracy tradeoff. A short window length means that you can capture labels faster, which allows you to use these labels to
 detect issues with your model and address those issues as soon as possible. However, a short window length
 also means that you might prematurely label a recommendation as bad before it’s clicked on.
 No matter how long you set your window length to be, there might still be premature negative labels. In early
@@ -3876,8 +3749,6 @@ whether that transaction is fraudulent or not. For example, when a customer read
 saw a transaction they didn’t recognize, they might dispute it with their bank, giving the bank the feedback to
 label that transaction as fraudulent. A typical dispute window is one to three months. After the dispute window
 has passed, if there’s no dispute from the user, you might presume the transaction to be legitimate.
-10
-
 
 Labels with long feedback loops are helpful for reporting a model’s performance on quarterly or yearly
 business reports. However, they are not very helpful if you want to detect issues with your models as soon as
@@ -3886,18 +3757,17 @@ problem is fixed, all the fraudulent transactions your faulty model let through 
 business to go bankrupt.
 Handling the Lack of Labels
 Because of the challenges in acquiring sufficient high-quality labels, many techniques have been developed to
-address the problems that result. In this section, we will cover four of them: weak supervision, semi-
-supervision, transfer learning, and active learning. A summary of these methods is shown in Table 4-2.
+address the problems that result. In this section, we will cover four of them: weak supervision, semisupervision, transfer learning, and active learning. A summary of these methods is shown in Table 4-2.
 
 
 T
 a
 b
-le 
-4
+le
+
 -
-2
-. 
+
+.
 S
 u
 m
@@ -3905,13 +3775,13 @@ m
 a
 ri
 e
-s 
+s
 o
-f 
+f
 f
 o
 u
-r 
+r
 te
 c
 h
@@ -3920,26 +3790,26 @@ i
 q
 u
 e
-s 
+s
 f
 o
-r 
+r
 h
 a
 n
 d
 li
 n
-g 
+g
 t
 h
-e 
+e
 l
 a
 c
-k 
+k
 o
-f 
+f
 h
 
 
@@ -3952,7 +3822,7 @@ a
 b
 el
 e
-d 
+d
 d
 a
 t
@@ -3961,23 +3831,22 @@ Method
 How
 Ground truths required?
 Weak supervision
-Leverages (often noisy) heuristics to 
+Leverages (often noisy) heuristics to
 generate labels
-No, but a small number of labels are recommended to guide the development of 
+No, but a small number of labels are recommended to guide the development of
 heuristics
-Semi-
-supervision
-Leverages structural assumptions to 
+Semisupervision
+Leverages structural assumptions to
 generate labels
 Yes, a small number of initial labels as seeds to generate more labels
 Transfer learning
-Leverages models pretrained on another 
+Leverages models pretrained on another
 task for your new task
 No for zero-shot learning
-Yes for fine-tuning, though the number of ground truths required is often much 
+Yes for fine-tuning, though the number of ground truths required is often much
 smaller than what would be needed if you train the model from scratch
 Active learning
-Labels data samples that are most useful 
+Labels data samples that are most useful
 to your model
 Yes
 Weak supervision
@@ -3999,8 +3868,6 @@ Keyword heuristic
 Such as the preceding example
 Regular expressions
 Such as if the note matches or fails to match a certain regular expression
-11
-
 
 Database lookup
 Such as if the note contains the disease listed in the dangerous disease list
@@ -4011,8 +3878,7 @@ Because LFs encode heuristics, and heuristics are noisy, labels produced by LFs 
 apply to the same data examples, and they might give conflicting labels. One function might think a nurse’s
 note is EMERGENT but another function might think it’s not. One heuristic might be much more accurate than
 another heuristic, which you might not know because you don’t have ground truth labels to compare them to.
-It’s important to combine, denoise, and reweight all LFs to get a set of most likely to be correct labels. Figure 4-
-4 shows at a high level how LFs work.
+It’s important to combine, denoise, and reweight all LFs to get a set of most likely to be correct labels. Figure 44 shows at a high level how LFs work.
 Figure 4-4. A high-level overview of how labeling functions are combined. Source: Adapted from an image by Ratner et al.
 In theory, you don’t need any hand labels for weak supervision. However, to get a sense of how accurate your
 LFs are, a small number of hand labels is recommended. These hand labels can help you discover patterns in
@@ -4024,20 +3890,18 @@ With LFs, subject matter expertise can be versioned, reused, and shared. Experti
 encoded and used by another team. If your data changes or your requirements change, you can just reapply LFs
 to your data samples. The approach of using LFs to generate labels for your data is also known as
 programmatic labeling. Table 4-3 shows some of the advantages of programmatic labeling over hand labeling.
-12
-
 
 T
 a
 b
-le 
-4
+le
+
 -
-3
-. 
+
+.
 T
 h
-e 
+e
 a
 d
 v
@@ -4047,9 +3911,9 @@ t
 a
 g
 e
-s 
+s
 o
-f 
+f
 p
 r
 o
@@ -4060,22 +3924,22 @@ m
 m
 a
 ti
-c 
+c
 l
 a
 b
 el
 i
 n
-g 
+g
 o
 v
 e
-r 
+r
 h
 a
 n
-d 
+d
 l
 a
 
@@ -4087,17 +3951,17 @@ n
 g
 Hand labeling
 Programmatic labeling
-Expensive: Especially when subject matter 
+Expensive: Especially when subject matter
 expertise required
 Cost saving: Expertise can be versioned, shared, and reused across an organization
-Lack of privacy: Need to ship data to human 
+Lack of privacy: Need to ship data to human
 annotators
-Privacy: Create LFs using a cleared data subsample and then apply LFs to other data without 
+Privacy: Create LFs using a cleared data subsample and then apply LFs to other data without
 looking at individual samples
-Slow: Time required scales linearly with number of 
+Slow: Time required scales linearly with number of
 labels needed
 Fast: Easily scale from 1K to 1M samples
-Nonadaptive: Every change requires relabeling the 
+Nonadaptive: Every change requires relabeling the
 data
 Adaptive: When changes happen, just reapply LFs!
 Here is a case study to show how well weak supervision works in practice. In a study with Stanford
@@ -4117,15 +3981,11 @@ Weak supervision is a simple but powerful paradigm. However, it’s not perfect.
 obtained by weak supervision might be too noisy to be useful. But even in these cases, weak supervision can be
 a good way to get you started when you want to explore the effectiveness of ML without wanting to invest too
 much in hand labeling up front.
-13
-14
-15
 
 
 Semi-supervision
 If weak supervision leverages heuristics to obtain noisy labels, semi-supervision leverages structural
-assumptions to generate new labels based on a small set of initial labels. Unlike weak supervision, semi-
-supervision requires an initial set of labels.
+assumptions to generate new labels based on a small set of initial labels. Unlike weak supervision, semisupervision requires an initial set of labels.
 Semi-supervised learning is a technique that was used back in the 90s,
  and since then many semi-supervision
 methods have been developed. A comprehensive review of semi-supervised learning is out of the scope of this
@@ -4163,8 +4023,6 @@ champion model on the evaluation set.
 Transfer learning
 Transfer learning refers to the family of methods where a model developed for a task is reused as the starting
 point for a model on a second task. First, the base model is trained for a base task. The base task is usually a
-16
-17
 
 
 task that has cheap and abundant training data. Language modeling is a great candidate because it doesn’t
@@ -4214,10 +4072,6 @@ humans).
 Instead of randomly labeling data samples, you label the samples that are most helpful to your models
 according to some metrics or heuristics. The most straightforward metric is uncertainty measurement—label the
 examples that your model is the least certain about, hoping that they will help your model learn the decision
-18
-19
-20
-21
 
 
 boundary better. For example, in the case of classification problems where your model outputs raw probabilities
@@ -4261,10 +4115,6 @@ metrics.
 Challenges of Class Imbalance
 ML, especially deep learning, works well in situations when the data distribution is more balanced, and usually
 not so well when the classes are heavily imbalanced, as illustrated in Figure 4-8. Class imbalance can make
-22
-23
-24
-25
 
 
 learning difficult for the following three reasons.
@@ -4307,12 +4157,6 @@ biases during the sampling process. Consider the case when you want to create tr
 an email is spam or not. You decide to use all the anonymized emails from your company’s email database.
 According to Talos Intelligence, as of May 2021, nearly 85% of all emails are spam.
  But most spam emails
-26
-27
-28
-29
-30
-31
 
 
 were filtered out before they reached your company’s database, so in your dataset, only a small percentage is
@@ -4354,60 +4198,55 @@ especially bad when the majority class isn’t what you care about.
 Consider a task with two labels: CANCER (the positive class) and NORMAL (the negative class), where 90%
 of the labeled data is NORMAL. Consider two models, A and B, with the confusion matrices shown in Tables
 4-4 and 4-5.
-32
-33
-34
 
 
 T
 a
 bl
-e 
-4-
-4. 
+e
+44.
 M
 o
 d
-el 
+el
 A’
-s 
+s
 c
 o
 nf
 u
 si
 o
-n 
+n
 m
 at
 ri
-x; 
+x;
 m
 o
 d
-el 
-A 
+el
+A
 c
 a
-n 
+n
 d
 et
 e
-ct 
-1
-0 
+ct
+
+
 o
-ut 
-of 
-1
-0
-0 
+ut
+of
+
+
 C
 A
 N
 C
 E
-R 
+R
 c
 a
 
@@ -4418,61 +4257,57 @@ Model A
 Actual CANCER
 Actual NORMAL
 Predicted CANCER
-10
-10
-Predicted NORMAL 90
-890
 
+
+Predicted NORMAL 90
 
 T
 a
 bl
-e 
-4-
-5. 
+e
+45.
 M
 o
 d
-el 
+el
 B
-’s 
+’s
 c
 o
 nf
 u
 si
 o
-n 
+n
 m
 at
 ri
-x; 
+x;
 m
 o
 d
-el 
-B 
+el
+B
 c
 a
-n 
+n
 d
 et
 e
-ct 
-9
-0 
+ct
+
+
 o
-ut 
-of 
-1
-0
-0 
+ut
+of
+
+
 C
 A
 N
 C
 E
-R 
+R
 c
 a
 
@@ -4483,10 +4318,10 @@ Model B
 Actual CANCER
 Actual NORMAL
 Predicted CANCER
-90
-90
+
+
 Predicted NORMAL 10
-810
+
 If you’re like most people, you’d probably prefer model B to make predictions for you since it has a better
 chance of telling you if you actually have cancer. However, they both have the same accuracy of 0.9.
 Metrics that help you understand your model’s performance with respect to specific classes would be better
@@ -4506,11 +4341,11 @@ shown in Table 4-6.
 T
 a
 b
-le 
-4
+le
+
 -
-6
-. 
+
+.
 D
 ef
 i
@@ -4519,65 +4354,65 @@ it
 i
 o
 n
-s 
+s
 o
-f 
+f
 T
 r
 u
-e 
+e
 P
 o
 si
 ti
 v
-e, 
+e,
 F
 a
 ls
-e 
+e
 P
 o
 si
 ti
 v
-e, 
+e,
 F
 a
 ls
-e 
+e
 N
 e
 g
 a
 ti
 v
-e, 
+e,
 a
 
 
 n
-d 
+d
 T
 r
 u
-e 
+e
 N
 e
 g
 a
 ti
 v
-e 
+e
 i
-n 
-a 
+n
+a
 b
 i
 n
 a
 r
-y 
+y
 cl
 a
 s
@@ -4587,7 +4422,7 @@ c
 a
 ti
 o
-n 
+n
 t
 a
 s
@@ -4617,31 +4452,31 @@ and F1 scores of model A and model B when CANCER is the positive class are shown
 T
 a
 b
-le 
-4
+le
+
 -
-7
-. 
+
+.
 B
 o
 t
-h 
+h
 m
 o
 d
 el
-s 
+s
 h
 a
 v
-e 
+e
 t
 h
-e 
+e
 s
 a
 m
-e 
+e
 a
 c
 c
@@ -4649,32 +4484,32 @@ u
 r
 a
 c
-y 
+y
 e
 v
 e
-n 
+n
 t
 h
 o
 u
 g
-h 
+h
 o
 n
-e 
+e
 m
 o
 
 
 d
-el 
-is 
+el
+is
 cl
 e
 a
 rl
-y 
+y
 s
 u
 p
@@ -4731,9 +4566,6 @@ Figure 4-10. Illustrations of how undersampling and oversampling work. Source: A
 A popular method of undersampling low-dimensional data that was developed back in 1976 is Tomek links.
 With this technique, you find pairs of samples from opposite classes that are close in proximity and remove the
 sample of the majority class in each pair.
-36
-37
-38
 
 
 While this makes the decision boundary more clear and arguably helps models learn the boundary better, it may
@@ -4758,8 +4590,7 @@ One such technique is two-phase learning.
  You first train your model on the resampled data. This resampled
 data can be achieved by randomly undersampling large classes until each class has only N instances. You then
 fine-tune your model on the original data.
-Another technique is dynamic sampling: oversample the low-performing classes and undersample the high-
-performing classes during the training process. Introduced by Pouyanfar et al.,
+Another technique is dynamic sampling: oversample the low-performing classes and undersample the highperforming classes during the training process. Introduced by Pouyanfar et al.,
  the method aims to show the
 model less of what it has already learned and more of what it has not.
 Algorithm-level methods
@@ -4774,7 +4605,7 @@ weight, we can make the model focus more on learning these instances.
 Let L(x; θ) be the loss caused by the instance x for the model with the parameter set θ. The model’s loss is
 often defined as the average loss caused by all instances. N denotes the total number of training samples.
 L (X; θ) = ∑x
-1
+
 N L (x; θ)
 This loss function values the loss caused by all instances equally, even though wrong predictions on some
 instances might be much costlier than wrong predictions on other instances. There are many ways to modify
@@ -4785,45 +4616,34 @@ proposed cost-sensitive learning in which the individual loss function is modifi
 varying cost.
  The method started by using a cost matrix to specify C : the cost if class i is classified as class j.
 If i = j, it’s a correct classification, and the cost is usually 0. If not, it’s a misclassification. If classifying
-39
-40
-41
-42
-43
-1
-2
-1
-2
-1
-2
-44
+
+
 ij
 
 
 POSITIVE examples as NEGATIVE is twice as costly as the other way around, you can make C  twice as
 high as C .
-For example, if you have two classes, POSITIVE and NEGATIVE, the cost matrix can look like that in Table 4-
-8.
+For example, if you have two classes, POSITIVE and NEGATIVE, the cost matrix can look like that in Table 48.
 T
 a
 b
-le 
-4
+le
+
 -
-8
-. 
+
+.
 E
 x
 a
 m
 p
-le 
+le
 o
-f 
-a 
+f
+a
 c
 o
-st 
+st
 m
 a
 tr
@@ -4843,12 +4663,6 @@ Class-balanced loss
 What might happen with a model trained on an imbalanced dataset is that it’ll bias toward majority classes and
 make wrong predictions on minority classes. What if we punish the model for making wrong predictions on
 minority classes to correct this bias?
-10
-01
-00
-10
-01
-11
 
 
 In its vanilla form, we can make the weight of each class inversely proportional to the number of samples in
@@ -4883,9 +4697,6 @@ models more robust to noise and even adversarial attacks.
 Data augmentation has become a standard step in many computer vision tasks and is finding its way into
 natural language processing (NLP) tasks. The techniques depend heavily on the data format, as image
 manipulation is different from text manipulation. In this section, we will cover three main types of data
-45
-46
-47
 
 
 augmentation: simple label-preserving transformations; perturbation, which is a term for “adding noises”; and
@@ -4902,22 +4713,20 @@ In NLP, you can randomly replace a word with a similar word, assuming that this 
 the meaning or the sentiment of the sentence, as shown in Table 4-9. Similar words can be found either with a
 dictionary of synonymous words or by finding words whose embeddings are close to each other in a word
 embedding space.
-48
-
 
 T
 a
 b
-le 
-4
+le
+
 -
-9
-. 
+
+.
 T
 h
 r
 e
-e 
+e
 s
 e
 n
@@ -4925,7 +4734,7 @@ te
 n
 c
 e
-s 
+s
 g
 e
 n
@@ -4933,19 +4742,19 @@ e
 r
 a
 te
-d 
+d
 fr
 o
-m 
+m
 a
-n 
+n
 o
 ri
 g
 i
 n
 a
-l 
+l
 s
 e
 n
@@ -4970,8 +4779,6 @@ the natural images in the Kaggle CIFAR-10 test dataset and 16.04% of the ImageNe
 misclassified by changing just one pixel (see Figure 4-12).
 Figure 4-12. Changing one pixel can cause a neural network to make wrong predictions. The three models used are AllConv, NiN, and VGG. The
 original labels made by those models are above the labels made after one pixel was changed. Source: Su et al.
-49
-50
 
 
 Using deceptive data to trick a neural network into making wrong predictions is called adversarial attacks.
@@ -5004,26 +4811,22 @@ restaurant within [NUMBER] miles of [LOCATION]” (see Table 4-10). With lists 
 reasonable numbers (you would probably never want to search for restaurants beyond 1,000 miles), and
 locations (home, office, landmarks, exact addresses) for each city, you can generate thousands of training
 queries from a template.
-51
-52
-53
-54
 
 
 T
 a
 b
-le 
-4
+le
+
 -
-1
-0
-. 
+
+
+.
 T
 h
 r
 e
-e 
+e
 s
 e
 n
@@ -5031,7 +4834,7 @@ te
 n
 c
 e
-s 
+s
 g
 e
 n
@@ -5039,11 +4842,11 @@ e
 r
 a
 te
-d 
+d
 fr
 o
-m 
-a 
+m
+a
 te
 m
 p
@@ -5102,12 +4905,6 @@ will cover in the next chapter.
 1  Some readers might argue that this approach might not work with large models, as certain large models don’t work for small datasets but
 work well with a lot more data. In this case, it’s still important to experiment with datasets of different sizes to figure out the effect of the
 dataset size on your model.
-1
-2
-1
-2
-55
-56
 
 
 2  James J. Heckman, “Sample Selection Bias as a Specification Error,” Econometrica 47, no. 1 (January 1979): 153–61, https://oreil.ly/I5AhM.
@@ -5238,8 +5035,6 @@ phonemes, syllables, letters, or words. For example, given the post “I like fo
 want n to be 1 and 2, is: [“I”, “like”, “food”, “I like”, “like food”].
 Figure 5-1 shows an example of classical text processing techniques you can use to handcraft n-gram features for
 your text.
-1
-
 
 Figure 5-1. An example of techniques that you can use to handcraft n-gram features for your text
 Once you’ve generated n-grams for your training data, you can create a vocabulary that maps each n-gram to an
@@ -5252,35 +5047,35 @@ the vector [1, 1, 0, 1, 1, 0, 1]. This vector can then be used as an input into 
 T
 a
 b
-le 
-5
+le
+
 -
-1
-. 
+
+.
 E
 x
 a
 m
 p
-le 
+le
 o
-f 
-a 
-1
+f
+a
+
 -
 g
 r
 a
-m 
+m
 a
 n
-d 
-2
+d
+
 -
 g
 r
 a
-m 
+m
 v
 o
 c
@@ -5298,13 +5093,8 @@ food
 I like
 good food
 like food
-0
-1
-2
-3
-4
-5
-6
+
+
 Feature engineering requires knowledge of domain-specific techniques—in this case, the domain is natural
 language processing (NLP) and the native language of the text. It tends to be an iterative process, which can be
 brittle. When I followed this method for one of my early NLP projects, I kept having to restart my process either
@@ -5349,30 +5139,28 @@ One of the first things you might notice when dealing with data in production is
 However, one thing that many ML engineers I’ve interviewed don’t know is that not all types of missing values are
 equal.  To illustrate this point, consider the task of predicting whether someone is going to buy a house in the next
 12 months. A portion of the data we have is in Table 5-2.
-2
-
 
 T
 a
 b
-le 
-5
+le
+
 -
-2
-. 
+
+.
 E
 x
 a
 m
 p
-le 
+le
 d
 a
 t
-a 
+a
 f
 o
-r 
+r
 p
 r
 e
@@ -5380,27 +5168,27 @@ d
 ic
 ti
 n
-g 
+g
 h
 o
 u
 s
-e 
+e
 b
 u
 yi
 n
-g 
+g
 i
-n 
+n
 t
 h
-e 
+e
 n
 e
-xt 
-1
-2 
+xt
+
+
 m
 o
 n
@@ -5414,56 +5202,56 @@ Age
 Gender
 Annual income
 Marital status
-Number of 
+Number of
 children
 Job
 Buy
-1
+
 A
 150,000
-1
+
 Engineer
 No
-2
-27
+
+
 B
 50,000
 Teacher
 No
-3
+
 A
 100,000
 Married
-2
+
 Yes
-4
-40
+
+
 B
-2
+
 Engineer
 Yes
-5
-35
+
+
 B
 Single
-0
+
 Doctor
 Yes
-6
+
 A
 50,000
-0
+
 Teacher
 No
-7
-33
+
+
 B
 60,000
 Single
 Teacher
 No
-8
-20
+
+
 B
 10,000
 Student
@@ -5579,8 +5367,6 @@ with an annual income of “9,000.50.”
 Intuitively, we know that $9,000.50 a year isn’t much different from $10,000/year, and we want our model to treat
 both of them the same way. But the model doesn’t know that. Our model only knows that 9,000.50 is different
 from 10,000, and it will treat them differently.
-5
-
 
 Discretization is the process of turning a continuous feature into a discrete feature. This process is also known as
 quantization or binning. This is done by creating buckets for the given values. For annual income, you might want
@@ -5622,8 +5408,6 @@ New brands join Amazon all the time. To address this, you create a category UNKN
 2,000,000 to catch all the brands your model hasn’t seen during training.
 Your model doesn’t crash anymore, but your sellers complain that their new brands are not getting any traffic. It’s
 because your model didn’t see the category UNKNOWN in the train set, so it just doesn’t recommend any product
-6
-
 
 of the UNKNOWN brand. You fix this by encoding only the top 99% most popular brands and encode the bottom
 1% brand as UNKNOWN. This way, at least your model knows how to deal with UNKNOWN brands.
@@ -5657,9 +5441,6 @@ properties that you want, such as a locality-sensitive hashing function where si
 with similar names) are hashed into values close to each other.
 Because it’s a trick, it’s often considered hacky by academics and excluded from ML curricula. But its wide
 adoption in the industry is a testimonial to how effective the trick is. It’s essential to Vowpal Wabbit and it’s part of
-7
-18
-8
 
 
 the frameworks of scikit-learn, TensorFlow, and gensim. It can be especially useful in continual learning settings
@@ -5675,37 +5456,37 @@ children” as in Table 5-3.
 T
 a
 b
-le 
-5
+le
+
 -
-3
-. 
+
+.
 E
 x
 a
 m
 p
-le 
+le
 o
-f 
+f
 h
 o
-w 
+w
 t
 w
-o 
+o
 fe
 a
 t
 u
 r
 e
-s 
+s
 c
 a
-n 
+n
 b
-e 
+e
 c
 o
 m
@@ -5713,20 +5494,20 @@ b
 i
 n
 e
-d 
+d
 t
-o 
+o
 c
 r
 e
 a
-te 
-a 
+te
+a
 n
 e
 
 
-w 
+w
 fe
 a
 t
@@ -5740,11 +5521,8 @@ Single
 Single
 Married
 Children
-0
-2
-1
-0
-1
+
+
 Marriage and children Single, 0
 Married, 2
 Single, 1
@@ -5754,8 +5532,7 @@ Because feature crossing helps model nonlinear relationships between variables, 
 learn or are bad at learning nonlinear relationships, such as linear regression, logistic regression, and tree-based
 models. It’s less important in neural networks, but it can still be useful because explicit feature crossing
 occasionally helps neural networks learn nonlinear relationships faster. DeepFM and xDeepFM are the family of
-models that have successfully leveraged explicit feature interactions for recommender systems and click-through-
-rate prediction.
+models that have successfully leveraged explicit feature interactions for recommender systems and click-throughrate prediction.
 A caveat of feature crossing is that it can make your feature space blow up. Imagine feature A has 100 possible
 values and feature B has 100 possible features; crossing these two features will result in a feature with 100 × 100 =
 10,000 possible values. You will need a lot more data for models to learn all these possible values. Another caveat
@@ -5784,9 +5561,6 @@ If we use a recurrent neural network, it will process words in sequential order,
 implicitly inputted. However, if we use a model like a transformer, words are processed in parallel, so words’
 positions need to be explicitly inputted so that our model knows the order of these words (“a dog bites a child” is
 very different from “a child bites a dog”). We don’t want to input the absolute positions, 0, 1, 2, …, 7, into our
-9
-10
-11
 
 
 model because empirically, neural networks don’t work well with inputs that aren’t unit-variance (that’s why we
@@ -5859,9 +5633,6 @@ some people were able to reverse engineer and obtain test labels from the leak.
  The two winning teams in
 this competition are the two teams that were able to exploit the leak, though they might have still been able to
 win without exploiting the leak.
-12
-13
-14
 
 
 Common Causes for Data Leakage
@@ -5944,8 +5715,6 @@ to feature engineering. It’s important to monitor for data leakage during the 
 Measure the predictive power of each feature or a set of features with respect to the target variable (label). If a
 feature has unusually high correlation, investigate how this feature is generated and whether the correlation makes
 sense. It’s possible that two features independently don’t contain leakage, but two features together can contain
-15
-16
 
 
 leakage. For example, when building a model to predict how long an employee will stay at a company, the starting
@@ -6009,10 +5778,6 @@ Often, a small number of features accounts for a large portion of your model’s
 measuring feature importance for a click-through rate prediction model, the ads team at Facebook found out that
 the top 10 features are responsible for about half of the model’s total feature importance, whereas the last 300
 features contribute less than 1% feature importance, as shown in Figure 5-10.
-17
-18
-19
-20
 
 
 Figure 5-10. Boosting feature importance. X-axis corresponds to the number of features. Feature importance is in log scale. Source: He et al.
@@ -6293,8 +6058,6 @@ false positives might increase the number of false negatives, and vice versa. In
 more dangerous than false negatives, such as fingerprint unlocking (unauthorized people shouldn’t be classified
 as authorized and given access), you might prefer a model that makes fewer false positives. Similarly, in a task
 where false negatives are more dangerous than false positives, such as COVID-19 screening (patients with
-1
-
 
 COVID-19 shouldn’t be classified as no COVID-19), you might prefer a model that makes fewer false
 negatives.
@@ -6353,73 +6116,71 @@ taking the majority vote of these three classifiers, we can get an accuracy of 7
 For each email, each classifier has a 70% chance of being correct. The ensemble will be correct if at least two
 classifiers are correct. Table 6-1 shows the probabilities of different possible outcomes of the ensemble given
 an email. This ensemble will have an accuracy of 0.343 + 0.441 = 0.784, or 78.4%.
-2
-
 
 T
 a
 b
-le 
-6
+le
+
 -
-1
-. 
+
+.
 P
 o
 s
 si
 b
-le 
+le
 o
 u
 tc
 o
 m
 e
-s 
+s
 o
-f 
+f
 t
 h
-e 
+e
 e
 n
 s
 e
 m
 b
-le 
+le
 t
 h
 a
-t 
+t
 t
 a
 k
 e
-s 
+s
 t
 h
-e 
+e
 m
 a
 j
 o
 ri
-ty 
+ty
 
 
 v
 o
-te 
+te
 fr
 o
-m 
+m
 t
 h
 r
 e
-e 
+e
 cl
 a
 s
@@ -6456,8 +6217,6 @@ Given a dataset, instead of training one classifier on the entire dataset, you s
 different datasets, called bootstraps, and train a classification or regression model on each of these bootstraps.
 Sampling with replacement ensures that each bootstrap is created independently from its peers. Figure 6-3
 shows an illustration of bagging.
-3
-4
 
 
 Figure 6-3. Bagging illustration. Source: Adapted from an image by Sirakorn
@@ -6475,8 +6234,6 @@ this ensemble is trained on the same set of samples, but the samples are weighte
 As a result, future weak learners focus more on the examples that previous weak learners misclassified.
 Figure 6-4 shows an illustration of boosting, which involves the steps that follow.
 Figure 6-4. Boosting illustration. Source: Adapted from an image by Sirakorn
-5
-
 
 1. You start by training the first weak classifier on the original dataset.
 2. Samples are reweighted based on how well the first classifier classifies them, e.g., misclassified samples
@@ -6504,8 +6261,6 @@ model.
 Figure 6-5. A visualization of a stacked ensemble from three base learners
 For more great advice on how to create an ensemble, refer to the awesome ensemble guide by one of Kaggle’s
 legendary teams, MLWave.
-6
-7
 
 
 Experiment Tracking and Versioning
@@ -6550,8 +6305,6 @@ most of them. But when something does happen, one or more of them might give you
 and/or debug your model. In general, tracking gives you observability into the state of your model.  However,
 in practice, due to the limitations of tooling today, it can be overwhelming to track too many things, and
 tracking less important things can distract you from tracking what is really important.
-8
-
 
 Experiment tracking enables comparison across experiments. By observing how a certain change in a
 component affects the model’s performance, you gain some understanding into what that component does.
@@ -6597,8 +6350,6 @@ The frameworks and hardware you use might introduce nondeterminism to your exper
  making it
 impossible to replicate the result of an experiment without knowing everything about the environment your
 experiment runs in.
-9
-10
 
 
 The way we have to run so many experiments right now to find the best possible model is the result of us
@@ -6694,16 +6445,13 @@ that train large language models (cue OpenAI, Google, NVIDIA, Cohere).
 When your data doesn’t fit into memory, your algorithms for preprocessing (e.g., zero-centering, normalizing,
 whitening), shuffling, and batching data will need to run out of core and in parallel.
  When a sample of your
-11
-12
 
 
 data is large, e.g., one machine can handle a few samples at a time, you might only be able to work with a small
 batch size, which leads to instability for gradient descent-based optimization.
 In some cases, a data sample is so large it can’t even fit into memory and you will have to use something like
 gradient checkpointing, a technique that leverages the memory footprint and compute trade-off to make your
-system do more computation with less memory. According to the authors of the open source package gradient-
-checkpointing, “For feed-forward models we were able to fit more than 10x larger models onto our GPU, at
+system do more computation with less memory. According to the authors of the open source package gradientcheckpointing, “For feed-forward models we were able to fit more than 10x larger models onto our GPU, at
 only a 20% increase in computation time.”
  Even when a sample fits into memory, using checkpointing can
 allow you to fit more samples into a batch, which might allow you to train your model faster.
@@ -6736,14 +6484,6 @@ takes 1M steps, training on 1,000 machines might take only 1,000 steps. An intui
 learning rate to account for more learning at each step, but we also can’t make the learning rate too big as it will
 lead to unstable convergence. In practice, increasing the batch size past a certain point yields diminishing
 returns.
-13
-14
-15
-16
-17
-18
-19
-20
 
 
 Last but not least, with the same model setup, the main worker sometimes uses a lot more resources than other
@@ -6769,13 +6509,9 @@ machine into multiple parts. When machine 1 finishes the first part of its compu
 machine 2, then continues to the second part, and so on. Machine 2 now can execute its computation on the first
 part while machine 1 executes its computation on the second part.
 To make this concrete, consider you have four different machines and the first, second, third, and fourth layers
-are on machine 1, 2, 3, and 4 respectively. With pipeline parallelism, each mini-batch is broken into four micro-
-batches. Machine 1 computes the first layer on the first micro-batch, then machine 2 computes the second layer
-on machine 1’s results while machine 1 computes the first layer on the second micro-batch, and so on. Figure 6-
-8 shows what pipeline parallelism looks like on four machines; each machine runs both the forward pass and
+are on machine 1, 2, 3, and 4 respectively. With pipeline parallelism, each mini-batch is broken into four microbatches. Machine 1 computes the first layer on the first micro-batch, then machine 2 computes the second layer
+on machine 1’s results while machine 1 computes the first layer on the second micro-batch, and so on. Figure 68 shows what pipeline parallelism looks like on four machines; each machine runs both the forward pass and
 the backward pass for one component of a neural network.
-21
-
 
 Figure 6-8. Pipeline parallelism for a neural network on four machines; each machine runs both the forward pass (F) and the backward pass (B) for
 one component of the neural network. Source: Adapted from an image by Huang et al.
@@ -6801,10 +6537,6 @@ representations—can be considered a hyperparameter to tune.
 With different sets of hyperparameters, the same model can give drastically different performances on the same
 dataset. Melis et al. showed in their 2018 paper “On the State of the Art of Evaluation in Neural Language
 Models” that weaker models with well-tuned hyperparameters can outperform stronger, fancier models. The
-22
-1
-2
-23
 
 
 goal of hyperparameter tuning is to find the optimal set of hyperparameters for a given model within a search
@@ -6851,12 +6583,6 @@ them, and so on).
 For NAS, the search space is discrete—the final architecture uses only one of the available options for each
 layer/operation,
  and you have to provide the set of building blocks. The common building blocks are various
-24
-25
-26
-27
-28
-29
 
 
 convolutions of different sizes, linear, various activations, pooling, identity, zero, etc. The set of building blocks
@@ -6891,9 +6617,6 @@ family of models produced by Google’s AutoML team, surpass state-of-the-art ac
 efficiency.
  Second, they might be able to solve many real-world tasks previously impossible with existing
 architectures and optimizers.
-30
-31
-32
 
 
 FOUR PHASES OF ML MODEL DEVELOPMENT
@@ -6926,9 +6649,6 @@ Phase 3. Optimizing simple models
 Once you have your ML framework in place, you can focus on optimizing the simple ML models with
 different objective functions, hyperparameter search, feature engineering, more data, and ensembles.
 Phase 4. Complex models
-33
-34
-35
 
 
 Once you’ve reached the limit of your simple models and your use case demands significant model
@@ -6972,11 +6692,6 @@ Evaluation metrics, by themselves, mean little. When evaluating your model, it�
 you’re evaluating it against. The exact baselines should vary from one use case to another, but here are the five
 baselines that might be useful across use cases:
 Random baseline
-36
-37
-38
-39
-40
 
 
 If our model just predicts at random, what’s the expected performance? The predictions are generated at
@@ -6991,16 +6706,16 @@ an intuition for these values, try to calculate these raw numbers in your head b
 T
 a
 b
-le 
-6
+le
+
 -
-2
-. 
+
+.
 F
-1 
+
 a
 n
-d 
+d
 a
 c
 c
@@ -7008,16 +6723,16 @@ u
 r
 a
 c
-y 
+y
 s
 c
 o
 r
 e
-s 
+s
 o
-f 
-a 
+f
+a
 b
 a
 s
@@ -7026,11 +6741,11 @@ i
 n
 
 
-e 
+e
 m
 o
 d
-el 
+el
 p
 r
 e
@@ -7038,9 +6753,9 @@ d
 ic
 ti
 n
-g 
+g
 a
-t 
+t
 r
 a
 n
@@ -7072,8 +6787,7 @@ the next app accurately 70% of the time, any model you build has to outperform i
 the added complexity.
 Human baseline
 In many cases, the goal of ML is to automate what would have been otherwise done by humans, so it’s
-useful to know how your model performs compared to human experts. For example, if you work on a self-
-driving system, it’s crucial to measure your system’s progress compared to human drivers, because
+useful to know how your model performs compared to human experts. For example, if you work on a selfdriving system, it’s crucial to measure your system’s progress compared to human drivers, because
 otherwise you might never be able to convince your users to trust this system. Even if your system isn’t
 meant to replace human experts and only to aid them in improving their productivity, it’s still important to
 know in what scenarios this system would be useful to humans.
@@ -7111,8 +6825,6 @@ development.
 noisy data.
 To get a sense of how well your model might perform with noisy data, you can make small changes to your test
 splits to see how these changes affect your model’s performance. For the task of predicting whether someone
-41
-
 
 has COVID-19 from their cough, you could randomly add some background noise or randomly clip the testing
 clips to simulate the variance in your users’ recordings. You might want to choose the model that works best on
@@ -7159,9 +6871,6 @@ Second, consider the task of building a model to predict how likely it is that a
 sake of simplicity, imagine that there are only two ads, ad A and ad B. Your model predicts that this user will
 click on ad A with a 10% probability and on ad B with an 8% probability. You don’t need your model to be
 calibrated to rank ad A above ad B. However, if you want to predict how many clicks your ads will get, you’ll
-42
-43
-44
 
 
 need your model to be calibrated. If your model predicts that a user will click on ad A with a 10% probability
@@ -7197,8 +6906,7 @@ sample-level metrics are crucial when you care about your system’s performance
 
 Slice-based evaluation
 Slicing means to separate your data into subsets and look at your model’s performance on each subset
-separately. A common mistake that I’ve seen in many companies is that they are focused too much on coarse-
-grained metrics like overall F1 or accuracy on the entire data and not enough on sliced-based metrics. This can
+separately. A common mistake that I’ve seen in many companies is that they are focused too much on coarsegrained metrics like overall F1 or accuracy on the entire data and not enough on sliced-based metrics. This can
 lead to two problems.
 One is that their model performs differently on different slices of data when the model should perform the
 same. For example, their data has two subgroups, one majority and one minority, and the majority subgroup
@@ -7210,23 +6918,22 @@ accuracy is 95%.
 These two models are compared in Table 6-3. Which model would you choose?
 
 
-  
 T
 a
 b
-le 
-6
+le
+
 -
-3
-. 
+
+.
 T
 w
-o 
+o
 m
 o
 d
 el
-s’ 
+s’
 p
 e
 rf
@@ -7236,27 +6943,27 @@ m
 a
 n
 c
-e 
+e
 o
-n 
+n
 t
 h
-e 
+e
 m
 a
 j
 o
 ri
-ty 
+ty
 a
 n
-d 
+d
 m
 i
 n
 o
 ri
-ty 
+ty
 s
 u
 b
@@ -7268,9 +6975,9 @@ o
 u
 p
 s
-  
+
 Majority accuracy Minority accuracy Overall accuracy
-  
+
 Model A
 98%
 80%
@@ -7279,7 +6986,7 @@ Model B
 95%
 95%
 95%
-  
+
 If a company focuses only on overall metrics, they might go with model A. They might be very happy with this
 model’s high accuracy until, one day, their end users discover that this model is biased against the minority
 subgroup because the minority subgroup happens to correspond to an underrepresented demographic group.
@@ -7300,27 +7007,25 @@ are combined. This means that model B can perform better than model A on all dat
 performs better than model B on each subgroup separately. Consider model A’s and model B’s performance on
 group A and group B as shown in Table 6-4. Model A outperforms model B for both group A and B, but when
 combined, model B outperforms model A.
-45
-
 
 T
 a
 b
-le 
-6
+le
+
 -
-4
-. 
+
+.
 A
-n 
+n
 e
 x
 a
 m
 p
-le 
+le
 o
-f 
+f
 S
 i
 m
@@ -7328,7 +7033,7 @@ p
 s
 o
 n
-’s 
+’s
 p
 a
 r
@@ -7347,8 +7052,8 @@ Model B
 87% (234/270)
 69% (55/80)
 83% (289/350)
-a  Numbers from Charig et al.’s kidney stone treatment study in 1986: C. R. Charig, D. R. Webb, S. R. Payne, and J. E. Wickham, 
-“Comparison of Treatment of Renal Calculi by Open Surgery, Percutaneous Nephrolithotomy, and Extracorporeal Shockwave 
+a  Numbers from Charig et al.’s kidney stone treatment study in 1986: C. R. Charig, D. R. Webb, S. R. Payne, and J. E. Wickham,
+“Comparison of Treatment of Renal Calculi by Open Surgery, Percutaneous Nephrolithotomy, and Extracorporeal Shockwave
 Lithotripsy,” British Medical Journal (Clinical Research Edition) 292, no. 6524 (March 1986): 879–82, https://oreil.ly/X8oWr.
 Simpson’s paradox is more common than you’d think. In 1973, Berkeley graduate statistics showed that the
 admission rate for men was much higher than for women, which caused people to suspect biases against
@@ -7356,18 +7061,15 @@ women. However, a closer look into individual departments showed that the admiss
 actually higher than those for men in four out of six departments,
  as shown in Table 6-5.
 a
-46
 
-
-    
 T
 a
 b
-le 
-6
+le
+
 -
-5
-. 
+
+.
 B
 e
 r
@@ -7375,30 +7077,28 @@ k
 el
 e
 y
-’s 
-1
-9
-7
-3 
+’s
+
+
 g
 r
 a
 d
 u
 a
-te 
+te
 a
 d
 m
 is
 si
 o
-n 
+n
 d
 a
 t
 a
-    
+
  
 All
 Men
@@ -7410,91 +7110,71 @@ Applicants
 Admitted
 Applicants
 Admitted
-    
+
         A
-      
-933
+
 64%
-        
-          825
-        
-      
+
 62%
-108
+
         82%
-      
+
 a
 
 
         B
-      
-585
+
 63%
-        
-          560
-        
-      
+
 63%
-25
-        68
+
+
         %
-      
+
         C
-      
-918
+
 35%
-325
-        37
+
+
         %
-      
-        
-          593
-        
-      
+
 34%
         D
-      
-792
+
 34%
-417
+
 33%
-375
-        35
+
+
         %
-      
+
         E
-      
-584
+
 25%
-191
-        28
+
+
         %
-      
-        
-          393
-        
-      
+
 24%
         F
-      
-714
+
 6%
-373
+
 6%
-341
-        7
+
+
         %
-      
+
           Total
-        
+
 12,763
 41%
 8,442
           44%
-        
+
 4,321
 35%
-  
+
 a  Data from Bickel et al. (1975)
 Regardless of whether you’ll actually encounter this paradox, the point here is that aggregation can conceal and
 contradict actual situations. To make informed decisions regarding what model to choose, we need to take into
@@ -7516,8 +7196,6 @@ browser type, and locations. Mobile users might behave very differently from des
 internet users in different geographic locations might have different expectations on what a website should
 look like.
 Error analysis
-47
-
 
 Manually go through misclassified examples and find patterns among them. We discovered our model’s
 problem with mobile users when we saw that most of the misclassified examples were from mobile users.
@@ -7562,8 +7240,7 @@ a model.
 help much. Whereas if a learning algorithm suffers from high variance, getting more training data is likely to help.
 
 
-2  I went through the winning solutions listed on Farid Rashidi’s “Kaggle Solutions” web page. One solution used 33 models (Giba, “1st Place-
-Winner Solution-Gilberto Titericz and Stanislav Semenov,” Kaggle, https://oreil.ly/z5od8).
+2  I went through the winning solutions listed on Farid Rashidi’s “Kaggle Solutions” web page. One solution used 33 models (Giba, “1st PlaceWinner Solution-Gilberto Titericz and Stanislav Semenov,” Kaggle, https://oreil.ly/z5od8).
 3  Mikel Galar, Alberto Fernandez, Edurne Barrenechea, Humberto Bustince, and Francisco Herrera, “A Review on Ensembles for the Class
 Imbalance Problem: Bagging-, Boosting-, and Hybrid-Based Approaches,” IEEE Transactions on Systems, Man, and Cybernetics, Part C
 (Applications and Reviews) 42, no. 4 (July 2012): 463–84, https://oreil.ly/ZBlgE; G. Rekha, Amit Kumar Tyagi, and V. Krishna Reddy,
@@ -7671,8 +7348,6 @@ will have to leave the development environment. Your model can be
 deployed to a staging environment for testing or to a production
 environment to be used by your end users. In this chapter, we focus on
 deploying models to production environments.
-1
-
 
 Before we move forward, I want to emphasize that production is a
 spectrum. For some teams, production means generating nice plots in
@@ -7687,7 +7362,7 @@ all you have to do is to wrap your predict function in a POST request
 endpoint using Flask or FastAPI, put the dependencies this predict function
 needs to run in a container,  and push your model and its associated
 container to a cloud service like AWS or GCP to expose the endpoint:
-# Example of how to use FastAPI to turn your predict function 
+# Example of how to use FastAPI to turn your predict function
 # into a POST endpoint
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -7706,8 +7381,6 @@ with a latency of milliseconds and 99% uptime, setting up the infrastructure
 so that the right person can be immediately notified when something goes
 wrong, figuring out what went wrong, and seamlessly deploying the
 updates to fix what’s wrong.
-2
-3
 
 
 In many companies, the responsibility of deploying models falls into the
@@ -7740,8 +7413,6 @@ should be done: on the device (also referred to as the edge) and the cloud.
 How a model serves and computes the predictions influences how it should
 be designed, the infrastructure it requires, and the behaviors that users
 encounter.
-4
-
 
 If you come from an academic background, some of the topics discussed in
 this chapter might be outside your comfort zone. If an unfamiliar term
@@ -7790,11 +7461,6 @@ changed is known as “software rot” or “bit rot.”
 ML systems aren’t immune to it. On top of that, ML systems suffer from
 what are known as data distribution shifts, when the data distribution your
 model encounters in production is different from the data distribution it was
-5
-6
-7
-8
-9
 
 
 trained on.
@@ -7828,10 +7494,6 @@ worry about it. There is only one Google, one Facebook, one Amazon.
 That’s true, but a small number of large companies employ the majority of
 the software engineering workforce. According to the Stack Overflow
 Developer Survey 2019, more than half of the respondents worked for a
-10
-11
-12
-13
 
 
 company of at least 100 employees (see Figure 7-3). This isn’t a perfect
@@ -7852,8 +7514,6 @@ surrounding batch and online prediction are still quite confusing due to the
 lack of standardized practices in the industry. I’ll do my best to explain the
 nuances of each term in this section. If you find any of the terms mentioned
 here too confusing, feel free to ignore them for now. If you forget
-14
-
 
 everything else, there are three main modes of prediction that I hope you’ll
 remember:
@@ -7912,8 +7572,7 @@ FEATURES
 I’ve heard the terms “streaming features” and “online features” used interchangeably.
 They are actually different. Online features are more general, as they refer to any feature
 used for online prediction, including batch features stored in memory.
-A very common type of batch feature used for online prediction, especially session-
-based recommendations, is item embeddings. Item embeddings are usually precomputed
+A very common type of batch feature used for online prediction, especially sessionbased recommendations, is item embeddings. Item embeddings are usually precomputed
 in batch and fetched whenever they are needed for online prediction. In this case,
 embeddings can be considered online features but not streaming features.
 Streaming features refer exclusively to features computed from streaming data.
@@ -7932,22 +7591,21 @@ Table 7-1 summarizes the key points to consider for online prediction and
 batch prediction.
 
 
-    
 T
 a
 b
-le 
-7
+le
+
 -
-1
-. 
+
+.
 S
 o
 m
-e 
+e
 k
 e
-y 
+y
 d
 if
 fe
@@ -7956,19 +7614,19 @@ e
 n
 c
 e
-s 
+s
 b
 et
 w
 e
 e
-n 
+n
 b
 a
 tc
 
 
-h 
+h
 p
 r
 e
@@ -7976,15 +7634,15 @@ d
 ic
 ti
 o
-n 
+n
 a
 n
-d 
+d
 o
 n
 li
 n
-e 
+e
 p
 r
 e
@@ -7993,28 +7651,28 @@ ic
 ti
 o
 n
-    
-Batch prediction 
+
+Batch prediction
 (asynchronous)
-Online prediction 
+Online prediction
 (synchronous)
-    
+
 Frequency
 Periodical, such as every four hours
 As soon as requests come
 Useful for
-Processing accumulated data when you 
-don’t need immediate results (such as 
+Processing accumulated data when you
+don’t need immediate results (such as
 recommender systems)
-When predictions are needed as soon 
-as a data sample is generated (such 
+When predictions are needed as soon
+as a data sample is generated (such
 as fraud detection)
 
 
 Optimized for
 High throughput
 Low latency
-    
+
 In many applications, online prediction and batch prediction are used side
 by side for different use cases. For example, food ordering apps like
 DoorDash and UberEats use batch prediction to generate restaurant
@@ -8044,8 +7702,6 @@ Google App Engine, and get back an exposed endpoint.
  Now, if you send
 a request that contains an input to that endpoint, it will send back a
 prediction generated on that input.
-15
-16
 
 
 A problem with online prediction is that your model might take too long to
@@ -8081,8 +7737,6 @@ recommending movies for users, you know in advance how many users to
 generate recommendations for.
  However, for cases when you have
 unpredictable queries—if you have a system to translate from English to
-17
-
 
 French, it might be impossible to anticipate every possible English text to
 be translated—you need to use online prediction to generate predictions as
@@ -8163,8 +7817,6 @@ unify their batch and stream processing pipelines by using a stream
 processor like Apache Flink.
  Some companies use feature stores to ensure
 the consistency between the batch features used during training and the
-18
-
 
 streaming features used in prediction. We’ll discuss feature stores in
 Chapter 10.
@@ -8186,12 +7838,10 @@ We’ll discuss inference optimization in the section “Model optimization”,
 and we’ll discuss the landscape for hardware backends being developed
 specifically for running ML models faster in the section “ML on the Cloud
 and on the Edge”. Here, we’ll discuss model compression.
-The number of research papers on model compression is growing. Off-the-
-shelf utilities are proliferating. As of April 2022, Awesome Open Source has
+The number of research papers on model compression is growing. Off-theshelf utilities are proliferating. As of April 2022, Awesome Open Source has
 a list of “The Top 168 Model Compression Open Source Projects”, and that
 list is growing. While there are many new techniques being developed, the
-four types of techniques that you might come across the most often are low-
-rank optimization, knowledge distillation, pruning, and quantization.
+four types of techniques that you might come across the most often are lowrank optimization, knowledge distillation, pruning, and quantization.
 Readers interested in a comprehensive review might want to check out
 Cheng et al.’s “Survey of Model Compression and Acceleration for Deep
 Neural Networks,” which was updated in 2020.19
@@ -8213,11 +7863,6 @@ C into a depthwise convolution (K × K × 1) and a pointwise convolution (1
 This means that each new convolution uses only K  + C instead of K C
 parameters. If K = 3, this means an eight to nine times reduction in the
 number of parameters (see Figure 7-9).
-20
-21
-2
-2
-22
 
 
 Figure 7-9. Compact convolutional filters in MobileNets. The standard convolutional filters in (a) are
@@ -8256,9 +7901,6 @@ Pruning was a method originally used for decision trees where you remove
 sections of a tree that are uncritical and redundant for classification.
  As
 neural networks gained wider adoption, people started to realize that neural
-23
-24
-25
 
 
 networks are over-parameterized and began to find ways to reduce the
@@ -8295,10 +7937,6 @@ Quantization reduces a model’s size by using fewer bits to represent its
 parameters. By default, most software packages use 32 bits to represent a
 float number (single precision floating point). If a model has 100M
 parameters and each requires 32 bits to store, it’ll take up 400 MB. If we
-26
-27
-28
-29
 
 
 use 16 bits to represent a number, we’ll reduce the memory footprint by
@@ -8335,9 +7973,6 @@ can use less memory for each parameter, which allows you to train larger
 models on the same hardware.
 Recently, low-precision training has become increasingly popular, with
 support from most modern training hardware. NVIDIA introduced Tensor
-30
-31
-32
 
 
 Cores, processing units that support mixed-precision training.
@@ -8352,9 +7987,6 @@ devices only support fixed-point inference. Most popular frameworks for
 on-device ML inference—Google’s TensorFlow Lite, Facebook’s PyTorch
 Mobile, NVIDIA’s TensorRT—offer post-training quantization for free with
 a few lines of code.
-33
-34
-35
 
 
 CASE STUDY
@@ -8375,8 +8007,6 @@ times and increases throughput 8 times.
 The results here seem very promising to improve latency; however, they
 should be taken with a grain of salt since there’s no mention of changes
 in output quality after each performance improvement.
-36
-
 
 ML on the Cloud and on the Edge
 Another decision you’ll want to consider is where your model’s
@@ -8412,9 +8042,6 @@ back. Edge computing allows your models to work in situations where there
 are no internet connections or where the connections are unreliable, such as
 in rural areas or developing countries. I’ve worked with several companies
 and organizations that have strict no-internet policies, which means that
-37
-38
-39
 
 
 whichever applications we wanted to sell them must not rely on internet
@@ -8424,8 +8051,7 @@ worry less about network latency. Requiring data transfer over the network
 (sending data to the model on the cloud to make predictions then sending
 predictions back to the users) might make some use cases impossible. In
 many cases, network latency is a bigger bottleneck than inference latency.
-For example, you might be able to reduce the inference latency of ResNet-
-50 from 30 ms to 20 ms, but the network latency can go up to seconds,
+For example, you might be able to reduce the inference latency of ResNet50 from 30 ms to 20 ms, but the network latency can go up to seconds,
 depending on where you are and what services you’re trying to use.
 Putting your models on the edge is also appealing when handling sensitive
 user data. ML on the cloud means that your systems might have to send
@@ -8449,8 +8075,6 @@ Because of the many benefits that edge computing has over cloud
 computing, companies are in a race to develop edge devices optimized for
 different ML use cases. Established companies including Google, Apple,
 and Tesla have all announced their plans to make their own chips.
-40
-
 
 Meanwhile, ML hardware startups have raised billions of dollars to develop
 better AI chips.
@@ -8470,13 +8094,10 @@ by the hardware vendor. For example, even though TPUs were released
 publicly in February 2018, it wasn’t until September 2020 that PyTorch was
 supported on TPUs. Before then, if you wanted to use a TPU, you’d have to
 use a framework that TPUs supported.
-Providing support for a framework on a hardware backend is time-
-consuming and engineering-intensive. Mapping from ML workloads to a
+Providing support for a framework on a hardware backend is timeconsuming and engineering-intensive. Mapping from ML workloads to a
 hardware backend requires understanding and taking advantage of that
 hardware’s design, and different hardware backends have different memory
 layouts and compute primitives, as shown in Figure 7-11.
-41
-42
 
 
 Figure 7-11. Different compute primitives and memory layouts for CPU, GPU, and TPU. Source:
@@ -8499,8 +8120,6 @@ platforms? Framework developers will no longer have to support every type
 of hardware; they will only need to translate their framework code into this
 middleman. Hardware vendors can then support one middleman instead of
 multiple frameworks.
-43
-44
 
 
 This type of “middleman” is called an intermediate representation (IR). IRs
@@ -8545,8 +8164,6 @@ However, when these models are deployed, they turn out to be too slow, so
 their companies hire optimization engineers to optimize their models for the
 hardware their models run on. An example of a job description for
 optimization engineers at Mythic follows:
-45
-
 
 This vision comes together in the AI Engineering team, where our
 expertise is used to develop AI algorithms and models that are optimized
@@ -8599,8 +8216,6 @@ Figure 7-13. An example of an operator fusion. Source: Adapted from an image by 
 Boehm
 To obtain a much bigger speedup, you’d need to leverage higher-level
 structures of your computation graph. For example, a convolution neural
-46
-47
 
 
 network with the computation graph can be fused vertically or horizontally
@@ -8641,8 +8256,6 @@ approximating the solutions to intractable problems is what ML is good at.
 What if we use ML to narrow down the search space so we don’t have to
 explore that many paths, and predict how long a path will take so that we
 don’t have to wait for the entire computation graph to finish executing?
-49
-
 
 To estimate how much time a path through a computation graph will take to
 run turns out to be difficult, as it requires making a lot of assumptions about
@@ -8683,16 +8296,13 @@ have a model ready for production and target hardware to run inference on.
 Figure 7-15. Speedup achieved by autoTVM over cuDNN for ResNet-50 on NVIDIA TITAN X. It
 takes ~70 trials for autoTVM to outperform cuDNN. Source: Chen et al.
 ML in Browsers
-We’ve been talking about how compilers can help us generate machine-
-native code run models on certain hardware backends. It is, however,
+We’ve been talking about how compilers can help us generate machinenative code run models on certain hardware backends. It is, however,
 possible to generate code that can run on just any hardware backends by
 running that code in browsers. If you can run your model in a browser, you
 can run your model on any device that supports browsers: MacBooks,
 Chromebooks, iPhones, Android phones, and more. You wouldn’t need to
 care what chips those devices use. If Apple decides to switch from Intel
 chips to ARM chips, it’s not your problem.
-50
-
 
 When talking about browsers, many people think of JavaScript. There are
 tools that can help you compile your models into JavaScript, such as
@@ -8725,9 +8335,6 @@ prediction with batch prediction, and ML on the edge with ML on the cloud.
 Each way has its own challenges. Online prediction makes your model
 more responsive to users’ changing preferences, but you have to worry
 about inference latency. Batch prediction is a workaround for when your
-51
-52
-53
 
 
 models take too long to generate predictions, but it makes your model less
@@ -8923,8 +8530,6 @@ allows some margin of error. However, if you keep entering different English sen
 getting back wrong translations, the second expectation is violated, which makes it a system failure.
 Operational expectation violations are easier to detect, as they’re usually accompanied by an operational breakage
 such as a timeout, a 404 error on a webpage, an out-of-memory error, or a segmentation fault. However, ML
-1
-
 
 performance expectation violations are harder to detect as doing so requires measuring and monitoring the
 performance of ML models in production. In the preceding example of the English-French machine translation
@@ -8968,10 +8573,6 @@ A reason for the prevalence of software system failures is that because ML adopt
 tooling around ML production is limited and best practices are not yet well developed or standardized. However,
 as toolings and best practices for ML production mature, there are reasons to believe that the proportion of
 software system failures will decrease and the proportion of ML-specific failures will increase.
-2
-3
-4
-5
 
 
 ML-Specific Failures
@@ -9021,10 +8622,6 @@ just change over time. They can also happen due to seasonal variations, such as 
 request rideshares in the winter when it’s cold and snowy than in the spring.
 Due to the complexity of ML systems and the poor practices in deploying them, a large percentage of what might
 look like data shifts on monitoring dashboards are caused by internal errors,  such as bugs in the data pipeline,
-6
-7
-8
-9
 
 
 missing values incorrectly inputted, inconsistencies between the features extracted during training and inference,
@@ -9038,8 +8635,7 @@ time, it might get into a catastrophic accident that can leave you permanently i
  Would you
 use that car?
 If you’re tempted to say no, you’re not alone. An ML model that performs well on most cases but fails on a small
-number of cases might not be usable if these failures cause catastrophic consequences. For this reason, major self-
-driving car companies are focusing on making their systems work on edge cases.
+number of cases might not be usable if these failures cause catastrophic consequences. For this reason, major selfdriving car companies are focusing on making their systems work on edge cases.
 Edge cases are the data samples so extreme that they cause the model to make catastrophic mistakes. Even though
 edge cases generally refer to data samples drawn from the same distribution, if there is a sudden increase in the
 number of data samples in which your model doesn’t perform well, it could be an indication that the underlying
@@ -9050,9 +8646,6 @@ But this is also true for any safety-critical application such as medical diagno
 It can also be true for non-safety-critical applications. Imagine a customer service chatbot that gives reasonable
 responses to most of the requests, but sometimes, it spits out outrageously racist or sexist content. This chatbot will
 be a brand risk for any company that wants to use it, thus rendering it unusable.
-10
-11
-12
 
 
 EDGE CASES AND OUTLIERS
@@ -9062,8 +8655,7 @@ discovered, which makes their definition contentious.
 In this book, outliers refer to data: an example that differs significantly from other examples. Edge cases refer
 to performance: an example where a model performs significantly worse than other examples. An outlier can
 cause a model to perform unusually poorly, which makes it an edge case. However, not all outliers are edge
-cases. For example, a person jaywalking on a highway is an outlier, but it’s not an edge case if your self-
-driving car can accurately detect that person and decide on a motion response appropriately.
+cases. For example, a person jaywalking on a highway is an outlier, but it’s not an edge case if your selfdriving car can accurately detect that person and decide on a motion response appropriately.
 During model development, outliers can negatively affect your model’s performance, as shown in Figure 8-1.
 In many cases, it might be beneficial to remove outliers as it helps your model to learn better decision
 boundaries and generalize better to unseen data. However, during inference, you don’t usually have the option
@@ -9093,13 +8685,10 @@ higher. After a while, A’s ranking became much higher than B’s.
  Degenerate feedback loops are one reason why
 popular movies, books, or songs keep getting more popular, which makes it hard for new items to break into
 popular lists. This type of scenario is incredibly common in production, and it’s heavily researched. It goes by
-13
-
 
 many different names, including “exposure bias,” “popularity bias,” “filter bubbles,” and sometimes “echo
 chambers.”
-Here’s another example to drive the danger of degenerative feedback loops home. Imagine building a resume-
-screening model to predict whether someone with a certain resume is qualified for the job. The model finds that
+Here’s another example to drive the danger of degenerative feedback loops home. Imagine building a resumescreening model to predict whether someone with a certain resume is qualified for the job. The model finds that
 feature X accurately predicts whether someone is qualified, so it recommends resumes with feature X. You can
 replace X with features like “went to Stanford,” “worked at Google,” or “identifies as male.” Recruiters only
 interview people whose resumes are recommended by the model, which means they only interview candidates
@@ -9118,8 +8707,7 @@ For the task of recommender systems, it’s possible to detect degenerate feedba
 popularity diversity of a system’s outputs even when the system is offline. An item’s popularity can be measured
 based on how many times it has been interacted with (e.g., seen, liked, bought, etc.) in the past. The popularity of
 all the items will likely follow a long-tail distribution: a small number of items are interacted with a lot, while most
-items are rarely interacted with at all. Various metrics such as aggregate diversity and average coverage of long-
-tail items proposed by Brynjolfsson et al. (2011), Fleder and Hosanagar (2009), and Abdollahpouri et al. (2019)
+items are rarely interacted with at all. Various metrics such as aggregate diversity and average coverage of longtail items proposed by Brynjolfsson et al. (2011), Fleder and Hosanagar (2009), and Abdollahpouri et al. (2019)
 can help you measure the diversity of the outputs of a recommender system.
  Low scores mean that the outputs of
 your system are homogeneous, which might be caused by popularity bias.
@@ -9147,11 +8735,6 @@ Randomization has been shown to improve diversity, but at the cost of user exper
 completely random items might cause users to lose interest in our product. An intelligent exploration strategy, such
 as those discussed in the section “Contextual bandits as an exploration strategy”, can help increase item diversity
 with acceptable prediction accuracy loss. Schnabel et al. use a small amount of randomization and causal inference
-14
-15
-16
-17
-18
 
 
 techniques to estimate the unbiased value of each song.
@@ -9169,23 +8752,21 @@ different from “positional embeddings” mentioned in Chapter 5.
 Here is a naive example to show how to use positional features. During training, you add “whether a song is
 recommended first” as a feature to your training data, as shown in Table 8-1. This feature allows your model to
 learn how much being a top recommendation influences how likely a song is clicked on.
-19
-
 
 T
 a
 b
-le 
-8
+le
+
 -
-1
-. 
+
+.
 A
 d
 d
 i
 n
-g 
+g
 p
 o
 si
@@ -9193,33 +8774,33 @@ ti
 o
 n
 a
-l 
+l
 fe
 a
 t
 u
 r
 e
-s 
+s
 t
-o 
+o
 y
 o
 u
-r 
+r
 tr
 a
 i
 n
 i
 n
-g 
+g
 d
 a
 t
-a 
+a
 t
-o 
+o
 m
 it
 i
@@ -9227,7 +8808,7 @@ g
 
 
 a
-te 
+te
 d
 e
 g
@@ -9236,14 +8817,14 @@ n
 e
 r
 a
-te 
+te
 fe
 e
 d
 b
 a
 c
-k 
+k
 l
 o
 o
@@ -9257,42 +8838,42 @@ Artist
 User
 1st Position
 Clic
-1
+
 Shallow
 Pop
-2020
+
 Lady Gaga
 listenr32
 False
 No
-2
+
 Good Vibe
 Funk
-2019
+
 Funk Overlord
 listenr32
 False
 No
-3
+
 Beat It
 Rock
-1989
+
 Michael Jackson
 fancypants
 False
 No
-4
+
 In Bloom
 Rock
-1991
+
 Nirvana
 fancypants
 True
 Yes
-5
+
 Shallow
 Pop
-2020
+
 Lady Gaga
 listenr32
 True
@@ -9357,9 +8938,6 @@ covariate. In supervised ML, the label is the variable of direct interest, and t
 variables.
 Mathematically, covariate shift is when P(X) changes, but P(Y|X) remains the same, which means that the
 distribution of the input changes, but the conditional probability of an output given an input remains the same.
-20
-21
-22
 
 
 To make this concrete, consider the task of detecting breast cancer. You know that the risk of breast cancer is
@@ -9410,11 +8988,6 @@ your test data, A and B have the same probability of being over 40. This means t
 over 40 given having breast cancer, is the same. So this is also a case of label shift.
 However, not all covariate shifts result in label shifts. It’s a subtle point, so we’ll consider another example.
 Imagine that there is now a preventive drug that every woman takes that helps reduce their chance of getting breast
-23
-24
-25
-26
-27
 
 
 cancer. The probability P(Y|X) reduces for women of all ages, so it’s no longer a case of covariate shift. However,
@@ -9424,8 +8997,7 @@ are similar to covariate shift adaptation methods. We’ll discuss them more lat
 Concept drift
 Concept drift, also known as posterior shift, is when the input distribution remains the same but the conditional
 distribution of the output given an input changes. You can think of this as “same input, different output.” Consider
-you’re in charge of a model that predicts the price of a house based on its features. Before COVID-19, a three-
-bedroom apartment in San Francisco could cost $2,000,000. However, at the beginning of COVID-19, many
+you’re in charge of a model that predicts the price of a house based on its features. Before COVID-19, a threebedroom apartment in San Francisco could cost $2,000,000. However, at the beginning of COVID-19, many
 people left San Francisco, so the same apartment would cost only $1,500,000. So even though the distribution of
 house features remains the same, the conditional distribution of the price of a house given its features has changed.
 In many cases, concept drifts are cyclic or seasonal. For example, rideshare prices will fluctuate on weekdays
@@ -9455,15 +9027,12 @@ However, your marketing department realized the most damaging tweets are the ang
 break the NEGATIVE class into two classes: SAD and ANGRY. Instead of having three classes, your task now has
 four classes. When the number of classes changes, your model’s structure might change,
  and you might need to
-both relabel your data and retrain your model from scratch. Label schema change is especially common with high-
-cardinality tasks—tasks with a high number of classes—such as product or documentation categorization.
+both relabel your data and retrain your model from scratch. Label schema change is especially common with highcardinality tasks—tasks with a high number of classes—such as product or documentation categorization.
 There’s no rule that says that only one type of shift should happen at one time. A model might suffer from multiple
 types of drift, which makes handling them a lot more difficult.
 Detecting Data Distribution Shifts
 Data distribution shifts are only a problem if they cause your model’s performance to degrade. So the first idea
 might be to monitor your model’s accuracy-related metrics—accuracy, F1 score, recall, AUC-ROC, etc.—in
-28
-29
 
 
 production to see whether they have changed. “Change” here usually means “decrease,” but if my model’s
@@ -9518,12 +9087,6 @@ estimation method.
  There is also MMD, Maximum Mean Discrepancy (Gretton et al. 2012), a kernel-based
 technique for multivariate two-sample testing and its variant Learned Kernel MMD (Liu et al. 2020). MMD is
 popular in research, but as of writing this book, I’m not aware of any company that is using it in the industry. Alibi
-30
-31
-32
-33
-34
-35
 
 
 Detect is a great open source package with the implementations of many drift detection algorithms, as shown in
@@ -9545,9 +9108,6 @@ Figure 8-3. If we use data from day 9 to day 14 as the source distribution, the
 if we use data from day 1 to day 14 as the source distribution, then all data points from day 15 are likely being
 generated by that same distribution. As illustrated by this example, detecting temporal shifts is hard when shifts are
 confounded by seasonal variation.
-36
-37
-38
 
 
 Figure 8-3. Whether a distribution has drifted over time depends on the time scale window specified
@@ -9558,10 +9118,8 @@ is reset, whereas the cumulative sliding accuracy is not. Because cumulative sta
 previous time windows, they might obscure what happens in a specific time window. Figure 8-4 shows an example
 of how cumulative accuracy can hide the sudden dip in accuracy between hours 16 and 18.
 Figure 8-4. Cumulative accuracy hides the sudden dip in accuracy between hours 16 and 18. Source: Adapted from an image by MadeWithML
-Working with data in the temporal space makes things so much more complicated, requiring knowledge of time-
-series analysis techniques such as time-series decompositions that are beyond the scope of this book. For readers
-interested in time-series decomposition, Lyft engineering has a great case study on how they decompose their time-
-series data to deal with the seasonality of the market.
+Working with data in the temporal space makes things so much more complicated, requiring knowledge of timeseries analysis techniques such as time-series decompositions that are beyond the scope of this book. For readers
+interested in time-series decomposition, Lyft engineering has a great case study on how they decompose their timeseries data to deal with the seasonality of the market.
 As of today, many companies use the distribution of the training data as the base distribution and monitor the
 production data distribution at a certain granularity level, such as hourly and daily.
  The shorter your time scale
@@ -9573,8 +9131,6 @@ windows. For example, you can compute the data statistics you care about hourly,
 statistics chunks into daily views.
 More advanced monitoring platforms even attempt a root cause analysis (RCA) feature that automatically analyzes
 statistics across various time window sizes to detect exactly the time window where a change in data happened.
-39
-40
 
 
 Addressing Data Distribution Shifts
@@ -9626,11 +9182,6 @@ to use that app’s ranking in the app store as a feature since higher-ranking a
 However, app ranking changes very quickly. You might want to instead bucket each app’s ranking into general
 categories such as top 10, between 11 and 100, between 101 and 1,000, between 1,001 and 10,000, and so on. At
 the same time, an app’s categories might change a lot less frequently, but they might have less power to predict
-41
-42
-43
-44
-45
 
 
 whether a user will download that app. When choosing features for your models, you might want to consider the
@@ -9679,8 +9230,6 @@ month!
 However, for ML systems, the system health extends beyond the system uptime. If your ML system is up but its
 predictions are garbage, your users aren’t going to be happy. Another class of metrics you’d want to monitor are
 ML-specific metrics that tell you the health of your ML models.
-46
-
 
 ML-Specific Metrics
 Within ML-specific metrics, there are generally four artifacts to monitor: a model’s accuracy-related metrics,
@@ -9717,8 +9266,6 @@ predictions are easy to visualize, and their summary statistics are straightforw
 You can monitor predictions for distribution shifts. Because predictions are low dimensional, it’s also easier to
 compute two-sample tests to detect whether the prediction distribution has shifted. Prediction distribution shifts are
 also a proxy for input distribution shifts. Assuming that the function that maps from input to output doesn’t change
-47
-
 
 —the weights and biases of your model haven’t changed—then a change in the prediction distribution generally
 indicates a change in the underlying input distribution.
@@ -9796,8 +9343,6 @@ Measuring, tracking, and interpreting metrics for complex systems is a nontrivia
 of tools to help them do so. It’s common for the industry to herald metrics, logs, and traces as the three pillars of
 monitoring. However, I find their differentiations murky. They seem to be generated from the perspective of
 people who develop monitoring systems: traces are a form of logs and metrics can be computed from logs. In this
-48
-
 
 section, I’d like to focus on the set of tools from the perspective of users of the monitoring systems: logs,
 dashboards, and alerts.
@@ -9846,11 +9391,6 @@ Dashboards
 A picture is worth a thousand words. A series of numbers might mean nothing to you, but visualizing them on a
 graph might reveal the relationships among these numbers. Dashboards to visualize metrics are critical for
 monitoring.
-49
-50
-51
-52
-53
 
 
 Another use of dashboards is to make monitoring accessible to nonengineers. Monitoring isn’t just for the
@@ -9927,8 +9467,6 @@ what subgroups of users or over what period of time the model degrades. For exam
 your logs for the answers to questions like: “show me all the users for which model A returned wrong predictions
 over the last hour, grouped by their zip codes” or “show me the outliers requests in the last 10 minutes” or “show
 me all the intermediate outputs of this input through the system.” To achieve this, you need to have logged your
-54
-
 
 system’s outputs using tags and other identifying keywords to allow these outputs to later be sliced and diced along
 different dimensions of your data.
@@ -9973,8 +9511,6 @@ shows signs of drift, and, if there’s drift, whether it’s caused by an under
 in the pipeline. An understanding of statistics might be required to make sense of the numbers and graphs.
 Detecting model performance’s degradation in production is the first step. The next step is how to adapt our
 systems to changing environments, which we’ll discuss in the next chapter.
-55
-
 
 1  This seems to be a fairly common pattern for inventory prediction. Eugene Yan wrote about a similar story to illustrate the problem of degenerate
 feedback loops in his article “6 Little-Known Challenges After Deploying Machine Learning” (2021).
@@ -10140,8 +9676,6 @@ the updated replica proves to be better. The existing model is called the
 champion model, and the updated replica, the challenger. This process is
 shown in Figure 9-1. This is an oversimplification of the process for the
 sake of understanding. In reality, a company might have multiple
-1
-
 
 challengers at the same time, and handling the failed challenger is a lot
 more sophisticated than simply discarding it.
@@ -10168,8 +9702,7 @@ Figure 9-2. Stateless retraining versus stateful training
 Stateful training allows you to update your model with less data. Training a
 model from scratch tends to require a lot more data than fine-tuning the
 same model. For example, if you retrain your model from scratch, you
-might need to use all data from the last three months. However, if you fine-
-tune your model from yesterday’s checkpoint, you only need to use data
+might need to use all data from the last three months. However, if you finetune your model from yesterday’s checkpoint, you only need to use data
 from the last day.
 Grubhub found out that stateful training allows their models to converge
 faster and require much less compute power. Going from daily stateless
@@ -10179,17 +9712,13 @@ One beautiful property that is often overlooked is that with stateful training,
 it might be possible to avoid storing data altogether. In the traditional
 stateless retraining, a data sample might be reused during multiple training
 iterations of a model, which means that data needs to be stored. This isn’t
-2
-3
 
 
 always possible, especially for data with strict privacy requirements. In the
 stateful training paradigm, each model update is trained using only the fresh
-data, so a data sample is used only once for training, as shown in Figure 9-
-2. This means that it’s possible to train your model without having to store
+data, so a data sample is used only once for training, as shown in Figure 92. This means that it’s possible to train your model without having to store
 data in permanent storage, which helps eliminate many concerns about data
-privacy. However, this is overlooked because today’s let’s-keep-track-of-
-everything practice still makes many companies reluctant to throw away
+privacy. However, this is overlooked because today’s let’s-keep-track-ofeverything practice still makes many companies reluctant to throw away
 data.
 Stateful training doesn’t mean no training from scratch. The companies that
 have most successfully used stateful training also occasionally train their
@@ -10213,8 +9742,6 @@ Model iteration
 A new feature is added to an existing model architecture or the model
 architecture is changed.
 Data iteration
-4
-
 
 The model architecture and features remain the same, but you refresh
 this model with new data.
@@ -10225,11 +9752,8 @@ that it might be possible to bypass training from scratch for model iteration
 by using techniques such as knowledge transfer (Google, 2015) and model
 surgery (OpenAI, 2019). According to OpenAI, “Surgery transfers trained
 weights from one network to another after a selection process to determine
-which sections of the model are unchanged and which must be re-
-initialized.”  Several large research labs have experimented with this;
+which sections of the model are unchanged and which must be reinitialized.”  Several large research labs have experimented with this;
 however, I’m not aware of any clear results in the industry.
-5
-
 
 TERMINOLOGY AMBIGUITY
 I use the term “continual learning” instead of “online learning” because
@@ -10242,8 +9766,7 @@ continual learning is a generalization of online learning.
 I also use the term “continual learning” instead of “continuous
 learning.” Continuous learning refers to the regime in which your
 model continuously learns with each incoming sample, whereas with
-continual learning, the learning is done in a series of batches or micro-
-batches.
+continual learning, the learning is done in a series of batches or microbatches.
 Continuous learning is sometimes used to refer to continuous delivery
 of ML, which is closely related to continual learning as both help
 companies to speed up the iteration cycle of their ML models. However,
@@ -10295,10 +9818,6 @@ most popular movies on your site right now.
 Continuous cold start is a generalization of the cold start problem,  as it can
 happen not just with new users but also with existing users. For example, it
 can happen because an existing user switches from a laptop to a mobile
-6
-7
-8
-9
 
 
 phone, and their behavior on a phone is different from their behavior on a
@@ -10333,8 +9852,6 @@ as batch learning, there’s no reason not to do continual learning. As of
 writing this book, there are still a lot of challenges in setting up continual
 learning, as we’ll go deeper into in the following section. However, MLOps
 tooling for continual learning is maturing, which means, one day not too far
-10
-11
 
 
 in the future, it might be as easy to set up continual learning as batch
@@ -10361,8 +9878,6 @@ Being able to pull fresh data isn’t enough. If your model needs labeled data
 to update, as most models today do, this data will need to be labeled as
 well. In many applications, the speed at which a model can be updated is
 bottlenecked by the speed at which data is labeled.
-12
-
 
 The best candidates for continual learning are tasks where you can get
 natural labels with short feedback loops. Examples of these tasks are
@@ -10424,9 +9939,6 @@ online from real-world data, it makes it easier for users to input malicious
 data to trick models into learning wrong things. In 2016, Microsoft released
 Tay, a chatbot capable of learning through “casual and playful
 conversation” on Twitter. As soon as Tay launched, trolls started tweeting
-14
-15
-16
 
 
 the bot racist and misogynist remarks. The bot soon began to post
@@ -10462,9 +9974,6 @@ reduction technique.
 You can update the neural network model with a data batch of any size. You
 can even perform the update step with just one data sample. However, if
 you want to update the collaborative filtering model, you first need to use
-17
-18
-19
 
 
 the entire dataset to build the user-item matrix before performing
@@ -10502,9 +10011,6 @@ today offer some capacity for computing running statistics—for example,
 sklearn’s StandardScaler has a partial_fit that allows a feature scaler
 to be used with running statistics—but the built-in methods are slow and
 don’t support a wide range of running statistics.
-20
-21
-22
 
 
 Four Stages of Continual Learning
@@ -10569,8 +10075,6 @@ embeddings for all products, and another model to rank the relevance of
 each product given a query. The embedding model might need to be
 retrained a lot less frequently than the ranking model. Because products’
 characteristics don’t change that often, you might be able to get away with
-23
-
 
 retraining your embeddings once a week,
  whereas your ranking models
@@ -10601,8 +10105,6 @@ cover in the section “Cron, Schedulers, and Orchestrators”. If you don’t
 already have a scheduler, you’ll need time to set up one. However, if you
 already have a scheduler such as Airflow or Argo, wiring the scripts
 together shouldn’t be that hard.
-24
-
 
 The second factor is the availability and accessibility of your data. Do you
 need to gather data yourself into your data warehouse? Will you have to
@@ -10741,8 +10243,7 @@ Figure 9-5. To get a sense of the performance gain you can get from fresher data
 on data from different time windows in the past and test on data from today to see how the
 performance changes
 This is a simple example to illustrate how the data freshness experiment
-works. In practice, you might want your experiments to be much more fine-
-grained, operating not in months but in weeks, days, even hours or minutes.
+works. In practice, you might want your experiments to be much more finegrained, operating not in months but in weeks, days, even hours or minutes.
 In 2014, Facebook did a similar experiment for ad click-through-rate
 prediction and found out that they could reduce the model’s loss by 1% by
 going from retraining weekly to retraining daily, and this performance gain
@@ -10754,8 +10255,6 @@ that the value of data freshness for ad click-through rate is even higher.
 Some of the companies with sophisticated ML infrastructure have found
 enough performance gain to switch their retraining pipeline to every few
 minutes.
-25
-26
 
 
 Model iteration versus data iteration
@@ -10886,8 +10385,6 @@ or whether “being on a phone” influences the prediction quality.
 Second, your A/B test should be run on a sufficient number of samples to
 gain enough confidence about the outcome. How to calculate the number of
 samples needed for an A/B test is a simple question with a very complicated
-27
-
 
 answer, and I’d recommend readers reference a book on A/B testing to learn
 more.
@@ -10902,8 +10399,7 @@ if a statistical difference suggests that the two populations come from
 different distributions, this means that the original distribution has shifted.
 In the A/B testing use case, statistical differences mean that we’ve gathered
 sufficient evidence to show that one variant is better than the other variant.
-Statistical significance, while useful, isn’t foolproof. Say we run a two-
-sample test and get the result that model A is better than model B with the
+Statistical significance, while useful, isn’t foolproof. Say we run a twosample test and get the result that model A is better than model B with the
 p-value of p = 0.05 or 5%, and we define statistical significance as p ≤ 0.5.
 This means that if we run the same A/B testing experiment multiple times,
 (100 – 5 =) 95% of the time, we’ll get the result that A is better than B, and
@@ -10952,8 +10448,6 @@ less critical market before rolling out to everybody.
 For readers interested in how canary release works in the industry, Netflix
 and Google have a great shared blog post on how automated canary
 analysis is used at their companies.
-28
-
 
 Interleaving Experiments
 Imagine you have two recommender systems, A and B, and you want to
@@ -10975,8 +10469,6 @@ between the two groups. In interleaving, the two algorithms can be
 compared by measuring user preferences. Because interleaving can be
 decided by user preferences, there’s no guarantee that user preference will
 lead to better core metrics.
-29
-30
 
 
 Figure 9-6. An illustration of interleaving versus A/B testing. Source: Adapted from an image by
@@ -10993,8 +10485,6 @@ select A or B with equal probability, and the chosen model picks the top
 recommendation that hasn’t already been picked.
  A visualization of how
 this team-drafting method works is shown in Figure 9-7.
-31
-
 
 Figure 9-7. Interleaving video recommendations from two ranking algorithms using team draft.
 Source: Parks et al.
@@ -11009,8 +10499,6 @@ bandits are algorithms that allow you to balance between exploitation
 exploration (choosing other slot machines that may pay off even more).
 As of today, the standard method for testing models in production is A/B
 testing. With A/B testing, you randomly route traffic to each model for
-32
-
 
 predictions and measure at the end of your trial which model works better.
 A/B testing is stateless: you can route traffic to each model without having
@@ -11075,9 +10563,6 @@ If bandits for model evaluation are to determine the payout (i.e., prediction
 accuracy) of each model, contextual bandits are to determine the payout of
 each action. In the case of recommendations/ads, an action is an item/ad to
 show to users, and the payout is how likely it is a user will click on it.
-33
-34
-35
 
 
 Contextual bandits, like other bandits, are an amazing technique to improve
@@ -11099,8 +10584,7 @@ point. When an item has 0 value points, it could either be because the item
 has never been shown to a user, or because it’s been shown but not clicked
 on. You want to show users the items with the highest value to them, but if
 you keep showing users only the items with the most value points, you’ll
-keep on recommending the same popular items, and the never-before-
-shown items will keep having 0 value points.
+keep on recommending the same popular items, and the never-beforeshown items will keep having 0 value points.
 Contextual bandits are algorithms that help you balance between showing
 users the items they will like and showing the items that you want feedback
 on.
@@ -11112,8 +10596,6 @@ learning, you might need to take a series of actions before seeing the
 rewards. In contextual bandits, you can get bandit feedback right away after
 an action—e.g., after recommending an ad, you get feedback on whether a
 user has clicked on that recommendation.
-36
-37
 
 
 Contextual bandits are well researched and have been shown to improve
@@ -11160,8 +10642,7 @@ infrastructure for continual learning: from the manual, training from scratch
 stage to automated, stateless continual learning.
 We then examined the question that haunts ML engineers at companies of
 all shapes and sizes, “How often should I update my models?” by urging
-them to consider the value of data freshness to their models and the trade-
-offs between model iteration and data iteration.
+them to consider the value of data freshness to their models and the tradeoffs between model iteration and data iteration.
 Similar to online prediction discussed in Chapter 7, continual learning
 requires a mature streaming infrastructure. The training part of continual
 learning can be done in batch, but the online evaluation part requires
@@ -11336,12 +10817,6 @@ Companies in the middle of the spectrum will likely benefit from
 generalized ML infrastructure that is being increasingly standardized (see
 Figure 10-1). In this book, we’ll focus on the infrastructure for the vast
 majority of ML applications at a reasonable scale.
-1
-2
-3
-4
-5
-6
 
 
 Figure 10-1. Infrastructure requirements for companies at different production scales
@@ -11363,8 +10838,6 @@ Resource management comprises tools to schedule and orchestrate your
 workloads to make the most out of your available compute resources.
 Examples of tools in this category include Airflow, Kubeflow, and
 Metaflow.
-7
-
 
 ML platform
 This provides tools to aid the development of ML applications such as
@@ -11416,8 +10889,6 @@ we’ll focus on the compute layer.
 The compute layer refers to all the compute resources a company has access
 to and the mechanism to determine how these resources can be used. The
 amount of compute resources available determines the scalability of your
-8
-9
 
 
 workloads. You can think of the compute layer as the engine to execute
@@ -11429,8 +10900,7 @@ The compute layer can usually be sliced into smaller compute units to be
 used concurrently. For example, a CPU core might support two concurrent
 threads; each thread is used as a compute unit to execute its own job. Or
 multiple CPU cores might be joined together to form a larger compute unit
-to execute a larger job. A compute unit can be created for a specific short-
-lived job such as an AWS Step Function or a GCP Cloud Run—the unit will
+to execute a larger job. A compute unit can be created for a specific shortlived job such as an AWS Step Function or a GCP Cloud Run—the unit will
 be eliminated after the job finishes. A compute unit can also be created to be
 more “permanent,” aka without being tied to a job, like a virtual machine. A
 more permanent compute unit is sometimes called an “instance.”
@@ -11489,10 +10959,6 @@ is a popular benchmark for hardware vendors to measure their hardware
 performance by showing how long it will take their hardware to train a
 ResNet-50 model on the ImageNet dataset or use a BERT-large model to
 generate predictions for the SQuAD dataset.
-10
-11
-12
-13
 
 
 Because thinking about FLOPS is not very useful, to make things easier,
@@ -11520,8 +10986,6 @@ compute, you only need to pay for 1,000 CPU cores one day of the year and
 compute or shut down instances as needed—most cloud providers even do
 that automatically for you—reducing engineering operational overhead.
 This is especially useful in ML as data science workloads are bursty. Data
-14
-
 
 scientists tend to run experiments a lot for a few weeks during development,
 which requires a surge of compute power. Later on, during production, the
@@ -11542,9 +11006,6 @@ in 2020, “enterprise spending on cloud infrastructure services [grew] by
 35% to reach almost $130 billion” while “enterprise spending on data
 [centers] dropped by 6% to under $90 billion,”
  as shown in Figure 10-4.
-15
-16
-17
 
 
 Figure 10-4. In 2020, enterprise spending on cloud infrastructure services grew by 35% while
@@ -11565,8 +11026,6 @@ workloads from public cloud to their own data centers. Is the high cost of
 cloud unique to Dropbox because Dropbox is in the data storage business?
 Not quite. In the aforementioned analysis, a16z estimated that “across 50 of
 the top public software companies currently utilizing cloud infrastructure,
-18
-
 
 an estimated $100B of market value is being lost among them due to cloud
 impact on margins—relative to running the infrastructure themselves.”
@@ -11575,8 +11034,6 @@ hard. Cloud repatriation requires nontrivial up-front investment in both
 commodities and engineering effort. More and more companies are
 following a hybrid approach: keeping most of their workloads on the cloud
 but slowly increasing their investment in data centers.
-19
-
 
 ON MULTICLOUD STRATEGY
 Another way for companies to reduce their dependence on any single
@@ -11609,8 +11066,6 @@ Development Environment
 The dev environment is where ML engineers write code, run experiments,
 and interact with the production environment where champion models are
 deployed and challenger models evaluated. The dev environment consists of
-20
-21
 
 
 the following components: IDE (integrated development environment),
@@ -11644,8 +11099,6 @@ them. Claypot AI is working on a platform that can help you version and
 track all your ML workflows in one place. Versioning is important for any
 software engineering projects, but even more so for ML projects because of
 both the sheer number of things you can change (code, parameters, the data
-22
-
 
 itself, etc.) and the need to keep track of prior runs to reproduce later on.
 We’ve covered this in the section “Experiment Tracking and Versioning”.
@@ -11676,8 +11129,6 @@ a long time to load. With notebooks, you only need to load your data once
 each time you want to run your code. As shown in Figure 10-5, if your code
 fails at step 4 in a notebook, you’ll only need to rerun step 4 instead of from
 the beginning of your program.
-23
-
 
 Figure 10-5. In Jupyter Notebooks, if step 4 fails, you only need to run step 4 again, instead of having
 to run steps 1 to 4 again
@@ -11707,8 +11158,6 @@ metrics from a collection of notebooks.
 Commuter
 A notebook hub for viewing, finding, and sharing notebooks within an
 organization.
-24
-
 
 Another interesting project aimed at improving the notebook experience is
 nbdev, a library on top of Jupyter Notebooks that encourages you to write
@@ -11743,8 +11192,6 @@ discovered that it was a concurrency issue that is only an issue for Python
 version 3.8 or earlier. I had Python 3.8 and my coworker had Python 3.9, so
 he didn’t see the bug. We resolved to have everyone on the same Python
 version, and that removed some more headaches.
-25
-
 
 Then one day, my coworker got a new laptop. It was a MacBook with the
 then new M1 chip. He tried to follow our setup steps on this new laptop but
@@ -11779,8 +11226,6 @@ but an AWS EC2 or a GCP instance that you can SSH into is also a good
 option. Before moving to cloud environments, like many other companies,
 we were worried about the cost—what if we forgot to shut down our
 instances when not in use and they kept charging us money? However, this
-26
-
 
 worry has gone away for two reasons. First, tools like GitHub Codespaces
 automatically shut down your instance after 30 minutes of inactivity.
@@ -11883,7 +11328,7 @@ RUN cd apex && \
 
 
 WORKDIR /fancy-nlp-project
-RUN git clone https://github.com/huggingface/transformers.git && 
+RUN git clone https://github.com/huggingface/transformers.git &&
 \
     cd transformers && \
     python3 -m pip install --no-cache-dir.
@@ -11946,8 +11391,6 @@ Often, if a problem can be solved by either using more non-human
 resources (e.g., throwing more compute at it) or using more human
 resources (e.g., requiring more engineering time to redesign), the first
 solution might be preferred.
-27
-
 
 In this section, we’ll discuss how to manage resources for ML workflows.
 We’ll focus on cloud-based resources; however, the discussed ideas can also
@@ -11959,8 +11402,7 @@ In this book, we’ve discussed at length how developing ML systems is an
 iterative process. Similarly, ML workloads are rarely one-time operations
 but something repetitive. For example, you might train a model every week
 or generate a new batch of predictions every four hours. These repetitive
-processes can be scheduled and orchestrated to run smoothly and cost-
-effectively using available resources.
+processes can be scheduled and orchestrated to run smoothly and costeffectively using available resources.
 Scheduling repetitive jobs to run at fixed times is exactly what cron does.
 This is also all that cron does: run a script at a predetermined time and tell
 you whether the job succeeds or fails. It doesn’t care about the
@@ -11980,8 +11422,7 @@ call conditional dependency: the action for this step depends on the
 
 
 outcome of the previous step. The order of execution and dependencies
-among these steps can be represented using a graph, as shown in Figure 10-
-7.
+among these steps can be represented using a graph, as shown in Figure 107.
 Figure 10-7. A graph that shows the order of execution of a simple ML workflow, which is essentially
 a DAG (directed acyclic graph)
 Many readers might recognize that Figure 10-7 is a DAG: directed acyclic
@@ -12013,7 +11454,7 @@ executed, and the amount of memory and CPUs to be allocated for the job:
 #!/bin/bash
 #SBATCH -J JobName
 #SBATCH --time=11:00:00       # When to start the job
-#SBATCH --mem-per-cpu=4096   # Memory, in MB, to be allocated per 
+#SBATCH --mem-per-cpu=4096   # Memory, in MB, to be allocated per
 CPU
 #SBATCH --cpus-per-task=4          # Number of cores per task
 Schedulers should also optimize for resource utilization since they have
@@ -12032,8 +11473,6 @@ workflows. If your scheduler is down, every single workflow that this
 scheduler touches will be interrupted.
 If schedulers are concerned with when to run jobs and what resources are
 needed to run those jobs, orchestrators are concerned with where to get
-28
-
 
 those resources. Schedulers deal with job-type abstractions such as DAGs,
 priority queues, user-level quotas (i.e., the maximum number of instances a
@@ -12100,9 +11539,9 @@ Airflow workflow, drawn from the platform’s GitHub repository:
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.bash import BashOperator
-from airflow.providers.docker.operators.docker import 
+from airflow.providers.docker.operators.docker import
 DockerOperator
-  
+
 dag = DAG(
     'docker_sample',
     default_args={'retries': 1},
@@ -12110,10 +11549,10 @@ dag = DAG(
     start_date=datetime(2021, 1, 1),
     catchup=False,
 )
-  
-t1 = BashOperator(task_id='print_date', bash_command='date', 
+
+t1 = BashOperator(task_id='print_date', bash_command='date',
 dag=dag)
-t2 = BashOperator(task_id='sleep', bash_command='sleep 5', 
+t2 = BashOperator(task_id='sleep', bash_command='sleep 5',
 retries=3, dag=dag)
 t3 = DockerOperator(
     docker_url='tcp://localhost:2375',  # Set your docker URL
@@ -12123,16 +11562,16 @@ t3 = DockerOperator(
     task_id='docker_op_tester',
     dag=dag,
 )
-  
+
 t4 = BashOperator(
-    task_id='print_hello', 
-    bash_command='echo "hello world!!!"', 
+    task_id='print_hello',
+    bash_command='echo "hello world!!!"',
     dag=dag
 )
-  
+
 t1 >> t2
 t1 >> t3
-t3 >> t4   
+t3 >> t4
 
 
 However, because Airflow was created earlier than most other tools, it had
@@ -12174,9 +11613,9 @@ metadata:
   generateName: coinflip-
   annotations:
     workflows.argoproj.io/description: |
-      This is an example of coin flip defined as a sequence of 
+      This is an example of coin flip defined as a sequence of
 conditional steps.
-      You can also run it in Python: 
+      You can also run it in Python:
       https://couler-proj.github.io/couler/examples/#coin-flip
 spec:
   entrypoint: coinflip
@@ -12191,14 +11630,14 @@ spec:
       - name: tails
         template: tails
         when: "{{steps.flip-coin.outputs.result}} == tails"
-    
+
     - name: flip-coin
       script:
         image: python:alpine3.6
         command: [python]
         source: |
           import random
-          result = "heads" if random.randint(0,1) == 0 else 
+          result = "heads" if random.randint(0,1) == 0 else
 "tails"
           print(result)
     - name: heads
@@ -12206,7 +11645,7 @@ spec:
         image: alpine:3.6
         command: [sh, -c]
         args: ["echo \"it was heads\""]
-    
+
     - name: tails
       container:
         image: alpine:3.6
@@ -12253,9 +11692,9 @@ different environments. For example, if a step requires a small memory
 footprint, it can run on your local machine. But if the next step requires a
 large memory footprint, you can just add @batch to execute it on the
 cloud.
-# Example: sketch of a recommender system that uses an ensemble 
-of two models. 
-# Model A will be run on your local machine and model B will be 
+# Example: sketch of a recommender system that uses an ensemble
+of two models.
+# Model A will be run on your local machine and model B will be
 run on AWS.
 class RecSysFlow(FlowSpec):
     @step
@@ -12268,7 +11707,7 @@ class RecSysFlow(FlowSpec):
     def fitA(self):
         self.model = fit(self.data, model="A")
         self.next(self.ensemble)
-    
+
     @conda(libraries={"numpy":"0.9.8"})
     # Requires 2 GPU of 16GB memory
     @batch(gpu=2, memory=16000)
@@ -12276,11 +11715,11 @@ class RecSysFlow(FlowSpec):
     def fitB(self):
         self.model = fit(self.data, model="B")
         self.next(self.ensemble)
-    
+
     @step
     def ensemble(self, inputs):
         self.outputs = (
-                   (inputs.fitA.model.predict(self.data) +   
+                   (inputs.fitA.model.predict(self.data) +
                     inputs.fitB.model.predict(self.data)) / 2
                    for input in inputs
         )
@@ -12352,8 +11791,6 @@ is to do both online prediction and batch prediction with the tool. While it’s
 usually straightforward to do online prediction at a smaller scale with most
 deployment services, doing batch prediction is usually trickier.
  Some
-29
-
 
 tools allow you to batch requests together for online prediction, which is
 different from batch prediction. Many companies have separate deployment
@@ -12497,8 +11934,6 @@ its core, there are three main problems that a feature store can help address:
 feature management, feature transformation, and feature consistency. A
 feature store solution might address one or a combination of these
 problems:
-30
-
 
 Feature management
 A company might have multiple ML models, each model using a lot of
@@ -12530,8 +11965,6 @@ A feature store can help with both performing feature computation and
 storing the results of this computation. In this capacity, a feature store
 acts like a data warehouse.
 Feature consistency
-31
-32
 
 
 In Chapter 7, we talked about the problem of having two separate
@@ -12544,8 +11977,7 @@ performance.
 This means that feature definitions written in Python during
 development might need to be converted into the languages used in
 production. So you have to write the same features twice, once for
-training and once for inference. First, it’s annoying and time-
-consuming. Second, it creates extra surface for bugs since one or more
+training and once for inference. First, it’s annoying and timeconsuming. Second, it creates extra surface for bugs since one or more
 features in production might differ from their counterparts in training,
 causing weird model behaviors.
 A key selling point of modern feature stores is that they unify the logic
@@ -12663,8 +12095,6 @@ If you’ve stayed with me until now, I hope you agree that bringing ML
 models to production is an infrastructural problem. To enable data scientists
 to develop and deploy ML models, it’s crucial to have the right tools and
 infrastructure set up.
-33
-
 
 In this chapter, we covered different layers of infrastructure needed for ML
 systems. We started from the storage and compute layer, which provides
@@ -12811,8 +12241,6 @@ prediction.
 These differences mean that ML systems can affect user experience
 differently, especially for users that have so far been used to traditional
 software. Due to the relatively new usage of ML in the real world, how ML
-1
-
 
 systems affect user experience is still not well studied. In this section, we’ll
 discuss three challenges that ML systems pose to good user experience and
@@ -12886,10 +12314,8 @@ nonexpert users can evaluate them. In this case, given a set of requirements
 input by users, you can have the model produce multiple snippets of React
 code. The code snippets are rendered into visual web pages so that
 nonengineering users can evaluate which one is the best for them.
-This approach is very common and is sometimes called “human-in-the-
-loop” AI, as it involves humans to pick the best predictions or to improve
-on the machine-generated predictions. For readers interested in human-in-
-the-loop AI, I’d highly recommend Jessy Lin’s “Rethinking Human-AI
+This approach is very common and is sometimes called “human-in-theloop” AI, as it involves humans to pick the best predictions or to improve
+on the machine-generated predictions. For readers interested in human-inthe-loop AI, I’d highly recommend Jessy Lin’s “Rethinking Human-AI
 Interaction”.
 Smooth Failing
 We’ve talked at length about the effect of an ML model’s inference latency
@@ -12925,8 +12351,7 @@ An ML project involves not only data scientists and ML engineers, but also
 other types of engineers such as DevOps engineers and platform engineers
 as well as nondeveloper stakeholders like subject matter experts (SMEs).
 Given a diverse set of stakeholders, the question is what is the optimal
-structure when organizing ML teams. We’ll focus on two aspects: cross-
-functional teams collaboration and the much debated role of an end-to-end
+structure when organizing ML teams. We’ll focus on two aspects: crossfunctional teams collaboration and the much debated role of an end-to-end
 data scientist.
 
 
@@ -12955,8 +12380,7 @@ Good luck trying to get your doctor to use Git.
 It’s important to involve SMEs early on in the project planning phase and
 empower them to make contributions without having to burden engineers to
 give them access. For example, to help SMEs get more involved in the
-development of ML systems, many companies are building no-code/low-
-code platforms that allow people to make changes without writing code.
+development of ML systems, many companies are building no-code/lowcode platforms that allow people to make changes without writing code.
 Most of the no-code ML solutions for SMEs are currently at the labeling,
 quality assurance, and feedback stages, but more platforms are being
 developed to aid in other critical junctions such as dataset creation and
@@ -13023,8 +12447,6 @@ engineering at Netflix), wrote a post on “the power of the full-stack data
 science generalist and the perils of division of labor through function.”
 When I wrote that tweet, I believed that Kubernetes was essential to the ML
 workflow. This sentiment came from the frustration at my own job—my life
-2
-3
 
 
 as an ML engineer would’ve been much easier if I was more fluent with
@@ -13056,8 +12478,6 @@ In Netflix’s model, the specialists—people who originally owned a part of
 the project—first create tools that automate their parts, as shown in
 Figure 11-3. Data scientists can leverage these tools to own their projects
 end-to-end.
-4
-5
 
 
 Figure 11-3. Full-cycle developers at Netflix. Source: Adapted from an image by Netflix
@@ -13067,8 +12487,6 @@ second half of this chapter, we’ll focus on an even more crucial
 consideration: how ML systems might affect society and what ML system
 developers should do to ensure that the systems they develop do more good
 than harm.
-6
-
 
 Responsible AI
 This section was written with generous contributions from Abhishek Gupta,
@@ -13134,8 +12552,7 @@ Incident Database. Keep in mind that while the following two examples and
 the ones logged at AI Incident Database are the ones that caught attention,
 there are many more instances of irresponsible AI that happen silently.
 Case study I: Automated grader’s biases
-In the summer of 2020, the United Kingdom canceled A levels, the high-
-stakes exams that determine college placement, due to the COVID-19
+In the summer of 2020, the United Kingdom canceled A levels, the highstakes exams that determine college placement, due to the COVID-19
 pandemic. Ofqual, the regulatory body for education and examinations in
 the UK, sanctioned the use of an automated system to assign final A-level
 grades to students—without them taking the test. According to Jones and
@@ -13164,11 +12581,6 @@ at a single point in time,
 If you’ve read this book thus far, you know that coarse-grained accuracy
 alone is nowhere close to being sufficient to evaluate a model’s
 performance, especially for a model whose performance can influence the
-7
-8
-9
-10
-11
 
 
 future of so many students. A closer look into this algorithm reveals at least
@@ -13178,8 +12590,7 @@ Failure to set the right objective
 Failure to perform fine-grained evaluation to discover potential biases
 Failure to make the model transparent
 We’ll go into detail about each of these failures. Keep in mind that even if
-these failures are addressed, the public might still be upset with the auto-
-grading system.
+these failures are addressed, the public might still be upset with the autograding system.
 Failure 1: Setting the wrong objective
 We discussed in Chapter 2 how the objective of an ML project will affect
 the resulting ML system’s performance. When developing an automated
@@ -13194,15 +12605,12 @@ grades than students from school B. Ofqual prioritized fairness between
 schools over fairness between students—they preferred a model that gets
 school-level results right over another model that gets each individual’s
 grades right.
-Due to this objective, the model disproportionately downgraded high-
-performing cohorts from historically low-performing schools. A students
+Due to this objective, the model disproportionately downgraded highperforming cohorts from historically low-performing schools. A students
 from classes where students had historically received straight Ds were
 downgraded to Bs and Cs.
 Ofqual failed to take into account the fact that schools with more resources
 tend to outperform schools with fewer resources. By prioritizing schools’
 historical performance over students’ current performance, this auto-grader
-12
-
 
 punished students from low resource schools, which tend to have more
 students from underprivileged backgrounds.
@@ -13235,8 +12643,6 @@ For example, they didn’t let the public know that the objective of their
 system was to maintain fairness between schools until the day the grades
 were published. The public, therefore, couldn’t express their concern over
 this objective as the model was being developed.
-13
-14
 
 
 Further, Ofqual didn’t let teachers know how their assessments would be
@@ -13272,8 +12678,6 @@ automated in the first place. Until there is a clearer boundary, there will be
 more cases of misusing AI algorithms. A clearer boundary can only be
 achieved with more investments in time and resources as well as serious
 considerations from AI developers, the public, and the authorities.
-15
-
 
 Case study II: The danger of “anonymized” data
 This case study is interesting to me because here, the algorithm is not an
@@ -13308,10 +12712,6 @@ the Russian operating area of Syria.”
  An example of these discriminating
 patterns is shown in Figure 11-4. Some analysts even suggested that the
 data could reveal the names and heart rates of individual Strava users.
-16
-17
-18
-19
 
 
 So where did the anonymization go wrong? First, Strava’s default privacy
@@ -13323,8 +12723,6 @@ users.
 Strava website rather than in its mobile app. This shows the importance of
 educating users about your privacy settings. Better, data opt-in (data
 collecting isn’t by default), not opt-out, should be the default.
-20
-
 
 Figure 11-4. Image created based on analysis done by BBC News
 When this issue with the Strava heatmap became public, some of the
@@ -13333,8 +12731,6 @@ shouldn’t use non-military-issue devices with GPS tracking and how
 location services should be turned off.
 However, privacy settings and users’ choices only address the problem at a
 surface level. The underlying problem is that the devices we use today are
-21
-22
 
 
 constantly collecting and reporting data on us. This data has to be moved
@@ -13399,8 +12795,6 @@ function DisparateImpactRemover implemented by AI Fairness
 then be removed from the training set) using the Infogram method,
 implemented in H2O.
 Model’s objective
-23
-
 
 Are you optimizing your model using an objective that enables fairness
 to all users? For example, are you prioritizing your model’s
@@ -13465,8 +12859,6 @@ The minimal accuracy cost is indeed minimal if it’s spread uniformly
 across all classes, but what if the cost is concentrated in only a few
 classes? In their 2019 paper, “What Do Compressed Deep Neural
 Networks Forget?,” Hooker et al. found that “models with radically
-24
-25
 
 
 different numbers of weights have comparable top-line performance
@@ -13500,9 +12892,6 @@ owner’s decision to save time in the beginning now end up costing the
 owner much more money and time.
 You might encounter this narrative often in ML systems. Companies might
 decide to bypass ethical issues in ML models to save cost and time, only to
-26
-27
-28
 
 
 discover risks in the future when they end up costing a lot more, such as the
@@ -13534,9 +12923,6 @@ Information about training algorithms, parameters, fairness
 constraints or other applied approaches, and features
 Paper or other resource for more information
 Citation details
-29
-30
-31
 
 
 License
@@ -13864,8 +13250,7 @@ elasticity, Public Cloud Versus Private Data Centers
 multicloud strategy, Public Cloud Versus Private Data Centers
 code versioning, Versioning
 column deletion, Deletion
-column-major formats, Row-Major Versus Column-Major Format-Row-
-Major Versus Column-Major Format
+column-major formats, Row-Major Versus Column-Major Format-RowMajor Versus Column-Major Format
 pandas, Row-Major Versus Column-Major Format
 Parquet, Row-Major Versus Column-Major Format
 Commuter, IDE
@@ -13888,11 +13273,9 @@ challenge
 stateful training, Stateless Retraining Versus Stateful Training-Stateless
 Retraining Versus Stateful Training
 automated, Stage 3: Automated, stateful training-Requirements
-stateless retraining, Stateless Retraining Versus Stateful Training-
-Stateless Retraining Versus Stateful Training
+stateless retraining, Stateless Retraining Versus Stateful TrainingStateless Retraining Versus Stateful Training
 manual, Stage 1: Manual, stateless retraining
-training, automated retraining, Stage 2: Automated retraining-
-Requirements
+training, automated retraining, Stage 2: Automated retrainingRequirements
 versus online learning, Stateless Retraining Versus Stateful Training
 convenience sampling, Nonprobability Sampling
 cost-sensitive learning, Cost-sensitive learning
@@ -13923,8 +13306,7 @@ addressing, Addressing Data Distribution Shifts-Addressing Data
 Distribution Shifts
 detection
 statistical methods, Statistical methods-Statistical methods
-time scale windows, Time scale windows for detecting shifts-
-Time scale windows for detecting shifts
+time scale windows, Time scale windows for detecting shiftsTime scale windows for detecting shifts
 ML system failure, Data Distribution Shifts
 concept drift, Types of Data Distribution Shifts, Concept drift
 covariate shift, Covariate shift-Covariate shift
@@ -13973,8 +13355,7 @@ unstructured data, Structured Versus Unstructured Data-Structured
 Versus Unstructured Data
 data normalization, Relational Model
 data parallelism, distributed training and, Data parallelism-Data parallelism
-data scientists, teams, Approach 2: Data scientists own the entire process-
-Approach 2: Data scientists own the entire process
+data scientists, teams, Approach 2: Data scientists own the entire processApproach 2: Data scientists own the entire process
 data sources, Data Sources
 databases, internal, Data Sources
 logs, Data Sources
@@ -13985,8 +13366,7 @@ user input, Data Sources
 
 
 data synthesis, Data Synthesis-Data Synthesis
-data-driven approach, AI ethics and, Understand the limitations of the data-
-driven approach
+data-driven approach, AI ethics and, Understand the limitations of the datadriven approach
 databases and dataflow, Data Passing Through Databases
 dataflow, Modes of Dataflow
 message queue model, Data Passing Through Real-Time Transport
@@ -14161,8 +13541,7 @@ H20 AutoML, Relational Model
 hand labels, Hand Labels
 lineage, Data lineage
 multiplicity, Label multiplicity-Label multiplicity
-hard AutoML, Hard AutoML: Architecture search and learned optimizer-
-Hard AutoML: Architecture search and learned optimizer
+hard AutoML, Hard AutoML: Architecture search and learned optimizerHard AutoML: Architecture search and learned optimizer
 hardware failure, Software System Failures
 hashed functions, Encoding Categorical Features
 heuristics, LFs (labeling functions), Weak supervision
@@ -14197,8 +13576,7 @@ storage and compute layer, Infrastructure and Tooling for MLOps,
 Infrastructure and Tooling for MLOps, Storage and Compute
 compute resources, Storage and Compute
 FLOPS, Storage and Compute
-private data centers, Public Cloud Versus Private Data Centers-
-Public Cloud Versus Private Data Centers
+private data centers, Public Cloud Versus Private Data CentersPublic Cloud Versus Private Data Centers
 public cloud, Public Cloud Versus Private Data Centers-Public
 Cloud Versus Private Data Centers
 units, Storage and Compute
@@ -14314,11 +13692,9 @@ learning, When to Use Machine Learning
 model optimization, Using ML to optimize ML models-Using ML to
 optimize ML models
 predictions and, When to Use Machine Learning
-production and, Machine Learning in Research Versus in Production-
-Discussion
+production and, Machine Learning in Research Versus in ProductionDiscussion
 repetition, When to Use Machine Learning
-research and, Machine Learning in Research Versus in Production-
-Discussion
+research and, Machine Learning in Research Versus in ProductionDiscussion
 scale, When to Use Machine Learning
 smartphones and, Machine Learning Use Cases
 unseen data, When to Use Machine Learning
@@ -14409,8 +13785,7 @@ feature change, General Data Distribution Shifts
 label schema change, General Data Distribution Shifts
 label shifts, Types of Data Distribution Shifts, Label shift
 ML-system specific
-degenerate feedback loops, Degenerate feedback loops-
-Correcting degenerate feedback loops
+degenerate feedback loops, Degenerate feedback loopsCorrecting degenerate feedback loops
 edge cases, Edge cases
 production data different from training data, Production data
 differing from training data-Production data differing from
@@ -14436,8 +13811,7 @@ scalability, Scalability-Scalability
 versus traditional software, Machine Learning Systems Versus
 Traditional Software-Machine Learning Systems Versus Traditional
 Software
-MLOPs, ML systems design and, Overview of Machine Learning Systems-
-Overview of Machine Learning Systems
+MLOPs, ML systems design and, Overview of Machine Learning SystemsOverview of Machine Learning Systems
 MNAR (missing not at random) values, Handling Missing Values
 model biases, AI ethics, Discover sources for model biases-Discover
 sources for model biases
@@ -14526,8 +13900,7 @@ online prediction, Batch Prediction Versus Online Prediction-Batch
 Prediction Versus Online Prediction, Bandits
 moving to from batch prediction, From Batch Prediction to Online
 Prediction-From Batch Prediction to Online Prediction
-streaming pipeline, Unifying Batch Pipeline and Streaming Pipeline-
-Unifying Batch Pipeline and Streaming Pipeline
+streaming pipeline, Unifying Batch Pipeline and Streaming PipelineUnifying Batch Pipeline and Streaming Pipeline
 operation expectation violations, Causes of ML System Failures
 
 
@@ -14559,8 +13932,7 @@ system performance, Experiment tracking
 perturbation, Perturbation-Perturbation
 perturbation method of semi-supervision, Semi-supervision
 perturbation tests, Perturbation tests-Perturbation tests
-positional embedding, Discrete and Continuous Positional Embeddings-
-Discrete and Continuous Positional Embeddings
+positional embedding, Discrete and Continuous Positional EmbeddingsDiscrete and Continuous Positional Embeddings
 fixed, Discrete and Continuous Positional Embeddings
 precision metrics, Using the right evaluation metrics
 prediction, When to Use Machine Learning, Multiple ways to frame a
@@ -14588,15 +13960,13 @@ processing
 analytical, Transactional and Analytical Processing
 batch processing, Batch Processing Versus Stream Processing-Batch
 Processing Versus Stream Processing
-ETL (extract, transform, load), ETL: Extract, Transform, and Load-
-ETL: Extract, Transform, and Load
+ETL (extract, transform, load), ETL: Extract, Transform, and LoadETL: Extract, Transform, and Load
 stream processing, Batch Processing Versus Stream Processing-Batch
 Processing Versus Stream Processing
 transactional, Transactional and Analytical Processing
 ACID and, Transactional and Analytical Processing
 production environment, Model Deployment and Prediction Service
-production, ML and, Machine Learning in Research Versus in Production-
-Discussion
+production, ML and, Machine Learning in Research Versus in ProductionDiscussion
 project objectives, Business and ML Objectives-Business and ML
 Objectives
 project scoping, Iterative Process
@@ -14738,8 +14108,7 @@ SQL, Relational Model
 SQL databases, Relational Model
 SSD (solid state disk), Storage and Compute
 stacking, ensembles, Stacking
-stakeholders, research projects, Different stakeholders and requirements-
-Different stakeholders and requirements
+stakeholders, research projects, Different stakeholders and requirementsDifferent stakeholders and requirements
 state-of-the-art models, Avoid the state-of-the-art trap
 stateful training, Stateless Retraining Versus Stateful Training-Stateless
 Retraining Versus Stateful Training
@@ -14766,8 +14135,7 @@ Processing Versus Stream Processing
 streaming data, real-time transport, Batch Processing Versus Stream
 Processing
 streaming features, Batch Prediction Versus Online Prediction
-streaming pipeline, Unifying Batch Pipeline and Streaming Pipeline-
-Unifying Batch Pipeline and Streaming Pipeline
+streaming pipeline, Unifying Batch Pipeline and Streaming PipelineUnifying Batch Pipeline and Streaming Pipeline
 structured data, Structured Versus Unstructured Data-Structured Versus
 Unstructured Data
 Sutton, Richard, Mind Versus Data
@@ -14792,8 +14160,7 @@ regression, Classification versus regression, Multiple ways to frame a
 problem
 teams
 cross-functional collaboration, Cross-functional Teams Collaboration
-data scientists, Approach 2: Data scientists own the entire process-
-Approach 2: Data scientists own the entire process
+data scientists, Approach 2: Data scientists own the entire processApproach 2: Data scientists own the entire process
 production management, Approach 1: Have a separate team to manage
 production
 telemetry, Observability
@@ -14821,8 +14188,7 @@ model parallelism and, Model parallelism-Model parallelism
 stateful, Stateless Retraining Versus Stateful Training-Stateless
 Retraining Versus Stateful Training
 automated, Stage 3: Automated, stateful training-Requirements
-stateless retraining, Stateless Retraining Versus Stateful Training-
-Stateless Retraining Versus Stateful Training
+stateless retraining, Stateless Retraining Versus Stateful TrainingStateless Retraining Versus Stateful Training
 manual, Stage 1: Manual, stateless retraining
 training data, Training Data
 class imbalance, Class Imbalance
@@ -14875,8 +14241,7 @@ Models as Much
 use cases, Machine Learning Use Cases-Machine Learning Use Cases
 user experience, User Experience
 consistency, Ensuring User Experience Consistency
-predictions, mostly correct, Combatting “Mostly Correct” Predictions-
-Combatting “Mostly Correct” Predictions
+predictions, mostly correct, Combatting “Mostly Correct” PredictionsCombatting “Mostly Correct” Predictions
 smooth failing, Smooth Failing
 user feedback, Feedback loop length
 user input data, Data Sources
@@ -14930,8 +14295,7 @@ OceanofPDF.com
 
 
 Colophon
-The animal on the cover of Designing Machine Learning Systems is a red-
-legged partridge (Alectoris rufa), also known as a French partridge.
+The animal on the cover of Designing Machine Learning Systems is a redlegged partridge (Alectoris rufa), also known as a French partridge.
 Bred for centuries as a gamebird, this economically important, largely
 nonmigratory member of the pheasant family is native to western
 continental Europe, though populations have been introduced elsewhere,

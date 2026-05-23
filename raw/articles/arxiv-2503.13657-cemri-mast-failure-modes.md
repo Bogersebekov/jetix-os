@@ -9,6 +9,10 @@ chars: 135848
 approx_tokens: 33962
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 135850
+phase4_chars_after: 134740
+phase4_saved_pct: 0.8
 ---
 
 Why Do Multi-Agent LLM Systems Fail?
@@ -52,7 +56,7 @@ publicly release our comprehensive dataset (MAST-Data), the MAST, and our LLM
 annotator to facilitate widespread research and development in MAS.1 2
 “Happy families are all alike; each unhappy family is unhappy in its own way.” (Tolstoy [1])
 “Successful systems all work alike; each failing system has its own problems.” (Berkeley’25)
-1
+
 Introduction
 Recently, Large Language Model (LLM) based agentic systems have gained significant attention
 in the AI community [2–4]. Building on this characteristic, multi-agent systems are increasingly
@@ -73,9 +77,9 @@ arXiv:2503.13657v3  [cs.AI]  26 Oct 2025
 
 Failure Categories
 Task Verification
-System Design 
+System Design
 Issues
-Inter-Agent 
+Inter-Agent
 Misalignment
 1.1 Disobey Task Specification
 2.6 Reasoning-Action Mismatch
@@ -83,13 +87,13 @@ Misalignment
 2.4 Information Withholding
 2.5 Ignored Other Agent’s Input
 3.1  Premature Termination
-3.2 No or Incomplete Verification 
-3.3 Incorrect Verification 
+3.2 No or Incomplete Verification
+3.3 Incorrect Verification
 2.2 Fail to Ask for Clarification
 1.4 Loss of Conversation History
 2.1 Conversation Reset
 2.3 Task Derailment
-1.2 Disobey Role Specification 
+1.2 Disobey Role Specification
 1.5 Unaware of Termination Conditions
 (15.7%)
 (1.50%)
@@ -97,7 +101,7 @@ Misalignment
 (8.20%)
 (6.20%)
 (9.10%)
-(1.90%) 
+(1.90%)
 (2.80%)
 (12.4%)
 (6.80%)
@@ -149,8 +153,6 @@ To demonstrate MAST’s practical usage, our case studies (Appendix H) highlight
 MAS development, and in Section C we describe how to use the MAST easily as a python library using
 pip install agentdash. For example, the CPO agent in ChatDev can exhibit ‘Failure Mode 1.2 -
 Disobey Role Specification’ by terminating conversation without the CEO agent’s consensus. We
-2
-
 
 demonstrate that a straightforward system workflow adjustment ensuring the CEO had the final say
 contributed to a +9.4% increase in overall task success rate. While such MAST-guided interventions
@@ -168,92 +170,92 @@ ChatDev
 ProgramDev
 GPT-4o
 HE, HA, LA
-30
+
 MetaGPT
 ProgramDev
 GPT-4o
 HE, HA, LA
-30
+
 HyperAgent
 SWE-Bench Lite
 Claude-3.7-Sonnet
 HE, HA, LA
-30
+
 AppWorld
 Test-C
 GPT-4o
 HE, HA, LA
-30
+
 AG2 (MathChat)
 GSM-Plus
 GPT-4
 HE, HA, LA
-30
+
 Magentic-One
 GAIA
 GPT-4o
 HE, HA, LA
-30
+
 OpenManus
 ProgramDev
 GPT-4o
 HE, HA, LA
-30
+
 ChatDev
 ProgramDev-v2
 GPT-4o
 LA
-100
+
 MetaGPT
 ProgramDev-v2
 GPT-4o
 LA
-100
+
 MetaGPT
 ProgramDev-v2
 Claude-3.7-Sonnet
 LA
-100
+
 ChatDev
 ProgramDev-v2
 Qwen2.5-Coder-32B-Instruct
 LA
-100
+
 MetaGPT
 ProgramDev-v2
 Qwen2.5-Coder-32B-Instruct
 LA
-100
+
 ChatDev
 ProgramDev-v2
 CodeLlama-7b-Instruct-hf
 LA
-100
+
 MetaGPT
 ProgramDev-v2
 CodeLlama-7b-Instruct-hf
 LA
-100
+
 AG2 (MathChat)
 OlympiadBench
 GPT-4o
 HE, LA
-206
+
 AG2 (MathChat)
 GSMPlus
 Claude-3.7-Sonnet
 HE, LA
-193
+
 AG2 (MathChat)
 MMLU
 GPT-4o-mini
 HE, LA
-168
+
 Magentic-One
 GAIA
 GPT-4o
 HE, LA
-165
+
 These findings suggest MAST reflects fundamental design challenges inherent in current MAS, not
 just artifacts of specific MAS implementation. By systematically defining failures, MAST serves as
 a framework to guide failure diagnosis and opens concrete research problems for the community.
@@ -261,8 +263,7 @@ We have released our traces and annotations and open-sourced the LLM annotator p
 research in the design of more robust and reliable MAS.
 The contributions of this paper are as follows:
 • We introduce and open-source MAST-Data, the first large-scale MAS failure dataset with consistent
-annotations from 7 MAS and four model families. And MAST-Data-human, a detailed inter-
-annotator study results with human labels. Together serve to facilitate research into MAS failures.
+annotations from 7 MAS and four model families. And MAST-Data-human, a detailed interannotator study results with human labels. Together serve to facilitate research into MAS failures.
 • We introduce MAST, the first empirically grounded taxonomy of MAS failures, providing a
 structured framework for defining, understanding and annotating failures.
 • We develop a scalable LLM-as-a-judge annotation pipeline integrated with MAST for efficiently
@@ -271,10 +272,7 @@ and understanding of failure breakdowns.
 • We demonstrate through case studies that failures identified by MAST often stem from system design
 issues, not just LLM limitations or simple prompt following, and require more than superficial
 fixes, thereby highlighting the need for structural MAS redesigns.
-3
 
-
-2
 Related Work
 2.1
 Challenges in Agentic Systems
@@ -318,7 +316,7 @@ Thus, MAST-Data and MAST represent, to our knowledge, the first empirically deri
 dataset and taxonomy focused specifically on MAS failures focus on failure patterns. Identifying
 these patterns highlights the need for continued research into robust evaluation metrics and mitigation
 strategies tailored for the unique challenges of MAS.
-3
+
 The Multi-Agent Systems Dataset
 To facilitate a principled understanding of why MAS fail and to guide the development of more reliable
 future systems, we introduce MAST-Data, the Multi-Agent System Failure Dataset. MAST-Data is a
@@ -328,12 +326,10 @@ Constructing such a dataset, however, presents distinct challenges. First, unlik
 where failures often have clearly identifiable root causes, failures in MAS are frequently complex.
 They involve convoluted agent interactions and the compounding effects of individual model behaviors
 and overall system design. Therefore, pinpointing the precise nature and origin of a failure in MAS
-4
-
 
 Inter-Annotator
 Agreement
-Failure 
+Failure
 Identification
 MAS Trace
 Collections
@@ -341,15 +337,15 @@ Calibrate
 LLM Annotator
 Development of Failure Taxonomy
 MAST
-MAS Failure 
-Annotation 
+MAS Failure
+Annotation
 Failure Categories
 Task Verification
 (Quality Control)
-Poor 
+Poor
 Specification
 (System Design)
-Inter-Agent 
+Inter-Agent
 Misalignment
 (Agent Coordination)
 1.1 Disobey Task Specification
@@ -358,13 +354,13 @@ Misalignment
 2.4 Information Withholding
 2.5 Ignored Other Agent’s Input
 3.1  Premature Termination
-3.2 No or Incomplete Verification 
-3.3 Incorrect Verification 
+3.2 No or Incomplete Verification
+3.3 Incorrect Verification
 2.2 Fail to Ask for Clarification
 1.4 Loss of Conversation History
 2.1 Conversation Reset
 2.3 Task Derailment
-1.2 Disobey Role Specification 
+1.2 Disobey Role Specification
 1.5 Unaware of Termination Conditions
 (11.5%)
 (1.57%)
@@ -372,7 +368,7 @@ Misalignment
 (9.16%)
 (8.64%)
 (13.61%)
-(4.71%) 
+(4.71%)
 (2.36%)
 (6.54%)
 (2.09%)
@@ -404,8 +400,7 @@ taxonomy, MAST, and a scalable annotation pipeline for systematic and comprehens
 Figure 2 summarizes our methodological workflow.
 3.1
 Data Collection with Grounded Theory Analysis
-To uncover a comprehensive set of failure patterns that are both diverse and generalizable to standard-
-ize failure labels which we detail further in Section 3.2, we first collect 150 traces from five MAS
+To uncover a comprehensive set of failure patterns that are both diverse and generalizable to standardize failure labels which we detail further in Section 3.2, we first collect 150 traces from five MAS
 frameworks, which are closely examined by six human experts. Our goal at this stage is to identify as
 many distinct failure modes as possible, ensuring these observed patterns are not merely artifacts of a
 single system but can likely apply more broadly. To achieve this without predefined hypotheses, we
@@ -435,33 +430,26 @@ each round of IAA, three expert annotators independently label a subset of five 
 traces from our initial 150+ trace collection using MAST. We then facilitate discussions to collectively
 resolve any disagreements. Based on these discussions, we iteratively refine MAST by adjusting
 failure mode definitions, adding new modes, or removing and merging existing ones until we achieve
-5
-
 
 Supervisor Agent
 Phone Agent
-Python Output 
-Login with username a@mail.com and 
+Python Output
+Login with username a@mail.com and
 password XvV@Hof.Then…
 <code to display docs for phone app>
-"name": "username","description": 
+"name": "username","description":
 "Your account phone_number",
-apis.phone.login(username="a@mail.com", 
+apis.phone.login(username="a@mail.com",
 password="XvV@Hof")
 {"message":"Invalid credentials"}
-The provided login credentials are 
-incorrect. Could you please provide 
-the correct username and password for 
+The provided login credentials are
+incorrect. Could you please provide
+the correct username and password for
 the phone app?
-1
-6
-2
-3
-4
-5
+
+
 Missing feedback on username should be the phone number
-Figure 3: Visualization of a trace segment in MAST-Data. This illustrates an agent-to-agent conversa-
-tion exhibiting Failure Mode 2.4: Information Withholding. The Phone Agent fails to communicate
+Figure 3: Visualization of a trace segment in MAST-Data. This illustrates an agent-to-agent conversation exhibiting Failure Mode 2.4: Information Withholding. The Phone Agent fails to communicate
 API requirements (username format) to the Supervisor Agent, who also fails to seek clarification,
 leading to repeated failed logins and task failure.
 high consensus. We conduct three such rounds of IAA, requiring about 10 hours in total solely
@@ -502,8 +490,7 @@ o1 (few shot)
 Constructing the Multi-Agent Dataset
 Before large-scale data collection for MAST-Data, we confirm the generalizability of our finalized
 MAST and the LLM annotator. We evaluate their performance on two new MAS (OpenManus and
-Magentic-One) with two new benchmarks (MMLU and GAIA, the latter representing a new general-
-agent task domain for validation) not part of the initial MAST development. An additional human
+Magentic-One) with two new benchmarks (MMLU and GAIA, the latter representing a new generalagent task domain for validation) not part of the initial MAST development. An additional human
 IAA round on these out-of-domain traces using the finalized MAST yields a strong Cohen’s Kappa
 score of 0.79. This demonstrates MAST’s effectiveness in capturing failures in diverse systems and
 tasks without further modification, supporting the robustness of our annotation approach for broader
@@ -511,18 +498,15 @@ application. We further detail the uniqueness of MAST failure modes via a correl
 Appendix E.
 Leveraging our validated MAST and LLM annotator, we expand data collection to construct
 MAST-Data, comprising 1642 annotated traces from seven popular MAS frameworks (Table 1).
-These frameworks include the five from our initial studies, the two from the generalization vali-
-dation, and Manus [45] as detailed in Appendix B. These traces cover diverse tasks like coding,
+These frameworks include the five from our initial studies, the two from the generalization validation, and Manus [45] as detailed in Appendix B. These traces cover diverse tasks like coding,
 math problem-solving, and general agent functionalities. For MAST-Data, our LLM annotator
 identifies MAST failure modes in each trace and provides a corresponding reason. We also release
 MAST-Data-human, consisting of all traces annotated by human experts during our IAA studies,
 where each annotation specifies MAST failure modes with textual justifications. We open-source
-6
-
 
 MAST-Data and MAST-Data-human as resources to analyze MAS failure dynamics and guide robust
 system design.
-4
+
 The Multi-Agent System Failure Taxonomy
 This section details MAST, a key result of our study and a critical component that guides the creation
 and analysis of MAST-Data. MAST provides the first empirically grounded, structured framework for
@@ -572,12 +556,9 @@ illustrates information withholding (FM-2.4). Diagnosing FC2 failures can be com
 surface behaviors (e.g., missing information) can stem from different root causes like withholding
 (FM-2.4), ignoring input (FM-2.5), or context mismanagement (FM-1.4), underscoring the need for
 MAST’s fine-grained modes.
-7
-
 
 Recent system innovations, such as Model Context Protocol [46] and Agent to Agent [47], improve
-agent communication by standardizing message formats from different tool or agent providers. How-
-ever, the errors we observe in FC2 occur even when agents within the same framework communicate
+agent communication by standardizing message formats from different tool or agent providers. However, the errors we observe in FC2 occur even when agents within the same framework communicate
 using natural language. This signals a deeper agent interaction dynamic challenge: the collapse
 of ’theory of mind’ [48], where agents fail to accurately model other agents’ informational needs.
 Addressing this likely requires structural improvements to the content of agent messages or enhancing
@@ -605,7 +586,7 @@ More rigorous verification is needed, such as using external knowledge, collecti
 throughout generation, and multi-level checks for both low-level correctness and high-level objectives.
 We demonstrate this in an intervention study where adding a high-level task objective verification step
 to ChatDev yields a +15.6% improvement in task success on ProgramDev (details in Appendix H).
-5
+
 Towards better Multi-Agent LLM Systems
 AppWorld
 HyperAgent
@@ -628,10 +609,8 @@ ChatDev
 MetaGPT
 MagenticOne
 OpenManus
-0
-20
-40
-60
+
+
 # Failures
 1.1
 1.2
@@ -658,8 +637,6 @@ system-specific failure profiles rather than to serve as a performance compariso
 We now discuss the broader implications and usage of MAST-Data and MAST. MAST-Data, with its
 annotations grounded in MAST, provides crucial empirical evidence, while MAST offers a foundational
 framework and practical tool for understanding, debugging, and ultimately improving MAS. By
-8
-
 
 concretely defining failure modes and providing a large-scale dataset of their occurrences, our work
 outlines the challenges in building reliable MAS and opens targeted research problems for the
@@ -670,8 +647,7 @@ Our analysis of MAST-Data reveals that failure distributions differ markedly acr
 often reflecting their unique architectural characteristics and design philosophies. For example, as
 illustrated in Figure 4, we observe specific patterns: AppWorld frequently suffers from premature
 terminations (FM-3.1), potentially due to its star topology and lack of a predefined workflow making
-termination conditions less obvious; OpenManus exhibits a tendency towards step repetition (FM-
-1.3); and HyperAgent could benefit from addressing its dominant failure modes of step repetition
+termination conditions less obvious; OpenManus exhibits a tendency towards step repetition (FM1.3); and HyperAgent could benefit from addressing its dominant failure modes of step repetition
 (FM-1.3) and incorrect verification (FM-3.3). These system-specific profiles underscore that there is
 no one-size-fits-all solution to MAS failures.
 We also use MAST-Data to study the impact of different underlying language models and MAS
@@ -702,8 +678,7 @@ understanding – even organizations of sophisticated individuals can fail catas
 organization structure is flawed. Previous research in high-reliability organizations has shown that
 well-defined design principles can prevent such failures [50, 51].
 Consistent with organization theories, our findings indicate that many MAS failures arise from the
-challenges in organizational design and agent coordination rather than the limitations of individ-
-ual agents. In our intervention case studies (Appendix H), we apply MAS system workflow and
+challenges in organizational design and agent coordination rather than the limitations of individual agents. In our intervention case studies (Appendix H), we apply MAS system workflow and
 prompt changes respectively (results in Table 5). With the same underlying model, we achieve max
 improvements of 15.6%. This highlights that MAS failures can be address with better system designs.
 Although first step interventions lead to performance gains, not all failure modes are resolved, and
@@ -712,10 +687,7 @@ Achieving high reliability may requires combinatorial changes ranging from agent
 to model level improvements (see Table 4). MAST, by providing a clear framework of failure points
 identified from MAST-Data, helps identify where these structural weaknesses lie and can guide the
 design and evaluation of more sophisticated MAS architectures.
-9
 
-
-6
 Conclusion
 In this study, we conduct the first systematic investigation into why MAS fail. This investigation
 results in the MAST-Data: a comprehensive public resource of over 1600 annotated execution traces
@@ -734,8 +706,6 @@ failure dynamics, while MAST provides a standardized language and framework to d
 mitigate these failures. By systematically identifying and categorizing challenges, we aim to open
 up concrete research directions and equip the community to develop more robust and effective
 multi-agent systems.
-10
-
 
 References
 [1] Leo Tolstoy. Anna Karenina. The Russian Messenger, 1878.
@@ -774,8 +744,7 @@ agents design new sars-cov-2 nanobodies with experimental validation. bioRxiv, 2
 [9] Joon Sung Park, Joseph C. O’Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang, and
 Michael S. Bernstein. Generative agents: Interactive simulacra of human behavior, 2023. URL
 https://arxiv.org/abs/2304.03442.
-[10] Xinbin Liang, Jinyu Xiang, Zhaoyang Yu, Jiayi Zhang, and Sirui Hong. Openmanus: An open-
-source framework for building general ai agents. https://github.com/mannaandpoem/
+[10] Xinbin Liang, Jinyu Xiang, Zhaoyang Yu, Jiayi Zhang, and Sirui Hong. Openmanus: An opensource framework for building general ai agents. https://github.com/mannaandpoem/
 OpenManus, 2025.
 [11] Adam Fourney, Gagan Bansal, Hussein Mozannar, Cheng Tan, Eduardo Salinas, Friederike
 Niedtner, Grace Proebsting, Griffin Bassman, Jack Gerrits, Jacob Alber, et al. Magentic-one:
@@ -788,15 +757,12 @@ large language models, 2023. URL https://arxiv.org/abs/2307.04738.
 [14] Hongxin Zhang, Weihua Du, Jiaming Shan, Qinhong Zhou, Yilun Du, Joshua B. Tenenbaum,
 Tianmin Shu, and Chuang Gan. Building cooperative embodied agents modularly with large
 language models, 2024. URL https://arxiv.org/abs/2307.02485.
-11
-
 
 [15] Yilun Du, Shuang Li, Antonio Torralba, Joshua B. Tenenbaum, and Igor Mordatch. Improving
 factuality and reasoning in language models through multiagent debate, 2023. URL https:
 //arxiv.org/abs/2305.14325.
 [16] Joon Sung Park, Joseph O’Brien, Carrie Jun Cai, Meredith Ringel Morris, Percy Liang, and
-Michael S Bernstein. Generative agents: Interactive simulacra of human behavior. In Proceed-
-ings of the 36th annual acm symposium on user interface software and technology, pages 1–22,
+Michael S Bernstein. Generative agents: Interactive simulacra of human behavior. In Proceedings of the 36th annual acm symposium on user interface software and technology, pages 1–22,
 2023.
 [17] Taicheng Guo, Xiuying Chen, Yaqi Wang, Ruidi Chang, Shichao Pei, Nitesh V Chawla, Olaf
 Wiest, and Xiangliang Zhang. Large language model based multi-agents: A survey of progress
@@ -825,12 +791,9 @@ multi-agent systems: Challenges and open problems, 2024. URL https://arxiv.org/a
 2402.03578.
 [26] Lewis Hammond, Alan Chan, Jesse Clifton, Jason Hoelscher-Obermaier, Akbir Khan, Euan
 McLean, Chandler Smith, Wolfram Barfuss, Jakob Foerster, Tom´aˇs Gavenˇciak, The Anh
-Han, Edward Hughes, Vojtˇech Kovaˇr´ık, Jan Kulveit, Joel Z. Leibo, Caspar Oesterheld, Chris-
-tian Schroeder de Witt, Nisarg Shah, Michael Wellman, Paolo Bova, Theodor Cimpeanu,
+Han, Edward Hughes, Vojtˇech Kovaˇr´ık, Jan Kulveit, Joel Z. Leibo, Caspar Oesterheld, Christian Schroeder de Witt, Nisarg Shah, Michael Wellman, Paolo Bova, Theodor Cimpeanu,
 Carson Ezell, Quentin Feuillade-Montixi, Matija Franklin, Esben Kran, Igor Krawczuk,
-Max Lamparth, Niklas Lauffer, Alexander Meinke, Sumeet Motwani, Anka Reuel, Vin-
-cent Conitzer, Michael Dennis, Iason Gabriel, Adam Gleave, Gillian Hadfield, Nika Hagh-
-talab, Atoosa Kasirzadeh, S´ebastien Krier, Kate Larson, Joel Lehman, David C. Parkes,
+Max Lamparth, Niklas Lauffer, Alexander Meinke, Sumeet Motwani, Anka Reuel, Vincent Conitzer, Michael Dennis, Iason Gabriel, Adam Gleave, Gillian Hadfield, Nika Haghtalab, Atoosa Kasirzadeh, S´ebastien Krier, Kate Larson, Joel Lehman, David C. Parkes,
 Georgios Piliouras, and Iyad Rahwan.
 Multi-agent risks from advanced ai, 2025.
 URL
@@ -839,10 +802,7 @@ https://arxiv.org/abs/2502.14143.
 Karthik R Narasimhan. SWE-bench: Can language models resolve real-world github issues?
 In The Twelfth International Conference on Learning Representations, 2024. URL https:
 //openreview.net/forum?id=VTF8yNQM66.
-[28] Ji-Lun Peng, Sijia Cheng, Egil Diau, Yung-Yu Shih, Po-Heng Chen, Yen-Ting Lin, and Yun-
-Nung Chen. A survey of useful llm evaluation. arXiv preprint arXiv:2406.00936, 2024.
-12
-
+[28] Ji-Lun Peng, Sijia Cheng, Egil Diau, Yung-Yu Shih, Po-Heng Chen, Yen-Ting Lin, and YunNung Chen. A survey of useful llm evaluation. arXiv preprint arXiv:2406.00936, 2024.
 
 [29] Wei Wang, Dan Zhang, Tao Feng, Boyan Wang, and Jie Tang. Battleagentbench: A benchmark
 for evaluating cooperation and competition capabilities of language models in multi-agent
@@ -868,8 +828,7 @@ Dec
 URL
 https://www.anthropic.com/research/
 building-effective-agents.
-[36] Ion Stoica, Matei Zaharia, Joseph Gonzalez, Ken Goldberg, Hao Zhang, Anastasios Angelopou-
-los, Shishir G Patil, Lingjiao Chen, Wei-Lin Chiang, and Jared Q Davis. Specifications: The
+[36] Ion Stoica, Matei Zaharia, Joseph Gonzalez, Ken Goldberg, Hao Zhang, Anastasios Angelopoulos, Shishir G Patil, Lingjiao Chen, Wei-Lin Chiang, and Jared Q Davis. Specifications: The
 missing link to making the development of llm systems an engineering discipline. arXiv preprint
 arXiv:2412.05299, 2024.
 [37] Gagan Bansal, Jennifer Wortman Vaughan, Saleema Amershi, Eric Horvitz, Adam
@@ -879,8 +838,7 @@ Victor Dibia,
 and Daniel S. Weld.
 Challenges in
 human-agent communication.
-Technical Report MSR-TR-2024-53, Microsoft, De-
-cember 2024.
+Technical Report MSR-TR-2024-53, Microsoft, December 2024.
 URL https://www.microsoft.com/en-us/research/publication/
 human-agent-interaction-challenges/.
 [38] Ge Bai, Jie Liu, Xingyuan Bu, Yancheng He, Jiaheng Liu, Zhanhui Zhou, Zhuoran Lin, Wenbo
@@ -902,8 +860,6 @@ and Saleema Amershi. Interactive debugging and steering of multi-agent ai system
 Li, Chi Wang, Huazheng Wang, Yiran Chen, and Qingyun Wu. Which agent causes task
 failures and when? on automated failure attribution of llm multi-agent systems, 2025. URL
 https://arxiv.org/abs/2505.00212.
-13
-
 
 [43] Claire B Draucker, Donna S Martsolf, Ratchneewan Ross, and Thomas B Rusk. Theoretical
 sampling and category development in grounded theory. Qualitative health research, 17(8):
@@ -934,8 +890,7 @@ multi-agent collaborative framework. arXiv preprint arXiv:2308.00352, 2023.
 software engineering agents to solve coding tasks at scale. arXiv preprint arXiv:2409.16299,
 2024.
 [54] Harsh Trivedi, Tushar Khot, Mareike Hartmann, Ruskin Manku, Vinty Dong, Edward Li,
-Shashank Gupta, Ashish Sabharwal, and Niranjan Balasubramanian. Appworld: A control-
-lable world of apps and people for benchmarking interactive coding agents. arXiv preprint
+Shashank Gupta, Ashish Sabharwal, and Niranjan Balasubramanian. Appworld: A controllable world of apps and people for benchmarking interactive coding agents. arXiv preprint
 arXiv:2407.18901, 2024.
 [55] Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun
 Zhang, Shaokun Zhang, Jiale Liu, et al. Autogen: Enabling next-gen llm applications via
@@ -955,8 +910,6 @@ intelligent llm agents. arXiv preprint arXiv:2306.03314, 2023.
 [60] Chi-Min Chan, Weize Chen, Yusheng Su, Jianxuan Yu, Wei Xue, Shanghang Zhang, Jie Fu,
 and Zhiyuan Liu. Chateval: Towards better llm-based evaluators through multi-agent debate.
 arXiv preprint arXiv:2308.07201, 2023.
-14
-
 
 [61] Yixuan Weng, Minjun Zhu, Fei Xia, Bin Li, Shizhu He, Shengping Liu, Bin Sun, Kang Liu,
 and Jun Zhao. Large language models are better reasoners with self-verification. In The 2023
@@ -965,8 +918,7 @@ Conference on Empirical Methods in Natural Language Processing, 2023.
 [63] Anthropic. Building effective agents, 2024. URL https://www.anthropic.com/research/
 building-effective-agents.
 [64] Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Tom Griffiths, Yuan Cao, and Karthik
-Narasimhan. Tree of thoughts: Deliberate problem solving with large language models. Ad-
-vances in Neural Information Processing Systems, 36, 2024.
+Narasimhan. Tree of thoughts: Deliberate problem solving with large language models. Advances in Neural Information Processing Systems, 36, 2024.
 [65] Fatemeh Haji, Mazal Bethany, Maryam Tabar, Jason Chiang, Anthony Rios, and Peyman
 Najafirad. Improving llm reasoning with multi-agent tree-of-thought validator agent. arXiv
 preprint arXiv:2409.11527, 2024.
@@ -985,46 +937,36 @@ Liden, Zhou Yu, Weizhu Chen, et al. Check your facts and try again: Improving la
 models with external knowledge and automated feedback. arXiv preprint arXiv:2302.12813,
 2023.
 [71] Pavan Kapanipathi, Ibrahim Abdelaziz, Srinivas Ravishankar, Salim Roukos, Alexander Gray,
-Ramon Astudillo, Maria Chang, Cristina Cornelio, Saswati Dana, Achille Fokoue, et al. Ques-
-tion answering over knowledge bases by leveraging semantic parsing and neuro-symbolic
+Ramon Astudillo, Maria Chang, Cristina Cornelio, Saswati Dana, Achille Fokoue, et al. Question answering over knowledge bases by leveraging semantic parsing and neuro-symbolic
 reasoning. arXiv preprint arXiv:2012.01707, 2020.
 [72] Xinyi Li, Sai Wang, Siqi Zeng, Yu Wu, and Yi Yang. A survey on llm-based multi-agent
 systems: workflow, infrastructure, and challenges. Vicinagearth, 1(1):9, 2024.
-[73] Yaru Niu, Rohan R Paleja, and Matthew C Gombolay. Multi-agent graph-attention communica-
-tion and teaming. In AAMAS, volume 21, page 20th, 2021.
-[74] Jiechuan Jiang and Zongqing Lu. Learning attentional communication for multi-agent coopera-
-tion. Advances in neural information processing systems, 31, 2018.
+[73] Yaru Niu, Rohan R Paleja, and Matthew C Gombolay. Multi-agent graph-attention communication and teaming. In AAMAS, volume 21, page 20th, 2021.
+[74] Jiechuan Jiang and Zongqing Lu. Learning attentional communication for multi-agent cooperation. Advances in neural information processing systems, 31, 2018.
 [75] Amanpreet Singh, Tushar Jain, and Sainbayar Sukhbaatar. Learning when to communicate at
 scale in multiagent cooperative and competitive tasks. arXiv preprint arXiv:1812.09755, 2018.
 [76] Chao Yu, Akash Velu, Eugene Vinitsky, Jiaxuan Gao, Yu Wang, Alexandre Bayen, and Yi Wu.
 The surprising effectiveness of ppo in cooperative multi-agent games. Advances in Neural
 Information Processing Systems, 35:24611–24624, 2022.
-[77] Xudong Guo, Daming Shi, Junjie Yu, and Wenhui Fan. Heterogeneous multi-agent reinforce-
-ment learning for zero-shot scalable collaboration. arXiv preprint arXiv:2404.03869, 2024.
+[77] Xudong Guo, Daming Shi, Junjie Yu, and Wenhui Fan. Heterogeneous multi-agent reinforcement learning for zero-shot scalable collaboration. arXiv preprint arXiv:2404.03869, 2024.
 [78] Weize Chen, Jiarui Yuan, Chen Qian, Cheng Yang, Zhiyuan Liu, and Maosong Sun. Optima:
 Optimizing effectiveness and efficiency for llm-based multi-agent system. arXiv preprint
 arXiv:2410.08115, 2024.
-15
-
 
 [79] Eric Horvitz. Uncertainty, action, and interaction: In pursuit of mixed-initiative computing.
 IEEE Intelligent Systems, 14(5):17–20, 1999.
 [80] Barnali Chakraborty and Debapratim Purkayastha. Servicenow: From startup to world’s most
 innovative company. IUP Journal of Entrepreneurship Development, 20(1), 2023.
-[81] Qintong Li, Leyang Cui, Xueliang Zhao, Lingpeng Kong, and Wei Bi. Gsm-plus: A comprehen-
-sive benchmark for evaluating the robustness of llms as mathematical problem solvers. arXiv
+[81] Qintong Li, Leyang Cui, Xueliang Zhao, Lingpeng Kong, and Wei Bi. Gsm-plus: A comprehensive benchmark for evaluating the robustness of llms as mathematical problem solvers. arXiv
 preprint arXiv:2402.19255, 2024.
 [82] Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser,
 Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, et al. Training verifiers to
 solve math word problems. arXiv preprint arXiv:2110.14168, 2021.
-[83] Binyuan Hui, Jian Yang, Zeyu Cui, Jiaxi Yang, Dayiheng Liu, Lei Zhang, Tianyu Liu, Jia-
-jun Zhang, Bowen Yu, Kai Dang, et al. Qwen2. 5-coder technical report. arXiv preprint
+[83] Binyuan Hui, Jian Yang, Zeyu Cui, Jiaxi Yang, Dayiheng Liu, Lei Zhang, Tianyu Liu, Jiajun Zhang, Bowen Yu, Kai Dang, et al. Qwen2. 5-coder technical report. arXiv preprint
 arXiv:2409.12186, 2024.
 [84] Baptiste Roziere, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Gat, Xiaoqing Ellen Tan,
 Yossi Adi, Jingyu Liu, Romain Sauvestre, Tal Remez, et al. Code llama: Open foundation
 models for code. arXiv preprint arXiv:2308.12950, 2023.
-16
-
 
 Organization of Appendix
 The appendix is organized as follows: in Section A further details about failure categories and failure
@@ -1065,8 +1007,7 @@ FC2. Inter-Agent Misalignment
 This category includes failures arising from ineffective communication, poor collaboration, conflicting
 behaviors among agents, and gradual derailment from the initial task.
 We identify six failure modes under this category:
-• FM-2.1: Conversation reset - Unexpected or unwarranted restarting of a dialogue, poten-
-tially losing context and progress made in the interaction.
+• FM-2.1: Conversation reset - Unexpected or unwarranted restarting of a dialogue, potentially losing context and progress made in the interaction.
 • FM-2.2: Fail to ask for clarification - Inability to request additional information when
 faced with unclear or incomplete data, potentially resulting in incorrect actions.
 • FM-2.3: Task derailment - Deviation from the intended objective or focus of a given task,
@@ -1076,8 +1017,6 @@ insights that an agent possess and could impact decision-making of other agents 
 • FM-2.5: Ignored other agent’s input - Disregarding or failing to adequately consider
 input or recommendations provided by other agents in the system, potentially leading to
 suboptimal decisions or missed opportunities for collaboration.
-17
-
 
 • FM-2.6: Reasoning-action mismatch - Discrepancy between the logical reasoning process
 and the actual actions taken by the agent, potentially resulting in unexpected or undesired
@@ -1091,14 +1030,11 @@ We identify three failure modes under this category:
 • FM-3.1: Premature termination - Ending a dialogue, interaction or task before all necessary
 information has been exchanged or objectives have been met, potentially resulting in
 incomplete or incorrect outcomes.
-• FM-3.2: No or incomplete verification - (partial) omission of proper checking or confirma-
-tion of task outcomes or system outputs, potentially allowing errors or inconsistencies to
+• FM-3.2: No or incomplete verification - (partial) omission of proper checking or confirmation of task outcomes or system outputs, potentially allowing errors or inconsistencies to
 propagate undetected.
 • FM-3.3: Incorrect verification - Failure to adequately validate or cross-check crucial
 information or decisions during the iterations, potentially leading to errors or vulnerabilities
 in the system.
-18
-
 
 B
 Details of Multi-Agent Systems Evaluated
@@ -1144,8 +1080,7 @@ Purpose of the System
 MetaGPT
 [52]
 Assembly Line
-Simulating the SOPs of different roles in Software Com-
-panies to create open-ended software applications
+Simulating the SOPs of different roles in Software Companies to create open-ended software applications
 ChatDev
 [5]
 Hierarchical
@@ -1164,8 +1099,7 @@ AppWorld
 [54]
 Star Topology
 Tool-calling agents specialized to utility services (ex:
-Gmail, Spotify, etc.) being orchestrated by a supervi-
-sor to achieve cross-service tasks
+Gmail, Spotify, etc.) being orchestrated by a supervisor to achieve cross-service tasks
 AG2
 [55]
 N/A - Agentic
@@ -1176,22 +1110,17 @@ Magentic-One
 [11]
 Star Topology
 A generalist multi-agent system designed to autonomously
-solve complex, open-ended tasks involving web and file-
-based environments across various domains.
+solve complex, open-ended tasks involving web and filebased environments across various domains.
 OpenManus
 [10]
 Hierarchical
-An open-source multi-agent framework designed to facili-
-tate the development of collaborative AI agents that solve
+An open-source multi-agent framework designed to facilitate the development of collaborative AI agents that solve
 real-world tasks. It was inspired by the Manus AI agent.
 B.2
 Multi-Agent Systems in the Initial Annotation Phase
 MetaGPT. MetaGPT [52] is a multi-agent system that simulates a software engineering company
-and involves agents such as a Coder and a Verifier. The goal is to have agents with domain-
-expertise (achieved by encoding Standard Operating Procedures of different roles into agents prompts)
+and involves agents such as a Coder and a Verifier. The goal is to have agents with domainexpertise (achieved by encoding Standard Operating Procedures of different roles into agents prompts)
 collaboratively solve a programming task, specified in natural language.
-19
-
 
 ChatDev. ChatDev is a generalist multi-agent framework that initializes different agents, each
 assuming common roles in a software-development company [56]. The framework breaks down the
@@ -1228,8 +1157,7 @@ various information about the human-user, for example, credentials to access var
 email-id and contact of the user, etc, which the service-agents need to access the services, and must
 clarify with the supervisor agent.
 AG2. AG2 (formerly AutoGen) [57] is an open-source programming framework for building agents
-and managing their interactions. With this framework, it is possible to build various flexible conversa-
-tion patterns, integrating tools usage and customizing the termination strategy.
+and managing their interactions. With this framework, it is possible to build various flexible conversation patterns, integrating tools usage and customizing the termination strategy.
 B.3
 Closed-Source MAS
 In our efforts to build a comprehensive dataset, we also explore popular closed-source platforms that
@@ -1243,8 +1171,6 @@ of task correctness for some closed-source systems (for instance, Manus achieves
 on our ProgramDev benchmark), the absence of comprehensive trace data prevents their inclusion
 in the primary MAST-Data which focuses on deeply annotated failure dynamics. Our focus for
 MAST-Data thus remains on systems where such trace analysis can yield robust insights.
-20
-
 
 C
 MAST Python Library
@@ -1276,14 +1202,11 @@ D
 ProgramDev and ProgramDev-v2 Datasets
 The ProgramDev dataset contains 30 coding problems 3. These tasks are programming challenges,
 such as implementing Tic-Tac-Toe, Chess, or Sudoku, for which abundant solutions and descriptions
-are readily available online. We design ProgramDev with tasks intended to be relatively straightfor-
-ward for MAS, rather than exceptionally difficult, to better isolate specific failure dynamics. We
+are readily available online. We design ProgramDev with tasks intended to be relatively straightforward for MAS, rather than exceptionally difficult, to better isolate specific failure dynamics. We
 later extend this to ProgramDev-v2, a 100-problem dataset developed primarily for the comparative
 analyses of MAS architectures and underlying LLMs presented in Figure 8.
 3https://github.com/multi-agent-systems-failure-taxonomy/MAST/blob/main/traces/
 programdev/programdev_dataset.json
-21
-
 
 E
 MAS Failure Modes Correlation
@@ -1310,15 +1233,15 @@ Inter-Agent
 Misalignment
 Task
 Verification
-1
+
 0.32
 0.17
 0.32
-1
+
 0.28
 0.17
 0.28
-1
+
 1.00
 0.75
 0.50
@@ -1357,7 +1280,7 @@ Figure 6: MAS failure modes correlation matrix
 3.1
 3.2
 3.3
-1
+
 0.18
 -0.086
 0.17
@@ -1372,7 +1295,7 @@ Figure 6: MAS failure modes correlation matrix
 0.21
 0.091
 0.18
-1
+
 0.12
 0.23
 0.1
@@ -1385,7 +1308,7 @@ Figure 6: MAS failure modes correlation matrix
 0.15
 -0.086
 0.12
-1
+
 0.27
 0.55
 0.27
@@ -1400,7 +1323,7 @@ Figure 6: MAS failure modes correlation matrix
 0.17
 0.23
 0.27
-1
+
 0.34
 0.63
 0.39
@@ -1415,7 +1338,7 @@ Figure 6: MAS failure modes correlation matrix
 0.1
 0.55
 0.34
-1
+
 0.34
 0.48
 0.47
@@ -1430,7 +1353,7 @@ Figure 6: MAS failure modes correlation matrix
 0.27
 0.63
 0.34
-1
+
 0.22
 0.29
 0.3
@@ -1445,7 +1368,7 @@ Figure 6: MAS failure modes correlation matrix
 0.39
 0.48
 0.22
-1
+
 0.52
 0.17
 0.098
@@ -1460,7 +1383,7 @@ Figure 6: MAS failure modes correlation matrix
 0.47
 0.29
 0.52
-1
+
 0.27
 -0.035
 0.48
@@ -1475,7 +1398,7 @@ Figure 6: MAS failure modes correlation matrix
 0.3
 0.17
 0.27
-1
+
 -0.015
 0.18
 0.15
@@ -1485,7 +1408,7 @@ Figure 6: MAS failure modes correlation matrix
 -0.0083 -0.067
 0.21
 -0.043 -0.018 0.098 -0.035 -0.015
-1
+
 0.085 -0.037 -0.034
 0.14
 0.43
@@ -1498,7 +1421,7 @@ Figure 6: MAS failure modes correlation matrix
 0.48
 0.18
 0.085
-1
+
 0.31
 0.16
 0.27
@@ -1513,7 +1436,7 @@ Figure 6: MAS failure modes correlation matrix
 0.15
 -0.037
 0.31
-1
+
 -0.0038 0.24
 0.21
 -0.059 0.024 -0.036
@@ -1524,7 +1447,7 @@ Figure 6: MAS failure modes correlation matrix
 0.12
 -0.034
 0.16 -0.0038
-1
+
 -0.24
 0.091
 0.15
@@ -1539,7 +1462,7 @@ Figure 6: MAS failure modes correlation matrix
 0.27
 0.24
 -0.24
-1
+
 1.00
 0.75
 0.50
@@ -1550,8 +1473,6 @@ Figure 6: MAS failure modes correlation matrix
 0.75
 1.00
 Figure 7: MAS failure modes correlation matrix
-22
-
 
 1.1
 1.2
@@ -1568,50 +1489,24 @@ Figure 7: MAS failure modes correlation matrix
 3.2
 3.3
 Failure Mode
-0
-10
-20
-30
-40
-50
-60
+
+
 Number of Failures
-22
-13
-1
-36
-24
-1
+
+
 3 1
-1617
-6
-3
-1
-36
-26
-15
-7
-52
-57
-16
-13
+
+
 Claude
 GPT4o
 1. System Design Issues2. Interagent Misalignment
 3. Verification Issues
 Failure Category
-0
-20
-40
-60
-80
+
+
 Number of Failures
-63
-38
-58
-47
-83
-77
+
+
 Claude
 GPT4o
 Failure Mode Distribution Comparison: Effect of Underlying LLM
@@ -1633,49 +1528,27 @@ Claude-3.7-Sonnet on two comparative cases.
 3.2
 3.3
 Failure Mode
-0
-20
-40
-60
-80
+
+
 Number of Failures
-89
-13
-1
-2224
-3
+
+
 3 1
-10
-17
-60
-3
-1
-46
-26
-1
+
+
 7 10
-57
-19
-13
+
+
 ChatDev
 MetaGPT
 1. System Design Issues2. Interagent Misalignment
 3. Verification Issues
 Failure Category
-0
-20
-40
-60
-80
-100
-120
+
+
 Number of Failures
-118
-38
-116
-47
-30
-77
+
+
 ChatDev
 MetaGPT
 Failure Mode Distribution Comparison: Effect of MAS Framework
@@ -1704,8 +1577,6 @@ architecture or operational flow is more effective at maintaining adherence to s
 ensuring smoother agent coordination with GPT-4o. Interestingly, despite its stronger performance in
 FC1 and FC2, MetaGPT exhibits a considerably higher number of FC3 (Task Verification) failures
 than ChatDev. This may stem from the fact that in MetaGPT, the adherence to task specifications and
-23
-
 
 role specifications ar done mostly through SoPs, demonstrating strong performance in FC1 especially.
 However ChatDev places a higher importance in verification as it is reflected by the specific testing and
@@ -1713,14 +1584,11 @@ reviewing phases in ChatDev’s archiectural design, causing fewer verification 
 show that both the choice of LLM and the specific design of the MAS architecture critically shape
 the landscape of potential failures, and improvements likely require a holistic approach considering
 both aspects.
-24
-
 
 G
 Approaches and strategies to improve MASs
 In this section, we discuss some approaches to make MASs more robust to failures. We categorize
-these strategies into two main groups: (i) tactical approaches, (ii) structural strategies. Tactical ap-
-proaches involve straightforward modifications tailored for specific failure modes, such as improving
+these strategies into two main groups: (i) tactical approaches, (ii) structural strategies. Tactical approaches involve straightforward modifications tailored for specific failure modes, such as improving
 the prompts, topology of the network of agents, and conversation management. In Section H, we
 experiment with such approaches in two case studies, and demonstrate that the effectiveness of these
 methods is not consistent. This leads us to consider a second category of strategies that are more
@@ -1767,12 +1635,9 @@ mechanism to model agent interactions and enhance coordination. Similarly, [74] 
 Communication, enabling agents to selectively focus on relevant information. Likewise, [75] develop
 a learned selective communication protocol to improve cooperation efficiency.
 Another important research direction is fine-tuning MAS agents with reinforcement learning. Agents
-can be trained with role-specific algorithms, rewarding task-aligned actions and penalizing ineffi-
-ciencies. MAPPO [76] optimizes agents’ adherence to defined roles. Similarly, SHPPO [77] uses a
+can be trained with role-specific algorithms, rewarding task-aligned actions and penalizing inefficiencies. MAPPO [76] optimizes agents’ adherence to defined roles. Similarly, SHPPO [77] uses a
 latent network to learn strategies before applying a heterogeneous decision layer. Optima [78] further
 enhances communication efficiency and task effectiveness through iterative reinforcement learning.
-25
-
 
 On a different note, incorporating probabilistic confidence measures into agent interactions can
 significantly enhance decision-making and communication reliability. Drawing inspiration from the
@@ -1780,8 +1645,7 @@ framework proposed by Horvitz et al. [79], agents can be designed to take action
 confidence exceeds a predefined threshold. Conversely, when confidence is low, agents can pause
 to gather additional information. Furthermore, the system could benefit from adaptive thresholding,
 where confidence thresholds are dynamically adjusted.
-Although often seen as a single-agent property, memory and state management are crucial for multi-
-agent interactions, which can enhance context understanding and reduces ambiguity in communication.
+Although often seen as a single-agent property, memory and state management are crucial for multiagent interactions, which can enhance context understanding and reduces ambiguity in communication.
 However, most research focuses on single-agent systems. MemGPT [3] introduces OS-inspired
 context management for an extended context window, while TapeAgents [80] use a structured,
 replayable log (“tape”) to iteratively document and refine agent actions, facilitating dynamic task
@@ -1796,10 +1660,8 @@ further discussions, Self-verification,
 Conversation pattern design
 Comprehensive verification, Confidence
 quantification
-Inter-Agent Misalign-
-ment
-Cross-verification, Conversation pat-
-tern design, Mutual disambiguation,
+Inter-Agent Misalignment
+Cross-verification, Conversation pattern design, Mutual disambiguation,
 Modular agents design
 Standardized communication protocols,
 Probabilistic confidence measures
@@ -1839,8 +1701,6 @@ the same improvement. A Wilcoxon test returned a p-value of 0.4, indicating the 
 statistically significant. With GPT-4o (the third column of Table 5), the Wilcoxon test yields a p-value
 of 0.03 when comparing the baseline to both the improved prompt and the new topology, indicating
 statistically significant improvements. These results suggest that refining prompts and defining clear
-26
-
 
 agent roles can reduce failures. However, these strategies are not universal, and their effectiveness
 varies based on factors such as the underlying LLM.
@@ -1904,8 +1764,6 @@ topology-based changes are more effective than prompt-based changes for both sys
 this displays another usage of MAST, which is as well as an analysis tool after execution, it can serve as
 a debugging tool for future improvements as it shows which failure modes particular augmentations
 to the system can solve or miss, guiding future intervention decisions.
-27
-
 
 1.1
 1.2
@@ -1922,58 +1780,11 @@ to the system can solve or miss, guiding future intervention decisions.
 3.2
 3.3
 Failure Mode
-0
-20
-40
-60
-80
-100
-120
-140
-160
+
+
 Number of Failures
-133
-104
-136
-118
-134
-128
-130
-130
-128
-41
-135
-130
-45
-130
-117
-104
-168
-133
-165
-147
-147
-153
-144
-46
-159
-145
-47
-143
-24
-21
-50
-36
-40
-39
-34
-37
-38
-12
-45
-38
-10
-38
+
+
 Number of Failures by Failure Mode - Intervention Comparison
 Original
 Prompt Intervention
@@ -1982,25 +1793,11 @@ Topology Intervention
 2. Interagent Misalignment
 3. Verification Issues
 Failure Category
-0
-100
-200
-300
-400
-500
-600
-700
-800
+
+
 Number of Failures
-625
-687
-171
-692
-796
-205
-305
-335
-86
+
+
 Distribution of Failures by Main Category - Intervention Comparison
 Original
 Prompt Intervention
@@ -2023,54 +1820,11 @@ automated LLM-as-a-Judge
 3.2
 3.3
 Failure Mode
-0
-20
-40
-60
-80
+
+
 Number of Failures
-88
-84
-85
-83
-84
-84
-80
-84
-84
-29
-86
-84
-40
-85
-75
-73
-75
-74
-75
-75
-73
-75
-75
-28
-77
-75
-26
-75
-72
-70
-71
-71
-71
-71
-68
-71
-71
-23
-72
-71
-27
-71
+
+
 Number of Failures by Failure Mode - Intervention Comparison
 Original
 Prompt Intervention
@@ -2079,21 +1833,11 @@ Topology Intervention
 2. Interagent Misalignment
 3. Verification Issues
 Failure Category
-0
-100
-200
-300
-400
+
+
 Number of Failures
-424
-372
-355
-447
-403
-376
-209
-176
-169
+
+
 Distribution of Failures by Main Category - Intervention Comparison
 Original
 Prompt Intervention
@@ -2103,8 +1847,7 @@ Figure 11: Effect of prompt and topology interventions on ChatDev as captured by
 automated LLM-as-a-Judge
 I
 Analysis on Multi-Agent Systems with Open-Source Models
-In this section, we also provide the analysis of failure modes on MetaGPT and ChatDev frame-
-works where the underlying LLMs are open-source models.
+In this section, we also provide the analysis of failure modes on MetaGPT and ChatDev frameworks where the underlying LLMs are open-source models.
 In particular, we chose to use
 Qwen2.5-Coder-32B-Instruct [83] and CodeLlama-7b-Instruct-hf [84] models for these
 two frameworks. The analysis of failure modes is shown in Table 6. This new analysis reveals two
@@ -2135,8 +1878,6 @@ J
 Correlation of Failure Modes with Different Statistics
 In this section, we provide how the failure modes in MAST correlate with some important statistics,
 such as the actual task completion rates, and different benchmarks.
-28
-
 
 Table 6: Failure Mode Occurrences in 400 Traces with Open-Source Models. Results are grouped by
 model family (Qwen vs. CodeLlama) and development framework (ChatDev vs. MetaGPT).
@@ -2148,75 +1889,47 @@ MetaGPT
 ChatDev
 MetaGPT
 1.1
-35
-12
-76
-94
+
+
 1.2
-4
-1
-45
-12
+
+
 1.3
-96
-35
-97
-99
+
+
 1.4
-1
-0
-46
-23
+
+
 1.5
-94
-3
-97
-76
+
+
 2.1
-2
-0
-50
-9
+
+
 2.2
-1
-4
-16
-15
+
+
 2.3
-9
-0
-76
-57
+
+
 2.4
-0
-0
-2
-0
+
+
 2.5
-2
-12
-42
-40
+
+
 2.6
-20
-16
-93
-18
+
+
 3.1
-1
-47
-25
-26
+
+
 3.2
-16
-51
-67
-55
+
+
 3.3
-12
-32
-69
-56
+
+
 J.1
 How Indicative are Different Failure Modes of Actual Success?
 One important question to ask is, for traces where we know whether they succeeded or failed and if
@@ -2231,8 +1944,7 @@ that a higher number of failures do signal a higher chance of final task failure
 failure types. Certain failures, such as 1.5 Unaware of Termination Conditions and 2.4
 Information Withholding, appear almost exclusively in failed runs, suggesting they are
 critical bugs that are highly likely to derail the task.
-• Some failures are non-fatal. In contrast, verification-related failures like 3.2 No or Incom-
-plete Verification and 3.3 Incorrect Verification appear frequently even in successful runs.
+• Some failures are non-fatal. In contrast, verification-related failures like 3.2 No or Incomplete Verification and 3.3 Incorrect Verification appear frequently even in successful runs.
 This suggests that while these systems can complete some tasks, their verification process
 still contains flaws. MAST identifies such systemic weaknesses, even when they do not
 cause an immediate task failure.
@@ -2278,8 +1990,6 @@ MetaGPT Fail
 5.6 0.0 16.7 5.6
 5.6
 27.8
-29
-
 
 J.2
 Failure Mode Occurrence Rates on Different Benchmarks
@@ -2334,8 +2044,6 @@ MagenticOne
 1.3056
 OpenManus
 4.1409
-30
-
 
 L
 AG2 - MathChat Scenario
@@ -2392,8 +2100,6 @@ methods, follow this structured approach:
 2. Identify any queries that can be computed using Python (e.g., calculations or
 equations).
 3. Await my input for any results obtained.
-31
-
 
 4. If the results are valid and expected, proceed with your solution. If not, revise
 your query or reasoning accordingly.
@@ -2444,8 +2150,6 @@ Agent Verifier’s System Prompt
 You are Agent Verifier.
 Your role is to critically evaluate the solutions proposed by other agents step by
 step and provide a final solution.
-32
-
 
 1. **Solution Requirement**: Before making any decisions, ensure you have received
 solutions from both Agent Code Executor and Agent Problem Solver. If either
@@ -2507,8 +2211,6 @@ total_money_after_babysitting = initial_money + babysitting_earning
 amount_needed = total_cost - total_money_after_babysitting
 # how much sara earns from mowing each time
 mowing_earning = 10
-33
-
 
 # calculate how many times she needs to mow the lawn
 num_times_mowing = amount_needed // mowing_earning # using integer division for
@@ -2529,8 +2231,6 @@ the accuracy of our solution.
 Great team work, Agents.
 [Agent Verifier]
 SOLUTION_FOUND \\boxed{17}
-34
-
 
 M
 ChatDev Prompt Interventions
@@ -2590,8 +2290,6 @@ management and employees.",
 "To complete the task, I will give you one or more instructions, and you must
 help me to write a specific solution that appropriately solves the requested
 instruction based on your expertise and my needs."
-35
-
 
 M.1.5
 Chief Technology Officer
@@ -2653,8 +2351,6 @@ You provide constructive feedback to improve software robustness.",
 "Here is a new customer’s task: {task}.",
 "To complete the task, you will review the code submitted by programmers,
 identify issues, and suggest improvements to meet quality standards."
-36
-
 
 M.2.4
 Chief Executive Officer
@@ -2684,8 +2380,6 @@ technology into the company’s strategy.",
 "To complete the task, you will develop the technical strategy and guide your
 team to ensure the solution meets the customer’s needs and adheres to
 technological standards."
-37
-
 
 N
 Examples of Different Failure Modes
@@ -2744,8 +2438,6 @@ Example for FM-1.5 Unaware of stopping conditions
 even if it was clear that the problem was unsolvable.
 • Where it went wrong:
 [...]
-38
-
 
 [Assistant] This problem is a reasoning problem. The information provided in
 the problem statement does not give any specifics about the amount of
@@ -2803,8 +2495,6 @@ Example for FM-2.2 Fail to ask for clarification
 • Where it went wrong:
 [...]
 [Spotify Agent] Please provide the access token to retrieve your playlists.
-39
-
 
 [Supervisor Agent] I need to get the Spotify access token from the
 supervisor app. Let’s retrieve the account credentials to find the
@@ -2855,8 +2545,6 @@ the numbers were listed. They did not verify the result even if it was straightf
 [mathproxyagent] [...] Sally received the following scores on her math
 quizzes: 50, 80, 80, 60, 40, 90, 100, 70, and another score that is
 forgotten. If the mean score is 70, what’s the forgortten score?
-40
-
 
 [assistant] The mean of a set of numbers is the sum of the numbers divided
 by the quantity of the numbers. In this case, the mean score is 70, this
@@ -2915,8 +2603,6 @@ None:
 moves.append(forward)
 if position[0] == (6 if self.color == "White" else 1): #
 Starting position
-41
-
 
 double_forward = (position[0] + 2 * direction, position
 [1])
@@ -2966,8 +2652,7 @@ things to planner.
 [...]
 HyperAgent_pylint-dev__pylint-6506 - INFO - Inner-Navigator-Assistant’s
 Response: Thought: The ‘_config_initialization‘ function in ‘pylint/
-config/config_initialization.py‘ is responsible for parsing the command-
-line arguments and configuration files for Pylint. It looks like the
+config/config_initialization.py‘ is responsible for parsing the commandline arguments and configuration files for Pylint. It looks like the
 unrecognized ‘-Q‘ option is being handled in the following section:
 ‘‘‘python
 # Check if there are any options that we do not recognize
@@ -2978,8 +2663,6 @@ unrecognized_options.append(opt[2:])
 elif opt.startswith(\"-\"):
 unrecognized_options.append(opt[1:])
 if unrecognized_options:
-42
-
 
 msg = \", \".join(unrecognized_options)
 linter.add_message(\"unrecognized-option\", line=0, args=msg)
@@ -3036,8 +2719,6 @@ verbose_mode: bool = False,
 # ...
 # Now we parse any options from the command line, so they can override
 # the configuration file
-43
-
 
 parsed_args_list = linter._parse_command_line_configuration(args_list)
 # ...
@@ -3068,8 +2749,7 @@ N.11
 Example for FM-2.5 Ignored other agent’s input, FM-3.3 Incorrect verification,
 • MAS: Multi-Agent Peer Review
 • Task: Solving a mathematical problem.
-• What happened: The solution presented by another agent is correct. The agent acknowl-
-edges that but ignores this fact and does not detect that there is contradiction with its own
+• What happened: The solution presented by another agent is correct. The agent acknowledges that but ignores this fact and does not detect that there is contradiction with its own
 solution.
 • Where it went wrong:
 [...]
@@ -3095,8 +2775,6 @@ rooms, he has 84 - (7 x 5) = <<84-(7*5)=49>>49 hours left to complete
 the painting of the remaining rooms.\nTherefore, the painter will take
 49 more hours to paint the rest of the rooms. \n\n\\boxed{49}.\n\n
 Please examine this agent’s reasoning process step by step and offer
-44
-
 
 feedback on its reasoning. You can rate your confidence in your feedback
 on a scale from 1-10, where 10 indicates the highest level of
@@ -3131,8 +2809,7 @@ agents decides to substitute this with a model inside scikit-learn. But then the
 back to lightgbm as the last interactions do not exist.
 • Where it went wrong:
 [...]
-HyperAgent_scikit-learn__scikit-learn-25570 - INFO - Inner-Executor-
-Assistant’s Response: Thought: Let’s run the provided code snippet to
+HyperAgent_scikit-learn__scikit-learn-25570 - INFO - Inner-ExecutorAssistant’s Response: Thought: Let’s run the provided code snippet to
 test the modified ‘ColumnTransformer‘ implementation.
 Action:
 ‘‘‘bash
@@ -3145,8 +2822,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import RobustScaler
 [...]
-HyperAgent_scikit-learn__scikit-learn-25570 - INFO - Inner-Executor-
-Assistant’s Response: Ah, I see the issue - the code you provided
+HyperAgent_scikit-learn__scikit-learn-25570 - INFO - Inner-ExecutorAssistant’s Response: Ah, I see the issue - the code you provided
 requires the ‘lightgbm‘ library, which is not installed in the current
 environment. Let me modify the code to use a library that is more
 readily available.
@@ -3159,11 +2835,8 @@ from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import RobustScaler
 [...]
-45
 
-
-HyperAgent_scikit-learn__scikit-learn-25570 - INFO - Inner-Executor-
-Assistant’s Response: It seems there is an issue with the scikit-learn
+HyperAgent_scikit-learn__scikit-learn-25570 - INFO - Inner-ExecutorAssistant’s Response: It seems there is an issue with the scikit-learn
 installation in the current environment. The error message indicates
 that the ‘sklearn.__check_build._check_build‘ module is not found, which
 suggests that the scikit-learn package has not been built correctly.
@@ -3173,8 +2846,7 @@ pip uninstall scikit-learn -y
 pip install scikit-learn
 ‘‘‘
 [...]
-HyperAgent_scikit-learn__scikit-learn-25570 - INFO - Inner-Executor-
-Assistant’s Response: Excellent, the scikit-learn package has been
+HyperAgent_scikit-learn__scikit-learn-25570 - INFO - Inner-ExecutorAssistant’s Response: Excellent, the scikit-learn package has been
 successfully reinstalled. Let’s now try running the modified test code
 again.
 Action:
@@ -3223,8 +2895,6 @@ mode: str = \"r\",
 [...]
 HyperAgent_pallets__flask-4992 - INFO - Inner-Editor-Assistant’s Response:
 Thought: The modification has been successfully applied to the ‘
-46
-
 
 from_file()‘ method in the ‘src/flask/config.py‘ file. The changes
 include [...]
@@ -3235,4 +2905,3 @@ not recognize the ‘mode‘ parameter, indicating that the modification to
 the method has not been applied yet. We need to ensure that the method
 has been updated correctly before running the test script again.
 [...]
-47

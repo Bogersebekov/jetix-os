@@ -9,10 +9,11 @@ chars: 663509
 approx_tokens: 165877
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 663511
+phase4_chars_after: 661398
+phase4_saved_pct: 0.3
 ---
-
-
-
 
 
 INFLUENCE
@@ -29,33 +30,33 @@ who glows in his father’s eye
 Contents
 v
 Introduction
-1
-1
+
+
 Weapons of Influence
-13
-2
+
+
 Reciprocation: The Old Give and Take…and Take
-43
-3
+
+
 Commitment and Consistency: Hobgoblins of the Mind
-87
-4
+
+
 Social Proof: Truths Are Us
-126
-5
+
+
 Liking: The Friendly Thief
-157
-6
+
+
 Authority: Directed Deference
-178
-7
+
+
 Scarcity: The Rule of the Few
-205
-211
+
+
 Notes
-225
+
 Bibliography
-241
+
 Index
 Acknowledgments
 About the Author
@@ -66,12 +67,9 @@ Primitive Consent for an Automatic Age
 Epilogue Instant Influence:
 
 
-
-
 INTRODUCTION
 I can admit it freely now. All my life I’ve been a patsy. For as long as I
-can recall, I’ve been an easy mark for the pitches of peddlers, fund-
-raisers, and operators of one sort or another. True, only some of these
+can recall, I’ve been an easy mark for the pitches of peddlers, fundraisers, and operators of one sort or another. True, only some of these
 people have had dishonorable motives. The others—representatives of
 certain charitable agencies, for instance—have had the best of intentions.
 No matter. With personally disquieting frequency, I have always found
@@ -88,19 +86,15 @@ research into the psychology of compliance. At first the research
 
 
 took the form of experiments performed, for the most part, in my
-laboratory and on college students. I wanted to find out which psycho-
-logical principles influence the tendency to comply with a request. Right
+laboratory and on college students. I wanted to find out which psychological principles influence the tendency to comply with a request. Right
 now, psychologists know quite a bit about these principles—what they
 are and how they work. I have characterized such principles as weapons
-of influence and will report on some of the most important in the up-
-coming chapters.
+of influence and will report on some of the most important in the upcoming chapters.
 After a time, though, I began to realize that the experimental work,
-while necessary, wasn’t enough. It didn’t allow me to judge the import-
-ance of the principles in the world beyond the psychology building and
+while necessary, wasn’t enough. It didn’t allow me to judge the importance of the principles in the world beyond the psychology building and
 the campus where I was examining them. It became clear that if I was
 to understand fully the psychològy of compliance, I would need to
-broaden my scope of investigation. I would need to look to the compli-
-ance professionals—the people who had been using the principles on
+broaden my scope of investigation. I would need to look to the compliance professionals—the people who had been using the principles on
 me all my life. They know what works and what doesn’t; the law of
 survival of the fittest assures it. Their business is to make us comply,
 and their livelihoods depend on it. Those who don’t know how to get
@@ -109,35 +103,26 @@ Of course, the compliance professionals aren’t the only ones who
 know about and use these principles to help them get their way. We
 all employ them and fall victim to them, to some degree, in our daily
 interactions with neighbors, friends, lovers, and offspring. But the
-compliance practitioners have much more than the vague and amateur-
-ish understanding of what works than the rest of us have. As I thought
+compliance practitioners have much more than the vague and amateurish understanding of what works than the rest of us have. As I thought
 about it, I knew that they represented the richest vein of information
-about compliance available to me. For nearly three years, then, I com-
-bined my experimental studies with a decidedly more entertaining
-program of systematic immersion into the world of compliance profes-
-sionals—sales operators, fund-raisers, recruiters, advertisers, and others.
+about compliance available to me. For nearly three years, then, I combined my experimental studies with a decidedly more entertaining
+program of systematic immersion into the world of compliance professionals—sales operators, fund-raisers, recruiters, advertisers, and others.
 The purpose was to observe, from the inside, the techniques and
 strategies most commonly and effectively used by a broad range of
 compliance practitioners. That program of observation sometimes took
 the form of interviews with the practitioners themselves and sometimes
 with the natural enemies (for example, police buncosquad officers,
-consumer agencies) of certain of the practitioners. At other times it in-
-volved an intensive examination of the written materials by which
-compliance techniques are passed down from one generation to anoth-
-er—sales manuals and the like.
-Most frequently, though, it has taken the form of participant observa-
-tion. Participant observation is a research approach in which the re-
-searcher becomes a spy of sorts. With disguised identity and intent, the
+consumer agencies) of certain of the practitioners. At other times it involved an intensive examination of the written materials by which
+compliance techniques are passed down from one generation to another—sales manuals and the like.
+Most frequently, though, it has taken the form of participant observation. Participant observation is a research approach in which the researcher becomes a spy of sorts. With disguised identity and intent, the
 investigator infiltrates the setting of interest and becomes a full-fledged
 vi / Influence
 
 
 participant in the group to be studied. So when I wanted to learn about
-the compliance tactics of encyclopedia (or vacuum-cleaner, or portrait-
-photography, or dance-lesson) sales organizations, I would answer a
+the compliance tactics of encyclopedia (or vacuum-cleaner, or portraitphotography, or dance-lesson) sales organizations, I would answer a
 newspaper ad for sales trainees and have them teach me their methods.
-Using similar but not identical approaches, I was able to penetrate ad-
-vertising, public-relations, and fund-raising agencies to examine their
+Using similar but not identical approaches, I was able to penetrate advertising, public-relations, and fund-raising agencies to examine their
 techniques. Much of the evidence presented in this book, then, comes
 from my experience posing as a compliance professional, or aspiring
 professional, in a large variety of organizations dedicated to getting us
@@ -148,8 +133,7 @@ different tactics that compliance practitioners employ to produce yes,
 the majority fall within six basic categories. Each of these categories is
 governed by a fundamental psychological principle that directs human
 behavior and, in so doing, gives the tactics their power. The book is
-organized around these six principles, one to a chapter. The prin-
-ciples—consistency, reciprocation, social proof, authority, liking, and
+organized around these six principles, one to a chapter. The principles—consistency, reciprocation, social proof, authority, liking, and
 scarcity—are each discussed in terms of their function in the society
 and in terms of how their enormous force can be commissioned by a
 compliance professional who deftly incorporates them into requests
@@ -160,15 +144,12 @@ least for their choices. This omission does not stem from any perception
 on my part that the desire to maximize benefits and minimize costs is
 unimportant in driving our decisions. Nor does it come from any
 evidence I have that compliance professionals ignore the power of this
-rule. Quite the opposite: In my investigations, I frequently saw practi-
-tioners use (sometimes honestly, sometimes not) the compelling “I can
-give you a good deal” approach. I choose not to treat the material self-
-interest rule separately in this book because I see it as a motivational
+rule. Quite the opposite: In my investigations, I frequently saw practitioners use (sometimes honestly, sometimes not) the compelling “I can
+give you a good deal” approach. I choose not to treat the material selfinterest rule separately in this book because I see it as a motivational
 given, as a goes-without-saying factor that deserves acknowledgment
 but not extensive description.
 Finally, each principle is examined as to its ability to produce a distinct
-kind of automatic, mindless compliance from people, that is, a willing-
-ness to say yes without thinking first. The evidence suggests that the
+kind of automatic, mindless compliance from people, that is, a willingness to say yes without thinking first. The evidence suggests that the
 ever-accelerating pace and informational crush of modern life will make
 this particular form of unthinking compliance more and more prevalent
 in the future. It will be increasingly important for the society, therefore,
@@ -205,8 +186,7 @@ viii / Influence
 Chapter 1
 WEAPONS OF
 INFLUENCE
-Everything should be made as simple as possible, but not sim-
-pler.
+Everything should be made as simple as possible, but not simpler.
 —ALBERT EINSTEIN
 I
 GOT A PHONE CALL ONE DAY FROM A FRIEND WHO HAD RECENTLY
@@ -224,8 +204,7 @@ items hard, again without success.
 Finally, the night before leaving on an out-of-town buying trip, she
 scribbled an exasperated note to her head saleswoman, “Everything in
 this display case, price × ½,” hoping just to be rid of the offending pieces,
-even if at a loss. When she returned a few days later, she was not sur-
-prised to find that every article had been sold. She was shocked, though,
+even if at a loss. When she returned a few days later, she was not surprised to find that every article had been sold. She was shocked, though,
 to discover that, because the employee had read the “½” in her scrawled
 message as a “2,” the entire allotment had sold out at twice the original
 price!
@@ -246,16 +225,13 @@ mothering process. If a chick makes the “cheep-cheep” noise, its
 mother will care for it; if not, the mother will ignore or sometimes kill
 it.
 The extreme reliance of maternal turkeys upon this one sound was
-dramatically illustrated by animal behaviorist M. W. Fox in his descrip-
-tion of an experiment involving a mother turkey and a stuffed polecat.1
+dramatically illustrated by animal behaviorist M. W. Fox in his description of an experiment involving a mother turkey and a stuffed polecat.1
 For a mother turkey, a polecat is a natural enemy whose approach is
-to be greeted with squawking, pecking, clawing rage. Indeed, the exper-
-imenters found that even a stuffed model of a polecat, when drawn by
+to be greeted with squawking, pecking, clawing rage. Indeed, the experimenters found that even a stuffed model of a polecat, when drawn by
 a string toward a mother turkey, received an immediate and furious
 attack. When, however, the same stuffed replica carried inside it a small
 recorder that played the “cheep-cheep” sound of baby turkeys, the
-mother not only accepted the oncoming polecat but gathered it under-
-neath her. When the machine was turned off, the polecat model again
+mother not only accepted the oncoming polecat but gathered it underneath her. When the machine was turned off, the polecat model again
 drew a vicious attack.
 How ridiculous a female turkey seems under these circumstances:
 She will embrace a natural enemy just because it goes “cheep-cheep,”
@@ -277,10 +253,8 @@ when the situation calls for mothering, the maternal-behavior tape gets
 
 played. Click and the appropriate tape is activated; whirr and out rolls
 the standard sequence of behaviors.
-The most interesting thing about all this is the way the tapes are ac-
-tivated. When a male animal acts to defend his territory, for instance,
-it is the intrusion of another male of the same species that cues the ter-
-ritorial-defense tape of rigid vigilance, threat, and, if need be, combat
+The most interesting thing about all this is the way the tapes are activated. When a male animal acts to defend his territory, for instance,
+it is the intrusion of another male of the same species that cues the territorial-defense tape of rigid vigilance, threat, and, if need be, combat
 behaviors. But there is a quirk in the system. It is not the rival male as
 a whole that is the trigger; it is some specific feature of him, the trigger
 feature. Often the trigger feature will be just one tiny aspect of the totality
@@ -295,8 +269,7 @@ that the trigger for territorial defense is a specific shade of blue breast
 feathers.2
 Before we enjoy too smugly the ease with which lower animals can
 be tricked by trigger features into reacting in ways wholly inappropriate
-to the situation, we might realize two things. First, the automatic, fixed-
-action patterns of these animals work very well the great majority of
+to the situation, we might realize two things. First, the automatic, fixedaction patterns of these animals work very well the great majority of
 the time. For example, because only healthy, normal turkey chicks make
 the peculiar sound of baby turkeys, it makes sense for mother turkeys
 to respond maternally to that single “cheep-cheep” noise. By reacting
@@ -307,11 +280,9 @@ we, too, have our preprogrammed tapes; and, although they usually
 work to our advantage, the trigger features that activate them can be
 used to dupe us into playing them at the wrong times.3
 This parallel form of human automatic action is aptly demonstrated
-in an experiment by Harvard social psychologist Ellen Langer. A well-
-known principle of human behavior says that when we ask someone
+in an experiment by Harvard social psychologist Ellen Langer. A wellknown principle of human behavior says that when we ask someone
 to do us a favor we will be more successful if we provide a reason.
-People simply like to have reasons for what they do. Langer demon-
-strated this unsurprising fact by asking a small favor of people waiting
+People simply like to have reasons for what they do. Langer demonstrated this unsurprising fact by asking a small favor of people waiting
 in line to use a library copying machine: Excuse me, I have five pages. May
 I use the Xerox machine because I’m in a rush? The effectiveness of this
 request-plus-reason was nearly total: Ninety-four percent of those asked
@@ -325,8 +296,7 @@ asked complied. At first glance, it appears that the crucial difference
 between the two requests was the additional information provided by
 the words “because I’m in a rush.” But a third type of request tried by
 Langer showed that this was not the case. It seems that it was not the
-whole series of words, but the first one, “because,” that made the differ-
-ence. Instead of including a real reason for compliance, Langer’s third
+whole series of words, but the first one, “because,” that made the difference. Instead of including a real reason for compliance, Langer’s third
 type of request used the word “because” and then, adding nothing new,
 merely restated the obvious: Excuse me, I have five pages. May I use the
 Xerox machine because I have to make some copies? The result was that once
@@ -334,12 +304,10 @@ again nearly all (93 percent) agreed, even though no real reason, no
 new information, was added to justify their compliance. Just as the
 “cheep-cheep” sound of turkey chicks triggered an automatic mothering
 response from maternal turkeys—even when it emanated from a stuffed
-polecat—so, too, did the word “because” trigger an automatic compli-
-ance response from Langer’s subjects, even when they were given no
+polecat—so, too, did the word “because” trigger an automatic compliance response from Langer’s subjects, even when they were given no
 subsequent reason to comply. Click, whirr!4
 Although some of Langer’s additional findings show that there are
-many situations in which human behavior does not work in a mechan-
-ical, tape-activated way, what is astonishing is how often it does. For
+many situations in which human behavior does not work in a mechanical, tape-activated way, what is astonishing is how often it does. For
 instance, consider the strange behavior of those jewelry-store customers
 who swooped down on an allotment of turquoise pieces only after the
 items had been mistakenly offered at double their original price. I can
@@ -358,9 +326,7 @@ brought up on the rule “You get what you pay for” and who had seen
 that rule borne out over and over in their lives. Before long, they had
 translated the rule to mean “expensive = good.” The “expensive = good”
 stereotype had worked quite well for them in the past, since normally
-the price of an item increases along with its worth; a higher price typic-
-ally reflects higher quality. So when they found themselves in the pos-
-ition of wanting good turquoise jewelry without much knowledge of
+the price of an item increases along with its worth; a higher price typically reflects higher quality. So when they found themselves in the position of wanting good turquoise jewelry without much knowledge of
 4 / Influence
 
 
@@ -376,10 +342,7 @@ that price alone would tell them all they needed to know. This time,
 because someone mistook a “½” for a “2,” they bet wrong. But in the
 long run, over all the past and future situations of their lives, betting
 those shortcut odds may represent the most rational approach possible.
-In fact, automatic, stereotyped behavior is prevalent in much of hu-
-man action, because in many cases it is the most efficient form of behav-
-ing, and in other cases it is simply necessary. You and I exist in an ex-
-traordinarily complicated stimulus environment, easily the most rapidly
+In fact, automatic, stereotyped behavior is prevalent in much of human action, because in many cases it is the most efficient form of behaving, and in other cases it is simply necessary. You and I exist in an extraordinarily complicated stimulus environment, easily the most rapidly
 moving and complex that has ever existed on this planet. To deal with
 it, we need shortcuts. We can’t be expected to recognize and analyze all
 the aspects in each person, event, and situation we encounter in even
@@ -396,30 +359,24 @@ And from all indications, we will be relying on them to an even greater
 extent in the future. As the stimuli saturating our lives continue to grow
 more intricate and variable, we will have to depend increasingly on
 our shortcuts to handle them all.
-The renowned British philosopher Alfred North Whitehead recog-
-nized this inescapable quality of modern life when he asserted that
+The renowned British philosopher Alfred North Whitehead recognized this inescapable quality of modern life when he asserted that
 “civilization advances by extending the number of operations we can
-perform without thinking about them.” Take, for example, the “ad-
-vance” offered to civilization by the discount coupon, which allows
+perform without thinking about them.” Take, for example, the “advance” offered to civilization by the discount coupon, which allows
 consumers to assume that they will receive a reduced purchase price
-by presenting the coupon. The extent to which we have learned to op-
-erate mechanically on that assumption is illustrated in the experience
+by presenting the coupon. The extent to which we have learned to operate mechanically on that assumption is illustrated in the experience
 of one automobile-tire company. Mailed-out coupons that—because of
 a printing error—offered no savings to recipients produced just as much
 customer response as did error-free coupons that offered substantial
 Robert B. Cialdini Ph.D / 5
 
 
-savings. The obvious but instructive point here is that we expect dis-
-count coupons to do double duty. Not only do we expect them to save
+savings. The obvious but instructive point here is that we expect discount coupons to do double duty. Not only do we expect them to save
 us money, we also expect them to save us the time and mental energy
 required to think about how to do it. In today’s world, we need the first
-advantage to handle pocketbook strain; but we need the second advant-
-age to handle something potentially more important—brain strain.
+advantage to handle pocketbook strain; but we need the second advantage to handle something potentially more important—brain strain.
 It is odd that despite their current widespread use and looming future
 importance, most of us know very little about our automatic behavior
-patterns. Perhaps that is so precisely because of the mechanistic, un-
-thinking manner in which they occur. Whatever the reason, it is vital
+patterns. Perhaps that is so precisely because of the mechanistic, unthinking manner in which they occur. Whatever the reason, it is vital
 that we clearly recognize one of their properties: They make us terribly
 vulnerable to anyone who does know how they work.
 To understand fully the nature of our vulnerability, another glance
@@ -436,8 +393,7 @@ one genus of firefly (Photuris) on the males of another firefly genus
 (Photinus). Understandably, the Photinus males scrupulously avoid
 contact with the bloodthirsty Photuris females. But through centuries
 of experience, the female hunters have located a weakness in their
-prey—a special blinking courtship code by which members of the vic-
-tims’ species tell one another they are ready to mate. Somehow, the
+prey—a special blinking courtship code by which members of the victims’ species tell one another they are ready to mate. Somehow, the
 Photuris female has cracked the Photinus courtship code. By mimicking
 the flashing mating signals of her prey, the murderess is able to feast
 on the bodies of males whose triggered courtship tapes cause them to
@@ -458,8 +414,7 @@ to pick off fungus and other parasites that have attached themselves to
 the big fish’s teeth or gills. It is a beautiful arrangement: The big grouper
 gets cleaned of harmful pests, and the cleaner fish gets an easy dinner.
 The larger fish normally devours any other small fish foolish enough
-to come close to it. But when the cleaner approaches, the big fish sud-
-denly stops all movement and floats open-mouthed and nearly immobile
+to come close to it. But when the cleaner approaches, the big fish suddenly stops all movement and floats open-mouthed and nearly immobile
 in response to an undulating dance that the cleaner performs. This
 dance appears to be the trigger feature of the cleaner that activates the
 dramatic passivity of the big fish. It also provides the saber-toothed
@@ -471,8 +426,7 @@ will quickly rip a mouthful from the larger fish’s flesh and dart away
 before its startled victim can recover.5
 There is a strong but sad parallel in the human jungle. We too have
 exploiters who mimic trigger features for our own brand of automatic
-responding. Unlike the mostly instinctive response sequences of non-
-humans, our automatic tapes usually develop from psychological
+responding. Unlike the mostly instinctive response sequences of nonhumans, our automatic tapes usually develop from psychological
 principles or stereotypes we have learned to accept. Although they vary
 in their force, some of these principles possess a tremendous ability to
 direct human action. We have been subjected to them from such an
@@ -510,8 +464,7 @@ By no means is my friend original in this last use of the “expensive
 = good” rule to snare those seeking a bargain. Culturist and author Leo
 Rosten gives the example of the Drubeck brothers, Sid and Harry, who
 owned a men’s tailor shop in Rosten’s neighborhood while he was
-growing up in the 1930s. Whenever the salesman, Sid, had a new cus-
-tomer trying on suits in front of the shop’s three-sided mirror, he would
+growing up in the 1930s. Whenever the salesman, Sid, had a new customer trying on suits in front of the shop’s three-sided mirror, he would
 admit to a hearing problem, and, as they talked, he would repeatedly
 request that the man speak more loudly to him. Once the customer had
 found a suit he liked and had asked for the price, Sid would call to his
@@ -525,24 +478,21 @@ report, “He says twenty-two dollars.” Many a man would hurry to buy
 the suit and scramble out of the shop with his “expensive = good”
 bargain before Poor Sid discovered the “mistake.”
 There are several components shared by most of the weapons of
-automatic influence to be described in this book. We have already dis-
-cussed two of them—the nearly mechanical process by which the power
+automatic influence to be described in this book. We have already discussed two of them—the nearly mechanical process by which the power
 within these weapons can be activated, and the consequent exploitability
 of this power by anyone who knows how to trigger them. A third
 component involves the way that the weapons of automatic influence
 lend their force to those who use them. It’s not that the weapons, like
 a set of heavy clubs, provide a conspicuous arsenal to be used by one
 person to bludgeon another into submission.
-The process is much more sophisticated and subtle. With proper ex-
-ecution, the exploiters need hardly strain a muscle to get their way. All
+The process is much more sophisticated and subtle. With proper execution, the exploiters need hardly strain a muscle to get their way. All
 that is required is to trigger the great stores of influence that already
 exist in the situation and direct them toward the intended target. In this
 sense, the approach is not unlike that of the Japanese martial-art form
 called jujitsu. A woman employing jujitsu would utilize her own
 strength only minimally against an opponent. Instead, she would exploit
 the power inherent in such naturally present principles as gravity,
-leverage, momentum, and inertia. If she knows how and where to en-
-gage the action of these principles, she can easily defeat a physically
+leverage, momentum, and inertia. If she knows how and where to engage the action of these principles, she can easily defeat a physically
 8 / Influence
 
 
@@ -557,8 +507,7 @@ than by the designs of the person who profits from that compliance.
 An example is in order. There is a principle in human perception, the
 contrast principle, that affects the way we see the difference between
 two things that are presented one after another. Simply put, if the second
-item is fairly different from the first, we will tend to see it as more dif-
-ferent than it actually is. So if we lift a light object first and then lift a
+item is fairly different from the first, we will tend to see it as more different than it actually is. So if we lift a light object first and then lift a
 heavy object, we will estimate the second object to be heavier than if
 we had lifted it without first trying the light one. The contrast principle
 is well established in the field of psychophysics and applies to all sorts
@@ -569,8 +518,7 @@ In fact, studies done on the contrast principle at Arizona State and
 Montana State universities suggest that we may be less satisfied with
 the physical attractiveness of our own lovers because of the way the
 popular media bombard us with examples of unrealistically attractive
-models. In one study college students rated a picture of an average-
-looking member of the opposite sex as less attractive if they had first
+models. In one study college students rated a picture of an averagelooking member of the opposite sex as less attractive if they had first
 looked through the ads in some popular magazines. In another study,
 male college-dormitory residents rated the photo of a potential blind
 date. Those who did so while watching an episode of the Charlie’s Angels
@@ -595,9 +543,7 @@ thing—in this instance, room-temperature water—can be made to seem
 very different, depending on the nature of the event that precedes it.
 Be assured that the nice little weapon of influence provided by the
 contrast principle does not go unexploited. The great advantage of this
-principle is not only that it works but also that it is virtually undetect-
-able. Those who employ it can cash in on its influence without any ap-
-pearance of having structured the situation in their favor. Retail clothiers
+principle is not only that it works but also that it is virtually undetectable. Those who employ it can cash in on its influence without any appearance of having structured the situation in their favor. Retail clothiers
 are a good example. Suppose a man enters a fashionable men’s store
 and says that he wants to buy a three-piece suit and a sweater. If you
 were the salesperson, which would you show him first to make him
@@ -621,8 +567,7 @@ if he buys them after the suit purchase than before.”
 It is much more profitable for salespeople to present the expensive
 item first, not only because to fail to do so will lose the influence of the
 contrast principle; to fail to do so will also cause the principle to work
-actively against them. Presenting an inexpensive product first and fol-
-lowing it with an expensive one will cause the expensive item to seem
+actively against them. Presenting an inexpensive product first and following it with an expensive one will cause the expensive item to seem
 even more costly as a result—hardly a desirable consequence for most
 sales organizations. So, just as it is possible to make the same bucket of
 water appear to be hotter or colder, depending on the temperature of
@@ -644,8 +589,7 @@ he would start with a couple of undesirable houses. I asked him about
 it, and he laughed. They were what he called “setup” properties. The
 company maintained a run-down house or two on its lists at inflated
 prices. These houses were not intended to be sold to customers but to
-be shown to them, so that the genuine properties in the company’s in-
-ventory would benefit from the comparison. Not all the sales staff made
+be shown to them, so that the genuine properties in the company’s inventory would benefit from the comparison. Not all the sales staff made
 use of the setup houses, but Phil did. He said he liked to watch his
 prospects’ “eyes light up” when he showed the place he really wanted
 to sell them after they had seen the run-down houses. “The house I got
@@ -653,11 +597,9 @@ them spotted for looks really great after they’ve first looked at a couple
 of dumps.”
 Automobile dealers use the contrast principle by waiting until the
 price for a new car has been negotiated before suggesting one option
-after another that might be added. In the wake of a fifteen-thousand-
-dollar deal, the hundred or so dollars required for a nicety like an FM
+after another that might be added. In the wake of a fifteen-thousanddollar deal, the hundred or so dollars required for a nicety like an FM
 radio seems almost trivial in comparison. The same will be true of the
-added expense of accessories like tinted windows, dual side-view mir-
-rors, whitewall tires, or special trim that the salesman might suggest
+added expense of accessories like tinted windows, dual side-view mirrors, whitewall tires, or special trim that the salesman might suggest
 in sequence. The trick is to bring up the extras independently of one
 another, so that each small price will seem petty when compared to the
 already-determined much larger one. As the veteran car buyer can attest,
@@ -670,8 +612,7 @@ READER’S REPORT
 From the Parent of a College Coed
 Dear Mother and Dad:
 Since I left for college I have been remiss in writing and
-I am sorry for my thoughtlessness in not having written be-
-fore. I will bring you up to date now, but before you read on,
+I am sorry for my thoughtlessness in not having written before. I will bring you up to date now, but before you read on,
 please sit down. You are not to read any further unless you
 are sitting down, okay?
 Well, then, I am getting along pretty well now. The skull
@@ -683,13 +624,11 @@ Robert B. Cialdini Ph.D / 11
 
 weeks in the hospital and now I can see almost normally and
 only get those sick headaches once a day. Fortunately, the
-fire in the dormitory, and my jump, was witnessed by an at-
-tendant at the gas station near the dorm, and he was the one
+fire in the dormitory, and my jump, was witnessed by an attendant at the gas station near the dorm, and he was the one
 who called the Fire Department and the ambulance. He also
 visited me in the hospital and since I had nowhere to live
 because of the burntout dormitory, he was kind enough to
-invite me to share his apartment with him. It’s really a base-
-ment room, but it’s kind of cute. He is a very fine boy and
+invite me to share his apartment with him. It’s really a basement room, but it’s kind of cute. He is a very fine boy and
 we have fallen deeply in love and are planning to get married.
 We haven’t got the exact date yet, but it will be before my
 pregnancy begins to show.
@@ -719,16 +658,14 @@ The Old Give and Take…and Take
 Pay every debt, as if God wrote the bill.
 —RALPH WALDO EMERSON
 A
-FEW YEARS AGO, A UNIVERSITY PROFESSOR TRIED A LITTLE experi-
-ment. He sent Christmas cards to a sample of perfect strangers.
+FEW YEARS AGO, A UNIVERSITY PROFESSOR TRIED A LITTLE experiment. He sent Christmas cards to a sample of perfect strangers.
 Although he expected some reaction, the response he received was
 amazing—holiday cards addressed to him came pouring back from the
 people who had never met nor heard of him. The great majority of those
 who returned a card never inquired into the identity of the unknown
 professor. They received his holiday greeting card, click, and, whirr,
 they automatically sent one in return. While small in scope, this study
-nicely shows the action of one of the most potent of the weapons of in-
-fluence around us—the rule for reciprocation.1 The rule says that we
+nicely shows the action of one of the most potent of the weapons of influence around us—the rule for reciprocation.1 The rule says that we
 should try to repay, in kind, what another person has provided us. If
 a woman does us a favor, we should do her one in return; if a man
 sends us a birthday present, we should remember his birthday with a
@@ -743,41 +680,33 @@ obligation that goes with it is its pervasiveness in human culture. It is
 so widespread that after intensive study, sociologists such as Alvin
 
 
-Gouldner can report that there is no human society that does not sub-
-scribe to the rule.2 And within each society it seems pervasive also; it
-permeates exchanges of every kind. Indeed, it may well be that a de-
-veloped system of indebtedness flowing from the rule for reciprocation
+Gouldner can report that there is no human society that does not subscribe to the rule.2 And within each society it seems pervasive also; it
+permeates exchanges of every kind. Indeed, it may well be that a developed system of indebtedness flowing from the rule for reciprocation
 is a unique property of human culture. The noted archaeologist Richard
 Leakey ascribes the essence of what makes us human to the reciprocity
 system: “We are human because our ancestors learned to share their
 food and their skills in an honored network of obligation,”3 he says.
 Cultural anthropologists Lionel Tiger and Robin Fox view this “web of
-indebtedness” as a unique adaptive mechanism of human beings, al-
-lowing for the division of labor, the exchange of diverse forms of goods,
+indebtedness” as a unique adaptive mechanism of human beings, allowing for the division of labor, the exchange of diverse forms of goods,
 the exchange of different services (making it possible for experts to
 develop), and the creation of a cluster of interdependencies that bind
 individuals together into highly efficient units.4
 It is the future orientation inherent in a sense of obligation that is
 critical to its ability to produce social advances of the sort described by
-Tiger and Fox. A widely shared and strongly held feeling of future ob-
-ligation made an enormous difference in human social evolution, be-
-cause it meant that one person could give something (for example, food,
+Tiger and Fox. A widely shared and strongly held feeling of future obligation made an enormous difference in human social evolution, because it meant that one person could give something (for example, food,
 energy, care) to another with confidence that it was not being lost. For
 the first time in evolutionary history, one individual could give away
 any of a variety of resources without actually giving them away. The
 result was the lowering of the natural inhibitions against transactions
 that must be begun by one person’s providing personal resources to
-another. Sophisticated and coordinated systems of aid, gift giving, de-
-fense, and trade became possible, bringing immense benefit to the soci-
-eties that possessed them. With such clearly adaptive consequences for
+another. Sophisticated and coordinated systems of aid, gift giving, defense, and trade became possible, bringing immense benefit to the societies that possessed them. With such clearly adaptive consequences for
 the culture, it is not surprising that the rule for reciprocation is so deeply
 implanted in us by the process of socialization we all undergo.
 I know of no better illustration of how reciprocal obligations can
 reach long and powerfully into the future than the perplexing story of
 five thousand dollars of relief aid that was sent in 1985 between Mexico
 and the impoverished people of Ethiopia. In 1985 Ethiopia could justly
-lay claim to the greatest suffering and privation in the world. Its eco-
-nomy was in ruin. Its food supply had been ravaged by years of drought
+lay claim to the greatest suffering and privation in the world. Its economy was in ruin. Its food supply had been ravaged by years of drought
 and internal war. Its inhabitants were dying by the thousands from
 disease and starvation. Under these circumstances, I would not have
 been surprised to learn of a five-thousand-dollar relief donation from
@@ -790,20 +719,16 @@ of that year’s earthquakes in Mexico City.
 
 
 It is both a personal bane and a professional blessing that whenever
-I am confused by some aspect of human behavior, I feel driven to in-
-vestigate further. In this instance, I was able to track down a fuller ac-
-count of the story. Fortunately a journalist who had been as bewildered
+I am confused by some aspect of human behavior, I feel driven to investigate further. In this instance, I was able to track down a fuller account of the story. Fortunately a journalist who had been as bewildered
 as I was by the Ethiopians’ action had asked for an explanation. The
 answer he received offers eloquent validation of the reciprocity rule:
 Despite the enormous needs prevailing in Ethiopia, the money was
 being sent because Mexico had sent aid to Ethiopia in 1935, when it was
 invaded by Italy. So informed, I remained awed, but I was no longer
-puzzled. The need to reciprocate had transcended great cultural differ-
-ences, long distances, acute famine, and immediate self-interest. Quite
+puzzled. The need to reciprocate had transcended great cultural differences, long distances, acute famine, and immediate self-interest. Quite
 simply, a half century later, against all countervailing forces, obligation
 triumphed.
-Make no mistake, human societies derive a truly significant compet-
-itive advantage from the reciprocity rule, and consequently they make
+Make no mistake, human societies derive a truly significant competitive advantage from the reciprocity rule, and consequently they make
 sure their members are trained to comply with and believe in it. Each
 of us has been taught to live up to the rule, and each of us knows about
 the social sanctions and derision applied to anyone who violates it. The
@@ -840,21 +765,17 @@ was for the subject to buy some raffle tickets at twenty-five cents apiece:
 “Any would help, the more the better.” The major finding of the study
 concerns the number of tickets subjects purchased from Joe under the
 two conditions. Without question, Joe was more successful in selling
-his raffle tickets to the subjects who had received his earlier favor. Ap-
-parently feeling that they owed him something, these subjects bought
+his raffle tickets to the subjects who had received his earlier favor. Apparently feeling that they owed him something, these subjects bought
 twice as many tickets as the subjects who had not been given the prior
-favor. Although the Regan study represents a fairly simple demonstra-
-tion of the workings of the rule for reciprocation, it illustrates several
+favor. Although the Regan study represents a fairly simple demonstration of the workings of the rule for reciprocation, it illustrates several
 important characteristics of the rule that, upon further consideration,
 help us to understand how it may be profitably used.
 The Rule Is Overpowering
 One of the reasons reciprocation can be used so effectively as a device
-for gaining another’s compliance is its power. The rule possesses awe-
-some strength, often producing a “yes” response to a request that, except
+for gaining another’s compliance is its power. The rule possesses awesome strength, often producing a “yes” response to a request that, except
 for an existing feeling of indebtedness, would have surely been refused.
 Some evidence of how the rule’s force can overpower the influence of
-other factors that normally determine whether a request will be com-
-plied with can be seen in a second result of the Regan study. Besides
+other factors that normally determine whether a request will be complied with can be seen in a second result of the Regan study. Besides
 his interest in the impact of the reciprocity rule on compliance, Regan
 was also interested in how liking for a person affects the tendency to
 comply with that person’s request. To measure how liking toward Joe
@@ -875,12 +796,10 @@ Joe bought just as many of his tickets as did those who indicated that
 they liked him. The rule for reciprocity was so strong that it simply
 overwhelmed the influence of a factor—liking for the requester—that
 normally affects the decision to comply.
-Think of the implications. People we might ordinarily dislike—unsa-
-16 / Influence
+Think of the implications. People we might ordinarily dislike—unsa16 / Influence
 
 
-vory or unwelcome sales operators, disagreeable acquaintances, repres-
-entatives of strange or unpopular organizations—can greatly increase
+vory or unwelcome sales operators, disagreeable acquaintances, representatives of strange or unpopular organizations—can greatly increase
 the chance that we will do what they wish merely by providing us with
 a small favor prior to their requests. Let’s take an example that by now
 many of us have encountered. The Hare Krishna Society is an Eastern
@@ -890,34 +809,28 @@ when it experienced a remarkable growth not only in followers but also
 in wealth and property. The economic growth was funded through a
 variety of activities, the principal and still most visible of which is the
 request for donations by Society members from passersby in public
-places. During the early history of the group in this country, the solicit-
-ation for contributions was attempted in a fashion memorable for anyone
+places. During the early history of the group in this country, the solicitation for contributions was attempted in a fashion memorable for anyone
 who saw it. Groups of Krishna devotees—often with shaved heads,
 and wearing ill-fitting robes, leg wrappings, beads, and bells—would
 canvass a city street, chanting and bobbing in unison while begging for
 funds.
 Although highly effective as a technique for gaining attention, this
-form of fund-raising did not work especially well. The average Amer-
-ican considered the Krishnas weird, to say the least, and was reluctant
+form of fund-raising did not work especially well. The average American considered the Krishnas weird, to say the least, and was reluctant
 to provide money to support them. It quickly became clear to the Society
 that it had a considerable public-relations problem. The people being
 asked for contributions did not like the way the members looked,
-dressed, or acted. Had the Society been an ordinary commercial organ-
-ization, the solution would have been simple—change the things the
+dressed, or acted. Had the Society been an ordinary commercial organization, the solution would have been simple—change the things the
 public does not like. But the Krishnas are a religious organization; and
 the way members look, dress, and act is partially tied to religious factors.
 Because, in any denomination, religious factors are typically resistant
 to change because of worldly considerations, the Krishna leadership
 was faced with a real dilemma. On the one hand were beliefs, modes
 of dress, and hairstyles that had religious significance. On the other
-hand, threatening the organization’s financial welfare, were the less-
-than-positive feelings of the American public toward these things.
+hand, threatening the organization’s financial welfare, were the lessthan-positive feelings of the American public toward these things.
 What’s a sect to do?
 The Krishnas’ resolution was brilliant. They switched to a fund-raising
-tactic that made it unnecessary for target persons to have positive feel-
-ings toward the fund-raisers. They began to employ a donation-request
-procedure that engaged the rule for reciprocation, which, as demon-
-strated by the Regan study, is strong enough to overcome the factor of
+tactic that made it unnecessary for target persons to have positive feelings toward the fund-raisers. They began to employ a donation-request
+procedure that engaged the rule for reciprocation, which, as demonstrated by the Regan study, is strong enough to overcome the factor of
 dislike for the requester. The new strategy still involves the solicitation
 of contributions in public places with much pedestrian traffic (airports
 are a favorite), but now, before a donation is requested, the target person
@@ -932,8 +845,7 @@ give it back, even if he asserts that he does not want it. “No, it is our
 gift to you,” says the solicitor, refusing to accept it. Only after the
 Krishna member has thus brought the force of the reciprocation rule to
 bear on the situation is the target asked to provide a contribution to the
-Society. This benefactor-before-beggar strategy has been wildly success-
-ful for the Hare Krishna Society, producing large-scale economic gains
+Society. This benefactor-before-beggar strategy has been wildly successful for the Hare Krishna Society, producing large-scale economic gains
 and funding the ownership of temples, businesses, houses, and property
 in 321 centers in the United States and overseas.
 As an aside, it is instructive that the reciprocation rule has begun to
@@ -946,15 +858,14 @@ an encounter and preparing beforehand to ward off a solicitor’s “gift.”
 Although the Society has tried to counter this increased vigilance by
 instructing members to be dressed and groomed in modern styles to
 avoid immediate recognition when soliciting (some actually carry flight
-bags or suitcases), even disguise has not worked especially well for 
-the Krishnas. Too many individuals now know better than to accept 
+bags or suitcases), even disguise has not worked especially well for
+the Krishnas. Too many individuals now know better than to accept
 unrequested offerings in public places like airports. Furthermore,
 airport administrators have initiated a number of procedures designed
 to forewarn us of the Krishnas’ true identity and intent. Thus, it is now
 common airport practice to restrict the Krishnas’ soliciting activity to
 certain areas of the airport and to announce through signs and the
-public address system that the Krishnas are soliciting there. It is a test-
-ament to the societal value of reciprocation that we have chosen to fight
+public address system that the Krishnas are soliciting there. It is a testament to the societal value of reciprocation that we have chosen to fight
 the Krishnas mostly by seeking to avoid rather than to withstand the
 force of their gift giving. The reciprocity rule that empowers their tactic
 is too strong—and socially beneficial—for us to want to violate it.
@@ -990,12 +901,10 @@ and legislative officials with gifts and favors, and in the series of
 legal restrictions against such gifts and favors. Even with legitimate
 political contributions, the stockpiling of obligations often underlies
 the stated purpose of supporting a favorite candidate. One look at
-the lists of companies and organizations that contribute to the cam-
-paigns of both major candidates in important elections gives evidence
+the lists of companies and organizations that contribute to the campaigns of both major candidates in important elections gives evidence
 of such motives. A skeptic, requiring direct evidence of the quid pro
 quo expected by political contributors, might look to the remarkably
-bald-faced admission by Charles H. Keating, Jr., who was later con-
-victed on multiple counts of fraud in this country’s savings and loan
+bald-faced admission by Charles H. Keating, Jr., who was later convicted on multiple counts of fraud in this country’s savings and loan
 disaster. Addressing the question of whether a connection existed
 between the $1.3 million he had contributed to the campaigns of five
 U.S. senators and their subsequent actions in his behalf against federal
@@ -1031,9 +940,7 @@ are frequently provided with small cubes of a certain variety of cheese
 or meat to try. Many people find it difficult to accept a sample from the
 always-smiling attendant, return only the toothpick, and walk away.
 Instead, they buy some of the product, even if they might not have liked
-it especially well. A highly effective variation on this marketing proced-
-ure is illustrated in the case, cited by Vance Packard in The Hidden Per-
-suaders, of the Indiana supermarket operator who sold an astounding
+it especially well. A highly effective variation on this marketing procedure is illustrated in the case, cited by Vance Packard in The Hidden Persuaders, of the Indiana supermarket operator who sold an astounding
 one thousand pounds of cheese in a few hours one day by putting out
 the cheese and inviting customers to cut off slivers for themselves as
 free samples.
@@ -1041,13 +948,11 @@ A different version of the free-sample tactic is used by the Amway
 Corporation, a rapid-growth company that manufactures and distributes
 household and personal-care products in a vast national network of
 door-to-door neighborhood sales. The company, which has grown from
-a basement-run operation a few years ago to a one-and-a-half-billion-
-dollar-yearly-sales business, makes use of the free sample in a device
+a basement-run operation a few years ago to a one-and-a-half-billiondollar-yearly-sales business, makes use of the free sample in a device
 called the BUG. The BUG consists of a collection of Amway
 products—bottles of furniture polish, detergent, or shampoo, spray
 containers of deodorizers, insect killers, or window cleaners—carried
-to the customer’s home in a specially designed tray or just a polyethyl-
-ene bag. The confidential Amway Career Manual then instructs the
+to the customer’s home in a specially designed tray or just a polyethylene bag. The confidential Amway Career Manual then instructs the
 salesperson to leave the BUG with the customer “for 24, 48, or 72 hours,
 at no cost or obligation to her. Just tell her you would like her to try the
 products…. That’s an offer no one can refuse.” At the end of the trial
@@ -1056,17 +961,13 @@ of the products the customer wishes to purchase. Since few customers
 use up the entire contents of even one of the product containers in such
 a short time, the salesperson may then take the remaining product
 portions in the BUG to the next potential customer down the line or
-across the street and start the process again. Many Amway representat-
-ives have several BUGs circulating in their districts at one time.
+across the street and start the process again. Many Amway representatives have several BUGs circulating in their districts at one time.
 20 / Influence
 
 
-Of course, by now you and I know that the customer who has accep-
-ted and used the BUG products has been trapped into facing the influ-
-ence of the reciprocity rule. Many such customers yield to a sense of
+Of course, by now you and I know that the customer who has accepted and used the BUG products has been trapped into facing the influence of the reciprocity rule. Many such customers yield to a sense of
 obligation to order those of the salesperson’s products that they have
-tried and thereby partially consumed. And, of course, by now the Am-
-way Corporation knows that to be the case. Even in a company with
+tried and thereby partially consumed. And, of course, by now the Amway Corporation knows that to be the case. Even in a company with
 as excellent a growth record as Amway, the BUG device has created a
 big stir. Reports by state distributors to the parent company record a
 remarkable effect:
@@ -1082,8 +983,7 @@ The Amway distributors appear to be bewildered—happily so, but
 nonetheless bewildered—by the startling power of the BUG. Of course,
 by now you and I should not be.
 The reciprocity rule governs many situations of a purely interpersonal
-nature where neither money nor commercial exchange is at issue. Per-
-haps my favorite illustration of the enormous force available from the
+nature where neither money nor commercial exchange is at issue. Perhaps my favorite illustration of the enormous force available from the
 reciprocation weapon of influence comes from such a situation. The
 European scientist, Eibl-Eibesfeldt, provides the account of a German
 soldier during World War I whose job was to capture enemy soldiers
@@ -1099,17 +999,14 @@ skillfully negotiated the area between fronts and surprised a lone enemy
 soldier in his trench. The unsuspecting soldier, who had been eating at
 the time, was easily disarmed. The frightened captive with only a piece
 of bread in his hand then performed what may have been the most
-important act of his life. He gave his enemy some of the bread. So af-
-fected was the German by this gift that he could not complete his mis-
-sion. He turned from his benefactor and recrossed the no-man’s-land
+important act of his life. He gave his enemy some of the bread. So affected was the German by this gift that he could not complete his mission. He turned from his benefactor and recrossed the no-man’s-land
 empty-handed to face the wrath of his superiors.
 Robert B. Cialdini Ph.D / 21
 
 
 An equally compelling point regarding the power of reciprocity comes
 from an account of a woman who saved her life not by giving a gift as
-did the captured soldier, but by refusing a gift and the powerful obliga-
-tions that went with it. The woman, Diane Louie, was an inhabitant of
+did the captured soldier, but by refusing a gift and the powerful obligations that went with it. The woman, Diane Louie, was an inhabitant of
 Jonestown, Guyana, in November of 1978 when its leader, Jim Jones,
 called for the mass suicide of all residents, most of whom compliantly
 drank and died from a vat of poison-laced Kool-Aid. Diane Louie,
@@ -1123,23 +1020,20 @@ The Rule Enforces Uninvited Debts
 Earlier we suggested that the power of the reciprocity rule is such that
 by first doing us a favor, strange, disliked, or unwelcome others can
 enhance the chance that we will comply with one of their requests.
-However, there is another aspect of the rule, besides its power, that al-
-lows this phenomenon to occur. Another person can trigger a feeling
+However, there is another aspect of the rule, besides its power, that allows this phenomenon to occur. Another person can trigger a feeling
 of indebtedness by doing us an uninvited favor. Recall that the rule
 only states that we should provide to others the kind of actions they
 have provided us; it does not require us to have asked for what we have
 received in order to feel obligated to repay. For instance, the Disabled
 American Veterans organization reports that its simple mail appeal for
 donations produces a response rate of about 18 percent. But when the
-mailing also includes an unsolicited gift (gummed, individualized ad-
-dress labels), the success rate nearly doubles to 35 percent. This is not
+mailing also includes an unsolicited gift (gummed, individualized address labels), the success rate nearly doubles to 35 percent. This is not
 to say that we might not feel a stronger sense of obligation to return a
 favor we have requested, only that such a request is not necessary to
 produce our indebtedness.
 If we reflect for a moment about the social purpose of the reciprocity
 rule, we can see why this should be so. The rule was established to
-promote the development of reciprocal relationships between individu-
-als so that one person could initiate such a relationship without the fear
+promote the development of reciprocal relationships between individuals so that one person could initiate such a relationship without the fear
 of loss. If the rule is to serve that purpose, then, an uninvited first favor
 must have the ability to create an obligation. Recall, also, that reciprocal
 relationships confer an extraordinary advantage upon cultures that
@@ -1152,35 +1046,30 @@ social pressures surrounding the gift-giving process in human culture,
 
 can state, “There is an obligation to give, an obligation to receive, and
 an obligation to repay.”6
-Although the obligation to repay constitutes the essence of the reci-
-procity rule, it is the obligation to receive that makes the rule so easy
+Although the obligation to repay constitutes the essence of the reciprocity rule, it is the obligation to receive that makes the rule so easy
 to exploit. The obligation to receive reduces our ability to choose whom
 we wish to be indebted to and puts that power in the hands of others.
 Let’s reexamine a pair of earlier examples to get a sense of how the
 process works. First, let’s return to the Regan study, where we find that
-the favor causing subjects to double the number of raffle tickets pur-
-chased from Joe was not one they had requested. Joe had voluntarily
+the favor causing subjects to double the number of raffle tickets purchased from Joe was not one they had requested. Joe had voluntarily
 left the room and returned with one Coke for himself and one for the
 subject. There was not a single subject who refused the Coke. It is easy
 to see why it would have been awkward to turn down Joe’s favor: Joe
 had already spent his money; a soft drink was an appropriate favor in
 the situation, especially since Joe had one himself; it would have been
-considered impolite to reject Joe’s thoughtful action. Nevertheless, re-
-ceipt of that Coke produced an indebtedness that manifested itself
+considered impolite to reject Joe’s thoughtful action. Nevertheless, receipt of that Coke produced an indebtedness that manifested itself
 clearly when Joe announced his desire to sell some raffle tickets. Notice
 the important asymmetry here—all the genuinely free choices were
 Joe’s. He chose the form of the initial favor, and he chose the form of
 the return favor. Of course, one could say that the subject had the choice
 of saying no to both of Joe’s offers. But those would have been tough
 choices. To have said no at either point would have required the subject
-to go against the natural cultural forces favoring reciprocation arrange-
-ments that Jujitsu Joe had aligned himself with.
+to go against the natural cultural forces favoring reciprocation arrangements that Jujitsu Joe had aligned himself with.
 The extent to which even an unwanted favor, once received, can
 produce indebtedness is aptly illustrated in the soliciting technique of
 the Hare Krishna Society. During systematic observation of the airport
 soliciting strategy of the Krishnas, I have recorded a variety of responses
-from target persons. One of the most regular occurs as follows. An air-
-port visitor—a businessman, let’s say—is hurriedly walking along
+from target persons. One of the most regular occurs as follows. An airport visitor—a businessman, let’s say—is hurriedly walking along
 through a densely peopled area. The Krishna solicitor steps in front of
 him and hands him a flower. The man, reacting with surprise, takes it.7
 Almost immediately, he tries to give it back, saying that he does not
@@ -1200,20 +1089,15 @@ from his benefactor, seemingly about to break free, only to be drawn
 back again by the pull of the rule. Once more his body tilts away, but
 it’s no use; he cannot disengage. With a nod of resignation, he fishes in
 his pocket and comes up with a dollar or two that is graciously accepted.
-Now he can walk away freely, and he does, “gift” in hand, until he en-
-counters a waste container—where he throws the flower.
+Now he can walk away freely, and he does, “gift” in hand, until he encounters a waste container—where he throws the flower.
 Purely by accident, I happened to witness a scene that demonstrates
-that the Krishnas know very well how frequently their gifts are un-
-wanted by the people who receive them. While spending a day ob-
-serving a soliciting Krishna group at Chicago’s O’Hare International
+that the Krishnas know very well how frequently their gifts are unwanted by the people who receive them. While spending a day observing a soliciting Krishna group at Chicago’s O’Hare International
 Airport a few years ago, I noticed that one of the group members would
-frequently leave the central area and return with more flowers to resup-
-ply her companions. As it happened, I had decided to take a break just
+frequently leave the central area and return with more flowers to resupply her companions. As it happened, I had decided to take a break just
 as she was leaving on one of her supply missions. Having nowhere to
 go, I followed. Her journey turned out to be a garbage route. She went
 from trash can to trash can beyond the immediate area to retrieve all
-the flowers that had been discarded by Krishna targets. She then re-
-turned with the cache of recovered flowers (some that had been recycled
+the flowers that had been discarded by Krishna targets. She then returned with the cache of recovered flowers (some that had been recycled
 who knows how many times) and distributed them to be profitably
 cycled through the reciprocation process once more. The thing that
 really impressed me about all this was that most of the discarded flowers
@@ -1221,10 +1105,8 @@ had brought donations from the people who had cast them away. The
 nature of the reciprocity rule is such that a gift so unwanted that it was
 jettisoned at the first opportunity had nonetheless been effective and
 exploitable.
-The ability of uninvited gifts to produce feelings of obligation is re-
-cognized by a variety of organizations besides the Krishnas. How many
-times have each of us received small gifts through the mail—personal-
-ized address labels, greeting cards, key rings—from charity agencies
+The ability of uninvited gifts to produce feelings of obligation is recognized by a variety of organizations besides the Krishnas. How many
+times have each of us received small gifts through the mail—personalized address labels, greeting cards, key rings—from charity agencies
 that ask for funds in an accompanying note? I have received five in just
 the past year, two from disabled veterans’ groups and the others from
 missionary schools or hospitals. In each case, there was a common
@@ -1235,8 +1117,7 @@ offering. As the letter from one of the missionary programs stated, the
 packet of greeting cards I had been sent was not to be directly paid for,
 but was designed “to encourage your kindness.” If we look past the
 obvious tax advantage, we can see a reason why it would be beneficial
-for the organization to have the cards viewed as a gift instead of mer-
-chandise: There is a strong cultural pressure to reciprocate a gift, even
+for the organization to have the cards viewed as a gift instead of merchandise: There is a strong cultural pressure to reciprocate a gift, even
 an unwanted one; but there is no such pressure to purchase an unwanted
 commercial product.
 24 / Influence
@@ -1250,34 +1131,27 @@ unequal results. The rule demands that one sort of action be reciprocated
 with a similar sort of action. A favor is to be met with another favor; it
 is not to be met with neglect, and certainly not with attack. But within
 the similar-action boundaries, considerable flexibility is allowed. A
-small initial favor can produce a sense of obligation to agree to a sub-
-stantially larger return favor. Since, as we have already seen, the rule
+small initial favor can produce a sense of obligation to agree to a substantially larger return favor. Since, as we have already seen, the rule
 allows one person to choose the nature of the indebting first favor and
-the nature of the debt-canceling return favor, we could easily be manip-
-ulated into an unfair exchange by those who might wish to exploit the
+the nature of the debt-canceling return favor, we could easily be manipulated into an unfair exchange by those who might wish to exploit the
 rule.
-Once again, we can turn to the Regan experiment for evidence. Re-
-member in that study that Joe gave one group of subjects a bottle of
+Once again, we can turn to the Regan experiment for evidence. Remember in that study that Joe gave one group of subjects a bottle of
 Coca-Cola as an initiating gift and later asked all subjects to buy some
-of his raffle tickets at twenty-five cents apiece. What I have so far neg-
-lected to mention is that the study was done in the late 1960s, when the
+of his raffle tickets at twenty-five cents apiece. What I have so far neglected to mention is that the study was done in the late 1960s, when the
 price of a Coke was a dime. The average subject who had been given a
 ten-cent drink bought two of Joe’s raffle tickets, although some bought
 as many as seven. Even if we look just at the average subject, though,
-we can tell that Joe made quite a deal. A 500 percent return on invest-
-ment is respectable indeed!
+we can tell that Joe made quite a deal. A 500 percent return on investment is respectable indeed!
 But in Joe’s case, even a 500 percent return amounted to only fifty
 cents. Can the reciprocity rule produce meaningfully large differences
 in the sizes of the exchanged favors? Under the right circumstances, it
-certainly can. Take, for instance, the account of a student of mine con-
-cerning a day she remembers ruefully:
+certainly can. Take, for instance, the account of a student of mine concerning a day she remembers ruefully:
 About one year ago, I couldn’t start my car. As I was sitting there,
 a guy in the parking lot came over and eventually jump-started
 the car. I said thanks, and he said you’re welcome; as he was
 leaving, I said that if he ever needed a favor to stop by. About a
 month later, the guy knocked on my door and asked to borrow
-my car for two hours as his was in the shop. I felt somewhat oblig-
-ated but uncertain, since the car was pretty new and he looked
+my car for two hours as his was in the shop. I felt somewhat obligated but uncertain, since the car was pretty new and he looked
 very young. Later, I found out that he was underage and had no
 insurance. Anyway, I lent him the car. He totaled it.
 How could it happen that an intelligent young woman would agree
@@ -1285,12 +1159,9 @@ to turn over her new car to a virtual stranger (and a youngster at that)
 Robert B. Cialdini Ph.D / 25
 
 
-because he had done her a small favor a month earlier? Or, more gen-
-erally, why should it be that small first favors often stimulate larger
+because he had done her a small favor a month earlier? Or, more generally, why should it be that small first favors often stimulate larger
 return favors? One important reason concerns the clearly unpleasant
-character of the feeling of indebtedness. Most of us find it highly dis-
-agreeable to be in a state of obligation. It weighs heavily on us and de-
-mands to be removed. It is not difficult to trace the source of this feeling.
+character of the feeling of indebtedness. Most of us find it highly disagreeable to be in a state of obligation. It weighs heavily on us and demands to be removed. It is not difficult to trace the source of this feeling.
 Because reciprocal arrangements are so vital in human social systems,
 we have been conditioned to be uncomfortable when beholden. If we
 were to ignore breezily the need to return another’s initial favor, we
@@ -1301,11 +1172,9 @@ childhood to chafe, emotionally, under the saddle of obligation. For
 this reason alone, then, we may be willing to agree to perform a larger
 favor than we received, merely to relieve ourselves of the psychological
 burden of debt.
-But there is another reason as well. A person who violates the reci-
-procity rule by accepting without attempting to return the good acts of
+But there is another reason as well. A person who violates the reciprocity rule by accepting without attempting to return the good acts of
 others is actively disliked by the social group. The exception, of course,
-is when the person is prevented from repayment by reasons of circum-
-stance or ability. For the most part, however, there is a genuine distaste
+is when the person is prevented from repayment by reasons of circumstance or ability. For the most part, however, there is a genuine distaste
 for individuals who fail to conform to the dictates of the reciprocity
 rule.8 Moocher and welsher are unsavory labels to be scrupulously
 shunned. So undesirable are they that we will sometimes agree to an
@@ -1337,11 +1206,9 @@ RECIPROCAL CONCESSIONS
 There is a second way to employ the reciprocity rule to get someone to
 comply with a request. It is more subtle than the direct route of
 providing that person with a favor and then asking for one in return;
-yet in some ways it is more devastatingly effective than the straightfor-
-ward approach. A personal experience I had a few years ago gave me
+yet in some ways it is more devastatingly effective than the straightforward approach. A personal experience I had a few years ago gave me
 firsthand evidence of just how well this compliance technique works.
-I was walking down the street when I was approached by an eleven-
-or twelve-year-old boy. He introduced himself and said that he was
+I was walking down the street when I was approached by an elevenor twelve-year-old boy. He introduced himself and said that he was
 selling tickets to the annual Boy Scouts circus to be held on the upcoming
 Saturday night. He asked if I wished to buy any at five dollars apiece.
 Since one of the last places I wanted to spend Saturday evening was
@@ -1353,8 +1220,7 @@ because: (a) I do not like chocolate bars; (b) I do like dollars; (c) I was
 standing there with two of his chocolate bars; and (d) he was walking
 away with two of my dollars.
 To try to understand precisely what had happened, I went to my office
-and called a meeting of my research assistants. In discussing the situ-
-ation, we began to see how the reciprocity rule was implicated in my
+and called a meeting of my research assistants. In discussing the situation, we began to see how the reciprocity rule was implicated in my
 compliance with the request to buy the candy bars. The general rule
 says that a person who acts in a certain way toward us is entitled to a
 similar return action. We have already seen that one consequence of
@@ -1366,8 +1232,7 @@ had put me in. His request that I purchase some one-dollar chocolate
 bars had been put in the form of a concession on his part; it was
 presented as a retreat from his request that I buy some five-dollar tickets.
 If I were to live up to the dictates of the reciprocation rule, there had to
-be a concession on my part. As we have seen, there was such a conces-
-sion: I changed from noncompliant to compliant when he changed from
+be a concession on my part. As we have seen, there was such a concession: I changed from noncompliant to compliant when he changed from
 a larger to a smaller request, even though I was not really interested in
 either of the things he offered.
 It was a classic example of how a weapon of automatic influence can
@@ -1381,8 +1246,7 @@ force from the reciprocity rule. It had not mattered that I do not like
 chocolate bars; the Boy Scout had made a concession to me, click, and,
 whirr, I responded with a concession of my own. Of course, the tendency
 to reciprocate a concession is not so strong that it will invariably work
-in all instances on all people; none of the weapons of influence con-
-sidered in this book is that strong. However, in my exchange with the
+in all instances on all people; none of the weapons of influence considered in this book is that strong. However, in my exchange with the
 Boy Scout, the tendency had been sufficiently potent to leave me in
 mystified possession of a pair of unwanted and overpriced candy bars.
 Why should I feel a strain to reciprocate a concession? The answer
@@ -1393,15 +1257,12 @@ interactions the participants begin with requirements and demands
 that are unacceptable to one another. Thus the society must arrange to
 have these initial, incompatible desires set aside for the sake of socially
 beneficial cooperation. This is accomplished through procedures that
-promote compromise. Mutual concession is one important such proced-
-ure.
+promote compromise. Mutual concession is one important such procedure.
 The reciprocation rule brings about mutual concession in two ways.
-The first is obvious. It pressures the recipient of an already-made con-
-cession to respond in kind. The second, while not so obvious, is pivotally
+The first is obvious. It pressures the recipient of an already-made concession to respond in kind. The second, while not so obvious, is pivotally
 important. Just as in the case of favors, gifts, or aid, the obligation to
 reciprocate a concession encourages the creation of socially desirable
-arrangements by ensuring that anyone seeking to start such an arrange-
-ment will not be exploited. After all, if there were no social obligation
+arrangements by ensuring that anyone seeking to start such an arrangement will not be exploited. After all, if there were no social obligation
 to reciprocate a concession, who would want to make the first sacrifice?
 To do so would be to risk giving up something and getting nothing
 back. However, with the rule in effect, we can feel safe making the first
@@ -1427,46 +1288,38 @@ one that was intentionally designed to sell candy bars? As one who has
 still refused to discard even his first Scout merit badge, I genuinely
 hope not. But whether or not the large-request-then-smaller-request
 sequence was planned, its effect was the same, It worked. And because
-it works, the rejection-then-retreat technique can and will be used pur-
-posely by certain people to get their way. First let’s examine how this
+it works, the rejection-then-retreat technique can and will be used purposely by certain people to get their way. First let’s examine how this
 tactic can be used as a reliable compliance device. Later we will see how
 it is already being used. Finally we can turn to a pair of little-known
-features of the technique that make it one of the most pervasively influ-
-ential compliance tactics available.
+features of the technique that make it one of the most pervasively influential compliance tactics available.
 Remember that after my encounter with the Boy Scout, I called my
 research assistants together to try to understand what had happened
 to me and, as it turned out, to eat the evidence. Actually, we did more
 than that. We designed an experiment to test the effectiveness of the
-procedure of moving to a desired request after a larger preliminary re-
-quest had been refused. We had two primary purposes in conducting
+procedure of moving to a desired request after a larger preliminary request had been refused. We had two primary purposes in conducting
 the experiment. First, we wanted to see whether this procedure worked
 on people besides myself. That is, it certainly seemed that the tactic had
 been effective when tried on me earlier in the day; but then, I have a
-history of falling for compliance tricks of all sorts. So the question re-
-mained, Does the rejection-then-retreat technique work on enough
+history of falling for compliance tricks of all sorts. So the question remained, Does the rejection-then-retreat technique work on enough
 people to make it a useful procedure for gaining compliance? If so, it
 would definitely be something to be aware of in the future.
 Our second reason for doing the study was to determine how
 powerful a compliance device the technique was. Could it bring about
 compliance with a genuinely sizable request? In other words, did the
-smaller request to which the requester retreated have to be a small re-
-quest? If our thinking about what caused the technique to be effective
+smaller request to which the requester retreated have to be a small request? If our thinking about what caused the technique to be effective
 was correct, the second request did not actually have to be small; it only
 had to be smaller than the initial one. It was our suspicion that the
 critical thing about a requester’s retreat from a larger to a smaller favor
 was its appearance as a concession. So the second request could be an
-objectively large one—as long as it was smaller than the first re-
-quest—and the technique would still work.
+objectively large one—as long as it was smaller than the first request—and the technique would still work.
 After a bit of thought, we decided to try the technique on a request
-that we felt few people would agree to perform. Posing as representat-
-ives of the “County Youth Counseling Program,” we approached college
+that we felt few people would agree to perform. Posing as representatives of the “County Youth Counseling Program,” we approached college
 students walking on campus and asked if they would be willing to
 chaperon a group of juvenile delinquents on a day trip to the zoo. The
 Robert B. Cialdini Ph.D / 29
 
 
-idea of being responsible for a group of juvenile delinquents of unspe-
-cified age for hours in a public place without pay was hardly an inviting
+idea of being responsible for a group of juvenile delinquents of unspecified age for hours in a public place without pay was hardly an inviting
 one for these students. As we expected, the great majority (83 percent)
 refused. Yet we obtained very different results from a similar sample
 of college students who were asked the very same question with one
@@ -1475,11 +1328,9 @@ zoo trip, we asked them for an even larger favor—to spend two hours
 per week as a counselor to a juvenile delinquent for a minimum of two
 years. It was only after they refused this extreme request, as all did,
 that we made the smaller, zoo-trip request. By presenting the zoo trip
-as a retreat from our initial request, our success rate increased dramat-
-ically. Three times as many of the students approached in this manner
+as a retreat from our initial request, our success rate increased dramatically. Three times as many of the students approached in this manner
 volunteered to serve as zoo chaperons.10
-Be assured that any strategy able to triple the percentage of compli-
-ance with a substantial request (from 17 percent to 50 percent in our
+Be assured that any strategy able to triple the percentage of compliance with a substantial request (from 17 percent to 50 percent in our
 experiment) will be frequently employed in a variety of natural settings.
 Labor negotiators, for instance, often use the tactic of beginning with
 extreme demands that they do not actually expect to win but from
@@ -1487,20 +1338,17 @@ which they can retreat in a series of seeming concessions designed to
 draw real concessions from the opposing side. It would appear, then,
 that the larger the initial request, the more effective the procedure, since
 there would be more room available for illusory concessions. This is
-true only up to a point, however. Research conducted at Bar-Ilan Uni-
-versity in Israel on the rejection-then-retreat technique shows that if
+true only up to a point, however. Research conducted at Bar-Ilan University in Israel on the rejection-then-retreat technique shows that if
 the first set of demands is so extreme as to be seen as unreasonable, the
 tactic backfires.11 In such cases, the party who has made the extreme
 first request is not seen to be bargaining in good faith. Any subsequent
 retreat from that wholly unrealistic initial position is not viewed as a
-genuine concession and thus is not reciprocated. The truly gifted nego-
-tiator, then, is one whose initial position is exaggerated enough to allow
+genuine concession and thus is not reciprocated. The truly gifted negotiator, then, is one whose initial position is exaggerated enough to allow
 for a series of reciprocal concessions that will yield a desirable final offer
 from the opponent, yet is not so outlandish as to be seen as illegitimate
 from the start.
 It seems that certain of the most successful television producers, such
-as Grant Tinker and Gary Marshall, are masters of this art in their nego-
-tiations with network censors. In a candid interview with TV Guide
+as Grant Tinker and Gary Marshall, are masters of this art in their negotiations with network censors. In a candid interview with TV Guide
 writer Dick Russell, both admitted to “deliberately inserting lines into
 scripts that a censor’s sure to ax” so that they could then retreat to the
 lines they really wanted included. Marshall appears especially active
@@ -1535,30 +1383,24 @@ Chapter 5, the percentage of successful door-to-door sales increases
 impressively when the sales operator is able to mention the name of a
 familiar person who “recommended” the sales visit.
 Never as a sales trainee was I taught to get the sales pitch refused so
-that I could then retreat to a request for referrals. In several such pro-
-grams, though, I was trained to take advantage of the opportunity to
+that I could then retreat to a request for referrals. In several such programs, though, I was trained to take advantage of the opportunity to
 secure referrals offered by a customer’s purchase refusal: “Well, if it is
 your feeling that a fine set of encyclopedias is not right for you at this
 time, perhaps you could help me by giving me the names of some others
 who might wish to take advantage of our company’s great offer. What
-would be the names of some of these people you know?” Many indi-
-viduals who would not otherwise subject their friends to a high-pressure
+would be the names of some of these people you know?” Many individuals who would not otherwise subject their friends to a high-pressure
 sales presentation do agree to supply referrals when the request is
-presented as a concession from a purchase request they have just re-
-fused.
-We have already discussed one reason for the success of the rejection-
-then-retreat technique—its incorporation of the reciprocity rule. This
+presented as a concession from a purchase request they have just refused.
+We have already discussed one reason for the success of the rejectionthen-retreat technique—its incorporation of the reciprocity rule. This
 larger-then-smaller-request strategy is effective for a pair of other
 reasons as well. The first concerns the perceptual contrast principle we
 Robert B. Cialdini Ph.D / 31
 
 
 encountered in Chapter 1. That principle accounted for, among other
-things, the tendency of a man to spend more money on a sweater fol-
-lowing his purchase of a suit than before: After being exposed to the
+things, the tendency of a man to spend more money on a sweater following his purchase of a suit than before: After being exposed to the
 price of the large item, the price of the less expensive one appears smaller
-by comparison. In the same way, the larger-then-smaller-request pro-
-cedure makes use of the contrast principle by making the smaller request
+by comparison. In the same way, the larger-then-smaller-request procedure makes use of the contrast principle by making the smaller request
 look even smaller by comparison with the larger one. If I want you to
 lend me five dollars, I can make it seem like a smaller request by first
 asking you to lend me ten dollars. One of the beauties of this tactic is
@@ -1568,32 +1410,26 @@ the contrast principle. Not only will my five-dollar request be viewed
 as a concession to be reciprocated, it will also look to you like a smaller
 request than if I had just asked for it straightaway.
 In combination, the influences of reciprocity and perceptual contrast
-can present a fearsomely powerful force. Embodied in the rejection-
-then-retreat sequence, their conjoined energies are capable of genuinely
+can present a fearsomely powerful force. Embodied in the rejectionthen-retreat sequence, their conjoined energies are capable of genuinely
 astonishing effects. It is my feeling that they provide the only really
 plausible explanation of one of the most baffling political actions of our
 time: the decision to break into the Watergate offices of the Democratic
 National Committee that led to the ruin of Richard Nixon’s presidency.
 One of the participants in that decision, Jeb Stuart Magruder, upon first
 hearing that the Watergate burglars had been caught, responded with
-appropriate bewilderment, “How could we have been so stupid?” In-
-deed, how?
+appropriate bewilderment, “How could we have been so stupid?” Indeed, how?
 To understand how enormously ill conceived an idea it was for the
 Nixon administration to undertake the break-in, it is necessary to review
 a few facts:
-• The idea was that of G. Gordon Liddy, who was in charge of intelli-
-gence-gathering operations for the Committee to Re-elect the Presid-
-ent (CRP). Liddy had gained a reputation among administration
+• The idea was that of G. Gordon Liddy, who was in charge of intelligence-gathering operations for the Committee to Re-elect the President (CRP). Liddy had gained a reputation among administration
 higher-ups as something of a flake, and there were questions about
 his stability and judgment.
 • Liddy’s proposal was extremely costly, requiring a budget of $250,000
 in untraceable cash.
 • In late March, when the proposal was approved in a meeting of the
-CRP director, John Mitchell, and his assistants Magruder and Freder-
-ick LaRue, the outlook for a Nixon victory in the November election
+CRP director, John Mitchell, and his assistants Magruder and Frederick LaRue, the outlook for a Nixon victory in the November election
 could not have been brighter. Edmund Muskie, the only announced
-candidate the early polls had given a chance of unseating the Presid-
-ent, had done poorly in the primaries. It looked very much as though
+candidate the early polls had given a chance of unseating the President, had done poorly in the primaries. It looked very much as though
 32 / Influence
 
 
@@ -1603,8 +1439,7 @@ party’s nomination. A Republican victory seemed assured.
 participation and discretion of ten men.
 • The Democratic National Committee and its chairman, Lawrence
 O’Brien, whose Watergate office was to be burglarized and bugged,
-had no information damaging enough to defeat the incumbent Pres-
-ident. Nor were they likely to get any, unless the administration did
+had no information damaging enough to defeat the incumbent President. Nor were they likely to get any, unless the administration did
 something very, very foolish.
 Despite the obvious counsel of the above reasons, the expensive,
 chancy, pointless, and potentially calamitous proposal of a man whose
@@ -1621,8 +1456,7 @@ to the bugging of the Watergate) a specially equipped communications
 featuring “high-class call girls” to blackmail Democratic politicians. A
 second Liddy plan, presented a week later to the same group of Mitchell,
 Magruder, and Dean, eliminated some of the program and reduced the
-cost to $500,000. It was only after these initial proposals had been rejec-
-ted by Mitchell that Liddy submitted his “bare-bones” $250,000 plan,
+cost to $500,000. It was only after these initial proposals had been rejected by Mitchell that Liddy submitted his “bare-bones” $250,000 plan,
 in this instance to Mitchell, Magruder, and Frederick LaRue. This time
 the plan, still stupid but less so than the previous ones, was approved.
 Could it be that I, a longtime patsy, and John Mitchell, a hardened
@@ -1632,9 +1466,7 @@ and he by a man selling political disaster?
 If we examine the testimony of Jeb Magruder, considered by most
 Watergate investigators to provide the most faithful account of the
 crucial meeting at which Liddy’s plan was finally accepted, there are
-some instructive clues. First, Magruder reports that “no one was partic-
-ularly overwhelmed with the project”; but “after starting at the grandi-
-ose sum of $1 million, we thought that probably $250,000 would be an
+some instructive clues. First, Magruder reports that “no one was particularly overwhelmed with the project”; but “after starting at the grandiose sum of $1 million, we thought that probably $250,000 would be an
 acceptable figure…. We were reluctant to send him away with nothing.”
 Mitchell, caught up in the “feeling that we should leave Liddy a little
 something…signed off on it in the sense of saying, ‘Okay, let’s give him
@@ -1644,13 +1476,11 @@ Robert B. Cialdini Ph.D / 33
 
 In the context of Liddy’s initial extreme requests, it seems that “a
 quarter of a million dollars” had come to be “a little something” to be
-left as a return concession. With the clarity afforded by hindsight, Ma-
-gruder has recalled Liddy’s approach in as succinct an illustration of
+left as a return concession. With the clarity afforded by hindsight, Magruder has recalled Liddy’s approach in as succinct an illustration of
 the rejection-then-retreat technique as I have ever heard. “If he had
 come to us at the outset and said, ‘I have a plan to burglarize and
 wiretap Larry O’Brien’s office,’ we might have rejected the idea out of
-hand. Instead he came to us with his elaborate call-girl/kidnap-
-ping/mugging/sabotage/wiretapping scheme…. He had asked for the
+hand. Instead he came to us with his elaborate call-girl/kidnapping/mugging/sabotage/wiretapping scheme…. He had asked for the
 whole loaf when he was quite content to settle for half or even a
 quarter.”13
 It is also instructive that, although he finally deferred to his boss’s
@@ -1668,8 +1498,7 @@ to react to it objectively, uninfluenced by the reciprocity and perceptual
 contrast forces acting upon the others.
 A bit earlier we said that the rejection-then-retreat technique had, in
 addition to the reciprocity rule, a pair of other factors working in its
-favor. We have already discussed the first of those factors, the percep-
-tual contrast principle. The additional advantage of the technique is
+favor. We have already discussed the first of those factors, the perceptual contrast principle. The additional advantage of the technique is
 not really a psychological principle, as in the case of the other two
 factors; it is more of a purely structural feature of the request sequence.
 Let’s once again say that I wish to borrow five dollars from you. By
@@ -1692,22 +1521,18 @@ more reasonably priced model. Some proof of the effectiveness of this
 procedure comes from a report in Sales Management magazine, reprinted
 without comment in Consumer Reports:
 If you were a billiard-table dealer, which would you advertise—the
-$329 model or the $3,000 model? The chances are you would pro-
-mote the low-priced item and hope to trade the customer up when
+$329 model or the $3,000 model? The chances are you would promote the low-priced item and hope to trade the customer up when
 he comes to buy. But G. Warren Kelley, new business promotion
 manager at Brunswick, says you could be wrong…. To prove his
 point, Kelley has actual sales figures from a representative store….
 During the first week, customers…were shown the low end of the
-line…and then encouraged to consider more expensive mod-
-els—the traditional trading-up approach…. The average table sale
-that week was $550…. However, during the second week, custom-
-ers…were led instantly to a $3,000 table, regardless of what they
+line…and then encouraged to consider more expensive models—the traditional trading-up approach…. The average table sale
+that week was $550…. However, during the second week, customers…were led instantly to a $3,000 table, regardless of what they
 wanted to see…and then allowed to shop the rest of the line, in
 declining order of price and quality. The result of selling down
 was an average sale of over $1,000.14
 Given the remarkable effectiveness of the rejection-then-retreat
-technique, one might think that there could be a substantial disadvant-
-age as well. The victims of the strategy might resent having been
+technique, one might think that there could be a substantial disadvantage as well. The victims of the strategy might resent having been
 cornered into compliance. The resentment could show itself in a couple
 of ways. First, the victim might decide not to live up to the verbal
 agreement made with the requester. Second, the victim might come to
@@ -1715,8 +1540,7 @@ distrust the manipulative requester, deciding never to deal with him
 again. If either or both of these events occurred with any frequency, a
 requester would want to give serious second thought to the use of the
 rejection-then-retreat procedure. Research indicates, however, that these
-victim reactions do not occur with increased frequency when the rejec-
-tion-then-retreat technique is used. Somewhat astonishingly, it appears
+victim reactions do not occur with increased frequency when the rejection-then-retreat technique is used. Somewhat astonishingly, it appears
 that they actually occur less frequently! Before trying to understand
 why this is the case, let’s first look at the evidence.
 A study published in Canada throws light on the question of
@@ -1733,14 +1557,12 @@ for the smaller request alone (29 percent). The important result, though,
 Robert B. Cialdini Ph.D / 35
 
 
-concerned the show-up rate of those who volunteered; and, again, the re-
-jection-then-retreat procedure was the more effective one (85 percent
+concerned the show-up rate of those who volunteered; and, again, the rejection-then-retreat procedure was the more effective one (85 percent
 vs. 50 percent).15
 A different experiment examined whether the rejection-then-retreat
 sequence caused victims to feel so manipulated that they would refuse
 any further requests. In this study, the targets were college students
-who were each asked to give a pint of blood as part of the annual cam-
-pus blood drive. One group of targets was first asked to give a pint of
+who were each asked to give a pint of blood as part of the annual campus blood drive. One group of targets was first asked to give a pint of
 blood every six weeks for a minimum of three years. The other targets
 were asked only to give the single pint of blood. Those of both groups
 who agreed to give a pint of blood and who later appeared at the blood
@@ -1748,27 +1570,23 @@ center were then asked if they would be willing to give their phone
 numbers so they could be called upon to donate again in the future.
 Nearly all the students who were about to give a pint of blood as a
 result of the rejection-then-retreat technique agreed to donate again
-later (84 percent), while less than half of the other students who ap-
-peared at the blood center did so (43 percent). Even for future favors,
+later (84 percent), while less than half of the other students who appeared at the blood center did so (43 percent). Even for future favors,
 the rejection-then-retreat strategy proved superior.16
 Strangely enough, then, it seems that the rejection-then-retreat tactic
 spurs people not only to agree to a desired request but actually to carry
 out the request and, finally, to volunteer to perform further requests.
 What could there be about the technique that makes people who have
 been duped into compliance so bewilderingly likely to continue to
-comply? For an answer, we might look at the requester’s act of conces-
-sion, which is the heart of the procedure. We have already seen that as
+comply? For an answer, we might look at the requester’s act of concession, which is the heart of the procedure. We have already seen that as
 long as it is not viewed to be a transparent trick, the concession will
 likely stimulate a return concession. But what we have not yet examined
 is a little-known pair of positive by-products of the act of concession:
-feelings of greater responsibility for, and satisfaction with, the arrange-
-ment. It is this set of sweet side effects that enables the technique to
+feelings of greater responsibility for, and satisfaction with, the arrangement. It is this set of sweet side effects that enables the technique to
 move its victims to fulfill their agreements and to engage in further
 such agreements.
 The desirable side effects of making a concession during an interaction
 with another person are nicely shown in studies of the way people
-bargain with each other. One experiment, conducted by social psycho-
-logists at UCLA, offers an especially apt demonstration.17 A subject in
+bargain with each other. One experiment, conducted by social psychologists at UCLA, offers an especially apt demonstration.17 A subject in
 that study faced a “negotiation opponent” and was told to bargain with
 the opponent concerning how to divide between themselves a certain
 amount of money provided by the experimenters. The subject was also
@@ -1782,8 +1600,7 @@ been previously instructed to bargain with the subject in one of three
 ways. With some of the subjects, the opponent made an extreme first
 demand, assigning virtually all of the money to himself, and stubbornly
 persisted in that demand throughout the negotiations. With another
-group of subjects, the opponent began with a demand that was moder-
-ately favorable to himself; he, too, steadfastly refused to move from
+group of subjects, the opponent began with a demand that was moderately favorable to himself; he, too, steadfastly refused to move from
 that position during the negotiations. With a third group, the opponent
 began with the extreme demand and then gradually retreated to the
 more moderate one during the course of the bargaining.
@@ -1796,8 +1613,7 @@ very surprising in light of the previous evidence we have seen of the
 power of larger-then-smaller-request tactics to bring about profitable
 agreements. It is the two additional findings of the study that are more
 striking.
-Responsibility. Those subjects facing the opponent who used the re-
-treating strategy felt most responsible for the final deal. Much more
+Responsibility. Those subjects facing the opponent who used the retreating strategy felt most responsible for the final deal. Much more
 than the subjects who faced a nonchanging negotiation opponent, these
 subjects reported that they had successfully influenced the opponent
 to take less money for himself. Of course, we know that they hadn’t
@@ -1808,12 +1624,9 @@ change, that they had produced his concessions. The result was that they
 felt more responsible for the final outcome of the negotiations. It does
 not require much of a leap from this finding to clarify the previous
 mystery of why the rejection-then-retreat technique causes its targets
-to live up to their agreements with such astounding frequency. The re-
-quester’s concession within the technique not only causes targets to say
+to live up to their agreements with such astounding frequency. The requester’s concession within the technique not only causes targets to say
 yes more often, it also causes them to feel more responsible for having
-“dictated” the final agreement. Thus the uncanny ability of the rejection-
-then-retreat technique to make its targets meet their commitments be-
-comes understandable: A person who feels responsible for the terms
+“dictated” the final agreement. Thus the uncanny ability of the rejectionthen-retreat technique to make its targets meet their commitments becomes understandable: A person who feels responsible for the terms
 of a contract will be more likely to live up to that contract.
 Satisfaction. Even though, on the average, they gave the most money
 to the opponent who used the concessions strategy, the subjects who
@@ -1826,8 +1639,7 @@ Robert B. Cialdini Ph.D / 37
 
 rejection-then-retreat tactic—the ability to prompt its victims to agree
 to further requests. Since the tactic uses a concession to bring about
-compliance, the victim is likely to feel more satisfied with the arrange-
-ment as a result. And it stands to reason that people who are satisfied
+compliance, the victim is likely to feel more satisfied with the arrangement as a result. And it stands to reason that people who are satisfied
 with a given arrangement are more likely to be willing to agree to further
 such arrangements.
 HOW TO SAY NO
@@ -1840,15 +1652,12 @@ requester’s wish and, in so doing, succumb to the reciprocity rule. Or,
 we could refuse to comply and thereby suffer the brunt of the rule’s
 force upon our deeply conditioned feelings of fairness and obligation.
 Surrender or suffer heavy casualties. Cheerless prospects indeed.
-Fortunately, these are not our only choices. With the proper under-
-standing of the nature of our opponent, we can come away from the
+Fortunately, these are not our only choices. With the proper understanding of the nature of our opponent, we can come away from the
 compliance battlefield unhurt and sometimes even better off than before.
-It is essential to recognize that the requester who invokes the reciproc-
-ation rule (or any other weapon of influence) to gain our compliance is
+It is essential to recognize that the requester who invokes the reciprocation rule (or any other weapon of influence) to gain our compliance is
 not the real opponent. Such a requester has chosen to become a jujitsu
 warrior who aligns himself with the sweeping power of reciprocation
-and then merely releases that power by providing a first favor or con-
-cession. The real opponent is the rule. If we are not to be abused by it,
+and then merely releases that power by providing a first favor or concession. The real opponent is the rule. If we are not to be abused by it,
 we must take steps to defuse its energy.
 But how does one go about neutralizing the effect of a social rule like
 that for reciprocation? It seems too widespread to escape and too strong
@@ -1856,8 +1665,7 @@ to overpower once it is activated. Perhaps the answer, then, is to prevent
 its activation. Perhaps we can avoid a confrontation with the rule by
 refusing to allow the requester to commission its force against us in the
 first place. Perhaps by rejecting the requester’s initial favor or concession
-to us, we can evade the problem. Perhaps; but then, perhaps not. Invari-
-ably declining the requester’s initial offer of a favor or sacrifice works
+to us, we can evade the problem. Perhaps; but then, perhaps not. Invariably declining the requester’s initial offer of a favor or sacrifice works
 better in theory than in practice. The major problem is that when it is
 first presented, it is difficult to know whether such an offer is honest
 or whether it is the initial step in an exploitation attempt. If we always
@@ -1878,8 +1686,7 @@ it toward him again only to have him demand to know what he had to
 give in return. When she replied weakly, “Nothing. It’s a gift,” he fixed
 her with a disbelieving glare, insisted that he recognized “her game,”
 and brushed on past. The girl was so stung by the experience that she
-could not approach anyone else and had to be removed from her assign-
-ment—one she had anticipated fondly. It is hard to know whom to
+could not approach anyone else and had to be removed from her assignment—one she had anticipated fondly. It is hard to know whom to
 blame more here, the insensitive man or the exploiters who had abused
 his mechanical tendency to reciprocate a gift until his response had
 soured to a mechanical refusal. No matter whom you find more
@@ -1889,8 +1696,7 @@ the reciprocity rule rather than to exploit it. They will doubtless become
 insulted by someone who consistently rejects their efforts; social friction
 and isolation could well result. A policy of blanket rejection, then, seems
 ill advised.
-Another solution holds more promise. It advises us to accept the de-
-sirable first offers of others but to accept those offers only for what they
+Another solution holds more promise. It advises us to accept the desirable first offers of others but to accept those offers only for what they
 fundamentally are, not for what they are represented to be. If a person
 offers us a nice favor, let’s say, we might well accept, recognizing that
 we have obligated ourselves to a return favor sometime in the future.
@@ -1915,8 +1721,7 @@ Robert B. Cialdini Ph.D / 39
 
 the Home Fire Safety Association in your town. Suppose she then asked
 if you would be interested in learning about home fire safety, having
-your house checked for fire hazards, and receiving a home fire extin-
-guisher, all free of charge. Let’s suppose further that you were interested
+your house checked for fire hazards, and receiving a home fire extinguisher, all free of charge. Let’s suppose further that you were interested
 in these things and made an evening appointment to have one of the
 Association’s inspectors come over to provide them. When he arrived,
 he gave you a small hand extinguisher and began examining the possible
@@ -1926,20 +1731,15 @@ an assessment of your home’s vulnerability. Finally, he suggested that
 you get a home fire-warning system and left.
 Such a set of events is not implausible. Various cities and towns have
 nonprofit associations, usually made up of Fire Department personnel
-working on their own time, that provide free home fire-safety inspec-
-tions of this sort. Were these events to occur, you would clearly have
+working on their own time, that provide free home fire-safety inspections of this sort. Were these events to occur, you would clearly have
 been done a favor by the inspector. In accordance with the reciprocation
 rule, you should stand more ready to provide a return favor if you were
 to see him in need of aid at some point in the future. An exchange of
 favors of this kind would be in the best tradition of the reciprocity rule.
 A similar set of events with, however, a different ending would also
-be possible—in fact, more likely. Rather than leaving after recommend-
-ing a fire-alarm system, the inspector would launch into a sales
-presentation intended to persuade you to buy an expensive, heat-
-triggered alarm system manufactured by the company he represented.
-Door-to-door home fire-alarm companies will frequently use this ap-
-proach. Typically, their product, while effective enough, will be over-
-priced. Trusting that you will not be familiar with the retail costs of
+be possible—in fact, more likely. Rather than leaving after recommending a fire-alarm system, the inspector would launch into a sales
+presentation intended to persuade you to buy an expensive, heattriggered alarm system manufactured by the company he represented.
+Door-to-door home fire-alarm companies will frequently use this approach. Typically, their product, while effective enough, will be overpriced. Trusting that you will not be familiar with the retail costs of
 such a system and that, if you decide to buy one, you will feel obligated
 to the company that provided you with a free extinguisher and home
 inspection, these companies will pressure you for an immediate sale.
@@ -1962,33 +1762,26 @@ might call on, use your mental maneuver on him again. Define his retreat
 to this smaller request as what (it is hoped after reading this chapter)
 you recognize it to be—a compliance tactic. Once done, there would be
 no pressure to offer the names as a return concession, since his reduced
-request would not be viewed as a real concession. At this point, un-
-hampered by an inappropriately triggered sense of obligation, you may
+request would not be viewed as a real concession. At this point, unhampered by an inappropriately triggered sense of obligation, you may
 once again be as compliant or noncompliant as you wish.
 Provided you are so inclined, you might even turn his own weapon
 of influence against him. Recall that the rule for reciprocation entitles
 a person who has acted in a certain way to a dose of the same thing. If
 you have determined that the “fire inspector’s” gifts were used, not as
 genuine gifts, but to make a profit from you, then you might want to
-use them to make a profit of your own. Simply take whatever the in-
-spector is willing to provide—safety information, home extinguish-
-er—thank him politely, and show him out the door. After all, the reci-
-procity rule asserts that if justice is to be done, exploitation attempts
+use them to make a profit of your own. Simply take whatever the inspector is willing to provide—safety information, home extinguisher—thank him politely, and show him out the door. After all, the reciprocity rule asserts that if justice is to be done, exploitation attempts
 should be exploited.
 READER’S REPORT
 From a Former TV and Stereo Salesperson
 “For quite a while, I worked for a major retailer in their Television and
-Stereo Department. Salespeople in this department are paid on a com-
-mission basis; however, continued employment was, and still is, based
+Stereo Department. Salespeople in this department are paid on a commission basis; however, continued employment was, and still is, based
 on the ability to sell service contracts rather than merchandise. Company
 policy was that, for every ten sales you made, you had to sell at least
 four service contracts. Failure to bring your service-contract sales up
-to expected levels for two consecutive months resulted in threats, relo-
-cation, or termination.
+to expected levels for two consecutive months resulted in threats, relocation, or termination.
 “Once I recognized the importance of meeting my sales-contract
 quota, I devised a plan that used the rejection-then-retreat technique,
-although I didn’t know its name at the time: A customer had the oppor-
-tunity to buy from one to three years’ worth of service-contract coverage
+although I didn’t know its name at the time: A customer had the opportunity to buy from one to three years’ worth of service-contract coverage
 at the time of the sale. Most of the sales staff attempted just to sell a
 single-year policy. That was my intention as well, since a one-year
 contract counted just as much toward my quota as a three-year contract
@@ -2032,19 +1825,16 @@ other weapons of influence, this one lies deep within us, directing our
 actions with quiet power. It is, quite simply, our nearly obsessive desire
 to be (and to appear) consistent with what we have already done. Once
 we have made a choice or taken a stand, we will encounter personal
-and interpersonal pressures to behave consistently with that commit-
-ment. Those pressures will cause us to respond in ways that justify our
+and interpersonal pressures to behave consistently with that commitment. Those pressures will cause us to respond in ways that justify our
 earlier decision.
 Take the bettors in the racetrack experiment. Thirty seconds before
 putting down their money, they had been tentative and uncertain; thirty
-seconds after the deed, they were significantly more optimistic and self-
-assured. The act of making a final decision—in this case, of buying a
+seconds after the deed, they were significantly more optimistic and selfassured. The act of making a final decision—in this case, of buying a
 
 
 ticket—had been the critical factor. Once a stand had been taken, the
 need for consistency pressured these people to bring what they felt and
-believed into line with what they had already done. They simply con-
-vinced themselves that they had made the right choice and, no doubt,
+believed into line with what they had already done. They simply convinced themselves that they had made the right choice and, no doubt,
 felt better about it all.
 Before we see such self-delusion as unique to racetrack habitués, we
 should examine the story of my neighbor Sara and her live-in boyfriend,
@@ -2082,8 +1872,7 @@ and beliefs consistent with what we have already done or decided.
 Psychologists have long understood the power of the consistency
 principle to direct human action. Prominent theorists such as Leon
 Festinger, Fritz Hieder, and Theodore Newcomb have viewed the desire
-for consistency as a central motivator of our behavior. But is this tend-
-44 / Influence
+for consistency as a central motivator of our behavior. But is this tend44 / Influence
 
 
 ency to be consistent really strong enough to compel us to do what we
@@ -2094,15 +1883,13 @@ to our own best interests.
 Take, as proof, what happened when psychologist Thomas Moriarty
 staged thefts on a New York City beach to see if onlookers would risk
 personal harm to halt the crime. In the study, a research accomplice
-would put a beach blanket down five feet from the blanket of a ran-
-domly chosen individual—the experimental subject. After a couple of
+would put a beach blanket down five feet from the blanket of a randomly chosen individual—the experimental subject. After a couple of
 minutes on the blanket spent relaxing and listening to music from a
 portable radio, the accomplice would stand up and leave the blanket
 to stroll down the beach. A few minutes later, a second researcher,
 pretending to be a thief, would approach, grab the radio, and try to
 hurry away with it. As you might guess, under normal conditions,
-subjects were very reluctant to put themselves in harm’s way by chal-
-lenging the thief—only four people did so in the twenty times, that the
+subjects were very reluctant to put themselves in harm’s way by challenging the thief—only four people did so in the twenty times, that the
 theft was staged. But when the same procedure was tried another twenty
 times, with a slight twist, the results were drastically different. In these
 incidents, before taking his stroll, the accomplice would simply ask the
@@ -2111,14 +1898,12 @@ Now, propelled by the rule for consistency, nineteen of the twenty
 subjects became virtual vigilantes, running after and stopping the thief,
 demanding an explanation, and often restraining the thief physically
 or snatching the radio away.
-To understand why consistency is so powerful a motive, it is import-
-ant to recognize that in most circumstances consistency is valued and
+To understand why consistency is so powerful a motive, it is important to recognize that in most circumstances consistency is valued and
 adaptive. Inconsistency is commonly thought to be an undesirable
 personality trait. The person whose beliefs, words, and deeds don’t
 match may be seen as indecisive, confused, two-faced, or even mentally
 ill. On the other side, a high degree of consistency is normally associated
-with personal and intellectual strength. It is at the heart of logic, ration-
-ality, stability, and honesty. A quote attributed to the great British
+with personal and intellectual strength. It is at the heart of logic, rationality, stability, and honesty. A quote attributed to the great British
 chemist Michael Faraday suggests the extent to which being consistent
 is approved—sometimes more than being right. When asked after a
 lecture if he meant to imply that a hated academic rival was always
@@ -2139,8 +1924,7 @@ consistency can be disastrous. Nonetheless, even blind consistency has
 its attractions.
 First, like most other forms of automatic responding, it offers a
 shortcut through the density of modern life. Once we have made up
-our minds about an issue, stubborn consistency allows us a very appeal-
-ing luxury: We really don’t have to think hard about the issue anymore.
+our minds about an issue, stubborn consistency allows us a very appealing luxury: We really don’t have to think hard about the issue anymore.
 We don’t have to sift through the blizzard of information we encounter
 every day to identify relevant facts; we don’t have to expend the mental
 energy to weigh the pros and cons; we don’t have to make any further
@@ -2151,8 +1935,7 @@ consistent with our earlier decision.
 The allure of such a luxury is not to be minimized. It allows us a
 convenient, relatively effortless, and efficient method for dealing with
 complex daily environments that make severe demands on our mental
-energies and capacities. It is not hard to understand, then, why automat-
-ic consistency is a difficult reaction to curb. It offers us a way to evade
+energies and capacities. It is not hard to understand, then, why automatic consistency is a difficult reaction to curb. It offers us a way to evade
 the rigors of continuing thought. And as Sir Joshua Reynolds noted,
 “There is no expedient to which a man will not resort to avoid the real
 labor of thinking.” With our consistency tapes operating, then, we can
@@ -2165,8 +1948,7 @@ Sometimes it is the cursedly clear and unwelcome set of answers
 provided by straight thinking that makes us mental slackers. There are
 certain disturbing things we simply would rather not realize. Because
 it is a preprogrammed and mindless method of responding, automatic
-consistency can supply a safe hiding place from those troubling realiz-
-ations. Sealed within the fortress walls of rigid consistency, we can be
+consistency can supply a safe hiding place from those troubling realizations. Sealed within the fortress walls of rigid consistency, we can be
 impervious to the sieges of reason.
 One night at an introductory lecture given by the transcendental
 meditation (TM) program, I witnessed a nice illustration of how people
@@ -2177,8 +1959,7 @@ over by two earnest young men and was designed to recruit new
 
 
 members into the program. The program claimed it could teach a unique
-brand of meditation that would allow us to achieve all manner of desir-
-able things, ranging from simple inner peace to the more spectacular
+brand of meditation that would allow us to achieve all manner of desirable things, ranging from simple inner peace to the more spectacular
 abilities to fly and pass through walls at the program’s advanced (and
 more expensive) stages.
 I had decided to attend the meeting to observe the kind of compliance
@@ -2191,26 +1972,21 @@ shifting about constantly in his seat, he was finally unable to resist.
 When the leaders called for questions at the completion of the lecture,
 he raised his hand and gently but surely demolished the presentation
 we had just heard. In less than two minutes, he pointed out precisely
-where and why the lecturers’ complex argument was contradictory, il-
-logical, and unsupportable. The effect on the discussion leaders was
+where and why the lecturers’ complex argument was contradictory, illogical, and unsupportable. The effect on the discussion leaders was
 devastating. After a confused silence, each attempted a weak reply only
 to halt midway to confer with his partner and finally to admit that my
 colleague’s points were good ones “requiring further study.”
 More interesting to me, though, was the effect upon the rest of the
 audience. At the end of the question period, the two recruiters were
-faced with a crush of audience members submitting their seventy-five-
-dollar down payments for admission to the TM program. Nudging,
+faced with a crush of audience members submitting their seventy-fivedollar down payments for admission to the TM program. Nudging,
 shrugging, and chuckling to one another as they took in the payments,
-the recruiters betrayed signs of giddy bewilderment. After what ap-
-peared to have been an embarrassingly clear collapse of their presenta-
-tion, the meeting had somehow turned into a great success, generating
+the recruiters betrayed signs of giddy bewilderment. After what appeared to have been an embarrassingly clear collapse of their presentation, the meeting had somehow turned into a great success, generating
 mystifyingly high levels of compliance from the audience. Although
 more than a bit puzzled, I chalked up the audience response to a failure
 to understand the logic of my colleague’s arguments. As it turned out,
 however, just the reverse was the case.
 Outside the lecture room after the meeting, we were approached by
-three members of the audience, each of whom had given a down pay-
-ment immediately after the lecture. They wanted to know why we had
+three members of the audience, each of whom had given a down payment immediately after the lecture. They wanted to know why we had
 come to the session. We explained, and we asked the same question of
 them. One was an aspiring actor who wanted desperately to succeed
 at his craft and had come to the meeting to learn if TM would allow
@@ -2271,8 +2047,7 @@ fashion, they structure their interactions with us so that our own need
 to be consistent will lead directly to their benefit.
 Certain large toy manufacturers use just such an approach to reduce
 a problem caused by seasonal buying patterns. Of course, the boom
-time for toy sales occurs before and during the Christmas holiday sea-
-son. The toy companies make fat profits during this period. Their
+time for toy sales occurs before and during the Christmas holiday season. The toy companies make fat profits during this period. Their
 problem is that toy sales then go into a terrible slump for the next couple
 of months. Their customers have already spent the full amount in their
 toy budgets and are stiffly resistant to their children’s pleas for more.
@@ -2285,8 +2060,7 @@ certainly doesn’t lie in convincing our naturally insatiable offspring to
 want a continuous flow of new amusements. A series of flashy television
 commercials placed among the Saturday morning cartoon shows will
 produce the usual amounts of begging, whining, and wheedling no
-matter when it appears during the year. No, the problem is not in mo-
-tivating kids to want more toys after Christmas.
+matter when it appears during the year. No, the problem is not in motivating kids to want more toys after Christmas.
 The problem is in motivating postholiday spent-out parents to reach
 down for the price of yet another plaything for their already toy-glutted
 children. What could the toy companies possibly do to produce that
@@ -2298,12 +2072,10 @@ sales to desired levels. Parents are simply not in a toy-buying mood,
 and the influences of advertising or reduced expense are not enough
 to shake that stony resistance.
 Certain large toy manufacturers, however, think they have found a
-solution. It’s an ingenious one, involving no more than a normal advert-
-ising expense and an understanding of the powerful pull of the need
+solution. It’s an ingenious one, involving no more than a normal advertising expense and an understanding of the powerful pull of the need
 for consistency. My first hint of how the toy companies’ strategy worked
 came after I fell for it and then, in true patsy form, fell for it again.
-It was January, and I was in the town’s largest toy store. After pur-
-chasing all too many gifts there for my son a month before, I had sworn
+It was January, and I was in the town’s largest toy store. After purchasing all too many gifts there for my son a month before, I had sworn
 not to enter that place or any like it for a long, long time. Yet there I
 was, not only in the diabolic place but also in the process of buying my
 son another expensive toy—a big, electric road-race set. In front of the
@@ -2313,16 +2085,14 @@ saw each other anymore. In fact, the last time was a year earlier in that
 Robert B. Cialdini Ph.D / 49
 
 
-same store where we were both buying our sons an expensive post-
-Christmas gift—that time a robot that walked, talked, and laid waste.
+same store where we were both buying our sons an expensive postChristmas gift—that time a robot that walked, talked, and laid waste.
 We laughed about our strange pattern of seeing each other only once
 a year at the same time, in the same place, while doing the same thing.
 Later that day, I mentioned the coincidence to a friend who, it turned
 out, had once worked in the toy business.
 “No coincidence,” he said knowingly.
 “What do you mean, ‘No coincidence’?”
-“Look,” he said, “let me ask you a couple of questions about the road-
-race set you bought this year. First, did you promise your son that he’d
+“Look,” he said, “let me ask you a couple of questions about the roadrace set you bought this year. First, did you promise your son that he’d
 get one for Christmas?”
 “Well, yes, I did. Christopher had seen a bunch of ads for them on
 the Saturday morning cartoon shows and said that was what he wanted
@@ -2335,8 +2105,7 @@ know when they’d get any more in. So I had to buy Christopher some
 other toys to make up for the road-race set. But how did you know?”
 “Strike two,” he said. “Just let me ask one more question. Didn’t this
 same sort of thing happen the year before with the robot toy?”
-“Wait a minute…you’re right. That’s just what happened. This is in-
-credible. How did you know?”
+“Wait a minute…you’re right. That’s just what happened. This is incredible. How did you know?”
 “No psychic powers; I just happen to know how several of the big
 toy companies jack up their January and February sales. They start
 prior to Christmas with attractive TV ads for certain special toys. The
@@ -2384,8 +2153,7 @@ As we’ve already seen, social psychologists are not the only ones who
 understand the connection between commitment and consistency.
 Commitment strategies are aimed at us by compliance professionals of
 nearly every sort. Each of the strategies is intended to get us to take
-some action or make some statement that will trap us into later compli-
-ance through consistency pressures. Procedures designed to create
+some action or make some statement that will trap us into later compliance through consistency pressures. Procedures designed to create
 commitment take various forms. Some are fairly straightforward; others
 are among the most subtle compliance tactics we will encounter.
 For instance, suppose you wanted to increase the number of people
@@ -2397,23 +2165,19 @@ taking and asked them to predict what they would say if asked to spend
 three hours collecting money for the American Cancer Society. Of
 course, not wanting to seem uncharitable to the survey taker or to
 themselves, many of these people said that they would volunteer. The
-consequence of this sly commitment procedure was a 700 percent in-
-crease in volunteers when, a few days later, a representative of the
+consequence of this sly commitment procedure was a 700 percent increase in volunteers when, a few days later, a representative of the
 American Cancer Society did call and ask for neighborhood canvassers.
 Robert B. Cialdini Ph.D / 51
 
 
 Using the same strategy, but this time asking Columbus, Ohio, residents
-to predict whether they would vote on Election Day, a team of research-
-ers led by Anthony Greenwald were able to increase significantly the
+to predict whether they would vote on Election Day, a team of researchers led by Anthony Greenwald were able to increase significantly the
 turnout in a U.S. presidential election among those called.
-Perhaps an even more crafty commitment technique has been de-
-veloped recently by telephone solicitors for charity. Have you noticed
+Perhaps an even more crafty commitment technique has been developed recently by telephone solicitors for charity. Have you noticed
 that callers asking you to contribute to some cause or another these
 days seem to begin things by inquiring about your current health and
 well-being? “Hello Mr./Ms. Targetperson,” they say. “How are you
-feeling this evening?” Or, “How are you doing today?” The caller’s in-
-tent with this sort of introduction is not merely to seem friendly and
+feeling this evening?” Or, “How are you doing today?” The caller’s intent with this sort of introduction is not merely to seem friendly and
 caring. It is to get you to respond—as you normally do to such polite,
 superficial inquiries—with a polite, superficial comment of your own:
 “Just fine” or “Real good” or “I’m doing great, thanks.” Once you have
@@ -2430,14 +2194,11 @@ Howard, who put the theory to test. Dallas, Texas, residents were called
 on the phone and asked if they would agree to allow a representative
 of the Hunger Relief Committee to come to their homes to sell them
 cookies, the proceeds from which would be used to supply meals for
-the needy. When tried alone, that request (labeled the “standard solicit-
-ation approach”) produced only 18 percent agreement. However, if the
+the needy. When tried alone, that request (labeled the “standard solicitation approach”) produced only 18 percent agreement. However, if the
 caller initially asked, “How are you feeling this evening?” and waited
-for a reply before proceeding to the standard approach, several note-
-worthy things happened. First, of the 120 individuals called, most (108)
+for a reply before proceeding to the standard approach, several noteworthy things happened. First, of the 120 individuals called, most (108)
 gave the customary favorable reply (“Good,” “Fine,” “Real well,” etc.).
-Second, 32 percent of the people who got the “How are you feeling to-
-night” question agreed to receive the cookie seller at their homes, nearly
+Second, 32 percent of the people who got the “How are you feeling tonight” question agreed to receive the cookie seller at their homes, nearly
 twice the success rate of the standard solicitation approach. Third, true
 to the consistency principle, almost everyone who agreed to such a
 visit did, in fact, make a cookie purchase when contacted at home (89
@@ -2454,8 +2215,7 @@ statement “I hope you are feeling well this evening” and then proceeded
 to the standard solicitation approach. Despite the fact that the caller
 started each type of interaction with a warm and friendly comment,
 the “How are you feeling” technique was, by far, superior to its rival
-(33 percent vs. 15 percent compliance), because it alone drew an exploit-
-able public commitment from its targets. Note that the commitment
+(33 percent vs. 15 percent compliance), because it alone drew an exploitable public commitment from its targets. Note that the commitment
 was able to get twice as much compliance from those targets even
 though at the time it occurred it must have seemed to them an altogether
 inconsequential reply to an altogether superficial question—yet another
@@ -2468,27 +2228,19 @@ The remarkable thing about this program is that it was systematically
 employing these factors decades ago, well before scientific research had
 identified them.
 During the Korean War, many captured American soldiers found
-themselves in prisoner-of-war (POW) camps run by the Chinese Com-
-munists. It became clear early in the conflict that the Chinese treated
+themselves in prisoner-of-war (POW) camps run by the Chinese Communists. It became clear early in the conflict that the Chinese treated
 captives quite differently than did their allies, the North Koreans, who
 favored savagery and harsh punishment to gain compliance. Specifically
 avoiding the appearance of brutality, the Red Chinese engaged in what
 they termed their “lenient policy,” which was in reality a concerted and
 sophisticated psychological assault on their captives. After the war,
 American psychologists questioned the returning prisoners intensively
-to determine what had occurred. The intensive psychological investig-
-ation took place, in part, because of the unsettling success of some as-
-pects of the Chinese program. For example, the Chinese were very ef-
-fective in getting Americans to inform on one another, in striking con-
-trast to the behavior of American POWs in World War II. For this
+to determine what had occurred. The intensive psychological investigation took place, in part, because of the unsettling success of some aspects of the Chinese program. For example, the Chinese were very effective in getting Americans to inform on one another, in striking contrast to the behavior of American POWs in World War II. For this
 reason, among others, escape plans were quickly uncovered and the
-escape attempts themselves almost always unsuccessful. “When an es-
-cape did occur,” wrote Dr. Edgar Schein, a principal American invest-
-igator of the Chinese indoctrination program in Korea, “the Chinese
+escape attempts themselves almost always unsuccessful. “When an escape did occur,” wrote Dr. Edgar Schein, a principal American investigator of the Chinese indoctrination program in Korea, “the Chinese
 usually recovered the man easily by offering a bag of rice to anyone
 turning him in.” In fact, nearly all American prisoners in the Chinese
-camps are said to have collaborated with the enemy in one form or an-
-other.2
+camps are said to have collaborated with the enemy in one form or another.2
 An examination of the Chinese prison-camp program shows that its
 personnel relied heavily on commitment and consistency pressures to
 Robert B. Cialdini Ph.D / 53
@@ -2503,8 +2255,7 @@ turn in fellow prisoners, or publicly denounce their country? The
 Chinese answer was elementary: Start small and build.
 For instance, prisoners were frequently asked to make statements so
 mildly anti-American or pro-Communist as to seem inconsequential
-(“The United States is not perfect.” “In a Communist country, unem-
-ployment is not a problem.”). But once these minor requests were
+(“The United States is not perfect.” “In a Communist country, unemployment is not a problem.”). But once these minor requests were
 complied with, the men found themselves pushed to submit to related
 yet more substantive requests. A man who had just agreed with his
 Chinese interrogator that the United States is not perfect might then be
@@ -2515,19 +2266,15 @@ he might be asked to read his list in a discussion group with other
 prisoners. “After all, it’s what you really believe, isn’t it?” Still later he
 might be asked to write an essay expanding on his list and discussing
 these problems in greater detail.
-The Chinese might then use his name and his essay in an anti-
-American radio broadcast beamed not only to the entire camp, but to
+The Chinese might then use his name and his essay in an antiAmerican radio broadcast beamed not only to the entire camp, but to
 other POW camps in North Korea, as well as to American forces in
 South Korea. Suddenly he would find himself a “collaborator,” having
 given aid to the enemy. Aware that he had written the essay without
 any strong threats or coercion, many times a man would change his
-image of himself to be consistent with the deed and with the new “col-
-laborator” label, often resulting in even more extensive acts of collabor-
-ation. Thus, while “only a few men were able to avoid collaboration
+image of himself to be consistent with the deed and with the new “collaborator” label, often resulting in even more extensive acts of collaboration. Thus, while “only a few men were able to avoid collaboration
 altogether,” according to Dr. Schein, “the majority collaborated at one
 time or another by doing things which seemed to them trivial but which
-the Chinese were able to turn to their own advantage…. This was par-
-ticularly effective in eliciting confessions, self-criticism, and information
+the Chinese were able to turn to their own advantage…. This was particularly effective in eliciting confessions, self-criticism, and information
 during interrogation.”3
 If the Chinese know about the subtle power of this approach, it should
 not be surprising that another group of people interested in compliance
@@ -2548,8 +2295,7 @@ has signed an order for your merchandise, even though the profit
 is so small it hardly compensates for the time and effort of making
 the call, he is no longer a prospect—he is a customer.4
 The tactic of starting with a little request in order to gain eventual
-compliance with related larger requests has a name: the foot-in-the-
-door technique. Social scientists first became aware of its effectiveness
+compliance with related larger requests has a name: the foot-in-thedoor technique. Social scientists first became aware of its effectiveness
 in the mid-1960s when psychologists Jonathan Freedman and Scott
 Fraser published an astonishing set of data.5 They reported the results
 of an experiment in which a researcher, posing as a volunteer worker,
@@ -2574,8 +2320,7 @@ with a trivial safe-driving request a couple of weeks before, these
 homeowners became remarkably willing to comply with another such
 request that was massive in size.
 Freedman and Fraser didn’t stop there. They tried a slightly different
-procedure on another sample of homeowners. These people first re-
-ceived a request to sign a petition that favored “keeping California
+procedure on another sample of homeowners. These people first received a request to sign a petition that favored “keeping California
 beautiful.” Of course, nearly everyone signed, since state beauty, like
 efficiency in government or sound prenatal care, is one of those issues
 almost no one is against. After waiting about two weeks, Freedman
@@ -2591,8 +2336,7 @@ though the small commitment they had made weeks earlier was not to
 driver safety but to an entirely different public-service topic, state
 beautification.
 At first, even Freedman and Fraser were bewildered by their findings.
-Why should the little act of signing a petition supporting state beauti-
-fication cause people to be so willing to perform a different and much
+Why should the little act of signing a petition supporting state beautification cause people to be so willing to perform a different and much
 larger favor? After considering and discarding other explanations,
 Freedman and Fraser came upon one that offered a solution to the
 puzzle: Signing the beautification petition changed the view these people
@@ -2602,11 +2346,9 @@ to perform another public service by displaying the DRIVE CAREFULLY
 sign, they complied in order to be consistent with their newly formed
 self-images. According to Freedman and Fraser,
 What may occur is a change in the person’s feelings about getting
-involved or taking action. Once he has agreed to a request, his at-
-titude may change, he may become, in his own eyes, the kind of
+involved or taking action. Once he has agreed to a request, his attitude may change, he may become, in his own eyes, the kind of
 person who does this sort of thing, who agrees to requests made
-by strangers, who takes action on things he believes in, who co-
-operates with good causes.6
+by strangers, who takes action on things he believes in, who cooperates with good causes.6
 What the Freedman and Fraser findings tell us, then, is to be very
 careful about agreeing to trivial requests. Such an agreement can not
 only increase our compliance with very similar, much larger re-quests,
@@ -2614,15 +2356,13 @@ it can also make us more willing to perform a variety of larger favors
 that are only remotely connected to the little one we did earlier. It’s this
 second, general kind of influence concealed within small commitments
 that scares me.
-It scares me enough that I am rarely willing to sign a petition any-
-more, even for a position I support. Such an action has the potential to
+It scares me enough that I am rarely willing to sign a petition anymore, even for a position I support. Such an action has the potential to
 influence not only my future behavior but also my self-image in ways
 I may not want. And once a person’s self-image is altered, all sorts of
 subtle advantages become available to someone who wants to exploit
 that new image.
 Who among Freedman and Fraser’s homeowners would have thought
-that the “volunteer worker” who asked them to sign a state beautifica-
-tion petition was really interested in having them display a safe-driving
+that the “volunteer worker” who asked them to sign a state beautification petition was really interested in having them display a safe-driving
 billboard two weeks later? And who among them could have suspected
 that their decision to display the billboard was largely due to the act of
 signing the petition? No one, I’d guess. If there were any regrets after
@@ -2634,20 +2374,16 @@ but themselves and their own damnably strong civic spirit? They probably
 never even considered the guy with the “keeping California beautiful”
 petition and all that knowledge of jujitsu.
 Notice that all of the foot-in-the-door experts seem to be excited about
-the same thing: You can use small commitments to manipulate a per-
-son’s self-image; you can use them to turn citizens into “public ser-
-vants,” prospects into “customers,” prisoners into “collaborators.” And
+the same thing: You can use small commitments to manipulate a person’s self-image; you can use them to turn citizens into “public servants,” prospects into “customers,” prisoners into “collaborators.” And
 once you’ve got a man’s self-image where you want it, he should comply
 naturally with a whole range of your requests that are consistent with
 this view of himself.
 Not all commitments affect self-image, however. There are certain
 conditions that should be present for a commitment to be effective in
 this way. To discover what they are, we can once again look to the
-American experience in the Chinese prison camps of Korea. It is import-
-ant to understand that the major intent of the Chinese was not simply
+American experience in the Chinese prison camps of Korea. It is important to understand that the major intent of the Chinese was not simply
 to extract information from their prisoners. It was to indoctrinate them,
-to change their attitudes and percep-tions of themselves, of their polit-
-ical system, of their country’s role in the war, and of communism. And
+to change their attitudes and percep-tions of themselves, of their political system, of their country’s role in the war, and of communism. And
 there is evidence that the program often worked alarmingly well.
 Dr. Henry Segal, chief of the neuropsychiatric evaluation team that
 examined returning POWs at the war’s end, reported that war-related
@@ -2676,8 +2412,7 @@ Our best evidence of what people truly feel and believe comes less from
 their words than from their deeds. Observers trying to decide what a
 man is like look closely at his actions. What the Chinese have discovered
 is that the man himself uses this same evidence to decide what he is
-like. His behavior tells him about himself; it is a primary source of in-
-formation about his beliefs and values and attitudes. Understanding
+like. His behavior tells him about himself; it is a primary source of information about his beliefs and values and attitudes. Understanding
 fully this important principle of self-perception, the Chinese set about
 arranging the prison-camp experience so that their captives would
 consistently act in desired ways. Before long, the Chinese knew, these
@@ -2695,9 +2430,7 @@ A further technique was to have the man write out the question
 and then the [pro-Communist] answer. If he refused to write it
 voluntarily, he was asked to copy it from the notebooks, which
 must have seemed like a harmless enough concession.
-But, oh, those “harmless” concessions. We’ve already seen how ap-
-parently trifling commitments can lead to extraordinary further beha-
-vior. And the Chinese knew that, as a commitment device, a written
+But, oh, those “harmless” concessions. We’ve already seen how apparently trifling commitments can lead to extraordinary further behavior. And the Chinese knew that, as a commitment device, a written
 declaration has some great advantages. First, it provides physical
 evidence that the act occurred. Once a man wrote what the Chinese
 wanted, it was very difficult for him to believe that he had not done so.
@@ -2708,9 +2441,7 @@ him to make his beliefs and his self-image consistent with what he had
 undeniably done.
 A second advantage of a written testament is that it can be shown to
 other people. Of course, that means it can be used to persuade those
-people. It can persuade them to change their own attitudes in the direc-
-tion of the statement. But more important for the purpose of commit-
-ment, it can persuade them that the author genuinely believes what
+people. It can persuade them to change their own attitudes in the direction of the statement. But more important for the purpose of commitment, it can persuade them that the author genuinely believes what
 58 / Influence
 
 
@@ -2736,10 +2467,8 @@ a lasting personal reminder of his action, it was also likely to persuade
 those around him that the statement reflected his actual beliefs. And,
 as we will see in Chapter 4, what those around us think is true of us is
 enormously important in determining what we ourselves think is true.
-For example, one study found that after hearing that they were con-
-sidered charitable people, New Haven, Connecticut, housewives gave
-much more money to a canvasser from the Multiple Sclerosis Associ-
-ation.9 Apparently the mere knowledge that someone viewed them as
+For example, one study found that after hearing that they were considered charitable people, New Haven, Connecticut, housewives gave
+much more money to a canvasser from the Multiple Sclerosis Association.9 Apparently the mere knowledge that someone viewed them as
 charitable caused these women to make their actions consistent with
 another’s perception of them.
 Once an active commitment is made, then, self-image is squeezed
@@ -2763,14 +2492,11 @@ Robert B. Cialdini Ph.D / 59
 of kind treatment, and statements sympathetic to communism. The
 hope was that the Chinese would want such letters to surface and
 would, therefore, allow their delivery. Of course, the Chinese were
-happy to cooperate because those letters served their interests mar-
-velously. First, their worldwide propaganda effort benefited greatly
-from the appearance of pro-Communist statements by American ser-
-vicemen. Second, in the service of prisoner indoctrination, they had,
+happy to cooperate because those letters served their interests marvelously. First, their worldwide propaganda effort benefited greatly
+from the appearance of pro-Communist statements by American servicemen. Second, in the service of prisoner indoctrination, they had,
 without raising a finger of physical force, gotten many men to go on
 record as supporting the Chinese cause.
-A similar technique involved political essay contests that were regu-
-larly held in camp. The prizes for winning were invariably small—a
+A similar technique involved political essay contests that were regularly held in camp. The prizes for winning were invariably small—a
 few cigarettes or a bit of fruit—but were sufficiently scarce that they
 generated a lot of interest from the men. Usually the winning essay was
 one that took a solidly pro-Communist stand…but not always. The
@@ -2778,8 +2504,7 @@ Chinese were wise enough to realize that most of the prisoners would
 not enter a contest that they could win only by writing a Communist
 tract. And the Chinese were clever enough to know how to plant small
 commitments to communism in the men that could be nurtured into
-later bloom. So the prize was occasionally given to an essay that gener-
-ally supported the United States but that bowed once or twice to the
+later bloom. So the prize was occasionally given to an essay that generally supported the United States but that bowed once or twice to the
 Chinese view. The effects of this strategy were exactly what the Chinese
 wanted. The men continued to participate voluntarily in the contests
 because they saw that they could win with an essay highly favorable
@@ -2791,8 +2516,7 @@ it. In the case of a written declaration within a voluntary essay, they
 had a perfect commitment from which to build toward collaboration
 and conversion.
 Other compliance professionals also know about the committing
-power of written statements. The enormously successful Amway Cor-
-poration, for instance, has hit upon a way to spur their sales personnel
+power of written statements. The enormously successful Amway Corporation, for instance, has hit upon a way to spur their sales personnel
 to greater and greater accomplishments. Members of the staff are asked
 to set individual sales goals and commit themselves to those goals by
 personally recording them on paper:
@@ -2817,8 +2541,7 @@ they are duped or intimidated into the sale. When the new laws went
 into effect, these customers began canceling in droves.
 The companies have since learned a beautifully simple trick that cuts
 the number of such cancellations drastically. They merely have the
-customer, rather than the salesman, fill out the sales agreement. Accord-
-ing to the sales-training program of a prominent encyclopedia company,
+customer, rather than the salesman, fill out the sales agreement. According to the sales-training program of a prominent encyclopedia company,
 that personal commitment alone has proved to be “a very important
 psychological aid in preventing customers from backing out of their
 contracts.” Like the Amway Corporation, then, these organizations
@@ -2854,18 +2577,15 @@ for an essay to have any chance of winning at all, it must include praise
 for the product. So they find praiseworthy features of the product and
 describe them in their essays. The result is hundreds of men in Korea
 or hundreds of thousands of people in America who testify in writing
-to the product’s appeal and who, consequently, experience that “magic-
-al” pull to believe what they have written.
+to the product’s appeal and who, consequently, experience that “magical” pull to believe what they have written.
 The Public Eye
 One reason that written testaments are effective in bringing about
 genuine personal change is that they can so easily be made public. The
 prisoner experience in Korea showed the Chinese to be quite aware of
 an important psychological principle: Public commitments tend to be
-lasting commitments. The Chinese constantly arranged to have the pro-
-Communist statements of their captives seen by others. A man who
+lasting commitments. The Chinese constantly arranged to have the proCommunist statements of their captives seen by others. A man who
 had written a political essay the Chinese liked, for example, might find
-copies of it posted around camp, or might be asked to read it to a pris-
-oner discussion group, or even to read it on the camp radio broadcast.
+copies of it posted around camp, or might be asked to read it to a prisoner discussion group, or even to read it on the camp radio broadcast.
 As far as the Chinese were concerned, the more public the better. Why?
 Whenever one takes a stand that is visible to others, there arises a
 drive to maintain that stand in order to look like a consistent person.
@@ -2887,8 +2607,7 @@ and turning them in to the experimenter. A second sample of students
 also committed themselves to their first estimates, but they did so
 privately by putting them on a Magic Writing Pad and then erasing
 them by lifting the Magic Pad’s plastic cover before anyone could see
-what they had written. A third set of students did not commit them-
-62 / Influence
+what they had written. A third set of students did not commit them62 / Influence
 
 
 selves to their initial estimates at all; they just kept the estimates in mind
@@ -2898,8 +2617,7 @@ students to commit themselves publicly, some privately, and some not
 at all to their initial decisions. What Deutsch and Gerard wanted to find
 out was which of the three types of students would be most inclined
 to stick with their first judgments after receiving information that those
-judgments were incorrect. So all of the students were given new evid-
-ence suggesting that their initial estimates were wrong, and they were
+judgments were incorrect. So all of the students were given new evidence suggesting that their initial estimates were wrong, and they were
 then given the chance to change their estimates.
 The results were quite clear. The students who had never written
 down their first choices were the least loyal to those choices. When new
@@ -2907,10 +2625,8 @@ evidence was presented that questioned the wisdom of decisions that
 had never left their heads, these students were the most influenced by
 the new information to change what they had viewed as the “correct”
 decision. Compared to these uncommitted students, those who had
-merely written their decisions for a moment on a Magic Pad were sig-
-nificantly less willing to change their minds when given the chance.
-Even though they had committed themselves under the most anonym-
-ous of circumstances, the act of writing down their first judgments
+merely written their decisions for a moment on a Magic Pad were significantly less willing to change their minds when given the chance.
+Even though they had committed themselves under the most anonymous of circumstances, the act of writing down their first judgments
 caused them to resist the influence of contradictory new data and to
 remain consistent with the preliminary choices. But Deutsch and Gerard
 found that, by far, it was the students who had publicly recorded their
@@ -2959,10 +2675,8 @@ never smoke another cigarette.”
 Within a week, I had given or sent a signed card to everybody on the
 list—my dad, my brother back East, my boss, my best girlfriend, my
 ex-husband, everybody but one—the guy I was dating then. I was just
-crazy about him, and I really wanted him to value me as a person. Be-
-lieve me, I thought twice about giving him a card because I knew that
-if I couldn’t keep my promise to him I’d die. But one day at the of-
-fice—he worked in the same building as I did—I just walked up to him,
+crazy about him, and I really wanted him to value me as a person. Believe me, I thought twice about giving him a card because I knew that
+if I couldn’t keep my promise to him I’d die. But one day at the office—he worked in the same building as I did—I just walked up to him,
 handed him the card, and walked away without saying anything.
 Quitting “cold turkey” was the hardest thing I’ve ever done. There
 must have been a thousand times when I thought I had to have a smoke.
@@ -2984,8 +2698,7 @@ the more effort that goes into a commitment, the greater is its ability to
 influence the attitudes of the person who made it. We can find that
 evidence quite close to home or as far away as the back regions of the
 primitive world. For example, there is a tribe in southern Africa, the
-Thonga, that requires each of its boys to go through an elaborate initi-
-ation ceremony before he can be counted a man of the tribe. As with
+Thonga, that requires each of its boys to go through an elaborate initiation ceremony before he can be counted a man of the tribe. As with
 many other primitive peoples, a Thonga boy endures a great deal before
 he is admitted to adult membership in the group. Anthropologists
 Whiting, Kluckhohn, and Anthony have described this three-month
@@ -2993,8 +2706,7 @@ ordeal in brief but vivid terms:
 When a boy is somewhere between 10 and 16 years of age, he is
 sent by his parents to “circumcision school,” which is held every
 4 or 5 years. Here in company with his age-mates he undergoes
-severe hazing by the adult males of the society. The initiation be-
-gins when each boy runs the gauntlet between two rows of men
+severe hazing by the adult males of the society. The initiation begins when each boy runs the gauntlet between two rows of men
 who beat him with clubs. At the end of this experience he is
 stripped of his clothes and his hair is cut. He is next met by a man
 covered with lion manes and is seated upon a stone facing this
@@ -3007,13 +2719,11 @@ During the course of his initiation, the boy undergoes six major
 trials: beatings, exposure to cold, thirst, eating of unsavory foods,
 punishment, and the threat of death. On the slightest pretext, he
 may be beaten by one of the newly initiated men, who is assigned
-to the task by the older men of the tribe. He sleeps without cover-
-ing and suffers bitterly from the winter cold. He is forbidden to
+to the task by the older men of the tribe. He sleeps without covering and suffers bitterly from the winter cold. He is forbidden to
 drink a drop of water during the whole three months. Meals are
 often made nauseating by the half-digested grass from the stomach
 of an antelope, which is poured over his food. If he is caught
-breaking any important rule governing the ceremony, he is severe-
-ly punished. For example, in one of these punishments, sticks are
+breaking any important rule governing the ceremony, he is severely punished. For example, in one of these punishments, sticks are
 placed between the fingers of the offender, then a strong man
 closes his hand around that of the novice, practically crushing his
 fingers. He is frightened into submission by being told that in
@@ -3025,8 +2735,7 @@ the same time, they can be seen to be remarkably similar in principle
 Robert B. Cialdini Ph.D / 65
 
 
-and even in detail to the common initiation ceremonies of school fra-
-ternities. During the traditional “Hell Week” held yearly on college
+and even in detail to the common initiation ceremonies of school fraternities. During the traditional “Hell Week” held yearly on college
 campuses, fraternity pledges must persevere through a variety of
 activities designed by the older members to test the limits of physical
 exertion, psychological strain, and social embarrassment. At week’s
@@ -3038,8 +2747,7 @@ What is interesting is how closely the particular features of Hell Week
 tasks match those of the tribal initiation rites. Recall that anthropologists
 identified six major trials to be endured by a Thonga initiate during his
 stay in the “yard of mysteries.” A scan of newspaper reports shows
-that each trial also has its place in the hazing rituals of Greek-letter so-
-cieties:
+that each trial also has its place in the hazing rituals of Greek-letter societies:
 • Beatings. Fourteen-year-old Michael Kalogris spent three weeks in a
 Long Island hospital recovering from internal injuries suffered during
 a Hell Night initiation ceremony of his high-school fraternity, Omega
@@ -3066,8 +2774,7 @@ could catch their own urine.
 University of Southern California, the eyes of eleven pledges bulged
 when they saw the sickening task before them. Eleven quarter-pound
 slabs of raw liver lay on a tray. Cut thick and soaked in oil, each was
-to be swallowed whole, one to a boy. Gagging and choking re-
-66 / Influence
+to be swallowed whole, one to a boy. Gagging and choking re66 / Influence
 
 
 peatedly, young Richard Swanson failed three times to down his
@@ -3075,8 +2782,7 @@ piece. Determined to succeed, he finally got the oil-soaked meat into
 his throat where it lodged and, despite all efforts to remove it, killed
 him.
 • Punishment. In Wisconsin, a pledge who forgot one section of a ritual
-incantation to be memorized by all initiates was punished for his er-
-ror. He was required to keep his feet under the rear legs of a folding
+incantation to be memorized by all initiates was punished for his error. He was required to keep his feet under the rear legs of a folding
 chair while the heaviest of his fraternity brothers sat down and drank
 a beer. Although the pledge did not cry out during the punishment,
 a bone in each of his feet was broken.
@@ -3087,8 +2793,7 @@ collapsed, suffocating him before his prospective fraternity brothers
 could dig him out.
 There is another striking similarity between the initiation rites of tribal
 and fraternal societies: They simply will not die. Resisting all attempts
-to eliminate or suppress them, such hazing practices have been phenom-
-enally resilient. Authorities, in the form of colonial governments or
+to eliminate or suppress them, such hazing practices have been phenomenally resilient. Authorities, in the form of colonial governments or
 university administrations, have tried threats, social pressures, legal
 actions, banishments, bribes, and bans to persuade the groups to remove
 the hazards and humiliations from their initiation ceremonies. None
@@ -3101,8 +2806,7 @@ hazing practices by substituting a “Help Week” of civic service or by
 taking direct control of the initiation rituals. When such attempts are
 not slyly circumvented by fraternities, they are met with outright
 physical resistance. For example, in the aftermath of Richard Swanson’s
-choking death at USC, the university president issued new rules requir-
-ing that all pledging activities be reviewed by school authorities before
+choking death at USC, the university president issued new rules requiring that all pledging activities be reviewed by school authorities before
 going into effect and that adult advisers be present during initiation
 ceremonies. According to one national magazine, “The new ‘code’ set
 off a riot so violent that city police and fire detachments were afraid to
@@ -3110,8 +2814,7 @@ enter campus.”
 Resigning themselves to the inevitable, other college representatives
 have given up on the possibility of abolishing the degradations of Hell
 Week. “If hazing is a universal human activity, and every bit of evidence
-points to this conclusion, you most likely won’t be able to ban it effect-
-ively. Refuse to allow it openly and it will go underground. You can’t
+points to this conclusion, you most likely won’t be able to ban it effectively. Refuse to allow it openly and it will go underground. You can’t
 Robert B. Cialdini Ph.D / 67
 
 
@@ -3123,17 +2826,14 @@ contest any effort to ban the degrading and perilous features of their
 initiation rites? Some have argued that the groups themselves are
 composed of psychological or social miscreants whose twisted needs
 demand that others be harmed and humiliated. But the evidence does
-not support such a view. Studies done on the personality traits of fra-
-ternity members, for instance, show them to be, if anything, slightly
+not support such a view. Studies done on the personality traits of fraternity members, for instance, show them to be, if anything, slightly
 healthier than other college students in their psychological adjustment.
-Similarly, fraternities are known for their willingness to engage in be-
-neficial community projects for the general social good. What they are
+Similarly, fraternities are known for their willingness to engage in beneficial community projects for the general social good. What they are
 not willing to do, however, is substitute these projects for their initiation
 ceremonies. One survey at the University of Washington found that,
 of the fraternity chapters examined, most had a type of Help Week
 tradition but that this community service was in addition to Hell Week.
-In only one case was such service directly related to initiation proced-
-ures.14
+In only one case was such service directly related to initiation procedures.14
 The picture that emerges of the perpetrators of hazing practices is of
 normal individuals who tend to be psychologically stable and socially
 concerned but who become aberrantly harsh as a group at only one
@@ -3143,14 +2843,10 @@ be something about its rigors that is vital to the group. There must be
 some function to its harshness that the group will fight relentlessly to
 maintain. What?
 My own view is that the answer appeared in 1959 in the results of a
-study little known outside of social psychology. A pair of young re-
-searchers, Elliot Aronson and Judson Mills, decided to test their obser-
-vation that “persons who go through a great deal of trouble or pain to
+study little known outside of social psychology. A pair of young researchers, Elliot Aronson and Judson Mills, decided to test their observation that “persons who go through a great deal of trouble or pain to
 attain something tend to value it more highly than persons who attain
 the same thing with a minimum of effort.” The real stroke of inspiration
-came in their choice of the initiation ceremony as the best place to ex-
-amine this possibility. They found that college women who had to en-
-dure a severely embarrassing initiation ceremony in order to gain access
+came in their choice of the initiation ceremony as the best place to examine this possibility. They found that college women who had to endure a severely embarrassing initiation ceremony in order to gain access
 to a sex discussion group convinced themselves that their new group
 and its discussions were extremely valuable, even though Aronson and
 Mills had previously rehearsed the other group members to be as
@@ -3190,18 +2886,15 @@ Marine, catalogs his own experiences in language we could easily apply
 to the Thongas (or, for that matter, to the Kappas or Betas or Alphas):
 “the remorseless close-order drill hour after hour in the burning sun,
 the mental and physical abuse, the humiliations, the frequent sadism
-at the hands of drill sergeants, all the claustrophobic and terrifying in-
-sults to the spirit which can make an outpost like Quantico or Parris
+at the hands of drill sergeants, all the claustrophobic and terrifying insults to the spirit which can make an outpost like Quantico or Parris
 Island one of the closest things in the free world to a concentration
 camp.” But, in his commentary, Styron does more than recount the
-misery of this “training nightmare”—he recognizes its intended out-
-come: “There is no ex-Marine of my acquaintance, regardless of what
+misery of this “training nightmare”—he recognizes its intended outcome: “There is no ex-Marine of my acquaintance, regardless of what
 direction he may have taken spiritually or politically after those callow
 gung-ho days, who does not view the training as a crucible out of which
 he emerged in some way more resilient, simply braver and better for
 the wear.”
-But why should we believe William Styron, the writer, in such mat-
-ters? After all, for professional storytellers, the line between truth and
+But why should we believe William Styron, the writer, in such matters? After all, for professional storytellers, the line between truth and
 fiction is often blurred. Indeed, why should we believe him when he
 alleges that the “infernal” character of his military training was not only
 Robert B. Cialdini Ph.D / 69
@@ -3211,11 +2904,9 @@ successful, it was specifically intended, intended to create desired levels
 of pride and camaraderie among those who endured and survived it?
 At least one reason to accept his assessment comes from unfictionalized
 reality—the case of West Point cadet John Edwards, who was expelled
-from the U.S. Military Academy in 1988 on charges involving the au-
-thorized hazing that all first-year cadets experience at the hands of
+from the U.S. Military Academy in 1988 on charges involving the authorized hazing that all first-year cadets experience at the hands of
 upperclassmen to ensure that the newcomers can withstand the rigors
-of West Point training. It was not that Mr. Edwards, who ranked aca-
-demically near the top of his eleven-hundred-member class, had been
+of West Point training. It was not that Mr. Edwards, who ranked academically near the top of his eleven-hundred-member class, had been
 unable to bear up under the ritual when he was subjected to it. Nor was
 he expelled because he had been aberrantly cruel in his treatment of
 the younger cadets. His offense was that he would not expose the
@@ -3227,14 +2918,11 @@ easily surrender—either to aspiring members who are unwilling to take
 the harshness or to give it out.
 The Inner Choice
 Examination of such diverse activities as the indoctrination practices
-of the Chinese Communists and the initiation rituals of college fratern-
-ities has provided some valuable information about commitment. It
+of the Chinese Communists and the initiation rituals of college fraternities has provided some valuable information about commitment. It
 appears that commitments are most effective in changing a person’s
-self-image and future behavior when they are active, public, and effort-
-ful. But there is another property of effective commitment that is more
+self-image and future behavior when they are active, public, and effortful. But there is another property of effective commitment that is more
 important than the other three combined. To understand what it is, we
-first need to solve a pair of puzzles in the actions of Communist inter-
-rogators and fraternity brothers.
+first need to solve a pair of puzzles in the actions of Communist interrogators and fraternity brothers.
 The first puzzle comes from the refusal of fraternity chapters to allow
 public-service activities to be part of their initiation ceremonies. Recall
 that one survey showed that community projects, though frequent,
@@ -3246,13 +2934,10 @@ and unpleasantness to be had in the world of old-age-home repairs,
 mental-health-center yard work, and hospital bedpan duty. Besides,
 community-spirited endeavors of this sort would do much to improve
 the highly unfavorable public and media image of fraternity Hell Week
-rites; a survey showed that for every positive newspaper story concern-
-ing Hell Week, there were five negative stories. If only for public-rela-
-70 / Influence
+rites; a survey showed that for every positive newspaper story concerning Hell Week, there were five negative stories. If only for public-rela70 / Influence
 
 
-tions reasons, then, fraternities should want to incorporate community-
-service efforts into their initiation practices. But they don’t.
+tions reasons, then, fraternities should want to incorporate communityservice efforts into their initiation practices. But they don’t.
 To examine the second puzzle, we need to return to the Chinese
 prison camps of Korea and the regular political essay contests held for
 American captives. The Chinese wanted as many Americans as possible
@@ -3277,8 +2962,7 @@ it off as motivated by a big reward. No, the fraternity chapters and
 Chinese Communists were playing for keeps. It was not enough to
 wring commitments out of their men; those men had to be made to take
 inner responsibility for their actions.
-Given the Chinese Communist government’s affinity for the political-
-essay contest as a commitment device, it should come as no surprise
+Given the Chinese Communist government’s affinity for the politicalessay contest as a commitment device, it should come as no surprise
 that a wave of such contests appeared in the aftermath of the 1989
 massacre in Tiananmen Square, where pro-democracy protesters were
 gunned down by government soldiers. In Beijing alone, nine state-run
@@ -3287,13 +2971,11 @@ the “quelling of the counterrevolutionary rebellion.” Still acting in accord
 with its long-standing and insightful de-emphasis of rewards for public
 commitments, the Beijing government left the contest prizes unspecified.
 Social scientists have determined that we accept inner responsibility
-for a behavior when we think we have chosen to perform it in the ab-
-sence of strong outside pressures. A large reward is one such external
+for a behavior when we think we have chosen to perform it in the absence of strong outside pressures. A large reward is one such external
 pressure. It may get us to perform a certain action, but it won’t get us
 to accept inner responsibility for the act. Consequently, we won’t feel
 committed to it. The same is true of a strong threat; it may motivate
-immediate compliance, but it is unlikely to produce long-term commit-
-ment.
+immediate compliance, but it is unlikely to produce long-term commitment.
 Robert B. Cialdini Ph.D / 71
 
 
@@ -3303,22 +2985,17 @@ things we want them truly to believe in. Such pressures will probably
 produce temporary compliance with our wishes. However, if we want
 more than just that, if we want the children to believe in the correctness
 of what they have done, if we want them to continue to perform the
-desired behavior when we are not present to apply those outside pres-
-sures, then we must somehow arrange for them to accept inner respons-
-ibility for the actions we want them to take. An experiment by Jonathan
+desired behavior when we are not present to apply those outside pressures, then we must somehow arrange for them to accept inner responsibility for the actions we want them to take. An experiment by Jonathan
 Freedman gives us some hints about what to do and what not to do in
 this regard.
 Freedman wanted to see if he could prevent second- to fourth-grade
 boys from playing with a fascinating toy, just because he had said that
 it was wrong to do so some six weeks earlier. Anyone familiar with
 seven-to-nine-year-old boys must realize the enormity of the task. But
-Freedman had a plan. If he could first get the boys to convince them-
-selves that it was wrong to play with the forbidden toy, perhaps that
+Freedman had a plan. If he could first get the boys to convince themselves that it was wrong to play with the forbidden toy, perhaps that
 belief would keep them from playing with it thereafter. The difficult
-thing was making the boys believe that it was wrong to amuse them-
-selves with the toy—an extremely expensive, battery-controlled robot.
-Freedman knew it would be easy enough to have a boy obey tempo-
-rarily. All he had to do was threaten the boy with severe consequences
+thing was making the boys believe that it was wrong to amuse themselves with the toy—an extremely expensive, battery-controlled robot.
+Freedman knew it would be easy enough to have a boy obey temporarily. All he had to do was threaten the boy with severe consequences
 should he be caught playing with the toy. As long as he was nearby to
 deal out stiff punishment, Freedman figured that few boys would risk
 operating the robot. He was right. After showing a boy an array of five
@@ -3372,8 +3049,7 @@ first group, it was the severe threat they heard from Freedman to back
 up his statement that playing with the robot was “wrong.” It had been
 quite effective at first when Freedman could catch them should they
 violate his rule. Later, though, when he was no longer present to observe
-the boys’ behavior, his threat was impotent and his rule was, con-
-sequently, ignored. It seems clear that the threat had not taught the
+the boys’ behavior, his threat was impotent and his rule was, consequently, ignored. It seems clear that the threat had not taught the
 boys that operating the robot was wrong, only that it was unwise to do
 so when the possibility of punishment existed.
 For the other boys, the dramatic event had come from the inside, not
@@ -3381,16 +3057,14 @@ the outside. Freedman had instructed them, too, that playing with the
 robot was wrong, but he had added no threat of punishment should
 they disobey him. There were two important results. First, Freedman’s
 instruction alone was enough to prevent the boys from operating the
-robot while he was briefly out of the room. Second, the boys took per-
-sonal responsibility for their choice to stay away from the robot during
+robot while he was briefly out of the room. Second, the boys took personal responsibility for their choice to stay away from the robot during
 that time. They decided that they hadn’t played with it because they
 didn’t want to. After all, there were no strong punishments associated
 with the toy to explain their behavior otherwise. Thus, weeks later,
 Robert B. Cialdini Ph.D / 73
 
 
-when Freedman was nowhere around, they still ignored the robot be-
-cause they had been changed inside to believe that they did not want
+when Freedman was nowhere around, they still ignored the robot because they had been changed inside to believe that they did not want
 to play with it.17
 Adults facing the child-rearing experience can take a cue from the
 Freedman study. Suppose a couple wants to impress upon their
@@ -3404,8 +3078,7 @@ just strong enough to get her to be truthful most of the time but is not
 so strong that she sees it as the obvious reason for her truthfulness. It’s
 a tricky business, because exactly what this barely sufficient reason will
 be changes from child to child. For one little girl, a simple appeal may
-be enough (“It’s bad to lie, honey; so I hope you won’t do it”); for an-
-other child, it may be necessary to add a somewhat stronger reason
+be enough (“It’s bad to lie, honey; so I hope you won’t do it”); for another child, it may be necessary to add a somewhat stronger reason
 (“…because if you do, I’ll be disappointed in you”); for a third child, a
 mild form of warning may be required as well (“…and I’ll probably
 have to do something I don’t want to do”). Wise parents will know
@@ -3416,8 +3089,7 @@ for that behavior. Thus, the less detectable outside pressure such a
 reason contains, the better. Selecting just the right reason is not an easy
 task for parents. But the effort should pay off. It is likely to mean the
 difference between short-lived compliance and long-term commitment.
-For a pair of reasons we have already talked about, compliance pro-
-fessionals love commitments that produce inner change. First, that
+For a pair of reasons we have already talked about, compliance professionals love commitments that produce inner change. First, that
 change is not just specific to the situation where it first occurred; it
 covers a whole range of related situations, too. Second, the effects of
 the change are lasting. So, once a man has been induced to take action
@@ -3429,15 +3101,13 @@ There is yet another attraction in commitments that lead to inner
 change—they grow their own legs. There is no need for the compliance
 professional to undertake a costly and continuing effort to reinforce the
 change; the pressure for consistency will take care of all that. After our
-friend comes to view himself as a public-spirited citizen, he will auto-
-matically begin to see things differently. He will convince himself that
+friend comes to view himself as a public-spirited citizen, he will automatically begin to see things differently. He will convince himself that
 74 / Influence
 
 
 it is the correct way to be. He will begin to pay attention to facts he
 hadn’t noticed before about the value of community service. He will
-make himself available to hear arguments he hadn’t heard before favor-
-ing civic action. And he will find such arguments more persuasive than
+make himself available to hear arguments he hadn’t heard before favoring civic action. And he will find such arguments more persuasive than
 before. In general, because of the need to be consistent within his system
 of beliefs, he will assure himself that his choice to take public-spirited
 action was right. What is important about this process of generating
@@ -3445,24 +3115,18 @@ additional reasons to justify the commitment is that the reasons are new.
 Thus, even if the original reason for the civic-minded behavior was
 taken away, these newly discovered reasons might be enough by
 themselves to support his perception that he had behaved correctly.
-The advantage to an unscrupulous compliance professional is tre-
-mendous. Because we build new struts to undergird choices we have
-committed ourselves to, an exploitative individual can offer us an in-
-ducement for making such a choice, and after the decision has been
+The advantage to an unscrupulous compliance professional is tremendous. Because we build new struts to undergird choices we have
+committed ourselves to, an exploitative individual can offer us an inducement for making such a choice, and after the decision has been
 made, can remove that inducement, knowing that our decision will
-probably stand on its own newly created legs. New-car dealers fre-
-quently try to benefit from this process through a trick they call
+probably stand on its own newly created legs. New-car dealers frequently try to benefit from this process through a trick they call
 “throwing a lowball.” I first encountered the tactic while posing as a
-sales trainee at a local Chevrolet dealership. After a week of basic in-
-struction, I was allowed to watch the regular salesmen perform. One
+sales trainee at a local Chevrolet dealership. After a week of basic instruction, I was allowed to watch the regular salesmen perform. One
 practice that caught my attention right away was the lowball.
 For certain customers, a very good price is offered on a car, perhaps
 as much as four hundred dollars below competitors’ prices. The good
 deal, however, is not genuine; the dealer never intends it to go through.
-Its only purpose is to cause a prospect to decide to buy one of the deal-
-ership’s cars. Once the decision is made, a number of activities develop
-the customer’s sense of personal commitment to the car—a raft of pur-
-chase forms are filled out, extensive financing terms are arranged,
+Its only purpose is to cause a prospect to decide to buy one of the dealership’s cars. Once the decision is made, a number of activities develop
+the customer’s sense of personal commitment to the car—a raft of purchase forms are filled out, extensive financing terms are arranged,
 sometimes the customer is encouraged to drive the car for a day before
 signing the contract “so you can get the feel of it and show it around
 in the neighborhood and at work.” During this time, the dealer knows,
@@ -3472,8 +3136,7 @@ Then something happens. Occasionally an “error” in the calculations
 is discovered—maybe the salesman forgot to add in the cost of the air
 conditioner, and if the buyer still requires air conditioning, four hundred
 dollars must be added to the price. To keep from being suspected of
-gouging by the customer, some dealers let the bank handling the finan-
-cing find the mistake. At other times, the deal is disallowed at the last
+gouging by the customer, some dealers let the bank handling the financing find the mistake. At other times, the deal is disallowed at the last
 moment when the salesman checks with his boss, who cancels it because
 “We’d be losing money.” For only another four hundred dollars the
 car can be had, which, in the context of a multithousand-dollar deal,
@@ -3484,28 +3147,22 @@ doesn’t seem too steep since, as the salesman emphasizes, the cost is
 equal to competitors’ and “This is the car you chose, right?” Another,
 even more insidious form of lowballing occurs when the salesman
 makes an inflated trade-in offer on the prospect’s old car as part of the
-buy/trade package. The customer recognizes the offer as overly gener-
-ous and jumps at the deal. Later, before the contract is signed, the used-
-car manager says that the salesman’s estimate was four hundred dollars
+buy/trade package. The customer recognizes the offer as overly generous and jumps at the deal. Later, before the contract is signed, the usedcar manager says that the salesman’s estimate was four hundred dollars
 too high and reduces the trade-in allowance to its actual, blue-book
-level. The customer, realizing that the reduced offer is the fair one, ac-
-cepts it as appropriate and sometimes feels guilty about trying to take
+level. The customer, realizing that the reduced offer is the fair one, accepts it as appropriate and sometimes feels guilty about trying to take
 advantage of the salesman’s high estimate. I once witnessed a woman
 provide an embarrassed apology to a salesman who had used the last
 version of lowballing on her—this while she was signing a new-car
 contract giving him a huge commission. He looked hurt but managed
 a forgiving smile.
 No matter which variety of lowballing is used, the sequence is the
-same: An advantage is offered that induces a favorable purchase de-
-cision; then, sometime after the decision has been made but before the
+same: An advantage is offered that induces a favorable purchase decision; then, sometime after the decision has been made but before the
 bargain is sealed, the original purchase advantage is deftly removed.
 It seems almost incredible that a customer would buy a car under these
-circumstances. Yet it works—not on everybody, of course, but it is ef-
-fective enough to be a staple compliance procedure in many, many car
+circumstances. Yet it works—not on everybody, of course, but it is effective enough to be a staple compliance procedure in many, many car
 showrooms. Automobile dealers have come to understand the ability
 of a personal commitment to build its own support system, a support
-system of new justifications for the commitment. Often these justifica-
-tions provide so many strong legs for the decision to stand on that when
+system of new justifications for the commitment. Often these justifications provide so many strong legs for the decision to stand on that when
 the dealer pulls away only one leg, the original one, there is no collapse.
 The loss can be shrugged off by the customer who is consoled, even
 made happy, by the array of other good reasons favoring the choice. It
@@ -3516,8 +3173,7 @@ person feel pleased with a poor choice. Those who have only poor
 choices to offer us, then, are especially fond of the technique. We can
 find them throwing lowballs in business, social, and personal situations.
 For instance, there’s my neighbor Tim, a true lowball aficionado. Recall
-that he’s the one who, by promising to change his ways, got his girl-
-friend, Sara, to cancel her impending marriage to another and to take
+that he’s the one who, by promising to change his ways, got his girlfriend, Sara, to cancel her impending marriage to another and to take
 him back. Since her decision for Tim, Sara has become more devoted
 to him than ever, even though he has not fulfilled his promises. She
 explains this by saying that she has allowed herself to see all sorts of
@@ -3530,8 +3186,7 @@ watched buyers fall for the give-it-and-take-it-away-later strategy in
 the car showroom, I watched her fall for the same trick with Tim. For
 his part, Tim remains the guy he has always been. But because the new
 attractions Sara has discovered (or created) in him are quite real for her,
-she now seems satisfied with the same arrangement that was unaccept-
-able before her enormous commitment. The decision to choose Tim,
+she now seems satisfied with the same arrangement that was unacceptable before her enormous commitment. The decision to choose Tim,
 poor as it may have been objectively, has grown its own supports and
 appears to have made Sara genuinely happy. I have never mentioned
 to Sara what I know about lowballing. The reason for my silence is not
@@ -3543,35 +3198,28 @@ the compliance techniques discussed in this book can be employed for
 good or for ill. It should not be surprising, then, that the lowball tactic
 can be used for more socially beneficial purposes than selling new cars
 or reestablishing relationships with former lovers. One research project
-done in Iowa, for example, shows how the lowball procedure can influ-
-ence homeowners to conserve energy.19 The project, headed by Dr.
+done in Iowa, for example, shows how the lowball procedure can influence homeowners to conserve energy.19 The project, headed by Dr.
 Michael Pallak, began at the start of the Iowa winter when residents
-who heated their homes with natural gas were contacted by an inter-
-viewer. The interviewer gave them some energy-conservation tips and
+who heated their homes with natural gas were contacted by an interviewer. The interviewer gave them some energy-conservation tips and
 asked them to try to save fuel in the future. Although they all agreed
-to try, when the researchers examined the utility records of these fam-
-ilies after a month and again at winter’s end, it was clear that no real
+to try, when the researchers examined the utility records of these families after a month and again at winter’s end, it was clear that no real
 savings had occurred. The residents who had promised to make a
 conservation attempt used just as much natural gas as a random sample
 of their neighbors who had not been contacted by an interviewer. Just
 good intentions coupled with information about saving fuel, then, were
 not enough to change habits.
-Even before the project began, Pallak and his research team had re-
-cognized that something more would be needed to shift long-standing
-energy patterns. So they tried a slightly different procedure on a com-
-parable sample of Iowa natural-gas users. These people, too, were
+Even before the project began, Pallak and his research team had recognized that something more would be needed to shift long-standing
+energy patterns. So they tried a slightly different procedure on a comparable sample of Iowa natural-gas users. These people, too, were
 contacted by an interviewer, who provided energy-saving hints and
 asked them to conserve. But for these families, the interviewer offered
 something else: Those residents agreeing to save energy would have
-their names publicized in newspaper articles as public-spirited, fuel-
-conserving citizens. The effect was immediate. One month later, when
+their names publicized in newspaper articles as public-spirited, fuelconserving citizens. The effect was immediate. One month later, when
 the utility companies checked their meters, the homeowners in this
 sample had saved an average of 422 cubic feet of natural gas apiece.
 Robert B. Cialdini Ph.D / 77
 
 
-The chance to have their names in the paper had motivated these resid-
-ents to substantial conservation efforts for a period of a month.
+The chance to have their names in the paper had motivated these residents to substantial conservation efforts for a period of a month.
 Then the rug was pulled out. The researchers extracted the reason
 that had initially caused these people to save fuel. Each family that had
 been promised publicity received a letter saying it would not be possible
@@ -3582,28 +3230,23 @@ to their old, wasteful habits when the chance to be in the newspaper
 was removed? Hardly. For each of the remaining winter months, they
 actually conserved more fuel than they had during the time they thought
 they would be publicly celebrated for it! In terms of percentage of energy
-savings, they had managed a 12.2 percent first-month gas savings be-
-cause they expected to see themselves lauded in the paper. But after
+savings, they had managed a 12.2 percent first-month gas savings because they expected to see themselves lauded in the paper. But after
 the letter arrived informing them to the contrary, they did not return
 to their previous energy-use levels; instead, they increased their savings
 to a 15.5 percent level for the rest of the winter.
-Although we can never be completely sure of such things, one explan-
-ation for their persistent behavior presents itself immediately. These
+Although we can never be completely sure of such things, one explanation for their persistent behavior presents itself immediately. These
 people had been lowballed into a conservation commitment through a
 promise of newspaper publicity. Once made, that commitment started
 generating its own support: The homeowners began acquiring new
 energy habits, began feeling good about their public-spirited efforts,
-began convincing themselves of the vital need to reduce American de-
-pendence on foreign fuel, began appreciating the monetary savings in
+began convincing themselves of the vital need to reduce American dependence on foreign fuel, began appreciating the monetary savings in
 their utility bills, began feeling proud of their capacity for self-denial,
-and, most important, began viewing themselves as conservation-
-minded. With all these new reasons present to justify the commitment
+and, most important, began viewing themselves as conservationminded. With all these new reasons present to justify the commitment
 to use less energy, it is no wonder that the commitment remained firm
 even after the original reason, newspaper publicity, had been kicked
 away.
 But strangely enough, when the publicity factor was no longer a
-possibility, these families did not merely maintain their fuel-saving ef-
-fort, they heightened it. Any of a number of interpretations could be
+possibility, these families did not merely maintain their fuel-saving effort, they heightened it. Any of a number of interpretations could be
 offered for that still stronger effort, but I have a favorite. In a way, the
 opportunity to receive newspaper publicity had prevented the
 homeowners from fully owning their commitment to conservation. Of
@@ -3612,8 +3255,7 @@ only one that had come from the outside; it was the only one preventing
 the homeowners from thinking that they were conserving gas because
 they believed in it. So when the letter arrived canceling the publicity
 agreement, it removed the only impediment to these residents’ images
-of themselves as fully concerned, energy-conscious citizens. This un-
-78 / Influence
+of themselves as fully concerned, energy-conscious citizens. This un78 / Influence
 
 
 qualified, new self-image then pushed them to even greater heights of
@@ -3625,19 +3267,16 @@ cooled by central air-conditioning. Those homeowners who were
 promised newspaper publicity decreased their electricity use by 27.8
 percent during July, as compared to similar homeowners who were not
 promised any coverage or who were not contacted at all. At the end of
-July, a letter was sent canceling the publicity promise. Rather than re-
-verting to their old habits, the lowballed residents increased their August
+July, a letter was sent canceling the publicity promise. Rather than reverting to their old habits, the lowballed residents increased their August
 energy savings to a stunning 41.6 percent. Much like Sara, they appeared
 to have become committed to a choice through an initial inducement
-and were still more dedicated to it after the inducement had been re-
-moved.
+and were still more dedicated to it after the inducement had been removed.
 HOW TO SAY NO
 “Consistency is the hobgoblin of little minds.” Or, at least, so goes a
 frequently heard quotation attributed to Ralph Waldo Emerson. But
 what a very odd thing to say. Looking around, it is obvious that, quite
 contrary to what Emerson seems to have suggested, internal consistency
-is a hallmark of logic and intellectual strength, while its lack character-
-izes the intellectually scattered and limited among us. What, then, could
+is a hallmark of logic and intellectual strength, while its lack characterizes the intellectually scattered and limited among us. What, then, could
 a thinker of Emerson’s caliber have meant when he assigned the trait
 of consistency to the small-minded? I was sufficiently intrigued to go
 back to the original source of his statement, the essay “Self-Reliance,”
@@ -3655,8 +3294,7 @@ rigid variety to be shunned. It is this tendency to be automatically and
 unthinkingly consistent that Emerson referred to. And it is this tendency
 that we must be wary of, for it lays us open to the maneuvers of those
 quence for profit.
-But since automatic consistency is so useful in allowing us an econom-
-Robert B. Cialdini Ph.D / 79
+But since automatic consistency is so useful in allowing us an economRobert B. Cialdini Ph.D / 79
 who want to exploit the mechanical commitment     consistency se-
 
 
@@ -3664,8 +3302,7 @@ ical and appropriate way of behaving most of the time, we can’t decide
 merely to eliminate it from our lives altogether. The results would be
 disastrous. If, rather than whirring along in accordance with our prior
 decisions and deeds, we stopped to think through the merits of every
-new action before performing it, we would never have time to accom-
-plish anything significant. We need even that dangerous, mechanical
+new action before performing it, we would never have time to accomplish anything significant. We need even that dangerous, mechanical
 brand of consistency. The only way out of the dilemma is to know when
 such consistency is likely to lead to a poor choice. There are certain
 signals—two separate kinds of signals, in fact—to tip us off. We register
@@ -3681,8 +3318,7 @@ carrying a clipboard and was asking me to participate in a survey.
 Wanting to make a favorable impression, I agreed and, I do admit,
 stretched the truth in my interview answers so as to present myself in
 the most positive light. Our conversation went as follows:
-STUNNING YOUNG WOMAN: Hello, I’m doing a survey on the entertain-
-ment habits of city residents, and I wonder if you could answer a few
+STUNNING YOUNG WOMAN: Hello, I’m doing a survey on the entertainment habits of city residents, and I wonder if you could answer a few
 questions for me.
 CIALDINI: Do come in.
 SYW: Thank you. I’ll just sit right here and begin. How many times per
@@ -3713,10 +3349,8 @@ C: Actually, it’s Dr. Cialdini. But that sounds so formal; why don’t you
 call me Bob?
 SYW: All right, Bob. From the information you’ve already given me, I’m
 pleased to say that you could save up to twelve hundred dollars a year
-by joining Clubamerica! A small membership fee entitles you to dis-
-counts on most of the activities you’ve mentioned. Surely someone as
-socially vigorous as yourself would want to take advantage of the tre-
-mendous savings our company can offer on all the things you’ve already
+by joining Clubamerica! A small membership fee entitles you to discounts on most of the activities you’ve mentioned. Surely someone as
+socially vigorous as yourself would want to take advantage of the tremendous savings our company can offer on all the things you’ve already
 told me you do.
 C (trapped like a rat): Well…uh…I…uh…I guess so.
 I remember quite well feeling my stomach tighten as I stammered
@@ -3733,8 +3367,7 @@ Robert B. Cialdini Ph.D / 81
 
 I knew I had been set up so that the need to be consistent with what I
 had already said would snare me.
-No more, though. I listen to my stomach these days. And I have dis-
-covered a way to handle people who try to use the consistency principle
+No more, though. I listen to my stomach these days. And I have discovered a way to handle people who try to use the consistency principle
 on me. I just tell them exactly what they are doing. It works beautifully.
 Most of the time, they don’t understand me; they just become sufficiently
 confused to want to leave me alone. I think they suspect lunacy in
@@ -3742,19 +3375,16 @@ anyone who responds to their requests by explaining what Ralph Waldo
 Emerson meant in distinguishing between consistency and foolish
 consistency. Usually they have already begun edging away by the time
 I have mentioned “hobgoblins of the mind” and are gone long before
-I have described the click, whirr character of commitment and consist-
-ency. Occasionally, though, they realize that I am on to their game. I
+I have described the click, whirr character of commitment and consistency. Occasionally, though, they realize that I am on to their game. I
 always know when that happens—it’s as clear as the egg on their faces.
 They invariably become flustered, bumble through a hasty exit line,
 and go for the door.
 This tactic has become the perfect counterattack for me. Whenever
 my stomach tells me I would be a sucker to comply with a request
-merely because doing so would be consistent with some prior commit-
-ment I was tricked into, I relay that message to the requester. I don’t
+merely because doing so would be consistent with some prior commitment I was tricked into, I relay that message to the requester. I don’t
 try to deny the importance of consistency; I just point out the absurdity
 of foolish consistency. Whether, in response, the requester shrinks away
-guiltily or retreats in bewilderment, I am content. I have won; an ex-
-ploiter has lost.
+guiltily or retreats in bewilderment, I am content. I have won; an exploiter has lost.
 I sometimes think about how it would be if that stunning young
 woman of years ago were to try to sell me an entertainment-club
 membership now. I have it all worked out. The entire interaction would
@@ -3790,11 +3420,9 @@ SYW (trapped like a stunning young rat): Well…uh…I…uh…I guess so.
 Stomachs are not especially perceptive or subtle organs. Only when
 it is obvious that we are about to be conned are they likely to register
 and transmit that message. At other times, when it is not clear that we
-are being taken, our stomachs may never catch on. Under those circum-
-stances we have to look elsewhere for a clue. The situation of my
+are being taken, our stomachs may never catch on. Under those circumstances we have to look elsewhere for a clue. The situation of my
 neighbor Sara provides a good illustration. She made an important
-commitment to Tim by canceling her prior marriage plans. That com-
-mitment has grown its own supports, so that even though the original
+commitment to Tim by canceling her prior marriage plans. That commitment has grown its own supports, so that even though the original
 reasons for the commitment are gone, she remains in harmony with it.
 She has convinced herself with newly formed reasons that she did the
 right thing, so she stays with Tim. It is not difficult to see why there
@@ -3802,15 +3430,13 @@ would be no tightening in Sara’s stomach as a result. Stomachs tell us
 when we are doing something we think is wrong for us. Sara thinks no
 such thing. To her mind, she has chosen correctly and is behaving
 consistently with that choice.
-Yet, unless I badly miss my guess, there is a part of Sara that recog-
-nizes her choice as a mistake and her current living arrangement as a
+Yet, unless I badly miss my guess, there is a part of Sara that recognizes her choice as a mistake and her current living arrangement as a
 brand of foolish consistency. Where, exactly, that part of Sara is located
 we can’t be sure. But our language does give it a name: heart of hearts.
 It is, by definition, the one place where we cannot fool ourselves. It is
 the place where none of our justifications, none of our rationalizations
 penetrate. Sara has the truth there, although, right now, she can’t hear
-its signal clearly through the noise and static of the new support appar-
-atus she has erected.
+its signal clearly through the noise and static of the new support apparatus she has erected.
 If Sara has erred in her choice of Tim, how long could she go without
 Robert B. Cialdini Ph.D / 83
 
@@ -3819,8 +3445,7 @@ clearly recognizing it, without having a massive heart of hearts attack?
 There is no telling. One thing is certain, however: As time passes, the
 various alternatives to Tim are disappearing. She had better determine
 soon whether she is making a mistake.
-Easier said than done, of course. She must answer an extremely in-
-tricate question: “Knowing what I now know, if I could go back in time,
+Easier said than done, of course. She must answer an extremely intricate question: “Knowing what I now know, if I could go back in time,
 would I make the same choice?” The problem lies in the “Knowing
 what I now know” part of the question. Just what does she now know,
 accurately, about Tim? How much of what she thinks of him is the
@@ -3832,16 +3457,11 @@ my doubts. The important issue, though, is whether she believes these
 things, not just intellectually—we can play such mind games on
 ourselves—but in her heart of hearts.
 There may be a little device Sara can use to find out how much of her
-current satisfaction with Tim is real and how much is foolish consist-
-ency. Accumulating psychological evidence indicates that we experience
-our feelings toward something a split second before we can intellectu-
-alize about it.21 My suspicion is that the message sent by the heart of
-hearts is a pure, basic feeling. Therefore, if we train ourselves to be at-
-tentive, we should register it ever so slightly before our cognitive appar-
-atus engages. According to this approach, were Sara to ask herself the
+current satisfaction with Tim is real and how much is foolish consistency. Accumulating psychological evidence indicates that we experience
+our feelings toward something a split second before we can intellectualize about it.21 My suspicion is that the message sent by the heart of
+hearts is a pure, basic feeling. Therefore, if we train ourselves to be attentive, we should register it ever so slightly before our cognitive apparatus engages. According to this approach, were Sara to ask herself the
 crucial “Would I make the same choice again?” question, she would be
-well advised to look for and trust the first flash of feeling she experi-
-enced in response. It would likely be the signal from her heart of hearts,
+well advised to look for and trust the first flash of feeling she experienced in response. It would likely be the signal from her heart of hearts,
 slipping through undistorted just before the means by which she could
 kid herself flooded in.22
 I have begun using the same device myself whenever I even suspect
@@ -3863,8 +3483,7 @@ I needed to determine whether those reasons were genuine or mere
 
 justifications for my decision to stop there. So I asked myself the crucial
 question, “Knowing what I know about the real price of this gasoline,
-if I could go back in time, would I make the same choice again?” Con-
-centrating on the first burst of impression I sensed, the answer was
+if I could go back in time, would I make the same choice again?” Concentrating on the first burst of impression I sensed, the answer was
 clear and unqualified. I would have driven right past. I wouldn’t even
 have slowed down. I knew then that without the price advantage, those
 other reasons would not have brought me there. They hadn’t created
@@ -3891,11 +3510,9 @@ skeptical, since I know there are many more attractive women than
 myself running around; however, I was caught off guard and was
 curious to find out what he wanted. He explained that he would receive
 points for a contest by getting total strangers to give him a kiss. Now I
-consider myself a fairly level-headed person who shouldn’t have be-
-lieved his line, but he was quite persistent, and since I was almost late
+consider myself a fairly level-headed person who shouldn’t have believed his line, but he was quite persistent, and since I was almost late
 for my lunch appointment, I thought, ‘What the heck, I’ll give the guy
-a kiss and get out of here.’ So I did something totally against my com-
-mon sense and pecked this total stranger on the cheek in the middle of
+a kiss and get out of here.’ So I did something totally against my common sense and pecked this total stranger on the cheek in the middle of
 downtown Portland!
 “I thought that would be the end of it, but I soon learned that it was
 just the beginning. Much to my distress, he followed the kiss with the
@@ -3908,14 +3525,11 @@ Robert B. Cialdini Ph.D / 85
 the guy and walked away; but somehow, because I had complied with
 his initial request, I felt a need to be consistent, and I complied with his
 second request. Yes, much to my own disbelief, I actually subscribed
-to SKI magazine (which I occasionally enjoy reading, but had no inten-
-tion of subscribing to), gave him a five-dollar initial-subscription fee
+to SKI magazine (which I occasionally enjoy reading, but had no intention of subscribing to), gave him a five-dollar initial-subscription fee
 and left as quickly as possible, feeling quite frustrated with what I had
 just done and not understanding why I had done it.
-“Although it still pains me to think about it, in reflecting on the incid-
-ent after reading your book, I’ve now figured out what happened. The
-reason this tactic worked so effectively is because once small commit-
-ments have been made (in this case, giving a kiss), people tend to add
+“Although it still pains me to think about it, in reflecting on the incident after reading your book, I’ve now figured out what happened. The
+reason this tactic worked so effectively is because once small commitments have been made (in this case, giving a kiss), people tend to add
 justifications to support the commitment and then are willing to commit
 themselves further. In this situation, I justified complying with the
 second request because it was consistent with my initial action. If I had
@@ -3954,23 +3568,19 @@ for acclaimed directors, writers, or actors to demand the elimination of
 canned responses from the television projects they undertake. These
 demands are only sometimes successful, and when they are, it is not
 without a battle.
-What could it be about canned laughter that is so attractive to televi-
-sion executives? Why would these shrewd and tested businessmen
+What could it be about canned laughter that is so attractive to television executives? Why would these shrewd and tested businessmen
 champion a practice that their potential watchers find disagreeable and
 their most creative talents find personally insulting? The answer is at
 
 
-once simple and intriguing: They know what the research says. Exper-
-iments have found that the use of canned merriment causes an audience
+once simple and intriguing: They know what the research says. Experiments have found that the use of canned merriment causes an audience
 to laugh longer and more often when humorous material is presented
 and to rate the material as funnier. In addition, some evidence indicates
 that canned laughter is most effective for poor jokes.1
 In the light of these data, the actions of television executives make
-perfect sense. The introduction of laugh tracks into their comic program-
-ming will increase the humorous and appreciative responses of an
+perfect sense. The introduction of laugh tracks into their comic programming will increase the humorous and appreciative responses of an
 audience, even—and especially—when the material is of poor quality.
-Is it any surprise, then, that television, glutted as it is with artless situ-
-ation-comedy attempts, should be saturated with canned laughter?
+Is it any surprise, then, that television, glutted as it is with artless situation-comedy attempts, should be saturated with canned laughter?
 Those executives know precisely what they are doing.
 But with the mystery of the widespread use of laugh tracks solved,
 we are left with a more perplexing question: Why does canned laughter
@@ -3984,14 +3594,11 @@ can recognize dubbed laughter. It is so blatant, so clearly counterfeit,
 that there could be no confusing it with the real thing. We know full
 well that the hilarity we hear is irrelevant to the humorous quality of
 the joke it follows, that it is created not spontaneously by a genuine
-audience, but artificially by a technician at a control board. Yet, trans-
-parent forgery that it is, it works on us!
-To discover why canned laughter is so effective, we first need to un-
-derstand the nature of yet another potent weapon of influence: the
+audience, but artificially by a technician at a control board. Yet, transparent forgery that it is, it works on us!
+To discover why canned laughter is so effective, we first need to understand the nature of yet another potent weapon of influence: the
 principle of social proof. It states that one means we use to determine
 what is correct is to find out what other people think is correct. The
-principle applies especially to the way we decide what constitutes cor-
-rect behavior. We view a behavior as more correct in a given situation
+principle applies especially to the way we decide what constitutes correct behavior. We view a behavior as more correct in a given situation
 to the degree that we see others performing it. Whether the question is
 what to do with an empty popcorn box in a movie theater, how fast to
 drive on a certain stretch of highway, or how to eat the chicken at a
@@ -4005,8 +3612,7 @@ to do. This feature of the principle of social proof is simultaneously its
 88 / Influence
 
 
-major strength and its major weakness. Like the other weapons of influ-
-ence, it provides a convenient shortcut for determining how to behave
+major strength and its major weakness. Like the other weapons of influence, it provides a convenient shortcut for determining how to behave
 but, at the same time, makes one who uses the shortcut vulnerable to
 the attacks of profiteers who lie in wait along its path.
 In the case of canned laughter, the problem comes when we begin
@@ -4015,28 +3621,24 @@ we can be fooled by partial or fake evidence. Our folly is not that we
 use others’ laughter to help decide what is humorous and when mirth
 is appropriate; that is in keeping with the well-founded principle of
 social proof. The folly is that we do so in response to patently fraudulent
-laughter. 
-Somehow, 
-one 
-disembodied 
-feature 
-of 
+laughter.
+Somehow,
+one
+disembodied
+feature
+of
 humor—a
 sound—works like the essence of humor. The example from Chapter
-1 of the turkey and the polecat is instructive here. Remember that be-
-cause the particular “cheep-cheep” of turkey chicks is normally associ-
-ated with newborn turkeys, their mothers will display or withhold
+1 of the turkey and the polecat is instructive here. Remember that because the particular “cheep-cheep” of turkey chicks is normally associated with newborn turkeys, their mothers will display or withhold
 maternal care solely on the basis of that sound? And remember how,
 consequently, it was possible to trick a female turkey into mothering a
 stuffed polecat as long as the replica played the recorded “cheep-cheep”
 of a baby turkey? The simulated chick sound was enough to start the
 female’s mothering tape whirring.
 The lesson of the turkey and the polecat illustrates uncomfortably
-well the relationship between the average viewer and the laugh-track-
-playing television executive. We have become so accustomed to taking
+well the relationship between the average viewer and the laugh-trackplaying television executive. We have become so accustomed to taking
 the humorous reactions of others as evidence of what deserves laughter
-that we, too, can be made to respond to the sound and not to the sub-
-stance of the real thing. Much as a “cheep-cheep” noise removed from
+that we, too, can be made to respond to the sound and not to the substance of the real thing. Much as a “cheep-cheep” noise removed from
 the reality of a chick can stimulate a female turkey to mother, so can a
 recorded “ha-ha” removed from the reality of a genuine audience
 stimulate us to laugh. The television executives are exploiting our
@@ -4047,8 +3649,7 @@ Television executives are hardly alone in their use of social evidence
 for profit. Our tendency to assume that an action is more correct if
 others are doing it is exploited in a variety of settings. Bartenders often
 “salt” their tip jars with a few dollar bills at the beginning of the evening
-to simulate tips left by prior customers and thereby to give the impres-
-sion that tipping with folding money is proper barroom behavior.
+to simulate tips left by prior customers and thereby to give the impression that tipping with folding money is proper barroom behavior.
 Church ushers sometimes salt collection baskets for the same reason
 and with the same positive effect on proceeds. Evangelical preachers
 are known to seed their audience with “ringers,” who are rehearsed to
@@ -4069,8 +3670,7 @@ which seems proof enough. The producers of charity telethons devote
 inordinate amounts of time to the incessant listing of viewers who have
 already pledged contributions. The message being communicated to
 the holdouts is clear: “Look at all the people who have decided to give.
-It must be the correct thing to do.” At the height of the disco craze, cer-
-tain discotheque owners manufactured a brand of visible social proof
+It must be the correct thing to do.” At the height of the disco craze, certain discotheque owners manufactured a brand of visible social proof
 for their clubs’ quality by creating long waiting lines outside when there
 was plenty of room inside. Salesmen are taught to spice their pitches
 with numerous accounts of individuals who have purchased the
@@ -4080,8 +3680,7 @@ people are imitators and only 5 percent initiators, people are persuaded
 more by the actions of others than by any proof we can offer.”
 Researchers, too, have employed procedures based on the principle
 of social proof—sometimes with astounding results. One psychologist
-in particular, Albert Bandura, has led the way in developing such pro-
-cedures for the elimination of undesirable behavior. Bandura and his
+in particular, Albert Bandura, has led the way in developing such procedures for the elimination of undesirable behavior. Bandura and his
 colleagues have shown how people suffering from phobias can be rid
 of these extreme fears in an amazingly simple fashion. For instance, in
 an early study nursery-school-age children chosen because they were
@@ -4111,15 +3710,13 @@ evidence is available in the research of psychologist Robert O’Connor
 on socially withdrawn preschool children. We have all seen children
 of this sort, terribly shy, standing alone at the fringes of the games and
 groupings of their peers. O’Connor worried that a long-term pattern
-of isolation was forming, even at an early age, that would create persist-
-ent difficulties in social comfort and adjustment through adulthood. In
+of isolation was forming, even at an early age, that would create persistent difficulties in social comfort and adjustment through adulthood. In
 an attempt to reverse the pattern, O’Connor made a film containing
 eleven different scenes in a nursery-school setting. Each scene began
 by showing a different solitary child watching some ongoing social
 activity and then actively joining the activity, to everyone’s enjoyment.
 O’Connor selected a group of the most severely withdrawn children
-from four preschools and showed them his film. The impact was im-
-pressive. The isolates immediately began to interact with their peers at
+from four preschools and showed them his film. The impact was impressive. The isolates immediately began to interact with their peers at
 a level equal to that of the normal children in the schools. Even more
 astonishing was what O’Connor found when he returned to observe
 six weeks later. While the withdrawn children who had not seen
@@ -4131,10 +3728,7 @@ the potency of the principle of social proof.4
 When it comes to illustrations of the strength of social proof, there is
 one that is far and away my favorite. Several features account for its
 appeal: It offers a superb example of the much underused method of
-participant observation, in which a scientist studies a process by becom-
-ing immersed in its natural occurrence; it provides information of in-
-terest to such diverse groups as historians, psychologists, and theolo-
-gians; and, most important, it shows how social evidence can be used
+participant observation, in which a scientist studies a process by becoming immersed in its natural occurrence; it provides information of interest to such diverse groups as historians, psychologists, and theologians; and, most important, it shows how social evidence can be used
 on us—not by others, but by ourselves—to assure us that what we
 prefer to be true will seem to be true.
 The story is an old one, requiring an examination of ancient data, for
@@ -4142,8 +3736,7 @@ the past is dotted with millennial religious movements. Various sects
 and cults have prophesied that on one or another particular date there
 would arrive a period of redemption and great happiness for those who
 believed in the group’s teachings. In each instance it has been predicted
-that the beginning of the time of salvation would be marked by an im-
-portant and undeniable event, usually the cataclysmic end of the world.
+that the beginning of the time of salvation would be marked by an important and undeniable event, usually the cataclysmic end of the world.
 Robert B. Cialdini Ph.D / 91
 
 
@@ -4152,12 +3745,9 @@ dismay of the members of such groups, the end has never appeared as
 scheduled.
 But immediately following the obvious failure of the prophecy, history
 records an enigmatic pattern. Rather than disbanding in disillusion, the
-cultists often become strengthened in their convictions. Risking the ri-
-dicule of the populace, they take to the streets, publicly asserting their
-dogma and seeking converts with a fervor that is intensified, not dimin-
-ished, by the clear disconfirmation of a central belief. So it was with the
-Montanists of second-century Turkey, with the Anabaptists of sixteenth-
-century Holland, with the Sabbataists of seventeenth-century Izmir,
+cultists often become strengthened in their convictions. Risking the ridicule of the populace, they take to the streets, publicly asserting their
+dogma and seeking converts with a fervor that is intensified, not diminished, by the clear disconfirmation of a central belief. So it was with the
+Montanists of second-century Turkey, with the Anabaptists of sixteenthcentury Holland, with the Sabbataists of seventeenth-century Izmir,
 with the Millerites of nineteenth-century America. And, thought a trio
 of interested social scientists, so it might be with a doomsday cult based
 in modern-day Chicago. The scientists—Leon Festinger, Henry Riecken,
@@ -4169,8 +3759,7 @@ resulted in a remarkably rich firsthand account of the goings-on before
 and after the day of predicted catastrophe.5
 The cult of believers was small, never numbering more than thirty
 members. Its leaders were a middle-aged man and woman, whom the
-researchers renamed, for purposes of publication, Dr. Thomas Arm-
-strong and Mrs. Marian Keech. Dr. Armstrong, a physician on the staff
+researchers renamed, for purposes of publication, Dr. Thomas Armstrong and Mrs. Marian Keech. Dr. Armstrong, a physician on the staff
 of a college student health service, had a long-held interest in mysticism,
 the occult, and flying saucers; as such he served as a respected authority
 on these subjects for the group. Mrs. Keech, though, was the center of
@@ -4195,11 +3784,9 @@ spacemen were to arrive and carry off the believers in flying saucers to
 
 a place of safety, presumably on another planet. Very little detail was
 provided about the rescue except that the believers were to make
-themselves ready for pickup by rehearsing certain passwords to be ex-
-changed (“I left my hat at home.” “What is your question?” “I am my
+themselves ready for pickup by rehearsing certain passwords to be exchanged (“I left my hat at home.” “What is your question?” “I am my
 own porter.”) and by removing all metal from their clothes—because
-the wearing or carrying of metal made saucer travel “extremely danger-
-ous.”
+the wearing or carrying of metal made saucer travel “extremely dangerous.”
 As Festinger, Riecken, and Schachter observed the preparations
 during the weeks prior to the flood date, they noted with special interest
 two significant aspects of the members’ behavior. First, the level of
@@ -4208,8 +3795,7 @@ of their departure from doomed Earth, irrevocable steps were taken by
 the group members. Most had incurred the opposition of family and
 friends to their beliefs but had persisted nonetheless in their convictions,
 often when it meant losing the affections of these others. In fact, several
-of the members were threatened by neighbors or family with legal ac-
-tions designed to have them declared insane. In Dr. Armstrong’s case,
+of the members were threatened by neighbors or family with legal actions designed to have them declared insane. In Dr. Armstrong’s case,
 a motion was filed by his sister to have his two younger children taken
 away. Many believers quit their jobs or neglected their studies to devote
 full time to the movement. Some even gave or threw away their personal
@@ -4222,8 +3808,7 @@ a curious form of inaction. For individuals so clearly convinced of the
 validity of their creed, they did surprisingly little to spread the word.
 Although they did initially make public the news of the coming disaster,
 there was no attempt to seek converts, to proselyte actively. They were
-willing to sound the alarm and to counsel those who voluntarily respon-
-ded to it, but that was all.
+willing to sound the alarm and to counsel those who voluntarily responded to it, but that was all.
 The group’s distaste for recruitment efforts was evident in various
 ways besides the lack of personal persuasion attempts. Secrecy was
 maintained in many matters—extra copies of the Lessons were burned,
@@ -4234,34 +3819,24 @@ taking notes of them). Publicity was avoided. As the day of disaster
 approached, increasing numbers of newspaper, television, and radio
 reporters converged on the group’s headquarters in the Keech house.
 For the most part, these people were turned away or ignored. The most
-frequent answer to their questions was, “No comment.” Although dis-
-couraged for a time, the media representatives returned with a ven-
-Robert B. Cialdini Ph.D / 93
+frequent answer to their questions was, “No comment.” Although discouraged for a time, the media representatives returned with a venRobert B. Cialdini Ph.D / 93
 
 
 geance when Dr. Armstrong’s religious activities caused him to be fired
 from his post on the college health service staff; one especially persistent
-newsman had to be threatened with a lawsuit. A similar siege was re-
-pelled on the eve of the flood when a swarm of reporters pushed and
+newsman had to be threatened with a lawsuit. A similar siege was repelled on the eve of the flood when a swarm of reporters pushed and
 pestered the believers for information. Afterward, the researchers
-summarized the group’s preflood stance on public exposure and recruit-
-ment in respectful tones: “Exposed to a tremendous burst of publicity,
-they had made every attempt to dodge fame; given dozens of opportun-
-ities to proselyte, they had remained evasive and secretive and behaved
+summarized the group’s preflood stance on public exposure and recruitment in respectful tones: “Exposed to a tremendous burst of publicity,
+they had made every attempt to dodge fame; given dozens of opportunities to proselyte, they had remained evasive and secretive and behaved
 with an almost superior indifference.”
 Eventually, when all the reporters and would-be converts had been
-cleared from the house, the believers began making their final prepara-
-tions for the arrival of the spaceship scheduled for midnight that night.
+cleared from the house, the believers began making their final preparations for the arrival of the spaceship scheduled for midnight that night.
 The scene, as viewed by Festinger, Riecken, and Schachter, must have
 seemed like absurdist theater. Otherwise ordinary people—housewives,
-college students, a high-school boy, a publisher, an M.D., a hardware-
-store clerk and his mother—were participating earnestly in tragic
-comedy. They took direction from a pair of members who were period-
-ically in touch with the Guardians; Marian Keech’s written messages
+college students, a high-school boy, a publisher, an M.D., a hardwarestore clerk and his mother—were participating earnestly in tragic
+comedy. They took direction from a pair of members who were periodically in touch with the Guardians; Marian Keech’s written messages
 from Sananda were being supplemented that evening by “the Bertha,”
-a former beautician through whose tongue the “Creator” gave instruc-
-tion. They rehearsed their lines diligently, calling out in chorus the re-
-sponses to be made before entering the rescue saucer, “I am my own
+a former beautician through whose tongue the “Creator” gave instruction. They rehearsed their lines diligently, calling out in chorus the responses to be made before entering the rescue saucer, “I am my own
 porter.” “I am my own pointer.” They discussed seriously whether the
 message from a caller identifying himself as Captain Video—a TV space
 character of the time—was properly interpreted as a prank or a coded
@@ -4273,20 +3848,16 @@ ripped away. The women were braless or wore brassieres whose metal
 stays had been removed. The men had yanked the zippers out of their
 pants, which were supported by lengths of rope in place of belts.
 The group’s fanaticism concerning the removal of all metal was
-vividly experienced by one of the researchers who remarked, twenty-
-five minutes before midnight, that he had forgotten to extract the zipper
+vividly experienced by one of the researchers who remarked, twentyfive minutes before midnight, that he had forgotten to extract the zipper
 from his trousers. As the observers tell it, “this knowledge produced a
-near panic reaction. He was rushed into the bedroom where Dr. Arm-
-strong, his hands trembling and his eyes darting to the clock every few
+near panic reaction. He was rushed into the bedroom where Dr. Armstrong, his hands trembling and his eyes darting to the clock every few
 seconds, slashed out the zipper with a razor blade and wrenched its
-clasps free with wire-cutters.” The hurried operation finished, the re-
-searcher was returned to the living room a slightly less metallic but,
+clasps free with wire-cutters.” The hurried operation finished, the researcher was returned to the living room a slightly less metallic but,
 one supposes, much paler man.
 94 / Influence
 
 
-As the time appointed for their departure grew very close, the believ-
-ers settled into a lull of soundless anticipation. With trained scientists
+As the time appointed for their departure grew very close, the believers settled into a lull of soundless anticipation. With trained scientists
 on site, we are afforded a detailed account of the events that transpired
 during this momentous period in the life of the group:
 The last ten minutes were tense ones for the group in the living
@@ -4317,8 +3888,7 @@ later that they had been hit hard.
 Gradually, painfully, an atmosphere of despair and confusion
 settled over the group. They reexamined the prediction and the
 accompanying messages. Dr. Armstrong and Mrs. Keech reiterated
-their faith. The believers mulled over their predicament and dis-
-carded explanation after explanation as unsatisfactory. At one point,
+their faith. The believers mulled over their predicament and discarded explanation after explanation as unsatisfactory. At one point,
 toward 4 A.M., Mrs. Keech broke down and cried bitterly. She knew,
 she sobbed, that there were some who were beginning to doubt
 but that the group must beam light to those who needed it most
@@ -4348,20 +3918,15 @@ that need. Once again, the words of those who were present offer a
 vivid description:
 The atmosphere in the group changed abruptly and so did their
 behavior. Within minutes after she had read the message explaining
-the disconfirmation, Mrs. Keech received another message instruct-
-ing her to publicize the explanation. She reached for the telephone
+the disconfirmation, Mrs. Keech received another message instructing her to publicize the explanation. She reached for the telephone
 and began dialing the number of a newspaper. While she was
 waiting to be connected, someone asked: “Marian, is this the first
-time you have called the newspaper yourself?” Her reply was im-
-mediate: “Oh, yes, this is the first time I have ever called them. I
+time you have called the newspaper yourself?” Her reply was immediate: “Oh, yes, this is the first time I have ever called them. I
 have never had anything to tell them before, but now I feel it is
 urgent.” The whole group could have echoed her feelings, for they
 all felt a sense of urgency. As soon as Marian had finished her call,
-the other members took turns telephoning newspapers, wire ser-
-vices, radio stations, and national magazines to spread the explan-
-ation of the failure of the flood. In their desire to spread the word
-quickly and resoundingly, the believers now opened for public at-
-tention matters that had been thus far utterly secret. Where only
+the other members took turns telephoning newspapers, wire services, radio stations, and national magazines to spread the explanation of the failure of the flood. In their desire to spread the word
+quickly and resoundingly, the believers now opened for public attention matters that had been thus far utterly secret. Where only
 hours earlier they had shunned newspaper reporters and felt that
 the attention they were getting in the press was painful, they now
 became avid seekers for publicity.
@@ -4374,9 +3939,7 @@ attention, the day following the disconfirmation saw a different story.
 
 
 All callers were admitted, all questions were answered, attempts were
-made to proselyte all such visitors. The members’ unprecedented will-
-ingness to accommodate possible new recruits was perhaps best dem-
-onstrated when nine high-school students arrived on the following
+made to proselyte all such visitors. The members’ unprecedented willingness to accommodate possible new recruits was perhaps best demonstrated when nine high-school students arrived on the following
 night to speak with Mrs. Keech.
 They found her at the telephone deep in a discussion of flying
 saucers with a caller whom, it later turned out, she believed to be
@@ -4393,8 +3956,7 @@ possessed them to choose such an ill-timed instant—when the failure
 of the flood was likely to cause nonbelievers to view the group and its
 dogma as laughable?
 The crucial event occurred sometime during “the night of the flood,”
-when it became increasingly clear that the prophecy would not be ful-
-filled. Oddly, it was not their prior certainty that drove the members
+when it became increasingly clear that the prophecy would not be fulfilled. Oddly, it was not their prior certainty that drove the members
 to propagate the faith; it was an encroaching sense of uncertainty. It
 was the dawning realization that if the spaceship and flood predictions
 were wrong, so might be the entire belief system on which they rested.
@@ -4430,8 +3992,7 @@ This, then, explains their sudden shift from secretive conspirators to
 zealous missionaries. And it explains the curious timing of the
 shift—precisely when a direct disconfirmation of their beliefs had
 rendered them least convincing to outsiders. It was necessary to risk
-the scorn and derision of the nonbelievers because publicity and recruit-
-ment efforts provided the only remaining hope. If they could spread
+the scorn and derision of the nonbelievers because publicity and recruitment efforts provided the only remaining hope. If they could spread
 the Word, if they could inform the uninformed, if they could persuade
 the skeptics, and if, by so doing, they could win new converts, their
 threatened but treasured beliefs would become truer. The principle of
@@ -4441,8 +4002,7 @@ was clear; since the physical evidence could not be changed, the social
 evidence had to be. Convince and ye shall be convinced!6
 CAUSE OF DEATH: UNCERTAIN(TY)
 All the weapons of influence discussed in this book work better under
-some conditions than under others. If we are to defend ourselves ad-
-equately against any such weapon, it is vital that we know its optimal
+some conditions than under others. If we are to defend ourselves adequately against any such weapon, it is vital that we know its optimal
 operating conditions in order to recognize when we are most vulnerable
 to its influence. In the case of the principle of social proof, we have
 already had a hint of one time when it works best. Among the Chicago
@@ -4451,8 +4011,7 @@ for converts. In general, when we are unsure of ourselves, when the
 situation is unclear or ambiguous, when uncertainty reigns, we are
 most likely to look to and accept the actions of others as correct.
 In the process of examining the reactions of other people to resolve
-our uncertainty, however, we are likely to overlook a subtle but import-
-ant fact. Those people are probably examining the social evidence, too.
+our uncertainty, however, we are likely to overlook a subtle but important fact. Those people are probably examining the social evidence, too.
 Especially in an ambiguous situation, the tendency for everyone to be
 looking to see what everyone else is doing can lead to a fascinating
 98 / Influence
@@ -4481,8 +4040,7 @@ about the Genovese case, revealed something staggering that had been
 uncovered by the police investigation. It was something that left
 everyone who heard it, the commissioner included, aghast and grasping
 for explanations. Catherine Genovese had not experienced a quick,
-muffled death. It had been a long, loud, tortured, public event. Her as-
-sailant had chased and attacked her in the street three times over a
+muffled death. It had been a long, loud, tortured, public event. Her assailant had chased and attacked her in the street three times over a
 period of thirty-five minutes before his knife finally silenced her cries
 for help. Incredibly, thirty-eight of her neighbors watched the events
 of her death unfold from the safety of their apartment windows without
@@ -4513,8 +4071,7 @@ He can give a matter-of-fact recitation of many murders. But the
 Kew Gardens slaying baffles him—not because it is a murder, but
 because “good people” failed to call the police.
 As with Assistant Chief Inspector Lussen, shock and bafflement were
-the standard reactions of almost everyone who learned the story’s de-
-tails. The shock struck first, leaving the police, the news-people, and
+the standard reactions of almost everyone who learned the story’s details. The shock struck first, leaving the police, the news-people, and
 the reading public stunned. The bafflement followed quickly. How
 could thirty-eight “good people” fail to act under those circumstances?
 No one could understand it. Even the murder witnesses themselves
@@ -4529,22 +4086,16 @@ their lives that explained their lack of action; something else was going
 on there that even they could not fathom.
 Confusion, though, does not make for good news copy. So the press
 as well as the other media—several papers, TV stations, and magazines
-were pursuing follow-up stories by now—emphasized the only explan-
-ation available at the time: The witnesses, no different from the rest of
+were pursuing follow-up stories by now—emphasized the only explanation available at the time: The witnesses, no different from the rest of
 us, hadn’t cared enough to get involved. We were becoming a nation
 of selfish, insensitive people. The rigors of modern life, especially city
-life, were hardening us. We were becoming “The Cold Society,” unfeel-
-ing and indifferent to the plight of our fellow citizens.
-In support of this interpretation, news stories began appearing regu-
-larly in which various kinds of public apathy were detailed. The Times
-actually appears to have developed an apathy “beat” for a period fol-
-lowing the Genovese revelations. Also supporting such an interpretation
+life, were hardening us. We were becoming “The Cold Society,” unfeeling and indifferent to the plight of our fellow citizens.
+In support of this interpretation, news stories began appearing regularly in which various kinds of public apathy were detailed. The Times
+actually appears to have developed an apathy “beat” for a period following the Genovese revelations. Also supporting such an interpretation
 were the remarks of a range of armchair social commentators, who, as
 a breed, seem never to admit to bafflement when speaking to the press.
-They, too, saw the Genovese case as having large-scale social signific-
-ance. All used the word “apathy,” which, it is interesting to note, had
-been in the headline of the Times’s front-page story, although they ac-
-counted for the apathy differently. One attributed it to the effects of TV
+They, too, saw the Genovese case as having large-scale social significance. All used the word “apathy,” which, it is interesting to note, had
+been in the headline of the Times’s front-page story, although they accounted for the apathy differently. One attributed it to the effects of TV
 100 / Influence
 
 
@@ -4554,8 +4105,7 @@ and its “alienation of the individual from the group.” Even Rosenthal,
 the newsman who first broke the story and who ulti-mately made it
 the subject of a book, subscribed to the city-caused apathy theory.
 Nobody can say why the thirty-eight did not lift the phone while
-Miss Genovese was being attacked, since they cannot say them-
-selves. It can be assumed, however, that their apathy was indeed
+Miss Genovese was being attacked, since they cannot say themselves. It can be assumed, however, that their apathy was indeed
 one of the big-city variety. It is almost a matter of psychological
 survival, if one is surrounded and pressed by millions of people,
 to prevent them from constantly impinging on you, and the only
@@ -4563,12 +4113,9 @@ way to do this is to ignore them as often as possible. Indifference
 to one’s neighbor and his troubles is a conditioned reflex in life in
 New York as it is in other big cities.7
 As the Genovese story grew—aside from Rosenthal’s book, it became
-the focus of numerous newspaper and magazine pieces, several televi-
-sion-news documentaries, and an off-Broadway play—it attracted the
-professional attention of a pair of New York-based psychology profess-
-ors, Bibb Latané and John Darley. They examined the reports of the
-Genovese incident and, on the basis of their knowledge of social psy-
-chology, hit on what had seemed the most unlikely explanation of all—it
+the focus of numerous newspaper and magazine pieces, several television-news documentaries, and an off-Broadway play—it attracted the
+professional attention of a pair of New York-based psychology professors, Bibb Latané and John Darley. They examined the reports of the
+Genovese incident and, on the basis of their knowledge of social psychology, hit on what had seemed the most unlikely explanation of all—it
 was that thirty-eight witnesses were present. Previous accounts of the
 story had invariably emphasized that no action was taken, even though
 thirty-eight individuals had looked on. Latané and Darley suggested
@@ -4582,12 +4129,10 @@ aid, perhaps someone else already has.” So with everyone thinking that
 someone else will help or has helped, no one does.
 The second reason is the more psychologically intriguing one; it is
 founded on the principle of social proof and involves the pluralistic
-ignorance effect. Very often an emergency is not obviously an emer-
-gency. Is the man lying in the alley a heart-attack victim or a drunk
+ignorance effect. Very often an emergency is not obviously an emergency. Is the man lying in the alley a heart-attack victim or a drunk
 sleeping one off? Are the sharp sounds from the street gunshots or truck
 backfires? Is the commotion next door an assault requiring the police
-or an especially loud marital spat where intervention would be inappro-
-priate and unwelcome? What is going on? In times of such uncertainty,
+or an especially loud marital spat where intervention would be inappropriate and unwelcome? What is going on? In times of such uncertainty,
 the natural tendency is to look around at the actions of others for clues.
 Robert B. Cialdini Ph.D / 101
 
@@ -4632,9 +4177,7 @@ York—based experiment, 75 percent of lone individuals who observed
 smoke seeping from under a door reported the leak; however, when
 similar leaks were observed by three-person groups, the smoke was
 reported only 38 percent of the time. The smallest number of bystanders
-took action, though, when the three-person groups included two indi-
-viduals who had been coached to ignore the smoke; under those condi-
-tions, the leaks were reported only 10 percent of the time. In a similar
+took action, though, when the three-person groups included two individuals who had been coached to ignore the smoke; under those conditions, the leaks were reported only 10 percent of the time. In a similar
 102 / Influence
 
 
@@ -4650,11 +4193,9 @@ aid is very likely. Under these conditions, the numbers of bystanders
 who either intervene themselves or summon help is quite comforting.
 For example, in four separate experiments done in Florida, accident
 scenes involving a maintenance man were staged. When it was clear
-that the man was hurt and required assistance, he was helped 100 per-
-cent of the time in two of the experiments. In the other two experiments,
+that the man was hurt and required assistance, he was helped 100 percent of the time in two of the experiments. In the other two experiments,
 where helping involved contact with potentially dangerous electrical
-wires, the victim still received bystander aid in 90 percent of the in-
-stances. In addition, these extremely high levels of assistance occurred
+wires, the victim still received bystander aid in 90 percent of the instances. In addition, these extremely high levels of assistance occurred
 whether the witnesses observed the event singly or in groups.9
 The situation becomes very different when, as in many cases,
 bystanders cannot be sure that the event they are witnessing is an
@@ -4679,8 +4220,7 @@ percentage of fellow residents than do people who live in small towns;
 therefore, city dwellers are more likely to find themselves in a group
 of strangers when observing an emergency.
 These three natural characteristics of urban environments—their
-confusion, their populousness, and their low levels of acquaintance-
-ship—fit in very well with the factors shown by research to decrease
+confusion, their populousness, and their low levels of acquaintanceship—fit in very well with the factors shown by research to decrease
 Robert B. Cialdini Ph.D / 103
 
 
@@ -4692,21 +4232,16 @@ Devictimizing Yourself
 But explaining the dangers of modern urban life in less ominous terms
 does not dispel them. And as the world’s populations move increasingly
 to the cities—half of all humanity will be city dwellers within ten
-years—there will be a growing need to reduce those dangers. Fortu-
-nately, our newfound understanding of the bystander “apathy” process
+years—there will be a growing need to reduce those dangers. Fortunately, our newfound understanding of the bystander “apathy” process
 offers real hope. Armed with this scientific knowledge, an emergency
 victim can increase enormously the chances of receiving aid from others.
 The key is the realization that groups of bystanders fail to help because
 the bystanders are unsure rather than unkind. They don’t help because
 they are unsure of whether an emergency actually exists and whether
-they are responsible for taking action. When they are sure of their re-
-sponsibilities for intervening in a clear emergency, people are exceed-
-ingly responsive!
-Once it is understood that the enemy is not some unmanageable so-
-cietal condition like urban depersonalization but is, instead, the simple
+they are responsible for taking action. When they are sure of their responsibilities for intervening in a clear emergency, people are exceedingly responsive!
+Once it is understood that the enemy is not some unmanageable societal condition like urban depersonalization but is, instead, the simple
 state of uncertainty, it becomes possible for emergency victims to take
-specific steps to protect themselves by reducing the bystanders’ uncer-
-tainty. Imagine, for example, you are spending a summer afternoon at
+specific steps to protect themselves by reducing the bystanders’ uncertainty. Imagine, for example, you are spending a summer afternoon at
 a music concert in the park. As the concert ends and people begin
 leaving, you notice a slight numbness in one arm but dismiss it as
 nothing to be alarmed about. Yet, while moving with the crowd to the
@@ -4738,8 +4273,7 @@ emergency existed.
 If mere outcries are unlikely to produce help from the passing crowd,
 perhaps you should be more specific. Indeed, you need to do more than
 try to gain attention; you should call out clearly your need for assistance.
-You must not allow bystanders to define your situation as a nonemer-
-gency. Use the word “Help” to cry out your need for emergency aid.
+You must not allow bystanders to define your situation as a nonemergency. Use the word “Help” to cry out your need for emergency aid.
 And don’t worry about being wrong. Embarrassment is a villain to be
 crushed here. In the context of a possible stroke, you cannot afford to
 be worried about the awkwardness of overestimating your problem.
@@ -4747,16 +4281,14 @@ The difference in cost is that between a moment of embarrassment and
 possible death or lifelong paralysis.
 But even a resounding call for help is not your most effective tactic.
 Although it may reduce bystanders’ doubts about whether a real
-emergency exists, it will not remove several other important uncertain-
-ties within each onlooker’s mind: What kind of aid is required here?
+emergency exists, it will not remove several other important uncertainties within each onlooker’s mind: What kind of aid is required here?
 Should I be the one to provide the aid, or should someone more qualified
 do it? Has someone else already gone to get professional help, or is it
 my responsibility? While the bystanders stand gawking at you and
 grappling with these questions, time vital to your survival could be
 slipping away.
 Clearly, then, as a victim you must do more than alert bystanders to
-your need for emergency assistance; you must also remove their uncer-
-tainties about how that assistance should be provided and who should
+your need for emergency assistance; you must also remove their uncertainties about how that assistance should be provided and who should
 provide it. But what would be the most efficient and reliable way to do
 so?
 Based on the research findings we have seen, my advice would be to
@@ -4780,8 +4312,7 @@ need for aid. Do not allow bystanders to come to their own conclusions
 because, especially in a crowd, the principle of social proof and the
 consequent pluralistic ignorance effect might well cause them to view
 your situation as a nonemergency.
-And request assistance of a single individual from the group of on-
-lookers. Fight the natural tendency to make a general request for help.
+And request assistance of a single individual from the group of onlookers. Fight the natural tendency to make a general request for help.
 Pick out one person and assign the task to that individual. Otherwise,
 it is too easy for everyone in the crowd to assume that someone else
 should help, will help, or has helped. Of all the techniques in this book
@@ -4800,8 +4331,7 @@ drivers gawked but did not stop.
 I remember thinking, “Oh no, it’s happening just like the research
 says. They’re all passing by!” I consider it fortunate that, as a social
 psychologist, I knew enough about the bystander studies to have that
-particular thought. By thinking of my predicament in terms of the re-
-search findings, I knew exactly what to do. Pulling myself up so I could
+particular thought. By thinking of my predicament in terms of the research findings, I knew exactly what to do. Pulling myself up so I could
 be seen clearly, I pointed at the driver of one car: “Call the police.” To
 a second and a third driver, pointing directly each time: “Pull over, we
 need help.” The responses of these people were instantaneous. They
@@ -4813,8 +4343,7 @@ Not only was this help rapid and solicitous, it was infectious. After
 drivers entering the intersection from the other direction saw cars
 stopping for me, they stopped and began tending to the other victim.
 The principle of social proof was working for us now. The trick had
-been to get the ball rolling in the direction of aid. Once that was accom-
-plished, I was able to relax and let the bystanders’ genuine concern and
+been to get the ball rolling in the direction of aid. Once that was accomplished, I was able to relax and let the bystanders’ genuine concern and
 social proof’s natural momentum do the rest.
 106 / Influence
 
@@ -4826,27 +4355,22 @@ others. We have already explored one of those conditions: uncertainty.
 Without question, when people are uncertain, they are more likely to
 use others’ actions to decide how they themselves should act. But, in
 addition, there is another important working condition: similarity. The
-principle of social proof operates most powerfully when we are ob-
-serving the behavior of people just like us. It is the conduct of such
+principle of social proof operates most powerfully when we are observing the behavior of people just like us. It is the conduct of such
 people that gives us the greatest insight into what constitutes correct
 behavior for ourselves. Therefore we are more inclined to follow the
 lead of a similar individual than a dissimilar one.
-That is why I believe we are seeing an increasing number of average-
-person-on-the-street testimonials on TV these days. Advertisers now
+That is why I believe we are seeing an increasing number of averageperson-on-the-street testimonials on TV these days. Advertisers now
 know that one successful way to sell a product to ordinary viewers
 (who compose the largest potential market) is to demonstrate that other
 “ordinary” people like and use it. So whether the product is a brand of
 soft drink, or a pain reliever, or a laundry detergent, we hear volleys
 of praise from John or Mary Every-person.
-More compelling evidence for the importance of similarity in determ-
-ining whether we will imitate another’s behavior comes from scientific
+More compelling evidence for the importance of similarity in determining whether we will imitate another’s behavior comes from scientific
 research. An especially apt illustration can be found in a study done
 several years ago by Columbia University psychologists. The researchers
 placed wallets on the ground in various locations around midtown
 Manhattan to observe what would happen when they were found. The
-wallets all contained $2.00 in cash, a $26.30 check, and various inform-
-ation providing the name and address of the wallet’s “owner.” In addi-
-tion to this material, the wallet also contained a letter that made it
+wallets all contained $2.00 in cash, a $26.30 check, and various information providing the name and address of the wallet’s “owner.” In addition to this material, the wallet also contained a letter that made it
 evident that the wallet had been lost not once, but twice. The letter was
 written to the wallet’s owner from a man who had found it earlier and
 whose intention was to return it. The finder indicated in his letter that
@@ -4859,8 +4383,7 @@ the owner. The researchers wanted to know how many people finding
 such a wallet would follow the lead of the first finder and mail it, intact,
 to the original owner. Before they dropped the wallets, however, the
 researchers varied one feature of the letter it contained. Some of the
-letters were written in standard English by what seemed to be an aver-
-Robert B. Cialdini Ph.D / 107
+letters were written in standard English by what seemed to be an averRobert B. Cialdini Ph.D / 107
 
 
 age American, while the other letters were written in broken English
@@ -4886,8 +4409,7 @@ principally when they were the same age as the child in the film. I wish
 I had known about this second study when, a few years before it was
 published, I was trying to reduce a different kind of anxiety in my son,
 Chris.
-I live in Arizona, where backyard swimming pools abound. One re-
-grettable consequence is that every year several young children drown
+I live in Arizona, where backyard swimming pools abound. One regrettable consequence is that every year several young children drown
 after falling into an unattended pool. I was determined, therefore, to
 teach Chris how to swim at an early age. The problem was not that he
 was afraid of the water. He loved it. But he would not get into the pool
@@ -4944,9 +4466,7 @@ die in commercial-airline crashes increases by 1,000 percent! Even more
 alarming: The increase is not limited to airplane deaths. The number
 of automobile fatalities shoots up as well.12 What could possibly be
 responsible?
-One explanation suggests itself immediately: The same social condi-
-tions that cause some people to commit suicide cause others to die acci-
-dentally. For instance, certain individuals, the suicide-prone, may react
+One explanation suggests itself immediately: The same social conditions that cause some people to commit suicide cause others to die accidentally. For instance, certain individuals, the suicide-prone, may react
 to stressful societal events (economic downturns, rising crime rates,
 international tensions) by ending it all. But others will react differently
 to these same events; they might become angry or impatient or nervous
@@ -4954,32 +4474,23 @@ or distracted. To the degree that such people operate (or service) the
 Robert B. Cialdini Ph.D / 109
 
 
-cars and planes of our society, the vehicles will be less safe, and, con-
-sequently, we will see a sharp increase in the number of automobile
+cars and planes of our society, the vehicles will be less safe, and, consequently, we will see a sharp increase in the number of automobile
 and air fatalities.
 According to this “social conditions” interpretation, then, some of
-the same societal factors that cause intentional deaths also cause acci-
-dental ones, and that is why we find so strong a connection between
-suicide stories and fatal crashes. But another fascinating statistic indic-
-ates that this is not the correct explanation: Fatal crashes increase dra-
-matically only in those regions where the suicide has been highly pub-
-licized. Other places, existing under similar social conditions, whose
+the same societal factors that cause intentional deaths also cause accidental ones, and that is why we find so strong a connection between
+suicide stories and fatal crashes. But another fascinating statistic indicates that this is not the correct explanation: Fatal crashes increase dramatically only in those regions where the suicide has been highly publicized. Other places, existing under similar social conditions, whose
 newspapers have not publicized the story, have shown no comparable
-jump in such fatalities. Furthermore, within those areas where newspa-
-per space has been allotted, the wider the publicity given the suicide,
+jump in such fatalities. Furthermore, within those areas where newspaper space has been allotted, the wider the publicity given the suicide,
 the greater has been the rise in subsequent crashes. Thus it is not some
 set of common societal events that stimulates suicides on the one hand,
 and fatal accidents on the other. Instead it is the publicized suicide story
 itself that produces the car and plane wrecks.
 To explain the strong association between suicide-story publicity and
-subsequent crashes, a “bereavement” account has been suggested. Be-
-cause, it has been argued, front-page suicides often in-volve well-known
+subsequent crashes, a “bereavement” account has been suggested. Because, it has been argued, front-page suicides often in-volve well-known
 and respected public figures, perhaps their highly publicized deaths
-throw many people into states of shocked sadness. Stunned and preoc-
-cupied, these individuals become careless around cars and planes. The
+throw many people into states of shocked sadness. Stunned and preoccupied, these individuals become careless around cars and planes. The
 consequence is the sharp increase in deadly accidents involving such
-vehicles that we see after front-page suicide stories. Although the be-
-reavement theory can account for the connection between the degree
+vehicles that we see after front-page suicide stories. Although the bereavement theory can account for the connection between the degree
 of publicity given a story and subsequent crash fatalities—the more
 people who learn of the suicide, the larger number of bereaved and
 careless individuals there will be—it cannot explain yet another startling
@@ -4990,8 +4501,7 @@ an increase in multiple-fatality wrecks only. Simple bereavement could
 not cause such a pattern.
 The influence of suicide stories on car and plane crashes, then, is
 fantastically specific. Stories of pure suicides, in which only one person
-dies, generate wrecks in which only one person dies; stories of suicide-
-murder combinations, in which there are multiple deaths, generate
+dies, generate wrecks in which only one person dies; stories of suicidemurder combinations, in which there are multiple deaths, generate
 wrecks in which there are multiple deaths. If neither “social conditions”
 nor “bereavement” account for this bewildering array of facts, what
 can? There is a sociologist at the University of California at San Diego
@@ -5016,8 +4526,7 @@ Phillips’s argument that certain troubled people who read of another’s
 self-inflicted death kill themselves in imitation. In a morbid illustration
 of the principle of social proof, these people decide how they should
 act on the basis of how some other troubled person has acted.
-Phillips got his evidence for the modern-day Werther effect by ex-
-amining the suicide statistics in the United States between 1947 and
+Phillips got his evidence for the modern-day Werther effect by examining the suicide statistics in the United States between 1947 and
 1968. He found that within two months after every front-page suicide
 story, an average of fifty-eight more people than usual killed themselves.
 In a sense, each suicide story killed fifty-eight people who otherwise
@@ -5042,8 +4551,7 @@ their dependents to collect on insurance policies—they do not want to
 appear to have killed themselves. They would rather seem to have died
 accidentally. So, purposively but furtively, they cause the wreck of a
 car or a plane they are operating or are simply riding in. This could be
-accomplished in a variety of all-too-familiar-sounding ways. A commer-
-Robert B. Cialdini Ph.D / 111
+accomplished in a variety of all-too-familiar-sounding ways. A commerRobert B. Cialdini Ph.D / 111
 
 
 cial-airline pilot could dip the nose of the aircraft at a crucial point of
@@ -5051,20 +4559,17 @@ takeoff or could inexplicably land on an already occupied runway
 against instructions from the control tower; the driver of a car could
 suddenly swerve into a tree or into oncoming traffic; a passenger in an
 automobile or corporate jet could incapacitate the operator, causing a
-deadly crash; the pilot of a private plane could, despite all radio warn-
-ings, plow into another aircraft. Thus the alarming climb in crash
+deadly crash; the pilot of a private plane could, despite all radio warnings, plow into another aircraft. Thus the alarming climb in crash
 fatalities we find following front-page suicides is, according to Dr.
 Phillips, most likely due to the Werther effect secretly applied.
-I consider this insight brilliant. First, it explains all of the data beauti-
-fully. If these wrecks really are hidden instances of imitative suicide, it
+I consider this insight brilliant. First, it explains all of the data beautifully. If these wrecks really are hidden instances of imitative suicide, it
 makes sense that we should see an increase in the wrecks after suicide
 stories appear. And it makes sense that the greatest rise in wrecks should
 occur after the suicide stories that have been most widely publicized
 and have, consequently, reached the most people. And it makes sense
 that the number of crashes should jump appreciably only in those
 geographical areas where the suicide stories were publicized. And it
-even makes sense that single-victim suicides should lead only to single-
-victim crashes, whereas multiple-victim suicide incidents should lead
+even makes sense that single-victim suicides should lead only to singlevictim crashes, whereas multiple-victim suicide incidents should lead
 only to multiple-victim crashes. Imitation is the key.
 But there is a second valuable feature of Phillips’s insight. Not only
 does it allow us to explain the existing facts, it also allows us to predict
@@ -5092,8 +4597,7 @@ us determine proper conduct for ourselves. But as the dropped-wallet
 112 / Influence
 
 
-experiment showed, we are most influenced in this fashion by the ac-
-tions of others like us.
+experiment showed, we are most influenced in this fashion by the actions of others like us.
 Therefore, Phillips reasoned, if the principle of social proof is behind
 the phenomenon, there should be some clear similarity between the
 victim of the highly publicized suicide and those who cause subsequent
@@ -5111,18 +4615,15 @@ and, simultaneously, wholly amazed by it. Evidently, the principle of
 social proof is so wide-ranging and powerful that its domain extends
 to the fundamental decision for life or death. Professor Phillips’s findings
 have persuaded me of a distressing tendency for suicide publicity to
-motivate certain people who are similar to the victim to kill them-
-selves—because they now find the idea of suicide more legitimate.
+motivate certain people who are similar to the victim to kill themselves—because they now find the idea of suicide more legitimate.
 Truly frightening are the data indicating that many innocent people
 die in the bargain. A glance at the graphs documenting the undeniable
-increase in traffic and air fatalities following publicized suicides, espe-
-cially those involving murder, is enough to cause concern for one’s own
+increase in traffic and air fatalities following publicized suicides, especially those involving murder, is enough to cause concern for one’s own
 safety. I have been sufficiently affected by these statistics to begin to
 take note of front-page suicide stories and to change my behavior in
 the period after their appearance. I try to be especially cautious behind
 the wheel of my car. I am reluctant to take extended trips requiring a
-lot of air travel. If I must fly during such a period, I purchase substan-
-tially more flight insurance than I normally would. Dr. Phillips has
+lot of air travel. If I must fly during such a period, I purchase substantially more flight insurance than I normally would. Dr. Phillips has
 done us a service by demonstrating that the odds for survival when we
 travel change measurably for a time following the publication of certain
 kinds of front-page suicide stories. It would seem only prudent to play
@@ -5131,16 +4632,13 @@ As if the frightening features of Phillips’s suicide data weren’t enough,
 his subsequent research brings more cause for alarm: Homicides in this
 country have a stimulated, copycat character after highly publicized
 acts of violence. Heavyweight championship prize fights that receive
-coverage on network evening news appear to produce measurable in-
-creases in the U.S. homicide rate. This analysis of heavyweight champi-
-onship fights (between 1973 and 1978) is perhaps most compelling in
+coverage on network evening news appear to produce measurable increases in the U.S. homicide rate. This analysis of heavyweight championship fights (between 1973 and 1978) is perhaps most compelling in
 its demonstration of the remarkably specific nature of the imitative
 Robert B. Cialdini Ph.D / 113
 
 
 aggression that is generated. When such a match was lost by a black
-fighter, the homicide rate during the following ten days rose signific-
-antly for young black male victims but not young white males. On the
+fighter, the homicide rate during the following ten days rose significantly for young black male victims but not young white males. On the
 other hand, when a white fighter lost a match, it was young white men
 but not young black men who were killed more frequently in the next
 ten days.14 When these results are combined with the parallel findings
@@ -5148,9 +4646,7 @@ in Phillips’s suicide data, it is clear that widely publicized aggression
 has the nasty tendency to spread to similar victims, no matter whether
 the aggression is inflicted on the self or on another.
 Work like Dr. Phillips’s helps us appreciate the awesome influence
-of the behavior of similar others. Once the enormity of that force is re-
-cognized, it becomes possible to understand perhaps the most spectac-
-ular act of compliance of our time—the mass suicide at Jonestown,
+of the behavior of similar others. Once the enormity of that force is recognized, it becomes possible to understand perhaps the most spectacular act of compliance of our time—the mass suicide at Jonestown,
 Guyana. Certain crucial features of that event deserve review.
 The People’s Temple was a cultlike organization that began in San
 Francisco and drew its recruits from the poor of that city. In 1977, the
@@ -5165,13 +4661,10 @@ of the People’s Temple would result, Jones sought to control the end
 of the Temple in his own way. He gathered the entire community
 around him and issued a call for each person’s death in a unified act of
 self-destruction.
-The first response was that of a young woman who calmly ap-
-proached the now famous vat of strawberry-flavored poison, admin-
-istered one dose to her baby, one to herself, and then sat down in a
+The first response was that of a young woman who calmly approached the now famous vat of strawberry-flavored poison, administered one dose to her baby, one to herself, and then sat down in a
 field, where she and her child died in convulsions within four minutes.
 Others followed steadily in turn. Although a handful of Jonestowners
-escaped rather than comply and a few others are reported to have res-
-isted, the survivors claim that the great majority of the 910 people who
+escaped rather than comply and a few others are reported to have resisted, the survivors claim that the great majority of the 910 people who
 died did so in an orderly, willful fashion.
 News of the event shocked us. The broadcast media and the papers
 provided a barrage of reports, updates, and analyses. For days, our
@@ -5190,8 +4683,7 @@ and treated like an emperor. Other explanations have pointed to the
 kind of people who were attracted to the People’s Temple. They were
 mostly poor and uneducated individuals who were willing to give up
 their freedoms of thought and action for the safety of a place where all
-decisions would be made for them. Still other explanations have em-
-phasized the quasi-religious nature of the People’s Temple, in which
+decisions would be made for them. Still other explanations have emphasized the quasi-religious nature of the People’s Temple, in which
 unquestioned faith in the cult’s leader was assigned highest priority.
 No doubt each of these features of Jonestown has merit in explaining
 what happened there. But I do not find them sufficient. After all, the
@@ -5205,8 +4697,7 @@ One especially revealing question gives us a clue: “If the community
 had remained in San Francisco, would Rev. Jim Jones’s suicide command
 have been obeyed?” A highly speculative question to be sure, but the
 expert most familiar with the People’s Temple has no doubt about the
-answer. Dr. Louis Jolyon West, chairman of psychiatry and biobehavi-
-oral sciences at UCLA and director of its neuropsychiatric unit, is an
+answer. Dr. Louis Jolyon West, chairman of psychiatry and biobehavioral sciences at UCLA and director of its neuropsychiatric unit, is an
 authority on cults who had observed the People’s Temple for eight
 years prior to the Jonestown deaths. When interviewed in the immediate
 aftermath, he made what strikes me as an inordinately instructive
@@ -5215,8 +4706,7 @@ in total alienation from the rest of the world in a jungle situation in a
 hostile country.”
 Although lost in the welter of commentary following the tragedy,
 Dr. West’s observation, together with what we know about the principle
-of social proof, seems to me quite important to a satisfactory understand-
-ing of the compliant suicides. To my mind, the single act in the history
+of social proof, seems to me quite important to a satisfactory understanding of the compliant suicides. To my mind, the single act in the history
 of the People’s Temple that most contrib-uted to the members’ mindless
 compliance that day occurred a year earlier with the relocation of the
 Temple to a jungled country of unfamiliar customs and strange people.
@@ -5232,16 +4722,14 @@ The country—both physical and social—into which they were dropped
 must have seemed dreadfully uncertain.
 Ah, uncertainty—the right-hand man of the principle of social proof.
 We have already seen that when people are uncertain, they look to the
-actions of others to guide their own actions. In the alien, Guyanese en-
-vironment, then, Temple members were very ready to follow the lead
+actions of others to guide their own actions. In the alien, Guyanese environment, then, Temple members were very ready to follow the lead
 of others. But as we have also seen, it is others of a special kind whose
 behavior will be most unquestioningly followed—similar others. And
 therein lies the awful beauty of the Reverend Jim Jones’s relocation
 strategy. In a country like Guyana, there were no similar others for a
 Jonestown resident but the people of Jonestown itself.
 What was right for a member of the community was determined to
-a disproportionate degree by what other community members—influ-
-enced heavily by Jones—did and believed. When viewed in this light,
+a disproportionate degree by what other community members—influenced heavily by Jones—did and believed. When viewed in this light,
 the terrible orderliness, the lack of panic, the sense of calm with which
 these people moved to the vat of poison and to their deaths, seems more
 comprehensible. They hadn’t been hypnotized by Jones; they had been
@@ -5252,25 +4740,19 @@ them to look to those around them for a definition of the appropriate
 response. It is particularly worth noting that they found two impressive
 pieces of social evidence, each pointing in the same direction.
 The first was the initial set of their compatriots, who quickly and
-willingly took the poison drafts. There will always be a few such fanat-
-ically obedient individuals in any strong-leader-dominated group.
+willingly took the poison drafts. There will always be a few such fanatically obedient individuals in any strong-leader-dominated group.
 Whether, in this instance, they had been specially instructed beforehand
 to serve as examples or whether they were just naturally the most
-compliant with Jones’s wishes is difficult to know. No matter; the psy-
-chological effect of the actions of those individuals must have been
+compliant with Jones’s wishes is difficult to know. No matter; the psychological effect of the actions of those individuals must have been
 potent. If the suicides of similar others in news stories can influence
-total strangers to kill themselves, imagine how enormously more com-
-pelling such an act would be when performed without hesitation by
+total strangers to kill themselves, imagine how enormously more compelling such an act would be when performed without hesitation by
 one’s neighbors in a place like Jonestown.
 The second source of social evidence came from the reactions of the
 crowd itself. Given the conditions, I suspect that what occurred was a
-large-scale instance of the pluralistic ignorance phenomenon that fre-
-quently infects onlookers at emergencies. Each Jonestowner looked to
+large-scale instance of the pluralistic ignorance phenomenon that frequently infects onlookers at emergencies. Each Jonestowner looked to
 the actions of surrounding individuals to assess the situation
-and—finding seeming calm because everyone else, too, was surrepti-
-tiously assessing rather than reacting—“learned” that patient turn taking
-was the correct behavior. Such misinterpreted but nonetheless convin-
-cing social evidence would be expected to result precisely in the ghastly
+and—finding seeming calm because everyone else, too, was surreptitiously assessing rather than reacting—“learned” that patient turn taking
+was the correct behavior. Such misinterpreted but nonetheless convincing social evidence would be expected to result precisely in the ghastly
 116 / Influence
 
 
@@ -5281,11 +4763,8 @@ incident have focused too much on the personal qualities of Jim Jones.
 Although he was without question a man of rare dynamism, the power
 he wielded strikes me as coming less from his remarkable personal style
 than from his understanding of fundamental psychological principles.
-His real genius as a leader was his realization of the limitations of indi-
-vidual leadership. No leader can hope to persuade, regularly and single-
-handedly, all the members of the group. A forceful leader can reasonably
-expect, however, to persuade some sizable proportion of group mem-
-bers. Then the raw information that a substantial number of group
+His real genius as a leader was his realization of the limitations of individual leadership. No leader can hope to persuade, regularly and singlehandedly, all the members of the group. A forceful leader can reasonably
+expect, however, to persuade some sizable proportion of group members. Then the raw information that a substantial number of group
 members has been convinced can, by itself, convince the rest. Thus the
 most influential leaders are those who know how to arrange group
 conditions to allow the principle of social proof to work maximally in
@@ -5299,12 +4778,9 @@ else. There, a settlement of a thousand people, much too large to be
 held in persistent sway by the force of one man’s personality, could be
 changed from a following into a herd. As slaughterhouse operators have
 long known, the mentality of a herd makes it easy to manage. Simply
-get some members moving in the desired direction and the others—re-
-sponding not so much to the lead animal as to those immediately sur-
-rounding them—will peacefully and mechanically go along. The powers
+get some members moving in the desired direction and the others—responding not so much to the lead animal as to those immediately surrounding them—will peacefully and mechanically go along. The powers
 of the amazing Reverend Jim Jones, then, are probably best understood
-not in terms of his dramatic personal style, but in his profound know-
-ledge of the art of social jujitsu.
+not in terms of his dramatic personal style, but in his profound knowledge of the art of social jujitsu.
 HOW TO SAY NO
 This chapter began with an account of the relatively harmless practice
 of laugh tracking and has moved on to stories of murder and suicide—all
@@ -5312,8 +4788,7 @@ explained by the principle of social proof. How can we expect to defend
 ourselves against a weapon of influence that pervades such a vast range
 of behavior? The difficulty is compounded by the realization that most
 of the time, we don’t want to guard against the information that social
-proof provides. The evidence it offers about how we should act is usu-
-ally valid and valuable. With it we can cruise confidently through a
+proof provides. The evidence it offers about how we should act is usually valid and valuable. With it we can cruise confidently through a
 Robert B. Cialdini Ph.D / 117
 
 
@@ -5327,11 +4802,8 @@ the control mechanism is wrong. In these instances, we will be taken
 off course. Depending on the size of the error, the consequences can be
 severe. But, because the automatic pilot afforded by the principle of
 social proof is more often an ally than an enemy, we can’t be expected
-to want simply to disconnect it. Thus we are faced with a classic prob-
-lem: how to make use of a piece of equipment that simultaneously be-
-nefits and imperils our welfare.
-Fortunately, there is a way out of the dilemma. Because the disadvant-
-ages of automatic pilots arise principally when incorrect data have been
+to want simply to disconnect it. Thus we are faced with a classic problem: how to make use of a piece of equipment that simultaneously benefits and imperils our welfare.
+Fortunately, there is a way out of the dilemma. Because the disadvantages of automatic pilots arise principally when incorrect data have been
 put into the control system, our best defense against these disadvantages
 is to recognize when the data are in error. If we can become sensitive
 to situations where the social-proof automatic pilot is working with
@@ -5339,9 +4811,7 @@ inaccurate information, we can disengage the mechanism and grasp
 the controls when we need to.
 There are two types of situation in which incorrect data cause the
 principle of social proof to give us poor counsel. The first occurs when
-the social evidence has been purposely falsified. Invariably these situ-
-ations are manufactured by exploiters intent on creating the impres-
-sion—reality be damned—that a multitude is performing the way the
+the social evidence has been purposely falsified. Invariably these situations are manufactured by exploiters intent on creating the impression—reality be damned—that a multitude is performing the way the
 exploiters want us to perform. The canned laughter of TV comedy
 shows, which we have already discussed, is one variety of faked data
 of this sort. But there is a great deal more; and much of the fakery is
@@ -5350,32 +4820,25 @@ For instance, canned responses are not unique to the electronic media
 or even to the electronic age. In fact, the heavy-handed exploitation of
 the principle of social proof can be traced through the history of one of
 our most venerable art forms: grand opera. This is the phenomenon
-called claquing, said to have been begun in 1820 by a pair of Paris opera-
-house habitués named Sauton and Porcher. The men were more than
-operagoers, though. They were businessmen whose product was ap-
-plause.
+called claquing, said to have been begun in 1820 by a pair of Paris operahouse habitués named Sauton and Porcher. The men were more than
+operagoers, though. They were businessmen whose product was applause.
 Organizing under the title L’Assurance des Succès Dramatiques, they
 leased themselves and their employees to singers and opera managers
-who wished to be assured of an appreciative audience response. So ef-
-fective were they in stimulating genuine audience reaction with their
-rigged reactions that before long claques (usually consisting of a lead-
-118 / Influence
+who wished to be assured of an appreciative audience response. So effective were they in stimulating genuine audience reaction with their
+rigged reactions that before long claques (usually consisting of a lead118 / Influence
 
 
-er—chef de claque—and several individual claqueurs) had become an es-
-tablished and persistent tradition throughout the world of opera. As
+er—chef de claque—and several individual claqueurs) had become an established and persistent tradition throughout the world of opera. As
 music historian Robert Sabin notes, “By 1830 the claque was a full-bloom
 institution, collecting by day, applauding by night, all in the honest
 open…. But it is altogether probable that neither Sauton, nor his ally
-Porcher, had a notion of the extent to which their scheme of paid ap-
-plause would be adopted and applied wherever opera is sung.”15
+Porcher, had a notion of the extent to which their scheme of paid applause would be adopted and applied wherever opera is sung.”15
 As claquing grew and developed, its practitioners offered an array
 of styles and strengths. In the same way that laugh-track producers can
 hire individuals who excel in titters, chuckles, or belly laughs, the
 claques spawned their own specialists—the pleureuse, chosen for her
 ability to weep on cue; the bisseur, who called “bis” (repeat) and “encore”
-in ecstatic tones; and in direct kinship with today’s laugh-track per-
-former, the rieur, selected for the infectious quality of his laugh.
+in ecstatic tones; and in direct kinship with today’s laugh-track performer, the rieur, selected for the infectious quality of his laugh.
 For our purposes, though, the most instructive parallel to modern
 forms of canned response is the conspicuous character of the fakery.
 No special need was seen to disguise or vary the claque, who often sat
@@ -5384,8 +4847,7 @@ by a chef de claque two decades into his position. Even the monetary
 transactions were not hidden from the public. Indeed, one hundred
 years after the birth of claquing, a reader of the London Musical Times
 could scan the advertised rates of the Italian claqueurs. Whether in the
-world of Rigoletto or Gilligan’s Island, then, audiences have been success-
-fully manipulated by those who use social evidence, even when that
+world of Rigoletto or Gilligan’s Island, then, audiences have been successfully manipulated by those who use social evidence, even when that
 evidence has been openly falsified.
 For applause on entrance, if a gentleman 25 lire
 For applause on entrance, if a lady 15 lire
@@ -5423,8 +4885,7 @@ rigged social proof we get these days provides us with exactly the cue
 we need for knowing when to perform this simple maneuver. With no
 more cost than a bit of vigilance for plainly counterfeit social evidence,
 then, we can protect ourselves nicely.
-Let’s take an example. A bit earlier, we noted the proliferation of av-
-erage-person-on-the-street ads, in which a number of ordinary people
+Let’s take an example. A bit earlier, we noted the proliferation of average-person-on-the-street ads, in which a number of ordinary people
 speak glowingly of a product, often without knowing that their words
 are being recorded. As would be expected according to the principle
 of social proof, these testimonials from “average people like you and
@@ -5435,23 +4896,19 @@ picture of the amount of social support for it. More recently, though, a
 cruder and more unethical sort of falsification has been introduced.
 Commercial producers often don’t bother to get genuine testimonials.
 They merely hire actors to play the roles of average people testifying
-in an unrehearsed fashion to an interviewer. It is amazing how bald-
-faced these “unrehearsed interview” commercials can be. The situations
+in an unrehearsed fashion to an interviewer. It is amazing how baldfaced these “unrehearsed interview” commercials can be. The situations
 are obviously staged, the participants are clearly actors, and the dialogue
 is unmistakably prewritten.
 Dave Barry
 Knight Ridder News Service
-Recently I was watching TV, and a commercial came on, and the an-
-nouncer, in a tone of voice usually reserved for major developments in
+Recently I was watching TV, and a commercial came on, and the announcer, in a tone of voice usually reserved for major developments in
 120 / Influence
 
 
 the Persian Gulf, said, “Now consumers can ask Angela Lansbury their
 questions about Bufferin!”
 As a normal human, the natural reaction to this announcement is:
-“Huh?” Meaning: “What does Angela Lansbury have to do with Buf-
-ferin?” But this commercial featured several consumers who had appar-
-ently been stopped at random on the street, and every one of them had a
+“Huh?” Meaning: “What does Angela Lansbury have to do with Bufferin?” But this commercial featured several consumers who had apparently been stopped at random on the street, and every one of them had a
 question for Angela Lansbury about Bufferin. Basically, what they asked
 was, “Miss Lansbury, is Bufferin a good product that I should purchase,
 or what?”
@@ -5477,11 +4934,9 @@ after all, come
 from another planet than me.
 (KNIGHT RIDDER NEWS SERVICE)
 I know that whenever I encounter an influence attempt of this sort,
-it sets off in me a kind of alarm with a clear directive: Attention! Atten-
-tion! Bad social proof in this situation. Temporarily disconnect automatic pilot.
+it sets off in me a kind of alarm with a clear directive: Attention! Attention! Bad social proof in this situation. Temporarily disconnect automatic pilot.
 It’s so easy to do. We need only make a conscious decision to be alert
-to counterfeit social evidence, and the smug overconfidence of the ex-
-ploiters will play directly into our hands. We can relax until their
+to counterfeit social evidence, and the smug overconfidence of the exploiters will play directly into our hands. We can relax until their
 manifest fakery is spotted, at which time we can pounce.
 And we should pounce with a vengeance. I am speaking here of more
 than simply ignoring the misinformation, although this defensive tactic
@@ -5492,18 +4947,13 @@ Robert B. Cialdini Ph.D / 121
 
 of social evidence. We should purchase no products featured in phony
 “unrehearsed interview” commercials. Moreover, each manufacturer
-of the items should receive a letter explaining our response and recom-
-mending that they discontinue use of the advertising agency that pro-
-duced so deceptive a presentation of their product.
+of the items should receive a letter explaining our response and recommending that they discontinue use of the advertising agency that produced so deceptive a presentation of their product.
 Of course, we don’t always want to trust the actions of others to direct
 our conduct—especially in a situation important enough to warrant
-our personal investigation of the pros and cons, or in which we are ex-
-perts—but we do want to be able to count on others’ behavior as a
-source of valid information in a large array of settings. If, in such set-
-tings, we find that we cannot trust the information to be valid because
+our personal investigation of the pros and cons, or in which we are experts—but we do want to be able to count on others’ behavior as a
+source of valid information in a large array of settings. If, in such settings, we find that we cannot trust the information to be valid because
 someone has tampered with the evidence, we ought to be ready to strike
-back. In such instances, I personally feel driven by more than the aver-
-sion to being duped. I bristle at the thought of being pushed into an
+back. In such instances, I personally feel driven by more than the aversion to being duped. I bristle at the thought of being pushed into an
 unacceptable corner by those who would undermine one of my hedges
 against the decisional overload of modern life. And I get a genuine
 sense of righteousness by lashing out when they try. If you are like me,
@@ -5511,13 +4961,11 @@ so should you.
 In addition to the times when social evidence is deliberately faked,
 there is another time when the principle of social proof will regularly
 steer us wrong. In such an instance, an innocent, natural error will
-produce snowballing social proof that pushes us to the incorrect de-
-cision. The pluralist ignorance phenomenon, in which everyone at an
+produce snowballing social proof that pushes us to the incorrect decision. The pluralist ignorance phenomenon, in which everyone at an
 emergency sees no cause for alarm, is one example of this process. The
 best illustration I know, however, comes from a story of one of my
 students, who was a highway patrolman.
-After a class session in which the subject of discussion was the prin-
-ciple of social proof, he stayed to talk with me. He said that he now
+After a class session in which the subject of discussion was the principle of social proof, he stayed to talk with me. He said that he now
 understood the cause of a type of traffic accident that had always
 puzzled him before. The accident typically occurred on the city freeway
 during rush hour, when cars in all lanes were moving steadily but
@@ -5539,8 +4987,7 @@ when there was a visibly clear road in front of the ill-fated lane
 switchers.
 The patrolman’s account provides certain insights into the way we
 respond to social proof. First, we seem to assume that if a lot of people
-are doing the same thing, they must know something we don’t. Espe-
-cially when we are uncertain, we are willing to place an enormous
+are doing the same thing, they must know something we don’t. Especially when we are uncertain, we are willing to place an enormous
 amount of trust in the collective knowledge of the crowd. Second, quite
 frequently the crowd is mistaken because they are not acting on the
 basis of any superior information but are reacting, themselves, to the
@@ -5555,17 +5002,14 @@ social proof would be undeniable by then. For drivers to the rear, there
 could be no question about the correctness of switching lanes: “All those
 guys ahead must know something.” So intent would they be upon
 working themselves into the next lane that, without even checking the
-true condition of the road before them, the drivers would begin a line-
-long flank assault. Crash.
+true condition of the road before them, the drivers would begin a linelong flank assault. Crash.
 There is a lesson here: An automatic-pilot device, like social proof,
-should never be trusted fully; even when no saboteur has fed bad in-
-formation into the mechanism, it can sometimes go haywire by itself.
+should never be trusted fully; even when no saboteur has fed bad information into the mechanism, it can sometimes go haywire by itself.
 We need to check the machine from time to time to be sure that it hasn’t
 worked itself out of sync with the other sources of evidence in the
 situation—the objective facts, our prior experiences, our own judgments.
 Fortunately, this precaution requires neither much effort nor much
-time. A quick glance around is all that is needed. And this little precau-
-tion is well worth it. The consequences of single-minded reliance on
+time. A quick glance around is all that is needed. And this little precaution is well worth it. The consequences of single-minded reliance on
 social evidence can be frightening.
 This aspect of the social proof phenomenon always reminds me of
 the way certain Indian tribes—the Blackfeet, Cree, Snake, and
@@ -5574,8 +5018,7 @@ of buffalo that make them especially susceptible to erroneous social
 evidence. First, their eyes are set in their heads so that it is easier for
 them to see to the side than to the front. Second, when they run, as in
 a stampede, it is with their heads down low so they cannot see above
-the herd. As a result, the Indians realized, it was possible to kill tremend-
-ous numbers of buffalo by starting a herd running toward a cliff. The
+the herd. As a result, the Indians realized, it was possible to kill tremendous numbers of buffalo by starting a herd running toward a cliff. The
 animals, responding to the thundering social proof around them—and
 never looking up to see what lay ahead—did the rest. One astonished
 Robert B. Cialdini Ph.D / 123
@@ -5595,8 +5038,7 @@ well run parallel to those of the freeway lane switchers and the North
 American buffalo: Crash.
 READER’S REPORT
 From a Former Racetrack Employee
-“I became aware of one method of faking social evidence to one’s ad-
-vantage while working at a racetrack. In order to lower the odds and
+“I became aware of one method of faking social evidence to one’s advantage while working at a racetrack. In order to lower the odds and
 make more money, some bettors are able to sway the public to bet on
 bad horses.
 “Odds at a racetrack are based on where the money is being bet. The
@@ -5615,8 +5057,7 @@ odds on the board drop to about 2 to 1.
 “Now the elements of social proof begin to work. People who are
 uncertain of how to bet the race look to the tote board to see which
 horse the early bettors have decided is a favorite, and they follow. A
-snowballing effect now occurs as other people continue to bet the favor-
-ite. At this point, the high roller can go back to the window and bet
+snowballing effect now occurs as other people continue to bet the favorite. At this point, the high roller can go back to the window and bet
 heavily on his true favorite, which will have better odds now because
 the ‘new favorite’ has pushed down the board. If the guy wins, the initial
 hundred-dollar investment will have been worth it many times over.
@@ -5648,8 +5089,7 @@ F
 EW PEOPLE WOULD BE SURPRISED TO LEARN THAT, AS A RULE, we most
 prefer to say yes to the requests of someone we know and like. What
 might be startling to note, however, is that this simple rule is used in
-hundreds of ways by total strangers to get us to comply with their re-
-quests.
+hundreds of ways by total strangers to get us to comply with their requests.
 The clearest illustration I know of the professional exploitation of the
 liking rule is the Tupperware party, which I consider the quintessential
 American compliance setting. Anybody familiar with the workings of
@@ -5658,8 +5098,7 @@ influence we have examined so far: reciprocity (to start, games are
 played and prizes won by the partygoers; anyone who doesn’t win a
 prize gets to reach into a grab bag for hers so that everyone has received
 a gift before the buying begins), commitment (each participant is urged
-to describe publicly the uses and benefits she has found in the Tupper-
-ware she already owns), and social proof (once the buying begins, each
+to describe publicly the uses and benefits she has found in the Tupperware she already owns), and social proof (once the buying begins, each
 purchase builds the idea that other, similar people want the product;
 therefore, it must be good).
 All the major weapons of influence are present to help things along,
@@ -5669,8 +5108,7 @@ persuasive salesmanship of the Tupperware demonstrator, the true re-
 
 
 quest to purchase the product does not come from this stranger; it comes
-from a friend to every woman in the room. Oh, the Tupperware repres-
-entative may physically ask for each partygoer’s order, all right, but
+from a friend to every woman in the room. Oh, the Tupperware representative may physically ask for each partygoer’s order, all right, but
 the more psychologically compelling requester is a housewife sitting
 off to the side, smiling, chatting, and serving refreshments. She is the
 party hostess, who has called her friends together for the demonstration
@@ -5685,15 +5123,13 @@ Frenzer and Davis, who have examined the social ties between the
 hostess and the partygoers in home-party sales settings, have affirmed
 the power of the company’s approach: The strength of that social bond
 is twice as likely to determine product purchase as is preference for the
-product itself. The results have been remarkable. It was recently estim-
-ated that Tupperware sales exceed $2.5 million a day!
+product itself. The results have been remarkable. It was recently estimated that Tupperware sales exceed $2.5 million a day!
 What is interesting is that the customers appear to be fully aware of
 the liking and friendship pressures embodied in the Tupperware party.
 Some don’t seem to mind; others do, but don’t seem to know how to
 avoid them. One woman I spoke with described her reactions with
 more than a bit of frustration in her voice:
-It’s gotten to the point now where I hate to be invited to Tupper-
-ware parties. I’ve got all the containers I need; and if I wanted any
+It’s gotten to the point now where I hate to be invited to Tupperware parties. I’ve got all the containers I need; and if I wanted any
 more, I could buy another brand cheaper in the store. But when
 a friend calls up, I feel like I have to go. And when I get there, I
 feel like I have to buy something. What can I do? It’s for one of
@@ -5715,16 +5151,12 @@ Robert B. Cialdini Ph.D / 127
 
 friend’s name is enough. The Shaklee Corporation, which specializes
 in door-to-door sales of various home-related products, advises its
-salespeople to use the “endless chain” method for finding new custom-
-ers. Once a customer admits to liking a product, he or she can be pressed
+salespeople to use the “endless chain” method for finding new customers. Once a customer admits to liking a product, he or she can be pressed
 for the names of friends who would also appreciate learning about it.
 The individuals on that list can then be approached for sales and a list
-of their friends, who can serve as sources for still other potential cus-
-tomers, and so on in an endless chain.
+of their friends, who can serve as sources for still other potential customers, and so on in an endless chain.
 The key to the success of this method is that each new prospect is
-visited by a salesperson armed with the name of a friend “who sugges-
-ted I call on you.” Turning the salesperson away under those circum-
-stances is difficult; it’s almost like rejecting the friend. The Shaklee sales
+visited by a salesperson armed with the name of a friend “who suggested I call on you.” Turning the salesperson away under those circumstances is difficult; it’s almost like rejecting the friend. The Shaklee sales
 manual insists that employees use this system without fail: “It would
 be impossible to overestimate its value. Phoning or calling on a prospect
 and being able to say that Mr. So-and-so, a friend of his, felt he would
@@ -5772,28 +5204,22 @@ Although it is generally acknowledged that good-looking people have
 an advantage in social interaction, recent findings indicate that we may
 have sorely underestimated the size and reach of that advantage. There
 seems to be a click, whirr response to attractive people. Like all click,
-whirr reactions, it happens automatically, without forethought. The re-
-sponse itself falls into a category that social scientists call “halo effects.”
-A halo effect occurs when one positive characteristic of a person dom-
-inates the way that person is viewed by others. And the evidence is
+whirr reactions, it happens automatically, without forethought. The response itself falls into a category that social scientists call “halo effects.”
+A halo effect occurs when one positive characteristic of a person dominates the way that person is viewed by others. And the evidence is
 now clear that physical attractiveness is often such a characteristic.
 Research has shown that we automatically assign to good-looking
-individuals such favorable traits as talent, kindness, honesty, and intel-
-ligence. Furthermore, we make these judgments without being aware
+individuals such favorable traits as talent, kindness, honesty, and intelligence. Furthermore, we make these judgments without being aware
 that physical attractiveness plays a role in the process. Certain of the
 consequences of this unconscious assumption that “good-looking equals
 good” scare me. For example, a study of the Canadian federal elections
 found that attractive candidates received more than two and a half
 times as many votes as unattractive candidates.1 Despite such evidence
-of favoritism toward handsome politicians, follow-up research demon-
-strated that voters do not realize their bias. In fact, 73 percent of Cana-
-dian voters surveyed denied in the strongest possible terms that their
+of favoritism toward handsome politicians, follow-up research demonstrated that voters do not realize their bias. In fact, 73 percent of Canadian voters surveyed denied in the strongest possible terms that their
 votes had been influenced by physical appearance; only 14 percent even
 allowed for the possibility of such influence. A similar effect has been
 found in hiring situations. In one study, good grooming of applicants
 in a simulated employment interview accounted for more favorable
-hiring decisions than did job qualifications—this, even though the in-
-terviewers claimed that appearance played a small role in their choices.2
+hiring decisions than did job qualifications—this, even though the interviewers claimed that appearance played a small role in their choices.2
 Equally unsettling research indicates that our judicial process is
 similarly susceptible to the influences of body dimensions and bone
 structure. Good-looking people are likely to receive highly favorable
@@ -5804,23 +5230,17 @@ Robert B. Cialdini Ph.D / 129
 
 male defendants at the start of their criminal trials. When, much later,
 the researchers checked court records for the results of these cases, they
-found that the handsome men had received significantly lighter sen-
-tences. In fact, the attractive defendants were twice as likely to avoid
+found that the handsome men had received significantly lighter sentences. In fact, the attractive defendants were twice as likely to avoid
 jail as the unattractive ones.3 In another study—this one on the damages
-awarded in a staged negligence trial—a defendant who was better-
-looking than his victim was assessed an average amount of $5,623; but
-when the victim was the more attractive of the two, the average com-
-pensation was $10,051. What’s more, both male and female jurors ex-
-hibited the attractiveness-based favoritism.
+awarded in a staged negligence trial—a defendant who was betterlooking than his victim was assessed an average amount of $5,623; but
+when the victim was the more attractive of the two, the average compensation was $10,051. What’s more, both male and female jurors exhibited the attractiveness-based favoritism.
 Other experiments have demonstrated that attractive people are more
 likely to obtain help when in need and are more persuasive in changing
 the opinions of an audience. Here, too, both sexes respond in the same
 way. In the helping study, for instance, the better-looking men and
 women received aid more often, even from members of their own sex.4
 A major exception to this rule might be expected to occur, of course, if
-the attractive person is viewed as a direct competitor, especially a ro-
-mantic rival. Short of this qualification, though, it is apparent that good-
-looking people enjoy an enormous social advantage in our culture. They
+the attractive person is viewed as a direct competitor, especially a romantic rival. Short of this qualification, though, it is apparent that goodlooking people enjoy an enormous social advantage in our culture. They
 are better liked, more persuasive, more frequently helped, and seen as
 possessing better personality traits and intellectual capacities. And it
 appears that the social benefits of good looks begin to accumulate quite
@@ -5829,11 +5249,9 @@ aggressive acts as less naughty when performed by an attractive child
 and that teachers presume good-looking children to be more intelligent
 than their less-attractive classmates.5
 It is hardly any wonder, then, that the halo of physical attractiveness
-is regularly exploited by compliance professionals. Because we like at-
-tractive people and because we tend to comply with those we like, it
+is regularly exploited by compliance professionals. Because we like attractive people and because we tend to comply with those we like, it
 makes sense that sales training programs include grooming hints, that
-fashionable clothiers select their floor staffs from among the good-
-looking candidates, and that con men are handsome and con women
+fashionable clothiers select their floor staffs from among the goodlooking candidates, and that con men are handsome and con women
 pretty.
 Similarity
 But what if physical appearance is not much at issue? After all, most
@@ -5846,8 +5264,7 @@ background, or life-style. Consequently, those who wish to be liked in
 130 / Influence
 
 
-order to increase our compliance can accomplish that purpose by ap-
-pearing similar to us in any of a wide variety of ways.
+order to increase our compliance can accomplish that purpose by appearing similar to us in any of a wide variety of ways.
 Dress is a good example. Several studies have demonstrated that we
 are more likely to help those who dress like us. In one study, done in
 the early 1970s when young people tended to dress either in “hippie”
@@ -5911,10 +5328,7 @@ clockwork. “I like you,” on a printed card that went off to thirteen
 thousand other people, too. Could a statement of liking so impersonal,
 so obviously designed to sell cars, really work? Joe Girard thinks so;
 and a man as successful as he was at what he did deserves our attention.
-Joe understands an important fact about human nature: We are phe-
-nomenal suckers for flattery. Although there are limits to our gullibil-
-ity—especially when we can be sure that the flatterer is trying to manip-
-ulate us—we tend, as a rule, to believe praise and to like those who
+Joe understands an important fact about human nature: We are phenomenal suckers for flattery. Although there are limits to our gullibility—especially when we can be sure that the flatterer is trying to manipulate us—we tend, as a rule, to believe praise and to like those who
 provide it, oftentimes when it is clearly false.
 An experiment done on men in North Carolina shows how helpless
 we can be in the face of praise. The men in the study received comments
@@ -5923,14 +5337,11 @@ Some of the men got only positive comments, some got only negative
 comments, and some got a mixture of good and bad. There were three
 interesting findings. First, the evaluator who provided only praise was
 liked best by the men. Second, this was the case even though the men
-fully realized that the flatterer stood to gain from their liking him. Fi-
-nally, unlike the other types of comments, pure praise did not have to
+fully realized that the flatterer stood to gain from their liking him. Finally, unlike the other types of comments, pure praise did not have to
 be accurate to work. Positive comments produced just as much liking
 for the flatterer when they were untrue as when they were true.8
-Apparently we have such an automatically positive reaction to com-
-pliments that we can fall victim to someone who uses them in an obvious
-attempt to win our favor. Click, whirr. When seen in this light, the ex-
-pense of printing and mailing well over 150,000 “I like you” cards each
+Apparently we have such an automatically positive reaction to compliments that we can fall victim to someone who uses them in an obvious
+attempt to win our favor. Click, whirr. When seen in this light, the expense of printing and mailing well over 150,000 “I like you” cards each
 year seems neither as foolish nor as costly as before.
 132 / Influence
 
@@ -5967,20 +5378,16 @@ more frequently a person’s face was flashed on the screen, the more
 these subjects came to like that person when they met in a subsequent
 interaction. And because greater liking leads to greater social influence,
 these subjects were also more persuaded by the opinion statements of
-the individuals whose faces had appeared on the screen most fre-
-quently.12
+the individuals whose faces had appeared on the screen most frequently.12
 On the basis of evidence that we are more favorable toward the things
 we have had contact with, some people have recommended a “contact”
 approach to improving race relations. They argue that simply by
-providing individuals of different ethnic background with more expos-
-ure to one another as equals, those individuals will naturally come to
+providing individuals of different ethnic background with more exposure to one another as equals, those individuals will naturally come to
 like each other better. However, when scientists have examined school
 Robert B. Cialdini Ph.D / 133
 
 
-integration—the area offering the single best test of the contact ap-
-proach—they have discovered quite the opposite pattern. School deseg-
-regation is more likely to increase prejudice between blacks and whites
+integration—the area offering the single best test of the contact approach—they have discovered quite the opposite pattern. School desegregation is more likely to increase prejudice between blacks and whites
 than to decrease it.13
 Let’s stay with the issue of school desegregation for a while. However
 well intentioned the proponents of interracial harmony through simple
@@ -6055,72 +5462,58 @@ draining away that hostility is emerging from the research of education
 specialists into the concept of “cooperative learning.” Because much of
 the heightened prejudice from classroom desegregation seems to stem
 from increased exposure to outside group members as rivals, these
-educators have experimented with forms of learning in which cooper-
-ation rather than competition with classmates is central.
+educators have experimented with forms of learning in which cooperation rather than competition with classmates is central.
 Off to camp. To understand the logic of the cooperative approach, it
 helps to reexamine the fascinating, three-decades-old research program
 of Turkish-born social scientist Muzafer Sherif. Intrigued with the issue
 of intergroup conflict, Sherif decided to investigate the process as it
 developed in boys’ summer camps. Although the boys never realized
 that they were participants in an experiment, Sherif and his associates
-consistently engaged in artful manipulations of the camp’s social envir-
-onment to observe the effects on group relations.
+consistently engaged in artful manipulations of the camp’s social environment to observe the effects on group relations.
 Robert B. Cialdini Ph.D / 135
 
 
-It didn’t take much to bring on certain kinds of ill will. Simply separ-
-ating the boys into two residence cabins was enough to stimulate a “we
+It didn’t take much to bring on certain kinds of ill will. Simply separating the boys into two residence cabins was enough to stimulate a “we
 vs. they” feeling between the groups; and assigning names to the two
 groups (the Eagles and the Rattlers) accelerated the sense of rivalry.
 The boys soon began to demean the qualities and accomplishments of
 the other group. But these forms of hostility were minor compared to
-what occurred when the experimenters purposely introduced compet-
-itive activities into the factions’ meetings with one another. Cabin against
-cabin treasure hunts, tugs-of-war, and athletic contests produced name-
-calling and physical friction. During the competitions, members of the
-opposing team were labeled “cheaters,” “sneaks,” and “stinkers.” Af-
-terward, cabins were raided, rival banners were stolen and burned,
-threatening signs were posted, and lunchroom scuffles were common-
-place.
+what occurred when the experimenters purposely introduced competitive activities into the factions’ meetings with one another. Cabin against
+cabin treasure hunts, tugs-of-war, and athletic contests produced namecalling and physical friction. During the competitions, members of the
+opposing team were labeled “cheaters,” “sneaks,” and “stinkers.” Afterward, cabins were raided, rival banners were stolen and burned,
+threatening signs were posted, and lunchroom scuffles were commonplace.
 At this point, it was evident to Sherif that the recipe for disharmony
 was quick and easy: Just separate the participants into groups and let
 sit for a while in their own juices. Then mix together over the flame of
 continued competition. And there you have it: Cross-group hatred at
 a rolling boil.
-A more challenging issue then faced the experimenters: how to re-
-move the entrenched hostility they had created. They first tried the
+A more challenging issue then faced the experimenters: how to remove the entrenched hostility they had created. They first tried the
 contact approach of bringing the bands together more often. But even
 when the joint activities were pleasant ones, such as movies and social
-events, the results were disastrous. Picnics produced food fights, enter-
-tainment programs gave way to shouting contests, dining-hall lines
+events, the results were disastrous. Picnics produced food fights, entertainment programs gave way to shouting contests, dining-hall lines
 degenerated into shoving matches. Sherif and his research team began
 to worry that in Dr. Frankenstein fashion, they might have created a
 monster they could no longer control. Then, at the height of the strife,
 they hit on a resolution that was at once simple and effective.
 They constructed a series of situations in which competition between
-the groups would have harmed everyone’s interests, in which coopera-
-tion was necessary for mutual benefit. On a daylong outing, the single
+the groups would have harmed everyone’s interests, in which cooperation was necessary for mutual benefit. On a daylong outing, the single
 truck available to go into town for food was “found” to be stuck. The
 boys were assembled and all pulled and pushed together until the
 vehicle was on its way. In another instance, the researchers arranged
 for an interruption of the camp’s water supply, which came through
-pipes from a distant tank. Presented with the common crisis and realiz-
-ing the need for unified action, the boys organized themselves harmo-
-niously to find and fix the problem before day’s end. In yet another
+pipes from a distant tank. Presented with the common crisis and realizing the need for unified action, the boys organized themselves harmoniously to find and fix the problem before day’s end. In yet another
 circumstance requiring cooperation, the campers were informed that
 a desirable movie was available for rental but that the camp could not
 afford it. Aware that the only solution was to combine resources, the
 136 / Influence
 
 
-boys rented the film with pooled money and spent an unusually con-
-genial evening enjoying it together.
+boys rented the film with pooled money and spent an unusually congenial evening enjoying it together.
 The consequences, though not instantaneous, were nonetheless
 striking. Conjoint efforts toward common goals steadily bridged the
 rancorous rift between the groups. Before long, the verbal baiting had
 died, the jostling in lines had ended, and the boys had begun to intermix
-at the meal tables. Further, when asked to list their best friends, signi-
-ficant numbers changed from an earlier exclusive naming of in-group
+at the meal tables. Further, when asked to list their best friends, significant numbers changed from an earlier exclusive naming of in-group
 chums to a listing that included boys in the other group. Some even
 thanked the researchers for the opportunity to rate their friends again
 because they realized they had changed their minds since the old days.
@@ -6139,17 +5532,13 @@ success resulted from the mutual efforts, it became especially difficult
 to maintain feelings of hostility toward those who had been teammates
 in the triumph.16
 Back to school. In the welter of racial tensions that followed school
-desegregation, certain educational psychologists began to see the relev-
-ance to the classroom in Sherif’s findings. If only the learning experience
-there could be modified to include at least occasional interethnic cooper-
-ation toward mutual successes, perhaps cross-group friendships would
+desegregation, certain educational psychologists began to see the relevance to the classroom in Sherif’s findings. If only the learning experience
+there could be modified to include at least occasional interethnic cooperation toward mutual successes, perhaps cross-group friendships would
 have a place to grow. Although similar projects have been under way
-in various states, an especially interesting approach in this direc-
-tion—termed the “jigsaw classroom”—was developed by Elliot Aronson
+in various states, an especially interesting approach in this direction—termed the “jigsaw classroom”—was developed by Elliot Aronson
 and his colleagues in Texas and California.
 The essence of the jigsaw route to learning is to require that students
-work together to master the material scheduled for an upcoming exam-
-ination. This is accomplished by forming students into cooperating
+work together to master the material scheduled for an upcoming examination. This is accomplished by forming students into cooperating
 teams and giving each student only one part of the information—one
 piece of the puzzle—necessary to pass the test. Under this system the
 students must take turns teaching and helping one another. Everyone
@@ -6167,10 +5556,8 @@ less prejudice between ethnic groups. Besides this vital reduction in
 hostility, there were other advantages: Self-esteem, liking for school,
 and test scores improved for minority students. And the white students
 benefited, too. Their self-esteem and liking for school went up, and
-their test performance was at least as high as that of whites in the tradi-
-tional classes.
-Gains such as these cry out for more detailed explanation. What ex-
-actly goes on in the jigsaw classroom to account for effects we had long
+their test performance was at least as high as that of whites in the traditional classes.
+Gains such as these cry out for more detailed explanation. What exactly goes on in the jigsaw classroom to account for effects we had long
 ago lost hope of attaining in the public schools? A case study provided
 by Aronson helps us to understand better. It relates the experience of
 Carlos, a young Mexican-American boy, who found himself in a jigsaw
@@ -6185,9 +5572,7 @@ even say that Carlos and the teacher had entered into a conspiracy
 of silence. He would become anonymous, buried in the bustle of
 classroom activity, and not be embarrassed by having to stumble
 over answers; she, in turn, would not call on him. Her decision
-probably came from the purest of motives; she didn’t want to hu-
-miliate him, or watch the other kids make fun of him. But by ig-
-noring Carlos, the teacher had, in effect, written him off. She was
+probably came from the purest of motives; she didn’t want to humiliate him, or watch the other kids make fun of him. But by ignoring Carlos, the teacher had, in effect, written him off. She was
 implying that he was not worth bothering with; at least that was
 the message the other kids got. If the teacher wasn’t calling on
 Carlos, it must be because Carlos is stupid. It is likely that Carlos
@@ -6203,15 +5588,13 @@ You don’t know what you’re doing.”
 138 / Influence
 
 
-One of us, assigned to observe the group process, would inter-
-vene with a bit of advice when she overheard such comments:
+One of us, assigned to observe the group process, would intervene with a bit of advice when she overheard such comments:
 “Okay, you can tease him if you want to,” she said, “and that
 might be fun for you, but it’s not going to help you learn about
 Joseph Pulitzer’s middle years. The exam will take place in about
 an hour.” Notice how she changed the reinforcement contingencies.
 Now Mary doesn’t gain much from putting Carlos down, and she
-stands to lose a great deal. After a few days and several such ex-
-periences, it began to dawn on these kids that the only chance they
+stands to lose a great deal. After a few days and several such experiences, it began to dawn on these kids that the only chance they
 had to learn about Carlos’s segment was by paying attention to
 what Carlos had to say.
 And with that realization, the kids began to develop into pretty
@@ -6238,8 +5621,7 @@ new methods—provided they will institute them at all. After all, not
 only are cooperative learning techniques a radical departure from the
 traditional, familiar routine of most teachers, they may also threaten
 the teacher’s sense of importance in the classroom by turning over much
-of the instruction to the students. Finally, we must realize that compet-
-ition has its place, too. It can serve as a valuable motivator of desirable
+of the instruction to the students. Finally, we must realize that competition has its place, too. It can serve as a valuable motivator of desirable
 action and an important builder of self-concept. The task, then, is not
 to eliminate academic competition but to break its monopoly in the
 classroom by introducing regular cooperative successes that include
@@ -6254,8 +5636,7 @@ I can feel optimism rise in me. The public schools have for so long been
 the source of discouraging news—sinking test scores, teacher burnout,
 increasing crime, and, of course, racial conflict. Now there is at least
 one crack in the gloom, and I find myself genuinely excited about it.
-What’s the point of this digression into the effects of school desegreg-
-ation on race relations? The point is to make two points. First, although
+What’s the point of this digression into the effects of school desegregation on race relations? The point is to make two points. First, although
 the familiarity produced by contact usually leads to greater liking, the
 opposite occurs if the contact carries distasteful experiences with it.
 Therefore, when children of different racial groups are thrown into the
@@ -6270,19 +5651,15 @@ like them so we will say yes to their requests? Do they point it out when
 it exists naturally in a situation? Do they try to amplify it when it exists
 only weakly? And, most instructive of all, do they manufacture it when
 it is absent?
-As it turns out, cooperation passes the test with colors flying. Com-
-pliance professionals are forever attempting to establish that we and
+As it turns out, cooperation passes the test with colors flying. Compliance professionals are forever attempting to establish that we and
 they are working for the same goals, that we must “pull together” for
-mutual benefit, that they are, in essence, our teammates. A host of ex-
-amples is possible. Most are familiar, like the new-car salesman who
+mutual benefit, that they are, in essence, our teammates. A host of examples is possible. Most are familiar, like the new-car salesman who
 takes our side and “does battle” with his boss to secure us a good deal.19
 But one rather spectacular illustration occurs in a setting few of us
-would recognize firsthand, because the professionals are police inter-
-rogators whose job is to induce suspects to confess to crime.
+would recognize firsthand, because the professionals are police interrogators whose job is to induce suspects to confess to crime.
 In recent years, the courts have imposed a variety of restrictions on
 the way police must behave in handling suspected criminals, especially
-in seeking confessions. Many procedures that in the past led to admis-
-sions of guilt can no longer be employed for fear that they will result
+in seeking confessions. Many procedures that in the past led to admissions of guilt can no longer be employed for fear that they will result
 in a judge’s dismissal of the case. As yet, however, the courts have found
 nothing illegal in the use by the police of subtle psychology. For this
 reason, criminal interrogations have taken increasingly to the use of
@@ -6302,8 +5679,7 @@ see a mound of garbage. If the suspect challenges Bad Cop’s accusations
 or just refuses to answer them, Bad Cop becomes livid. His rage soars.
 He swears he will do everything possible to assure a maximum sentence.
 He says he has friends in the district attorney’s office who will hear
-from him of the suspect’s noncooperative attitude and who will prosec-
-ute the case hard.
+from him of the suspect’s noncooperative attitude and who will prosecute the case hard.
 At the outset of Bad Cop’s performance, his partner, Good Cop, sits
 in the background. Then, slowly, he starts to chip in. First he speaks
 only to Bad Cop, trying to temper the burgeoning anger. “Calm down,
@@ -6342,8 +5718,7 @@ Robert B. Cialdini Ph.D / 141
 fear of long incarceration is quickly instilled by Bad Cop’s threats; the
 perceptual contrast principle ensures that compared to the raving,
 venomous Bad Cop, the interrogator playing Good Cop will seem like
-an especially reasonable and kind man; and because Good Cop has in-
-tervened repeatedly on the suspect’s behalf—has even spent his own
+an especially reasonable and kind man; and because Good Cop has intervened repeatedly on the suspect’s behalf—has even spent his own
 money for a cup of coffee—the reciprocity rule pressures for a return
 favor. The big reason that the technique is effective, though, is that it
 gives the suspect the idea that there is someone on his side, someone
@@ -6364,14 +5739,10 @@ when the weather’s bad? During the floods last year, I got hate mail!
 One guy threatened to shoot me if it didn’t stop raining. Christ, I’m still
 looking over my shoulder from that one. And the people I work with
 at the station do it, too! Sometimes, right on the air, they’ll zing me
-about a heat wave or something. They have to know that I’m not re-
-sponsible, but that doesn’t seem to stop them. Can you help me under-
-stand this, Doc? It’s really getting me down.”
+about a heat wave or something. They have to know that I’m not responsible, but that doesn’t seem to stop them. Can you help me understand this, Doc? It’s really getting me down.”
 We made an appointment to talk in my office, where I tried to explain
 that he was the victim of an age-old click, whirr response that people
-have to things they perceive as merely connected to one another. In-
-stances of this response abound in modern life. But I felt that the ex-
-ample most likely to help the distressed weatherman would require a
+have to things they perceive as merely connected to one another. Instances of this response abound in modern life. But I felt that the example most likely to help the distressed weatherman would require a
 bit of ancient history. I asked him to consider the precarious fate of the
 imperial messengers of old Persia. Any such messenger assigned the
 role of military courier had special cause to hope mightily for Persian
@@ -6387,9 +5758,7 @@ I hoped that the point of this story would not be lost on the
 weatherman. I wanted him to be aware of a fact that is as true today as
 it was in the time of ancient Persia, or, for that matter, in the time of
 Shakespeare, who captured the essence of it with one vivid line. “The
-nature of bad news,” he said, “infects the teller.” There is a natural hu-
-man tendency to dislike a person who brings us unpleas-ant informa-
-tion, even when that person did not cause the bad news. The simple
+nature of bad news,” he said, “infects the teller.” There is a natural human tendency to dislike a person who brings us unpleas-ant information, even when that person did not cause the bad news. The simple
 association with it is enough to stimulate our dislike.20
 But there was something else I hoped the weatherman would get
 from the historical examples. Not only was he joined in his predicament
@@ -6421,8 +5790,7 @@ accused of trying to play God.
 to see New Year’s,” said Bob Gregory, who has been the forecaster at WTHR-TV
 in Indianapolis for nine years.
 Most of the forecasters claimed they are accurate 80 percent to 90 percent of the
-time on one-day forecasts, but longer-range predictions get tricky. And most con-
-ceded they are simply reporting information supplied by computers and anonymous
+time on one-day forecasts, but longer-range predictions get tricky. And most conceded they are simply reporting information supplied by computers and anonymous
 meterologists from the National Weather Service or a private agency.
 Robert B. Cialdini Ph.D / 143
 
@@ -6442,8 +5810,7 @@ Chuck Whitaker of WSBT-TV in South Bend, Ind., says, “One little old lady call
 the police department and wanted the weatherman arrested for bringing all the
 snow.”
 A woman upset that it had rained for her daughter’s wedding called Tom Jolls
-of WKBW-TV in Buffalo, N.Y., to give him a piece of her mind. “She held me re-
-sponsible and said if she ever met me she would probably hit me,” he said.
+of WKBW-TV in Buffalo, N.Y., to give him a piece of her mind. “She held me responsible and said if she ever met me she would probably hit me,” he said.
 Sonny Eliot of WJBK-TV, a forecaster in the Detroit area for 30 years, recalls
 predicting 2 to 4 inches of snow in the city several years ago and more than 8 came
 down. To retaliate, his colleagues at the station set up a contraption that rained
@@ -6460,14 +5827,12 @@ how they were always warning us against playing with the bad kids
 down the street? Remember how they said it didn’t matter if we did
 nothing bad ourselves because, in the eyes of the neighborhood, we
 would be “known by the company we kept.” Our mothers were teaching
-us about guilt by association. They were giving us a lesson in the neg-
-ative side of the principle of association. And they were right. People
+us about guilt by association. They were giving us a lesson in the negative side of the principle of association. And they were right. People
 do assume that we have the same personality traits as our friends.22
 As for the positive associations, it is the compliance professionals
 who teach the lesson. They are incessantly trying to connect themselves
 or their products with the things we like. Did you ever wonder what
-all those good-looking models are doing standing around in the auto-
-mobile ads? What the advertiser hopes they are doing is lending their
+all those good-looking models are doing standing around in the automobile ads? What the advertiser hopes they are doing is lending their
 144 / Influence
 
 
@@ -6478,13 +5843,10 @@ And they are right. In one study, men who saw a new-car ad that
 included a seductive young woman model rated the car as faster, more
 appealing, more expensive-looking, and better designed than did men
 who viewed the same ad without the model. Yet when asked later, the
-men refused to believe that the presence of the young woman had in-
-fluenced their judgments.23
-Because the association principle works so well—and so uncon-
-sciously—manufacturers regularly rush to connect their products with
+men refused to believe that the presence of the young woman had influenced their judgments.23
+Because the association principle works so well—and so unconsciously—manufacturers regularly rush to connect their products with
 the current cultural rage. During the days of the first American moon
-shot, everything from breakfast drink to deodorant was sold with allu-
-sions to the U.S. space program. In Olympiad years, we are told precisely
+shot, everything from breakfast drink to deodorant was sold with allusions to the U.S. space program. In Olympiad years, we are told precisely
 which is the “official” hair spray and facial tissue of our Olympic
 teams.24 During the 1970s, when the magic cultural concept appeared
 to be “naturalness,” the “natural” bandwagon was crowded to capacity.
@@ -6493,8 +5855,7 @@ Sometimes the connections to naturalness didn’t even make sense:
 The linking of celebrities to products is another way advertisers cash
 in on the association principle. Professional athletes are paid to connect
 themselves to things that can be directly relevant to their roles (sport
-shoes, tennis rackets, golf balls) or wholly irrelevant (soft drinks, pop-
-corn poppers, panty hose). The important thing for the advertiser is to
+shoes, tennis rackets, golf balls) or wholly irrelevant (soft drinks, popcorn poppers, panty hose). The important thing for the advertiser is to
 establish the connection; it doesn’t have to be a logical one, just a positive
 one.
 Of course, popular entertainers provide another form of desirability
@@ -6504,29 +5865,24 @@ to sway voters. Presidential candidates assemble stables of well-known
 nonpolitical figures who either actively participate in the campaign or
 merely lend their names to it. Even at the state and local level, a similar
 game is played. Take as evidence the comment of a Los Angeles woman
-I overheard expressing her conflicting feelings about a California refer-
-endum to limit smoking in public places. “It’s a real tough decision.
+I overheard expressing her conflicting feelings about a California referendum to limit smoking in public places. “It’s a real tough decision.
 They’ve got big stars speaking for it, and big stars speaking against it.
 You don’t know how to vote.”
-If politicians are relative newcomers to the use of celebrity endorse-
-ments, they are old hands at exploiting the association principle in
+If politicians are relative newcomers to the use of celebrity endorsements, they are old hands at exploiting the association principle in
 other ways. For example, congressional representatives traditionally
 announce to the press the start of federal projects that will bring new
-jobs or benefits to their home states; this is true even when a represent-
-Robert B. Cialdini Ph.D / 145
+jobs or benefits to their home states; this is true even when a representRobert B. Cialdini Ph.D / 145
 
 
 ative has had nothing to do with advancing the project or has, in some
 cases, voted against it.
 While politicians have long strained to associate themselves with the
 values of motherhood, country, and apple pie, it may be in the last of
-these connections—to food—that they have been most clever. For in-
-stance, it is White House tradition to try to sway the votes of balking
+these connections—to food—that they have been most clever. For instance, it is White House tradition to try to sway the votes of balking
 legislators over a meal. It can be a picnic lunch, a sumptuous breakfast,
 or an elegant dinner; but when an important bill is up for grabs, out
 comes the silverware. And political fund-raising these days regularly
-involves the presentation of food. Notice, too, that at the typical fund-
-raising dinner the speeches, the appeals for further contributions and
+involves the presentation of food. Notice, too, that at the typical fundraising dinner the speeches, the appeals for further contributions and
 heightened effort never come before the meal is served, only during or
 after. The advantages to this pairing of the affairs of the table with those
 of the state are several: For example, time is saved and the reciprocity
@@ -6537,24 +5893,20 @@ Using what he termed the “luncheon technique,” he found that his
 subjects became fonder of the people and things they experienced while
 they were eating. In the example most relevant for our purposes,
 Razran’s subjects were presented with some political statements they
-had rated once before. At the end of the experiment, after all the polit-
-ical statements had been presented, Razran found that only certain of
+had rated once before. At the end of the experiment, after all the political statements had been presented, Razran found that only certain of
 them had gained in approval—those that had been shown while food
 was being eaten. And these changes in liking seem to have occurred
 unconsciously, since the subjects could not remember which of the
 statements they had seen during the food service.
 How did Razran come up with the luncheon technique? What made
 him think it would work? The answer may lie in the dual scholarly
-roles he played during his career. Not only was he a respected independ-
-ent researcher, he was also one of the earliest translators into English
+roles he played during his career. Not only was he a respected independent researcher, he was also one of the earliest translators into English
 of the pioneering psychological literature of Russia. It was a literature
 dedicated to the study of the association principle and dominated by
 the thinking of a brilliant man, Ivan Pavlov.
-Although a scientist of varied and elaborated talent—he had, for in-
-stance, won a Nobel Prize years earlier for his work on the digestive
+Although a scientist of varied and elaborated talent—he had, for instance, won a Nobel Prize years earlier for his work on the digestive
 system—Pavlov’s most important experimental demonstration was
-simplicity itself. He showed that he could get an animal’s typical re-
-sponse to food (salivation) to be directed toward something irrelevant
+simplicity itself. He showed that he could get an animal’s typical response to food (salivation) to be directed toward something irrelevant
 to food (a bell) merely by connecting the two things in the animal’s
 mind. If the presentation of food to a dog was always accompanied by
 the sound of a bell, soon the dog would salivate to the bell alone, even
@@ -6565,13 +5917,10 @@ when there was no food to be had.
 It is not a long step from Pavlov’s classic demonstration to Razran’s
 luncheon technique. Obviously, a normal reaction to food can be
 transferred to some other thing through the process of raw association.
-Razran’s insight was that there are many normal responses to food be-
-sides salivation, one of them being a good and favorable feeling.
-Therefore, it is possible to attach this pleasant feeling, this positive atti-
-tude, to anything (political statements being only an example) that is
+Razran’s insight was that there are many normal responses to food besides salivation, one of them being a good and favorable feeling.
+Therefore, it is possible to attach this pleasant feeling, this positive attitude, to anything (political statements being only an example) that is
 closely associated with good food.
-Nor is there a long step from the luncheon technique to the compli-
-ance professionals’ realization that all kinds of desirable things can
+Nor is there a long step from the luncheon technique to the compliance professionals’ realization that all kinds of desirable things can
 substitute for food in lending their likable qualities to the ideas,
 products, and people artificially linked to them. In the final analysis,
 then, that is why those good-looking models are standing around in
@@ -6581,23 +5930,20 @@ is played. And that is even why the women playing Barnyard Bingo at
 a Tupperware party must yell the word “Tupperware” rather than
 “Bingo” before they can rush to the center of the floor for a prize. It
 may be “Tupperware” for the women, but it’s “Bingo” for the company.
-Just because we are often the unaware victims of compliance practi-
-tioners’ use of the association principle doesn’t mean that we don’t
+Just because we are often the unaware victims of compliance practitioners’ use of the association principle doesn’t mean that we don’t
 understand how it works or don’t use it ourselves. There is ample
 evidence, for instance, that we understand fully the predicament of a
 Persian imperial messenger or modern-day weatherman announcing
 bad news. In fact, we can be counted on to take steps to avoid putting
 ourselves in any similar positions. Research done at the University of
-Georgia shows just how we operate when faced with the task of com-
-municating good or bad news. Students waiting for an experiment to
+Georgia shows just how we operate when faced with the task of communicating good or bad news. Students waiting for an experiment to
 begin were given the job of informing a fellow student that an important
 phone call had come in for him. Half the time the call was supposed to
 bring good news and half the time, bad news. The researchers found
 that the students conveyed the information very differently, depending
 on its quality. When the news was positive, the tellers were sure to
 mention that feature: “You just got a phone call with great news. Better
-see the experimenter for the details.” But when the news was unfavor-
-able, they kept themselves apart from it: “You just got a phone call.
+see the experimenter for the details.” But when the news was unfavorable, they kept themselves apart from it: “You just got a phone call.
 Better see the experimenter for the details.” Obviously, the students
 had previously learned that, to be liked, they should connect themselves
 to good news but not bad news.25
@@ -6619,8 +5965,7 @@ lavishness of the gifts provided by local fans to already wealthy
 American ballplayers on the special “day” set aside to honor them?
 Rationally, none of this makes sense. It’s just a game! Isn’t it?
 Hardly. The relationship between sport and the earnest fan is anything
-but gamelike. It is serious, intense, and highly personal. An apt illustra-
-tion comes from one of my favorite anecdotes. It concerns a World War
+but gamelike. It is serious, intense, and highly personal. An apt illustration comes from one of my favorite anecdotes. It concerns a World War
 II soldier who returned to his home in the Balkans after the war and
 shortly thereafter stopped speaking. Medical examinations could find
 no physical cause for the problem. There was no wound, no brain
@@ -6636,8 +5981,7 @@ When at a crucial point of play the referee called a foul against a player
 from the man’s home team, the mute veteran jumped from his chair,
 glared at the radio, and spoke his first words in more than three decades:
 “You dumb ass!” he cried. “Are you trying to give them the match?”
-With that, he returned to his chair and to a silence he never again viol-
-ated.
+With that, he returned to his chair and to a silence he never again violated.
 There are two important lessons to be derived from this true story.
 The first concerns the sheer power of the phenomenon. The veteran’s
 desire to have his hometown team succeed was so strong that it alone
@@ -6648,8 +5992,7 @@ Olympics, after the U.S. hockey team had upset the vastly favored Soviet
 team, the teetotaling father of the American goaltender, Jim Craig, was
 offered a flask. “I’ve never had a drink in my life,” he reported later,
 “but someone behind me handed me cognac. I drank it. Yes, I did.” Nor
-was such unusual behavior unique to parents of the players. Fans out-
-148 / Influence
+was such unusual behavior unique to parents of the players. Fans out148 / Influence
 
 
 side the hockey arena were described in news accounts as delirious:
@@ -6664,16 +6007,13 @@ The customers were joined in their spree—and soon led—by the market
 employees and manager.
 Without question, the force is deep and sweeping. But if we return
 to the account of the silent veteran, we can see that something else is
-revealed about the nature of the union of sports and sports fan, some-
-thing crucial to its basic character: It is a personal thing. Whatever
+revealed about the nature of the union of sports and sports fan, something crucial to its basic character: It is a personal thing. Whatever
 fragment of an identity that ravaged, mute man still possessed was
 engaged by soccer play. No matter how weakened his ego may have
 become after thirty years of wordless stagnation in a hospital ward, it
 was involved in the outcome of the match. Why? Because he, personally,
-would be diminished by a hometown defeat. How? Through the prin-
-ciple of association. The mere connection of birthplace hooked him,
-wrapped him, tied him to the approaching triumph or failure. As dis-
-tinguished author Isaac Asimov put it in describing our reactions to
+would be diminished by a hometown defeat. How? Through the principle of association. The mere connection of birthplace hooked him,
+wrapped him, tied him to the approaching triumph or failure. As distinguished author Isaac Asimov put it in describing our reactions to
 the contests we view, “All things being equal, you root for your own
 sex, your own culture, your own locality…and what you want to prove
 is that you are better than the other person. Whomever you root for
@@ -6700,8 +6040,7 @@ Robert B. Cialdini Ph.D / 149
 
 ‘I’m a lawyer. Hit me, hit me, so I can sue you.’ I think America takes
 all sports too seriously.”
-So we want our affiliated sports teams to win to prove our own su-
-periority. But to whom are we trying to prove it? Ourselves, certainly;
+So we want our affiliated sports teams to win to prove our own superiority. But to whom are we trying to prove it? Ourselves, certainly;
 but to everyone else, too. According to the association principle, if we
 can surround ourselves with success that we are connected with in even
 a superficial way (for example, place of residence), our public prestige
@@ -6754,52 +6093,43 @@ thrust their index fingers high, and shout, “We’re number one! We’re
 number one!” Note that the call is not “They’re number one” or even
 “Our team is number one.” The pronoun is “we,” designed to imply
 the closest possible identity with the team.
-Note also that nothing similar occurs in the case of failure. No televi-
-sion viewer will ever hear the chant, “We’re in last place! We’re in last
+Note also that nothing similar occurs in the case of failure. No television viewer will ever hear the chant, “We’re in last place! We’re in last
 place!” Home-team defeats are the times for distancing oneself. Here
 “we” is not nearly as preferred as the insulating pronoun “they.” To
 prove the point, I once did a small experiment in which students at
-Arizona State University were phoned and asked to describe the out-
-come of a football game their school team had played a few weeks
+Arizona State University were phoned and asked to describe the outcome of a football game their school team had played a few weeks
 earlier. Some of the students were asked the outcome of a certain game
 their team had lost; the other students were asked the outcome of a
 different game—one their team had won. My fellow researcher, Avril
-Thorne, and I simply listened to what was said and recorded the per-
-centage of students who used the word “we” in their descriptions.
+Thorne, and I simply listened to what was said and recorded the percentage of students who used the word “we” in their descriptions.
 When the results were tabulated, it was obvious that the students had
 tried to connect themselves to success by using the pronoun “we” to
 describe their school-team victory—“We beat Houston, seventeen to
 fourteen,” or “We won.” In the case of the lost game, however, “we”
 was rarely used. Instead, the students used terms designed to keep
-themselves separate from their vanquished team—“They lost to Mis-
-souri, thirty to twenty,” or “I don’t know the score, but Arizona State
+themselves separate from their vanquished team—“They lost to Missouri, thirty to twenty,” or “I don’t know the score, but Arizona State
 got beat.” Perhaps the twin desires to connect ourselves to winners and
 to distance ourselves from losers were combined consummately in the
 remarks of one particular student. After dryly recounting the score of
 the home-team defeat—“Arizona State lost it, thirty to twenty”—he
-blurted in anguish, “They threw away our chance for a national champi-
-onship!”27
+blurted in anguish, “They threw away our chance for a national championship!”27
 If it is true that, to make ourselves look good, we try to bask in the
 reflected glory of the successes we are even remotely associated with,
 a provocative implication emerges: We will be most likely to use this
 approach when we feel that we don’t look so good. When-ever our
-public image is damaged, we will experience an increased desire to re-
-store that image by trumpeting our ties to successful others. At the same
+public image is damaged, we will experience an increased desire to restore that image by trumpeting our ties to successful others. At the same
 time, we will most scrupulously avoid publicizing our ties to failing
 Robert B. Cialdini Ph.D / 151
 
 
-others. Support for these ideas comes from the telephone study of Ari-
-zona State University students. Before being asked about the home-
-team victory or loss, they were given a test of their general knowledge.
+others. Support for these ideas comes from the telephone study of Arizona State University students. Before being asked about the hometeam victory or loss, they were given a test of their general knowledge.
 The test was rigged so that some of the students would fail badly while
 the others would do quite well.
 So at the time they were asked to describe the football score, half of
 the students had experienced recent image damage from their failure
 of the test. These students later showed the greatest need to manipulate
 their connections with the football team to salvage their prestige. If they
-were asked to describe the team defeat, only 17 percent used the pro-
-noun “we” in so doing. If, however, they were asked to describe the
+were asked to describe the team defeat, only 17 percent used the pronoun “we” in so doing. If, however, they were asked to describe the
 win, 41 percent said “we.”
 The story was very different, though, for the students who had done
 well on the general knowledge test. They later used “we” about equally,
@@ -6811,8 +6141,7 @@ feeling of recognized personal accomplishment that we will seek to
 bask in reflected glory. Instead, it will be when prestige (both public
 and private) is low that we will be intent upon using the successes of
 associated others to help restore image.
-I think it revealing that the remarkable hubbub following the Amer-
-ican hockey team victory in the 1980 Olympics came at a time of recently
+I think it revealing that the remarkable hubbub following the American hockey team victory in the 1980 Olympics came at a time of recently
 diminished American prestige. The U.S. government had been helpless
 to prevent both the holding of American hostages in Iran and the Soviet
 invasion of Afghanistan. It was a time when, as a citizenry, we needed
@@ -6835,18 +6164,15 @@ associations with others of attainment. There are several varieties of
 152 / Influence
 
 
-this species that bloom throughout our culture. The persistent name-
-dropper is a classic example. So, too, is the rock-music groupie, who
+this species that bloom throughout our culture. The persistent namedropper is a classic example. So, too, is the rock-music groupie, who
 trades sexual favors for the right to tell girlfriends that she was “with”
-a famous musician for a time. No matter which form it takes, the beha-
-vior of such individuals shares a similar theme—the rather tragic view
+a famous musician for a time. No matter which form it takes, the behavior of such individuals shares a similar theme—the rather tragic view
 of accomplishment as deriving from outside the self.
 Certain of these people work the association principle in a slightly
 different way. Instead of striving to inflate their visible connections to
 others of success, they strive to inflate the success of others they are
 visibly connected to. The clearest illustration is the notorious “stage
-mother,” obsessed with securing stardom for her child. Of course, wo-
-men are not alone in this regard. In 1991 a Davenport, Iowa, obstetrician
+mother,” obsessed with securing stardom for her child. Of course, women are not alone in this regard. In 1991 a Davenport, Iowa, obstetrician
 cut off service to the wives of three school officials, reportedly because
 his son had not been given enough playing time in school basketball
 games. One of the wives was eight months’ pregnant at the time.
@@ -6862,16 +6188,14 @@ doctors. It was a photograph of the man with Merv Griffin.
 HOW TO SAY NO
 Because liking can be increased by many means, a proper consideration
 of defenses against compliance professionals who employ the liking
-rule must, oddly enough, be a short one. It would be pointless to con-
-struct a horde of specific countertactics to combat each of the myriad
+rule must, oddly enough, be a short one. It would be pointless to construct a horde of specific countertactics to combat each of the myriad
 versions of the various ways to influence liking. There are simply too
 many routes to be blocked effectively with such a one-on-one strategy.
 Besides, several of the factors leading to liking—physical attractiveness,
 familiarity, association—have been shown to work unconsciously to
 produce their effects on us, making it unlikely that we could muster a
 timely protection against them.
-Instead we need to consider a general approach, one that can be ap-
-plied to any of the liking-related factors to neutralize their unwelcome
+Instead we need to consider a general approach, one that can be applied to any of the liking-related factors to neutralize their unwelcome
 influence on our compliance decisions. The secret to such an approach
 may lie in its timing. Rather than trying to recognize and prevent the
 action of liking factors before they have a chance to work on us, we
@@ -6892,8 +6216,7 @@ practitioner more quickly or more deeply than we would have expected.
 Once we notice this feeling, we will have been tipped off that there is
 probably some tactic being used, and we can start taking the necessary
 countermeasures. Note that the strategy I am suggesting borrows much
-from the jujitsu style favored by the compliance professionals them-
-selves. We don’t attempt to restrain the influence of the factors that
+from the jujitsu style favored by the compliance professionals themselves. We don’t attempt to restrain the influence of the factors that
 cause liking. Quite the contrary. We allow these factors to exert their
 force, and then we use that force in our campaign against them. The
 stronger the force, the more conspicuous it becomes and, consequently,
@@ -6913,9 +6236,7 @@ combinations, that he had made us laugh, that he had cooperated with
 us against the sales manager to get us a better deal.
 Although such a review of events might be informative, it is not a
 necessary step in protecting ourselves from the liking rule. Once we
-discover that we have come to like Dan more than we would have ex-
-pected to, we don’t have to know why. The simple recognition of un-
-warranted liking should be enough to get us to react against it. One
+discover that we have come to like Dan more than we would have expected to, we don’t have to know why. The simple recognition of unwarranted liking should be enough to get us to react against it. One
 possible reaction would be to reverse the process and actively dislike
 Dan. But that might be unfair to him and contrary to our own interests.
 After all, some individuals are naturally likable, and Dan might just be
@@ -6936,12 +6257,10 @@ decide for Dan’s car, we will be driving it, not him, off the dealership
 lot. It is irrelevant to a wise automobile purchase that we find Dan
 likable because he is good-looking, claims an interest in our favorite
 hobby, is funny, or has relatives back where we grew up.
-Our proper response, then, is a conscious effort to concentrate exclus-
-ively on the merits of the deal and car Dan has for us. Of course, in
+Our proper response, then, is a conscious effort to concentrate exclusively on the merits of the deal and car Dan has for us. Of course, in
 making a compliance decision, it is always a good idea to keep separate
 our feelings about the requester and the request. But once immersed in
-even a brief personal and sociable contact with a requester, that distinc-
-tion is easy to forget. In those instances when we don’t care one way
+even a brief personal and sociable contact with a requester, that distinction is easy to forget. In those instances when we don’t care one way
 or the other about a requester, forgetting to make the distinction won’t
 steer us very far wrong. The big mistakes are likely to come when we
 are fond of the person making a request.
@@ -6950,8 +6269,7 @@ a compliance practitioner. The recognition of that feeling can serve as
 our reminder to separate the dealer from the merits of the deal and to
 make our decision based on considerations related only to the latter.
 Were we all to follow this procedure, I am certain we would be much
-more pleased with the results of our exchanges with compliance profes-
-sionals—though I suspect that Dealin’ Dan would not.
+more pleased with the results of our exchanges with compliance professionals—though I suspect that Dealin’ Dan would not.
 READER’S REPORT
 From a Chicago Man
 “Although I’ve never been to a Tupperware party, I recognized the
@@ -7005,8 +6323,7 @@ charge of the experiment, as is clearly evidenced by the gray lab coat
 he wears and the clipboard he carries. The other is a volunteer like
 yourself who seems average in all respects.
 After initial greetings and pleasantries are exchanged, the researcher
-begins to explain the procedures to be followed. He says that the exper-
-iment is a study of how punishment affects learning and memory.
+begins to explain the procedures to be followed. He says that the experiment is a study of how punishment affects learning and memory.
 Therefore, one participant will have the task of learning pairs of words
 in a long list until each pair can be recalled perfectly; this person is to
 be called the Learner. The other partici-pant’s job will be to test the
@@ -7020,9 +6337,7 @@ pain as part of the study, so you briefly consider leaving. But no, you
 
 think, there’s plenty of time for that if need be and, besides, how strong
 a shock could it be?
-After you have had a chance to study the list of word pairs, the re-
-searcher straps you into a chair and, with the Teacher looking on, at-
-taches electrodes to your arm. More worried now about the effect of
+After you have had a chance to study the list of word pairs, the researcher straps you into a chair and, with the Teacher looking on, attaches electrodes to your arm. More worried now about the effect of
 the shock, you inquire into its severity. The researcher’s response is
 hardly comforting; he says that although the shocks can be extremely
 painful, they will cause you “no permanent tissue damage.” With that,
@@ -7071,11 +6386,9 @@ be no reason to continue this experiment. But he proceeds relentlessly,
 calling out the test questions, announcing the horrid shock levels (about
 400 volts now), and pulling the levers. What must this man be like? you
 wonder in confusion. Why doesn’t he help me? Why won’t he stop?
-For most of us, the above scenario reads like a bad dream. To recog-
-nize how nightmarish it is, though, we should understand that in most
+For most of us, the above scenario reads like a bad dream. To recognize how nightmarish it is, though, we should understand that in most
 respects it is real. There was such an experiment—actually, a whole
-series—run by a psychology professor named Milgram in which parti-
-cipants in the Teacher role were willing to deliver continued, intense,
+series—run by a psychology professor named Milgram in which participants in the Teacher role were willing to deliver continued, intense,
 and dangerous levels of shock to a kicking, screeching, pleading other
 person. Only one major aspect of the experiment was not genuine. No
 real shock was delivered; the Learner, the victim who repeatedly cried
@@ -7085,13 +6398,11 @@ study, then, had nothing to do with the effects of punishment on
 learning and memory. Rather, it involved an entirely different question:
 When it is their job, how much suffering will ordinary people be willing
 to inflict on an entirely innocent other person?
-The answer is most unsettling. Under circumstances mirroring pre-
-cisely the features of the “bad dream,” the typical Teacher was willing
+The answer is most unsettling. Under circumstances mirroring precisely the features of the “bad dream,” the typical Teacher was willing
 to deliver as much pain as was available to give. Rather than yield to
 the pleas of the victim, about two thirds of the subjects in Milgram’s
 experiment pulled every one of the thirty shock switches in front of
-them and continued to engage the last switch (450 volts) until the re-
-searcher ended the experiment. More alarming still, not one of the forty
+them and continued to engage the last switch (450 volts) until the researcher ended the experiment. More alarming still, not one of the forty
 subjects in this study quit his job as Teacher when the victim first began
 to demand his release; nor later, when he began to beg for it; nor even
 later, when his reaction to each shock had become, in Milgram’s words,
@@ -7110,8 +6421,7 @@ Robert B. Cialdini Ph.D / 159
 
 
 about one person in a thousand would be willing to continue to the
-end. No one, then, was prepared for the behavior patterns that the ex-
-periment actually produced.
+end. No one, then, was prepared for the behavior patterns that the experiment actually produced.
 How can we explain those alarming patterns? Perhaps, as some have
 argued, it has to do with the fact that the subjects were all males who
 are known as a group for their aggressive tendencies, or that the subjects
@@ -7130,8 +6440,7 @@ was being affected by the shock—“That’s all. Get me out of here. I told
 you I had heart trouble. My heart’s starting to bother me. I refuse to go
 on. Let me out”—the results were the same as before; 65 percent of the
 subjects carried out their duties faithfully through the maximum shock.
-Finally, the explanation that Milgram’s subjects were a twisted, sad-
-istic bunch not at all representative of the average citizen has proven
+Finally, the explanation that Milgram’s subjects were a twisted, sadistic bunch not at all representative of the average citizen has proven
 unsatisfactory as well. The people who answered Milgram’s newspaper
 ad to participate in his “memory” experiment represented a standard
 cross section of ages, occupations, and educational levels within our
@@ -7143,13 +6452,11 @@ studies implicate us in their grisly findings, the unanswered question
 becomes an uncomfortably personal one: What could make us do such
 things?
 Milgram is sure he knows the answer. It has to do, he says, with a
-deep-seated sense of duty to authority within us all. According to Mil-
-gram, the real culprit in the experiments was his subject’s inability to
+deep-seated sense of duty to authority within us all. According to Milgram, the real culprit in the experiments was his subject’s inability to
 defy the wishes of the boss of the study—the lab-coated researcher who
 urged and, if need be, directed the subjects to perform their duties,
 despite the emotional and physical mayhem they were causing.
-The evidence supporting Milgram’s obedience to authority explana-
-tion is strong. First, it is clear that, without the researcher’s directives
+The evidence supporting Milgram’s obedience to authority explanation is strong. First, it is clear that, without the researcher’s directives
 to continue, the subjects would have ended the experiment quickly.
 They hated what they were doing and agonized over their victim’s
 160 / Influence
@@ -7160,15 +6467,12 @@ they went on, but in the process they trembled, they perspired, they
 shook, they stammered protests and additional pleas for the victim’s
 release. Their fingernails dug into their own flesh; they bit their lips
 until they bled; they held their heads in their hands; some fell into fits
-of uncontrollable nervous laughter. As one outside observer to the ex-
-periment wrote:
+of uncontrollable nervous laughter. As one outside observer to the experiment wrote:
 I observed a mature and initially poised businessman enter the
 laboratory smiling and confident. Within twenty minutes he was
-reduced to a twitching, stuttering wreck who was rapidly approach-
-ing a point of nervous collapse. He constantly pulled on his earlobe
+reduced to a twitching, stuttering wreck who was rapidly approaching a point of nervous collapse. He constantly pulled on his earlobe
 and twisted his hands. At one point he pushed his fist into his
-forehead and muttered: “Oh, God, let’s stop it.” And yet he con-
-tinued to respond to every word of the experimenter and obeyed
+forehead and muttered: “Oh, God, let’s stop it.” And yet he continued to respond to every word of the experimenter and obeyed
 to the end.1
 In addition to these observations, Milgram has provided even more
 convincing evidence for the obedience-to-authority interpretation of
@@ -7177,8 +6481,7 @@ and the victim switch scripts so that the researcher told the Teacher to
 stop delivering shocks to the victim, while the victim insisted bravely
 that the Teacher continue. The result couldn’t have been clearer; 100
 percent of the subjects refused to give one additional shock when it was
-merely the fellow subject who demanded it. The identical finding ap-
-peared in another version of the experiment in which the researcher
+merely the fellow subject who demanded it. The identical finding appeared in another version of the experiment in which the researcher
 and fellow subject switched roles so that it was the researcher who was
 strapped into the chair and the fellow subject who ordered the Teacher
 to continue—over the protests of the researcher. Again, not one subject
@@ -7203,14 +6506,10 @@ Robert B. Cialdini Ph.D / 161
 ended the shocks. As in the other experimental variations, such a result
 would hardly be expected had the subjects’ motivations involved some
 form of sadism or neurotic aggressiveness.2
-To Milgram’s mind, evidence of a chilling phenomenon emerges re-
-peatedly from his accumulated data: “It is the extreme willingness of
+To Milgram’s mind, evidence of a chilling phenomenon emerges repeatedly from his accumulated data: “It is the extreme willingness of
 adults to go to almost any lengths on the command of an authority that
-constitutes the chief finding of the study.” There are sobering implica-
-tions of this finding for those concerned about the ability of another
-form of authority—government—to extract frightening levels of obed-
-ience from ordinary citizens.3 Furthermore, the finding tells us some-
-thing about the sheer strength of authority pressures in controlling our
+constitutes the chief finding of the study.” There are sobering implications of this finding for those concerned about the ability of another
+form of authority—government—to extract frightening levels of obedience from ordinary citizens.3 Furthermore, the finding tells us something about the sheer strength of authority pressures in controlling our
 behavior. After witnessing Milgram’s subjects squirming and sweating
 and suffering at their task, could anyone doubt the power of the force
 that held them there?
@@ -7218,8 +6517,7 @@ For those whose doubts remain, the story of S. Brian Willson might
 prove instructive. On September 1, 1987, to protest U.S. shipments of
 military equipment to Nicaragua, Mr. Willson and two other men
 stretched their bodies across the railroad tracks leading out of the
-Concord, California, Naval Weapons Station. The protesters were con-
-fident that their act would halt the scheduled train’s progress that day,
+Concord, California, Naval Weapons Station. The protesters were confident that their act would halt the scheduled train’s progress that day,
 as they had notified Navy and railroad officials of their intent three
 days before. But the civilian crew, which had been given orders not to
 stop, never even slowed the train, despite being able to see the protesters
@@ -7249,24 +6547,20 @@ it is natural to expect that good reasons exist for the motivation. In the
 case of obedience to authority, even a brief consideration of human social
 organization offers justification aplenty. A multilayered and widely
 accepted system of authority confers an immense advantage upon a
-society. It allows the development of sophisticated structures for re-
-source production, trade, defense, expansion, and social control that
+society. It allows the development of sophisticated structures for resource production, trade, defense, expansion, and social control that
 would otherwise be impossible. The other alternative, anarchy, is a state
 that is hardly known for its beneficial effects on cultural groups and
 one that the social philosopher Thomas Hobbes assures us would render
 life “solitary, poor, nasty, brutish, and short.” Consequently, we are
-trained from birth that obedience to proper authority is right and dis-
-obedience is wrong. The essential message fills the parental lessons,
+trained from birth that obedience to proper authority is right and disobedience is wrong. The essential message fills the parental lessons,
 the schoolhouse rhymes, stories, and songs of our childhood and is
 carried forward in the legal, military, and political systems we encounter
-as adults. Notions of submission and loyalty to legitimate rule are ac-
-corded much value in each.
+as adults. Notions of submission and loyalty to legitimate rule are accorded much value in each.
 Religious instruction contributes as well. The very first book of the
 Bible, for example, describes how failure to obey the ultimate authority
 produced the loss of paradise for Adam, Eve, and the rest of the human
 race. Should that particular metaphor prove too subtle, just a bit further
-into the Old Testament we can read—in what might be the closest bib-
-lical representation of the Milgram experiment—the respectful account
+into the Old Testament we can read—in what might be the closest biblical representation of the Milgram experiment—the respectful account
 of Abraham’s willingness to plunge a dagger through the heart of his
 young son, because God, without any explanation, ordered it. We learn
 it this story that the correctness of an action was not adjudged by such
@@ -7277,11 +6571,9 @@ Milgram’s subjects, who perhaps had learned an early lesson from
 him—passed.
 Stories like those of Abraham and Milgram’s subjects can tell us much
 about the power of and value for obedience in our culture. In another
-sense, however, they may be misleading as to the way obedience typic-
-ally occurs. We rarely agonize to such a degree over the pros and cons
+sense, however, they may be misleading as to the way obedience typically occurs. We rarely agonize to such a degree over the pros and cons
 of authority’s demands. In fact, our obedience frequently takes place
-in a click, whirr fashion, with little or no conscious deliberation. Inform-
-ation from a recognized authority can provide us a valuable shortcut
+in a click, whirr fashion, with little or no conscious deliberation. Information from a recognized authority can provide us a valuable shortcut
 for deciding how to act in a situation.
 After all, as Milgram himself suggests, conforming to the dictates of
 authority figures has always had genuine practical advantages for us.
@@ -7293,26 +6585,20 @@ Robert B. Cialdini Ph.D / 163
 
 rewards and punishments. As adults, the same benefits persist for the
 same reasons, though the authority figures now appear as employers,
-judges, and government leaders. Because their positions speak of super-
-ior access to information and power, it makes great sense to comply
+judges, and government leaders. Because their positions speak of superior access to information and power, it makes great sense to comply
 with the wishes of properly constituted authorities. It makes so much
 sense, in fact, that we often do so when it makes no sense at all.
 This paradox is, of course, the same one that attends all major
 weapons of influence. In this instance, once we realize that obedience
-to authority is mostly rewarding, it is easy to allow ourselves the con-
-venience of automatic obedience. The simultaneous blessing and bane
+to authority is mostly rewarding, it is easy to allow ourselves the convenience of automatic obedience. The simultaneous blessing and bane
 of such blind obedience is its mechanical character. We don’t have to
 think; therefore, we don’t. Although such mindless obedience leads us
-to appropriate action in the great majority of cases, there will be con-
-spicuous exceptions—because we are reacting rather than thinking.
+to appropriate action in the great majority of cases, there will be conspicuous exceptions—because we are reacting rather than thinking.
 Let’s take an example from one facet of our lives where authority
-pressures are visible and strong: medicine. Health is enormously im-
-portant to us. Thus, physicians, who possess large amounts of know-
-ledge and influence in this vital area, hold the position of respected
+pressures are visible and strong: medicine. Health is enormously important to us. Thus, physicians, who possess large amounts of knowledge and influence in this vital area, hold the position of respected
 authorities. In addition, the medical establishment has a clearly terraced
 power and prestige structure. The various kinds of health workers well
-understand the level of their jobs in this structure; and they well under-
-stand, too, that the M.D. sits at the top. No one may overrule the doctor’s
+understand the level of their jobs in this structure; and they well understand, too, that the M.D. sits at the top. No one may overrule the doctor’s
 judgment in a case, except perhaps, another doctor of higher rank. As
 a consequence, a long-established tradition of automatic obedience to
 a doctor’s orders has developed among health-care staffs.
@@ -7322,18 +6608,13 @@ it—precisely because, once a legitimate authority has given an order,
 subordinates stop thinking in the situation and start reacting. Mix this
 kind of click, whirr response into a complex hospital environment and
 mistakes are certain. Indeed a study done in the early 1980s by the U.S.
-Health Care Financing Administration showed that, for patient medic-
-ation alone, the average hospital had a 12 percent daily error rate. A
-decade later, things had not improved: According to a Harvard Univer-
-sity study, 10 percent of all cardiac arrests in hospitals are attributable
+Health Care Financing Administration showed that, for patient medication alone, the average hospital had a 12 percent daily error rate. A
+decade later, things had not improved: According to a Harvard University study, 10 percent of all cardiac arrests in hospitals are attributable
 to medication errors. Errors in the medicine patients receive can occur
 for a variety of reasons. However, a book entitled Medication Errors:
-Causes and Prevention by two Temple University pharmacology profess-
-ors, Michael Cohen and Neil Davis, attributes much of the problem to
-the mindless deference given the “boss” of the patient’s case: the attend-
-ing physician. According to Professor Cohen, “in case after case, patients,
-nurses, pharmacists, and other physicians do not question the prescrip-
-tion.” Take, for example, the strange case of the “rectal earache” reported
+Causes and Prevention by two Temple University pharmacology professors, Michael Cohen and Neil Davis, attributes much of the problem to
+the mindless deference given the “boss” of the patient’s case: the attending physician. According to Professor Cohen, “in case after case, patients,
+nurses, pharmacists, and other physicians do not question the prescription.” Take, for example, the strange case of the “rectal earache” reported
 164 / Influence
 
 
@@ -7341,8 +6622,7 @@ by Cohen and Davis. A physician ordered ear drops to be administered
 to the right ear of a patient suffering pain and infection there. But instead
 of writing out completely the location “right ear” on the prescription,
 the doctor abbreviated it so that the instructions read “place in R ear.”
-Upon receiving the prescription, the duty nurse promptly put the re-
-quired number of ear drops into the patient’s anus.
+Upon receiving the prescription, the duty nurse promptly put the required number of ear drops into the patient’s anus.
 Obviously, rectal treatment of an earache made no sense. Yet neither
 the patient nor the nurse questioned it. The important lesson of this
 story is that in many situations where a legitimate authority has spoken,
@@ -7358,8 +6638,7 @@ behalf of the product. My favorite example is a TV commercial featuring
 actor Robert Young counseling people against the dangers of caffeine
 and recommending caffeine-free Sanka Brand coffee. The commercial
 was highly successful, selling so much coffee that it was played for
-years in several versions. But why should this commercial prove so ef-
-fective? Why on earth would we take Robert Young’s word for the
+years in several versions. But why should this commercial prove so effective? Why on earth would we take Robert Young’s word for the
 health consequences of decaffeinated coffee? Because—as the advertising
 agency that hired him knew perfectly well—he is associated in the
 minds of the American public with Marcus Welby, M.D., the role he
@@ -7375,34 +6654,25 @@ appearance of authority was enough. This tells us something important
 about unthinking reactions to authority figures. When in a click, whirr
 mode, we are often as vulnerable to the symbols of authority as to the
 substance.
-There are several kinds of symbols that can reliably trigger our com-
-pliance in the absence of the genuine substance of authority. Con-
-sequently, they are employed extensively by those compliance profes-
-Robert B. Cialdini Ph.D / 165
+There are several kinds of symbols that can reliably trigger our compliance in the absence of the genuine substance of authority. Consequently, they are employed extensively by those compliance profesRobert B. Cialdini Ph.D / 165
 
 
 sionals who are short on substance. Con artists, for example, drape
 themselves with the titles, clothes, and trappings of authority. They
-love nothing more than to emerge elegantly dressed from a fine auto-
-mobile and to introduce themselves to their prospective “mark” as
-Doctor or Judge or Professor or Commissioner Someone. They under-
-stand that when they are so equipped, their chances for compliance are
+love nothing more than to emerge elegantly dressed from a fine automobile and to introduce themselves to their prospective “mark” as
+Doctor or Judge or Professor or Commissioner Someone. They understand that when they are so equipped, their chances for compliance are
 greatly increased. Each of these three types of symbols of authority has
 its own story and is worth a separate look.
 Titles
 Titles are simultaneously the most difficult and the easiest symbols of
 authority to acquire. To earn one normally takes years of work and
 achievement. Yet it is possible for somebody who has put in none of
-this effort to adopt the mere label and receive a kind of automatic defer-
-ence. As we have seen, TV-commercial actors and con artists do it suc-
-cessfully all the time.
+this effort to adopt the mere label and receive a kind of automatic deference. As we have seen, TV-commercial actors and con artists do it successfully all the time.
 I recently talked with a friend—a faculty member at a well-known
-eastern university—who provided a telling illustration of how our ac-
-tions are frequently more influenced by a title than by the nature of the
+eastern university—who provided a telling illustration of how our actions are frequently more influenced by a title than by the nature of the
 person claiming it. My friend travels quite a bit and often finds himself
 chatting with strangers in bars, restaurants, and airports. He says that
-he has learned through much experience never to use his title—profess-
-or—during these conversations. When he does, he reports, the tenor of
+he has learned through much experience never to use his title—professor—during these conversations. When he does, he reports, the tenor of
 the interaction changes immediately. People who have been spontaneous
 and interesting conversation partners for the prior half hour become
 respectful, accepting, and dull. His opinions that earlier might have
@@ -7414,8 +6684,7 @@ regularly lies about his occupation in such situations.
 What a refreshing shift from the more typical pattern in which certain
 compliance practitioners lie about titles they don’t truly have. In either
 direction, however, such practiced dishonesty makes the same point
-about the sufficiency of a mere symbol of authority to influence behavi-
-or.
+about the sufficiency of a mere symbol of authority to influence behavior.
 I wonder whether my professor friend—who is physically somewhat
 short—would be so eager to hide his title if he knew that, besides
 making strangers more accommodating, it also makes them see him as
@@ -7426,28 +6695,22 @@ distortions. In one experiment conducted on five classes of Australian
 
 
 college students, a man was introduced as a visitor from Cambridge
-University in England. However, his status at Cambridge was repres-
-ented differently in each of the classes. To one class, he was presented
+University in England. However, his status at Cambridge was represented differently in each of the classes. To one class, he was presented
 as a student; to a second class, a demonstrator; to another, a lecturer;
 to yet another, a senior lecturer; to a fifth, a professor. After he left the
 room, each class was asked to estimate his height. It was found that
 with each increase in status, the same man grew in perceived height by
 an average of a half inch, so that as the “professor” he was seen as two
 and a half inches taller than as the “student.”5
-It is worth the time of a small detour to pursue this interesting con-
-nection between status and perceived size, since it shows up in a variety
-of ways. In judging the size of coins, for example, children most overes-
-timate the size of the more valuable coins. And adults are just as guilty
+It is worth the time of a small detour to pursue this interesting connection between status and perceived size, since it shows up in a variety
+of ways. In judging the size of coins, for example, children most overestimate the size of the more valuable coins. And adults are just as guilty
 of such distortions. In one study, college students drew cards that had
 monetary values printed on them ranging from $3.00 to –$3.00; they
 won or lost the amount shown on the cards they picked. Afterward,
 they were asked to rate the size of each card. Even though all cards
-were exactly the same size, those that had the more extreme values—pos-
-itive or negative—were seen as physically larger. Thus it is not neces-
-sarily the pleasantness of a thing that makes it seem bigger to us, it is
+were exactly the same size, those that had the more extreme values—positive or negative—were seen as physically larger. Thus it is not necessarily the pleasantness of a thing that makes it seem bigger to us, it is
 its importance.6
-Because we see size and status as related, it is possible for certain in-
-dividuals to benefit by substituting the former for the latter. In some
+Because we see size and status as related, it is possible for certain individuals to benefit by substituting the former for the latter. In some
 animal societies, where the status of a male is assigned on the basis of
 dominance, size is an important factor in determining which male will
 achieve which status level in the group.7 Usually, in combat with a
@@ -7457,9 +6720,7 @@ have adopted methods that frequently involve more form than fracas.
 The two males confront each other with showy aggression displays that
 invariably include size-enhancing tricks. Various mammals arch their
 backs and bristle their coats; fish extend their fins and puff themselves
-up with water; birds unfurl and flutter their wings. Very often, this ex-
-hibition alone is enough to send one of the histrionic warriors into re-
-treat, leaving the contested status position to his seemingly larger and
+up with water; birds unfurl and flutter their wings. Very often, this exhibition alone is enough to send one of the histrionic warriors into retreat, leaving the contested status position to his seemingly larger and
 stronger rival.
 Fur, fins, and feathers. Isn’t it interesting how these most delicate of
 parts can be exploited to give the impression of substance and weight?
@@ -7474,8 +6735,7 @@ those of average or slightly above-average height, commonly wear lifts
 in their shoes.
 The other lesson is more general: The outward signs of power and
 authority frequently may be counterfeited with the flimsiest of materials.
-Let’s return to the realm of titles for an example—an example that in-
-volves what, in several ways, is the scariest experiment I know. A group
+Let’s return to the realm of titles for an example—an example that involves what, in several ways, is the scariest experiment I know. A group
 of researchers, composed of doctors and nurses with connections to
 three midwestern hospitals, became increasingly concerned with the
 extent of mechanical obedience to doctors’ orders on the part of nurses.
@@ -7518,8 +6778,7 @@ nurses complied unhesitatingly with a patently improper instruction
 
 of this sort must give us all great reason for concern as potential hospital
 patients. Given the recent U.S. Health Care Financing Administration
-estimate of a 12 percent daily-medication error rate in American hospit-
-als, stays of longer than a week make it likely that we will be recipients
+estimate of a 12 percent daily-medication error rate in American hospitals, stays of longer than a week make it likely that we will be recipients
 of such an error. What the midwestern study shows is that the mistakes
 are hardly limited to trivial slips in the administration of harmless ear
 drops or the like, but extend to grave and dangerous blunders.
@@ -7527,21 +6786,17 @@ In interpreting their unsettling findings, the researchers came to an
 instructive conclusion:
 In a real-life situation corresponding to the experimental one, there
 would, in theory, be two professional intelligences, the doctor’s
-and the nurse’s, working to ensure that a given procedure be un-
-dertaken in a manner beneficial to the patient or, at the very least,
-not detrimental to him. The experiment strongly suggests, how-
-ever, that one of these intelligences is, for all practical purposes,
+and the nurse’s, working to ensure that a given procedure be undertaken in a manner beneficial to the patient or, at the very least,
+not detrimental to him. The experiment strongly suggests, however, that one of these intelligences is, for all practical purposes,
 nonfunctioning.8
-It seems that, in the face of a physician’s directives, the nurses un-
-hooked their “professional intelligences” and moved to a click, whirr
+It seems that, in the face of a physician’s directives, the nurses unhooked their “professional intelligences” and moved to a click, whirr
 form of responding. None of their considerable medical training or
 knowledge was engaged in the decision of what to do. Instead, because
 obedience to legitimate authority had always been the most preferred
 and efficient action in their work setting, they had become willing to
 err on the side of automatic obedience. It is all the more instructive that
 they had traveled so far in this direction that their error had come not
-in response to genuine authority but to its most easily falsified sym-
-bol—a bare title.9
+in response to genuine authority but to its most easily falsified symbol—a bare title.9
 Clothes
 A second kind of authority symbol that can trigger our mechanical
 compliance is clothing. Though more tangible than a title, the cloak of
@@ -7552,8 +6807,7 @@ blue that the situation requires for maximum advantage. Only too late
 do their victims realize that the garb of authority is hardly its guarantee.
 A series of studies by social psychologist Leonard Bickman gives an
 indication of how difficult it can be to resist requests that come from
-figures in authority attire. Bickman’s basic procedure was to ask pass-
-ersby on the street to comply with some sort of odd request (to pick up
+figures in authority attire. Bickman’s basic procedure was to ask passersby on the street to comply with some sort of odd request (to pick up
 a discarded paper bag, to stand on the other side of a bus-stop sign). In
 half of the instances, the requester—a young man—was dressed in
 Robert B. Cialdini Ph.D / 169
@@ -7569,18 +6823,14 @@ or as a security guard, always said the same thing to the pedestrian:
 “You see that guy over there by the meter? He’s overparked but doesn’t
 have any change. Give him a dime!” The requester then turned a corner
 and walked away so that by the time the pedestrian reached the meter,
-the requester was out of sight. The power of his uniform lasted, how-
-ever, even after he was long gone: Nearly all the pedestrians complied
+the requester was out of sight. The power of his uniform lasted, however, even after he was long gone: Nearly all the pedestrians complied
 with his directive when he had worn the guard costume, but fewer than
 half did so when he had dressed normally. It is interesting to note that
 later on, Bickman found college students able to guess with considerable
-accuracy the percentage of compliance that had occurred in the experi-
-ment when the requester wore street clothes (50 percent vs. the actual
+accuracy the percentage of compliance that had occurred in the experiment when the requester wore street clothes (50 percent vs. the actual
 42 percent); yet the students greatly underestimated the percentage of
-compliance when he was in uniform (63 percent vs. the actual 92 per-
-cent).10
-Less blatant in its connotation than a uniform, but nonetheless effect-
-ive, is another kind of attire that has traditionally bespoken authority
+compliance when he was in uniform (63 percent vs. the actual 92 percent).10
+Less blatant in its connotation than a uniform, but nonetheless effective, is another kind of attire that has traditionally bespoken authority
 status in our culture: the well-tailored business suit. It, too, can evoke
 a telling form of deference from total strangers. Research conducted in
 Texas, for instance, arranged for a thirty-one-year-old man to violate
@@ -7595,8 +6845,7 @@ behind the suited jaywalker. In this case, though, the magic came not
 from his pipe but his pinstripes.11
 It is noteworthy that the two types of authority apparel shown by
 the above research to be influential—the guard uniform and business
-suit—are combined deftly by confidence men in a fraud called the bank-
-examiner scheme. The target of the swindle can be anyone, but elderly
+suit—are combined deftly by confidence men in a fraud called the bankexaminer scheme. The target of the swindle can be anyone, but elderly
 persons living alone are preferred. The con begins when a man dressed
 in a properly conservative three-piece business suit appears at the door
 of a likely victim. Everything about his clothing sends a message of
@@ -7609,20 +6858,16 @@ inches wide—no more, no less; the cloth is heavy and substantial, even
 in July; the tones are muted, business blue, business gray, business
 black.
 He explains to his intended victim—perhaps a widow he secretly
-followed home from the bank a day or two earlier—that he is a profes-
-sional bank examiner who, in the course of auditing the books of her
+followed home from the bank a day or two earlier—that he is a professional bank examiner who, in the course of auditing the books of her
 bank, has found some seeming irregularities. He thinks he has spotted
-the culprit, a bank officer who is regularly doctoring reports of transac-
-tions in certain accounts. He says that the widow’s account may be one
+the culprit, a bank officer who is regularly doctoring reports of transactions in certain accounts. He says that the widow’s account may be one
 of these, but he can’t be sure until he has hard evidence. Therefore, he
 has come to ask for her cooperation. Would she help out by withdrawing
 her savings so a team of examiners and responsible bank officials can
 trace the record of the transaction as it passes across the suspect’s desk?
 Often the appearance and presentation of the “bank examiner” are
 so impressive that the victim never thinks to check on their validity
-with even a simple phone call. Instead, she drives to the bank, with-
-draws all her money, and returns home with it to wait with the “exam-
-iner” for word on the success of the trap. When the message comes, it
+with even a simple phone call. Instead, she drives to the bank, withdraws all her money, and returns home with it to wait with the “examiner” for word on the success of the trap. When the message comes, it
 is delivered by a uniformed bank guard, who arrives after closing hours
 to announce that all is well—apparently the widow’s account was not
 one of those being tampered with. Greatly relieved, the “examiner”
@@ -7656,29 +6901,23 @@ rammed into his rear bumper. So intimidating was the aura of the
 prestige automobile, however, that 50 percent of the motorists waited
 respectfully behind it, never touching their horns, until it drove on.12
 Later on, the researchers asked college students what they would
-have done in such situations. Compared to the true findings of the ex-
-periment, the students consistently underestimated the time it would
+have done in such situations. Compared to the true findings of the experiment, the students consistently underestimated the time it would
 take them to honk at the luxury car. The male students were especially
 inaccurate, feeling that they would honk faster at the prestige- than the
 economy-car driver; of course, the study itself showed just the opposite.
 Note the similarity of this pattern to much other research on authority
 pressures. As in Milgram’s research, the midwestern hospital-nurses’
 study, and the security-guard-uniform experiment, people were unable
-to predict correctly how they or others would react to authority influ-
-ence. In each instance, the effect of such influence was grossly underes-
-timated. This property of authority status may account for much of its
+to predict correctly how they or others would react to authority influence. In each instance, the effect of such influence was grossly underestimated. This property of authority status may account for much of its
 success as a compliance device. Not only does it work forcefully on us,
 but it also does so unexpectedly.
 HOW TO SAY NO
 One protective tactic we can use against authority status is to remove
 its element of surprise. Because we typically misperceive the profound
-impact of authority (and its symbols) on our actions, we are at the dis-
-advantage of being insufficiently cautious about its presence in compli-
-ance situations. A fundamental form of defense against this problem,
+impact of authority (and its symbols) on our actions, we are at the disadvantage of being insufficiently cautious about its presence in compliance situations. A fundamental form of defense against this problem,
 therefore, is a heightened awareness of authority power. When this
 awareness is coupled with a recognition of how easily authority symbols
-can be faked, the benefit will be a properly guarded approach to situ-
-ations involving authority-influence attempts.
+can be faked, the benefit will be a properly guarded approach to situations involving authority-influence attempts.
 Sounds simple, right? And in a way it is. A better understanding of
 the workings of authority influence should help us resist it. Yet there
 is a perverse complication—the familiar one inherent in all weapons of
@@ -7713,9 +6952,7 @@ device of playacting. We all know that, too. But isn’t it fascinating how,
 when we are whirring along, what is obvious often doesn’t matter unless
 we pay specific attention to it?
 That is why the “Is this authority truly an expert?” question can be
-so valuable: It brings our attention to the obvious. It channels us effort-
-lessly away from a focus on possibly meaningless symbols to a consid-
-eration of genuine authority credentials. What’s more, the question
+so valuable: It brings our attention to the obvious. It channels us effortlessly away from a focus on possibly meaningless symbols to a consideration of genuine authority credentials. What’s more, the question
 impels us to distinguish between relevant authorities and irrelevant
 authorities. And this is a distinction that is easy to forget when the push
 of authority pressure is combined with the rush of modern life. The
@@ -7748,22 +6985,19 @@ We allow ourselves to be much more swayed by experts who seem to
 be impartial than by those who have something to gain by convincing
 us; and this has been shown by research to be true around the world.13
 By wondering how an expert stands to benefit from our compliance,
-we give ourselves another safety net against undue and automatic in-
-fluence. Even knowledgeable authorities in a field will not persuade
+we give ourselves another safety net against undue and automatic influence. Even knowledgeable authorities in a field will not persuade
 us until we are satisfied that their messages represent the facts faithfully.
 When asking ourselves about such a person’s trustworthiness, we
 should keep in mind a little tactic compliance practitioners often use
 to assure us of their sincerity: They will seem to argue to a degree against
 their own interests. Correctly done, this can be a subtly effective device
-for proving their honesty. Perhaps they will mention a small shortcom-
-ing in their position or product (“Oh, the disadvantages of Benson &
+for proving their honesty. Perhaps they will mention a small shortcoming in their position or product (“Oh, the disadvantages of Benson &
 Hedges”). Invariably, though, the drawback will be a secondary one
 that is easily overcome by more significant advantages—“Listerine, the
 taste you hate three times a day”; “Avis: We’re number two, but we try
 harder”; “L’Oréal, a bit more expensive and worth it.” By establishing
 their basic truthfulness on minor issues, the compliance professionals
-who use this ploy can then be more believable when stressing the im-
-portant aspects of their argument.14
+who use this ploy can then be more believable when stressing the important aspects of their argument.14
 I have seen this approach used with devastating effect in a place that
 few of us recognize as a compliance setting: the restaurant. It is no secret
 that because of shamelessly low wages, servers in restaurants must
@@ -7788,9 +7022,7 @@ for anyone else; in fact, the other servers were not even close to him in
 weekly earnings.
 So I began to linger in my duties around Vincent’s tables to observe
 his style. I quickly learned that his style was to have no single style. He
-had a repertoire of them, each ready to be called on under the appropri-
-ate circumstances. When the customers were a family, he was efferves-
-cent—even slightly clownish—directing his remarks as often to the
+had a repertoire of them, each ready to be called on under the appropriate circumstances. When the customers were a family, he was effervescent—even slightly clownish—directing his remarks as often to the
 children as to the adults. With a young couple on a date, he became
 formal and a bit imperious in an attempt to intimidate the young man
 (to whom he spoke exclusively) into ordering and tipping lavishly.
@@ -7809,8 +7041,7 @@ to hear, “I’m afraid that is not as good tonight as it normally is. Might
 I recommend instead the____or the____?” (Here Vincent suggested a
 pair of menu items that were fifty cents or so less expensive than the
 dish the patron had selected initially.) “They are both excellent tonight.”
-With this single maneuver, Vincent engaged several important prin-
-ciples of influence. First, even those who did not take his suggestions
+With this single maneuver, Vincent engaged several important principles of influence. First, even those who did not take his suggestions
 felt that Vincent had done them a favor by offering valuable information
 to help them order. Everyone felt grateful, and consequently the rule
 for reciprocity would work in his favor when it came time to decide on
@@ -7825,14 +7056,12 @@ ordered. Rather than trying to line his own pockets, he seemed to have
 the customers’ best interests at heart.
 To all appearances, he was at once knowledgeable and honest, a
 combination that gave him great credibility. And Vincent was quick to
-exploit the advantage of this credible image. When the party had fin-
-Robert B. Cialdini Ph.D / 175
+exploit the advantage of this credible image. When the party had finRobert B. Cialdini Ph.D / 175
 
 
 ished giving their food orders, he would say, “Very well, and would
 you like me to suggest or select some wine to go with your meals?” As
-I watched the scene repeated almost nightly, there was a notable con-
-sistency to the customers’ reactions—smiles, nods, and for the most
+I watched the scene repeated almost nightly, there was a notable consistency to the customers’ reactions—smiles, nods, and for the most
 part, general assent.
 Even from the distance of my vantage point, one could read their
 thoughts from their faces. “Sure,” they seemed to say, “you know what’s
@@ -7842,15 +7071,13 @@ with some excellent (and costly) choices. He was similarly persuasive
 when it came time for dessert decisions. Patrons who otherwise would
 have passed up the dessert course or shared with a friend were swayed
 to partake fully by Vincent’s rapturous descriptions of the Baked Alaska
-and chocolate mousse. Who, after all, is more believable than a demon-
-strated expert of proven sincerity?
+and chocolate mousse. Who, after all, is more believable than a demonstrated expert of proven sincerity?
 By combining the factors of reciprocity and credible authority into a
 single, elegant maneuver, Vincent was able to inflate substantially both
 the percentage of his tip and the base charge on which it was figured.
 His proceeds from this trick were handsome, indeed. But notice that
 much of his profit came from an apparent lack of concern for personal
-profit. Seeming to argue against his financial interests served those in-
-terests extremely well.
+profit. Seeming to argue against his financial interests served those interests extremely well.
 READER’S REPORT
 From a Young Businessman
 “About two years ago, I was trying to sell my old car because I’d already
@@ -7859,16 +7086,14 @@ WE WILL SELL YOUR CAR FOR MORE. Just what I wanted, I thought; so I
 stopped in to talk with the owner. I told him I wanted to get about three
 thousand dollars for my old car, and he said he thought I should be
 asking for a lot more because it was worth at least thirty-five-hundred
-dollars. This came as a real surprise to me, because the way their con-
-signment system worked, the larger my asking price for the car, the
+dollars. This came as a real surprise to me, because the way their consignment system worked, the larger my asking price for the car, the
 less money was left over for them to keep after they sold it to somebody.
 Therefore, by telling me to ask for more than three thousand dollars,
 they were cutting off their own profits. Just like your Vincent-the-waiter
 example, they were seeming to argue against their own interests so I’d
 see them as trustworthy authorities; but I didn’t realize this until much
 later. Anyway, I went along with the owner’s idea that my car was
-worth more than I’d first thought, and I set my asking price at thirty-
-five-hundred dollars.
+worth more than I’d first thought, and I set my asking price at thirtyfive-hundred dollars.
 “After they’d had my car on their lot for a couple of days, they called
 176 / Influence
 
@@ -7914,8 +7139,7 @@ told of a special inner sector of Mormon temples to which no one has
 access but faithful members of the Church. Even potential converts
 must not see it. There is one exception to the rule, however. For a few
 days immediately after a temple is newly constructed, nonmembers
-are allowed to tour the entire structure, including the otherwise restric-
-ted section.
+are allowed to tour the entire structure, including the otherwise restricted section.
 The newspaper story reported that the Mesa temple had recently
 been refurbished and that the renovations had been extensive enough
 to classify it as “new” by Church standards. Thus, for the next several
@@ -7940,8 +7164,7 @@ become decidedly more attractive merely because it would soon become
 unavailable.
 Since that encounter with the scarcity principle—that opportunities
 seem more valuable to us when their availability is limited—I have
-begun to notice its influence over a whole range of my actions. For in-
-stance, I routinely will interrupt an interesting face-to-face conversation
+begun to notice its influence over a whole range of my actions. For instance, I routinely will interrupt an interesting face-to-face conversation
 to answer the ring of an unknown caller. In such a situation, the caller
 has a compelling feature that my face-to-face partner does not: potential
 unavailability. If I don’t take the call, I might miss it (and the information
@@ -7955,10 +7178,8 @@ In fact, people seem to be more motivated by the thought of losing
 something than by the thought of gaining something of equal value.
 For instance, homeowners told how much money they could lose from
 inadequate insulation are more likely to insulate their homes than those
-told how much money they could save. Similar results have been ob-
-tained by health researchers: Pamphlets urging young women to check
-for breast cancer through self-examinations are significantly more suc-
-cessful if they state their case in terms of what stands to be lost (e.g.,
+told how much money they could save. Similar results have been obtained by health researchers: Pamphlets urging young women to check
+for breast cancer through self-examinations are significantly more successful if they state their case in terms of what stands to be lost (e.g.,
 “You can lose several potential health benefits by failing to spend only
 five minutes each month doing breast self-examination”) rather than
 gained (e.g., “You can gain several potential health benefits by spending
@@ -7987,26 +7208,21 @@ compliance strategies by infiltrating various organizations, I saw the
 limited-number tactic employed repeatedly in a range of situations:
 “There aren’t more than five convertibles with this engine left in the
 state. And when they’re gone, that’s it, ’cause we’re not making ’em
-anymore.” “This is one of only two unsold corner lots in the entire de-
-velopment. You wouldn’t want the other one; it’s got a nasty east-west
+anymore.” “This is one of only two unsold corner lots in the entire development. You wouldn’t want the other one; it’s got a nasty east-west
 exposure.” “You may want to think seriously about buying more than
 one case today because production is backed way up and there’s no
 telling when we’ll get any more in.”
 Sometimes the limited-number information was true, sometimes it
-was wholly false. But in each instance, the intent was to convince cus-
-tomers of an item’s scarcity and thereby increase its immediate value
+was wholly false. But in each instance, the intent was to convince customers of an item’s scarcity and thereby increase its immediate value
 in their eyes. I admit to developing a grudging admiration for the
 practitioners who made this simple device work in a multitude of ways
 and styles. I was most impressed, however, with a particular version
 that extended the basic approach to its logical extreme by selling a piece
 of merchandise at its scarcest point—when it seemingly could no longer
-be had. The tactic was played to perfection in one appliance store I in-
-vestigated, where 30 to 50 percent of the stock was regularly listed as
+be had. The tactic was played to perfection in one appliance store I investigated, where 30 to 50 percent of the stock was regularly listed as
 on sale. Suppose a couple in the store seemed from a distance to be
 moderately interested in a certain sale item. There are all sorts of cues
-that tip off such interest—closer-than-normal examination of the appli-
-ance, a casual look at any instruction booklets associated with the ap-
-pliance, discussions held in front of the appliance, but no attempt to
+that tip off such interest—closer-than-normal examination of the appliance, a casual look at any instruction booklets associated with the appliance, discussions held in front of the appliance, but no attempt to
 seek out a salesperson for further information. After observing the
 couple so engaged, a salesperson might approach and say, “I see you’re
 interested in this model here, and I can understand why; it’s a great
@@ -8028,20 +7244,16 @@ to commit to buying the appliance when it looks least available—and
 therefore most desirable. Many customers do agree to a purchase at
 this singularly vulnerable time. Thus, when the salesperson (invariably)
 returns with the news that an additional supply of the appliance has
-been found, it is also with a pen and sales contract in hand. The inform-
-ation that the desired model is in good supply may actually make some
-customers find it less attractive again.2 But by then, the business trans-
-action has progressed too far for most people to renege. The purchase
+been found, it is also with a pen and sales contract in hand. The information that the desired model is in good supply may actually make some
+customers find it less attractive again.2 But by then, the business transaction has progressed too far for most people to renege. The purchase
 decision made and committed to publicly at an earlier, crucial point
 still holds. They buy.
 Related to the limited-number technique is the “deadline” tactic, in
 which some official time limit is placed on the customer’s opportunity
-to get what the compliance professional is offering. Much like my ex-
-perience with the Mormon temple’s inner sanctum, people frequently
+to get what the compliance professional is offering. Much like my experience with the Mormon temple’s inner sanctum, people frequently
 find themselves doing what they wouldn’t particularly care to do simply
 because the time to do so is shrinking. The adept merchandiser makes
-this tendency pay off by arranging and publicizing customer dead-
-lines—witness the collage of such newspaper ads in Figure 7–3—that
+this tendency pay off by arranging and publicizing customer deadlines—witness the collage of such newspaper ads in Figure 7–3—that
 generate interest where none may have existed before. Concentrated
 instances of this approach often occur in movie advertising. In fact, I
 recently noticed that one theater owner, with remarkable singleness of
@@ -8051,8 +7263,7 @@ soon!”
 Swindled
 By Peter Kerr
 New York Times
-NEW YORK—Daniel Gulban doesn’t remember how his life savings disap-
-peared.
+NEW YORK—Daniel Gulban doesn’t remember how his life savings disappeared.
 He remembers the smooth voice of a salesman on the telephone. He remembers
 dreaming of a fortune in oil and silver futures. But to this day, the 81-year-old retired
 utility worker does not understand how swindlers convinced him to part with
@@ -8071,8 +7282,7 @@ customers, according to a U.S. Senate subcommittee on investigations, which issu
 a report on the subject last year.
 “They use an impressive Wall Street address, lies and deception to get individuals
 to sink their money into various glamorous-sounding schemes,” said Robert Abrams,
-the New York State attorney general, who has pursued more than a dozen boiler-
-room cases in the past four years. “The victims are sometimes persuaded to invest
+the New York State attorney general, who has pursued more than a dozen boilerroom cases in the past four years. “The victims are sometimes persuaded to invest
 the savings of a lifetime.”
 Orestes J. Mihaly, the New York assistant attorney general in charge of the bureau
 of investor protection and securities, said the companies often operate in three
@@ -8090,8 +7300,7 @@ the third call and will tell the customer that he “just came off the trading f
 Such tactics convinced Gulban to part with his life savings. In 1979, a stranger
 called him repeatedly and convinced Gulban to wire $1,756 to New York to purchase
 silver, Gulban said. After another series of telephone calls the salesman cajoled
-Gulban into wiring more than $6,000 for crude oil. He eventually wired an addi-
-tional $9,740, but his profits never arrived.
+Gulban into wiring more than $6,000 for crude oil. He eventually wired an additional $9,740, but his profits never arrived.
 “My heart sank,” Gulban recalled. “I was not greedy. I just hoped I would see
 better days.” Gulban never recouped his losses.
 FIGURE 7-2
@@ -8114,27 +7323,22 @@ offered by the salesperson is good only for that one time; should the
 customer leave the premises, the deal is off. One large child-portrait
 photography company urges parents to buy as many poses and copies
 as they can afford because “stocking limitations force us to burn the
-unsold pictures of your children within twenty-four hours.” A door-to-
-door magazine solicitor might say that salespeople are in the customer’s
+unsold pictures of your children within twenty-four hours.” A door-todoor magazine solicitor might say that salespeople are in the customer’s
 area for just a day; after that, they—and the customer’s chance to buy
 their magazine package—will be long gone. A home vacuum-cleaner
 operation I infiltrated instructed its sales trainees to claim, “I have so
 many other people to see that I have the time to visit a family only once.
 It’s company policy that even if you decide later that you want this
-machine, I can’t come back and sell it to you.” This, of course, is non-
-sense; the company and its representatives are in the business of making
-sales, and any customer who called for another visit would be accom-
-modated gladly. As the company sales manager impressed on his
+machine, I can’t come back and sell it to you.” This, of course, is nonsense; the company and its representatives are in the business of making
+sales, and any customer who called for another visit would be accommodated gladly. As the company sales manager impressed on his
 trainees, the true purpose of the can’t-come-back claim has nothing to
-do with reducing overburdened sales schedules. It is to “keep the pro-
-spects from taking the time to think the deal over by scaring them into
+do with reducing overburdened sales schedules. It is to “keep the prospects from taking the time to think the deal over by scaring them into
 believing they can’t have it later, which makes them want it now.”
 PSYCHOLOGICAL REACTANCE
 The evidence, then, is clear. Compliance practitioners’ reliance on
 scarcity as a weapon of influence is frequent, wide-ranging, systematic,
 and diverse. Whenever such is the case with a weapon of influence, we
-can feel assured that the principle involved has notable power in direct-
-ing human action. In the instance of the scarcity principle, that power
+can feel assured that the principle involved has notable power in directing human action. In the instance of the scarcity principle, that power
 comes from two major sources. The first is familiar. Like the other
 weapons of influence, the scarcity principle trades on our weakness for
 shortcuts. The weakness is, as before, an enlightened one. In this case,
@@ -8153,13 +7357,11 @@ Last chance to read this now before you turn the page
 In addition, there is a unique, secondary source of power within the
 scarcity principle: As opportunities become less available, we lose
 freedoms; and we hate to lose the freedoms we already have. This desire
-to preserve our established prerogatives is the centerpiece of psycholo-
-gical reactance theory, developed by psychologist Jack Brehm to explain
+to preserve our established prerogatives is the centerpiece of psychological reactance theory, developed by psychologist Jack Brehm to explain
 the human response to diminishing personal control. According to the
 theory, whenever free choice is limited or threatened, the need to retain
 our freedoms makes us desire them (as well as the goods and services
-associated with them) significantly more than previously. So when in-
-creasing scarcity—or anything else—interferes with our prior access to
+associated with them) significantly more than previously. So when increasing scarcity—or anything else—interferes with our prior access to
 some item, we will react against the interference by wanting and trying
 to possess the item more than before.4
 As simple as the kernel of the theory seems, its shoots and roots curl
@@ -8182,37 +7384,30 @@ they do the opposite; give them one toy, they want another; pick them
 up against their will, they wriggle and squirm to be put down; put them
 down against their will, they claw and struggle to be carried.
 One Virginia-based study nicely captured the terrible twos style
-among boys who averaged twenty-four months in age. The boys accom-
-panied their mothers into a room containing two equally attractive toys.
+among boys who averaged twenty-four months in age. The boys accompanied their mothers into a room containing two equally attractive toys.
 The toys were always arranged so that one stood next to a transparent
 Plexiglas barrier and the other stood behind the barrier. For some of
-the boys, the Plexiglas sheet was only a foot tall—forming no real bar-
-rier to the toy behind, since the boys could easily reach over the top.
+the boys, the Plexiglas sheet was only a foot tall—forming no real barrier to the toy behind, since the boys could easily reach over the top.
 For the other boys, however, the Plexiglas was two feet tall, effectively
 blocking the boys’ access to one toy unless they went around the barrier.
 The researchers wanted to see how quickly the toddlers would make
 contact with the toys under these conditions. Their findings were clear.
 When the barrier was too small to restrict access to the toy behind it,
-the boys showed no special preference for either of the toys; on the av-
-erage, the toy next to the barrier was touched just as quickly as the one
+the boys showed no special preference for either of the toys; on the average, the toy next to the barrier was touched just as quickly as the one
 behind. But when the barrier was big enough to be a true obstacle, the
 boys went directly to the obstructed toy, making contact with it three
 times faster than with the unobstructed toy. In all, the boys in this study
 demonstrated the classic terrible twos’ response to a limitation of their
 freedom: outright defiance.5
-Why should psychological reactance emerge at the age of two? Per-
-haps the answer has to do with a crucial change that most children go
-through around this time. It is then that they first come to a full recog-
-nition of themselves as individuals. No longer do they view themselves
-as mere extensions of the social milieu but rather as identifiable, singu-
-lar, and separate.6 This developing concept of autonomy brings naturally
+Why should psychological reactance emerge at the age of two? Perhaps the answer has to do with a crucial change that most children go
+through around this time. It is then that they first come to a full recognition of themselves as individuals. No longer do they view themselves
+as mere extensions of the social milieu but rather as identifiable, singular, and separate.6 This developing concept of autonomy brings naturally
 with it the concept of freedom. An independent being is one with
 choices; and a child with the newfound realization that he or she is such
 a being will want to explore the length and breadth of the options.
 Perhaps we should be neither surprised nor distressed, then, when our
 two-year-olds strain incessantly against our will. They have come to a
-recent and exhilarating perspective on themselves as free-standing hu-
-man entities. Vital questions of volition, entitlements, and control now
+recent and exhilarating perspective on themselves as free-standing human entities. Vital questions of volition, entitlements, and control now
 Robert B. Cialdini Ph.D / 185
 
 
@@ -8223,18 +7418,13 @@ their freedoms (and coincidentally, the patience of their parents), the
 children are discovering where in their worlds they can expect to be
 controlled and where they can expect to be in control. As we will see
 later, the wise parent provides highly consistent information.
-Although the terrible twos may be the most noticeable age of psycho-
-logical reactance, we show the strong tendency to react against restric-
-tions on our freedoms of action throughout our lives. One other age
-does stand out, however, as a time when this tendency takes an espe-
-cially rebellious form: teenage. Like the twos, this is a period character-
-ized by an emerging sense of individuality. For teenagers, the emergence
+Although the terrible twos may be the most noticeable age of psychological reactance, we show the strong tendency to react against restrictions on our freedoms of action throughout our lives. One other age
+does stand out, however, as a time when this tendency takes an especially rebellious form: teenage. Like the twos, this is a period characterized by an emerging sense of individuality. For teenagers, the emergence
 is from the role of child, with all of its attendant parental control, and
 toward the role of adult, with all of its attendant rights and duties. Not
 surprisingly, adolescents tend to focus less on the duties than on the
 rights they feel they have as young adults. Not surprisingly, again,
-imposing traditional parental authority at these times is often counter-
-productive; the teenager will sneak, scheme, and fight to resist such
+imposing traditional parental authority at these times is often counterproductive; the teenager will sneak, scheme, and fight to resist such
 attempts at control.
 Nothing illustrates the boomerang quality of parental pressure on
 adolescent behavior quite so clearly as a phenomenon known as the
@@ -8247,8 +7437,7 @@ The intensity of the couple’s feelings and actions has always been a
 source of wonderment and puzzlement to observers of the play. How
 could such inordinate devotion develop so quickly in a pair so young?
 A romantic might suggest rare and perfect love. A social scientist,
-though, might point to the role of parental interference and the psycho-
-logical reactance it can produce. Perhaps the passion of Romeo and Juliet
+though, might point to the role of parental interference and the psychological reactance it can produce. Perhaps the passion of Romeo and Juliet
 was not initially so consuming that it transcended the extensive barriers
 erected by the families. Perhaps, instead, it was fueled to a white heat
 by the placement of those barriers. Could it be that had the youngsters
@@ -8264,16 +7453,14 @@ Romeos and Juliets. Do couples suffering parental interference react by
 committing themselves more firmly to the partnership and falling more
 deeply in love? According to a study done with 140 Colorado couples,
 that is exactly what they do. In fact, the researchers found that although
-parental interference was linked to some problems in the relation-
-ship—the partners viewed one another more critically and reported a
+parental interference was linked to some problems in the relationship—the partners viewed one another more critically and reported a
 greater number of negative behaviors in the other—that interference
 also made the pair feel greater love and desire for marriage. During the
 course of the study, as parental interference intensified, so did the love
 experience; and when the interference weakened, romantic feelings
 actually cooled.7
 Although the Romeo and Juliet effect among modern teenagers may
-seem cute—to outside observers—other manifestations of teenage re-
-actance can prove tragic. For more than a decade, the major message
+seem cute—to outside observers—other manifestations of teenage reactance can prove tragic. For more than a decade, the major message
 of a massive advertising campaign for Virginia Slims cigarettes has
 been that today’s women “have come a long way” from the old days
 when they were required by social norms to be subdued, proper, and
@@ -8283,8 +7470,7 @@ and, pointedly, on her freedom to smoke cigarettes. Has the message
 been successful in triggering defiance of the old strictures among the
 target audience? One dismaying statistic suggests a lamentable answer:
 During the lengthy duration of this campaign, the percentage of cigarette
-smokers has risen in only one U.S. demographic group—teenage wo-
-men.
+smokers has risen in only one U.S. demographic group—teenage women.
 For twos and teens, then, psychological reactance flows across the
 broad surface of experience, always turbulent and forceful. For most
 of the rest of us, the pool of reactant energy lies quiet and covered,
@@ -8294,8 +7480,7 @@ to the student of human behavior but to lawmakers and policymakers
 as well.
 For instance, there’s the odd case of Kennesaw, Georgia, the town
 that enacted a law requiring every adult resident to own a gun and
-ammunition, under penalty of six months in jail and a two-hundred-
-dollar fine. All the features of the Kennesaw gun law make it a prime
+ammunition, under penalty of six months in jail and a two-hundreddollar fine. All the features of the Kennesaw gun law make it a prime
 target for psychological reactance: The freedom that the law restricts is
 an important, long-standing one to which most American citizens feel
 entitled. Furthermore, the law was passed by the Kennesaw City
@@ -8307,8 +7492,7 @@ were—no pun intended—booming.
 Robert B. Cialdini Ph.D / 187
 
 
-How are we to make sense of this apparent contradiction of the react-
-ance principle? By looking a bit more closely at those who were buying
+How are we to make sense of this apparent contradiction of the reactance principle? By looking a bit more closely at those who were buying
 Kennesaw’s guns. Interviews with Kennesaw store owners revealed
 that the gun buyers were not town residents at all, but visitors, many
 of them lured by publicity to purchase their initial gun in Kennesaw.
@@ -8319,8 +7503,7 @@ We’ve only had two or three local people buy a gun to comply with the
 law.” After passage of the law, then, gun buying had become a frequent
 activity in Kennesaw, but not among those it was intended to cover;
 they were massively noncompliant. Only those individuals whose
-freedom in the matter had not been restricted by the law had the inclin-
-ation to live by it.
+freedom in the matter had not been restricted by the law had the inclination to live by it.
 A similar situation arose a decade earlier and several hundred miles
 to the south of Kennesaw, when Dade County (containing Miami),
 Florida, imposed an antiphosphate ordinance prohibiting the use—and
@@ -8338,16 +7521,13 @@ than the deliberate defiance of the smugglers and hoarders. Spurred
 by the tendency to want what they could no longer have, the majority
 of Miami consumers came to see phosphate cleaners as better products
 than before. Compared to Tampa residents, who were not affected by
-the Dade County ordinance, the citizens of Miami rated phosphate de-
-tergents as gentler, more effective in cold water, better whiteners and
+the Dade County ordinance, the citizens of Miami rated phosphate detergents as gentler, more effective in cold water, better whiteners and
 fresheners, more powerful on stains. After passage of the law, they had
 even come to believe that phosphate detergents poured more easily
 than did the Tampa consumers.8
-This sort of response is typical of individuals who have lost an estab-
-lished freedom and is crucial to an understanding of how psychological
+This sort of response is typical of individuals who have lost an established freedom and is crucial to an understanding of how psychological
 reactance and scarcity work on us. When our freedom to have something
-is limited, the item becomes less available, and we experience an in-
-creased desire for it. However, we rarely recognize that psychological
+is limited, the item becomes less available, and we experience an increased desire for it. However, we rarely recognize that psychological
 reactance has caused us to want the item more; all we know is that we
 want it. Still, we need to make sense of our desire for the item, so we
 188 / Influence
@@ -8362,25 +7542,20 @@ better after they are banned than before. We just assume they do because
 we find that we desire them more.
 The tendency to want what has been banned and therefore to presume
 that it is more worthwhile is not limited to such commodities as laundry
-soap. In fact, the tendency is not limited to commodities at all but ex-
-tends to restrictions on information. In an age when the ability to ac-
-quire, store, and manage information is becoming increasingly the de-
-terminant of wealth and power, it is important to understand how we
+soap. In fact, the tendency is not limited to commodities at all but extends to restrictions on information. In an age when the ability to acquire, store, and manage information is becoming increasingly the determinant of wealth and power, it is important to understand how we
 typically react to attempts to censor or otherwise constrain our access
 to information. Although much data exist on our reactions to various
 kinds of potentially censorable material—media violence, pornography,
 radical political rhetoric—there is surprisingly little evidence as to our
 reactions to the act of censoring them. Fortunately, the results of the
-few studies that have been done on the topic are highly consistent. Al-
-most invariably, our response to the banning of information is a greater
+few studies that have been done on the topic are highly consistent. Almost invariably, our response to the banning of information is a greater
 desire to receive that information and a more favorable attitude toward
 it than before the ban.9
 The intriguing thing about the effects of censoring information is not
 that audience members want to have the information more than they
 did before; that seems natural. Rather, it is that they come to believe in
 the information more, even though they haven’t received it. For example,
-when University of North Carolina students learned that a speech op-
-posing coed dorms on campus would be banned, they became more
+when University of North Carolina students learned that a speech opposing coed dorms on campus would be banned, they became more
 opposed to the idea of coed dorms. Thus, without ever hearing the
 speech, they became more sympathetic to its argument. This raises the
 worrisome possibility that especially clever individuals holding a weak
@@ -8388,8 +7563,7 @@ or unpopular position can get us to agree with that position by arranging
 to have their message restricted. The irony is that for such
 people—members of fringe political groups, for example—the most
 effective strategy may not be to publicize their unpopular views, but
-to get those views officially censored and then to publicize the censor-
-ship. Perhaps the authors of this country’s Constitution were acting as
+to get those views officially censored and then to publicize the censorship. Perhaps the authors of this country’s Constitution were acting as
 much as sophisticated social psychologists as staunch civil libertarians
 when they wrote the remarkably permissive free-speech provision of
 the First Amendment. By refusing to restrain freedom of speech, they
@@ -8412,8 +7586,7 @@ Amendment freedoms. But from a purely psychological point of view,
 those favoring strict censorship may wish to examine closely the results
 of a study done on Purdue University undergraduates.10 The students
 were shown some advertisements for a novel. For half the students, the
-advertising copy included the statement, “a book for adults only, restric-
-ted to those 21 years and over”; the other half of the students read about
+advertising copy included the statement, “a book for adults only, restricted to those 21 years and over”; the other half of the students read about
 no such age restriction on the book. When the researchers later asked
 the students to indicate their feelings toward the book, they discovered
 the same pair of reactions we have noted with other bans: Those who
@@ -8428,8 +7601,7 @@ argument. First, developmental psychologists report that as a general
 style, the desire to oppose adult control begins quite soon in adolescence,
 around the start of the teenage years. Nonscientific observers have also
 noted the early rise of these strong oppositional tendencies. Shakespeare,
-scholars tell us, placed Romeo and Juliet at the ages of fifteen and thir-
-teen years, respectively. Second, the pattern of reactions exhibited by
+scholars tell us, placed Romeo and Juliet at the ages of fifteen and thirteen years, respectively. Second, the pattern of reactions exhibited by
 the Purdue students is not unique and thus can’t be attributed to any
 great preoccupation with sex that college students may have. The pattern
 is common to externally imposed restrictions in general. Limiting access
@@ -8438,15 +7610,13 @@ in Florida or censoring a speech in North Carolina: The people involved
 came to want the restricted item more and, as a result, came to feel more
 favorable toward it.
 Those who support the official banning of sexually relevant materials
-from school curricula have the avowed purpose of reducing the orient-
-ation of the society, especially its youth, toward eroticism. In the light
+from school curricula have the avowed purpose of reducing the orientation of the society, especially its youth, toward eroticism. In the light
 190 / Influence
 
 
 of the Purdue study and in the context of other research on the effects
 of imposed restraints, one must wonder whether official censorship as
-a means may not be antithetical to the goal. If we are to believe the im-
-plications of the research, then the censorship is likely to increase the
+a means may not be antithetical to the goal. If we are to believe the implications of the research, then the censorship is likely to increase the
 desire of students for sexual material and, consequently, to cause them
 to view themselves as the kind of individuals who like such material.
 The term “official censorship” usually makes us think of bans on
@@ -8465,8 +7635,7 @@ may actually cause psychological reactance, leading the jurors to use
 the evidence to a greater extent?
 These were some of the questions asked in a large-scale jury-research
 project conducted by the University of Chicago Law School. One reason
-the results of the Chicago jury project are informative is that the parti-
-cipants were individuals who were actually on jury duty at the time
+the results of the Chicago jury project are informative is that the participants were individuals who were actually on jury duty at the time
 and who agreed to be members of “experimental juries” formed by the
 researchers. These experimental juries then heard tapes of evidence
 from previous trials and deliberated as if they were deciding the case.
@@ -8475,14 +7644,11 @@ such juries heard the case of a woman who was injured by a car driven
 by a careless male defendant. The first finding of the study was no
 surprise: When the driver said he had liability insurance, the jurors
 awarded his victim an average of four thousand dollars more than when
-he said he had no insurance (thirty-seven thousand dollars vs. thirty-
-three thousand dollars). Thus, as insurance companies have long sus-
-pected, juries make larger awards to victims if an insurance company
+he said he had no insurance (thirty-seven thousand dollars vs. thirtythree thousand dollars). Thus, as insurance companies have long suspected, juries make larger awards to victims if an insurance company
 will have to pay. The second finding of the study is the fascinating one,
 though. If the driver said he was insured and the judge ruled that
 evidence inadmissible (directing the jury to disregard it), the instruction
-to disregard had a boomerang effect, causing an average award of forty-
-six thousand dollars. So when certain juries learned that the driver was
+to disregard had a boomerang effect, causing an average award of fortysix thousand dollars. So when certain juries learned that the driver was
 insured, they increased the damage payment by four thousand dollars.
 But when other juries were told officially that they must not use that
 information, they used it still more, increasing the damage payment by
@@ -8505,10 +7671,8 @@ of two psychologists, Timothy Brock and Howard Fromkin, who have
 developed a “commodity theory” analysis of persuasion.12
 The strongest support I know for Brock and Fromkin’s theory comes
 from a small experiment done by a student of mine. At the time, the
-student was also a successful businessman, the owner of a beef-import-
-ing company, who had returned to school to get advanced training in
-marketing. After we talked in my office one day about scarcity and ex-
-clusivity of information, he decided to do a study using his sales staff.
+student was also a successful businessman, the owner of a beef-importing company, who had returned to school to get advanced training in
+marketing. After we talked in my office one day about scarcity and exclusivity of information, he decided to do a study using his sales staff.
 The company’s customers—buyers for supermarkets or other retail
 food outlets—were phoned as usual by a salesperson and asked for a
 purchase in one of three ways. One set of customers heard a standard
@@ -8517,8 +7681,7 @@ customers heard the standard sales presentation plus information that
 the supply of imported beef was likely to be scarce in the upcoming
 months. A third group received the standard sales presentation and
 the information about a scarce supply of beef, too; however, they also
-learned that the scarce-supply news was not generally available inform-
-ation—it had come, they were told, from certain exclusive contacts that
+learned that the scarce-supply news was not generally available information—it had come, they were told, from certain exclusive contacts that
 the company had. Thus the customers who received this last sales
 presentation learned that not only was the availability of the product
 limited, so also was the news concerning it—the scarcity double
@@ -8528,8 +7691,7 @@ company salespeople began to urge the owner to buy more beef because
 there wasn’t enough in the inventory to keep up with all the orders
 they were receiving. Compared to the customers who got only the
 standard sales appeal, those who were also told about the future scarcity
-of beef bought more than twice as much. But the real boost in sales oc-
-curred among the customers who heard of the impending scarcity via
+of beef bought more than twice as much. But the real boost in sales occurred among the customers who heard of the impending scarcity via
 “exclusive” information. They purchased six times the amount that the
 customers who received only the standard sales pitch did. Apparently
 192 / Influence
@@ -8539,12 +7701,10 @@ the fact that the news carrying the scarcity of information was itself
 scarce made it especially persuasive.13
 OPTIMAL CONDITIONS
 Much like the other effective weapons of influence, the scarcity principle
-is more effective at some times than at other times. An important prac-
-tical problem, then, is to find out when scarcity works best on us. A
+is more effective at some times than at other times. An important practical problem, then, is to find out when scarcity works best on us. A
 great deal can be learned in this regard from an experiment devised by
 social psychologist Stephen Worchel.14 The basic procedure used by
-Worchel and his research team was simple: Participants in a consumer-
-preference study were given a chocolate-chip cookie from a jar and
+Worchel and his research team was simple: Participants in a consumerpreference study were given a chocolate-chip cookie from a jar and
 asked to taste and rate its quality. For half of the raters, the jar contained
 ten cookies; for the other half, it contained just two. As we might expect
 from the scarcity principle, when the cookie was one of the only two
@@ -8561,8 +7721,7 @@ consideration.
 The first of these noteworthy results involved a small variation in
 the experiment’s basic procedure. Rather than rating the cookies under
 conditions of constant scarcity, some participants were first given a jar
-of ten cookies that was then replaced by a jar of two cookies. Thus, be-
-fore taking a bite, certain of the participants saw their abundant supply
+of ten cookies that was then replaced by a jar of two cookies. Thus, before taking a bite, certain of the participants saw their abundant supply
 of cookies reduced to a scarce supply. Other participants, however,
 knew only scarcity of supply from the outset, since the number of
 cookies in their jars was left at two. With this procedure, the researchers
@@ -8584,8 +7743,7 @@ most likely to find revolutions where a period of improving economic
 and social conditions is followed by a short, sharp reversal in those
 conditions. Thus it is not the traditionally most downtrodden
 people—who have come to see their deprivation as part of the natural
-order of things—who are especially liable to revolt. Instead, revolution-
-aries are more likely to be those who have been given at least some taste
+order of things—who are especially liable to revolt. Instead, revolutionaries are more likely to be those who have been given at least some taste
 of a better life. When the economic and social improvements they have
 experienced and come to expect suddenly become less available, they
 desire them more than ever and often rise up violently to secure them.15
@@ -8596,8 +7754,7 @@ as Dorr’s Rebellion in nineteenth-century Rhode Island, the American
 Civil War, and the urban black riots of the 1960s. In each case, a time
 of increasing well-being preceded a tight cluster of reversals that burst
 into violence.
-The racial conflict in America’s cities during the mid-1960s repre-
-sents a case in point that many of us can recall. At the time, it was not
+The racial conflict in America’s cities during the mid-1960s represents a case in point that many of us can recall. At the time, it was not
 uncommon to hear the question, “Why now?” It didn’t seem to make
 sense that within their three-hundred-year history, most of which had
 been spent in servitude and much of the rest in privation, American
@@ -8637,8 +7794,7 @@ Still another type of downturn occurred—in pocketbook prog-ress.
 In 1962, the income of a black family had slid back to 74 percent of that
 of a similarly educated white family. By Davies’s argument, the most
 illuminating aspect of this 74 percent figure is not that it represented a
-long-term increase in prosperity from pre-1940s levels but that it repres-
-ented a short-term decline from the flush mid-1950s levels. In the next
+long-term increase in prosperity from pre-1940s levels but that it represented a short-term decline from the flush mid-1950s levels. In the next
 year came the Birmingham riots and, in staccato succession, scores of
 violent demonstrations, building toward the major upheavals of Watts,
 Newark, and Detroit.
@@ -8673,33 +7829,27 @@ revert to their essential selves, to their own history. Gorbachev and
 glasnost were an aberration; now we are back to fatal normality.”
 But these were not to be normal times. For one thing, Gorbachev had
 not governed in the tradition of the czars or Stalin or any of the line of
-oppressive postwar rulers who had not allowed even a breath of free-
-dom to the masses. He had ceded them certain rights and choices. And
+oppressive postwar rulers who had not allowed even a breath of freedom to the masses. He had ceded them certain rights and choices. And
 when these now-established freedoms were threatened, the people
 lashed out the way a dog would if someone tried taking a fresh bone
 from its mouth. Within hours of the junta’s announcement, thousands
-were in the streets, erecting barricades, confronting armed troops, sur-
-rounding tanks, and defying curfews. The uprising was so swift, so
+were in the streets, erecting barricades, confronting armed troops, surrounding tanks, and defying curfews. The uprising was so swift, so
 massive, so unitary in its opposition to any retreat from the gains of
-glasnost that after only three riotous days, the astonished officials relen-
-ted, surrendering their power and pleading for mercy from President
+glasnost that after only three riotous days, the astonished officials relented, surrendering their power and pleading for mercy from President
 Gorbachev. Had they been students of history—or of psychology—the
 failed plotters would not have been so surprised by the tidal wave of
 popular resistance that swallowed their coup. From the vantage point
 of either discipline, they could have learned an invariant lesson:
 Freedoms once granted will not be relinquished without a fight.
 The lesson applies as well to the politics of family as country. The
-parent who grants privileges or enforces rules erratically invites rebel-
-liousness by unwittingly establishing freedoms for the child. The parent
+parent who grants privileges or enforces rules erratically invites rebelliousness by unwittingly establishing freedoms for the child. The parent
 who only sometimes prohibits between-meal sweets may create for the
 child the freedom to have such snacks. At that point, enforcing the rule
 becomes a much more difficult and explosive matter because the child
-is no longer merely lacking a never-possessed right but is losing an es-
-tablished one. As we have seen in the case of political freedoms and
+is no longer merely lacking a never-possessed right but is losing an established one. As we have seen in the case of political freedoms and
 (especially pertinent to the present discussion) chocolate-chip cookies,
 people see a thing as more desirable when it has recently become less
-available than when it has been scarce all along. We should not be sur-
-prised, then, when research shows that parents who enforce discipline
+available than when it has been scarce all along. We should not be surprised, then, when research shows that parents who enforce discipline
 inconsistently produce generally rebellious children.16
 Let’s look back to the cookie study for another insight into the way
 we react to scarcity. We’ve already seen from the results of that study
@@ -8725,13 +7875,11 @@ available through social demand were rated the most desirable of any
 in the study.
 This finding highlights the importance of competition in the pursuit
 of limited resources. Not only do we want the same item more when
-it is scarce, we want it most when we are in competition for it. Advert-
-isers often try to exploit this tendency in us. In their ads, we learn that
+it is scarce, we want it most when we are in competition for it. Advertisers often try to exploit this tendency in us. In their ads, we learn that
 “popular demand” for an item is so great that we must “hurry to buy,”
 or we see a crowd pressing against the doors of a store before the start
 of a sale, or we watch a flock of hands quickly deplete a supermarket
-shelf of a product. There is more to such images than the idea of ordin-
-ary social proof. The message is not just that the product is good because
+shelf of a product. There is more to such images than the idea of ordinary social proof. The message is not just that the product is good because
 other people think so, but also that we are in direct competition with
 those people for it.
 The feeling of being in competition for scarce resources has powerfully
@@ -8749,8 +7897,7 @@ and his wife moving into town” are favorites. The tactic, called in some
 circles “goosing ’em off the fence,” can work devastatingly well. The
 thought of losing out to a rival frequently turns a buyer from hesitant
 to zealous.
-There is something almost physical about the desire to have a con-
-tested item. Shoppers at big close-out or bargain sales report being
+There is something almost physical about the desire to have a contested item. Shoppers at big close-out or bargain sales report being
 caught up emotionally in the event. Charged by the crush of competitors,
 they swarm and struggle to claim merchandise they would otherwise
 disdain. Such behavior brings to mind the “feeding frenzy” of wild,
@@ -8762,17 +7909,14 @@ Robert B. Cialdini Ph.D / 197
 
 fins and snapping mouths competing for the food. At this point, the
 fishermen save time and money by dropping unbaited lines into the
-water, since the crazed fish will bite ferociously at anything now, includ-
-ing bare metal hooks.
+water, since the crazed fish will bite ferociously at anything now, including bare metal hooks.
 There is a noticeable parallel between the ways that commercial
 fishermen and department stores generate a competitive fury in those
 they wish to hook. To attract and arouse the catch, fishermen scatter
 some loose bait called chum. For similar reasons, department stores
-holding a bargain sale toss out a few especially good deals on promin-
-ently advertised items called loss leaders. If the bait, of either form, has
+holding a bargain sale toss out a few especially good deals on prominently advertised items called loss leaders. If the bait, of either form, has
 done its job, a large and eager crowd forms to snap it up. Soon, in the
-rush to score, the group becomes agitated, nearly blinded, by the ad-
-versarial nature of the situation. Humans and fish alike lose perspective
+rush to score, the group becomes agitated, nearly blinded, by the adversarial nature of the situation. Humans and fish alike lose perspective
 on what they want and begin striking at whatever is being contested.
 One wonders whether the tuna flapping on a dry deck with only a bare
 hook in its mouth shares the what-hit-me bewilderment of the shopper
@@ -8786,8 +7930,7 @@ who has since been labeled the “miracle mogul” by Time magazine in
 reference to his remarkable successes as head of Paramount Pictures
 and the Fox Television Network. He agreed to pay $3.3 million for a
 single television showing of the movie The Poseidon Adventure. The figure
-is noteworthy in that it greatly exceeded the highest price ever previ-
-ously paid for a one-time movie showing: $2 million for Patton. In fact,
+is noteworthy in that it greatly exceeded the highest price ever previously paid for a one-time movie showing: $2 million for Patton. In fact,
 the payment was so excessive that ABC figured to lose $1 million on
 the Poseidon showing. As NBC vice president for special programs Bill
 Storke declared at the time, “There’s no way they can get their money
@@ -8796,8 +7939,7 @@ How could an astute and experienced businessman like Diller go for
 a deal that would produce an expected loss of a million dollars? The
 answer may lie in a second noteworthy aspect of the sale: It was the
 first time that a motion picture had been offered to the networks in an
-open-bid auction. Never before had the three major commercial net-
-works been forced to battle for a scarce resource in quite this way. The
+open-bid auction. Never before had the three major commercial networks been forced to battle for a scarce resource in quite this way. The
 novel idea of a competitive auction was the brainchild of the movie’s
 flamboyant showman-producer, Irwin Allen, and a 20th Century Fox
 vice president, William Self, who must have been ecstatic about the
@@ -8830,8 +7972,7 @@ According to interviewer Bob MacKenzie, when Wood made his “It’s
 been very educational” statement, he was smiling. We can be sure that
 when ABC’s Diller made his “never again” announcement, he was not.
 Both men had clearly learned something from the “Great Poseidon
-Auction.” But for one, there had been a $1 million tuition charge. Fortu-
-nately, there is a valuable but drastically less expensive lesson here for
+Auction.” But for one, there had been a $1 million tuition charge. Fortunately, there is a valuable but drastically less expensive lesson here for
 us, too. It is instructive to note that the smiling man was the one who
 had lost the highly sought-after prize. As a general rule, whenever the
 dust settles and we find losers looking and speaking like winners (and
@@ -8850,8 +7991,7 @@ Robert B. Cialdini Ph.D / 199
 
 competition, the blood comes up, the focus narrows, and emotions rise.
 As this visceral current advances, the cognitive, rational side retreats.
-In the rush of arousal, it is difficult to be calm and studied in our ap-
-proach. As CBS Television’s president, Robert Wood, commented in
+In the rush of arousal, it is difficult to be calm and studied in our approach. As CBS Television’s president, Robert Wood, commented in
 the wake of his Poseidon adventure, “You get caught up in the mania
 of the thing, the acceleration of it. Logic goes right out the window.”
 Here’s our predicament, then: Knowing the causes and workings of
@@ -8865,9 +8005,7 @@ If, because of brain-clouding arousal, we can’t rely on our knowledge
 about the scarcity principle to stimulate properly cautious behavior,
 what can we use? Perhaps, in fine jujitsu style, we can use the arousal
 itself as our prime cue. In this way we can turn the enemy’s strength
-to our advantage. Rather than relying on a considered, cognitive ana-
-lysis of the entire situation, we might simply tune ourselves to the in-
-ternal, visceral sweep for our warning. By learning to flag the experience
+to our advantage. Rather than relying on a considered, cognitive analysis of the entire situation, we might simply tune ourselves to the internal, visceral sweep for our warning. By learning to flag the experience
 of heightening arousal in a compliance situation, we can alert ourselves
 to the possibility of scarcity tactics there and to the need for caution.
 But suppose we accomplish this trick of using the rising tide of
@@ -8885,8 +8023,7 @@ rated as any better-tasting than the abundant cookies. So despite the
 increased yearning that scarcity caused (the raters said they wanted to
 have more of the scarce cookies in the future and would pay a greater
 price for them), it did not make the cookies taste one whit better. Therein
-lies an important insight. The joy is not in experiencing a scarce commod-
-ity but in possessing it. It is important that we not confuse the two.
+lies an important insight. The joy is not in experiencing a scarce commodity but in possessing it. It is important that we not confuse the two.
 Whenever we confront the scarcity pressures surrounding some item,
 we must also confront the question of what it is we want from the item.
 If the answer is that we want the thing for the social, economic, or
@@ -8901,11 +8038,9 @@ We want it, instead, for its utility value; we want to eat it or drink it or
 touch it or hear it or drive it or otherwise use it. In such cases it is vital
 to remember that scarce things do not taste or feel or sound or ride or
 work any better because of their limited availability.
-Although this is a simple point, it can often escape us when we exper-
-ience the heightened desirability that scarce items naturally possess. I
+Although this is a simple point, it can often escape us when we experience the heightened desirability that scarce items naturally possess. I
 can cite a family example. My brother Richard supported himself
-through school by employing a compliance trick that cashed in hand-
-somely on the tendency of most people to miss that simple point. In
+through school by employing a compliance trick that cashed in handsomely on the tendency of most people to miss that simple point. In
 fact, his tactic was so effective that he had to work only a few hours
 each weekend for his money, leaving the rest of the time free for his
 studies.
@@ -8929,10 +8064,8 @@ morning. Each prospect who was interested enough to want to see the
 car was given an appointment time—the same appointment time. So if six
 people were scheduled, they were all scheduled for, say, two o’clock
 that afternoon. This little device of simultaneous scheduling paved the
-way for later compliance because it created an atmosphere of competi-
-tion for a limited resource.
-Typically, the first prospect to arrive would begin a studied examin-
-ation of the car and would engage in standard car-buying behavior,
+way for later compliance because it created an atmosphere of competition for a limited resource.
+Typically, the first prospect to arrive would begin a studied examination of the car and would engage in standard car-buying behavior,
 such as pointing out any blemishes or deficiencies or asking if the price
 was negotiable. The psychology of the situation changed radically,
 however, when the second buyer drove up. The availability of the car
@@ -8954,29 +8087,23 @@ had suddenly become a now-or-never, limited-time-only rush to decision
 over a contested resource. If he didn’t decide for the car—at Richard’s
 asking price—in the next few minutes, he might lose it for good to
 that…that…lurking newcomer over there. For his part, the second
-buyer would be equally agitated by the combination of rivalry and re-
-stricted availability. He would pace on the periphery, visibly straining
+buyer would be equally agitated by the combination of rivalry and restricted availability. He would pace on the periphery, visibly straining
 to get at this now more desirable hunk of metal. Should two-o’clock
 appointment number one fail to buy or even fail to decide quickly
 enough, two-o’clock appointment number two was ready to pounce.
-If these conditions alone were not enough to secure a favorable pur-
-chase decision immediately, the trap snapped surely shut as soon as
+If these conditions alone were not enough to secure a favorable purchase decision immediately, the trap snapped surely shut as soon as
 the third two-o’clock appointment arrived on the scene. According to
 Richard, stacked-up competition was usually too much for the first
 prospect to bear. He would end the pressure quickly by either agreeing
 to Richard’s price or by leaving abruptly. In the latter instance, the
 second arrival would strike at the chance to buy out of a sense of relief
-coupled with a new feeling of rivalry with that…that…lurking new-
-comer over there.
+coupled with a new feeling of rivalry with that…that…lurking newcomer over there.
 All those buyers who contributed to my brother’s college education
-failed to recognize a fundamental fact about their purchases: The in-
-creased desire that spurred them to buy had little to do with the merits
+failed to recognize a fundamental fact about their purchases: The increased desire that spurred them to buy had little to do with the merits
 of the car. That failure of recognition occurred for two reasons. First,
 the situation Richard arranged for them produced an emotional reaction
-that made it difficult for them to think straight. Second, as a con-
-sequence, they never stopped to think that the reason they wanted the
-car in the first place was to use it, not merely to have it. And the com-
-petition-for-a-scarce-resource pressures Richard applied affected only
+that made it difficult for them to think straight. Second, as a consequence, they never stopped to think that the reason they wanted the
+car in the first place was to use it, not merely to have it. And the competition-for-a-scarce-resource pressures Richard applied affected only
 their desire to have the car in the sense of possessing it. Those pressures
 did not affect the value of the car in terms of the real purpose for which
 they had wanted it.
@@ -8991,8 +8118,7 @@ Panicky, feverish reactions have no place in wise compliance decisions.
 We need to calm ourselves and regain a rational perspective. Once that
 is done, we can move to the second stage by asking ourselves why we
 want the item under consideration. If the answer is that we want it
-primarily for the purpose of owning it, then we should use its availab-
-ility to help gauge how much we want to spend for it. However, if the
+primarily for the purpose of owning it, then we should use its availability to help gauge how much we want to spend for it. However, if the
 answer is that we want it primarily for its function (that is, we want
 something good to drive, drink, eat, etc.), then we must remember that
 the item under consideration will function equally well whether scarce
@@ -9004,15 +8130,12 @@ From a Blacksburg, Virginia, Woman
 Although he really wasn’t my type, I went out with him—probably
 because it was a status thing to date an older man—but I really didn’t
 become interested in him until my folks expressed their concern about
-his age. The more they got on my case about it, the more in love I be-
-came. It only lasted five months, but this was about four months longer
+his age. The more they got on my case about it, the more in love I became. It only lasted five months, but this was about four months longer
 than it would have lasted if my parents hadn’t said anything.”
 Although Romeo and Juliet have long since passed away, it appears
 that the “Romeo and Juliet effect” is alive and well and making regular
 appearances in places like Blacksburg, Virginia.
 Robert B. Cialdini Ph.D / 203
-
-
 
 
 Epilogue
@@ -9023,16 +8146,13 @@ Every day in every way, I’m getting better.
 Every day in every way, I’m getting busier.
 —ROBERT CIALDINI
 B
-ACK IN THE 1960S A MAN NAMED JOE PINE HOSTED A RATHER remark-
-able TV talk show that was syndicated from California. The program
+ACK IN THE 1960S A MAN NAMED JOE PINE HOSTED A RATHER remarkable TV talk show that was syndicated from California. The program
 was made distinctive by Pine’s caustic and confrontational style with
-his guests—for the most part, a collection of exposure-hungry entertain-
-ers, would-be celebrities, and representatives of fringe political or social
+his guests—for the most part, a collection of exposure-hungry entertainers, would-be celebrities, and representatives of fringe political or social
 organizations. The host’s abrasive approach was designed to provoke
 his guests into arguments, to fluster them into embarrassing admissions,
 and generally to make them look foolish. It was not uncommon for Pine
-to introduce a visitor and launch immediately into an attack on the in-
-dividual’s beliefs, talent, or appearance. Some people claimed that Pine’s
+to introduce a visitor and launch immediately into an attack on the individual’s beliefs, talent, or appearance. Some people claimed that Pine’s
 acid personal style was partially caused by a leg amputation that had
 embittered him to life; others said no, that he was just vituperous by
 nature.
@@ -9060,8 +8180,7 @@ early in Chapter 1, our shortcut approach was likened to the automatic
 responding of lower animals, whose elaborate behavior patterns could
 be triggered by the presence of a lone stimulus feature—a “cheep-cheep”
 sound, a shade of red breast feather, or a specific sequence of light
-flashes. The reason infrahumans must often rely on such solitary stim-
-ulus features is their restricted mental capability. Their small brains
+flashes. The reason infrahumans must often rely on such solitary stimulus features is their restricted mental capability. Their small brains
 cannot begin to register and process all the relevant information in their
 environments. So these species have evolved special sensitivities to
 certain aspects of the information. Because those selected aspects of
@@ -9073,39 +8192,28 @@ the variety of other situations and choices she must face in her day.
 We, of course, have vastly more effective brain mechanisms than
 mother turkeys, or any other animal group, for that matter. We are
 unchallenged in the ability to take into account a multitude of relevant
-facts and, consequently, to make good decisions. Indeed, it is this in-
-formation-processing advantage over other species that has helped
+facts and, consequently, to make good decisions. Indeed, it is this information-processing advantage over other species that has helped
 make us the dominant form of life on the planet.
-Still, we have our capacity limitations, too; and, for the sake of effi-
-ciency, we must sometimes retreat from the time-consuming, sophistic-
-ated, fully informed brand of decision making to a more automatic,
+Still, we have our capacity limitations, too; and, for the sake of efficiency, we must sometimes retreat from the time-consuming, sophisticated, fully informed brand of decision making to a more automatic,
 primitive, single-feature type of responding. For instance, in deciding
 206 / Influence
 
 
 whether to say yes or no to a requester, it is clear that we frequently
-pay attention to but one piece of the relevant information in the situ-
-ation. We have been exploring several of the most popular of the single
+pay attention to but one piece of the relevant information in the situation. We have been exploring several of the most popular of the single
 pieces of information that we use to prompt our compliance decisions.
 They are the most popular prompts precisely because they are the most
 reliable ones, those that normally point us toward the correct choice.
 That is why we employ the factors of reciprocation, consistency, social
 proof, liking, authority, and scarcity so often and so automatically in
-making our compliance decisions. Each, by itself, provides a highly re-
-liable cue as to when we will be better off saying yes than no.
-We are likely to use these lone cues when we don’t have the inclina-
-tion, time, energy, or cognitive resources to undertake a complete ana-
-lysis of the situation. Where we are rushed, stressed, uncertain, indiffer-
-ent, distracted, or fatigued, we tend to focus on less of the information
+making our compliance decisions. Each, by itself, provides a highly reliable cue as to when we will be better off saying yes than no.
+We are likely to use these lone cues when we don’t have the inclination, time, energy, or cognitive resources to undertake a complete analysis of the situation. Where we are rushed, stressed, uncertain, indifferent, distracted, or fatigued, we tend to focus on less of the information
 available to us. When making decisions under these circumstances, we
-often revert to the rather primitive but necessary single-piece-of-good-
-evidence approach.1 All this leads to a jarring insight: With the sophist-
-icated mental apparatus we have used to build world eminence as a
+often revert to the rather primitive but necessary single-piece-of-goodevidence approach.1 All this leads to a jarring insight: With the sophisticated mental apparatus we have used to build world eminence as a
 species, we have created an environment so complex, fast-paced, and
 information-laden that we must increasingly deal with it in the fashion
 of the animals we long ago transcended.
-John Stuart Mill, the British economist, political thinker, and philo-
-sopher of science, died more than a hundred years ago. The year of his
+John Stuart Mill, the British economist, political thinker, and philosopher of science, died more than a hundred years ago. The year of his
 death (1873) is important because he is reputed to have been the last
 man to know everything there was to know in the world. Today, the
 notion that one of us could be aware of all known facts is only laughable.
@@ -9113,11 +8221,8 @@ After eons of slow accumulation, human knowledge has snowballed
 into an era of momentum-fed, multiplicative, monstrous expansion.
 We now live in a world where most of the information is less than fifteen
 years old. In certain fields of science alone (for example, physics),
-knowledge is said to double every eight years. And the scientific inform-
-ation explosion is not limited to such arcane arenas as molecular
-chemistry or quantum physics but extends to everyday areas of know-
-ledge where we strive to keep ourselves current—health, child devel-
-opment, nutrition, and the like. What’s more, this rapid growth is likely
+knowledge is said to double every eight years. And the scientific information explosion is not limited to such arcane arenas as molecular
+chemistry or quantum physics but extends to everyday areas of knowledge where we strive to keep ourselves current—health, child development, nutrition, and the like. What’s more, this rapid growth is likely
 to continue, since 90 percent of all scientists who have ever lived are
 working today.
 Apart from the streaking advance of science, things are quickly
@@ -9132,18 +8237,14 @@ quickly; we contact more people and have shorter relationships with
 them; in the supermarket, car showroom, and shopping mall, we are
 faced with an array of choices among styles and products that were
 unheard of the previous year and may well be obsolete or forgotten by
-the next. Novelty, transience, diversity, and acceleration are acknow-
-ledged as prime descriptors of civilized existence.
-This avalanche of information and choices is made possible by bur-
-geoning technological progress. Leading the way are developments in
+the next. Novelty, transience, diversity, and acceleration are acknowledged as prime descriptors of civilized existence.
+This avalanche of information and choices is made possible by burgeoning technological progress. Leading the way are developments in
 our ability to collect, store, retrieve, and communicate information. At
-first, the fruits of such advances were limited to large organiza-
-tions—government agencies or powerful corporations. For example,
+first, the fruits of such advances were limited to large organizations—government agencies or powerful corporations. For example,
 speaking as chairman of Citicorp, Walter Wriston could say of his
 company, “We have tied together a data base in the world that is capable
 of telling almost anyone in the world, almost anything, immediately.”2
-But now, with further developments in telecommunication and com-
-puter technology, access to such staggering amounts of information is
+But now, with further developments in telecommunication and computer technology, access to such staggering amounts of information is
 falling within the reach of individual citizens. Extensive cable and
 satellite television systems provide one route for that information into
 the average home.
@@ -9152,8 +8253,7 @@ Macrae, an editor of The Economist, speculated prophetically about a
 time in the future:
 The prospect is, after all, that we are going to enter an age when
 any duffer sitting at a computer terminal in his laboratory or office
-or public library or home can delve through unimaginable in-
-creased mountains of information in mass-assembly data banks
+or public library or home can delve through unimaginable increased mountains of information in mass-assembly data banks
 with mechanical powers of concentration and calculation that will
 be greater by a factor of tens of thousands than was ever available
 to the human brain of even an Einstein.
@@ -9167,8 +8267,7 @@ be the same.” Macrae’s vision is now being realized. Millions of ordinary
 analyze enough data to bury an Einstein.
 Because technology can evolve much faster than we can, our natural
 capacity to process information is likely to be increasingly inadequate
-to handle the surfeit of change, choice, and challenge that is character-
-istic of modern life. More and more frequently, we will find ourselves
+to handle the surfeit of change, choice, and challenge that is characteristic of modern life. More and more frequently, we will find ourselves
 208 / Influence
 
 
@@ -9179,22 +8278,18 @@ always been relatively deficient, we have created our own deficiency
 by constructing a radically more complex world. But the consequence
 of our new deficiency is the same as that of the animals’ long-standing
 one. When making a decision, we will less frequently enjoy the luxury
-of a fully consid-ered analysis of the total situation but will revert in-
-creasingly to a focus on a single, usually reliable feature of it.
-When those single features are truly reliable, there is nothing inher-
-ently wrong with the shortcut approach of narrowed attention and
+of a fully consid-ered analysis of the total situation but will revert increasingly to a focus on a single, usually reliable feature of it.
+When those single features are truly reliable, there is nothing inherently wrong with the shortcut approach of narrowed attention and
 automatic response to a particular piece of information. The problem
 comes when something causes the normally trustworthy cues to counsel
 us poorly, to lead us to erroneous actions and wrongheaded decisions.
 As we have seen, one such cause is the trickery of certain compliance
-practitioners who seek to profit from the rather mindless and mechan-
-ical nature of shortcut response. If, as seems true, the frequency of
+practitioners who seek to profit from the rather mindless and mechanical nature of shortcut response. If, as seems true, the frequency of
 shortcut response is increasing with the pace and form of modern life,
 we can be sure that the frequency of this trickery is destined to increase
 as well.
 What can we do about the expected intensified attack on our system
-of shortcuts? More than evasive action, I would urge forceful counter-
-assault. There is an important qualification, however. Compliance
+of shortcuts? More than evasive action, I would urge forceful counterassault. There is an important qualification, however. Compliance
 professionals who play fairly by the rules of shortcut response are not
 to be considered the enemy; on the contrary, they are our allies in an
 efficient and adaptive process of exchange. The proper targets for
@@ -9213,15 +8308,13 @@ might want to rely on that single piece of information, popularity, to
 decide to try it. This strategy will likely steer us right, will unlikely steer
 us far wrong, and will conserve our cognitive energies for dealing with
 the rest of our increasingly information-laden, decision-overloaded
-environment. The advertiser who allows us to use effectively this effi-
-Robert B. Cialdini Ph.D / 209
+environment. The advertiser who allows us to use effectively this effiRobert B. Cialdini Ph.D / 209
 
 
 cient strategy is hardly our antagonist but rather must be considered a
 cooperating partner.
 The story becomes quite different, however, should a compliance
-practitioner try to stimulate a shortcut response by giving us a fraudu-
-lent signal for it. The enemy is the advertiser who seeks to create an
+practitioner try to stimulate a shortcut response by giving us a fraudulent signal for it. The enemy is the advertiser who seeks to create an
 image of popularity for a brand of toothpaste by, say, constructing a
 series of staged “unrehearsed-interview” commercials in which an array
 of actors posing as ordinary citizens praise the product. Here, where
@@ -9229,30 +8322,25 @@ the evidence of popularity is counterfeit, we, the principle of social
 proof, and our shortcut response to it, are all being exploited. In an
 earlier chapter, I recommended against the purchase of any product
 featured in a faked “unrehearsed-interview” ad, and I urged that we
-send the product manufacturers letters detailing the reason and suggest-
-ing that they dismiss their advertising agency. I would recommend
+send the product manufacturers letters detailing the reason and suggesting that they dismiss their advertising agency. I would recommend
 extending this aggressive stance to any situation in which a compliance
 professional abuses the principle of social proof (or any other weapon
 of influence) in this manner. We should refuse to watch TV programs
 that use canned laughter. If we see a bartender beginning a shift by
 salting his tip jar with a bill or two of his own, he should get none from
 us. If, after waiting in line outside a nightclub, we discover from the
-amount of available space that the wait was designed to impress pass-
-ersby with false evidence of the club’s popularity, we should leave im-
-mediately and announce our reason to those still in line. In short, we
+amount of available space that the wait was designed to impress passersby with false evidence of the club’s popularity, we should leave immediately and announce our reason to those still in line. In short, we
 should be willing to use boycott, threat, confrontation, censure, tirade,
 nearly anything, to retaliate.
 I don’t consider myself pugnacious by nature, but I actively advocate
-such belligerent actions because in a way I am at war with the ex-
-ploiters—we all are. It is important to recognize, however, that their
+such belligerent actions because in a way I am at war with the exploiters—we all are. It is important to recognize, however, that their
 motive for profit is not the cause for hostilities; that motive, after all, is
 something we each share to an extent. The real treachery, and the thing
 we cannot tolerate, is any attempt to make their profit in a way that
 threatens the reliability of our shortcuts. The blitz of modern daily life
 demands that we have faithful shortcuts, sound rules of thumb to handle
 it all. These are not luxuries any longer; they are out-and-out necessities
-that figure to become increasingly vital as the pulse of daily life quick-
-ens. That is why we should want to retaliate whenever we see someone
+that figure to become increasingly vital as the pulse of daily life quickens. That is why we should want to retaliate whenever we see someone
 betraying one of our rules of thumb for profit. We want that rule to be
 as effective as possible. But to the degree that its fitness for duty is
 regularly undercut by the tricks of a profiteer, we naturally will use it
@@ -9264,8 +8352,7 @@ too high.
 
 NOTES
 CHAPTER 1 (PAGES 1–16)
-1. Honest, this animal researcher’s name is Fox. See his 1974 mono-
-graph for a complete description of the turkey and polecat experiment.
+1. Honest, this animal researcher’s name is Fox. See his 1974 monograph for a complete description of the turkey and polecat experiment.
 2. Sources for the robin and bluethroat information are Lack (1943)
 and Peiponen (1960), respectively.
 3. Although several important similarities exist between this kind of
@@ -9297,8 +8384,7 @@ media (for example, actors, actresses, models) may cause us to be less
 
 satisfied with the looks of the genuinely available romantic possibilities
 around us. More recent work by these authors takes their argument a
-step farther, showing that exposure to the exaggerated sexual attract-
-iveness of nude pinup bodies (in such magazines as Playboy and Playgirl)
+step farther, showing that exposure to the exaggerated sexual attractiveness of nude pinup bodies (in such magazines as Playboy and Playgirl)
 causes people to become less pleased with the sexual desirability of
 their current spouse or live-in mate (Kenrick, Gutierres, and Goldberg,
 1989).
@@ -9332,9 +8418,7 @@ forewarned them first by mentioning to a fellow passenger that he was
 thinking of asking for someone’s seat (56 percent vs. 28 percent).
 8. It is interesting that a cross-cultural study has shown that those
 who break the reciprocity rule in the reverse direction—by giving
-without allowing the recipient an opportunity to repay—are also dis-
-liked for it. This result was found to hold for each of the three national-
-212 / Influence
+without allowing the recipient an opportunity to repay—are also disliked for it. This result was found to hold for each of the three national212 / Influence
 
 
 ities investigated—Americans, Swedes, and Japanese. See Gergen et al.
@@ -9343,8 +8427,7 @@ ities investigated—Americans, Swedes, and Japanese. See Gergen et al.
 data on women’s sexual obligations were collected by George, Gournic,
 and McAfee (1988).
 10. To convince ourselves that this result was no fluke, we conducted
-two more experiments testing the effectiveness of the rejection-then-
-retreat trick. Both showed results similar to the first experiment. See
+two more experiments testing the effectiveness of the rejection-thenretreat trick. Both showed results similar to the first experiment. See
 Cialdini et al. (1975) for the details of all three.
 11. The Israeli study was conducted in 1979 by Schwartzwald, Raz,
 and Zvibel.
@@ -9353,8 +8436,7 @@ and Zvibel.
 14. Consumer Reports, January 1975, p. 62.
 15. Another way of gauging the effectiveness of a request technique
 is to examine the bottom-line proportion of individuals who, after being
-asked, complied with the request. Using such a measure, the rejection-
-then-retreat procedure was more than four times more effective than
+asked, complied with the request. Using such a measure, the rejectionthen-retreat procedure was more than four times more effective than
 the procedure of asking for the smaller request only. See Miller et al.
 (1976) for a complete description of the study.
 16. The blood-donation study was reported by Cialdini and Ascani
@@ -9363,8 +8445,7 @@ the procedure of asking for the smaller request only. See Miller et al.
 in 1972.
 18. A variety of other business operations use the no-cost information
 offer extensively. Pest-exterminator companies, for instance, have found
-that most people who agree to a free home examination give the exterm-
-ination job to the examining company, provided they are convinced
+that most people who agree to a free home examination give the extermination job to the examining company, provided they are convinced
 that it is needed. They apparently feel an obligation to give their business
 to the firm that rendered the initial, complimentary service. Knowing
 that such customers are unlikely to comparisonshop for this reason,
@@ -9376,8 +8457,7 @@ CHAPTER 3 (PAGES 57–113)
 and Inkster (1968). See Rosenfeld, Kennedy, and Giacalone (1986) for
 evidence that the tendency to believe more strongly in choices, once
 made, applies to guesses in a lottery game, too.
-2. It is important to note that the collaboration was not always inten-
-tional. The American investigators defined collaboration as “any kind
+2. It is important to note that the collaboration was not always intentional. The American investigators defined collaboration as “any kind
 Robert B. Cialdini Ph.D / 213
 
 
@@ -9385,12 +8465,9 @@ of behavior which helped the enemy,” and it thus included such diverse
 activities as signing peace petitions, running errands, making radio
 appeals, accepting special favors, making false confessions, informing
 on fellow prisoners, or divulging military information.
-3. The Schein quote comes from his 1956 article “The Chinese Indoc-
-trination Program for Prisoners of War: A Study of Attempted Brain-
-washing.”
+3. The Schein quote comes from his 1956 article “The Chinese Indoctrination Program for Prisoners of War: A Study of Attempted Brainwashing.”
 4. See Greene (1965) for the source of this advice.
-5. Freedman and Fraser published their data in the Journal of Person-
-ality and Social Psychology, in 1966.
+5. Freedman and Fraser published their data in the Journal of Personality and Social Psychology, in 1966.
 6. The quote comes from Freedman and Fraser (1966).
 7. See Segal (1954) for the article from which this quote originates.
 8. See Jones and Harris (1967).
@@ -9418,19 +8495,16 @@ Pallak et al. (1980).
 quotations to be truncated by time in ways that greatly modify their
 character. For example, it is not money that the Bible claims as the root
 of all evil, it is the love of money. So as not to be guilty of the same sort
-of error myself, I should note that the Emerson quote from “Self-Reli-
-ance” is somewhat longer and substantially more textured than I have
+of error myself, I should note that the Emerson quote from “Self-Reliance” is somewhat longer and substantially more textured than I have
 reported. In full, it reads, “A foolish consistency is the hobgoblin of
 little minds adored by little statesmen, and philosophers, and divines.”
 21. See Zajonc (1980) for a summary of this evidence.
-22. This is not to say that what we feel about an issue is always differ-
-214 / Influence
+22. This is not to say that what we feel about an issue is always differ214 / Influence
 
 
 ent from or always to be trusted more than what we think about it.
 However, the data are clear that our emotions and beliefs often do not
-point in the same direction. Therefore, in situations involving a decision-
-al commitment likely to have generated supporting rationalizations,
+point in the same direction. Therefore, in situations involving a decisional commitment likely to have generated supporting rationalizations,
 feelings may well provide the truer counsel. This would be especially
 so when, as in the question of Sara’s happiness, the fundamental issue
 at hand concerns an emotion (Wilson, 1989).
@@ -9442,8 +8516,7 @@ Lightstone the last of which contains the indication that canned laughter
 is most effective for poor material.
 2. The researchers who infiltrated the Graham Crusade and who
 provided the quote are Altheide and Johnson (1977).
-3. See Bandura, Grusec, and Menlove (1967) and Bandura and Men-
-love (1968) for full descriptions of the dog-phobia treatment.
+3. See Bandura, Grusec, and Menlove (1967) and Bandura and Menlove (1968) for full descriptions of the dog-phobia treatment.
 Any reader who doubts that the seeming appropriateness of an action
 is importantly influenced by the number of others performing it might
 try a small experiment. Stand on a busy sidewalk, pick out an empty
@@ -9455,8 +8528,7 @@ four friends to look upward too. Within sixty seconds, a crowd of
 passersby will have stopped to crane their necks skyward with the
 group. For those pedestrians who do not join you, the pressure to look
 up at least briefly will be nearly irresistible; if your experiment brings
-the same results as the one performed by three New York social psycho-
-logists, you and your friends will cause 80 percent of all passersby to
+the same results as the one performed by three New York social psychologists, you and your friends will cause 80 percent of all passersby to
 lift their gaze to your empty spot (Milgram, Bickman, and Berkowitz,
 1967).
 4. Other research besides O’Connor’s (1972) suggests that there are
@@ -9475,8 +8547,7 @@ harmed another. Afterward, these children were significantly more
 harmful toward another child than were children who had watched a
 nonviolent television program (a horserace). The finding that seeing
 others perform aggressively led to more aggression on the part of the
-young viewers held true for the two age groups tested (five-to-six-year-
-olds and eight-to-nine-year-olds) and for both girls and boys.
+young viewers held true for the two age groups tested (five-to-six-yearolds and eight-to-nine-year-olds) and for both girls and boys.
 5. An engagingly written report of their complete findings is
 presented in Festinger, Riecken, and Schachter’s (1956) book When
 Prophecy Fails.
@@ -9484,19 +8555,13 @@ Prophecy Fails.
 they approached their task, the believers were wholly unsuccessful at
 enlarging their number. Not a single convert was gained. At that point,
 in the face of the twin failures of physical and social proof, the cult
-quickly disintegrated. Less than three weeks after the date of the pre-
-dicted flood, group members were scattered and maintaining only
-sporadic communication with one another. In one final—and ironic—dis-
-confirmation of prediction, it was the movement that perished in the
+quickly disintegrated. Less than three weeks after the date of the predicted flood, group members were scattered and maintaining only
+sporadic communication with one another. In one final—and ironic—disconfirmation of prediction, it was the movement that perished in the
 flood.
-Ruin has not always been the fate of doomsday groups whose predic-
-tions proved unsound, however. When such groups have been able to
+Ruin has not always been the fate of doomsday groups whose predictions proved unsound, however. When such groups have been able to
 build social proof for their beliefs through effective recruitment efforts,
-they have grown and prospered. For example, when the Dutch Ana-
-baptists saw their prophesied year of destruction, 1533, pass unevent-
-fully, they became rabid seekers after converts, pouring unprecedented
-amounts of energy into the cause. One extraordinarily eloquent mission-
-ary, Jakob van Kampen, is reported to have baptized one hundred
+they have grown and prospered. For example, when the Dutch Anabaptists saw their prophesied year of destruction, 1533, pass uneventfully, they became rabid seekers after converts, pouring unprecedented
+amounts of energy into the cause. One extraordinarily eloquent missionary, Jakob van Kampen, is reported to have baptized one hundred
 persons in a single day. So powerful was the snowballing social evidence
 in support of the Anabaptist position that it rapidly overwhelmed the
 disconfirming physical evidence and turned two thirds of the population
@@ -9504,14 +8569,12 @@ of Holland’s great cities into adherents.
 7. From Rosenthal’s Thirty-eight Witnesses, 1964.
 8. This quote comes from Latané and Darley’s award-winning book
 (1968), where they introduced the concept of pluralistic ignorance.
-The potentially tragic consequences of the pluralistic ignorance phe-
-nomenon are starkly illustrated in a UPI news release from Chicago:
+The potentially tragic consequences of the pluralistic ignorance phenomenon are starkly illustrated in a UPI news release from Chicago:
 A university coed was beaten and strangled in daylight hours near
 one of the most popular tourist attractions in the city, police said
 Saturday.
 The nude body of Lee Alexis Wilson, 23, was found Friday in
-dense shrubbery alongside the wall of the Art Institute by a 12-
-year-old boy playing in the bushes.
+dense shrubbery alongside the wall of the Art Institute by a 12year-old boy playing in the bushes.
 216 / Influence
 
 
@@ -9520,11 +8583,8 @@ fountain in the Art Institute’s south plaza when she was attacked.
 The assailant apparently then dragged her into the bushes. She
 apparently was sexually assaulted, police said.
 Police said thousands of persons must have passed the site and
-one man told them he heard a scream about 2 P.M. but did not in-
-vestigate because no one else seemed to be paying attention.
-9. The New York “seizure” and “smoke” emergency studies are re-
-ported by Darley and Latané (1968) and Latané and Darley (1968), re-
-spectively. The Toronto experiment was performed by Ross (1971). The
+one man told them he heard a scream about 2 P.M. but did not investigate because no one else seemed to be paying attention.
+9. The New York “seizure” and “smoke” emergency studies are reported by Darley and Latané (1968) and Latané and Darley (1968), respectively. The Toronto experiment was performed by Ross (1971). The
 Florida studies were published by Clark and Word in 1972 and 1974.
 10. See a study by Latané and Rodin (1969) showing that groups of
 strangers help less in an emergency than groups of acquaintances.
@@ -9538,21 +8598,17 @@ the TV story data come from Bollen and Phillips (1982), Gould and
 Schaffer (1986), Phillips and Carstensen (1986), and Schmidtke and
 Hafner (1988).
 14. These new data appear in Phillips (1983).
-15. The quote is from The International Cyclopedia of Music and Musi-
-cians, 1964, which Sabin edited.
+15. The quote is from The International Cyclopedia of Music and Musicians, 1964, which Sabin edited.
 16. From Hornaday (1887).
 CHAPTER 5 (PAGES 167–207)
 1. The Canadian election study was reported by Efran and Patterson
 (1976). Data of this sort give credence to the claim of some Richard
 Nixon backers that the failure that contributed most to the loss of the
-1960 TV debates with John F. Kennedy—and thereby to the elec-
-tion—was the poor performance of Nixon’s makeup man.
+1960 TV debates with John F. Kennedy—and thereby to the election—was the poor performance of Nixon’s makeup man.
 2. See Mack and Rainey (1990).
 3. This finding—that attractive defendants, even when they are found
 guilty, are less likely to be sentenced to prison—helps explain one of
-the more fascinating experiments in criminology I have heard of (Kur-
-tzburg et al., 1968). Some New York City jail inmates with facial disfig-
-urements were given plastic surgery while incarcerated; others with
+the more fascinating experiments in criminology I have heard of (Kurtzburg et al., 1968). Some New York City jail inmates with facial disfigurements were given plastic surgery while incarcerated; others with
 similar disfigurements were not. Furthermore, some of each of these
 two groups of criminals were given services (for example, counseling
 Robert B. Cialdini Ph.D / 217
@@ -9587,14 +8643,12 @@ al. (1971).
 Additional work suggests yet another reason for caution when dealing
 with similar requesters: We typically underestimate the degree to which
 similarity affects our liking for another (Gonzales et al., 1983).
-8. See Drachman et al. (1978) for a complete description of the find-
-ings.
+8. See Drachman et al. (1978) for a complete description of the findings.
 9. Bornstein (1989) summarizes much of this evidence.
 10. The mirror study was performed by Mita et al. (1977).
 11. For general evidence regarding the positive effect of familiarity
 on attraction, see Zajonc (1968). For more specific evidence of this effect
-on our response to politicians, the research of Joseph Grush is enlight-
-ening and sobering (Grush et al., 1978; Grush, 1980), in documenting a
+on our response to politicians, the research of Joseph Grush is enlightening and sobering (Grush et al., 1978; Grush, 1980), in documenting a
 strong connection between amount of media exposure and a candidate’s
 chances of winning an election.
 12. See Bornstein, Leone, and Galley (1987).
@@ -9626,10 +8680,8 @@ researching this book, it was common for a salesman to have a soft
 drink or cigarette in silence while the boss continued working at his
 desk. After a seemly time, the salesman would loosen his tie and return
 to his customers, looking weary but carrying the deal he had just
-“hammered out” for them—the same deal he had in mind before enter-
-ing the boss’s office.
-20. For experimental evidence of the validity of Shakespeare’s obser-
-vation, see Manis et al. (1974).
+“hammered out” for them—the same deal he had in mind before entering the boss’s office.
+20. For experimental evidence of the validity of Shakespeare’s observation, see Manis et al. (1974).
 21. A review of research supporting this statement is provided by
 Lott and Lott (1965).
 22. See the study by Miller et al. (1966) for evidence.
@@ -9638,8 +8690,7 @@ Lott and Lott (1965).
 sponsors spend millions to secure Olympic sponsorships, and they
 spend many millions more to advertise their connections to the event.
 Yet it may all be worth the expense. An Advertising Age survey found
-that one third of all consumers said they would be more likely to pur-
-chase a product if it were linked to the Olympics.
+that one third of all consumers said they would be more likely to purchase a product if it were linked to the Olympics.
 25. The Georgia study was done by Rosen and Tesser (1970).
 26. From Asimov (1975).
 27. Both the sweatshirt and the pronoun experiments are reported
@@ -9652,18 +8703,14 @@ CHAPTER 6 (PAGES 208–236)
 and Social Psychology.
 2. All of these variations on the basic experiment, as well as several
 others, are presented in Milgram’s highly readable book Obedience to
-Authority, 1974. A review of much of the subsequent research on obed-
-ience can be found in Blass (1991).
-3. In fact, Milgram first began his investigations in an attempt to un-
-derstand how the German citizenry could have participated in the
+Authority, 1974. A review of much of the subsequent research on obedience can be found in Blass (1991).
+3. In fact, Milgram first began his investigations in an attempt to understand how the German citizenry could have participated in the
 concentration-camp destruction of millions of innocents during the
 years of Nazi ascendancy. After testing his experimental procedures in
 the United States, he had planned to take them to Germany, a country
 whose populace he was sure would provide enough obedience for a
-full-blown scientific analysis of the concept. That first eye-opening ex-
-periment in New Haven, Connecticut, however, made it clear that he
-could save his money and stay close to home. “I found so much obedi-
-ence,” he has said, “I hardly saw the need of taking the experiment to
+full-blown scientific analysis of the concept. That first eye-opening experiment in New Haven, Connecticut, however, made it clear that he
+could save his money and stay close to home. “I found so much obedience,” he has said, “I hardly saw the need of taking the experiment to
 Germany.”
 More telling evidence, perhaps, of a willingness within the American
 character to submit to authorized command comes from a national
@@ -9676,16 +8723,14 @@ residents of a Vietnamese village. But Americans have no monopoly
 on the need to obey. When Milgram’s basic procedure has been repeated
 in Holland, Germany, Spain, Italy, Australia, and Jordan, the results
 have been similar. See Meeus and Raaijmakers for a review.
-4. We are not the only species to give sometimes wrongheaded defer-
-ence to those in authority positions. In monkey colonies, where rigid
+4. We are not the only species to give sometimes wrongheaded deference to those in authority positions. In monkey colonies, where rigid
 dominance hierarchies exist, beneficial innovations (like learning how
 to use a stick to bring food into the cage area) do not spread quickly
 through the group unless they are taught first to a dominant animal.
 When a lower animal is taught the new concept first, the rest of the
 colony remains mostly oblivious to its value. One study, cited by Ardry
 (1970), on the introduction of new food tastes to Japanese monkeys
-provides a nice illustration. In one troop, a taste for caramels was de-
-veloped by introducing this new food into the diet of young peripherals,
+provides a nice illustration. In one troop, a taste for caramels was developed by introducing this new food into the diet of young peripherals,
 low on the status ladder. The taste for caramels inched slowly up the
 ranks: A year and a half later, only 51 percent of the colony had acquired
 220 / Influence
@@ -9702,11 +8747,9 @@ done by Dukes and Bevan (1952). In addition to the relationship between
 importance (status) and perceived size that both of these experiments
 show, there is even some evidence that the importance we assign to
 our identity is reflected in the size of a frequent symbol of that identity:
-our signature. The psychologist Richard Zweigenhaft (1970) has collec-
-ted data suggesting that as a man’s sense of his own status grows, so
+our signature. The psychologist Richard Zweigenhaft (1970) has collected data suggesting that as a man’s sense of his own status grows, so
 does the size of his signature. This finding may give us a secret way of
-discovering how the people around us view their own status and im-
-portance: Simply compare the size of their signature to that of their
+discovering how the people around us view their own status and importance: Simply compare the size of their signature to that of their
 other handwriting.
 7. Subhumans are not alone in this regard, even in modern times. For
 example, since 1900 the U.S. presidency has been won by the taller of
@@ -9715,8 +8758,7 @@ the major-party candidates in twenty-one of the twenty-four elections.
 9. Additional data collected in the same study suggest that nurses
 may not be conscious of the extent to which the title Doctor sways their
 judgments and actions. A separate group of thirty-three nurses and
-student nurses were asked what they would have done in the experi-
-mental situation. Contrary to the actual findings, only two predicted
+student nurses were asked what they would have done in the experimental situation. Contrary to the actual findings, only two predicted
 that they would have given the medication as ordered.
 10. See Bickman (1974) for a complete account of this research. Similar
 results have been obtained when the requester was female (Bushman,
@@ -9756,15 +8798,13 @@ come from other people rather than from physical barriers (Brehm,
 6. For descriptions of the two-year-old’s change in self-perception,
 see Mahler et al. (1975), Lewis and Brooks-Gunn (1979), Brooks-Gun
 and Lewis (1982), and Levine (1983).
-7. The occurrence of the Romeo and Juliet effect should not be inter-
-preted as a warning to parents to be always accepting of their teenagers’
+7. The occurrence of the Romeo and Juliet effect should not be interpreted as a warning to parents to be always accepting of their teenagers’
 romantic choices. New players at this delicate game are likely to err
 often and, consequently, would benefit from the direction of an adult
 with greater perspective and experience. In providing such direction,
 parents should recognize that teenagers, who see themselves as young
 adults, will not respond well to control attempts that are typical of
-parent-child relationships. Especially in the clearly adult arena of mat-
-ing, adult tools of influence (preference and persuasion) will be more
+parent-child relationships. Especially in the clearly adult arena of mating, adult tools of influence (preference and persuasion) will be more
 effective than traditional forms of parental control (prohibitions and
 punishments). Although the experience of the Montague and Capulet
 families is an extreme example, heavy-handed restrictions on a young
@@ -9802,11 +8842,8 @@ Gilbert and Osborn (1989), Hockey and Hamilton (1970), Mackworth
 Robert B. Cialdini Ph.D / 223
 
 
-
-
 BIBLIOGRAPHY
-Altheide, D. L., and J. M. Johnson. “Counting Souls: A Study of Coun-
-seling at Evangelical Crusades.” Pacific Sociological Review 20 (1977):
+Altheide, D. L., and J. M. Johnson. “Counting Souls: A Study of Counseling at Evangelical Crusades.” Pacific Sociological Review 20 (1977):
 323–48.
 Ardry, R. The Social Contract. New York: Atheneum, 1970.
 Aronson, E. “The Jigsaw Route to Learning and Liking.” Psychology
@@ -9818,8 +8855,7 @@ L. Saxe. New York: Halstead Press, 1978.
 ——. “Interdependent Interactions and Prosocial Behavior.” Journal of
 Research and Development in Education 12 (1978): 16–27.
 Aronson, E., and D. L. Linder. “Gain and Loss of Esteem as Determinants
-of Interpersonal Attractiveness.” Journal of Experimental Social Psycho-
-logy 1 (1965): 156–71.
+of Interpersonal Attractiveness.” Journal of Experimental Social Psychology 1 (1965): 156–71.
 Aronson, E., and J. Mills. “The Effect of Severity of Initiation on Liking
 for a Group.” Journal of Abnormal and Social Psychology 59 (1959):
 177–81.
@@ -9832,8 +8868,7 @@ Asimov, I. “The Miss America Pageant.” TV Guide, Aug. 30, 1975.
 Bandura, A., J. E. Grusec, and F. L. Menlove. “Vicarious Extinction of
 Avoidance Behavior.” Journal of Personality and Social Psychology 5
 (1967): 16–23.
-Bandura, A., and F. L. Menlove. “Factors Determining Vicarious Extinc-
-tion of Avoidance Behavior Through Symbolic Modeling.” Journal of
+Bandura, A., and F. L. Menlove. “Factors Determining Vicarious Extinction of Avoidance Behavior Through Symbolic Modeling.” Journal of
 Personality and Social Psychology 8 (1968): 99–108.
 Benson, P. L., S. A. Karabenic, and R. M. Lerner. “Pretty Pleases: The
 
@@ -9851,8 +8886,7 @@ An Experiment in Timing of Payment.” Public Opinion Quarterly 51
 (1987): 102–14.
 Bickman, L. “The Social Power of a Uniform.” Journal of Applied Social
 Psychology 4 (1974): 47–61.
-Blass, T. “Understanding Behavior in the Milgram Obedience Experi-
-ment.” Journal of Personality and Social Psychology 60 (1991): 398–413.
+Blass, T. “Understanding Behavior in the Milgram Obedience Experiment.” Journal of Personality and Social Psychology 60 (1991): 398–413.
 Bodenhausen, G. V. “Stereotypes as Judgmental Heuristics: Evidence
 of Circadian Variations in Discrimination.” Psychological Science 1
 (1990): 319–22.
@@ -9866,8 +8900,7 @@ Mere Exposure Effects.” Journal of Personality and Social Psychology 53
 (1987): 1070–79.
 Brehm, J. W. A Theory of Psychological Reactance. New York: Academic
 Press, 1966.
-Brehm, S. S. “Psychological Reactance and the Attractiveness of Unat-
-tainable Objects: Sex Differences in Children’s Responses to an
+Brehm, S. S. “Psychological Reactance and the Attractiveness of Unattainable Objects: Sex Differences in Children’s Responses to an
 Elimination of Freedom.” Sex Roles 7 (1981): 937–49.
 ——, and J. W. Brehm. Psychological Reactance. New York: Academic
 Press, 1981.
@@ -9882,20 +8915,17 @@ T. C. Brock, and T. M. Ostrom. New York: Academic Press, 1968.
 
 ——, and L. A. Brannon. “Liberalization of Commodity Theory.” Basic
 and Applied Social Psychology 13 (1992): 135–43.
-Broeder, D. “The University of Chicago Jury Project.” Nebraska Law Re-
-view 38 (1959): 760–74.
+Broeder, D. “The University of Chicago Jury Project.” Nebraska Law Review 38 (1959): 760–74.
 Brooks-Gunn, J., and M. Lewis. “The Development of Self-Knowledge.”
 In The Child, edited by C. B. Kopp and J. B. Krakow. Reading, Mass.:
 Addison-Wesley, 1982.
 Brownstein, R., and R. Katzev. “The Relative Effectiveness of Three
-Compliance Techniques in Eliciting Donations to a Cultural Organiz-
-ation.” Journal of Applied Social Psychology 15 (1985): 564–74.
+Compliance Techniques in Eliciting Donations to a Cultural Organization.” Journal of Applied Social Psychology 15 (1985): 564–74.
 Bruner, J. S., and C. C. Goodman. “Value and Need as Organizing
 Factors in Perception.” Journal of Abnormal and Social Psychology 42
 (1947): 33–44.
 Burger, J. M., and R. E. Petty. “The Low-Ball Compliance Technique:
-Task or Person Commitment?” Journal of Personality and Social Psycho-
-logy 40 (1981): 492–500.
+Task or Person Commitment?” Journal of Personality and Social Psychology 40 (1981): 492–500.
 Burgess, T., and S. Sales. “Attitudinal Effects of ‘Mere Exposure’: A
 Reevaluation.” Journal of Experimental Social Psychology 7 (1971):
 461–72.
@@ -9938,8 +8968,7 @@ Situational Characteristics of the Emergency.” Journal of Personality
 and Social Psychology 29 (1974): 279–87.
 Cohen, M., and N. Davis. Medication Errors: Causes and Prevention.
 Philadelphia: G. F. Stickley, 1981.
-Cohen, S. “Environmental Load and the Allocation of Attention,” Ad-
-vances in Environmental Psychology, Vol. 1, ed. A. Baum, J. E. Singer,
+Cohen, S. “Environmental Load and the Allocation of Attention,” Advances in Environmental Psychology, Vol. 1, ed. A. Baum, J. E. Singer,
 and S. Valins. New York: Halstead Press, 1978.
 Cook, S. W. “Interpersonal and Attitudinal Outcomes in Cooperating
 Interracial Groups.” Journal of Research and Development in Education
@@ -9956,15 +8985,13 @@ Violence in America, edited by H. D. Graham and T. R. Gurr. New
 York: Signet Books, 1969.
 ——. “Toward a Theory of Revolution.” American Sociological Review
 27 (1962): 5–19.
-Deutsch, M., and H. B. Gerard, “A Study of Normative and Information-
-al Social Influences upon Individual Judgment.” Journal of Abnormal
+Deutsch, M., and H. B. Gerard, “A Study of Normative and Informational Social Influences upon Individual Judgment.” Journal of Abnormal
 and Social Psychology 51 (1955): 629–36.
 De Vries, D. L., and R. E. Slavin. “Teams-Games-Tournaments (TGT):
 228 / Influence
 
 
-Review of Ten Classroom Experiments.” Journal of Research and Devel-
-opment in Education 12 (1978): 28–38.
+Review of Ten Classroom Experiments.” Journal of Research and Development in Education 12 (1978): 28–38.
 Dion, K. K. “Physical Attractiveness and Evaluation of Children’s
 Transgressions.” Journal of Personality and Social Psychology 24 (1972):
 207–13.
@@ -9981,12 +9008,10 @@ Dukes, W. F., and W. Bevan. “Accentuation and Response Variability
 in the Perception of Personally Relevant Objects.” Journal of Personality
 20 (1952): 457–65.
 Eagly, A. H., et al. “What Is Beautiful Is Good, but…: A Meta-Analytic
-Review of Research on the Physical Attractiveness Stereotype.” Psy-
-chological Bulletin 110 (1990): 109–28.
+Review of Research on the Physical Attractiveness Stereotype.” Psychological Bulletin 110 (1990): 109–28.
 Easterbrook, J. A. “The Effects of Emotion on Cue Utilization and the
 Organization of Behavior.” Psychological Review 66 (1959): 183–201.
-Efran, M. G., and E.W.J. Patterson. “The Politics of Appearance.” Un-
-published manuscript, University of Toronto, 1976.
+Efran, M. G., and E.W.J. Patterson. “The Politics of Appearance.” Unpublished manuscript, University of Toronto, 1976.
 Eibl-Eibesfeldt, I. “Der Fisch Aspidontus taeniatus als Machahmer des
 Putzers Labroides dimidiatus.” Zeitschrift fuer Tierpsychologie 16 (1959):
 19–25.
@@ -9995,12 +9020,10 @@ for Small Favors.” Journal of Applied Social Psychology (1971): 284–91.
 Evans, F. B. American Behavioral Scientist 6:7 (1963): 76–79.
 Festinger, L., H. W. Riecken, and S. Schachter. When Prophecy Fails.
 Minneapolis: University of Minnesota Press, 1956.
-Fox, M. W. Concepts in Ethology: Animal and Human Behavior. Minneap-
-olis: University of Minnesota Press, 1974.
+Fox, M. W. Concepts in Ethology: Animal and Human Behavior. Minneapolis: University of Minnesota Press, 1974.
 Freedman, J. L. “Long-term Behavioral Effects of Cognitive Dissonance.”
 Journal of Experimental Social Psychology 4 (1966): 195–203.
-——, and S. C. Fraser. “Compliance Without Pressure: The Foot-in-the-
-Door Technique.” Journal of Personality and Social Psychology 4 (1966):
+——, and S. C. Fraser. “Compliance Without Pressure: The Foot-in-theDoor Technique.” Journal of Personality and Social Psychology 4 (1966):
 195–203.
 Robert B. Cialdini Ph.D / 229
 
@@ -10022,13 +9045,10 @@ Gergen, K. et al. “Obligation, Donor Resources, and Reactions to Aid
 in Three Cultures.” Journal of Personality and Social Psychology 31 (1975):
 390–400.
 Gilbert, D. T., and R. E. Osborne. “Thinking Backward: Some Curable
-and Incurable Consequences of Cognitive Busyness.” Journal of Per-
-sonality and Social Psychology 57 (1989): 940–49.
-Gonzales, M. H., E. Aronson, and M. Costanzo. “Increasing the Effect-
-iveness of Energy Auditors: A Field Experiment.” Journal of Applied
+and Incurable Consequences of Cognitive Busyness.” Journal of Personality and Social Psychology 57 (1989): 940–49.
+Gonzales, M. H., E. Aronson, and M. Costanzo. “Increasing the Effectiveness of Energy Auditors: A Field Experiment.” Journal of Applied
 Social Psychology 18 (1988): 1046–66.
-Gonzales, M. H. et al. “Interactional Approach to Interpersonal Attrac-
-tion.” Journal of Personality and Social Psychology 44 (1983): 1192–97.
+Gonzales, M. H. et al. “Interactional Approach to Interpersonal Attraction.” Journal of Personality and Social Psychology 44 (1983): 1192–97.
 Gordon, R. E., and K. Gordon. The Blight on the Ivy. Englewood Cliffs,
 N.J.: Prentice-Hall, 1963.
 Gould, M. S., and D. Schaffer. “The Impact of Suicide in Television
@@ -10049,14 +9069,11 @@ Grush, J. E. “Impact of Candidate Expenditures, Regionality, and Prior
 Outcomes on the 1976 Democratic Presidential Primaries.” Journal of
 Personality and Social Psychology 38 (1980): 337–47.
 ——, K. L. McKeough, and R. F. Ahlering. “Extrapolating Laboratory
-Exposure Experiments to Actual Political Elections.” Journal of Person-
-ality and Social Psychology 36 (1978): 257–70.
+Exposure Experiments to Actual Political Elections.” Journal of Personality and Social Psychology 36 (1978): 257–70.
 Hockey, G.R.J., and P. Hamilton. “Arousal and Information Selection
 in Short-term Memory.” Nature 226 (1970): 866–67.
-Hofling, C. K. et al. “An Experimental Study of Nurse-Physician Rela-
-tionships.” Journal of Nervous and Mental Disease 143 (1966): 171–80.
-Hölldobler, B. “Communication Between Ants and Their Guests.” Sci-
-entific American 198 (Jan.) (1971): 68–76.
+Hofling, C. K. et al. “An Experimental Study of Nurse-Physician Relationships.” Journal of Nervous and Mental Disease 143 (1966): 171–80.
+Hölldobler, B. “Communication Between Ants and Their Guests.” Scientific American 198 (Jan.) (1971): 68–76.
 Hornaday, W. T. “The Extermination of the American Bison, with a
 Sketch of Its Discovery and Life History.” Smithsonian Report, 1887,
 Part II, 367–548.
@@ -10069,8 +9086,7 @@ on Compliance Behavior: The Foot-in-the-Mouth Effect.” Journal of
 Applied Social Psychology 20 (1990): 1185–96.
 Hunt, J. M., T.J. Domzal, and J. B. Kernan. “Causal Attribution and
 Persuasion: The Case of Disconfirmed Expectancies,” Advances in
-Consumer Research, Vol. 9, ed. A. Mitchell. Ann Arbor, Mich.: Associ-
-ation for Consumer Research, 1981.
+Consumer Research, Vol. 9, ed. A. Mitchell. Ann Arbor, Mich.: Association for Consumer Research, 1981.
 Johnson, D. W., and R. T. Johnson. Learning Together and Learning Alone.
 Englewood Cliffs, N.J.: Prentice-Hall, 1975.
 ——. “The Socialization and Achievement Crisis: Are Cooperative
@@ -10101,8 +9117,7 @@ Kerr, N. L., and R. J. MacCoun. “The Effects of Jury Size and Polling
 Method on the Process and Product of Jury Deliberation.” Journal of
 Personality and Social Psychology 48 (1985): 349–63.
 Knishinsky, A. “The Effects of Scarcity of Material and Exclusivity of
-Information on Industrial Buyer Perceived Risk in Provoking a Pur-
-chase Decision.” Doctoral dissertation, Arizona State University, 1982.
+Information on Industrial Buyer Perceived Risk in Provoking a Purchase Decision.” Doctoral dissertation, Arizona State University, 1982.
 Knox, R. E., and J. A. Inkster. “Postdecisional Dissonance at Post Time.”
 Journal of Personality and Social Psychology 8 (1968): 319–23.
 Kraut, R. E. “Effects of Social Labeling on Giving to Charity.” Journal
@@ -10112,8 +9127,7 @@ Litigant Physical Attractiveness on Judicial Judgment.” Journal of
 Applied Social Psychology 4 (1978): 336–81.
 Kunz, P. R., and M. Woolcott. “Season’s Greetings: From My Status to
 Yours.” Social Science Research, 5 (1976): 269–78.
-Kurtzburg, R. L., H. Safar, and N. Cavior. “Surgical and Social Rehabil-
-itation of Adult Offenders.” Proceedings of the 76th Annual Convention
+Kurtzburg, R. L., H. Safar, and N. Cavior. “Surgical and Social Rehabilitation of Adult Offenders.” Proceedings of the 76th Annual Convention
 of the American Psychological Association 3 (1968): 649–50.
 Lack, D. The Life of the Robin. London: Cambridge University Press, 1943.
 LaFrance, M. “Postural Mirroring and Intergroup Relations.” Personality
@@ -10129,36 +9143,28 @@ in Emergencies.” Journal of Personality and Social Psychology 10 (1968):
 232 / Influence
 
 
-——. The Unresponsive Bystander: Why Doesn’t He Help? New York: Ap-
-pleton-Century-Crofts, 1968.
+——. The Unresponsive Bystander: Why Doesn’t He Help? New York: Appleton-Century-Crofts, 1968.
 Latané, B., and J. Rodin. “A Lady in Distress: Inhibiting Effects of Friends
 and Strangers on Bystander Intervention.” Journal of Experimental
 Social Psychology 5 (1969): 189–202.
 Leakey, R., and R. Lewin. People of the Lake. New York: Anchor
 Press/Doubleday, 1978.
-Lefkowitz, M., R. R. Blake, and J. S. Mouton. “Status Factors in Pedes-
-trian Violation of Traffic Signals.” Journal of Abnormal and Social Psy-
-chology 51 (1955): 704–06.
-Levine, L. E. “Mine: Self-Definition in Two-Year-Old Boys.” Develop-
-mental Psychology 19 (1983): 544–49.
+Lefkowitz, M., R. R. Blake, and J. S. Mouton. “Status Factors in Pedestrian Violation of Traffic Signals.” Journal of Abnormal and Social Psychology 51 (1955): 704–06.
+Levine, L. E. “Mine: Self-Definition in Two-Year-Old Boys.” Developmental Psychology 19 (1983): 544–49.
 Lewis, M., and J. Brooks-Gunn. Social Cognition and the Acquisition of
 Self. New York: Plenum, 1979.
-Liebert, R., and R. A. Baron. “Some Immediate Effects of Televised Vi-
-olence on Children’s Behavior.” Developmental Psychology 6 (1972):
+Liebert, R., and R. A. Baron. “Some Immediate Effects of Televised Violence on Children’s Behavior.” Developmental Psychology 6 (1972):
 469–75.
 Lloyd, J. E. “Aggressive Mimicry in Photuris: Firefly Femme Fatales.”
 Science 149 (1965): 653–54.
-Locke, K. S., and L. M. Horowitz. “Satisfaction in Interpersonal Interac-
-tions as a Function of Similarity in Level of Dysphoria. Journal of
+Locke, K. S., and L. M. Horowitz. “Satisfaction in Interpersonal Interactions as a Function of Similarity in Level of Dysphoria. Journal of
 Personality and Social Psychology 58 (1990): 823–31.
-Lott, A. J., and B. E. Lott. “Group Cohesiveness as Interpersonal Attrac-
-tion: A Review of Relationships with Antecedent and Consequent
+Lott, A. J., and B. E. Lott. “Group Cohesiveness as Interpersonal Attraction: A Review of Relationships with Antecedent and Consequent
 Variables.” Psychological Bulletin 64 (1965): 259–309.
 Lytton, J. “Correlates of Compliance and the Rudiments of Conscience
 in Two-Year-Old Boys.” Canadian Journal of Behavioral Science 9 (1979):
 242–51.
-McGuinnies, E., and C. D. Ward. “Better Liked Than Right: Trustwor-
-thiness and Expertise as Factors in Credibility.” Personality and Social
+McGuinnies, E., and C. D. Ward. “Better Liked Than Right: Trustworthiness and Expertise as Factors in Credibility.” Personality and Social
 Psychology Bulletin 6 (1980): 467–72.
 Mack, D., and D. Rainey. “Female Applicants’ Grooming and Personnel
 Selection.” Journal of Social Behavior and Personality 5 (1990): 399–407.
@@ -10173,16 +9179,14 @@ Robert B. Cialdini Ph.D / 233
 
 Magruder, J. S. An American Life: One Man’s Road to Watergate. New
 York: Atheneum, 1974.
-Mahler, M. S., F. Pine, and A. Bergman. The Psychological Birth of the In-
-fant. New York: Basic Books, 1975.
+Mahler, M. S., F. Pine, and A. Bergman. The Psychological Birth of the Infant. New York: Basic Books, 1975.
 Manis, M., S. D. Cornell, and J. C. Moore. “Transmission of Attitude
 Relevant Information Through a Communication Chain.” Journal of
 Personality and Social Psychology 30 (1974): 81–94.
 Mauss, Marcel. The Gift, trans. I. G. Cunnison. London: Cohen and West,
 1954.
 Mazis, M. B. “Antipollution Measures and Psychological Reactance
-Theory: A Field Experiment.” Journal of Personality and Social Psycho-
-logy 31 (1975): 654–66.
+Theory: A Field Experiment.” Journal of Personality and Social Psychology 31 (1975): 654–66.
 ——, R. B. Settle, and D. C. Leslie. “Elimination of Phosphate Detergents
 and Psychological Reactance.” Journal of Marketing Research 10 (1973):
 390–95.
@@ -10190,8 +9194,7 @@ Meeus, W.H.J., and Q.A.W. Raaijmakers. “Administrative Obedience:
 Carrying Out Orders to Use Psychological-Administrative Violence.”
 European Journal of Social Psychology 16 (1986): 311–24.
 Melamed, B. F. et al. “The Effects of Film Modeling on the Reduction
-of Anxiety-related Behaviors.” Journal of Consulting and Clinical Psy-
-chology 46 (1978): 1357–74.
+of Anxiety-related Behaviors.” Journal of Consulting and Clinical Psychology 46 (1978): 1357–74.
 Milgram, S. “Behavorial Study of Obedience.” Journal of Abnormal and
 Social Psychology 67 (1963): 371–78.
 ——. “The Experience of Living in Cities.” Science 13 (1970): 1461–68.
@@ -10202,8 +9205,7 @@ Crowds of Different Size.” Journal of Personality and Social Psychology
 Milgram, S., and J. Sabini. “On Maintaining Norms: A Field Experiment
 in the Subway.” Unpublished manuscript, City University of New
 York, 1975.
-Miller, N. et al. “Similarity, Contrast, and Complementarity in Friend-
-ship Choice.” Journal of Personality and Social Psychology 3 (1966): 3–12.
+Miller, N. et al. “Similarity, Contrast, and Complementarity in Friendship Choice.” Journal of Personality and Social Psychology 3 (1966): 3–12.
 Miller, R. L. et al. “Perceptual Contrast Versus Reciprocal Concession
 as Mediators of Induced Compliance.” Canadian Journal of Behavioral
 Science 8 (1976): 401–09.
@@ -10233,22 +9235,17 @@ Peiponen, V. A. “Verhaltensstudien am blaukehlchen.” Ornis Fennica
 Pekkanen, J. The Best Doctors in the U.S. New York: Seaview Books, 1971.
 Pennebaker, J. W. et al. “Don’t the Girls Get Prettier at Closing Time.”
 Personality and Social Psychology Bulletin 5 (1979): 122–25.
-Phillips, D. P. “Airplane Accidents, Murder, and the Mass Media: To-
-wards a Theory of Imitation and Suggestion.” Social Forces 58 (1980):
+Phillips, D. P. “Airplane Accidents, Murder, and the Mass Media: Towards a Theory of Imitation and Suggestion.” Social Forces 58 (1980):
 1001–24.
-——. “The Impact of Mass Media Violence on U.S. Homicides.” Amer-
-ican Sociological Review 48 (1983): 560–68.
-——. “The Influence of Suggestion on Suicide: Substantive and Theor-
-etical Implications of the Werther Effect.” American Sociological Review
+——. “The Impact of Mass Media Violence on U.S. Homicides.” American Sociological Review 48 (1983): 560–68.
+——. “The Influence of Suggestion on Suicide: Substantive and Theoretical Implications of the Werther Effect.” American Sociological Review
 39 (1974): 340–54.
 ——. “Suicide, Motor Vehicle Fatalities, and the Mass Media: Evidence
 Toward a Theory of Suggestion.” American Journal of Sociology 84
 (1979): 1150–74.
 ——, and L. L. Carstensen. “The Effect of Suicide Stories on Various
-Demographic Groups, 1968–1985.” Suicide and Life-Threatening Beha-
-vior 18 (1988): 100–14.
-Razran, G.H.S. “Conditioned Response Changes in Rating and Apprais-
-ing Sociopolitical Slogans.” Psychological Bulletin 37 (1940): 481.
+Demographic Groups, 1968–1985.” Suicide and Life-Threatening Behavior 18 (1988): 100–14.
+Razran, G.H.S. “Conditioned Response Changes in Rating and Appraising Sociopolitical Slogans.” Psychological Bulletin 37 (1940): 481.
 ——. “Conditioning Away Social Bias by the Luncheon Technique.”
 Psychological Bulletin 35 (1938): 693.
 Robert B. Cialdini Ph.D / 235
@@ -10258,8 +9255,7 @@ Regan, D. T. “Effects of a Favor and Liking on Compliance.” Journal of
 Experimental Social Psychology 7 (1971): 627–39.
 Rich, J. “Effects of Children’s Physical Attractiveness on Teachers’
 Evaluations.” Journal of Educational Psychology 67 (1975): 599–609.
-Rosen, S., and A. Tesser. “On the Reluctance to Communicate Undesir-
-able Information: The MUM Effect.” Sociometry 33 (1970): 253–63.
+Rosen, S., and A. Tesser. “On the Reluctance to Communicate Undesirable Information: The MUM Effect.” Sociometry 33 (1970): 253–63.
 Rosenfeld, P., J. G. Kennedy, and R. A. Giacalone. “Decision Making:
 A Demonstration of the Postdecision Dissonance Effect.” Journal of
 Social Psychology 126 (1986): 663–65.
@@ -10268,8 +9264,7 @@ Children.” In Developmental Social Psychology, edited by S. Brehm, S.
 Kassin, and F. Gibbons. New York: Oxford University Press, 1981.
 Rosenthal, A. M. Thirty-eight Witnesses. New York: McGraw-Hill, 1964.
 Rosenthal, M. J., E. Ni, and R. E. Robertson. “A Study of Mother-Child
-Relationships in the Emotional Disorders of Children.” Genetic Psy-
-chology Monographs 60 (1959): 65–116.
+Relationships in the Emotional Disorders of Children.” Genetic Psychology Monographs 60 (1959): 65–116.
 Ross, A. S. “Effect of Increased Responsibility on Bystander Intervention:
 The Presence of Children.” Journal of Personality and Social Psychology
 19 (1971): 306–10.
@@ -10283,28 +9278,23 @@ Schmidtke, A., and H. Hafner. “The Werther Effect After Television
 Films: New Evidence for an Old Hypothesis.” Psychological Medicine
 18 (1988): 665–76.
 Schwarz, N. “Experimentelle Untersuchungen zur Reduktion durch
-Freiheitswerderstellung.” Doctoral dissertation, Universität Man-
-nheim, 1980.
-Schwarzwald, J., M. Raz, and M. Zvibel. “The Efficacy of the Door-in-
-the-Face Technique When Established Behavioral Customs Exist.”
+Freiheitswerderstellung.” Doctoral dissertation, Universität Mannheim, 1980.
+Schwarzwald, J., M. Raz, and M. Zvibel. “The Efficacy of the Door-inthe-Face Technique When Established Behavioral Customs Exist.”
 Journal of Applied Social Psychology 9 (1979): 576–86.
-Segal, H. A. “Initial Psychiatric Findings of Recently Repatriated Pris-
-oners of War.” American Journal of Psychiatry 61 (1954): 358–63.
+Segal, H. A. “Initial Psychiatric Findings of Recently Repatriated Prisoners of War.” American Journal of Psychiatry 61 (1954): 358–63.
 Settle, R. B., and L. L. Gorden. “Attribution Theory and Advertiser
 Credibility.” Journal of Marketing Research 11 (1974): 181–85.
 236 / Influence
 
 
 Sherif, M. et al. Intergroup Conflict and Cooperation: The Robbers’ Cave
-Experiment. Norman, Okla.: University of Oklahoma Institute of In-
-tergroup Relations, 1961.
+Experiment. Norman, Okla.: University of Oklahoma Institute of Intergroup Relations, 1961.
 Sherman, S. J. “On the Self-Erasing Nature of Errors of Prediction.”
 Journal of Personality and Social Psychology 39 (1980): 211–21.
 Smith, G. H., and R. Engel. “Influence of a Female Model on Perceived
 Characteristics of an Automobile.” Proceedings of the 76th Annual
 Convention of the American Psychological Association 3 (1968): 681–82.
-Smith, M. M., and R.G.C. Fuller. “Effects of Group Laughter on Re-
-sponses to Humorous Materials.” Psychological Reports 30 (1972):
+Smith, M. M., and R.G.C. Fuller. “Effects of Group Laughter on Responses to Humorous Materials.” Psychological Reports 30 (1972):
 132–34.
 Smith, R. E., and S. D. Hunt. “Attributional Processes in Promotional
 Situations.” Journal of Consumer Research 5 (1978): 149–58.
@@ -10318,8 +9308,7 @@ Styron, W. “A Farewell to Arms.” New York Review of Books 24 (1977):
 Suedfeld, P., S. Bochner, and C. Matas. “Petitioner’s Attire and Petition
 Signing by Peace Demonstrators: A Field Experiment.” Journal of
 Applied Social Psychology 1 (1971): 278–8.
-Swap, W. C. “Interpersonal Attraction and Repeated Exposure to Re-
-wards and Punishers.” Personality and Social Psychology Bulletin 3
+Swap, W. C. “Interpersonal Attraction and Repeated Exposure to Rewards and Punishers.” Personality and Social Psychology Bulletin 3
 (1977): 248–51.
 Tiger, L., and R. Fox. The Imperial Animal. New York: Holt, Rinehart &
 Winston, 1971.
@@ -10338,8 +9327,7 @@ Robert B. Cialdini Ph.D / 237
 
 edited by E. E. Maccoby, T. M. Newcomb, and E. L. Hartley. New
 York: Holt, 1958.
-Whitney, R. A., T. Hubin, and J. D. Murphy. The New Psychology of Per-
-suasion and Motivation in Selling. Englewood Cliffs, N.J.: Prentice-Hall,
+Whitney, R. A., T. Hubin, and J. D. Murphy. The New Psychology of Persuasion and Motivation in Selling. Englewood Cliffs, N.J.: Prentice-Hall,
 1965.
 Wicklund, R. A., and J. C. Brehm. Cited in Wicklund, R. A., Freedom and
 Reactance. Potomac, Md.: Lawrence Erlbaum Associates, 1974.
@@ -10386,8 +9374,6 @@ Journal of Social Psychology 81 (1970): 49–54.
 Robert B. Cialdini Ph.D / 239
 
 
-
-
 INDEX
 Abrams, Robert, 243
 advertising:
@@ -10421,10 +9407,10 @@ antiphosphate ordinance, psychological reactance and, 250–251
 antismoking study, 142, 287n
 anxiety:
 dental, 142, 287n
-Note: Entries in this index, carried over verbatim from the print edition of this title, 
-are unlikely to correspond to the pagination of any given e-book reader. However, 
-entries in this index, and other terms, may be easily located by using the search 
-feature of your e-book reader. 
+Note: Entries in this index, carried over verbatim from the print edition of this title,
+are unlikely to correspond to the pagination of any given e-book reader. However,
+entries in this index, and other terms, may be easily located by using the search
+feature of your e-book reader.
 
 
 swimming, 142–143
@@ -10886,7 +9872,7 @@ legal system:
 physical attractiveness and, 171–172, 287n–288n
 see also juries, jury trials
 Leiden des jungen Werthers, Die (The Sorrows of Young Werther) (Goethe),
-145
+
 Liddy, G. Gordon, 43–45
 Liebert, Robert, 286n
 liking, 167–207, 287n–289n
@@ -11186,7 +10172,7 @@ similarity and, 140–156; see also similarity
 Tupperware parties and, 167–168
 uncertainty and, 128–140, 153–154, 156
 Sorrows of Young Werther, The (Die Leiden des jungen Werthers) (Goethe),
-145
+
 Southern California, University of (USC), 87, 88
 Soviet Union, scarcity and, 259–260
 sports, association and, 195–203
@@ -11306,8 +10292,6 @@ Zweigenhaft, Richard, 290n
 Robert B. Cialdini Ph.D / 263
 
 
-
-
 ACKNOWLEDGMENTS
 An array of people deserve and have my appreciation for their aid in
 making this book possible. Several of my academic colleagues read and
@@ -11337,23 +10321,18 @@ from the start in the book I wanted to write. It is to her editorial credit
 that the finished product remains that book, much improved. For her
 insightful direction and her potent efforts in the book’s behalf, I am
 most grateful.
-In addition, I would be remiss if I did not recognize the skill and effi-
-ciency of Sally Carney at manuscript preparation and the sound counsel
+In addition, I would be remiss if I did not recognize the skill and efficiency of Sally Carney at manuscript preparation and the sound counsel
 of my attorney, Robert Brandes.
 Finally, throughout the project, no one was more on my side than
 Bobette Gorden, who lived every word with me.
 
 
-
-
 About the Author
 Robert B. Cialdini, Ph.D. holds dual appointments at Arizona State
 Univercity. He is a W. P. Carey Distinguished Professor of Marketing
-and Regents’ Professor of Psychology, and has been named Distin-
-guished Graduate Research Professor. Dr. Cialdini is also president
+and Regents’ Professor of Psychology, and has been named Distinguished Graduate Research Professor. Dr. Cialdini is also president
 of INFLUENCE AT WORK (www.influenceatwork.com), an international
-training, speaking and consulting company based on his ground-
-breaking body of research on the ethical business applications of the
+training, speaking and consulting company based on his groundbreaking body of research on the ethical business applications of the
 science of influence. 480-967-6070.
 Visit www.AuthorTracker.com for exclusive information on your
 favorite HarperCollins author.
@@ -11376,30 +10355,30 @@ ISBN 978-0-06-189990-4
 10 9 8 7 6 5 4 3 2 1
 
 
-Australia 
-Pymble, NSW 2073, Australia 
-Canada 
-HarperCollins Publishers Ltd. 
-New Zealand 
-HarperCollinsPublishers (New Zealand) Limited 
-Auckland, New Zealand 
-United Kingdom 
-HarperCollins Publishers Ltd. 
-77-85 Fulham Palace Road 
-London, W6 8JB, UK 
-United States 
-HarperCollins Publishers Inc. 
-10 East 53rd Street 
-About the Publisher 
-HarperCollins Publishers (Australia) Pty. Ltd. 
-25 Ryde Road (PO Box 321) 
-http://www.harpercollinsebooks.com.au 
-55 Avenue Road, Suite 2900 
-Toronto, ON, M5R, 3L2, Canada 
-http://www.harpercollinsebooks.ca 
-P.O. Box 1 
-http://www.harpercollins.co.nz 
+Australia
+Pymble, NSW 2073, Australia
+Canada
+HarperCollins Publishers Ltd.
+New Zealand
+HarperCollinsPublishers (New Zealand) Limited
+Auckland, New Zealand
+United Kingdom
+HarperCollins Publishers Ltd.
+77-85 Fulham Palace Road
+London, W6 8JB, UK
+United States
+HarperCollins Publishers Inc.
+10 East 53rd Street
+About the Publisher
+HarperCollins Publishers (Australia) Pty. Ltd.
+25 Ryde Road (PO Box 321)
+http://www.harpercollinsebooks.com.au
+55 Avenue Road, Suite 2900
+Toronto, ON, M5R, 3L2, Canada
+http://www.harpercollinsebooks.ca
+P.O. Box 1
+http://www.harpercollins.co.nz
 http://www.harpercollinsebooks.co
-New York, NY 10022 
-http://www.harpercollinsebooks.com 
+New York, NY 10022
+http://www.harpercollinsebooks.com
 .uk

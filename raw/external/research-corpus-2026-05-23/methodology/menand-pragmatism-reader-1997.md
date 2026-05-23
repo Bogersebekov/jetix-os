@@ -9,8 +9,11 @@ chars: 1524336
 approx_tokens: 381084
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 1524338
+phase4_chars_after: 1524042
+phase4_saved_pct: 0.0
 ---
-
 
 
 The Pragmatism Reader
@@ -155,8 +158,7 @@ traditional metaphysical disputes. With Peirce, Dewey sought a way of doing
 philosophy that was unhindered by the traditional puzzles and problematics. But
 he resisted the Peircean strategy of proposing a test of meaning. Instead, he
 socialized the problems of philosophy, arguing that the traditional philosophical
-problems naturally arose out of the social and intellectual conditions of a pre-
-Darwinian age. Dewey contended that, because these conditions no longer
+problems naturally arose out of the social and intellectual conditions of a preDarwinian age. Dewey contended that, because these conditions no longer
 obtain, the traditional philosophical problems should be simply abandoned,
 replaced by new difficulties arising from Darwinian science. He was especially
 concerned to address the difficulties involved in giving an account of value—
@@ -482,8 +484,7 @@ comprehensive philosophical system. For similar reasons, it is no surprise that
 the Dewey that emerges heroic in Rorty’s work is a “therapeutic” Dewey (Rorty
 1982, 73), a Dewey shorn of system.
 Hence, what is seen by those committed to the eclipse narrative as a turn in
-professional philosophy toward insularity, irrelevance, and technicality-for-its-
-own-sake is actually a pragmatically responsible reaction to the sheer plurality of
+professional philosophy toward insularity, irrelevance, and technicality-for-itsown-sake is actually a pragmatically responsible reaction to the sheer plurality of
 philosophically forceful competitors to pragmatism, a plurality that Dewey had
 explicitly denied. There was no eclipse or abandonment of pragmatism; rather,
 the years following Dewey’s death corresponded with the period in which
@@ -525,13 +526,13 @@ philosophical problems are viable. Only once a philosophical tradition has a
 successful track record with the problems of philosophy should its practitioners
 have the right to speak to (or browbeat others regarding) the nature of proper
 philosophical method. That is, one gets to do metaphilosophy only once one has
-done 
-well 
-with 
-philosophy. 
-Solving 
-philosophical 
-problems 
+done
+well
+with
+philosophy.
+Solving
+philosophical
+problems
 with
 metaphilosophy, then, gets things entirely backward. As a consequence,
 excepting the preceding paragraph, there will be little or no metaphilosophical
@@ -682,8 +683,7 @@ first alone; then trace the consequences of the first and second; then see what
 else will result from assuming the third also; and, finally, add the fourth to our
 hypothetical premisses.
 In accepting the first proposition, we must put aside all prejudices derived
-from a philosophy which bases our knowledge of the external world on our self-
-consciousness. We can admit no statement concerning what passes within us
+from a philosophy which bases our knowledge of the external world on our selfconsciousness. We can admit no statement concerning what passes within us
 except as a hypothesis necessary to explain what takes place in what we
 commonly call the external world. Moreover when we have upon such grounds
 assumed one faculty or mode of action of the mind, we cannot, of course, adopt
@@ -738,8 +738,7 @@ partly upon the non-existence of some other knowledge, is a probable syllogism.
 A few examples will render this plain. The two following arguments are
 apodictic or deductive:
 1. No series of days of which the first and last are different days of the week
-exceeds by one a multiple of seven days; now the first and last days of any leap-
-year are different days of the week, and therefore no leap-year consists of a
+exceeds by one a multiple of seven days; now the first and last days of any leapyear are different days of the week, and therefore no leap-year consists of a
 number of days one greater than a multiple of seven.
 2. Among the vowels there are no double letters; but one of the double letters
 
@@ -859,7 +858,7 @@ also a reduction of a manifold to unity. Every deductive syllogism may be put
 into the form
 
 
-If A, then B; 
+If A, then B;
 But A:
 [Ergo,] B
 And as the minor premiss in this form appears as antecedent or reason of a
@@ -1506,8 +1505,7 @@ less general, less distinct, and less vivid; and so on back to the ideal first,7
 
 
 is quite singular, and quite out of consciousness. This ideal first is the particular
-thing-in-itself. It does not exist as such. That is, there is no thing which is in-
-itself in the sense of not being relative to the mind, though things which are
+thing-in-itself. It does not exist as such. That is, there is no thing which is initself in the sense of not being relative to the mind, though things which are
 relative to the mind doubtless are, apart from that relation. The cognitions which
 thus reach us by this infinite series of inductions and hypotheses (which though
 infinite a parte ante logice, is yet as one continuous process not without a
@@ -2185,8 +2183,7 @@ This is the only one of the four methods which presents any distinction of a
 right and a wrong way. If I adopt the method of tenacity, and shut myself out
 from all influences, whatever I think necessary to doing this, is necessary
 according to that method. So with the method of authority: the state may try to
-put down heresy by means which, from a scientific point of view, seem very ill-
-calculated to accomplish its purposes; but the only test on that method is what
+put down heresy by means which, from a scientific point of view, seem very illcalculated to accomplish its purposes; but the only test on that method is what
 the state thinks; so that it cannot pursue the method wrongly. So with the a priori
 method. The very essence of it is to think as one is inclined to think. All
 metaphysicians will be sure to do that, however they may be inclined to judge
@@ -2322,8 +2319,7 @@ to (theoretically) permit scepticism and to discard the practice of the schoolme
 of looking to authority as the ultimate source of truth. That done, he sought a
 more natural fountain of true principles, and thought he found it in the human
 mind; thus passing, in the directest way, from the method of authority to that of
-apriority, as described in my first paper [“The Fixation of Belief”]. Self-
-consciousness was to furnish us with our fundamental truths, and to decide what
+apriority, as described in my first paper [“The Fixation of Belief”]. Selfconsciousness was to furnish us with our fundamental truths, and to decide what
 was agreeable to reason. But since, evidently, not all ideas are true, he was led to
 note, as the first condition of infallibility, that they must be clear. The distinction
 between an idea seeming clear and really being so, never occurred to him.
@@ -2409,8 +2405,7 @@ occupations for its sake, and in short has lived with it and for it, until it ha
 become, as it were, flesh of his flesh and bone of his bone; and then he has
 waked up some bright morning to find it gone, clean vanished away like the
 beautiful Melusina of the fable, and the essence of his life gone with it. I have
-myself known such a man; and who can tell how many histories of circle-
-squarers, metaphysicians, astrologers, and what not, may not be told in the old
+myself known such a man; and who can tell how many histories of circlesquarers, metaphysicians, astrologers, and what not, may not be told in the old
 German story?
 II
 The principles set forth in the first part of this essay lead, at once, to a method of
@@ -3019,8 +3014,7 @@ learned friend say, whenever at the end of your algebraic computation they
 change into so many plain a’s, b’s, and c’s; but the whole function of algebra is,
 after all, to get them into that more definite shape; and the whole function of
 philosophy ought to be to find out what definite difference it will make to you
-and me, at definite instants of our life, if this world-formula or that world-
-formula be the one which is true.
+and me, at definite instants of our life, if this world-formula or that worldformula be the one which is true.
 If we start off with an impossible case, we shall perhaps all the more clearly
 see the use and scope of our principle. Let us, therefore, put ourselves, in
 imagination, in a position from which no forecasts of consequence, no dictates of
@@ -3130,8 +3124,7 @@ with their outgrown opposition. Use terms free of the clerical connotations on
 the one hand; of the suggestion of grossness, coarseness, ignobility, on the other.
 Talk of the primal mystery, of the unknowable energy, of the one and only
 power, instead of saying either God or matter. This is the course to which Mr.
-Spencer urges us at the end of the first volume of his Psychology. In some well-
-written pages he there shows us that a “matter” so infinitely subtile, and
+Spencer urges us at the end of the first volume of his Psychology. In some wellwritten pages he there shows us that a “matter” so infinitely subtile, and
 performing motions as inconceivably quick and fine as modern science
 postulates in her explanations, has no trace of grossness left. He shows that the
 conception of spirit, as we mortals hitherto have framed it, is itself too gross to
@@ -3276,8 +3269,7 @@ the collectors and classifiers, and handlers of skeletons and skins. When I was 
 boy I used to think that a closet-naturalist must be the vilest type of wretch under
 the sun. But surely the systematic theologians are the closet-naturalists of the
 Deity, even in Captain Mayne Reid’s sense. Their orthodox deduction of God’s
-attributes is nothing but a shuffling and matching of pedantic dictionary-
-adjectives, aloof from morals, aloof from human needs, something that might be
+attributes is nothing but a shuffling and matching of pedantic dictionaryadjectives, aloof from morals, aloof from human needs, something that might be
 worked out from the mere word “God” by a logical machine of wood and brass
 as well as by a man of flesh and blood. The attributes which I have quoted have
 absolutely nothing to do with religion, for religion is a living practical affair.
@@ -3642,13 +3634,11 @@ sensibly present, or else common-sense relations, such as dates, places,
 distances, kinds, activities. Following our mental image of a house along the
 cow-path, we actually come to see the house; we get the image’s full
 verification. Such simply verified leadings are certainly the originals and
-prototypes of the truth-process. Experience offers indeed other forms of truth-
-process, but they are all conceivable as primary verifications arrested, multiplied
+prototypes of the truth-process. Experience offers indeed other forms of truthprocess, but they are all conceivable as primary verifications arrested, multiplied
 or substituted one for another.
 Take, for instance, yonder object on the wall. You and I consider it to be a
 ‘clock,’ although no one of us has seen the hidden works that make it one. We let
-our notion pass for true without attempting to verify. If truth mean verification-
-process essentially, ought we then to call such unverified truths as this abortive?
+our notion pass for true without attempting to verify. If truth mean verificationprocess essentially, ought we then to call such unverified truths as this abortive?
 No, for they form the overwhelmingly large number of the truths we live by.
 Indirect as well as direct verifications pass muster. Where circumstantial
 evidence is sufficient, we can go without eye-witnessing. Just as we here assume
@@ -3811,8 +3801,7 @@ leading, realized in rebus, and having only this quality in common, that they pa
 They pay by guiding us into or towards some part of a system that dips at
 numerous points into sense-percepts, which we may copy mentally or not, but
 with which at any rate we are now in the kind of commerce vaguely designated
-as verification. Truth for us is simply a collective name for verification-
-processes, just as health, wealth, strength, etc., are names for other processes
+as verification. Truth for us is simply a collective name for verificationprocesses, just as health, wealth, strength, etc., are names for other processes
 connected with life, and also pursued because it pays to pursue them. Truth is
 made, just as health, wealth and strength are made, in the course of experience.
 
@@ -3903,8 +3892,7 @@ This regulative notion of a potential better truth to be established later,
 possibly to be established some day absolutely, and having powers of retroactive
 legislation, turns its face, like all pragmatist notions, towards concreteness of
 fact and towards the future. Like the half-truths, the absolute truth will have to
-be made, made as a relation incidental to the growth of a mass of verification-
-experience, to which the half-true ideas are all along contributing their quota.
+be made, made as a relation incidental to the growth of a mass of verificationexperience, to which the half-true ideas are all along contributing their quota.
 I have already insisted on the fact that truth is made largely out of previous
 truths. Men’s beliefs at any time are so much experience funded. But they are
 themselves parts of the sum total of the world’s experience, and become matter,
@@ -4629,8 +4617,7 @@ sake before they have come, and takes risks for them in advance? His faith acts
 on the powers above him as a claim, and creates its own verification.
 A social organism of any sort whatever, large or small, is what it is because
 each member proceeds to his own duty with a trust that the other members will
-simultaneously do theirs. Wherever a desired result is achieved by the co-
-operation of many independent persons, its existence as a fact is a pure
+simultaneously do theirs. Wherever a desired result is achieved by the cooperation of many independent persons, its existence as a fact is a pure
 consequence of the precursive faith in one another of those immediately
 
 
@@ -4900,8 +4887,7 @@ that on their face are quite remote from it, while it is also this view which is
 untenable in the light of existing science and social practice. Accordingly I set
 out with a brief statement of some of the chief contrasts between the orthodox
 description of experience and that congenial to present conditions.
-(i) In the orthodox view, experience is regarded primarily as a knowledge-
-affair. But to eyes not looking through ancient spectacles, it assuredly appears as
+(i) In the orthodox view, experience is regarded primarily as a knowledgeaffair. But to eyes not looking through ancient spectacles, it assuredly appears as
 an affair of the intercourse of a living being with its physical and social
 environment. (ii) According to tradition experience is (at least primarily) a
 psychical thing, infected throughout by “subjectivity.” What experience suggests
@@ -4965,8 +4951,7 @@ Dialectic developments of the notion of self-preservation, of the conatus
 essendi, often ignore all the important facts of the actual process. They argue as
 if self-control, self-development, went on directly as a sort of unrolling push
 from within. But life endures only in virtue of the support of the environment.
-And since the environment is only incompletely enlisted in our behalf, self-
-preservation—or self-realization or whatever—is always indirect—always an
+And since the environment is only incompletely enlisted in our behalf, selfpreservation—or self-realization or whatever—is always indirect—always an
 affair of the way in which our present activities affect the direction taken by
 independent changes in the surroundings. Hindrances must be turned into means.
 We are also given to playing loose with the conception of adjustment, as if
@@ -5055,8 +5040,7 @@ difference. Imaginative recovery of the bygone is indispensable to successful
 invasion of the future, but its status is that of an instrument. To ignore its import
 is the sign of an undisciplined agent; but to isolate the past, dwelling upon it for
 its own sake and giving it the eulogistic name of knowledge, is to substitute the
-reminiscence of oldage for effective intelligence. The movement of the agent-
-patient to meet the future is partial and passionate; yet detached and impartial
+reminiscence of oldage for effective intelligence. The movement of the agentpatient to meet the future is partial and passionate; yet detached and impartial
 study of the past is the only alternative to luck in assuring success to passion.
 II
 This description of experience would be but a rhapsodic celebration of the
@@ -5114,8 +5098,7 @@ Among the revisions and surrenders of historic problems demanded by this
 feature of empirical situations, those centering in the rationalistic-empirical
 controversy may be selected for attention. The implications of this controversy
 are twofold: First, that connexions are as homogeneous in fact as in name; and,
-secondly, if genuine, are all due to thought, or, if empirical, are arbitrary by-
-products of past particulars. The stubborn particularism of orthodox empiricism
+secondly, if genuine, are all due to thought, or, if empirical, are arbitrary byproducts of past particulars. The stubborn particularism of orthodox empiricism
 is its outstanding trait; consequently the opposed rationalism found no
 justification of bearings, continuities, and ties save to refer them in gross to the
 work of a hyper-empirical Reason.
@@ -5154,8 +5137,7 @@ The tradition was, however, too strongly entrenched; especially as it furnished
 the subject-matter of an alleged science of states of mind which were directly
 known in their very presence. The historic outcome was a new crop of artificial
 puzzles about relations; it fastened upon philosophy for a long time the quarrel
-about the a priori and the a posteriori as its chief issue. The controversy is to-
-day quiescent. Yet it is not at all uncommon to find thinkers modern in tone and
+about the a priori and the a posteriori as its chief issue. The controversy is today quiescent. Yet it is not at all uncommon to find thinkers modern in tone and
 intent who regard any philosophy of experience as necessarily committed to
 denial of the existence of genuinely general propositions, and who take
 empiricism to be inherently averse to the recognition of the importance of an
@@ -5265,8 +5247,7 @@ The value of inventive construction is too precious to be disposed of in this
 cavalier way. Its unceremonious denial afforded an opportunity to assert that in
 addition to experience the subject has a ready-made faculty of thought or reason
 which transcends experience. Rationalism thus accepted the account of
-experience given by traditional empiricism, and introduced reason as extra-
-empirical. There are still thinkers who regard any empiricism as necessarily
+experience given by traditional empiricism, and introduced reason as extraempirical. There are still thinkers who regard any empiricism as necessarily
 committed to a belief in a cut-and-dried reliance upon disconnected precedents,
 and who hold that all systematic organization of past experiences for new and
 constructive purposes is alien to strict empiricism.
@@ -5417,8 +5398,7 @@ centered about a Fall which was not an event in nature, but an aboriginal
 catastrophe that corrupted Nature; about a redemption made possible by
 supernatural means; about a life in another world—essentially, not merely
 spatially, Other. The supreme drama of destiny took place in a soul or spirit
-which, under the circumstances, could not be conceived other than as non-
-natural—extra-natural, if not, strictly speaking, supernatural. When Descartes
+which, under the circumstances, could not be conceived other than as nonnatural—extra-natural, if not, strictly speaking, supernatural. When Descartes
 and others broke away from medieval interests, they retained as commonplaces
 its intellectual apparatus: Such as, knowledge is exercised by a power that is
 extra-natural and set over against the world to be known. Even if they had
@@ -5737,8 +5717,7 @@ What and where is knowledge in the case we have been considering? Not, as
 we have already seen, in the production of forms of light having a circular and
 elliptical surface. These forms are natural happenings. They may enter into
 knowledge or they may not, according to circumstances. Countless such
-refractive changes take place without being noted.11 When they become subject-
-matter for knowledge, the inquiry they set on foot may take on an indefinite
+refractive changes take place without being noted.11 When they become subjectmatter for knowledge, the inquiry they set on foot may take on an indefinite
 variety of forms. One may be interested in ascertaining more about the structural
 peculiarities of the forms themselves; one may be interested in the mechanism of
 their production; one may find problems in projective geometry, or in drawing
@@ -5786,8 +5765,7 @@ knowledge and consciousness in the sense that the latter depends upon prior
 experience of this non-cognitive sort. Man’s experience is what it is because his
 response to things (even successful response) and the reactions of things to his
 life, are so radically different from knowledge. The difficulties and tragedies of
-life, the stimuli to acquiring knowledge, lie in the radical disparity of presence-
-in-experience and presence-in-knowing. Yet the immense importance of
+life, the stimuli to acquiring knowledge, lie in the radical disparity of presencein-experience and presence-in-knowing. Yet the immense importance of
 knowledge experience, the fact that turning presence-in-experience over into
 presence-in-a-knowledge-experience is the sole mode of control of nature, has
 systematically hypnotized European philosophy since the time of Socrates into
@@ -6063,8 +6041,7 @@ apprehensions and conceptions are true if the modifications affected by them
 were of an emotionally desirable tone.
 Prior discussion should have made it reasonably clear that the source of this
 misunderstanding lies in the neglect of temporal considerations. The change
-made in things by the self in knowing is not immediate and, so to say, cross-
-sectional. It is longitudinal—in the redirection given to changes already going
+made in things by the self in knowing is not immediate and, so to say, crosssectional. It is longitudinal—in the redirection given to changes already going
 on. Its analogue is found in the changes which take place in the development of,
 
 
@@ -6777,8 +6754,7 @@ possibilities of intelligence and in education as a correlate of intelligence. A
 events, I did not invent this faith. I acquired it from my surroundings as far as
 those surroundings were animated by the democratic spirit. For what is the faith
 of democracy in the role of consultation, of conference, of persuasion, of
-discussion, in formation of public opinion, which in the long run is self-
-corrective, except faith in the capacity of the intelligence of the common man to
+discussion, in formation of public opinion, which in the long run is selfcorrective, except faith in the capacity of the intelligence of the common man to
 respond with commonsense to the free play of facts and ideas which are secured
 by effective guarantees of free inquiry, free assembly and free communication? I
 am willing to leave to upholders of totalitarian states of the right and the left the
@@ -6950,8 +6926,7 @@ consent of the governed. Some ambiguity attaches to every term in this
 preliminary definition. The least ambiguous is the term “governed.” By “the
 governed” is meant those adult participating members of the community, with
 their dependents, whose way of life is affected by what the government does or
-leaves undone. By “the government” is primarily intended the law-and-policy-
-making agencies, legislative, executive, and judicial, whose activities control the
+leaves undone. By “the government” is primarily intended the law-and-policymaking agencies, legislative, executive, and judicial, whose activities control the
 life of the community. In the first instance, then, government is a political
 concept; but in certain circumstances it may refer to social and economic
 organizations whose policies affect the lives of a large number of individuals. In
@@ -7401,8 +7376,7 @@ imaginable or unimaginable could violate such laws, then the ever-present fact
 of change would do it every day. The laws of logic are purely formal; they forbid
 nothing but what concerns the use of terms and the corresponding modes of
 classification and analysis. The law of contradiction tells us that nothing can be
-both white and not-white, but it does not and can not tell us whether black is not-
-white, or soft or square is not-white. To discover what contradicts what we must
+both white and not-white, but it does not and can not tell us whether black is notwhite, or soft or square is not-white. To discover what contradicts what we must
 always consult the character of experience. Similarly the law of the excluded
 middle formulates our decision that whatever is not designated by a certain term
 shall be designated by its negative. It declares our purpose to make, for every
@@ -7518,8 +7492,7 @@ when I imagine that I am able to attach a meaning to the statement of
 simultaneity. . . .
 “After thinking the matter over for some time you then offer the following
 suggestion with which to test simultaneity. By measuring along the rails, the
-connecting line AB should be measured up and an observer placed at the mid-
-point M of the distance AB. This observer should be supplied with an
+connecting line AB should be measured up and an observer placed at the midpoint M of the distance AB. This observer should be supplied with an
 arrangement (e.g., two mirrors inclined at 90°) which allows him visually to
 observe both places A and B at the same time. If the observer perceives the two
 flashes at the same time, then they are simultaneous.
@@ -7644,8 +7617,7 @@ that fact shown not to be a priori. Such objection is especially likely from tho
 who would conceive the a priori in terms of an absolute mind or an absolutely
 universal human nature. We should readily agree that a decision by popular
 approval or a congress of scientists or anything short of such a test as would
-bring to bear the full weight of human capacity and interest, would be ill-
-considered as having to do with the a priori. But we wish to emphasize two
+bring to bear the full weight of human capacity and interest, would be illconsidered as having to do with the a priori. But we wish to emphasize two
 facts: first, that in the field of those conceptions and principles which have
 altered in human history, there are those which could neither be proved nor
 disproved by any experience, but represent the uncompelled initiative of human
@@ -7715,8 +7687,7 @@ the variety and formative function of symbols—are also integral to my own
 thinking. Sometimes, though, I forget that they have been so eloquently set forth
 by Cassirer,1 partly perhaps because his emphasis on myth, his concern with the
 comparative study of cultures, and his talk of the human spirit have been
-mistakenly associated with current trends toward mystical obscurantism, anti-
-intellectual intuitionism, or anti-scientific humanism. Actually these attitudes are
+mistakenly associated with current trends toward mystical obscurantism, antiintellectual intuitionism, or anti-scientific humanism. Actually these attitudes are
 as alien to Cassirer as to my own skeptical, analytic, constructionalist
 orientation.
 My aim in what follows is less to defend certain theses that Cassirer and I
@@ -7799,8 +7770,7 @@ insist, many worlds? Just this, I think that many different world-versions are o
 independent interest and importance, without any requirement or presumption of
 reducibility to a single base. The pluralist, far from being anti-scientific, accepts
 the sciences at full value. His typical adversary is the monopolistic materialist or
-physicalist who maintains that one system, physics, is preeminent and all-
-inclusive, such that every other version must eventually be reduced to it or
+physicalist who maintains that one system, physics, is preeminent and allinclusive, such that every other version must eventually be reduced to it or
 rejected as false or meaningless. If all right versions could somehow be reduced
 
 
@@ -7808,8 +7778,7 @@ to one and only one, that one might with some semblance of plausibility3 be
 regarded as the only truth about the only world. But the evidence for such
 reducibility is negligible, and even the claim is nebulous since physics itself is
 fragmentary and unstable and the kind and consequences of reduction envisaged
-are vague. (How do you go about reducing Constable’s or James Joyce’s world-
-view to physics?) I am the last person likely to underrate construction and
+are vague. (How do you go about reducing Constable’s or James Joyce’s worldview to physics?) I am the last person likely to underrate construction and
 reduction.4 A reduction from one system to another can make a genuine
 contribution to understanding the interrelationships among world-versions; but
 reduction in any reasonably strict sense is rare, almost always partial, and
@@ -7884,8 +7853,7 @@ the question “same or not the same?” must always be “same what?”8 Differ
 so-and-sos may be the same such-and-such: what we point to or indicate,
 verbally or otherwise, may be different events but the same object, different
 towns but the same state, different members but the same club or different clubs
-but the same members, different innings but the same ball game. ‘The ball-in-
-play’ of a single game may be comprised of temporal segments of a dozen or
+but the same members, different innings but the same ball game. ‘The ball-inplay’ of a single game may be comprised of temporal segments of a dozen or
 more baseballs. The psychologist asking the child to judge constancy when one
 vessel is emptied into another must be careful to specify what constancy is in
 question—constancy of volume or depth or shape or kind of material, etc.9
@@ -8440,8 +8408,7 @@ inductive practice.
 A result of such analysis is that we can stop plaguing ourselves with certain
 spurious questions about induction. We no longer demand an explanation for
 guarantees that we do not have, or seek keys to knowledge that we cannot
-obtain. It dawns upon us that the traditional smug insistence upon a hard-and-
-fast line between justifying induction and describing ordinary inductive practice
+obtain. It dawns upon us that the traditional smug insistence upon a hard-andfast line between justifying induction and describing ordinary inductive practice
 distorts the problem. And we owe belated apologies to Hume. For in dealing
 
 
@@ -8582,8 +8549,7 @@ statements is confirmed for the whole universe of discourse. Thus if our
 evidence is E1 and E2, neither the hypothesis that all things are black nor the
 hypothesis that all things are non-black is confirmed; for neither is true for the
 evidence-universe consisting of b and c. Of course, much more careful
-formulation is needed, since some statements that are true of the evidence-
-universe—such as that there is only one black thing—are obviously not
+formulation is needed, since some statements that are true of the evidenceuniverse—such as that there is only one black thing—are obviously not
 confirmed for the whole universe. These matters are taken care of by the studied
 formal definition that Hempel develops on this basis; but we cannot and need not
 go into further detail here.
@@ -8841,8 +8807,7 @@ induction, which is more broadly the problem of distinguishing between
 projectible and non-projectible hypotheses, is as important as it is exasperating.
 Our failures teach us, I think, that lawlike or projectible hypotheses cannot be
 distinguished on any merely syntactical grounds or even on the ground that these
-hypotheses are somehow purely general in meaning. Our only hope lies in re-
-examining the problem once more and looking for some new approach. This will
+hypotheses are somehow purely general in meaning. Our only hope lies in reexamining the problem once more and looking for some new approach. This will
 be my course in the final lecture.
 Notes
 “The New Riddle of Induction” reprinted by permission of the publisher from Fact, Fiction, and Forecast
@@ -8903,8 +8868,7 @@ Goodman’, same journal, same volume, pp. 461–2.
 
 
 In this seminal paper, Quine attacks two doctrines
-at the heart of traditional empiricism: the analytic-
-synthetic distinction and verificationism.
+at the heart of traditional empiricism: the analyticsynthetic distinction and verificationism.
 W.V.O. QUINE
 Two Dogmas of Empiricism
 Modern empiricism has been conditioned in large part by two dogmas. One is a
@@ -8975,8 +8939,7 @@ modern notion of intension or meaning. For Aristotle it was essential in men to
 be rational, accidental to be two-legged. But there is an important difference
 between this attitude and the doctrine of meaning. From the latter point of view
 it may indeed be conceded (if only for the sake of argument) that rationality is
-involved in the meaning of the word ‘man’ while two-leggedness is not; but two-
-leggedness may at the same time be viewed as involved in the meaning of
+involved in the meaning of the word ‘man’ while two-leggedness is not; but twoleggedness may at the same time be viewed as involved in the meaning of
 ‘biped’ while rationality is not. Thus from the point of view of the doctrine of
 meaning it makes no sense to say of the actual individual, who is at once a man
 and a biped, that his rationality is essential and his two-leggedness accidental or
@@ -9470,8 +9433,7 @@ Radical reductionism, conceived now with statements as units, sets itself the
 task of specifying a sense-datum language and showing how to translate the rest
 of significant discourse, statement by statement, into it. Carnap embarked on this
 project in the Aufbau.8
-The language which Carnap adopted as his starting point was not a sense-
-datum language in the narrowest conceivable sense, for it included also the
+The language which Carnap adopted as his starting point was not a sensedatum language in the narrowest conceivable sense, for it included also the
 notations of logic, up through higher set theory. In effect it included the whole
 language of pure mathematics. The ontology implicit in it (i.e., the range of
 values of its variables) embraced not only sensory events but classes, classes of
@@ -9570,8 +9532,7 @@ the periphery occasions readjustments in the interior of the field. Truth values
 have to be redistributed over some of our statements. Re-evaluation of some
 statements entails re-evaluation of others, because of their logical
 interconnections—the logical laws being in turn simply certain further
-statements of the system, certain further elements of the field. Having re-
-evaluated one statement we must re-evaluate some others, whether they be
+statements of the system, certain further elements of the field. Having reevaluated one statement we must re-evaluate some others, whether they be
 statements logically connected with the first or whether they be the statements of
 logical connections themselves. But the total field is so undetermined by its
 boundary conditions, experience, that there is much latitude of choice as to what
@@ -9610,8 +9571,7 @@ there are brick houses on Elm Street, together with related statements on the
 same topic. We can imagine other recalcitrant experiences to which we would be
 inclined to accommodate our system by re-evaluating just the statement that
 there are no centaurs, along with kindred statements. A recalcitrant experience
-can, I have already urged, be accommodated by any of various alternative re-
-evaluations in various alternative quarters of the total system; but, in the cases
+can, I have already urged, be accommodated by any of various alternative reevaluations in various alternative quarters of the total system; but, in the cases
 which we are now imagining, our natural tendency to disturb the total system as
 little as possible would lead us to focus our revisions upon these specific
 statements concerning brick houses or centaurs. These statements are felt,
@@ -10130,13 +10090,13 @@ though they be. We remain so committed at least until we devise some way of so
 paraphrasing the statement as to show that the seeming reference to species on
 the part of our bound variable was an avoidable manner of speaking.
 If I have been seeming to minimize the degree to which in our philosophical
-and 
-unphilosophical 
-discourse 
-we 
-involve 
-ourselves 
-in 
+and
+unphilosophical
+discourse
+we
+involve
+ourselves
+in
 ontological
 commitments, let me then emphasize that classical mathematics, as the example
 of primes between 1000 and 1010 clearly illustrates, is up to its neck in
@@ -10267,8 +10227,7 @@ special simplicity in its own way. Each, I suggest, deserves to be developed.
 Each may be said, indeed, to be the more fundamental, though in different
 senses: the one is epistemologically, the other physically, fundamental.
 The physical conceptual scheme simplifies our account of experience because
-of the way myriad scattered sense events come to be associated with single so-
-called objects; still there is no likelihood that each sentence about physical
+of the way myriad scattered sense events come to be associated with single socalled objects; still there is no likelihood that each sentence about physical
 objects can actually be translated, however deviously and complexly, into the
 phenomenalistic language. Physical objects are postulated entities which round
 out and simplify our account of the flux of experience, just as the introduction of
@@ -10368,8 +10327,7 @@ of [All ζ are η].
 Now I propose assimilating Hempel’s puzzle to Goodman’s by inferring from
 Hempel’s that the complement of a projectible predicate need not be projectible.
 “Raven” and “black” are projectible; a black raven does count toward “All
-ravens are black.” Hence a black raven counts also, indirectly, toward “All non-
-black things are non-ravens,” since this says the same thing. But a green leaf
+ravens are black.” Hence a black raven counts also, indirectly, toward “All nonblack things are non-ravens,” since this says the same thing. But a green leaf
 does not count toward “All non-black things are non-ravens,” nor, therefore,
 toward “All ravens are black”; “non-black” and “non-raven” are not projectible.
 “Green” and “leaf” are projectible, and the green leaf counts toward “All leaves
@@ -10897,8 +10855,7 @@ lusty chemical similarity concept is assured.
 From it, moreover, an equally acceptable concept of kinds is derivable, by the
 paradigm-and-foil definition noted early in this paper. For it is a question now
 only of distilling purely chemical kinds from purely chemical similarity; no
-admixture of other respects of similarity interferes. We thus exonerate water-
-solubility, which, the last time around, we had reduced no further than to an
+admixture of other respects of similarity interferes. We thus exonerate watersolubility, which, the last time around, we had reduced no further than to an
 unexplained notion of kind. Therewith also the associated subjunctive
 conditional, “If this were in water it would dissolve,” gets its bill of health.
 The same scientific advances that have thus provided a solid underpinning for
@@ -10916,8 +10873,7 @@ Philosophical or broadly scientific motives can impel us to seek still a basic
 and absolute concept of similarity, along with such fragmentary similarity
 concepts as suit special branches of science. This drive for a cosmic similarity
 concept is perhaps identifiable with the age-old drive to reduce things to their
-elements. It epitomizes the scientific spirit, though dating back to the pre-
-Socratics: to Empedocles with his theory of four elements, and above all to
+elements. It epitomizes the scientific spirit, though dating back to the preSocratics: to Empedocles with his theory of four elements, and above all to
 Democritus with his atoms. The modern physics of elementary particles, or of
 hills in space-time, is a more notable effort in this direction.
 This idea of rationalizing a single notion of relative similarity, throughout its
@@ -11288,8 +11244,7 @@ allegedly observed in spiritualistic séances, e.g., a ball moving out of a seal
 box, were confirmed beyond any reasonable doubt, it might seem advisable to
 use four spatial coordinates. Internal questions are here, in general, empirical
 questions to be answered by empirical investigations. On the other hand, the
-external questions of the reality of physical space and physical time are pseudo-
-questions. A question like “Are there (really) space-time points?” is ambiguous.
+external questions of the reality of physical space and physical time are pseudoquestions. A question like “Are there (really) space-time points?” is ambiguous.
 It may be meant as an internal question; then the affirmative answer is, of
 course, analytic and trivial. Or it may be meant in the external sense; “Shall we
 introduce such and such forms into our language?”; in this case it is not a
@@ -11367,12 +11322,10 @@ the questions which we have called here external questions was recognized and
 emphasized already by the Vienna Circle under the leadership of Moritz Schlick,
 the group from which the movement of logical empiricism originated.
 Influenced by ideas of Ludwig Wittgenstein, the Circle rejected both the thesis
-of the reality of the external world and the thesis of its irreality as pseudo-
-statements;6 the same was the case for both the thesis of the reality of universals
+of the reality of the external world and the thesis of its irreality as pseudostatements;6 the same was the case for both the thesis of the reality of universals
 (abstract entities, in our present terminology) and the nominalistic thesis that
 they are not real and that their alleged names are not names of anything but
-merely flatus vocis. (It is obvious that the apparent negation of a pseudo-
-statement must also be a pseudo-statement.) It is therefore not correct to classify
+merely flatus vocis. (It is obvious that the apparent negation of a pseudostatement must also be a pseudo-statement.) It is therefore not correct to classify
 the members of the Vienna Circle as nominalists, as is sometimes done.
 However, if we look at the basic anti-metaphysical and pro-scientific attitude of
 most nominalists (and the same holds for many materialists and realists in the
@@ -11532,8 +11485,7 @@ constructs are not real entities; the corresponding linguistic expressions are
 merely ways of speech not actually designating anything (reminiscent of the
 nominalists’ flatus vocis). We shall not criticize here this general conception. (As
 far as it is a principle of accepting certain entities and not accepting others,
-leaving aside any ontological, phenomenalistic and nominalistic pseudo-
-statements, there cannot be any theoretical objection to it.) But if this conception
+leaving aside any ontological, phenomenalistic and nominalistic pseudostatements, there cannot be any theoretical objection to it.) But if this conception
 leads to the view that other philosophers or scientists who accept abstract entities
 thereby assert or imply their occurrence as immediate data, then such a view
 must be rejected as a misinterpretation. References to space-time points, the
@@ -11824,11 +11776,11 @@ Much attention has been devoted of late to linguistic actions2 where the term
 ‘action’ is taken in the strict sense of what an agent does, a piece of conduct, a
 performance—the practical sense of action, as contrasted with the general
 metaphysical sense in which action is contrasted with passion. The topic of
-linguistic 
-actions, 
-whether 
-performatory, 
-locutionary, 
+linguistic
+actions,
+whether
+performatory,
+locutionary,
 illocutionary,
 perlocutionary,3 or perhaps, elocutionary is an important one. Indeed, it is
 important not only for a theory of communication, but for epistemology, for
@@ -11848,8 +11800,7 @@ absurdity without end.
 I propose, instead that the epistemologist, while recognizing that language is
 an instrument of communication, should focus attention on language as the
 bearer of conceptual activity. This is not to say that the two aspects can be
-separated as with a knife. Indeed, by pointing out that ought-to-be’s imply ought-
-to-do’s we have already recognized that language users exist at the level of
+separated as with a knife. Indeed, by pointing out that ought-to-be’s imply oughtto-do’s we have already recognized that language users exist at the level of
 agents. Roughly, to be a being capable of conceptual activity, is to be a being
 which acts, which recognizes norms and standards, and which engages in
 practical reasoning. It is, as Kant pointed out, one and the same reason which is
@@ -11864,13 +11815,11 @@ Even if it be granted than many of the linguistic oughts which are of special
 
 interest to an epistemologist are ought-to-be’s, the fact that ought-to-be’s and
 ought-to-do’s are conceptually inseparable might be thought to preclude a
-linguistic approach to conceptual abilities. Clearly primary epistemic ought-to-
-do’s (and by calling them ‘primary’ I mean simply that they are not the unfolding
+linguistic approach to conceptual abilities. Clearly primary epistemic ought-todo’s (and by calling them ‘primary’ I mean simply that they are not the unfolding
 of ought-to-be’s, whether as primary they are categorical or hypothetical),
 pertaining to the systematic use of linguistic abilities and propensities to arrive at
 correct linguistic representations of the way things are, presuppose the
-possession of concepts by the agents to which they apply. And since all ought to-
-be’s unfold into ought-to-do’s which, in their turn, presuppose concepts, the
+possession of concepts by the agents to which they apply. And since all ought tobe’s unfold into ought-to-do’s which, in their turn, presuppose concepts, the
 outlook for linguistic theory of concepts would seem to be dark indeed. Yet the
 fundamental clues for a resolution of the problem have already been given.
 To fix our ideas, let us consider an example which, though simplified to its
@@ -11907,8 +11856,7 @@ coincide with the agent subjects of the ought-to-do and hence that they too must
 have the concepts in question? The answer should be obvious; the members of a
 linguistic community are first language learners and only potentially ‘people,’
 but subsequently language teachers, possessed of the rich conceptual framework
-this implies. They start out by being the subject-matter subjects of the ought-to-
-be’s and graduate to the status of agent subjects of the ought-to-do’s. Linguistic
+this implies. They start out by being the subject-matter subjects of the ought-tobe’s and graduate to the status of agent subjects of the ought-to-do’s. Linguistic
 ought-to-be’s are translated into uniformities by training. As Wittgenstein has
 stressed, it is the linguistic community as a self-perpetuating whole which is the
 minimum unit in terms of which conceptual activity can be understood.
@@ -12065,9 +12013,7 @@ Jones is lying, i.e., using words to deceive. Somewhat less obviously it is
 intended to imply that Jones is not choosing his words to express his convictions.
 He is neither lying nor speaking truthfully. In a sense, as we shall see, he is not
 using the words at all.
-According to the behavioristic position we are now considering, thinking that-
-p is, in its primary episodic sense, thinking-out-loud that-p. As thinking-out-
-loud, an utterance of ‘p’ is not directed to an audience. It is not, as such, a social
+According to the behavioristic position we are now considering, thinking thatp is, in its primary episodic sense, thinking-out-loud that-p. As thinking-outloud, an utterance of ‘p’ is not directed to an audience. It is not, as such, a social
 act. Explicit performatives (e.g. ‘I promise’) are clearly out of place in utterances
 which are, in the desired sense, to be thinkings-out-loud. Nor is it appropriate to
 characterize thinkings-out-loud in terms of the categories of illocutionary
@@ -12135,8 +12081,7 @@ Jones has a settled disposition to think-out-loud that-p, if . . .
 If what? There many pitfalls here, though we can, perhaps, cover them up
 temporarily with something like ‘if the question whether-p arises.’ To do so,
 however, would immediately confront us with a more serious difficulty. For it
-simply isn’t the case that if a person believes that-p, he utters ‘p’ let alone thinks-
-out-loud that-p, whenever the question whether-p arises.
+simply isn’t the case that if a person believes that-p, he utters ‘p’ let alone thinksout-loud that-p, whenever the question whether-p arises.
 Confronted by this fact, we are strongly tempted to abandon our strategy and
 say that if a person believes that-p, then (other things being equal) whenever the
 question whether-p arises, he tends to think (not think-out-loud) that-p; to which
@@ -12189,8 +12134,7 @@ Jones thought that saying ‘. . .’ would express his belief that-p
 Jones intended to express his belief that-p by saying ‘. . .’
 or, in the case of lying
 Jones intended to pretend to believe that-p by saying ‘. . . .’
-Thus, granted the validity of the concept of thinking-out-loud, the thinking-
-out-loud which, were it to occur, would be immediately involved in the situation
+Thus, granted the validity of the concept of thinking-out-loud, the thinkingout-loud which, were it to occur, would be immediately involved in the situation
 formulated by
 Jones, by uttering ‘. . .,’ expressed his belief that-p
 would be not
@@ -12246,8 +12190,7 @@ the saying is the involuntary manifestation of the thinking.
 Notice that the model allows the child a rich vocabulary, including the
 
 
-language of intention and resolve as well as the language in which matters-of-
-fact are stated. It also allows that the child learns to verbalize about verbal
+language of intention and resolve as well as the language in which matters-offact are stated. It also allows that the child learns to verbalize about verbal
 behavior and even about the mental acts of which its verbal behavior is the
 involuntary manifestation.
 X
@@ -12473,8 +12416,7 @@ know how to begin and what kinds of difficulty to expect.
 “would (that) p”’ and ‘deciding to do A’ with uttering ‘I shall do A.’
 7. We can grant that a thinking-out-loud that-p might be a constituent of a reasoning-out-loud or a
 deliberating-out-loud on a certain topic.
-8. The concept of ‘thinking out loud’ appropriate to this model should not be equated with thinking-out-
-loud as construed by the behavioristic position we have been considering. The latter does not recognize
+8. The concept of ‘thinking out loud’ appropriate to this model should not be equated with thinking-outloud as construed by the behavioristic position we have been considering. The latter does not recognize
 ‘mental episodes’ in the sense required by the present model.
 9. The ‘if the question occurs to him whether-p’ condition can be taken to cover all cases in which, where
 the alternatives ‘p’ and ‘not p’ are relevant to his course of thought, he thinks that-p, even if the question
@@ -12723,8 +12665,7 @@ reference to the facts, the world, experience, sensation, the totality of sensor
 stimuli, or something similar. Meanings gave us a way to talk about categories,
 the organizing structure of language, and so on; but it is possible, as we have
 seen, to give up meanings and analyticity while retaining the idea of language as
-embodying a conceptual scheme. Thus in place of the dualism of the analytic-
-synthetic we get the dualism of conceptual scheme and empirical content. The
+embodying a conceptual scheme. Thus in place of the dualism of the analyticsynthetic we get the dualism of conceptual scheme and empirical content. The
 new dualism is the foundation of an empiricism shorn of the untenable dogmas
 of the analytic-synthetic distinction and reductionism—shorn, that is, of the
 unworkable idea that we can uniquely allocate empirical content sentence by
@@ -13370,8 +13311,7 @@ We may also say, following Kripke, that when I give the “ostensive definition
 What Kripke was the first to observe is that this theory of the meaning (or
 “use,” or whatever) of the word ‘water’ (and other natural-kind terms as well)
 has startling consequences for the theory of necessary truth.
-To explain this, let me introduce the notion of a cross-world relation. A two-
-term relation R will be called cross-world when it is understood in such a way
+To explain this, let me introduce the notion of a cross-world relation. A twoterm relation R will be called cross-world when it is understood in such a way
 that its extension is a set of ordered pairs of individuals not all in the same
 possible world. For example, it is easy to understand the relation same height as
 as a cross-world relation: just understand it so that, e.g., if x is an individual in a
@@ -13383,8 +13323,7 @@ that constitutes an element of the extension of same height as, but rather the
 
 
 ordered pair x-in-world-W1, y-in-world- W2.)
-Similarly, we can understand the relation sameL (same liquid as) as a cross-
-world relation by understanding it so that a liquid in world W1 which has the
+Similarly, we can understand the relation sameL (same liquid as) as a crossworld relation by understanding it so that a liquid in world W1 which has the
 same important physical properties (in W1) that a liquid in W2 possesses (in W2)
 bears sameL to the latter liquid.
 Then the theory we have been presenting may be summarized by saying that
@@ -13644,8 +13583,7 @@ I must ask non-scientists to excuse what must sound like a lapse into
 technicality; what I am setting the stage for is not the exposition of the scientific
 theory, but rather the presentation of a surprising event in the recent history of
 science—one whose significance I shall leave it to the reader to judge.
-The event I refer to is the appearance on the scene some years ago of the so-
-called Many-Worlds Interpretation of quantum mechanics. This interpretation,
+The event I refer to is the appearance on the scene some years ago of the socalled Many-Worlds Interpretation of quantum mechanics. This interpretation,
 which was proposed by Everett and De Witt,5 and for a time supported by John
 Wheeler, still has some enthusiastic proponents among quantum cosmologists.
 But it sounds more like something from the latest science fiction best seller than
@@ -13803,8 +13741,7 @@ Cretan),11 modern treatments begin with some such example as the following
 sentence:
 (I) The sentence (I) is false.
 I suppose someone might think that it is illegitimate to use “(I)” to name an
-expression which contains “(I)” itself as a proper part, but many forms of “self-
-reference” are quite harmless. (Consider: “Write down the sentence I am uttering
+expression which contains “(I)” itself as a proper part, but many forms of “selfreference” are quite harmless. (Consider: “Write down the sentence I am uttering
 in your notebook.”) In any case, the suggestion that we throw self-reference out
 of the language turns out to be excessively costly; in fact, Gödel showed that as
 long as our language contains number theory, there will always be ways of
@@ -13875,8 +13812,7 @@ in L itself, the “semantical paradoxes” can all be avoided. But in what lang
 is Tarski himself supposed to be saying all this?
 Tarski’s theory introduces a “hierarchy of languages.” There is the object
 language (this can be any language which is itself free of such “semantical”
-notions as reference and truth); there is the meta-language, the meta-meta-
-language, and so on. For every finite number n, there is a meta-language of level
+notions as reference and truth); there is the meta-language, the meta-metalanguage, and so on. For every finite number n, there is a meta-language of level
 n. These languages form a hierarchy. Using the so-called transfinite numbers,
 one can even extend the hierarchy into the transfinite—there are meta-languages
 of higher and higher infinite orders. The paradoxical aspect of Tarski’s theory,
@@ -13894,8 +13830,7 @@ denying that our informal discourse constitutes a “language.” This position 
 taken by Bertrand Russell and recently revived by Charles Parsons in one of the
 most profound papers on the Liar paradoxes of recent decades.13 According to
 this position, the informal discourse in which we say “Every language has a
-meta-language, and the truth predicate for the language belongs to that meta-
-language, not to the language itself” is not itself a part of any language, but a
+meta-language, and the truth predicate for the language belongs to that metalanguage, not to the language itself” is not itself a part of any language, but a
 “speech act” which is sui generis.
 The problem is that the inferences we draw from such “systematically
 ambiguous” statements (am I allowed to call them “statements”?) as
@@ -13973,8 +13908,7 @@ curiosities, or idle “brain teasers.” What could have been regarded in this 
 before suddenly threatens a whole logical system, the fruit of decades of work by
 some of the greatest logicians of all time (I am thinking of Frege, Russell, and
 Whitehead as engaged in a single collective enterprise here), with inconsistency.
-If the system is a formalization of our whole extant mathematical and deductive-
-logical knowledge, that it should be inconsistent from the very start is
+If the system is a formalization of our whole extant mathematical and deductivelogical knowledge, that it should be inconsistent from the very start is
 intolerable. Some way has to be found to avoid this—even a device as desperate
 as Russell’s “Systematic Ambiguity” or Tarski’s “Levels of Language.”
 In short, what we have here is not a paradox which first arises as the circle of
@@ -14009,8 +13943,7 @@ in quantum mechanics by saying that the observer can take as large a totality as
 he wishes as the system (excluding totalities which include himself in the act of
 performing the measurement), but that he himself (or at least a part of himself)
 must always lie outside the system, then the analogy is complete. And it is more
-than a formal analogy; it is an epistemic analogy. The same notion of a “God’s-
-Eye View,” the same epistemic ideal of achieving a view from an “Archimedean
+than a formal analogy; it is an epistemic analogy. The same notion of a “God’sEye View,” the same epistemic ideal of achieving a view from an “Archimedean
 point”—a point from which we can survey observers as if they were not
 ourselves, survey them as if we were, so to speak, outside our own skins—is
 involved in both cases. The same notion that ideal knowledge is impersonal is
@@ -14044,8 +13977,7 @@ the Kantian regulative idea of Nature. But it would be wrong to view him as just
 a nostalgic reactionary (as some quantum physicists came close to doing). There
 
 
-is a part of all of us which sides with Einstein—which wants to see the God’s-
-Eye View restored in all its splendor. The struggle within ourselves, the struggle
+is a part of all of us which sides with Einstein—which wants to see the God’sEye View restored in all its splendor. The struggle within ourselves, the struggle
 to give up or to retain the old notions of metaphysical reality, objectivity, and
 impersonality, is far from over.
 Part Two: Relativism
@@ -14165,13 +14097,13 @@ Let me begin my discussion with the first two principles: the existence of such
 a thing as “warrant” and its independence from the opinion of one’s cultural
 peers. There is one way of defending these principles which is sure to provoke
 objections from antirealists and/or nonrealists: that is to posit the existence of
-trans-historical 
-“canons” 
-of 
-warranted 
-belief 
-which 
-define 
+trans-historical
+“canons”
+of
+warranted
+belief
+which
+define
 warrant,
 independently of whether any given person or culture is able to state those
 canons. But that is not the way in which one should defend the independence of
@@ -14407,8 +14339,7 @@ these elements of the world are the raw facts; the rest is convention, or a mixt
 of these raw facts with convention.”
 What I am saying, then, is that elements of what we call “language” or “mind”
 penetrate so deeply into what we call “reality” that the very project of
-representing ourselves as being “mappers” of something “languages-
-independent” is fatally compromised from the very start. Like Relativism, but in
+representing ourselves as being “mappers” of something “languagesindependent” is fatally compromised from the very start. Like Relativism, but in
 a different way, Realism is an impossible attempt to view the world from
 Nowhere. In this situation it is a temptation to say, “So we make the world,” or
 “our language makes up the world,” or “our culture makes up the world”; but
@@ -14613,8 +14544,7 @@ example, attempts both to produce a rationale for democratic institutions and a
 standpoint from which to criticize the failures of those institutions. This could
 also serve as a description of Dewey’s project. But there are scholars in
 disciplines other than philosophy, and to some extent even scholars of
-philosophy, who consider the very enterprise of justifying democracy a wrong-
-headed one. One objection comes from anthropologists and other social
+philosophy, who consider the very enterprise of justifying democracy a wrongheaded one. One objection comes from anthropologists and other social
 scientists,14 although it is by no means limited to them.15 These relativist social
 scientists are sometimes also radicals when it comes to their own cultures, but
 they strongly oppose any attempt by members of liberal democratic cultures to
@@ -15701,8 +15631,7 @@ correlate our utterances with our environment in any way that enabled him to
 construct an English-Galactic lexicon. Our initial assumption that the Galactic
 emissary was a person would be frustrated by the same sort of discovery. How
 sad that two cultures who have so much to offer each other should fail to
-recognize each other’s existence! What pathos in the thought that we, time-
-traveling among our Neanderthal ancestors, might stand to them as the Galactic
+recognize each other’s existence! What pathos in the thought that we, timetraveling among our Neanderthal ancestors, might stand to them as the Galactic
 stands to us! But the situation is even worse than that, for reasons I hinted at
 earlier. We can now see that, for all we know, our contemporary world is filled
 with unrecognizable persons. Why should we ignore the possibility that the trees
@@ -15804,8 +15733,7 @@ says that, although our only test of truth must be the coherence of our beliefs
 with one another, still the nature of truth must be “correspondence to reality.” It
 is thought a sufficient argument for this view that Truth is One, whereas
 alternative equally coherent sets of beliefs are Many.8 In reply to this argument,
-defenders of coherence and pragmatic theories of truth have argued that our so-
-called “intuition” that Truth is One is simply the expectation that, if all
+defenders of coherence and pragmatic theories of truth have argued that our socalled “intuition” that Truth is One is simply the expectation that, if all
 perceptual reports were in, there would be one optimal way of selecting among
 them and all other possible statements so as to have one ideally proportioned
 system of true beliefs. To this reply, the standard rebuttal is that there would
@@ -15842,8 +15770,7 @@ touch with the world” (most of the time) whether or not we have any
 incorrigible, or basic, or otherwise privileged or foundational statements to
 make.
 But this way of dealing with the claim that “it is the world that determines
-what is true” may easily seem a fraud. For, as I have been using it, the Davidson-
-Stroud view seems to perform the conjuring trick of substituting the notion of
+what is true” may easily seem a fraud. For, as I have been using it, the DavidsonStroud view seems to perform the conjuring trick of substituting the notion of
 “the unquestioned vast majority of our beliefs” for the notion of “the world.” It
 reminds us of such coherence theorists as Royce, who claim that our notion of
 “the world” is just the notion of the ideally coherent contents of an ideally large
@@ -15865,8 +15792,7 @@ determining truth is just the intuition that we must make our new beliefs
 conform to a vast body of platitudes, unquestioned perceptual reports, and the
 like. So I am happy to interpret the upshot of the Davidson-Stroud argument in a
 Deweyan way.
-But I have no arguments against the true believer’s description of our so-
-called “intuitions.” All that can be done with the claim that “only the world
+But I have no arguments against the true believer’s description of our socalled “intuitions.” All that can be done with the claim that “only the world
 determines truth” is to point out the equivocation in the realists’ own use of
 
 
@@ -16224,11 +16150,9 @@ views—e.g., Kuhn, Feyerabend, Foucault, and myself. We are criticized as
 realism and relativism. He speaks of “the plethora of relativistic doctrines being
 marketed today”3 and in particular of “the French philosophers” as holding
 “some fancy mixture of cultural relativism and ‘structuralism.’”4 But when it
-comes to criticizing these doctrines all that Putnam finds to attack is the so-
-called “incommensurability thesis”: vis., “terms used in another culture cannot
+comes to criticizing these doctrines all that Putnam finds to attack is the socalled “incommensurability thesis”: vis., “terms used in another culture cannot
 be equated in meaning or reference with any terms or expressions we possess.”5
-He sensibly agrees with Donald Davidson in remarking that this thesis is self-
-refuting. Criticism of this thesis, however, is destructive of, at most, some
+He sensibly agrees with Donald Davidson in remarking that this thesis is selfrefuting. Criticism of this thesis, however, is destructive of, at most, some
 incautious passages in some early writings by Feyerabend. Once this thesis is
 brushed aside, it is hard to see how Putnam himself differs from most of those he
 criticizes.
@@ -16243,8 +16167,7 @@ restricted by what he calls “institutionalized norms,” publicly available cr
 for settling all arguments, including philosophical arguments. He rightly says
 
 
-that there are no such criteria, arguing that the suggestion that there are is as self-
-refuting as the “incommensurability thesis.” He is, I think, entirely right in
+that there are no such criteria, arguing that the suggestion that there are is as selfrefuting as the “incommensurability thesis.” He is, I think, entirely right in
 saying that the notion that philosophy is or should become such an application of
 explicit criteria contradicts the very idea of philosophy.7 One can gloss Putnam’s
 point by saying that “philosophy” is precisely what a culture becomes capable of
@@ -16503,8 +16426,7 @@ I think that pragmatism’s attack on the various structure-content distinctions
 which buttress the realist’s notion of objectivity can best be seen as an attempt to
 let us think of truth in this Nietzschean way, as entirely a matter of solidarity.
 That is why I think we need to say, despite Putnam, that “there is only the
-dialogue,” only us, and to throw out the last residues of the notion of “trans-
-cultural rationality.” But this should not lead us to repudiate, as Nietzsche
+dialogue,” only us, and to throw out the last residues of the notion of “transcultural rationality.” But this should not lead us to repudiate, as Nietzsche
 sometimes did, the elements in our movable host which embody the ideas of
 Socratic conversation, Christian fellowship, and Enlightenment science.
 Nietzsche ran together his diagnosis of philosophical realism as an expression of
@@ -16586,8 +16508,7 @@ presentation of this point.
 9. Ibid., p. 216.
 10. See, e.g., Paul Feyerabend, Science in a Free Society (London: New Left Books, 1978), p. 9, where
 Feyerabend identifies his own view with “relativism (in the old and simple sense of Protagoras).” This
-identification is accompanied by the claim that “ ‘Objectively’ there is not much to choose between anti-
-semitism and humanitarianism.” I think Feyerabend would have served himself better by saying that the
+identification is accompanied by the claim that “ ‘Objectively’ there is not much to choose between antisemitism and humanitarianism.” I think Feyerabend would have served himself better by saying that the
 scare-quoted word “objectively” should simply be dropped from use, together with the traditional
 philosophical distinctions which buttress the subjective-objective distinction, than by saying that we may
 keep the word and use it to say the sort of thing Protagoras said. What Feyerabend is really against is the
@@ -16604,8 +16525,7 @@ ordinary person believes” against other elements. To attempt to do more than t
 to converse. Fantasy may, to be sure, be an incentive to more fruitful conversation, but when it no longer
 fulfills this function it does not deserve the name of “critique.”
 12. In A Theory of Justice Rawls seemed to be trying to retain the authority of Kantian “practical reason”
-by imagining a social contract devised by choosers “behind a veil of ignorance”—using the “rational self-
-interest” of such choosers as a touchstone for the ahistorical validity of certain social institutions. Much of
+by imagining a social contract devised by choosers “behind a veil of ignorance”—using the “rational selfinterest” of such choosers as a touchstone for the ahistorical validity of certain social institutions. Much of
 the criticism to which that book was subjected, e.g., by Michael Sandel in his Liberalism and the Limits of
 Justice (Cambridge: Cambridge University Press, 1982), has centered on the claim that one cannot escape
 history in this way. In the meantime, however, Rawls has put forward a meta-ethical view which drops the
@@ -16616,8 +16536,7 @@ eds., Utilitarianism and Beyond (Cambridge: Cambridge University Press, 1982). S
 Rawls leads in the same direction as Rawls’ later work, since Scanlon’s use of the notion of “justification to
 others on grounds they could not reasonably reject” chimes with the “constructivist” view that what counts
 for social philosophy is what can be justified to a particular historical community, not to “humanity in
-general.” On my view, the frequent remark that Rawls’ rational choosers look remarkably like twentieth-
-century American liberals is perfectly just, but not a criticism of Rawls. It is merely a frank recognition of
+general.” On my view, the frequent remark that Rawls’ rational choosers look remarkably like twentiethcentury American liberals is perfectly just, but not a criticism of Rawls. It is merely a frank recognition of
 the ethnocentrism which is essential to serious, nonfantastical, thought. I defend this view in “The Priority
 of Democracy to Philosophy” and “Postmodernist Bourgeois Liberalism” in Part III of Rorty’s Objectivity,
 Relativism, and Truth, Philosophical Papers, Volume.
@@ -16658,8 +16577,7 @@ the Enlightenment as a definitive step forward. For Blumenberg, the attitude of 
 attitude which stems from a Baconian view of the nature and purpose of science, needs to be distinguished
 from “self-foundation,” the Cartesian project of grounding such inquiry upon ahistorical criteria of
 rationality. Blumenberg remarks, pregnantly, that the “historicist” criticism of the optimism of the
-Enlightenment, criticism which began with the Romantics’ turn back to the Middle Ages, undermines self-
-foundation but not self-assertion.
+Enlightenment, criticism which began with the Romantics’ turn back to the Middle Ages, undermines selffoundation but not self-assertion.
 
 
 Written in the wake of Rawls’s turn to a “political
@@ -16677,8 +16595,7 @@ figures of the Enlightenment, Jefferson assumed that a moral faculty common to
 the typical theist and the typical atheist suffices for civic virtue.
 Many Enlightenment intellectuals were willing to go further and say that since
 religious beliefs turn out to be inessential for political cohesion, they should
-simply be discarded as mumbo jumbo—perhaps to be replaced (as in twentieth-
-century totalitarian Marxist states) with some sort of explicitly secular political
+simply be discarded as mumbo jumbo—perhaps to be replaced (as in twentiethcentury totalitarian Marxist states) with some sort of explicitly secular political
 faith that will form the moral consciousness of the citizen. Jefferson again set the
 tone when he refused to go that far. He thought it enough to privatize religion, to
 view it as irrelevant to social order but relevant to, and possibly essential for,
@@ -17234,8 +17151,7 @@ idea of a “fact of the matter” is one we would be better off without. Philos
 like Davidson and Derrida have, I think, given us good reason to think that the
 physis–nomos, in se–ad nos, and objective–subjective distinctions were steps on
 a ladder that we can now safely throw away. The question of whether the reasons
-such philosophers have given for this claim are themselves metaphysico-
-epistemological reasons, and if not, what sort of reasons they are, strikes me as
+such philosophers have given for this claim are themselves metaphysicoepistemological reasons, and if not, what sort of reasons they are, strikes me as
 pointless and sterile. Once again, I fall back on the holist’s strategy of insisting
 that reflective equilibrium is all we need try for—that there is no natural order of
 justification of beliefs, no predestined outline for argument to trace. Getting rid
@@ -17246,17 +17162,16 @@ who deserves an answer—can be treated as just further matters to be sorted out
 in the course of attaining reflective equilibrium.
 I can, however, make one point to offset the air of light-minded aestheticism I
 am adopting toward traditional philosophical questions. This is that there is a
-moral purpose behind this light-mindedness. The encouragement of light-
-mindedness about traditional philosophical topics serves the same purposes as
+moral purpose behind this light-mindedness. The encouragement of lightmindedness about traditional philosophical topics serves the same purposes as
 does the encouragement of light-mindedness about traditional theological topics.
 Like the rise of large market economies, the increase in literacy, the proliferation
 of artistic genres, and the insouciant pluralism of contemporary culture, such
-philosophical 
-superficiality 
-and 
-light-mindedness 
-helps 
-along 
+philosophical
+superficiality
+and
+light-mindedness
+helps
+along
 the
 disenchantment of the world. It helps make the world’s inhabitants more
 pragmatic, more tolerant, more liberal, more receptive to the appeal of
@@ -17471,8 +17386,7 @@ original position is not an axiomatic (or deductive) basis from which principles
 for singling out principles most fitting to the conception of the person most likely to be held, at least
 implicitly, in a democratic society” (p. 572). It is tempting to suggest that one could eliminate all reference
 to the original position from A Theory of Justice without loss, but this is as daring a suggestion as that one
-might rewrite (as many have wished to do) Kant’s Critique of Pure Reason without reference to the thing-
-in-itself. T. M. Scanlon has suggested that we can, at least, safely eliminate reference, in the description of
+might rewrite (as many have wished to do) Kant’s Critique of Pure Reason without reference to the thingin-itself. T. M. Scanlon has suggested that we can, at least, safely eliminate reference, in the description of
 the choosers in the original position, to an appeal to self-interest. (“Contractualism and Utilitarianism,” in
 Utilitarianism and Beyond, ed. Bernard Williams and Amartya Sen [Cambridge: Cambridge University
 Press, 1982]). Since justifiability is, more evidently than self-interest, relative to historical circumstance,
@@ -17710,8 +17624,7 @@ example, communities of magicians or numerologists, one need not be seduced
 by an ideology of secular realism. The issue of whether scientific explanations
 provide the best predictions of phenomena because they are true or whether they
 are true because they yield the best predictions becomes a perennially circular
-one—precisely because the notion of truth in the scientific community is value-
-laden, that is, integral to its aims of prediction and control. To put it crudely, the
+one—precisely because the notion of truth in the scientific community is valueladen, that is, integral to its aims of prediction and control. To put it crudely, the
 idea of a true theory that predicts poorly is unintelligible and unacceptable in the
 scientific community.
 Similarly, religious realism is an intellectual strategy adopted by those who
@@ -17815,8 +17728,7 @@ Like foundationalist theories of an experientialist stripe, foundherentism faces
 the objection that, since there can be only causal and not logical relations
 between a subject’s experiences and his beliefs, experience cannot be relevant to
 justification. The objection rests on the false assumption that justification is a
-purely logical concept.2 The foundherentist theory developed will be a double-
-aspect theory, combining causal and evaluative elements.
+purely logical concept.2 The foundherentist theory developed will be a doubleaspect theory, combining causal and evaluative elements.
 
 
 I make no apology for doing epistemology, nor for doing it by way of an
@@ -17828,8 +17740,7 @@ foundationalism or by coherentism. I share that conviction. The pessimistic
 conclusion, however, is obviously too hasty if the traditionally rival theories do
 not exhaust the options.
 My goal is explication: to remain close to the contours of our pre-analytic
-conception of justification (good evidence, convincing reasons, acceptably-
-grounded belief), but allowing an element of stipulation where those contours
+conception of justification (good evidence, convincing reasons, acceptablygrounded belief), but allowing an element of stipulation where those contours
 are fuzzier than theory demands. The project is undertaken not from the
 perspective of a detached spectator of our epistemic practices, nor from the
 perspective of an uncritical participant, but from the perspective of a critical
@@ -17867,8 +17778,7 @@ to p.” The second stage will be a manoeuvre by which to arrive, from the
 characterization of A’s S-evidence with respect to p (which consists of certain
 states of A), at a characterization of A’s C-evidence with respect to p (which
 consists of certain sentences or propositions). The third, evaluative stage will
-complete the explication by characterizing “how good” in “how good A’s C-
-evidence with respect to p is.”
+complete the explication by characterizing “how good” in “how good A’s Cevidence with respect to p is.”
 What is on offer will be at best a sketch of a theory, and more than somewhat
 uneven in its level of detail. The reason is, mainly, that this is, at least for the
 present, the best I can do.
@@ -17892,8 +17802,7 @@ others are not. Only causes of A’s S-belief which are states of A will figure 
 characterization of his evidence.7
 “The causal nexus, at t, of A’s S-belief that p” will refer to those states of A
 which are operative at t, whether sustaining or inhibiting, in the vector of forces
-resulting in A’s believing that p. The phrase is meant to suggest a mesh of S-
-beliefs interconnected with each other, with the subject’s perceptual experiences,
+resulting in A’s believing that p. The phrase is meant to suggest a mesh of Sbeliefs interconnected with each other, with the subject’s perceptual experiences,
 his desires and fears, etc. The causal nexus of an S-belief is to include the states
 
 
@@ -17915,8 +17824,7 @@ non-evidential states belong to the causal nexus of an S-belief may be a
 necessary part of an explanation of how it is that the subject believes something
 despite the flimsiness of his evidence;8 but it is not relevant to the calculation of
 the degree to which he is justified.
-We now have the necessary apparatus for a preliminary explication of “A’s S-
-evidence with respect to p.”9 “A’s S-reasons for believing that p” will refer to
+We now have the necessary apparatus for a preliminary explication of “A’s Sevidence with respect to p.”9 “A’s S-reasons for believing that p” will refer to
 those S-beliefs which sustain A’s S-belief that p; “A’s current sensory S-evidence
 for believing that p” to the perceptual states which sustain A’s S-belief that p;
 “A’s past sensory S-evidence for believing that p” to the perceptual traces which
@@ -17930,8 +17838,7 @@ for believing that p; “A’s experiential S-evidence for believing that p” t
 sensory and introspective S-evidence for believing that p; and “A’s S-evidence
 for believing that p” to A’s S-reasons and experiential S-evidence for believing
 that p. “A’s S-evidence against believing that p” will be characterized like “A’s
-S-evidence for believing that p,” but with “inhibit” for “sustain”; and “A’s S-
-evidence with respect to p” will refer to A’s S-evidence for believing that p and
+S-evidence for believing that p,” but with “inhibit” for “sustain”; and “A’s Sevidence with respect to p” will refer to A’s S-evidence for believing that p and
 A’s S-evidence against believing that p. “A’s direct S-evidence with respect to p”
 will refer to those evidential states which directly sustain/inhibit his S-belief that
 
@@ -17941,8 +17848,7 @@ sustain/inhibit his direct S-evidence with respect to p, . . . , and so on.
 A’s S-reasons with respect to p are themselves S-beliefs of A’s, with respect to
 which A may have further S-evidence, but A’s experiential S-evidence with
 respect to p consists of non-belief states of A, not the kind of thing with respect
-to which A has, or needs, evidence. Experiential S-evidence sustains/inhibits S-
-beliefs, not vice versa; this is the sense in which A’s experiential S-evidence is
+to which A has, or needs, evidence. Experiential S-evidence sustains/inhibits Sbeliefs, not vice versa; this is the sense in which A’s experiential S-evidence is
 his ultimate S-evidence. (This is the important truth that experientialist
 foundationalism tries to accommodate—but in a forced and unnatural way.)
 The pre-analytic notion of “the evidence of the senses” is not innocent of
@@ -17985,14 +17891,12 @@ be construed not as instantaneous but as having some (unspecified, and
 gerrymanderable) duration.
 A person’s S-beliefs are frequently maintained, in whole or part, by his
 hearing, seeing, or remembering hearing or seeing, what someone else says or
-writes. Such testimonial S-evidence enters the picture by way of A’s sensory S-
-evidence; as when A’s S-belief that p is sustained by his remembering hearing B
+writes. Such testimonial S-evidence enters the picture by way of A’s sensory Sevidence; as when A’s S-belief that p is sustained by his remembering hearing B
 say that p, and his S-beliefs that B is well-informed, has no strong motive for
 deceit, etc. (It is assumed that, if A doesn’t understand B’s language, if he has the
 S-belief that p, his hearing B say “p*” will not form part of its causal nexus.)11
 A’s S-evidence with respect to p consists of (a gerrymandered collection of)
-states of A. But in the evaluative stage “evidence” will have to mean “C-
-evidence,” for it is sentences or propositions, not states of a person, which can
+states of A. But in the evaluative stage “evidence” will have to mean “Cevidence,” for it is sentences or propositions, not states of a person, which can
 support or undermine each other, be consistent or inconsistent with each other,
 cohere or fail to cohere as an explanatory story, etc. So a bridge is needed from
 S- to C-evidence. “A’s C-reasons for believing that p” will refer to the C-beliefs
@@ -18000,8 +17904,7 @@ A’s believing which constitute A’s S-reasons for believing that p; “A’s
 experiential C-evidence for believing that p” to sentences or propositions to the
 effect that A is in (a) certain state(s)—the state(s) which constitute A’s
 experiential S-evidence for believing that p; “A’s C-evidence for believing that
-p” will refer to A’s C-reasons for believing that p and A’s experiential C-
-evidence for believing that p; “A’s C-evidence against believing that p” will be
+p” will refer to A’s C-reasons for believing that p and A’s experiential Cevidence for believing that p; “A’s C-evidence against believing that p” will be
 characterized like “A’s C-evidence for believing that p,” but with “against” for
 “for”; and “A’s C-evidence with respect to p” will refer to A’s C-evidence for
 believing that p and A’s C-evidence against believing that p. A’s direct, indirect1,
@@ -18064,13 +17967,11 @@ How reasonable one’s confidence is that a certain entry in a crossword puzzle
 is correct depends on how much support is given to this entry by its clue and any
 already filled-in intersecting entries; how reasonable, independently of the entry
 in question, one’s confidence is that those intersecting entries are correct; and
-how many of them have been completed. Analogously, how good A’s C-
-evidence with respect to p is would depend on:
+how many of them have been completed. Analogously, how good A’s Cevidence with respect to p is would depend on:
 (1) how favorable A’s direct C-evidence with respect to p is;
 (2) how secure A’s direct C-reasons with respect to p are, independently of the C-belief that p;
 (3) how comprehensive A’s C-evidence with respect to p is.
-It should be noted that, although clause (2) mentions explicitly only A’s direct C-
-evidence with respect to p, its application takes one progressively outward, to the
+It should be noted that, although clause (2) mentions explicitly only A’s direct Cevidence with respect to p, its application takes one progressively outward, to the
 appraisal of A’s indirect1, indirect2,. . . , etc., C-evidence with respect to p. For in
 considering how independently secure A’s direct C-reasons are, it will be
 necessary to consider how well his indirect1 C-evidence supports them, and how
@@ -18115,8 +18016,7 @@ explanatory integration more than the more of its competitors do. The crossword
 analogy pulls one somewhat in the direction of the weaker characterization,
 which I am therefore inclined to favor—though not by a very large margin.
 I had formerly favored the conjecture that E is supportive with respect to p
-just in case its p-extrapolation is better explanatorily integrated than its not-p-
-extrapolation, and the more supportive the more its p-extrapolation is better
+just in case its p-extrapolation is better explanatorily integrated than its not-pextrapolation, and the more supportive the more its p-extrapolation is better
 explanatorily integrated than its not-p-extrapolation. But I no longer think this
 can be correct: the problem is that if p is potentially explanatory of E or some
 component of E, it is not to be expected that not-p will be a rival potential
@@ -18142,8 +18042,7 @@ shall say, indifferent, is surely more plausible than the foundationalist line t
 is conclusive; and it is achieved without succumbing to the excessively
 strenuous coherentist thesis that if there is any inconsistency in A’s belief-set, he
 is not justified in any of his beliefs.
-The intuition is much stronger that there is such a thing as favorable-but-not-
-conclusive evidence than it is that there is such a thing as “inductive
+The intuition is much stronger that there is such a thing as favorable-but-notconclusive evidence than it is that there is such a thing as “inductive
 implication” or “inductive logic”—certainly if “logic” is taken to indicate
 relations susceptible of a purely syntactic characterization.12 My approach to “E
 is supportive (favorable but not conclusive) with respect to p” has, from this
@@ -18171,12 +18070,10 @@ degree of justification. If A’s direct C-evidence with respect to p includes o
 beliefs of his, the degree to which he is justified in believing that p will also
 depend on the degree to which he is justified in believing those C-reasons. The
 possibility of mutual dependence is not precluded; it could be that A’s C-reasons
-with respect to p include some C-belief, say the C-belief that z, one of A’s C-
-reasons with respect to which is the C-belief that p. The point of the qualification
+with respect to p include some C-belief, say the C-belief that z, one of A’s Creasons with respect to which is the C-belief that p. The point of the qualification
 “independently of the C-belief that p” in clause (2) is to avoid the danger of
 circularity this would otherwise present.
-The idea of independent security is easiest to grasp in the context of the cross-
-word analogy.
+The idea of independent security is easiest to grasp in the context of the crossword analogy.
 How reasonable one’s confidence is that 4 across (in figure 1) is correct
 depends, inter alia, on how reasonable one’s confidence is that 2 down is
 correct. True, how reasonable one’s confidence is that 2 down is correct in turn
@@ -18198,8 +18095,7 @@ some entry is, one will eventually reach a point where the issue is not how well
 some entry is supported by others, but how well it is supported by its clue.
 Analogously, in appraising how justified A is, independently of the C-belief that
 p, in believing his C-reasons with respect to that belief, one will eventually reach
-a point where the issue is not how well some belief is supported by other C-
-beliefs, but how well it is supported by experiential C-evidence. And here the
+a point where the issue is not how well some belief is supported by other Cbeliefs, but how well it is supported by experiential C-evidence. And here the
 question of justification doesn’t arise. But doesn’t this mean that the account is
 lapsing into a kind of foundationalism? No. What it means is that “justified”
 eventually drops out of the explicans as one reaches the question, how well some
@@ -18296,14 +18192,12 @@ justification is not, judgements of justification are always perspectival; I jud
 how much of the relevant evidence you have taken into account by reference to
 what I take to be relevant.)
 It can now be seen that inconsistency in one’s belief-set does carry a price,
-though a lesser price than the coherentist exacts. Inconsistency in one’s C-
-evidence with respect to some belief has the consequence that one is not justified
+though a lesser price than the coherentist exacts. Inconsistency in one’s Cevidence with respect to some belief has the consequence that one is not justified
 in that belief. To avoid this a subject whose belief-set is inconsistent will have to
 keep the incompatible parts of his belief-set apart from each other; and this can
 be achieved only at the price of failure sometimes to take relevant evidence into
 account—which itself lowers the degree of justification of the beliefs it affects.
-“A is more justified in believing that p the more favorable his direct C-
-evidence with respect to p is, the more [less] independently secure his C-reasons
+“A is more justified in believing that p the more favorable his direct Cevidence with respect to p is, the more [less] independently secure his C-reasons
 for [against] believing that p are, and the more comprehensive his C-evidence
 with respect to p is.” This is a bit more specific than the first and second
 attempts, but it still leaves the question, what the minimal conditions are for A’s
@@ -18331,8 +18225,7 @@ important it is to be right about whether p, whether it is A’s particular busi
 know whether p, etc.—A has taken sufficient care in seeking out and assessing
 relevant evidence that he doesn’t count as having been epistemically negligent or
 as epistemically blameworthy in believing that p.” This may be represented by
-“A is completely justified in believing that p,” which would refer to a context-
-dependent area somewhere vaguely in the upper range of the scale of
+“A is completely justified in believing that p,” which would refer to a contextdependent area somewhere vaguely in the upper range of the scale of
 justification. Its vagueness and context-dependence is what makes this ordinary
 conception useful for practical purposes (and for the statement of Gettier-type
 paradoxes), but severely limits its theoretical usefulness. What one might call the
@@ -18359,8 +18252,7 @@ for the proposed approach. Were there time, it would be desirable to say
 something about how the impersonal locution, “the belief that p is more/less
 justified . . .,” may be given sense; about how to accommodate the idea that
 belief as well as justification comes in degrees; about how the gradational
-character of supportiveness may draw the teeth of the lottery paradox and its up-
-and-back structure the teeth of the “infinite regress argument”16 for
+character of supportiveness may draw the teeth of the lottery paradox and its upand-back structure the teeth of the “infinite regress argument”16 for
 foundationalism; . . . ; about what light the crossword analogy might throw on
 the matter of procedures of inquiry; . . . , and so on.
 Since I dare allow myself only one more paragraph, however, let me devote it
@@ -18372,8 +18264,7 @@ assumptions about our perceptual capacities and limitations being prominent
 here. These assumptions, though of a high degree of generality and abstraction,
 seem manifestly synthetic; so when it comes to the question of the
 appropriateness or otherwise of our criteria of justification to the goal of inquiry
-(roughly, their truth-indicativeness), it is not to be expected that meta-
-epistemological arguments of a purely a priori character will suffice. There is no
+(roughly, their truth-indicativeness), it is not to be expected that metaepistemological arguments of a purely a priori character will suffice. There is no
 reason to anticipate that meta-epistemological issues could simply be handed
 over to psychology to adjudicate (“the senses are a means of detecting
 information about things and events around us” is not readily classifiable either
@@ -18768,8 +18659,7 @@ the area of sexual and reproductive autonomy, for example, came in advance of
 reliable, comprehensive, and accessible scholarship on sexuality, the family, and
 the status of women. The court had to decide whether capital punishment is cruel
 and unusual punishment at a time when the scientific study of the deterrent
-effects of capital punishment was just beginning. When the court decided to re-
-district the nation according to the “one man, one vote” principle it cannot have
+effects of capital punishment was just beginning. When the court decided to redistrict the nation according to the “one man, one vote” principle it cannot have
 had a clear idea about the effects, which political scientists still do not agree
 upon more than thirty years later. The examples are not limited to the Supreme
 
@@ -18917,8 +18807,7 @@ How should one feel as a judge if one allows such a punishment to be imposed?
 And are these sentences for real, or are preposterously severe sentences soon
 commuted? Could it be that the deterrent effect of so harsh a sentence will be so
 great that the total number of years of imprisonment for violation of the drug
-laws will be reduced, making the sacrifice of this young person a utility-
-maximizing venture after all? Is utility the right criterion here? Is the sale of
+laws will be reduced, making the sacrifice of this young person a utilitymaximizing venture after all? Is utility the right criterion here? Is the sale of
 marijuana perhaps far more destructive than some ivory-tower judge or professor
 thinks? Do judges become callous if a large proportion of the criminal cases that
 they review involve very long sentences? If a defendant appealed who received
@@ -18959,8 +18848,7 @@ criticisms I have mentioned are entirely just. But I do not myself understand
 not in itself but only in relation to the present and the future. That relation may
 be a very important one. It may be that the best the judge can do for the present
 and the future is to insist that breaks with the past be duly considered. That
-would be entirely consistent with pragmatism; it would be positivism-as-
-pragmatism. All that would be missing would be a sense of reverence for the
+would be entirely consistent with pragmatism; it would be positivism-aspragmatism. All that would be missing would be a sense of reverence for the
 past, a felt “duty” of continuity with the past. That reverence, that sense of duty,
 would be inconsistent with the forward-looking stance, and hence with
 pragmatism.
@@ -19240,7 +19128,7 @@ You. . . You said,
 But they are not part of a truth.”
 Then the tree, at night, began to change.
 —Wallace Stevens “On the Road Home”
-1
+
 The master concept of the theory of meaning presented in Making It Explicit1 is
 inference, not truth. Of course there are a lot of questions about how such an
 inferential role semantics might be made to work; a good bit of the book is given
@@ -19355,14 +19243,14 @@ with truth-locutions can be strictly expressively more powerful than languages
 without them. Quantificational prosentences are one of the prime reasons.3
 The anaphoric approach smoothly handles cases in which the anaphoric
 antecedent contains indexicals, demonstratives, anaphoric dependents, and
-expressions 
-in 
-foreign 
-languages—all 
-of 
-which 
-cause 
-trouble 
+expressions
+in
+foreign
+languages—all
+of
+which
+cause
+trouble
 for
 straightforwardly disquotational theories. Thus if the antecedent of my utterance
 of “That is true”, is your utterance of “I am hungry”, the second stage of the
@@ -19504,13 +19392,11 @@ that can be used to define anaphoric prosentences, and hence to say what one is
 doing in talking about truth and truth conditions. Similarly, the discussion of
 substitution inferences offers an account of the conceptual role of singular terms
 that is independent of and antecedent to any account of term reference—one that
-can be used to define anaphoric pronouns by their inheritance of substitution-
-inferential roles from their antecedents, and hence to say what one is doing in
+can be used to define anaphoric pronouns by their inheritance of substitutioninferential roles from their antecedents, and hence to say what one is doing in
 using ‘refers’ talk.
 The view put forward in Making It Explicit accordingly differs from previous
 ‘deflationary’ approaches to truth talk in a number of ways:
-The anaphoric theory, which sees ‘true’ and ‘refers’ as anaphoric proform-
-forming operators has technical and theoretical advantages over more
+The anaphoric theory, which sees ‘true’ and ‘refers’ as anaphoric proformforming operators has technical and theoretical advantages over more
 standard disquotational approaches.
 It is not deflationary about the expressive role of these traditional semantic
 locutions. On the contrary, it seeks to codify in a unified fashion the ways in
@@ -19529,7 +19415,7 @@ Far from being content with this merely negative posture, however, it faces
 head-on the constructive obligation of such explanatory deflationism: the
 obligation to produce a detailed alternative to explaining propositional
 contentfulness in terms of possession of truth conditions.
-2
+
 Indeed, the book consists of an extended response to this challenge. The project
 is oriented by a methodological commitment to explain the meanings of
 linguistic expressions in terms of their use. The explanatory strategy is to begin
@@ -19654,8 +19540,7 @@ significance of logical vocabulary lies rather in what it lets those who master 
 say—the special class of claims it enables them to express. Logical vocabulary
 endows practitioners with the expressive power to make explicit as the contents
 of claims just those implicit features of linguistic practice that confer semantic
-contents on their utterances in the first place. Logic is the organ of semantic self-
-consciousness. It brings out into the light of day the practical attitudes that
+contents on their utterances in the first place. Logic is the organ of semantic selfconsciousness. It brings out into the light of day the practical attitudes that
 determine the conceptual contents members of a linguistic community are able
 to express—putting them in the form of explicit claims, which can be debated,
 for which reasons can be given and alternatives proposed and assessed. The
@@ -19971,8 +19856,7 @@ Pragmatists and realists may thus agree that there is a normative dimension
 distinct from subjective assertibility and personal warranted assertibility—an
 assertion may be wrong, despite meeting these norms. This does not yet establish
 that the normative standard in question need be marked in ordinary discourse. In
-principle, it might be a privileged or theoretical notion, useful in expert second-
-order reflection on linguistic practice but unnecessary in folk talk about other
+principle, it might be a privileged or theoretical notion, useful in expert secondorder reflection on linguistic practice but unnecessary in folk talk about other
 matters. In practice, however, there seems a very good reason why it should not
 remain restricted in this way. Unless individual speakers recognize such a norm,
 the idea that they might improve their views by consultation with the wider
@@ -20281,8 +20165,7 @@ and our world is much greater than merely the difference between MOAs and
 genuine assertions. So even if it were to turn out that the development of
 dialogue had been an historical accident, of no great value to the species
 biologically considered, it would still be true that the most interesting behavioral
-consequence of the third norm would be dialogue, and not merely the more-than-
-merely-Mo’an assertion which makes dialogue possible.25
+consequence of the third norm would be dialogue, and not merely the more-thanmerely-Mo’an assertion which makes dialogue possible.25
 Recall that I began by challenging Rorty’s claim that no behavioral
 consequences flow from a distinction between justification and truth. In one
 sense, my challenge does indeed amount to pointing out that the third norm—a
@@ -20393,8 +20276,7 @@ The third norm thus requires a notion of truth that differs from justification, 
 of a Peircean ideal variety. In this sense, then, the present account is realist rather
 than pragmatist about truth. In another sense, however, the view surely seems
 antirealist. After all, I have argued that what matters is that speakers take there to
-be a norm of truth, not that there actually be such a norm, in some speaker-
-independent sense. Is this not antirealism, or more precisely, in the current
+be a norm of truth, not that there actually be such a norm, in some speakerindependent sense. Is this not antirealism, or more precisely, in the current
 jargon, a form of fictionalism about truth?
 If so, could, this be a satisfactory outcome? If truth does play the role I have
 claimed for it in dialogue, would not the realization that it is a fiction undermine
@@ -20880,8 +20762,7 @@ exploring its connection with our practices of belief and inquiry. The role play
 by truth in these practices is that it is our aim in belief and inquiry. But, of
 course, we have other, more proximate or more local aims when we believe and
 inquire. We aim to get beliefs that are fruitful, that fit with the evidence, that
-have explanatory and predictive power, that are consistent with other well-
-grounded beliefs, and so forth, if a belief were such that it would survive all the
+have explanatory and predictive power, that are consistent with other wellgrounded beliefs, and so forth, if a belief were such that it would survive all the
 challenges we could put to it, if it would meet all of the local aims of inquiry,
 then there is nothing more we could ask of it—it would be true. “Truth,” if you
 like, is a catch-all for the local aims of inquiry. If the local aims were to be
@@ -21157,8 +21038,7 @@ that would stand up to inquiry, were inquiry to proceed as far as it fruitfully 
 9. See Misak (2000; forthcoming) for the argument that Peirce’s account of truth meets the
 antimetaphysical standards of the disquotationalist. That is, Price is wrong to take Peirce’s position as
 metaphysical, let alone as folk metaphysical.
-10. Crispin Wright (1992) argues that a mark of those discourses that go beyond the minimal truth-
-predicate—a mark of, for want of a better word, an objective discourse—is that disagreement is taken to
+10. Crispin Wright (1992) argues that a mark of those discourses that go beyond the minimal truthpredicate—a mark of, for want of a better word, an objective discourse—is that disagreement is taken to
 arise from some fault or mistake. Wright thinks that moral discourse fails to meet this standard. See Misak
 
 
@@ -21637,7 +21517,7 @@ puzzle of the Liar, 315
 quality, 23
 quantum mechanics, 309–310
 Quine, W.V.O, 4–5, 8, 287, 290, 292, 295, 327, 354–355, 363–364, 382, 453,
-466
+
 Quinean pragmatism, 371
 Ramsey, Frank, 442
 rationalism, 7, 85, 88, 118–119
@@ -21743,7 +21623,7 @@ Troeltsch, Ernst, 403
 truth, 6, 13, 49, 63, 79–80, 97, 99–100, 106, 131, 183, 216, 294, 360, 362, 368,
 373, 382, 392, 404, 440, 444, 451–452, 454, 456, 460, 463, 464, 471; by
 definition, 167; logical, 204–205; necessary, 166; norm of, 477; prosentential,
-441
+
 Twin Earth, 300–302, 306–307
 usefulness, 81
 Unger, Roberto, 383, 394

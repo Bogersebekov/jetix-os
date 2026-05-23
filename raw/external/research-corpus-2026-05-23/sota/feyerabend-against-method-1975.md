@@ -9,8 +9,11 @@ chars: 749581
 approx_tokens: 187395
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 749583
+phase4_chars_after: 749235
+phase4_saved_pct: 0.0
 ---
-
 
 
 Paul Feyerabend
@@ -18,8 +21,7 @@ Against Method
 Outline of an Anarchistic Theory of
 Knowledge
 1993 (third edition)
-Original footnote numbers are retained because they contain multiple cross-
-references. Images and tables are not present yet: they are replaced with
+Original footnote numbers are retained because they contain multiple crossreferences. Images and tables are not present yet: they are replaced with
 TODO placeholders.
 OceanofPDF.com
 
@@ -251,12 +253,12 @@ have also forced them to consult alternative opinions. (In Switzerland a
 
 belligerent plurality of views is almost part of culture - and I used it when
 arranging public confrontations between hardheaded scientists and
-“alternative” 
-thinkers.[22]) 
-However, 
-here 
-as 
-elsewhere, 
+“alternative”
+thinkers.[22])
+However,
+here
+as
+elsewhere,
 simple
 philosophies, whether of a dogmatic or a more liberal kind, have their
 limits. There are no general solutions. An increased liberalism in the
@@ -467,15 +469,14 @@ Introduction
 Science is an essentially anarchic enterprise: theoretical
 anarchism is more humanitarian and more likely to encourage
 progress than its law-and-order alternatives.
-1
+
 This is shown both by an examination of historical episodes and
 by an abstract analysis of the relation between idea and action.
 The only principle that does not inhibit progress is: anything goes.
-2
-For example, we may use hypotheses that contradict well-
-confirmed theories and/or well-established experimental results.
+
+For example, we may use hypotheses that contradict wellconfirmed theories and/or well-established experimental results.
 We may advance science by proceeding counterinductively.
-3
+
 The consistency condition which demands that new hypotheses
 agree with accepted theories is unreasonable because it preserves
 the older theory, and not the better theory. Hypotheses
@@ -483,8 +484,6 @@ contradicting well-confirmed theories give us evidence that
 cannot be obtained in any other way. Proliferation of theories is
 beneficial for science, while uniformity impairs its critical power.
 Uniformity also endangers the free development of the individual.
-4
-
 
 There is no idea, however ancient and absurd, that is not capable
 of improving our knowledge. The whole history of thought is
@@ -492,13 +491,13 @@ absorbed into science and is used for improving every single
 theory. Nor is political interference rejected. It may be needed to
 overcome the chauvinism of science that resists alternatives to the
 status quo.
-5
+
 No theory ever agrees with all the facts in its domain, yet it is not
 always the theory that is to blame. Facts are constituted by older
 ideologies, and a clash between facts and theories may be proof
 of progress. It is also a first step in our attempt to find the
 principles implicit in familiar observational notions.
-6
+
 As an example of such an attempt I examine the tower argument
 which the Aristotelians used to refute the motion of the earth. The
 argument involves natural interpretations - ideas so closely
@@ -506,13 +505,13 @@ connected with observations that it needs a special effort to
 realize their existence and to determine their content. Galileo
 identifies the natural interpretations which are inconsistent with
 Copernicus and replaces them by others.
-7
+
 The new natural interpretations constitute a new and highly
 abstract observation language. They are introduced and concealed
 so that one fails to notice the change that has taken place (method
 of anamnesis). They contain the idea of the relativity of all motion
 and the law of circular inertia.
-8
+
 In addition to natural interpretations, Galileo also changes
 sensations that seem to endanger Copernicus. He admits that there
 are such sensations, he praises Copernicus for having disregarded
@@ -521,52 +520,50 @@ are such sensations, he praises Copernicus for having disregarded
 them, he claims to have removed them with the help of the
 telescope. However, he offers no theoretical reasons why the
 telescope should be expected to give a true picture of the sky.
-9
+
 Nor does the initial experience with the telescope provide such
 reasons. The first telescopic observations of the sky are indistinct,
 indeterminate, contradictory and in conflict with what everyone
 can see with his unaided eyes. And, the only theory that could
 have helped to separate telescopic illusions from veridical
 phenomena was refuted by simple tests.
-10
+
 On the other hand, there are some telescopic phenomena which
 are plainly Copernican. Galileo introduces these phenomena as
 independent evidence for Copernicus while the situation is rather
 that one refuted view -Copernicanism - has a certain similarity
 with phenomena emerging from another refuted view - the idea
 that telescopic phenomena are faithful images of the sky.
-11
+
 Such “irrational” methods of support are needed because of the
 “uneven development” (Marx, Lenin) of different parts of
 science. Copernicanism and other essential ingredients of modern
 science survived only because reason was frequently overruled in
 their past.
-12
+
 Galileo’s method works in other fields as well. For example, it
 can be used to eliminate the existing arguments against
 materialism, and to put an end to the philosophical mind/body
-problem 
-(the 
-corresponding 
-scientific 
-problems 
+problem
+(the
+corresponding
+scientific
+problems
 remain
 untouched, however). It does not follow that it should be
 universally applied.
 
-
-13
 The Church at the time of Galileo not only kept closer to reason
 as defined then and, in part, even now: it also considered the
 ethical and social consequences of Galileo’s views. Its indictment
 of Galileo was rational and only opportunism and a lack of
 perspective can demand a revision.
-14
+
 Galileo’s inquiries formed only a small part of the so-called
 Copernican Revolution. Adding the remaining elements makes it
 still more difficult to reconcile the development with familiar
 principles of theory evaluation.
-15
+
 The results obtained so for suggest abolishing the distinction
 between a context of discovery and a context of justification,
 norms and facts, observational terms and theoretical terms. None
@@ -574,33 +571,30 @@ of these distinctions plays a role in scientific practice. Attempts to
 enforce them would have disastrous consequences. Popper's
 critical rationalism foils for the same reasons.
 Appendix 1
-16
+
 Finally, the kind of comparison that underlies most methodologies
 is possible only in some rather simple cases. It breaks down when
 we try to compare non-scientific views with science and when we
 consider the most advanced, most general and therefore most
 mythological parts of science itself.
 Appendix 2
-17
-
 
 Neither science nor rationality are universal measures of
 excellence. They are Particular traditions, unaware of their
 historical grounding.
-18
+
 Yet it is possible to evaluate standards of rationality and to
 improve them. The principles of improvement are neither above
 tradition nor beyond change and it is impossible to nail them
 down.
-19
+
 Science is neither a single tradition, nor the best tradition there is,
 except for people who have become accustomed to its presence,
 its benefits and its disadvantages. In a democracy it should be
 separated from the state just as churches are now separated from
 the state.
-20
-The point of view underlying this book is not the result of a well-
-planned train of thought but of arguments prompted by accidental
+
+The point of view underlying this book is not the result of a wellplanned train of thought but of arguments prompted by accidental
 encounters. Anger at the wanton destruction of cultural
 achievements from which we all could have learned, at the
 conceited assurance with which some intellectuals interfere with
@@ -628,8 +622,7 @@ than even” the best historian and the best methodologist can imagine.[27]
 History is full of “accidents and conjunctures and curious juxtapositions of
 events”[28] and it demonstrates to us the “complexity of human change and
 the unpredictable character of the ultimate consequences of any given act or
-decision of men”.[29] Are we really to believe that the naive and simple-
-minded rules which methodologists take as their guide are capable of
+decision of men”.[29] Are we really to believe that the naive and simpleminded rules which methodologists take as their guide are capable of
 accounting for such a “maze of interactions”?[30] And is it not clear that
 successful participation in a process of this kind is possible only for a
 ruthless opportunist who is not tied to any particular philosophy and who
@@ -658,13 +651,13 @@ conditions of history.
 Now it is, of course, possible to simplify the medium in which a scientist
 works by simplifying its main actors. The history of science, after all, does
 not just consist of facts and conclusions drawn from facts. It also contains
-ideas, 
-interpretations 
-of 
-facts, 
-problems 
-created 
-by 
+ideas,
+interpretations
+of
+facts,
+problems
+created
+by
 conflicting
 interpretations, mistakes, and so on. On closer analysis we even find that
 science knows no “bare facts” at all but that the “facts” that enter our
@@ -811,8 +804,6 @@ needed, in circumstances that occur rather frequently today (but may disappear t
 more humane approach.
 OceanofPDF.com
 
-
-1
 This is shown both by an examination of historical episodes and by an
 abstract analysis of the relation between idea and action. The only principle
 that does not inhibit progress is: anything goes.
@@ -855,8 +846,7 @@ ability - is due partly to indoctrination and partly to a process of growth that
 proceeds with the force of natural law. And where arguments do seem to
 have an effect, this is more often due to their physical repetition than to
 their semantic content.
-Having admitted this much, we must also concede the possibility of non-
-argumentative growth in the adult as well as in (the theoretical parts of)
+Having admitted this much, we must also concede the possibility of nonargumentative growth in the adult as well as in (the theoretical parts of)
 institutions such as science, religion, prostitution, and so on. We certainly
 cannot take it for granted that what is possible for a small child - to acquire
 new modes of behaviour on the slightest provocation, to slide into them
@@ -994,8 +984,7 @@ always “before” the event. Hence simplicity, elegance or consistency are nev
 of (scientific) practice.
 Considerations such as these are usually criticized by the childish remark that a contradiction
 “entails” everything. But contradictions do not “entail” anything unless people use them in certain
-ways. And people will use them as entailing everything only if they accept some rather simple-
-minded rules of derivation. Scientists proposing theories with logical faults and obtaining interesting
+ways. And people will use them as entailing everything only if they accept some rather simpleminded rules of derivation. Scientists proposing theories with logical faults and obtaining interesting
 results with their help (for example: the results of early forms of the calculus; of a geometry where
 lines consist of points, planes of lines and volumes of planes; the predictions of the older quantum
 
@@ -1013,8 +1002,6 @@ everything to the tyranny of “logic”.
 [41] {Chapter 3, 3} Hegel, Wissenschaft der Logik, Vol. 1, Hamburg, 1965, p. 6.
 OceanofPDF.com
 
-
-2
 For example, we may use hypotheses that contradict well-confirmed
 theories and/or well-established experimental results. We may advance
 science by proceeding counterinductively.
@@ -1027,8 +1014,7 @@ favours the theory (or leaves the situation unchanged) while disagreement
 endangers it, and perhaps even forces us to eliminate it. This rule is an
 important part of all theories of confirmation and corroboration. It is the
 essence of empiricism. The “counterrule” corresponding to it advises us to
-introduce and elaborate hypotheses which are inconsistent with well-
-established theories and/or well-established facts. It advises us to proceed
+introduce and elaborate hypotheses which are inconsistent with wellestablished theories and/or well-established facts. It advises us to proceed
 counterinductively.
 The counterinductive procedure gives rise to the following questions: Is
 counterinduction more reasonable than induction? Are there circumstances
@@ -1162,8 +1148,6 @@ playwright could produce all the outer manifestations of “deep love” in orde
 “deep love” itself. Example: Pirandello.)
 OceanofPDF.com
 
-
-3
 The consistency condition which demands that new hypotheses agree with
 accepted theories is unreasonable because it preserves the older theory, and
 not the better theory. Hypotheses contradicting well-confirmed theories give
@@ -1512,8 +1496,6 @@ Merton, Science, Technology and Society in Seventeenth Century England, New York
 version of the 1938 article).
 OceanofPDF.com
 
-
-4
 There is no idea, however ancient and absurd, that is not capable of
 improving our knowledge. The whole history of thought is absorbed into
 science and is used for improving every single theory. Nor is political
@@ -1677,8 +1659,7 @@ shall get tons of minute, precise, but utterly barren results.
 [58] {Chapter 4, 3} Mary Hesse, Ratio, No. 9, 1967, p. 93; cf. B. F. Skinner, Beyond Freedom and
 Dignity, New York, 1971 , p.  5: “No modern physicist would turn to Aristotle for help.” This is
 neither true, nor would it be an advantage if it were true. Aristotelian ideas influenced research long
-after they had allegedly been removed by early modern astronomy and physics - any history of 17th-
-or 18th-century science will show that (example: John Heilbronn’s marvellous Electricity in the 17th
+after they had allegedly been removed by early modern astronomy and physics - any history of 17thor 18th-century science will show that (example: John Heilbronn’s marvellous Electricity in the 17th
 and 18th  Centuries, Berkeley and Los Angeles, 1979). They resurfaced in biology, in the
 thermodynamics of open systems and even in mathematics. Aristotle’s theory locomotion (which has
 the consequence that a moving object has no precise length and that an object having a precise
@@ -1731,8 +1712,7 @@ Hamlet’s Mill, Boston, 1969.
 the physiological basis of Voodoo cf.  C. R. Richter, “The Phenomenon of Unexplained Sudden
 Death”, in Gantt (ed.), The Physiological Basis of Psychiatry, as well as W. H. Cannon, Bodily
 Changes in Pain, Hunger, Fear and Rage, New York, 1915, and “‘Voodoo’ Death”, in American
-Anthropologist, n.s., xliv, 1942. The detailed biological and meteorological observations made by so-
-called “primitives” are reported in Lévi-Strauss, The Savage Mind, London, 1966.
+Anthropologist, n.s., xliv, 1942. The detailed biological and meteorological observations made by socalled “primitives” are reported in Lévi-Strauss, The Savage Mind, London, 1966.
 [64] {Chapter 4, 9} R. C. Croizier, Traditional Medicine in Modern China, Cambridge, Mass.,
 1968. The author gives a very interesting and fair account of developments with numerous quotations
 from newspapers, books, pamphlets, but is often inhibited by his respect for 20th-century science.
@@ -1747,8 +1727,6 @@ Organization in Communist China, Berkeley, 1966.
 Philosophical Papers. Cf. also Appendix 1 of the present essay.
 OceanofPDF.com
 
-
-5
 No theory ever agrees with all the facts in its domain, yet it is not always the
 theory that is to blame. Facts are constituted by older ideologies, and a clash
 between facts and theories may be proof of progress. It is also a first step in our
@@ -1926,13 +1904,13 @@ mechanics. This is how the situation is usually explained.
 The explanation shows that the premise from which we derive the 43" is not
 the general theory of relativity plus suitable initial conditions. The premise
 contains classical physics in addition to whatever relativistic assumptions are
-being 
-made. 
-Furthermore, 
-the 
-relativistic 
-calculation, 
-the 
+being
+made.
+Furthermore,
+the
+relativistic
+calculation,
+the
 so-called
 “Schwarzschild solution”, does not deal with the planetary system as it exists in
 the real world (i.e. our own asymmetric galaxy); it deals with the entirely fictional
@@ -2154,8 +2132,7 @@ Einstein’s Relativity”, British Journal for the History of Science, Vol. 5,
 given there. Einstein alone regarded the results as “improbable because their basic assumptions, from which
 the mass of the moving electron is deduced, are not suggested by theoretical systems which encompass wider
 complexes of phenomena” (Jahrbuch der Radioaktivitiät und Elektrizität, Vol.  4, 1907, p.  349). Miller’s
-work was studied by Lorentz for many years, but he could not find the trouble. It was only in 1955, twenty-
-five years after Miller had finished his experiments, that a satisfactory account of Miller’s results was found.
+work was studied by Lorentz for many years, but he could not find the trouble. It was only in 1955, twentyfive years after Miller had finished his experiments, that a satisfactory account of Miller’s results was found.
 Cf. R. S. Shankland, “Conversations with Einstein”, Am. Journ. Phys., Vol. 31, 1963, pp. 47-57, especially
 p.  51, as well as footnotes  19 and 34; cf.  also the inconclusive discussion at the “Conference on the
 Michelson-Morley Experiment”, Astrophysical Journal, Vol. 68, 1928, pp. 341 ff.
@@ -2311,8 +2288,6 @@ while the “deep” thinkers descend into the darker regions of the status quo 
 they remain stuck in the mud.
 OceanofPDF.com
 
-
-6
 As an example of such an attempt I examine the tower argument which the
 Aristotelians used to refute the motion of the earth. The argument involves
 natural interpretations - ideas so closely connected with observations that
@@ -2637,8 +2612,7 @@ its elimination removes the view from the domain of observation, then the
 only acceptable procedure is to use other interpretations and to see what
 happens. The interpretation which Galileo uses restores the senses to their
 position as instruments of exploration, but only with respect to the reality of
-relative motion. Motion “among things which share it in common” is “non-
-operative”, that is, “it remains insensible, imperceptible, and without any
+relative motion. Motion “among things which share it in common” is “nonoperative”, that is, “it remains insensible, imperceptible, and without any
 effect whatever”.[105] Galileo’s first step, in his joint examination of the
 Copernican doctrine and of a familiar but hidden natural interpretation,
 consists therefore in replacing the latter by a different interpretation. In
@@ -2663,8 +2637,7 @@ criticize an idiom that is supposed to function as an observation language
 because it is not yet well known and is, therefore, less strongly connected
 with our sensory reactions and less plausible than is another, more
 “common” idiom. Superficial criticisms of this kind, which have been
-elevated into an entire “philosophy”, abound in discussions of the mind-
-body problem. Philosophers who want to introduce and to test new views
+elevated into an entire “philosophy”, abound in discussions of the mindbody problem. Philosophers who want to introduce and to test new views
 thus find themselves faced not with arguments, which they could most
 likely answer, but with an impenetrable stone wall of well-entrenched
 reactions. This is not at all different from the attitude of people ignorant of
@@ -2673,11 +2646,11 @@ by “red” than by “rosso”. As opposed to such attempts at conversion by
 appeal to familiarity (“I know what pains are, and I also know, from
 introspection, that they have nothing whatever to do with material
 processes!”), we must emphasize that a comparative judgement of
-observation 
-languages, 
-e.g. 
-materialistic 
-observation 
+observation
+languages,
+e.g.
+materialistic
+observation
 languages,
 phenomenalistic observation languages, objective-idealistic observation
 languages, theological observation languages, etc., can start only when all
@@ -2743,8 +2716,6 @@ natural nor forced, and which may therefore (?) be assumed to go on for ever.
 play an important role in the Aristotelian philosophy.
 OceanofPDF.com
 
-
-7
 The new natural interpretations constitute a new and highly abstract observation
 language. They are introduced and concealed so that one fails to notice the
 change that has taken place (method of anamnesis). They contain the idea of the
@@ -2934,8 +2905,7 @@ plausibility, it was necessary to subsume the first paradigm under the second, a
 to extend the relative notions to all phenomena. The idea of anamnesis functions
 here as a psychological crutch, as a lever which smooths the process of
 subsumption by concealing its existence. As a result we are now ready to apply
-the relative notions not only to boats, coaches, birds, but to the “solid and well-
-established earth” as a whole. And we have the impression that this readiness was
+the relative notions not only to boats, coaches, birds, but to the “solid and wellestablished earth” as a whole. And we have the impression that this readiness was
 in us all the time, although it took some effort to make it conscious. This
 impression is most certainly erroneous: it is the result of Galileo’s propagandistic
 machinations. We would do better to describe the situation in a different way, as a
@@ -2950,8 +2920,7 @@ in common sense and in the Aristotelian philosophy. The attempt to support
 Copernicus makes experience “fluid” in the very same manner in which it makes
 the heavens fluid, “so that each star roves around in it by itself”.[121] An
 empiricist who starts from experience, and builds on it without ever looking back,
-now loses the very ground on which he stands. Neither the earth, “the solid, well-
-established earth”, nor the facts on which he usually relies can be trusted any
+now loses the very ground on which he stands. Neither the earth, “the solid, wellestablished earth”, nor the facts on which he usually relies can be trusted any
 longer. It is clear that a philosophy that uses such a fluid and changing experience
 needs new methodological principles which do not insist on an asymmetric
 
@@ -2977,8 +2946,7 @@ one must explain not only why a motion that preserves the relation among visible
 objects remains unnoticed, but also, why a common motion of various objects
 does not affect their relation. That is, one must explain why such a motion is not a
 causal agent. Turning the question around in the manner explained in the text to
-footnote  10, page  63 of the last chapter, it is now apparent that the anti-
-Copernican argument described there rests on two natural interpretations: viz, the
+footnote  10, page  63 of the last chapter, it is now apparent that the antiCopernican argument described there rests on two natural interpretations: viz, the
 epistemological assumption that absolute motion is always noticed, and the
 dynamical principle that objects (such as the falling stone) which are not
 interfered with assume their natural motion. For Aristotelians the natural motion
@@ -3189,8 +3157,6 @@ that set narrow conditions on conceptual change and that it should be extended t
 such conditions (in Chapter 12 I argue that the mind-body problem is one such area).
 OceanofPDF.com
 
-
-8
 In addition to natural interpretations, Galileo also changes sensations that
 seem to endanger Copernicus. He admits that there are such sensations, he
 praises Copernicus for having disregarded them, he claims to have remuved
@@ -3532,8 +3498,6 @@ Henry Morley, The Life of Cornelius Agrippa von Nettesheim, Vol. II, p. 166.
 
 OceanofPDF.com
 
-
-9
 Nor does the initial experience with the telescope provide such reasons. The
 first telescopic observations of the sky are indistinct, indeterminate,
 contradictory and in conflict with what everyone can see with his unaided
@@ -3630,8 +3594,7 @@ understand the scarcity of satisfactory reports and one is rather astonished at 
 speed with which the reality of the new phenomena was accepted, and, as was the
 custom, publicly acknowledged.[174] This development becomes even more
 puzzling when we consider that many reports of even the best observers were
-either plainly false, and capable of being shown as such at the time, or else self-
-contradictory.
+either plainly false, and capable of being shown as such at the time, or else selfcontradictory.
 Thus Galileo reports unevenness, “vast protuberances, deep chasms, and
 sinuosities”[175] at the inner boundary of the lighted part of the moon while the
 outer boundary “appear[s] not uneven, rugged, and irregular, but perfectly round
@@ -3676,13 +3639,13 @@ account too.[184] We must also remember the many conflicting views which were
 held about the surface of the moon, even at Galileo’s time,[185] and which may
 have influenced what observers saw.[186] What would be needed in order to shed
 more light on the matter is an empirical collection of all the early telescopic
-results, 
-preferably 
-in 
-parallel 
-columns, 
-including 
-whatever 
+results,
+preferably
+in
+parallel
+columns,
+including
+whatever
 pictorial
 representations have survived.[187] Subtracting instrumental peculiarities, such a
 collection adds fascinating material to a yet-to-be-written history of perception
@@ -4124,8 +4087,7 @@ connection between the eye glass and the eye and it is impossible to give an acc
 without understanding what happens in the process of vision itself.…” The telemetric triangle omits precisely
 this process, or rather gives a simplistic and false account of it. The state of optics at the beginning of the
 20th  century is well described in A. Gullstrand’s “Appendices to Part I” of Helmholtz’s Treatise on
-Physiological Optics, transl. Southall, New York, 1962, pp. 261ff. We read here how a return to the psycho-
-physiological process of vision enabled physicists to arrive at a more reasonable account even of the physics
+Physiological Optics, transl. Southall, New York, 1962, pp. 261ff. We read here how a return to the psychophysiological process of vision enabled physicists to arrive at a more reasonable account even of the physics
 of optical imagery: “The reason why the laws of actual optical imagery have been, so to speak, summoned to
 life by the requirements of physiological optics is due partly to the fact that by means of trigonometrical
 calculations, tedious to be sure, but easy to perform, it has been possible for the optical engineer to get closer
@@ -4169,8 +4131,6 @@ hypothesis received support mainly from its agreement with the Copernican point 
 largely ad hoc.
 OceanofPDF.com
 
-
-10
 On the other hand, there are some telescopic phenomena which are plainly
 Copernican. Galileo introduces these phenomena as independent evidence
 for Copernicus while the situation is rather that one refuted view -
@@ -4268,8 +4228,6 @@ that “each of these reasons, taken for itself, would find only scant belief”
 Kepler in seinen Briefen, Vol. 1, Munich, 1930, p. 68).
 OceanofPDF.com
 
-
-11
 Such “irrational” methods of support are needed because of the
 “uneven development” (Marx, Lenin) of different parts of science.
 Copernicanism and other essential ingredients of modern science
@@ -4333,12 +4291,12 @@ The geocentric hypothesis and Aristotle’s theory of knowledge and
 perception are well adapted to each other. Perception supports the theory of
 locomotion that entails the unmoved earth and it is in tum a special case of
 a comprehensive view of motion that includes locomotion, increase and
-decrease, 
-qualitative 
-alteration, 
-generation 
-and 
-corruption. 
+decrease,
+qualitative
+alteration,
+generation
+and
+corruption.
 This
 comprehensive view defines motion as the transition of a form from an
 agent to a patient which terminates when the patient possesses exactly the
@@ -4492,8 +4450,7 @@ essential if we want to overtake the status quo, for it gives us the time and
 the freedom that are needed for developing the main view in detail, and for
 finding the necessary auxiliary sciences.[217]
 This backward movement is indeed essential - but how can we persuade
-people to follow our lead? How can we lure them away from a well-
-defined, sophisticated and empirically successful system and make them
+people to follow our lead? How can we lure them away from a welldefined, sophisticated and empirically successful system and make them
 transfer their allegiance to an unfinished and absurd hypothesis? To a
 hypothesis, moreover, that is contradicted by one observation after another
 if we only take the trouble to compare it with what is plainly shown to be
@@ -4908,8 +4865,6 @@ extension of the latest scientific fashions to all areas of human endeavour - in
 a rationalistic interpretation and defence of science.
 OceanofPDF.com
 
-
-12
 Galileo’s method works in other fields as well. For example, it can be used
 to eliminate the existing arguments against materialism and to put an end to
 the philosophical mind/body problem. (The corresponding scientific
@@ -4974,8 +4929,6 @@ brief account of this event.
 Papers, Vol. 1 , Chapters 9 and 10.
 OceanofPDF.com
 
-
-13
 The Church at the time of Galileo not only kept closer to reason as defined
 then and, in part, even now; it also considered the ethical and social
 consequences of Galileo’s views. Its indictment of Galileo was rational and
@@ -4991,8 +4944,7 @@ Inquisition. After the middle of the 12th century the episcopal courts were
 greatly aided by the study of Roman law. Lawyers became so influential
 that, even if wholly untrained in canon law and theology, they had a much
 better chance of high preferment than a theologian.[231] The inquisitorial
-process removed safeguards provided by Roman law and led to some well-
-publicized excesses. What has not been publicized to the same extent is that
+process removed safeguards provided by Roman law and led to some wellpublicized excesses. What has not been publicized to the same extent is that
 the excesses of royal or secular courts often matched those of the
 Inquisition. It was a harsh and cruel age.[232] By 1600 the Inquisition had
 lost much of its power and aggressiveness. This was true especially in Italy
@@ -5107,8 +5059,7 @@ rigid as the attitude of the Church was towards lay interpreters - and it has
 the blessing of the law. Experts, or ignoramuses having acquired the formal
 insignia of expertise, always tried and often succeeded in securing for
 themselves exclusive rights in special domains. Any criticism of the rigidity
-of the Roman Church applies also to its modern scientific and science-
-connected successors.
+of the Roman Church applies also to its modern scientific and scienceconnected successors.
 Turning now from the form and the administrative backing of the
 objection to its content we notice that it deals with a subject that is gaining
 increasing importance in our own times - the quality of human existence.
@@ -5215,8 +5166,7 @@ accused. Lea, Inquisition in the Middle Ages, Vol. ii, p. 273.
 [234] {Chapter 13, 4} A comprehensive report of one of the trials that resulted from the conflict has
 been published in Science, Vol. 215, 1982, pp. 934ff. Many other trials followed.
 [235] {Chapter 13, 5} It seems that the need for secrecy in nuclear matters was first raised by the
-scientists themselves. Cf. the report and the documents in Spencer R. Weart and Gertrude Weiss-
-Szilard (eds), Leo Szilard, His Version of the Facts, Cambridge, Mass., 1978, esp. Chapters 2ff. Cf.
+scientists themselves. Cf. the report and the documents in Spencer R. Weart and Gertrude WeissSzilard (eds), Leo Szilard, His Version of the Facts, Cambridge, Mass., 1978, esp. Chapters 2ff. Cf.
 also the material on the Oppenheimer case. The inventor of the telescope was forced to secrecy as the
 military importance of the contrivance was soon realized. Cf. Chapter 8, footnote 24.
 Research teams become very secretive when approaching what they think is a Big Discovery. After
@@ -5304,8 +5254,7 @@ technology, speaks of “scientific opium”, meaning by it “a blindness to th
 the Refreshing River, Nottingham, 1986.
 “Rationalism”, writes Peter Medawar (Advice to a Young Scientist, New York, 1979, p. 101 ), “falls
 short of answering the many simple and childlike questions people like to ask; questions about
-origins and purposes such as are often contemptuously dismissed as non-questions, or pseudo-
-questions, although people understand them clearly enough and long to have an answer. These are
+origins and purposes such as are often contemptuously dismissed as non-questions, or pseudoquestions, although people understand them clearly enough and long to have an answer. These are
 intellectual pains that rationalists - like bad physicians confronted by ailments they cannot diagnose
 or cure - are apt to dismiss as ‘imagination’.”
 The clearest and most perceptive statement is found in Jacques Monod, Chance and Necessity, New
@@ -5358,8 +5307,6 @@ heading of the present chapter). I commented on the speech in two interviews, Il
 1990, pp. 54ff and La Repubblica, 14 July 1990, p. 20.
 OceanofPDF.com
 
-
-14
 Galileo’s inquiries formed only a small part of the so-called Copernican
 Revolution. Adding the remaining elements makes it still more difficult to
 reconcile the development with familiar principles of theory evaluation.
@@ -5579,8 +5526,7 @@ used the tower argument to exclude the motion of the earth. If Maestlin’s doub
 reached further then this was due either to an idiosyncratic interpretation of the
 
 
-Aristotelian doctrines, or to personal inclinations towards a non-Aristotelian world-
-view. It seems that we must assume the latter.
+Aristotelian doctrines, or to personal inclinations towards a non-Aristotelian worldview. It seems that we must assume the latter.
 The next decisive event on Maestlin’s journey towards Copernicus was the comet of
 1577. Again Maestlin, prompted by “numerous observations”, puts the comet into the
 superlunar region.[270] The idea that this region is free from change has now definitely
@@ -5670,12 +5616,12 @@ which brought about the triumph of the Copernican system.
 The answer here is the same as under 2: empirically there was no crisis and no
 crisis was resolved. A crisis did occur in cosmology, but only after the idea of the
 motion of the earth received a serious hearing. The many complaints about the
-inexactness 
-of 
-astronomical 
-predictions 
-that 
-preceded 
+inexactness
+of
+astronomical
+predictions
+that
+preceded
 Copernicus
 (Regiomontanus, for example) criticized the lack of precise initial conditions and
 accurate tables, not basic theory, and such a criticism would have been quite
@@ -5759,8 +5705,6 @@ Galileo’ s Dialogue, Chicago, 1964.
 [278] {Chapter 14, 28} Cf. footnote 26 above.
 OceanofPDF.com
 
-
-15
 The results obtained so for suggest abolishing the distinaion between a
 context of discuvery and a context of justification, nonns and faas,
 observational tenns and theoretical terms. None of these distinaions
@@ -5847,11 +5791,11 @@ said, deals with what should be done and cannot be criticized by reference
 to what is. But we must of course make sure that our prescriptions have a
 point of attack in the historical material, and we must also make sure that
 their determined application leads to desirable results. We make sure by
-considering 
-(historical, 
-sociological, 
-physical, 
-psychological, 
+considering
+(historical,
+sociological,
+physical,
+psychological,
 etc.)
 tendencies and laws which tell us what is possible and what is not possible
 under the given circumstances and thus separate feasible prescriptions from
@@ -5906,8 +5850,7 @@ Incommensurability, which I shall discuss next, is closely connected with
 the question of the rationality of science. Indeed one of the most general
 objections not merely to the use of incommensurable theories but even to
 the idea that there are such theories to be found in the history of science is
-the fear that they would severely restrict the efficacy of traditional, non-
-dialectical argument. Let us, therefore, look a little more closely at the
+the fear that they would severely restrict the efficacy of traditional, nondialectical argument. Let us, therefore, look a little more closely at the
 critical standards which, according to some, constitute the content of a
 “rational” argument. More especially, let us look at the standards of the
 Popperian school, which are still being taken seriously in the more
@@ -5929,8 +5872,7 @@ suggestions. It is not difficult to produce the standards of rationality
 defended by the Popperian school.
 These standards are standards of criticism: rational discussion consists in
 the attempt to criticize, and not in the attempt to prove or to make probable.
-Every step that protects a view from criticism, that makes it safe or “well-
-founded”, is a step away from rationality. Every step that makes it more
+Every step that protects a view from criticism, that makes it safe or “wellfounded”, is a step away from rationality. Every step that makes it more
 vulnerable is welcome. In addition, it is recommended to abandon ideas
 which have been found wanting and it is forbidden to retain them in the
 face of strong and successful criticism unless one can present suitable
@@ -6133,8 +6075,7 @@ into a complete theory). Or they are incorporated into the new theory as
 theorems, leading to a redefinition of the basic terms of the proceeding
 ideology (this happened in the cases of Galileo and of the theory of
 relativity). The demand that the truth-content of the earlier theory as
-conceived while the earlier theory reigned supreme be included in the truth-
-content of the successor is violated in either case.
+conceived while the earlier theory reigned supreme be included in the truthcontent of the successor is violated in either case.
 To sum up: wherever we look, whatever examples we consider, we see
 that the principles of critical rationalism (take falsifications seriously;
 increase content; avoid ad hoc hypotheses; “be honest” - whatever that
@@ -6337,8 +6278,7 @@ of standards may be broken by freely accepting standards of a different
 kind, and that there is no need to reject all order and to allow oneself to be
 reduced to a whining stream of consciousness. A society that is based on a
 set of well-defined and restrictive rules, so that being human becomes
-synonymous with obeying these rules, forces the dissenter into a no-man’s-
-land of no rules at all and thus robs him of his reason and his humanity. lt
+synonymous with obeying these rules, forces the dissenter into a no-man’sland of no rules at all and thus robs him of his reason and his humanity. lt
 is the paradox of modem irrationalism that its proponents silently identify
 rationalism with order and articulate speech and thus see themselves forced
 to promote stammering and absurdity - many forms of “mysticism” and
@@ -6404,8 +6344,6 @@ Gottfried Benn, Lyrik und Prosa, Briefe und Dokumente, Wiesbaden, 1962, p. 235.
 [299] {Appendix 1, 10} Cf. text to footnotes 9-12 of Chapter 4.
 OceanofPDF.com
 
-
-16
 Finally, the kind of comparison that underlies most methodologies is
 possible only in some rather simple cases. It breaks down when we try to
 compare non-scientific views with science or when we consider the most
@@ -6523,8 +6461,7 @@ previous stage. (These phenomena should therefore be called by a different
 name, such as “pseudo-after-images” - a very interesting perceptual
 analogue to the transition from, say, Newtonian mechanics to special
 relativity: relativity, too, does not give us Newtonian facts, but relativistic
-analogues of Newtonian facts.) Neither after-images nor pseudo-after-
-images have a special position in the new world. For example, they are not
+analogues of Newtonian facts.) Neither after-images nor pseudo-afterimages have a special position in the new world. For example, they are not
 treated as evidence on which the new notion of a material object is
 supposed to rest. Nor can they be used to explain this notion: after-images
 arise together with it, they depend on it, and are absent from the minds of
@@ -6625,8 +6562,7 @@ reaction to internal deposits of external stimuli.[326] Instead of looking for
 the psychological causes of a “style” we should therefore rather try to
 discover its elements, analyse their function, compare them with other
 phenomena of the same culture (literary style, sentence construction,
-grammar, ideology) and thus arrive at an outline of the underlying world-
-view including an account of the way in which this world-view influences
+grammar, ideology) and thus arrive at an outline of the underlying worldview including an account of the way in which this world-view influences
 perception, thought, argument, and of the limits it imposes on the roaming
 about of the imagination. We shall see that such an analysis of outlines
 provides a better understanding of the process of conceptual change than
@@ -6864,12 +6800,10 @@ in which objects are occasionally described by “adding the parts on in a
 
 
 string of words in apposition”.[349] Ideas we would today regard as being
-logically subordinate to others are stated in separate, grammatically co-
-ordinate propositions. Example (Iliad, 9.556ff): Meleagros “lay by his
+logically subordinate to others are stated in separate, grammatically coordinate propositions. Example (Iliad, 9.556ff): Meleagros “lay by his
 wedded wife, fair Cleopatra, daughter of fair-ankled Marpessa, daughter of
 Euenos, and of Ides, who was the strongest of men on earth at that time -
-and he against lord Phoebus Apollo took up his bow for the sake of the fair-
-ankled maid: her then in their halls did her father and lady mother call by
+and he against lord Phoebus Apollo took up his bow for the sake of the fairankled maid: her then in their halls did her father and lady mother call by
 the name of Alkyon because…” and so on, for ten more lines and two or
 three more major themes before a major stop. This paratactic feature of
 Homeric poetry which parallels the absence of elaborate systems of
@@ -6987,12 +6921,12 @@ there are no categorical statements about the gods, humans, the world.[365]
 (This tolerance can still be found with the Ionian philosophers of nature
 who develop their ideas side by side with myth without trying to eliminate
 the latter.) There is no religious “morality” in our sense, nor are the gods
-abstract 
-embodiments 
-of 
-eternal 
-principles.[366] 
-This 
+abstract
+embodiments
+of
+eternal
+principles.[366]
+This
 they
 <verbatim>became later, during the archaic age and as a result they “lost
 [their] humanity. Hence Olympianism in its moralized form tended to
@@ -7152,8 +7086,7 @@ firm control over his urge for instant clarity and logical perfection. He must
 never try to make a concept clearer than is suggested by the material
 (except as a temporary aid for further research). It is this material and not
 his logical intuition that determines the content of the concepts. To take an
-example. The Nuer, a Nilotic tribe which has been examined by Evans-
-Pritchard, have some interesting spatio-temporal concepts.[383] The
+example. The Nuer, a Nilotic tribe which has been examined by EvansPritchard, have some interesting spatio-temporal concepts.[383] The
 researcher who is not too familiar with Nuer thought will find the concepts
 “unclear and insufficiently precise”. To improve matters he might try
 explicating them, using modem logical notions. That might create clear
@@ -7418,13 +7351,13 @@ that logical principles and principles of, say, arithmetic differ from
 empirical principles by not being accessible to the method of conjecture and
 refutations (or, for that matter, any other “empirical” method) has been
 defused by more recent research in this field.[394]
-Secondly, 
-let 
-us 
-assume 
-that 
-the 
-expressions 
+Secondly,
+let
+us
+assume
+that
+the
+expressions
 “psychology”,
 “anthropology”, “history of science”, “physics” do not refer to facts and
 laws, but to certain methods of assembling facts including certain ways of
@@ -7614,8 +7547,7 @@ behaviour, social situations, “mental” events of type A. Such an I is neithe
 mentioned nor is it noticed. lt is nowhere to be found within A. But it plays
 a very decisive role within B. Indeed, it is not implausible to assume that
 some outstanding peculiarities of B such as aspects, semblances, ambiguity
-of feeling[409] enter the stage as a result of a sizeable increase of self-
-consciousness.
+of feeling[409] enter the stage as a result of a sizeable increase of selfconsciousness.
 Now one might be inclined to explain the transition as follows: archaic
 man has a limited cosmology; he discovered some things, he missed others.
 His universe lacks important objects, his language lacks important concepts,
@@ -7728,11 +7660,11 @@ Note the tentative and vague nature of this explanation of
 the vagueness has already been explained (items  3 and 4 above). The
 absence of logic is due to the fact that we deal with phenomena outside ofits
 domain. My purpose is to find terminology for describing certain complex
-historical-anthropological 
-phenomena 
-which 
-are 
-only 
+historical-anthropological
+phenomena
+which
+are
+only
 imperfectly
 understood rather than defining properties oflogical systems that are
 specified in detail. Terms, such as “universal principles” and “suspend”, are
@@ -7902,8 +7834,7 @@ developments in art (ultimately the invention of perspective), mathematics, and 
 [322] {Chapter 16, 23} The facts of perspective are noticed hut they do not enter the pictorial
 presentation; this is seen from literary descriptions. Cf. H. Schäfer, Von Aegyptischer Kunst,
 Wieshaden, 1963, pp. 88ff, where the problem is further discussed.
-[323] {Chapter 16, 24} Cf. Paolo Graziosi, Palaeolithic Art, New York, 1960, and André Leroc-
-Gourhan, Treasures of Prehistoric Art, New York, 1967, both with excellent illustrations. These
+[323] {Chapter 16, 24} Cf. Paolo Graziosi, Palaeolithic Art, New York, 1960, and André LerocGourhan, Treasures of Prehistoric Art, New York, 1967, both with excellent illustrations. These
 results were not known to Loewy: Cartailhac’s “Mea culpa d’un sceptique”, for example, appeared
 only in 1902.
 [324] {Chapter 16, 25} Cf. the change in the presentation of animals in the course of the transition
@@ -8021,8 +7952,7 @@ hallucinations to proceed on their own and according to their own tendencies. Th
 from events in front of the eyes into events that gradually surround the viewer but without yet
 making him an active participant of an action in a three-dimensional dream-space. Step 3: switch
 over from viewing the hallucinatory event to being part of a complex of real events which act on the
-viewer and can be acted upon by him. Step 3 can be reversed either by the act of an almost non-
-existent will or by an outside noise. The three-dimensional scenery becomes two-dimensional, runs
+viewer and can be acted upon by him. Step 3 can be reversed either by the act of an almost nonexistent will or by an outside noise. The three-dimensional scenery becomes two-dimensional, runs
 together into an area in front of the eyes, and moves away. It would be interesting to see how such
 formal elements change from culture to culture.
 [359] {Chapter 16, 60} Today we say that somebody is “overcome” by emotions and he may feel his
@@ -8088,8 +8018,7 @@ theoretical entities” cannot arise under these circumstances either. AD these 
 the new approach that superseded the additive ideology of archaic and pre-archaic times.
 [374] {Chapter 16, 75} B. Snell, Die Ausdrücke für den Begriff des Wissens in der vorplatonischen
 Philosophie, Berlin, 1924. A short account is given in Snell, Die alten Griechen und wir, pp. 41ff. Cf.
-also von Fritz, Philosophie und sprachlicher Ausdruck bei Demokrit, Plato, und Aristoteles, Leipzig-
-Paris-London, 1938.
+also von Fritz, Philosophie und sprachlicher Ausdruck bei Demokrit, Plato, und Aristoteles, LeipzigParis-London, 1938.
 [375] {Chapter 16, 76} Only occurrence in Homer, Iliad, 15, 42, concerning the σοφία of a
 carpenter (an “expert carpenter” translates Lattimore).
 [376] {Chapter 16, 77} Cf. Snell, Ausdrücke, p. 50.
@@ -8290,8 +8219,7 @@ statements. I considered the idea that such statements describe “what is
 given” and tried to identify this “given”. Phenomenologically this did not
 seem to be possible; we notice objects, their properties, their relations, not
 “the given”. It is of course true that we can give quick reports on the
-properties of everyday objects but this does not change them into non-
-objects but only shows that we have a special relation to them.
+properties of everyday objects but this does not change them into nonobjects but only shows that we have a special relation to them.
 Phenomenologically what is given consists of the same things which can
 also exist unobserved - it is not a new kind of object. Special arrangements
 such as the reduction screen introduce new conditions, they do not reveal
@@ -8383,8 +8311,6 @@ Frankfurt, 1987.
 Philosophy, Voi. lxxxvi, 1989, pp. 353ff, esp. footnote 26 and the postscript to the present essay.
 OceanofPDF.com
 
-
-17
 Neither science nor rationality are universal measures of excellence. They
 are particular traditions, unaware of their historical grounding.
 So far I have tried to show that reason, at least in the form in which it is
@@ -8457,8 +8383,7 @@ painted, especially as pictures were not yet regarded as studies of a material
 reality. We can surmise that Brunelleschi arrived at his construction by a
 
 
-natural extension of the architects’ method of representing three-
-dimensional objects and that his contacts with contemporary scientists were
+natural extension of the architects’ method of representing threedimensional objects and that his contacts with contemporary scientists were
 not without consequence. It is still more difficult to understand the
 gradually rising claims of artisans to make contributions to the same kind of
 knowledge whose principles were explained at universities in very different
@@ -8981,8 +8906,7 @@ tradition, “objectively” on par with all other traditions (theses i and
 vii). Its results will appear magnificent to some traditions, execrable to
 others, barely worth a yawn to still further traditions. Of course, our
 well-conditioned materialistic contemporaries are liable to burst with
-excitement over events such as the moonshots, the double helix, non-
-equilibrium thermodynamics. But let us look at the matter from a
+excitement over events such as the moonshots, the double helix, nonequilibrium thermodynamics. But let us look at the matter from a
 
 
 different point of view, and it becomes a ridiculous exercise in futility.
@@ -9034,8 +8958,6 @@ John Stuart Mill, ed. M. Cohen, New York, 1961, p. 197.
 [442] {Chapter 17, 11} Cf. Norman Mailer, Of a Fire on the Moon, London, 1970.
 OceanofPDF.com
 
-
-18
 Yet it is possible to evaluate standards of rationality and to improve them.
 The principles of improvement are neither above tradition nor beyond
 change and it is impossible to nail them down.
@@ -9081,8 +9003,7 @@ the possibility of discussion and change. But the discussion does not take
 practices into account - it remains restricted to an abstract domain of
 standards, rules and logic.
 The limitation of all rules and standards is recognized by naive
-anarchism. A naive anarchist says (a) that both absolute rules and context-
-dependent rules have their limits and infers (b) that all rules and standards
+anarchism. A naive anarchist says (a) that both absolute rules and contextdependent rules have their limits and infers (b) that all rules and standards
 are worthless and should be given up. Most reviewers regard me as a naive
 anarchist in this sense, overlooking the many passages where I show how
 certain procedures aided scientists in their research. For in my studies of
@@ -9117,8 +9038,7 @@ Combining the two elements we arrive at the idea of a guide who is part of
 the activity guided and is changed by it. This corresponds to the
 interactionist view of reason and practice formulated in Chapter  17 and
 illustrated by the example of the map. Now the interactionist view assumes
-two different entities, a disembodied guide on the one side and a well-
-endowed practice on the other. But the guide seems disembodied only
+two different entities, a disembodied guide on the one side and a wellendowed practice on the other. But the guide seems disembodied only
 because its “body”, i. e. the very substantial practice that underlies it, is not
 noticed and the “practice” seems crude and in need of a guide only because
 one is not aware of the complex and rather sophisticated laws it contains.
@@ -9321,8 +9241,6 @@ enter another.
 [444] {Chapter 18, 2} Cf. Chapter 16, text to footnotes 91ff.
 OceanofPDF.com
 
-
-19
 Science is neither a single tradition, nor the best tradition there is, except for
 people who have become accustomed to its presence, its benefits and its
 disadvantages. In a democracy it should be separated from the state just as
@@ -9684,8 +9602,7 @@ regard this as a somewhat narrow characterization. World-views also
 answer questions about origins and purposes which sooner or later arise in
 almost every human being. Answers to these questions were available to
 Kepler and Newton and were used by them in their research; they are no
-longer available today, at least not within the sciences. They are part of non-
-scientific world-views which therefore have much to offer, also to
+longer available today, at least not within the sciences. They are part of nonscientific world-views which therefore have much to offer, also to
 scientists. When Western Civilization invaded what is now called the Third
 World it imposed its own ideas of a proper environment and a rewarding
 life. It thereby disrupted delicate patterns of adaptation and created
@@ -9787,8 +9704,7 @@ bring them closer to these aims. The objection that science is self-correcting
 and thus needs no outside interference overlooks, first, that every enterprise
 is self-correcting (look at what happened to the Catholic Church after
 Vatican  II) and, secondly, that in a democracy the self-correction of the
-whole which tries to achieve more humane ways ofliving overrules the self-
-correction of the parts which has a more narrow aim - unless the parts are
+whole which tries to achieve more humane ways ofliving overrules the selfcorrection of the parts which has a more narrow aim - unless the parts are
 given temporary independence. Hence in a democracy local populations not
 only will, but also should, use the sciences in ways most suitable to them.
 The objection that citizens do not have the expertise to judge scientific
@@ -9854,8 +9770,6 @@ For the political background cf. Chapters 3 and 4 of Richard Storry, A History 
 Hannondsworth, 1982.
 OceanofPDF.com
 
-
-20
 The point of view underlying this book is not the result of a well-planned
 train of thought but of arguments prompted by accidental encounters. Anger
 at the wanton destruaion of cultural achievements from which we all could
@@ -9909,13 +9823,13 @@ This is how I see the situation today. However, it took me a long time
 before I arrived at this view.
 After a year in Weimar I wanted to add the sciences and the humanities to
 the arts, and the theatre. I left Weimar and became a student (history,
-auxiliary 
-sciences) 
-at 
-the 
-famous 
-Institut 
-fur 
+auxiliary
+sciences)
+at
+the
+famous
+Institut
+fur
 Osterreichische
 Geschichtforschung which is part of the University of Vienna. Later on I
 added physics and astronomy and so finally returned to the subjects I had
@@ -10146,13 +10060,13 @@ attitude of some of its members, I now think that I escaped just in time.
 (6) During a lecture (on Descartes) I gave at the Austrian College Society
 I met Elizabeth Anscombe, a powerful and, to some people, forbidding
 British philosopher who had come to Vienna to learn German for her
-translation 
-of 
-Wittgenstein’s 
-works. 
-She 
-gave 
-me 
+translation
+of
+Wittgenstein’s
+works.
+She
+gave
+me
 manuscripts
 ofWittgenstein’s later writings and discussed them with me. The discussions
 extended over months and occasionally proceeded from morning over lunch
@@ -10240,8 +10154,7 @@ a Hegelian account of the relation between theories, their evidence, and
 their successors.[476] The material of Chapter  3 is the result of these
 discussions (I first published it in 1961).[477] Kuhn’s remarks on the
 omnipresence of anomalies fitted these difficulties rather nicely[478] but I
-still tried to find general rules that would cover all cases[479] and non-
-scientific developments as well.[480] Two events made me realize the futility
+still tried to find general rules that would cover all cases[479] and nonscientific developments as well.[480] Two events made me realize the futility
 of such attempts. One was a discussion with Professor C.F. von Weizsäcker
 in Hamburg (1965) on the foundations of the quantum theory. Von
 Weizsäcker showed how quantum mechanics arose from concrete research
@@ -10492,19 +10405,19 @@ course true that Reichenbach’s account can be interpreted as a more efficient 
 that it seemed impressive to me only because I did not slide into such an interpretation. Which shows
 to what extent the force of arguments depends on irrational changes of attitude.
 [473] {Chapter 20, 6} Cf. Chapter 16, text to footnotes 12ff.
-[474] 
-{Chapter 
-20, 
-7} 
-For 
-details 
-cf. 
-my 
-comments 
-on 
-these 
-papers 
-in 
+[474]
+{Chapter
+20,
+7}
+For
+details
+cf.
+my
+comments
+on
+these
+papers
+in
 Der
 Wissenschafistheoretische Realismus und die Autorität der Wissenschaften, Vieweg Wieshaden, 1978.
 [475] {Chapter 20, 8} Cf. my review of Kraft’s Erkenntnislehre in BJPS, Vol. 13, 1963, pp. 319ff.
@@ -10599,8 +10512,7 @@ science which apparently reveals Nature As She Is In Herself intervenes,
 eliminates, enlarges, produces and codifies the results in a severely
 standardized way — but again there is no guarantee that the results will
 congeal into a unified world. Thus all we apprehend when experimenting,
-or interfering in less systematic ways, or simply living as part of a well-
-developed culture is how what surrounds us responds to our actions
+or interfering in less systematic ways, or simply living as part of a welldeveloped culture is how what surrounds us responds to our actions
 
 
 (thoughts, observations, etc.); we do not apprehend these surroundings
@@ -10609,8 +10521,7 @@ always entangled in a fashion that can be explored only by entering into
 further and even more complicated entanglements.
 Now, considering that scientists use different and often contradictory
 methods of research (I describe some of them in Chapter 19 of the present
-edition), that most of these methods are successful and that numerous non-
-scientific ways of life not only survived but protected and enriched their
+edition), that most of these methods are successful and that numerous nonscientific ways of life not only survived but protected and enriched their
 inhabitants we have to conclude that Being responds differently, and
 positively, to many different approaches. Being is like a person who shows
 a friendly face to a friendly visitor, becomes angry at an angry gesture,
@@ -10699,8 +10610,7 @@ change in Chapter  17 of the second edition of Against Mtthod, London, 1988, an
 comment in Chapter 17, pp. 225ff of the present edition.
 [488] {Postscript on Relativism, 7} op. cit., p. 270. Cf. also the more detailed account in “Realism
 and the Historicity of Knowledge”, Journal of Philosophy, 1989.
-[489] {Postscript on Relativism, 8} In Gonzalo Munevar (ed.), Beyond Reason, Dodrecht-Boston-
-London, 1991, p. 570.
+[489] {Postscript on Relativism, 8} In Gonzalo Munevar (ed.), Beyond Reason, Dodrecht-BostonLondon, 1991, p. 570.
 [490] {Postscript on Relativism, 9} No. 8, n.s.,Jan.–Apr. 1992.
 [491] {Postscript on Relativism, 10} Common Knowledge, Vol. 1, No. 3, 1993.
 [492] {Postscript on Relativism, 11} op. cit., footnote 7 above.
@@ -10714,27 +10624,12 @@ Preface to the Third Edition
 Introduction to the Chinese Edition
 Analytical Index
 Introduction
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
+
+
 Appendix 1
-16
+
 Appendix 2
-17
-18
-19
-20
+
+
 Postscript on Relativism
 OceanofPDF.com

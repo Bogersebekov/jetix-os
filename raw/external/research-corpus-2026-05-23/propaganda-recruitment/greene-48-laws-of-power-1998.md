@@ -9,6 +9,10 @@ chars: 1284228
 approx_tokens: 321057
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 1284230
+phase4_chars_after: 1283913
+phase4_saved_pct: 0.0
 ---
 
 48 Laws of Power
@@ -123,11 +127,11 @@ deceive and manipulate them at will. A timely gifta Trojan
 horsewill serve the same purpose.
 LAW 13
 WHEN ASKING FOR HELP, APPEAL TO PEOPLE'S
-SELF-​INTEREST, 
-NEVER 
-TO 
-THEIR 
-MERCY 
+SELF-​INTEREST,
+NEVER
+TO
+THEIR
+MERCY
 OR
 GRATITUDE If you need to turn to an ally for help, do not bother
 to remind him of your past assistance and good deeds. He will
@@ -174,11 +178,11 @@ purpose will keep them off-​balance, and they will wear
 themselves out trying to explain your moves. Taken to an
 extreme, this strategy can intimidate and terrorize.
 LAW 18
-DO 
-NOT 
-BUILD 
-FORTRESSES 
-TO 
+DO
+NOT
+BUILD
+FORTRESSES
+TO
 PROTECT
 YOURSELFISOLATION IS DANGEROUS
 The world is dangerous and enemies are everywhereeveryone
@@ -211,10 +215,10 @@ then, is to make your victims feel smartand not just smart, but
 smarter than you are. Once convinced of this, they will never
 suspect that you may have ulterior motives.
 LAW 22
-USE 
-THE 
-SURRENDER 
-TACTIC: 
+USE
+THE
+SURRENDER
+TACTIC:
 TRANSFORM
 WEAKNESS INTO POWER When you are weaker, never fight
 
@@ -282,9 +286,9 @@ others. By planning to the end you will not be overwhelmed by
 circumstances and you will know when to stop. Gently guide
 fortune and help determine the future by thinking far ahead.
 LAW 30
-MAKE 
-YOUR 
-ACCOMPLISHMENTS 
+MAKE
+YOUR
+ACCOMPLISHMENTS
 SEEM
 EFFORTLESS
 Your actions must seem natural and executed with ease. All
@@ -507,13 +511,13 @@ foolish. As the great Renaissance diplomat and courtier Niccolo
 Machiavelli wrote, “Any man who tries to be good all die time is
 bound to come to ruin among die great number who are not
 good.” The court imagined itself die pinnacle of refinement, but
-underneath 
-its 
-glittering 
-surface 
-a 
-cauldron 
-of 
+underneath
+its
+glittering
+surface
+a
+cauldron
+of
 dark
 emotionsgreed, envy, lust, hatredboiled and simmered. Our world
 today similarly imagines itself the pinnacle of fairness, yet the
@@ -858,13 +862,13 @@ NEVER OUTSHINE THE MASTER
 JUDGMENT
 Always make those above you feel comfortably superior. In
 your desire to please and impress them, do not go too far in
-displaying 
-your 
-talents 
-or 
-you 
-might 
-accomplish 
+displaying
+your
+talents
+or
+you
+might
+accomplish
 the
 oppositeinspire fear and insecurity. Make your masters appear
 more brilliant than they are and you will attain the heights of
@@ -1435,7 +1439,7 @@ replied,
 “do I not destroy my enemies when I make them my friends”
 Men are more ready to repay an injury than a benefit, because
 gratitude is a burden and revenge a pleasure. Tacitus, c. a.d. 55-
-120
+
 KEYS TO POWER
 It is natural to want to employ your friends when you find
 yourself in times of need. The world is a harsh place, and your
@@ -1677,8 +1681,7 @@ Once the countess was jealous but intrigued, it would be time
 to beguile her. On Ninon's instructions, the marquis would fail to
 show up at affairs where die countess expected to see him. Then,
 suddenly, he would appear at salons he had never frequented
-before, but tiiat die countess at-
-tended often. She would be unable to predict his moves. All of
+before, but tiiat die countess attended often. She would be unable to predict his moves. All of
 this would push her into the state of emotional confusion that is a
 prerequisite for successful seduction.
 These moves were executed, and took several weeks. Ninon
@@ -1889,12 +1892,12 @@ with one stone: You appear friendly, open, and trusting; you
 conceal your intentions; and you send your rivals on time-​
 consuming wild-​goose chases.
 Another powerful tool in throwing people off the scent is false
-sincerity. 
-People 
-easily 
-mistake 
-sincerity 
-for 
+sincerity.
+People
+easily
+mistake
+sincerity
+for
 honesty.
 Remembertheir first instinct is to trust appearances, and since
 they value honesty and want to believe in the honesty of those
@@ -2714,8 +2717,7 @@ he tore up the pardon. The next day Ryleyev was hanged again.
 This time the rope did not break.
 Learn the lesson: Once the words are out, you cannot take
 them back. Keep them under control. Be particularly careful with
-sarcasm: The mo-
-mentary satisfaction you gain with your biting words will be
+sarcasm: The momentary satisfaction you gain with your biting words will be
 outweighed by the price you pay.
 Image :
 The Oracle at Delphi.
@@ -3037,18 +3039,17 @@ As they say, your reputation inevitably precedes you, and if it
 inspires respect, a lot of your work is done for you before you
 arrive on the scene, or utter a single word.
 Your success seems destined by your past triumphs. Much of
-the sue-
-cess of Henry Kissinger's shuttle diplomacy rested on his
+the suecess of Henry Kissinger's shuttle diplomacy rested on his
 reputation for ironing out differences; no one wanted to be seen as
 so unreasonable that Kissinger could not sway him. A peace treaty
 seemed a fait accompli as soon as Kissinger's name became
 involved in the negotiations.
 Make your reputation simple and base it on one sterling
-quality. 
-This 
-single 
-qualityefficiency, 
-say, 
+quality.
+This
+single
+qualityefficiency,
+say,
 or
 seductivenessbecomes a kind of calling card that announces your
 presence and places others under a spell. A reputation for honesty
@@ -3169,11 +3170,11 @@ you. Make no distinction between kinds of attentionnotoriety of
 any sort will bring you power. Better to be slandered and attacked
 than ignored.
 OBSERVANCE OF THE LAW
-P. 
-T. 
-Barnum, 
-America's 
-premier 
+P.
+T.
+Barnum,
+America's
+premier
 nineteenth-​century
 showman, started his career as an assistant to the owner of a
 circus, Aaron Turner. In 1836 die circus stopped in Annapolis,
@@ -3427,8 +3428,7 @@ adapting and varying your method of courting attention. If you
 don't, die public will grow tired, will take you for granted, and
 will move on to a newer star. The game requires constant
 vigilance and creativity. Pablo Picasso never allowed himself to
-fade into die background; if his name became too at-
-tached to a particular style, he would deliberately upset die
+fade into die background; if his name became too attached to a particular style, he would deliberately upset die
 public with a new series of paintings that went against all
 expectations. Better to create somediing ugly and disturbing, he
 believed, than to let viewers grow too familiar with his work.
@@ -3822,11 +3822,11 @@ received no money and no credit. Tesla invented an induction
 motor as well as the AC power system, and he is die real “fatiier
 of radio.” Yet none of diese discoveries bear his name. As an old
 man, he lived in poverty.
-THE 
-TORTOISE. 
-THE 
-ELEPHANT 
-AND 
+THE
+TORTOISE.
+THE
+ELEPHANT
+AND
 THE
 HIPPOPOTAMI'S
 One day the tortoise met the elephant, who trumpeted, “Out of
@@ -3945,8 +3945,7 @@ Balboa. Balboa had an obsessionthe dis- scratching, the fruit of
 covery of El Dorado, a legendary city of vast riches.
 Early in the sixteenth century, after countless hardships and
 brushes
-often as the blind hen scratched up a barlcv-
-TABLKS,
+often as the blind hen scratched up a barlcvTABLKS,
 GOTTIIOl.D Ll-​SSIMi.
 
 
@@ -3993,10 +3992,10 @@ on the shoulders of giants.” He meant that in making his
 discoveries he had built on the achievements of others. A great
 part of his aura of genius, he knew, was attributable to his shrewd
 ability to make the most of the insights of ancient, medieval, and
-Renaissance 
-scientists. 
-Shakespeare 
-borrowed 
+Renaissance
+scientists.
+Shakespeare
+borrowed
 plots,
 characterizations, and even dialogue from Plutarch, among other
 writers, for he knew that nobody surpassed Plutarch in the writing
@@ -4288,8 +4287,7 @@ Filippo Brunelleschi, the great Renaissance artist and
 architect, was a great practitioner of the art of making others
 come to him as a sign of his power. On one occasion he had been
 engaged to repair the dome of die Santa Maria del Fiore cathedral
-in Florence. The commission was impor-
-tant and prestigious. But when the city officials hired a second
+in Florence. The commission was important and prestigious. But when the city officials hired a second
 man, Lorenzo Ghiberti, to work with Brunelleschi, the great artist
 brooded in secret. He knew that Ghiberti had gotten the job
 through his connections, and that he would do none of the work
@@ -4317,11 +4315,11 @@ not go to others. This is the principle of emptiness and fullness of
 others and self. When you induce opponents to come to you, then
 their force is always empty; as long as you do not go to them,
 your force is always full. Attacking emptiness with fullness is like
-throwing 
-stones 
-on 
-eggs. 
-(Zhang Yu, 
+throwing
+stones
+on
+eggs.
+(Zhang Yu,
 eleventh-​century
 commentator on The Art of War)
 
@@ -4959,8 +4957,7 @@ up getting inside and changing us. The reason is simplehumans
 are extremely susceptible to the moods, emotions, and even the
 ways of thinking of tiiose with whom tiiey spend tiieir time.
 The incurably unhappy and unstable have a particularly strong
-infect-
-ing power because their characters and emotions are so
+infecting power because their characters and emotions are so
 intense. They often present themselves as victims, making it
 difficult, at first, to see their miseries as self-​inflicted. Before you
 realize the real nature of their problems you have been infected by
@@ -4996,16 +4993,12 @@ can you protect yourself against such insidious viruses The
 
 
 answer lies in judging people on the effects they have on the
-world and not on the reasons they give for their prob-
-Image: A Virus. Unseen, it lems. Infectors can be recognized
-by the misfortune they draw on them-
-enters your pores without selves, their turbulent past, their
-long line of broken relationships, their un-
-warning, spreading silently and stable careers, and the very
+world and not on the reasons they give for their probImage: A Virus. Unseen, it lems. Infectors can be recognized
+by the misfortune they draw on thementers your pores without selves, their turbulent past, their
+long line of broken relationships, their unwarning, spreading silently and stable careers, and the very
 force of their character, which sweeps you up
 slowly. Before you are aware of and makes you lose your
-reason. Be forewarned by these signs of an infec-
-the infection, it is deep inside you. tor; learn to see the
+reason. Be forewarned by these signs of an infecthe infection, it is deep inside you. tor; learn to see the
 discontent in their eye. Most important of all, do not take pity. Do
 not enmesh yourself in trying to help. The infector will remain
 unchanged, but you will be unhinged.
@@ -5265,12 +5258,12 @@ had to be killed.
 One evening Louis summoned the astrologer to his room,
 high in the castle. Before the man arrived, the king told his
 servants that when he gave
-An 
-extravagant 
-young 
-Vine, 
-vainly 
-ambitious 
+An
+extravagant
+young
+Vine,
+vainly
+ambitious
 of
 independence, and fond of rambling at large, despised the alliance
 of a stately elm that grew near, and courted her embraces. Having
@@ -5361,13 +5354,13 @@ immensely profitable relationship. That was worth more dian the
 terrible publicity brought to him by his defiance of the committee.
 Henry Kissinger managed to survive the many bloodlettings
 that went on in the Nixon White House not because he was the
-best 
-diplomat 
-Nixon 
-could 
-findthere 
-were 
-other 
+best
+diplomat
+Nixon
+could
+findthere
+were
+other
 fine
 negotiatorsand not because the two men got along so well: They
 did not. Nor did they share their beliefs and politics. Kissinger
@@ -5521,8 +5514,7 @@ men build up defenses against crooks and odier troublemakers.
 The con artist's job is to bring tiiose defenses down.
 One sure way to do diis is tiirough an act of apparent sincerity
 and honesty. Who will distrust a person literally caught in die act
-of being hon-
-est Lustig used selective honesty many times, but with
+of being honest Lustig used selective honesty many times, but with
 Capone he went a step further. No normal con man would have
 dared such a con; he would have chosen his suckers for their
 meekness, for that look about them that says they will take their
@@ -6103,8 +6095,7 @@ aim improves.
 Mellon was the most spectacular of Duveen's catches, but he
 spied on many a millionaire. By secredy putting members of his
 clients' household staffs on his own payroll, he would gain
-constant access to valuable infor-
-mation about dieir masters' comings and goings, changes in
+constant access to valuable information about dieir masters' comings and goings, changes in
 taste, and other such tidbits of information that would put him a
 step ahead. A rival of Duveen's who wanted to make Henry Frick
 a client noticed that whenever he visited this wealthy New Yorker,
@@ -6434,12 +6425,12 @@ humiliated; yet we nurture these resentful vipers who will one day
 kill us. Power cannot be dealt with this way. It must be
 exterminated, crushed, and denied the chance to return to haunt
 us. This is all the truer with a former friend who has become an
-enemy. 
-The 
-law 
-governing 
-fatal 
-antagonisms 
+enemy.
+The
+law
+governing
+fatal
+antagonisms
 reads:
 Reconcihation is out of die question. Only one side can win, and
 it must win totally.
@@ -6482,9 +6473,7 @@ Vitelli's and Orsini's
 soldiers in the outlying
 areas.... That night,
 while their troops were
-being crushed, Miche-
-lotto throttled Olive-
-retto and Vitelli in the
+being crushed, Michelotto throttled Oliveretto and Vitelli in the
 Bernardino palace. . . .
 A t one fell swoop,
 IBorgiaj had got rid of
@@ -7215,8 +7204,7 @@ disturb the man he is playing.”
 Fischer, however, finally understood that this was one of the
 keys to Spassky's success: He played on your predictability,
 defeated you at your own game. Everything Fischer did for die
-championship match was an at-
-tempt to put the initiative on his side and to keep Spassky off-​
+championship match was an attempt to put the initiative on his side and to keep Spassky off-​
 balance. Clearly the endless waiting had an effect on Spassky's
 psyche. Most powerful of all, tfiough, were Fischer's deliberate
 blunders and his appearance of having no clear strategy. In fact,
@@ -7507,11 +7495,11 @@ were turned on this person. It was a distinction that was talked of
 and increased prestige.” There was no possibility of privacy in the
 palace, not even for the king every room communicated with
 another, and every hallway led to larger rooms where groups of
-nobles 
-gathered 
-constantly. 
-Everyone's 
-actions 
+nobles
+gathered
+constantly.
+Everyone's
+actions
 were
 interdependent, and nothing and no one passed unnoticed: “The
 king not only saw to it mat all the high nobility was present at his
@@ -7641,8 +7629,7 @@ Isolation, on the other hand, engenders an awkwardness in your
 gestures, and leads to further isolation, as people start avoiding
 you.
 In 1545 Duke Cosimo I de' Medici decided that to ensure the
-immor-
-tality of his name he would commission frescoes for the main
+immortality of his name he would commission frescoes for the main
 chapel of the church of San Lorenzo in Florence. He had many
 great painters to choose from, and in the end he picked Jacopo da
 Pontormo. Getting on in years, Pontormo wanted to make these
@@ -7875,8 +7862,7 @@ totally novel for the timehis soldiers could move very fast on
 horseback, and had mastered the art of firing widi bow and arrow
 while mounted. The speed and flexibility of his forces allowed
 him to deceive Muhammad as to his intentions and die directions
-of his movements. Eventually he managed first to sur-
-prison, and put Aguirre on the beast.... The beast was driven
+of his movements. Eventually he managed first to surprison, and put Aguirre on the beast.... The beast was driven
 on, and he received the lashes. ..." When freed, Aguirre
 announced his intention of killing the official who had sentenced
 
@@ -8210,8 +8196,7 @@ England's wisest course. France had two eligible men of noble
 blood, the dukes of Anjou and Alencon, brothers of the French
 king. Would either of them marry Elizabeth Both had advantages,
 and Elizabeth kept the hopes of both alive. The issue simmered
-for years. The duke of Anjou made sev-
-eral visits to England, kissed Elizabeth in public, even called
+for years. The duke of Anjou made several visits to England, kissed Elizabeth in public, even called
 her by pet names; she appeared to requite his affections.
 Meanwhile, as she flirted with the two brothers, a treaty was
 signed that sealed peace between France and England. By 1582
@@ -8308,13 +8293,13 @@ your attention, you will immediately seem a person of great
 
 influence and desirability. More power will accrue to you than if
 you had rashly committed to one side. To perfect this tactic you
-need 
-to 
-keep 
-yourself 
-inwardly 
-free 
-from 
+need
+to
+keep
+yourself
+inwardly
+free
+from
 emotional
 entanglements, and to view all those around you as pawns in your
 rise to the top. You cannot let yourself become the lackey for any
@@ -8384,8 +8369,7 @@ to her.
 Authority: Do not commit yourself to anybody or anything,
 for that is to be a slave, a slave to every man. . . . Above all, keep
 yourself free of commitments and obligations they are the device
-of another to get you into his power. . . . (Baltasar Gracian, 1601-
-1658)
+of another to get you into his power. . . . (Baltasar Gracian, 16011658)
 PART II: DO NOT COMMIT TO ANYONE-​STAY ABOVE
 THE FRAY
 
@@ -8657,8 +8641,7 @@ like Castruccio, you can appear to take bodi sides, then play the
 antagonists against each odier.
 Oftentimes when a conflict breaks out, you are tempted to
 side with the stronger party, or the one that offers you apparent
-advantages in an al-
-I'HE PRICE OF ENVY
+advantages in an alI'HE PRICE OF ENVY
 
 
 While a poor woman stood in the marketplace selling cheeses,
@@ -9253,8 +9236,6 @@ punished enough in not being born an Englishman” The crowd
 cheered his thoughtful words, and escorted him safely back to his
 lodgings.
 the little, brown book of anecdotes, Clifton Fadiman, ed.,
-1985
-
 
 all more intelligent than the members of the committee. Why
 lower themselves to the level of tfieir opponents by arguing widi
@@ -9309,8 +9290,7 @@ public opinion. But they were also blacklisted, and lost valuable
 years of profitable working time. Brecht, on the other hand,
 expressed his disgust at the committee more indirectiy. It was not
 that he changed his beliefs or compromised his values; instead,
-during his short testimony, he kept die upper hand by ap-
-pearing to yield while all the time running circles around the
+during his short testimony, he kept die upper hand by appearing to yield while all the time running circles around the
 committee with vague responses, outright lies that went
 unchallenged because they were wrapped in enigmas, and word
 games. In the end he kept die freedom to continue his
@@ -10347,8 +10327,7 @@ to do so without prompting. Do not give him the chance to reject
 your requests. Better to win favors by deserving them, so that
 they are bestowed without your asking.
 Scene X
-The great English landscape painter J. M. W. Turner (1775-
-1851) was known for his use of color, which he applied with a
+The great English landscape painter J. M. W. Turner (17751851) was known for his use of color, which he applied with a
 brilliance and a strange iridescence. The color in his paintings
 was so striking, in fact, that other artists never wanted his work
 hung next to theirs: It inevitably made everything around it seem
@@ -10753,8 +10732,7 @@ power. Working on yourself like clay should be one of your
 greatest and most pleasurable life tasks. It makes you in essence
 an artist an artist creating yourself.
 In fact, the idea of self-​creation comes from the world of art.
-For thou-
-sands of years, only kings and the highest courtiers had the
+For thousands of years, only kings and the highest courtiers had the
 freedom to shape their public image and determine their own
 identity. Similarly, only kings and the wealthiest lords could
 contemplate their own image in art, and consciously alter it. The
@@ -10931,11 +10909,11 @@ You must seem a paragon of civility and efficiency: Your
 hands are never soiled by mistakes and nasty deeds. Maintain
 such a spotless appearance by using others as scapegoats and
 cat's-​paws to disguise your involvement.
-PART 
-I: 
-CONCEAL 
-YOUR 
-MISTAKES-​HAVE 
+PART
+I:
+CONCEAL
+YOUR
+MISTAKES-​HAVE
 A
 SCAPEGOAT AROUND TO TAKE THE BLAME
 Our good name and reputation depend more on what we
@@ -10986,8 +10964,7 @@ stress, he had forgotten to order supplies in time.
 Once it became clear that the delay was a critical mistake, and
 that the army was seething with mutiny, Ts'ao Ts'ao had two
 options: apology and excuses, or a scapegoat. Understanding the
-workings of power and the im-
-CHEIAl JUSTICE
+workings of power and the imCHEIAl JUSTICE
 A great calamity befell the town of Chelm one day. The town
 cobbler murdered one of his customers. So he was brought before
 the judge, who sentenced him to die by hanging. When the verdict
@@ -11112,8 +11089,7 @@ except inside himself and his own sin of incest, which had so
 offended the gods and occasioned the plague. This profound need
 to exteriorize one's guilt, to project it on another person or object,
 has an immense power, which the clever know how to harness.
-Sac-
-rifice is a ritual, perhaps the most ancient ritual of all; ritual
+Sacrifice is a ritual, perhaps the most ancient ritual of all; ritual
 too is a well-​spring of power. In the killing of de Oreo, note
 
 
@@ -11203,8 +11179,7 @@ Authority: Folly consists not in committing Folly, but in being
 incapable of concealing it. All men make mistakes, but the wise
 conceal die blunders they have made, while fools make them
 public. Reputation depends more on what is hidden than on what
-is seen. If you can't be good, be careful. (Baltasar Gracian, 1601-
-1658)
+is seen. If you can't be good, be careful. (Baltasar Gracian, 16011658)
 PART II: MAKE USE OF THE CAT'S-​PAW In the fable, the
 Monkey grabs the paw of his friend, the Cat, and uses it to fish
 chestnuts out of the fire, thus getting the nuts he craves, without
@@ -11805,8 +11780,7 @@ Authority: Do everything pleasant yourself, everything
 unpleasant through third parties. By adopting the first course you
 win favor, by taking the second you deflect ill will. Important
 affairs often require rewards and punishments. Let only the good
-come from you and the evil from others. (Baltasar Gracian, 1601-
-1658)
+come from you and the evil from others. (Baltasar Gracian, 16011658)
 REVERSAL
 The cat's-​paw and the scapegoat must be used with extreme
 caution and delicacy. They are like screens that hide your own
@@ -11962,12 +11936,12 @@ charlatan ancestors perfected over the years.
 Step 1: Keep It Vague; Keep It Simple. To create a cult you
 must first attract attention. This you should do not through
 actions, which are too clear and readable, but through words,
-which 
-are 
-hazy 
-and 
-deceptive. Your 
-initial 
+which
+are
+hazy
+and
+deceptive. Your
+initial
 speeches,
 conversations, and interviews must include two elements: on uie
 one hand the promise of somediing great and transformative, and
@@ -12312,12 +12286,12 @@ natural phenomenon; he was merely imitating the
 the fabulous establishment he opened in London for the sale
 of his elixirs.... In the chief room, where he received patients,
 stood “the largest air pump in the world ” to assist him in his
-“philosophical 
-investigations” 
-into 
-disease, 
-and 
-also 
+“philosophical
+investigations”
+into
+disease,
+and
+also
 a
 “stupendous metallic conductor,” a richly gilded pedestal
 surrounded with retorts and vials of “etherial and other essences.
@@ -12467,8 +12441,7 @@ close as possible to one another to help the magnetic force pass
 between their bodies. Sometimes, too, they were attached to each
 other by cords.
 Mesmer would leave the room, and “assistant magnetizers”all
-hand-
-In the town of Tarnopol lived a man by the name of Reb
+handIn the town of Tarnopol lived a man by the name of Reb
 Feivel. One day, as he sat in his house deeply absorbed in his
 Talmud, he heard a loud noise outside. When he went to the
 window he saw a lot of little pranksters. “Up to some new piece
@@ -13060,8 +13033,7 @@ transforms himself into a powerful young man who commands
 authority, simply by pointing a finger and taking bold action.
 You must practice and develop your boldness. You will often
 find uses for it. The best place to begin is often the delicate world
-of negotiation, par-
-THE BOY AND THE NETTLE
+of negotiation, parTHE BOY AND THE NETTLE
 A boy playing in the fields got stung by a nettle. He ran home
 to his mother, telling her that he had but touched that nasty weed,
 and it had stung him. “It was just your touching it, my boy,” said
@@ -13132,8 +13104,7 @@ wish to master her, to conquer her by force; and it can be seen that
 she lets herself be overcome by the bold rather than by those who
 proceed coldly. And therefore, like a woman, she is always a
 friend to the young, because they are less cautious, fiercer, and
-master her with greater audacity. (Niccolo Machiavelli, 1469-
-1527)
+master her with greater audacity. (Niccolo Machiavelli, 14691527)
 REVERSAL
 Boldness should never be the strategy behind all of your
 actions. It is a tactical instrument, to be used at the right moment.
@@ -13223,8 +13194,7 @@ reprieveonly he had to act before Spanish authorities came to
 arrest him.
 In 1513, then, Balboa set out, widi 190 soldiers. Halfway
 across the isthmus (some ninety miles wide at that point), only
-sixty soldiers re-
-There are very few menand they are the exceptionswho are
+sixty soldiers reThere are very few menand they are the exceptionswho are
 able to think and feel beyond the present moment.
 Carl von Clausewitz, 1780-1831
 THK TWO THOCS
@@ -13703,8 +13673,7 @@ visit. These gardeners, unfamiliar with the precepts of Cha-​no-​yu,
 thought die stone lantern misshapen, its windows being too small
 for die present taste. They had a local workman enlarge the
 windows. A few days before Lord Sakai's visit, Yorinobu toured
-the garden. When he saw die al-
-tered windows he exploded with rage, ready to impale on his
+the garden. When he saw die altered windows he exploded with rage, ready to impale on his
 sword the fool who had ruined the lantern, upsetting its natural
 grace and destroying the whole purpose of Lord Sakai's visit.
 When Yorinobu calmed down, however, he remembered that
@@ -14163,7 +14132,7 @@ sound. Let His Excellency decide which one he wishes to eat, and
 I will eat the other.” A Imost immediately the message came back
 that the chancellor had decided to cancel the duel.
 the little, brown book of anecdotes, Clifton Fadiman, hd.,
-1985
+
 Once upon a time there was a king of Armenia, who, being of
 a curious turn of mind and in need of some new diversion, sent
 his heralds throughout the land to make the following
@@ -14181,8 +14150,7 @@ tired of his new sport and was thinking of calling the whole
 contest off without declaring a winner, when there appeared
 before him a poor, ragged man, carrying a large earthenware
 pitcher under his arm. “What can I do for you” asked His
-Majesty. “Sire!” said the poor man, slightly bewil-
-February, with much celebration, Ivan returned to Moscow.
+Majesty. “Sire!” said the poor man, slightly bewilFebruary, with much celebration, Ivan returned to Moscow.
 The Russians could no longer complain if he behaved
 dictatoriallythey had given him this power themselves.
 Interpretation
@@ -14302,7 +14270,7 @@ The king saw the
 dilemma. He handed
 over the golden apple.
 armenian folk-​tales and fables, retold by Charles Downing,
-1993
+
 Interpretation
 The life of the courtesan entailed the possibility of a power
 that was denied a married woman, but it also had obvious perils.
@@ -14688,8 +14656,7 @@ alchemy scams, and then returned to Italy, setting up shop in
 Brescia. There he created a reputation that he knew would spread
 to Venice. From a distance, in fact, his aura of power would be all
 the more impressive. At first Mamugna did not use vulgar
-demonstrations to convince peo-
-formerly strangled his wife and son. A courtier thought fit to
+demonstrations to convince peoformerly strangled his wife and son. A courtier thought fit to
 inform the bereaved monarch, and even affirmed that he had seen
 the stag laugh. The rage of a king, says Solomon, is terrible, and
 especially that of a lion-​king. “Pitiful forester!” he exclaimed,
@@ -14797,11 +14764,11 @@ sickness to healdi, misery to ecstasyand you will have followers.
 How did the great sixteenth-​century German quack Leonhard
 Thumeisser become the court physician for the Elector of
 Brandenburg witiiout ever studying medicine Instead of offering
-amputations, 
-leeches, 
-and 
-foul-​tasting 
-purgatives 
+amputations,
+leeches,
+and
+foul-​tasting
+purgatives
 (the
 medicaments of the time), Thumeisser offered sweet-​tasting
 elixirs and promised instant recovery. Fashionable courtiers
@@ -16119,13 +16086,13 @@ overconfidenee of these newly arrived barbarians, who would
 shout at him to attack the enemy and had no patience with his
 delaying tactics, and he therefore tried to win them over by
 argument. But when he saw that they were discontented and
-persisted 
-in 
-pressing 
-their 
-demands 
-regardless 
-of 
+persisted
+in
+pressing
+their
+demands
+regardless
+of
 the
 circumstances, he let them have their way and allowed them to
 engage the enemy; he hoped that they would suffer a severe
@@ -16248,8 +16215,7 @@ Napoleon was on the downswing. His futile war with Spain, a
 country mat posed no threat to France, was a sign that he was
 losing a sense of proportion. Never one to be caught on a sinking
 ship, Fouche conspired with Talleyrand to bring about Napoleon's
-downfall. Al-
-possessing a flowing tail, which was remarkable for the
+downfall. Alpossessing a flowing tail, which was remarkable for the
 thickness and beauty of its hair. By the side of the weak horse
 stood a tall strong man, and by the side of the powerful horse a
 short man of mean physique. At a signal the strong man seized the
@@ -16407,7 +16373,7 @@ time, which he knew would always be his ally if he was patient.
 Recognize the moment, then, to hide in die grass or slither under
 a rock, as well as the moment to bare your fangs and attack.
 Space we can recover, time never. Napoleon Bonaparte, 1769-
-1821
+
 KEYS TO POWER
 
 
@@ -16749,7 +16715,7 @@ to reply. Historian Hilaire Belloc reproached him. “My dear
 Belloc,” Chesterton said, “I have answered him. To a man of
 Shaw's wit, silence is the one unbearable repartee.”
 the little, brown book of anecdotes, Clifton Fadiman, ed.,
-1985
+
 An ass had once by some accident lost his tail, which was a
 grievous affliction to him; and he was everywhere seeking after it,
 being fool enough to think he could get it set on again. He passed
@@ -17895,12 +17861,12 @@ they could not claim it was heretical, or that Campanella
 should be returned to prison. His defense of Catholicism, after all,
 used arguments they had used themselves. Yet in the years to
 come, Atheism Conquered became a bible for atheists,
-Machiavellians 
-and 
-libertines 
-who 
-used 
-the 
+Machiavellians
+and
+libertines
+who
+used
+the
 arguments
 Campanella had put in their mouths to defend their dangerous
 ideas. Combining an outward display of conformity witii an
@@ -18422,8 +18388,7 @@ power move, an attempt to control or punish you cloaked in the
 form of hurt feelings and anger.
 This shift of perspective will let you play the game of power
 with more clarity and energy. Instead of overreacting, and
-becoming ensnared in peo-
-DITCH HIGH PRIEST
+becoming ensnared in peoDITCH HIGH PRIEST
 Kin'yo, an officer of the second rank, had a brother called the
 High Priest Ryogaku, an extremely bad-​tempered man. Next to
 his monastery grew a large nettle-​tree which occasioned the
@@ -18943,8 +18908,7 @@ Observance I
 Pietro Aretino, son of a lowly shoemaker, had catapulted
 himself into fame as a writer of biting satires. But like every
 Renaissance artist, he needed to find a patron who would give
-him a comfortable lifestyle while not inter-
-fering with his work. In 1528 Aretino decided to attempt a
+him a comfortable lifestyle while not interfering with his work. In 1528 Aretino decided to attempt a
 new strategy in the patronage game. Leaving Rome, he
 established himself in Venice, where few had heard of him. He
 had a fair amount of money he had managed to save, but little
@@ -19112,12 +19076,12 @@ most lavish parties Paris had ever witnessed; no Frenchman could
 resist, even if the parties were given by a German Jew.
 Rothschild's weekly soirees began to attract bigger and bigger
 numbers. Over the next few years he won the only thing that
-would 
-secure 
-an 
-outsider's 
-power: 
-social 
+would
+secure
+an
+outsider's
+power:
+social
 acceptance.
 Interpretation
 Strategic generosity is always a great weapon in building a
@@ -19256,8 +19220,7 @@ take root, Louis loosened the soil before he planted his seeds.
 Interpretation
 Louis understood that there is a deep-​rooted emotional
 element in our attitude to money, an element going back to
-childhood. When we are chil-
-dren, all kinds of complicated feelings about our parents
+childhood. When we are children, all kinds of complicated feelings about our parents
 center around gifts; we see die giving of a gift as a sign of love
 and approval. And that emotional element never goes away. The
 recipients of gifts, financial or otherwise, are suddenly as
@@ -19823,8 +19786,7 @@ him in immobility.... “Checkmate ” means literally “the king is
 dead.” ... Our knowledge of the unconscious motivation of chess-​
 playing tells us that what it represented could only have been the
 wish to overcome the father in an acceptable way.... It is no doubt
-signifi-
-Instead of allowing the son to go in a new direction, the father
+signifiInstead of allowing the son to go in a new direction, the father
 will try to put him in his own shoes, perhaps secredy wishing die
 
 
@@ -20109,11 +20071,11 @@ never give them the chance to do die same to you.
 The great Baroque artist and architect Pietro Bernini was a
 master at sniffing out younger potential rivals and keeping mem
 in his shadow. One day a young stonemason named Francesco
-Borromini 
-showed 
-Bernini 
-his 
-architectural 
+Borromini
+showed
+Bernini
+his
+architectural
 sketches.
 Recognizing his talent immediately, Bernini in-​standy hired
 Borromini as his assistant, which delighted the young man but
@@ -20425,8 +20387,7 @@ Without the backbone of the city to keep them together, the sheep
 quickly scattered.
 Learn the lesson: Do not waste your time lashing out in all
 directions at what seems to be a many-​headed enemy. Find the
-one head that mat-
-tersthe person with willpower, or smarts, or, most important of
+one head that mattersthe person with willpower, or smarts, or, most important of
 all, charisma. Whatever it costs you, lure this person away, for
 once he is absent his powers will lose their effect. His isolation
 can be physical (banishment or absence from the court), political
@@ -20533,8 +20494,7 @@ die one figure in Russia who commanded power (the czarina
 dominated her husband), and found he had no need to isolate her
 for the work was already done. The Rasputin strategy can bring
 you great power: Always search out people who hold high
-positions yet who find tiiem-
-selves isolated on the board. They are like apples falling into
+positions yet who find tiiemselves isolated on the board. They are like apples falling into
 your lap, easily seduced, and able to catapult you into power
 yourself.
 Finally, the reason you strike at the shepherd is because such
@@ -20986,8 +20946,7 @@ When Chuko Liang wanted to dissuade an important general
 of a rival kingdom from entering into an alliance with Ts'ao Ts'ao,
 Liang's dreaded enemy, he did not detail Ts'ao Ts'ao's cruelty, or
 attack him on moral grounds. Instead Liang suggested that Ts'ao
-Ts'ao was really after the gen-
-eral's beautiful young wife. This hit die general in the gut, and
+Ts'ao was really after the general's beautiful young wife. This hit die general in the gut, and
 won him over. Mao Tse-​tung similarly always appealed to popular
 emotions, and spoke in the simplest terms. Educated and well-​
 read himself, in his speeches he used visceral metaphors, voicing
@@ -21249,8 +21208,7 @@ others with their unsocial behavior. You objectify the qualities
 you want them to feel ashamed of and create a mirror in which
 they can gaze at their follies and learn a lesson about themselves.
 This technique is often used by educators, psychologists, and
-anyone who has to deal with un-
-pleasant and unconscious behavior. This is the Teacher's
+anyone who has to deal with unpleasant and unconscious behavior. This is the Teacher's
 Mirror. Whether or not there is actually anydiing wrong witii the
 way people have treated you, however, it can often be to your
 advantage to reflect it back to them in a way that makes them feel
@@ -21299,8 +21257,7 @@ ministers, including Talleyrand, but he never touched Fouche.
 And so, in 1815, back in power and in need of help, he felt he had
 no choice but to reappoint Fouche as his minister of police.
 Several weeks into his new reign, Napoleon's spies told him
-they be-
-most not above two or three pounds, can he carry a boy that
+they bemost not above two or three pounds, can he carry a boy that
 weighs above fifty“ ”Why, “ replied the merchant, ”do you make
 such a wonder at that As if in a country where one rat can eat a
 hundred tons ' weight of iron, it were such a wonder for an owl to
@@ -21452,8 +21409,7 @@ welcomed this great man to their side, but diey knew his
 reputation and were wary of him. Alcibiades loved luxury; die
 Spartans were a warrior people who worshipped austerity, and
 they were afraid he would corrupt their youth. But much to dieir
-relief, the Al-
-being the wrong shape and size, He had to return to his den
+relief, the Albeing the wrong shape and size, He had to return to his den
 Empty-​bellied, tail dragging, ears drooping,
 As red in the face as a fox who's been caught by a hen.
 selected fables, Jean de La Fontaine, 1621-1695
@@ -21688,11 +21644,11 @@ disrespectfully, so I will do the same to you, making Russia the
 laughingstock of the world. In 1577, in the name of the Russian
 people, the chastised boyars once again begged Ivan to return to
 the throne, which he did. He lived as czar until his death, in 1584,
-and 
-the 
-conspiracies, 
-complaining, 
-and 
+and
+the
+conspiracies,
+complaining,
+and
 second-​guessing
 disappeared along with Simeon. Interpretation
 In 1564, after threatening to abdicate, Ivan had been granted
@@ -21834,8 +21790,7 @@ of all, and his trademark was this uncanny ability to harmonize
 himself with his guests' tfioughts and to think one step ahead,
 enchanting them by adapting to their taste.
 One day Rikyu was invited to tea by Yamashina Hechigwan,
-an ad-
-mirer of the tea ceremony but also a man with a vivid sense of
+an admirer of the tea ceremony but also a man with a vivid sense of
 humor. When Rikyu arrived at Hechigwan's home, he found the
 garden gate shut, so he opened it to look for the host. On the other
 side of the gate he saw that someone had first dug a ditch, then
@@ -22014,13 +21969,13 @@ Sometime in die early 1520s, King Henry VIII of England
 decided to divorce his wife, Catfierine of Aragon, because she
 had failed to bear him a son, and because he had fallen in love
 with die young and comely Anne Boleyn. The pope, Clement VII,
-opposed 
-die 
-divorce, 
-and 
-threatened 
-die 
-king 
+opposed
+die
+divorce,
+and
+threatened
+die
+king
 widi
 excommunication. The king's most powerful minister, Cardinal
 Wolsey, also saw no need for divorceand his halfhearted support
@@ -22070,8 +22025,7 @@ In 1535 powerful revolts in die North of England tiireatened
 to topple Henry from his throne. By die following year he had
 suppressed die rebellions, but he had also begun to see die costs
 of Cromwell's reforms. The king himself had never wanted to go
-diis farhe had only wanted a di-
-WHKRK CHRISTMAS CAME FROM Celebrating the turn
+diis farhe had only wanted a diWHKRK CHRISTMAS CAME FROM Celebrating the turn
 of the year is an ancient custom. The Romans celebrated the
 Saturnalia, the festival of Saturn, god of the harvest, between
 
@@ -22276,8 +22230,7 @@ KEYS TO POWER
 Human psychology contains many dualities, one of diem
 being tiiat even while people understand die need for change,
 knowing how important it is for institutions and individuals to be
-occasionally renewed, tiiey are also ir-
-ritated and upset by changes that affect diem personally. They
+occasionally renewed, tiiey are also irritated and upset by changes that affect diem personally. They
 know diat change is necessary, and that novelty provides relief
 from boredom, but deep inside they cling to the past. Change in
 die abstract, or superficial change, tiiey desire, but a change that
@@ -22514,7 +22467,7 @@ to be had. Finally the greedy one pressed the envious one to be
 the first to make the request. So the envious person asked the king
 to pluck out one of his eyes.
 Jewish parable, the seven deadly sins, Solomon Schimmel,
-1992
+
 An admirer who feels that he cannot be happy by surrendering
 himself elects to become envious of that which he admires. So he
 speaks another languagethe thing which he really admires is
@@ -22576,12 +22529,12 @@ success. Eventually the only thing that would have satisfied him
 would have been for Orton to have a failure of his own, an
 unsuccessful play perhaps, so that they could have commiserated
 in their failure, as they had done years before. When the opposite
-happenedas 
-Orton 
-grew 
-only 
-more 
-successful 
+happenedas
+Orton
+grew
+only
+more
+successful
 and
 popularHalliwell did the only thing that would make them equals
 again: He made them equals in death. With Orton's murder, he
@@ -22602,8 +22555,7 @@ Only a minority can succeed at the game of life, and that
 minority inevitably arouses the envy of those around them. Once
 success happens your way, however, the people to fear the most
 are those in your own circle, the friends and acquaintances you
-have left behind. Feelings of inferi-
-ority gnaw at them; the thought of your success only
+have left behind. Feelings of inferiority gnaw at them; the thought of your success only
 heightens their feelings of stagnation. Envy, which the
 philosopher Kierkegaard calls “unhappy admiration,” takes hold.
 You may not see it but you will feel it somedayunless, that is, you
@@ -23094,19 +23046,19 @@ unimpeachable power, their envy will have no effect on you, and
 you will have the best revenge of all: They are trapped in envy
 while you are free in your power.
 This is how Michelangelo triumphed over die venomous
-architect 
-Bramante, 
-who 
-turned 
-Pope 
-Julius 
+architect
+Bramante,
+who
+turned
+Pope
+Julius
 against
-Michelangelo's 
-design 
-for 
-his 
-tomb. 
-Bramante 
+Michelangelo's
+design
+for
+his
+tomb.
+Bramante
 envied
 Michelangelo's godlike skills, and to this one triumphthe aborted
 tomb projecthe thought to add another, by pushing the pope to
@@ -23441,8 +23393,7 @@ compare to her in charm and sophistication and would soon bore
 die monarch.
 Success plays strange tricks on die mind. It makes you feel
 invulnerable, while also making you more hostile and emotional
-when people chal-
-lenge your power. It makes you less able to adapt to
+when people challenge your power. It makes you less able to adapt to
 circumstance. You come to believe your character is more
 responsible for your success than your strategizing and planning.
 Like Madame de Pompadour, you need to realize that your
@@ -23493,8 +23444,7 @@ According to Machiavelli, this is what undid Cesare Borgia.
 He had many triumphs, was actually a clever strategist, but had
 the bad luck to have good luck: He had a pope for a fatiier. Then,
 when he had bad luck for realhis father's deamhe was unprepared
-for it, and the many ene-
-mies he had made devoured him. The good luck diat elevates
+for it, and the many enemies he had made devoured him. The good luck diat elevates
 you or seals your success brings the moment for you to open your
 eyes: The wheel of fortune will hurtle you down as easily as up. If
 you prepare for the fall, it is less likely to ruin you when it
@@ -23726,11 +23676,11 @@ it slows the creature down, making it hard for it to forage for food
 and making it a target for fast-​moving predators. Animals that
 take to the sea or sky, and that move swiftly and unpredictably,
 are infinitely more powerful and secure.
-In 
-facing 
-a 
-serious 
-problemcontrolling 
+In
+facing
+a
+serious
+problemcontrolling
 superior
 numbersSparta reacted like an animal that develops a shell to
 protect itself from the environment. But like a turtle, the Spartans
@@ -23888,8 +23838,7 @@ mobility. With mobility you can isolate the opponent in small
 areas and men encircle them. The aim is not to kill off the
 opponent's pieces directiy, as in chess, but to induce a kind of
 paralysis and collapse. Chess is linear, position oriented, and
-aggressive; go is nonlinear and fluid. Aggression is indi-
-The sage neither seeks to follow the ways of the ancients nor
+aggressive; go is nonlinear and fluid. Aggression is indiThe sage neither seeks to follow the ways of the ancients nor
 establishes any fixed standard for all times but examines the
 things of his age and then prepares to deal with them. There was
 in Sung a man, who tilled a field in which there stood the trunk of
@@ -24027,8 +23976,7 @@ with an abstract, hard-​to-​anticipate form. They are operating in a
 third dimension: the mind.
 Back on land, guerrilla warfare too demonstrates this
 evolution toward abstraction. T. E. Lawrence was perhaps the first
-modern strategist to de-
-CHAHACTKH
+modern strategist to deCHAHACTKH
 
 
 To carry out the instinctual inhibition demanded by the
@@ -24073,13 +24021,13 @@ your opponents. And nothing will infuriate and disorient them
 more tiian formlessness. In a world where wars of detachment are
 the order of die day, formlessness is crucial.
 The first psychological requirement of formlessness is to train
-yourself 
-to 
-take 
-nothing 
-personally. 
-Never 
-show 
+yourself
+to
+take
+nothing
+personally.
+Never
+show
 any
 defensiveness. When you act defensive, you show your emotions,
 revealing a clear form. Your opponents will realize they have hit a

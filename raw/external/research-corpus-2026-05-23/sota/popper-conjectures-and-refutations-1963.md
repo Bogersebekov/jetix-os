@@ -9,22 +9,23 @@ chars: 1252530
 approx_tokens: 313132
 pipeline_phase: 2-text-extracted
 constitutional_posture: R1-surface
+phase4_cleaned: true
+phase4_chars_before: 1252532
+phase4_chars_after: 1251305
+phase4_saved_pct: 0.1
 ---
-
 
 
 CONJECTURES AND
 REFUTATIONS
--i-
-By the same Author
+-iBy the same Author
 The Open Society and Its Enemies
 Vol. I: The Spell of Plato
 Vol. II: The High Tide of Prophecy: Hegel, Marx, and
 the Aftermath
 The Poverty of Historicism
 The Logic of Scientific Discovery
--ii-
-CONJECTURES AND
+-iiCONJECTURES AND
 REFUTATIONS
 The Growth of Scientific Knowledge
 by KARL R. POPPER
@@ -34,13 +35,10 @@ BASIC BOOKS, Publishers NEW YORK LONDON
 
 © Karl R. Popper 1962 Manufactured in the United States of
 America
--iv-
-TO F. A. VON HAYEK
--v-
-Experience is the name every one gives to their mistakes.
+-ivTO F. A. VON HAYEK
+-vExperience is the name every one gives to their mistakes.
 OSCAR WILDE
--vi-
-PREFACE
+-viPREFACE
 THE ESSAYS and lectures of which this book is composed are
 variations upon one very simple theme--the thesis that we can
 learn from our mistakes. They develop a theory of knowledge
@@ -93,8 +91,7 @@ rationality of science.
 This, in a nutshell, is the fundamental thesis developed in this
 book and applied to many topics, ranging from problems of the
 philosophy and history
--vii-
-of the physical sciences and of the social sciences to historical
+-viiof the physical sciences and of the social sciences to historical
 and political problems.
 I have relied upon my central thesis to give unity to the book,
 and upon the diversity of my topics to make acceptable the
@@ -149,207 +146,196 @@ vii
 INTRODUCTION
 On the Sources of Knowledge and of
 Ignorance
-3
+
 CONJECTURES
 1 Science: Conjectures and Refutations 33
 Appendix: Some Problems in the
 Philosophy of Science
-59
+
 2 The Nature of Philosophical Problems
 and their Roots in
 Science
-66
+
 3 Three Views Concerning Human
 Knowledge
-97
+
 1The Science of Galileo and Its New
 Betrayal
-97
+
 2The Issue at Stake
-100
+
 3The First View: Ultimate Explanation
 by Essences
-103
+
 4The Second View: Theories as
 Instruments
-107
+
 5Criticism of the Instrumentalist View 111
 6The Third View: Conjectures, Truth,
 and Reality
-114
+
 4 Towards a Rational Theory of Tradition 120
 
 
 5 Back to the Presocratics
-136
+
 Appendix: Historical Conjectures and
 Heraclitus on
 Change
-153
+
 6 A Note on Berkeley as Precursor of
 Mach and Einstein
-166
+
 7 Kantapos;s Critique and Cosmology
-175
+
 1Kant and the Enlightenment
-176
+
 2Kantapos;s Newtonian Cosmology
-177
+
 3The Critique and the Cosmological
 Problem
-178
--ix-
-4Space and Time
-179
+
+-ix4Space and Time
+
 5Kant's Copernican Revolution
-180
+
 6The Doctrine of Autonomy
-181
+
 8 On the Status of Science and of
 Metaphysics
-184
+
 1Kant and the Logic of Experience
-184
+
 2The Problem of the Irrefutability of
 Philosophical
 Theories
-193
+
 9 Why are the Calculi of Logic and
 Arithmetic Applicable to
 Reality?
-201
-
 
 10 Truth, Rationality, and the Growth of
 Scientific Knowledge
-215
+
 1The Growth of Knowledge: Theories
 and Problems
-215
+
 2The Theory of Objective Truth:
 Correspondence to the
 Facts
-223
+
 3Truth and Content: Verisimilitude
 versus Probability
-228
+
 4Background Knowledge and
 Scientific Growth
-238
+
 5Three Requirements for the Growth
 of Knowledge
-240
+
 Appendix: A Presumably False yet
-Formally Highly Prob-
-able Non-Empirical Statement
-248
+Formally Highly Probable Non-Empirical Statement
+
 REFUTATIONS
 11 The Demarcation Between Science
 and Metaphysics
-253
+
 1Introduction
-253
+
 2My Own View of the Problem
-255
+
 3Carnap's First Theory of
 Meaninglessness
-258
+
 4Carnap and the Language of
 Science
-264
-5Testability and Meaning
-273
-6Probability and Induction
-280
 
+5Testability and Meaning
+
+6Probability and Induction
 
 12 Language and the Body-Mind
 Problem
-293
+
 1Introduction
-293
+
 2Four Major Functions of Language
-295
+
 3A Group of Theses
-295
+
 4The Machine Argument
-296
+
 5The Causal Theory of Naming
-297
+
 6Interaction
-298
+
 7Conclusion
-298
--x-
-13 A Note on the Body-Mind Problem
-299
+
+-x13 A Note on the Body-Mind Problem
+
 14 Self-Reference and Meaning in
 Ordinary Language
-304
+
 15 What is Dialectic?
-312
+
 1Dialectic Explained
-312
+
 2Hegelian Dialectic
-324
+
 3Dialectic After Hegel
-331
+
 16 Prediction and Prophecy in the
 Social Sciences
-336
+
 17 Public Opinion and Liberal Principles 347
 1The Myth of Public Opinion
-347
-2The Dangers of Public Opinion
-349
 
+2The Dangers of Public Opinion
 
 3Liberal Principles: A Group of
 Theses
-350
+
 4The Liberal Theory of Free
 Discussion
-352
+
 5The Forms of Public Opinion
-353
+
 6Some Practical Problems:
 Censorship and Monopolies
 of Publicity
-353
+
 7A Short List of Political Illustrations 353
 8Summary
-354
+
 18 Utopia and Violence
-355
+
 19 The History of Our Time: An
 Optimist's View
-364
+
 20 Humanism and Reason
-377
+
 ADDENDA
 Some Technical Notes
-385
+
 1Empirical Content
-385
+
 2Probability and the Severity of Tests 388
 3Verisimilitude
-391
+
 4Numerical Examples
-397
+
 5Artificial vs. Formalized Languages
-398
+
 Index of Names
-401
+
 Index of Subjects
-406
+
 -xi-
 
 
 [This page intentionally left blank.]
--xii-
-INTRODUCTION
--1-
-True philosophers who are burning with love for truth and
+-xiiINTRODUCTION
+-1True philosophers who are burning with love for truth and
 learning never see themselves . . . as wise men, brim-full
 of knowledge . . . For most of them would admit that even
 the very greatest number of things of which we know is
@@ -409,8 +395,7 @@ Annual Philosophical Lecture read before the British
 Academy on January 20th, 1960. First published in the
 Proceedings of the British Academy, 46, 1960, and
 separately by Oxford University Press, 1961.
--3-
-allayed your misgivings sufficiently, for the time being, to allow
+-3allayed your misgivings sufficiently, for the time being, to allow
 me to begin my story at the other end--with the sources of
 knowledge rather than with the sources of ignorance. However,
 I shall presently come back to the sources of ignorance, and
@@ -465,8 +450,7 @@ to epistemology practical consequences for science, for ethics,
 and even for politics. He points out, for example, that
 epistemological relativism, or the idea that there is no such
 thing as objective truth,
--4-
-and epistemological pragmatism, or the idea that truth is the
+-4and epistemological pragmatism, or the idea that truth is the
 same as usefulness, are closely linked with authoritarian and
 totalitarian ideas.
 Russell's views are of course disputed. Some recent
@@ -527,8 +511,7 @@ Parallel passages are: Ethics, ii, scholium to propos. 42
 ('Indeed, as light manifests itself and darkness, so with truth:
 it is its own standard, and that of falsity.'); De intellectus
 emendatione, 35, 36; and letter 74, end of paragraph 7.
--5-
-Man can know: thus he can be free. This is the formula which
+-5Man can know: thus he can be free. This is the formula which
 explains the link between epistemological optimism and the
 ideas of liberalism.
 This link is paralleled by the opposite link. Disbelief in the
@@ -587,8 +570,7 @@ be our best plan to start by criticizing our most cherished
 beliefs. This may seem to some a perverse plan. But it will not
 seem so to those who want to find the truth and are not afraid
 of it.
--6-
-V
+-6V
 In examining the optimistic epistemology inherent in certain
 ideas of liberalism, I found a cluster of doctrines which,
 although often accepted implicitly, have not, to my knowledge,
@@ -646,8 +628,7 @@ Plato's uncle Critias; see chapter 8, section ii, of my Open
 Society.)
 This curious belief in a conspiracy is the almost inevitable
 consequence of
--7-
-the optimistic belief that truth, and therefore goodness, must
+-7the optimistic belief that truth, and therefore goodness, must
 prevail if only truth is given a fair chance. 'Let her and
 falsehood grapple; who ever knew Truth put to the worse, in a
 free and open encounter?' (Areopagitica). So when Milton's
@@ -822,8 +803,7 @@ Yet disappointment must have come to Plato; for in the
 Republic (and also in the Phaedrus) we find the beginnings of
 a pessimistic epistemology. In the famous story of the prisoners
 in the cave (514 ff.) he shows that the world of
--10-
-our experience is only a shadow, a reflection, of the real world.
+-10our experience is only a shadow, a reflection, of the real world.
 And he shows that even if one of the prisoners should escape
 from the cave and face the real world, he would have almost
 insuperable difficulties in seeing and understanding it--to say
@@ -845,8 +825,7 @@ the Laws.
 Thus we find in Plato the first transition from an optimistic to a
 pessimistic epistemology. Each of them forms the basis of one
 of the two diametrically opposed philosophies of the state and
-of society: on the one hand an antitraditionalist, anti-
-authoritarian, revolutionary and Utopian rationalism of the
+of society: on the one hand an antitraditionalist, antiauthoritarian, revolutionary and Utopian rationalism of the
 Cartesian kind, and on the other hand an authoritarian
 traditionalism.
 This development may well be connected with the fact that the
@@ -931,8 +910,7 @@ result of an induction--the intuition of the essence--was to be
 expressed by a definition of that essence.)
 Now let us look more closely at the two procedures. The
 maieutic art of Socrates consists, essentially, in asking
-questions designed to destroy pre-
-____________________
+questions designed to destroy pre____________________
 6 It is interesting to contrast this pessimistic view of the
 necessity of error with the optimism of Descartes, or of
 Spinoza who, in his 74th letter (paragraph 7) scorns those
@@ -959,8 +937,7 @@ induction in the sense of the second method here mentioned
 is just a weakened (and invalid) form of this valid syllogism.
 
 
--12-
-judices; false beliefs which are often traditional or fashionable
+-12judices; false beliefs which are often traditional or fashionable
 beliefs; false answers, given in the spirit of ignorant
 cocksureness. Socrates himself does not pretend to know. His
 attitude is described by Aristotle in the words, ' Socrates raised
@@ -1076,8 +1053,7 @@ Socrates, we must, by purifying our intellects, prepare our
 souls to face the eternal light of essences or natures (cf. St
 Augustine, Civ. Dei, VIII, 3): our impure prejudices must be
 exorcised by the invocation of counter-instances.
--14-
-Only after our souls have been cleansed in this way may we
+-14Only after our souls have been cleansed in this way may we
 begin the work of spelling out diligently the open book of
 Nature, the manifest truth.
 In view of all this I suggest that Baconian (and also Aristotelian)
@@ -1137,8 +1113,7 @@ they certainly were unable to give up thinking in terms of
 authority, much as they wanted to do so. They could only
 replace one authority--that of Aristotle and the Bible--by
 another. Each of them
--15-
-appealed to a new authority; the one to the authority of the
+-15appealed to a new authority; the one to the authority of the
 senses, and the other to the authority of the intellect.
 This means that they failed to solve the great problem: How
 can we admit that our knowledge is a human--an all too
@@ -1158,8 +1133,7 @@ pessimistic epistemology. This doctrine implies that we may
 seek for truth, for objective truth, though more often than not
 we may miss it by a wide margin. And it implies that if we
 respect truth, we must search for it by persistently searching
-for our errors: by indefatigable rational criticism, and self-
-criticism.
+for our errors: by indefatigable rational criticism, and selfcriticism.
 Erasmus of Rotterdam attempted to revive this Socratic
 doctrine--the important though unobtrusive doctrine, 'Know
 thyself, and thus admit to thyself how little thou knowest!' Yet
@@ -1199,8 +1173,7 @@ consequence of our humanity. We are all fallible, and prone to
 error; let us then pardon each other's folly. This is the first
 principle of natural right.' (More recently the doctrine of fallibility
 has been made the basis of a theory
--16-
-of political freedom; that is, freedom from coercion. See F. A.
+-16of political freedom; that is, freedom from coercion. See F. A.
 Hayek, The Constitution of Liberty, especially pp. 22 and 29.)
 XI
 Bacon and Descartes set up observation and reason as new
@@ -1259,8 +1232,7 @@ gap between this authority and ourselves: between the pure
 sources from which we can obtain an authoritative knowledge
 of the truthful goddess Nature, and our impure and guilty
 selves:
--17-
-between God and man. As indicated before, this idea of the
+-17between God and man. As indicated before, this idea of the
 truthfulness of Nature which, I believe, can be discerned in
 Bacon, derives from the Greeks; for it is part of the classical
 opposition between nature and human convention which,
@@ -1318,8 +1290,7 @@ even little children speak French fluently. Of course, we smile
 about our own naïvety; but we do not smile about the
 policeman who discovers that the real name of the man called '
 Samuel Jones' was ' John Smith'--though here is, no
--18-
-doubt, a last vestige of the magical belief that we gain power
+-18doubt, a last vestige of the magical belief that we gain power
 over a man or a god by gaining knowledge of his real name.
 Thus there is indeed a familiar as well as a logically defensible
 sense in which the 'true' or 'proper' meaning of a term is its
@@ -1376,8 +1347,7 @@ definitions are 'principles'; that is to say, they yield primitive
 propositions (example: 'All
 
 
--19-
-bodies are extended') which cannot be derived from other
+-19bodies are extended') which cannot be derived from other
 propositions, and which form the basis, or are part of the basis,
 of every demonstration. They thus form the basis of every
 science. (Cf. my Open Society, especially notes 27 to 33 to
@@ -1467,8 +1437,7 @@ testimony. It is in this sense that we empiricists assert that
 observation must be the ultimate source of our knowledge.'
 
 
--21-
-Here we have the empiricist's case, as it is still put by some of
+-21Here we have the empiricist's case, as it is still put by some of
 my positivist friends.
 I shall try to show that this case is as little valid as Bacon's; that
 the answer to the question of the sources of knowledge goes
@@ -1583,8 +1552,7 @@ Selby-Bigge, p. 83 ), 'that
 ____________________
 8 See my Logic of Scientific Discovery, last paragraph of
 section 24, and new appendix *x, (2).
--23-
-Caesar was kill'd in the Senate-house on the ides of March. . .
+-23Caesar was kill'd in the Senate-house on the ides of March. . .
 because this fact is establish'd on the unanimous testimony of
 historians, who agree to assign this precise time and place to
 
@@ -1643,8 +1611,7 @@ mainly, in the light of the origin of certain sources. But in
 general the two questions are different; and in general we do
 not test the validity of an assertion or information by tracing its
 sources or its origin, but we test it,
--24-
-much more directly, by a critical examination of what has been
+-24much more directly, by a critical examination of what has been
 asserted--of the asserted facts themselves.
 Thus the empiricist's questions 'How do you know? What is the
 source of your assertion?' are wrongly put. They are not
@@ -1702,8 +1669,7 @@ untainted and certain sources do not exist, and that questions
 of origin or of purity should not be confounded with questions
 of validity, or of truth. This view may be said to be as old as
 Xenophanes. Xenophanes knew
--25-
-that our knowledge is guesswork, opinion--doxa rather than
+-25that our knowledge is guesswork, opinion--doxa rather than
 epistēmē--as shown by his verses (DK, B, 18 and 34):
 The gods did not reveal, from the beginning, All things to
 us; but in the course of time, Through seeking, men find
@@ -1759,8 +1725,7 @@ ____________________
 Reason, 2nd edition ( 1794), Fourth Chapter, Part II, § 1, the
 first footnote. The passage is quoted more fully in ch. 7 of
 the present volume, text to note 22.
--26-
-so. If this interpretation of Kant is correct, then the critical
+-26so. If this interpretation of Kant is correct, then the critical
 rationalism (and also the critical empiricism) which I advocate
 merely puts the finishing touch to Kant's own critical
 philosophy. And this was made possible by Einstein, who
@@ -1819,8 +1784,7 @@ present section xv, are taken with only minor changes from
 
 a paper of mine which was first published in The Indian
 Journal of Philosophy, 1, No. 1, 1959.
--27-
-learning how to criticize, how to take and to accept
+-27learning how to criticize, how to take and to accept
 criticism, how to respect truth.
 The fact that most of the sources of our knowledge are
 traditional condemns anti-traditionalism as futile. But this
@@ -1884,8 +1848,7 @@ Foundations of Mathematics (p. 291 ), 'is in attaching little
 importance to
 
 
--28-
-physical size. I don't feel in the least humble before the
+-28physical size. I don't feel in the least humble before the
 vastness of the heavens. The stars may be large but they
 cannot think or love; and these are qualities which impress me
 far more than size does. I take no credit for weighing nearly
@@ -1955,14 +1918,11 @@ authority. And we must retain it. For without this idea there can
 be no objective standards of inquiry; no criticism of our
 conjectures; no groping for the unknown; no quest for
 knowledge.
--30-
-CONJECTURES
+-30CONJECTURES
 -31-
 [This page intentionally left blank.]
 -32-
 
-
-1
 SCIENCE: CONJECTURES AND
 REFUTATIONS
 Mr. Turnbull had predicted evil consequences, . . . and was
@@ -1999,8 +1959,7 @@ genuinely empirical method and a non-empirical or even a
 pseudo-empirical method--that is to say, a method which,
 although it appeals to observation and experiment,
 nevertheless
--33-
-does not come up to scientific standards. The latter method
+-33does not come up to scientific standards. The latter method
 may be exemplified by astrology, with its stupendous mass of
 empirical evidence based on observation--on horoscopes and
 on biographies.
@@ -2027,8 +1986,7 @@ experience for us, and one which had a lasting influence on my
 intellectual development.
 The three other theories I have mentioned were also widely
 discussed among students at that time. I myself happened to
-come into personal contact with Alfred Adler, and even to co-
-operate with him in his social work among the children and
+come into personal contact with Alfred Adler, and even to cooperate with him in his social work among the children and
 young people in the working-class districts of Vienna where he
 had established social guidance clinics.
 It was during the summer of 1919 that I began to feel more and
@@ -2060,8 +2018,7 @@ explanatory power. These theories appeared to be able to
 explain practically everything that happened within the fields to
 which they referred. The study of any of them seemed to have
 the effect of an
--34-
-intellectual conversion or revelation, opening your eyes to a
+-34intellectual conversion or revelation, opening your eyes to a
 new truth hidden from those not yet initiated. Once your eyes
 were thus opened you saw confirming instances everywhere:
 the world was full of verifications of the theory. Whatever
@@ -2180,11 +2137,9 @@ ____________________
 1 This is a slight oversimplification, for about half of the
 Einstein effect may be derived from the classical theory,
 provided we assume a ballistic theory of light.
--36-
-7. Some genuinely testable theories, when found to be false,
+-367. Some genuinely testable theories, when found to be false,
 are still upheld by their admirers--for example by
-introducing ad hoc some auxiliary assumption, or by re-
-interpreting the theory ad hoc in such a way that it escapes
+introducing ad hoc some auxiliary assumption, or by reinterpreting the theory ad hoc in such a way that it escapes
 refutation. Such a procedure is always possible, but it
 rescues the theory from refutation only at the price of
 destroying, or at least lowering, its scientific status. (I later
@@ -2240,8 +2195,7 @@ more than the daily confirmations which astrologers find
 ____________________
 2 See, for example, my Open Society and Its Enemies, ch. 15,
 section iii, and notes 13-14.
--37-
-in their practice. 3 And as for Freud's epic of the Ego, the
+-37in their practice. 3 And as for Freud's epic of the Ego, the
 Super-ego, and the Id, no substantially stronger claim to
 scientific status can be made for it than for Homer's collected
 stories from Olympus. These theories describe some facts, but
@@ -2266,8 +2220,7 @@ unimportant, or insignificant, or 'meaningless', or 'nonsensical'.
 scientific sense--although it may easily be, in some genetic
 sense, the 'result of observation'.
 (There were a great many other theories of this pre-scientific or
-pseudo-
-____________________
+pseudo____________________
 3 'Clinical observations', like all other observations, are
 interpretations in the light of theories (see below, sections iv
 ff.); and for this reason alone they are apt to seem to
@@ -2325,8 +2278,7 @@ actually rejected the lunar theory of the tides; and his
 
 misgivings about Kepler may easily be explained by his
 misgivings about astrology.
--38-
-scientific character, some of them, unfortunately, as influential
+-38scientific character, some of them, unfortunately, as influential
 as the Marxist interpretation of history; for example, the
 racialist interpretation of history-another of those impressive
 and all-explanatory theories which act upon weak minds like
@@ -2367,8 +2319,7 @@ Wittgenstein's work, and from its reception; and so I published
 my results thirteen years later in the form of a criticism of
 Wittgenstein's criterion of meaningfulness.
 Wittgenstein, as you all know, tried to show in the Tractatus
-(see for example his propositions 6.53; 6.54; and 5) that all so-
-called philosophical or metaphysical propositions were actually
+(see for example his propositions 6.53; 6.54; and 5) that all socalled philosophical or metaphysical propositions were actually
 non-propositions or pseudopropositions: that they were
 senseless or meaningless. All genuine (or meaningful)
 propositions were truth functions of the elementary or atomic
@@ -2386,8 +2337,7 @@ that every genuine proposition must be a truth-function of, and
 
 
 therefore deducible from, observation statements. All other
-apparent propositions will be meaningless pseudo-
-propositions; in fact they will be nothing but nonsensical
+apparent propositions will be meaningless pseudopropositions; in fact they will be nothing but nonsensical
 gibberish.
 This idea was used by Wittgenstein for a characterization of
 science, as opposed to philosophy. We read (for example in
@@ -2462,8 +2412,7 @@ first published report of my theory of critical testing. (See
 also my critical remarks in L.Sc.D., note 1 to section 29, p.
 104, where the date ' 1933' should read ' 1932'; and ch. 11,
 below, text to note 39.)
--40-
-and elsewhere I described the problem of meaning as a
+-40and elsewhere I described the problem of meaning as a
 pseudo-problem, in contrast to the problem of demarcation. But
 my contribution was classified by members of the Circle as a
 proposal to replace the verifiability criterion of meaning by a
@@ -2540,8 +2489,7 @@ consists largely of a mixture of theories of lower degree of
 universality (of 'reproducible effects'). But the fact remains
 that, relative to whatever basis the investigator may accept
 (at his peril), he can test his theory only by trying to refute it.
--41-
-OceanofPDF.com
+-41OceanofPDF.com
 
 
 IV
@@ -2602,8 +2550,7 @@ terminology which, I think, is a little misleading. The
 following two quotations are from the Treatise of Human
 Nature, Book I, Part III, sections vi and xii. (The italics are all
 Hume's.)
--42-
-the custom or habit of believing in laws or regularities; and it is
+-42the custom or habit of believing in laws or regularities; and it is
 neither very surprising nor very enlightening to hear that such a
 
 
@@ -2663,8 +2610,7 @@ events; but these two are sufficiently closely connected to
 be treated together. They may, perhaps, in exceptional
 cases, result from a mere repetition of sense impressions
 (as in the case of the
--43-
-stopping clock). I was prepared to concede this, but I
+-43stopping clock). I was prepared to concede this, but I
 contended that normally, and in most cases of any interest,
 they cannot be so explained. As Hume admits, even a
 single striking observation may be sufficient to create a
@@ -2699,8 +2645,7 @@ uncritical way. We are led to think of the water-drop that
 hollows the stone: of sequences of unquestionably like events
 slowly forcing themselves upon us, as does the tick of the
 clock. But we ought to realize that in a psychological theory
-such as Hume's, only repetition-for-us, based upon similarity-
-for-us, can be allowed to have any effect upon us. We must
+such as Hume's, only repetition-for-us, based upon similarityfor-us, can be allowed to have any effect upon us. We must
 respond to situations as if they were equivalent; take them as
 similar; interpret them as repetitions. The clever puppies, we
 may assume, showed by their response, their way of acting or
@@ -2727,8 +2672,7 @@ ____________________
 12 F. Bäge, "'Zur Entwicklung, etc.'", Zeitschrift f.
 Hundeforschung, 1933; cp. D. Katz, Animals and Men, ch.
 VI, footnote.
--44-
-expectations, anticipations, assumptions, or interests--before
+-44expectations, anticipations, assumptions, or interests--before
 there can be any repetition; which point of view, consequently,
 cannot be merely the result of repetition. (See now also
 appendix *X, (1), to my L.Sc.D.)
@@ -2787,8 +2731,7 @@ question of justification or validity--quid juris. (See below, point
 (13) of the appendix to the present chapter.)
 It seems that Hume never seriously considered the first
 alternative. Having
--45-
-cast out the logical theory of induction by repetition he struck a
+-45cast out the logical theory of induction by repetition he struck a
 bargain with common sense, meekly allowing the re-entry of
 induction by repetition, in the guise of a psychological theory. I
 proposed to turn the tables upon this theory of Hume's. Instead
@@ -2847,8 +2790,7 @@ classification, which in its turn presupposes interests, points of
 view, and problems. 'A hungry animal',
 ____________________
 13 See section 30 of L.Sc.D.
--46-
-writes Katz, 14 'divides the environment into edible and inedible
+-46writes Katz, 14 'divides the environment into edible and inedible
 things. An animal in flight sees roads to escape and hiding
 places. . . . Generally speaking, objects change . . . according
 to the needs of the animal.' We may add that objects can be
@@ -2908,8 +2850,7 @@ Kant failed to distinguish between psychologically a priori ways
 of thinking or responding and a priori valid beliefs. But I do
 ____________________
 14 Katz, loc. cit.
--47-
-not think that his mistake was quite as crude as that. For the
+-47not think that his mistake was quite as crude as that. For the
 expectation of finding regularities is not only psychologically a
 priori, but also logically a priori: it is logically prior to all
 observational experience, for it is prior to any recognition of
@@ -2972,8 +2913,7 @@ understand why a priori knowledge such as Newton's
 should be so hard to come by. A somewhat fuller statement
 of this criticism can be found in ch. 2, especially section ix,
 and chs. 7 and 8 of the present volume.
--48-
-VI
+-48VI
 Our propensity to look out for regularities, and to impose laws
 upon nature, leads to the psychological phenomenon of
 dogmatic thinking or, more generally, dogmatic behaviour: we
@@ -3003,8 +2943,7 @@ rites and in repetition as such, are characteristic of primitives
 and children; and increasing experience and maturity
 sometimes create an attitude of caution and criticism rather
 than of dogmatism.
-I may perhaps mention here a point of agreement with psycho-
-analysis. Psycho-analysts assert that neurotics and others
+I may perhaps mention here a point of agreement with psychoanalysis. Psycho-analysts assert that neurotics and others
 interpret the world in accordance with a personal set pattern
 which is not easily given up, and which can often be traced
 back to early childhood. A pattern or scheme which was
@@ -3056,10 +2995,8 @@ neglecting refutations, whereas the critical attitude is one of
 readiness to change them--to test them; to refute them; to
 falsify them, if possible. This suggests that we may identify the
 critical attitude with the scientific attitude, and the dogmatic
-attitude with the one which we have described as pseudo-
-scientific.
-It further suggests that genetically speaking the pseudo-
-scientific attitude is more primitive than, and prior to, the
+attitude with the one which we have described as pseudoscientific.
+It further suggests that genetically speaking the pseudoscientific attitude is more primitive than, and prior to, the
 scientific attitude: that it is a prescientific attitude. And this
 primitivity or priority also has its logical aspect. For the critical
 attitude is not so much opposed to the dogmatic attitude as
@@ -3153,8 +3090,7 @@ have to be modified. That the sun will always rise and set
 within twenty-four hours is still proverbial as a law 'established
 by induction beyond reasonable doubt'. It is odd that this
 example is still in use, though it
--51-
-may have served well enough in the days of Aristotle and
+-51may have served well enough in the days of Aristotle and
 Pytheas of Massalia --the great traveller who for centuries was
 called a liar because of his tales of Thule, the land of the frozen
 sea and the midnight sun.
@@ -3212,8 +3148,7 @@ experiments. They believed that the difference between
 genuine science and metaphysical or pseudo-scientific
 speculation depended solely upon whether or not the inductive
 method was employed. They
--52-
-believed (to put it in my own terminology) that only the
+-52believed (to put it in my own terminology) that only the
 inductive method could provide a satisfactory criterion of
 demarcation.I recently came across an interesting formulation
 of this belief in a remarkable philosophical book by a great
@@ -3271,8 +3206,7 @@ especially chapter 10, below.)
 ____________________
 18 Max Born, Natural Philosophy of Cause and Chance,
 Oxford, 1949, p. 7.
--53-
-IX
+-53IX
 If, as I have suggested, the problem of induction is only an
 instance or facet of the problem of demarcation, then the
 solution to the problem of demarcation must provide us with a
@@ -3332,8 +3266,7 @@ ____________________
 theories are accepted only tentatively. But the widespread
 belief in induction shows that the far-reaching implications of
 this view are rarely seen.
--54-
-a logical induction. Only the falsity of the theory can be inferred
+-54a logical induction. Only the falsity of the theory can be inferred
 from empirical evidence, and this inference is a purely
 deductive one.
 Hume showed that it is not possible to infer a theory from
@@ -3367,8 +3300,7 @@ Of course, one can invent new problems of induction, different
 from the one I have formulated and solved. (Its formulation was
 half its solution.) But I have yet to see any reformulation of the
 problem whose solution cannot be easily obtained from my old
-solution. I am now going to discuss some of these re-
-formulations.
+solution. I am now going to discuss some of these reformulations.
 One question which may be asked is this: how do we really
 jump from an observation statement to a theory?
 Although this question appears to be psychological rather than
@@ -3395,8 +3327,7 @@ ____________________
 21 Wittgenstein still held this belief in 1946; see note 8 to ch. 2,
 below.
 22 See Note 5 above.
--55-
-by repeatedly applying the critical method, eliminating many
+-55by repeatedly applying the critical method, eliminating many
 bad theories, and inventing many new ones. Not everybody is
 able to do this; but there is no other way.
 Other questions have sometimes been asked. The original
@@ -3456,8 +3387,7 @@ nature will not change, but this is begging the question. We
 speak of a 'law of nature' only if we think that we have before
 us a regularity which does not change; and if we find that it
 changes then we shall not
--56-
-continue to call it a 'law of nature'. Of course our search for
+-56continue to call it a 'law of nature'. Of course our search for
 natural laws indicates that we hope to find them, and that we
 believe that there are natural laws; but our belief in any
 particular natural law cannot have a safer basis than our
@@ -3519,8 +3449,7 @@ Independent Axioms for Probability'", Mind, N.S. 47, 1938,
 p. 275. (This note has since been reprinted, with
 corrections, in the new appendix *ii of L.Sc.D. See also the
 next note but one to the present chapter.)
--57-
-used in some of the many senses which satisfy the well-known
+-57used in some of the many senses which satisfy the well-known
 calculus of probability, axiomatized, for example, by Keynes,
 Jeffreys, and myself; but nothing of course depends on the
 choice of words, as long as we do not assume, uncritically, that
@@ -3558,8 +3487,7 @@ two problems of demarcation and induction. But time does not
 allow me to continue my narrative, and to tell you how my new
 problems arose out of my old ones. Since I cannot even start a
 discussion of these further problems now, I shall have to
-confine my-
-____________________
+confine my____________________
 24 A definition, in terms of probabilities (see the next note), of
 C(t,e), i.e. of the degree of corroboration (of a theory t
 relative to the evidence e) satisfying the demands indicated
@@ -3585,8 +3513,7 @@ for the Philosophy of Science, 5, 1954, pp. 143 ff. (See also
 B.J.P.S., 1955, 5, p. 359:) C(t,e) = (P(e,t) - P(e))/(P(e,t) -
 P(et) + P (e)) For a further improvement, see B.J.P.S. 6,
 1955. p. 56.
--58-
-self to giving you a bare list of them, with a few explanatory
+-58self to giving you a bare list of them, with a few explanatory
 words here and there. But even a bare list may be useful, I
 think. It may serve to give an idea of the fertility of the
 approach. It may help to illustrate what our problems look like;
@@ -3722,8 +3649,7 @@ treated in the new appendices to L.Sc.D. (To its 1961
 American Edition I have added a system of only three
 axioms; see also section 2 of the Addenda to the present
 volume.)
--59-
-2. This problem of a propensity interpretation of probability
+-592. This problem of a propensity interpretation of probability
 arose out of my interest in Quantum Theory. It is usually
 believed that Quantum Theory has to be interpreted
 
@@ -3750,8 +3676,7 @@ the elements for constructing a satisfactory solution lay
 ready for use in that book; certain examples I had given
 allow a mathematical characterization of a class of infinite
 chance-like
--60-
-sequences which are, in a certain sense, the shortest
+-60sequences which are, in a certain sense, the shortest
 sequences of their kind. 26 A statistical statement may now
 be said to be testable by comparison with these 'shortest
 sequences'; it is refuted if the statistical properties of the
@@ -3765,8 +3690,7 @@ chapter of The Logic of Scientific Discovery I criticized the
 'official' interpretation, and I still think that my criticism is
 valid in all points but one: one example which I used (in
 section 77) is mistaken. But since I wrote that section,
-Einstein, Podolski, and Rosen have published a thought-
-experiment which can be substituted for my example,
+Einstein, Podolski, and Rosen have published a thoughtexperiment which can be substituted for my example,
 although their tendency (which is deterministic) is quite
 different from mine. Einstein's belief in determinism (which
 I had occasion to discuss with him) is, I believe,
@@ -3816,8 +3740,7 @@ ____________________
 appendix *XVI.
 27 Ibid., sections 41 to 46. But see now also ch. 10, section
 xviii.
--61-
-the relations between these layers. It is often asserted that
+-61the relations between these layers. It is often asserted that
 Newton's theory can be induced or even deduced from
 Kepler's and Galileo's laws. But it can be shown that
 Newton's theory (including his theory of absolute space)
@@ -3844,8 +3767,7 @@ no measurement without a theory and no operation which
 can be satisfactorily described in non-theoretical terms.
 The attempts to do so are always circular; for example, the
 description of the measurement of length needs a
-(rudimentary) theory of heat and temperature-
-measurement; but these, in turn, involve measurements of
+(rudimentary) theory of heat and temperaturemeasurement; but these, in turn, involve measurements of
 length.
 The analysis of operationalism shows the need for a
 general theory of measurement; a theory which does not,
@@ -3871,10 +3793,8 @@ ____________________
 28 The contradictions mentioned in this sentence of the text
 were pointed out, for the case of the many-body problem, by
 P. Duhem, The Aim and Structure of Physical Theory (
-1905; trans. by P. P. Wiener, 1954). In the case of the two-
-body problem, the contradictions arise in connection with
-Kepler's third law, which may be reformulated for the two-
-body problem as follows. 'Let S be any set of pairs of bodies
+1905; trans. by P. P. Wiener, 1954). In the case of the twobody problem, the contradictions arise in connection with
+Kepler's third law, which may be reformulated for the twobody problem as follows. 'Let S be any set of pairs of bodies
 such that one body of each pair is of the mass of our sun;
 then a3 / T2 = constant, for any set S.' Clearly this
 contradicts Newton's theory, which yields for appropriately
@@ -3886,8 +3806,7 @@ the second bodies are all negligible compared with that of
 our sun. (See also my paper "'The Aim of Science'", Ratio,
 1, pp. 24 ff., and section 15 of the Postscript to my Logic of
 Scientific Discovery.)
--62-
-prediction of impending events. That theories may be used
+-62prediction of impending events. That theories may be used
 in this way cannot be doubted; but instrumentalism asserts
 that they can be best understood as instruments; and that
 this is mistaken, I have tried to show by a comparison of
@@ -3952,8 +3871,7 @@ ____________________
 (added to the 4th edition 1962).
 30 Poverty of Historicism, section 32; L.Sc.D., section 8; Open
 Society, ch. 23. The passages are complementary.
--63-
-as follows. It is first taken for granted that nobody seriously
+-63as follows. It is first taken for granted that nobody seriously
 doubts that we do, in fact, make inductions, and successful
 ones. (My suggestion that this is a myth, and that the
 apparent cases of induction turn out, if analysed more
@@ -4017,8 +3935,7 @@ criticizing here; for they assume, wrongly, that we may
 argue in the inductive direction, though not to the certainty,
 yet to the probability of our 'generalizations'. But this
 assumption
--64-
-is taken, for all the intuitive ideas of probability which have
+-64is taken, for all the intuitive ideas of probability which have
 ever been suggested. 31
 This is a list of just a few of the problems of the philosophy
 of science to which I was led in my pursuit of the two fertile
@@ -4037,7 +3954,7 @@ Society which I have added to the fourth edition, 1962). See
 especially also my paper "'Probability Magic, or Knowledge
 out of Ignorance'", Dialectica, 11, 1957, pp. 354-374.
 -65-
-2
+
 THE NATURE OF PHILOSOPHICAL
 PROBLEMS AND THEIR ROOTS IN
 SCIENCE
@@ -4074,8 +3991,7 @@ easily be solved, by refuting the ('relativistic') doctrine which
 gives rise to the question. (Thus the answer to the question
 is negative. See the Addendum to vol. ii of my Open Society,
 added to the fourth edition of 1962.)
--66-
-archaelogy, and that these 'studies' or 'disciplines' are
+-66archaelogy, and that these 'studies' or 'disciplines' are
 distinguishable by the subect matter which they investigate,
 appears to me to be a residue from the time when one believed
 that a theory had to proceed from a definition of its own subject
@@ -4138,8 +4054,7 @@ theoretical explanations are the more satisfactory the better
 they can be supported by independent evidence. For in
 order to be supported by mutually independent pieces of
 evidence, a theory must be sweeping.
--67-
-false, their negations would be true propositions or theories)
+-67false, their negations would be true propositions or theories)
 but strictly meaningless combinations of words, 4 no more
 meaningful than the incoherent babbling of a child who has not
 yet learned to speak properly. 5
@@ -4213,8 +4128,7 @@ consistency of the doctrine, which in this way indeed
 becomes 'unassailable'--to use Wittgenstein's term--by the
 kind of criticism referred to in this note. (See also the next
 note but one.)
--68-
-OceanofPDF.com
+-68OceanofPDF.com
 
 
 II
@@ -4247,8 +4161,7 @@ expressions such as, '3 times 4 are cows,' or, 'All cats equal
 173', that is for expressions of a sort which it is better not to
 describe as false statements. They are better not described as
 false because the negation of a meaningful but false statement
-will always be true. But the prima facie negation of the pseudo-
-statement, 'All cats equal 173', is, 'Some cats do not equal
+will always be true. But the prima facie negation of the pseudostatement, 'All cats equal 173', is, 'Some cats do not equal
 173', and this is just as unsatisfactory a pseudo-statement as
 
 
@@ -4344,8 +4257,7 @@ interpretation of the classical theorem of Bolzano and
 Weierstrass, but in agreement with Brouwer's doubts about
 this theorem.
 9 Cf. note 51 (2) to ch. 11 of my Open Society.
--70-
-silent.' It was, if I remember rightly, Erwin Schroedinger who
+-70silent.' It was, if I remember rightly, Erwin Schroedinger who
 replied: 'But it is only here that speaking becomes worth while.'
 
 
@@ -4391,8 +4303,7 @@ Wittgenstein's views, I am prepared to defend the following two
 theses.
 My first thesis is that every philosophy, and especially every
 philosophical 'school', is liable to degenerate in such a way that
-its problems become practically indistinguishable from pseudo-
-problems, and its cant, accordingly, practically indistinguishable
+its problems become practically indistinguishable from pseudoproblems, and its cant, accordingly, practically indistinguishable
 from meaningless babble. This, I shall try to show, is a
 consequence of philosophical inbreeding. The degeneration of
 philosophical schools is in its turn the consequence of the
@@ -4406,8 +4317,7 @@ opinion of it.)
 After this paper was first published Schroedinger told me
 that he could not remember saying this, and that he did not
 believe that he ever said it. (But he liked the remark.)
--71-
-problems which arise outside philosophy--in mathematics, for
+-71problems which arise outside philosophy--in mathematics, for
 example, or in cosmology, or in politics, or in religion, or in
 
 
@@ -4519,8 +4429,7 @@ theses, and to balance my account with Wittgenstein.
 My two theses amount to the contention that as philosophy is
 deeply rooted in non-philosophical problems, Wittgenstein's
 negative judgment is correct, by and large, so far as
-philosophies are concerned which have forgotten their extra-
-philosophical roots; and that these roots are easily forgotten by
+philosophies are concerned which have forgotten their extraphilosophical roots; and that these roots are easily forgotten by
 philosophers who 'study' philosophy, instead of being forced
 into philosophy by the pressure of non-philosophical problems.
 My view of Wittgenstein's doctrine may be summed up as
@@ -4535,8 +4444,7 @@ components, they need not be classified as belonging to
 science. And even if they should be soluble by, say, purely
 logical means they need not be classified as purely logical or
 tautological. Analogous
--73-
-situations arise in physics. For example, the problem of
+-73situations arise in physics. For example, the problem of
 explaining certain spectral terms (with the help of a hypothesis
 concerning the structure of atoms) may turn out to be soluble
 by purely mathematical calculations. But this again does not
@@ -4605,8 +4513,7 @@ language, and therefore is liable to break down for those
 languages in which we must speak prior to any
 formalization, i.e. in those languages in which all the
 traditional problems were conceived.
--74-
-this aim; for even if we accept the dichotomy we can still claim
+-74this aim; for even if we accept the dichotomy we can still claim
 that factual or logical or mixed problems may turn out, in
 certain circumstances, to be philosophical.
 
@@ -4680,8 +4587,7 @@ metrical astronomy is based.
 Metaphysics.
 
 
--75-
-impressed by two discoveries. The first was that a prima facie
+-75impressed by two discoveries. The first was that a prima facie
 purely qualitative phenomenon such as musical harmony was,
 in essence, based upon the purely numerical ratios 1:2; 2:3;
 3:4. The second was that the 'right' or 'straight' angle
@@ -4737,8 +4643,7 @@ From this it is easy to obtain the general formula for the sum of
 an arithmetical series.
 We also obtain 'oblong numbers', that is the numbers of oblong
 rectangular figures of which the simplest is
--77-
-with the oblong numbers 2 + 4 + 6 . . . ; the gnōmōn of an
+-77with the oblong numbers 2 + 4 + 6 . . . ; the gnōmōn of an
 oblong is an even number, and the oblong numbers are the
 sums of the even numbers.
 These considerations were extended to solids; for example, by
@@ -4808,8 +4713,7 @@ True and Certain Knowledge can be obtained. All that can be
 obtained in the place of Knowledge (epistēmē) are the
 plausible but uncertain and prejudiced opinions (doxa) of
 fallible mor-
--78-
-tals. 18 In his interpretation of the Table of Opposites Plato was
+-78tals. 18 In his interpretation of the Table of Opposites Plato was
 influenced by Parmenides, the man whose challenge led to the
 development of Democritus' atomic theory.
 VI
@@ -4829,8 +4733,7 @@ that it still remains the fundamental problem of Natural
 Philosophy.
 Although Parmenides was perhaps not a physicist (unlike his
 great Ionian predecessors), he may be described, I believe, as
-having fathered theoretical physics. He produced an anti-
-physical 20 (rather than a-physical, as Aristotle said) theory
+having fathered theoretical physics. He produced an antiphysical 20 (rather than a-physical, as Aristotle said) theory
 which, however, was the first hypothetico-deductive system.
 And it was the beginning of a long series of such systems of
 physical theories, each of which was an improvement on its
@@ -4879,16 +4782,14 @@ be true, but the evidence in its favour does not show that he
 did not also have an Ionian teacher. (See also ch. 5, below.)
 20 Cp. Plato, Theaetetus, 181a, and Sextus Empiricus, Adv.
 Mathem. (Bekker), X. 46, p. 485, 25.
--79-
-These experiences or observations were, we shall see, very
+-79These experiences or observations were, we shall see, very
 crude at first, but they became more and more subtle as the
 theories became more and more capable of accounting for the
 cruder observations. In the case of Parmenides' theory the
 clash with observation was so obvious that it would seem
 
 
-perhaps fanciful to describe the theory as the first hypothetico-
-deductive system of physics. We may, therefore, describe it as
+perhaps fanciful to describe the theory as the first hypotheticodeductive system of physics. We may, therefore, describe it as
 the last pre-physical deductive system, whose refutation or
 falsification gave rise to the first physical theory of matter, the
 atomistic theory of Democritus. Parmenides' theory is simple.
@@ -4909,13 +4810,11 @@ never ceased to make itself felt in the development of physics.
 21 And a deterministic system such as the field theory of
 Einstein might even be described as a four-dimensional
 version of Parmenides' unchanging three-dimensional
-universe. For in a sense no change occurs in Einstein's four-
-dimensional block-universe. Everything is there just as it is, in
+universe. For in a sense no change occurs in Einstein's fourdimensional block-universe. Everything is there just as it is, in
 its four-dimensional locus; change becomes a kind of
 'apparent' change; it is 'only' the observer who as it were glides
 along his world-line and becomes successively conscious of
-the different loci along this world-line; that is, of his spatio-
-temporal surroundings . . .To return from this new Parmenides
+the different loci along this world-line; that is, of his spatiotemporal surroundings . . .To return from this new Parmenides
 to the older father of theoretical physics, we may paraphrase
 his deductive theory roughly as follows.
 1. Only what is, is.
@@ -4943,8 +4842,7 @@ denounced all philosophies upholding the law of
 contradiction as 'metaphysical', a term which they used to
 imply that these philosophies ignore the fact that the world
 changes. See ch. 15, below.
--80-
-The conclusions (5) and (6) were obviously contradicted by
+-80The conclusions (5) and (6) were obviously contradicted by
 facts. Thus Democritus argued from the falsity of the
 conclusion to that of the premises:
 (6') There is motion (thus motion is possible).
@@ -5013,8 +4911,7 @@ wrong, as Professor Hayek says, in thinking
 anthropomorphically about man; and there is no
 philosophical or a priori reason why it should disappear from
 psychology.
--81-
-intensity (and direction) enter the scene. True, the changes of
+-81intensity (and direction) enter the scene. True, the changes of
 the Newtonian forces can be explained as due to, or
 dependent upon, motion; that is, upon the changing position of
 particles. But they are nevertheless not identical with changes
@@ -5079,8 +4976,7 @@ of Archimedes (ed. Heiberg) 112, p. 428 f. Cf. S. Luria most
 important article "'Die Infinitesimalmethode der antiken
 Atomisten' (Quellen & Studien zur Gesch. & Math.", Abt. B.
 Bd. 2, Heft 2, 1932, p. 142).
--82-
-element in Democritus' theory is his doctrine of the quantization
+-82element in Democritus' theory is his doctrine of the quantization
 of space and time. I have in mind the doctrine, now extensively
 discussed, 32 that there is a shortest distance and a smallest
 time interval; that is to say, that there are distances in space
@@ -5171,8 +5067,7 @@ is here expressed by o:o. Democritus' result (and his theory
 of amerēs) appears to be inescapable as long as geometry
 is based on the Pythagorean arithmetical method, i.e. on the
 counting of dots.
--83-
-and that these two books do not contain any reference to the
+-83and that these two books do not contain any reference to the
 discovery of irrationality. 37
 My belief that Democritus was unaware of the problem of
 irrationals is based on the fact that there are no traces of a
@@ -5225,8 +5120,7 @@ it seems, only much later used for 'irrational', and that Plato
 who alludes ( Republic534d) to Democritus' title, uses
 'alogos' there in the sense of 'crazy'; he never uses it as a
 synonym for 'arrhētos' as far as I know.
--84-
-Thus Euclid's methods of proving the so-called 'Theorem of
+-84Thus Euclid's methods of proving the so-called 'Theorem of
 Pythagoras' ( Euclid1, 47) according to which, if a is the side of
 a triangle opposite to its right angle between b and c,
 was foreign to the spirit of Pythagorean mathematics. It seems
@@ -5268,8 +5162,7 @@ ____________________
 38 Procli Diadochi in primum Euclidis Elementorum librum
 commentarii, ed. G. Friedlein, Leipzig, 1873, p. 487, 7-21.
 39 By Proclus, op. cit., pp. 428, 21-429, 8.
--85-
-irrationality of the diagnonal, that is, of the square root of 2,
+-85irrationality of the diagnonal, that is, of the square root of 2,
 assumed as wellknown by Plato and Aristotle. It consists in
 showing that the assumption (1) √2 = n/m that is, that √2 is
 equal to a ratio of any two natural numbers, n and m, leads to
@@ -5306,8 +5199,7 @@ considering that the old term for 'irrational'--'arrhētos',
 'unutterable', or 'unmentionable'--may well have hinted at an
 unmentionable secret. Tradition has it that the member of the
 school who gave
--86-
-away the secret was killed for his treachery. 40 However this
+-86away the secret was killed for his treachery. 40 However this
 may be, there is little doubt that the realization that irrational
 magnitudes (they were, of course, not recognized as numbers)
 existed, and that their existence could be proved, undermined
@@ -5365,8 +5257,7 @@ A. Wasserstein's article mentioned in note 35, above.
 41 See S. Luria, especially on Plutarch, loc. cit.
 42 An. Post., 76b9; Metaph., 983a20, 1061b1. See also
 Epinomis, 990d.
--87-
-6. More especially, he gave in the Timaeus a specifically
+-876. More especially, he gave in the Timaeus a specifically
 geometrical version of the formerly purely arithmetical
 atomic theory; a version which constructed the elementary
 particles (the famous Platonic bodies) out of triangles
@@ -5447,8 +5338,7 @@ attempts to reduce geometry to number theory resemble
 Pythagorean or pre-Platonic ideas of arithmetization. A great
 step in this direction has been achieved quite recently, it
 seems, by the German mathematician E. de Wette.
--88-
-and Euclid, but not before, geometry (rather than
+-88and Euclid, but not before, geometry (rather than
 arithmetic) appears as the fundamental instrument of all
 physical explanations and descriptions, in the theory of
 matter as well as in cosmology. 47
@@ -5510,8 +5400,7 @@ Anaxagoras) but regains it with Plato, only to lose it again
 soon afterwards.
 49 See the references given above, and Anaxagoras
 Fragments B4 and 17, Diels-Kranz.
--89-
-perhaps unconsciously, by accepting the traditional problems of
+-89perhaps unconsciously, by accepting the traditional problems of
 his subject as furnished by the problem-situation with which he
 is confronted; and if he, so acting, produces a new specific
 theory of the structure of matter, then I should not call him a
@@ -5546,8 +5435,7 @@ elementary particles are determined in their turn by the shapes
 of the plane figures which form their sides. And these plane
 figures, in their turn, are ultimately all composed of two
 elementary triangles: the half-square (or isosceles rectangular)
-triangle which incorporates the square root of two, and the half-
-equilateral rectangular triangle which incorporates the square
+triangle which incorporates the square root of two, and the halfequilateral rectangular triangle which incorporates the square
 root of three, both of them irrationals.
 These triangles, in their turn, are described as the copies 50 of
 unchanging 'Forms'' or 'Ideas', which means that specifically
@@ -5576,8 +5464,7 @@ Opposites. That 'bad' things may have to be admitted
 seems to be first stated in Plato Parmenides, 130b-e; the
 admission is put into the mouth of Parmenides himself.
 51 In the last quoted note of my Open Society.
--90-
-roots of two and three. 52 I now feel more confident that the
+-90roots of two and three. 52 I now feel more confident that the
 crucial passage in the Timaeus does imply this doctrine (which
 was mistaken, as Euclid later showed). For in the passage in
 question Plato says quite clearly, 'All triangles are derived from
@@ -5702,8 +5589,7 @@ peculiar contribution of Plato, and the difference between
 his and the Pythagorean theory, is liable to become
 indiscernible; and this may explain why it has been lost sight
 of, in part even by Aristotle.
--91-
-as a comparatively minor variation on that of Democritus. 56
+-91as a comparatively minor variation on that of Democritus. 56
 Aristotle, in spite of taking for granted both the association of
 arithmetic with the odd and even, and of geometry with the
 irrational, does not appear to have taken the problem of the
@@ -5734,8 +5620,7 @@ greatest achievement, the geometrical theory of the
 ____________________
 56 That this was Aristotle's view has been pointed out by Luria,
 op. cit.
--92-
-world, has influenced our world-picture to such an extent that
+-92world, has influenced our world-picture to such an extent that
 we unreflectingly take it for granted.
 IX
 One example never suffices. As my second example, out of a
@@ -5798,8 +5683,7 @@ somehow missed the point of the theory. We must not forget
 that even today the theory still stands, with only minor
 modifications, as an excellent first approximation (or, in view
 of Kepler, perhaps as a second approximation).
--93-
-Thus for Kant Newton's theory was simply true, and the belief
+-93Thus for Kant Newton's theory was simply true, and the belief
 in its truth remained unshaken for a century after Kant's death.
 Kant to the end accepted what he and everybody else took for
 a fact, the attainment of scientia or epistēmē. At first he
@@ -5861,8 +5745,7 @@ changed in all time, and one which can look forward to its
 growth through the accumulation of observations, but need
 never fear a setback.'
 62 It still troubled Poincaré in 1909.
--94-
-OceanofPDF.com
+-94OceanofPDF.com
 
 
 Knowledge--epistēmē--was possible because we are not
@@ -5888,8 +5771,7 @@ no longer how Newton could make his discovery but how
 everybody else could have failed to make it. How is it that our
 digestive mechanism did not work much earlier?
 This is a patently absurd consequence of Kant's idea. But to
-dismiss it offhand, and to dismiss his problem as a pseudo-
-problem, is not good enough. For we can find an element of
+dismiss it offhand, and to dismiss his problem as a pseudoproblem, is not good enough. For we can find an element of
 truth in his idea (and a much needed correction of some
 Humean views) after reducing his problem to its proper
 dimensions. His question, we now know, or believe we know,
@@ -5925,8 +5807,7 @@ knowledge must satisfy is that it must not explain too much.
 Any non-historical theory explaining why a certain discovery
 had to be made must fail because it could not possibly
 explain why it was not made somewhat earlier.
--95-
-world, an explanation of their success, 64 as you believed. For
+-95world, an explanation of their success, 64 as you believed. For
 the overwhelming majority of our theories, of our freely
 
 
@@ -5973,7 +5854,7 @@ hypotheses which might be designed by man.
 66 See note 61 and text, above.
 67 Cf. my Open Society, note 58 to ch. 12.
 -96-
-3
+
 THREE VIEWS CONCERNING HUMAN
 KNOWLEDGE
 1. THE SCIENCE OF GALILEO AND
@@ -6011,11 +5892,8 @@ motion of the sun because it was the theory of the diurnal
 motion which clashed with Joshua10,12 f., and because the
 explanation of the diurnal motion of the sun by the motion of
 the earth will be one of my main examples in what follows.
-(This explanation is, of course, much older than Copernicus-
-older even than Aristarchus--and it has been repeatedly re-
-discovered; for example by Oresme.)
--97-
-Bellarmino put it; 2 or a 'mathematical hypothesis'--a kind of
+(This explanation is, of course, much older than Copernicusolder even than Aristarchus--and it has been repeatedly rediscovered; for example by Oresme.)
+-97Bellarmino put it; 2 or a 'mathematical hypothesis'--a kind of
 mathematical trick, 'invented and assumed in order to
 abbreviate and ease the calculations'. 3 In other words there
 
@@ -6165,8 +6043,7 @@ of number--i.e. the odd and even, 990c.) Yet even this would
 not mean that either Plato or Eudoxus accepted an
 instrumentalist epistemology: they may have consciously
 (and wisely) confined themselves to a preliminary problem.
--99-
-new argument, the instrumentalist view (as I shall call it) has
+-99new argument, the instrumentalist view (as I shall call it) has
 become an accepted dogma. It may well now be called the
 'official view' of physical theory since it is accepted by most of
 our leading theorists of physics (although neither by Einstein
@@ -6224,8 +6101,7 @@ ____________________
 instrumentalism to fight against atomic theory--a typical
 example of the obscurantism of instrumentalism which is the
 topic of section 5 below.
--100-
-physics remains consistent only if we do not try to interpret, or
+-100physics remains consistent only if we do not try to interpret, or
 to understand, its theories beyond (a) mastering the formalism,
 and (b) relating them to each of their actually realizable cases
 of application separately. 8
@@ -6288,8 +6164,7 @@ been unable to attain despite much effort which I have
 expended on it.' Cf. Albert Einstein: Philosopher-Scientist,
 ed. by P. A. Schilpp, 1949, p. 674.
 9 See ch. 4, below.
--101-
-Within this rationalist tradition science is valued, admittedly, for
+-101Within this rationalist tradition science is valued, admittedly, for
 its practical achievements; but it is even more highly valued for
 its informative content, and for its ability to free our minds from
 old beliefs, old prejudices, and old certainties, and to offer us in
@@ -6327,14 +6202,12 @@ living bodies. All these things are far from being mere
 instruments: they are witness to the intellectual conquest of our
 world by our minds.
 But there is another way of looking at these matters. For some,
-science is still nothing but glorified plumbing, glorified gadget-
-making--'mechanics'; very useful, but a danger to true culture,
+science is still nothing but glorified plumbing, glorified gadgetmaking--'mechanics'; very useful, but a danger to true culture,
 threatening us with the domination of the near-illiterate (of
 Shakespeare's 'mechanicals'). It should never be mentioned in
 the same breath as literature or the arts or philosophy. Its
 professed discoveries are mere mechanical inventions, its
-theories are instruments--gadgets again, or perhaps super-
-gadgets. It cannot and does not reveal to us new worlds behind
+theories are instruments--gadgets again, or perhaps supergadgets. It cannot and does not reveal to us new worlds behind
 our everyday world of appearance; for the physical world is just
 surface: it has no depth. The world is just what it appears to be.
 Only the scientific theories are not what they appear to be. A
@@ -6347,12 +6220,10 @@ on the Third Day of The Two Principal Systems.
 penultimate paragraph of ch. 6, below.
 
 
--102-
-I do not present this as a complete picture of modern
+-102I do not present this as a complete picture of modern
 instrumentalism, although it is a fair sketch, I think, of part of its
 original philosophical background. Today a much more
-important part of it is, I am well aware, the rise and self-
-assertion of the modern 'mechanic' or engineer. 12 Still, I
+important part of it is, I am well aware, the rise and selfassertion of the modern 'mechanic' or engineer. 12 Still, I
 believe that the issue should be seen to lie between a critical
 and adventurous rationalism--the spirit of discovery--and a
 narrow and defensive creed according to which we cannot and
@@ -6410,8 +6281,7 @@ Society and its Enemies, vol. I, ch. 3 section vi, and vol. ii,
 ch. 11, sections i and ii.
 
 
--103-
-up to the most severe tests he can design. But he can
+-103up to the most severe tests he can design. But he can
 never be quite sure whether new tests (or even a new
 theoretical discussion) may not lead him to modify, or to
 discard, his theory. In this sense all theories are, and
@@ -6459,8 +6329,7 @@ instrument, then it cannot be true (but only convenient, simple,
 economical, powerful, etc.). They even frequently call the
 theories 'hypotheses'; but they do not, of course, mean by this
 what I mean: that a theory is conjectured to be true, that it is a
-descriptive though possibly a false state-
-____________________
+descriptive though possibly a false state____________________
 14 The issue has been confused at times by the fact that the
 instrumentalist criticism of (ultimate) explanation was
 expressed by some with the help of the formula: the aim of
@@ -6477,8 +6346,7 @@ inaccessible to human knowledge.
 16 See ch. 6, below.
 
 
--104-
-ment; although they do mean to say that theories are
+-104ment; although they do mean to say that theories are
 uncertain: 'And as to the usefulness of hypotheses', Osiander
 writes (at the end of his preface), 'nobody should expect
 anything certain to emerge from astronomy, for nothing of the
@@ -6551,8 +6419,7 @@ human, purposeful activity (or a method), might therefore be
 claimed by some to have an 'essence', even if they deny
 that natural objects have essences. (This denial is not,
 however, implied in my criticism of essentialism.)
--105-
-This, I think, can be best shown with the help of a simple
+-105This, I think, can be best shown with the help of a simple
 example--the Newtonian theory of gravity.
 The essentialist interpretation of Newtonian theory is due to
 Roger Cotes. 18 According to him Newton discovered that
@@ -6606,8 +6473,7 @@ this theory of matter) which is due to Newton himself.
 cf. also the letter of 17th January.
 
 
--106-
-inherent, and essential to matter, so that one body may act
+-106inherent, and essential to matter, so that one body may act
 upon another at a distance . . . is to me so great an absurdity
 that I believe no man who has in philosophical matters a
 competent faculty of thinking can ever fall into it.'
@@ -6673,8 +6539,7 @@ atomistic theory of light 'rays'); but this saying of his has
 been interpreted as an authoritative criticism of the method
 of hypotheses, or (by Duhem) as a declaration of his
 instrumentalism.
--107-
-According to essentialism we must distinguish between (i) the
+-107According to essentialism we must distinguish between (i) the
 universe of essential reality, (ii) the universe of observable
 phenomena, and (iii) the universe of descriptive language or of
 symbolic representation. I will take each of these to be
@@ -6711,8 +6576,7 @@ mathematical tools whose function is to allow us to deduce β
 from α.
 No doubt we have here an attractive simplification, a radical
 application of Ockham's razor. But although this simplicity has
-converted many to instru-
-____________________
+converted many to instru____________________
 23 For an analysis and criticism of this view see my L.Sc.D.
 especially note 7 to section 4, and my Open Society, note
 51 to ch. 11. The idea that universal statements may
@@ -6801,8 +6665,7 @@ statements.
 Thus the attempt to show that theories have a descriptive
 meaning besides their instrumental meaning is misconceived,
 according to this argument; and the whole problem--the issue
-between Galileo and the Church--turns out to be a pseudo-
-problem.
+between Galileo and the Church--turns out to be a pseudoproblem.
 In support of the view that Galileo suffered for the sake of a
 pseudoproblem it has been asserted that in the light of a
 logically more advanced system of physics Galileo's problem
@@ -6843,8 +6706,7 @@ the whole question can be reduced to one of observations, or
 of possible observations. Admittedly both Galileo and Einstein
 intend, among other things, to deduce what an observer, or a
 possible observer, would see. But this is not their
--110-
-main problem. Both investigate physical systems and their
+-110main problem. Both investigate physical systems and their
 movements. It is only the instrumentalist philosopher who
 asserts that what they discussed, or 'really meant' to discuss,
 were not physical systems but ONLY the results of possible
@@ -6870,8 +6732,7 @@ theories can be summarized as follows.
 Instrumentalism can be formulated as the thesis that scientific
 theories-the theories of the so-called 'pure' sciences--are
 nothing but computation rules (or inference rules); of the same
-character, fundamentally, as the computation rules of the so-
-called 'applied' sciences. (One might even formulate it as the
+character, fundamentally, as the computation rules of the socalled 'applied' sciences. (One might even formulate it as the
 thesis that 'pure' science is a misnomer, and that all science is
 'applied'.)
 Now my reply to instrumentalism consists in showing that there
@@ -6902,8 +6763,7 @@ because it
 ____________________
 25 For this problem see my two books mentioned here in
 footnote 23, and chs. 1, 11, and 14 of the present volume.
--111-
-gives rise to an argument somewhat similar to the one I have
+-111gives rise to an argument somewhat similar to the one I have
 used against essentialism. What I wish to discuss is the fact
 that theories are tested by attempts to refute them (attempts
 from which we learn a great deal), while there is nothing strictly
@@ -6966,8 +6826,7 @@ See my "'Degree of Confirmation'", Brit. Jour. Phil. Sci., 5,
 pp. 143 ff., now among the new appendices of my L.Sc.D.,
 and ch. 10 of the present volume (including the Addenda).
 28 See n. 26.
--112-
-or it may become outmoded. But it hardly makes sense to say
+-112or it may become outmoded. But it hardly makes sense to say
 that we submit an instrument to the severest tests we can
 design in order to reject it if it does not stand up to them: every
 air frame, for example, can be 'tested to destruction', but this
@@ -7027,13 +6886,11 @@ ____________________
 29 See W. Heisenberg in Dialectica, 2, 1948, p. 333 f.
 Heisenberg's own instrumentalism is far from consistent,
 and he has many anti-instrumentalist remarks to his credit.
-But this article here quoted may be described as an out-
-and-out attempt to prove that his quantum theory leads of
+But this article here quoted may be described as an outand-out attempt to prove that his quantum theory leads of
 necessity to an instrumentalist philosophy, and thereby to
 the result that physical theory can never be unified, or even
 made consistent.
--113-
-contradictions, as was done by Bohr (if I am right in my
+-113contradictions, as was done by Bohr (if I am right in my
 interpretation, given in section ii, of his principle of
 complementarity). If theories are mere instruments of
 prediction we need not discard any particular theory even
@@ -7094,8 +6951,7 @@ Albert Einstein was still alive, and I intended to send him a
 copy as soon as it was printed. My remark referred to a
 conversation we had on the subject in 1950.
 31 Cf. section v of ch. 6, below.
--114-
-true, although he may sometimes establish with reasonable
+-114true, although he may sometimes establish with reasonable
 certainty that a theory is false. 32
 One may formulate this 'third view' of scientific theories briefly
 by saying that they are genuine conjectures--highly informative
@@ -7156,8 +7012,7 @@ ____________________
 32 Cf. the discussion of this point in section v, above, and
 L.Sc.D. (passim); also ch. 1, above, and Xenophanes'
 fragments quoted towards the end of ch. 5, below.
--115-
-secondary qualities, such as colours, are just as real as the
+-115secondary qualities, such as colours, are just as real as the
 primary ones-though our colour experiences have to be
 distinguished from the colourproperties of the physical things,
 exactly as our geometrical-shape-experiences have to be
@@ -7284,8 +7139,7 @@ calls 'new effects') such as the prediction which led to the
 discovery of wireless waves, or of zeropoint energy, or to the
 artificial building up of new elements not previously found in
 nature.
--117-
-It seems to me clear that instrumentalism can account only for
+-117It seems to me clear that instrumentalism can account only for
 the first kind of prediction: if theories are instruments for
 prediction, then we must assume that their purpose must be
 determined in advance, as with other instruments. Predictions
@@ -7353,8 +7207,7 @@ For even then we should realize (as I wrote twenty years ago
 has the character of a theory, a hypothesis. The statement,
 "Here is a glass of water," cannot be (completely) verified
 by any sense-experience, because the universals which
-appear in it cannot be correlated with any particular sense-
-experience. (An "immediate experience" is only once
+appear in it cannot be correlated with any particular senseexperience. (An "immediate experience" is only once
 
 
 "immediately given"; it is unique.) By the word "glass", for
@@ -7366,8 +7219,7 @@ work; and the use of universals commits us to asserting, and
 thus (at least) to conjecturing, the reality of dispositions--
 though not of ultimate and inexplicable ones, that is, of
 essences. We may express all this by saying that the
-customary distinction between 'observational terms' (or 'non-
-theoretical terms') and theoretical terms is mistaken, since all
+customary distinction between 'observational terms' (or 'nontheoretical terms') and theoretical terms is mistaken, since all
 terms are theoretical to some degree, though some are more
 theoretical than others; just as we said that all theories are
 conjectural, though some are more conjectural than others.
@@ -7397,7 +7249,7 @@ section v, text to notes 58-62.
 papers in Observation and Interpretation, ed. S. Körner
 1957, pp. 65 ff., and in the B.J.P.S. 10, 1959, pp. 25 ff.
 -119-
-4
+
 TOWARDS A RATIONAL THEORY OF
 TRADITION
 IN THE title of this talk the emphasis should be put on the word
@@ -7435,14 +7287,12 @@ Undoubtedly there is a traditional hostility between rationalism
 and traditionalism. Rationalists are inclined to adopt the
 attitude: 'I am not interested in tradition. I want to judge
 everything on its own merits; I want to find out its merits and
-demerits, and I want to do this quite in-
-____________________
+demerits, and I want to do this quite in____________________
 Transcript of lecture given at the Third Annual Conference of
 the Rationalist Press Association on 26th July 1984 at
 Magdalen College, Oxford; first published in The Rationalist
 Annual, 1949.
--120-
-dependently of any tradition. I want to judge it with my own
+-120dependently of any tradition. I want to judge it with my own
 brain, and not with the brains of other people who lived long
 ago.'
 That the matter is not quite so simple as this attitude assumes
@@ -7503,8 +7353,7 @@ ____________________
 2 The allusion is to the lecture 'Rational and Irrational
 Behaviour in Industrial Groups', summarized in The Literary
 Guide, October 1948.
--121-
-University for its neglect of research. But few will think that this
+-121University for its neglect of research. But few will think that this
 speech means that a scientific research tradition will now be
 established, for this is a very hard thing to bring about. One
 can convince people of the need for such a tradition, but that
@@ -7561,8 +7410,7 @@ I should say that in our invaluable rationalist tradition (which
 rationalists so often accept too uncritically) there are quite a
 few points which we ought to challenge. A part of the rationalist
 tradition is, for example, the meta-
--122-
-physical idea of determinism. People who do not agree with
+-122physical idea of determinism. People who do not agree with
 determinism are usually viewed with suspicion by rationalists
 who are afraid that if we accept indeterminism, we may be
 committed to accepting the doctrine of Free Will, and may thus
@@ -7621,8 +7469,7 @@ Learned Elders of Zion, he tried to outdo their conspiracy with
 his own counterconspiracy. But the interesting thing is that
 such a conspiracy never--or 'hardly ever'--turns out in the way
 that is intended.
--123-
-This remark can be taken as a clue to what is the true task of a
+-123This remark can be taken as a clue to what is the true task of a
 social theory. Hitler, I said, made a conspiracy that failed. Why
 did it fail? Not just because other people conspired against
 Hitler. It failed, simply, because it is one of the striking things
@@ -7699,8 +7546,7 @@ companies or schools or governments) and of social collectives
 (such as states or nations or classes or other social groups).
 The conspiracy theorist will believe that institutions can be
 understood completely as the result of conscious design; and
-as to collectives, he usually ascribes to them a kind of group-
-personality, treating them as conspiring agents, just as if they
+as to collectives, he usually ascribes to them a kind of grouppersonality, treating them as conspiring agents, just as if they
 were individual men. As opposed to this view, the social
 theorist should recognize that the persistence of institutions
 and collectives creates a problem to be solved in terms of an
@@ -7767,8 +7613,7 @@ Greek philosophers were the first to try to understand what
 happens in nature. I shall show you why this is an
 unsatisfactory account.
 The early Greek philosophers did indeed try to understand
-what happened in nature. But so did the more primitive myth-
-makers before them. How can we characterize that primitive
+what happened in nature. But so did the more primitive mythmakers before them. How can we characterize that primitive
 type of explanation which was superseded by the standards of
 the early Greek philosophers--the founders of our scientific
 tradition? To put it crudely, the pre-scientific myth-makers said,
@@ -7808,8 +7653,7 @@ also of being challenged by the man to whom it is told. Telling
 their myth they were ready in their turn to listen to what their
 listener thought about it-admitting thereby the possibility that he
 might perhaps have a better explana-
--126-
-tion than they. This was a thing that had not happened before.
+-126tion than they. This was a thing that had not happened before.
 A new way of asking questions arose. Together with the
 explanation--the myth--the question would arise: 'Can you give
 me a better account?'; and another philosopher might answer:
@@ -7828,8 +7672,7 @@ overlooked.'
 My thesis is that what we call 'science' is differentiated from the
 older myths not by being something distinct from a myth, but by
 being accompanied by a second-order tradition--that of
-critically discussing the myth. Before, there was only the first-
-order tradition. A definite story was handed on. Now there was
+critically discussing the myth. Before, there was only the firstorder tradition. A definite story was handed on. Now there was
 still, of course, a story to be handed on, but with it went
 something like a silent accompanying text of a second-order
 character: 'I hand it on to you, but tell me what you think of it.
@@ -7870,8 +7713,7 @@ the observations and their accumulation should be considered
 as the result of the growth of the scientific theories. (This is
 what I have called the 'searchlight theory of science'--the view
 that science itself throws
--127-
-new light on things; that it not only solves problems, but that, in
+-127new light on things; that it not only solves problems, but that, in
 doing so, it creates many more; and that it not only profits from
 observations, but leads to new ones.) If in this way we look out
 for new observations with the intention of probing into the truth
@@ -7931,8 +7773,7 @@ they are related to theories, but I want to point out what is the
 main procedure in the development of science.
 ____________________
 4 See ch. 1, section IV.
--128-
-All this means that a young scientist who hopes to make
+-128All this means that a young scientist who hopes to make
 discoveries is badly advised if his teacher tells him, 'Go round
 and observe,' and that he is well advised if his teacher tells
 him: 'Try to learn what people are discussing nowadays in
@@ -7992,8 +7833,7 @@ accumulation, it would not matter so much if the scientific
 tradition were lost, because any day you could start
 accumulating afresh. Something would be lost, but the loss
 would not be
--129-
-serious. If, however, science advances by the tradition of
+-129serious. If, however, science advances by the tradition of
 changing its traditional myths, then you need something with
 which to start. If you have nothing to alter and to change, you
 can never get anywhere. Thus you need two beginnings for
@@ -8109,8 +7949,7 @@ quite a time before we find out what is wrong with it. Moreover
 the idea of canvas-cleaning (which is part of the wrong
 rationalist tradition) is impossible, because if the rationalist
 cleans the social canvas and wipes out the tradition
--131-
-he necessarily sweeps away with it himself and all his ideas
+-131he necessarily sweeps away with it himself and all his ideas
 and all his blueprints of the future. The blue-prints have no
 meaning in an empty social world, in a social vacuum. They
 have no meaning except in a setting of traditions and
@@ -8169,8 +8008,7 @@ a framework of social traditions, of which some are criticized
 with the help of others, just as all progress in science must
 proceed within a framework of scientific theories, some of
 which are criticized in the light of others.
--132-
-Much of what has been said here of traditions can also be said
+-132Much of what has been said here of traditions can also be said
 of institutions, for traditions and institutions are in most
 respects strikingly similar. Nevertheless, it seems desirable
 (although perhaps not very important) to preserve the
@@ -8231,8 +8069,7 @@ eliminate it completely. The working
 ____________________
 5 For a criticism of this practice, cf. ch. 11 of my book The
 Open Society and its Enemies.
--133-
-of institutions, as of fortresses, depends ultimately upon the
+-133of institutions, as of fortresses, depends ultimately upon the
 persons who man them; and the best that can be done by way
 of institutional control is to give a superior chance to those
 persons (if there are any) who intend to use the institutions for
@@ -8291,8 +8128,7 @@ animal languages, while the third appears to be
 characteristically human. It is possible (and I believe
 necessary) to add a fourth to these three functions of Bühler's,
 and one which is particularly
--134-
-important from our point of view, viz. (4) the argumentative or
+-134important from our point of view, viz. (4) the argumentative or
 explanatory function--i.e. the presentation and comparison of
 arguments or explanations in connection with certain definite
 questions or problems. 6 A certain language may possess the
@@ -8353,8 +8189,6 @@ not argumentative; although it may of course be used to
 support an argument within an argumentatwe language.
 -135-
 
-
-5
 BACK TO THE PRESOCRATICS
 I
 'BACK TO METHUSELAH' was a progressive programme,
@@ -8393,11 +8227,9 @@ the philosopher it is the mortal sin.
 ____________________
 The Presidential Address, delivered before the meeting of
 the Aristotelian Society on 13th October 1958; first published
-in the Proceedings of the Aristotelian Society, N.S. 59, 1958-
-9. The footnotes (and the Appendix) have been added in the
+in the Proceedings of the Aristotelian Society, N.S. 59, 19589. The footnotes (and the Appendix) have been added in the
 present reprint of the address.
--136-
-In this paper I speak as an amateur, as a lover of the beautiful
+-136In this paper I speak as an amateur, as a lover of the beautiful
 story of the Presocratics. I am not a specialist or an expert: I
 am completely out of my depth when an expert begins to argue
 which words or phrases Heraclitus might, and which he could
@@ -8442,8 +8274,7 @@ Traditional empiricist epistemology and the traditional
 historiography of science are both deeply influenced by the
 Baconian myth that all science starts from observation and
 then slowly and cautiously proceeds to theories. That the facts
-are very different can be learned from studying the early Preso-
-cratics. Here we find bold and fascinating ideas, some of which
+are very different can be learned from studying the early Presocratics. Here we find bold and fascinating ideas, some of which
 are strange and even staggering anticipations of modern
 results, while many others are wide of the mark, from our
 modern point of view; but most of them, and the best of them,
@@ -8456,8 +8287,7 @@ ____________________
 1 I am glad to be able to report that Mr G. S. Kirk has indeed
 replied to my address; see below, notes 4 and 5, and the
 Appendix to this paper.
--137-
-told, 'that the earth is supported by water on which it rides like
+-137told, 'that the earth is supported by water on which it rides like
 a ship, and when we say that there is an earthquake, then the
 earth is being shaken by the movement of the water'. No doubt
 Thales had observed earthquakes as well as the rolling of a
@@ -8521,8 +8351,7 @@ attractive forces similar to Newtonian forces; and it is
 interesting that this 'animistic' or 'occult' character of his
 forces was deeply felt by Newton himself, and by his
 opponents, such as Berkeley, to be a blot on his theory.
--138-
-How did Anaximander arrive at this remarkable theory?
+-138How did Anaximander arrive at this remarkable theory?
 Certainly not by observation but by reasoning. His theory is an
 attempt to solve one of the problems to which his teacher and
 kinsman Thales, the founder of the Milesian or Ionian School,
@@ -8580,8 +8409,7 @@ theory of the shape of the earth; and it was observational
 experience which led him astray.
 
 
--139-
-There is an obvious objection to Anaximander's theory of
+-139There is an obvious objection to Anaximander's theory of
 symmetry, according to which the earth is equally distant from
 all other things. The asymmetry of the universe can be easily
 seen from the existence of sun and moon, and especially from
@@ -8632,8 +8460,7 @@ whether by an 'inductive procedure', as some say, or by an act
 of intuition--may be extremely interesting, especially for the
 biographer of the man who invented the theory, but it has little
 to do with its scientific status or character.
--140-
-As to the Presocratics, I assert that there is the most perfect
+-140As to the Presocratics, I assert that there is the most perfect
 possible continuity of thought between their theories and the
 later developments in physics. Whether they are called
 philosophers, or pre-scientists, or scientists, matters very little,
@@ -8647,8 +8474,7 @@ this: Anaximander's achievement is valuable in itself, like a
 work of art. Besides, his achievement made other
 achievements possible, among them those of the great
 scientists mentioned.
-But are not Anaximander's theories false, and therefore non-
-scientific? They are false, I admit; but so are many theories,
+But are not Anaximander's theories false, and therefore nonscientific? They are false, I admit; but so are many theories,
 based upon countless experiments, which modern science
 accepted until recently, and whose scientific character nobody
 would dream of denying, even though they are now believed to
@@ -8688,8 +8514,7 @@ problems of Milesian cosmology. There is also a speculative
 interest in its origin, the question of cosmology. It seems to me
 that the cosmological interest of the Milesians far exceeded
 their cosmogonical interest, especially if we consider
--141-
-the strong cosmogonical tradition, and the almost irresistible
+-141the strong cosmogonical tradition, and the almost irresistible
 tendency to describe a thing by describing how it has been
 made, and thus to present a cosmological account in a
 cosmogonical form. The cosmological interest must be very
@@ -8756,8 +8581,7 @@ and I have replaced, in the third paragraph of section ix,
 'winds' by 'vapours'. I have made these changes in the hope
 of meeting Mr G. S. Kirk's criticism on p. 332 of his article
 (discussed in the appendix to the present chapter).
--142-
-IX
+-142IX
 The exciting story of the development of the problem of change
 appears to me in danger of being completely buried under the
 mounting heap of the minutiae of textual criticism. The story
@@ -8814,8 +8638,7 @@ epoch-making argument is not understood. Anaximenes is an
 eclectic, a systematizer, an empiricist, a man of common
 sense. Of the three great Milesians he is least productive of
 revolutionary new ideas; he is the least philosophically minded.
--143-
-The three Milesians all looked on our world as our home. There
+-143The three Milesians all looked on our world as our home. There
 was movement, there was change in this home, there was hot
 and cold, fire and moisture. There was a fire in the hearth, and
 on it a kettle with water. The house was exposed to the winds,
@@ -8874,8 +8697,7 @@ which changes retains its identity while changing. And yet it
 must become something else:
 
 
--144-
-it was green, and it becomes brown; it was moist, and it
+-144it was green, and it becomes brown; it was moist, and it
 becomes dry; it was hot, and it becomes cold.
 Thus every change is the transition of a thing into something
 with, in a way, opposite qualities (as Anaximander and
@@ -8935,16 +8757,14 @@ that the void does not exist. Thus the world is full: it consists of
 one
 
 
--145-
-undivided block, since any division into parts could only be due
+-145undivided block, since any division into parts could only be due
 to separation of the parts by the void. (This is 'the well-rounded
 truth' which the goddess revealed to Parmenides.) In this full
 world there is no room for motion.
 Only the delusive belief in the reality of opposites--the belief
 that not only what is exists but also what is not--leads to the
 illusion of a world of change.
-Parmenides' theory may be described as the first hypothetico-
-deductive theory of the world. The atomists took it as such; and
+Parmenides' theory may be described as the first hypotheticodeductive theory of the world. The atomists took it as such; and
 they asserted that it was refuted by experience, since motion
 does exist. Accepting the formal validity of Parmenides'
 argument, they inferred from the falsity of his conclusion the
@@ -9054,8 +8874,7 @@ and Raven finally attribute to Heraclitus (the italics are mine):
 earthquakes and great fires] are regular and balanced, and that
 the cause of this balance is fire, the common constituent of
 things that was also termed theirLogos.' But why, I ask, should
--147-
-fire be 'the cause' of any balance--either 'this balance' or any
+-147fire be 'the cause' of any balance--either 'this balance' or any
 other? And where does Heraclitus say such things? Indeed,
 had this been Heraclitus' philosophy, then I could see no
 reason to take any interest in it; at any rate, it would be much
@@ -9118,8 +8937,7 @@ An answer to G. S. Kirk which was too long to be appended
 here (although it refers to the present passage and to the
 present paragraph) will be found in the Appendix at the end
 of this paper.
--148-
-OceanofPDF.com
+-148OceanofPDF.com
 
 
 Plato, is a splendid story. It is almost too good to be true. In
@@ -9179,8 +8997,7 @@ character of Greek Philosophy, and of the philosophical
 schools, is strikingly different from the dogmatic type of school
 here described. I have shown this by an example: the story of
 the problem of change which I have told is the story of a critical
--149-
-debate, of a rational discussion. New ideas are propounded as
+-149debate, of a rational discussion. New ideas are propounded as
 such, and arise as the result of open criticism. There are few, if
 any, surreptitious changes. Instead of anonymity we find a
 history of ideas and of their originators.
@@ -9241,8 +9058,7 @@ to assume that the master encouraged a critical attitude--
 possibly not from the outset, but only after he was struck by the
 pertinence of some questions asked, without any critical
 intention, by the pupil.
--150-
-However this may be, the conjecture that Thales actively
+-150However this may be, the conjecture that Thales actively
 encouraged criticism in his pupils would explain the fact that
 the critical attitude towards the master's doctrine became part
 of the Ionian school tradition. I like to think that Thales was the
@@ -9302,11 +9118,9 @@ represents the only practicable way of expanding our
 knowledge--conjectural or hypothetical knowledge, of course.
 There is no other way. More especially, there is no way that
 starts
--151-
-from observation or experiment. In the development of science
+-151from observation or experiment. In the development of science
 observations and experiments play only the role of critical
-arguments. And they play this role alongside other, non-
-observational arguments. It is an important role; but the
+arguments. And they play this role alongside other, nonobservational arguments. It is an important role; but the
 significance of observations and experiments depends entirely
 upon the question whether or not they may be used to criticize
 theories.
@@ -9361,8 +9175,7 @@ Bodies of gods in the likeness, each kind, of its own.
 The gods did not reveal, from the beginning,
 All things to us; but in the course of time,
 Through seeking, men find that which is the better . . .
--152-
-These things are, we conjecture, like the truth.
+-152These things are, we conjecture, like the truth.
 But as for certain truth, no man has known it,
 Nor will he know it; neither of the gods,
 Nor yet of all the things of which I speak.
@@ -9415,8 +9228,7 @@ been previously published, although part it has been
 accepted for publication in Mind as a discussion note. I wish
 to thank the editor of Mind for permitting me to publish here
 the whole article as originally submitted to him.
--153-
-between us is a philosophical one; and that the philosophical
+-153between us is a philosophical one; and that the philosophical
 attitude we adopt can have a decisive influence on our
 interpretation of the historical evidence--such as, for example,
 the evidence concerning the Presocratics.
@@ -9472,8 +9284,7 @@ Whatever one may say about this, there certainly exists a
 
 'traditional philosophy'--that of Descartes or Spinoza, for
 example--for which 'intuition' is a source of
--154-
-knowledge; but I have always opposed this philosophy. 1 From
+-154knowledge; but I have always opposed this philosophy. 1 From
 this passage on, Kirk writes 'intuition', in the sense in which he
 uses it here, several times in quotes (pp. 320, 321, 322, 327 )
 and several times out of quotes (pp. 318, 319, 320, 324, 327,
@@ -9481,8 +9292,7 @@ and several times out of quotes (pp. 318, 319, 320, 324, 327,
 certainly creating the impression--that he is citing me when
 ascribing to me intuitionistic views which in fact I have never
 held in my life. However, the only time the word 'intuition'
-occurs in my address, 2 it is used in a context which is anti-
-inductivist and anti-intuitionist at the same time. For I write
+occurs in my address, 2 it is used in a context which is antiinductivist and anti-intuitionist at the same time. For I write
 there (p. 7 ; this volume p. 140 ) about the problem of the
 scientific character of a theory (italics not in the original): 'What
 is important about a theory is its explanatory power, and
@@ -9538,8 +9348,7 @@ and almost deprecatory sense.
 
 3 The words in square brackets have now been added by me
 in order to make my meaning clearer.
--155-
-I do not think that a view of this kind has much similarity to
+-155I do not think that a view of this kind has much similarity to
 traditional intuitionistic philosophy. And I was surprised to find
 that Kirk suggests that my mistaken approach might be
 explained as that of a speculative philosopher not sufficiently
@@ -9553,8 +9362,7 @@ with actual scientific procedure.' 4 (I should have thought that
 even a reader who knows very little about science might have
 noticed that some at least of my problems originated within the
 physical sciences themselves, and that my own acquaintance
-with scientific practice and research was not wholly second-
-hand.)
+with scientific practice and research was not wholly secondhand.)
 The kind of critical discussion I have in mind is, of course, a
 discussion in which experience plays a major role: observation
 and experiment are constantly appealed to as tests of our
@@ -9612,8 +9420,7 @@ read the book as far as p. 61 (not to mention pp. 274 or 276 )
 where I refer to the problem of truth, and to Alfred Tarski's
 theory of truth. Kirk says that ' Popper abandons the concept of
 absolute scientific truth' (p. 320 ). He does not seem to see
-that, when I say that we cannot know, even of a well-
-corroborated scientific theory, whether or not it is true, I am
+that, when I say that we cannot know, even of a wellcorroborated scientific theory, whether or not it is true, I am
 actually assuming a 'concept of absolute scientific truth'; just as
 somebody who says 'I did not succeed in reaching the goal'
 operates with an 'absolute concept of a goal'--that is, one
@@ -9715,8 +9522,7 @@ as the Presocratics are concerned was over the interpretation
 of Heraclitus. And here I claim that Kirk, perhaps
 unconsciously, has almost ceded my two main points which I
 am going to discuss below under (1) and (2).
--158-
-My general approach to Heraclitus may be put in the words of
+-158My general approach to Heraclitus may be put in the words of
 Karl Reinhardt: 'The history of philosophy is the history of its
 problems. If you want to explain Heraclitus, tell us first what his
 problem was.' 5
@@ -9839,8 +9645,7 @@ rivers are
 ____________________
 6 I am quoting from Diels-Kranz, Fragmente der Vorsokratiker,
 1, 1960.
--160-
-concrete rivers, and beyond that, symbols of other concrete
+-160concrete rivers, and beyond that, symbols of other concrete
 things, including ourselves. And although 'we are, and we are
 not' (which, incidentally, Kirk and Raven prefer not to attribute
 to Heraclitus) is, in a sense, a sweeping and perhaps cosmic
@@ -9905,8 +9710,7 @@ Heraclitus was the last man on earth whose sayings were to
 be measured by somebody else's standard of common
 sense.) And is not the invisible change in Ovid's 'gutta cavat'
 common sense?
--161-
-assume in any case, and what is, in addition, supported by
+-161assume in any case, and what is, in addition, supported by
 Platoand Aristotle. (And though the evidence of the latter has
 become suspect, especially in view of the great work of Harold
 Cherniss, nobody thinks--and least of all Harold Cherniss--that
@@ -9965,8 +9769,7 @@ interpretation.)
 But Kirk and Raven interpret on pages 200 and 434, the
 fragment 'It is the thunderbolt which steers all things' more
 elaborately: first by identifying the
--162-
-thunderbolt with fire; secondly by attributing to fire a 'directive
+-162thunderbolt with fire; secondly by attributing to fire a 'directive
 capacity'; thirdly by suggesting that fire 'reflects divinity'; and
 fourthly by suggesting its identification with the Logos.
 What is the source of this somewhat over-elaborate
@@ -10026,8 +9829,7 @@ when he interprets Heraclitus.
 Considering its doubtful source, it is far from surprising that I
 could not make any sense of the quoted final summary or
 'conclusion' of Kirk and
--163-
-Raven. I still feel that the doctrine there ascribed by Kirk and
+-163Raven. I still feel that the doctrine there ascribed by Kirk and
 Raven to Heraclitus is absurd--especially the words which were
 italicized by me; and I am sure that I am not alone in this
 feeling. Yet Kirk now writes (on p. 338 ), referring to the
@@ -10088,8 +9890,7 @@ predecessor, by proving that change was logically impossible,
 and an illusion of the senses.
 Of course this whole picture is conjectural; and it is necessarily
 somewhat
--164-
-idealized. But it shows how the epistemological and the logical
+-164idealized. But it shows how the epistemological and the logical
 problems may have arisen out of the attempt to solve
 cosmological problems. And it shows, more generally, how the
 Presocratic philosophies may have developed through the
@@ -10100,8 +9901,6 @@ It almost seems more than a conjecture that this, at least, did
 happen.
 -165-
 
-
-6
 A NOTE ON BERKELEY AS PRECURSOR
 OF MACH AND EINSTEIN
 I
@@ -10148,8 +9947,7 @@ what Berkeley meant to say; and the Editor of the latest
 edition of the Works even goes out of his way to belittle the
 significance of this highly original and in many ways unique
 essay.
--166-
-Newton, and no doubt realized that there could have been no
+-166Newton, and no doubt realized that there could have been no
 worthier object for his criticism.
 II
 The following twenty-one theses are not always expressed in
@@ -10209,8 +10007,7 @@ called a [metaphysical] substance rather than a quality.')
 5. In view of these considerations Newton's theory cannot be
 accepted as an explanation which is truly causal, i.e. based
 on true natural causes. The view
--167-
-that gravity causally explains the motion of bodies (that of
+-167that gravity causally explains the motion of bodies (that of
 the planets, of free-falling bodies, etc.), or that Newton
 discovered that gravity or attraction is 'an essential quality'
 ( Pr, 106), whose inherence in the essence or nature of
@@ -10276,8 +10073,7 @@ assign them their
 ____________________
 4 Concerning the equivalence of 'natures' and 'essences' see
 my Open Society, ch. 5, section vi.
--168-
-cause. . .' This terminology is admissible (cf. DM, 71) but it
+-168cause. . .' This terminology is admissible (cf. DM, 71) but it
 must not mislead us. We must always clearly distinguish
 (cf. DM, 72) between an 'essentialist' 5 explanation with
 appeals to the nature of things and a 'descriptive'
@@ -10342,8 +10138,7 @@ marks.
 7 This was more or less Newton's own opinion; cp. Newton's
 letters to Bentley, 17th January, and especially 25th
 February 1692-3, and section 3 of ch. 3, above.
--169-
-existing in nature' ( S, 234; cf. DM, 18, 39 and especially
+-169existing in nature' ( S, 234; cf. DM, 18, 39 and especially
 Alc, vii, 9, An, 50, Qu. 35). It claims only that from its
 assumptions the correct consequences can be drawn. But
 it can easily be misinterpreted as claiming more, as
@@ -10407,8 +10202,7 @@ explanation is not one based upon an insight into the
 nature of things. But it is of practical importance. It enables
 us to make both applications and predictions. '. . . laws of
 nature or motions direct
--170-
-us how to act, and teach us what to expect' ( S, 234; cf. Pr,
+-170us how to act, and teach us what to expect' ( S, 234; cf. Pr,
 62). Prediction is based merely upon regular sequence
 (not upon causal sequence--at least not in the essentialist
 sense). A sudden darkness at noon may be a 'prognostic'
@@ -10469,8 +10263,7 @@ great admirers of Newton, criticize the ideas of absolute time,
 
 absolute space, and absolute motion, on very similar lines.
 Mach's criticism, exactly like
--171-
-Berkeley's, culminates in the suggestion that all arguments for
+-171Berkeley's, culminates in the suggestion that all arguments for
 Newton's absolute space (like Foucault's pendulum, the
 rotating bucket of water, the effect of centrifugal forces upon
 the shape of the earth) fail because these movements are
@@ -10533,8 +10326,7 @@ Einstein, Hugo Dingler: Einstein's name and that of the
 theory were not mentioned.
 9 This is not the place to discuss other predecessors of Mach,
 such as Leibniz.
--172-
-world (of primary qualities, or of atoms; cf. Pr, 50; S, 232, 235)
+-172world (of primary qualities, or of atoms; cf. Pr, 50; S, 232, 235)
 behind the world of physical appearances ( Pr, 87, 88). Both
 believed in a form of the doctrine nowadays called
 phenomenalism--the view that physical things are bundles, or
@@ -10592,8 +10384,7 @@ interpretation, and (iv) it had therefore a theoretical or
 
 hypothetical admixture. (v) New theories, moreover, may lead
 to re-interpretation of old appearances, and in this way
--173-
-change the world of appearances. (vi) The multiplicity of
+-173change the world of appearances. (vi) The multiplicity of
 explanatory theories which Berkeley noted (see Section ii (16),
 above) is used, wherever possible, to construct, for any two
 competing theories, conditions in which they yield different
@@ -10637,7 +10428,7 @@ occupies when compressed by any force; yet we cannot
 reciprocally infer that a fluid endowed with this property must
 therefore consist of such supposed equal particles.'
 -174-
-7
+
 KANT'S CRITIQUE AND COSMOLOGY
 ONE HUNDRED AND FIFTY years ago Immanuel Kant died,
 having spent the eighty years of his life in the Prussian
@@ -10690,8 +10481,7 @@ uncultured upstart). The significance of this idea is
 connected with the fact that on the Continent, the educated
 had been for a long time the middle classes, while in
 England they were the upper classes.
--175-
-1. KANT AND THE
+-1751. KANT AND THE
 ENLIGHTENMENT
 Most of these ideas had reached the Continent from England,
 in the form of a book published in 1732. I mean Voltaire Letters
@@ -10726,13 +10516,11 @@ of their school. But Kant lived long enough to reject the
 persistent advances of Fichte, who proclaimed himself Kant's
 successor and heir. In A Public Declaration Concerning Fichte,
 6 which is too little known, Kant wrote: 'May God protect us
-from our friends. . . . For there are fraudulent and perfidious so-
-called friends who are scheming for our ruin while speaking the
+from our friends. . . . For there are fraudulent and perfidious socalled friends who are scheming for our ruin while speaking the
 language of good-will.' It was only after Kant's death, when he
 could no longer protest, that this world-citizen was successfully
 pressed into the service of the nationalistic Romantic School, in
-spite of all his warnings against romanti-
-____________________
+spite of all his warnings against romanti____________________
 5 The O.E.D. says (some of the italics are mine):
 'Enlightenment . . . 2. Sometimes used [after the German
 Aufklärung, Aufklärerei ] to designate the spirit and the aims
@@ -10754,18 +10542,16 @@ sense 2.
 Immanuel Kant's Werke, ed. Ernst Cassirer , et al.), vol. VIII,
 pp. 515 f., and my Open Society, note 58 to ch. 12 ( 4th
 edn., 1962, vol. II, p. 313).
--176-
-cism, sentimental enthusiasm, and Schwärmerei. But let us
+-176cism, sentimental enthusiasm, and Schwärmerei. But let us
 see how Kant himself describes the idea of the Enlightenment:
-7
+
 Enlightenment is the emancipation of man from a state of
 self-imposed tutelage . . . of incapacity to use his own
 intelligence without external guidance. Such a state of
 tutelage I call 'self-imposed' if it is due, not to lack of
 intelligence, but to lack of courage or determination to use
 one's own intelligence without the help of a leader. Sapere
-aude! Dare to use your own intelligence! This is the battle-
-cry of the Enlightenment.
+aude! Dare to use your own intelligence! This is the battlecry of the Enlightenment.
 Kant is saying something very personal here. It is part of his
 own history. Brought up in near poverty, in the narrow outlook
 of Pietism--a severe German version of Puritanism--his own life
@@ -10822,8 +10608,7 @@ General Natural History [of the Heavens] and Theory of the
 Heavens. The words 'General Natural History' are used to
 indicate that the work is a contribution to the theory of the
 evolution of stellar systems.
--177-
-cosmologist) of the finitude or infinity of the universe, with
+-177cosmologist) of the finitude or infinity of the universe, with
 respect to both space and time. As far as space is concerned a
 fascinating solution has been suggested since, by Einstein, in
 the form of a world which is both finite and without limits. This
@@ -10881,8 +10666,7 @@ with Clarke ( Philos. Bibl., edited by Kirchmann, 107, pp.
 134 f., 147 f., 188 ff.), and Kant Reflexionen zur Kritischen
 Philosophie, edited by B. Erdmann; esp. No. 4.
 12 See Critique of Pure Reason ( 2nd edn.), 454 ff.
--178-
-4. SPACE AND TIME
+-1784. SPACE AND TIME
 What lesson did Kant draw from these bewildering antinomies?
 He concluded 13 that our ideas of space and time are
 inapplicable to the universe as a whole. We can, of course,
@@ -10953,8 +10737,7 @@ by pure intuition to follow a visible track--namely, in the field
 of its transcendental use . . . --there is much need to
 discipline reason, so that its tendency to overstep the
 narrow limits of possible experience may be subdued. . .'
--179-
-limits of sense experience are the limits of all sound reasoning
+-179limits of sense experience are the limits of all sound reasoning
 about the world.
 5. KANT'S COPERNICAN
 REVOLUTION
@@ -11013,8 +10796,7 @@ an inkling of the analogy between what he called his
 ethics.
 19 My text here is a free translation from the Critique of Pure
 Reason, 2nd edn., pp. xvi f.
--180-
-impress its regularity upon us. Instead we must adopt the view
+-180impress its regularity upon us. Instead we must adopt the view
 that in digesting our sense-data we actively impress the order
 and the laws of our intellect upon them. Our cosmos bears the
 imprint of our minds.
@@ -11027,8 +10809,7 @@ Eddington might be said to be more of a Kantian, in some
 respects, than Kant: himself. Even those who, like myself,
 cannot follow Kant all the way can accept his view that the
 experimenter must not wait till it pleases nature to reveal her
-secrets, but that he must question her. 20 He must cross-
-examine nature in the light of his doubts, his conjectures, his
+secrets, but that he must question her. 20 He must crossexamine nature in the light of his doubts, his conjectures, his
 theories, his ideas, and his inspirations. Here, I believe, is a
 wonderful philosophical find. It makes it possible to look upon
 science, whether theoretical or experimental, as a human
@@ -11074,8 +10855,7 @@ apron-strings, as it were.'
 WWC, pp. 291 ff., especially 299 ff.): 'The Autonomy of the
 Will as the Highest Principle of Morality', and the 3rd section
 ( WWC, pp. 305 ff.).
--181-
-we are faced with a command by an authority, it is our
+-181we are faced with a command by an authority, it is our
 responsibility to judge whether this command is moral or
 immoral. The authority may have power to enforce its
 commands, and we may be powerless to resist. But if we have
@@ -11141,8 +10921,7 @@ freedom of all (e.g. Critique of Pure Reason, 2nd edn., p.
 26 At the 'Conclusion' of the Critique of Practical Reason; see
 especially the end of the penultimate paragraph, referred to
 in note 17 above.
--182-
-free because he is self-sufficient; who is not in need of
+-182free because he is self-sufficient; who is not in need of
 constraint because he is able to rule himself, and to accept
 freely the rule of law.
 To this Socratic idea of self-sufficiency, which forms part of our
@@ -11154,8 +10933,6 @@ because he is born with the burden of responsibility for free
 decision.
 -183-
 
-
-8
 ON THE STATUS OF SCIENCE AND OF
 METAPHYSICS
 1. KANT AND THE LOGIC OF
@@ -11197,8 +10974,7 @@ ____________________
 1756 in which Kant anticipated the main idea of Boscovic;
 but in his work of 1786 Kant repudiated the theory of matter
 propounded in his Monadology.
--184-
-Like almost all of his contemporaries who were knowledgeable
+-184Like almost all of his contemporaries who were knowledgeable
 in this field, Kant believed in the truth of Newton's celestial
 mechanics. The almost universal belief that Newton's theory
 must be true was not only understandable but seemed to be
@@ -11256,8 +11032,7 @@ Thirdly, the assertion is logically false: it is a logically
 impossible assertion.
 Let us examine the first pointthat it is intuitively not credible that
 observations can show Newton's mechanics to be true.
--185-
-To see this we merely have to remember how utterly
+-185To see this we merely have to remember how utterly
 Newtonian theory differs from any observation-statement. In
 the first place observations are always inexact, while the theory
 makes absolutely exact assertions. Moreover, it was one of the
@@ -11317,8 +11092,7 @@ ____________________
 The Analysis of Mind, 1922, pp. 95 f.
 
 
--186-
-dynamics was derived from observation. Though this belief is
+-186dynamics was derived from observation. Though this belief is
 widespread, it is nevertheless a belief in a historical mythor, if
 you like, a bold distortion of history. To show this I shall briefly
 refer to the part played by the three most important precursors
@@ -11437,8 +11211,7 @@ could not solve the problems within the rationalist framework
 as was Kepler in his attempts to solve them within the
 astrological framework. See also for the influence of
 astrological ideas note 4 to ch. 1 of the present volume.
--188-
-man poses to nature with the help of theories--just as Kepler
+-188man poses to nature with the help of theories--just as Kepler
 asked nature whether his circle hypothesis was true. Thus Kant
 
 
@@ -11476,8 +11249,7 @@ pointed out by Kant. Hume's decisive point may be put as
 follows:
 
 
-Take a class consisting of any number of true observation-
-statements and designate it by the letter K. Then statements in
+Take a class consisting of any number of true observationstatements and designate it by the letter K. Then statements in
 the class K will describe actual observations, i.e. past
 observations: thus we designate by the letter K any class
 whatsoever of true statements about observations actually
@@ -11492,17 +11264,14 @@ us that there will be an eclipse of the sun tomorrow. Since
 eclipses of the sun have already been observed, we can be
 certain that a statement B, asserting that there will be an
 eclipse of the sun tomorrow, is a statement which, on purely
-logical grounds, is possible; that is to say, our B is self-
-consistent. Now Hume shows the following: if B is a self-
-consistent observation-statement about a possible future
+logical grounds, is possible; that is to say, our B is selfconsistent. Now Hume shows the following: if B is a selfconsistent observation-statement about a possible future
 event, and K any class of true observation-statements about
 past events, then B can always be conjoined with K without
 contradiction; or, in other words, if we add a statement B about
 a possible future event to statements in K we can never arrive
 ____________________
 5 The original has no italics.
--189-
-at a logical contradiction. Hume's finding can also be
+-189at a logical contradiction. Hume's finding can also be
 formulated as follows: no logically possible future observation
 can ever contradict the class of past observations.
 
@@ -11561,8 +11330,7 @@ most astonishing and exact predictions, all of which had proved
 strikingly correct. Only ignorant men could doubt its truth. How
 little we may reproach Kant for his belief is best shown by the
 fact that even Henri Poincaré, the
--190-
-greatest mathematician, physicist and philosopher of his
+-190greatest mathematician, physicist and philosopher of his
 generation, who died shortly before the First World War,
 believed like Kant that Newton's theory was true and
 irrefutable. Poincaré was one of the few scientists who felt
@@ -11574,8 +11342,7 @@ Kant's, it was only a variant of it. The important point, however,
 is that he fully shared Kant's error, as I have called it. It was an
 unavoidable error--unavoidable, that is, before Einstein.
 Even those who do not accept Einstein's theory of gravitation
-ought to admit that his was an achievement of truly epoch-
-making significance. For his theory established at least that
+ought to admit that his was an achievement of truly epochmaking significance. For his theory established at least that
 Newton's theory, no matter whether true or false, was certainly
 not the only possible system of celestial mechanics that could
 explain the phenomena in a simple and convincing way. For
@@ -11625,8 +11392,7 @@ where he writes: 'It was the general Theory of Relativity
 which showed . . . that it was possible for us, using basic
 principles, very far removed from those of Newton, to do
 justice to the entire range of the data of experience . . .'
--191-
-interpretations are also possible, and that they may even be
+-191interpretations are also possible, and that they may even be
 superior to Newton's. Thus reason is capable of more than one
 interpretation. Nor can it impose its interpretation upon nature
 once and for all time. Reason works by trial and error. We
@@ -11686,8 +11452,7 @@ which they are corroborated (which, in theory at least, can be
 found out with the help of the calculus of probability) may
 approach very closely to unity, i.e. its maximum, though the
 probability of
--192-
-the theory is zero. That an appeal to probability is incapable of
+-192the theory is zero. That an appeal to probability is incapable of
 solving the riddle of experience is a conclusion first reached
 long ago by David Hume.
 Thus logical analysis shows that experience does not consist in
@@ -11733,8 +11498,7 @@ moods, or emotions.
 This, irrationalists claim, is possible because in the last
 analysis we are ourselves such things-in-themselves; thus if
 we can manage somehow to obtain an intimate and immediate
-knowledge of ourselves, we can thereby find out what things-
-in-themselves are like.
+knowledge of ourselves, we can thereby find out what thingsin-themselves are like.
 This simple argument of irrationalism is highly characteristic of
 most nineteenth-century post-Kantian philosophers; for
 example of the ingenious Schopenhauer, who in this way
@@ -11745,8 +11509,7 @@ this
 ____________________
 7 Kritik der praktischen Vernunft, 4th to 6th edn., p. 172;
 Works, ed. Cassirer, vol. v, p. 108.
--193-
-obsolescent philosophy, dressed up in new clothes, has once
+-193obsolescent philosophy, dressed up in new clothes, has once
 again become the latest fashion, although, or perhaps just
 because, its striking similarity to old post-Kantian ideas has
 remained hidden (so far as anything may remain hidden under
@@ -11775,8 +11538,7 @@ First, determinism: the future is contained in the present,
 inasmuch as it is fully determined by the present.
 Second, idealism: the world is my dream.
 Third, irrationalism: we have irrational or supra-rational
-experiences in which we experience ourselves as things-
-in-themselves; and so we have some kind of knowledge of
+experiences in which we experience ourselves as thingsin-themselves; and so we have some kind of knowledge of
 things-in-themselves.
 Fourth, voluntarism: in our own volitions we know
 ourselves as wills. The thing-in-itself is the will.
@@ -11805,8 +11567,7 @@ could ever have been considered to be something new in
 philosophy, from an epistemological point of view.' Cf. also
 the stimulating paper by H. Tint, in the Proc. Aristot. Society
 1956-7, pp. 253 ff.
--194-
-things, for they speak of the world like a blind man of
+-194things, for they speak of the world like a blind man of
 Perugino's colours or a deaf man of Mozart's music.
 Why then have I made a point of selecting for my examples a
 number of philosophical theories that I believe to be false?
@@ -11859,12 +11620,10 @@ both be logically irrefutable. For example, the two statements,
 logically irrefutable; but from this it follows immediately that
 there exist false statements which are logically irrefutable.
 With empirical irrefutability the situation is a little different. The
-simplest examples of empirically irrefutable statements are so-
-called strict or pure existential statements. Here is an example
+simplest examples of empirically irrefutable statements are socalled strict or pure existential statements. Here is an example
 of a strict or pure existential statement. 'There exists a pearl
 which is ten times larger than the next largest
--195-
-pearl.' If in this statement we restrict the words 'There exists' to
+-195pearl.' If in this statement we restrict the words 'There exists' to
 some finite region in space and time, then it may of course
 become a refutable statement. For example, the following
 statement is obviously empirically refutable: 'At this moment
@@ -11922,8 +11681,7 @@ they are false.
 Some twenty-five years ago I proposed to distinguish empirical
 or scientific theories from non-empirical or non-scientific ones
 precisely by defining the
--196-
-empirical theories as the refutable ones and the non-empirical
+-196empirical theories as the refutable ones and the non-empirical
 theories as the irrefutable ones. My reasons for this proposal
 were as follows. Every serious test of a theory is an attempt to
 refute it. Testability is therefore the same as refutability, or
@@ -11974,8 +11732,7 @@ But these empirical arguments occur only together with other
 critical considerations. Critical thought as such remains our
 main instrument. Observations are used only if they fit into our
 critical discussion.
--197-
-Now if we apply these considerations to philosophical theories,
+-197Now if we apply these considerations to philosophical theories,
 our problem can be reformulated as follows:
 
 
@@ -12093,8 +11850,7 @@ ____________________
 moment, . . . an hour hence he will be persuaded there is
 both an external and internal world' ( Treatise, I, IV, end of
 section ii; Selby-Bigge, p. 218).
--199-
-Kant's determinism. We may ask, for example, whether it really
+-199Kant's determinism. We may ask, for example, whether it really
 follows from Newton's theory. Let us conjecture for a moment
 that it does not. I do not doubt that a clear proof of the truth of
 this conjecture would have persuaded Kant to renounce his
@@ -12153,7 +11909,7 @@ Yet it may be based upon the conscientious and critical
 examination of a problem-situation and its underlying
 assumptions, and of the various possible ways of resolving it.
 -200-
-9
+
 WHY ARE THE CALCULI OF LOGIC AND
 ARITHMETIC APPLICABLE TO REALITY?
 PROFESSOR RYLE has confined his contribution 1 to the
@@ -12187,8 +11943,7 @@ ____________________
 summarized in my paper so far as is necessary to the
 understanding of my paper.
 2 Cp. Aristotle, An. Post., ii, 19; 100 and 8.
--201-
-OceanofPDF.com
+-201OceanofPDF.com
 
 
 The word 'thus' in the last sentence may be taken as an
@@ -12306,8 +12061,7 @@ can eliminate all the different rules of inference--except one,
 the above-mentioned 'principle of inference' (or two, if we make
 use of the 'principle of substitution', which, however, can be
 avoided). In other
--203-
-words, the method of building up a logical calculus is a method
+-203words, the method of building up a logical calculus is a method
 of systematically reducing a vast number of rules of inference
 
 
@@ -12363,8 +12117,7 @@ possible to predicate of the rules of logic that they are 'fitting
 the facts of the world' or 'not fitting the facts of the world'. This
 is not possible any more than it is possible to predicate such a
 thing of the highway code or of the rules of chess.
--204-
-Thus it seems that our problem disappears. Those who wonder
+-204Thus it seems that our problem disappears. Those who wonder
 why the rules of inference apply to the world, vainly trying to
 imagine what an illogical world would be like, are the victims of
 an ambiguity. Rules of inference are procedural rules or rules
@@ -12382,8 +12135,7 @@ The position appears to me in this way. Professor Ryle's
 analysis shows that one way of interpreting the problem
 reduces it to nonsense, or to a pseudoproblem. Now I have for
 many years made it a personal rule of procedure not to be
-easily satisfied with the reduction of problems to pseudo-
-problems. Whenever somebody succeeds in reducing a
+easily satisfied with the reduction of problems to pseudoproblems. Whenever somebody succeeds in reducing a
 problem to a pseudo-problem, I always ask myself whether one
 could not find another interpretation of the original problem--an
 interpretation which shows, if possible, that apart from the
@@ -12420,8 +12172,7 @@ IV
 I believe that our question can be answered comparatively
 easily. The man who finds observance of the rules of logic
 useful is, we have seen, a man
--205-
-who draws inferences. That is to say, he obtains from certain
+-205who draws inferences. That is to say, he obtains from certain
 statements or descriptions of facts, called 'premises', other
 statements or descriptions of facts, called 'conclusions'. And he
 finds the procedure useful because he finds that, whenever he
@@ -12480,8 +12231,7 @@ VI
 In order to see whether this result is of any use I shall try to
 apply it to a criticism of the three main views of the nature of
 logic. The views I have in mind are
--206-
-A. (A) The rules of logic are laws of thought.
+-206A. (A) The rules of logic are laws of thought.
 B. (A1) They are natural laws of thought--they describe how
 we actually do think; and we cannot think otherwise.
 C. (A2) They are normative laws--they tell us how we ought to
@@ -12542,8 +12292,7 @@ unsatisfactory. We feel that such a logically true proposition is
 true not because it describes the behaviour of all possible facts
 but simply because it does not take the risk of being falsified by
 any fact; it does not exclude any possible
--207-
-fact, and it therefore does not assert anything whatsoever of
+-207fact, and it therefore does not assert anything whatsoever of
 any fact at all. But we need not go here into the problem of the
 status of these logical truisms. For whatever their status may
 be, logic is not primarily the doctrine of logical truisms; it is,
@@ -12718,8 +12467,7 @@ for I do not see why a calculus designed to have an (L-true)
 interpretation in a certain semantical system cannot itself be
 simply described or interpreted as a formalized semantical
 system.
--210-
-A remark that bears on (a) will be found in section ix. In the
+-210A remark that bears on (a) will be found in section ix. In the
 present section, only (b) and (c) will be briefly discussed.
 As to (b), we may note that the calculus of natural numbers is
 used in order to count billiard balls, or pennies, or crocodiles,
@@ -12778,8 +12526,7 @@ ____________________
 5 This bears on some fundamental problems discussed by
 Tarski in his Logic, Semantics, Metamathematics (ch. 16)
 and by Carnap in his Introduction to Semantics.
--211-
-and because the equation '2 + 2 = 4' only applies to objects to
+-211and because the equation '2 + 2 = 4' only applies to objects to
 which nothing happens, then my answer is that, if you interpret
 it in this way, then it does not hold for 'reality' (for in 'reality'
 something happens all the time) but only for an abstract world
@@ -12840,8 +12587,7 @@ clear that only a performance rule can help us here, for
 speaking about reality is a performance. 6
 ____________________
 6 With these questions, cp. my L.Sc.D.
--212-
-IX
+-212IX
 My last remarks--on (c)--indicate the direction in which,
 perhaps, an answer may be found to what I hold to be the most
 important aspect of our manysided problem. Yet I do not wish
@@ -12899,8 +12645,7 @@ regard to things are often naïve realists with regard to. facts.
 While perhaps believing that things are logical constructs
 (which, I am satisfied, is a mistaken view) they believe that
 facts are part of the world in a
--213-
-sense similar to that in which processes or things may be said
+-213sense similar to that in which processes or things may be said
 to be parts of the world; that the world consists of facts in a
 sense in which it may be said to consist of (four dimensional)
 processes or of (three dimensional) things. They believe that,
@@ -12942,7 +12687,7 @@ ____________________
 7 I had in mind Wittgenstein in the Tractatus. Note that this
 paper was written in 1946.
 -214-
-10
+
 TRUTH, RATIONALITY, AND THE
 GROWTH OF SCIENTIFIC KNOWLEDGE
 1. THE GROWTH OF
@@ -12978,8 +12723,7 @@ test and to overthrow them; and these lead us further to
 experiments and observations of a kind which nobody would
 ever have dreamt of without the stimulus and guidance both of
 our theories and of our
--215-
-criticism of them. For indeed, the most interesting experiments
+-215criticism of them. For indeed, the most interesting experiments
 and observations were carefully designed by us in order to test
 our theories, especially our new theories.
 
@@ -13038,8 +12782,7 @@ of human endeavour there is change, but rarely
 ____________________
 1 See especially my Poverty of Historicism ( 2nd edn., 1960),
 and ch. 16 of the present volume.
--216-
-progress (unless we adopt a very narrow view of our possible
+-216progress (unless we adopt a very narrow view of our possible
 aims in life); for almost every gain is balanced, or more than
 balanced, by some loss. And in most fields we do not even
 know how to evaluate change.
@@ -13101,8 +12844,7 @@ Newton's theories (in note 7 on p. 401). In what follows, I
 shall sometimes refer to testability, etc., as the 'criterion of
 progress', without going into the more detailed distinctions
 discussed in my book.
--217-
-fine on Saturday'; and ab the statement 'It will rain on Friday
+-217fine on Saturday'; and ab the statement 'It will rain on Friday
 and it will be fine on Saturday': it is then obvious that the
 informative content of this last statement, the conjunction ab,
 will exceed that of its component a and also that of its
@@ -13161,8 +12903,7 @@ propose any 'criterion' for the choice of scientific
 hypotheses: every choice remains a risky guess. Moreover,
 the theoretician's choice is the hypothesis most worthy of
 further critical discussion (rather than of acceptance).
--218-
-deeply ingrained probabilistic prejudice seems unavoidable if
+-218deeply ingrained probabilistic prejudice seems unavoidable if
 the matter is really to be cleared up. Even if, as would be easy
 enough, I were to base my own theory upon the calculus of
 content, or of logical strength, it would still be necessary to
@@ -13220,8 +12961,7 @@ precisely the same aim as a high informative content.
 The criterion of potential satisfactoriness is thus testability, or
 improbability: only a highly testable or improbable theory is
 worth testing, and is
--219-
-actually (and not merely potentially) satisfactory if it withstands
+-219actually (and not merely potentially) satisfactory if it withstands
 severe tests --especially those tests to which we could point as
 crucial for the theory before they were ever undertaken.
 It is possible in many cases to compare the severity of tests
@@ -13259,8 +12999,7 @@ made while testing a theory, though they did not lead to its
 corroboration but to its refutation. A recent and important case
 is the refutation of parity. But Lavoisier's classical experiments
 which show that the volume of air decreases while a candle
-burns in a closed space, or that the weight of burning iron-
-filings increases, do not establish the oxygen theory of
+burns in a closed space, or that the weight of burning ironfilings increases, do not establish the oxygen theory of
 combustion; yet they tend to refute the phlogiston theory.
 Lavoisier's experiments were carefully thought out; but even
 most socalled 'chance-discoveries' are fundamentally of the
@@ -13278,8 +13017,7 @@ nor Röntgen's nor Becquerel's nor Fleming's discoveries were
 really accidental,
 ____________________
 4 See especially appendix *ix to my L.Sc.D.
--220-
-even though they had accidental components: every one of
+-220even though they had accidental components: every one of
 these men was searching for an effect of the kind he found.
 We can even say that some discoveries, such as Columbus'
 discovery of America, corroborate one theory (of the spherical
@@ -13339,8 +13077,7 @@ a relic of the long domination of Newtonian ideas (and thus,
 I may add, of the Platonic, and Euclidean, tradition). For an
 even more radical view of Dr Agassi's see the last footnote
 to this chapter.
--221-
-comparison, though it has, admittedly, some minor
+-221comparison, though it has, admittedly, some minor
 conventional and arbitrary aspects, is largely non-conventional,
 thanks to the criterion of progress. It is this critical procedure
 which contains both the rational and the empirical elements of
@@ -13396,8 +13133,7 @@ ____________________
 6 Compare this and the following two paragraphs with my
 Poverty of Historicism, section 28, pp. 121 ft., and chs. 1
 and 16 of this volume.
--222-
-2. THE THEORY OF OBJECTIVE
+-2222. THE THEORY OF OBJECTIVE
 TRUTH: CORRESPONDENCE TO
 THE FACTS
 VII
@@ -13458,8 +13194,7 @@ ____________________
 2.17; 2.223; 3.11.
 9 See especially pp. 56-7 of his remarkable Erkenntnislehre,
 2nd edn., 1925.
--223-
-from Tarski's analysis how to dodge its inconsistencies; which
+-223from Tarski's analysis how to dodge its inconsistencies; which
 means, admittedly, the introduction of a certain amount of
 'artificiality'--or caution --into its use.)Although I may assume in
 this assembly some familiarity with Tarski's theory of truth, I
@@ -13526,8 +13261,7 @@ example, by its history or by its relation to other beliefs.
 If we start from our subjective experience of believing, and thus
 look upon knowledge as a special kind of belief, then we may
 indeed have to look upon truth--that is, true knowledge--as
-some even more special kind of belief: as one that is well-
-founded or justified. This would mean that there should be
+some even more special kind of belief: as one that is wellfounded or justified. This would mean that there should be
 some more or less effective criterion, if only a partial one, of
 well-foundedness; some symptom by which to differentiate the
 experience of a well-founded belief from other experiences of
@@ -13652,7 +13386,7 @@ in the hope that it would give them what they had originally
 expected from a subjectivist or epistemological theory of the
 attainment of truth through verification; that is, a theory of
 rational and justifiable belief, based upon observed instances.
-15
+
 It is an awkward point in all these subjective theories that they
 are irrefutable (in the sense that they can too easily evade any
 criticism). For it is always possible to uphold the view that
@@ -13768,8 +13502,7 @@ superstition, in spite of the breakdown of the original inductivist
 or justificationist programme. We hold that this ideal can be
 realized, very simply, by recognizing that the rationality of
 science lies not in
--228-
-its habit of appealing to empirical evidence in support of its
+-228its habit of appealing to empirical evidence in support of its
 dogmas-astrologers do so too--but solely in the critical
 approach--in an attitude which, of course, involves the critical
 use, among other arguments, of empirical evidence (especially
@@ -13825,8 +13558,7 @@ want more truth, and new truth. We are not content with 'twice
 two equals four', even though it is true: we do not resort to
 reciting the multiplication table if we are faced with a difficult
 problem in topology or in physics. Mere truth is not
--229-
-enough; what we look for are answers to our problems. The
+-229enough; what we look for are answers to our problems. The
 point has been well put by the German humorist and poet
 Busch, of Max-and-Moritz fame, in a little nursery rhyme--I
 mean a rhyme for the epistemological nursery: 16
@@ -13887,8 +13619,7 @@ Busch as a philosopher which my late friend Julius Kraft
 contributed to the volume Erziehung uncl Politik (Essays for
 Minna Specht, 1960); see p. 262. My translation makes it
 perhaps more like a nursery rhyme than Busch intended.
--230-
-even if these should soon turn out to be false, then this interest
+-230even if these should soon turn out to be false, then this interest
 is due to our methodological conviction that only with the help
 of such bold conjectures can we hope to discover interesting
 and relevant truth.
@@ -13946,8 +13677,7 @@ ____________________
 criticizes Peirce for operating with the idea of approaching
 to truth. See W. V. Quine, Word and Object, New York,
 1960, p. 23.
--231-
-all. Almost at once I found that it was not, and that there was
+-231all. Almost at once I found that it was not, and that there was
 no particular difficulty in applying Tarski's fundamental idea to
 it.For there is no reason whatever why we should not say that
 one theory corresponds better to the facts than another. This
@@ -14008,15 +13738,13 @@ the consideration that a statement a tells the more about our
 world of experience the more possible experiences it
 excludes (or forbids). About basic statements see also the
 Addenda to this volume.
--232-
-one--the idea of a degree of better (or worse) correspondence
+-232one--the idea of a degree of better (or worse) correspondence
 to truth or of greater (or less) likeness or similarity to truth; or to
 use a term already mentioned above (in contradistinction to
 probability) the idea of (degrees of) verisimilitude.It should be
 noted that the idea that every statement or theory is not only
 either true or false but has, independently of its truth value,
-some degree of verisimilitude, does not give rise to any multi-
-valued logic--that is, to a logical system with more than two
+some degree of verisimilitude, does not give rise to any multivalued logic--that is, to a logical system with more than two
 truth values, true and false; though some of the things the
 defenders of multi-valued logic are hankering after seem to be
 realized by the theory of verisimilitude (and related theories
@@ -14066,8 +13794,7 @@ that of t 2.
 
 If we now work with the (perhaps fictitious) assumption that the
 content and
--233-
-truth-content of a theory a are in principle measurable, then we
+-233truth-content of a theory a are in principle measurable, then we
 can go slightly beyond this definition and can define Vs(a), that
 is to say, a measure of the verisimilitude or truthlikeness of a.
 The simplest definition will beVs(a) = Ct T (a)--Ct F (a)where Ct
@@ -14178,8 +13905,7 @@ our background knowledge, the relative appraisal of our two
 theories, t 1 and t 2, will remain stable. More particularly, our
 preferences need not change, as we have seen, if we
 eventually refute the better of the two theories.
--235-
-Newton's dynamics, for example, even though we may regard
+-235Newton's dynamics, for example, even though we may regard
 it as refuted, has of course maintained its superiority over
 
 
@@ -14304,8 +14030,7 @@ ____________________
 20 This, incidentally, holds for both, absolute probability, p(a),
 and relative probability, p(a, b); and there are corresponding
 absolute and relative concepts of verisimilitude.
--237-
-4. BACKGROUND KNOWLEDGE
+-2374. BACKGROUND KNOWLEDGE
 AND SCIENTIFIC GROWTH
 
 
@@ -14363,8 +14088,7 @@ that this remark contains my answer to Quine's holistic view of
 empirical tests; a view which Quine formulates (with reference
 to Duhem), by asserting that our statements about the external
 world face the tribunal of sense experience
--238-
-not individually but only as a corporate body. 21 Now it has to
+-238not individually but only as a corporate body. 21 Now it has to
 be admitted that we can often test only a large chunk of a
 theoretical system, and sometimes perhaps only the whole
 system, and that, in these cases, it is sheer guesswork which
@@ -14423,8 +14147,7 @@ ____________________
 21 See W. V. Quine, From a Logical Point of View, 1953, p. 41.
 22 See my L.Sc.D., especially sections 19 to 22; and this
 volume, ch. 3, text to note 28.
--239-
-some parts of it, others, closely related to them, will remain.
+-239some parts of it, others, closely related to them, will remain.
 For example, even though we may regard Newton's theory as
 refuted--that is, his system of ideas, and the formal deductive
 system which derives from it--we may still assume, as part of
@@ -14482,8 +14205,7 @@ ____________________
 23 See the Collected Papers of C. S. Peirce, vol. vii, 7.182 and
 7.206. I owe this reference to W. B. Gallie (cp. Philosophy,
 35, 1960, p. 67), and a similar one to David Rynin.
--240-
-What is the general problem situation in which the scientist
+-240What is the general problem situation in which the scientist
 finds himself? He has before him a scientific problem: he wants
 to find a new theory capable of explaining certain experimental
 facts; facts which the earlier theories successfully explained;
@@ -14546,8 +14268,7 @@ independent axioms (though perhaps not necessarily
 'organic' axioms in the sense of the Warsaw School).
 25 For a discussion of the idea of an independent test see my
 paper "'The Aim of Science'", Ratio, 1, 1957, p. 24 ff.
--241-
-given set of explicanda. Thus our two first requirements are
+-241given set of explicanda. Thus our two first requirements are
 needed in order to restrict the range of our choice among the
 possible solutions (many of them uninteresting) of the problem
 in hand.
@@ -14606,8 +14327,7 @@ months rather than after six years, or six hundred years.
 ____________________
 26 Phil. Mag., 47, 1924, pp. 785 ff.
 27 Zeitschr. f. Phys., 32, 1925, pp. 63 ff.
--242-
-Refutations have often been regarded as establishing the
+-242Refutations have often been regarded as establishing the
 failure of a scientist, or at least of his theory. It should be
 stressed that this is an inductivist error. Every refutation should
 be regarded as a great success; not merely a success of the
@@ -14668,8 +14388,7 @@ ____________________
 28 1 have drawn attention to 'new' predictions of this kind and
 to their philosophical significance in ch. 3. See especially
 pp. 117 f.
--243-
-sequence of refuted theories would soon leave us bewildered
+-243sequence of refuted theories would soon leave us bewildered
 and helpless: we should have no clue about the parts of each
 of these theories--or of our background knowledge--to which
 we might, tentatively, attribute the failure of that theory.
@@ -14731,8 +14450,7 @@ far as the construction of 'good' theories is concerned:
 speculations about answers which Nature may give to our
 questions will play no role in our problem situation which will
 always be fully determined by our past failures alone.
--244-
-we may at the same time feel the need for encouragement in
+-244we may at the same time feel the need for encouragement in
 our belief that we are making progress). Yet this should
 certainly not induce in us the attitude of merely producing
 theories so that they can be superseded.
@@ -14996,8 +14714,7 @@ time and place, this is immediately followed by the appearance
 of the Devil--that is to say, of a man-like creature with two small
 horns and one cloven hoof.'
 Clearly, this untestable theory is, in principle, verifiable. Though
-according to my criterion of demarcation it is excluded as non-
-empirical and nonscientific or, if you like, metaphysical, it is not
+according to my criterion of demarcation it is excluded as nonempirical and nonscientific or, if you like, metaphysical, it is not
 so excluded by those positivists who consider all well-formed
 statements and especially all verifiable ones as empirical and
 scientific.
@@ -15033,8 +14750,7 @@ spell must for ever remain equal to unity, whatever the facts
 may be.
 It would of course be easy enough for me to amend my
 criterion of
--249-
-demarcation so as to include such purely existential statements
+-249demarcation so as to include such purely existential statements
 among the empirical statements. I merely should have to admit
 
 
@@ -15060,14 +14776,13 @@ assume, uncritically, that probability or probabilistic
 character of statements or theories. For a non-empirical and
 presumably false statement may have a high degree of
 probability, as has been shown here.
--250-
-REFUTATIONS
+-250REFUTATIONS
 -251-
 
 
 [This page intentionally left blank.]
 -252-
-11
+
 THE DEMARCATION BETWEEN SCIENCE
 AND METAPHYSICS
 Summary
@@ -15111,8 +14826,7 @@ new appendix IX, especially pp. 309 f.; the appendix to
 chapter 10 of the present volume; an article in "Dialectica,
 11", 1957, pp. 354-374; and a Note in "Mind, 71", 1962, pp.
 69-73.
--253-
-with a little climbing but never interrupted by it. None of us will
+-253with a little climbing but never interrupted by it. None of us will
 ever forget, I am sure, how Carnap once led us in a steep
 climb up a trackless hill, through a beautiful and almost
 impenetrable thicket of alpine rhododendrons; and how he led
@@ -15179,8 +14893,7 @@ differences between his views and those . . . which are most
 closely allied to his . . . [ Popper] is very close indeed to the
 point of view of the Vienna Circle. In his presentation, the
 differences appear much greater than they are in fact.'
--254-
-This silenced me for many years, 5 especially as Carnap paid
+-254This silenced me for many years, 5 especially as Carnap paid
 so much attention to my criticism in his Testability and
 Meaning. But I felt all the time that the differences between our
 views were far from being imaginary; and my feeling that they
@@ -15243,15 +14956,13 @@ critical remarks on Wittgenstein and Schlick (in my Open
 Society, first published in 1945; see notes 51 L, 46, 26, and
 48, to ch. 11; see also chs. 2, 12, and 14 of the present
 volume).
--255-
-OceanofPDF.com
+-255OceanofPDF.com
 
 
 system on the ground that it 'needlessly did violence to our
 senses'; and in general the best physical theories always
 resembled what Bacon had dismissed as 'mental anticipations'.
-On the other hand, many superstitious beliefs, and many rule-
-of-thumb procedures (for planting, etc.) to be found in popular
+On the other hand, many superstitious beliefs, and many ruleof-thumb procedures (for planting, etc.) to be found in popular
 almanacs and dream books, have had much more to do with
 observations, and have no doubt often been based on
 something like induction. Astrologers, more especially, have
@@ -15305,8 +15016,7 @@ by these tests. Thus confirmability (or attestability or
 corroborability) must increase with testability.
 ____________________
 6 See L.Sc.D., sections 31 to 46.
--256-
-This indicates that the criterion of demarcation cannot be an
+-256This indicates that the criterion of demarcation cannot be an
 absolutely sharp one but will itself have degrees. There will be
 well-testable theories, hardly testable theories, and non-
 
@@ -15367,8 +15077,7 @@ ____________________
 Systeme', Erkenntnis, 3, 1933, pp. 426 ff., now in L.Sc.D.,
 pp. 312-14; see also L.Sc.D., especially sections 4 and 10.
 8 L.Sc.D., section 85, p. 278.
--257-
-above the line since it can easily be tested. But we do not know
+-257above the line since it can easily be tested. But we do not know
 how to test an isolated purely existential assertion.
 I cannot in this place argue for the adequacy of the view that
 isolated purely existential statements should be classed as
@@ -15433,8 +15142,7 @@ forcefully used by Berkeley (and other nominalists). See ch.
 hard to accept the view that a pure or isolated existential
 statement ('There exists a sea-serpent') should be called
 'metaphysical', even though it might he deducible from a
-statement of an empirical character ('There is now a sea-
-serpent on view in the entrance hall of the British Museum').
+statement of an empirical character ('There is now a seaserpent on view in the entrance hall of the British Museum').
 But they overlooked the fact that: (a) in so far as it was so
 deducible, it was no longer isolated, but belonged to a
 testable theory, and (b) if a statement is deducible from an
@@ -15443,8 +15151,7 @@ make it empirical or scientific. (Any tautology is so
 deducible.)
 
 
--258-
-was supposed to bring about the 'overthrow' of metaphysics,
+-258was supposed to bring about the 'overthrow' of metaphysics,
 and to destroy it more radically and more effectively than any
 earlier anti-metaphysical philosophy. But as I pointed out in my
 criticism, the theory was based on a naïve and 'naturalistic' 13
@@ -15576,8 +15283,7 @@ Historicism, section 10, and my Open Society, especially ch.
 11.
 
 
--260-
-and meaningless linguistic expressions covers only one side of
+-260and meaningless linguistic expressions covers only one side of
 this theory. There is another side to the so-called 'verifiability
 criterion' which may be formulated as the condition (c):
 (c) an alleged proposition (or sentence) is genuine if, and
@@ -15605,8 +15311,7 @@ must say a few words of criticism here. 23
 First, a word on (c), the verifiability criterion of meaning. This
 criterion excludes from the realm of meaning all scientific
 theories (or 'laws of nature'); for these are no more reducible to
-observation reports than so-called metaphysical pseudo-
-propositions. Thus the criterion of meaning leads to the wrong
+observation reports than so-called metaphysical pseudopropositions. Thus the criterion of meaning leads to the wrong
 demarcation of science and metaphysics. This criticism was
 accepted by Carnap in his Logical Syntax of Language 24 and
 in his Testability and Meaning; 25 but
@@ -15625,8 +15330,7 @@ theory is still asserted in an absolute sense: our conditions
 on p. 222 - 3 (as quoted).
 20 Ibid., p. 224.
 21 Aufbau, section 161, p. 222; and section 179 (top of p. 253
-). See also the important section 2 of Carnap Overthrow-
-paper, Erkenntnis, 2, 1932, pp. 221 to 224. (This passage in
+). See also the important section 2 of Carnap Overthrowpaper, Erkenntnis, 2, 1932, pp. 221 to 224. (This passage in
 many ways anticipates, by its general method, the doctrine
 of reduction in Carnap Testability and Meaning, except that
 in the latter the demand for verification is weakened.)
@@ -15647,8 +15351,7 @@ continuation of this passage is quoted below, text to note
 25 Cp. especially notes 20 and 25 (and the text following note
 25) to section 23 of Testability and Meaning with note 7 to
 section 4 (and text), and note I to section 78 of L.Sc.D.
--261-
-even his latest theories are still open to it, as I shall try to show
+-261even his latest theories are still open to it, as I shall try to show
 in section 6 below.
 Next we consider condition (a) of the doctrine, the
 (nominalistic) view that only empirically definable words or
@@ -15707,8 +15410,7 @@ intensional analysis of meaning see Carnap excellent book
 Meaning and Necessity.)
 Precisely the same criticism applies to more complicated
 languages, espe-
--262-
-cially to languages which introduce their concepts by the
+-262cially to languages which introduce their concepts by the
 method of extensional abstraction (used first by Frege and
 Russell) provided the class of the fundamental elements upon
 which this method is based, and the fundamental relations
@@ -15774,8 +15476,7 @@ arranged the vacation meeting in the Tyrol.
 28 "'The Difference Between Individual Concepts and Universal
 Concepts'" was discussed in the Aufbau, section 158; it was
 criticized briefly in L.Sc.D., sections 14 and 25.
--263-
-languages, but also that there cannot exist a meaningful
+-263languages, but also that there cannot exist a meaningful
 sentence (in any consistent language) which would be
 recognized by the writer or speaker in question as an
 alternative formulation of what he intended to say. And nobody
@@ -15817,8 +15518,7 @@ directed by Bacon against Copernicus, or by Duhem and Mach
 against atomism).
 But the naturalistic theory of meaning was abandoned by
 Carnap a long time ago, as I have said. It has been replaced
-by the theory that whether a linguistic expression is well-
-formed or not depends on the rules of the language to which
+by the theory that whether a linguistic expression is wellformed or not depends on the rules of the language to which
 the expression is supposed to belong; together with the theory
 that the rules of language are often not precise enough to
 decide the issue, so that we have to introduce more precise
@@ -15833,8 +15533,7 @@ exactly where it was. This is my thesis.
 To put it quite differently, the naïve or naturalistic or
 essentialistic theory of meaningfulness discussed in the
 previous section is mistaken, and had to be
--264-
-replaced by a theory of well-formed formulae, and with it, of
+-264replaced by a theory of well-formed formulae, and with it, of
 languages which are artificial in being subject to definite rules.
 This important task has since been carried out by Carnap with
 great success. But this reformation of the concept of
@@ -15848,8 +15547,7 @@ the problem by constructing a 'language of science', a
 language in which every legitimate statement of science would
 be a well-formed formula, while none of the metaphysical
 theories would be expressible in it--either because the
-terminology was not available, or because there was no well-
-formed formula to express it.
+terminology was not available, or because there was no wellformed formula to express it.
 I consider the task of constructing artificial model languages for
 a language of science an interesting one; but I shall try to show
 that the attempt to combine this task with that of destroying
@@ -15893,8 +15591,7 @@ conscious experiences' or 'There exist feelings--such as love or
 
 hate--distinguishable from the bodily movements which often,
 though not always, accompany them'.)
--265-
-There is no need, therefore, to go into the merits or demerits of
+-265There is no need, therefore, to go into the merits or demerits of
 the behaviourist philosophy, or the translatability thesis (which,
 in my opinion, is nothing but materialist metaphysics in
 linguistic trappings--and I, for one, prefer to meet it without
@@ -15957,8 +15654,7 @@ alive.
 
 
 34 Op. cit., p. 114.
--266-
-Before concluding point (a) I wish to mention only briefly that
+-266Before concluding point (a) I wish to mention only briefly that
 this physicalism, although from my point of view too
 physicalistic in most respects, was not physicalistic enough in
 others. For I do believe, indeed, that whenever we wish to put
@@ -15993,8 +15689,7 @@ Now on this point Carnap's and Neurath's views were much
 less 'physicalistic' at that time. In fact they still upheld a form of
 Carnap's original 'methodological solipsism'. For they taught
 that the sentences which formed the 'empirical basis' (in my
-terminology) of all tests, and which they called 'protocol-
-sentences', should be reports about 'our own' observational
+terminology) of all tests, and which they called 'protocolsentences', should be reports about 'our own' observational
 experiences, although expressed in a physical language, i.e.
 as reports about our own bodies. In Otto Neurath's formulation,
 such a protocol-sentence was to have, accordingly, a very
@@ -16027,12 +15722,10 @@ used since by other authors, in similar and in different
 senses. (See now also section i of the Addenda to the
 present volume.)
 37 Erkenntnis, 3, 1932, p. 207.
--267-
-One sees that the attempt is made here to incorporate the old
+-267One sees that the attempt is made here to incorporate the old
 starting point-the observer's own subjective experiences, i.e.
 'methodological solipsism'.
-Carnap later accepted my view; but in the article ('On Protocol-
-Sentences' 38 in which he very kindly called this view of mine
+Carnap later accepted my view; but in the article ('On ProtocolSentences' 38 in which he very kindly called this view of mine
 'the most adequate of the forms of scientific language at
 present advocated . . . in the . . . theory of knowledge', 39 he
 did not yet quite appreciate the fact (appreciated clearly in
@@ -16091,8 +15784,7 @@ ____________________
 note 2 of section 29 is from Carnap's report.)
 41 Erkenntnis, 3, 1932, p. 108.
 42 Loc. cit., italics mine.
--268-
-refuted by one of Carnap's colleagues in the Vienna Circle. For
+-268refuted by one of Carnap's colleagues in the Vienna Circle. For
 Gödel, by his two famous incompleteness theorems, had
 proved that one unified language would not be sufficiently
 universal for even the purposes of elementary number theory:
@@ -16163,8 +15855,7 @@ who was also present, to undertake an empirical study of
 the usages of the word 'truth', in the hope of thus refuting
 Tarski. See also Carnap's appropriate remark on Ness, in
 the Introduction to Semantics, p. 29.
--269-
-I do not, of course, suggest that Carnap did not know all this;
+-269I do not, of course, suggest that Carnap did not know all this;
 but I suggest that he did not see its devastating effect upon the
 doctrine of the unified science in the unified language.
 It may be objected, perhaps, that I am taking the doctrine of the
@@ -16193,8 +15884,7 @@ remember Brouwer's ideas, published long before the
 Tractatus was written. With G÷del (especially with his second
 theorem of undecidability) and Church, its situation became
 even worse; for from them we learned that we could never
-complete even our methods of solving problems. Thus a well-
-formed mathematical question may become 'meaningless' if we
+complete even our methods of solving problems. Thus a wellformed mathematical question may become 'meaningless' if we
 adopt a criterion of meaning according to which the meaning of
 a statement lies in the method by which it can be verified (in
 mathematics: proved or disproved). This shows that we may be
@@ -16289,8 +15979,7 @@ reject both concepts and sentences if they did not fit into the
 language.'
 ____________________
 48 Syntax, section 82, p. 322 top. (The italics are Carnap's.)
--271-
-The position indicated by these passages (including the one
+-271The position indicated by these passages (including the one
 quoted briefly in note 24 above) may be described as follows:
 1. Some difficulties, especially those of Wittgenstein's
 verifiability criterion of meaning, are recognized; also the
@@ -16334,8 +16023,7 @@ relation between object-language and meta-language, it would
 no doubt have been wiser to treat the meta-language as
 distinct from the object-language. It could, of course, have still
 been shown that at least a part of the meta-language --and
-enough for Gödel's purposes--may be expressed in the object-
-language, without stressing the mistaken thesis that the whole
+enough for Gödel's purposes--may be expressed in the objectlanguage, without stressing the mistaken thesis that the whole
 of the meta-language can be so expressed.
 Now there is little doubt that it was the doctrine of the one
 universal language in which the one unified science was to be
@@ -16350,8 +16038,7 @@ important parts of logic.
 
 The Syntax continues the doctrine of the meaninglessness of
 metaphysics
--272-
-in the following form: All meaningful sentences either belong to
+-272in the following form: All meaningful sentences either belong to
 the language of science, or (if philosophical) they can be
 expressed within the syntax of that language. This syntax
 comprises the whole of the philosophy and logic of science so
@@ -16374,8 +16061,7 @@ language analysis? But I am not a believer in essences. (Nor in
 Wittgenstein.) How to make oneself better understood can only
 be a matter of thought and experience.
 And why should all philosophy be linguistic analysis? No doubt
-it may often help to put a question in terms of language-
-construction. But why should all philosophical questions be of
+it may often help to put a question in terms of languageconstruction. But why should all philosophical questions be of
 
 
 this kind? Or is this the one and only non-linguistic thesis of
@@ -16422,8 +16108,7 @@ were to be a language adequate for all science . . . [we] should
 not wish for example to have [in L] . . . sentences
 [corresponding] to many or perhaps most of the sentences
 occurring in the books of metaphysicians.' 49
-Thus the main idea--excluding metaphysics from the well-
-formed formulae of L, the language of science--is unchanged.
+Thus the main idea--excluding metaphysics from the wellformed formulae of L, the language of science--is unchanged.
 Unchanged, too, is the idea of the one language of science:
 although Carnap now says, very clearly, that we can choose
 our language, and that various scientists can choose it in
@@ -16499,8 +16184,7 @@ the help of explicit definitions using (1) and (2): 55
 'a is omnipresent' or 'Opos(a)'.
 'a is omnipotent', or 'Oput(a)'.
 ____________________
-52 One need not believe in the 'scientific' character of psycho-
-analysis (which, I think, is in a metaphysical phase) in order
+52 One need not believe in the 'scientific' character of psychoanalysis (which, I think, is in a metaphysical phase) in order
 to diagnose the anti-metaphysical fervour of positivism as a
 form of Father-killing.
 
@@ -16544,8 +16228,7 @@ employing the Tarskian semantic predicate 'T(a)', meaning
 'a is a true statement'. Then (14) may be replaced by
 Kn(a,b) ≡ Th(a,b) & T(b); (15) by Verax(a) ≡ (b)Th(a,b) ⊃
 T(b); and (16) by Okn(a) ≡ (b)T(b) ⊃ Kn(a,b).
--275-
-Moreover, with the help of (3) and (4), we can introduce, by
+-275Moreover, with the help of (3) and (4), we can introduce, by
 Carnap's reduction method,
 'a thinks b' or 'Th(a,b)'.
 Carnap recommends 56 that such a predicate should be
@@ -16590,11 +16273,9 @@ meaning of a sentence is in a certain sense identical with the
 way we determine its truth and falsehood; and a sentence has
 meaning only if such a determination is possible'. One thing
 emerges clearly from this passage--that it is not Carnap's
-intention to allow meaning to a formula like the arch-
-metaphysical one. But the intention is not realized; it is not
+intention to allow meaning to a formula like the archmetaphysical one. But the intention is not realized; it is not
 realized, I think, because it is not realizable.
-I need hardly say that my only interest in constructing our arch-
-metaphysical existential formula is to show that there is no
+I need hardly say that my only interest in constructing our archmetaphysical existential formula is to show that there is no
 connection between well-formedness and scientific character.
 The problem of how to construct a language of science which
 includes all we wish to say in science but excludes
@@ -16603,8 +16284,7 @@ ____________________
 57 Testability, section 1, end of first paragraph.
 
 
--276-
-those sentences which have always been considered as
+-276those sentences which have always been considered as
 metaphysical is a hopeless one. It is a typical pseudo-problem.
 And nobody has ever explained why it should be interesting to
 solve it (if it is soluble). Perhaps in order to be able to say, as
@@ -16632,23 +16312,20 @@ ____________________
 57a (Added in Proofs:)
 
 
-The reaction of my positivist friends to my 'arch-
-metaphysical formula' (I have not yet seen Carnap's
+The reaction of my positivist friends to my 'archmetaphysical formula' (I have not yet seen Carnap's
 reaction, but I received a report from Bar-Hillel) was this.
 As this formula is well-formed, it is 'meaningful' and also
 'scientific': of course, not scientifically or empirically true;
 but rather scientifically or empirically false; or, more
 precisely, disconfirmed by experience. (Some of my
-positivist friends also denied that my name 'arch-
-metaphysical' had any historical justification, and asserted
+positivist friends also denied that my name 'archmetaphysical' had any historical justification, and asserted
 that the anti-metaphysical tendencies of the Vienna Circle
 never had anything to do with anti-theological tendencies;
 and this in spite of Neurath's physicalism which was
 intended as a modern version of either classical or
 dialectical materialism.)
 Now should anyone go so far as to commit himself to the
-admission that my arch-metaphysical formula is well-
-formed and therefore empirically true or false then I think
+admission that my arch-metaphysical formula is wellformed and therefore empirically true or false then I think
 he will encounter difficulties in extricating himself from this
 situation. For how could anybody defend the view that my
 arch-metaphysical formula is false, or disconfirmed? It is
@@ -16670,8 +16347,7 @@ that it cannot be disconfirmed--as I asserted above.
 How then can my positivist friends assert that the empirical
 statement '(Ex) G(x)' is false? It is, at any rate, better
 confirmed than any scientific theory.
-My own view is that it is non-testable and therefore non-
-empirical and non-scientific.
+My own view is that it is non-testable and therefore nonempirical and non-scientific.
 58 The term 'reductionism' is, it seems, Quine's. (It
 corresponds closely to my term 'inductivism'. See, for
 example, Carnap report in Erkenntnis, 3, 1932, pp. 223-4.)
@@ -16683,8 +16359,7 @@ experiences (sense-data, impressions, perceptions,
 experiences of remembrance [ Carnap's term in the Aufbau
 ], etc.)' See also L.Sc.D., section 14, especially notes 4 and
 6, and text.
--277-
-water" cannot be verified by any observational experience. The
+-277water" cannot be verified by any observational experience. The
 reason is that the universals which occur in it cannot be
 correlated with any particular observational experience . . . By
 the word "glass", for example, we denote physical bodies
@@ -16731,7 +16406,7 @@ theory of the empirical basis in my L.Sc.D. 60
 
 
 ____________________
-59
+
 The passage is from L.Sc.D. (end of section 25; see also
 sections 14 and 20). Although this passage, together with
 Carnap's related passage about the term 'soluble' (
@@ -16769,8 +16444,7 @@ forms of verification. The consequences of this difference
 
 will become clear in my discussion of probability and
 induction in section 6 below.
--278-
-So much about the fact that 'soluble' cannot be 'reduced' to
+-278So much about the fact that 'soluble' cannot be 'reduced' to
 something that is less dispositional. As to my contention that
 there is no need to regret this fact, I want only to say (again)
 that outside mathematics and logic problems of definability are
@@ -16808,8 +16482,7 @@ science depends, not upon anything like a truth-surrogate, but
 upon the severity of tests. 63
 ____________________
 61 In Testability, section 16, p. 470, Carnap hopes that we may
-introduce all terms on the basis of one undefined one-
-termed predicate (either 'bright', or alternatively 'solid'). But
+introduce all terms on the basis of one undefined onetermed predicate (either 'bright', or alternatively 'solid'). But
 one cannot introduce any other term on this basis with the
 help of a reduction pair: at least two different 'given'
 predicates are needed even for one bilateral reduction
@@ -16836,8 +16509,7 @@ he does not draw from it the (I believe necessary)
 conclusion that degree of confirmation cannot coincide with
 probability. (I have re-affirmed this conclusion in appendix
 *IX to L.Sc.D. Cp. notes 74 and 77 f. below, and text.)
--279-
-6. PROBABILITY AND INDUCTION
+-2796. PROBABILITY AND INDUCTION
 The full consequences of approaching confirmation as if it was
 a kind of weakened verification become manifest only in
 Carnap's two books on probability--the big volume entitled
@@ -16903,8 +16575,7 @@ the 'principle of empiricism' (also mentioned on pp. 30 and
 71), and a discussion of the empirical character of the
 'principle of uniformity' of nature, pp. 179 ff. Both passages
 will be mentioned below.
--280-
-satisfy my requirements: all sorts of pseudo-sciences (such as
+-280satisfy my requirements: all sorts of pseudo-sciences (such as
 astrology) are clearly not excluded. The answer to this would
 be, no doubt, that the criterion is not intended to exclude what I
 call 'pseudo-sciences', and that these consist, simply, of false
@@ -16949,8 +16620,7 @@ reason why the universal laws are not verifiable is thus
 identical with the reason why they are not confirmable: they
 assert a great deal about the world--more than we can ever
 hope either to 'verify' or to 'confirm'.
-In face of the fact that natural laws turn out to be non-
-confirmable,
+In face of the fact that natural laws turn out to be nonconfirmable,
 ____________________
 66 There may, conceivably, be seers like Swedenborg who
 make accurate predictions of future events whenever they
@@ -16971,8 +16641,7 @@ leads nowhere; for this estimate can be computed with
 precision, and the result is always that the probability is
 zero.' (Another passage from this page is quoted in note 71,
 below.)
--281-
-according to his definition of 'degree of confirmation', Carnap
+-281according to his definition of 'degree of confirmation', Carnap
 adopts two courses: (a) he introduces ad hoc a new concept,
 called the (qualified 68 ) 'instance confirmation of the law l',
 which is so defined that we sometimes obtain, in place of zero,
@@ -16993,8 +16662,7 @@ and none of the theorems, which have been built up on the
 
 preceding 571 pages. This is so, however, and the reason is
 that the 'instance confirmation' of a law l on the evidence e is
-simply not a probability function of l and e (not a 'regular c-
-function' of l and e).
+simply not a probability function of l and e (not a 'regular cfunction' of l and e).
 And it could hardly be otherwise. We are given, up to p. 570, a
 detailed theory of confirmation (in the sense of probability 1 ).
 On p. 571, we find that for a law this confirmation is zero. We
@@ -17038,8 +16706,7 @@ respect to the two logically equivalent implicative
 formulations of l; they become respectively (after
 simplification), 'j ⊃ h'' and 'e.(h' ⊃ j)'. This avoids the
 paradox.
--282-
-OceanofPDF.com
+-282OceanofPDF.com
 
 
 the probability near to 1 'seems to represent . . . still more
@@ -17091,8 +16758,7 @@ is that I do not believe that one can speak about exactness,
 except in the relative sense of exactness sufficient for a
 particular given purpose--the purpose of solving a certain
 given problem. Accordingly, concepts cannot be 'explicated'
-as such, but only within the framework of a definite problem-
-situation. Or in other words, adequacy can only be judged if
+as such, but only within the framework of a definite problemsituation. Or in other words, adequacy can only be judged if
 we are given a genuine problem (it must not in its turn be a
 problem of explication) for the solution of which the
 'explication' or 'analysis' is undertaken.
@@ -17115,8 +16781,7 @@ from this devastating conclusion, one might still try two more
 expedients.' (One of these two leads to the zero probability
 of all universal laws: the passage is quoted in note 67,
 above.)
--283-
-them 'meaningless pseudo-sentences'). Not unlike Mill they
+-283them 'meaningless pseudo-sentences'). Not unlike Mill they
 described them as rules for the derivation of genuine (singular)
 sentences--the instances of the law--from other genuine
 sentences (the initial conditions). I criticized this doctrine in my
@@ -17177,8 +16842,7 @@ copy of this paper, has kindly informed me that he has
 
 anticipated Dr Agassi in the discovery of this paradox and
 of what I have here called an ' Agassi predicate'.
--284-
-perfectly legitimate scientific assertion, based as it was on well
+-284perfectly legitimate scientific assertion, based as it was on well
 confirmed universal laws. But by now, universal laws have
 become dispensable; and without them the sentence in
 question cannot possibly be upheld. Moreover, one sees easily
@@ -17248,7 +16912,7 @@ Testability, however, is converse to . . . logical probability . .
 (a) We can easily agree on the kind of thing we may both call,
 provisionally, 'probability'; for we both call 'probability'
 something that satisfies the laws of the calculus of probability.
-75
+
 More specifically, Carnap says of the concept of logical
 probability 1 that it satisfies certain axiom systems, and in any
 case the (special) addition principle and (general) multiplication
@@ -17318,8 +16982,7 @@ Carnap in Probability, section 71, p. 394 f., case 3 b.
 Carnap infers from them that the content condition (see
 notes 63 and 77 above) is 'invalid', but fails to infer that all
 'regular confirmation functions' are inadequate.
--286-
-To sum up point (a). Since we aim in science at a high content,
+-286To sum up point (a). Since we aim in science at a high content,
 we do not aim at a high probability.
 (b) The severity of possible tests of a statement or a theory
 depends (among other factors) on the precision of its
@@ -17378,8 +17041,7 @@ is that a theory which has been tested with great ingenuity and
 with the sincere attempt to refute it will have
 ____________________
 79 For a fuller argument see L.Sc.D., sections 82 f.
--287-
-a higher degree of confirmation than one which has been
+-287a higher degree of confirmation than one which has been
 tested with laxity; and I do not think that we can completely
 formalize what we mean by an ingenious and sincere test. 80
 Nor do I think that it is an important task to give an adequate
@@ -17447,8 +17109,7 @@ upon universal laws as indispensable, while Carnap
 believes, as we have seen (see above, and Probability,
 section 110, H. esp. p. 575) that universal laws can be
 dispensed with.
--288-
-So much about my own present positive theory (which goes
+-288So much about my own present positive theory (which goes
 very considerably beyond my L.Sc.D.). But I must return to my
 
 
@@ -17503,12 +17164,10 @@ ____________________
 85 Probability, section 41, F., pp. 177 ff., especially pp. 179,
 181. For the passages from L.Sc.D., see section 1, pp. 28f,
 and 81, pp. 263 f.
--289-
-which is equivalent to
+-289which is equivalent to
 (2) p(x.y) = p(x)p(y)
 This is the usual definition of independence.
-If the conjecture that the events are connected or inter-
-dependent is correct, then we have
+If the conjecture that the events are connected or interdependent is correct, then we have
 (3) p(x,y) > p(x)
 
 
@@ -17528,8 +17187,7 @@ individual A--whether 'A' is the name of a cat, a dog, an apple,
 a tennis ball, or a cathedral. This is a consequence of the
 definition of 'degree of confirmation' which he proposes.
 According to this definition, any two sentences with the same
-predicate ('clever' or 'sick') and different subjects are inter-
-dependent or positively correlated, whatever the subject may
+predicate ('clever' or 'sick') and different subjects are interdependent or positively correlated, whatever the subject may
 be, and wherever they may be situated in the world; this is the
 actual content of his principle of uniformity.
 I am far from certain whether he has realized these
@@ -17570,8 +17228,7 @@ prefer the term 'dependence' to Keynes' and Carnap's term
 'relevance': looking (like Carnap) at probability as a
 generalized deductive logic, I take probabilistic dependence
 as a generalization of logical dependence.
--290-
-world was involved in the choice of λ. But it is a fact that our
+-290world was involved in the choice of λ. But it is a fact that our
 choice of λ is equivalent to the most sweeping assertion of
 dependence that one can imagine. It is equivalent to the
 acceptance of as many natural laws as there are predicates,
@@ -17579,8 +17236,7 @@ acceptance of as many natural laws as there are predicates,
 
 each asserting the same degree of dependence of any two
 events with like predicates in the world. And since such an
-assumption about the world is made in the form of a non-
-testable act--the introduction of a definition-there seems to me
+assumption about the world is made in the form of a nontestable act--the introduction of a definition-there seems to me
 an element of apriorism involved.
 One might still say, perhaps, that there is no apriorism here
 since the dependencies mentioned are a consequence of a
@@ -17634,8 +17290,7 @@ Indeed,
 ____________________
 88 Probability, section 110, p. 565; cp. Methods, section 18, p.
 53.
--291-
-Carnap shows 89 that without adopting it we can never learn
+-291Carnap shows 89 that without adopting it we can never learn
 from empirical evidence (according to his theory of knowledge).
 Thus empirical evidence does not and cannot count before the
 adoption of a finite λ. This is why it has to be adopted a priori.
@@ -17687,15 +17342,14 @@ ____________________
 89 Probability, section 110, p. 556.
 90 Probability, section 10, p. 31.
 -292-
-12
+
 LANGUAGE AND THE BODY-MIND
 PROBLEM
 A RESTATEMENT OF INTERACTIONISM
 1. INTRODUCTION
 THIS IS a paper on the impossibility of a physicalistic causal
 theory of the human language. 1
-1.1 It is not a paper on linguistic analysis (the analysis of word-
-usages). For I completely reject the claim of certain language
+1.1 It is not a paper on linguistic analysis (the analysis of wordusages). For I completely reject the claim of certain language
 analysts that the source of philosophical difficulties is to be
 found in the misuse of language. No doubt some people talk
 nonsense, but I claim (a) that there does not exist a logical or
@@ -17726,8 +17380,7 @@ certain formula, as used by some
 ____________________
 1 This issue was first discussed by Karl Bühler in his
 Sprachtheorie, 1934, pp. 25-8.
--293-
-speaker, is 'meaningless' in any precise sense of this term; for
+-293speaker, is 'meaningless' in any precise sense of this term; for
 somebody may invent a formalism such that the formula in
 question can be rendered by a well-formed formula of that
 formalism, to the satisfaction of the original speaker. The most
@@ -17844,11 +17497,9 @@ unintentionally, of course--the non-existence of arguments.)
 ____________________
 2 Referred to in his Sprachtheorie, loc. cit.
 3 Cf. ch. of this volume.
--295-
-4. THE MACHINE ARGUMENT
+-2954. THE MACHINE ARGUMENT
 4.1 A wall-thermometer may be said not only to express its
-internal state, but also to signal, and even to describe. (A self-
-registering one does so even in writing.) Yet we do not attribute
+internal state, but also to signal, and even to describe. (A selfregistering one does so even in writing.) Yet we do not attribute
 the responsibility for the description to it; we attribute it to its
 maker. Once we understand this situation, we see that it does
 not describe, any more than my pen does: like my pen it is only
@@ -17882,8 +17533,7 @@ know the working of a phonograph or radio may mistakenly
 think that it describes and argues. Yet an analysis of its
 mechanism teaches us that nothing of this kind happens. The
 radio does not argue, although it expresses and signals.
-4.24 There is, in principle, no difference between a wall-
-thermometer and the 'observing' and 'describing' machine
+4.24 There is, in principle, no difference between a wallthermometer and the 'observing' and 'describing' machine
 discussed. Even a man who is conditioned to react to
 appropriate stimuli with the sounds 'cat' and 'dog', without
 intention to describe or to name, does not describe, although
@@ -17903,8 +17553,7 @@ automatic pilot, or a watch, or a wall-thermometer.
 4.3 Objections to this view, and to the view 3.3, are usually
 based on the positivistic doctrine of the identity of empirically
 indistinguishable objects.
--296-
-Two clocks, the argument goes, may look alike, although the
+-296Two clocks, the argument goes, may look alike, although the
 one works mechanically and the other electrically, but their
 difference can be discovered by observation. If no difference
 can be so discovered, then there simply is none. Reply: if we
@@ -17965,8 +17614,7 @@ ____________________
 4 It does not matter for our present purposes whether or not
 the expression 'causal chain' is adequate for a more
 thorough analysis of causal relations.
--297-
-Mike and ' Mike' the extremes (or terms) of the causal chain,
+-297Mike and ' Mike' the extremes (or terms) of the causal chain,
 and not the 'objective' physical situation. (Moreover, we might
 consider the whole process of reaction as name, or only the
 last letters of ' Mike', say, ' Ike'.) Thus, although those who
@@ -18021,7 +17669,7 @@ has prevented most anti-obscurantists from saying such things
 as these. But this fear has produced, in the end, only
 obscurantism of another kind.
 -298-
-13
+
 A NOTE ON THE BODY-MIND PROBLEM
 I AM very grateful to Professor Wilfrid Sellars for bringing 1 my
 paper 'Language and the Body-Mind Problem', 2 to the
@@ -18063,8 +17711,7 @@ ____________________
 Analysis, 15, pp. 23 f.
 2 Not 'Mind-body problem' as Professor Sellars writes. My
 paper is included in this volume as ch. 12.
--299-
-correctly demanded by Professor Sellars is not mine but part of
+-299correctly demanded by Professor Sellars is not mine but part of
 that theory. It is, indeed, referred to in my argument as part of
 the 'two language solution' --of 'the view that . . . the
 statements of physics and of psychology are . . . two ways of
@@ -18122,16 +17769,14 @@ Professor Sellars goes on to say 'And he [ Popper ] is surely
 right [in holding the thesis I have just repudiated]. However, at
 this stage he [ Popper ] tacitly adds the premise ''E is about x'
 is a descriptive assertion".'
--300-
-It is hard for me to check whether or not I have added this
+-300It is hard for me to check whether or not I have added this
 premise tacitly at this stage, since 'this stage' is not indicated
 by Professor Sellars--or only indicated with the help of a
 reference to that alleged thesis of mine which I fail to find
 anywhere in my paper. (I may here warn readers that seven of
 the passages in quotation marks in this second part of
 Professor Sellars' paper are not quotations from my paper, as
-some might think. Two others, 'Name relation' and 'Causal-
-physicalistic', did occur in my paper, but the former hyphened,
+some might think. Two others, 'Name relation' and 'Causalphysicalistic', did occur in my paper, but the former hyphened,
 the latter unhyphened.)
 If, however, I have somewhere 'tacitly' and unconsciously
 added the premise which Professor Sellars says I have added
@@ -18186,8 +17831,7 @@ mind
 ____________________
 3 This is another instance of an about-statement A which
 describes an argument E.
--301-
-when, in another paragraph of my paper, I tried to show briefly
+-301when, in another paragraph of my paper, I tried to show briefly
 that the theory of 'category-mistakes' is also untenable.
 If I might here add to my arguments another, then I should say
 this. Assuming that, by the usages of our language,
@@ -18205,8 +17849,7 @@ Professor Ryle although, admittedly, the premises would be
 insufficient for a formal derivation of the conclusion.
 However, I am not prepared to grant the truth of this
 assumption, quite apart from my (and from Professor Smart's 4
-) objections to arguments based upon the idea of category-
-mistakes. I find very many of Professor Ryle's analyses most
+) objections to arguments based upon the idea of categorymistakes. I find very many of Professor Ryle's analyses most
 illuminating, but I can only say that ordinary English very often
 treats mental states and physical states on a par with each
 other; not only where it speaks of a 'mental disease', of a
@@ -18247,8 +17890,7 @@ ____________________
 Journal for the Philosophy of Science, 4, 1953, pp. 227 f.
 5 The Concept of Mind, p. 16 f. The example of the Colleges
 and the University is precisely analogous.
--302-
-this might be an outrage to military usage (although a battle in
+-302this might be an outrage to military usage (although a battle in
 which a division attacks a battalion is, I suppose, perfectly
 good military usage). But is it an outrage to ordinary English
 usage? And if not, can the mistake which the child undoubtedly
@@ -18257,7 +17899,7 @@ commit a category mistake (assuming such a thing exists) if we
 wrongly diagnose that the child's mistake was a category
 mistake?
 -303-
-14
+
 SELF-REFERENCE AND MEANING IN
 ORDINARY LANGUAGE
 
@@ -18301,8 +17943,7 @@ can't see anything extraordinary in it.
 Th. I am sorry if l was rude, Socrates; believe me, I only
 wanted to be brief, which was of some importance at that
 stage of our discussion. But I find
--304-
-it interesting that you think my question an ordinary one
+-304it interesting that you think my question an ordinary one
 (apart from its rudeness); for some philosophers might say
 that it is an impossible question--at any rate one which it is
 impossible to understand properly, since it can have no
@@ -18362,8 +18003,7 @@ establishes, I believe, that such paradoxes as the
 Epimenides cannot be solved by dwelling on the
 impossibility of self-referring assertions. For even if direct
 self-reference
--305-
-were impossible, or meaningless, indirect self-reference is
+-305were impossible, or meaningless, indirect self-reference is
 certainly quite a common thing. I may, for example, make
 the following comment: I am confidently looking forward to
 a clever and appropriate remark from you, Socrates.
@@ -18374,8 +18014,7 @@ flattering.
 Th. This shows how easily it may occur that a comment is a
 comment upon another one, which in its turn is a comment
 upon the first. But once we see that we cannot solve the
-paradoxes in this way, we shall also see that even direct self-
-reference may be perfectly in order. In fact, many examples of
+paradoxes in this way, we shall also see that even direct selfreference may be perfectly in order. In fact, many examples of
 non-paradoxical although directly self-referring assertions have
 been known for a long time; both of self-referring statements of
 a more or less empirical character and of self-referring
@@ -18417,8 +18056,7 @@ paradoxical, and that, since it is paradoxical, you can 'prove'
 whatever you like about it--its truth as well as its falsity.
 S. I have shown that the assumption of the truth of the
 assertion 'What I
--306-
-am now saying is meaningless' leads to an absurdity. Let
+-306am now saying is meaningless' leads to an absurdity. Let
 them show, by a similar argument, that the assumption of
 its falsity (or of the truth of your theorem) leads to an
 absurdity also. When they succeed in this, then they may
@@ -18477,8 +18115,7 @@ disprove it. This would make a conjecture such as
 Goldbach's meaningful the moment we have found a
 counter example (or a method of constructing one). But as
 long as we have not
--307-
-found a method of proving or disproving it, we cannot
+-307found a method of proving or disproving it, we cannot
 know whether or not it is meaningful.
 S. It does not seem right to me to denounce all
 conjectures or hypotheses as 'meaningless' or
@@ -18511,8 +18148,7 @@ question was meaningful, quod erat demonstrandum.
 Th. I wonder where you picked up all this Latin, Socrates.
 Still, I can find no flaw in your demonstration; it is, after all,
 only a version of your proof of what you call my 'theorem'.
-S. I think you have disposed of the suggestion that self-
-referring assertions are always meaningless. But I am sad
+S. I think you have disposed of the suggestion that selfreferring assertions are always meaningless. But I am sad
 at this admission, for it seemed such a straightforward way
 of getting rid of the paradoxes.
 Th. You need not be sad: there simply was no way out in
@@ -18539,8 +18175,7 @@ all possible to solve a paradox such as that of the liar on
 the basis of a classification into these three classes, even
 if we could prove that it belongs to this third class of
 meaningless utterances.
--308-
-OceanofPDF.com
+-308OceanofPDF.com
 
 
 S. I don't follow you. Assume they have succeeded in
@@ -18586,8 +18221,7 @@ seems sufficient and quite safe. At any rate, you can do
 nothing else in ordinary language, since paradoxes can be
 constructed in it, and are understandable, as we have
 seen.
-S. But could we not legislate, say, that any kind of self-
-reference, whether direct or indirect, should be avoided,
+S. But could we not legislate, say, that any kind of selfreference, whether direct or indirect, should be avoided,
 and thereby purify our language of paradoxes 9.
 Th. We might try to do this (although it might lead to new
 difficulties). But a language for which we legislate in this
@@ -18597,8 +18231,7 @@ that at least indirect self-reference is quite an ordinary
 thing?
 S. But for mathematics, say, a somewhat artificial
 language would be appropriate, would it not?
--309-
-Th. It would; and for the construction of a language with
+-309Th. It would; and for the construction of a language with
 artificial rules which, if it is properly done, might be called a
 
 
@@ -18611,8 +18244,7 @@ would you not?
 Th. No. We can avoid paradoxes without using such
 drastic measures.
 S. Do you call them drastic? Th. They are drastic because
-they would exclude some very interesting uses of self-
-reference, especially Gödel's method of constructing
+they would exclude some very interesting uses of selfreference, especially Gödel's method of constructing
 selfreferring statements, a method which has most
 important applications in my own field of interest, the
 theory of numbers. They are drastic, moreover, because
@@ -18641,8 +18273,7 @@ turned into an arithmetical code, as it were; and among the
 assertions which can be so coded there happens to be
 also the one which you have jokingly described as my
 theorem. To be a little more exact, the assertion which can
-be turned into Gödel's arithmetical code is the self-
-referring statement, 'This expression is a well-formed
+be turned into Gödel's arithmetical code is the selfreferring statement, 'This expression is a well-formed
 formula'; here 'well-formed formula' replaces, of course,
 the word 'meaningful'. I felt, you will remember, a little too
 sure for your liking that my theorem cannot be disproved.
@@ -18658,8 +18289,7 @@ corresponding arithmetical theorem; and since this would
 at once provide us with a method of proving '0 = 1,', I feel
 that I have good reasons for believing that my theorem
 cannot be disproved.
--310-
-S. Could you explain Gödel's method of coding without
+-310S. Could you explain Gödel's method of coding without
 getting involved in technicalities?
 Th. There is no need to do this since it has been done
 before--I do not mean before now, the supposed dramatic
@@ -18669,8 +18299,7 @@ date of this little dialogue of ours (which is about 400
 B.C.), but I mean before our dialogue will ever be
 concocted by its author, which won't take place before
 another 2,350 years have elapsed.
-S. I am shocked, Theaetetus, by these latest self-
-references of yours. You talk as if we were actors reciting
+S. I am shocked, Theaetetus, by these latest selfreferences of yours. You talk as if we were actors reciting
 the lines of a play. This is a trick which, I am afraid, some
 playwrights think witty, but hardly their victims; anyway, I
 don't. But even worse than any such self-referring joke is
@@ -18681,7 +18310,7 @@ Th. Come, Socrates, who cares about chronology? Ideas
 are timeless.
 S. Beware of metaphysics, Theaetetus!
 -311-
-15
+
 WHAT IS DIALECTIC?
 There is nothing we can imagine, however absurd or
 incredible, that has not been maintained by one
@@ -18726,8 +18355,7 @@ to play its role of bringing order into the world, of preparing
 
 us for future events, of drawing our attention to events we
 should otherwise never observe.
--312-
-which is obviously explicable in terms of the method of trial and
+-312which is obviously explicable in terms of the method of trial and
 error, seems to be characteristic of anything that may be called
 a development in human thought. The cases in which it does
 not occur are, in the main, those in which a certain theory or
@@ -18792,8 +18420,7 @@ and of the critical discussion of these theories, which
 includes the question whether they are able to account for
 empirical observations, or, using the old terminology,
 whether they are able to 'save the appearances'.
--313-
-be of limited value and will have its weak spots. The opposing
+-313be of limited value and will have its weak spots. The opposing
 idea or movement is called the 'antithesis', because it is
 directed against the first, the thesis. The struggle between the
 thesis and the antithesis goes on until some solution is reached
@@ -18856,8 +18483,7 @@ one German word 'aufgehoben' (literally 'lifted up') of whose
 ambiguity Hegel makes much use.
 
 
--314-
-The dialectician's emphasis involves still another point where
+-314The dialectician's emphasis involves still another point where
 dialectic may differ slightly from the general trial and error
 theory. For the trial and error theory as suggested above will be
 content to say that an unsatisfactory view will be refuted or
@@ -18974,8 +18600,7 @@ productive of progress, and we have admitted that this is, in a
 sense, true. It is true, however, only so long as we are
 determined not to put up with contradictions, and to change
 any theory which involves contradictions; in other words never
--316-
-to accept a contradiction: it is solely due to this determination
+-316to accept a contradiction: it is solely due to this determination
 of ours that criticism, i.e. the pointing out of contradictions,
 induces us to change our theories, and thereby to progress.
 
@@ -19036,8 +18661,7 @@ rejoinder in Mind, 52, 1943, pp. 47 ff. The considerations
 which follow here were known, in effect, to Duns Scotus (ob.
 1308), as has been shown by Jan Lukasiewicz in
 Erkenntnis, 5, p. 124.
--317-
-is valid if, and only if, it can never lead from true premises to a
+-317is valid if, and only if, it can never lead from true premises to a
 false conclusion; or, in other words, if it unfailingly transmits the
 truth of the premises (provided they are all true) to the
 conclusion.
@@ -19095,8 +18719,7 @@ bet if heads turned up at the first toss--in other words, that the
 compound statement on whose truth I was betting must be true
 if its first component was true; which shows that we argued in
 accordance with our first rule of inference.
--318-
-We can also state our first rule in this way
+-318We can also state our first rule in this way
 which may be read: 'from the premise p we obtain the
 conclusion pv q.'The second rule of inference which I am going
 to use is more familiar than the first. If we denote the negation
@@ -19144,8 +18767,7 @@ which adds to every information which it asserts also the
 negation of this information can give us no information at all. A
 theory which involves a contradiction is therefore entirely
 useless as a theory.
--319-
-In view of the importance of the logical situation analysed, I
+-319In view of the importance of the logical situation analysed, I
 shall now present some other rules of inference which lead to
 the same result. In contradistinction to rule (1), the rules now to
 be examined, and to be used, form part of the classical theory
@@ -19188,8 +18810,7 @@ from non-non b we may deduce b. Now
 
 ____________________
 7 Notably G. E. Moore.
--320-
-if rule (5) is valid for any statement a, b, c, which we choose
+-320if rule (5) is valid for any statement a, b, c, which we choose
 (and only then is it valid) then it must also be valid in case c
 happens to be identical with a; that is to say, the following must
 be valid
@@ -19238,8 +18859,7 @@ we cannot indeed derive 'q is possible' (for if p is false, q
 may be an impossible statement). Similarly, from 'p is
 possible' and 'non-p is possible' we clearly cannot deduce
 the possibility of all statements.
--321-
-contradictions involved. The acceptance of contradictions must
+-321contradictions involved. The acceptance of contradictions must
 lead here as everywhere to the end of criticism, and thus to the
 
 
@@ -19299,8 +18919,7 @@ a third stage, in a scientific, i.e. critical, spirit. Like such
 theories, dialectic is not applicable without exceptions--unless
 we force the dialectic interpretations--and like such theories,
 dialectic has no special affinity to logic.
--322-
-The vagueness of dialectic is another of its dangers. It makes it
+-322The vagueness of dialectic is another of its dangers. It makes it
 only too easy to force a dialectic interpretation on all sorts of
 developments and even on quite different things. We find, for
 instance, a dialectic interpretation which identifies a seed of
@@ -19361,8 +18980,7 @@ where no misunderstanding is possible, and where we
 ____________________
 9 Hecker, Moscow Dialogues, London, 1936, p. 99. The
 example is from the Anti-Dühring.
--323-
-are faced with a development of theories which does in fact
+-323are faced with a development of theories which does in fact
 proceed along the lines of a triad.
 2. HEGELIAN DIALECTIC
 So far I have tried to outline the idea of dialectic in a way which
@@ -19420,8 +19038,7 @@ empiricism. His main interest was to reject pure rationalism. In
 his Critique of Pure Reason he asserted that the scope of our
 knowledge is limited to the field of possible experience, and
 that
--324-
-speculative reasoning beyond this field--the attempt to build up
+-324speculative reasoning beyond this field--the attempt to build up
 a metaphysical system out of pure reason--has no justification
 whatever. This criticism of pure reason was felt as a terrible
 blow to the hopes of nearly all continental philosophers; yet
@@ -19447,16 +19064,14 @@ world?' (We might call this question the epistemological
 problem.)
 His reasoning was somewhat as follows. The mind can grasp
 the world, or rather the world as it appears to us, because this
-world is not utterly different from the mind--because it is mind-
-like. And it is so, because in the process of obtaining
+world is not utterly different from the mind--because it is mindlike. And it is so, because in the process of obtaining
 knowledge, of grasping the world, the mind is, so to speak,
 actively digesting all that material which enters it by the
 senses. It is forming, moulding this material; it impresses on it
 its own intrinsic forms or laws--the forms or laws of our thought.
 What we call 'nature'--the world in which we live, the world as it
 appears to us--is already a world digested, a world formed, by
-our minds. And being thus assimilated by the mind, it is mind-
-like.
+our minds. And being thus assimilated by the mind, it is mindlike.
 The answer, 'The mind can grasp the world because the world
 as it appears to us is mind-like' is an idealistic argument; for
 what idealism asserts is just that the world has something of
@@ -19482,8 +19097,7 @@ rightly --absurd.
 As I have said, Hegel in his idealism went further than Kant.
 Hegel, too, was concerned with the epistemological question,
 'How can our minds grasp
--325-
-the world?' With the other idealists, he answered: 'Because the
+-325the world?' With the other idealists, he answered: 'Because the
 world is mind-like.' But his theory was more radical than Kant's.
 He did not say, like Kant, 'Because the mind digests or forms
 the world'. He said, 'Because the mind is the world'; or in
@@ -19541,8 +19155,7 @@ ____________________
 considered it previously; but he of course rejected it.
 11 MacTaggart has made this point the centre of his interesting
 Studies in Hegelian Dialectic.
--326-
-self-evidence does not lead unambiguously to one and only
+-326self-evidence does not lead unambiguously to one and only
 one result or theory. It is always possible to argue, with similar
 apparent reasonableness, in favour of a number of different
 theories, and even of opposite theories. Thus if we get no help
@@ -19603,8 +19216,7 @@ dialectic is an element in Hegel's philosophy which had a good
 deal of plausibility. This
 
 
--327-
-becomes clear if we remember that Hegel uses the word
+-327becomes clear if we remember that Hegel uses the word
 'reason' not only in the subjective sense, to denote a certain
 mental capacity, but also in the objective sense, to denote all
 sorts of theories, thoughts, ideas and so on. Hegel, who holds
@@ -19660,8 +19272,7 @@ as I said, that it helps people to argue dogmatically. For we find
 only too often that dialecticians, when in logical difficulties, as a
 last resort tell their opponents that their criticism is mistaken
 because it is based on logic of the ordinary type
--328-
-instead of on dialectic; if they would only use dialectic, they
+-328instead of on dialectic; if they would only use dialectic, they
 would see that the contradictions which they have found in
 
 
@@ -19722,8 +19333,7 @@ expressions like 'reason', 'laws of thought', and so on; (c) the
 application of dialectic to 'the whole world', based on Hegel's
 panlogism and his philosophy of identity. These three points
 seem to me to be the
--329-
-main elements within Hegelian dialectic. Before I proceed to
+-329main elements within Hegelian dialectic. Before I proceed to
 outline the fate of dialectic after Hegel, I should like to express
 my personal opinion about Hegel's philosophy, and especially
 about his philosophy of identity. I think it represents the worst of
@@ -19737,8 +19347,7 @@ which it has been invented to answer--the question, 'How can
 our minds grasp the world?'--seems to me not to be at all
 clearly formulated. And the idealist answer, which has been
 varied by different idealist philosophers but remains
-fundamentally the same, namely, 'Because the world is mind-
-like', has only the appearance of an answer. We shall see
+fundamentally the same, namely, 'Because the world is mindlike', has only the appearance of an answer. We shall see
 clearly that it is not a real answer if we only consider some
 analogous argument, like: 'How can this mirror reflect my
 face?'-'Because it is face-like.' Although this sort of argument is
@@ -19749,8 +19358,7 @@ world?'--'Because the world is mathematics-like.' He argues
 thus that reality is of the very nature of mathematics--that the
 world is a mathematical thought (and therefore ideal). This
 argument is obviously no sounder than the following: 'How can
-language describe the world?'-'Because the world is language-
-like--it is linguistic', and no sounder than: 'How can the English
+language describe the world?'-'Because the world is languagelike--it is linguistic', and no sounder than: 'How can the English
 language describe the world?'--'Because the world is
 intrinsically British.' That this latter argument really is
 analogous to the one advanced by Jeans is easily seen if we
@@ -19783,8 +19391,7 @@ too primitive instruments of description.
 Jeans was uneasy about the fact that our world happens to suit
 mathematical formulae originally invented by pure
 mathematicians who did not intend
--330-
-at all to apply their formulae to the world. Apparently he
+-330at all to apply their formulae to the world. Apparently he
 originally started off as what I should call an 'inductivist'; that is,
 he thought that theories are obtained from experience by some
 more or less simple procedure of inference. If one starts from
@@ -19840,8 +19447,7 @@ idealism.
 These remarks apply particularly to the 'Dialectical Materialism'
 developed by Marx. The materialistic element in this theory
 could be comparatively
--331-
-easily reformulated in such a way that no serious objections to
+-331easily reformulated in such a way that no serious objections to
 it could be made. As far as I can see the main point is this:
 there is no reason to assume that whilst the natural sciences
 can proceed on the basis of the common man's realistic
@@ -19909,8 +19515,7 @@ much difference to the differences.) The passage is from
 Hegel Philosophy of Nature. See also the two similar
 passages on Sound and on Heat, quoted in my Open
 Society, note 4 to ch. 12, and text.
--332-
-historical method in sociology, a tendency which I have called
+-332historical method in sociology, a tendency which I have called
 'historicism'. The other is the anti-dogmatic tendency of Marx's
 dialectic.
 As for the first point, we have to remember that Hegel was one
@@ -19939,8 +19544,7 @@ followed Hegel very closely indeed, as may be shown by the
 following quotations. Hegel in his Encyclopaedia (Part I ch. VI,
 p. 81) described Dialectic as 'the universal and irresistible
 power before which nothing can stay, however secure and
-stable it may deem itself'. Similarly, Engels writes ( Anti-
-Dühring, Part I, 'Dialectics: Negation of the Negation'): 'What
+stable it may deem itself'. Similarly, Engels writes ( AntiDühring, Part I, 'Dialectics: Negation of the Negation'): 'What
 therefore is the negation of the negation? An extremely general
 . . . law of development of Nature, history and thought; a law
 which . . . holds good in the animal and plant kingdom, in
@@ -19971,8 +19575,7 @@ industrial revolution, and in a footnote he amplified this forecast
 by referring to the 'irresolute and non-resisting bourgeoisie'.
 Few Marxists will say nowadays that these predictions were
 successful.) Thus if
--333-
-forecasts based on dialectic are made, some will come true
+-333forecasts based on dialectic are made, some will come true
 and some will not. In the latter case, obviously, a situation will
 arise which has not been foreseen. But dialectic is vague and
 elastic enough to interpret and to explain this unforeseen
@@ -20012,8 +19615,7 @@ by Marxists.
 Hegel thought that philosophy develops; yet his own system
 was to remain the last and highest stage of this development
 and could not be superseded. The Marxists adopted the same
-attitude towards the Marxian system. Hence, Marx's anti-
-dogmatic attitude exists only in the theory and not in the
+attitude towards the Marxian system. Hence, Marx's antidogmatic attitude exists only in the theory and not in the
 practice of orthodox Marxism, and dialectic is used by Marxists,
 following the example of Engels' Anti-Dühring, mainly for the
 purposes of apologetics--to defend the Marxist system against
@@ -20034,8 +19636,7 @@ standard we can say that dialectic is unscientific: it is
 metaphysical.
 
 
--334-
-Yet there can be no worse obstacle to the growth of science
+-334Yet there can be no worse obstacle to the growth of science
 than a reinforced dogmatism. There can be no scientific
 development without the free competition of thought--this is the
 essence of the anti-dogmatic attitude once so strongly
@@ -20092,7 +19693,7 @@ be much more modest in their claims. One task which they can
 fulfil quite usefully is the study of the critical methods of
 science.
 -335-
-16
+
 PREDICTION AND PROPHECY IN THE
 SOCIAL SCIENCES
 
@@ -20133,8 +19734,7 @@ ____________________
 1 A fuller discussion of this problem, and of a number of
 related problems, will be found in my book The Poverty of
 Historicism, 1957, 1959, 1961.
--336-
-As a critic of Marxism, I shall try to interpret my task in a liberal
+-336As a critic of Marxism, I shall try to interpret my task in a liberal
 spirit. I shall feel free not only to criticize Marxism but also to
 defend certain of its contentions; and I shall feel free to simplify
 its doctrines radically.
@@ -20192,8 +19792,7 @@ decisive points into focus.
 
 The central ideas of the historicist method, and more especially
 of Marxism, seem to be these:
--337-
-a. It is a fact that we can predict solar eclipses with a high
+-337a. It is a fact that we can predict solar eclipses with a high
 degree of precision, and for a long time ahead. Why should
 we not be able to predict revolutions? Had a social scientist
 in 1780 known half as much about society as the old
@@ -20319,8 +19918,7 @@ science. These repetitive systems are special cases where
 scientific prediction becomes particularly impressive-but that is
 all. Apart from this very exceptional case, the solar system,
 recurrent or cyclic systems are known especially in the field of
-biology. The life cycles of organisms are part of a semi-
-stationary or very slowly changing biological chain of events.
+biology. The life cycles of organisms are part of a semistationary or very slowly changing biological chain of events.
 Scientific predictions about life cycles of organisms can be
 made in so far as we abstract from the slow evolutionary
 changes, that is to say, in so far as we treat the biological
@@ -20369,8 +19967,7 @@ paragraph, Morgenthau's anti-rationalism can be understood
 as resulting from the disillusionment of a historicist who
 cannot conceive of any form of rationalism except a
 historicist form.
--340-
-the natural sciences suffer affects the social sciences, only
+-340the natural sciences suffer affects the social sciences, only
 more so. Because of its quantitative extension, it affects here
 not only theoretical structure but also practical usefulness.'
 
@@ -20428,8 +20025,7 @@ modern form, it is the typical result of the secularization of
 religious superstitions. The belief in the Homeric gods whose
 conspiracies were responsible for the vicissitudes of the Trojan
 War is gone. But the place
--341-
-of the gods on Homer's Olympus is now taken by the Learned
+-341of the gods on Homer's Olympus is now taken by the Learned
 Elders of Zion, or by the monopolists, or the capitalists, or the
 imperialists.
 Against the conspiracy theory of society I do not, of course,
@@ -20489,8 +20085,7 @@ IX
 The view that it is the task of the theoretical sciences to
 discover the unintended consequences of our actions brings
 these sciences very close to the
--342-
-experimental natural sciences. The analogy cannot here be
+-342experimental natural sciences. The analogy cannot here be
 developed in detail, but it may be remarked that both lead us to
 the formulation of practical technological rules stating what we
 cannot do.
@@ -20548,8 +20143,7 @@ But if you begin to revolutionize society and to eradicate its
 traditions, you cannot stop this process if and when you
 please. In a revolution, everything is questioned, including the
 aims of the well-meaning revolutionaries; aims
--343-
-which grow from, and which were necessarily a part of, the
+-343which grow from, and which were necessarily a part of, the
 society which the revolution destroys.
 Some people say that they do not mind this; that it is their
 greatest wish to clean the canvas thoroughly--to create a social
@@ -20607,11 +20201,9 @@ cannot be changed without bloodshed, it cannot, in most
 cases, be removed at all. We need not quarrel about words,
 and about such pseudo-problems as the true or essential
 meaning of the word 'democracy'. You can choose whatever
-name you like for the two types of govern-
-____________________
+name you like for the two types of govern____________________
 3 The phrase is due to Julius Kraft.
--344-
-ment. I personally prefer to call the type of government which
+-344ment. I personally prefer to call the type of government which
 can be removed without violence 'democracy', and the other
 'tyranny'. But, as I said, this is not a quarrel about words, but
 an important distinction between two types of institutions.
@@ -20640,7 +20232,7 @@ developments--with a very considerable time-lag, to be sure.
 British social policy is now that of Bentham, and of John Stuart
 Mill who summed up its aim as that of 'securing full
 employment at high wages for the whole labouring population'.
-4
+
 I believe that philosophers should continue to discuss the
 proper aims of social policy in the light of the experience of the
 last fifty years. Instead of confining themselves to discussing
@@ -20671,8 +20263,7 @@ comments on public opinion see also chapter 17, below.)
 which it is advocated by L. J. Russell. (Cp. his paper
 'Propositions and Proposals', in the Proc. of the Tenth Intern.
 Congress of Philosophy, Amsterdam, 1948.)
--345-
-This modified Utilitarianism could, I believe, lead much more
+-345This modified Utilitarianism could, I believe, lead much more
 easily to agreement on social reform. For new ways of
 happiness are theoretical, unreal things, about which it may be
 difficult to form an opinion. But misery is with us, here and now,
@@ -20730,7 +20321,7 @@ above.
 legal positivism cp. F. A. Hayek , The Constitution of Liberty,
 1960, pp. 236 ff.
 -346-
-17
+
 PUBLIC OPINION AND LIBERAL
 PRINCIPLES
 THE following remarks were designed to provide material for
@@ -20765,8 +20356,7 @@ and mass-murder.) It may be wellintentioned but imprudent.
 plan.) Or it may be neither well-intentioned nor very prudent.
 (Example: the approval of the Runciman mission; the approval
 of the Munich agreement of 1938.)
--347-
-I believe nevertheless that there is a kernal of truth hidden in
+-347I believe nevertheless that there is a kernal of truth hidden in
 the vox populi myth. One might put it in this way: In spite of the
 limited information at their disposal, many simple men are often
 wiser than their governments; and if not wiser, then inspired by
@@ -20822,8 +20412,7 @@ comes, and the Ministry is beaten by a majority of twenty-three.
 nearer tenant-rights than we were before.'
 'But we are nearer to it.' 'In one sense, yes. Such a debate
 and such a majority will make men think. But
--348-
-no;--think is too high a word; as a rule men don't think. But
+-348no;--think is too high a word; as a rule men don't think. But
 it will make them believe that there is something in it.
 Many who before regarded legislation on the subject as
 chimerical, will now fancy that it is only dangerous, or
@@ -20884,8 +20473,7 @@ of power, and therefore particularly dangerous from the liberal
 point of view. (Example: colour bars and other racial
 questions.) The remedy in one direction is obvious: by
 minimizing the power of the state, the danger of the influence
--349-
-of public opinion, exerted through the agency of the state, will
+-349of public opinion, exerted through the agency of the state, will
 be reduced. But this does not secure the freedom of the
 individual's behaviour and thought from the direct pressure of
 public opinion. Here, the individual needs the powerful
@@ -20943,8 +20531,7 @@ democracy can do nothing--only the citizens of the democracy
 
 can act (including, of course, those citizens who comprise the
 government). Democracy provides no more than a framework
--350-
-within which the citizens may act in a more or less organized
+-350within which the citizens may act in a more or less organized
 and coherent way.
 (4) We are democrats, not because the majority is always right,
 but because democratic traditions are the least evil ones of
@@ -21057,8 +20644,7 @@ under the influence of critical discussion and in response to the
 challenge of new problems, may replace much of what is
 usually called 'public opinion', and take over the functions
 which public opinion is supposed to fulfil.
--352-
-5. THE FORMS OF PUBLIC
+-3525. THE FORMS OF PUBLIC
 OPINION
 There are two main forms of public opinion; institutionalized
 and noninstitutionalized.Examples of institutions serving or
@@ -21109,8 +20695,7 @@ moral enthusiasm of public opinion.
 4. Unconditional surrender.
 5. The Crichel-Down case.
 6. The British habit of accepting hardship without grumbling.
--353-
-8. SUMMARY
+-3538. SUMMARY
 That intangible and vague entity called public opinion
 sometimes reveals an unsophisticated shrewdness or, more
 typically, a moral sensitivity superior to that of the government
@@ -21131,7 +20716,7 @@ but neither the result of, nor under the control of, discussions of
 this kind. Their beneficial influence will be the greater the more
 honestly, simply, and clearly, these discussions are conducted.
 -354-
-18
+
 UTOPIA AND VIOLENCE
 THERE ARE many people who hate violence and are
 convinced that it is one of their foremost and at the same time
@@ -21174,8 +20759,7 @@ opinions differ, or
 ____________________
 1 This was written in 1947. Today I should alter this passage
 merely by replacing 'first' by 'second'.
--355-
-because their interests differ, or both. There are many kinds of
+-355because their interests differ, or both. There are many kinds of
 disagreement in social life which must be decided one way or
 another. The question may be one which must be settled,
 because failure to settle it may create new difficulties whose
@@ -21235,8 +20819,7 @@ many religious wars were fought for a religion of love and
 gentleness; how many bodies were burned alive with the
 genuinely kind intention of saving souls from the eternal fire of
 hell. Only
--356-
-if we give up our authoritarian attitude in the realm of opinion,
+-356if we give up our authoritarian attitude in the realm of opinion,
 only if we establish the attitude of give and take, of readiness
 to learn from other people, can we hope to control acts of
 violence inspired by piety and duty.
@@ -21297,8 +20880,7 @@ if it is so'. This attitude, to my mind, reveals weakness rather
 than the strength it wishes to show; it is not so much plain
 barbarism as an hysterical attempt to play the barbarian.
 (Cf. my Open Society, 4th edn., vol. n, p. 317.)
--357-
-many other people everywhere. It is on this basis that I now
+-357many other people everywhere. It is on this basis that I now
 propose to discuss the problem of Utopianism.
 I think we can describe Utopianism as a result of a form of
 rationalism, and I shall try to show that this is a form of
@@ -21358,8 +20940,7 @@ pernicious. It is, I believe, self-defeating, and it leads to
 violence.
 That it is self-defeating is connected with the fact that it is
 impossible to
--358-
-determine ends scientifically. There is no scientific way of
+-358determine ends scientifically. There is no scientific way of
 choosing between two ends. Some people, for example, love
 and venerate violence. For them a life without violence would
 be shallow and trivial. Many others, of whom I am one, hate
@@ -21418,8 +20999,7 @@ there can be no tolerance between these different Utopian
 religions. Utopian aims are designed to serve as a basis for
 rational political action and discussion, and such action
 appears to be possible only if
--359-
-the aim is definitely decided upon. Thus the Utopianist must
+-359the aim is definitely decided upon. Thus the Utopianist must
 win over, or else crush, his Utopianist competitors who do not
 share his own Utopian aims, and who do not profess his own
 Utopianist religion.
@@ -21477,8 +21057,7 @@ and the ill-treatment of minorities or perhaps majorities. I do not
 object to the attempt to realize such ideals.
 
 
--360-
-Wherein, then, lies the difference between those benevolent
+-360Wherein, then, lies the difference between those benevolent
 Utopian plans to which I object because they lead to violence,
 and those other important and far-reaching political reforms
 which I am inclined to recommend?
@@ -21534,14 +21113,12 @@ dreams and from the dreams of our poets and prophets. They
 cannot be discussed, only proclaimed from the housetops.
 They do not call for the rational attitude of the impartial judge,
 but for the emotional attitude of the impassioned preacher.
--361-
-OceanofPDF.com
+-361OceanofPDF.com
 
 
 The Utopianist attitude, therefore, is opposed to the attitude of
 reasonableness. Utopianism, even though it may often appear
-in a rationalist disguise, cannot be more than a pseudo-
-rationalism.
+in a rationalist disguise, cannot be more than a pseudorationalism.
 What, then, is wrong with the apparently rational argument
 which I outlined when presenting the Utopianist case? I believe
 that it is quite true that we can judge the rationality of an action
@@ -21597,8 +21174,7 @@ such as blackmail and war instigated by men like gods, by
 omnipotent and omniscient leaders. All this we might achieve if
 only we could give up dreaming about distant ideals and
 fighting over our Utopian blueprints for a new world and
--362-
-a new man. Those of us who believe in man as he is, and who
+-362a new man. Those of us who believe in man as he is, and who
 have therefore not given up the hope of defeating violence and
 unreason, must demand instead that every man should be
 given the right to arrange his life himself so far as this is
@@ -21655,7 +21231,7 @@ bond which unites them. Reason for him is the precise
 opposite of an instrument of power and violence: he sees it as
 a means whereby they may be tamed.
 -363-
-19
+
 THE HISTORY OF OUR TIME: AN
 OPTIMIST'S VIEW
 IN A SERIES of lectures instituted to keep alive the memory of
@@ -21695,8 +21271,7 @@ prophecy is a kind of quackery. 1 I do not believe in historical
 laws,
 ____________________
 1 See my Poverty of Historicism, 1957; and ch. 16.
--364-
-and I disbelieve especially in anything like a law of progress. In
+-364and I disbelieve especially in anything like a law of progress. In
 fact, I believe that it is much easier for us to regress than to
 
 
@@ -21753,8 +21328,7 @@ the word 'we' in this thesis, I include myself.
 You may perhaps ask me why my first thesis should be part of
 an optimist's view. There are various reasons. One is that
 wickedness is even more difficult
--365-
-to combat than a limited measure of stupidity, because good
+-365to combat than a limited measure of stupidity, because good
 men who are not very clever are usually very anxious to learn.
 Another reason is that I do not think that we are hopelessly
 stupid, and this is surely an optimist's view. What is wrong with
@@ -21813,8 +21387,7 @@ pamphlet, published as recently as 1942. In this pamphlet the
 then Bishop of Bradford attacked a certain form of society
 which he described as 'immoral' and 'un-Christian', and of
 which he said: 'when something is so plainly the work
--366-
-of the devil, . . . nothing can excuse a minister of the Church
+-366of the devil, . . . nothing can excuse a minister of the Church
 from working for its destruction'. The society which, in the
 Bishop's opinion, was the work of the devil was not Hitler's
 Germany or Stalin's Russia; it was our own Western society,
@@ -21854,8 +21427,7 @@ was a faith in a cause we know to be bad; today even party
 members know it. But they believed in it in all sincerity.
 We see how important this aspect of our troubles is if we
 remember that the great dictators were all forced to pay
-homage to the goodness of man. They were forced to pay lip-
-service to a morality in which they did not believe. Communism
+homage to the goodness of man. They were forced to pay lipservice to a morality in which they did not believe. Communism
 and nationalism are both believed in as moralities and
 
 
@@ -21866,8 +21438,7 @@ the belief in human freedom, it has produced a system of
 oppression without parallel in history.
 But the nationalist faith is equally absurd. I am not alluding
 here to Hitler's racial myth. What I have in mind is, rather, an
-alleged natural right of man-the alleged right of a nation to self-
-determination. That even a great humanitarian and liberal like
+alleged natural right of man-the alleged right of a nation to selfdetermination. That even a great humanitarian and liberal like
 Masaryk could uphold this absurdity as one of the natural rights
 of man is a sobering thought. It suffices to shake one's faith in
 ____________________
@@ -21875,8 +21446,7 @@ ____________________
 Cole, with a Foreword by the Bishop of Bradford, 1942. Cp.
 my Open Society and its Enemies ( 1950 and later editions),
 notes 3 and 4 to ch. 1, and note 12 to ch. 9.
--367-
-the wisdom of philosopher kings, and it should be
+-367the wisdom of philosopher kings, and it should be
 contemplated by all who think that we are clever but wicked
 rather than good but stupid. For the utter absurdity of the
 principle of national self-determination must be plain to
@@ -21937,8 +21507,7 @@ wickedness.
 The nationalist religion is strong. Many are ready to die for it,
 fervently believing that it is morally good, and factually true. But
 they are mistaken;
--368-
-just as mistaken as their communist bedfellows. Few creeds
+-368just as mistaken as their communist bedfellows. Few creeds
 have created more hatred, cruelty, and senseless suffering
 than the belief in the righteousness of the nationality principle;
 and yet it is still widely believed that this principle will help to
@@ -21998,8 +21567,7 @@ I believe that these are facts.
 But before examining these facts more closely, I wish to stress
 that I am very much alive to other facts also. Power still
 corrupts, even in our world.
--369-
-Civil servants still behave at times like uncivil masters. Pocket
+-369Civil servants still behave at times like uncivil masters. Pocket
 dictators still abound; and a normally intelligent man seeking
 medical advice must be prepared to be treated as a rather
 tiresome type of imbecile, if he betrays an intelligent interest--
@@ -22012,8 +21580,7 @@ successfully reorganized with the obvious aim of making them
 pleasant rather than depressing places, with due consideration
 for the sensitive, and for those whose self-respect may be
 wounded by practices now prevailing. And it is realized there
-how important it is to establish a genuine and intelligent co-
-operation between doctor and patient, and to ensure that a
+how important it is to establish a genuine and intelligent cooperation between doctor and patient, and to ensure that a
 man, even a sick man, should never be encouraged to
 surrender his final responsibility for himself.But let us turn to
 larger problems. Our free world has very nearly, if not
@@ -22052,8 +21619,7 @@ the everlasting pride of this country and of the United States.
 
 Religious discrimination has practically disappeared. Racial
 discrimination
--370-
-has diminished to an extent surpassing the hopes of the most
+-370has diminished to an extent surpassing the hopes of the most
 hopeful. What makes these two achievements even more
 astonishing is the fact that religious prejudices, and even more
 so racial prejudices, are probably as widespread as they were
@@ -22115,16 +21681,14 @@ ____________________
 3 This lecture was delivered before the Suez adventure. It
 seems to me that the sad history of this adventure supports
 my first three theses.
--371-
-heavy odds, as it has done more than once in the past. But it
+-371heavy odds, as it has done more than once in the past. But it
 will do this only if faced with unambiguous aggression. Thus as
 far as the free world itself is concerned war has been
 conquered.
 I have briefly discussed my list of eight great social evils.
 I believe that it is most important to say what the free world has
 achieved. For we have become unduly sceptical about
-ourselves. We are suspicious of anything like self-
-righteousness, and we find self-praise unpalatable. One of the
+ourselves. We are suspicious of anything like selfrighteousness, and we find self-praise unpalatable. One of the
 great things we have learned is not only to be tolerant of
 others, but to ask ourselves seriously whether the other fellow
 is not perhaps in the right, and altogether the better man. We
@@ -22132,8 +21696,7 @@ have learned the fundamental moral truth that nobody should
 be judge in his own cause. This, no doubt, is a symptom of a
 certain moral maturity; yet one may learn a lesson too well.
 Having discovered the sin of self-righteousness, we have fallen
-into its stereotyped inversion: into a stereotyped pose of self-
-depreciation, of inverted smugness. Having learned that one
+into its stereotyped inversion: into a stereotyped pose of selfdepreciation, of inverted smugness. Having learned that one
 should not be judge in one's own cause, we are tempted to
 become advocates for our opponents. Thus we become blind
 to our own achievements. But this tendency must be resisted.
@@ -22176,8 +21739,7 @@ terrible accusations against Great Britain, often originating from
 British sources,
 
 
--372-
-which are current in the world today. For I believe in the power
+-372which are current in the world today. For I believe in the power
 of ideas, including the power of false and pernicious ideas. And
 I believe in what I might call the war of ideas.
 The war of ideas is a Greek invention. It is one of the most
@@ -22292,8 +21854,7 @@ wisdom of the pessimists, they do not prove them right. On the
 contrary, I believe that, by and large, the verdict of history--I
 mean, of course, the history of our time -favours those who had
 faith in man and in human reason.
--374-
-For the society of our free world since the Reformation has
+-374For the society of our free world since the Reformation has
 indeed seen a decline of authority without parallel in any other
 
 
@@ -22353,8 +21914,7 @@ belief in the authority of objective truth is indispensable for a
 free society based on mutual respect. (This is why it is
 important not to let our thoughts be seriously influenced by
 such intellectual misunderstandings as relativism and
--375-
-irrationalism, the understandable results of disappointment with
+-375irrationalism, the understandable results of disappointment with
 dogmatism and authoritarianism.)
 But this critical approach makes room, at the same time, for a
 reconciliation between rationalism and traditionalism. The
@@ -22379,7 +21939,7 @@ them; how to approach them critically, how to tame them, and
 how to use them in our struggles, including our struggle to get
 a little nearer to the hidden truth.
 -376-
-20
+
 HUMANISM AND REASON
 THE FIRST of a series of books, Studia Humanitatis, published
 in Switzerland, is written in German by two friends, Ernesto
@@ -22398,8 +21958,7 @@ review is not only scholarly but also serene, some of its moods,
 and some of the conclusions drawn, may be difficult to
 appreciate for those who have no personal knowledge of the
 shattering experience of social disintegration through which it
-was the lot of these European thinkers to live. The neo-
-humanist movement is inspired by the conviction (shared by a
+was the lot of these European thinkers to live. The neohumanist movement is inspired by the conviction (shared by a
 number of other movements) that it knows both the causes and
 the cure of the widespread depravity and perversion of
 everything human which Central Europe has had to witness. Its
@@ -22437,8 +21996,7 @@ or the interest either of the whole or of its two parts.
 The first part, Grassi's contribution, is a philosophical essay on
 the essence of humanism. Its main topic is indicated by the
 German word Bildung (often translated by 'culture'), which is
-here understood as the growth, the development, or the self-
-formation of the human mind; and it attempts to reestablish an
+here understood as the growth, the development, or the selfformation of the human mind; and it attempts to reestablish an
 educational ideal of mental growth designed to meet the
 criticisms raised against the old humanistische Bildungsideal
 (the educational aim of the humanities) which, according to
@@ -22519,8 +22077,7 @@ among these are Grassi's emphasis on imaginative power
 mental growth; but his hint (pp. 102-3) that its role in the
 natural sciences is confined to that of tracing out their
 framework does not appear to me to do justice to them. One of
-the most interesting remarks from the educational or self-
-educational point of view is contained in Grassi's analysis of
+the most interesting remarks from the educational or selfeducational point of view is contained in Grassi's analysis of
 the 'humanistic conception of mental growth' (Bildung). In trying
 
 
@@ -22548,8 +22105,7 @@ approach to science, nor the need for it, is
 ____________________
 3 See chs. 4 f. of this volume. Cf. also note 6 to ch. 11 of my
 Open Society (revised editions).
--379-
-mentioned by Grassi; on the contrary, he seems to believe that
+-379mentioned by Grassi; on the contrary, he seems to believe that
 salvation lies in the realization and explicit recognition of the
 
 
@@ -22608,8 +22164,7 @@ behaviour of organs, tissues, cells, and, of course, whole
 organisms. The central idea of Uexküll's biology is that the
 most successful way of describing the behaviour of a whole
 organism is in terms of actions which follow certain schematic
--380-
-patterns or 'schemata', and that these 'schemata of action' and
+-380patterns or 'schemata', and that these 'schemata of action' and
 'rules of the game' may be understood as elaborations and
 modifications of a small number of fundamental schemata and
 rules. This idea appears at first sight attractive if not very
@@ -22644,8 +22199,7 @@ and even a shattering experience for a sensitive mind to realize
 the strangeness of this world. The magical and threatening
 character of this reality creates an impression before which all
 our old ideas and conception of nature must fail' (p. 179).
-Uexküll's extension of this approach to the problem of tissue-
-reactions, and of the use of physical and chemical methods, is,
+Uexküll's extension of this approach to the problem of tissuereactions, and of the use of physical and chemical methods, is,
 I can only repeat, of the greatest interest. He suggests that
 what we actually do in biochemistry is to construct imitative
 contraptions (dummies) serviceable as release signals for the
@@ -22671,8 +22225,7 @@ ____________________
 4 See K. Z. Lorenz, King Solomon's Ring (published in
 English in 1952, after the present review was first
 published).
--381-
-power to put familiar things in an entirely new light; and one
+-381power to put familiar things in an entirely new light; and one
 day they may well open a new era in biological thinking,
 especially in the fields of physiology and biochemistry--
 provided, of course, that the experimentalists take notice of
@@ -22719,8 +22272,7 @@ describing the failure of the aspirations of physics. This
 analysis appears to me to exhibit some typical and popular
 misunderstandings of the theory of relativity. (It is a mistake to
 maintain that the relativist universe does not know continuous
-time or continuous space, but only 'islandlike space-time-
-connections'; and it is a mistake to infer from the principle of
+time or continuous space, but only 'islandlike space-timeconnections'; and it is a mistake to infer from the principle of
 the equivalence of reference systems the relativization of
 
 
@@ -22734,8 +22286,7 @@ translation, 1920, p. XV; the second set of italics is mine):
 fundamental admission even of biology . . . . We always
 come up against objects that owe their construction [and so,
 presumably, their existence] to the subject.'
--382-
-invariance of spatio-temporal intervals.) Modern physics (pace
+-382invariance of spatio-temporal intervals.) Modern physics (pace
 Heisenberg) does attempt to give us a picture of the universe;
 whether this is drawn well or badly is, of course, a very different
 question. If we realize this, the suggestion that we must
@@ -22796,8 +22347,7 @@ are from the start somewhat different from other
 ____________________
 6 Cf. chs. 1 and 15, above.
 7 Cf. chs. 4 and 12, above.
--383-
-biological actions; this may be seen from the fact that each of
+-383biological actions; this may be seen from the fact that each of
 two schemata of biological actions which otherwise are
 indistinguishable may contain a myth (concerning, say, the
 origin of the world) which is contradictory to the other. For
@@ -22891,8 +22441,7 @@ ____________________
 by Carnap; see especially his Logical Foundations of
 Probability, 1950, p. 406, and also his Symbolische Logik,
 2nd edn., 1960, p. 21.
--385-
-Proceeding now to the notion of 'basic statements', there is a
+-385Proceeding now to the notion of 'basic statements', there is a
 point in which I wish to improve upon my discussion of what I
 have called 'basic statements' in The Logic of Scientific
 Discovery (see especially sections 28 and 29). I introduced the
@@ -22905,8 +22454,7 @@ exacting empiricist we may be confronted with, provided that
 these requirements are not less exacting than our own
 (objectivist) minimum requirements. These are: (i) basic
 statements state (truly or falsely) the existence of observable
-facts (occurrences) within some sufficiently narrow spatio-
-temporal region. (ii) The negation of a basic statement will not
+facts (occurrences) within some sufficiently narrow spatiotemporal region. (ii) The negation of a basic statement will not
 be in general basic. In some simple cases of basic statements
 (example: 'There is now a full grown Great Dane in my study')
 
@@ -22952,8 +22500,7 @@ not wish to admit conditional statements such as 'If there is a
 raven in this room then it is black', or 'If there is a mosquito in
 this room then it is an anopheles'. These are no doubt
 empirical statements;
--386-
-but they are not of the character of test statements of theories
+-386but they are not of the character of test statements of theories
 but rather of instantiation statements, and therefore less
 interesting, and less 'basic', from the point of view of the theory
 of knowledge here expounded; a theory of knowledge which
@@ -23016,8 +22563,7 @@ L.Sc.D.
 3 L.Sc.D., section 25, p. 95; new appendix *X, (1) to (4), pp.
 422-6. See also for example chs. 1 (sections iv and v) and 3
 (section 6, the last six paragraphs) of the present volume.
--387-
-What has been said here about 'glass' and 'water' holds for all
+-387What has been said here about 'glass' and 'water' holds for all
 descriptive universals. The famous cat on the mat so much
 beloved by empiricists (I too find cats endearing) is an entity
 even more highly theoretical than is either glass or water. All
@@ -23072,8 +22618,7 @@ p(a,c)).
 Here '(a)' abbreviates 'for every a'; '(Ea)' abbreviates 'there
 exists an a'; '↔' abbreviates 'if and only if'; and '. . . → . . .'
 abbreviates 'if . . .
--388-
-OceanofPDF.com
+-388OceanofPDF.com
 
 
 then . . .'. (Later we also shall use '&' as an abbreviation for
@@ -23130,8 +22675,7 @@ see, for example, P. Suppes, Introduction to Logic, 1957, p.
 NonCreative Definitions in the Calculus of Probability'".
 
 
--389-
-More interesting for various reasons is the following equivalent
+-389More interesting for various reasons is the following equivalent
 recursive definitionD 3 (Ind) (i) as before (ii) (a) as before (b)
 Ind n (a 1, . . . ,a n ;a n + 1 b) (c) (i)(1 ≤ i ≤ n → p(a i,a n + 1 b) =
 p(a i,b)). These definitions may be strengthened: for an infinitist
@@ -23171,8 +22715,7 @@ the severity of the test simply by its content Ct′:
 4. S′(e,b) = Ct′(e,b) = 1/p(e,b).
 ____________________
 6 See L.Sc.D., note *2 to section 83 (p. 270).
--390-
-We may now generalize these definitions by relaxing the
+-390We may now generalize these definitions by relaxing the
 demand that e logically follows from h and b, or even the
 weaker demand that
 p(e,hb) = 1
@@ -23225,8 +22768,7 @@ ____________________
 7 See L.Sc.D., p. 404.
 8 Ibid., pp. 402-6.
 9 Ibid., pp. 400-2.
--391-
-take 'T' to denote the class of all true statements of some more
+-391take 'T' to denote the class of all true statements of some more
 or less artificial language (object language; see section 5,
 below). And we may by
 a ε T
@@ -23249,8 +22791,7 @@ assume that today is Monday. Then the statement 'Today is
 Tuesday' will be false. But this false statement will entail a
 number of true statements, such as 'Today is not Wednesday'
 or 'Today is either Monday or Tuesday'; and the class of all
-those true statements which it entails will be its (logical) truth-
-content. In other words, the fact that every false statement
+those true statements which it entails will be its (logical) truthcontent. In other words, the fact that every false statement
 entails a class of true statements is the basis for ascribing a
 truth-content to every false statement.
 We therefore shall define the (logical) truth-content of the
@@ -23281,8 +22822,7 @@ a T = a v t
 ____________________
 10 Note that we do not use here 't' for 'tautology', for which we
 shall later introduce the symbol 'tautol'.
--392-
-As a result of this definition we have (using '⊢' for 'entails' or
+-392As a result of this definition we have (using '⊢' for 'entails' or
 'from . . . follows . . .')
 a ⊢ a T
 and therefore also
@@ -23305,8 +22845,7 @@ If a ε T, then a T = a, and Ct T (a) = Ct(a)
 In order to define ' Vs(a)'--that is (a measure of) the
 verisimilitude of a-we need not only the truth-content of a but
 also its falsity-content--or a measure of it--since we wish to
-define Vs(a) as something like the difference of the truth-
-content and the falsity-content of a. But the definition of a
+define Vs(a) as something like the difference of the truthcontent and the falsity-content of a. But the definition of a
 falsity-content of a, or something to serve in its place, is not
 quite simple, owing to the fundamental fact that, while T can be
 said to form a consequence class or content (the content of t,
@@ -23333,8 +22872,7 @@ Desideratum (iv) should be compared and contrasted with the
 theorem
 Ct T (tautol) = Ct(tautol) = 0
 where 'tautol' is a name of a tautological statement.
--393-
-Ct T (a) = 0 → Ct F (a) = Ct(a)
+-393Ct T (a) = 0 → Ct F (a) = Ct(a)
 Ct F (a) = 0 → Ct F (a) = Ct(a )
 Ct T (a) + Ct F (a) = Ct(a)
 (the reason for putting here '≥' rather than '=' will be seen if we
@@ -23379,8 +22917,7 @@ Ct T (a) = (Ct (a) - Ct F (a))/ p(a,a T ) = (Ct T (a) -
 Ct F (a))/ (1 - Ct F (a))
 see (iii)
 see (15)
--394-
-We also obtain from (15)
+-394We also obtain from (15)
 CtF(a) - Ct T (a) Ct F (a) = Ct(a) - Ct T (a)
 and thus
 Ct T (a) + Ct F (a) = Ct(a) + Ct T (a) Ct F (a)
@@ -23412,8 +22949,7 @@ obtainable in our system; and since Ct(contrad) =1, we obtain
 for Ct(a←a T ) = Ct(contrad←t) = 1 - p(contrad v -t) =p(t). Now
 while CtT(contrad) = Ct(t) would be quite unobjectionable--it is
 a clear consequence of a satisfactory definition of Ct T (a) and
-of the fact that everything, and therefore t, follows from a self-
-contradictory statement--this is not so with Ct F (contrad) = p(t);
+of the fact that everything, and therefore t, follows from a selfcontradictory statement--this is not so with Ct F (contrad) = p(t);
 for this would allow, in most cases, the falsity-content of a
 contradiction to be smaller than its truth-content, while we
 should expect the falsity-content of a contradiction to be at
@@ -23431,8 +22967,7 @@ truth-content of a contradictory statement would greatly exceed
 the falsity-content, which is clearly counter-intuitive. This is the
 reason for adopting our desideratum (iv); and this desideratum
 leads to cases in which Ct T (a) + Ct F (a)Ct(a).
--395-
-It will be seen from all this that our desideratum (iv) might be
+-395It will be seen from all this that our desideratum (iv) might be
 replaced by the following two highly intuitive ones:
 (vi, a)
 Ct F (contrad) = constant
@@ -23454,8 +22989,7 @@ probability of some statement a, given some other statement b.
 excess,
 Exc(a, b) = p(a←b) - p(a, b),
 of the conditional probability over the relative probability.)
-Having defined the measures of truth-content and of falsity-
-content we may now proceed to define the Vs(a), the
+Having defined the measures of truth-content and of falsitycontent we may now proceed to define the Vs(a), the
 verisimilitude of a. As long as we are merely interested in
 comparative values, we could use
 Ct T (a) - Ct F (a) = p(a,a T ) - p(a T )
@@ -23480,8 +23014,7 @@ shows: let our universe contain a denumerably infinite set of
 exclusive possibilities, a 1, a 2, . . . and let p(a 1 ) = 1/2, p(a 2 ) =
 1/4, p(a 3 ) = 1/8, p(a n ) = 1/2n; let, moreover, just one of these
 possibilities be realized: t = a 1 ; then Ct(t) = 1/2.
--396-
-It is thus preferable to replace, for purposes of numerical
+-396It is thus preferable to replace, for purposes of numerical
 calculations, p(a,aT) - p(aT) by a normalized form; we choose
 the normalizing factor 1 / (p(a,aT) + p(aT)); that is to say, we
 define, as indicated:Vs(a) = (p(a,aT) - p(aT)) / (p(a,aT +
@@ -23507,8 +23040,7 @@ hypotheses) I see no possibility of attaching numerical values
 (other than 0 and 1) to our measures of probability or content.
 Pure probability theory and pure content theory are, in this
 respect, like Euclidean geometry: there is no actual unit
-defined in Euclidean geometry. (The definition of the Paris unit-
-meter is decidedly extra-geometrical.) There is no need to
+defined in Euclidean geometry. (The definition of the Paris unitmeter is decidedly extra-geometrical.) There is no need to
 worry if pure probability theory or content theory do not supply
 us with actual numerical values (except 0 and 1). Their status
 is thus, in many respects, more like topology than metrical
@@ -23571,10 +23103,8 @@ is correct. Admittedly,
 ____________________
 12 '6 v 5 v 4', and '6 v 4', is here shorthand for 'either 6 or 5 or
 4 will turn up', and 'either 6 or 4 will turn up'.
--398-
-it needs a language--an object-language--with a certain degree
-of artificiality; and it needs a distinction between an object-
-language and a metalanguage--a distinction which is
+-398it needs a language--an object-language--with a certain degree
+of artificiality; and it needs a distinction between an objectlanguage and a metalanguage--a distinction which is
 somewhat artificial. But although by introducing certain
 precautions into ordinary language we rob it of its 'natural'
 character and make it artificial, we do not necessarily formalize
@@ -23590,15 +23120,14 @@ considerable importance, and especially important for the
 philosophical evaluation of the theory of truth.
 -399-
 [This page intentionally left blank.]
--400-
-INDEX OF NAMES
+-400INDEX OF NAMES
 ('q' stands for 'quoted', and 'n' for 'note'.)
 Ackermann, W., 263
 Adler, A., 34 f, 37, 157
 Agassi, J., 221 n, 248 n, 284 & n, 285
 Anaxagoras, 82 n, 88 n- 89 & n
 Anaximander, 136, 138 q & n- 143, 145, 147, 150, 155,
-159
+
 Anaximenes, 139, 141, 143, 145, 147
 Andersen, Hans, 299
 Antiphon, 237 q
@@ -23682,8 +23211,7 @@ Crusius, C. A., 180 n
 Davisson, C. J., 220
 Democritus, 16 f, 28, 79 - 84 & n, 86 - 9 & n, 92, 102, 142,
 153 q, 159
--401-
-Descartes, R., 3 n- 5, 7 - 10, 12 & n- 17, 19, 26, 72, 88 n,
+-401Descartes, R., 3 n- 5, 7 - 10, 12 & n- 17, 19, 26, 72, 88 n,
 89, 106, 107 & n, 154, 176, 188, 312 q, 324, 330
 Dickens, Charles, 133
 Diels, H., 9 n, 82 n, 87 n, 88 n, 89 n, 92 n, 157, 160 n, 236
@@ -23853,7 +23381,7 @@ MacTaggart, J., 326 n
 Magee, B., ix
 March, A., 83 n
 Marx, K., 34, 37, 125 n, 157, 331 f, 333 q- 336, 338, 342 f,
-346
+
 Masaryk, T. G., 367 f
 Maxwell, J, C., 82, 88 n, 89, 105, 114, 142, 146, 220 f
 Melissus, 148
@@ -23904,8 +23432,7 @@ Ovid, 161 n
 Parikh, S. C., ix, 401 n
 Parmenides, 9, 11 q & n, 12, 17 f, 38, 79 & n, 80, 81 & n,
 83 & n, 88, 89 n, 90 n,
--403-
-117, 142, 145 ff, 150, 159 & n, 164, 236 q, 237 n
+-403117, 142, 145 ff, 150, 159 & n, 164, 236 q, 237 n
 Pauli, W., 88 n
 Peary, Robert E., 117
 Peirce, C. S., 226, 231 n, 240 & n
@@ -23981,7 +23508,7 @@ Suppes, P., 389 n
 Swedenborg, E., 281
 Tarski, Alfred, 27, 116 n, 157, 208, 210, 211 n, 223 - 7,
 229, 231 f, 234, 254, 269 & n, 271 - 3, 280 n, 310, 391,
-398
+
 Thales, 50, 102, 136 - 9, 141 - 3, 148, 150 f, 155
 Theaetetus, 83 n, 304 ff
 Theodorus, 83 n, 310
@@ -24010,8 +23537,7 @@ Willamovitz, M., 237 n
 Wittgenstein, L., 39, 40 q, 41 n, 55 & n, 67 - 74, 89 f, 105,
 108, 136, 166 n, 171, 214 n, 223 & n, 254 f, 258 n-60 & n,
 264, 270 q & nq, 271 - 3, 279, 280 n, 283
--404-
-Wright, H, M., 83 n
+-404Wright, H, M., 83 n
 Wright, Thomas, 177
 Xenophanes, 11 & n, 16, 25, 26 q, 79 q, 115 n, 145 q, 147,
 150 ff, 225 f, 229, 236 q, 237 & n
@@ -24022,8 +23548,7 @@ Zermelo, E., 263
 Zeus, 9, 126, 162
 
 
--405-
-a priori and a posteriori, 47 f, 74 & n, 191, 289 ff
+-405a priori and a posteriori, 47 f, 74 & n, 191, 289 ff
 action, -- at a distance, 107 ; -- at vanishing distances, 107
 n; -- by contact, 107 n; -- (Handlung) schema, 380 ff
 ad hoc, ad hocness, ad hoc hypotheses, 37, 61, 75, 93,
@@ -24042,7 +23567,7 @@ antinomies, -- of Kant, 177 n & ff, 326 f; logical --, see
 paradox, logical
 antithesis, see dialectic triad apeiron, 142 f
 argument, -- from inconceivability, 207 ; transcendental --,
-291
+
 archaeology, 28
 arrhētos, 84 n, 86
 astrology as a typical pseudo-science, 34, 37 f, 40, 53,
@@ -24097,8 +23622,7 @@ causal, -- chain, 297 f; -- model of the name-relation, 297,
 law of causality, 47
 chance discovery, 28, 128, 220 f
 change, problem of --, 79 ff, 137, 142 ff, 158 f, 162, 164
--406-
-combustion, oxygen theory of --, 220 ; phlogiston theory of
+-406combustion, oxygen theory of --, 220 ; phlogiston theory of
 --, 142 n, 220
 communism, 367, 369
 complementarity, principle of --, 100 f, 114
@@ -24156,7 +23680,7 @@ ff, see also meaning; inductive method as a criterion of --,
 33 ff, 52 ff, 255, 280 ff; problem of --, 33, 39, 52 ff, 58, 253
 ff; testability as a criterion of --, 37, 39, 52, 196 f, 249 f, 256
 ; verifiability as a criterion of --, 40 f, 249, 253, 261, 273,
-281
+
 derivation, see inference
 descriptive, -- signs, 211 f; -- view of science, see
 instrumentalism
@@ -24191,8 +23715,7 @@ epistemological, -- optimism, 5 ff, 28, 348, 374, see also
 truth, theory of manifest; -- pessimism, 6, 9 ff, 28, 374 ; --
 pragmatism, 5, 99, 223, 378, 382, see also truth, pragmatic
 theory of; -- relativism, 4 ; -- traditionalism, 6 ff
--407-
-error, problem of --, 7, see also truth, theory of manifest
+-407error, problem of --, 7, see also truth, theory of manifest
 essence, -- of matter as extension, 19, 106 f; essences, 10,
 12, 14 f, 168 & n, 169 f, 273, 350 ; essentialism, 12, 66 f,
 103 ff, 106 ff, 115, 169 & n, 173, 259 & n, 260 n, 278 n;
@@ -24262,7 +23785,7 @@ transcendental --, 179 & n
 ideas, clear and distinct --, 4 f, 7, 17, 324 ; Plato's theory of
 --, see form, Plato's theory of forms
 identity, Boolean --, 389 ; Hegel's philosophy of --, 326 ff,
-382
+
 ideology, total --, 57, 373
 ignorance, conspiracy theory of --, 3 ff; sources of --, 3 ff
 incompleteness theorems of Gödel, 268 f
@@ -24273,7 +23796,7 @@ theory of --, 12 ff, 137 ff, 200 ; Hume on --, 42 ff, 189 ff,
 200, 289 ; -- as a criterion of demarcation, see under
 demarcation; -machine, 48, 200 ; myth of --, 33, 154 f, 185,
 189, 219, 247 f, 268, 289, 331 ; problem of --, 42, 52 ff, 63,
-254
+
 inertia, 106
 inference, 19, 56 ; applicability of the rules of --, 201, 204
 ff; principle of --, see modus ponendo ponens; rules of --,
@@ -24285,12 +23808,11 @@ Thales' cosmology, 139 ; -- in tracing sources of knowledge
 in observation, 21 ff
 
 
--408-
-initial conditions, 55, 103, 284, 288, 390
+-408initial conditions, 55, 103, 284, 288, 390
 Inquisition, 97, 356
 institutions, ambivalence of social --, 133 f, 351 ; social --,
 125, 133, 353, 357, 367 ; theory of political --, 25, 344 f,
-350
+
 instrumentalism, 62 f, 97 - 117, 166 ff, 173, 223, 226 & n,
 235, 245, 248 n, 382
 intellectual, -- intuition, 9, 28, 325 ; -- intuition as a source
@@ -24374,8 +23896,7 @@ Munich agreement, 247 f, 353
 Muses as a source of knowledge, 9, 11
 myths, the origins of science in --, 38, 50, 126 ff, 187, 190,
 257 & n, 379 & n
--409-
-Nationalism, 367 ff
+-409Nationalism, 367 ff
 Nazism, 123 ff, 355 f, 366
 Neanderthal man, 129
 neutral monism, 260, 294
@@ -24391,7 +23912,7 @@ philosophical origins of --, 138 & n
 nihilism, 194 f, 352, see also irrationalism
 Noetian heresy, 163
 nominalism, 20, 109 ff, 258 n, 262 ff; nominalist language,
-262
+
 Numbers, generation of --, 91 n; mysticism about --, see
 Pythagoreanism; oblong --, 77 f; problem of irrational --,
 see under irrational; sets of natural --, 88 n; square --, 76 ;
@@ -24405,7 +23926,7 @@ knowledge, 4 ff, 38 n, 42 ff, 51 ff, 128 ff, 137 ff, 170, 180,
 basic statement and protocol statement; systematic --, 127
 f; true nature and role of --, 24, 27 f, 36, 47, 51, 127 ff, 152,
 156, 187 ff, 192, 197, 215 f, 222, 256 ; observationalism,
-123
+
 Oedipus, -- complex, 35 ; -- effect, 38 n, 123
 Okham's razor, 108, 171
 operationalism, 62 f, 167, 278, 382
@@ -24466,8 +23987,7 @@ quasi-quotation, 202 n
 quid facti and quid juris, 45, 64
 rationalism, classical --, see intellectualism; critical --, 26 ff,
 49 ff, 120 f, 194, 200, 215 ff, 221, 228 f, 292, 313 ff, 337,
--410-
-355 ff, 376, 384, see also tradition, rationalist
+-410355 ff, 376, 384, see also tradition, rationalist
 realism, 63, 213, 325 ; naïve --, 100, 213 ; political --, 373 ;
 reality, 115 ff, 212 ff, 383 ; reality and appearance, 10 ff, 78
 ff, 98, 102 & n, 108, 11 ff, 145 ff, 159 ff, 168 ff
@@ -24554,8 +24074,7 @@ Totalitarianism, 335
 tradition, critical --, see tradition, rationalist; democratic --,
 350 ff; problem of --, 120 ff; rational theory of --, 120 - 35 ;
 rationalist --, 26, 50 f,
--411-
-101 ff, 121 ff, 125 ff, 134 ff, 149 ff, 154 f, 188, 352, 373,
+-411101 ff, 121 ff, 125 ff, 134 ff, 149 ff, 154 f, 188, 352, 373,
 384, see also rationalism, critical; -- as a source of
 knowledge, 27 ff; traditionalism, 6, 120 f, 132, 374 f
 truth, approach to the --, 30, 151, 174, 216 f, 226, 229, 231
@@ -24621,5 +24140,4 @@ as a house, 141 f
 [This page intentionally left blank.]
 -413-
 [This page intentionally left blank.]
--414-
-OceanofPDF.com
+-414OceanofPDF.com
