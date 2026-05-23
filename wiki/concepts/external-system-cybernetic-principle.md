@@ -171,3 +171,98 @@ AI = «more knowledgeable external system» available cheaply. AI commoditisatio
 ---
 
 *Tier A standalone wiki created 2026-05-22 per Ruslan R1 ack. Cybernetic principle articulated by Ruslan voice + direct Ashby/Beer/Meadows corroboration. R12 paired-frame conformant via voluntary opt-in clause. Substrate compile only — no R1 strategic prose authored.*
+
+---
+
+## §APPEND-2026-05-23-batch-12-O-159-scale-framing — Largest-platform ambition + scale-as-external-feedback-requirement
+
+Per Ruslan R1 ack-all 2026-05-23 voice «все D12-* в Википедию». Этот append extends cybernetic principle с scale-framing — what happens to external-system requirement when system scales к **largest-platform-in-world** ambition.
+
+### §H Scale anchor (audio_730 batch-12-quick claim 12)
+
+**Voice verbatim:**
+> «глобальной идеи что вот это новый метод и потом ответственный подход к жизни и потом, что это реально имеет все возможности стать наибольшей, сука, платформой в мире»
+
+**Scale claim:** Jetix has potential to scale к «largest platform in world» — global ambition explicit.
+
+### §I Scale + external-feedback requirement compound
+
+**Cybernetic implication of scale:** Чем больше система → тем больше variety required по Ashby's law → тем выше demand на **external feedback diversity**.
+
+Mass-scale Jetix не освобождает от external-system requirement — **усиливает** его. Без diverse external-feedback layer, scale = blind spot accumulation = systemic fragility (Meadows feedback-from-outside pattern; Beer S4+S5 viability requirement scales linearly с system size).
+
+**Implication для Jetix:**
+- Single brigadier hub-and-spoke (Foundation Part 4 §H) — viable до cohort N
+- При N → mass cohort, hub-and-spoke must federalise (multiple brigadier-equivalent external-feedback layers per region / cohort / language)
+- R12 fork-and-leave preserved при scale (Mondragón ratio cap + QF revenue distribution + fork tokens per `swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md`)
+
+### §J R12-respectful largest-platform framing
+
+⚠️ Critical: «largest platform in world» framing must **preserve R12 anti-extraction commitments**. Pitch reframe options:
+- Default verbatim (audio_730): «largest platform in world» — для Ruslan internal monologue
+- Pitch-soften: «platform with sustainable global reach + R12-anchored anti-extraction guarantees» — public-facing
+- Cohort-recruit: «foundation для mass-scale humanity-grade methodology distribution» — recruit-facing
+
+**Wage-ratio-cap RUSLAN-LAYER action class** + **fork-and-leave exit tokens** + **non-consensual-distribution prohibition** = pre-conditions для scale claim being R12-respectful. Без them, scale = extraction-mechanism.
+
+[src: `swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md` 4 RUSLAN-LAYER action classes; Charter v0 LOCKED 2026-05-12]
+
+---
+
+## §APPEND-2026-05-23-batch-12-O-163-substrate-saturation-hypothesis — Testable hypothesis sub-claim
+
+Per Ruslan R1 ack-all 2026-05-23 voice «все D12-* в Википедию». Этот append surfaces **testable hypothesis sub-claim** (O-163) — substrate-saturation status of Jetix system.
+
+### §K Substrate-saturation claim (audio_731 batch-12-quick claims 1+2+3+7+11)
+
+**Voice verbatim:**
+> «информации о том, как строить ебейшие системы … уже все есть. То есть вся информация наружу … интеллекта у нас достаточно … клауд коды»
+
+**Claim:** at 23.05.2026 — substrate (information + methods + tools) is **sufficient** для Wave 1 promotion-mode execution. Additional substrate-build не bottleneck; bottleneck = external-system engagement (per main cybernetic principle).
+
+### §L Why this is testable hypothesis
+
+**Hypothesis H-batch-12-substrate-saturation:** «substrate (information + methods + tools) состояние 23.05.2026 sufficient для Wave 1 outreach без gap-blocking».
+
+**Refutation criteria (refuted_if_*):**
+- IF Wave 1 outreach reveals specific substrate gap documented by ≥3 of first 5 contacts → hypothesis refuted partial
+- IF substrate gap blocks first-cohort onboarding (Дмитрий или Сева) → hypothesis refuted strong
+- IF promotion-mode work pattern requires return к substrate-build > 30% time allocation in first 2 weeks → hypothesis refuted weak
+
+**Test design:**
+- First 5 Wave 1 contacts log substrate-gap-feedback в `reports/wave-1-feedback/` (append-only per A.6.B)
+- Дмитрий + Сева first-cohort feedback explicit captured
+- Weekly self-assessment Ruslan: % time spent on substrate-build vs promotion / outreach
+
+### §M Cybernetic-principle paired-flag
+
+**Important nuance per main cybernetic principle:** O-163 «substrate sufficient» does NOT mean «system can self-manage без external-feedback». Substrate sufficiency = pre-condition для promotion-mode engagement; external-system requirement = ongoing necessity.
+
+Substrate saturation ≠ system saturation. External-feedback systems (Дмитрий / Сева / Wave 1 cohort / mentor Anton / Левенчук) continue being structurally required per main wiki §1.
+
+### §N Compound с promotion-mode transition
+
+**Linked wiki:** [[development-promotion-mode-transition]] §6.1 — substrate-saturation premature claim risk explicit. O-163 hypothesis = testable mechanism для validating O-160 phase-transition correctness.
+
+If O-163 refuted → revisit O-160 timing (premature transition). If confirmed → O-160 fixation validated.
+
+### §O Cross-cite
+
+| Source | Что говорит |
+|---|---|
+| `raw/voice-memos-2026-05-23-batch/audio_730@*.md` | O-159 scale claim verbatim |
+| `raw/voice-memos-2026-05-23-batch/audio_731@*.md` | O-163 substrate-saturation verbatim |
+| `reports/voice-batch-12-quick-2026-05-23/02-key-ideas-pool-candidates.md` O-159 + O-163 | Pool entries + hypothesis sub-claim noted |
+| `decisions/strategic/POINT-A-CURRENT-STATE-2026-05-23.md` §0 | Substrate inventory factual baseline |
+| `swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md` | R12 RUSLAN-LAYER action classes |
+| Charter v0 LOCKED 2026-05-12 | R12 baseline canonical |
+| [[development-promotion-mode-transition]] §6.1 | Substrate-saturation premature claim risk paired |
+| [[jetix-as-exokortex]] §APPEND-batch-12 O-157 | Distribution sequence operationalisation |
+
+### §P Promotion history append
+
+- **2026-05-23 batch-12-quick:** O-159 + O-163 surfaced as Tier B pool entries
+- **2026-05-23 batch-12-quick:** O-163 explicit Hypothesis-pool entry (testable sub-claim)
+- **2026-05-23 evening:** Ruslan R1 ack-all «все D12-* в Википедию» → этот §APPEND created (dual O-159 scale-framing + O-163 hypothesis sub-claim)
+
+[src: audio_730 + audio_731 batch-12-quick (2026-05-23 evening); `prompts/point-b-compact-2026-05-23-evening.md` §7 D12-* mapping]

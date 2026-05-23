@@ -212,3 +212,67 @@ Exocortex as institutionalised external managing system **must NOT extract value
 - **Research pool trigger:** DR-40 ⭐ External-system cybernetic benchmarks (Ashby/Beer/Meadows/Sutton-Barto/Karpathy/Polanyi/Vygotsky) — Ruslan ack pending для launch
 
 [src: audio_721 claim 5, 6, 8, 9-12 (batch-10-supplement 2026-05-22 12:11); `reports/voice-pipeline-2026-05-22-batch-10/05-candidates-3-buckets.md` O-128 ⭐⭐⭐; `prompts/wiki-promotions-batch-10-2026-05-22.md` Phase 6 §APPEND reinforcement target]
+
+---
+
+## §APPEND-2026-05-23-batch-12-O-157 — Distribution layer: Дмитрий + Сева first-cohort sequencing
+
+Per Ruslan R1 ack-all 2026-05-23 voice «все D12-* в Википедию». Этот append extends exocortex articulation с **distribution-layer operationalisation** — concrete sequencing для первой cohort distribution.
+
+### §H Distribution sequence (audio_730 batch-12-quick claims 4+5+8+9+10)
+
+**Voice anchor verbatim:**
+> «потом берется вот первые люди как раз из их аудитории да вот это сева плюс дмитрий … берется вот это их аудитория ну и с этой же аудитория идет как раз далее платформой продвигаться»
+
+**Concrete sequence (operational):**
+
+```mermaid
+graph LR
+    A[Substrate ready<br>1509 commits<br>4 LOCKED canonical] --> B[Ruslan + brigadier]
+    B --> C[Дмитрий<br>humanities-bridge<br>созвон 22.05 ✅]
+    B --> D[Сева<br>crypto-bridge<br>DRAFT-only intake]
+    C --> E[Дмитрий audience<br>humanities subset]
+    D --> F[Сева audience<br>crypto subset]
+    E --> G[Wave 1.5<br>cross-pollination cohort]
+    F --> G
+    G --> H[Platform-scale<br>distribution<br>2-month horizon]
+    H --> I[Mass exocortex<br>access widening]
+```
+
+### §I Why this sequence matters для exocortex distribution
+
+**Bottleneck identification:** exocortex value is not extracted via direct «product purchase»; value transfers via **embedded methodological practice** within cohort context. First-cohort therefore must combine:
+- High alignment с positive target-profile ([[cohort-target-profile-ontology]] 6 dimensions)
+- Existing audience через which downstream growth happens
+- Mutual-trust pre-established (CRM substrate / past collaboration)
+
+Дмитрий fits all three. Сева fits two of three (audience + alignment; trust developing).
+
+### §J Compound с external-system principle
+
+Per [[external-system-cybernetic-principle]] §3.3 — partnerships = role-swap external-systems. Дмитрий не recipient only; Дмитрий = external-system на determinate domains (humanities bridge; YouTube channel mastery; RU audience knowledge). Bidirectional flow:
+- Jetix substrate → Дмитрий (exocortex transmission)
+- Дмитрий expertise → Jetix (humanities lens на substrate refinement)
+
+= не extraction; не replacement; pair-dynamic per [[student-teacher-pair-dynamic]] same batch-10.
+
+### §K Notion-MVP tactical pairing
+
+Distribution sequence requires shareable artefact format. Per [[notion-mvp-bypass-pattern]] (D12-6 batch-12-quick) — Notion-шаблон = first-cohort delivery mechanism для exocortex transmission без platform-dependency delay.
+
+### §L R12 paired-frame check
+
+- Distribution ≠ extraction. Each cohort member retains fork-and-leave per R12 RUSLAN-LAYER action class
+- Each member's audience referral = voluntary (no commission / no pressure mechanism); members can choose не to introduce
+- Wage-ratio-cap action class applies к compensation arrangements если formalised
+- Charter v0 LOCKED 2026-05-12 baseline preserved
+
+[src: audio_730 batch-12-quick claims 4+5+8+9+10 (2026-05-23 evening); CRM Дмитрий-LOCKED entry 22.05; `reports/voice-batch-12-quick-2026-05-23/02-key-ideas-pool-candidates.md` O-157 ⭐]
+
+### §M Promotion history append
+
+- **2026-05-23 batch-12-quick:** O-157 surfaced as Tier B pool entry (audio_730 claims 4+5+8+9+10)
+- **2026-05-23 evening:** Ruslan R1 ack-all «все D12-* в Википедию» → этот §APPEND created
+- **CRM operational:** O-165 Sources-inventory (Ворсик / Дмитрий / Сева) — CRM update deferred to Plan-of-Day Шаг 6 (operational artefact)
+
+[src: Ruslan voice ack-all 2026-05-23; `prompts/point-b-compact-2026-05-23-evening.md` §7 D12-* mapping]

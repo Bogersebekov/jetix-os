@@ -198,3 +198,69 @@ Operational invocation pattern для one-liner — **3-question self-check prot
 - **2026-05-22 batch-10 closure:** Ruslan R1 ack «макать всё в Википедию + Тир А ебаш» → этот §APPEND created + 5 sibling Tier A wikis created (Phase 1-5 same batch)
 
 [src: Ruslan voice ack 2026-05-22 «макать всё»; `prompts/wiki-promotions-batch-10-2026-05-22.md` Phase 6 §APPEND target]
+
+---
+
+## §APPEND-2026-05-23-batch-12 — L4 phase-transition application + O-156 drive-layer + O-164 self-reframe
+
+Per Ruslan R1 ack-all 2026-05-23 voice «все D12-* в Википедию». Этот append extends method-method one-liner с **L4 self-application phase-transition layer** (O-160 compound) + O-156 drive-component + O-164 self-reframe articulation.
+
+### §F O-156 — Всемогущество-drive (drive-layer for метод-метод activation)
+
+**Voice anchor (audio_729 batch-12-quick claims 1-3):**
+> «всемогущества Что это такое? Все могу Мочь все Соответственно вот это вот Тоже одна из задач как бы Интеллекта»
+
+**Compound с layer 1:** Метод-метод abstract («метод по объединению методов по улучшению системы самой себя») requires activation driver. **Всемогущество = мочь всё** = framing для intellect-task. Без этого drive метод-метод remains theoretical abstraction.
+
+**4-component drive model** (cumulative с batch-11 O-138 + O-153):
+1. **Желание-уметь-всё** (audio_729 O-156) — directional drive
+2. **Foundational-values-engagement** (batch-11 O-138) — value alignment
+3. **Intellect-as-gate** (batch-11 O-153) — cognitive readiness
+4. **1000% голодный + ускоренный + развитый** (batch-10 audio_719 component 9-12 state overlay) — state-density
+
+[src: audio_729 batch-12-quick claims 1-3; cumulative compound с O-138 + O-153; [[meta-method-8-component-composition]] state-component 9-12 overlay]
+
+### §G O-164 — Метод-методов self-reframe + рассматриваем чужие методы как один из тысяч
+
+**Voice anchor (audio_731 batch-12-quick claim 9):**
+> «методом методов. Методом по выбору методов используемся. И то, что у вас там какие-то, блядь, пару методов есть, ну, можете себе оставить … Мы их рассматриваем как один из, блядь, тысяч, и потом собираем из них, блядь, наилучшее»
+
+**Compound interpretation:** L1 metaphor «солянка / Frankenstein» (O-122 batch-10) extends + sharpens. Чужие методы **не отвергаются** (anti-cult discipline); **не privileged** (anti-monomania discipline). Каждый рассматривается как один из тысяч + composed selectively.
+
+**Operational stance:**
+- Никакая single methodology = single-source-of-truth (per O-128 external-system-cybernetic-principle external feedback requirement)
+- Caвдый метод evaluated по components-of-value extraction
+- Composition selectivity > exclusive adoption
+- Humility preserved: «свою солянку» still local; не universalist claim
+
+### §H ⭐⭐⭐ O-160 — L4 phase-transition application (метод-метод knows its own phases)
+
+**Voice anchor (audio_731 batch-12-quick claim 12):**
+> «я уже все закончил этот режим вот девелопмента и разработки … я это фиксирую и снова-таки там вот переключаю режим с постройки вот фундамента на обертку на обертку продвижения информации общения с людьми общения с командой»
+
+**L4 compound layer (added 2026-05-23):** метод-метод **знает свои фазы**. Не just abstract тооl применяемый ad hoc; а phase-aware self-applying engine.
+
+| Layer | Source | Что добавляет |
+|---|---|---|
+| L1 (abstract) | audio_712 batch-9 | Canonical one-liner |
+| L2 (operational substantiation) | batch-10 O-121/122/124 | 8-component composition + Frankenstein + 3-question self-check |
+| L3 (cybernetic operand) | batch-10-supplement O-128 | External operand required |
+| **L4 (phase-transition self-application)** | **batch-12-quick O-160** | **Метод-метод self-applies к own life-cycle: development → promotion → ...** |
+
+**L4 insight:** один из applications метод-методов — на себя самого. Метод-метод знает свои фазы (build vs ship; substrate vs distribute) и переключается между ними per substrate-state. = recursive engine применяет себя к собственному life-cycle = self-aware methodology.
+
+**Canonical phase-transition wiki:** [[development-promotion-mode-transition]] (Tier A standalone created same batch).
+
+### §I Cross-links updated (batch-12 sibling wikis)
+
+- [[development-promotion-mode-transition]] — L4 phase-transition application (Tier A NEW; D12-1 ⭐⭐⭐)
+- [[notion-mvp-bypass-pattern]] — tactical pattern for promotion-mode startup (D12-6)
+- [[cohort-target-profile-ontology]] — selection mechanic для promotion-mode engagement (D12-2 + D12-11)
+
+### §J Promotion history append
+
+- **2026-05-23 batch-12-quick:** O-156 + O-160 + O-164 surfaced as Tier B pool entries (audio_729 + audio_731)
+- **2026-05-23 evening:** Ruslan R1 ack-all «все D12-* в Википедию» → этот §APPEND created (bundled 3 ideas converging на этот wiki) + 3 NEW Tier A/B-plus sibling wikis created
+- **R1 future slot:** Ruslan-authored direction-card / Plan-of-Day / Strategic Reflection update — reserved для O-160 phase-transition
+
+[src: Ruslan voice ack-all 2026-05-23; `prompts/point-b-compact-2026-05-23-evening.md` §7 D12-* promotion mapping; audio_729 + audio_731 batch-12-quick]
