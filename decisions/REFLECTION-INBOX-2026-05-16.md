@@ -1323,3 +1323,99 @@ DR-34 AI commoditisation / DR-37 Question-driven inquiry / DR-38 ⭐⭐ 8-compon
 6. Updated Plan 22.05 evening already synthesised (Phase 7 этого batch); Ruslan reads for closure
 
 [src: `reports/voice-pipeline-2026-05-22-batch-11/05-candidates-3-buckets.md` + 06-key-actions-list.md + 03-17-lenses-cross-analysis.md + per-audio MDs `raw/voice-memos-2026-05-22-batch-2/audio_722..728@*.md`]
+
+
+---
+
+## §APPEND-batch-12-quick (2026-05-23 evening) — voice-batch-12-quick-2026-05-23 (11 D12-* decisions)
+
+> Voice batch-12-quick LIGHT processing closure (3 audio 729-731, 23.05 18:50). Per prompt `prompts/voice-batch-12-quick-2026-05-23.md` QUICK mode (NOT full 17-lens). Per «без сверхъестественного нового» Ruslan posture — minimal Tier A; everything в pool. 1 ⭐⭐⭐ MAJOR fixation item (O-160 development→promotion transition) + 1 ⭐⭐⭐ concern (D12-3 selection-mechanic anti-discrimination surface) — Ruslan ack required.
+
+### D12-1 ⭐⭐⭐ — O-160 «Development mode закончен → switch promotion mode» MAJOR transition fixation disposition [P1 ⭐⭐⭐]
+
+**Substrate:** `audio_731` claim 12 — explicit verbatim «я уже все закончил этот режим вот девелопмента и разработки … я это фиксирую и снова-таки там вот переключаю режим с постройки вот фундамента на обертку на обертку продвижения информации общения с людьми общения с командой». Compound с batch-11 D11-3 substrate-enrichment уже-ACK + Foundation v1.0 LOCK 2026-04-28.
+
+**Ack question for Ruslan:** (a) Pool Tier B only (default «без сверхъестественного нового»; fixation = substrate but not strategic-prose-worthy yet)? (b) §APPEND direction-card update «phase-transition Q2 2026: substrate → promotion» (lighter)? (c) §APPEND Plan-of-Day 2026-05-24+ «promotion-mode focus» + Strategic Reflection (Pillar A doc-type)? (d) NEW Tier A wiki/strategy/jetix-phase-transition-2026-05-23.md (Pillar A Lock Entry candidate; heaviest)?
+
+**⚠️ Constitutional flag:** R1 strategic-prose authority = Ruslan only (CLAUDE.md §4.1 rule 1). Agent NE может pick. Pool Tier B (a) is default-deny-safe.
+
+### D12-2 ⭐⭐ — O-161 target-profile-ontology «голодный + слюна-течёт + хочет-на-самый-верх + дисциплина + ответственность» promotion path? [P1 ⭐⭐]
+
+**Substrate:** `audio_731` claims 5+10+6 — «для тех кто сука голоден … слюна течет … хочет на самый верх … интеллект использовать развивать … машить плотнейшим». Cross-batch compound с O-138 batch-11 foundational-values + O-153 batch-11 intellect-as-gate. На любом уровне: школьники / 40-летние / трейдеры / блогеры.
+
+**Ack question:** (a) Pool Tier B (default)? (b) §APPEND `wiki/jetix-as-exokortex.md` target-profile section? (c) NEW Tier A wiki/concepts/jetix-target-profile-ontology.md? (d) §APPEND L13 §B intellect-stack OR §D personal-origin?
+
+### D12-3 ⭐⭐⭐ — O-161 + O-162 dual selection-mechanic anti-discrimination concern surface [P1 ⭐⭐⭐]
+
+**Surface concern (NOT recommendation):** O-161 mentions «школьники» в target. O-162 mentions «мега-популярные» в anti-target. External-facing copy may need:
+- (1) Selection-by-state framing review (community design — could be R12-LOCK-adjacent)
+- (2) School-children mention requires age-appropriate framing для outreach
+
+**Ack question:** (a) Substrate-only fine — Ruslan internal monologue, не для external? (b) Flag for outreach-copy review (KA-XX KA-pitch-soften pattern compound с batch-10 KA-45)?
+
+### D12-4 ⭐ — O-156 всемогущество-как-задача-интеллекта pool disposition [P2 ⭐]
+
+**Substrate:** `audio_729` claims 1-3 — «всемогущества … Все могу … Мочь все … одна из задач Интеллекта». Compound с O-138 + O-153 + batch-10 audio_719.
+
+**Ack question:** (a) Pool Tier B (default)? (b) §APPEND wiki/mastery-formula.md? (c) §APPEND wiki/jetix-foundational-values-declaration.md if D11-2 promoted? (d) NEW Tier A wiki/concepts/всемогущество-как-задача-интеллекта.md?
+
+### D12-5 ⭐ — O-157 sequencing-Дмитрий-Сева CRM update + outreach-channel cohort [P1 ⭐]
+
+**Substrate:** `audio_730` claims 4+5+8+9+10 — «дмитрию даю … сева подключаю … первые люди из их аудитории … далее платформой продвигаться». Concrete CRM-action surfaced.
+
+**Ack question:** (a) Pool Tier B (default)? (b) Update CRM Дмитрий §11 + crm/log.md entry? (c) Add new CRM Сева DRAFT entry (status `draft_from_voice`)? (d) Direction-card update «outreach-channel Дмитрий+Сева Q2 cohort»?
+
+**Recommended (b)+(c) per CRM voice-pipeline DRAFT-only invariant (CLAUDE.md §4.2).**
+
+### D12-6 — O-158 Notion-MVP-bypass tooling pattern pool disposition [P3]
+
+**Substrate:** `audio_730` claim 8 — «дмитрию … даже платформу делать не нужно мы ему все заебашим в ноушен … шаблон … стратегический документ … ресурсы … использовать … что получить».
+
+**Ack question:** (a) Pool Tier B (default; tactical pattern)? (b) §APPEND L13 §J meta-method «tooling-pattern: Notion-shaped MVP for human-pace»? (c) Direction-card «Дмитрий Notion-MVP design» action?
+
+### D12-7 ⭐ — O-159 глобальная-идея-largest-platform vision-frame Tier A promotion path? [P2 ⭐]
+
+**Substrate:** `audio_730` claim 12 — «глобальной идеи что вот это новый метод и потом ответственный подход к жизни и потом, что это реально имеет все возможности стать наибольшей, сука, платформой в мире». Compound с batch-10 Mim-vision + batch-11 O-138.
+
+**Ack question:** (a) Pool Tier B (default)? (b) §APPEND L14 Strategic Plan §1 vision-level «largest-platform-ambition» R12-respectful framing (extraction-cap retained)? (c) NEW Tier A wiki/strategy/jetix-largest-platform-vision.md (heaviest)?
+
+**⚠️ Constitutional flag:** R1 strategic-prose authority = Ruslan only. If (b)/(c) — agent draft = shadow only, Ruslan authors.
+
+### D12-8 ⭐ — O-163 substrate-saturation-claim Hypothesis pool addition? [P2 ⭐]
+
+**Substrate:** `audio_731` claims 1+2+3+7+11 — «информации … уже все есть. То есть вся информация наружу … интеллекта у нас достаточно … клауд коды … методы … уже есть». LOCK-adjacent (echoes Foundation v1.0 LOCK 2026-04-28).
+
+**Ack question:** (a) Pool Tier B only (default)? (b) Add к Hypothesis pool «H-XX substrate-sufficient-for-Wave-1-promotion» (refuted_if_Wave_1_outreach_reveals_documented_gap)? (c) §APPEND substrate-state-report?
+
+### D12-9 ⭐ — O-164 метод-методов-self-reframe pool disposition [P2 ⭐]
+
+**Substrate:** `audio_731` claim 9 — «методом методов. Методом по выбору методов используемся. … чужие методы … один из, блядь, тысяч, и потом собираем … наилучшее». Compound с L13 §J + O-148 batch-11 + O-132 batch-10-supp + Tseren-corpus.
+
+**Ack question:** (a) Pool Tier B (default)? (b) §APPEND L13 §J meta-method (compound с D11-3 + D11-7)? (c) §APPEND wiki/all-is-information.md? (d) §APPEND wiki/sense-of-measure.md?
+
+### D12-10 — O-165 sources-inventory Ворсик-Дмитрий-Сева CRM-overlap [P3]
+
+**Substrate:** `audio_731` claim 14 — «ворсик клуб … продукты программисты … Дмитрий гуманитарщина … Сева с криптой … криптоны».
+
+**Ack question:** (a) Pool Tier B (default)? (b) Update CRM + People-NS H7 «channels-inventory» (compound H7 People-NS LOCKED 2026-05-12)? (c) Direction-card outreach-channels list?
+
+### D12-11 — O-162 anti-target-ontology companion disposition [P3]
+
+**Substrate:** `audio_731` claims 4+8+14 + `audio_730` claim 14 Mim. Companion с O-161 (D12-2).
+
+**Ack question:** (a) Pool Tier B (default; rides with O-161 disposition)? (b) §APPEND companion section in wiki target-profile (если D12-2 → option b/c)?
+
+### Sequence (compound с batch-10 + batch-11 ack-loops)
+
+1. Ruslan reviews D12-1..D12-11 (15-30 min — quicker than batch-11 D11-* due to QUICK mode prep)
+2. Brigadier (server CC) executes per ack pattern matching batch-10/11 closure
+3. §APPEND drafts in shadow files (`*-batch-12-additions.md`) → Ruslan reviews → promotes
+4. CRM entries D12-5/D12-10 → DRAFT-only per CLAUDE.md §4.2 invariant
+5. R1 strategic prose (D12-1 options b/c/d + D12-7 options b/c) → Ruslan authors only; agent draft = shadow
+6. Compound с batch-11 D11-* ack queue (still active): D11-3 + D12-9 / D11-2 + D12-2 / D11-11 + D12-1 / D11-7+D11-9 + D12-9+D12-8 natural pairings
+
+### Default-deny-safe collapse если Ruslan silent
+
+All 11 → (a) Pool Tier B (73 → 83 candidates). No wiki promotions. No LOCK modifications. CRM DRAFT-only. Wait next session.
+
+[src: `reports/voice-batch-12-quick-2026-05-23/02-key-ideas-pool-candidates.md` + 03-wiki-promotion-candidates.md + 04-point-b-integration-note.md + per-audio MDs `raw/voice-memos-2026-05-23-batch/audio_729..731@*.md` + transcripts `raw/voice-transcripts/audio_729..731@*.txt`]
