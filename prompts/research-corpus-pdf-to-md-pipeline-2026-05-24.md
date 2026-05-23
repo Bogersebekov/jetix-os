@@ -14,14 +14,25 @@ estimated_cost: <€5 (Mistral OCR API для scans only)
 language: russian primary (output MD)
 priority: ⭐⭐⭐ PRE-research processing — MUST finish ДО 4 research prompts can run на текст
 parent_inventory: raw/external/research-corpus-2026-05-23/README.md
-source_corpus: raw/external/research-corpus-2026-05-23/<bucket>/*.pdf
-output: raw/external/research-corpus-2026-05-23/<bucket>/*.md (parallel name)
+source_corpus_primary: raw/external/research-corpus-2026-05-23/<bucket>/*.pdf (56 NEW books)
+source_corpus_existing:
+  - inbox/*/*.pdf (60+ existing books across 18 domain folders)
+  - inbox-reocr/*/*.pdf (8 already-OCR'd books from cybernetics/mgmt/etc.)
+  - raw/external/levenchuk-books-2026-05-20/*.pdf (5 Levenchuk books — Методология 2025 / Системное мышление 2024 / Интеллект-Стек 2023 / Инженерия Личности)
+  - raw/external/levenchuk-corpus-2026-05-17/ (Levenchuk basic corpus)
+  - raw/external/ailev-FPF/FPF-Spec.md (already MD; skip)
+  - raw/external/harari-corpus-2026-05-18/
+  - raw/external/tseren-github-2026-05-17/
+output: parallel <bookname>.md next to PDF (same folder)
 ram_constraint: medium; OK single launch; processing parallelizable per file
+total_books_target: ~130+ across all corpora (56 new + ~74 existing)
 ---
 
-# 📄 Research Corpus PDF→MD Pipeline
+# 📄 Research Corpus PDF→MD Pipeline (ALL repo PDFs)
 
-> **Trigger:** 56 books vendored в `raw/external/research-corpus-2026-05-23/<bucket>/`. Need converting to MD для server CC research prompts processing.
+> **Trigger:** 56 NEW books vendored в `raw/external/research-corpus-2026-05-23/` + 60+ EXISTING books в `inbox/` + `inbox-reocr/` + Levenchuk books в `raw/external/levenchuk-books-2026-05-20/`. Need converting **ALL** to MD для server CC research prompts processing.
+>
+> **CRITICAL:** Process **BOTH new corpus AND existing repo library** — total ~130+ PDFs to MD.
 
 ---
 
@@ -29,8 +40,14 @@ ram_constraint: medium; OK single launch; processing parallelizable per file
 
 1. **Memory:** constitutional + fpf-first + breadth + no-unsolicited
 2. **Substrate read:**
-   - `raw/external/research-corpus-2026-05-23/README.md` (inventory)
-   - Existing OCR pipeline patterns в репо: `inbox-reocr/` folder + scripts если есть
+   - `raw/external/research-corpus-2026-05-23/README.md` (inventory NEW corpus)
+   - **`inbox/` folder** — full enumeration ALL subdirs (anthropic / biology / clean-code / complexity / cybernetics / engineering-foundations / event-sourcing / investing / mgmt / pdm / philosophy / philosophy-science / pm / sre / systems / unix + other)
+   - **`inbox-reocr/` folder** — already-OCR'd books (clean-code / cybernetics / engineering-foundations / mgmt / pdm / philosophy-science)
+   - **`raw/external/levenchuk-books-2026-05-20/`** — 5 Levenchuk books PDFs + 00-INVENTORY.md
+   - `raw/external/levenchuk-corpus-2026-05-17/` Левенчук basic
+   - `raw/external/harari-corpus-2026-05-18/` Harari
+   - `raw/external/tseren-github-2026-05-17/` Цэрэн
+   - `raw/external/ailev-FPF/FPF-Spec.md` — already MD; reference but NOT re-process
    - `.venv-ocr/` если установлено
    - `tools/` для possible existing PDF processing scripts
 3. **Tools available на server CC:**
@@ -43,17 +60,18 @@ ram_constraint: medium; OK single launch; processing parallelizable per file
 
 ---
 
-## §1 7 Phases
+## §1 8 Phases
 
 | # | Phase | Output |
 |---|---|---|
-| **0** | Pre-flight + tool inventory check + corpus inventory verification | `reports/research-corpus-pipeline-2026-05-24/phase-0-tools.md` |
-| **1** | ⭐ **Detect scan vs text** per PDF (use pymupdf + heuristic — если первые 5 страниц текст extractable >100 char each → text-based; else → scan) | `01-scan-vs-text-classification.md` |
-| **2** | ⭐⭐ **Text-based PDFs → MD** (pdftotext или pymupdf) — fast batch processing | per-PDF `<bookname>.md` next to PDF; phase `02-text-extraction-log.md` |
-| **3** | ⭐⭐ **Scan PDFs → OCR → MD** (use Mistral OCR API per existing pipeline; fallback Tesseract если quota issue) | per-PDF `<bookname>.md`; phase `03-ocr-log.md` |
-| **4** | ⭐ **Quality clean** per MD — remove headers/footers (recurring lines) + page numbers + ToC artifacts + OCR errors (common typos) | per-PDF `<bookname>-cleaned.md` (или overwrite); phase `04-cleanup-log.md` |
-| **5** | **Identify _unknown/ files** — first 3-5 pages + Google search title; assign to bucket + rename | updated README.md inventory; phase `05-unknown-identification.md` |
-| **6** | **Quality report** — per book: success/failure + token count + scan/text status + quality grade (A/B/C) + recommended re-OCR list | `00-SUMMARY-FOR-RUSLAN.md` (≤1500w) + push |
+| **0** | Pre-flight + tool inventory check + **FULL corpus enumeration** (ВСЕ PDF в repo: research-corpus-2026-05-23 NEW + inbox + inbox-reocr + raw/external/levenchuk-books-2026-05-20 + others) — expected ~130+ PDFs total | `reports/research-corpus-pipeline-2026-05-24/phase-0-full-inventory.md` (list ALL PDFs with paths + sizes + bucket assignment) |
+| **1** | ⭐ **Detect scan vs text** per PDF (pymupdf heuristic — первые 5 страниц text >100 chars → text-based; else scan) | `01-scan-vs-text-classification.md` |
+| **2** | ⭐⭐ **Text-based PDFs → MD** (pdftotext или pymupdf) — fast batch processing для ALL text PDFs | per-PDF `<bookname>.md` next to PDF (same folder); phase `02-text-extraction-log.md` |
+| **3** | ⭐⭐ **Scan PDFs → OCR → MD** (Mistral OCR API per existing pipeline pattern; Tesseract fallback) | per-PDF `<bookname>.md`; phase `03-ocr-log.md` |
+| **4** | ⭐ **Quality clean** per MD — remove headers/footers (recurring lines) + page numbers + ToC artifacts + OCR errors | per-PDF `<bookname>-cleaned.md` (overwrite); phase `04-cleanup-log.md` |
+| **5** | **Identify `_unknown/` files** (3 files в research-corpus + любые "untitled" PDFs в inbox) — first 3-5 pages + heuristic title extraction | updated README inventory; phase `05-unknown-identification.md` |
+| **6** | ⭐⭐ **Bucket cross-mapping** — map ALL processed books к 4 research buckets (propaganda-recruitment / sota / methodology / nlp) AND adjacent (e.g. Beer/Ashby/Meadows/Ackoff → methodology bucket; Wiener Cybernetics → methodology + sota; Anthropic Askell HHH → propaganda+methodology; Taleb → adjacent). Per book: relevance score + bucket assignments + cross-references | `06-bucket-cross-mapping.md` (CRITICAL — substrate для 4 research prompts; ALL existing books integrated, не только new 56) |
+| **7** | **Quality report** + Summary — per book A/B/C grade + token count + bucket assignment + recommended re-OCR list | `00-SUMMARY-FOR-RUSLAN.md` (≤1500w) + push |
 
 ---
 
@@ -94,11 +112,12 @@ Per MD file:
 
 ## §3 Acceptance criteria
 
-- ✅ 7 phases per-phase commit + push в format `[corpus-pipeline] Phase N description`
-- ✅ Min 45/56 books successfully processed to MD
+- ✅ 8 phases per-phase commit + push в format `[corpus-pipeline] Phase N description`
+- ✅ **Min 100/130+ books** successfully processed to MD (ALL corpora — new + existing)
 - ✅ Per book: token count + quality grade (A/B/C) reported
 - ✅ Scans identified + OCR completed для них
-- ✅ _unknown/ 3 files identified + reclassified (или marked permanent unknown)
+- ✅ `_unknown/` 3 files + любые untitled inbox PDFs identified
+- ✅ **Phase 6 bucket cross-mapping CRITICAL** — ALL existing books mapped to 4 research buckets с relevance scores
 - ✅ Quality report Summary readable for Ruslan
 - ✅ Recommended re-OCR list для low-quality conversions
 - ✅ R1 surface only — substrate compile; NO content interpretation
@@ -129,8 +148,8 @@ Per MD file:
 ## §5 Final push
 
 ```bash
-git add raw/external/research-corpus-2026-05-23/ reports/research-corpus-pipeline-2026-05-24/
-git commit -m "[corpus-pipeline] Phase 6 Quality report + Summary + final push (7 commits / NN/56 books processed / NN scans OCR'd / NN unknowns identified / quality A/B/C grades)"
+git add raw/external/research-corpus-2026-05-23/ inbox/ inbox-reocr/ raw/external/levenchuk-books-2026-05-20/ reports/research-corpus-pipeline-2026-05-24/
+git commit -m "[corpus-pipeline] Phase 7 Quality report + Summary + final push (8 commits / NN/130+ books processed / Phase 6 bucket cross-mapping ALL existing books → 4 research buckets / NN scans OCR'd / quality A/B/C grades)"
 git push origin main
 ```
 

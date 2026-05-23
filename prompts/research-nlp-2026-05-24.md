@@ -29,8 +29,13 @@ critical_note: NLP has scientific credibility issues — Phase 6 critical review
 ## §0 Pre-flight
 
 1. **Memory:** `feedback_max_density_max_tokens.md` ⭐ FULL + constitutional + research-pool + breadth + fpf-first + no-unsolicited
-2. **Substrate read:**
-   - **Primary corpus** `raw/external/research-corpus-2026-05-23/nlp/`
+2. **Substrate read (ALL corpora — new + existing):**
+   - **NEW corpus** `raw/external/research-corpus-2026-05-23/nlp/` (12 books: Bandler+Grinder×4 / Dilts×2 / Andreas×2 / O'Connor / Robbins×2 / Bolton)
+   - **EXISTING corpora cross-pull:**
+     - `inbox/mgmt/` — Drucker / Grove (leadership + communication adjacent)
+     - `inbox/philosophy/` — Greene 48 Laws (influence overlap) / Carse Finite and Infinite Games (frame games — Sleight of Mouth parallel)
+     - `inbox/anthropic/` — Askell HHH (alignment ethics для R12 boundary check)
+     - `inbox/biology/` — Dawkins / Dennett (memetic propagation = adjacent к NLP modeling)
    - **Jetix lens substrate:**
      - Method V2 §J meta-method
      - Partner Offering + R12 LOCK (anti-manipulation discipline)
@@ -38,6 +43,7 @@ critical_note: NLP has scientific credibility issues — Phase 6 critical review
      - O-160 development→promotion transition (Tier A wiki)
      - O-161/O-162 cohort target ontology (Tier A wiki)
      - DR-38 (8-component meta-method) — для composition Jetix lens
+   - **Phase 6 corpus-pipeline bucket cross-mapping** output
 3. **Apply §11.0 CRITICAL IMPORTANCE MANDATE FULL** — ROY 500% / MAX tokens × 3
 4. **⚠️ R12 STRICT** — Phase 6 (critical scientific review) MANDATORY; Phase 7 (Jetix Lens) MUST explicit skip-list manipulative techniques
 

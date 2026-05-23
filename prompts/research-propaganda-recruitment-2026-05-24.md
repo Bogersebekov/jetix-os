@@ -28,8 +28,13 @@ ram_constraint: heavy ROY 500% — launch sequential OR 1-parallel only (NOT с 
 ## §0 Pre-flight
 
 1. **Memory:** `feedback_max_density_max_tokens.md` ⭐ FULL + constitutional + research-pool + breadth + fpf-first + no-unsolicited
-2. **Substrate read:**
-   - **Primary corpus** `raw/external/research-corpus-2026-05-23/propaganda-recruitment/` (Ruslan-downloaded books PDFs)
+2. **Substrate read (ALL corpora — new + existing):**
+   - **NEW corpus** `raw/external/research-corpus-2026-05-23/propaganda-recruitment/` (21 books: Bernays×2 / Lippmann / Cialdini×2 / Hoffer / Ellul / Chomsky / Le Bon / Freud / Lifton / Hassan / Greene / Heath / Berger / Godin×2 / Kahneman / Henrich / Raymond / Srinivasan)
+   - **EXISTING corpora cross-pull:**
+     - `inbox/philosophy/` — **Greene 48 Laws (overlap) + Carse Finite and Infinite Games + Holiday Daily Stoic + Jorgenson Naval Almanack**
+     - `inbox/mgmt/` — **Horowitz Hard Thing + Laloux Reinventing Organizations + Fried-DHH Rework/Remote**
+     - `inbox/anthropic/` — Askell HHH + Bai CAI (consent + persuasion ethics)
+     - `inbox/investing/` — **Taleb Antifragile + Skin in the Game + Buffett + Graham + Marks** (mass communication adjacencies)
    - **Jetix lens substrate** (for cross-pollination):
      - Method V2 §J 8-component meta-method
      - Partner Offering + R12 LOCK
@@ -38,6 +43,7 @@ ram_constraint: heavy ROY 500% — launch sequential OR 1-parallel only (NOT с 
      - O-161/O-162 cohort target ontology (Tier A wiki)
      - O-158 Notion-MVP-bypass pattern (Tier A wiki)
    - DR-38 (8-component meta-method composition) + DR-40 (cybernetic external-system)
+   - **Phase 6 corpus-pipeline bucket cross-mapping** output
 3. **Apply §11.0 CRITICAL IMPORTANCE MANDATE FULL** — ROY 500% / MAX tokens × 3
 
 ---

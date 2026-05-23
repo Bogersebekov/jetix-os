@@ -28,14 +28,26 @@ ram_constraint: heavy ROY 500%; OK parallel с SOTA research; NOT с propaganda 
 ## §0 Pre-flight
 
 1. **Memory:** `feedback_max_density_max_tokens.md` ⭐ FULL + constitutional + research-pool + breadth + fpf-first + iwe-rejected + no-unsolicited
-2. **Substrate read:**
-   - **Primary corpus** `raw/external/research-corpus-2026-05-23/methodology/`
-   - **Левенчук corpus existing** `raw/external/levenchuk-corpus-2026-05-17/`
-   - **FPF-Spec.md** vendored
+2. **Substrate read (ALL corpora — new + existing):**
+   - **NEW corpus** `raw/external/research-corpus-2026-05-23/methodology/` (9 books: Polya / Polanyi×2 / Senge SUMMARY / Schön / Dijkstra / Knuth / Menand / Merleau-Ponty)
+   - **EXISTING corpora cross-pull (CRITICAL):**
+     - `inbox/systems/` — **Ackoff Systems Thinking + Meadows Thinking in Systems + Senge Fifth Discipline Fieldbook + Weinberg General Systems Thinking**
+     - `inbox/cybernetics/` + `inbox-reocr/cybernetics/` — **Ashby Introduction to Cybernetics + Beer Brain of the Firm + Wiener Cybernetics + Kelly Out of Control**
+     - `inbox-reocr/engineering-foundations/` + `inbox/engineering-foundations/` — **Vincenti What Engineers Know + Altshuller TRIZ**
+     - `inbox/mgmt/` + `inbox-reocr/mgmt/` — **Drucker Effective Executive + Grove Only Paranoid Survive + Laloux Reinventing Organizations**
+     - `inbox-reocr/pdm/` + `inbox/pdm/` — Cagan Inspired + Ries Lean Startup
+     - `inbox/clean-code/` — Brooks Mythical Man-Month + Martin Clean Code + Ousterhout Philosophy of Software Design
+     - `inbox/unix/` — Raymond Art of Unix Programming + Kernighan-Pike
+     - `inbox/complexity/` — Mitchell Complexity + Beinhocker
+     - `inbox/biology/` — Dawkins / Dennett / Kauffman (adjacent methodology)
+     - `inbox/anthropic/` — Askell HHH + Bai CAI (methodology applied)
+   - **`raw/external/levenchuk-books-2026-05-20/`** — **5 Levenchuk books PDFs:** Методология 2025 + Системное мышление 2024 (×2 editions) + Интеллект-Стек 2023 + Инженерия Личности
+   - **`raw/external/levenchuk-corpus-2026-05-17/`** Левенчук basic + FPF spec
    - **Method V2** main + §J meta-method + §M Wikipedia-deep 12 traditions
    - **DR-38** main + sub-doc (8-component meta-method composition deep)
    - **DR-40** main + companion (cybernetic external-system principle)
    - **Tier A wikis** (O-107 method-method-one-liner / O-121 8-component / O-128 cybernetic)
+   - **Phase 6 corpus-pipeline bucket cross-mapping** output (когда pipeline done) — primary source для cross-bucket attributions
 3. **Apply §11.0 CRITICAL IMPORTANCE MANDATE FULL** — это deepest research; methodology is core Jetix concern
 
 ---

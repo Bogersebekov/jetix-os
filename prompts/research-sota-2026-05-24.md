@@ -28,12 +28,19 @@ ram_constraint: medium-heavy; OK parallel с methodology research if RAM permits
 ## §0 Pre-flight
 
 1. **Memory:** `feedback_max_density_max_tokens.md` ⭐ FULL + constitutional + research-pool + breadth + fpf-first + iwe-rejected (Aisystant materials only, no chat) + no-unsolicited
-2. **Substrate read:**
-   - **Primary corpus** `raw/external/research-corpus-2026-05-23/sota/`
-   - **Levenchuk corpus existing** `raw/external/levenchuk-corpus-2026-05-17/`
+2. **Substrate read (ALL corpora — new + existing):**
+   - **NEW corpus** `raw/external/research-corpus-2026-05-23/sota/` (11 books: Popper×2 / Kuhn / Lakatos / Feyerabend / Laudan / Hacking / Longino / Chalmers / Goodfellow / Huyen)
+   - **EXISTING corpora cross-pull:**
+     - `inbox/philosophy-science/` — overlap (Popper / Kuhn already), plus extras
+     - `inbox/anthropic/` — **Askell HHH 2021 + Bai CAI 2022** (SOTA в AI alignment)
+     - `inbox/cybernetics/` + `inbox-reocr/cybernetics/` — **Wiener Cybernetics + Ashby + Beer** (SOTA cybernetic substrate)
+     - `inbox/complexity/` — **Mitchell Complexity + Beinhocker Origin of Wealth** (SOTA complexity science)
+   - **`raw/external/levenchuk-books-2026-05-20/`** — **5 Levenchuk books CRITICAL для SOTA concept:** Методология 2025 (newest) + Системное мышление 2024 + Интеллект-Стек 2023 + Инженерия Личности
+   - **`raw/external/levenchuk-corpus-2026-05-17/`** Левенчук basic
    - **Method V2 §M Wikipedia-deep** (existing traditions synthesis)
    - **DR-38** main (substantiation линза для methodology composition)
    - **DR-40** main (cybernetic external-system — feedback-from-outside = SOTA-tracking mechanism)
+   - **Phase 6 corpus-pipeline bucket cross-mapping** output
 3. **Apply §11.0 CRITICAL IMPORTANCE MANDATE FULL**
 
 ---

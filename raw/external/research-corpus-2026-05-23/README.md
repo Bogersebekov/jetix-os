@@ -138,15 +138,60 @@ language: russian primary
 
 ---
 
+## 🔥 EXISTING corpus в репо (uncovered Bucket 6 Point A!) — total ~74 books
+
+### `inbox/` (60+ books across 18 domain folders)
+
+| Folder | Highlights |
+|---|---|
+| anthropic | Askell HHH 2021 / Bai CAI 2022 |
+| biology | Dawkins×2 / Dennett / Kauffman |
+| clean-code | Brooks / Fowler / Martin / Hunt-Thomas / Ousterhout |
+| complexity | Beinhocker / Mitchell |
+| **cybernetics** | **Ashby + Beer + Wiener + Kelly** ⭐⭐⭐ |
+| engineering-foundations | Altshuller TRIZ + Vincenti + Koen + Descartes |
+| event-sourcing | Young CQRS |
+| investing | Buffett + Graham + Marks + Taleb×2 |
+| mgmt | Drucker + Grove×2 + Horowitz + Laloux + Fried-DHH×2 + Watkins |
+| pdm | Cagan×2 + Doerr + Ries + Torres |
+| philosophy | Carse + Greene + Holiday + Jorgenson |
+| **philosophy-science** | **Kuhn + Popper×2** ⭐⭐⭐ |
+| pm | PMBOK + Scrum Guide + Singer Shape-Up |
+| sre | Google SRE Book |
+| **systems** | **Ackoff + Meadows + Senge Fieldbook + Weinberg** ⭐⭐⭐ |
+| unix | Kernighan-Pike + Raymond |
+
+### `inbox-reocr/` (8 already-OCR'd)
+
+Brooks / **Beer / Wiener** / Vincenti / Drucker / Grove / Cagan / Popper
+
+### `raw/external/levenchuk-books-2026-05-20/` (5 Левенчук books ⭐⭐⭐)
+
+- Методология 2025 (newest)
+- Системное мышление 2024 (2 editions)
+- Интеллект-Стек 2023
+- Инженерия Личности
+
+### `raw/external/levenchuk-corpus-2026-05-17/` + `ailev-FPF/` + `harari-corpus-2026-05-18/` + `tseren-github-2026-05-17/`
+
+---
+
+## 🎯 ALL gaps теперь mostly closed!
+
+Pipeline processes ВСЁ → 4 research prompts pull from ALL corpora через bucket cross-mapping Phase 6.
+
+**Total: ~130+ PDFs (56 new + ~74 existing).**
+
+---
+
 ## ⏭️ Next steps
 
-1. ✅ PDFs vendored locally
-2. ⏳ Push (commit ~508MB)
-3. ⏳ Launch server CC PDF→MD pipeline prompt
-4. ⏳ Pipeline outputs MD per book (next to PDF)
-5. ⏳ Quality clean (remove headers/footers/page numbers)
-6. ⏳ Report — что successfully converted / scans needing OCR / unknown identification
-7. ⏳ Launch 4 research prompts after MD substrate ready
+1. ✅ NEW PDFs vendored locally + existing corpora discovered
+2. ⏳ Push (commit ~508MB NEW corpus — existing already in repo)
+3. ⏳ Launch PDF→MD pipeline (processes ALL ~130+ PDFs)
+4. ⏳ Phase 6 bucket cross-mapping (ALL books → 4 research buckets с relevance scores)
+5. ⏳ Quality report
+6. ⏳ Launch 4 research prompts (pull from ALL corpora — new + existing)
 
 ---
 
