@@ -9678,8 +9678,7 @@ powerful weapon against special interest claims.
 Designers can obtain a great deal of clarity about their policies simply by the enumeration step, listing all of the things the policy will do. The enumeration part can be much
 harder than it looks. Suppose I reduce the drop rate on copper ore in my economy. The
 first effect of this is a reduction of productivity among those who harvest: it takes them
-more time to get their ore. But this primary effect causes all kinds of second- and third-
-and fourth-order effects. The price of copper ore will rise. The prices of things that are
+more time to get their ore. But this primary effect causes all kinds of second- and thirdand fourth-order effects. The price of copper ore will rise. The prices of things that are
 built with copper ore will rise. People who make items using copper ore will see their
 profits fall. And so on. Thankfully there is a general rule to follow here: count only the
 first effect. You should not count secondary effects of a policy. The reason is that these

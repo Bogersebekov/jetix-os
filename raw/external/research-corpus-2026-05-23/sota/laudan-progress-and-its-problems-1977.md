@@ -14,6 +14,10 @@ ocr_runtime_sec: 17.4
 pipeline_phase: 3-ocr-extracted
 constitutional_posture: R1-surface
 note: PARTIAL OCR — first 25 pages only. 239 pages flagged for paid OCR re-processing.
+phase4_cleaned: true
+phase4_chars_before: 38002
+phase4_chars_after: 37946
+phase4_saved_pct: 0.1
 ---
 
 ## Page 1
@@ -59,8 +63,7 @@ Prologue 1
 Part One: A Model of Scientific Progress
 1. THE ROLE OF EMPIRICAL PROBLEMS "1
 The Nature of Scientific Problems—Empirical Problems—Types of
-Empirical Problems —The Status of Unsolved Problems—The Na-
-ture of Solved Problems—The Special Role of Anomalous Problems
+Empirical Problems —The Status of Unsolved Problems—The Nature of Solved Problems—The Special Role of Anomalous Problems
 Converting Anomalies to. Solved Problems The Weighting of
 Empirical Problems-—Theory Complexes and Scientitie Problems
 2. CONCEPTUAL PROBLEMS 45
@@ -68,8 +71,7 @@ Empirical Problems-—Theory Complexes and Scientitie Problems
 Problems—The Relative Weighting of Conceptual Problems—Sum
 mary and Overview
 3. FROM THEORIES TO RESEARCH TRADITIONS 70
-Kuhn's Theoty of Scientific “Paradigms” Lakatos’ Theory of “Re-
-search Programmes” —The Nature of Research Traditions Theories
+Kuhn's Theoty of Scientific “Paradigms” Lakatos’ Theory of “Research Programmes” —The Nature of Research Traditions Theories
 and Research Traditions —The Separability of Theoties (rom Re
 search Traditions—The Evolution of Research Traditions Research
 ‘Traditions and Changes in Worldviews—The Integration of ‘Re:
@@ -135,16 +137,13 @@ manuscript. Specific portions of earlier drafts of this essay have
 been profitably discussed with A. Grunbaum, D. Hull, J. E.
 McGuire, K. Schaffner, M. J. S. Hodge, M. and R. Nye, 1.
 
-2
-
 ## Page 7
 
 Mitroff, P. Machamer, N. Rescher, R. Creath, A. G. Molland,
 S. Wykstra, F. Kambartel, J. Mittelstrass, P. Janich, and J, M
 Nicholas. The book would be far more flawed than it is without
 their criticism and suggestions. My greatest debt, however, is to
-Rachel, whose patience, critical sense, and unflagging encour-
-agement sustained this project through its difficult incubation
+Rachel, whose patience, critical sense, and unflagging encouragement sustained this project through its difficult incubation
 period.
 
 June, 1976
@@ -165,8 +164,7 @@ neither as certain nor as incorrigible as thinkers since Plato and
 Aristotle had presumed it to be. There was, secondly, the
 increasing professional insularity of academic philosophers, and
 their related conviction that disciplines such as psychology and
-sociology, which had played a major role in earlier epistemo-
-logical theories, had no interesting insights to offer. (This
+sociology, which had played a major role in earlier epistemological theories, had no interesting insights to offer. (This
 insularity was further promoted by the guileless duplicity of
 scholars in other fields, who were all too prepared to bequeath
 “the problem of knowledge” to the professional philosophers.)
@@ -177,7 +175,7 @@ blissfully ignorant of its best extant example—the natural
 sciences.
 Despite the attempted appropriation of epistemological issues
 by the professional philosophers, many of the classical questions
-1
+
 SL
 
 ## Page 9
@@ -270,8 +268,7 @@ the thesis that science is, so far as we know, blatantly
 irrational.
 
 3. Finally, we might begin afresh to analyze the rationality of
-science, deliberately trying to avoid some of the key presupposi-
-tions which have produced the breakdown of the traditional
+science, deliberately trying to avoid some of the key presuppositions which have produced the breakdown of the traditional
 analysis.
 
 Enormous efforts have been devoted, particularly in the last
@@ -285,15 +282,13 @@ a
 science, by and large, have taken the first option. Thus,
 Lakatos asks, “What are the minimum changes needed in the
 Popperian analysis of science to enable it to solve the problem of
-rationality?” Salmon asks, “What are the minimum adjust-
-ments needed in Reichenbach’s theory to square it with
+rationality?” Salmon asks, “What are the minimum adjustments needed in Reichenbach’s theory to square it with
 scientific practice?” Hintikka poses the question, “What kind
 of tinkering with Carnap’s inductive logic will make it relevant
 to scientific testing?” While one admires the tenacity and
 ingenuity illustrated by proponents of this approach, the results
 are not, on the whole, very encouraging. Most of the difficulties
-which stood in the way of a Popper, a Carnap, or a Reichen-
-bach still remain obstacles for their latter-day disciples.’
+which stood in the way of a Popper, a Carnap, or a Reichenbach still remain obstacles for their latter-day disciples.’
 
 The second option has proved more popular with historically
 oriented thinkers. Thus, both Kuhn and Feyerabend conclude
@@ -339,8 +334,7 @@ detail it demands. To anticipate some of my conclusions, 1
 propose that the rationality and progressiveness of a theory are
 most closely linked—not with its confirmation or its falsifica
 tion—but rather with its problem solving effectiveness. 1 shall
-be arguing that there are important nonempirical, even “non-
-scientific” (in the usual sense), factors which have—and which
+be arguing that there are important nonempirical, even “nonscientific” (in the usual sense), factors which have—and which
 should have—played a role in the rational development of
 science. I shall suggest, further, that most philosophers of
 science have mistakenly identified the nature of scientific
@@ -352,8 +346,7 @@ the rationality of pursuit if we are to make any progress at
 reconstructing the cognitive dimensions of scientific activity
 
 My basic strategy in what follows will involve the blurring,
-and perhaps the obliteration, of the classical distinction be-
-tween scientific progress and scientific rationality. These two
+and perhaps the obliteration, of the classical distinction between scientific progress and scientific rationality. These two
 notions, both central to any discussion of science, have often
 seemed at cross purposes. Progress is an unavoidably temporal
 concept; to speak about scientific progress necessarily involves
@@ -375,8 +368,7 @@ a
 
 6 provoove
 have made progress parasitic upon rationality. In part, my
-worry arises from a concern that it involves explaining some-
-thing which can be readily understood (progress) in terms of
+worry arises from a concern that it involves explaining something which can be readily understood (progress) in terms of
 something else (rationality) which may be far more obscure.
 More serious, however, is the absence of any convincing
 argument as to why we should explicate our concept of progress
@@ -400,8 +392,7 @@ Another of the chief obstacles to the development of a theory
 of scientific progress has been the universal assumption that
 progress can occur only if it is cumulative, that is, if knowledge
 grows entirely by accretion. Because there are grave difficulties,
-both historically and conceptually, with the progress-by-accre-
-tion view, | propose a definition of scientific progress which
+both historically and conceptually, with the progress-by-accretion view, | propose a definition of scientific progress which
 does not demand cumulative development.
 
 In order for the ambitions of this enterprise to be brought to
@@ -410,8 +401,7 @@ must be stressed, First, the term “progress” has many emotive
 overtones deeply rooted in the subjective intuitions of both
 friends and critics of science. The object of this work is not to
 exploit that emotiveness, but rather to offer objective criteria for
-determining when progress has occurred. In too many discus-
-sions of progress, insufficient attention has been given to
+determining when progress has occurred. In too many discussions of progress, insufficient attention has been given to
 separating out the question of what progress is from the
 question of its moral and cognitive desirability. Any adequate
 theory of progress must make such a distinction as sharply as
@@ -426,8 +416,7 @@ of “progress” which must also be noted. Specifically, it is
 commonplace to speak of progress, meaning an improvement in
 the material or the “spiritual” conditions of life. Although that
 sense of progress is unquestionably important, I shall say
-virtually nothing about it in this essay. My exclusive preoccupa-
-tion will be with what [call “cognitive progress,” which is
+virtually nothing about it in this essay. My exclusive preoccupation will be with what [call “cognitive progress,” which is
 nothing more nor less than progress with respect to the
 intellectual aspirations of science. Cognitive progress neither
 entails, nor is it entailed by, material, social, or spiritual
@@ -439,8 +428,7 @@ distinguished
 One final point is in order. Previously, too many discussions
 of scientific rationality and progress have been both uninformed
 by, and inapplicable to, the actual course of the evolution of
-science. The various well-known philosophical models of ration-
-ality have been shown to be inapplicable to most of those cases
+science. The various well-known philosophical models of rationality have been shown to be inapplicable to most of those cases
 in the history of science where, at least intuitively, we are
 convinced that sensible, rational choices were being made.
 Without assuming that whatever science does is, by definition,
@@ -455,8 +443,7 @@ manner in which scientific decision making has actually worked
 its ambitions.
 
 Because of the unusually heavy weight attached in this
-approach to historical material—material which some philoso-
-phers deem to be absolutely irrelevant to epistemology—I shall
+approach to historical material—material which some philosophers deem to be absolutely irrelevant to epistemology—I shall
 also briefly discuss the general question of the bearing of
 descriptive data (such as history) on a normative theory (such as
 a model of scientific rationality).
@@ -480,8 +467,7 @@ It has not been possible for me to explore all the issues
 concerned with scientific progress in the detail which they
 deserve. For that failure, I can only ask the reader’s mercy. This
 is not, nor is it intended to be, a finished piece of work. At
-many points, argument sketches pass for arguments and plaus-
-ible intuitions are invoked where, ideally, explicit doctrines
+many points, argument sketches pass for arguments and plausible intuitions are invoked where, ideally, explicit doctrines
 are called for. A great deal remains to be said on all the
 matters I address. But the study of rational knowledge and its
 growth, like knowledge itself, is a cooperative venture of a
@@ -499,7 +485,6 @@ a
 ## Page 17
 
 
-
 ## Page 18
 
 Chapter One
@@ -515,8 +500,7 @@ isto be understood by looking
 Stream of scientific endeavor. H. S140 (1966), p. 37
 Science is essentially a problem-solving activity. This anodine
 bromide, more a cliché than a philosophy of science, has been
-espoused by generations of science textbook writers and self-
-professed specialists on “the scientific method.” But for all the
+espoused by generations of science textbook writers and selfprofessed specialists on “the scientific method.” But for all the
 lip service which has been paid to the view that science is
 fundamentally the solving of problems, scant attention has been
 paid, either by philosophers of science or historians of science,
@@ -612,8 +596,7 @@ to problems.
 
 Thesis 1: The first and essential acid test for any theory is
 whether it provides acceptable answers to interesting
-questions: whether, in other words, it provides satis-
-factory solutions to important problems.
+questions: whether, in other words, it provides satisfactory solutions to important problems.
 
 At one level, this might appear completely noncontroversial.
 Most writers who have dealt with the nature of science would
@@ -637,8 +620,7 @@ ES
 richer than others. Insofar as contemporary philosophy of
 science says anything at all about these matters, it tends to
 regard all solutions on a par, and to assign all problems equal
-weight. In assessing the adequacy of any theory, the philoso-
-pher of science will usually ask how many facts confirm it,
+weight. In assessing the adequacy of any theory, the philosopher of science will usually ask how many facts confirm it,
 not how important those facts are. He will ask how many
 problems the theory solves, not about the significance of those
 problems. To this extent, contemporary philosophy of science
@@ -648,8 +630,7 @@ such as these that I propose:
 ‘Thesis 2: In appraising the merits of theories, it is more
 important to ask whether they constitute adequate
 solutions to significant problems than it is t0 ask
-whether they are “true,” “corroborated,” “well-con-
-firmed” or otherwise justifiable within the framework
+whether they are “true,” “corroborated,” “well-confirmed” or otherwise justifiable within the framework
 of contemporary epistemology.
 
 But if it is plausible to think that the counterpoint between
@@ -710,8 +691,7 @@ near the earth?”, we are assuming there are objects akin to our
 conceptions of body and earth which move towards one another
 according to some regular rule. That assumption, of course, is
 @ theory-laden one, but we nonetheless assert it to be about the
-physical world. Empirical problems are thus first order prob-
-Jems; they are substantive questions about the objects which
+physical world. Empirical problems are thus first order probJems; they are substantive questions about the objects which
 constitute the domain of any given science. Unlike other, higher
 order problems (to be discussed in chapter two), we judge the
 adequacy of solutions to empirical problems by studying the
@@ -720,8 +700,6 @@ objects in the domain.
 We have already noted that there is an apparent functional
 similarity between talk of problems and problem solving and the
 more familiar rhetoric about facts and the explanation of facts.
-
-2
 
 ## Page 23
 
@@ -737,8 +715,7 @@ some of the discrepancies can be seen by considering a few of
 the differences between facts or states of affairs on the one
 hand, and empirical problems on the other.
 
-Certain presumed states of affairs regarded as posing empiri-
-cal problems are actually counterfactual. A problem need not
+Certain presumed states of affairs regarded as posing empirical problems are actually counterfactual. A problem need not
 accurately describe a real state of affairs to be a problem: all
 that is required is that it be thought to be an actual state of
 affairs by some agent. For instance, early members of the Royal
@@ -756,8 +733,7 @@ medical theory sought to explain the “fact” that bloodletting
 cured certain diseases. If factuality were a necessary condition
 for something to count as an empirical problem, then such
 situations could not count as problems. So long as we insist that
-theories are designed only to explain “facts” (i.e., true state-
-ments about the world), we shall find ourselves unable to
+theories are designed only to explain “facts” (i.e., true statements about the world), we shall find ourselves unable to
 explain most of the theoretical activity which has taken place in
 science.
 
@@ -823,8 +799,7 @@ inl
 
 18 ROLE OF EMPIRICAL PROBLEMS
 
-Clearly, solved problems count in favor of a theory, anoma-
-lous ones constitute evidence against a theory, and unsolved
+Clearly, solved problems count in favor of a theory, anomalous ones constitute evidence against a theory, and unsolved
 ‘ones simply indicate lines for future theoretical inquiry. Using
 this terminology, we can argue that one of the hallmarks of
 scientific progress is the transformation of anomalous and

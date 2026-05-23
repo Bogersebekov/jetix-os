@@ -93,8 +93,7 @@ important question of our time, and thus easily succumb to opin­
 ions offered to them by propaganda on all such indigestible pieces
 of information; (3) they consider themselves capable of “judging
 for themselves.” They literally need propaganda.
-In fact, the need for propaganda on the part of the “propa-
-gandee” is one of the most powerful elements of Elluls thesis.
+In fact, the need for propaganda on the part of the “propagandee” is one of the most powerful elements of Elluls thesis.
 Cast out of the disintegrating microgroups of the past, such as
 family, church, or village, the individual is plunged into mass
 society and thrown back upon his own inadequate resources, his
@@ -242,8 +241,7 @@ course is inadmissible intellectual surrender. To adopt either atti­
 tude would lead us to abandon the study of a phenomenon that
 exists and needs to be defined.
 We then came up against the extreme difficulty of definition.
-We can immediately discard such simplistic definitions as Mar-
-bury B. Ogle's: “Propaganda is any effort to change opinions or
+We can immediately discard such simplistic definitions as Marbury B. Ogle's: “Propaganda is any effort to change opinions or
 attitudes. . . .  The propagandist is anyone who communicates his
 ideas with the intent of influencing his listener.” Such a definition
 would include the teacher, the priest, indeed any person convers­
@@ -326,8 +324,7 @@ nated by a concern for effectiveness.
 Finally, we take the term propaganda in its broadest sense, so
 that it embraces the following areas:
 Psychological action: The propagandist seeks to modify opinions
-by purely psychological means; most often he pursues a semi-
-educative objective and addresses himself to his fellow citizens.
+by purely psychological means; most often he pursues a semieducative objective and addresses himself to his fellow citizens.
 Psychological warfare: Here the propagandist is dealing with a
 foreign adversary whose morale he seeks to destroy by psycho­
 logical means so that the opponent begins to doubt the validity
@@ -418,8 +415,7 @@ Nazis undeniably had certain specific characteristics. But whereas
 most analysts stop at this specificity, I have tried to eliminate it
 in order to look only at the most general characteristics, the effects
 common to all cases, to all methods of propaganda. Therefore I
-have adopted the same perspective and the same method in study-
-ing propaganda as in studying any other technique.
+have adopted the same perspective and the same method in studying propaganda as in studying any other technique.
 I shall devote much space to the fact that propaganda has
 become an inescapable necessity for everyone. In this connection
 I have come upon a source of much misunderstanding. Modem
@@ -1126,8 +1122,7 @@ mass media: personal contacts are considered increasingly ef- 8
 The most elementary was made in 1942 by the Institute for Propaganda Analysis
 (see Eugene L. Hartley: Fundamentals of Social Psychology. New York: Alfred
 A. Knopf; 1952). A more profound analysis is that of Lenin’s strategy of propa­
-ganda: first stage—the creation in each organization of solid cores of well-
-indoctrinated men; second stage— cooperation with allies in political tasks that
+ganda: first stage—the creation in each organization of solid cores of wellindoctrinated men; second stage— cooperation with allies in political tasks that
 can compromise them; third stage—when the maximum advantage is reached—
 propaganda to demoralize the adversaries (inevitability of the Communist vic­
 tory, injustice of the adversary’s cause, failure of his means, etc.). The analysis
@@ -1403,8 +1398,7 @@ effects. We must not think that a man ceases to follow the line
 when there is a sharp turn. He continues to follow it because he is
 caught up in the system. Of course, he notices the change that
 has taken place, and he is surprised. He may even be tempted
-to resist—as the Communists were at the time of the German-
-Soviet pact. But will he then engage in a sustained effort to re­
+to resist—as the Communists were at the time of the GermanSoviet pact. But will he then engage in a sustained effort to re­
 sist propaganda? Will he disavow his past actions? Will he break
 with the environment in which his propaganda is active? Will he
 stop reading a particular newspaper? Such breaks are too painful;
@@ -1538,8 +1532,7 @@ measure may be only a means of propaganda; conversely, coercive
 propaganda must be tied to physical coercion. For example, a
 big blow to the propaganda of the Forces de Liberation Nationale
 (F.L.N.) in France in 1958 was the noisy threat of the referendum
-that the roads leading to the polls would be mined and booby-
-trapped; that voters would be massacred and their corpses dis­
+that the roads leading to the polls would be mined and boobytrapped; that voters would be massacred and their corpses dis­
 played; that there would be a check in each douar of those who
 had dared to go to the polls. But none of these threats was carried
 out. Failure to take action is in itself counter-propaganda.
@@ -1626,11 +1619,9 @@ sult of psychological influence, which cannot attain great results
 alone, but which can attempt anything when combined with or­
 ganization.
 Finally, the presence of organization creates one more phe­
-nomenon: the propagandist is always separated from the propa-
-gandee, he remains a stranger to him.6 Even in the actual contact
+nomenon: the propagandist is always separated from the propagandee, he remains a stranger to him.6 Even in the actual contact
 5 The Egyptian campaign, launched in May 1958, was to get a hearing before
-the United Nations and to lead to the decision of August 22, whereas the Anglo-
-French protestations on the annexation of Syria in 1957 led to no action.
+the United Nations and to lead to the decision of August 22, whereas the AngloFrench protestations on the annexation of Syria in 1957 led to no action.
 6A note that appeared in Le Monde (August 2, 1961) criticizing the psycho­
 logical campaign in Algeria shows clearly that its ineffectiveness was due in part
 to the “self-intoxication” of the propagandists, who came to believe so much in
@@ -1783,8 +1774,7 @@ communicant participation is positive and changes the nature
 of the phenomenon. These two examples illustrate what we mean
 by passive participation obtained through propaganda.
 Such an action cannot be obtained by the process of choice and
-deliberation. To be effective, propaganda must constantly short-
-circuit all thought and decision.9 It must operate on the in­
+deliberation. To be effective, propaganda must constantly shortcircuit all thought and decision.9 It must operate on the in­
 dividual at the level of the unconscious. He must not know that
 he is being shaped by outside forces (this is one of the condi­
 tions for the success of propaganda), but some central core in
@@ -2125,8 +2115,7 @@ that whole called culture by the Americans. Each person s psychology is shaped
 by that culture. He is conditioned by the symbols of that culture, and is also a
 transmitter of that culture; each time its symbols are changed he is deeply affected.
 Thus, one can change him by changing these symbols. The propagandist will act
-on this, keeping in mind that the most important man to be reached is the so-
-called marginal man: that is, the man who does not believe what the propagandist
+on this, keeping in mind that the most important man to be reached is the socalled marginal man: that is, the man who does not believe what the propagandist
 says, but who is interested because he does not believe the opposition either; the
 man who in battle has good reason to lay down his arms.
 7 Beyond this, propaganda must vary according to circumstances. The propagandist
@@ -2452,8 +2441,7 @@ the others share the same presuppositions and myths. It is the
 same with propaganda: a person listens to a particular propaganda
 because it reflects his deepest unconscious convictions without
 expressing them directly. Similarly, because of the myth of prog­
-ress, it is much easier to sell a man an electric razor than a straight-
-edged one. •
+ress, it is much easier to sell a man an electric razor than a straightedged one. •
 • But in this straining toward the future the propagandist must always beware of
 making precise promises, assurances, commitments. Goebbels constantly protested
 the affirmations of victory emanating from the Flihrer’s headquarters. The pull
@@ -2487,8 +2475,7 @@ out because of the group's solidarity; sometimes the general
 society wins out because it represents the mass and, therefore,
 unanimity. In any case, propaganda must always choose the trend
 that normally will triumph because it agrees with the great myths
-of the time, common to all men. The Negro problem in the Ameri-
-can South is typical of this sort of conflict. The local Southern
+of the time, common to all men. The Negro problem in the American South is typical of this sort of conflict. The local Southern
 milieu is hostile to Negroes and favorable to discrimination,
 whereas American society as a whole is hostile to racism. It is
 almost certain, therefore, despite the deep-rooted prejudices and
@@ -2961,8 +2948,7 @@ gives it as the basic trait in his definition of propaganda.9 But it
 is certainly not so. For a long time propagandists have recognized
 that lying must be avoided.1 "In propaganda, truth pays off”—
 this formula has been increasingly accepted. Lenin proclaimed it.
-And alongside Hitler s statement on lying one must place Goeb-
-bels’s insistence that facts to be disseminated must be accurate.* 1 2
+And alongside Hitler s statement on lying one must place Goebbels’s insistence that facts to be disseminated must be accurate.* 1 2
 How can we explain this contradiction? It seems that in propa­
 ganda we must make a radical distinction between a fact on the
 one hand and intentions or interpretations on the other; in brief,
@@ -3146,8 +3132,7 @@ to linger in the collective consciousness. In such cases the enemy
 cannot go against the tide, which he might do if the basis of
 the propaganda were a lie or the sort of truth requiring a proof
 to make it stick. On the contrary, the enemy now must provide
-proof, but it no longer changes the conclusions that the propa-
-gandee already has drawn from the suggestions.
+proof, but it no longer changes the conclusions that the propagandee already has drawn from the suggestions.
 Intentions and Interpretations. This is the real realm of the lie;
 but it is exactly here that it cannot be detected. If one falsifies
 a fact, one may be confronted with unquestionable proof to the
@@ -3661,8 +3646,7 @@ understand the “wave of collective hysteria” which occurred after
 sprang from a vague feeling of ideological weakness, a certain
 inability to define the foundations of American society. That is
 why Americans seek to define the American way of life, to make
-it conscious, explicit, theoretical, worthy. Therefore the soul-
-searching and inflexibility, with excessive affirmations designed
+it conscious, explicit, theoretical, worthy. Therefore the soulsearching and inflexibility, with excessive affirmations designed
 to mask the weakness of the ideological position. All this obvi­
 ously constitutes an ideal framework for organized propaganda.
 We encounter such organized propaganda on many levels: on
@@ -4952,8 +4936,7 @@ taneously, it is sometimes formed by force by authoritarian states,
 which only then can utilize propaganda. In the Soviet Union,
 the Caucasus and Azerbaijan were the nursery of agitprop in
 1917 because the cosmopolitanism of the region, the great currents
-of population displacement (Russian and Moslem), the uproot-
-ings, the vigor of a nationalist myth, tended to shape mass society.
+of population displacement (Russian and Moslem), the uprootings, the vigor of a nationalist myth, tended to shape mass society.
 In Soviet Russia, propaganda has progressed exactly in line with
 the destruction of the old organic groups and the creation of mass
 society.4
@@ -5348,8 +5331,7 @@ life. To find that belonging to a milieu, a group, or a family in
 which there are Communists is regarded as reprehensible in the
 United States is surprising, because what matters here is not ideas
 but a different way of life. This leads to the association of alcohol­
-ism and homosexuality with Communism in the literature on un-
-American activities, and to the rules, promulgated in 1952, which
+ism and homosexuality with Communism in the literature on unAmerican activities, and to the rules, promulgated in 1952, which
 established the “poor security risk” and led to the screening of
 7,000 functionaries. No reason for this identification existed other
 than that the Communist is “abnormal” because he fails to accept
@@ -5424,8 +5406,7 @@ ceasing to be a propagandee as long as one was a propagandee
 before acquiring critical faculties, and as long as that culture itself
 is integrated into a universe of propaganda. Actually, the most
 obvious result of primary education in the nineteenth and twen­
-tieth centimes was to make the individual susceptible to super-
-propaganda.® There is no chance of raising the intellectual level
+tieth centimes was to make the individual susceptible to superpropaganda.® There is no chance of raising the intellectual level
 of Western populations sufficiently and rapidly enough to com­
 pensate for the progress of propaganda. Propaganda techniques
 have advanced so much faster than the reasoning capacity of the
@@ -5682,8 +5663,7 @@ there can be a community of interest and action. Information
 allows him also to put his situation into the general economic
 context and to understand the general situation of management.
 Finally, information will teach him to evaluate his personal situ­
-ation. This is what led to the class consciousness of the nineteenth-
-century workers, a process which—as the socialists rightly
+ation. This is what led to the class consciousness of the nineteenthcentury workers, a process which—as the socialists rightly
 maintain—was much more one of information than one of propa­
 ganda. At that very moment (when information is absorbed) the
 spirit of rebellion transforms itself into the spirit of revolution. As
@@ -6182,8 +6162,7 @@ mand of a modem State that it tolerate an independent group?
 Pleven’s demand of 1954, to the effect that “there must be no
 propaganda in one direction or the other,” is morally most satisfy­
 ing, but purely theoretical and unrealistic. Moreover, he went on
-to claim that what had been called propaganda was government-
-dispensed information, pure and simple. In fact the two realities
+to claim that what had been called propaganda was governmentdispensed information, pure and simple. In fact the two realities
 —information and propaganda—are so little distinct from one
 another that what the enemy says is nothing but propaganda,
 whereas what our side says is nothing but information.7
@@ -6827,8 +6806,7 @@ give him the answer.
 But modem man is not only forced to make sacrifices in his
 work; he is also saddled by his government with other sacrifices,
 such as ever-increasing taxes. Every citizen of a modem state
-pays more taxes than the most heavily taxed people in pre-
-Napoleonic days. Then the subject was forced to pay, whereas
+pays more taxes than the most heavily taxed people in preNapoleonic days. Then the subject was forced to pay, whereas
 the free citizen of today must pay for reasons of conviction. His
 conviction will not come about spontaneously, particularly when
 the taxes are really heavy. The Conviction must therefore be
@@ -7009,8 +6987,7 @@ problems; he needs coherence. And he needs an affirmation of his
 own worth. All this is the immediate effect of information. And
 the more complicated the problems are, the more simple the
 explanations must be; the more fragmented the canvas, the
-simpler the pattern; the more difficult the question, the more all-
-embracing the solution; the more menacing the reduction of his
+simpler the pattern; the more difficult the question, the more allembracing the solution; the more menacing the reduction of his
 own worth, the greater the need for boosting his ego. All this
 propaganda—and only propaganda—can give him. Of course,
 an outstanding man of vast culture, great intelligence, and ex­
@@ -7049,8 +7026,7 @@ a key to understand the whys and the reasons for economic and
 political developments. News loses its frightening character when
 it offers information for which the listener already has a ready
 explanation in his mind, or for which he can easily find one. The
-great force of propaganda lies in giving modem man all-
-embracing, simple explanations and massive, doctrinal causes,
+great force of propaganda lies in giving modem man allembracing, simple explanations and massive, doctrinal causes,
 without which he could not live with the news. Man is doubly
 reassured by propaganda: first, because it tells him the reasons
 behind the developments which unfold, and second, because it
@@ -7228,8 +7204,7 @@ timetable and rarely can act on the spur of the moment; he must
 pay constant attention to what goes on around him. He cannot
 make the noise he may want to make; he must obey a growing
 number of rules of all sorts; he cannot give free reign to his
-sexual instinct or his inclination to violence. For despite present-
-day “immorality," of which people complain, contemporary man
+sexual instinct or his inclination to violence. For despite presentday “immorality," of which people complain, contemporary man
 is much less free in these matters than was the man of the six­
 teenth and seventeenth century. And in the world of politics,
 modem man constantly faces obstacles which suppress his ten­
@@ -7979,8 +7954,7 @@ who wants to make war projects this intention onto his enemy;
 then the projected intention spreads to the propagandee who is
 then being mobilized and prepared for war, whose hostilities are
 aroused at the same time as he is made to project his own aggres­
-sion onto the enemy. As with the neurotic, the “victim-enemy-
-scapegoat” cycle assumes enormous proportions in the mind of the
+sion onto the enemy. As with the neurotic, the “victim-enemyscapegoat” cycle assumes enormous proportions in the mind of the
 propagandee, even if we admit that in addition to this process
 some legitimate reasons always exist for such reactions.
 To sum up: When reading Karen Homey's description of the
@@ -8225,8 +8199,7 @@ PSYCHOLOGICAL EFFECTS OF PROPAGANDA
 1 7 4 )
 intellectual distinctions or of engaging in the most elementary
 reasoning. Yet all this is acquired without effort, experience, re­
-flection, or criticism—by the destructive shock effect of well-
-made propaganda. We meet this alienated man at every turn, and
+flection, or criticism—by the destructive shock effect of wellmade propaganda. We meet this alienated man at every turn, and
 are possibly already one ourselves.
 Aside from the alienation that takes place when the rational
 individual retreats into the irrational collective, there are other
@@ -8690,8 +8663,7 @@ no longer attaches importance to what it says, to its proclaimed
 objectives, but he acts according to the proper stimuli. Here we
 find again the dissociation between action and thought of which
 we spoke earlier. The individual is arrested and crystalized with
-regard to his thinking. It is in this domain of opinion that mith-
-ridatization takes place. But in the domain of action he is actually
+regard to his thinking. It is in this domain of opinion that mithridatization takes place. But in the domain of action he is actually
 mobilized. He responds to the changing propaganda inputs; he
 acts with vigor and certainty, indeed with precipitation. He is a
 ready activist, but his action is purely irrational. That is the effect
@@ -9328,8 +9300,7 @@ ing these choices.
 On the other hand, the propagandist can proceed by transform­
 ing ideology into myth. Some ideologies can indeed serve as a
 springboard for the creation of myths by the propagandist. Such
-transformation rarely takes place spontaneously. Generally, ideol-
-ogy is quite vague, has little power to move men to action, and
+transformation rarely takes place spontaneously. Generally, ideology is quite vague, has little power to move men to action, and
 cannot control the individual's entire consciousness. But it fur­
 nishes the elements of content and belief. It weds itself to myth
 by the complicated mixture of ideas and sentiments, by grafting
@@ -9929,8 +9900,7 @@ read VHumanitS. That the bourgeois paper Le Figaro will con­
 tain valid criticism of and genuine facts about the dictatorship
 in the Soviet Union will never reach a Communist. But this
 criticism of ones neighbor, which is not heard by that neighbor,
-is known to those inside the group that expresses it. The anti-
-Communist will be constantly more convinced of the evilness
+is known to those inside the group that expresses it. The antiCommunist will be constantly more convinced of the evilness
 of the Communist, and vice versa. As a result, people ignore
 each other more and more. They cease altogether to be open to
 an exchange of reason, arguments, points of view.
@@ -10128,8 +10098,7 @@ With regard to the relative effects on the interplay of parties
 in the national fabric, the decisive element is the high cost of
 propaganda. Propaganda is becoming more and more expensive,
 partly because of the volume needed, partly because of the instru­
-ments required. All parties may stick to traditional and low-
-level propaganda (posters, newpapers) and go to the govern­
+ments required. All parties may stick to traditional and lowlevel propaganda (posters, newpapers) and go to the govern­
 ment for the more expensive media (radio, TV). Such is the
 case in France. Under such circumstances, there is a state of
 equilibrium, but a precarious one. The situation is, in effect, un­
@@ -10320,8 +10289,7 @@ quence of technological developments taken in the broad sense.
 Urbanization, massification, streamlining, the disappearance of
 the notion of “work,” mechanization, and so on—all these are
 much more responsible for labor conditions than that the means
-of production are privately owned. This last fact leads to prole-
-tarization according to Marxist theory, but proletarization is only
+of production are privately owned. This last fact leads to proletarization according to Marxist theory, but proletarization is only
 one aspect of the problem. Once Socialism has taken the means
 of production out of private hands, juridically speaking, the work­
 ing class, abstractly speaking, is no longer the proletariat; but it
@@ -11440,8 +11408,7 @@ feelings of the masses. The democratic masses will reject the
 THE SOCIO-POLITICAL EFFECTS
 2 4 8 )
 uniform, but idolize the soft hat if it is well presented. There can
-be no propaganda without a personality, a political chief. Clemen-
-ceau, Daladier, De Gaulle, Churchill, Roosevelt, MacArthur are
+be no propaganda without a personality, a political chief. Clemenceau, Daladier, De Gaulle, Churchill, Roosevelt, MacArthur are
 obvious examples. And even more, Khrushchev, who, after having
 denounced the cult of personality, slipped into the same role,
 differently, but with the same ease and obeying the same neces­
@@ -11581,8 +11548,7 @@ which are the subjects of information, are becoming more and
 more complex, are covering larger segments of life; thus the sys­
 tem into which they are arranged must cover all of life. This
 system must become a complete answer to all questions occurring
-in the citizens' conscience. It must, therefore, be general and all-
-valid: it cannot be a philosophy or a metaphysical system—for
+in the citizens' conscience. It must, therefore, be general and allvalid: it cannot be a philosophy or a metaphysical system—for
 such systems appeal to the intelligence of a minority. To describe
 the system, we must go back to an ancient primitive notion:
 the etiological myth. In fact, a propaganda that corresponds to the
@@ -11775,8 +11741,7 @@ formed of everything and nothing—but to reject it in the name of
 a very profound reality: the possibility of choice and differentia­
 tion, which is the fundamental characteristic of the individual in
 the democratic society.
-Whatever the doctrine promulgated by propaganda, its psycho-
-sociological results are the same. To be sure, some doctrines are
+Whatever the doctrine promulgated by propaganda, its psychosociological results are the same. To be sure, some doctrines are
 more coherent subject matter for propaganda than others, and
 lead to a more efficient and insistent propaganda; other doctrines
 —republican and democratic—are rather paralyzing and less
@@ -12221,8 +12186,7 @@ fashion. In this way researchers in the United States have analyzed
 votes by groups, localities, classes; have systematically analyzed
 the mail received by a newspaper after a particularly significant
 article; have made surveys in theaters and movie houses in con­
-nection with propaganda films, particularly war films. In the last-
-named instances, various expressions of approval and disapproval
+nection with propaganda films, particularly war films. In the lastnamed instances, various expressions of approval and disapproval
 were scientifically collected. They have even tried to measure
 noises in theaters by using special equipment (noise meters,
 applause meters), but this turned out to be a failure because the
@@ -12352,8 +12316,7 @@ World War II, American and British psychologists and sociolo­
 gists undertook a large job: they made studies of German soldiers
 who surrendered in 1945 in an attempt to determine whether
 American propaganda, aimed at persuading them to surrender,
-had been effective (Shils and Janowitz, Dicks, Gurfein and Jano-
-witz on German PWs); studies of German civilians in 1946, to
+had been effective (Shils and Janowitz, Dicks, Gurfein and Janowitz on German PWs); studies of German civilians in 1946, to
 determine whether they had been affected by Nazi propaganda
 (Padover); studies of captured elite troops in the United States
 and Canada in 1945 (Hicks); studies of refugees from the U.S.S.R.,
@@ -12619,8 +12582,7 @@ effectiveness of Nazi and American propaganda conclude that
 Nazi propaganda did not have a profound effect on the Germans,
 that Nazi propaganda in no way whatever reached American
 opinion, but that American propaganda had certain tactical effects
-on German soldiers, inducing them to surrender in 1945. But Goeb-
-bels also had some rather thorough, systematic studies made that
+on German soldiers, inducing them to surrender in 1945. But Goebbels also had some rather thorough, systematic studies made that
 invalidate the first two claims. With regard to the third, even the
 American specialists themselves are in disagreement (Shils and
 Warburg).
@@ -12664,8 +12626,7 @@ On the basis of general considerations about the psychic life
 of the individual, many psychologists, particularly the Americans,
 reach the conclusion that propaganda is ineffective. I will select
 two out of many examples. The first concerns the stability of
-stereotypes. Most observers (Young, Krech and Crutchfield, Mac-
-Dougall) think it practically impossible to change stereotypes
+stereotypes. Most observers (Young, Krech and Crutchfield, MacDougall) think it practically impossible to change stereotypes
 by psychological manipulation. I agree quite readily, without
 investigating whether these stereotypes are spontaneous or pro­
 duced by propaganda. It should be added that these stereotypes
@@ -12742,8 +12703,7 @@ sequently, a person in the grip of propaganda will react accord­
 ing to his pre-existing attitudes and to the degree that these
 attitudes lead him to react. Therefore propaganda must base
 itself on existing tendencies to have the greatest effect. If it goes
-against ingrained attitudes, it cannot have any effect.3 Mac-
-Dougall says, for example, that Baptist propaganda does not reach
+against ingrained attitudes, it cannot have any effect.3 MacDougall says, for example, that Baptist propaganda does not reach
 conscious Catholics and that Western propaganda does not reach
 convinced Communists. Still, there are defections: some Catholics
 do become Baptists and vice versa. The temptation then will be
@@ -12841,8 +12801,7 @@ No, and the propagandas cancel each other out. The example
 most frequently given is an election campaign. With regard to
 totalitarian countries, where the individual is assailed by exces­
 sively heavy propaganda, it is said that he knows that he is being
-lied to and no longer listens, escaping into political absent-
-mindedness. He closes up and can no longer be reached. Exam­
+lied to and no longer listens, escaping into political absentmindedness. He closes up and can no longer be reached. Exam­
 ples of this are said to be the attitudes of the Soviet people vis-i-vis
 Stalinist propaganda, or Hungarian opinion; according to a 1958
 survey: “The majority of the respondents were favorable toward
@@ -12953,8 +12912,7 @@ in 1943-5. In particular, the German civilian population con-
 EFFECTIVENESS OF PROPAGANDA
 2 8 4 )
 tinued to resist despite bombings and food shortages. Industrial
-production remained at a surprisingly high level despite far-
-reaching destruction; morale did not disintegrate in any way (see
+production remained at a surprisingly high level despite farreaching destruction; morale did not disintegrate in any way (see
 Warburg). Propaganda specialists thought that morale would
 break down after the Normandy invasion, but the will to fight
 persisted. And all this despite strong psychological action. Ergo—
@@ -12962,8 +12920,7 @@ propaganda was not effective.
 .But one should perhaps look at the other side of the problem
 and examine what caused the high German morale, what produced
 the resistance that led a people to fight until the very end of its
-material means for at least a year, without hope, when twenty-
-eight years earlier the same people gave in while its army was in
+material means for at least a year, without hope, when twentyeight years earlier the same people gave in while its army was in
 less danger than in 1944. There can be no doubt that it was the
 result of Nazi education—in other words, propaganda, propa­
 ganda that exalted sacrifice, war, military values, faith in the
@@ -13128,8 +13085,7 @@ are precisely the form propaganda takes in the United States.
 
 EFFECTIVENESS OF PROPAGANDA
 2 8 8 )
-There, it is the only truly developed, systematized, and long-
-lasting form of propaganda.
+There, it is the only truly developed, systematized, and longlasting form of propaganda.
 We must now turn to some very general and broad facts that
 are open to various interpretations. First: How can the following
 developments be explained without an admission that opinion
@@ -13783,8 +13739,7 @@ tion or the promulgation of information. Information—directed
 and manipulated, moreover, on the Leninist pattern—was, to1On Mao's propaganda, see Mao Tse-tung: Selected Works (New York: Interna­
 tional Publishers; 1954-6), Vols. I, III; Roderick MacFarquhar (ed.): The Hun­
 dred Flowers Campaign and the Chinese Intellectuals (New York: Frederick A.
-Praeger; i960); and Tibor Mende: China and Her Shadow (New York: Coward-
-McCann; 196a).
+Praeger; i960); and Tibor Mende: China and Her Shadow (New York: CowardMcCann; 196a).
 
 
 3 0 4 )
@@ -13885,8 +13840,7 @@ logical organization and polarization.
 The second element was the famous parallel hierarchy. Side by
 side with the official administration (still the administration of
 the enemy government in the battle areas), a clandestine, revolu­
-tionary, and complete administration was being built. This ad-
-minstration had its own finances, its own police—and very precise
+tionary, and complete administration was being built. This adminstration had its own finances, its own police—and very precise
 propaganda functions. The point was, Mao said, “to mobilize the
 masses by resorting to organization work.”
 Actually, this administration transformed general ideas and
@@ -13917,8 +13871,7 @@ them why they had to fight, and then to turn them into propa-
 
 Appendix
 ( 3 0 7
-gandists and carriers of these ideas. They had to live symbioti-
-cally with the civilians in order to conquer the people ideologi­
+gandists and carriers of these ideas. They had to live symbiotically with the civilians in order to conquer the people ideologi­
 cally and progressively assimilate them.
 Such propaganda methods are subtle and numerous. They
 cover the whole gamut from terror to indoctrination, from parades
@@ -14118,8 +14071,7 @@ though prisoners themselves, shower him with reproaches and
 slogans because they already are on the road to their own re- 5
 5 See A. M. Meerloo: The Rape of the Mind: The Psychology of Thought Control,
 Menticide, and Brainwashing (New York: World Publishing Company; 1956);
-Eleutherius Winance: The Communist Persuasion: A Personal Experience of Brain-
-washing, trans. Emeric A. Lawrence, O.S.B. (New York: P. J. Kenedy & Sons;
+Eleutherius Winance: The Communist Persuasion: A Personal Experience of Brainwashing, trans. Emeric A. Lawrence, O.S.B. (New York: P. J. Kenedy & Sons;
 1959); and Robert Jay Lifton: Thought Reform and the Psychology of Totalism:
 A Study of Brainwashing in China (New York: W. W. Norton & Company; 1961).
 
@@ -14228,8 +14180,7 @@ Barthes, Roland: Mythologies. Pt. II. Paris: Editions du Seuil; 1957.
 Bartlett, Fred Charles: “The Aims of Political Propaganda.” In Katz et al.
 -----------: Political Propaganda. Cambridge, Eng.: Cambridge University
 Press; 1940.
-Baschwitz, Kurt: D u und die Masse, Studien zu einer exacten M assenpsy-
-chologie. and ed. Leiden: E. J. Brill; 1951.
+Baschwitz, Kurt: D u und die Masse, Studien zu einer exacten M assenpsychologie. and ed. Leiden: E. J. Brill; 1951.
 Bemays, Edward L.: The Engineering of Consent. Norman, Okla.: University
 of Oklahoma Press; 1955.
 -----------: Propaganda. N ew  York: H. Liveright; 1928.
@@ -14340,11 +14291,9 @@ Kris, Ernst, and Nathan Leites: “Trends in Twentieth-Century Propaganda.**
 In Lemer (ed .).
 -----------, Hans Speier, et al.: German Radio Propaganda. Studies of the
 Institute of World Affairs. N ew  York: Oxford University Press; 1944.
-Lange, Max Gustav: Totalxtare Erziehung, das Erziehungssystem  der Soto-
-fetzone Deutschlands. Frankfurt am Main: Verlag der Frankfurter
+Lange, Max Gustav: Totalxtare Erziehung, das Erziehungssystem  der Sotofetzone Deutschlands. Frankfurt am Main: Verlag der Frankfurter
 Hefte; 1954.
-LaPiere, Richard Tracy: A  Theory of Social Control. N ew  York: McGraw-
-Hill Book Company; 1954.
+LaPiere, Richard Tracy: A  Theory of Social Control. N ew  York: McGrawHill Book Company; 1954.
 Lasswell, Harold D.: Psychopathology and Politics. N ew  York: Viking Press;
 i960.
 -----------: “Rdle des Ideologies.” Rapport AISP (1 952).
@@ -14373,8 +14322,7 @@ Maier, Norman R. F.: Principles of Human Relations. N ew  York: John W iley
 & Sons; 1952.
 Mao Tse-tung: Selected Works. N ew  York: International Publishers; 1954-6.
 Vols. I, III.
-Maucorps, Paul: Psychologie des m ouvem ents sociaux. Paris: Presses Uni-
-versitaires de France; 1950.
+Maucorps, Paul: Psychologie des m ouvem ents sociaux. Paris: Presses Universitaires de France; 1950.
 M6gret, Maurice: V A ction psychologique. Paris: A. Fayard; 1959.
 Merton, Robert K.: Mass Persuasion: The Social Psychology of a W ar Bond
 D rive. N ew  York: Harper & Brothers; 1946.
@@ -14424,8 +14372,7 @@ Sauvy, Alfred: La Nature sociale. Paris: Presses Universitaires de France;
 -----------: V O pinion publique. Paris: Presses Universitaires de France; 1956.
 Schramm, W ilbur L.: Communication in M odem  Society. Urbana, 111.:
 University of Illinois Press; 1948.
-Shils, Edward A., and Morris Janowitz: “Cohesion and Disintegration in the-
-W ehrmacht.” In Lem er (ed .).
+Shils, Edward A., and Morris Janowitz: “Cohesion and Disintegration in theW ehrmacht.” In Lem er (ed .).
 
 
 3 * o )
@@ -14439,8 +14386,7 @@ Smith, Bruce L.: “Propaganda Analysis and the Science of Dem ocracy.”
 Public Opinion Quarterly, V (1 941).
 Speier, Hans: “Morale and Propaganda.” In Lem er (ed .).
 -----------and Margaret Otis: “German Radio Propaganda.” In Lem er (ed .).
-Stoetzel, Jean: Equisse d u n e thSorie des opinions. Paris: Presses Univer-
-sitaires de France; 1943.
+Stoetzel, Jean: Equisse d u n e thSorie des opinions. Paris: Presses Universitaires de France; 1943.
 Tarde, Gabriel de: V O pinion et la foule. Paris: Alcan; 1901.
 Taylor, Edmond: The Strategy of Terror. Boston: Houghton Mifflin Com­
 pany; 1940.
@@ -14540,8 +14486,7 @@ ideology and myth, 117, 194; see also
 China,
 Communist;
 Khrushchev,
-Nikita; Lenin, Nikolai; Mao Tse-
-tung; Soviet Union; Stalin, Josef
+Nikita; Lenin, Nikolai; Mao Tsetung; Soviet Union; Stalin, Josef
 Communist parties, propaganda by, as
 national parties, 298
 Communists, 29, 30, 3411., 35, 45* 82,
@@ -14643,8 +14588,7 @@ Right in, 219; Communist propaganda
 in, 262, 264; anti-alcohol propaganda
 in, 292; increased birth rate in, 292;
 E
-ropaganda in, for increase in num-
-er of science and technology stu­
+ropaganda in, for increase in numer of science and technology stu­
 dents, 293; Sooubidous in, 294
 French Psychological Action, 31311,
 French Revolution, 117
@@ -14800,16 +14744,14 @@ Mao Tse-tung, 13 and n., 21, 25 n.,
 26 n., 29 n., 32 n., 3311., 53 n., 72,
 78, 79, 82, 83, 84, 85, 89, 110, 169 n.,
 209, 283; and theory of “mold” 72n..
-79, 107, 209-10; propaganda of, 303-
-313; “political education0 by, 304-5;
+79, 107, 209-10; propaganda of, 303313; “political education0 by, 304-5;
 and brainwashing, 305, 311-13; Peas­
 ant Unions organized by, 305-6;
 Chinese^ Red Army organized by,
 306-7; “Hundred Flowers” campaign
 by,
 307-8;
-“discussion-criticism-
-unity” method of, 306-9; and “cri­
+“discussion-criticismunity” method of, 306-9; and “cri­
 teria of Good," 310; see also China,
 Communist
 Marshall Plan, 69-70
@@ -14949,8 +14891,7 @@ of,
 6-32;
 total, 9 -1 7 , 97, 105-17, 242; myths
 utilized and created by, 11, 31-2,
-38, 40, 41, 42, 199-200; of self-
-criticism, 11-12, 153 n.; Soviet, 11 -
+38, 40, 41, 42, 199-200; of selfcriticism, 11-12, 153 n.; Soviet, 11 -
 12, 13 and n., 14, 16 n., 22 and n.,
 26 n., 2 9 0 ., 32 and n., 43 n., 52-3,
 60, 61, 75 and n., 78, 84, 98, 111,
@@ -15035,8 +14976,7 @@ of reinforcing opinions,
 and
 need of average standard of living,
 105-8; average culture required for,
-108-12; related to information, 112-
-116, 144-7, 250; necessity for, 118-60,
+108-12; related to information, 112116, 144-7, 250; necessity for, 118-60,
 182-7 passim; by government, 127,
 128,
 130,
@@ -15051,8 +14991,7 @@ motivations for sacrifices, 142-3, 174,
 psychological effects of, 161-92; com­
 plementary character of, 162; religi­
 ous personality conferred by, 166-7;
-critical judgment suppressed by, 169-
-171, 173; alienation through, 169-78;
+critical judgment suppressed by, 169171, 173; alienation through, 169-78;
 artificial needs created by, 176, 177;
 psychic dissociation effect of, 17 8 -
 182; thought devalued by, 179, 180;
@@ -15097,8 +15036,7 @@ ineffectiveness
 of,
 277-86;
 violent
-turns in, 280; effectiveness of, 287-
-294; limits of, 294-302; internal, as
+turns in, 280; effectiveness of, 287294; limits of, 294-302; internal, as
 most effective, 296-8; by Communist
 parties, reason for effectiveness of,
 298; “related response’* to, 299-300;
@@ -15115,8 +15053,7 @@ psychological crystallization, 162-8
 psychology, 89; propaganda based on,
 4> 5, 6, 3 3 -8  passim; behavioristic,
 36, 89; depth, 36, 89; of instincts,
-36; and effects of propaganda, 161-
-192; see also individual
+36; and effects of propaganda, 161192; see also individual
 public opinion, 36 n., 68, 89, 95, 9 9 -
 102, 114, 165, 198, 199; nature of
 relationship to propaganda, 26, 171,

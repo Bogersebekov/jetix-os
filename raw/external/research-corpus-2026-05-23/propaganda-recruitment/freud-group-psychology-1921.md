@@ -14,6 +14,10 @@ ocr_runtime_sec: 19.3
 pipeline_phase: 3-ocr-extracted
 constitutional_posture: R1-surface
 note: PARTIAL OCR — first 25 pages only. 127 pages flagged for paid OCR re-processing.
+phase4_cleaned: true
+phase4_chars_before: 19782
+phase4_chars_after: 19737
+phase4_saved_pct: 0.2
 ---
 
 ## Page 1
@@ -71,7 +75,6 @@ i
 
 ## Page 4
 
-7
 wo
 
 ## Page 5
@@ -82,8 +85,6 @@ LIBRARY
 No. 6
 
 ## Page 6
-
-4
 
 ## Page 7
 
@@ -99,7 +100,7 @@ i ernesios
 LONDON
 THE HOGARTH PRESS, 42 WILLIAM IV STREET, W.C.2
 AND THE INSTITUTE OF PSYCHO-ANALYSIS
-1949
+
 BOSTON UNiVERSITY
 SCHOOL OF eaciat wrm
 
@@ -133,8 +134,7 @@ express desire.
 
 All technical terms have been translated in
 accordance with the Glossary to be published as a
-supplement to the Julernational Yournal of Psycho-
-Analysis.
+supplement to the Julernational Yournal of PsychoAnalysis.
 
 iS
 BOSTON UNIVERSITY LIBRARIES
@@ -204,8 +204,7 @@ extended but entirely justifiable sense of the words.
 The relations of an individual to his parents and
 to his brothers and sisters, to the object of his love,
 and to his physician—in fact all the relations which
-have hitherto been the chief subject of psycho-
-analytic research—may claim to be considered as
+have hitherto been the chief subject of psychoanalytic research—may claim to be considered as
 social phenomena; and in this respect they may be
 contrasted with certain other processes, described by
 us as ‘narcissistic’, in which the satisfaction of the
@@ -240,8 +239,7 @@ of a profession, of an institution, or as a component
 part of a crowd of people who have been organised |
 into a group at some particular time for some definite
 purpose. When once natural continuity has been
-severed in this way, it is easy to regard the pheno-
-mena that appear under these special conditions as
+severed in this way, it is easy to regard the phenomena that appear under these special conditions as
 being expressions of a special instinct that is not
 further reducible, the social instinct (‘herd instinct’,
 ‘group mind’), which does not come to light in any |
@@ -249,8 +247,7 @@ other situations. But we may perhaps venture to
 object that it seems difficult to attribute to the factor
 of number a significance so great as to make it capable
 by itself of arousing in our mental life a new instinct
-that is otherwise not brought into play. Our ex-
-pectation is ‘therefore directed towards two other
+that is otherwise not brought into play. Our expectation is ‘therefore directed towards two other
 possibilities: that the social instinct may not be a
 primitive one and insusceptible of dissection, and that
 it may be possible to discover the beginnings of its
@@ -292,8 +289,7 @@ means of quotation from Le Bon’s deservedly famous
 work Psychologie des foules.?
 
 Let us make the matter clear once again. If a
-Psychology, concerned with exploring the predis-
-positions, the instincts, the motives and the aims of
+Psychology, concerned with exploring the predispositions, the instincts, the motives and the aims of
 an individual man down to his actions and his rela~
 tions with those who are nearest to him, had completely
 achieved its task, and had cleared up the whole of
@@ -385,8 +381,7 @@ established by modern psychology, that unconscious
 phenomena play an altogether preponderating part
 not only in organic life, but also in the operations _
 of the intelligence. The conscious life of the mind is’
-of small importance in comparison with its uncon-
-scious life. The most subtle analyst, the most acute
+of small importance in comparison with its unconscious life. The most subtle analyst, the most acute
 observer, is scarcely successful in discovering more
 than a very small number of the conscious’ motives
 that determine his conduct. Our conscious acts ‘are
@@ -395,8 +390,7 @@ the mind in the main by hereditary influences. This
 substratum consists of the innumerable common
 characteristics handed down from generation to
 generation, which constitute the genius of a race.
-Behind the avowed causes of our acts there undoubt-
-edly lie secret causes that we do not avow, but
+Behind the avowed causes of our acts there undoubtedly lie secret causes that we do not avow, but
 
 * behind these secret causes there are many others
 more secret still, of which we ourselves are
@@ -445,8 +439,7 @@ always controls individuals disappears entirely.’ (p. 33.)
 From our point of view we need not attribute
 so much importance to the appearance of new
 characteristics. For us it would be enough to say
-that in a group the individual is brought under con-
-ditions which allow him to throw off the repressions *
+that in a group the individual is brought under conditions which allow him to throw off the repressions *
 
 ¥
 
@@ -457,16 +450,14 @@ of his unconscious instincts. The apparently _new_
 characteristics which’ he then—displays—are_in fact
 Ff the manifestations of this unconscious, in which all
 that is evil in the human mind is contained as a
-predisposition. We can find no difficulty in under-
-standing the disappearance of conscience or of a
+predisposition. We can find no difficulty in understanding the disappearance of conscience or of a
 ~~ sense of responsibility in these circumstances. It has
 long been our contention that ‘dread of society [soziale
 Angst]’ is the essence of what is called conscience.?
 “ ‘The second cause, which is contagion, also
 intervenes to determine the manifestation in groups
 of their special characteristics, and at the same time
-the trend they are to take. Contagion is a pheno-
-menon of which it is easy to establish the presence,
+the trend they are to take. Contagion is a phenomenon of which it is easy to establish the presence,
 but that it is not easy to explain. It must be classed
 among those phenomena of a hypnotic order, which
 we shall shortly study. In a group every sentiment
@@ -496,22 +487,19 @@ We shall later on base an important conjecture
 upon this last statement.
 
 ‘A third cause, and by far the most important,
-determines in the individuals of a group special cha-
-racteristics which are quite contrary at times to
+determines in the individuals of a group special characteristics which are quite contrary at times to
 those presented by the isolated individual. I allude
 to that suggestibility of which, moreover, the contagion
 mentioned above is only an effect.
 
 ‘To understand this phenomenon it is necessary
 to bear in mind certain recent physiological discoveries.
-We know to-day that by various processes an individ-
-ual may be brought into such a condition that,
+We know to-day that by various processes an individual may be brought into such a condition that,
 having entirely lost his conscious personality, he obeys
 all the suggestions of the operator who has deprived
 him of it, and commits acts in utter contradiction
 with his character and habits. The most careful
-investigations seem to prove that an individual im-
-mersed for some length of time in a group in action
+investigations seem to prove that an individual immersed for some length of time in a group in action
 soon finds himself—either in consequence of the
 magnetic influence given out by the group, or from
 some other cause of which we are ignorant—in a
@@ -534,19 +522,15 @@ in the case of the hypnotised subject, at the same
 time that certain faculties are destroyed, others may
 be brought to a high degree of exaltation, Under
 the influence of a suggestion, he will undertake the
-accomplishment of certain acts with irresistible im-
-petuosity. This impetuosity is the more irresistible in
+accomplishment of certain acts with irresistible impetuosity. This impetuosity is the more irresistible in
 the case of groups than in that of the hypnotised
 subject, from the fact that, the suggestion being the
 same for all the individuals of the group, it gains in
 strength by reciprocity.’ (p. 34.)
 
 “We see, then, that the disappearance of the
-conscious personality, the predominance of the un-
-conscious personality, the turning by means of sug-
-gestion and contagion of feelings and ideas in an
-identical direction, the tendency to immediately trans-
-form the suggested ideas into acts; these, we see, are
+conscious personality, the predominance of the unconscious personality, the turning by means of suggestion and contagion of feelings and ideas in an
+identical direction, the tendency to immediately transform the suggested ideas into acts; these, we see, are
 the principal characteristics of the individual forming
 part of a group. He is no longer himself, but has
 become an automaton who has ceased to be guided
@@ -578,8 +562,7 @@ cannot avoid being struck with a sense of deficiency
 when we notice that one of the chief elements of
 the comparison, namely the person who is to replace
 the hypnotist in the case of the group, is not mentioned
-in Le Bon's exposition. But he nevertheless dis-
-tinguishes between this influence of fascination which
+in Le Bon's exposition. But he nevertheless distinguishes between this influence of fascination which
 remains plunged in obscurity and the contagious effect
 which the individuals exercise upon one another and
 by which the original suggestion is strengthened.

@@ -14,6 +14,10 @@ ocr_runtime_sec: 21.7
 pipeline_phase: 3-ocr-extracted
 constitutional_posture: R1-surface
 note: PARTIAL OCR — first 25 pages only. 76 pages flagged for paid OCR re-processing.
+phase4_cleaned: true
+phase4_chars_before: 46907
+phase4_chars_after: 46896
+phase4_saved_pct: 0.0
 ---
 
 ## Page 1
@@ -50,8 +54,6 @@ August 1971
 I
 
 |
-
-1
 
 ## Page 4
 
@@ -140,8 +142,7 @@ ewD316 - 2
 my teaching was heavily influenced by these experiences. Hl
 
 The purpose of this little monograph is to assist the programming
-reader in cleaning up his own thinking, to transmit to him some mental disci-
-plines by sticking to which he cen avoid making his job unnecessarily difficult.
+reader in cleaning up his own thinking, to transmit to him some mental disciplines by sticking to which he cen avoid making his job unnecessarily difficult.
 It is born out of dissatisfaction with the usual kind of programming course,
 which now strikes me as like the type of driving lessons in which one is taught
 how to handle a car instead of how to use a car to reach ane's intended des~
@@ -324,8 +325,7 @@ or process for short.
 Whenever such a dissection is permissible, we can regard the sone
 happening either as 2n action, or as a sequential process. When our interest
 is confined to the net effect, to the states "before and after", then we
-regard it as an ection. If, however, we are interested in one or more inter-
-mediate states as well, then we regard it es a process. In the letter case
+regard it as an ection. If, however, we are interested in one or more intermediate states as well, then we regard it es a process. In the letter case
 the moment 10 coincides with the beginning of the first subaction and the
 end of each subaction coincides with the beginning of the next one, with the
 exception of the last subaction, whose end coincides with T1, the end of the
@@ -424,8 +424,7 @@ refers to it by means of a subalgorithm in which the subaction, in its turn,
 is regarded as a process, etc. until at the end all has been reduced to
 actions from the well-understood, finite repertoire.
 
-The notion of an algorithm, of an executable precept for the establish-
-ing of a certain net effect, is very well known from daily life: knitting
+The notion of an algorithm, of an executable precept for the establishing of a certain net effect, is very well known from daily life: knitting
 patterns, directions for use, recipes and musical scores are all algorithns.
 And if one asks the way to the railway station in an unfamiliar town, one
 asks essentially for an algorithm, for the description of a pattern of
@@ -791,8 +790,7 @@ exanple of @ machine.
 
 ewD316 = 17
 
-A mechanism that can only do one thing (such as one of the most widely-
-spread automata, the toilet flusher) is not called a machine. Essential for
+A mechanism that can only do one thing (such as one of the most widelyspread automata, the toilet flusher) is not called a machine. Essential for
 us is the associated repertoire of actions, the ability to accept patterns
 of behaviour and to behave accordingly.
 

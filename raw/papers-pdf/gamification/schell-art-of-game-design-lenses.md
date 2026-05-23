@@ -4290,8 +4290,7 @@ can make healing their primary activity in Toontown.
 they make up for in increased verbal skills. Women purchase many more books
 than men do, and the audience for crossword puzzles is mostly female. Very few
 modern videogames do much very interesting or meaningful with dialog or verbal puzzles at this point in time, and this may be an untapped opportunity.
- 5.  Learning by Example. Just as males tend to eschew instructions, favoring a trial-
-and-error approach, females tend to prefer learning by example. They have a
+ 5.  Learning by Example. Just as males tend to eschew instructions, favoring a trialand-error approach, females tend to prefer learning by example. They have a
 strong appreciation for clear tutorials that lead you carefully, step-by-step, so that
 when it is time to attempt a task, the player knows what she is supposed to do.
  There are many other differences, of course. For example, males tend to be very
@@ -7626,8 +7625,7 @@ might make you think that making a complex game is a bad thing. Let’s look at 
 different kinds of complexity that show up in games:
  ●  Innate complexity. When the very rules of the game get very complex, I call this
 innate complexity. This is the kind of complexity that often gets a bad name. It
-generally arises either because the designer is trying to simulate a complex real-
-world situation, or because extra rules need to be added to a game in order to
+generally arises either because the designer is trying to simulate a complex realworld situation, or because extra rules need to be added to a game in order to
 THE TWELVE MOST COMMON TYPES OF GAME BALANCE
 
 
@@ -11572,8 +11570,7 @@ your characters, you will quickly find that they seem aware of each other in a w
 that most videogame characters are not.
  The game Munch’s Oddysee has great examples of character status interactions.
 In it, you control two different characters, one of whom is a slave, and the other is
-bound to a wheelchair (low status). Throughout the game you face arrogant (high-
-status) enemies and get help from slavish (low-status) followers. The interactions
+bound to a wheelchair (low status). Throughout the game you face arrogant (highstatus) enemies and get help from slavish (low-status) followers. The interactions
 between all these are quite interesting to see, and a great deal of comedy comes
 from unexpected status reversals, such as the followers mouthing off at Munch or at
 the enemies. The characters in this game show an awareness of each other’s presence that, while crude, is a step above many other games.
@@ -12010,8 +12007,7 @@ It is excellent mental exercise just to think about how these patterns, which mo
 are about spatial and textural qualities, apply to games at all.
  Alexander’s Fifteen Properties of Living Structures
  1.  Levels of Scale. We see levels of scale in  “telescoping goals, ” where a player has
-to satisfy short-term goals to reach mid-term ones and to eventually reach long-
-term goals. We see it in fractal interest curves. We also see it in nested game
+to satisfy short-term goals to reach mid-term ones and to eventually reach longterm goals. We see it in fractal interest curves. We also see it in nested game
 world structures.  Spore is a symphony of levels of scale.
  2.  Strong Centers. We see this in visual layout, certainly, but also in our story
 structure. The avatar is at the center of our game universe — and generally we

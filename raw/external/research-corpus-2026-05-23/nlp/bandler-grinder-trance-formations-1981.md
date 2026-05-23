@@ -14,6 +14,10 @@ ocr_runtime_sec: 21.9
 pipeline_phase: 3-ocr-extracted
 constitutional_posture: R1-surface
 note: PARTIAL OCR — first 25 pages only. 235 pages flagged for paid OCR re-processing.
+phase4_cleaned: true
+phase4_chars_before: 51496
+phase4_chars_after: 51387
+phase4_saved_pct: 0.2
 ---
 
 ## Page 1
@@ -202,13 +206,10 @@ Foreword
 Hypnosis isa word that usually gets strong responses from people—
 some positive and some negative. Some people think it's a hoax or only
 goad for meking people act like chickens. some people think it will eure
-everything from dandruff to flat feet, and others think it is so danger-
-ous that it should be left alone campletely. Trance experiences have
-existed in different forms for centuries, usually surrounded by a mys-
-tique of something “magical” and unexplainable. What is unique
+everything from dandruff to flat feet, and others think it is so dangerous that it should be left alone campletely. Trance experiences have
+existed in different forms for centuries, usually surrounded by a mystique of something “magical” and unexplainable. What is unique
 about this book is that it turns the “magic” of hypnosis into specific
-understandable procedures that can be used not only in doing “hypno-
-sis” but also in everyday communication.
+understandable procedures that can be used not only in doing “hypnosis” but also in everyday communication.
 
 When John Grinder and Richard Bandler doa seminar on hypaasis
 together, one of them usually says “All communication is hypnosis”
@@ -217,8 +218,7 @@ exist.” Thereisa sense in which they are bath right, and both are saying
 the sume thing.
 
 IFT tell you about going snorkeling on my recent honeymoon in the
-Yucatan and describe to yau the swift movements of the brightly-
-colored tropical fish, the rhythmic sound of the gentle waves against
+Yucatan and describe to yau the swift movements of the brightlycolored tropical fish, the rhythmic sound of the gentle waves against
 the shore, and the feeling of rising und falling with the warm wavesas |
 scan the underwater scenery, hopefully I will alter your state of con
 sciousness so that you can experience some representation of what I
@@ -226,11 +226,7 @@ experienced, If you become excited about going there yourself, I will
 have used the same patterns of communication that are used by suc~
 cessful hypnotists ... and by successful poets, salesmen, parents,
 
-1
-
 ## Page 7
-
-2
 
 politicians, religious leaders, ete. If you think af hypnosis as altering
 someonc’s state of consciousness, then any cffective communication is
@@ -247,8 +243,7 @@ simply takes any pressure to respond off the listener.
 responses. The well-meaning parent may say to her child “Don't spill
 the milk," or “Don’t stumble." The well-meaning husband may say
 “Don't get upset,” or “I don't want you to worry about what happens |
-while youare gone.” The listener has to represent the unwanted behav-
-ior somehow in order to understand what has been said, and this makes
+while youare gone.” The listener has to represent the unwanted behavior somehow in order to understand what has been said, and this makes
 the unwanted behavior more likely. Unknowingly, he or she ina sense
 “hypnotizes” the child or spouse into an urwanted response.
 
@@ -279,33 +274,25 @@ fears, and so on.
 
 ## Page 8
 
-3
-
-But you can also use this information in evolutionary ways to devel-
-op yourself and continually increase your abilities and choices in life—
+But you can also use this information in evolutionary ways to develop yourself and continually increase your abilities and choices in life—
 earning to do better what you already do well. You can do this in
-simple ways such as learning to communicate with family and asso-
-ciates more effectively, make love more enjoyably, learn new skills
+simple ways such as learning to communicate with family and associates more effectively, make love more enjoyably, learn new skills
 more easily, and so on. You can also learn how to make even more
 pervasive changes in how you live.
 
 Much of the material in this book is derived from Bandler and
 Grinders careful and systematic observation of the work of Milton H.
-Erickson, M.D, Until his death in 1980, Erickson was widely con-
-sidered to be the world’s greatest medical hypnotist, He was widely
-known for his successful and often "miraculous" work with “impossi-
-ble” clients, as well as for his extensive writings on hypnosis.
+Erickson, M.D, Until his death in 1980, Erickson was widely considered to be the world’s greatest medical hypnotist, He was widely
+known for his successful and often "miraculous" work with “impossible” clients, as well as for his extensive writings on hypnosis.
 
 Several ycars ago I went to visit Milton Erickson at his home in
 Phoenix. After he described some of his remarkable work with clients,
 Tasked him how he knew to use one approach with one client, when he
 had used an opposite approach with another client who apparently bad
-the same kind of problem. He responded “You just trast your uncon-
-scious mind.”
+the same kind of problem. He responded “You just trast your unconscious mind.”
 
 That approach to hypnosis works great if you have Milton
-Ericksou’s unconscious mind, Buc how isit possible to learn toautomati-
-cally and unconsciously respond as effectively as Milton Erickson
+Ericksou’s unconscious mind, Buc how isit possible to learn toautomatically and unconsciously respond as effectively as Milton Erickson
 did—to have an unconscious mind like Erickson’s? Grinder and
 Bandler's special genius is the ubility to observe someone like Erickson
 and then describe in detail what Erickson does, what cues he responds
@@ -327,8 +314,6 @@ Know what Ido, but 10 explain how Ido itis much too difficultfor
 me.”
 
 ## Page 9
-
-4
 
 In addition to modeling the behavior of “wizards” such as Milton
 Erickson, Grinder and Bandler have added their own wide array of
@@ -392,8 +377,7 @@ will call upon both of exch of you to enjoy and learn from what takes
 place here,
 
 Jassume that each of you is here with at Jeast two objectives in mind,
-Onc is ta discover haw hypnotic patterning might be useful and elfec-
-tive for you in whatever area you are in, whether it’s psychatherany,
+Onc is ta discover haw hypnotic patterning might be useful and elfective for you in whatever area you are in, whether it’s psychatherany,
 management, education, nursing, sales, or something else. I assume
 
 that you want ta discover what new choices hypnotic patterning offers
@@ -410,7 +394,6 @@ a
 
 ## Page 11
 
-6
 discuss what is going on, and we will ask you to do exercises under our
 supervision after we've explained what we would like you to do.
 Hypnotic patterning is the same as any skill that can be learned. In
@@ -453,7 +436,6 @@ various pieces. Our job will be to balance the amount of time we have
 
 ## Page 12
 
-7
 you practice specific skills with the time we spend making sure we
 complete a coherent whole that will give you an ovcrall strategy for
 hypnosis. I trust that you, and particularly your unconscious mind,
@@ -475,8 +457,7 @@ understand how hypnosis is done, Why it works, I don't know. I do
 know that hypnosis works in the same way that you learn and
 remember and everything else, It works in the same way that you
 understand language.
-Although hypnosis is not different from anything else, inthe config-
-uration we're going co teach it to yau, it's a very powerful tool, And I
+Although hypnosis is not different from anything else, inthe configuration we're going co teach it to yau, it's a very powerful tool, And I
 would like you to think of it as a tool that accomplishes something |
 specific. It’s an amplifier. No matter what you da, whether you're |
 selling cars, doing psychotherapy, or working with juries, you can doit |
@@ -496,18 +477,14 @@ The process of learning to do hypnosis is somewhat unusual,
 
 ## Page 13
 
-8
-
 becuuse unlike most things you learn, you already know how ta do it.
 The problem is noticing it. So rather than going through a long and
-detailed description this morning, 1 am going to ask you to do some-
-thing and then afterwards take a look at it.
+detailed description this morning, 1 am going to ask you to do something and then afterwards take a look at it.
 
 Exercise 1
 
 T'm going to ask you to get into groups of three people. I want one of
-you, person A, ta think of something that fits the following descrip-
-tion: a situation in which you become deeply involved, with a limited
+you, person A, ta think of something that fits the following description: a situation in which you become deeply involved, with a limited
 focus of attention. For some people that’s jogeing; for others it's
 Teading # bavk, It might he writing, watching television, going to the
 movies, driving your car on a long trip—anything which fits that
@@ -547,13 +524,10 @@ Take ubout five minutes each. |
 
 ## Page 14
 
-9
-
 I didn’t want to talk to you too much in the beginning because
 whenever I begia to teach a hypnosis course it’s a little bit difficult for
 me ta keep from demonstrating at large. asked you to notice what
-kinds of things scemed to allow you to go back to the state of con-
-sciousness thal you were in when you actually had the experience you
+kinds of things scemed to allow you to go back to the state of consciousness thal you were in when you actually had the experience you
 mentioned, and which things seemed to make it harder for you. Which
 things seemed to jar you, and which seemed to lead you more into
 being relaxed? Which things seemed to be disjointed, and which
@@ -607,8 +581,6 @@ OK, he can go home now,
 
 ## Page 15
 
-10
-
 ‘Woman: There was one thing. If one person had slowed down the
 speed of his voice. and then the other one speeded up, that braught me
 back up,
@@ -623,8 +595,7 @@ first that made it very easy, becanse I was just using one sensory system,
 but after a while [ heard myself saying “I want to sce something,” I
 wasn't sccing anything,
 
-So it was really the absence of something, After a while the instruc-
-tions became what is known as redundant.
+So it was really the absence of something, After a while the instructions became what is known as redundant.
 
 Man: Oncthing really distracted me and pulled me out after I was in
 the experience: the phrase “as all other experiences fade.” When he said
@@ -714,7 +685,6 @@ splash of the water” and the person is underwater, it won't wark, But
 
 ## Page 17
 
-12
 you can say “You can hear the sounds that the water makes” because
 there will be some sounds.
 
@@ -753,8 +723,7 @@ termined, They're simply the mechanisms of communication.
 If [tell you that I want you Lo think about this (speaking rapidly)
 “very-slowly-und-carefully,” the incongruity between what I say und
 how Isay it gives you two contradictory instructions. Butif Tell youl
-want you to stop... and consider... very... slawly .. . just ex-
-actly... what the change... in your own experience ... wus...
+want you to stop... and consider... very... slawly .. . just exactly... what the change... in your own experience ... wus...
 then... the tempo... the rate of my speech . . . the movements of
 my body (he bas been swaying to the rhythm of his speect) don’t
 interfere with the words that I'm saying. In fact they embellish them
@@ -762,12 +731,9 @@ and amplify theie impact.
 
 ## Page 18
 
-3
-
 I beard somebody here say the word “up” as he lowered his voice,
 ‘That's an incongruity. ‘hose two things don't match. It's like talking
-about being really excited in a monotone. Hypnotists do this some-
-times. There’s an old nation that you're supposed to talk ina monotone
+about being really excited in a monotone. Hypnotists do this sometimes. There’s an old nation that you're supposed to talk ina monotone
 when you do hypnosis. It is actually much more effective to sound
 thrilled if you are taking somcone back into a thrilling experience.
 Being in trance doesn't mean that you have ta be dead. A lat of peaple
@@ -789,14 +755,12 @@ how researchers have proved it, they're right. If you use the same
 hypnotic induction with a group of people, only some of them will go
 into a trance, That's the way traditional hypnotists work. However,
 we're not going to study tradilional hypnosis. We're going to study
-what's called Ericksonian hypnosis, after Milton I. Erickson. Erick-
-sonian hypnosis means developing the skills of a hypnotist so well that
+what's called Ericksonian hypnosis, after Milton I. Erickson. Ericksonian hypnosis means developing the skills of a hypnotist so well that
 you can pul someone into a trance ina conversation in which the word
 hypnosis is never mentioned.
 
 I learned a long time ago that it isn't so much what you say as how
-you say it, When you try to convince somebody consciously by over-
-Powering him, it elicits from him the response of resisting you. There
+you say it, When you try to convince somebody consciously by overPowering him, it elicits from him the response of resisting you. There
 are some people whto don’t resist being averpowered, and who go intoa
 trance, However, neither resistance nor cooperatian is a demonstra
 tion of anything except the ability of people to respond. Everybody
@@ -812,8 +776,6 @@ can do; if | decided to force you to keep your eyes open, that would
 make you keep your eyes open, I'll try. Keep your cyes wide open. Stay
 
 ## Page 19
-
-14
 
 totally alert. Everything you do will make youstay right here and right
 now." Then they resist me right into trance, The principle I was using
@@ -835,8 +797,7 @@ learn,
 
 One thing I've noticed is that people are more apt to respond casily
 when they're in a state that hypnotists call apport. Rapport seems to
-be built on malching behaviors, Disagreeing with people won't estab-
-lish rapport, Talking faster than people can listen won't build rapport.
+be built on malching behaviors, Disagreeing with people won't establish rapport, Talking faster than people can listen won't build rapport.
 Talking about feclings when people are making visual imuges won't
 
 ' build rapport. But if you gauge the tempo of your vaice to the rate of
@@ -871,8 +832,7 @@ to vary what you do and to have them follow.
 The next time you do this exervise, I want you to begin by matching
 the person's preven experience. Last time you described what would
 haveto be there in some previous experience the person had. This time
-you'll begin by describing what has to be there in the person's expe-
-cence now. So if 'm doing it with Charlic, | would say something like
+you'll begin by describing what has to be there in the person's expecence now. So if 'm doing it with Charlic, | would say something like
 “And you arc listening to the sound of my voice . . . and you can feel
 the warmth where your left hand is resting on your thigh. . ..”
 
@@ -914,8 +874,6 @@ control, and so on— in the waking state. There is somebody in this
 
 ## Page 21
 
-16
-
 room right now who can do these things in che waking state. Is there
 anybody here who can still sc an imaginary friend or animal that you
 had as a child? Anybody? You can raise your hand, we won't arrest
@@ -943,16 +901,14 @@ would make LSD look trivial. Trance is only tsking your consvious
 experience and altcring it to something else.
 
 In California the legisluture is passing a law which says only licensed
-hypnotists can induce altcred states. The ramifications of that particu-
-lar law are going 1a be very interesting, because when people make
+hypnotists can induce altcred states. The ramifications of that particular law are going 1a be very interesting, because when people make
 love, they ccrvainly induce ultered states in one another. At leust T
 hope making lave is not che sameas mowing the lawn! I'd like to know
 how they're gaing to enforce that law. Everybody's gaing to haveto go |
 out and became a licensed hypnotist so that they can get married.
 
 Now back to your task. Inaddition to matching people's experience
-with your statements to get rapport. you need to be able to do some-
-thing with the rapport you'll have. The key to this is beingable to make
+with your statements to get rapport. you need to be able to do something with the rapport you'll have. The key to this is beingable to make
 transitions. You need to havea graceful way of guiding someone from
 his present state into a trance state—going from describing his present
 state co describing the state you want him to go to. Using transitional
@@ -963,9 +919,7 @@ you to realize that I'm about to tell you something.” There's no
 
 ## Page 22
 
-7
-Telationship between your sitting there and realizing something. How-
-ever, it sounds meaningful, and it's the tone of voice and the transition
+Telationship between your sitting there and realizing something. However, it sounds meaningful, and it's the tone of voice and the transition
 “as” that imply meaning.
 
 Beginning with sensary-based information allows you to make tran
@@ -985,8 +939,7 @@ Joe; Tstill don’t understand what you mean by the term transition.
 If I say to you “You asked a question while you were sitting in a
 chair” | am making 2 transition. I'm using the word “while” to define
 that two things are related. "You asked this question because you want
-to know something that's important.” Now most things aren't neves-
-sarily related, but using the word “because” gives them a relationship.
+to know something that's important.” Now most things aren't nevessarily related, but using the word “because” gives them a relationship.
 It Tsay “4s you sit in thal chair yau are breathing in and aut" it relates
 those two things by time. They arc not necessarily related, but | rclste__
 them in time by saying “us.”
@@ -1010,8 +963,6 @@ one idea to the other are these particular kinds of words. Aud you are
 here because you want to learn to be able to do # certain phenomenon
 
 ## Page 23
-
-18
 
 called hypnosis. Ard as you go through the next three days, I’m going
 toteach you a lat of things that allow it to work easier. Why it works 1
@@ -1065,7 +1016,6 @@ think that what made transitional words powerful was only that they
 
 ## Page 24
 
-19
 made a statement more credible. In addition to that, the fact that
 people don't have to jump simply makes it much easier for them to
 actually engage in the process.
@@ -1084,8 +1034,7 @@ put them in another.”
 Tused to think that it was the logic of that kind of statement that
 made it convincing. That so-called logic is part of what makes these
 statements effective, but more than being logical and convincing, these
-statements are a set of instructions about what's plausible. That plaus-
-ibility becomes easier for people to respond to when they stay in a
+statements are a set of instructions about what's plausible. That plausibility becomes easier for people to respond to when they stay in a
 constant, uninterrupted state of consciousness. You see, hypnosis
 makes it possible for somebody to contro! his heart rate. But usually
 when people begin to try to do something like control their heart rate,
@@ -1143,8 +1092,7 @@ scratch yourself. If you adopt a person's mannerisms overtly, it has a
 tendency to intrude into cansciousness, and the one thing you don’t
 want to do as a hypnotist is to intrude into that person's consciousness,
 ‘You want to find more sublle mechanisms: for example, breathing at
-the same rate. That's not something a person is apt to become con-
-scious of. But unconsciausly he will he aware of it and he'll respond.
+the same rate. That's not something a person is apt to become conscious of. But unconsciausly he will he aware of it and he'll respond.
 
 Man; OK. Those things are another way of making a link between
 the idews that yau're trying to put across. I don't know quite how to
@@ -1154,8 +1102,7 @@ persuasive if there's a similaricy in various subtle means.
 Yes, and J do something else that makes it much easier to be
 successful as a hypnotist. I don’t think of it as persuasion. Many people
 who do hypnosis and write about it talk about it as “persuasion,” being
-“one-up.” being in “meta-position.” or being “in control.” They some-
-times refer to themselves as “operators,” which T always thought was
+“one-up.” being in “meta-position.” or being “in control.” They sometimes refer to themselves as “operators,” which T always thought was
 an interesting thing for hypnotists to call themselves. People who do
 that also write about “resistance,” because thinking of hypnosis #s
 control and getting resistance go hand in hand. One way of describing

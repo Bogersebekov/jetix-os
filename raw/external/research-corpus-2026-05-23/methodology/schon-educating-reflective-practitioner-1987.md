@@ -14,6 +14,10 @@ ocr_runtime_sec: 14.9
 pipeline_phase: 3-ocr-extracted
 constitutional_posture: R1-surface
 note: PARTIAL OCR — first 25 pages only. 359 pages flagged for paid OCR re-processing.
+phase4_cleaned: true
+phase4_chars_before: 18140
+phase4_chars_after: 18109
+phase4_saved_pct: 0.2
 ---
 
 ## Page 1
@@ -97,7 +101,6 @@ f Reet gl. itd
 a 7 “9 | Ocenia epee fh
 
 ## Page 5
-
 
 
 ## Page 6
@@ -276,11 +279,9 @@ conflict. In contrast, I claimed, the professional schools of
 contemporary research universities give privileged status to
 systematic, preferably scientific, knowledge. Technical rationality,
 the schools’ prevailing epistemology of practice, treats professional
-competence as the application of privileged knowledge to instru-
-mental problems of practice. The schools’ normative curriculum
+competence as the application of privileged knowledge to instrumental problems of practice. The schools’ normative curriculum
 and separation of research from practice leave no room for
-reflection-in-action, and thereby create—for educators, practition-
-ers, and students—a dilemma of rigor or relevance. The argument
+reflection-in-action, and thereby create—for educators, practitioners, and students—a dilemma of rigor or relevance. The argument
 of The Reflective Practitioner implies a question: What kind of
 
 fa
@@ -289,8 +290,7 @@ fa
 
 xii Preface
 professional education would be appropriate to an epistemology of
-practice based on reflection-in-action? I left the question unans-
-wered there, to be answered here. In this volume, I propose that
+practice based on reflection-in-action? I left the question unanswered there, to be answered here. In this volume, I propose that
 university-based professional schools should learn from such
 deviant traditions of education for practice as studios of art and
 design, conservatories of music and dance, athletics coaching, and
@@ -362,8 +362,7 @@ Nevertheless, in Part Four, I am concerned with institutional
 forces that restrict discretionary freedoms essential to the exercise
 of wisdom and artistry alike. And I believe that education for
 reflective practice, though not a sufficient condition for wise or
-moral practice, is certainly a necessary one. For how are practition-
-ers to learn wisdom except by reflection on practice dilemmas that
+moral practice, is certainly a necessary one. For how are practitioners to learn wisdom except by reflection on practice dilemmas that
 call for it?
 
 My emphasis is on the positive side of education for
@@ -387,8 +386,7 @@ may become more sharply aware of the potentially destructive
 effects of the “help” they offer.
 
 This book is intended especially for individuals in schools
-or practice settings—practitioners, teachers, students, and educa-
-tional administrators—who are concerned with education for
+or practice settings—practitioners, teachers, students, and educational administrators—who are concerned with education for
 reflective practice. But it is also intended for all those who share a
 lively interest in the elusive phenomena of practice competence
 and artistry and the equally elusive processes by which these are
@@ -405,9 +403,7 @@ It is literally true that I am indebted to more people than I
 can name. Among the persons who have been most helpful to my
 efforts to work through the argument of this book are Chris
 Argyris, Jeanne Bamberger, and Martin Rein. Israel Scheffler and
-Vernon Howard and their colleagues in the Philosophy of Edu-
-cation Seminars at Harvard University gave me valuable op-
-portunities on several occasions to present and discuss earlier
+Vernon Howard and their colleagues in the Philosophy of Education Seminars at Harvard University gave me valuable opportunities on several occasions to present and discuss earlier
 versions of this work. At M.LT., the Design Research Group—
 including professors Louis Bucciarelli, Aaron Fleisher, John
 
@@ -417,8 +413,7 @@ Preface xv
 Habraken, William Porter, and Patrick Purcell—have greatly
 helped my efforts to make some sense of designing,
 
-Turning now to specific chapters, Roger Simmonds fur-
-nished me with the protocol of the design review in Chapter
+Turning now to specific chapters, Roger Simmonds furnished me with the protocol of the design review in Chapter
 Three; I am indebted to discussions with him, Florian Von
 Buttlar, Imre Halasz, Julian Beinart, and, most of all, William
 Porter, for their help in discovering what the protocol was about.
@@ -440,8 +435,7 @@ first got the idea of the “professional squeeze play” described in
 Chapter Eleven. And Iam grateful to several colleagues in the
 M.LT. Department of Urban Studies and Planning—Donna
 Ducharme, Bennett Harrison, Langley Keyes, Tunney Lee, Amy
-Schechtman, Mark Schuster, and Lawrence Susskind—for partner-
-ship in the experiment described in Chapter Twelve and helpful
+Schechtman, Mark Schuster, and Lawrence Susskind—for partnership in the experiment described in Chapter Twelve and helpful
 criticisms of my attempts to decribe it.
 
 T have also greatly profited from many opportunities to give
@@ -459,8 +453,7 @@ under the auspices of the Chicago Institute for Psychoanalysis, as
 
 xvi Preface
 the first Littner Memorial Lecture. Other parts of this book were
-first presented, in 1985, as the Queens Lectures at Queens Uni-
-versity in Kingston, Ontario; the Harvard University Graduate
+first presented, in 1985, as the Queens Lectures at Queens University in Kingston, Ontario; the Harvard University Graduate
 School of Business Colloquium on Case Teaching in the spring of
 1985; and the Leatherbee Research Lecture, at the same institution,
 in spring 1986.
@@ -489,22 +482,18 @@ focused on organizational learning and professional effectiveness.
 For seven years previous to his appointment to the faculty at
 M.LT., Schén served as president of the Organization for Social
 and Technical Innovation (OST1), a nonprofit organization which
-he helped to found. He has served in numerous other administra-
-tive and consultative roles with governmental agencies and private
+he helped to found. He has served in numerous other administrative and consultative roles with governmental agencies and private
 industry.
 
 In 1984, Schén was Queens Quest Lecturer at Queens
 University and was also made an honorary fellow of the Royal
 Institute of British Architects. In 1970, he was invited to deliver the
 Reith Lectures, which were broadcast by the British Broadcasting
-Corporation. Schén’s publications include The Reflective Practi-
-tioner (1983), Organizational Learning: A Theory of Action
+Corporation. Schén’s publications include The Reflective Practitioner (1983), Organizational Learning: A Theory of Action
 Perspective (1978, with Chris Argyris), and Theory in Practice:
 Increasing Professional Effectiveness (1974, with Chris Argyris).
 Schén is active in a number of professional organizations and is a
-member of the American Academy of Arts and Sciences Commis-
-sion on the Year 2000 and the National Research Council Com-
-mission on Sociotechnical Systems.
+member of the American Academy of Arts and Sciences Commission on the Year 2000 and the National Research Council Commission on Sociotechnical Systems.
 
 ## Page 22
 
@@ -583,5 +572,3 @@ of reflective practice: knowing-in-action, reflection-in-action, and
 reflection on reflection-in-action. It explores the relations of these
 ideas to practice artistry and describes the general properties of a
 reflective practicum.
-
-1

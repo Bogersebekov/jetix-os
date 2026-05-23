@@ -14,6 +14,10 @@ ocr_runtime_sec: 33.9
 pipeline_phase: 3-ocr-extracted
 constitutional_posture: R1-surface
 note: PARTIAL OCR — first 25 pages only. 1699 pages flagged for paid OCR re-processing.
+phase4_cleaned: true
+phase4_chars_before: 73400
+phase4_chars_after: 73235
+phase4_saved_pct: 0.2
 ---
 
 ## Page 1
@@ -32,7 +36,6 @@ Robert B. Dilts
 and ert B. Dilt
 Judith A. DeLozier and
 1 A, DeLozie
-1
 
 ## Page 2
 
@@ -42,8 +45,7 @@ Alsluctive thinking or "alshiction," essentially -  enanelogy from is invention 
 volver reasoning by analogy Itis the basis of the claiming, “J am experimenting upon an iire
 hilty toerentesinnies andmetaphors. Abuctive ment which doas forthe eye what the phonegraph
 ‘thinking can be contrasted with "inductive and dose forthe ear” Albert Einstein claimed that he
-“daciuctive" proceszer, Inductive reasoning sx- thought almest exclusively in terms of such mete-
-volves classifying particular chjects orphenomens _phoricimages cr"spacial imaginary constructions”
+“daciuctive" proceszer, Inductive reasoning sx- thought almest exclusively in terms of such metevolves classifying particular chjects orphenomens _phoricimages cr"spacial imaginary constructions”
 ‘Acconding to comiton features that they share— inorder toclevelop his concepts of relativity, quem
 noticing that all his have fonthers for example tum theory and four dimensional space
 (Gee the reforence on dvsotetle). Dadhctive reason
@@ -64,8 +66,7 @@ Socrates wil die. Men aeGras.
 Abuctive thinking has also been a primary
 strategy of many of the word's greatest com
 Comparison of Abductive and Deductive —cators.Jesus'us2ofpareHles and Milton Brickson's
-“Thinking Processes constant use of enlogies and therepeutic mate-
-hors ane good examples
+“Thinking Processes constant use of enlogies and therepeutic matehors ane good examples
 Accomting to Bateson, deductive and inductive Exercise: “Living Metaphors”
 thinking focuses more cn objects ond catagories
 rather then structure and relationship, Bateson Thefollowing exarciseillustrates how Batacon's
@@ -81,7 +82,6 @@ cf abduction sams to have bean a major tool wed
 ‘by many of history's most creative scientists, The Tdentify specific physical Toca tion in frontof
 great stventor Thomas Edison, for exsatple, ev you Stepintothatlocation, associate intothe
 dlontly got the dea for motion picares by’ malig
-2
 
 ## Page 3
 
@@ -128,7 +128,6 @@ which influences and is influenced by severe] other
 pReyrmeee cere: Ee
 rembiicnofthaprtlenintheccstoel the GeaCapehihiy)
 Seay
-3
 
 ## Page 4
 
@@ -167,27 +166,23 @@ NLP processes such os Reframing, Change
 Personal History or Conic Integration
 * Dealing with any limiting beliefs, dl-formed
 Beslan Gro py ater
-fay Flaca Uh parson at ak of bing victin-
-rea areata ie nae a te
+fay Flaca Uh parson at ak of bing victinrea areata ie nae a te
 “The Ability to Juggle Multiple Balls I 0 sppliationcf ay numberof? bali charge
 ‘Meiaphor for the Systemic Capacity of telaques, nchuding the Belief Gye, Rete
 ‘Absorption ‘ting ce Integr tng Conflicting Pali, ax
 alas NLP procature frstetegyelictetion
 pertain
-‘The term "abscetion” ca also be wsed to de « Acsisting the victim indaveloing theclserva-
-serthe the quality of consciousness that ivelves "onal sills sd other recaroat necaeeny to
+‘The term "abscetion” ca also be wsed to de « Acsisting the victim indaveloing theclservaserthe the quality of consciousness that ivelves "onal sills sd other recaroat necaeeny to
 ‘the complete focus of attention, either towa rs the cide pak Geb ot Haan I aioe ee
 soem een ee Sr one ie perience ‘tons in thefubure, This involves learning how
 ‘al in this sense means thet our? = to assess the Ecology of « situation or action
 Zelnnksofconsconsmess arecrupleely commit Malas tans el eet a tee oo
 ted to wherever our attanton is directed Earp peepee
 Gee Law Requisite Variety and Syetems)
-4
 
 ## Page 5
 
-“ Hleping the parson to distinguish between be _tureis desirable, the parson is capa Hef reach-
-hhaviors and Wlentty Cin oth him or herself ing ihand that hear'she deserves it
+“ Hleping the parson to distinguish between be _tureis desirable, the parson is capa Hef reachhhaviors and Wlentty Cin oth him or herself ing ihand that hear'she deserves it
 snc inthe perpetrator) and eqlare the posi
 | eatin entton Retrgrnstng, umcand
 ‘Yhatother choices may befound. This typically Disvoetation)
@@ -200,8 +195,7 @@ Like other forms of abuse, substance abuse i=
 + Refocusng ona positive future establishing .
 
 a Oo caimmcete ten related topast imprints anclcurrent internal
-ze ie ad Bee Pees) conflicts, usually at the level of identity. The treat-
-iment of subatance abuse involves a syst of in-
+ze ie ad Bee Pees) conflicts, usually at the level of identity. The treatiment of subatance abuse involves a syst of in-
 
 Interventions directedtowardstheperpetrators  G2ventions dinecad towards severe! different
 
@@ -212,9 +206,7 @@ theindlvsiuals persanaliistorywhicharethe —* QaTUDM ane newtriing et
 sour of the abusive behaviors This invl vex
 ee eee Transfocning protlonatic behavior pattems
 Printing, Perpetrators of physical or seal Jali to mare appropriate ones
-Tine have tan thersalver tom piysicaly Shifting iformed thinking yattorns ond es-
-ce seromlly sbuced in cludhcod by significant _—_—tabishing new exguitivecapallitias ond bet-
-others ter mental control
+Tine have tan thersalver tom piysicaly Shifting iformed thinking yattorns ond esce seromlly sbuced in cludhcod by significant _—_—tabishing new exguitivecapallitias ond betothers ter mental control
 
 + Identifying and Reanchoring triggers foreba- _* Identifying and transforming luting belief
 sive responses + Addressing confusions of identity, establishing
@@ -238,20 +230,15 @@ which help the person strengthen underdevel- f :
 eee Mnelaiccerlinterastes Addiction Compulsicns and Identity Batic tape
 ieaicinman este sha sat), Dity,R. and Bystain,, 1956,
 
-+ Hieping the person to distinguish between be-
-havior ane identity Cn both hinerself and
-in the victim) and explore the ‘positive inten-
-tions’ kind his ce her atusive beavers £0
++ Hieping the person to distinguish between behavior ane identity Cn both hinerself and
+in the victim) and explore the ‘positive intentions’ kind his ce her atusive beavers £0
 thatother choices may befoud This requires
-the lity to distinguish different Logical ev-
-of of experience and working with various
+the lity to distinguish different Logical evof of experience and working with various
 ‘versions of the proses of Refraning
 
 + Assisting the person in establishing full rep
 resentation of « well-formed axul compelling
 Fahire, and bulding the belofs that this
-
-5
 
 ## Page 6
 
@@ -265,10 +252,8 @@ nity towitness the fascinating spectade ofa thought vidual and need to be! calib
 inthe process be person, Many of those cuss, however, sre associ
 ing born” the pee sted with garticular sencry processes.
 mary purpcrectthe ‘Tha chon of microbel vor accessing cues"
-‘Academy mectings was first proposal by American pejchelogist WAl-
-was originally to iam James in his book Principles of Psychology
-Eigen the ules (2890), Observing that some forms of wicromove-
-tending of NLP rent olways accompany thought, James wrote
+‘Academy mectings was first proposal by American pejchelogist WAlwas originally to iam James in his book Principles of Psychology
+Eigen the ules (2890), Observing that some forms of wicromovetending of NLP rent olways accompany thought, James wrote
 epistemolosy
 ‘trough the devel- Inattending tocitheranidea orasewation
 opment of asses belonging toa particular sewse-sphere, the
@@ -309,12 +294,10 @@ Seretional systems parson isting inorder to Sons ever written of what NLP maar b
 ‘think Typical types of scossing cues clude aye ing cues." By lenning to read such "eflewes' one
 Inovements, voice love and tempo, Dady pectare, can Tecrgnice and snfinence thought patiarns st
 gests and breathing patterns, ‘oneself andothers. NLP has developed many tech-
-6
 
 ## Page 7
 
-niques which practically apply accessing cues for c. Kinesthetic: Head and eyes downward, gax-
-commmanicationsndchange Someccmanonaccars: furs award the ody, deep abdominal breathy
+niques which practically apply accessing cues for c. Kinesthetic: Head and eyes downward, gaxcommmanicationsndchange Someccmanonaccars: furs award the ody, deep abdominal breathy
 ing cues in NLP inchade: ing, deep breathy voice in a slower tempa
 a. Visual: Head and eyes upward, gestures to
 sward the ays, high chatlew breathing, sgn
@@ -327,7 +310,6 @@ Db. Auditory: Head and eyes tothe side, gestures Gamaricon of some comuton gcoxs
 toward the eave, diaphragmatic breathing, =
 Rrntted bra, uctuatong vice tore wad tempa
 ‘An ‘Auditory’ Accessing Position
-7
 
 ## Page 8
 
@@ -363,7 +345,6 @@ taminated by conscious expectations shout
 vance wporcemane  Seernree cra
 ey sae ee SOR es ee
 SS Se
-8
 
 ## Page 9
 
@@ -384,8 +365,7 @@ age in activities which presuppose the destin word Addictio which was « formal 
 velopment of both conscious ened wnconsciont ie onant of « yercon ot thing to another. For
 Gompstence with the target ski of the rein’ ecammple, an award made by « magistrate or a
 ing riveram Performanceduring assessment igor 9 his crwlitr The implication of this i=
-‘activities provides concrete feeb for both that the "adele" was given over to another with-
-fe froin nel the lenmer sn relation tothe oot i or her consent or choice, Infact, addiction
+‘activities provides concrete feeb for both that the "adele" was given over to another withfe froin nel the lenmer sn relation tothe oot i or her consent or choice, Infact, addiction
 ‘oypes of shlls internalized. ‘s considere tobe the opposite cf freedom or choice
 
 The notions of "surmendax” and “devotion” alco
@@ -400,8 +380,7 @@ cr sence of identity, ane that there are no other
 Acuity alternatives, Codependenceinvolves a relationship
 "Aculy" rates ohn oat to male reine ds; ESS fortune endor sense ant and
 ‘snctions. The tarm comes from the Latin werd het there are no other alternatives, :
-cutis, meaning "sharp o "pointed." Acuity re oa ar chalipessrpard with com-
-Fetes fo he dee of Sensitivity ov Keenness one pulsions and obsessions, Compulsions relate to
+cutis, meaning "sharp o "pointed." Acuity re oa ar chalipessrpard with comFetes fo he dee of Sensitivity ov Keenness one pulsions and obsessions, Compulsions relate to
 Postesses with respect tosene peresption or Pe oldie do something even though it seems
 cxpliveness of mind. Increased acuity allows one neces or unhealthy. According to Webster's
 tohave more comprehensive aul eccureteawane — ulgowsery or unis thy. According Wee
@@ -410,9 +389,7 @@ experience toparfarmaniaystional act" Okeession relates to
 ‘Stermal work! Enhanced percepbialand mental  foPurfomanserationsl act Chesson mela
 acuity is oneof the primary goals earl outcomes of beyond what seems reasonable or healthy.
 Systemic NLP and NLP New Coaing ‘Weletar's definition of ckeession is, “Persistent
-Gee Sewory Aacity,Cabbrationanl ioentoy) ane disturking sntrusion of or axsdous ena ines-
-capable precocupation with an ides or fling es-
-pecially if known to be unreasonable." Thus,
+Gee Sewory Aacity,Cabbrationanl ioentoy) ane disturking sntrusion of or axsdous ena inescapable precocupation with an ides or fling especially if known to be unreasonable." Thus,
 iti becesion relates to thinking the thought, while
 Addiction compulsion relates to performing the act. An ad-
 ‘Adiiction is «severe form of substance sbuse. Act dition seus tole a cambina tion of hoth, but with
@@ -424,13 +401,11 @@ consequences "Addictions often involve creed t Addictions expecially have bean s
 teks something which tht parson believes hecr fra confising soe person, acon or obec a
 eos i omer to survive, but the person bing anintogral partof your identity orswrvival
 ‘up doing i to such an extant thats Haren tans his erelpervofyouriden sty
-9
 
 ## Page 10
 
 Frman NLP pacpeiive adiktins aechs- NLP as hen appied thease ae
-sic examples of the manifestation of modal opera ment of addiction, Like other forms of abuse, ad-
-toc cruesiy cigmaue! tyre rcas Sununssne chun tte pes arate and
+sic examples of the manifestation of modal opera ment of addiction, Like other forms of abuse, adtoc cruesiy cigmaue! tyre rcas Sununssne chun tte pes arate and
 GROPP TESTU Tchite:  Sgnntglacd tense wally ind’
 tiebuiaesesesantonticienins companies Slanayy etenee fees geese papa
 perevens Semele dang one stthenenty id
@@ -466,8 +441,7 @@ tions can be discovered and implemented, prob- iretage ard goth aiid ianptirarib
 Joma tic heha viors can he transformed into powerful eee hue Siase any a Sica eee
 Tesouross. Compulsions, for example, may be tn may neal to be addressed through family
 formed into motivation; obsession cam ns ‘therapy or counseling. Others may beresolved
-formed into Dassion; end. sddiction may be fhoough individual interventions such as Re-
-cocurs when the underlying belief issues are iden- paki eetirearcrsiataret Me:
+formed into Dassion; end. sddiction may be fhoough individual interventions such as Recocurs when the underlying belief issues are iden- paki eetirearcrsiataret Me:
 Shad andappecentay sbened Tethecoce cd
 
 cksession this often relates to aclaiowledgment. _* 1dantifying endresolving events or imprints in
@@ -486,7 +460,6 @@ Canpastn -Hevang barter baie | Tree Seareteraim | Morand
 ‘Addencn Hove touch dccrtae | nconeettiee | Deiat
 
 Some Charcterstis of Aton, Compson and Osession
-10
 
 ## Page 11
 
@@ -540,7 +513,6 @@ sid Releasing Brmachonent ) Peep outage eons
 Related References: CoS eee nen
 omg Batiet: Wik NEP, Dits,k,  esINEuat person Hace she may change
 Sane ‘Sypteme ‘the wording, if desired.
-11
 
 ## Page 12
 
@@ -555,8 +527,7 @@ samp forent affirmations A popes fs
 Eugene WP lasonship tothe offing yan (Ya ar) a container for that energy Fear
 asualize i ao a Light spreading thraugh my
 6. Rotate positions ancl repeat the process for (en) bey
-‘exch member of the group and discuss the dif-
-bs Tad can ctay open to that energy, relax into it
+‘exch member of the group and discuss the difbs Tad can ctay open to that energy, relax into it
 fnrsporse: ‘end gowith it
 Tad can icuatizemy( yeu) body being vibrant
 Health Afirmations erdwoall
@@ -592,7 +563,6 @@ Things aliwage eventually work cud forthe best pease
 I (Laud have the capabilities to be healthy and
 well (See Belief, Belief Change Cele, Belief Installer
 sion Processand Health)
-2
 
 ## Page 13
 
@@ -615,15 +585,13 @@ ing happen on « munber of different levels: physi- be noted that the AIDS virus
 cal mental, emotional and spirthual. [tis the way person's entireimmine system, Teonly infiaen cot
 fn which o person menoges change with the pas- parts of it People with AIDS stil fend off many
 sagecf time that determines how wall ce sheis factions snd diseases every day. What AIDS sm.
-‘hie to deal with the eging process ‘ances isthe immune system's adapt, Re-
-People often have many limiting beliefs or  centstucies haveshourn thatin « heey persoxts
+‘hie to deal with the eging process ‘ances isthe immune system's adapt, RePeople often have many limiting beliefs or  centstucies haveshourn thatin « heey persoxts
 “thought viruses" associated with eging. Some of body, roughly half of the imunune system cells are
 ‘hese beliefs arecultural meddition to being ind- preprogrammed to respond to spacific nesses
 vidual: A common limiting belief, fr instance, is Theiler half arenct yet pregremtmed to respond
 that age is « lisllity, and thet, past « certain toanything in particular, leaving them evilable
 smumber of years, aging only brings decay. Other to adapt tonew challenges. In the bodies of people
-limiting beliefs include the assertion thet elderly who have AIDS, that ratio changes such that ap-
-peplesrenct useful andareadraincn financial proximately 80% of the immune cells are
+limiting beliefs include the assertion thet elderly who have AIDS, that ratio changes such that appeplesrenct useful andareadraincn financial proximately 80% of the immune cells are
 and other resources of the young. Unfortunately, preprogrammed and only 20 %are non-specific and
 Iie many limiting beliefs, these types of expecta-fetolenmandadept tonewsitaations Thecells
 tions cam be self fuling, that are facta ky the AIDS virus are the ones
@@ -645,7 +613,6 @@ a -)
 Immune System Affected by AIDS
 The Lronune Systems of AIDS Patients Have
 ‘Lost Much of Their Requisite Variety?
-13
 
 ## Page 14
 
@@ -656,8 +623,7 @@ cf theimmune system Alealthy immune system with the virus to find its pesitive i
 4s cazentially an effective learning crganization, poe ae
 gently on effective leering organization, « Strngthning th snanuna system al stn
 
-peopl are Tasting its flesdbiity using techniques of Visw-
-Seg ele poe es msane systam thet alization, Verbal Affirmations and Somatic
+peopl are Tasting its flesdbiity using techniques of ViswSeg ele poe es msane systam thet alization, Verbal Affirmations and Somatic
 the rue not so much the Streit cthe wef theflergy Presasexe mens stan.
 mmezystem, batrether its dagrea cf fledkility to Ungeen Conary ery
 respond Medical trentments might be mare effec
@@ -702,8 +668,7 @@ polling future, and building the beliefs that Printing oF Change Personal Histor
 ts futures desirable, the person i capable _¢ Reolving internal conflicts which may create
 of reaching it and that he or she deserves it stress and interfere with congruently taling.
 Creating PathwaytoHealthandLogicalLovel steps toward health. Integrating, Conflicting
-‘Alignment are valtable techniquas to help a= Belief anv Parts Integration are valuable tach-
-complish this iques to help accomplish this.
+‘Alignment are valtable techniquas to help a= Belief anv Parts Integration are valuable tachcomplish this iques to help accomplish this.
 
 + Helping individuals maintain « sense of hope
 
@@ -713,10 +678,8 @@ Belief Assecsitent and the Belief Await Tbsing conducted and supported by thelns
 “Tdantifying ponttiveintentions‘anul'secendary Advanced Shudies of Health CASH) Established
 Tain lind both pyc end yeychcogin! Y Robert Dis, Tan Hallbom snd Susi Smut,
 aoe alstad betes ilseee ce tet ore YASH is « non-profit organisation which supports
-ecological choices may befouncltosatisfy them.  ereayeh and networking relating to the epplica-
-Tac Canc tee ality detract differ Sow ofSystamic NLP methods totheares ofhealth
+ecological choices may befouncltosatisfy them.  ereayeh and networking relating to the epplicaTac Canc tee ality detract differ Sow ofSystamic NLP methods totheares ofhealth
 cet Logical Lavels of experiance and working AS Part of this mission, TASH provides echrnis-
-14
 
 ## Page 15
 
@@ -743,11 +706,9 @@ refers to the drinking of alccholic beverages to
 . sucha degrestha tmajor aspects ofan mdividuels
 Alooholics Anonymous life—such as work, school, fauly relationships, or
 ‘Alcoholics Anonymous (AA) is perhaps the est personal safety and health—are seriously and r=
-Jnown and most successful alcoholism recovery Peatadly interfered with. A person who is "aloo-
-program, Founded inthe United tates in 1995 by oli willcomtinuetoconsume alochol despite these
+Jnown and most successful alcoholism recovery Peatadly interfered with. A person who is "alooprogram, Founded inthe United tates in 1995 by oli willcomtinuetoconsume alochol despite these
 De Robert Smith ane ill Walon, by the 1900s the destructive consequences
-organization ad grown tomorethan 36,000 groupe -—_Alesholism i= considered by many to he « dis-
-fn 131 countries, with an estimated membership eae, lading to venious physical, yeychelogicel,
+organization ad grown tomorethan 36,000 groupe -—_Alesholism i= considered by many to he « disfn 131 countries, with an estimated membership eae, lading to venious physical, yeychelogicel,
 of over 2 million AA functions as « fellowship srl social symptoms, Some contend that alcohol.
 Grgenicationwhosemembers peynoduecandmay Sm i progressive and irreversible, even fatal if
 Stand montings ax often as they wish, not trested. Ttis generally thought that once the
@@ -760,11 +721,8 @@ slccholic® and seek help frat a "higher power? in “ctred" of the disease, [ti
 regaining control of his or her life, Although eleo- the particular symptoms and pattern of drinking
 halism, according to the AA philosophy, can never problems may vary with the individual, Alcakol-
 ‘oe cured—that i, the alocholic can never safely smi, therefore,» very complexedisorder, ancl his
-drink again—the slccheliccan "recover" tolead a compluity has lel some recent researchers toques-
-productive and normal life ar lng a he or she ton theaccurscy ofthe disease concept of alookol-
-remains sober ‘si
-‘Other organizations, suches Overesters Anony- ‘Most ikaly, «combination of biclogio, peyeho-
-mous, Narectcs Ancaymous, Gaulle Anon legiel, and culture factors contribute tothe d=
+drink again—the slccheliccan "recover" tolead a compluity has lel some recent researchers toquesproductive and normal life ar lng a he or she ton theaccurscy ofthe disease concept of alookolremains sober ‘si
+‘Other organizations, suches Overesters Anony- ‘Most ikaly, «combination of biclogio, peyehomous, Narectcs Ancaymous, Gaulle Anon legiel, and culture factors contribute tothe d=
 mous, and Co-Dependents Anonymous have velopment of alcoholism in any individual. Lice
 ‘opted the “I2-Step" programm for recovery. other forme of substance abuse, loshalism often
 ‘From the NLP perspactive, the power of the AA seems to run in families. Although there is no
@@ -773,12 +731,10 @@ cally leads people up the various logical levels of ily members is associated, s
 change, eventully reaching thespirituallevelG.e,, 60 peromst ofall alecholics have hed close alco-
 "higher power" cr" Coda wennderstand Hi), holicrelative
 Te then sooks to align all of the other levels with
-15
 
 ## Page 16
 
-Alcoholism can also be related to underlying: ¢ Identifying and Reanchoring both environmen-
-eotinlpian taecharang baste | ludceeulegees attateg army
+Alcoholism can also be related to underlying: ¢ Identifying and Reanchoring both environmeneotinlpian taecharang baste | ludceeulegees attateg army
 Siicedcrtndn tite ieptlorcee | dpe meltee salieri tise
 ious feelings by drinking. Conversely, some drink cognitive strategies or thought patterns which
 Set aacrartoraces | Geni panna
@@ -856,7 +812,6 @@ Formed Outcomes and rehearsing alternatives 4 b,c, x y, n, ebc.). Equations and 
 ‘Generator and the Disney Strategy: ‘The following is ¢ strategy for learning elemen-
 
 tary slgebre that was modeled by Robert Dilts
-16
 
 ## Page 17
 
@@ -907,7 +862,6 @@ dr and Bill aterate and Charlie ae ite. 1 Monona: SX" owe
 (A+B) fa) + C fim)
 Sa Pag ae a sar 2, Polynomial: 2K* +75 - 9K +X +4
 Td
-17
 
 ## Page 18
 
@@ -929,8 +883,7 @@ parsat tht youcancrartace (PP He
 3.(@ + ba +b) =a? + 2ab +b? =(e +b) saan
 SOS aie ee aes see
 eves, 8. Leck athe paces that you have writen.
-4. Construct mages of poxsble ways of orraxg-
-4.6 IAB) aa = 24h 9 GBT
+4. Construct mages of poxsble ways of orraxg4.6 IAB) aa = 24h 9 GBT
 ORT IE aga GPL te gyms yo ve wet to pt
 cs) =
 5. Compare the images you construct to the
@@ -950,12 +903,10 @@ D. Mae sure you represent the shove wamlet 7 Viswliee the rer f the computation 
 ‘wa way Gut llows youtoreallyconcertata ——Iavefust meds.)
 aneethe pats Tati, youmey wast
 touse circles, squares and triangles orapples, 8. Compare the image you constructed to an im-
-‘bananas and oranges instead of letters. ageof the proper solution of an algekreic equa-
-tion. For example, X =(10Y-Z¥5 —» @
+‘bananas and oranges instead of letters. ageof the proper solution of an algekreic equation. For example, X =(10Y-Z¥5 —» @
 E.Remanbars ewhen you werwcucurand — #10896. WW)
 ‘enjoyably challanged bysomeinteresting game
 Gr putle ka a ovation ple or igs
-18
 
 ## Page 19
 
@@ -1010,7 +961,6 @@ vidual most understand thereon beeen
 implementation the various levels of change, and slign his or her
 scttie to fir hone dymace, Thats, gle ad
 Levels of Processes in a System
-19
 
 ## Page 20
 
@@ -1052,23 +1002,19 @@ they depend, aredefined andorgeniced suficently
 to be able naive the support needed from that
 meer
 Tn doing 2 itis important to leepin mind that
-9. My(perscnal) role with respact tothatmissin alignment alsorelates towherestalality and varia-
-oe : sete tion ane placed in « system, When ote part of «
+9. My(perscnal) role with respact tothatmissin alignment alsorelates towherestalality and variaoe : sete tion ane placed in « system, When ote part of «
 system nosis tobe kept stable other perts must
-necessarily vary ed adapt in order to help main-
-tai halts: Consistaney at one level seine
+necessarily vary ed adapt in order to help maintai halts: Consistaney at one level seine
 floaty at other levels
 4, Being in that role, my velues / priorities are: SeoCo-lignment Logicall evelsandL evel Align:
 ie if ment Process)
 Me NecnlonOmmsr crn) Rafmuen
 Visionary Leadership Stille, its, R., 1926.
-20
 
 ## Page 21
 
 ‘The active immune response is carried out by
-Allergy Process “aller alis~oals hat attack and destroy for-
-Accorling to immunologist Dr. Michsel Levi, sm gign matter: The purpose of the active immune
+Allergy Process “aller alis~oals hat attack and destroy forAccorling to immunologist Dr. Michsel Levi, sm gign matter: The purpose of the active immune
 slrgyic les" phabic" of theimmaesystem In SEM mater, The rartere of the sotve inamine
 ‘he 1950s Levi won the Worl! Health Assocition Dakar thavecieugerthabely nthe cual the
 Beordforlisrermrchdmorstrvting tatviraee  cteg thetencdanger Gh boy, Inthe ca he
@@ -1086,8 +1032,7 @@ throwing some: it because it was mot being as is done by actual ‘dhe infectar 
 SSSR eee cab aetna
 and tired thet it was striking out as‘ person cr'a (fitougha chemical reaction), Thi ie whetcaune
 hull might have « taxtrusn Sere
-Tnthesame way that we learnsnd.acquireemo-
-tiene] responses, cur bodies learn and acquire
+Tnthesame way that we learnsnd.acquireemotiene] responses, cur bodies learn and acquire
 jmmmune responses, The fact that such deadly ill- Feller Colts
 esses as smallpox and polio have been virtually _—
 ‘wiped off thefaceof the earthis @ testament to the 1 Al
@@ -1111,22 +1056,19 @@ Poticking end isin such a confused state Gattis
 Attacking our own bodies even though there i 10
 Ca danger. In some ways itis a kind of an" FU show
 eC 921, TUL just bit myeelf reaction
-OF ‘The goal of treating an allergy involves reedu-
-cating the smamine system to utilize the passive
+OF ‘The goal of treating an allergy involves reeducating the smamine system to utilize the passive
 } rather than active protection in response fo the
 (.) ie] foreign substances kind of physiological
 a efraring.
 Like « phobia, an ellergy is « conditioned re
 Macrophages Engulf Foreign Particles, spose. Infact, researching shown that allergies
 Such as Viruses can be conditioned i guines pigs using = poo
-21
 
 ## Page 22
 
 dure similar to that Paviov used in his expert bia versions of these teckniques, the process cam
 rents with his dogs (Russel, Dark, et al, 1984). be time consuming and often ineffectuel, Using
-‘Theresearchars put the smell of peppermint into themorle endl techniques of NLP, this desensitiza-
-theguines pigs! cages and then injected them with ton process can be accelerated themendously.
+‘Theresearchars put the smell of peppermint into themorle endl techniques of NLP, this desensitizatheguines pigs! cages and then injected them with ton process can be accelerated themendously.
 a substance that would naturally produce an ac The key questions from the NLP perspective
 tive imme response. After repeating this five are, "What are the pychologicel factors that will
 times over a short period of time, the researcher anf uence an allargy?' and "Can thoce factors be
@@ -1134,8 +1076,7 @@ put the peppermint smell in the cage but did not brought under contrel end can a
 fnjact the noxious substance. When they cheched have mone contrel over his or her own body/s ne
 the blood of the guines rigs they found thet they sponses, especially over the particular imomine
 were producing ss full of am immune resction as responses related to allergic renctions?™ As a re
-hey would if they had been injected, Other stud: sult of exploring there questions, Robert Dite de-
-is (Ader f Cohen, 1981) demonstrated that rats veloped technique for treating allergies using
+hey would if they had been injected, Other stud: sult of exploring there questions, Robert Dite deis (Ader f Cohen, 1981) demonstrated that rats veloped technique for treating allergies using
 could be conditioned to suppress immune re NLP that has had widespread siccars
 sponses Fellowing Dr. Lewis suggestion that an allergy
 ‘Thefidldof peychonewroimmunolozy icmak- waza typect "phokta"of theimanunesystam, Dts
@@ -1154,16 +1095,14 @@ peychological factors, There i «famous example sctte ways simular to the NLP Ph
 of this, dating back to the tum of the contwy,  Italsodiffers insome important respects. Similar
 dccumentad ky a physician named MacKentie to the Phobia Technique, for instance, the Allergy
 (1886) who wes eating « woman with « violent Process invelver ertabiching a disassociated state
-sllergicresction torcses. Heled anartificislrose This greatly facilitates the desensitization pro-
-fins officeand wes suprised to discover thatlis cers
+sllergicresction torcses. Heled anartificislrose This greatly facilitates the desensitization profins officeand wes suprised to discover thatlis cers
 patient, notresliring thatthe rosewns false, mani- ‘Both phchias and sllergies alsoappenr tobe the
 fected the full ellargic reaction as soon asche saw recut of what i called “response expectancy," 4
 the rose. The implication is that our autonomic process which hes strong mind-body implica tics.
 nervous system (even ourinmmane system)may he  Recporise expectancy is the seme process which i=
 fnfluencedas much by mentalrepresentationsand at the root of the placebo effect. People con very
 expectations genersted from within our central often ling om llergic recponee symptoms hy the
-nervous systam as by stimuli from the outside strength of their imagination, as MacKenzie's pa-
-world. ‘tient with the sllargy toreces demonstrated, Frown
+nervous systam as by stimuli from the outside strength of their imagination, as MacKenzie's paworld. ‘tient with the sllargy toreces demonstrated, Frown
 Cartainly, theimmunesystemis copablecfleam- this perspective, ellexgic symptoms may be the
 ing very quickly, Allergic: are Iniowm to appear result of a type of negative placelo effect
 anddisappesralmestspontanenusly. Patients with ‘From thepoint of view of NLP, response expect.
@@ -1173,11 +1112,8 @@ grow’ certainsllengicreactions, Thecalls involved sponse, This richness is pro
 fm active smumune rexponser ane prvduced in oar submodalsty qualities of the iamer map that the
 Tone marrow st the rate of about 60 million cells parson creates of the response. Dilts asked people
 yer minute, So cnce the reeducation process is with allergies to explore.ffects that their mental
-dlone it can spresd rapidly, representa tions of the llergen heclon their symp-
-tis already known that allargics com, like 2 toms. Dits found that cartain qualities of visual-
-phobia, sometimes be treated thoughsystamatic ization of the stimuli associated with the allergic
+dlone it can spresd rapidly, representa tions of the llergen heclon their symptis already known that allargics com, like 2 toms. Dits found that cartain qualities of visualphobia, sometimes be treated thoughsystamatic ization of the stimuli associated with the allergic
 desensitization procedures, However, kethe pho- reaction could begin to bring on physical responses
-22
 
 ## Page 23
 
@@ -1232,16 +1168,13 @@ tractsmallperr Jennerpostilated thatthecarrier associated with allergic reaction
 of smallpox must have some structure] similar be incorporwted or preserved ance the allergic ne
 ‘Hes to the compar camior, so that the immune sponse changed. Sometimes having ancllargicr=
 system learned how to detect them both if the sponse serves es « good excusefornot having todo
-person got cowpox. In 1796 he inoculated an 8- certain activities, or for avoiding certain situa-
-yearcld boy with material taleenfromcomporpus- tions crconfrentetions. In other instances, people
+person got cowpox. In 1796 he inoculated an 8- certain activities, or for avoiding certain situayearcld boy with material taleenfromcomporpus- tions crconfrentetions. In other instances, people
 ‘poles, antl the hoy developed cowper: Severslwacls ane afraid that without an allergic responce, they
 Inter Jenner inoculated the boy withsmellpox, but will be exposed to certain kinds of substances or
 the diserse failed to develop. Jenner went on to certain kins of situations that might actually be
 promote smallpox vaccinations, the practice of mare detrimental to their health then the allergy.
 which spread throughout the world, spparently People with allergies to smoke can even believe
 lianinating this disease by the late 1970s
-
-23
 
 ## Page 24
 
@@ -1266,8 +1199,7 @@ cena ted with thore signifi thers int these ens stations associated with thee
 
 ‘The purpose of identifying such positive inten- lergic response.
 touseateccrlerypsing stohelp hepesouedd By cankinte the dessorcated sine, the pact
-more choices. An underlying principel of NLP is tive response expectancy, the counter example ref-
-Gatenkgcilchagemertyediingsewdrics,  ercuce experbaces and the new chokes 40F
+more choices. An underlying principel of NLP is tive response expectancy, the counter example refGatenkgcilchagemertyediingsewdrics,  ercuce experbaces and the new chokes 40F
 not by taking away existing choices. Before a per- preserving positive intentions and secondary gains
 Tenis radytochitonellgisnenctin, hecrche toa simple teciaigue, Dits fou tht he could
 may need to find other ways of addressing certain _ effectively help people to shift almost any allergic
@@ -1303,8 +1235,6 @@ sencanted tetromnse of jengelor oe pea ve
 ‘treated hy something from thecutsile inthis Stlvuadereemacour cated (hes ees oar
 eysickpeal Gretel oe rerung rece it fama eam wl ga aeeeeae) ae
 produces. Allergies associated with asthma, for Leemeen Gro Csneore ey
-
-24
 
 ## Page 25
 
@@ -1351,9 +1281,7 @@ memcryof being nearscmething thatis ar meataial, eresing the stout taper
 Glave ae possible to the substance that tlhe orshe can be fully eponed to it without
 peeUatlngy wermegercieets! (oectat Keres ases ot reece
 Docciblebut which does wot tigger the al: —_iation anshor [A an then the devel ctate
-legicrespense, Foresimple,theesplorer ord ccwiterexarpte anchors (A, + A sial-
-may beallagicto igaretesicke butnot —tanously. You may slo use the ctcal sub-
-smoke froma compfire or inense, or the medalities you fad in step tostrengtion
+legicrespense, Foresimple,theesplorer ord ccwiterexarpte anchors (A, + A sialmay beallagicto igaretesicke butnot —tanously. You may slo use the ctcal subsmoke froma compfire or inense, or the medalities you fad in step tostrengtion
 Srplorer may be allagic to some cats but the new response
 rot oleate, ori ollenpic to cats but not "The explorer should beallowed to bein com-
 = late contr of when and how much of the
@@ -1361,4 +1289,3 @@ b.Ttiselsousefultoidentifyscme substance _ukstance he or she will be expel to.
 hat is potentially even more "enc tha
 ‘he rubstanca which cates the eller, bat
 Sune Pe eae
-25

@@ -10645,8 +10645,7 @@ leading from A to B which compels the absolute consent of a scientific
 mind.6
 ' The Dunciad, book IV. i, 471.
 * Query 31 in his [1717]. p. 404.
-3 Newton [1713], p. 155-
-4 Cf. e.g. Newton [1672], p. 94.
+3 Newton [1713], p. 1554 Cf. e.g. Newton [1672], p. 94.
 5 Cf. above, p. 200.
 6 I want to distinguish between psychological, plainly second-world concepts, like
 'belief, and psychologistic concepts like 'rational belief in the sense of 'belief of a

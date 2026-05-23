@@ -2749,8 +2749,7 @@ the science of health called Natural Hygiene, and has been around for around 100
 years. It is also the foundation of Harvey and Marilyn Diamond's book Flt for Life.
 
 
-FIRST KEY TO LIVING HEALTH-
-THE POWER OF BREATH
+FIRST KEY TO LIVING HEALTHTHE POWER OF BREATH
 
 
 The foundation of health is a healthy bloodstream, the system that
@@ -2787,8 +2786,7 @@ exercise ("aerobic" literally means "to exercise with air")-trampolining is one 
 best all-weather aerobic exercises.
 
 
-THE SECOND KEY TO LIVING HEALTH-
-THE PRINCIPLE OF EATING WATER-RICH FOOD
+THE SECOND KEY TO LIVING HEALTHTHE PRINCIPLE OF EATING WATER-RICH FOOD
 
 Seventy percent of the planet is covered with water. Eighty percent of your
 body is made up of water. What do you think a large percentage of your diet
@@ -2858,8 +2856,7 @@ BY ANTHONY ROBBINS
 Copyright © 1991 by Robbins Research International. AM rights reserved. Reproduction in any form without the express written convent of Robbins Research International is prohibited.
 P. 82
 
-THE SIXTH KEY TO LIVING HEALTH-
-THE PROTEIN MYTH
+THE SIXTH KEY TO LIVING HEALTHTHE PROTEIN MYTH
 
 When do you think people are most in need of protein? Probably when
 they're infants. Mother Nature has provided a food, mother's milk, that supplies
@@ -5636,8 +5633,7 @@ I call these the FIVE KEYS TO WEALTH AND HAPPINESS. There's nothing
 profound about them, but they're absolutely crucial.
 
 
-THE FIRST KEY TO WEALTH AND HAPPINESS-
-MUST LEARN HOW TO HANDLE FRUSTRATION
+THE FIRST KEY TO WEALTH AND HAPPINESSMUST LEARN HOW TO HANDLE FRUSTRATION
 
 Frustration can kill dreams. You must learn to discipline your frustration.
 Let me tell you something. The key to success is massive frustration. Look at
@@ -5657,8 +5653,7 @@ BY ANTHONY ROBBINS
 Copyright © 1991 by Robbins Research International. AM rights reserved. Reproduction in any form without the express written convent of Robbins Research International is prohibited.
 P.165
 
-THE SECOND KEY TO WEALTH AND HAPPINESS-
-YOU MUST LEARN HOW TO HANDLE REJECTION
+THE SECOND KEY TO WEALTH AND HAPPINESSYOU MUST LEARN HOW TO HANDLE REJECTION
 
 
 The biggest challenge for people in our culture is that they can't handle the
@@ -5666,8 +5661,7 @@ word "no." Remember the question I asked earlier? What would you do if you knew
 you could not fail? Remember, you have the tools to anchor yourself so the word
 "no" turns you on. You can take any rejection and turn it into an opportunity.
 
-THE THIRD KEY TO WEALTH AND HAPPINESS-
-YOU MUST LEARN TO HANDLE FINANCIAL PRESSURE
+THE THIRD KEY TO WEALTH AND HAPPINESSYOU MUST LEARN TO HANDLE FINANCIAL PRESSURE
 
 
 The only way not to have financial pressure is not to have any finances. You
@@ -5675,8 +5669,7 @@ should be able to deal with money as with anything else in your mind, with the
 same purpose and elegance. Learn to earn, to save, and to give.
 
 
-THE FOURTH KEY TO WEALTH AND HAPPINESS-
-YOU MUST LEARN HOW TO HANDLE COMPLACENCY
+THE FOURTH KEY TO WEALTH AND HAPPINESSYOU MUST LEARN HOW TO HANDLE COMPLACENCY
 
 
 Comfort can be one of the most disastrous emotions a body could have.

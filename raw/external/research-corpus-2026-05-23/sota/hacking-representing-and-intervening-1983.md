@@ -14,6 +14,10 @@ ocr_runtime_sec: 13.1
 pipeline_phase: 3-ocr-extracted
 constitutional_posture: R1-surface
 note: PARTIAL OCR — first 25 pages only. 281 pages flagged for paid OCR re-processing.
+phase4_cleaned: true
+phase4_chars_before: 29613
+phase4_chars_after: 29568
+phase4_saved_pct: 0.2
 ---
 
 ## Page 1
@@ -29,13 +33,11 @@ lan Hacking
 ## Page 2
 
 
-
 ## Page 3
 
 REPRESENTING AND INTERVENING
 
 ## Page 4
-
 
 
 ## Page 5
@@ -84,7 +86,6 @@ For Rachel
 ## Page 8
 
 
-
 ## Page 9
 
 Acknowledgements
@@ -130,8 +131,7 @@ vii
 
 viii Acknowledgements
 
-(1982). Parts of Chapters 10, 12 and 13 areadapted from Versuchun-
-gen: Aufstitze zur Philosophie Paul Feyerabends (ed. Peter Duert),
+(1982). Parts of Chapters 10, 12 and 13 areadapted from Versuchungen: Aufstitze zur Philosophie Paul Feyerabends (ed. Peter Duert),
 ‘Suhrkamp: Frankfurt, 1981, Bd. 2, pp. 126-58. Chapter 9 draws on
 my joint paper with Everitt, and Chapter 8 develops my review of
 Lakatos, British Journal for the Philosophy of Science 30 (1979),
@@ -174,8 +174,7 @@ ix
 
 Analytical table of contents
 Introduction: Rationality 1
-Rationality and realism are the two main topics of today’s philosop-
-hers of science. That is, there are questions about reason, evidence
+Rationality and realism are the two main topics of today’s philosophers of science. That is, there are questions about reason, evidence
 and method, and there are questions about what the world is, what
 is in it, and what is true of it. This book is about reality, not reason.
 The introduction is about what this book is nor about. For
@@ -199,8 +198,7 @@ well known. Neither of these realists about entities need be a realist
 about theories.
 
 3 Positivism 4r
-Positivists such as A. Comte, E. Mach and B. van Fraassen are anti-
-realists about both theories and entities. Only propositions whose
+Positivists such as A. Comte, E. Mach and B. van Fraassen are antirealists about both theories and entities. Only propositions whose
 truth can be established by observation are to be believed.
 Positivists are dubious about such concepts as causation and
 
@@ -230,8 +228,7 @@ strongly reinforces one kind of anti-realism. There are at least three
 ideas here. Topic-incommensurability: rival theories may only
 partially overlap, so one cannot well compare their successes
 overall. Dissociation: after sufficient time and theory change, one
-world view may be almost unintelligible to a later epoch. Meaning-
-incommensurability: some ideas about language imply that rival
+world view may be almost unintelligible to a later epoch. Meaningincommensurability: some ideas about language imply that rival
 theories are always mutually incomprehensible and never inter~
 translatable, so that reasonable comparison of theories is in
 principle impossible.
@@ -261,8 +258,7 @@ need not depend on a correspondence theory of truth.
 BREAK: Reals and representations 130
 This chapter is an anthropological fantasy about ideas of reality and
 representation from cave-dwellers to H. Hertz. It is a parable to
-show why the realism/anti-realism debates at the level of represen-
-tation are always inconclusive. Hence we turn from truth and
+show why the realism/anti-realism debates at the level of representation are always inconclusive. Hence we turn from truth and
 representation to experimentation and manipulation.
 
 PART B: INTERVENING
@@ -271,12 +267,10 @@ PART B: INTERVENING
 Theory and experiment have different relationships in different
 sciences at different stages of development. There is no right answer
 to the question: Which comes first, experiment, theory, invention,
-technology, . . .? Illustrations are drawn from optics, thermo-
-dynamics, solid state physics, and radioastronomy.
+technology, . . .? Illustrations are drawn from optics, thermodynamics, solid state physics, and radioastronomy.
 
 10 Observation 167
-N.R. Hanson suggested that all observation statements are theory-
-loaded. In fact observation is not a matter of language, and it is a
+N.R. Hanson suggested that all observation statements are theoryloaded. In fact observation is not a matter of language, and it is a
 skill. Some observations are entirely pre-theoretical. Work by C.
 Herschel in astronomy and by W. Herschel in radiant heat is used to
 illustrate platitudes about observation. Far from being unaided
@@ -308,8 +302,7 @@ phenomena can be elicited regularly. Some electromagnetic effects
 illustrate this creation of phenomena, .
 14 Measurement 233
 Measurement has many different roles in sciences. There are
-measurements to test theories, but there are also pure determi-
-nations of the constants of nature. T.S. Kuhn also has an important
+measurements to test theories, but there are also pure determinations of the constants of nature. T.S. Kuhn also has an important
 account of an unexpected functional role of measurement in the
 growth of knowledge.
 15 Baconian topics 246
@@ -326,8 +319,7 @@ theory can warp the philosophy of experiment.
 16 Experimentation and scientific realism 262
 Experimentation has a life of its own, interacting with speculation,
 calculation, model building, invention and technology in numerous
-ways. But whereas the speculator, the calculator, and the model-
-builder can be anti-realist, the experimenter must be a realist. This
+ways. But whereas the speculator, the calculator, and the modelbuilder can be anti-realist, the experimenter must be a realist. This
 
 ## Page 16
 
@@ -366,7 +358,6 @@ about these things for years.
 xv
 
 ## Page 18
-
 
 
 ## Page 19
@@ -409,8 +400,6 @@ logic and epistemology. They are not what this book is about.
 Scientific realism is the other major issue. We ask: What is the
 world? What kinds of things are in it? What is true of them? What is
 truth? Are the entities postulated by theoretical physics real, or only
-
-1
 
 ## Page 20
 
@@ -475,18 +464,15 @@ physics is the best. It exemplifies human rationality. It would be
 nice to have a criterion to distinguish such good science from bad
 nonsense or ill-formed speculation.
 
-Here comes the first disagreement: Carnap thought it is import-
-ant to make the distinction in terms of language, while Popper
-thought that the study of meanings is irrelevant to the understand-
-ing of science. Carnap said scientific discourse is meaningful;
+Here comes the first disagreement: Carnap thought it is important to make the distinction in terms of language, while Popper
+thought that the study of meanings is irrelevant to the understanding of science. Carnap said scientific discourse is meaningful;
 metaphysical talk is not. Meaningful propositions must be verifiable
 in principle, or else they tell nothing about the world. Popper
 thought that verification was wrong-headed, because powerful
 scientific theories can never be verified. Their scope is too broad for
 that. They can, however, be tested, and possibly shown to be false.
 A proposition is scientific if it is falsifiable. In Popper's opinion it is
-not all that bad to be pre-scientifically metaphysical, for un-
-falsifiable metaphysics is often the speculative parent of falsifiable
+not all that bad to be pre-scientifically metaphysical, for unfalsifiable metaphysics is often the speculative parent of falsifiable
 science.
 
 ‘The difference here betrays a deeper one. Carnap’s verification is
@@ -529,9 +515,7 @@ young man’s propensity to disbelieve his father is a reason for
 trusting the youngster rather than the old man. According to
 Popper, the rationality of science has nothing to do with how well
 our evidence ‘supports’ our hypotheses. Rationality is a matter of
-‘method; that method is conjecture and refutation. Form far-
-reaching guesses about the world, deduce some observable con-
-sequences from them. Test to see if these are true. If so, conduct
+‘method; that method is conjecture and refutation. Form farreaching guesses about the world, deduce some observable consequences from them. Test to see if these are true. If so, conduct
 other tests. If not, revise the conjecture or better, invent a new one.
 
 According to Popper, we may say that an hypothesis that has
@@ -539,8 +523,7 @@ passed many tests is ‘corroborated’. But this does not mean that it is
 well supported by the evidence we have acquired. It means only that
 this hypothesis has stayed afloat in the choppy seas of critical
 testing. Carnap, on the other hand, tried to produce a theory of
-confirmation, analysing the way in which evidence makes hypo-
-theses more probable. Popperians jeer at Carnapians because they
+confirmation, analysing the way in which evidence makes hypotheses more probable. Popperians jeer at Carnapians because they
 have provided no viable theory of confirmation. Carnapians in
 revenge say that Popper's talk of corroboration is either empty or is
 a concealed way of discussing confirmation.
@@ -663,9 +646,7 @@ either. I doubt that he had much interest in the question.
 
 We now must run through some main Kuhnian themes, both to
 understand the above list of denials, and to see how it all bears on
-rationality. Do not expect him to be quite as alien to his pre-
-decessors as might be suggested. Point-by-point opposition be-
-tween philosophers indicates underlying agreement on basics,
+rationality. Do not expect him to be quite as alien to his predecessors as might be suggested. Point-by-point opposition between philosophers indicates underlying agreement on basics,
 and in some respects Kuhn is point-by-point opposed to
 Carnap-Popper.
 
@@ -677,8 +658,7 @@ science, crisis, revolution, new normal science.
 
 The normal science thesis says that an established branch of
 science is mostly engaged in relatively minor tinkering with current
-theory. Normal science is puzz/e-soluing. Almost any well-worked-
-out theory about anything will somewhere fail to mesh with facts
+theory. Normal science is puzz/e-soluing. Almost any well-workedout theory about anything will somewhere fail to mesh with facts
 about the world - ‘Every theory is born refuted’, Such failures inan
 otherwise attractive and useful theory are anomalies. One hopes that
 by rather minor modifications the theory may be mended so as to
@@ -692,6 +672,5 @@ implied in the theory. Some normal science is refined measurement
 ‘of quantities that the theory says are important. Often the aim is
 simply to get a precise number by ingenious means. This is done
 neither to test nor confirm the theory. Normal science, sad to say, is
-notin the confirmation, verification, falsification or conjecture-and-
-refutation business at all. It does, on the other hand, constructively
+notin the confirmation, verification, falsification or conjecture-andrefutation business at all. It does, on the other hand, constructively
 accumulate a body of knowledge and concepts in some domain.

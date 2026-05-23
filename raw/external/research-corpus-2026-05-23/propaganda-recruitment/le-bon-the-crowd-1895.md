@@ -14,6 +14,10 @@ ocr_runtime_sec: 11.4
 pipeline_phase: 3-ocr-extracted
 constitutional_posture: R1-surface
 note: PARTIAL OCR — first 25 pages only. 237 pages flagged for paid OCR re-processing.
+phase4_cleaned: true
+phase4_chars_before: 25486
+phase4_chars_after: 25409
+phase4_saved_pct: 0.3
 ---
 
 ## Page 1
@@ -79,7 +83,6 @@ af pereay sy
 ## Page 4
 
 
-
 ## Page 5
 
 SUL6 339367
@@ -121,7 +124,6 @@ A23\6o
 
 ## Page 9
 
-4
 PREFACE.
 THe following work is devoted to an account of
 the characteristics of crowds.
@@ -130,22 +132,18 @@ The whole of the common characteristics with
 which heredity endows the individuals of a race
 constitute the genius of the race. When, however,
 a certain number of these individuals are gathered
-together in a crowd for purposes of action, observa-
-tion proves that, from the mere fact of their being
+together in a crowd for purposes of action, observation proves that, from the mere fact of their being
 assembled, there result certain new psychological
-characteristics, which are added to the racial cha-
-racteristics and differ from them at times to a very
+characteristics, which are added to the racial characteristics and differ from them at times to a very
 considerable degree.
 
-Organised crowds have always played an impor-
-tant part in the life of peoples, but this part has
+Organised crowds have always played an important part in the life of peoples, but this part has
 never been of such moment as at present. The
 substitution of the unconscious action of crowds
 for the conscious activity of individuals is one of
 the principal characteristics of the present age.
 
-T have endeavoured to examine the difficult pro-
-blem presented by crowds in a purely scientific
+T have endeavoured to examine the difficult problem presented by crowds in a purely scientific
 manner—that is, by making an effort to proceed
 with method, and without being influenced by
 
@@ -158,8 +156,7 @@ vi PREFACE.
 opinions, theories, and doctrines. This, I believe,
 is the only mode of arriving at the discovery of
 some few particles of truth, especially when dealing,
-as is the case here, with a question that is the sub-
-ject of impassioned controversy. A man of science
+as is the case here, with a question that is the subject of impassioned controversy. A man of science
 bent on verifying a phenomenon is not called upon
 to concern himself with the interests his verifications
 may hurt. In a recent publication an eminent
@@ -181,9 +178,7 @@ included, I yet affirm it would be dangerous to
 meddle with their organisation, notwithstanding
 this inferiority.
 
-The reason is, that the most attentive observa-
-tion of the facts of history has invariably demon-
-strated to me that social organisms being every
+The reason is, that the most attentive observation of the facts of history has invariably demonstrated to me that social organisms being every
 whit as complicated as those of all beings, it is in
 no wise in our power to force them to undergo on
 a sudden far-reaching transformations. Nature has
@@ -202,14 +197,11 @@ possessed by time. Men are ruled by ideas, senti-
 ‘ments, and customs—matters which are of the
 essence of ourselves. Institutions and laws are
 ‘the outward manifestation of our character, the
-‘expression of its needs. Being its outcome, insti-
-tutions and laws cannot change this character.
+‘expression of its needs. Being its outcome, institutions and laws cannot change this character.
 
-The study of social phenomena cannot be sepa-
-rated from that of the peoples among whom they
+The study of social phenomena cannot be separated from that of the peoples among whom they
 have come into existence. From the philosophic
-point of view these phenomena may have an abso-
-lute value; in practice they have only a relative
+point of view these phenomena may have an absolute value; in practice they have only a relative
 value.
 
 It is necessary, in consequence, when studying a
@@ -228,9 +220,7 @@ formulas. From the point of view of the impres-
 ,
 viii PREFACE. ‘
 sion they make on our eye these geometrical
-figures may assume very varied shapes. By per-
-spective the cube may be transformed into a pyra-
-mid or a square, the circle into an ellipse or a
+figures may assume very varied shapes. By perspective the cube may be transformed into a pyramid or a square, the circle into an ellipse or a
 straight line, Moreover, the consideration of these
 fictitious shapes is far more important than that of
 the real shapes, for it is they and they alone that
@@ -252,8 +242,7 @@ should bear in mind that side by side with their |
 theoretical value they possess a practical value, and
 that this latter, so far as the evolution of civilisation |
 
-+ is concerned, is alone of importance. The recogni-
-tion of this fact should render him very circumspect
++ is concerned, is alone of importance. The recognition of this fact should render him very circumspect
 with regard to the conclusions that logic would
 seem at first to enforce upon him.
 
@@ -264,8 +253,7 @@ like reserve. The complexity of social facts is
 
 PREFACE. i
 such, that it is impossible to grasp them as a whole
-and to foresce the effects of their reciprocal influ-
-ence. It seems, too, that behind the visible facts
+and to foresce the effects of their reciprocal influence. It seems, too, that behind the visible facts
 are hidd@h at times thousands of invisible causes.
 Visible social phenomena appear to be the result
 of an immense, unconscious working, that as a rule | >
@@ -302,8 +290,7 @@ N
 
 et x PREFACE.
 e
-SF — arewe certain that they are exclusively the off-
-spring of their brains? No doubt such ideas are
+SF — arewe certain that they are exclusively the offspring of their brains? No doubt such ideas are
 always created by solitary minds, but is it not the
 | genius of crowds that has furnished the thousands
 | of grains of dust forming the soil in which they
@@ -324,8 +311,7 @@ If we wish, then, to remain within the narrow but
 ledge, and not to wander in the domain of vague
 conjecture and vain hypothesis, all we must do is
 simply to take note of such phenomena as are
-accessible to us, and confine ourselves to their con-
-sideration. Every conclusion drawn from our
+accessible to us, and confine ourselves to their consideration. Every conclusion drawn from our
 observation is, as a rule, premature, for behind
 the phenomena which we see clearly are other
 phenomena that we see indistinctly, and perhaps
@@ -340,16 +326,14 @@ THE ERA OF CROWDS.
 BOOK I.
 THE MIND OF CROWDS.
 CHAPTER. I. nox
-GENERAL CHARACTERISTICS OF CROWDS—PSYCHO-
-LOGICAL LAW OF THEIR MENTAL UNITY...
+GENERAL CHARACTERISTICS OF CROWDS—PSYCHOLOGICAL LAW OF THEIR MENTAL UNITY...
 CHAPTER II.
 ‘THE SENTIMENTS AND MORALITY OF CROWDS ... 16
 CHAPTER III.
 THE IDEAS, REASONING POWER, AND IMAGINATION :
 OF CROWDS eee aan eee GT
 CHAPTER IV,
-A RELIGIOUS SHAPE ASSUMED BY ALL THE CON-
-VICTIONS OF CROWDS... ve ose ane OD
+A RELIGIOUS SHAPE ASSUMED BY ALL THE CONVICTIONS OF CROWDS... ve ose ane OD
 BOOK I.
 THE OPINIONS AND BELIEFS OF CROWDS.
 CHAPTER I. :
@@ -393,23 +377,19 @@ PARLIAMENTARY ASSEMBLIES. sess 203
 INTRODUCTION.
 THE ERA OF CROWDS. °
 ‘The evolution of the present age—The great changes in
-Civilisation are the consequence of changes in Na-
-tional thought — Modern belief in the power of
+Civilisation are the consequence of changes in National thought — Modern belief in the power of
 ccrowds—It transforms the traditional policy of the
 European states—How the rise of the popular classes
 ‘comes about, and the manner in which they exercise
 their power — ‘The necessary consequences of the ~
 power of the crowd—Crowds unable to play a part
 other than destructive — The dissolution of worn-out
-civilisations is the work of the crowd—General igno-
-ance of the psychology of crowds—Impo‘tance of
+civilisations is the work of the crowd—General ignoance of the psychology of crowds—Impo‘tance of
 the study of crowds for legislators and statesmen.
 ‘THE great upheavals which precede changes of
 civilisation, such as the fall of the Roman Empire
 and the foundation of the Arabian Empire, seem
-at first sight determined more especially by poli-
-tical transformations, foreign invasion, or the over-
-throw of dynasties: But a more attentive study of
+at first sight determined more especially by political transformations, foreign invasion, or the overthrow of dynasties: But a more attentive study of
 these events shows that behind their apparent
 causes the real cause is generally seen to be a
 a
@@ -429,9 +409,7 @@ thought. The reason these great events are so
 rare is that there is nothing so stable in a race as
 the inherited groundwork of its thoughts.
 
-The present epoch is one of these critical mo-
-ments in which the thought of mankind is under-
-going a process of transformation.
+The present epoch is one of these critical moments in which the thought of mankind is undergoing a process of transformation.
 
 Two fundamental factors are at the base of this
 transformation. The first is the destruction of
@@ -439,8 +417,7 @@ those religious, political, and social beliefs in
 which all the elements of our civilisation are
 rooted. The second is the creation of entirely
 new conditions of existence and thought as the
-result of modern scientific and industrial dis-
-coveries,
+result of modern scientific and industrial discoveries,
 
 ‘The ideas of the past, although half destroyed, {
 being still very powerful, and the ideas which are
@@ -496,30 +473,25 @@ in the heart of the masses, and no longer in the
 councils of princes.
 
 The entry of the popular classes into political life
-—that is to say, in reality, their progressive trans-
-formation into governing classes—is one of the most
+—that is to say, in reality, their progressive transformation into governing classes—is one of the most
 striking characteristics of our epoch of transition.
-The introduction of universal suffrage, which exer-
-cised for a long time but little influence, is not, as
+The introduction of universal suffrage, which exercised for a long time but little influence, is not, as
 might be thought, the distinguishing feature of this
 transference of political power. The progressive
 growth of the power of the masses took place at
 first by the propagation of certain ideas, which
 have slowly implanted themselves in men's minds,
-and afterwards by the gradual association of in-
-dividuals bent on bringing.about the realisation of
+and afterwards by the gradual association of individuals bent on bringing.about the realisation of
 theoretical conceptions. It is by association that
 crowds have come to procure ideas with respect to
 their interests which are very clearly defined if not
 particularly just, and have arrived at a consciousness
-of their strength. ‘The masses are founding syndi-
-cates before which the authorities capitulate one
+of their strength. ‘The masses are founding syndicates before which the authorities capitulate one
 after the other; they are also founding labour unions,
 which in spite of all economic laws tend to regulate
 the conditions of labour and wages. They return
 to assemblies in which the Government is vested,
-representatives utterly lacking initiative and inde-
-pendence, and reduced most often to nothing else
+representatives utterly lacking initiative and independence, and reduced most often to nothing else
 
 ## Page 21
 
@@ -534,8 +506,7 @@ society as it now exists, with a view to making
 it hark back to that primitive communism which
 was the normal condition of all human groups
 before the dawn of civilisation. Limitations of the
-hours of labour, the nationalisation of mines, rail-
-ways, factories, and the soil, the equal distribution
+hours of labour, the nationalisation of mines, railways, factories, and the soil, the equal distribution
 of all products, the elimination of all the upper
 classes for the benefit of the popular classes, &e.,
 such are these claims.
@@ -543,8 +514,7 @@ such are these claims.
 Little adapted to reasoning, crowds, on the con- \
 trary, are quick to act. As the result of their
 present organisation. their strength has become
-immense. The dogmas whose birth we are wit-
-nessing will soon have the force of the old dogmas;
+immense. The dogmas whose birth we are witnessing will soon have the force of the old dogmas;
 that is to say, the tyrannical and sovereign force of
 being above discussion. The divine right of the °
 masses is about to replace the divine right of
@@ -589,8 +559,7 @@ which is springing up in the midst of this anarchy.
 Science promised us truth, or at least a knowledge
 of such relations as our intelligence can seize: it
 never promised us peace or happiness. Sovereignly
-indifferent to our feelings, it is deaf to our lamen-
-tations. It is for us to endeavour to live with
+indifferent to our feelings, it is deaf to our lamentations. It is for us to endeavour to live with
 science, since nothing can bring back the illusions
 it has destroyed. :
 
@@ -657,8 +626,7 @@ check.
 
 We have a very slight knowledge of these
 crowds which are beginning to be the object of
-so much discussion. Professional students of psy-
-chology, having lived far from them, have always
+so much discussion. Professional students of psychology, having lived far from them, have always
 ignored them, and when, as of late, they have
 
 , turned their attention in this direction it has only
@@ -681,17 +649,14 @@ However, in point of fact, all the world’s masters,
 all the founders of religions or empires, the
 apostles of all beliefs, eminent statesmen, and, in
 ‘a more modest sphere, the mere chiefs of small
-groups of men have always been unconscious psy-
-chologists, possessed of an instinctive and often
+groups of men have always been unconscious psychologists, possessed of an instinctive and often
 very sure knowledge of the character of crowds,
 and it is their accurate knowledge of this character |
 that has enabled them to so easily establish their °
 mastery. Napoleon had a marvellous insight into
 the psychology of the masses of the country over |
-which he reigned, but he, at times, completely mis-
-understood the psychology of crowds belonging to
-other races ;* and it is because he thus misunder-
-stood it that he engaged in Spain, and notably in
+which he reigned, but he, at times, completely misunderstood the psychology of crowds belonging to
+other races ;* and it is because he thus misunderstood it that he engaged in Spain, and notably in
 Russia, in conflicts in which his power received
 blows which were destined within a brief space of
 time to ruin it. A knowledge of the psychology of

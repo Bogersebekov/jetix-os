@@ -14,6 +14,10 @@ ocr_runtime_sec: 14.5
 pipeline_phase: 3-ocr-extracted
 constitutional_posture: R1-surface
 note: PARTIAL OCR — first 25 pages only. 947 pages flagged for paid OCR re-processing.
+phase4_cleaned: true
+phase4_chars_before: 22059
+phase4_chars_after: 22056
+phase4_saved_pct: 0.0
 ---
 
 ## Page 1
@@ -688,8 +692,6 @@ X The mx n matrix with input example x in row X;,;
 OceanofPDF.com
 
 ## Page 25
-
-1
 
 Introduction
 

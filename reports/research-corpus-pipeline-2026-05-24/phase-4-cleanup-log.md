@@ -4,6 +4,10 @@ date: 2026-05-24
 phase: 4/7
 pipeline: research-corpus-pdf-to-md-pipeline-2026-05-24
 constitutional_posture: R1 surface
+phase4_cleaned: true
+phase4_chars_before: 2091
+phase4_chars_after: 2091
+phase4_saved_pct: 0.0
 ---
 
 # Phase 4 — Quality Cleanup Log
@@ -45,9 +49,18 @@ Rationale: Per R1 surface only mandate + append-only discipline. Tokens saved by
 
 Most MDs saved <1% (text PDFs typically had minimal page-number noise).
 
-## §4.4 Pass 2 (OCR MDs from Phase 3) — pending Phase 3 completion
+## §4.4 Pass 2 (OCR MDs from Phase 3) — completed
 
-Will re-run cleanup script on OCR MDs after Phase 3 completes. OCR output has more page-number noise (Tesseract often catches them) so expected higher savings.
+Re-ran cleanup script across all 80 extraction-method-tagged MDs (text + OCR + 3 incidental raw/research/* files with extraction_method field). Result:
+
+| Metric | Value |
+|---|---|
+| MDs in scope | 80 |
+| Chars before | 48,712,768 |
+| Chars after | 48,711,719 |
+| Saved | 1,049 (0.0%) |
+
+OCR MDs from Phase 3 had clean output (Tesseract psm 6 produces minimal noise; my `## Page N` markers preserved). Pass-2 found nothing significant to clean — confirms Phase 1 pass already captured all noise.
 
 ## §4.5 Phase 4 conclusion (Pass 1)
 
