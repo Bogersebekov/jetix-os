@@ -1,0 +1,119 @@
+[
+  {
+    "book": "bloom-taxonomy-educational-objectives-1956",
+    "pages_total": 111,
+    "chars": 386250,
+    "approx_tokens": 96562,
+    "runtime_sec": 0.3,
+    "md_path": "/home/ruslan/jetix-os/raw/external/research-corpus-2026-05-23/education/bloom-taxonomy-educational-objectives-1956.md",
+    "status": "ok"
+  },
+  {
+    "book": "dewey-democracy-and-education-1916",
+    "pages_total": 357,
+    "chars": 832397,
+    "approx_tokens": 208099,
+    "runtime_sec": 0.3,
+    "md_path": "/home/ruslan/jetix-os/raw/external/research-corpus-2026-05-23/education/dewey-democracy-and-education-1916.md",
+    "status": "ok"
+  },
+  {
+    "book": "dirksen-design-for-how-people-learn-2015",
+    "pages_total": 294,
+    "chars": 360845,
+    "approx_tokens": 90211,
+    "runtime_sec": 0.2,
+    "md_path": "/home/ruslan/jetix-os/raw/external/research-corpus-2026-05-23/education/dirksen-design-for-how-people-learn-2015.md",
+    "status": "ok"
+  },
+  {
+    "book": "dweck-mindset-2006",
+    "pages_total": 316,
+    "chars": 572415,
+    "approx_tokens": 143103,
+    "runtime_sec": 0.2,
+    "md_path": "/home/ruslan/jetix-os/raw/external/research-corpus-2026-05-23/education/dweck-mindset-2006.md",
+    "status": "ok"
+  },
+  {
+    "book": "ericsson-peak-2016",
+    "pages_total": 316,
+    "chars": 670284,
+    "approx_tokens": 167571,
+    "runtime_sec": 0.2,
+    "md_path": "/home/ruslan/jetix-os/raw/external/research-corpus-2026-05-23/education/ericsson-peak-2016.md",
+    "status": "ok"
+  },
+  {
+    "book": "gagne-conditions-of-learning-1965",
+    "pages_total": 423,
+    "chars": 788674,
+    "approx_tokens": 197168,
+    "runtime_sec": 0.3,
+    "md_path": "/home/ruslan/jetix-os/raw/external/research-corpus-2026-05-23/education/gagne-conditions-of-learning-1965.md",
+    "status": "ok"
+  },
+  {
+    "book": "hattie-10-mindframes-visible-learning-2nd-ed",
+    "pages_total": 234,
+    "chars": 473493,
+    "approx_tokens": 118373,
+    "runtime_sec": 0.4,
+    "md_path": "/home/ruslan/jetix-os/raw/external/research-corpus-2026-05-23/education/hattie-10-mindframes-visible-learning-2nd-ed.md",
+    "status": "ok"
+  },
+  {
+    "book": "khan-one-world-schoolhouse-2012",
+    "pages_total": 250,
+    "chars": 370884,
+    "approx_tokens": 92721,
+    "runtime_sec": 0.2,
+    "md_path": "/home/ruslan/jetix-os/raw/external/research-corpus-2026-05-23/education/khan-one-world-schoolhouse-2012.md",
+    "status": "ok"
+  },
+  {
+    "book": "mazur-peer-instruction-1997",
+    "pages_total": 251,
+    "chars": 373454,
+    "approx_tokens": 93363,
+    "runtime_sec": 0.3,
+    "md_path": "/home/ruslan/jetix-os/raw/external/research-corpus-2026-05-23/education/mazur-peer-instruction-1997.md",
+    "status": "ok"
+  },
+  {
+    "book": "oakley-a-mind-for-numbers-2014",
+    "pages_total": 279,
+    "chars": 504328,
+    "approx_tokens": 126082,
+    "runtime_sec": 0.2,
+    "md_path": "/home/ruslan/jetix-os/raw/external/research-corpus-2026-05-23/education/oakley-a-mind-for-numbers-2014.md",
+    "status": "ok"
+  },
+  {
+    "book": "tomlinson-mctighe-integrating-differentiated-instruction-2006",
+    "pages_total": 210,
+    "chars": 435648,
+    "approx_tokens": 108912,
+    "runtime_sec": 0.3,
+    "md_path": "/home/ruslan/jetix-os/raw/external/research-corpus-2026-05-23/education/tomlinson-mctighe-integrating-differentiated-instruction-2006.md",
+    "status": "ok"
+  },
+  {
+    "book": "vygotsky-mind-in-society-1978",
+    "pages_total": 175,
+    "chars": 416575,
+    "approx_tokens": 104143,
+    "runtime_sec": 0.4,
+    "md_path": "/home/ruslan/jetix-os/raw/external/research-corpus-2026-05-23/education/vygotsky-mind-in-society-1978.md",
+    "status": "ok"
+  },
+  {
+    "book": "willingham-why-students-dont-like-school-2010",
+    "pages_total": 420,
+    "chars": 439516,
+    "approx_tokens": 109879,
+    "runtime_sec": 0.4,
+    "md_path": "/home/ruslan/jetix-os/raw/external/research-corpus-2026-05-23/education/willingham-why-students-dont-like-school-2010.md",
+    "status": "ok"
+  }
+]
