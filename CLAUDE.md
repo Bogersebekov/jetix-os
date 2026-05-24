@@ -113,7 +113,7 @@ Foundation-level path writes (Parts 1-11, principles/, shared/schemas/, .claude/
 
 
 ## Architecture
-- **ROY swarm operational (Phase A+):** brigadier + 5 ROY experts + 4 sub-brigadiers — см. `## Active ROY Swarm` ниже
+- **ROY swarm operational (Phase A+):** brigadier + 5 original ROY experts + 4 sub-brigadiers + 8 book-driven ROY experts (book-driven-agents-2026-05-24 MAX-8 ack) — см. `## Active ROY Swarm` ниже
 - **Legacy 12-agent roster DEPRECATED-2026-05-17** (per Ruslan ack `prompts/phase-0-plus-ruslan-acks-2026-05-17.md` §0.6 + AWAITING-APPROVAL packet `swarm/awaiting-approval/legacy-12-agents-deprecation-2026-05-17.md`)
 - Communication: JSONL mailboxes in comms/mailboxes/
 - State: JSON files in shared/state/
@@ -123,22 +123,32 @@ Foundation-level path writes (Parts 1-11, principles/, shared/schemas/, .claude/
 
 ## Active ROY Swarm (Phase A+ operational — canonical)
 
-9 ROY swarm agents в `.claude/agents/`:
+17 ROY swarm agents в `.claude/agents/` (9 original + 8 book-driven expansion 2026-05-24):
 
 | Agent | Role | Domain | Status |
 |---|---|---|---|
-| brigadier | Orchestrator | Routing 5 experts × 4 modes | active |
+| brigadier | Orchestrator | Routing experts × modes; auto-pair dispatch | active |
 | engineering-expert | ROY expert | Engineering / clean-code / architecture | active |
 | investor-expert | ROY expert | Capital allocation / unit-econ / moats | active |
 | mgmt-expert | ROY expert | PM / delivery / ethics-surface | active |
-| philosophy-expert | ROY expert | Epistemology / mental models / stoic | active |
+| philosophy-expert | ROY expert | Epistemology (evaluative) / mental models / stoic | active |
 | systems-expert | ROY expert | Systems thinking / cybernetics / VSM | active |
 | project-brigadier | Mini-swarm template | Project-scope dispatch (≤7 active tasks) | template |
 | quick-money-brigadier | Mini-swarm | quick-money P1 project | active |
 | levenchuk-deep-dive-brigadier | Mini-swarm stub | Levenchuk P3 deep-dive (stub) | stub |
+| propaganda-expert | ROY expert (book-driven 2026-05-24) | Mass-communication / propaganda analysis (R12 paired-frame) | active |
+| recruitment-dynamics-expert | ROY expert (book-driven 2026-05-24) | Mass-movement / cohort recruitment / Network-State (R12 CRITICAL) | active |
+| nlp-expert | ROY expert (book-driven 2026-05-24) | NLP corpus / verbal reframing (R12 STRICT) | active |
+| sota-tracker-expert | ROY expert (book-driven 2026-05-24) | Phil-sci SOTA tracking (IP-1 split from philosophy-expert: instrumental) | active |
+| methodology-engineer | ROY expert (book-driven 2026-05-24) | Method engineering / Levenchuk-OMG-MMK lineage (ALL 5 modes) | active |
+| ml-ai-foundations-expert | ROY expert (book-driven 2026-05-24) | DL curriculum / MLOps / MAS scaling | active |
+| influence-ethics-expert | ROY expert (book-driven 2026-05-24) | **R12 ENFORCEMENT CELL** — auto-pair receiver for 4 influence agents | active |
+| gamification-engagement-expert | ROY expert (book-driven 2026-05-24) | Game-design / virtual-economy / Schelling coordination (R12 paired-frame) | active |
 
-**Routing canonical:** `swarm/lib/routing-table.yaml` (RUSLAN-LAYER specific entries; Phase B partner forks structure).
+**Routing canonical:** `swarm/lib/routing-table.yaml` (RUSLAN-LAYER specific entries; Phase B partner forks structure). 29 role entries + 4 R12 auto-pair rules.
 **Authority:** brigadier = single dispatcher per hub-and-spoke (per Part 4 §H + IP-1 strict).
+**R12 paired-frame discipline:** influence-ethics-expert auto-fires (receiver direction) whenever propaganda / recruitment-dynamics / nlp / gamification-engagement dispatches. Missing pair → Halt-Log-Alert F4 ≤5s per Part 6b §I.2.
+**Book-driven expansion authority:** `decisions/RUSLAN-ACK-BOOK-DRIVEN-AGENTS-2026-05-24.md` MAX-8 ack + parent packet `swarm/awaiting-approval/book-driven-agents-2026-05-24.md`.
 
 ## Agent Roster (DEPRECATED-2026-05-17 — preserved per append-only)
 
