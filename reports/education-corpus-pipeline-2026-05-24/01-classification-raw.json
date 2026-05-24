@@ -1,0 +1,198 @@
+[
+  {
+    "pdf": "bloom-taxonomy-educational-objectives-1956.pdf",
+    "pages_total": 111,
+    "sample_pages": 5,
+    "avg_chars_per_page": 833.0,
+    "per_page_chars": [
+      75,
+      570,
+      646,
+      1128,
+      1746
+    ],
+    "classification": "text"
+  },
+  {
+    "pdf": "dewey-democracy-and-education-1916.pdf",
+    "pages_total": 357,
+    "sample_pages": 5,
+    "avg_chars_per_page": 558.2,
+    "per_page_chars": [
+      0,
+      15,
+      1199,
+      1492,
+      85
+    ],
+    "classification": "text"
+  },
+  {
+    "pdf": "dirksen-design-for-how-people-learn-2015.pdf",
+    "pages_total": 294,
+    "sample_pages": 5,
+    "avg_chars_per_page": 579.2,
+    "per_page_chars": [
+      0,
+      42,
+      1392,
+      719,
+      743
+    ],
+    "classification": "text"
+  },
+  {
+    "pdf": "dweck-mindset-2006.pdf",
+    "pages_total": 316,
+    "sample_pages": 5,
+    "avg_chars_per_page": 319.4,
+    "per_page_chars": [
+      0,
+      24,
+      0,
+      1132,
+      441
+    ],
+    "classification": "text"
+  },
+  {
+    "pdf": "ericsson-peak-2016.pdf",
+    "pages_total": 316,
+    "sample_pages": 5,
+    "avg_chars_per_page": 371.2,
+    "per_page_chars": [
+      0,
+      0,
+      410,
+      1091,
+      355
+    ],
+    "classification": "text"
+  },
+  {
+    "pdf": "freire-pedagogy-of-oppressed-1968.pdf",
+    "pages_total": 154,
+    "sample_pages": 5,
+    "avg_chars_per_page": 42.4,
+    "per_page_chars": [
+      0,
+      0,
+      26,
+      186,
+      0
+    ],
+    "classification": "scan"
+  },
+  {
+    "pdf": "gagne-conditions-of-learning-1965.pdf",
+    "pages_total": 423,
+    "sample_pages": 5,
+    "avg_chars_per_page": 502.8,
+    "per_page_chars": [
+      0,
+      395,
+      1504,
+      403,
+      212
+    ],
+    "classification": "text"
+  },
+  {
+    "pdf": "hattie-10-mindframes-visible-learning-2nd-ed.pdf",
+    "pages_total": 234,
+    "sample_pages": 5,
+    "avg_chars_per_page": 974.0,
+    "per_page_chars": [
+      0,
+      1907,
+      513,
+      102,
+      2348
+    ],
+    "classification": "text"
+  },
+  {
+    "pdf": "khan-one-world-schoolhouse-2012.pdf",
+    "pages_total": 250,
+    "sample_pages": 5,
+    "avg_chars_per_page": 704.2,
+    "per_page_chars": [
+      190,
+      1720,
+      467,
+      657,
+      487
+    ],
+    "classification": "text"
+  },
+  {
+    "pdf": "mazur-peer-instruction-1997.pdf",
+    "pages_total": 251,
+    "sample_pages": 5,
+    "avg_chars_per_page": 384.0,
+    "per_page_chars": [
+      59,
+      99,
+      1209,
+      550,
+      3
+    ],
+    "classification": "text"
+  },
+  {
+    "pdf": "oakley-a-mind-for-numbers-2014.pdf",
+    "pages_total": 279,
+    "sample_pages": 5,
+    "avg_chars_per_page": 578.8,
+    "per_page_chars": [
+      0,
+      2776,
+      118,
+      0,
+      0
+    ],
+    "classification": "text"
+  },
+  {
+    "pdf": "tomlinson-mctighe-integrating-differentiated-instruction-2006.pdf",
+    "pages_total": 210,
+    "sample_pages": 5,
+    "avg_chars_per_page": 1322.8,
+    "per_page_chars": [
+      0,
+      145,
+      3222,
+      1583,
+      1664
+    ],
+    "classification": "text"
+  },
+  {
+    "pdf": "vygotsky-mind-in-society-1978.pdf",
+    "pages_total": 175,
+    "sample_pages": 5,
+    "avg_chars_per_page": 415.4,
+    "per_page_chars": [
+      424,
+      197,
+      165,
+      1164,
+      127
+    ],
+    "classification": "text"
+  },
+  {
+    "pdf": "willingham-why-students-dont-like-school-2010.pdf",
+    "pages_total": 420,
+    "sample_pages": 5,
+    "avg_chars_per_page": 438.6,
+    "per_page_chars": [
+      0,
+      737,
+      892,
+      549,
+      15
+    ],
+    "classification": "text"
+  }
+]
