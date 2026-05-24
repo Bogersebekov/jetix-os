@@ -1,0 +1,28 @@
+---
+title: D-04 — SOTA-claim lifecycle flow (9 mechanisms)
+phase: 8
+research: research-sota-2026-05-24
+---
+
+```mermaid
+flowchart LR
+    A[Research/R&D] -->|Preprint| B[arXiv]
+    A -->|Submit| C[Peer Review]
+    B -.->|Community| C
+    B -->|Submit| D[Benchmark Leaderboard]
+    C -->|Accept| E[Conference/Journal]
+    E -->|Cite| F[Citation Network]
+    E -->|Standard| G[Standards Body]
+    D -->|Replication| H{Independent Verification}
+    H -->|Confirm| I[Validated SoTA]
+    H -->|Fail| J[Refuted/Retract]
+    I -->|Curated| K[Community Curation Wiki]
+    K -->|Survey| L[Meta-Research]
+    L -->|New cycle| A
+    G -->|Compliance| M[Industry Adoption]
+
+    style A fill:#FFF3CD
+    style I fill:#D4EDDA
+    style J fill:#F8D7DA
+    style M fill:#D1ECF1
+```

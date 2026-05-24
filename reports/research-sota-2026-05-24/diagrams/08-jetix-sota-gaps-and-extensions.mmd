@@ -1,0 +1,49 @@
+---
+title: D-08 — Jetix SOTA gaps × 7 extension proposals (R1 surface)
+phase: 8
+research: research-sota-2026-05-24
+---
+
+```mermaid
+flowchart LR
+    subgraph GAPS [7 Critical Gaps]
+        G1[1. Replication discipline]
+        G2[2. External benchmarks]
+        G3[3. Time-decay revalidation]
+        G4[4. Public SOTA-claim discipline]
+        G5[5. Cross-paradigm translation]
+        G6[6. Quantified agent quals]
+        G7[7. Adversarial preservation]
+    end
+    subgraph PROP [7 Extension Proposals R1]
+        P1[1. wiki/experiments/replication-log.md]
+        P2[2. wiki/comparisons/cluster expanded]
+        P3[3. sota_revalidate_by frontmatter field]
+        P4[4. wiki/foundations/sota-claim-discipline.md]
+        P5[5. FPF cross-paradigm translation docs]
+        P6[6. agents/id/qualification.yaml frame]
+        P7[7. wiki/dissent/ cluster]
+    end
+    G1 --> P1
+    G2 --> P2
+    G3 --> P3
+    G4 --> P4
+    G5 --> P5
+    G6 --> P6
+    G7 --> P7
+
+    subgraph HITL [Ruslan Strategic Decisions]
+        D[7-decision matrix Phase 7 §12]
+    end
+    P1 -.-> D
+    P2 -.-> D
+    P3 -.-> D
+    P4 -.-> D
+    P5 -.-> D
+    P6 -.-> D
+    P7 -.-> D
+
+    style GAPS fill:#F8D7DA
+    style PROP fill:#FFF3CD
+    style HITL fill:#D4EDDA
+```

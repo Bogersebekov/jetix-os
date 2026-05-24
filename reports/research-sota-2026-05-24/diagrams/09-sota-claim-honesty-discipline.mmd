@@ -1,0 +1,38 @@
+---
+title: D-09 — Honest SOTA-claim flow for partner-facing materials
+phase: 8
+research: research-sota-2026-05-24
+source: Phase 4 §9 + Phase 1 §15 + Longino
+---
+
+```mermaid
+flowchart TD
+    Claim[We claim Jetix-offering = SoTA in X] --> Q1{Scope specified?}
+    Q1 -->|NO| F1[FAIL — too broad - 'AI consulting' etc]
+    Q1 -->|YES| Q2{Year-stamped?}
+    Q2 -->|NO| F2[FAIL — Левенчук 5+5=10y decay]
+    Q2 -->|YES| Q3{Comparison baselines explicit?}
+    Q3 -->|NO| F3[FAIL — relative to whom?]
+    Q3 -->|YES| Q4{Predictive advantages?}
+    Q4 -->|NO| F4[FAIL — what 'risky predictions' does it make?]
+    Q4 -->|YES| Q5{Cost / production-fit?}
+    Q5 -->|NO| F5[FAIL — Huyen anti-SOTA-trap research vs production]
+    Q5 -->|YES| Q6{Reproducible — public artefact?}
+    Q6 -->|NO| F6[FAIL — Longino public standards]
+    Q6 -->|YES| Q7{Revalidation date set?}
+    Q7 -->|NO| F7[FAIL — МИМ year-of-update missing]
+    Q7 -->|YES| Q8{Adversarial preservation noted?}
+    Q8 -->|NO| F8[FAIL — AP-6 dissent unpreserved]
+    Q8 -->|YES| OK[VALID SoTA-claim - safe для partner-facing]
+
+    style Claim fill:#FFF3CD
+    style OK fill:#D4EDDA
+    style F1 fill:#F8D7DA
+    style F2 fill:#F8D7DA
+    style F3 fill:#F8D7DA
+    style F4 fill:#F8D7DA
+    style F5 fill:#F8D7DA
+    style F6 fill:#F8D7DA
+    style F7 fill:#F8D7DA
+    style F8 fill:#F8D7DA
+```

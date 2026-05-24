@@ -1,0 +1,32 @@
+---
+title: D-05 — Paper-with-code / ML SOTA leaderboard pattern
+phase: 8
+research: research-sota-2026-05-24
+---
+
+```mermaid
+sequenceDiagram
+    participant R as Researcher
+    participant arX as arXiv
+    participant GH as GitHub repo
+    participant PWC as paperswithcode.com
+    participant C as Community
+    participant L as Leaderboard
+
+    R->>arX: Upload paper (v1)
+    R->>GH: Release code + weights
+    R->>PWC: Submit benchmark entry
+    PWC->>L: Add to ranking
+    C->>GH: Attempt reproduction
+    alt Reproduction succeeds
+        C->>PWC: Confirm + reference
+        L->>L: Entry stays climbs ranking
+    else Reproduction fails
+        C->>PWC: Flag concerns
+        L->>L: Annotate / remove entry
+        R->>arX: Upload revision (v2/v3)
+    end
+    Note over L: SoTA = top-ranked validated entry
+    Note over L: Benchmark eventually saturates
+    L->>PWC: New harder benchmark added
+```

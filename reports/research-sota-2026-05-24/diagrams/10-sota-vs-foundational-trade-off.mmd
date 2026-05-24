@@ -1,0 +1,42 @@
+---
+title: D-10 — SOTA vs Foundational trade-off (Левенчук's anti-chase strategy)
+phase: 8
+research: research-sota-2026-05-24
+source: Метод 2025 :3055
+---
+
+```mermaid
+xychart-beta
+    title "Time-decay × Investment-depth by stack level"
+    x-axis ["Tool", "Applied method", "Discipline", "Trans-discipline"]
+    y-axis "Years until obsolete" 1 --> 150
+    bar [3, 7, 35, 120]
+    line [10, 25, 60, 100]
+```
+
+```mermaid
+flowchart LR
+    subgraph STACK [Левенчук's stack levels]
+        T[Tool 2-4y decay] --> A[Applied method 5-10y]
+        A --> D[Discipline 20-50y]
+        D --> Tr[Trans-discipline 100+y]
+    end
+    subgraph STRAT [Strategy per level]
+        S1[Tool: don't invest deep]
+        S2[Applied: tracking + Just-In-Time]
+        S3[Discipline: deep mastery]
+        S4[Trans-discipline: stack-base investment]
+    end
+    T --> S1
+    A --> S2
+    D --> S3
+    Tr --> S4
+
+    classDef foundation fill:#28A745,color:#fff
+    classDef applied fill:#FFC107
+    classDef tool fill:#DC3545,color:#fff
+    class Tr,S4 foundation
+    class D,S3 foundation
+    class A,S2 applied
+    class T,S1 tool
+```
