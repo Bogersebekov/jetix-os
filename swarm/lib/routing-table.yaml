@@ -449,6 +449,221 @@ roles:
     contributing_part: 8
     tradeoff_01_role: audit-lead
 
+  # --------------------------------------------------------------------------
+  # Book-Driven Agents Extension (2026-05-24) — Ruslan ack MAX-8
+  # Per decisions/RUSLAN-ACK-BOOK-DRIVEN-AGENTS-2026-05-24.md + execution prompt
+  # prompts/execute-book-driven-agents-stage-2-6-2026-05-24.md (Stage 4)
+  # IP-1 strict: role-archetype slugs only; executor binding in RUSLAN-LAYER
+  # R12 paired-frame discipline: 4 candidates auto_pair influence-ethics-expert (receiver)
+  # --------------------------------------------------------------------------
+
+  - slug: propaganda-expert
+    description: "Mass-communication theorist and propaganda analyst. R12 paired-frame REQUIRED."
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [critic, integrator, writing-support]
+    write_scope_glob: "swarm/wiki/drafts/<task-id>-propaganda-*"
+    escalation_taxonomy_per_trigger:
+      out-of-domain: dispatch-peer-cell
+      ethical-surface-irreversible: open-HITL-gate
+      r12-pairing-missing: halt-log-alert-F4
+    hub_and_spoke_dispatch_chain: [brigadier, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/propaganda-expert.jsonl"
+    primary_alpha: artefact
+    secondary_alphas: [task]
+    domains: [propaganda-analysis, mass-communication, crowd-psychology, media-critique]
+    granularity: jetix-shared
+    auto_pair: [influence-ethics-expert]
+    sub_clusters: [SC1, SC3]
+    bundle_introduced: book-driven-agents-2026-05-24
+
+  - slug: recruitment-dynamics-expert
+    description: "Mass-movement + cohort-recruitment + Network-State substrate. R12 paired-frame CRITICAL."
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [critic, integrator, scalability, writing-support]
+    write_scope_glob: "swarm/wiki/drafts/<task-id>-recruitment-*"
+    escalation_taxonomy_per_trigger:
+      out-of-domain: dispatch-peer-cell
+      ethical-surface-irreversible: open-HITL-gate
+      r12-pairing-missing: halt-log-alert-F4
+      fork-prevention-attempt: halt-log-alert-F4-default-deny
+      wage-ratio-violation: halt-log-alert-F4-default-deny
+    hub_and_spoke_dispatch_chain: [brigadier, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/recruitment-dynamics-expert.jsonl"
+    primary_alpha: artefact
+    secondary_alphas: [task, cycle]
+    domains: [recruitment-dynamics, mass-movement, cult-diagnosis, community-formation, cohort-building]
+    granularity: jetix-shared
+    auto_pair: [influence-ethics-expert]
+    sub_clusters: [SC2, SC4]
+    bundle_introduced: book-driven-agents-2026-05-24
+
+  - slug: nlp-expert
+    description: "NLP corpus + verbal-reframing patterns. R12 paired-frame STRICT."
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [critic, integrator, writing-support]
+    write_scope_glob: "swarm/wiki/drafts/<task-id>-nlp-*"
+    escalation_taxonomy_per_trigger:
+      out-of-domain: dispatch-peer-cell
+      ethical-surface-irreversible: open-HITL-gate
+      r12-pairing-missing: halt-log-alert-F4
+      covert-hypnosis-request: halt-log-alert-F4-default-deny
+    hub_and_spoke_dispatch_chain: [brigadier, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/nlp-expert.jsonl"
+    primary_alpha: artefact
+    secondary_alphas: [task]
+    domains: [nlp-meta-model, milton-model, verbal-reframing, modeling-protocol, sleight-of-mouth]
+    granularity: jetix-shared
+    auto_pair: [influence-ethics-expert]
+    sub_clusters: [SC6, SC7, SC8]
+    bundle_introduced: book-driven-agents-2026-05-24
+
+  - slug: sota-tracker-expert
+    description: "Phil-sci tracking discipline + paradigm-shift detection (IP-1 split from philosophy-expert: instrumental vs evaluative)."
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [critic, integrator, scalability, writing-support]
+    write_scope_glob: "swarm/wiki/drafts/<task-id>-sota-*"
+    escalation_taxonomy_per_trigger:
+      out-of-domain: dispatch-peer-cell
+      epistemic-audit-needed: cross-consult-philosophy-expert
+      paradigm-shift-candidate: escalate-to-brigadier
+    hub_and_spoke_dispatch_chain: [brigadier, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/sota-tracker-expert.jsonl"
+    primary_alpha: artefact
+    secondary_alphas: [task]
+    domains: [phil-sci-tracking, research-programme-analysis, paradigm-shift-detection, sota-discipline]
+    granularity: jetix-shared
+    auto_pair: []
+    sub_clusters: [SC9, SC10]
+    bundle_introduced: book-driven-agents-2026-05-24
+
+  - slug: methodology-engineer
+    description: "Method-as-engineered-artefact. Levenchuk-OMG-Essence-Schön-MMK lineage. ALL 5 modes (most general)."
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [critic, optimizer, integrator, scalability, writing-support]
+    write_scope_glob: "swarm/wiki/drafts/<task-id>-methodology-*"
+    escalation_taxonomy_per_trigger:
+      out-of-domain: dispatch-peer-cell
+      contradiction-with-foundation: brigadier-authors-gate-packet
+      method-change: refuse-route-to-HITL
+    hub_and_spoke_dispatch_chain: [brigadier, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/methodology-engineer.jsonl"
+    primary_alpha: artefact
+    secondary_alphas: [task, strategies-rule]
+    domains: [method-engineering, alpha-state-method, reflective-practice, levenchuk-corpus, MMK-substrate, OMG-essence]
+    granularity: jetix-shared
+    auto_pair: []
+    sub_clusters: [SC11, SC12, SC13]
+    bundle_introduced: book-driven-agents-2026-05-24
+
+  - slug: ml-ai-foundations-expert
+    description: "ML/AI canonical consultant + MAS scaling analyst. No R12 pairing (technical surface)."
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [critic, integrator, scalability, writing-support]
+    write_scope_glob: "swarm/wiki/drafts/<task-id>-ml-ai-*"
+    escalation_taxonomy_per_trigger:
+      out-of-domain: dispatch-peer-cell
+      production-engineering-question: cross-consult-engineering-expert
+      autonomous-ml-deployment: open-AWAITING-APPROVAL-packet
+    hub_and_spoke_dispatch_chain: [brigadier, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/ml-ai-foundations-expert.jsonl"
+    primary_alpha: artefact
+    secondary_alphas: [task]
+    domains: [dl-curriculum, mlops-lifecycle, mas-scaling, mas-failure-modes]
+    granularity: jetix-shared
+    auto_pair: []
+    sub_clusters: [SC15]
+    bundle_introduced: book-driven-agents-2026-05-24
+
+  - slug: influence-ethics-expert
+    description: "R12 ENFORCEMENT CELL. Receiver-direction auto-pair with 4 influence agents. VETO authority on missing pairing."
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [critic, integrator, writing-support]
+    write_scope_glob: "swarm/wiki/drafts/<task-id>-influence-ethics-*"
+    escalation_taxonomy_per_trigger:
+      r12-pairing-missing: halt-log-alert-F4
+      veto-invocation: halt-and-emit-veto-record
+      contradiction-with-foundation: brigadier-authors-gate-packet
+    hub_and_spoke_dispatch_chain: [brigadier, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/influence-ethics-expert.jsonl"
+    primary_alpha: artefact
+    secondary_alphas: [task]
+    domains: [influence-ethics, R12-paired-frame, consent-boundary, extraction-audit, HHH-alignment]
+    granularity: jetix-shared
+    auto_pair: [propaganda-expert, recruitment-dynamics-expert, nlp-expert, gamification-engagement-expert]
+    auto_pair_direction: receiver  # fires WHEN paired agent dispatches
+    sub_clusters: ["cross-cluster: SC3+SC6-8+SC2+SC17 subsets"]
+    bundle_introduced: book-driven-agents-2026-05-24
+    r12_enforcement_cell: true
+
+  - slug: gamification-engagement-expert
+    description: "Game-design + engagement-pattern + virtual-economy + Schelling coordination. R12 paired-frame REQUIRED (Hook model = persuasion engineering)."
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [critic, optimizer, integrator, scalability, writing-support]
+    write_scope_glob: "swarm/wiki/drafts/<task-id>-gamification-*"
+    escalation_taxonomy_per_trigger:
+      out-of-domain: dispatch-peer-cell
+      ethical-surface-irreversible: open-HITL-gate
+      r12-pairing-missing: halt-log-alert-F4
+      dark-pattern-detected: halt-log-alert-F4-default-deny
+      rentier-pattern-detected: halt-log-alert-F4-default-deny
+    hub_and_spoke_dispatch_chain: [brigadier, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/gamification-engagement-expert.jsonl"
+    primary_alpha: artefact
+    secondary_alphas: [task]
+    domains: [game-theory, game-design, flow-state, virtual-economies, schelling-coordination, platform-critique]
+    granularity: jetix-shared
+    auto_pair: [influence-ethics-expert]
+    sub_clusters: [SC17]
+    bundle_introduced: book-driven-agents-2026-05-24
+
+# ============================================================================
+# R12 paired-frame auto-pair routing rules (Phase 4 Stage 4 — book-driven-agents-2026-05-24)
+# ============================================================================
+# influence-ethics-expert MUST be dispatched (receiver-direction) whenever ANY
+# of these 4 agents fires: propaganda / recruitment / nlp / gamification.
+# Missing pair → Halt-Log-Alert F4 ≤5s → emit to swarm/approvals/log.jsonl
+# (per Part 6b §I.2 LOCKED enforcement + R12 paired-frame discipline).
+
+r12_auto_pair_rules:
+  - trigger_agent: propaganda-expert
+    receiver_agent: influence-ethics-expert
+    enforcement: mandatory
+    halt_grade: F4
+    halt_log_path: swarm/approvals/log.jsonl
+    source_doc: concepts/r12-paired-frame-template.md
+
+  - trigger_agent: recruitment-dynamics-expert
+    receiver_agent: influence-ethics-expert
+    enforcement: mandatory-critical
+    halt_grade: F4
+    halt_log_path: swarm/approvals/log.jsonl
+    source_doc: concepts/r12-paired-frame-template.md
+    additional_checks: [mondragon-wage-ratio, fork-and-leave-clause]
+
+  - trigger_agent: nlp-expert
+    receiver_agent: influence-ethics-expert
+    enforcement: mandatory-strict
+    halt_grade: F4
+    halt_log_path: swarm/approvals/log.jsonl
+    source_doc: concepts/r12-paired-frame-template.md
+    additional_checks: [witkowski-critical-review-attached, milton-model-bite-cross-ref]
+
+  - trigger_agent: gamification-engagement-expert
+    receiver_agent: influence-ethics-expert
+    enforcement: mandatory
+    halt_grade: F4
+    halt_log_path: swarm/approvals/log.jsonl
+    source_doc: concepts/r12-paired-frame-template.md
+    additional_checks: [hook-model-manipulation-matrix-pair, rentier-anti-pattern-check]
+
 # ============================================================================
 # Variety count summary (Ashby Ch.11 ≥20 target — L10 Foundation invariant)
 # ============================================================================
@@ -457,10 +672,14 @@ roles:
 # - 13 legacy agents
 # - 3 Bundle 3 role archetypes (compound-phase-orchestrator, health-monitor,
 #   quarterly-immune-auditor)
+# - 8 NEW book-driven agents (propaganda / recruitment-dynamics / nlp /
+#   sota-tracker / methodology-engineer / ml-ai-foundations / influence-ethics
+#   R12-enforcement / gamification-engagement) — 2026-05-24
+# - 4 R12 auto-pair rules (propaganda/recruitment/nlp/gamification → influence-ethics receiver)
 # - 14 distinct escalation triggers (definitions.escalation_triggers)
 # - 4 task shapes (task_shape_dispatch_matrix)
 # - 1 M-class rate limiter
 # - 10 gate types (gate_types)
-# Total distinct routing rules: ≥70 (Bundle 2: 67 + Bundle 3: 3) — far
+# Total distinct routing rules: ≥82 (Bundle 2: 67 + Bundle 3: 3 + book-driven: 12) — far
 # exceeds Ashby variety target ≥20.
 # Verification: /lint --check-routing-table-variety reports count.
