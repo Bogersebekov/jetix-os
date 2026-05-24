@@ -1483,3 +1483,105 @@ Phase reports: `reports/point-b-compact-2026-05-23/phase-0..5*.md` + 00-SUMMARY 
 - Plan-of-Day Шаг 2 «Точка Б» — substrate compile complete; Ruslan R1 review pending
 
 [src: `prompts/point-b-compact-2026-05-23-evening.md` §7 D12-* mapping + Ruslan voice ack-all 2026-05-23 evening «все D12-* в Википедию»; `reports/point-b-compact-2026-05-23/phase-1-d12-promotions.md` coverage matrix; `decisions/strategic/POINT-B-NEAR-TARGET-2026-05-23.md` Master deliverable]
+
+
+## §APPEND-batch-13-quick (2026-05-24 lunch) — voice-batch-13-quick-2026-05-24 (10 D13-* decisions / Plan-of-Day Production Day direct feed)
+
+> Voice batch-13-quick LIGHT processing closure (2 audio 732-733, 24.05 14:29 series). Per prompt `prompts/voice-batch-13-quick-2026-05-24.md` QUICK mode (NOT MAX-density / NOT 17-lens). Per «без сверхъестественного нового» Ruslan posture — minimal Tier A; everything в pool. 4 ⭐⭐⭐ direct feed Plan-of-Day Production Day execution (Step 2 §A-E + Step 4 top-5 + Step 3 CRM + Step 7 docs); 2 R12 sensitivity FLAGS (O-168 Кланы membership + O-172 «одна семья» rhetoric) — influence-ethics-expert auto-fire required before usage.
+
+### D13-1 — O-166 Library-positioning naming-thread Workshop/Library/OS/Corporation/Кланы consolidation question [P1 ⭐⭐⭐ pre-Step-2 ack]
+
+**Surface (NOT recommendation):** Ruslan batch-13 named «библиотека» как один из «частей jetix». Substrate currently has 5 naming alternatives: Workshop / Library / OS / Corporation / Кланы. Это 5 separate entities или naming-aliases одного entity? Pre-Step-2 ack required для clear positioning hook decision.
+
+**Pool option:** Tier B default + companion с D12-1 development-promotion-mode.
+
+**Ack question:** (a) consolidate в single canonical positioning перед Step 2? (b) keep 5 separate (e.g., Workshop = workshop product / Library = corpus / OS = personal system / Corporation = business tier / Кланы = community tier)?
+
+### D13-2 — O-167 World-wide frame Step 2 §A integration as scaling-section explicit? [P2 ⭐]
+
+**Surface:** «TikTok shorts / undeveloped countries NOT помешают, Jetix world-wide» = explicit scaling-resilience claim.
+
+**Pool option:** Tier B default; supporting (NOT top-5).
+
+**Ack question:** (a) Step 2 §A конечная цель «scaling-section» explicit добавить? (b) Just embedded в Step 0-1 hook supporting line?
+
+### D13-3 ⭐⭐⭐ — O-168 Tier-structure free+Corporation+Кланы Tier A promote? (R12 Layer 4 compliance mechanism articulation) [P1 ⭐⭐⭐]
+
+**Surface:** Ruslan explicitly named 3 tiers — free (life) + Jetix Corporation (business) + Кланы (% community + платформа improved / офлайн-fork). Это mechanism articulation для R12 anti-extraction Layer 4 compliance (fork-and-leave + Mondragón ratio capable).
+
+**Pool option:** Tier B-plus default; ⭐⭐⭐ candidate для Tier A standalone wiki (`wiki/concepts/tier-structure-free-corporation-clans.md`).
+
+**Ack question:** (a) Tier A promote standalone wiki + 1-pager spec? (b) §APPEND existing wiki (где?)? (c) keep Tier B-plus pool? **R12 influence-ethics-expert auto-fire mandatory при copy authoring.**
+
+### D13-4 ⭐⭐⭐ — O-169 Onboarding-artefact spec web-сайт structure direct Step 2 §D integration [P1 ⭐⭐⭐]
+
+**Surface:** Ruslan named 6 sections explicit: «зачем / как / смыслы / суть / как пользоваться / как помочь платформе+Ruslan». Direct feed → Plan-of-Day Step 2 §D required docs + Step 7 LANDING-PAGE-DRAFT structure.
+
+**Pool option:** Tier B-plus default; ⭐⭐⭐ candidate для §APPEND Method V2 или Notion-MVP-bypass wiki.
+
+**Ack question:** (a) §APPEND existing wiki (Method V2 §X или Notion-MVP-bypass §Y)? (b) NEW standalone wiki `wiki/concepts/onboarding-artefact-spec.md`? (c) Direct integrate в Step 7 LANDING-PAGE-DRAFT skeleton без separate wiki?
+
+### D13-5 ⭐⭐⭐ — O-170 Hypothesis-cascade core 5-step axiom-chain Step 4 top-5 ideas? [P1 ⭐⭐⭐]
+
+**Surface:** 5-step explicit cascade: интеллект-хочет-развиваться (axiom) → ответственная info-переработка → эффективное развитие → внешняя система = 10x → iterative бесконечно. Ground assumption для всех остальных ideas.
+
+**Pool option:** Tier B-plus default; ⭐⭐⭐ Step 4 top-5 candidate (mechanism core).
+
+**Ack question:** (a) Step 4 top-5 pick? (b) §APPEND Method V2 introduction (current axiom-chain documentation)? (c) Standalone wiki `wiki/concepts/hypothesis-cascade-axiom-chain.md`?
+
+### D13-6 ⭐⭐⭐ — O-171 Point-A→B template Step 2 §C substrate + Step 4 top-5 + Step 7 Notion skeleton [P1 ⭐⭐⭐]
+
+**Surface:** Heart-of-mechanism per Ruslan — разбор + Notion + шаблоны+отчётность+слежка → следующая точка Б. Literally что Jetix делает с человеком (Дмитрий-style testing).
+
+**Pool option:** Tier B-plus default; ⭐⭐⭐ Step 4 top-5 candidate + Step 2 §C direct substrate + Step 7 Notion template skeleton direct feed.
+
+**Ack question:** (a) Tier A promote standalone wiki `wiki/concepts/point-a-b-template-system.md` + 1-pager? (b) §APPEND cybernetic-external-system wiki (O-128)? (c) Direct integrate в Step 7 Notion template skeleton без separate wiki?
+
+### D13-7 — O-172 Civilizational meta-frame R12 audit before Tier A? [P3 ⚠️R12]
+
+**Surface:** «всё = информация» part уже Method V2 captured; «одна семья / племя» part = membership-totalizing rhetoric (R12 sensitivity).
+
+**Pool option:** Tier B default; «одна семья» part DEFER Stage 6-7 only; supporting (NOT top-5 без R12 audit).
+
+**Ack question:** (a) DEFER (R12 audit pending)? (b) §APPEND Method V2 «всё = информация» extension WITHOUT family/племя part? (c) influence-ethics-expert R12 8-item audit + Welcome-frame O-144 compatibility first?
+
+### D13-8 ⭐⭐⭐ — O-173 Embedded-development frame Step 4 top-5? (why-Jetix-scales mechanism) [P1 ⭐⭐⭐]
+
+**Surface:** «твоё развитие невозможно если outer-system не развивается» + reverse-feedback «лучше система работает → лучше работает он». Это explicit «зачем им это» value-prop dimension.
+
+**Pool option:** Tier B-plus default; ⭐⭐⭐ Step 4 top-5 candidate (mechanism articulation для why-engage-past-Stage-3).
+
+**Ack question:** (a) Step 4 top-5 pick? (b) Tier A promote standalone wiki `wiki/concepts/embedded-development-frame.md`? (c) §APPEND cybernetic-external-system wiki (O-128) или intellect-as-gate wiki (O-153)?
+
+### D13-9 — O-174 Ruslan-persona Step 5 Бренд voice + Step 6 video opening [P2 ⭐]
+
+**Surface:** «чувак которому респект, спасибо что взял ответственность» / один из миллионов creators / синтез миллионов лучших людей+методов.
+
+**Pool option:** Tier B default; supporting (founder voice ≠ core idea).
+
+**Ack question:** (a) §APPEND existing founder-archetype wiki (O-149 batch-11)? (b) Direct integrate в Step 5 BRAND-PACKAGING-DRAFT + Step 6 V1 video opening 30-60sec script без separate wiki? (c) Standalone wiki `wiki/concepts/ruslan-founder-persona-frame.md`?
+
+### D13-10 — O-175 Testing-posture brand voice consistency [P2 ⭐]
+
+**Surface:** «очевидно что так должно быть, но пока гипотеза, ответственно тестирую» = epistemic-honest brand voice differentiator. Compound с O-163 batch-12 substrate-saturation.
+
+**Pool option:** Tier B default; supporting (Step 5 Бренд voice consistency principle).
+
+**Ack question:** (a) §APPEND O-163 substrate-saturation wiki (если promote'd)? (b) Direct integrate в Step 5 BRAND-PACKAGING-DRAFT voice principles section? (c) Discovery call script Stage 5 framing language fixed phrase?
+
+### D13-* summary mapping
+
+| Decision | Pool action | Plan-of-Day applicability | R12 sensitivity |
+|---|---|---|---|
+| D13-1 (O-166) | Tier B + naming-thread question | Pre-Step-2 ack | low |
+| D13-2 (O-167) | Tier B supporting | Step 2 §A optional | low |
+| **D13-3 ⭐⭐⭐ (O-168)** | **Tier B-plus → Tier A path** | **Step 2 §A+B+C+D+E + Step 4 top-5 + Step 3 CRM** | ⚠️ R12 mandatory |
+| **D13-4 ⭐⭐⭐ (O-169)** | **Tier B-plus → §APPEND or NEW** | **Step 2 §D + Step 7 LANDING** | low |
+| **D13-5 ⭐⭐⭐ (O-170)** | **Tier B-plus → Tier A path** | **Step 2 §A+B + Step 4 top-5** | low |
+| **D13-6 ⭐⭐⭐ (O-171)** | **Tier B-plus → Tier A path** | **Step 2 §C + Step 4 top-5 + Step 7 Notion** | low |
+| D13-7 (O-172) | Tier B defer (R12 audit) | Stage 6-7 only | ⚠️⚠️ R12 audit pending |
+| **D13-8 ⭐⭐⭐ (O-173)** | **Tier B-plus → Tier A path** | **Step 2 §A + Step 4 top-5** | low (Welcome-frame compatible) |
+| D13-9 (O-174) | Tier B supporting | Step 5 Бренд + Step 6 video | low |
+| D13-10 (O-175) | Tier B supporting | Step 5 Бренд voice | low |
+
+[src: `reports/voice-batch-13-quick-2026-05-24/01-per-note-breakdown.md` + `02-key-ideas-pool-candidates.md` + `03-plan-of-day-integration-mapping.md`; audio_732 claims 1-8 + audio_733 claims 1-15; constitutional posture R1 surface only + R6 + R11 + R12 LOCK + IP-1 STRICT + AP-6 + SKIP-list integrity]
