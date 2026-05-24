@@ -32,6 +32,7 @@ ram_constraint: heavy ROY 500%; OK 1-parallel с task-a (different focus)
 1. **Memory:** `feedback_max_density_max_tokens.md` ⭐ FULL + constitutional + research-pool + breadth + fpf-first + iwe-rejected + no-unsolicited + prompt-explanation-required
 2. **Substrate read:**
    - `raw/external/research-corpus-2026-05-23/education/` — primary corpus (Ruslan-downloaded books)
+   - **NEW: `decisions/strategic/RUSLAN-NOTES-EDUCATION-PARADIGM-2026-05-24.md`** — Ruslan voice notes (2) + 10 extracted ideas O-176..O-185 (paradigm shift «прошивка» + adequate intellect anti-cheating + AI usage stratification + question-first learning) — **PRIMARY substrate для Phase 7 Jetix Lens application — directly relevant education paradigm framing**
    - 4 existing research deliverables (methodology / sota / propaganda / nlp) для cross-cite
    - Lev-master (Левенчук pedagogy + МИМ Workshop format)
    - 4 LOCKED canonical (Method V2 = pedagogy candidate / Strategic Plan / Economic V10 / AI Market PLAN)

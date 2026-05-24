@@ -31,7 +31,7 @@ mode: INVENTORY (substrate compile only, NO new docs creation)
 
 1. **Memory:** constitutional + breadth (surface ВСЁ) + no-unsolicited
 2. **Substrate read (FULL repo scan для docs):**
-   - `decisions/strategic/` — all strategic docs
+   - `decisions/strategic/` — all strategic docs (включая **NEW: `RUSLAN-NOTES-EDUCATION-PARADIGM-2026-05-24.md`** — 2 voice notes + 10 ideas O-176..O-185 + 8 cross-cites)
    - `decisions/` — all decisions
    - `wiki/concepts/` — 13 existing + 49 NEW Tier A/B-Plus
    - `swarm/wiki/foundations/` — Foundation 11 Parts + Pillar A/B/C
