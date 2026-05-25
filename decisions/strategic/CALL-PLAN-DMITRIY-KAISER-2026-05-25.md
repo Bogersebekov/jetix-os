@@ -168,76 +168,71 @@ substrate_refs:
 ### CK-1 — Структура звонка 1h
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa'}}}%%
 graph LR
-    O["🚀 0-3 мин · OPEN<br/>имена · цель · 1h<br/>«можно сказать нет»"] --> S["💡 3-20 мин · SUBSTANCE<br/>Ruslan ~80%<br/>6 тезисов §3<br/>что готово / что нет"]
-    S --> R["👂 20-35 мин · DMITRIY<br/>~70%<br/>контекст · клиенты<br/>реакция · вопросы"]
-    R --> C["🤝 35-50 мин · CO-WORK<br/>50/50<br/>3 варианта · give-take<br/>R12 каркас"]
-    C --> W["✅ 50-60 мин · WRAP<br/>next steps<br/>ИЛИ «спасибо, не подходит»"]
-    style O fill:#d6f0d6,color:#000
-    style S fill:#cce6ff,color:#000
-    style R fill:#fff4cc,color:#000
-    style C fill:#ffe0a0,color:#000
-    style W fill:#d6e0f0,color:#000
+    O["0-3 мин: OPEN<br/>имена, цель, 1ч<br/>можно сказать нет"] --> S["3-20 мин: SUBSTANCE<br/>Ruslan 80%<br/>6 тезисов, что готово/нет"]
+    S --> R["20-35 мин: DMITRIY 70%<br/>контекст, клиенты<br/>реакция, вопросы"]
+    R --> C["35-50 мин: CO-WORK 50/50<br/>3 варианта, give-take<br/>R12 каркас"]
+    C --> W["50-60 мин: WRAP<br/>next steps ИЛИ<br/>спасибо, не подходит"]
+    style O fill:#d6f0d6
+    style S fill:#cce6ff
+    style R fill:#fff4cc
+    style C fill:#ffe0a0
+    style W fill:#d6e0f0
 ```
 
 ### CK-2 — Поток 6 тезисов (логика в голове Ruslan)
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000','textColor':'#000','lineColor':'#333'}}}%%
 graph TD
-    A["1 · Информация + методы<br/>интеллект = переработчик"] --> B["2 · Усиление переработки<br/>= платформа-мастерская"]
-    B --> C["3 · Что готово честно<br/>дизайн / агенты ✅<br/>видео / внедрение ⏳"]
-    C --> D["4 · НЕ курс / НЕ масса<br/>чистая мастерская"]
-    D --> E["5 · Ищу первых партнёров<br/>фундамент · перевод · тест"]
-    E --> F["6 · Fit Dmitriy<br/>мост в бизнес<br/>75-90% ему · 5:1 cap"]
-    style B fill:#cce6ff,color:#000
-    style C fill:#fff4cc,color:#000
-    style F fill:#cdeccd,color:#000
+    A["1. Информация и методы<br/>интеллект = переработчик"] --> B["2. Усиление переработки<br/>= платформа-мастерская"]
+    B --> C["3. Что готово честно<br/>дизайн и агенты есть<br/>видео и внедрение позже"]
+    C --> D["4. НЕ курс, НЕ масса<br/>чистая мастерская"]
+    D --> E["5. Ищу первых партнёров<br/>фундамент, перевод, тест"]
+    E --> F["6. Fit Dmitriy: мост в бизнес<br/>75-90% ему, cap 5:1"]
+    style B fill:#cce6ff
+    style C fill:#fff4cc
+    style F fill:#cdeccd
 ```
 
 ### CK-3 — Партнёрская модель Dmitriy (как пример)
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000','textColor':'#000','lineColor':'#333'}}}%%
 graph LR
     D0["Dmitriy сейчас<br/>консультант + клиенты"] --> J["входит в Jetix<br/>T1 методолог + T4 консультант"]
     J --> AD["адаптирует метод<br/>под своих клиентов"]
-    AD --> PAY["клиенты эффективнее<br/>→ платят больше"]
-    PAY --> RS["доход: ≈75-90% Dmitriy<br/>остаток платформе<br/>Мондрагон 5:1 cap"]
+    AD --> PAY["клиенты эффективнее<br/>платят больше"]
+    PAY --> RS["доход 75-90% Dmitriy<br/>остаток платформе<br/>Мондрагон cap 5:1"]
     RS --> COH["строит свою когорту<br/>внутри Jetix"]
-    COH -.->|fork-and-leave сохранён| EXIT["уход без штрафов<br/>со своим"]
-    style J fill:#e0d0ff,color:#000
-    style RS fill:#cdeccd,color:#000
-    style EXIT fill:#ffd6d6,color:#000
+    COH -.->|fork-and-leave| EXIT["уход без штрафов<br/>со своим"]
+    style J fill:#e0d0ff
+    style RS fill:#cdeccd
+    style EXIT fill:#ffd6d6
 ```
 
 ### CK-4 — Платформа как мастерская (workshop frame)
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000','textColor':'#000','lineColor':'#333'}}}%%
 graph TD
-    L["наблюдатели / новички"] --> ACC["доступ к community"]
-    ACC --> TH["прокачка стратегического<br/>мышления + переработки"]
+    L["наблюдатели, новички"] --> ACC["доступ к community"]
+    ACC --> TH["прокачка мышления<br/>и переработки информации"]
     TH --> TOOLS["лучшие инструменты<br/>доступны сразу"]
-    TOOLS --> PROJ["воплощают проекты<br/>(не дрочат изучение)"]
+    TOOLS --> PROJ["воплощают проекты<br/>а не учат бесконечно"]
     PROJ --> BACK["лучшие наработки<br/>обратно в community"]
-    BACK -->|recursive amplification| TH
-    style TH fill:#cce6ff,color:#000
-    style PROJ fill:#cdeccd,color:#000
+    BACK -->|recursive| TH
+    style TH fill:#cce6ff
+    style PROJ fill:#cdeccd
 ```
 
 ### CK-5 — R12 overlay по секциям звонка
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000','textColor':'#000','lineColor':'#333'}}}%%
 graph LR
-    S1["OPEN<br/>R12: явное «можно нет»"] --> S2["SUBSTANCE<br/>⚠️ риск: hype<br/>→ честные ограничения"]
+    S1["OPEN<br/>R12: можно нет"] --> S2["SUBSTANCE<br/>риск: hype<br/>держим честность"]
     S2 --> S3["DMITRIY<br/>R12: air time<br/>не перебивать"]
-    S3 --> S4["CO-WORK<br/>⚠️ риск: lock-in<br/>→ fork-and-leave вслух"]
-    S4 --> S5["WRAP<br/>R12: стоп-сигнал<br/>без push"]
-    style S2 fill:#ffe0a0,color:#000
-    style S4 fill:#ffe0a0,color:#000
+    S3 --> S4["CO-WORK<br/>риск: lock-in<br/>fork-and-leave вслух"]
+    S4 --> S5["WRAP<br/>R12: стоп-сигнал<br/>без давления"]
+    style S2 fill:#ffe0a0
+    style S4 fill:#ffe0a0
 ```
 
 ---
