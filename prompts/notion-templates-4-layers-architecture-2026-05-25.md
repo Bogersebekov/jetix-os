@@ -16,7 +16,7 @@ mode: 4-LAYERS COMPREHENSIVE ARCHITECTURE (F2-F3 derivative — Notion-implement
 mermaid_target: 8-10 schemes ARCH-1..ARCH-10
 status: READY-TO-EXECUTE (после твоего «погнали»)
 runtime_target: 4-6h autonomous
-audience_primary: Ruslan (founder/executive) для Layer 4 + future cohort members для Layer 1+2 + T1 партнёры для Layer 3 + R12-мост (Прапион) для Layer 3+4 R12 review
+audience_primary: ЛЮБОЙ founder/executive любого бизнеса (consulting/SaaS/product/agency/cooperative) — Layer 4 = fork-able foundation; Ruslan = только один пример из применений (Jetix = optional overlay поверх Layer 4 base)
 ---
 
 # 🏛️ Notion Templates 4-Layers Architecture — полная архитектура
@@ -24,8 +24,9 @@ audience_primary: Ruslan (founder/executive) для Layer 4 + future cohort memb
 ## §0 Acceptance gate (что делает run "PASSED")
 
 ✅ Plain Russian primary (NO jargon без перевода)
-✅ **Все 4 layers полностью покрыты** (Layer 1 Personal Core + Layer 2 Personal Expanded + Layer 3 Team Collaboration + **Layer 4 Business/Corporate Management** NEW deep)
-✅ **Layer 4 НЕ shallow** — minimum same density как Layer 3 (Team OS Plan baseline ~5.5K). Полная implementation spec executive layer.
+✅ **Все 4 layers полностью покрыты** (Layer 1 Personal Core + Layer 2 Personal Expanded + Layer 3 Team Collaboration + **Layer 4 Universal Business Foundation** NEW deep)
+✅ **Layer 4 НЕ Jetix-specific dashboard** — это generic fork-able foundation для любого бизнеса (consulting/SaaS/agency/cooperative). Per-DB extension points explicit. Jetix-specific overlay = ОТДЕЛЬНАЯ под-секция §5.X, не вплетён в base.
+✅ **Layer 4 НЕ shallow** — generic base §5.1-§5.12 ≥5-6K + Jetix overlay §5.X ≥2-3K = total ≥7-8K
 ✅ Per-layer — все DB / поля / formulas / views / relations / templates как Notion-implementation-ready spec (НЕ просто описание — actionable schema)
 ✅ Cross-layer mechanics: data flows + permissions matrix + sync mechanics + onboarding sequence + fork-friendly + R12
 ✅ Implementation roadmap — что собираем когда + dependencies + Build/Run/Scale stage alignment
@@ -88,7 +89,7 @@ audience_primary: Ruslan (founder/executive) для Layer 4 + future cohort memb
 - **Layer 1: Personal Core** — индивидуальный пользователь. Управление своей жизнью, идеями, проектами. Fork-friendly (любой может скопировать и использовать). Базовая прошивка.
 - **Layer 2: Personal Expanded** — расширенный личный OS поверх Layer 1. Добавляет: deeper analytics / templates / hypothesis tracking / wikipedia личных concepts / advanced views.
 - **Layer 3: Team Collaboration** — multi-tenant overlay. N Personal OS ↔ Shared workspace. Roles / Project Catalog / Skills marketplace / Charter / monetization / daily CC pass per user.
-- **Layer 4: Business / Corporate Management** ⭐ NEW — top-executive layer. Founder/executive видит **всё что творится в компании** в одной dashboard'е: clans / cohorts / partners / revenue / R12 compliance / governance / strategy / risk. Основные инструменты управления всей платформой.
+- **Layer 4: Universal Business Foundation Template** ⭐ NEW — **fork-able foundation** для управления ЛЮБЫМ бизнесом (consulting / SaaS / product / agency / cooperative / etc.). Базовый skeleton который любой founder/executive может **fork → copy → adapt под свой бизнес**. Generic (НЕ Jetix-specific). Каждая DB с **extension points** — что можно добавить под конкретный бизнес. Jetix-specific вещи (R12 / Mondragón 5:1 / 4 LOCKED / T1-T4 / Charter / 10 ролей / etc.) = **СЕПАРАТНЫЙ OPTIONAL OVERLAY** на Layer 4, не часть base.
 
 **Финал:** master architecture spec — single document ~25-35K plain Russian + 8-10 mermaid + 14+ phase reports, который Ruslan reads → ack → потом implementation в Notion с готовой схемой.
 
@@ -205,132 +206,159 @@ Use TEAM-OS-NOTION-TEMPLATE-PLAN-2026-05-24 как baseline + expand до full N
 
 ---
 
-### Phase 5 — ⭐ Layer 4 Business / Corporate Management (NEW deep — ЦЕНТРАЛЬНАЯ Phase)
+### Phase 5 — ⭐ Layer 4 Universal Business Foundation Template (NEW deep — ЦЕНТРАЛЬНАЯ Phase)
 
-> **Это самая важная Phase этого run'а.** Layer 4 — новый layer, который покрывает что **управляющий верхнего уровня (founder / executive) должен видеть и контролировать**. Per Ruslan voice ack 25.05 «верхнеуровневый управляющий по сути видел всё что творится в компании + основные инструменты тоже туда добавим».
+> **🚨 КРИТИЧНО — правильно понять scope.** Layer 4 = **универсальный fork-able foundation template для управления ЛЮБЫМ бизнесом**. Не Jetix-specific dashboard. Не привязан к 4 LOCKED / R12 / Mondragón 5:1 / 29 D-LOCK / OKR-as-our-framework / partners типа T1-T4 / cohort terminology.
+>
+> Это **базовый skeleton** который любой founder/executive любого бизнеса (consulting / SaaS / product / agency / cooperative / etc.) может **fork → copy → adapt под свой бизнес**.
+>
+> **Jetix-specific вещи (R12 / Mondragón 5:1 / 4 LOCKED / T1-T4 / Stage Gates / Charter / 4 monetization templates / etc.) = СЕПАРАТНЫЙ OPTIONAL OVERLAY на Layer 4** (см. §5.X в конце Phase). Не в base.
+>
+> **Per Ruslan voice ack 25.05:** «шаблон фундамент на который уже далее люди могут что-то наслаивать… он должен быть fork-able… на таком базовом уровне просто описано но с конкретными дописями что можно будет уже добавить».
 
-**Tasks — full Notion implementation spec для Layer 4:**
+**Tasks — full Notion implementation spec для Layer 4 universal foundation (generic для любого бизнеса):**
 
-#### §5.1 Executive Dashboard
-- Top-level metrics (revenue / runway / partners count active / cohort size / R12 compliance status / Build-Run-Scale stage per direction)
-- Health signals (green/yellow/red flags per area)
-- Quick actions panel (top 5 attention items today)
-- Trends overlay (week / month / quarter)
+#### §5.1 Strategy & Goals (generic)
+- Vision / Mission DB (текстовые поля + дата ревизии + owner)
+- Goals tracking DB — universal (не привязано к OKR framework specifically — каждый business выберет свой framework: OKR / V2MOM / Hoshin Kanri / EOS Rocks / etc.)
+- Per goal: title / type (annual/quarterly/monthly) / target metric / current state / owner / horizon / status
+- **Extension points:**
+  - "Если использовать OKR — добавь поля Objectives + Key Results"
+  - "Если использовать V2MOM — добавь Values / Methods / Obstacles / Measures"
+  - "Если industry-specific — добавь категории целей"
 
-#### §5.2 Strategy Tracking DB
-- Strategic Plan link (4 LOCKED canonical reference)
-- Quarterly OKRs DB (objectives / key results / progress % / owner / horizon)
-- Annual targets vs actuals
-- 29 D-LOCK entries linked
-- 7 Strategic Insights linked
-- Direction Cards (Pillar A per Foundation Part 11) — Build / Run / Scale per direction
+#### §5.2 Financial Overview (generic)
+- Revenue tracking DB (per income stream — generic categorization)
+- Expenses DB (per category — operating / hr / tools / marketing / generic)
+- Cash flow + runway calculator (универсальные formulas — current cash / monthly burn / runway months)
+- Pricing tiers DB (если applicable — generic structure для tiered pricing)
+- Invoices DB (universal SEPA-ready / US invoice / etc. — структура generic)
+- Budget vs Actuals view
+- **Extension points:**
+  - "Cooperative бизнес — добавь Mondragón ratio check formula (highest/lowest comp ratio)"
+  - "VC-funded — добавь cap table tracking"
+  - "Multi-currency — добавь currency conversion"
+  - "Crypto/tokenized — добавь wallet tracking"
 
-#### §5.3 Financial Overview DB
-- Revenue per stream (consulting quick-money / cohort / partner share / IP licensing / fund / etc.)
-- Burn rate + runway calculator (formulas)
-- Mondragón 5:1 compliance check (highest / lowest comp ratio formula)
-- Pricing tiers L1-L7 reference
-- Invoice tracking DB
-- Budget vs actuals
-- 4 monetization templates per Team OS Plan reference
-- Programmable Ethereum Phase 2+ overlay flag
+#### §5.3 Team / People (generic)
+- Members DB (universal — name / role / start date / status / contact / responsibilities)
+- Roles definitions DB (универсальный role library — НЕ привязан к 10 Jetix ролям; user define свои)
+- Per role: title / responsibilities / KPIs / decision rights / reports to
+- Org structure visualization (hierarchical OR flat OR matrix — user picks)
+- **Extension points:**
+  - "Cooperative governance — добавь Mondragón ratio enforcement + Steward role + ротация"
+  - "Traditional hierarchy — добавь reporting chains + spans of control"
+  - "Multi-hat IP-1 separation — добавь role vs person matrix (один человек = несколько ролей)"
 
-#### §5.4 Partners Network DB
-- All T1-T4 partners (full list per Platform Lifecycle §4 + 5+1 архетипов)
-- Per partner: type / status / engagement health / revenue contribution / R12 audit status / last touch / next action
-- 4 Wave 1 candidates (Maxim / Oleg / Левенчук / Цэрэн / Прапион) per IP-1 examples
-- Engagement health score formula
-- Funnel stages per Outreach Content (7 ступеней Bloom)
+#### §5.4 Projects Portfolio (generic)
+- Projects DB (universal — name / type / status / stage / owner / team / start / target end / actual end)
+- Project types library (consulting / product / research / internal / etc. — user defines)
+- High-level portfolio view (Timeline / Board by stage / by owner)
+- **Extension points:**
+  - "Если используешь Stage Gates — добавь SG-1/SG-2/SG-3/SG-4 fields + predicate fields"
+  - "Если используешь Agile/Scrum — добавь sprint / velocity / backlog"
+  - "Project-based revenue — добавь project value / margin / billed amount"
 
-#### §5.5 Cohorts Dashboard DB
-- All clans / cohorts active
-- Per cohort: stage / size / health / Charter signed count / monetization template / next milestone
-- Build-Run-Scale stage per cohort (per Platform Lifecycle Plan)
-- Cohort target ontology O-161/162 fit score
-- Recursive spawn tracking (Run+ stage)
+#### §5.5 Stakeholders / Customers / Partners (generic CRM lite)
+- Contacts DB (people + orgs — universal CRM lite, отделено от deep CRM в Layer 1+2)
+- Per contact: name / type (customer/partner/investor/advisor/vendor/etc.) / status / engagement health / last touch / next action / owner
+- Pipeline view (universal — discovery / qualification / proposal / closed)
+- Relationship map visualization
+- **Extension points:**
+  - "Если Jetix-style partner types — добавь T1/T2/T3/T4 classification"
+  - "Если sales-heavy — добавь deal stage + amount + probability"
+  - "Если cooperative cohort — добавь Charter signed flag + Mondragón role"
 
-#### §5.6 Decisions Log DB
-- All strategic decisions chain (Decision → AWAITING-APPROVAL → Ack → Execution)
-- Per entry: ID / title / date / category / owner / status / linked AWAITING-APPROVAL packet
-- 29 D-LOCK entries как baseline
-- Active AWAITING-APPROVAL queue (visual urgency)
-- F-G-R triple per major claim
+#### §5.6 Decisions Log (generic)
+- Decisions DB (universal — title / date / category / owner / status (proposed/approved/executed/rejected) / rationale / outcomes)
+- Per decision: linked stakeholders / linked projects / impact assessment
+- **Extension points:**
+  - "Если AWAITING-APPROVAL Jetix-style — добавь packet linking + Ack records + F-G-R triple"
+  - "Если RACI matrix — добавь Responsible / Accountable / Consulted / Informed"
+  - "Если board-governed — добавь board vote tracking"
 
-#### §5.7 Risk Register DB
-- R12 violations log (real-time per influence-ethics auto-fire)
-- 4 RUSLAN-LAYER action classes tracking
-- Financial risks
-- Operational risks
-- Legal/compliance risks (Steuerberater status / GmbH-UG decision pending / etc.)
-- External risks (market / regulatory)
-- Per risk: severity / likelihood / mitigation / owner / status
+#### §5.7 Risks Register (generic)
+- Risks DB (universal categories: financial / operational / legal / market / reputational / technical / people)
+- Per risk: title / category / severity (1-5) / likelihood (1-5) / score (formula) / mitigation / owner / status / review date
+- **Extension points:**
+  - "Если R12-aware (anti-extraction) — добавь R12 category + 8 paired-frame questions check"
+  - "Если ISO compliance — добавь ISO category mapping"
+  - "Если specific industry risks (healthcare/finance/etc.) — добавь sub-categories"
 
-#### §5.8 Stage Gates Dashboard DB
-- All projects / cohorts / clans с current Stage Gate
-- SG-1 / SG-2 / SG-3 / SG-4 progression
-- Per item: predicate / blockers / next gate criteria
-- Build→Run / Run→Scale gates per Platform Lifecycle Plan §8
+#### §5.8 Compliance & Legal (generic)
+- Legal entity status DB (entity type / jurisdiction / registration date / tax ID)
+- Contracts DB (per contract: party / type / start / end / value / status / renewal date)
+- Compliance checklist DB (privacy/GDPR/tax filings/insurance — universal categories)
+- **Extension points:**
+  - "Berlin/DE specific — добавь Steuerberater contact + Einzel/GmbH/UG decision tracking"
+  - "Cooperative — добавь Charter compliance + Mondragón ratio audit"
+  - "Public company — добавь SOX / SEC filings"
 
-#### §5.9 Steward Feed DB
-- All R12 escalations
-- Governance items (per Charter)
-- Conflict resolutions
-- Peer-check ротация tracking
-- Mondragón 5:1 audit results
+#### §5.9 Tools / Resources Inventory (generic)
+- Tools DB (name / purpose / category / status active/deprecated / cost / owner / usage frequency)
+- Software licenses tracking
+- Documentation links
+- **Extension points:**
+  - "Если AI-heavy ops — добавь AI tools sub-category + agent inventory"
+  - "Если remote-first — добавь collaboration tool stack"
 
-#### §5.10 External Relations DB
-- Левенчук / МИМ / Aisystant integration status
-- Vitalik / Ethereum Foundation (Phase 2+ overlay)
-- Karpathy / Anthropic (engineer-tier outreach)
-- Берлин ecosystem (Steuerberater / co-working / etc.)
-- Per relation: type / status / value flow / R12 risk
+#### §5.10 Documents / Knowledge Hub (generic)
+- Document index DB (universal — title / category / status / owner / last updated / link)
+- Categories library (executive / methodology / financial / legal / brand / operational / etc.)
+- **Extension points:**
+  - "Если wiki-based knowledge — добавь wiki concepts / sources / claims linking"
+  - "Если SOPs-heavy — добавь SOP version control"
+  - "Если client-facing docs — добавь public/private flag + sharing tracking"
 
-#### §5.11 Audit Trail DB
-- Append-only log всех decisions → AWAITING-APPROVAL → Ack → Execution
-- Provenance per F-G-R (Part 6a baseline)
-- Halt-Log-Alert events stream (F8 / F4 / F2 grade)
+#### §5.11 Executive Daily/Weekly Briefing (generic)
+- Briefing template DB — generic founder briefing structure
+- 5 generic секций:
+  - 🚨 Critical attention (≤5 items требующие решения)
+  - 📊 Health snapshot (key metrics delta — настраиваемые под бизнес)
+  - 🎯 Progress (closed / starting / blocked)
+  - 🤝 People/Stakeholders movement
+  - 💡 Strategic threads (new ideas / decisions awaiting)
+- DRAFT-only — assistant/CC предлагает, founder reviews
+- Daily / weekly / monthly cadence (user picks)
+- **Extension points:**
+  - "Если AI-assistant (Claude/etc.) — добавь auto-generated briefing pipeline"
+  - "Если team-based briefing — добавь distribution rules"
 
-#### §5.12 Compliance DB
-- Legal entity status (Einzel / GmbH / UG decision tracking)
-- Privacy / GDPR compliance
-- Tax filings (Steuerberater interactions)
-- Cooperative governance compliance (Mondragón ratio + Charter clauses)
-- Contract templates inventory
+#### §5.12 Crisis Mode Playbook (generic)
+- Crisis playbook DB — generic categories:
+  - Financial shock (revenue drop / unexpected expense / runway shortening)
+  - Key person departure
+  - Public incident / reputation crisis
+  - Legal trigger
+  - Operational outage
+- Per playbook: trigger conditions / immediate actions / escalation chain / communication template / debrief checklist
+- **Extension points:**
+  - "Если R12-governed — добавь R12 violation procedure + Steward escalation"
+  - "Если regulated industry — добавь regulator notification procedure"
 
-#### §5.13 Tools Inventory DB
-- 130+ tools/templates per TASK-A inventory
-- Per tool: name / purpose / status (active/deprecated) / usage frequency / cost / owner
-- 17 ROY agents reference
-- 54 Skills reference
+#### §5.X **Jetix-specific OPTIONAL OVERLAY** (отдельная под-секция в конце Phase 5)
 
-#### §5.14 Wiki Index High-Level DB
-- 62+ Tier A/B+ wiki concepts (links)
+> Это **OPTIONAL overlay** — если кто-то fork'ает Layer 4 base **именно для Jetix-стиля cooperative business** (anti-extraction + Mondragón + R12 + cohort + Charter). Не часть base. Это пример конкретного бизнеса.
+
+- Описать что добавляется поверх каждой generic DB §5.1-§5.12 чтобы получить Jetix-specific версию
+- R12 8 paired-frame questions integration
+- Mondragón 5:1 ratio enforcement formulas
+- Charter slot + 4 RUSLAN-LAYER action classes monitoring
+- 10 Jetix roles overlay (PM / Inv-Cap×3 / Contributor / Advisor / Facilitator / Mentor / Observer / Steward)
+- 4 monetization templates linking (стандарт / капитал / когорта €1500 / IP)
+- Stage Gates SG-1..SG-4 integration
 - 4 LOCKED canonical reference
-- 5 Research deeps reference
-- 80+ books MD'd reference
+- Programmable Ethereum Phase 2+ overlay flag
+- T1-T4 partner classification
+- Daily CC pass с Jetix-specific 5 секций + DRAFT-only enforcement
+- Per element — explicit "это добавляешь поверх generic §5.X DB, если хочешь Jetix-style"
 
-#### §5.15 Daily CC Pass (Executive briefing) — ⭐ critical feature
-- Per day: top-level briefing для founder в одном view
-- 5 секций briefing:
-  - 🚨 Critical attention (≤5 items — что требует решения сегодня)
-  - 📊 Health snapshot (Executive Dashboard delta vs yesterday)
-  - 🎯 Progress (closed yesterday / starting today / blocked)
-  - 🤝 Partners movement (new contacts / advanced funnel / churned)
-  - 💡 Strategic threads (new ideas surfaced / decisions awaiting)
-- DRAFT-only — CC предлагает, Ruslan ack'ает
-- Daily / weekly / monthly cadence options
+**§5.X — около 2-3K words. Generic base §5.1-§5.12 — около 5-6K words. Total Phase 5 ≥7-8K.**
 
-#### §5.16 Crisis Mode Playbook
-- R12 violation → procedure
-- Financial shock → procedure (revenue drop / unexpected expense)
-- Key partner departure → procedure (per fork-and-leave compliance)
-- Public incident → procedure (PR / community communication)
-- Legal trigger → procedure (Steuerberater + lawyer escalation)
+**Tone критично:** Layer 4 base **звучит как универсальный business template**, не «вот наша Jetix корпорация». Jetix overlay = вежливо упомянут как «один пример».
 
-**Phase 5 ≥7-8K words. Это самый dense раздел.**
-
-**Output:** `.../06-layer-4-business-corporate-management.md`
-**Commit:** `[notion-arch] Phase 5 Layer 4 Business/Corporate Management spec (CENTRAL)`
+**Output:** `.../06-layer-4-universal-business-foundation.md`
+**Commit:** `[notion-arch] Phase 5 Layer 4 Universal Business Foundation (fork-able generic + Jetix optional overlay)`
 
 ---
 
@@ -412,12 +440,17 @@ Use TEAM-OS-NOTION-TEMPLATE-PLAN-2026-05-24 как baseline + expand до full N
   - Layer 1: fork → copy template → adapt → use без association (полная свобода)
   - Layer 2: fork → keep Layer 1 base + adapt advanced add-ons
   - Layer 3: fork-and-leave из cohort → preserve Personal OS data + 30-day notice + asset retrieval + не-punitive
-  - Layer 4: clone Business architecture для new corporation (Mondragón pattern — много кооперативов, не одна корпорация)
-- R12 enforcement mechanics:
-  - 8 paired-frame questions integrated в monetization templates
-  - 4 RUSLAN-LAYER action classes monitored per Layer 3+4
-  - Steward audit cadence
-  - Programmable Ethereum Phase 2+ overlay (smart contract enforcement)
+  - **Layer 4: ANY founder/executive forks generic base → adapts под свой бизнес (consulting/SaaS/agency/cooperative) → optionally наслаивает Jetix overlay §5.X или свой собственный overlay** — KEY MESSAGE: Layer 4 base = универсальный, multiple overlays возможны (Jetix = только ОДИН из примеров)
+- Layer 4 fork-friendliness specifics:
+  - Generic base без brand-specific terminology
+  - Per-DB extension points explicit (что добавить под X / Y / Z кейс)
+  - Worked examples различных типов бизнеса (small consulting / mid SaaS / cooperative coop / agency)
+  - Copy instructions (как fork → workspace setup → first-week adaptation)
+- R12 enforcement mechanics (ONLY если кто-то выбирает R12-aware overlay; не enforced на generic Layer 4 base):
+  - 8 paired-frame questions integrated в monetization templates (опционально)
+  - 4 RUSLAN-LAYER action classes monitored per Layer 3+4 если R12-overlay включен
+  - Steward audit cadence (если cooperative-overlay)
+  - Programmable Ethereum Phase 2+ overlay (smart contract enforcement — opt-in)
 
 **Phase 10 ≥2-3K words.**
 
@@ -430,9 +463,10 @@ Use TEAM-OS-NOTION-TEMPLATE-PLAN-2026-05-24 как baseline + expand до full N
 
 **Tasks:**
 - Per layer — implementation roadmap:
-  - Phase implement order (Layer 1 first → Layer 2 add-ons → Layer 3 multi-tenant → Layer 4 executive)
+  - Phase implement order (Layer 1 first → Layer 2 add-ons → Layer 3 multi-tenant → Layer 4 universal foundation)
   - Per layer — какие DBs implement first (critical path)
-  - Dependencies (Layer 3 requires Layer 1; Layer 4 requires Layer 3 для full functionality, partial works на standalone)
+  - Dependencies (Layer 3 requires Layer 1; **Layer 4 standalone-capable** — любой founder может start с Layer 4 без Layer 1-3 если хочет только executive view)
+  - Layer 4 generic base FIRST → Jetix overlay (§5.X) SECOND как optional add-on
 - Build/Run/Scale alignment (per Platform Lifecycle Plan §8):
   - Build week 1-2: Layer 1 core 5 баз (для Дмитрий-trial)
   - Build week 3: Layer 4 executive minimum (для Ruslan personal use)
@@ -498,7 +532,7 @@ Consolidated suite mermaids:
   - §2 Layer 1 Personal Core (compressed из Phase 2 + full ref)
   - §3 Layer 2 Personal Expanded (compressed)
   - §4 Layer 3 Team Collaboration (compressed)
-  - §5 Layer 4 Business/Corporate Management (THE main section — ≥7-8K)
+  - §5 Layer 4 Universal Business Foundation Template (THE main section — generic base ≥5-6K + Jetix overlay §5.X ≥2-3K = total ≥7-8K)
   - §6 Cross-layer mechanics (data flows / permissions / sync / onboarding / fork-and-leave)
   - §7 Implementation roadmap + Build/Run/Scale alignment
   - §8 R12 sweep
@@ -529,7 +563,7 @@ reports/notion-templates-4-layers-architecture-2026-05-25/
 ├── 03-layer-1-personal-core.md                            # Phase 2 ≥4K
 ├── 04-layer-2-personal-expanded.md                        # Phase 3 ≥3K
 ├── 05-layer-3-team-collaboration.md                       # Phase 4 ≥5K
-├── 06-layer-4-business-corporate-management.md            # Phase 5 ≥7-8K (CENTRAL)
+├── 06-layer-4-universal-business-foundation.md            # Phase 5 ≥7-8K (CENTRAL — generic base + Jetix overlay §5.X)
 ├── 07-cross-layer-data-flows.md                           # Phase 6
 ├── 08-cross-layer-permissions.md                          # Phase 7
 ├── 09-cross-layer-sync.md                                 # Phase 8
