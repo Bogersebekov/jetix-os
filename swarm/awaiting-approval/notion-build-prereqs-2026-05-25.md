@@ -2,7 +2,7 @@
 title: AWAITING-APPROVAL — Notion Build Prerequisites (RUSLAN-ACKED VARIANT A, awaiting SSH setup)
 date: 2026-05-25
 type: prereq-gate-acked-pending-setup
-status: PREREQS-PASSED-BUILD-PROCEEDING (Phase 0 cleared 2026-05-25; see reports/notion-build-2026-05-25/00-prereqs-passed.md)
+status: BUILD-COMPLETE (all 14 phases done 2026-05-25; see decisions/strategic/NOTION-BUILD-REPORT-2026-05-25.md). ⚠️ Ruslan TODO: revoke leaked token.
 gate_class: stop_gate
 packet_id: notion-build-prereqs-2026-05-25
 authored_by: brigadier-scribe (build-engineer mode, server CC) + Cloud Cowork update
