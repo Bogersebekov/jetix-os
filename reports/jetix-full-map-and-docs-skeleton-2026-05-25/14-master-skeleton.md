@@ -251,6 +251,68 @@ graph TB
 
 ---
 
+## §5.5 Полная сетка 12×12 (сущность × категория документов)
+
+> Это развёрнутая форма JE-9: каждая клетка = документ, описывающий данную сущность в
+> данном жанре. `✅` = есть · `⚠️` = частично · `❌` = дыра · `·` = не применимо/слабая связь.
+> Колонки: Ex=Executive · Me=Methodology · Pl=Platform · Co=Community · Fi=Financial ·
+> Le=Legal · Br=Brand · Re=Research · Pa=Partner · Op=Operational · HR=HR · Ri=Risk.
+
+| Сущность \ Категория | Ex | Me | Pl | Co | Fi | Le | Br | Re | Pa | Op | HR | Ri |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 🟦 Метод | ✅ | ✅ | · | · | · | ✅ | ❌видеоA | ✅ | · | · | · | · |
+| 🛠️ Инструменты | · | ⚠️ | ⚠️ | · | · | · | · | ✅ | · | ✅ | ✅ | ✅ |
+| 🏛️ Корпорация | ✅ | ✅ | · | · | · | ✅ | · | · | · | · | ✅ | ✅ |
+| 💰 Заработок | ✅ | · | · | ⚠️ | ✅ | ⚠️ | · | · | ✅ | · | ❌ | · |
+| 🚀 Платформа | ✅ | · | ⚠️ | ⚠️ | · | · | ❌ | · | ✅ | ⚠️ | · | · |
+| 🎓 Образование | · | ⚠️ | ⚠️ | ⚠️ | ⚠️ | · | ❌видеоB | ✅ | ⚠️ | · | · | · |
+| 👥 Партнёры | ⚠️ | · | · | ⚠️ | ✅ | ❌agreement | ❌видеоC | · | ✅ | ⚠️ | ⚠️ | ⚠️ |
+| 🌐 Community | · | · | ⚠️ | ❌Charter | ⚠️ | ❌legal | · | · | ⚠️ | · | ❌handbook | ⚠️ |
+| ⚖️ R12 | · | · | · | ⚠️ | ✅5:1 | ✅ | ⚠️messaging | ✅ | ⚠️checklist | ⚠️ | ⚠️5:1 | ✅ |
+| 🎛️ Governance | ✅ | · | · | · | · | ✅SG | · | · | · | · | ⚠️ | ✅ |
+| 📚 Research | ⚠️ | ✅ | · | · | · | · | · | ✅ | · | · | · | · |
+| 🎯 Anchors | ✅D-LOCK | · | · | ⚠️ | · | ✅ | · | ✅ | · | · | · | · |
+
+**Чтение сетки:**
+- **Самые «горячие» строки (много ⚠️/❌):** Партнёры (7 ячеек активны, 3 дыры), Community
+  (4 дыры), Образование (5 ⚠️). Это outward-сущности — именно их недостаёт документально.
+- **Самые «полные» строки:** Корпорация (6 ✅), R12 (5 ✅), Метод (4 ✅). Внутренние — закрыты.
+- **Самые «горячие» колонки (где документов нет по многим сущностям):** Brand (3 ❌ — видео
+  A/B/C + brand book), Financial (invoice/contract/budget), Legal (entity/agreements/Charter).
+- **Cross-cutting клетки:** Charter одновременно живёт в Co + Le + Fi для сущностей Community/
+  Партнёры/Заработок — одна ячейка-документ закрывает несколько строк (рычаг).
+
+## §5.6 Развёрнутый инвентарь скелета по кластерам (документ → статус → сущность)
+
+### 🔵 Ядро — 14 документов
+Method V2 ✅ · meta-method ref ✅ · method HL+видео A ⚠️/❌ · FPF ✅ · SOPs ⚠️ · Hypothesis Arch
+✅ · 54 skills docs ✅ · Personal OS spec ⚠️ · Team OS spec ⚠️ · CRM ✅ · architecture diagrams
+✅ · Foundation 11 Parts ✅ · Pillar A/C ✅ · legal entity ❌. **Coverage ~80%.**
+
+### 🟢 Рост — 16 документов
+Platform roadmap ⚠️ · Personal OS implement ❌ · Workshop spec ⚠️ · feature specs ❌ ·
+changelog ✅ · Economic V10 ✅ · revenue HL ✅ · budget/runway ❌ · pricing ⚠️ · invoice ❌ ·
+contract ❌ · distribution policy ✅ · bookkeeping ❌ · 7 ступеней ✅ · course skeleton ⚠️ ·
+видео B ❌. **Coverage ~45%.**
+
+### 🟠 Люди — 18 документов
+offering ✅ · discovery script ⚠️→❌ · partner onboarding ❌ · revenue share spec ✅ ·
+triple-role ✅ · outreach package ✅ · per-tier matrix ✅ · call plan ✅ · видео C ❌ ·
+Charter v1 ❌ · CoC ❌ · cohort onboarding ❌ · cohort ontology ✅ · mentor matrix ❌ ·
+cohort calendar ❌ · membership terms ⚠️ · anti-cult doc ⚠️ · community cast ⚠️.
+**Coverage ~50%.**
+
+### 🔴 Защита + координаты — 23 документа
+default-deny ✅ · R12 log ✅ · R12 checklist ⚠️ · safety framework ✅ · audit trail ✅ ·
+privacy ❌ · risk register ⚠️ · Stage Gate records ✅ · Steward log ⚠️ · AWAITING-APPROVAL ✅ ·
+DAO governance ⚠️ · legal entity docs ❌ · Charter legal ❌ · partner agreement ❌ · IP
+licensing ❌ · Vision/FUNDAMENTAL ✅ · Strategic Plan ✅ · Execution Plan ✅ · Point A/B ✅ ·
+decisions log/D-LOCK ⚠️ · 5 research deeps ✅ · wiki ✅ · canonical INDEX ✅. **Coverage ~70%.**
+
+**Итог по кластерам:** Ядро 80% + Защита 70% (закрыты) vs Рост 45% + Люди 50% (дыры). Дыры
+**не размазаны** — они в двух outward-кластерах. Это и есть «карта работы» после фиксации:
+заполняем Рост + Люди, не трогаем Ядро + Защиту.
+
 ## §6 Что мастер-скелет говорит Руслану (R1 surface)
 
 1. **Структура для фиксации = 4 кластера × 12 сущностей + cross-cutting слой.** Это не
