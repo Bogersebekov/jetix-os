@@ -346,5 +346,124 @@
     "title": "🚀 Startup co-founders",
     "kind": "child_page",
     "parent": "36b2496333bf81aa90a8ec49d4672a01"
+  },
+  "@sentinel|layer3|intro": "done",
+  "36b2496333bf81a8857bdbb62d56bf1f|child_page|🎯 strategy (vision / mission / goals)": {
+    "id": "36b24963-33bf-81d0-9ff1-d4d35602dda6",
+    "title": "🎯 Strategy (Vision / Mission / Goals)",
+    "kind": "child_page",
+    "parent": "36b2496333bf81a8857bdbb62d56bf1f"
+  },
+  "@sentinel|layer3|strat": "done",
+  "36b2496333bf81d09ff1d4d35602dda6|child_database|🎯 strategy & goals": {
+    "id": "2d2da75a-feb8-4501-963f-9ca6232a8e4b",
+    "title": "🎯 Strategy & Goals",
+    "kind": "child_database",
+    "parent": "36b2496333bf81d09ff1d4d35602dda6",
+    "ds_id": "fa5336e8-d92a-4681-84fa-303f714657c5"
+  },
+  "36b2496333bf81a8857bdbb62d56bf1f|child_database|💰 revenue streams": {
+    "id": "0f69fdc0-cfab-44f9-a82f-219523d3383f",
+    "title": "💰 Revenue Streams",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a8857bdbb62d56bf1f",
+    "ds_id": "a33b730a-584c-4488-8b35-a74779ca763d"
+  },
+  "36b2496333bf81a8857bdbb62d56bf1f|child_database|💸 expenses": {
+    "id": "fa6a3303-6247-446c-b37b-83445bd52b98",
+    "title": "💸 Expenses",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a8857bdbb62d56bf1f",
+    "ds_id": "4ce4ac8a-6097-43fe-abd9-6af09f14b168"
+  },
+  "36b2496333bf81a8857bdbb62d56bf1f|child_database|👥 people": {
+    "id": "0e475367-f3e0-440e-a825-8a91c9db0af7",
+    "title": "👥 People",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a8857bdbb62d56bf1f",
+    "ds_id": "dbfa473e-9a09-41f2-85a1-5e131ffcd77f"
+  },
+  "36b2496333bf81a8857bdbb62d56bf1f|child_database|🎭 roles (org)": {
+    "id": "65f1334e-15d0-4bfe-9f65-cbbf49c836be",
+    "title": "🎭 Roles (org)",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a8857bdbb62d56bf1f",
+    "ds_id": "bce736a9-b2de-4085-83e7-cbdbee3cdf0f"
+  },
+  "36b2496333bf81a8857bdbb62d56bf1f|child_database|🚀 projects portfolio": {
+    "id": "90bf4fe1-3ef9-4bb4-a5bb-b5c758d2c803",
+    "title": "🚀 Projects Portfolio",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a8857bdbb62d56bf1f",
+    "ds_id": "91de3493-48ff-44e5-9f4d-429dd852a849"
+  },
+  "36b2496333bf81a8857bdbb62d56bf1f|child_database|🤝 stakeholders / crm lite": {
+    "id": "d09d07eb-e769-464f-bac9-38972eefc40d",
+    "title": "🤝 Stakeholders / CRM lite",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a8857bdbb62d56bf1f",
+    "ds_id": "428c706a-3e6b-43af-9dc1-cd7936710302"
+  },
+  "36b2496333bf81a8857bdbb62d56bf1f|child_database|⚖️ decisions log": {
+    "id": "463e52b2-deca-4405-b21a-1472bc36aaee",
+    "title": "⚖️ Decisions Log",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a8857bdbb62d56bf1f",
+    "ds_id": "2ff0dfea-9667-4e42-b21f-9f952e5cb1ef"
+  },
+  "36b2496333bf81a8857bdbb62d56bf1f|child_database|🛡️ risks register": {
+    "id": "77c936e2-fab9-4420-a58c-0337141b531f",
+    "title": "🛡️ Risks Register",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a8857bdbb62d56bf1f",
+    "ds_id": "35fa2056-c632-41cf-bc35-fefd70899638"
+  },
+  "36b2496333bf81a8857bdbb62d56bf1f|child_database|📜 compliance & legal": {
+    "id": "352f28a2-4286-4b96-9317-fcff842e494b",
+    "title": "📜 Compliance & Legal",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a8857bdbb62d56bf1f",
+    "ds_id": "c3f41028-1aff-4343-8d6f-ddae8a665152"
+  },
+  "36b2496333bf81a8857bdbb62d56bf1f|child_database|🧰 tools inventory": {
+    "id": "c7906563-4fd7-4622-bc5b-c3efa9f3ddba",
+    "title": "🧰 Tools Inventory",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a8857bdbb62d56bf1f",
+    "ds_id": "13c9831f-2703-4ac3-9466-74bb6a354bef"
+  },
+  "36b2496333bf81a8857bdbb62d56bf1f|child_database|📚 documents hub": {
+    "id": "3c5eec91-57a1-4745-91b2-77365040474f",
+    "title": "📚 Documents Hub",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a8857bdbb62d56bf1f",
+    "ds_id": "98291bd5-3eb5-4730-8058-5e020011d92b"
+  },
+  "36b2496333bf81a8857bdbb62d56bf1f|child_database|📊 executive briefing": {
+    "id": "e4e87f8f-7d1b-41ab-b63b-f5fd4a759c13",
+    "title": "📊 Executive Briefing",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a8857bdbb62d56bf1f",
+    "ds_id": "a5ab5c57-70f7-4fe3-80ff-24e84ec5a38d"
+  },
+  "36b2496333bf81a8857bdbb62d56bf1f|child_database|🚨 crisis playbooks": {
+    "id": "6e12713b-baf8-4a97-b9b8-100a39334e93",
+    "title": "🚨 Crisis Playbooks",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a8857bdbb62d56bf1f",
+    "ds_id": "14c4076f-b9d3-47e3-8e73-49230b2cb616"
+  },
+  "36b2496333bf81a8857bdbb62d56bf1f|child_database|🧪 hypotheses": {
+    "id": "883e58e9-bf24-4d87-bfb8-a6e0716ae044",
+    "title": "🧪 Hypotheses",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a8857bdbb62d56bf1f",
+    "ds_id": "7f8a2069-364e-42f9-b945-1021462928d7"
+  },
+  "36b2496333bf81a8857bdbb62d56bf1f|child_page|🔧 что можно ещё добавить": {
+    "id": "36b24963-33bf-81a0-955b-d65b31a67530",
+    "title": "🔧 Что можно ещё добавить",
+    "kind": "child_page",
+    "parent": "36b2496333bf81a8857bdbb62d56bf1f"
   }
 }
