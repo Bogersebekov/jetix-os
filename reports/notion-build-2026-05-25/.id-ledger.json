@@ -466,5 +466,11 @@
     "kind": "child_page",
     "parent": "36b2496333bf81a8857bdbb62d56bf1f"
   },
-  "@sentinel|aitools|mega-content": "done"
+  "@sentinel|aitools|mega-content": "done",
+  "36b2496333bf81a8857bdbb62d56bf1f|child_page|🔗 cross-layer connect (opt-in)": {
+    "id": "36b24963-33bf-81b6-931a-e5869cd8e108",
+    "title": "🔗 Cross-layer connect (opt-in)",
+    "kind": "child_page",
+    "parent": "36b2496333bf81a8857bdbb62d56bf1f"
+  }
 }
