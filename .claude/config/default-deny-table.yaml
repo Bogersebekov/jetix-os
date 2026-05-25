@@ -256,3 +256,56 @@ ruslan_layer_action_classes:
     parent_ack: swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md
     parent_packet_status: RUSLAN-ACKED-OPTION-D-HYBRID-2026-05-18
     implementation_phase: 2+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Notion API writes (workspace buildout) RUSLAN-LAYER action class
+# Added per Ruslan ack 2026-05-25 evening (variant A from packet — "вариант А ок давай ебаш").
+# Packet: swarm/awaiting-approval/notion-build-prereqs-2026-05-25.md
+# Status: RUSLAN-ACKED-VARIANT-A-2026-05-25
+#
+# Constitutional preservation:
+# - Tier 2 rules LOCKED 2026-05-12 = UNCHANGED
+# - foundation_generic count = 12 = UNCHANGED
+# - This action class = RUSLAN-LAYER overlay (instance-specific, not Foundation generic)
+# - NOT counted in sync_invariant_count above
+# - Sterile shell invariant per prompt §0 (zero existing data migration)
+# ─────────────────────────────────────────────────────────────────────────────
+
+  - action_class: notion_api_writes_workspace_buildout
+    trigger: "Massive create/update operations on external Notion workspace via scoped integration token (parent-page-bounded). Templates/dashboard buildout. First-time R11 novel action class for external service writes."
+    enforcement: pre_authorized_iff_in_scope
+    fail_mode: halt_log_alert
+    grade: F4  # Medium-High blast radius (external service writes); not F8 (not Foundation modification)
+    pre_authorization_conditions:
+      - integration_token_scoped_to_single_parent_page: true   # §0 sterile-shell invariant
+      - ruslan_ack_packet: notion-build-prereqs-2026-05-25
+      - idempotent_design: true        # re-run safe (existence-check by name+parent)
+      - markdown_mirror_parallel: true # filesystem = source of truth (Pillar C Tier 2 §4.2)
+      - zero_existing_data_read: true  # НЕ читать/migrate/link существующую Ruslan Notion систему
+      - api_token_env_var_only: true   # NEVER в файл / commit / log (Pillar C Tier 2 Rule 6)
+      - integration_permission_verified: true  # Phase 0 prereq check passed (throwaway create+delete test)
+    halt_on:
+      - read_attempt_outside_parent_page    # → HALT-LOG-ALERT F4 ≤5s + STOP
+      - sample_real_data_populate            # только placeholder text типа "пример: Project Alpha"
+      - api_token_written_to_file_or_commit
+      - existing_ruslan_notion_id_referenced  # Command Center / Daily Log DB / Projects / etc. — НЕ ТРОГАТЬ
+      - non_idempotent_operation_attempted   # должно быть re-run safe
+    fail_actions:
+      - emit_health_signal: notion_build_scope_violation
+      - emit_awaiting_approval_packet: true
+      - revert_partial_creates: best_effort  # cleanup attempt если возможно
+    rationale: |
+      First massive Notion API write run. Builds templates/dashboard для будущих fork'ов
+      (партнёры / cohort / businesses) в OTDELЬНОЙ parent page. Zero migration из существующей
+      Ruslan Notion системы — sterile shell only. Integration scope hardware-enforced
+      (token имеет access ТОЛЬКО к parent page). Markdown mirror parallel сохраняется в
+      reports/notion-build-2026-05-25/notion-mirror/ — filesystem остаётся source of truth.
+      Idempotent design: re-run safe (existence-check by name+parent → update vs create).
+      R12 paired-frame STRICT на Layer 2 Jetix overlay + ALL user-facing copy
+      (influence-ethics + recruitment-dynamics + nlp + propaganda + gamification AUTO-FIRE).
+    added_date: 2026-05-25
+    parent_ack: swarm/awaiting-approval/notion-build-prereqs-2026-05-25.md
+    parent_packet_status: RUSLAN-ACKED-VARIANT-A-2026-05-25
+    parent_prompt: prompts/notion-build-templates-dashboard-on-server-2026-05-25.md
+    parent_spec: decisions/strategic/NOTION-TEMPLATES-3-LAYERS-ARCHITECTURE-V2-2026-05-25.md
+    implementation_phase: 1 (Build stage — templates implementation)
