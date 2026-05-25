@@ -1,30 +1,37 @@
 ---
-title: AWAITING-APPROVAL — Notion Build Prerequisites NOT MET (Phase 0 STOP gate)
+title: AWAITING-APPROVAL — Notion Build Prerequisites (RUSLAN-ACKED VARIANT A, awaiting SSH setup)
 date: 2026-05-25
-type: prereq-gate-stop-packet
-status: AWAITING-RUSLAN-PREREQ-SETUP
+type: prereq-gate-acked-pending-setup
+status: RUSLAN-ACKED-VARIANT-A-AWAITING-SSH-ENV-SETUP
 gate_class: stop_gate
 packet_id: notion-build-prereqs-2026-05-25
-authored_by: brigadier-scribe (build-engineer mode, server CC)
+authored_by: brigadier-scribe (build-engineer mode, server CC) + Cloud Cowork update
 prose_authored_by: ai-draft (surface-only — R1 build log, не strategic prose)
 parent_prompt: prompts/notion-build-templates-dashboard-on-server-2026-05-25.md
 parent_spec: decisions/strategic/NOTION-TEMPLATES-3-LAYERS-ARCHITECTURE-V2-2026-05-25.md
 blast_radius: Medium-High (external service writes — Notion API) — gated, NOT executed
 action_class: notion_api_writes_workspace_buildout
 F: F2
-G: prereq-gate-stop
+G: prereq-gate-acked-pending-setup
 R: refuted_if_writes_executed_before_prereqs_met
 ack_required: true
 ack_owner: ruslan
-constitutional_posture: R11 NOVEL ACTION CLASS gate + R2 STRICT + Default-Deny + ZERO-DATA-MIGRATION (§0)
-recommendation: COMPLETE-PREREQS-THEN-RELAUNCH
+ruslan_ack_received: 2026-05-25 evening "вариант А ок давай ебаш"
+ruslan_ack_method: chat
+constitutional_posture: R11 NOVEL ACTION CLASS gated → ACKED + R2 STRICT + Default-Deny + ZERO-DATA-MIGRATION (§0) preserved
+recommendation: COMPLETE-SSH-SETUP-THEN-RELAUNCH (Ruslan responsible for env vars on server)
 prereq_summary:
-  notion_api_token_env: MISSING
-  notion_jetix_parent_page_id_env: MISSING
-  notion_client_package: NOT_INSTALLED
+  r11_action_class_registered: YES (commit b2f10ad — .claude/config/default-deny-table.yaml updated)
+  ruslan_acked_variant_a: YES
+  notion_integration_created: YES (Ruslan confirmed — token shared in chat)
+  notion_parent_page_created: PARTIAL (Ruslan provided URL https://www.notion.so/Jetix-OS-36b2496333bf8033b860c9e7adbde920 — name "Jetix OS"; STERILE SHELL VERIFICATION REQUIRED — page must be empty new page, NOT existing Ruslan workspace)
+  parent_page_id_extracted: 36b2496333bf8033b860c9e7adbde920 (32 hex chars ✓)
+  notion_api_token_env: NOT_YET_SET (Ruslan SSH command needed)
+  notion_jetix_parent_page_id_env: NOT_YET_SET (Ruslan SSH command needed)
+  notion_client_package: NOT_YET_INSTALLED (Ruslan pip install needed OR Phase 0 auto-install)
   notion_arch_v2_spec: PRESENT
-  r11_action_class_registered: NO
-result: STOP — 3 of 4 hard prerequisites unmet; zero Notion write operations performed
+  token_security_advisory: TOKEN_LEAKED_IN_CHAT_HISTORY — Ruslan must revoke + create new integration AFTER build completes
+result: ACKED variant A — pending Ruslan SSH env setup + sterile shell verification → re-launch
 ---
 
 # 🛑 Notion Build — Phase 0 STOP: prerequisites NOT met
