@@ -176,5 +176,20 @@
     "kind": "child_page",
     "parent": "36b2496333bf8115999afa23e977008c"
   },
-  "@sentinel|layer1|views-guide": "done"
+  "@sentinel|layer1|views-guide": "done",
+  "@sentinel|layer2|intro": "done",
+  "36b2496333bf81cb8466fade7c15ca01|child_page|🌐 generic team collaboration": {
+    "id": "36b24963-33bf-81a9-819f-db2b04cfd19c",
+    "title": "🌐 Generic Team Collaboration",
+    "kind": "child_page",
+    "parent": "36b2496333bf81cb8466fade7c15ca01"
+  },
+  "@sentinel|layer2|a-intro": "done",
+  "36b2496333bf81a9819fdb2b04cfd19c|child_database|👥 members": {
+    "id": "6689af0d-383c-4709-aca7-2eaf9f04be72",
+    "title": "👥 Members",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a9819fdb2b04cfd19c",
+    "ds_id": "39501c8f-d68b-45a7-8c10-271f20cacf96"
+  }
 }
