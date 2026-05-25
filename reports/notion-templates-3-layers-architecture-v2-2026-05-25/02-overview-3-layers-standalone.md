@@ -134,7 +134,7 @@ flowchart TB
     end
 
     subgraph L1["🟢 Layer 1 — Personal Core (STANDALONE ✅)"]
-        L1D["~8 упрощённых баз + Daily Log + Reviews + Strategic sub<br/>любой человек · форк ≤30 мин"]
+        L1D["~10 упрощённых баз + Daily Log + Reviews + Strategic sub<br/>любой человек · форк ≤30 мин"]
     end
 
     L1 -. "fast-connect (opt-in)" .-> L3

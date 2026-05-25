@@ -41,7 +41,7 @@ flowchart TB
         L2D["Generic + Jetix overlay (отдельно) + Brand pattern · команда · baseline за день"]
     end
     subgraph L1["🟢 Layer 1 — Personal Core (STANDALONE ✅)"]
-        L1D["~8 упрощённых баз + Daily Log + Reviews + Strategic sub · ≤30 мин"]
+        L1D["~10 упрощённых баз + Daily Log + Reviews + Strategic sub · ≤30 мин"]
     end
     L1 -. "fast-connect opt-in" .-> L3
     L1 -. "fast-connect opt-in" .-> L2
@@ -279,7 +279,7 @@ flowchart TB
         CTOOL["capture · visualize · synthesize · coordinate"]
     end
     subgraph L1["🟢 L1 Personal Core — любой человек · ≤30 мин"]
-        L1c["~8 баз + Daily Log + Reviews + Strategic sub"]
+        L1c["~10 баз + Daily Log + Reviews + Strategic sub"]
     end
     subgraph L2["🔵 L2 Team Collaboration — команда · baseline за день"]
         L2g["Generic baseline (clean)"]

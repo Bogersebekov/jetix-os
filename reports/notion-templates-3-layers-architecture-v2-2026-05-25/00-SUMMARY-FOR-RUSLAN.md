@@ -32,8 +32,9 @@ language: russian primary
 - Было 4 слоя лестницей → стало **3 standalone-слоя** (Personal Expanded удалён, уйдёт в
   отдельный «инструменты + skills» слой в другой итерации).
 - Шаблоны срезаны до **минимума полей** + sidebar «🔧 что можно добавить» (вместо 50 полей на базу).
-- L1 усилен: Daily Log (цель/факт/deep work/тип дня + шаблон дня + wrap-of-day) + Strategic
-  под-раздел (Vision + Goals-как-документ) + Weekly/Monthly ревью + «посмотреть позже» в Knowledge.
+- L1 усилен: Daily Log (цель/факт/deep work/тип дня + привычки дня + шаблон дня + wrap-of-day) +
+  новая база **Habits** (привычки + отметка дня + streak) + Strategic под-раздел (Vision +
+  Goals-как-документ) + Weekly/Monthly ревью + «посмотреть позже» в Knowledge.
 - L2: **Generic baseline отдельно от Jetix overlay** + Brand pattern (блогер/корпорация/стартап).
 - L3: упрощён + Hypotheses DB + Vision/Mission/Goals страницы; **Jetix overlay deferred** (next iteration).
 

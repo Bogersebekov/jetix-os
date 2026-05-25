@@ -67,7 +67,7 @@ FPF (Foundational Practices Framework, конституционная спека
 **3 слоя как системы:**
 
 - **Layer 1 Personal Core** — одно-агентная система: человек + Claude Code как помощник. Контур
-  замкнут на одном. Артефакты: ~8 баз (упрощённых). Роль одна (владелец). **Standalone.**
+  замкнут на одном. Артефакты: ~10 баз (упрощённых). Роль одна (владелец). **Standalone.**
 - **Layer 2 Team Collaboration** — мульти-агентная система: N людей в общем workspace. Generic
   baseline (абстрактные слоты ролей) + Jetix overlay (10 ролей + R12 + Mondragón) **отдельным
   fork-able template**. **Standalone** (любая команда без Personal OS под капотом).
