@@ -47,55 +47,64 @@
     "id": "03c99234-53af-4358-bfdd-afa19eaa24e9",
     "title": "🚀 Projects",
     "kind": "child_database",
-    "parent": "36b2496333bf8115999afa23e977008c"
+    "parent": "36b2496333bf8115999afa23e977008c",
+    "ds_id": "7fcf811a-6b82-4f01-b69c-52c475a47a02"
   },
   "36b2496333bf8115999afa23e977008c|child_database|✅ tasks": {
     "id": "60323d4e-7e1c-4562-93af-afa847e4a01e",
     "title": "✅ Tasks",
     "kind": "child_database",
-    "parent": "36b2496333bf8115999afa23e977008c"
+    "parent": "36b2496333bf8115999afa23e977008c",
+    "ds_id": "6e5f78f7-9962-408b-868f-c4619dddf20c"
   },
   "36b2496333bf8115999afa23e977008c|child_database|💡 ideas": {
     "id": "a01a1efc-6f6a-4c1f-9ee3-b165dc1a2a55",
     "title": "💡 Ideas",
     "kind": "child_database",
-    "parent": "36b2496333bf8115999afa23e977008c"
+    "parent": "36b2496333bf8115999afa23e977008c",
+    "ds_id": "a1aa4aad-426c-46d5-ad31-585817ae37d4"
   },
   "36b2496333bf8115999afa23e977008c|child_database|🤝 contacts": {
     "id": "71c29ed0-17f4-49e0-94b7-925cd5afc490",
     "title": "🤝 Contacts",
     "kind": "child_database",
-    "parent": "36b2496333bf8115999afa23e977008c"
+    "parent": "36b2496333bf8115999afa23e977008c",
+    "ds_id": "c2616106-b31c-46a1-b215-c0c99a8a3e6f"
   },
   "36b2496333bf8115999afa23e977008c|child_database|📚 knowledge": {
     "id": "0c385b52-024a-4f07-8961-7b62a727ed87",
     "title": "📚 Knowledge",
     "kind": "child_database",
-    "parent": "36b2496333bf8115999afa23e977008c"
+    "parent": "36b2496333bf8115999afa23e977008c",
+    "ds_id": "d7359470-9553-4da1-91a0-404de5ea26ef"
   },
   "36b2496333bf8115999afa23e977008c|child_database|❓ hypotheses": {
     "id": "878e17b3-b26b-464e-bccb-9b5b0abdd791",
     "title": "❓ Hypotheses",
     "kind": "child_database",
-    "parent": "36b2496333bf8115999afa23e977008c"
+    "parent": "36b2496333bf8115999afa23e977008c",
+    "ds_id": "6db87af0-44a0-4674-9685-9a2078b46f9e"
   },
   "36b2496333bf8115999afa23e977008c|child_database|❤️ life pulse": {
     "id": "58638a56-33d0-4b20-83d1-4405bb614958",
     "title": "❤️ Life Pulse",
     "kind": "child_database",
-    "parent": "36b2496333bf8115999afa23e977008c"
+    "parent": "36b2496333bf8115999afa23e977008c",
+    "ds_id": "6eb61e57-86a9-4516-a38b-83b94fd0dd03"
   },
   "36b2496333bf8115999afa23e977008c|child_database|🔁 habits": {
     "id": "7908e3d1-6c00-4d6f-93ce-3a55869f50f7",
     "title": "🔁 Habits",
     "kind": "child_database",
-    "parent": "36b2496333bf8115999afa23e977008c"
+    "parent": "36b2496333bf8115999afa23e977008c",
+    "ds_id": "3f52e45a-192a-4c67-b3ed-523697ee8f77"
   },
   "36b2496333bf8115999afa23e977008c|child_database|💰 финансы": {
     "id": "e72fab80-1bd6-4a0b-a61b-e577951ee777",
     "title": "💰 Финансы",
     "kind": "child_database",
-    "parent": "36b2496333bf8115999afa23e977008c"
+    "parent": "36b2496333bf8115999afa23e977008c",
+    "ds_id": "4c30735f-0918-4c31-9ab5-c425cb6490a7"
   },
   "36b2496333bf8115999afa23e977008c|child_page|🧭 стратегия": {
     "id": "36b24963-33bf-8157-abff-fcd54d489989",
@@ -133,7 +142,8 @@
     "id": "00d45861-6ea7-43c4-a11b-7c870c8b45ad",
     "title": "🎯 Goals",
     "kind": "child_database",
-    "parent": "36b2496333bf811f9b63de63b0da0cb1"
+    "parent": "36b2496333bf811f9b63de63b0da0cb1",
+    "ds_id": "5b0ab436-4c82-47b4-bfea-0a86edccda1f"
   },
   "36b2496333bf8115999afa23e977008c|child_page|🔄 шаблоны ревью": {
     "id": "36b24963-33bf-8180-88ef-cb41edeb84ea",
