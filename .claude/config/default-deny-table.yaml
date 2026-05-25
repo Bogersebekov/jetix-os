@@ -188,6 +188,43 @@ ruslan_layer_action_classes:
     parent_packet_status: RUSLAN-ACKED-OPTION-D-HYBRID-2026-05-18
     implementation_phase: 2+ (Ethereum overlay; per-Clan opt-in)
 
+  # ───────────────────────────────────────────────────────────────────────────
+  # R11 novel action class — Notion API workspace buildout (external service writes).
+  # Added per Ruslan re-launch ack 2026-05-25 (variant A of prereqs packet §4).
+  # Packet: swarm/awaiting-approval/notion-build-prereqs-2026-05-25.md
+  # NOT counted in sync_invariant_count above (operational/external, not foundation_generic).
+  # ───────────────────────────────────────────────────────────────────────────
+
+  - action_class: notion_api_writes_workspace_buildout
+    trigger: "Massive create/update operations on external Notion workspace via scoped integration token (parent-page-bounded). Templates/dashboard buildout."
+    enforcement: pre_authorized_iff_in_scope
+    fail_mode: halt_log_alert
+    grade: F4  # external service writes (NOT Foundation modification); blast_radius medium-high
+    blast_radius: medium-high
+    pre_authorization_conditions:
+      - integration_token_scoped_to_single_parent_page: true   # §0 sterile-shell invariant
+      - ruslan_ack_packet: notion-build-prereqs-2026-05-25
+      - idempotent_design: true        # re-run safe (existence-check by name+parent)
+      - markdown_mirror_parallel: true # filesystem = source of truth
+      - zero_existing_data_read: true  # do NOT read/migrate/link existing Ruslan system
+    halt_on:
+      - read_attempt_outside_parent_page    # → HALT-LOG-ALERT F4 ≤5s + STOP
+      - parent_page_has_existing_content     # §0 sterile-shell breach → STOP + AWAITING-APPROVAL
+      - sample_real_data_populate            # placeholder text only
+      - api_token_written_to_file_or_commit
+    fail_actions:
+      - emit_health_signal: notion_buildout_scope_violation
+      - emit_awaiting_approval_packet: true
+    rationale: |
+      First-time massive Notion API write run (R11 Default-Deny novel action class).
+      Pre-authorized only within scoped parent page + sterile-shell invariant (§0 of
+      prompt notion-build-templates-dashboard-on-server-2026-05-25). Any read/link/migrate
+      of existing Ruslan Notion system OR non-empty parent page = hard STOP.
+    added_date: 2026-05-25
+    parent_prompt: prompts/notion-build-templates-dashboard-on-server-2026-05-25.md
+    parent_ack: swarm/awaiting-approval/notion-build-prereqs-2026-05-25.md
+    parent_packet_status: RUSLAN-ACKED-VARIANT-A-RELAUNCH-2026-05-25
+
   - action_class: wage_ratio_violation
     trigger: "Workshop revenue distribution OR Clan treasury allocation produces max-share/min-share > configured ratio cap (Mondragón 3:1 → 9:1 range; 5:1 default per direction 06)"
     enforcement: halt_log_alert
