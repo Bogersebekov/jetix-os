@@ -472,5 +472,6 @@
     "title": "🔗 Cross-layer connect (opt-in)",
     "kind": "child_page",
     "parent": "36b2496333bf81a8857bdbb62d56bf1f"
-  }
+  },
+  "@sentinel|dashboard|dashboard-content": "done"
 }
