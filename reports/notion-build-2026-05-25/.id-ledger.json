@@ -1,0 +1,38 @@
+{
+  "36b2496333bf8033b860c9e7adbde920|child_page|📊 master dashboard": {
+    "id": "36b24963-33bf-8157-8f7f-e42ae7b26f12",
+    "title": "📊 Master Dashboard",
+    "kind": "child_page",
+    "parent": "36b2496333bf8033b860c9e7adbde920"
+  },
+  "36b2496333bf8033b860c9e7adbde920|child_page|🟢 layer 1 — personal core": {
+    "id": "36b24963-33bf-8115-999a-fa23e977008c",
+    "title": "🟢 Layer 1 — Personal Core",
+    "kind": "child_page",
+    "parent": "36b2496333bf8033b860c9e7adbde920"
+  },
+  "36b2496333bf8033b860c9e7adbde920|child_page|🔵 layer 2 — team collaboration": {
+    "id": "36b24963-33bf-81cb-8466-fade7c15ca01",
+    "title": "🔵 Layer 2 — Team Collaboration",
+    "kind": "child_page",
+    "parent": "36b2496333bf8033b860c9e7adbde920"
+  },
+  "36b2496333bf8033b860c9e7adbde920|child_page|🟠 layer 3 — universal business foundation": {
+    "id": "36b24963-33bf-81a8-857b-dbb62d56bf1f",
+    "title": "🟠 Layer 3 — Universal Business Foundation",
+    "kind": "child_page",
+    "parent": "36b2496333bf8033b860c9e7adbde920"
+  },
+  "36b2496333bf8033b860c9e7adbde920|child_page|🤖 ai tools & lifehacks": {
+    "id": "36b24963-33bf-8159-b322-f0770182d343",
+    "title": "🤖 AI Tools & Lifehacks",
+    "kind": "child_page",
+    "parent": "36b2496333bf8033b860c9e7adbde920"
+  },
+  "36b2496333bf8033b860c9e7adbde920|child_page|📖 onboarding & help": {
+    "id": "36b24963-33bf-81fe-88e7-c0e783d89a95",
+    "title": "📖 Onboarding & Help",
+    "kind": "child_page",
+    "parent": "36b2496333bf8033b860c9e7adbde920"
+  }
+}
