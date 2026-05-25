@@ -580,6 +580,157 @@ Strategy получает stage-field Build/Run/Scale (Platform Lifecycle Plan):
 
 ---
 
+## §5.14 Relations graph Layer 4 (как 12 групп связаны)
+
+Layer 4 — это не 12 изолированных баз, а **связанный граф**: founder получает силу не от
+отдельных таблиц, а от relations между ними (rollup'ы текут по связям в брифинг §5.11). Полная
+карта связей — что куда ссылается:
+
+```
+Goals (§5.1) ──linked projects──> Projects (§5.4) ──owner/team──> People (§5.3) ──role──> Roles
+   │                                   │                              │
+   │ owner                             │ project value (ext)          │ comp band
+   ▼                                   ▼                              ▼
+People (§5.3)                    Revenue/Expenses (§5.2) ◄──vendor/customer── Stakeholders (§5.5)
+   │                                   │                              │
+   │ reports-to                        │ runway formula               │ linked projects
+   ▼                                   ▼                              ▼
+Org chart                        Briefing (§5.11) ◄── rollups from all ──> Decisions (§5.6)
+                                       ▲                                        │
+Risks (§5.7) ──owner──> People         │ critical attention                    │ linked
+Contracts (§5.8) ──party──> Stakeholders  ──expiring feed──┘            Projects/Stakeholders
+Tools (§5.9) ──cost──> Expenses (§5.2)        Documents (§5.10) ──category──> all groups
+Crisis (§5.12) ──escalation──> People
+```
+
+**Ключевые связи, которые делают Layer 4 «живым»:**
+
+| Связь | Откуда → Куда | Что даёт founder'у |
+|---|---|---|
+| Goals → Projects | §5.1 → §5.4 | видно, какие проекты служат какой цели (и какие цели «голые», без проектов) |
+| Projects → People | §5.4 → §5.3 | загрузка людей (кто на скольких проектах = риск выгорания) |
+| Tools → Expenses | §5.9 → §5.2 | стоимость инструментов автоматически в burn (cost rollup) |
+| Contracts → Stakeholders | §5.8 → §5.5 | какой клиент/вендор по какому договору, когда истекает |
+| Risks → People | §5.7 → §5.3 | у каждого риска есть owner (нет «ничьих» рисков) |
+| ВСЕ → Briefing | * → §5.11 | rollup'ы сворачиваются в 5 секций брифинга (главный поток внимания) |
+| Decisions → Projects/Stakeholders | §5.6 → §5.4/§5.5 | решение привязано к тому, на что влияет (трассируемость) |
+
+**Принцип проектирования (engineering-expert lens):** связи **однонаправленные по смыслу** (Goal
+владеет Project'ами, не наоборот), но Notion делает их 2-сторонними автоматически — это даёт
+обратную навигацию без дублирования. Rollup'ы идут только «снизу вверх» в брифинг, чтобы не
+создавать циклов пересчёта.
+
+---
+
+## §5.15 Библиотека паттернов формул Layer 4 (formula cookbook)
+
+Generic паттерны (НЕ реальные значения — шаблоны, которые founder адаптирует под свои числа). Это
+делает дашборд «самосчитающимся».
+
+| Паттерн | Где | Логика (псевдо-Notion) |
+|---|---|---|
+| **Runway months** | §5.2 | `prop("Current cash") / prop("Monthly burn")` → 🔴 если `< 3` |
+| **Goal health** | §5.1 | `if(progress >= expected_by_now, "🟢", if(progress >= expected*0.7, "🟡", "🔴"))` где `expected_by_now = days_elapsed/days_total` |
+| **Project health** | §5.4 | сравнение `Actual end vs Target end` + бюджет → 🟢🟡🔴 |
+| **Risk score** | §5.7 | `Severity * Likelihood` → priority bucket |
+| **Days since touch** | §5.5 | `dateBetween(now(), prop("Last touch"), "days")` → follow-up flag `> N` |
+| **Contract expiring** | §5.8 | `dateBetween(prop("Renewal date"), now(), "days") <= 30` → 🔔 |
+| **Invoice overdue** | §5.2 | `and(prop("Due") < now(), prop("Status") != "paid")` → ⚠️ |
+| **Tool underused** | §5.9 | `and(prop("Usage") == "rare", prop("Cost") > 0)` → кандидат на отмену |
+| **Decision awaiting review** | §5.6 | `and(prop("Review date") <= now(), empty(prop("Outcome")))` |
+| **People overload** | §5.3/§5.4 | rollup `count(active projects per person) > N` → 🔴 |
+| **Stale document** | §5.10 | `dateBetween(now(), prop("Last updated"), "days") > 180` |
+| **Budget variance** | §5.2 | `(prop("Actual") - prop("Planned")) / prop("Planned") * 100` |
+
+**Jetix-overlay добавляет (§5.X):** Mondragón ratio (`max(comp)/min(comp) > 5 → HALT`), R12 8-Q
+gate (все ✅ → pass), SG predicate (все условия стадии истинны → переход).
+
+---
+
+## §5.16 View cookbook Layer 4 (готовые срезы для founder)
+
+Готовый набор видов, который превращает базы в управляемый дашборд. Каждый — это сохранённый
+filter+sort+group, встроенный в Executive Command Center (§5.13).
+
+**Daily founder views (что founder смотрит каждый день):**
+- 🚨 **Critical today** — объединённый: at-risk goals + overdue invoices + high-priority open
+  risks + expiring contracts ≤7д (через §5.11 брифинг).
+- 🟢 **Runway gauge** — одно число + цвет (месяцев осталось).
+- 📋 **Active projects board** — kanban по stage, цвет по health.
+
+**Weekly review views:**
+- 📊 **P&L this month** — revenue group by stream vs expenses group by category.
+- 🎯 **Goals progress** — все цели с progress bar + health.
+- 🤝 **Pipeline movement** — stakeholders по pipeline stage, delta за неделю.
+- ⚖️ **Decisions to review** — решения, у которых наступил Review date.
+
+**Monthly/strategic views:**
+- 🛡️ **Risk heat** — risks sort by score, group by category.
+- 👥 **Team load** — people с rollup числа активных проектов.
+- 🧰 **Tool spend audit** — tools by cost, флаг underused.
+- 📚 **Doc freshness** — documents sort by last-updated, флаг stale.
+
+**Принцип (mgmt-expert lens):** views расслоены по каденсу внимания founder (daily / weekly /
+monthly) — это переносит «attention budget» Foundation в executive-контекст. Founder не тонет в
+12 базах; он смотрит 3 вида утром, 4 на недельном ревью, 4 на месячном.
+
+---
+
+## §5.17 Standalone setup path (founder за 2-3 часа)
+
+Конкретный путь, как founder любого бизнеса разворачивает Layer 4 minimum **без** Layer 1-3:
+
+| Шаг | Время | Что |
+|---|---|---|
+| 1 | 20 мин | дублировать Layer 4 template-воркспейс, переименовать под свой бизнес |
+| 2 | 30 мин | §5.1 — записать vision + 3-5 текущих целей с метриками |
+| 3 | 40 мин | §5.2 — завести Current cash + recurring expenses → runway считается сам |
+| 4 | 30 мин | §5.4 — внести активные проекты + owner'ов |
+| 5 | 20 мин | §5.5 — топ-10 стейкхолдеров (клиенты/партнёры) |
+| 6 | 20 мин | §5.13 — собрать Executive Command Center из linked views |
+| 7 | 10 мин | §5.11 — настроить первый weekly briefing template |
+
+**Итого ~2.5 часа → рабочий executive dashboard.** Остальные группы (§5.6-§5.10, §5.12)
+наслаиваются по мере роста: Risks/Legal — когда появляются договоры; Crisis — когда команда >5;
+Decisions — сразу, если важна институциональная память.
+
+**Когда добавлять Layer 3 снизу:** если у founder появляется команда с общим котлом — он
+разворачивает Layer 3 (Team Collab), и §5.4 Projects начинает агрегировать когорты снизу
+(Team → Business rollup, Phase 6). Layer 4 был standalone, стал вершиной стека.
+
+---
+
+## §5.18 Extended worked examples (4 типа бизнеса, чуть глубже)
+
+> Описания применения generic base разными бизнесами (НЕ sample records).
+
+**🔹 Консалтинг-бутик (Анна, 2 человека).** Включает §5.1 (квартальные цели по выручке) + §5.2
+(invoices + runway, project-based revenue extension) + §5.4 (каждый клиентский проект с project
+value + margin) + §5.5 (pipeline сделок, deal-stage extension) + §5.11 (weekly briefing). Не
+включает: §5.3 (org — их двое), Jetix-overlay (нет кооператива). Главная польза: runway gauge +
+pipeline forecast в одном месте.
+
+**🔹 SaaS-стартап (15 человек, VC-funded).** §5.1 (OKR extension — Objectives + KR) + §5.2
+(subscription revenue + cap table extension + multi-currency) + §5.3 (hierarchy, reports-to chains)
++ §5.4 (product projects, sprint extension) + §5.7 (risks) + §5.9 (tools seat tracking). Overlay:
+**VC-overlay** (board vote tracking в §5.6, investor reporting) — НЕ Jetix-overlay. Польза: board
+deck собирается из §5.1 + §5.2 rollups.
+
+**🔹 Кооператив (ближайший к Jetix кейс).** Generic base + **Jetix-overlay §5.X** (Mondragón 5:1
+в §5.2, R12 8-Q в §5.7, Charter в §5.8, 10 ролей в §5.3, Steward escalation в §5.12). Это
+показывает, что Jetix — частный инстанс: тот же скелет + специфический overlay.
+
+**🔹 Креативное агентство (8 человек).** §5.4 (проекты-кампании, kanban по stage) + §5.5 (клиенты
++ ретейнеры) + §5.2 (project margin) + §5.3 (matrix org — люди на нескольких проектах, IP-1
+role-vs-person) + §5.10 (brand assets docs). Overlay: свой **agency-overlay** (utilization rate
+formula). Польза: видно загрузку людей (People overload formula) — главная боль агентства.
+
+**Вывод:** один generic skeleton → 4 разных бизнеса, различие только в (а) включённых extension
+points и (б) наслоенном overlay (Jetix / VC / agency / none). Это операционное доказательство
+fork-ability Layer 4.
+
+---
+
 ## §7 Constitutional posture Phase 5
 
 - **R1 surface only** — какие из 12 групп ядро vs опц, какие extension включить, Jetix-overlay
