@@ -2,7 +2,7 @@
 title: AWAITING-APPROVAL — Notion Build Prerequisites (RUSLAN-ACKED VARIANT A, awaiting SSH setup)
 date: 2026-05-25
 type: prereq-gate-acked-pending-setup
-status: RUSLAN-ACKED-VARIANT-A-AWAITING-SSH-ENV-SETUP
+status: PREREQS-PASSED-BUILD-PROCEEDING (Phase 0 cleared 2026-05-25; see reports/notion-build-2026-05-25/00-prereqs-passed.md)
 gate_class: stop_gate
 packet_id: notion-build-prereqs-2026-05-25
 authored_by: brigadier-scribe (build-engineer mode, server CC) + Cloud Cowork update
@@ -26,12 +26,13 @@ prereq_summary:
   notion_integration_created: YES (Ruslan confirmed — token shared in chat)
   notion_parent_page_created: PARTIAL (Ruslan provided URL https://www.notion.so/Jetix-OS-36b2496333bf8033b860c9e7adbde920 — name "Jetix OS"; STERILE SHELL VERIFICATION REQUIRED — page must be empty new page, NOT existing Ruslan workspace)
   parent_page_id_extracted: 36b2496333bf8033b860c9e7adbde920 (32 hex chars ✓)
-  notion_api_token_env: NOT_YET_SET (Ruslan SSH command needed)
-  notion_jetix_parent_page_id_env: NOT_YET_SET (Ruslan SSH command needed)
-  notion_client_package: NOT_YET_INSTALLED (Ruslan pip install needed OR Phase 0 auto-install)
+  notion_api_token_env: SET (sourced from ~/.bashrc; prefix ntn_; never written to repo)
+  notion_jetix_parent_page_id_env: SET (36b2496333bf8033b860c9e7adbde920; 32 hex ✓)
+  notion_client_package: INSTALLED (v3.1.0)
   notion_arch_v2_spec: PRESENT
-  token_security_advisory: TOKEN_LEAKED_IN_CHAT_HISTORY — Ruslan must revoke + create new integration AFTER build completes
-result: ACKED variant A — pending Ruslan SSH env setup + sterile shell verification → re-launch
+  sterility_verified: STERILE (parent page "Jetix OS" has 1 empty paragraph only; zero real content; ID ≠ any real Ruslan page) — Phase 0 PASS
+  token_security_advisory: TOKEN_LEAKED_IN_CHAT_HISTORY — Ruslan must revoke + create new integration AFTER build completes (carried to Phase 13 next-steps)
+result: PREREQS PASSED — sterility confirmed — build proceeding Phase 1→13
 ---
 
 # 🛑 Notion Build — Phase 0 STOP: prerequisites NOT met
