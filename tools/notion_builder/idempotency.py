@@ -46,15 +46,38 @@ class Ledger:
         rec = self.data.get(self.key(parent_id, title, kind))
         return rec.get("id") if rec else None
 
-    def put(self, parent_id: str, title: str, kind: str, obj_id: str) -> None:
-        self.data[self.key(parent_id, title, kind)] = {
-            "id": obj_id, "title": title, "kind": kind, "parent": parent_id.replace("-", ""),
-        }
+    def put(self, parent_id: str, title: str, kind: str, obj_id: str,
+            ds_id: Optional[str] = None) -> None:
+        rec = {"id": obj_id, "title": title, "kind": kind, "parent": parent_id.replace("-", "")}
+        if ds_id:
+            rec["ds_id"] = ds_id
+        self.data[self.key(parent_id, title, kind)] = rec
         self.flush()
+
+    def get_ds(self, parent_id: str, title: str, kind: str) -> Optional[str]:
+        rec = self.data.get(self.key(parent_id, title, kind))
+        return rec.get("ds_id") if rec else None
 
     def flush(self) -> None:
         self.path.parent.mkdir(parents=True, exist_ok=True)
         self.path.write_text(json.dumps(self.data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    # ----- one-shot sentinels (for non-idempotent content appends) ---------
+    def done(self, scope: str, step: str) -> bool:
+        """True if this (scope, step) has already been marked complete."""
+        return self.data.get(f"@sentinel|{scope}|{step}") == "done"
+
+    def mark(self, scope: str, step: str) -> None:
+        self.data[f"@sentinel|{scope}|{step}"] = "done"
+        self.flush()
+
+    def step_once(self, scope: str, step: str, fn) -> bool:
+        """Run fn() exactly once across runs. Returns True if executed now."""
+        if self.done(scope, step):
+            return False
+        fn()
+        self.mark(scope, step)
+        return True
 
 
 def find_child(client: NotionBuilderClient, parent_id: str, title: str, kind: str) -> Optional[str]:
@@ -87,26 +110,67 @@ def find_or_create_page(client: NotionBuilderClient, ledger: Ledger, parent_id: 
     return page["id"], True
 
 
+def _strip_option_colors(typedef: dict) -> dict:
+    """Return a copy of a select/multi_select typedef with option colors removed.
+
+    Notion errors ("Cannot update color of select with name: X") if an update
+    tries to change the color of an already-existing option. Omitting color lets
+    Notion keep existing colors and auto-assign colors for genuinely new options.
+    """
+    for kind in ("select", "multi_select"):
+        if kind in typedef and typedef[kind].get("options"):
+            opts = [{"name": o["name"]} for o in typedef[kind]["options"]]
+            return {kind: {"options": opts}}
+    return typedef
+
+
+def reconcile_data_source(client: NotionBuilderClient, ds_id: str, schema: dict) -> None:
+    """Idempotently bring an existing data source up to `schema`.
+
+    A data source already has exactly one title property, which cannot be
+    re-created (API errors "Cannot create new title property"). So we:
+      - rename the existing title property if its name differs from the desired
+        title name, and
+      - (re)send every NON-title base property (select/number/text/etc. are
+        merge-safe on update; re-sending identical options is a no-op).
+    `schema` here is the BASE schema (no relations/formulas — those are applied
+    in dedicated guarded passes).
+    """
+    cur = (client.retrieve_data_source(ds_id) or {}).get("properties", {})
+    cur_title = next((k for k, v in cur.items() if v.get("type") == "title"), None)
+    desired_title = next((k for k, v in schema.items() if "title" in v), None)
+    payload: dict[str, dict] = {}
+    if cur_title and desired_title and cur_title != desired_title and desired_title not in cur:
+        payload[cur_title] = {"name": desired_title}  # rename, don't recreate
+    for name, typedef in schema.items():
+        if "title" in typedef:
+            continue
+        payload[name] = _strip_option_colors(typedef)
+    if payload:
+        client.update_data_source(ds_id, properties=payload)
+
+
 def find_or_create_database(client: NotionBuilderClient, ledger: Ledger, parent_id: str,
                             title: str, properties: dict, *, icon: Optional[str] = None,
-                            description: Optional[str] = None) -> tuple[str, bool]:
-    """Returns (database_id, created). On reuse, schema is reconciled (update)."""
+                            description: Optional[str] = None) -> tuple[str, str, bool]:
+    """Returns (database_id, data_source_id, created).
+
+    Under the 2025-09-03 API the schema lives on the data source. On create we
+    pass the full base schema via initial_data_source; on reuse we reconcile.
+    """
     cached = ledger.get(parent_id, title, "child_database")
     if cached:
-        # reconcile schema (adds new props; Notion ignores already-present)
-        try:
-            client.update_database(cached, properties=properties)
-        except Exception:
-            pass
-        return cached, False
+        ds = ledger.get_ds(parent_id, title, "child_database") or client.data_source_id(cached)
+        reconcile_data_source(client, ds, properties)
+        ledger.put(parent_id, title, "child_database", cached, ds_id=ds)
+        return cached, ds, False
     live = find_child(client, parent_id, title, "child_database")
     if live:
-        ledger.put(parent_id, title, "child_database", live)
-        try:
-            client.update_database(live, properties=properties)
-        except Exception:
-            pass
-        return live, False
+        ds = client.data_source_id(live)
+        reconcile_data_source(client, ds, properties)
+        ledger.put(parent_id, title, "child_database", live, ds_id=ds)
+        return live, ds, False
     db = client.create_database(parent_id, title, properties, icon=icon, description=description)
-    ledger.put(parent_id, title, "child_database", db["id"])
-    return db["id"], True
+    ds = client.ds_id_of(db)
+    ledger.put(parent_id, title, "child_database", db["id"], ds_id=ds)
+    return db["id"], ds, True

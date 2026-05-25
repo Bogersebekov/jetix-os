@@ -30,11 +30,22 @@ class FakeClient:
     def create_database(self, parent_id, title, properties, *, icon=None, description=None):
         did = f"db-{len(self.created_dbs)}"
         self.created_dbs.append((parent_id, title))
-        return {"id": did}
+        return {"id": did, "data_sources": [{"id": f"ds-{did}", "name": title}]}
 
-    def update_database(self, database_id, *, properties=None, title=None):
-        self.updated_dbs.append(database_id)
-        return {"id": database_id}
+    @staticmethod
+    def ds_id_of(db_obj):
+        return db_obj["data_sources"][0]["id"]
+
+    def data_source_id(self, database_id):
+        return f"ds-{database_id}"
+
+    def update_data_source(self, data_source_id, *, properties=None, title=None):
+        self.updated_dbs.append(data_source_id)
+        return {"id": data_source_id, "properties": properties or {}}
+
+    def retrieve_data_source(self, data_source_id):
+        # default: only a title property named "Name" (simulates a fresh data source)
+        return {"id": data_source_id, "properties": {"Name": {"type": "title"}}}
 
 
 class TestBlocks(unittest.TestCase):
@@ -82,14 +93,14 @@ class TestDbCreate(unittest.TestCase):
         self.assertEqual(f["formula"]["expression"], 'prop("x") + 1')
 
     def test_relation_single_vs_dual(self):
-        single = db_create.relation("abc123")
-        dual = db_create.relation("abc123", dual=True)
+        single = db_create.relation("ds-abc123")
+        dual = db_create.relation("ds-abc123", dual=True)
         self.assertEqual(single["relation"]["type"], "single_property")
         self.assertEqual(dual["relation"]["type"], "dual_property")
 
-    def test_relation_strips_dashes(self):
-        r = db_create.relation("ab-cd-ef")
-        self.assertEqual(r["relation"]["database_id"], "abcdef")
+    def test_relation_targets_data_source(self):
+        r = db_create.relation("ds-abc-123")
+        self.assertEqual(r["relation"]["data_source_id"], "ds-abc-123")
 
 
 class TestIdempotency(unittest.TestCase):
@@ -120,15 +131,31 @@ class TestIdempotency(unittest.TestCase):
         self.assertFalse(created)
         self.assertEqual(pid, "cached-id")
 
-    def test_db_reuse_reconciles_schema(self):
+    def test_db_create_returns_ds_id(self):
+        c = FakeClient(children=[])
+        s = db_create.schema(("Name", db_create.title()))
+        db_id, ds_id, created = idem.find_or_create_database(c, self.ledger, "parent", "Daily Log", s)
+        self.assertTrue(created)
+        self.assertEqual(ds_id, "ds-db-0")
+        self.assertEqual(self.ledger.get_ds("parent", "Daily Log", "child_database"), "ds-db-0")
+
+    def test_db_reuse_reconciles_data_source(self):
         c = FakeClient(children=[
             {"type": "child_database", "id": "db-x", "child_database": {"title": "Daily Log"}},
         ])
-        s = db_create.schema(("Name", db_create.title()))
-        did, created = idem.find_or_create_database(c, self.ledger, "parent", "Daily Log", s)
+        # schema has a non-title prop → reconcile must push it to the data source
+        s = db_create.schema(("Date", db_create.title()), ("Energy", db_create.number()))
+        did, dsid, created = idem.find_or_create_database(c, self.ledger, "parent", "Daily Log", s)
         self.assertFalse(created)
         self.assertEqual(did, "db-x")
-        self.assertIn("db-x", c.updated_dbs)  # schema reconciled on reuse
+        self.assertEqual(dsid, "ds-db-x")
+        self.assertIn("ds-db-x", c.updated_dbs)  # schema reconciled on data source
+
+    def test_reconcile_strips_select_colors(self):
+        c = FakeClient(children=[])
+        td = idem._strip_option_colors(db_create.select(["a", "b"]))
+        self.assertTrue(all("color" not in o for o in td["select"]["options"]))
+        self.assertEqual([o["name"] for o in td["select"]["options"]], ["a", "b"])
 
 
 class TestMirror(unittest.TestCase):

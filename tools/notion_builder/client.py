@@ -96,13 +96,18 @@ class NotionBuilderClient:
                                          block_id=block_id, children=children[i:i + 100])
         return last
 
+    # ----- databases + data sources (Notion API 2025-09-03 model) ----------
+    # Under the 2025-09-03 API a "database" is a container whose schema lives on
+    # one or more "data sources". Property schemas, relations and formulas MUST
+    # be written to the data source, NOT the database container. (databases.*
+    # silently drops a `properties` payload — verified empirically.)
     def create_database(self, parent_id: str, title: str, properties: dict, *,
                         icon: Optional[str] = None, description: Optional[str] = None,
                         is_inline: bool = True) -> dict[str, Any]:
         kwargs: dict[str, Any] = {
             "parent": {"type": "page_id", "page_id": parent_id},
             "title": [{"type": "text", "text": {"content": title}}],
-            "properties": properties,
+            "initial_data_source": {"properties": properties},
             "is_inline": is_inline,
         }
         if icon:
@@ -111,24 +116,40 @@ class NotionBuilderClient:
             kwargs["description"] = [{"type": "text", "text": {"content": description}}]
         return rate_limit.with_retry(self._c.databases.create, **kwargs)
 
-    def update_database(self, database_id: str, *, properties: Optional[dict] = None,
-                        title: Optional[str] = None) -> dict[str, Any]:
-        kwargs: dict[str, Any] = {"database_id": database_id}
-        if properties:
-            kwargs["properties"] = properties
-        if title:
-            kwargs["title"] = [{"type": "text", "text": {"content": title}}]
-        return rate_limit.with_retry(self._c.databases.update, **kwargs)
+    @staticmethod
+    def ds_id_of(db_obj: dict[str, Any]) -> str:
+        ds = db_obj.get("data_sources") or []
+        if not ds:
+            raise RuntimeError("database object has no data_sources (unexpected under 2025-09-03 API)")
+        return ds[0]["id"]
 
     def retrieve_database(self, database_id: str) -> dict[str, Any]:
         return rate_limit.with_retry(self._c.databases.retrieve, database_id=database_id)
 
+    def data_source_id(self, database_id: str) -> str:
+        return self.ds_id_of(self.retrieve_database(database_id))
+
+    def update_data_source(self, data_source_id: str, *, properties: Optional[dict] = None,
+                           title: Optional[str] = None) -> dict[str, Any]:
+        kwargs: dict[str, Any] = {"data_source_id": data_source_id}
+        if properties:
+            kwargs["properties"] = properties
+        if title:
+            kwargs["title"] = [{"type": "text", "text": {"content": title}}]
+        return rate_limit.with_retry(self._c.data_sources.update, **kwargs)
+
+    def retrieve_data_source(self, data_source_id: str) -> dict[str, Any]:
+        return rate_limit.with_retry(self._c.data_sources.retrieve, data_source_id=data_source_id)
+
     def delete_block(self, block_id: str) -> dict[str, Any]:
         return rate_limit.with_retry(self._c.blocks.delete, block_id=block_id)
 
-    def create_row(self, database_id: str, properties: dict, *,
+    def create_row(self, data_source_id: str, properties: dict, *,
                    children: Optional[list[dict]] = None) -> dict[str, Any]:
-        kwargs: dict[str, Any] = {"parent": {"database_id": database_id}, "properties": properties}
+        kwargs: dict[str, Any] = {
+            "parent": {"type": "data_source_id", "data_source_id": data_source_id},
+            "properties": properties,
+        }
         if children:
             kwargs["children"] = children
         return rate_limit.with_retry(self._c.pages.create, **kwargs)

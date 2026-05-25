@@ -18,25 +18,28 @@ from . import db_create
 from .client import NotionBuilderClient
 
 
-def add_relation(client: NotionBuilderClient, source_db_id: str, prop_name: str,
-                 target_db_id: str, *, dual: bool = False) -> bool:
-    """Add (or reconcile) a relation property `prop_name` on source_db → target_db.
+def add_relation(client: NotionBuilderClient, source_ds_id: str, prop_name: str,
+                 target_ds_id: str, *, dual: bool = False) -> bool:
+    """Add a relation property on source data source → target data source.
 
-    Returns True on success, False on failure (logged by caller).
+    Both ids are DATA SOURCE ids (2025-09-03 API). Idempotent: if the relation
+    property already exists, it is left as-is. Returns True on success/exists.
     """
+    if relation_exists(client, source_ds_id, prop_name):
+        return True
     try:
-        client.update_database(source_db_id, properties={
-            prop_name: db_create.relation(target_db_id, dual=dual)
+        client.update_data_source(source_ds_id, properties={
+            prop_name: db_create.relation(target_ds_id, dual=dual)
         })
         return True
     except Exception:
         return False
 
 
-def relation_exists(client: NotionBuilderClient, db_id: str, prop_name: str) -> bool:
+def relation_exists(client: NotionBuilderClient, ds_id: str, prop_name: str) -> bool:
     try:
-        db = client.retrieve_database(db_id)
-        prop = db.get("properties", {}).get(prop_name)
+        ds = client.retrieve_data_source(ds_id)
+        prop = ds.get("properties", {}).get(prop_name)
         return bool(prop) and prop.get("type") == "relation"
     except Exception:
         return False

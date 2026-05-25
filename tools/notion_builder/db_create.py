@@ -83,8 +83,9 @@ def formula(expression: str) -> dict:
     return {"formula": {"expression": expression}}
 
 
-def relation(database_id: str, *, dual: bool = False) -> dict:
-    rel: dict[str, Any] = {"database_id": database_id.replace("-", "")}
+def relation(data_source_id: str, *, dual: bool = False) -> dict:
+    # Under the 2025-09-03 API, a relation targets a DATA SOURCE id (not a db id).
+    rel: dict[str, Any] = {"data_source_id": data_source_id}
     rel["type"] = "dual_property" if dual else "single_property"
     rel["dual_property" if dual else "single_property"] = {}
     return {"relation": rel}
