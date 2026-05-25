@@ -191,5 +191,160 @@
     "kind": "child_database",
     "parent": "36b2496333bf81a9819fdb2b04cfd19c",
     "ds_id": "39501c8f-d68b-45a7-8c10-271f20cacf96"
+  },
+  "36b2496333bf81a9819fdb2b04cfd19c|child_database|🎭 roles": {
+    "id": "b2592e97-2858-49b2-8376-e3fe98958f6b",
+    "title": "🎭 Roles",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a9819fdb2b04cfd19c",
+    "ds_id": "82b5bf20-ac55-4c01-abb1-97fc3bf78218"
+  },
+  "36b2496333bf81a9819fdb2b04cfd19c|child_database|📋 project catalog": {
+    "id": "0ebd206e-1e58-4f5b-8726-ca83f9431e30",
+    "title": "📋 Project Catalog",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a9819fdb2b04cfd19c",
+    "ds_id": "76572cf1-7fe8-4621-9883-19eb97cdd6b6"
+  },
+  "36b2496333bf81a9819fdb2b04cfd19c|child_database|🔄 skills & needs": {
+    "id": "da3987f3-49a4-4279-84e6-df8b8b63e8b8",
+    "title": "🔄 Skills & Needs",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a9819fdb2b04cfd19c",
+    "ds_id": "42720326-3dd3-4a21-915f-08c8d1291ed9"
+  },
+  "36b2496333bf81a9819fdb2b04cfd19c|child_database|💵 revenue accounting": {
+    "id": "c1d3a50f-a8fa-45d5-81fb-ad0897e42315",
+    "title": "💵 Revenue Accounting",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a9819fdb2b04cfd19c",
+    "ds_id": "c8d3b036-ae8b-4a50-af91-e95435625f02"
+  },
+  "36b2496333bf81a9819fdb2b04cfd19c|child_database|📊 contribution ledger": {
+    "id": "d7cf1456-0be6-4043-8e81-f6a95b6a0861",
+    "title": "📊 Contribution Ledger",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a9819fdb2b04cfd19c",
+    "ds_id": "6a3492ca-9e7d-44f0-85aa-bd0e8bbffd70"
+  },
+  "36b2496333bf81a9819fdb2b04cfd19c|child_database|🌐 external people": {
+    "id": "0bbbe198-4af0-43c9-9828-68b42e33af62",
+    "title": "🌐 External People",
+    "kind": "child_database",
+    "parent": "36b2496333bf81a9819fdb2b04cfd19c",
+    "ds_id": "be288b21-70b4-49aa-b45f-e67dac38a113"
+  },
+  "36b2496333bf81a9819fdb2b04cfd19c|child_page|📜 charter (slot)": {
+    "id": "36b24963-33bf-81ef-8d87-c98fd38f2d91",
+    "title": "📜 Charter (slot)",
+    "kind": "child_page",
+    "parent": "36b2496333bf81a9819fdb2b04cfd19c"
+  },
+  "36b2496333bf81a9819fdb2b04cfd19c|child_page|💰 monetization (4 универсальных)": {
+    "id": "36b24963-33bf-8121-abe0-c00601644a0d",
+    "title": "💰 Monetization (4 универсальных)",
+    "kind": "child_page",
+    "parent": "36b2496333bf81a9819fdb2b04cfd19c"
+  },
+  "36b2496333bf81a9819fdb2b04cfd19c|child_page|🔐 permissions matrix": {
+    "id": "36b24963-33bf-81a0-befb-dba27e90375e",
+    "title": "🔐 Permissions matrix",
+    "kind": "child_page",
+    "parent": "36b2496333bf81a9819fdb2b04cfd19c"
+  },
+  "36b2496333bf81a9819fdb2b04cfd19c|child_page|🚪 onboarding 1-week + анти-секта": {
+    "id": "36b24963-33bf-81ea-9812-cde971ddc667",
+    "title": "🚪 Onboarding 1-week + анти-секта",
+    "kind": "child_page",
+    "parent": "36b2496333bf81a9819fdb2b04cfd19c"
+  },
+  "36b2496333bf81a9819fdb2b04cfd19c|child_page|🚦 stage gates (generic)": {
+    "id": "36b24963-33bf-8163-abe6-ef9febdbd45a",
+    "title": "🚦 Stage Gates (generic)",
+    "kind": "child_page",
+    "parent": "36b2496333bf81a9819fdb2b04cfd19c"
+  },
+  "36b2496333bf81cb8466fade7c15ca01|child_page|🟧 jetix overlay": {
+    "id": "36b24963-33bf-81f4-bf9a-fe0f4d6bcb33",
+    "title": "🟧 Jetix Overlay",
+    "kind": "child_page",
+    "parent": "36b2496333bf81cb8466fade7c15ca01"
+  },
+  "@sentinel|layer2|b-intro": "done",
+  "36b2496333bf81f4bf9afe0f4d6bcb33|child_database|🎭 jetix roles (10)": {
+    "id": "f5931408-cc0a-4e9f-89cc-0970351939fd",
+    "title": "🎭 Jetix Roles (10)",
+    "kind": "child_database",
+    "parent": "36b2496333bf81f4bf9afe0f4d6bcb33",
+    "ds_id": "ce5e5a4e-8c9e-48b9-9ace-6af2c1998e65"
+  },
+  "36b2496333bf81f4bf9afe0f4d6bcb33|child_database|🛡️ r12 audit log": {
+    "id": "e20e2b8a-dbdc-4d1d-89f4-132a2c54a578",
+    "title": "🛡️ R12 Audit Log",
+    "kind": "child_database",
+    "parent": "36b2496333bf81f4bf9afe0f4d6bcb33",
+    "ds_id": "04ba8dc7-64c1-41ff-96ca-a66716643309"
+  },
+  "36b2496333bf81f4bf9afe0f4d6bcb33|child_database|💰 jetix monetization (t1-t4)": {
+    "id": "cf6939b5-9927-4fac-be1b-fe8f095998e1",
+    "title": "💰 Jetix Monetization (T1-T4)",
+    "kind": "child_database",
+    "parent": "36b2496333bf81f4bf9afe0f4d6bcb33",
+    "ds_id": "96ad6931-cc8d-4164-a34f-2ce36dc47fe5"
+  },
+  "36b2496333bf81f4bf9afe0f4d6bcb33|child_page|⚖️ r12 — 4 детектора (action classes)": {
+    "id": "36b24963-33bf-8177-8989-f8daa733d892",
+    "title": "⚖️ R12 — 4 детектора (action classes)",
+    "kind": "child_page",
+    "parent": "36b2496333bf81f4bf9afe0f4d6bcb33"
+  },
+  "36b2496333bf81f4bf9afe0f4d6bcb33|child_page|⚖️ mondragón 5:1": {
+    "id": "36b24963-33bf-81e2-86b4-d2e0b7a94778",
+    "title": "⚖️ Mondragón 5:1",
+    "kind": "child_page",
+    "parent": "36b2496333bf81f4bf9afe0f4d6bcb33"
+  },
+  "36b2496333bf81f4bf9afe0f4d6bcb33|child_page|📜 charter jetix v1 (6 секций + r12)": {
+    "id": "36b24963-33bf-817e-a25b-f153ae07f06d",
+    "title": "📜 Charter Jetix v1 (6 секций + R12)",
+    "kind": "child_page",
+    "parent": "36b2496333bf81f4bf9afe0f4d6bcb33"
+  },
+  "36b2496333bf81f4bf9afe0f4d6bcb33|child_page|🤖 daily cc pass (5 секций, draft-only)": {
+    "id": "36b24963-33bf-817a-a76d-e4dc7c694bc4",
+    "title": "🤖 Daily CC pass (5 секций, DRAFT-only)",
+    "kind": "child_page",
+    "parent": "36b2496333bf81f4bf9afe0f4d6bcb33"
+  },
+  "36b2496333bf81f4bf9afe0f4d6bcb33|child_page|⚖️ r12 paired-frame checklist (8)": {
+    "id": "36b24963-33bf-8167-a0a3-e5be05c8a42d",
+    "title": "⚖️ R12 paired-frame checklist (8)",
+    "kind": "child_page",
+    "parent": "36b2496333bf81f4bf9afe0f4d6bcb33"
+  },
+  "36b2496333bf81cb8466fade7c15ca01|child_page|🔄 adaptation pattern": {
+    "id": "36b24963-33bf-81aa-90a8-ec49d4672a01",
+    "title": "🔄 Adaptation Pattern",
+    "kind": "child_page",
+    "parent": "36b2496333bf81cb8466fade7c15ca01"
+  },
+  "@sentinel|layer2|c-intro": "done",
+  "36b2496333bf81aa90a8ec49d4672a01|child_page|🎬 blogger team": {
+    "id": "36b24963-33bf-81d2-a027-c2e3e8221dcb",
+    "title": "🎬 Blogger team",
+    "kind": "child_page",
+    "parent": "36b2496333bf81aa90a8ec49d4672a01"
+  },
+  "36b2496333bf81aa90a8ec49d4672a01|child_page|🏢 corporate department": {
+    "id": "36b24963-33bf-819d-8651-deb40db3189d",
+    "title": "🏢 Corporate department",
+    "kind": "child_page",
+    "parent": "36b2496333bf81aa90a8ec49d4672a01"
+  },
+  "36b2496333bf81aa90a8ec49d4672a01|child_page|🚀 startup co-founders": {
+    "id": "36b24963-33bf-815b-b0f7-ffe1cd352771",
+    "title": "🚀 Startup co-founders",
+    "kind": "child_page",
+    "parent": "36b2496333bf81aa90a8ec49d4672a01"
   }
 }
