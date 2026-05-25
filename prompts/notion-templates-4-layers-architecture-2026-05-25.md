@@ -14,12 +14,36 @@ language: russian primary
 style_anchor: PARTNER-OFFERING-HUMAN-LANG-2026-05-22.md + PLATFORM-LIFECYCLE-STAGES-PLAN-2026-05-25.md + PERSONAL-OS-NOTION-TEMPLATE-PLAN-2026-05-24.md + TEAM-OS-NOTION-TEMPLATE-PLAN-2026-05-24.md
 mode: 4-LAYERS COMPREHENSIVE ARCHITECTURE (F2-F3 derivative — Notion-implementation-ready spec all 4 layers)
 mermaid_target: 8-10 schemes ARCH-1..ARCH-10
-status: READY-TO-EXECUTE (после твоего «погнали»)
+status: DEPRECATED-SUPERSEDED-BY-V2
+superseded_by: prompts/notion-templates-3-layers-architecture-v2-2026-05-25.md
+superseded_date: 2026-05-25
+superseded_reason: Ruslan voice 25.05 evening — упрощение + 3 слоя вместо 4 (Layer 2 Personal Expanded удалён) + STANDALONE/SIMPLIFICATION мандаты + AI Tools mega-page. v2 прогнан полностью (Phase 0-13).
 runtime_target: 4-6h autonomous
 audience_primary: ЛЮБОЙ founder/executive любого бизнеса (consulting/SaaS/product/agency/cooperative) — Layer 4 = fork-able foundation; Ruslan = только один пример из применений (Jetix = optional overlay поверх Layer 4 base)
 ---
 
 # 🏛️ Notion Templates 4-Layers Architecture — полная архитектура
+
+> ## ⚠️ DEPRECATED — SUPERSEDED BY V2 (2026-05-25)
+> Этот промпт (v1, 4 слоя) **устарел**. Заменён на
+> **[`prompts/notion-templates-3-layers-architecture-v2-2026-05-25.md`](notion-templates-3-layers-architecture-v2-2026-05-25.md)**.
+>
+> **Почему:** Ruslan voice 25.05 вечером — принципиальное упрощение: **3 слоя вместо 4**
+> (Layer 2 «Personal Expanded» удалён — его substance ушёл в sidebar Layer 1 + будет
+> отдельным «инструменты» слоем позже), + мандаты **STANDALONE** (каждый слой работает один)
+> и **SIMPLIFICATION** (минимум полей per DB + «что добавить» sidebar), + **AI Tools mega-page**
+> (новый companion), + Layer 2 = Generic baseline / Jetix overlay отдельным template / Brand
+> pattern; Jetix overlay для Layer 3 — deferred next iteration.
+>
+> **v2 прогнан полностью** (Phase 0-13). Канонические выходы v2:
+> - Main: `decisions/strategic/NOTION-TEMPLATES-3-LAYERS-ARCHITECTURE-V2-2026-05-25.md`
+> - Companion: `decisions/strategic/AI-TOOLS-LIFEHACKS-MEGA-PAGE-2026-05-25.md`
+> - Phase reports: `reports/notion-templates-3-layers-architecture-v2-2026-05-25/`
+>
+> **v1 partial output сохранён** (append-only) в `reports/notion-templates-4-layers-architecture-2026-05-25/`
+> с пометкой DEPRECATED (см. README в той папке) — историческая подложка / DELTA reference для v2.
+>
+> Ниже — оригинальный текст v1, оставлен без изменений (append-only).
 
 ## §0 Acceptance gate (что делает run "PASSED")
 
