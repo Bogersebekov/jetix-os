@@ -34,8 +34,7 @@ language: russian primary
 - Шаблоны срезаны до **минимума полей** + sidebar «🔧 что можно добавить» (вместо 50 полей на базу).
 - L1 усилен: Daily Log (цель/факт/deep work/тип дня + привычки дня + шаблон дня + wrap-of-day) +
   новая база **Habits** (привычки + отметка дня + streak) + Strategic под-раздел (Vision +
-  Goals-как-документ + **🧠 Философский лист** + **⭐ Ключевые идеи/высказывания** с resurface) +
-  Weekly/Monthly ревью + «посмотреть позже» в Knowledge.
+  Goals-как-документ + **🧠 Философский лист**) + Weekly/Monthly ревью + «посмотреть позже» в Knowledge.
 - L2: **Generic baseline отдельно от Jetix overlay** + Brand pattern (блогер/корпорация/стартап).
 - L3: упрощён + Hypotheses DB + Vision/Mission/Goals страницы; **Jetix overlay deferred** (next iteration).
 
