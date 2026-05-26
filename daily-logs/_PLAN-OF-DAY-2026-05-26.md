@@ -281,6 +281,188 @@ Default scenario per Platform Lifecycle Week 1:
 
 ---
 
+## §12 ⭐ EVENING REVIEW SESSION (26.05 evening, ~17:00+ Berlin)
+
+> **Главная цель сейчас:** Довести все documents до порядка → зафиксировать как рабочие на человеческом языке → продвинуться в **video planning + descriptions** (видео А/Б/В — план + описания; запись завтра).
+
+### §12.A Шаги по порядку (~3-5h budget)
+
+1. **Recall yesterday's substrate (~15 мин)** — open & skim 3 главные SUMMARY:
+   - `reports/jetix-public-docs-metaplan-v2-2026-05-25/00-SUMMARY-FOR-RUSLAN.md` (variant D 11 directions)
+   - `reports/jetix-workshop-mastery-network-concept-2026-05-26/00-SUMMARY-FOR-RUSLAN.md` (workshop+mastery+network)
+   - `reports/notion-build-2026-05-25/00-SUMMARY.md` (Notion workspace LIVE 35 pages/36 DBs)
+
+2. **Document review queue (~1.5-2h)** — по каждому из 11 ключевых docs принять решение **ack / redraft / drop** (см. §13 ниже список с пометками)
+
+3. **Lock as ready (~30 мин)** — для docs которые ack'аются: убрать `-DRAFT` суффикс / update frontmatter `status: ready` / commit как finalized
+
+4. **Video planning + descriptions (~1.5-2h)** — для каждого из 3 видео (А/Б/В) написать:
+   - Цель видео (что хотим донести)
+   - Audience (primary + secondary)
+   - 3-7 ключевых мыслей
+   - Структура сцен (intro / 3-5 sections / closing)
+   - Hook начала (first 30 сек)
+   - CTA конца
+   - Длительность target
+   - YouTube description (готовое для копи-паст)
+   - Превью / thumbnail concept
+   - Substrate sources (откуда тянем content)
+
+5. **Update Daily Log Notion (~10 мин)** — занести что сделано (см. §14 — готовый текст для копи-паст)
+
+6. **Wrap + tomorrow trigger** — заполнить §8 Wrap + подтвердить 27.05 = Video Day priority
+
+### §12.B Цель дня (single line)
+
+> **Все основные documents 100% готовы / зафиксированы / на человеческом языке + видео планирование завершено (descriptions готовы для записи завтра).**
+
+---
+
+## §13 Document review queue (~11 ключевых docs)
+
+> Для каждого — pick: ✅ ACK as ready / 🔄 REDRAFT (что именно) / ⏸ DEFER / 🗑️ DROP
+
+| # | Doc | Что внутри | Action needed | Default |
+|---|---|---|---|---|
+| 1 | `JETIX-NAVIGATION-GUIDE-2026-05-22-DRAFT.md` (только что extended + Церен fix) | Orientation guide для Wave 1 — 15 sections + 7 mermaid + расширен Sprint 23-26.05 docs + Workshop concept | ACK + remove DRAFT суффикс | ✅ ACK как ready |
+| 2 | `JETIX-FULL-MAP-AND-DOCS-SKELETON-2026-05-25.md` | 12 entities + 6 directions + 94 docs skeleton + reference corps + master synthesis | ACK master skeleton OR pick consolidations (Governance⊂Корпорация?) | ✅ ACK |
+| 3 | `JETIX-PUBLIC-DOCS-METAPLAN-V2-2026-05-25.md` | Variant D MAX-DEPTH 11 directions × 3 doors × routes + Rules 10 angles + Values + Vision standalone | ACK 11 directions OR редактировать (добавить Workshop+Mastery+Network → 14 directions с supplements) | 🔄 REDRAFT — integrate workshop concept → metaplan v3 |
+| 4 | `JETIX-WORKSHOP-MASTERY-NETWORK-CONCEPT-2026-05-26.md` | Foundational metaphor (workshop) + 3 NEW directions + 5 vivid scenarios | ACK workshop metaphor как primary frame для outreach | ✅ ACK |
+| 5 | `WORKSHOP-CONCEPT-SUPPLEMENT-2026-05-26.md` | Founder-as-Exhibit + anti-marketing + Mastery deepening | ACK 16 NEW ideas + augmentation patches apply | ✅ ACK + apply patches |
+| 6 | `PREPARATION-STAGE-CONCEPT-SUPPLEMENT-2026-05-26.md` | Preparation Stage explicit + Extended 8-step meta-method + 7 patches | ACK + apply patches к Method V2 §J reference + Mastery Concept | ✅ ACK + apply patches |
+| 7 | `NOTION-TEMPLATES-3-LAYERS-ARCHITECTURE-V2-2026-05-25.md` | 3 layers full spec + Layer 4 Universal Business + Habits + Strategic + Философский лист | ACK architecture OR редактировать (Notion-build уже LIVE — verify match) | ✅ ACK |
+| 8 | `NOTION-BUILD-REPORT-2026-05-25.md` + Notion LIVE | 35 pages + 36 DBs + 44 relations + 20 AI tools + Dashboard + Onboarding | Walk through Notion UI + ack «красиво / удобно» OR change requests | ⏸ Walk через UI потом ack |
+| 9 | `DOCS-CLASSIFICATION-2026-05-25.md` | 4 категории + 19 GAPs + audience matrix | ACK как baseline для всех future doc decisions | ✅ ACK |
+| 10 | `PLATFORM-LIFECYCLE-STAGES-PLAN-2026-05-25.md` | 3 stages Build/Run/Scale + actor matrix + 4-week Build plan | ACK Build week 1-4 sequence | ✅ ACK |
+| 11 | `EXECUTION-PLAN-FIXATION-2026-05-24.md` | 4 типа партнёров + sequencing 3 недели | ACK | ✅ ACK уже acked baseline |
+| 12 | `BUILD-ARTEFACTS-SPECS` (13 phase reports) | 10-12 артефактов deep specs (Видео A/B/C + Notion + Charter + Лендинг + etc.) | Phase 13 Main consolidate pending — restart server CC OR Cloud собирает | 🔄 Restart Phase 13 consolidate |
+| 13 | `CALL-PLAN-DMITRIY-KAISER-2026-05-25.md` | 1h call script | CRM post-call update (если call состоялся 25.05) + ack | ✅ ACK + CRM update |
+| 14 | `CONSOLIDATED-HUMAN-LANGUAGE-PLAN-2026-05-24.md` | План обучения на человеческом + 7 ступеней Bloom | ACK как baseline для Образование direction | ✅ ACK |
+| 15 | `OUTREACH-CONTENT-OUTCOMES-CTAS-2026-05-24.md` | 38K substrate + 13 CTAs + 5+1 archetypes | ACK как substrate для всех future partner messaging | ✅ ACK |
+
+**Итого pick по 15 docs:** ~10 ACK / ~3 REDRAFT / 1 DEFER (Notion walk) / 1 в work (Phase 13 restart).
+
+---
+
+## §14 📝 Daily Log Notion entry — ready для копи-паст
+
+> Скопировать в **Daily Log DB** (Notion ID `30a24963-33bf-8005-817a-000beb10bcd4`), создать запись `2026-05-26`.
+
+### Title
+```
+2026-05-26 — Architecture Foundation Day + Notion LIVE + Evening review session
+```
+
+### Properties (рекомендованные)
+- **Date:** 2026-05-26
+- **Day type:** architecture-fixation + review
+- **Energy:** TBD (fill после wrap)
+- **Deep Work minutes:** TBD (fill из Toggl после push)
+- **Главная цель дня:** Довести все documents до order → зафиксировать рабочие на человеческом языке → план + описания видео А/Б/В
+
+### Body (структурированно)
+
+```markdown
+## Что сделано (25-26.05 sprint)
+
+11 major deliverables CLOSED за 25-26.05 (~150K plain Russian + 80+ phase reports + 50+ mermaid + LIVE Notion 35 pages/36 DBs/44 relations):
+
+**Architecture / Public docs:**
+1. DOCS-CLASSIFICATION (4 категории + 19 GAPs)
+2. JETIX-FULL-MAP (12 entities + 94 docs skeleton)
+3. METAPLAN v1 + v2 (variant D MAX-DEPTH 11 directions)
+4. WORKSHOP+MASTERY+NETWORK concept (3 NEW directions + 5 vivid scenarios)
+5. WORKSHOP supplement (Founder-Exhibit + anti-marketing + Mastery deepening)
+6. PREPARATION-STAGE supplement (8-step extended meta-method + 7 patches)
+7. NOTION-ARCH-V2 (3 layers full spec)
+8. JETIX-NAVIGATION-GUIDE extended (Sprint 23-26.05 docs + Workshop concept + Церен grammar fix)
+
+**Implementation / Build:**
+9. NOTION BUILD LIVE — Jetix OS workspace создан реально (35 pages + 36 DBs + 44 relations + 20 AI tools + Master Dashboard + Onboarding)
+10. BUILD-ARTEFACTS-SPECS (13 phase reports; Phase 13 Main pending)
+11. CALL-PLAN-DMITRIY-KAISER (1h script)
+
+## Strategic insights дня
+- Substrate saturation confirmed (О-163) — mode shift: development → fixation → outreach
+- Workshop metaphor crystallized как primary frame
+- Founder-as-Exhibit anti-marketing pattern
+- Preparation Stage explicit + mastery at transitions
+- Templates × Unique tasks dualism
+
+## Что сегодня вечером сделать (review session)
+1. Recall 3 главные SUMMARY (~15 мин)
+2. Document review queue — 15 docs ack/redraft/drop (~1.5-2h)
+3. Lock as ready (~30 мин)
+4. Video planning + descriptions (видео А/Б/В) (~1.5-2h)
+5. Daily Log update + wrap
+
+## Завтра (27.05 Wednesday — Video Day)
+- 🎬 Видео A запись (главный Build блокер)
+- Описания готовые из вечера
+
+## Pending R1 decisions (приоритеты)
+- ~80+ pending across deliverables — P1 critical 15+ нужна priority session
+- Главные: master skeleton ACK / variant D ACK / workshop metaphor ACK / Notion workspace walk
+
+## Risks
+- R1 overload (нужна prioritization)
+- Token leaked в чате (revoke сегодня)
+- Видео A блокер (27.05 priority №1)
+```
+
+---
+
+## §15 🎬 Video planning skeleton (для вечерней работы)
+
+> Сегодня — **планирование + descriptions** (запись завтра 27.05).
+
+### Видео А — Методология / Прошивка / База
+- **Audience:** T1 методолог (Maxim/Oleg/Левенчук-tier) + сам R12-чек метода
+- **Цель:** умный методолог за 5-15 мин понимает СУТЬ метода — может оценить substance / решить дальше копать
+- **Substrate sources:** Method V2 §H+§J + RUSLAN-NOTES-EDUCATION-PARADIGM O-176..O-185 + workshop-concept Mastery + preparation-stage supplement
+- **Spec:** `reports/build-artefacts-specs-2026-05-25/03-video-A-spec.md`
+- **Длительность target:** 5-15 мин (R1 decision)
+- **Hook 30 сек:** TBD (3 варианта вечером)
+- **3-7 ключевых мыслей:** методология = прошивка / выбор методов / preparation stage / mastery at transitions / templates × unique / AI стратификация / question-first not function-first
+- **CTA:** «если резонирует — посмотри Method V2 / напиши»
+- **Description YouTube:** TBD
+
+### Видео Б — Видение обучения / 7 ступеней / Paradigm shift
+- **Audience:** smart T3 тестер (Дмитрий/Сева) + потенциальные cohort кандидаты
+- **Цель:** показать **новую парадигму обучения** (прошивка vs накопление + AI usage stratification + question-first)
+- **Substrate:** CONSOLIDATED-HL §1-5 + Outreach Content Bloom 1-7 + RUSLAN-NOTES-ED + Method V2 §J meta-method
+- **Spec:** `reports/build-artefacts-specs-2026-05-25/04-video-B-spec.md`
+- **Длительность:** 5-15 мин
+- **Hook:** TBD (paradigm shift — почему старое не работает)
+- **3-7 мыслей:** прошивка vs накопление / 7 ступеней Bloom / question-first / AI = leverage / mass mastery upliftment / curiosity-driven training
+- **CTA:** «попробуй: открой Workshop / fork Personal OS»
+
+### Видео В — Экосистема / Charter / R12 / 4 партнёров / Мастерская
+- **Audience:** T1 методолог + T1 R12-мост (Прапион) + опытные T3
+- **Цель:** объяснить **как устроена партнёрская экосистема** — 4 типа партнёров / что просим/даём / Charter / R12 защиты / Workshop network
+- **Substrate:** Execution Plan §4 + Platform Lifecycle §4-5 + Economic V10 §11 R12 + PARTNER-OFFERING HL + workshop-concept Network spec
+- **Spec:** `reports/build-artefacts-specs-2026-05-25/05-video-C-spec.md`
+- **Длительность:** 5-15 мин (самое плотное возможно длиннее)
+- **R12 STRICT:** AUTO-FIRE influence-ethics + recruitment-dynamics + propaganda — это самое опасное видео, mass-movement language temptation max; защита растёт быстрее системы; явно показываем потолки и fork-and-leave
+- **Hook:** TBD (мега-мастерская как foundational metaphor)
+- **3-7 мыслей:** Workshop+Mastery+Network / 4 типа партнёров / give-ask matrix / R12 защиты / Mondragón 5:1 / fork-and-leave / Founder-as-Exhibit
+- **CTA:** «если откликается — discovery call»
+
+### Общие принципы (per anti-marketing stance)
+- Substance > hype
+- Plain Russian
+- НЕ marketing-buzz («революция», «трансформация»)
+- НЕТ pressure для commitment
+- Mention что НЕ обещаем
+- Free goodbyes («хотите пользуйтесь хотите нет / удачи / чус»)
+- Honest о готовности (Build stage, не Run)
+- Founder = первый пользователь / exhibit
+
+### Output to fill вечером
+- `decisions/strategic/VIDEOS-A-B-C-PLAN-2026-05-26.md` — single doc с 3 video plans + descriptions ready для записи
+
+---
+
 ## §11 Constitutional posture
 
 - ✅ R1 surface only — этот план = pointer + structure; финальные R1 decisions = Ruslan
