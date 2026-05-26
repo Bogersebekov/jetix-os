@@ -1,0 +1,121 @@
+[
+  {
+    "start": "2026-05-25T09:00:00Z",
+    "stop": "2026-05-25T10:20:00Z",
+    "project": "Deep Work",
+    "tags": ["SOZD", "Jetix-foundation", "doc"],
+    "description": "Подготовка к работе + создание плана работы на день"
+  },
+  {
+    "start": "2026-05-25T10:20:00Z",
+    "stop": "2026-05-25T11:10:00Z",
+    "project": "Рутина",
+    "tags": ["другое"],
+    "description": "Рутина"
+  },
+  {
+    "start": "2026-05-25T11:10:00Z",
+    "stop": "2026-05-25T14:10:00Z",
+    "project": "Deep Work",
+    "tags": ["PODG", "KOM", "Jetix-foundation"],
+    "description": "Дмитрий Кайзер — подготовка к звонку + созвон (1h звонок discovery)"
+  },
+  {
+    "start": "2026-05-25T14:10:00Z",
+    "stop": "2026-05-25T15:00:00Z",
+    "project": "Отдых",
+    "tags": [],
+    "description": "Отдых"
+  },
+  {
+    "start": "2026-05-25T15:00:00Z",
+    "stop": "2026-05-25T16:10:00Z",
+    "project": "Deep Work",
+    "tags": ["OBR", "Jetix-foundation", "doc"],
+    "description": "Анализ документов + фильтрация всех документов (DOCS-CLASSIFICATION работа)"
+  },
+  {
+    "start": "2026-05-25T17:10:00Z",
+    "stop": "2026-05-25T18:00:00Z",
+    "project": "Deep Work",
+    "tags": ["SOZD", "Jetix-foundation"],
+    "description": "Думал какие сообщения партнёрам писать + цели"
+  },
+  {
+    "start": "2026-05-25T18:10:00Z",
+    "stop": "2026-05-25T19:30:00Z",
+    "project": "Гулял",
+    "tags": [],
+    "description": "Прогулка"
+  },
+  {
+    "start": "2026-05-25T19:30:00Z",
+    "stop": "2026-05-25T20:20:00Z",
+    "project": "Deep Work",
+    "tags": ["OBR", "Jetix-foundation", "doc"],
+    "description": "Обработка документов, сбор всего в кучу"
+  },
+  {
+    "start": "2026-05-25T20:20:00Z",
+    "stop": "2026-05-25T20:50:00Z",
+    "project": "Отдых",
+    "tags": [],
+    "description": "Отдых"
+  },
+  {
+    "start": "2026-05-25T20:50:00Z",
+    "stop": "2026-05-25T22:40:00Z",
+    "project": "Deep Work",
+    "tags": ["OBR", "Jetix-foundation", "doc"],
+    "description": "Обработка документов continued"
+  },
+  {
+    "start": "2026-05-25T22:40:00Z",
+    "stop": "2026-05-25T23:40:00Z",
+    "project": "Гулял",
+    "tags": ["самокат"],
+    "description": "Гулял на самокате"
+  },
+  {
+    "start": "2026-05-25T23:40:00Z",
+    "stop": "2026-05-26T01:20:00Z",
+    "project": "Deep Work",
+    "tags": ["OBR", "Jetix-foundation", "doc"],
+    "description": "Сбор документов в кучу"
+  },
+  {
+    "start": "2026-05-26T01:20:00Z",
+    "stop": "2026-05-26T03:00:00Z",
+    "project": "Отдых",
+    "tags": ["фильм"],
+    "description": "Смотрел фильм"
+  },
+  {
+    "start": "2026-05-26T03:10:00Z",
+    "stop": "2026-05-26T11:40:00Z",
+    "project": "Сон",
+    "tags": ["глубокий"],
+    "description": "Ночной сон"
+  },
+  {
+    "start": "2026-05-26T11:40:00Z",
+    "stop": "2026-05-26T12:20:00Z",
+    "project": "Рутина",
+    "tags": ["другое"],
+    "description": "Рутина утренняя"
+  },
+  {
+    "start": "2026-05-26T12:20:00Z",
+    "stop": "2026-05-26T12:40:00Z",
+    "project": "Зарядка",
+    "tags": [],
+    "description": "Утренняя зарядка"
+  },
+  {
+    "start": "2026-05-26T12:40:00Z",
+    "stop": "2026-05-26T13:10:00Z",
+    "project": "Рутина",
+    "tags": ["другое"],
+    "description": "Рутина"
+  }
+]
