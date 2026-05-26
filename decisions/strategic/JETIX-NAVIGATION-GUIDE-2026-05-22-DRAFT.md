@@ -2,7 +2,7 @@
 title: Jetix Navigation Guide — как изучать систему (DRAFT)
 date: 2026-05-22
 type: navigation-guide-substrate-draft
-audience: Wave 1 recipients (Левенчук + Цэрэн + МИМ inner cluster) — first read orientation
+audience: Wave 1 recipients (Левенчук + Церен + МИМ inner cluster) — first read orientation
 prose_authored_by: brigadier-scribe (Cloud Cowork) — DRAFT substrate compile
 parent_method_v2: decisions/strategic/METHOD-LIFE-DEVELOPMENT-V2-2026-05-21.md
 parent_strategic_plan: decisions/strategic/STRATEGIC-PLAN-NEAR-FUTURE-2026-05-21.md
@@ -20,7 +20,7 @@ sibling_explain: prompts/explanations/_EXPLAIN-navigation-guide-deep-2026-05-23.
 
 # 🧭 Jetix Navigation Guide
 
-> **Кому:** Левенчук, Цэрэн, МИМ inner cluster (первые получатели). После — другим recipients Wave 1.5+.
+> **Кому:** Левенчук, Церен, МИМ inner cluster (первые получатели). После — другим recipients Wave 1.5+.
 >
 > **Что это:** orientation document для понимания Jetix как системы — история / основная гипотеза / план / срочность / запрос / навигация по документам.
 >
@@ -92,7 +92,7 @@ sibling_explain: prompts/explanations/_EXPLAIN-navigation-guide-deep-2026-05-23.
 
 ### Этап 2: Собрать влиятельных людей
 
-**Wave 1 (текущий):** Левенчук + Цэрэн + МИМ inner cluster (Gabdulin / Batyrshin / Podobed).
+**Wave 1 (текущий):** Левенчук + Церен + МИМ inner cluster (Gabdulin / Batyrshin / Podobed).
 **Wave 1.5-2:** Karpathy + Buterin + Anthropic (Olah / Kaplan) + RU AI (Markov / Sapunov).
 **Layer 1 Foundation cohort:** 10-15 builders (Июнь 1-7) — constitutional finalize + R12 Ethereum spec + ROY swarm packaging.
 **Layer 2 Platform Infra:** 200-300 contributors (Июнь 8-14).
@@ -130,7 +130,27 @@ sibling_explain: prompts/explanations/_EXPLAIN-navigation-guide-deep-2026-05-23.
 - ROY swarm 5 experts available as teaching aids
 - 3-tier funnel: продвинутые обучают новичков (Feynman test of understanding)
 
-**Левенчук + Цэрэн = одни из первых** кому показываем full picture. Reason: deepest substrate alignment (методология ШСМ + МИМ ecosystem — closest to Jetix synthesis).
+**Левенчук + Церен = одни из первых** кому показываем full picture. Reason: deepest substrate alignment (методология ШСМ + МИМ ecosystem — closest to Jetix synthesis).
+
+### §4.1 Расширенная концепция Мастерской (Sprint 26.05 expansion)
+
+**Мега-мастерская** — это **foundational metaphor Jetix как пространства**, не просто positioning:
+
+- **Все мастера собираются** в одном месте (виртуально → оффлайн физические места)
+- **Разные инструменты** доступны — можно улучшать, ставить новый «станок» (member proposes → community evaluates)
+- **Исследовательский центр** — создаются новые методы / открытые проекты
+- **Зона мастерства** + зона встреч + тренировочный зал + спортивный + место для медитации / йоги + место совместного отдыха
+- **Можно встретить любого человека / попасть в мега-клуб / побыть в роли инвестора / партнёра / консультанта / исследователя** (role experimentation)
+- **Online → Offline transition**: virtuаль (now) → Берлин permanent (year 2) → 3-10 cities (year 3-5) → 30-100+ network (year 5+)
+- **Multi-language** (English lingua franca + local) + **multi-location member movement** (travel program / cross-cell projects / sabbaticals)
+- **Resources pooling**: знакомства / помещения / хаты / машины / бизнес-идеи / деньги / информация / навыки — всё в кучу (Mondragón pattern)
+- **Activities**: походы в ниши / поездки в города / соревнования / школа / совместный отдых / путешествия / создание новых сообществ
+
+**Концепция Мастерства**: накопление методов + **выбор в нужный момент нужного навыка** + вечная тренировка. AI делает рутину → человек занимается **mastery moments**, решением сложных задач, frontier-работой. **Темы vs уровни** — мастерство не линейно, а в разных топиках; сравнение мастеров между топиками бессмысленно.
+
+**Этап подготовки** = неотъемлемая часть результата (mastery видно на переходах prep→action / study→action / action→feedback). Method V2 §J 6-step meta-method расширен до 8 шагов с explicit preparation stage.
+
+**Полный спек** — см. §11.5 ниже (3 NEW concept docs Sprint 26.05).
 
 ---
 
@@ -367,7 +387,7 @@ gantt
     dateFormat YYYY-MM-DD
     title Jetix 1-2 месяца кардинальный sprint
     section Wave 1 outreach
-    Send Левенчук + Цэрэн (Tier 1)        :w1a, 2026-05-23, 2d
+    Send Левенчук + Церен (Tier 1)        :w1a, 2026-05-23, 2d
     Send МИМ inner (Tier 2)                :w1b, after w1a, 2d
     Feedback aggregation                    :w1c, after w1b, 5d
     Co-strategising rounds                  :w1d, after w1c, 7d
@@ -428,7 +448,7 @@ graph LR
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa'}}}%%
 sequenceDiagram
-    participant Recipient as Recipient<br/>(Левенчук/Цэрэн/МИМ)
+    participant Recipient as Recipient<br/>(Левенчук/Церен/МИМ)
     participant Ruslan
     participant Substrate as Substrate<br/>(Method V2 / Strategic Plan / etc.)
 
@@ -446,6 +466,57 @@ sequenceDiagram
 
 ---
 
+## §10.5 Sprint 23-26.05 expansion — NEW documents (architecture foundation)
+
+> За 4 дня (23-26.05) substrate expanded massively. 15+ NEW strategic documents + полная Notion workspace built live. Все sterile, fork-friendly, READY для partner-facing использования (после R1 ack полировки).
+
+### §10.5.A Architecture / Master skeleton (4 docs)
+
+| # | Doc | Что внутри | Time read |
+|---|---|---|---|
+| 16 | `decisions/strategic/JETIX-FULL-MAP-AND-DOCS-SKELETON-2026-05-25.md` | **Master skeleton** — 12 entities (метод/инструменты/корпорация/4+заработковых моделей/платформа/образование/партнёры/community/R12/governance/research/strategic anchors) + 6 directions + 94 documents skeleton (36✅/25⚠️/33❌) + reference corporations (Apple/Tesla/Mondragón/Berkshire) + 4 super-кластера + 5 cross-cutting | 45-60 min |
+| 17 | `decisions/strategic/JETIX-PUBLIC-DOCS-METAPLAN-V2-2026-05-25.md` | **MAX-DEPTH metaplan** — variant D Hybrid expanded + 11 directions × 3 doors × narrative routes + Rules document (10 angles) + Values + Beliefs document + Vision standalone + per-direction skeletons. Reference corps Western+Chinese (Alibaba/Tencent/ByteDance/Huawei/DJI/Xiaomi/Pinduoduo/Baidu) + cooperative + research | 60-90 min |
+| 18 | `decisions/strategic/DOCS-CLASSIFICATION-2026-05-25.md` | **4 категории mapping** — 🟢 пояснительные / 🛠️ шаблоны / 📚 substrate / ⚙️ system + 19 GAPs + audience matrix per partner type | 20 min |
+| 19 | `decisions/strategic/PLATFORM-LIFECYCLE-STAGES-PLAN-2026-05-25.md` | **3 этапа платформы** — Build / Run / Scale + per-stage actors + что просим/даём + R12 защита растёт быстрее системы + 4-недельный Build план (videos + Notion + Charter + Wave 1) | 30-45 min |
+
+### §10.5.B Workshop + Mastery + Network concept (3 NEW frame docs)
+
+| # | Doc | Что внутри | Time read |
+|---|---|---|---|
+| 20 | `decisions/strategic/JETIX-WORKSHOP-MASTERY-NETWORK-CONCEPT-2026-05-26.md` | **Foundational metaphor** Jetix = мега-мастерская + 3 NEW directions: 🏛️ Workshop Concept (физическое+виртуальное пространство, online→offline transition) / 🎯 Mastery Concept (накопление методов + выбор в нужный момент + AI стратификация + темы vs уровни) / 🌍 Network of Workshops (multi-location + multi-language + resources pooling + cross-cell movement) + 5 vivid worked examples (типичный день/месяц/год/expedition/cross-cell project) | 60-90 min |
+| 21 | `decisions/strategic/WORKSHOP-CONCEPT-SUPPLEMENT-2026-05-26.md` | **Founder-as-Exhibit narrative** (я первый пользователь системы которую сам построил; продвижение через демонстрацию результатов) + **anti-marketing stance** (никакой рекламы / hooks; observation через Instagram/works/partners) + **Mastery deepening** (templates × unique tasks dualism + 3 axes accumulation: знания+навыки+люди + темы vs уровни) | 25 min |
+| 22 | `decisions/strategic/PREPARATION-STAGE-CONCEPT-SUPPLEMENT-2026-05-26.md` | **Этап подготовки** explicit — неотъемлемая часть результата (не pre-work) + **Extended Meta-Method 8 steps** (Method V2 §J 6-step → 8 steps with preparation explicit) + THE TRICK (unique custom method born из preparation, не из repertoire) + Mastery at transitions (prep→action / study→action / action→feedback) + AI stratification mapping | 25 min |
+
+### §10.5.C Notion templates architecture + LIVE workspace (2 docs + real Notion)
+
+| # | Doc | Что внутри | Time read |
+|---|---|---|---|
+| 23 | `decisions/strategic/NOTION-TEMPLATES-3-LAYERS-ARCHITECTURE-V2-2026-05-25.md` | **3 layers Notion архитектура** — Layer 1 Personal Core (Daily Log с цель дня/реально сделано/deep work min/day type + Projects/Tasks/Ideas/Strategic Layer/Contacts/Knowledge/Hypotheses/Life Pulse/Finances + Habits + Философский лист) / Layer 2 Team Collaboration (Generic baseline + Jetix overlay + Brand adaptation pattern) / Layer 3 Universal Business Foundation (15 generic DBs fork-able для любого бизнеса) + AI Tools mega-page | 60 min |
+| 24 | `decisions/strategic/NOTION-BUILD-REPORT-2026-05-25.md` + **LIVE Notion workspace** | **35 pages + 36 DBs + 44 relations + 20 AI tools + Master Dashboard + Onboarding & Help** реально построены на Notion. Sterile shell preserved (zero migration существующих данных Ruslan) + idempotent + R12-audited. Markdown mirror parallel в `reports/notion-build-2026-05-25/notion-mirror/` = filesystem source of truth | 30 min + walk через UI |
+
+### §10.5.D Build artefacts + operational supplements (5 docs)
+
+| # | Doc | Что внутри | Time read |
+|---|---|---|---|
+| 25 | `reports/build-artefacts-specs-2026-05-25/` (13 phase reports) | **10-12 Build артефактов deep specs** (15-point template per артефакт): Видео A/B/C / Notion Personal+Team OS / Charter / Лендинг+FAQ / Discovery call script / Юр+финансы / Supporting (course skeleton+Telegram+sales-minimum+brand-minimum) | per артефакт 15-20 min |
+| 26 | `decisions/strategic/CALL-PLAN-DMITRIY-KAISER-2026-05-25.md` | **1h discovery call script** — Dmitriy Kaiser (corporate culture / business consultant / engineering bg) — 6 substance тезисов + 5 вопросов + 3-5 anticipated Q+A + R12 8-Q sweep + pre/post checklists | 15 min |
+| 27 | `decisions/strategic/EXECUTION-PLAN-FIXATION-2026-05-24.md` | **4 типа партнёров (T1-T4) + 2 направления A/B + sequencing 3 недели** — baseline для всех partner outreach decisions | 30 min |
+| 28 | `decisions/strategic/CONSOLIDATED-HUMAN-LANGUAGE-PLAN-2026-05-24.md` | **План обучения на человеческом** — 5+1 архетипов + 7 принципов + 7 ступеней Bloom + что даём на каждой ступени | 20 min |
+| 29 | `decisions/strategic/OUTREACH-CONTENT-OUTCOMES-CTAS-2026-05-24.md` | **38K substrate** — 7+3 универсальных принципов + 13 CTAs + 31 анти-паттерн + 5+1 архетипов + 18 P0-P6 артефактов | 30-45 min |
+
+### §10.5.E Подытог Sprint 23-26.05
+
+- **15+ NEW strategic docs** (~150K+ plain Russian)
+- **80+ phase reports** (server CC autonomous runs)
+- **50+ mermaid diagrams**
+- **LIVE Notion workspace** (35 pages + 36 DBs + 44 relations)
+- **Substrate saturation подтверждён** (O-163) — mode shift: development → fixation → filling per direction → outreach
+- **Workshop metaphor crystallized** как primary frame для outreach
+- **Preparation Stage explicit** + Extended 8-step meta-method
+- **~80+ R1 decisions** ждут Ruslan ack — priority session needed
+
+---
+
 ## §11 GitHub access + links
 
 ### Repo access mode для Wave 1
@@ -459,15 +530,70 @@ sequenceDiagram
 
 ### Links blueprint (Wave 1 message)
 
+**Core (читать первым делом):**
 ```
 GitHub: https://github.com/Bogersebekov/jetix-os
   (после ack — invite на read access; на bogersebekov username)
 Этот Navigation Guide: github.com/Bogersebekov/jetix-os/blob/main/decisions/strategic/JETIX-NAVIGATION-GUIDE-2026-05-22-DRAFT.md
+Partner Offering: github.com/Bogersebekov/jetix-os/blob/main/PARTNER-OFFERING-HUMAN-LANG-2026-05-22.md
 Method V2: github.com/Bogersebekov/jetix-os/blob/main/decisions/strategic/METHOD-LIFE-DEVELOPMENT-V2-2026-05-21.md
 Strategic Plan: github.com/Bogersebekov/jetix-os/blob/main/decisions/strategic/STRATEGIC-PLAN-NEAR-FUTURE-2026-05-21.md
 Economic Model: github.com/Bogersebekov/jetix-os/blob/main/decisions/strategic/ECONOMIC-MODEL-TOKENOMICS-2026-05-22.md
-Partner Offering: github.com/Bogersebekov/jetix-os/blob/main/PARTNER-OFFERING-HUMAN-LANG-2026-05-22.md
-Video: [YouTube unlisted link — Май 23-24 запись]
+Video: [YouTube unlisted link — запись pending Sprint 26-27.05]
+```
+
+**Sprint 23-26.05 expansion — Architecture foundation (если хочет глубже):**
+```
+Master Skeleton (12 entities + 94 docs + reference corps):
+  github.com/Bogersebekov/jetix-os/blob/main/decisions/strategic/JETIX-FULL-MAP-AND-DOCS-SKELETON-2026-05-25.md
+
+Public Docs MetaPlan V2 (11 directions × 3 doors × routes):
+  github.com/Bogersebekov/jetix-os/blob/main/decisions/strategic/JETIX-PUBLIC-DOCS-METAPLAN-V2-2026-05-25.md
+
+Platform Lifecycle (Build/Run/Scale + actor matrix + 4-week plan):
+  github.com/Bogersebekov/jetix-os/blob/main/decisions/strategic/PLATFORM-LIFECYCLE-STAGES-PLAN-2026-05-25.md
+
+Docs Classification (4 категории + GAP):
+  github.com/Bogersebekov/jetix-os/blob/main/decisions/strategic/DOCS-CLASSIFICATION-2026-05-25.md
+```
+
+**Sprint 26.05 — Workshop+Mastery+Network concept (foundational metaphor):**
+```
+Workshop+Mastery+Network Concept (мега-мастерская + 3 NEW directions + 5 vivid scenarios):
+  github.com/Bogersebekov/jetix-os/blob/main/decisions/strategic/JETIX-WORKSHOP-MASTERY-NETWORK-CONCEPT-2026-05-26.md
+
+Workshop Concept Supplement (Founder-as-Exhibit + anti-marketing + Mastery deepening):
+  github.com/Bogersebekov/jetix-os/blob/main/decisions/strategic/WORKSHOP-CONCEPT-SUPPLEMENT-2026-05-26.md
+
+Preparation Stage Concept Supplement (этап подготовки + Extended 8-step meta-method):
+  github.com/Bogersebekov/jetix-os/blob/main/decisions/strategic/PREPARATION-STAGE-CONCEPT-SUPPLEMENT-2026-05-26.md
+```
+
+**Notion templates + LIVE workspace (что собираем для fork):**
+```
+Notion Templates 3-Layers Architecture V2:
+  github.com/Bogersebekov/jetix-os/blob/main/decisions/strategic/NOTION-TEMPLATES-3-LAYERS-ARCHITECTURE-V2-2026-05-25.md
+
+Notion Build Report (35 pages + 36 DBs + 44 relations live):
+  github.com/Bogersebekov/jetix-os/blob/main/decisions/strategic/NOTION-BUILD-REPORT-2026-05-25.md
+
+LIVE Notion workspace (после ack share — share read-link к sterile templates):
+  [Notion link — share через UI после Wave 1 ack per recipient]
+```
+
+**Operational substrate (для T1 партнёров глубокий dive):**
+```
+Execution Plan Fixation (4 типа партнёров + sequencing):
+  github.com/Bogersebekov/jetix-os/blob/main/decisions/strategic/EXECUTION-PLAN-FIXATION-2026-05-24.md
+
+Consolidated Human-Language Plan (план обучения):
+  github.com/Bogersebekov/jetix-os/blob/main/decisions/strategic/CONSOLIDATED-HUMAN-LANGUAGE-PLAN-2026-05-24.md
+
+Outreach Content + CTAs (7+3 принципов + 13 CTAs + 18 артефактов):
+  github.com/Bogersebekov/jetix-os/blob/main/decisions/strategic/OUTREACH-CONTENT-OUTCOMES-CTAS-2026-05-24.md
+
+Build Artefacts Specs (10-12 артефактов deep specs):
+  github.com/Bogersebekov/jetix-os/tree/main/reports/build-artefacts-specs-2026-05-25
 ```
 
 ---
