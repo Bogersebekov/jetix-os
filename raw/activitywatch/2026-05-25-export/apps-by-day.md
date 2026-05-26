@@ -4,76 +4,73 @@ title: Apps with titles by day (Berlin TZ, sessions ≥30s)
 
 # Apps with titles — by day
 
-## 2026-05-24
-
-| Time | App — Title |
-|---|---|
-| 2h44m | `claude.exe — Claude` |
-| 2h08m | `Code.exe — Preview 00-SUMMARY-FOR-RUSLAN.md - jetix-os [SSH: jetix] - Visual Studio Code` |
-| 35m23s | `Code.exe — Preview EXECUTION-PLAN-FIXATION-2026-05-24.md - jetix-os [SSH: jetix] - Visual S` |
-| 29m56s | `Code.exe — Preview PD01-plans-flow-comparison.md - jetix-os [SSH: jetix] - Visual Studio Co` |
-| 28m40s | `Code.exe — Preview RESEARCH-BOOKS-TO-DOWNLOAD-2026-05-23.md - jetix-os [SSH: jetix] - Visua` |
-| 23m15s | `chrome.exe — New Tab - Google Chrome` |
-| 19m29s | `chrome.exe — 24.05.2026 — Production Day \| Notion - Google Chrome` |
-| 10m37s | `Code.exe — Preview 04-proshivka-etapy-varianty.md - jetix-os [SSH: jetix] - Visual Studio C` |
-| 10m31s | `explorer.exe — Apple iPhone - File Explorer` |
-| 9m59s | `Code.exe — Preview 05-mermaid-schemes.md - jetix-os [SSH: jetix] - Visual Studio Code` |
-| 9m18s | `Code.exe — Preview 06-multi-variant-programs.md - jetix-os [SSH: jetix] - Visual Studio Cod` |
-| 8m47s | `chrome.exe — Под колпаком 1372. Свобода информации. Макс Колпаков и Олег Брагинский - YouTube` |
-| 8m30s | `chrome.exe — У меня тачки на все случаи жизни \| Тачка под задачку - YouTube - Google Chrome` |
-| 8m18s | `chrome.exe — Человек, который изменил всё (2011) дивитися онлайн безкоштовно - Google Chrome` |
-| 8m04s | `chrome.exe — Про одиночество - YouTube - Google Chrome` |
-| 7m42s | `Code.exe — Preview 07-jetix-lens-education.md - jetix-os [SSH: jetix] - Visual Studio Code` |
-| 7m05s | `chrome.exe — Тем кто с нами • blackwater - Google Chrome` |
-| 6m54s | `chrome.exe — Я спробував Forza Horizon 6... - YouTube - Google Chrome` |
-| 6m45s | `chrome.exe — Про соглашение (Незавершённая версия) - YouTube - Google Chrome` |
-| 5m35s | `Code.exe — Preview 04-mermaid-deep-plus-icp.md - jetix-os [SSH: jetix] - Visual Studio Code` |
-| 5m09s | `Code.exe — Preview 01-content-universal-approach.md - jetix-os [SSH: jetix] - Visual Studio` |
-| 5m09s | `Telegram.exe — ‎Идеи @ ‎/Ruslan (3385)` |
-| 4m57s | `chrome.exe — KIZARU - На что потратит 50 000€? - YouTube - Google Chrome` |
-| 4m49s | `chrome.exe — Anastasia ur lover girl for fun \| erotik.markt.de - Google Chrome` |
-| 4m45s | `Code.exe — Preview 03-plan-of-day-integration-mapping.md - jetix-os [SSH: jetix] - Visual S` |
-| 4m38s | `chrome.exe — YouTube - Google Chrome` |
-| 4m33s | `chrome.exe — почему невозможно придумать что-то новое - YouTube - Google Chrome` |
-| 4m24s | `Code.exe — Preview 01-batch-13-voice-plan.md - jetix-os [SSH: jetix] - Visual Studio Code` |
-| 4m11s | `Code.exe — Preview 03-plan-c-notion-templates-deep.md - jetix-os [SSH: jetix] - Visual Stud` |
-| 3m48s | `chrome.exe — Один день из жизни IsAuto. - YouTube - Google Chrome` |
-| 3m48s | `Telegram.exe — ‎Идеи @ ‎/Ruslan (3384)` |
-| 3m41s | `chrome.exe — Design for How People Learn - Google Chrome` |
-| 3m36s | `chrome.exe — Ради всего человечества (1-5 сезон 1-9,10 серия) дивитися онлайн безкоштовно - G` |
-| 3m32s | `chrome.exe — Москва • Basta - Google Chrome` |
-| 3m26s | `Code.exe — Preview 07-jetix-lens-what-to-use.md - jetix-os [SSH: jetix] - Visual Studio Cod` |
-| 3m25s | `Code.exe — Preview 02-chemu-obuchaem.md - jetix-os [SSH: jetix] - Visual Studio Code` |
-| 3m16s | `chrome.exe — Урбан • Basta - Google Chrome` |
-| 3m11s | `chrome.exe — Почему я никогда не продам эту BMW E34? - YouTube - Google Chrome` |
-| 3m09s | `Code.exe — Preview SUMMARY.md - jetix-os [SSH: jetix] - Visual Studio Code` |
-| 3m08s | `chrome.exe — Про зубы - YouTube - Google Chrome` |
-| 3m | `Code.exe — Preview 03-execution-plans-2-3-options.md - jetix-os [SSH: jetix] - Visual Studi` |
-| 2m59s | `Code.exe — Preview 04-per-archetype-variants.md - jetix-os [SSH: jetix] - Visual Studio Cod` |
-| 2m54s | `chrome.exe — B.L.U.E. System Update! - YouTube - Google Chrome` |
-| 2m50s | `Code.exe — Preview OUTREACH-CONTENT-OUTCOMES-CTAS-2026-05-24.md - jetix-os [SSH: jetix] - V` |
-| 2m45s | `chrome.exe — AI Studio - Mistral AI - Google Chrome` |
-| 2m43s | `chrome.exe — Великолепие ежедневной заметки: структура, которая прожила со мной полтора года ` |
-| 2m34s | `chrome.exe — Бої КМС з ММА — це турнір «ІДУ НА ВИ» від Третього корпусу. Зустрічай одразу 2 п` |
-| 2m20s | `chrome.exe — jetix-os/decisions/strategic/RESEARCH-EDUCATION-2026-05-24.md at main · Bogerseb` |
-| 2m12s | `chrome.exe — Как наш мир стал "Эквилибриумом" - YouTube - Google Chrome` |
-| 2m11s | `Code.exe — Preview 06-master-qualification-deep.md - jetix-os [SSH: jetix] - Visual Studio ` |
-
 ## 2026-05-25
 
 | Time | App — Title |
 |---|---|
-| 57m36s | `chrome.exe — Мегамозг (2010) дивитися онлайн безкоштовно - Google Chrome` |
-| 8m22s | `claude.exe — Claude` |
-| 7m29s | `chrome.exe — Человек, который изменил всё (2011) дивитися онлайн безкоштовно - Google Chrome` |
-| 4m01s | `Code.exe — Preview _PLAN-OF-DAY-2026-05-25.md - jetix-os [SSH: jetix] - Visual Studio Code` |
-| 2m40s | `Code.exe — Preview 02-top-level-structure.md - jetix-os [SSH: jetix] - Visual Studio Code` |
-| 2m29s | `chrome.exe — Spotify – Lieblingssongs - Google Chrome` |
+| 2h32m | `chrome.exe — Звонок. Дмитрий Кайзер - Miro - Google Chrome` |
+| 2h18m | `claude.exe — Claude` |
+| 1h12m | `chrome.exe — Spotify – Lieblingssongs - Google Chrome` |
+| 45m49s | `chrome.exe — jetix-os/decisions/strategic/EXECUTION-PLAN-FIXATION-2026-05-24.md at main · Bog` |
+| 42m52s | `Code.exe — Preview JETIX-FULL-MAP-AND-DOCS-SKELETON-2026-05-25.md - jetix-os [SSH: jetix] -` |
+| 34m50s | `Telegram.exe — ‎Tseren Tserenov @ ‎/Ruslan (3406)` |
+| 28m31s | `Code.exe — Preview DOCS-CLASSIFICATION-2026-05-25.md - jetix-os [SSH: jetix] - Visual Studi` |
+| 22m18s | `Code.exe — Preview NOTION-TEMPLATES-4-LAYERS-ARCHITECTURE-2026-05-25.md - jetix-os [SSH: je` |
+| 14m36s | `Telegram.exe — ‎Tseren Tserenov @ ‎/Ruslan (3407)` |
+| 13m38s | `Code.exe — Preview 02-entities-full.md - jetix-os [SSH: jetix] - Visual Studio Code` |
+| 13m05s | `Code.exe — Preview PLATFORM-LIFECYCLE-STAGES-PLAN-2026-05-25.md - jetix-os [SSH: jetix] - V` |
+| 12m43s | `Zoom.exe — Zoom Meeting` |
+| 11m47s | `Telegram.exe — ‎Tseren Tserenov @ ‎/Ruslan (3404)` |
+| 8m47s | `Code.exe — Preview 07-points-mapping.md - jetix-os [SSH: jetix] - Visual Studio Code` |
+| 7m50s | `Code.exe — Preview 03-layer-1-personal-core-revised.md - jetix-os [SSH: jetix] - Visual Stu` |
+| 7m24s | `Code.exe — Preview build-artefacts-specs-2026-05-25.md - jetix-os [SSH: jetix] - Visual Stu` |
+| 6m04s | `Code.exe — Preview 08-build-stage-next-weeks.md - jetix-os [SSH: jetix] - Visual Studio Cod` |
+| 5m49s | `Code.exe — Preview JETIX-PUBLIC-DOCS-METAPLAN-2026-05-25.md - jetix-os [SSH: jetix] - Visua` |
+| 5m32s | `Telegram.exe — ‎Катерина corp @ ‎/Ruslan (3398)` |
+| 5m32s | `Code.exe — Preview 02-reference-public-architectures.md - jetix-os [SSH: jetix] - Visual St` |
+| 5m | `Telegram.exe — ‎Экосистема Созидания @ ‎/Ruslan (3405)` |
+| 4m50s | `Code.exe — Preview _PLAN-OF-DAY-2026-05-25.md - jetix-os [SSH: jetix] - Visual Studio Code` |
+| 4m44s | `Code.exe — Preview 03-layer-1-personal-core.md - jetix-os [SSH: jetix] - Visual Studio Code` |
+| 4m25s | `Code.exe — Preview 05-layer-3-team-collaboration.md - jetix-os [SSH: jetix] - Visual Studio` |
+| 4m21s | `Code.exe — Preview timeline-2026-05-25.md - jetix-os [SSH: jetix] - Visual Studio Code` |
+| 3m27s | `chrome.exe — Тем кто с нами • blackwater - Google Chrome` |
+| 3m19s | `chrome.exe — 25.05.2026 — Production Day \| Notion - Google Chrome` |
+| 3m11s | `Code.exe — Preview 03-variants-structure.md - jetix-os [SSH: jetix] - Visual Studio Code` |
+| 3m08s | `chrome.exe — Toggl Track - Google Chrome` |
+| 3m03s | `Code.exe — Preview 04-per-variant-main-docs.md - jetix-os [SSH: jetix] - Visual Studio Code` |
+| 2m55s | `Code.exe — Preview 06-per-stage-documents.md - jetix-os [SSH: jetix] - Visual Studio Code` |
+| 2m52s | `chrome.exe — Фром Москоу • AK-47, Triagrutrika, Витя АК, Jahmal TGK, VibeTGK - Google Chrome` |
+| 2m49s | `Code.exe — Preview CONSOLIDATED-HUMAN-LANGUAGE-PLAN-2026-05-24.md - jetix-os [SSH: jetix] -` |
+| 2m33s | `chrome.exe — Message • kizaru - Google Chrome` |
+| 2m32s | `Code.exe — Preview AI-TOOLS-LIFEHACKS-MEGA-PAGE-2026-05-25.md - jetix-os [SSH: jetix] - Vis` |
+| 2m20s | `Code.exe — Preview call-plan-dmitriy-kaiser-2026-05-25.md - jetix-os [SSH: jetix] - Visual ` |
+| 2m08s | `chrome.exe — Созвон Дмитрий - Miro - Google Chrome` |
+| 2m | `Code.exe — Preview PARTNER-OFFERING-HUMAN-LANG-2026-05-22.md - jetix-os [SSH: jetix] - Visu` |
 | 1m49s | `Code.exe — Preview 06-claude-code-integration.md - jetix-os [SSH: jetix] - Visual Studio Co` |
+| 1m41s | `Code.exe — Preview 04-layer-2-personal-expanded.md - jetix-os [SSH: jetix] - Visual Studio ` |
+| 1m35s | `chrome.exe — Описание системы для МИМ - Google Chrome` |
+| 1m31s | `chrome.exe — Jetix HQ \| Notion - Google Chrome` |
 | 1m23s | `Code.exe — Preview 08-mermaid-schemes.md - jetix-os [SSH: jetix] - Visual Studio Code` |
-| 1m22s | `chrome.exe — Антидепрессант • Triagrutrika - Google Chrome` |
-| 52s | `explorer.exe — Apple iPhone - File Explorer` |
-| 45s | `chrome.exe — New Tab - Google Chrome` |
-| 44s | `chrome.exe — Всі фільми та серіали Брэд Питт дивитися онлайн безкоштовно » Сторінка 3 - Googl` |
-| 37s | `ShellHost.exe — Quick settings` |
+| 1m21s | `Code.exe — Preview timeline-2026-05-24.md - jetix-os [SSH: jetix] - Visual Studio Code` |
+| 1m20s | `Code.exe — Preview 10-per-layer-onboarding.md - jetix-os [SSH: jetix] - Visual Studio Code` |
+| 1m19s | `Code.exe — Preview 08-reference-corps.md - jetix-os [SSH: jetix] - Visual Studio Code` |
+| 1m18s | `Code.exe — Preview 04-layer-2-team-collaboration-revised.md - jetix-os [SSH: jetix] - Visua` |
+| 1m16s | `chrome.exe — Daily Log \| Last 5 Days \| Notion - Google Chrome` |
+| 1m11s | `Code.exe — Preview 12-mermaid-suite.md - jetix-os [SSH: jetix] - Visual Studio Code` |
+| 1m09s | `Telegram.exe — ‎Экосистема Созидания @ ‎/Ruslan (3395)` |
+
+## 2026-05-26
+
+| Time | App — Title |
+|---|---|
+| 1h07m | `Code.exe — Preview 04-per-variant-main-docs.md - jetix-os [SSH: jetix] - Visual Studio Code` |
+| 12m05s | `chrome.exe — Spotify – Lieblingssongs - Google Chrome` |
+| 7m49s | `Telegram.exe — Telegram (3402)` |
+| 5m58s | `chrome.exe — AI Tools & Lifehacks \| Notion - Google Chrome` |
+| 5m18s | `claude.exe — Claude` |
+| 5m02s | `Telegram.exe — ‎Идеи @ ‎/Ruslan (3402)` |
+| 2m23s | `Code.exe — Preview 00-SUMMARY-FOR-RUSLAN.md - jetix-os [SSH: jetix] - Visual Studio Code` |
+| 2m06s | `chrome.exe — Никогда не сомневался • AK-47 - Google Chrome` |
+| 1m57s | `chrome.exe — NOBODY • Aarne, Toxi$, Big Baby Tape - Google Chrome` |
+| 1m53s | `chrome.exe — Москва не спит • Kiliana - Google Chrome` |
 

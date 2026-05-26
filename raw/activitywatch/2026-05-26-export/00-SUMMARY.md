@@ -10,59 +10,37 @@ tz: Europe/Berlin (UTC+2 / CEST)
 
 # ActivityWatch — last 2 days timeline
 
-**Counts:** 847 window / 503 chrome / 198 afk events. **Sessions ≥30s:** 173.
+**Counts:** 108 window / 133 chrome / 59 afk events. **Sessions ≥30s:** 30.
 
 ## §1 Per-day active vs AFK
 
 | Day | Active (window sessions ≥30s) | not-afk (mouse/keyboard) | afk (idle) |
 |---|---|---|---|
-| 2026-05-25 | 12h14m | 6h29m | 38h10m |
-| 2026-05-26 | 1h51m | 17m53s | 2h47m |
+| 2026-05-26 | 3h43m | 1h34m | 14h30m |
 
 ## §2 Top apps per day
 
-### 2026-05-25
-
-| App | Time |
-|---|---|
-| `chrome.exe` | 4h54m |
-| `Code.exe` | 3h33m |
-| `claude.exe` | 2h18m |
-| `Telegram.exe` | 1h14m |
-| `Zoom.exe` | 12m43s |
-| `explorer.exe` | 52s |
-
 ### 2026-05-26
 
 | App | Time |
 |---|---|
-| `Code.exe` | 1h09m |
-| `chrome.exe` | 23m59s |
-| `Telegram.exe` | 12m51s |
-| `claude.exe` | 5m18s |
+| `chrome.exe` | 2h17m |
+| `Code.exe` | 50m05s |
+| `claude.exe` | 19m05s |
+| `Telegram.exe` | 15m57s |
+| `ShellHost.exe` | 42s |
 
 ## §3 Top Chrome domains per day
 
-### 2026-05-25
-
-| Domain | Time |
-|---|---|
-| open.spotify.com | 1h24m |
-| github.com | 51m15s |
-| miro.com | 50m09s |
-| www.notion.so | 22m07s |
-| newtab | 4m21s |
-| www.loom.com | 2m44s |
-| track.toggl.com | 2m21s |
-| www.google.com | 1m40s |
-| uakinogo.org | 1m27s |
-
 ### 2026-05-26
 
 | Domain | Time |
 |---|---|
-| www.notion.so | 1h05m |
-| open.spotify.com | 11m45s |
+| github.com | 36m09s |
+| www.notion.so | 13m09s |
+| uakinogo.org | 3m52s |
+| open.spotify.com | 1m19s |
+| track.toggl.com | 1m03s |
 
 ## §4 Files in this export
 
