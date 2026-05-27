@@ -1,16 +1,19 @@
 ---
-title: Diagrams INDEX — VP-1..VP-4 (Voice Pipeline Public V2)
+title: Diagrams INDEX — VP-1..VP-4 + JM-1..JM-3 (Voice Pipeline Public V2 EXTENDED)
 date: 2026-05-26
+updated: 2026-05-27 (Phase 7 EXTENDED — +JM-1..JM-3)
 type: diagrams-index
 parent_main: decisions/strategic/VOICE-PIPELINE-PUBLIC-V2-2026-05-26.md
 language: russian primary
+mermaid_count: 7
 ---
 
-# Diagrams INDEX — VP-1..VP-4
+# Diagrams INDEX — VP-1..VP-4 + JM-1..JM-3
 
-> Каталог 4 mermaid-схем публичного описания voice-pipeline. Все — light background (чёрный текст
-> для копирования в Notion/PDF), ≥10 узлов, плотные. Стиль-инвариант совместим с WK-1..WK-8 и
-> PREP-1..PREP-4. Все 4 встраиваются inline в main doc.
+> Каталог 7 mermaid-схем публичного описания. **VP-1..VP-4** — сам voice-pipeline; **JM-1..JM-3** —
+> overview метода и Jetix (Phase 7 EXTENDED). Все — light background (чёрный текст для копирования в
+> Notion/PDF), ≥10 узлов, плотные. Стиль-инвариант совместим с WK-1..WK-8 и PREP-1..PREP-4. Все 7
+> встраиваются inline в main doc.
 
 | # | Имя | Показывает | Главная мысль | Inline |
 |---|---|---|---|---|
@@ -18,6 +21,9 @@ language: russian primary
 | VP-2 | Telegram inbox split | 3 части по намерению + единый inbox внешних материалов + Wispr | одна точка входа, разделённая по намерению | ✅ §B |
 | VP-3 | Двойная фильтрация | Filter 1 (интеграция в базу) ⊕ Filter 2 (lens-driven доставание) | две разные оси; вместе = синтез, не поиск | ✅ §C |
 | VP-4 | Исторический параллелизм | Дарвин / да Винчи / Луман / Форте → тот же паттерн + CC-ускорение | паттерн стар; ново только ускорение машиной | ✅ §D |
+| JM-1 | Дерево метода | наследование → Method V2 §J → 8-step → AI/человек граница → 4 точки вклада → one-liner | мастерство = собрать методы + применить нужный; вклад честно небольшой | ✅ §N |
+| JM-2 | Jetix 16 направлений | Foundation triad встроена в 16; 3 хаба + 5 центров связей; LOCKED фундамент | карта корпорации + честный статус (середина Build) | ✅ §N |
+| JM-3 | Путь чтения для ассистента | вход (main) → 4 ветки A/B/C/D с приоритетами и временем | не начинать с самого большого; этот doc + NAVIGATION-GUIDE | ✅ §N |
 
 **Стиль-инвариант:** `%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%`
 
@@ -183,6 +189,145 @@ graph TB
 
 ---
 
-*INDEX closure 2026-05-26. 4 схемы VP-1..VP-4 (все inline в main). Light bg, ≥10 узлов, чёрный текст
-для Notion/PDF. Архитектура отражает реальный код: 2 human-gate, CC-headless backend, whisper-large-v3,
-двойная фильтрация (Filter 1 + Filter 2 lens-driven).*
+## JM-1 — Дерево метода (наследование честное)
+
+> Наследование (Левенчук-OMG-MMK / Ericsson / Dweck / восточные / engineering) → Method V2 §J →
+> Extended 8-step → граница AI(подготовка)/человек(создание метода) → 4 точки своего вклада → one-liner.
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph TB
+    subgraph INH[📚 Наследование честное R6]
+        LEV[🔧 Левенчук · OMG · MMK<br/>FPF · системное мышление]
+        ERI[🎯 Ericsson<br/>deliberate practice]
+        DWE[🌱 Dweck<br/>growth mindset]
+        EAST[🏯 Восточные традиции<br/>без идеализации]
+        ENG[⚙️ Engineering virtuosity<br/>Knuth · Hoare]
+    end
+    BASE[📐 Method V2 §J<br/>6-шаговая процедура мета-метода]
+    LEV --> BASE
+    ERI --> BASE
+    DWE --> BASE
+    EAST --> BASE
+    ENG --> BASE
+    EXT[➕ Extended 8-step<br/>с явной Preparation Stage]
+    BASE --> EXT
+    EXT --> S2[Шаг 2 · подготовка<br/>🤖 AI heavy = voice-pipeline]
+    EXT --> S4[Шаг 4 · выбор/СОЗДАНИЕ метода<br/>🧠 ЧЕЛОВЕК = момент мастерства]
+    TRICK[💡 the trick<br/>уникальный метод рождается<br/>из подготовки > репертуара]
+    S2 --> TRICK
+    TRICK --> S4
+    subgraph OWN[✨ Свой вклад — 4 точки явные]
+        C1[🏛️ Workshop frame<br/>не «платформа»]
+        C2[🔀 Mastery at transitions<br/>не at peaks]
+        C3[⚖️ Templates × Unique<br/>выбор = навык]
+        C4[📍 Preparation Stage explicit]
+    end
+    EXT --> OWN
+    ONELINE([🎓 Мастерство = собрать нужные методы +<br/>выбрать и применить нужный в нужный момент])
+    OWN --> ONELINE
+    S4 --> ONELINE
+    style INH fill:#eeeeee,color:#000
+    style BASE fill:#fff8d5,color:#000
+    style EXT fill:#cce6ff,color:#000
+    style S4 fill:#ffd6d6,color:#000
+    style TRICK fill:#ffe0a0,color:#000
+    style OWN fill:#d6f0d6,color:#000
+    style ONELINE fill:#fff8d5,color:#000
+```
+
+---
+
+## JM-2 — Jetix: 16 направлений + Foundation triad
+
+> Foundation triad (Мастерская+Мастерство+Сеть) встроена в каждое из 16 направлений; 3 хаба навигации
+> + 5 центров связей выделены; снизу — LOCKED фундамент и честный статус (середина Build, 1 автор).
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph TB
+    TRIAD(["🏛️ Foundation triad<br/>Мастерская + Мастерство + Сеть<br/>встроена в каждое из 16"])
+    subgraph HUBS[🧭 3 хаба навигации + 5 центров связей]
+        D1[🧪 #1 Метод · хаб]
+        D8[⚖️ #8 R12 / Этика · хаб + densest]
+        D12[🏛️ #12 Мастерская · хаб + локальный центр]
+        D14[🌍 #14 Сеть + Кланы · топология]
+        D16[🏆 #16 Хакатоны · revenue engine]
+        D15[🎮 #15 Геймификация · engagement engine]
+    end
+    subgraph REST[остальные направления]
+        D2[🚀 #2 Платформа / станки]
+        D3[💼 #3 Бизнес]
+        D4[💰 #4 Заработок · 7 моделей]
+        D5[👥 #5 Партнёры]
+        D6[📜 #6 Видение]
+        D7[🎓 #7 Образование · Bloom]
+        D9[📋 #9 Правила работы]
+        D10[💎 #10 Ценности]
+        D11[📜 #11 Master Plan · Tesla]
+        D13[🎯 #13 Мастерство]
+    end
+    TRIAD --> HUBS
+    TRIAD --> REST
+    D8 -.anti-extraction floor.-> D4
+    D8 -.R12 STRICT.-> D15
+    D14 -.pooling.-> D16
+    D1 -.метод живёт в.-> D12
+    FOUND[🔒 Foundation v1.0 LOCKED<br/>11 Parts + Pillar A/C + 12 правил Tier 2 incl R12]
+    HUBS --> FOUND
+    REST --> FOUND
+    HONEST[⚠️ статус: середина Build<br/>substrate ≠ peer-reviewed · 1 автор]
+    FOUND --> HONEST
+    style TRIAD fill:#fff8d5,color:#000
+    style HUBS fill:#cce6ff,color:#000
+    style D8 fill:#ffd6d6,color:#000
+    style REST fill:#eeeeee,color:#000
+    style FOUND fill:#d6f0d6,color:#000
+    style HONEST fill:#ffe0a0,color:#000
+```
+
+---
+
+## JM-3 — Путь чтения для AI-ассистента
+
+> Вход (этот документ) → развилка по интересу → 4 ветки A/B/C/D с приоритетом и временем чтения.
+> Правило: не начинать с самого большого (VISION-FUNDAMENTAL) — сначала main + NAVIGATION-GUIDE.
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph TB
+    ENTRY([📍 ВХОД · этот документ<br/>Voice Pipeline V2 EXTENDED])
+    ENTRY --> Q{что интересно?}
+    Q -->|метод| PA[ветка A · Метод]
+    Q -->|корпорация| PB[ветка B · Jetix overview]
+    Q -->|сам pipeline| PC[ветка C · Voice-pipeline]
+    Q -->|фундамент| PD[ветка D · Constitutional]
+    PA --> A1[METHOD-V2 §J canonical<br/>~45-60 мин]
+    PA --> A2[PREPARATION-STAGE-SUPPLEMENT<br/>~15 мин]
+    PA --> A3[WORKSHOP-CONCEPT + SUPPLEMENT<br/>~30+15 мин]
+    PB --> B0[▶ старт: NAVIGATION-GUIDE<br/>~30 мин]
+    B0 --> B1[METAPLAN-V4 · 16 направлений<br/>~30 мин]
+    B1 --> B2[PLATFORM-LIFECYCLE + DOCS-CLASS<br/>~32 мин]
+    PC --> C1[voice-pipeline-canonical<br/>~15 мин]
+    C1 --> C2[tools/ · открытый код<br/>проверить описание = код]
+    PD --> D1[VISION-FUNDAMENTAL · большой<br/>~90 мин · в конце]
+    PD --> D2[principles/ Tier 2 · 12 правил + R12<br/>ECONOMIC-V10 Mondragón]
+    RULE[💡 не начинать с самого большого:<br/>сначала этот doc + NAVIGATION-GUIDE]
+    Q -.-> RULE
+    style ENTRY fill:#d6f0d6,color:#000
+    style Q fill:#fff8d5,color:#000
+    style PA fill:#cce6ff,color:#000
+    style PB fill:#cce6ff,color:#000
+    style PC fill:#cce6ff,color:#000
+    style PD fill:#cce6ff,color:#000
+    style RULE fill:#ffe0a0,color:#000
+    style D1 fill:#ffd6d6,color:#000
+```
+
+---
+
+*INDEX closure 2026-05-26 (Phase 7 EXTENDED 2026-05-27). 7 схем: VP-1..VP-4 (voice-pipeline) +
+JM-1..JM-3 (метод-дерево / 16 направлений / путь чтения для ассистента) — все inline в main. Light bg,
+≥10 узлов, чёрный текст для Notion/PDF. VP-архитектура отражает реальный код: 2 human-gate, CC-headless
+backend, whisper-large-v3, двойная фильтрация (Filter 1 + Filter 2 lens-driven). JM — honest inheritance
+(Левенчук-OMG-MMK / Ericsson / Dweck / восточные) + Foundation triad + честный статус (середина Build).*

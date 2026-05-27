@@ -59,11 +59,13 @@ non-negotiable. Это substrate, не peer-reviewed методология.
 партнёрств substrate не дозрел, один автор, peer-review не пройден. Открытый репозиторий — это и есть
 приглашение проверить.
 
-**Если интересно глубже.** Код — `tools/` (`transcribe.py` / `extract.py` / `filter.py` /
-`summarize.py` / `review_report.py` / `voice-pipeline-orchestrator.py`); canonical design —
-`swarm/wiki/operations/voice-pipeline-canonical-2026-05-10.md`; полное описание (с 4 схемами) —
-`decisions/strategic/VOICE-PIPELINE-PUBLIC-V2-2026-05-26.md`. Воспроизводимо за ~1 день:
-Python 3.10+ / Groq key / Whisper-dictation / Git. Лицензионных препятствий нет — пользуйтесь.
+**Если интересно глубже.** Полное описание (с 7 схемами) —
+`decisions/strategic/VOICE-PIPELINE-PUBLIC-V2-2026-05-26.md`. Помимо самого pipeline оно содержит
+короткие overview **метода** (мастерство = собрать нужные методы + применить нужный в нужный момент)
+и **Jetix** (16 направлений + Foundation triad), плюс **curated links** — список главных документов с
+описаниями, чтобы твой AI-ассистент мог пройтись по репозиторию сам. Код — `tools/`; canonical design —
+`swarm/wiki/operations/voice-pipeline-canonical-2026-05-10.md`. Воспроизводимо за ~1 день: Python 3.10+
+/ Groq key / Whisper-dictation / Git. Лицензионных препятствий нет — пользуйтесь.
 
 ---
 
