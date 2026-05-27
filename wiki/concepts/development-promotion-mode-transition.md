@@ -224,6 +224,24 @@ Partner conversation frame: «substrate built; теперь invitation to join»
 - [[mastery-formula]] — mastery progression = recruit value proposition
 - [[korporaciya-startup-concept]] — Jetix governance application
 - [[outreach-system-scalable]] — outreach mechanism design
+- [[founder-role-specialization]] — **L5 compound** (роль founder'а внутри promotion-фазы)
+
+---
+
+## §APPEND-2026-05-27 — voice-batch-14 (L5 founder-role compound)
+
+Voice-batch-14 (Note 1, audio_2026-05-27_01-55-30) добавляет **L5-уровень** к этой
+фазовой модели: O-160 фиксирует **КОГДА** (переход development → promotion); batch-14
+O-186/188/190 фиксирует **КАКАЯ РОЛЬ** внутри promotion-фазы — founder = стратег +
+продвиженец («полу-философ, полу-продавец»), всё операционное делегируется;
+foundation-first над быстрым заработком. Конкретный триггер — разговор с Дмитрием
+Кайзером + 2-дневный спринт по артефактам.
+
+→ Вынесено в Tier A концепт [[founder-role-specialization]] (Ruslan ack-all 2026-05-27
+«акаю всё, фиксируй везде»). 3-й батч подряд про founder-transition (O-160 → O-174 →
+O-186/188/190) — устойчивый сигнал, кандидат на Strategic Reflection.
+
+[src: `decisions/strategic/VOICE-BATCH-14-INSIGHTS-2026-05-27.md` §2/§3]
 
 ---
 

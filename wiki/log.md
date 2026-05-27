@@ -1,10 +1,28 @@
 ---
 type: log
-updated: 2026-05-22
+updated: 2026-05-27
 ---
 # Log — Jetix OS Wiki
 
 Append-only хронология. Новые записи сверху.
+
+## [2026-05-27] [wiki-promotions-batch-14] 2 NEW Tier A + 5 NEW Tier B + 1 §APPEND | per Ruslan ack-all «акаю всё, фиксируй везде»
+
+Voice-batch-14 ack-all promotion (substrate compile only; R1 surface). Per Ruslan 2026-05-27.
+
+**2 NEW Tier A (concepts/):**
+- [[concepts/founder-role-specialization]] (O-186/188/190 ⭐⭐⭐) — founder = стратег + продвиженец, остальное делегировать; foundation-first. L5 compound над [[concepts/development-promotion-mode-transition]].
+- [[concepts/jetix-security-privacy-pillar]] (O-192..195 ⭐⭐) — «самая безопасная сеть», конфиденциальность, infra-суверенитет. Direction-status (#17 / sub-pillar #2+#8 / concept) = OPEN R1.
+
+**5 NEW Tier B (ideas/):**
+- [[ideas/founder-handoff-arc-to-partners]] (O-187) · [[ideas/kaiser-conversation-prep-protocol]] (O-189) · [[ideas/vetted-network-data-mobility]] (O-195)
+- [[ideas/aggregation-strength-family-cohort]] (O-196 ⚠️R12-reframed) · [[ideas/family-cohort-recruitment-r12-gated]] (O-197 ⚠️R12 CRITICAL — reframe before publish; raw rhetoric F2-only)
+
+**1 §APPEND:** [[concepts/development-promotion-mode-transition]] §APPEND-2026-05-27 (L5 founder-role compound).
+
+**CRM:** crm/people/dmitriy-kaiser-DRAFT.md (status draft_from_voice; role advisory/capital-connector — disambiguate Q14-4).
+
+**R12 note:** O-197/O-196 family-cohort recruitment — paired-frame applied; raw voice rhetoric preserved as F2 transcript only, NOT promoted as external copy.
 
 ## [2026-05-22] [wiki-promotions-batch-10] 5 NEW Tier A wikis + 3 §APPEND extensions | per Ruslan R1 ack «макать всё в Википедию + Тир А ебаш + append тоже ебаш»
 

@@ -907,3 +907,12 @@
 {"from": "wiki/ideas/gaming-team-ontology-source-domain-2026-05-17.md", "to": "wiki/ideas/macro-societal-vision-states-communities-2026-05-17.md", "type": "related", "created": "2026-05-17", "confidence": "low"}
 {"from": "wiki/sources/2026-05-17-text-001-trust-mechanisms.md", "to": "wiki/concepts/trust-infrastructure-positive-signaling.md", "type": "supports", "created": "2026-05-17", "confidence": "high"}
 {"from": "wiki/sources/2026-05-17-text-001-trust-mechanisms.md", "to": "wiki/ideas/trust-mechanism-shift-money-to-fpf-role-based.md", "type": "supports", "created": "2026-05-17", "confidence": "high"}
+{"from": "wiki/concepts/founder-role-specialization.md", "to": "wiki/concepts/development-promotion-mode-transition.md", "type": "extends", "created": "2026-05-27", "confidence": "high"}
+{"from": "wiki/concepts/founder-role-specialization.md", "to": "wiki/ideas/founder-handoff-arc-to-partners.md", "type": "related", "created": "2026-05-27", "confidence": "high"}
+{"from": "wiki/ideas/founder-handoff-arc-to-partners.md", "to": "wiki/ideas/kaiser-conversation-prep-protocol.md", "type": "related", "created": "2026-05-27", "confidence": "high"}
+{"from": "wiki/ideas/kaiser-conversation-prep-protocol.md", "to": "wiki/concepts/founder-role-specialization.md", "type": "supports", "created": "2026-05-27", "confidence": "medium"}
+{"from": "wiki/concepts/jetix-security-privacy-pillar.md", "to": "wiki/ideas/vetted-network-data-mobility.md", "type": "related", "created": "2026-05-27", "confidence": "high"}
+{"from": "wiki/ideas/vetted-network-data-mobility.md", "to": "wiki/concepts/jetix-security-privacy-pillar.md", "type": "supports", "created": "2026-05-27", "confidence": "high"}
+{"from": "wiki/ideas/aggregation-strength-family-cohort.md", "to": "wiki/ideas/truth-clan-acceleration.md", "type": "extends", "created": "2026-05-27", "confidence": "medium"}
+{"from": "wiki/ideas/family-cohort-recruitment-r12-gated.md", "to": "wiki/ideas/aggregation-strength-family-cohort.md", "type": "related", "created": "2026-05-27", "confidence": "high"}
+{"from": "wiki/ideas/family-cohort-recruitment-r12-gated.md", "to": "wiki/ideas/truth-clan-acceleration.md", "type": "extends", "created": "2026-05-27", "confidence": "medium"}

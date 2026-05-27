@@ -19,6 +19,11 @@ Partial manual updates 2026-05-22 для batch-10 wiki promotions (full regenera
 - [Ученик-учитель / тренер-подопечный pair dynamic](concepts/student-teacher-pair-dynamic.md) [meta] — O-130 ⭐⭐ Tier A standalone 2026-05-22
 - [Unified framework — Jetix stack (5-layer FPF + meta-method + blockchain + company-as-code + life-as-code)](concepts/unified-framework-jetix-stack.md) [meta] — O-129 ⭐⭐ Tier A standalone 2026-05-22
 
+## Concepts (voice-batch-14 ack-all 2026-05-27 — 2 NEW Tier A)
+
+- [Специализация роли основателя — стратегия + продвижение, остальное делегировать](concepts/founder-role-specialization.md) [business] — O-186/188/190 ⭐⭐⭐ Tier A 2026-05-27 (L5 над O-160)
+- [Pillar безопасности и приватности Jetix](concepts/jetix-security-privacy-pillar.md) [business] — O-192..195 ⭐⭐ Tier A 2026-05-27 (direction-status #17/sub-pillar OPEN R1)
+
 ## Concepts (14 — original auto-regenerated baseline 2026-05-11; stale, pending /lint full regen)
 
 - [Affirmation ritual для founder state stability](concepts/affirmation-ritual-founder-state.md) [life]
@@ -318,6 +323,13 @@ Partial manual updates 2026-05-22 для batch-10 wiki promotions (full regenera
 - [Жизнь = обновление, на любом масштабе (Notion idea)](sources/2026-04-16-zhizn-obnovlenie-na-lyubom-masshtabe.md) [meta]
 
 ## Ideas (262)
+
+> **§APPEND 2026-05-27** (voice-batch-14 ack-all «акаю всё, фиксируй везде»; Ruslan-acked Tier B):
+> - [Hand-off arc — ответственность к партнёрам](ideas/founder-handoff-arc-to-partners.md) [business] — O-187
+> - [Kaiser-conversation prep protocol](ideas/kaiser-conversation-prep-protocol.md) [business] — O-189
+> - [Vetted-network data mobility](ideas/vetted-network-data-mobility.md) [business] — O-195
+> - [Aggregation-strength — когорта как множитель](ideas/aggregation-strength-family-cohort.md) [business] — O-196 ⚠️R12-reframed
+> - [Family-cohort recruitment frame (R12-GATED)](ideas/family-cohort-recruitment-r12-gated.md) [business] — O-197 ⚠️R12 CRITICAL (reframe before publish)
 
 > **§APPEND 2026-05-19** (sprint-synthesis Phase 1; Ruslan-acked Tier B):
 > - [Anti-Sisyphus Meaning Substrate — Jetix as user-meaning enabler (Camus counter-thesis)](ideas/anti-sisyphus-meaning-substrate.md) [meta]
