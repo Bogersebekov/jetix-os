@@ -9,8 +9,9 @@ R: refuted_if_no_ideas_OR_no_wiki_proposals_OR_LOCK_modified_OR_auto_distribute_
 prose_authored_by: claude-code-native-synthesis (R1 surface-only; digest of Ruslan dictation — NOT strategic-direction prose)
 constitutional_posture: R1 surface only + R6 verbatim + R11 Default-Deny + R12 paired-frame STRICT + IP-1 + voice DRAFT-only
 language: russian
-status: DRAFT — awaiting Ruslan ack for wiki/KB promotion
+status: ACKED 2026-05-27 «акаю всё, фиксируй везде» — materialized per decisions/RUSLAN-ACK-VOICE-BATCH-14-2026-05-27.md
 audience: Ruslan (insights review → ack promotions)
+ack_record: decisions/RUSLAN-ACK-VOICE-BATCH-14-2026-05-27.md
 ideas_range: O-186..O-197 (12) + D14-1..5 + Q14-1..4 + H14-1..3
 ---
 
