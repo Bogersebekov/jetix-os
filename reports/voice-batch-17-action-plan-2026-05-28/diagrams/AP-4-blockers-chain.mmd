@@ -1,0 +1,44 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph TB
+    subgraph CRIT["🔴 CRITICAL (blocks all P0)"]
+        VID["🎬 Video A не записан<br/>SPOF — blocks A-5/A-8/A-9/A-10"]
+        BOT["⚠️ Ruslan bottleneck<br/>3-й батч подряд (O-202/212/224)"]
+    end
+    subgraph MAJ["🟠 MAJOR (blocks P1)"]
+        TS["✉️ Tseren letter не отправлен<br/>blocks external-zero break"]
+        OP["📄 1-pagers (onboarding/Charter/R12)<br/>blocks outreach message frame"]
+        EG["❓ Egor/Igor disambig<br/>blocks A-10 send"]
+        SLP["💤 Sustainability<br/>O-236 coping flag"]
+    end
+    subgraph MIN["🟡 MINOR (blocks Wave-1)"]
+        ENT["⚖️ Legal entity<br/>blocks #3 fundament"]
+        STE["💼 Steuerberater missing<br/>blocks #3 fundament"]
+        AUD["🎮 Anti-Dark-Patterns audit<br/>blocks #15 build only"]
+        PRG["🆔 Прапион в CRM<br/>blocks R12-bridge wave"]
+        SEC["🔐 Build-P0 security<br/>blocks defensive claim"]
+    end
+    VID --> A5["A-5 Onboarding"]
+    VID --> A8["A-8 send-Дмитрий"]
+    VID --> A9["A-9 send-Kaiser"]
+    VID --> A10["A-10 send-Егор"]
+    BOT -.meta blocker.-> ALL["все P0 actions"]
+    TS --> A1["A-1 first external send"]
+    OP --> A5
+    OP --> A6["A-6 Charter"]
+    OP --> A7["A-7 R12-1p"]
+    EG --> A10
+    SLP -.quality risk.-> R["Ruslan execution quality"]
+    ENT --> A17["A-17 Steuerberater"]
+    STE --> A17
+    AUD --> W5["W-5 #15 build"]
+    PRG --> A4["A-4 CRM review"]
+    SEC --> W6["W-6 Build-P0"]
+    A1 --> EXT["📤 first external touch"]
+    A5 --> EXT
+    A8 --> EXT
+    style CRIT fill:#ffd6d6,color:#000
+    style MAJ fill:#ffe0a0,color:#000
+    style MIN fill:#cce6ff,color:#000
+    style VID fill:#ff9999,color:#000
+    style BOT fill:#ff9999,color:#000
+    style EXT fill:#d6f0d6,color:#000

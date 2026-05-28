@@ -1,0 +1,30 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph TB
+    ALL(["📚 ~120+ strategic docs<br/>+ Foundation + LOCKED + V4 + research"])
+    ALL --> FILTER{"Filter:<br/>unlocks outreach<br/>OR Wave-1?"}
+    FILTER -->|7-day outreach| CRIT["🔴 CRITICAL — 5 docs"]
+    FILTER -->|30-day Wave-1| W1["🟡 WAVE-1 — 8 items"]
+    FILTER -->|нет| DEF["🟢 DEFER — 20 items"]
+    CRIT --> C1["C-1 Tseren letter<br/>polish+send · 1-2h R"]
+    CRIT --> C2["C-2 Video A<br/>script+record · half-day R"]
+    CRIT --> C3["C-3 Onboarding 1-pager<br/>2-3h CC+R"]
+    CRIT --> C4["C-4 Charter floor 1-pager<br/>2-3h CC+R"]
+    CRIT --> C5["C-5 R12 1-pager<br/>2-3h CC+R"]
+    W1 --> W11["W-1 #4 Заработок polish · 3-4h"]
+    W1 --> W12["W-2 #5 Партнёры spec · 3-4h"]
+    W1 --> W13["W-3 #16 playbook · 1d SCC"]
+    W1 --> W14["W-4 Klan Charter template · 1d SCC"]
+    W1 --> W15["W-5 Anti-Dark-Patterns · 0.5d"]
+    W1 --> W16["W-6 Build-P0 sprint · 3-5d"]
+    W1 --> W17["W-7 doctrine→Charter · 1-2h"]
+    W1 --> W18["W-8 Steuerberater outreach · 2-3h"]
+    DEF --> D1["20 items parked:<br/>$1T / NS / Master Plan 3-4 /<br/>game-mechanics / SOPs /<br/>cohort / first clan / etc."]
+    CRIT -.unlocks.-> OUT["📤 first outreach send"]
+    W1 -.unlocks.-> WAV["💰 Wave-1 launch"]
+    DEF -.substrate.-> LATER["⏳ Phase 2+ / Run / Scale"]
+    style ALL fill:#fff8d5,color:#000
+    style CRIT fill:#ffd6d6,color:#000
+    style W1 fill:#ffe0a0,color:#000
+    style DEF fill:#d6f0d6,color:#000
+    style OUT fill:#cce6ff,color:#000
+    style WAV fill:#cce6ff,color:#000

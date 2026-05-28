@@ -1,0 +1,33 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+gantt
+    title 7-day outreach launch timeline (28.05 → 04.06)
+    dateFormat YYYY-MM-DD
+    axisFormat %d.%m
+
+    section P0 critical path
+    A-1 Tseren letter polish+send       :crit, a1, 2026-05-29, 1d
+    A-2 Video A script                   :crit, a2, 2026-05-29, 1d
+    A-3 Video A record+upload            :crit, a3, after a2, 1d
+    A-5 Onboarding 1-pager               :crit, a5, 2026-05-29, 2d
+    A-8 send Дмитрий-humanitarian        :crit, a8, after a5 a3, 1d
+    A-9 send Дмитрий-Кайзер              :crit, a9, after a5 a3, 1d
+    A-10 send Егор                       :crit, a10, after a5 a3, 1d
+
+    section P0 parallel
+    A-4 CRM Wave-1 review                :a4, 2026-05-29, 1d
+    A-6 Charter floor 1-pager            :a6, 2026-05-29, 2d
+    A-7 R12 1-pager                      :a7, 2026-05-29, 2d
+    A-12 Дмитрий fundament-Q             :a12, 2026-05-30, 1d
+
+    section P1 Wave-1 enable
+    A-13 Anti-Dark-Patterns audit        :a13, 2026-06-01, 1d
+    A-15 #4 Заработок polish             :a15, 2026-06-02, 1d
+    A-17 Steuerberater outreach          :a17, 2026-06-01, 1d
+    A-18 #16 playbook (SCC)              :a18, 2026-06-02, 1d
+    A-19 Klan Charter template (SCC)     :a19, 2026-06-03, 1d
+    A-14 Build-P0 security sprint        :a14, 2026-06-01, 3d
+
+    section Feedback loop
+    Process replies                       :milestone, m1, 2026-06-01, 0d
+    First feedback received               :milestone, m2, 2026-06-02, 0d
+    Wave-2 picks based on signal          :milestone, m3, 2026-06-04, 0d

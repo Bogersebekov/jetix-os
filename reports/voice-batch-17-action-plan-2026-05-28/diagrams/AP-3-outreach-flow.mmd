@@ -1,0 +1,35 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph LR
+    PACK["📦 28-30.05<br/>Pack essence-set:<br/>Video A + 1-pagers"]
+    PACK --> T["🔴 Tseren<br/>letter polish + send"]
+    PACK --> DH["🟠 Дмитрий-humanitarian<br/>video+onboarding ask"]
+    PACK --> DK["🟠 Дмитрий-Кайзер<br/>dual ask: advisor OR referral"]
+    PACK --> EG["🟠 Егор Гиренко<br/>strategic consulting frame"]
+    PACK --> LV["🟡 Левенчук (slow)<br/>defer until Tseren resp"]
+    PACK --> PR["🟡 Прапион (P1)<br/>CRM add first"]
+    T --> R1{"reply?"}
+    DH --> R2{"reply?"}
+    DK --> R3{"reply?"}
+    EG --> R4{"reply?"}
+    R1 -->|yes substance| FB["📥 feedback loop"]
+    R1 -->|no/silence| FU["⏳ follow-up 1-2wk max"]
+    R2 -->|yes| TRIAL["🧪 Notion trial setup"]
+    R2 -->|no| FU
+    R3 -->|yes mentor| MEN["🤝 advisor cash-not-equity"]
+    R3 -->|no| FU
+    R4 -->|yes| CALL["📞 strategic call"]
+    R4 -->|no| FU
+    FB --> ADJUST["⚙️ adjust message<br/>+ Wave-2 picks"]
+    TRIAL --> FB
+    MEN --> FB
+    CALL --> FB
+    ADJUST --> W2["📤 Wave-2 (5-7 more)<br/>Ilshat / Ivan / Sapunov /<br/>sponsor candidates"]
+    style PACK fill:#fff8d5,color:#000
+    style T fill:#ffd6d6,color:#000
+    style DH fill:#ffe0a0,color:#000
+    style DK fill:#ffe0a0,color:#000
+    style EG fill:#ffe0a0,color:#000
+    style LV fill:#cce6ff,color:#000
+    style PR fill:#cce6ff,color:#000
+    style FB fill:#d6f0d6,color:#000
+    style W2 fill:#cce6ff,color:#000

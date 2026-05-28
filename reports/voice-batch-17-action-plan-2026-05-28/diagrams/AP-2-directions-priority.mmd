@@ -1,0 +1,33 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph TB
+    subgraph CRIT["🔴 CRITICAL для outreach (7d)"]
+        D1["#1 Метод<br/>→ Video A + Method-Mastery"]
+        D4["#4 Заработок<br/>→ Onboarding (что предлагаем)"]
+        D5["#5 Партнёры<br/>→ Outreach send Tseren+Дмитрий+Егор"]
+        D6["#6 Видение<br/>→ Video A (entry)"]
+        D8["#8 R12<br/>→ R12 1-pager + Charter floor"]
+    end
+    subgraph W1["🟡 WAVE-1 enable (30d)"]
+        D2["#2 Платформа<br/>→ Дмитрий trial + Notion walkthrough"]
+        D3["#3 Бизнес<br/>→ Steuerberater + Charter v1 + 6 fundament comp"]
+        D9["#9 Правила<br/>→ Свод skeleton"]
+        D10["#10 Ценности<br/>→ Charter floor (триада в floor)"]
+        D14["#14 Сеть+Кланы<br/>→ Klan Charter template"]
+        D15["#15 Геймификация<br/>→ Anti-Dark-Patterns audit (R12 gate)"]
+        D16["#16 Хакатоны<br/>→ Playbook + Red Dot reference"]
+        D17["#17 Security<br/>→ Build-P0 sprint"]
+    end
+    subgraph DEF["🟢 DEFER (substrate parked)"]
+        D7["#7 Образование<br/>cohort = Wave 3"]
+        D11["#11 Master Plan<br/>Part 3-4 = Phase 2+ gated"]
+        D12["#12 Мастерская<br/>physical = Run-horizon"]
+        D13["#13 Мастерство<br/>skill-tree gated #15"]
+    end
+    CRIT -.unblocks first outreach.-> OUTREACH["📤 OUTREACH"]
+    W1 -.unblocks Wave-1 launch.-> WAVE1L["💰 Wave-1 launch"]
+    OUTREACH --> FEEDBACK["🔁 feedback loop"]
+    FEEDBACK --> ADJUST["⚙️ adjust W1 polish"]
+    style CRIT fill:#ffd6d6,color:#000
+    style W1 fill:#ffe0a0,color:#000
+    style DEF fill:#d6f0d6,color:#000
+    style OUTREACH fill:#cce6ff,color:#000

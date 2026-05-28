@@ -1,0 +1,43 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph TB
+    subgraph READY["✅ ЕСТЬ (ready substrate)"]
+        R1["Foundation v1.0 LOCKED<br/>11 Parts + Pillar A/C"]
+        R2["4 LOCKED canonical<br/>Method V2 / Strategic Plan /<br/>Economic V10 / AI-Market"]
+        R3["V4 16 directions canonical"]
+        R4["Workshop+Mastery+Network<br/>Foundation metaphor"]
+        R5["Notion LIVE<br/>35 pages / 36 DB / 235 fields"]
+        R6["ROY swarm 17 agents"]
+        R7["CRM 180+ contacts"]
+        R8["Voice batches 1-17 processed"]
+        R9["Founder-Role + Info-Security<br/>research DONE"]
+        R10["Strategic Re-Plan 2026-05-28"]
+    end
+    subgraph WORK["🛠️ В РАБОТЕ (drafts/specs)"]
+        W1["Tseren letter<br/>draft ready, не отправлен"]
+        W2["Video A spec<br/>script not done"]
+        W3["Onboarding 1-pager<br/>substrate, not packaged"]
+        W4["Charter floor 1-pager<br/>substrate, not packaged"]
+        W5["R12 1-pager public<br/>substrate, not packaged"]
+        W6["Доктрина O-193 в Charter<br/>не интегрирован"]
+        W7["Anti-Dark-Patterns audit<br/>spec, не materialized"]
+        W8["#16 Хакатоны playbook<br/>substrate, not drafted"]
+    end
+    subgraph GAP["❌ НЕТ (gap)"]
+        G1["Video A запись"]
+        G2["Лендинг live"]
+        G3["Презентация deck"]
+        G4["Steuerberater contacts"]
+        G5["Legal entity"]
+        G6["Mentor #0 confirmed"]
+        G7["First клан"]
+        G8["First hackathon event"]
+        G9["First customer/proposal"]
+        G10["Прапион в CRM"]
+    end
+    READY -.substrate.-> WORK
+    WORK -.выпускать.-> GAP
+    GAP -.после outreach.-> NEXT["📤 OUTREACH unlock"]
+    style READY fill:#d6f0d6,color:#000
+    style WORK fill:#ffe0a0,color:#000
+    style GAP fill:#ffd6d6,color:#000
+    style NEXT fill:#cce6ff,color:#000
