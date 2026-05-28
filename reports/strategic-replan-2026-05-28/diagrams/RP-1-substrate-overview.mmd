@@ -1,0 +1,61 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph TB
+    subgraph FND["🏛️ Foundation (KEEP)"]
+        V4["V4 MetaPlan<br/>16 directions"]
+        WK["Workshop-Mastery-<br/>Network concept"]
+        WKS["Workshop supplement"]
+        PRP["Preparation supplement"]
+    end
+    subgraph LOCK["🔒 4 LOCKED (substrate-only)"]
+        M2["Method V2"]
+        SP["Strategic Plan"]
+        EC["Economic V10"]
+        AIM["AI-Market PLAN"]
+    end
+    subgraph RES["🔬 Research DONE (KEEP)"]
+        FR["Founder-Role"]
+        SEC["Info-Security"]
+    end
+    subgraph OPS["🛠️ Ops/Build (REFINE/MERGE)"]
+        FM["Full-Map skeleton"]
+        DC["Docs-Classification"]
+        PL["Platform-Lifecycle"]
+        EX["Execution-Plan"]
+        BA["Build-Artefacts"]
+        CH["Consolidated-HL"]
+        OC["Outreach-CTAS"]
+    end
+    subgraph NOT["📊 Notion (KEEP/ARCHIVE)"]
+        N3["3-LAYERS-V2 built"]
+        N4["4-LAYERS"]
+        NB["Build-Report"]
+        AT["AI-Tools mega"]
+    end
+    subgraph ARCH["🗄️ ARCHIVE-candidates"]
+        V3["V3 metaplan"]
+        V2m["V2 metaplan"]
+        V1m["v1 metaplan"]
+    end
+    subgraph VOI["🎙️ Voice (KEEP)"]
+        B14["batch-14 acked"]
+        B15["batch-15"]
+        B16["batch-16 NEW"]
+    end
+    M2 --> V4
+    EC --> V4
+    SP --> V4
+    WK --> V4
+    V3 -.superseded.-> V4
+    V2m -.superseded.-> V3
+    V1m -.superseded.-> V2m
+    N4 -.superseded.-> N3
+    FR --> V4
+    SEC --> V4
+    B16 --> V4
+    FM -.6→16 normalize.-> V4
+    EX -.primitives.-> V4
+    style V4 fill:#fff8d5,color:#000
+    style WK fill:#d6f0d6,color:#000
+    style ARCH fill:#ffd6d6,color:#000
+    style B16 fill:#ffe0a0,color:#000
+    style LOCK fill:#eeeeee,color:#000

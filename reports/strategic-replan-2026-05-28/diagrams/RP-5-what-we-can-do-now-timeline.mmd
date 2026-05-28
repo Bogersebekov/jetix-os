@@ -1,0 +1,40 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph LR
+    subgraph NOW["🔴 28-29.05 (P1)"]
+        N1["видео A 'грубо'"]
+        N2["essence-doc-set собрать"]
+        N3["Kaiser contact"]
+        N4["€34k decision frame"]
+        N5["R1-priority session<br/>(SQ-19 do-first)"]
+    end
+    subgraph WK["🟡 Эта неделя (fixate)"]
+        W1["стратегические сессии<br/>S-A + S-B (P1-bundle ~4.5h)"]
+        W2["Tseren letter send"]
+        W3["Anti-Dark-Patterns<br/>audit materialize"]
+        W4["doctrine O-193→Charter"]
+        W5["Steuerberater outreach"]
+    end
+    subgraph MO["🟢 След. неделя + месяц (execute)"]
+        M1["1-2 discovery calls"]
+        M2["Build-P0 security sprint"]
+        M3["first V4 filling prompt"]
+        M4["видео B + Vision skeleton"]
+        M5["doc cleanup (archive/merge)"]
+        M6["mentor/advisor engage"]
+    end
+    subgraph QT["🔵 Квартал (Q3)"]
+        Q1["first cohort design"]
+        Q2["first hackathon ≤90d"]
+        Q3["legal entity"]
+        Q4["Build→Run gate"]
+    end
+    N1 --> N2 --> N3
+    N5 --> W1
+    W1 --> W2
+    NOW ==> WK ==> MO ==> QT
+    N1 -.unblocks.-> M1
+    W1 -.resolves R1.-> M3
+    style NOW fill:#ffd6d6,color:#000
+    style WK fill:#ffe0a0,color:#000
+    style MO fill:#d6f0d6,color:#000
+    style QT fill:#cce6ff,color:#000

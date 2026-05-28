@@ -1,0 +1,27 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph TB
+    VOICE["🎙️ Voice insight<br/>(O-209 sessions-gate)"]
+    VOICE --> REPLAN["📋 Re-Plan<br/>(re-audit + breakdown<br/>+ sessions queue)"]
+    REPLAN --> SESS["🎯 Strategic Sessions<br/>(resolve R1 + data-needs)"]
+    SESS --> DECIDE{"Ruslan decides<br/>(R1 sole strategist)"}
+    DECIDE -->|fixate week 1| EXEC["⚙️ Execute<br/>(видео A / essence-docs /<br/>Kaiser / first prompt)"]
+    EXEC --> EXPRESS["📤 Express output<br/>(наружу-вышло)"]
+    EXPRESS --> REVIEW["🔍 Weekly review<br/>(Express-KPI + ≤30% substrate)"]
+    REVIEW --> SIGNAL{"Новый сигнал /<br/>непонятно?"}
+    SIGNAL -->|непонятно| SESS
+    SIGNAL -->|понятно| EXEC
+    SIGNAL -->|new voice| VOICE
+    REVIEW -.compound.-> LEARN["📚 Compound learning<br/>(wiki + strategies)"]
+    LEARN -.-> REPLAN
+    SATIS["💡 O-217 satisficing-gate:<br/>не over-plan за горизонт<br/>непонятности"]
+    SATIS -.-> SIGNAL
+    GATE["⚖️ R1 / R12 / R2<br/>constitutional gates<br/>каждую итерацию"]
+    GATE -.-> DECIDE
+    GATE -.-> EXEC
+    style VOICE fill:#ffe0a0,color:#000
+    style REPLAN fill:#cce6ff,color:#000
+    style SESS fill:#fff8d5,color:#000
+    style EXEC fill:#d6f0d6,color:#000
+    style EXPRESS fill:#d6f0d6,color:#000
+    style GATE fill:#ffd6d6,color:#000
+    style SATIS fill:#f0e0ff,color:#000

@@ -1,0 +1,31 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph TB
+    subgraph TRAJ["📉 Cross-batch trajectory = DE-ESCALATION"]
+        T14["b14 O-197<br/>семья/снесём<br/>🔴 CRITICAL HARD-REJECT"]
+        T15["b15 захват власти<br/>🟠 MED POOL-LOCKED"]
+        T16["b16 competitive-adv<br/>🟡 LOW-MED safe-private"]
+        T14 --> T15 --> T16
+    end
+    subgraph V16["🌡️ batch-16 surfaces (paired-frame SATISFIED)"]
+        S1["O-214 mentor exchange<br/>LOW-MED → REFRAME"]
+        S4["O-218 capital→time<br/>MED → REFRAME"]
+        S5["O-216 security claim<br/>MED → REFRAME (claim-ladder)"]
+        S3["O-216 competitive<br/>LOW-priv → REFRAME-ext"]
+        S2["O-211 train-trainer<br/>LOW → SAFE concept"]
+    end
+    RISK["⚠️ #1 LATENT RISK<br/>equity-under-pressure<br/>O-214 + O-218 setup"]
+    MIT["🛡️ Mitigation:<br/>written advisory scope<br/>+ cash NOT equity<br/>+ fork-and-leave both"]
+    PAIR["✅ R12 paired-frame<br/>recruit SENDER +<br/>influence RECEIVER<br/>= no Halt-Log-Alert"]
+    LOCK["🔒 carryover locks:<br/>O-197 (b14)<br/>захват власти (b15)"]
+    S1 --> RISK
+    S4 --> RISK
+    RISK --> MIT
+    T16 --> V16
+    V16 --> PAIR
+    PAIR --> LOCK
+    style T14 fill:#ff9999,color:#000
+    style T15 fill:#ffe0a0,color:#000
+    style T16 fill:#fff8d5,color:#000
+    style RISK fill:#ffd6d6,color:#000
+    style MIT fill:#d6f0d6,color:#000
+    style PAIR fill:#cce6ff,color:#000

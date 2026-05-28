@@ -1,0 +1,22 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph LR
+    OGG["🎙️ audio 28.05<br/>1.6MB ~18min"]
+    OGG --> TR["Groq whisper<br/>803 words F2"]
+    TR --> EX["Extract<br/>O-207..O-218"]
+    EX --> NEW["4 NEW:<br/>O-209 sessions-gate<br/>O-211 train-trainer<br/>O-214 exchange<br/>O-217 satisficing"]
+    EX --> REF["6 refines:<br/>O-207/212/213/215/210/216"]
+    NEW --> DD["Dedup vs<br/>b12-15"]
+    REF --> DD
+    DD --> R12["R12 paired-frame<br/>recruit+influence FIRED"]
+    R12 --> DE["✅ DE-ESCALATION<br/>no CRITICAL<br/>no new POOL-LOCK"]
+    R12 --> LAT["⚠️ #1 latent:<br/>equity-under-pressure<br/>O-214+O-218"]
+    DE --> INS["VOICE-BATCH-16<br/>INSIGHTS doc"]
+    LAT --> INS
+    INS --> RP["→ Strategic Re-Plan<br/>Phase 4-8"]
+    NEW --> O209["O-209 = re-plan<br/>trigger itself"]
+    O209 --> RP
+    style OGG fill:#ffe0a0,color:#000
+    style DE fill:#d6f0d6,color:#000
+    style LAT fill:#ffd6d6,color:#000
+    style INS fill:#fff8d5,color:#000
+    style O209 fill:#cce6ff,color:#000

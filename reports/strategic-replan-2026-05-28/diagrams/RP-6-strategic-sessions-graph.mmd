@@ -1,0 +1,33 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph TB
+    META["SQ-19 R1-priority<br/>= META do-first<br/>structures all"]
+    META --> SA
+    subgraph SA["S-A Неделя fixate"]
+        SQ4["SQ-4 видео A<br/>data: script + good-enough bar"]
+        SQ5["SQ-5 essence-set<br/>data: existing docs + audience-map"]
+        SQ8["SQ-8 Tseren<br/>data: still-in-context?"]
+    end
+    subgraph SB["S-B Капитал+люди"]
+        SQ2["SQ-2 €34k<br/>data: burn-rate + quotes + R12-risk"]
+        SQ3["SQ-3 mentor<br/>data: founder-fn map + CRM scan"]
+        SQ9["SQ-9 Kaiser<br/>data: call-status + ask + offer"]
+        SQ14["SQ-14 legal<br/>data: DE-form + Steuerberater advice"]
+    end
+    subgraph SC["S-C Внимание"]
+        SQ1["SQ-1 attention-fork<br/>data: time-to-output × 4 opts"]
+        SQ22["SQ-22 Express-KPI<br/>data: countable events + floor"]
+        SQ7["SQ-7 day-job exit<br/>data: runway + time%"]
+    end
+    SQ4 --> SQ5
+    SQ5 --> SQ8
+    SQ9 --> SQ3
+    SQ3 --> SQ2
+    SQ14 --> SQ2
+    SQ7 --> SQ2
+    SQ4 -.unblocks.-> SQ1
+    SQ22 --> SQ7
+    SA --> SB --> SC
+    style META fill:#fff8d5,color:#000
+    style SA fill:#ffd6d6,color:#000
+    style SB fill:#ffe0a0,color:#000
+    style SC fill:#cce6ff,color:#000

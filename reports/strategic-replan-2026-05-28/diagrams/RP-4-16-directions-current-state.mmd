@@ -1,0 +1,42 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph TB
+    subgraph READY["✅ READY substrate"]
+        D1["#1 Метод<br/>(public DRAFT)"]
+        D2["#2 Платформа<br/>(Notion built)"]
+        D4["#4 Заработок<br/>(GAP ✅ best)"]
+        D5["#5 Партнёры<br/>(mentor WIP)"]
+        D8["#8 R12<br/>(densest hub)"]
+        D16["#16 Хакатоны<br/>(playbook DRAFT)"]
+    end
+    subgraph DRAFTM["📝 DRAFT / paradigm-ready"]
+        D6["#6 Видение<br/>(R1-prose)"]
+        D7["#7 Образование<br/>(curriculum DRAFT)"]
+        D9["#9 Правила"]
+        D10["#10 Ценности<br/>(R1-prose)"]
+        D13["#13 Мастерство<br/>(CENTRAL)"]
+    end
+    subgraph CONCEPT["💡 CONCEPT"]
+        D3["#3 Бизнес<br/>(legal CONCEPT)"]
+        D11["#11 Master Plan<br/>(sessions-dep)"]
+        D12["#12 Мастерская"]
+        D14["#14 Сеть+Кланы<br/>(no clans yet)"]
+        D15["#15 Геймификация<br/>(R12 gate FIRST)"]
+    end
+    D17["#17 Security<br/>(research DONE,<br/>status OPEN)"]
+    BLK["🚧 SHARED BLOCKERS"]
+    BLK --> VID["видео A<br/>= sole no-dep<br/>blocks #1/#4/#5/#6"]
+    BLK --> BOT["Ruslan-bottleneck<br/>O-212 across all outward"]
+    BLK --> R1P["R1-prose gate<br/>#6/#10/#11/#15"]
+    BLK --> G15["#15 R12-gate<br/>blocks #13/#7/#16 engagement"]
+    BLK --> PPL["people-dep<br/>#7/#14/#16 materialize"]
+    VID -.-> D1
+    VID -.-> D4
+    G15 -.-> D13
+    R1P -.-> D6
+    style READY fill:#d6f0d6,color:#000
+    style DRAFTM fill:#ffe0a0,color:#000
+    style CONCEPT fill:#cce6ff,color:#000
+    style D15 fill:#ffd6d6,color:#000
+    style D17 fill:#f0e0ff,color:#000
+    style BLK fill:#fff8d5,color:#000
+    style VID fill:#ffd6d6,color:#000

@@ -1,0 +1,18 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph TB
+    ROOT(["📚 ~29 docs<br/>re-audit"]) --> Q1{"Роль активна<br/>в 4D-плане?"}
+    Q1 -->|нет, superseded| ARCH["🗄️ ARCHIVE (4)<br/>V3 / V2 / v1 metaplan<br/>+ Notion-4L"]
+    Q1 -->|да| Q2{"Дублирует<br/>соседа?"}
+    Q2 -->|да| MERGE["🔀 MERGE (3)<br/>Docs-Class→Full-Map<br/>Exec-Plan→V4 #5/#8<br/>Personal-OS→3L-V2"]
+    Q2 -->|нет| Q3{"Нужна правка<br/>под V4/v16?"}
+    Q3 -->|да, dates/dirs/prose| REFINE["✏️ REFINE (5)<br/>Method-Mastery / Full-Map<br/>Platform-Lifecycle<br/>Build-Artefacts / Tseren-letter"]
+    Q3 -->|нет| Q4{"Wave 1<br/>или позже?"}
+    Q4 -->|позже Wave| DEFER["⏸️ DEFER (1)<br/>Navigation-Guide<br/>(Wave 1 stale prose)"]
+    Q4 -->|активен сейчас| KEEP["✅ KEEP (16)<br/>V4 / Workshop / 2 research<br/>3 voice / Consolidated-HL<br/>Outreach-CTAS / 3L-V2<br/>+ Build-Report / AI-Tools<br/>+ VP-V2 / Call-Kaiser"]
+    ROOT --> LOCKED["🔒 KEEP-LOCKED (4)<br/>Method V2 / Strategic Plan<br/>Economic V10 / AI-Market<br/>R2 STRICT read-only"]
+    style ARCH fill:#ffd6d6,color:#000
+    style MERGE fill:#ffe0a0,color:#000
+    style REFINE fill:#cce6ff,color:#000
+    style DEFER fill:#e0e0e0,color:#000
+    style KEEP fill:#d6f0d6,color:#000
+    style LOCKED fill:#eeeeee,color:#000

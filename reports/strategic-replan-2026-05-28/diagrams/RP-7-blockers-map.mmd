@@ -1,0 +1,40 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph TB
+    subgraph CRIT["🔴 CRITICAL (blocks Wave 1)"]
+        B1["видео A не записан<br/>(перфекционизм)"]
+        B2["Ruslan-bottleneck O-212<br/>(selling/prose/outreach time)"]
+    end
+    subgraph MAJ["🟠 MAJOR (blocks directions)"]
+        B3["essence-docs не собраны<br/>(O-208)"]
+        B4["R1-prose gate<br/>(Core/триада/meaning/якорь)"]
+        B5["#15 R12-audit не материализован<br/>(blocks engagement layer)"]
+        B6["mentor #0 не найден<br/>(O-213)"]
+    end
+    subgraph MIN["🟡 MINOR (Wave 2-4 / housekeeping)"]
+        B7["legal entity не решён"]
+        B8["people-dep (cohort/clans/events)"]
+        B9["doc cleanup pending"]
+        B10["token revoke + UX walkthrough?"]
+        B11["80+ R1 overload"]
+    end
+    B1 --> D1["#1 Метод"]
+    B1 --> D4["#4 Заработок"]
+    B1 --> D5["#5 Партнёры"]
+    B1 --> D6["#6 Видение"]
+    B2 --> D4
+    B2 --> D5
+    B3 --> D5
+    B4 --> D6
+    B4 --> D10["#10 Ценности"]
+    B5 --> D13["#13 Мастерство"]
+    B5 --> D7["#7 Образование"]
+    B6 --> D5
+    B7 --> D3["#3 Бизнес"]
+    B8 --> D14["#14 Кланы"]
+    B8 --> D16["#16 Хакатоны"]
+    B11 -.meta.-> ALL["все directions"]
+    style CRIT fill:#ffd6d6,color:#000
+    style MAJ fill:#ffe0a0,color:#000
+    style MIN fill:#cce6ff,color:#000
+    style B1 fill:#ff9999,color:#000
+    style B2 fill:#ff9999,color:#000
