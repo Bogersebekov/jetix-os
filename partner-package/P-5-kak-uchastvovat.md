@@ -39,7 +39,7 @@ reading_time: ~3 минуты
 честно. [src: METAPLAN-V4 §9, Phase 20 extension protocol]
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+%%{init: {'theme':'base','themeVariables':{'background':'#ffffff','primaryColor':'#fafafa','primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','noteBkgColor':'#fff8d5'}}}%%
 graph LR
     YOU([👤 ты])
     YOU --> L1[🍴 1. Форкнуть<br/>взял · адаптировал · без обязательств]

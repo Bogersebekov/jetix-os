@@ -27,7 +27,7 @@ reading_time: ~3 минуты
 - **🌍 Сеть** — КАК распределено (кооперативные кланы, mesh не звезда)
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+%%{init: {'theme':'base','themeVariables':{'background':'#ffffff','primaryColor':'#fafafa','primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','noteBkgColor':'#fff8d5'}}}%%
 graph TB
     F([🏛️🎯🌍 FOUNDATION<br/>мега-мастерская])
     F --> WK[🏛️ Мастерская · ГДЕ]
