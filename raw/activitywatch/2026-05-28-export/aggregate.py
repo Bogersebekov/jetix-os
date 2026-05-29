@@ -134,10 +134,10 @@ days = sorted(set(list(app_by_day.keys()) + list(afk_by_day.keys())))
 
 with open("00-SUMMARY.md", "w", encoding="utf-8") as f:
     f.write("---\n")
-    f.write("title: ActivityWatch Export — last ~40h (Berlin TZ)\n")
-    f.write("date: 2026-05-28\n")
+    f.write("title: ActivityWatch Export — last ~64h (Berlin TZ, refreshed)\n")
+    f.write("date: 2026-05-29\n")
     f.write("source: ActivityWatch localhost:5600 (4 buckets: window/afk/chrome/...)\n")
-    f.write("range_utc: 2026-05-26T22:00Z → 2026-05-28T13:45Z\n")
+    f.write("range_utc: 2026-05-26T22:00Z → 2026-05-29T14:00Z\n")
     f.write("hostname: mashinachui\n")
     f.write("aggregation: sessions = same (app,title) merged with <120s gap, kept if ≥30s\n")
     f.write("tz: Europe/Berlin (UTC+2 / CEST)\n")

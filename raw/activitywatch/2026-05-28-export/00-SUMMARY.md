@@ -1,8 +1,8 @@
 ---
-title: ActivityWatch Export — last ~40h (Berlin TZ)
-date: 2026-05-28
+title: ActivityWatch Export — last ~64h (Berlin TZ, refreshed)
+date: 2026-05-29
 source: ActivityWatch localhost:5600 (4 buckets: window/afk/chrome/...)
-range_utc: 2026-05-26T22:00Z → 2026-05-28T13:45Z
+range_utc: 2026-05-26T22:00Z → 2026-05-29T14:00Z
 hostname: mashinachui
 aggregation: sessions = same (app,title) merged with <120s gap, kept if ≥30s
 tz: Europe/Berlin (UTC+2 / CEST)
@@ -10,14 +10,15 @@ tz: Europe/Berlin (UTC+2 / CEST)
 
 # ActivityWatch — last 2 days timeline
 
-**Counts:** 672 window / 296 chrome / 80 afk events. **Sessions ≥30s:** 110.
+**Counts:** 782 window / 362 chrome / 126 afk events. **Sessions ≥30s:** 134.
 
 ## §1 Per-day active vs AFK
 
 | Day | Active (window sessions ≥30s) | not-afk (mouse/keyboard) | afk (idle) |
 |---|---|---|---|
 | 2026-05-27 | 6h00m | 3h55m | 60h40m |
-| 2026-05-28 | 1h32m | 1h38m | 24h27m |
+| 2026-05-28 | 5h49m | 2h07m | 55h50m |
+| 2026-05-29 | 3m31s | 3m53s | 0s |
 
 ## §2 Top apps per day
 
@@ -36,11 +37,18 @@ tz: Europe/Berlin (UTC+2 / CEST)
 
 | App | Time |
 |---|---|
-| `Code.exe` | 1h11m |
-| `claude.exe` | 11m55s |
-| `chrome.exe` | 3m53s |
-| `Telegram.exe` | 3m38s |
+| `Code.exe` | 5h01m |
+| `claude.exe` | 29m55s |
+| `Telegram.exe` | 11m07s |
+| `chrome.exe` | 4m57s |
 | `explorer.exe` | 1m28s |
+
+### 2026-05-29
+
+| App | Time |
+|---|---|
+| `Code.exe` | 2m58s |
+| `claude.exe` | 33s |
 
 ## §3 Top Chrome domains per day
 
@@ -61,10 +69,17 @@ tz: Europe/Berlin (UTC+2 / CEST)
 
 | Domain | Time |
 |---|---|
-| www.notion.so | 14m14s |
+| www.notion.so | 3h16m |
 | open.spotify.com | 3m22s |
+| track.toggl.com | 2m52s |
 | newtab | 1m15s |
-| track.toggl.com | 15s |
+
+### 2026-05-29
+
+| Domain | Time |
+|---|---|
+| www.notion.so | 1m28s |
+| newtab | 8s |
 
 ## §4 Files in this export
 

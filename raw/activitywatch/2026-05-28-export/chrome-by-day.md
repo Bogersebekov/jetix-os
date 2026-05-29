@@ -30,9 +30,17 @@ title: Chrome tabs by day (Berlin TZ, ≥5s tab focus)
 
 | Time | Domain — Title |
 |---|---|
-| 13m | www.notion.so — 2026-05-27 — Founder Role Research + Security Pillar + Tseren Send \| Notion |
+| 3h00m | www.notion.so — Daily Log \| Last 5 Days \| Notion |
+| 15m10s | www.notion.so — 2026-05-27 — Founder Role Research + Security Pillar + Tseren Send \| Notion |
 | 3m22s | open.spotify.com — By Triagrutrika, Pt. 1 – Album von Triagrutrika \| Spotify |
+| 2m52s | track.toggl.com — Toggl Track |
 | 1m15s | newtab — New Tab |
 | 1m14s | www.notion.so — Notion |
-| 15s | track.toggl.com — Toggl Track |
+
+## 2026-05-29
+
+| Time | Domain — Title |
+|---|---|
+| 1m28s | www.notion.so — Daily Log \| Last 5 Days \| Notion |
+| 8s | newtab — New Tab |
 

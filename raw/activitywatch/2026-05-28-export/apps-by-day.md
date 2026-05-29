@@ -50,13 +50,31 @@ title: Apps with titles by day (Berlin TZ, sessions ≥30s)
 
 | Time | App — Title |
 |---|---|
+| 3h12m | `Code.exe — Preview ACTION-PLAN-OUTREACH-FOCUS-2026-05-28.md - jetix-os [SSH: jetix] - Visua` |
 | 47m09s | `Code.exe — Preview SITUATION-REPORT-2026-05-27.md - jetix-os [SSH: jetix] - Visual Studio C` |
+| 29m55s | `claude.exe — Claude` |
+| 25m53s | `Code.exe — Preview timeline-2026-05-28.md - jetix-os [SSH: jetix] - Visual Studio Code` |
+| 16m15s | `Code.exe — Visual Studio Code` |
 | 15m57s | `Code.exe — Preview STRATEGIC-REPLAN-2026-05-28.md - jetix-os [SSH: jetix] - Visual Studio C` |
-| 11m55s | `claude.exe — Claude` |
-| 8m49s | `Code.exe — Visual Studio Code` |
 | 3m38s | `Telegram.exe — ‎Tseren Tserenov @ ‎/Ruslan (3428)` |
-| 2m09s | `chrome.exe — Daily Log \| Last 5 Days \| Notion - Google Chrome` |
+| 3m13s | `chrome.exe — Daily Log \| Last 5 Days \| Notion - Google Chrome` |
+| 3m03s | `Telegram.exe — ‎Лерчик✨ @ ‎/Ruslan (3442)` |
+| 1m53s | `Code.exe — Preview CALL-DMITRIY.md - jetix-os [SSH: jetix] - Visual Studio Code` |
+| 1m50s | `Telegram.exe — ‎Экосистема Созидания @ ‎/Ruslan (3441)` |
+| 1m29s | `Telegram.exe — ‎Лерчик✨ @ ‎/Ruslan (3443)` |
 | 1m28s | `explorer.exe — Apple iPhone - File Explorer` |
+| 1m09s | `Code.exe — Preview timeline-2026-05-27.md - jetix-os [SSH: jetix] - Visual Studio Code` |
 | 1m08s | `chrome.exe — 2026-05-27 — Founder Role Research + Security Pillar + Tseren Send \| Notion - Go` |
+| 1m07s | `Telegram.exe — ‎Идеи @ ‎/Ruslan (3447)` |
 | 36s | `chrome.exe — Toggl Track - Google Chrome` |
+| 35s | `Code.exe — ACTION-PLAN-OUTREACH-FOCUS-2026-05-28.md - jetix-os [SSH: jetix] - Visual Studio` |
+
+## 2026-05-29
+
+| Time | App — Title |
+|---|---|
+| 1m55s | `Code.exe — Release Notes: 1.122.0 - jetix-os [SSH: jetix] - Visual Studio Code` |
+| 33s | `Code.exe — Preview ACTION-PLAN-OUTREACH-FOCUS-2026-05-28.md - jetix-os [SSH: jetix] - Visua` |
+| 33s | `claude.exe — Claude` |
+| 31s | `Code.exe — Visual Studio Code` |
 
