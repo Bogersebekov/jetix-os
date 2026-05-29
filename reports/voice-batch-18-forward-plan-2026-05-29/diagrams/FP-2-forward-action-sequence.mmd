@@ -1,0 +1,58 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph TB
+    subgraph A["STAGE A — ship ready"]
+        FA1["FA-1 ⭐ Tseren send<br/>R · 1-2h · independent"]
+    end
+    subgraph B["STAGE B — упаковка пакета (today)"]
+        FA2["FA-2 ⭐ состав пакета<br/>CCW+R · 1h"]
+        FA3["FA-3 ⭐ Overview 1-pager<br/>CCW+R · 2-3h"]
+        FA4["FA-4 Метод 1-pager"]
+        FA5["FA-5 16 directions карта"]
+        FA6["FA-6 Ценности+R12"]
+        FA7["FA-7 Как участвовать"]
+        FA8["FA-8 ⭐ собрать пакет<br/>CCW · 1-2h"]
+    end
+    subgraph C["STAGE C — outreach prep"]
+        FA9["FA-9 ⭐ видео 1-2 грубо<br/>R · half-day"]
+        FA10["FA-10 talk prep doc"]
+        FA11["FA-11 CRM Wave-1 review"]
+    end
+    subgraph D["STAGE D — outreach exec (tiered 50)"]
+        FA12["FA-12 ⭐ Дмитрий-гум"]
+        FA13["FA-13 ⭐ Дмитрий Кайзер"]
+        FA14["FA-14 Егор"]
+        FA15["FA-15 Mastrik + broadcast"]
+        FA16["FA-16 replies→созвоны"]
+    end
+    subgraph E["STAGE E — gates/bg"]
+        FA17["FA-17 #15 audit (SCC)"]
+        FA18["FA-18 delegation map"]
+        FA19["FA-19 ⚠️ all-in R1"]
+    end
+    FA2 --> FA3 --> FA8
+    FA2 --> FA4 --> FA8
+    FA2 --> FA5 --> FA8
+    FA2 --> FA6 --> FA8
+    FA2 --> FA7 --> FA8
+    FA8 --> FA9
+    FA2 --> FA10
+    FA8 --> FA12
+    FA9 --> FA12
+    FA10 --> FA13
+    FA8 --> FA13
+    FA11 --> FA14
+    FA8 --> FA14
+    FA9 --> FA15
+    FA11 --> FA15
+    FA12 --> FA16
+    FA13 --> FA16
+    FA14 --> FA16
+    FA15 --> FA16
+    FA17 -.gate.-> O257G["геймификация build"]
+    style FA1 fill:#cce6ff,color:#000
+    style FA2 fill:#d6f0d6,color:#000
+    style FA3 fill:#d6f0d6,color:#000
+    style FA8 fill:#d6f0d6,color:#000
+    style FA9 fill:#ffe0a0,color:#000
+    style FA19 fill:#ffd6d6,color:#000
+    style FA17 fill:#ffd6d6,color:#000

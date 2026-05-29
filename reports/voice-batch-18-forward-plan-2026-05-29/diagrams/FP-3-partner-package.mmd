@@ -1,0 +1,29 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph TB
+    START(["👤 Партнёр открывает пакет"])
+    START --> P1["P-1 ⭐ Overview<br/>60 сек · 3P-призма<br/>'что это'"]
+    P1 --> P2["P-2 Метод<br/>5 мин · 'как работаете'"]
+    P2 --> P3["P-3 16 directions<br/>5 мин · 'масштаб+структура'"]
+    P3 --> P4["P-4 Ценности+R12<br/>3 мин · 'что гарантируете'"]
+    P4 --> P5["P-5 Как участвовать<br/>3 мин · 'моя роль'<br/>fork-and-leave"]
+    P5 --> DEEP{"заинтересовался?"}
+    DEEP -->|да, async| P6["P-6 Видео 1-2 'грубо'<br/>10 мин · живой голос"]
+    DEEP -->|хочет помочь строить| P7["P-7 Fundament status<br/>talk · tech/fin/legal"]
+    DEEP -->|нет| BYE["🙏 free goodbye<br/>'интересно — отвечу; нет — успехов'"]
+    P6 --> CALL["📞 созвон"]
+    P7 --> CALL
+    subgraph STORE["где живёт (3 слоя)"]
+        REPO["repo partner-package/ (source)"]
+        NOTION["Notion view"]
+        VID["external video link"]
+    end
+    subgraph DEFER["❌ НЕ в пакете"]
+        D1["геймификация mechanics (gate #15)"]
+        D2["financial deep / Master Plan 3-4"]
+        D3["wealth-promise (R12 strict)"]
+    end
+    style P1 fill:#d6f0d6,color:#000
+    style P4 fill:#cce6ff,color:#000
+    style BYE fill:#fff8d5,color:#000
+    style CALL fill:#ffe0a0,color:#000
+    style DEFER fill:#ffd6d6,color:#000

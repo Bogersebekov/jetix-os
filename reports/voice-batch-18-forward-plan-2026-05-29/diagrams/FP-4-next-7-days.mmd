@@ -1,0 +1,29 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa'}}}%%
+gantt
+    title Forward Plan — Next 7 Days (29.05 → 04.06)
+    dateFormat YYYY-MM-DD
+    axisFormat %d.%m
+
+    section A Ship ready
+    FA-1 Tseren send (R)            :crit, fa1, 2026-05-29, 1d
+
+    section B Упаковка пакета
+    FA-2 состав пакета (CCW+R)      :crit, fa2, 2026-05-29, 1d
+    FA-3 Overview 1-pager           :crit, fa3, 2026-05-29, 1d
+    FA-4..7 Метод/16dir/Ценности/Участие :fa47, 2026-05-30, 1d
+    FA-8 собрать пакет              :crit, fa8, 2026-05-30, 1d
+
+    section C Outreach prep
+    FA-10 talk prep                 :fa10, 2026-05-30, 1d
+    FA-11 CRM Wave-1 review         :fa11, 2026-05-29, 1d
+    FA-9 видео 1-2 грубо (R)        :crit, fa9, 2026-05-31, 1d
+
+    section D Outreach exec
+    FA-12/13/14 high-touch sends    :crit, fad, 2026-05-31, 2d
+    FA-15 Mastrik + broadcast (50)  :fa15, 2026-06-01, 2d
+    FA-16 replies → созвоны         :fa16, 2026-06-02, 3d
+
+    section E Gates/bg
+    FA-17 #15 audit (SCC)           :fa17, 2026-05-30, 1d
+    FA-18 delegation map            :fa18, 2026-06-01, 1d
+    FA-19 all-in decision (R1)      :milestone, fa19, 2026-05-31, 0d

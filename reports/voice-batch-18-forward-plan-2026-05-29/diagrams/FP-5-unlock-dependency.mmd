@@ -1,0 +1,29 @@
+%%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa','noteBkgColor':'#fff8d5'}}}%%
+graph LR
+    subgraph NOW["state-now"]
+        SUB["✅ Substrate готов<br/>Foundation+V4+CRM+research"]
+        EXT0["❌ External = ноль"]
+    end
+    SUB --> FA2["FA-2 состав пакета"]
+    FA2 --> PKG["📦 FA-3..8 базовые документы"]
+    PKG -->|unlock| OUT["📤 Outreach возможен"]
+    SUB -->|independent| TSEREN["FA-1 Tseren ship<br/>(ломает external-zero СЕЙЧАС)"]
+    TSEREN --> EXT1["первый external touch ✅"]
+    PKG --> VIDEO["FA-9 видео грубо"]
+    VIDEO --> OUT
+    OUT --> HIGH["FA-12/13/14 high-touch<br/>Дмитрий ×2 + Егор"]
+    OUT --> BROAD["FA-15 broadcast<br/>Mastrik + 5-10 → 50 msgs"]
+    HIGH --> FEED["FA-16 feedback loop"]
+    BROAD --> FEED
+    FEED -->|месяц| FUND["фундамент + команда 5-6<br/>(O-252) + делегирование (O-253)"]
+    FUND -->|после ценности+crypto| LAUNCH["🚀 launch (O-247: только потом)"]
+    GAMIF["O-257 геймификация"] -.GATE.-> AUDIT["FA-17 #15 audit"]
+    AUDIT -.unlock.-> GBUILD["геймификация build"]
+    ALLIN["FA-19 all-in drop-job"] -.R1+sustainability.-> RDEC["Ruslan decide"]
+    style SUB fill:#d6f0d6,color:#000
+    style EXT0 fill:#ffd6d6,color:#000
+    style PKG fill:#cce6ff,color:#000
+    style OUT fill:#ffe0a0,color:#000
+    style LAUNCH fill:#fff8d5,color:#000
+    style AUDIT fill:#ffd6d6,color:#000
+    style ALLIN fill:#ffd6d6,color:#000
