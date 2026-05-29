@@ -79,8 +79,9 @@ reading_time: ~6 минут
 «раздавить». Щит, а не таран. [src: Ruslan voice 2026-05-29 P-1-enhance · ECONOMIC-V10 §10 anti-extraction]
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'background':'#ffffff','primaryColor':'#fafafa','primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','noteBkgColor':'#fff8d5'}}}%%
+%%{init: {'theme':'base','themeVariables':{'background':'#ffffff','mainBkg':'#eef2f7','primaryColor':'#eef2f7','primaryTextColor':'#000','primaryBorderColor':'#555','secondaryColor':'#f5f5f5','tertiaryColor':'#ffffff','textColor':'#000','lineColor':'#333','edgeLabelBackground':'#ffffff','noteBkgColor':'#fff8d5','noteTextColor':'#000','clusterBkg':'#f5f5f5','clusterBorder':'#999','titleColor':'#000'}}}%%
 graph LR
+    classDef default fill:#eef2f7,stroke:#555,stroke-width:1px,color:#000;
     subgraph PROB[⚠️ Проблема]
         RE[🔁 reverse engineering<br/>AI копирует мастера<br/>с его видео и книг]
         CP[⚡ + больше compute<br/>и ресурсов]
@@ -142,8 +143,9 @@ graph LR
 > мастерства, ответственности и развития. [src: Ruslan voice 2026-05-29 P-1-enhance]
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'background':'#ffffff','primaryColor':'#fafafa','primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','noteBkgColor':'#fff8d5'}}}%%
+%%{init: {'theme':'base','themeVariables':{'background':'#ffffff','mainBkg':'#eef2f7','primaryColor':'#eef2f7','primaryTextColor':'#000','primaryBorderColor':'#555','secondaryColor':'#f5f5f5','tertiaryColor':'#ffffff','textColor':'#000','lineColor':'#333','edgeLabelBackground':'#ffffff','noteBkgColor':'#fff8d5','noteTextColor':'#000','clusterBkg':'#f5f5f5','clusterBorder':'#999','titleColor':'#000'}}}%%
 graph LR
+    classDef default fill:#eef2f7,stroke:#555,stroke-width:1px,color:#000;
     M1[🧠 Усиление памяти<br/>звонки · договорённости · заметки<br/>не теряешь контекст]
     M2[📊 Управление проектами<br/>видно ресурсы · поиск возможностей<br/>много проектов параллельно]
     M3[🛠️ Навыки + делегирование рутины<br/>система забирает рутину]

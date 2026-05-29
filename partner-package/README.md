@@ -42,8 +42,9 @@ total_reading_time: ~27 минут (8 документов)
 | 8 | **[P-8 · Кто я](P-8-kto-ya-ruslan.md)** | «Кто за этим стоит?» (можно читать первым — для доверия) | 3 мин |
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'background':'#ffffff','primaryColor':'#fafafa','primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','noteBkgColor':'#fff8d5'}}}%%
+%%{init: {'theme':'base','themeVariables':{'background':'#ffffff','mainBkg':'#eef2f7','primaryColor':'#eef2f7','primaryTextColor':'#000','primaryBorderColor':'#555','secondaryColor':'#f5f5f5','tertiaryColor':'#ffffff','textColor':'#000','lineColor':'#333','edgeLabelBackground':'#ffffff','noteBkgColor':'#fff8d5','noteTextColor':'#000','clusterBkg':'#f5f5f5','clusterBorder':'#999','titleColor':'#000'}}}%%
 graph LR
+    classDef default fill:#eef2f7,stroke:#555,stroke-width:1px,color:#000;
     P8[P-8 кто я<br/>опц. в начале] -.доверие.-> P1
     P1[P-1 что это] --> P2[P-2 как работаем] --> P3[P-3 масштаб] --> P4[P-4 что гарантирую] --> P5[P-5 твоя роль]
     P5 --> P6[P-6 чем помочь]

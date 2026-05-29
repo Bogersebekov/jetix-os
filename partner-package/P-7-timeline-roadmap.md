@@ -42,8 +42,9 @@ substrate_read_only: Strategic Plan LOCKED + METAPLAN-V4 + ECONOMIC-V10 + Moneti
 > звать толпу в недостроенный дом. [src: Ruslan voice 2026-05-29 partner-extend]
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'background':'#ffffff','primaryColor':'#fafafa','primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','noteBkgColor':'#fff8d5'}}}%%
+%%{init: {'theme':'base','themeVariables':{'background':'#ffffff','mainBkg':'#eef2f7','primaryColor':'#eef2f7','primaryTextColor':'#000','primaryBorderColor':'#555','secondaryColor':'#f5f5f5','tertiaryColor':'#ffffff','textColor':'#000','lineColor':'#333','edgeLabelBackground':'#ffffff','noteBkgColor':'#fff8d5','noteTextColor':'#000','clusterBkg':'#f5f5f5','clusterBorder':'#999','titleColor':'#000'}}}%%
 graph LR
+    classDef default fill:#eef2f7,stroke:#555,stroke-width:1px,color:#000;
     T0[📍 T0 · Сейчас<br/>1 человек + AI<br/>документы, наработки]
     M1[👥 M1 · Партнёры<br/>собраны 5–10<br/>+ обсуждение]
     M2[🏗️ M2 · Фундамент<br/>legal + fin + tech<br/>реально построен]
@@ -64,7 +65,7 @@ graph LR
 ```
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'background':'#ffffff','primaryColor':'#fafafa','primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333'}}}%%
+%%{init: {'theme':'base','themeVariables':{'background':'#ffffff','textColor':'#000','titleColor':'#000','lineColor':'#333','sectionBkgColor':'#eef2f7','altSectionBkgColor':'#ffffff','sectionBkgColor2':'#e0e8f0','taskBkgColor':'#cce6ff','taskBorderColor':'#555','taskTextColor':'#000','taskTextOutsideColor':'#000','taskTextLightColor':'#000','taskTextDarkColor':'#000','activeTaskBkgColor':'#ffe0a0','activeTaskBorderColor':'#555','doneTaskBkgColor':'#d6f0d6','doneTaskBorderColor':'#555','critBkgColor':'#ffd6d6','critBorderColor':'#555','gridColor':'#ccc','todayLineColor':'#cc0000','milestoneBkgColor':'#fff8d5'}}}%%
 gantt
     title Роадмап до конца 2026 (план/амбиция, не обещание)
     dateFormat YYYY-MM-DD
@@ -112,8 +113,9 @@ gantt
 | **Лучшие методики продаж/продвижения** | 🔧 REFRAME | Доступны как **инструментарий**, но прогнаны через R12: никаких dark-patterns, искусственного дефицита, ложной срочности, давления. Честная ясность ≠ манипуляция. |
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'background':'#ffffff','primaryColor':'#fafafa','primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','noteBkgColor':'#fff8d5'}}}%%
+%%{init: {'theme':'base','themeVariables':{'background':'#ffffff','mainBkg':'#eef2f7','primaryColor':'#eef2f7','primaryTextColor':'#000','primaryBorderColor':'#555','secondaryColor':'#f5f5f5','tertiaryColor':'#ffffff','textColor':'#000','lineColor':'#333','edgeLabelBackground':'#ffffff','noteBkgColor':'#fff8d5','noteTextColor':'#000','clusterBkg':'#f5f5f5','clusterBorder':'#999','titleColor':'#000'}}}%%
 graph TB
+    classDef default fill:#eef2f7,stroke:#555,stroke-width:1px,color:#000;
     PROMO([🗺️ Продвижение M3<br/>все варианты как гипотезы])
 
     PROMO --> SAFE[✅ SAFE]

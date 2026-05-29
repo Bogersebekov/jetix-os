@@ -26,8 +26,9 @@ prose_authored_by: ruslan (вся история — за ним; рой дал 
 ## Хронология (жизненная линия)
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'background':'#ffffff','primaryColor':'#fafafa','primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','noteBkgColor':'#fff8d5'}}}%%
+%%{init: {'theme':'base','themeVariables':{'background':'#ffffff','mainBkg':'#eef2f7','primaryColor':'#eef2f7','primaryTextColor':'#000','primaryBorderColor':'#555','secondaryColor':'#f5f5f5','tertiaryColor':'#ffffff','textColor':'#000','lineColor':'#333','edgeLabelBackground':'#ffffff','noteBkgColor':'#fff8d5','noteTextColor':'#000','clusterBkg':'#f5f5f5','clusterBorder':'#999','titleColor':'#000'}}}%%
 graph LR
+    classDef default fill:#eef2f7,stroke:#555,stroke-width:1px,color:#000;
     A[🏊 Профессиональный спорт<br/>плавание]
     B[🧍 17 лет<br/>жил один]
     C["[Ruslan заполнит:<br/>ключевая глава]"]
