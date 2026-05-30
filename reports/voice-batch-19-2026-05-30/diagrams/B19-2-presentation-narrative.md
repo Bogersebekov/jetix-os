@@ -1,3 +1,13 @@
+---
+title: B19-2 — куда дополнения b19 ложатся в нарратив презентации
+type: diagram
+date: 2026-05-30
+batch: 19
+---
+
+# B19-2 — куда дополнения b19 ложатся в нарратив презентации
+
+```mermaid
 %%{init: {'theme':'base','themeVariables':{'background':'#ffffff','primaryTextColor':'#000','textColor':'#000','lineColor':'#666','primaryBorderColor':'#333','primaryColor':'#fafafa','fontFamily':'Inter, system-ui, sans-serif'}}}%%
 graph TB
     subgraph NARR["🎤 Нарратив презентации — куда ложатся дополнения b19"]
@@ -40,3 +50,4 @@ graph TB
     class A2,A4,A5,A6 act
     class A1 block
     class GAP gap
+```

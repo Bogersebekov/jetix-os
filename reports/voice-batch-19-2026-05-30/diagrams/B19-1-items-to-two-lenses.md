@@ -1,3 +1,13 @@
+---
+title: B19-1 — items O-264..O-283 → две призмы (wiki / презентация)
+type: diagram
+date: 2026-05-30
+batch: 19
+---
+
+# B19-1 — items O-264..O-283 → две призмы
+
+```mermaid
 %%{init: {'theme':'base','themeVariables':{'background':'#ffffff','primaryTextColor':'#000','textColor':'#000','lineColor':'#666','primaryBorderColor':'#333','primaryColor':'#fafafa','fontFamily':'Inter, system-ui, sans-serif'}}}%%
 graph LR
     subgraph SRC["🎙️ b19 — 6 заметок 30.05 → O-264..O-283 (20 items)"]
@@ -44,3 +54,4 @@ graph LR
     class LWIKI wiki
     class LPRES pres
     class R12 guard
+```
