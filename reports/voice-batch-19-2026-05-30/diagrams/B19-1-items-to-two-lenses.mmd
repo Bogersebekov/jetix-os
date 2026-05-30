@@ -1,0 +1,46 @@
+%%{init: {'theme':'base','themeVariables':{'background':'#ffffff','primaryTextColor':'#000','textColor':'#000','lineColor':'#666','primaryBorderColor':'#333','primaryColor':'#fafafa','fontFamily':'Inter, system-ui, sans-serif'}}}%%
+graph LR
+    subgraph SRC["🎙️ b19 — 6 заметок 30.05 → O-264..O-283 (20 items)"]
+        direction TB
+        C1["<b>Кластер 1 — WHY/Vision</b><br/>O-275 ⭐ «с тренером лучше»<br/>O-281 ⭐ рекурсия ценности<br/>O-267 масштаб · O-266 голод"]
+        C2["<b>Кластер 2 — Платформа/механика</b><br/>O-264 ⭐ two-sided<br/>O-265 хакатоны self-org<br/>O-277 🔶 лига · O-278 🔶 блогеры"]
+        C3["<b>Кластер 3 — Партнёрская когорта</b><br/>O-270 🔶 20 отобранных<br/>O-271 pooling · O-272 full-stack<br/>O-273 🔶 видео · O-276 🔶 welcome"]
+        C4["<b>Кластер 4 — Бизнес/числа</b><br/>O-279 ⭐ финмодель<br/>O-268 🔶 benefit-stack<br/>O-269 pitch · O-274 картина"]
+        C5["<b>Кластер 5 — Founder</b><br/>O-280 500h · O-282 all-in<br/>O-283 взаимная вера"]
+    end
+
+    LWIKI["📚 <b>Призма A — WIKI</b><br/>9 кандидатов W1-W9<br/>(1×A · 2×B · 6×C)<br/>bulk-ack, NO auto-write"]
+    LPRES["🎤 <b>Призма B — ПРЕЗЕНТАЦИЯ</b><br/>8 слайдов S1-S8<br/>6 действий A1-A6<br/>R2: surface, NO auto-write"]
+
+    C1 --> LWIKI
+    C1 --> LPRES
+    C2 --> LWIKI
+    C2 --> LPRES
+    C3 --> LPRES
+    C3 --> LWIKI
+    C4 --> LPRES
+    C5 --> LPRES
+    C5 --> LWIKI
+
+    R12{{"⚖️ R12 RECEIVER<br/>6 surfaces → MED cluster<br/>REFRAME ×4 · GATE#15 ×1<br/>PAIRED-FRAME SATISFIED"}}
+    C2 -. 🔶 .-> R12
+    C3 -. 🔶 .-> R12
+    C4 -. 🔶 .-> R12
+
+    classDef vision fill:#e8eaf6,stroke:#283593,color:#000
+    classDef plat fill:#e1f5fe,stroke:#01579b,color:#000
+    classDef cohort fill:#f3e5f5,stroke:#6a1b9a,color:#000
+    classDef biz fill:#fff8e1,stroke:#f57c00,color:#000
+    classDef founder fill:#fce4ec,stroke:#ad1457,color:#000
+    classDef wiki fill:#e0f2f1,stroke:#00695c,color:#000,stroke-width:3px
+    classDef pres fill:#e3f2fd,stroke:#1565c0,color:#000,stroke-width:3px
+    classDef guard fill:#ffebee,stroke:#c62828,color:#000
+
+    class C1 vision
+    class C2 plat
+    class C3 cohort
+    class C4 biz
+    class C5 founder
+    class LWIKI wiki
+    class LPRES pres
+    class R12 guard
