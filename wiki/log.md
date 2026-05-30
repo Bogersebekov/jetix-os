@@ -1,10 +1,44 @@
 ---
 type: log
-updated: 2026-05-27
+updated: 2026-05-30
 ---
 # Log — Jetix OS Wiki
 
 Append-only хронология. Новые записи сверху.
+
+## [2026-05-30] [completeness-audit + wiki-ingest] batch-19 W1-W9 + prior-batch sweep | 12 pages + 15 edges | per Ruslan voice 30.05 «добавляй всё в wiki» (R12-gated)
+
+Wiki ingestion из voice-batch-19 (O-264..O-283) + prior-batch sweep (b18). Materialized в
+canonical KB `wiki/` (Wiki Architecture v2 — где все voice-batch insights живут; prompt path
+«swarm/wiki/» reconciled → `wiki/` per "wiki v2 discipline" + prior-batch convention; см.
+`reports/completeness-audit-2026-05-30/01-wiki-ingested.md` §path-reconciliation).
+
+**1 NEW Tier A (concepts/):**
+- [[concepts/coach-thesis-why-jetix]] (O-275 ⭐) — ядро WHY «с тренером лучше, чем без»; benefit-stack ×7; honest utility-frame, NOT FOMO. Главный кандидат батча.
+
+**2 NEW Tier B (concepts/):**
+- [[concepts/two-sided-talent-platform]] (O-264) — профи+инструменты ↔ мотивированные ученики; love-economy.
+- [[concepts/recursive-value-chain]] (O-281) — я→система→люди→мир→компания→жизнь; power-as-means.
+
+**5 NEW Tier C (ideas/ + concepts/ + claims/):**
+- [[ideas/resource-pooling-proof]] (O-271) · [[ideas/partner-cohort-fullstack]] (O-272) · [[ideas/hackathon-self-organizing]] (O-265) · [[claims/founder-500h-meaning]] (O-280/282 F2) · [[concepts/mutual-belief-hunger]] (O-283).
+
+**1 R12-GATED (ideas/):**
+- [[ideas/jetix-sports-league-model-r12-gated]] (O-277) ⚠️ GATE #15 — NOT materialized as mechanic; raw rhetoric = F2 substrate only; Anti-Dark-Patterns audit required (objectification + status-loop risk; transfer-market «перегон игроков»). paired-frame applied.
+
+**2 prior-batch sweep (b18, resolved dangling edges):**
+- [[concepts/3p-prizma]] (b18 O-237 ⭐ Tier B) — продукты/процессы/проекты framing-устройство.
+- [[ideas/vsemirny-proekt-humble]] (b18 O-246 C) — всемирный проект humble-fixed (anti-hype).
+
+**1 source:** [[sources/voice-batch-19-2026-05-30]].
+
+**Edges:** +15 typed (`graph/edges.jsonl`) — supports/extends/refines/related/cites.
+
+**R12 note:** W6 league GATED (раздел = F2-only, не external copy). Healthy self-frames (4) усилены:
+coach-thesis (honest utility) · two-sided (но love≠недоплата) · recursive (power-as-means) · mutual-belief
+(reciprocity). influence-ethics RECEIVER fired на league + recruitment surfaces. NO new CRITICAL.
+
+**Companion:** base-wide completeness audit + 4 концепта → `decisions/strategic/PRESENTATION-ADDITIONS-AND-GAPS-AUDIT-2026-05-30.md` (fixation doc, Ruslan picks).
 
 ## [2026-05-27] [wiki-promotions-batch-14] 2 NEW Tier A + 5 NEW Tier B + 1 §APPEND | per Ruslan ack-all «акаю всё, фиксируй везде»
 
