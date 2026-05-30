@@ -43,7 +43,25 @@ status: DRAFT — P-1/P-2/P-4/P-6/P-7 ждут Ruslan prose-pass; P-8 = скел
 | P-7 | [Таймлайн / роадмап EOY](../../partner-package/P-7-timeline-roadmap.md) | «Где сейчас + куда идём?» | DRAFT | ✅ нужен (роадмап = R1) |
 | P-8 | [Кто я (Руслан)](../../partner-package/P-8-kto-ya-ruslan.md) | «Кто за этим стоит?» | **СКЕЛЕТ** | ✍️ Ruslan заполняет |
 
-+ [README.md](../../partner-package/README.md) — индекс + reading path (~27 мин, 8 документов).
++ [README.md](../../partner-package/README.md) — индекс + reading path.
+
+### §1.6 Full presentation build (добавлено 2026-05-30 per `prompts/partner-presentation-build-full-2026-05-30.md`)
+
+Ruslan аккнул ВСЕ предложения аудита (`PRESENTATION-ADDITIONS-AND-GAPS-AUDIT-2026-05-30`) → впихнуть всё.
+
+| Артефакт | Что | Статус |
+|---|---|---|
+| [PRESENTATION-MASTER](../../partner-package/presentation/PRESENTATION-MASTER-2026-05-30.md) | 20 слайдов WHY-first → recursive-close; ВСЕ picks + 4 концепта (один R12-контур) | DRAFT R1 |
+| [00-INDEX-AND-ORDER](../../partner-package/presentation/00-INDEX-AND-ORDER.md) | что в презентации + порядок рассказа (Ruslan смотрит порядок) | DRAFT R1 |
+| [P-9 Кланы](../../partner-package/P-9-klany.md) | gap-doc — lifecycle 7 фаз, mesh | DRAFT R1 |
+| [P-10 Правила](../../partner-package/P-10-pravila.md) | gap-doc — пол vs свобода клана | DRAFT R1 |
+| [P-11 Мастерская](../../partner-package/P-11-masterskaya.md) | gap-doc — foundation metaphor | DRAFT R1 |
+| [A1 финмодель](JETIX-FINANCIAL-MODEL-DRAFT-2026-05-30.md) | unit-econ + монетизация + фонд + pooling (иллюстративная, no-promise) | DRAFT R1 |
+| P-1..P-8 | picks встроены (WHY-opener / recursive-close / intelligence / two-sided / moat / crypto / cohort / числа / timing) | DRAFT R1 |
+
+Phase reports + R12-verdict: `reports/partner-presentation-build-2026-05-30/`. R2 STRICT (Foundation / 4
+LOCKED / V4 untouched). R12 STRICT (no wealth-promise; numbers no-promise; 4 guards visible; #15 gated;
+коины Phase2+). IP-1 (P-8/S19 = Ruslan).
 
 ---
 

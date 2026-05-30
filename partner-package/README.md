@@ -2,10 +2,11 @@
 title: "Партнёрский пакет Jetix — индекс и путь чтения"
 date: 2026-05-29
 type: partner-package-index
-status: DRAFT — P-1/P-2/P-4/P-6/P-7 ждут Ruslan prose-pass; P-8 = скелет (Ruslan заполняет)
+status: DRAFT — P-1/P-2/P-4/P-6/P-7/P-9/P-10/P-11 ждут Ruslan prose-pass; P-8 = скелет; презентация = порядок-review
 audience: партнёры и помощники
 language: russian
-total_reading_time: ~27 минут (8 документов)
+total_reading_time: ~40 минут (11 P-доков) + презентация 20 слайдов (~31 мин рассказа)
+updated: 2026-05-30 (full presentation build — +P-9/P-10/P-11 + presentation/ + A1 финмодель)
 ---
 
 # 📦 Партнёрский пакет Jetix
@@ -40,6 +41,22 @@ total_reading_time: ~27 минут (8 документов)
 | 6 | **[P-6 · Чем помочь](P-6-chem-pomoch-resursy.md)** | «Чем именно я могу помочь?» | 4 мин |
 | 7 | **[P-7 · Таймлайн / роадмап](P-7-timeline-roadmap.md)** | «Где вы сейчас и куда идёте?» | 5 мин |
 | 8 | **[P-8 · Кто я](P-8-kto-ya-ruslan.md)** | «Кто за этим стоит?» (можно читать первым — для доверия) | 3 мин |
+
+**Добор фундамента (P-9..P-11, ~13 мин)** — раскрывают то, что было «невидимо» в пакете (audit 2026-05-30):
+
+| Шаг | Документ | Отвечает на вопрос | ~Время |
+|---|---|---|---|
+| 9 | **[P-9 · Кланы](P-9-klany.md)** | «Как устроена сеть?» (lifecycle 7 фаз, mesh) | 5 мин |
+| 10 | **[P-10 · Правила](P-10-pravila.md)** | «Как это управляется?» (пол vs свобода клана) | 4 мин |
+| 11 | **[P-11 · Мастерская](P-11-masterskaya.md)** | «Что это за пространство?» (foundation metaphor) | 4 мин |
+
+**Презентация и числа:**
+
+| Документ | Что это |
+|---|---|
+| **[🎤 presentation/PRESENTATION-MASTER](presentation/PRESENTATION-MASTER-2026-05-30.md)** | 20 слайдов (WHY-first → recursive-close), все picks встроены |
+| **[🧭 presentation/00-INDEX-AND-ORDER](presentation/00-INDEX-AND-ORDER.md)** | что в презентации + порядок рассказа (Ruslan смотрит порядок) |
+| **[💹 A1 финмодель](../decisions/strategic/JETIX-FINANCIAL-MODEL-DRAFT-2026-05-30.md)** | unit-econ + монетизация + фонд + pooling (иллюстративная, no-promise) |
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'background':'#ffffff','mainBkg':'#eef2f7','primaryColor':'#eef2f7','primaryTextColor':'#000','primaryBorderColor':'#555','secondaryColor':'#f5f5f5','tertiaryColor':'#ffffff','textColor':'#000','lineColor':'#333','edgeLabelBackground':'#ffffff','noteBkgColor':'#fff8d5','noteTextColor':'#000','clusterBkg':'#f5f5f5','clusterBorder':'#999','titleColor':'#000'}}}%%
@@ -96,8 +113,18 @@ graph LR
 | P-6 Чем помочь | DRAFT | ✅ да (рамка asks = R1) |
 | P-7 Таймлайн / роадмап | DRAFT | ✅ да (роадмап + milestones = R1) |
 | P-8 Кто я | **СКЕЛЕТ** | ✍️ **Ruslan заполняет** (личная история = только его авторство) |
+| P-9 Кланы | DRAFT | ✅ да (R1) |
+| P-10 Правила | DRAFT | ✅ да (R1) |
+| P-11 Мастерская | DRAFT | ✅ да (R1) |
+| PRESENTATION-MASTER | DRAFT | ✅ порядок-review + prose-pass (S1/S6/S13/S14/S20); S19 = Ruslan |
+| A1 финмодель | DRAFT | ✅ допущения-review (числа = иллюстрация) |
 
-> **DRAFT-only.** P-1 / P-2 / P-4 / P-6 / P-7 — не финал, ждут prose-pass Руслана перед любой
-> отправкой партнёру. **P-8 — скелет**: каркас + плейсхолдеры, личную историю пишет Руслан сам.
-> Формат всех документов — чистый markdown, готов к заливке в Notion-подстраницу «Сбор партнёрских
-> документов».
+> **DRAFT-only.** P-1 / P-2 / P-4 / P-6 / P-7 / P-9 / P-10 / P-11 — не финал, ждут prose-pass Руслана
+> перед любой отправкой партнёру. **P-8 — скелет**: каркас + плейсхолдеры, личную историю пишет Руслан
+> сам. **Презентация** — контент-уровень (20 слайдов), ждёт порядок-review + prose-pass; Слайд 19
+> (founder) = Ruslan (IP-1). **A1 финмодель** — иллюстративная, явные допущения, NO promise. Формат всех
+> документов — чистый markdown, готов к заливке в Notion-подстраницу «Сбор партнёрских документов».
+>
+> **Обновление 2026-05-30 (full presentation build):** все audit-picks (4 таблицы) встроены в
+> PRESENTATION-MASTER + P-доки; добор P-9/P-10/P-11; финмодель A1; INDEX-AND-ORDER. См.
+> `reports/partner-presentation-build-2026-05-30/00-SUMMARY-FOR-RUSLAN.md`.

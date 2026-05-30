@@ -86,3 +86,6 @@ graph LR
 > **SKELETON — R1.** Личная история = полностью authoring Руслана. Рой дал только структуру и вписал
 > названные факты verbatim. Ничего не выдумано (R6). После заполнения — лёгкий проход на тон и
 > готовность к Notion.
+>
+> **🔖 Связь с презентацией (2026-05-30).** Этот скелет питает **Слайд 19** PRESENTATION-MASTER (founder-
+> story slot). Слайд 19 = placeholder до заполнения P-8. IP-1 STRICT: founder-story = Ruslan only.
